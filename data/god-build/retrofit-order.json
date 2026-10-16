@@ -1,0 +1,6459 @@
+{
+ "_about": "The order in which existing identification pages are rebuilt to the photo-ID formula (owner, Oct 16, 2026: act now, additive only). How to rebuild one: data/god-build/RETROFIT_BRIEF.md. Tier 1 = pages with measured striking-distance demand, by score; tier 2 = identification guides with no Search Console data yet (released Oct 7-16, before the formula), by the format hit rates in data/god-build/bettertermite-teardown.md.",
+ "generated": "2026-10-16",
+ "source": "Google Search Console API, sc-domain:buzzskito.ca, web search, dataState all; page dimension for totals, page+query for the position mix (multi-dimension pulls drop rows, so use those for ranking, not totals).",
+ "windows": {
+  "d90": [
+   "2026-07-16",
+   "2026-10-13"
+  ],
+  "d28": [
+   "2026-09-16",
+   "2026-10-13"
+  ]
+ },
+ "method": "Per page and per window: impressions at positions 4-20 (page+query rows whose position rounds to 4-20) per month; gain = those impressions x (top-3 click-through - their current click-through) at 2.5% / 4% / 6% (low / mid / high, the same rates as path-to-50k.md table 1b). score = mean of the mid gain over 90 days and over 28 days, so a page needs demand both across the season and now. It is a ceiling (every query reaching the top 3); plan on 30-50% of it.",
+ "fields": {
+  "kind": "tsx = hand-written article (app/blog/<slug>/page.tsx); json = guide (content/guides/<slug>.json, rendered by components/GuidePage.tsx)",
+  "type": "bites | signs | life-stage | look-alikes | x-vs-y | bugs-in-a-place | id | species-name (a page whose searches are the pest's name, usually a control page)",
+  "titleNow": "the rendered <title> from the last full build (Oct 15, 23:40)",
+  "inboundLinks": "distinct pages linking to it in that build (pages released Oct 16 are not counted)",
+  "oct15_16": "TSX only: photos added Oct 15 or 16 (sitemap dated sets) and whether META_TITLE changed since Oct 15 (git)",
+  "formulaGaps": "what the page lacks against the formula",
+  "linkInCandidates": "topically close live articles that do not link to it yet, strongest first (input for the link-in agent, data/god-build/LINK_IN_BRIEF.md); judge each by hand"
+ },
+ "exclusions": "Not listed: service, city, quote and pricing pages; product-review / affiliate \"best X\" pages (titles only at most); the 33 lead posts (lib/page-roles.json); question and control pages whose searches are not identification. The biggest of those are in excludedHighGain with the reason.",
+ "pages": [
+  {
+   "path": "/blog/why-do-mosquito-bites-itch",
+   "kind": "tsx",
+   "file": "app/blog/why-do-mosquito-bites-itch/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 516.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 314.0,
+     "mid": 519.8,
+     "high": 794.2
+    },
+    "d28": {
+     "low": 309.5,
+     "mid": 513.9,
+     "high": 786.3
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 13720,
+    "d28": 13623
+   },
+   "strikingCtrPct": {
+    "d90": 0.21,
+    "d28": 0.23
+   },
+   "clicksPerMonth": {
+    "d90": 96.7,
+    "d28": 130.7
+   },
+   "position": {
+    "d90": 7.0,
+    "d28": 6.6
+   },
+   "topQueries": [
+    "how long do mosquito bites last (3936/mo, pos 7.2, ctr 0.1%)",
+    "how long does a mosquito bite last (865/mo, pos 7.9, ctr 0.2%)",
+    "how long do mosquito bites itch (598/mo, pos 9.5, ctr 0.1%)",
+    "how long does mosquito bites last (322/mo, pos 7.4, ctr 0.0%)",
+    "how long does it take for mosquito bites to go away (273/mo, pos 8.2, ctr 0.0%)"
+   ],
+   "titleNow": "How Long Do Mosquito Bites Last & Itch? Timeline | BuzzSkito",
+   "inboundLinks": 10,
+   "has": {
+    "photos": 0,
+    "faqs": 33,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 7
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/why-mosquitoes-bite-some-people-more",
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/mosquito-larvae-identification",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like"
+   ],
+   "status": "retrofitted Oct 16 (pilot): see data/god-build/RETROFIT_BRIEF.md, \"Worked examples\"",
+   "rank": 1
+  },
+  {
+   "path": "/blog/mosquito-larvae-identification",
+   "kind": "tsx",
+   "file": "app/blog/mosquito-larvae-identification/page.tsx",
+   "type": "life-stage",
+   "tier": 1,
+   "score": 496.5,
+   "gainPerMonth": {
+    "d90": {
+     "low": 422.3,
+     "mid": 696.8,
+     "high": 1062.9
+    },
+    "d28": {
+     "low": 177.5,
+     "mid": 296.2,
+     "high": 454.5
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 18304,
+    "d28": 7914
+   },
+   "strikingCtrPct": {
+    "d90": 0.19,
+    "d28": 0.26
+   },
+   "clicksPerMonth": {
+    "d90": 90.0,
+    "d28": 94.3
+   },
+   "position": {
+    "d90": 8.4,
+    "d28": 7.4
+   },
+   "topQueries": [
+    "mosquito larvae (12973/mo, pos 9.7, ctr 0.1%)",
+    "what does mosquito larvae look like (894/mo, pos 7.1, ctr 0.6%)",
+    "what do mosquito larvae look like (856/mo, pos 6.3, ctr 0.9%)",
+    "mosquito larve (327/mo, pos 10.0, ctr 0.1%)",
+    "mosquito larva (313/mo, pos 7.6, ctr 0.3%)"
+   ],
+   "titleNow": "Mosquito Larvae: What They Look Like & Kill Them | BuzzSkito",
+   "inboundLinks": 14,
+   "has": {
+    "photos": 5,
+    "faqs": 38,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 11
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/male-vs-female-mosquito",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/what-colors-attract-mosquitoes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/mosquito-fogger-canada"
+   ],
+   "rank": 2
+  },
+  {
+   "path": "/blog/male-vs-female-mosquito",
+   "kind": "tsx",
+   "file": "app/blog/male-vs-female-mosquito/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 376.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 206.8,
+     "mid": 334.5,
+     "high": 504.8
+    },
+    "d28": {
+     "low": 256.4,
+     "mid": 418.0,
+     "high": 633.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 8513,
+    "d28": 10771
+   },
+   "strikingCtrPct": {
+    "d90": 0.07,
+    "d28": 0.12
+   },
+   "clicksPerMonth": {
+    "d90": 21.7,
+    "d28": 36.4
+   },
+   "position": {
+    "d90": 7.3,
+    "d28": 6.5
+   },
+   "topQueries": [
+    "male vs female mosquito (1064/mo, pos 7.7, ctr 0.0%)",
+    "male mosquito vs female (850/mo, pos 7.1, ctr 0.1%)",
+    "female mosquito (683/mo, pos 8.5, ctr 0.1%)",
+    "male mosquito (472/mo, pos 8.3, ctr 0.1%)",
+    "male and female mosquito (300/mo, pos 7.4, ctr 0.0%)"
+   ],
+   "titleNow": "Male vs Female Mosquito: How to Tell Them Apart | BuzzSkito",
+   "inboundLinks": 15,
+   "has": {
+    "photos": 4,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 4
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/what-colors-attract-mosquitoes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/mosquito-bits-canada-vs-dunks",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/mosquito-fogger-canada",
+    "/blog/natural-mosquito-repellent-ontario",
+    "/blog/how-long-does-mosquito-spray-last"
+   ],
+   "rank": 3
+  },
+  {
+   "path": "/blog/what-does-a-spider-bite-look-like",
+   "kind": "tsx",
+   "file": "app/blog/what-does-a-spider-bite-look-like/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 325.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 144.0,
+     "mid": 251.0,
+     "high": 393.7
+    },
+    "d28": {
+     "low": 228.1,
+     "mid": 400.9,
+     "high": 631.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 7133,
+    "d28": 11523
+   },
+   "strikingCtrPct": {
+    "d90": 0.48,
+    "d28": 0.52
+   },
+   "clicksPerMonth": {
+    "d90": 87.7,
+    "d28": 172.5
+   },
+   "position": {
+    "d90": 6.8,
+    "d28": 6.0
+   },
+   "topQueries": [
+    "what does a spider bite look like (2226/mo, pos 7.8, ctr 0.5%)",
+    "how to identify a spider bite (679/mo, pos 5.9, ctr 0.0%)",
+    "what do spider bites look like (643/mo, pos 6.6, ctr 0.6%)",
+    "what does a spider bite look like on a human (199/mo, pos 4.8, ctr 0.7%)",
+    "spider bite mark (148/mo, pos 8.7, ctr 0.2%)"
+   ],
+   "titleNow": "What Does a Spider Bite Look Like? (Photos) | BuzzSkito",
+   "inboundLinks": 9,
+   "has": {
+    "photos": 6,
+    "faqs": 25,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "links in (9 now, 10+)"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/no-see-um-bites",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/tick-bites-that-wont-heal-when-to-worry"
+   ],
+   "rank": 4
+  },
+  {
+   "path": "/blog/red-ticks-and-clover-mites",
+   "kind": "tsx",
+   "file": "app/blog/red-ticks-and-clover-mites/page.tsx",
+   "type": "look-alikes",
+   "tier": 1,
+   "score": 184.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 137.4,
+     "mid": 238.4,
+     "high": 373.1
+    },
+    "d28": {
+     "low": 72.8,
+     "mid": 131.3,
+     "high": 209.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 6735,
+    "d28": 3898
+   },
+   "strikingCtrPct": {
+    "d90": 0.46,
+    "d28": 0.63
+   },
+   "clicksPerMonth": {
+    "d90": 61.3,
+    "d28": 63.2
+   },
+   "position": {
+    "d90": 6.5,
+    "d28": 6.3
+   },
+   "topQueries": [
+    "red tick (1494/mo, pos 6.7, ctr 0.4%)",
+    "red ticks (1186/mo, pos 7.0, ctr 0.2%)",
+    "small red tick (380/mo, pos 6.3, ctr 0.8%)",
+    "tiny red tick (364/mo, pos 5.2, ctr 0.8%)",
+    "can ticks be red (209/mo, pos 7.4, ctr 0.2%)"
+   ],
+   "titleNow": "Red Ticks: What That Tiny Red Bug Is (Photos) | BuzzSkito",
+   "inboundLinks": 11,
+   "has": {
+    "photos": 5,
+    "faqs": 16,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 8
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/types-of-ticks-identification",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects",
+    "/blog/do-ticks-die-in-the-washing-machine",
+    "/blog/tick-removal-tool-guide",
+    "/blog/deer-tick-vs-dog-tick-canada"
+   ],
+   "rank": 5
+  },
+  {
+   "path": "/blog/no-see-um-bites",
+   "kind": "tsx",
+   "file": "app/blog/no-see-um-bites/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 180.6,
+   "gainPerMonth": {
+    "d90": {
+     "low": 86.5,
+     "mid": 187.5,
+     "high": 322.0
+    },
+    "d28": {
+     "low": 82.5,
+     "mid": 173.7,
+     "high": 295.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 6728,
+    "d28": 6085
+   },
+   "strikingCtrPct": {
+    "d90": 1.21,
+    "d28": 1.14
+   },
+   "clicksPerMonth": {
+    "d90": 297.3,
+    "d28": 315.0
+   },
+   "position": {
+    "d90": 6.2,
+    "d28": 5.2
+   },
+   "topQueries": [
+    "no see um bites (1266/mo, pos 7.5, ctr 1.3%)",
+    "how to get rid of no see um bites (538/mo, pos 4.4, ctr 0.0%)",
+    "noseeum (349/mo, pos 5.8, ctr 0.3%)",
+    "no see ums bites (278/mo, pos 4.4, ctr 2.0%)",
+    "no-see-ums bites (253/mo, pos 4.8, ctr 1.3%)"
+   ],
+   "titleNow": "No-See-Um Bites: Photos & How Long They Last | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 3,
+    "faqs": 18,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 13
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/when-to-worry-about-a-mosquito-bite",
+    "/blog/what-does-a-tick-bite-look-like"
+   ],
+   "rank": 6
+  },
+  {
+   "path": "/blog/bugs-that-look-like-ticks",
+   "kind": "tsx",
+   "file": "app/blog/bugs-that-look-like-ticks/page.tsx",
+   "type": "look-alikes",
+   "tier": 1,
+   "score": 175.4,
+   "gainPerMonth": {
+    "d90": {
+     "low": 141.8,
+     "mid": 257.7,
+     "high": 412.2
+    },
+    "d28": {
+     "low": 43.0,
+     "mid": 93.2,
+     "high": 160.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 7726,
+    "d28": 3348
+   },
+   "strikingCtrPct": {
+    "d90": 0.66,
+    "d28": 1.22
+   },
+   "clicksPerMonth": {
+    "d90": 295.0,
+    "d28": 264.6
+   },
+   "position": {
+    "d90": 6.7,
+    "d28": 6.4
+   },
+   "topQueries": [
+    "bugs that look like ticks (735/mo, pos 6.8, ctr 0.7%)",
+    "tick vs beetle (261/mo, pos 9.6, ctr 0.1%)",
+    "insects that look like ticks (199/mo, pos 7.3, ctr 1.3%)",
+    "spider beetle vs tick (158/mo, pos 6.7, ctr 0.8%)",
+    "bug that looks like a tick (157/mo, pos 7.4, ctr 1.3%)"
+   ],
+   "titleNow": "7 Bugs That Look Like Ticks & Where They Turn Up | BuzzSkito",
+   "inboundLinks": 22,
+   "has": {
+    "photos": 6,
+    "faqs": 21,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 9
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/do-ticks-die-in-the-washing-machine",
+    "/blog/deer-tick-vs-dog-tick-canada",
+    "/blog/tick-head-stuck-in-skin",
+    "/blog/lone-star-tick-alpha-gal-canada",
+    "/blog/best-tick-repellent-yard-canada"
+   ],
+   "rank": 7
+  },
+  {
+   "path": "/blog/horse-fly-and-deer-fly-bite-treatment",
+   "kind": "tsx",
+   "file": "app/blog/horse-fly-and-deer-fly-bite-treatment/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 146.4,
+   "gainPerMonth": {
+    "d90": {
+     "low": 116.2,
+     "mid": 203.3,
+     "high": 319.4
+    },
+    "d28": {
+     "low": 52.2,
+     "mid": 89.4,
+     "high": 138.9
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 5806,
+    "d28": 2475
+   },
+   "strikingCtrPct": {
+    "d90": 0.5,
+    "d28": 0.39
+   },
+   "clicksPerMonth": {
+    "d90": 104.0,
+    "d28": 26.8
+   },
+   "position": {
+    "d90": 6.8,
+    "d28": 5.8
+   },
+   "topQueries": [
+    "deer fly bite (2042/mo, pos 8.1, ctr 0.4%)",
+    "horse fly bite (389/mo, pos 7.8, ctr 0.2%)",
+    "deer fly bites (210/mo, pos 8.0, ctr 0.6%)",
+    "horse fly bite treatment (153/mo, pos 8.1, ctr 0.4%)",
+    "deerfly bite swelling (127/mo, pos 6.2, ctr 0.0%)"
+   ],
+   "titleNow": "Horse Fly vs Deer Fly Bite Ontario: Why It Hurts | BuzzSkito",
+   "inboundLinks": 11,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 11
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/best-fruit-fly-trap-canada",
+    "/blog/flea-bites-on-humans",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/bed-bug-bites",
+    "/blog/mosquito-bite-vs-spider-bite"
+   ],
+   "rank": 8
+  },
+  {
+   "path": "/blog/no-see-ums-biting-midges-ontario",
+   "kind": "tsx",
+   "file": "app/blog/no-see-ums-biting-midges-ontario/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 115.0,
+   "gainPerMonth": {
+    "d90": {
+     "low": 46.3,
+     "mid": 89.0,
+     "high": 146.0
+    },
+    "d28": {
+     "low": 72.0,
+     "mid": 141.0,
+     "high": 232.9
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 2850,
+    "d28": 4595
+   },
+   "strikingCtrPct": {
+    "d90": 0.88,
+    "d28": 0.93
+   },
+   "clicksPerMonth": {
+    "d90": 101.3,
+    "d28": 127.5
+   },
+   "position": {
+    "d90": 5.9,
+    "d28": 5.7
+   },
+   "topQueries": [
+    "no see ums (905/mo, pos 6.0, ctr 0.9%)",
+    "noseeums (719/mo, pos 8.0, ctr 0.5%)",
+    "biting midges ontario (134/mo, pos 4.0, ctr 4.7%)",
+    "no-see-ums (124/mo, pos 6.0, ctr 1.1%)",
+    "noseeum (93/mo, pos 9.6, ctr 0.0%)"
+   ],
+   "titleNow": "What Are No-See-Ums? Bites & Control | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 5
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": true,
+   "linkInCandidates": [],
+   "rank": 9
+  },
+  {
+   "path": "/blog/flea-bites-on-humans",
+   "kind": "tsx",
+   "file": "app/blog/flea-bites-on-humans/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 115.0,
+   "gainPerMonth": {
+    "d90": {
+     "low": 63.4,
+     "mid": 106.4,
+     "high": 163.8
+    },
+    "d28": {
+     "low": 74.8,
+     "mid": 123.6,
+     "high": 188.5
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 2869,
+    "d28": 3250
+   },
+   "strikingCtrPct": {
+    "d90": 0.29,
+    "d28": 0.2
+   },
+   "clicksPerMonth": {
+    "d90": 48.3,
+    "d28": 64.3
+   },
+   "position": {
+    "d90": 8.1,
+    "d28": 6.9
+   },
+   "topQueries": [
+    "what do flea bites look like (352/mo, pos 7.5, ctr 0.4%)",
+    "flea bites on humans (179/mo, pos 11.7, ctr 0.0%)",
+    "what do flea bites look like on humans (107/mo, pos 10.5, ctr 0.6%)",
+    "flea bites human (106/mo, pos 10.8, ctr 0.3%)",
+    "what does a flea bite look like (72/mo, pos 7.7, ctr 0.0%)"
+   ],
+   "titleNow": "What Do Flea Bites Look Like (vs Bed Bug Bites)? | BuzzSkito",
+   "inboundLinks": 20,
+   "has": {
+    "photos": 4,
+    "faqs": 19,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 10
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/when-to-worry-about-a-mosquito-bite",
+    "/blog/what-does-a-tick-bite-look-like"
+   ],
+   "rank": 10
+  },
+  {
+   "path": "/blog/what-does-mouse-poop-look-like-canada",
+   "kind": "tsx",
+   "file": "app/blog/what-does-mouse-poop-look-like-canada/page.tsx",
+   "type": "signs",
+   "tier": 1,
+   "score": 107.4,
+   "gainPerMonth": {
+    "d90": {
+     "low": 68.4,
+     "mid": 116.1,
+     "high": 179.6
+    },
+    "d28": {
+     "low": 60.9,
+     "mid": 98.7,
+     "high": 149.1
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 3177,
+    "d28": 2520
+   },
+   "strikingCtrPct": {
+    "d90": 0.35,
+    "d28": 0.09
+   },
+   "clicksPerMonth": {
+    "d90": 16.3,
+    "d28": 6.4
+   },
+   "position": {
+    "d90": 7.6,
+    "d28": 7.8
+   },
+   "topQueries": [
+    "mouse poop (970/mo, pos 7.3, ctr 0.4%)",
+    "what does mouse poop look like (454/mo, pos 7.6, ctr 0.2%)",
+    "mouse droppings (232/mo, pos 6.5, ctr 0.6%)",
+    "what do mouse droppings look like (170/mo, pos 7.9, ctr 1.2%)",
+    "mouse poo (137/mo, pos 8.2, ctr 0.5%)"
+   ],
+   "titleNow": "Mouse Poop in Canada: 3-6 mm, Fresh or Old? | BuzzSkito",
+   "inboundLinks": 27,
+   "has": {
+    "photos": 5,
+    "faqs": 26,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 10
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/victor-electronic-mouse-trap-review-canada",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/can-mice-climb-walls",
+    "/blog/fall-mouse-proofing-checklist"
+   ],
+   "rank": 11
+  },
+  {
+   "path": "/blog/tick-vs-bed-bug",
+   "kind": "tsx",
+   "file": "app/blog/tick-vs-bed-bug/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 106.5,
+   "gainPerMonth": {
+    "d90": {
+     "low": 90.1,
+     "mid": 149.9,
+     "high": 229.8
+    },
+    "d28": {
+     "low": 37.0,
+     "mid": 63.0,
+     "high": 97.7
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 3990,
+    "d28": 1736
+   },
+   "strikingCtrPct": {
+    "d90": 0.24,
+    "d28": 0.37
+   },
+   "clicksPerMonth": {
+    "d90": 36.3,
+    "d28": 51.4
+   },
+   "position": {
+    "d90": 7.8,
+    "d28": 6.8
+   },
+   "topQueries": [
+    "tick vs bed bug (878/mo, pos 9.5, ctr 0.2%)",
+    "ticks vs bed bugs (456/mo, pos 9.9, ctr 0.1%)",
+    "bed bug vs tick (406/mo, pos 8.7, ctr 0.1%)",
+    "bed bugs and ticks (341/mo, pos 10.2, ctr 0.0%)",
+    "bed bugs vs ticks (125/mo, pos 8.0, ctr 0.5%)"
+   ],
+   "titleNow": "Tick vs Bed Bug: Photos & How to Tell Them Apart | BuzzSkito",
+   "inboundLinks": 15,
+   "has": {
+    "photos": 4,
+    "faqs": 18,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 6
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/bed-bug-spray-canada",
+    "/blog/what-kills-bed-bugs-instantly-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/tick-season-ontario-when-are-ticks-active"
+   ],
+   "rank": 12
+  },
+  {
+   "path": "/blog/mosquito-hawk-explained",
+   "kind": "tsx",
+   "file": "app/blog/mosquito-hawk-explained/page.tsx",
+   "type": "look-alikes",
+   "tier": 1,
+   "score": 93.6,
+   "gainPerMonth": {
+    "d90": {
+     "low": 43.0,
+     "mid": 69.9,
+     "high": 105.9
+    },
+    "d28": {
+     "low": 70.8,
+     "mid": 117.2,
+     "high": 179.0
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1798,
+    "d28": 3091
+   },
+   "strikingCtrPct": {
+    "d90": 0.11,
+    "d28": 0.21
+   },
+   "clicksPerMonth": {
+    "d90": 6.7,
+    "d28": 16.1
+   },
+   "position": {
+    "d90": 8.4,
+    "d28": 7.7
+   },
+   "topQueries": [
+    "mosquito hawk (793/mo, pos 9.1, ctr 0.2%)",
+    "do crane flies eat mosquitoes (105/mo, pos 8.9, ctr 0.0%)",
+    "hawk fly (80/mo, pos 9.0, ctr 0.0%)",
+    "mosquito hawks (71/mo, pos 10.5, ctr 0.0%)",
+    "do mosquito hawks eat mosquitoes (41/mo, pos 8.5, ctr 0.0%)"
+   ],
+   "titleNow": "Mosquito Hawk: Do Crane Flies Eat Mosquitoes? | BuzzSkito",
+   "inboundLinks": 6,
+   "has": {
+    "photos": 0,
+    "faqs": 24,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 3
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "links in (6 now, 10+)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/what-colors-attract-mosquitoes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/mosquito-bits-canada-vs-dunks",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/mosquito-fogger-canada"
+   ],
+   "rank": 13
+  },
+  {
+   "path": "/blog/tick-bite-vs-mosquito-bite",
+   "kind": "tsx",
+   "file": "app/blog/tick-bite-vs-mosquito-bite/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 92.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 62.1,
+     "mid": 132.3,
+     "high": 226.0
+    },
+    "d28": {
+     "low": 25.3,
+     "mid": 53.4,
+     "high": 90.8
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 4683,
+    "d28": 1870
+   },
+   "strikingCtrPct": {
+    "d90": 1.17,
+    "d28": 1.15
+   },
+   "clicksPerMonth": {
+    "d90": 115.3,
+    "d28": 56.8
+   },
+   "position": {
+    "d90": 5.8,
+    "d28": 5.0
+   },
+   "topQueries": [
+    "tick bite vs mosquito bite (1250/mo, pos 5.5, ctr 1.0%)",
+    "mosquito bite vs tick bite (601/mo, pos 6.4, ctr 1.1%)",
+    "tick vs mosquito bite (573/mo, pos 6.4, ctr 1.0%)",
+    "mosquito vs tick bite (321/mo, pos 6.0, ctr 0.8%)",
+    "tick bite or mosquito bite (123/mo, pos 6.6, ctr 1.9%)"
+   ],
+   "titleNow": "Tick Bite vs Mosquito Bite: Ontario Lyme Signs | BuzzSkito",
+   "inboundLinks": 16,
+   "has": {
+    "photos": 4,
+    "faqs": 7,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 9
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (7 now, 8-10)"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/when-to-worry-about-a-mosquito-bite",
+    "/blog/why-mosquitoes-bite-some-people-more",
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/tick-bite-symptoms-what-to-do-ontario",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes"
+   ],
+   "rank": 14
+  },
+  {
+   "path": "/blog/deer-flies-horse-flies-ontario",
+   "kind": "tsx",
+   "file": "app/blog/deer-flies-horse-flies-ontario/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 92.5,
+   "gainPerMonth": {
+    "d90": {
+     "low": 93.6,
+     "mid": 157.2,
+     "high": 242.0
+    },
+    "d28": {
+     "low": 16.6,
+     "mid": 27.9,
+     "high": 42.9
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 4238,
+    "d28": 751
+   },
+   "strikingCtrPct": {
+    "d90": 0.29,
+    "d28": 0.29
+   },
+   "clicksPerMonth": {
+    "d90": 35.3,
+    "d28": 9.6
+   },
+   "position": {
+    "d90": 6.7,
+    "d28": 6.3
+   },
+   "topQueries": [
+    "deer fly vs horse fly (662/mo, pos 6.0, ctr 0.2%)",
+    "deer fly (584/mo, pos 8.8, ctr 0.1%)",
+    "horse fly vs deer fly (493/mo, pos 6.3, ctr 0.2%)",
+    "deer flies vs horse flies (243/mo, pos 6.1, ctr 0.0%)",
+    "horsefly vs deer fly (160/mo, pos 5.9, ctr 0.2%)"
+   ],
+   "titleNow": "Deer Fly vs Horse Fly: Tell Them Apart (Ontario) | BuzzSkito",
+   "inboundLinks": 11,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 7
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": true,
+   "linkInCandidates": [
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/how-to-get-rid-of-drain-flies-canada",
+    "/blog/deer-tick-vs-dog-tick-canada",
+    "/blog/best-indoor-fly-mosquito-trap-canada",
+    "/blog/best-deer-fence-for-gardens-canada",
+    "/blog/best-commercial-fly-light-trap-canada",
+    "/blog/blacklegged-deer-tick-ontario",
+    "/blog/how-to-stop-deer-eating-cedars-ontario",
+    "/blog/can-cockroaches-fly",
+    "/blog/do-ticks-fly-or-jump",
+    "/blog/deer-mice"
+   ],
+   "rank": 15
+  },
+  {
+   "path": "/blog/black-flies-ontario-when-they-come-out",
+   "kind": "tsx",
+   "file": "app/blog/black-flies-ontario-when-they-come-out/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 89.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 77.1,
+     "mid": 131.2,
+     "high": 203.3
+    },
+    "d28": {
+     "low": 28.8,
+     "mid": 48.7,
+     "high": 75.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 3604,
+    "d28": 1324
+   },
+   "strikingCtrPct": {
+    "d90": 0.36,
+    "d28": 0.32
+   },
+   "clicksPerMonth": {
+    "d90": 116.0,
+    "d28": 42.9
+   },
+   "position": {
+    "d90": 7.0,
+    "d28": 6.4
+   },
+   "topQueries": [
+    "black fly (766/mo, pos 8.9, ctr 0.1%)",
+    "black flies (444/mo, pos 7.1, ctr 0.2%)",
+    "blackflies (222/mo, pos 9.2, ctr 0.0%)",
+    "black flies canada (176/mo, pos 8.5, ctr 0.0%)",
+    "biting flies ontario (116/mo, pos 7.9, ctr 0.0%)"
+   ],
+   "titleNow": "Black Flies Ontario: Season & How to Stop Them | BuzzSkito",
+   "inboundLinks": 17,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 10
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": true,
+   "linkInCandidates": [
+    "/blog/best-fruit-fly-trap-canada",
+    "/blog/ultrasonic-pest-repellers-do-they-work",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/electric-fly-swatter",
+    "/blog/citronella-candles-canada-do-they-work",
+    "/blog/how-to-get-rid-of-fruit-flies",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/black-flag-electric-fogger-review-canada",
+    "/blog/how-to-keep-ticks-out-of-yard-ontario",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/can-cockroaches-fly"
+   ],
+   "rank": 16
+  },
+  {
+   "path": "/blog/mosquito-bite-vs-spider-bite",
+   "kind": "tsx",
+   "file": "app/blog/mosquito-bite-vs-spider-bite/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 81.4,
+   "gainPerMonth": {
+    "d90": {
+     "low": 57.9,
+     "mid": 95.3,
+     "high": 145.1
+    },
+    "d28": {
+     "low": 41.5,
+     "mid": 67.6,
+     "high": 102.5
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 2491,
+    "d28": 1744
+   },
+   "strikingCtrPct": {
+    "d90": 0.17,
+    "d28": 0.12
+   },
+   "clicksPerMonth": {
+    "d90": 11.3,
+    "d28": 7.5
+   },
+   "position": {
+    "d90": 7.7,
+    "d28": 6.7
+   },
+   "topQueries": [
+    "spider bite vs mosquito bite (773/mo, pos 8.1, ctr 0.2%)",
+    "spider vs mosquito bite (182/mo, pos 8.5, ctr 0.0%)",
+    "mosquito bite vs spider bite (163/mo, pos 8.9, ctr 0.0%)",
+    "mosquito vs spider bite (150/mo, pos 8.2, ctr 0.0%)",
+    "spider bites vs mosquito bites (89/mo, pos 7.3, ctr 0.0%)"
+   ],
+   "titleNow": "Mosquito vs Spider Bite: One Mark or Several? | BuzzSkito",
+   "inboundLinks": 11,
+   "has": {
+    "photos": 4,
+    "faqs": 9,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/why-mosquitoes-bite-some-people-more",
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/mosquito-larvae-identification",
+    "/blog/no-see-um-bites",
+    "/blog/male-vs-female-mosquito",
+    "/blog/horse-fly-and-deer-fly-bite-treatment"
+   ],
+   "rank": 17
+  },
+  {
+   "path": "/blog/chigger-bites",
+   "kind": "tsx",
+   "file": "app/blog/chigger-bites/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 77.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 64.4,
+     "mid": 125.5,
+     "high": 206.8
+    },
+    "d28": {
+     "low": 8.7,
+     "mid": 30.0,
+     "high": 58.3
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 4070,
+    "d28": 1419
+   },
+   "strikingCtrPct": {
+    "d90": 0.92,
+    "d28": 1.89
+   },
+   "clicksPerMonth": {
+    "d90": 134.7,
+    "d28": 132.9
+   },
+   "position": {
+    "d90": 8.3,
+    "d28": 5.5
+   },
+   "topQueries": [
+    "how long do chigger bites itch (191/mo, pos 10.8, ctr 0.2%)",
+    "how long do chigger bites last (141/mo, pos 8.4, ctr 1.4%)",
+    "what do chigger bites look like (140/mo, pos 7.6, ctr 1.4%)",
+    "how big are chiggers (125/mo, pos 9.9, ctr 0.8%)",
+    "chiggers ontario (117/mo, pos 7.6, ctr 1.7%)"
+   ],
+   "titleNow": "Chigger Bites: Photos, Size & How Long They Last | BuzzSkito",
+   "inboundLinks": 12,
+   "has": {
+    "photos": 5,
+    "faqs": 31,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 11
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 15",
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/when-to-worry-about-a-mosquito-bite",
+    "/blog/what-does-a-tick-bite-look-like",
+    "/blog/why-mosquitoes-bite-some-people-more",
+    "/blog/tick-bite-symptoms-what-to-do-ontario"
+   ],
+   "rank": 18
+  },
+  {
+   "path": "/blog/baby-bed-bugs-nymphs",
+   "kind": "tsx",
+   "file": "app/blog/baby-bed-bugs-nymphs/page.tsx",
+   "type": "life-stage",
+   "tier": 1,
+   "score": 70.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 21.9,
+     "mid": 37.5,
+     "high": 58.2
+    },
+    "d28": {
+     "low": 60.3,
+     "mid": 104.2,
+     "high": 162.7
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1037,
+    "d28": 2926
+   },
+   "strikingCtrPct": {
+    "d90": 0.39,
+    "d28": 0.44
+   },
+   "clicksPerMonth": {
+    "d90": 10.0,
+    "d28": 31.1
+   },
+   "position": {
+    "d90": 7.9,
+    "d28": 8.0
+   },
+   "topQueries": [
+    "baby bed bugs (215/mo, pos 8.0, ctr 0.5%)",
+    "what do baby bed bugs look like (156/mo, pos 9.8, ctr 0.2%)",
+    "baby bed bug (122/mo, pos 8.2, ctr 0.0%)",
+    "bed bug nymph (60/mo, pos 9.9, ctr 1.1%)",
+    "baby bed bugs look like (38/mo, pos 8.5, ctr 0.9%)"
+   ],
+   "titleNow": "What Baby Bed Bugs Look Like: 5 Stages, 1–4.5mm | BuzzSkito",
+   "inboundLinks": 14,
+   "has": {
+    "photos": 0,
+    "faqs": 14,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 7
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/bed-bug-spray-canada",
+    "/blog/what-kills-bed-bugs-instantly-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/diatomaceous-earth-for-bed-bugs",
+    "/blog/cimexa-bed-bug-review-canada",
+    "/blog/bed-bug-interceptor-traps-canada"
+   ],
+   "rank": 19
+  },
+  {
+   "path": "/blog/bed-bug-stains-poop-droppings-canada",
+   "kind": "tsx",
+   "file": "app/blog/bed-bug-stains-poop-droppings-canada/page.tsx",
+   "type": "signs",
+   "tier": 1,
+   "score": 65.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 32.8,
+     "mid": 56.7,
+     "high": 88.5
+    },
+    "d28": {
+     "low": 43.2,
+     "mid": 74.9,
+     "high": 117.1
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1591,
+    "d28": 2113
+   },
+   "strikingCtrPct": {
+    "d90": 0.44,
+    "d28": 0.46
+   },
+   "clicksPerMonth": {
+    "d90": 56.3,
+    "d28": 69.6
+   },
+   "position": {
+    "d90": 7.2,
+    "d28": 6.7
+   },
+   "topQueries": [
+    "bed bug poop (267/mo, pos 10.0, ctr 0.0%)",
+    "bed bug droppings (94/mo, pos 10.5, ctr 0.0%)",
+    "bedbug poop (82/mo, pos 9.3, ctr 0.4%)",
+    "bed bug stains (82/mo, pos 8.3, ctr 1.2%)",
+    "what does bed bug poop look like (78/mo, pos 9.1, ctr 0.9%)"
+   ],
+   "titleNow": "Bed Bug Poop and Stains Canada: The Smear Test | BuzzSkito",
+   "inboundLinks": 17,
+   "has": {
+    "photos": 2,
+    "faqs": 11,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 12
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-mouse-poop-look-like-canada",
+    "/blog/bed-bug-bites",
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/bed-bug-spray-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/baby-bed-bugs-nymphs",
+    "/blog/diatomaceous-earth-for-bed-bugs"
+   ],
+   "rank": 20
+  },
+  {
+   "path": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+   "kind": "tsx",
+   "file": "app/blog/baby-ticks-nymphs-seed-ticks-ontario/page.tsx",
+   "type": "life-stage",
+   "tier": 1,
+   "score": 53.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 39.2,
+     "mid": 64.5,
+     "high": 98.3
+    },
+    "d28": {
+     "low": 26.5,
+     "mid": 43.0,
+     "high": 65.0
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1689,
+    "d28": 1101
+   },
+   "strikingCtrPct": {
+    "d90": 0.18,
+    "d28": 0.1
+   },
+   "clicksPerMonth": {
+    "d90": 12.3,
+    "d28": 12.9
+   },
+   "position": {
+    "d90": 7.8,
+    "d28": 7.4
+   },
+   "topQueries": [
+    "baby tick (304/mo, pos 6.4, ctr 0.3%)",
+    "baby ticks (274/mo, pos 8.7, ctr 0.2%)",
+    "seed ticks (166/mo, pos 10.1, ctr 0.4%)",
+    "what do baby ticks look like (153/mo, pos 8.7, ctr 0.0%)",
+    "baby ticks look like (99/mo, pos 8.1, ctr 0.0%)"
+   ],
+   "titleNow": "Baby Ticks Ontario: Seed Tick vs Nymph, 0.5-2 mm | BuzzSkito",
+   "inboundLinks": 7,
+   "has": {
+    "photos": 4,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 6
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "links in (7 now, 10+)"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": true,
+   "linkInCandidates": [
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects",
+    "/blog/do-ticks-die-in-the-washing-machine",
+    "/blog/are-ticks-dangerous-ontario",
+    "/blog/tick-removal-tool-guide"
+   ],
+   "rank": 21
+  },
+  {
+   "path": "/blog/bed-bug-shells-casings-shed-skins-canada",
+   "kind": "tsx",
+   "file": "app/blog/bed-bug-shells-casings-shed-skins-canada/page.tsx",
+   "type": "signs",
+   "tier": 1,
+   "score": 48.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 29.6,
+     "mid": 49.8,
+     "high": 76.7
+    },
+    "d28": {
+     "low": 26.8,
+     "mid": 46.7,
+     "high": 73.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1345,
+    "d28": 1328
+   },
+   "strikingCtrPct": {
+    "d90": 0.3,
+    "d28": 0.48
+   },
+   "clicksPerMonth": {
+    "d90": 14.3,
+    "d28": 18.2
+   },
+   "position": {
+    "d90": 7.7,
+    "d28": 7.5
+   },
+   "topQueries": [
+    "bed bug shells (228/mo, pos 8.4, ctr 0.3%)",
+    "bed bug shell (101/mo, pos 8.5, ctr 0.7%)",
+    "bed bug casings (87/mo, pos 8.4, ctr 0.0%)",
+    "bed bug shed skin (81/mo, pos 8.4, ctr 0.0%)",
+    "bed bug skin shed (42/mo, pos 9.3, ctr 0.0%)"
+   ],
+   "titleNow": "Bed Bug Shells & Shed Skins Canada: Active? | BuzzSkito",
+   "inboundLinks": 14,
+   "has": {
+    "photos": 5,
+    "faqs": 11,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 11
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bed-bug-bites",
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/bed-bug-spray-canada",
+    "/blog/what-kills-bed-bugs-instantly-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/cimexa-bed-bug-review-canada",
+    "/blog/bed-bug-interceptor-traps-canada"
+   ],
+   "rank": 22
+  },
+  {
+   "path": "/blog/bugs-that-look-like-bed-bugs-canada",
+   "kind": "tsx",
+   "file": "app/blog/bugs-that-look-like-bed-bugs-canada/page.tsx",
+   "type": "look-alikes",
+   "tier": 1,
+   "score": 39.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 19.4,
+     "mid": 34.5,
+     "high": 54.5
+    },
+    "d28": {
+     "low": 24.6,
+     "mid": 43.9,
+     "high": 69.6
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1003,
+    "d28": 1286
+   },
+   "strikingCtrPct": {
+    "d90": 0.56,
+    "d28": 0.58
+   },
+   "clicksPerMonth": {
+    "d90": 32.0,
+    "d28": 47.1
+   },
+   "position": {
+    "d90": 7.7,
+    "d28": 7.4
+   },
+   "topQueries": [
+    "bugs that look like bed bugs (272/mo, pos 8.3, ctr 0.5%)",
+    "what bugs look like bed bugs (41/mo, pos 8.4, ctr 0.0%)",
+    "mistaken kinds of bed bugs (21/mo, pos 9.3, ctr 0.0%)",
+    "bed bug look alikes (19/mo, pos 8.7, ctr 3.4%)",
+    "what other bugs look like bed bugs (19/mo, pos 8.8, ctr 0.0%)"
+   ],
+   "titleNow": "9 Bugs That Look Like Bed Bugs in Canada | BuzzSkito",
+   "inboundLinks": 17,
+   "has": {
+    "photos": 6,
+    "faqs": 12,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 8
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/bed-bug-spray-canada",
+    "/blog/what-kills-bed-bugs-instantly-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/cimexa-bed-bug-review-canada",
+    "/blog/bed-bug-interceptor-traps-canada",
+    "/blog/konk-bed-bug-killer-review-canada",
+    "/blog/best-bed-bug-trap-canada",
+    "/blog/best-bed-bug-powder-canada"
+   ],
+   "rank": 23
+  },
+  {
+   "path": "/blog/bed-bug-bites-vs-mosquito-bites",
+   "kind": "tsx",
+   "file": "app/blog/bed-bug-bites-vs-mosquito-bites/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 37.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 26.2,
+     "mid": 45.8,
+     "high": 71.8
+    },
+    "d28": {
+     "low": 17.8,
+     "mid": 28.5,
+     "high": 42.8
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1303,
+    "d28": 712
+   },
+   "strikingCtrPct": {
+    "d90": 0.49,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 11.0,
+    "d28": 5.4
+   },
+   "position": {
+    "d90": 9.1,
+    "d28": 9.5
+   },
+   "topQueries": [
+    "bed bug bites vs mosquito bites (266/mo, pos 10.1, ctr 0.6%)",
+    "mosquito bites vs bed bug bites (76/mo, pos 8.4, ctr 1.3%)",
+    "mosquito bites vs bed bugs (67/mo, pos 8.9, ctr 0.5%)",
+    "mosquito vs bed bug bite (63/mo, pos 9.0, ctr 0.0%)",
+    "bed bug vs mosquito bites (53/mo, pos 9.3, ctr 1.2%)"
+   ],
+   "titleNow": "Bed Bug Bites vs Mosquito Bites in Canada | BuzzSkito",
+   "inboundLinks": 18,
+   "has": {
+    "photos": 0,
+    "faqs": 13,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 11
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/when-to-worry-about-a-mosquito-bite",
+    "/blog/why-mosquitoes-bite-some-people-more",
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/mosquito-larvae-identification",
+    "/blog/no-see-um-bites"
+   ],
+   "rank": 24
+  },
+  {
+   "path": "/blog/deer-tick-vs-dog-tick-canada",
+   "kind": "tsx",
+   "file": "app/blog/deer-tick-vs-dog-tick-canada/page.tsx",
+   "type": "x-vs-y",
+   "tier": 1,
+   "score": 33.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 24.3,
+     "mid": 39.3,
+     "high": 59.3
+    },
+    "d28": {
+     "low": 16.6,
+     "mid": 27.2,
+     "high": 41.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 999,
+    "d28": 707
+   },
+   "strikingCtrPct": {
+    "d90": 0.07,
+    "d28": 0.15
+   },
+   "clicksPerMonth": {
+    "d90": 3.0,
+    "d28": 3.2
+   },
+   "position": {
+    "d90": 9.0,
+    "d28": 8.7
+   },
+   "topQueries": [
+    "deer tick vs dog tick (360/mo, pos 8.5, ctr 0.1%)",
+    "dog tick vs deer tick (274/mo, pos 8.4, ctr 0.0%)",
+    "dog vs deer tick (32/mo, pos 6.6, ctr 0.0%)",
+    "deer vs dog tick (30/mo, pos 7.6, ctr 0.0%)",
+    "american dog tick vs deer tick (22/mo, pos 9.6, ctr 0.0%)"
+   ],
+   "titleNow": "Deer Tick vs Dog Tick: Which Is It, Lyme or Not | BuzzSkito",
+   "inboundLinks": 21,
+   "has": {
+    "photos": 0,
+    "faqs": 16,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 5
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/tick-bite-on-dog-symptoms",
+    "/blog/i-found-tick-on-my-dog-what-to-do",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/deer-flies-horse-flies-ontario",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active"
+   ],
+   "rank": 25
+  },
+  {
+   "path": "/blog/what-ticks-look-like-ontario",
+   "kind": "tsx",
+   "file": "app/blog/what-ticks-look-like-ontario/page.tsx",
+   "type": "id",
+   "tier": 1,
+   "score": 30.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 22.0,
+     "mid": 42.3,
+     "high": 69.3
+    },
+    "d28": {
+     "low": 9.5,
+     "mid": 18.4,
+     "high": 30.3
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1349,
+    "d28": 595
+   },
+   "strikingCtrPct": {
+    "d90": 0.87,
+    "d28": 0.9
+   },
+   "clicksPerMonth": {
+    "d90": 41.7,
+    "d28": 28.9
+   },
+   "position": {
+    "d90": 7.2,
+    "d28": 6.8
+   },
+   "topQueries": [
+    "tick identification ontario (557/mo, pos 6.9, ctr 0.1%)",
+    "pictures of ticks in ontario (143/mo, pos 6.5, ctr 3.3%)",
+    "tick images ontario (58/mo, pos 6.3, ctr 1.1%)",
+    "what do ticks look like in ontario (43/mo, pos 6.1, ctr 1.5%)",
+    "how big are ticks in ontario (42/mo, pos 5.6, ctr 1.6%)"
+   ],
+   "titleNow": "Tick Identification Ontario: 3 Species + Sizes | BuzzSkito",
+   "inboundLinks": 53,
+   "has": {
+    "photos": 0,
+    "faqs": 7,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 6
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (7 now, 8-10)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": true,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/do-ticks-die-in-the-washing-machine",
+    "/blog/tick-removal-tool-guide",
+    "/blog/tick-head-stuck-in-skin",
+    "/blog/best-tick-repellent-yard-canada",
+    "/blog/what-percentage-of-ticks-carry-lyme-ontario",
+    "/blog/best-tick-control-yard-treatment",
+    "/blog/are-there-ticks-in-canada",
+    "/blog/tick-prevention-yard-ontario-safe-for-kids"
+   ],
+   "rank": 26
+  },
+  {
+   "path": "/blog/carpenter-ants-canada",
+   "kind": "tsx",
+   "file": "app/blog/carpenter-ants-canada/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 26.7,
+   "gainPerMonth": {
+    "d90": {
+     "low": 15.0,
+     "mid": 24.9,
+     "high": 38.0
+    },
+    "d28": {
+     "low": 16.6,
+     "mid": 28.5,
+     "high": 44.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 655,
+    "d28": 793
+   },
+   "strikingCtrPct": {
+    "d90": 0.2,
+    "d28": 0.41
+   },
+   "clicksPerMonth": {
+    "d90": 15.7,
+    "d28": 12.9
+   },
+   "position": {
+    "d90": 11.5,
+    "d28": 10.6
+   },
+   "topQueries": [
+    "carpenter ants (93/mo, pos 12.0, ctr 0.0%)",
+    "carpenter ant control (85/mo, pos 20.1, ctr 0.0%)",
+    "carpenter ant (43/mo, pos 12.0, ctr 0.0%)",
+    "carpenter ant pest control (37/mo, pos 18.4, ctr 0.0%)",
+    "carpenter ant removal (35/mo, pos 18.3, ctr 0.0%)"
+   ],
+   "titleNow": "Carpenter Ants in Canada: Treatment That Works | BuzzSkito",
+   "inboundLinks": 29,
+   "has": {
+    "photos": 0,
+    "faqs": 16,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 8
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/learn/ant-killer-recipes",
+    "/blog/ghost-ants"
+   ],
+   "rank": 27
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-boxelder-bugs-canada",
+   "kind": "tsx",
+   "file": "app/blog/how-to-get-rid-of-boxelder-bugs-canada/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 26.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 9.4,
+     "mid": 15.9,
+     "high": 24.5
+    },
+    "d28": {
+     "low": 21.5,
+     "mid": 36.3,
+     "high": 56.0
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 430,
+    "d28": 987
+   },
+   "strikingCtrPct": {
+    "d90": 0.31,
+    "d28": 0.33
+   },
+   "clicksPerMonth": {
+    "d90": 12.7,
+    "d28": 27.9
+   },
+   "position": {
+    "d90": 9.4,
+    "d28": 8.8
+   },
+   "topQueries": [
+    "how to get rid of boxelder bugs (90/mo, pos 9.3, ctr 0.0%)",
+    "black and red bugs (68/mo, pos 9.5, ctr 0.0%)",
+    "boxelder bug (13/mo, pos 12.8, ctr 0.0%)",
+    "red and black bugs how to get rid of (11/mo, pos 9.9, ctr 0.0%)",
+    "black and red bug ontario (9/mo, pos 12.5, ctr 0.0%)"
+   ],
+   "titleNow": "Boxelder Bugs Canada — How to Get Rid of Them | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 3,
+    "faqs": 12,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 12
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [],
+   "rank": 28
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-drain-flies-canada",
+   "kind": "tsx",
+   "file": "app/blog/how-to-get-rid-of-drain-flies-canada/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 20.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 7.6,
+     "mid": 12.8,
+     "high": 19.7
+    },
+    "d28": {
+     "low": 15.9,
+     "mid": 27.4,
+     "high": 42.8
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 345,
+    "d28": 766
+   },
+   "strikingCtrPct": {
+    "d90": 0.29,
+    "d28": 0.42
+   },
+   "clicksPerMonth": {
+    "d90": 20.3,
+    "d28": 39.6
+   },
+   "position": {
+    "d90": 8.3,
+    "d28": 6.8
+   },
+   "topQueries": [
+    "drain fly program (56/mo, pos 11.4, ctr 0.0%)",
+    "drain flies (48/mo, pos 12.6, ctr 0.0%)",
+    "how to get rid of drain flies (40/mo, pos 14.1, ctr 0.0%)",
+    "how to get rid of drain flies permanently (34/mo, pos 10.8, ctr 1.0%)",
+    "drain fly killer canada (29/mo, pos 8.3, ctr 1.1%)"
+   ],
+   "titleNow": "Get Rid of Drain Flies Canada: Clean the Biofilm | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 4,
+    "faqs": 11,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 9
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/best-indoor-fly-mosquito-trap-canada",
+    "/blog/can-cockroaches-fly",
+    "/blog/do-ticks-fly-or-jump"
+   ],
+   "rank": 29
+  },
+  {
+   "path": "/blog/types-of-ticks-identification",
+   "kind": "tsx",
+   "file": "app/blog/types-of-ticks-identification/page.tsx",
+   "type": "id",
+   "tier": 1,
+   "score": 19.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 17.5,
+     "mid": 28.7,
+     "high": 43.5
+    },
+    "d28": {
+     "low": 6.6,
+     "mid": 11.1,
+     "high": 17.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 742,
+    "d28": 305
+   },
+   "strikingCtrPct": {
+    "d90": 0.13,
+    "d28": 0.35
+   },
+   "clicksPerMonth": {
+    "d90": 14.7,
+    "d28": 19.3
+   },
+   "position": {
+    "d90": 11.4,
+    "d28": 8.1
+   },
+   "topQueries": [
+    "tick identification chart (366/mo, pos 10.1, ctr 0.0%)",
+    "tick identification chart by species (63/mo, pos 5.6, ctr 0.0%)",
+    "tick identification ontario (35/mo, pos 10.8, ctr 0.0%)",
+    "tick size chart (26/mo, pos 9.7, ctr 0.0%)",
+    "what is this (15/mo, pos 6.0, ctr 0.0%)"
+   ],
+   "titleNow": "Types of Ticks: 5-Species ID Chart & Sizes | BuzzSkito",
+   "inboundLinks": 17,
+   "has": {
+    "photos": 6,
+    "faqs": 14,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 6
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects",
+    "/blog/tick-removal-tool-guide",
+    "/blog/tick-head-stuck-in-skin",
+    "/blog/what-does-tick-look-like-on-dog",
+    "/blog/best-tick-repellent-yard-canada"
+   ],
+   "rank": 30
+  },
+  {
+   "path": "/blog/bed-bug-bites",
+   "kind": "tsx",
+   "file": "app/blog/bed-bug-bites/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 19.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 18.1,
+     "mid": 30.8,
+     "high": 47.7
+    },
+    "d28": {
+     "low": 2.9,
+     "mid": 7.8,
+     "high": 14.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 846,
+    "d28": 330
+   },
+   "strikingCtrPct": {
+    "d90": 0.35,
+    "d28": 1.62
+   },
+   "clicksPerMonth": {
+    "d90": 27.0,
+    "d28": 41.8
+   },
+   "position": {
+    "d90": 8.8,
+    "d28": 6.9
+   },
+   "topQueries": [
+    "cdc bed bug bites appearance clusters lines (48/mo, pos 7.7, ctr 0.0%)",
+    "cdc bed bug bites clusters lines exposed skin symptoms (34/mo, pos 7.3, ctr 0.0%)",
+    "cdc bed bug bites appearance clusters lines exposed skin (31/mo, pos 7.4, ctr 0.0%)",
+    "cdc bed bug bites clusters lines symptoms (31/mo, pos 6.9, ctr 0.0%)",
+    "how long do bed bug bites last (28/mo, pos 19.6, ctr 0.0%)"
+   ],
+   "titleNow": "Bed Bug Bites Canada: 3-5 in a Line, 14-Day Lag | BuzzSkito",
+   "inboundLinks": 24,
+   "has": {
+    "photos": 0,
+    "faqs": 14,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 6
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/no-see-um-bites",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/tick-vs-bed-bug",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/bed-bug-spray-canada",
+    "/blog/what-kills-bed-bugs-instantly-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada"
+   ],
+   "rank": 31
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-carpet-beetles-canada",
+   "kind": "tsx",
+   "file": "app/blog/how-to-get-rid-of-carpet-beetles-canada/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 18.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 8.5,
+     "mid": 14.2,
+     "high": 21.8
+    },
+    "d28": {
+     "low": 14.7,
+     "mid": 23.5,
+     "high": 35.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 379,
+    "d28": 587
+   },
+   "strikingCtrPct": {
+    "d90": 0.26,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 16.3,
+    "d28": 25.7
+   },
+   "position": {
+    "d90": 9.2,
+    "d28": 7.8
+   },
+   "topQueries": [
+    "carpet beetle larvae (67/mo, pos 13.0, ctr 0.0%)",
+    "carpet beetles (41/mo, pos 9.5, ctr 0.8%)",
+    "carpet beetles canada (36/mo, pos 7.4, ctr 0.0%)",
+    "carpet beetle canada (24/mo, pos 7.7, ctr 0.0%)",
+    "how to get rid of carpet beetles (20/mo, pos 12.3, ctr 3.4%)"
+   ],
+   "titleNow": "Get Rid of Carpet Beetles Canada: Larvae First | BuzzSkito",
+   "inboundLinks": 15,
+   "has": {
+    "photos": 4,
+    "faqs": 11,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 16
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [],
+   "rank": 32
+  },
+  {
+   "path": "/blog/what-does-tick-look-like-on-dog",
+   "kind": "tsx",
+   "file": "app/blog/what-does-tick-look-like-on-dog/page.tsx",
+   "type": "id",
+   "tier": 1,
+   "score": 14.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 11.3,
+     "mid": 18.6,
+     "high": 28.2
+    },
+    "d28": {
+     "low": 5.8,
+     "mid": 10.0,
+     "high": 15.5
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 481,
+    "d28": 276
+   },
+   "strikingCtrPct": {
+    "d90": 0.14,
+    "d28": 0.39
+   },
+   "clicksPerMonth": {
+    "d90": 5.3,
+    "d28": 7.5
+   },
+   "position": {
+    "d90": 9.6,
+    "d28": 8.8
+   },
+   "topQueries": [
+    "what does a tick look like on a dog (182/mo, pos 10.7, ctr 0.0%)",
+    "what does a tick look like in a dog (29/mo, pos 11.3, ctr 0.0%)",
+    "what does a dog tick look like (25/mo, pos 9.9, ctr 1.3%)",
+    "what does an embedded tick look like on a dog (16/mo, pos 10.4, ctr 0.0%)",
+    "what do ticks look like on dogs (15/mo, pos 15.5, ctr 0.0%)"
+   ],
+   "titleNow": "What Does a Tick Look Like on a Dog? Photos | BuzzSkito",
+   "inboundLinks": 16,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 5
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/tick-bite-on-dog-symptoms",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/tick-vs-bed-bug",
+    "/blog/american-dog-tick-canada",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/types-of-ticks-identification",
+    "/blog/tick-bites-that-wont-heal-when-to-worry"
+   ],
+   "rank": 33
+  },
+  {
+   "path": "/blog/what-does-a-tick-bite-look-like",
+   "kind": "tsx",
+   "file": "app/blog/what-does-a-tick-bite-look-like/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 13.4,
+   "gainPerMonth": {
+    "d90": {
+     "low": 6.3,
+     "mid": 10.7,
+     "high": 16.6
+    },
+    "d28": {
+     "low": 10.0,
+     "mid": 16.1,
+     "high": 24.1
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 294,
+    "d28": 402
+   },
+   "strikingCtrPct": {
+    "d90": 0.34,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 3.3,
+    "d28": 7.5
+   },
+   "position": {
+    "d90": 8.7,
+    "d28": 8.4
+   },
+   "topQueries": [
+    "what does a tick bite look like (37/mo, pos 9.1, ctr 0.0%)",
+    "what does a tick bite look like after a week (32/mo, pos 10.2, ctr 0.0%)",
+    "tick bites look like (12/mo, pos 11.9, ctr 0.0%)",
+    "tick bite appearance (12/mo, pos 10.6, ctr 0.0%)",
+    "tick bite look like (11/mo, pos 11.1, ctr 0.0%)"
+   ],
+   "titleNow": "What Does a Tick Bite Look Like? Day by Day | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 0,
+    "faqs": 15,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 3
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/tick-bite-symptoms-what-to-do-ontario",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/how-long-do-ticks-live",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans"
+   ],
+   "rank": 34
+  },
+  {
+   "path": "/blog/bugs-that-look-like-cockroaches",
+   "kind": "json",
+   "file": "content/guides/bugs-that-look-like-cockroaches.json",
+   "type": "look-alikes",
+   "tier": 1,
+   "score": 13.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 3.7,
+     "mid": 6.3,
+     "high": 9.8
+    },
+    "d28": {
+     "low": 11.9,
+     "mid": 20.4,
+     "high": 31.6
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 175,
+    "d28": 562
+   },
+   "strikingCtrPct": {
+    "d90": 0.38,
+    "d28": 0.38
+   },
+   "clicksPerMonth": {
+    "d90": 3.7,
+    "d28": 11.8
+   },
+   "position": {
+    "d90": 7.3,
+    "d28": 7.3
+   },
+   "topQueries": [
+    "bugs that look like cockroaches (27/mo, pos 8.1, ctr 1.2%)",
+    "bugs that look like roaches (13/mo, pos 9.4, ctr 0.0%)",
+    "what bugs look like cockroaches (6/mo, pos 8.8, ctr 0.0%)",
+    "beetles that look like cockroaches (5/mo, pos 10.3, ctr 0.0%)",
+    "types of bugs that look like cockroaches (5/mo, pos 8.4, ctr 0.0%)"
+   ],
+   "titleNow": "Bugs That Look Like Cockroaches: 8 to Rule Out | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-cockroach-spray-canada",
+    "/blog/best-roach-traps-canada"
+   ],
+   "status": "retrofitted Oct 16 (pilot): see data/god-build/RETROFIT_BRIEF.md, \"Worked examples\"",
+   "rank": 35
+  },
+  {
+   "path": "/blog/june-bugs-ontario",
+   "kind": "tsx",
+   "file": "app/blog/june-bugs-ontario/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 13.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 10.8,
+     "mid": 18.4,
+     "high": 28.4
+    },
+    "d28": {
+     "low": 4.8,
+     "mid": 7.8,
+     "high": 11.6
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 501,
+    "d28": 194
+   },
+   "strikingCtrPct": {
+    "d90": 0.33,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 7.3,
+    "d28": 3.2
+   },
+   "position": {
+    "d90": 6.5,
+    "d28": 6.8
+   },
+   "topQueries": [
+    "june bug ontario (133/mo, pos 7.3, ctr 1.0%)",
+    "june bugs canada (92/mo, pos 8.8, ctr 0.0%)",
+    "june bugs ontario (69/mo, pos 7.4, ctr 0.5%)",
+    "june bug canada (37/mo, pos 7.9, ctr 0.0%)",
+    "are june bugs dangerous (20/mo, pos 8.0, ctr 0.0%)"
+   ],
+   "titleNow": "June Bugs in Ontario: ID, Grubs & Light Swarms | BuzzSkito",
+   "inboundLinks": 10,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 3
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [],
+   "rank": 36
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-cluster-flies-canada",
+   "kind": "tsx",
+   "file": "app/blog/how-to-get-rid-of-cluster-flies-canada/page.tsx",
+   "type": "species-name",
+   "tier": 1,
+   "score": 8.9,
+   "gainPerMonth": {
+    "d90": {
+     "low": 3.2,
+     "mid": 6.9,
+     "high": 11.9
+    },
+    "d28": {
+     "low": 4.8,
+     "mid": 10.9,
+     "high": 19.0
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 248,
+    "d28": 406
+   },
+   "strikingCtrPct": {
+    "d90": 1.21,
+    "d28": 1.32
+   },
+   "clicksPerMonth": {
+    "d90": 17.3,
+    "d28": 35.4
+   },
+   "position": {
+    "d90": 7.8,
+    "d28": 7.5
+   },
+   "topQueries": [
+    "cluster flies (43/mo, pos 11.3, ctr 1.6%)",
+    "cluster flies ontario (31/mo, pos 8.0, ctr 2.1%)",
+    "how to get rid of cluster flies (31/mo, pos 9.7, ctr 2.1%)",
+    "cluster fly control (26/mo, pos 14.9, ctr 0.0%)",
+    "cluster fly spray (11/mo, pos 9.6, ctr 6.1%)"
+   ],
+   "titleNow": "Cluster Flies Canada 2026: The Farmhouse Fix | BuzzSkito",
+   "inboundLinks": 26,
+   "has": {
+    "photos": 2,
+    "faqs": 12,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 9
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards"
+   ],
+   "oct15_16": {
+    "photos": "Oct 16",
+    "titleChanged": true
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-fruit-fly-trap-canada",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/can-cockroaches-fly",
+    "/blog/do-ticks-fly-or-jump"
+   ],
+   "rank": 37
+  },
+  {
+   "path": "/blog/what-do-baby-cockroaches-look-like",
+   "kind": "json",
+   "file": "content/guides/what-do-baby-cockroaches-look-like.json",
+   "type": "life-stage",
+   "tier": 1,
+   "score": 8.6,
+   "gainPerMonth": {
+    "d90": {
+     "low": 2.4,
+     "mid": 4.1,
+     "high": 6.3
+    },
+    "d28": {
+     "low": 7.8,
+     "mid": 13.2,
+     "high": 20.3
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 111,
+    "d28": 357
+   },
+   "strikingCtrPct": {
+    "d90": 0.3,
+    "d28": 0.3
+   },
+   "clicksPerMonth": {
+    "d90": 0.3,
+    "d28": 1.1
+   },
+   "position": {
+    "d90": 8.0,
+    "d28": 8.0
+   },
+   "topQueries": [
+    "baby cockroach (36/mo, pos 8.5, ctr 0.0%)",
+    "baby roach (7/mo, pos 7.0, ctr 0.0%)",
+    "baby cockroach canada (6/mo, pos 9.5, ctr 0.0%)",
+    "small cockroach (5/mo, pos 8.8, ctr 6.7%)",
+    "cockroach nymph (4/mo, pos 7.2, ctr 0.0%)"
+   ],
+   "titleNow": "What Baby Cockroaches Look Like, by Species | BuzzSkito",
+   "inboundLinks": 15,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/best-roach-traps-canada",
+    "/blog/baby-bed-bugs-nymphs",
+    "/blog/advion-cockroach-gel-bait"
+   ],
+   "rank": 38
+  },
+  {
+   "path": "/blog/tick-bites-that-wont-heal-when-to-worry",
+   "kind": "tsx",
+   "file": "app/blog/tick-bites-that-wont-heal-when-to-worry/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 6.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 1.4,
+     "mid": 9.7,
+     "high": 20.7
+    },
+    "d28": {
+     "low": 0.0,
+     "mid": 2.9,
+     "high": 13.5
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 551,
+    "d28": 528
+   },
+   "strikingCtrPct": {
+    "d90": 2.24,
+    "d28": 3.45
+   },
+   "clicksPerMonth": {
+    "d90": 45.3,
+    "d28": 64.3
+   },
+   "position": {
+    "d90": 6.8,
+    "d28": 5.9
+   },
+   "topQueries": [
+    "tick bite not healing (95/mo, pos 8.4, ctr 2.5%)",
+    "tick bite wont heal (60/mo, pos 8.2, ctr 1.7%)",
+    "tick bite granuloma (57/mo, pos 8.7, ctr 0.6%)",
+    "tick bite that wont heal (37/mo, pos 6.5, ctr 3.6%)",
+    "tick bite won t heal after months (26/mo, pos 7.6, ctr 5.1%)"
+   ],
+   "titleNow": "Tick Bite Not Healing: When to Worry (Ontario) | BuzzSkito",
+   "inboundLinks": 9,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 5
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)",
+    "links in (9 now, 10+)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/when-to-worry-about-a-mosquito-bite",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/how-long-do-ticks-live",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/red-ticks-and-clover-mites"
+   ],
+   "rank": 39
+  },
+  {
+   "path": "/blog/when-to-worry-about-a-mosquito-bite",
+   "kind": "tsx",
+   "file": "app/blog/when-to-worry-about-a-mosquito-bite/page.tsx",
+   "type": "bites",
+   "tier": 1,
+   "score": 4.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 4.9,
+     "mid": 8.0,
+     "high": 12.2
+    },
+    "d28": {
+     "low": 0.4,
+     "mid": 0.6,
+     "high": 0.9
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 208,
+    "d28": 15
+   },
+   "strikingCtrPct": {
+    "d90": 0.16,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 4.3,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 10.3,
+    "d28": 8.9
+   },
+   "topQueries": [
+    "when to worry about a mosquito bite (80/mo, pos 13.5, ctr 0.0%)",
+    "when to worry about mosquito bites (9/mo, pos 16.4, ctr 0.0%)",
+    "why is my mosquito bite purple (8/mo, pos 7.9, ctr 0.0%)",
+    "skeeter syndrome when to see a doctor (7/mo, pos 11.0, ctr 0.0%)",
+    "why are my mosquito bites purple (7/mo, pos 8.4, ctr 0.0%)"
+   ],
+   "titleNow": "When to Worry About a Mosquito Bite: Red Flags | BuzzSkito",
+   "inboundLinks": 10,
+   "has": {
+    "photos": 0,
+    "faqs": 12,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/mosquito-bite-treatment-relief",
+    "/blog/why-mosquitoes-bite-some-people-more",
+    "/blog/when-are-mosquitoes-most-active",
+    "/blog/laser-mosquito-killer-photon-matrix-review",
+    "/blog/what-temperature-kills-mosquitoes",
+    "/blog/mosquito-larvae-identification",
+    "/blog/no-see-um-bites"
+   ],
+   "rank": 40
+  },
+  {
+   "path": "/blog/blacklegged-deer-tick-ontario",
+   "kind": "tsx",
+   "file": "app/blog/blacklegged-deer-tick-ontario/page.tsx",
+   "type": "id",
+   "tier": 1,
+   "score": 3.6,
+   "gainPerMonth": {
+    "d90": {
+     "low": 2.1,
+     "mid": 3.6,
+     "high": 5.5
+    },
+    "d28": {
+     "low": 2.2,
+     "mid": 3.6,
+     "high": 5.3
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 97,
+    "d28": 89
+   },
+   "strikingCtrPct": {
+    "d90": 0.34,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 1.7,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 12.2,
+    "d28": 7.4
+   },
+   "topQueries": [
+    "tick identification ontario (25/mo, pos 9.7, ctr 0.0%)",
+    "deer tick (20/mo, pos 9.0, ctr 0.0%)",
+    "black legged tick (8/mo, pos 12.9, ctr 0.0%)",
+    "deer ticks (7/mo, pos 17.4, ctr 0.0%)",
+    "blacklegged tick (5/mo, pos 12.4, ctr 0.0%)"
+   ],
+   "titleNow": "Blacklegged Deer Tick Ontario: ID & Lyme 2026 | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 6
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": true,
+   "linkInCandidates": [
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/how-long-do-ticks-live",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/deer-flies-horse-flies-ontario",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects",
+    "/blog/do-ticks-die-in-the-washing-machine"
+   ],
+   "rank": 41
+  },
+  {
+   "path": "/blog/cluster-flies-in-house-canada",
+   "kind": "tsx",
+   "file": "app/blog/cluster-flies-in-house-canada/page.tsx",
+   "type": "bugs-in-a-place",
+   "tier": 1,
+   "score": 3.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 1.3,
+     "mid": 2.5,
+     "high": 4.1
+    },
+    "d28": {
+     "low": 2.0,
+     "mid": 3.8,
+     "high": 6.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 79,
+    "d28": 121
+   },
+   "strikingCtrPct": {
+    "d90": 0.84,
+    "d28": 0.88
+   },
+   "clicksPerMonth": {
+    "d90": 7.3,
+    "d28": 15.0
+   },
+   "position": {
+    "d90": 7.3,
+    "d28": 7.3
+   },
+   "topQueries": [
+    "cluster flies (23/mo, pos 17.7, ctr 1.5%)",
+    "cluster fly (20/mo, pos 11.9, ctr 0.0%)",
+    "cluster flies ontario (12/mo, pos 10.8, ctr 0.0%)",
+    "fall flies in house (4/mo, pos 9.1, ctr 0.0%)",
+    "when do cluster flies come out (2/mo, pos 9.1, ctr 0.0%)"
+   ],
+   "titleNow": "Cluster Flies in the House Canada — Why They Appear in Fall | BuzzSkito",
+   "inboundLinks": 13,
+   "has": {
+    "photos": 0,
+    "faqs": 10,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 5
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/best-whole-house-dehumidifier-canada",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/can-cockroaches-fly",
+    "/blog/do-ticks-fly-or-jump",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "rank": 42
+  },
+  {
+   "path": "/blog/red-ants",
+   "kind": "json",
+   "file": "content/guides/red-ants.json",
+   "type": "id",
+   "tier": 1,
+   "score": 2.5,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.8,
+     "mid": 1.2,
+     "high": 1.8
+    },
+    "d28": {
+     "low": 2.5,
+     "mid": 3.9,
+     "high": 5.9
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 31,
+    "d28": 99
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 10.4,
+    "d28": 10.4
+   },
+   "topQueries": [
+    "red ants (15/mo, pos 9.3, ctr 0.0%)",
+    "red ant (8/mo, pos 9.8, ctr 0.0%)",
+    "fire ant (1/mo, pos 12.7, ctr 0.0%)",
+    "are red ants fire ants (1/mo, pos 9.5, ctr 0.0%)",
+    "red anta (1/mo, pos 8.5, ctr 0.0%)"
+   ],
+   "titleNow": "Red Ants: Is It a Fire Ant or a Look-Alike? | BuzzSkito",
+   "inboundLinks": 23,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/best-ant-traps-canada",
+    "/blog/best-ant-killer",
+    "/blog/do-carpenter-ants-bite",
+    "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "rank": 43
+  },
+  {
+   "path": "/learn/tick-identification-chart",
+   "kind": "json",
+   "file": "content/guides/tick-identification-chart.json",
+   "type": "id",
+   "tier": 1,
+   "score": 1.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.3,
+     "mid": 0.5,
+     "high": 0.8
+    },
+    "d28": {
+     "low": 1.0,
+     "mid": 1.7,
+     "high": 2.5
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 13,
+    "d28": 42
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 9.9,
+    "d28": 9.9
+   },
+   "topQueries": [
+    "tick identification chart (6/mo, pos 8.7, ctr 0.0%)",
+    "tick identification ontario (2/mo, pos 5.0, ctr 0.0%)",
+    "alpha gal syndrome treatment (1/mo, pos 9.3, ctr 0.0%)",
+    "deer tick engorgement chart (1/mo, pos 8.0, ctr 0.0%)",
+    "images (1/mo, pos 20.0, ctr 0.0%)"
+   ],
+   "titleNow": "Tick Identification Chart: Deer, Dog, Lone Star | BuzzSkito",
+   "inboundLinks": 99,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/tick-vs-bed-bug"
+   ],
+   "rank": 44
+  },
+  {
+   "path": "/blog/tiny-ants",
+   "kind": "json",
+   "file": "content/guides/tiny-ants.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0.7,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.2,
+     "mid": 0.3,
+     "high": 0.5
+    },
+    "d28": {
+     "low": 0.7,
+     "mid": 1.1,
+     "high": 1.6
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 8,
+    "d28": 27
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 6.9,
+    "d28": 6.9
+   },
+   "topQueries": [
+    "how to identify ants in house (2/mo, pos 4.7, ctr 0.0%)",
+    "smallest ant (1/mo, pos 9.7, ctr 0.0%)",
+    "smallest ants (1/mo, pos 4.3, ctr 0.0%)",
+    "ant with white abdomen (0/mo, pos 9.0, ctr 0.0%)",
+    "small tiny ones (0/mo, pos 5.0, ctr 0.0%)"
+   ],
+   "titleNow": "Tiny Ants: Identify Them by Color, Size, Smell | BuzzSkito",
+   "inboundLinks": 21,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-ant-traps-canada",
+    "/blog/army-ants"
+   ],
+   "rank": 45
+  },
+  {
+   "path": "/blog/seed-ticks",
+   "kind": "json",
+   "file": "content/guides/seed-ticks.json",
+   "type": "life-stage",
+   "tier": 2,
+   "score": 0.6,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.2,
+     "mid": 0.3,
+     "high": 0.4
+    },
+    "d28": {
+     "low": 0.6,
+     "mid": 0.9,
+     "high": 1.3
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 7,
+    "d28": 22
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 8.0,
+    "d28": 8.0
+   },
+   "topQueries": [
+    "baby tick (2/mo, pos 12.5, ctr 0.0%)",
+    "seed tick (1/mo, pos 8.2, ctr 0.0%)",
+    "seed tick cluster (1/mo, pos 10.5, ctr 0.0%)",
+    "baby ticks on skin (0/mo, pos 17.0, ctr 0.0%)",
+    "how long can seed ticks live without a host (0/mo, pos 5.0, ctr 0.0%)"
+   ],
+   "titleNow": "Seed Ticks (Baby Ticks): Remove Dozens at Once | BuzzSkito",
+   "inboundLinks": 20,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/tick-vs-bed-bug",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects",
+    "/blog/do-ticks-die-in-the-washing-machine",
+    "/blog/are-ticks-dangerous-ontario"
+   ],
+   "rank": 46
+  },
+  {
+   "path": "/blog/do-carpenter-ants-bite",
+   "kind": "json",
+   "file": "content/guides/do-carpenter-ants-bite.json",
+   "type": "bites",
+   "tier": 2,
+   "score": 0.5,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.2,
+     "mid": 0.2,
+     "high": 0.4
+    },
+    "d28": {
+     "low": 0.5,
+     "mid": 0.8,
+     "high": 1.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 6,
+    "d28": 19
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 7.9,
+    "d28": 7.9
+   },
+   "topQueries": [
+    "carpenter ant bite (3/mo, pos 7.2, ctr 0.0%)",
+    "carpenter ant bite treatment (0/mo, pos 4.0, ctr 0.0%)",
+    "carpenter ant do they bite (0/mo, pos 9.0, ctr 0.0%)",
+    "carpenter ants do they bite (0/mo, pos 9.0, ctr 0.0%)",
+    "do ants die when they bite you (0/mo, pos 6.0, ctr 0.0%)"
+   ],
+   "titleNow": "Do Carpenter Ants Bite? Yes, and What to Do | BuzzSkito",
+   "inboundLinks": 14,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites"
+   ],
+   "rank": 47
+  },
+  {
+   "path": "/blog/tick-bite-on-dog-symptoms",
+   "kind": "tsx",
+   "file": "app/blog/tick-bite-on-dog-symptoms/page.tsx",
+   "type": "bites",
+   "tier": 2,
+   "score": 0.4,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.2,
+     "mid": 0.3,
+     "high": 0.5
+    },
+    "d28": {
+     "low": 0.3,
+     "mid": 0.5,
+     "high": 0.8
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 8,
+    "d28": 13
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.7,
+    "d28": 2.1
+   },
+   "position": {
+    "d90": 13.7,
+    "d28": 9.9
+   },
+   "topQueries": [
+    "tick bite on dog symptoms (1/mo, pos 19.3, ctr 0.0%)",
+    "canine tick bite symptoms (1/mo, pos 17.5, ctr 0.0%)",
+    "dog symptoms tick bite (1/mo, pos 20.0, ctr 0.0%)",
+    "tick bite dog symptoms (1/mo, pos 20.0, ctr 0.0%)",
+    "tick bites symptoms in dogs (1/mo, pos 17.0, ctr 0.0%)"
+   ],
+   "titleNow": "Tick Bite on Dog: Symptoms & Lyme Risk Ontario | BuzzSkito",
+   "inboundLinks": 15,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 4
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/what-does-a-tick-bite-look-like",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/how-long-do-ticks-live",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans"
+   ],
+   "rank": 48
+  },
+  {
+   "path": "/blog/do-ants-bite",
+   "kind": "json",
+   "file": "content/guides/do-ants-bite.json",
+   "type": "bites",
+   "tier": 2,
+   "score": 0.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.2
+    },
+    "d28": {
+     "low": 0.3,
+     "mid": 0.5,
+     "high": 0.7
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 4,
+    "d28": 12
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 9.7,
+    "d28": 9.7
+   },
+   "topQueries": [
+    "do pavement ants bite (1/mo, pos 10.7, ctr 0.0%)",
+    "common ant bites (1/mo, pos 9.5, ctr 0.0%)",
+    "can all ants bite (0/mo, pos 20.0, ctr 0.0%)",
+    "do ants bite or sting (0/mo, pos 9.0, ctr 0.0%)",
+    "do common ants bite (0/mo, pos 7.0, ctr 0.0%)"
+   ],
+   "titleNow": "Do Ants Bite? Which Ones Bite and Which Sting | BuzzSkito",
+   "inboundLinks": 18,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites"
+   ],
+   "rank": 49
+  },
+  {
+   "path": "/blog/signs-of-bed-bugs-checklist",
+   "kind": "json",
+   "file": "content/guides/signs-of-bed-bugs-checklist.json",
+   "type": "signs",
+   "tier": 2,
+   "score": 0.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.1
+    },
+    "d28": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1,
+    "d28": 3
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.3,
+    "d28": 1.1
+   },
+   "position": {
+    "d90": 5.3,
+    "d28": 5.3
+   },
+   "topQueries": [
+    "bed bug indicator (0/mo, pos 7.0, ctr 0.0%)",
+    "bed bug? (0/mo, pos 4.0, ctr 0.0%)",
+    "germ bomb (0/mo, pos 17.0, ctr 0.0%)"
+   ],
+   "titleNow": "Signs of Bed Bugs: 7-Point Checklist for Tonight | BuzzSkito",
+   "inboundLinks": 75,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/fall-mouse-proofing-checklist"
+   ],
+   "rank": 50
+  },
+  {
+   "path": "/blog/tick-bite-symptoms-what-to-do-ontario",
+   "kind": "tsx",
+   "file": "app/blog/tick-bite-symptoms-what-to-do-ontario/page.tsx",
+   "type": "bites",
+   "tier": 2,
+   "score": 0.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.1,
+     "mid": 0.2,
+     "high": 0.2
+    },
+    "d28": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.2
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 4,
+    "d28": 3
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 1.7,
+    "d28": 2.1
+   },
+   "position": {
+    "d90": 14.4,
+    "d28": 13.8
+   },
+   "topQueries": [
+    "tick bite ontario what to do (1/mo, pos 3.5, ctr 0.0%)",
+    "i never saw a tick (0/mo, pos 6.0, ctr 0.0%)",
+    "ontario (0/mo, pos 4.0, ctr 0.0%)",
+    "scarborough ontario (0/mo, pos 5.0, ctr 0.0%)",
+    "south african tick (0/mo, pos 11.0, ctr 0.0%)"
+   ],
+   "titleNow": "Tick Bite Symptoms & What to Do | Ontario | BuzzSkito",
+   "inboundLinks": 25,
+   "has": {
+    "photos": 0,
+    "faqs": 10,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 3
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": true,
+   "linkInCandidates": [
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/what-blood-type-do-mosquitoes-bite"
+   ],
+   "rank": 51
+  },
+  {
+   "path": "/blog/baby-mice",
+   "kind": "json",
+   "file": "content/guides/baby-mice.json",
+   "type": "life-stage",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 15,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/baby-bed-bugs-nymphs",
+    "/blog/mouse-bait-station-canada",
+    "/blog/mouse-repellent-canada",
+    "/blog/best-mouse-trap-canada",
+    "/blog/victor-electronic-mouse-trap-review-canada",
+    "/blog/mouse-proof-garage-door-seal-canada",
+    "/blog/steel-wool-for-mice",
+    "/blog/what-do-baby-cockroaches-look-like",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/vamoose-for-mice"
+   ],
+   "rank": 52
+  },
+  {
+   "path": "/blog/bed-bugs-on-mattress",
+   "kind": "json",
+   "file": "content/guides/bed-bugs-on-mattress.json",
+   "type": "signs",
+   "tier": 2,
+   "score": 0.0,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    },
+    "d28": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": 0,
+    "d28": 0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 7.8,
+    "d28": 7.8
+   },
+   "topQueries": [],
+   "titleNow": "Bed Bugs on a Mattress: Signs and What to Do | BuzzSkito",
+   "inboundLinks": 17,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/tick-vs-bed-bug",
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/bed-bug-shells-casings-shed-skins-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/diatomaceous-earth-for-bed-bugs",
+    "/blog/cimexa-bed-bug-review-canada"
+   ],
+   "rank": 53
+  },
+  {
+   "path": "/blog/brown-recluse-bite",
+   "kind": "json",
+   "file": "content/guides/brown-recluse-bite.json",
+   "type": "bites",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 5,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites"
+   ],
+   "rank": 54
+  },
+  {
+   "path": "/blog/bugs-in-house-in-winter",
+   "kind": "json",
+   "file": "content/guides/bugs-in-house-in-winter.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/cluster-flies-in-house-canada",
+    "/blog/where-do-mosquitoes-go-in-winter-ontario",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada",
+    "/blog/best-whole-house-dehumidifier-canada",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "rank": 55
+  },
+  {
+   "path": "/blog/cockroach-eggs",
+   "kind": "json",
+   "file": "content/guides/cockroach-eggs.json",
+   "type": "signs",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 5,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-cockroach-spray-canada",
+    "/blog/how-to-get-rid-of-cockroaches-canada",
+    "/blog/best-roach-traps-canada",
+    "/blog/advion-cockroach-gel-bait",
+    "/blog/bugs-that-look-like-cockroaches",
+    "/blog/how-to-kill-bed-bug-eggs-canada",
+    "/blog/what-do-baby-cockroaches-look-like",
+    "/blog/can-cockroaches-fly",
+    "/learn/cockroaches"
+   ],
+   "rank": 56
+  },
+  {
+   "path": "/blog/do-cockroaches-bite",
+   "kind": "json",
+   "file": "content/guides/do-cockroaches-bite.json",
+   "type": "bites",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 14,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites"
+   ],
+   "rank": 57
+  },
+  {
+   "path": "/blog/flea-eggs",
+   "kind": "json",
+   "file": "content/guides/flea-eggs.json",
+   "type": "signs",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 5,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/flea-bites-on-humans",
+    "/blog/best-flea-spray-for-home-canada",
+    "/blog/best-flea-bomb-canada",
+    "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada",
+    "/blog/how-to-kill-bed-bug-eggs-canada"
+   ],
+   "rank": 58
+  },
+  {
+   "path": "/blog/house-spiders",
+   "kind": "json",
+   "file": "content/guides/house-spiders.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+    "/blog/best-spider-spray-canada",
+    "/blog/cluster-flies-in-house-canada",
+    "/blog/best-whole-house-dehumidifier-canada",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "rank": 59
+  },
+  {
+   "path": "/blog/pantry-pests",
+   "kind": "json",
+   "file": "content/guides/pantry-pests.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/pantry-moth-traps-canada"
+   ],
+   "rank": 60
+  },
+  {
+   "path": "/blog/spider-egg-sacs",
+   "kind": "json",
+   "file": "content/guides/spider-egg-sacs.json",
+   "type": "signs",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada",
+    "/blog/how-to-kill-bed-bug-eggs-canada"
+   ],
+   "rank": 61
+  },
+  {
+   "path": "/blog/spiders-in-california",
+   "kind": "json",
+   "file": "content/guides/spiders-in-california.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+   ],
+   "rank": 62
+  },
+  {
+   "path": "/blog/spiders-in-florida",
+   "kind": "json",
+   "file": "content/guides/spiders-in-florida.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+   ],
+   "rank": 63
+  },
+  {
+   "path": "/blog/spiders-in-texas",
+   "kind": "json",
+   "file": "content/guides/spiders-in-texas.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+   ],
+   "rank": 64
+  },
+  {
+   "path": "/blog/tiny-black-bugs",
+   "kind": "json",
+   "file": "content/guides/tiny-black-bugs.json",
+   "type": "bugs-in-a-place",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/black-flies-ontario-when-they-come-out",
+    "/blog/black-flag-electric-fogger-review-canada",
+    "/blog/tiny-ants",
+    "/blog/black-bed-bugs"
+   ],
+   "rank": 65
+  },
+  {
+   "path": "/blog/where-do-bed-bugs-hide",
+   "kind": "json",
+   "file": "content/guides/where-do-bed-bugs-hide.json",
+   "type": "signs",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 19,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/tick-vs-bed-bug",
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/bed-bug-shells-casings-shed-skins-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/diatomaceous-earth-for-bed-bugs",
+    "/blog/cimexa-bed-bug-review-canada",
+    "/blog/bed-bug-interceptor-traps-canada"
+   ],
+   "rank": 66
+  },
+  {
+   "path": "/learn/bug-bites",
+   "kind": "json",
+   "file": "content/guides/bug-bites.json",
+   "type": "bites",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-many-times-can-a-mosquito-bite-you",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/no-see-um-bites",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/chigger-bites",
+    "/blog/can-mosquitoes-bite-through-clothes",
+    "/blog/flea-bites-on-humans",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/what-blood-type-do-mosquitoes-bite",
+    "/blog/why-do-mosquitoes-bite-my-ankles",
+    "/blog/bed-bug-bites"
+   ],
+   "rank": 67
+  },
+  {
+   "path": "/blog/bugs-that-look-like-bed-bugs",
+   "kind": "json",
+   "file": "content/guides/bugs-that-look-like-bed-bugs.json",
+   "type": "look-alikes",
+   "tier": 2,
+   "score": 0.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    },
+    "d28": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.1
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1,
+    "d28": 2
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 5.2,
+    "d28": 5.5
+   },
+   "topQueries": [
+    "bugs that look like bed bugs (0/mo, pos 10.0, ctr 0.0%)",
+    "they are flying (0/mo, pos 13.0, ctr 0.0%)"
+   ],
+   "titleNow": "Bugs That Look Like Bed Bugs: How to Tell Apart | BuzzSkito",
+   "inboundLinks": 23,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/bed-bug-shells-casings-shed-skins-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/diatomaceous-earth-for-bed-bugs",
+    "/blog/cimexa-bed-bug-review-canada",
+    "/blog/bed-bug-interceptor-traps-canada",
+    "/blog/konk-bed-bug-killer-review-canada",
+    "/blog/best-bed-bug-trap-canada"
+   ],
+   "rank": 68
+  },
+  {
+   "path": "/blog/asian-lady-beetles",
+   "kind": "json",
+   "file": "content/guides/asian-lady-beetles.json",
+   "type": "look-alikes",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 4,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-get-rid-of-carpet-beetles-canada"
+   ],
+   "rank": 69
+  },
+  {
+   "path": "/blog/brown-recluse-look-alikes",
+   "kind": "json",
+   "file": "content/guides/brown-recluse-look-alikes.json",
+   "type": "look-alikes",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [],
+   "rank": 70
+  },
+  {
+   "path": "/blog/bugs-that-look-like-fleas",
+   "kind": "json",
+   "file": "content/guides/bugs-that-look-like-fleas.json",
+   "type": "look-alikes",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 7,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/flea-bites-on-humans",
+    "/blog/best-flea-spray-for-home-canada",
+    "/blog/best-flea-bomb-canada",
+    "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada"
+   ],
+   "rank": 71
+  },
+  {
+   "path": "/blog/flying-ants-vs-termites",
+   "kind": "json",
+   "file": "content/guides/flying-ants-vs-termites.json",
+   "type": "x-vs-y",
+   "tier": 2,
+   "score": 0.0,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    },
+    "d28": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": 0,
+    "d28": 0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 4.3,
+    "d28": 4.3
+   },
+   "topQueries": [],
+   "titleNow": "Flying Ants vs Termites: 3 Checks to Tell Apart | BuzzSkito",
+   "inboundLinks": 17,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-ant-traps-canada",
+    "/blog/best-ant-killer",
+    "/blog/what-do-ants-eat",
+    "/blog/ghost-ants",
+    "/blog/do-ants-bite",
+    "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "rank": 72
+  },
+  {
+   "path": "/blog/palmetto-bugs",
+   "kind": "json",
+   "file": "content/guides/palmetto-bugs.json",
+   "type": "x-vs-y",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 7,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [],
+   "rank": 73
+  },
+  {
+   "path": "/blog/rat-vs-mouse",
+   "kind": "json",
+   "file": "content/guides/rat-vs-mouse.json",
+   "type": "x-vs-y",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-rat-trap-canada",
+    "/blog/what-does-mouse-poop-look-like-canada",
+    "/blog/rat-poison-canada-what-is-legal",
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/mouse-bait-station-canada",
+    "/blog/mouse-repellent-canada",
+    "/blog/best-mouse-trap-canada",
+    "/blog/how-to-get-rid-of-mice-canada",
+    "/blog/how-to-get-rid-of-rats-canada",
+    "/blog/victor-electronic-mouse-trap-review-canada",
+    "/blog/mouse-proof-garage-door-seal-canada",
+    "/blog/steel-wool-for-mice"
+   ],
+   "rank": 74
+  },
+  {
+   "path": "/blog/roof-rat-vs-norway-rat",
+   "kind": "json",
+   "file": "content/guides/roof-rat-vs-norway-rat.json",
+   "type": "x-vs-y",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 5,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-rat-trap-canada",
+    "/blog/rat-poison-canada-what-is-legal",
+    "/blog/how-to-get-rid-of-rats-canada",
+    "/blog/best-raccoon-proof-roof-vent-covers-canada"
+   ],
+   "rank": 75
+  },
+  {
+   "path": "/blog/water-bugs-vs-cockroaches",
+   "kind": "json",
+   "file": "content/guides/water-bugs-vs-cockroaches.json",
+   "type": "x-vs-y",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 11,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-cockroach-spray-canada",
+    "/blog/advion-cockroach-gel-bait",
+    "/blog/does-standing-water-attract-mosquitoes",
+    "/blog/fix-standing-water-yard-mosquitoes-canada"
+   ],
+   "rank": 76
+  },
+  {
+   "path": "/blog/sugar-ants",
+   "kind": "json",
+   "file": "content/guides/sugar-ants.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.2,
+     "mid": 0.4,
+     "high": 0.5
+    },
+    "d28": {
+     "low": 0.7,
+     "mid": 1.2,
+     "high": 1.7
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 9,
+    "d28": 29
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 9.7,
+    "d28": 9.7
+   },
+   "topQueries": [
+    "sugar ants (2/mo, pos 19.0, ctr 0.0%)",
+    "sugar ant (1/mo, pos 16.0, ctr 0.0%)",
+    "what are sugar ants called (1/mo, pos 10.0, ctr 0.0%)",
+    "sugar ant size (1/mo, pos 8.0, ctr 0.0%)",
+    "ants on sugar (0/mo, pos 10.0, ctr 0.0%)"
+   ],
+   "titleNow": "Sugar Ants: Types and How to Get Rid of Them | BuzzSkito",
+   "inboundLinks": 20,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-ant-traps-canada",
+    "/blog/best-ant-killer",
+    "/blog/flying-ants",
+    "/blog/army-ants",
+    "/blog/do-carpenter-ants-bite"
+   ],
+   "rank": 77
+  },
+  {
+   "path": "/blog/american-dog-tick-canada",
+   "kind": "tsx",
+   "file": "app/blog/american-dog-tick-canada/page.tsx",
+   "type": "id",
+   "tier": 2,
+   "score": 0.8,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.3,
+     "mid": 0.4,
+     "high": 0.6
+    },
+    "d28": {
+     "low": 0.7,
+     "mid": 1.1,
+     "high": 1.7
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 11,
+    "d28": 28
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 13.8,
+    "d28": 12.0
+   },
+   "topQueries": [
+    "tick identification ontario (7/mo, pos 6.2, ctr 0.0%)",
+    "american dog tick ontario (2/mo, pos 6.0, ctr 0.0%)",
+    "dog tick ontario (1/mo, pos 19.2, ctr 0.0%)",
+    "american dog tick canada (0/mo, pos 8.0, ctr 0.0%)",
+    "laval? (0/mo, pos 15.0, ctr 0.0%)"
+   ],
+   "titleNow": "American Dog Tick · Canada ID & Risk Guide 2026 | BuzzSkito",
+   "inboundLinks": 10,
+   "has": {
+    "photos": 0,
+    "faqs": 8,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 3
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)"
+   ],
+   "oct15_16": {
+    "photos": null,
+    "titleChanged": false
+   },
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-tick-look-like-on-dog",
+    "/blog/bugs-that-look-like-ticks",
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/tick-bite-on-dog-symptoms",
+    "/blog/i-found-tick-on-my-dog-what-to-do",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active"
+   ],
+   "rank": 78
+  },
+  {
+   "path": "/blog/ghost-ants",
+   "kind": "json",
+   "file": "content/guides/ghost-ants.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0.3,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.1,
+     "mid": 0.2,
+     "high": 0.2
+    },
+    "d28": {
+     "low": 0.3,
+     "mid": 0.5,
+     "high": 0.8
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 4,
+    "d28": 13
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 6.1,
+    "d28": 6.1
+   },
+   "topQueries": [
+    "ghost ants (3/mo, pos 7.7, ctr 0.0%)",
+    "ghost ant queen size (0/mo, pos 9.0, ctr 0.0%)",
+    "ghost ants size (0/mo, pos 9.0, ctr 0.0%)",
+    "what do ghost ants look like (0/mo, pos 8.0, ctr 0.0%)"
+   ],
+   "titleNow": "Ghost Ants: Tiny, Pale-Bodied, Spread by Budding | BuzzSkito",
+   "inboundLinks": 10,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-ant-traps-canada",
+    "/blog/carpenter-ants-canada",
+    "/blog/best-ant-killer",
+    "/learn/ant-killer-recipes",
+    "/blog/sugar-ants",
+    "/blog/flying-ants",
+    "/blog/what-do-ants-eat",
+    "/blog/do-carpenter-ants-bite",
+    "/blog/do-ants-bite",
+    "/blog/how-to-get-rid-of-ants-in-the-kitchen",
+    "/blog/how-to-get-rid-of-ants-in-the-house",
+    "/blog/flying-ants-vs-termites"
+   ],
+   "rank": 79
+  },
+  {
+   "path": "/blog/black-bed-bugs",
+   "kind": "json",
+   "file": "content/guides/black-bed-bugs.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.2
+    },
+    "d28": {
+     "low": 0.3,
+     "mid": 0.4,
+     "high": 0.6
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 3,
+    "d28": 11
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 6.0,
+    "d28": 6.0
+   },
+   "topQueries": [
+    "are bed bugs black (1/mo, pos 6.8, ctr 0.0%)",
+    "are bed bugs black? (0/mo, pos 6.0, ctr 0.0%)",
+    "are bedbugs black (0/mo, pos 10.0, ctr 0.0%)",
+    "bed bugs black (0/mo, pos 9.0, ctr 0.0%)",
+    "black bed bug (0/mo, pos 7.0, ctr 0.0%)"
+   ],
+   "titleNow": "Black Bed Bugs: Brown Bugs, Black Droppings | BuzzSkito",
+   "inboundLinks": 14,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/black-flies-ontario-when-they-come-out",
+    "/blog/tick-vs-bed-bug",
+    "/blog/bed-bug-bites",
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/bed-bug-shells-casings-shed-skins-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada"
+   ],
+   "rank": 80
+  },
+  {
+   "path": "/blog/flying-ants",
+   "kind": "json",
+   "file": "content/guides/flying-ants.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0.2,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.1
+    },
+    "d28": {
+     "low": 0.2,
+     "mid": 0.3,
+     "high": 0.4
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 2,
+    "d28": 8
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.3,
+    "d28": 1.1
+   },
+   "position": {
+    "d90": 9.0,
+    "d28": 9.0
+   },
+   "topQueries": [
+    "citronella ants with wings (0/mo, pos 9.0, ctr 0.0%)",
+    "flying ant species (0/mo, pos 19.0, ctr 0.0%)",
+    "flying ant swarm outside house (0/mo, pos 8.0, ctr 0.0%)",
+    "flying ants toronto (0/mo, pos 10.0, ctr 0.0%)",
+    "flying carpenter ants (0/mo, pos 18.0, ctr 0.0%)"
+   ],
+   "titleNow": "Flying Ants: What They Are and Why They Swarm | BuzzSkito",
+   "inboundLinks": 16,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-ant-traps-canada",
+    "/blog/best-ant-killer",
+    "/blog/sugar-ants",
+    "/blog/what-do-ants-eat",
+    "/blog/army-ants",
+    "/blog/do-ants-bite"
+   ],
+   "rank": 81
+  },
+  {
+   "path": "/blog/deer-mice",
+   "kind": "json",
+   "file": "content/guides/deer-mice.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0.1,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    },
+    "d28": {
+     "low": 0.1,
+     "mid": 0.1,
+     "high": 0.1
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 1,
+    "d28": 2
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 7.4,
+    "d28": 7.4
+   },
+   "topQueries": [
+    "deer micr (0/mo, pos 11.0, ctr 0.0%)",
+    "deer mouse sickness (0/mo, pos 16.0, ctr 0.0%)"
+   ],
+   "titleNow": "Deer Mice: ID, Hantavirus Risk and Safe Cleanup | BuzzSkito",
+   "inboundLinks": 16,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/deer-flies-horse-flies-ontario",
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/mouse-bait-station-canada",
+    "/blog/deer-tick-vs-dog-tick-canada",
+    "/blog/mouse-repellent-canada",
+    "/blog/best-mouse-trap-canada",
+    "/blog/victor-electronic-mouse-trap-review-canada",
+    "/blog/mouse-proof-garage-door-seal-canada",
+    "/blog/best-deer-fence-for-gardens-canada",
+    "/blog/blacklegged-deer-tick-ontario",
+    "/blog/steel-wool-for-mice"
+   ],
+   "rank": 82
+  },
+  {
+   "path": "/blog/ticks-on-dogs",
+   "kind": "json",
+   "file": "content/guides/ticks-on-dogs.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0.0,
+   "gainPerMonth": {
+    "d90": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.0
+    },
+    "d28": {
+     "low": 0.0,
+     "mid": 0.0,
+     "high": 0.1
+    }
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 1
+   },
+   "strikingCtrPct": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "clicksPerMonth": {
+    "d90": 0.0,
+    "d28": 0.0
+   },
+   "position": {
+    "d90": 27.3,
+    "d28": 27.3
+   },
+   "topQueries": [
+    "dog tick size (0/mo, pos 11.0, ctr 0.0%)"
+   ],
+   "titleNow": "Ticks on Dogs: Where to Check and How to Remove | BuzzSkito",
+   "inboundLinks": 45,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-long-do-ticks-live",
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/tick-repellent-for-dogs-ontario",
+    "/blog/tick-vs-bed-bug",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects"
+   ],
+   "rank": 83
+  },
+  {
+   "path": "/blog/black-ants",
+   "kind": "json",
+   "file": "content/guides/black-ants.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 19,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/black-flies-ontario-when-they-come-out",
+    "/blog/best-ant-traps-canada",
+    "/blog/best-ant-killer",
+    "/blog/black-flag-electric-fogger-review-canada",
+    "/blog/what-do-ants-eat",
+    "/blog/army-ants",
+    "/blog/black-bed-bugs"
+   ],
+   "rank": 84
+  },
+  {
+   "path": "/blog/field-mice",
+   "kind": "json",
+   "file": "content/guides/field-mice.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 17,
+   "has": {
+    "photos": 0,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (5 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/mouse-bait-station-canada",
+    "/blog/mouse-repellent-canada",
+    "/blog/best-mouse-trap-canada",
+    "/blog/victor-electronic-mouse-trap-review-canada",
+    "/blog/mouse-proof-garage-door-seal-canada",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/field-king-backpack-sprayer-review-canada",
+    "/blog/can-mice-climb-walls",
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/what-smells-do-mice-hate",
+    "/blog/how-to-get-rid-of-mice-humanely"
+   ],
+   "rank": 85
+  },
+  {
+   "path": "/blog/german-cockroaches",
+   "kind": "json",
+   "file": "content/guides/german-cockroaches.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 14,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/best-roach-traps-canada",
+    "/blog/advion-cockroach-gel-bait"
+   ],
+   "rank": 86
+  },
+  {
+   "path": "/blog/house-centipedes",
+   "kind": "json",
+   "file": "content/guides/house-centipedes.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 6,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-get-rid-of-centipedes-canada",
+    "/blog/how-to-get-rid-of-mosquitoes-in-the-house",
+    "/blog/best-centipede-killer-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/cluster-flies-in-house-canada",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada",
+    "/blog/best-whole-house-dehumidifier-canada",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "rank": 87
+  },
+  {
+   "path": "/blog/types-of-mice",
+   "kind": "json",
+   "file": "content/guides/types-of-mice.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 22,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/how-to-keep-mice-out-of-your-car",
+    "/blog/types-of-ticks-identification",
+    "/blog/mouse-bait-station-canada",
+    "/blog/mouse-repellent-canada",
+    "/blog/best-mouse-trap-canada",
+    "/blog/mouse-proof-garage-door-seal-canada",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/vamoose-for-mice",
+    "/blog/mice-repellent",
+    "/blog/how-to-get-rid-of-mice-humanely",
+    "/blog/mice-poison"
+   ],
+   "rank": 88
+  },
+  {
+   "path": "/blog/venomous-spiders",
+   "kind": "json",
+   "file": "content/guides/venomous-spiders.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 8,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+   ],
+   "rank": 89
+  },
+  {
+   "path": "/blog/what-do-bed-bugs-look-like",
+   "kind": "json",
+   "file": "content/guides/what-do-bed-bugs-look-like.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 20,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/tick-vs-bed-bug",
+    "/blog/bed-bug-stains-poop-droppings-canada",
+    "/blog/bed-bug-mattress-encasement-canada",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/best-bed-bug-spray-for-mattress-canada",
+    "/blog/bed-bug-shells-casings-shed-skins-canada",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-natural-bed-bug-spray-canada",
+    "/blog/best-bed-bug-steamer-canada",
+    "/blog/crossfire-bed-bug-concentrate-review-canada",
+    "/blog/diatomaceous-earth-for-bed-bugs",
+    "/blog/cimexa-bed-bug-review-canada"
+   ],
+   "rank": 90
+  },
+  {
+   "path": "/blog/what-do-fleas-look-like",
+   "kind": "json",
+   "file": "content/guides/what-do-fleas-look-like.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 4,
+    "faqs": 5,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (5 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/flea-bites-on-humans",
+    "/blog/best-flea-spray-for-home-canada",
+    "/blog/best-flea-bomb-canada",
+    "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada"
+   ],
+   "rank": 91
+  },
+  {
+   "path": "/blog/what-do-ticks-look-like",
+   "kind": "json",
+   "file": "content/guides/what-do-ticks-look-like.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 49,
+   "has": {
+    "photos": 0,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "photos (0 now, 2+ where found)",
+    "FAQs (6 now, 8-10)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/tick-bite-vs-mosquito-bite",
+    "/blog/can-ticks-fly-jump-swim",
+    "/blog/tick-vs-bed-bug",
+    "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/what-eats-ticks-and-mosquitoes",
+    "/blog/tick-season-ontario-when-are-ticks-active",
+    "/blog/tick-bites-that-wont-heal-when-to-worry",
+    "/blog/are-ticks-arachnids-or-insects",
+    "/blog/do-ticks-die-in-the-washing-machine",
+    "/blog/are-ticks-dangerous-ontario"
+   ],
+   "rank": 92
+  },
+  {
+   "path": "/blog/wolf-spiders",
+   "kind": "json",
+   "file": "content/guides/wolf-spiders.json",
+   "type": "id",
+   "tier": 2,
+   "score": 0,
+   "gainPerMonth": {
+    "d90": null,
+    "d28": null
+   },
+   "strikingImpressionsPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "strikingCtrPct": {
+    "d90": null,
+    "d28": null
+   },
+   "clicksPerMonth": {
+    "d90": 0,
+    "d28": 0
+   },
+   "position": {
+    "d90": null,
+    "d28": null
+   },
+   "topQueries": [],
+   "titleNow": null,
+   "inboundLinks": 0,
+   "has": {
+    "photos": 7,
+    "faqs": 6,
+    "quickIdTable": false,
+    "lookAlikeCards": false,
+    "affiliateElements": 0
+   },
+   "formulaGaps": [
+    "quick-ID table",
+    "look-alike cards",
+    "FAQs (6 now, 8-10)",
+    "links in (0 now, 10+)"
+   ],
+   "oct15_16": null,
+   "localInfo": false,
+   "linkInCandidates": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/mosquito-bite-vs-spider-bite",
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+   ],
+   "rank": 93
+  }
+ ],
+ "excludedHighGain": [
+  {
+   "path": "/blog/what-temperature-kills-mosquitoes",
+   "score": 714.7,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "what temperature do mosquitoes die (962/mo, pos 8.0, ctr 0.1%)"
+  },
+  {
+   "path": "/blog/when-are-mosquitoes-most-active",
+   "score": 677.0,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "when are mosquitoes most active (2494/mo, pos 6.2, ctr 0.3%)"
+  },
+  {
+   "path": "/blog/how-many-times-can-a-mosquito-bite-you",
+   "score": 419.1,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "how many times can a mosquito bite you (765/mo, pos 5.9, ctr 0.7%)"
+  },
+  {
+   "path": "/blog/best-fruit-fly-trap-canada",
+   "score": 316.4,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "best fruit fly trap (3050/mo, pos 7.5, ctr 0.3%)"
+  },
+  {
+   "path": "/blog/laser-mosquito-killer-photon-matrix-review",
+   "score": 301.1,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "photon matrix (8220/mo, pos 6.6, ctr 1.5%)"
+  },
+  {
+   "path": "/blog/best-wasp-nest-spray-canada",
+   "score": 202.2,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "wasp spray (1936/mo, pos 8.4, ctr 0.3%)"
+  },
+  {
+   "path": "/blog/best-rat-trap-canada",
+   "score": 196.3,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "rat traps (534/mo, pos 11.2, ctr 0.1%)"
+  },
+  {
+   "path": "/blog/how-long-do-ticks-live",
+   "score": 189.9,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "how long to ticks live (1269/mo, pos 8.3, ctr 0.0%)"
+  },
+  {
+   "path": "/blog/what-colors-attract-mosquitoes",
+   "score": 175.9,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "what colors are mosquitoes attracted to (216/mo, pos 7.9, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-ground-wasps-canada",
+   "score": 162.5,
+   "why": "control page whose searches are about control, not identification",
+   "topQuery": "delta dust canada (664/mo, pos 3.6, ctr 4.9%)"
+  },
+  {
+   "path": "/blog/can-ticks-fly-jump-swim",
+   "score": 156.6,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "can ticks drown (526/mo, pos 8.2, ctr 0.1%)"
+  },
+  {
+   "path": "/blog/what-blood-type-do-mosquitoes-bite",
+   "score": 142.7,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "which blood type do mosquitoes hate (556/mo, pos 8.3, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/electric-fly-swatter",
+   "score": 115.1,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "electric fly swatter (567/mo, pos 8.8, ctr 0.5%)"
+  },
+  {
+   "path": "/blog/can-mosquitoes-bite-through-clothes",
+   "score": 109.3,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "can mosquitoes bite through clothes (654/mo, pos 8.8, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/mosquito-bits-canada-vs-dunks",
+   "score": 108.2,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "mosquito bits (2623/mo, pos 6.1, ctr 1.3%)"
+  },
+  {
+   "path": "/blog/what-flowers-attract-mosquitoes",
+   "score": 106.2,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "what flowers attract mosquitoes? (1267/mo, pos 4.6, ctr 0.0%)"
+  },
+  {
+   "path": "/blog/best-cockroach-spray-canada",
+   "score": 101.2,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "cockroach spray (467/mo, pos 10.7, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/dynatrap-canada-review",
+   "score": 100.6,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "dynatrap (957/mo, pos 10.7, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/mosquito-fogger-canada",
+   "score": 84.8,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "mosquito fogger (1151/mo, pos 8.1, ctr 1.1%)"
+  },
+  {
+   "path": "/blog/permethrin-canada-yard-clothing-spray",
+   "score": 80.0,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "permethrin spray (701/mo, pos 8.7, ctr 1.0%)"
+  },
+  {
+   "path": "/blog/thermacell-canada-where-to-buy",
+   "score": 79.9,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "thermacell canadian tire (2418/mo, pos 8.2, ctr 0.1%)"
+  },
+  {
+   "path": "/blog/natural-mosquito-repellent-ontario",
+   "score": 78.2,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "mosquito repellent (928/mo, pos 11.3, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/how-to-get-rid-of-centipedes-canada",
+   "score": 76.2,
+   "why": "control page whose searches are about control, not identification",
+   "topQuery": "how to get rid of house centipedes (303/mo, pos 5.4, ctr 1.5%)"
+  },
+  {
+   "path": "/blog/mosquito-dunks-canada-guide",
+   "score": 75.8,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "mosquito dunks canada (669/mo, pos 5.8, ctr 1.2%)"
+  },
+  {
+   "path": "/blog/best-mosquito-repellent-device-canada",
+   "score": 71.9,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "mosquito repellent machine (1174/mo, pos 9.5, ctr 0.5%)"
+  },
+  {
+   "path": "/blog/why-do-mosquitoes-bite-my-ankles",
+   "score": 71.0,
+   "why": "question or fact page, not identification (AI Overviews answer most of these searches)",
+   "topQuery": "why do mosquitoes bite ankles (259/mo, pos 4.1, ctr 0.6%)"
+  },
+  {
+   "path": "/blog/bug-zappers-canada-do-they-work",
+   "score": 68.8,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "bug zapper (1017/mo, pos 12.6, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/bed-bug-mattress-encasement-canada",
+   "score": 64.1,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "bed bug mattress encasement (136/mo, pos 8.9, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/best-bed-bug-spray-for-mattress-canada",
+   "score": 61.0,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "bed bug spray (185/mo, pos 11.4, ctr 0.2%)"
+  },
+  {
+   "path": "/blog/mosquito-repellent-guide-ontario-2026",
+   "score": 59.7,
+   "why": "product-review / affiliate page: title work only, no retrofit",
+   "topQuery": "best mosquito repellent (666/mo, pos 5.3, ctr 2.6%)"
+  }
+ ]
+}

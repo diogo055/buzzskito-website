@@ -11,6 +11,7 @@
   "breadcrumb": "Bugs That Look Like Cockroaches",
   "excerpt": "Ground beetles, June bugs, earwigs, crickets and wood roaches are often mistaken for cockroaches. The size, antenna and body clues that tell them apart.",
   "datePublished": "2026-10-07",
+  "dateModified": "2026-10-16",
   "quickAnswer": {
     "lead": "**Ground beetles, June bugs, earwigs and crickets can all pass for cockroaches, and one test sorts them: a cockroach has a flat body, a plate that hides its head from above and long, thin antennae.** [Texas A&M AgriLife Extension](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) describes that body plan. Wood cockroaches and palmetto bugs are real cockroaches, but a wood cockroach that gets indoors dies within days without breeding.",
     "bullets": [
@@ -24,22 +25,25 @@
   },
   "facts": {
     "title": "Look-alikes at a glance",
+    "head": ["Insect", "Adult size", "How to tell it apart"],
     "rows": [
-      ["Pest cockroach body plan", "Flat body, head hidden under a plate (the pronotum), long thin antennae, spiny legs"],
-      ["Pest cockroach adult sizes", "German 1/2 to 5/8 inch; Oriental about 1 1/4 inches; smokybrown 1 1/4 to 1 1/2 inches; American 1 1/2 to 2 inches"],
-      ["Wood cockroach", "Males up to 1 inch (25 mm), females up to 3/4 inch (19 mm); an outdoor species"],
-      ["Ground beetle", "Mostly 1/4 to 3/4 inch; shell-like wing covers meeting in a straight line, as on other beetles"],
-      ["May beetle (June bug)", "1/2 to 1 inch; stout, hairy underneath, clubbed antennae"],
-      ["European earwig (adult)", "About 3/4 inch; reddish brown; forceps-like pincers at the tail end"],
-      ["Field and house crickets", "Usually 1/2 to 1 inch; hind legs built for jumping; males chirp"],
-      ["Palmetto bug", "A nickname Texas A&M lists for the American cockroach, 1 1/2 to 2 inches"]
-    ]
+      ["Pest cockroach", "German 1/2 to 5/8 inch; Oriental about 1 1/4 inches; smokybrown 1 1/4 to 1 1/2 inches; American 1 1/2 to 2 inches", "Flat body, head hidden under a plate (the pronotum), long thin antennae, spiny legs"],
+      ["Wood cockroach", "Males up to 1 inch (25 mm), females up to 3/4 inch (19 mm)", "A true cockroach, but an outdoor species"],
+      ["Ground beetle", "Mostly 1/4 to 3/4 inch", "Shell-like wing covers meeting in a straight line, as on other beetles"],
+      ["May beetle (June bug)", "1/2 to 1 inch", "Stout, hairy underneath, clubbed antennae"],
+      ["European earwig (adult)", "About 3/4 inch", "Reddish brown; forceps-like pincers at the tail end"],
+      ["Field and house crickets", "Usually 1/2 to 1 inch", "Hind legs built for jumping; males chirp"],
+      ["Palmetto bug", "1 1/2 to 2 inches", "A nickname Texas A&M lists for the American cockroach"]
+    ],
+    "caption": "Sizes and features from Texas A&M AgriLife Extension, Penn State Extension, the Missouri Department of Conservation and UC IPM, each linked in the sections below."
   },
   "body": [
     { "type": "h2", "text": "How do you tell a cockroach from a look-alike?" },
     { "type": "p", "text": "Look for three features together: a flat body, a plate that hides the head from above, and long, thin antennae. That is the test to apply to the usual look-alikes: ground beetles, May beetles (June bugs), earwigs, crickets and outdoor wood cockroaches. [Texas A&M AgriLife Extension's guide to cockroach biology and management](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) describes cockroaches as flattened insects whose heads are concealed from above by a plate called the pronotum, with long, thin antennae and elongated, spiny legs on which they move surprisingly fast." },
+    { "type": "figure", "src": "/guides/photos/smokybrown-cockroach.webp", "width": 1200, "height": 717, "alt": "Glossy dark reddish-brown smokybrown cockroach on a wet wooden rail at night, seen from above, with long wings, spiny legs and long, thin antennae", "caption": "A smokybrown cockroach on a wooden rail in Jacksonville, Florida. The plate over the head, the flat body and the long, thin antennae are the cockroach body plan Texas A&M describes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/231013746" },
     { "type": "p", "text": "No single feature settles it, because many harmless insects are brown and active at night, so use the checks below together. The species that actually infest US homes are laid out in [the complete guide to cockroaches](/learn/cockroaches)." },
     { "type": "p", "text": "Size is the next filter. The same Texas A&M guide gives adult lengths of 1/2 to 5/8 inch for the German cockroach, about 1 1/4 inches for the Oriental cockroach, 1 1/4 to 1 1/2 inches for the smokybrown cockroach and 1 1/2 to 2 inches for the American cockroach. None of those four is listed below 1/2 inch as an adult, so an insect well under that size is unlikely to be a full-grown example of any of them. It may be a young cockroach or a different insect, and [a separate guide shows what baby cockroaches look like](/blog/what-do-baby-cockroaches-look-like) species by species." },
+    { "type": "figure", "src": "/guides/photos/oriental-cockroach.webp", "width": 1200, "height": 1200, "alt": "Shiny black Oriental cockroach on a gritty concrete surface, seen from above, with long antennae and spiny legs", "caption": "An Oriental cockroach on pavement in Pennsylvania. Texas A&M gives the adult Oriental cockroach a length of about 1 1/4 inches.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/379353336" },
     { "type": "p", "text": "Then run these checks in order. Each of the first four points to a specific look-alike; long, thin antennae on their own do not confirm a cockroach." },
     { "type": "ol", "items": [
       "**Antennae.** Antennae that end in a club point to a May beetle, according to the [Missouri Department of Conservation's May beetle page](https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs). Long, thin antennae fit the cockroach Texas A&M describes, but keep checking.",
@@ -83,6 +87,7 @@
 
     { "type": "h2", "text": "Do earwigs and crickets look like cockroaches?" },
     { "type": "p", "text": "Both can at a glance, and each has one giveaway: the pincers at an earwig's tail end and the jumping hind legs on a cricket. [UC IPM's earwig page](https://ipm.ucanr.edu/home-and-landscape/earwigs/), which names the European earwig (*Forficula auricularia*) as the most common species in California gardens, describes the adult as about 3/4 inch long and reddish brown and says it is readily identified by a pair of prominent appendages at the tail end that resemble forceps. The pincers may look ferocious, but the page states that earwigs are not harmful to people and generally do not attack humans, although they can bite if trapped in clothing or sat upon." },
+    { "type": "figure", "src": "/guides/photos/european-earwig.webp", "width": 971, "height": 1295, "alt": "Slender reddish-brown European earwig on a person's palm, with long antennae and a pair of curved pincers at its tail end", "caption": "A female European earwig on a person's palm in Iowa. The pincers at the tail end are the giveaway UC IPM describes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/187200711" },
     { "type": "p", "text": "Earwigs feed most actively at night and hide by day in dark, cool, moist places such as under boards, soil clods or dense vines and weeds. UC IPM says they may come indoors when conditions outside are too dry, too hot or too cold, and it calls large accumulations of earwigs annoying but not a health hazard. If you were bitten and are trying to work out by what, a separate guide covers [what is documented about cockroaches biting people](/blog/do-cockroaches-bite)." },
     { "type": "p", "text": "Crickets are the other common indoor confusion. Field and house crickets have large heads and hind legs adapted for jumping, with stout spines, according to the [Missouri Department of Conservation's field cricket page](https://mdc.mo.gov/discover-nature/field-guide/field-crickets). Field crickets (genus *Gryllus*) are usually shiny black. The house cricket (*Acheta domesticus*) is light brown or tannish, with three dark crossbands on a tan head. Length is usually 1/2 to 1 inch." },
     { "type": "p", "text": "Males chirp by rubbing their wings together, and crickets are nocturnal. The department says they sometimes enter houses and other buildings, where field crickets can chew on clothing. A chirp at night, or hind legs plainly built for jumping, means cricket." },
@@ -91,6 +96,12 @@
     { "type": "p", "text": "Neither is a cockroach: giant water bugs are aquatic insects from a different group, and bed bugs are a separate pest. The water bug confusion starts with the word: Texas A&M AgriLife Extension lists waterbug as a nickname for the American cockroach, so water bug can mean two unrelated insects. [A side-by-side comparison of water bugs and cockroaches](/blog/water-bugs-vs-cockroaches) separates the true water bug from the roach that gets called one." },
     { "type": "p", "text": "Bed bugs have their own identification guides. A small, flat, brown insect found near a bed is worth checking against [what bed bugs look like](/blog/what-do-bed-bugs-look-like) and [the list of insects that resemble bed bugs](/blog/bugs-that-look-like-bed-bugs) before you assume it is a young roach." },
 
+    { "type": "confused", "items": [
+      { "href": "/blog/palmetto-bugs", "name": "Palmetto bug", "photo": "american-cockroach", "note": "A nickname for the American cockroach, 1 1/2 to 2 inches long", "alt": "American cockroach seen from above on a white background" },
+      { "href": "/blog/june-bugs-ontario", "name": "May beetle (June bug)", "photo": "may-june-beetle", "note": "A stout beetle, 1/2 to 1 inch, with clubbed antennae instead of long, thin ones", "alt": "Brown May beetle resting on a fingertip outdoors" },
+      { "href": "/blog/crickets-in-house", "name": "House cricket", "photo": "house-cricket", "note": "Light brown, with dark bands across a tan head and hind legs built for jumping", "alt": "Light brown house cricket with a banded head, seen from above" },
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-adult-ruler", "note": "Small, flat and brown; worth checking when one turns up near a bed", "alt": "Adult bed bug seen from above beside a millimeter ruler" }
+    ] },
     { "type": "h2", "text": "What should you do once you know what it is?" },
     { "type": "p", "text": "A true pest cockroach is the one that calls for a control program; for the look-alikes, the sources point to leaving them alone or keeping them out." },
     { "type": "ul", "items": [
@@ -127,6 +138,18 @@
     {
       "question": "Why do these bugs turn up indoors at night?",
       "answer": "Lights and weather explain much of it. The Missouri Department of Conservation says many ground beetles and May beetles are attracted to lights at night, and Penn State Extension says male wood cockroaches can be too. UC IPM says earwigs may come indoors when conditions outside are too dry, too hot or too cold, and the Missouri Department of Conservation says crickets sometimes enter houses and other buildings."
+    },
+    {
+      "question": "What beetles look like cockroaches?",
+      "answer": "Ground beetles and May beetles, also called June bugs, are the two beetles most often mistaken for cockroaches. The Missouri Department of Conservation describes both with shell-like wing covers that meet in a straight line down the back, the clearest sign of a beetle. Ground beetles are mostly 1/4 to 3/4 inch long, usually black or brown and often shiny. May beetles are stout and 1/2 to 1 inch long, with clubbed antennae, while a cockroach's antennae are long and thin."
+    },
+    {
+      "question": "What bug looks like a cockroach but has pincers?",
+      "answer": "An earwig. The University of California Statewide IPM Program describes the adult European earwig as about 3/4 inch long and reddish brown, and says it is readily identified by a pair of prominent appendages at the tail end that resemble forceps. Those pincers are the giveaway that separates it from a cockroach. Earwigs hide by day in dark, cool, moist places, and UC IPM says they may come indoors when it is too dry, too hot or too cold outside."
+    },
+    {
+      "question": "Is a water bug a cockroach?",
+      "answer": "It depends on which insect is meant. Texas A&M AgriLife Extension lists waterbug, like palmetto bug, as a nickname for the American cockroach, a true pest cockroach 1 1/2 to 2 inches long. A giant water bug is a different insect altogether: an aquatic insect from a separate group, not a cockroach. So a large reddish-brown roach that gets called a water bug indoors is an American cockroach, while a true water bug is not a roach at all."
     }
   ],
   "sources": [

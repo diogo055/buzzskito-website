@@ -11,9 +11,14 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
 
 const SLUG = 'why-do-mosquito-bites-itch'
 const DATE = '2026-07-15'
+// Oct 16, 2026: rebuilt to the photo-ID formula (quick-ID table, look-alike photo cards, photos of bites on skin)
+const UPDATED = '2026-10-16'
 const TITLE = 'Why Do Mosquito Bites Itch — and How Long Do They Last?'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
 const SEO_TITLE = 'How Long Do Mosquito Bites Last & Itch? Timeline'
@@ -159,6 +164,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('why-do-mosquito-bites-itch')
@@ -166,7 +172,7 @@ const AMZ_TAG = tagForSlug('why-do-mosquito-bites-itch')
 export default function WhyDoMosquitoBitesItchPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The science of why mosquito bites itch and swell, how long they last, and why they feel worse at night.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The science of why mosquito bites itch and swell, how long they last, and why they feel worse at night.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Why Mosquito Bites Itch', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -244,7 +250,7 @@ export default function WhyDoMosquitoBitesItchPage() {
 
       <article className="py-10 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AuthorByline datePublished={DATE} />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <AffiliateDisclosure />
 
@@ -256,6 +262,20 @@ export default function WhyDoMosquitoBitesItchPage() {
               <li><strong>0.5&ndash;1% hydrocortisone cream for the bite that will not settle.</strong> It calms the inflammation driving the swelling, which is the part a cold compress only pauses. Apply thinly, a few times a day, on unbroken skin only, and follow the directions printed on the label. <BuyLink tag={AMZ_TAG} search="hydrocortisone anti itch cream">Check price on Amazon.ca &rarr;</BuyLink></li>
             </ol>
           </div>
+
+          <QuickIdTable
+            title="Mosquito bite or another bite? Quick ID"
+            head={['Bite', 'What you see', 'Where and when', 'How long it lasts']}
+            rows={[
+              ['Mosquito', 'One round, puffy welt; itchiest at 24–48 hours, then improving', 'Uncovered skin, outdoors', '3–7 days (up to 2 weeks if strongly allergic)'],
+              ['Bed bug', 'Lines or tight clusters, with new ones night after night', 'Skin that was against the mattress', 'Often 1–2 weeks'],
+              ['Flea', 'Small red dots in groups', 'Lower legs and ankles, usually where a pet has been', 'Roughly 1–2 weeks'],
+              ['Chigger', 'Intensely itchy welts in clusters', 'Where clothing sits tight: sock line, waistband', 'Itch peaks at 1–2 days; welts can persist 1–2 weeks'],
+              ['No-see-um (biting midge)', 'A burn far out of proportion to a nearly invisible bite', 'Often at dusk near water', 'Itch for several days; marks can linger 1–2 weeks'],
+              ['Tick', 'A minor mark; the tick may still be attached', 'Where the tick attached', 'A spreading rash can develop over days to weeks; an expanding bull’s-eye rash needs medical assessment'],
+            ]}
+            caption="Typical ranges for otherwise healthy adults, from the bite comparison further down this page; individual reactions vary widely. General educational information, not a diagnosis."
+          />
 
           <h2>Why do mosquito bites itch?</h2>
           <p>Mosquito bites itch because your immune system reacts to proteins in the mosquito&rsquo;s saliva, not because of the puncture. Mast cells release histamine, which leaks fluid into the skin and fires the nerve endings that signal itch. The U.S. Centers for Disease Control and Prevention (CDC) describes the result as a puffy, reddish bump that turns harder and itchier a day later.</p>
@@ -285,6 +305,11 @@ export default function WhyDoMosquitoBitesItchPage() {
           {/* source: https://www.cdc.gov/mosquitoes/mosquito-bites/symptoms.html */}
           {/* source: https://www.canada.ca/en/public-health/services/diseases/lyme-disease/symptoms-lyme-disease.html */}
           <p>A mosquito bite lasts about 3 to 7 days, and it itches for roughly the first 2 to 4 of those days, with the itch at its worst 24 to 48 hours after the bite. The U.S. Centers for Disease Control and Prevention (CDC) describes the sequence as a puffy, reddish bump a few minutes after the bite, then a hard, itchy, reddish-brown bump a day or so later, and its advice for the wait is an ice pack for 10 minutes to reduce the swelling and itching, no scratching because scratched bites can become infected, and a healthcare provider if symptoms worsen. A mark that is spreading outward in a ring over days rather than shrinking is the one pattern to read differently. The Public Health Agency of Canada describes the Lyme disease rash as an expanding rash that typically begins at the site of a tick bite and slowly grows to more than 5 cm across over several days, so compare it against <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite vs mosquito bite</Link> and see a healthcare provider right away.</p>
+          <Photo
+            id="mosquito-bite-welts"
+            alt="Two raised mosquito bite welts on a person's leg"
+            caption="Two mosquito bites on a leg, photographed and described by the person who was bitten. A normal mosquito bite is a round, puffy welt that is itchiest 24 to 48 hours after the bite and then improves."
+          />
           <p>Most mosquito bites last 3 to 7 days and itch for about 2 to 4 days. The itch peaks 24 to 48 hours after the bite, then fades as your body clears the histamine. A strong allergic reaction can stay swollen and itchy for up to two weeks. Scratching adds days to either timeline, and a flat mark can remain for several weeks afterwards.</p>
           <p>Most mosquito bites last 3 to 7 days and itch worst in the first 24 to 48 hours. The welt rises quickly, peaks as the delayed part of the immune reaction kicks in on the second day, then gradually flattens and stops itching as your body clears the histamine. For a routine bite that you leave alone, the itch is usually mostly gone within 2 to 4 days.</p>
           <p>Two things stretch that timeline out. A strong allergic reaction can keep a bite swollen and itchy for a week or two. And scratching &mdash; the most tempting and most counterproductive response &mdash; releases fresh histamine, re-inflames the skin, and can break the surface, which both prolongs the itch and opens the door to infection. Even after the bump is gone, a flat brown or pinkish mark (post-inflammatory pigmentation) can linger for several weeks, especially on darker skin or where a bite was scratched raw. The single best thing you can do to make a bite go away faster is to not scratch it.</p>
@@ -402,6 +427,11 @@ export default function WhyDoMosquitoBitesItchPage() {
 
           <h2>What is skeeter syndrome?</h2>
           <p>Skeeter syndrome is the informal name for a large local allergic reaction to mosquito saliva. Instead of a small welt, the skin swells into a hot, red, firm patch 5 cm (about 2 inches) or wider within hours of the bite, sometimes with blistering or a low-grade fever. Mayo Clinic notes these severe reactions are most common in young children.</p>
+          <Photo
+            id="skeeter-syndrome-leg"
+            alt="A large, red, swollen reaction to mosquito bites on a person's leg"
+            caption="A large local reaction to mosquito bites on a leg, which its photographer describes as skeeter syndrome. An allergic reaction like this is at its worst within hours and then improves; an infection keeps getting worse after the first day or two."
+          />
           <p>It is an allergy, not an infection &mdash; the two look similar because both produce heat, redness, and swelling. The practical difference is timing: an allergic reaction is at its worst within hours and then improves, while an infection keeps getting worse after the first day or two.</p>
 
           <h2>Do only female mosquitoes bite?</h2>
@@ -482,6 +512,16 @@ export default function WhyDoMosquitoBitesItchPage() {
             <li><Link href="/blog/no-see-um-bites">No-see-um bites</Link> &mdash; tiny biting midges that leave a burning, disproportionately itchy welt.</li>
             <li><Link href="/blog/mosquito-bite-vs-spider-bite">Mosquito bite vs spider bite</Link> &mdash; how to tell a harmless welt from a bite worth watching.</li>
           </ul>
+          <ConfusedWith
+            title="Often mistaken for a mosquito bite"
+            items={[
+              { href: '/blog/bed-bug-bites', name: 'Bed bug bites', photo: 'bed-bug-bites-forearm', note: 'Lines or tight clusters on skin that was against the mattress, new ones night after night' },
+              { href: '/blog/flea-bites-on-humans', name: 'Flea bites', photo: 'flea-bites-lower-leg', note: 'Small red dots grouped on the lower legs and ankles, usually where a pet has been' },
+              { href: '/blog/chigger-bites', name: 'Chigger bites', photo: 'chigger-bites-ruler', note: 'Intensely itchy welts clustered where clothing sits tight: sock line, waistband' },
+              { href: '/blog/no-see-um-bites', name: 'No-see-um bites', photo: 'biting-midge-bites-ankles', note: 'A burn far out of proportion to a nearly invisible bite, often at dusk near water' },
+              { href: '/blog/what-does-a-tick-bite-look-like', name: 'Lyme disease rash', photo: 'erythema-migrans-rash', note: 'Grows outward over several days to more than 5 cm (2 in) instead of shrinking' },
+            ]}
+          />
 
           <h2>How long do other bites last, compared with a mosquito bite?</h2>
           <p>Duration is one of the most reliable ways to tell bites apart, and it is the reason so many people searching &ldquo;how long do mosquito bites last&rdquo; are actually looking at something else. Mosquito bites are the <em>short</em> ones. If a bite is still going strong at day ten, or new ones keep appearing every morning, the duration itself is the clue.</p>

@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c42571d97344ff54b52ee1f774848cf1c2a91ec3c6e1a72a6bb77dba1bab80c9",
+ "sha": "cb1a7a7188534451843606496074b742c946b063ab10a4322bbd90f9f75bce4b",
  "claimsChecked": 75,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 4,
@@ -12,6 +12,11 @@
    "on": "2026-10-16",
    "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
    "previousSha": "4df70e352a5988a0edc8cb54fa7f877ff64074c743125748cc42e0e2bd8bc8d9"
+  },
+  {
+   "on": "2026-10-16",
+   "note": "Photo-ID retrofit, Oct 16 2026: at-a-glance box restructured into a quick-ID table (same facts: Texas A&M, Penn State, MDC, UC IPM); 3 CC0 ledger photos with captions from their records and facts already on the page (smokybrown cockroach on a rail, Oriental cockroach on pavement, European earwig on a palm); look-alike cards (palmetto bug, May beetle, house cricket, bed bug) with notes from facts on the page; 3 FAQs restating body facts (MDC, UC IPM, Texas A&M); dateModified 2026-10-16.",
+   "previousSha": "c42571d97344ff54b52ee1f774848cf1c2a91ec3c6e1a72a6bb77dba1bab80c9"
   }
  ]
 }
