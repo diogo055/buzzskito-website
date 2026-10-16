@@ -172,6 +172,7 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/seed-ticks', ca: '/blog/baby-ticks-nymphs-seed-ticks-ontario' },
   { us: '/blog/how-much-is-pest-control', ca: '/pest-control-cost-canada' },
   { us: '/blog/how-to-get-rid-of-carpet-beetles', ca: '/blog/how-to-get-rid-of-carpet-beetles-canada' },
+  { us: '/blog/house-centipedes', ca: '/blog/how-to-get-rid-of-centipedes-canada' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

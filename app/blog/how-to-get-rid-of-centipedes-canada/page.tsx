@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
@@ -84,7 +85,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description:
     'How to get rid of house centipedes in Canada: they are harmless predators, so the real fix is drying the basement to 45-50% RH and killing their prey.',
@@ -93,7 +94,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('house-centipede'),
-})
+}), '/blog/how-to-get-rid-of-centipedes-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-centipedes-canada')
 
@@ -325,6 +326,8 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/house-centipedes" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>How Do You Actually Get Rid of House Centipedes?</h2>
           <p>By taking away the damp and taking away the food &mdash; in that order, and without buying an insecticide at all if you would rather not. That answer frustrates people, because the animal in question is genuinely startling: thirty legs, a body that seems to pour across the drywall, and a habit of appearing at eye level in a bathroom at eleven at night. The reflex is to reach for a spray can. But a house centipede is not a pest in the ordinary sense. It does not eat your food, your books, your wiring or your house. It does not bite you in your sleep or carry disease. It is a nocturnal predator that came into your basement because your basement was damp and full of insects, and it will leave when one of those two things stops being true.</p>
