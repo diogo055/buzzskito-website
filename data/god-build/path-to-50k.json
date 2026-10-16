@@ -1,0 +1,3338 @@
+{
+ "_about": "Path to 50,000 Google clicks a month by July 2027. Analysis only, Oct 16, 2026. Sources: Search Console (owner API pull to Oct 12 in the session scratchpad growth/gsc_growth.json; Ahrefs-connected GSC history to Sep 11), Ahrefs API v3 (30,134 units, Oct 16), stored files under data/. Ahrefs traffic figures are estimates; Search Console figures are measurements.",
+ "api_units_used": {
+  "ahrefs_units": 30134,
+  "budget": 50000,
+  "gsc_via_ahrefs": 0,
+  "note": "Workspace counter read 99,941 of 200,000 before this run; another agent ran in parallel, so the workspace total is not this run alone."
+ },
+ "baseline": {
+  "gsc_clicks_by_month": {
+   "2026-05": 1810,
+   "2026-06": 5209,
+   "2026-07": 6845,
+   "2026-08": 10103,
+   "2026-09": 10154,
+   "2026-10_rate": 6783
+  },
+  "gsc_impressions_by_month": {
+   "2026-07": 583963,
+   "2026-08": 1024944,
+   "2026-09": 1050786
+  },
+  "us_share_clicks": {
+   "aug": 0.152,
+   "sep": 0.209,
+   "last28d": 0.185
+  },
+  "ca_share_clicks": {
+   "aug": 0.668,
+   "sep": 0.607,
+   "last28d": 0.607
+  },
+  "owner_forecast_july_2027_middle": 17000,
+  "gap_to_50k": 33000
+ },
+ "our_site_ahrefs": {
+  "date": "2026-10-16",
+  "domain_rating": 1.9,
+  "referring_domains": 374,
+  "referring_domains_dofollow": 55,
+  "org_traffic_estimate": 6461,
+  "org_traffic_ca": 4009,
+  "org_traffic_us": 1684,
+  "org_keywords": 2006,
+  "keywords_top3": 790,
+  "keywords_4_10": 1023,
+  "keywords_11_20": 187,
+  "pages_in_top10": {
+   "2026-06": 46,
+   "2026-07": 121,
+   "2026-08": 192,
+   "2026-09": 249,
+   "2026-10": 270
+  },
+  "pages_by_traffic": {
+   "0": 44,
+   "1-100": 191,
+   "101-1000": 25,
+   "1001+": 0
+  },
+  "ahrefs_project": "BuzzSkito project 9659460 is verified and GSC-connected, but the connection stopped syncing on Sep 11, 2026 and the per-page and per-query GSC tables are empty; only the daily totals history is available through Ahrefs."
+ },
+ "calibration": {
+  "site_traffic": {
+   "method": "Ahrefs weekly organic-traffic estimate vs Search Console clicks, same months",
+   "aug": {
+    "ahrefs": 7230,
+    "gsc": 10103,
+    "ratio": 1.4
+   },
+   "sep": {
+    "ahrefs": 9460,
+    "gsc": 10154,
+    "ratio": 1.07
+   },
+   "oct": {
+    "ahrefs": 8690,
+    "gsc": 6783,
+    "ratio": 0.78
+   },
+   "jul_oct_average_ratio": 1.11,
+   "batch_analysis_now": {
+    "ahrefs": 6461,
+    "gsc_rate": 6600,
+    "ratio": 1.02
+   },
+   "correction_factor": {
+    "low": 0.8,
+    "mid": 1.1,
+    "high": 1.4
+   },
+   "read": "Ahrefs site-level traffic estimates are close to reality for this site (x1.1, lagging about a month). Apply x1.1 (0.8-1.4) to competitor estimates."
+  },
+  "keyword_volume": {
+   "method": "40 US queries where Ahrefs shows the site at positions 4-20: Ahrefs US volume vs Search Console US impressions per month for the same query",
+   "gsc_impressions_per_ahrefs_search": 0.26,
+   "median": 0.28,
+   "read": "For an exact query where the site is on page 1, Search Console records about a quarter of the searches Ahrefs reports, before any click-through. This is consistent with next-50.md (20-40x when a whole topic is compared)."
+  },
+  "ctr_by_position_site": {
+   "method": "impression-weighted, queries with 200+ impressions (all countries) / 100+ (US), 90 days to Oct 12",
+   "all": {
+    "pos3": 0.0263,
+    "pos4-5": 0.0133,
+    "pos6": 0.009,
+    "pos7": 0.0078,
+    "pos8": 0.006,
+    "pos9-10": 0.0035,
+    "pos11-15": 0.0024
+   },
+   "us": {
+    "pos3": 0.0192,
+    "pos4": 0.0081,
+    "pos6-7": 0.006,
+    "pos8": 0.005,
+    "pos9-10": 0.0027
+   },
+   "note": "Several head terms show positions 1-3 that are AI Overview citations with near-zero clicks (bed bugs 0.6%, mosquito 0.3%, horse fly 0%); true organic top-3 pages earn 6-19% (photon matrix review 19%, worst areas for ticks in ontario 9%)."
+  }
+ },
+ "comparables": [
+  {
+   "site": "bettertermite.com",
+   "type": "small pest company blog (VA)",
+   "dr": 23,
+   "refdomains": 1364,
+   "refdomains_dofollow": 642,
+   "ahrefs_traffic": 73827,
+   "us": 67981,
+   "keywords": 10505,
+   "pages": 1034,
+   "pages_by_traffic": {
+    "1-100": 764,
+    "101-1000": 149,
+    "1001-5000": 10,
+    "5001-10000": 1
+   },
+   "monthly_history": {
+    "2025-06": 1081,
+    "2025-07": 7460,
+    "2025-08": 21690,
+    "2025-09": 41277,
+    "2025-10": 56156,
+    "2025-11": 73622,
+    "2026-03": 103806,
+    "2026-07": 104567,
+    "2026-10": 81312
+   },
+   "dr_during_growth": "16-26",
+   "refdomains_during_growth": "410-460 (flat Jun 2025-Apr 2026)",
+   "pages_top10": {
+    "2025-06": 50,
+    "2025-07": 120,
+    "2025-08": 247,
+    "2025-09": 281,
+    "2025-11": 315,
+    "2026-03": 401
+   },
+   "built_on": "photo identification: roach poop, bed bug pictures, ground hornet, baby roaches, tiny black bugs in bathroom, fleas in hair, roach eggs, bugs that look like cockroaches, little black beetles, carpet beetle bites/larvae, black ants with wings; plus cost pages. Top pages have 0-3 referring domains."
+  },
+  {
+   "site": "bugoutservice.com",
+   "type": "pest company blog",
+   "dr": 36,
+   "refdomains": 2526,
+   "refdomains_dofollow": 1579,
+   "ahrefs_traffic": 78013,
+   "us": 72732,
+   "keywords": 10176,
+   "pages": 855,
+   "pages_by_traffic": {
+    "1-100": 612,
+    "101-1000": 68,
+    "1001-5000": 12,
+    "5001-10000": 1,
+    "10000+": 1
+   },
+   "monthly_history": {
+    "2025-07": 120947,
+    "2025-10": 62477,
+    "2026-01": 65247,
+    "2026-07": 156029,
+    "2026-10": 69605
+   },
+   "built_on": "how to get rid of ants (11K), ant bites, clover mites (\"tiny red bugs\"), house spiders, ladybug vs Asian lady beetle, flying ants, carpet beetle signs, cellar/orb/sac/hobo/yellow sac spiders, springtails, \"tiny white bugs\". Pages have 0-5 referring domains."
+  },
+  {
+   "site": "moxieservices.com",
+   "type": "pest company blog",
+   "dr": 49,
+   "refdomains": 2293,
+   "refdomains_dofollow": 1370,
+   "ahrefs_traffic": 54642,
+   "us": 49644,
+   "keywords": 4878,
+   "pages": 357,
+   "pages_by_traffic": {
+    "1-100": 251,
+    "101-1000": 48,
+    "1001-5000": 14
+   },
+   "monthly_history": {
+    "2024-07": 99080,
+    "2025-07": 124753,
+    "2026-07": 81651,
+    "2026-10": 47046
+   },
+   "built_on": "bite pages (brown recluse, spider, flea, wasp sting, bed bug bites with no bed bugs), types of wasps, banana spider, stick bug, bugs that look like fleas / flying termites, sand fleas, spider crickets. Pages have 0-4 referring domains."
+  },
+  {
+   "site": "spiderid.com",
+   "type": "independent ID site",
+   "dr": 51,
+   "refdomains": 1931,
+   "refdomains_dofollow": 1086,
+   "ahrefs_traffic": 47653,
+   "us": 41612,
+   "ca": 4926,
+   "keywords": 3324,
+   "pages": 417,
+   "pages_by_traffic": {
+    "1-100": 250,
+    "101-1000": 44,
+    "1001-5000": 9
+   },
+   "built_on": "spiders in <state/province> location pages (Michigan 3.1K, Georgia, North Carolina, Indiana, Florida, Texas, Tennessee, Alabama, Washington, Ohio, Ontario ~0.7-1.4K each)."
+  },
+  {
+   "site": "dodsonbros.com",
+   "type": "pest company blog",
+   "dr": 34,
+   "refdomains": 2355,
+   "refdomains_dofollow": 1096,
+   "ahrefs_traffic": 33577,
+   "us": 30492,
+   "keywords": 3840,
+   "pages": 230,
+   "pages_by_traffic": {
+    "1-100": 150,
+    "101-1000": 39,
+    "1001-5000": 10
+   },
+   "built_on": "bed worms, bee repellent, mice in walls, types of roaches, what termites look like, termite damage vs wood rot, borax vs boric acid, oriental cockroach, bed bug life cycle."
+  },
+  {
+   "site": "flapest.com",
+   "type": "pest company blog (FL)",
+   "dr": 33,
+   "refdomains": 1722,
+   "refdomains_dofollow": 934,
+   "ahrefs_traffic": 31032,
+   "us": 29966,
+   "keywords": 3825,
+   "pages": 435,
+   "pages_by_traffic": {
+    "1-100": 315,
+    "101-1000": 65,
+    "1001-5000": 4
+   },
+   "built_on": "spiders in Florida, palmetto bug vs cockroach, Florida scorpions, termites in Florida, wolf spider, pharaoh ants, boric acid, huntsman spider (state-flavoured identification). Pages have 0-2 referring domains."
+  },
+  {
+   "site": "wildlife-removal.com",
+   "type": "independent wildlife info",
+   "dr": 50,
+   "refdomains": 1607,
+   "refdomains_dofollow": 831,
+   "ahrefs_traffic": 28965,
+   "us": 24444,
+   "pages": 474,
+   "pages_by_traffic": {
+    "1-100": 289,
+    "101-1000": 13,
+    "1001-5000": 5,
+    "5001-10000": 1
+   }
+  },
+  {
+   "site": "insectidentification.org",
+   "type": "independent ID site",
+   "dr": 69,
+   "refdomains": 4631,
+   "refdomains_dofollow": 3361,
+   "ahrefs_traffic": 30878,
+   "us": 28142,
+   "pages": 803,
+   "pages_by_traffic": {
+    "1-100": 627,
+    "101-1000": 48,
+    "1001-5000": 1
+   }
+  },
+  {
+   "site": "fox-pest.com",
+   "type": "larger pest company blog",
+   "dr": 66,
+   "refdomains": 4314,
+   "refdomains_dofollow": 2977,
+   "ahrefs_traffic": 198166,
+   "us": 183206,
+   "pages": 1328,
+   "pages_by_traffic": {
+    "1-100": 991,
+    "101-1000": 146,
+    "1001-5000": 15,
+    "5001-10000": 4,
+    "10000+": 3
+   }
+  },
+  {
+   "site": "hawxpestcontrol.com",
+   "dr": 42,
+   "refdomains": 1942,
+   "refdomains_dofollow": 1017,
+   "ahrefs_traffic": 23123,
+   "us": 21794
+  },
+  {
+   "site": "buzzskito.ca (us)",
+   "dr": 1.9,
+   "refdomains": 374,
+   "refdomains_dofollow": 55,
+   "ahrefs_traffic": 6461,
+   "us": 1684,
+   "ca": 4009,
+   "pages_by_traffic": {
+    "1-100": 191,
+    "101-1000": 25
+   }
+  }
+ ],
+ "collapsed_independent_sites": [
+  {
+   "site": "pestpointers.com",
+   "dr": 37,
+   "traffic": 1431
+  },
+  {
+   "site": "pestseek.com",
+   "dr": 13,
+   "traffic": 0
+  },
+  {
+   "site": "pestsamurai.com",
+   "dr": 15,
+   "traffic": 12
+  },
+  {
+   "site": "pestpolicy.com",
+   "dr": 6,
+   "traffic": 0
+  },
+  {
+   "site": "insectcop.net",
+   "dr": 36,
+   "traffic": 0
+  },
+  {
+   "site": "whatsthatbug.com",
+   "dr": 53,
+   "traffic": 4366
+  },
+  {
+   "site": "smithspestmanagement.com",
+   "dr": 35,
+   "traffic": 619
+  },
+  {
+   "site": "thepestinformer.com",
+   "dr": 48,
+   "traffic": 673
+  },
+  {
+   "site": "bedbugger.com",
+   "dr": 46,
+   "traffic": 0
+  }
+ ],
+ "other_50k_plus": [
+  {
+   "site": "pestworld.org",
+   "dr": 78,
+   "traffic": 319866
+  },
+  {
+   "site": "terro.com",
+   "dr": 49,
+   "traffic": 145227
+  },
+  {
+   "site": "domyown.com",
+   "dr": 67,
+   "traffic": 132090
+  },
+  {
+   "site": "westernexterminator.com",
+   "dr": 51,
+   "traffic": 108313
+  },
+  {
+   "site": "orkincanada.ca",
+   "dr": 57,
+   "traffic": 89692,
+   "ca": 59056
+  },
+  {
+   "site": "solutionsstores.com",
+   "dr": 44,
+   "traffic": 78272
+  },
+  {
+   "site": "mosquitojoe.com",
+   "dr": 58,
+   "traffic": 69865
+  },
+  {
+   "site": "victorpest.com",
+   "dr": 55,
+   "traffic": 66966
+  },
+  {
+   "site": "havahart.com",
+   "dr": 58,
+   "traffic": 52526
+  }
+ ],
+ "serp_checks_us": [
+  {
+   "keyword": "tiny red bugs",
+   "volume": 13000,
+   "low_dr_in_top10": "bugoutservice DR36 #2 (1 RD), alphahomepestcontrol DR13 #4, bettertermite DR23 #6 (0 RD), deserthorizonnursery DR24 #10"
+  },
+  {
+   "keyword": "rat vs mouse",
+   "volume": 17000,
+   "low_dr_in_top10": "rocklinpestcontrol DR3 #4 (0 RD), 4njpest DR29 #6 (0 RD), inspectallservices DR16 #9 (0 RD)"
+  },
+  {
+   "keyword": "roach poop",
+   "volume": 15000,
+   "low_dr_in_top10": "a-actionpestcontrol DR23 #2 (1 RD), myorganicturf DR3 #7, alluneedpest DR32 #10; bettertermite cited in the AI Overview"
+  },
+  {
+   "keyword": "types of wasps",
+   "volume": 17000,
+   "low_dr_in_top10": "justicepestservices DR5 #4 (0 RD), promptactionpest DR19 #6 (0 RD); moxieservices DR49 #2 (0 RD)"
+  },
+  {
+   "keyword": "how to get rid of termites",
+   "volume": 12000,
+   "low_dr_in_top10": "arrowservices DR4 #2 (1 RD), florida-environmental DR32 #6, acpest DR22 #10"
+  },
+  {
+   "keyword": "identifying insect bites pictures",
+   "volume": 41000,
+   "low_dr_in_top10": "miexpresscare DR7 #4 (1 RD), romexpest DR12 #6 (1 RD); image pack and AI Overview above"
+  },
+  {
+   "keyword": "bed bug bites pictures",
+   "volume": 15000,
+   "low_dr_in_top10": "bettertermite DR24 #3 (2 RD); rest are health publishers; big image pack"
+  },
+  {
+   "keyword": "wolf spider",
+   "volume": 406000,
+   "low_dr_in_top10": "stcnature DR26 #2, flapest DR33 #9; AI Overview cites Wikipedia; head term"
+  },
+  {
+   "keyword": "house centipede",
+   "volume": 114000,
+   "low_dr_in_top10": "stcnature DR26 #5 only; Wikipedia #2, WebMD, three .gov/.edu; head term: hard"
+  }
+ ],
+ "keyword_families_us": {
+  "filter": "Ahrefs matching-terms, US, volume >= 300 (12-month average), KD <= 20, at least one top-5 result with DR <= 30; off-topic rows removed by hand (flea markets, Spider-Man, cars, pets, medical); keywords deduped across families; lists capped at 40-70 rows per family, so totals are lower bounds",
+  "families": [
+   {
+    "family": "Spiders & scorpions",
+    "file": "spiders",
+    "season": "late summer-fall",
+    "rows_returned": 70,
+    "truncated": true,
+    "keywords_kept": 35,
+    "offtopic_volume_dropped": 225100,
+    "winnable_volume": 1465900,
+    "head_term_volume": 899000,
+    "winnable_volume_excl_head": 566900,
+    "page_opportunities": 31,
+    "already_covered_topics": 8,
+    "already_covered_volume": 1232200,
+    "uncovered_volume_excl_head": 233700,
+    "volume_by_format": {
+     "head": 899000,
+     "bite": 360000,
+     "id": 149500,
+     "eggs": 23100,
+     "question": 24400,
+     "howto": 6000,
+     "state": 3900
+    },
+    "top_topics": [
+     {
+      "topic": "wolf spider black spider with white stripes",
+      "volume": 406000,
+      "example": "wolf spider",
+      "covered": true
+     },
+     {
+      "topic": "euophrys omnisuperstes",
+      "volume": 281000,
+      "example": "spider",
+      "covered": true
+     },
+     {
+      "topic": "spider bite on face",
+      "volume": 281000,
+      "example": "spider bite",
+      "covered": true
+     },
+     {
+      "topic": "jumping spider",
+      "volume": 212000,
+      "example": "jumping spider",
+      "covered": true
+     },
+     {
+      "topic": "are wolf spiders dangerous",
+      "volume": 43000,
+      "example": "wolf spider bite",
+      "covered": false
+     },
+     {
+      "topic": "hoise spiders",
+      "volume": 29000,
+      "example": "house spider",
+      "covered": true
+     }
+    ]
+   },
+   {
+    "family": "Wasps, hornets, bees",
+    "file": "wasps",
+    "season": "summer",
+    "rows_returned": 50,
+    "truncated": true,
+    "keywords_kept": 33,
+    "offtopic_volume_dropped": 56900,
+    "winnable_volume": 211400,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 211400,
+    "page_opportunities": 31,
+    "already_covered_topics": 9,
+    "already_covered_volume": 82300,
+    "uncovered_volume_excl_head": 129100,
+    "volume_by_format": {
+     "id": 108700,
+     "bite": 48100,
+     "howto": 20200,
+     "vs": 23400,
+     "question": 6700,
+     "eggs": 4300
+    },
+    "top_topics": [
+     {
+      "topic": "biggest wasp",
+      "volume": 47000,
+      "example": "cicada killer",
+      "covered": true
+     },
+     {
+      "topic": "yellow jacket sting",
+      "volume": 26000,
+      "example": "yellow jacket sting",
+      "covered": false
+     },
+     {
+      "topic": "wasps types",
+      "volume": 17000,
+      "example": "types of wasps",
+      "covered": false
+     },
+     {
+      "topic": "how to get rid of carpenter bees",
+      "volume": 14000,
+      "example": "how to get rid of carpenter bees",
+      "covered": true
+     },
+     {
+      "topic": "ground hornets",
+      "volume": 11100,
+      "example": "ground hornets",
+      "covered": false
+     },
+     {
+      "topic": "best way to treat a bee sting",
+      "volume": 8900,
+      "example": "bee sting remedy",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Cockroaches",
+    "file": "roaches",
+    "season": "year-round",
+    "rows_returned": 60,
+    "truncated": true,
+    "keywords_kept": 47,
+    "offtopic_volume_dropped": 34000,
+    "winnable_volume": 164800,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 164800,
+    "page_opportunities": 39,
+    "already_covered_topics": 16,
+    "already_covered_volume": 71300,
+    "uncovered_volume_excl_head": 93500,
+    "volume_by_format": {
+     "id": 78900,
+     "eggs": 23200,
+     "bite": 18000,
+     "question": 22100,
+     "howto": 13900,
+     "vs": 8700
+    },
+    "top_topics": [
+     {
+      "topic": "wild cockroaches",
+      "volume": 18000,
+      "example": "german roach",
+      "covered": true
+     },
+     {
+      "topic": "what does roach shit look like",
+      "volume": 15000,
+      "example": "roach poop",
+      "covered": false
+     },
+     {
+      "topic": "brown banded cockroach",
+      "volume": 12400,
+      "example": "brown banded cockroach",
+      "covered": false
+     },
+     {
+      "topic": "types of roaches in missouri",
+      "volume": 8700,
+      "example": "types of roaches",
+      "covered": false
+     },
+     {
+      "topic": "roach",
+      "volume": 8500,
+      "example": "where do roaches come from",
+      "covered": true
+     },
+     {
+      "topic": "german cockroach nymph",
+      "volume": 7400,
+      "example": "german cockroach baby",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Ticks & mosquitoes",
+    "file": "ticks_mosq",
+    "season": "summer (strong)",
+    "rows_returned": 55,
+    "truncated": true,
+    "keywords_kept": 33,
+    "offtopic_volume_dropped": 66600,
+    "winnable_volume": 161200,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 161200,
+    "page_opportunities": 29,
+    "already_covered_topics": 17,
+    "already_covered_volume": 122100,
+    "uncovered_volume_excl_head": 39100,
+    "volume_by_format": {
+     "id": 77500,
+     "howto": 19300,
+     "question": 37500,
+     "eggs": 9300,
+     "bite": 15200,
+     "vs": 2400
+    },
+    "top_topics": [
+     {
+      "topic": "types of ticks",
+      "volume": 33900,
+      "example": "types of ticks",
+      "covered": true
+     },
+     {
+      "topic": "crane fly",
+      "volume": 29900,
+      "example": "mosquito hawk",
+      "covered": true
+     },
+     {
+      "topic": "plants that repel mosquitoes",
+      "volume": 9300,
+      "example": "plants that repel mosquitoes",
+      "covered": true
+     },
+     {
+      "topic": "do ticks jump?",
+      "volume": 7000,
+      "example": "can ticks fly",
+      "covered": true
+     },
+     {
+      "topic": "mosquito plant",
+      "volume": 5900,
+      "example": "mosquito plant",
+      "covered": true
+     },
+     {
+      "topic": "giant mosquito",
+      "volume": 5900,
+      "example": "giant mosquito",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Look-alikes + \"what does X look like\"",
+    "file": "look_like",
+    "season": "mixed",
+    "rows_returned": 70,
+    "truncated": true,
+    "keywords_kept": 49,
+    "offtopic_volume_dropped": 103200,
+    "winnable_volume": 118200,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 118200,
+    "page_opportunities": 40,
+    "already_covered_topics": 27,
+    "already_covered_volume": 96300,
+    "uncovered_volume_excl_head": 21900,
+    "volume_by_format": {
+     "bite": 61000,
+     "id": 22300,
+     "lookalike": 20400,
+     "eggs": 11500,
+     "wildlife": 3000
+    },
+    "top_topics": [
+     {
+      "topic": "what does a spider bite look like",
+      "volume": 37000,
+      "example": "what does a spider bite look like",
+      "covered": true
+     },
+     {
+      "topic": "getting bug bites in bed",
+      "volume": 8100,
+      "example": "what does a bed bug bite look like",
+      "covered": true
+     },
+     {
+      "topic": "what do tick bites look like",
+      "volume": 5300,
+      "example": "what do tick bites look like",
+      "covered": true
+     },
+     {
+      "topic": "ladybug look alike",
+      "volume": 5300,
+      "example": "bugs that look like lady bugs",
+      "covered": false
+     },
+     {
+      "topic": "what do ticks look like on dogs",
+      "volume": 3800,
+      "example": "what do ticks look like on dogs",
+      "covered": true
+     },
+     {
+      "topic": "jumping black bug that looks like flea",
+      "volume": 3400,
+      "example": "bugs that look like fleas",
+      "covered": true
+     }
+    ]
+   },
+   {
+    "family": "Bites (general)",
+    "file": "bites_generic",
+    "season": "summer",
+    "rows_returned": 40,
+    "truncated": true,
+    "keywords_kept": 36,
+    "offtopic_volume_dropped": 3600,
+    "winnable_volume": 114900,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 114900,
+    "page_opportunities": 31,
+    "already_covered_topics": 12,
+    "already_covered_volume": 30800,
+    "uncovered_volume_excl_head": 84100,
+    "volume_by_format": {
+     "bite": 103900,
+     "vs": 10000,
+     "id": 1000
+    },
+    "top_topics": [
+     {
+      "topic": "picture of bug bites",
+      "volume": 43500,
+      "example": "identifying insect bites pictures",
+      "covered": false
+     },
+     {
+      "topic": "show me bed bug bites",
+      "volume": 15000,
+      "example": "bed bug bites pictures",
+      "covered": false
+     },
+     {
+      "topic": "bug bite identifier",
+      "volume": 6200,
+      "example": "bug bites that blister",
+      "covered": false
+     },
+     {
+      "topic": "bed bug bites",
+      "volume": 6100,
+      "example": "bed bug bites on humans",
+      "covered": true
+     },
+     {
+      "topic": "bed bug bites vs mosquito bites",
+      "volume": 5100,
+      "example": "bed bug bites vs mosquito bites",
+      "covered": true
+     },
+     {
+      "topic": "what do bed bug bites look like",
+      "volume": 4400,
+      "example": "bed bug bite pictures",
+      "covered": true
+     }
+    ]
+   },
+   {
+    "family": "Fleas, mites, chiggers",
+    "file": "fleas_mites",
+    "season": "summer-fall",
+    "rows_returned": 55,
+    "truncated": true,
+    "keywords_kept": 21,
+    "offtopic_volume_dropped": 275800,
+    "winnable_volume": 106200,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 106200,
+    "page_opportunities": 19,
+    "already_covered_topics": 4,
+    "already_covered_volume": 22200,
+    "uncovered_volume_excl_head": 84000,
+    "volume_by_format": {
+     "howto": 34700,
+     "question": 36300,
+     "id": 16700,
+     "bite": 9200,
+     "eggs": 6800,
+     "vs": 2500
+    },
+    "top_topics": [
+     {
+      "topic": "diatomaceous earth for fleas",
+      "volume": 14900,
+      "example": "diatomaceous earth for fleas",
+      "covered": false
+     },
+     {
+      "topic": "can fleas live in human hair",
+      "volume": 12300,
+      "example": "can fleas live on humans",
+      "covered": false
+     },
+     {
+      "topic": "how to get rid of dust mites",
+      "volume": 11000,
+      "example": "how to get rid of dust mites",
+      "covered": true
+     },
+     {
+      "topic": "how does a flea travel so fast",
+      "volume": 9000,
+      "example": "do fleas fly",
+      "covered": false
+     },
+     {
+      "topic": "snow flea infestation",
+      "volume": 8200,
+      "example": "snow fleas",
+      "covered": false
+     },
+     {
+      "topic": "dust mite bites",
+      "volume": 6700,
+      "example": "dust mites bites",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Occasional invaders (centipedes, earwigs, carpet beetles, stink bugs...)",
+    "file": "invaders",
+    "season": "fall-spring",
+    "rows_returned": 55,
+    "truncated": true,
+    "keywords_kept": 44,
+    "offtopic_volume_dropped": 16700,
+    "winnable_volume": 217900,
+    "head_term_volume": 114000,
+    "winnable_volume_excl_head": 103900,
+    "page_opportunities": 39,
+    "already_covered_topics": 13,
+    "already_covered_volume": 160700,
+    "uncovered_volume_excl_head": 57200,
+    "volume_by_format": {
+     "head": 114000,
+     "eggs": 14100,
+     "howto": 17100,
+     "id": 31900,
+     "bite": 6200,
+     "question": 32200,
+     "vs": 2400
+    },
+    "top_topics": [
+     {
+      "topic": "house centipede",
+      "volume": 114000,
+      "example": "house centipede",
+      "covered": true
+     },
+     {
+      "topic": "stink bug eggs",
+      "volume": 9000,
+      "example": "stink bug eggs",
+      "covered": false
+     },
+     {
+      "topic": "how to get rid of flies in your house",
+      "volume": 8400,
+      "example": "how to get rid of earwigs",
+      "covered": true
+     },
+     {
+      "topic": "do house centipedes bite",
+      "volume": 7300,
+      "example": "centipede in house",
+      "covered": true
+     },
+     {
+      "topic": "earwig",
+      "volume": 7000,
+      "example": "what are earwigs",
+      "covered": true
+     },
+     {
+      "topic": "carpet beetle rash",
+      "volume": 5200,
+      "example": "carpet beetle rash",
+      "covered": true
+     }
+    ]
+   },
+   {
+    "family": "Flies & gnats",
+    "file": "flies",
+    "season": "summer",
+    "rows_returned": 45,
+    "truncated": true,
+    "keywords_kept": 39,
+    "offtopic_volume_dropped": 13200,
+    "winnable_volume": 156600,
+    "head_term_volume": 55000,
+    "winnable_volume_excl_head": 101600,
+    "page_opportunities": 37,
+    "already_covered_topics": 11,
+    "already_covered_volume": 95600,
+    "uncovered_volume_excl_head": 61000,
+    "volume_by_format": {
+     "head": 55000,
+     "bite": 24200,
+     "howto": 34300,
+     "id": 14400,
+     "vs": 16300,
+     "eggs": 3000,
+     "question": 9400
+    },
+    "top_topics": [
+     {
+      "topic": "what do gnats look like",
+      "volume": 55000,
+      "example": "gnat",
+      "covered": true
+     },
+     {
+      "topic": "horse fly bite pictures",
+      "volume": 21000,
+      "example": "horse fly bite",
+      "covered": true
+     },
+     {
+      "topic": "food trap",
+      "volume": 12000,
+      "example": "homemade fruit fly trap",
+      "covered": false
+     },
+     {
+      "topic": "how to kill.maggots in trash can",
+      "volume": 9600,
+      "example": "how to kill maggots",
+      "covered": false
+     },
+     {
+      "topic": "how to kill fungus gnats",
+      "volume": 8500,
+      "example": "fungus gnat",
+      "covered": true
+     },
+     {
+      "topic": "gnats vs fruit flies",
+      "volume": 5300,
+      "example": "fruit flies vs gnats",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Ants",
+    "file": "ants",
+    "season": "spring-summer",
+    "rows_returned": 60,
+    "truncated": true,
+    "keywords_kept": 47,
+    "offtopic_volume_dropped": 37400,
+    "winnable_volume": 120100,
+    "head_term_volume": 19000,
+    "winnable_volume_excl_head": 101100,
+    "page_opportunities": 46,
+    "already_covered_topics": 11,
+    "already_covered_volume": 52100,
+    "uncovered_volume_excl_head": 68000,
+    "volume_by_format": {
+     "head": 19000,
+     "question": 19100,
+     "howto": 22000,
+     "id": 39200,
+     "bite": 7600,
+     "vs": 5500,
+     "eggs": 6600,
+     "state": 1100
+    },
+    "top_topics": [
+     {
+      "topic": "fire aunt",
+      "volume": 19000,
+      "example": "fire ant",
+      "covered": true
+     },
+     {
+      "topic": "are ants nocturnal",
+      "volume": 8500,
+      "example": "do ants sleep",
+      "covered": false
+     },
+     {
+      "topic": "how to get rid of sugar ants",
+      "volume": 7400,
+      "example": "how to get rid of sugar ants",
+      "covered": true
+     },
+     {
+      "topic": "ghost ants in house",
+      "volume": 6700,
+      "example": "ghost ants",
+      "covered": true
+     },
+     {
+      "topic": "how do you get rid of tiny ants in your house",
+      "volume": 5500,
+      "example": "how to get rid of ants in house",
+      "covered": true
+     },
+     {
+      "topic": "do carpenter ants bite",
+      "volume": 3500,
+      "example": "carpenter ant bite",
+      "covered": true
+     }
+    ]
+   },
+   {
+    "family": "Wildlife",
+    "file": "wildlife",
+    "season": "year-round",
+    "rows_returned": 45,
+    "truncated": true,
+    "keywords_kept": 27,
+    "offtopic_volume_dropped": 53600,
+    "winnable_volume": 89600,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 89600,
+    "page_opportunities": 26,
+    "already_covered_topics": 3,
+    "already_covered_volume": 7600,
+    "uncovered_volume_excl_head": 82000,
+    "volume_by_format": {
+     "eggs": 17500,
+     "howto": 22400,
+     "question": 35800,
+     "vs": 5300,
+     "id": 8600
+    },
+    "top_topics": [
+     {
+      "topic": "possum poop images",
+      "volume": 9400,
+      "example": "possum poop",
+      "covered": false
+     },
+     {
+      "topic": "how to kill chipmunks",
+      "volume": 6400,
+      "example": "how to get rid of chipmunks",
+      "covered": false
+     },
+     {
+      "topic": "what do skunks eat",
+      "volume": 5400,
+      "example": "do skunks hibernate",
+      "covered": false
+     },
+     {
+      "topic": "marmot vs groundhog",
+      "volume": 5300,
+      "example": "marmot vs groundhog",
+      "covered": false
+     },
+     {
+      "topic": "are racoons aggressive",
+      "volume": 4900,
+      "example": "are raccoons dangerous",
+      "covered": false
+     },
+     {
+      "topic": "how to get rid of skunk smell in house",
+      "volume": 4800,
+      "example": "how to get skunk smell out of house",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Rats & mice",
+    "file": "rodents",
+    "season": "year-round (fall-winter peak)",
+    "rows_returned": 50,
+    "truncated": true,
+    "keywords_kept": 43,
+    "offtopic_volume_dropped": 5350,
+    "winnable_volume": 83250,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 83250,
+    "page_opportunities": 40,
+    "already_covered_topics": 13,
+    "already_covered_volume": 41250,
+    "uncovered_volume_excl_head": 42000,
+    "volume_by_format": {
+     "id": 27050,
+     "vs": 34600,
+     "howto": 11200,
+     "eggs": 8700,
+     "question": 1700
+    },
+    "top_topics": [
+     {
+      "topic": "brown mouse",
+      "volume": 18000,
+      "example": "field mouse",
+      "covered": false
+     },
+     {
+      "topic": "difference between mouse and rat",
+      "volume": 17000,
+      "example": "rat vs mouse",
+      "covered": true
+     },
+     {
+      "topic": "rats vs. mice",
+      "volume": 14000,
+      "example": "mouse vs rat",
+      "covered": true
+     },
+     {
+      "topic": "baby rat",
+      "volume": 4200,
+      "example": "baby rats",
+      "covered": false
+     },
+     {
+      "topic": "common house mice",
+      "volume": 2100,
+      "example": "mice in house",
+      "covered": true
+     },
+     {
+      "topic": "rat poop vs mouse poop",
+      "volume": 2000,
+      "example": "rat vs mouse droppings",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "Termites",
+    "file": "termites",
+    "season": "spring",
+    "rows_returned": 40,
+    "truncated": true,
+    "keywords_kept": 28,
+    "offtopic_volume_dropped": 30300,
+    "winnable_volume": 76300,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 76300,
+    "page_opportunities": 27,
+    "already_covered_topics": 4,
+    "already_covered_volume": 25700,
+    "uncovered_volume_excl_head": 50600,
+    "volume_by_format": {
+     "howto": 13300,
+     "id": 32600,
+     "question": 8700,
+     "eggs": 4400,
+     "vs": 3700,
+     "cost": 9700,
+     "state": 2000,
+     "bite": 1900
+    },
+    "top_topics": [
+     {
+      "topic": "can you get rid of termites",
+      "volume": 12000,
+      "example": "how to get rid of termites",
+      "covered": true
+     },
+     {
+      "topic": "what does termite damage look like on wood",
+      "volume": 7600,
+      "example": "termite damage",
+      "covered": false
+     },
+     {
+      "topic": "brown flying termites",
+      "volume": 5700,
+      "example": "do termites fly",
+      "covered": true
+     },
+     {
+      "topic": "termite larvae",
+      "volume": 4400,
+      "example": "termite larvae",
+      "covered": false
+     },
+     {
+      "topic": "termites",
+      "volume": 4300,
+      "example": "early warning signs of termites",
+      "covered": true
+     },
+     {
+      "topic": "termites in wood",
+      "volume": 3900,
+      "example": "wood termites",
+      "covered": false
+     }
+    ]
+   },
+   {
+    "family": "\"Tiny bugs\" / colour sorters",
+    "file": "tiny_bugs",
+    "season": "mixed",
+    "rows_returned": 39,
+    "truncated": false,
+    "keywords_kept": 39,
+    "offtopic_volume_dropped": 0,
+    "winnable_volume": 54250,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 54250,
+    "page_opportunities": 33,
+    "already_covered_topics": 5,
+    "already_covered_volume": 12250,
+    "uncovered_volume_excl_head": 42000,
+    "volume_by_format": {
+     "id": 54250
+    },
+    "top_topics": [
+     {
+      "topic": "small red spider",
+      "volume": 13000,
+      "example": "tiny red bugs",
+      "covered": false
+     },
+     {
+      "topic": "tiny dark red bugs",
+      "volume": 7600,
+      "example": "red bugs",
+      "covered": false
+     },
+     {
+      "topic": "how to check for bed bugs",
+      "volume": 4500,
+      "example": "small bed bugs",
+      "covered": true
+     },
+     {
+      "topic": "tiny bug",
+      "volume": 3800,
+      "example": "tiny black bugs",
+      "covered": true
+     },
+     {
+      "topic": "little black bugs",
+      "volume": 3400,
+      "example": "small black bugs",
+      "covered": false
+     },
+     {
+      "topic": "tiny black bugs",
+      "volume": 3100,
+      "example": "black bed bugs",
+      "covered": true
+     }
+    ]
+   },
+   {
+    "family": "Bed bugs",
+    "file": "bed_bugs",
+    "season": "year-round",
+    "rows_returned": 50,
+    "truncated": true,
+    "keywords_kept": 19,
+    "offtopic_volume_dropped": 43200,
+    "winnable_volume": 33600,
+    "head_term_volume": 0,
+    "winnable_volume_excl_head": 33600,
+    "page_opportunities": 17,
+    "already_covered_topics": 8,
+    "already_covered_volume": 14100,
+    "uncovered_volume_excl_head": 19500,
+    "volume_by_format": {
+     "id": 16100,
+     "bite": 2500,
+     "eggs": 3600,
+     "cost": 4000,
+     "question": 5200,
+     "howto": 2200
+    },
+    "top_topics": [
+     {
+      "topic": "how much does bed bug treatment cost",
+      "volume": 4000,
+      "example": "bed bug treatment cost",
+      "covered": true
+     },
+     {
+      "topic": "do bed bugs fly",
+      "volume": 3600,
+      "example": "signs of bed bugs on sheets",
+      "covered": false
+     },
+     {
+      "topic": "adult bed bug",
+      "volume": 3300,
+      "example": "bed bugs size",
+      "covered": false
+     },
+     {
+      "topic": "bed bugs on sheets images",
+      "volume": 2700,
+      "example": "bed bug images",
+      "covered": false
+     },
+     {
+      "topic": "how long do bed bug bites last",
+      "volume": 2500,
+      "example": "where do bed bugs bite",
+      "covered": false
+     },
+     {
+      "topic": "bed bug eggs",
+      "volume": 2100,
+      "example": "bed bugs eggs",
+      "covered": true
+     }
+    ]
+   }
+  ]
+ },
+ "striking_distance_top60": [
+  {
+   "page": "/blog/mosquito-larvae-identification",
+   "clicks_mo": 91,
+   "impr_mo": 25333,
+   "pos": 8.4,
+   "ctr_pct": 0.36,
+   "sd_impr_mo": 18314,
+   "sd_ctr_pct": 0.2,
+   "gain_low": 421,
+   "gain_mid": 696,
+   "gain_high": 1062,
+   "us_impr_mo": 5845,
+   "us_sd_impr_mo": 5788,
+   "top_queries": [
+    "mosquito larvae (12964/mo, pos 9.7)",
+    "what does mosquito larvae look like (913/mo, pos 7.1)",
+    "what do mosquito larvae look like (868/mo, pos 6.3)",
+    "mosquito larve (325/mo, pos 10)"
+   ]
+  },
+  {
+   "page": "/blog/laser-mosquito-killer-photon-matrix-review",
+   "clicks_mo": 810,
+   "impr_mo": 36587,
+   "pos": 6.9,
+   "ctr_pct": 2.21,
+   "sd_impr_mo": 23707,
+   "sd_ctr_pct": 1.74,
+   "gain_low": 181,
+   "gain_mid": 537,
+   "gain_high": 1011,
+   "us_impr_mo": 5963,
+   "us_sd_impr_mo": 5285,
+   "top_queries": [
+    "photon matrix (8219/mo, pos 6.6)",
+    "photon matrix mosquito killer (2775/mo, pos 8.3)",
+    "laser mosquito killer (2041/mo, pos 8.1)",
+    "photon matrix mosquito (1573/mo, pos 7.6)"
+   ]
+  },
+  {
+   "page": "/blog/how-many-times-can-a-mosquito-bite-you",
+   "clicks_mo": 298,
+   "impr_mo": 38439,
+   "pos": 5,
+   "ctr_pct": 0.77,
+   "sd_impr_mo": 12187,
+   "sd_ctr_pct": 0.87,
+   "gain_low": 198,
+   "gain_mid": 381,
+   "gain_high": 625,
+   "us_impr_mo": 10051,
+   "us_sd_impr_mo": 7654,
+   "top_queries": [
+    "how many times can a mosquito bite you (759/mo, pos 5.9)",
+    "how many times can a mosquito bite (631/mo, pos 6.7)",
+    "how many times can one mosquito bite you (619/mo, pos 7.2)",
+    "can a mosquito bite more than once (577/mo, pos 4.4)"
+   ]
+  },
+  {
+   "page": "/blog/when-are-mosquitoes-most-active",
+   "clicks_mo": 197,
+   "impr_mo": 52923,
+   "pos": 5.4,
+   "ctr_pct": 0.37,
+   "sd_impr_mo": 10395,
+   "sd_ctr_pct": 0.58,
+   "gain_low": 200,
+   "gain_mid": 356,
+   "gain_high": 564,
+   "us_impr_mo": 6970,
+   "us_sd_impr_mo": 5683,
+   "top_queries": [
+    "when are mosquitoes most active (2473/mo, pos 6.2)",
+    "when do mosquitoes go away at night (1160/mo, pos 5.7)",
+    "what time do mosquitoes come out (839/mo, pos 5.8)",
+    "when do mosquitoes come out (618/mo, pos 6.6)"
+   ]
+  },
+  {
+   "page": "/blog/male-vs-female-mosquito",
+   "clicks_mo": 22,
+   "impr_mo": 14465,
+   "pos": 7.4,
+   "ctr_pct": 0.15,
+   "sd_impr_mo": 8378,
+   "sd_ctr_pct": 0.07,
+   "gain_low": 203,
+   "gain_mid": 329,
+   "gain_high": 497,
+   "us_impr_mo": 541,
+   "us_sd_impr_mo": 430,
+   "top_queries": [
+    "male vs female mosquito (1045/mo, pos 7.8)",
+    "male mosquito vs female (844/mo, pos 7.1)",
+    "female mosquito (670/mo, pos 8.6)",
+    "male mosquito (460/mo, pos 8.2)"
+   ]
+  },
+  {
+   "page": "/blog/bugs-that-look-like-ticks",
+   "clicks_mo": 297,
+   "impr_mo": 30047,
+   "pos": 6.7,
+   "ctr_pct": 0.99,
+   "sd_impr_mo": 7809,
+   "sd_ctr_pct": 0.68,
+   "gain_low": 142,
+   "gain_mid": 259,
+   "gain_high": 416,
+   "us_impr_mo": 5468,
+   "us_sd_impr_mo": 4290,
+   "top_queries": [
+    "bugs that look like ticks (740/mo, pos 6.6)",
+    "tick vs beetle (260/mo, pos 9.6)",
+    "insects that look like ticks (199/mo, pos 7.3)",
+    "spider beetle vs tick (161/mo, pos 6.7)"
+   ]
+  },
+  {
+   "page": "/blog/best-fruit-fly-trap-canada",
+   "clicks_mo": 51,
+   "impr_mo": 10848,
+   "pos": 8.1,
+   "ctr_pct": 0.47,
+   "sd_impr_mo": 6996,
+   "sd_ctr_pct": 0.31,
+   "gain_low": 153,
+   "gain_mid": 258,
+   "gain_high": 398,
+   "us_impr_mo": 261,
+   "us_sd_impr_mo": 81,
+   "top_queries": [
+    "best fruit fly trap (1803/mo, pos 7)",
+    "fruit fly trap canadian tire (510/mo, pos 9.9)",
+    "canadian tire fruit fly trap (404/mo, pos 10.5)",
+    "best fruit fly trap (325/mo, pos 8.3)"
+   ]
+  },
+  {
+   "page": "/blog/what-temperature-kills-mosquitoes",
+   "clicks_mo": 116,
+   "impr_mo": 32752,
+   "pos": 6.3,
+   "ctr_pct": 0.36,
+   "sd_impr_mo": 6859,
+   "sd_ctr_pct": 0.35,
+   "gain_low": 147,
+   "gain_mid": 250,
+   "gain_high": 387,
+   "us_impr_mo": 4930,
+   "us_sd_impr_mo": 4899,
+   "top_queries": [
+    "what temperature do mosquitoes die (940/mo, pos 8)",
+    "at what temperature do mosquitoes die (906/mo, pos 7.7)",
+    "what temp do mosquitoes die (773/mo, pos 8.5)",
+    "what temperature kills mosquitoes (753/mo, pos 7.1)"
+   ]
+  },
+  {
+   "page": "/blog/why-do-mosquito-bites-itch",
+   "clicks_mo": 96,
+   "impr_mo": 30180,
+   "pos": 7,
+   "ctr_pct": 0.32,
+   "sd_impr_mo": 6955,
+   "sd_ctr_pct": 0.42,
+   "gain_low": 145,
+   "gain_mid": 249,
+   "gain_high": 388,
+   "us_impr_mo": 1369,
+   "us_sd_impr_mo": 417,
+   "top_queries": [
+    "how long do mosquito bites last (3926/mo, pos 7.2)",
+    "how long does a mosquito bite last (857/mo, pos 7.9)",
+    "how long do mosquito bites itch (592/mo, pos 9.4)",
+    "how long does mosquito bite last (249/mo, pos 8.3)"
+   ]
+  },
+  {
+   "page": "/blog/how-long-do-ticks-live",
+   "clicks_mo": 31,
+   "impr_mo": 13313,
+   "pos": 7.7,
+   "ctr_pct": 0.23,
+   "sd_impr_mo": 6398,
+   "sd_ctr_pct": 0.16,
+   "gain_low": 150,
+   "gain_mid": 246,
+   "gain_high": 374,
+   "us_impr_mo": 2956,
+   "us_sd_impr_mo": 2702,
+   "top_queries": [
+    "how long to ticks live (1268/mo, pos 8.3)",
+    "how long can ticks live in a house (688/mo, pos 7.5)",
+    "how long do ticks live (394/mo, pos 7.4)",
+    "how long can a tick live without a host (379/mo, pos 12)"
+   ]
+  },
+  {
+   "page": "/blog/red-ticks-and-clover-mites",
+   "clicks_mo": 61,
+   "impr_mo": 9831,
+   "pos": 6.5,
+   "ctr_pct": 0.62,
+   "sd_impr_mo": 6699,
+   "sd_ctr_pct": 0.46,
+   "gain_low": 136,
+   "gain_mid": 237,
+   "gain_high": 371,
+   "us_impr_mo": 4184,
+   "us_sd_impr_mo": 4127,
+   "top_queries": [
+    "red tick (1482/mo, pos 6.7)",
+    "red ticks (1179/mo, pos 7)",
+    "small red tick (379/mo, pos 6.3)",
+    "tiny red tick (362/mo, pos 5.2)"
+   ]
+  },
+  {
+   "page": "/blog/best-wasp-nest-spray-canada",
+   "clicks_mo": 225,
+   "impr_mo": 17198,
+   "pos": 6.4,
+   "ctr_pct": 1.31,
+   "sd_impr_mo": 6667,
+   "sd_ctr_pct": 0.9,
+   "gain_low": 107,
+   "gain_mid": 207,
+   "gain_high": 340,
+   "us_impr_mo": 105,
+   "us_sd_impr_mo": 64,
+   "top_queries": [
+    "wasp spray (1921/mo, pos 8.4)",
+    "wasp nest spray (420/mo, pos 8.2)",
+    "best wasp spray (419/mo, pos 5.7)",
+    "best wasp killer (327/mo, pos 5.9)"
+   ]
+  },
+  {
+   "page": "/blog/horse-fly-and-deer-fly-bite-treatment",
+   "clicks_mo": 104,
+   "impr_mo": 14617,
+   "pos": 6.8,
+   "ctr_pct": 0.71,
+   "sd_impr_mo": 5794,
+   "sd_ctr_pct": 0.5,
+   "gain_low": 116,
+   "gain_mid": 203,
+   "gain_high": 319,
+   "us_impr_mo": 1134,
+   "us_sd_impr_mo": 791,
+   "top_queries": [
+    "deer fly bite (2039/mo, pos 8.1)",
+    "horse fly bite (386/mo, pos 7.8)",
+    "deer fly bites (210/mo, pos 8)",
+    "horse fly bite treatment (152/mo, pos 8.1)"
+   ]
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-ground-wasps-canada",
+   "clicks_mo": 457,
+   "impr_mo": 24006,
+   "pos": 6.1,
+   "ctr_pct": 1.91,
+   "sd_impr_mo": 9441,
+   "sd_ctr_pct": 1.96,
+   "gain_low": 51,
+   "gain_mid": 193,
+   "gain_high": 382,
+   "us_impr_mo": 204,
+   "us_sd_impr_mo": 81,
+   "top_queries": [
+    "delta dust canada (663/mo, pos 3.6)",
+    "ground wasps (468/mo, pos 8.2)",
+    "how to get rid of ground wasps (338/mo, pos 5.5)",
+    "wasp powder canada (312/mo, pos 5)"
+   ]
+  },
+  {
+   "page": "/blog/no-see-um-bites",
+   "clicks_mo": 293,
+   "impr_mo": 15834,
+   "pos": 6.2,
+   "ctr_pct": 1.85,
+   "sd_impr_mo": 6640,
+   "sd_ctr_pct": 1.2,
+   "gain_low": 86,
+   "gain_mid": 186,
+   "gain_high": 318,
+   "us_impr_mo": 4691,
+   "us_sd_impr_mo": 4098,
+   "top_queries": [
+    "no see um bites (1254/mo, pos 7.5)",
+    "how to get rid of no see um bites (538/mo, pos 4.4)",
+    "noseeum (345/mo, pos 5.8)",
+    "no see ums bites (274/mo, pos 4.4)"
+   ]
+  },
+  {
+   "page": "/blog/can-ticks-fly-jump-swim",
+   "clicks_mo": 17,
+   "impr_mo": 7839,
+   "pos": 7.2,
+   "ctr_pct": 0.21,
+   "sd_impr_mo": 4154,
+   "sd_ctr_pct": 0.13,
+   "gain_low": 99,
+   "gain_mid": 161,
+   "gain_high": 244,
+   "us_impr_mo": 2645,
+   "us_sd_impr_mo": 2633,
+   "top_queries": [
+    "can ticks drown (519/mo, pos 8.3)",
+    "can ticks swim (456/mo, pos 7.1)",
+    "can ticks survive in water (235/mo, pos 8.6)",
+    "do ticks drown in water (200/mo, pos 8.3)"
+   ]
+  },
+  {
+   "page": "/blog/deer-flies-horse-flies-ontario",
+   "clicks_mo": 35,
+   "impr_mo": 7348,
+   "pos": 6.7,
+   "ctr_pct": 0.48,
+   "sd_impr_mo": 4232,
+   "sd_ctr_pct": 0.29,
+   "gain_low": 93,
+   "gain_mid": 157,
+   "gain_high": 242,
+   "us_impr_mo": 496,
+   "us_sd_impr_mo": 139,
+   "top_queries": [
+    "deer fly vs horse fly (662/mo, pos 6)",
+    "deer fly (583/mo, pos 8.8)",
+    "horse fly vs deer fly (493/mo, pos 6.3)",
+    "deer flies vs horse flies (242/mo, pos 6.1)"
+   ]
+  },
+  {
+   "page": "/blog/thermacell-canada-where-to-buy",
+   "clicks_mo": 14,
+   "impr_mo": 5968,
+   "pos": 8.3,
+   "ctr_pct": 0.23,
+   "sd_impr_mo": 4036,
+   "sd_ctr_pct": 0.13,
+   "gain_low": 96,
+   "gain_mid": 156,
+   "gain_high": 237,
+   "us_impr_mo": 13,
+   "us_sd_impr_mo": 13,
+   "top_queries": [
+    "thermacell canadian tire (2573/mo, pos 8.1)",
+    "canadian tire thermacell (758/mo, pos 9.4)",
+    "thermacell canada (105/mo, pos 8.9)",
+    "thermacell refills canadian tire (65/mo, pos 7.8)"
+   ]
+  },
+  {
+   "page": "/blog/best-rat-trap-canada",
+   "clicks_mo": 57,
+   "impr_mo": 7827,
+   "pos": 7.8,
+   "ctr_pct": 0.73,
+   "sd_impr_mo": 4218,
+   "sd_ctr_pct": 0.47,
+   "gain_low": 85,
+   "gain_mid": 149,
+   "gain_high": 233,
+   "us_impr_mo": 1278,
+   "us_sd_impr_mo": 524,
+   "top_queries": [
+    "rat traps (526/mo, pos 11.2)",
+    "best rat traps (342/mo, pos 7.3)",
+    "effective rat traps (221/mo, pos 11.7)",
+    "rat trap (220/mo, pos 9)"
+   ]
+  },
+  {
+   "page": "/blog/tick-bite-vs-mosquito-bite",
+   "clicks_mo": 116,
+   "impr_mo": 8878,
+   "pos": 5.8,
+   "ctr_pct": 1.3,
+   "sd_impr_mo": 4694,
+   "sd_ctr_pct": 1.17,
+   "gain_low": 62,
+   "gain_mid": 133,
+   "gain_high": 227,
+   "us_impr_mo": 2874,
+   "us_sd_impr_mo": 2813,
+   "top_queries": [
+    "tick bite vs mosquito bite (1250/mo, pos 5.5)",
+    "mosquito bite vs tick bite (602/mo, pos 6.4)",
+    "tick vs mosquito bite (575/mo, pos 6.4)",
+    "mosquito vs tick bite (323/mo, pos 6)"
+   ]
+  },
+  {
+   "page": "/blog/black-flies-ontario-when-they-come-out",
+   "clicks_mo": 123,
+   "impr_mo": 13686,
+   "pos": 6.9,
+   "ctr_pct": 0.9,
+   "sd_impr_mo": 3671,
+   "sd_ctr_pct": 0.42,
+   "gain_low": 76,
+   "gain_mid": 132,
+   "gain_high": 205,
+   "us_impr_mo": 161,
+   "us_sd_impr_mo": 131,
+   "top_queries": [
+    "black fly (774/mo, pos 8.9)",
+    "black flies (450/mo, pos 7)",
+    "blackflies (228/mo, pos 9.2)",
+    "black flies canada (180/mo, pos 8.4)"
+   ]
+  },
+  {
+   "page": "/blog/what-does-a-spider-bite-look-like",
+   "clicks_mo": 87,
+   "impr_mo": 14592,
+   "pos": 6.8,
+   "ctr_pct": 0.59,
+   "sd_impr_mo": 4139,
+   "sd_ctr_pct": 0.84,
+   "gain_low": 69,
+   "gain_mid": 131,
+   "gain_high": 214,
+   "us_impr_mo": 1578,
+   "us_sd_impr_mo": 1266,
+   "top_queries": [
+    "what does a spider bite look like (2183/mo, pos 7.8)",
+    "what do spider bites look like (636/mo, pos 6.6)",
+    "what does a spider bite look like on a human (196/mo, pos 4.8)",
+    "spider bite mark (146/mo, pos 8.7)"
+   ]
+  },
+  {
+   "page": "/blog/dynatrap-canada-review",
+   "clicks_mo": 64,
+   "impr_mo": 7585,
+   "pos": 7.6,
+   "ctr_pct": 0.85,
+   "sd_impr_mo": 3869,
+   "sd_ctr_pct": 0.61,
+   "gain_low": 73,
+   "gain_mid": 131,
+   "gain_high": 208,
+   "us_impr_mo": 987,
+   "us_sd_impr_mo": 840,
+   "top_queries": [
+    "dynatrap (1014/mo, pos 10.7)",
+    "dynatrap reviews (493/mo, pos 7.7)",
+    "dynatrap mosquito trap (290/mo, pos 11.6)",
+    "dyna trap (124/mo, pos 11.2)"
+   ]
+  },
+  {
+   "page": "/blog/chigger-bites",
+   "clicks_mo": 131,
+   "impr_mo": 13404,
+   "pos": 8.3,
+   "ctr_pct": 0.98,
+   "sd_impr_mo": 4060,
+   "sd_ctr_pct": 0.89,
+   "gain_low": 65,
+   "gain_mid": 126,
+   "gain_high": 207,
+   "us_impr_mo": 4006,
+   "us_sd_impr_mo": 2635,
+   "top_queries": [
+    "how long do chigger bites itch (191/mo, pos 10.8)",
+    "how long do chigger bites last (141/mo, pos 8.4)",
+    "what do chigger bites look like (140/mo, pos 7.6)",
+    "how big are chiggers (125/mo, pos 9.9)"
+   ]
+  },
+  {
+   "page": "/blog/tick-vs-bed-bug",
+   "clicks_mo": 36,
+   "impr_mo": 7313,
+   "pos": 7.9,
+   "ctr_pct": 0.5,
+   "sd_impr_mo": 3401,
+   "sd_ctr_pct": 0.28,
+   "gain_low": 75,
+   "gain_mid": 126,
+   "gain_high": 194,
+   "us_impr_mo": 2096,
+   "us_sd_impr_mo": 2064,
+   "top_queries": [
+    "tick vs bed bug (884/mo, pos 9.5)",
+    "ticks vs bed bugs (460/mo, pos 9.9)",
+    "bed bug vs tick (408/mo, pos 8.7)",
+    "bed bugs and ticks (341/mo, pos 10.2)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-fogger-canada",
+   "clicks_mo": 155,
+   "impr_mo": 7812,
+   "pos": 7.5,
+   "ctr_pct": 1.98,
+   "sd_impr_mo": 4900,
+   "sd_ctr_pct": 1.47,
+   "gain_low": 51,
+   "gain_mid": 124,
+   "gain_high": 222,
+   "us_impr_mo": 298,
+   "us_sd_impr_mo": 119,
+   "top_queries": [
+    "mosquito fogger (1224/mo, pos 8.3)",
+    "mosquito fogger liquid (391/mo, pos 6.8)",
+    "mosquito fogger liquid canada (162/mo, pos 4.6)",
+    "mosquito fogger canada (156/mo, pos 4.6)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-bits-canada-vs-dunks",
+   "clicks_mo": 160,
+   "impr_mo": 8733,
+   "pos": 5.7,
+   "ctr_pct": 1.83,
+   "sd_impr_mo": 4616,
+   "sd_ctr_pct": 1.33,
+   "gain_low": 54,
+   "gain_mid": 123,
+   "gain_high": 216,
+   "us_impr_mo": 390,
+   "us_sd_impr_mo": 193,
+   "top_queries": [
+    "mosquito bits (2648/mo, pos 6)",
+    "mosquito bits canadian tire (107/mo, pos 7.2)",
+    "mosquito bits vs dunks (79/mo, pos 7.1)",
+    "mosquito bits home depot canada (65/mo, pos 6.5)"
+   ]
+  },
+  {
+   "page": "/blog/natural-mosquito-repellent-ontario",
+   "clicks_mo": 31,
+   "impr_mo": 5898,
+   "pos": 8.5,
+   "ctr_pct": 0.53,
+   "sd_impr_mo": 3378,
+   "sd_ctr_pct": 0.37,
+   "gain_low": 72,
+   "gain_mid": 122,
+   "gain_high": 190,
+   "us_impr_mo": 141,
+   "us_sd_impr_mo": 14,
+   "top_queries": [
+    "mosquito repellent (928/mo, pos 11.3)",
+    "natural mosquito repellent (529/mo, pos 5.6)",
+    "best natural mosquito repellent (104/mo, pos 6.4)",
+    "natural mosquito repellent for yard (88/mo, pos 8.3)"
+   ]
+  },
+  {
+   "page": "/blog/permethrin-canada-yard-clothing-spray",
+   "clicks_mo": 236,
+   "impr_mo": 10453,
+   "pos": 6.3,
+   "ctr_pct": 2.26,
+   "sd_impr_mo": 5308,
+   "sd_ctr_pct": 1.88,
+   "gain_low": 33,
+   "gain_mid": 113,
+   "gain_high": 219,
+   "us_impr_mo": 133,
+   "us_sd_impr_mo": 118,
+   "top_queries": [
+    "permethrin spray (712/mo, pos 8.6)",
+    "permethrin canada (670/mo, pos 5.9)",
+    "permethrin spray canada (407/mo, pos 6.6)",
+    "permethrin (400/mo, pos 4.9)"
+   ]
+  },
+  {
+   "page": "/blog/bug-zappers-canada-do-they-work",
+   "clicks_mo": 73,
+   "impr_mo": 6427,
+   "pos": 8.7,
+   "ctr_pct": 1.13,
+   "sd_impr_mo": 3624,
+   "sd_ctr_pct": 0.94,
+   "gain_low": 57,
+   "gain_mid": 111,
+   "gain_high": 183,
+   "us_impr_mo": 373,
+   "us_sd_impr_mo": 166,
+   "top_queries": [
+    "bug zapper (1016/mo, pos 12.6)",
+    "bug zappers (218/mo, pos 13.4)",
+    "best bug zapper (217/mo, pos 5.8)",
+    "mosquito zapper (139/mo, pos 12.8)"
+   ]
+  },
+  {
+   "page": "/blog/best-mosquito-repellent-device-canada",
+   "clicks_mo": 55,
+   "impr_mo": 5452,
+   "pos": 8.7,
+   "ctr_pct": 1,
+   "sd_impr_mo": 3406,
+   "sd_ctr_pct": 0.75,
+   "gain_low": 59,
+   "gain_mid": 111,
+   "gain_high": 179,
+   "us_impr_mo": 289,
+   "us_sd_impr_mo": 46,
+   "top_queries": [
+    "mosquito repellent machine (1217/mo, pos 9.6)",
+    "mosquito killer machine (231/mo, pos 9.9)",
+    "bug repellent machine (195/mo, pos 9.4)",
+    "best mosquito repellent device (177/mo, pos 6.7)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-dunks-canada-guide",
+   "clicks_mo": 61,
+   "impr_mo": 5745,
+   "pos": 7,
+   "ctr_pct": 1.06,
+   "sd_impr_mo": 3463,
+   "sd_ctr_pct": 0.83,
+   "gain_low": 58,
+   "gain_mid": 110,
+   "gain_high": 179,
+   "us_impr_mo": 46,
+   "us_sd_impr_mo": 34,
+   "top_queries": [
+    "mosquito dunks canada (691/mo, pos 5.8)",
+    "mosquito dunks canadian tire (372/mo, pos 5.9)",
+    "mosquito dunks (310/mo, pos 11.1)",
+    "mosquito dunks home depot (172/mo, pos 8.4)"
+   ]
+  },
+  {
+   "page": "/blog/flea-bites-on-humans",
+   "clicks_mo": 48,
+   "impr_mo": 10680,
+   "pos": 8.1,
+   "ctr_pct": 0.45,
+   "sd_impr_mo": 2837,
+   "sd_ctr_pct": 0.29,
+   "gain_low": 63,
+   "gain_mid": 105,
+   "gain_high": 162,
+   "us_impr_mo": 1331,
+   "us_sd_impr_mo": 981,
+   "top_queries": [
+    "what do flea bites look like (347/mo, pos 7.5)",
+    "flea bites on humans (177/mo, pos 11.7)",
+    "what do flea bites look like on humans (106/mo, pos 10.5)",
+    "flea bites human (106/mo, pos 10.9)"
+   ]
+  },
+  {
+   "page": "/blog/advion-cockroach-gel-bait-canada",
+   "clicks_mo": 183,
+   "impr_mo": 9444,
+   "pos": 7,
+   "ctr_pct": 1.94,
+   "sd_impr_mo": 5042,
+   "sd_ctr_pct": 1.97,
+   "gain_low": 27,
+   "gain_mid": 102,
+   "gain_high": 203,
+   "us_impr_mo": 149,
+   "us_sd_impr_mo": 81,
+   "top_queries": [
+    "advion cockroach gel bait (963/mo, pos 8.4)",
+    "advion cockroach gel (436/mo, pos 8.6)",
+    "cockroach gel bait (380/mo, pos 11.3)",
+    "cockroach gel bait canada (287/mo, pos 6.8)"
+   ]
+  },
+  {
+   "page": "/blog/can-mosquitoes-bite-through-clothes",
+   "clicks_mo": 38,
+   "impr_mo": 11100,
+   "pos": 6.2,
+   "ctr_pct": 0.34,
+   "sd_impr_mo": 2673,
+   "sd_ctr_pct": 0.17,
+   "gain_low": 62,
+   "gain_mid": 102,
+   "gain_high": 156,
+   "us_impr_mo": 919,
+   "us_sd_impr_mo": 852,
+   "top_queries": [
+    "can mosquitoes bite through clothes (651/mo, pos 8.8)",
+    "can mosquitoes bite through jeans (145/mo, pos 8.7)",
+    "can mosquitoes bite through socks (134/mo, pos 8.7)",
+    "can mosquitoes bite through leggings (118/mo, pos 7.5)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-bite-vs-spider-bite",
+   "clicks_mo": 11,
+   "impr_mo": 4457,
+   "pos": 7.7,
+   "ctr_pct": 0.25,
+   "sd_impr_mo": 2472,
+   "sd_ctr_pct": 0.18,
+   "gain_low": 57,
+   "gain_mid": 95,
+   "gain_high": 144,
+   "us_impr_mo": 747,
+   "us_sd_impr_mo": 681,
+   "top_queries": [
+    "spider bite vs mosquito bite (767/mo, pos 8.1)",
+    "spider vs mosquito bite (182/mo, pos 8.5)",
+    "mosquito bite vs spider bite (161/mo, pos 8.8)",
+    "mosquito vs spider bite (148/mo, pos 8.2)"
+   ]
+  },
+  {
+   "page": "/blog/no-see-ums-biting-midges-ontario",
+   "clicks_mo": 99,
+   "impr_mo": 5740,
+   "pos": 5.9,
+   "ctr_pct": 1.72,
+   "sd_impr_mo": 2751,
+   "sd_ctr_pct": 0.87,
+   "gain_low": 45,
+   "gain_mid": 86,
+   "gain_high": 141,
+   "us_impr_mo": 327,
+   "us_sd_impr_mo": 27,
+   "top_queries": [
+    "no see ums (873/mo, pos 6)",
+    "noseeums (695/mo, pos 8.1)",
+    "biting midges ontario (133/mo, pos 4)",
+    "no-see-ums (121/mo, pos 6)"
+   ]
+  },
+  {
+   "page": "/blog/electric-fly-swatter-canada",
+   "clicks_mo": 69,
+   "impr_mo": 5565,
+   "pos": 8.1,
+   "ctr_pct": 1.24,
+   "sd_impr_mo": 2765,
+   "sd_ctr_pct": 0.93,
+   "gain_low": 43,
+   "gain_mid": 85,
+   "gain_high": 140,
+   "us_impr_mo": 438,
+   "us_sd_impr_mo": 422,
+   "top_queries": [
+    "electric fly swatter (779/mo, pos 10)",
+    "electric fly swatter canadian tire (205/mo, pos 5.6)",
+    "best electric fly swatter (60/mo, pos 3.6)",
+    "fly swatter electric (59/mo, pos 11.2)"
+   ]
+  },
+  {
+   "page": "/blog/best-cockroach-spray-canada",
+   "clicks_mo": 60,
+   "impr_mo": 6226,
+   "pos": 8.4,
+   "ctr_pct": 0.96,
+   "sd_impr_mo": 2541,
+   "sd_ctr_pct": 0.68,
+   "gain_low": 46,
+   "gain_mid": 84,
+   "gain_high": 135,
+   "us_impr_mo": 30,
+   "us_sd_impr_mo": 11,
+   "top_queries": [
+    "cockroach spray (459/mo, pos 10.7)",
+    "best cockroach killer canada (239/mo, pos 5.5)",
+    "best cockroach killer (137/mo, pos 9.7)",
+    "best cockroach killer gel canada (117/mo, pos 7.1)"
+   ]
+  },
+  {
+   "page": "/blog/best-screen-tent-canada",
+   "clicks_mo": 57,
+   "impr_mo": 4494,
+   "pos": 10.2,
+   "ctr_pct": 1.27,
+   "sd_impr_mo": 2130,
+   "sd_ctr_pct": 0.3,
+   "gain_low": 47,
+   "gain_mid": 79,
+   "gain_high": 121,
+   "us_impr_mo": 14,
+   "us_sd_impr_mo": 10,
+   "top_queries": [
+    "screen tent (393/mo, pos 14.5)",
+    "screen house (207/mo, pos 16.4)",
+    "screen houses (146/mo, pos 13.1)",
+    "screen tents (118/mo, pos 17.4)"
+   ]
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-centipedes-canada",
+   "clicks_mo": 41,
+   "impr_mo": 6088,
+   "pos": 7.5,
+   "ctr_pct": 0.68,
+   "sd_impr_mo": 2149,
+   "sd_ctr_pct": 0.65,
+   "gain_low": 40,
+   "gain_mid": 72,
+   "gain_high": 115,
+   "us_impr_mo": 45,
+   "us_sd_impr_mo": 41,
+   "top_queries": [
+    "how to get rid of house centipedes (297/mo, pos 5.4)",
+    "house centipede canada (168/mo, pos 8.9)",
+    "how to get rid of centipedes in house (94/mo, pos 4.8)",
+    "house centipede how to get rid of (69/mo, pos 5.6)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-hawk-explained",
+   "clicks_mo": 7,
+   "impr_mo": 3525,
+   "pos": 8.4,
+   "ctr_pct": 0.19,
+   "sd_impr_mo": 1780,
+   "sd_ctr_pct": 0.11,
+   "gain_low": 42,
+   "gain_mid": 69,
+   "gain_high": 105,
+   "us_impr_mo": 551,
+   "us_sd_impr_mo": 459,
+   "top_queries": [
+    "mosquito hawk (786/mo, pos 9.1)",
+    "do crane flies eat mosquitoes (105/mo, pos 8.9)",
+    "hawk fly (81/mo, pos 9)",
+    "mosquito hawks (72/mo, pos 10.5)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-repellent-guide-ontario-2026",
+   "clicks_mo": 103,
+   "impr_mo": 4528,
+   "pos": 6.6,
+   "ctr_pct": 2.27,
+   "sd_impr_mo": 2699,
+   "sd_ctr_pct": 1.47,
+   "gain_low": 28,
+   "gain_mid": 68,
+   "gain_high": 122,
+   "us_impr_mo": 126,
+   "us_sd_impr_mo": 26,
+   "top_queries": [
+    "best mosquito repellent (665/mo, pos 5.3)",
+    "mosquito repellent (449/mo, pos 10.1)",
+    "best mosquito repellent device (157/mo, pos 6.1)",
+    "mosquito spray (71/mo, pos 12.3)"
+   ]
+  },
+  {
+   "page": "/blog/what-does-mouse-poop-look-like-canada",
+   "clicks_mo": 16,
+   "impr_mo": 5749,
+   "pos": 7.6,
+   "ctr_pct": 0.28,
+   "sd_impr_mo": 1964,
+   "sd_ctr_pct": 0.54,
+   "gain_low": 38,
+   "gain_mid": 68,
+   "gain_high": 107,
+   "us_impr_mo": 7,
+   "us_sd_impr_mo": 7,
+   "top_queries": [
+    "mouse poop (951/mo, pos 7.3)",
+    "what does mouse poop look like (445/mo, pos 7.5)",
+    "mouse droppings (227/mo, pos 6.6)",
+    "what do mouse droppings look like (167/mo, pos 7.9)"
+   ]
+  },
+  {
+   "page": "/blog/best-air-purifier-for-allergies-canada",
+   "clicks_mo": 2,
+   "impr_mo": 1797,
+   "pos": 8.4,
+   "ctr_pct": 0.09,
+   "sd_impr_mo": 1666,
+   "sd_ctr_pct": 0.02,
+   "gain_low": 41,
+   "gain_mid": 66,
+   "gain_high": 100,
+   "us_impr_mo": 5,
+   "us_sd_impr_mo": 5,
+   "top_queries": [
+    "best air purifiers for allergies (1497/mo, pos 8.1)",
+    "best air purifier canada (26/mo, pos 9.8)",
+    "air purifier for allergies (24/mo, pos 18.4)",
+    "best air purifier for allergies (21/mo, pos 9.9)"
+   ]
+  },
+  {
+   "page": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+   "clicks_mo": 12,
+   "impr_mo": 2871,
+   "pos": 7.8,
+   "ctr_pct": 0.43,
+   "sd_impr_mo": 1681,
+   "sd_ctr_pct": 0.18,
+   "gain_low": 39,
+   "gain_mid": 64,
+   "gain_high": 98,
+   "us_impr_mo": 335,
+   "us_sd_impr_mo": 316,
+   "top_queries": [
+    "baby tick (304/mo, pos 6.4)",
+    "baby ticks (272/mo, pos 8.7)",
+    "seed ticks (166/mo, pos 10.1)",
+    "what do baby ticks look like (152/mo, pos 8.7)"
+   ]
+  },
+  {
+   "page": "/blog/do-tiki-torches-repel-mosquitoes",
+   "clicks_mo": 27,
+   "impr_mo": 4866,
+   "pos": 6.7,
+   "ctr_pct": 0.55,
+   "sd_impr_mo": 1601,
+   "sd_ctr_pct": 0.23,
+   "gain_low": 36,
+   "gain_mid": 60,
+   "gain_high": 92,
+   "us_impr_mo": 1543,
+   "us_sd_impr_mo": 1420,
+   "top_queries": [
+    "do tiki torches keep mosquitoes away (239/mo, pos 7.5)",
+    "do tiki torches keep bugs away (167/mo, pos 8.8)",
+    "do tiki torches repel mosquitoes (125/mo, pos 8.1)",
+    "do tiki torches work (81/mo, pos 9.8)"
+   ]
+  },
+  {
+   "page": "/blog/bed-bug-mattress-encasement-canada",
+   "clicks_mo": 35,
+   "impr_mo": 3728,
+   "pos": 7.9,
+   "ctr_pct": 0.95,
+   "sd_impr_mo": 1645,
+   "sd_ctr_pct": 0.43,
+   "gain_low": 34,
+   "gain_mid": 59,
+   "gain_high": 92,
+   "us_impr_mo": 39,
+   "us_sd_impr_mo": 36,
+   "top_queries": [
+    "bed bug mattress encasement (135/mo, pos 8.9)",
+    "bed bug mattress cover (101/mo, pos 9)",
+    "mattress encasement (75/mo, pos 11.8)",
+    "bed bug mattress protector (68/mo, pos 10.2)"
+   ]
+  },
+  {
+   "page": "/blog/electric-fly-swatter",
+   "clicks_mo": 22,
+   "impr_mo": 2744,
+   "pos": 8.5,
+   "ctr_pct": 0.79,
+   "sd_impr_mo": 1667,
+   "sd_ctr_pct": 0.52,
+   "gain_low": 33,
+   "gain_mid": 58,
+   "gain_high": 91,
+   "us_impr_mo": 37,
+   "us_sd_impr_mo": 35,
+   "top_queries": [
+    "electric fly swatter (553/mo, pos 8.8)",
+    "fly swatter electric (78/mo, pos 8.6)",
+    "electric fly swatter canadian tire (62/mo, pos 7.1)",
+    "bug zapper racket (33/mo, pos 11)"
+   ]
+  },
+  {
+   "page": "/blog/bed-bug-stains-poop-droppings-canada",
+   "clicks_mo": 55,
+   "impr_mo": 4871,
+   "pos": 7.2,
+   "ctr_pct": 1.14,
+   "sd_impr_mo": 1565,
+   "sd_ctr_pct": 0.4,
+   "gain_low": 33,
+   "gain_mid": 56,
+   "gain_high": 88,
+   "us_impr_mo": 132,
+   "us_sd_impr_mo": 101,
+   "top_queries": [
+    "bed bug poop (264/mo, pos 10)",
+    "bed bug droppings (92/mo, pos 10.5)",
+    "bed bug stains (82/mo, pos 8.3)",
+    "bedbug poop (82/mo, pos 9.4)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-net-canada",
+   "clicks_mo": 9,
+   "impr_mo": 2261,
+   "pos": 10.5,
+   "ctr_pct": 0.38,
+   "sd_impr_mo": 1392,
+   "sd_ctr_pct": 0.1,
+   "gain_low": 33,
+   "gain_mid": 54,
+   "gain_high": 82,
+   "us_impr_mo": 9,
+   "us_sd_impr_mo": 7,
+   "top_queries": [
+    "mosquito net (626/mo, pos 11.2)",
+    "mosquito nets (100/mo, pos 11.9)",
+    "mosquito netting (99/mo, pos 14.7)",
+    "mosquito net for bed (67/mo, pos 10.9)"
+   ]
+  },
+  {
+   "page": "/blog/bed-bug-shells-casings-shed-skins-canada",
+   "clicks_mo": 14,
+   "impr_mo": 2379,
+   "pos": 7.7,
+   "ctr_pct": 0.59,
+   "sd_impr_mo": 1323,
+   "sd_ctr_pct": 0.3,
+   "gain_low": 29,
+   "gain_mid": 49,
+   "gain_high": 75,
+   "us_impr_mo": 84,
+   "us_sd_impr_mo": 73,
+   "top_queries": [
+    "bed bug shells (223/mo, pos 8.4)",
+    "bed bug shell (100/mo, pos 8.5)",
+    "bed bug casings (86/mo, pos 8.4)",
+    "bed bug shed skin (80/mo, pos 8.4)"
+   ]
+  },
+  {
+   "page": "/blog/best-large-capacity-dehumidifier-canada",
+   "clicks_mo": 14,
+   "impr_mo": 2587,
+   "pos": 8.9,
+   "ctr_pct": 0.55,
+   "sd_impr_mo": 1295,
+   "sd_ctr_pct": 0.41,
+   "gain_low": 27,
+   "gain_mid": 46,
+   "gain_high": 72,
+   "us_impr_mo": 7,
+   "us_sd_impr_mo": 6,
+   "top_queries": [
+    "best dehumidifier canada (309/mo, pos 7)",
+    "best dehumidifier for basement canada (69/mo, pos 8.1)",
+    "70 pint dehumidifier (58/mo, pos 9.8)",
+    "large dehumidifier (48/mo, pos 12.5)"
+   ]
+  },
+  {
+   "page": "/blog/bed-bug-bites-vs-mosquito-bites",
+   "clicks_mo": 11,
+   "impr_mo": 2156,
+   "pos": 9.1,
+   "ctr_pct": 0.51,
+   "sd_impr_mo": 1299,
+   "sd_ctr_pct": 0.49,
+   "gain_low": 26,
+   "gain_mid": 46,
+   "gain_high": 72,
+   "us_impr_mo": 472,
+   "us_sd_impr_mo": 380,
+   "top_queries": [
+    "bed bug bites vs mosquito bites (265/mo, pos 10.1)",
+    "mosquito bites vs bed bug bites (76/mo, pos 8.4)",
+    "mosquito bites vs bed bugs (67/mo, pos 8.8)",
+    "mosquito vs bed bug bite (63/mo, pos 9)"
+   ]
+  },
+  {
+   "page": "/blog/baby-bed-bugs-nymphs-canada",
+   "clicks_mo": 2,
+   "impr_mo": 1519,
+   "pos": 7.7,
+   "ctr_pct": 0.13,
+   "sd_impr_mo": 1187,
+   "sd_ctr_pct": 0.14,
+   "gain_low": 28,
+   "gain_mid": 46,
+   "gain_high": 70,
+   "us_impr_mo": 22,
+   "us_sd_impr_mo": 18,
+   "top_queries": [
+    "baby bed bugs (332/mo, pos 6.9)",
+    "baby bed bug (234/mo, pos 7.8)",
+    "bed bug nymph (94/mo, pos 9.9)",
+    "bed bug baby (58/mo, pos 6.5)"
+   ]
+  },
+  {
+   "page": "/blog/best-bed-bug-spray-for-mattress-canada",
+   "clicks_mo": 17,
+   "impr_mo": 2483,
+   "pos": 8.6,
+   "ctr_pct": 0.68,
+   "sd_impr_mo": 1265,
+   "sd_ctr_pct": 0.42,
+   "gain_low": 26,
+   "gain_mid": 45,
+   "gain_high": 71,
+   "us_impr_mo": 44,
+   "us_sd_impr_mo": 22,
+   "top_queries": [
+    "bed bug spray (183/mo, pos 11.4)",
+    "best bed bug spray (103/mo, pos 5.8)",
+    "strongest bed bug killer (99/mo, pos 8.8)",
+    "canadian tire bed bug spray (76/mo, pos 10.7)"
+   ]
+  },
+  {
+   "page": "/blog/best-yellow-jacket-trap-canada",
+   "clicks_mo": 25,
+   "impr_mo": 2858,
+   "pos": 8.1,
+   "ctr_pct": 0.87,
+   "sd_impr_mo": 1311,
+   "sd_ctr_pct": 0.71,
+   "gain_low": 23,
+   "gain_mid": 43,
+   "gain_high": 69,
+   "us_impr_mo": 61,
+   "us_sd_impr_mo": 22,
+   "top_queries": [
+    "yellow jacket trap (495/mo, pos 10.6)",
+    "yellow jacket traps (141/mo, pos 9.7)",
+    "yellowjacket trap (104/mo, pos 9.9)",
+    "best yellow jacket trap (64/mo, pos 6.8)"
+   ]
+  },
+  {
+   "page": "/blog/best-flea-spray-for-home-canada",
+   "clicks_mo": 29,
+   "impr_mo": 2735,
+   "pos": 7.5,
+   "ctr_pct": 1.07,
+   "sd_impr_mo": 1219,
+   "sd_ctr_pct": 0.66,
+   "gain_low": 22,
+   "gain_mid": 41,
+   "gain_high": 65,
+   "us_impr_mo": 50,
+   "us_sd_impr_mo": 17,
+   "top_queries": [
+    "flea spray for house (269/mo, pos 9.5)",
+    "best flea treatments for cats (244/mo, pos 7.8)",
+    "best flea spray for home and furniture (82/mo, pos 5.1)",
+    "flea spray for furniture (58/mo, pos 9.4)"
+   ]
+  },
+  {
+   "page": "/blog/mosquito-season-gta-when-does-it-start",
+   "clicks_mo": 65,
+   "impr_mo": 5811,
+   "pos": 4.3,
+   "ctr_pct": 1.11,
+   "sd_impr_mo": 1116,
+   "sd_ctr_pct": 0.39,
+   "gain_low": 24,
+   "gain_mid": 40,
+   "gain_high": 63,
+   "us_impr_mo": 646,
+   "us_sd_impr_mo": 534,
+   "top_queries": [
+    "mosquito season ontario (111/mo, pos 4.7)",
+    "when do mosquitoes come out (102/mo, pos 4.6)",
+    "when do mosquitoes go away (87/mo, pos 7.5)",
+    "when does mosquito season end (75/mo, pos 3.8)"
+   ]
+  },
+  {
+   "page": "/blog/deer-tick-vs-dog-tick-canada",
+   "clicks_mo": 3,
+   "impr_mo": 1322,
+   "pos": 8.9,
+   "ctr_pct": 0.23,
+   "sd_impr_mo": 1012,
+   "sd_ctr_pct": 0.07,
+   "gain_low": 25,
+   "gain_mid": 40,
+   "gain_high": 60,
+   "us_impr_mo": 34,
+   "us_sd_impr_mo": 23,
+   "top_queries": [
+    "deer tick vs dog tick (363/mo, pos 8.4)",
+    "dog tick vs deer tick (280/mo, pos 8.3)",
+    "dog vs deer tick (33/mo, pos 6.6)",
+    "deer vs dog tick (30/mo, pos 7.6)"
+   ]
+  }
+ ],
+ "striking_distance_totals": {
+  "pages": 481,
+  "impressions_per_month_at_pos_4_20": 341447,
+  "gain_if_all_reach_top3": {
+   "low": 5851,
+   "mid": 10955,
+   "high": 17765
+  },
+  "top30": {
+   "low": 3496,
+   "mid": 6582,
+   "high": 10693
+  },
+  "top60": {
+   "low": 4630,
+   "mid": 8631,
+   "high": 13962
+  },
+  "ctr_targets": {
+   "low": 0.025,
+   "mid": 0.04,
+   "high": 0.06
+  },
+  "note": "page x query rows are pruned by Search Console; use for ranking pages, not totals. Gains assume every listed query reaches the top 3, which is the ceiling, not the forecast."
+ },
+ "us_editions_candidates": [
+  {
+   "page": "/blog/deer-flies-horse-flies-ontario",
+   "us_impr_aug": 404,
+   "us_clicks_aug": 2,
+   "us_pos_aug": 5.3,
+   "us_impr_mo_90d_join": 496,
+   "all_clicks_mo": 35,
+   "all_impr_mo": 7348,
+   "neutral_slug": "/blog/deer-flies-horse-flies",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/baby-ticks-nymphs-seed-ticks-ontario",
+   "us_impr_aug": 184,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 10.3,
+   "us_impr_mo_90d_join": 335,
+   "all_clicks_mo": 12,
+   "all_impr_mo": 2871,
+   "neutral_slug": "/blog/baby-ticks-nymphs-seed-ticks",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bed-bug-shells-casings-shed-skins-canada",
+   "us_impr_aug": 173,
+   "us_clicks_aug": 1,
+   "us_pos_aug": 11.2,
+   "us_impr_mo_90d_join": 84,
+   "all_clicks_mo": 14,
+   "all_impr_mo": 2379,
+   "neutral_slug": "/blog/bed-bug-shells-casings-shed-skins",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bed-bug-stains-poop-droppings-canada",
+   "us_impr_aug": 172,
+   "us_clicks_aug": 2,
+   "us_pos_aug": 15,
+   "us_impr_mo_90d_join": 132,
+   "all_clicks_mo": 55,
+   "all_impr_mo": 4871,
+   "neutral_slug": "/blog/bed-bug-stains-poop-droppings",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/black-flies-ontario-when-they-come-out",
+   "us_impr_aug": 172,
+   "us_clicks_aug": 2,
+   "us_pos_aug": 7.8,
+   "us_impr_mo_90d_join": 161,
+   "all_clicks_mo": 123,
+   "all_impr_mo": 13686,
+   "neutral_slug": "/blog/black-flies-when-they-come-out",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mosquito-repellent-plants-ontario",
+   "us_impr_aug": 170,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 2.8,
+   "us_impr_mo_90d_join": 130,
+   "all_clicks_mo": 15,
+   "all_impr_mo": 2287,
+   "neutral_slug": "/blog/mosquito-repellent-plants",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/do-fire-pits-repel-mosquitoes-canada",
+   "us_impr_aug": 41,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 9.5,
+   "us_impr_mo_90d_join": 43,
+   "all_clicks_mo": 1,
+   "all_impr_mo": 1024,
+   "neutral_slug": "/blog/do-fire-pits-repel-mosquitoes",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bed-bug-mattress-encasement-canada",
+   "us_impr_aug": 37,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 5.3,
+   "us_impr_mo_90d_join": 39,
+   "all_clicks_mo": 35,
+   "all_impr_mo": 3728,
+   "neutral_slug": "/blog/bed-bug-mattress-encasement",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/what-ticks-look-like-ontario",
+   "us_impr_aug": 32,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 9.7,
+   "us_impr_mo_90d_join": 3,
+   "all_clicks_mo": 42,
+   "all_impr_mo": 2818,
+   "neutral_slug": "/blog/what-ticks-look-like",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/citronella-candles-canada-do-they-work",
+   "us_impr_aug": 26,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 5.9,
+   "us_impr_mo_90d_join": 55,
+   "all_clicks_mo": 6,
+   "all_impr_mo": 1217,
+   "neutral_slug": "/blog/citronella-candles-do-they-work",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mosquito-coils-canada",
+   "us_impr_aug": 26,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 10.3,
+   "us_impr_mo_90d_join": 49,
+   "all_clicks_mo": 7,
+   "all_impr_mo": 1771,
+   "neutral_slug": "/blog/mosquito-coils",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/lyme-disease-risk-areas-ontario-2026",
+   "us_impr_aug": 21,
+   "us_clicks_aug": 1,
+   "us_pos_aug": 6.8,
+   "us_impr_mo_90d_join": 19,
+   "all_clicks_mo": 48,
+   "all_impr_mo": 1692,
+   "neutral_slug": "/blog/lyme-disease-risk-areas-2026",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-centipedes-canada",
+   "us_impr_aug": 21,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 14.7,
+   "us_impr_mo_90d_join": 45,
+   "all_clicks_mo": 41,
+   "all_impr_mo": 6088,
+   "neutral_slug": "/blog/how-to-get-rid-of-centipedes",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mosquito-repellent-guide-ontario-2026",
+   "us_impr_aug": 20,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 4.3,
+   "us_impr_mo_90d_join": 126,
+   "all_clicks_mo": 103,
+   "all_impr_mo": 4528,
+   "neutral_slug": "/blog/mosquito-repellent-guide-2026",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mosquito-repellent-bracelets-canada",
+   "us_impr_aug": 18,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 15,
+   "us_impr_mo_90d_join": 46,
+   "all_clicks_mo": 14,
+   "all_impr_mo": 1537,
+   "neutral_slug": "/blog/mosquito-repellent-bracelets",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/no-see-ums-biting-midges-ontario",
+   "us_impr_aug": 18,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 16.1,
+   "us_impr_mo_90d_join": 327,
+   "all_clicks_mo": 99,
+   "all_impr_mo": 5740,
+   "neutral_slug": "/blog/no-see-ums-biting-midges",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/are-ticks-dangerous-ontario",
+   "us_impr_aug": 16,
+   "us_clicks_aug": 1,
+   "us_pos_aug": 5.8,
+   "us_impr_mo_90d_join": 23,
+   "all_clicks_mo": 63,
+   "all_impr_mo": 1853,
+   "neutral_slug": "/blog/are-ticks-dangerous",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/doktor-doom-canada-guide",
+   "us_impr_aug": 13,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 5.6,
+   "us_impr_mo_90d_join": 5,
+   "all_clicks_mo": 13,
+   "all_impr_mo": 1542,
+   "neutral_slug": "/blog/doktor-doom-guide",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-cockroaches-canada",
+   "us_impr_aug": 13,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 8.4,
+   "us_impr_mo_90d_join": 6,
+   "all_clicks_mo": 20,
+   "all_impr_mo": 2531,
+   "neutral_slug": "/blog/how-to-get-rid-of-cockroaches",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/tick-season-ontario-when-are-ticks-active",
+   "us_impr_aug": 13,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 2.5,
+   "us_impr_mo_90d_join": 9,
+   "all_clicks_mo": 18,
+   "all_impr_mo": 2366,
+   "neutral_slug": "/blog/tick-season-when-are-ticks-active",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/rat-poison-canada-what-is-legal",
+   "us_impr_aug": 12,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 19.3,
+   "us_impr_mo_90d_join": 18,
+   "all_clicks_mo": 78,
+   "all_impr_mo": 3354,
+   "neutral_slug": "/blog/rat-poison-what-is-legal",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/tick-prevention-yard-ontario-safe-for-kids",
+   "us_impr_aug": 12,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 3.8,
+   "us_impr_mo_90d_join": 4,
+   "all_clicks_mo": 3,
+   "all_impr_mo": 298,
+   "neutral_slug": "/blog/tick-prevention-yard-safe-for-kids",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada",
+   "us_impr_aug": 11,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 3.2,
+   "us_impr_mo_90d_join": 4,
+   "all_clicks_mo": 1,
+   "all_impr_mo": 173,
+   "neutral_slug": "/blog/how-to-get-rid-of-bed-bugs-yourself-diy",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/natural-eco-friendly-mosquito-control-ontario",
+   "us_impr_aug": 11,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 53.4,
+   "us_impr_mo_90d_join": 4,
+   "all_clicks_mo": 3,
+   "all_impr_mo": 290,
+   "neutral_slug": "/blog/natural-eco-friendly-mosquito-control",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bed-bug-heat-treatment-diy-canada",
+   "us_impr_aug": 9,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 21.1,
+   "us_impr_mo_90d_join": 10,
+   "all_clicks_mo": 10,
+   "all_impr_mo": 667,
+   "neutral_slug": "/blog/bed-bug-heat-treatment-diy",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-kill-bed-bug-eggs-canada",
+   "us_impr_aug": 9,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 27.8,
+   "us_impr_mo_90d_join": 16,
+   "all_clicks_mo": 0,
+   "all_impr_mo": 313,
+   "neutral_slug": "/blog/how-to-kill-bed-bug-eggs",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/lone-star-tick-alpha-gal-canada",
+   "us_impr_aug": 9,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 9.3,
+   "us_impr_mo_90d_join": 12,
+   "all_clicks_mo": 6,
+   "all_impr_mo": 1149,
+   "neutral_slug": "/blog/lone-star-tick-alpha-gal",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/ultimate-tick-control-guide-ontario",
+   "us_impr_aug": 9,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 9.6,
+   "us_impr_mo_90d_join": 2,
+   "all_clicks_mo": 5,
+   "all_impr_mo": 804,
+   "neutral_slug": "/blog/ultimate-tick-control-guide",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/motion-activated-sprinkler-canada",
+   "us_impr_aug": 8,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 4.6,
+   "us_impr_mo_90d_join": 43,
+   "all_clicks_mo": 43,
+   "all_impr_mo": 2926,
+   "neutral_slug": "/blog/motion-activated-sprinkler",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/pantry-moth-traps-canada",
+   "us_impr_aug": 8,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 12.6,
+   "us_impr_mo_90d_join": 5,
+   "all_clicks_mo": 4,
+   "all_impr_mo": 704,
+   "neutral_slug": "/blog/pantry-moth-traps",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/what-does-mouse-poop-look-like-canada",
+   "us_impr_aug": 8,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 12.9,
+   "us_impr_mo_90d_join": 7,
+   "all_clicks_mo": 16,
+   "all_impr_mo": 5749,
+   "neutral_slug": "/blog/what-does-mouse-poop-look-like",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bed-bug-interceptor-traps-canada",
+   "us_impr_aug": 7,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 6.3,
+   "us_impr_mo_90d_join": 4,
+   "all_clicks_mo": 14,
+   "all_impr_mo": 1183,
+   "neutral_slug": "/blog/bed-bug-interceptor-traps",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/carpenter-ants-canada",
+   "us_impr_aug": 7,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 11.7,
+   "us_impr_mo_90d_join": 10,
+   "all_clicks_mo": 16,
+   "all_impr_mo": 1841,
+   "neutral_slug": "/blog/carpenter-ants",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/what-kills-bed-bugs-instantly-canada",
+   "us_impr_aug": 5,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 21.8,
+   "us_impr_mo_90d_join": 6,
+   "all_clicks_mo": 12,
+   "all_impr_mo": 2520,
+   "neutral_slug": "/blog/what-kills-bed-bugs-instantly",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-mosquitoes-in-yard-ontario",
+   "us_impr_aug": 4,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 5,
+   "us_impr_mo_90d_join": 30,
+   "all_clicks_mo": 6,
+   "all_impr_mo": 758,
+   "neutral_slug": "/blog/how-to-get-rid-of-mosquitoes-in-yard",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-rats-canada",
+   "us_impr_aug": 4,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 1.8,
+   "us_impr_mo_90d_join": 10,
+   "all_clicks_mo": 5,
+   "all_impr_mo": 695,
+   "neutral_slug": "/blog/how-to-get-rid-of-rats",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bed-bug-treatment-cost-canada",
+   "us_impr_aug": 3,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 9.3,
+   "us_impr_mo_90d_join": 7,
+   "all_clicks_mo": 2,
+   "all_impr_mo": 766,
+   "neutral_slug": "/blog/bed-bug-treatment-cost",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/fall-yard-cleanup-leaf-blower-canada",
+   "us_impr_aug": 3,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 11.3,
+   "us_impr_mo_90d_join": 10,
+   "all_clicks_mo": 0,
+   "all_impr_mo": 56,
+   "neutral_slug": "/blog/fall-yard-cleanup-leaf-blower",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-much-does-tick-treatment-cost-ontario",
+   "us_impr_aug": 3,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 29.7,
+   "us_impr_mo_90d_join": 4,
+   "all_clicks_mo": 4,
+   "all_impr_mo": 195,
+   "neutral_slug": "/blog/how-much-does-tick-treatment-cost",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada",
+   "us_impr_aug": 3,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 17.3,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 1,
+   "all_impr_mo": 129,
+   "neutral_slug": "/blog/how-to-get-rid-of-bed-bugs-in-apartment",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/levoit-vs-coway-air-purifier-canada",
+   "us_impr_aug": 3,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 6,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 2,
+   "all_impr_mo": 211,
+   "neutral_slug": "/blog/levoit-vs-coway-air-purifier",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/heat-vs-chemical-bed-bug-treatment-canada",
+   "us_impr_aug": 2,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 59.5,
+   "us_impr_mo_90d_join": 0,
+   "all_clicks_mo": 2,
+   "all_impr_mo": 259,
+   "neutral_slug": "/blog/heat-vs-chemical-bed-bug-treatment",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/how-to-keep-ticks-out-of-yard-ontario",
+   "us_impr_aug": 2,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 3,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 1,
+   "all_impr_mo": 229,
+   "neutral_slug": "/blog/how-to-keep-ticks-out-of-yard",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mosquito-repellent-stickers-patches-canada",
+   "us_impr_aug": 2,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 8,
+   "us_impr_mo_90d_join": 5,
+   "all_clicks_mo": 3,
+   "all_impr_mo": 796,
+   "neutral_slug": "/blog/mosquito-repellent-stickers-patches",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+   "us_impr_aug": 2,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 2,
+   "us_impr_mo_90d_join": 2,
+   "all_clicks_mo": 3,
+   "all_impr_mo": 342,
+   "neutral_slug": "/blog/raccoon-and-skunk-proofing-under-a-deck",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/tick-bite-symptoms-what-to-do-ontario",
+   "us_impr_aug": 2,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 1.5,
+   "us_impr_mo_90d_join": 8,
+   "all_clicks_mo": 2,
+   "all_impr_mo": 194,
+   "neutral_slug": "/blog/tick-bite-symptoms-what-to-do",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/tick-tubes-canada",
+   "us_impr_aug": 2,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 10,
+   "us_impr_mo_90d_join": 7,
+   "all_clicks_mo": 2,
+   "all_impr_mo": 336,
+   "neutral_slug": "/blog/tick-tubes",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/bug-protective-clothing-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 11,
+   "us_impr_mo_90d_join": 15,
+   "all_clicks_mo": 3,
+   "all_impr_mo": 323,
+   "neutral_slug": "/blog/bug-protective-clothing",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/diy-outdoor-misting-system-kit-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 1,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 1,
+   "all_impr_mo": 48,
+   "neutral_slug": "/blog/diy-outdoor-misting-system-kit",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/misting-fan-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 4,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 4,
+   "all_impr_mo": 359,
+   "neutral_slug": "/blog/misting-fan",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mouse-bait-station-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 11,
+   "us_impr_mo_90d_join": 28,
+   "all_clicks_mo": 23,
+   "all_impr_mo": 1716,
+   "neutral_slug": "/blog/mouse-bait-station",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/mouse-proof-garage-door-seal-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 42,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 8,
+   "all_impr_mo": 351,
+   "neutral_slug": "/blog/mouse-proof-garage-door-seal",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/outdoor-fan-mosquito-control-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 9,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 1,
+   "all_impr_mo": 95,
+   "neutral_slug": "/blog/outdoor-fan-mosquito-control",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/packtite-vs-zappbug-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 5,
+   "us_impr_mo_90d_join": 1,
+   "all_clicks_mo": 2,
+   "all_impr_mo": 35,
+   "neutral_slug": "/blog/packtite-vs-zappbug",
+   "us_edition_exists_or_planned": false
+  },
+  {
+   "page": "/blog/patio-misting-system-canada",
+   "us_impr_aug": 1,
+   "us_clicks_aug": 0,
+   "us_pos_aug": 2,
+   "us_impr_mo_90d_join": 2,
+   "all_clicks_mo": 3,
+   "all_impr_mo": 147,
+   "neutral_slug": "/blog/patio-misting-system",
+   "us_edition_exists_or_planned": false
+  }
+ ],
+ "us_editions_already_existing_or_planned": [
+  "/blog/how-to-get-rid-of-ground-wasps-canada",
+  "/blog/how-to-get-rid-of-wasps-canada",
+  "/blog/how-to-get-rid-of-fruit-flies-canada",
+  "/blog/natural-mosquito-repellent-ontario",
+  "/blog/bed-bug-heater-canada",
+  "/blog/mosquito-repellent-for-dogs-canada",
+  "/blog/raccoon-deterrent-canada",
+  "/blog/baby-bed-bugs-nymphs-canada",
+  "/blog/bugs-that-look-like-bed-bugs-canada",
+  "/blog/june-bugs-ontario",
+  "/blog/deer-tick-vs-dog-tick-canada",
+  "/blog/how-to-get-rid-of-boxelder-bugs-canada",
+  "/blog/mosquito-net-canada",
+  "/blog/how-to-get-rid-of-mice-canada",
+  "/blog/how-to-get-rid-of-silverfish-canada",
+  "/blog/how-to-get-rid-of-carpet-beetles-canada",
+  "/blog/how-to-get-rid-of-drain-flies-canada",
+  "/blog/what-percentage-of-ticks-carry-lyme-ontario",
+  "/blog/how-to-get-rid-of-cluster-flies-canada",
+  "/blog/ontario-tick-surge-2026"
+ ],
+ "plan_july_2027": {
+  "unit": "Google clicks in July 2027 (Search Console definition), low / middle / high",
+  "steps": [
+   {
+    "step": 1,
+    "what": "Everything already planned (owner forecast, middle)",
+    "low": 17000,
+    "mid": 17000,
+    "high": 17000,
+    "note": "taken as given; its own uncertainty is not added here"
+   },
+   {
+    "step": 2,
+    "what": "Push the 60 existing pages with the most position 4-20 impressions into the top 3",
+    "low": 1400,
+    "mid": 3500,
+    "high": 7000,
+    "method": "top-60 ceiling 4,630 / 8,631 / 13,962 (CTR 2.5/4/6% at top 3) x success rate 30/40/50%"
+   },
+   {
+    "step": 3,
+    "what": "Click-through upgrades on existing pages (photo-ID titles and photos, same positions)",
+    "low": 1500,
+    "mid": 3000,
+    "high": 5000,
+    "method": "site CTR +0.1 / +0.2 / +0.33 points on ~1.5M July impressions; may overlap with step 2; read the Oct 15-16 upgrades on Oct 29-30 first"
+   },
+   {
+    "step": 4,
+    "what": "500 new US pages beyond the plan, Nov 1 - Mar 15, only on topics where a DR<=30 page already ranks top 5",
+    "low": 6000,
+    "mid": 12500,
+    "high": 30000,
+    "method": "500 pages x 12 / 25 / 60 clicks per page in July (site median new page 12; July-2026 cohort mean 40 in season; comparable blogs 70-130 per page, Ahrefs x1.1)"
+   },
+   {
+    "step": 5,
+    "what": "Links: 150-250 dofollow referring domains from real sites (DR 20+) by April",
+    "low": 0,
+    "mid": 0,
+    "high": 0,
+    "note": "not added separately: it is what moves step 4 from the middle to the high yield and steps 2-3 toward their high values"
+   },
+   {
+    "step": 6,
+    "what": "US editions of the ~12 Canadian informational pages with US impressions and no US edition",
+    "low": 100,
+    "mid": 300,
+    "high": 600
+   }
+  ],
+  "totals": {
+   "low": 26000,
+   "mid": 36300,
+   "high": 59600
+  },
+  "pages_needed_for_50k": {
+   "after_steps_2_3_6_mid": 26200,
+   "at_25_per_page": 1050,
+   "at_40_per_page": 655,
+   "at_60_per_page": 440
+  },
+  "verdict": "50K by July 2027 is reachable only in the high case (new US pages performing like the small pest-company blogs that already do it, which needs both volume and links). The realistic middle is about 36K. The single biggest lever is the number of US identification pages that reach Google top 3.",
+  "timing": {
+   "ramp_by_page_age": {
+    "<30d": 0.1,
+    "30-60d": 0.35,
+    "60-90d": 0.65,
+    "90-120d": 0.85,
+    "120d+": 1
+   },
+   "new_pages_live_by": "2027-03-15 for >=85% of their July value",
+   "links_by": "2027-04-30",
+   "upgrades_by": "2027-04-30",
+   "build_rate": "25-35 extra pages a week Nov-Mar on top of the scheduled releases (~20 weeks)"
+  }
+ }
+}
