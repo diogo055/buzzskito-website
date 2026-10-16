@@ -1,0 +1,193 @@
+{
+  "slug": "how-to-get-rid-of-fleas",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "how to get rid of fleas",
+  "alsoTargets": [
+    "how to get rid of fleas in house",
+    "how to get rid of fleas in yard",
+    "fleas in house no pets",
+    "how to get rid of fleas fast",
+    "how to get rid of fleas on humans"
+  ],
+  "metaTitle": "How to Get Rid of Fleas in the House and Yard",
+  "metaDescription": "Confirm it is fleas, treat every pet with your vet, vacuum and wash bedding, use a labeled IGR spray where pets rest, and follow up for weeks.",
+  "h1": "How to Get Rid of Fleas in the House: The Order That Breaks the Life Cycle",
+  "dek": "Fleas live on the pet but breed in the house, so the order matters. How to confirm fleas, treat every pet with a veterinarian's help, clean, choose a labeled spray, handle the yard and follow up for weeks.",
+  "breadcrumb": "How to Get Rid of Fleas",
+  "excerpt": "Treat every pet, vacuum and wash bedding, use a labeled IGR spray where pets rest and follow up for weeks. The steps, the ingredients and the pet warnings.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Confirm it is fleas, then treat every pet in the home with a product your veterinarian recommends, vacuum and wash pet bedding, treat the house and yard only with products labeled for it, and keep vacuuming for weeks while new fleas leave their cocoons.** [The CDC](https://www.cdc.gov/fleas/getting-rid/index.html) says moderate to severe infestations take months to control.",
+    "bullets": [
+      "UC IPM describes the adult cat flea as no more than 1/8 inch long, reddish brown, wingless and flattened from side to side.",
+      "Black specks combed from a pet that turn red when wet are flea droppings: Ohio State identifies them as the blood-filled pellets of adult fleas.",
+      "EPA says never to put a dog product on a cat, and UC IPM says products containing permethrin or amitraz should never be applied to cats.",
+      "UC IPM says fleas keep emerging for about 2 weeks after a spray, because the spray does not kill the pupae in their cocoons.",
+      "Kentucky and Texas A&M extension focus yard treatment on where pets rest, such as doghouses, under decks and along the foundation, not on sunny lawns.",
+      "In a home with no pets, the University of Kentucky says raccoons, opossums, skunks or squirrels are often the source."
+    ]
+  },
+  "facts": {
+    "title": "Getting rid of fleas at a glance",
+    "rows": [
+      ["Confirm", "Black specks from the pet's coat that turn red when wet; fleas on white socks after walking where pets rest"],
+      ["Pets", "Treat every dog and cat at once, with a product your veterinarian recommends for its species, age and weight"],
+      ["Never on cats", "Dog products, and products containing permethrin or amitraz"],
+      ["Vacuum", "Daily or every other day, above all where pets rest, along room edges and under furniture"],
+      ["Wash", "Pet bedding in hot, soapy water at least once a week (UC IPM)"],
+      ["Home spray", "An adulticide plus an insect growth regulator (methoprene or pyriproxyfen), labeled for indoor flea control"],
+      ["Foggers", "Not recommended for fleas (Kentucky, Ohio State)"],
+      ["Yard", "Shaded spots where pets rest; pyriproxyfen, not methoprene, for an outdoor IGR (Texas A&M)"],
+      ["After treatment", "Fleas keep emerging for about 2 weeks (UC IPM) or a few weeks or longer (Kentucky)"],
+      ["How long", "Weeks; months for moderate to severe infestations (CDC)"],
+      ["No pets", "Wildlife in or under the house, a previous owner's pets, or fleas waiting in cocoons in a vacant home"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How do you get rid of fleas?" },
+    { "type": "p", "text": "Treat every pet and the house at the same time, then keep at it for weeks. [The CDC's guide to getting rid of fleas](https://www.cdc.gov/fleas/getting-rid/index.html) sets out four steps: clean the places where fleas breed, treat every pet in the home, begin treating the home at the same time as the pets, and follow up, because some stages of the flea's life cycle resist insecticides. It says moderate to severe infestations take months to control." },
+    { "type": "figure", "src": "/guides/photos/cat-flea-scale-bar.webp", "width": 1200, "height": 1215, "alt": "Magnified side view of a cat flea, a see-through amber insect with bristly segments and long, spiny hind legs, under a scale bar marked 3 mm", "caption": "A cat flea (Ctenocephalides felis) seen from the side, with a scale bar of 3 mm, about 1/8 inch. Look for the long hind legs it jumps with.", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25575" },
+    { "type": "p", "text": "The order matters because only the adults live on the animal. [The University of Florida's cat flea profile](https://ask.ifas.ufl.edu/publication/IN137) says the adult cat flea stays on its host, while the eggs fall easily out of the animal's hair. It calls removing fleas from the animal alone futile: to control an infestation, fleas must be removed from the pet, the home and the yard." },
+    { "type": "ol", "items": [
+      "**Confirm it is fleas:** comb the pet over a white sink and wet any black specks; flea droppings turn red.",
+      "**Treat every dog and cat at the same time as the house,** with a product your veterinarian recommends for that animal.",
+      "**Clean:** vacuum carpets, upholstery and pet resting spots, and wash pet bedding in hot, soapy water.",
+      "**Treat the house, and the yard only where pets rest,** with a product labeled for fleas there.",
+      "**Follow up:** keep vacuuming while new adults leave their cocoons, and repeat a treatment only as its label allows."
+    ] },
+
+    { "type": "h2", "text": "How do you know it is fleas?" },
+    { "type": "p", "text": "Find the insect or its droppings on the pet. [UC IPM's flea guide](https://ipm.ucanr.edu/home-and-landscape/fleas/) describes the adult cat flea as no more than 1/8 inch long, reddish brown, wingless and flattened from side to side, with one comb of spines on the head and another just behind it, and [Texas A&M AgriLife Extension's guide to managing fleas](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf) says its hind legs are adapted for jumping." },
+    { "type": "figure", "src": "/guides/photos/cat-flea.webp", "width": 1200, "height": 1085, "alt": "Side view of a female cat flea under magnification: an amber body lined with bristles, a comb of dark spines behind the head and long, spiny legs", "caption": "A female cat flea (Ctenocephalides felis), a preserved collection specimen, magnified. Look for the combs of dark spines on and just behind the head.", "credit": "Katja ZSM, CC BY-SA 3.0, via Wikimedia Commons", "license": "CC-BY-SA-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis_ZSM.jpg" },
+    { "type": "p", "text": "Check the pet first. [Ohio State University Extension's flea fact sheet](https://ohioline.osu.edu/factsheet/HYG-2081-11) suggests parting the fur at the shoulder blades and the base of the tail, or standing the pet in a large sink or tub and combing its back and sides. Black specks that fall off and turn red when wet are the blood-filled droppings of adult fleas, it says: the flea dirt that Texas A&M describes as a fine, reddish-black dust in pet fur and bedding." },
+    { "type": "figure", "src": "/guides/photos/flea-dirt.webp", "width": 931, "height": 643, "alt": "Magnified flea dirt: dark reddish-black pellets, many curled into C shapes, with smaller reddish crumbs on a pale, ribbed surface", "caption": "Flea dirt, the droppings of the cat flea (Ctenocephalides felis), magnified. Look for black specks like these that turn red when wet.", "credit": "Auguste Le Roux, CC BY 3.0, via Wikimedia Commons", "license": "CC-BY-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis_excr%C3%A9ments.jpg" },
+    { "type": "p", "text": "To check the house and yard, walk where pets rest in white socks pulled up high: [the University of Kentucky's flea control fact sheet](https://entomology.mgcafe.uky.edu/ef602) and UC IPM both say any fleas will show against the white. Kentucky says adults can jump up to about 6 inches high." },
+    { "type": "checklist", "title": "Five checks before you treat", "items": [
+      "**Size.** Against a ruler marked in inches, an adult cat flea is no more than about 1/8 inch long.",
+      "**Shape.** Narrow and flattened from side to side, with no wings.",
+      "**Movement.** It jumps with its long hind legs; it does not fly.",
+      "**Droppings.** Black specks combed from the coat turn red when wet.",
+      "**Place.** On pets and where they rest; a jumper near a drain or in a vegetable garden is more likely a look-alike."
+    ] },
+    { "type": "p", "text": "If the bug fails these checks, [the guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) sets springtails, young bed bugs, bird mites and others against a real flea. [What adult fleas look like](/blog/what-do-fleas-look-like) shows the insect on pets and people, and [the photo guide to flea eggs, larvae and flea dirt](/blog/flea-eggs) covers what fleas leave in carpet and bedding." },
+    { "type": "media", "needed": "Photo of a fine-toothed flea comb pulled through a dog's or cat's coat over a white sink, with adult fleas and black flea dirt caught in its teeth, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "Why does it take weeks to get rid of fleas?" },
+    { "type": "p", "text": "Because the next generation is already in the house, and its cocoons shield it from insecticides. Kentucky says the eggs soon fall off the pet into carpeting and beneath furniture cushions, where the larvae hide beneath carpet fibers and feed mainly on the dried blood adult fleas pass; Texas A&M describes the larvae as legless, dirty white and under 1/4 inch long." },
+    { "type": "p", "text": "The cycle can run in about 18 days at normal room temperature, UC IPM says, or a usual 30 to 75 days by the University of Florida's figure, depending on temperature and humidity. The cocoon is where control stalls: Kentucky says pupae normally stay inside for 1 to 4 weeks, longer in unfavorable conditions such as a vacant home, and calls the cocoon impervious to insecticides. UC IPM says fully formed fleas can wait in their cocoons for up to 12 months when it is cool, until warmth or the pressure of feet or a vacuum brings them out." },
+    { "type": "figure", "src": "/guides/photos/flea-egg-and-larva.webp", "width": 624, "height": 832, "alt": "Microscope view of a smooth, pale, oval flea egg beside a long, segmented, whitish flea larva with brownish patches inside, on a dark background", "caption": "A first-stage cat flea (Ctenocephalides felis) larva beside a flea egg, under a microscope. Look for the egg's smooth oval shape and the larva's pale, legless body.", "credit": "Auguste Le Roux, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis,_L1..JPG" },
+    { "type": "table", "head": ["Stage", "Where it is", "How long it lasts", "What reaches it"], "rows": [
+      ["Adult", "On the pet; adult cat fleas stay on their host", "About 30 to 40 days (UC IPM); 4 to 25 days (University of Florida)", "A pet product chosen with a veterinarian, a soap bath, a home spray's adulticide"],
+      ["Egg", "Falls from the fur into carpet, bedding and furniture", "Hatches in 2 to 14 days, depending on the source", "Vacuuming, washing bedding, an insect growth regulator (IGR)"],
+      ["Larva", "In carpet and pet bedding; outdoors, moist shade near where pets rest", "5 to 15 days; up to several months (Ohio State)", "Vacuuming and an IGR; outdoors, sun and dry soil"],
+      ["Pupa (cocoon)", "In carpet and bedding, coated with debris", "Usually 1 to 4 weeks (Kentucky); up to 12 months when cool (UC IPM)", "Little: vacuuming and footsteps bring adults out onto treated surfaces"]
+    ], "caption": "Sources: University of Florida, UC IPM, Ohio State, University of Kentucky and Texas A&M, each linked in the text." },
+    { "type": "media", "needed": "Magnified photo of cat flea cocoons tangled in carpet fibers, the silk coated with lint and pet hair, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "How do you treat fleas on dogs and cats?" },
+    { "type": "p", "text": "Treat every dog and cat in the home with a product chosen with your veterinarian and labeled for that animal's species, age and weight, whether a spot-on, a chewable or oral tablet, a collar, a shampoo or a spray. The CDC says every pet in the home must be treated, and [FDA's guide to flea and tick products](https://www.fda.gov/consumers/consumer-updates/safe-use-flea-and-tick-products-pets) strongly recommends involving your veterinarian in the choice. [Health Canada's flea page](https://www.canada.ca/en/health-canada/services/pest-control-tips/fleas.html) notes that veterinarians can prescribe products that are not sold over the counter." },
+    { "type": "callout", "tone": "warning", "title": "Never use a dog product on a cat", "text": "[EPA's advice on flea and tick products for pets](https://www.epa.gov/pets/controlling-fleas-and-ticks-your-pet) is to never apply dog products to cats, or the reverse, because some pesticides are more toxic to one species than another, and to use a product only on the species and weight its label names. UC IPM says products containing permethrin or amitraz should never be applied to cats, and FDA says to keep a treated animal apart from other pets until the product dries." },
+    { "type": "p", "text": "Read the label every time, since FDA says directions or warnings may have changed. FDA and EPA say not to treat kittens or puppies unless the label allows it, and FDA says to talk to your veterinarian before treating a pet that is weak, old, medicated, sick, pregnant or nursing." },
+    { "type": "p", "text": "A soap bath and a flea comb deal with the adults on the animal: the CDC says soap acts as a gentle insecticide that kills adult fleas, and recommends combing afterward with attention to the face, neck and the area in front of the tail. Combing alone removes only 10 to 60 percent of the fleas, the University of Florida says." },
+    { "type": "p", "text": "Watch the pet afterward. FDA lists dizziness, wobbliness, incoordination, poor appetite, depression, vomiting, diarrhea and excessive salivation as signs to look for, and says to call your veterinarian right away after a bad reaction and to remove a flea collar at once if it is the cause. EPA says to bathe a reacting pet immediately with mild soap, rinse with large amounts of water and contact your veterinarian or the National Pesticide Information Center at 1-800-858-7378 right away." },
+    { "type": "p", "text": "Protect people too: FDA says to wash your hands after applying a product, or wear gloves, and to keep products out of children's reach, and EPA notes that pesticides on a pet can be transferred to children. [Pest control around cats and dogs](/learn/pet-safe-pest-control) covers these risks product by product." },
+
+    { "type": "h2", "text": "How do you clean the house to get rid of fleas?" },
+    { "type": "p", "text": "Vacuum often and wash pet bedding weekly, starting the day you treat the pets. UC IPM recommends vacuuming floors, rugs, carpets, upholstered furniture and the crevices along baseboards daily or every other day, and washing pet bedding in hot, soapy water at least once a week; Ohio State says every other day, with a beater-bar vacuum where the pet rests and sleeps." },
+    { "type": "p", "text": "Vacuuming does three jobs. It removes eggs and larvae (Texas A&M says up to 60 percent of the eggs and 30 percent of the larvae in a carpet) along with the dried blood the larvae eat. It lifts the carpet pile so a spray reaches deeper, Kentucky and Ohio State note. And Kentucky says it stimulates fleas to leave their insecticide-resistant cocoons sooner, so they meet the treatment. The University of Florida is less optimistic, saying vacuuming removes only eggs and larval food because larvae curl around carpet fibers and cocoons stick to the carpet." },
+    { "type": "p", "text": "Spend the most time where pets rest. UC IPM says indoor flea numbers are highest where pets regularly sleep, and Ohio State cites research showing that a pet's favorite resting spots hold the most eggs, larvae and pupae even after vacuuming. Kentucky adds the edges of rooms and the space beneath furniture, cushions, beds and throw rugs." },
+    { "type": "p", "text": "Empty the vacuum into an outdoor bin, as Kentucky and Texas A&M advise, so fleas do not emerge from it. When washing bedding, Health Canada suggests lifting blankets by all four corners so eggs and larvae do not scatter." },
+    { "type": "p", "text": "For any spray, Kentucky's fact sheet lists these steps:" },
+    { "type": "ul", "items": [
+      "Pick up toys, clothing and stored items from floors, under beds and in closets.",
+      "Remove pet food and water dishes, cover fish tanks and disconnect their aerators.",
+      "Wash the pet bedding, then vacuum.",
+      "Keep people and pets off treated surfaces until the spray has dried."
+    ] },
+
+    { "type": "h2", "text": "Which flea sprays work in the house?" },
+    { "type": "p", "text": "The ones that work combine an adulticide, which kills the biting adults, with an insect growth regulator (IGR), which stops eggs and larvae from developing, in a product labeled for indoor flea control. Kentucky names permethrin, imidacloprid and dinotefuran as adult-killing ingredients in the most effective home products and methoprene and pyriproxyfen as IGRs; Ohio State says indoor products that work usually pair a quick-acting pyrethroid with an IGR." },
+    { "type": "p", "text": "With an IGR, Texas A&M explains, eggs fail to hatch, larvae die before they finish developing and adults cannot reproduce, but because most IGRs kill only eggs and larvae, they are usually mixed with a mild contact insecticide; the University of Florida agrees that IGRs do not kill adult fleas. Texas A&M also cautions that some pets, especially certain cat breeds, are sensitive to plant-based insecticides, citrus oil products in particular." },
+    { "type": "p", "text": "Treat where fleas develop. Kentucky lists carpets, throw rugs, under and behind beds and furniture, and beneath the sofa cushions pets sleep on, and Texas A&M says to target pet sleeping areas and to make sure the product can be used indoors." },
+    { "type": "p", "text": "The label is the law. [EPA's introduction to pesticide labels](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) explains that pesticide labels, unlike most product labels, are legally enforceable, and that using a product in a manner inconsistent with its labeling violates federal law. Use a flea spray only where its label allows, at its rate, and repeat it only as the label permits. Kentucky warns never to treat a pet with a product used on carpets or the yard, and that some of the pesticides it names may not be legal everywhere." },
+    { "type": "p", "text": "In Canada, Health Canada says to look for a Pest Control Products (PCP) number on the label, which shows the product was assessed and registered by the Government of Canada. A separate guide compares [the home flea sprays sold in Canada](/blog/best-flea-spray-for-home-canada) and the insect growth regulators in them." },
+    { "type": "p", "text": "Skip the fogger. Kentucky does not recommend total-release foggers, often called bug bombs, for fleas: the insecticide goes up into the air and often misses hidden areas, and the ingredients may be flammable near an open flame. Ohio State says the vapors seldom reach where larvae and pupae live. A separate guide looks at [what flea bombs can and cannot reach](/blog/best-flea-bomb-canada)." },
+
+    { "type": "h2", "text": "What is the fastest way to get rid of fleas?" },
+    { "type": "p", "text": "Do the pets and the house on the same day, then keep vacuuming for about two weeks; no single treatment clears every stage at once. Inside the home, UC IPM's plan for a flea emergency runs in this order:" },
+    { "type": "ol", "items": [
+      "Find the most heavily infested areas and concentrate there.",
+      "Wash throw rugs and the pet's bedding.",
+      "Vacuum upholstered furniture, beneath the cushions and in the cracks.",
+      "Vacuum the carpets, especially under furniture, then treat them with a hand sprayer and an insecticide containing an IGR, following its label.",
+      "Let the carpets dry, then vacuum again for the fleas the spray brings out.",
+      "Keep vacuuming for 10 days to 2 weeks as adults leave their cocoons."
+    ] },
+    { "type": "p", "text": "On the pet, UC IPM's plan calls for a spot-on or oral treatment, and its advice is to ask your veterinarian which product suits your situation. Kentucky says oral and chewable flea medications, which work through the pet's bloodstream, kill fleas within hours of being swallowed. In the house, UC IPM says fleas keep emerging for about 2 weeks after treatment because the spray does not kill pupae, and that with pets on spot-on or oral products you will rarely need to spray outdoors." },
+
+    { "type": "h2", "text": "How do you get rid of fleas in the yard?" },
+    { "type": "p", "text": "Treat only the shaded places where pets rest, and only if fleas are there. UC IPM says outdoor sprays are not necessary unless you find significant numbers of adult fleas and that it is seldom necessary to treat the whole yard; the University of Florida says outdoor treatment is mainly for severe infestations and may not be needed once fleas are controlled on the pet and in the home." },
+    { "type": "p", "text": "The larvae explain why. Texas A&M says relative humidity below 50 percent or soil temperatures above 95°F kill flea larvae, which are found in moist, shaded spots near pet resting areas, and that well-kept lawns in sunny sites most likely need no treatment. Kentucky lists doghouse and kennel areas, along fences, under decks and next to the foundation; Texas A&M adds the ground under shrubbery, and the CDC says to focus on shady areas and where pets spend the most time." },
+    { "type": "p", "text": "Use a product labeled for fleas outdoors and check its active ingredient: Kentucky recommends an IGR such as pyriproxyfen, and Texas A&M explains that methoprene is not stable in sunlight and cannot be used outdoors, while pyriproxyfen can. Its outdoor list also includes bifenthrin, permethrin, dinotefuran, prallethrin and acetamiprid. Keep people and pets off treated areas until they are completely dry, as Texas A&M advises." },
+    { "type": "p", "text": "Then make the yard less inviting: the CDC suggests mowing often, which exposes the soil to the sun fleas avoid, not overwatering and raking out debris." },
+
+    { "type": "h2", "text": "Why do you still see fleas after treatment?" },
+    { "type": "p", "text": "Because adults keep hatching from cocoons the treatment could not reach, so a few more weeks of fleas is expected. Kentucky says to expect some fleas for a few weeks or longer, often newly emerged adults that have not yet died from the insecticide, and to keep vacuuming instead of retreating right away." },
+    { "type": "p", "text": "The sources differ on when to treat again. The CDC calls for two or more follow-up treatments within 5 to 10 days of the first, and Texas A&M for a follow-up at 10 to 14 days, because pupae are hard to kill. UC IPM says not to treat again for at least several weeks, and Kentucky says retreating the home or pets may be necessary if adults are still seen after 4 weeks. Whichever schedule you follow, a repeat application has to stay within what the product's label allows." },
+    { "type": "p", "text": "Keep vacuuming and washing bedding throughout; the CDC says sanitation should continue to pick up the remaining eggs and young fleas. If fleas persist, Health Canada says to contact a licensed pest control operator, and Texas A&M suggests a pest management professional if you cannot get them under control. To keep them from coming back, the CDC advises treating pets for fleas year-round with a product your veterinarian recommends, and Ohio State calls regular, preventive treatment the most reliable way to keep pets free of fleas." },
+
+    { "type": "h2", "text": "Why are there fleas in a house with no pets?" },
+    { "type": "p", "text": "Usually wild animals or a previous owner's pets. Kentucky says that when no pets are present, raccoons, opossums, skunks or squirrels are often the culprit, such as a family of raccoons or opossums in the attic or chimney or a skunk or feral cat under the house. Texas A&M adds bats, rats and feral dogs and cats living under or around buildings, and infestations left by previous tenants' or owners' pets." },
+    { "type": "figure", "src": "/guides/photos/virginia-opossum.webp", "width": 1200, "height": 900, "alt": "A Virginia opossum on dry grass: shaggy gray fur, a white face with a pink nose, dark eyes, black ears and a bare tail", "caption": "A Virginia opossum (Didelphis virginiana). Look for signs of animals like this one living in the attic, the chimney or under the house.", "credit": "PookieFugglestein, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virginia_opossum_during_daytime.jpg" },
+    { "type": "p", "text": "Fleas can also be waiting. Texas A&M says adult fleas can stay semi-dormant in their pupal cases until a host comes by, which is why fleas can suddenly appear in numbers when new tenants move into a long-vacant home or apartment." },
+    { "type": "p", "text": "Deal with the animals first: Kentucky says a nuisance wildlife or pest control professional should remove them before the home is treated, and Texas A&M says wildlife has to be trapped and removed before a proper flea treatment. To keep animals away, [the CDC's flea prevention advice](https://www.cdc.gov/fleas/prevention/index.html) is to store food, including pet food, in tightly sealed containers, clear away brush and junk piles, seal holes rodents can use and keep tight lids on trash and compost." },
+
+    { "type": "h2", "text": "How do you get rid of fleas on humans?" },
+    { "type": "p", "text": "Treat the pets and the house: cat fleas, the usual fleas on dogs and cats in North America, do not normally live on people. Texas A&M says they bite people who handle or sleep with infested animals, and the CDC says most fleas in the US prefer animals but sometimes bite people, and calls keeping pets free of fleas the best way to prevent fleas on people." },
+    { "type": "p", "text": "While the house is being treated, cut down the bites. The CDC says flea bites often land on the lower legs and feet and suggests long socks and pants, plus an EPA-registered insect repellent containing DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol or 2-undecanone, used as its label directs; it says not to use oil of lemon eucalyptus or para-menthane-diol products on children under 3. Pet flea products are not for people: EPA says to use them only on the animal species their label names." },
+    { "type": "p", "text": "For the bites themselves, [what flea bites look like on people](/blog/flea-bites-on-humans) covers how to recognize and treat them, and [the bug bite identification chart](/learn/bug-bites) compares them with other bites." },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Press a suspect bug onto clear tape or seal it in a small jar, photograph it beside a ruler marked in inches, and note where you found it. A veterinarian can check a pet for fleas, and your state's cooperative extension office can help identify an insect you are not sure about." }
+  ],
+  "faqs": [
+    {
+      "question": "Does a soap bath kill fleas on a dog or cat?",
+      "answer": "It kills the adult fleas on the animal at that moment. The CDC says soap acts as a gentle insecticide on adult fleas and recommends bathing pets with soap and water, then combing them with a flea comb, paying careful attention to the face, neck and the area in front of the tail. A bath does not reach the eggs, larvae and cocoons in the house, so the CDC pairs it with a flea product chosen with a veterinarian and with treatment of the home. If the pet already has a spot-on product, UC IPM says most withstand bathing, but check the label."
+    },
+    {
+      "question": "Do indoor pets need flea treatment too?",
+      "answer": "Yes, when there are fleas in the home. The CDC says every pet in the home must be treated, which includes a cat that never goes outside. An untreated animal keeps the infestation going, because the University of Florida says adult cat fleas stay on their host and need fresh blood to produce eggs. Each pet needs a product labeled for its own species, age and weight. For rabbits, ferrets and other small pets, ask a veterinarian: EPA says no flea and tick products are marketed specifically for them, though FDA notes a few spot-on products for flea control in ferrets."
+    },
+    {
+      "question": "Can fleas live in your bed?",
+      "answer": "They can if a pet sleeps on it. The CDC says fleas can live in carpets, bedding and other surfaces in the home that pets frequent, and Ohio State says a pet's favorite resting places hold the most eggs, larvae and pupae. Cat fleas do not normally live on people, Texas A&M says, but they bite people who sleep with infested animals. Health Canada suggests washing pet and family bedding in hot, soapy water and lifting blankets by all four corners so eggs and larvae do not scatter, and the University of Kentucky's vacuuming list includes the space beneath beds."
+    },
+    {
+      "question": "Do natural flea remedies work?",
+      "answer": "Most have little evidence behind them. Texas A&M says there is little scientific evidence that garlic, brewer's yeast, cedar bedding or herbal sachets control fleas, and that tests show brewer's yeast does not protect pets; UC IPM says herbal collars and ultrasonic devices are not effective repellents. Plant-based insecticides such as pyrethrins and citrus oil extracts do kill fleas, Texas A&M says, but some pets, especially certain cat breeds, are sensitive to them. The University of Florida warns that pulegone, the active ingredient in pennyroyal oil, has dose-related toxicity to mammals and may cause vomiting, seizures and possibly death from liver failure."
+    },
+    {
+      "question": "How long can fleas survive in an empty house?",
+      "answer": "Hatched adults do not last long without a host, but fleas still in their cocoons can wait for months. Texas A&M says adult fleas without a host live only a few days to a few weeks, yet adults can also stay semi-dormant in the pupal case, which is why fleas can appear in numbers when new tenants move into a long-vacant home. UC IPM says fully formed fleas can stay in their cocoons for up to 12 months at cool temperatures and that warmth and footsteps or vacuuming bring them out, which is why vacuuming comes before and after any treatment."
+    },
+    {
+      "question": "Do hardwood floors need flea treatment?",
+      "answer": "Usually not, but they need vacuuming. The University of Kentucky's flea fact sheet says hardwood, tile and concrete floors generally do not need to be treated but should be vacuumed, and it focuses indoor treatment on carpets, throw rugs, under furniture and beneath the cushions pets sleep on, since flea larvae hide beneath carpet fibers. When vacuuming, Ohio State points to baseboards, floor cracks and carpet edges, where lint and pet hair collect, and Health Canada says to clean around cracks and crevices in floors and along baseboards."
+    }
+  ],
+  "sources": [
+    { "title": "Getting Rid of Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/getting-rid/index.html" },
+    { "title": "Preventing Fleas", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/prevention/index.html" },
+    { "title": "Fleas (Pest Notes, Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "Fleas (HYG-2081)", "publisher": "Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/HYG-2081-11" },
+    { "title": "Flea Control and Prevention (ENTFACT-602)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef602" },
+    { "title": "Managing Fleas (ENTO-PU-046)", "publisher": "Texas A&M AgriLife Extension", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf" },
+    { "title": "Cat Flea, Ctenocephalides felis (Bouché) (EENY-011)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN137" },
+    { "title": "Controlling Fleas and Ticks on Your Pet", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pets/controlling-fleas-and-ticks-your-pet" },
+    { "title": "Introduction to Pesticide Labels", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" },
+    { "title": "Safe Use of Flea and Tick Products in Pets", "publisher": "U.S. Food and Drug Administration", "url": "https://www.fda.gov/consumers/consumer-updates/safe-use-flea-and-tick-products-pets" },
+    { "title": "Fleas", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/services/pest-control-tips/fleas.html" }
+  ],
+  "disclaimer": "both"
+}
