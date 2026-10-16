@@ -248,6 +248,7 @@ export default function FleaBitesOnHumansPage() {
           </table>
         </div>
         <p>Two lookalikes are worth ruling out. If the bites appeared after a night&rsquo;s sleep and sit on your upper body, work through our <Link href="/blog/bed-bug-bites">bed bug bites guide</Link> &mdash; the mattress-seam inspection there settles it quickly. And if the ankle-clustered bites showed up after time in grass or brush rather than at home, <Link href="/blog/chigger-bites">chigger bites</Link> are the classic outdoor impostor: they also cluster at sock lines and waistbands, but chiggers stay outside and do not infest houses.</p>
+        <p>For anything that table leaves out, our guide to <Link href="/learn/bug-bites">bug bite pictures and clues</Link> sets flea bites beside no-see-um, tick and spider bites and bee, wasp and fire ant stings, sorted by pattern, place on the body and timing.</p>
 
         <h2 id="flea-or-bed-bug">How do you know if it&rsquo;s a flea bite or bed bug bite?</h2>
         <p><strong>Start with the height on your body.</strong> Flea bites sit below the knee in tight clusters and itch within minutes. Bed bug bites sit on skin left uncovered in bed &mdash; face, neck, shoulders, arms, hands &mdash; often run in a line of three or more, and the itch is commonly delayed by hours or days. Then confirm in the room, not on the skin.</p>
@@ -266,6 +267,7 @@ export default function FleaBitesOnHumansPage() {
         <h2 id="bite-from-a-flea">How do you tell if a bite is from a flea?</h2>
         <p><strong>Four features together, never one alone:</strong> a small firm bump about 1&ndash;3 mm across; a pale red halo around a tiny central puncture point; grouping in clusters or short lines of two to three; and placement on the ankles, shins, and calves. Add an itch that starts within minutes and an animal in the household, and fleas are the strong favourite.</p>
         <p>Everything after that is confirmation work in the environment rather than on your arm. The three tests that actually settle it &mdash; the flea comb over white paper, the wet-paper test that turns flea dirt reddish-brown, and the white-sock walk through carpeted rooms &mdash; take about five minutes and are laid out in full in the <a href="#home-flea-check">home flea check below</a>. A single plug-in light trap left running overnight turns &ldquo;I think it is fleas&rdquo; into a countable number by morning.</p>
+        <p>If the insect you catch does not quite match a flea, our guide to <Link href="/blog/bugs-that-look-like-fleas">bugs that look like fleas</Link> shows what a real flea looks like and the clues that set springtails, young bed bugs, carpet beetle larvae and the other usual look-alikes apart.</p>
         <p>Two false positives are worth knowing. Ankle-clustered bites picked up after time in long grass, leaf litter, or brush &mdash; and never repeated indoors &mdash; are usually <Link href="/blog/chigger-bites">chigger bites</Link>, which cluster at sock lines and waistbands but do not infest homes. Ankle bites acquired outdoors at dusk near water or damp soil, burning out of proportion to their size, point to <Link href="/blog/no-see-um-bites">no-see-ums</Link>. Neither breeds in your carpet, so neither produces the daily drip of fresh bites that defines a flea infestation.</p>
 
         <h2 id="bed-bug-identification">What do bed bugs look like &mdash; and which species is in your home?</h2>
@@ -375,6 +377,7 @@ export default function FleaBitesOnHumansPage() {
           alt="Flea dirt under magnification: dark reddish-brown, comma-shaped droppings of the cat flea"
           caption="Flea dirt: droppings of the adult cat flea, Ctenocephalides felis, magnified. Under a flea comb it shows up as black, pepper-like specks that turn reddish-brown on a damp paper towel."
         />
+        <p>Our guide to <Link href="/blog/flea-eggs">what flea eggs look like</Link> has photos of eggs, larvae and flea dirt, and shows how to tell the eggs from dandruff or sand.</p>
         <p>No pet? You can still have fleas. Wildlife hosts &mdash; squirrels, raccoons, feral cats &mdash; seed fleas near or under homes, and dormant pupae in an apartment can survive for months after a previous tenant&rsquo;s pets are gone, hatching in a wave when new occupants move in and supply warmth and vibration.</p>
 
         <h2 id="get-rid-of-fleas">How do you get rid of fleas at home?</h2>

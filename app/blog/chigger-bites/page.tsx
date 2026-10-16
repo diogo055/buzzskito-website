@@ -404,6 +404,7 @@ export default function ChiggerBitesPage() {
             </tbody>
           </table>
         </div>
+        <p>Our <Link href="/learn/bug-bites">bug bite identification chart</Link> puts the common bites and stings side by side, with photos, sorted by pattern, place on the body and timing.</p>
         <h3>Chigger bites vs flea bites &mdash; the closest call</h3>
         <p>This is the pair worth slowing down on, because both land on the ankles and both itch out of proportion to their size. Three things separate them. <strong>Distribution above the ankle:</strong> fleas rarely get past the lower legs, while chiggers keep climbing to the waistband, underwear line, and armpits. <strong>Persistence:</strong> a chigger crop appears once after one outdoor exposure and then stops; flea bites keep arriving day after day because the source is living in the house. <strong>Corroborating evidence:</strong> a pet scratching, and gritty black &ldquo;flea dirt&rdquo; in pet bedding, settle it immediately. Our <Link href="/blog/flea-bites-on-humans">flea bites on humans guide</Link> walks the indoor checklist; if the bites are arriving overnight instead, use the <Link href="/blog/bed-bug-bites">bed bug bites guide</Link>.</p>
         <Photo

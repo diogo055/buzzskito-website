@@ -444,6 +444,7 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
           />
           <p><strong>Larder beetles</strong> are larger, dark, and carry a pale band across the wing covers with a few dark spots in it, which is distinctive once you know to look for it. Their larvae are hairy and, like carpet beetle larvae, are often found near a dead animal in a wall void or a forgotten bag of pet food. They are also fond of chewing into wood or insulation to pupate, which is what turns them from a nuisance into a repair.</p>
           <p><strong>Drugstore and cigarette beetles</strong> are small, rounded, uniformly brown pantry beetles that fly to windows in numbers. If small brown ovals keep appearing near your kitchen window in summer, the search should be a pantry inventory rather than a mattress inspection: check flour, cereal, spices, dried pet food and birdseed, and discard anything with fine powder or webbing in it.</p>
+          <p>When the specimen is tiny and black, our guide to <Link href="/blog/tiny-black-bugs">tiny black bugs in the house</Link> sorts the likely suspects by where you found them, from the bed and the carpet to the pantry and the windowsill, with photos.</p>
 
           <RelatedLinks path="/blog/bugs-that-look-like-bed-bugs-canada" />
           <h2>Cockroach Nymphs, Fleas, Ticks and Clover Mites</h2>

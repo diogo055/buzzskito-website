@@ -177,6 +177,9 @@ export default function MosquitoBiteVsSpiderBitePage() {
           <p className="text-gray-700 leading-relaxed mb-4">
             If it is the spider side you want in detail &mdash; how a bite changes hour by hour, what a widow or recluse bite actually does, and the warning signs that mean go now &mdash; our stage-by-stage guide to <Link href="/blog/what-does-a-spider-bite-look-like" className="text-emerald-700 underline font-semibold">what a spider bite looks like</Link> covers it.
           </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            To identify the spider itself, our guide to <Link href="/blog/venomous-spiders" className="text-emerald-700 underline font-semibold">black widows and brown recluses in the US</Link> has photos of each and the features that identify them, with a state-by-state range table.
+          </p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Single vs multiple bites: what the number tells you</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -184,6 +187,9 @@ export default function MosquitoBiteVsSpiderBitePage() {
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
             A <strong>single</strong> bite is genuinely ambiguous &mdash; it could be one mosquito, one flea, a biting fly, or a spider. That is why you fall back on the other clues: did it hurt when it happened, is it just itchy or also painful, and is it improving or worsening? Even for single bites, spiders are far down the list &mdash; the CDC notes that most bites blamed on spiders turn out to be from other insects or a skin infection.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            If the count and the pattern point to something other than a mosquito or a spider, our <Link href="/learn/bug-bites" className="text-emerald-700 underline font-semibold">photo chart of common bug bites</Link> compares bed bug, flea, chigger, no-see-um and tick bites and bee, wasp and fire ant stings by pattern, place on the body and timing.
           </p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">When to worry about a bite (and when to see a doctor)</h2>

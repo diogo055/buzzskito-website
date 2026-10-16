@@ -464,6 +464,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
             alt="Thick, dark droppings with blunt, rounded ends lying on moss beside a thumb"
             caption="Droppings identified on iNaturalist as Norway rat, from the droppings alone, shown beside a thumb for size on moss in the Aleutian Islands, Alaska. Compared with a rice-sized mouse pellet, look for how much thicker these are and for their blunt, capsule-shaped ends."
           />
+          <p>If the droppings point to a rat, our US guide to <Link href="/blog/rat-vs-mouse">rat vs mouse identification</Link> compares the animals themselves by size, tail, ears and gnaw marks as well as droppings, with photos.</p>
           <p>One extra tell if you are still unsure: the surface. Fresh mouse pellets have a faint sheen and give slightly under a stick; old ones are matte grey and crumble to powder. Bat guano crumbles too, but into <em>glittering</em> specks, because it is made almost entirely of insect exoskeleton and it sparkles under a torch. That single difference &mdash; dull dust versus sparkling dust &mdash; separates two materials that look nearly identical intact.</p>
 
           <h2>Mouse Droppings in Inches and Millimetres &mdash; Every Size on This Page, Both Ways</h2>

@@ -63,6 +63,7 @@
       ["Narrow from side to side, hops", "Flea", "Laterally flat with powerful hind legs; a bed bug walks"],
       ["Eight legs", "Tick", "A bed bug has six"]
     ], "caption": "Clues from Colorado State University, the Connecticut Agricultural Experiment Station, NC State Extension and the EPA, each cited in the sections below." },
+    { "type": "p", "text": "If the bug you found is tiny and black, the guide to [identifying tiny black bugs](/blog/tiny-black-bugs) sorts the usual suspects by where you found it, with photos and sizes." },
 
     { "type": "h2", "text": "How do you tell a bat bug or swallow bug from a bed bug?" },
     { "type": "p", "text": "Usually only under magnification, because bat bugs and swallow bugs are red- or gray-brown and wingless like bed bugs, and the differences are in the hairs and the antennae. [Colorado State University's look-alike page](https://agsci.colostate.edu/agbio/ipm-pests/bed-bug-look-alikes) says the three share the color and the lack of wings, and it separates them by hair length and antennal segments." },
@@ -76,6 +77,7 @@
     { "type": "p", "text": "Carpet beetle larvae are hairy and segmented and lack both the flat shape and the distinct head of a bed bug. The [Connecticut Agricultural Experiment Station's poster](https://portal.ct.gov/-/media/caes/documents/bed_bugs/bedbugsandlookalikes11x17pdf.pdf?rev=b5eda78591fe46fba25609c37873f96b&hash=AB5D5C40AB6B05BD6CE38B7285EE0946) pairs a larva with an adult bed bug to show the difference, noting that the larva's hairy, segmented body can resemble a bed bug's abdomen. [NC State](https://content.ces.ncsu.edu/tips-for-preventing-the-spread-of-bedbugs) puts it as much hairier and not flat." },
     { "type": "p", "text": "The adults are easier to rule out. The Connecticut poster says carpet beetle larvae develop into winged adult beetles, and NC State says the adults differ from bed bugs in shape and color but are still regularly mistaken for them. A beetle that flies is not a bed bug, since the EPA says bed bug wings are not used for flying." },
     { "type": "p", "text": "On skin, the Connecticut poster's point is that hairs of the varied carpet beetle can irritate skin. Irritation from hairs is a different thing from a bite, and a rash alone cannot tell you which insect is present. For the small dark bugs that get confused with bed bugs, carpet beetles included, see [why a bed bug can look nearly black](/blog/black-bed-bugs)." },
+    { "type": "p", "text": "Photos of the adults and the bristly larvae, with the cleaning, freezing and storage steps university entomologists recommend, are in the guide to [getting rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles)." },
 
     { "type": "h2", "text": "How do spider beetles, booklice and cockroach nymphs compare?" },
     { "type": "p", "text": "Spider beetles have a globe-shaped rear and some species fly, booklice are soft-bodied with a bulging face, and cockroach nymphs have their own identification guides. All three get brought in as suspected bed bugs." },

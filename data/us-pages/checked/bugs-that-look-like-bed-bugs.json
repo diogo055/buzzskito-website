@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "be45ff1f3e22f32c2282ba22f02ebd19edb655e11af19e8482ffa0eef1f0a5e0",
+ "sha": "571d2150a0f1e4f70947088dec98d93995d97938345ba722d058d08613fd034e",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -12,6 +12,11 @@
    "on": "2026-10-16",
    "note": "Spider beetle size: Colorado State's fact sheet gives about 2-4 mm; its inch figure (1/16-1/8 in) is a wrong conversion, so the page now says about 1/12 to 1/6 inch (2 to 4 mm) in the quick answer, facts box and body, as /blog/tiny-black-bugs does.",
    "previousSha": "4d40b00445af4d3f2503188562ef49e017985c2f315aa9ab77a50612973b5b28"
+  },
+  {
+   "on": "2026-10-16",
+   "note": "links added as one-sentence paragraphs: /blog/tiny-black-bugs after the table in 'How can you tell the look-alikes apart at a glance?', /blog/how-to-get-rid-of-carpet-beetles at the end of the carpet beetle section; no facts changed",
+   "previousSha": "be45ff1f3e22f32c2282ba22f02ebd19edb655e11af19e8482ffa0eef1f0a5e0"
   }
  ]
 }

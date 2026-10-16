@@ -368,6 +368,7 @@ export default function PantryMothTrapsCanadaPage() {
             <li><strong>Restock into rigid airtight containers only.</strong> Anything that goes back in a paper bag or cardboard box is a future infestation waiting for a delivery.</li>
           </ol>
           <p>Then reset a fresh trap and read the card weekly. You are watching a trend line, not a single moth.</p>
+          <p>If the purge turns up beetles or weevils in the food rather than moth caterpillars, our photo guide to <Link href="/blog/pantry-pests">pantry pests in flour and rice</Link> shows how to tell the common ones apart and which foods each one infests.</p>
 
           <h2>Why Containers Are the Real Product, Not the Traps</h2>
           <p>Pantry moth larvae chew through paper, cardboard, cellophane, and thin plastic film. That is not a rare event or an exceptional infestation &mdash; it is ordinary behaviour, and it is why finding larvae inside a factory-sealed box is normal. They also crawl under lids that do not truly seal and into the threads of a screw top that is not gasketed.</p>

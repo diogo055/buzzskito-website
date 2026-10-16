@@ -263,6 +263,7 @@ export default function NoSeeUmBitesPage() {
         />
         <p>One biter is easy to rule out on pain alone. A horse fly or deer fly slices the skin with blade-like mouthparts instead of piercing it, so the bite lands as a single hard sting that often bleeds and raises one large welt rather than a patch of small ones &mdash; and the <Link href="/blog/horse-fly-and-deer-fly-bite-treatment">first aid and healing timeline for tabanid bites</Link> differs accordingly, because you are caring for an open cut.</p>
         <p>The other two columns in that table have their own picture guides. If the marks sit at your sock line or waistband, compare them with <Link href="/blog/chigger-bites">what chigger bites look like and how long they last</Link>; if they are grouped around your ankles and there is a pet in the house, see <Link href="/blog/flea-bites-on-humans">how to tell flea bites on people</Link>.</p>
+        <p>For the wider field of bites and stings, including ticks, fire ants, bees and wasps, our <Link href="/learn/bug-bites">guide to identifying bug bites</Link> sorts them by pattern, place on the body and timing, with photos.</p>
 
         <h2>No-see-um bites vs bed bug bites</h2>
         <p>The fastest split is <strong>where and when you were bitten</strong>. No-see-um bites happen outdoors, near water, at dawn or dusk, and land as random clusters that sting at the moment they happen. Bed bug bites happen indoors while you sleep, often in rough lines across skin the bedding left exposed, and usually itch only hours later.</p>
