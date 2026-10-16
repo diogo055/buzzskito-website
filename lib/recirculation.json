@@ -1468,6 +1468,20 @@
    ],
    "bar": true
   },
+  "/blog/brown-recluse-bite": {
+   "next": "/blog/brown-recluse-look-alikes",
+   "related": [
+    "/blog/wolf-spiders",
+    "/blog/house-spiders",
+    "/blog/spider-egg-sacs"
+   ],
+   "cards": [
+    "/blog/best-centipede-killer-canada",
+    "/blog/how-to-get-rid-of-boxelder-bugs-canada",
+    "/blog/pantry-moth-traps-canada"
+   ],
+   "bar": true
+  },
   "/blog/brown-recluse-look-alikes": {
    "next": "/blog/venomous-spiders",
    "related": [
@@ -1790,6 +1804,20 @@
     "/blog/mosquito-coils-canada",
     "/blog/thermacell-refills-recharge-canada"
    ]
+  },
+  "/blog/cockroach-eggs": {
+   "next": "/blog/bugs-that-look-like-cockroaches",
+   "related": [
+    "/blog/what-do-baby-cockroaches-look-like",
+    "/learn/cockroaches",
+    "/blog/where-do-cockroaches-come-from"
+   ],
+   "cards": [
+    "/blog/do-cockroaches-bite",
+    "/blog/water-bugs-vs-cockroaches",
+    "/blog/advion-cockroach-gel-bait"
+   ],
+   "bar": true
   },
   "/blog/commercial-pest-control": {
    "next": "/blog/diy-pest-control",
@@ -2566,6 +2594,20 @@
    ],
    "bar": true
   },
+  "/blog/house-spiders": {
+   "next": "/blog/spiders-in-florida",
+   "related": [
+    "/blog/spider-egg-sacs",
+    "/blog/wolf-spiders",
+    "/blog/venomous-spiders"
+   ],
+   "cards": [
+    "/blog/brown-recluse-look-alikes",
+    "/blog/best-flea-bomb-canada",
+    "/blog/how-to-get-rid-of-centipedes-canada"
+   ],
+   "bar": true
+  },
   "/blog/how-long-do-ants-live": {
    "next": "/blog/honeypot-ants",
    "related": [
@@ -3072,6 +3114,20 @@
     "/blog/flea-bites-on-humans",
     "/blog/how-to-get-rid-of-stink-bugs-canada"
    ]
+  },
+  "/blog/how-to-get-rid-of-stink-bugs": {
+   "next": "/blog/pantry-pests",
+   "related": [
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/asian-lady-beetles",
+    "/blog/flea-eggs"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/tiny-black-bugs",
+    "/blog/bugs-in-house-in-winter"
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-stink-bugs-canada": {
    "next": "/blog/how-to-get-rid-of-boxelder-bugs-canada",
@@ -4061,6 +4117,20 @@
     "/blog/black-bed-bugs"
    ]
   },
+  "/blog/palmetto-bugs": {
+   "next": "/blog/water-bugs-vs-cockroaches",
+   "related": [
+    "/blog/best-roach-traps-canada",
+    "/blog/cockroach-eggs",
+    "/blog/do-cockroaches-bite"
+   ],
+   "cards": [
+    "/blog/advion-cockroach-gel-bait",
+    "/blog/bugs-that-look-like-cockroaches",
+    "/blog/german-cockroaches"
+   ],
+   "bar": true
+  },
   "/blog/pantry-moth-traps-canada": {
    "next": "/blog/how-to-get-rid-of-carpet-beetles-canada",
    "related": [
@@ -4405,6 +4475,34 @@
     "/blog/when-to-schedule-first-mosquito-treatment-ontario",
     "/blog/dynatrap-canada-review"
    ]
+  },
+  "/blog/spider-egg-sacs": {
+   "next": "/blog/house-spiders",
+   "related": [
+    "/blog/brown-recluse-look-alikes",
+    "/blog/wolf-spiders",
+    "/blog/venomous-spiders"
+   ],
+   "cards": [
+    "/blog/spiders-in-florida",
+    "/blog/best-silverfish-traps",
+    "/blog/how-to-get-rid-of-silverfish-canada"
+   ],
+   "bar": true
+  },
+  "/blog/spiders-in-florida": {
+   "next": "/blog/spider-egg-sacs",
+   "related": [
+    "/blog/house-spiders",
+    "/blog/brown-recluse-look-alikes",
+    "/blog/wolf-spiders"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-centipedes-canada",
+    "/blog/brown-recluse-bite",
+    "/blog/best-earwig-killer-canada"
+   ],
+   "bar": true
   },
   "/blog/spring-tick-season-ontario": {
    "next": "/blog/tick-season-ontario-when-are-ticks-active",
@@ -5904,6 +6002,20 @@
     "/blog/is-mosquito-spray-safe-kids-pets",
     "/blog/picaridin-vs-deet"
    ]
+  },
+  "/blog/wolf-spiders": {
+   "next": "/blog/spider-egg-sacs",
+   "related": [
+    "/blog/house-spiders",
+    "/blog/venomous-spiders",
+    "/blog/spiders-in-florida"
+   ],
+   "cards": [
+    "/blog/best-flea-spray-for-home-canada",
+    "/blog/how-to-get-rid-of-earwigs-canada",
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "bar": true
   },
   "/blog/wondercide-canada-review": {
    "next": "/blog/ortho-home-defense-canada-review",

@@ -2,14 +2,14 @@
  "generated": "2026-10-16",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 138,
+  "newPagesBuilt": 146,
   "hubPages": 4,
-  "guides": 123,
+  "guides": 131,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 248,
-  "internalLinksInNewPages": 1767
+  "notBuilt": 240,
+  "internalLinksInNewPages": 1867
  },
  "pages": [
   {
@@ -133,11 +133,43 @@
    "kind": "pillar",
    "cluster": "cockroaches",
    "title": "Cockroaches: Species, Health Risks and Control",
-   "wordCount": 5042,
+   "wordCount": 5103,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "palmetto bug",
+   "us_volume": null,
+   "url": "/blog/palmetto-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Palmetto Bug vs Cockroach: How to Tell (Photos)",
+   "wordCount": 2412,
+   "faqs": 6,
+   "sources": 10,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do cockroach eggs look like",
+   "us_volume": null,
+   "url": "/blog/cockroach-eggs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "What Do Cockroach Eggs Look Like? (Photos)",
+   "wordCount": 2517,
+   "faqs": 6,
+   "sources": 13,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -760,8 +792,40 @@
    "wordCount": 3109,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "brown recluse bite",
+   "us_volume": null,
+   "url": "/blog/brown-recluse-bite",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Brown Recluse Bite: Stages and Symptoms (Photos)",
+   "wordCount": 2514,
+   "faqs": 6,
+   "sources": 12,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "wolf spider",
+   "us_volume": null,
+   "url": "/blog/wolf-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Wolf Spider ID: Eyes, Size and Bites (Photos)",
+   "wordCount": 2741,
+   "faqs": 6,
+   "sources": 11,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -773,11 +837,59 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spiders That Look Like Brown Recluse (Photos)",
-   "wordCount": 2693,
+   "wordCount": 2701,
    "faqs": 5,
    "sources": 16,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "house spider",
+   "us_volume": null,
+   "url": "/blog/house-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Common House Spiders: Photos and Which Ones Bite",
+   "wordCount": 3349,
+   "faqs": 6,
+   "sources": 17,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders in florida",
+   "us_volume": null,
+   "url": "/blog/spiders-in-florida",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Spiders in Florida: Common Species (Photos)",
+   "wordCount": 3010,
+   "faqs": 6,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "spider egg sac",
+   "us_volume": null,
+   "url": "/blog/spider-egg-sacs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Spider Egg Sacs: Which Spider Made It? (Photos)",
+   "wordCount": 2203,
+   "faqs": 5,
+   "sources": 15,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -840,7 +952,23 @@
    "wordCount": 2898,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of stink bugs",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-stink-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "How to Get Rid of Stink Bugs in the House",
+   "wordCount": 2879,
+   "faqs": 5,
+   "sources": 13,
+   "inboundFromNewPages": 1,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -856,7 +984,7 @@
    "wordCount": 2350,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -920,7 +1048,7 @@
    "wordCount": 2849,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -952,7 +1080,7 @@
    "wordCount": 3921,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 43,
    "status": "built"
   },
@@ -1950,13 +2078,6 @@
   },
   {
    "rank": null,
-   "keyword": "brown recluse bite",
-   "url": "/blog/brown-recluse-bite",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "black widow spider",
    "url": "/blog/black-widow-spiders",
    "action": "new",
@@ -1980,13 +2101,6 @@
    "rank": null,
    "keyword": "joro spider",
    "url": "/blog/joro-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "wolf spider",
-   "url": "/blog/wolf-spiders",
    "action": "new",
    "status": "not built"
   },
@@ -2050,13 +2164,6 @@
    "rank": null,
    "keyword": "how to get rid of carpenter bees",
    "url": "/blog/how-to-get-rid-of-carpenter-bees",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "how to get rid of stink bugs",
-   "url": "/blog/how-to-get-rid-of-stink-bugs",
    "action": "new",
    "status": "not built"
   },
@@ -2272,13 +2379,6 @@
   },
   {
    "rank": null,
-   "keyword": "house spider",
-   "url": "/blog/house-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "spiders in california",
    "url": "/blog/spiders-in-california",
    "action": "new",
@@ -2309,13 +2409,6 @@
    "rank": null,
    "keyword": "chiggers in texas",
    "url": "/blog/chiggers-in-texas",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "spiders in florida",
-   "url": "/blog/spiders-in-florida",
    "action": "new",
    "status": "not built"
   },
@@ -2741,27 +2834,6 @@
   },
   {
    "rank": null,
-   "keyword": "spider egg sac",
-   "url": "/blog/spider-egg-sacs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "palmetto bug",
-   "url": "/blog/palmetto-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "what do cockroach eggs look like",
-   "url": "/blog/cockroach-eggs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "rat droppings",
    "url": "/blog/rat-droppings",
    "action": "new",
@@ -2962,7 +3034,7 @@
    "wordCount": 2522,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -3067,11 +3139,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "German Cockroaches: Two Stripes, Bait Not Spray",
-   "wordCount": 2944,
+   "wordCount": 2971,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -3151,11 +3223,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Can Cockroaches Fly? Which Species Do and Why",
-   "wordCount": 3163,
+   "wordCount": 3187,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -3297,11 +3369,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Bugs That Look Like Cockroaches: 8 to Rule Out",
-   "wordCount": 2313,
+   "wordCount": 2334,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3615,11 +3687,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Can Cockroaches Fly? Which Species Do and Why",
-   "wordCount": 3163,
+   "wordCount": 3187,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4167,11 +4239,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Water Bugs vs Cockroaches: Tell Them Apart",
-   "wordCount": 2199,
+   "wordCount": 2219,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4241,11 +4313,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "What Baby Cockroaches Look Like, by Species",
-   "wordCount": 2822,
+   "wordCount": 2862,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4276,7 +4348,7 @@
    "wordCount": 2936,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 10,
    "status": "built"
   }

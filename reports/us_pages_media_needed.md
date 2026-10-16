@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-246 images across 100 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+266 images across 108 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -344,6 +344,17 @@
 - Cutaway diagram of a two-story house with an attached neighboring unit, with four labeled arrows: a grocery bag and a used appliance at the front door, a pipe passing through a shared wall, a basement floor drain connected to a sewer line, and a gap under an exterior door plus an unscreened roof soffit
 - Simple cross-section diagram of a basement floor drain showing the P-trap holding water as a seal above the sewer line, next to a second drawing of the same trap dried out with a cockroach walking through it
 
+## /blog/palmetto-bugs
+
+- Real photo, public domain or CC0, of an adult American, smokybrown, Australian and Florida woods cockroach side by side from above on a white background beside a ruler marked in inches, with a German cockroach for scale, the plate behind each head in focus
+- Real photo, public domain or CC0, of an adult brown cockroach (Periplaneta brunnea) seen from above with a reliable identification, sharp enough to compare the plate behind its head with the American cockroach's
+
+## /blog/cockroach-eggs
+
+- Egg cases of the German, brown-banded, American and Oriental cockroaches side by side on a white background beside a ruler marked in inches, at life size and each identified to species; public domain or CC0
+- Smokybrown cockroach egg case (dark brown to black, about 3/8 inch), identified to species, ideally beside a ruler marked in inches; public domain or CC0
+- Close-up of an empty cockroach egg case split open along the top after hatching, beside a case with the small round exit hole of an ensign wasp, each identified to species, next to a ruler marked in inches; public domain or CC0
+
 ## /blog/how-to-get-rid-of-mosquitoes
 
 - Photo of a typical suburban backyard with four or five labeled breeding spots visible: a flowerpot saucer, a bucket, a birdbath, a clogged gutter and an uncovered rain barrel
@@ -428,11 +439,37 @@
 - Adult female red widow (Latrodectus bishopi) photographed in central Florida, side or top view showing the red legs, public domain or CC0
 - Macro photo of a brown recluse's head from above or the front, sharp enough to show the six eyes in three separated pairs, public domain or CC0
 
+## /blog/brown-recluse-bite
+
+- Photo of a MRSA skin abscess (a red, swollen, pus-filled bump on skin), public domain from CDC's Public Health Image Library or CC0, for comparison with the recluse bite photos lower on the page; no identifiable face
+- Clinical photo of a verified brown recluse bite in the United States (spider seen biting and identified) in its first 24 to 72 hours, with the timing documented by a clinical or government source; public domain or CC0, no identifiable face
+
+## /blog/wolf-spiders
+
+- Adult wolf spider identified to species, photographed from above beside a ruler marked in inches, sharp enough to compare body length with leg span; public domain or CC0
+
 ## /blog/brown-recluse-look-alikes
 
 - Macro photo of a brown recluse's head from the front or above, identified by an arachnologist, sharp enough to show the six eyes in three separated pairs; public domain or CC0
 - Male southern house spider (Kukulcania hibernalis), identified to species, photographed from above to show its khaki color, long slender legs and the eight eyes grouped on a raised bump; public domain or CC0
 - Brown recluse identified by an arachnologist, photographed from above beside a ruler marked in inches, so readers can compare body length and leg span; public domain or CC0
+
+## /blog/house-spiders
+
+- Barn funnel weaver (Tegenaria domestica), identified to species, photographed from above to show the two dark stripes behind the head and the mottled abdomen, ideally beside a ruler marked in inches; public domain or CC0
+- Southern house spider (Kukulcania hibernalis), identified to species: the charcoal-gray female at her flat, woolly web around a crevice, and the long-legged khaki male; public domain or CC0
+
+## /blog/spiders-in-florida
+
+- Regal jumping spider (Phidippus regius) photographed in Florida: a black adult male with white markings, or an orange or gray female, showing the iridescent jaws; public domain or CC0
+- Pantropical huntsman spider (Heteropoda venatoria) photographed in Florida, top view on a wall or floor, showing the flat brown body, the pale band around the front body section and the black spots at the bases of the leg bristles; public domain or CC0
+- Wolf spider photographed in Florida, top view, ideally a female carrying her egg sac at her spinnerets or her spiderlings on her back, beside a ruler marked in inches; public domain or CC0
+
+## /blog/spider-egg-sacs
+
+- Female nursery web spider (Pisaurina mira), identified to species, carrying her round egg sac in her jaws, or guarding her nursery web in low vegetation; public domain or CC0
+- Brown recluse egg sac (off-white, round, about 1/3 inch) in a retreat along a joist or inside a box, with the spider identified by an arachnologist, ideally beside a ruler marked in inches; public domain or CC0
+- Praying mantid egg case (ootheca) on a house wall, fence post or eave, identified to species (Chinese or Carolina mantid), ideally beside a ruler marked in inches; public domain or CC0
 
 ## /blog/what-do-fleas-look-like
 
@@ -455,6 +492,13 @@
 - Top-down photo of an adult black carpet beetle and a full-grown black carpet beetle larva on a white background beside a ruler marked in inches, showing the shiny, carrot-shaped larva and the tuft of long hairs at its tail
 - Close-up photo of carpet beetle feeding damage on a wool sweater or rug: a large grazed, threadbare area with irregular holes and no silk webbing, beside a ruler marked in inches
 - Close-up photo of carpet beetle larval cast skins (brown, shell-like, bristly shed skins) and fecal pellets on dark fabric beside a ruler marked in inches
+
+## /blog/how-to-get-rid-of-stink-bugs
+
+- Public domain or CC0 photo of an older brown marmorated stink bug nymph showing the white bands on its legs and antennae, beside a ruler marked in inches
+- Public domain or CC0 photo of a rough stink bug (Brochymena) seen from above beside a ruler marked in inches, showing its toothed shoulder edges and unbanded antennae
+- Public domain or CC0 photo of a homemade stink bug light trap: a foil roasting pan of soapy water under a desk lamp in a darkened room, with drowned stink bugs in the water
+- Photo of brown marmorated stink bugs clustered on the sunny siding of a house in fall beside a window frame, showing where they gather before working into gaps
 
 ## /blog/asian-lady-beetles
 

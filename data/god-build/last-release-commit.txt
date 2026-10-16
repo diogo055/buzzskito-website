@@ -1,5 +1,10 @@
-release: 3 scheduled page(s) go live (2026-10-16)
+release: 8 scheduled page(s) go live (2026-10-16)
 
-- /blog/what-do-fleas-look-like
-- /blog/how-to-get-rid-of-fleas
-- /blog/house-centipedes
+- /blog/brown-recluse-bite
+- /blog/wolf-spiders
+- /blog/how-to-get-rid-of-stink-bugs
+- /blog/house-spiders
+- /blog/spiders-in-florida
+- /blog/spider-egg-sacs
+- /blog/palmetto-bugs
+- /blog/cockroach-eggs
