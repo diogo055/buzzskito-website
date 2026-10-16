@@ -64,6 +64,12 @@ with SendUserFile.
   droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
   red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
   it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
+- **RETROFIT PROGRAM (owner agreed in principle, Oct 16):** existing pages get the winning structure
+  too. Order: (1) before Oct 29, build drop-in TSX components for hand-written articles mirroring the
+  guide blocks (ConfusedWith photo cards, QuickIdTable) + a RETROFIT brief (additive only, affiliate
+  integrity loop, true dates); (2) Oct 29-30 read of the 30 photo/title upgrades; (3) if the lift is
+  real, retrofit the 60 striking-distance pages (path-to-50k.md table 1b), measure 2-3 weeks, then the
+  remaining ~150 identification pages through November. Never service/city/quote/product-review pages.
 - **NEXT (needs the owner's go, or start after the Oct 20 reset):** next-50 waves 3 (13 pages) and 4
   (12 pages): millipedes, earwigs, drain flies, types of gnats, brown recluse, silverfish, dust mites,
   bird mites, black widow spiders, rat droppings, brown widow spiders, no-see-ums, mouse nest;
