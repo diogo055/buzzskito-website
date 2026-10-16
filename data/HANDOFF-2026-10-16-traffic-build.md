@@ -184,6 +184,24 @@ with SendUserFile.
   `node scripts/us-pages-regional.mjs` wraps the Canadian page's metadata + adds the visible
   "See the US edition" line; check affiliate tokens on that page are unchanged; build; push):
   carpet beetles (live today), stink bugs, house centipedes (when they release).
+- **Oct 16 07:18 UTC: WAVE 1 RELEASED BY HAND (5d3b024d), not by the Action.** Why: GitHub ran the
+  "12:15 UTC" schedule at 16:59 UTC on Oct 15 (cron runs late), so the no-push window was unknowable.
+  Method (same as the tick release): sync scratchpad ci-repro to the branch, `node
+  scripts/release-scheduled.mjs`, `npm run build --ignore-scripts` (exit 0), then the Action's own
+  `git add -A content data app lib public next.config.mjs scripts/index-urls.mjs new-urls.txt
+  build-manifest.json reports`, commit with data/god-build/last-release-commit.txt AS
+  `-c user.name=BuzzSkito -c user.email=diogoaofrancisco@gmail.com` (the clone's global identity is
+  buzzskito-afk: never deploy with it), fetch that commit into the main repo, `git merge --ff-only`,
+  push. The release notes file for a date was overwritten by a second same-day release: restored
+  (37 + 12 lists) and fixed (80b7209c, appends now). The Action at 12:15+ finds nothing due.
+- Post-release done: carpet beetle regional pair (71f79e0a, build verified before push). Link-in
+  agent running (data/god-build/LINK_IN_BRIEF.md + scratchpad link-in-oct16.md): one sentence per
+  link from ~18 strong existing articles to the 12 new pages, incl. the stink bug "rather than at
+  their own page" sentence and asian-lady-beetles' carpet beetle link -> US page. Review its diff
+  (affiliate loop, removed lines), build, commit, push.
+- what-does-a-spider-bite-look-like: next-50 said "trim to a summary that links here"; NOT trimmed
+  (owner's rule: never remove content he did not ask to remove; it is a 43K-impression page). Links
+  added instead. Trimming is the owner's call.
 - flea-eggs checker owner notes: larva max left at 3/16 inch (Ohio State/Texas A&M say 1/4); the
   University of Florida source prints ~1/64 in for a 0.5 mm egg (its own error); the page's
   "step-by-step guide to getting rid of fleas" link waits for how-to-get-rid-of-fleas (wave 2).
