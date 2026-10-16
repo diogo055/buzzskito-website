@@ -2,9 +2,16 @@
  "id": "bugs-that-look-like-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4df70e352a5988a0edc8cb54fa7f877ff64074c743125748cc42e0e2bd8bc8d9",
+ "sha": "c42571d97344ff54b52ee1f774848cf1c2a91ec3c6e1a72a6bb77dba1bab80c9",
  "claimsChecked": 75,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 4,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
+   "previousSha": "4df70e352a5988a0edc8cb54fa7f877ff64074c743125748cc42e0e2bd8bc8d9"
+  }
+ ]
 }

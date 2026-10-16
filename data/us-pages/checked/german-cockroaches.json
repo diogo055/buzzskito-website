@@ -2,9 +2,16 @@
  "id": "german-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1192402bd988ef457fa846851a7d55e9a6e603299d7ac897e4f2cff41ca11832",
+ "sha": "a2f5b9852b8da186201f7060a9a9c3cb93f273d8e156bbc4f9c668ad0179b68e",
  "claimsChecked": 94,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
+   "previousSha": "1192402bd988ef457fa846851a7d55e9a6e603299d7ac897e4f2cff41ca11832"
+  }
+ ]
 }

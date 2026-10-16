@@ -2,9 +2,16 @@
  "id": "water-bugs-vs-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b770683a7ee92efe7fb4e8b496285adcbbb07a7789fbfe163396a6eea56a1f4f",
+ "sha": "82c669e58d365faad4dacb0d29b4e066c052d4e806622dd22b65704da1767de7",
  "claimsChecked": 62,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
+   "previousSha": "b770683a7ee92efe7fb4e8b496285adcbbb07a7789fbfe163396a6eea56a1f4f"
+  }
+ ]
 }

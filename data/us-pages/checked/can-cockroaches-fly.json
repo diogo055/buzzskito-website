@@ -2,9 +2,16 @@
  "id": "can-cockroaches-fly",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b69dc7726f62a4520e24e5c1142dbce4178a08bcd2858a0e17314dd1777f79ca",
+ "sha": "cea22dcdb6604db15546db54e4452249a97b2076a95f859a9ef4b214fec4bed2",
  "claimsChecked": 99,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
+   "previousSha": "b69dc7726f62a4520e24e5c1142dbce4178a08bcd2858a0e17314dd1777f79ca"
+  }
+ ]
 }
