@@ -1,0 +1,10 @@
+{
+ "id": "bugs-that-look-like-fleas",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "635a683789c655729f963bbe46430ad5bd99681fc3a631ed020079838a188ade",
+ "claimsChecked": 440,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-10-16"
+}
