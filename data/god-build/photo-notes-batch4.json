@@ -1,0 +1,517 @@
+{
+ "_readme": "Scout notes for the fourth photo batch (Oct 16, 2026): mice, rats and their signs, German / Oriental / brown-banded cockroaches, male mosquitoes, pantry pests and bed bug cast skins. For each photo: what its source says it shows (sourceDescription), the pages it serves (forPages: a bare slug is /blog/<slug> or a planned page in plan.src.json; learn/<slug> is a Learning Centre page), confidence in the identification, whether its licence lets it be a page's lead/share image (leadEligible: public domain or CC0 only), and caveats (who made the identification, where it was taken, labels printed on the photo, caption limits). The licence, credit and size of record are in photos.json; write captions from these notes and the record together. Every image was looked at after conversion.",
+ "candidates": [
+  {
+   "id": "house-mouse",
+   "forPages": [
+    "types-of-mice",
+    "learn/mice",
+    "how-to-get-rid-of-mice-canada",
+    "deer-mice",
+    "field-mice"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 261877585 of Mus musculus (House Mouse), E Oak St, Marfa, TX, US, 2025-02-16; 2 current identifications.",
+   "caveats": "Side view showing the long, thin, nearly hairless tail and the plain brown coat with no sharp white belly line (useful beside the deer and white-footed mouse photos). Taken in a concrete corner with leaf litter and debris; the source does not say whether indoors or out.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1151."
+  },
+  {
+   "id": "house-mouse-live-trap",
+   "forPages": [
+    "how-to-get-rid-of-mice-humanely",
+    "mice-traps",
+    "mice-removal",
+    "best-mouse-trap-canada"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons own work by Ahunt, 2023-10-14: House mouse (Mus musculus) in Ottawa, Ontario, Canada, in the live-catch trap that caught him.",
+   "caveats": "Identification by the photographer only (a Commons upload); the uniform brown-grey coat, grey-white underside and thin scaly tail fit a house mouse. The source says 'him'; the subject line leaves sex out because nothing else confirms it. Shows a metal live-catch trap with a cracker bait; no brand is visible, and the caption should not name one.",
+   "note": "Credit: Ahunt, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x810."
+  },
+  {
+   "id": "house-mouse-on-stove",
+   "forPages": [
+    "how-to-get-rid-of-mice-canada",
+    "what-do-mice-eat",
+    "mice-removal",
+    "are-mice-nocturnal",
+    "learn/mice"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 300314476 of Mus musculus (House Mouse), United States, 2025-07-22; 2 current identifications. Observer notes: oof",
+   "caveats": "A house mouse peering out of a kitchen stove's coil burner; a dropping is visible on the stovetop to its left. The observer's only note is 'oof'. Good for kitchen sections; CC BY, so it needs its visible credit and cannot be a lead/share image.",
+   "note": "Credit: (c) jonsense, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "house-mouse-vs-young-rat",
+   "forPages": [
+    "baby-mice",
+    "types-of-mice",
+    "learn/mice",
+    "how-to-get-rid-of-rats-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26271: This image depicts two side-by-side rodents: a house mouse (Mus musculus) above and a 2-week-old Norway rat (Rattus norvegicus) below. Note the rat's coarser hair, smaller ears, blunter head and tail, and proportionally larger feet compared with the mouse's larger ears, longer tail, finer hair, and proportionally smaller feet.",
+   "caveats": "Names are printed on the photo (House mouse (Mus musculus); Norway rat (Rattus norvegicus) 2-weeks-old). Muted, near-monochrome colours; both animals are specimens lying on a board and look dead, so it is not a good lead image even though the licence allows it. Useful to show that a 2-week-old rat is already bigger than an adult house mouse.",
+   "note": "Credit: CDC/ Bayard F. Bjornson (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x795."
+  },
+  {
+   "id": "deer-mouse",
+   "forPages": [
+    "deer-mice",
+    "types-of-mice",
+    "field-mice",
+    "learn/mice"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "USFWS Midwest Region (Flickr, via Wikimedia Commons), taken 2025-02-26: This deer mouse sat still long enough for a photo after being spooked from a bird house in Big Stone County, Minnesota. Photo by Mike Budd/USFWS.",
+   "caveats": "The source names it only as a deer mouse and gives no scientific name; the white belly and two-tone tail fit a Peromyscus mouse. Deer mice and white-footed mice are hard to tell apart in photos, so do not use it to show the difference. Outdoors, in winter.",
+   "note": "Credit: U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x800."
+  },
+  {
+   "id": "north-american-deer-mouse",
+   "forPages": [
+    "deer-mice",
+    "types-of-mice",
+    "field-mice",
+    "mice-exterminator"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 8358 (James Gathany): This photograph depicted a North American deer mouse, Peromyscus maniculatus, which has been determined to be one of the reservoirs and transmitters of the hantavirus. P. maniculatus is a deceptively cute animal, with big eyes and big ears. Its head and body are normally about 2 - 3 inches long, and its tail adds another 2 - 3 inches in length. Depending on its age, you may see it in a variety of colors, from gray, to reddish brown. The underbelly is always white, and the tail has sharply defined white sides.",
+   "caveats": "Older CDC slide photograph, slightly soft. The size and colour facts above are the PHIL text's; use them in a caption only if the page already states them.",
+   "note": "Credit: CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x789."
+  },
+  {
+   "id": "deer-mouse-nest",
+   "forPages": [
+    "deer-mice",
+    "fall-mouse-proofing-checklist",
+    "how-to-keep-mice-out-of-your-house-winter",
+    "learn/mice",
+    "rat-mites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 13216: This image depicts a North American deer mouse, Peromyscus maniculatus which had made its home amongst deteriorating sheets of fabric and bird feathers. Deer mice are the principal reservoir of Sin Nombre virus (SNV), a specie of the genus Hantavirus, the primary etiologic agent of hantavirus cardiopulmonary syndrome (HCPS).",
+   "caveats": "A deer mouse in its nest of shredded fabric and feathers (PHIL: 'made its home amongst'); the PHIL text does not say where (indoors or out). Caption it as a deer mouse nest, not a house mouse nest. Serves the planned rat-mites page as a rodent-nest image (the batch 3 gap note asked for one).",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x796."
+  },
+  {
+   "id": "white-footed-mouse",
+   "forPages": [
+    "types-of-mice",
+    "field-mice",
+    "deer-mice",
+    "learn/mice"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 273401871 of Peromyscus leucopus (White-footed Mouse), Graham Rd, Broad Brook, CT, US, 2025-04-25; 2 current identifications.",
+   "caveats": "Outdoors on asphalt beside a timber; shows the white feet, white underside and large ears. White-footed and deer mice are hard to tell apart in photos, so do not use this pair to teach the difference beyond what the page already says.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "white-footed-mouse-leaf-litter",
+   "forPages": [
+    "field-mice",
+    "types-of-mice",
+    "deer-mice"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 265119568 of Peromyscus leucopus (White-footed Mouse), Nineveh, IN, US, 2025-03-11; 3 current identifications.",
+   "caveats": "Outdoors in leaf litter; the white underside shows at the chest.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "norway-rat",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "best-rat-trap-canada",
+    "types-of-mice",
+    "rat-mites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 379572541 of Rattus norvegicus (Brown Rat), King County, US-WA, US, 2026-07-08; 3 current identifications.",
+   "caveats": "Outdoors in plant debris; side view showing the whole body and the thick tail. Same rat and observation as norway-rat-face.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1100."
+  },
+  {
+   "id": "norway-rat-face",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "rat-poison-canada-what-is-legal",
+    "rat-mites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 379572541 of Rattus norvegicus (Brown Rat), King County, US-WA, US, 2026-07-08; 3 current identifications.",
+   "caveats": "Face-on close-up of the same rat as norway-rat (same observation). A strong lead image; it does not show the tail, so pair it with norway-rat where body shape matters.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "roof-rat",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "best-rat-trap-canada",
+    "types-of-mice"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 358657107 of Rattus rattus (Black Rat), MFV,PH - St. Nicholas, Jacksonville, FL 32207, USA, 2026-05-03; 2 current identifications.",
+   "caveats": "On a bird-feeder platform scattered with seed; shows the large ears, large eyes and slim body, with the long tail lying along the platform behind it (partly hidden by a nail).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "roof-rat-rafters",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "best-rat-trap-canada",
+    "rat-mites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25123: This image depicts a roof rat, Rattus rattus, perched among the rafters of a building while consuming bait from a small dish. Also known as black rats or ship rats, R. rattus are associated with the transmission of numerous zoonotic diseases.",
+   "caveats": "The PHIL text says only 'bait' and does not say what kind; do not caption it as poison. Shows the long tail hanging below the beam.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "mouse-droppings-ruler",
+   "forPages": [
+    "what-does-mouse-poop-look-like-canada",
+    "learn/mice",
+    "how-to-get-rid-of-mice-canada",
+    "mice-exterminator"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons own work by Hansmuller, 2019-12-14: Housemouse (Mus musculus) droppings found in the kitchen and near a computer keyboard, shown with 10 and 20 euro cent coins (with diameters of 1,975 and 2,225 cm respectively) and a ruler, Utrecht, The Netherlands.",
+   "caveats": "That these are house mouse droppings is the photographer's identification only. Taken in the Netherlands; for North American readers point to the centimetre ruler, not the euro coins. Small original (655x779), so use it at body width, not full-bleed.",
+   "note": "Credit: Hansmuller, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 655x779."
+  },
+  {
+   "id": "rodent-droppings-drawer",
+   "forPages": [
+    "what-does-mouse-poop-look-like-canada",
+    "learn/mice",
+    "mice-removal",
+    "fall-mouse-proofing-checklist"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 14340: This image depicts an open cupboard drawer, within which you're able to see evidence of rodent habitation in the form of rodent droppings, which happened to be inside the home of a hantavirus patient.",
+   "caveats": "The PHIL text names no rodent species, so caption it as rodent droppings, not as droppings of a named species. No scale object. There is fluffy material in the top-right corner of the drawer that may be nesting material (the PHIL text does not mention it). Taken in a hantavirus patient's home; do not suggest that a reader's droppings mean hantavirus.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x791."
+  },
+  {
+   "id": "rat-droppings-table",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "what-does-mouse-poop-look-like-canada",
+    "best-rat-trap-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 29215: This historic photograph depicted a tabletop upon which was an electric burner, a few nonperishable condiments, a cup and three saucers. It is important that there were a number of unspecified rat droppings on the tabletop as well.",
+   "caveats": "Historic sepia photograph, undated on PHIL; the text calls them 'unspecified rat droppings', so name no rat species. The cups and saucers give a rough sense of size; there is no ruler. Part of a brand name shows on a can at the back.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x924."
+  },
+  {
+   "id": "rat-droppings-thumb",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "what-does-mouse-poop-look-like-canada",
+    "best-rat-trap-canada"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 394894114 of Rattus norvegicus (Brown Rat), Aleutians West County, US-AK, US, 2026-08-26; 2 current identifications. Observer notes: vole perhaps?",
+   "caveats": "Identified from the droppings alone. The observer's note reads 'vole perhaps?', but both current identifications (the observer's and another user's, who adds that rats were introduced to the island during WW2) are Norway rat. The thumb gives the size. Outdoors on moss on a remote Aleutian island, not in a building.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "rat-gnawed-sack",
+   "forPages": [
+    "how-to-get-rid-of-rats-canada",
+    "rodent-exclusion-kit-canada",
+    "best-rat-trap-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28593: This historic image from 1946 was captured in the storage area of the former Atlanta Milling Company, and highlighted what appeared to be a burlap sack that was gnawed through by rats, thus exposing its contents of seed grains. This was a closer view of PHIL 28592.",
+   "caveats": "Historic sepia photograph. The PHIL text says rats did the gnawing, so do not use it as a sign of mice. Several corn kernels show chewed ends. The only gnaw-mark photo in the batch (no well-identified photo of mouse gnaw marks under an allowed licence was found).",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x923."
+  },
+  {
+   "id": "german-cockroach",
+   "forPages": [
+    "german-cockroaches",
+    "learn/cockroaches",
+    "how-to-get-rid-of-cockroaches-canada",
+    "bugs-that-look-like-cockroaches",
+    "best-roach-traps-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26932: This photograph depicted the dorsal view of the female German cockroach, Blattella germanica.",
+   "caveats": "Studio photo on a blue background; the antennae tips and the end of the abdomen run off the frame. Shows the two dark stripes on the pronotum.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x795."
+  },
+  {
+   "id": "german-cockroach-adult",
+   "forPages": [
+    "german-cockroaches",
+    "learn/cockroaches",
+    "how-to-get-rid-of-cockroaches-canada",
+    "bugs-that-look-like-cockroaches",
+    "best-cockroach-killer-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 398888491 of Blattella germanica (German Cockroach), Bertonley Ave, Charlotte, NC, US, 2026-09-09; 2 current identifications.",
+   "caveats": "Whole adult on a white surface, shown diagonally (head at lower right); the two dark stripes on the pronotum and the long antennae are clear. The observation is annotated adult with no sex.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1217."
+  },
+  {
+   "id": "german-cockroach-nymphs",
+   "forPages": [
+    "what-do-baby-cockroaches-look-like",
+    "german-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26933: This photograph depicted a dorsal view of three various staged nymphal German cockroaches, Blattella germanica, which would continue to undergo the process of shedding their exoskeletons as they developed, known as molting, until they would reach adulthood.",
+   "caveats": "No scale object. Three nymphs of different stages on a blue background.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x799."
+  },
+  {
+   "id": "german-cockroach-egg-case",
+   "forPages": [
+    "what-do-baby-cockroaches-look-like",
+    "german-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26931: This photograph depicted a ventral view of a female German cockroach, Blattella germanica, highlighting the insect's egg capsule, or ootheca, as it was extended from its distal abdomen. B. germanica oothecae, on average, contain 18-50 eggs.",
+   "caveats": "Underside view; the head is out of frame. Use the 18-50 eggs figure only if the page already gives it.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "oriental-cockroach-male-female",
+   "forPages": [
+    "water-bugs-vs-cockroaches",
+    "learn/cockroaches",
+    "where-do-cockroaches-come-from",
+    "can-cockroaches-fly",
+    "bugs-that-look-like-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons copy of CDC PHIL 5462 (1972): Male and Female Blatta orientalis. Original PHIL text: These Oriental cockroaches, Blatta orientalis, were photographed during a study of migrant labor camp disease vectors.",
+   "caveats": "The PHIL page for 5462 is now blank, so the Commons file page is the source of record (licence PD-USGov-HHS-CDC). 'Male and female' is in the Commons description, not the original PHIL text, but CDC PHIL 6326 is a labelled copy of this same photo (same two specimens, same pose) and its description names the left one male and the right one female; the male's wings are the longer ones. Do not use PHIL 6326 or the Commons file 'Blatta orientalis cdc.jpg' instead: their printed labels misname the genus ('Blatella orientalis', 'Blatella germanica').",
+   "note": "Credit: CDC, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x815."
+  },
+  {
+   "id": "oriental-cockroach",
+   "forPages": [
+    "water-bugs-vs-cockroaches",
+    "learn/cockroaches",
+    "where-do-cockroaches-come-from",
+    "bugs-that-look-like-cockroaches",
+    "can-cockroaches-fly"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 379353336 of Blatta orientalis (Oriental Cockroach), Pennsylvania, US, 2026-07-08; 2 current identifications.",
+   "caveats": "Outdoors on concrete, dorsal view of a glossy black adult with very short wing pads. The observation is annotated adult and records no sex, so do not caption a sex. For a labelled male beside a female use oriental-cockroach-male-female.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "brown-banded-cockroach-male-female",
+   "forPages": [
+    "learn/cockroaches",
+    "what-do-baby-cockroaches-look-like",
+    "bugs-that-look-like-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 6330: This image depicts a dorsal view of a male (Lt), and a female (Rt) brown-banded cockroach, Supella longipalpa. Originally an East African native, S. longipalpa has become wonderfully adapted to the United States environment, and is now commonly found living inside human habitation.",
+   "caveats": "Names printed on the photo (Supella longipalpa, Brown-banded cockroach, Male, Female); the female symbol is drawn non-standard. Better as an in-article comparison than as a lead/share image.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x953."
+  },
+  {
+   "id": "brown-banded-cockroach-nymph",
+   "forPages": [
+    "what-do-baby-cockroaches-look-like",
+    "learn/cockroaches",
+    "bugs-that-look-like-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 370742816 of Supella longipalpa (Brown-banded Cockroach), Comstock Hall, Ithaca, NY 14850, USA, 2026-06-11; 2 current identifications.",
+   "caveats": "Annotated nymph by the observer; held between two fingertips, which shows its size. Recorded at Comstock Hall, Ithaca (Cornell University's entomology building); iNaturalist does not mark it captive. The same pale-banded pattern appears on CDC PHIL 6322, which was left out because PHIL calls that wingless insect an adult.",
+   "note": "Credit: (c) Emmett Collins-Sussman, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "aedes-aegypti-male",
+   "forPages": [
+    "male-vs-female-mosquito",
+    "mosquito-facts"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26047 (Amy E. Lockwood; photo Lauren Bishop): This is a photograph depicting a male, Aedes aegypti mosquito, while resting. Ae. aegypti is also known as the yellow fever mosquito. Male mosquitoes do not bite, or feed on blood. Instead, they feed on nectar from flowers or fruit.",
+   "caveats": "Same CDC series and photographers as aedes-aegypti-female (PHIL 26042) already on record: the two make a matched male / female pair. It rests on what looks like skin; males do not bite (PHIL text), so never caption it as biting.",
+   "note": "Credit: CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x800."
+  },
+  {
+   "id": "culex-quinquefasciatus-male",
+   "forPages": [
+    "male-vs-female-mosquito",
+    "mosquito-facts"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26027 (Amy E. Lockwood): This is a photograph depicting a male, Culex quinquefasciatus mosquito, while he was resting on a flower. C. quinquefasciatus is also known as the southern house mosquito.",
+   "caveats": "Pairs with culex-quinquefasciatus-female (PHIL 26026, same series) already on record. The very bushy antennae are the clearest of the batch.",
+   "note": "Credit: CDC/ Amy E. Lockwood, MS (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x800."
+  },
+  {
+   "id": "aedes-aegypti-female-and-male",
+   "forPages": [
+    "male-vs-female-mosquito"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "NIAID (Flickr, via Wikimedia Commons), 2016-03-08: Female (left) and male (right) Aedes aegypti mosquitoes. Credit: NIAID",
+   "caveats": "The only photo here with both sexes in one frame. A laboratory photo taken through cage netting, soft focus; the female is lower left, the male (bushy antennae) upper right. Portrait shape (1200x1600).",
+   "note": "Credit: NIAID, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x1600."
+  },
+  {
+   "id": "indian-meal-moth-larva",
+   "forPages": [
+    "pantry-pests",
+    "pantry-moth-traps-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "USDA (Flickr, via Wikimedia Commons; ARS image K10313-1): Indianmeal moth larva (Plodia interpunctella) searches for food. Indianmeal moths are a common grain-feeding pest found around the world, feeding on cereals and similar products. USDA photo by Scott Bauer.",
+   "caveats": "The credit line of record reads USDAgov; the description itself says USDA photo by Scott Bauer, which a caption may add. The larva lies among cereal flakes; what looks like part of another larva shows at the lower left. No webbing is visible. Pairs with indian-meal-moth (adult) already on record.",
+   "note": "Credit: USDAgov, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x804."
+  },
+  {
+   "id": "indian-meal-moth-larvae-peanuts",
+   "forPages": [
+    "pantry-pests",
+    "pantry-moth-traps-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 179429749 of Plodia interpunctella (Indian-Meal Moth), Allegheny County, US-PA, US, 2022-09-22; 2 current identifications.",
+   "caveats": "Pale larvae and their frass inside a store bag of peanuts; part of the bag's label shows (product description and net weight, no brand name). The larvae are small in the frame and there is no clear webbing.",
+   "note": "Credit: (c) cigazze, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "indian-meal-moth-webbing",
+   "forPages": [
+    "pantry-pests",
+    "pantry-moth-traps-canada"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file by Mike Boone, 2005-07-19, from BugGuide (bugguide.net/node/view/25257): Plodia interpunctella damage.",
+   "caveats": "The only usable webbing photo found. The source says only 'Plodia interpunctella damage': it shows silk webbing, frass and seeds stuck together in a woven bag of black sunflower seed (bird seed), with no moth or larva clearly in view, so the identification of the culprit rests on the photographer's BugGuide post. Small original (560x373): use it at body width or smaller, never full-bleed.",
+   "note": "Credit: Mike Boone, CC BY-SA 2.5, via Wikimedia Commons. Licence: CC-BY-SA-2.5. Size: 560x373."
+  },
+  {
+   "id": "indian-meal-moth-silk",
+   "forPages": [
+    "pantry-pests",
+    "pantry-moth-traps-canada"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 232811547 of Plodia interpunctella (Indian-Meal Moth), Texas, US, 2024-07-10; 3 current identifications. Observer notes: This explained why *Plodia interpunctella* pantry moths kept showing up in this garage cabinet. See also other observations (linked in \"similar observation set\" observation field)",
+   "caveats": "Close-up macro of silk and frass inside a tunnel bored into a dog biscuit; the observation (15 photos of larvae in dog biscuits from a garage cabinet, annotated larva and 'construction') is identified to species by three users, but this frame shows the silk only, no larva. The biscuit is not recognisable in this frame. Shallow depth of field: the rim is soft.",
+   "note": "Credit: (c) dhasdf, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "granary-weevil",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 17435 (Margaret A. Parsons): This is a dorsal view of a granary weevil, Sitophilus granarius, whose allergens can cause a condition referred to as, millworkers asthma. Granary weevils are often found as unwanted intruders in stored grain.",
+   "caveats": "Mounted museum specimen (the glue on the mounting point shows at the right). Tall portrait shape (1200x1822). Pairs with rice-weevil already on record.",
+   "note": "Credit: CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1822."
+  },
+  {
+   "id": "confused-flour-beetles",
+   "forPages": [
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28852 (Margaret A. Parsons): This image depicts a close dorsal view of two adult and three larval confused flour beetles, Tribolium confusum, a known granary pest that infests stored grain.",
+   "caveats": "Pairs with red-flour-beetle already on record; the two species look almost the same, so do not use the pair to show how to tell them apart. No scale object.",
+   "note": "Credit: CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "bed-bug-cast-skin",
+   "forPages": [
+    "bed-bug-shells-casings-shed-skins-canada",
+    "signs-of-bed-bugs-checklist",
+    "baby-bed-bugs-nymphs",
+    "what-do-bed-bugs-look-like",
+    "learn/bed-bugs"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons own work by Louis-Marie Poissant, 2010-05-02 (file location 45.5 N, 78.5 W, Ontario): Punaise de lits, exuvie. Echelle en millimetres (bed bug cast skin; scale in millimetres).",
+   "caveats": "Identification is the photographer's (filed under Cimex lectularius exuvia and Hemiptera of Canada); the shape, pale translucent skin and legs fit a bed bug nymph's cast skin. Magnified, with a millimetre scale along the top edge; the source does not give the skin's length or the nymph's stage, so a caption should point to the scale rather than state a size. Pairs with bed-bug-signs (cast skins and fecal spots on fabric) already on record.",
+   "note": "Credit: Louis-Marie Poissant, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x803."
+  },
+  {
+   "id": "bed-bug-cast-skin-fabric",
+   "forPages": [
+    "bed-bug-shells-casings-shed-skins-canada",
+    "signs-of-bed-bugs-checklist",
+    "baby-bed-bugs-nymphs",
+    "what-do-bed-bugs-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 223551157 of Cimex lectularius (Common Bed Bug), Route de Mende, La Bastide-Puylaurent, Occitanie, FR, 2024-06-18; 2 current identifications.",
+   "caveats": "Annotated on iNaturalist as a nymph's molt (Evidence of Presence: Molt; Life Stage: Nymph; Dead). The hollow, split skin with the empty leg casings shows clearly on white fabric. Taken in France; no scale object. CC BY, so it cannot be a lead/share image.",
+   "note": "Credit: (c) William Stephens, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "what-does-mouse-poop-look-like-canada",
+   "why": "Partial: served by mouse-droppings-ruler (Netherlands, CC BY-SA 4.0), rodent-droppings-drawer (CDC, no scale), rat-droppings-table and rat-droppings-thumb. No North American house mouse droppings photo with a ruler under an allowed licence was found. The NY State IPM Program's mouse and rat droppings photos on Commons (CC BY 2.0) carry an 'IPM' logo watermark in the middle of the frame that cannot be cropped off, and Commons 'Heces Rata Noruega (Fucesa).jpg' (CC BY-SA 3.0) rests on the uploader's word while its pellets measure about 1 cm on its own scale bar, short for Norway rat droppings (NY State IPM gives up to 3/4 inch, 19 mm), so neither was used."
+  },
+  {
+   "slug": "learn/mice",
+   "why": "No photo of mouse gnaw marks with a clear identification and an allowed licence was found; the only gnaw photo is rat-gnawed-sack (CDC, 1946, gnawed by rats). Signs of mice are covered by droppings (rodent-droppings-drawer, mouse-droppings-ruler) and a nest (deer-mouse-nest)."
+  },
+  {
+   "slug": "bed-bug-shells-casings-shed-skins-canada",
+   "why": "Partial: two cast-skin photos added (bed-bug-cast-skin, CC BY-SA 3.0, with a mm scale; bed-bug-cast-skin-fabric, CC BY 4.0), but neither can be the lead/share image. No public-domain or CC0 photo of bed bug cast skins was found: CDC PHIL has none, and of the 19 iNaturalist bed bug observations annotated 'molt' only one (used here) carries an allowed licence; the rest are NC or all rights reserved. bed-bug-signs (CC BY 4.0, cast skins and fecal spots) is already on record."
+  },
+  {
+   "slug": "pantry-pests",
+   "why": "Partial: the two webbing photos (indian-meal-moth-webbing, small and CC BY-SA 2.5; indian-meal-moth-silk, CC BY 4.0) cannot be the lead/share image; no public-domain or CC0 photo of Indian meal moth webbing was found. Larva (USDA, public domain), adult (on record), larvae in a bag of peanuts, granary weevil, rice weevil (on record), confused and red flour beetles are covered."
+  }
+ ]
+}
