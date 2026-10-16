@@ -2,7 +2,7 @@
  "id": "venomous-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "fb3bd3a94779bc7b64f5d30d05f02103faf7cebd41acee1849aa038f40bef95c",
+ "sha": "511b39ec5de847831a060d5d5f7c57a10e01ea6f7c5b6f019c7226794770129b",
  "claimsChecked": 354,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 7,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Desert recluse: added UC IPM's recluse Pest Note view (venom similar to the brown recluse's, should be considered as potent, but a minor concern) beside Vetter's 'not considered as dangerous'; Pest Note added as a source, linked where used. Verified by the spiders-in-california fact-check, Oct 16.",
+   "previousSha": "fb3bd3a94779bc7b64f5d30d05f02103faf7cebd41acee1849aa038f40bef95c"
+  }
+ ]
 }
