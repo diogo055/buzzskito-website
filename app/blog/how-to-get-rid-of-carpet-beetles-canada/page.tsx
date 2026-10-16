@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import Photo from '@/components/Photo'
 import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
@@ -72,7 +73,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Carpet beetles in Canada: the larvae do all the damage, not the adults. How to tell them from bed bugs and clothes moths, and the vacuum-first plan.',
   canonical: `/blog/${SLUG}`,
@@ -80,7 +81,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('carpet-beetle'),
-})
+}), '/blog/how-to-get-rid-of-carpet-beetles-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 
@@ -360,6 +361,8 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/how-to-get-rid-of-carpet-beetles" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>The One Fact That Reorganises Everything: The Adult Is Not the Pest</h2>
           <p>Almost every failed carpet beetle campaign starts the same way. Someone notices small round beetles collecting on a windowsill or inside a light fixture, identifies them correctly as carpet beetles, and treats the room they found them in. Nothing improves, because the beetles on the glass are not eating anything in that room. Adult carpet beetles feed on pollen and nectar &mdash; outdoors, on flowers &mdash; and the reason they are on your window is that they are trying to get out.</p>
