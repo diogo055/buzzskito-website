@@ -10306,57 +10306,6 @@
    "role": "page",
    "minExisting": 2,
    "mustLink": [
-    "/learn/cockroaches"
-   ],
-   "neighbors": [],
-   "minNeighbors": 0,
-   "slug": "american-cockroaches",
-   "cluster": "cockroaches",
-   "keyword": "american cockroach",
-   "alsoTargets": [
-    "palmetto bug",
-    "american cockroach vs german cockroach",
-    "palmetto bug vs roach"
-   ],
-   "h1Hint": "American Cockroaches (Palmetto Bugs): ID, Flying and Why They Come Indoors",
-   "metaTitleHint": "American Cockroach (Palmetto Bug): ID Guide",
-   "scope": "Periplaneta americana: size and markings, the palmetto bug and water bug names, sewer and outdoor populations in the South, gliding flight, why sightings indoors do not always mean an infestation, and exclusion.",
-   "pageType": "entity-id",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1100,
-   "parent": {
-    "href": "/learn/cockroaches",
-    "name": "Cockroaches"
-   },
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/learn/cockroaches",
-     "overlap": "species section",
-     "resolution": "summary + link"
-    },
-    {
-     "path": "/blog/bugs-that-look-like-cockroaches",
-     "overlap": "\"Is a palmetto bug a different insect?\" section",
-     "resolution": "link"
-    },
-    {
-     "path": "/blog/water-bugs-vs-cockroaches",
-     "overlap": "\"What about the American cockroach?\"",
-     "resolution": "link"
-    }
-   ],
-   "family": "household",
-   "priority": 3,
-   "releaseOn": "2026-12-28"
-  },
-  {
-   "section": "blog",
-   "role": "page",
-   "minExisting": 2,
-   "mustLink": [
     "/learn/natural-garden-pest-control"
    ],
    "neighbors": [],
@@ -11217,7 +11166,7 @@
    "collisions": [],
    "family": "stinging-insects",
    "priority": 3,
-   "releaseOn": "2027-01-04"
+   "releaseOn": "2026-12-28"
   },
   {
    "section": "blog",

@@ -15204,7 +15204,7 @@
    "resolution": "new page",
    "pairWith": null,
    "priority": 3,
-   "gate": null,
+   "gate": "folded into /blog/palmetto-bugs (data/god-build/next-50.md, Oct 16, 2026): one page for \"palmetto bug\" and the American cockroach instead of two that would compete; build only if the owner decides otherwise",
    "parent": {
     "href": "/learn/cockroaches",
     "name": "Cockroaches"

@@ -367,7 +367,6 @@
 - `/blog/mayflies` — mayflies
 - `/blog/european-hornets` — european hornet
 - `/blog/wheel-bugs` — wheel bug
-- `/blog/american-cockroaches` — american cockroach
 - `/blog/bot-flies` — bot fly
 - `/blog/clothes-moths` — clothes moths
 - `/blog/ticks-on-cats` — ticks on cats

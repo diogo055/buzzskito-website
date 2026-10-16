@@ -433,7 +433,6 @@
 - `/blog/mayflies` — mayflies
 - `/blog/european-hornets` — european hornet
 - `/blog/wheel-bugs` — wheel bug
-- `/blog/american-cockroaches` — american cockroach
 - `/blog/spotted-lanternfly` — spotted lanternfly
 - `/blog/bot-flies` — bot fly
 - `/blog/leaf-footed-bugs` — leaf footed bug

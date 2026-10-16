@@ -17667,73 +17667,6 @@
    }
   },
   {
-   "slug": "american-cockroaches",
-   "kind": "spoke",
-   "section": "blog",
-   "cluster": "cockroaches",
-   "path": "/blog/american-cockroaches",
-   "keyword": "american cockroach",
-   "alsoTargets": [
-    "palmetto bug",
-    "american cockroach vs german cockroach",
-    "palmetto bug vs roach"
-   ],
-   "ranks": [],
-   "type": "informational",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1100,
-   "datePublished": "2026-12-28",
-   "projClicks": 0,
-   "batch": "god",
-   "audience": "us",
-   "role": "page",
-   "series": null,
-   "state": null,
-   "releaseOn": "2026-12-28",
-   "parent": {
-    "href": "/learn/cockroaches",
-    "name": "Cockroaches"
-   },
-   "h1Hint": "American Cockroaches (Palmetto Bugs): ID, Flying and Why They Come Indoors",
-   "scope": "Periplaneta americana: size and markings, the palmetto bug and water bug names, sewer and outdoor populations in the South, gliding flight, why sightings indoors do not always mean an infestation, and exclusion.",
-   "dataPacket": null,
-   "metaTitleHint": "American Cockroach (Palmetto Bug): ID Guide",
-   "pageType": "entity-id",
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/learn/cockroaches",
-     "overlap": "species section",
-     "resolution": "summary + link"
-    },
-    {
-     "path": "/blog/bugs-that-look-like-cockroaches",
-     "overlap": "\"Is a palmetto bug a different insect?\" section",
-     "resolution": "link"
-    },
-    {
-     "path": "/blog/water-bugs-vs-cockroaches",
-     "overlap": "\"What about the American cockroach?\"",
-     "resolution": "link"
-    }
-   ],
-   "required": {
-    "pillar": null,
-    "ring": [],
-    "minSiblings": 0,
-    "minExisting": 2,
-    "category": null,
-    "mustLink": [
-     "/learn/cockroaches"
-    ],
-    "neighbors": [],
-    "minNeighbors": 0,
-    "seriesAll": []
-   }
-  },
-  {
    "slug": "spotted-lanternfly",
    "kind": "spoke",
    "section": "blog",
@@ -18920,14 +18853,14 @@
     "id"
    ],
    "minWords": 900,
-   "datePublished": "2027-01-04",
+   "datePublished": "2026-12-28",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2027-01-04",
+   "releaseOn": "2026-12-28",
    "parent": {
     "href": "/learn/wasps-and-bees",
     "name": "Wasps and Bees"

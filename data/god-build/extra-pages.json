@@ -5342,54 +5342,6 @@
    "priority": 3
   },
   {
-   "slug": "american-cockroaches",
-   "section": "blog",
-   "role": "page",
-   "cluster": "cockroaches",
-   "keyword": "american cockroach",
-   "alsoTargets": [
-    "palmetto bug",
-    "american cockroach vs german cockroach",
-    "palmetto bug vs roach"
-   ],
-   "h1Hint": "American Cockroaches (Palmetto Bugs): ID, Flying and Why They Come Indoors",
-   "metaTitleHint": "American Cockroach (Palmetto Bug): ID Guide",
-   "scope": "Periplaneta americana: size and markings, the palmetto bug and water bug names, sewer and outdoor populations in the South, gliding flight, why sightings indoors do not always mean an infestation, and exclusion.",
-   "pageType": "entity-id",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1100,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/cockroaches",
-    "name": "Cockroaches"
-   },
-   "mustLink": [
-    "/learn/cockroaches"
-   ],
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/learn/cockroaches",
-     "overlap": "species section",
-     "resolution": "summary + link"
-    },
-    {
-     "path": "/blog/bugs-that-look-like-cockroaches",
-     "overlap": "\"Is a palmetto bug a different insect?\" section",
-     "resolution": "link"
-    },
-    {
-     "path": "/blog/water-bugs-vs-cockroaches",
-     "overlap": "\"What about the American cockroach?\"",
-     "resolution": "link"
-    }
-   ],
-   "family": "household",
-   "priority": 3
-  },
-  {
    "slug": "spotted-lanternfly",
    "section": "blog",
    "role": "page",
