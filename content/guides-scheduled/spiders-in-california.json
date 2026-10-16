@@ -1,0 +1,213 @@
+{
+  "slug": "spiders-in-california",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "spiders in california",
+  "alsoTargets": [
+    "california spiders",
+    "common spiders in california",
+    "dangerous spiders in california",
+    "black spiders in california",
+    "spiders in california that bite",
+    "brown recluse in california",
+    "are there brown recluse in california"
+  ],
+  "metaTitle": "Spiders in California: Common Species (Photos)",
+  "metaDescription": "Photos of California's common spiders, the one feature that identifies each, which ones bite, and why the brown recluse is not established in the state.",
+  "h1": "Spiders in California: Common Species and the Brown Recluse Myth",
+  "dek": "The black spider in the garage, the brown one under the patio chair and the long-legged one on the ceiling are different spiders. Photos, sizes and the one feature that identifies each, plus why California has no brown recluses.",
+  "breadcrumb": "Spiders in California",
+  "excerpt": "Photos and the one feature that identifies each common California spider, from black and brown widows to cellar and jumping spiders, and why recluses are rare there.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most spiders Californians find are harmless; the one to know is the western black widow, a shiny black spider with a red hourglass under a round abdomen.** A brown spider is almost never a brown recluse: [UC IPM](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) says California has no brown recluse populations, and its native desert recluse lives mostly in the southeastern deserts.",
+    "bullets": [
+      "Adult female western black widows have a body about 1/2 inch long, and UC IPM says they live in populated areas almost everywhere in California.",
+      "The brown widow, about 3/8 inch long and mottled tan, brown and gray, became established in Southern California in the 2000s; its egg sacs are covered in silk spikes.",
+      "UC IPM counts fewer than 20 verified brown recluses collected in California over several decades, and as of October 2026 none of the state's 230,295 research-grade spider records on iNaturalist is a brown recluse.",
+      "The false black widow, about 3/8 inch long, chocolate brown and never red underneath, is extremely common in Pacific Coast homes, and UC IPM likens its bite to a yellowjacket sting.",
+      "California has at least 54 spider families and more than 1,000 species, according to UC IPM.",
+      "The noble false widow, a European spider first found in Ventura County in 2011, now has more research-grade iNaturalist records in California than any other spider."
+    ]
+  },
+  "facts": {
+    "title": "California spiders at a glance",
+    "rows": [
+      ["Western black widow", "Shiny black female, body about 1/2 inch, red hourglass underneath; garages, woodpiles, clutter"],
+      ["Brown widow", "Mottled tan, brown and gray, about 3/8 inch, orange hourglass; spiky egg sacs; mainly Southern California"],
+      ["False black widow", "Round, chocolate-brown abdomen, never red; about 3/8 inch; common in coastal homes"],
+      ["Noble false widow", "Up to 5/8 inch; pale pattern like a house with two windows on top of the abdomen"],
+      ["Cellar spiders", "Very long, thin legs on a small, pale body; loose, tangled web; whirls when disturbed"],
+      ["Yellow sac spider", "Pale yellow with a slightly darker stripe; silk sac in a wall or ceiling corner"],
+      ["Wolf spiders", "No web; two large eyes above a row of four small ones; female carries her egg sac or young"],
+      ["Johnson's jumping spider", "Black front body, red abdomen; 1/4 to 1/2 inch; leaps"],
+      ["Tarantulas", "Body 1 to 2 inches; live in burrows; males wander in fall"],
+      ["Desert recluse", "Six eyes in three pairs, faint or no violin; southeastern deserts"],
+      ["Brown recluse", "No populations in California; fewer than 20 verified finds in several decades"],
+      ["Hobo spider", "Not documented in California"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What spiders are most common in California?" },
+    { "type": "p", "text": "False widows, jumping spiders and the two widows top the list. Counting research-grade records on [iNaturalist](https://www.inaturalist.org/observations?place_id=14&quality_grade=research&taxon_id=47118&view=species), photos whose species other users have agreed on, California's ten most-recorded spiders are the noble false widow, bold jumping spider, western black widow, brown widow, Johnson's jumping spider, silver garden spider, Koch's wolf spider, cross orbweaver, false black widow and long-bodied cellar spider. The state had 230,295 such records of 580 species as of October 16, 2026. They show what people photograph, not how many spiders there are." },
+    { "type": "figure", "src": "/guides/photos/western-black-widow-egg-sacs.webp", "width": 1200, "height": 1200, "alt": "Glossy black western black widow hanging in a corner web beside two smooth, cream-colored egg sacs, with a red mark showing on the underside of its abdomen", "caption": "Adult western black widow, *Latrodectus hesperus*, beside two egg sacs in Riverside, California, red hourglass showing. UC IPM calls it the state's most common harmful spider.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/309876963" },
+    { "type": "p", "text": "Few can hurt you. [UC IPM's Pest Note on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) says most spiders' jaws are too small to bite people and that the black widow is the main spider in California that can cause serious injury; the [Essig Museum of Entomology at UC Berkeley](https://essig.berkeley.edu/identifications/spiders) calls it the only one you are likely to meet with medically significant venom. California has more than 1,000 spider species, says [UC IPM's natural enemies gallery](https://ipm.ucanr.edu/PMG/NE/spiders.html)." },
+    { "type": "table", "head": ["Spider", "Body length", "Where you find it", "Bite"], "rows": [
+      ["Western black widow", "About 1/2 inch (female)", "Garages, woodpiles, clutter", "Can be serious"],
+      ["Brown widow", "About 3/8 inch (female)", "Patio furniture, fences; mostly Southern California", "Much milder"],
+      ["False black widow", "About 3/8 inch", "Bathrooms, cupboards, under appliances", "Like a yellowjacket sting"],
+      ["Noble false widow", "Up to 5/8 inch (female)", "Coastal California, San Diego to the Bay Area", "Not medically significant"],
+      ["Cellar spiders", "1/4 to 5/16 inch (long-bodied)", "Ceiling corners, garages", "Fangs rarely pierce skin"],
+      ["Yellow sac spider", "3/16 to 3/8 inch (female)", "Wall and ceiling corners", "Pain like a bee sting"],
+      ["Wolf spiders", "1/4 inch to 1 inch", "Ground, leaf litter, low plants", "Harmless"],
+      ["Johnson's jumping spider", "1/4 to 1/2 inch", "Plants and the ground, by day", "Usually not serious"],
+      ["Tarantulas", "1 to 2 inches", "Burrows; males roam in fall", "At worst like a bee sting"],
+      ["Desert recluse", "Up to 3/8 inch (all recluses)", "Southeastern deserts", "Potent, rarely met"]
+    ], "caption": "Body length without legs. Sources: UC IPM, the Essig Museum, Penn State Extension and the Missouri Department of Conservation, linked below." },
+
+    { "type": "h2", "text": "How can you tell which California spider you have?" },
+    { "type": "p", "text": "Check the web, the underside, the eyes and the legs, with the spider trapped under a clear jar, as UC IPM suggests." },
+    { "type": "checklist", "title": "Checks for a spider in a jar", "items": [
+      "**Web.** A messy cobweb with the spider hanging upside down: the widow family. A wheel-shaped web: an orb weaver. A sheet narrowing to a funnel: a grass spider. A silk sac in a ceiling corner: a sac spider. No web: a hunter, such as a wolf or jumping spider.",
+      "**Underside and color.** A red or orange hourglass under a round abdomen means a widow: shiny black for a western black widow, mottled tan to gray for a brown widow. Round and chocolate brown with no red: a false black widow.",
+      "**Eyes.** Use a magnifying glass. A big middle pair in front: a jumping spider. Two large eyes above a row of four small ones: a wolf spider. Six eyes in three pairs: possibly a recluse, in California most likely the desert recluse.",
+      "**Legs and size.** Very long, thin legs on a small, pale body mean a cellar spider; spiny or banded legs rule out a recluse. Against a ruler marked in inches, female black widows measure about 1/2 inch, brown and false black widows about 3/8 inch."
+    ] },
+
+    { "type": "h2", "text": "Is the shiny black spider a black widow?" },
+    { "type": "p", "text": "If it is shiny jet black with a red hourglass under a large, round abdomen, yes: an adult female western black widow, *Latrodectus hesperus*, the only black widow in the western United States. [UC IPM's Pest Note on widow spiders](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) puts her body at about 1/2 inch (13 mm) and says the red mark varies and is rarely missing altogether." },
+    { "type": "p", "text": "She lives in populated areas almost everywhere in California, from the deserts to Southern California mountains above 5,000 feet, UC IPM says, nesting outdoors in holes, crevices, clutter and rock walls and, in garages, by doors and vents. Black widows are almost never found inside homes, and bites are quite rare even where the spiders are very common, says UC IPM's widow Pest Note; its 2020 spider Pest Note calls black widow bites fairly common in California." },
+    { "type": "p", "text": "Males and young widows have white stripes on a tan abdomen, and males' fangs are too small to break human skin, UC IPM says; Rick Vetter of UC Riverside writes that people often bring in the striped males fearing they are brown recluses. [The black widow guide](/blog/black-widow-spiders) has more." },
+    { "type": "h3", "text": "What is the dark brown spider that looks like a widow?" },
+    { "type": "p", "text": "Indoors, most likely a false black widow, *Steatoda grossa*: the same round abdomen, about 3/8 inch (10 mm) long, chocolate brown and never red underneath. UC IPM says this European immigrant is extremely common in Pacific Coast homes, especially bathrooms, cupboards and under appliances, and is involved in more bites than either widow, though its venom is mild: a bite may cause burning pain and minor swelling, like a yellowjacket sting." },
+    { "type": "figure", "src": "/guides/photos/false-black-widow.webp", "width": 1200, "height": 900, "alt": "Adult female false black widow on weathered wood, with a glossy, round, dark purplish-brown abdomen and slender reddish-brown legs", "caption": "Adult female false black widow, *Steatoda grossa*, found at Mare Island, California: dark brown, with no red marking.", "credit": "Ryan Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Steatoda_grossa_female_01.jpg" },
+    { "type": "p", "text": "Its bigger cousin, the noble false widow (*Steatoda nobilis*), was discovered in Ventura County in 2011 and became widespread in coastal San Diego County, Monterey and the Bay Area, UC IPM says. Females reach 5/8 inch (14 mm), usually with a pale pattern like a house with two windows on the abdomen, and UC IPM does not consider the bites medically significant. [The false widow guide](/blog/false-widow-spiders) has more." },
+    { "type": "media", "needed": "Noble false widow (Steatoda nobilis) photographed in California, identified to species, top view showing the pale house-shaped pattern on the abdomen and the tan band on its front edge; public domain or CC0" },
+    { "type": "h3", "text": "What should you do after a black widow bite?" },
+    { "type": "p", "text": "Get medical help. [CDC's first aid for venomous spider bites](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) is to stay calm, identify the spider only if that is safe, wash the bite with soap and water, apply a cloth dampened with cold water or filled with ice, raise the area if possible, not try to remove venom, and seek professional medical attention; UC IPM says to seek it immediately. [Poison Control](https://www.poison.org/articles/black-widow-spiders) says cramps can begin 15 to 60 minutes after a bite and recovery usually comes within 24 to 48 hours, though symptoms can last several days; its number is 1-800-222-1222." },
+
+    { "type": "h2", "text": "Where do brown widows live in California?" },
+    { "type": "p", "text": "Mostly in Southern California, where the non-native brown widow, *Latrodectus geometricus*, became established in the 2000s. UC IPM says that as of 2016 it was well established from Santa Barbara to the San Bernardino area and south to Mexico but not in the Central Valley or the deserts, and that supposed brown widows sent in from farther north had turned out to be other spiders, though it may still be spreading." },
+    { "type": "p", "text": "iNaturalist records now reach farther north: most of the state's 11,587 research-grade brown widow records come from Los Angeles, San Diego, Riverside and Orange counties, but as of October 16, 2026, [Santa Clara County had 266](https://www.inaturalist.org/observations?place_id=1250&quality_grade=research&taxon_id=47383), 109 of them from 2026. Records show where people photographed the spider, not where it has settled." },
+    { "type": "p", "text": "A brown widow is mottled tan, brown and gray and about 3/8 inch (10 mm) long, UC IPM says, and its hourglass is typically orange rather than vivid red, according to Rick Vetter's [brown widow page for UC Riverside's Center for Invasive Species Research](https://cisr.ucr.edu/brown_widow_spider.html). It looks much like a young western black widow, so UC IPM calls the egg sac the surer sign: covered in silk spikes, it confirms brown widows even when no spider is in sight." },
+    { "type": "figure", "src": "/guides/photos/brown-widow-egg-sacs.webp", "width": 1152, "height": 2048, "alt": "Two round, pale cream brown widow egg sacs covered in short silk spikes, held in a cobweb among green leaves", "caption": "Brown widow egg sacs, *Latrodectus geometricus*, among leaves. UC IPM says a spiky sac like these confirms brown widows are present.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/391056042" },
+    { "type": "p", "text": "Brown widows pick more exposed spots than black widows: Vetter lists buckets, nursery pots, mailboxes, eaves, trash can handles and the undersides of outdoor furniture and railings. UC IPM says they are extremely common under plastic patio furniture and also turn up on chain-link fences, and in a 2012 study they outnumbered black widows around homes and in parks, especially under playground equipment." },
+    { "type": "p", "text": "The bite is much milder than a black widow's. The venom is at least as potent drop for drop in mouse tests, but UC IPM says the spider is smaller, likely injects much less and usually drops from its web and plays dead when disturbed; one verified bite in the US did lead to a hospital stay. [The brown widow guide](/blog/brown-widow-spiders) has more." },
+
+    { "type": "h2", "text": "What is the long-legged spider on the ceiling?" },
+    { "type": "p", "text": "A small, pale spider on very long, thin legs, in a loose, tangled web, is a cellar spider. The [Essig Museum](https://essig.berkeley.edu/identifications/spiders) says the common ones around California homes are two European species, the long-bodied cellar spider, with a plain gray-brown abdomen, and the marbled cellar spider, and that both often whirl in their webs when disturbed. [Penn State Extension](https://extension.psu.edu/longbodied-cellar-spider) gives the long-bodied one a body about 1/4 to 5/16 inch (6 to 8 mm) long and female front legs about 2 inches long." },
+    { "type": "figure", "src": "/guides/photos/cellar-spider.webp", "width": 1200, "height": 1600, "alt": "Long-bodied cellar spider on a textured white wall, with a small pale body, a long, tube-shaped abdomen with dark smudges and very long, thin legs", "caption": "Long-bodied cellar spider, *Pholcus phalangioides*, in Foster City, California. Its legs are many times longer than its small, pale body.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/296194035" },
+    { "type": "p", "text": "UC IPM says the marbled cellar spider, introduced in the 1970s, has displaced the once-common long-bodied one in California, though the Essig Museum still lists both. Their fangs are too short to pierce skin in most cases; their nuisance is messy cobwebs. [The daddy longlegs guide](/blog/daddy-long-legs) explains the nickname." },
+
+    { "type": "h2", "text": "What is the pale spider on the wall at night?" },
+    { "type": "p", "text": "Most likely a yellow sac spider. UC IPM describes the house-dwelling *Cheiracanthium mildei* as small and light yellow with a slightly darker stripe on the abdomen; it spins a silk sac in ceiling and wall corners or behind pictures, runs over walls and ceilings at night and drops to the floor when disturbed. [Penn State Extension](https://extension.psu.edu/agrarian-sac-spider-and-longlegged-sac-spider) gives females a body 3/16 to 3/8 inch (5 to 10 mm) long, with darker mouthparts and foot tips." },
+    { "type": "figure", "src": "/guides/photos/yellow-sac-spider.webp", "width": 1200, "height": 900, "alt": "Pale cream yellow sac spider standing on a smooth gray surface, seen from the front, with orange-brown mouthparts and dark tips on its feet", "caption": "Northern yellow sac spider, *Cheiracanthium mildei*. Look for the pale body and the darker mouthparts and feet.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/135845728" },
+    { "type": "p", "text": "Bites happen when one is trapped against skin in clothing or bedding: UC IPM lists pain like a bee sting, redness and sometimes swelling, and Penn State says studies of many verified bites failed to confirm the dying-tissue wounds once blamed on sac spiders. [The yellow sac spider guide](/blog/yellow-sac-spiders) has more." },
+
+    { "type": "h2", "text": "Which spiders run or jump in California yards?" },
+    { "type": "p", "text": "Wolf spiders and jumping spiders, hunters that spin no web to catch prey. A wolf spider has four small eyes in a row across the front, a larger pair above them and a widely spaced pair on top of the head, which shine green in a flashlight beam, UC IPM says. The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders) gives wolf spiders a body 1/4 inch to 1 inch long, says a female carries her pea-sized egg sac at her spinnerets and then her spiderlings on her back, and calls the bites of North American wolf spiders harmless." },
+    { "type": "figure", "src": "/guides/photos/wolf-spider-egg-sac.webp", "width": 1200, "height": 900, "alt": "Small gray-brown wolf spider on gravel seen from above, holding a round white egg sac under the rear of its body", "caption": "Adult female wolf spider, *Allocosa subparva*, carrying her egg sac in Turlock, California. A sac at the rear of the body marks a female wolf spider.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/184904708" },
+    { "type": "p", "text": "Most wolf spiders around California homes are *Pardosa* species, the Essig Museum says, and UC IPM says new housing developments may be invaded by wolf spiders that have lost their outdoor homes. [The wolf spider guide](/blog/wolf-spiders) and [the spider egg sac guide](/blog/spider-egg-sacs) have more." },
+    { "type": "p", "text": "Jumping spiders hunt by day, pouncing from many times their body length, and UC IPM says the middle pair of their front eyes is large and distinctive. The bold jumping spider and Johnson's jumping spider lead California's iNaturalist records for the group. Johnson's is 1/4 to 1/2 inch long, black with red on top of the abdomen (an all-red abdomen in males), and may bite if disturbed, but UC IPM says the bites are usually not serious. [The jumping spider guide](/blog/jumping-spiders) covers more." },
+    { "type": "figure", "src": "/guides/photos/johnson-jumping-spider.webp", "width": 1200, "height": 936, "alt": "Johnson's jumping spider on a green grass blade, a hairy black spider with a red-orange abdomen marked with a black stripe and spots", "caption": "Johnson's jumping spider, *Phidippus johnsoni*, in Sebastopol, California. Look for the black front body and red abdomen.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/44200934" },
+
+    { "type": "h2", "text": "What spiders build the big webs in California gardens?" },
+    { "type": "p", "text": "Mostly orb weavers, which spin wheel-shaped webs and wait at the center or in a shelter at the edge, UC IPM says; the silver garden spider and the cross orbweaver are among California's ten most-recorded spiders on iNaturalist. The Essig Museum says the cross orbweaver, a European invader, can become imposing in size and numbers in late fall, and that silver, yellow and banded garden spiders mark their webs with shiny, radiating bands of silk." },
+    { "type": "media", "needed": "Silver garden spider (Argiope argentata) or western spotted orbweaver (Neoscona oaxacensis) photographed in California, identified to species, sitting in its orb web; public domain or CC0" },
+    { "type": "p", "text": "A sheet web narrowing to a funnel on shrubs or tall grass is a grass spider's, and a lacy mesh on fences, signs and side mirrors may be the black house spider's, an invader from Australia and New Zealand, the Essig Museum says. UC IPM does not list these web builders among the few California spiders that may bite people. [The orb weaver guide](/blog/orb-weaver-spiders) and [the grass spider guide](/blog/grass-spiders) have more." },
+    { "type": "h3", "text": "Are there hobo spiders in California?" },
+    { "type": "p", "text": "None has been confirmed by a spider expert. [UC IPM's hobo spider Pest Note](https://ipm.ucanr.edu/legacy_assets/pdf/pestnotes/pnhobospider.pdf) says the hobo spider does not live in California and no arachnologist has verified one there, though its range could conceivably reach the northernmost areas. A few iNaturalist photos from around Mount Shasta carry the name, but UC IPM says only an arachnologist examining reproductive structures can tell funnel weavers apart. A common look-alike, the barn funnel weaver, 1/4 to 1/2 inch long, lives throughout California, often indoors, and is not considered toxic. [The hobo spider guide](/blog/hobo-spiders) has more." },
+
+    { "type": "h2", "text": "Are there brown recluses in California?" },
+    { "type": "p", "text": "No. [UC IPM's Pest Note on recluse spiders](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/), by retired UC Riverside spider expert Rick Vetter, says California has no brown recluse populations. Fewer than 20 verified specimens have been collected in the state over several decades, typically stowaways in goods from out of state or in the belongings of people moving from the Midwest, and searches around them found no more." },
+    { "type": "p", "text": "In a 2000 to 2005 national study of suspected brown recluses, nearly 600 spiders came from California and one was a brown recluse, from a family that had moved from Missouri, UC IPM reports, and it says the spiders Californians most often submit as brown recluses are *Titiotus*, forest spiders with a hair pattern that suggests a violin. In [Myth of the Brown Recluse](https://spiders.ucr.edu/myth-brown-recluse-fact-fear-and-loathing), a page he presents as his own opinion rather than UC Riverside's, Vetter writes that about 20,000 spiders turned in by Californians over several decades included none, and none of the state's 230,295 research-grade spider records on iNaturalist is one. [The brown recluse look-alike guide](/blog/brown-recluse-look-alikes) shows the eye and leg checks." },
+    { "type": "p", "text": "California does have native recluses: UC IPM counts four species in southern parts of the state. The most common, the desert recluse, lives mostly in the Sonoran and Mojave deserts and the foothills of the lower San Joaquin Valley, sparsely populated areas. It has six eyes in three pairs and a faint or missing violin mark, and where it lives it can be plentiful: 12 were collected under one doghouse in Yucca Valley." },
+    { "type": "figure", "src": "/guides/photos/desert-recluse.webp", "width": 1200, "height": 1174, "alt": "Pale tan desert recluse with long, thin, plain legs standing on sandy, gravelly ground beside a rock", "caption": "Desert recluse, *Loxosceles deserta*, photographed in Pima County, Arizona. Like the brown recluse, California's native recluses have six eyes in three pairs, but their violin mark is faint or missing.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/328982725" },
+    { "type": "p", "text": "UC IPM says its venom is similar to the brown recluse's and should be considered as potent, but calls it a minor concern; Vetter writes that California's native recluses are not considered as dangerous as the brown recluse." },
+    { "type": "map", "scope": "CA", "title": "Recluse spider records in California on iNaturalist, by county", "categories": [
+      { "key": "r10", "label": "10 or more research-grade records" },
+      { "key": "r1", "label": "1 to 9 research-grade records" }
+    ], "values": {
+      "06071": "r10", "06037": "r10", "06073": "r10", "06065": "r10", "06029": "r10", "06025": "r10", "06019": "r10", "06027": "r10",
+      "06069": "r1", "06107": "r1"
+    }, "caption": "Research-grade records of recluse spiders (genus *Loxosceles*) as of October 16, 2026: 248 in all, 242 of them desert recluses, 2 Chilean recluses and no brown recluses. Most come from the deserts and the dry hills west of the San Joaquin Valley; Los Angeles County's are mostly from the Antelope Valley and around Santa Clarita. No record does not mean no recluses.", "source": "[iNaturalist, research-grade recluse (Loxosceles) observations in California](https://www.inaturalist.org/observations?place_id=14&quality_grade=research&taxon_id=48137), retrieved October 16, 2026" },
+    { "type": "p", "text": "The Chilean recluse, a South American species, has lived in a small part of Los Angeles County (Alhambra, Sierra Madre, Monterey Park and San Gabriel) since at least 1936 without spreading, UC IPM says, and a [2019 UC article on brown recluses in California](https://spiders.ucr.edu/news/2019/05/20/brown-recluse-spiders-not-california) says it has been found only in commercial buildings, never in homes, with no confirmed bites." },
+    { "type": "h3", "text": "If not a brown recluse, what caused the wound?" },
+    { "type": "p", "text": "Most often something other than a spider. UC IPM says California does not have anywhere near enough brown recluses to explain the bites blamed on them, and the 2019 article reports that in a study mapping California diagnoses, more than 95 percent of supposed brown recluse bites came from urban areas where recluses are not known to live. On his Myth of the Brown Recluse page, Vetter writes that a small fraction of 1 percent, possibly none, of the state's brown recluse bite diagnoses are correct." },
+    { "type": "p", "text": "UC IPM's likelier causes include bacterial infections such as MRSA, found in 29 percent of patients seen for supposed spider bites in one study at 11 university medical centers, and blood feeders such as fleas, mites, bed bugs, ticks and kissing bugs. A spider typically bites once, in self-defense, so several sores at once or on several people in one home point away from a spider. [Poison Control](https://www.poison.org/articles/insect-and-spider-bites) says to seek help if symptoms at a bite get much worse or affect other parts of the body, if you have a history of allergic reactions, or if you think a black widow or brown recluse bit you." },
+    { "type": "p", "text": "[What spider bites look like](/blog/what-does-a-spider-bite-look-like), [how a mosquito bite differs from a spider bite](/blog/mosquito-bite-vs-spider-bite) and [the brown recluse bite guide](/blog/brown-recluse-bite) cover the look-alikes." },
+
+    { "type": "h2", "text": "Does California have tarantulas and trapdoor spiders?" },
+    { "type": "p", "text": "Yes, and both live in burrows, so the ones people meet are often wandering males. The Essig Museum says all of California's native tarantulas are *Aphonopelma* species: females live in burrows and are sometimes dug up in gardens, tarantulas often turn up in pool filters, and males roam in search of females in fall. UC IPM gives them a body 1 to 2 inches long and says a California tarantula's bite is at worst similar to a bee sting." },
+    { "type": "media", "needed": "Native California tarantula (Aphonopelma), ideally a wandering male photographed in California in fall, or a California trapdoor spider (Bothriocyrtum californicum) beside its open burrow lid, identified to genus or species; public domain or CC0" },
+    { "type": "p", "text": "The California trapdoor spider, *Bothriocyrtum californicum*, lives in a silk-lined burrow up to about 3/4 inch wide and 8 inches deep under a tight, D-shaped hinged lid, according to [a UC Irvine natural history page](https://nathistoc.bio.uci.edu/spiders/Bothriocyrtum%20californicum.htm); the female never strays far from it, and males wander in fall looking for females. The smaller false tarantula (*Calisoga*), which cannot climb smooth surfaces, is very often met in the Oakland hills, the Essig Museum says. [The tarantula guide](/blog/tarantulas) has more." },
+
+    { "type": "h2", "text": "When are spiders most noticeable in California?" },
+    { "type": "p", "text": "Late summer and fall: California's research-grade spider records on iNaturalist peak in September at 31,724 and drop to about 8,000 a month in December and January, all years combined. They track when people notice spiders, not how many there are." },
+    { "type": "chart", "title": "Research-grade spider sightings in California on iNaturalist, by month observed", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [
+      { "name": "Research-grade observations", "values": [7999, 9304, 16315, 24120, 23423, 20043, 22084, 25255, 31724, 27702, 14403, 7923] }
+    ], "yLabel": "Observations, all years combined, as of October 16, 2026", "caption": "Photo records of spiders taken in California in each month whose species other iNaturalist users agreed on.", "source": "[iNaturalist](https://www.inaturalist.org/observations?place_id=14&quality_grade=research&taxon_id=47118&view=species), research-grade spider observations in California, retrieved October 16, 2026" },
+    { "type": "p", "text": "Wandering may explain part of the fall peak: UC IPM says big hunting spiders found in homes and garages are often grown males seeking females, and the Essig Museum says tarantula males roam in fall." },
+
+    { "type": "h2", "text": "What should you do about spiders around a California home?" },
+    { "type": "p", "text": "Usually little. UC IPM says spiders are mostly beneficial, pesticides are not generally needed and control should focus on removing webs and hiding places:" },
+    { "type": "ul", "items": [
+      "**Seal and screen.** Seal foundation cracks and gaps around windows and doors, and keep screens tight.",
+      "**Vacuum.** Vacuum windows, corners and storage areas; a spider's soft body usually does not survive the hose.",
+      "**Move one outside.** Trap it under a jar, slide paper underneath and release it outdoors.",
+      "**Garages.** Wear gloves when clearing clutter, keep gardening gloves and clothes in closed bags, and store boxes taped shut and off the floor.",
+      "**Outdoors.** Keep the foundation clear of trash, leaf litter and heavy vegetation, stack woodpiles away from the house, and keep lights away from doors and windows, since they draw the insects spiders eat."
+    ] },
+    { "type": "p", "text": "[Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing, [the guide to common house spiders](/blog/house-spiders) the indoor species and [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) control. [The bug bite picture chart](/learn/bug-bites) shows bites that get blamed on spiders, [the venomous spiders guide](/blog/venomous-spiders) lists widows and recluses by state, and separate guides cover [spiders in Florida](/blog/spiders-in-florida) and [spiders in Texas](/blog/spiders-in-texas)." },
+    { "type": "callout", "tone": "tip", "title": "Save the spider", "text": "Keep the spider whole in a sealed jar, since a crushed one may be hard to identify, photograph it beside a ruler marked in inches and note where you found it. UC IPM suggests taking it to your county UC Cooperative Extension office and, if no one there can identify it, asking that it be forwarded to an arachnologist." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most dangerous spider in California?",
+      "answer": "The western black widow. UC IPM calls it the most common harmful spider in California and the main spider in the state that can cause serious injury, and the Essig Museum at UC Berkeley calls it the only spider you are likely to meet there whose venom is medically significant. The adult female is shiny black with a red hourglass under a round abdomen. California's native desert recluse also has potent venom, but UC IPM calls it a minor concern, and it lives mostly in sparsely populated desert."
+    },
+    {
+      "question": "Is a brown widow more dangerous than a black widow?",
+      "answer": "No. UC IPM says the brown widow's bite is much milder than the western black widow's. Its venom is at least as potent drop for drop in mouse tests, but the spider is smaller, likely injects much less and usually drops from its web and plays dead when disturbed. UC IPM even suggests that if brown widows are displacing black widows in Southern California, the overall risk from spider bites there could fall. One verified bite in the US did lead to a hospital stay."
+    },
+    {
+      "question": "What are the black spiders in my house in California?",
+      "answer": "Indoors, a round, dark spider is most likely a false black widow, which UC IPM describes as chocolate brown, never red underneath and extremely common in Pacific Coast homes, especially in bathrooms, cupboards and under appliances. Black widows are almost never found inside homes, though they are common in garages. A small black spider that leaps is a jumping spider, such as Johnson's jumping spider, which has a red abdomen. Check the underside of any round, shiny black spider for a red hourglass."
+    },
+    {
+      "question": "Do California tarantulas bite?",
+      "answer": "They can, but UC IPM says the bite of a California tarantula is not likely to be serious and at worst is similar to a bee sting. California's native tarantulas, all in the genus Aphonopelma, live in burrows, and the ones people see are often males wandering in search of females in fall, according to the Essig Museum at UC Berkeley. UC IPM notes that tarantulas sold as pets vary widely in venom potency, so its reassurance applies to the native species."
+    },
+    {
+      "question": "Can a spider bite kill you in California?",
+      "answer": "It is very unlikely. CDC says death from a venomous spider bite is extremely rare but can occur in the most severe cases. Poison Control reports no deaths in a review of more than 15,000 black widow exposures reported to US poison centers. Rick Vetter of UC Riverside writes that before antivenom, about 5 percent of black widow bites were fatal, and that with current treatment deaths are virtually nonexistent. UC IPM says small children, the elderly and people with health problems face the more severe effects."
+    },
+    {
+      "question": "Who can identify a spider in California?",
+      "answer": "Your county's UC Cooperative Extension office. UC IPM suggests taking the spider there and asking that it be forwarded to a qualified arachnologist if no one there can identify it. Keep it undamaged, because a crushed spider may be hard to identify. To ship one, UC IPM suggests freezing it, soaking it in rubbing alcohol for a few days to preserve it, then pouring off the alcohol and rinsing it with water, and it warns that mailing a spider in alcohol violates postal regulations."
+    }
+  ],
+  "sources": [
+    { "title": "Spiders (Pest Notes Publication 7442)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Widow Spiders and Their Relatives (Pest Notes Publication 74149)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Brown Recluse and Other Recluse Spiders (Pest Notes Publication 7468)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/" },
+    { "title": "Hobo Spider (Pest Notes Publication 7488)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/legacy_assets/pdf/pestnotes/pnhobospider.pdf" },
+    { "title": "Spiders (Natural Enemies Gallery)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/PMG/NE/spiders.html" },
+    { "title": "Myth of the Brown Recluse: Fact, Fear, and Loathing", "publisher": "UC Riverside Department of Entomology (Rick Vetter)", "url": "https://spiders.ucr.edu/myth-brown-recluse-fact-fear-and-loathing" },
+    { "title": "Brown Recluse Spiders? Not in California! (2019)", "publisher": "UC Riverside Spider Research, reposted from UC ANR's Pests in the Urban Landscape", "url": "https://spiders.ucr.edu/news/2019/05/20/brown-recluse-spiders-not-california" },
+    { "title": "Brown Widow Spider", "publisher": "Center for Invasive Species Research, UC Riverside (Richard S. Vetter)", "url": "https://cisr.ucr.edu/brown_widow_spider.html" },
+    { "title": "Common synanthropic spiders in California", "publisher": "Essig Museum of Entomology, UC Berkeley (Stephen Lew)", "url": "https://essig.berkeley.edu/identifications/spiders" },
+    { "title": "California trapdoor spider, Bothriocyrtum californicum", "publisher": "UC Irvine, Natural History of Orange County (Peter J. Bryant)", "url": "https://nathistoc.bio.uci.edu/spiders/Bothriocyrtum%20californicum.htm" },
+    { "title": "Longbodied Cellar Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/longbodied-cellar-spider" },
+    { "title": "Agrarian Sac Spider and Longlegged Sac Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/agrarian-sac-spider-and-longlegged-sac-spider" },
+    { "title": "Wolf Spiders", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "How dangerous is a black widow spider bite?", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/black-widow-spiders" },
+    { "title": "Insect and spider bites: When to worry", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/insect-and-spider-bites" },
+    { "title": "Research-grade spider (Araneae) observations in California", "publisher": "iNaturalist", "url": "https://www.inaturalist.org/observations?place_id=14&quality_grade=research&taxon_id=47118&view=species" },
+    { "title": "Research-grade recluse spider (Loxosceles) observations in California", "publisher": "iNaturalist", "url": "https://www.inaturalist.org/observations?place_id=14&quality_grade=research&taxon_id=48137" },
+    { "title": "Research-grade brown widow observations in Santa Clara County, California", "publisher": "iNaturalist", "url": "https://www.inaturalist.org/observations?place_id=1250&quality_grade=research&taxon_id=47383" }
+  ],
+  "disclaimer": "health"
+}
