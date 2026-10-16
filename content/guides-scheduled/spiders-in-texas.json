@@ -1,0 +1,210 @@
+{
+  "slug": "spiders-in-texas",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "spiders in texas",
+  "alsoTargets": [
+    "texas spiders",
+    "common spiders in texas",
+    "poisonous spiders in texas",
+    "spiders in texas that bite",
+    "brown recluse texas",
+    "big spiders in texas",
+    "house spiders in texas",
+    "spiders in texas pictures"
+  ],
+  "metaTitle": "Spiders in Texas: Common Species (Photos)",
+  "metaDescription": "Photos of the spiders Texans find most, from garden spiders to tarantulas, the feature that identifies each, and where recluses and widows live.",
+  "h1": "Spiders in Texas: Common Species, Recluses, Tarantulas and Which Bite",
+  "dek": "The yellow and black spider in the garden, the fuzzy jumper on the porch and the tarantula crossing the road are harmless. Photos, sizes and the one feature that identifies each, plus where Texas's recluses and widows live.",
+  "breadcrumb": "Spiders in Texas",
+  "excerpt": "Photos and the one feature that identifies each common Texas spider, from garden spiders to tarantulas, plus where brown recluses and widows live and which bites matter.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most spiders Texans find, such as garden orb weavers and jumping, wolf and lynx spiders, are harmless; the two groups to check for are widows, with a red hourglass or red marks under a round, shiny abdomen, and recluses, with six eyes in pairs and plain legs without spines.** [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/wp-content/uploads/2025/06/Spiders-1.pdf) calls only those two groups medically significant in Texas.",
+    "bullets": [
+      "Texas has 1,084 recorded spider species, according to a 2016 catalog compiled at Texas A&M University.",
+      "The yellow garden spider, whose female has a body 3/4 inch to more than 1 inch long, is the spider Texans record most often on iNaturalist, ahead of the bold jumping spider and the rabid wolf spider.",
+      "The brown recluse, with a body about 3/8 inch long, is widespread in Texas except the far south and far west, where other recluse species are recorded.",
+      "Female black widows have a body about 1/2 inch long, and Texas A&M lists the southern, western and northern black widows and the brown widow in Texas.",
+      "The Texas brown tarantula, the state's largest spider, grows to about 3 to 4 inches wide, and its bite can feel like a bee sting, according to Texas Parks & Wildlife magazine.",
+      "For a black widow or brown recluse bite, the Texas Department of State Health Services advises washing the bite, applying ice and calling the Texas Poison Center Network at 1-800-222-1222 or your doctor."
+    ]
+  },
+  "facts": {
+    "title": "Texas spiders at a glance",
+    "rows": [
+      ["Yellow garden spider", "Yellow and black abdomen; orb web with a zipper-like band of heavy silk"],
+      ["Bold jumping spider", "Fuzzy and black with white spots; two huge front eyes; iridescent green or blue jaws"],
+      ["Wolf spiders", "Hunt on the ground with no web; females carry a round egg sac, then the young on their backs"],
+      ["Green lynx spider", "Bright green on plants; long black spines on pale legs"],
+      ["Spinybacked orb weaver", "Small, wider-than-long body with six pointed spines"],
+      ["Southern house spider", "Flat, tangled web around a crack in a wall; khaki males with eight eyes on a bump"],
+      ["Spitting spider", "Six eyes like a recluse, but banded legs and a spotted, domed front body section"],
+      ["Brown recluse", "Six eyes in three pairs, legs of one color without spines, body about 3/8 inch"],
+      ["Black widows", "Black female with a red hourglass or red marks under a round abdomen"],
+      ["Brown widow", "Mottled tan, brown and gray; egg sacs covered in silk bumps"],
+      ["Texas brown tarantula", "Large and hairy, about 3 to 4 inches wide; males wander in the mating season"],
+      ["Golden silk orb weaver", "Huge golden web; brushes of hair on the legs; southeast Texas"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What spiders are most common in Texas?" },
+    { "type": "p", "text": "Garden orb weavers and jumping, wolf and lynx spiders: the yellow garden spider, bold jumping spider, rabid wolf spider, green lynx spider and spinybacked orb weaver lead the state's research-grade records on [iNaturalist](https://www.inaturalist.org/observations?place_id=18&quality_grade=research&taxon_id=47118&view=species), meaning photo records whose species other users have agreed on. As of October 16, 2026, about 224,000 such Texas records covered 525 species, led by 30,225 yellow garden spiders. The records show what people notice and photograph, not how many of each spider there are." },
+    { "type": "figure", "src": "/guides/photos/yellow-garden-spider-with-egg-sac.webp", "width": 1200, "height": 1600, "alt": "Yellow garden spider hanging in its web against gray siding, with a yellow and brown patterned abdomen and long dark legs, just below a brown, papery, pear-shaped egg sac", "caption": "Adult female yellow garden spider, *Argiope aurantia*, in her web beside an egg sac on a building wall in Cameron, Texas. Look for the yellow-patterned abdomen.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/244191355" },
+    { "type": "p", "text": "A 2016 [catalog of Texas spiders](https://pmc.ncbi.nlm.nih.gov/articles/PMC4829797/) by D. Allen Dean of Texas A&M's Department of Entomology lists 1,084 species. Only the recluses and the widows are considered medically significant, according to Texas A&M AgriLife Extension's [guide to Texas spiders](https://agrilifeextension.tamu.edu/wp-content/uploads/2025/06/Spiders-1.pdf), which says spiders rarely bite." },
+    { "type": "table", "head": ["Spider", "Female body", "Where in Texas", "Bite"], "rows": [
+      ["Yellow garden spider", "3/4 to over 1 inch", "Eastern two-thirds", "Harmless"],
+      ["Bold jumping spider", "1/4 to 3/4 inch", "Plants, fences, house siding", "Harmless"],
+      ["Wolf spiders", "Up to about 1 3/8 inches", "Lawns; come in under doors", "Pain fades within 24 hours"],
+      ["Green lynx spider", "1/2 to 7/8 inch", "Shrubs and wildflowers", "Seldom bites"],
+      ["Spinybacked orb weaver", "Up to 1/3 inch long, 1/2 inch wide", "Woods; eastern two-thirds", "No serious effects known"],
+      ["Southern house spider", "1/2 to 3/4 inch", "Wall and windowsill crevices", "Not known to be dangerous"],
+      ["Brown recluse", "About 3/8 inch", "Closets and attics; not far south or far west", "Usually minor"],
+      ["Black widows", "About 1/2 inch", "Woodpiles, garages, meter boxes", "Seek medical care"],
+      ["Texas brown tarantula", "3 to 4 inches wide", "Burrows; grassland to desert", "Like a bee sting"],
+      ["Golden silk orb weaver", "Nearly 1 to over 1 1/2 inches", "Woods in southeast Texas", "Milder than a bee sting"]
+    ], "caption": "Body length without legs, except the tarantula; sources are linked in each section below." },
+
+    { "type": "h2", "text": "How can you tell which Texas spider you have?" },
+    { "type": "p", "text": "Check its web, underside, eyes and legs: trap the spider under a clear jar instead of handling it, as Texas A&M AgriLife advises, and run these checks." },
+    { "type": "checklist", "title": "Checks for a spider in a jar", "items": [
+      "**Web.** A big wheel-shaped web: an orb weaver. A strong, sticky, irregular web with the spider hanging upside down: a black widow. A flat, tangled web around a crack in a wall: a southern house spider.",
+      "**No web.** A spider hunting on the ground, a wall or a plant: a wolf, jumping or lynx spider, a roaming male southern house spider or, indoors, possibly a recluse.",
+      "**Underside.** Two reddish triangles forming an hourglass under a round abdomen mark a widow, though Texas A&M says some widows have spots or no markings.",
+      "**Eyes.** Under a magnifying glass, six eyes in three pairs point to a recluse or a harmless spitting spider; one very large front pair, a jumping spider; four tiny eyes below a larger pair, a wolf spider.",
+      "**Legs and size.** Spines, bands or stripes on the legs rule out a recluse, and UC IPM puts a recluse's body at no more than 3/8 inch. Measure against a ruler marked in inches."
+    ] },
+
+    { "type": "h2", "text": "What is the big yellow and black spider in Texas gardens?" },
+    { "type": "p", "text": "It is the yellow garden spider, *Argiope aurantia*, also called the black and yellow garden spider, shown at the top of this page. Texas A&M AgriLife calls it common in Texas and the best known of the orb weavers, with a female body more than 1 inch long; [Missouri's field guide](https://mdc.mo.gov/discover-nature/field-guide/black-and-yellow-garden-spider) gives 3/4 to 1 inch. Males are often less than a quarter of the female's size. Its web carries a zipper-like band of heavy silk, a stabilimentum, whose purpose is not known for sure." },
+    { "type": "p", "text": "The Texas catalog records it across the eastern two-thirds of the state, with females recorded from June to November. Texas A&M calls orb weavers harmless to people. [The orb weaver guide](/blog/orb-weaver-spiders) covers other big web builders, and [the spider egg sac guide](/blog/spider-egg-sacs) shows the sacs they leave behind." },
+
+    { "type": "h2", "text": "What is the fuzzy black spider that jumps?" },
+    { "type": "p", "text": "A fuzzy black spider that walks in jerks and leaps, with two big eyes facing forward, is a jumping spider, most often the bold jumping spider, *Phidippus audax*; jumping spiders hold three of the top ten places in Texas's iNaturalist records. Texas A&M AgriLife says jumping spiders have excellent vision and hunt by day." },
+    { "type": "figure", "src": "/guides/photos/bold-jumping-spider.webp", "width": 1200, "height": 900, "alt": "Fuzzy black bold jumping spider on a green leaf, facing the camera, with two large round front eyes and shiny iridescent green jaws", "caption": "Adult female bold jumping spider, *Phidippus audax*. Look for the two big front eyes and the iridescent green jaws below them.", "credit": "Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Phidippus_audax_01.jpg" },
+    { "type": "p", "text": "The [Missouri Department of Conservation's bold jumper page](https://mdc.mo.gov/discover-nature/field-guide/bold-jumper) describes a usually black spider with white, orange or reddish spots on the abdomen and jaws that shine iridescent green or blue. Females are 1/4 to 3/4 inch long. It turns up on plants, fence posts and house siding, and the department calls the bite harmless. [The jumping spider guide](/blog/jumping-spiders) covers other species." },
+
+    { "type": "h2", "text": "Are the big spiders running across Texas lawns wolf spiders?" },
+    { "type": "p", "text": "Usually, yes. Texas A&M AgriLife Extension calls wolf spiders among the most common spiders in fields and backyards, with hundreds to thousands in an average lawn. They are hairy and mottled brown, gray or black, often with two dark stripes on the front body section, and have a row of four tiny eyes below a larger pair. They are most active after dark." },
+    { "type": "figure", "src": "/guides/photos/wolf-spider-egg-sac-side.webp", "width": 1200, "height": 675, "alt": "Side view of a brown wolf spider standing on pale concrete, holding a round white egg sac under the rear of its abdomen", "caption": "An adult female wolf spider, *Hogna antelucana*, carrying her white egg sac in Travis County, Texas. Look for the round egg sac she carries with her.", "credit": "(c) Eric Schmidt, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/205066701" },
+    { "type": "p", "text": "The rabid wolf spider ranks third among all Texas spiders on iNaturalist, and the catalog includes records of it inside a house. Among the largest is the Carolina wolf spider; [Penn State Extension's wolf spider page](https://extension.psu.edu/wolf-spiders) gives females a body of about 7/8 to 1 3/8 inches. Females carry a round egg sac, then their young on their backs, Texas A&M says." },
+    { "type": "p", "text": "Wolf spiders commonly come indoors under gaps in doorways but are generally not dangerous to people or pets, Texas A&M says, and Penn State says a bite from a mishandled one causes pain and redness that usually fade within 24 hours. Unlike a recluse, a wolf spider typically has dark stripes on the front body section and a big pair of eyes on top of its head. [The wolf spider guide](/blog/wolf-spiders) shows the common species." },
+
+    { "type": "h2", "text": "What is the bright green spider on Texas plants?" },
+    { "type": "p", "text": "A bright green spider with long, black-spined legs on a shrub or wildflower is a green lynx spider, *Peucetia viridans*, fourth on Texas's iNaturalist list. [The University of Florida's green lynx profile](https://ask.ifas.ufl.edu/publication/IN521) describes a see-through green body, often with a red patch between the eyes, on pale legs with long black spines. Females are 1/2 to 7/8 inch long." },
+    { "type": "figure", "src": "/guides/photos/green-lynx-spider.webp", "width": 1200, "height": 900, "alt": "Bright green lynx spider seen from above on a plant stem among pink flowers, with pale green and yellow legs covered in long black spines", "caption": "Green lynx spider, *Peucetia viridans*, on a plant stem, photographed in Florida. The long black spines on its pale legs are the mark to look for.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/186731001" },
+    { "type": "p", "text": "It hunts by day without a web, and UF says it very seldom bites people. The Texas catalog calls it widespread, with records from bluebonnets, Indian paintbrush and cotton fields. In September and October the female guards an egg sac covered in small points, usually high in a shrub." },
+
+    { "type": "h2", "text": "What is the small, spiny spider in the web?" },
+    { "type": "p", "text": "A small, crab-shaped spider with six pointed spines in an orb web is the spinybacked orb weaver, *Gasteracantha cancriformis*, fifth on Texas's iNaturalist list. [UF's spiny orb weaver profile](https://ask.ifas.ufl.edu/publication/IN324) puts females at 3/16 to 1/3 inch long but up to 1/2 inch wide. Texas A&M AgriLife says they are common in wooded areas and lists white, yellow, orange and red among their colors, and the catalog records them across the eastern two-thirds of Texas. UF says the bite is not known to cause serious effects." },
+
+    { "type": "h2", "text": "Which spiders live inside Texas houses?" },
+    { "type": "p", "text": "The southern house spider, spitting spiders, cobweb spiders and cellar spiders live indoors, and wolf spiders wander in. [UF's southern house spider profile](https://ask.ifas.ufl.edu/publication/IN301) calls that species common in populated areas across much of the South, and the Texas catalog records it in houses, garages and bedrooms. Females are charcoal gray, 1/2 to 3/4 inch long, and hide in a crevice behind a flat, tangled web." },
+    { "type": "p", "text": "Its khaki to amber males, about 3/8 inch long with long legs, roam in search of females and are often mistaken for brown recluses, but UF says they have eight eyes grouped on a raised bump and that the species is not known to have a dangerous bite." },
+    { "type": "p", "text": "Spitting spiders share the recluse's six-eye pattern, but Texas A&M AgriLife says they have banded legs and a spotted, domed front body section and calls them harmless, common indoor spiders. It says only a few other spiders, such as cobweb house spiders (*Steatoda*) and sac spiders, can give a noticeable bite. UC IPM notes that cellar spiders' dark head markings also get them mistaken for recluses. [The house spider guide](/blog/house-spiders) sorts out the indoor species." },
+    { "type": "media", "needed": "Spitting spider (Scytodes) photographed in Texas, top view, showing the banded legs and the spotted, domed front body section that separate it from a recluse; public domain or CC0" },
+
+    { "type": "h2", "text": "Which spiders in Texas are dangerous?" },
+    { "type": "p", "text": "Only the recluses and the widows, which Texas A&M AgriLife Extension calls the only medically significant spiders in Texas. The [Texas Department of State Health Services](https://www.dshs.texas.gov/disease-surveillance-epidemiology-section/zoonosis-control/animal-bites/venom/spiders) names the black widow and brown recluse as the state's two venomous spiders, found both indoors and outdoors, and says neither is aggressive: both bite when accidentally trapped, disturbed or threatened." },
+    { "type": "table", "head": ["Spider", "Where recorded in Texas", "iNaturalist records"], "rows": [
+      ["Brown recluse", "Widespread except far south and far west", "1,590 from 165 counties"],
+      ["Other recluses", "Texan recluse in central and south Texas; two more species in West Texas", "86 Texan recluses"],
+      ["Southern black widow", "Widespread", "2,667 from 189 counties"],
+      ["Western black widow", "Mostly West Texas and the Panhandle", "1,972 from 159 counties"],
+      ["Northern black widow", "Few, scattered records", "166"],
+      ["Brown widow", "Coastal Bend and Rio Grande Valley by 2016", "1,393 from 78 counties"]
+    ], "caption": "Where: the catalog of Texas spiders (published in 2016). Records: research-grade iNaturalist observations as of October 16, 2026; they show where spiders were found, not every place they live." },
+    { "type": "p", "text": "[CDC's page on venomous spiders](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) says death from a venomous spider bite is extremely rare. [The guide to venomous spiders in the US](/blog/venomous-spiders) compares widows and recluses state by state." },
+
+    { "type": "h2", "text": "Where do brown recluses live in Texas?" },
+    { "type": "p", "text": "In much of Texas, but not the far south or far west: the catalog of Texas spiders calls the brown recluse, *Loxosceles reclusa*, widespread outside south and west Texas, and [Penn State Extension](https://extension.psu.edu/brown-recluse-spiders) counts Texas among the 16 states where it is established. Its iNaturalist records are led by Denton, Tarrant, Dallas, Hood, Travis and Hays counties and reach Lubbock, with only 5 from Harris County and none from Cameron or Hidalgo." },
+    { "type": "figure", "src": "/guides/photos/brown-recluse-female.webp", "width": 1200, "height": 1104, "alt": "Living female brown recluse seen from above on a white background: a pale orange-brown spider with long, thin legs of one color, a plain oval abdomen and a faint dark mark behind the eyes", "caption": "A living female brown recluse, *Loxosceles reclusa*, collected in Austin, Texas, and photographed for the University of Texas at Austin's Insects Unlocked project. Her legs and abdomen are each one plain color.", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loxosceles_reclusa_-_brown_recluse_(25823605780).jpg" },
+    { "type": "p", "text": "Texas A&M AgriLife says brown recluses have six eyes in pairs, usually a dark violin-shaped mark on the front body section with its neck pointing back, and no spines on the legs. [UC IPM's Pest Note on recluse spiders](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) says a recluse must have all five traits: six eyes in pairs, an abdomen of one color with fine hairs, legs of one color, no leg spines and a body no more than 3/8 inch long. [The brown recluse look-alike guide](/blog/brown-recluse-look-alikes) shows the usual suspects." },
+    { "type": "p", "text": "South and west Texas have other recluses: the catalog records the Texan recluse, *Loxosceles devia*, in central and south Texas, *Loxosceles blanda* in West Texas counties such as Brewster and Presidio, and *Loxosceles apachea* in El Paso and Terrell counties. UC IPM says every recluse species tested has the venom component that can damage skin, so treat any recluse with the same care." },
+    { "type": "p", "text": "Recluses hide in dry, undisturbed spots: firewood, stones and rock ledges outdoors, and attics, crawl spaces and living areas indoors, Texas A&M says, and [Insects in the City's fact sheet on brown recluse control](https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3003/) adds cluttered closets, garages and stored boxes. Adults are seen most in spring. Bites happen when a recluse is trapped against the skin, as when someone rolls onto one in bed or puts on clothing with a spider inside." },
+    { "type": "p", "text": "Most bites are minor: Penn State says about 90 percent cause no reaction or a small red bump that heals on its own, about 10 percent an open wound, and fewer than 1 percent a whole-body illness, most often in children, which is a true medical emergency. Texas A&M notes that bacterial infections such as staph can cause similar sores. [The brown recluse bite guide](/blog/brown-recluse-bite) covers the stages and when to get care, and [the brown recluse guide](/blog/brown-recluse) covers infestations." },
+
+    { "type": "h2", "text": "Which black widows live in Texas?" },
+    { "type": "p", "text": "Texas A&M AgriLife Extension lists four widows in Texas: the southern, western and northern black widows and the brown widow. Adult females are typically black with a round abdomen that often has two reddish triangles forming an hourglass underneath; males and young ones may have orange, red and white markings. [UF's southern black widow profile](https://ask.ifas.ufl.edu/publication/IN1000) puts a female's body at about 1/2 inch, or 1 1/2 to 2 inches with the legs." },
+    { "type": "figure", "src": "/guides/photos/black-widow.webp", "width": 1200, "height": 807, "alt": "Glossy black female southern black widow hanging under a rusty brown branch, with a red hourglass mark on her round abdomen", "caption": "Female southern black widow, *Latrodectus mactans*, spinning her web on a branch. The red hourglass under the round, glossy abdomen is the mark to look for.", "credit": "CDC/ Paula Smith; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9854" },
+    { "type": "p", "text": "The catalog calls the southern black widow widespread in Texas. The western black widow's catalog records come mostly from West Texas and the Panhandle, and its iNaturalist records are led by El Paso and Brewster counties; [UC IPM's Pest Note on widow spiders](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) describes a shiny, jet black female about 1/2 inch long. The northern black widow has the fewest iNaturalist records of the four, 166." },
+    { "type": "p", "text": "The non-native brown widow is smaller, about 3/8 inch, and mottled tan, brown and gray; UC IPM says its egg sac, covered in silk bumps, confirms the species even when no spider is seen, and that its bite is not much more toxic to people than other common spiders' bites. The 2016 catalog's records came from the Coastal Bend and Rio Grande Valley, but a third of its Texas iNaturalist records now come from Harris County. [The brown widow guide](/blog/brown-widow-spiders) and [the black widow guide](/blog/black-widow-spiders) go deeper." },
+    { "type": "p", "text": "Widows live in protected spots outdoors or in buildings open to the outdoors, such as woodpiles, garages, crawl spaces, rain spouts and gas and electric meters, Texas A&M says. Their venom affects the nervous system, and within 1 to 3 hours of a bite a person may feel pain throughout the body that can last 2 to 3 days. Bites are more dangerous for children, older adults and people with health problems, few have been fatal, and Texas A&M says to seek emergency care for a black widow bite." },
+
+    { "type": "h2", "text": "Are Texas tarantulas dangerous?" },
+    { "type": "p", "text": "No. [Texas Parks & Wildlife magazine](https://tpwmagazine.com/wildlife-conservation/did-you-see-a-brown-tarantula-hes-probably-looking-for-love/) calls the Texas brown tarantula, *Aphonopelma hentzi*, docile, says its bite can feel like a bee sting, and calls it the largest spider in Texas, about 3 to 4 inches wide. It ranks eighth on Texas's iNaturalist list." },
+    { "type": "figure", "src": "/guides/photos/texas-brown-tarantula.webp", "width": 1200, "height": 1097, "alt": "Large, hairy, reddish-brown Texas brown tarantula on bare soil, its thick legs spread around a pale tan front body section", "caption": "Texas brown tarantula, *Aphonopelma hentzi*, in Bandera County, Texas. Look for the large, hairy body and thick legs.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/2981542" },
+    { "type": "p", "text": "Tarantulas live in burrows and seldom stray far from the entrance, Texas A&M AgriLife says; a threatened one rears up and can release abdominal hairs that irritate the skin, eyes or nose. The magazine says the species ranges from grasslands and cotton fields to the Trans-Pecos desert, and that females often live more than 20 years." },
+    { "type": "p", "text": "The tarantulas seen crossing roads are males looking for mates. In a 2024 AgriLife Today article reposted on [Insects in the City](https://citybugs.tamu.edu/2024/05/13/newsletter-agrilife-today-texas-tarantula-tango-understanding-their-annual-hunt-for-food-love/), entomologist Wizzie Brown places that movement between May and August, counts 15 tarantula species in Texas and describes them as blackish to brownish and covered in hair; the magazine gives September to November, with May to July another active time. Brown says door seals usually keep them out. [The tarantula guide](/blog/tarantulas) has more, and [the tarantula hawk guide](/blog/tarantula-hawks) covers the wasp that hunts them." },
+
+    { "type": "h2", "text": "What is the giant golden web in southeast Texas?" },
+    { "type": "p", "text": "It is the web of the golden silk orb weaver, *Trichonephila clavipes*, which the Texas catalog records from southeast Texas, including Harris, Galveston and Jefferson counties. [UF's golden silk spider profile](https://ask.ifas.ufl.edu/publication/IN467) gives females a body of nearly 1 to over 1 1/2 inches, with yellow spots on a long, orange to tan abdomen and brushes of hair on several legs; the slender, dark brown males, about 1/4 inch long, often sit in the females' webs." },
+    { "type": "figure", "src": "/guides/photos/golden-silk-orb-weaver.webp", "width": 1200, "height": 800, "alt": "Large female golden silk orb weaver hanging in a wide orb web, with a long orange-brown abdomen marked in pale yellow, banded legs with dark tufts, and a much smaller spider higher in the web", "caption": "Female golden silk orb weaver, *Trichonephila clavipes*, in her web at Anahuac National Wildlife Refuge in Chambers County, Texas. Look for the brushes of hair on the legs.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/126590005" },
+    { "type": "p", "text": "UF says the finely meshed web is often 3 to 6 1/2 feet across, strung between trees and shrubs in open woods and at forest edges, and that the spider bites only if held or pinched, causing local pain and slight redness much less severe than a bee sting. The catalog's Texas records of females run from July to November." },
+
+    { "type": "h2", "text": "When are spiders most noticeable in Texas?" },
+    { "type": "p", "text": "From April through October: in those months, Texas research-grade spider records on iNaturalist run about 23,600 to 28,600 a month, all years combined, against about 3,600 to 6,200 a month from December through February. The counts follow when people notice and photograph spiders, not how many spiders there are." },
+    { "type": "chart", "title": "Research-grade spider sightings in Texas on iNaturalist, by month observed", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [
+      { "name": "Research-grade observations", "values": [3592, 4844, 12128, 26308, 25688, 27142, 28619, 23624, 27304, 25009, 13322, 6244] }
+    ], "yLabel": "Spider observations in Texas, all years combined, as of October 16, 2026", "caption": "Each bar counts photo records of spiders taken in Texas in that month whose species other iNaturalist users have agreed on.", "source": "[iNaturalist](https://www.inaturalist.org/observations?place_id=18&quality_grade=research&taxon_id=47118&view=species), research-grade spider observations in Texas, retrieved October 16, 2026" },
+
+    { "type": "h2", "text": "What should you do about spiders and spider bites in Texas?" },
+    { "type": "p", "text": "Leave harmless spiders alone or move them outside: Texas A&M AgriLife suggests covering one with a cup, sliding paper underneath and releasing it outdoors, and warns against handling any spider you are not sure is harmless. For widows and recluses, DSHS lists steps that need no pesticide:" },
+    { "type": "ul", "items": [
+      "**Cut what draws them.** Reduce bright outdoor lighting, which draws the insects spiders eat, and trim weeds and clear debris around buildings.",
+      "**Seal and vacuum.** Caulk outside openings, and vacuum spiders, webs and egg sacs indoors.",
+      "**Protect your hands.** Wear gloves where spiders live, and shake out shoes, clothes and towels that have been stored a long time.",
+      "**Close up storage.** Texas A&M suggests taping stored boxes shut or using lidded plastic bins, and moving firewood away from the house."
+    ] },
+    { "type": "p", "text": "For a suspected widow or recluse bite, DSHS advises washing it with soap and water, applying ice and capturing the spider for identification if possible, and says to contact the Texas Poison Center Network at 1-800-222-1222 or your family physician about treatment. CDC's first aid ends with seeking professional medical attention immediately. If no one saw the spider, [what spider bites look like](/blog/what-does-a-spider-bite-look-like), [how a mosquito bite differs from a spider bite](/blog/mosquito-bite-vs-spider-bite) and [the bug bite picture chart](/learn/bug-bites) can help." },
+    { "type": "p", "text": "For spiders that keep coming in, see [keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house), [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) and [a step-by-step plan for clearing spiders from a house](/blog/how-to-get-rid-of-spiders-in-house-canada); for a brown recluse infestation, Insects in the City recommends a professional pest control company. Other guides cover [spiders in Florida](/blog/spiders-in-florida), [spiders in California](/blog/spiders-in-california) and [ticks in Texas](/blog/ticks-in-texas)." },
+    { "type": "callout", "tone": "tip", "title": "Save the spider", "text": "Trap the spider in a jar, photograph it beside a ruler marked in inches, and note the city, county and date. [Texas A&M AgriLife Extension's sample guidelines](https://citybugs.tamu.edu/idhelp/sample-guidelines/) say your county Extension office can help identify it, and that a photo should come with those details and the spider's measured length." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the biggest spider in Texas?",
+      "answer": "The Texas brown tarantula. Texas Parks and Wildlife magazine calls it the largest spider in Texas, growing to about 3 to 4 inches wide, and AgriLife entomologist Wizzie Brown says tarantulas native to Texas can reach up to 6 inches from the tip of the front legs to the tip of the back legs. Among web builders, female golden silk orb weavers have bodies nearly 1 to over 1 1/2 inches long, according to the University of Florida, and Texas A&M says the female yellow garden spider's body is more than 1 inch long."
+    },
+    {
+      "question": "Which spiders in Texas bite people?",
+      "answer": "Almost all spiders use venom on their prey, Texas A&M AgriLife says, but spiders rarely bite people, and only widows and recluses are medically significant in Texas. Texas A&M adds that a few others, such as cobweb house spiders of the genus Steatoda and sac spiders, can give a noticeable bite. Tarantulas bite mainly when provoked, and the bite can feel like a bee sting. Penn State says a wolf spider bite causes pain and redness that usually fade within 24 hours, and jumping spiders are unlikely to bite unless cornered or handled."
+    },
+    {
+      "question": "Can a spider bite kill you in Texas?",
+      "answer": "It is very rare. CDC says death from a venomous spider bite is extremely rare, Texas A&M AgriLife says few black widow bites have been fatal, and Penn State says fewer than 1 percent of brown recluse bites cause an illness through the whole body, most often in children, which is a true medical emergency. The Texas Department of State Health Services says the most severe black widow reactions occur in children and older adults. For a suspected widow or recluse bite, call the Texas Poison Center Network at 1-800-222-1222 or a doctor."
+    },
+    {
+      "question": "Are there brown recluses in Houston?",
+      "answer": "They are rarely recorded there. The catalog of Texas spiders, published in 2016, lists no brown recluse record from Harris County, though it lists the introduced Mediterranean recluse inside buildings there. As of October 2026, iNaturalist held only 5 research-grade brown recluse records from Harris County, against 130 from Denton County. A county with few records may still have recluses. Brown widows, by contrast, are well recorded around Houston: a third of the research-grade brown widow records from Texas come from Harris County."
+    },
+    {
+      "question": "Where can you get a spider identified in Texas?",
+      "answer": "Start with your county's Texas A&M AgriLife Extension office. Texas A&M's diagnostic sample guidelines say you can take a specimen to the county office, where a Master Gardener, horticulture agent or county Extension agent can help, and that a good digital image can be sent electronically if it comes with the city, county, date and the specimen's measured length. Protect the spider from crushing so its features stay visible. Texas A&M says it does not currently charge for insect identifications."
+    }
+  ],
+  "sources": [
+    { "title": "Research-grade spider (Araneae) observations in Texas", "publisher": "iNaturalist", "url": "https://www.inaturalist.org/observations?place_id=18&quality_grade=research&taxon_id=47118&view=species" },
+    { "title": "Spiders (E-408)", "publisher": "Texas A&M AgriLife Extension (Wizzie Brown and Mike Merchant)", "url": "https://agrilifeextension.tamu.edu/wp-content/uploads/2025/06/Spiders-1.pdf" },
+    { "title": "Catalogue of Texas spiders", "publisher": "ZooKeys (D. Allen Dean, Texas A&M University Department of Entomology, 2016), full text in PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4829797/" },
+    { "title": "Black-and-Yellow Garden Spider", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/black-and-yellow-garden-spider" },
+    { "title": "Bold Jumper", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bold-jumper" },
+    { "title": "Wolf Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/wolf-spiders" },
+    { "title": "Green Lynx Spider, Peucetia viridans (EENY249)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN521" },
+    { "title": "Spiny Orb Weaver Spider, Gasteracantha cancriformis (EENY-167)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN324" },
+    { "title": "Southern House Spider, Kukulcania hibernalis (EENY144)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN301" },
+    { "title": "Spiders", "publisher": "Texas Department of State Health Services, Zoonosis Control", "url": "https://www.dshs.texas.gov/disease-surveillance-epidemiology-section/zoonosis-control/animal-bites/venom/spiders" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Brown Recluse Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-recluse-spiders" },
+    { "title": "Brown Recluse and Other Recluse Spiders (Pest Notes Publication 7468)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/" },
+    { "title": "Control of Brown Recluse Spiders (ENT-3003)", "publisher": "Texas A&M AgriLife Extension, Insects in the City (Michael Merchant)", "url": "https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3003/" },
+    { "title": "Southern Black Widow, Latrodectus mactans (EENY 560)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN1000" },
+    { "title": "Widow Spiders and Their Relatives (Pest Notes Publication 74149)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Did You See a Brown Tarantula? He's Probably Looking for Love (October 2024)", "publisher": "Texas Parks & Wildlife Magazine, Texas Parks and Wildlife Department", "url": "https://tpwmagazine.com/wildlife-conservation/did-you-see-a-brown-tarantula-hes-probably-looking-for-love/", "kind": "government" },
+    { "title": "Texas tarantula tango: Understanding their annual hunt for food, love (AgriLife Today, May 2024)", "publisher": "Texas A&M AgriLife Extension, Insects in the City", "url": "https://citybugs.tamu.edu/2024/05/13/newsletter-agrilife-today-texas-tarantula-tango-understanding-their-annual-hunt-for-food-love/" },
+    { "title": "Golden Silk Spider, Trichonephila clavipes (EENY229)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN467" },
+    { "title": "Diagnostic sample guidelines", "publisher": "Texas A&M AgriLife Extension, Insects in the City", "url": "https://citybugs.tamu.edu/idhelp/sample-guidelines/" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "spiders-in-texas",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "0c4e58773d3377c8ef2c5e3e03299001b2e8da5dfe9312f0377b9d8a3c72a20c",
+ "claimsChecked": 323,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-16"
+}
