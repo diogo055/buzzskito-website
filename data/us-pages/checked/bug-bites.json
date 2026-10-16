@@ -1,0 +1,10 @@
+{
+ "id": "bug-bites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "735b3b2ff4cd021bbc9bfb13eb525941cd4c10685cb91bab1ccaf6788bcde4a7",
+ "claimsChecked": 322,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-16"
+}
