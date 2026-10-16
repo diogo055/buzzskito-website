@@ -1,0 +1,155 @@
+{
+  "slug": "rat-vs-mouse",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "rat vs mouse",
+  "alsoTargets": ["mouse vs rat", "rat vs mouse droppings", "rat vs mouse size", "rat vs mouse pictures", "baby rat vs mouse", "rat or mouse"],
+  "metaTitle": "Rat vs Mouse: How to Tell Them Apart (Photos)",
+  "metaDescription": "Tail included, an adult rat runs 11 1/2 to 18 inches and a house mouse 5 to 7. Photos plus the head, feet, tail and droppings checks that sort them.",
+  "h1": "Rat vs Mouse: How to Tell Them Apart by Size, Tail, Ears and Droppings",
+  "dek": "Size sorts adult rats from mice, but a young rat can pass for a mouse. Here are photos and the checks extension services use, from the head and feet to droppings, gnaw marks and entry holes.",
+  "breadcrumb": "Rat vs Mouse",
+  "excerpt": "How to tell a rat from a mouse by size, head and feet, ears, tail and droppings, with photos, a side-by-side table and the young rat that passes for a mouse.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**Tail included, an adult rat is about 11 1/2 inches long or more and a house mouse 5 to 7 inches, so size sorts the adults; in a small animal, a large head and large hind feet for its body mean a young rat.** That head-and-feet test comes from [UC IPM's guide to rats](https://ipm.ucanr.edu/home-and-landscape/rats/). Droppings help when you never see the animal.",
+    "bullets": [
+      "[UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) puts an adult house mouse at about 5 to 7 inches long, including a 3- to 4-inch tail, and about 1/2 ounce.",
+      "[University of Arkansas Extension](https://uaex.uada.edu/publications/pdf/MP546.pdf) gives adult Norway rats as about 11 1/2 to 18 inches long and adult roof rats as about 13 to 18 inches, tail included.",
+      "Mouse droppings are 1/8 to 1/4 inch long, roof rat droppings about 1/2 inch and Norway rat droppings 3/4 to 1 inch, according to [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior).",
+      "Rat tooth marks are about 1/6 inch wide, while a mouse leaves scratchy marks about 1/12 inch wide, UC IPM says.",
+      "A mouse can fit through a hole the width of a pencil, about 1/4 inch, according to [CDC](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html); UC IPM says rats can squeeze under a door with a 1/2-inch gap."
+    ]
+  },
+  "facts": {
+    "title": "Rat or mouse at a glance",
+    "rows": [
+      ["House mouse", "About 5 to 7 inches with its tail and about 1/2 ounce; large ears, small head and feet, tail about as long as the body"],
+      ["Young rat", "Can pass for a mouse, but has a large head and large hind feet for its body, smaller ears and a blunter nose"],
+      ["Norway rat", "About 11 1/2 to 18 inches with its tail; stocky, blunt muzzle, tail shorter than the head and body"],
+      ["Roof rat", "About 13 to 18 inches with its tail; sleek, pointed muzzle, tail longer than the head and body"],
+      ["Deer mouse", "Mouse-sized, with a white belly and a furred tail that is dark on top and light underneath"],
+      ["Droppings", "Mouse 1/8 to 1/4 inch; roof rat about 1/2 inch; Norway rat 3/4 to 1 inch"],
+      ["Tooth marks", "Mouse about 1/12 inch wide; rat about 1/6 inch"],
+      ["Smallest gap", "Mouse about 1/4 inch, the width of a pencil; rat a 1/2-inch gap under a door"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How do you tell a rat from a mouse?" },
+    { "type": "p", "text": "Start with size, then look at the head, feet and tail. An adult house mouse is about 5 to 7 inches long including its tail and weighs about 1/2 ounce, according to [UC IPM's house mouse Pest Notes](https://ipm.ucanr.edu/home-and-landscape/house-mouse/). [The University of Arkansas Cooperative Extension guide to controlling mice and rats](https://uaex.uada.edu/publications/pdf/MP546.pdf) puts an adult Norway rat at about 11 1/2 to 18 inches including the tail, and an adult roof rat at about 13 to 18 inches." },
+    { "type": "figure", "src": "/guides/photos/norway-rat.webp", "width": 1200, "height": 1100, "alt": "Brown-gray Norway rat with a pale belly, rounded pink ears, a blunt snout and a thick dark tail, standing among dry leaves and twigs", "caption": "A Norway rat, also called the brown rat, among plant debris in King County, Washington. Compare its heavy build and blunt muzzle with the house mouse below.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/379572541" },
+    { "type": "figure", "src": "/guides/photos/house-mouse.webp", "width": 1200, "height": 1151, "alt": "Small brown house mouse on a gray concrete floor beside a wall, seen from the side, with large rounded ears, a pointed snout and a long, thin tail", "caption": "A house mouse photographed in Marfa, Texas. The large ears, pointed nose and long tail with almost no fur are the features to compare.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/261877585" },
+    { "type": "media", "needed": "An adult house mouse and an adult Norway rat photographed side by side at the same scale, side view, beside a ruler marked in inches, showing the difference in body length, head size, ear size and tail thickness" },
+    { "type": "p", "text": "Weight shows the gap even more plainly. [UC IPM's rat Pest Notes](https://ipm.ucanr.edu/home-and-landscape/rats/) give adult roof rats 5 to 10 ounces and Norway rats 7 to 18 ounces, against about 1/2 ounce for a house mouse, so even a light adult rat weighs around ten times as much as a mouse. The catch, as the same Pest Notes put it, is that a young rat can be confused with a mouse." },
+    { "type": "p", "text": "For a small animal, compare the head and feet with the body. UC IPM says very young rats have large heads and feet in proportion to their bodies, while an adult mouse's are proportionately much smaller; Arkansas Extension points to the hind feet in particular, and [Cornell IPM's guide to mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) adds that a house mouse has larger ears and eyes and a pointier nose than a young rat." },
+    { "type": "checklist", "title": "Checks to run on the animal, a photo of it or its droppings", "items": [
+      "**Length, tail included.** About 5 to 7 inches could be a house mouse or a young rat; about 11 1/2 inches or more is an adult rat.",
+      "**Head and hind feet.** Large for the body means a young rat; small, with big ears, means a mouse.",
+      "**Tail.** About as long as the body on a house mouse; longer than the head and body on a roof rat; shorter than the head and body, dark above and pale below, on a Norway rat.",
+      "**Belly and tail color.** A white belly and a furred tail, dark on top and light underneath, point to a deer mouse or one of its relatives, not a house mouse.",
+      "**Droppings.** 1/4 inch long or less points to a mouse; about 1/2 inch, a roof rat; 3/4 inch or more, a Norway rat.",
+      "**Where you found it.** An attic or upper floor suggests a roof rat; a basement, ground floor or burrow by the foundation, a Norway rat. Mice nest in walls, drawers and other sheltered spots near food."
+    ] },
+
+    { "type": "h2", "text": "How do rats and mice compare, trait by trait?" },
+    { "type": "p", "text": "Rats are bigger in every measurement, and their tails and muzzles differ in shape as well. The table sets the house mouse beside the two rats that live alongside people in the US; the house mouse itself is covered in depth in [the complete guide to mice](/learn/mice)." },
+    { "type": "table", "head": ["Animal", "Adult length and weight", "Tail", "Head and ears", "Droppings"], "rows": [
+      ["House mouse", "About 5 to 7 inches with the tail; about 1/2 ounce", "3 to 4 inches, about as long as the body; almost no fur, with scale rings", "Relatively large ears, small black eyes, slightly pointed nose", "1/8 to 1/4 inch"],
+      ["Roof rat", "About 13 to 18 inches with the tail; 5 to 10 ounces", "Longer than the head and body; uniformly dark", "Pointed muzzle; ears long enough to reach the eyes when folded over", "About 1/2 inch"],
+      ["Norway rat", "About 11 1/2 to 18 inches with the tail; 7 to 18 ounces", "Shorter than the head and body; dark above, pale below", "Blunt muzzle; small ears that do not reach the eyes when folded over", "3/4 to 1 inch"]
+    ], "caption": "House mouse size, weight and features from UC IPM's house mouse Pest Notes and University of Arkansas Extension; rat lengths from University of Arkansas Extension; rat weights, tails, muzzles and ears from UC IPM's rat Pest Notes; the house mouse's tail-to-body comparison and all droppings sizes from Cornell IPM." },
+    { "type": "p", "text": "Cornell's figures differ slightly: a house mouse body of 2.5 to 3.75 inches plus a 2.75- to 4-inch tail, and a Norway rat body of up to 11 inches, 16 inches with the tail." },
+    { "type": "p", "text": "Color is a weak clue. Arkansas Extension notes that blackish Norway rats occur and that the roof rat, also called the black rat, can have a brownish back streaked with gray. A sharply white belly points to a different mouse: UC IPM separates the deer mouse from the house mouse by its white underside and its furred, two-toned tail, a difference that matters for health, as the section on disease below explains. The [guide to the types of mice found in US homes](/blog/types-of-mice) shows how to tell the native mice apart." },
+
+    { "type": "h2", "text": "Is it a young rat or a mouse?" },
+    { "type": "p", "text": "Look at the proportions, not the size. [CDC's notes on its photo of the two animals](https://wwwn.cdc.gov/phil/Details.aspx?pid=26271), a house mouse beside a 2-week-old Norway rat, list the young rat's coarser hair, smaller ears, blunter head and tail and proportionally larger feet, against the mouse's larger ears, longer tail and finer hair." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-vs-young-rat.webp", "width": 1200, "height": 795, "alt": "Sepia photograph of a house mouse lying above a 2-week-old Norway rat on a wooden board, each labeled with its common and scientific name", "caption": "A house mouse (top) and a 2-week-old Norway rat (bottom), labeled on the photo. CDC's description points to the young rat's smaller ears, blunter head and tail and proportionally larger feet.", "license": "public-domain", "credit": "CDC/ Bayard F. Bjornson (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26271" },
+    { "type": "p", "text": "Getting this right changes the trap. UC IPM notes that mice and small young rats often will not set off a rat snap trap, and [CDC's trapping guidance](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) says there are different snap traps for mice and for rats. If what you found is a nest of pink or furred pups rather than an animal on the move, the [guide to baby mice and how they differ from baby rats](/blog/baby-mice) covers that stage." },
+
+    { "type": "h2", "text": "Is it a Norway rat or a roof rat?" },
+    { "type": "p", "text": "Check the tail against the body. Cornell IPM describes a field test: pull the tail toward the head, and if it reaches past the snout the animal is a roof rat; otherwise it is a Norway rat. Try it only on a dead, trapped rat, with the gloves used in CDC's cleanup steps below. UC IPM adds the build and the head. The roof rat is smaller and sleeker, with a pointed muzzle and ears that reach its eyes when folded over. The Norway rat is larger and stockier, with a blunt muzzle and ears that do not reach its eyes." },
+    { "type": "figure", "src": "/guides/photos/roof-rat.webp", "width": 1200, "height": 900, "alt": "Slim brown roof rat with large ears and a pointed snout leaning over a weathered wooden platform scattered with birdseed, green leaves behind it", "caption": "A roof rat, also called the black rat, on a bird-feeder platform in Jacksonville, Florida. Large ears and a pointed muzzle on a slim body set it apart from the stockier Norway rat.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/358657107" },
+    { "type": "p", "text": "Where you live narrows it down. UC IPM says Norway rats live throughout the 48 contiguous states, while roof rats prefer warm climates and coastal areas, although their documented range is expanding; Cornell notes that roof rats are generally not found in New York. Both are introduced species. The [side-by-side guide to roof rats and Norway rats](/blog/roof-rat-vs-norway-rat) goes further into their tails, droppings and ranges." },
+
+    { "type": "h2", "text": "How do rat droppings compare with mouse droppings?" },
+    { "type": "p", "text": "Rat droppings are much longer. Mouse droppings are 1/8 to 1/4 inch long, roof rat droppings about 1/2 inch and Norway rat droppings 3/4 to 1 inch, according to Cornell IPM. Arkansas Extension describes mouse droppings as smooth with tapered or rounded ends, and says rat droppings may be as large as 3/4 inch long and 1/4 inch across." },
+    { "type": "figure", "src": "/guides/photos/mouse-droppings-ruler.webp", "width": 655, "height": 779, "alt": "About seven small dark droppings on an orange surface, with two coins above them and a ruler marked in centimeters below", "caption": "Droppings the photographer identified as house mouse droppings, from a kitchen in the Netherlands, beside a ruler marked in centimeters. Cornell gives mouse droppings as 1/8 to 1/4 inch long, about 3 to 6 millimeters.", "license": "CC-BY-SA-4.0", "credit": "Hansmuller, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Housemouse_(Mus_musculus)_droppings_with_10_and_20_euro_cent_coins_and_a_ruler,_Utrecht,_The_Netherlands,_December_14,_2019.jpg" },
+    { "type": "figure", "src": "/guides/photos/rat-droppings-thumb.webp", "width": 1200, "height": 900, "alt": "Several dark, oblong droppings with rounded ends lying on green and rust-colored moss, with a person's thumb at the bottom of the frame for size", "caption": "Droppings identified on iNaturalist, from the droppings alone, as Norway rat droppings, on moss in the Aleutian Islands of Alaska, with a thumb for scale. Cornell gives Norway rat droppings as 3/4 to 1 inch long.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/394894114" },
+    { "type": "media", "needed": "House mouse droppings and Norway rat droppings photographed side by side on a plain light surface beside a ruler marked in inches, in a US home, so the reader can compare length and thickness at the same scale" },
+    { "type": "p", "text": "Shape and color are less reliable than size. Cornell says rodent droppings are cylindrical with pointed to rounded ends and typically black, though the color can change with what the animal ate; green or red droppings may mean it fed on a rodenticide bait. Droppings with ridges running along their length suggest cockroaches rather than rodents: Arkansas Extension describes those ridges on cockroach droppings, and Cornell says rodent droppings have no lines." },
+    { "type": "p", "text": "Do not sweep or vacuum them up; CDC's cleanup steps are at the end of this page. For fresh versus old droppings and more photos, see [what mouse droppings look like, fresh and old](/blog/what-does-mouse-poop-look-like-canada) and the [guide to rat droppings](/blog/rat-droppings)." },
+
+    { "type": "h2", "text": "What other signs tell rats from mice?" },
+    { "type": "p", "text": "Gnaw marks, entry holes and footprints all come in a rat size and a mouse size, and Norway rats add burrows:" },
+    { "type": "ul", "items": [
+      "**Gnaw marks.** UC IPM puts rat tooth marks at about 1/6 inch (4 mm) wide, against a mouse's scratchy marks of about 1/12 inch (2 mm).",
+      "**Gaps and holes.** CDC says a mouse can fit through a hole the width of a pencil, about 1/4 inch, and UC IPM says rats can squeeze beneath a door with a 1/2-inch gap. Arkansas Extension adds that mouse holes are often 1 1/2 inches or less, while rat holes are 2 inches or larger.",
+      "**Footprints.** In dust or dirt, Cornell describes mouse footprints as 3/8 to 3/4 inch long and often looking like a collection of dots, and rat footprints as 3/4 to 1 1/4 inches, sometimes with a wavy tail drag between them.",
+      "**Burrows.** UC IPM calls the Norway rat a burrowing rodent whose burrows turn up along building foundations, beneath rubbish or woodpiles and around gardens; roof rats burrow only now and then, mostly when they cannot nest up high.",
+      "**Distance from the nest.** House mice seldom venture more than 30 feet from their nest and food, according to UC IPM, while Norway rats may forage 100 to 500 feet from their nests and roof rats routinely travel up to 300 feet or more for food."
+    ] },
+    { "type": "figure", "src": "/guides/photos/rat-gnawed-sack.webp", "width": 1200, "height": 923, "alt": "Sepia close-up of a burlap sack with a ragged hole gnawed in it, corn kernels and other seeds spilling out onto the cloth", "caption": "A burlap sack of seed grain gnawed open by rats, in a historic CDC photograph from the storage area of a former milling company in Atlanta. Both rats and mice gnaw; the width of the tooth marks tells them apart.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28593" },
+    { "type": "media", "needed": "Fresh gnaw marks on wood made by a house mouse next to gnaw marks made by a rat, beside a ruler marked in inches, showing the narrow scratchy mouse marks and the wider rat tooth marks" },
+    { "type": "p", "text": "Some signs do not separate them. Arkansas Extension lists the same greasy rub marks on beams, rafters, pipes and walls, and the same gnawing, climbing, running and squeaking sounds, for both mice and rats, and UC IPM says both are mostly active at night. A noise in the wall or a smudge on a rafter tells you a rodent is there, not which one." },
+
+    { "type": "h2", "text": "Where in a house do rats and mice turn up?" },
+    { "type": "p", "text": "Height is a clue to the rat species, and mice can turn up on any floor. UC IPM says Norway rats in buildings usually live in the basement and on the ground floor, though infestations in ceiling voids are not uncommon, while roof rats nest in attics, wall voids, ceiling voids and cabinets. When both share a building, the Norway rats typically keep to the lower floors and the roof rats to the upper ones. Noises from the attic or a drop ceiling, and rats running along utility lines or fence tops at dusk, are on UC IPM's list of rat signs." },
+    { "type": "figure", "src": "/guides/photos/roof-rat-rafters.webp", "width": 1200, "height": 817, "alt": "Gray-brown roof rat crouched between wooden rafters, eating from a small white dish, its long thin tail hanging down past the beam", "caption": "A roof rat among the rafters of a building, eating bait from a small dish, with its long tail hanging below the beam. UC IPM says roof rats usually nest in attics, wall voids, ceiling voids and cabinets.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25123" },
+    { "type": "p", "text": "House mice nest in sheltered spots close to food. UC IPM suggests looking behind boxes, in drawers, in garages and around woodpiles for nests of finely shredded paper or other fibrous material; Arkansas Extension adds closets, attics and basements; and Cornell says mice nest inside walls, equipment and other protected places and can spend their whole lives indoors. Deer mice and white-footed mice, by contrast, spend most of their time outdoors and come in from fall through spring, according to Cornell." },
+
+    { "type": "h2", "text": "Are rats or mice more dangerous?" },
+    { "type": "p", "text": "Neither is harmless, and which diseases matter depends on the species. [CDC's page on rat-bite fever](https://www.cdc.gov/rat-bite-fever/about/index.html) lists rats and mice among the rodents that carry it, spread through scratches, bites or contact with a rodent's saliva or urine. UC IPM names typhus, leptospirosis, foodborne illness and rat-bite fever as the most common diseases rats transmit, and says an estimated 5 percent of house mice in the United States carry and can transmit lymphocytic choriomeningitis (LCM) virus." },
+    { "type": "p", "text": "Hantaviruses split along species lines. [CDC's overview of hantavirus](https://www.cdc.gov/hantavirus/about/index.html) says the deer mouse spreads the most common hantavirus that causes hantavirus pulmonary syndrome in the United States, which is one more reason to check a mouse's belly and tail. Norway rats carry a different one: a [2018 CDC report on Seoul virus in pet rats](https://www.cdc.gov/mmwr/volumes/67/wr/mm6704a5.htm) names the Norway rat as the virus's natural reservoir and says wild Norway rats in the United States have been known to carry it, though transmission to people is rare." },
+    { "type": "callout", "tone": "warning", "title": "When to call a healthcare provider", "text": "CDC says to see a healthcare provider immediately if you have symptoms of rat-bite fever after recent contact with rodents, and to see a physician immediately if you suspect hantavirus disease, mentioning the rodent exposure. Hantavirus pulmonary syndrome symptoms usually start 1 to 8 weeks after contact with an infected rodent, so mention any rodent contact even weeks later." },
+
+    { "type": "h2", "text": "What should you do once you know which one it is?" },
+    { "type": "p", "text": "Clean up safely first, then use methods built for that animal. CDC's advice is the same for rats and mice: diseases from rodents spread mainly when people breathe in contaminated air, so do not sweep or vacuum droppings, urine or nesting material. The [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) are:" },
+    { "type": "ol", "items": [
+      "Open all doors and windows for 30 minutes before you start, to ventilate the space, and leave the area during that time.",
+      "Put on rubber or plastic gloves.",
+      "Spray the droppings and urine with a household disinfectant, or a mix of 1.5 cups of household bleach in 1 gallon of water, until very wet, and let it soak for 5 minutes or as the disinfectant label directs.",
+      "Wipe it up with paper towels and throw them in a covered garbage can that is emptied regularly. A dead rodent or a nest is sprayed and soaked the same way, then sealed in a plastic bag along with any used traps, double-bagged and thrown away the same way.",
+      "Mop or sponge floors, countertops, cabinets and drawers with disinfectant.",
+      "Wash your gloved hands with soap and water or disinfectant, take the gloves off, then wash your hands with soap and warm water."
+    ] },
+    { "type": "p", "text": "Then seal and trap. [CDC's guide to sealing up against rodents](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) lists the gaps to check inside and outside the house, and UC IPM recommends sealing every hole larger than 1/4 inch to keep out both rats and mice. For rats, see [a guide to getting rid of rats with traps and exclusion](/blog/how-to-get-rid-of-rats-canada); UC IPM notes that roof rat traps often need to go up high as well, on ledges, shelves, pipes or beams. For mice, [a four-step plan for getting rid of mice](/blog/how-to-get-rid-of-mice-canada) sets out the order of work." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph a trapped rodent, a few droppings or a gnaw mark beside a ruler marked in inches, without touching them, and note where you found them. Your state's cooperative extension office or a pest professional can use those details to help identify the animal; wear rubber or plastic gloves and follow the cleanup steps above before you throw anything away." }
+  ],
+  "faqs": [
+    {
+      "question": "Is a rat just a big mouse?",
+      "answer": "No. The house mouse, the Norway rat and the roof rat are separate species, Mus musculus, Rattus norvegicus and Rattus rattus. University of Arkansas Extension places all three in the same family, Muridae, but a mouse does not grow into a rat. A small animal with a large head and large hind feet for its body is a young rat, which UC IPM says can be confused with a mouse. An adult mouse keeps a head and feet that are proportionately much smaller."
+    },
+    {
+      "question": "Do you need different traps for rats and mice?",
+      "answer": "Yes. CDC recommends traditional snap traps and says there are different snap traps for mice and for rats, so choose the kind made for the animal you have. UC IPM adds that mice and small young rats often will not trigger a rat snap trap. Rats are also more cautious: UC IPM says they often avoid new traps and baits for the first several days, and maybe weeks, while University of Arkansas Extension says house mice readily eat new foods."
+    },
+    {
+      "question": "Which breed faster, rats or mice?",
+      "answer": "House mice start younger and have more litters. UC IPM says a female house mouse may have 5 to 10 litters a year of about 5 or 6 pups, and that house mice are sexually mature 5 to 6 weeks after birth. It gives the average female Norway rat 4 to 6 litters a year, weaning 20 or more young, and the roof rat 3 to 5 litters of up to 8 young. University of Arkansas Extension says rats reach sexual maturity at about 3 months."
+    },
+    {
+      "question": "Does seeing one in the daytime mean anything?",
+      "answer": "Not on its own. UC IPM says rats and house mice are both mostly active at night, and that house mice can occasionally be seen in daylight, since they are active whenever food is available. University of Arkansas Extension says rats are primarily nocturnal, though some may be active during the day when their population is high. A daytime sighting tells you a rodent is there; its size, head and feet, tail and droppings tell you which one."
+    },
+    {
+      "question": "What should you do after a rat or mouse bite or scratch?",
+      "answer": "Tell a healthcare provider about the contact if you become ill. CDC says rat-bite fever, carried by rats, mice and some other rodents, can spread through bites and scratches. Symptoms usually begin 3 to 10 days after contact and can appear up to 21 days later; after exposure in North America they usually include fever, vomiting, headache and muscle pain. CDC says anyone with these symptoms after recent rodent contact should see a healthcare provider immediately, because the disease must be treated quickly."
+    }
+  ],
+  "sources": [
+    { "title": "Rats (Pest Notes, UC ANR Publication 74106)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/" },
+    { "title": "House Mouse (Pest Notes, UC ANR Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management, Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Controlling Mice and Rats (MP546)", "publisher": "University of Arkansas System Division of Agriculture Cooperative Extension Service", "url": "https://uaex.uada.edu/publications/pdf/MP546.pdf" },
+    { "title": "Public Health Image Library, ID 26271: house mouse and 2-week-old Norway rat", "publisher": "Centers for Disease Control and Prevention", "url": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26271" },
+    { "title": "How to Seal Up to Prevent Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Outbreak of Seoul Virus Among Rats and Rat Owners — United States and Canada, 2017 (MMWR 67(4))", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/volumes/67/wr/mm6704a5.htm" },
+    { "title": "About Rat Bite Fever (RBF)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rat-bite-fever/about/index.html" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "rat-vs-mouse",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e080a17d15f3f9f3fadefc2304cf188afd9bde07ca8756849c1f0d91d310c4f3",
+ "claimsChecked": 174,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-16"
+}
