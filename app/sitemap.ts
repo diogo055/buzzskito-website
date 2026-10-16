@@ -31,6 +31,24 @@ const ARTICLES_EXTENDED_OCT8 = new Set([
 // and /lyme-disease-canada-statistics was corrected to PHAC's current series (2024 = 5,809,
 // preliminary 2025 = 7,105).
 const UPDATED_OCT15 = '2026-10-15T12:00:00.000Z'
+// Oct 16, 2026: real photos added (and search titles reset) on these articles.
+const UPDATED_OCT16 = '2026-10-16T12:00:00.000Z'
+const ARTICLES_PHOTOS_OCT16 = new Set<string>([
+  'baby-ticks-nymphs-seed-ticks-ontario',
+  'bed-bug-shells-casings-shed-skins-canada',
+  'bed-bug-stains-poop-droppings-canada',
+  'bugs-that-look-like-bed-bugs-canada',
+  'flea-bites-on-humans',
+  'how-to-get-rid-of-boxelder-bugs-canada',
+  'how-to-get-rid-of-carpet-beetles-canada',
+  'how-to-get-rid-of-centipedes-canada',
+  'how-to-get-rid-of-cluster-flies-canada',
+  'how-to-get-rid-of-drain-flies-canada',
+  'how-to-get-rid-of-fruit-flies',
+  'mosquito-bite-vs-spider-bite',
+  'types-of-ticks-identification',
+  'what-kills-bed-bugs-instantly-canada',
+])
 const ARTICLES_PHOTOS_OCT15 = new Set([
   'mosquito-larvae-identification', 'red-ticks-and-clover-mites', 'tick-vs-bed-bug', 'tick-bite-vs-mosquito-bite',
   'what-does-a-spider-bite-look-like', 'bugs-that-look-like-ticks', 'no-see-um-bites', 'chigger-bites', 'how-long-do-ticks-live',
@@ -309,7 +327,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add blog posts from constants
   const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString(),
+    lastModified: ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString(),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
@@ -351,7 +369,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(slug => !registeredSlugs.has(slug))
     .map((slug) => ({
       url: `${SITE_URL}/blog/${slug}`,
-      lastModified: ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE,
+      lastModified: ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE,
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))

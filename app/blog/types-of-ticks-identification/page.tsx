@@ -7,6 +7,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -15,9 +17,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'types-of-ticks-identification'
 const DATE = '2026-07-13'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-16'
 const TITLE = 'Types of Ticks: Identification Chart, Size & ID Guide'
-const META_TITLE = 'Types of Ticks: 5-Species ID Chart & Sizes'
+// TITLE NOTE (Oct 16, 2026): was 'Types of Ticks: 5-Species ID Chart & Sizes'; top queries: tick identification ontario 46, tick identification chart 43, by species 41; kept on "types of ticks" so it does not compete with /learn/tick-identification-chart.
+const META_TITLE = 'Types of Ticks: Photo ID Chart & Sizes'
 
 const FAQS = [
   {
@@ -85,6 +88,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-female'),
 })
 
 const AMZ_TAG = tagForSlug('types-of-ticks-identification')
@@ -92,7 +96,7 @@ const AMZ_TAG = tagForSlug('types-of-ticks-identification')
 export default function TypesOfTicksIdentificationPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Identification chart and ID guide for the common North American tick types, by size, colour, markings, range and disease risk.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Identification chart and ID guide for the common North American tick types, by size, colour, markings, range and disease risk.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Types of Ticks: Identification', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -279,21 +283,51 @@ export default function TypesOfTicksIdentificationPage() {
           <NextUp path="/blog/types-of-ticks-identification" />
           <h2>Blacklegged (Deer) Tick — Ixodes scapularis</h2>
           <p>This is the tick that spreads <strong>Lyme disease</strong>, and the one to learn best. Adults are small (about 3&ndash;4 mm unfed), with a reddish-orange rear half, a solid dark scutum, and uniformly dark legs — hence &ldquo;blacklegged.&rdquo; There is <em>no</em> white or ornate patterning on the back. The nymph, active in late spring and summer, is only about the size of a poppy seed and is responsible for the majority of Lyme cases because it goes unnoticed. A blacklegged tick generally needs to be attached for 24 hours or more to transmit Lyme, so prompt removal matters. For a full close-up and range map, see our <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged / deer tick guide</Link>, and to tell it apart from the look-alike dog tick, our <Link href="/blog/deer-tick-vs-dog-tick-canada">deer tick vs dog tick comparison</Link>.</p>
+          <Photo
+            id="blacklegged-tick-female"
+            alt="Adult female blacklegged (deer) tick seen from above, with a dark shield behind the head, dark legs and a reddish-orange body"
+            caption="An adult female blacklegged (deer) tick, Ixodes scapularis, seen from above. Look for the solid dark scutum, the uniformly dark legs and the reddish-orange rear body with no white markings."
+          />
+          <Photo
+            id="blacklegged-tick-adult-nymph-fingertip"
+            alt="Blacklegged tick adult female and a much smaller nymph on a fingertip, for size"
+            caption="Two blacklegged ticks on a person's index finger: an adult female on the left and a nymph on the right. The nymph is only about the size of a poppy seed, so it is easily missed."
+          />
 
           <h2>American Dog Tick — Dermacentor variabilis</h2>
           <p>Larger and easier to spot than the deer tick, the American dog tick has a brown body with distinctive <strong>white or greyish marbling on the scutum</strong>. Unfed adults are about 5 mm; a fully engorged female can reach 10&ndash;15 mm and look like a grey bean. It does <em>not</em> spread Lyme, but it can transmit Rocky Mountain spotted fever and tularemia. This is the tick people most often mistake for a deer tick — the giveaway is the ornate back pattern, which a blacklegged tick never has. Full details in our <Link href="/blog/american-dog-tick-canada">American dog tick guide</Link>.</p>
+          <Photo
+            id="american-dog-tick-female"
+            alt="Adult female American dog tick seen from above: a brown body with pale, whitish marbling on the shield behind the head"
+            caption="An adult female American dog tick, Dermacentor variabilis, seen from above; this one was found in Panola Park near Atlanta, Georgia. Look for the white or greyish marbling on the scutum, the ornate back pattern a blacklegged tick never has."
+          />
 
           <h2>Lone Star Tick — Amblyomma americanum</h2>
           <p>Named for the single white dot on the female&rsquo;s back (males have scattered white streaks instead), the lone star tick is reddish-brown, aggressive, and has notably long mouthparts. Historically a southeastern US tick, its range is expanding northward and it now turns up in the northeastern states and, increasingly, parts of Ontario. It is associated with ehrlichiosis, Southern tick-associated rash illness (STARI), and <strong>alpha-gal syndrome</strong> — a delayed red-meat allergy triggered by its bite. It does not spread Lyme.</p>
+          <Photo
+            id="lone-star-tick-female"
+            alt="Adult female lone star tick seen from above: a reddish-brown body with a single pale dot in the middle of its back and long mouthparts"
+            caption="An adult female lone star tick, Amblyomma americanum, seen from above, with the lone star marking at the centre of her back. A single white dot on the back means a female lone star tick; males have scattered white streaks instead."
+          />
 
           <p>Whether that matters in an Ontario backyard is a separate question from whether the species exists on the continent. The lone star tick is not established in Canada, and the specimens logged here each year are mostly carried north by migratory birds. For its actual Canadian status, the delayed 2&ndash;6 hour reaction pattern that makes alpha-gal so easy to miss, and how much GTA residents really need to worry, see our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal risk guide for Canada</Link>.</p>
 
           <h2>Brown Dog Tick — Rhipicephalus sanguineus</h2>
           <p>The brown dog tick is unusual: it can complete its entire life cycle indoors, which means infestations in homes, kennels, and dog runs across both the US and Canada. It is a uniform reddish-brown, elongated when unfed, roughly 3 mm, swelling to about 12 mm when engorged, with no clear back pattern and a hexagonal base to the mouthparts. It strongly prefers dogs as hosts but will bite people. In some regions it can transmit Rocky Mountain spotted fever.</p>
+          <Photo
+            id="brown-dog-tick-male"
+            alt="Adult male brown dog tick seen from above beside a 1 mm scale bar, its body a uniform reddish-brown"
+            caption="An adult male brown dog tick, Rhipicephalus sanguineus, seen from above, collected from a dog at a veterinary clinic in Flagstaff, Arizona; the scale bar marks 1 mm. Look for a uniform reddish-brown body with no clear back pattern."
+          />
 
           <RelatedLinks path="/blog/types-of-ticks-identification" />
           <h2>Rocky Mountain Wood Tick — Dermacentor andersoni</h2>
           <p>A western counterpart to the American dog tick, the Rocky Mountain wood tick is brown with a grey/white mottled scutum and is found in the western US and Canada (British Columbia, Alberta, Saskatchewan). Adults are about 5 mm unfed. It can transmit Rocky Mountain spotted fever, Colorado tick fever, and — in rare cases — <strong>tick paralysis</strong>, a temporary paralysis caused by a toxin in the tick&rsquo;s saliva that resolves once the tick is removed. Under a hand lens it is hard to separate from the American dog tick; range is the easiest clue.</p>
+          <Photo
+            id="rocky-mountain-wood-tick-female"
+            alt="Adult female Rocky Mountain wood tick seen from above: a reddish-brown body with a pale, mottled shield behind the head"
+            caption="An adult female Rocky Mountain wood tick, Dermacentor andersoni, seen from above. Its grey-white mottled scutum looks very like an American dog tick's, so range is the easiest clue."
+          />
           <p>Because range is so often the deciding clue, it helps to know which species are established where you live: <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">are there ticks in Canada?</Link> works through the answer province by province.</p>
 
           <h2>Not Sure It&rsquo;s Even a Tick?</h2>

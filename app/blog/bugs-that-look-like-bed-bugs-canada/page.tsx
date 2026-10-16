@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -10,6 +11,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -17,14 +19,15 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bugs-that-look-like-bed-bugs-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-16'
 // This is the IDENTIFICATION half of the bed-bug cluster — "is this a bed bug or
 // not". It deliberately does NOT teach treatment: the protocol lives on
 // how-to-get-rid-of-bed-bugs-canada, the inspection walk-through on
 // how-to-check-for-bed-bugs-canada, and the tick comparison on tick-vs-bed-bug.
 // Structural sibling of /blog/bugs-that-look-like-ticks.
 const TITLE = 'The 9 Bugs That Look Like Bed Bugs in Canada — and How to Tell Which One You Have'
-const META_TITLE = '9 Bugs That Look Like Bed Bugs in Canada'
+// TITLE NOTE (Oct 16, 2026): was '9 Bugs That Look Like Bed Bugs in Canada'; top queries: bugs that look like bed bugs 330 (2 clicks); Canadian edition of a regional pair, so the title keeps Canada.
+const META_TITLE = 'Bugs That Look Like Bed Bugs in Canada (Photos)'
 
 const FAQS = [
   {
@@ -84,6 +87,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-adult-ruler'),
 }), '/blog/bugs-that-look-like-bed-bugs-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -91,7 +95,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BugsThatLookLikeBedBugsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to the insects mistaken for bed bugs: carpet beetles and larvae, booklice, spider beetles, bat bugs, cockroach nymphs, fleas, ticks, clover mites and larder beetles — with the five features that rule a bed bug in or out, what real bed bug evidence looks like, and what not to buy until the identification is settled.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to the insects mistaken for bed bugs: carpet beetles and larvae, booklice, spider beetles, bat bugs, cockroach nymphs, fleas, ticks, clover mites and larder beetles — with the five features that rule a bed bug in or out, what real bed bug evidence looks like, and what not to buy until the identification is settled.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-adult-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bugs That Look Like Bed Bugs in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -377,7 +381,17 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
             <li><strong>Short, blunt antennae.</strong> A bed bug&rsquo;s antennae are stubby, four-segmented and roughly as long as its head. Cockroach nymphs, by contrast, wave long whip-like antennae that can exceed their own body length &mdash; visible without magnification and completely decisive.</li>
             <li><strong>It cannot jump and it cannot fly.</strong> Adult bed bugs have vestigial wing pads and no functional wings. If the specimen flew to your windowsill it is a beetle; if it sprang off your hand it is a flea. Bed bugs walk, at a fairly unhurried pace.</li>
           </ul>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre scale: a flat, oval, reddish-brown insect about 5 mm long with six legs and two antennae"
+            caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. Note the matte back with no seam down the middle; a beetle has a visible seam where its wing covers meet."
+          />
           <p>Life stage complicates all of this, which is why nymphs cause so much confusion. A bed bug moults five times before adulthood, and a first-stage nymph is roughly 1&ndash;1.5 mm and nearly transparent until it feeds, at which point it turns bright red. That translucent stage is what gets reported as booklice, and the fed stage is what gets reported as a &ldquo;tiny red mite&rdquo;.</p>
+          <Photo
+            id="bed-bug-nymph"
+            alt="Bed bug nymph on white fabric: a small, amber-coloured oval insect with six legs"
+            caption="A bed bug nymph, Cimex lectularius, on fabric. It has the same flat oval outline as the adult, while a booklouse is more elongated, with a bulbous head and long, slender antennae."
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">The two items worth owning before you know the answer &mdash; both useful whichever way the identification falls:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -389,7 +403,17 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
           <h2>Carpet Beetles: The Classic Bed Bug Look-Alike</h2>
           <p>If you take one thing from this page, take this: carpet beetles and their larvae are commonly mistaken for bed bugs, and the two problems have almost nothing in common &mdash; different insect, different room, different fix, and nothing in the bed bug aisle applies to either the adult or the larva.</p>
           <p>Adult carpet beetles are small domed ovals with a mottled shell &mdash; the varied carpet beetle looks like a speckled mosaic of white, brown and yellowish scales, and the black carpet beetle is a plain dark oval. They fly, they are drawn to light, and in spring they are commonly found dead on windowsills or crawling on a sunny window frame. Adults outdoors feed on pollen and nectar, which is how they arrive: through an open window, on cut flowers, or through a gap around a window frame.</p>
+          <Photo
+            id="carpet-beetle"
+            alt="Adult varied carpet beetle beside a 1 mm scale bar: a small, domed beetle mottled with black, white and orange scales"
+            caption="An adult varied carpet beetle, Anthrenus verbasci, beside a 1 mm scale bar. Look for the domed shell mottled with white, brown and yellowish scales; a bed bug is flat and matte."
+          />
           <p>The damage is done by the larvae, and the larvae are what really confuse people. They are elongated rather than oval, tan to dark brown, and unmistakably bristly, with the varied carpet beetle larva carrying a tuft of longer hairs at the rear. They eat keratin and other animal-derived material: wool, silk, felt, feathers, leather, hair, dead insects, and the lint that accumulates under a radiator or along a carpet edge. That diet is why they live in closets, under furniture that never moves, along the tack strip at the edge of a wool rug, and in the wall void around a dead mouse or an abandoned birds&rsquo; nest.</p>
+          <Photo
+            id="carpet-beetle-larva"
+            alt="Carpet beetle larva on a pale surface: a bristly, banded, brown body"
+            caption="A carpet beetle larva, genus Anthrenus. Look for the elongated, bristly body: bed bugs have no visible hair at any life stage."
+          />
           <p><strong>The shed-skin trap.</strong> Carpet beetle larvae moult repeatedly and leave behind hollow bristly skins, and a person who has just read that &ldquo;bed bugs leave shed skins&rdquo; will find these and reasonably conclude the worst. The difference is visible with the magnifier: a bed bug casing is a smooth, translucent amber shell in the shape of the insect; a carpet beetle larval skin is brown and covered in bristles.</p>
           <p><strong>Why it matters commercially.</strong> Bed bug treatment is one of the most expensive things a homeowner can buy, and none of it works on carpet beetles. The carpet beetle fix is vacuuming with attention to edges and under furniture, laundering or dry-cleaning affected textiles, storing wool and off-season clothing in sealed containers, and hunting down the larval food source. Traps help you find the room; they are not the cure.</p>
           <div className="not-prose my-4">
@@ -403,11 +427,21 @@ export default function BugsThatLookLikeBedBugsCanadaPage() {
 
           <h2>Booklice: The &ldquo;Baby Bed Bugs&rdquo; That Are a Humidity Reading</h2>
           <p>Booklice, or psocids, are 1&ndash;2 mm, pale, soft-bodied and fast-moving, and they show up in numbers that alarm people: dozens on a basement wall, a scatter across a windowsill in a bathroom, a dusting inside a cardboard box of stored paper. Because &ldquo;tiny and pale&rdquo; matches the description of a first-stage bed bug nymph, they generate a lot of false alarms.</p>
+          <Photo
+            id="booklouse"
+            alt="Booklouse under a microscope: a pale brown, soft-bodied insect with a bulbous head and long, thin antennae"
+            caption="An adult booklouse, Liposcelis species, under a microscope. Look for the bulbous head and long, slender antennae that set it apart from a bed bug nymph."
+          />
           <p>They are not parasites and they do not bite. They graze microscopic surface mould and mildew, which is why they appear exactly where dampness is: fresh drywall and new construction that has not dried out, window frames with winter condensation, damp basements, and stored cardboard. They are, in effect, a humidity gauge that walks.</p>
           <p>The response is a dehumidifier and better ventilation rather than an insecticide, and the population collapses on its own once the surface mould they eat has nothing to grow on. That is the same mechanism that ends a silverfish problem, and we go through sizing, target humidity and the trade-offs in our <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish guide</Link> and the <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link>.</p>
 
           <h2>Spider Beetles, Larder Beetles and the Rest of the Beetle Problem</h2>
           <p><strong>Spider beetles</strong> get mistaken for engorged bed bugs constantly. They are small, glossy and humped, with long legs held in a way that suggests a spider, and in the reddish-brown ones the shiny bulbous abdomen reads exactly like a bed bug that has just fed. They are scavengers of dried organic material and are common in older Ontario buildings: attics, pantries, wall voids with old rodent or bird nests, and the dusty corners of storage rooms. Two tests settle it &mdash; a spider beetle is shiny and rounded where a bed bug is matte and flat, and it is found around old food debris rather than in a bed.</p>
+          <Photo
+            id="spider-beetle"
+            alt="Spider beetle seen from above: a glossy, rounded, reddish-brown body with long legs and antennae"
+            caption="A spider beetle, Gibbium psylloides, a scavenger of dry plant and animal remains found mainly in old houses. Look for the shiny, rounded body; a bed bug is matte and flat."
+          />
           <p><strong>Larder beetles</strong> are larger, dark, and carry a pale band across the wing covers with a few dark spots in it, which is distinctive once you know to look for it. Their larvae are hairy and, like carpet beetle larvae, are often found near a dead animal in a wall void or a forgotten bag of pet food. They are also fond of chewing into wood or insulation to pupate, which is what turns them from a nuisance into a repair.</p>
           <p><strong>Drugstore and cigarette beetles</strong> are small, rounded, uniformly brown pantry beetles that fly to windows in numbers. If small brown ovals keep appearing near your kitchen window in summer, the search should be a pantry inventory rather than a mattress inspection: check flour, cereal, spices, dried pet food and birdseed, and discard anything with fine powder or webbing in it.</p>
 

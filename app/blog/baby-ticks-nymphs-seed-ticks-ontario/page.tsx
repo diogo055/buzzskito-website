@@ -6,6 +6,8 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { withRegionalAlternates } from '@/lib/guides'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -15,9 +17,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'baby-ticks-nymphs-seed-ticks-ontario'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-16'
 const TITLE = 'Baby Ticks: Nymphs & Seed Ticks in Ontario (Size + ID)'
-const META_TITLE = 'Baby Ticks Ontario: Seed Tick vs Nymph, 0.5-2 mm'
+// TITLE NOTE (Oct 16, 2026): was 'Baby Ticks Ontario: Seed Tick vs Nymph, 0.5-2 mm'; top queries: baby tick 190, baby ticks 134, what do baby ticks look like 102, what does a baby tick look like 85, seed ticks 75 (1 click); Canadian edition of the seed-ticks pair.
+const META_TITLE = 'What Baby Ticks Look Like in Ontario (Photos)'
 
 const FAQS = [
   {
@@ -61,6 +64,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-life-stages'),
 }), '/blog/baby-ticks-nymphs-seed-ticks-ontario')
 
 const AMZ_TAG = tagForSlug('baby-ticks-nymphs-seed-ticks-ontario')
@@ -68,7 +72,7 @@ const AMZ_TAG = tagForSlug('baby-ticks-nymphs-seed-ticks-ontario')
 export default function BabyTicksNymphsSeedTicksOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Baby ticks in Ontario — nymphs vs seed ticks: size in mm, identification, danger, and removal.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Baby ticks in Ontario — nymphs vs seed ticks: size in mm, identification, danger, and removal.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-life-stages') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Baby Ticks: Nymphs & Seed Ticks', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -151,18 +155,38 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
 
           <h2>What Exactly Is a &ldquo;Baby Tick&rdquo;?</h2>
           <p>A tick&rsquo;s life has four stages: egg, larva, nymph, and adult. When people search for &ldquo;baby ticks,&rdquo; they almost always mean one of the two immature feeding stages — the <strong>larva</strong> (also called a seed tick) or the <strong>nymph</strong>. Both bite, both can attach to people and pets, and both are small enough to be missed on a quick glance. The difference between them matters a lot for your health. Bed bugs run a comparable ladder indoors and generate the same identification panic at the smallest sizes &mdash; <Link href="/blog/baby-bed-bugs-nymphs" className="text-brand-700 underline">what bed bug nymphs look like at each stage</Link> is the bedroom equivalent of this page.</p>
+          <Photo
+            id="blacklegged-tick-life-stages"
+            alt="Blacklegged tick adult beside two much smaller immature (baby) ticks"
+            caption="Three blacklegged ticks, Ixodes scapularis: an adult and two much smaller immature ticks. Baby ticks are far smaller than a full adult and small enough to be missed on a quick glance."
+          />
           <p>The blacklegged (deer) tick, <em>Ixodes scapularis</em>, is the species Ontarians care about most, because it is the one that transmits Lyme disease. American dog ticks also live here, but their larvae and nymphs feed almost exclusively on small mammals and are rarely found on people. So when we talk about dangerous baby ticks in the GTA, we are talking about blacklegged tick nymphs.</p>
+          <Photo
+            id="blacklegged-tick-adult-nymph-fingertip"
+            alt="Blacklegged tick adult female and a much smaller nymph on a fingertip, for size"
+            caption="Two blacklegged ticks on a person's index finger: an adult female on the left and a nymph on the right. Blacklegged tick nymphs are the dangerous baby ticks, and they are far smaller than an adult."
+          />
 
           <p>If a baby tick is on you or your child right now, the size is the whole problem: household tweezers are too blunt to grip a poppy-seed nymph without squeezing it. A fine-point or slotted tick remover grabs the mouthparts instead of the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
 
           <NextUp path="/blog/baby-ticks-nymphs-seed-ticks-ontario" />
           <h2>Seed Ticks: The Larval Stage</h2>
           <p>A <strong>seed tick</strong> is just a tick larva. After a female tick lays her eggs — often thousands at once — the eggs hatch into six-legged larvae about 0.5 mm across. At that size they look like specks of dirt, ground pepper, or poppy seeds, and they often appear in clusters because a whole clutch hatches together. If you brush against vegetation and pick up dozens of tiny crawling dots at once, those are seed ticks.</p>
+          <Photo
+            id="blacklegged-tick-laying-eggs"
+            alt="Female blacklegged tick beside the large mass of orange-brown eggs she is laying"
+            caption="A female blacklegged tick, Ixodes scapularis, laying her clutch of eggs. The eggs hatch into six-legged larvae, and because a whole clutch hatches together, seed ticks often appear in clusters."
+          />
           <p>Here is the reassuring part: a larva has never fed before. A tick is not born carrying Lyme — it acquires the bacterium <em>Borrelia burgdorferi</em> only by biting an already-infected animal, usually a white-footed mouse. Because a seed tick is taking its very first blood meal, it is almost always Lyme-free. Seed tick bites can still itch and, in large numbers, irritate the skin, but the disease risk is low compared with the next stage.</p>
 
           <h2>Nymphs: The Most Dangerous Stage</h2>
           <p>After a larva feeds and moults, it becomes a <strong>nymph</strong> — eight legs, about 1–2 mm, roughly the size of a poppy seed. This is the stage responsible for the majority of human Lyme disease cases in Ontario and across eastern North America, and there are two reasons why.</p>
           <p>First, a nymph has already had one blood meal as a larva. If that meal came from an infected mouse, the nymph now carries the Lyme bacterium and can pass it on the next time it bites. Second — and this is the crucial part — a nymph is astonishingly hard to see. At poppy-seed size on skin, in a fold, or hidden in hair, a nymph is easily mistaken for a freckle or a speck of dirt. People routinely go about their day without realizing a nymph is attached, which gives the tick the 24-plus hours it usually needs to transmit Lyme.</p>
+          <Photo
+            id="blacklegged-tick-nymph-fingernail"
+            alt="Poppy-seed-sized blacklegged tick nymph on a fingertip beside the fingernail"
+            caption="A blacklegged tick nymph, Ixodes scapularis, crawling beside a person's index fingernail. At poppy-seed size, a nymph on skin is easily mistaken for a freckle or a speck of dirt."
+          />
           <p>Nymphs are most active in Ontario from late spring through mid-summer — May, June, and July — precisely when people are spending the most time in yards, on trails, and at cottages. That overlap is why nymph season and Lyme season are effectively the same thing.</p>
 
           <p>In 2026 that overlap started earlier than usual, with activity across Southern Ontario running two to three weeks ahead of a normal year. <Link href="/blog/ontario-tick-surge-2026" className="text-brand-700 underline">Our look at the 2026 Ontario tick surge</Link> explains what moved the nymph window forward and the five steps that follow from it.</p>
@@ -177,7 +201,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
           </aside>
 
           <RelatedLinks path="/blog/baby-ticks-nymphs-seed-ticks-ontario" />
-          <h2>How to Identify a Baby Tick (No Photo Needed)</h2>
+          <h2>How to Identify a Baby Tick</h2>
           <p>Because good close-up photos are hard to take of something this small, use these physical features to identify a baby tick:</p>
           <ul>
             <li><strong>Count the legs.</strong> A larval seed tick has <strong>six</strong> legs; a nymph or adult has <strong>eight</strong>. This is the fastest way to tell larva from nymph.</li>

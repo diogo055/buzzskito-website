@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -15,12 +17,13 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-carpet-beetles-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-16'
 // Carpet beetles are the #1 bed-bug misidentification, so the ID block carries as
 // much weight as the control protocol. Deliberately ONE page: no separate
 // "best carpet beetle spray" sibling — at DR 0.5 splitting this intent is harmful.
 const TITLE = 'How to Get Rid of Carpet Beetles in Canada — The Larvae Are the Pest, and the Vacuum Is the Weapon'
-const META_TITLE = 'Get Rid of Carpet Beetles Canada: Larvae First'
+// TITLE NOTE (Oct 16, 2026): was 'Get Rid of Carpet Beetles Canada: Larvae First'; top queries: carpet beetles 83, carpet beetle larvae 70, how to get rid of carpet beetles 45, carpet beetles canada 38 (0 clicks).
+const META_TITLE = 'Carpet Beetles & Larvae: Photos and Fixes'
 
 const FAQS = [
   {
@@ -76,6 +79,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('carpet-beetle'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -83,7 +87,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to carpet beetles: why the larvae rather than the adults do the damage, how to tell a carpet beetle larva from a bed bug and from a clothes moth, where the keratin food source is actually hiding, the vacuum-and-laundry protocol, sealed storage, what Canadian labels legally allow, and when the right trade is an exclusion contractor rather than an exterminator.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to carpet beetles: why the larvae rather than the adults do the damage, how to tell a carpet beetle larva from a bed bug and from a clothes moth, where the keratin food source is actually hiding, the vacuum-and-laundry protocol, sealed storage, what Canadian labels legally allow, and when the right trade is an exclusion contractor rather than an exterminator.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('carpet-beetle') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Carpet Beetles in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -290,6 +294,26 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
               </tbody>
             </table>
           </div>
+          <Photo
+            id="carpet-beetle"
+            alt="Adult carpet beetle beside a 1 mm scale bar: a small, rounded, hard-shelled beetle mottled in white, orange-brown and black"
+            caption="An adult carpet beetle, Anthrenus verbasci, beside a 1 mm scale bar. Look for the small, round to oval, hard-shelled body and its mottled pattern."
+          />
+          <Photo
+            id="carpet-beetle-larva"
+            alt="Carpet beetle larva on a pale surface: a banded brown body covered in long bristles"
+            caption="A carpet beetle larva (genus Anthrenus). Look for the banded brown body covered in bristles, with a tuft of longer hairs at one end."
+          />
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre scale: a flat, broad, reddish-brown oval body"
+            caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale. Look for the flat, broad, reddish-brown oval, with none of the carpet beetle larva's bristles."
+          />
+          <Photo
+            id="casemaking-clothes-moth-larva"
+            alt="Clothes moth larva with a pale body and a dark head, its front end out of a case made of fibres"
+            caption="A case-bearing clothes moth larva, Tinea pellionella, with its front end out of its case. Look for the pale, smooth, grub-like body and the portable case it carries."
+          />
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-amber-900">The itchy-bumps trap.</strong> Carpet beetle larvae do not bite. Their shed bristly hairs can irritate skin on contact, and the resulting itchy bumps get read as bed bug bites &mdash; which is how a household ends up buying an entire bed bug kit for the wrong insect. If you have marks but cannot find a single flat oval insect after a proper inspection, look for bristly cast skins under the mattress and along the bed frame first. Our <Link href="/blog/how-to-check-for-bed-bugs-canada" className="text-emerald-700 underline font-semibold">bed bug inspection walkthrough</Link> and <Link href="/blog/tick-vs-bed-bug" className="text-emerald-700 underline font-semibold">tick vs bed bug comparison</Link> cover the look-alikes that send Canadians down the wrong path.

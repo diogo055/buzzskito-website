@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -16,9 +18,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-cluster-flies-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-16'
 const TITLE = 'How to Get Rid of Cluster Flies in Canada (2026) — The Farmhouse & Cottage Guide'
-const META_TITLE = 'Cluster Flies Canada 2026: The Farmhouse Fix'
+// TITLE NOTE (Oct 16, 2026): was 'Cluster Flies Canada 2026: The Farmhouse Fix'; top queries: cluster flies 123, cluster flies ontario 59, cluster fly control 43.
+const META_TITLE = 'Cluster Flies in Canada: Photos and Fixes'
 
 const FAQS = [
   {
@@ -78,6 +81,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('cluster-fly'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-cluster-flies-canada')
@@ -85,7 +89,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-cluster-flies-canada')
 export default function ClusterFliesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to cluster flies for farmhouse and cottage owners: lifecycle (earthworm parasite, not a filth fly), why they overwinter on sunny south walls, late-summer sealing, window traps, vacuum protocol, and why attic-void treatment is professional territory.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to cluster flies for farmhouse and cottage owners: lifecycle (earthworm parasite, not a filth fly), why they overwinter on sunny south walls, late-summer sealing, window traps, vacuum protocol, and why attic-void treatment is professional territory.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('cluster-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Cluster Flies in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -245,6 +249,11 @@ export default function ClusterFliesCanadaPage() {
 
           <h2>Cluster Flies Are a Canadian Farmhouse Problem — Here&rsquo;s the Real Story</h2>
           <p>If you own an older farmhouse, a rural home, or a lake cottage in Canada, you know the scene: a warm afternoon in October, or a bright thaw in February, and suddenly there are dozens &mdash; sometimes hundreds &mdash; of big, sluggish grey flies bumping against the sunny windows. They are slow, they cluster, and they seem to come from nowhere. These are cluster flies, and almost everything the average pest-spray label implies about them is wrong.</p>
+          <Photo
+            id="cluster-fly"
+            alt="Cluster fly with a dark grey, bristly body and folded wings, on a yellow flower"
+            caption="A cluster fly (genus Pollenia) on a yellow flower. Look for the large, dark-grey body: cluster flies are bigger and darker than house flies or fruit flies."
+          />
           <p>The single most important thing to understand is that cluster flies are <strong>not filth flies</strong>. A house fly breeds in garbage and manure; a fruit fly breeds in overripe produce and drain scum. Cluster flies do neither. Their story starts in your lawn and fields, not your kitchen &mdash; and once you understand their lifecycle, the entire control strategy falls into place and you stop wasting money on the tools that don&rsquo;t work. They also arrive on the same autumn schedule, and rarely alone: the same warm south wall pulls in <Link href="/blog/how-to-get-rid-of-stink-bugs-canada" className="text-brand-700 underline">brown marmorated stink bugs and Asian lady beetles</Link>, which need the identical sealing work rather than a different spray.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the practical tools:</p>
@@ -262,6 +271,11 @@ export default function ClusterFliesCanadaPage() {
           <h2>Why They Mass on Your Sunny South Wall in Fall</h2>
           <p>As the new adults face the end of the season, their instinct is to find a warm, protected place to overwinter as dormant adults &mdash; a behaviour biologists call overwintering aggregation, and it is the whole reason these flies are a household pest at all. In late August and September, as the first cool nights arrive, cluster flies orient toward <strong>heat</strong>. And nothing radiates heat like the south- and west-facing wall of a building catching the low autumn sun.</p>
           <p>Stand on the sunny side of a farmhouse on a crisp, bright October afternoon and you can watch them: dozens of flies basking on the warm siding, then working their way into gaps around window frames, under fascia and soffits, through cracks in old clapboard, and into attic and wall voids to settle in for the winter. This is why the problem is so lopsided &mdash; the shaded north wall stays quiet while the sunny wall crawls. If your fly problem is concentrated at south- or west-facing windows, that is not a coincidence; it is telling you precisely which walls to prioritize when you seal. Cluster flies are not the only insect reading that wall as a winter hotel &mdash; if the basking crowd is red-and-black rather than grey and slow, you are looking at <Link href="/blog/how-to-get-rid-of-boxelder-bugs-canada">boxelder bugs doing the same thing on the same siding</Link>, and one sealing pass handles both.</p>
+          <Photo
+            id="boxelder-bug"
+            alt="Boxelder bug on a twig: a black bug with orange-red stripes behind the head and red-orange edges on its folded wings"
+            caption="An adult eastern boxelder bug, Boisea trivittata, on a flowering twig. Look for the red-and-black pattern: a cluster fly is grey and slow."
+          />
 
           <h2>Why They Come Back to Life on Every Warm Winter Day</h2>
           <p>Here is the part that drives homeowners to despair: you vacuum up a windowsill full of flies in January, feel victorious, and two warm days later there are just as many. You have not failed &mdash; you are simply seeing the flaw in vacuuming as a strategy.</p>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -15,13 +17,14 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-drain-flies-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-16'
 // Slots into the existing small-fly cluster: fruit flies (produce + kitchen drains),
 // fungus gnats (potting soil), cluster flies (overwintering). This page owns the
 // BIOFILM intent — a plumbing-surface problem, not a food problem — and the
 // drain-fly vs fruit-fly vs fungus-gnat vs phorid identification fork.
 const TITLE = 'How to Get Rid of Drain Flies in Canada — The Biofilm Is the Problem, Not the Drain'
-const META_TITLE = 'Get Rid of Drain Flies Canada: Clean the Biofilm'
+// TITLE NOTE (Oct 16, 2026): was 'Get Rid of Drain Flies Canada: Clean the Biofilm'; top queries: drain flies 114, drain fly 70, how to get rid of drain flies permanently 69, drain fly killer canada 67.
+const META_TITLE = 'Drain Flies: Photos & How to Get Rid of Them'
 
 const FAQS = [
   {
@@ -77,6 +80,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('drain-fly'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -84,7 +88,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function DrainFliesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to drain flies (moth flies, Psychodidae): how to identify them against fruit flies, fungus gnats and phorid flies, the overnight tape test that locates the breeding drain, why bleach and boiling water fail against pipe biofilm, the brush-then-bacterial-product sequence that works, dry trap seals, and when the answer is a plumber rather than a pest control company.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to drain flies (moth flies, Psychodidae): how to identify them against fruit flies, fungus gnats and phorid flies, the overnight tape test that locates the breeding drain, why bleach and boiling water fail against pipe biofilm, the brush-then-bacterial-product sequence that works, dry trap seals, and when the answer is a plumber rather than a pest control company.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('drain-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Drain Flies in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -289,6 +293,26 @@ export default function DrainFliesCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Descriptions follow published extension identification guidance, including <a href="https://www.pubs.ext.vt.edu/ENTO/ENTO-414/ENTO-414.html" className="text-emerald-700 underline">Virginia Cooperative Extension ENTO-414</a> and <a href="https://www.aces.edu/blog/topics/home/drain-flies-in-the-home-identification-management/" className="text-emerald-700 underline">Alabama Cooperative Extension</a>.
           </p>
+          <Photo
+            id="drain-fly"
+            alt="Drain fly seen from above: a fuzzy, moth-like fly with broad, hairy wings"
+            caption="A drain fly, Clogmia albipunctata, also called a bathroom moth fly, seen from above. Look for the fuzzy body and the broad, moth-like wings covered in fine hairs."
+          />
+          <Photo
+            id="fruit-fly"
+            alt="Common fruit fly in side view with a tan body and a bright red eye, beside a 1 mm scale bar"
+            caption="A male common fruit fly, Drosophila melanogaster, beside a 1 mm scale bar. Look for the smooth, tan-brown body and the red eyes."
+          />
+          <Photo
+            id="fungus-gnat"
+            alt="Fungus gnat on wood: a slender fly with long legs, long antennae and dusky wings"
+            caption="A female dark-winged fungus gnat (family Sciaridae) on wood. Look for the skinny, mosquito-like build and the long legs."
+          />
+          <Photo
+            id="phorid-fly"
+            alt="Phorid fly in side view showing its humped back, beside a 1 mm scale bar"
+            caption="A phorid (scuttle) fly, Megaselia scalaris, beside a 1 mm scale bar. Look for the distinctly humpbacked profile."
+          />
         </div>
       </section>
 

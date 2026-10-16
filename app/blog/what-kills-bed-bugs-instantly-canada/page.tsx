@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -8,6 +9,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -15,7 +17,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-kills-bed-bugs-instantly-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-16'
 // The SPEED axis, deliberately. Not a spray-efficacy page (that is
 // do-bed-bug-sprays-actually-work), not a product shelf (bed-bug-spray-canada),
 // not a protocol (how-to-get-rid-of-bed-bugs-canada). This page answers exactly
@@ -94,6 +96,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-adult-ruler'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -101,7 +104,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function WhatKillsBedBugsInstantlyCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to what kills bed bugs instantly: the three contact-lethal methods (steam, direct heat, a registered contact spray), a speed-versus-reach comparison of every method, why isopropyl alcohol is a fire hazard, why foggers cannot reach harbourage, the role of slow desiccant dusts, and the realistic fastest path to elimination.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to what kills bed bugs instantly: the three contact-lethal methods (steam, direct heat, a registered contact spray), a speed-versus-reach comparison of every method, why isopropyl alcohol is a fire hazard, why foggers cannot reach harbourage, the role of slow desiccant dusts, and the realistic fastest path to elimination.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-adult-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Kills Bed Bugs Instantly', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -355,6 +358,11 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
 
           <h2>The Honest Answer to the Question You Asked</h2>
           <p>You typed &ldquo;what kills bed bugs instantly&rdquo; because there is one in front of you, or because you have just confirmed them and you want this over. Both are reasonable, and the direct answer is short: <strong>steam, direct heat, and a thorough hit from a registered contact insecticide.</strong> Each of those kills a bed bug in seconds. Crushing works too, at the cost of a stain.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre scale: a flat, oval, reddish-brown insect about 5 mm long"
+            caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. A contact kill only helps if the insect really is a bed bug, so compare yours against it first."
+          />
           <p>The complication is not that those methods are weak. It is that all three are <em>blind</em>. They kill exactly what they physically touch and nothing else &mdash; and at any given moment, the great majority of a bed bug population is not on a surface where you can touch it. It is compressed into mattress piping, the folded seam of a box spring, the screw holes and joints of a bed frame, the hollow back of a headboard, the gap behind a baseboard, and, in an established infestation, the wall void behind all of it. On top of that sits the egg problem: eggs are glued in place, protected by a shell that most contact insecticides do not penetrate, and they go on hatching for a couple of weeks after you treat.</p>
           <p>So an instant method applied once produces a very specific and very common outcome: a satisfying evening, a quiet week, and bites again in the third week. Not because the product failed at what it does, but because it was asked to do a job it cannot physically perform. <strong>Speed and reach are different properties, and you need both.</strong></p>
 
@@ -523,6 +531,11 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
 
           <h2>After the Instant Kill: Identify the Bug, Find the Rest, Finish the Job</h2>
           <p>A contact kill only helps if the insect really is a bed bug and you know where the others are, and that is what the rest of this library is for. The <Link href="/learn/bed-bugs">complete bed bug reference</Link> ties the whole subject together, from biology and signs to every treatment option. To confirm what you killed, compare it with <Link href="/blog/what-do-bed-bugs-look-like">what bed bugs look like at each life stage</Link>. If it was darker than you expected, the guide to <Link href="/blog/black-bed-bugs">whether bed bugs are ever black</Link> explains how age and feeding change their color, and if it does not match at all, go through the <Link href="/blog/bugs-that-look-like-bed-bugs">bugs most often mistaken for bed bugs</Link> before you treat anything.</p>
+          <Photo
+            id="bed-bug-nymph"
+            alt="Bed bug nymph on white fabric: a small, amber-colored oval insect with six legs"
+            caption="A bed bug nymph, Cimex lectularius, on fabric. Age and feeding change a bed bug’s color, so compare what you killed against every life stage, not only the adult."
+          />
           <p>Because every instant method is blind, the next job is finding what it missed. <Link href="/blog/where-do-bed-bugs-hide">Where bed bugs hide in a bedroom</Link> ranks the hiding places by distance from the sleeper and walks through an inspection, and <Link href="/blog/bed-bugs-on-mattress">what bed bug signs on a mattress look like</Link> covers the seams, the spots and what to do with a mattress that has them.</p>
           <p>Two household shortcuts have their own pages because they are the ones people reach for when a product is not at hand: <Link href="/blog/does-alcohol-kill-bed-bugs">does rubbing alcohol kill bed bugs</Link> goes through the contact-kill evidence and the fire risk, and <Link href="/blog/does-lysol-kill-bed-bugs">whether Lysol kills bed bugs</Link> explains why a disinfectant is not an insecticide. When you are ready for the whole sequence, <Link href="/blog/how-to-get-rid-of-bed-bugs">how to get rid of bed bugs step by step</Link> lays out the integrated plan the EPA describes, written for US readers, from confirming the problem to the last follow-up check.</p>
 

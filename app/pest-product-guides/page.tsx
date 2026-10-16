@@ -3,11 +3,33 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL } from '@/lib/constants'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
+import { productGuideSlugs, productGuideCount } from '@/lib/product-guide-counts'
 
 const SLUG = 'pest-product-guides'
 const DATE = '2026-07-17'
 const UPDATED = '2026-07-22'
 const TITLE = 'BuzzSkito Recommended Products — Canadian Pest Gear Guides'
+
+// Counted from the articles at build time (lib/product-guide-counts.ts) so the numbers stay true:
+// a product guide is a blog article with Amazon product picks. Crawlers, fleas, carpenter bees and
+// yard equipment ride the 'general' Amazon cluster, so they are matched by slug.
+const TOTAL = productGuideSlugs().length
+const N = {
+  mosquito: productGuideCount(['mosquito']),
+  tick: productGuideCount(['tick']),
+  bedbug: productGuideCount(['bedbug']),
+  rodent: productGuideCount(['rodent']),
+  wildlife: productGuideCount(['wildlife']),
+  flies: productGuideCount(['flies'], /no-see-um|katchy|insect-trap/),
+  wasp: productGuideCount(['wasp'], /carpenter-bee|rescue-why-trap/),
+  crawlers: productGuideCount(['roach'], /spider|centipede|earwig|silverfish|boxelder|carpet-beetle|stink-bug|millipede/),
+  ant: productGuideCount(['ant']),
+  flea: productGuideCount([], /flea/),
+  equipment: productGuideCount(['dehumidifier', 'airpurifier', 'steamer', 'fogger', 'sprayer'], /pest-control-equipment|sump-pump|patio-heater|brush-cutter|leaf-blower|screen-tent|protective-clothing|zapper|fly-swatter/),
+}
+const guides = (n: number) => `${n} guide${n === 1 ? '' : 's'}`
+const LARGEST = ([['mosquito gear', N.mosquito], ['tick gear', N.tick], ['bed bugs', N.bedbug], ['rodents', N.rodent], ['DIY equipment', N.equipment]] as const)
+  .slice().sort((a, b) => b[1] - a[1]).slice(0, 2).map(([name, n]) => `${name} (${n})`).join(' and ')
 
 type Post = { href: string; label: string; note: string }
 type Category = {
@@ -26,7 +48,7 @@ const FEATURED: Category[] = [
     href: '/pest-product-guides/mosquito-gear',
     name: 'Mosquito Gear',
     icon: '🦟',
-    count: '80+ guides',
+    count: guides(N.mosquito),
     tone: 'treat',
     blurb: 'The repellents, traps, foggers and area devices we recommend after spraying real GTA backyards for mosquitoes — what holds up on an actual property, what wastes money, and what you can legally buy in Canada.',
     posts: [
@@ -40,7 +62,7 @@ const FEATURED: Category[] = [
     href: '/pest-product-guides/tick-gear',
     name: 'Tick Gear',
     icon: '🕷️',
-    count: '60+ guides',
+    count: guides(N.tick),
     tone: 'treat',
     blurb: 'Yard treatments, permethrin clothing sprays and removal tools — the tick gear we recommend to the same GTA homeowners we treat for Lyme-risk properties.',
     posts: [
@@ -58,7 +80,7 @@ const RESEARCH: Category[] = [
     href: '/pest-product-guides/bed-bug-control',
     name: 'Bed Bug Control',
     icon: '🛏️',
-    count: '45+ guides',
+    count: guides(N.bedbug),
     tone: 'research',
     blurb: 'Our biggest research library. The evidence-backed DIY stack — heat chambers, steamers, encasements and interceptors — with PMRA-registered sprays in a supporting role.',
     posts: [
@@ -73,7 +95,7 @@ const RESEARCH: Category[] = [
     href: '/pest-product-guides/rodent-control',
     name: 'Rodent & Attic',
     icon: '🐭',
-    count: '13 guides',
+    count: guides(N.rodent),
     tone: 'research',
     blurb: 'Canadian rodenticide law is stricter than most US advice assumes, so traps and exclusion do the real work. Mice, rats and attic-proofing.',
     posts: [
@@ -88,7 +110,7 @@ const RESEARCH: Category[] = [
     href: '/blog/best-raccoon-live-trap-canada',
     name: 'Wildlife & Yard Animals',
     icon: '🦝',
-    count: '4 guides',
+    count: guides(N.wildlife),
     tone: 'research',
     blurb: 'Our smallest library, and deliberately so — raccoons are the one yard animal we cover in depth: humane live traps, electric fencing and deterrents, with Ontario relocation law explained.',
     posts: [
@@ -102,7 +124,7 @@ const RESEARCH: Category[] = [
     href: '/blog/best-fruit-fly-trap-canada',
     name: 'Flies & Gnats',
     icon: '🪰',
-    count: '13 guides',
+    count: guides(N.flies),
     tone: 'research',
     blurb: 'Fruit flies, cluster flies, fungus gnats and commercial fly problems — the traps and UV lights that clear each one.',
     posts: [
@@ -116,7 +138,7 @@ const RESEARCH: Category[] = [
     href: '/blog/how-to-get-rid-of-wasps-canada',
     name: 'Wasps, Hornets & Bees',
     icon: '🐝',
-    count: '5 guides',
+    count: guides(N.wasp),
     tone: 'research',
     blurb: 'Traps, nest sprays and the safe way to deal with a nest — plus when a wasp is actually a protected pollinator worth leaving alone.',
     posts: [
@@ -130,7 +152,7 @@ const RESEARCH: Category[] = [
     href: '/blog/how-to-get-rid-of-cockroaches-canada',
     name: 'Roaches, Spiders & Crawlers',
     icon: '🪳',
-    count: '15 guides',
+    count: guides(N.crawlers),
     tone: 'research',
     blurb: 'Cockroach gel baits, spider sprays and crawling-pest gear (silverfish, earwigs, centipedes and more) that’s actually PMRA-legal here — not the US shopping list.',
     posts: [
@@ -150,7 +172,7 @@ const RESEARCH: Category[] = [
     href: '/pest-product-guides/ant-control',
     name: 'Ants & Carpenter Ants',
     icon: '🐜',
-    count: '24 guides',
+    count: guides(N.ant),
     tone: 'research',
     blurb: 'Ants are a baiting problem, not a spraying problem — the colony sits somewhere you can’t reach, so contact killers only remove foragers. Carpenter ants get their own treatment: they’re a structural issue, not a kitchen one.',
     posts: [
@@ -164,7 +186,7 @@ const RESEARCH: Category[] = [
     href: '/blog/best-flea-spray-for-home-canada',
     name: 'Fleas',
     icon: '🐕',
-    count: '4 guides',
+    count: guides(N.flea),
     tone: 'research',
     blurb: 'Most of a flea population is eggs and larvae in the carpet, not adults on the pet — which is why an IGR spray plus a sealed-HEPA vacuum does more than the total-release fogger most people reach for first.',
     posts: [
@@ -178,7 +200,7 @@ const RESEARCH: Category[] = [
     href: '/blog/best-pest-control-equipment-canada',
     name: 'DIY Pest-Control Equipment',
     icon: '🛠️',
-    count: '20+ guides',
+    count: guides(N.equipment),
     tone: 'research',
     blurb: 'The heavy gear — foggers, backpack sprayers, dehumidifiers and steamers — sized and compared for Canadian buyers.',
     posts: [
@@ -207,7 +229,7 @@ const FAQS = [
   },
   {
     question: 'How many product guides are there, and how are they organised?',
-    answer: 'There are 280+ individual guides across eleven categories: two we treat (Mosquito Gear and Tick Gear, picked from our own GTA treatment work) and nine independent research libraries — Bed Bug Control, Rodent & Attic, Wildlife & Yard Animals, Flies & Gnats, Wasps/Hornets & Bees, Roaches/Spiders & Crawlers, Ants & Carpenter Ants, Fleas, and DIY Pest-Control Equipment. Mosquito gear is the largest library overall at 80+ guides; bed bugs is the largest of the independent research libraries at 45+. Every one links only to products available on amazon.ca.',
+    answer: `There are ${TOTAL} product guides across eleven categories: two we treat (Mosquito Gear and Tick Gear, picked from our own GTA treatment work) and nine independent research libraries — Bed Bug Control, Rodent & Attic, Wildlife & Yard Animals, Flies & Gnats, Wasps/Hornets & Bees, Roaches/Spiders & Crawlers, Ants & Carpenter Ants, Fleas, and DIY Pest-Control Equipment. The largest libraries are ${LARGEST}. Every one links only to products available on amazon.ca.`,
   },
   {
     question: 'What does "PMRA domestic-class" mean, and why does it matter?',
@@ -229,7 +251,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: TITLE,
-  description: 'The gear BuzzSkito recommends from treating GTA yards for mosquitoes and ticks, plus independent, PMRA-legal Canadian product guides for bed bugs, rodents, ants, fleas, wildlife, flies, wasps and more — 280+ guides across eleven categories. Every pick is available on amazon.ca, with no grey-market US products.',
+  description: `The gear BuzzSkito recommends from treating GTA yards for mosquitoes and ticks, plus independent, PMRA-legal Canadian product guides for bed bugs, rodents, ants, fleas, wildlife, flies, wasps and more — ${TOTAL} product guides across eleven categories. Every pick is available on amazon.ca, with no grey-market US products.`,
   canonical: `/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -274,7 +296,7 @@ export default function PestProductGuidesPage() {
   const postingSchema = {
     ...blogPostingSchema({
       title: TITLE,
-      description: 'The master hub for BuzzSkito\'s recommended products — mosquito and tick gear picked from real GTA treatment work, plus independent, PMRA-legal Canadian guides for other household pests. 280+ guides across eleven categories.',
+      description: `The master hub for BuzzSkito's recommended products — mosquito and tick gear picked from real GTA treatment work, plus independent, PMRA-legal Canadian guides for other household pests. ${TOTAL} product guides across eleven categories.`,
       slug: SLUG,
       datePublished: DATE,
     }),
@@ -315,7 +337,7 @@ export default function PestProductGuidesPage() {
             <span>Every pick on amazon.ca</span>
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            {[{ v: '280+', l: 'Product guides' }, { v: '11', l: 'Categories' }, { v: 'PMRA-legal', l: 'Canadian picks only' }].map((s) => (
+            {[{ v: String(TOTAL), l: 'Product guides' }, { v: '11', l: 'Categories' }, { v: 'PMRA-legal', l: 'Canadian picks only' }].map((s) => (
               <div key={s.l} className="rounded-2xl border border-white/10 bg-white/5 px-5 py-3 backdrop-blur-sm">
                 <div className="text-2xl font-extrabold leading-none text-white">{s.v}</div>
                 <div className="mt-1.5 text-[11px] uppercase tracking-wide text-brand-300">{s.l}</div>
@@ -332,7 +354,7 @@ export default function PestProductGuidesPage() {
             <p className="mb-3 flex items-center gap-2 text-xs font-extrabold uppercase tracking-wider text-emerald-700">
               <span className="grid h-5 w-5 place-items-center rounded-full bg-emerald-600 text-[11px] text-white" aria-hidden="true">✓</span>Quick Answer
             </p>
-            <p className="text-[15px] font-medium leading-relaxed text-gray-800">This is BuzzSkito&rsquo;s master product hub — 280+ guides across eleven categories. It splits in two: mosquito and tick gear picked from our own licensed GTA treatment work (the two pests we actually treat), and independent, PMRA-legal Canadian research for the household pests we don&rsquo;t — bed bugs, rodents, ants, fleas, wildlife, flies, wasps, roaches and the DIY equipment behind them. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
+            <p className="text-[15px] font-medium leading-relaxed text-gray-800">This is BuzzSkito&rsquo;s master product hub — {TOTAL} product guides across eleven categories. It splits in two: mosquito and tick gear picked from our own licensed GTA treatment work (the two pests we actually treat), and independent, PMRA-legal Canadian research for the household pests we don&rsquo;t — bed bugs, rodents, ants, fleas, wildlife, flies, wasps, roaches and the DIY equipment behind them. Every recommendation is available on amazon.ca, with grey-market US products excluded by rule.</p>
             <ul className="mt-4 grid gap-x-6 gap-y-2 text-sm text-gray-700 sm:grid-cols-2">
               {[
                 'Eleven categories: Mosquito, Tick, Bed Bug, Rodent, Wildlife, Flies, Wasps, Roaches/Crawlers, Ants, Fleas and Equipment.',

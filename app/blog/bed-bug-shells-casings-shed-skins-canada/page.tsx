@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -8,6 +9,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -15,13 +17,14 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-shells-casings-shed-skins-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-16'
 // This page is the EVIDENCE-IDENTIFICATION half of the bed bug cluster: someone
 // found a translucent husk and wants to know what it is and what it proves. The
 // inspection protocol lives on how-to-check-for-bed-bugs-canada and the treatment
 // protocol on how-to-get-rid-of-bed-bugs-canada — do not restate either here.
 const TITLE = 'Bed Bug Shells, Casings and Shed Skins — What You Found, and Whether It Is Still Active'
-const META_TITLE = 'Bed Bug Shells & Shed Skins Canada: Active?'
+// TITLE NOTE (Oct 16, 2026): was 'Bed Bug Shells & Shed Skins Canada: Active?'; top queries: bed bug shells 150, bed bug shed skin 115, bed bug shell 95, bed bug casings 80, husks 98 (2 clicks).
+const META_TITLE = 'Bed Bug Shells and Shed Skins (Photos)'
 
 const FAQS = [
   {
@@ -77,6 +80,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-nymph'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -84,7 +88,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BedBugShellsCasingsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to bed bug shells, casings and shed skins: what a moulted exoskeleton looks like, why five moults mean five possible shells per bug, what a shell proves about feeding and breeding, how to tell it from carpet beetle larval skins and dead bugs, where casings accumulate, and the confirm-then-contain sequence to follow next.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to bed bug shells, casings and shed skins: what a moulted exoskeleton looks like, why five moults mean five possible shells per bug, what a shell proves about feeding and breeding, how to tell it from carpet beetle larval skins and dead bugs, where casings accumulate, and the confirm-then-contain sequence to follow next.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-nymph') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Shells and Shed Skins — What They Mean', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -355,6 +359,11 @@ export default function BedBugShellsCasingsPage() {
           <h2>Why Bed Bugs Leave Shells at All</h2>
           <p>An insect wears its skeleton on the outside, and a rigid outer case cannot stretch. To get bigger, a bed bug has to climb out of the one it is wearing and harden a new, larger one underneath. The discarded case is the shell you found: complete down to the legs and antennae, but empty, because everything that was alive walked out of it.</p>
           <p>The detail that turns this from trivia into evidence is the trigger. A bed bug passes through <strong>five nymphal stages</strong> on the way to adulthood, and <strong>each of those stages requires a blood meal before the moult can proceed</strong> &mdash; a point the <a href="https://bedbugs.tennessee.edu/biology-and-identification/" className="text-emerald-700 underline">University of Tennessee bed bug program</a> states plainly in its biology summary. No blood, no moult. So every husk in your mattress seam is not just a sign that a bed bug was present; it is physical proof that a bed bug <em>fed on a person in that bed</em> and then grew.</p>
+          <Photo
+            id="bed-bug-nymph"
+            alt="Bed bug nymph on white fabric: a small, amber-coloured oval insect with six legs"
+            caption="A bed bug nymph, Cimex lectularius, on fabric. A nymph must feed before each moult, and the skin it sheds is an empty, translucent copy of it, complete down to the legs and antennae."
+          />
           <p>That single fact does most of the diagnostic work on this page. It closes off the most comforting explanation people reach for &mdash; that a bug hitchhiked in on a suitcase and died &mdash; because a hitchhiker that never fed leaves no husk. It also explains why shells are so often the first evidence found: one bug reaching adulthood can leave up to five of them, so the casings pile up faster than the bugs themselves do, and they sit still in a seam where a live bug will not.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">The two purchases that turn a pile of husks into an actual answer:</p>
@@ -367,6 +376,11 @@ export default function BedBugShellsCasingsPage() {
           <NextUp path="/blog/bed-bug-shells-casings-shed-skins-canada" />
           <h2>Reading the Sizes: What Five Different Husks in One Seam Tells You</h2>
           <p>Because each moult produces a larger husk than the last, the size spread in a seam is a readable record. First-stage skins are roughly a millimetre and a half &mdash; near the limit of what an unaided eye resolves &mdash; and the last nymphal skin approaches the size of an adult bed bug, about four and a half millimetres, the familiar apple-seed comparison.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre scale: a flat, oval, reddish-brown insect about 5 mm long"
+            caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. The last nymphal skin comes close to this size, at about 4.5 mm, while a first-stage skin is about 1.5 mm."
+          />
           <ul>
             <li><strong>Only large husks.</strong> Late-stage bugs were present. Common where a small number of adults or near-adults arrived and fed, and worth confirming before you conclude anything about scale.</li>
             <li><strong>A spread of sizes, small ones included.</strong> This is the finding that matters. Tiny husks mean eggs hatched <em>in that location</em> and the young found a host often enough to keep moulting. That is an established, reproducing population rather than an introduction, and it changes the plan: containment and a full room protocol, not a wait-and-see.</li>
@@ -391,6 +405,11 @@ export default function BedBugShellsCasingsPage() {
           <h2>The Carpet Beetle Problem &mdash; Why Half of These Finds Are the Wrong Insect</h2>
           <p>Carpet beetles are the most common false positive in this entire category, and it is easy to see why: their larvae also shed skins repeatedly, they also leave those skins along baseboards and under beds, and the husks are also small, brown and insect-shaped. People find them while searching for bed bugs, and confirmation bias does the rest.</p>
           <p>One feature separates them cleanly. <strong>Carpet beetle larval skins are hairy.</strong> They are bristly and banded, tapered like a minute caterpillar, frequently with a tuft of longer hairs at the rear. A bed bug shell has no hairs at all: it is smooth, broadly oval, and flat. Under a magnifier at any decent light angle the difference is not subtle.</p>
+          <Photo
+            id="carpet-beetle-larva"
+            alt="Carpet beetle larva on a pale surface: a bristly, banded, brown body"
+            caption="A carpet beetle larva, genus Anthrenus. The skins it sheds are bristly and banded too, where a bed bug shell is smooth, with no hairs at all."
+          />
           <p>Location helps too. Bed bug casings concentrate within reach of where a person sleeps, because that is where the bugs harbour. Carpet beetle skins turn up in wool rugs, closets, stored blankets, under furniture that never moves, and around light fixtures and window sills where the adult beetles die. If the husks are hairy and they are in the closet rather than the bed, close this page and go look at your stored wool &mdash; you have a textile pest, and none of the bed bug spending applies. Our <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada">carpet beetle guide</Link> covers that job, and <Link href="/blog/bugs-that-look-like-bed-bugs-canada">bugs that look like bed bugs</Link> works through the other look-alikes if the husk turns out to have a live version somewhere.</p>
 
           <h2>Where the Shells Are Pointing</h2>

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -15,12 +17,13 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-centipedes-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-07-27'
+const UPDATED = '2026-10-16'
 // H1 keeps the long descriptive form. SERP title is trimmed to 44 chars so it
 // survives Google's ~60-char cap once the " | BuzzSkito" template (12 chars) is
 // appended. Head terms: "centipede" (18K/mo CA) + "house centipede" (12K/mo CA).
 const TITLE = 'How to Get Rid of House Centipedes in Canada — Kill the Prey, Not the Predator'
-const META_TITLE = 'Get Rid of House Centipedes in Canada (2026)'
+// TITLE NOTE (Oct 16, 2026): was 'Get Rid of House Centipedes in Canada (2026)'; top queries: how to get rid of house centipedes 416 (10 clicks), house centipede canada 258, centipedes in house 155.
+const META_TITLE = 'Get Rid of House Centipedes in Canada (Photos)'
 
 const FAQS = [
   {
@@ -89,6 +92,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('house-centipede'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-centipedes-canada')
@@ -96,7 +100,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-centipedes-canada')
 export default function HowToGetRidOfCentipedesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to house centipedes: identification, why they are predators worth understanding before you kill them, the basement humidity mechanism, dehumidifier sizing, exclusion at gaps, drains and weep holes, glue-board monitoring, and why chemical-first control fails.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to house centipedes: identification, why they are predators worth understanding before you kill them, the basement humidity mechanism, dehumidifier sizing, exclusion at gaps, drains and weep holes, glue-board monitoring, and why chemical-first control fails.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('house-centipede') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of House Centipedes in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -337,12 +341,27 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <NextUp path="/blog/how-to-get-rid-of-centipedes-canada" />
           <h2>Identification: Is It Actually a House Centipede?</h2>
           <p>Almost every centipede a Canadian homeowner meets indoors is <em>Scutigera coleoptrata</em>, the house centipede. It is unmistakable once you know it: a flattened, yellowish-grey body about 25 to 35 mm long with three dark stripes running its length, fifteen pairs of extremely long, delicate, banded legs, and antennae and rear legs so long that the animal appears several times bigger than it is. It moves in fast, jerky bursts across walls and ceilings, freezes, then bolts again. If it startled you badly enough that you are now reading a website about it at midnight, it was almost certainly a house centipede.</p>
+          <Photo
+            id="house-centipede"
+            alt="House centipede seen from above, with long banded legs along both sides of a striped body and very long antennae"
+            caption="A house centipede, Scutigera coleoptrata, seen from above. Look for the three dark stripes running the length of the body and the long, banded legs."
+          />
           <p>Three lookalikes get confused with it, and the distinction changes what you do:</p>
           <ul>
             <li><strong>Millipedes</strong> have two pairs of short legs per segment on a rounded, cylindrical body, move slowly, and curl into a spiral when disturbed. They eat decaying plant matter, not insects. Indoors in Canada they are accidental invaders from mulch and leaf litter during wet spring or autumn weather, and they die within days because the house is too dry for them. Same root cause, gentler animal.</li>
             <li><strong>Soil and garden centipedes</strong> &mdash; the smaller, reddish-brown, short-legged kinds you turn up under a flagstone or a landscape timber &mdash; are outdoor animals that occasionally wander in at ground level. They are also harmless and also a sign of damp at the foundation.</li>
             <li><strong>Silverfish and firebrats</strong> get mistaken for centipedes at a glance in a dark basement, but they are wingless, three-tailed, and slow-wiggling rather than sprinting on visible legs. If that is what you actually have, our <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish guide for Canada</Link> is the right page &mdash; and silverfish are also one of the likeliest things your centipedes have been eating.</li>
           </ul>
+          <Photo
+            id="greenhouse-millipede"
+            alt="Two millipedes side by side with glossy, segmented, reddish-brown bodies and many short, pale legs"
+            caption="Two greenhouse millipedes, Oxidus gracilis. Look for the short legs, two pairs to each segment, instead of the house centipede's single pair of long legs per segment."
+          />
+          <Photo
+            id="silverfish"
+            alt="Silverfish with a segmented, tapering body, long antennae at the front and thin tails at the rear"
+            caption="A common silverfish, Lepisma saccharinum, photographed in London, Ontario. Silverfish are wingless and three-tailed, and they wiggle slowly rather than sprinting on visible legs."
+          />
           <p>One more identification note, because it is a common question: the small, stubby, short-legged &ldquo;baby centipedes&rdquo; people find in bathtubs are the same species. House centipedes hatch with four pairs of legs and add pairs at each moult until they reach the adult fifteen, so a house with a breeding population produces a whole size range. Finding small ones is meaningful &mdash; it tells you they are reproducing indoors, which tells you the harbourage is permanently damp, which points you straight at the dehumidifier.</p>
 
           <h2>The Part Nobody Tells You: They Are Eating Your Actual Pests</h2>

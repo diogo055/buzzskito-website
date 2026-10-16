@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -10,6 +11,7 @@ import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -17,9 +19,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'flea-bites-on-humans'
 const DATE = '2026-07-19'
-const UPDATED = '2026-07-19'
+const UPDATED = '2026-10-16'
 const TITLE = 'Flea Bites on Humans: What They Look Like & How to Tell It’s Fleas (2026)'
-const META_TITLE = 'What Do Flea Bites Look Like (vs Bed Bug Bites)?'
+// TITLE NOTE (Oct 16, 2026): was 'What Do Flea Bites Look Like (vs Bed Bug Bites)?'; top queries: what do flea bites look like 600, flea bites on humans 328, flea bites human 253 (2 clicks).
+const META_TITLE = 'What Do Flea Bites Look Like on Humans? Photos'
 
 const FAQS = [
   {
@@ -107,6 +110,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('cat-flea-scale-bar'),
 })
 
 const AMZ_TAG = tagForSlug('flea-bites-on-humans')
@@ -114,7 +118,7 @@ const AMZ_TAG = tagForSlug('flea-bites-on-humans')
 export default function FleaBitesOnHumansPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to flea bites on humans: the ankle-cluster pattern, flea vs bed bug vs mosquito bite comparison, how long bites last, and evidence-based home flea control.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to flea bites on humans: the ankle-cluster pattern, flea vs bed bug vs mosquito bite comparison, how long bites last, and evidence-based home flea control.', slug: SLUG, datePublished: DATE, image: shareImage('cat-flea-scale-bar') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Pest Product Guides', url: '/pest-product-guides' }, { name: 'Flea Bites on Humans', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -208,6 +212,16 @@ export default function FleaBitesOnHumansPage() {
           <li><strong>The halo.</strong> A reddened ring around a central point is typical of flea bites and less common with mosquito bites.</li>
           <li><strong>Low placement.</strong> Fleas launch from carpets and floor-level bedding, and a cat flea&rsquo;s vertical jump tops out around 20 cm (8 in) &mdash; so bites concentrate on ankles, shins, and calves. Bites around the waist, behind the knees, or on forearms usually mean floor-sitting or close pet contact.</li>
         </ul>
+        <Photo
+          id="cat-flea-scale-bar"
+          alt="Cat flea seen from the side under magnification, with long hind legs, beside a 3 mm scale bar"
+          caption="A cat flea, Ctenocephalides felis, seen from the left side beside a 3 mm scale bar. In a home, adults show up as fast, reddish-brown specks 1 to 3 mm long that jump onto white socks."
+        />
+        <Photo
+          id="flea-bites-lower-leg"
+          alt="Flea bites on a person’s lower leg: small red spots scattered over the shin and ankle"
+          caption="Flea bites on a person’s lower leg. Look for small red bumps like these below the knee, the zone a flea can reach by jumping from the floor."
+        />
         <p>The itch starts <strong>within minutes</strong>. That fast reaction is one of the most useful tells, because the other common indoor biter &mdash; the bed bug &mdash; often produces a reaction delayed by hours or days.</p>
 
         <NextUp path="/blog/flea-bites-on-humans" />
@@ -237,6 +251,11 @@ export default function FleaBitesOnHumansPage() {
 
         <h2 id="flea-or-bed-bug">How do you know if it&rsquo;s a flea bite or bed bug bite?</h2>
         <p><strong>Start with the height on your body.</strong> Flea bites sit below the knee in tight clusters and itch within minutes. Bed bug bites sit on skin left uncovered in bed &mdash; face, neck, shoulders, arms, hands &mdash; often run in a line of three or more, and the itch is commonly delayed by hours or days. Then confirm in the room, not on the skin.</p>
+        <Photo
+          id="bed-bug-bites-forearm"
+          alt="Bed bug bites on a forearm: several raised red welts"
+          caption="Bed bug bites on a forearm. Bed bugs bite skin left uncovered in bed, such as the arms, rather than below the knee like the flea bites above."
+        />
         <p>That last step is not optional. The CDC is explicit that bed bug bites cannot be reliably told apart from other insect bites by appearance alone, and dermatologists say the same about bites generally: reactions vary so much between people that two adults bitten by the same insect on the same night can show completely different marks &mdash; or, in maybe one person in five, no marks at all. Physical evidence is the tiebreaker, and it is decisive in both directions:</p>
         <ul>
           <li><strong>Fleas leave their evidence at floor level.</strong> Black, pepper-like &ldquo;flea dirt&rdquo; in pet fur and pet bedding that smears reddish-brown on a damp paper towel; fast reddish-brown adults 1&ndash;3 mm long that jump onto white socks; pale eggs about 0.5 mm rolling into carpet pile.</li>
@@ -351,6 +370,11 @@ export default function FleaBitesOnHumansPage() {
           <li><strong>Check pet bedding and favourite resting spots.</strong> Flea dirt, tiny white eggs (about 0.5 mm / 1/50 in), and larvae accumulate exactly where the animal sleeps.</li>
           <li><strong>Set an overnight flea trap.</strong> A plug-in light trap in the room where bites happen gives you an objective count by morning &mdash; and a baseline to measure your clean-up against.</li>
         </ul>
+        <Photo
+          id="flea-dirt"
+          alt="Flea dirt under magnification: dark reddish-brown, comma-shaped droppings of the cat flea"
+          caption="Flea dirt: droppings of the adult cat flea, Ctenocephalides felis, magnified. Under a flea comb it shows up as black, pepper-like specks that turn reddish-brown on a damp paper towel."
+        />
         <p>No pet? You can still have fleas. Wildlife hosts &mdash; squirrels, raccoons, feral cats &mdash; seed fleas near or under homes, and dormant pupae in an apartment can survive for months after a previous tenant&rsquo;s pets are gone, hatching in a wave when new occupants move in and supply warmth and vibration.</p>
 
         <h2 id="get-rid-of-fleas">How do you get rid of fleas at home?</h2>

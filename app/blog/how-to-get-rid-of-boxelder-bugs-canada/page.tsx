@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -16,9 +18,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-boxelder-bugs-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-07-27'
+const UPDATED = '2026-10-16'
 const TITLE = 'How to Get Rid of Boxelder Bugs in Canada — The Sealing Window Nobody Tells You About'
-const META_TITLE = 'Boxelder Bugs Canada — How to Get Rid of Them'
+// TITLE NOTE (Oct 16, 2026): was 'Boxelder Bugs Canada — How to Get Rid of Them'; top queries: how to get rid of boxelder bugs 254, black and red bugs 205, red and black bugs 29+26+21+19 (0 clicks).
+const META_TITLE = 'Boxelder Bugs: The Black and Red Bugs (Photos)'
 
 const FAQS = [
   {
@@ -78,6 +81,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('boxelder-bug'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-boxelder-bugs-canada')
@@ -85,7 +89,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-boxelder-bugs-canada')
 export default function HowToGetRidOfBoxelderBugsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to boxelder bugs: Boisea trivittata identification, the Manitoba maple connection, the autumn congregation on warm south and west walls, why indoor spraying causes staining and secondary pests, the late-summer exclusion window, soapy-water knockdown, the indoor vacuum protocol, and why removing the host tree is usually the wrong call.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to boxelder bugs: Boisea trivittata identification, the Manitoba maple connection, the autumn congregation on warm south and west walls, why indoor spraying causes staining and secondary pests, the late-summer exclusion window, soapy-water knockdown, the indoor vacuum protocol, and why removing the host tree is usually the wrong call.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('boxelder-bug') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Boxelder Bugs in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -316,6 +320,11 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
           <NextUp path="/blog/how-to-get-rid-of-boxelder-bugs-canada" />
           <h2>Identification: Is It Actually a Boxelder Bug?</h2>
           <p>The adult is about 12&ndash;14 millimetres long &mdash; roughly half an inch, a little longer than a shirt button is wide &mdash; with a flattened oval body, charcoal to matte black, marked with three orange-red stripes running lengthwise on the pronotum, the shield-shaped plate behind the head. At rest the folded wings are outlined in red-orange along the veins, which reads as a rough <em>V</em> or a narrow X down the back. They move deliberately rather than fast, and they fly perfectly well despite looking like they shouldn&rsquo;t.</p>
+          <Photo
+            id="boxelder-bug"
+            alt="Boxelder bug on a twig: a black bug with orange-red stripes behind the head and red-orange edges on its folded wings"
+            caption="An adult eastern boxelder bug, Boisea trivittata, on a flowering twig. Look for the three orange-red stripes on the shield behind the head and the red-orange outlines on the folded wings."
+          />
           <p>The nymphs throw people badly. Immature boxelder bugs are bright, almost tomato red, wingless, and progressively larger through five moults, so through June and July you can find a Manitoba maple trunk crawling with red specks and be convinced you are looking at something entirely different from the black-and-red adults on your wall in September. Same insect, different chapter.</p>
           <p>Formally they belong to the family Rhopalidae, the scentless plant bugs &mdash; a name that reads as a joke to anyone who has ever stepped on one indoors. They are not true stink bugs, but they do produce a defensive compound, and crushing one releases both an unpleasant odour and a pigment that stains. If the insect you crushed genuinely did smell &mdash; a sharp coriander note &mdash; and it is shield-shaped rather than flat and elongated, you have <Link href="/blog/how-to-get-rid-of-stink-bugs-canada" className="text-brand-700 underline">a stink bug rather than a boxelder bug</Link>, and the removal method changes.</p>
           <p><strong>The Ontario look-alikes worth ruling out:</strong></p>
@@ -325,6 +334,16 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
             <li><strong>Milkweed bugs</strong> &mdash; orange and black, but you find them on milkweed pods in a field, not on siding in October.</li>
             <li><strong>Clover mites</strong> &mdash; the tiny bright-red specks that appear on sunny window frames and leave a red smear when wiped are not boxelder nymphs at all. They are mites, they show up in spring and fall, and they need a different approach; we cover them in <Link href="/blog/red-ticks-and-clover-mites">red &ldquo;ticks&rdquo; and clover mites</Link>, alongside the other <Link href="/blog/bugs-that-look-like-ticks">bugs commonly mistaken for ticks</Link>.</li>
           </ul>
+          <Photo
+            id="western-conifer-seed-bug"
+            alt="Brown western conifer seed bug with long antennae and long legs, standing on a black computer keyboard"
+            caption="A western conifer seed bug, Leptoglossus occidentalis, on a computer keyboard in British Columbia. Look for the brown body: a boxelder bug is black with red trim."
+          />
+          <Photo
+            id="brown-marmorated-stink-bug"
+            alt="Brown marmorated stink bug on a red apple, seen head-on, with a mottled brown, shield-shaped body and banded antennae"
+            caption="A brown marmorated stink bug, Halyomorpha halys, feeding on an apple. Look for the shield shape, the mottled brown back and the white bands on the antennae."
+          />
 
           <h2>The Manitoba Maple Connection</h2>
           <p>Boxelder bugs are named for the boxelder tree &mdash; <em>Acer negundo</em> &mdash; which in Canada almost everyone calls the Manitoba maple. That naming gap is why so much of the online advice about this insect feels slightly foreign: the American articles talk about a tree Canadians have never heard of, while the tree standing in the back corner of a Mississauga or Scarborough lot goes unrecognised as the source.</p>

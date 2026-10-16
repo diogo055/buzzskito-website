@@ -3,11 +3,15 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-bite-vs-spider-bite'
 const DATE = '2026-07-16'
+const UPDATED = '2026-10-16'
 const TITLE = 'Mosquito Bite vs Spider Bite: How to Tell Them Apart'
-const META_TITLE = 'Mosquito vs Spider Bite: One Mark or Several?'
+// TITLE NOTE (Oct 16, 2026): was 'Mosquito vs Spider Bite: One Mark or Several?'; top queries: spider bite vs mosquito bite 458, spider vs mosquito bite 105, mosquito bite vs spider bite 104 (0 clicks).
+const META_TITLE = 'Spider Bite vs Mosquito Bite: Photos & Signs'
 
 const FAQS = [
   {
@@ -20,7 +24,7 @@ const FAQS = [
   },
   {
     question: 'Are spider bites in Canada dangerous?',
-    answer: 'The vast majority are harmless. The common house, garden, and wolf spiders found across Ontario and the GTA rarely bite people, and when they do the result is usually mild — brief pain, redness, and swelling that settles within a few days. Canada has only one medically significant native spider, the western black widow, which is uncommon and largely confined to parts of British Columbia, Alberta, Saskatchewan, and Ontario near Lake Erie. The brown recluse is not established in Canada. Per Health Canada guidance, seek care for any bite with spreading redness, severe pain, muscle cramps, fever, or a wound that darkens or blisters.',
+    answer: 'The vast majority are harmless. The common house, garden, and wolf spiders found across Ontario and the GTA rarely bite people, and when they do the result is usually mild — brief pain, redness, and swelling that settles within a few days. Canada’s medically significant native spiders are the black widows, and both are uncommon and local: the western black widow in parts of British Columbia and the southern Prairies, and the northern black widow in parts of southern Ontario (including the Lake Erie shoreline) and Quebec. The brown recluse is not established in Canada. Per Health Canada guidance, seek care for any bite with spreading redness, severe pain, muscle cramps, fever, or a wound that darkens or blisters.',
   },
   {
     question: 'How long does a mosquito bite last compared to a spider bite?',
@@ -54,12 +58,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('aedes-aegypti-female'),
 })
 
 export default function MosquitoBiteVsSpiderBitePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to tell a mosquito bite from a spider bite by appearance, number, pain, and timing — plus when a bite needs a doctor.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to tell a mosquito bite from a spider bite by appearance, number, pain, and timing — plus when a bite needs a doctor.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-aegypti-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Bite vs Spider Bite', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -90,7 +95,7 @@ export default function MosquitoBiteVsSpiderBitePage() {
               <li>You <strong>rarely feel a mosquito bite</strong> happen (its saliva numbs the skin); a spider bite often <strong>stings or pinches</strong> the instant it occurs.</li>
               <li>Mosquito bites show up in <strong>minutes to hours</strong> and peak in itch within 24 hours; a spider bite can develop over <strong>hours to days</strong>.</li>
               <li>A typical mosquito bite clears in <strong>3 to 7 days</strong>; most Canadian spider bites are harmless and heal in a similar timeframe.</li>
-              <li>Canada has only <strong>one</strong> medically significant native spider (the western black widow), and the brown recluse is <strong>not established</strong> here.</li>
+              <li>Canada&rsquo;s only medically significant native spiders are the <strong>black widows</strong> (northern in southern Ontario and Quebec, western in BC and the Prairies), and the brown recluse is <strong>not established</strong> here.</li>
               <li><strong>See a doctor</strong> for spreading redness, a red streak, pus, fever, or a wound that darkens or blisters &mdash; these signal infection, not a normal bite.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -104,6 +109,11 @@ export default function MosquitoBiteVsSpiderBitePage() {
           <p className="text-gray-700 leading-relaxed mb-4">
             The single most reliable clue is <strong>how many bites you have</strong>. A female mosquito often bites several times in one session, so mosquito bites nearly always come in twos, threes, or scattered clusters on exposed skin &mdash; ankles, arms, the back of the neck. Spiders do not feed on people; they bite only defensively, when trapped against skin, and they bite <strong>once</strong>. So a lone mark is more consistent with a spider (or a single mosquito, flea, or bed bug), while a cluster is almost never a spider.
           </p>
+          <Photo
+            id="aedes-aegypti-female"
+            alt="Female mosquito (Aedes aegypti) at rest, with dark legs banded in white"
+            caption="A female yellow fever mosquito, Aedes aegypti, at rest. A female mosquito often bites several times in one session, so mosquito bites nearly always come in clusters."
+          />
           <p className="text-gray-700 leading-relaxed mb-4">
             The second clue is <strong>whether you felt it</strong>. Mosquito saliva contains a mild anaesthetic, so you almost never notice the bite itself &mdash; you only find the itchy welt later. A spider bite is far more likely to register as a sharp pinprick or sting. &ldquo;I woke up itchy&rdquo; leans strongly toward mosquito; &ldquo;I felt something bite me&rdquo; leans toward spider or another stinging insect.
           </p>
@@ -150,6 +160,16 @@ export default function MosquitoBiteVsSpiderBitePage() {
           <p className="text-gray-700 leading-relaxed mb-4">
             A mosquito bite looks like a soft, round, raised welt &mdash; pink to red, often with a paler firm centre &mdash; and it is intensely itchy. In people with stronger reactions the welt can swell to the size of a coin (sometimes called &ldquo;skeeter syndrome&rdquo;), but it is still soft, itchy, and one of several.
           </p>
+          <Photo
+            id="mosquito-bite-welts"
+            alt="Two mosquito bites on a leg, each a round, raised welt with a pale centre and pink skin around it"
+            caption="Two mosquito bites on a leg, photographed and described by the person who was bitten. Look for round, raised welts, pink to red with a paler centre, and more than one of them."
+          />
+          <Photo
+            id="skeeter-syndrome-leg"
+            alt="Large red, swollen area on a lower leg from a strong reaction to mosquito bites"
+            caption="A large local reaction to mosquito bites on a leg, which its photographer describes as skeeter syndrome, an allergic reaction to mosquito saliva. Even a strong mosquito reaction is still soft and itchy, and one of several bites."
+          />
           <p className="text-gray-700 leading-relaxed mb-4">
             A harmless spider bite &mdash; the kind you would get from a common house, garden, or wolf spider in the GTA &mdash; looks like a small red bump, sometimes with mild surrounding redness, and it is more sore than itchy. It usually settles in a few days without treatment. The bites people fear look different: a medically significant bite can blister, bruise, form a target-like ring, or (with the widow) trigger cramping that spreads beyond the bite. Those are rare in Canada. If a &ldquo;spider bite&rdquo; is expanding, weeping pus, or forming a hard red ring, the likeliest explanation is not venom but a <strong>bacterial skin infection</strong> &mdash; which is exactly why it should be seen. Wondering what harmless critters get blamed for bites? Our <Link href="/blog/bugs-that-look-like-ticks" className="text-emerald-700 underline font-semibold">bugs that look like ticks</Link> guide covers the most common look-alikes.
           </p>
@@ -181,6 +201,11 @@ export default function MosquitoBiteVsSpiderBitePage() {
               <li><strong>No improvement after a week</strong>, or a slowly expanding circular/bull&rsquo;s-eye rash (a possible tick-borne concern in Ontario).</li>
             </ul>
           </div>
+          <Photo
+            id="brown-recluse-bite-necrosis"
+            alt="Round patch of dark, damaged skin on a patient's calf four months after a brown recluse spider bite"
+            caption="Localized tissue damage (necrosis) on the skin of a patient's calf four months after a brown recluse spider bite. A bite wound that blisters, darkens or ulcers is one to show a doctor."
+          />
           <p className="text-gray-700 leading-relaxed mb-4">
             In Ontario, the disease most relevant to mosquito bites is West Nile virus, spread by <em>Culex</em> mosquitoes; most infections cause no symptoms, but a small number lead to fever and, rarely, serious neurological illness &mdash; which is why fever, headache, or body aches days after a bite deserve a doctor&rsquo;s call. For a fuller breakdown of warning signs and Ontario-specific risks, see <Link href="/blog/when-to-worry-about-a-mosquito-bite" className="text-emerald-700 underline font-semibold">when to worry about a mosquito bite</Link>. None of this is a diagnosis &mdash; when a bite worries you, contact your doctor or Ontario&rsquo;s Health811 line.
           </p>

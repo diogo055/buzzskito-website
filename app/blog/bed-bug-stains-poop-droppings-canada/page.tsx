@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -9,6 +10,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -16,13 +18,14 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'bed-bug-stains-poop-droppings-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-16'
 // The EVIDENCE half of the bed-bug cluster: "I found a mark — is this a bed bug?"
 // The five-sign inspection protocol (how to search a hotel room, used furniture,
 // a new apartment) stays on how-to-check-for-bed-bugs-canada. This page only does
 // stains and droppings: what they are, the differential, and what to do next.
 const TITLE = 'What Bed Bug Poop and Stains Actually Look Like — and the Five Marks They Get Confused With'
-const META_TITLE = 'Bed Bug Poop and Stains Canada: The Smear Test'
+// TITLE NOTE (Oct 16, 2026): was 'Bed Bug Poop and Stains Canada: The Smear Test'; top queries: bed bug poop 352, bed bug droppings 123, bed bug stains 104, what does bed bug poop look like 100 (3 clicks).
+const META_TITLE = 'What Does Bed Bug Poop Look Like? (Photos)'
 
 const FAQS = [
   {
@@ -78,6 +81,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-adult-ruler'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -85,7 +89,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BedBugStainsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug stains and droppings: what faecal spotting is and why it looks different on fabric than on wood, the damp-swab smear test, the harbourage map that tells you where to look, the differential against dried blood, mould, cockroach frass, carpet beetles and transferred ink, and what to buy once you have found evidence.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug stains and droppings: what faecal spotting is and why it looks different on fabric than on wood, the damp-swab smear test, the harbourage map that tells you where to look, the differential against dried blood, mould, cockroach frass, carpet beetles and transferred ink, and what to buy once you have found evidence.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-adult-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Stains and Droppings', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -389,6 +393,11 @@ export default function BedBugStainsCanadaPage() {
             priority
           />
           <p>A bed bug feeds on blood and digests it, and what comes out the other end is mostly the leftover, broken-down remains of that blood. It is excreted as a liquid droplet, not a solid pellet, and that single fact explains every visual property people find confusing.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre scale: a flat, oval, reddish-brown insect about 5 mm long"
+            caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. A live bug like this within a few centimetres of the staining is what turns strong evidence into certainty."
+          />
           <p>On an absorbent surface &mdash; a cotton sheet, the fabric piping around a mattress, the gauze under a box spring, an upholstered headboard &mdash; the droplet spreads into the weave before it dries. That is why bed bug spots look <em>bled</em>: soft, feathered edges, exactly like touching the fabric with the tip of a felt marker. On a non-absorbent surface &mdash; a lacquered bed frame, a metal slat, painted baseboard trim, the plastic of an outlet cover &mdash; there is nowhere for the liquid to go, so it dries on top as a small, slightly raised, faintly glossy black speck. Run a fingernail across one and you can feel it. Same insect, same material, two completely different-looking marks, which is why a photo you found online may not match what is in front of you.</p>
           <p>The colour is the giveaway and the reason the swab test works. The material is haem-derived, so when you rehydrate it, it releases the rusty reddish-brown that gives every bed bug guide its identical piece of advice: <strong>dab a damp white cloth or wet cotton swab on the edge of the mark.</strong> Bed bug faeces smear reddish-brown into white cotton. Cockroach frass, which is dry and solid, does not smear. Mould has texture and no discrete dots. Ink smears its own colour. Dried blood is redder and flakes off rather than bleeding out. Test the edge rather than the centre, so you keep an intact example if a professional needs to look at it later.</p>
 
@@ -422,6 +431,11 @@ export default function BedBugStainsCanadaPage() {
 
           <h2>The Other Evidence Sitting Next to the Stains</h2>
           <p>Once you have found spotting, spend another five minutes in the same few centimetres, because the confirming evidence is almost always adjacent to it. You are looking for translucent, bug-shaped shells &mdash; bed bugs moult on their way to adulthood and leave the empty casings behind, which is why finding shells in several different sizes tells you the population is breeding rather than a lone hitchhiker. You are also looking for eggs: roughly a millimetre long, pearly white, glued into a crack or seam fold, usually in small clusters and easy to miss without raking light.</p>
+          <Photo
+            id="bed-bug-nymph"
+            alt="Bed bug nymph on white fabric: a small, amber-coloured oval insect with six legs"
+            caption="A bed bug nymph, Cimex lectularius, on fabric. Nymphs moult on the way to adulthood, so look in the same few centimetres for the empty, translucent shells they leave behind."
+          />
           <p>And one thing that is <em>not</em> evidence, no matter how convincing it feels: bites. Skin reactions to bed bug bites vary enormously between people, several other insects produce a similar-looking mark, and some people show no reaction at all &mdash; so a bite pattern can neither confirm nor rule out an infestation. Our guide to <Link href="/blog/bed-bug-bites">what bed bug bites look like</Link> covers why, and <Link href="/blog/tick-vs-bed-bug">tick vs bed bug</Link> handles the other insect that most often gets blamed. If you have bites and no physical evidence anywhere, the honest position is that you do not know yet &mdash; and interceptors, not a spray, are what resolve it.</p>
 
           <RelatedLinks path="/blog/bed-bug-stains-poop-droppings-canada" />

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -16,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-fruit-flies'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-16'
 const TITLE = 'How to Get Rid of Fruit Flies in Canada — Find the Source, Break the 8-Day Cycle'
 const META_TITLE = 'Get Rid of Fruit Flies: Break the 8-Day Cycle'
 
@@ -78,6 +80,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('fruit-fly'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-fruit-flies-canada')
@@ -85,7 +88,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-fruit-flies-canada')
 export default function HowToGetRidOfFruitFliesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Source-first Canadian guide to eliminating fruit flies: the 8-day lifecycle, finding breeding sites in produce, drains, and recycling, TERRO trap vs DIY vinegar jars, and prevention for the August–October spike.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Source-first Canadian guide to eliminating fruit flies: the 8-day lifecycle, finding breeding sites in produce, drains, and recycling, TERRO trap vs DIY vinegar jars, and prevention for the August–October spike.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('fruit-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Fruit Flies in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -247,6 +250,16 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
 
           <h2>Why Fruit Flies Explode: The 8-Day Math</h2>
           <p>Every fruit fly infestation feels sudden, and the biology explains why. At normal Canadian kitchen temperatures, <em>Drosophila melanogaster</em> completes its entire lifecycle — egg, larva, pupa, breeding adult — in roughly <strong>8 days</strong>. A single female lays up to 500 eggs, deposited directly onto whatever is fermenting: the soft spot on a peach, the film inside a sink drain, the dried ring of juice at the bottom of a recycling-bin can. Her daughters are laying their own eggs about a week later. Shape is the fastest way to rule out the impostor: if the fly is fuzzy and moth-like and sits on the sink wall rather than the fruit bowl, it is <Link href="/blog/how-to-get-rid-of-drain-flies-canada" className="text-brand-700 underline">a drain fly breeding in pipe biofilm</Link>, and a vinegar trap will never touch it.</p>
+          <Photo
+            id="fruit-fly"
+            alt="Common fruit fly in side view with a tan body and a bright red eye, beside a 1 mm scale bar"
+            caption="A male common fruit fly, Drosophila melanogaster, beside a 1 mm scale bar. Look for the tan body and red eyes."
+          />
+          <Photo
+            id="drain-fly"
+            alt="Drain fly seen from above: a fuzzy, moth-like fly with broad, hairy wings"
+            caption="A drain fly, Clogmia albipunctata, also called a bathroom moth fly, seen from above. Look for the fuzzy, moth-like shape and the broad wings."
+          />
           <p>Run that math forward and the &ldquo;where did these all come from?&rdquo; moment stops being a mystery. Two flies that hitchhiked home on a basket of farmers-market tomatoes in mid-August can be a triple-digit swarm by Labour Day. This is also why the single most common DIY failure is a purely trap-based approach: a trap removes adults at some rate per day, while an untouched breeding site produces new adults faster. You cannot trap your way out of an active nursery — you have to close the nursery.</p>
           <p>It also explains the calendar. The Canadian fruit fly spike runs <strong>August through October</strong>: garden and orchard harvests peak, produce sits in warm kitchens instead of the fridge, and green bins ferment fast in the late-summer heat. Outdoors, the first hard frost ends them. Indoors, your heated kitchen is a 21°C incubator all winter — which is why a January fruit fly problem is almost always a drain or a forgotten bag of onions, not bad luck. If the insects are flying rather than hovering over fruit &mdash; small, mottled brown, and emerging from a cupboard instead of the bin &mdash; they are pantry moths, and <Link href="/blog/pantry-moth-traps-canada" className="text-brand-700 underline">pheromone traps plus a cupboard purge</Link> is a different job entirely.</p>
 
@@ -295,6 +308,11 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
           <RelatedLinks path="/blog/how-to-get-rid-of-fruit-flies" />
           <h2>Not Fruit Flies? Fungus Gnats Get a Different Fix</h2>
           <p>The most common misdiagnosis on this one: small dark flies around the kitchen window and houseplants get blamed on fruit, when they are actually <strong>fungus gnats</strong> breeding in damp potting soil. The tell: fungus gnats are black and mosquito-shaped with dangly legs and a weak, drifting flight; fruit flies are tan with red eyes and a quick, darting flight around food and drinks. Fruit fly traps barely touch gnats, and no amount of kitchen cleaning fixes a soil problem.</p>
+          <Photo
+            id="fungus-gnat"
+            alt="Fungus gnat on wood: a slender fly with long legs, long antennae and dusky wings"
+            caption="A female dark-winged fungus gnat (family Sciaridae) on wood. Look for the mosquito-like shape and the dangly legs."
+          />
           <p>The fungus gnat fix is BTI — the same larvicidal bacterium used against mosquito larvae — applied to the plant soil. Mosquito Bits are the granular product labelled for fungus gnat use: sprinkle into the pot or soak into the watering can, and the larvae in the soil die off within days. We cover the difference between the granules and the doughnut-shaped dunks in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>, and the full BTI product landscape in our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide</Link>. Let the soil surface dry between waterings and the gnats lose their nursery entirely.</p>
 
           <h2>Prevention: Keeping the August–October Spike Out of Your Kitchen</h2>
