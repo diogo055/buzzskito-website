@@ -1,0 +1,214 @@
+{
+  "slug": "house-spiders",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "house spider",
+  "alsoTargets": [
+    "house spiders",
+    "common house spider",
+    "common house spiders",
+    "common house spiders that bite",
+    "house spider identification",
+    "giant house spider",
+    "house spider bite",
+    "big spiders in house",
+    "brown spiders in house",
+    "black spiders in house"
+  ],
+  "metaTitle": "Common House Spiders: Photos and Which Ones Bite",
+  "metaDescription": "Photos of the spiders found indoors, from the common house spider and cellar spider to wolf and jumping spiders, with the clue that identifies each.",
+  "h1": "Common House Spiders: How to Identify Them and Why They Come Inside",
+  "dek": "The tangle in the window, the long-legged spider on the ceiling and the big brown one in the bathtub are different spiders. Photos, sizes and the clue that identifies each, where it turns up and whether its bite matters.",
+  "breadcrumb": "Common House Spiders",
+  "excerpt": "Photos and the web, leg and size clues that identify the spiders found indoors in North America, why more appear in late summer, and which bites matter.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Start with the web: a messy tangle points to a cobweb spider such as the common house spider, a loose web with a pale, very long-legged spider hanging upside down to a cellar spider, a flat sheet with a funnel to a funnel weaver, and no web at all to a hunting spider.** [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders) says spiders very rarely bite people.",
+    "bullets": [
+      "[Penn State Extension](https://extension.psu.edu/common-house-spider) gives female common house spiders as about 3/16 to 1/4 inch (5 to 6 mm) long, with gray chevrons on the abdomen and legs ringed darker at the joints.",
+      "A longbodied cellar spider's body is only about 1/4 to 5/16 inch long, but a female's front legs reach about 2 inches, according to Penn State Extension.",
+      "[Washington State University](https://pestsense.cahnrs.wsu.edu/fact-sheet/giant-house-spider/) gives the giant house spider a body 1/2 to 1 inch long and a leg span of up to 4 inches on large adults.",
+      "Wolf spiders are 1/4 inch to 1 inch long, and the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders) says the bites of North American wolf spiders are harmless.",
+      "[UC IPM](https://ipm.ucanr.edu/home-and-landscape/spiders/) says the jaws of most spiders are too small to bite people, and a spider trapped in clothing or bedding usually causes no more than itching or a reaction like a bee sting.",
+      "[CDC's page on venomous spiders](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) names two, the black widow and the brown recluse."
+    ]
+  },
+  "facts": {
+    "title": "House spiders at a glance",
+    "rows": [
+      ["Common house spider", "Round, mottled abdomen and banded legs; tangled cobweb in corners and windows"],
+      ["Cellar spider", "Very long, thin legs on a small, pale body; hangs upside down in a loose web"],
+      ["Barn funnel weaver", "Two dark stripes behind the head; sheet web with a funnel in a dark corner near the floor"],
+      ["Giant house spider", "Body 1/2 to 1 inch, leg span up to 4 inches; mainly the Pacific Northwest; runs fast on floors"],
+      ["Hobo spider", "Northwest and parts of the Rockies; a specialist is needed to tell it from its relatives"],
+      ["False black widow", "Round, chocolate-brown abdomen with no red; about 3/8 inch"],
+      ["Yellow sac spider", "Pale yellow with darker mouthparts and feet; silk sac in wall and ceiling corners"],
+      ["Wolf spider", "No web; two large eyes; often striped; females carry an egg sac or spiderlings"],
+      ["Bold jumping spider", "Fuzzy and black with white spots; two big front eyes; jumps"],
+      ["Woodlouse spider", "Red-orange front half and legs, pale abdomen, large forward jaws"],
+      ["Southern house spider", "Flat, tangled web around a crevice; southern US; females 1/2 to 3/4 inch"],
+      ["Brown recluse", "Six eyes in three pairs and plain legs; central and southern US"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are the most common house spiders?" },
+    { "type": "p", "text": "The spiders that extension guides describe as common indoors are mostly web builders that can live their whole lives in a house, chiefly the common house spider, cellar spiders and funnel weavers, plus a few hunters. [University of Minnesota (UMN) Extension's spider guide](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders) draws the line: some web builders survive and reproduce well indoors, while hunting spiders, which catch prey without a web, wander in by accident, particularly in fall, and usually do not reproduce there. One exception is the yellow sac spider *Cheiracanthium mildei*, a hunter that lays its eggs almost exclusively indoors." },
+    { "type": "figure", "src": "/guides/photos/common-house-spider.webp", "width": 1200, "height": 1200, "alt": "Common house spider on a pale wall beside a strand of silk, with a round, black and gray mottled abdomen and pale legs banded dark at the joints", "caption": "Common house spider, *Parasteatoda tepidariorum*. Look for the round, mottled abdomen and the legs banded dark at the joints.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/229533845" },
+    { "type": "p", "text": "UMN says spiders very rarely bite people and most cannot bite even when coaxed. The two groups that matter medically, the widows and the brown recluse, get short sections below." },
+    { "type": "table", "head": ["Spider", "Body length", "Where it turns up", "Bite"], "rows": [
+      ["Common house spider", "3/16 to 1/4 inch (female)", "Corners, windows, basements", "Rare; pain for hours"],
+      ["Cellar spider", "1/4 to 5/16 inch", "Basement and garage ceilings", "Not known to bite"],
+      ["Barn funnel weaver", "1/4 to 1/2 inch", "Dark corners near the floor", "Unlikely to break skin"],
+      ["Giant house spider", "1/2 to 1 inch", "Floors and tubs, mainly the Northwest", "No known threat"],
+      ["Hobo spider", "1/2 to 5/8 inch", "Basements, Northwest and Rockies", "Not considered of probable medical importance"],
+      ["False black widow", "About 3/8 inch", "Cupboards, under appliances", "Like a yellowjacket sting"],
+      ["Yellow sac spider", "3/16 to 3/8 inch (female)", "Wall and ceiling corners", "Painful, normally not serious"],
+      ["Wolf spider", "1/4 to 1 inch", "Floors and garages, fall", "Harmless"],
+      ["Bold jumping spider", "1/4 to 3/4 inch (female)", "Sunny windows and walls", "Harmless"],
+      ["Woodlouse spider", "3/8 to 5/8 inch", "Humid basements", "Not dangerous"],
+      ["Southern house spider", "1/2 to 3/4 inch (female)", "Windowsills, the South", "Not known to be dangerous"],
+      ["Brown recluse", "About 3/8 inch", "Closets and boxes, central and southern US", "Usually minor, sometimes a slow-healing wound"]
+    ], "caption": "Body length without legs. Sources: UMN Extension, UC IPM, Penn State Extension, Washington State University, Colorado State University, the Missouri Department of Conservation, the University of Florida and CDC, each linked below." },
+
+    { "type": "h2", "text": "How do you tell house spiders apart?" },
+    { "type": "p", "text": "Check the web first, then the legs, the body and the size. [The Missouri Department of Conservation's (MDC) guide to Missouri's common spiders](https://mdc.mo.gov/sites/default/files/2026-08/A%20Guide%20to%20Missouri%27s%20Common%20Spiders_508.pdf) says noting where a spider sits, whether it is in a web and what kind of web can help narrow down the species. Trap the spider under a clear jar and run these checks." },
+    { "type": "checklist", "title": "Checks for a spider in a jar", "items": [
+      "**Web.** A messy tangle: a cobweb spider, such as the common house spider. A loose web with a pale spider hanging upside down: a cellar spider. A flat sheet narrowing into a funnel: a funnel weaver. A silk sac in a ceiling corner: a sac spider. No web: a hunter.",
+      "**Legs.** Legs many times longer than the body mean a cellar spider. Banded or spiny legs rule out a brown recluse, whose legs are unbanded and spineless.",
+      "**Body.** A round, bulbous abdomen marks the cobweb family, which includes false widows and black widows. A compact, fuzzy body with two huge front eyes means a jumping spider.",
+      "**Size.** Measure the body, not the legs, beside a ruler marked in inches. None of the sources here puts the common house spider, cellar spiders, sac spiders, the false black widow or the brown recluse over 1/2 inch, so a clearly bigger body points to another spider.",
+      "**Color.** Pale yellow with dark mouthparts: a sac spider. Red-orange front and legs, pale abdomen: a woodlouse spider. A round, chocolate-brown abdomen with no red: a false black widow. Shiny black with a red hourglass underneath: a black widow.",
+      "**Eight legs?** Spiders have eight legs, two body regions and no antennae, UMN notes. Six legs and antennae mean an insect; one oval body with two eyes means a harvestman, which the MDC guide says makes no silk or venom."
+    ] },
+
+    { "type": "h2", "text": "What does a common house spider look like?" },
+    { "type": "p", "text": "The common house spider, also called the American house spider, is a small cobweb spider with a round, mottled abdomen and banded legs. [Penn State Extension's common house spider page](https://extension.psu.edu/common-house-spider) gives females as about 3/16 to 1/4 inch (5 to 6 mm) long, with a dirty-white to brown abdomen marked with gray chevrons and yellow legs ringed darker at the end of each segment; males are a little smaller, with orange legs. UMN puts its body at over 1/4 inch. Colors vary, the MDC guide notes, but the abdomen usually looks grainy, like a mosaic." },
+    { "type": "p", "text": "Penn State calls it extremely common in houses and barns, with webs in the corners of walls, on floor joists and in windows, and most often in damp basements and crawl spaces. It often abandons a web for a new one nearby, so one spider can leave many webs in a short time, and adults are found year-round." },
+    { "type": "p", "text": "Its egg sacs hang in the web: brown to grayish-tan, oval to pear-shaped and about 1/4 to 3/8 inch (6 to 9 mm) across, with a tough, papery cover and 140 to 380 eggs inside, according to Penn State and the MDC guide. [The guide to spider egg sacs](/blog/spider-egg-sacs) compares them with those of other species." },
+    { "type": "figure", "src": "/guides/photos/common-house-spider-egg-sac.webp", "width": 1200, "height": 1006, "alt": "Common house spider with a mottled brown abdomen and orange-brown legs hanging in its web beside a brown, teardrop-shaped egg sac, with a second sac blurred below", "caption": "Adult female common house spider beside an egg sac in her web, photographed in Logan, Ohio. Look for the brown, pear-shaped sac hanging in the silk.", "credit": "(c) Joey M, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/291856092" },
+    { "type": "p", "text": "It seldom bites. Penn State says it is not regarded as medically important and that the few verified bites caused redness and pain lasting 4 to 24 hours. [UC IPM's Pest Note on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) says common house spiders and cellar spiders are only marginally able to bite people, because in most cases their fangs are too short to pierce skin." },
+
+    { "type": "h2", "text": "What is the spider with very long, thin legs?" },
+    { "type": "p", "text": "A pale spider on very long, thin legs, hanging upside down in a loose web near the ceiling, is a cellar spider. [Penn State Extension's longbodied cellar spider page](https://extension.psu.edu/longbodied-cellar-spider) calls that species the most common of its family in the United States, found in many kinds of buildings all year." },
+    { "type": "figure", "src": "/guides/photos/cellar-spider.webp", "width": 1200, "height": 1600, "alt": "Long-bodied cellar spider on a textured white wall, with a small pale body, a long tube-shaped abdomen with dark smudges and very long, thin legs", "caption": "Long-bodied cellar spider, *Pholcus phalangioides*, photographed in Foster City, California. Its legs are far longer than its small, pale body.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/296194035" },
+    { "type": "p", "text": "Its body is only about 1/4 to 5/16 inch (6 to 8 mm) long, pale tan or yellow with a gray mark on the front section, but a female's front legs reach about 2 inches. When threatened, it vibrates so fast in its web that it is hard to see. In California, UC IPM says, the marbled cellar spider, introduced in the 1970s, has displaced the longbodied species." },
+    { "type": "p", "text": "UMN finds cellar spiders in crawl spaces, basements and cellars, with loose webs in corners near the ceiling or floor, and Penn State says they are not known to bite people. They are sometimes called daddy longlegs, a name harvestmen share, the MDC guide notes; [the daddy longlegs guide](/blog/daddy-long-legs) sorts out which is which, and [the guide to bugs found indoors in winter](/blog/bugs-in-house-in-winter) covers cellar spiders in the cold months." },
+
+    { "type": "h2", "text": "What are the big spiders running across the floor?" },
+    { "type": "p", "text": "Big, fast, long-legged brown spiders on the floor or in a bathtub are often funnel weavers, the family of the giant house spider, the barn funnel weaver and the hobo spider. UMN describes funnel weavers as brownish or grayish with stripes near the head and long spinnerets at the rear, building flat sheet webs with a funnel-shaped retreat. Wolf spiders get their own section below." },
+    { "type": "figure", "src": "/guides/photos/giant-house-spider.webp", "width": 1200, "height": 1600, "alt": "Giant house spider on speckled gray stone with blue paint flecks, a long-legged brown spider with two dark bands on its front body section and a mottled abdomen", "caption": "Giant house spider, *Eratigena duellica*, photographed in British Columbia.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/127929816" },
+    { "type": "h3", "text": "How do you recognize a giant house spider?" },
+    { "type": "p", "text": "Not reliably by eye: [Washington State University's (WSU) giant house spider page](https://pestsense.cahnrs.wsu.edu/fact-sheet/giant-house-spider/) says its color, size and markings vary too much to identify it, so where you live helps narrow it down. WSU gives a brown to grayish-brown body about 1/2 to 1 inch long and a leg span of up to 4 inches on large adults, and says it is common in and around homes west of the Cascades in Washington and that its range also includes parts of coastal Oregon and Canada. [Colorado State University's (CSU) barn funnel weaver fact sheet](https://webdoc.agsci.colostate.edu/bspm/InsectInformation/FactSheets/BarnFunnel.pdf), which names it *Eratigena duellica* where WSU uses *E. atrica*, reports it colonizing homes in Colorado too." },
+    { "type": "p", "text": "Indoors it favors dark garages and basements and is usually found on the floor or trapped in a sink or bathtub, where it went looking for water. WSU says its bite is not known to pose any threat to people." },
+    { "type": "h3", "text": "What is a barn funnel weaver?" },
+    { "type": "p", "text": "It is the smaller funnel weaver of houses across North America. CSU calls it an introduced, now widespread spider that is an extremely common resident of homes and breeds in buildings, usually webbing a dark corner near the floor. UMN notes a pair of dark stripes behind the head, and UC IPM's [Pest Note on the hobo spider](https://ipm.ucanr.edu/legacy_assets/pdf/pestnotes/pnhobospider.pdf) puts its body at about 1/4 to 1/2 inch. CSU calls it harmless, with bites unlikely to break the skin even if it is handled." },
+    { "type": "media", "needed": "Barn funnel weaver (Tegenaria domestica), identified to species, photographed from above to show the two dark stripes behind the head and the mottled abdomen, ideally beside a ruler marked in inches; public domain or CC0" },
+    { "type": "h3", "text": "Is it a hobo spider?" },
+    { "type": "p", "text": "Only a specialist can say: UC IPM's hobo spider Pest Note says funnel weavers can be told apart only by examining their reproductive structures. It describes the hobo spider, *Eratigena agrestis*, as a light brown European funnel weaver with pale markings, about 1/2 to 5/8 inch long, living from British Columbia east to Montana, Wyoming and Colorado and south through Oregon and northern Utah. It is no longer considered of probable medical importance, the note says, though it suggests treating it as of minor importance until there is definitive proof. [The hobo spider guide](/blog/hobo-spiders) covers identification, and [the guide to venomous spiders in the US](/blog/venomous-spiders) the bite evidence." },
+
+    { "type": "h2", "text": "Is a shiny dark spider in the house a black widow?" },
+    { "type": "p", "text": "Indoors, it is more likely a false black widow. [UC IPM's Pest Note on widow spiders and their relatives](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) says black widows are almost never found in homes, while the false black widow, *Steatoda grossa*, thrives indoors. It is a widow relative with the same round abdomen, about 3/8 inch (10 mm) long, chocolate brown and never red underneath." },
+    { "type": "figure", "src": "/guides/photos/false-black-widow.webp", "width": 1200, "height": 900, "alt": "Adult female false black widow on weathered wood, with a glossy, round, dark purplish-brown abdomen and slender reddish-brown legs", "caption": "Adult female false black widow, *Steatoda grossa*, found at Mare Island, California. Look for the dark brown color with no red marking.", "credit": "Ryan Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Steatoda_grossa_female_01.jpg" },
+    { "type": "p", "text": "UC IPM says this European immigrant has become extremely common in homes along the Pacific Coast from San Diego to British Columbia, inside cupboards and under appliances, furniture and cabinets. Living so close to people, it is involved in more bites than black widows, but its venom is mild, and a bite may cause burning pain, then minor swelling, like a yellowjacket sting." },
+    { "type": "p", "text": "An adult female black widow is shiny black with a red or orange hourglass under a large, round abdomen, though UC IPM says the mark varies and on rare occasions is missing. Black widows mostly nest outdoors and are common in garages. [CDC's page on venomous spiders at work](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) says they live throughout North America, most commonly in the southern and western United States. The venomous spiders guide covers [black widows and their bites](/blog/venomous-spiders)." },
+
+    { "type": "h2", "text": "What is the pale spider on the wall or ceiling?" },
+    { "type": "p", "text": "A small, pale yellow spider that runs over walls and ceilings at night and hides by day in a silk sac in a corner is a yellow sac spider. UC IPM describes the house-dwelling *Cheiracanthium mildei* spinning its sac in the corners of ceilings and walls and behind shelves and pictures, and dropping to the floor to escape when disturbed." },
+    { "type": "figure", "src": "/guides/photos/yellow-sac-spider.webp", "width": 1200, "height": 900, "alt": "Pale cream yellow sac spider standing on a smooth gray surface, seen from the front, with orange-brown mouthparts and dark tips on its feet", "caption": "Northern yellow sac spider, *Cheiracanthium mildei*, photographed in Toronto. Look for the pale body and the darker mouthparts and feet.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/135845728" },
+    { "type": "p", "text": "[Penn State Extension's sac spider page](https://extension.psu.edu/agrarian-sac-spider-and-longlegged-sac-spider) gives females as about 3/16 to 3/8 inch (5 to 10 mm) long, light yellow to cream or pale yellow with a greenish tinge, with darker mouthparts and foot tips and a slightly darker stripe down the abdomen. Sac spiders hunt without webs, and *C. mildei* is found mostly in buildings and lays its eggs almost exclusively indoors." },
+    { "type": "p", "text": "Penn State says the two common sac spiders account for a significant number of human bites, usually when one is trapped against skin by sheets, clothing or shoes. The bites are painful and burning at first but normally cause no serious medical problems, and studies of many verified bites failed to confirm the dying-tissue wounds once blamed on them. [The yellow sac spider guide](/blog/yellow-sac-spiders) has more." },
+
+    { "type": "h2", "text": "Why is there a wolf spider in the house?" },
+    { "type": "p", "text": "It wandered in. Wolf spiders hunt on the ground outdoors without webs, and UC IPM says new houses in developments may be invaded by wolf spiders that have lost their usual outdoor living places." },
+    { "type": "figure", "src": "/guides/photos/wolf-spider.webp", "width": 1200, "height": 1600, "alt": "Brown wolf spider on gray concrete with dozens of pale-spotted spiderlings massed on its abdomen and two large dark eyes on the front of its head", "caption": "A wolf spider, *Tigrosa helluo*, carrying spiderlings.", "credit": "(c) Jason E. Farabaugh, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/122321677" },
+    { "type": "p", "text": "[The MDC wolf spider page](https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders) gives wolf spiders as 1/4 inch to 1 inch long, usually gray, brown, black or tan with darker markings, especially stripes. Check the eyes: a row of four small eyes sits below four larger ones, two of them noticeably big, and a flashlight held beside your eyes at night makes them shine back. A female carries her egg sac at the rear of her abdomen, then her spiderlings on her back for up to two weeks or more." },
+    { "type": "p", "text": "MDC says wolf spiders can bite if provoked, but the bites of North American wolf spiders are harmless. [The wolf spider guide](/blog/wolf-spiders) shows the common species, and [the guide to spiders that look like brown recluses](/blog/brown-recluse-look-alikes) explains how to tell a small one from a recluse." },
+
+    { "type": "h2", "text": "What is the small black spider that jumps?" },
+    { "type": "p", "text": "A small, fuzzy black spider that moves in jerks and leaps is a jumping spider. UMN says jumping spiders are active during the day, are often found on windows, walls, ceilings and other sunny spots, and have the best vision of any spiders." },
+    { "type": "figure", "src": "/guides/photos/bold-jumping-spider.webp", "width": 1200, "height": 900, "alt": "Fuzzy black bold jumping spider on a green leaf, facing the camera, with two large round front eyes and shiny iridescent green mouthparts", "caption": "Adult female bold jumping spider, *Phidippus audax*, in Nashville, Tennessee. Look for the two large front eyes and the iridescent green mouthparts.", "credit": "Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Phidippus_audax_01.jpg" },
+    { "type": "p", "text": "[MDC's bold jumper page](https://mdc.mo.gov/discover-nature/field-guide/bold-jumper) describes the bold jumping spider as fuzzy and usually black, with white, orange or red spots on the abdomen, the central one largest, and upper mouthparts that shine iridescent green or blue. Females are 1/4 to 3/4 inch long and males usually under 1/2 inch. It builds no web and lives across much of the United States and southeastern Canada, including on house siding. MDC says it can bite if squeezed or handled, but the bite is harmless." },
+
+    { "type": "h2", "text": "What is the red spider with big fangs in the basement?" },
+    { "type": "p", "text": "It is probably a woodlouse spider, with a red-orange front half and legs, a pale abdomen and very large jaws that point forward. [CSU's fact sheet on the woodlouse hunter](https://webdoc.agsci.colostate.edu/bspm/Arachnida%20%28Arachnids%29/Dysdera%20crocata.pdf) says that in homes it is almost always found in basements and other humid places, and that it hunts sow bugs and pill bugs." },
+    { "type": "p", "text": "CSU gives it as about 3/8 to 5/8 inch (9 to 15 mm) long, an introduced European spider that hunts at night and hides by day under rocks, wood and debris. It has only six eyes, UMN notes, as recluses do; [the brown recluse look-alike guide](/blog/brown-recluse-look-alikes) has a photo of one and shows how the two eye patterns differ. CSU says its venom poses no danger to people, and the MDC guide says the effects of a bite have been compared to a mild bee sting." },
+
+    { "type": "h2", "text": "Which house spiders live only in some regions?" },
+    { "type": "p", "text": "A few are regional: the southern house spider in the South, the brown recluse in the central and southern states, and, covered above, the giant house and hobo spiders in the Northwest and parts of the Rockies." },
+    { "type": "h3", "text": "What is the southern house spider?" },
+    { "type": "p", "text": "It is a crevice spider that [the University of Florida's southern house spider profile](https://ask.ifas.ufl.edu/publication/IN301) calls common throughout Florida and much of the southern US in populated areas. Females are charcoal gray, 1/2 to 3/4 inch long, and spin a flat, tangled web around a crevice on windowsills, shutters, overhangs and masonry. Males are khaki to amber and about 3/8 inch (9 to 10 mm) long, build no web and are often mistaken for brown recluses. UF says it is not known to have a dangerous bite; two reported bites caused pain and swelling for up to two days." },
+    { "type": "media", "needed": "Southern house spider (Kukulcania hibernalis), identified to species: the charcoal-gray female at her flat, woolly web around a crevice, and the long-legged khaki male; public domain or CC0" },
+    { "type": "h3", "text": "Where is the brown recluse a house spider?" },
+    { "type": "p", "text": "In the 16 states where it is established, from Nebraska and Ohio south to Texas and Georgia, according to [Penn State Extension's brown recluse page](https://extension.psu.edu/brown-recluse-spiders). There the MDC guide says it lives in houses, garages, sheds and cardboard boxes, and CDC says it hides indoors in dark closets, shoes and attics. It is brown with a violin-shaped mark on the front body section, a body about 3/8 inch (9 mm) long and six eyes in three pairs, where most spiders have eight." },
+    { "type": "p", "text": "CDC says it cannot bite unless trapped against the skin. Penn State says about 90 percent of bites cause no reaction or a small bump that heals on its own; about 10 percent leave a wound that takes months to heal, and fewer than 1 percent cause a whole-body illness, most often in children, which is a medical emergency. [The brown recluse guide](/blog/brown-recluse) covers infestations." },
+
+    { "type": "h2", "text": "Why do you see more spiders in late summer and fall?" },
+    { "type": "p", "text": "Because grown males wander in search of females, and some outdoor spiders move in. WSU says giant house spiders are often seen from midsummer to early fall, when males are especially mobile, and UC IPM says the large hunting spiders found in homes and garages are often fully grown males searching for females." },
+    { "type": "p", "text": "Wandering also lands spiders in sinks and bathtubs: CSU says barn funnel weavers get trapped there after leaving their webs, a habit especially common in adult males. Outdoor spiders move in too; CSU says grass spiders and their relatives often come indoors in late summer and fall but do not breed there." },
+    { "type": "p", "text": "More insects mean more spiders. UC IPM says the more insects a building has, the more likely it is to have spiders, and UMN says properties near rivers, lakes or fields, where insects are numerous, tend to have more." },
+
+    { "type": "h2", "text": "Do house spiders bite?" },
+    { "type": "p", "text": "Rarely, and most bites are minor. UC IPM says the jaws of most spiders are too small to bite people, and that a spider trapped in clothing or bedding usually causes no more than itching or a reaction like a bee sting, with symptoms that typically last a few minutes to a few hours, though people react differently." },
+    { "type": "p", "text": "Many sores blamed on spiders have other causes. UMN says people, and even doctors, over-diagnose spider bites from redness, swelling and even dying-tissue wounds that are usually caused by a disease or a bacterial skin infection, and the MDC guide says a spider bite can be medically confirmed only if the spider is seen and correctly identified. [What spider bites look like](/blog/what-does-a-spider-bite-look-like) covers the look-alikes." },
+    { "type": "p", "text": "[Poison Control](https://www.poison.org/articles/insect-and-spider-bites) advises washing a bite with soap and water and cooling it with cold water or a cloth filled with ice. It says to seek help if the symptoms at the bite get much worse, if symptoms appear elsewhere in the body, if you have a history of allergic reactions, or if you think a black widow or brown recluse bit you; in the US, the poison center number is 1-800-222-1222." },
+
+    { "type": "h2", "text": "What should you do once you know what it is?" },
+    { "type": "p", "text": "For harmless house spiders, the sources favor removal and prevention over spraying." },
+    { "type": "ul", "items": [
+      "**One spider.** Put a jar over it, slide a sheet of paper underneath and release it outside, as UC IPM suggests, or vacuum it up; UC IPM says a spider's soft body usually does not survive the trip through the hose.",
+      "**Webs and egg sacs.** Remove them with a broom or vacuum, especially around windows and in corners, and clear away papers, boxes and bags, UMN advises.",
+      "**Monitoring.** Sticky traps along walls and under furniture show where spiders are active, UMN says; UC IPM says to place them where pets and children cannot reach.",
+      "**Sealing.** UC IPM advises sealing foundation cracks and gaps around windows and doors and keeping screens in good repair; [keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) goes through it step by step.",
+      "**What to skip.** UMN says hedge apples (Osage oranges) are not effective against spiders, and neither are surface treatments and fogs."
+    ] },
+    { "type": "p", "text": "For a bigger problem, [a step-by-step plan for clearing spiders from a house](/blog/how-to-get-rid-of-spiders-in-house-canada) covers vacuuming, sealing and monitoring. Leave a spider that passes the recluse checks or looks like a widow in the jar while you compare it with the venomous spiders guide." },
+    { "type": "callout", "tone": "tip", "title": "Save the spider", "text": "Keep the spider whole in a sealed jar, because a crushed one can be hard to identify, UC IPM warns. Photograph it beside a ruler marked in inches, note where and when you found it, and ask your state's cooperative extension office or a pest professional to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most common house spider?",
+      "answer": "The common house spider, Parasteatoda tepidariorum, also called the American house spider, is among the spiders most often found in houses. UC IPM says it is frequently found indoors, Penn State Extension calls it extremely common in houses and barns, and the Missouri Department of Conservation says it lives worldwide and is most often found in or near buildings, where it builds tangled cobwebs, often at windows. Cellar spiders are also common indoors: Penn State calls the longbodied cellar spider the most common of its family in the United States."
+    },
+    {
+      "question": "What are the big brown spiders in my house?",
+      "answer": "Big brown spiders indoors are often funnel weavers or wolf spiders. In the Pacific Northwest, Washington State University says the giant house spider, with a body 1/2 to 1 inch long and a leg span up to 4 inches, is often seen from midsummer to early fall, when males wander. Wolf spiders, 1/4 inch to 1 inch long and often striped, come in from outside, mostly in fall. In the central and southern states, check any plain brown spider for the brown recluse's six eyes in three pairs."
+    },
+    {
+      "question": "What are the small black spiders in my house?",
+      "answer": "A small, fuzzy black spider on a sunny window or wall may be a jumping spider. The Missouri Department of Conservation describes the bold jumping spider as usually black with white spots, sometimes orange or red, and iridescent green or blue mouthparts. A round, chocolate-brown spider with no red is more likely a false black widow. A shiny black spider with a red hourglass under a round abdomen is a black widow, which UC IPM says is almost never found in homes but is common in garages."
+    },
+    {
+      "question": "Why are there spiders in my bathtub?",
+      "answer": "They are usually wanderers that got trapped. Colorado State University says barn funnel weavers, which build webs in dark corners near the floor, may be trapped in sinks and bathtubs when they wander from the web, a habit especially common in adult males. Washington State University says giant house spiders are not very active climbers and indoors are usually found on the floor or trapped in sinks or bathtubs, where they went looking for water. Lift the spider out in a jar or on a sheet of paper."
+    },
+    {
+      "question": "Do house spiders come inside for the winter?",
+      "answer": "The web builders that live indoors are there all year. University of Minnesota Extension says some web-building spiders survive and reproduce well indoors, and Penn State Extension finds adult common house spiders and cellar spiders year-round. Hunting spiders such as wolf spiders mostly wander in by accident, particularly in fall, and the University of Minnesota says they do not survive well indoors and usually do not reproduce there. The Missouri Department of Conservation says wolf spiders seen on warm winter days are usually juveniles or adult females."
+    },
+    {
+      "question": "How long do house spiders live?",
+      "answer": "Longer than many people expect. Penn State Extension says common house spiders may live a year or more after reaching maturity, and that longbodied cellar spiders take about a year to mature and can live two or more years as adults. Colorado State University says barn funnel weavers have been reported to live up to seven years in captivity, and the University of Florida says female southern house spiders may live up to eight years."
+    }
+  ],
+  "sources": [
+    { "title": "Spiders", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders" },
+    { "title": "Spiders (Pest Notes Publication 7442)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Common House Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/common-house-spider" },
+    { "title": "Longbodied Cellar Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/longbodied-cellar-spider" },
+    { "title": "Giant house spider", "publisher": "Washington State University Extension, Pestsense", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/giant-house-spider/" },
+    { "title": "Barn Funnel Weaver (Colorado Arthropod of Interest)", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://webdoc.agsci.colostate.edu/bspm/InsectInformation/FactSheets/BarnFunnel.pdf" },
+    { "title": "Hobo Spider (Pest Notes Publication 7488)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/legacy_assets/pdf/pestnotes/pnhobospider.pdf" },
+    { "title": "Widow Spiders and Their Relatives (Pest Notes Publication 74149)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Agrarian Sac Spider and Longlegged Sac Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/agrarian-sac-spider-and-longlegged-sac-spider" },
+    { "title": "Wolf Spiders", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders" },
+    { "title": "Bold Jumper", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bold-jumper" },
+    { "title": "Dysdera crocata, the Woodlouse Hunter (Colorado Arachnid of Interest)", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://webdoc.agsci.colostate.edu/bspm/Arachnida%20%28Arachnids%29/Dysdera%20crocata.pdf" },
+    { "title": "A Guide to Missouri's Common Spiders (David J. Bruns, 2026)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/sites/default/files/2026-08/A%20Guide%20to%20Missouri%27s%20Common%20Spiders_508.pdf" },
+    { "title": "Southern House Spider, Kukulcania hibernalis (EENY144)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN301" },
+    { "title": "Brown Recluse Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-recluse-spiders" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Insect and spider bites: When to worry", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/insect-and-spider-bites" }
+  ],
+  "disclaimer": "health"
+}

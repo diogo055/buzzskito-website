@@ -1,0 +1,10 @@
+{
+ "id": "house-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7ed95ff4fa4a49c7abf32738176ea6e15bd30464ec59e04cd5516839d300463a",
+ "claimsChecked": 390,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-16"
+}
