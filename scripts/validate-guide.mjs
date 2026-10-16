@@ -21,6 +21,7 @@
 // --scheduled to check them all.
 import { readFileSync, readdirSync, existsSync } from 'fs'
 import { join } from 'path'
+import { LINK, blockTexts, internalLinks, inboundNeeded } from './guide-links.mjs'
 
 const ROOT = process.cwd()
 const GUIDES = join(ROOT, 'content', 'guides')
@@ -74,24 +75,9 @@ const ALL = args.includes('--all'), REPORT = args.includes('--report')
 const names = args.filter((a) => !a.startsWith('--'))
 
 // ── text helpers ────────────────────────────────────────────────────────────────
-const LINK = /\[([^\]]+)\]\(([^)\s]+)\)/g
+// LINK and blockTexts come from ./guide-links.mjs (shared with the release job)
 const strip = (s) => String(s).replace(LINK, '$1').replace(/\*+/g, '')
 const words = (s) => (strip(s).match(/[A-Za-z0-9][A-Za-z0-9'’%°/.-]*/g) || []).length
-const blockTexts = (b) => {
-  switch (b.type) {
-    case 'h2': case 'h3': case 'p': return [b.text]
-    case 'ul': case 'ol': return b.items || []
-    case 'table': return [...(b.head || []), ...(b.rows || []).flat(), b.caption || '']
-    case 'callout': return [b.title || '', b.text]
-    case 'recipe': return [b.title, b.makes || '', ...(b.ingredients || []), ...(b.steps || []), b.works || '', b.limits || '', (b.safety && b.safety.pets) || '', (b.safety && b.safety.children) || '', b.source || '']
-    case 'checklist': return [b.title || '', ...(b.items || [])]
-    case 'card': return [b.title, b.intro || '', ...(b.items || []), b.note || '']
-    case 'figure': return [b.caption || '']
-    case 'chart': return [b.title || '', b.yLabel || '', b.caption || '', b.source || '']
-    case 'map': return [b.title || '', b.caption || '', b.source || '', ...(b.categories || []).map((c) => c.label || '')]
-    default: return []
-  }
-}
 
 const AUTH_HOSTS = [
   'pnas.org', 'nature.com', 'science.org', 'cell.com', 'sciencedirect.com', 'academic.oup.com', 'wiley.com', 'onlinelibrary.wiley.com', 'springer.com',
@@ -425,7 +411,8 @@ function validate(file) {
     if (toks.filter((w) => hay.includes(w.replace(/s$/, ''))).length < Math.ceil(toks.length * 0.75)) warn(`the keyword "${p.keyword}" is not clearly present in the h1 or metaTitle`)
   }
 
-  return { errors, warnings, stats: { path: p.path, cluster: p.cluster, bodyWords, faqs: (g.faqs || []).length, sources: srcUrls.size, auth, media, links: [...uniq], metaTitle: g.metaTitle } }
+  // links: the same list the release job counts (./guide-links.mjs), so the two always agree
+  return { errors, warnings, stats: { path: p.path, cluster: p.cluster, bodyWords, faqs: (g.faqs || []).length, sources: srcUrls.size, auth, media, links: internalLinks(g), metaTitle: g.metaTitle } }
 }
 
 // ── run ─────────────────────────────────────────────────────────────────────────
@@ -465,7 +452,7 @@ if (ALL) {
   for (const r of built) for (const h of r.stats.links) if (h in inbound && h !== r.stats.path) inbound[h]++
   const planByPath = Object.fromEntries(plan.pages.map((p) => [p.path, p]))
   // a scheduled page needs its hub's link (pages released later add more over the weeks)
-  const need = (path) => (planByPath[path].batch === 'god' ? 1 : planByPath[path].batch === 'visual' ? 2 : 3)
+  const need = (path) => inboundNeeded(planByPath[path])
   const starved = Object.entries(inbound).filter(([path, n]) => have.has(path) && n < need(path))
   if (REPORT) {
     console.log('\npath | body words | sources (gov/edu) | FAQs | media | inbound from new pages')

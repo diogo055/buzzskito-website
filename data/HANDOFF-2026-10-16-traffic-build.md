@@ -84,6 +84,84 @@ with SendUserFile.
   HEAD:main`, check Vercel + live pages; (d) launch wave-1 writers (6 at a time) with
   WRITER_BRIEF_PHOTO_ID.md + the page's next-50 entry, then checkers (CHECKER_BRIEF.md), commit
   page + data/us-pages/checked record, push; the daily Action releases them (releaseOn 2026-10-16).
+- Oct 16 ~06:00 UTC: integration committed (4512d6c9; planner keeps released pages' slots; mice
+  cluster). Wave-1 writers launched for pantry-pests, tiny-black-bugs,
+  how-to-get-rid-of-carpet-beetles (US edition; add the REGIONAL_PAIRS pairing with the -canada page
+  in lib/guides.ts when it goes live), bug-bites (/learn), venomous-spiders, asian-lady-beetles.
+  Still to write in wave 1: flea-eggs, rat-vs-mouse, roof-rat-vs-norway-rat,
+  bugs-in-house-in-winter, brown-recluse-look-alikes, bugs-that-look-like-fleas. Each finished
+  writer -> checker (CHECKER_BRIEF.md + the writer's flags) -> commit -> push.
+- Oct 16 ~07:00 UTC: upgrade wave 2 committed (dfce252b: 25 photos on 7 pages: mouse poop, male vs
+  female mosquito, cockroaches, 3 mice pages, bed bug cast skins; titles for mouse poop + male/female
+  mosquito; ARTICLES_PHOTOS_OCT16 now 20 slugs). Full build passed in the scratchpad ci-repro clone
+  (679 pages, every guard). PUSHED dfce252b to diogo/main (includes 17b50ae4, 51c4fc1d, 4512d6c9).
+- Oct 16 ~07:40 UTC: written + validated: tiny-black-bugs (2,842 words, 8 photos, 15 sources),
+  pantry-pests (2,760 words, 8 photos, 5 sources; title "Bugs in Flour or Rice? Pantry Pest ID
+  (Photos)"); their checkers are running. Writers still running: how-to-get-rid-of-carpet-beetles,
+  bug-bites, venomous-spiders, asian-lady-beetles. After each checker: validate, commit page +
+  data/us-pages/checked/<slug>.json, push (the 12:15 UTC Action releases due + checked pages).
+  Then launch round 2 writers: flea-eggs, rat-vs-mouse, roof-rat-vs-norway-rat,
+  bugs-in-house-in-winter, brown-recluse-look-alikes, bugs-that-look-like-fleas (same prompt
+  shape: WRITER_BRIEF_PHOTO_ID.md + next-50 entry + plan entry; photo caveats in
+  photo-notes-batch4.json). ~08:10 UTC: bug-bites written (4,124 words, 8 bite photos, 20
+  sources; /learn/bug-bites), its checker running; upgrades verified live (hub 329, new titles).
+  ~08:20 UTC: asian-lady-beetles written (2,420 words, 13 sources, 4 photos; needs a native
+  ladybug photo), its checker running. After it goes live: the stink-bug page says lady beetles
+  are "covered here rather than at their own page" -> update that line to link the new page.
+  ~08:40 UTC: how-to-get-rid-of-carpet-beetles (US) written (3,019 words, 5 photos, 12 sources),
+  checker running; routes.json committed (b6cfb0f2). AT ITS RELEASE: add { us:
+  '/blog/how-to-get-rid-of-carpet-beetles', ca: '/blog/how-to-get-rid-of-carpet-beetles-canada' } to
+  REGIONAL_PAIRS in lib/guides.ts and wrap the Canadian page's metadata in withRegionalAlternates()
+  like the other Canadian twins; build; push.
+  ~09:00 UTC: venomous-spiders written (3,280 words, 8 photos, 17 sources, recluse state map),
+  checker running. ALL 6 round-1 pages now in fact-check. After its release: trim
+  /blog/what-does-a-spider-bite-look-like's "Which spiders actually bite in the US" + "Where do
+  black widows and brown recluses live" sections to a summary linking /blog/venomous-spiders
+  (next-50 overlap decision; affiliate-integrity rules apply). Next: commit each checked page,
+  push, then launch round 2 writers (list above).
+  ~09:20 UTC: tiny-black-bugs CHECKED (241/7/6) + pushed (19fd502d); the 12:15 UTC Action releases
+  it. To fix later: live /blog/bugs-that-look-like-bed-bugs says spider beetles are "1/16 to 1/8
+  inch (2 to 4 mm)" twice (Colorado State's own conversion is wrong; 2-4 mm = about 1/12 to 1/6
+  inch): edit the guide JSON, validate, re-record its check.
+  ~09:40 UTC: pantry-pests CHECKED (290/13/1) + pushed (b26d3e25). Owner calls noted by its
+  checker: majority size figures, no disclaimer though it mentions health + insecticides.
+  ~10:00 UTC: asian-lady-beetles CHECKED (126/4/5, disclaimer both) + pushed (2890a494). After the
+  US carpet beetle page is live, switch this page's carpet beetle link to it.
+  ~10:20 UTC: bug-bites CHECKED (322/5/4) + pushed (41068973). Waiting: carpet beetles US +
+  venomous spiders checkers. Then round 2 writers.
+  ~10:40 UTC: how-to-get-rid-of-carpet-beetles CHECKED (296/4/5; naphthalene mothballs are NOT
+  labeled for carpet beetles, PDB is) + pushed (3874b9ec). After it releases (Oct 17 Action): add
+  the REGIONAL_PAIRS entry + withRegionalAlternates on the -canada page in the SAME commit as a
+  build, so the two editions do not compete. Ledger: bed-bug-adult-ruler subject says "unfed";
+  CDC's captions say only "adult" -> fix subject + photo script entry.
+  ~11:00 UTC: venomous-spiders CHECKED (354/13/7) + pushed (4442ca23). ROUND 1 COMPLETE: 6 pages
+  checked + on GitHub, released by the Oct 17 12:15 UTC Action. NOW: launch round 2 writers
+  (flea-eggs, rat-vs-mouse, roof-rat-vs-norway-rat, bugs-in-house-in-winter,
+  brown-recluse-look-alikes, bugs-that-look-like-fleas), then their checkers, commit, push.
+  Verify the Oct 17 release (6 pages live, Vercel ok) and do the post-release follow-ups above.
+  Writers flag missing photos as `media` placeholder blocks (e.g. a
+  springtail with ruler, black carpet beetle adult, Indian meal moth webbing PD/CC0, drugstore
+  beetle) -> a later photo scout.
+- CORRECTION (checked 06:59 UTC Oct 16 with `date -u`): the clock times in the entries above are
+  wrong (they ran ahead). Real commit times: 19fd502d 05:56 UTC ... 4442ca23 06:11 UTC. The checked
+  pages therefore go live with TODAY's Action (Oct 16, 12:15 UTC = 8:15 am Toronto), not Oct 17;
+  the "releases 2026-10-17" in some commit messages is wrong.
+- Round 2, Oct 16 ~06:50-07:00 UTC: rat-vs-mouse (174 claims, 456bb167), roof-rat-vs-norway-rat
+  (330, ae5ca87f), bugs-that-look-like-fleas (440/10/13, a49e36ed), flea-eggs (281/8/7, added
+  disclaimer "health", 34e12578) CHECKED + pushed. Still in fact-check: brown-recluse-look-alikes,
+  bugs-in-house-in-winter (each: validate, commit page + record, push, same as above).
+- `node scripts/release-scheduled.mjs --dry-run` at 07:00 UTC: 10 pages due today (bug-bites,
+  venomous-spiders, carpet beetles US, asian-lady-beetles, pantry-pests, tiny-black-bugs, flea-eggs,
+  rat-vs-mouse, roof-rat-vs-norway-rat, bugs-that-look-like-fleas). Full rehearsal (release script
+  + `npm run build --ignore-scripts`) run in the scratchpad ci-repro clone.
+- **Do NOT push to diogo/main between 12:15 and ~12:45 UTC**: the release workflow refuses to push
+  if main moved while it was building ("main changed while this release was building"). After it
+  runs, `git fetch diogo` and merge diogo/main before the next push (the Action's commit is on main).
+- flea-eggs checker owner notes: larva max left at 3/16 inch (Ohio State/Texas A&M say 1/4); the
+  University of Florida source prints ~1/64 in for a 0.5 mm egg (its own error); the page's
+  "step-by-step guide to getting rid of fleas" link waits for how-to-get-rid-of-fleas (wave 2).
+- Open: american-cockroaches still scheduled Dec 28 though next-50 folds it into palmetto-bugs
+  (gate or remove it); taxonomy summary still says 173 pages.
 
 ## 3. Measured facts (do not re-derive)
 

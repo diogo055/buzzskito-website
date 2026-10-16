@@ -17,10 +17,11 @@
 // Then scripts/us-pages-register.mjs --checked-only wires the pages into the site (route
 // files, blog index, sitemap, Next/Related picks, llms.txt). Notes for the commit go to
 // data/god-build/releases/<date>.md and data/god-build/last-release-commit.txt.
-import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync, appendFileSync } from 'fs'
+import { readFileSync, readdirSync, writeFileSync, existsSync, mkdirSync, unlinkSync, appendFileSync } from 'fs'
 import { join } from 'path'
 import { createHash } from 'crypto'
 import { execFileSync } from 'child_process'
+import { internalLinks, inboundNeeded } from './guide-links.mjs'
 
 const ROOT = process.cwd()
 const SRC = join(ROOT, 'data', 'god-build', 'plan.src.json')
@@ -67,6 +68,25 @@ for (const p of [...due].sort((a, b) => (a.role === 'hub' ? 0 : 1) - (b.role ===
   a.datePublished = b.datePublished
   if (JSON.stringify(a) !== JSON.stringify(b)) { held.push(`${pathOf(p)}: the date change touched more than the date`); continue }
   released.push({ p, name, next, record })
+}
+
+// The build's guide check (validate-guide.mjs --all) fails the whole release if a page goes live
+// with no link in from another guide, and a page whose topic hub is deferred has only other
+// guides to link it. So count the links from the live guides plus the other pages going out today,
+// and hold back a page that has too few: it goes out on the first morning a page linking to it
+// is live. Repeat until nothing changes (holding one page back can take away another's only link).
+const liveLinks = readdirSync(LIVE).filter((f) => f.endsWith('.json')).map((f) => {
+  try { return internalLinks(JSON.parse(readFileSync(join(LIVE, f), 'utf8'))) } catch { return [] }
+})
+for (let changed = true; changed; ) {
+  changed = false
+  const going = released.map((r) => ({ path: pathOf(r.p), links: internalLinks(JSON.parse(r.next)) }))
+  for (let i = released.length - 1; i >= 0; i--) {
+    // every page in this schedule is in the "god" batch of data/us-pages/plan.json
+    const path = pathOf(released[i].p), need = inboundNeeded({ batch: 'god' })
+    const n = [...liveLinks, ...going.filter((x) => x.path !== path).map((x) => x.links)].filter((ls) => ls.includes(path)).length
+    if (n < need) { held.push(`${path}: ${n} link(s) in from other guides; it needs ${need}, so it waits until a page linking to it is live`); released.splice(i, 1); changed = true }
+  }
 }
 
 for (const h of held) warn(`held back ${h}`)
