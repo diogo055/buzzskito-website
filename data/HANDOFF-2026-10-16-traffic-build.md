@@ -64,6 +64,11 @@ with SendUserFile.
   droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
   red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
   it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
+- **Comparables (data/god-build/comparables-research.md):** for Monday, put the COCKROACH family first
+  (the one topic 8 of 9 fast growers win on), then bites, droppings (cockroach-droppings, rat-droppings
+  into the first batches), termite signs by early March; add the missing cockroach pages listed there;
+  keep the do-not-build list (US city pages, best-companies lists, "X in every place", AI images,
+  invented experts); add a labelled side-by-side photo strip to the template; check the 9 sites monthly.
 - **RETROFIT TOOLING LIVE (07506590, full build passed, pushed):** ConfusedWith + QuickIdTable
   components, RETROFIT_BRIEF.md, retrofit-order.json (93 pages; pilots done: why-do-mosquito-bites-itch,
   bugs-that-look-like-cockroaches). From Oct 20: retrofit agents take ~20 pages each batch in order
