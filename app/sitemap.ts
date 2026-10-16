@@ -43,10 +43,16 @@ const ARTICLES_PHOTOS_OCT16 = new Set<string>([
   'how-to-get-rid-of-carpet-beetles-canada',
   'how-to-get-rid-of-centipedes-canada',
   'how-to-get-rid-of-cluster-flies-canada',
+  'how-to-get-rid-of-cockroaches-canada',
   'how-to-get-rid-of-drain-flies-canada',
   'how-to-get-rid-of-fruit-flies',
+  'how-to-keep-mice-out-of-your-car',
+  'male-vs-female-mosquito',
   'mosquito-bite-vs-spider-bite',
+  'mouse-bait-station-canada',
+  'mouse-repellent-canada',
   'types-of-ticks-identification',
+  'what-does-mouse-poop-look-like-canada',
   'what-kills-bed-bugs-instantly-canada',
 ])
 const ARTICLES_PHOTOS_OCT15 = new Set([

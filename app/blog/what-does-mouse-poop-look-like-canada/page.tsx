@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -9,6 +10,7 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -16,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-does-mouse-poop-look-like-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-16'
 // Identification + safe-cleanup page. Top-of-funnel into the existing rodent cluster:
 // how-to-get-rid-of-mice-canada owns the removal protocol, best-mouse-trap-canada owns
 // the trap comparison, rodent-exclusion-kit-canada owns the hardware spec. This page
@@ -27,7 +29,8 @@ const UPDATED = '2026-10-08'
 // also the honest next step — and a sealed-HEPA vacuum is explicitly NOT recommended for
 // dry droppings, because public-health cleanup guidance says do not vacuum or sweep them.
 const TITLE = 'What Does Mouse Poop Look Like? Size, Shape, Fresh vs Old, and Safe Cleanup'
-const META_TITLE = 'Mouse Poop in Canada: 3-6 mm, Fresh or Old?'
+// TITLE NOTE (Oct 16, 2026): was 'Mouse Poop in Canada: 3-6 mm, Fresh or Old?'; top queries: what does mouse poop look like 505, mouse poop 423, what do mouse droppings look like 193, mouse poo 145 (1 click).
+const META_TITLE = 'What Does Mouse Poop Look Like? (Photos)'
 
 const FAQS = [
   {
@@ -143,6 +146,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('rodent-droppings-drawer'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -150,7 +154,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function WhatDoesMousePoopLookLikeCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to mouse droppings: size, shape and scatter pattern, fresh versus old, the 48-hour activity test, how they differ from rat, bat, squirrel and cockroach droppings, the Canadian health risk picture, and the wet-then-wipe cleanup protocol that replaces sweeping and vacuuming.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to mouse droppings: size, shape and scatter pattern, fresh versus old, the 48-hour activity test, how they differ from rat, bat, squirrel and cockroach droppings, the Canadian health risk picture, and the wet-then-wipe cleanup protocol that replaces sweeping and vacuuming.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('rodent-droppings-drawer') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Does Mouse Poop Look Like?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -266,6 +270,16 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Sizes are typical ranges. If you find pellets in the gap between the mouse and rat sizes, treat it as rats until proven otherwise &mdash; a rat plan works against mice, but a mouse plan does not work against rats.
           </p>
+          <Photo
+            id="rodent-droppings-drawer"
+            alt="Small, dark rodent droppings scattered across the liner of an open cupboard drawer"
+            caption="Rodent droppings in an open cupboard drawer in a home, in a CDC photograph that does not say which rodent left them. Read the ones you find the way the table does: size first, then the shape of the ends, then the pattern they are lying in."
+          />
+          <Photo
+            id="mouse-droppings-ruler"
+            alt="A few small, dark house mouse droppings on orange paper beside a centimetre ruler and two coins"
+            caption="House mouse droppings found in a kitchen and near a computer keyboard, shown beside a centimetre ruler in Utrecht, the Netherlands; the identification is the photographer's. Use the ruler: a mouse dropping is about 3 to 6 mm long and tapers to a point at both ends."
+          />
         </div>
       </section>
 
@@ -445,6 +459,11 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <h2>How Can I Tell If Droppings Are From Mice?</h2>
           <p>Check three things in order: <strong>size, end shape, scatter pattern</strong>. Mouse pellets are 3&ndash;6 mm &mdash; about 1/8 to 1/4 inch, roughly a grain of rice &mdash; they taper to a point at <em>both</em> ends, and they are spread along wall edges and inside drawers rather than piled in one place. All three match, and it is mice.</p>
           <p>Each check rules out a different impostor, which is why the order matters. <strong>Size</strong> eliminates rats and squirrels immediately: anything clearly longer than a grain of rice is a different animal and needs a different plan. <strong>End shape</strong> eliminates the two most common confusions after that &mdash; a blunt, capsule-shaped end means Norway rat, lengthwise ridges mean a large cockroach, and a chalky white cap on one end means a lizard rather than any rodent. <strong>Pattern</strong> is the check most guides omit and the one that most often settles a genuinely ambiguous case: mice do not use latrines, so their droppings appear strung along travel routes, while bats deposit in a single pile beneath a roost and rats concentrate in a smaller number of heavier deposits along established runs.</p>
+          <Photo
+            id="rat-droppings-thumb"
+            alt="Thick, dark droppings with blunt, rounded ends lying on moss beside a thumb"
+            caption="Droppings identified on iNaturalist as Norway rat, from the droppings alone, shown beside a thumb for size on moss in the Aleutian Islands, Alaska. Compared with a rice-sized mouse pellet, look for how much thicker these are and for their blunt, capsule-shaped ends."
+          />
           <p>One extra tell if you are still unsure: the surface. Fresh mouse pellets have a faint sheen and give slightly under a stick; old ones are matte grey and crumble to powder. Bat guano crumbles too, but into <em>glittering</em> specks, because it is made almost entirely of insect exoskeleton and it sparkles under a torch. That single difference &mdash; dull dust versus sparkling dust &mdash; separates two materials that look nearly identical intact.</p>
 
           <h2>Mouse Droppings in Inches and Millimetres &mdash; Every Size on This Page, Both Ways</h2>
@@ -636,6 +655,16 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <h3>Deer Mouse Droppings and Hantavirus Risk in the US</h3>
           <p>Deer mouse droppings cannot be reliably told apart from house mouse droppings by eye. <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn74161.html" target="_blank" rel="noopener noreferrer">The University of California&rsquo;s deer mouse guide</a> says the nests, droppings and other signs left by deer mice are similar to those of house mice. The species still matters, because <a href="https://www.cdc.gov/hantavirus/about/index.html" target="_blank" rel="noopener noreferrer">the CDC</a> says the most common hantavirus that causes hantavirus pulmonary syndrome in the United States is spread by the deer mouse, and the University of California describes deer mice as the principal reservoir of Sin Nombre virus, which they shed in saliva, urine and droppings.</p>
           <p>Since the pellet will not sort the species, use the animal and the setting. The same University of California guide separates the two mice by tail and coat: a deer mouse has a two-colored tail, white undersides, legs and feet, and larger eyes and ears, while a house mouse has a gray-brown coat and an almost furless tail. It also says deer mice are not common in urban and residential areas unless large or numerous parks or fields are nearby, and that they have been known to nest inside buildings. Droppings in a downtown apartment kitchen therefore point toward the house mouse. Droppings in a building next to open land deserve the more careful assumption.</p>
+          <Photo
+            id="north-american-deer-mouse"
+            alt="North American deer mouse on weathered wood, with large dark eyes, large ears and a white chest and feet"
+            caption="A North American deer mouse, Peromyscus maniculatus, which the CDC describes as one of the reservoirs of hantavirus. Look for the white underside and feet and the larger eyes and ears that set it apart from a house mouse."
+          />
+          <Photo
+            id="house-mouse"
+            alt="House mouse seen from the side, with a plain brown coat and a long, almost hairless tail"
+            caption="A house mouse, Mus musculus, seen from the side (Marfa, Texas). Look for the almost furless tail, one of the features the University of California guide uses to tell it from a deer mouse."
+          />
           <p>Exposure is mostly about dust. The University of California guide says a person may be exposed by breathing contaminated dust after disturbing or cleaning rodent droppings or nests, or by living or working in rodent-infested settings, and the CDC adds that a bite or scratch from a rodent can also spread the virus but that this is rare. The CDC case counts and the geography of US cases are in the health section earlier on this page. The practical point here is narrower: because you cannot identify a deer mouse from its droppings, the wet cleanup method is the default for every pellet you find.</p>
 
           <h3>Mouse, Rat, Bat or Cockroach Droppings: How US Extension Services Tell Them Apart</h3>

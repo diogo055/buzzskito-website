@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -16,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-16'
 const TITLE = 'Mouse Bait Stations Canada 2026 — What\'s Actually Legal (PMRA Guide)'
 
 const FAQS = [
@@ -78,6 +80,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('house-mouse'),
 })
 
 const AMZ_TAG = tagForSlug('mouse-bait-station-canada')
@@ -85,7 +88,7 @@ const AMZ_TAG = tagForSlug('mouse-bait-station-canada')
 export default function MouseBaitStationCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to consumer-legal mouse bait stations under PMRA rules — what you can buy, what you can\'t, and when traps are the better tool.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to consumer-legal mouse bait stations under PMRA rules — what you can buy, what you can\'t, and when traps are the better tool.', slug: SLUG, datePublished: DATE, image: shareImage('house-mouse') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mouse Bait Stations Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -212,6 +215,16 @@ export default function MouseBaitStationCanadaPage() {
           <p>There is also a practical honesty point: poisoned mice die where they choose, and they often choose the wall void. One to three weeks of dead-mouse odour in a finished living space is a real cost that no product label mentions.</p>
 
           <h2>How Do You Place Bait Stations for Best Results?</h2>
+          <Photo
+            id="house-mouse"
+            alt="House mouse in a concrete corner, seen from the side, with a long, almost hairless tail"
+            caption="A house mouse, Mus musculus, in a concrete corner (Marfa, Texas). Mice navigate by keeping contact with walls, so a station goes flush against one, with its entry hole parallel to the runway."
+          />
+          <Photo
+            id="house-mouse-on-stove"
+            alt="House mouse looking out from the coil burner of a kitchen stove"
+            caption="A house mouse, Mus musculus, looking out from a coil burner on a kitchen stovetop. Behind the stove is one of the priority spots for a station."
+          />
           <p>Placement decides results more than product choice does. Mice are thigmotactic — they navigate by keeping contact with walls — and they rarely travel more than 3–9 metres from the nest. Work with that biology:</p>
           <ul>
             <li><strong>Flush against walls</strong>, entry hole parallel to the runway, in locations with fresh droppings, gnaw marks, or greasy rub smudges.</li>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -9,6 +10,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -16,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-repellent-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-16'
 // The "does a repellent work" DECISION page — the missing destination for the
 // repellent-shaped queries currently dead-ending on
 // /blog/ultrasonic-pest-repellers-do-they-work. Deliberately NOT a second
@@ -86,6 +88,7 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('house-mouse'),
 }), '/blog/mouse-repellent-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -93,7 +96,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function MouseRepellentCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to mouse repellents: what each mechanism actually does, why ultrasonic and scent-based products fail against an established population, the narrow cases where a repellent earns its place, the PCP registration check, and the exclusion-and-trap plan that replaces them.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to mouse repellents: what each mechanism actually does, why ultrasonic and scent-based products fail against an established population, the narrow cases where a repellent earns its place, the PCP registration check, and the exclusion-and-trap plan that replaces them.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('house-mouse') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mouse Repellent in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -363,7 +366,17 @@ export default function MouseRepellentCanadaPage() {
           <h2>What to Do Instead, in Order</h2>
           <p>The replacement plan is three items long and none of them is a repellent.</p>
           <p><strong>1. Close the openings.</strong> A mouse needs about 6 mm &mdash; the width of a pencil &mdash; because the skull is the only rigid part of the animal. Walk the perimeter with a torch and look at the boring things: the gap under the garage door, the sill plate seam, brick weep holes, dryer and bathroom vents with broken flaps, the penetrations where gas lines, cable and air-conditioning linesets enter, the space where a deck ledger meets the wall, and the corners of soffits. Pack coarse stainless steel wool or copper mesh tight into small gaps and cap with exterior sealant; screw quarter-inch galvanized hardware cloth over anything larger, and screen vents rather than sealing them. Never rely on expanding foam alone &mdash; mice chew cured foam easily, so foam is a cosmetic cap over a metal core, not a barrier. The room-by-room hardware list is in our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.</p>
+          <Photo
+            id="house-mouse"
+            alt="House mouse seen from the side, with a plain brown coat and a long, almost hairless tail"
+            caption="A house mouse, Mus musculus, seen from the side (Marfa, Texas). Look at the head: the skull is the only rigid part of a mouse, which is why a gap of about 6 mm, the width of a pencil, is enough to let one in."
+          />
           <p><strong>2. Set a real trap line, all at once.</strong> House mice are inquisitive rather than trap-shy, which is why the first night is normally the biggest catch of the whole job and why setting two traps and waiting is the classic failure. Buy far more than feels reasonable and place them at close intervals along walls, trigger end against the baseboard, in the runways that droppings and grease marks reveal. Bait sparingly with something sticky rather than piling it on. Models, triggers and the electronic-versus-snap question are compared in <Link href="/blog/best-mouse-trap-canada">the best mouse trap guide</Link>, and if you would rather use enclosed bait, read the <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> first &mdash; a poisoned mouse dying inside a wall is a genuinely bad outcome.</p>
+          <Photo
+            id="house-mouse-live-trap"
+            alt="A brown-grey mouse inside a metal live-catch trap, next to a cracker"
+            caption="A mouse its photographer identified as a house mouse, Mus musculus, in the live-catch trap that caught it in Ottawa, Ontario. House mice are inquisitive rather than trap-shy, which is why a trap line usually takes its biggest catch on the first night."
+          />
           <p><strong>3. Remove the reason to stay.</strong> Decant pantry staples, pet food and birdseed into hard containers, deal with the bird feeder if it is next to the house, and cut the clutter that provides nesting cover in a garage or basement. This is the slowest lever and the one that decides whether next autumn is a repeat.</p>
 
           <h2>The Timing Nobody Uses</h2>

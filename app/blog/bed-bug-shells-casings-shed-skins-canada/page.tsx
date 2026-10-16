@@ -364,6 +364,11 @@ export default function BedBugShellsCasingsPage() {
             alt="Bed bug nymph on white fabric: a small, amber-coloured oval insect with six legs"
             caption="A bed bug nymph, Cimex lectularius, on fabric. A nymph must feed before each moult, and the skin it sheds is an empty, translucent copy of it, complete down to the legs and antennae."
           />
+          <Photo
+            id="bed-bug-cast-skin-fabric"
+            alt="Bed bug shed skin on white fabric: an amber, bug-shaped husk split open at the head end, with empty leg casings"
+            caption="The shed skin of a bed bug nymph, Cimex lectularius, on white fabric (France). Look for the split where the bug climbed out and the empty casings of its legs."
+          />
           <p>That single fact does most of the diagnostic work on this page. It closes off the most comforting explanation people reach for &mdash; that a bug hitchhiked in on a suitcase and died &mdash; because a hitchhiker that never fed leaves no husk. It also explains why shells are so often the first evidence found: one bug reaching adulthood can leave up to five of them, so the casings pile up faster than the bugs themselves do, and they sit still in a seam where a live bug will not.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">The two purchases that turn a pile of husks into an actual answer:</p>
@@ -386,6 +391,11 @@ export default function BedBugShellsCasingsPage() {
             <li><strong>A spread of sizes, small ones included.</strong> This is the finding that matters. Tiny husks mean eggs hatched <em>in that location</em> and the young found a host often enough to keep moulting. That is an established, reproducing population rather than an introduction, and it changes the plan: containment and a full room protocol, not a wait-and-see.</li>
             <li><strong>Husks in more than one room.</strong> Treat the whole floor as involved. Bed bugs spread along the routes people take &mdash; a couch someone naps on, a second bedroom, a favourite chair &mdash; not randomly.</li>
           </ul>
+          <Photo
+            id="bed-bug-cast-skin"
+            alt="Pale, translucent bed bug cast skin with its legs, magnified beside a millimetre scale"
+            caption="A bed bug cast skin (exuvia), Cimex lectularius, magnified beside a millimetre scale; the identification is the photographer's. Use the scale for size: a first-stage skin is about 1.5 mm and the last nymphal skin about 4.5 mm."
+          />
           <p>What the sizes cannot tell you is <em>when</em>. Chitin is inert and dry; an undisturbed husk in a box spring corner survives long after the population that produced it is gone. This is exactly why second-hand furniture and recently treated apartments can be full of casings with nothing alive in them, and why the next section exists.</p>
 
           <h2>Old Evidence or a Live Problem? The Two-Week Test</h2>

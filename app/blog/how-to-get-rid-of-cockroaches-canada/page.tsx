@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -8,6 +9,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -16,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-16'
 const TITLE = 'How to Get Rid of Cockroaches in Canada — The Bait-First Plan That Actually Works'
 const META_TITLE = 'Get Rid of Cockroaches Canada: Bait, Not Spray'
 
@@ -90,6 +92,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('german-cockroach-adult'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-cockroaches-canada')
@@ -97,7 +100,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-cockroaches-canada')
 export default function HowToGetRidOfCockroachesCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian cockroach control guide: species identification, why sprays backfire, bait-station and monitoring strategy, apartment-building IPM, and PMRA context for gel baits.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian cockroach control guide: species identification, why sprays backfire, bait-station and monitoring strategy, apartment-building IPM, and PMRA context for gel baits.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('german-cockroach-adult') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Cockroaches in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -302,14 +305,39 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           <h2>First, Know Your Enemy: German vs American vs Oriental</h2>
           <p>Three cockroach species account for essentially all Canadian household encounters, and they demand different responses.</p>
           <p><strong>German cockroach &mdash; the one that matters.</strong> Small (12&ndash;16 mm), tan to light brown, with two dark parallel stripes on the shield behind the head. This is the indoor-breeding species behind virtually every kitchen and apartment infestation in Canada; it cannot survive a Canadian winter outdoors and lives its entire life within a few metres of warmth, moisture, and food. It also breeds faster than any other pest roach &mdash; a female produces an egg case (ootheca) of 30&ndash;48 eggs every few weeks and carries it protected until just before hatching, which is why populations explode and why no product touches the eggs. If you see small striped roaches in the kitchen or bathroom, everything in this guide applies at full intensity.</p>
+          <Photo
+            id="german-cockroach-adult"
+            alt="Adult German cockroach seen from above: a tan-brown body, two dark stripes behind the head and long antennae"
+            caption="An adult German cockroach, Blattella germanica, on a white surface (Charlotte, North Carolina). Look for the two dark parallel stripes on the shield behind the head."
+          />
           <p><strong>American cockroach &mdash; the basement giant.</strong> Reddish-brown and startlingly large &mdash; up to 50 mm, and it can glide short distances. In Canada this is mostly an insect of sewers, floor drains, boiler rooms, and commercial buildings; the one that appears in your basement in summer usually wandered up a drain rather than hatching on site. Response: screen or flush the floor drains, run water into seldom-used traps monthly so the water seal does not evaporate, lay a couple of glue boards near drains, and only escalate to baiting if the boards keep catching.</p>
+          <Photo
+            id="american-cockroach"
+            alt="American cockroach seen from above: a large, reddish-brown cockroach with long antennae"
+            caption="An American cockroach, Periplaneta americana, collected indoors in Austin, Texas. Look for the reddish-brown colour and the size: up to 50 mm long."
+          />
           <p><strong>Oriental cockroach &mdash; the damp-loving one.</strong> Dark chestnut to nearly black, glossy, around 25&ndash;30 mm, and slower-moving than the other two. It favours cool damp harbourages: crawl spaces, under concrete steps, floor drains, and the base of exterior walls. Moisture control &mdash; fixing the leak, drying the crawl space, clearing the window well &mdash; does more against Oriental roaches than any product.</p>
+          <Photo
+            id="oriental-cockroach"
+            alt="Adult Oriental cockroach seen from above on concrete: a glossy, nearly black body with very short wing pads"
+            caption="An adult Oriental cockroach, Blatta orientalis, on concrete (Pennsylvania). Look for the glossy body, dark chestnut to nearly black."
+          />
           <p>Not sure which you have? That is precisely what the glue boards in the next sections are for &mdash; the corpse on the board is your species ID, and it decides whether you are running a full German-roach campaign or just screening a drain.</p>
 
           <h2>Why Spraying Makes Cockroaches Worse</h2>
           <p>The spray aisle is where Canadian cockroach money goes to die, and the failure has a specific mechanism worth understanding, because it also explains why bait works.</p>
           <p><strong>Repellency scatters the colony.</strong> Most consumer roach aerosols are pyrethroid-based, and pyrethroid residues are detectable and aversive to cockroaches. Spray the cupboard under the sink and the survivors do not stay to die &mdash; they relocate: deeper into the wall void, into the cupboard you did not spray, behind the bathroom vanity, or through the plumbing chase into the next apartment. Pest professionals have a phrase for what a fogger does to a German roach population: it splits one harbourage into five.</p>
           <p><strong>Spray cannot reach the population.</strong> Contact spray kills roaches it wets. The colony &mdash; the nymphs packed into a hinge void, the females carrying egg cases, the two-thirds that never forage on open surfaces on any given night &mdash; is never wetted. And the ootheca is a sealed capsule: no consumer spray or fogger kills the 30&ndash;48 eggs inside one.</p>
+          <Photo
+            id="german-cockroach-nymphs"
+            alt="Three German cockroach nymphs of different sizes, dark brown with a pale stripe down the middle, on a blue background"
+            caption="German cockroach nymphs, Blattella germanica, at three different stages; they shed their skins as they grow until they reach adulthood. Look for small, wingless roaches like these: they are juveniles, and they shelter in hinge voids that a contact spray never wets."
+          />
+          <Photo
+            id="german-cockroach-egg-case"
+            alt="Underside of a female German cockroach with a ridged, light brown egg case protruding from the end of her abdomen"
+            caption="A female German cockroach, Blattella germanica, seen from below with her egg capsule (ootheca) extended from the end of her abdomen. The ootheca is a sealed capsule, and no consumer spray or fogger kills the eggs inside it."
+          />
           <p><strong>Spray residue sabotages bait.</strong> This is the expensive part. Roaches will not feed at a bait placement sitting on or near a pyrethroid residue &mdash; the aversion that scatters them also causes bait refusal. Households that spray for two weeks and then switch to bait routinely conclude that &ldquo;bait doesn&rsquo;t work either,&rdquo; when the bait never had a chance on contaminated ground. If you have already sprayed, wash treated surfaces with soap and water, let them dry, and then place stations. The same trap catches homeowners fighting a kitchen ant trail, where spraying triggers colony budding instead of scattering &mdash; we cover that failure in detail in <Link href="/blog/how-to-get-rid-of-ants-canada">why ant bait beats the spray can</Link>.</p>
           <p>None of that makes aerosols useless &mdash; it makes them a scalpel rather than a broom. There are three narrow jobs a can still wins, and we set out what they are, which PMRA-registered products to reach for, and how to keep the residue away from your bait in <Link href="/blog/best-cockroach-spray-canada">the honest guide to cockroach sprays in Canada</Link>.</p>
 

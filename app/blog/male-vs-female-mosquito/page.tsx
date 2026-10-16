@@ -1,15 +1,17 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 
 const SLUG = 'male-vs-female-mosquito'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-16'
 const TITLE = 'Male vs Female Mosquito: Only Females Bite (Here Is Why)'
 
 const FAQS = [
@@ -47,13 +49,17 @@ const FAQS = [
   },
 ]
 
+// TITLE NOTE (Oct 16, 2026): was 'Male vs Female Mosquito: How to Tell Them Apart'; top queries:
+// male vs female mosquito 1085, male mosquito vs female 891, male mosquito 789, female mosquito 660
+// (5 clicks in 28 days); the page now shows matched male and female photos.
 export const metadata: Metadata = buildMetadata({
-  title: 'Male vs Female Mosquito: How to Tell Them Apart',
+  title: 'Male vs Female Mosquito: How to Tell (Photos)',
   description: 'Male vs female mosquito: only the female bites, using blood protein to build eggs; males live on nectar and can’t pierce skin. Spot the feathery antennae.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('aedes-aegypti-male'),
 })
 
 const AMZ_TAG = tagForSlug('male-vs-female-mosquito')
@@ -61,7 +67,7 @@ const AMZ_TAG = tagForSlug('male-vs-female-mosquito')
 export default function MaleVsFemaleMosquitoPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Male vs female mosquito differences: only females bite, plus diet, lifespan, antennae, and control.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Male vs female mosquito differences: only females bite, plus diet, lifespan, antennae, and control.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-aegypti-male') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Male vs Female Mosquito', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -141,9 +147,29 @@ export default function MaleVsFemaleMosquitoPage() {
           <h2>Why Only Females Bite</h2>
           <p>Both male and female mosquitoes drink nectar for everyday flight fuel — sugar is their main food. What sets the female apart is reproduction. To build a batch of eggs, she needs a concentrated source of protein and iron that nectar simply cannot provide, and blood is the richest source available. So a female seeks out a warm-blooded host, pierces the skin with a slender proboscis, and draws a blood meal. A few days later, with the eggs matured, she lays them in or beside standing water and often goes hunting for another meal to fuel the next clutch.</p>
           <p>The male never does any of this. His mouthparts are soft and feathery, physically unable to pierce skin, and he has no reproductive reason to. He spends his short adult life feeding on flowers and searching for females to mate with. That is the entire reason the &ldquo;do mosquitoes bite&rdquo; question always comes down to <strong>the female</strong>.</p>
+          <Photo
+            id="aedes-aegypti-male"
+            alt="Male yellow fever mosquito at rest, with bushy, feathery antennae"
+            caption="A male yellow fever mosquito, Aedes aegypti, at rest. Male mosquitoes do not bite or feed on blood; they feed on nectar from flowers or fruit. Look for the bushy, feathery antennae."
+          />
+          <Photo
+            id="aedes-aegypti-female"
+            alt="Female yellow fever mosquito standing on a green surface, with thin antennae and a straight proboscis"
+            caption="A resting female yellow fever mosquito, Aedes aegypti, the same species as the male above. Compare the antennae: hers are thin and plain, where his are bushy."
+          />
 
           <h2>How to Tell Them Apart</h2>
           <p>Under a hand lens, the difference is obvious. The male&rsquo;s antennae are <strong>plumose</strong> — thick, bushy, and almost furry — because they are packed with sensors that pick up the specific wingbeat frequency of a female flying nearby. The female&rsquo;s antennae are thin and plain. Males also carry feathery palps flanking the mouth, whereas the female presents one straight, dark proboscis. Males tend to run a little smaller overall. In real life you almost never need to check: if a mosquito is on your arm taking a meal, it is a female, full stop.</p>
+          <Photo
+            id="culex-quinquefasciatus-male"
+            alt="Male southern house mosquito resting on a flower, with very bushy, feathery antennae"
+            caption="A male southern house mosquito, Culex quinquefasciatus, resting on a flower. Look for the plumose antennae, thick, bushy and almost furry, that mark a male."
+          />
+          <Photo
+            id="culex-quinquefasciatus-female"
+            alt="Female southern house mosquito at rest, with thin antennae and one straight proboscis"
+            caption="A resting female southern house mosquito, Culex quinquefasciatus. Look for the thin, plain antennae and the one straight, dark proboscis that a female presents."
+          />
           <p>A different mix-up trips people up far more often than male versus female: the oversized, long-legged insect wobbling around a porch light is almost always a crane fly, not a giant mosquito. It has no working biting mouthparts, and despite its nickname it does not hunt mosquitoes either &mdash; see <Link href="/blog/mosquito-hawk-explained">the mosquito hawk myth, explained</Link>.</p>
 
           <h2>Lifespan: Why Females Stick Around Longer</h2>

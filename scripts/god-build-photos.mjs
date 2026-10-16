@@ -51,7 +51,7 @@ const PHOTOS = [
   // second batch (Oct 15): identification pages and their upgrades
   ['bed-bug-adult-ruler', 'Bed bug, Cimex lectularius, unfed adult beside a millimetre ruler', { phil: 12704 }],
   ['bed-bug-nymph', 'Bed bug nymph on fabric', { inat: { obs: 325824918, photo: 589997406 } }],
-  ['bed-bug-signs', 'Bed bug signs: cast skins and fecal spots on fabric', { inat: { obs: 9978781, photo: 13712297 } }],
+  ['bed-bug-signs', 'Bed bugs, Cimex lectularius, in an infestation, on fabric (the source does not identify cast skins or fecal spots)', { inat: { obs: 9978781, photo: 13712297 } }],
   ['clover-mite', 'Clover mite, Bryobia praetiosa, under a digital microscope', { commons: 'Clover mite (Bryobia praetiosa) viewed with digital microscope.jpg' }],
   ['red-velvet-mite', 'Red velvet mite (Trombidiidae) on bark', { commons: 'Huge Red Velvet Mite - Flickr - treegrow.jpg' }],
   ['chigger-and-pinhead', 'Chigger larva and adult mite on the head of a pin, for size', { phil: 14763 }],

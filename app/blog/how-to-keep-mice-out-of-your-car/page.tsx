@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -8,6 +9,7 @@ import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
+import Photo from '@/components/Photo'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -16,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-keep-mice-out-of-your-car'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-16'
 const TITLE = 'How to Keep Mice Out of Your Car — Protect the Engine Bay, Wiring & Cabin'
 const META_TITLE = 'How to Keep Mice Out of Your Car in Canada'
 
@@ -78,6 +80,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('deer-mouse-nest'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-keep-mice-out-of-your-car')
@@ -85,7 +88,7 @@ const AMZ_TAG = tagForSlug('how-to-keep-mice-out-of-your-car')
 export default function HowToKeepMiceOutOfYourCarPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent guide to keeping mice out of vehicles: engine-bay attraction, the soy-wiring story, inspection signs, parking strategy, capsaicin rodent tape, honestly framed under-hood repellers, storage trapping, and comprehensive-insurance context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent guide to keeping mice out of vehicles: engine-bay attraction, the soy-wiring story, inspection signs, parking strategy, capsaicin rodent tape, honestly framed under-hood repellers, storage trapping, and comprehensive-insurance context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('deer-mouse-nest') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Keep Mice Out of Your Car', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -309,6 +312,16 @@ export default function HowToKeepMiceOutOfYourCarPage() {
             <li><strong>Chewed insulation and bare copper.</strong> Look along accessible harness runs, especially where looms bend around the back of the engine and near the firewall.</li>
             <li><strong>Grease rub marks and paw prints</strong> in dust along the edges mice travel.</li>
           </ul>
+          <Photo
+            id="deer-mouse-nest"
+            alt="Deer mouse looking out from a nest of shredded fabric and feathers"
+            caption="A North American deer mouse, Peromyscus maniculatus, in the home it had made among deteriorating sheets of fabric and bird feathers, in a CDC photograph. Under the hood, look for a wad like this: shredded insulation, leaves, paper or fabric packed into a corner, an airbox or on top of the engine."
+          />
+          <Photo
+            id="mouse-droppings-ruler"
+            alt="A few small, dark house mouse droppings on orange paper beside a centimetre ruler and two coins"
+            caption="House mouse droppings found in a kitchen and near a computer keyboard, shown beside a centimetre ruler in Utrecht, the Netherlands; the identification is the photographer's. On the engine cover, the battery tray or the corners of the bay, look for dark grains like these, 3 to 6 mm long."
+          />
           <p>From the driver&rsquo;s seat, the later-stage tells are a check-engine light or a misfire after the car has been sitting, a dusty, musty, or ammonia smell from the vents when the fan first runs (mice love the HVAC intake and cabin-air filter), scratching sounds after you park, and — in the endgame — a car that simply will not start. If you are already at droppings-plus-nest, skip ahead to the trapping section: deterrents do not evict tenants.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
