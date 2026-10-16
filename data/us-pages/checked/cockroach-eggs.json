@@ -1,0 +1,10 @@
+{
+ "id": "cockroach-eggs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "681bfcb33fd09fc02c8e7ad56174ea3d17377547f1504b00de931398d0050e47",
+ "claimsChecked": 284,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-16"
+}
