@@ -3,6 +3,8 @@
 // that breaks a rule fails the deploy.
 //
 //   node scripts/validate-guide.mjs <slug> [<slug> ...]   check named guides
+//   node scripts/validate-guide.mjs path/to/<slug>.json   check a draft wherever it is (outside
+//                                                         content/guides/ it counts as not yet live)
 //   node scripts/validate-guide.mjs --all                 check every guide + the link graph
 //   node scripts/validate-guide.mjs --all --report        also print word counts and inbound links
 //
@@ -15,13 +17,16 @@
 //   - no invented testing claims and no absolute safety claims
 //   - every photo is a real one whose source, credit and licence are on record
 //     (data/god-build/photos.json), charts add up, and maps have their shapes (data/geo/)
+//   - "confused" photo cards link real (or planned) pages and use photos on record
+//   - the photo-ID formula (Oct 16, 2026; data/god-build/WRITER_BRIEF_PHOTO_ID.md): 8 to 10 FAQs
+//     on every scheduled page released from Oct 20, 2026 (see FORMULA_FROM below)
 //
 // Pages of the scheduled "god" batch (data/god-build/plan.src.json) wait in
 // content/guides-scheduled/ until their release date; name them to check them there, or pass
 // --scheduled to check them all.
 import { readFileSync, readdirSync, existsSync } from 'fs'
-import { join } from 'path'
-import { LINK, blockTexts, internalLinks, inboundNeeded } from './guide-links.mjs'
+import { join, resolve } from 'path'
+import { LINK, blockTexts, blockHrefs, factsTexts, internalLinks, inboundNeeded } from './guide-links.mjs'
 
 const ROOT = process.cwd()
 const GUIDES = join(ROOT, 'content', 'guides')
@@ -33,6 +38,16 @@ const REHEARSAL = /^\d{4}-\d{2}-\d{2}$/.test(process.env.REHEARSAL_DATE || '') ?
 const TODAY = REHEARSAL || new Date().toISOString().slice(0, 10)
 const PHOTOS_FILE = join(ROOT, 'data', 'god-build', 'photos.json')
 const PHOTOS = existsSync(PHOTOS_FILE) ? Object.fromEntries(JSON.parse(readFileSync(PHOTOS_FILE, 'utf8')).photos.map((x) => [x.file, x])) : {}
+// the same records by id: the file name without /guides/photos/ and .webp (lib/photos.ts)
+const PHOTO_IDS = Object.fromEntries(Object.values(PHOTOS).map((x) => [String(x.file).replace(/^\/guides\/photos\//, '').replace(/\.webp$/, ''), x]))
+// The photo-ID formula (Oct 16, 2026, from data/god-build/bettertermite-teardown.md): a scheduled
+// page whose plan releaseOn is FORMULA_FROM or later carries 8 to 10 FAQs. Pages fact-checked by
+// FORMULA_CHECKED_BY were written to the earlier brief (4 to 6) and keep it: on Oct 16 that is
+// mosquitoes-in-texas, the one page then waiting in content/guides-scheduled/. Every live page has
+// releaseOn before FORMULA_FROM or is outside the scheduled batch, so none of them changes.
+const FORMULA_FROM = '2026-10-20', FORMULA_CHECKED_BY = '2026-10-16'
+const CHECKED_DIR = join(ROOT, 'data', 'us-pages', 'checked')
+const checkedOn = (base) => { try { return String(JSON.parse(readFileSync(join(CHECKED_DIR, `${base}.json`), 'utf8')).checkedOn || '') } catch { return '' } }
 const LICENSES = new Set(['public-domain', 'CC0-1.0', 'CC-BY-2.0', 'CC-BY-2.5', 'CC-BY-3.0', 'CC-BY-4.0', 'CC-BY-SA-2.0', 'CC-BY-SA-2.5', 'CC-BY-SA-3.0', 'CC-BY-SA-4.0'])
 const STATE_CODES = new Set('AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY'.split(' '))
 // map scopes: "us" (states), "canada" (provinces and territories; not "ca", which is California),
@@ -147,11 +162,13 @@ function validate(file) {
   // A scheduled page carries its release date; scripts/release-scheduled.mjs moves the date to
   // the day it actually goes live if that is later, so a released one may be later, never earlier.
   const god = p.batch === 'god'
-  const waiting = file.replace(/\\/g, '/').includes('/content/guides-scheduled/')
+  // waiting: in content/guides-scheduled/, or a draft checked by its path outside content/guides/
+  const inScheduled = file.replace(/\\/g, '/').includes('/content/guides-scheduled/')
+  const waiting = inScheduled || !file.replace(/\\/g, '/').includes('/content/guides/')
   if (!god && g.datePublished !== p.datePublished) err(`"datePublished" must be "${p.datePublished}"`)
   if (god && waiting && g.datePublished !== p.datePublished) err(`"datePublished" must be the release date "${p.datePublished}" (data/god-build/plan.src.json)`)
   if (god && !waiting && !(g.datePublished >= p.datePublished && g.datePublished <= TODAY)) err(`"datePublished" ${g.datePublished} must fall between the release date ${p.datePublished} and today`)
-  if (god && waiting && existsSync(join(GUIDES, file.replace(/\\/g, '/').split('/').pop()))) err('this page is in both content/guides and content/guides-scheduled')
+  if (god && inScheduled && existsSync(join(GUIDES, file.replace(/\\/g, '/').split('/').pop()))) err('this page is in both content/guides and content/guides-scheduled')
   if (god && p.parent && !(g.parent && g.parent.href === p.parent.href && g.parent.name === p.parent.name)) err(`"parent" must be ${JSON.stringify(p.parent)}`)
   if (god && g.section !== p.section && !(p.section === 'blog' && g.section === undefined)) err(`"section" must be "${p.section}"`)
   if (typeof g.metaTitle === 'string' && /buzzskito/i.test(g.metaTitle)) err('"metaTitle" must not include the brand; the site appends " | BuzzSkito"')
@@ -164,12 +181,19 @@ function validate(file) {
     if (g.quickAnswer.bullets.length < 3 || g.quickAnswer.bullets.length > 6) err('quickAnswer.bullets must have 3 to 6 items')
   }
   if (g.facts) {
-    if (typeof g.facts.title !== 'string' || !Array.isArray(g.facts.rows) || g.facts.rows.some((r) => !Array.isArray(r) || r.length !== 2)) err('"facts" needs { title, rows: [[label, value], ...] }')
+    // two shapes: the "at a glance" list (rows of [label, value]) or, with "head", a quick-ID table
+    const head = g.facts.head
+    if (head !== undefined) {
+      if (!Array.isArray(head) || head.length < 2 || head.length > 5 || head.some((h) => typeof h !== 'string' || !h.trim() || /\]\(/.test(h))) err('"facts.head" (a quick-ID table) needs 2 to 5 column headings, plain text without links')
+      else if (typeof g.facts.title !== 'string' || !Array.isArray(g.facts.rows) || g.facts.rows.some((r) => !Array.isArray(r) || r.length !== head.length || r.some((c) => typeof c !== 'string' || !c.trim()))) err(`"facts" with a "head" needs { title, head, rows }: every row has ${head.length} non-empty cells, one per heading`)
+      else if (g.facts.rows.length < 4 || g.facts.rows.length > 12) err('"facts.rows" must have 4 to 12 rows')
+    } else if (typeof g.facts.title !== 'string' || !Array.isArray(g.facts.rows) || g.facts.rows.some((r) => !Array.isArray(r) || r.length !== 2)) err('"facts" needs { title, rows: [[label, value], ...] }')
     else if (g.facts.rows.length < 4 || g.facts.rows.length > 12) err('"facts.rows" must have 4 to 12 rows')
+    if (g.facts.caption !== undefined && (typeof g.facts.caption !== 'string' || g.facts.caption.trim().length < 10 || g.facts.caption.length > 300)) err('"facts.caption" must be 10 to 300 characters (name the sources the box is drawn from)')
   }
 
   // ── body ──────────────────────────────────────────────────────────────────────
-  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'chart', 'map'])
+  const TYPES = new Set(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'callout', 'media', 'recipe', 'checklist', 'card', 'figure', 'chart', 'map', 'confused'])
   const visual = p.batch === 'visual'
   if (!Array.isArray(g.body) || !g.body.length) { err('"body" is missing'); return { errors, warnings, stats: {} } }
   g.body.forEach((b, i) => {
@@ -242,21 +266,62 @@ function validate(file) {
       }
       if (typeof b.source !== 'string' || b.source.length < 5) err(`${where}: "source" is required`)
     }
+    if (b.type === 'confused') {
+      // "Commonly confused with": 2 to 6 photo cards, each linking the look-alike's own page. The
+      // hrefs are checked below with the page's other internal links (exist or planned, not this
+      // page, no service or city page) and count toward its links; the photos must be on record.
+      const where = `body[${i}] (confused)`
+      const plain = (s, min, max) => typeof s === 'string' && s.trim().length >= min && s.length <= max && !/\]\(|[*<>]|https?:\/\//.test(s)
+      if (b.title !== undefined && !plain(b.title, 3, 80)) err(`${where}: "title" must be plain text, 3 to 80 characters (leave it out for "Commonly confused with")`)
+      if (!Array.isArray(b.items) || b.items.length < 2 || b.items.length > 6) err(`${where}: "items" needs 2 to 6 cards`)
+      else {
+        const hrefs = new Set(), photos = new Set()
+        b.items.forEach((c, j) => {
+          const at = `${where} items[${j}]`
+          if (!c || typeof c !== 'object') return err(`${at}: a card is { href, name, photo, note }`)
+          if (typeof c.href !== 'string' || !/^\/(blog|learn)\/[a-z0-9-]+$/.test(c.href)) err(`${at}: "href" must be the address of a guide on this site, such as /blog/springtails`)
+          else if (hrefs.has(c.href)) err(`${at}: two cards link ${c.href}`)
+          else hrefs.add(c.href)
+          if (!plain(c.name, 3, 40)) err(`${at}: "name" must be plain text, 3 to 40 characters`)
+          if (!plain(c.note, 15, 120)) err(`${at}: "note" (the one feature that tells it apart) must be plain text, 15 to 120 characters, without links or bold`)
+          if (c.alt !== undefined && !plain(c.alt, 15, 220)) err(`${at}: "alt", when given, must describe the photo in 15 to 220 characters of plain text`)
+          if (/\b(ai|a\.i\.)[- ]generated|illustration|rendering\b/i.test(`${c.alt || ''} ${c.note || ''}`)) err(`${at}: cards show photographs; generated or drawn images are not allowed`)
+          const rec = typeof c.photo === 'string' ? PHOTO_IDS[c.photo] : undefined
+          if (!rec) err(`${at}: "photo" must be the id of a photo in data/god-build/photos.json (its file name without .webp)${typeof c.photo === 'string' && c.photo.startsWith('/') ? `, e.g. "${c.photo.replace(/^\/guides\/photos\//, '').replace(/\.webp$/, '')}"` : ''}`)
+          else {
+            if (!existsSync(join(ROOT, 'public', rec.file))) err(`${at}: photo "${c.photo}" is on record but public${rec.file} does not exist`)
+            if (!LICENSES.has(rec.license)) err(`${at}: photo "${c.photo}" has licence "${rec.license}" (public domain, CC0, CC BY or CC BY-SA only)`)
+            if (typeof rec.credit !== 'string' || rec.credit.trim().length < 3 || !/^https:\/\//.test(rec.sourceUrl || '')) err(`${at}: photo "${c.photo}" has no credit or source page on record`)
+            if (photos.has(c.photo)) err(`${at}: photo "${c.photo}" is on two cards`)
+            photos.add(c.photo)
+          }
+        })
+      }
+    }
     if (['h2', 'h3'].includes(b.type) && /\]\(/.test(b.text)) err(`body[${i}] (${b.type}) must not contain a link`)
     if (b.type === 'p' && words(b.text) > 130) warn(`body[${i}] is a ${words(b.text)}-word paragraph; split it`)
   })
   if (g.body[0].type !== 'h2') err('body must start with an h2')
+  if (g.body.filter((b) => b && b.type === 'confused').length > 1) err('a page carries one "confused" card row; merge them')
   const h2s = g.body.filter((b) => b.type === 'h2').map((b) => strip(b.text))
   if (h2s.length < (pillar ? 9 : 5)) err(`body has ${h2s.length} h2 sections; it needs at least ${pillar ? 9 : 5}`)
   if (new Set(h2s.map((h) => h.toLowerCase())).size !== h2s.length) err('two h2 headings are identical')
   if (h2s.some((h) => /^(conclusion|final thoughts|in summary|introduction|related (posts|reading|articles))$/i.test(h.trim()))) err('remove generic headings such as "Conclusion", "Introduction" or "Related posts"')
 
   const bodyText = g.body.flatMap(blockTexts)
-  const everything = [...bodyText, g.quickAnswer?.lead || '', ...(g.quickAnswer?.bullets || []), ...(g.facts ? g.facts.rows.flat() : []), g.h1 || '', g.dek || '', g.metaTitle || '', g.metaDescription || '', g.excerpt || '',
+  // facts headings and card alt text are not body words, but they are checked like everything else
+  const extras = [...(g.facts && Array.isArray(g.facts.head) ? g.facts.head : []), ...g.body.flatMap((b) => (b && b.type === 'confused' && Array.isArray(b.items) ? b.items.map((c) => (c && c.alt) || '') : []))]
+  const everything = [...bodyText, g.quickAnswer?.lead || '', ...(g.quickAnswer?.bullets || []), ...factsTexts(g), ...extras, g.h1 || '', g.dek || '', g.metaTitle || '', g.metaDescription || '', g.excerpt || '',
     ...(g.faqs || []).flatMap((f) => [f.question, f.answer]), ...(g.howTo ? [g.howTo.name, g.howTo.description || '', ...g.howTo.steps.flatMap((s) => [s.name, s.text])] : [])].filter((s) => typeof s === 'string')
   const bodyWords = bodyText.reduce((n, t) => n + words(t), 0)
   if (bodyWords < p.minWords) err(`body is ${bodyWords} words; this page needs at least ${p.minWords} (FAQs and the quick answer do not count)`)
   if (bodyWords > p.minWords * 2.2) warn(`body is ${bodyWords} words, more than twice the minimum; make sure it is not padded`)
+
+  // the photo-ID formula (FORMULA_FROM at the top): scheduled pages released from Oct 20, 2026,
+  // except those fact-checked under the earlier brief
+  const base = file.replace(/\\/g, '/').split('/').pop().replace(/\.json$/, '')
+  const checkedBy = checkedOn(base)
+  const formula = god && String(p.releaseOn || '') >= FORMULA_FROM && !(checkedBy && checkedBy <= FORMULA_CHECKED_BY)
 
   const figures = g.body.filter((b) => b.type === 'figure').length
   const media = g.body.filter((b) => b.type === 'media').length + figures
@@ -264,6 +329,11 @@ function validate(file) {
   if (pillar && media < 2) err('a pillar needs at least 2 media placeholders')
   if (god && p.flags.includes('id') && figures < 2) err(`this page needs at least 2 real photos ("figure" blocks); found ${figures}`)
   if (god && p.series && p.role !== 'hub' && !g.body.some((b) => b.type === 'chart' || b.type === 'map')) err('a state page needs at least one chart or map drawn from its data')
+  // warnings, not errors: a photo the ledger does not have yet must not hold a page back
+  if (formula && p.flags.includes('id') && !p.series && p.role !== 'hub') {
+    if (figures < 3) warn(`the photo-ID formula asks for at least 3 photos, 2 of them showing the pest where people find it; found ${figures} "figure" blocks`)
+    if (!g.body.some((b) => b && b.type === 'confused')) warn('the photo-ID formula adds a "confused" card row linking 2 to 6 sibling pages (data/god-build/WRITER_BRIEF_PHOTO_ID.md)')
+  }
 
   if (visual) {
     const cards = g.body.filter((b) => b.type === 'card').length
@@ -276,14 +346,17 @@ function validate(file) {
   }
 
   // ── FAQ, how-to, disclaimer ───────────────────────────────────────────────────
-  const [fMin, fMax] = pillar ? [6, 8] : [4, 6]
-  if (!Array.isArray(g.faqs) || g.faqs.length < fMin || g.faqs.length > fMax) err(`"faqs" must have ${fMin} to ${fMax} questions`)
+  // up to 10 on any page; at least 8 under the photo-ID formula (searchers' own questions)
+  const [fMin, fMax] = formula ? [8, 10] : pillar ? [6, 10] : [4, 10]
+  if (!Array.isArray(g.faqs) || g.faqs.length < fMin || g.faqs.length > fMax) err(`"faqs" must have ${fMin} to ${fMax} questions${formula ? ` (photo-ID formula: scheduled pages released from ${FORMULA_FROM})` : ''}`)
   else g.faqs.forEach((f, i) => {
     if (typeof f.question !== 'string' || !f.question.trim().endsWith('?')) err(`faqs[${i}].question must be a question ending in "?"`)
     const n = words(f.answer || '')
     if (n < 35 || n > 120) err(`faqs[${i}].answer is ${n} words; it must be 35 to 120`)
     if (/\]\(|\*\*/.test(f.answer || '')) err(`faqs[${i}].answer must be plain text (no links or bold): it is used as structured data`)
   })
+  // the template keys each FAQ by its question, and a repeat adds nothing for the reader
+  if (Array.isArray(g.faqs) && new Set(g.faqs.map((f) => String((f && f.question) || '').trim().toLowerCase())).size !== g.faqs.length) err('two FAQs ask the same question')
   if (p.flags.includes('howto')) {
     if (!g.howTo || !Array.isArray(g.howTo.steps) || g.howTo.steps.length < 4 || g.howTo.steps.length > 10) err('this is a how-to page: "howTo" needs { name, steps[4 to 10] }')
     else g.howTo.steps.forEach((s, i) => { if (!s.name || words(s.text || '') < 12) err(`howTo.steps[${i}] needs a name and 12+ words of text`); if (/\]\(|\*\*/.test(s.text || '')) err(`howTo.steps[${i}].text must be plain text`) })
@@ -311,7 +384,7 @@ function validate(file) {
   if (auth < 3) err(`only ${auth} government / university / scientific sources; at least 3 are required`)
 
   const internal = [], external = []
-  for (const t of [...bodyText, g.quickAnswer?.lead || '', ...(g.quickAnswer?.bullets || []), ...(g.facts ? g.facts.rows.flat() : [])]) {
+  for (const t of [...bodyText, g.quickAnswer?.lead || '', ...(g.quickAnswer?.bullets || []), ...factsTexts(g)]) {
     for (const m of String(t).matchAll(LINK)) (m[2].startsWith('/') ? internal : external).push({ text: m[1], href: m[2] })
     const leftover = String(t).replace(LINK, '')
     if (/\]\(|\[[^\]]*\]\s*\(/.test(leftover) || /https?:\/\//.test(leftover)) err(`malformed link or bare URL in: "${String(t).slice(0, 90)}…"`)
@@ -326,8 +399,9 @@ function validate(file) {
   if (external.some((l) => /^(here|this|source|link|click here|study|this study)$/i.test(l.text.trim()))) err('a citation link uses a vague anchor ("here", "source", "this study"); name the organisation or the finding instead')
 
   const self = p.path
-  // links drawn into a map count as links from the page (the hubs link every state that way)
-  for (const b of g.body) if (b.type === 'map') for (const h of Object.values(b.links || {})) internal.push({ text: 'map', href: String(h) })
+  // links drawn into a map count as links from the page (the hubs link every state that way), and
+  // so do "confused" photo cards (the same list ./guide-links.mjs gives the release job)
+  for (const b of g.body) for (const h of blockHrefs(b)) internal.push({ text: b.type === 'confused' ? String((b.items.find((c) => c && c.href === h) || {}).name || 'card') : 'map', href: h })
   const hrefs = internal.map((l) => l.href.replace(/[#?].*$/, ''))
   for (const h of hrefs) {
     if (h !== '/' && h.endsWith('/')) err(`internal link has a trailing slash: ${h}`)
@@ -417,6 +491,8 @@ function validate(file) {
 
 // ── run ─────────────────────────────────────────────────────────────────────────
 const fileFor = (name) => {
+  // a path to a draft (e.g. a scratch copy): used as it is
+  if (name.endsWith('.json') && existsSync(name)) return resolve(name)
   const direct = join(GUIDES, `${name}.json`), pil = join(GUIDES, `pillar-${name}.json`), later = join(SCHEDULED, `${name}.json`)
   return existsSync(direct) ? direct : existsSync(pil) ? pil : existsSync(later) ? later : direct
 }

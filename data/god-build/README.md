@@ -61,7 +61,8 @@ county map or a county table. So each state page leads with what nobody else has
 - real photographs (`figure` blocks) with credit and licence; never AI images or drawings
 - a month-by-month season view for the state's regions
 - state services: free tick identification, testing, where to report Asian longhorned ticks
-- "data through <month year>" on every table and chart, 5 to 8 primary sources, 4 to 6 FAQs
+- "data through <month year>" on every table and chart, 5 to 8 primary sources, 8 to 10 FAQs
+  (4 to 6 on pages fact-checked before the Oct 16, 2026 formula: `WRITER_BRIEF_PHOTO_ID.md`)
 
 The numbers come from the state's data packet, `data/god-build/packets/<series>/<STATE>.json`,
 built from the downloaded government files, so writers do not retype figures from web pages.

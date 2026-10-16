@@ -50,7 +50,9 @@ page, plus:
   state's sheet differs, give CDC's current figure and date the state's. State sources are for
   state data, state services and state advice. Quote advice at the source's own strength:
   "consider contacting a provider" must not become "call right away".
-- 4 to 6 FAQs (35 to 120 words each, plain text), 4 to 20 sources (prefer fewer; at least 3 government,
+- 8 to 10 FAQs on pages released from Oct 20, 2026 (the validator enforces it; a page fact-checked
+  by Oct 16 keeps the 4 to 6 it was written to), 35 to 120 words each, plain text, in the words
+  searchers use (Google's "People also ask"). 4 to 20 sources (prefer fewer; at least 3 government,
   university or scientific), each linked inline where it is used. Official government sites
   on non-.gov domains (a county on .org) take `"kind": "government"`.
 - Anything that changes during a season (this year's case count so far, a city's current

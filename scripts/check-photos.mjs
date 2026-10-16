@@ -3,8 +3,8 @@
 // Every photo lives in public/guides/photos/ and is recorded in data/god-build/photos.json
 // (source page, licence, required credit, size; written by scripts/god-build-photos.mjs).
 // Hand-written pages place one with <Photo id="..."> (components/Photo.tsx), guides with a
-// `figure` block. This check fails when:
-//   - a page uses a photo id, or a guide a photo file, that the ledger does not list
+// `figure` block (by file) or a `confused` photo card (by id). This check fails when:
+//   - a page uses a photo id, or a guide a photo file or card id, that the ledger does not list
 //   - a file sits in public/guides/photos with no ledger record, or a record has no file
 //   - a record lacks a credit, a source page or a size, or carries a licence we do not use
 //   - shareImage() names a photo that needs a visible credit (CC BY / CC BY-SA): share cards
@@ -72,11 +72,22 @@ for (const f of walk(join(ROOT, 'app'), (n) => /\.tsx?$/.test(n))) {
   if (name.startsWith('app/') && /['"`]\/guides\/photos\//.test(src)) errors.push(`${name}: points at /guides/photos/ directly; use <Photo id="..."> so the credit is shown`)
 }
 
-let figures = 0
+let figures = 0, cards = 0
 for (const f of [...walk(join(ROOT, 'content', 'guides'), (n) => n.endsWith('.json')), ...walk(join(ROOT, 'content', 'guides-scheduled'), (n) => n.endsWith('.json'))]) {
-  for (const m of readFileSync(f, 'utf8').matchAll(/"(\/guides\/photos\/[^"]+)"/g)) {
+  const text = readFileSync(f, 'utf8')
+  for (const m of text.matchAll(/"(\/guides\/photos\/[^"]+)"/g)) {
     figures++
     if (!byId.has(m[1].slice('/guides/photos/'.length).replace(/\.webp$/, ''))) errors.push(`${rel(f)}: ${m[1]} is not in data/god-build/photos.json`)
+  }
+  // "confused" photo cards name their photo by id, not by file
+  let g = null
+  try { g = JSON.parse(text) } catch {} // check:guides reports a file that is not valid JSON
+  for (const b of (g && Array.isArray(g.body) ? g.body : [])) {
+    if (!b || b.type !== 'confused' || !Array.isArray(b.items)) continue
+    for (const c of b.items) {
+      cards++
+      if (!byId.has(String(c && c.photo))) errors.push(`${rel(f)}: card photo "${c && c.photo}" is not in data/god-build/photos.json`)
+    }
   }
 }
 
@@ -84,4 +95,4 @@ if (errors.length) {
   console.error(`check:photos FAILED (${errors.length}):\n  ` + errors.join('\n  '))
   process.exit(1)
 }
-console.log(`check:photos ok: ${byId.size} photos on record, ${uses} placed on ${pagesWithPhotos.size} hand-written page(s), ${shares} share image(s), ${figures} in guides.`)
+console.log(`check:photos ok: ${byId.size} photos on record, ${uses} placed on ${pagesWithPhotos.size} hand-written page(s), ${shares} share image(s), ${figures} in guides, ${cards} on look-alike cards.`)

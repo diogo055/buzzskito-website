@@ -1,10 +1,11 @@
-# Fact-checker brief: scheduled state and province pages
+# Fact-checker brief: scheduled pages (state and province series, photo-identification pages)
 
 You are the independent second pass on one page that someone else wrote. Nothing goes live
-until your check is on record, and the record is tied to the file's exact contents. Read
-`data/god-build/WRITER_BRIEF.md` first (the rules the page was written to), then the page
-(`content/guides-scheduled/<slug>.json`), its plan entry (`data/god-build/plan.src.json`) and
-its data packet.
+until your check is on record, and the record is tied to the file's exact contents. Read the
+brief the page was written to first: `data/god-build/WRITER_BRIEF.md` for the state and province
+series, `data/god-build/WRITER_BRIEF_PHOTO_ID.md` for every other page (the photo-ID formula).
+Then read the page (`content/guides-scheduled/<slug>.json`), its plan entry
+(`data/god-build/plan.src.json`) and its data packet or research spec.
 
 ## Check every claim
 
@@ -25,10 +26,33 @@ its data packet.
   disease counts; the 2022 Lyme case-definition change stated when years are compared.
 - **Photos:** open each image file in `public/guides/photos/` and confirm the alt text and
   caption describe what is actually shown (species, stage, sex if stated); `credit`, `license`
-  and `sourceUrl` must match `data/god-build/photos.json` exactly.
-- **Links:** internal links point at pages that exist or are planned (the validator checks);
-  anchors describe the destination; no service or city pages; external links are the page's
-  own sources.
+  and `sourceUrl` must match `data/god-build/photos.json` exactly. On photo-ID pages, at least
+  2 photos should show the bug where people find it (a home surface, bedding, a pet or skin, a
+  plant or a lawn, not a lab background): if not, say so in your report.
+- **Quick-ID table** (the `facts` box with a `head`, under the quick answer): check it like any
+  table: every cell is a claim, so check each against its source (sizes in inches, colors, where
+  found, bites or not) and recompute any conversion. A cell presented as the tell that separates
+  two bugs must be a feature the cited source gives as distinguishing. The `caption` must name
+  the sources the cells actually came from.
+- **Look-alike cards** (the `confused` block): check each card like a figure. Open its photo
+  (`public/guides/photos/<photo>.webp`) with its record in `data/god-build/photos.json` and its
+  scout notes (`data/god-build/photo-notes-batch*.json`): the photo must show what the card's
+  `name` says (species and life stage only as the record supports; an oriental rat flea is not
+  a "Cat flea" card) and `alt`, if given, must be true. The `note` is a claim: check it against
+  the page's sources. The `href` must be that look-alike's own page (a planned page is fine).
+- **FAQs:** 8 to 10 on pages released from Oct 20, 2026; check every answer like body text, and
+  that the questions are real searcher questions, not the h2s reworded. An answer you cannot
+  support gets corrected to what the source says; deleting it below 8 fails the validator.
+- **Snake pages:** identification features and ranges only from a state wildlife agency, a
+  university or a museum; first aid only as CDC/NIOSH or a poison center gives it, "do not" list
+  included; nothing that implies a snake is safe to handle, catch, move or kill, or a bite
+  harmless; photos only with an expert identification (WRITER_BRIEF_PHOTO_ID.md, "Snakes").
+  Treat a wrong venomous / nonvenomous identification as the most serious error a page can have.
+- **Authorship:** no `reviewedBy` / `reviewedOn` added by the writer, no invented author or
+  first-person experience ("in our experience", "our technicians"), no testing claims.
+- **Links:** internal links (text, card and map links) point at pages that exist or are
+  planned (the validator checks); anchors and card names describe the destination; no service
+  or city pages; external links are the page's own sources.
 
 ## Fix, then record
 

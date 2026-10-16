@@ -61,6 +61,24 @@ export type GuideBlock =
    * code) to a category key. Geometry comes from data/geo/ (scripts/build-geo.mjs).
    */
   | { type: 'map'; scope: string; title: string; categories: { key: string; label: string }[]; values: Record<string, string>; links?: Record<string, string>; caption?: string; source: string }
+  /**
+   * "Commonly confused with": a row of 2 to 6 photo cards, each linking the look-alike's own page
+   * (Oct 16, 2026, from the bettertermite teardown). `photo` is a photo id from
+   * data/god-build/photos.json (the file name without ".webp"); the credit and licence shown under
+   * the row come from that record. `note` is one plain-text line: the tell that separates that
+   * look-alike from this page's subject. A card whose page is planned but not live yet is shown
+   * without a link. One row per page.
+   */
+  | { type: 'confused'; title?: string; items: GuideConfusedCard[] }
+
+/** One card in a "confused" row. `alt` defaults to `name`. */
+export interface GuideConfusedCard {
+  href: string
+  name: string
+  photo: string
+  note: string
+  alt?: string
+}
 
 /** Licences a photo may carry on this site. NonCommercial and NoDerivatives licences are not allowed. */
 export type GuideLicense = 'public-domain' | 'CC0-1.0' | 'CC-BY-2.0' | 'CC-BY-2.5' | 'CC-BY-3.0' | 'CC-BY-4.0' | 'CC-BY-SA-2.0' | 'CC-BY-SA-2.5' | 'CC-BY-SA-3.0' | 'CC-BY-SA-4.0'
@@ -110,7 +128,14 @@ export interface Guide {
   datePublished: string
   dateModified?: string
   quickAnswer: { lead: string; bullets: string[] }
-  facts?: { title: string; rows: [string, string][] }
+  /**
+   * The box directly under the quick answer (on the visual guides, under their infographic).
+   * Without `head` it is the two-column "at a glance" list: rows of [label, value]. With `head`
+   * (2 to 5 column headings) it is a quick-ID table: one row per suspect (or one per trait on an
+   * "X vs Y" page), each row with one cell per heading, the first cell naming the row.
+   * `caption` names the sources the box is drawn from.
+   */
+  facts?: { title: string; head?: string[]; rows: string[][]; caption?: string }
   body: GuideBlock[]
   howTo?: { name: string; description?: string; totalTime?: string; steps: { name: string; text: string }[] }
   faqs: { question: string; answer: string }[]

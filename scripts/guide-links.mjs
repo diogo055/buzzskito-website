@@ -18,17 +18,25 @@ export const blockTexts = (b) => {
     case 'figure': return [b.caption || '']
     case 'chart': return [b.title || '', b.yLabel || '', b.caption || '', b.source || '']
     case 'map': return [b.title || '', b.caption || '', b.source || '', ...(b.categories || []).map((c) => c.label || '')]
+    // the card names and tells are plain text; the cards' own links are counted by internalLinks
+    case 'confused': return [b.title || '', ...(Array.isArray(b.items) ? b.items : []).flatMap((c) => [(c && c.name) || '', (c && c.note) || ''])]
     default: return []
   }
 }
 
-// every internal page a guide links to (body, quick answer, facts box, and links drawn into a
-// map), without #fragment or ?query, each once. FAQ answers carry no links.
+// the text of the box under the quick answer (rows, and the caption that names its sources)
+export const factsTexts = (g) => (g.facts ? [...(Array.isArray(g.facts.rows) ? g.facts.rows.flat() : []), g.facts.caption || ''] : [])
+
+// links that are not written in the text: links drawn into a map, and "confused" photo cards
+export const blockHrefs = (b) => (b.type === 'map' ? Object.values(b.links || {}).map(String) : b.type === 'confused' && Array.isArray(b.items) ? b.items.filter((c) => c && typeof c.href === 'string').map((c) => c.href) : [])
+
+// every internal page a guide links to (body, quick answer, facts box, links drawn into a map
+// and "confused" photo cards), without #fragment or ?query, each once. FAQ answers carry no links.
 export function internalLinks(g) {
-  const texts = [...(g.body || []).flatMap(blockTexts), g.quickAnswer?.lead || '', ...(g.quickAnswer?.bullets || []), ...(g.facts ? g.facts.rows.flat() : [])]
+  const texts = [...(g.body || []).flatMap(blockTexts), g.quickAnswer?.lead || '', ...(g.quickAnswer?.bullets || []), ...factsTexts(g)]
   const hrefs = []
   for (const t of texts) for (const m of String(t).matchAll(LINK)) if (m[2].startsWith('/')) hrefs.push(m[2])
-  for (const b of g.body || []) if (b.type === 'map') for (const h of Object.values(b.links || {})) hrefs.push(String(h))
+  for (const b of g.body || []) hrefs.push(...blockHrefs(b))
   return [...new Set(hrefs.map((h) => h.replace(/[#?].*$/, '')))]
 }
 

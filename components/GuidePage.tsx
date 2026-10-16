@@ -9,6 +9,7 @@ import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 import GuideChart from '@/components/GuideChart'
 import GuideMap from '@/components/GuideMap'
+import { ledgerPhoto } from '@/lib/photos'
 import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL, guideParent, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
 
 /**
@@ -19,6 +20,9 @@ import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL
  * Tables, callouts and the publisher box are `.not-prose`, which is what Mediavine is asked
  * to keep ads away from.
  */
+
+// A planned guide that has not been written yet (lib/us-guide-built.ts): its words show, its link waits.
+const notLiveYet = (href: string) => US_GUIDE_PLANNED.has(href) && !US_GUIDE_BUILT.has(href)
 
 // ── inline text: **bold**, *italic*, [text](href) ───────────────────────────────
 const TOKEN = /\*\*([^*]+)\*\*|\*([^*\s][^*]*)\*|\[([^\]]+)\]\(([^)\s]+)\)/g
@@ -33,7 +37,7 @@ function Inline({ text }: { text: string }): ReactNode {
     if (m[1] !== undefined) out.push(<strong key={i++}><Inline text={m[1]} /></strong>)
     else if (m[2] !== undefined) out.push(<em key={i++}>{m[2]}</em>)
     // a planned guide that has not been written yet: show the words, hold the link (see lib/us-guide-built.ts)
-    else if (m[4].startsWith('/') && US_GUIDE_PLANNED.has(m[4]) && !US_GUIDE_BUILT.has(m[4])) out.push(<Inline key={i++} text={m[3]} />)
+    else if (m[4].startsWith('/') && notLiveYet(m[4])) out.push(<Inline key={i++} text={m[3]} />)
     else if (m[4].startsWith('/')) out.push(<Link key={i++} href={m[4]}><Inline text={m[3]} /></Link>)
     else out.push(<a key={i++} href={m[4]} target="_blank" rel="noopener noreferrer"><Inline text={m[3]} /></a>)
     last = at + m[0].length
@@ -170,9 +174,88 @@ function Block({ block }: { block: GuideBlock }) {
       return <GuideChart chart={block} caption={block.caption ? <Inline text={block.caption} /> : undefined} source={<Inline text={block.source} />} />
     case 'map':
       return <GuideMap map={block} caption={block.caption ? <Inline text={block.caption} /> : undefined} source={<Inline text={block.source} />} />
+    case 'confused':
+      return <ConfusedWith block={block} />
     default:
       return null
   }
+}
+
+// The quick-ID table's minimum width by column count: two or three columns fit a phone screen.
+const QUICK_ID_MIN_W: Record<number, string> = { 2: 'min-w-[280px]', 3: 'min-w-[320px]', 4: 'min-w-[480px]', 5: 'min-w-[560px]' }
+
+// ── "Commonly confused with": photo cards linking each look-alike's own page ────
+// Two columns on a phone; from 640px rows of three (four cards: one row of four from 768px).
+const CONFUSED_GRID: Record<number, string> = {
+  2: 'grid-cols-2',
+  3: 'grid-cols-2 sm:grid-cols-3',
+  4: 'grid-cols-2 md:grid-cols-4',
+  5: 'grid-cols-2 sm:grid-cols-3',
+  6: 'grid-cols-2 sm:grid-cols-3',
+}
+
+/**
+ * Each photo is shown whole (object-contain, never cropped) in a fixed 4:3 frame, so the row
+ * keeps its height while photos load, and every photo is lazy-loaded. The photo, its size, credit
+ * and licence come from its record in data/god-build/photos.json (an unknown id fails the build).
+ * Credits sit in one line under the row, in full: a card is a link, and a link inside a link is
+ * not allowed. A card whose page is planned but not live yet is shown without a link.
+ * Clicks are counted by components/RecircClickTracker.tsx (location "confused_with").
+ */
+function ConfusedWith({ block }: { block: Extract<GuideBlock, { type: 'confused' }> }) {
+  const cards = block.items.map((c) => ({ ...c, rec: ledgerPhoto(c.photo), live: !notLiveYet(c.href) }))
+  const box = 'flex w-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white'
+  return (
+    <section aria-labelledby="look-alike-cards" className="not-prose my-8">
+      <h3 id="look-alike-cards" className="mb-3 text-lg font-extrabold leading-tight text-brand-900">{block.title || 'Commonly confused with'}</h3>
+      <ul className={`grid gap-3 ${CONFUSED_GRID[cards.length] ?? CONFUSED_GRID[6]}`}>
+        {cards.map((c) => {
+          const inner = (
+            <>
+              {/* the frame, not the photo, sets the height: an aspect-ratio box alone grows to fit a tall photo */}
+              <span className="relative block aspect-[4/3] overflow-hidden border-b border-gray-100 bg-gray-50">
+                <Image src={c.rec.file} alt={c.alt || c.name} width={c.rec.width} height={c.rec.height} unoptimized loading="lazy" className="absolute inset-0 h-full w-full object-contain" />
+              </span>
+              <span className="flex flex-1 flex-col gap-1 p-3">
+                <span className={`text-sm font-bold leading-snug text-brand-900${c.live ? ' group-hover:text-brand-700 group-hover:underline' : ''}`}>{c.name}</span>
+                <span className="text-xs leading-snug text-gray-600">{c.note}</span>
+              </span>
+            </>
+          )
+          return (
+            <li key={c.href} className="flex">
+              {c.live ? (
+                <Link
+                  href={c.href}
+                  prefetch={false}
+                  data-recirc="confused_with"
+                  data-recirc-kind="card"
+                  data-recirc-target={c.href.split('/').pop()}
+                  className={`group ${box} transition-shadow hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600`}
+                >
+                  {inner}
+                </Link>
+              ) : (
+                <div className={box}>{inner}</div>
+              )}
+            </li>
+          )
+        })}
+      </ul>
+      <p className="mt-2 text-xs leading-relaxed text-gray-500">
+        {cards.length > 1 ? 'Photos' : 'Photo'}:
+        {cards.map((c) => {
+          const lic = LICENSE_LABEL[c.rec.license]
+          return (
+            <Fragment key={c.href}>
+              {' '}{c.name}: <a href={c.rec.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{c.rec.credit}</a>
+              {lic.url ? <>, <a href={lic.url} target="_blank" rel="noopener noreferrer license" className="underline">{lic.name}</a></> : <>, {lic.name}</>}.
+            </Fragment>
+          )
+        })}
+      </p>
+    </section>
+  )
 }
 
 const SAFETY: Record<string, { box: string; label: string; name: string }> = {
@@ -362,17 +445,40 @@ export default function GuidePage({ guide }: { guide: Guide }) {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-xl font-extrabold text-brand-900 mb-4">{guide.facts.title}</h2>
             <div className="rounded-xl border border-gray-200 overflow-x-auto">
-              <table className="w-full text-sm min-w-[480px]">
-                <tbody>
-                  {guide.facts.rows.map(([k, v]) => (
-                    <tr key={k} className="border-b border-gray-100 last:border-0">
-                      <th scope="row" className="px-4 py-2 text-left font-semibold text-brand-800 bg-brand-50 w-1/2 sm:w-1/3">{k}</th>
-                      <td className="px-4 py-2 text-gray-700"><Inline text={v} /></td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              {guide.facts.head ? (
+                // a quick-ID table: one row per suspect (or per trait on an "X vs Y" page). On a phone
+                // it scrolls sideways inside its box, and the first column stays put so the reader
+                // always sees which bug a cell belongs to.
+                <table className={`w-full text-sm ${QUICK_ID_MIN_W[guide.facts.head.length] ?? QUICK_ID_MIN_W[5]}`}>
+                  <thead className="bg-brand-50">
+                    <tr>{guide.facts.head.map((h, i) => <th key={i} scope="col" className={`px-4 py-2 text-left font-bold text-brand-900${i === 0 ? ' sticky left-0 bg-brand-50 shadow-[1px_0_0_#e5e7eb]' : ''}`}><Inline text={h} /></th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {guide.facts.rows.map((row, r) => (
+                      <tr key={r} className="border-t border-gray-100 align-top">
+                        {row.map((cell, c) => (c === 0 ? (
+                          <th key={c} scope="row" className="sticky left-0 bg-white px-4 py-2 text-left font-semibold text-brand-800 shadow-[1px_0_0_#e5e7eb]"><Inline text={cell} /></th>
+                        ) : (
+                          <td key={c} className="px-4 py-2 text-gray-700"><Inline text={cell} /></td>
+                        )))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              ) : (
+                <table className="w-full text-sm min-w-[480px]">
+                  <tbody>
+                    {guide.facts.rows.map(([k, v]) => (
+                      <tr key={k} className="border-b border-gray-100 last:border-0">
+                        <th scope="row" className="px-4 py-2 text-left font-semibold text-brand-800 bg-brand-50 w-1/2 sm:w-1/3">{k}</th>
+                        <td className="px-4 py-2 text-gray-700"><Inline text={v} /></td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
             </div>
+            {guide.facts.caption && <p className="mt-2 text-xs text-gray-500"><Inline text={guide.facts.caption} /></p>}
           </div>
         </section>
       )}
