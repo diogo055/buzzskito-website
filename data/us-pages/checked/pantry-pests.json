@@ -1,0 +1,10 @@
+{
+ "id": "pantry-pests",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ba55d64fc15d785a2d21583ade98f9ab953c07e3ce46e1b4c854d689fa5444fa",
+ "claimsChecked": 290,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-16"
+}

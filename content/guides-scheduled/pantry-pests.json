@@ -1,0 +1,174 @@
+{
+  "slug": "pantry-pests",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "pantry pests",
+  "alsoTargets": ["bugs in flour", "weevils in rice", "drugstore beetle", "bugs in rice", "pantry moths"],
+  "metaTitle": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
+  "metaDescription": "Flour beetles, Indian meal moths, sawtoothed grain beetles, weevils and drugstore beetles: photos and the checks that tell which one is in your food.",
+  "h1": "Bugs in Flour and Rice: How to Identify the Pantry Pests",
+  "dek": "Most bugs in flour, rice and cereal are small beetles, weevils or Indian meal moth caterpillars. Photos, sizes and the checks that tell them apart, then how to find the source and protect the rest of the pantry.",
+  "breadcrumb": "Pantry Pests",
+  "excerpt": "Flour beetles, Indian meal moths, sawtoothed grain beetles, drugstore beetles and weevils: photos and the quick checks that tell which pantry pest you have.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Bugs in flour are usually flour beetles, sawtoothed grain beetles or Indian meal moth caterpillars, and one look sorts them: silk webbing means the moth, saw-like teeth along the sides behind the head mean a sawtoothed or merchant grain beetle, and a smooth, flat, reddish-brown beetle is a flour beetle.** A beetle with a snout is a weevil, which [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food) says eats whole grains and seeds and is rarely found in flour.",
+    "bullets": [
+      "Flour beetles are reddish brown, flattened and about 1/8 to 3/16 inch long, and [Nebraska Extension](https://extensionpubs.unl.edu/publication/ec3049/2020/pdf/view/ec3049-2020.pdf) says they feed on milled and cracked grain but cannot feed on whole seeds or grains.",
+      "The adult Indian meal moth is about 1/3 to 1/2 inch long with pale gray and coppery brown front wings, and only its caterpillars, which grow to about 1/2 to 3/4 inch, feed on stored food.",
+      "Sawtoothed grain beetles are about 1/10 inch long, slender and flat, with six saw-like teeth on each side of the thorax, according to [UC IPM](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/).",
+      "Drugstore and cigarette beetles are about 1/8 inch long and oval, with the head bent down so that they look humped.",
+      "Rice and granary weevils are about 1/8 to 1/4 inch long with a snout, and their legless larvae grow hidden inside whole kernels.",
+      "Pantry pests do not bite or sting people or pets, and they do not feed on or damage buildings, according to University of Minnesota Extension."
+    ]
+  },
+  "facts": {
+    "title": "Pantry pests at a glance",
+    "rows": [
+      ["Flour beetles (red and confused)", "About 1/8 to 3/16 inch; flat, shiny and reddish brown, smooth sides behind the head, no snout"],
+      ["Indian meal moth", "Adult about 1/3 to 1/2 inch, front wings pale near the body and coppery toward the tips; caterpillars leave silk webbing"],
+      ["Sawtoothed grain beetle", "About 1/10 inch; slender and flat, with six saw-like teeth on each side behind the head"],
+      ["Drugstore beetle", "About 1/8 inch; oval and humped with the head bent down; lines along the wing covers"],
+      ["Cigarette beetle", "About 1/8 inch; oval and humped; smooth wing covers and saw-toothed antennae"],
+      ["Rice and granary weevils", "About 1/8 to 1/4 inch; a snout projecting forward from the head; larvae grow inside whole kernels"],
+      ["Bean weevil", "About 1/8 inch; mottled and broadly oval with no conspicuous snout; found in dried beans and peas"],
+      ["Spider beetles", "About 1/8 to 3/16 inch; rounded body on long legs, long antennae, head hard to see from above"],
+      ["Warehouse beetle", "About 1/8 inch; oval with a brown and yellowish pattern; hairy larvae"],
+      ["Booklice and grain mites", "About 1/16 inch or smaller and pale; found where food is kept damp"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What are the little bugs in my flour?" },
+    { "type": "p", "text": "They are usually flour beetles, sawtoothed grain beetles, drugstore beetles or Indian meal moth caterpillars, all of which feed on milled grain. [University of Kentucky Entomology's fact sheet on stored product pests](https://entomology.mgcafe.uky.edu/ef612) lists those beetles among the common pests of flour, meal and other processed grains, and [Nebraska Extension's guide to kitchen and pantry pests](https://extensionpubs.unl.edu/publication/ec3049/2020/pdf/view/ec3049-2020.pdf) calls beetles such as the red flour beetle and moths such as the Indian meal moth the most common and difficult pests to manage in stored food." },
+    { "type": "figure", "src": "/guides/photos/confused-flour-beetles.webp", "width": 1200, "height": 817, "alt": "Two flat, dark reddish-brown confused flour beetles and three pale, segmented, wormlike larvae on a grainy tan surface", "caption": "Two adult confused flour beetles (*Tribolium confusum*) and three of their larvae. The adults are flat and reddish brown, with no snout.", "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28852" },
+    { "type": "p", "text": "Nebraska Extension describes the red and confused flour beetles as reddish brown and just over 1/8 inch long, with smooth sides on the thorax, the section behind the head. They eat flour, cereals, cake mixes, dried fruit, nuts and spices but cannot feed on whole seeds or grains. Infested food develops a pungent, foul odor and often turns damp and moldy when the beetles are overcrowded. The larvae are slender, yellowish-white and wormlike, about 1/4 inch long when grown." },
+    { "type": "p", "text": "Telling the two species apart takes a hand lens: [UC IPM's Pest Note on pantry pests](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) says the red flour beetle's antennae end abruptly in a three-segmented club, while the confused flour beetle's widen gradually into a four-segmented club." },
+    { "type": "p", "text": "A beetle in flour often gets called a weevil, but [University of Minnesota Extension's guide to pantry pests](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food) says true weevils, which have a snout, eat only whole grains or seeds and are rarely found in caked or crusted milled products such as flour. Webbing or pale caterpillars in the bag point to a moth instead." },
+
+    { "type": "h2", "text": "How do you tell pantry pests apart?" },
+    { "type": "p", "text": "Tip a few of the insects onto a white plate or into a clear jar and check these features in order, with a magnifying glass if you have one. Kentucky Entomology gives the common pantry beetles as only about 1/8 inch (3 mm) long." },
+    { "type": "ol", "items": [
+      "**Silk.** Silk webbing on or through the food, or pale caterpillars, mean the Indian meal moth.",
+      "**Larva legs.** UC IPM says beetle larvae are grublike and legless or have three pairs of legs near the head, while moth caterpillars also have leglike structures farther down the body.",
+      "**Snout.** A snout projecting forward from the head means a weevil. A mottled, oval beetle with no conspicuous snout, in dried beans or peas, is a bean weevil.",
+      "**Sides behind the head.** Six saw-like teeth on each side mean a sawtoothed or merchant grain beetle; smooth sides on a flat, reddish-brown beetle mean a flour beetle.",
+      "**Outline.** A rounded body on long, spidery legs is a spider beetle; an oval, humped beetle with its head bent down is a drugstore or cigarette beetle.",
+      "**Flight.** Drugstore and cigarette beetles fly to light and sawtoothed grain beetles do not fly, says Kentucky Entomology; Nebraska Extension says rice weevils fly and granary weevils cannot.",
+      "**Size and damp.** Pale specks about 1/16 inch long or smaller, in food kept somewhere damp, point to booklice or grain mites."
+    ] },
+
+    { "type": "h2", "text": "Which pantry pests turn up in which foods?" },
+    { "type": "p", "text": "The food narrows the list, though Kentucky Entomology cautions that some of these insects live on a wide range of materials, so check the insect's shape as well." },
+    { "type": "table", "head": ["Found in", "Usual suspects", "What settles it"], "rows": [
+      ["Flour, cornmeal, cake mixes", "Flour beetles, sawtoothed grain beetles, drugstore beetles, Indian meal moth caterpillars", "Silk, teeth behind the head, or a humped back"],
+      ["Rice, whole wheat, corn and other whole kernels", "Rice, granary and maize weevils; Indian meal moth caterpillars", "A snout; small round exit holes in the kernels"],
+      ["Dried beans and peas", "Bean weevils", "Mottled and oval, with no conspicuous snout"],
+      ["Paprika, chili powder, red pepper", "Cigarette and drugstore beetles", "Oval and humped, head bent down"],
+      ["Dry pet food and birdseed", "Indian meal moths, sawtoothed grain beetles, cigarette and warehouse beetles", "Webbing, or the beetle's sides and outline"],
+      ["Nuts, dried fruit, chocolate", "Indian meal moths, sawtoothed grain beetles, flour beetles", "Webbing, or teeth versus smooth sides"],
+      ["Jerky, powdered milk", "Warehouse beetles and other dermestid beetles", "Hairy, banded larvae"],
+      ["Dried flowers, wreaths, decorative corn", "Cigarette and drugstore beetles, Angoumois grain moths", "Check these when no food is infested"],
+      ["Flour or cereal kept damp", "Booklice and grain mites", "Moving pale specks about 1/16 inch or smaller"]
+    ], "caption": "Food associations from University of Minnesota Extension, UC IPM, Nebraska Extension and University of Kentucky Entomology." },
+
+    { "type": "h2", "text": "Are the moths in your kitchen pantry moths?" },
+    { "type": "p", "text": "Most likely, if they are small, two-toned and near food: UC IPM says the Indian meal moth is the most common moth found on food products in the home. Kentucky Entomology describes the adult as about 1/2 inch long with pale gray and coppery brown front wings, and Minnesota Extension notes that the markings can look less clear once the wing scales rub off." },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth.webp", "width": 1200, "height": 1400, "alt": "Indian meal moth resting on gray mesh with its wings folded along its body, pale gray-tan near the head and coppery reddish brown with dark bands toward the tips", "caption": "Adult Indian meal moth (*Plodia interpunctella*). The front wings are pale near the body and coppery brown on the outer part.", "credit": "Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indianmeal_moth_2009.jpg" },
+    { "type": "p", "text": "Only the caterpillars feed. Minnesota Extension describes them as whitish with shades of yellow, pink, green or brown, growing to about 1/2 inch, and says the food they infest has silk webbing on its surface. UC IPM lists cereal products, flour, cornmeal, rice, dried fruit, nuts, chocolate and candies among their foods." },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-larva.webp", "width": 1200, "height": 804, "alt": "Pale, pinkish-cream caterpillar with a brown head crawling across a pile of powdery cereal flakes", "caption": "Indian meal moth larva (*Plodia interpunctella*) searching for food among cereal flakes; only this caterpillar stage feeds on stored food. USDA photo by Scott Bauer.", "credit": "USDAgov, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:K10313-1_(8411788665).jpg" },
+    { "type": "p", "text": "Grown caterpillars often leave the food to spin their cocoons, and Minnesota Extension says caterpillars and cocoons on ceilings and walls are a common find." },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-webbing.webp", "width": 560, "height": 373, "alt": "Clumps of silk webbing and brown droppings binding black sunflower seeds together inside an opened woven sack", "caption": "Silk webbing, droppings and seeds stuck together in a bag of black sunflower seed, which the photographer identified as Indian meal moth damage.", "credit": "Mike Boone, CC BY-SA 2.5, via Wikimedia Commons", "license": "CC-BY-SA-2.5", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plodia_interpunctella_damage.jpg" },
+    { "type": "media", "needed": "Public domain or CC0 photo of Indian meal moth silk webbing with clumped flour or cereal inside an opened kitchen package, sharp enough to show the silk threads, to sit beside or replace the small birdseed photo" },
+    { "type": "p", "text": "Clothes moths are a different insect: UC IPM says they are smaller than pantry moths and have more hair, and [the guide to spotting clothes moth larvae](/blog/clothes-moths) covers them. A plain, pale yellow-brown moth about 1/2 inch long may be an Angoumois grain moth, whose larvae grow inside whole kernels; Kentucky Entomology says decorative ear corn is a common source." },
+    { "type": "p", "text": "UC IPM recommends pheromone traps for detecting moths that remain after the infested food is gone, and says traps made for the Indian meal moth attract only adult males and will not attract beetles. A separate review explains [what a pantry moth pheromone trap actually catches](/blog/pantry-moth-traps-canada)." },
+
+    { "type": "h2", "text": "Is it a sawtoothed grain beetle?" },
+    { "type": "p", "text": "It is if the beetle is slender, flat and brown, about 1/10 inch long, with six saw-like teeth along each side of the thorax, as UC IPM describes it. The nearly identical merchant grain beetle is managed the same way, UC IPM adds, so there is no need to tell the two apart." },
+    { "type": "figure", "src": "/guides/photos/sawtoothed-grain-beetle.webp", "width": 1200, "height": 900, "alt": "Slender, flat, dark brown beetle seen from above on a red surface, with a row of small saw-like teeth along each side of the section behind its head", "caption": "Sawtoothed grain beetle (*Oryzaephilus surinamensis*). Look for the saw-like teeth along each side behind the head.", "credit": "Karel Schoonvaere, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oryzaephilus_surinamensis_176670540.jpg" },
+    { "type": "p", "text": "Nebraska Extension says sawtoothed grain beetles cannot fly, slip through narrow cracks in poorly sealed packages, and feed on milled products such as bread, cake mixes, dried fruit, nuts and pasta rather than whole grain. UC IPM adds pet food, birdseed and rodent bait." },
+
+    { "type": "h2", "text": "Is it a drugstore beetle or a cigarette beetle?" },
+    { "type": "p", "text": "If the beetle is oval, about 1/8 inch long and humped because its head is bent down, it is one of these two. Nebraska Extension says the drugstore beetle is brown with lines along its wing covers, while the cigarette beetle is reddish brown with smooth wing covers and long antennae with saw-toothed segments. UC IPM says the cigarette beetle is the more common of the two." },
+    { "type": "figure", "src": "/guides/photos/cigarette-beetle.webp", "width": 1200, "height": 900, "alt": "Side view of a small, oval, hairy, light reddish-brown beetle with its head tucked down beneath the front of its body, giving it a humped outline", "caption": "Cigarette beetle (*Lasioderma serricorne*) from the side. The head is bent down under the body, the humped look it shares with the drugstore beetle.", "credit": "division, CSIRO, CC BY 3.0, via Wikimedia Commons", "license": "CC-BY-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10823_Lasioderma_serricorne_Tobacco_or_Cigarette_Beetle.jpg" },
+    { "type": "media", "needed": "Top-down photo of an adult drugstore beetle (Stegobium paniceum) beside a ruler marked in inches, sharp enough to show the rows of lines on its wing covers, ideally next to a cigarette beetle; public domain or CC0" },
+    { "type": "p", "text": "UC IPM says cigarette beetles in the home turn up most often in pet foods, cereals, nuts and candy, and also in spices such as chili powder and paprika. Kentucky Entomology says drugstore beetles are often in bread, flour, breakfast foods and spices such as red pepper. Nebraska Extension adds that both chew through packaging easily." },
+
+    { "type": "h2", "text": "Are the bugs in your rice weevils?" },
+    { "type": "p", "text": "Small dark beetles with a snout in rice or other whole grains are weevils. Minnesota Extension describes rice, granary and maize weevils as slender and dark brown, with a snout projecting forward from the head and sometimes four orange-ish spots on the wing covers, and Nebraska Extension gives adults as about 1/8 inch long." },
+    { "type": "figure", "src": "/guides/photos/rice-weevil.webp", "width": 785, "height": 785, "alt": "Reddish-brown weevil with a long, narrow snout and a pitted body walking across skin among fine hairs", "caption": "Rice weevil (*Sitophilus oryzae*), photographed in Kentucky. The snout projecting forward from the head marks it as a weevil.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/200334640" },
+    { "type": "p", "text": "The larvae stay out of sight. Nebraska Extension says the female lays a single egg inside a kernel and the white, legless grub hollows it out and pupates there, and Minnesota Extension says the adults leave small round exit holes. Weevils usually do not feed on flour or cereal products unless these have caked and hardened, Nebraska adds, though they can infest pasta." },
+    { "type": "p", "text": "To separate rice and granary weevils, Nebraska Extension says rice weevils have four orange spots on the wing covers and round pits on the thorax and fly readily, while granary weevils are dark brown with oval pits on the thorax and cannot fly. Kentucky Entomology says rice weevil adults can live 6 to 8 months and may be found some distance from the infested food." },
+    { "type": "p", "text": "Dried beans have a pest of their own, the bean weevil, which Minnesota Extension says is mottled light and dark brown with no conspicuous snout, and whose larvae feed inside dried beans and peas." },
+
+    { "type": "h2", "text": "Is it a spider beetle?" },
+    { "type": "p", "text": "A beetle with a rounded body on long legs, with long antennae, is a spider beetle. Nebraska Extension says the six legs and the antennae together resemble the eight legs of a spider, that the head is hard to see from above, and that adults are about 1/8 inch long." },
+    { "type": "figure", "src": "/guides/photos/hairy-spider-beetle.webp", "width": 1200, "height": 960, "alt": "Oval brown spider beetle flecked with white, seen from above on a pale surface, with long reddish legs and long antennae", "caption": "Whitemarked spider beetle (*Ptinus fur*), one of the common spider beetles Nebraska Extension lists. Note the long legs and antennae.", "credit": "Ryan Hodnett, CC BY-SA 4.0, via Wikimedia Commons", "license": "CC-BY-SA-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:White-marked_Spider-Beetle_(Ptinus_fur)_-_B%C3%A6rum,_Norway_2022-03-17.jpg" },
+    { "type": "p", "text": "Nebraska Extension says spider beetles feed on grain, seeds, cereals, dried fruit, spices, meats and even rodent droppings, and develop fastest in cool, dark, humid places that are left undisturbed. They also appear among [the insects most often mistaken for ticks](/blog/bugs-that-look-like-ticks), and [a full guide to spider beetles](/blog/spider-beetles) covers where they hide." },
+
+    { "type": "h2", "text": "What other bugs get into stored food?" },
+    { "type": "p", "text": "Three more are worth knowing: warehouse beetles, booklice and grain mites. UC IPM describes the warehouse beetle as oval and about 1/8 inch long, with a brown and yellowish pattern on the wing covers, and says the hairs its larvae shed into food can irritate the mouth, throat and digestive tract, so any food infested with it should be thrown away. It belongs to the dermestid family, with carpet and larder beetles, several of which Nebraska Extension says feed on high-protein foods such as jerky, powdered milk and pet food. Carpet beetles found away from food are covered in [the guide to getting rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles)." },
+    { "type": "p", "text": "Booklice, also called psocids, are flat insects just over 1/16 inch long, ranging from nearly translucent tan to brown. Nebraska Extension says they thrive in humid, damp conditions, feed on microscopic molds and mildew, and can infest flour, cereals, spices and dry pet food kept in prolonged humid conditions." },
+    { "type": "p", "text": "Grain mites are cream-colored and less than 1/16 inch long. Nebraska Extension says shelves near an infestation can be coated with a layer of mite dust made of thousands of live and dead mites, that the mites are prone to drying out when relative humidity falls below 60%, and that some people around them may develop skin rashes or allergic reactions; a healthcare provider can help with those symptoms." },
+    { "type": "media", "needed": "Magnified public domain or CC0 photo of grain mites (Acarus siro) or booklice on flour or a pantry shelf beside a scale marked in inches, showing how pale and small they are" },
+
+    { "type": "h2", "text": "Which bugs in the kitchen are not pantry pests?" },
+    { "type": "p", "text": "Ants, cockroaches and fruit flies come for food but do not breed in dry goods. Nebraska Extension calls ants and cockroaches invaders that carry food back to nests elsewhere, and says fruit flies breed in ripe or spoiled fruit and fermenting drinks. Ants walking in a line call for [finding the trail and baiting it](/blog/how-to-get-rid-of-ants-in-the-kitchen); small flies around the fruit bowl call for [finding where fruit flies are breeding](/blog/how-to-get-rid-of-fruit-flies)." },
+    { "type": "p", "text": "Not every small beetle indoors is a pantry pest either. Minnesota Extension advises having an insect identified by an expert when it has no direct link to food, and [a sorter for tiny black bugs found around the house](/blog/tiny-black-bugs) covers other candidates room by room." },
+
+    { "type": "h2", "text": "Where did the pantry bugs come from?" },
+    { "type": "p", "text": "Most arrive in food that was already infested. Minnesota Extension says stored food is most likely to become infested in the grocery store or the home, and [UF/IFAS Extension's fact sheet on pantry and stored food pests](https://ask.ifas.ufl.edu/publication/IG095) says that finding pantry pests is not a sign of uncleanliness, since an infestation may come home in purchased food. Once inside, UC IPM says, infestations live on spills in cupboard crevices and in opened packages kept a long time, and some breed in rodent or insect nests, or in rodent bait." },
+    { "type": "p", "text": "Kentucky Entomology says the source is often a partly used box or bag forgotten at the back of a shelf, and that the more insects you see, the older the infestation. To find it, work through the kitchen once, thoroughly:" },
+    { "type": "ol", "items": [
+      "Check every package of dry food, spices, pet food and birdseed; Minnesota Extension warns there may be more than one infested source.",
+      "Shine a flashlight on the top surface of each product, or pour it onto a cookie sheet.",
+      "Lift cans and jars, since Kentucky Entomology says beetles often gather beneath them.",
+      "Do not skip sealed packages, which Minnesota Extension says pantry pests can chew into or enter through folds and seams.",
+      "If the pantry is clean, check decorative items such as Indian corn and dried flower arrangements, and birdseed, as Kentucky Entomology suggests."
+    ] },
+
+    { "type": "h2", "text": "What should you do with infested food?" },
+    { "type": "p", "text": "Throw it out. Minnesota Extension and UC IPM both say to discard infested food, and Nebraska Extension suggests sealing it in a heavy-duty plastic bag or double bags for an outdoor trash container, after three or four days in the freezer for extra measure." },
+    { "type": "p", "text": "For food you are not sure about, Minnesota Extension says a freezer at 0°F for at least four days, or shallow pans in an oven at 130°F for at least 30 minutes, will kill any eggs or insects. UF/IFAS Extension gives the same treatment for infested food worth saving, and advises using frozen food soon after thawing, since defrosting adds moisture that can lead to mold, and freezing it in a tightly sealed plastic bag to limit condensation. For decorations and bird feed, Kentucky Entomology suggests 155°F for about 20 minutes with the oven door propped open, or 4 days at 0°F in a freezer that does not defrost itself." },
+    { "type": "p", "text": "Then vacuum shelves, cracks and corners and empty the vacuum afterward, as Minnesota Extension advises, and wash the shelves with soap and water, as UC IPM adds. Kentucky Entomology recommends one very thorough cleanup over repeated hasty ones." },
+    { "type": "p", "text": "Skip the bug spray. UC IPM does not recommend insecticides for any pantry pest and warns that spraying pesticides on or near food may cause more harm than the pests, and Minnesota Extension says household insecticides have no effect on insects inside food packages. Some guides, Nebraska Extension's among them, allow an insecticide in cracks and crevices after a thorough cleanup, with all food removed and the label followed; Nebraska only if it is absolutely necessary." },
+
+    { "type": "h2", "text": "How do you keep pantry pests from coming back?" },
+    { "type": "p", "text": "Keep less dry food and store it where insects cannot reach it. Minnesota Extension recommends buying amounts you will use within two to four months, using older and opened packages first, and storing food in tightly closed glass, metal or heavy plastic containers or in the refrigerator or freezer. UC IPM says plastic bags are not adequate, and suggests freezing rarely used flours, grains and spices, cleaning old containers before refilling them, never mixing old and new food, and keeping storage areas dry." },
+    { "type": "p", "text": "Expect a few stragglers. Minnesota Extension says moths can keep appearing for up to three weeks after the infested food is thrown out; moths after that mean a source remains. UC IPM says some pantry pests can live many weeks without food and advises sealed, refrigerated or frozen storage for several months after cleanup, with pheromone traps to detect survivors." },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Still not sure what you have? Put a few of the insects in a sealed jar or zip-top bag, photograph them beside a ruler marked in inches, and note which food they came from. Your county's cooperative extension office can use those details to help identify them." }
+  ],
+  "faqs": [
+    {
+      "question": "Can you still use flour or rice that had bugs in it?",
+      "answer": "University of Minnesota Extension and UC IPM both say to throw out food that shows signs of infestation. Minnesota notes that pantry pests contaminate more food than they eat, and UC IPM warns that hairs shed by warehouse beetle larvae can irritate the mouth, throat and digestive tract, and that pantry pests can bring in microbes that rot food in warm, humid conditions. Food that only might be infested can be frozen at 0°F for at least four days or heated at 130°F for at least 30 minutes to kill any eggs or insects. Anyone who feels unwell after eating infested food should contact a healthcare provider."
+    },
+    {
+      "question": "Do bay leaves keep bugs out of flour?",
+      "answer": "There is no evidence that they do. University of Minnesota Extension says there is no evidence that bay leaves or sticks of spearmint gum in a cupboard prevent or get rid of stored food insects, and that washing shelves with detergent, ammonia or bleach does not prevent infestation either. What it recommends instead is buying dried food in amounts you will use within two to four months, inspecting packages before buying, and storing food in tightly closed glass, metal or heavy plastic containers or in the refrigerator or freezer."
+    },
+    {
+      "question": "Why are there small worms on my ceiling?",
+      "answer": "They are most likely Indian meal moth caterpillars looking for a place to spin their cocoons. University of Minnesota Extension says the grown larvae often leave the food and may travel long distances, and that finding caterpillars and cocoons on ceilings and walls is common. University of Kentucky Entomology lists caterpillars crawling up walls or across ceilings among the first signs of a pantry infestation. Their presence means infested food is somewhere nearby, so check every package of dry food, pet food and birdseed in the house."
+    },
+    {
+      "question": "How long does it take to get rid of pantry moths?",
+      "answer": "Expect to see a few moths for up to about three weeks after the infested food is gone. University of Minnesota Extension says that is not unusual, but that moths still appearing after three weeks mean an infested source has not been found. UC IPM notes that some pantry pests can live for many weeks without food, so it suggests keeping susceptible food in airtight containers, the refrigerator or the freezer for several months and using pheromone traps to watch for survivors."
+    },
+    {
+      "question": "Do pantry bugs bite or damage the house?",
+      "answer": "No. University of Minnesota Extension says pantry pests do not bite or sting people or pets and do not feed on or damage buildings, although they can spread from one infested package to other stored foods, including in other rooms. Grain mites, which are not insects, can still cause trouble: Nebraska Extension notes that some people around heavy mite infestations may develop skin rashes or allergic reactions. Anyone with a rash or breathing symptoms should talk to a healthcare provider."
+    },
+    {
+      "question": "Can bugs get into sealed packages?",
+      "answer": "Yes, although opened packages are the likelier target. University of Minnesota Extension says pantry pests can get into unopened paper, thin cardboard, and plastic, foil or cellophane-wrapped packages by chewing through or crawling in at folds and seams, and Nebraska Extension says drugstore and cigarette beetles easily chew through packaging. Weevils can also arrive sealed inside the food: the female lays an egg inside a kernel, so the grub develops out of sight. Tightly closed glass, metal or heavy plastic containers are what the extension guides recommend."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Pantry Pests (Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Pantry pests: Insects found in stored food", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food" },
+    { "title": "Insect and Mite Pests in the Kitchen and Pantry (EC3049)", "publisher": "Nebraska Extension, University of Nebraska-Lincoln", "url": "https://extensionpubs.unl.edu/publication/ec3049/2020/pdf/view/ec3049-2020.pdf" },
+    { "title": "ENTFACT-612: Stored Product Pests in the Pantry", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef612" },
+    { "title": "Pantry and Stored Food Pests (ENY-213)", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG095" }
+  ]
+}
