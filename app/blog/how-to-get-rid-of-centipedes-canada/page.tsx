@@ -350,7 +350,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <ul>
             <li><strong>Millipedes</strong> have two pairs of short legs per segment on a rounded, cylindrical body, move slowly, and curl into a spiral when disturbed. They eat decaying plant matter, not insects. Indoors in Canada they are accidental invaders from mulch and leaf litter during wet spring or autumn weather, and they die within days because the house is too dry for them. Same root cause, gentler animal.</li>
             <li><strong>Soil and garden centipedes</strong> &mdash; the smaller, reddish-brown, short-legged kinds you turn up under a flagstone or a landscape timber &mdash; are outdoor animals that occasionally wander in at ground level. They are also harmless and also a sign of damp at the foundation.</li>
-            <li><strong>Silverfish and firebrats</strong> get mistaken for centipedes at a glance in a dark basement, but they are wingless, three-tailed, and slow-wiggling rather than sprinting on visible legs. If that is what you actually have, our <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish guide for Canada</Link> is the right page &mdash; and silverfish are also one of the likeliest things your centipedes have been eating.</li>
+            <li><strong>Silverfish and firebrats</strong> get mistaken for centipedes at a glance in a dark basement, but they are wingless, three-tailed insects that run on six legs, where a house centipede runs on fifteen pairs. If that is what you actually have, our <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish guide for Canada</Link> is the right page &mdash; and silverfish are also one of the likeliest things your centipedes have been eating.</li>
           </ul>
           <Photo
             id="greenhouse-millipede"
@@ -360,7 +360,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <Photo
             id="silverfish"
             alt="Silverfish with a segmented, tapering body, long antennae at the front and thin tails at the rear"
-            caption="A common silverfish, Lepisma saccharinum, photographed in London, Ontario. Silverfish are wingless and three-tailed, and they wiggle slowly rather than sprinting on visible legs."
+            caption="A common silverfish, Lepisma saccharinum, photographed in London, Ontario. Silverfish are wingless and three-tailed, with six legs rather than a centipede’s fifteen pairs."
           />
           <p>One more identification note, because it is a common question: the small, stubby, short-legged &ldquo;baby centipedes&rdquo; people find in bathtubs are the same species. House centipedes hatch with four pairs of legs and add pairs at each moult until they reach the adult fifteen, so a house with a breeding population produces a whole size range. Finding small ones is meaningful &mdash; it tells you they are reproducing indoors, which tells you the harbourage is permanently damp, which points you straight at the dehumidifier.</p>
 
