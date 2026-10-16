@@ -351,7 +351,7 @@
 - `/learn/bug-bites` — bug bite identification
 - `/blog/skeeter-syndrome` — skeeter syndrome
 - `/blog/biting-insects` — biting insects in ontario
-- `/blog/deer-fly-vs-horse-fly` — horse fly vs deer fly
+- `/blog/deer-fly-vs-horse-fly` — horse fly
 - `/learn/household-bugs` — common household bugs
 - `/blog/spider-beetles` — spider beetle
 - `/learn/types-of-mosquitoes` — types of mosquitoes
@@ -365,7 +365,6 @@
 - `/blog/black-flies` — black flies
 - `/learn/chiggers-by-province` — chiggers in canada
 - `/learn/chiggers-by-state` — are there chiggers in <state>
-- `/learn/mites` — mite bites
 - `/learn/fleas` — fleas
 - `/blog/what-do-fleas-look-like` — what do fleas look like
 - `/blog/how-to-get-rid-of-fleas` — how to get rid of fleas
@@ -383,7 +382,6 @@
 - `/blog/bird-mites` — bird mites
 - `/blog/brown-recluse-look-alikes` — spiders that look like brown recluse
 - `/blog/carpet-beetle-rash` — carpet beetle rash
-- `/learn/wasps-and-bees` — wasp vs hornet vs yellow jacket
 - `/blog/how-to-get-rid-of-ground-wasps` — how to get rid of ground wasps
 - `/blog/house-centipedes` — house centipede
 - `/blog/how-to-get-rid-of-silverfish` — how to get rid of silverfish
@@ -392,22 +390,20 @@
 - `/blog/how-to-get-rid-of-carpet-beetles` — how to get rid of carpet beetles
 - `/blog/how-to-get-rid-of-carpenter-bees` — how to get rid of carpenter bees
 - `/blog/how-to-get-rid-of-stink-bugs` — how to get rid of stink bugs
-- `/blog/bee-sting-vs-wasp-sting` — wasp sting vs bee sting
-- `/blog/types-of-gnats` — types of gnats
+- `/blog/bee-sting-vs-wasp-sting` — bee sting vs wasp sting
 - `/blog/bald-faced-hornets` — bald faced hornet
 - `/learn/scorpions` — scorpions in the us
 - `/learn/kissing-bugs` — kissing bugs
-- `/blog/wasp-nest-identification` — what does a wasp nest look like
+- `/blog/wasp-nest-identification` — wasp nest
 - `/blog/millipedes` — millipedes in house
 - `/blog/cicada-killers` — cicada killer
 - `/blog/asian-lady-beetles` — asian lady beetle
 - `/blog/carpenter-bee-vs-bumble-bee` — carpenter bee vs bumble bee
 - `/blog/fire-ant-stings` — fire ant bite
-- `/blog/camel-crickets` — camel cricket
 - `/blog/kissing-bug-bites` — kissing bug bite
-- `/blog/kissing-bug-look-alikes` — kissing bug look alikes
+- `/blog/kissing-bug-look-alikes` — bugs that look like kissing bugs
 - `/blog/scorpion-stings` — scorpion sting
-- `/blog/stinging-caterpillars` — stinging caterpillars
+- `/blog/stinging-caterpillars` — fuzzy caterpillar
 - `/blog/natural-mosquito-repellent` — natural mosquito repellent
 - `/blog/anopheles-mosquitoes` — anopheles mosquito
 - `/blog/floodwater-mosquitoes` — floodwater mosquito
@@ -420,7 +416,6 @@
 - `/blog/house-spiders` — house spider
 - `/blog/spiders-in-california` — spiders in california
 - `/blog/bug-bites-on-babies` — bug bites on babies
-- `/blog/dust-mites` — dust mites
 - `/blog/orb-weaver-spiders` — orb weaver spider
 - `/blog/chiggers-in-texas` — chiggers in texas
 - `/blog/spiders-in-florida` — spiders in florida
@@ -440,10 +435,10 @@
 - `/blog/woodlouse-spiders` — woodlouse spider
 - `/blog/rat-mites` — rat mites
 - `/blog/itch-mites` — oak mites
-- `/blog/how-to-get-rid-of-drain-flies` — how to get rid of drain flies
+- `/blog/how-to-get-rid-of-drain-flies` — drain flies
 - `/blog/june-bugs` — june bug
 - `/blog/how-to-get-rid-of-cluster-flies` — how to get rid of cluster flies
-- `/blog/how-to-get-rid-of-boxelder-bugs` — how to get rid of boxelder bugs
+- `/blog/how-to-get-rid-of-boxelder-bugs` — red and black bugs
 - `/blog/how-to-get-rid-of-earwigs` — how to get rid of earwigs
 - `/blog/pantry-pests` — pantry pests
 - `/blog/stable-flies` — stable fly
@@ -494,6 +489,22 @@
 - `/blog/mouse-nest` — what does a mouse nest look like
 - `/blog/springtails` — springtails
 - `/blog/cockroach-droppings` — cockroach poop
+- `/blog/animals-in-attic` — noises in attic at night
+- `/blog/houseplant-bugs` — bugs on houseplants
+- `/blog/moths-in-house` — small moths in house
+- `/blog/flies-in-house` — why are there so many flies in my house
+- `/blog/how-to-get-rid-of-gnats` — how to get rid of gnats
+- `/blog/how-to-get-rid-of-cockroaches` — how to get rid of roaches
+- `/blog/holes-in-yard` — small holes in yard
+- `/blog/black-spiders` — black spider with white spots
+- `/blog/beetles-in-house` — beetles in house
+- `/blog/animal-droppings` — animal poop identification
+- `/blog/termite-damage` — termite damage
+- `/blog/tiny-brown-bugs` — tiny brown bugs in house
+- `/blog/what-do-termites-look-like` — what do termites look like
+- `/blog/copperhead-look-alikes` — baby copperhead
+- `/blog/wasp-vs-hornet` — wasp vs hornet
+- `/blog/maggots` — maggots
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

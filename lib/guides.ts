@@ -16,7 +16,7 @@ import { buildMetadata, blogPostingSchema, breadcrumbSchema, faqSchema, speakabl
 import { SITE_URL, BUSINESS } from '@/lib/constants'
 import heroes from '@/lib/us-guide-heroes.json'
 
-export type GuideCluster = 'bed-bugs' | 'ants' | 'mice' | 'cockroaches' | 'mosquitoes' | 'ticks' | 'spiders' | 'wasps' | 'flies' | 'mites' | 'household' | 'bites' | 'pest-control' | 'garden'
+export type GuideCluster = 'bed-bugs' | 'ants' | 'mice' | 'cockroaches' | 'mosquitoes' | 'ticks' | 'spiders' | 'wasps' | 'flies' | 'mites' | 'household' | 'bites' | 'wildlife' | 'pest-control' | 'garden'
 
 export type GuideBlock =
   | { type: 'h2'; text: string }
@@ -139,10 +139,11 @@ export const CLUSTER_LABEL: Record<GuideCluster, string> = {
   ticks: 'ticks',
   spiders: 'spiders and scorpions',
   wasps: 'wasps and bees',
-  flies: 'biting flies',
+  flies: 'flies and gnats',
   mites: 'mites and chiggers',
   household: 'household bugs',
   bites: 'bug bites and stings',
+  wildlife: 'wildlife',
   'pest-control': 'pest control',
   garden: 'garden pests',
 }

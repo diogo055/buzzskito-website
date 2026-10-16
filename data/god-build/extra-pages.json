@@ -529,18 +529,22 @@
    "section": "blog",
    "role": "page",
    "cluster": "flies",
-   "keyword": "horse fly vs deer fly",
+   "keyword": "horse fly",
    "alsoTargets": [
+    "horse flies",
+    "horse fly bite",
     "deer fly vs horse fly",
+    "how to get rid of horse flies",
     "horse fly vs deer fly size",
     "greenhead vs horse fly"
    ],
-   "h1Hint": "Horse Fly vs Deer Fly: How to Tell Them Apart in the US",
-   "metaTitleHint": "Horse Fly vs Deer Fly: How to Tell (US)",
-   "scope": "US edition: size, wing pattern and eye colour, greenheads and other regional tabanids, when and where each bites, the circling behaviour, traps that work, and the bite.",
-   "pageType": "comparison",
+   "h1Hint": "Horse Flies: How to Identify Them, Why the Bite Hurts and Horse Fly vs Deer Fly",
+   "metaTitleHint": "Horse Fly Identification and Bites (Photos)",
+   "scope": "Re-aimed at \"horse fly\": the US horse fly page, with horse fly vs deer fly as a section. Identification photos first (size, wing pattern and eye color), greenheads and other regional horse flies (link greenhead-flies, planned), when and where they bite, why the bite hurts and what to watch for (health statements at the source's strength), the circling behavior, and traps that work. /blog/horse-fly-and-deer-fly-bite-treatment keeps bite treatment: link it. Regional pair with /blog/deer-flies-horse-flies-ontario. Photos: check photos.json (deer fly and horse fly photos exist for the Canadian page).",
+   "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
    "minWords": 1200,
    "minExisting": 2,
@@ -562,6 +566,11 @@
      "path": "/blog/horse-fly-and-deer-fly-bite-treatment",
      "overlap": "bite page",
      "resolution": "link"
+    },
+    {
+     "path": "greenhead-flies (new)",
+     "overlap": "greenheads",
+     "resolution": "a short mention here; link it"
     }
    ],
    "family": "us-editions",
@@ -1786,49 +1795,6 @@
    "priority": 2
   },
   {
-   "slug": "mites",
-   "section": "learn",
-   "role": "hub",
-   "cluster": "mites",
-   "audience": "na",
-   "keyword": "mite bites",
-   "alsoTargets": [
-    "mites that bite humans",
-    "mites on humans",
-    "mites in house"
-   ],
-   "h1Hint": "Mites That Bite Humans: Chiggers, Bird Mites, Rat Mites and Itch Mites",
-   "metaTitleHint": "Mites That Bite Humans: How to Tell Which",
-   "scope": "Which mites bite people (chiggers, bird and rodent mites, oak and straw itch mites, scabies) and which do not (dust, clover, spider mites), how the bites differ, where each comes from, and when it is not mites at all.",
-   "pageType": "hub",
-   "flags": [
-    "health",
-    "id"
-   ],
-   "minWords": 1600,
-   "minExisting": 3,
-   "parent": {
-    "href": "/learn",
-    "name": "Learning Centre"
-   },
-   "mustLink": [],
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/blog/chigger-bites",
-     "overlap": "chigger bites (40,211 impressions in 90 days)",
-     "resolution": "link"
-    },
-    {
-     "path": "/blog/red-ticks-and-clover-mites",
-     "overlap": "clover mites (they do not bite)",
-     "resolution": "link"
-    }
-   ],
-   "family": "mites",
-   "priority": 2
-  },
-  {
    "slug": "fleas",
    "section": "learn",
    "role": "hub",
@@ -2352,13 +2318,14 @@
    "cluster": "spiders",
    "keyword": "brown recluse",
    "alsoTargets": [
-    "brown recluse spider",
+    "what does a brown recluse look like",
     "brown recluse range",
+    "brown recluse spider",
     "are there brown recluse in <state>"
    ],
    "h1Hint": "Brown Recluse Spiders: How to Identify One and Where They Actually Live",
    "metaTitleHint": "Brown Recluse: ID and Where They Really Live",
-   "scope": "Loxosceles reclusa: the six eyes in pairs and the violin, uniform leg colour, the native range state by state (and the states where it is not), how infestations look indoors, sticky-trap monitoring, and the Canada answer.",
+   "scope": "Loxosceles reclusa, the species page: the six eyes in pairs and the violin, uniform leg color, the native range state by state (and the states where it is not), how infestations look indoors, sticky-trap monitoring, and a passing note on Canada. /blog/brown-recluse-look-alikes (live) keeps the look-alikes and /blog/brown-recluse-bite (live) the bite: summarize and link both. An authority head term (knowledge panel, Wikipedia, universities): build it from the strongest sources.",
    "pageType": "entity-id",
    "flags": [
     "id"
@@ -2378,6 +2345,16 @@
      "path": "/blog/what-does-a-spider-bite-look-like",
      "overlap": "section on where recluses live (no recluse rankings in Search Console)",
      "resolution": "summary + link"
+    },
+    {
+     "path": "/blog/brown-recluse-look-alikes",
+     "overlap": "the look-alikes (live)",
+     "resolution": "link; this is the species page"
+    },
+    {
+     "path": "/blog/brown-recluse-bite",
+     "overlap": "the bite (live)",
+     "resolution": "link"
     }
    ],
    "family": "spider-id",
@@ -2397,7 +2374,7 @@
    ],
    "h1Hint": "Bird Mites: Bites After a Nest Is Removed, and How to End Them",
    "metaTitleHint": "Bird Mites: Bites, Nests and How to End It",
-   "scope": "Northern fowl mites and chicken mites: why bites start after fledglings leave or a nest is removed, what the bites look like, how long the mites survive without birds, cleanup, and backyard chickens.",
+   "scope": "Northern fowl mites and chicken mites: why bites start after fledglings leave or a nest is removed, bird mites on humans and what the bites look like (health statements from CDC, extension and medical sources at their strength), how long the mites survive without birds, cleanup, and backyard chickens.",
    "pageType": "bite-sting",
    "flags": [
     "health",
@@ -2495,43 +2472,6 @@
    "priority": 2
   },
   {
-   "slug": "wasps-and-bees",
-   "section": "learn",
-   "role": "hub",
-   "cluster": "wasps",
-   "audience": "na",
-   "keyword": "wasp vs hornet vs yellow jacket",
-   "alsoTargets": [
-    "wasp vs bee",
-    "hornet vs wasp",
-    "yellow jacket vs bee"
-   ],
-   "h1Hint": "Wasp vs Hornet vs Yellow Jacket vs Bee: How to Tell Them Apart",
-   "metaTitleHint": "Wasp vs Hornet vs Yellow Jacket vs Bee",
-   "scope": "The identification hub for stinging insects in North America: body shape, hair, colour, nest type and behaviour for honey bees, bumble bees, carpenter bees, ground bees, yellow jackets, paper wasps, hornets, mud daubers and cicada killers, with real photos and links to each page.",
-   "pageType": "hub",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1700,
-   "minExisting": 3,
-   "parent": {
-    "href": "/learn",
-    "name": "Learning Centre"
-   },
-   "mustLink": [],
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/blog/how-to-get-rid-of-wasps-canada",
-     "overlap": "\"Step 1: identify which wasp\" section",
-     "resolution": "link"
-    }
-   ],
-   "family": "stinging-insects",
-   "priority": 2
-  },
-  {
    "slug": "how-to-get-rid-of-ground-wasps",
    "section": "blog",
    "role": "page",
@@ -2625,15 +2565,18 @@
    "cluster": "household",
    "keyword": "how to get rid of silverfish",
    "alsoTargets": [
-    "silverfish in bathroom",
+    "silverfish in house",
     "silverfish bugs",
+    "what are silverfish",
+    "silverfish in bathroom",
     "firebrats"
    ],
    "h1Hint": "How to Get Rid of Silverfish: Humidity First, Then Baits and Dusts",
    "metaTitleHint": "How to Get Rid of Silverfish for Good",
-   "scope": "US edition: humidity under 50 percent, sticky traps to locate, EPA-registered baits and dusts (including boric acid, which is legal in the US), paper and starch sources, and firebrats.",
+   "scope": "US edition: identification photos first (what silverfish are, and firebrats), then humidity under 50 percent, sticky traps to locate them, EPA-registered baits and dusts (including boric acid, which is legal in the US), and paper and starch sources. Pesticides by class and active ingredient; the label is the law. Regional pair with /blog/how-to-get-rid-of-silverfish-canada.",
    "pageType": "control",
    "flags": [
+    "id",
     "pesticide"
    ],
    "minWords": 1300,
@@ -2793,15 +2736,18 @@
    "cluster": "wasps",
    "keyword": "how to get rid of carpenter bees",
    "alsoTargets": [
+    "carpenter bees",
     "carpenter bee holes",
+    "do carpenter bees sting",
     "carpenter bee traps",
     "how to get rid of carpenter bees naturally"
    ],
    "h1Hint": "How to Get Rid of Carpenter Bees: Treat the Holes, Plug Them, Then Paint",
    "metaTitleHint": "How to Get Rid of Carpenter Bees",
-   "scope": "US edition: the order that works (treat galleries, plug, paint or stain), EPA-registered dusts, traps and their limits, woodpecker damage, and prevention.",
+   "scope": "US edition: identification photos of the bee and its round holes first, and whether carpenter bees sting; then the order that works (treat galleries, plug, paint or stain), EPA-registered dusts, traps and their limits, woodpecker damage and prevention (pesticides by class and active ingredient; the label is the law). Carpenter bee vs bumble bee gets one short section that links carpenter-bee-vs-bumble-bee (planned), which owns that search. Searches peak in April, so it must be live by March. Regional pair with /blog/how-to-get-rid-of-carpenter-bees-canada. Photo on record: carpenter bee nest hole; the bee itself is still needed.",
    "pageType": "control",
    "flags": [
+    "id",
     "pesticide"
    ],
    "minWords": 1400,
@@ -2819,6 +2765,11 @@
      "path": "/blog/how-to-get-rid-of-carpenter-bees-canada",
      "overlap": "Canadian edition (about 1% US)",
      "resolution": "regional pair"
+    },
+    {
+     "path": "carpenter-bee-vs-bumble-bee (new)",
+     "overlap": "\"carpenter bee vs bumble bee\" (that page's keyword; a variant in the research)",
+     "resolution": "one short identification section here that links there"
     }
    ],
    "family": "us-editions",
@@ -2868,17 +2819,21 @@
    "role": "page",
    "cluster": "wasps",
    "audience": "na",
-   "keyword": "wasp sting vs bee sting",
+   "keyword": "bee sting vs wasp sting",
    "alsoTargets": [
-    "wasp sting swelling",
+    "bee sting",
+    "wasp sting",
     "yellow jacket sting",
+    "what does a wasp sting look like",
+    "wasp sting swelling",
     "bee sting allergic reaction"
    ],
    "h1Hint": "Bee Sting vs Wasp Sting: How to Tell, How Long the Swelling Lasts and First Aid",
    "metaTitleHint": "Bee Sting vs Wasp Sting: Signs and First Aid",
-   "scope": "Stinger left behind or not, pain and swelling timelines, large local reactions versus anaphylaxis, first aid, multiple stings, and when to call 911.",
+   "scope": "Stings only, from medical sources (Mayo Clinic, AAAAI, CDC): which insect leaves a stinger and which does not, what bee, wasp and yellow jacket stings look like, pain and swelling timelines, large local reactions versus anaphylaxis, multiple stings, first aid and when to call 911; no treatment advice beyond first aid. /learn/bug-bites (the bite and sting chart) links here. Photos on record: a honey bee stinging and an io caterpillar sting swelling; a wasp sting reaction photo (public domain) is still needed.",
    "pageType": "bite-sting",
    "flags": [
+    "id",
     "health"
    ],
    "minWords": 1300,
@@ -2891,57 +2846,14 @@
     "/learn/bug-bites"
    ],
    "pairWith": null,
-   "collisions": [],
-   "family": "bites-stings",
-   "priority": 2
-  },
-  {
-   "slug": "types-of-gnats",
-   "section": "blog",
-   "role": "page",
-   "cluster": "flies",
-   "audience": "na",
-   "keyword": "types of gnats",
-   "alsoTargets": [
-    "gnats in house",
-    "what are gnats",
-    "types of gnats that bite"
-   ],
-   "h1Hint": "Types of Gnats: Fungus Gnats, Fruit Flies, Drain Flies and the Ones That Bite",
-   "metaTitleHint": "Types of Gnats: ID and What Each One Means",
-   "scope": "A picture key to small flies indoors and out: fungus gnats, fruit flies, drain (moth) flies, phorid flies, no-see-ums and black flies, where each comes from, and the one fix for each.",
-   "pageType": "entity-id",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1200,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
-   },
-   "mustLink": [
-    "/learn/household-bugs"
-   ],
-   "pairWith": null,
    "collisions": [
     {
-     "path": "/learn/how-to-get-rid-of-fungus-gnats",
-     "overlap": "fungus gnat control",
-     "resolution": "link"
-    },
-    {
-     "path": "/blog/how-to-get-rid-of-fruit-flies",
-     "overlap": "fruit fly control",
-     "resolution": "link"
-    },
-    {
-     "path": "/blog/how-to-get-rid-of-drain-flies-canada",
-     "overlap": "drain flies",
-     "resolution": "link"
+     "path": "/learn/bug-bites",
+     "overlap": "bite and sting chart",
+     "resolution": "link; this page is stings only"
     }
    ],
-   "family": "household",
+   "family": "bites-stings",
    "priority": 2
   },
   {
@@ -3045,15 +2957,21 @@
    "role": "page",
    "cluster": "wasps",
    "audience": "na",
-   "keyword": "what does a wasp nest look like",
+   "keyword": "wasp nest",
    "alsoTargets": [
+    "what does a wasp nest look like",
+    "hornet nest",
+    "yellow jacket nest",
+    "paper wasp nest",
     "wasp nest vs hornet nest",
+    "bald faced hornet nest",
+    "mud dauber nest",
     "wasp nest in ground",
     "types of wasp nests"
    ],
-   "h1Hint": "What Does a Wasp Nest Look Like? Paper, Ground, Football and Mud Nests",
-   "metaTitleHint": "Wasp Nest ID: Paper, Ground and Hornet Nests",
-   "scope": "A picture key to nests: open paper combs, enclosed paper footballs, ground holes, wall voids, mud tubes and bee nests; size by month; which are active; and when a nest is safe to leave.",
+   "h1Hint": "Wasp Nest Identification: Which Wasp, Hornet or Bee Built It (Photos)",
+   "metaTitleHint": "Wasp Nest Identification: Which Insect? (Photos)",
+   "scope": "Re-aimed at \"wasp nest\": a photo sorter by nest, because which insect built it decides how dangerous it is: open paper combs (paper wasps), gray paper footballs (bald-faced hornets), holes in the ground (yellowjackets), mud tubes (mud daubers) and wax combs (honey bees), plus nests in wall voids; size by month, which nests are active and when a nest is safe to leave. Identification only: many \"wasp nest\" searches are about removal, which /blog/how-to-get-rid-of-wasps-canada and /blog/how-to-get-rid-of-ground-wasps-canada cover (link both, and the US editions once they are live). wasp-vs-hornet (new) is the insects: link both ways. Photos on record: bald-faced hornet nest, mud dauber on nest, cicada killer burrow, paper wasps, eastern yellowjacket, carpenter bee hole, mining bee burrow; a paper wasp comb and a yellowjacket ground entrance are still needed.",
    "pageType": "entity-id",
    "flags": [
     "id"
@@ -3078,6 +2996,16 @@
      "path": "/blog/how-to-get-rid-of-ground-wasps-canada",
      "overlap": "ground nests",
      "resolution": "link"
+    },
+    {
+     "path": "wasp-vs-hornet (new)",
+     "overlap": "the insects",
+     "resolution": "link both ways; this page is the nests"
+    },
+    {
+     "path": "how-to-get-rid-of-ground-wasps (new)",
+     "overlap": "ground nests, control (US edition, planned)",
+     "resolution": "control there, identification here; link both ways"
     }
    ],
    "family": "stinging-insects",
@@ -3091,18 +3019,21 @@
    "audience": "na",
    "keyword": "millipedes in house",
    "alsoTargets": [
-    "millipede vs centipede",
+    "millipede",
+    "centipede vs millipede",
     "how to get rid of millipedes",
+    "are millipedes poisonous",
+    "millipede vs centipede",
     "house millipede"
    ],
    "h1Hint": "Millipedes in the House: Why They Invade After Rain and How to Stop Them",
    "metaTitleHint": "Millipedes in the House: Why and What to Do",
-   "scope": "Why millipedes migrate indoors after rain or drought, how to tell them from centipedes, why they die indoors, the defensive fluid, and mulch, moisture and sealing.",
+   "scope": "Why millipedes come indoors after rain or drought, why they die indoors, whether they are poisonous (the defensive fluid), and moisture, mulch and sealing. Centipede vs millipede (Ahrefs 10,000 US searches a month, KD 0) is a section here: /blog/house-centipedes keeps the centipede itself; link both ways. Photo on record: greenhouse millipede.",
    "pageType": "entity-id",
    "flags": [
     "id"
    ],
-   "minWords": 1000,
+   "minWords": 1100,
    "minExisting": 2,
    "parent": {
     "href": "/learn/household-bugs",
@@ -3112,7 +3043,13 @@
     "/learn/household-bugs"
    ],
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/house-centipedes",
+     "overlap": "centipede vs millipede",
+     "resolution": "the comparison becomes a section here; link both ways"
+    }
+   ],
    "family": "household",
    "priority": 2
   },
@@ -3276,45 +3213,6 @@
    "priority": 2
   },
   {
-   "slug": "camel-crickets",
-   "section": "blog",
-   "role": "page",
-   "cluster": "household",
-   "audience": "na",
-   "keyword": "camel cricket",
-   "alsoTargets": [
-    "spider cricket",
-    "cave cricket",
-    "camel crickets in basement"
-   ],
-   "h1Hint": "Camel Crickets (Spider Crickets): Why They Jump at You in the Basement",
-   "metaTitleHint": "Camel Crickets: The Spider Crickets in Basements",
-   "scope": "Greenhouse and native camel crickets: identification, why they jump toward you, damp basements and crawl spaces, whether they bite or damage anything, and drying and sealing.",
-   "pageType": "entity-id",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1000,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
-   },
-   "mustLink": [
-    "/learn/household-bugs"
-   ],
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/blog/bugs-that-look-like-cockroaches",
-     "overlap": "crickets section",
-     "resolution": "link"
-    }
-   ],
-   "family": "household",
-   "priority": 2
-  },
-  {
    "slug": "kissing-bug-bites",
    "section": "blog",
    "role": "page",
@@ -3351,21 +3249,25 @@
    "section": "blog",
    "role": "page",
    "cluster": "household",
-   "audience": "na",
-   "keyword": "kissing bug look alikes",
+   "keyword": "bugs that look like kissing bugs",
    "alsoTargets": [
+    "assassin bug vs kissing bug",
+    "wheel bug vs kissing bug",
+    "assassin bug",
+    "kissing bug look alikes",
     "kissing bug vs assassin bug",
     "kissing bug vs stink bug",
     "kissing bug vs boxelder bug"
    ],
    "h1Hint": "Bugs That Look Like Kissing Bugs: Wheel Bugs, Seed Bugs, Boxelders and More",
-   "metaTitleHint": "Bugs That Look Like Kissing Bugs",
-   "scope": "Wheel bugs, other assassin bugs, western conifer seed bugs, leaf-footed bugs, boxelder bugs and stink bugs side by side with kissing bugs: head shape, mouthparts, the orange band, and the fact that kissing bugs are not established in Canada.",
+   "metaTitleHint": "Bugs That Look Like Kissing Bugs (Photos)",
+   "scope": "Re-aimed at \"bugs that look like kissing bugs\" (fear of Chagas disease drives the search). The real kissing bugs first (the eastern kissing bug and the Texas species), then the insects mistaken for them, each with a photo, its size and the feature that settles it: the wheel bug and other assassin bugs (masked hunter), leaf-footed bugs, the western conifer seed bug, the boxelder bug and stink bugs. Assassin bug and wheel bug searches are won here as comparisons, not as species head terms (wheel-bugs, planned, keeps the species). What to do with a suspected kissing bug and anything about Chagas disease follows CDC at the source's strength (chagas-disease, planned, keeps the disease). Link /blog/bugs-in-house-in-winter (western conifer seed bug, boxelder bug) and kissing-bug-bites (planned). Photos on record: eastern kissing bug, three Texas kissing bugs, wheel bug and nymph.",
    "pageType": "comparison",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 1100,
+   "minWords": 1200,
    "minExisting": 2,
    "parent": {
     "href": "/learn/kissing-bugs",
@@ -3375,7 +3277,18 @@
     "/learn/kissing-bugs"
    ],
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/bugs-in-house-in-winter",
+     "overlap": "western conifer seed bug, boxelder bug",
+     "resolution": "link"
+    },
+    {
+     "path": "wheel-bugs (new)",
+     "overlap": "\"wheel bug\" (that page's keyword)",
+     "resolution": "this page takes the \"wheel bug vs kissing bug\" comparison; link the species page"
+    }
+   ],
    "family": "look-alikes",
    "priority": 2
   },
@@ -3416,16 +3329,20 @@
    "section": "blog",
    "role": "page",
    "cluster": "bites",
-   "keyword": "stinging caterpillars",
+   "keyword": "fuzzy caterpillar",
    "alsoTargets": [
+    "stinging caterpillars",
     "puss caterpillar",
+    "is this fuzzy caterpillar poisonous",
+    "woolly bear caterpillar",
+    "hickory tussock moth caterpillar",
     "saddleback caterpillar",
     "caterpillar rash"
    ],
-   "h1Hint": "Stinging Caterpillars: Puss, Saddleback and Io Caterpillars, and Sting First Aid",
-   "metaTitleHint": "Stinging Caterpillars: ID and Sting First Aid",
-   "scope": "The stinging caterpillars of the US by region (puss/asp, saddleback, Io, buck moth, hag moth): identification photos, the tape method and first aid, when a sting needs medical care, and the states where each occurs.",
-   "pageType": "bite-sting",
+   "h1Hint": "Fuzzy Caterpillars: Which Ones Sting, and How to Tell Them From Harmless Ones",
+   "metaTitleHint": "Fuzzy Caterpillar: Does It Sting? (Photos)",
+   "scope": "Re-aimed at \"fuzzy caterpillar\": \"is this fuzzy caterpillar poisonous?\" as a photo sorter. The stinging caterpillars of the US by region (puss caterpillar, saddleback, io, buck moth, hag moth, and the hickory tussock moth caterpillar) against the harmless woolly bear, each with the feature that settles it; then the tape method and first aid, when a sting needs medical care (CDC, poison centers and extension sources at their strength), and where and when each occurs (searches peak in September and October). /learn/bug-bites keeps caterpillar stings in its chart: link both ways. Photos on record: puss, saddleback, io (and its sting swelling), buck moth and hag moth caterpillars; woolly bear and hickory tussock moth caterpillar photos are still needed.",
+   "pageType": "entity-id",
    "flags": [
     "health",
     "id"
@@ -3440,7 +3357,13 @@
     "/learn/bug-bites"
    ],
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/learn/bug-bites",
+     "overlap": "caterpillar stings",
+     "resolution": "link"
+    }
+   ],
    "family": "bites-stings",
    "priority": 2
   },
@@ -4095,46 +4018,6 @@
    "priority": 3
   },
   {
-   "slug": "dust-mites",
-   "section": "blog",
-   "role": "page",
-   "cluster": "mites",
-   "audience": "na",
-   "keyword": "dust mites",
-   "alsoTargets": [
-    "dust mite bites",
-    "dust mites in bed",
-    "dust mites vs bed bugs"
-   ],
-   "h1Hint": "Dust Mites: Do They Bite? What They Are and How to Cut Them Down",
-   "metaTitleHint": "Dust Mites: Do They Bite? Allergy Facts",
-   "scope": "Microscopic mites that do not bite: the allergy they cause, humidity thresholds, encasements and washing temperatures from allergy guidance, and what the itchy bumps really are.",
-   "pageType": "entity-id",
-   "flags": [
-    "health",
-    "id"
-   ],
-   "minWords": 1000,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/mites",
-    "name": "Mites"
-   },
-   "mustLink": [
-    "/learn/mites"
-   ],
-   "pairWith": null,
-   "collisions": [
-    {
-     "path": "/blog/best-air-purifier-for-dust-mites-canada",
-     "overlap": "Canadian product page (affiliate)",
-     "resolution": "different intent; link"
-    }
-   ],
-   "family": "mites",
-   "priority": 3
-  },
-  {
    "slug": "orb-weaver-spiders",
    "section": "blog",
    "role": "page",
@@ -4772,17 +4655,20 @@
    "section": "blog",
    "role": "page",
    "cluster": "flies",
-   "keyword": "how to get rid of drain flies",
+   "keyword": "drain flies",
    "alsoTargets": [
-    "drain flies",
+    "how to get rid of drain flies",
+    "drain fly larvae",
+    "small black worms in bathroom",
     "drain flies in bathroom",
     "moth flies"
    ],
-   "h1Hint": "How to Get Rid of Drain Flies: Clean the Biofilm, Not Just the Drain",
-   "metaTitleHint": "How to Get Rid of Drain Flies for Good",
-   "scope": "US edition: the tape test to find the source, brushing out the biofilm, enzyme cleaners, hidden sources (floor drains, broken pipes), and why bleach fails.",
+   "h1Hint": "Drain Flies and Their Larvae: How to Find the Source and Get Rid of Them",
+   "metaTitleHint": "Drain Flies: How to Get Rid of Them for Good",
+   "scope": "Re-aimed at \"drain flies\": identification photos of the adult and its larvae first (the larvae answer \"small black worms in bathroom\", a weak page 1), then the US how-to: the tape test to find the source, brushing out the biofilm, enzyme cleaners, hidden sources (floor drains, broken pipes) and why bleach fails. how-to-get-rid-of-gnats (new) sorts the small flies and sends drain flies here: link both ways. Regional pair with /blog/how-to-get-rid-of-drain-flies-canada. Photo on record: drain fly; drain fly larva photos are still needed.",
    "pageType": "control",
    "flags": [
+    "id",
     "pesticide"
    ],
    "minWords": 1200,
@@ -4800,6 +4686,11 @@
      "path": "/blog/how-to-get-rid-of-drain-flies-canada",
      "overlap": "Canadian edition: 7,149 impressions in 90 days, about 11% US",
      "resolution": "regional pair"
+    },
+    {
+     "path": "how-to-get-rid-of-gnats (new)",
+     "overlap": "drain flies are one of the gnats",
+     "resolution": "link both ways; this page owns drain flies and their larvae (\"black worms in the bathroom\")"
     }
    ],
    "family": "us-editions",
@@ -4812,13 +4703,16 @@
    "cluster": "household",
    "keyword": "june bug",
    "alsoTargets": [
-    "june beetle",
+    "june bugs",
+    "green june bug",
+    "are june bugs dangerous",
     "june bug vs japanese beetle",
+    "june beetle",
     "green june beetle"
    ],
    "h1Hint": "June Bugs: The Beetles at Your Porch Light and the Grubs in Your Lawn",
    "metaTitleHint": "June Bugs: Porch Light Beetles and Grubs",
-   "scope": "US edition: May/June beetles, green June beetles and figeaters in the South and West, the white grub life cycle, lawn damage and when to treat, and porch lights.",
+   "scope": "US edition: May/June beetles, green June beetles and figeaters in the South and West, June bug vs Japanese beetle (a short comparison that links japanese-beetles, planned), whether June bugs are dangerous, the white grub life cycle, lawn damage and when to treat, and porch lights. Regional pair with /blog/june-bugs-ontario. Photos: check the beetle records; a green June beetle photo is still needed.",
    "pageType": "entity-id",
    "flags": [
     "id"
@@ -4891,20 +4785,22 @@
    "section": "blog",
    "role": "page",
    "cluster": "household",
-   "keyword": "how to get rid of boxelder bugs",
+   "keyword": "red and black bugs",
    "alsoTargets": [
     "boxelder bugs",
-    "boxelder bugs in house",
-    "red and black bugs"
+    "how to get rid of boxelder bugs",
+    "red and black bugs on house",
+    "boxelder bugs in house"
    ],
-   "h1Hint": "How to Get Rid of Boxelder Bugs: The Sealing Window and What Works Indoors",
-   "metaTitleHint": "How to Get Rid of Boxelder Bugs",
-   "scope": "US edition: eastern and western boxelder bugs, host trees, the late-summer sealing window, soapy water outdoors, vacuuming indoors, and EPA-registered exterior options.",
+   "h1Hint": "Red and Black Bugs: Boxelder Bugs, Their Look-Alikes and How to Get Rid of Them",
+   "metaTitleHint": "Red and Black Bugs? Boxelders and Look-Alikes",
+   "scope": "Re-aimed at \"red and black bugs\" (Ahrefs makes \"boxelder bug\" the parent topic of that search): open with a photo sorter of the red-and-black bugs found on houses, boxelder bugs first, then milkweed bugs, red-shouldered bugs and firebugs, each with the feature that settles it. Then the US how-to for boxelder bugs: eastern and western boxelder bugs, host trees, the late-summer sealing window, soapy water outdoors, vacuuming indoors and EPA-registered exterior options (pesticides by class and active ingredient; the label is the law). Regional pair with /blog/how-to-get-rid-of-boxelder-bugs-canada. Link /blog/bugs-in-house-in-winter where it helps. Photo on record: boxelder bug; milkweed bug, red-shouldered bug and firebug photos are still needed.",
    "pageType": "control",
    "flags": [
+    "id",
     "pesticide"
    ],
-   "minWords": 1200,
+   "minWords": 1300,
    "minExisting": 2,
    "parent": {
     "href": "/learn/household-bugs",
@@ -4931,15 +4827,18 @@
    "cluster": "household",
    "keyword": "how to get rid of earwigs",
    "alsoTargets": [
+    "earwigs",
     "earwigs in house",
+    "do earwigs pinch",
     "earwig traps",
     "do earwigs bite"
    ],
    "h1Hint": "How to Get Rid of Earwigs: Traps, Moisture and the Ear Myth",
    "metaTitleHint": "How to Get Rid of Earwigs, Inside and Out",
-   "scope": "US edition: moisture and mulch, oil and rolled-newspaper traps, garden damage, the pinch, and EPA-registered options.",
+   "scope": "US edition: identification photos first (the European earwig, and whether earwigs pinch), then moisture and mulch, oil and rolled-newspaper traps, garden damage, earwigs in the house, and EPA-registered options (pesticides by class and active ingredient; the label is the law). Regional pair with /blog/how-to-get-rid-of-earwigs-canada. Photo on record: European earwig.",
    "pageType": "control",
    "flags": [
+    "id",
     "pesticide"
    ],
    "minWords": 1200,
@@ -6989,6 +6888,768 @@
    ],
    "family": "household",
    "priority": 3
+  },
+  {
+   "slug": "animals-in-attic",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "noises in attic at night",
+   "alsoTargets": [
+    "animal in attic",
+    "squirrels in attic",
+    "mice in attic",
+    "rats in attic",
+    "raccoon in attic",
+    "bats in attic",
+    "scratching in walls"
+   ],
+   "h1Hint": "Noises in the Attic at Night: Which Animal Is Up There, by Sound and Sign",
+   "metaTitleHint": "Noises in the Attic at Night: What Animal Is It?",
+   "scope": "A sound-and-sign sorter for \"what is in my attic\": scratching and scurrying at night (mice, rats), heavy thumps (raccoons), daytime running (squirrels) and fluttering at dusk (bats), with the opossum where the sources include it. For each animal: when you hear it, the droppings and other signs, a photo and the one next step. Health statements (bats, droppings) follow CDC at the source's strength. /blog/mice-removal keeps its \"Mice in the attic\" section and /blog/raccoon-deterrent the raccoon deterrents: link both instead of repeating them. Photos on record: Virginia opossum, house mouse, roof rat, Norway rat; squirrel, raccoon and bat photos are still needed (public domain).",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/mice-removal",
+     "overlap": "\"Mice in the attic\" section",
+     "resolution": "link; this page sorts which animal it is by sound and time of night"
+    },
+    {
+     "path": "/blog/raccoon-deterrent",
+     "overlap": "raccoon deterrents",
+     "resolution": "link"
+    }
+   ],
+   "family": "wildlife",
+   "priority": 2
+  },
+  {
+   "slug": "houseplant-bugs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "garden",
+   "audience": "na",
+   "keyword": "bugs on houseplants",
+   "alsoTargets": [
+    "houseplant pests",
+    "white bugs on plants",
+    "tiny bugs in houseplant soil",
+    "spider mites on houseplants",
+    "mealybugs",
+    "thrips on houseplants"
+   ],
+   "h1Hint": "Bugs on Houseplants: Which Pest Is on Your Plant, and What to Do",
+   "metaTitleHint": "Bugs on Houseplants: Identify Them (Photos)",
+   "scope": "A \"which bug is on my plant\" photo sorter for indoor plants, by the sign you see: spider mites (webbing), mealybugs (white fluff), scale, thrips, aphids, whiteflies, fungus gnats and springtails. Each gets a photo, its size and the one feature that settles it, then a link to the page that treats it: /learn/how-to-get-rid-of-fungus-gnats, /learn/aphid-control-guide and /learn/whitefly-identification-control keep those pests. The species searches (spider mites, thrips, mealybugs) go to knowledge panels and to spider-mites (planned): show each as one candidate and link. Photos on record: spider mite webbing, twospotted spider mite, aphid and whitefly records; mealybug, scale and thrips photos are still needed.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/natural-garden-pest-control",
+    "name": "Garden Pest Control"
+   },
+   "mustLink": [
+    "/learn/natural-garden-pest-control"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/how-to-get-rid-of-fungus-gnats",
+     "overlap": "fungus gnats",
+     "resolution": "link"
+    },
+    {
+     "path": "/learn/aphid-control-guide",
+     "overlap": "aphids",
+     "resolution": "link"
+    },
+    {
+     "path": "/learn/whitefly-identification-control",
+     "overlap": "whiteflies",
+     "resolution": "link"
+    },
+    {
+     "path": "spider-mites (new)",
+     "overlap": "spider mites (that page's head term; knowledge panel)",
+     "resolution": "one candidate here; link it"
+    }
+   ],
+   "family": "garden",
+   "priority": 2
+  },
+  {
+   "slug": "moths-in-house",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "small moths in house",
+   "alsoTargets": [
+    "moths in house",
+    "how to get rid of moths",
+    "clothes moths",
+    "moth larvae",
+    "pantry moths vs clothes moths"
+   ],
+   "h1Hint": "Small Moths in the House: Pantry Moth or Clothes Moth, and What to Do",
+   "metaTitleHint": "Small Moths in the House? Which Kind (Photos)",
+   "scope": "A \"which moth is this\" sorter for small moths indoors: pantry moths (Indian meal moth) against clothes moths (webbing and casemaking), plus the drain flies and other small moths people mistake for them. Two moths, two different fixes: a photo of each adult and larva, where each turns up, the one feature that settles it, and the first step. Clothes moths are this page's main section (the research replaces the planned clothes-moths page with this one): larvae and damage, monitoring, cleaning and storage. Pantry moths stay on /blog/pantry-pests: summarize and link. /blog/pantry-moth-traps-canada may be linked as a plain internal link; no retailer links or product names. Photos on record: webbing and casemaking clothes moths, Indian meal moth adult, larva and webbing, drain fly.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/pantry-pests",
+     "overlap": "Indian meal moths",
+     "resolution": "link; pantry moths stay there"
+    },
+    {
+     "path": "clothes-moths (new)",
+     "overlap": "the planned clothes moths page (wave 4)",
+     "resolution": "replaced by this page (next-wave research): clothes moths are this page's main section"
+    },
+    {
+     "path": "/blog/pantry-moth-traps-canada",
+     "overlap": "Canadian product page",
+     "resolution": "link; no Amazon or retailer links on this page"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "flies-in-house",
+   "section": "blog",
+   "role": "page",
+   "cluster": "flies",
+   "audience": "na",
+   "keyword": "why are there so many flies in my house",
+   "alsoTargets": [
+    "flies in house",
+    "flies in house all of a sudden",
+    "how to get rid of house flies",
+    "where do flies come from",
+    "house flies"
+   ],
+   "h1Hint": "Why Are There So Many Flies in My House? Find the Fly, Then the Source",
+   "metaTitleHint": "Why Are There So Many Flies in My House?",
+   "scope": "A \"which fly is it and where is it breeding\" sorter for big flies indoors: house flies, blow flies (green bottle flies), flesh flies and cluster flies. A sudden swarm of big flies usually means a hidden source (a dead animal in a wall, garbage, pet waste) or cluster flies: photo, size and the one feature that settles each fly, then how to find and remove the source. This page owns the big flies; small flies (fruit flies, fungus gnats, drain flies) go to how-to-get-rid-of-gnats (new). Cluster flies get one section here and a link to /blog/cluster-flies-in-house-canada (their US edition is deferred). Link /blog/bugs-in-house-in-winter both ways (its slow-flies-at-windows section) and maggots (new) for the larvae. Photos on record: cluster fly only; house fly, blow fly, flesh fly and maggot photos (public domain or CC0) are still needed.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/cluster-flies-in-house-canada",
+     "overlap": "cluster flies (Canadian page)",
+     "resolution": "link; this page covers cluster flies in one section"
+    },
+    {
+     "path": "/blog/bugs-in-house-in-winter",
+     "overlap": "\"slow flies at my windows in winter\" section",
+     "resolution": "link both ways"
+    },
+    {
+     "path": "how-to-get-rid-of-gnats (new)",
+     "overlap": "small flies",
+     "resolution": "this page owns the big flies (house, blow, flesh and cluster flies); link gnats for the small ones"
+    },
+    {
+     "path": "how-to-get-rid-of-cluster-flies (new)",
+     "overlap": "cluster flies, US edition (deferred by the research)",
+     "resolution": "this page carries a cluster fly section; link the US edition if it is built"
+    },
+    {
+     "path": "maggots (new)",
+     "overlap": "fly larvae",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "how-to-get-rid-of-gnats",
+   "section": "blog",
+   "role": "page",
+   "cluster": "flies",
+   "audience": "na",
+   "keyword": "how to get rid of gnats",
+   "alsoTargets": [
+    "gnats in house",
+    "how to kill gnats",
+    "tiny flying bugs in house",
+    "gnats vs fruit flies",
+    "how to get rid of gnats in plants",
+    "how to get rid of gnats in kitchen"
+   ],
+   "h1Hint": "How to Get Rid of Gnats: Identify the Gnat First, Then Fix Its Source",
+   "metaTitleHint": "How to Get Rid of Gnats, by Type (Photos)",
+   "scope": "One umbrella page: identify the gnat first, then fix its source. Searchers say \"gnats\" for four different flies: fungus gnats (houseplant soil), fruit flies (the fruit bowl), drain flies (drains) and phorid flies; each gets a photo, its size, the one feature that settles it and its fix. Gnats vs fruit flies is a section here (the page replaces the planned types-of-gnats). Fungus gnats go on to /learn/how-to-get-rid-of-fungus-gnats, fruit flies to /blog/how-to-get-rid-of-fruit-flies and drain flies to how-to-get-rid-of-drain-flies (planned): summarize each and link, do not repeat them. Pesticides by class and active ingredient; the label is the law. Photos on record: fruit fly, fungus gnat, drain fly and phorid fly, all with scale bars.",
+   "pageType": "control",
+   "flags": [
+    "id",
+    "pesticide"
+   ],
+   "minWords": 1400,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/how-to-get-rid-of-fungus-gnats",
+     "overlap": "fungus gnat control (live guide)",
+     "resolution": "link; this page sorts which gnat it is and sends fungus gnats there"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-fruit-flies",
+     "overlap": "fruit fly control",
+     "resolution": "link; fruit flies stay there"
+    },
+    {
+     "path": "types-of-gnats (new)",
+     "overlap": "the planned \"gnats vs fruit flies\" page (wave 3)",
+     "resolution": "replaced: folded into this page (Ahrefs: \"how to get rid of gnats\" 130,000 vs \"gnats vs fruit flies\" 2,700)"
+    },
+    {
+     "path": "how-to-get-rid-of-drain-flies (new)",
+     "overlap": "drain flies are one of the gnats",
+     "resolution": "link both ways; that page owns drain flies and their larvae"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "how-to-get-rid-of-cockroaches",
+   "section": "blog",
+   "role": "page",
+   "cluster": "cockroaches",
+   "keyword": "how to get rid of roaches",
+   "alsoTargets": [
+    "how to get rid of cockroaches",
+    "how to get rid of roaches fast",
+    "how to get rid of german cockroaches",
+    "roaches in apartment"
+   ],
+   "h1Hint": "How to Get Rid of Roaches: Identify the Species, Then Bait in the Right Order",
+   "metaTitleHint": "How to Get Rid of Roaches: The Order That Works",
+   "scope": "US edition of the cockroach how-to: identify the species first (German, American, Oriental and brown-banded cockroaches, and their egg cases), then the order that works, baits rather than sprays, with cleanup, sealing and monitoring. Pesticides by class and active ingredient; the label is the law. Regional pair with /blog/how-to-get-rid-of-cockroaches-canada (add both to REGIONAL_PAIRS at release; no Amazon or retailer links on this edition). /learn/cockroaches keeps its five-step overview and links here (trimming it is the owner's call). Link the live cockroach guides where they help (/blog/cockroach-eggs, /blog/palmetto-bugs). Photos on record: German, American, Oriental and brown-banded cockroaches and egg cases.",
+   "pageType": "control",
+   "flags": [
+    "id",
+    "pesticide"
+   ],
+   "minWords": 1500,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "mustLink": [
+    "/learn/cockroaches"
+   ],
+   "pairWith": "/blog/how-to-get-rid-of-cockroaches-canada",
+   "collisions": [
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "\"What is the right order for getting rid of cockroaches?\" (5 steps)",
+     "resolution": "the pillar stays the overview and links here; trimming it is the owner's call"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-cockroaches-canada",
+     "overlap": "Canadian edition: 7,592 impressions in 90 days at position 9.8",
+     "resolution": "regional pair (hreflang); no Amazon links on the US edition"
+    }
+   ],
+   "family": "us-editions",
+   "priority": 2
+  },
+  {
+   "slug": "holes-in-yard",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "small holes in yard",
+   "alsoTargets": [
+    "holes in yard",
+    "what animal is digging holes in my yard",
+    "holes in lawn",
+    "snake holes",
+    "mole vs vole"
+   ],
+   "h1Hint": "Small Holes in the Yard: Which Animal Dug Them, by Size, Shape and Mound",
+   "metaTitleHint": "Small Holes in Yard? What Animal Dug Them",
+   "scope": "A photo sorter for holes in the lawn and yard: hole size, shape and any mound decide the animal (moles, voles, chipmunks, skunks and raccoons digging for grubs, rats, cicada killers, ground-nesting bees and crayfish). Each gets a photo, the hole size and the one feature that settles it, then the next step; spring digging starts in March. Link /blog/how-to-get-rid-of-voles-canada for vole runways, /blog/lawn-pest-control for the grubs that draw diggers, and cicada-killers, ground-bees and mole-crickets (planned) as they go live. Photos on record: cicada killer burrow, mining bee burrow, mole crickets; mole hill, vole runway, chipmunk hole and skunk grub-digging photos are still needed.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-voles-canada",
+     "overlap": "vole runways",
+     "resolution": "link"
+    },
+    {
+     "path": "/blog/lawn-pest-control",
+     "overlap": "grub-hunting animals",
+     "resolution": "link"
+    }
+   ],
+   "family": "wildlife",
+   "priority": 2
+  },
+  {
+   "slug": "black-spiders",
+   "section": "blog",
+   "role": "page",
+   "cluster": "spiders",
+   "keyword": "black spider with white spots",
+   "alsoTargets": [
+    "black spider",
+    "big black spider",
+    "black spider with red",
+    "black house spider",
+    "black spiders in house"
+   ],
+   "h1Hint": "Black Spider With White Spots? How to Identify Black Spiders by Markings",
+   "metaTitleHint": "Black Spider With White Spots? ID It (Photos)",
+   "scope": "A color-first photo sorter for black spiders in and around US homes: the bold jumping spider (the black spider with white spots), black widows, false widows, wolf spiders, the black purse-web spider and ground spiders, each with size, markings and the one feature that settles it. Widows get a short section that links /blog/venomous-spiders for bites and black-widow-spiders (planned) for the species. /blog/house-spiders keeps its \"is a shiny dark spider a black widow?\" and \"small black spider that jumps\" sections: link both ways. \"Black house spider\" is an Australian species: one line saying so is enough. Photos on record: widows, bold and Johnson jumping spiders, false black widow.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "\"Is a shiny dark spider a black widow?\" and \"small black spider that jumps\"",
+     "resolution": "color-first sorter here; link both ways"
+    },
+    {
+     "path": "/blog/venomous-spiders",
+     "overlap": "widows",
+     "resolution": "link"
+    },
+    {
+     "path": "black-widow-spiders (new)",
+     "overlap": "the black widow species page",
+     "resolution": "widows are one candidate here; link it"
+    }
+   ],
+   "family": "spider-id",
+   "priority": 2
+  },
+  {
+   "slug": "beetles-in-house",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "beetles in house",
+   "alsoTargets": [
+    "black beetles in house",
+    "small black beetles in house",
+    "brown beetles in house",
+    "beetles in house in winter"
+   ],
+   "h1Hint": "Beetles in the House: Identify Black, Brown and Spotted Beetles Indoors",
+   "metaTitleHint": "Beetles in the House? Identify Them (Photos)",
+   "scope": "A photo sorter for beetles found indoors, of every size: each candidate with a photo, its size, where it turns up, the one feature that settles it and the next step (a link). Tiny beetles get a short entry each and a link to /blog/tiny-black-bugs (the tiny-bug sorter); carpet beetles link /blog/how-to-get-rid-of-carpet-beetles, pantry beetles /blog/pantry-pests and lady beetles /blog/asian-lady-beetles. Winter invaders stay on /blog/bugs-in-house-in-winter: link both ways. Photos on record: 22 beetle records.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/tiny-black-bugs",
+     "overlap": "tiny beetles",
+     "resolution": "this page covers beetles of all sizes; link the tiny-bug sorter"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-carpet-beetles",
+     "overlap": "carpet beetles",
+     "resolution": "link"
+    },
+    {
+     "path": "/blog/bugs-in-house-in-winter",
+     "overlap": "\"beetles in house in winter\" (one of its targets)",
+     "resolution": "that page keeps the winter angle; link both ways"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "animal-droppings",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "animal poop identification",
+   "alsoTargets": [
+    "raccoon poop",
+    "squirrel poop",
+    "bat poop",
+    "possum poop",
+    "snake poop",
+    "squirrel poop vs rat poop",
+    "raccoon poop vs possum poop"
+   ],
+   "h1Hint": "Animal Poop Identification: Raccoon, Squirrel, Bat, Opossum and Rat Droppings",
+   "metaTitleHint": "Animal Poop Identification (Photos)",
+   "scope": "A side-by-side photo sorter for animal droppings found around homes, with a scale wherever the photo allows: raccoon (latrines), opossum, squirrel, bat (guano), rat, mouse and snake, built around the comparisons that fill autocomplete (raccoon vs opossum, squirrel vs rat, bat vs mouse). Size, shape, where found and the one feature that settles each. Raccoon latrines carry a roundworm risk that CDC documents: state it with that source; every health and cleanup statement follows CDC or a state health department. Mouse droppings stay on /blog/what-does-mouse-poop-look-like-canada and rat droppings on rat-droppings (planned): summarize and link. Photos on record: rat and mouse droppings, rodent droppings in a drawer; a raccoon latrine (CDC, public domain), bat guano, squirrel and opossum droppings are still needed.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "mouse droppings",
+     "resolution": "link; mice stay there"
+    },
+    {
+     "path": "rat-droppings (new)",
+     "overlap": "rat droppings (planned)",
+     "resolution": "link; rats stay there"
+    }
+   ],
+   "family": "wildlife",
+   "priority": 2
+  },
+  {
+   "slug": "termite-damage",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "keyword": "termite damage",
+   "alsoTargets": [
+    "what does termite damage look like",
+    "signs of termites",
+    "termite droppings",
+    "termite mud tubes",
+    "termite damage vs wood rot"
+   ],
+   "h1Hint": "Termite Damage: What It Looks Like, Plus Droppings, Mud Tubes and Wood Rot",
+   "metaTitleHint": "Termite Damage: What It Looks Like (Photos)",
+   "scope": "A photo guide for homeowners asking \"is this termite damage?\": what damaged wood looks like, mud tubes, termite droppings (frass) and the other signs of termites, then termite damage vs wood rot. Termite droppings (Ahrefs 15,000 US searches a month, all pest companies on page 1) is a section here, not a separate page. /blog/flying-ants-vs-termites keeps a short version of the frass, mud tube and damaged wood clues: link both ways. The insect itself is on what-do-termites-look-like (new): link both ways. What finding damage means and what to do next follows EPA and extension sources; no product advice. Photos: none on record; damaged wood, mud tubes and drywood termite frass (public domain or CC BY) are needed before writing.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1200,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/flying-ants-vs-termites",
+     "overlap": "\"What do frass, mud tubes and damaged wood tell you?\"",
+     "resolution": "keeps a short version; this page owns the photo guide to damage, droppings and mud tubes; link both ways"
+    },
+    {
+     "path": "what-do-termites-look-like (new)",
+     "overlap": "the insects",
+     "resolution": "link both ways; damage here, the insects there"
+    }
+   ],
+   "family": "termites",
+   "priority": 2
+  },
+  {
+   "slug": "tiny-brown-bugs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "tiny brown bugs in house",
+   "alsoTargets": [
+    "tiny brown bugs",
+    "little brown bugs in house",
+    "tiny brown bugs in kitchen",
+    "tiny brown bugs that bite",
+    "tiny brown bugs in bed"
+   ],
+   "h1Hint": "Tiny Brown Bugs in the House: What They Are, by Where You Found Them",
+   "metaTitleHint": "Tiny Brown Bugs in the House? ID Them (Photos)",
+   "scope": "Same template as /blog/tiny-black-bugs (live): a \"where did you find it\" sorter for tiny brown bugs indoors (kitchen and pantry, bed and furniture, bathroom and damp rooms, floors and pets). Candidates with photos on record: drugstore and cigarette beetles, carpet beetle larva, booklouse, German cockroach nymph, bed bug and cat flea. Each gets a photo, its size and the one feature that settles it, then the next step (a link). Link /blog/tiny-black-bugs both ways and /blog/pantry-pests for the pantry beetles.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/tiny-black-bugs",
+     "overlap": "sibling sorter",
+     "resolution": "same template; link both ways"
+    },
+    {
+     "path": "/blog/pantry-pests",
+     "overlap": "drugstore and cigarette beetles",
+     "resolution": "link"
+    }
+   ],
+   "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "what-do-termites-look-like",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "keyword": "what do termites look like",
+   "alsoTargets": [
+    "flying termites",
+    "termite swarmers",
+    "subterranean termites",
+    "drywood termites",
+    "termites with wings",
+    "baby termites"
+   ],
+   "h1Hint": "What Do Termites Look Like? Workers, Soldiers, Swarmers and the Main Species",
+   "metaTitleHint": "What Do Termites Look Like? (Photos)",
+   "scope": "The insect itself, by photo: workers, soldiers and winged swarmers, and how subterranean, drywood and Formosan termites differ, with sizes and the features that settle each; \"white ants\", termites with wings and baby termites; when swarms appear (written in January so it is aged for the March-May swarm season). The flying ant comparison stays on /blog/flying-ants-vs-termites (link both ways); damage, droppings and mud tubes are on termite-damage (new): link both ways. Photos: none on record; termite worker, soldier and swarmer photos (USDA ARS and Wikimedia, public domain or CC BY) are needed before writing.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1200,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/flying-ants-vs-termites",
+     "overlap": "swarmer vs flying ant tests, frass, mud tubes",
+     "resolution": "keeps the comparison; this page is the insect itself (castes, species, swarmers); link both ways"
+    },
+    {
+     "path": "termite-damage (new)",
+     "overlap": "damage, droppings and mud tubes",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "termites",
+   "priority": 2
+  },
+  {
+   "slug": "copperhead-look-alikes",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "keyword": "baby copperhead",
+   "alsoTargets": [
+    "snakes that look like copperheads",
+    "copperhead vs corn snake",
+    "copperhead vs rat snake",
+    "water moccasin vs water snake",
+    "baby copperhead vs brown snake"
+   ],
+   "h1Hint": "Baby Copperhead or Look-Alike? How to Tell Copperheads From Harmless Snakes",
+   "metaTitleHint": "Baby Copperhead or Look-Alike? (Photos)",
+   "scope": "Photo identification for \"is this a baby copperhead?\": the copperhead's hourglass crossbands, head shape and the yellow tail tip of young snakes, then the snakes mistaken for it (corn snake, rat snake, northern water snake, hognose), plus water moccasin vs water snake; each with a photo and the one feature that settles it. \"Baby copperhead\" and \"snakes that look like copperheads\" are each other's parent topic in Ahrefs: one page targets both. Any bite or safety statement follows CDC or a state wildlife agency at the source's strength. Owner's call before writing: snakes are a new family for the site (wildlife, not insects; BuzzSkito does not handle snakes), a traffic play only. Photos: none on record; a snake photo scout comes first (USFWS and NPS public domain; Wikimedia CC BY or CC BY-SA).",
+   "pageType": "comparison",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1300,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [],
+   "family": "snakes",
+   "priority": 2
+  },
+  {
+   "slug": "wasp-vs-hornet",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wasps",
+   "audience": "na",
+   "keyword": "wasp vs hornet",
+   "alsoTargets": [
+    "bee vs wasp",
+    "hornet vs yellow jacket",
+    "wasp vs yellow jacket",
+    "types of wasps",
+    "wasp vs hornet vs yellow jacket"
+   ],
+   "h1Hint": "Wasp vs Hornet vs Yellow Jacket vs Bee: How to Tell Them Apart",
+   "metaTitleHint": "Wasp vs Hornet vs Yellow Jacket vs Bee (Photos)",
+   "scope": "An identification chart of the eight stinging insects people confuse: honey bee, bumble bee, carpenter bee, paper wasp, yellowjacket, bald-faced hornet, European hornet and mud dauber. A comparison table first, then each with a photo, size, body shape and hair, color, nest type, behavior and the one feature that settles it. Built instead of the /learn/wasps-and-bees hub, which targeted the same searches. Nests stay on wasp-nest-identification (new): link both ways. Link the species pages as they go live (yellow-jackets, bald-faced-hornets, european-hornets, paper-wasps, mud-daubers and carpenter-bee-vs-bumble-bee, all planned) and stings to bee-sting-vs-wasp-sting (planned). Photos on record: 17 wasp and hornet records and 8 bee records.",
+   "pageType": "comparison",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1400,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "wasp-nest-identification (new)",
+     "overlap": "nests",
+     "resolution": "link both ways; this page is the insects"
+    },
+    {
+     "path": "wasps-and-bees (new)",
+     "overlap": "the planned /learn/wasps-and-bees hub (\"wasp vs hornet vs yellow jacket\")",
+     "resolution": "replaced by this page (next-wave research): an identification chart instead of a hub"
+    },
+    {
+     "path": "carpenter-bee-vs-bumble-bee (new)",
+     "overlap": "carpenter bee vs bumble bee",
+     "resolution": "one row here; link it"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-wasps-canada",
+     "overlap": "\"Step 1: identify which wasp\" section",
+     "resolution": "link"
+    }
+   ],
+   "family": "look-alikes",
+   "priority": 2
+  },
+  {
+   "slug": "maggots",
+   "section": "blog",
+   "role": "page",
+   "cluster": "flies",
+   "audience": "na",
+   "keyword": "maggots",
+   "alsoTargets": [
+    "where do maggots come from",
+    "maggots in house",
+    "maggots in trash can",
+    "maggots on floor",
+    "fly larvae"
+   ],
+   "h1Hint": "Maggots: What They Are, Where They Come From and How to Get Rid of Them",
+   "metaTitleHint": "Maggots: Where They Come From (Photos)",
+   "scope": "Photo-led page on maggots (fly larvae) for the \"where did these come from\" search: what maggots are and where they come from (a fly laid eggs on food, garbage or a dead animal), maggots in the trash can, on the floor and in the kitchen, how to clean them up and stop the next batch, and how to tell maggots from other small \"worms\" found indoors. Link flies-in-house (new) both ways for the adult flies and /blog/mosquito-larvae-identification for \"mosquito maggots\" (a different insect). Photos: none on record; blow fly larva or maggot photos (public domain or CC0) are needed before writing.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/mosquito-larvae-identification",
+     "overlap": "\"mosquito maggots\" and \"worms\" queries",
+     "resolution": "link; a different insect"
+    },
+    {
+     "path": "flies-in-house (new)",
+     "overlap": "the adult flies",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "household",
+   "priority": 2
   }
  ]
 }

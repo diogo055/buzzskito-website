@@ -1,5 +1,5 @@
 {
- "_readme": "Pages moved off their computed release day, and hubs that are not being built (both read by scripts/god-build-plan.mjs). Oct 16, 2026: the owner asked to publish the 37 fact-checked tick pages now instead of Nov 16, after the 86 North American guides reached 85% indexed in their first week. Later on Oct 16: the 12 build-wave-1 pages of data/god-build/next-50.json are dated that day, so each goes live the morning after its fact-check is committed and pushed. Also on Oct 16: the 13 build-wave-2 pages, dated the same way (the owner asked for the high click-through pages to be built now). deferredHubs: topic hubs we are not building for now (hub pages earn almost no search traffic here, see next-50.md); pages under them go out with the Learning Centre (/learn) as their parent and do not have to link the hub.",
+ "_readme": "Pages moved off their computed release day, and hubs that are not being built (both read by scripts/god-build-plan.mjs). Oct 16, 2026: the owner asked to publish the 37 fact-checked tick pages now instead of Nov 16, after the 86 North American guides reached 85% indexed in their first week. Later on Oct 16: the 12 build-wave-1 pages of data/god-build/next-50.json are dated that day, so each goes live the morning after its fact-check is committed and pushed. Also on Oct 16: the 13 build-wave-2 pages, dated the same way (the owner asked for the high click-through pages to be built now). deferredHubs: topic hubs we are not building for now (hub pages earn almost no search traffic here, see next-50.md); pages under them go out with the Learning Centre (/learn) as their parent and do not have to link the hub. Evening of Oct 16: the 30 pages of data/god-build/next-wave-research.md are dated, the 18 winter earners 2026-10-20 (written now; each goes live the first morning after its fact-check is pushed) and the 12 summer earners 2027-02-01 (written in January so they are indexed and aged before their May-August peak); /learn/kissing-bugs and /learn/wasps-and-bees join deferredHubs (no hub is built just to unblock a page, and the research builds the wasp vs hornet chart instead of the wasps-and-bees hub).",
  "releaseOn": {
   "ticks-by-province": "2026-10-16",
   "ticks-in-nova-scotia": "2026-10-16",
@@ -62,13 +62,45 @@
   "cockroach-eggs": "2026-10-16",
   "spiders-in-florida": "2026-10-16",
   "spiders-in-california": "2026-10-16",
-  "spiders-in-texas": "2026-10-16"
+  "spiders-in-texas": "2026-10-16",
+  "animals-in-attic": "2026-10-20",
+  "houseplant-bugs": "2026-10-20",
+  "moths-in-house": "2026-10-20",
+  "flies-in-house": "2026-10-20",
+  "how-to-get-rid-of-gnats": "2026-10-20",
+  "how-to-get-rid-of-cockroaches": "2026-10-20",
+  "kissing-bug-look-alikes": "2026-10-20",
+  "how-to-get-rid-of-boxelder-bugs": "2026-10-20",
+  "holes-in-yard": "2026-10-20",
+  "millipedes": "2026-10-20",
+  "black-spiders": "2026-10-20",
+  "beetles-in-house": "2026-10-20",
+  "how-to-get-rid-of-earwigs": "2026-10-20",
+  "animal-droppings": "2026-10-20",
+  "how-to-get-rid-of-silverfish": "2026-10-20",
+  "termite-damage": "2026-10-20",
+  "how-to-get-rid-of-drain-flies": "2026-10-20",
+  "tiny-brown-bugs": "2026-10-20",
+  "what-do-termites-look-like": "2027-02-01",
+  "how-to-get-rid-of-carpenter-bees": "2027-02-01",
+  "copperhead-look-alikes": "2027-02-01",
+  "bird-mites": "2027-02-01",
+  "june-bugs": "2027-02-01",
+  "wasp-nest-identification": "2027-02-01",
+  "wasp-vs-hornet": "2027-02-01",
+  "bee-sting-vs-wasp-sting": "2027-02-01",
+  "deer-fly-vs-horse-fly": "2027-02-01",
+  "maggots": "2027-02-01",
+  "brown-recluse": "2027-02-01",
+  "stinging-caterpillars": "2027-02-01"
  },
  "deferredHubs": [
   "/learn/household-bugs",
   "/learn/spiders",
   "/learn/fleas",
   "/learn/mites",
-  "/learn/biting-flies"
+  "/learn/biting-flies",
+  "/learn/kissing-bugs",
+  "/learn/wasps-and-bees"
  ]
 }
