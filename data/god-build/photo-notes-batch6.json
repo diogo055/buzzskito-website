@@ -1,0 +1,915 @@
+{
+ "_readme": "Scout notes for the sixth photo batch (Oct 16, 2026): photos for the next-wave pages in data/god-build/next-wave-research.md, winter pages first (flies and maggots, small moths, beetles, houseplant pests, red and black bugs, kissing bug look-alikes, black spiders, millipedes, earwigs, silverfish, animals in the attic and their droppings, holes in the yard, termite damage), then the Jan-Feb pages (termites, carpenter bees, wasp nests, wasps and hornets, honey bees, stinging caterpillars, copperhead look-alikes, crickets). For each photo: what its source says it shows (sourceDescription), the pages it serves (forPages: a bare slug is /blog/<slug> or a planned page in next-wave-research.md; learn/<slug> is a Learning Centre page), confidence in the identification, whether its licence lets it be a page's lead/share image (leadEligible: public domain or CC0 only), and caveats (who made the identification, where it was taken, scale bars or labels printed on the photo, caption limits). The licence, credit and size of record are in photos.json; write captions from these notes and the record together, in US spelling and US units. Every image was looked at after conversion; three first picks were replaced after that look (a wet, atypical American dagger caterpillar, a soft milk snake photo, and a mole mound with an open hole that reads like a pocket gopher mound). Gaps (what was looked for and not found) are at the end, followed by one entry listing the brief's targets that earlier batches already cover.",
+ "candidates": [
+  {
+   "id": "house-fly",
+   "forPages": [
+    "flies-in-house",
+    "maggots"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25570: This image depicts a close dorsal view of a house fly, Musca domestica.",
+   "caveats": "Undated CDC studio slide: top view of an adult on a pale lavender background, the dark stripes on the thorax clear. It opens a run of five consecutive CDC fly photos (PHIL 25570 to 25574: this photo, house-fly-eggs, fly-maggot, fly-pupa, house-fly-emerging) that can serve as a life-cycle row on maggots; PHIL names the adult, the eggs and the emerging fly as house fly, but not the maggot or the pupa. PHIL gives no sex and there is no scale object.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "house-fly-laying-eggs",
+   "forPages": [
+    "maggots",
+    "flies-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 26984: This photograph depicts a female house fly, Musca domestica, as she was in the process of laying her eggs. Credited CDC/ Harold G. Scott; PHIL dates it 1962.",
+   "caveats": "Side view of a female pushing a white egg mass into a crumbly, grain-like medium: a laboratory rearing setup, not a trash can or a kitchen, so do not caption it as a household scene. Old slide colors. Pairs with house-fly-eggs.",
+   "note": "Credit: CDC/ Harold G. Scott (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "house-fly-eggs",
+   "forPages": [
+    "maggots",
+    "flies-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25571: This image depicts a close view of a cluster of eggs deposited by the common house fly, Musca domestica.",
+   "caveats": "Sepia-toned close-up of a heap of white, elongated eggs. A few small round objects lie among them that PHIL does not explain: do not point them out or count them as eggs. No scale object, so give egg size only from a written source.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x801."
+  },
+  {
+   "id": "fly-maggot",
+   "forPages": [
+    "maggots",
+    "flies-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25572: This image depicts a close view of a fly larva (maggot) of an unspecified species.",
+   "caveats": "PHIL says 'unspecified species': caption it as a fly maggot (larva), never as a house fly maggot. One pale, legless larva on a crumbly rearing medium, the dark mouth hooks at the narrow end. Clean and not gory, so it can lead the maggots page. No scale object.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "fly-pupa",
+   "forPages": [
+    "maggots",
+    "flies-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25573: This image depicts a close view of a fly pupa of an unspecified species.",
+   "caveats": "PHIL says 'unspecified species': caption it as a fly pupa (the hard, barrel-shaped case), not as a house fly pupa. Dark reddish-brown case on the same rearing medium as fly-maggot. No scale object.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "house-fly-emerging",
+   "forPages": [
+    "maggots",
+    "flies-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25574: This image depicts a close view of a house fly, Musca domestica, emerging from its pupal case.",
+   "caveats": "The adult's head (big red eye) is out of the split end of its pupal case; the rest of the body is still inside. PHIL names the species. Same rearing medium as fly-maggot and fly-pupa, so the three read as one sequence.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "green-bottle-fly",
+   "forPages": [
+    "flies-in-house",
+    "maggots"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 9915028 of Lucilia sericata (Common European Greenbottle Fly), Orange, California, 2018-02-18; four current identifications (glmory: Lucilia).",
+   "caveats": "Sharp top view on a pale textured wall, metallic green with red eyes, and the observer's 1 mm scale bar printed in the lower left corner (part of the image). iNaturalist's common name is 'Common European Greenbottle Fly'; US sources call Lucilia sericata the common green bottle fly, one of the blow flies. The observer identified it to genus; three others to species.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1018."
+  },
+  {
+   "id": "flesh-fly",
+   "forPages": [
+    "flies-in-house",
+    "maggots"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 162710628 of Sarcophaga subvicina, New York, 2023-05-14; three current identifications; photo 1 of 17.",
+   "caveats": "Top view on a white surface: gray-striped thorax, checkered gray abdomen, red eyes, the look of a flesh fly. Flesh flies are normally named to species only under a microscope, so caption it as a flesh fly (genus Sarcophaga), not by the species name. CC BY, so not a lead image.",
+   "note": "Credit: (c) aispinsects, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x910."
+  },
+  {
+   "id": "drain-fly-larva",
+   "forPages": [
+    "how-to-get-rid-of-drain-flies",
+    "flies-in-house",
+    "maggots"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 29101450 of Clogmia albipunctata (Bathroom Moth Fly), Vienna, Austria, 2019-07-19; two current identifications; annotated larva by the observer; photo 1 of 3. Observer's note: 'in sink'",
+   "caveats": "Larva on a plain white background: segmented, gray-brown, with fine hairs and a dark breathing tube at the tail end (left). The observer found it in a sink. Taken in Austria; the species is the same bathroom moth fly found in US homes, but leave the place out of US captions or name it honestly. Life stage annotated by the observer. CC BY, so not a lead image.",
+   "note": "Credit: (c) carnifex, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x855."
+  },
+  {
+   "id": "casemaking-clothes-moth",
+   "forPages": [
+    "moths-in-house",
+    "clothes-moths",
+    "tiny-brown-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 176048740 of Tinea pellionella (Case-bearing Clothes Moth), Okanagan Falls, British Columbia, Canada, 2023-07-31; two current identifications; annotated adult by another iNaturalist user (luck); photo 1 of 2.",
+   "caveats": "Adult only, resting on a white tissue: narrow gray-brown wings with faint dark spots and a tuft of tawny hair on the head. Its larval case is not in this photo, so never caption it 'with its case'; casemaking-clothes-moth-larva (already on file) shows the case. Taken in British Columbia, Canada: leave the place out of US captions. A finger is blurred at the left edge. Adult annotated by the second identifier.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1191."
+  },
+  {
+   "id": "larder-beetle",
+   "forPages": [
+    "beetles-in-house",
+    "pantry-pests",
+    "tiny-brown-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 76795736 of Dermestes lardarius (Larder Beetle), Butler County, Pennsylvania, 2021-05-02; four current identifications.",
+   "caveats": "Classic top view on a wooden surface: black beetle with a pale tan band across the front half of the wing covers, dark spots in the band. Four agreeing identifications. No scale object; the beetle is larger than the drugstore and cigarette beetles on tiny-brown-bugs, so give its size from a written source if it appears there.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "ground-beetle",
+   "forPages": [
+    "beetles-in-house",
+    "bugs-that-look-like-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 222572904 of Pterostichus melanarius (Rain Beetle), United States (no closer place given), 2024-06-09; two current identifications; annotated adult by the observer; photo 2 of 2. Observer's note: 'Attracted to a UV light lure at night. Specimen collected.'",
+   "caveats": "A pinned specimen, not a live beetle indoors: a brass pin head shows on the right wing cover, and it sits on foam beside a ruler card printed 'CAT. NO.' and 'METRIC' (the numbers on the card are centimeters). The observer attracted it to a UV light at night and collected it; this is the second of two photos and the place is recorded only as 'United States'. Caption as a ground beetle (Pterostichus melanarius); give any size in inches first, from a written source.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "long-tailed-mealybug",
+   "forPages": [
+    "houseplant-bugs",
+    "tiny-white-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 7668880 of Pseudococcus longispinus (long-tailed mealybug), Orange, California, 2017-08-26; two current identifications.",
+   "caveats": "Close-up of one white mealybug with long tail filaments on a green stem, with the observer's 1 mm scale bar printed lower left. A few other small insects sit on the stem below it; caption only the mealybug. The record does not say whether the plant was indoors; cite a source for long-tailed mealybug as a houseplant pest.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x949."
+  },
+  {
+   "id": "brown-soft-scale",
+   "forPages": [
+    "houseplant-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 343123523 of Coccus hesperidum (Brown Soft Scale), Mountain View, California, 2026-03-14; two current identifications. Observer's note: 'On a California Bay (Umbellularia californica).'",
+   "caveats": "A single flat, oval, tan-brown scale insect on a leaf with net-like veins. The plant is a California bay (an outdoor tree), so say 'on a leaf', not on a named houseplant. No scale object. Tall frame.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "greenhouse-whitefly",
+   "forPages": [
+    "houseplant-bugs",
+    "tiny-white-bugs",
+    "learn/whitefly-identification-control"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 1727167 of Trialeurodes vaporariorum (Greenhouse Whitefly), Russian River, California, 2015-07-04; three current identifications (singhiella: Aleyrodidae).",
+   "caveats": "Very close top view of one adult on a leaf with the observer's 0.1 mm scale bar printed lower right (part of the image). Slightly soft at full size. Two species-level identifications plus one at family level (Aleyrodidae). CC BY, so not a lead image.",
+   "note": "Credit: (c) Don Loarie, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1165x1440."
+  },
+  {
+   "id": "western-flower-thrips",
+   "forPages": [
+    "houseplant-bugs",
+    "thrips"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 261203486 of Frankliniella occidentalis (Western Flower Thrips), San Benito County, California, 2025-02-08; three current identifications (trevvan: Thysanoptera). Observer's note: 'Beat from Juniper and Salix along Panoche creek'",
+   "caveats": "One yellow-orange adult on white cloth; the observer's note says it was beaten from juniper and willow along a creek, so it was collected outdoors, not from a houseplant. The observer identified it only as a thrips; two others named the species. No scale object. CC BY, so not a lead image.",
+   "note": "Credit: (c) Trevor Van Loon, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "melon-aphid-colony",
+   "forPages": [
+    "houseplant-bugs",
+    "learn/aphid-control-guide"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 55997238 of Aphis gossypii (Melon Aphid), Orange, California, 2020-08-07; three current identifications; photo 1 of 2.",
+   "caveats": "A colony of yellow-green to dark green aphids of mixed sizes on the pale underside of a leaf, with the observer's 1 mm scale bar printed lower left. No winged adults in view. Melon aphid is also called cotton aphid.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1136."
+  },
+  {
+   "id": "potato-aphid",
+   "forPages": [
+    "houseplant-bugs",
+    "learn/aphid-control-guide"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 189900884 of Macrosiphum euphorbiae (Potato Aphid), Charlotte, North Carolina, 2023-11-03; two current identifications; photo 1 of 9. Observer's note: '2-3 mm'",
+   "caveats": "Magnified side view of one green aphid on a hairy leaf; the observer measured it at 2 to 3 mm (about 1/10 inch). Small file (757 x 602 px): fine in the article column, too small for a share image.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 757x602."
+  },
+  {
+   "id": "large-milkweed-bug",
+   "forPages": [
+    "how-to-get-rid-of-boxelder-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 59180717 of Oncopeltus fasciatus (Large Milkweed Bug), Fairfax, Virginia, 2020-09-08; three current identifications (mefisher: Lygaeinae); annotated adult by another iNaturalist user (michaelpirrello).",
+   "caveats": "Side view of an adult climbing a green stem (adult annotated by another user): orange-red with broad black bands, long black antennae. The angle hides part of the back pattern; use it beside a top view if the page compares red and black bugs pattern by pattern. The observer identified it only to subfamily; two others to species.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1173x1498."
+  },
+  {
+   "id": "small-milkweed-bug",
+   "forPages": [
+    "how-to-get-rid-of-boxelder-bugs",
+    "bugs-in-house-in-winter"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 255464825 of Lygaeus kalmii (Small Milkweed Bug), United States (no closer place given), 2024-12-17; two current identifications; annotated adult by the observer; photo 1 of 5. Observer's note (excerpt): 'Found this guy indoors. Probably looking for somewhere warm to wait out the winter.'",
+   "caveats": "Top view on white cloth indoors, December 17: orange-red band across the shoulders and wings, black wing tips with a pale edge. The observer found it indoors and thought it was looking for a warm place to wait out the winter (a guess, not a finding). Place recorded only as 'United States'. Adult annotated by the observer.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "red-shouldered-bugs",
+   "forPages": [
+    "how-to-get-rid-of-boxelder-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 108894731 of Jadera haematoloma (Red-shouldered Bug), McAllen, Texas, 2022-03-18; two current identifications; photo 1 of 2.",
+   "caveats": "A mating pair on white-painted concrete, fairly small in a wide frame: black bodies with red edges and red 'shoulders'. Southern Texas; check a source for the US range before telling readers where they will see it.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x795."
+  },
+  {
+   "id": "european-firebug",
+   "forPages": [
+    "how-to-get-rid-of-boxelder-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 54848977 of Pyrrhocoris apterus (European Firebug), Salt Lake City, Utah, 2020-07-29; four current identifications; annotated adult by another iNaturalist user (michaelpirrello).",
+   "caveats": "Top view among river stones; slightly soft, but the red pattern with two black spots and a black triangle reads clearly. A European species photographed in Salt Lake City, Utah: keep the place in the caption and check a source before saying how widespread it is in the US. Four agreeing identifications; adult annotated by another user.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "boxelder-bug-nymph",
+   "forPages": [
+    "how-to-get-rid-of-boxelder-bugs",
+    "bugs-in-house-in-winter"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 124845257 of Boisea trivittata (Eastern Boxelder Bug), Rifle Falls State Park, Colorado, 2022-06-18; two current identifications; annotated nymph by another iNaturalist user (michaelpirrello).",
+   "caveats": "Bright red abdomen with dark wing pads, on blue-gray fabric; slightly soft. A small green leafhopper sits just above its antennae: caption only the boxelder bug nymph. Nymph annotated by another user. The adult (boxelder-bug) is already on file.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1183x1775."
+  },
+  {
+   "id": "masked-hunter",
+   "forPages": [
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 377318047 of Reduvius personatus (Masked Hunter), Rouyn-Noranda, Quebec, Canada, 2026-07-01; three current identifications; annotated adult by the observer; photo 1 of 2.",
+   "caveats": "Flash-lit top view of an adult on weathered wood (adult annotated by the observer). Taken in Quebec, Canada: leave the place out of US captions. Masked hunters are assassin bugs and can bite, but do not link them to Chagas disease without a source.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x826."
+  },
+  {
+   "id": "masked-hunter-nymph",
+   "forPages": [
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 178636280 of Reduvius personatus (Masked Hunter), White River Junction, Vermont, 2023-08-15; three current identifications; annotated nymph by the observer. Observer's note: 'amazing'",
+   "caveats": "The nymph coats itself in dust and lint, so at first glance it looks like a fuzzy gray spider: good for a 'what is this?' caption. On white-painted wood beside a wooden edge. Nymph annotated by the observer. CC BY, so not a lead image.",
+   "note": "Credit: (c) Jason Hill, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1447."
+  },
+  {
+   "id": "squash-bug",
+   "forPages": [
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 91567601 of Anasa tristis (Squash Bug), Hillsborough, North Carolina, 2021-08-17; two current identifications; annotated adult by another iNaturalist user (ncb1221).",
+   "caveats": "Adult top view on a leaf; the phone processing makes it look over-sharpened, but the mottled gray-brown back and the striped abdomen edge read clearly. Adult annotated by another user.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1099."
+  },
+  {
+   "id": "milkweed-assassin-bug",
+   "forPages": [
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 4990060 of Zelus longipes (Milkweed Assassin Bug), Houston, Texas, 2016-10-01; four current identifications; annotated adult by the observer.",
+   "caveats": "Side view of an orange and black adult with very long black legs on a white wall; slightly soft. Four agreeing identifications; adult annotated by the observer. Assassin bugs can bite if handled; say so only with a source.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1033."
+  },
+  {
+   "id": "parson-spider",
+   "forPages": [
+    "black-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 371465479 of Herpyllus ecclesiasticus (Eastern Parson Spider), United States (no closer place given), 2026-06-12; two current identifications; annotated adult by the observer; photo 1 of 2. Observer's note: 'In a tarp stored in a garage'",
+   "caveats": "Black spider with a white band pattern on the abdomen, on concrete; the observer found it in a tarp stored in a garage. Fits the page's 'black spider with white spots' search. Place recorded only as 'United States'. Adult annotated by the observer.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x834."
+  },
+  {
+   "id": "american-giant-millipede",
+   "forPages": [
+    "millipedes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 147211639 of Narceus americanus (American Giant Millipede Complex), Chapel Hill, North Carolina, 2023-01-23; three current identifications.",
+   "caveats": "Coiled in loose soil, sharp, with red rings between the dark segments. iNaturalist files Narceus americanus as a species complex ('American Giant Millipede Complex'), so caption it as an American giant millipede. A large outdoor millipede, not one of the small kinds that wander indoors: say so if it appears on the house page (greenhouse-millipede, already on file, shows a small one).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "european-earwig-male",
+   "forPages": [
+    "how-to-get-rid-of-earwigs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 223467049 of Forficula auricularia (European Earwig), Urbana, Illinois, 2024-06-17; two current identifications; annotated adult and male by another iNaturalist user (shrug_bugs); photo 1 of 7.",
+   "caveats": "Top view on gray fabric. The strongly curved pincers mark a male (male annotated by another user). The existing european-earwig photo is a female (straight pincers), so the two make a male and female pair.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1464."
+  },
+  {
+   "id": "gray-silverfish",
+   "forPages": [
+    "how-to-get-rid-of-silverfish",
+    "bugs-in-house-in-winter"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 109156875 of Ctenolepisma longicaudatum (Long-tailed Silverfish), Austin, Texas, 2022-03-13; two current identifications; photo 6 of 7.",
+   "caveats": "Close top view beside white-painted trim on an orange-brown surface; the long antennae and tail filaments run partly out of frame. iNaturalist's common name is 'Long-tailed Silverfish'; gray silverfish is another name for the same species. The existing silverfish photo shows the common silverfish (Lepisma saccharinum), so the two show both household species.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x891."
+  },
+  {
+   "id": "raccoon-on-chimney",
+   "forPages": [
+    "animals-in-attic"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 203890432 of Procyon lotor (Common Raccoon), Chapel Hill, North Carolina, 2024-03-25; three current identifications; photo 2 of 3. Observer's note: 'on the chimney of a roof'",
+   "caveats": "Night flash photo of a raccoon looking over the brick top of a house chimney (observer's note: 'on the chimney of a roof'). Tall frame. Strong lead or share image for animals-in-attic. Second of three photos in the observation.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1800."
+  },
+  {
+   "id": "flying-squirrel-attic",
+   "forPages": [
+    "animals-in-attic"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 22191794 of Glaucomys volans (Southern Flying Squirrel), New Jersey, 2019-04-07; five current identifications (schoenitz: Glaucomys).",
+   "caveats": "Black-and-white trail-camera image from inside an attic: the squirrel climbs head-down on a brick chimney that rises out of the insulation, its flat, furry tail pointing up. We cut off the camera's data strip at the bottom (the record says 'bottom 7% cropped (caption strip)'). The camera's stamp read 04/07/2018 while the observation is dated 2019-04-07, so do not state a date. A thin curved line runs from behind the animal across the chimney corner; it is not the tail (most likely a cable). The observer identified it to genus; four others to species.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x626."
+  },
+  {
+   "id": "eastern-gray-squirrel",
+   "forPages": [
+    "animals-in-attic"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 366669598 of Sciurus carolinensis (Eastern Gray Squirrel), King County, Washington, 2026-05-29; three current identifications.",
+   "caveats": "Sitting up in grass, sharp, nothing to do with a building. Photographed in Washington State, where the species was introduced: leave the place out of captions.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1072x1072."
+  },
+  {
+   "id": "big-brown-bat",
+   "forPages": [
+    "animals-in-attic",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'Big Brown Bat (21925795404).jpg', from the U.S. Fish and Wildlife Service Midwest Region on Flickr: 'If you've seen a bat flying around after sunset in western Minnesota, chances are it's a big brown bat like this one from Stevens County. Photo by Alex Galt/USFWS.'",
+   "caveats": "A bat hanging head-down against white-painted wood, sky at the left; that is how USFWS published it, not a rotation error. The USFWS caption names the species and the county but not the building. Credit as recorded ('U.S. Fish and Wildlife Service - Midwest Region'); the caption names the photographer as Alex Galt/USFWS. Taken October 28, 2015 per the file data.",
+   "note": "Credit: U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x889."
+  },
+  {
+   "id": "bat-droppings-ruler",
+   "forPages": [
+    "animal-droppings",
+    "animals-in-attic"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 92243395 of Myotis lucifugus (Little Brown Bat), Kings County, Prince Edward Island, Canada, 2021-08-20; two current identifications; annotated scat by another iNaturalist user (caitjcampbell); photo 4 of 4. Observer's note: 'Emerged from our patio umbrella - the scat was the tipoff that something was up.'",
+   "caveats": "Several dark, crumbly droppings beside a clear plastic ruler. The ruler reads in centimeters on top with a second scale below, and the angle distorts it: do not state a size from this photo. The droppings were the 'tipoff' to bats roosting in a patio umbrella (observer's note); the bats are in the observation's other photos, not this one, so caption as droppings left by little brown bats, as identified on iNaturalist. Prince Edward Island, Canada: leave the place out of US captions. CC BY.",
+   "note": "Credit: (c) Barry Cottam, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1467."
+  },
+  {
+   "id": "bat-droppings-siding",
+   "forPages": [
+    "animal-droppings",
+    "animals-in-attic"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 184631840 of Eptesicus fuscus (Big Brown Bat), Watson, Minnesota, 2023-09-23; three current identifications (talusrock: Vespertilionidae); annotated scat by the observer; photo 1 of 2. Observer's note: 'Guano'",
+   "caveats": "Clumps of small dark droppings stuck to brown wooden siding at a gap between boards; no bat in the photo. The species rests on two iNaturalist users judging the droppings (a third said only 'vesper bats'), so caption as bat droppings, identified on iNaturalist as big brown bat. CC BY.",
+   "note": "Credit: (c) Matt Muir, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x904."
+  },
+  {
+   "id": "raccoon-latrine-deck",
+   "forPages": [
+    "animal-droppings"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 36140627 of Procyon lotor (Common Raccoon), Point Richmond, Richmond, California, 2019-11-25; two current identifications; annotated scat by another iNaturalist user (douch); photo 2 of 3. Observer's note: 'For over a year this one or more raccoons have used this deck as a latrine site. This is a few mont accumulation. First photo is the accumulated scats on the soil within a large flower pot.'",
+   "caveats": "A messy spread of old and newer droppings on a backyard deck against a fence, some broken down and pale. No raccoon in the photo: the observer says raccoons have used this deck as a latrine for over a year and this is a few months' accumulation. Any raccoon roundworm (Baylisascaris) warning in a caption must be sourced to CDC. CC BY.",
+   "note": "Credit: (c) Barbara Banfield, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x976."
+  },
+  {
+   "id": "raccoon-latrine-log",
+   "forPages": [
+    "animal-droppings"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 328536463 of Procyon lotor (Common Raccoon), Middletown, Connecticut, 2025-11-27; two current identifications; annotated scat by the observer; photo 1 of 5. Observer's note: 'Several piles of feces, some appear to be collections of multiple defecations old and newer; all on a large felled tree in swampy area'",
+   "caveats": "Low, close view of a heap of tubular droppings on a felled tree, some furred with white mold; no raccoon in the photo (identified from the droppings by the observer and one other user). Observer's note: several piles, old and newer, on a large felled tree in a swampy area. A woodland site, not a yard. Same CDC rule for any roundworm warning. CC BY.",
+   "note": "Credit: (c) cappycollins, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x690."
+  },
+  {
+   "id": "meadow-vole-runways",
+   "forPages": [
+    "holes-in-yard",
+    "how-to-get-rid-of-moles"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 355636621 of Microtus pennsylvanicus (Eastern Meadow Vole), Douglas, New Brunswick, Canada, 2026-04-27; two current identifications; annotated construction by the observer; photo 1 of 2. Observer's note: 'Under plywood sheet in field. You can see the little tunnels its made. When the board was lifted up it scurried in a circuit through the paths.'",
+   "caveats": "A vole looks out of a hole in matted dead grass; a shallow runway leads away below it. Observer's note: under a plywood sheet in a field (the board's edge shows top left); when the board was lifted the vole ran a circuit through its paths. New Brunswick, Canada: leave the place out of US captions. Large file (450 KB) because of the grass texture. CC BY.",
+   "note": "Credit: (c) Ian Murdoch, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "vole-hole-snowmelt",
+   "forPages": [
+    "holes-in-yard"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 66408064 of Microtus (Meadow Voles), Lolo National Forest, near Missoula, Montana, 2020-12-10; two current identifications; annotated construction by the observer.",
+   "caveats": "A grass-lined hole with tufts of dry grass in melting snow; no vole in the photo. Identified only to genus (Microtus) by the observer and one other user, from the sign alone. A national forest, not a yard: caption it as the kind of hole and nest grass voles leave, seen when snow melts. Large file (296 KB). CC BY.",
+   "note": "Credit: (c) Cole Wolf, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "mole-ridge",
+   "forPages": [
+    "holes-in-yard",
+    "how-to-get-rid-of-moles"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 261498716 of Scalopus aquaticus (Eastern Mole), Sherrill Township, Missouri, 2025-02-10; two current identifications; annotated construction by another iNaturalist user (swords).",
+   "caveats": "A raised, cracked line of soil running across bare ground (a mole's surface tunnel); subtle at small sizes, so the caption should point to the cracked line across the middle. No mole in the photo; two iNaturalist users identified the sign. Large file (289 KB).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x904."
+  },
+  {
+   "id": "mole-hills",
+   "forPages": [
+    "holes-in-yard",
+    "how-to-get-rid-of-moles"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 19381329 of Scalopus aquaticus (Eastern Mole), Bloomington, Indiana, 2019-01-02; two current identifications; annotated construction by another iNaturalist user (imris). Observer's note: 'Tentatively guessing eastern mole over star-nosed. Not near water and mounds aren't over a foot wide. Have not seen the critter itself; only the hills.'",
+   "caveats": "Two mounds of loose dark soil pushed up through fallen leaves, no open hole: the classic mole hill. The observer wrote that eastern mole was a tentative pick over star-nosed mole and that only the hills were seen, so caption as mole hills (identified on iNaturalist as eastern mole) and do not lean on the species. No scale object. A Texas mole photo with an open hole in a fan-shaped mound was tried and dropped because it reads like a pocket gopher mound.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x801."
+  },
+  {
+   "id": "chipmunk-burrow",
+   "forPages": [
+    "holes-in-yard"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 355754121 of Tamias striatus (Eastern Chipmunk), Blount County, Alabama, 2026-04-27; two current identifications; annotated construction by the observer; photo 2 of 2.",
+   "caveats": "A clean, round burrow entrance in a yard of grass and clover, with no pile of soil around it. The chipmunk is in the observation's other photo; the link between this hole and the chipmunk rests on the observer. No scale object. Tall frame.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "crayfish-chimney",
+   "forPages": [
+    "holes-in-yard"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 252552756 of Procambarus clarkii (Red Swamp Crayfish), Clyde Shepherd Nature Preserve, Decatur, Georgia, 2019-04-23; two current identifications; annotated construction by another iNaturalist user (emmerson_cray).",
+   "caveats": "A mud chimney with the crayfish visible inside, in wet, muddy ground at a nature preserve (not a lawn). Caption it as a crayfish chimney; the species named is the one in this photo, not necessarily the one in a reader's yard. Annotations by another user. CC BY.",
+   "note": "Credit: (c) Dan Vickers, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "termite-damaged-wood",
+   "forPages": [
+    "termite-damage",
+    "what-do-termites-look-like"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'One of the greatest threats to this structure has been termite damage. (155edfe9-...).JPG', a National Park Service photo (Timucuan Ecological and Historic Preserve, 2009-07-29) captioned: 'One of the greatest threats to this structure has been termite damage.'",
+   "caveats": "Wood eaten out along the grain into thin, layered ridges, under a board in a historic structure (NPS, Timucuan Ecological and Historic Preserve, Florida, July 2009). The NPS caption says termite damage but names no species, so caption it as termite damage only. No termites in the photo.",
+   "note": "Credit: NPS Photo, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x900."
+  },
+  {
+   "id": "termite-mud-tubes",
+   "forPages": [
+    "termite-damage",
+    "what-do-termites-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'USMC-110924-M-KV513-225.jpg' (US Marine Corps, Sgt. Justin J. Shemanski, 2011-09-24): 'A telltale sign of infestation, \"tubes\" like these found in a building at Forward Operating Base Zeebrugge, Afghanistan, provide subterranean termites with a passage of travel above ground.' Taken during a visit by a Preventive Medicine Unit.",
+   "caveats": "Several thin mud tubes running up a white interior wall, shot at a steep upward angle. The US Marine Corps caption says subterranean termites but names no species, and the building is in Afghanistan: caption as termite mud tubes and either leave out the place or name it honestly. No scale object.",
+   "note": "Credit: Sgt. Justin J. Shemanski, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x792."
+  },
+  {
+   "id": "drywood-termite-pellets",
+   "forPages": [
+    "termite-damage",
+    "what-do-termites-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file '1977. Western drywood termite (Incisitermes minor) fecal pellets. Figure 27-C on page 74 in Furniss and Carolin. 1977. Western Forest Insects.' (USDA Forest Service, Region 6 State and Private Forestry, Forest Health Protection, on Flickr).",
+   "caveats": "Black-and-white 1977 book figure (Furniss and Carolin, Western Forest Insects, figure 27-C): magnified pellets with ridged sides, on black. No scale, so do not imply life size. The identification is the figure's title; the Commons description holds only a public domain notice. The only usable photo of drywood termite pellets found (see gaps).",
+   "note": "Credit: R6, State & Private Forestry, Forest Health Protection, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1058x1367."
+  },
+  {
+   "id": "formosan-termites-wood",
+   "forPages": [
+    "what-do-termites-look-like",
+    "termite-damage"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'White Ants (Termites)147.jpg', USDA Agricultural Research Service photo by Peggy Greb: 'Formosan subterranean termites feeding on spruce (left) and birch wood blocks.'",
+   "caveats": "Laboratory photo: dozens of pale workers and a few soldiers with orange-brown heads on two wood blocks (spruce left, birch right). Copy the credit exactly as recorded, including the uploader's name in Tamil script. Formosan termites are a southern US species; say where they occur only with a source.",
+   "note": "Credit: Peggy Greb, US Dept of Agriculture, Agricultural Research Service. Uploaded by த*உழவன்., Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x785."
+  },
+  {
+   "id": "formosan-termite-soldier",
+   "forPages": [
+    "what-do-termites-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'K8085-3 (8412887808).jpg' (USDA on Flickr, from the ARS image library): 'A Formosan subterranean termite soldier gnaws on a piece of wood. Soldiers make up approximately 10 percent of a termite colony. Formosan subterranean termites have powerful mandibles for defense against intruders and dark, oval head shapes contrasting with the more rectangular head shape of the native' eastern subterranean termite.",
+   "caveats": "Scanned color slide with a warm orange cast: one soldier with an oval amber head and dark mandibles on split wood. The USDA caption contrasts the Formosan soldier's oval head with the more rectangular head of the native eastern subterranean termite: a usable caption point, sourced to USDA ARS. From USDA ARS's Formosan termite image series (K8085).",
+   "note": "Credit: USDAgov, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x815."
+  },
+  {
+   "id": "termite-swarmers",
+   "forPages": [
+    "what-do-termites-look-like",
+    "flying-ants-vs-termites",
+    "termite-damage"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 346853050 of Reticulitermes flavipes (Eastern Subterranean Termite), Blount County, Alabama, 2026-03-31; two current identifications; annotated adult and construction by the observer; photo 2 of 3.",
+   "caveats": "Three dark swarmers (alates) with long, pale wings of equal length on decaying wood, the swarmers homeowners find in spring. Named to species by the observer and one other user, but subterranean termites are hard to name to species from photos: caption as subterranean termite swarmers (Reticulitermes). Same observation as termite-workers-soldier. No real side-by-side termite and flying ant photo was found; pair this with carpenter-ant-winged-queen instead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x802."
+  },
+  {
+   "id": "termite-workers-soldier",
+   "forPages": [
+    "what-do-termites-look-like",
+    "termite-damage"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 346853050 of Reticulitermes flavipes (Eastern Subterranean Termite), Blount County, Alabama, 2026-03-31; two current identifications; annotated adult and construction by the observer; photo 3 of 3.",
+   "caveats": "Two soldiers (long amber heads, dark mandibles) and a pale worker at a tunnel in rotten wood, from the same colony as termite-swarmers. The observation's 'adult' annotation refers to the swarmers, not to these. Caption at genus level (Reticulitermes), as for termite-swarmers.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x824."
+  },
+  {
+   "id": "carpenter-ant-winged-queen",
+   "forPages": [
+    "flying-ants-vs-termites",
+    "what-do-termites-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 47906724 of Camponotus pennsylvanicus (Eastern Black Carpenter Ant), Waltham, Massachusetts, 2020-05-30; three current identifications (peterslingsby: Camponotus); annotated adult and female by another iNaturalist user (mettcollsuss); photo 1 of 2.",
+   "caveats": "Top view of a winged queen on a leaf (adult and female annotated by another user); slightly soft phone photo. The folded wings hide the narrow waist, so this photo cannot illustrate the 'pinched waist' cue; it does show the bent (elbowed) antennae and the dark, veined wings. Two species-level identifications plus one at genus level.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "carpenter-bee-female",
+   "forPages": [
+    "how-to-get-rid-of-carpenter-bees",
+    "bee-sting-vs-wasp-sting"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 244806874 of Xylocopa virginica (Eastern Carpenter Bee), Birmingham, Alabama, 2024-09-29; four current identifications; annotated adult and female by the observer; photo 1 of 2.",
+   "caveats": "Close-up of the all-black face and the fuzzy yellow thorax on pink flowers; the black face marks a female (annotated by the observer). Shallow focus: the abdomen is blurred, so use carpenter-bee-on-flower to show the shiny black abdomen. Four agreeing identifications.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x874."
+  },
+  {
+   "id": "carpenter-bee-male",
+   "forPages": [
+    "how-to-get-rid-of-carpenter-bees",
+    "bee-sting-vs-wasp-sting"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 204742178 of Xylocopa virginica (Eastern Carpenter Bee), Birmingham, Alabama, 2024-03-31; three current identifications; annotated adult and male by the observer; photo 2 of 4. Observer's note: 'Found on the pathway and relocated to a safe spot.'",
+   "caveats": "Face-on on a path; the pale yellow patch on the face marks a male (annotated by the observer, who moved it to a safe spot). Males have no stinger: say so in a caption only with a source.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x906."
+  },
+  {
+   "id": "carpenter-bee-on-flower",
+   "forPages": [
+    "how-to-get-rid-of-carpenter-bees",
+    "bee-sting-vs-wasp-sting"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 91880691 of Xylocopa virginica (Eastern Carpenter Bee), University City, Missouri, 2021-08-05; three current identifications; annotated male by another iNaturalist user (tockgoestick); photo 2 of 2. Observer's note: 'SBEE, 30, Pycnanthemum verticillatum iN-355'",
+   "caveats": "Feeding on mountain mint with wings spread: the shiny, nearly hairless black abdomen that tells a carpenter bee from a bumble bee. Sex male per another user's annotation; the face is not visible, so do not state the sex from this photo.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "honey-bee-on-flower",
+   "forPages": [
+    "bee-sting-vs-wasp-sting",
+    "wasp-vs-hornet"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 301604008 of Apis mellifera (Western Honey Bee), Gurnee, Illinois, 2025-07-27; three current identifications; annotated adult and female by the observer.",
+   "caveats": "Side view of a worker on a white flower head; hairy body, striped abdomen and wings sharp. Female per the observer (workers are female). The existing honey-bee photo is a pinned museum specimen; this is the live view.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1601."
+  },
+  {
+   "id": "honey-bee-swarm",
+   "forPages": [
+    "bee-sting-vs-wasp-sting",
+    "wasp-nests"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 128011193 of Apis mellifera (Western Honey Bee), Tustin, California, 2022-07-26; five current identifications; annotated adult by the observer; photo 1 of 4. Observer's note (excerpt): 'Last photo is ~8 hours later, shows nearly all bees had left.'",
+   "caveats": "A dense cluster of bees on a chain-link fence in front of a sign (only fragments of black letters show; no brand or name legible). The observer's place line names a business; caption the place as Tustin, California, or leave it out. The observer's last photo, about 8 hours later, showed nearly all the bees gone: useful for 'a swarm is not a nest'. Five agreeing identifications.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "eastern-yellowjacket-live",
+   "forPages": [
+    "wasp-vs-hornet",
+    "bee-sting-vs-wasp-sting",
+    "wasp-nests",
+    "yellow-jackets"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 312084098 of Vespula maculifrons (Eastern Yellowjacket), Leominster, Massachusetts, 2025-09-04; two current identifications; annotated adult by the observer.",
+   "caveats": "Sharp side view of a live adult on white cloth (adult annotated by the observer). The existing eastern-yellowjacket photo is a pinned specimen; this is the live view.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "yellowjacket-paper-nest",
+   "forPages": [
+    "wasp-nests",
+    "yellow-jackets"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 80793300 of Vespula (Ground Yellowjackets), Lake Forest Park, Washington, 2021-05-28; three current identifications; annotated construction by another iNaturalist user (kzoebel); photo 3 of 6. Observer's note (excerpt): 'Found inside the lid of a storage box, my guess is probably a common yellowjacket nest. Spherical with a diameter of about 18 cm (7 inches). I will guess from last year or older.'",
+   "caveats": "An empty, round, gray-brown paper nest on a dark blue backdrop beside a tape measure marked in inches (the tape's brand name is legible); the observer measured it at about 7 inches across and found it inside the lid of a storage box, probably from the year before. All three identifications stop at genus (Vespula): caption as a yellowjacket nest, not by species. CC BY.",
+   "note": "Credit: (c) John Brew, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1004."
+  },
+  {
+   "id": "european-hornet-nest",
+   "forPages": [
+    "wasp-nests",
+    "wasp-vs-hornet"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 408334988 of Vespa crabro (European Hornet), Mason Neck, Virginia, 2026-10-14; four current identifications; annotated construction by another iNaturalist user (pmagerma).",
+   "caveats": "Several hornets on the rim of a tree hollow where they nest; the paper nest itself is out of sight inside. Four agreeing identifications. Large file (244 KB).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "hickory-tussock-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 94044130 of Lophocampa caryae (Hickory Tussock Moth), Washington County, Vermont, 2021-09-07; three current identifications (raffib128: Lophocampa); annotated larva by another iNaturalist user (judywelna); photo 1 of 2.",
+   "caveats": "White, hairy caterpillar with black tufts down the back and long black hair pencils, on a leaf. Larva annotated by another user. Any statement that its hairs irritate skin needs a written source.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "woolly-bear-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 190009648 of Pyrrharctia isabella (Isabella Tiger Moth), Charlotte, North Carolina, 2023-11-02; three current identifications; annotated larva by another iNaturalist user (woolcarderbee).",
+   "caveats": "The familiar woolly bear on a leaf: black at both ends, rusty orange in the middle. Useful as the 'fuzzy but not a stinging caterpillar' contrast; word any handling advice from a source. Smaller file (999 px wide). Larva annotated by another user.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 999x833."
+  },
+  {
+   "id": "american-dagger-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 179226577 of Acronicta americana (American Dagger), Woodstock, Vermont, 2023-08-18; three current identifications; annotated larva by another iNaturalist user (tsn); photo 1 of 2.",
+   "caveats": "Curled up on a wooden surface: fluffy pale yellow hair with long black hair tufts. Curled, so the body shape is hidden, but it is the look readers search for. Any irritation warning needs a written source. Large file (303 KB). Larva annotated by another user.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "white-marked-tussock-caterpillar",
+   "forPages": [
+    "stinging-caterpillars"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 53310286 of Orgyia leucostigma (White-marked Tussock Moth), Woodbridge, Connecticut, 2020-07-16; four current identifications (drbuttswa: Orgyia); annotated larva by another iNaturalist user (judywelna); photo 1 of 3.",
+   "caveats": "Flash-lit on a red-stained deck board at night: red head, four cream tufts on the back, long black hair pencils at both ends. Larva annotated by another user.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x675."
+  },
+  {
+   "id": "eastern-copperhead",
+   "forPages": [
+    "copperhead-look-alikes",
+    "copperheads"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 5969441 of Agkistrodon contortrix (Eastern Copperhead), Houston, Texas, 2016-08-14; five current identifications.",
+   "caveats": "Adult coiled in leaf litter, the hourglass crossbands and copper head clear; twigs cross the frame. Venomous: captions should tell readers to keep their distance, never to handle. Five agreeing identifications. The CC0 lead for copperhead-look-alikes.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "copperhead-juvenile",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes",
+    "copperheads"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 141425644 of Agkistrodon contortrix (Eastern Copperhead), Silsbee, Texas, 2022-11-01; eleven current identifications; annotated juvenile by another iNaturalist user (laurentbarthe); photo 1 of 2. Observer's note: 'A young one, displaying it's caudal lure.'",
+   "caveats": "Young copperhead coiled on wet leaves with its bright yellow tail tip raised (the observer notes it was displaying its caudal lure). The best 'baby copperhead' photo in the set, but CC BY, so not a lead image: lead with eastern-copperhead and use this in the body. Eleven agreeing identifications; juvenile annotated by another user.",
+   "note": "Credit: (c) Alan Rockefeller, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x882."
+  },
+  {
+   "id": "corn-snake-juvenile",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 103457605 of Pantherophis guttatus (Red Cornsnake), Craven County, North Carolina, 2007-05-18; six current identifications; annotated juvenile by another iNaturalist user (dark_l0rd2).",
+   "caveats": "Young corn snake coiled under a log with its head raised: red-brown saddles edged in black on gray. Flash-lit and sharp; photographed in 2007. Juvenile annotated by another user. iNaturalist's name is 'Red Cornsnake'. CC BY.",
+   "note": "Credit: (c) Tom Kennedy, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x803."
+  },
+  {
+   "id": "rat-snake-juvenile",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes",
+    "rat-snakes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 316831391 of Pantherophis alleghaniensis (Central Ratsnake), Charlotte, North Carolina, 2025-09-26; seven current identifications; annotated juvenile by another iNaturalist user (junomoon); photo 1 of 3.",
+   "caveats": "Young rat snake, gray with dark blotches, head down over pine straw beside a lichen-spotted stone edge. iNaturalist's common name for Pantherophis alleghaniensis is 'Central Ratsnake', while many US sources use other names for the rat snakes of this region: caption it as a young rat snake and give the scientific name once. Seven agreeing identifications; juvenile annotated by another user.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "northern-water-snake",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 277886534 of Nerodia sipedon (Common Watersnake), Westborough, Massachusetts, 2025-04-28; two current identifications; photo 1 of 5.",
+   "caveats": "Adult basking on a mossy log by the water with its head up; the dark crossbands are blurrier than a copperhead's hourglasses. iNaturalist's name is 'Common Watersnake'. Slightly soft (long zoom) but clear.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "eastern-hognose-snake",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 59898568 of Heterodon platirhinos (Eastern Hognose Snake), Lothian, Maryland, 2020-09-17; nine current identifications; photo 1 of 5.",
+   "caveats": "Coiled in dry oak leaves, seen from above; the upturned snout and blotched pattern show. Nine agreeing identifications. No life stage is recorded, so do not call it a baby.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "eastern-milk-snake",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 167025821 of Lampropeltis triangulum (Eastern Milksnake), Southborough, Massachusetts, 2023-06-12; three current identifications.",
+   "caveats": "Top view on asphalt: red-brown saddles edged in black on a pale gray-tan ground, the pattern most often mistaken for a copperhead. The snake fills the middle of a tall frame. No life stage recorded. Large file (441 KB) because of the asphalt texture.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "fall-field-cricket",
+   "forPages": [
+    "crickets-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 60757654 of Gryllus pennsylvanicus (Fall Field Cricket), Oak Bay, British Columbia, Canada, 2020-09-25; two current identifications.",
+   "caveats": "Top view on an open hand, which gives a sense of size. The long ovipositor at the rear shows a female (our reading; no sex is recorded). Oak Bay, British Columbia, Canada: leave the place out of US captions. house-cricket and camel-cricket are already on file.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "how-to-get-rid-of-gnats",
+   "why": "Fungus gnat larvae: not found. No research-grade iNaturalist observation of fungus gnat larvae (Sciaridae) with an allowed photo licence turned up, and the only Commons image rests on its uploader's identification. The adult is on file (fungus-gnat). Fruit fly next to a gnat in one real photo: not found; pair fruit-fly with fungus-gnat."
+  },
+  {
+   "slug": "maggots",
+   "why": "House fly larvae named as such: not found. CDC PHIL 25572 (fly-maggot) is 'a fly larva of an unspecified species'. No North American blow fly larvae with a research-grade identification and an allowed licence were found either; the Lucilia larvae that turned up were L. bufonivora parasitizing toads in Europe: unsuitable. The maggot photo used is clean and not gory."
+  },
+  {
+   "slug": "black-spiders",
+   "why": "Black house spider (Badumna insignis): no US research-grade observation with an allowed licence. A red-legged purseweb spider candidate (iNaturalist 221746431) carried a watermark logo and was dropped. Added the eastern parson spider; bold-jumping-spider, false-black-widow and yellow-garden-spider were already on file."
+  },
+  {
+   "slug": "animals-in-attic",
+   "why": "Partial. Not found with a reliable identification and an allowed licence: a raccoon inside an attic (iNaturalist 213615912 shows one in a cage trap, not clearly in an attic), attic nest material, and chewed wires or insulation damage. A gray squirrel in a roof gap (iNaturalist 96732992, CC BY) was too small to read. Used raccoon-on-chimney, flying-squirrel-attic, eastern-gray-squirrel and big-brown-bat; roof-rat and roof-rat-rafters were already on file."
+  },
+  {
+   "slug": "animal-droppings",
+   "why": "Partial. Squirrel droppings: none with a reliable identification. Opossum droppings: the only candidate (iNaturalist 236844177, CC BY-SA) rests on the droppings alone with one agreeing user, and opossum droppings are easily confused with a dog's or a raccoon's, so it was left out. A public domain or CC0 raccoon latrine: CDC PHIL has none, and the CC0 iNaturalist options were atypical (crab-shell scat) or unclear, so both raccoon latrine photos are CC BY. Rat and mouse droppings were already on file."
+  },
+  {
+   "slug": "holes-in-yard",
+   "why": "Partial. Lawn digging by skunks or raccoons hunting grubs: not found with a reliable identification. Cicada killer and yellowjacket ground nest entrances were already on file (cicada-killer-burrow, yellowjacket-ground-nest). No photo in the set has a scale object; give hole sizes from written sources."
+  },
+  {
+   "slug": "flying-ants-vs-termites",
+   "why": "No real photo of a termite swarmer and a flying ant side by side was found. Use termite-swarmers with carpenter-ant-winged-queen. Two other winged carpenter ant candidates were dropped (iNaturalist 560318303: subject too small; 39325882: colors look wrong for the species)."
+  },
+  {
+   "slug": "termite-damage",
+   "why": "Partial. Drywood termite pellets in color: none with an allowed licence; the Bugwood photos on Commons are CC BY 3.0 US, which the photo script does not accept, so only the 1977 black-and-white figure is used. Mud tubes in a US home: none usable (Commons 'Termite tubes-1.jpg' is 453 px wide and its identification is a guess), so the public domain photo from Afghanistan is used."
+  },
+  {
+   "slug": "what-do-termites-look-like",
+   "why": "A public domain or CC0 photo of a native eastern subterranean termite soldier: not found. Commons 'Reticulitermes flavipes K8085-6.jpg' (USDA) was rejected: the K8085 series is USDA's Formosan termite set and the label could not be checked (the USDA gallery pages no longer load and no archived copy was found). Used the Formosan soldier and the CC0 Reticulitermes workers and soldiers."
+  },
+  {
+   "slug": "beetles-in-house",
+   "why": "A ground beetle photographed live indoors: not found with an allowed licence; the one used is a pinned specimen. A second cigarette beetle view (iNaturalist 302298316, CC0) was soft; the existing cigarette-beetle photo is better."
+  },
+  {
+   "slug": "thrips",
+   "why": "A CC0 western flower thrips with a scale bar exists (iNaturalist 10629194) but is only 645 px wide; the CC BY photo used is sharper and larger."
+  },
+  {
+   "slug": "already-on-file",
+   "why": "Targets in the brief that earlier batches already cover, so nothing was added: Indian meal moth (indian-meal-moth, indian-meal-moth-larva, indian-meal-moth-webbing), webbing-clothes-moth, casemaking-clothes-moth-larva, cigarette-beetle, drugstore-beetle, carpet-beetle-larva, booklouse, bed-bug-nymph, cluster-fly, fruit-fly, phorid-fly, drain-fly, fungus-gnat, spider-mite-webbing, twospotted-spider-mite, boxelder-bug, bold-jumping-spider, false-black-widow, yellow-garden-spider, wheel-bug, leaf-footed-bug, roof-rat, roof-rat-rafters, mouse-droppings-ruler, rat-droppings-table, rat-droppings-thumb, cicada-killer-burrow, yellowjacket-ground-nest, carpenter-bee-nest-hole, paper-wasp-nest, bald-faced-hornet-nest, organ-pipe-mud-dauber-nest, blue-mud-dauber-on-nest, dark-paper-wasp, european-paper-wasp, eastern-yellowjacket, bald-faced-hornet, european-hornet, cicada-killer, honey-bee, common-eastern-bumble-bee, may-june-beetle, green-june-beetle, horse-fly, deer-fly, puss-caterpillar, saddleback-caterpillar, io-moth-caterpillar, buck-moth-caterpillar, northern-fowl-mites, bird-mite-bites, house-cricket, camel-cricket."
+  }
+ ]
+}
