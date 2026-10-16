@@ -206,11 +206,13 @@ export default function HowToGetRidOfSpidersInHouseCanadaPage() {
               </tbody>
             </table>
           </div>
+          <p>Our photo guide to <Link href="/blog/house-spiders">common house spiders</Link> shows all three, along with the other spiders that turn up indoors, and the clue that identifies each.</p>
           <p>The wolf spider deserves one reassurance: it is the one that makes people scream &mdash; big, hairy, fast &mdash; and it is harmless, webless, and actively useful, eating more insects than the other two combined. It is also the easiest to exclude, because it enters at floor level under doors. None of the three is dangerous; if a bite is what brought you to this page, our <Link href="/blog/what-does-a-spider-bite-look-like">spider bite identification guide</Link> covers what real bites look like and the surprisingly short list of Canadian spiders that matter medically.</p>
 
           <h2>Step 1: The Vacuum Protocol — Where the Real Population Cut Happens</h2>
           <p>Nothing else in this guide removes as many spiders per hour as a vacuum with a hose attachment, because nothing else removes <strong>egg sacs</strong>. Every female house spider produces multiple papery, pea-sized sacs, each holding on the order of a hundred eggs or more. Kill the spider and leave the sacs, and you have changed nothing about next spring. The vacuum takes the spider, the web, and the future generations in one motion.</p>
           <p>The protocol, once a week through September and October, then monthly: work the basement first &mdash; ceiling corners, window wells, under the stairs, behind the furnace and stored boxes. Then the garage, the closet ceilings, behind the headboards, and the porch light and eaves outside the main doors. Look specifically for the tan spheres in and near webs, and take the web itself every time: <strong>web removal is population control, not housekeeping</strong>. Silk is metabolically expensive, a spider that must rebuild repeatedly is a spider burning its reserves, and a corner that keeps getting cleared gets abandoned. If the bag-and-crevice work turns up heavy insect debris under the webs &mdash; silverfish scales, gnat carcasses &mdash; note it: that is your evidence for Step 3.</p>
+          <p>To work out whose sac you have found, our photo guide to <Link href="/blog/spider-egg-sacs">spider egg sacs</Link> sorts the ones found in and around homes by shape, surface and place, and covers how long they take to hatch.</p>
 
           <h2>Step 2: Sealing — Close the Floor-Level Highways</h2>
           <p>Fall sealing pays double: it blocks the wandering males of spider season and the prey insects whose indoor migration feeds everything. Work the list in order of gap area, which on most Canadian houses means:</p>
@@ -239,6 +241,7 @@ export default function HowToGetRidOfSpidersInHouseCanadaPage() {
 
           <h2>Step 4: Monitors — Keep Score</h2>
           <p>Finish by putting down flat glue boards, flush against the wall, in the spots your vacuum tour flagged: along basement baseboards, under the stairs, behind the toilet, either side of the garage man-door. For the first week they are a map &mdash; which rooms have traffic, and what prey species are running the same walls. After that they are a scoreboard: boards that stay empty through October are the sealing and dehumidifying working; a board that keeps filling marks the gap you have not found yet. Replace them when dusty, and expect the catch to skew toward wolf spiders and wandering males &mdash; the web-sitters upstairs are the vacuum&rsquo;s job, not the boards&rsquo;.</p>
+          <p>Photos of a wolf spider&rsquo;s eye pattern, the egg sac a female carries and the spiderlings on her back are in our <Link href="/blog/wolf-spiders">wolf spider identification guide</Link>, which also covers why they come indoors and how to get one out of the house.</p>
           <p>One more fall visitor uses the same entry gaps, by the way: if the flies bumbling at your windows in October are big and sluggish rather than quick, that is a different problem with a different plan &mdash; our <Link href="/blog/cluster-flies-in-house-canada">cluster fly guide</Link> covers it, and the sealing work above happens to be the fix for both.</p>
 
           <h2>The Fall Spider Plan — At a Glance</h2>

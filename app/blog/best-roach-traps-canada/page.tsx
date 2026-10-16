@@ -420,6 +420,7 @@ export default function BestRoachTrapsCanadaPage() {
             <li><strong>Then a small rebound.</strong> Egg cases laid before the campaign hatch on their own schedule, and a wave of nymphs appears on boards near the breeding site. This is expected. Keep the stations fresh and let the new nymphs feed.</li>
             <li><strong>Finally, zero.</strong> Then hold. <strong>Several consecutive weeks of completely empty boards is the finish line.</strong> &ldquo;We stopped seeing them&rdquo; is not, because sightings were always a function of luck, lighting, and how often anyone walked into the kitchen at 2 a.m.</li>
           </ul>
+          <p>Photos of those egg cases, from the one a female German cockroach carries to the ones other species leave in protected spots, are in our guide to <Link href="/blog/cockroach-eggs">cockroach egg cases</Link>, written for US readers, along with what finding one means.</p>
           <p>If the curve never falls &mdash; if a later week looks the same as an early one &mdash; the boards are telling you something structural. Common culprits: bait competing with an unsecured food or water source, residue from an earlier spray, too few stations, stations placed too far from harbourage, or a source outside your walls entirely.</p>
 
           <h2>What Roach Traps Cannot Do</h2>

@@ -213,6 +213,9 @@ export default function MosquitoBiteVsSpiderBitePage() {
             caption="Localized tissue damage (necrosis) on the skin of a patient's calf four months after a brown recluse spider bite. A bite wound that blisters, darkens or ulcers is one to show a doctor."
           />
           <p className="text-gray-700 leading-relaxed mb-4">
+            Our guide to <Link href="/blog/brown-recluse-bite" className="text-emerald-700 underline font-semibold">brown recluse bites</Link>, written for US readers, follows a bite from the first hours to the rare open wound, with photos, and sets out when medical sources say to get care.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
             In Ontario, the disease most relevant to mosquito bites is West Nile virus, spread by <em>Culex</em> mosquitoes; most infections cause no symptoms, but a small number lead to fever and, rarely, serious neurological illness &mdash; which is why fever, headache, or body aches days after a bite deserve a doctor&rsquo;s call. For a fuller breakdown of warning signs and Ontario-specific risks, see <Link href="/blog/when-to-worry-about-a-mosquito-bite" className="text-emerald-700 underline font-semibold">when to worry about a mosquito bite</Link>. None of this is a diagnosis &mdash; when a bite worries you, contact your doctor or Ontario&rsquo;s Health811 line.
           </p>
 

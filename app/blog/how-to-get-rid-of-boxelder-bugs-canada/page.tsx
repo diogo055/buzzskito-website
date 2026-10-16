@@ -344,6 +344,7 @@ export default function HowToGetRidOfBoxelderBugsCanadaPage() {
             alt="Brown marmorated stink bug on a red apple, seen head-on, with a mottled brown, shield-shaped body and banded antennae"
             caption="A brown marmorated stink bug, Halyomorpha halys, feeding on an apple. Look for the shield shape, the mottled brown back and the white bands on the antennae."
           />
+          <p>Photos that tell the brown marmorated stink bug from the bugs mistaken for it, the boxelder bug among them, are in our <Link href="/blog/how-to-get-rid-of-stink-bugs">stink bug identification and removal guide</Link>, written for US readers.</p>
 
           <h2>The Manitoba Maple Connection</h2>
           <p>Boxelder bugs are named for the boxelder tree &mdash; <em>Acer negundo</em> &mdash; which in Canada almost everyone calls the Manitoba maple. That naming gap is why so much of the online advice about this insect feels slightly foreign: the American articles talk about a tree Canadians have never heard of, while the tree standing in the back corner of a Mississauga or Scarborough lot goes unrecognised as the source.</p>

@@ -333,6 +333,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
           <li><strong>Days 3&ndash;7:</strong> In the minority of bites that turn necrotic, the centre darkens to purple-black and forms a dry, sunken scab (eschar), typically 1&ndash;2 cm (about 3/8&ndash;3/4 in) across, occasionally larger.</li>
           <li><strong>Weeks 2&ndash;8:</strong> The scab sloughs to leave a slow-healing open ulcer that can take 6&ndash;8 weeks or longer to close and may scar.</li>
         </ul>
+        <p>Our guide to <Link href="/blog/brown-recluse-bite">brown recluse bite stages and symptoms</Link> follows a bite stage by stage with photos, from the first hours to the rare open wound, and sets out when medical sources say to get care.</p>
         <Photo
           id="brown-recluse-bite-necrosis"
           alt="Round patch of dark, damaged skin on a patient's calf four months after a brown recluse spider bite"
@@ -358,6 +359,7 @@ export default function WhatDoesASpiderBiteLookLikePage() {
 
         <h2>Which spiders actually bite in the United States?</h2>
         <p>Only two groups are medically significant in the United States under CDC guidance: <strong>widow spiders</strong> and the <strong>brown recluse</strong>. Americans are far more likely to be bitten by a wolf spider, yellow sac spider, jumping spider, hobo spider or a tarantula &mdash; all of which cause a painful but self-limited local reaction, not a dangerous one.</p>
+        <p>Our photo guide to <Link href="/blog/wolf-spiders">wolf spiders</Link> shows how to recognize one by its eyes, the egg sac and the spiderlings a female carries, how to tell it from a brown recluse and what its bite does.</p>
         <Photo
           id="wolf-spider"
           alt="Brown wolf spider carrying a mass of spiderlings on its back"
