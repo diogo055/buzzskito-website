@@ -40,6 +40,18 @@ with SendUserFile.
   ~36K) and data/god-build/next-wave-research.md (the next 30 pages in build order, 18 winter + 12
   for summer, and keep/replace/drop verdicts on waves 3-4). The Ahrefs key cap is now 200,000 units
   (~37K used Oct 16; resets on the 26th).
+- **THE GOD PLAN is in memory (project_god_plan_50k.md) and in the plan files (10e32ffe):** the next
+  30 pages are in taxonomy/plan: 18 winter pages releaseOn 2026-10-20, 12 summer pages 2027-02-01
+  (list in data/god-build/next-wave-research.md). New cluster `wildlife`; flies relabelled "flies and
+  gnats". Before writing: photos for termites, maggots, copperhead look-alikes and house flies (photo
+  scout batch 6 running -> photo-notes-batch6.json); every new page needs >= 1 link in from a live
+  guide (plan the link-ins, as done for palmetto-bugs via the cockroach pillar); copperhead-look-alikes
+  (snakes = new topic) needs the owner's OK before writing. Not gated though dropped/replaced
+  (live guides link them): clothes-moths, booklice, daddy-long-legs, brown-widow-spiders (gate text in
+  their taxonomy notes; repoint the links first). Mediavine income forecast: data/god-build/
+  income-forecast.json (12 months Dec 2026-Nov 2027 ~$6.9K middle, $3.6K-$15.7K). bettertermite.com
+  teardown running -> data/god-build/bettertermite-teardown.md: fold its lessons into
+  WRITER_BRIEF_PHOTO_ID.md before the 18 winter writers start (after the Oct 20 usage reset).
 - **NEXT (needs the owner's go, or start after the Oct 20 reset):** next-50 waves 3 (13 pages) and 4
   (12 pages): millipedes, earwigs, drain flies, types of gnats, brown recluse, silverfish, dust mites,
   bird mites, black widow spiders, rat droppings, brown widow spiders, no-see-ums, mouse nest;
