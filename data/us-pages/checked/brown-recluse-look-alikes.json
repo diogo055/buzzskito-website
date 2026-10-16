@@ -1,0 +1,10 @@
+{
+ "id": "brown-recluse-look-alikes",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "fcff003a9e5962c8b79d67d0ef599295f4d00de8fbcaff8945327b6e826faddb",
+ "claimsChecked": 359,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-16"
+}
