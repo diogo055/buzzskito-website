@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -76,14 +77,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Stink bugs in Canada: how to get them out without the smell, the late-summer sealing window that keeps them out, and why indoor sprays make it worse.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/how-to-get-rid-of-stink-bugs-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 
@@ -256,6 +257,8 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+          {/* Regional edition link (Oct 2026): this page is the Canadian edition; see REGIONAL_PAIRS in lib/guides.ts */}
+          <p className="not-prose mb-6 rounded-lg border border-navy-100 bg-brand-50 px-4 py-2.5 text-sm text-gray-700">Reading from the United States? Product rules and what is sold there differ. <Link href="/blog/how-to-get-rid-of-stink-bugs" className="font-semibold text-brand-700 underline">See the US edition</Link>.</p>
 
           <h2>What You Actually Have: The Brown Marmorated Stink Bug</h2>
           <p>Most Canadian stink bug complaints trace to one insect. The brown marmorated stink bug, <em>Halyomorpha halys</em>, is native to East Asia, arrived in Ontario in the early 2010s, and is now established through the southern part of the province &mdash; the Niagara, Hamilton and Greater Toronto corridor most of all, where urban heat and a long growing season suit it.</p>
