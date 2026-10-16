@@ -1,0 +1,141 @@
+{
+  "slug": "roof-rat-vs-norway-rat",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "roof rat vs norway rat",
+  "alsoTargets": ["norway rat vs roof rat", "roof rat", "norway rat", "types of rats", "roof rat vs norway rat droppings", "roof rat vs norway rat pictures"],
+  "metaTitle": "Roof Rat vs Norway Rat: How to Tell (Photos)",
+  "metaDescription": "A roof rat's tail is longer than its head and body; a Norway rat's is shorter. Photos, plus the ear, snout, droppings and attic-or-basement checks.",
+  "h1": "Roof Rat vs Norway Rat: Tail, Ears, Droppings and Where Each Lives",
+  "dek": "Two introduced rats live in and around US buildings. The tail, ears, snout and droppings, and the floor of the house each one picks, tell them apart. Here are photos of both and the sources behind every check.",
+  "breadcrumb": "Roof Rat vs Norway Rat",
+  "excerpt": "A roof rat's tail is longer than its head and body; a Norway rat's is shorter. Photos and checks for the ears, snout, droppings and where each rat lives.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**Compare the tail with the head and body: a roof rat's tail is longer than its head and body combined, while a Norway rat's is shorter.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) adds the supporting signs: the roof rat is sleeker, with a pointed muzzle and large ears, and the Norway rat is larger and stockier, with a blunt muzzle and small ears.",
+    "bullets": [
+      "Adult roof rats weigh 5 to 10 ounces and Norway rats 7 to 18 ounces, so weight overlaps and settles little on its own.",
+      "[Maricopa County's vector control program](https://www.maricopa.gov/2141/Roof-Rat-Identification) gives a roof rat 7 to 8 inches of head and body and an 8- to 10-inch tail, and a Norway rat 8 to 10 inches with a 4- to 8-inch tail.",
+      "[Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) puts roof rat droppings at about 1/2 inch and Norway rat droppings at 3/4 to 1 inch long.",
+      "Indoors, Norway rats usually stay in basements and on lower floors, while upper floors and attics especially attract roof rats, according to a [CDC rodent survey manual](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf).",
+      "Norway rats live throughout the 48 contiguous states; roof rats prefer warm climates and coastal areas, though UC IPM says their documented range is expanding."
+    ]
+  },
+  "facts": {
+    "title": "Roof rat vs Norway rat at a glance",
+    "rows": [
+      ["Roof rat (black rat, ship rat)", "Tail longer than its head and body; pointed muzzle; ears reach the eyes when folded over"],
+      ["Norway rat (brown rat)", "Tail shorter than its head and body; blunt muzzle; ears do not reach the eyes"],
+      ["Tail-pull test on a dead rat", "Reaches at least the snout: roof rat. Reaches only the middle of the skull: Norway rat"],
+      ["Adult weight", "Roof rat 5 to 10 ounces; Norway rat 7 to 18 ounces"],
+      ["Droppings", "Roof rat about 1/2 inch and pointed; Norway rat 3/4 to 1 inch with blunt ends"],
+      ["Indoors", "Roof rats favor attics and upper floors; Norway rats basements and lower floors"],
+      ["Outdoors", "Roof rats nest in trees, shrubs and ivy; Norway rats burrow along foundations and under woodpiles"],
+      ["US range", "Norway rat: all 48 contiguous states. Roof rat: mainly warm and coastal areas, with a documented range that is expanding"],
+      ["Wood rat (pack rat)", "Hairy tail instead of a scaly one"],
+      ["Cotton rat", "Grizzled blackish or grayish fur; ears nearly hidden in the fur"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "How do you tell a roof rat from a Norway rat?" },
+    { "type": "p", "text": "Compare the tail with the head and body. A roof rat's tail is longer than its head and body combined and a Norway rat's is shorter, according to [the University of California's pest note on rats](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) (UC IPM), which calls the roof rat smaller and sleeker and the Norway rat generally larger and stockier. The head confirms it: a roof rat has a pointed muzzle and ears long enough to reach its eyes when folded over, while a Norway rat has a blunt muzzle and ears that do not reach its eyes." },
+    { "type": "figure", "src": "/guides/photos/roof-rat.webp", "width": 1200, "height": 900, "alt": "Brown roof rat crouched on a weathered wooden bird-feeder platform scattered with seed, showing a large rounded ear, a big dark eye, a pointed snout and a slim body, with its tail trailing behind", "caption": "A roof rat on a bird-feeder platform in Jacksonville, Florida. Look for the large ears and eyes, the pointed snout and the slim body, with the tail trailing out behind it.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/358657107" },
+    { "type": "figure", "src": "/guides/photos/norway-rat.webp", "width": 1200, "height": 1100, "alt": "Stocky gray-brown Norway rat standing in dry leaves and plant debris, with a blunt snout, small rounded ears, a pale underside and a thick dark tail curving out behind it", "caption": "A Norway rat in King County, Washington. Compare the heavier body, blunter snout and smaller ears with the roof rat above.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/379572541" },
+    { "type": "p", "text": "Do not go by color. The roof rat's other common names are black rat and ship rat, according to [the roof rat chapter of the Prevention and Control of Wildlife Damage handbook](https://digitalcommons.unl.edu/icwdmhandbook/6/), yet [Maricopa County's vector control program in Arizona](https://www.maricopa.gov/2141/Roof-Rat-Identification) says roof rats come in several color phases, and the one in the first photo above is brown. The Norway rat, also called the brown rat, is usually brownish or reddish gray above, and [the handbook's Norway rat chapter](https://digitalcommons.unl.edu/icwdmhandbook/5/) says blackish individuals occur in some places." },
+    { "type": "checklist", "title": "Check the rat, or the signs it left", "items": [
+      "**Tail against head and body.** Longer points to a roof rat, shorter to a Norway rat. On a dead rat, with rubber or plastic gloves on, pull the tail over the back toward the head: UC IPM says a roof rat's tail reaches at least to the snout and a Norway rat's only to the middle of the skull.",
+      "**Tail color.** Uniformly dark fits a roof rat; dark above and pale below fits a Norway rat, by UC IPM's table of adult traits.",
+      "**Ears and snout.** Large ears that reach the eyes when folded over, with a pointed muzzle, mean roof rat. Small ears and a blunt muzzle mean Norway rat.",
+      "**Droppings against a ruler.** About 1/2 inch and pointed suggests a roof rat; 3/4 to 1 inch with blunt ends suggests a Norway rat. Pellets of 1/8 to 1/4 inch are a mouse's, by [Cornell IPM's measurements](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior).",
+      "**Where the signs are.** Attics, upper floors, trees and vines lean toward roof rats; basements, ground floors and burrows in the soil lean toward Norway rats."
+    ] },
+    { "type": "table", "head": ["Rat", "Tail", "Head and ears", "Build and weight", "Droppings"], "rows": [
+      ["Roof rat (black rat, ship rat)", "Longer than head and body, 8 to 10 inches; uniformly dark; reaches at least the snout when pulled over the back", "Pointed muzzle; large ears that reach the eyes when folded over", "Sleek and agile; 5 to 10 ounces; head and body 7 to 8 inches", "1/4 to 1/2 inch; pointed, banana-shaped"],
+      ["Norway rat (brown rat)", "Shorter than head and body, 4 to 8 inches; dark above, pale below; reaches the middle of the skull", "Blunt muzzle; small ears that do not reach the eyes", "Large and robust; 7 to 18 ounces; head and body 8 to 10 inches", "3/4 to 1 inch; blunt ends"]
+    ], "caption": "Sources: UC IPM Pest Notes: Rats (updated June 2025), Cornell IPM and the Maricopa County Environmental Services Department. Each is linked in the text." },
+
+    { "type": "h2", "text": "What does a Norway rat look like?" },
+    { "type": "p", "text": "A Norway rat (*Rattus norvegicus*) is the bigger, heavier of the two: a stocky rodent with a blunt snout, small ears and a tail shorter than its head and body. UC IPM puts adults at 7 to 18 ounces. Maricopa County gives 8 to 10 inches of head and body and a scaly, nearly hairless tail of 4 to 8 inches, darker above and lighter below. [Cornell IPM's page on mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) says Norway rats have small ears and eyes and a blunt muzzle, and that their fur, often two-toned, varies from brown to gray." },
+    { "type": "figure", "src": "/guides/photos/norway-rat-face.webp", "width": 1200, "height": 1200, "alt": "Close-up of a Norway rat facing the camera among wood chips, showing its blunt pink nose, dark eyes, small rounded ears and coarse gray-brown fur with a white chest", "caption": "The same Norway rat seen face-on. The blunt snout and small ears are the features to compare with a roof rat's.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/379572541" },
+    { "type": "p", "text": "The handbook's Norway rat chapter lists its other names: brown rat, house rat, barn rat, sewer rat, gray rat and wharf rat. UC IPM says Norway rats can undermine building foundations and slabs with their burrowing and swim more powerfully than roof rats, and it lists swimming through sewers among the ways rats get into buildings." },
+
+    { "type": "h2", "text": "What does a roof rat look like?" },
+    { "type": "p", "text": "A roof rat (*Rattus rattus*) is the slimmer climber, with a pointed snout, large ears and eyes, and a tail longer than its head and body. UC IPM lists adults at 5 to 10 ounces and describes them as sleek and agile, with a uniformly dark tail covered in fine scales. Maricopa County gives 7 to 8 inches of head and body and an 8- to 10-inch tail, describes the ears as large and nearly naked, and says the fur tends to be blackish with a lighter underbelly." },
+    { "type": "figure", "src": "/guides/photos/roof-rat-rafters.webp", "width": 1200, "height": 817, "alt": "Brown roof rat crouched on a wooden beam among the rafters of a building, eating from a small round dish, with its long thin tail hanging down below the beam", "caption": "A roof rat among the rafters of a building, eating bait from a small dish, in a CDC photo. Its long tail hangs below the beam.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25123" },
+    { "type": "p", "text": "Climbing is its strength. UC IPM calls roof rats very agile climbers with excellent balance that steady themselves with their long tails, and says they can often be seen at night running along overhead utility lines or fence tops. They may travel 300 feet or more for food, so a rat feeding in your fruit tree may nest at another house." },
+
+    { "type": "h2", "text": "How are roof rat and Norway rat droppings different?" },
+    { "type": "p", "text": "Norway rat droppings are longer and blunt; roof rat droppings are shorter and pointed. Cornell IPM gives Norway rat droppings as 3/4 to 1 inch long and roof rat droppings as about 1/2 inch, against 1/8 to 1/4 inch for a mouse. Maricopa County's table adds the shapes: blunt ends and a diameter of 1/4 to 3/8 inch for the Norway rat, and pointed, banana-shaped pellets 1/4 to 1/2 inch long and 3/16 inch in diameter for the roof rat." },
+    { "type": "figure", "src": "/guides/photos/rat-droppings-thumb.webp", "width": 1200, "height": 900, "alt": "Several dark, thick rodent droppings with blunt, rounded ends lying on green and reddish moss, with a person's thumb at the bottom of the frame for size", "caption": "Norway rat droppings, as identified on iNaturalist from the droppings alone, photographed beside a thumb on moss in Alaska's Aleutian Islands. Look for the thick pellets with blunt ends.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/394894114" },
+    { "type": "media", "needed": "Roof rat droppings and Norway rat droppings photographed side by side on a white card beside a ruler marked in inches, showing the shorter, pointed, banana-shaped roof rat pellets next to the longer, thicker, blunt-ended Norway rat pellets" },
+    { "type": "p", "text": "Freshness shows whether rats are still active. The [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf) describes fresh droppings as dark and soft and old ones as hard, or gray and brittle. Rat droppings get a fuller treatment in [the guide to rat droppings](/blog/rat-droppings), and [the guide to what mouse poop looks like](/blog/what-does-mouse-poop-look-like-canada) sets rice-sized mouse pellets beside rat droppings." },
+    { "type": "callout", "tone": "warning", "title": "Do not sweep or vacuum droppings", "text": "The [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) are to open doors and windows for 30 minutes, put on rubber or plastic gloves, spray the droppings until very wet with a fresh bleach solution (1 1/2 cups of household bleach per gallon of water) or an EPA-registered disinfectant, let it soak 5 minutes or as the disinfectant's label directs, then wipe up with paper towels and throw them in a covered garbage can." },
+
+    { "type": "h2", "text": "Where does each rat live in and around a house?" },
+    { "type": "p", "text": "Norway rats stay low and roof rats go high. The CDC survey manual says Norway rats are usually found in basements and on lower floors, while upper floors and attics are especially attractive to roof rats; it adds that both generally live outdoors but enter buildings that are not rodent-proofed. Where the two share a building, UC IPM says Norway rats typically occupy the basement and ground floors and roof rats the upper floors, though it adds that Norway rat infestations within ceiling voids are not uncommon." },
+    { "type": "p", "text": "Outdoors, a Norway rat digs. UC IPM says its burrows are found along building foundations, beneath rubbish or woodpiles, and around gardens and fields, and Cornell IPM says Norway rats prefer to burrow in soil but will take advantage of voids near a food source." },
+    { "type": "media", "needed": "Photo of an active Norway rat burrow entrance in the soil along a house foundation or under a woodpile, with a ruler marked in inches beside the opening for scale" },
+    { "type": "p", "text": "A roof rat nests off the ground. UC IPM says roof rats usually live and nest aboveground in shrubs, trees or dense vegetation such as ivy, and indoors in enclosed, elevated spaces such as attics, wall voids, ceiling voids and cabinets. The CDC manual notes that roof rats prefer to nest in trees, bushes and attics, and counts ivy, honeysuckle, pyracantha, dense shrubbery, vines and palm trees as rodent cover. Neither rule is absolute: UC IPM says roof rats also burrow into soil at times, and may even occupy sewers, especially when elevated nesting sites are not available." },
+    { "type": "p", "text": "Fruit eaten on the tree points to roof rats. UC IPM says they eat avocados and citrus, often while the fruit is still on the tree, hollowing out mature oranges through small holes and leaving the empty rinds hanging, and often eating a lemon's rind and leaving the flesh. Gnaw marks help with rat versus mouse rather than which rat: UC IPM gives rat tooth marks as about 1/6 inch (4 mm) wide against 1/12 inch (2 mm) for a mouse, with one figure for both rats. Noises from the attic or drop ceilings, also on UC IPM's list of rat signs, lean toward roof rats but can come from Norway rats in a ceiling void, so check the droppings too." },
+    { "type": "media", "needed": "Photo of a hollowed-out orange still hanging on the tree, showing the small hole through which the fruit was eaten out, the damage UC IPM attributes to roof rats" },
+
+    { "type": "h2", "text": "Which rat lives in your part of the country?" },
+    { "type": "p", "text": "The Norway rat lives nationwide; the roof rat mainly in warm and coastal areas. UC IPM says Norway rats live throughout the 48 contiguous states and, though generally found at lower elevations, can occur wherever people live. It says roof rats prefer warm climates and coastal ecosystems, but that their documented range is expanding." },
+    { "type": "p", "text": "The most detailed range description is older. The 1994 roof rat chapter places roof rats along the lower half of the East Coast, throughout the Gulf States north into Arkansas, all along the Pacific Coast and in the Hawaiian Islands. Cornell IPM says roof rats are generally not found in New York, and UC IPM says both species are present in almost all cities across California. If you are far from that range and the tail and droppings still say roof rat, ask your state's cooperative extension office to confirm it." },
+
+    { "type": "h2", "text": "Which other rats get mistaken for roof rats and Norway rats?" },
+    { "type": "p", "text": "Wood rats and cotton rats are the other two rats in Maricopa County's comparison table, which separates them by tail and fur. The wood rat, or pack rat, has a hairy tail rather than a scaly one, about as long as its head and body, gray to grayish-brown fur with lighter feet and belly, and large, hairy ears. The cotton rat has coarse, blackish to grayish fur with black guard hairs that give it a grizzled look, large ears nearly hidden in the fur, and a sparsely haired tail of 4 to 5 inches, shorter than its head and body." },
+    { "type": "p", "text": "A smaller animal may not be a rat at all, and UC IPM notes that a young rat can be confused with a mouse. [The side-by-side guide to rats and mice](/blog/rat-vs-mouse) works through that question, [the guide to types of mice](/blog/types-of-mice) sorts the native mice, voles and shrews, and [the complete guide to mice](/learn/mice) covers the house mouse from identification to control." },
+
+    { "type": "h2", "text": "Do roof rats and Norway rats carry different diseases?" },
+    { "type": "p", "text": "Largely the same, as far as the sources go: they mostly describe rat diseases without splitting them by species, and the clearest exception is Seoul virus, which CDC ties mainly to Norway rats. UC IPM names typhus, leptospirosis, foodborne illnesses and rat-bite fever as the most common rat-transmitted diseases, says plague is very rarely found in commensal rodents such as these two rats, and says commensal rats do not carry or transmit rabies. Of the two, plague's history runs mostly through the roof rat: the handbook's roof rat chapter calls it a long-time plague carrier, and its Norway rat chapter says plague is more commonly associated with roof rats than with Norway rats." },
+    { "type": "p", "text": "[CDC's guidance on Seoul virus in rats](https://www.cdc.gov/hantavirus/hcp/animals/index.html) says this hantavirus is carried primarily by Norway rats, has been found in pet and wild rats around the world, including the United States, and spreads to people through rat urine, feces and saliva, while infected rats show no signs of illness. [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says Seoul virus causes hemorrhagic fever with renal syndrome, a severe and sometimes deadly disease that affects the kidneys, though Seoul virus infections are usually more moderate, with less than 1% of patients dying." },
+    { "type": "p", "text": "Bites and scratches carry their own risk. [CDC's page on rat-bite fever](https://www.cdc.gov/rat-bite-fever/about/index.html) says it spreads through scratches, bites or contact with a rodent's saliva or urine, and that symptoms such as fever, vomiting, headache and aching muscles usually begin 3 to 10 days after the contact and can appear up to 21 days after it. CDC says anyone bitten or scratched by a rodent who develops symptoms should seek medical care immediately and mention the rodent contact, because rat-bite fever must be treated quickly or it can cause severe illness and possibly death." },
+
+    { "type": "h2", "text": "What should you do once you know which rat it is?" },
+    { "type": "p", "text": "Let the species decide where traps go and which gaps to close. UC IPM says to set traps for Norway rats close to walls, behind objects, in dark corners and where droppings have been found, while traps for roof rats often need to go both on the ground and above it, on ledges, shelves, branches, fences, pipes or overhead beams." },
+    { "type": "p", "text": "The CDC manual says openings should be smaller than 3/4 inch to keep out adult Norway rats and smaller than 1/2 inch for adult roof rats, and because a roof rat can jump up to 4 feet high from a running start and a Norway rat up to 3 feet, it says openings up to 5 feet above the ground need sealing or mesh. UC IPM's advice is stricter: seal all holes larger than 1/4 inch to keep out both rats and mice." },
+    { "type": "p", "text": "For the whole sequence of trapping, sealing and confirming the rats are gone, follow [the step-by-step plan for clearing rats from a property](/blog/how-to-get-rid-of-rats-canada)." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph droppings beside a ruler marked in inches without touching them, and note the room and floor where you found them. If you catch a rat, put on rubber or plastic gloves and photograph it from the side with the tail laid out straight. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Is a black rat the same as a roof rat?",
+      "answer": "Yes. Black rat, roof rat and ship rat are common names for the same species, Rattus rattus, according to the roof rat chapter of the Prevention and Control of Wildlife Damage handbook. The name says little about color: Maricopa County's vector control program says roof rats come in several color phases. The Norway rat is also called the brown rat, and the handbook notes that blackish Norway rats occur in some places, so check the tail, ears and snout instead of the color."
+    },
+    {
+      "question": "Which is bigger, a roof rat or a Norway rat?",
+      "answer": "The Norway rat is heavier. UC IPM gives adult Norway rats as 7 to 18 ounces and roof rats as 5 to 10 ounces. Length is closer than weight suggests, because the roof rat's tail is longer: Maricopa County's figures add up to about 15 to 18 inches from nose to tail tip for a roof rat and about 12 to 18 inches for a Norway rat. A large, heavy-bodied rat with a tail shorter than its head and body is most likely a Norway rat."
+    },
+    {
+      "question": "Can roof rats and Norway rats live in the same house?",
+      "answer": "Yes, where both species occur. UC IPM says both may be present in some areas of California, and that where they share a building, Norway rats typically occupy the basement and ground floors while roof rats occupy the upper floors. It adds that although both may eat some of the same food, they do not feed together. Signs in both the attic and the basement may therefore come from two species, which changes where traps need to go."
+    },
+    {
+      "question": "Why do rats run along power lines and fence tops at night?",
+      "answer": "Most likely roof rats. UC IPM says roof rats can often be seen at night running along overhead utility lines or fence tops, that they have excellent balance and use their long tails to steady themselves, and that they may travel 300 feet or more for food. A rat crossing your yard that way may be nesting at a neighbor's house. Norway rats, by contrast, burrow along foundations and under rubbish or woodpiles, according to the same source."
+    },
+    {
+      "question": "What do roof rats and Norway rats eat?",
+      "answer": "Both eat a wide variety of foods, but their favorites differ. UC IPM lists fruits, tree nuts, berries, slugs, snails, young birds and bird eggs as the roof rat's preferred foods, and cereal grains, meats, fish, nuts and some fruits as the Norway rat's. Roof rats often eat avocados and citrus while the fruit is still on the tree, hollowing out mature oranges through small holes and leaving the empty rinds hanging."
+    },
+    {
+      "question": "Can rats carry rabies?",
+      "answer": "Rarely, if ever. UC IPM says commensal rats, its term for these two species, and mice do not carry or transmit rabies. The diseases it lists as the most common from rats are typhus, leptospirosis, foodborne illnesses and rat-bite fever. CDC says rat-bite fever spreads through bites, scratches or contact with a rodent's saliva or urine, and that anyone bitten or scratched by a rodent who then develops symptoms should seek medical care immediately and tell the provider about the contact."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Rats (UC ANR Publication 74106)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell University Integrated Pest Management (Cornell IPM)", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Integrated Pest Management: Conducting Urban Rodent Surveys (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf" },
+    { "title": "Roof Rat Identification", "publisher": "Maricopa County Environmental Services Department, Vector Control", "url": "https://www.maricopa.gov/2141/Roof-Rat-Identification" },
+    { "title": "Roof Rats (Prevention and Control of Wildlife Damage, 1994), by Rex E. Marsh", "publisher": "University of Nebraska-Lincoln, Digital Commons", "url": "https://digitalcommons.unl.edu/icwdmhandbook/6/" },
+    { "title": "Norway Rats (Prevention and Control of Wildlife Damage, 1994), by Robert M. Timm", "publisher": "University of Nebraska-Lincoln, Digital Commons", "url": "https://digitalcommons.unl.edu/icwdmhandbook/5/" },
+    { "title": "Veterinary Guidance for Testing for Seoul Virus in Pet Rats", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/hcp/animals/index.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "About Rat Bite Fever (RBF)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rat-bite-fever/about/index.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" }
+  ],
+  "disclaimer": "health"
+}
