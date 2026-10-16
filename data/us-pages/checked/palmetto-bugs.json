@@ -1,0 +1,10 @@
+{
+ "id": "palmetto-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "cc1b60b8981ca4015e7a72ebad4a5d403d6173967190319368c7d89cd5fb72aa",
+ "claimsChecked": 320,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-16"
+}
