@@ -1,0 +1,10 @@
+{
+ "id": "house-centipedes",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "5941dbe90fd54b13a8ff6c1ab1235f9ea05481a4bd0803bbf7c8e0bfdab28388",
+ "claimsChecked": 208,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-16"
+}
