@@ -2,7 +2,7 @@
  "id": "brown-recluse-look-alikes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "fcff003a9e5962c8b79d67d0ef599295f4d00de8fbcaff8945327b6e826faddb",
+ "sha": "748bcfa8f5db29d62094e776d7d03c3020d5b5ccdb6055e1f961c82228b2fbf9",
  "claimsChecked": 359,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-16",
+   "note": "Five-trait list: body 'no more than 3/8 inch' as UC IPM's Pest Note states (was 1/2 inch, credited to UC IPM), adding 'though some mature recluses reach about 1/2 inch' (University of Missouri Extension, already a source on the page). Flagged by the brown-recluse-bite fact-check, Oct 16.",
+   "previousSha": "fcff003a9e5962c8b79d67d0ef599295f4d00de8fbcaff8945327b6e826faddb"
+  }
+ ]
 }
