@@ -1,0 +1,10 @@
+{
+ "id": "wolf-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "6e23683cf25c17cfc2e8aac0306f40c11af7a78497019f0efecd9175bafce82c",
+ "claimsChecked": 340,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-16"
+}
