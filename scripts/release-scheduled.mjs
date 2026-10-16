@@ -119,7 +119,11 @@ for (const { name } of released) unlinkSync(join(WAITING, name))
 const list = released.map(({ p }) => `- https://buzzskito.ca${pathOf(p)} (scheduled ${p.releaseOn})`)
 const notes = [`# Release ${DATE}`, '', `${released.length} page(s) went live${held.length ? `; ${held.length} held back` : ''}.`, '', ...list, ...(held.length ? ['', 'Held back:', ...held.map((h) => `- ${h}`)] : []), '']
 mkdirSync(join(ROOT, 'data', 'god-build', 'releases'), { recursive: true })
-writeFileSync(join(ROOT, 'data', 'god-build', 'releases', `${DATE}.md`), notes.join('\n'))
+// a second release on the same day (a manual run after the morning one) adds its list below the
+// first instead of replacing it
+const notesFile = join(ROOT, 'data', 'god-build', 'releases', `${DATE}.md`)
+if (existsSync(notesFile)) appendFileSync(notesFile, ['', `## Later the same day`, '', ...notes.slice(2)].join('\n'))
+else writeFileSync(notesFile, notes.join('\n'))
 writeFileSync(join(ROOT, 'data', 'god-build', 'last-release-commit.txt'), [`release: ${released.length} scheduled page(s) go live (${DATE})`, '', ...released.map(({ p }) => `- ${pathOf(p)}`), ...(held.length ? ['', `Held back: ${held.length} (see data/god-build/releases/${DATE}.md)`] : []), ''].join('\n'))
 console.log(notes.join('\n'))
 out('released', released.length)
