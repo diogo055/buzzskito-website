@@ -6695,7 +6695,7 @@
    ],
    "family": "fleas",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -6740,7 +6740,7 @@
    ],
    "family": "fleas",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -6946,7 +6946,7 @@
    ],
    "family": "bites-stings",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -7139,7 +7139,7 @@
    ],
    "family": "spider-id",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -7425,7 +7425,7 @@
    ],
    "family": "us-editions",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -7681,7 +7681,7 @@
    ],
    "family": "us-editions",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -8932,7 +8932,7 @@
    ],
    "family": "spider-id",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -8965,7 +8965,7 @@
    "collisions": [],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -9151,7 +9151,7 @@
    "collisions": [],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -9421,7 +9421,7 @@
    "collisions": [],
    "family": "locations",
    "priority": 3,
-   "releaseOn": "2026-12-21"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -11810,7 +11810,7 @@
    ],
    "family": "spider-id",
    "priority": 2,
-   "releaseOn": "2027-01-04"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -11869,7 +11869,7 @@
    ],
    "family": "household",
    "priority": 2,
-   "releaseOn": "2027-01-04"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",
@@ -11918,7 +11918,7 @@
    ],
    "family": "household",
    "priority": 2,
-   "releaseOn": "2027-01-04"
+   "releaseOn": "2026-10-16"
   },
   {
    "section": "blog",

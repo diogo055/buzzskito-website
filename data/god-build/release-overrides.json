@@ -1,5 +1,5 @@
 {
- "_readme": "Pages moved off their computed release day, and hubs that are not being built (both read by scripts/god-build-plan.mjs). Oct 16, 2026: the owner asked to publish the 37 fact-checked tick pages now instead of Nov 16, after the 86 North American guides reached 85% indexed in their first week. Later on Oct 16: the 12 build-wave-1 pages of data/god-build/next-50.json are dated that day, so each goes live the morning after its fact-check is committed and pushed. deferredHubs: topic hubs we are not building for now (hub pages earn almost no search traffic here, see next-50.md); pages under them go out with the Learning Centre (/learn) as their parent and do not have to link the hub.",
+ "_readme": "Pages moved off their computed release day, and hubs that are not being built (both read by scripts/god-build-plan.mjs). Oct 16, 2026: the owner asked to publish the 37 fact-checked tick pages now instead of Nov 16, after the 86 North American guides reached 85% indexed in their first week. Later on Oct 16: the 12 build-wave-1 pages of data/god-build/next-50.json are dated that day, so each goes live the morning after its fact-check is committed and pushed. Also on Oct 16: the 13 build-wave-2 pages, dated the same way (the owner asked for the high click-through pages to be built now). deferredHubs: topic hubs we are not building for now (hub pages earn almost no search traffic here, see next-50.md); pages under them go out with the Learning Centre (/learn) as their parent and do not have to link the hub.",
  "releaseOn": {
   "ticks-by-province": "2026-10-16",
   "ticks-in-nova-scotia": "2026-10-16",
@@ -49,7 +49,20 @@
   "venomous-spiders": "2026-10-16",
   "brown-recluse-look-alikes": "2026-10-16",
   "bugs-that-look-like-fleas": "2026-10-16",
-  "flea-eggs": "2026-10-16"
+  "flea-eggs": "2026-10-16",
+  "brown-recluse-bite": "2026-10-16",
+  "wolf-spiders": "2026-10-16",
+  "how-to-get-rid-of-stink-bugs": "2026-10-16",
+  "spider-egg-sacs": "2026-10-16",
+  "how-to-get-rid-of-fleas": "2026-10-16",
+  "house-centipedes": "2026-10-16",
+  "palmetto-bugs": "2026-10-16",
+  "house-spiders": "2026-10-16",
+  "what-do-fleas-look-like": "2026-10-16",
+  "cockroach-eggs": "2026-10-16",
+  "spiders-in-florida": "2026-10-16",
+  "spiders-in-california": "2026-10-16",
+  "spiders-in-texas": "2026-10-16"
  },
  "deferredHubs": [
   "/learn/household-bugs",
