@@ -136,6 +136,20 @@
    ],
    "bar": true
   },
+  "/blog/asian-lady-beetles": {
+   "next": "/blog/how-to-get-rid-of-carpet-beetles",
+   "related": [
+    "/blog/bugs-in-house-in-winter",
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/flea-eggs"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-stink-bugs-canada",
+    "/blog/pantry-pests",
+    "/blog/best-spider-spray-canada"
+   ],
+   "bar": true
+  },
   "/blog/baby-bed-bugs-nymphs": {
    "next": "/blog/bed-bug-shells-casings-shed-skins-canada",
    "related": [
@@ -1454,6 +1468,20 @@
    ],
    "bar": true
   },
+  "/blog/brown-recluse-look-alikes": {
+   "next": "/blog/venomous-spiders",
+   "related": [
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada"
+   ],
+   "cards": [
+    "/blog/pantry-moth-traps-canada",
+    "/blog/best-flea-bomb-canada",
+    "/blog/how-to-get-rid-of-boxelder-bugs-canada"
+   ],
+   "bar": true
+  },
   "/blog/brush-cutter-for-overgrown-yard-canada": {
    "next": "/blog/backpack-sprayer-canada",
    "related": [
@@ -1493,6 +1521,20 @@
     "/blog/what-flowers-attract-mosquitoes"
    ]
   },
+  "/blog/bugs-in-house-in-winter": {
+   "next": "/blog/tiny-black-bugs",
+   "related": [
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/pantry-pests",
+    "/blog/flea-eggs"
+   ],
+   "cards": [
+    "/blog/asian-lady-beetles",
+    "/blog/best-earwig-killer-canada",
+    "/blog/how-to-get-rid-of-carpet-beetles-canada"
+   ],
+   "bar": true
+  },
   "/blog/bugs-that-look-like-bed-bugs": {
    "next": "/blog/how-to-get-rid-of-bed-bugs",
    "related": [
@@ -1531,6 +1573,20 @@
     "/blog/best-cockroach-killer-canada",
     "/blog/do-cockroaches-bite",
     "/blog/what-do-baby-cockroaches-look-like"
+   ],
+   "bar": true
+  },
+  "/blog/bugs-that-look-like-fleas": {
+   "next": "/blog/flea-eggs",
+   "related": [
+    "/blog/tiny-black-bugs",
+    "/blog/pantry-pests",
+    "/blog/asian-lady-beetles"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-earwigs-canada",
+    "/blog/bugs-in-house-in-winter",
+    "/blog/best-flea-bomb-canada"
    ],
    "bar": true
   },
@@ -2295,6 +2351,20 @@
     "/blog/best-flea-bomb-canada"
    ]
   },
+  "/blog/flea-eggs": {
+   "next": "/blog/how-to-get-rid-of-carpet-beetles",
+   "related": [
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/asian-lady-beetles",
+    "/blog/pantry-pests"
+   ],
+   "cards": [
+    "/blog/best-flea-spray-for-home-canada",
+    "/blog/how-to-get-rid-of-earwigs-canada",
+    "/blog/bugs-in-house-in-winter"
+   ],
+   "bar": true
+  },
   "/blog/flowtron-bug-zapper-canada": {
    "next": "/blog/best-solar-bug-zapper-canada",
    "related": [
@@ -2736,6 +2806,20 @@
     "/blog/best-yellow-jacket-trap-canada",
     "/blog/how-to-get-rid-of-wasps-canada"
    ]
+  },
+  "/blog/how-to-get-rid-of-carpet-beetles": {
+   "next": "/blog/pantry-pests",
+   "related": [
+    "/blog/asian-lady-beetles",
+    "/blog/flea-eggs",
+    "/blog/bugs-in-house-in-winter"
+   ],
+   "cards": [
+    "/blog/flea-bites-on-humans",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/tiny-black-bugs"
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-carpet-beetles-canada": {
    "next": "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada",
@@ -3962,6 +4046,20 @@
     "/blog/how-to-get-rid-of-centipedes-canada"
    ]
   },
+  "/blog/pantry-pests": {
+   "next": "/blog/bugs-that-look-like-fleas",
+   "related": [
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/tiny-black-bugs",
+    "/blog/bugs-in-house-in-winter"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-boxelder-bugs-canada",
+    "/blog/pantry-moth-traps-canada",
+    "/blog/best-air-purifier-for-dust-mites-canada"
+   ],
+   "bar": true
+  },
   "/blog/patio-heater-vs-fire-table-canada": {
    "next": "/blog/do-fire-pits-repel-mosquitoes-canada",
    "related": [
@@ -4145,6 +4243,20 @@
     "/blog/mouse-proof-garage-door-seal-canada"
    ]
   },
+  "/blog/rat-vs-mouse": {
+   "next": "/blog/roof-rat-vs-norway-rat",
+   "related": [
+    "/blog/how-to-get-rid-of-rats-canada",
+    "/blog/how-long-do-mice-live",
+    "/blog/vamoose-for-mice"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/what-does-mouse-poop-look-like-canada",
+    "/blog/goodnature-a24-review-canada"
+   ],
+   "bar": true
+  },
   "/blog/red-ants": {
    "next": "/blog/sugar-ants",
    "related": [
@@ -4210,6 +4322,20 @@
     "/blog/mouse-repellent-canada",
     "/blog/are-mice-nocturnal"
    ]
+  },
+  "/blog/roof-rat-vs-norway-rat": {
+   "next": "/blog/how-long-do-mice-live",
+   "related": [
+    "/blog/rat-vs-mouse",
+    "/blog/how-to-get-rid-of-rats-canada",
+    "/blog/rat-poison-canada-what-is-legal"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/mice-removal",
+    "/blog/vamoose-for-mice"
+   ],
+   "bar": true
   },
   "/blog/seed-ticks": {
    "next": "/blog/ticks-on-dogs",
@@ -5089,6 +5215,20 @@
    ],
    "bar": true
   },
+  "/blog/tiny-black-bugs": {
+   "next": "/blog/bugs-that-look-like-fleas",
+   "related": [
+    "/blog/bugs-in-house-in-winter",
+    "/blog/pantry-pests",
+    "/blog/asian-lady-beetles"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-carpet-beetles-canada",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/best-centipede-killer-canada"
+   ],
+   "bar": true
+  },
   "/blog/traces-punaises-de-lit-matelas": {
    "next": null,
    "related": [],
@@ -5191,6 +5331,20 @@
     "/blog/zappbug-heater-review-canada",
     "/blog/best-bed-bug-heat-chamber-canada"
    ]
+  },
+  "/blog/venomous-spiders": {
+   "next": "/blog/how-to-keep-spiders-out-of-your-house",
+   "related": [
+    "/blog/brown-recluse-look-alikes",
+    "/blog/how-to-get-rid-of-spiders-in-house-canada",
+    "/blog/best-flea-spray-for-home-canada"
+   ],
+   "cards": [
+    "/blog/best-spider-spray-canada",
+    "/blog/how-to-get-rid-of-earwigs-canada",
+    "/blog/what-does-a-spider-bite-look-like"
+   ],
+   "bar": true
   },
   "/blog/victor-electronic-mouse-trap-review-canada": {
    "next": "/blog/best-rat-trap-canada",
@@ -5828,6 +5982,20 @@
     "/blog/signs-of-bed-bugs-checklist",
     "/blog/bed-bug-treatment-cost-canada",
     "/blog/does-alcohol-kill-bed-bugs"
+   ],
+   "bar": true
+  },
+  "/learn/bug-bites": {
+   "next": "/blog/mosquito-larvae-identification",
+   "related": [
+    "/blog/mosquito-bits-canada-vs-dunks",
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/how-many-times-can-a-mosquito-bite-you"
+   ],
+   "cards": [
+    "/blog/what-flowers-attract-mosquitoes",
+    "/blog/do-mosquitoes-bite-dogs",
+    "/blog/mosquito-netting-vs-barrier-spray"
    ],
    "bar": true
   },

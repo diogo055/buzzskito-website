@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-207 images across 85 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+239 images across 97 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -286,6 +286,18 @@
 
 - Two-step close-up photo of a pipe entering a foundation wall: copper mesh being wedged into the gap with a screwdriver, then a bead of caulk sealing over it, with a pencil held beside the gap for scale
 
+## /blog/rat-vs-mouse
+
+- An adult house mouse and an adult Norway rat photographed side by side at the same scale, side view, beside a ruler marked in inches, showing the difference in body length, head size, ear size and tail thickness
+- House mouse droppings and Norway rat droppings photographed side by side on a plain light surface beside a ruler marked in inches, in a US home, so the reader can compare length and thickness at the same scale
+- Fresh gnaw marks on wood made by a house mouse next to gnaw marks made by a rat, beside a ruler marked in inches, showing the narrow scratchy mouse marks and the wider rat tooth marks
+
+## /blog/roof-rat-vs-norway-rat
+
+- Roof rat droppings and Norway rat droppings photographed side by side on a white card beside a ruler marked in inches, showing the shorter, pointed, banana-shaped roof rat pellets next to the longer, thicker, blunt-ended Norway rat pellets
+- Photo of an active Norway rat burrow entrance in the soil along a house foundation or under a woodpile, with a ruler marked in inches beside the opening for scale
+- Photo of a hollowed-out orange still hanging on the tree, showing the small hole through which the fruit was eaten out, the damage UC IPM attributes to roof rats
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -410,6 +422,62 @@
 
 - Macro photo, top view, of an unfed adult female blacklegged tick, lone star tick and American dog tick side by side on a ruler marked in sixteenths of an inch, with a blacklegged nymph, a poppy seed and a sesame seed in the same frame for scale
 - Three-panel close-up, top view, of an adult female blacklegged tick (plain dark shield, reddish abdomen), an adult female American dog tick (whitish mottled shield) and an adult female lone star tick (single white spot), each with the adult male of the species beside it, all labeled
+
+## /blog/venomous-spiders
+
+- Adult female red widow (Latrodectus bishopi) photographed in central Florida, side or top view showing the red legs, public domain or CC0
+- Macro photo of a brown recluse's head from above or the front, sharp enough to show the six eyes in three separated pairs, public domain or CC0
+
+## /blog/brown-recluse-look-alikes
+
+- Macro photo of a brown recluse's head from the front or above, identified by an arachnologist, sharp enough to show the six eyes in three separated pairs; public domain or CC0
+- Male southern house spider (Kukulcania hibernalis), identified to species, photographed from above to show its khaki color, long slender legs and the eight eyes grouped on a raised bump; public domain or CC0
+- Brown recluse identified by an arachnologist, photographed from above beside a ruler marked in inches, so readers can compare body length and leg span; public domain or CC0
+
+## /blog/how-to-get-rid-of-carpet-beetles
+
+- Top-down photo of an adult black carpet beetle and a full-grown black carpet beetle larva on a white background beside a ruler marked in inches, showing the shiny, carrot-shaped larva and the tuft of long hairs at its tail
+- Close-up photo of carpet beetle feeding damage on a wool sweater or rug: a large grazed, threadbare area with irregular holes and no silk webbing, beside a ruler marked in inches
+- Close-up photo of carpet beetle larval cast skins (brown, shell-like, bristly shed skins) and fecal pellets on dark fabric beside a ruler marked in inches
+
+## /blog/asian-lady-beetles
+
+- Top-down photo of a native convergent lady beetle beside a ruler marked in inches, sharp enough to show the black plate behind the head with its two short white lines angled toward each other, for side-by-side comparison with the Asian lady beetle
+- Close-up, top-down photo of an adult Asian lady beetle's head and the white plate behind it, showing a clear black M or W, with a ruler marked in inches in the frame
+- Photo of an Asian lady beetle larva and a pupa on a leaf beside a ruler marked in inches, showing the larva's dark body with orange markings and branched spines and the orange pupa with its black spots
+- Top-down photo of a seven-spotted lady beetle beside a ruler marked in inches, showing the white spot on either side of the head and the 7 black spots on its wing covers
+
+## /blog/pantry-pests
+
+- Public domain or CC0 photo of Indian meal moth silk webbing with clumped flour or cereal inside an opened kitchen package, sharp enough to show the silk threads, to sit beside or replace the small birdseed photo
+- Top-down photo of an adult drugstore beetle (Stegobium paniceum) beside a ruler marked in inches, sharp enough to show the rows of lines on its wing covers, ideally next to a cigarette beetle; public domain or CC0
+- Magnified public domain or CC0 photo of grain mites (Acarus siro) or booklice on flour or a pantry shelf beside a scale marked in inches, showing how pale and small they are
+
+## /blog/tiny-black-bugs
+
+- Top-down photo of an adult black carpet beetle (Attagenus), shiny black with brownish legs, beside a ruler marked in inches, so readers can see the solid black species next to the patterned varied carpet beetle
+- Top-down macro photo of a dark gray or black springtail on a white bathroom surface beside a ruler marked in inches, ideally with a second side view showing the forked jumping appendage folded under the body
+
+## /blog/flea-eggs
+
+- Life-size photo of specks combed from a dog or cat onto a white paper towel beside a ruler marked in inches, and the same towel after a few drops of water, showing the reddish-brown smears that flea dirt leaves
+- Magnified photo of cat flea cocoons tangled in carpet fibers, the silk coated with lint and pet hair, beside a ruler marked in inches
+- Side-by-side magnified photo of flea eggs and dandruff flakes combed from a pet's coat onto a dark surface, beside a ruler marked in inches
+
+## /blog/bugs-in-house-in-winter
+
+- Public domain or CC0 close-up of a western conifer seed bug's hind leg showing the flattened, leaf-like expansion, beside a ruler marked in inches
+- Public domain or CC0 photo of overwintering insects such as Asian lady beetles, boxelder bugs or cluster flies gathered on the inside of a sunny window or windowsill in winter, showing how they collect at the glass, ideally with a ruler marked in inches for scale
+
+## /blog/bugs-that-look-like-fleas
+
+- Top-down macro photo of a gray springtail beside a cat flea on a white surface with a ruler marked in inches, plus a side view showing the forked jumping appendage folded under the springtail's body
+- Close-up photo of an adult flea beetle on a leaf peppered with small round shot holes, beside a ruler marked in inches, showing the thickened hind legs and the hard wing covers
+
+## /learn/bug-bites
+
+- Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
+- Non-graphic photo of a black widow spider bite on skin showing the two small puncture marks, from a case where the spider was caught and identified, with its credit and license on record
 
 ## /blog/diy-pest-control
 

@@ -2,14 +2,14 @@
  "generated": "2026-10-16",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 123,
+  "newPagesBuilt": 135,
   "hubPages": 4,
-  "guides": 109,
+  "guides": 120,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 264,
-  "internalLinksInNewPages": 1563
+  "notBuilt": 251,
+  "internalLinksInNewPages": 1736
  },
  "pages": [
   {
@@ -40,7 +40,7 @@
    "wordCount": 3297,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -94,6 +94,38 @@
   },
   {
    "rank": null,
+   "keyword": "rat vs mouse",
+   "us_volume": null,
+   "url": "/blog/rat-vs-mouse",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Rat vs Mouse: How to Tell Them Apart (Photos)",
+   "wordCount": 2348,
+   "faqs": 5,
+   "sources": 11,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "roof rat vs norway rat",
+   "us_volume": null,
+   "url": "/blog/roof-rat-vs-norway-rat",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Roof Rat vs Norway Rat: How to Tell (Photos)",
+   "wordCount": 2288,
+   "faqs": 6,
+   "sources": 10,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "cockroaches",
    "us_volume": null,
    "url": "/learn/cockroaches",
@@ -120,7 +152,7 @@
    "wordCount": 3443,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -718,6 +750,166 @@
   },
   {
    "rank": null,
+   "keyword": "venomous spiders in the us",
+   "us_volume": null,
+   "url": "/blog/venomous-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Venomous Spiders in the US by State (Photos)",
+   "wordCount": 3109,
+   "faqs": 6,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "spiders that look like brown recluse",
+   "us_volume": null,
+   "url": "/blog/brown-recluse-look-alikes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Spiders That Look Like Brown Recluse (Photos)",
+   "wordCount": 2693,
+   "faqs": 5,
+   "sources": 16,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of carpet beetles",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-carpet-beetles",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Carpet Beetles (Photos): How to Get Rid of Them",
+   "wordCount": 2898,
+   "faqs": 6,
+   "sources": 12,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "asian lady beetle",
+   "us_volume": null,
+   "url": "/blog/asian-lady-beetles",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Asian Lady Beetle vs Ladybug: ID and Bites",
+   "wordCount": 2350,
+   "faqs": 6,
+   "sources": 13,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "pantry pests",
+   "us_volume": null,
+   "url": "/blog/pantry-pests",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
+   "wordCount": 2610,
+   "faqs": 6,
+   "sources": 5,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "tiny black bugs in house",
+   "us_volume": null,
+   "url": "/blog/tiny-black-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Tiny Black Bugs in the House? ID Them (Photos)",
+   "wordCount": 2698,
+   "faqs": 6,
+   "sources": 15,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do flea eggs look like",
+   "us_volume": null,
+   "url": "/blog/flea-eggs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "What Do Flea Eggs Look Like? (Photos)",
+   "wordCount": 2030,
+   "faqs": 6,
+   "sources": 9,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in house in winter",
+   "us_volume": null,
+   "url": "/blog/bugs-in-house-in-winter",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs in House in Winter: What They Are (Photos)",
+   "wordCount": 2847,
+   "faqs": 5,
+   "sources": 15,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 21,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs that look like fleas",
+   "us_volume": null,
+   "url": "/blog/bugs-that-look-like-fleas",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs That Look Like Fleas: How to Tell (Photos)",
+   "wordCount": 2571,
+   "faqs": 6,
+   "sources": 17,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 15,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bug bite identification",
+   "us_volume": null,
+   "url": "/learn/bug-bites",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bites",
+   "title": "Bug Bite Identification: What Bit You? (Photos)",
+   "wordCount": 3921,
+   "faqs": 6,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 43,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "pet safe pest control",
    "us_volume": null,
    "url": "/learn/pet-safe-pest-control",
@@ -760,7 +952,7 @@
    "wordCount": 3568,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1451,13 +1643,6 @@
   },
   {
    "rank": null,
-   "keyword": "bug bite identification",
-   "url": "/learn/bug-bites",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "skeeter syndrome",
    "url": "/blog/skeeter-syndrome",
    "action": "new",
@@ -1710,13 +1895,6 @@
   },
   {
    "rank": null,
-   "keyword": "venomous spiders in the us",
-   "url": "/blog/venomous-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "scabies vs bed bugs",
    "url": "/blog/scabies-vs-bed-bugs",
    "action": "new",
@@ -1794,13 +1972,6 @@
   },
   {
    "rank": null,
-   "keyword": "spiders that look like brown recluse",
-   "url": "/blog/brown-recluse-look-alikes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "carpet beetle rash",
    "url": "/blog/carpet-beetle-rash",
    "action": "new",
@@ -1845,13 +2016,6 @@
    "rank": null,
    "keyword": "how to get rid of wasps",
    "url": "/blog/how-to-get-rid-of-wasps",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "how to get rid of carpet beetles",
-   "url": "/blog/how-to-get-rid-of-carpet-beetles",
    "action": "new",
    "status": "not built"
   },
@@ -1922,13 +2086,6 @@
    "rank": null,
    "keyword": "cicada killer",
    "url": "/blog/cicada-killers",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "asian lady beetle",
-   "url": "/blog/asian-lady-beetles",
    "action": "new",
    "status": "not built"
   },
@@ -2284,13 +2441,6 @@
   },
   {
    "rank": null,
-   "keyword": "pantry pests",
-   "url": "/blog/pantry-pests",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "stable fly",
    "url": "/blog/stable-flies",
    "action": "new",
@@ -2349,13 +2499,6 @@
    "rank": null,
    "keyword": "wheel bug",
    "url": "/blog/wheel-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "american cockroach",
-   "url": "/blog/american-cockroaches",
    "action": "new",
    "status": "not built"
   },
@@ -2571,48 +2714,6 @@
   },
   {
    "rank": null,
-   "keyword": "tiny black bugs in house",
-   "url": "/blog/tiny-black-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "what do flea eggs look like",
-   "url": "/blog/flea-eggs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "rat vs mouse",
-   "url": "/blog/rat-vs-mouse",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "roof rat vs norway rat",
-   "url": "/blog/roof-rat-vs-norway-rat",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bugs in house in winter",
-   "url": "/blog/bugs-in-house-in-winter",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bugs that look like fleas",
-   "url": "/blog/bugs-that-look-like-fleas",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "spider egg sac",
    "url": "/blog/spider-egg-sacs",
    "action": "new",
@@ -2680,7 +2781,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -2696,7 +2797,7 @@
    "wordCount": 2424,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2850,7 +2951,7 @@
    "wordCount": 5203,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 24,
+   "inboundFromNewPages": 26,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -2916,7 +3017,7 @@
    "wordCount": 3004,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -3156,7 +3257,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3220,7 +3321,7 @@
    "wordCount": 2497,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3638,7 +3739,7 @@
    "wordCount": 2483,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3670,7 +3771,7 @@
    "wordCount": 2780,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3696,7 +3797,7 @@
    "wordCount": 3298,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3792,7 +3893,7 @@
    "wordCount": 2964,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3824,7 +3925,7 @@
    "wordCount": 2170,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -3906,7 +4007,7 @@
    "wordCount": 3467,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4000,7 +4101,7 @@
    "wordCount": 2287,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 12,
    "status": "built"
   },
