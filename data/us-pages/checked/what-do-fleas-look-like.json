@@ -1,0 +1,10 @@
+{
+ "id": "what-do-fleas-look-like",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7fd320aeed60ba7f45a7f45a0a535df8e086f60e76616cd3974903b549c16c62",
+ "claimsChecked": 116,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-16"
+}
