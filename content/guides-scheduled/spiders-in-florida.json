@@ -1,0 +1,202 @@
+{
+  "slug": "spiders-in-florida",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "spiders in florida",
+  "alsoTargets": [
+    "florida spiders",
+    "common spiders in florida",
+    "venomous spiders in florida",
+    "poisonous spiders in florida",
+    "big spiders in florida",
+    "black spiders in florida",
+    "banana spider florida",
+    "spiders in florida pictures"
+  ],
+  "metaTitle": "Spiders in Florida: Common Species (Photos)",
+  "metaDescription": "Photos of Florida's common spiders, from banana spiders to green lynx, the one feature that identifies each, the four widows and why recluses are rare.",
+  "h1": "Spiders in Florida: Identifying the Common Species and the Widows",
+  "dek": "The golden web across the trail, the spiny spider in the citrus tree and the big flat spider on the wall are not dangerous. Photos, sizes and the one feature that identifies each, plus how to spot Florida's four widows.",
+  "breadcrumb": "Spiders in Florida",
+  "excerpt": "Photos and the one feature that identifies each common Florida spider, from banana spiders to green lynx, plus the four widows and why recluses are rare there.",
+  "datePublished": "2026-10-16",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most spiders Floridians find, such as orb weavers and jumping, lynx, house and huntsman spiders, are not dangerous; the ones to avoid are the four widows, which have a red or orange hourglass or red marks on a large, round abdomen.** The [University of Florida](https://ask.ifas.ufl.edu/publication/IN1366) says there is no scientific evidence that any recluse spider is established in the state.",
+    "bullets": [
+      "Female golden silk orb weavers, which UF says Floridians also call banana spiders, are nearly 1 to over 1 1/2 inches (24 to 40 mm) long, and their webs are often 3 to 6 1/2 feet across.",
+      "Female spinybacked orb weavers are only 3/16 to 1/3 inch long but 3/8 to 1/2 inch wide, with six spines, and UF says the bite is not known to cause serious effects.",
+      "UF says the green lynx spider, 1/2 to 7/8 inch long and bright green with black-spined legs, is the spider Florida's Division of Plant Industry receives most often for identification.",
+      "Huntsman spiders have a body about 1 inch long and a leg span of 3 to 5 inches; UF calls them not dangerous, though they can give a painful bite if handled carelessly or trapped.",
+      "Florida's widows are the southern black widow, found statewide, the introduced brown widow, the red widow of sand pine scrub and the northern black widow, reported only from the Panhandle, according to FDACS's 2009 pest alert.",
+      "In a 2004 study, Florida medical personnel diagnosed 124 brown recluse bites in six years, while only about 70 recluse spiders had been found in the state in 100 years."
+    ]
+  },
+  "facts": {
+    "title": "Florida spiders at a glance",
+    "rows": [
+      ["Golden silk orb weaver", "Huge golden web; long orange to tan body with yellow spots; brushes of hair on the legs"],
+      ["Spinybacked orb weaver", "Small, crab-shaped body with six spines, typically white with red spines in Florida"],
+      ["Orchard orb weavers", "Small spiders hanging in orb webs; one species has orange spots, but the abdomen is long and thin, not round like a widow's"],
+      ["Jumping spiders", "Two huge front eyes; leaps; the regal jumper is black, brown, gray or orange with white marks"],
+      ["Green lynx spider", "Bright green on shrubs and low plants; long black spines on pale legs"],
+      ["Southern house spider", "Flat, tangled web around a crevice on a building; long-legged khaki males with eight eyes"],
+      ["Huntsman (giant crab) spider", "Big, flat and brown, with black spots at the bases of the leg bristles; hunts without a web"],
+      ["Wolf spiders", "A hunting spider; the female drags her egg sac, then carries her young on her back"],
+      ["Southern black widow", "Glossy black, legs included, with a red hourglass under a round abdomen; statewide"],
+      ["Brown widow", "Light to medium brown, banded legs, orange hourglass; spiky egg sacs like sandspurs"],
+      ["Red widow", "Red-orange legs and front body; black abdomen with red spots ringed in yellow; sand pine scrub"],
+      ["Brown recluse", "Six eyes in three pairs; no scientific evidence any recluse is established in Florida"]
+    ]
+  },
+  "body": [
+    { "type": "h2", "text": "What spiders are most common in Florida?" },
+    { "type": "p", "text": "Orb weavers top the list. On [iNaturalist](https://www.inaturalist.org/observations?place_id=21&quality_grade=research&taxon_id=47118&view=species), the golden silk orb weaver and the spinybacked orb weaver lead Florida's research-grade spider records, photo records whose species other users have agreed on, followed by orchard orb weavers, the gray wall jumping spider, the green lynx spider and the yellow garden spider. As of October 16, 2026, about 105,000 such records included 13,555 golden silk and 12,393 spinybacked orb weavers. They show what people notice and photograph, not how many spiders there are." },
+    { "type": "figure", "src": "/guides/photos/golden-silk-orb-weaver.webp", "width": 1200, "height": 800, "alt": "Large female golden silk orb weaver hanging in a wide orb web, with a long orange-brown abdomen marked in pale yellow, brush-like tufts on its legs and a much smaller spider higher in the web", "caption": "Female golden silk orb weaver, *Trichonephila clavipes*, in her web. Look for the brushes of hair on the legs, which UF says set it apart from Florida's garden orb weavers.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/126590005" },
+    { "type": "p", "text": "The University of Florida's [introduction to common Florida spiders](https://ask.ifas.ufl.edu/publication/IN1366) counts more than 250 species in the state and calls spiders mostly shy, non-aggressive and generally not a threat to people. Of the spiders native to or established in Florida, it names only the widows as having medically significant venom." },
+    { "type": "table", "head": ["Spider", "Female body length", "Where you see it", "Bite"], "rows": [
+      ["Golden silk orb weaver", "Nearly 1 to over 1 1/2 inches", "Big golden webs in woods, late summer and fall", "Much milder than a bee sting"],
+      ["Spinybacked orb weaver", "3/16 to 1/3 inch long, up to 1/2 inch wide", "Trees and shrubs around houses, groves", "Not known to cause serious effects"],
+      ["Jumping spiders", "Mostly 1/4 to 1/2 inch; regal jumper up to 7/8 inch", "Building walls, palms, palmettos", "Painful only if roughly handled"],
+      ["Green lynx spider", "1/2 to 7/8 inch", "Low shrubs and plants", "Seldom bites"],
+      ["Southern house spider", "1/2 to 3/4 inch", "Crevices on buildings", "Not known to be dangerous"],
+      ["Huntsman spider", "About 1 inch; legs span 3 to 5 inches", "Houses, garages, sheds", "Not dangerous; may bite if handled"],
+      ["Wolf spiders", "Carolina wolf spider up to about 1 3/8 inches", "Large ones: retreats in soil or under boards", "Pain and redness, usually gone within 24 hours"],
+      ["Widows (four species)", "About 5/16 to 5/8 inch", "Undisturbed spots: sheds, water meter holes, under grills", "Medically significant venom; bites are rare"]
+    ], "caption": "Body length without legs. Sources: UF/IFAS, FDACS (widows) and Penn State Extension (wolf spiders), each linked in the sections below." },
+
+    { "type": "h2", "text": "How can you tell which Florida spider you have?" },
+    { "type": "p", "text": "Note where it is and what it is doing, then check the underside, the quickest way to spot a widow. Trap a wandering spider under a clear jar instead of handling it, then run these checks." },
+    { "type": "checklist", "title": "Checks for a Florida spider", "items": [
+      "**Web.** A round orb web means an orb weaver. A messy cobweb in a sheltered spot, with the spider hanging upside down, fits a widow. A flat, tangled web spreading from a crack in a wall fits a southern house spider.",
+      "**No web.** A spider hunting on the ground, a wall or a plant is likely a wolf, huntsman, jumping or lynx spider, or a wandering male southern house spider.",
+      "**Underside.** Red or orange marks under a large, round abdomen mean a widow. Orchard orb weavers may have orange spots, but they sit in orb webs and have a longer, thinner abdomen, UF notes.",
+      "**Eyes and movement.** Two huge forward-facing eyes and a leap mean a jumping spider. Six eyes in three pairs point to a recluse, rare in Florida, or a spitting spider, which has a domed head; male southern house spiders have eight eyes bunched on a bump.",
+      "**Size.** Measure the body, not the legs, against a ruler marked in inches. Widow females are about 5/16 to 5/8 inch long; a flat brown body near 1 inch long, with legs spanning 3 inches or more, points to a huntsman."
+    ] },
+
+    { "type": "h2", "text": "What is the big spider with the golden web?" },
+    { "type": "p", "text": "It is the golden silk orb weaver, *Trichonephila clavipes*, which UF says is also commonly called the banana spider in Florida. [UF's golden silk spider profile](https://ask.ifas.ufl.edu/publication/IN467) calls the females perhaps the largest orb weavers in the country, nearly 1 to over 1 1/2 inches (24 to 40 mm) long, with a silvery front body section, yellow spots on a long, dull orange to tan abdomen, banded legs and brushes of hair on several legs. Males are slender, dark brown, about 1/4 inch (6 mm) long and often found in the females' webs." },
+    { "type": "p", "text": "The web gives it away: finely meshed, often 3 to 6 1/2 feet (1 to 2 meters) across, spun from golden silk, with the spider waiting near the top. UF says the species occurs throughout Florida, in open woods and at the edges of forest, and that its webs trap unwary hikers mostly in late summer and fall. It bites only if held or pinched, UF says, and the bite is much less severe than a bee sting." },
+    { "type": "p", "text": "Florida's four garden orb weavers, including the yellow garden spider, are similar in size but lack the leg tufts and often add zigzag bands of silk to their webs; UF says they pose no threat to people. The huntsman spider is sometimes called a banana spider too, but it hunts without a web. [The orb weaver guide](/blog/orb-weaver-spiders) compares the big web builders." },
+
+    { "type": "h2", "text": "What is the spiny, crab-shaped spider in the web?" },
+    { "type": "p", "text": "It is the spinybacked orb weaver, *Gasteracantha cancriformis*, which [UF's spiny orb weaver profile](https://ask.ifas.ufl.edu/publication/IN324) says is easy to tell from every other spider in Florida. The female is wider than she is long, 3/16 to 1/3 inch long (5 to nearly 9 mm) but 3/8 to 1/2 inch wide, with six pointed spines, and Florida specimens are typically white on top with black spots and red spines. Males are tiny and lack the big spines. In parts of Florida it is called a crab spider, although it is not related to true crab spiders." },
+    { "type": "figure", "src": "/guides/photos/spinybacked-orb-weaver.webp", "width": 900, "height": 675, "alt": "Spinybacked orb weaver in its web, a small spider with a white abdomen marked with dark spots and six pointed red spines around the edge", "caption": "Spinybacked orb weaver, *Gasteracantha cancriformis*, in its web in Florida. The white abdomen with dark spots and six red spines is the color form UF calls typical of Florida.", "credit": "Zygy, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gasteracantha_cancriformis_172582232.jpg" },
+    { "type": "p", "text": "UF says it may turn up on trees and shrubs around houses and is often met in citrus groves. Females are adult all year, most common from October through January, and eat mosquitoes and other small insects caught in the web. The bite is not known to cause serious effects." },
+
+    { "type": "h2", "text": "What is the black spider that jumps?" },
+    { "type": "p", "text": "A spider that leaps, with two huge eyes facing forward, is a jumping spider, and a big, hairy black one in Florida is often the regal jumping spider, *Phidippus regius*. [UF's regal jumping spider profile](https://ask.ifas.ufl.edu/publication/IN309), first published in 2000, calls it the largest jumping spider in eastern North America and, after two introduced species that live on buildings, the one met most often in Florida. Females average about 2/3 inch (15 mm) and are usually gray, tan, brown or orange; males average 1/2 inch and are always black with white markings." },
+    { "type": "figure", "src": "/guides/photos/bold-jumping-spider.webp", "width": 1200, "height": 900, "alt": "Fuzzy black bold jumping spider on a green leaf, facing the camera, with two large round front eyes and shiny iridescent green jaws", "caption": "Adult female bold jumping spider, *Phidippus audax*, a close relative that UF says lives throughout most of the regal jumper's range. Look for the two big front eyes and the iridescent jaws below them.", "credit": "Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Phidippus_audax_01.jpg" },
+    { "type": "media", "needed": "Regal jumping spider (Phidippus regius) photographed in Florida: a black adult male with white markings, or an orange or gray female, showing the iridescent jaws; public domain or CC0" },
+    { "type": "p", "text": "UF says a regal jumper is often mistaken for a black widow, but a widow is round, shiny and not noticeably hairy. The gray wall jumper and the pantropical jumper, both about 1/2 inch long, live almost only on buildings and can be numerous around lights at night, according to [UF's profile of Florida's house jumping spiders](https://ask.ifas.ufl.edu/publication/IN315). UF calls jumping spiders harmless to people, although larger ones can give a locally painful bite if roughly handled. [The jumping spider guide](/blog/jumping-spiders) covers more species." },
+
+    { "type": "h2", "text": "What is the bright green spider on the shrubs?" },
+    { "type": "p", "text": "A bright green spider with long, black-spined legs on a shrub or other low plant is a green lynx spider, *Peucetia viridans*. [UF's green lynx profile](https://ask.ifas.ufl.edu/publication/IN521) says it is common throughout Florida, the largest lynx spider in North America and the spider Florida's Division of Plant Industry entomologists receive most often for identification. Females are 1/2 to 7/8 inch long (12 to 22 mm); the body is a see-through bright green, and the pale legs carry long black spines and black spots." },
+    { "type": "figure", "src": "/guides/photos/green-lynx-spider.webp", "width": 1200, "height": 900, "alt": "Bright green lynx spider seen from above on a plant stem among pink flowers, with pale green and yellow legs covered in long black spines and black dots", "caption": "Green lynx spider, *Peucetia viridans*, on a plant stem in Putnam County, Florida. The long black spines on its pale legs are the mark to look for.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/186731001" },
+    { "type": "p", "text": "It hunts by day on low shrubs and plants without a web and very seldom bites people, UF says. UF's introduction adds that it can change color to match its background, and that the magnolia green jumping spider, also see-through green, has huge forward-facing eyes and no long leg spines. In September and October the female guards a rounded egg sac about 2/3 to 1 inch across, covered in small points; [the spider egg sac guide](/blog/spider-egg-sacs) helps tell it from others." },
+
+    { "type": "h2", "text": "What spider makes the thick web on the house wall?" },
+    { "type": "p", "text": "A flat, tangled web spread around a crack in a wall, windowsill or shutter is the mark of the southern house spider, *Kukulcania hibernalis*: [UF's southern house spider profile](https://ask.ifas.ufl.edu/publication/IN301) says the web easily identifies it and calls the spider common throughout Florida in populated areas. The female, charcoal gray and 1/2 to 3/4 inch long (13 to 19 mm), hides in the crevice by day and sits on the web at night." },
+    { "type": "figure", "src": "/guides/photos/southern-house-spider-female-web.webp", "width": 1200, "height": 1600, "alt": "Dark gray, velvety female southern house spider on a thick, tangled gray web over a rough surface, next to a large insect wrapped in silk", "caption": "Female southern house spider, *Kukulcania hibernalis*, on her web in Tallahassee, Florida. Look for the dark, velvety body and the thick, tangled web.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/28653824" },
+    { "type": "p", "text": "Males are often mistaken for brown recluses. UF describes them as khaki to amber, about 3/8 inch long (9 to 10 mm), with long, slender legs and long palps, the leg-like feelers beside the jaws; they build no web and wander in search of females. A male has eight eyes grouped on a raised bump, where a recluse has six. UF says the species is not known to have a dangerous bite, though two reported bites caused pain and swelling for up to two days. [The house spider guide](/blog/house-spiders) covers other indoor spiders." },
+
+    { "type": "h2", "text": "What is the big, flat brown spider in the house?" },
+    { "type": "p", "text": "In Florida it is often the pantropical huntsman spider, *Heteropoda venatoria*, also called the giant crab spider. [UF's huntsman spider profile](https://ask.ifas.ufl.edu/publication/IN317) gives adults a body about 1 inch long (22 to 28 mm) and a leg span of 3 to 5 inches, and says its flattened brown body and the black spots on its legs, each at the base of a long bristle, set it apart from other large hunting spiders. It was introduced and lives in subtropical parts of Florida, Texas and California and in coastal Georgia and South Carolina." },
+    { "type": "media", "needed": "Pantropical huntsman spider (Heteropoda venatoria) photographed in Florida, top view on a wall or floor, showing the flat brown body, the pale band around the front body section and the black spots at the bases of the leg bristles; public domain or CC0" },
+    { "type": "p", "text": "UF says it often turns up in houses, barns and sheds, and in cold weather indoors under furniture, behind wall hangings and in closets and garages; in south Florida, where frost is rare, it also lives outdoors. It hunts without a web and catches cockroaches and other household pests. UF calls it not dangerous, but it can give a locally painful bite, sometimes with noticeable swelling, if handled carelessly or trapped, for example in a shoe." },
+
+    { "type": "h2", "text": "Are the big spiders running on the ground wolf spiders?" },
+    { "type": "p", "text": "Often they are, and a female with young on her back settles it: [UF's introduction](https://ask.ifas.ufl.edu/publication/IN1366) says a wolf spider female drags her egg sac attached to her spinnerets, then carries the hatched spiderlings on her back, and that wolf spiders are the only spiders known to carry their young on their backs. Florida's research-grade iNaturalist records include about 3,700 wolf spiders, among them the large Carolina wolf spider." },
+    { "type": "p", "text": "[Penn State Extension's wolf spider page](https://extension.psu.edu/wolf-spiders) gives Carolina wolf spider females a body about 7/8 to 1 3/8 inches (22 to 35 mm) long, dark brown with scattered gray hairs, and says these big wolf spiders hide in retreats by day and hunt at night. Wolf spiders will bite if mishandled or trapped against the skin, it says, causing pain and redness, sometimes swelling, that usually fade within 24 hours, with no serious medical consequences noted." },
+    { "type": "media", "needed": "Wolf spider photographed in Florida, top view, ideally a female carrying her egg sac at her spinnerets or her spiderlings on her back, beside a ruler marked in inches; public domain or CC0" },
+    { "type": "p", "text": "[The wolf spider guide](/blog/wolf-spiders) shows the common species, and [the fishing spider guide](/blog/fishing-spiders) covers the spiders UF finds in or near water." },
+
+    { "type": "h2", "text": "Which spiders in Florida are venomous?" },
+    { "type": "p", "text": "Only the widows matter medically. UF names Florida's four widows, the southern black widow, northern black widow, brown widow and red widow, as the only spiders native to or established in the state with medically significant venom, and calls them shy: bites are rare unless a widow is taunted or accidentally crushed or pinched in clothing. The FDACS Division of Plant Industry's [pest alert on venomous spiders in Florida](https://www.fdacs.gov/content/download/68176/file/pest_alert_-_venomous_spiders_-_widow_and_recluse.pdf) puts widow females at about 5/16 to 5/8 inch (8 to 15 mm) long." },
+    { "type": "h3", "text": "Southern black widow" },
+    { "type": "p", "text": "FDACS calls the southern black widow the most common native widow and says it occurs throughout the state. It is glossy jet black, legs included, and its only red marks are a bright red hourglass under the abdomen and a red spot just above the spinnerets. [UF's southern black widow profile](https://ask.ifas.ufl.edu/publication/IN1000) puts a female's body at about 1/2 inch and lists woodpiles, rock piles, sheds, garages and outhouses among its haunts." },
+    { "type": "figure", "src": "/guides/photos/black-widow.webp", "width": 1200, "height": 807, "alt": "Glossy black female southern black widow hanging under a rusty brown twig, showing a red hourglass mark on her round abdomen", "caption": "Female southern black widow, *Latrodectus mactans*, spinning her web on a branch. The red hourglass under the round, glossy abdomen is the mark to check.", "credit": "CDC/ Paula Smith; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9854" },
+    { "type": "h3", "text": "Brown widow" },
+    { "type": "p", "text": "The brown widow, an introduced species, is the widow most at home around people: FDACS calls it the most human-adapted widow in Florida, sometimes extremely abundant on houses, fences and bridges. It is usually light to medium brown, with an orange hourglass underneath and legs banded light and dark, but dark ones are hard to tell from black widows. FDACS calls the egg sac the best identifying feature: tan, round and studded with small tufts of silk, like a sandspur, where other widows make smooth, pear-shaped sacs." },
+    { "type": "figure", "src": "/guides/photos/brown-widow-egg-sacs.webp", "width": 1152, "height": 2048, "alt": "Two round, pale cream brown widow egg sacs covered in short spikes, held in a cobweb among green leaves", "caption": "Brown widow egg sacs, *Latrodectus geometricus*, in a cobweb among leaves. The spiky surface, which FDACS likens to a sandspur, is the best sign of this widow.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/391056042" },
+    { "type": "p", "text": "FDACS calls it extremely timid and rarely reported to bite. UF's black widow profile says its venom is more potent than a black widow's, but it releases less venom when it bites and tends to curl up when disturbed. [The brown widow guide](/blog/brown-widow-spiders) has more." },
+    { "type": "h3", "text": "Red widow" },
+    { "type": "p", "text": "The red widow lives only in Florida, in sand pine scrub from Marion County to Martin County, according to FDACS in 2009; iNaturalist sightings also come from northern Palm Beach County. It has red-orange legs and a red-orange front body, a black abdomen with rows of red spots ringed in yellow on top, and a single flattened red triangle underneath. Its web starts as a tangle deep inside a small palm or palmetto and continues as a sheet of silk onto an outer leaf." },
+    { "type": "figure", "src": "/guides/photos/red-widow.webp", "width": 1200, "height": 1600, "alt": "Red widow with red legs and a red front body and a black abdomen marked with red spots ringed in yellow, standing on a person's finger", "caption": "Adult female red widow, *Latrodectus bishopi*, in Jonathan Dickinson State Park, Florida. Note the red legs and yellow-ringed red spots, and never let a widow onto your hand as here.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/220037947" },
+    { "type": "h3", "text": "Northern black widow" },
+    { "type": "p", "text": "The northern black widow has its hourglass split into two triangles and a row of red spots down the middle of its back. FDACS's 2009 pest alert reports it in Florida only from the Panhandle, where it hangs a large, tangled web at the tip of a low tree branch." },
+    { "type": "h3", "text": "What to do after a widow bite" },
+    { "type": "p", "text": "CDC says black widow venom is a neurotoxin: pain starts at the bite and can spread to the chest, abdomen or whole body. [CDC's first aid for venomous spider bites](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) is to stay calm, wash the bite with soap and water, apply a cloth dampened with cold water or filled with ice, raise the area if possible, not try to remove venom, and immediately seek professional medical attention. [Poison Control](https://www.poison.org/articles/black-widow-spiders) advises at 1-800-222-1222 and considers emergency care appropriate when oral pain medicine does not control the pain. [The black widow bite guide](/blog/black-widow-bite) and [the bug bite picture chart](/learn/bug-bites) show what bites can look like." },
+
+    { "type": "h2", "text": "Are there brown recluses in Florida?" },
+    { "type": "p", "text": "Not as established populations, as far as the evidence shows. UF says there is currently no scientific evidence that any recluse spider is established in Florida, though brown, Chilean and Mediterranean recluses have occasionally been intercepted. The FDACS pest alert adds that they have occasionally set up populations in single buildings at scattered locations, and lists brown recluse finds in Alachua, Bay, Duval, Jefferson and Leon counties." },
+    { "type": "p", "text": "Diagnoses far outnumber the spiders. In [a 2004 study in the Journal of Medical Entomology](https://pubmed.ncbi.nlm.nih.gov/15311449/), Florida medical personnel diagnosed 124 brown recluse bites from 31 of the state's 67 counties in six years, while only about 70 recluse spiders had been found in 10 counties in 100 years. In [UF's brown recluse profile](https://ask.ifas.ufl.edu/publication/IN576), first published in 2003, FDACS taxonomic entomologist G. B. Edwards wrote that of several hundred Florida spiders the public had sent him to identify, only one was a brown recluse. UF says wounds and bacterial infections are commonly misdiagnosed as recluse bites." },
+    { "type": "p", "text": "The usual suspects are male southern house spiders, wolf spiders, fishing spiders and huntsman spiders, according to UF. A recluse has six eyes in three pairs, FDACS notes, and UF says it is less hairy than those spiders, with a violin-shaped mark too inconsistent to rely on. [The brown recluse look-alike guide](/blog/brown-recluse-look-alikes) shows how to tell them apart, and [the venomous spider guide](/blog/venomous-spiders) maps where recluses are established." },
+
+    { "type": "h2", "text": "When are spiders most noticeable in Florida?" },
+    { "type": "p", "text": "All year, with a winter dip. Florida's research-grade spider records on iNaturalist run about 5,200 to 5,800 a month from November through February and about 9,600 to 11,700 a month from April through October, all years combined." },
+    { "type": "chart", "title": "Research-grade spider sightings in Florida on iNaturalist, by month observed", "x": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "series": [
+      { "name": "Research-grade observations", "values": [5367, 5283, 8550, 10917, 10699, 9959, 11136, 11112, 11662, 9600, 5811, 5168] }
+    ], "yLabel": "Spider observations in Florida, all years combined, as of October 16, 2026", "caption": "Photo records of spiders taken in Florida in each month whose species other iNaturalist users have agreed on. They track when people notice spiders, not spider numbers.", "source": "[iNaturalist](https://www.inaturalist.org/observations?place_id=21&quality_grade=research&taxon_id=47118&view=species), research-grade spider observations in Florida, retrieved October 16, 2026" },
+    { "type": "p", "text": "UF's profiles explain part of it: golden silk webs are most noticeable in late summer and fall, spinybacked orb weaver females are most common from October through January, and southern house spiders, huntsman spiders and the two house-dwelling jumping spiders appear in all life stages year-round." },
+
+    { "type": "h2", "text": "What should you do about spiders around a Florida home?" },
+    { "type": "p", "text": "Usually nothing: UF describes spiders as useful predators of pest insects, and most Florida spiders are not dangerous to people. Where widows are possible, the sources stress care:" },
+    { "type": "ul", "items": [
+      "**Wear gloves** when lifting boards or firewood or reaching into storage boxes, and check clothing that has gone unworn for a while, the FDACS pest alert advises.",
+      "**Shake out shoes and clothing**, and wear gloves in sheds, basements and attics, as UF's black widow profile suggests.",
+      "**Look before reaching** into water meter holes, nursery pots and spots under grills or play equipment left undisturbed, where FDACS says widows are most often found around homes.",
+      "**Seal and vacuum.** UF's southern house spider profile recommends repairing cracks, sealing gaps around doors and pipes, keeping screens repaired and vacuuming webs and egg sacs."
+    ] },
+    { "type": "p", "text": "For spiders that keep coming inside, [keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) walks through sealing and vacuuming, and [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) covers control. If someone was bitten and no one saw the spider, see [what spider bites look like](/blog/what-does-a-spider-bite-look-like) and [how a mosquito bite differs from a spider bite](/blog/mosquito-bite-vs-spider-bite). Separate guides cover [spiders in Texas](/blog/spiders-in-texas) and [spiders in California](/blog/spiders-in-california)." },
+    { "type": "p", "text": "To have a spider identified, the [UF Insect Identification Lab](https://entnemdept.ufl.edu/insectid/overview/) in Gainesville identifies spider samples, mainly for Florida residents." },
+    { "type": "callout", "tone": "tip", "title": "Save the spider", "text": "Trap the spider in a jar instead of handling it, photograph it beside a ruler marked in inches, and note where you found it and what its web looked like. Your county's UF/IFAS Extension office or the UF Insect Identification Lab can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are banana spiders dangerous?",
+      "answer": "No. In Florida the name is used for two different spiders, and neither is dangerous to people. The University of Florida says the golden silk orb weaver is commonly called the banana spider in Florida, and that it bites only if held or pinched, causing local pain and slight redness that soon fade, much less severe than a bee sting. The pantropical huntsman spider is also sometimes called a banana spider because it occasionally turns up in bananas for sale. UF calls it not dangerous, though it can give a painful bite if handled carelessly or trapped."
+    },
+    {
+      "question": "What is the biggest spider in Florida?",
+      "answer": "The sources do not name a single biggest spider, but three stand out. The pantropical huntsman spider has a leg span of 3 to 5 inches and a body about 1 inch long, according to the University of Florida. Female golden silk orb weavers are nearly 1 to over 1 1/2 inches (24 to 40 mm) long, and UF counts them among the largest North American spiders other than tarantulas. Penn State Extension gives Carolina wolf spider females a body about 7/8 to 1 3/8 inches (22 to 35 mm) long."
+    },
+    {
+      "question": "Which black spiders in Florida are dangerous?",
+      "answer": "Only the widows. FDACS's 2009 pest alert says the southern black widow, found throughout the state, is glossy jet black, legs included, with a red hourglass under the abdomen, and the northern black widow, reported in Florida only from the Panhandle, has a split hourglass and red spots on its back. Dark brown widows can be hard to tell from black widows. A black spider often mistaken for a widow is the regal jumping spider: UF says its males are black and hairy with white markings, while a black widow is round, shiny and not noticeably hairy."
+    },
+    {
+      "question": "Are black widows common in Florida?",
+      "answer": "FDACS calls the southern black widow the most common of Florida's native widows and says it occurs throughout the state, mostly in undisturbed spots such as sheds, water meter holes and under stored items. People meet the introduced brown widow more often, though: FDACS calls it the most human-adapted widow in Florida, and the state's research-grade iNaturalist records include more than three times as many brown widows as southern black widows. UF's black widow profile notes that brown widows may be competing with black widows and reducing their numbers."
+    },
+    {
+      "question": "Can a spider bite kill you in Florida?",
+      "answer": "It is very unlikely. CDC says death from a venomous spider bite is extremely rare but can happen in the most severe cases. In a review of more than 15,000 black widow exposures reported to US poison centers, Poison Control reports no deaths and about 10 percent leading to a hospital admission. The University of Florida names the widows as the only spiders established in Florida with medically significant venom, meaning a bite may need medical care. CDC's first aid for a venomous spider bite ends with immediately seeking professional medical attention, and Poison Control can advise at 1-800-222-1222."
+    },
+    {
+      "question": "Is the spider I found a brown recluse?",
+      "answer": "Very probably not. The University of Florida says there is no scientific evidence that any recluse spider is established in Florida, and FDACS taxonomic entomologist G. B. Edwards wrote that of several hundred Florida spiders the public had sent him to identify, only one was a brown recluse. The usual suspects are male southern house spiders, wolf spiders, fishing spiders and huntsman spiders. A recluse has six eyes in three pairs. Keep the spider in a jar and have it identified, for example by the UF Insect Identification Lab."
+    }
+  ],
+  "sources": [
+    { "title": "An Introduction to Some Common and Charismatic Florida Spiders (ENY2080)", "publisher": "University of Florida IFAS Extension (Powell and Taylor, 2023)", "url": "https://ask.ifas.ufl.edu/publication/IN1366" },
+    { "title": "Venomous Spiders in Florida (Pest Alert, updated December 2009)", "publisher": "Florida Department of Agriculture and Consumer Services, Division of Plant Industry", "url": "https://www.fdacs.gov/content/download/68176/file/pest_alert_-_venomous_spiders_-_widow_and_recluse.pdf" },
+    { "title": "Golden Silk Spider, Trichonephila clavipes (EENY229)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN467" },
+    { "title": "Spiny Orb Weaver Spider, Gasteracantha cancriformis (EENY-167)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN324" },
+    { "title": "Regal Jumping Spider, Phidippus regius (EENY152)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN309" },
+    { "title": "Jumping Spiders, Gray Wall Jumper, and Pantropical Jumper (EENY-158)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN315" },
+    { "title": "Green Lynx Spider, Peucetia viridans (EENY249)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN521" },
+    { "title": "Southern House Spider, Kukulcania hibernalis (EENY144)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN301" },
+    { "title": "Pantropical Huntsman Spider, Heteropoda venatoria (EENY-160)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN317" },
+    { "title": "Wolf Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/wolf-spiders" },
+    { "title": "Southern Black Widow, Latrodectus mactans (EENY 560)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN1000" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "How dangerous is a black widow spider bite?", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/black-widow-spiders" },
+    { "title": "Reports of envenomation by brown recluse spiders (Araneae: Sicariidae) outnumber verifications of Loxosceles spiders in Florida", "publisher": "Journal of Medical Entomology (Vetter, Edwards and James, 2004), abstract on PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/15311449/" },
+    { "title": "Brown Recluse Spider, Loxosceles reclusa (EENY299)", "publisher": "University of Florida IFAS Extension, Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN576" },
+    { "title": "Research-grade spider (Araneae) observations in Florida", "publisher": "iNaturalist", "url": "https://www.inaturalist.org/observations?place_id=21&quality_grade=research&taxon_id=47118&view=species" },
+    { "title": "Insect Identification Lab: Overview", "publisher": "UF/IFAS Entomology and Nematology Department", "url": "https://entnemdept.ufl.edu/insectid/overview/" }
+  ],
+  "disclaimer": "health"
+}

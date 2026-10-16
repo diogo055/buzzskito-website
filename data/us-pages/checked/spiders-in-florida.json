@@ -1,0 +1,10 @@
+{
+ "id": "spiders-in-florida",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4ec4bdbe681418398368b4faf2af8bbfc27381e1d754b53fa0d3c326b5c73301",
+ "claimsChecked": 324,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-16"
+}
