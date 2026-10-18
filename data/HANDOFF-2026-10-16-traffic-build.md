@@ -64,6 +64,21 @@ with SendUserFile.
   droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
   red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
   it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
+- **GSC REVIEW Oct 18 (data/god-build/gsc-review-2026-10-18.md) -> ADD TO THE OCT 20 (TUESDAY) LIST:**
+  (1) sitemap resubmit + Request indexing for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
+  wolf-spiders, baby-mice, field-mice (owner's OK each time; 26 of 30 Oct-16 pages unknown to Google,
+  sitemap last read Oct 13); (2) FOREIGN-CANONICAL FOLDING IS RECURRING: 3 of 10 pages crawled since
+  Oct 16 folded into foreign URLs (Google's stored copy had no canonical/structured data): live-test
+  wolf-spiders, find the foreign domains (proxy/scraper mirror?), consider host-check defences + spam
+  report/DMCA; inspect each batch 3-5 days after release; (3) release ~18 new pages until >= 80% of the
+  Oct 16 batch is indexed (check Oct 23), then ramp to 50-60/week; (4) retrofit year-round pages NOT
+  touched Oct 15-16 first (keep the Oct 29-30 read clean); drop cluster-flies-in-house-canada,
+  when-to-worry-about-a-mosquito-bite, baby-mice from the order; (5) winter order: ID pages +
+  how-to-get-rid-of-cockroaches first; (6) hold the drain-fly and boxelder US twins until after Oct 30,
+  give their slots to cockroach-droppings + rat-droppings; (7) no more service-shaped US pages.
+  Working: 86 guides 80/86 with impressions, daily impressions 798 -> 6,129 (Oct 11-15); cockroach pages
+  25% of guide impressions from 9% of pages, mice 40% of clicks; look-alikes best. NOTE: the usage reset
+  Oct 20 is a TUESDAY (earlier notes said Monday).
 - **Comparables (data/god-build/comparables-research.md):** for Monday, put the COCKROACH family first
   (the one topic 8 of 9 fast growers win on), then bites, droppings (cockroach-droppings, rat-droppings
   into the first batches), termite signs by early March; add the missing cockroach pages listed there;
