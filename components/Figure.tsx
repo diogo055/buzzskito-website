@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import FigureZoom from './FigureZoom'
+import { BUSINESS } from '@/lib/constants'
 
 /**
  * A captioned, schema-annotated figure for identification and comparison content.
@@ -47,6 +48,12 @@ type Props = {
    * creditHref becomes `acquireLicensePage`. Set by <Photo>; omit for original diagrams.
    */
   license?: { name: string; href?: string }
+  /**
+   * The ImageObject's rights fields (creditText, creator, copyrightNotice, license,
+   * acquireLicensePage), built from the photo's ledger record by photoRights() in lib/photos.ts.
+   * Set by <Photo>; replaces the fields worked out from `credit` / `license`. Schema only.
+   */
+  rights?: Record<string, unknown>
   /** Serve the file as it is (pre-sized WebP photos), skipping the image optimizer. */
   unoptimized?: boolean
   /** A caption that needs links or emphasis. Rendered instead of `caption`, which stays the schema text. */
@@ -55,7 +62,7 @@ type Props = {
 
 export default function Figure({
   src, alt, caption, width, height, credit, creditHref, priority = false,
-  siteUrl = 'https://buzzskito.ca', license, unoptimized = false, captionNode,
+  siteUrl = 'https://buzzskito.ca', license, rights, unoptimized = false, captionNode,
 }: Props) {
   // A portrait photo at full column width is taller than a phone screen: keep it narrower.
   const portrait = height > width * 1.1
@@ -68,11 +75,18 @@ export default function Figure({
     description: alt,
     width,
     height,
-    ...(credit
+    ...(rights ?? (credit
       ? license
         ? { creditText: credit, ...(license.href && { license: license.href }), ...(creditHref && { acquireLicensePage: creditHref }) }
-        : { creditText: credit, ...(creditHref && { license: creditHref }) }
-      : { creator: { '@type': 'Organization', '@id': `${siteUrl}/#organization` } }),
+        // a source page is where the licence is found, not the licence itself
+        : { creditText: credit, ...(creditHref && { acquireLicensePage: creditHref }) }
+      // an original diagram (data/image-licenses.json: licence "original", author BuzzSkito).
+      // No `license` / `acquireLicensePage`: the site offers no licence for its diagrams.
+      : {
+          creator: { '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: BUSINESS.legalName },
+          creditText: BUSINESS.name,
+          copyrightNotice: `© ${BUSINESS.legalName}`,
+        })),
   }
 
   return (

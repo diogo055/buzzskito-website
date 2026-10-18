@@ -12,6 +12,7 @@ import GuideMap from '@/components/GuideMap'
 import ConfusedWith, { notLiveYet } from '@/components/ConfusedWith'
 import { QuickIdBox } from '@/components/QuickIdTable'
 import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL, guideParent, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
+import { photoImageObject } from '@/lib/photos'
 
 /**
  * Renders one North American pest guide from its JSON file (content/guides/<slug>.json).
@@ -43,6 +44,10 @@ function Inline({ text }: { text: string }): ReactNode {
   if (last < text.length) out.push(text.slice(last))
   return <>{out}</>
 }
+
+// the same text without its markup, for structured data
+const plain = (text: string): string =>
+  text.replace(TOKEN, (_m, bold?: string, italic?: string, label?: string) => plain(bold ?? italic ?? label ?? ''))
 
 const CALLOUT: Record<string, { box: string; label: string; name: string }> = {
   tip: { box: 'border-emerald-200 bg-emerald-50', label: 'text-emerald-700', name: 'Tip' },
@@ -165,6 +170,16 @@ function Block({ block }: { block: GuideBlock }) {
             Photo: <a href={block.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline">{block.credit}</a>
             {lic.url ? <>, <a href={lic.url} target="_blank" rel="noopener noreferrer license" className="underline">{lic.name}</a></> : <>, {lic.name}</>}.
           </figcaption>
+          {/* image metadata (credit, creator, licence, where to license it) for Google Images */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(photoImageObject(
+                { file: block.src, width: block.width, height: block.height, credit: block.credit, license: block.license, sourceUrl: block.sourceUrl },
+                { alt: block.alt, caption: block.caption && plain(block.caption) },
+              )),
+            }}
+          />
         </figure>
       )
     }

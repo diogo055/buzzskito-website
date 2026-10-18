@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Fragment } from 'react'
 import { US_GUIDE_BUILT, US_GUIDE_PLANNED } from '@/lib/us-guide-built'
-import { ledgerPhoto } from '@/lib/photos'
+import { ledgerPhoto, photoImageObject } from '@/lib/photos'
 import { LICENSE_LABEL, type GuideConfusedCard } from '@/lib/guides'
 
 /** One look-alike card: the look-alike's own page, its name, a photo id from the ledger and the one tell. */
@@ -94,6 +94,11 @@ export default function ConfusedWith({ items, title }: { items: ConfusedCard[]; 
           )
         })}
       </p>
+      {/* image metadata for each card's photo: the same credit and licence as the line above */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(cards.map((c) => photoImageObject(c.rec, { alt: c.alt || c.name, caption: `${c.name}: ${c.note}` }))) }}
+      />
     </section>
   )
 }

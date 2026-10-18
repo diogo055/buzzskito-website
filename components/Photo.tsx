@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 import Figure from './Figure'
-import { ledgerPhoto } from '@/lib/photos'
+import { ledgerPhoto, photoRights } from '@/lib/photos'
 import { LICENSE_LABEL } from '@/lib/guides'
 
 /**
@@ -43,6 +43,7 @@ export default function Photo({
       credit={p.credit}
       creditHref={p.sourceUrl}
       license={{ name: lic.name, href: lic.url }}
+      rights={photoRights(p)}
       unoptimized
       priority={priority}
     />
