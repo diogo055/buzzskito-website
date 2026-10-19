@@ -64,6 +64,10 @@ with SendUserFile.
   droppings/holes in yard; millipedes/earwigs/silverfish; roaches; termite damage; kissing-bug and
   red-and-black look-alikes; black spiders), each with a confused-card row and >= 1 live guide linking
   it; checkers; hand releases; link-in round. Then a family topic planner with Ahrefs after Oct 26.
+- **Oct 19 (done, not for Tuesday):** mobile bar fix live (a07412e1); BOT BLOCK live (ee7a826f +
+  ec6c2215, `middleware.ts`: Singapore + China visitors get 403 unless they declare a crawler; before:
+  70-153 such sessions a day = 16-30% of all). GA4 totals drop ~20% from Oct 20 because of it: compare
+  readers by country, not totals. Re-check SG/CN sessions in GA4 on Oct 21 (should be near zero).
 - **GSC REVIEW Oct 18 (data/god-build/gsc-review-2026-10-18.md) -> ADD TO THE OCT 20 (TUESDAY) LIST:**
   (1) sitemap resubmit + Request indexing for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
   wolf-spiders, baby-mice, field-mice (owner's OK each time; 26 of 30 Oct-16 pages unknown to Google,

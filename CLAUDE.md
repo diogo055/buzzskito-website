@@ -62,6 +62,7 @@
 - **Mediavine requirements that must stay true:** tag attributes exactly as issued; `public/ads.txt`; the verbatim privacy language in `lib/mediavine-privacy.ts` (their dashboard health-checks the exact text + a homepage link to /privacy-policy); no other display-ad network on the site.
 - Launch status and the owner's remaining steps: `reports/mediavine_launch_checklist.md`. Mediavine's terms start a 90-day Set-Up Period at the first ad during which the placement they set may not be changed, so agree changes with them first.
 - Site id / seller id: `5cb2e89b-2d2f-47ba-9cbf-599f203df724`. Kill switch: `ADS_ENABLED` in `lib/ads.ts`.
+- **Bot block (Oct 19, 2026):** `middleware.ts` answers 403 to visitors from Singapore and China (GA4: ~20% of all sessions, 2-4 s each = invalid traffic for an ad account) unless the user agent declares a crawler or link preview, which passes from any country. Static files, `/api`, robots, sitemaps, `ads.txt` and `llms.txt` are never touched, and link prefetches skip it. Another country = one entry in `BLOCKED_COUNTRIES`. Expect GA4 sessions about 20% lower from Oct 20: those were the bots, not readers.
 
 ## Competitors
 - **Mosquito Man:** 900+ reviews, franchise, ~$450 seasonal, 6+ yr domain, 200+ backlinks
