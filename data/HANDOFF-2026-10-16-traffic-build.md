@@ -88,6 +88,14 @@ with SendUserFile.
   via the API on Oct 19 at 21:32 (status pending). TUESDAY: Request indexing in Search Console (owner's
   Chrome, URL Inspection, ~10 a day quota) for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
   wolf-spiders, baby-mice, field-mice, then the first droppings pages as they go live.
+- **OWNER DECISIONS, Oct 19 late:** tools are part of the God plan and carry Mediavine ads + Amazon
+  recommendations (add `/tools` to lib/ad-routes.json and keep check:ads green; the quiz's bottom answer
+  buttons must clear the `--mv-*` band; US-facing tools use amazon.com only after the US account is
+  verified, never a geo-swap). Hub question pending (CLAUDE.md, Display Ads). **TUESDAY: walk the owner
+  through getting an Anthropic API key**: console.anthropic.com, sign in, add billing and a monthly spend
+  limit, Settings > API keys > Create key, then paste it HIMSELF in Vercel > buzzskito-website > Settings >
+  Environment Variables as ANTHROPIC_API_KEY (Production); he must never paste it in chat. Forecast with the
+  tools: July 2027 about 39K / 71K / 138K (cautious / middle / strong); 50K arrives around May on the middle line.
 - **TOOLS PROGRAM (owner, Oct 19: "10 super powerful tools", revise the ones that don't perform).** Last 90
   days (GSC / GA4, bots out): quiz /tools/what-bug-is-this 0 impressions, 3 views (launched Oct 12, linked
   only from /learn); /yard-risk-report 0 clicks; /am-i-a-mosquito-magnet 13; /lyme-disease-risk-calculator 2;
