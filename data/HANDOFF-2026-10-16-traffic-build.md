@@ -88,6 +88,28 @@ with SendUserFile.
   via the API on Oct 19 at 21:32 (status pending). TUESDAY: Request indexing in Search Console (owner's
   Chrome, URL Inspection, ~10 a day quota) for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
   wolf-spiders, baby-mice, field-mice, then the first droppings pages as they go live.
+- **TOOLS PROGRAM (owner, Oct 19: "10 super powerful tools", revise the ones that don't perform).** Last 90
+  days (GSC / GA4, bots out): quiz /tools/what-bug-is-this 0 impressions, 3 views (launched Oct 12, linked
+  only from /learn); /yard-risk-report 0 clicks; /am-i-a-mosquito-magnet 13; /lyme-disease-risk-calculator 2;
+  /learn/tick-identification-chart 1 click / 288 imp ("deer tick size/engorgement chart"); the only earners
+  are data pages: Ontario Lyme tracker 133 clicks / 7,040 imp (pos 10.5), West Nile tracker 126 / 8,943
+  (pos 7), GTA mosquito map 100 / 2,233. /free-yard-assessment: 220 views, 5 leads (lead form, not traffic).
+  Lead tools stay for the service side; don't chase rankings for them. BUILD ORDER (Ahrefs US demand):
+  (1) BUG BITE IDENTIFIER "what bit me?": "bug bite identifier" 19K/mo KD 6, top page ~49K/mo; plus bug
+  bite identification 2.4K, what bit me 1.3K, spider bite identification 1.2K; feeds the bites cluster;
+  likely culprit from photo + pattern + place + season, never a diagnosis, doctor triggers (CDC/AAD).
+  (2) PHOTO BUG IDENTIFIER: upgrade the quiz ("bug identifier" 23K KD 65, insect identifier 3.3K KD 12,
+  identify bug by picture; top page 13-25K). (3) spider identifier (3.7K + 2.6K + chart 1.5K).
+  (4) tick identifier + tick map (tick identification 2.3K, tick map 700 / top page 8.1K, lyme disease map
+  1.8K; upgrade the tick chart + Ontario tracker, later US states/provinces). (5) snake identifier (2.3K,
+  KD 0). (6) droppings identifier (animal poop identification 500, mouse vs rat droppings 400; serves the
+  droppings family). (7) caterpillar identifier (2.3K). (8) West Nile / mosquito trackers extended for the
+  2027 season (CDC ArboNET data). (9) houseplant pest identifier. (10) pests-on-pets checker (flea dirt
+  test, tick on dog). One shared AI photo engine (needs an Anthropic API key the OWNER adds in Vercel;
+  never handle keys; ~fractions of a cent per photo; rate limit; privacy-policy line for uploads; do not
+  keep photos). Each tool page needs real indexable content (how it works, example results, photo guide)
+  and sends every result to our guide + look-alike cards + the Amazon item + GTA service for local
+  visitors. /tools/* is NOT on the Mediavine allow-list: adding tools is the owner's call.
 - **NEW FAMILIES FOR BUZZSKITO (owner, Oct 19, "build massively on pests on pets and houseplant problems";
   data: data/sister-site-niche-research-2026-10-19.md):** (1) PESTS ON PETS: fleas, flea dirt, flea eggs,
   ticks on dogs and cats, ear mites, mange mites, lice; identification + prevention only, vet-school/CDC/EPA
