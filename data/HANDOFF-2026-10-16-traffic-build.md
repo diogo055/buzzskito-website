@@ -68,6 +68,15 @@ with SendUserFile.
   ec6c2215, `middleware.ts`: Singapore + China visitors get 403 unless they declare a crawler; before:
   70-153 such sessions a day = 16-30% of all). GA4 totals drop ~20% from Oct 20 because of it: compare
   readers by country, not totals. Re-check SG/CN sessions in GA4 on Oct 21 (should be near zero).
+- **AMAZON-FIRST DIRECTION (owner, Oct 19): every new page must pass three tests:** real demand (GSC,
+  then Ahrefs US), a top 3 we can beat (check who ranks first), and a natural product to click. The
+  click is the unit of value (24 h cart capture; link the cheap, obvious item). Canadian pot: in the
+  28 days to Oct 16 Canadians saw us 166K times, 149K of them at positions 4-20 (bed bugs 16K, mice
+  10K, cockroaches 9K, flies 12K, wasps 12K) -> retrofit those Canadian pages first; then Canadian
+  editions (hreflang pairs, amazon.ca) of the biggest winter searches (needs a `ca` edition mode in the
+  guide template + validator; Canadians are worth up to ~2x Americans per visit: Amazon.ca ~$70 + ads
+  ~$21 per 1,000). Cards waiting for the owner: US amazon.com test (task_ca8b7731), Christmas prep for
+  winter Amazon pages by Nov 20 (task_0b290094). Pace stays 50-60 pages/week, ramping with indexing.
 - **GSC REVIEW Oct 18 (data/god-build/gsc-review-2026-10-18.md) -> ADD TO THE OCT 20 (TUESDAY) LIST:**
   (1) sitemap resubmit + Request indexing for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
   wolf-spiders, baby-mice, field-mice (owner's OK each time; 26 of 30 Oct-16 pages unknown to Google,
