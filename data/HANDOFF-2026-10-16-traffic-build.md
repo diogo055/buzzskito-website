@@ -84,6 +84,14 @@ with SendUserFile.
   (data/god-build/200k-comparables.md); "roach poop" already has a DR 23 page at #2. Existing pages to
   fold in, not duplicate: what-does-mouse-poop-look-like-canada, bed-bug-stains-poop-droppings-canada;
   planned: cockroach-droppings, rat-droppings, animal-droppings.
+- **BETTERTERMITE'S WINNERS = OUR BUILD LIST (owner, Oct 19, "make their pages but better"):** list their
+  top 35-50 posts by traffic (bettertermite-teardown.md + one Ahrefs top-pages call), mark which searches
+  we already cover, and for every gap run the beat-the-top-3 research (their page is one of the three)
+  and build a better page. Biggest gap: X vs Y (they have 87, 36 earn 100+/month; we have ~9). The
+  owner wants 50K faster than July: present a bigger winter burst on the families that hold in winter
+  (cockroaches, mice/rats, bed bugs, droppings, indoor spiders, "tiny bugs in [room]", look-alikes,
+  X vs Y), noting the cost (~0.5-0.75% of his weekly Claude allowance per page incl. fact-check; extra
+  usage is off on his account), plus sitemap resubmit + Request indexing (he must OK each submit).
 - **AMAZON-FIRST DIRECTION (owner, Oct 19): every new page must pass three tests:** real demand (GSC,
   then Ahrefs US), a top 3 we can beat (check who ranks first), and a natural product to click. The
   click is the unit of value (24 h cart capture; link the cheap, obvious item). Canadian pot: in the
