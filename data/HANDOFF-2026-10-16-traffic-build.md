@@ -84,7 +84,12 @@ with SendUserFile.
   (data/god-build/200k-comparables.md); "roach poop" already has a DR 23 page at #2. Existing pages to
   fold in, not duplicate: what-does-mouse-poop-look-like-canada, bed-bug-stains-poop-droppings-canada;
   planned: cockroach-droppings, rat-droppings, animal-droppings.
-- **BETTERTERMITE'S WINNERS = OUR BUILD LIST (owner, Oct 19, "make their pages but better"):** list their
+- **OWNER OK'D THE SUBMITS (Oct 19, "Yes do all that, use the browser if u need"):** sitemap RESUBMITTED
+  via the API on Oct 19 at 21:32 (status pending). TUESDAY: Request indexing in Search Console (owner's
+  Chrome, URL Inspection, ~10 a day quota) for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
+  wolf-spiders, baby-mice, field-mice, then the first droppings pages as they go live.
+- **PRIORITY #1 OF THE GOD PLAN (owner, Oct 19: "make those exact pages but even better... make it a
+  priority") — BETTERTERMITE'S (AND FOX'S) WINNERS = OUR BUILD LIST:** list their
   top 35-50 posts by traffic (bettertermite-teardown.md + one Ahrefs top-pages call), mark which searches
   we already cover, and for every gap run the beat-the-top-3 research (their page is one of the three)
   and build a better page. Biggest gap: X vs Y (they have 87, 36 earn 100+/month; we have ~9). The
