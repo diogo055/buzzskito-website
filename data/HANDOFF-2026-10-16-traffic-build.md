@@ -88,6 +88,19 @@ with SendUserFile.
   via the API on Oct 19 at 21:32 (status pending). TUESDAY: Request indexing in Search Console (owner's
   Chrome, URL Inspection, ~10 a day quota) for the 3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
   wolf-spiders, baby-mice, field-mice, then the first droppings pages as they go live.
+- **NEW FAMILIES FOR BUZZSKITO (owner, Oct 19, "build massively on pests on pets and houseplant problems";
+  data: data/sister-site-niche-research-2026-10-19.md):** (1) PESTS ON PETS: fleas, flea dirt, flea eggs,
+  ticks on dogs and cats, ear mites, mange mites, lice; identification + prevention only, vet-school/CDC/EPA
+  sources, medical questions sent to a vet, no dosing; keep worms and hot spots OUT (vet medicine, not pests).
+  (2) HOUSEPLANT PESTS: fungus gnats, spider mites, mealybugs, thrips, aphids, scale, whiteflies, springtails
+  in soil, root mealybugs (winter-strong: dry air and overwatering; BTI "mosquito bits" for fungus gnats is a
+  product we already link); plant-care topics (yellow leaves, root rot, pothos) stay out. (3) GARDEN INSECTS
+  (aphids, squash bugs, Japanese beetles, hornworms, cabbage worms, leaf miners) published Feb-Mar for spring.
+  (4) MOISTURE BUGS (silverfish, springtails, drain flies, booklice): fill gaps. Order after the droppings
+  family: pests on pets, then houseplant pests (both year-round, so they help the winter). Each page gets the
+  beat-the-top-3 research; prefer searches with real traffic potential (Google answers "mealybugs" itself:
+  31K searches, ~90 clicks to the top page). New clusters need CLUSTER_LABEL, CLUSTER_ORDER + NAMES,
+  FALLBACK, LABEL and the taxonomy cluster map (CLAUDE.md, Topic categories). Skip birds.
 - **PRIORITY #1 OF THE GOD PLAN (owner, Oct 19: "make those exact pages but even better... make it a
   priority") — BETTERTERMITE'S (AND FOX'S) WINNERS = OUR BUILD LIST:** list their
   top 35-50 posts by traffic (bettertermite-teardown.md + one Ahrefs top-pages call), mark which searches
