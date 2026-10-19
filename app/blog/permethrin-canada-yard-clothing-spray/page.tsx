@@ -507,6 +507,7 @@ export default function PermethrinCanadaPage() {
           <p>BuzzSkito is licensed under Ontario Pesticide Operator Licence #L-240-2436835197 and provides residential mosquito and tick barrier spray across the GTA. Single treatments start at $99; seasonal mosquito plans cover the full May–September season with monthly, every-2-weeks or weekly applications (from $549), and the seasonal tick program runs 5 sprays ($597 on its own, $497 with a mosquito plan). The properties that need it most are the ones backing onto the same escarpment and moraine habitat you would spray your hiking pants for &mdash; our <Link href="/caledon-tick-spray">tick spray in Caledon</Link> and <Link href="/burlington-tick-spray">Burlington tick control</Link> pages show what a yard treatment covers on those lots. <Link href="/mosquito-control">Get a free quote for your property →</Link></p>
 
           <h2>Permethrin vs Other Repellents — Side-by-Side</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Compound</th><th className="px-3 py-2 text-left">Application</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Best For</th></tr>
@@ -519,6 +520,7 @@ export default function PermethrinCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Bifenthrin (Pro)</td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Re-applied on a schedule</td><td className="px-3 py-2">Licensed barrier spray</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>Stacking Permethrin with Other Strategies</h2>
           <p>Smart Ontario hikers and homeowners use permethrin as ONE layer of a multi-tool strategy:</p>

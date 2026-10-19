@@ -288,6 +288,7 @@ export default function WondercideCanadaReviewPage() {
           </ul>
 
           <h2>Wondercide vs Real Yard Tick Solutions</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Protection window</th><th className="px-3 py-2 text-left">Yard tick coverage</th></tr>
@@ -299,6 +300,7 @@ export default function WondercideCanadaReviewPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">Weeks (renewed each visit)</td><td className="px-3 py-2">Whole yard + mosquitoes</td></tr>
             </tbody>
           </table>
+          </div>
 
           <p className="not-prose text-gray-700">The permethrin row in that table is doing something the other three are not, and it is the part most people miss: its yard use and its clothing use are separate jobs. The U.S. Centers for Disease Control and Prevention recommends treating clothing, boots and camping gear with 0.5% permethrin, and is explicit that it goes on fabric and never on skin. A treated pair of hiking trousers and socks covers the person walking the trail edge and the long grass &mdash; which is where most Ontario tick encounters actually happen &mdash; rather than the lawn they came home to. Treated clothing is far more common in the US than here, so check the label and Canadian availability before ordering. <BuyLink tag={AMZ_TAG} search="permethrin clothing spray">Check permethrin clothing and gear treatments on Amazon.ca &rarr;</BuyLink></p>
 

@@ -264,6 +264,7 @@ export default function OrthoHomeDefenseCanadaPage() {
           <p>If you have a pet household, an edible garden, or you are simply not comfortable handling a pesticide yourself, that is a perfectly good reason to have a licensed, insured applicator do it instead.</p>
 
           <h2>Ortho vs a Professional Barrier Treatment</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Legal in ON for yards</th><th className="px-3 py-2 text-left">Mosquito control</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -275,6 +276,7 @@ export default function OrthoHomeDefenseCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yes — licensed application according to label directions</td><td className="px-3 py-2">Whole yard · renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
           <p className="not-prose text-sm text-gray-600 mb-6">Want personal protection for hikes and yard work rather than a home-perimeter spray? A permethrin clothing-and-gear treatment is a different, legal tool — see our <Link href="/blog/permethrin-canada-yard-clothing-spray">Permethrin Canada guide</Link>.</p>
 
           <h2>The Honest Verdict for Canadian Buyers</h2>

@@ -218,6 +218,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <h2>The Best Solar Bug Zappers in Canada (2026)</h2>
           <p>Four formats dominate Amazon.ca listings this season. Brands on the budget end rotate constantly (PALONE, AMUFER, OnBeam and a dozen near-identical labels), so shop by spec sheet, not brand loyalty.</p>
 
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Model / format</th><th className="px-3 py-2 text-left">Coverage &amp; specs</th><th className="px-3 py-2 text-left">Power source</th><th className="px-3 py-2 text-left">Best for</th></tr>
@@ -229,6 +230,7 @@ export default function BestSolarBugZapperCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Solar stake-light zappers</strong> (multi-packs)</td><td className="px-3 py-2">Low-voltage grid · tiny built-in panel · dusk-to-dawn auto on/off</td><td className="px-3 py-2">Solar only</td><td className="px-3 py-2">Garden path lighting that also pops the odd gnat — decor, not control</td></tr>
             </tbody>
           </table>
+          </div>
 
           <div className="not-prose mb-8 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="PALONE solar bug zapper">PALONE-style 4,500V units →</BuyLink>
@@ -262,6 +264,7 @@ export default function BestSolarBugZapperCanadaPage() {
           <p>The same logic applies to the viral high-tech alternative: laser-based devices promise mosquito-specific targeting, and we examined the claims in our <Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix laser mosquito killer review</Link>. Attraction-based devices that use CO₂ and heat — the cue mosquitoes actually follow — are the only trap category with real field results, and we ranked those in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> guide.</p>
 
           <h2>Solar Zapper vs the Alternatives for Canadian Yards</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Typical cost</th><th className="px-3 py-2 text-left">Kills mosquitoes?</th><th className="px-3 py-2 text-left">Needs an outlet?</th></tr>
@@ -273,6 +276,7 @@ export default function BestSolarBugZapperCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99/treatment</td><td className="px-3 py-2">Yes — residual renewed on your plan schedule, targets ticks too</td><td className="px-3 py-2">No</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>Getting the Most Out of a Solar Zapper in Ontario</h2>
           <ol>

@@ -319,6 +319,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
           </ul>
 
           <h2>Bracelet vs Spray vs Yard Treatment</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Protection</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -330,6 +331,7 @@ export default function MosquitoRepellentBraceletsCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard · re-applied on a schedule</td><td className="px-3 py-2">With tick add-on ($497/season)</td></tr>
             </tbody>
           </table>
+          </div>
 
           <p className="not-prose text-gray-700">The row that table cannot fill is the backyard evening itself, where a band is too small and a topical is more than some people want on their skin every night. That gap is what spatial repellers are for: a Thermacell-style unit heats a mat that disperses a pyrethroid repellent (metofluthrin or prallethrin) across a defined zone around the seating, so the protection belongs to the patio rather than to one wrist. It works best on a still evening and does nothing for someone standing outside the zone. <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller">Check patio repellers on Amazon.ca &rarr;</BuyLink></p>
 

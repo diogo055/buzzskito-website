@@ -298,6 +298,7 @@ export default function MosquitoScreensPatioCanadaPage() {
 
           <h2>Screens vs Spray: They Solve Different Problems</h2>
           <p>A screen is a barrier around <em>you</em>. Barrier spray is a treatment across the <em>whole yard</em>. Here is the honest comparison for a GTA property:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Protects</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -309,6 +310,7 @@ export default function MosquitoScreensPatioCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">The entire yard, renewed on your plan schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
           <p>Notice these do not compete — they stack. A screen gives you one perfect chemical-free zone at the table; barrier spray treats the lawn, garden, and <Link href="/pool-backyard-mosquito-control">pool deck</Link> edges and targets ticks where they wait in the grass. Hosting a backyard event? A screen house over the head table plus a treated yard is exactly how we handle <Link href="/wedding-mosquito-control">backyard weddings and parties</Link>.</p>
 
           <h2>The Smart Stack for a GTA Backyard</h2>

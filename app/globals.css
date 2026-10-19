@@ -736,9 +736,12 @@ body [data-sticky-buy-bar] { bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px
 @media (max-width: 639.98px) {
   /* phones: the buy bar sits above the lead bar */
   body [data-sticky-buy-bar] { bottom: calc(92px + var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)); }
-  /* pages with no lead bar: keep today's 92px unless the reserved band is taller */
+  /* pages with no lead bar (every traffic page since Oct 14, 2026, lib/page-roles.ts): there is
+     nothing to sit above, so the bar goes on the bottom edge and steps up above the reserved band
+     like the other bars. It used to keep the 92px here, which left it floating 92px up the
+     screen with page text showing underneath (owner's iPhone, Oct 18, 2026). */
   body:not(:has([data-lead-bar])) [data-sticky-buy-bar] {
-    bottom: max(92px, calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + 16px));
+    bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px));
   }
 }
 

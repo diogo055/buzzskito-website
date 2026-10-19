@@ -251,6 +251,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
 
           <h2>Fogger vs Barrier Spray for a GTA Yard</h2>
           <p>The honest framing is that a fogger and a barrier spray are not really competitors &mdash; they do different jobs, and the smartest homeowners use both. A fogger is an on-demand knockdown you control yourself: cheap up front, instant, and perfect for that evening. A <Link href="/mosquito-control">professional barrier spray</Link> is durable coverage: a licensed technician applies a residual, according to label directions, to the leaves where mosquitoes rest, renews it on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), treats the whole property in one visit, and controls ticks &mdash; something no fogger does.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Approach</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
@@ -262,6 +263,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Whole property, one visit</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
           <p>For a typical suburban lot where a neighbour&rsquo;s yard keeps re-seeding the mosquito population, a seasonal barrier program gives you the baseline, and the Black Flag fogger is the extra knockdown you reach for right before a big backyard event. That combination &mdash; durable barrier plus on-demand fog &mdash; is how you actually keep a GTA yard usable all summer.</p>
 
           <h2>The Verdict</h2>

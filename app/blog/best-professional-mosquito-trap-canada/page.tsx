@@ -312,6 +312,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
 
           <h2>Professional Traps vs Barrier Spray for Real GTA Properties</h2>
           <p>Traps, stations, and barrier spray are not really rivals &mdash; they solve different problems on different timelines. A trap or station slowly suppresses the population over weeks and shines on large, chronic-problem acreage. A professional barrier spray leaves a residual on the leaves where mosquitoes rest and kills them on contact, is renewed on the plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), covers the entire yard regardless of shape, and &mdash; uniquely &mdash; controls ticks. Here is how the professional options stack up:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Professional option</th><th className="px-3 py-2 text-left">Speed to relief</th><th className="px-3 py-2 text-left">Mosquito effect</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -323,6 +324,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Treats resting adults directly</td><td className="px-3 py-2">Whole yard, renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
 
           <p>One line in that comparison is easy to underestimate before you own the machine: the consumables are what keep a propane trap in the &ldquo;professional&rdquo; column. The propane is only half of it &mdash; the attractant cartridge (octenol, or a Lurex-type lure) is what makes the plume smell like a host rather than just a warm exhaust, and a clogged or torn retention net quietly strangles the airflow that pulls females in. Both are seasonal purchases, and a trap running on an exhausted lure and last year&rsquo;s net is the single most common reason an owner concludes the machine &ldquo;stopped working.&rdquo; Order the refills with the trap, not in July when you notice the catch has collapsed. <BuyLink tag={AMZ_TAG} search="mosquito trap octenol attractant refill">Check trap attractant refills &amp; nets on Amazon.ca &rarr;</BuyLink></p>
 

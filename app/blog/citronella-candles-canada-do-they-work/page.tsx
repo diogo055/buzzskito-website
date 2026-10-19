@@ -283,6 +283,7 @@ export default function CitronellaCandlesCanadaPage() {
 
           <h2>Citronella vs What Actually Works in a GTA Backyard</h2>
           <p>Citronella candles sit at the very bottom of the mosquito-control ladder — cheap, pleasant, and short-range. Here is how they stack up against the tools that genuinely move the needle:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -294,6 +295,7 @@ export default function CitronellaCandlesCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Kills on contact · renewed on your plan&rsquo;s schedule</td><td className="px-3 py-2">Yes — targets ticks where they wait</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Honest Verdict for Canadian Buyers</h2>
           <p>Buy citronella candles if you want a nice-smelling, softly lit patio and you understand you are getting a small bite reduction only for whoever sits right beside the flame in calm air. Do not buy them expecting to reclaim a mosquito-infested backyard — the range is simply too short and too fragile in wind. If mosquitoes are actually ruining your evenings, put the money toward a <Link href="/blog/thermacell-canada-where-to-buy">Thermacell</Link> for the deck and a <Link href="/mosquito-control">professional barrier spray</Link> for the whole property, then light the candles purely because you like them. If you are curious whether living plants do any better than candles, our guide to <Link href="/blog/mosquito-repellent-plants-ontario">mosquito-repellent plants in Ontario</Link> gives the honest, evidence-based answer (spoiler: also modest).</p>

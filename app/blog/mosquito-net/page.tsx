@@ -262,6 +262,7 @@ export default function MosquitoNetCanadaPage() {
           </ul>
 
           <h2>Net vs repellent vs barrier spray</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Tool</th><th className="px-3 py-2 text-left">Protects</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -272,6 +273,7 @@ export default function MosquitoNetCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Your whole yard, re-applied on a schedule</td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">With a tick add-on</td></tr>
             </tbody>
           </table>
+          </div>
           <p>They are not competitors &mdash; they are a stack. A head net and repellent for the trail, a bed or stroller net for sleeping, and <Link href="/mosquito-control">barrier spray</Link> to actually reclaim the backyard at home. If you are trying to decide what to put on your skin, our <Link href="/blog/mosquito-repellent-guide-ontario-2026">Ontario mosquito repellent guide</Link> breaks down DEET vs icaridin vs the natural options. Still weighing netting against a professional treatment for the yard itself? Our <Link href="/blog/mosquito-netting-vs-barrier-spray">netting vs barrier spray comparison</Link> runs the full cost-and-coverage math.</p>
 
           <h2>Related Reading</h2>

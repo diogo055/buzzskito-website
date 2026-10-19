@@ -287,6 +287,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
 
           <h2>Fogger vs Professional Barrier Spray for a GTA Property</h2>
           <p>A thermal fogger and a barrier spray solve different problems, and the smartest large-property owners often use both. Fogging delivers fast adult knockdown across a big area — perfect for the evening of an event. Barrier spray deposits a residual film on the vegetation where mosquitoes land, is renewed on a schedule through the season, covers the whole yard, and — unlike any fog — also controls ticks. Here is how the options stack up:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Best at</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -298,6 +299,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole-yard residual control</td><td className="px-3 py-2">Renewed on a schedule (monthly to weekly)</td><td className="px-3 py-2">Yes, with a tick plan</td></tr>
             </tbody>
           </table>
+          </div>
           <p>For a genuinely large or remote property, a Longray for knockdown plus barrier work for the residual is a defensible stack. For a typical Mississauga, Brampton, or Oakville backyard, <Link href="/mosquito-control">professional barrier spray</Link> alone usually delivers longer-lasting, tick-inclusive control for less first-year cost than a pulse-jet fogger plus fuel, product, and PPE — and hands you back every weekend the fogger would have eaten.</p>
 
           <h2>Frequently Asked Questions</h2>

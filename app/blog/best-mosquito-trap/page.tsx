@@ -288,6 +288,7 @@ export default function BestMosquitoTrapCanadaPage() {
 
           <h2>Traps vs Professional Barrier Spray for GTA Yards</h2>
           <p>Traps and barrier spray are not really competitors — they solve different problems. A trap slowly thins the mosquito population over weeks and is ideal for large, chronic-problem properties. Barrier spray coats the leaves where mosquitoes rest with a residual that kills on contact and is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic); it covers the entire yard and can also target ticks where they wait. Here is how the options stack up for a typical GTA property:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -300,6 +301,7 @@ export default function BestMosquitoTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard, renewed each visit</td><td className="px-3 py-2">Yes — targets where ticks wait</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Smart Stack for a GTA Backyard</h2>
           <p>For a typical Mississauga, Brampton, or Oakville backyard (5,000&ndash;15,000 sq ft), the honest strategy is a layered one, not a single trap:</p>

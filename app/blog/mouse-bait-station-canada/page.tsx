@@ -180,6 +180,7 @@ export default function MouseBaitStationCanadaPage() {
 
           <h2>Bait Stations vs Traps: Which Should You Use?</h2>
           <p>Traps first, stations second — that is our standing recommendation for Canadian homes, and here is the honest comparison behind it:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Method</th><th className="px-3 py-2 text-left">Consumer-legal in Canada?</th><th className="px-3 py-2 text-left">Kill confirmed?</th><th className="px-3 py-2 text-left">Secondary-poison risk</th><th className="px-3 py-2 text-left">Best use</th></tr>
@@ -192,6 +193,7 @@ export default function MouseBaitStationCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">US second-gen anticoagulant baits</td><td className="px-3 py-2"><strong>No — illegal to import/use</strong></td><td className="px-3 py-2">No</td><td className="px-3 py-2">High — persists in carcass for weeks</td><td className="px-3 py-2">Nothing — avoid entirely</td></tr>
             </tbody>
           </table>
+          </div>
           <p className="not-prose text-sm text-gray-600 mb-1">If that table points you to the trap column &mdash; which for a kitchen or a living room it usually should &mdash; these are the two formats worth pricing:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Snap traps (multi-pack) &rarr;</BuyLink>

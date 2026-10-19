@@ -317,6 +317,7 @@ export default function BedBugHeaterCanadaPage() {
 
           <h2>Buy vs Rent vs Professional Heat: The Decision Framework</h2>
           <p>The right spend depends on one diagnostic question: <strong>are the bugs in your belongings, or in your building?</strong> Bites plus a suspect trip and no established harborage means belongings. Live bugs in the bed frame joints, cast skins along baseboards, spotting on the box spring, activity in more than one room — that is the building, and the calculus changes completely. If you are not sure which situation you are in, start with our guide to <Link href="/blog/how-to-check-for-bed-bugs-canada">checking for bed bugs properly</Link> before spending anything.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Path</th><th className="px-3 py-2 text-left">Typical Canadian cost</th><th className="px-3 py-2 text-left">Right when</th><th className="px-3 py-2 text-left">Wrong when</th></tr>
@@ -328,6 +329,7 @@ export default function BedBugHeaterCanadaPage() {
               <tr className="border-t border-navy-50 align-top"><td className="px-3 py-2 font-semibold">Do nothing / spray only</td><td className="px-3 py-2">Cheap up front, expensive in the end</td><td className="px-3 py-2">Never as a complete plan</td><td className="px-3 py-2">Eggs and resistant strains outlast the Canadian spray shelf — see our <Link href="/blog/bed-bug-spray-canada">spray guide</Link></td></tr>
             </tbody>
           </table>
+          </div>
           <p>If your problem genuinely is room-scale rather than suitcase-scale, there is a category between a box chamber and a professional crew: room-sized enclosures and forced-air portable heaters run with remote thermometers. <Link href="/blog/best-whole-room-bed-bug-heater-canada">What whole-room heat equipment Canadians can actually buy</Link> covers the sizing maths and why grey-market 240V US units are the wrong purchase here. For the discipline of running any of it safely, <Link href="/blog/bed-bug-heat-treatment-diy-canada">the DIY heat-treatment protocol</Link> is the method piece.</p>
           <p>Renting deserves one more honest sentence: in most Canadian cities it is a phantom option. The equipment that exists to rent is aimed at restoration contractors, the daily rates approach the cost of simply buying a chamber, and whole-room DIY heat combines the fire risk of the budget route with stakes measured in your house. Between a purchased chamber and a professional crew there is very little sensible middle ground, and our <Link href="/pest-control-cost-canada">pest control cost guide</Link> breaks down what the professional end actually charges across provinces.</p>
 

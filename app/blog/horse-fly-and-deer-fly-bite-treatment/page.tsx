@@ -236,6 +236,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <p className="text-sm text-gray-500">Authority: <a href="https://www.cdc.gov/tularemia/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) — Tularemia</a>.</p>
 
           <h2>Horse Fly vs Deer Fly vs Mosquito Bite</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-gray-200 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
@@ -253,6 +254,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
               <tr className="border-t border-gray-100"><td className="px-3 py-2 font-semibold text-brand-800">Main concern</td><td className="px-3 py-2">Pain, infection</td><td className="px-3 py-2">Pain, rare tularemia</td><td className="px-3 py-2">Itch, some disease risk</td></tr>
             </tbody>
           </table>
+          </div>
           <p>For a full identification walkthrough of the flies themselves, see our companion guide on <Link href="/blog/deer-flies-horse-flies-ontario">deer flies vs horse flies</Link>.</p>
 
           <h2>How to Avoid Getting Bitten in the First Place</h2>

@@ -320,6 +320,7 @@ export default function MosquitoCoilsCanadaPage() {
           </ul>
 
           <h2>Mosquito Coils vs Other Personal &amp; Yard Solutions</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -331,6 +332,7 @@ export default function MosquitoCoilsCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard · renewed on schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
 
           <p>The row directly above the coil in that table is the upgrade most coil buyers eventually make. A heat-activated zone repeller runs a treated mat off a small fuel cartridge or a battery instead of burning anything, so there is no smoke to sit in, no ash, no open ember on a wooden deck, and nothing to keep away from a child with asthma — and it holds a seating-area zone rather than a chair-sized plume. It still wants calm air, and the mats and fuel are consumables, so it is a running cost rather than a one-off. <BuyLink tag={AMZ_TAG} search="thermacell patio mosquito repeller">Check patio zone repellers on Amazon.ca →</BuyLink></p>
 

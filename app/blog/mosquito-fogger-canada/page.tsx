@@ -375,6 +375,7 @@ export default function MosquitoFoggerCanadaPage() {
 
           <h2 id="vs-alternatives">Fogger vs Real Mosquito Solutions for GTA Yards</h2>
           <p>Reinvasion pressure is what decides whether a fogger alone is enough. On a tight suburban lot where the neighbour&rsquo;s fence sits a few metres from the patio &mdash; a common setup on the properties we treat for <Link href="/mississauga-mosquito-control">mosquito control in Mississauga</Link> &mdash; fresh mosquitoes drift back in from surrounding yards within a day or two of fogging. Larger treed lots hold a fogging a little longer, but nothing holds it for weeks.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Cost</th><th className="px-3 py-2 text-left">How long it lasts</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -386,6 +387,7 @@ export default function MosquitoFoggerCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$99/treatment · $549–$994/season</td><td className="px-3 py-2">Residual renewed on a schedule (monthly to weekly)</td><td className="px-3 py-2">With tick add-on ($497/season)</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2 id="verdict">The Honest Verdict for GTA Buyers</h2>
           <p>A fogger is a genuinely useful tool &mdash; for the narrow job of clearing your yard right before you use it. That is the case on its merits, and it is why these machines sell. In Canada, though, the honest verdict has to account for the liquid: Health Canada has cancelled domestic handheld-fogger use of pyrethrin fogging insecticide, and the branded US liquids are not registered here, so a homeowner cannot assume the machine in the shed has a compliant thing to put in it. What a fogger cannot do, even where the liquid is available, is keep your yard livable all summer: the knockdown is over in hours, ticks are largely unaffected, and you would be re-fogging constantly to stay ahead of reinvasion. For baseline, weeks-long control &mdash; and for tick protection &mdash; a residual <Link href="/mosquito-control">professional barrier spray</Link> does far more per dollar and per hour of your time. Given where Health Canada has landed, the setup we can actually recommend to a GTA homeowner is the seasonal barrier program for the baseline &mdash; and, if you already own a fogger, running it only with a product whose current Canadian label names both handheld fogging equipment and your site. If your lot is bigger or backs onto a woodlot, that baseline matters more rather than less &mdash; our <Link href="/vaughan-mosquito-control">mosquito control in Vaughan</Link> page walks through how a seasonal program is scheduled on properties like that.</p>

@@ -194,6 +194,7 @@ export default function BedBugMattressEncasementCanadaPage() {
           <p>The rule has a brutal corollary: <strong>opening the zipper resets the clock</strong>. Unzip the encasement at month eight to &ldquo;check&rdquo; or wash it, and any survivors walk out. Keep a normal washable protector or fitted sheet over the encasement and launder that instead; the encasement itself stays sealed until at least a full year has passed with no bites, no fecal spotting on the fabric, and no live bugs in your interceptors. Our guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> covers exactly what those signs look like.</p>
 
           <h2>SafeRest vs Utopia vs Pillow Encasements — Comparison</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Product</th><th className="px-3 py-2 text-left">Zipper security</th><th className="px-3 py-2 text-left">Fabric</th><th className="px-3 py-2 text-left">Sizes / depth</th><th className="px-3 py-2 text-left">Best for</th></tr>
@@ -204,6 +205,7 @@ export default function BedBugMattressEncasementCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Bed-bug-rated pillow protectors</strong></td><td className="px-3 py-2">Zippered, usually with flap; sold in 2-packs</td><td className="px-3 py-2">Poly or cotton-terry, same barrier principle</td><td className="px-3 py-2">Standard / Queen / King pillows</td><td className="px-3 py-2">Completing the seal — pillows travel and spread bugs</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>SafeRest — the Containment-Grade Pick</h2>
           <p>SafeRest has been the default answer in the encasement category for over a decade, and the reasons are specific rather than reputational. The zipper is a micro-tooth design — the teeth are small enough that a 1 mm first-instar nymph can&rsquo;t squeeze between them — and the end of the zipper track is secured so the pull can&rsquo;t drift open a few teeth in normal use. That end-stop detail sounds trivial; it&rsquo;s actually the single most common failure point in the category, covered in the next section. The fabric is a cotton-terry surface over a waterproof membrane, which also makes it a legitimate spill and allergen barrier, and the brand publishes independent lab-test claims for bed bug escape and bite-through.</p>

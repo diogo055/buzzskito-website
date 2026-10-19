@@ -761,6 +761,7 @@ export default function BugZappersCanadaPage() {
           <p><strong>The honest Ontario caveat.</strong> All four are built around container-breeding <em>Aedes</em> &mdash; the species that lay in a saucer under a flowerpot, and the reason these traps dominate public health programmes in the American South and the Caribbean. In a GTA backyard the biting pressure is mostly <em>Culex pipiens</em> and floodwater <em>Aedes vexans</em>, which breed in catch basins, ditches and ground pools rather than in tidy containers, so a gravid trap catches a smaller share of the local population than the Puerto Rico figures would suggest. For an Ontario yard the practical stack remains: eliminate standing water, treat what you cannot drain with <Link href="/blog/mosquito-dunks-canada-guide">BTI</Link>, add a <Link href="/blog/co2-mosquito-trap-canada">CO₂-baited fan trap</Link> if the property backs onto water, and treat resting vegetation with a licensed residual. It is a longer list than &ldquo;buy a zapper,&rdquo; and every item on it does something a zapper does not.</p>
 
           <h2>Bug Zappers vs Real Solutions — Cost-Effectiveness</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Approximate first-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Pollinator impact</th></tr>
@@ -772,6 +773,7 @@ export default function BugZappersCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard, re-treated through the season</td><td className="px-3 py-2">Low (targeted)</td></tr>
             </tbody>
           </table>
+          </div>
           <p>Barrier spray is the only row in that table that treats the whole property rather than one device radius, which is also why it is the only one priced by lot size rather than by unit — the full breakdown of <Link href="/mosquito-control-cost">what mosquito control costs in Ontario</Link> shows how a season program scales from a standard lot upward.</p>
 
           <h2>The Indoor Racket Zapper Exception</h2>

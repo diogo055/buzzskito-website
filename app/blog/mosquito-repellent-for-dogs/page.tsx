@@ -299,6 +299,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
 
           <RelatedLinks path="/blog/mosquito-repellent-for-dogs" />
           <h2>Dog-Labelled Repellent Options, Ranked by Situation</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Best for</th><th className="px-3 py-2 text-left">Watch-outs</th><th className="px-3 py-2 text-left">Price check</th></tr>
@@ -310,6 +311,7 @@ export default function MosquitoRepellentForDogsCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Heartgard / NexGard</strong> (Rx)</td><td className="px-3 py-2">Heartworm prevention — every dog, all season</td><td className="px-3 py-2">Not a repellent · vet prescription</td><td className="px-3 py-2">Veterinarian only</td></tr>
             </tbody>
           </table>
+          </div>
           <p className="not-prose text-sm text-gray-600 mb-6">Whichever spray you pick, apply to the coat (avoiding eyes, nose, and mouth), reapply before dawn/dusk outings, and store out of a curious dog&rsquo;s reach. <BuyLink tag={AMZ_TAG} search="wondercide flea tick mosquito dog">Compare natural spray prices →</BuyLink></p>
 
           <h2>When to Use Which</h2>

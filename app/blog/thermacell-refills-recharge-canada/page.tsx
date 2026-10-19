@@ -240,6 +240,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
           <p>On <strong>fuel-powered models</strong>, there are two consumables. Replace the flat repellent <strong>mat</strong> when it fades from blue to white (about 4 hours of use each), and replace the <strong>butane fuel cartridge</strong> when the device will no longer light (about 12 hours per cartridge). Original refill packs bundle both so you always have matched supplies on hand.</p>
 
           <h2>Thermacell vs Whole-Yard Control</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Approach</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
@@ -250,6 +251,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire yard, surfaces &amp; edges</td><td className="px-3 py-2">Re-applied on a schedule</td><td className="px-3 py-2">Yes &mdash; with a tick treatment</td></tr>
             </tbody>
           </table>
+          </div>
           <p>Thermacell is a genuinely good product for what it does: create a repellent zone around a patio table, a campsite, or a deck chair, on demand, with no spraying on skin. What it cannot do is protect a whole yard, hold up in a breeze, or touch ticks. For that you need residual treatment on the vegetation itself. The smartest GTA setup is a Thermacell for point protection <em>plus</em> a seasonal <Link href="/mosquito-control">BuzzSkito barrier program</Link> ($549 Basic / $994 Standard for the season, or a single treatment from $99) so the yard around the Thermacell is working for you too.</p>
 
           <h2>Frequently Asked Questions</h2>

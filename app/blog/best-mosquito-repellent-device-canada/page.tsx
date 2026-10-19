@@ -355,6 +355,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
 
           <RelatedLinks path="/blog/best-mosquito-repellent-device-canada" />
           <h2>Devices vs Professional Barrier Spray for GTA Yards</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">What it does</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -367,6 +368,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994/season</td><td className="px-3 py-2">Whole yard, re-treated through the season</td><td className="px-3 py-2">Yes — tick plan $497 added to a mosquito plan</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Smart Stack for a Canadian Backyard</h2>
           <p>You do not have to choose just one. The most effective, lowest-hassle setup for a typical GTA property (5,000–15,000 sq ft) is:</p>

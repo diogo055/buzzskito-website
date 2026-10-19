@@ -284,6 +284,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
 
           <h2>Foggers vs the Rest of the Mosquito Toolkit</h2>
           <p>A fogger is one option among several, and the honest framing is that it is the fast-knockdown specialist. Here is roughly how it sits against the other common approaches for a GTA backyard:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Tool</th><th className="px-3 py-2 text-left">Strength</th><th className="px-3 py-2 text-left">Lasts</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
@@ -296,6 +297,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Even whole-yard residual</td><td className="px-3 py-2">Renewed on your plan schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
           <p>Many committed DIYers own both a fogger and a sprayer: the sprayer lays the durable barrier, the fogger delivers the dramatic pre-event knockdown. If you can buy only one and want lasting mosquito-and-tick coverage, the sprayer is usually more versatile; if you want instant wide-area clearing before guests arrive, the fogger wins.</p>
 
           <TopPick tag={AMZ_TAG}

@@ -302,6 +302,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
 
           <h2>Misting Kit vs Traps, Foggers, and Barrier Spray</h2>
           <p>A misting kit is one layer of a comfortable backyard, not the whole answer. Each tool solves a different piece of the mosquito problem, and the honest move is to understand what each one buys you:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Tool</th><th className="px-3 py-2 text-left">What it does</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Ticks?</th></tr>
@@ -314,6 +315,7 @@ export default function DiyOutdoorMistingSystemKitCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Residual that kills on contact, renewed on schedule</td><td className="px-3 py-2">Whole yard</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Smart Stack for a GTA Backyard</h2>
           <p>For a typical Mississauga, Brampton, or Oakville patio, the most effective and honest setup layers a couple of these tools rather than betting everything on one:</p>

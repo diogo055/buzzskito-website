@@ -310,6 +310,7 @@ export default function OffDeepWoodsDeetPage() {
 
           <h2 id="deet-vs-picaridin">OFF Deep Woods vs Picaridin &amp; Other Repellents</h2>
           <p>DEET is not the only option, and for a lot of Canadians it is no longer the best everyday one. Here is how OFF Deep Woods stacks up against the alternatives you will see on the same shelf:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Repellent</th><th className="px-3 py-2 text-left">Active</th><th className="px-3 py-2 text-left">Feel / odour</th><th className="px-3 py-2 text-left">Best for</th></tr>
@@ -321,6 +322,7 @@ export default function OffDeepWoodsDeetPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Yard treatment</td><td className="px-3 py-2">Nothing on your skin</td><td className="px-3 py-2">Whole-yard, re-applied on a schedule, ticks too</td></tr>
             </tbody>
           </table>
+          </div>
           <p>The headline: at 20%, <strong>icaridin matches DEET for mosquito and tick protection</strong> without the grease, smell, or gear damage, and the Canadian Paediatric Society prefers it for children. DEET still wins on raw longevity at 25–30%, which is why Deep Woods stays in the pack for serious backcountry days. If you are torn, our full <Link href="/blog/picaridin-vs-deet">picaridin vs DEET comparison for Canada</Link> walks through every trade-off.</p>
 
           <h2 id="safe-use">Safe Use: Kids, Pets, and Your Gear</h2>

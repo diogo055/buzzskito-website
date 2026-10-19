@@ -259,6 +259,7 @@ export default function MistingFanCanadaPage() {
 
           <h2>Fan vs zapper vs barrier spray for patio comfort</h2>
           <p>These three tools get lumped together but they do genuinely different jobs. Here is how they compare for a typical GTA backyard &mdash; note there is no single winner, because they are not really substitutes for one another.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
@@ -300,6 +301,7 @@ export default function MistingFanCanadaPage() {
               </tr>
             </tbody>
           </table>
+          </div>
           <p>Read that table as a layering guide, not a bracket. The fan owns comfort and close-range deterrence at the table. Barrier spray owns whole-yard treatment and is the only line here that can also target ticks. The zapper, frankly, is the one we would skip &mdash; and we explain why in our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <RelatedLinks path="/blog/misting-fan-canada" />

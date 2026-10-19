@@ -313,6 +313,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
 
           <h2>Stickers vs Other Options for Kids</h2>
           <p>Stickers are one tool in a bigger kit. Here is how they stack up against the other DEET-free approaches Canadian parents reach for:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Protection</th><th className="px-3 py-2 text-left">Duration</th><th className="px-3 py-2 text-left">Use with babies</th></tr>
@@ -325,6 +326,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Whole yard (treated vegetation)</td><td className="px-3 py-2">Re-applied on a schedule</td><td className="px-3 py-2">Stay off treated areas until dry, per the label</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Smart Stack for Families</h2>
           <p>Stickers work best as one honest layer, not the whole plan. For a household with young kids, the combination that actually keeps the backyard usable is:</p>

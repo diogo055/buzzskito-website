@@ -280,6 +280,7 @@ export default function FlowtronBugZapperCanadaPage() {
 
           <h2>Flowtron vs DynaTrap vs Propane Traps</h2>
           <p>People shopping for a Flowtron are usually cross-shopping other trap categories, so here is how they line up for a Canadian yard:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Trap type</th><th className="px-3 py-2 text-left">How it lures</th><th className="px-3 py-2 text-left">Mosquito performance</th><th className="px-3 py-2 text-left">Best at</th></tr>
@@ -291,6 +292,7 @@ export default function FlowtronBugZapperCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Residual treatment on vegetation</td><td className="px-3 py-2">Highest overall</td><td className="px-3 py-2">Whole-yard bite reduction + ticks</td></tr>
             </tbody>
           </table>
+          </div>
           <p>The takeaway: no trap category — Flowtron included — beats a residual barrier treatment for actually reducing bites in a typical GTA yard. If you want to compare the whole trap market first, our <Link href="/blog/best-mosquito-trap">best mosquito trap in Canada</Link> guide ranks the options, and if you specifically want a cordless, no-outlet unit, see our <Link href="/blog/best-solar-bug-zapper-canada">best solar bug zapper in Canada</Link> comparison.</p>
 
           <h2>The Smart Way to Use a Flowtron in the GTA</h2>

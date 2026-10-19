@@ -320,6 +320,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
 
           <h2>Tow-Behind Sprayer vs Backpack vs Professional Service</h2>
           <p>A tow-behind ATV sprayer is not always the right answer &mdash; it earns its cost on acreage and is overkill on a small lot. Here is how the honest options compare for a tick yard:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Best property</th><th className="px-3 py-2 text-left">Edge coverage</th><th className="px-3 py-2 text-left">Effort</th></tr>
@@ -332,6 +333,7 @@ export default function BestAtvSprayerForTickYardCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/tick-control"><strong>Professional tick control</strong></Link></td><td className="px-3 py-2">Any — esp. wooded / Lyme-risk</td><td className="px-3 py-2">Best — expert placement</td><td className="px-3 py-2">None — done for you</td></tr>
             </tbody>
           </table>
+          </div>
           <p>For a small suburban lot, a good backpack sprayer walked around the perimeter is enough and far cheaper to buy and store. The tow-behind rig pays off once the perimeter is long enough that carrying and refilling a backpack becomes the bottleneck. And for anyone with young children, pets, a Lyme-risk history, or simply a large wooded lot they would rather not manage, <Link href="/tick-control">professional barrier treatment</Link> is usually faster, safer, and more reliable &mdash; the applicator legally uses commercial-class product and knows exactly where the harbourage is.</p>
 
           <h2>Frequently Asked Questions</h2>

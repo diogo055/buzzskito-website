@@ -171,6 +171,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
           <h2>How the lone star tick compares to Ontario&rsquo;s established ticks</h2>
           <p>The quickest way to place the lone star tick in context is side by side with the two ticks you are actually likely to encounter in the GTA.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
@@ -188,6 +189,7 @@ export default function LoneStarTickAlphaGalCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2 font-semibold">Causes alpha-gal?</td><td className="px-3 py-2"><strong>Primary cause</strong></td><td className="px-3 py-2">Not documented</td><td className="px-3 py-2">Not documented</td></tr>
             </tbody>
           </table>
+          </div>
           <p>The takeaway: the tick behind the red meat allergy is the one Ontario is least likely to have, while the tick Ontario definitely has (blacklegged) carries a different risk — Lyme disease — that is well worth taking seriously.</p>
 
           <RelatedLinks path="/blog/lone-star-tick-alpha-gal-canada" />

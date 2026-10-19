@@ -210,6 +210,7 @@ export default function TickTubesCanadaPage() {
 
           <h2>Thermacell vs generic vs DIY tick tubes</h2>
           <p>Not all tubes are equal. Here is how the realistic Canadian options compare.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr>
@@ -246,6 +247,7 @@ export default function TickTubesCanadaPage() {
               </tr>
             </tbody>
           </table>
+          </div>
 
           <RelatedLinks path="/blog/tick-tubes-canada" />
           <h2>Are DIY tick tubes worth it? (Read the PMRA angle first)</h2>

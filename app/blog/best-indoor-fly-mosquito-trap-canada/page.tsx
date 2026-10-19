@@ -297,6 +297,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
           </ol>
 
           <h2>Indoor Traps vs the Alternatives</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Typical cost</th><th className="px-3 py-2 text-left">What it fixes</th><th className="px-3 py-2 text-left">Mosquitoes?</th></tr>
@@ -308,6 +309,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99 / treatment</td><td className="px-3 py-2">The outdoor population</td><td className="px-3 py-2">Yes — at the source</td></tr>
             </tbody>
           </table>
+          </div>
           <p>The most effective indoor-bug strategy is a layered one: fix the screens, kill any indoor breeding water with BTI, run a quiet UV/glue trap for the stragglers, and treat the yard so the population outside is a fraction of what it would be. An indoor trap alone treats the symptom; source control treats the cause.</p>
           <p>Two of those layers are a Saturday job rather than a shopping decision. A screen repair kit — a roll of mesh, new spline, and the little roller that seats it — closes the torn corner in a frame you already own, and it is the single cheapest thing on this page measured against how many insects it keeps out. Check the mesh width against your frame before ordering.</p>
           <div className="not-prose my-4">

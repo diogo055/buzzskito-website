@@ -299,6 +299,7 @@ export default function BestRatTrapCanadaPage() {
           <p>There is a fourth category worth knowing about if your rat problem never really ends: a CO₂-powered trap that strikes, drops the carcass clear, and re-arms itself, so it keeps working unattended instead of being &ldquo;done&rdquo; the moment it fires once. It costs many times what any of these three do, which is why it only earns its place against chronic pressure &mdash; we work through that maths in our <Link href="/blog/goodnature-a24-review-canada">Goodnature A24 review for Canada</Link>.</p>
 
           <h2 id="comparison">Rat Trap Comparison Table</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Type</th><th className="px-3 py-2 text-left">Kill method</th><th className="px-3 py-2 text-left">Reusable</th><th className="px-3 py-2 text-left">Best for</th></tr>
@@ -311,6 +312,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Glue boards</td><td className="px-3 py-2">Adhesive</td><td className="px-3 py-2">Slow — not recommended</td><td className="px-3 py-2">No</td><td className="px-3 py-2">Not recommended for rats — escapes + welfare</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2 id="norway-vs-roof">Do You Have Norway Rats or Roof Rats?</h2>
           <p>If you&rsquo;re in the GTA — or almost anywhere in Ontario — you have Norway rats. <em>Rattus norvegicus</em> is a heavy-bodied, blunt-nosed burrower with a tail shorter than its body. It travels at ground level, digs burrows along foundations, under decks, sheds, and compost bins, and enters homes through floor-level gaps, weeping tile, and sewer connections. Toronto, Mississauga, Brampton, and Hamilton rat complaints are overwhelmingly Norway rats, and construction excavation is a well-documented trigger for neighbourhood-level surges as burrow systems get displaced.</p>
@@ -320,6 +322,7 @@ export default function BestRatTrapCanadaPage() {
           <p>The paragraph above is written for Ontario, where the answer is almost always a Norway rat and trapping high wastes your traps. <strong>If you are reading this from the United States, the answer branches by region &mdash; and in much of the country the attic advice is correct, not a mistake.</strong> Norway rats (<em>Rattus norvegicus</em>) occur nationwide across the US. Roof rats (<em>Rattus rattus</em>) hold the lower East Coast, the Gulf states north into Arkansas, the entire Pacific Coast and Hawaii, with documented inland pockets in metros such as Kansas City. Most of the Great Plains and the interior north is roof-rat-free, which is why a Nebraska homeowner and a Fort Lauderdale homeowner should not be given the same placement instruction.</p>
           <p>The practical difference is vertical. Norway rats burrow and travel at ground level, so traps go low: basement perimeter walls, behind appliances and the furnace, along garage walls, beside burrow entrances. Roof rats are agile climbers with tails longer than their bodies; they enter along utility lines and overhanging branches and nest in attics, soffits, palms, garages and dense landscaping, so traps go high &mdash; on rafters, joists, the tops of fences and wall plates &mdash; secured with wire so a trap cannot fall onto someone below. In roof-rat territory, run both: high traps for the climbers, ground-level traps near sewer lines and water for the Norway rats that share the same city.</p>
 
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[620px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Where you are</th><th className="px-3 py-2 text-left">Species most likely</th><th className="px-3 py-2 text-left">Trap placement</th></tr>
@@ -334,6 +337,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Coastal British Columbia</strong></td><td className="px-3 py-2">Roof rat established alongside Norway rat</td><td className="px-3 py-2">Both heights &mdash; the one Canadian region where attic trapping applies</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h3>Packrats are a third animal, and a snap trap is the wrong tool</h3>
           <p>Across the western US deserts there is a rodent this guide&rsquo;s three picks are not designed for. Packrats &mdash; properly woodrats, genus <em>Neotoma</em>, with roughly 23 species and their greatest diversity in the arid Southwest; the white-throated woodrat (<em>N. albigula</em>) is the common Arizona one &mdash; build large stick middens, hoard shiny objects, and are notorious for nesting in the engine bays of parked vehicles and chewing through wiring harnesses. If your problem is a nest of sticks and cholla joints under the hood of a truck that has sat for a fortnight, you do not have a Norway rat problem and a snap trap on the garage floor will not solve it.</p>
@@ -355,6 +359,7 @@ export default function BestRatTrapCanadaPage() {
           <p>The counter-intuitive part is that speed comes from simultaneity, not from a better trap. A single trap set on night one is fighting the neophobia window alone: the colony detours around it for the better part of a week, and the first rat to trip it and escape teaches the rest. Six traps armed together after pre-baiting attack a colony that has already accepted the hardware as scenery, and they all fire before the survivors have anything to learn from. That is the whole mechanism behind &ldquo;the fastest way,&rdquo; and it is why the cheap wooden trap outperforms an expensive one here &mdash; you can afford six of them.</p>
           <p>Three things reliably slow the clock down, whatever hardware you buy: a competing food source (open compost, pet bowls, spilled bird seed) that beats your bait, traps placed in open floor rather than tight to a wall, and moving traps every day, which restarts the neophobia clock every time. Fix the food competition before you set anything.</p>
 
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[620px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Method</th><th className="px-3 py-2 text-left">Typical first catch</th><th className="px-3 py-2 text-left">Small colony cleared</th><th className="px-3 py-2 text-left">Catch</th></tr>
@@ -368,6 +373,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Ultrasonic repeller</td><td className="px-3 py-2">&mdash;</td><td className="px-3 py-2">&mdash;</td><td className="px-3 py-2">Not a control method; rodents habituate</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2 id="biggest-fear">What Is a Rat&rsquo;s Biggest Fear?</h2>
           <p><strong>Anything new.</strong> Rats are strongly neophobic: a new object in an established territory gets avoided for three to seven days no matter how good the bait on it smells. That single trait &mdash; not intelligence, not strength &mdash; defeats most home trapping attempts. It is also the one you exploit, by pre-baiting traps unset until the colony treats them as furniture.</p>
@@ -403,6 +409,7 @@ export default function BestRatTrapCanadaPage() {
 
           <h2 id="trap-types">Trap Types This Guide Hasn&rsquo;t Covered: Live, Bucket, Tunnel and Multi-Catch</h2>
           <p>The three picks above cover the great majority of household situations, but they are two categories out of six. Here is the full landscape, including the products a US shopper will see in the shopping carousel above these search results, so you can tell at a glance whether something you have spotted is a genuinely different tool or the same mechanism in a different shell.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[680px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Category</th><th className="px-3 py-2 text-left">Examples you&rsquo;ll see</th><th className="px-3 py-2 text-left">Kills or captures</th><th className="px-3 py-2 text-left">Self-resets</th><th className="px-3 py-2 text-left">Best use</th></tr>
@@ -418,6 +425,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Glue boards</td><td className="px-3 py-2">Large-format adhesive trays</td><td className="px-3 py-2">Captures &mdash; slowly</td><td className="px-3 py-2">No</td><td className="px-3 py-2">Not recommended for rats; restricted in some US cities</td></tr>
             </tbody>
           </table>
+          </div>
           <p><strong>A live-trap caution that applies on both sides of the border.</strong> Cage traps are the right tool for packrats and for households that will not use kill traps, but catching a rat is the easy half. Norway and roof rats are non-native, and releasing them is restricted or prohibited in many US states and Canadian provinces; a rat released into unfamiliar territory usually dies slowly or becomes a neighbour&rsquo;s problem. If you are not prepared to dispatch a live-caught rat humanely, a well-placed kill trap is the more honest choice. Check your state wildlife agency or provincial ministry before you buy the cage, not after.</p>
           <p>One more distinction worth drawing, because the carousel blurs it: professional-line snap traps such as the Trapper T-Rex and the enclosed stations they sit in are not more <em>powerful</em> than a wooden Victor. What you are buying is a tamper-resistant housing, a trap that can be set and emptied without touching the jaws, and something a technician can service quickly in volume. In a house with a curious dog, that housing is worth more than the extra force it does not have.</p>
 
@@ -438,6 +446,7 @@ export default function BestRatTrapCanadaPage() {
           <RelatedLinks path="/blog/best-rat-trap-canada" />
           <h2 id="victor-vs-tomcat">Victor vs Tomcat vs Electronic — Head to Head</h2>
           <p><strong>The short verdict: Victor for kill force per dollar, Tomcat for ease and safety of setting, electronic for never having to see the rat.</strong> If you want one sentence to act on &mdash; buy several wooden Victor traps, because the tactic that clears a colony is deploying six at once, and only the cheap trap lets you.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[640px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left"></th><th className="px-3 py-2 text-left">Victor wooden snap</th><th className="px-3 py-2 text-left">Tomcat plastic snap</th><th className="px-3 py-2 text-left">Victor electronic</th></tr>
@@ -452,6 +461,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Pick it if</strong></td><td className="px-3 py-2">You have an active infestation</td><td className="px-3 py-2">The spring bar makes you flinch</td><td className="px-3 py-2">One or two rats and no appetite for the sight</td></tr>
             </tbody>
           </table>
+          </div>
           <p><strong>Brand-level summary.</strong> Victor is the oldest and by far the broadest consumer rodent line &mdash; the wooden metal-pedal trap has been in production since the 1890s, and the same brand now spans professional wide-trigger snap traps, plastic-bodied models, enclosed no-touch designs and the electronic chamber. If you want one brand that has a version of nearly every category on this page, it is that one. Tomcat is narrower and plays to a single, real strength: traps that a nervous person can arm without putting fingers anywhere near the strike zone, plus a removable bait cup that keeps peanut butter off your hands. Neither brand has a trap that beats pre-baiting; the brand argument is genuinely secondary to the protocol.</p>
 
           <h2 id="poison-canada">What About Rat Poison — What Is Actually Legal in Canada?</h2>
@@ -486,6 +496,7 @@ export default function BestRatTrapCanadaPage() {
             <li><strong>Gulf Coast, Florida, coastal California and Hawaii</strong> &mdash; roof rats are active year-round and the seasonal signal is much weaker. What you get instead is a bulge tied to fruit: citrus, avocado, loquat and palm fruit drop drives a late-summer and autumn surge, and clearing fallen fruit does more than any trap you can buy.</li>
             <li><strong>Any region, any month</strong> &mdash; excavation and demolition displace burrow systems and produce sudden neighbourhood-level surges with no seasonal logic at all.</li>
           </ul>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[600px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Window</th><th className="px-3 py-2 text-left">Canada &amp; northern US</th><th className="px-3 py-2 text-left">South, Gulf &amp; Pacific Coast</th><th className="px-3 py-2 text-left">What to do</th></tr>
@@ -498,9 +509,11 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Jun&ndash;Aug</strong></td><td className="px-3 py-2">Lowest indoor pressure</td><td className="px-3 py-2">Year-round roof rat activity</td><td className="px-3 py-2">Exclusion and yard sanitation &mdash; the cheapest month to do it</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2 id="model-numbers">US Model Numbers: What the Box Actually Says</h2>
           <p>American search results for this query are dominated by shopping carousels, and those carousels are SKU-driven &mdash; you will see model numbers before you see any description. Here is what the products discussed on this page are usually called on a US shelf, so you can match a carousel tile to the analysis above.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[620px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">What this guide calls it</th><th className="px-3 py-2 text-left">US model numbers and names you&rsquo;ll see</th><th className="px-3 py-2 text-left">Notes</th></tr>
@@ -518,6 +531,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Large-format glue boards</td><td className="px-3 py-2">Catchmaster XL and similar multi-packs</td><td className="px-3 py-2">Not recommended for rats; banned in several California cities</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2 id="where-to-buy-us">Where to Buy Rat Traps in the United States</h2>
           <p>Rat traps are a year-round staple of the US hardware aisle in a way they are not in Canada, which is genuinely useful: in most of the country you can have six traps on the floor this afternoon rather than waiting for a delivery. The mainstream shelf is <strong>Home Depot, Lowe&rsquo;s, Ace Hardware and Walmart</strong>; <strong>Tractor Supply</strong> usually carries the widest rural selection, including bucket traps, multi-catch cages and larger station formats that the home-improvement chains skip. Victor sells direct through victorpest.com, and DIY-pest specialists stock the professional lines &mdash; enclosed stations, Trapper-style snap traps, weather-resistant boxes &mdash; that a homeowner would otherwise only see when a technician opens the van.</p>
@@ -525,6 +539,7 @@ export default function BestRatTrapCanadaPage() {
 
           <h2 id="units">Metric to Imperial: A Conversion Table for US Readers</h2>
           <p>This guide was written in metric. Every figure used above is converted here, with an everyday reference where one helps &mdash; including the toonie, which is a Canadian two-dollar coin and no use at all as a mental yardstick in Ohio.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[600px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Figure in this guide</th><th className="px-3 py-2 text-left">Imperial</th><th className="px-3 py-2 text-left">Everyday reference</th></tr>
@@ -543,6 +558,7 @@ export default function BestRatTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Bleach dilution: 1 part in 9</td><td className="px-3 py-2">About 1½ cups bleach per gallon of water</td><td className="px-3 py-2">Per CDC guidance, wet droppings before wiping &mdash; never sweep or vacuum dry</td></tr>
             </tbody>
           </table>
+          </div>
 
           <div className="not-prose my-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor rat trap">Check Victor rat trap on Amazon.ca →</BuyLink>

@@ -371,6 +371,7 @@ export default function ThermacellCanadaPage() {
           </div>
 
           <h2>Thermacell vs Other Mosquito Solutions in Canada</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">Coverage</th><th className="px-3 py-2 text-left">Relative cost</th><th className="px-3 py-2 text-left">Best for</th></tr>
@@ -383,6 +384,7 @@ export default function ThermacellCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Entire property</td><td className="px-3 py-2">From $99 per treatment (BuzzSkito)</td><td className="px-3 py-2">Whole-yard, re-applied on a schedule</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Smart GTA Mosquito Strategy</h2>
           <p>The most effective mosquito control for GTA backyards stacks three layers:</p>

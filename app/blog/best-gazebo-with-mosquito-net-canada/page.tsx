@@ -315,6 +315,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
 
           <h2>Gazebo vs Cheaper Alternatives — the Honest Comparison</h2>
           <p>Before you spend on a full screened gazebo, it is worth knowing when something cheaper does the job &mdash; and when it doesn&rsquo;t. Here is how the realistic options stack up for a Canadian deck.</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Option</th><th className="px-3 py-2 text-left">Relative cost</th><th className="px-3 py-2 text-left">Bug protection</th><th className="px-3 py-2 text-left">Best when</th></tr>
@@ -328,6 +329,7 @@ export default function BestGazeboWithMosquitoNetCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">Seasonal service</td><td className="px-3 py-2"><strong>Whole yard, renewed on schedule, + ticks</strong></td><td className="px-3 py-2">You want the entire property usable, not one spot</td></tr>
             </tbody>
           </table>
+          </div>
           <p>The pattern is clear: every product in that table protects a <em>spot</em> &mdash; a table, a bed, a 4.5-metre bubble. A gazebo protects the best spot the best, but it is still just the footprint under the canopy. The one option that protects the whole yard is a barrier treatment on the vegetation, which is why the smartest setups layer the two: a screened gazebo for a guaranteed bug-free dining zone, plus a barrier spray so the walk from the door and the kids&rsquo; time on the lawn aren&rsquo;t a gauntlet.</p>
 
           <h2>The Smart Stack for a GTA Backyard</h2>

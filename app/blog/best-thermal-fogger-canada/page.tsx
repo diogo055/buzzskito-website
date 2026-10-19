@@ -309,6 +309,7 @@ export default function BestThermalFoggerCanadaPage() {
 
           <h2>Fogging vs Professional Barrier Spray for GTA Yards</h2>
           <p>Thermal fogging and barrier spray are not really competitors &mdash; they solve different problems. A fogger gives you a fast, dramatic, same-evening knockdown of the adult mosquitoes present right now, which is perfect an hour before an event on a big property. But the residual is short: the fine fog settles as a light film that breaks down in sun and dew within hours to a couple of days. Barrier spray instead leaves a residual on the leaf surfaces where mosquitoes rest, renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), covers the whole yard in one visit, and &mdash; crucially &mdash; also targets ticks in their low, shaded harbourage, which drifting fog barely reaches. Here is how the options stack up for a typical GTA property:</p>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito control</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -321,6 +322,7 @@ export default function BestThermalFoggerCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard, renewed on schedule</td><td className="px-3 py-2">Yes — full coverage</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Smart Stack for a Large GTA Property</h2>
           <p>For a big Caledon, King City, or rural Milton property, the most effective approach is rarely a fogger alone:</p>

@@ -652,6 +652,7 @@ export default function DynaTrapCanadaPage() {
           </ul>
 
           <h2>DynaTrap vs Real Mosquito Solutions</h2>
+          <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
               <tr><th className="px-3 py-2 text-left">Solution</th><th className="px-3 py-2 text-left">First-year cost</th><th className="px-3 py-2 text-left">Mosquito reduction</th><th className="px-3 py-2 text-left">Tick coverage</th></tr>
@@ -663,6 +664,7 @@ export default function DynaTrapCanadaPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">$549–$994</td><td className="px-3 py-2">Whole yard, re-treated through the season</td><td className="px-3 py-2">Yes — tick plan $497 added to a mosquito plan</td></tr>
             </tbody>
           </table>
+          </div>
 
           <h2>The Honest Verdict for GTA Buyers</h2>
           <p>If you&rsquo;re shopping for mosquito control specifically, skip DynaTrap and go directly to <Link href="/mosquito-control">professional barrier spray</Link> for whole-yard coverage. If you have a cottage and want a low-effort supplemental device that catches moths and the occasional mosquito while looking ambient on the deck, DynaTrap is fine.</p>
