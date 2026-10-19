@@ -68,6 +68,22 @@ with SendUserFile.
   ec6c2215, `middleware.ts`: Singapore + China visitors get 403 unless they declare a crawler; before:
   70-153 such sessions a day = 16-30% of all). GA4 totals drop ~20% from Oct 20 because of it: compare
   readers by country, not totals. Re-check SG/CN sessions in GA4 on Oct 21 (should be near zero).
+- **BEAT-THE-TOP-3 RESEARCH, BEFORE WRITING ANY PAGE (owner, Oct 19; the spec's `serp` note is not
+  enough):** for the page's target search pull Google's top 5 (US; plus Canada for Canadian pages)
+  with each site's strength and the links to that exact page (Ahrefs serp-overview; check the unit cost
+  on the first call, ~40.8K units left until Oct 26), note what Google shows above them (AI answer,
+  image block, People also ask, videos), take the top 3 pages apart (sections, length, real photos vs
+  stock/AI, comparison pictures, tables, FAQs, author, date), list what searchers still need (People
+  also ask, related searches, questions no top page answers well), and write the gap list into the
+  page spec: everything the top 3 cover + what they miss + better proof (credited real photos at true
+  scale, a labelled side-by-side strip, the quick-ID table, the item to click). Re-check the position at
+  2, 4 and 8 weeks; below the top 3 -> compare again and improve. Where the top 3 are giants (WebMD,
+  CDC, Orkin), quality alone may not win yet: pick beatable searches first. **FIRST JOB TUESDAY: the
+  droppings family** (roach, rat, mouse, squirrel and bed bug droppings, mouse urine, raccoon, termite
+  frass; check demand for each): Fox Pest earns ~49K visits/month from six of these
+  (data/god-build/200k-comparables.md); "roach poop" already has a DR 23 page at #2. Existing pages to
+  fold in, not duplicate: what-does-mouse-poop-look-like-canada, bed-bug-stains-poop-droppings-canada;
+  planned: cockroach-droppings, rat-droppings, animal-droppings.
 - **AMAZON-FIRST DIRECTION (owner, Oct 19): every new page must pass three tests:** real demand (GSC,
   then Ahrefs US), a top 3 we can beat (check who ranks first), and a natural product to click. The
   click is the unit of value (24 h cart capture; link the cheap, obvious item). Canadian pot: in the
