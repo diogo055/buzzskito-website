@@ -100,6 +100,20 @@
    "sha256Original": "afe208f9e3ebf35e01e183393a80ab5b8127a271614de702b94fbe9919353499"
   },
   {
+   "file": "/guides/photos/american-cockroach-droppings-trap.webp",
+   "subject": "American cockroach, Periplaneta americana, caught on a sticky monitoring trap, with droppings the observer recorded as its own beside it (Blacksburg, Virginia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/231654201",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/411463711/original.jpeg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Annamarie, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 1594,
+   "bytes": 64502,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "f88f370a42c964da5d5b718ee14ec8019a424a5119a63947c4da216f80829f9b"
+  },
+  {
    "file": "/guides/photos/american-cockroach-ootheca.webp",
    "subject": "American cockroach, Periplaneta americana, egg case (ootheca) on white paper (Sabaneta, Dominican Republic)",
    "sourceUrl": "https://www.inaturalist.org/observations/306466708",
@@ -182,6 +196,20 @@
    "sourceDescription": "Narceus americanus",
    "downloadedOn": "2026-10-16",
    "sha256Original": "d789791c02c101c912389fdb395f186852f2b74f108eeaacf71234b33e0781e3"
+  },
+  {
+   "file": "/guides/photos/anole-droppings-fence.webp",
+   "subject": "Green anole, Anolis carolinensis, dropping with a white tip on a wooden fence post; the observer watched the lizard leave it (Birmingham, Alabama)",
+   "sourceUrl": "https://www.inaturalist.org/observations/204441225",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/361362651/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1594,
+   "bytes": 227322,
+   "sourceDescription": "Anolis carolinensis",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "5cf8986b3141b7919f41b85f614ae6be4a944bb50f7719b2e119ab38bfc51b38"
   },
   {
    "file": "/guides/photos/anopheles-larvae.webp",
@@ -366,6 +394,34 @@
    "sha256Original": "c0f47c4fa6c0991a0f5a659c4ed6e09eecbed6c7a942abcde1d4611af73f52f7"
   },
   {
+   "file": "/guides/photos/bat-droppings-bat-box-ruler.webp",
+   "subject": "Two bat droppings beside a ruler, fallen from a bat box; identified on iNaturalist as big brown bat, Eptesicus fuscus, by bat researcher Paul R. Moosman Jr. (Windsor, Connecticut)",
+   "sourceUrl": "https://www.inaturalist.org/observations/116896641",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/197359685/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Mark Apgar, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 146278,
+   "sourceDescription": "Eptesicus fuscus",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "d7ef2b974bd3c78bed852f79e8279734dc1dd006afcba46f4291d8233f13ce19"
+  },
+  {
+   "file": "/guides/photos/bat-droppings-cave-inch-ruler.webp",
+   "subject": "Bat droppings covering a cave floor beside an inch ruler, below bats the observer saw roosting (identified by the observer as California leaf-nosed bat; near the Salton Sea, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/257314401",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/461567757/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 316082,
+   "sourceDescription": "Macrotus californicus",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "1d2763c31e10facf2a92d7af4d115c45a0d5ad276608bff05858d4d88dddce80"
+  },
+  {
    "file": "/guides/photos/bat-droppings-ruler.webp",
    "subject": "Bat droppings beside a ruler, left by little brown bats, Myotis lucifugus, roosting in a patio umbrella (Prince Edward Island)",
    "sourceUrl": "https://www.inaturalist.org/observations/92243395",
@@ -392,6 +448,20 @@
    "sourceDescription": "Eptesicus fuscus",
    "downloadedOn": "2026-10-16",
    "sha256Original": "8e2dad562b19d510190adfb23e4bd2652c30e1f203caae7ad5e4bfc05fec49cb"
+  },
+  {
+   "file": "/guides/photos/bat-guano-cave-floor.webp",
+   "subject": "Bat droppings (guano) on the floor of a sandstone cave below roosting California leaf-nosed bats, Macrotus californicus, identified on iNaturalist by the observer and tracker Kim Cabrera (near the Salton Sea, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/339458266",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/617527221/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1066,
+   "bytes": 233290,
+   "sourceDescription": "Macrotus californicus",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "8bc2a4270bc241aa5d6a2d0c2b9995a09045cd8e2649fafad274b4497f5f13f5"
   },
   {
    "file": "/guides/photos/bat-soft-tick.webp",
@@ -436,6 +506,20 @@
    "sha256Original": "7dc9b6739327f3b54bc9f1f83c067577b2efcf4cd5e95252530e977632d0e75c"
   },
   {
+   "file": "/guides/photos/bed-bug-bites-back.webp",
+   "subject": "Raised red bites on a man's back and arm that the photographer attributes to bed bugs in a hotel in Amsterdam",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015.11.26.192605Cimex_lectularius_bites.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/2015.11.26.192605Cimex_lectularius_bites.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Hermann Luyken, CC0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 43678,
+   "sourceDescription": "Bed bug (Cimex lectularius) bites (from a hotel in Amsterdam)- Ludwigshafen, 26.11.2015",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "29a61b7b94dd760ca885338fccb3ca22a5d3f434225072bb3ad8dfbf13783ce6"
+  },
+  {
    "file": "/guides/photos/bed-bug-bites-forearm.webp",
    "subject": "Bed bug bites on a forearm",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugb1.JPG",
@@ -478,6 +562,34 @@
    "sha256Original": "29575e55657f4e92b4c34c42a4716cda74d68ffaed37f3063561a27c619fbc72"
   },
   {
+   "file": "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+   "subject": "Bed bug fecal spots: black stains on a wooden bed frame near where bed bugs hid, photographed and described by the New York State IPM Program at Cornell University",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_Bug_Evidence.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bed_Bug_Evidence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 44776,
+   "sourceDescription": "After feeding on blood, bed bugs retreat to their hideaway. They will defecate (poop) processed blood, leaving black stains near their resting place. When searching for bed bugs on a bed or head board, look for black fecal stains. For more information: www.nysipm.cornell.edu/whats_bugging_you/bed_bu",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "101b66089cefb7d1f2ca3120282bf9d4ace7d334db7b5f61cda98287a68d2f88"
+  },
+  {
+   "file": "/guides/photos/bed-bug-fecal-stains-mattress.webp",
+   "subject": "Mattress from a large bed bug infestation: thick black fecal stains and white bed bug eggs, as described by the New York State IPM Program at Cornell University",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Infested_Mattress_(11555822213).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Infested_Mattress_%2811555822213%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 265674,
+   "sourceDescription": "In large bed bug infestations, fecal stains become thick and black on mattresses. The white objects in this picture are bed bug eggs. For more information about bed bug biology and control visit our page: &lt;a href='https://nysipm.cornell.edu/whats-bugging-you/bed-bugs' data-x-rel='nofollow'&gt;nys",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "bc2dea6e34c2bfa73c9266c9815cf54a87fc4069375890f0929f2d4653d395b8"
+  },
+  {
    "file": "/guides/photos/bed-bug-nymph.webp",
    "subject": "Bed bug nymph on fabric",
    "sourceUrl": "https://www.inaturalist.org/observations/325824918",
@@ -504,6 +616,20 @@
    "sourceDescription": "Cimex lectularius",
    "downloadedOn": "2026-10-15",
    "sha256Original": "c9f9cfc03267edf377812cc169ceb6c44305b488c955566088abf0aee700bb8f"
+  },
+  {
+   "file": "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+   "subject": "Bed bugs and their white eggs along a seam of a bed (the photographer's description)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugs.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bedbugs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Charlysays, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 252786,
+   "sourceDescription": "Bedbugs with their eggs locating on the bed.",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "5fde833a45b8b2524fe669cb1985f883969067ff4c04473f9189d43a4b3330e2"
   },
   {
    "file": "/guides/photos/big-brown-bat.webp",
@@ -1096,6 +1222,20 @@
    "sha256Original": "aad2399bd2a1148d471046f2805e49dc2cc583fe508d186c5dd75c4460769481"
   },
   {
+   "file": "/guides/photos/carpenter-ant-frass.webp",
+   "subject": "Carpenter ant, Camponotus modoc, on the bark of a western redcedar beside frass (coarse wood shavings); the observer found a heap of frass at the base of the tree (Sequim, Washington)",
+   "sourceUrl": "https://www.inaturalist.org/observations/122993394",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/208308453/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) John A Haskins, some rights reserved (CC BY), via iNaturalist",
+   "width": 1153,
+   "height": 2048,
+   "bytes": 372634,
+   "sourceDescription": "Camponotus modoc",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "b95c3f4d4eeef1cf82e0211102eb11303ea0dfb6cb6d17124243871a81c3e4f9"
+  },
+  {
    "file": "/guides/photos/carpenter-ant-winged-queen.webp",
    "subject": "Eastern black carpenter ant, Camponotus pennsylvanicus, winged queen on a leaf (Waltham, Massachusetts)",
    "sourceUrl": "https://www.inaturalist.org/observations/47906724",
@@ -1488,6 +1628,20 @@
    "sha256Original": "d5940afe05b1124c146f28b2e7a62f49a719c05654536669a7da195173989589"
   },
   {
+   "file": "/guides/photos/cottontail-droppings.webp",
+   "subject": "Round droppings identified on iNaturalist as eastern cottontail, Sylvilagus floridanus, by seven users, in pine litter (Gardendale, Alabama)",
+   "sourceUrl": "https://www.inaturalist.org/observations/128615485",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/218479735/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1594,
+   "bytes": 374246,
+   "sourceDescription": "Sylvilagus floridanus",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "624ccac7179081fb32dd57c7103756d61cddc4ecf0b5c3d2e9e3d79733a27c8e"
+  },
+  {
    "file": "/guides/photos/cow-killer-velvet-ant.webp",
    "subject": "Eastern velvet ant (cow killer), Dasymutilla occidentalis, female",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dasymutilla_occidentalis_(female).jpg",
@@ -1500,6 +1654,20 @@
    "sourceDescription": "Female Dasymutilla occidentalis.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "b81808dcce5b1de3a5761acb55c2badefc4e35c4259f3cccc64e3e8aac4a6e1a"
+  },
+  {
+   "file": "/guides/photos/coyote-scat-ruler.webp",
+   "subject": "Coyote scat, brown and twisted, with hair and seeds, beside a ruler; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project (Rancho San Antonio Open Space Preserve, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/12313482",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/17783021/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 206040,
+   "sourceDescription": "Canis latrans",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "6cff724f267aa662bf9615f056f75c40fbed6cd259e2d148bdc01ed4b629f51d"
   },
   {
    "file": "/guides/photos/crane-fly.webp",
@@ -1640,6 +1808,20 @@
    "sourceDescription": "Dark Paper Wasp (Polistes fuscatus)",
    "downloadedOn": "2026-10-15",
    "sha256Original": "66ce8bf227a32f1ab1bad29f4eb397fe5c5918fbd9e99b39b08451947d63509f"
+  },
+  {
+   "file": "/guides/photos/deer-droppings-snow.webp",
+   "subject": "Deer droppings (pellets) on snow at Big Meadows, Shenandoah National Park, Virginia (National Park Service photograph)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deer_Scat_in_the_Snow_(51861792238).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Deer_Scat_in_the_Snow_%2851861792238%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "ShenandoahNPS, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 43824,
+   "sourceDescription": "NPS | H. Prokop Deer scat in the snow at Big Meadows. (20220127_DeerScatSnow_SNP5821_HP)",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "d29381e0ea1495ed458f0abb26fd809e0fa8b2e6c0f10ac4a1c5230e28c91aad"
   },
   {
    "file": "/guides/photos/deer-fly.webp",
@@ -2341,6 +2523,20 @@
    "sourceDescription": "This photograph depicted a ventral view of a female German cockroach, Blattella germanica, highlighting the insect's egg capsule, or ootheca, as it was extended from its distal abdomen. B. germanica oothecae, on average, contain 18-50 eggs.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "f60453d60be92bb9fb616fa5e54ff70856c8cf3b129ceaf3142c975424bdfa8d"
+  },
+  {
+   "file": "/guides/photos/german-cockroach-frass-cabinet.webp",
+   "subject": "Hole in the back wall of a kitchen cabinet with dead cockroaches and specks of droppings (frass) around it; the photographer identified the roaches as German cockroaches",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cockroach_access_hole.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Cockroach_access_hole.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "Downtowngal, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 887,
+   "bytes": 124876,
+   "sourceDescription": "Hole in kitchen interior wall, allows cockroach access to kitchen. Dead roaches (Blatella germanica) and frass testify to infestation.",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "328aea7b33aead0976cf046f026a3e9f3d823a8c0f6747ac3b91fb9e8983d1ac"
   },
   {
    "file": "/guides/photos/german-cockroach-nymphs.webp",
@@ -3199,6 +3395,20 @@
    "sha256Original": "ff20c9753c29824e438cbbeb3fa53e3e491a484a766681440d7c020796e59fc7"
   },
   {
+   "file": "/guides/photos/lizard-droppings-ruler.webp",
+   "subject": "Western fence lizard, Sceloporus occidentalis, dropping with its white urate cap beside a centimeter ruler; the observer saw the lizard leave it seconds before (San Mateo County, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/163828317",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/283400775/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Garth Harwood, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 862,
+   "bytes": 123664,
+   "sourceDescription": "Sceloporus occidentalis",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "54b054bcf887c102079da4cd5435e036d0bdeee1555c85aee0e2d4f8a0ebab27"
+  },
+  {
    "file": "/guides/photos/lone-star-tick-female.webp",
    "subject": "Lone star tick, Amblyomma americanum, adult female",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683",
@@ -3451,6 +3661,20 @@
    "sha256Original": "710382696c8b0c9b993a1e67cb8f6af7f5193e1b045881b01877cc420d8cc59d"
   },
   {
+   "file": "/guides/photos/mosquito-bites-forearm.webp",
+   "subject": "Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28630",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28630/28630.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 178988,
+   "sourceDescription": "This image depicts a close view of multiple mosquito bites on the right ventral forearm that are swollen and fusing together.",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "67c6c190ca3d5d9c94deb2337b5e7bffffeb604cef770de6787fdb0634728366"
+  },
+  {
    "file": "/guides/photos/mouse-droppings-ruler.webp",
    "subject": "House mouse droppings beside a centimetre ruler and 10 and 20 euro-cent coins (Utrecht, Netherlands)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Housemouse_(Mus_musculus)_droppings_with_10_and_20_euro_cent_coins_and_a_ruler,_Utrecht,_The_Netherlands,_December_14,_2019.jpg",
@@ -3561,6 +3785,20 @@
    "sourceDescription": "Rattus norvegicus",
    "downloadedOn": "2026-10-16",
    "sha256Original": "b37681b588e5ef05b48e71a3cfa2c6da1660d0e6c38a202bc39c7a0f1c96388b"
+  },
+  {
+   "file": "/guides/photos/norway-rat-droppings-cornell.webp",
+   "subject": "Norway rat droppings on a white background, photographed and identified by the New York State Integrated Pest Management Program at Cornell University",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norway_Rat_Droppings_(9421750331).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Norway_Rat_Droppings_%289421750331%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 41180,
+   "sourceDescription": "Norway rat droppings are rectangular in shape with blunt ends. They can measure 3/4 inch (19 mm) long and 1/4 inch (7 mm) wide. Often rat droppings contain hair ingested during grooming. To learn more about rodent control, see our \"Mice and Rats\" webpage: &lt;a href=\"https://nysipm.cornell.edu/whats",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "5b8fd145c9bb77c65f31d14d06a169149ad5b657e066b018911359a1b839e036"
   },
   {
    "file": "/guides/photos/norway-rat-face.webp",
@@ -3830,6 +4068,20 @@
    "sha256Original": "ea1d990b57da1aeb2ea8c66bfaf5fba8d765da9928e06ba0ed8e112691764989"
   },
   {
+   "file": "/guides/photos/raccoon-latrine-shed-roof.webp",
+   "subject": "Pile of droppings on top of a backyard shed, identified by the observer as raccoon scat (iNaturalist, California; no second identification yet)",
+   "sourceUrl": "https://www.inaturalist.org/observations/307866385",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/555361786/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1199,
+   "bytes": 80888,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "5e771eb0133dcad87b95644d242ec5da24d455009d2376c4a8a685e35064a3a1"
+  },
+  {
    "file": "/guides/photos/raccoon-on-chimney.webp",
    "subject": "Raccoon, Procyon lotor, on top of a house chimney at night (Chapel Hill, North Carolina)",
    "sourceUrl": "https://www.inaturalist.org/observations/203890432",
@@ -3842,6 +4094,34 @@
    "sourceDescription": "Procyon lotor",
    "downloadedOn": "2026-10-16",
    "sha256Original": "20d3f3e688336e0080295c04afac52131694052ad6f47661776f54e6c8cc4377"
+  },
+  {
+   "file": "/guides/photos/raccoon-scat-branch.webp",
+   "subject": "Raccoon droppings: one long, segmented scat draped over a fallen branch, identified on iNaturalist by the observer and tracker Kim Cabrera (Montville, New Jersey)",
+   "sourceUrl": "https://www.inaturalist.org/observations/254031120",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/454935084/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 185940,
+   "sourceDescription": "Procyon lotor lotor",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "3ee880d3eeaec1d18d073bced0c8ff84078ae7afa3fac46130dcb88702f1995e"
+  },
+  {
+   "file": "/guides/photos/raccoon-scat-lawn-ruler.webp",
+   "subject": "Droppings from five deposits on a lawn beside an L-shaped ruler, identified by the observer as raccoon scat left by raccoons eating her ripe persimmons (iNaturalist, California; no second identification yet)",
+   "sourceUrl": "https://www.inaturalist.org/observations/17118309",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25922101/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 253698,
+   "sourceDescription": "Procyon lotor",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "4417d84f77e1f2f16ef0c7aef8eb6914003fc9271359bd8d6625957260bae694"
   },
   {
    "file": "/guides/photos/rat-droppings-table.webp",
@@ -4543,6 +4823,20 @@
    "sourceDescription": "A telltale sign of infestation, \"tubes\" like these found in a building at Forward Operating Base Zeebrugge, Afghanistan, provide subterranean termites with a passage of travel above ground. Two sailors from the Preventative Medicine Unit aboard Camp Leatherneck visited the base to quell a growing pe",
    "downloadedOn": "2026-10-16",
    "sha256Original": "f42be874205e17b5f5acd882d1e56cfdfb55b0694022400768e35cdf07e9be6b"
+  },
+  {
+   "file": "/guides/photos/termite-pellet-pile.webp",
+   "subject": "Pile of termite fecal pellets on a wooden garden arbor, each pellet about 1 mm long according to the photographer (Fremont area, California)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Termite_Fecal_Pellets.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Termite_Fecal_Pellets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Sanjay Acharya, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 206342,
+   "sourceDescription": "Termite fecal pellets on a wooden arbor. Size of each pellet is about 1 mm in length.",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "b23249d42ebf8841ebcf0eb901af4b1f91bcfdaffeb811731cac34f6b234c7e5"
   },
   {
    "file": "/guides/photos/termite-swarmers.webp",

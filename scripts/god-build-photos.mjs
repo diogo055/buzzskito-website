@@ -397,6 +397,31 @@ const PHOTOS = [
   ['eastern-hognose-snake', 'Eastern hognose snake, Heterodon platirhinos, coiled in dry leaves (Lothian, Maryland)', { inat: { obs: 59898568, photo: 95742658 } }],
   ['eastern-milk-snake', 'Eastern milk snake, Lampropeltis triangulum, on asphalt (Southborough, Massachusetts)', { inat: { obs: 167025821, photo: 289293206 } }],
   ['fall-field-cricket', 'Fall field cricket, Gryllus pennsylvanicus, on a hand for size (Oak Bay, British Columbia)', { inat: { obs: 60757654, photo: 97172481 } }],
+  // seventh batch (Oct 20): droppings family (raccoon, bat, rat, cockroach, bed bug, termite and carpenter ant
+  // frass, the animal poop chart) plus bites for the live bed bug pages; scouted against
+  // data/god-build/research/droppings-top3.md. Who identified each photo, how sure we can be, which pages it
+  // serves and which can lead a page: data/god-build/photo-notes-batch7.json
+  ['raccoon-scat-branch', 'Raccoon droppings: one long, segmented scat draped over a fallen branch, identified on iNaturalist by the observer and tracker Kim Cabrera (Montville, New Jersey)', { inat: { obs: 254031120, photo: 454935084 } }],
+  ['raccoon-latrine-shed-roof', 'Pile of droppings on top of a backyard shed, identified by the observer as raccoon scat (iNaturalist, California; no second identification yet)', { inat: { obs: 307866385, photo: 555361786 } }],
+  ['raccoon-scat-lawn-ruler', 'Droppings from five deposits on a lawn beside an L-shaped ruler, identified by the observer as raccoon scat left by raccoons eating her ripe persimmons (iNaturalist, California; no second identification yet)', { inat: { obs: 17118309, photo: 25922101 } }],
+  ['bat-guano-cave-floor', 'Bat droppings (guano) on the floor of a sandstone cave below roosting California leaf-nosed bats, Macrotus californicus, identified on iNaturalist by the observer and tracker Kim Cabrera (near the Salton Sea, California)', { inat: { obs: 339458266, photo: 617527221 } }],
+  ['bat-droppings-cave-inch-ruler', 'Bat droppings covering a cave floor beside an inch ruler, below bats the observer saw roosting (identified by the observer as California leaf-nosed bat; near the Salton Sea, California)', { inat: { obs: 257314401, photo: 461567757 } }],
+  ['bat-droppings-bat-box-ruler', 'Two bat droppings beside a ruler, fallen from a bat box; identified on iNaturalist as big brown bat, Eptesicus fuscus, by bat researcher Paul R. Moosman Jr. (Windsor, Connecticut)', { inat: { obs: 116896641, photo: 197359685 } }],
+  ['norway-rat-droppings-cornell', 'Norway rat droppings on a white background, photographed and identified by the New York State Integrated Pest Management Program at Cornell University', { commons: 'Norway Rat Droppings (9421750331).jpg' }],
+  ['american-cockroach-droppings-trap', 'American cockroach, Periplaneta americana, caught on a sticky monitoring trap, with droppings the observer recorded as its own beside it (Blacksburg, Virginia)', { inat: { obs: 231654201, photo: 411463711 } }],
+  ['german-cockroach-frass-cabinet', 'Hole in the back wall of a kitchen cabinet with dead cockroaches and specks of droppings (frass) around it; the photographer identified the roaches as German cockroaches', { commons: 'Cockroach access hole.jpg' }],
+  ['bed-bug-fecal-spots-bed-frame', 'Bed bug fecal spots: black stains on a wooden bed frame near where bed bugs hid, photographed and described by the New York State IPM Program at Cornell University', { commons: 'Bed Bug Evidence.jpg' }],
+  ['bed-bug-fecal-stains-mattress', 'Mattress from a large bed bug infestation: thick black fecal stains and white bed bug eggs, as described by the New York State IPM Program at Cornell University', { commons: 'Infested Mattress (11555822213).jpg' }],
+  ['bed-bugs-eggs-mattress-seam', 'Bed bugs and their white eggs along a seam of a bed (the photographer\'s description)', { commons: 'Bedbugs.jpg' }],
+  ['bed-bug-bites-back', 'Raised red bites on a man\'s back and arm that the photographer attributes to bed bugs in a hotel in Amsterdam', { commons: '2015.11.26.192605Cimex lectularius bites.jpg' }],
+  ['mosquito-bites-forearm', 'Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024)', { phil: 28630 }],
+  ['carpenter-ant-frass', 'Carpenter ant, Camponotus modoc, on the bark of a western redcedar beside frass (coarse wood shavings); the observer found a heap of frass at the base of the tree (Sequim, Washington)', { inat: { obs: 122993394, photo: 208308453 } }],
+  ['termite-pellet-pile', 'Pile of termite fecal pellets on a wooden garden arbor, each pellet about 1 mm long according to the photographer (Fremont area, California)', { commons: 'Termite Fecal Pellets.jpg' }],
+  ['coyote-scat-ruler', 'Coyote scat, brown and twisted, with hair and seeds, beside a ruler; species confirmed by DNA analysis in the UC Santa Cruz Conservation Scats Project (Rancho San Antonio Open Space Preserve, California)', { inat: { obs: 12313482, photo: 17783021 } }],
+  ['cottontail-droppings', 'Round droppings identified on iNaturalist as eastern cottontail, Sylvilagus floridanus, by seven users, in pine litter (Gardendale, Alabama)', { inat: { obs: 128615485, photo: 218479735 } }],
+  ['deer-droppings-snow', 'Deer droppings (pellets) on snow at Big Meadows, Shenandoah National Park, Virginia (National Park Service photograph)', { commons: 'Deer Scat in the Snow (51861792238).jpg' }],
+  ['lizard-droppings-ruler', 'Western fence lizard, Sceloporus occidentalis, dropping with its white urate cap beside a centimeter ruler; the observer saw the lizard leave it seconds before (San Mateo County, California)', { inat: { obs: 163828317, photo: 283400775 } }],
+  ['anole-droppings-fence', 'Green anole, Anolis carolinensis, dropping with a white tip on a wooden fence post; the observer watched the lizard leave it (Birmingham, Alabama)', { inat: { obs: 204441225, photo: 361362651 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }

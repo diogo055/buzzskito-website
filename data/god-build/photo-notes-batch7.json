@@ -1,0 +1,314 @@
+{
+ "_readme": "Scout notes for the seventh photo batch (Oct 20, 2026): photos that unblock the droppings family in data/god-build/research/droppings-top3.md (raccoon-poop, bat-poop, rat-droppings, mouse-poop, cockroach-droppings, bed-bug-poop, squirrel-poop, possum-poop, mouse-urine, termite-droppings, animal-droppings) plus bite photos for the live bed bug pages (bed-bug-bites, bed-bug-bites-vs-mosquito-bites, baby-bed-bugs-nymphs). Same format as batch 6: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages, the brief's 'pages'; slugs as in the research file), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats (where it was taken, scale objects, watermarks, caption limits). The licence, credit and size of record are in photos.json. Every licence was read at the source by scripts/god-build-photos.mjs (PHIL rights field, Commons licence, the iNaturalist photo's own licence). All 21 images were looked at after conversion and all show what their subject line says, so none was removed. Rejected candidates and what is still missing are in 'gaps'. Write captions from these notes and the record together, in US spelling and US units.",
+ "candidates": [
+  {
+   "id": "raccoon-scat-branch",
+   "forPages": [
+    "raccoon-poop",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 254031120 of Procyon lotor lotor (Eastern Raccoon), Montville, New Jersey, 2024-12-03; two current identifications: the observer (Eric Bartkowski) and Kim Cabrera ('beartracker', who runs the Beartracker's Animal Tracks Den field guide and holds a Track and Sign Specialist certification); scat annotated by the observer; photo 2 of 2. Observer's note: 'Pretty impressive balance to pull this one off!'",
+   "caveats": "One long, tubular, segmented scat with blunt ends hanging over a fallen branch in woodland leaf litter: the textbook raccoon shape, in a wood, not a yard, deck or attic. No raccoon in the photo and no scale object: the identification rests on the scat's form, agreed by an experienced tracker. Give length and width only from a written source (the research file cites ICWDM: 2-3 inches long, 1/2 inch wide). Any raccoon roundworm (Baylisascaris) warning in a caption must be sourced to CDC. CC0, so it can be the share image of raccoon-poop.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "raccoon-latrine-shed-roof",
+   "forPages": [
+    "raccoon-poop",
+    "animal-droppings"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist needs-ID observation 307866385 of Procyon lotor, California (location obscured to the state), 2025-08-20, by Anne Parsons (truthseqr); her identification only; scat annotated by her; photo 1 of 2. Observer's note: 'A big pile of raccoon scat on top of my shed.'",
+   "caveats": "A heap of old and newer droppings, some full of fruit skins and seeds, on the roof of a backyard shed beside a house: the roof-and-deck setting where people actually find raccoon latrines, which no other photo on file shows. The raccoon identification is the observer's alone (no second identifier yet, no raccoon in the photo), so caption it as droppings the homeowner identified as raccoon scat, and do not use it as a share image. She has several raccoon latrine observations that Kim Cabrera confirmed (Santa Clara County baylands, 2021-2022), which supports but does not prove this one. Shot from below; a leaf blurs the lower left of the frame.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1199."
+  },
+  {
+   "id": "raccoon-scat-lawn-ruler",
+   "forPages": [
+    "raccoon-poop",
+    "animal-droppings"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist needs-ID observation 17118309 of Procyon lotor, California, 2018-09-30, by Anne Parsons (truthseqr); her identification only; photo 1 of 2. Observer's note: 'Raccoon scat. From 5 deposits on my lawn. My persimmons are starting to ripen and the raccoons come at night, feast on the fruit, and poop all over the lawn and in the bird feeder.'",
+   "caveats": "Tubular droppings and pale fruit-skin pieces on a lawn beside a white L-shaped folding ruler. The source does not say which units the ruler shows (each arm is numbered 1-5; inches fit the droppings' size), so state sizes only from a written source. The identification is the observer's, based on the raccoons she knows visit her persimmon tree at night; opossums also eat persimmons and leave tubular droppings, so do not use it as a raccoon-versus-opossum example. Caption it as droppings the homeowner attributes to raccoons. It is the only raccoon-attributed photo with a scale object found under an allowed licence.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "bat-guano-cave-floor",
+   "forPages": [
+    "bat-poop",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 339458266 of Macrotus californicus (California Leaf-nosed Bat), near Mecca, California (Batcave Buttes by the Salton Sea), 2026-01-28, by Irene (aparrot1); two current identifications (the observer and Kim Cabrera); scat annotated by the observer; photo 6 of 6. Observer's note: bats buzzed her in a sandstone cave, and 'There was lots of bat poop on the cave floor, where the bats were roosting above.'",
+   "caveats": "Close view of a layer of bat droppings: elongated, crumbly pellets glittering with insect fragments, the classic look of insect-eating bat guano. That they are bat droppings is certain (the bats were roosting directly above); the species rests on a fuzzy photo of the bats plus range, agreed by Kim Cabrera. California leaf-nosed bats live in the desert Southwest, so a general caption should say bat droppings (guano) and leave the species to the credit line. A desert cave, not a house: do not caption it as an attic. No scale object; pair it with bat-droppings-cave-inch-ruler from the same cave. CC0, so it can be the share image of bat-poop.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1066."
+  },
+  {
+   "id": "bat-droppings-cave-inch-ruler",
+   "forPages": [
+    "bat-poop",
+    "mouse-poop",
+    "rat-droppings",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist needs-ID observation 257314401 of Macrotus californicus, near Mecca, California, 2025-01-03, by Irene (aparrot1); her identification only (another user, cwbarrows, added annotations); scat annotated by her; photo 3 of 9. Observer's note: 'I got a glimpse of 5 or 6 bats wiggling deep inside a dark, sandstone cave. I couldn't get a clear photo of the bats, but I did see and smell a lot of bat poop, and measurements were taken.'",
+   "caveats": "A cave floor carpeted with small, elongated droppings beside a green ruler marked in inches (quarter-inch steps). Confidence is high that these are bat droppings (the observer saw the bats roosting there, and the same cave is research grade a year later in bat-guano-cave-floor); the species is her call alone, so caption it as bat droppings without the species. A desert cave, not a house. The ruler carries a printed toy-company name ('Big Time Toys, LLC'), readable at full size. File is 309 KB (busy texture).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "bat-droppings-bat-box-ruler",
+   "forPages": [
+    "bat-poop",
+    "mouse-poop",
+    "squirrel-poop",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist needs-ID observation 116896641 of Eptesicus fuscus (Big Brown Bat), Windsor, Connecticut, 2022-05-13, by Mark Apgar (apgarm); identified to big brown bat by Paul R. Moosman Jr. (talusrock, a biology professor at the Virginia Military Institute who studies bats), to the family Vespertilionidae by the observer and Yuzefovich Alexander; scat annotated by Moosman; photo 2 of 3. Observer's note: 'Falling from the bat box (Probably Big Brown Bat)'. Moosman's comment: 'Based on the size, location, and the fact that these are under a bat box, I think that we can be confident they are from a big brown'.",
+   "caveats": "Two dark, crumbly droppings on weathered wood beside a white ruler whose units are not shown (the number spacing suggests centimeters), so do not state a size from the photo. The observation is still 'needs ID' only because two identifiers stopped at the family; bat droppings is certain and big brown bat is a bat researcher's call. The backyard bat-box setting suits a US homeowner page. CC BY: credit Mark Apgar.",
+   "note": "Credit: (c) Mark Apgar, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "norway-rat-droppings-cornell",
+   "forPages": [
+    "rat-droppings",
+    "mouse-poop",
+    "squirrel-poop",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Norway Rat Droppings (9421750331).jpg', from the New York State Integrated Pest Management Program (NYSIPM, Cornell University) Flickr stream, CC BY 2.0. Description: 'Norway rat droppings are rectangular in shape with blunt ends. They can measure 3/4 inch (19 mm) long and 1/4 inch (7 mm) wide. Often rat droppings contain hair ingested during grooming.'",
+   "caveats": "A dozen sharp, well-lit droppings on a white background, identified by a university extension program (the companion photo in the same NYSIPM series credits Matt Frye). The NYSIPM 'IPM' logo is printed faintly over one dropping at the lower right: it is part of the licensed original, so do not crop it out without recording the edit. No scale object; the 3/4 by 1/4 inch figure is NYSIPM's written size and can be cited to them. The page's CC0 lead (rat-droppings-thumb) stays the lead.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x900."
+  },
+  {
+   "id": "american-cockroach-droppings-trap",
+   "forPages": [
+    "cockroach-droppings",
+    "mouse-poop"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 231654201 of Periplaneta americana (American Cockroach), Derring Hall, Blacksburg, Virginia, 2024-07-25, by Annamarie (glorgana); two current identifications (the observer and Jiří Hromádka); organism and scat annotated by the observer; photo 1 of 3. Observer's note: 'Caught in a IPM monitoring trap'.",
+   "caveats": "An adult American cockroach stuck on a white sticky monitoring trap with two dark, cylindrical droppings beside it (photo 2 of the observation shows the droppings closer, with ridged ends). The roach identification is high; that the droppings are this roach's is the observer's annotation, and other creatures were caught on the same trap. The roach itself gives a rough scale. The only American cockroach droppings photo found under an allowed licence. CC BY-SA, so not a lead.",
+   "note": "Credit: (c) Annamarie, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1200x1594."
+  },
+  {
+   "id": "german-cockroach-frass-cabinet",
+   "forPages": [
+    "cockroach-droppings",
+    "bed-bug-poop",
+    "mouse-poop"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Cockroach access hole.jpg' by Downtowngal (own work, 2020-04-19), CC BY-SA 4.0: 'Hole in kitchen interior wall, allows cockroach access to kitchen. Dead roaches (Blatella germanica) and frass testify to infestation.' Commons files it under 'Unidentified Blattodea'.",
+   "caveats": "Inside of a white kitchen cabinet: a ragged hole in the back wall, small dead roaches and many dark specks and smears (frass) on the walls and shelf. The German cockroach identification is the photographer's own, and a Commons editor filed the roaches as unidentified; the specks are too small at web size to show detail. Use it for what an infested cabinet looks like, captioned with the photographer's identification. No place is recorded. CC BY-SA, so not a lead.",
+   "note": "Credit: Downtowngal, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x887."
+  },
+  {
+   "id": "bed-bug-fecal-spots-bed-frame",
+   "forPages": [
+    "bed-bug-poop",
+    "bed-bug-bites",
+    "cockroach-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Bed Bug Evidence.jpg', from the NYSIPM (Cornell University) Flickr stream, photo 10068201726, 2013-03-20, CC BY 2.0: 'After feeding on blood, bed bugs retreat to their hideaway. They will defecate (poop) processed blood, leaving black stains near their resting place. When searching for bed bugs on a bed or head board, look for black fecal stains.' The French description on Commons adds that a few eggs can be seen.",
+   "caveats": "The edge of a wooden bed-frame slat speckled with black fecal spots, densest along the joint where the bugs hid: the classic ink-dot look, identified by a university extension program. No watermark is visible. No scale object. CC BY 2.0, so it cannot be the share image: bed-bug-poop still needs a public domain or CC0 lead (see gaps).",
+   "note": "Credit: NY State IPM Program at Cornell University, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x900."
+  },
+  {
+   "id": "bed-bug-fecal-stains-mattress",
+   "forPages": [
+    "bed-bug-poop",
+    "baby-bed-bugs-nymphs",
+    "bed-bug-bites"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Infested Mattress (11555822213).jpg', from the NYSIPM (Cornell University) Flickr stream, 2013-10-27, CC BY 2.0: 'In large bed bug infestations, fecal stains become thick and black on mattresses. The white objects in this picture are bed bug eggs.'",
+   "caveats": "Close view of a mattress edge and its piping, blackened with fecal staining and scattered with white eggs, pale cast skins and bugs. It shows a severe infestation, not an early one: say so in the caption. The NYSIPM 'IPM' logo sits in the upper left corner (part of the licensed original). 259 KB.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x900."
+  },
+  {
+   "id": "bed-bugs-eggs-mattress-seam",
+   "forPages": [
+    "baby-bed-bugs-nymphs",
+    "bed-bug-poop",
+    "bed-bug-bites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'Bedbugs.jpg' by Charlysays (own work, 2010-12-07, Canon PowerShot A3100 IS), released into the public domain by the author: 'Bedbugs with their eggs locating on the bed.' Commons files it under 'Unidentified Cimicidae'.",
+   "caveats": "A seam where dark fabric meets brown upholstery on a bed, lined with bed bugs of several sizes (darker fed adults and paler young ones) and many white eggs and pale cast skins. The insects are plainly bed bugs by shape; the species (common or tropical bed bug) and the place are not recorded, hence the Commons category, so on a US page simply say bed bugs. The source identifies no fecal spots: do not caption the dark specks as droppings. No scale object (eggs with a scale were not found: see gaps). Public domain, so it can be the share image of baby-bed-bugs-nymphs.",
+   "note": "Credit: Charlysays, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x900."
+  },
+  {
+   "id": "bed-bug-bites-back",
+   "forPages": [
+    "bed-bug-bites",
+    "bed-bug-bites-vs-mosquito-bites"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file '2015.11.26.192605Cimex lectularius bites.jpg' by Hermann Luyken (own work), CC0: 'Bed bug (Cimex lectularius) bites (from a hotel in Amsterdam) - Ludwigshafen, 26.11.2015'. Two more frames of the same bites are on Commons (192551 and 192558).",
+   "caveats": "A man's bare back and upper arm with many raised red bumps, some in short rows and clusters. The cause is the photographer's own account (bites from a hotel stay in Amsterdam, photographed in Ludwigshafen, Germany); CDC says bites alone cannot confirm bed bugs, so a caption must keep his attribution, and on a US page leave the places out or name them honestly. Not lead-eligible under the confident-identification rule, but it is CC0 and the clearest public domain or CC0 bed bug bite photo found: if the owner accepts a self-reported cause, it is the candidate share image for bed-bug-bites. Light skin; bed bug bites on darker skin were not found (see gaps).",
+   "note": "Credit: Hermann Luyken, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "mosquito-bites-forearm",
+   "forPages": [
+    "bed-bug-bites-vs-mosquito-bites",
+    "bed-bug-bites"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28630 (CDC Division of Vector-Borne Diseases, Rickettsial Zoonoses Branch; photo Lauren Bishop; 2024): 'This image depicts a close view of multiple mosquito bites on the right ventral forearm that are swollen and fusing together.'",
+   "caveats": "A large, raised red patch on the inside of a forearm where several bites have merged, on medium-brown skin, against a blurred green background. Per PHIL it is several bites fused into one swelling, a strong reaction: do not caption it as one typical bite. It is also the only public domain bite photo on darker skin than the others on file (mosquito, not bed bug). Public domain, so it can be a share image.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x799."
+  },
+  {
+   "id": "carpenter-ant-frass",
+   "forPages": [
+    "termite-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 122993394 of Camponotus modoc, Sequim, Washington, 2022-06-22, by olyjah (photos credited to John A Haskins); identified as Camponotus modoc by critters_pnw and mettcollsuss, as Camponotus by the observer; photo 3 of 6. Observer's note: 'On and under bark of Thuja plicata with quite a heap of frass at the base and woodpecker hole on the opposite side.'",
+   "caveats": "A black carpenter ant on western redcedar (Thuja plicata) bark beside a long strip of loose, light-brown wood shavings packed into a groove of the trunk: carpenter ant frass as found outdoors. The frass is tied to the ants by the ant in the frame and the observer's note; it was not analyzed. A tree, not a house. Tall photo (1153x2048), 364 KB. CC BY: credit John A Haskins.",
+   "note": "Credit: (c) John A Haskins, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1153x2048."
+  },
+  {
+   "id": "termite-pellet-pile",
+   "forPages": [
+    "termite-droppings",
+    "cockroach-droppings"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Termite Fecal Pellets.jpg' by Sanjay Acharya (own work, 2014-03-29; coordinates in the Fremont area, California), CC BY-SA 3.0: 'Termite fecal pellets on a wooden arbor. Size of each pellet is about 1 mm in length.'",
+   "caveats": "A neat pile of tan, grain-like pellets on the beam of a garden arbor at the foot of a post with a small hole: the in-place pile people find under termite-infested wood. The photographer identifies termite pellets and gives their size (about 1 mm) but names no species; caption it as termite pellets unless a source is cited for drywood termites. No coin or ruler (not found: see gaps). CC BY-SA, so the 1977 USDA figure (drywood-termite-pellets) stays the lead.",
+   "note": "Credit: Sanjay Acharya, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x900."
+  },
+  {
+   "id": "coyote-scat-ruler",
+   "forPages": [
+    "animal-droppings",
+    "raccoon-poop"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 12313482 of Canis latrans (Coyote), Rancho San Antonio Open Space Preserve, California, 2014-06-08, by Anne Parsons (truthseqr), agreed by Kim Cabrera; photo 1 of 2. Description: 'Coyote Scat - Species confirmed by DNA analysis. Sample: 2014-06-08-RSA-03 ... Morphology: brown, twisted, contains hair as well as nuts/seeds. Length: 3.5 in. ... (Conservation Scats Project, University of California, Santa Cruz)'.",
+   "caveats": "The strongest identification in the batch: species confirmed by DNA in a university scat study. Twisted, hairy scat on dry grass beside a green ruler (the centimeter edge faces the scat, upside down); the source gives the length as 3.5 inches. Taken on a trail in a California preserve. The same observer posted DNA-confirmed gray fox and bobcat scats from the same project under CC0, if the chart or the raccoon page wants those look-alikes. CC0, so it can be a share image.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "cottontail-droppings",
+   "forPages": [
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 128615485 of Sylvilagus floridanus (Eastern Cottontail), Gardendale, Alabama, 2022-07-29, by Kristi Zoebelein (kzoebel); seven agreeing identifications; scat annotated; photo 1 of 1.",
+   "caveats": "A small heap of round, dark pellets in pine litter and grass. The identification rests on the droppings alone, but seven identifiers agree and cottontail pellets are distinctive. No scale object: give sizes from a written source. 365 KB (busy litter texture). CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1594."
+  },
+  {
+   "id": "deer-droppings-snow",
+   "forPages": [
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'Deer Scat in the Snow (51861792238).jpg', from the Shenandoah National Park Flickr stream (NPS photo by H. Prokop, 2022-01-27): 'Deer scat in the snow at Big Meadows.' The park tagged it 'whitetaileddeer'. Public domain (US National Park Service work).",
+   "caveats": "A scatter of dark, oval pellets on clean white snow: an agency-identified deer photo. The park's own tag names white-tailed deer, so 'white-tailed deer droppings' is supported. No scale object. Public domain, so it can be a share image.",
+   "note": "Credit: ShenandoahNPS, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x800."
+  },
+  {
+   "id": "lizard-droppings-ruler",
+   "forPages": [
+    "animal-droppings",
+    "mouse-poop"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 163828317 of Sceloporus occidentalis (Western Fence Lizard), San Mateo County, California, 2023-05-23, by Garth Harwood; two current identifications (the observer and joesjoes20); photo 3 of 4. Observer's note: 'Lizard was observed dropping this scat just seconds before.'",
+   "caveats": "A dark dropping with a white urate cap at one end, beside a centimeter ruler: the white tip that tells lizard droppings from mouse droppings. The lizard was seen leaving it, the best kind of identification for droppings. Measure from the ruler with care or give sizes from a written source; the visible scale is centimeters only. CC BY: credit Garth Harwood.",
+   "note": "Credit: (c) Garth Harwood, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x862."
+  },
+  {
+   "id": "anole-droppings-fence",
+   "forPages": [
+    "animal-droppings",
+    "mouse-poop"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 204441225 of Anolis carolinensis (Green Anole), Redmont Park, Birmingham, Alabama, 2024-03-29, by Kristi Zoebelein (kzoebel); four agreeing identifications including Kim Cabrera; photo 2 of 3. Observer's note: 'Two, one brown and one green. The brown one left droppings while I watched them.'",
+   "caveats": "A dark dropping with a chalky white tip stuck to a weathered wooden fence post, the yard setting where people find lizard droppings; left by a green anole in its brown phase while the observer watched. No scale object; slightly soft at full size. CC0, so it can lead a lizard row or card.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1594."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "raccoon-poop",
+   "why": "Unblocked: raccoon-scat-branch is a CC0, research-grade lead. Not found: a public domain or CC0 latrine on a deck, roof or attic with more than the homeowner's identification (raccoon-latrine-shed-roof is the closest), and a raccoon scat with a scale object that anyone besides the observer identified. CDC PHIL has raccoons but no scat; the CDC EID figures of raccoon latrines (article 03-0039) are not on Commons; Commons 'Procyon lotor scat.jpg' (CC BY-SA) was not needed."
+  },
+  {
+   "slug": "bat-poop",
+   "why": "Unblocked: bat-guano-cave-floor (research grade) and bat-droppings-cave-inch-ruler, both CC0. Not found: public domain or CC0 bat droppings in a house or attic with a reliable identification. The BLM 'Searching for bat guano in Oregon caves' photos (public domain) show people in a cave, not droppings you can see; NPS guano photos on Commons are cave views (Slaughter Canyon, Ogle Cave). Commons 'Bat Guano Identification In An Attic.jpg' (CC BY-SA 4.0) was uploaded by a wildlife removal company account and rests on its own identification; 'Bats droppings' by Gilles San Martin (CC BY-SA 2.0) is a Belgian attic. iNaturalist 226187294 (CC0, droppings under a bat house beside a US quarter) was dropped: the droppings sit on a garden ornament with leaf-footed bugs on it, and only the bat house above ties them to bats (the observer's own call, at order level)."
+  },
+  {
+   "slug": "mouse-poop",
+   "why": "Still blocked for a public domain or CC0 lead. CDC PHIL (searches: droppings, rodent droppings, mouse droppings, hantavirus, deer mouse, Peromyscus): only PHIL 14340 'rodent droppings' (already on file as rodent-droppings-drawer) and PHIL 28564 (a grocery shelf where the droppings are not visible at web size). iNaturalist: no CC0 house mouse or deer mouse scat observation exists; one CC BY observation in British Columbia has the mouse seen beside its droppings (118987186, not added). Commons: the euro-coin photos already on file, Ukrainian CC BY-SA uploads, and NYSIPM 'House Mouse Droppings (10069590893).jpg' (CC BY 2.0, Matt Frye, Cornell), the only US expert-identified mouse droppings photo under an allowed licence; not added because the droppings are small in the frame and the IPM logo sits mid-frame, but a human may want it. NPS Conserve O Gram 3/12 Figure 2 ('Mouse droppings', credited NPS Photo, public domain) would be a lead, but it is not on Wikimedia Commons, so the script cannot take it."
+  },
+  {
+   "slug": "cockroach-droppings",
+   "why": "Still blocked for a public domain or CC0 lead; supporting photos added (american-cockroach-droppings-trap, german-cockroach-frass-cabinet). CDC PHIL has adults, nymphs, egg cases, a damaged book and roaches under a door, none described as droppings. iNaturalist has four cockroach observations annotated as scat (one German, in Delhi, no droppings visible) and none mentions droppings in its notes. Commons has no other cockroach droppings photo. German cockroach fecal specks on a hinge or wall: not found under any allowed licence."
+  },
+  {
+   "slug": "bed-bug-poop",
+   "why": "Still blocked for a public domain or CC0 lead; expert-identified CC BY photos added (bed-bug-fecal-spots-bed-frame, bed-bug-fecal-stains-mattress). No public domain or CC0 source identifies fecal spots: PHIL's bed bug photos show the insects only; iNaturalist has no bed bug observation that mentions fecal spots, and only 16 bed bug observations carry CC0 photos. Do not use the Commons copies of PHIL 9817-9822 (Harvard/Piotr Naskrecki bed bugs): Commons tags them public domain, but PHIL marks them 'copyright protected'. Also checked: Commons 'BedBugFeces.jpg' (CC BY-SA 3.0, uploader's identification) and NYSIPM 'Bed Bug Evidence (11555819853).jpg' and 'Bed Bug Evidence on Headboard (11555720024).jpg' (CC BY 2.0, watermarked, no description beyond the title), not added."
+  },
+  {
+   "slug": "bed-bug-bites",
+   "why": "Public domain or CC0 bed bug bite photos exist only with a self-reported cause: bed-bug-bites-back (CC0, added) and five public domain photos by KEBman in the Commons category 'Bedbug bites' (faint bites on pale skin, not added). Commons 'Bedbug bites.jpg' (public domain, taken by an entomologist in an infested home) is only 436 px wide. Bed bug bites on darker skin: not found anywhere under an allowed licence; the Commons category is all light skin. The darker-skin bite photos found are mosquito bites: mosquito-bites-forearm (added) and PHIL 25255 (1963, a reaction to mosquito bites on a Black child's hand, not added). Bed bug eggs in a seam with a scale: not found (Commons 'Bedbug with eggs.jpg' is CC BY 3.0, 413 px, no scale)."
+  },
+  {
+   "slug": "squirrel-poop",
+   "why": "Still blocked: no squirrel droppings with a reliable identification. iNaturalist has about 20 tree squirrel scat observations; all rest on the droppings alone (best: research-grade fox squirrel scat in Denver, 263003317, CC BY, a single dropping on flagstone, two users; a CC0 'scat found on porch' in North Carolina, 153068319, uploader only), and squirrel droppings are easily confused with rat droppings. Commons has only Siberian flying squirrel droppings (Finland, Estonia). PHIL: none."
+  },
+  {
+   "slug": "possum-poop",
+   "why": "Still blocked: no opossum droppings with a reliable identification. iNaturalist's 12 opossum scat observations rest on the droppings alone (Brooklyn 236844177, CC BY-SA, with a lip balm tube for scale; Ohio 145445849, CC0) or sit beside road-killed opossums (250303394 and 238171309, CC0), which are grim and do not show what people find. PHIL has only a live opossum (1956). Commons: none."
+  },
+  {
+   "slug": "rat-droppings",
+   "why": "Added the NYSIPM close-up. Not found: rat droppings beside a US coin or ruler, and roof rat droppings. Warning: iNaturalist 37082659 (research grade, Rattus rattus, annotated as scat) is an owl pellet holding a roof rat skull, not droppings. PHIL 17355 (1968, rat droppings along a chain-link fence, public domain) was checked: the droppings are not visible at web size. iNaturalist 103018530 (CC0, research grade, droppings in an old truck in San Jose) rests on the droppings alone; not added."
+  },
+  {
+   "slug": "mouse-urine",
+   "why": "Still blocked. NPS Conserve O Gram 3/12, Figure 1 ('Mouse urine fluorescing blue-white on the bottom shelf of a cabinet, revealed using a UV flashlight') is credited 'NPS Photo', so it is public domain, but it is not on Wikimedia Commons and the script takes only PHIL, Commons and iNaturalist sources. Figures 3-8, 14 and 16 are credited to Thomas Parker, PhD (MuseumPests.Net): not usable. Using Figure 1 needs someone to upload it to Commons with the NPS public domain tag, or a new NPS source type in the script: the owner's call. No UV urine photo was found on PHIL, Commons or iNaturalist."
+  },
+  {
+   "slug": "termite-droppings",
+   "why": "The 1977 USDA figure stays the lead; added an in-place pellet pile (termite-pellet-pile) and carpenter ant frass. Not found: drywood termite pellets beside a coin or on a windowsill with a reliable identification. Commons 'PACIFIC-DAMPWOOD-TERMITE-Zootermopsis-angusticollis-frass-4000x2200 1.jpg' (CC BY-SA 3.0) shows dampwood termite pellets beside a US penny and ruler but has a home inspection company's name and phone number printed on it: left out, a human may want to look. iNaturalist frass observations (Cryptotermes in Florida, 254059238; a pellet pile at a San Francisco baseboard, 19536692, posted as a question) rest on the uploader's guess. Bugwood photos on Commons are CC BY 3.0 US, which the script does not accept."
+  },
+  {
+   "slug": "animal-droppings",
+   "why": "Chart photos added: coyote (DNA-confirmed), cottontail, deer (NPS), lizard (two, both seen being dropped), plus the raccoon, bat and rat photos above. Not found with a reliable identification: skunk (three research-grade observations, all from the droppings alone) and snake (the racer that 'pooped in my bucket', 394722702, has no photo of the droppings). USFWS public domain pygmy rabbit droppings beside a US penny exist (Commons 'USFWS Pygmy rabbit droppings (22720443575).jpg') but pygmy rabbit pellets are much smaller than a cottontail's, so not used. DNA-confirmed CC0 gray fox and bobcat scats from the same UC Santa Cruz project as coyote-scat-ruler are available (truthseqr's observations of 2014-2015)."
+  }
+ ]
+}
