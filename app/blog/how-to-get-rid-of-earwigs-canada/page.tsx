@@ -13,6 +13,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'how-to-get-rid-of-earwigs-canada'
 const DATE = '2026-07-27'
@@ -71,14 +72,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'How to get rid of earwigs in Canada: the ear myth debunked, why they surge in late summer, and the free oil-tin and newspaper traps that do the work.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/how-to-get-rid-of-earwigs-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-earwigs-canada')
 

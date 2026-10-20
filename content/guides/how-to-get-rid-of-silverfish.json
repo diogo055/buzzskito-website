@@ -1,0 +1,171 @@
+{
+  "slug": "how-to-get-rid-of-silverfish",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "how to get rid of silverfish",
+  "alsoTargets": ["silverfish in house", "silverfish bugs", "what are silverfish", "silverfish in bathroom", "firebrats"],
+  "metaTitle": "How to Get Rid of Silverfish: Humidity First",
+  "metaDescription": "Identify silverfish, firebrats and baby silverfish, then dry the air, find where they hide and treat cracks with the baits and dusts that work.",
+  "h1": "How to Get Rid of Silverfish: Humidity First, Then Baits and Dusts",
+  "dek": "Make sure it is a silverfish (photos and a quick-ID table below), then follow the order the evidence supports: dry the air, find where they hide, take away their food, and treat cracks with a dust, bait or spray the label allows.",
+  "breadcrumb": "How to Get Rid of Silverfish",
+  "excerpt": "Identify silverfish, firebrats and baby silverfish, then dry the air, find the hiding places, remove their food and use the baits and dusts the evidence supports.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A silverfish is a flat, wingless insect covered in silvery or gray scales that tapers to three long bristles at the tail; you get rid of it by drying the air, removing the paper and starch it eats, and treating the cracks where it hides.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) says light infestations need no insecticide at all.",
+    "bullets": [
+      "Common silverfish are about 1/2 inch long and can reach 3/4 inch; the gray silverfish is about 3/4 inch, by UC IPM and [University of Missouri Extension](https://extension.missouri.edu/publications/g7376) figures.",
+      "Silverfish need humid air: UC IPM says relative humidity must be above 75 percent at higher temperatures, and the EPA's indoor target is 30 to 50 percent.",
+      "Newly hatched silverfish are about 1/16 inch long, white and scaleless.",
+      "In a Norwegian field study, bait droplets cut gray silverfish by more than 90 percent across apartment buildings, while about 40 sticky traps per apartment cut them by under 10 percent.",
+      "Silverfish do not bite, sting or carry disease, but they scrape paper, book bindings, wallpaper and starched fabric."
+    ]
+  },
+  "facts": {
+    "title": "Silverfish or look-alike? Quick ID",
+    "head": ["Bug", "Size", "Look for", "Where you find it"],
+    "rows": [
+      ["Common silverfish", "About 1/2 inch, up to 3/4", "Shiny silver or pearl gray; three long tail bristles", "Damp rooms: laundry rooms, bathrooms, basements"],
+      ["Gray silverfish", "About 3/4 inch", "Uniform gray, no markings", "Warm spots of 80 to 85°F; tolerates a wide humidity range"],
+      ["Firebrat", "About 1/2 inch", "Mottled gray or brown", "Hot spots over 90°F: furnaces, water heaters, attics"],
+      ["Baby silverfish", "About 1/16 inch at hatching", "Plump, white, no scales", "Hiding places shared with the adults"],
+      ["Booklouse", "Under 1/16 inch", "Soft, translucent white to light brown", "Among damp books and papers"],
+      ["Springtail", "About 1/16 inch", "Whitish to gray or black; jumps", "Sinks, tubs, houseplant soil"],
+      ["Earwig", "About 3/4 inch", "Pincers at the tail, not bristles", "Under mulch outdoors; comes in when it is dry or hot"],
+      ["House centipede", "Body 1 to 1 1/2 inches", "15 pairs of long, banded legs", "Damp basements; hunts silverfish"]
+    ],
+    "caption": "Sizes and features from UC IPM, University of Missouri Extension, UF/IFAS, NC State and Penn State Extension. Each source is linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What do silverfish look like?" },
+    { "type": "p", "text": "A silverfish is a slender, wingless insect with a flattened body that tapers toward the tail, a coat of scales, two long antennae and three long, thin tail appendages. [UC IPM's silverfish and firebrat Pest Note](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) describes the common silverfish (*Lepisma saccharina*) as shiny, silver or pearl gray and about 1/2 inch long, though it can grow to 3/4 inch." },
+    { "type": "figure", "src": "/guides/photos/gray-silverfish.webp", "width": 1200, "height": 891, "alt": "Gray silverfish seen from above beside white-painted trim, its tapering body covered in gray scales and fringed with bristles, with long antennae and tail appendages", "caption": "A gray silverfish beside white-painted trim in Austin, Texas. Its long antennae and tail bristles run partly out of the frame.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/109156875" },
+    { "type": "p", "text": "Four of these bristletails live in North American homes, according to [University of Missouri Extension's silverfish guide](https://extension.missouri.edu/publications/g7376): the common silverfish, uniformly silvery and about 1/2 inch long; the gray silverfish (*Ctenolepisma longicaudata*), uniform gray and about 3/4 inch; the four-lined silverfish, tannish gray with four lines down its back; and the firebrat, mottled gray with dark patches." },
+    { "type": "figure", "src": "/guides/photos/silverfish.webp", "width": 1200, "height": 800, "alt": "Common silverfish on a pale surface, showing its flat, tapering, segmented gray body, long antennae and three long tail bristles", "caption": "A common silverfish. Look for the tapering, scaly body and the three long bristles at the tail end.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/154408715" },
+    { "type": "p", "text": "Silverfish run fast and stay out of sight by day. [Penn State Extension's bristletail page](https://extension.psu.edu/bristletails-silverfish-and-firebrats) says they move quickly, even sideways, and that their flat bodies let them hide in narrow crevices, and UC IPM says silverfish and firebrats are nocturnal and hide during the day." },
+    { "type": "h3", "text": "Is it a silverfish or a firebrat?" },
+    { "type": "p", "text": "Check the color and the temperature of the spot where you found it. UC IPM describes the firebrat (*Thermobia domestica*) as shiny, mottled gray or brown and about 1/2 inch long, thriving in very warm, dry places with relative humidity as low as 30 percent and temperatures above 90°F, the optimum being 98 to 102°F: near ovens, furnaces, fireplaces, hot water pipes and summer attics. Silverfish prefer damp, warm places of 71 to 90°F, such as laundry rooms. The difference matters for treatment, because UC IPM says several boric acid dusts are ineffective against firebrats." },
+    { "type": "media", "needed": "Photo of a firebrat (Thermobia domestica) beside a ruler marked in inches, ideally near a water heater or furnace where people find it, showing the mottled gray and brown scales" },
+
+    { "type": "h2", "text": "What do baby silverfish look like?" },
+    { "type": "p", "text": "Like tiny, pale adults without scales. UC IPM says newly hatched silverfish are about 1/16 inch long, plump, white and scaleless, that nymphs under 1/8 inch lack scales, and that they acquire scales about 12 days after their fourth molt. [NC State Extension's silverfish fact sheet](https://content.ces.ncsu.edu/silverfish-and-firebrats) says the young look like smaller, paler adults that darken to adult coloring in four to six weeks, and that silverfish keep growing and molting throughout their lives; UC IPM counts 45 to 60 stages. The eggs, UC IPM says, are about 1/25 inch long, laid in crevices, on cloth or buried in food or dust, and silverfish eggs hatch in about 19 to 32 days." },
+    { "type": "p", "text": "Two other tiny, pale bugs turn up in the same damp rooms. [UF/IFAS's booklice and silverfish guide](https://ask.ifas.ufl.edu/publication/IG094) describes booklice as soft-bodied, translucent white to gray or light brown and usually under 1/16 inch long indoors, living among books and papers in warm, humid places. Springtails are about 1/16 inch long and jump, using a tail-like spring tucked under the body, according to [UC IPM's springtail guide](https://ipm.ucanr.edu/home-and-landscape/springtails/), and gather in kitchen sinks, bathtubs and houseplant soil. [Booklice](/blog/booklice) and [springtails](/blog/springtails) have their own guides." },
+    { "type": "figure", "src": "/guides/photos/booklouse.webp", "width": 791, "height": 1377, "alt": "Magnified booklouse seen from above: a soft, pale brown, wingless insect with a large head, long thin antennae and a rounded abdomen", "caption": "A booklouse, magnified. UF/IFAS says indoor booklice are usually under 1/16 inch long and live among books and papers.", "license": "public-domain", "credit": "S.E. Thorpe, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liposcelis.jpg" },
+
+    { "type": "h2", "text": "Why do I have silverfish in my house?" },
+    { "type": "p", "text": "Because your home has the humidity, food and cracks they need. UC IPM says silverfish live and develop in damp, warm places such as laundry rooms, and that at higher temperatures they need relative humidity above 75 percent. NC State says they are often found in bathrooms, basements and bookshelves, or among rarely used stored items." },
+    { "type": "p", "text": "They eat what a house is full of. UC IPM lists dry foods such as cereals, flour, pasta and pet food; paper with glue or paste; sizing in paper and wallpaper; book bindings; and starch in clothing, and says they can live for several months without food. [Virginia Tech's silverfish fact sheet](https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html) adds dried meats, pet dander and even mold in a damp bathroom, and Penn State says they prefer high-protein foods such as dried beef and dead insects." },
+    { "type": "p", "text": "They also move in. UC IPM says large numbers can invade new homes from surrounding wild areas, especially as those dry out in summer, or come in on lumber, wallboard and similar products, and that fresh concrete and green lumber supply humidity while wallpaper paste provides food. Missouri's guide says infestations usually start when infested materials are brought into the home, and suggests inspecting boxes, furniture and cartons used or stored in infested areas." },
+    { "type": "p", "text": "Finding them in the bathtub does not mean they came up the drain. UC IPM says silverfish can't crawl up through the drain, but once they fall into a tub or sink they can't climb the slippery sides to escape. Frequent house centipedes can be another clue: [Penn State's house centipede page](https://extension.psu.edu/house-centipedes) lists silverfish and firebrats among their prey, and [the house centipede guide](/blog/house-centipedes) explains what else they eat." },
+
+    { "type": "h2", "text": "What does silverfish damage look like?" },
+    { "type": "p", "text": "Scraped surfaces and irregular holes, with scales nearby. UC IPM says silverfish have very weak jaws, so they scrape rather than bite; on paper and fabric, feeding usually starts in one area and spreads as unconnected, irregularly shaped holes, pages often discolor from fungi associated with the feeding, and scales around or beneath damaged items are a good sign silverfish did it. NC State lists notched edges or holes in paper, ragged edges or markings on book bindings, and cast skins, scales or droppings on the damaged materials." },
+    { "type": "p", "text": "Books are a favorite. NC State says silverfish are especially drawn to glazed paper and book bindings, which may contain starch or glue, particularly on older books, and UF/IFAS lists rayon fabric among their foods. Penn State says they do not feed on wool or other animal products; for holes in wool, look at [carpet beetles](/blog/how-to-get-rid-of-carpet-beetles) instead." },
+    { "type": "media", "needed": "Photo of silverfish feeding damage on a book page, book binding or wallpaper, showing scraped patches and irregular holes, beside a ruler marked in inches" },
+    { "type": "confused", "items": [
+      { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "About 1/16 inch and jumps with a spring under its body; gathers in sinks and tubs", "alt": "Pale springtail with dark bands on a green leaf, beside a printed scale bar" },
+      { "href": "/blog/how-to-get-rid-of-earwigs", "name": "Earwig", "photo": "european-earwig-male", "note": "Pincers at the tail end instead of three bristles; hides under damp mulch outdoors", "alt": "Male European earwig on gray fabric, with large curved pincers" },
+      { "href": "/blog/house-centipedes", "name": "House centipede", "photo": "house-centipede", "note": "15 pairs of long, banded legs; a fast hunter that eats silverfish", "alt": "House centipede seen from above on a blue textured surface" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of silverfish, step by step?" },
+    { "type": "p", "text": "Dry the air, find where they hide, take away their food and shelter, and treat the hiding places only if the population is large. UC IPM says insecticides aren't required for light infestations or an occasional insect, which can be managed by reducing water sources and through physical control, and to reserve chemicals for large infestations. Virginia Tech cautions that sanitation alone will probably not eliminate an infestation." },
+    { "type": "h3", "text": "Step 1: Lower the humidity" },
+    { "type": "p", "text": "UC IPM says silverfish require a lot of moisture, so dehumidifiers in closed spaces can help discourage them, and that fan ventilation can lower relative humidity to a point they cannot tolerate. The [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) recommends keeping indoor relative humidity below 60 percent if possible, ideally 30 to 50 percent, running the bathroom fan or opening a window when showering, fixing plumbing leaks quickly and venting clothes dryers outdoors. Penn State adds plastic sheeting over dirt crawl spaces, clear gutters and grading that carries water away from the house; [what size dehumidifier you need](/blog/what-size-dehumidifier-do-i-need-canada) covers the equipment." },
+    { "type": "p", "text": "Drier air works most directly on the common silverfish. University of Missouri Extension says gray and four-lined silverfish prefer 80 to 85°F and tolerate a wide range of humidity, and firebrats prefer about 100°F and moderate humidity, so drier air alone may not be enough against them." },
+    { "type": "h3", "text": "Step 2: Set sticky traps to find where they hide" },
+    { "type": "p", "text": "Traps show where silverfish live; they will not end an infestation. UC IPM suggests cockroach sticky traps, or small glass jars covered on the outside with masking tape, placed in corners and along edges where silverfish forage, and NC State says sticky traps help locate the hot spots. Concentrate on what the traps reveal: UC IPM says silverfish crowd together by day in a central hiding place, drawn by each other's pheromones, and that females often lay their eggs there." },
+    { "type": "p", "text": "In [a Norwegian field study of the gray silverfish](https://pmc.ncbi.nlm.nih.gov/articles/PMC7760683/), researchers added about 40 sticky traps to each test apartment. The catches lowered numbers by only 9.5 percent, and the population climbed back above its starting level once the extra traps were removed. A shopping guide written for Canadian readers compares [silverfish trap types and where each one goes](/blog/best-silverfish-traps)." },
+    { "type": "h3", "text": "Step 3: Take away their food and hiding places" },
+    { "type": "ul", "items": [
+      "**Seal up food.** Keep cereals, flour, meal, pasta and pet food in airtight containers, as Penn State advises.",
+      "**Clear the clutter.** NC State suggests removing old newspapers, books, boxes and other clutter and keeping items in long-term storage in airtight plastic bags or sealable containers; Missouri suggests sealed plastic containers for old books, papers, starched linens and cardboard.",
+      "**Clean, vacuum and move things.** UC IPM suggests keeping basements, laundry rooms and bathrooms, especially shower stalls, clean and dry, and moving books and papers now and then. UF/IFAS recommends vacuuming to remove silverfish and their food, and Penn State suggests vacuuming carpets, floors and upholstered furniture regularly.",
+      "**Seal the cracks.** Penn State suggests caulk, spackle or expandable foam for cracks and openings, and UC IPM says to patch holes around pipes and conduits and repair plumbing leaks and drips."
+    ] },
+    { "type": "h3", "text": "Step 4: Treat cracks and voids with a dust, bait or spray" },
+    { "type": "p", "text": "When the population is large, put insecticide where silverfish hide, not across open floors. The table groups the options the sources name, by type and active ingredient." },
+    { "type": "table", "head": ["Type", "Active ingredients", "Where it goes", "What the sources say"], "rows": [
+      ["Desiccant dusts", "Diatomaceous earth, silica gel", "A fine layer in cracks, crevices and wall voids", "Work only while dry; wet dust cakes and stops working (Penn State, UC IPM)"],
+      ["Borates", "Boric acid", "Dusts in dry voids; fine granular baits", "Several dusts fail against firebrats (UC IPM); baits can work well in homes (NC State)"],
+      ["Pyrethrins and pyrethroids", "Synergized pyrethrins; bifenthrin, cyfluthrin, cypermethrin, deltamethrin, lambda-cyhalothrin", "Small amounts into cracks, baseboards, closets and bookcases", "Kill on contact with some residual activity (UC IPM)"],
+      ["Other bait actives", "Indoxacarb, clothianidin", "Tiny dots along walls and in cracks", "Cut gray silverfish by more than 90 percent in a Norwegian building study"]
+    ], "caption": "From UC IPM, Penn State, NC State, UF/IFAS and the 2020 Norwegian study. Use only a product whose label lists silverfish and the place you plan to treat." },
+    { "type": "p", "text": "Apply dust with a bulb duster, powder blower or plastic squeeze bottle to leave a fine layer, as UC IPM advises. It says silica gel and diatomaceous earth dusts remain effective indefinitely in dry spots, but deposits that get wet and dry again cake and become hard for insects to pick up, and Penn State says desiccant dusts work best once moisture sources are reduced. The [NPIC diatomaceous earth fact sheet](https://npic.orst.edu/factsheets/degen.html) explains that the powder kills insects by absorbing the oils and fats from their outer layer, and warns that breathing it in can irritate the nose and that an extremely large amount may cause coughing and shortness of breath, so follow the label and keep exposure low." },
+    { "type": "p", "text": "Boric acid sold to kill insects is a registered pesticide. The [NPIC boric acid fact sheet](https://npic.orst.edu/factsheets/boricgen.html) says products containing it have been registered in the United States since 1948, that it kills insects that eat it, and that many boric acid products must be applied out of children's reach; in animals that eat it, signs of poisoning can start within 2 hours. Virginia Tech lists boric acid powders for silverfish, Missouri notes that over-the-counter products containing boric acid are available, and UF/IFAS lists fine granular boric acid baits." },
+    { "type": "p", "text": "The evidence on baits has shifted. UC IPM's Pest Note, last updated in 2009, says baits aren't very successful because silverfish tend not to feed on them, while NC State says boric acid baits, used in museums and preservation facilities, can work well in homes when used properly. In the Norwegian study, published in 2020, small droplets of a bait containing indoxacarb cut gray silverfish numbers by more than 90 percent in apartment buildings, a clothianidin bait did about as well, and in 29 comparable apartments bait reduced numbers by 71 percent and a permethrin spray by 53 percent over 10 weeks, a difference the researchers did not find significant. In the US, use a bait only if its label lists silverfish." },
+    { "type": "p", "text": "For sprays, UC IPM says to direct small amounts into cracks and crevices in door and window casings, along baseboards, in closets and bookcases, where pipes go through walls and into voids; not to apply them near electric motors, gas pilot flames or other places where they could start a fire; and to keep them out of sinks, drains, water and food. It does not recommend foggers, and NC State says fogging attics rarely works because the spray does not get under insulation or into boxes." },
+    { "type": "callout", "tone": "warning", "title": "The label is the law", "text": "[The EPA explains](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) that pesticide labels are legally enforceable and that using a product in a manner inconsistent with its labeling violates federal law. Use a dust, bait or spray only if silverfish and the place you plan to treat are on its label, and keep every product out of reach of children and pets." },
+
+    { "type": "h2", "text": "How long does it take to get rid of silverfish?" },
+    { "type": "p", "text": "Weeks for a light problem, months for a large one. UC IPM says a properly and thoroughly applied insecticide will show results in a few weeks, and that if control doesn't come in 2 or 3 weeks, silverfish are probably coming from untreated areas. The Norwegian researchers reported reductions of more than 90 percent within 15 to 20 weeks of baiting. Populations also build up slowly: Virginia Tech says females normally lay fewer than 100 eggs over a lifespan of 2 to 8 years, so a large infestation usually means a building has been infested for a while." },
+
+    { "type": "h2", "text": "Do natural remedies get rid of silverfish?" },
+    { "type": "p", "text": "The natural steps that work are the ones above: drier air, less clutter, sealed food and sealed cracks. None of the government or university sources used here supports essential-oil sprays, cedar, cucumber slices or baking soda and sugar against silverfish, all common suggestions online. Diatomaceous earth and boric acid are sometimes sold as natural, but both are registered pesticides; the NPIC fact sheet says the first diatomaceous earth products were registered in 1960. Use them as the label directs." },
+
+    { "type": "h2", "text": "When should you call a professional?" },
+    { "type": "p", "text": "Consider one when numbers stay high after several weeks of drier air, cleanup and targeted treatment, or when silverfish live in wall voids and attics you cannot reach. UC IPM's 2-to-3-week rule is a useful trigger, and Penn State notes that professional pest control companies can develop a management plan. NC State says dusts work well in attics, basements, storage closets and wall voids, though small holes may need to be drilled to reach the voids." },
+    { "type": "p", "text": "Silverfish share damp basements and bathrooms with other moisture lovers that need different fixes. Earwigs carry pincers where silverfish have bristles, and [UC IPM's earwig guide](https://ipm.ucanr.edu/home-and-landscape/earwigs/) says mulches often harbor them, so they are best handled outdoors; see [how to get rid of earwigs](/blog/how-to-get-rid-of-earwigs). [Millipedes](/blog/millipedes) are another visitor from wet mulch outside." },
+    { "type": "callout", "tone": "tip", "title": "Not sure what you caught?", "text": "Stick the insect to clear tape or seal it in a small jar, photograph it beside a ruler marked in inches, and look for scales and three tail bristles. Note where and when you found it; your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Do silverfish eat books?",
+      "answer": "Yes, especially the paste, glue and starch in them. NC State says silverfish are especially drawn to glazed paper and book bindings, which may contain starch or glue, particularly on older books, and UC IPM lists book bindings, paper with glue or paste and paper sizing among their foods. Their weak jaws scrape rather than bite, leaving irregular holes and scraped patches. Store valued books dry, move them now and then, and keep humidity down."
+    },
+    {
+      "question": "Do silverfish bite?",
+      "answer": "No. Virginia Tech says silverfish and firebrats are harmless to people and do not bite, sting or transmit diseases, and UC IPM says their jaws are so weak that they scrape at paper rather than bite it. If you have marks on your skin, something else caused them. Silverfish do damage paper, books and fabric, and Virginia Tech says they can contaminate food."
+    },
+    {
+      "question": "What attracts silverfish to your house?",
+      "answer": "Moisture, warmth and starchy food. UC IPM says silverfish need relative humidity above 75 percent at higher temperatures and feed on cereals, flour, pet food, book bindings, wallpaper paste and starch in clothing. They also arrive on lumber, wallboard and similar materials or move in from surrounding wild areas as those dry out in summer, according to UC IPM, and Missouri's guide says infestations usually start when infested materials are brought into the home."
+    },
+    {
+      "question": "Are silverfish harmful?",
+      "answer": "Not to people. Virginia Tech says silverfish and firebrats are harmless to humans and do not bite, sting or transmit diseases, but that they can contaminate food and damage paper items and textiles. UC IPM says their feeding leaves irregular holes in paper and fabric and that fungi associated with the feeding can discolor pages. Valuable papers, photographs and books are what to protect."
+    },
+    {
+      "question": "Why are there silverfish in my bathtub?",
+      "answer": "Because they fell in and could not climb out. UC IPM says silverfish can't crawl up through the drain, but once they fall into a tub or sink they cannot climb the slippery sides to escape. Bathrooms also suit them because they need humid air, and UC IPM recommends keeping bathrooms, especially shower stalls, clean and dry and using fans to lower the humidity."
+    },
+    {
+      "question": "Does one silverfish mean an infestation?",
+      "answer": "Not necessarily. Virginia Tech says silverfish populations build up slowly because each female lays few eggs, and that a large infestation usually means a building has been infested for a while. To find out, set cockroach sticky traps or small glass jars wrapped on the outside with masking tape in corners and along edges, as UC IPM suggests, and see how many you catch and where."
+    },
+    {
+      "question": "How long do silverfish live?",
+      "answer": "Several years. UC IPM says silverfish live about 3 years and firebrats about 2, and NC State and Virginia Tech put the silverfish's adult life at 2 to 8 years. They keep molting throughout their lives, passing through 45 to 60 stages, UC IPM says. Development is slow in the cold: below 50°F, according to UC IPM, silverfish can take as long as 500 days to become adults."
+    },
+    {
+      "question": "What kills silverfish instantly?",
+      "answer": "A household spray kills the ones it hits: UC IPM says sprays containing synergized pyrethrins and pyrethroids kill silverfish on contact and leave some residual activity. That does not end an infestation, because most silverfish stay hidden in cracks by day. UC IPM suggests directing small amounts into cracks, crevices and voids, and only for large infestations, while UF/IFAS says a vacuum removes silverfish and their food without any chemicals."
+    },
+    {
+      "question": "What do silverfish eggs look like?",
+      "answer": "Tiny and hard to spot. UC IPM says silverfish and firebrat eggs are about 1/25 inch long and are laid in crevices, on cloth or buried in food or dust, with clutches averaging 50 eggs but ranging from 1 to 200. Silverfish eggs hatch in about 19 to 32 days and firebrat eggs in about 14, and in cold conditions UC IPM says eggs can stay dormant for up to 6 weeks."
+    },
+    {
+      "question": "Where do silverfish come from?",
+      "answer": "Often from nearby, or from boxes and building materials. UC IPM says large numbers can invade new homes from surrounding wild areas as those dry out in summer, or come in on lumber, wallboard and similar products, and that fresh concrete and green lumber add humidity. University of Missouri Extension says infestations usually start when infested materials are brought into the home, and Penn State says they reach hiding places through cracks and holes where pipes pass through walls and floors."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
+    { "title": "Bristletails (Silverfish and Firebrats)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/bristletails-silverfish-and-firebrats" },
+    { "title": "Silverfish and Firebrats", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/silverfish-and-firebrats" },
+    { "title": "Silverfish and Firebrats (G7376)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7376" },
+    { "title": "ENY-225/IG094: Booklice and Silverfish", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Silverfish and Firebrats (ENTO-24NP)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html" },
+    { "title": "Development of a Poisoned Bait Strategy against the Silverfish Ctenolepisma longicaudata", "publisher": "Insects (Aak et al., 2020), via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7760683/" },
+    { "title": "Pest Notes: Springtails (UC ANR Publication 74136)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/springtails/" },
+    { "title": "Pest Notes: Earwigs (UC ANR Publication 74102)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/" },
+    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
+    { "title": "Boric Acid General Fact Sheet", "publisher": "National Pesticide Information Center", "url": "https://npic.orst.edu/factsheets/boricgen.html" },
+    { "title": "Diatomaceous Earth General Fact Sheet", "publisher": "National Pesticide Information Center", "url": "https://npic.orst.edu/factsheets/degen.html" },
+    { "title": "A Brief Guide to Mold, Moisture and Your Home", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" },
+    { "title": "Introduction to Pesticide Labels", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" }
+  ],
+  "disclaimer": "pesticide"
+}

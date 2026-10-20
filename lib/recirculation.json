@@ -231,6 +231,20 @@
     "/blog/diy-outdoor-misting-system-kit-canada"
    ]
   },
+  "/blog/bat-poop": {
+   "next": "/blog/animal-droppings",
+   "related": [
+    "/blog/animals-in-attic",
+    "/blog/raccoon-deterrent",
+    "/blog/raccoon-and-skunk-proofing-under-a-deck-canada"
+   ],
+   "cards": [
+    "/blog/raccoon-poop",
+    "/blog/best-electric-fence-for-raccoons-canada",
+    "/blog/holes-in-yard"
+   ],
+   "bar": true
+  },
   "/blog/battery-backup-sump-pump-canada": {
    "next": "/blog/best-sump-pump-for-basement-canada",
    "related": [
@@ -360,6 +374,20 @@
     "/blog/bed-bug-bites",
     "/blog/best-bed-bug-trap-canada"
    ]
+  },
+  "/blog/bed-bug-poop": {
+   "next": "/blog/bugs-that-look-like-bed-bugs",
+   "related": [
+    "/blog/how-to-get-rid-of-bed-bugs",
+    "/blog/black-bed-bugs",
+    "/blog/what-do-bed-bugs-look-like"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/bed-bug-bites-vs-mosquito-bites",
+    "/blog/best-bed-bug-trap-canada"
+   ],
+   "bar": true
   },
   "/blog/bed-bug-shells-casings-shed-skins-canada": {
    "next": "/blog/do-bed-bug-sprays-actually-work",
@@ -1847,6 +1875,20 @@
     "/blog/thermacell-refills-recharge-canada"
    ]
   },
+  "/blog/cockroach-droppings": {
+   "next": "/blog/how-to-get-rid-of-cockroaches",
+   "related": [
+    "/blog/palmetto-bugs",
+    "/blog/what-do-baby-cockroaches-look-like",
+    "/blog/german-cockroaches"
+   ],
+   "cards": [
+    "/blog/water-bugs-vs-cockroaches",
+    "/blog/best-cockroach-killer-canada",
+    "/blog/cockroach-eggs"
+   ],
+   "bar": true
+  },
   "/blog/cockroach-eggs": {
    "next": "/blog/bugs-that-look-like-cockroaches",
    "related": [
@@ -2435,6 +2477,20 @@
    ],
    "bar": true
   },
+  "/blog/flies-in-house": {
+   "next": "/blog/how-to-get-rid-of-gnats",
+   "related": [
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/electric-fly-swatter",
+    "/blog/best-commercial-fly-light-trap-canada"
+   ],
+   "cards": [
+    "/blog/best-indoor-fly-mosquito-trap-canada",
+    "/blog/deer-flies-horse-flies-ontario",
+    "/blog/how-to-get-rid-of-fruit-flies"
+   ],
+   "bar": true
+  },
   "/blog/flowtron-bug-zapper-canada": {
    "next": "/blog/best-solar-bug-zapper-canada",
    "related": [
@@ -3012,6 +3068,20 @@
     "/blog/black-flies-mississauga-toronto-gta-2026"
    ]
   },
+  "/blog/how-to-get-rid-of-earwigs": {
+   "next": "/blog/beetles-in-house",
+   "related": [
+    "/blog/house-centipedes",
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "cards": [
+    "/blog/pantry-pests",
+    "/blog/asian-lady-beetles",
+    "/blog/how-to-get-rid-of-carpet-beetles"
+   ],
+   "bar": true
+  },
   "/blog/how-to-get-rid-of-earwigs-canada": {
    "next": "/blog/best-earwig-killer-canada",
    "related": [
@@ -3064,6 +3134,20 @@
     "/learn/natural-weed-control",
     "/blog/best-deer-fence-for-gardens-canada"
    ]
+  },
+  "/blog/how-to-get-rid-of-gnats": {
+   "next": "/blog/how-to-get-rid-of-fruit-flies",
+   "related": [
+    "/blog/flies-in-house",
+    "/blog/chigger-bites",
+    "/blog/electric-fly-swatter"
+   ],
+   "cards": [
+    "/blog/best-fruit-fly-trap-canada",
+    "/blog/cluster-flies-in-house-canada",
+    "/blog/how-to-get-rid-of-cluster-flies-canada"
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-ground-wasps-canada": {
    "next": "/blog/best-yellow-jacket-trap-canada",
@@ -3158,6 +3242,20 @@
     "/blog/rat-poison-canada-what-is-legal",
     "/blog/baby-mice"
    ]
+  },
+  "/blog/how-to-get-rid-of-silverfish": {
+   "next": "/blog/asian-lady-beetles",
+   "related": [
+    "/blog/beetles-in-house",
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/how-to-get-rid-of-earwigs"
+   ],
+   "cards": [
+    "/blog/tiny-black-bugs",
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-silverfish-canada": {
    "next": "/blog/best-silverfish-traps",
@@ -3664,6 +3762,20 @@
    ],
    "bar": true
   },
+  "/blog/millipedes": {
+   "next": "/blog/house-centipedes",
+   "related": [
+    "/blog/tiny-black-bugs",
+    "/blog/moths-in-house",
+    "/blog/how-to-get-rid-of-fleas"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-stink-bugs",
+    "/blog/tiny-brown-bugs",
+    "/blog/flea-eggs"
+   ],
+   "bar": true
+  },
   "/blog/misting-fan-canada": {
    "next": "/blog/patio-misting-system-canada",
    "related": [
@@ -4004,6 +4116,20 @@
     "/blog/what-do-mice-eat",
     "/blog/do-mothballs-keep-mice-away"
    ]
+  },
+  "/blog/mouse-poop": {
+   "next": "/blog/rat-droppings",
+   "related": [
+    "/blog/rat-vs-mouse",
+    "/blog/roof-rat-vs-norway-rat",
+    "/blog/how-to-get-rid-of-rats-canada"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/how-long-do-mice-live",
+    "/blog/mouse-proof-garage-door-seal-canada"
+   ],
+   "bar": true
   },
   "/blog/mouse-proof-garage-door-seal-canada": {
    "next": "/blog/what-does-mouse-poop-look-like-canada",
@@ -4385,6 +4511,20 @@
     "/blog/best-live-animal-trap-canada",
     "/blog/best-raccoon-proof-roof-vent-covers-canada"
    ]
+  },
+  "/blog/raccoon-poop": {
+   "next": "/blog/bat-poop",
+   "related": [
+    "/blog/raccoon-deterrent",
+    "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+    "/blog/raccoon-proof-chimney-cap-canada"
+   ],
+   "cards": [
+    "/blog/animal-droppings",
+    "/blog/best-live-animal-trap-canada",
+    "/blog/motion-activated-sprinkler-canada"
+   ],
+   "bar": true
   },
   "/blog/raccoon-proof-chimney-cap-canada": {
    "next": "/blog/motion-activated-sprinkler-canada",

@@ -2,7 +2,7 @@
  "id": "rat-vs-mouse",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e080a17d15f3f9f3fadefc2304cf188afd9bde07ca8756849c1f0d91d310c4f3",
+ "sha": "e193a3ea595203150618536bc6f58504116c632c570532ac0a1bb4dd517059e0",
  "claimsChecked": 174,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added at the end of 'How do rat droppings compare with mouse droppings?' linking the new /blog/animal-droppings; no fact changed.",
+   "previousSha": "e080a17d15f3f9f3fadefc2304cf188afd9bde07ca8756849c1f0d91d310c4f3"
+  }
+ ]
 }

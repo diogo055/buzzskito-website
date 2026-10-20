@@ -2,14 +2,14 @@
  "generated": "2026-10-20",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 158,
+  "newPagesBuilt": 168,
   "hubPages": 4,
-  "guides": 143,
+  "guides": 153,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 246,
-  "internalLinksInNewPages": 2040
+  "notBuilt": 236,
+  "internalLinksInNewPages": 2170
  },
  "pages": [
   {
@@ -24,7 +24,7 @@
    "wordCount": 5431,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -40,8 +40,24 @@
    "wordCount": 3297,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bug poop",
+   "us_volume": null,
+   "url": "/blog/bed-bug-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Bed Bug Poop: What the Stains Look Like (Photos)",
+   "wordCount": 1947,
+   "faqs": 10,
+   "sources": 11,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -101,11 +117,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Rat vs Mouse: How to Tell Them Apart (Photos)",
-   "wordCount": 2348,
+   "wordCount": 2379,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 3,
-   "outboundInternalLinks": 8,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -136,8 +152,24 @@
    "wordCount": 2167,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 15,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "mouse poop",
+   "us_volume": null,
+   "url": "/blog/mouse-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mouse Poop: What Mouse Droppings Look Like",
+   "wordCount": 2098,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -152,7 +184,7 @@
    "wordCount": 5109,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -168,7 +200,7 @@
    "wordCount": 2412,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -184,8 +216,24 @@
    "wordCount": 2517,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "cockroach poop",
+   "us_volume": null,
+   "url": "/blog/cockroach-droppings",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Cockroach Poop: ID Roach Droppings (Photos)",
+   "wordCount": 1733,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -200,7 +248,7 @@
    "wordCount": 3056,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -958,6 +1006,38 @@
   },
   {
    "rank": null,
+   "keyword": "why are there so many flies in my house",
+   "us_volume": null,
+   "url": "/blog/flies-in-house",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "Why Are There So Many Flies in My House?",
+   "wordCount": 2554,
+   "faqs": 10,
+   "sources": 6,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of gnats",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-gnats",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "How to Get Rid of Gnats, by Type (Photos)",
+   "wordCount": 2421,
+   "faqs": 10,
+   "sources": 11,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "what do fleas look like",
    "us_volume": null,
    "url": "/blog/what-do-fleas-look-like",
@@ -1000,8 +1080,24 @@
    "wordCount": 2843,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of silverfish",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-silverfish",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "How to Get Rid of Silverfish: Humidity First",
+   "wordCount": 2472,
+   "faqs": 10,
+   "sources": 14,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -1013,11 +1109,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Carpet Beetles (Photos): How to Get Rid of Them",
-   "wordCount": 2898,
+   "wordCount": 2931,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1038,6 +1134,22 @@
   },
   {
    "rank": null,
+   "keyword": "millipedes in house",
+   "us_volume": null,
+   "url": "/blog/millipedes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Millipedes in the House? Why and What to Do",
+   "wordCount": 1886,
+   "faqs": 10,
+   "sources": 11,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "asian lady beetle",
    "us_volume": null,
    "url": "/blog/asian-lady-beetles",
@@ -1045,11 +1157,27 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Asian Lady Beetle vs Ladybug: ID and Bites",
-   "wordCount": 2350,
+   "wordCount": 2384,
    "faqs": 6,
    "sources": 13,
    "inboundFromNewPages": 3,
-   "outboundInternalLinks": 6,
+   "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of earwigs",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-earwigs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "How to Get Rid of Earwigs, Inside and Out",
+   "wordCount": 2172,
+   "faqs": 10,
+   "sources": 14,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 5,
    "status": "built"
   },
   {
@@ -1061,11 +1189,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
-   "wordCount": 2611,
+   "wordCount": 2642,
    "faqs": 6,
    "sources": 5,
    "inboundFromNewPages": 6,
-   "outboundInternalLinks": 8,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -1077,11 +1205,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny Black Bugs in the House? ID Them (Photos)",
-   "wordCount": 2698,
+   "wordCount": 2727,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 18,
    "status": "built"
   },
   {
@@ -1096,7 +1224,7 @@
    "wordCount": 2030,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -1109,11 +1237,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in House in Winter: What They Are (Photos)",
-   "wordCount": 2849,
+   "wordCount": 2880,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 21,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 22,
    "status": "built"
   },
   {
@@ -1160,7 +1288,7 @@
    "wordCount": 2591,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1176,7 +1304,7 @@
    "wordCount": 2218,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -1192,7 +1320,7 @@
    "wordCount": 2487,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1208,7 +1336,7 @@
    "wordCount": 1788,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1240,7 +1368,7 @@
    "wordCount": 2066,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1256,7 +1384,7 @@
    "wordCount": 1880,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1272,8 +1400,40 @@
    "wordCount": 1761,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 16,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "raccoon poop",
+   "us_volume": null,
+   "url": "/blog/raccoon-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Raccoon Poop: ID Raccoon Latrines (Photos)",
+   "wordCount": 1973,
+   "faqs": 10,
+   "sources": 13,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bat poop",
+   "us_volume": null,
+   "url": "/blog/bat-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Bat Poop: What Bat Droppings Look Like (Photos)",
+   "wordCount": 2184,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1320,7 +1480,7 @@
    "wordCount": 3568,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2319,13 +2479,6 @@
   },
   {
    "rank": null,
-   "keyword": "how to get rid of silverfish",
-   "url": "/blog/how-to-get-rid-of-silverfish",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "yellow jacket",
    "url": "/blog/yellow-jackets",
    "action": "new",
@@ -2377,13 +2530,6 @@
    "rank": null,
    "keyword": "wasp nest",
    "url": "/blog/wasp-nest-identification",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "millipedes in house",
-   "url": "/blog/millipedes",
    "action": "new",
    "status": "not built"
   },
@@ -2697,13 +2843,6 @@
   },
   {
    "rank": null,
-   "keyword": "how to get rid of earwigs",
-   "url": "/blog/how-to-get-rid-of-earwigs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "stable fly",
    "url": "/blog/stable-flies",
    "action": "new",
@@ -2984,29 +3123,8 @@
   },
   {
    "rank": null,
-   "keyword": "cockroach poop",
-   "url": "/blog/cockroach-droppings",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "bugs on houseplants",
    "url": "/blog/houseplant-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "why are there so many flies in my house",
-   "url": "/blog/flies-in-house",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "how to get rid of gnats",
-   "url": "/blog/how-to-get-rid-of-gnats",
    "action": "new",
    "status": "not built"
   },
@@ -3047,27 +3165,6 @@
   },
   {
    "rank": null,
-   "keyword": "raccoon poop",
-   "url": "/blog/raccoon-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bat poop",
-   "url": "/blog/bat-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "mouse poop",
-   "url": "/blog/mouse-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "squirrel poop",
    "url": "/blog/squirrel-poop",
    "action": "new",
@@ -3077,13 +3174,6 @@
    "rank": null,
    "keyword": "possum poop",
    "url": "/blog/possum-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bed bug poop",
-   "url": "/blog/bed-bug-poop",
    "action": "new",
    "status": "not built"
   },
@@ -3114,7 +3204,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3130,7 +3220,7 @@
    "wordCount": 2424,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3236,7 +3326,7 @@
    "wordCount": 3292,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3281,11 +3371,11 @@
    "kind": "pillar",
    "cluster": "mice",
    "title": "Mice Control: Seal Up, Trap Up, Clean Up",
-   "wordCount": 5203,
+   "wordCount": 5255,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 29,
-   "outboundInternalLinks": 35,
+   "inboundFromNewPages": 31,
+   "outboundInternalLinks": 37,
    "status": "built"
   },
   {
@@ -3376,7 +3466,7 @@
    "wordCount": 2971,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3590,7 +3680,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3606,7 +3696,7 @@
    "wordCount": 2338,
    "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3651,11 +3741,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bugs That Look Like Bed Bugs: How to Tell Apart",
-   "wordCount": 2554,
+   "wordCount": 2591,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 15,
-   "outboundInternalLinks": 15,
+   "inboundFromNewPages": 17,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -3704,7 +3794,7 @@
    "wordCount": 3994,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3769,11 +3859,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Flying Ants vs Termites: 3 Checks to Tell Apart",
-   "wordCount": 2267,
+   "wordCount": 2323,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 10,
-   "outboundInternalLinks": 9,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -3801,11 +3891,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "Lawn Pest Control: Confirm the Pest First",
-   "wordCount": 3492,
+   "wordCount": 3533,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 15,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -3820,7 +3910,7 @@
    "wordCount": 3202,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 23,
+   "inboundFromNewPages": 24,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3945,11 +4035,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Are Mice Nocturnal? Yes, Peak Dusk and Dawn",
-   "wordCount": 2332,
+   "wordCount": 2363,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4242,7 +4332,7 @@
    "wordCount": 3056,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4258,7 +4348,7 @@
    "wordCount": 2170,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -4356,7 +4446,7 @@
    "wordCount": 2521,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4415,11 +4505,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Flying Ants vs Termites: 3 Checks to Tell Apart",
-   "wordCount": 2267,
+   "wordCount": 2323,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 10,
-   "outboundInternalLinks": 9,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4434,7 +4524,7 @@
    "wordCount": 2287,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4476,7 +4566,7 @@
    "wordCount": 2219,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4550,7 +4640,7 @@
    "wordCount": 2862,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4566,7 +4656,7 @@
    "wordCount": 2727,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },

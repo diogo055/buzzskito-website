@@ -1,0 +1,161 @@
+{
+  "slug": "millipedes",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "millipedes in house",
+  "alsoTargets": ["millipede", "centipede vs millipede", "how to get rid of millipedes", "are millipedes poisonous", "millipede vs centipede", "house millipede"],
+  "metaTitle": "Millipedes in the House? Why and What to Do",
+  "metaDescription": "Millipedes come in from damp mulch and leaf litter after rain or in dry spells. Are they poisonous, how to tell them from centipedes, and how to stop them.",
+  "h1": "Millipedes in the House: Why They Come In and How to Keep Them Out",
+  "dek": "They arrive by the dozen after heavy rain or in a dry spell, curl up and die within days. How to recognize them, what their defensive fluid does, how to tell them from centipedes and pill bugs, and how to keep them outside.",
+  "breadcrumb": "Millipedes in the House",
+  "excerpt": "Why millipedes pour in after rain or in dry spells, whether they are poisonous, how to tell them from centipedes and pill bugs, and how to keep them out.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A millipede is the slow, wormlike animal with two pairs of short legs on most body segments that curls into a coil when disturbed; a centipede has one pair per segment and runs.** Millipedes indoors came from damp soil, mulch or leaf litter outside, and [Penn State Extension](https://extension.psu.edu/millipedes) says they do not live more than a few days inside.",
+    "bullets": [
+      "Most millipedes that wander into homes are about 1 inch long; the giant American millipede can reach 4 inches, according to the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef645).",
+      "Most species have between 30 and 300 legs, not 1,000, and millipedes do not bite.",
+      "Mass migrations often follow heavy rain or cooler weather, and hot, dry spells can also drive them into buildings.",
+      "Some species ooze a defensive fluid that can irritate skin or burn the eyes, and crushed millipedes can leave stains.",
+      "They cannot breed indoors, so extension services advise sweeping them up and drying out damp spots rather than spraying."
+    ]
+  },
+  "facts": {
+    "title": "Millipede or look-alike? Quick ID",
+    "head": ["Bug", "Size", "Legs", "When disturbed"],
+    "rows": [
+      ["Household millipede", "About 1 inch; dark brown", "Two pairs on most segments; 30 to 300 in all", "Curls into a tight coil; some ooze fluid"],
+      ["Giant American millipede", "Up to 4 inches", "Two pairs on most segments", "Curls up tightly"],
+      ["House centipede", "Body 1 to 1 1/2 inches", "15 long, banded pairs; one pair per segment", "Runs fast; can bite"],
+      ["Pill bug", "Up to about 3/4 inch", "Seven pairs", "Rolls into a ball"],
+      ["Sowbug", "Up to about 3/4 inch", "Seven pairs; two tail-like appendages", "Cannot roll up"]
+    ],
+    "caption": "Sizes and legs from the University of Kentucky's millipede and sowbug fact sheets and Penn State Extension; behavior from UC IPM. Each source is linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a millipede look like?" },
+    { "type": "p", "text": "A millipede is a slow, wormlike animal with a rounded, many-segmented body and two pairs of short legs on most segments. [Penn State Extension's millipede fact sheet](https://extension.psu.edu/millipedes) notes that the first three segments carry one pair each, and says most millipedes people come across are dark brown, about an inch long and about 1/16 inch thick, with a hard outer skin." },
+    { "type": "figure", "src": "/guides/photos/greenhouse-millipede.webp", "width": 1200, "height": 800, "alt": "Two reddish-brown greenhouse millipedes side by side on a pale, lichen-flecked surface, each with a long segmented body and rows of short pale legs", "caption": "Two greenhouse millipedes outdoors in a park in Columbus, Ohio. Look for the short legs, two pairs on most body segments.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/29949787" },
+    { "type": "p", "text": "The [University of Kentucky's ENTFACT-645](https://entomology.mgcafe.uky.edu/ef645) says most species have between 30 and 300 legs, set in two pairs on each body segment, and that the species that enter homes are around 1 inch long. It adds the millipede's short, elbowed antennae as a second clue. The greenhouse millipede (*Oxidus gracilis*), which [NC State Extension's garden millipede fact sheet](https://content.ces.ncsu.edu/garden-millipede) says is also called the garden or flat-backed millipede, is about an inch long; [UC IPM](https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/) names it as one of three species commonly seen in California." },
+    { "type": "p", "text": "The name means a thousand feet, but the millipedes in your basement come nowhere close. [South Dakota State University Extension](https://extension.sdstate.edu/millipedes-yards-and-homes) counts 160 legs on the common millipede. The first species known to have more than 1,000, *Eumillipes persephone*, was described in 2021 from about 200 feet underground in Western Australia and has up to 1,306 legs; before it, no millipede had been described with more than 750, according to [the paper in Scientific Reports](https://www.nature.com/articles/s41598-021-02447-0)." },
+    { "type": "figure", "src": "/guides/photos/american-giant-millipede.webp", "width": 1200, "height": 800, "alt": "Large dark gray millipede with thin red rings between its segments, coiled into a tight spiral in loose brown soil", "caption": "An American giant millipede coiled in loose soil in Chapel Hill, North Carolina. This large outdoor species is not one of the small kinds that usually wander indoors.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/147211639" },
+    { "type": "p", "text": "Size separates the usual invaders from their big outdoor relatives: Kentucky says the giant American millipede can grow up to 4 inches long, while the species that come inside are around an inch. Kentucky also notes that millipedes often curl up tightly when threatened, and Penn State says most curl into a spiral when they die." },
+
+    { "type": "h2", "text": "Why are there so many millipedes in my house?" },
+    { "type": "p", "text": "Because something outdoors set a whole population moving, and your house was in the way. UC IPM says large numbers of millipedes sometimes migrate, often uphill, when their food supply dwindles or their living places become too wet or too dry, and that migrating millipedes may fall into swimming pools and drown. They are not breeding inside: South Dakota State University (SDSU) says millipedes found indoors are accidental entrants that cannot reproduce there and eventually die." },
+    { "type": "ul", "items": [
+      "**After heavy rain or cooler weather.** Penn State says migrations into window wells, basements and garages are often associated with cooler weather or heavy rains, and NC State says garden millipedes emerge onto walks, patios and driveways the next time it rains, then crawl into homes.",
+      "**In hot, dry spells.** NC State adds that hot, dry weather can also drive millipedes into buildings, and UC IPM says migrations also start when their living places become too dry.",
+      "**In spring and fall.** SDSU says millipedes migrate in spring and fall in search of new feeding sites and are typically seen moving into homes in late summer and early fall, and [Clemson Extension's millipede fact sheet](https://hgic.clemson.edu/factsheet/millipedes/) says garden millipedes sometimes migrate in huge numbers, especially after heavy spring rains.",
+      "**Up walls and through small gaps.** Clemson says garden millipedes climb walls easily and may enter through any small opening, and Penn State describes millipedes climbing trees, fences and buildings to a height of about 6 feet."
+    ] },
+    { "type": "p", "text": "Even entomologists hedge on the cause: Kentucky says gatherings on sidewalks, foundations, basements and garages can coincide with heavy rain but that it is unclear exactly what causes these migrations. SDSU adds that millipedes can travel as far as 50 feet or more and names long-term mulch piles, wooded areas and unmanaged grassy areas as possible sources of a migration. Millipedes are one of several outdoor animals that turn up indoors as the seasons change; [bugs in the house in winter](/blog/bugs-in-house-in-winter) sorts the rest." },
+
+    { "type": "h2", "text": "Are millipedes poisonous or dangerous?" },
+    { "type": "p", "text": "They do not bite or sting, but some can irritate skin and eyes. UC IPM says millipedes don't bite when disturbed, but some species exude a defensive liquid that can irritate skin or burn the eyes. Kentucky says many species give off unpleasant-smelling fluids that can cause skin reactions similar to a burn, and that although some millipedes can produce hydrogen cyanide, it is not in quantities high enough to harm humans." },
+    { "type": "p", "text": "The greenhouse millipede is one of the cyanide producers: NC State says it gives off cyanide gas when alarmed and advises care when handling large numbers. Clemson adds that crushed millipedes can leave stains, that the fluids of many species are irritating and can cause allergic reactions, and that you should wash your hands thoroughly after touching one. Penn State's advice for the ones indoors is simply to vacuum them up or sweep them into a dustpan." },
+    { "type": "p", "text": "Clemson says millipedes do not bite people or pets. None of the sources on this page describes what happens when a dog or cat chews or swallows one, so if your pet mouths a millipede and seems unwell, call your veterinarian." },
+
+    { "type": "h2", "text": "Centipede vs millipede: how can you tell them apart?" },
+    { "type": "p", "text": "Look at a single body segment: a centipede has one pair of legs on it, a millipede two. UC IPM's comparison adds that centipedes move rapidly, have last legs that extend backward and may bite, while millipedes do none of these, and Kentucky adds the antennae and body shape: long and thin antennae on a flattened centipede, short and elbowed ones on a rounded millipede." },
+    { "type": "table", "head": ["Feature", "Millipede", "Centipede"], "rows": [
+      ["Legs per body segment", "Two pairs on most", "One pair"],
+      ["Speed", "Slow", "Fast"],
+      ["Antennae", "Short and elbowed", "Long and thin"],
+      ["Body", "Rounded in most species", "Flattened"],
+      ["Last pair of legs", "Not extended backward", "Extends backward"],
+      ["Food", "Decaying plant matter", "Small animals it hunts"],
+      ["Bites?", "No", "Can bite"],
+      ["Survives indoors?", "No; dies soon after getting in", "Only the house centipede"]
+    ], "caption": "From UC IPM's centipede and millipede comparison table and the University of Kentucky's ENTFACT-645." },
+    { "type": "figure", "src": "/guides/photos/house-centipede-on-wall.webp", "width": 1200, "height": 850, "alt": "House centipede on a cracked, cream-colored painted wall, with long banded legs fanning out along both sides of its striped body and long antennae", "caption": "A house centipede on a wall in Sandusky, Ohio. One pair of long, banded legs on each body segment marks a centipede, not a millipede.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/331736980" },
+    { "type": "p", "text": "The centipede you are most likely to see indoors is the house centipede, which Kentucky calls the only centipede species that can survive inside buildings. [Penn State Extension's house centipede page](https://extension.psu.edu/house-centipedes) gives its body as 1 to 1 1/2 inches long, with 15 pairs of legs banded light and dark, and says that although it is fast and long-legged, it is harmless. Its bite, its diet and how to keep it out are covered in [the guide to house centipedes](/blog/house-centipedes)." },
+
+    { "type": "h2", "text": "Could it be a pill bug, a sowbug or a wireworm?" },
+    { "type": "p", "text": "It could be, if you count seven pairs of legs or only three. Pill bugs and sowbugs are land-dwelling crustaceans that the [University of Kentucky's sowbug and pillbug fact sheet](https://entomology.mgcafe.uky.edu/ef439) describes as oval, rounded on top, rarely more than 3/4 inch long and carrying seven pairs of legs. A pill bug can roll into a ball; a sowbug cannot, and it has two tail-like appendages. Like millipedes, they move into crawl spaces and basements in search of water, they are harmless, and without high moisture Kentucky says they find it almost impossible to survive indoors. [A guide to pill bugs](/blog/pill-bugs) covers them in detail." },
+    { "type": "p", "text": "Wireworms, the larvae of click beetles, are the other look-alike UC IPM names: they have only three pairs of legs, stay below the soil surface and are flatter from top to bottom. Millipedes also share damp basements and bathrooms with insects that need a different fix, such as silverfish and earwigs; see [how to get rid of silverfish](/blog/how-to-get-rid-of-silverfish) and [how to get rid of earwigs](/blog/how-to-get-rid-of-earwigs)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/house-centipedes", "name": "House centipede", "photo": "house-centipede", "note": "One pair of long, banded legs per segment; runs fast and can bite", "alt": "House centipede seen from above on a blue textured surface" },
+      { "href": "/blog/pill-bugs", "name": "Pill bug", "photo": "pill-bug", "note": "Seven pairs of legs under an oval shell; rolls into a ball instead of a coil", "alt": "Mottled brown pill bug on small gravel, seen from the side" }
+    ] },
+
+    { "type": "h2", "text": "Do millipedes damage anything in the house?" },
+    { "type": "p", "text": "No. SDSU says millipedes neither bite nor sting and do not feed on structures, plants or items in the home, and UC IPM says they do not cause damage indoors and pose a minimal health hazard. Outdoors they are mostly helpful: UC IPM says they live in and feed on rotting leaves, rotting wood and other moist, decaying plant matter, and that their role is generally a beneficial one in breaking it down." },
+    { "type": "p", "text": "Large numbers can still be a garden pest and a mess. UC IPM says that when millipedes become numerous they may damage sprouting seeds, seedlings, and strawberries and other ripening fruit in contact with the ground. NC State says garden millipedes feed on roots to get moisture when the soil dries out, and that their droppings disfigure painted surfaces." },
+
+    { "type": "h2", "text": "How do you get rid of millipedes in the house?" },
+    { "type": "p", "text": "Sweep up or vacuum the ones inside, then dry out and clear the ground along the foundation; UC IPM says invasions are usually over within a few days. Penn State says treatment inside the home is not necessary, because millipedes do not live more than a few days indoors." },
+    { "type": "ul", "items": [
+      "**Remove the ones you see.** Vacuum them or sweep them into a dustpan, as Penn State and NC State suggest, or pick them up and release them outdoors, as UC IPM allows.",
+      "**Dry out damp spaces.** UC IPM advises drying out crawl spaces and basements that hold excess moisture. The [EPA's guide to mold and moisture](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) suggests keeping indoor relative humidity below 60 percent, ideally 30 to 50 percent. See [how to size a dehumidifier for a damp basement](/blog/what-size-dehumidifier-do-i-need-canada) and [a vapor barrier or a dehumidifier for a damp crawl space](/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada).",
+      "**Clear the strip next to the house.** Kentucky recommends removing or reducing mulch, woodpiles and paving stones close to the home, and UC IPM adds rotting wood and decaying grass and leaves around the foundation, which takes away both hiding places and food.",
+      "**Fix the water sources.** Kentucky says to check for leaks in crawl spaces and at air conditioners, hose bibs and sprinklers, and to make sure gutters and downspouts carry water away from the house.",
+      "**Change the mulch and the lawn routine.** NC State suggests inorganic mulches such as gravel for better drainage, and Penn State recommends removing plastic weed barriers beneath gravel or mulch. Clemson suggests dethatching, mowing closely and watering in the morning so the lawn dries before night.",
+      "**Seal the way in.** Kentucky names door thresholds and windowsills as possible entry points and suggests caulking gaps and fitting door sweeps or weather stripping."
+    ] },
+    { "type": "media", "needed": "Photo of millipedes indoors where people find them, such as several curled on a basement floor or along a garage door threshold after heavy rain, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "Do you need an insecticide for millipedes?" },
+    { "type": "p", "text": "Rarely. UC IPM says using pesticides is rarely justified for millipedes, Kentucky says applying pesticides inside the home is rarely necessary, SDSU does not recommend spraying insecticides to reduce their numbers and says perimeter sprays have limited effectiveness, and NC State sees no use in trying pesticides on millipedes once they are indoors. Clemson adds that pesticides give only temporary control unless the cleanup and drying steps are done too." },
+    { "type": "p", "text": "Where heavy migrations keep coming, Kentucky describes residual sprays on exterior door thresholds, window jambs and sills, and insecticidal dusts in utility openings and foundation cracks. Clemson describes boric acid powder in cracks, crevices and indoor voids where millipedes enter, and notes that many powders do not work well in damp spots. Use only a product whose label lists millipedes and the place you plan to treat: [the EPA explains](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) that pesticide labels are legally enforceable and that using a product in a manner inconsistent with its labeling violates federal law. If numbers stay extremely high, Clemson suggests a licensed pest control operator." },
+    { "type": "callout", "tone": "tip", "title": "Not sure what you found?", "text": "Put one in a sealed jar, photograph it beside a ruler marked in inches and count the legs on one body segment. Note where and when you found it; your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are millipedes poisonous?",
+      "answer": "Not the way a venomous animal is: millipedes do not bite or sting. Some species defend themselves with a fluid that UC IPM says can irritate skin or burn the eyes, and the University of Kentucky says some produce hydrogen cyanide, though not in amounts that harm people. The common greenhouse millipede is one of the cyanide producers, so NC State advises care when handling large numbers. Wash your hands after touching one, as Clemson advises."
+    },
+    {
+      "question": "Do millipedes bite?",
+      "answer": "No. UC IPM says millipedes do not bite when disturbed, South Dakota State University says they neither bite nor sting, and Clemson says they do not bite people or pets. Instead they curl up, and some species release a defensive fluid that can irritate skin or cause allergic reactions, so sweep them into a dustpan or vacuum them rather than picking them up with bare hands."
+    },
+    {
+      "question": "Are millipedes poisonous to dogs and cats?",
+      "answer": "Clemson says millipedes do not bite people or pets, but none of the extension sources used here describes what happens when a dog or cat chews or swallows one. In people, the defensive fluid of some species can irritate skin and burn the eyes. Keep pets away from a migration while you sweep it up, and if your pet mouths a millipede and seems unwell, call your veterinarian."
+    },
+    {
+      "question": "Why do I suddenly have millipedes in my house?",
+      "answer": "Usually because the weather set them moving. Penn State links millipede migrations to cooler weather or heavy rain, NC State says garden millipedes crawl into homes after rain and that hot, dry weather can also drive them indoors, and UC IPM says large numbers migrate when their food runs low or their soil gets too wet or too dry. South Dakota State University says they are typically seen moving into homes in late summer and early fall."
+    },
+    {
+      "question": "How long do millipedes live in a house?",
+      "answer": "Usually only a few days. Penn State says millipedes do not live more than a few days indoors, and the University of Kentucky says most die shortly after entering a building because of the lack of moisture. South Dakota State University says they cannot reproduce indoors either, so a house full of millipedes is a migration passing through, not a colony. Sweep them up and fix the damp spots outside."
+    },
+    {
+      "question": "Do millipedes really have 1,000 legs?",
+      "answer": "Almost never. The University of Kentucky says most species have between 30 and 300 legs, and South Dakota State University counts 160 on the common millipede. The first species known to top 1,000 was described in 2021: Eumillipes persephone, a thread-thin millipede found about 200 feet underground in Western Australia, with up to 1,306 legs. The previous record holder, a California species, has 750."
+    },
+    {
+      "question": "Can millipedes climb walls?",
+      "answer": "Yes. Clemson says garden millipedes climb walls easily and may enter through any small opening, and Penn State describes migrating millipedes climbing trees, fences and buildings to a height of about 6 feet. The University of Kentucky's advice includes sealing door thresholds and windowsills, caulking gaps and fitting door sweeps or weather stripping."
+    },
+    {
+      "question": "Do millipedes lay eggs in houses?",
+      "answer": "No. South Dakota State University says millipedes found indoors are accidental entrants that cannot reproduce there and eventually die. UC IPM says adults spend the winter in the soil and lay their eggs in clutches beneath the soil surface, and NC State says garden millipedes lay eggs in the soil in spring. The young add body segments and legs as they grow."
+    },
+    {
+      "question": "What attracts millipedes to a house?",
+      "answer": "Damp, decaying plant matter next to the foundation. The University of Kentucky says millipedes are very sensitive to moisture loss and that the damp conditions kept by mulch and plants close to a home are thought to suit them, and Penn State lists compost and grass clipping piles, leaf mold around shrubs and house foundations as breeding sites. Leaks at hose bibs, air conditioners and sprinklers, and gutters that drain against the house, keep those spots wet."
+    },
+    {
+      "question": "How long do millipedes live?",
+      "answer": "Several years outdoors. UC IPM says millipedes take 2 to 5 years to mature and continue to live for several years after that, spending the winter in the soil as adults. The young grow gradually, adding segments and legs as they mature. The ones that wander into a house have a much shorter life: Penn State says they do not live more than a few days indoors."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Centipedes and Millipedes (UC ANR Publication 7472)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/" },
+    { "title": "ENTFACT-645: Centipedes and Millipedes in and Around the Home", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef645" },
+    { "title": "Millipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/millipedes" },
+    { "title": "Garden Millipede in the Landscape", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/garden-millipede" },
+    { "title": "Millipedes (HGIC 2434)", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/millipedes/" },
+    { "title": "Millipedes in Yards and Homes", "publisher": "South Dakota State University Extension", "url": "https://extension.sdstate.edu/millipedes-yards-and-homes" },
+    { "title": "The first true millipede, 1306 legs long", "publisher": "Scientific Reports (Marek et al., 2021)", "url": "https://www.nature.com/articles/s41598-021-02447-0" },
+    { "title": "ENTFACT-439: Sowbugs and Pillbugs", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef439" },
+    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
+    { "title": "A Brief Guide to Mold, Moisture and Your Home", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" },
+    { "title": "Introduction to Pesticide Labels", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" }
+  ],
+  "disclaimer": "both"
+}

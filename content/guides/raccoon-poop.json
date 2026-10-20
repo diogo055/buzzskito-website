@@ -1,0 +1,184 @@
+{
+  "slug": "raccoon-poop",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "raccoon poop",
+  "alsoTargets": [
+    "what does raccoon poop look like",
+    "raccoon droppings",
+    "raccoon latrine",
+    "raccoon poop vs opossum poop",
+    "raccoon poop in pool",
+    "raccoon poop on deck"
+  ],
+  "metaTitle": "Raccoon Poop: ID Raccoon Latrines (Photos)",
+  "metaDescription": "Raccoon poop is dark, tubular and 2 to 3 inches long, piled in one spot. Real latrine photos, raccoon vs opossum and coyote, and CDC's cleanup steps.",
+  "h1": "Raccoon Poop: What Raccoon Droppings and Latrines Look Like",
+  "dek": "Raccoon droppings are dark tubes 2 to 3 inches long, often full of seeds, piled in the same spot again and again. Real photos of latrines on decks and roofs, how to tell them from opossum and coyote scat, and CDC's cleanup steps.",
+  "breadcrumb": "Raccoon Poop",
+  "excerpt": "What raccoon poop and raccoon latrines look like, with real photos, how to tell them from opossum, dog and coyote droppings, and how CDC says to clean them up.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Raccoon poop looks like a small dog's: dark, tubular and blunt-ended, often full of seeds or bits of fruit, and piled in the same spot again and again; that spot is called a latrine.** The [California Department of Public Health](https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/RaccoonRoundwormRaccoonLatrineBrochure.pdf) makes the dog comparison and says not to touch raccoon droppings.",
+    "bullets": [
+      "The [Internet Center for Wildlife Damage Management's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/) gives raccoon droppings as 2 to 3 inches long and 1/2 inch wide.",
+      "Fresh droppings are tubular with blunt ends and about the diameter of a dime or nickel, says [a raccoon latrine flyer from Santa Barbara County Animal Services](https://www.dshs.texas.gov/sites/default/files/IDCU/health/zoonosis/outdoor/raccoonLatrine.pdf); old ones can look like dried leaves or debris.",
+      "[CDC](https://www.cdc.gov/baylisascaris/prevention/index.html) describes the odor as pungent, usually worse than dog or cat feces, and lists decks, rooftops, woodpiles, fallen logs and attics among the places raccoon feces turn up.",
+      "A latrine often holds old, dry droppings mixed with fresh, wet ones, because raccoons use the same spot over and over, CDPH says.",
+      "Raccoon roundworm eggs in new droppings take at least 2 to 4 weeks to become infective, [CDC's latrine fact sheet](https://www.cdc.gov/parasites/baylisascaris/resources/raccoonlatrines.pdf) says, so prompt cleanup lowers the risk."
+    ]
+  },
+  "facts": {
+    "title": "Raccoon poop or something else? Quick ID",
+    "head": ["Animal", "Size", "What the droppings look like", "Where, and the tell"],
+    "rows": [
+      ["Raccoon", "2 to 3 inches long, 1/2 inch wide; fresh ones about the diameter of a dime or nickel", "Dark tubes with blunt ends; seeds, corn or fruit may show", "Piled in one reused spot: decks, roofs, logs, woodpiles, tree bases, attics"],
+      ["Opossum", "Cat-sized, like a raccoon's", "Full of the remains of a varied diet", "Raccoons go in the same place again and again; that habit is the tell"],
+      ["Small dog", "Similar to a raccoon's", "Raccoon droppings usually smell worse and often hold seeds", "Raccoon latrines sit on raised spots such as decks, roofs and logs"],
+      ["Coyote", "Several inches long", "Tubular, often full of animal hair, especially in winter", "Left at trail crossings and along trails to mark territory"],
+      ["Rat", "1/2 inch (roof rat) to 1 inch (Norway rat)", "Cylindrical, typically black", "A fraction of a raccoon dropping's length"],
+      ["Bat", "1/8 to 1/4 inch", "Black, speckled with bits of insect shell", "Under eaves and shutters, on attic and porch floors"]
+    ],
+    "caption": "Sizes and descriptions from ICWDM, Santa Barbara County Animal Services, CDC, CDPH, Nebraska Extension and Cornell IPM, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does raccoon poop look like?" },
+    { "type": "p", "text": "Raccoon poop is a dark tube with blunt ends, about 2 to 3 inches long and 1/2 inch wide by [the droppings key of the Internet Center for Wildlife Damage Management (ICWDM)](https://icwdm.org/identification/inspection/brown-or-black-droppings/), which notes that recently eaten food such as corn kernels or fruit may show in it. The California Department of Public Health (CDPH) says in its [raccoon roundworm brochure](https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/RaccoonRoundwormRaccoonLatrineBrochure.pdf) that raccoon droppings look like small dog droppings: dark, bad-smelling and often full of undigested seeds or other food." },
+    { "type": "figure", "src": "/guides/photos/raccoon-scat-branch.webp", "width": 1200, "height": 1200, "alt": "One long, dark brown, segmented dropping with blunt ends draped over a fallen branch above leaf litter in a wood", "caption": "A raccoon dropping draped over a fallen branch in woodland in Montville, New Jersey, identified on iNaturalist by the observer and by the tracker Kim Cabrera. Note the tubular shape, the segments and the blunt ends.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/254031120" },
+    { "type": "p", "text": "Color and contents change with the menu. Fresh raccoon droppings are generally dark, but that depends on what the animal ate, and seeds or shells may be visible, says the [Santa Barbara County Animal Services latrine flyer](https://www.dshs.texas.gov/sites/default/files/IDCU/health/zoonosis/outdoor/raccoonLatrine.pdf), which puts fresh droppings at about the diameter of a dime or nickel. As droppings age they weather and break down, and old ones may look like dried leaves or debris. [CDC's raccoon roundworm prevention page](https://www.cdc.gov/baylisascaris/prevention/index.html) describes the odor as pungent, usually worse than that of dog or cat feces." },
+
+    { "type": "h2", "text": "What is a raccoon latrine?" },
+    { "type": "p", "text": "A raccoon latrine is a spot raccoons use as a toilet again and again, so droppings of different ages pile up there. [CDC's fact sheet on raccoon latrines](https://www.cdc.gov/parasites/baylisascaris/resources/raccoonlatrines.pdf) calls them communal sites. The Santa Barbara County flyer describes raccoons leaving fresh droppings on top of old ones in one area, and CDPH says that because latrines are used repeatedly, older, dry droppings are often mixed with fresh, wet ones." },
+    { "type": "figure", "src": "/guides/photos/raccoon-latrine-deck.webp", "width": 1200, "height": 976, "alt": "Spread of dark droppings of different ages on a weathered backyard deck in front of a wooden fence, some broken down and pale", "caption": "A raccoon latrine on a backyard deck in Richmond, California, identified on iNaturalist. The observer says raccoons had used the deck as a latrine for over a year and that this pile is a few months' worth. Some droppings are dark, others broken down and pale.", "license": "CC-BY-4.0", "credit": "(c) Barbara Banfield, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/36140627" },
+    { "type": "p", "text": "That mix of ages is the strongest clue you have. A single dropping on the lawn is hard to place, but a growing pile in one raised spot, fresh droppings on top of old, weathered ones, points to a raccoon. [Nebraska Extension's guide to raccoon and opossum damage](https://extensionpubs.unl.edu/publication/g1688/na/html/view) says raccoon droppings are easy to identify for exactly that reason: raccoons go in the same place." },
+    { "type": "figure", "src": "/guides/photos/raccoon-latrine-log.webp", "width": 1200, "height": 690, "alt": "Low, close view of a heap of dark tubular droppings, some furred white with mold, piled on a mossy felled tree", "caption": "Piles of droppings, old and newer in the observer's words, on a felled tree in a swampy area of Middletown, Connecticut, identified on iNaturalist as raccoon. Fallen logs are one of the raised spots CDC lists for latrines.", "license": "CC-BY-4.0", "credit": "(c) cappycollins, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/328536463" },
+
+    { "type": "h2", "text": "Where do raccoons poop?" },
+    { "type": "p", "text": "Raccoons favor flat spots raised off the ground, the Santa Barbara County flyer says, and once they choose one they keep using it. CDC lists the base of trees, raised forks in trees, fallen logs, stumps and large rocks, and adds woodpiles, decks, rooftops, attics, garages and haylofts. CDPH adds porches and fireplaces, and the county flyer adds fence lines and, now and then, open areas. Around a house, that usually means:" },
+    { "type": "ul", "items": [
+      "**Decks and porches.** Both are on CDPH's list, and CDPH suggests skirting around decks and porches to keep raccoons from settling underneath; [the guide to raccoon-proofing under a deck](/blog/raccoon-and-skunk-proofing-under-a-deck-canada) covers that job.",
+      "**Roofs and sheds.** Rooftops are on CDC's list. CDPH suggests cutting back branches that overhang the roof, since they give raccoons a way up.",
+      "**Attics, chimneys and garages.** CDC lists attics and garages, and CDPH lists fireplaces. A latrine indoors means raccoons are getting in, and [the guide to noises in the attic at night](/blog/animals-in-attic) helps confirm which animal is up there.",
+      "**Sandboxes.** CDC says raccoons sometimes use a sandbox as a latrine and advises keeping sandboxes covered when they are not in use.",
+      "**Pools.** CDC says raccoons usually go in a pool's shallow areas, such as the steps; what to do then is covered below."
+    ] },
+    { "type": "figure", "src": "/guides/photos/raccoon-latrine-shed-roof.webp", "width": 1200, "height": 1199, "alt": "Heap of dark droppings, some full of reddish fruit skins and seeds, on the roof of a backyard shed beside a house", "caption": "A pile of droppings on top of a backyard shed in California that the homeowner identified as raccoon scat; no second identification is on record. Rooftops are on CDC's list of places raccoon feces turn up.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/307866385" },
+    { "type": "media", "needed": "Photo of a raccoon latrine inside an attic, droppings piled on insulation or a joist beside a ruler marked in inches, from a public domain or CC0 source with an expert identification, such as CDC PHIL or a state wildlife agency" },
+
+    { "type": "h2", "text": "How do you tell raccoon poop from opossum, dog or coyote poop?" },
+    { "type": "p", "text": "Where it lies and how it is piled tell you more than size. Nebraska Extension describes raccoon and opossum droppings alike, as generally cat-sized and filled with the remains of a varied diet, so a lone dropping from either can fool you; what marks the raccoon is its habit of going in the same place. [The possum poop guide](/blog/possum-poop) covers opossum droppings in detail." },
+    { "type": "p", "text": "A small dog's droppings are the other common mix-up, since CDPH says raccoon droppings look like them. Two things separate them: raccoon latrines sit on raised spots such as decks, roofs, logs and woodpiles, and CDC says raccoon feces usually smell worse than dog or cat feces." },
+    { "type": "p", "text": "Coyote scat is often longer and hairier. ICWDM's key describes it as several inches long, often full of animal hair, especially in winter, and left at crossroads and along trails where coyotes mark their territory." },
+    { "type": "figure", "src": "/guides/photos/coyote-scat-ruler.webp", "width": 1200, "height": 1200, "alt": "Brown, twisted coyote scat with hair and a few seeds on dry grass and soil beside a green ruler", "caption": "Coyote scat on a trail in a California open space preserve, its species confirmed by DNA in the UC Santa Cruz Conservation Scats Project, which recorded it as 3.5 inches long. Note the twisted shape and the hair.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/12313482" },
+    { "type": "p", "text": "Much smaller droppings come from smaller animals. [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) gives rat droppings as about 1/2 inch long for a roof rat and 3/4 to 1 inch for a Norway rat, and mouse droppings as 1/8 to 1/4 inch. [Nebraska Extension's bat guide](https://extensionpubs.unl.edu/publication/g1667/2012/html/view) puts bat droppings at 1/8 to 1/4 inch, black and speckled with fragments of insect shell. The [rat droppings guide](/blog/rat-droppings), [mouse poop guide](/blog/mouse-poop), [squirrel poop guide](/blog/squirrel-poop) and [bat poop guide](/blog/bat-poop) cover each one, and [the animal poop identification chart](/blog/animal-droppings) sets them side by side." },
+    { "type": "media", "needed": "Raccoon and Virginia opossum droppings photographed side by side beside one ruler marked in inches, each identified by a wildlife agency or an experienced tracker, so the two can be compared at the same scale" },
+    { "type": "confused", "items": [
+      { "href": "/blog/possum-poop", "name": "Opossum", "photo": "virginia-opossum", "note": "Cat-sized droppings much like a raccoon's; a reused latrine points to the raccoon", "alt": "Virginia opossum with a white face and gray fur walking through dry grass" },
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "Only 1/2 to 1 inch long, a fraction of a raccoon dropping's length", "alt": "Several dark, thick droppings on moss beside a thumb for size" },
+      { "href": "/blog/bat-poop", "name": "Bat droppings", "photo": "bat-droppings-siding", "note": "1/8 to 1/4 inch and speckled with insect bits, under a roost or a gap in siding", "alt": "Small dark droppings stuck to brown wooden siding beside a gap between boards" }
+    ] },
+
+    { "type": "h2", "text": "Is raccoon poop dangerous?" },
+    { "type": "p", "text": "It can be, because raccoon droppings can carry the eggs of raccoon roundworm, *Baylisascaris procyonis*. CDC's latrine fact sheet says raccoons are the parasite's primary host, its eggs pass in the feces of infected raccoons, and people become infected by swallowing them. [CDC's overview of raccoon roundworm](https://www.cdc.gov/baylisascaris/about/index.html) calls human infections rare but says they can be severe when the parasite invades the eyes, organs or brain." },
+    { "type": "ul", "items": [
+      "**Children are most at risk.** CDC says most infections are in children and others more likely to put dirt or animal waste in their mouths by mistake, and CDPH says most have been in small children between 9 months and 6 years old.",
+      "**Fresh droppings are not infectious yet.** Eggs in newly deposited droppings take at least 2 to 4 weeks to become infective, CDC says, so prompt removal lowers the risk.",
+      "**The eggs are invisible and tough.** CDPH says they cannot be seen with the naked eye, and the Santa Barbara County flyer says they can survive in soil for several years. A study in CDC's journal, [Emerging Infectious Diseases](https://wwwnc.cdc.gov/eid/article/17/7/10-1774_article), found the eggs survived complete drying for at least 6 months at room temperature and concluded that areas with dried raccoon feces cannot be considered safe.",
+      "**Pets can carry the worms.** CDC says dogs may be infected with adult raccoon roundworms without showing symptoms and advises having all pets dewormed under a veterinarian's supervision; CDPH says pets, livestock and wildlife can be infected too."
+    ] },
+    { "type": "p", "text": "Raccoon droppings are not considered a rabies exposure. [CDC](https://www.cdc.gov/rabies/about/index.html) lists raccoons among the animals most often found with rabies in the United States, but says rabies spreads primarily through bites or scratches, and its [2008 rabies prevention recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm) count contact with an animal's blood, urine or feces as indirect contact that is not an exposure." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical help", "text": "If you suspect someone may have swallowed raccoon feces, CDC says to seek medical attention immediately and discuss your concerns with a healthcare provider; it gives the time from exposure to symptoms as usually 1 to 4 weeks. After a raccoon bite or scratch, wash it right away with soap and water and seek medical care urgently, as CDC advises for a possible rabies exposure." },
+
+    { "type": "h2", "text": "How do you clean up raccoon poop safely?" },
+    { "type": "p", "text": "Remove it soon, keep the dust down, and use heat, not bleach. CDPH says bleach and other household disinfectants will not kill roundworm eggs, and warns against using a leaf blower on a latrine; CDC says heat kills the eggs instantly. For a latrine you choose to clean yourself, CDC's latrine fact sheet gives these steps:" },
+    { "type": "ol", "items": [
+      "Put on disposable gloves, and rubber boots you can scrub or disposable shoe covers, so you do not carry eggs into the house. In a confined space such as an attic, wear an N95-rated respirator.",
+      "Mist the latrine lightly with water from a spray bottle so you do not stir up dust and debris.",
+      "Lift the droppings and anything soiled by them with a shovel or an inverted plastic bag, then burn them, bury them, or bag them for the trash so they go to a landfill.",
+      "Outdoors, treat soiled decks, patios and other surfaces with boiling water or a propane torch. Call your local fire department about rules and safety first, and never flame a surface that can melt or catch fire; CDC says concrete pads, bricks and metal tools can be flamed without damage.",
+      "Indoors, never use a torch. Wipe the area with a damp, not wet, sponge and hot, soapy water, rinsing the sponge often in a bucket; flush the dirty water down the toilet, disinfect the bucket with boiling water and bag the sponge for the trash.",
+      "Wash your hands well with soap and warm running water, and launder your clothes thoroughly in hot water and detergent."
+    ] },
+    { "type": "p", "text": "If the latrine is on bare soil, CDPH adds, remove 2 to 4 inches of soil from under the droppings along with them, then flame the surface soil with the torch, turn it over with a shovel and flame it again several times. Keep children and pets away from the area until the cleanup is finished, the Santa Barbara County flyer says. If you would rather not clean a latrine yourself, or need help with one, CDC suggests contacting your local animal control office." },
+
+    { "type": "h2", "text": "What should you do about raccoon poop in a pool?" },
+    { "type": "p", "text": "Close the pool to swimmers right away: chlorine kills most germs a raccoon could carry, but not raccoon roundworm eggs, says [CDC's guidance on raccoons in and around pools](https://www.cdc.gov/healthy-swimming/response/responding-to-raccoons-in-and-near-the-pool.html). CDC adds that it is not aware of any human infection linked to a swimming pool, and that raccoons usually go in a pool's shallow areas, such as the steps. Extra chlorine is no shortcut: the egg study in CDC's journal concluded that hyperchlorinating pool water is unlikely to work. Then:" },
+    { "type": "ol", "items": [
+      "Contact local animal control, and follow its removal advice if it gives any.",
+      "Otherwise, put on disposable gloves and lift the poop out with a net or other tool.",
+      "Put the poop and the tool into double-bagged plastic garbage bags, add the gloves, close the bags and put them in a sealed trash can.",
+      "Wash your hands right away with soap and water.",
+      "Filter the pool for at least 24 hours, backwash the filter and replace the filter material if you can, bagging it the same way; or backwash, drain and hose down the pool, replace the filter material and refill it."
+    ] },
+    { "type": "p", "text": "Afterward, CDC suggests covering the part of the pool area raccoons visited, keeping the pool fence closed, and not leaving out food such as pet food or uncovered trash." },
+
+    { "type": "h2", "text": "What should you do once you know it's a raccoon?" },
+    { "type": "p", "text": "Clean the latrine the CDC way, then make the place less inviting so the raccoons do not start a new one nearby. Cleaning up helps deter raccoons, the Santa Barbara County flyer says, but removing what draws them, such as pet food, open garbage cans and shelter under decks, and blocking their way in are what keep them from coming back. CDC's list adds tightly closed trash containers, closed-off attics and basements, covered sandboxes, no bird feeders, fish ponds or other water sources, and cleared brush where raccoons might den." },
+    { "type": "ul", "items": [
+      "**Keep them out of the yard.** [The raccoon deterrent guide](/blog/raccoon-deterrent) compares what works for keeping raccoons away.",
+      "**Close the roof and chimney.** CDPH suggests covering building vents with heavy metal screening and installing animal-proof chimney caps; [the guide to raccoon-proof chimney caps](/blog/raccoon-proof-chimney-cap-canada) explains how one is fitted.",
+      "**Check the lawn too.** If something is also digging up the grass, [the guide to holes in the yard](/blog/holes-in-yard) sorts the diggers by the holes they leave.",
+      "**Never feed them.** CDC and CDPH both say raccoons should not be fed or kept as pets, and CDPH says to report raccoon problems in your neighborhood to your local animal control agency."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Photograph it, don't touch it", "text": "Photograph a few droppings beside a ruler marked in inches without touching them, and note where they lie and whether the pile grows from week to week. Your state's cooperative extension office or local animal control can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "How do you identify raccoon droppings?",
+      "answer": "Check three things. Size and shape: ICWDM gives raccoon droppings as 2 to 3 inches long and 1/2 inch wide, and they are tubular with blunt ends. Contents: they are dark and often hold undigested seeds, corn or bits of fruit. Place: raccoons go in the same spot again and again, so a latrine holds old, dry droppings mixed with fresh ones, usually on a raised spot such as a deck, roof, log, woodpile or the base of a tree. Check by eye, not by hand."
+    },
+    {
+      "question": "What should I do if I find raccoon poop in my yard?",
+      "answer": "Keep children and pets away and do not touch it. Clean it up soon, because CDC says roundworm eggs in fresh droppings take at least 2 to 4 weeks to become infective. Wear disposable gloves and boots you can scrub, mist the pile lightly with water, lift it into a bag for the trash, and treat hard surfaces with boiling water. Then remove what drew the raccoon, such as pet food or open trash, and cover any sandbox."
+    },
+    {
+      "question": "Is it safe to clean up raccoon poop?",
+      "answer": "It can be done with care, and CDC gives steps for people who choose to clean a latrine themselves: disposable gloves, scrubbable boots or shoe covers, an N95-rated respirator in a confined space, a light mist of water to keep dust down, and heat rather than bleach, which does not kill the eggs. Wash your hands and launder your clothes afterward. If you would rather not handle it yourself, or need help, CDC suggests contacting your local animal control office."
+    },
+    {
+      "question": "What does possum and raccoon scat look like?",
+      "answer": "Much alike. Nebraska Extension describes both as generally cat-sized and full of the remains of a varied diet. Raccoon droppings are dark, tubular and blunt-ended, often with seeds, and ICWDM puts them at 2 to 3 inches long. The difference is the habit: raccoons go in the same place again and again, building a latrine, and Nebraska Extension says that habit is what makes raccoon droppings easy to identify."
+    },
+    {
+      "question": "How long do raccoon roundworm eggs survive?",
+      "answer": "A long time. The Santa Barbara County Animal Services flyer says the eggs can survive in soil for several years once they become infectious, which takes 2 to 4 weeks. A study in CDC's journal Emerging Infectious Diseases found the eggs survived complete drying for at least 6 months at room temperature and concluded that areas with dried raccoon feces cannot be considered safe. Heat kills the eggs instantly, CDC says; most chemicals do not."
+    },
+    {
+      "question": "Can raccoon poop make my dog sick?",
+      "answer": "It can. CDC says dogs may be infected with adult raccoon roundworms without showing symptoms, and CDPH says pets can be infected, develop symptoms similar to those in people and may die. CDC advises having all pets dewormed under a veterinarian's supervision and avoiding contact with their feces. If your dog has eaten raccoon droppings or spends time near a latrine, ask your veterinarian about deworming."
+    },
+    {
+      "question": "Does pool chlorine kill raccoon roundworm eggs?",
+      "answer": "No. CDC says chlorine kills most germs a raccoon could carry but not raccoon roundworm eggs. After lifting the poop out with a net, CDC recommends filtering the pool for at least 24 hours, backwashing and replacing the filter material, or draining and hosing down the pool. A study in CDC's journal concluded that extra chlorine is unlikely to work. CDC says it is not aware of any human infection linked to a pool."
+    },
+    {
+      "question": "Why do raccoons poop on my deck or roof?",
+      "answer": "Raccoons prefer flat spots raised off the ground, and once they pick one they keep using it, the Santa Barbara County Animal Services flyer says. CDC lists decks and rooftops among the places raccoon feces turn up. Overhanging branches give raccoons a way onto a roof, which is why CDPH suggests cutting them back, and the county flyer names pet food, open garbage cans and shelter under decks as attractants to remove."
+    },
+    {
+      "question": "What does raccoon poop smell like?",
+      "answer": "Bad. CDC describes the odor of raccoon feces as pungent, usually worse than that of dog or cat feces, and the California Department of Public Health says raccoon droppings smell bad. Do not get close enough to sniff a latrine: CDC's cleanup steps start with disposable gloves, a light mist of water to keep dust down and, in a confined space such as an attic, an N95-rated respirator."
+    },
+    {
+      "question": "Can you get rabies from raccoon poop?",
+      "answer": "Droppings are not considered a rabies exposure. CDC says rabies spreads primarily through bites or scratches from an infected animal, and its 2008 rabies prevention recommendations treat contact with an animal's blood, urine or feces as indirect contact that is not an exposure. Raccoons are among the animals most often found with rabies in the United States, though, so wash any raccoon bite or scratch with soap and water and seek medical care urgently."
+    }
+  ],
+  "sources": [
+    { "title": "Brown or Black Droppings", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/inspection/brown-or-black-droppings/" },
+    { "title": "Raccoon Latrines: Identification and Clean-up", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/parasites/baylisascaris/resources/raccoonlatrines.pdf" },
+    { "title": "Preventing Raccoon Roundworm", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/baylisascaris/prevention/index.html" },
+    { "title": "About Raccoon Roundworm", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/baylisascaris/about/index.html" },
+    { "title": "Responding to Raccoons in and around the Pool", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-swimming/response/responding-to-raccoons-in-and-near-the-pool.html" },
+    { "title": "What You Need to Know About Raccoon Roundworms: Cleaning Up a Raccoon Latrine (July 2016)", "publisher": "California Department of Public Health", "url": "https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/RaccoonRoundwormRaccoonLatrineBrochure.pdf" },
+    { "title": "How to Clean a Raccoon Latrine", "publisher": "Santa Barbara County Animal Services (copy hosted by the Texas Department of State Health Services)", "url": "https://www.dshs.texas.gov/sites/default/files/IDCU/health/zoonosis/outdoor/raccoonLatrine.pdf" },
+    { "title": "Controlling Raccoon and Opossum Damage (NebGuide G1688)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1688/na/html/view" },
+    { "title": "Viability of Baylisascaris procyonis Eggs (Emerging Infectious Diseases, July 2011)", "publisher": "Centers for Disease Control and Prevention", "url": "https://wwwnc.cdc.gov/eid/article/17/7/10-1774_article" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Bats in and Around Structures (NebGuide G1667, revised 2012)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1667/2012/html/view" },
+    { "title": "About Rabies", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rabies/about/index.html" },
+    { "title": "Human Rabies Prevention, United States, 2008: Recommendations of the Advisory Committee on Immunization Practices", "publisher": "Centers for Disease Control and Prevention, Morbidity and Mortality Weekly Report", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm" }
+  ],
+  "disclaimer": "health"
+}

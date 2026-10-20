@@ -49,7 +49,7 @@ const PHOTOS = [
   ['psorophora-ciliata', 'Gallinipper, Psorophora ciliata', { commons: 'Gallinipper_(Culicidae,_Psorophora_ciliata)_(30015323241).jpg' }],
   ['culex-larvae', 'Culex mosquito larvae in water', { phil: 26020 }],
   // second batch (Oct 15): identification pages and their upgrades
-  ['bed-bug-adult-ruler', 'Bed bug, Cimex lectularius, unfed adult beside a millimetre ruler', { phil: 12704 }],
+  ['bed-bug-adult-ruler', 'Bed bug, Cimex lectularius, adult beside a millimetre ruler (CDC does not say whether it has fed)', { phil: 12704 }],
   ['bed-bug-nymph', 'Bed bug nymph on fabric', { inat: { obs: 325824918, photo: 589997406 } }],
   ['bed-bug-signs', 'Bed bugs, Cimex lectularius, in an infestation, on fabric (the source does not identify cast skins or fecal spots)', { inat: { obs: 9978781, photo: 13712297 } }],
   ['clover-mite', 'Clover mite, Bryobia praetiosa, under a digital microscope', { commons: 'Clover mite (Bryobia praetiosa) viewed with digital microscope.jpg' }],

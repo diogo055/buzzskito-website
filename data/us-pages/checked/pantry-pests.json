@@ -2,7 +2,7 @@
  "id": "pantry-pests",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "429f81a169a19420099df43d78cb0c6d1896f55029d357404ae45371a9b57d0d",
+ "sha": "70ef6c810d0067d4537785a959e5fb605001221e149e38e97a938eaeb880c702",
  "claimsChecked": 290,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 1,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: the clothes moth larvae link now points to the new moths-in-house page, which covers clothes moths and their larvae (the planned clothes-moths page is replaced by it); anchor reworded to match; no fact changed.",
    "previousSha": "ba55d64fc15d785a2d21583ade98f9ab953c07e3ce46e1b4c854d689fa5444fa"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added at the end of 'Which bugs in the kitchen are not pantry pests?' linking the new /blog/tiny-brown-bugs; no fact changed.",
+   "previousSha": "429f81a169a19420099df43d78cb0c6d1896f55029d357404ae45371a9b57d0d"
   }
  ]
 }

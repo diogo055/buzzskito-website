@@ -15,6 +15,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'what-does-mouse-poop-look-like-canada'
 const DATE = '2026-07-30'
@@ -139,7 +140,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Mouse poop: dark 3-6 mm pellets, pointed at both ends, scattered not piled. Rat droppings are 12-19 mm and blunt. Plus the free 48-hour test for fresh vs old.',
   canonical: `/blog/${SLUG}`,
@@ -147,7 +148,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('rodent-droppings-drawer'),
-})
+}), '/blog/what-does-mouse-poop-look-like-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 
@@ -558,6 +559,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
           <p>The identification table near the top of this page covers the rodent and insect cases in detail. Two of them deserve extra emphasis because getting them wrong changes what you are legally and practically allowed to do next.</p>
           <p><strong>Bat guano is the one where a wrong ID has consequences.</strong> It is close to mouse droppings in size and colour, and the difference is what happens when it crumbles: guano breaks into glittering fragments of insect wing and shell, because bats eat insects. It also accumulates in a discrete pile directly beneath a roost, rather than scattering along a route. If that is what you have, stop cleaning and call a licensed wildlife professional. In Ontario, several bat species are protected and the young are flightless in the roost through the summer, so sealing at the wrong time of year is both illegal and worse than the original problem. <strong>In the United States the same caution applies for the same reasons:</strong> several bat species &mdash; among them the Indiana bat, gray bat and northern long-eared bat &mdash; are federally listed under the Endangered Species Act and administered by the US Fish and Wildlife Service, and most states additionally regulate the season during which a roost may legally be excluded. Neither country lets you handle this as a hardware-store afternoon.</p>
           <p><strong>Ordinary debris is the most common answer of all</strong>, and it is worth ruling out before you buy anything. Coffee grounds under a machine, chia or poppy seeds in a pantry, mouse-sized crumbs of dried potting soil near a plant pot, dried mud tracked in by a back door and the little rubber crumb shed by some floor mats have all sent people looking for an infestation they do not have. The discriminator is uniformity: a mouse produces pellets that are consistently the same size and shape, because they come from the same animal. Debris varies.</p>
+          <p>Droppings that match none of these, on a deck, in the yard or in the attic, are compared by size, shape and place in our North American <Link href="/blog/animal-droppings">photo chart of animal droppings</Link>, from raccoon and opossum to rabbit and deer.</p>
 
           <RelatedLinks path="/blog/what-does-mouse-poop-look-like-canada" />
           <h2>What Is the Difference Between Mouse Droppings and Lizard Droppings?</h2>
@@ -676,6 +678,7 @@ export default function WhatDoesMousePoopLookLikeCanadaPage() {
             <li><strong>Cockroach.</strong> Cornell notes that rodent droppings have no lines on them, unlike the droppings of the American cockroach. <a href="https://acis.cals.arizona.edu/docs/default-source/community-ipm-documents/newsletters/azhomeschoolipm-newsltrsep2022-v3.pdf" target="_blank" rel="noopener noreferrer">A University of Arizona pest management newsletter</a> adds that American cockroach pellets are about 1/4 inch long with flat ends, while mouse droppings of about the same length have tapered ends.</li>
             <li><strong>Color.</strong> Cornell says rodent droppings are typically black but differ with the food that was eaten, and that green or red droppings may indicate the rodent fed on a rodenticide bait. Off-color pellets can be a clue that bait is in use somewhere nearby, or can simply reflect what the animal ate. They are not a sign of a different species.</li>
           </ul>
+          <p>Photos of rat droppings, the shapes that tell a Norway rat from a roof rat, and how both differ from mouse and squirrel droppings are in our <Link href="/blog/rat-droppings">rat droppings identification guide</Link>.</p>
           <p>Bat guano carries a separate US health note. <a href="https://www.cdc.gov/histoplasmosis/about/index.html" target="_blank" rel="noopener noreferrer">The CDC</a> says the fungus that causes histoplasmosis lives mainly in the central and eastern states, spreads in bird and bat droppings that mix into soil, and infects people who breathe in its spores, although most people who breathe them in do not get sick. The University of California bat guide adds that infection happens when dry droppings are stirred up, and that people cleaning up bat or bird droppings should wear respirators that filter particles as small as 2 micrometers. Do the crush test on a single pellet with a stick, not bare fingers, and do not sweep a pile to find out what it is.</p>
 
           <h3>The CDC Cleanup Method in US Measures</h3>

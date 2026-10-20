@@ -2,7 +2,7 @@
  "id": "what-do-bed-bugs-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a3366bdcf1ef29db75ff853378588b835a01f995e519c82959cce2a2152484b6",
+ "sha": "fa64bf7e1b15b54dad01bc05fffbd1597e375e1344dd66dc4d96e5d9aeff6751",
  "claimsChecked": 74,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/blog/signs-of-bed-bugs-checklist"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: the fecal-stains link now points to the new US edition, /blog/bed-bug-poop (hreflang pair with the Canadian page); no fact changed.",
+   "previousSha": "a3366bdcf1ef29db75ff853378588b835a01f995e519c82959cce2a2152484b6"
+  }
  ]
 }

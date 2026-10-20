@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-298 images across 120 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+316 images across 130 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -59,6 +59,12 @@
 - Close-up photo of a mattress seam and piping showing dark ink-like fecal spots bled into the fabric, two pale shed skins and a small cluster of white eggs, with a US dime for scale and each sign labeled
 - Scale diagram along a ruler marked in inches and millimeters: one bed bug egg (1 mm), the five nymph stages (1.5 to 4.5 mm), an unfed adult and a fed adult (5 to 7 mm), with an apple seed and a pinhead drawn beside them for comparison
 - Overhead diagram of a bed with numbered arrows showing the inspection order: 1 sheets and pillowcases, 2 mattress seams and tags, 3 box spring, 4 headboard, 5 bed frame joints, 6 nightstand and baseboard
+
+## /blog/bed-bug-poop
+
+- Bed bug fecal spots on a light-colored mattress seam or white sheet beside a ruler marked in inches, public domain or CC0, to serve as the lead and share image of this page
+- Bed bug fecal spots along a painted baseboard or at a ceiling-wall joint in a US home, close enough to see single dots, with a ruler marked in inches for scale
+- The wet-tissue test: a black bed bug fecal spot on a white mattress cover wiped with a damp white tissue, showing the rusty smear, beside a German cockroach speck that stays dark, with a ruler marked in inches
 
 ## /learn/ants
 
@@ -304,6 +310,11 @@
 - Gray squirrel droppings found in a US attic, photographed beside a ruler marked in inches next to Norway rat droppings, so the two can be compared at the same scale
 - Fresh and old rat droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dry, gray and crumbling
 
+## /blog/mouse-poop
+
+- House mouse droppings beside a US dime and a ruler marked in inches, on a kitchen counter or in a drawer, identified by CDC or an extension service; public domain or CC0 so it can lead the page
+- Fresh and old house mouse droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dull, gray and crumbling
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -360,6 +371,11 @@
 - Egg cases of the German, brown-banded, American and Oriental cockroaches side by side on a white background beside a ruler marked in inches, at life size and each identified to species; public domain or CC0
 - Smokybrown cockroach egg case (dark brown to black, about 3/8 inch), identified to species, ideally beside a ruler marked in inches; public domain or CC0
 - Close-up of an empty cockroach egg case split open along the top after hatching, beside a case with the small round exit hole of an ensign wasp, each identified to species, next to a ruler marked in inches; public domain or CC0
+
+## /blog/cockroach-droppings
+
+- German, brown-banded, American and Oriental cockroach droppings photographed side by side with house mouse droppings beside one ruler marked in inches, each identified by an entomologist or extension service; public domain or CC0 so it can lead the page
+- German cockroach fecal specks and smears on a kitchen cabinet hinge or door edge beside a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0
 
 ## /blog/how-to-get-rid-of-cockroaches
 
@@ -493,6 +509,14 @@
 - Brown recluse egg sac (off-white, round, about 1/3 inch) in a retreat along a joist or inside a box, with the spider identified by an arachnologist, ideally beside a ruler marked in inches; public domain or CC0
 - Praying mantid egg case (ootheca) on a house wall, fence post or eave, identified to species (Chinese or Carolina mantid), ideally beside a ruler marked in inches; public domain or CC0
 
+## /blog/flies-in-house
+
+- Photo of several house flies or blow flies on the inside of a kitchen or living-room window, as a homeowner sees them, with a ruler or coin for scale (public domain or CC0, so it could lead the page).
+
+## /blog/how-to-get-rid-of-gnats
+
+- Photo of fungus gnats indoors as a homeowner sees them: adults on the surface of houseplant potting soil or caught on a yellow sticky card, ideally with larvae on the underside of a raw potato slice, with a ruler or coin for scale (public domain or CC0).
+
 ## /blog/what-do-fleas-look-like
 
 - Life-size photo, without magnification, of an adult cat flea on a white sock or white paper beside a ruler marked in inches, showing how small and dark a flea looks to the naked eye
@@ -509,6 +533,11 @@
 - Close-up photo of a young house centipede with fewer than 15 pairs of legs next to an adult, on a white surface beside a ruler marked in inches, so the leg count and the size difference are both visible
 - Side-by-side photos on a white background beside a ruler marked in inches: a house centipede, a giant redheaded centipede (Scolopendra heros) and a soil centipede, showing the differences in leg length, leg count and size
 
+## /blog/how-to-get-rid-of-silverfish
+
+- Photo of a firebrat (Thermobia domestica) beside a ruler marked in inches, ideally near a water heater or furnace where people find it, showing the mottled gray and brown scales
+- Photo of silverfish feeding damage on a book page, book binding or wallpaper, showing scraped patches and irregular holes, beside a ruler marked in inches
+
 ## /blog/how-to-get-rid-of-carpet-beetles
 
 - Top-down photo of an adult black carpet beetle and a full-grown black carpet beetle larva on a white background beside a ruler marked in inches, showing the shiny, carrot-shaped larva and the tuft of long hairs at its tail
@@ -522,12 +551,21 @@
 - Public domain or CC0 photo of a homemade stink bug light trap: a foil roasting pan of soapy water under a desk lamp in a darkened room, with drowned stink bugs in the water
 - Photo of brown marmorated stink bugs clustered on the sunny siding of a house in fall beside a window frame, showing where they gather before working into gaps
 
+## /blog/millipedes
+
+- Photo of millipedes indoors where people find them, such as several curled on a basement floor or along a garage door threshold after heavy rain, beside a ruler marked in inches
+
 ## /blog/asian-lady-beetles
 
 - Top-down photo of a native convergent lady beetle beside a ruler marked in inches, sharp enough to show the black plate behind the head with its two short white lines angled toward each other, for side-by-side comparison with the Asian lady beetle
 - Close-up, top-down photo of an adult Asian lady beetle's head and the white plate behind it, showing a clear black M or W, with a ruler marked in inches in the frame
 - Photo of an Asian lady beetle larva and a pupa on a leaf beside a ruler marked in inches, showing the larva's dark body with orange markings and branched spines and the orange pupa with its black spots
 - Top-down photo of a seven-spotted lady beetle beside a ruler marked in inches, showing the white spot on either side of the head and the 7 black spots on its wing covers
+
+## /blog/how-to-get-rid-of-earwigs
+
+- Photo of earwig feeding damage on a garden plant, such as small ragged holes in a dahlia flower or lettuce leaf, ideally with an earwig on the plant at night, beside a ruler marked in inches
+- Photo of a rolled newspaper or corrugated cardboard earwig trap opened in the morning in a garden bed, showing the earwigs inside, beside a ruler marked in inches
 
 ## /blog/pantry-pests
 
@@ -606,6 +644,16 @@
 
 - Virginia opossum droppings beside a ruler marked in inches, identified by a wildlife agency or an experienced tracker, ideally next to raccoon droppings for comparison
 - Gray squirrel droppings found in an attic or on a porch, identified by a wildlife agency or extension specialist, beside a ruler marked in inches
+
+## /blog/raccoon-poop
+
+- Photo of a raccoon latrine inside an attic, droppings piled on insulation or a joist beside a ruler marked in inches, from a public domain or CC0 source with an expert identification, such as CDC PHIL or a state wildlife agency
+- Raccoon and Virginia opossum droppings photographed side by side beside one ruler marked in inches, each identified by a wildlife agency or an experienced tracker, so the two can be compared at the same scale
+
+## /blog/bat-poop
+
+- Bat droppings and house mouse droppings side by side on a white card beside one ruler marked in inches, with one of each crushed to show the bat dropping's shiny insect fragments against the mouse dropping's hard, dull inside
+- Bat droppings piled on attic insulation or floorboards below a roost in a US house, beside a ruler marked in inches, public domain or CC0, identified by a wildlife agency or a bat researcher
 
 ## /blog/diy-pest-control
 

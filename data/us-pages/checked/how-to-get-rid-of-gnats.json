@@ -1,0 +1,15 @@
+{
+ "id": "how-to-get-rid-of-gnats",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "db7d9767be3ae8b587e8636161b1eb29850b7bf2da14278980a8fd1bdd153a45",
+ "claimsChecked": 310,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

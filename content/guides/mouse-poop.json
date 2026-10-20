@@ -1,0 +1,194 @@
+{
+  "slug": "mouse-poop",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "mouse poop",
+  "alsoTargets": [
+    "mouse droppings",
+    "what does mouse poop look like",
+    "mice poop",
+    "mice droppings",
+    "mouse poop vs rat poop",
+    "is mouse poop dangerous",
+    "mouse poop pictures"
+  ],
+  "metaTitle": "Mouse Poop: What Mouse Droppings Look Like",
+  "metaDescription": "Mouse poop is dark, 1/8 to 1/4 inch long, with pointed ends. Photos, look-alikes, fresh vs old, the health risks and CDC's steps for safe cleanup.",
+  "h1": "Mouse Poop: What Mouse Droppings Look Like, Next to Rat, Bat and Roach Droppings",
+  "dek": "Mouse droppings are dark pellets 1/8 to 1/4 inch long, pointed at one or both ends. Real photos, how to tell them from rat, bat, cockroach and lizard droppings, fresh against old, and CDC's cleanup steps.",
+  "breadcrumb": "Mouse Poop",
+  "excerpt": "What mouse droppings look like at true size, how to tell them from rat, bat, roach and lizard droppings, what finding them means, and CDC's steps for cleaning them up.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**Mouse poop is dark, smooth pellets 1/8 to 1/4 inch long with one or both ends pointed, scattered rather than piled; droppings 1/2 inch or longer are a rat's, and tiny ridged specks are a cockroach's.** Sizes are from [Nebraska Extension](https://extensionpubs.unl.edu/publication/g1105/html/view) and [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior). Never sweep or vacuum them: [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) soak them with disinfectant first.",
+    "bullets": [
+      "Nebraska Extension says a house mouse leaves about 50 to 75 droppings a day as it explores, usually black and rarely collected in piles.",
+      "Fresh droppings are dark and soft, and old ones are hard, or gray and brittle, according to [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf).",
+      "Cornell IPM gives roof rat droppings as about 1/2 inch and Norway rat droppings as 3/4 to 1 inch long, and notes that rodent droppings lack the lines on American cockroach droppings.",
+      "The deer mouse spreads the most common hantavirus behind hantavirus pulmonary syndrome in the United States, says [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html); the house mouse spreads lymphocytic choriomeningitis.",
+      "CDC's cleanup: air the room out for 30 minutes, wear rubber or plastic gloves, soak droppings with disinfectant or 1.5 cups of bleach per gallon of water for 5 minutes, then wipe them up with paper towels."
+    ]
+  },
+  "facts": {
+    "title": "Mouse poop or something else? Quick ID",
+    "head": ["Droppings", "Size and look", "The tell", "Where you find them"],
+    "rows": [
+      ["House mouse", "1/8 to 1/4 inch; one or both ends pointed", "Smooth, with no ridges; usually black", "Scattered where mice travel and feed, usually not in piles"],
+      ["Deer mouse", "Like a house mouse's", "Acorns, seeds or nuts cached nearby", "Cabins, empty homes and buildings near fields or parks"],
+      ["Rat", "1/2 to 1 inch; blunt ends (Norway rat) or pointed (roof rat)", "At least twice as long as a mouse's", "Norway rats low in a building, roof rats up high"],
+      ["Bat", "Pellets that crumble easily", "Crumbs glitter with bits of insect shell", "Below roosts and entry holes; build up in attics and walls"],
+      ["German cockroach", "About 1/16 inch; like crushed pepper", "Ridged specks stuck to surfaces", "Warm cracks near food and water"],
+      ["American cockroach", "About 1/8 inch; blunt ends", "Lines or ridges running along each dropping", "Near floor drains and in nonfood areas of homes"],
+      ["Gecko or other lizard", "Elongated and brownish", "A chalky white tip", "Near windows and porch lights"]
+    ],
+    "caption": "Mouse sizes from Nebraska Extension, Cornell IPM and CDC's pictorial key; deer mice from UC IPM; rats from Cornell, CDC's key and UC IPM; bats from the US Fish and Wildlife Service; cockroaches from CDC's key, Texas A&M and Cornell; geckos from Texas A&M and USFWS."
+  },
+  "body": [
+    { "type": "h2", "text": "What does mouse poop look like?" },
+    { "type": "p", "text": "Mouse poop looks like small, dark pellets 1/8 to 1/4 inch long, with one or both ends narrowing to a point. That is how [Nebraska Extension's guide to controlling house mice](https://extensionpubs.unl.edu/publication/g1105/html/view) describes house mouse droppings, adding that they are usually black but vary with what the mouse has eaten. [Cornell's guide to mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) describes rodent droppings as cylindrical with pointed to rounded ends, and notes that green or red droppings may mean the rodent fed on a rodenticide bait." },
+    { "type": "figure", "src": "/guides/photos/house-mouse.webp", "width": 1200, "height": 1151, "alt": "Brown house mouse with large round ears and a long, thin, nearly hairless tail, crouched in a concrete corner scattered with dead leaves and debris", "caption": "A house mouse, photographed in Marfa, Texas. Look for the long, nearly hairless tail, which UC IPM uses to tell the house mouse from the deer mouse.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/261877585" },
+    { "type": "p", "text": "The surface is smooth. A droppings key that CDC, then the Communicable Disease Center, published in 1964, [Domestic Rodents and Cockroaches: Pictorial Key to Droppings](https://stacks.cdc.gov/view/cdc/13428), shows house mouse droppings as elongated and pointed, without ridges, about 1/4 inch long, and Cornell says rodent droppings lack the vertical lines found on American cockroach droppings. Other small, dark pellets turn up in houses too, so compare yours with the look-alikes below." },
+    { "type": "figure", "src": "/guides/photos/mouse-droppings-ruler.webp", "width": 655, "height": 779, "alt": "A few small, dark droppings on an orange surface, with two coins above them and a ruler marked in centimeters below", "caption": "Droppings the photographer identified as house mouse droppings, found in a kitchen and near a computer keyboard in the Netherlands, beside a ruler marked in centimeters. Nebraska Extension gives mouse droppings as 1/8 to 1/4 inch long, about 3 to 6 millimeters.", "license": "CC-BY-SA-4.0", "credit": "Hansmuller, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Housemouse_(Mus_musculus)_droppings_with_10_and_20_euro_cent_coins_and_a_ruler,_Utrecht,_The_Netherlands,_December_14,_2019.jpg" },
+
+    { "type": "h2", "text": "How big is mouse poop?" },
+    { "type": "p", "text": "Mouse poop is 1/8 to 1/4 inch long by Nebraska's and Cornell's figures, and CDC's key gives about 1/4 inch as the average for dry adult droppings, judged as a group. That puts mouse droppings between cockroach droppings, about 1/32 to 1/8 inch in the same key, and rat droppings, which Cornell gives as about 1/2 inch for roof rats and 3/4 to 1 inch for Norway rats." },
+    { "type": "p", "text": "Mixed sizes are a clue. [Cornell's guide to managing mice and rats](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/managing-mice-and-rats) says one rodent's droppings vary somewhat, but large and very small droppings side by side can mean both adults and young are present: a breeding population rather than a single mouse. [What baby mice and their nests look like](/blog/baby-mice) covers the young." },
+    { "type": "media", "needed": "House mouse droppings beside a US dime and a ruler marked in inches, on a kitchen counter or in a drawer, identified by CDC or an extension service; public domain or CC0 so it can lead the page" },
+
+    { "type": "h2", "text": "Is mouse poop fresh or old?" },
+    { "type": "p", "text": "Fresh droppings are dark and soft; old ones are hard, or gray and brittle. That is the rule in [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf), which adds that rodent urine may be wet, glossy or sticky when fresh, or a dried stain, and that a black light can help show urine stains." },
+    { "type": "p", "text": "The surest test is a clean surface. Cornell says new droppings that appear after a cleanup show that control is not working yet, and that removing droppings also removes cues rodents use to communicate about resources such as food. Clean up with CDC's method, described below, then check the same spots over the following days: anything new is fresh." },
+    { "type": "media", "needed": "Fresh and old house mouse droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dull, gray and crumbling" },
+
+    { "type": "h2", "text": "Is it mouse poop or rat poop?" },
+    { "type": "p", "text": "Length usually settles it: droppings about 1/2 inch or longer are a rat's. Cornell gives mouse droppings as 1/8 to 1/4 inch, roof rat droppings as about 1/2 inch and Norway rat droppings as 3/4 to 1 inch, and CDC's key puts rat droppings at over 1/3 inch, blunt on a Norway rat's and pointed on a roof rat's." },
+    { "type": "p", "text": "Where you find them helps too: [UC IPM's Pest Notes on rats](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) say Norway rats indoors tend to stay in basements or on the ground floor, while roof rats favor attics, walls, false ceilings and cabinets. [The guide to rat droppings](/blog/rat-droppings) compares the two in detail, and [how to tell a rat from a mouse](/blog/rat-vs-mouse) covers the animals themselves." },
+
+    { "type": "h2", "text": "What else looks like mouse poop?" },
+    { "type": "p", "text": "Bat, cockroach and lizard droppings are the usual look-alikes, and deer mice leave droppings much like a house mouse's. Larger droppings are sorted in [the animal poop identification chart](/blog/animal-droppings), with guides to [squirrel poop](/blog/squirrel-poop), [raccoon poop](/blog/raccoon-poop) and [possum poop](/blog/possum-poop)." },
+    { "type": "h3", "text": "Bat droppings" },
+    { "type": "p", "text": "Bat droppings crumble. The US Fish and Wildlife Service's [House Bat Management](https://pubs.usgs.gov/rp/0143/report.pdf) says droppings of insect-eating bats are easily crushed, revealing shiny bits of undigested insect shell, while rodent droppings are harder and more fibrous. Bats nearly always give themselves away by droppings below entrance holes and roosts, it says, and guano builds up in attics and wall spaces. Bat droppings carry a risk of their own: [CDC's histoplasmosis page](https://www.cdc.gov/histoplasmosis/about/index.html) says that disease comes from breathing in spores of a soil fungus that also spreads in bird and bat droppings mixed into soil. [The guide to bat poop](/blog/bat-poop) covers bats in the attic." },
+    { "type": "figure", "src": "/guides/photos/bat-droppings-cave-inch-ruler.webp", "width": 1200, "height": 1600, "alt": "A floor carpeted with small, elongated, crumbly brown droppings, with a green ruler marked in inches laid across it", "caption": "Bat droppings covering the floor of a sandstone cave near the Salton Sea in California, beside a ruler marked in inches, below bats the observer saw roosting. In a house, look for droppings like these below a roost or an entry hole.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/257314401" },
+    { "type": "h3", "text": "Cockroach droppings" },
+    { "type": "p", "text": "Cockroach droppings are smaller and ridged. CDC's key puts German cockroach droppings at about 1/16 inch and American cockroach droppings at about 1/8 inch, both with ridges, and [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2017/12/Cockroach-Biol-and-Mngmt_ENTO-037_2017.pdf) says German cockroach droppings look like crushed pepper and stick to surfaces where cockroaches gather. [What roach poop looks like](/blog/cockroach-droppings) shows both kinds and the egg cases found with them." },
+    { "type": "h3", "text": "Lizard droppings" },
+    { "type": "p", "text": "A white tip gives a lizard away. Texas A&M AgriLife Extension's [fact sheet on house geckos](https://citybugs.tamu.edu/factsheets/household/misc-house/ent-2006/) describes their droppings as elongated, brownish and frequently tipped with white, and says geckos frequent lighted areas such as windows and porch lights. The US Fish and Wildlife Service calls that white, chalky material, uric acid, characteristic of lizard and bird droppings." },
+    { "type": "figure", "src": "/guides/photos/anole-droppings-fence.webp", "width": 1200, "height": 1594, "alt": "A dark lizard dropping with a chalky white tip stuck to the side of a weathered gray wooden fence post", "caption": "A dropping with a chalky white tip on a wooden fence post in Birmingham, Alabama, left by a green anole while the observer watched. The US Fish and Wildlife Service calls white, chalky uric acid like this characteristic of lizard droppings.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/204441225" },
+    { "type": "h3", "text": "Deer mouse droppings" },
+    { "type": "p", "text": "A deer mouse's droppings look much like a house mouse's. [UC IPM's Pest Notes on deer mice](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/) say their nests, droppings and other signs are similar to a house mouse's, but deer mice are far more likely to cache acorns, seeds or nuts. The difference matters for health, as the sections below explain, and [the deer mouse guide](/blog/deer-mice) shows how to recognize the animal." },
+    { "type": "confused", "items": [
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "About 1/2 inch or longer; Norway rat droppings have blunt ends", "alt": "Dark, thick rat droppings on moss beside a person's thumb" },
+      { "href": "/blog/deer-mice", "name": "Deer mouse", "photo": "deer-mouse", "note": "Droppings like a house mouse's; CDC links it to the main US hantavirus", "alt": "Deer mouse with a brown back and white belly clinging to a bare branch above snow" },
+      { "href": "/blog/bat-poop", "name": "Bat droppings", "photo": "bat-droppings-bat-box-ruler", "note": "Crumble easily into shiny bits of insect; found below roosts", "alt": "Two dark, crumbly bat droppings on weathered wood beside a white ruler" },
+      { "href": "/blog/cockroach-droppings", "name": "American cockroach", "photo": "american-cockroach-droppings-trap", "note": "Droppings about 1/8 inch with blunt ends and ridges; mouse droppings are smooth", "alt": "American cockroach on a sticky trap with two dark droppings beside it" }
+    ] },
+
+    { "type": "h2", "text": "Where do mouse droppings turn up, and what do they mean?" },
+    { "type": "p", "text": "Mouse droppings turn up where mice feed and travel, usually close to the nest, and they are often the first sign of mice: Nebraska says property owners typically learn of mouse activity by finding droppings. [UC IPM's Pest Notes on the house mouse](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) say droppings, fresh gnaw marks and tracks show where mice are active, and that house mice seldom go more than 30 feet from their nest and food supply." },
+    { "type": "ul", "items": [
+      "**Kitchens and pantries.** UC IPM says mice leave feces in the food they get into, making it unsafe to eat, and Nebraska says they nest near heat sources such as water heaters, ovens and refrigerators.",
+      "**Along walls.** Mice keep in contact with walls with their whiskers as they travel at night, according to Nebraska, so check along walls, behind objects and in dark corners, where UC IPM also advises setting traps.",
+      "**Cabins and empty homes.** UC IPM says deer mice often move into vacated homes, cabins and other buildings, and that house mice frequently come indoors in autumn as nights turn colder.",
+      "**Cars.** CDC's cleanup page has separate steps for vehicles, including opening the hood, doors and trunk for 20 minutes to air the car out. [Keeping mice out of a car](/blog/how-to-keep-mice-out-of-your-car) covers prevention."
+    ] },
+    { "type": "figure", "src": "/guides/photos/house-mouse-on-stove.webp", "width": 1200, "height": 900, "alt": "House mouse peering out of the coil burner of a white kitchen stove, with a dark dropping on the stovetop to its left", "caption": "A house mouse on a kitchen stovetop in Washington, DC, with a dropping on the stovetop to its left. Nebraska Extension says house mouse nests are found near heat sources such as ovens, water heaters and refrigerators.", "license": "CC-BY-4.0", "credit": "(c) jonsense, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/300314476" },
+    { "type": "p", "text": "Lots of droppings do not always mean lots of mice. Cornell says a sudden show of many droppings can be alarming but does not prove a full-blown infestation, citing estimates of 50 to 60 droppings a day from one mouse; Nebraska puts it at 50 to 75. Judge by whether new droppings keep appearing after a cleanup and whether you find a mix of sizes." },
+    { "type": "h3", "text": "Why do I see mouse poop but no mice?" },
+    { "type": "p", "text": "Because mice work at night and stay hidden. UC IPM says house mice are active mostly at night, though they are sometimes seen by day, and Nebraska calls them secretive. The droppings may also be old: if they are gray and brittle and none reappear after a cleanup, the mice may be gone. [When mice are most active](/blog/are-mice-nocturnal) has its own guide." },
+    { "type": "h3", "text": "Urine stains and smell" },
+    { "type": "p", "text": "Mice leave urine along with their droppings. CDC's survey manual describes fresh rodent urine as wet, glossy or sticky, or as a dried stain, and says a black light can help show it; Nebraska notes a musky odor where house mice have lived a long time; and UC IPM calls house mouse urine a major source of allergens. [What mouse urine looks and smells like](/blog/mouse-urine) has a guide of its own." },
+
+    { "type": "h2", "text": "Is mouse poop dangerous?" },
+    { "type": "p", "text": "It can carry disease, which is why CDC says to wet it down and never sweep or vacuum it: diseases spread from rodents to people mainly when they breathe in contaminated air. Which diseases matter depends on the mouse." },
+    { "type": "ul", "items": [
+      "**Hantavirus, mainly from deer mice.** CDC's overview says people get hantavirus from contact with rodents, especially their urine, droppings and saliva, and that the most common hantavirus causing hantavirus pulmonary syndrome in the United States is spread by the deer mouse. CDC's [2002 recommendations for reducing hantavirus risk](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm) name the deer mouse, white-footed mouse, cotton rat and rice rat as hosts of the hantaviruses known to cause the disease, and say only the two mice are commonly found around homes. The house mouse is not on that list, and Nebraska Extension states that house mice are not known to carry hantavirus.",
+      "**LCM, from house mice.** [CDC's page on lymphocytic choriomeningitis](https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html) says the virus is spread by the common house mouse through fresh urine, droppings, saliva or nesting materials, and that most healthy people have no or only mild symptoms. UC IPM cites an estimate that 5% of house mice in the United States carry it.",
+      "**Pregnancy.** CDC says LCM in pregnancy raises the risk of miscarriage and can cause serious birth defects. Its 2006 [fact sheet on LCMV and pregnancy](https://stacks.cdc.gov/view/cdc/44478/cdc_44478_DS1.pdf) advises anyone pregnant or planning a pregnancy to avoid rodents and their droppings where possible, to have another household member or a pest control company deal with mice in the home, and not to vacuum or sweep droppings.",
+      "**Food poisoning and asthma.** UC IPM lists salmonella among the diseases house mice carry, and Nebraska names salmonellosis and says mouse urine has been implicated as an asthma trigger in some people."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "CDC says to see a physician immediately if you suspect hantavirus disease and to mention the rodent exposure; symptoms usually begin 1 to 8 weeks after contact with an infected rodent. If you are pregnant and have had contact with a rodent, or have a fever or other symptoms, CDC's LCMV fact sheet says to contact your doctor." },
+
+    { "type": "h2", "text": "How do you clean up mouse droppings safely?" },
+    { "type": "p", "text": "Wet them, then wipe them up; never sweep or vacuum. [CDC's steps for cleaning up after rodents](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) are:" },
+    { "type": "ol", "items": [
+      "Open doors and windows for 30 minutes before you start, and leave the area while it airs out.",
+      "Put on rubber or plastic gloves.",
+      "Spray the droppings and any urine with an EPA-registered disinfectant or a fresh bleach solution of 1.5 cups of household bleach in 1 gallon of water until very wet, and let it soak for 5 minutes or as the disinfectant label directs.",
+      "Wipe everything up with paper towels and throw them in a covered garbage can that is emptied regularly.",
+      "Mop or sponge the area with disinfectant, including floors, countertops, cabinets and drawers.",
+      "Wash your gloved hands with soap and water or disinfectant, take the gloves off, then wash your hands with soap and warm water."
+    ] },
+    { "type": "figure", "src": "/guides/photos/rodent-droppings-drawer.webp", "width": 1200, "height": 791, "alt": "Open wooden cupboard drawer lined with white dotted shelf paper, scattered with many small dark droppings, with fluffy material in the far corner", "caption": "Rodent droppings scattered in an open cupboard drawer, in a CDC photograph; its record does not name the rodent. CDC's cleanup steps cover drawers and cabinets.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14340" },
+    { "type": "p", "text": "For soft things, CDC says to shampoo rugs and upholstered furniture with a commercial disinfectant or use a commercial-grade steam cleaner, and to wash bedding, clothing and stuffed animals in hot water with detergent. Throw out food that mice got into, since UC IPM says their feces make it unsafe to eat." },
+    { "type": "p", "text": "Some jobs are bigger. CDC's 2002 recommendations call an infestation heavy if piles of droppings, numerous nests or dead rodents are seen, and for heavy infestations CDC's cleanup page lists coveralls, rubber boots or shoe covers, gloves, goggles and a respirator, and tells workers hired for such a cleanup to contact their local or state health department. [What a professional mouse cleanup involves](/blog/mice-removal) is covered separately." },
+
+    { "type": "h2", "text": "What should you do once you know it is mice?" },
+    { "type": "p", "text": "Seal up, trap up and clean up. [CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) recommends traditional snap traps, set on the floor against a wall with the baited end next to it, and says not to use glue traps or live traps, which can scare rodents into urinating. UC IPM says to place traps along walls, behind objects, in dark corners and where droppings have been found." },
+    { "type": "p", "text": "[The complete guide to mice](/learn/mice) covers sealing, trapping and when to call a professional; [which mouse traps to use](/blog/mice-traps) compares trap types, and [humane mouse control](/blog/how-to-get-rid-of-mice-humanely) starts with sealing gaps. For the whole job in order, see [a four-step plan for getting rid of mice](/blog/how-to-get-rid-of-mice-canada) and [sealing a house before cold weather](/blog/how-to-keep-mice-out-of-your-house-winter)." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph a few droppings beside a ruler marked in inches without touching them, and note the room, how many you found and whether new ones appear after cleaning. Your state's cooperative extension office or a pest professional can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "Is it safe to live in a house with mouse droppings?",
+      "answer": "Not without cleaning them up safely. CDC says diseases spread from rodents to people mainly when they breathe in contaminated air, so droppings should be soaked with disinfectant and wiped up, never swept or vacuumed. The risk depends on the mouse: CDC links the most common US hantavirus to the deer mouse, and LCM to the house mouse. Clean up with CDC's method, seal entry gaps and trap the mice, and if you suspect hantavirus disease, CDC says to see a physician immediately."
+    },
+    {
+      "question": "What should you do if you find mouse droppings?",
+      "answer": "Leave the broom and vacuum alone. CDC's steps are to open doors and windows for 30 minutes and leave the room, put on rubber or plastic gloves, spray the droppings with a disinfectant or a mix of 1.5 cups of bleach per gallon of water until very wet, wait 5 minutes, wipe them up with paper towels and throw the towels in a covered garbage can. Then seal entry gaps, set snap traps along walls and watch for new droppings."
+    },
+    {
+      "question": "Do mouse droppings mean an infestation?",
+      "answer": "They mean mice have been there, but not necessarily many. Cornell IPM says a sudden show of many droppings can be alarming yet does not prove a full-blown infestation, since one mouse can leave dozens a day; Nebraska Extension estimates 50 to 75. Two clues point to a bigger problem: new droppings that keep appearing after you clean up, and a mix of large and very small droppings, which Cornell says can mean adults and young are present."
+    },
+    {
+      "question": "Is mouse poop hard or soft?",
+      "answer": "Both, depending on its age. CDC's manual for urban rodent surveys describes fresh rodent droppings as dark and soft and old ones as hard, or gray and brittle. A soft, dark dropping means mice were there recently. Judge by look rather than touch, wear rubber or plastic gloves when you clean them up as CDC advises, and check afterward for new droppings, which Cornell says show that control is not working yet."
+    },
+    {
+      "question": "Can you vacuum mouse droppings?",
+      "answer": "No. CDC says not to vacuum or sweep rodent urine, droppings or nesting materials, because that can put droplets containing viruses into the air, and rodent diseases spread mainly through contaminated air. Spray the droppings with a disinfectant or a bleach solution until very wet, let them soak for 5 minutes and wipe them up with paper towels instead. If you have already vacuumed, CDC says to follow its cleanup guidance."
+    },
+    {
+      "question": "How many droppings does a mouse leave a day?",
+      "answer": "Dozens. Nebraska Extension says a house mouse deposits about 50 to 75 pellets a day as it explores, and Cornell IPM cites estimates of 50 to 60 a day for mice and 40 to 50 for rats. Because mice leave them as they travel, the droppings are usually scattered rather than piled, so a few mice can leave a lot behind in a short time."
+    },
+    {
+      "question": "Is old, dried mouse poop still dangerous?",
+      "answer": "Clean it the same careful way. CDC's 2002 hantavirus recommendations estimate that hantaviruses probably survive less than a week indoors and much less in sunlight outdoors, but you cannot know when droppings were left or whether mice are still adding fresh ones nearby, and CDC says LCM spreads through fresh urine and droppings. Soaking droppings with disinfectant before wiping them up, as CDC directs, covers old and fresh droppings alike."
+    },
+    {
+      "question": "What color is mouse poop?",
+      "answer": "Usually black. Nebraska Extension says house mouse droppings are usually black but vary with the mouse's diet, and Cornell IPM says green or red droppings may mean the rodent fed on a rodenticide bait. Age changes the look too: CDC's manual for urban rodent surveys describes fresh droppings as dark and soft and old ones as hard, or gray and brittle."
+    },
+    {
+      "question": "Should I worry about mouse droppings if I'm pregnant?",
+      "answer": "Take extra care. CDC says LCM, a virus spread by house mice through fresh urine, droppings, saliva and nesting materials, raises the risk of miscarriage and can cause serious birth defects. CDC's 2006 fact sheet on LCMV and pregnancy advises avoiding rodents and their droppings where possible, having another household member or a pest control company deal with mice, and contacting your doctor if you have had contact with a rodent or have a fever while pregnant."
+    },
+    {
+      "question": "Do mice poop in one spot?",
+      "answer": "Not usually. Nebraska Extension says house mice deposit droppings as they explore and that the droppings usually do not collect in piles, so you find them scattered along their routes. A pile in one place points elsewhere: the US Fish and Wildlife Service says bats leave droppings below their roosts and entrance holes, where guano builds up, and CDC's 2002 hantavirus recommendations treat piles of droppings as a sign of a heavy rodent infestation."
+    }
+  ],
+  "sources": [
+    { "title": "G1105: Controlling House Mice", "publisher": "Nebraska Extension, University of Nebraska-Lincoln", "url": "https://extensionpubs.unl.edu/publication/g1105/html/view" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Managing Mice and Rats", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/managing-mice-and-rats" },
+    { "title": "Domestic Rodents and Cockroaches: Pictorial Key to Droppings (H. G. Scott and M. R. Borom, 1964), page 183 of Pictorial Keys: Arthropods, Reptiles, Birds and Mammals of Public Health Significance", "publisher": "Centers for Disease Control and Prevention (then the Communicable Disease Center), via CDC Stacks", "url": "https://stacks.cdc.gov/view/cdc/13428" },
+    { "title": "Integrated Pest Management: Conducting Urban Rodent Surveys (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Hantavirus Pulmonary Syndrome — United States: Updated Recommendations for Risk Reduction (MMWR, 2002)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm" },
+    { "title": "About Lymphocytic Choriomeningitis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html" },
+    { "title": "Lymphocytic Choriomeningitis Virus (LCMV) and Pregnancy: Facts and Prevention (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/44478/cdc_44478_DS1.pdf" },
+    { "title": "House Mouse (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Deer Mouse (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/" },
+    { "title": "Pest Notes: Rats", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "House Bat Management (Resource Publication 143, 1982), by Arthur M. Greenhall", "publisher": "U.S. Fish and Wildlife Service, via the USGS Publications Warehouse", "url": "https://pubs.usgs.gov/rp/0143/report.pdf" },
+    { "title": "About Histoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/about/index.html" },
+    { "title": "ENTO-037: Cockroach Biology and Management", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2017/12/Cockroach-Biol-and-Mngmt_ENTO-037_2017.pdf" },
+    { "title": "House Geckos (ENT-2006)", "publisher": "Texas A&M AgriLife Extension Service, Insects in the City (M. Merchant and E. Brown)", "url": "https://citybugs.tamu.edu/factsheets/household/misc-house/ent-2006/" }
+  ],
+  "disclaimer": "health"
+}

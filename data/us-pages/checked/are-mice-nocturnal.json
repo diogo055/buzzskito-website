@@ -2,9 +2,16 @@
  "id": "are-mice-nocturnal",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f376289d5d85f1b063d9618f582816551faca0a4d4ea538cdddc74a71e3a1568",
+ "sha": "985fec24f8b8eb00aab640490dbd2452bf24c1ec795edd182bc772dc9084e1dd",
  "claimsChecked": 62,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added in 'What noises do mice make at night, and where do you hear them?' after the timing paragraph, linking the new /blog/animals-in-attic; no fact changed.",
+   "previousSha": "f376289d5d85f1b063d9618f582816551faca0a4d4ea538cdddc74a71e3a1568"
+  }
+ ]
 }

@@ -201,6 +201,10 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/house-centipedes', ca: '/blog/how-to-get-rid-of-centipedes-canada' },
   { us: '/blog/how-to-get-rid-of-stink-bugs', ca: '/blog/how-to-get-rid-of-stink-bugs-canada' },
   { us: '/blog/how-to-get-rid-of-cockroaches', ca: '/blog/how-to-get-rid-of-cockroaches-canada' },
+  { us: '/blog/how-to-get-rid-of-earwigs', ca: '/blog/how-to-get-rid-of-earwigs-canada' },
+  { us: '/blog/how-to-get-rid-of-silverfish', ca: '/blog/how-to-get-rid-of-silverfish-canada' },
+  { us: '/blog/mouse-poop', ca: '/blog/what-does-mouse-poop-look-like-canada' },
+  { us: '/blog/bed-bug-poop', ca: '/blog/bed-bug-stains-poop-droppings-canada' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

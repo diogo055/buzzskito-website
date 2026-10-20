@@ -14,6 +14,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'how-to-get-rid-of-silverfish-canada'
 const DATE = '2026-07-21'
@@ -72,14 +73,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'How to get rid of silverfish in Canadian homes: silverfish vs firebrats vs house centipedes ID, why basements breed them, the 45–50% humidity fix, dehumidifier sizing, sticky-trap monitoring, diatomaceous earth, and the PMRA truth about Dekko packs.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-})
+}), '/blog/how-to-get-rid-of-silverfish-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-silverfish-canada')
 

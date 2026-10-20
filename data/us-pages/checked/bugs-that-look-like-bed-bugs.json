@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "571d2150a0f1e4f70947088dec98d93995d97938345ba722d058d08613fd034e",
+ "sha": "5ee3ff618f56922a9dd3b5341bcb76a14b496a5b0592cfd06d081d9dd6655e7d",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -17,6 +17,11 @@
    "on": "2026-10-16",
    "note": "links added as one-sentence paragraphs: /blog/tiny-black-bugs after the table in 'How can you tell the look-alikes apart at a glance?', /blog/how-to-get-rid-of-carpet-beetles at the end of the carpet beetle section; no facts changed",
    "previousSha": "be45ff1f3e22f32c2282ba22f02ebd19edb655e11af19e8482ffa0eef1f0a5e0"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added at the end of 'Which bugs get mistaken for bed bugs?' linking the new /blog/tiny-brown-bugs; no fact changed.",
+   "previousSha": "571d2150a0f1e4f70947088dec98d93995d97938345ba722d058d08613fd034e"
   }
  ]
 }

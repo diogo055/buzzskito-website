@@ -15,6 +15,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'bed-bug-stains-poop-droppings-canada'
 const DATE = '2026-07-30'
@@ -74,7 +75,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'Bed bug poop dries into clustered pen-tip black dots. The damp-swab test that confirms it, where staining is densest, and five marks it gets confused with.',
   canonical: `/blog/${SLUG}`,
@@ -82,7 +83,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('bed-bug-adult-ruler'),
-})
+}), '/blog/bed-bug-stains-poop-droppings-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 

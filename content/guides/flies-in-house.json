@@ -1,0 +1,477 @@
+{
+  "slug": "flies-in-house",
+  "kind": "spoke",
+  "cluster": "flies",
+  "keyword": "why are there so many flies in my house",
+  "alsoTargets": [
+    "flies in house",
+    "flies in house all of a sudden",
+    "how to get rid of house flies",
+    "where do flies come from",
+    "house flies"
+  ],
+  "metaTitle": "Why Are There So Many Flies in My House?",
+  "metaDescription": "So many flies in your house? It usually means garbage, pet waste, a dead animal in a wall, or cluster flies. Match the fly by photo, then find its source.",
+  "h1": "Why Are There So Many Flies in My House? Find the Fly, Then the Source",
+  "dek": "House flies, green bottle flies, flesh flies and cluster flies each point to a different source. Match yours by photo, size and one tell, then find what it bred in, using university extension guides.",
+  "breadcrumb": "Flies in the House",
+  "excerpt": "House fly, blow fly, flesh fly or cluster fly? Each points to a different source, from the trash to a dead mouse in a wall. Photos, sizes in inches and fixes.",
+  "datePublished": "2026-10-20",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
+  "quickAnswer": {
+    "lead": "**A sudden crowd of big flies indoors usually comes from one of three things: garbage, pet waste or compost they bred in; a mouse, bird or squirrel that died in a wall, attic or chimney; or cluster flies coming out of the walls where they spent the winter.** [University of Minnesota Extension's fly guide](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies) covers all three. The kind of fly tells you which.",
+    "bullets": [
+      "House flies are dull gray, 1/6 to 1/4 inch long, with four dark stripes on the thorax, and lay their eggs mostly in garbage, according to UMN Extension.",
+      "Blow flies, the green and blue bottle flies, are 1/4 to 1/2 inch and metallic; UMN says a crowd of them can appear several days after an animal dies in a wall void, chimney or ceiling.",
+      "Flesh flies are 3/8 to 5/8 inch, gray with black stripes on the thorax, and Texas A&M AgriLife Extension says they come in following the odor of a dead animal.",
+      "Cluster flies are 3/8 to 1/2 inch with short yellow hairs on the thorax; they spend the winter in attics and walls and do not breed indoors.",
+      "UC IPM says garbage that sits for more than a week is likely to produce blow flies, so put cans out at least weekly, even when they are not full.",
+      "Tiny flies of 1/16 to 1/5 inch at fruit, drains or houseplants are fruit flies, drain flies or fungus gnats, which breed in different places."
+    ]
+  },
+  "facts": {
+    "title": "Flies in the house: quick ID",
+    "head": [
+      "Fly",
+      "Size",
+      "The tell",
+      "What it points to"
+    ],
+    "rows": [
+      [
+        "House fly",
+        "1/6 to 1/4 inch",
+        "Dull gray, four dark stripes on the thorax; cannot bite",
+        "Garbage, manure, compost or decaying vegetation, usually outdoors"
+      ],
+      [
+        "Blow fly (green or blue bottle fly)",
+        "1/4 to 1/2 inch",
+        "Shiny metallic green, blue or copper",
+        "Meat scraps in the trash, pet waste or a dead animal"
+      ],
+      [
+        "Flesh fly",
+        "3/8 to 5/8 inch",
+        "Gray with black stripes on the thorax; red or pink tail tip in some",
+        "A dead animal somewhere in the house"
+      ],
+      [
+        "Cluster fly",
+        "3/8 to 1/2 inch",
+        "Short yellow hairs on the thorax; wings overlap at rest; slow at windows",
+        "A winter in the attic or walls; it bred in earthworms outdoors"
+      ],
+      [
+        "Stable fly",
+        "About 1/4 inch",
+        "Like a house fly with a checkered abdomen; bites, often at the ankles",
+        "Rotting grass clippings or soiled animal bedding outdoors"
+      ],
+      [
+        "Little house fly",
+        "1/8 to 3/16 inch",
+        "Slimmer than a house fly; males hover in rooms for long periods",
+        "Animal waste or other decaying matter"
+      ],
+      [
+        "Fruit fly, drain fly or fungus gnat",
+        "1/16 to 1/5 inch",
+        "Tiny; gathers at fruit, drains or houseplants",
+        "Fermenting fruit, drain film or damp potting soil"
+      ]
+    ],
+    "caption": "Sizes and features from University of Minnesota Extension, Texas A&M AgriLife Extension, UC IPM and Penn State Extension, linked in the sections below."
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "Why are there so many flies in my house?"
+    },
+    {
+      "type": "p",
+      "text": "Large numbers of big flies indoors usually mean one of three things: flies have found something to breed in, such as garbage, pet waste or compost, in or near the house; an animal has died inside a wall, attic, ceiling or chimney; or cluster flies that moved into the walls in late summer are coming out. [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) says identifying the fly comes first, because control works best when the breeding site is found and removed, and insecticides alone are rarely successful."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/house-fly.webp",
+      "width": 1200,
+      "height": 817,
+      "alt": "Adult house fly seen from above on a pale background, with dark lengthwise stripes on its gray thorax and clear wings folded back",
+      "caption": "House fly (Musca domestica) seen from above. UMN Extension describes the adults as dull gray, 1/6 to 1/4 inch long, with four dark stripes on the thorax.",
+      "license": "public-domain",
+      "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25570"
+    },
+    {
+      "type": "table",
+      "head": [
+        "Where and when you see them",
+        "Most likely",
+        "What to look for"
+      ],
+      "rows": [
+        [
+          "Kitchen, trash and pet areas, mostly in summer",
+          "House flies",
+          "Garbage left a week or more, animal waste, compost, torn screens"
+        ],
+        [
+          "A sudden crowd in one room, near a wall, ceiling or fireplace",
+          "Blow flies or flesh flies",
+          "A dead mouse, bird or squirrel; an odor; maggots on the floor"
+        ],
+        [
+          "Sunny windows on warm days, fall to spring, often upstairs",
+          "Cluster flies, sometimes face flies",
+          "Slow flies that are easy to swat; gaps around siding, windows and vents"
+        ],
+        [
+          "Hovering in a room for long periods",
+          "Little house flies",
+          "Animal waste or decaying matter nearby"
+        ],
+        [
+          "Biting your ankles, mostly outdoors in summer",
+          "Stable flies",
+          "Rotting grass clippings or soiled animal bedding"
+        ],
+        [
+          "Tiny flies at fruit, drains or houseplants",
+          "Fruit flies, drain flies or fungus gnats",
+          "Ripe fruit, a slimy drain or damp potting soil"
+        ]
+      ],
+      "caption": "Compiled from University of Minnesota Extension, Texas A&M AgriLife Extension, UC IPM and Penn State Extension, linked in the sections below."
+    },
+    {
+      "type": "p",
+      "text": "The fly itself, and where and when it shows up, narrow it fast. The sections below go fly by fly, most common first. Tiny flies at fruit, drains or houseplants are a different problem with different sources; [the gnat identification guide](/blog/how-to-get-rid-of-gnats) sorts those."
+    },
+    {
+      "type": "h2",
+      "text": "How do you tell which fly you have?"
+    },
+    {
+      "type": "p",
+      "text": "Catch one under a glass or swat it onto a white paper towel, then check its size, its color, the hairs or stripes on the thorax (the middle section, where the wings attach) and how it was behaving before you caught it."
+    },
+    {
+      "type": "checklist",
+      "title": "Checks for a fly in a jar",
+      "items": [
+        "**Size against a ruler marked in inches.** House flies run 1/6 to 1/4 inch, blow flies 1/4 to 1/2 inch, cluster flies 3/8 to 1/2 inch and flesh flies up to 5/8 inch.",
+        "**Shiny metallic green, blue or copper?** A blow fly, also called a bottle fly.",
+        "**Dull gray with four dark stripes on the thorax?** A house fly. A bigger gray fly with black stripes on the thorax and, in some species, a red or pink tail tip is a flesh fly.",
+        "**Short yellow hairs on the thorax and wings that overlap over the back at rest?** A cluster fly.",
+        "**A checkered abdomen and a stiff, pointed mouthpart, or did it bite?** A stable fly.",
+        "**Slow and easy to swat, at a sunny window between fall and spring?** Most likely a cluster fly.",
+        "**Hovering in a room for long periods?** Possibly a male little house fly.",
+        "**Maggots on the floor or a windowsill?** Something is breeding nearby; see the maggot section below."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Why are there house flies in my kitchen?"
+    },
+    {
+      "type": "p",
+      "text": "House flies come in from outside, drawn by food and garbage, and their numbers depend on what they can breed in nearby. [University of Minnesota Extension's fly guide](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies) says the females live three to four weeks and lay batches of 75 to 100 small white eggs, usually in garbage but also in manure and decaying vegetation. The adults are strong fliers that can travel up to 20 miles, though most stay within two miles of where they grew up. Texas A&M says house flies rarely breed indoors and usually get in through open doors or poorly screened windows, so look first at trash cans, compost and pet areas outside."
+    },
+    {
+      "type": "p",
+      "text": "Warm weather speeds them up. Texas A&M says a house fly takes about 45 days to go from egg to adult at 60°F but only 7 days at 95°F, which is why summer numbers climb so fast. [UC IPM's Pest Notes on flies](https://ipm.ucanr.edu/home-and-landscape/flies/) list garbage, manure, lawn clippings, decaying fruits and vegetables, and contaminated soil as places the larvae develop. House flies can also keep going indoors in winter: [SDSU Extension](https://extension.sdstate.edu/fall-household-pests) says a population can persist inside all winter on decaying organic matter, and that taking out the trash regularly and cleaning drains is the best way to handle a small one."
+    },
+    {
+      "type": "p",
+      "text": "House flies cannot bite, but they matter around food. UMN says they leave fecal spots, or specks, where they walk and may transfer disease that way, and it names diarrhea and dysentery among the diseases filth flies can transmit. UC IPM says house flies pick up disease agents from feces, body secretions and kitchen waste. Keep food covered while you track down the source."
+    },
+    {
+      "type": "h2",
+      "text": "Why are there suddenly big flies in one room?"
+    },
+    {
+      "type": "p",
+      "text": "A sudden crowd of large shiny green or blue flies, or big gray ones, in one room often means an animal has died nearby. UMN says that when an animal or bird dies hidden in a chimney, wall void or ceiling, a sudden population of adult blow flies may appear several days later. Texas A&M says flesh flies come in drawn by the odor of a dead animal, and that maggots indoors usually mean a bird, squirrel, rat or similar animal has died somewhere in the structure."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/green-bottle-fly.webp",
+      "width": 1200,
+      "height": 1018,
+      "alt": "Shiny metallic green blow fly with large red eyes resting on a pale, rough wall, seen from above beside a 1 mm scale bar",
+      "caption": "Common green bottle fly (Lucilia sericata), a blow fly, on a textured wall beside the photographer's 1 mm scale bar (about 1/25 inch). Blow flies are shiny metallic green, blue or copper.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/9915028"
+    },
+    {
+      "type": "p",
+      "text": "Blow flies are 1/4 to 1/2 inch long with metallic blue, green or copper bodies, and UMN says that in cities they are sometimes more common than house flies. Besides dead animals, the females lay eggs on garbage that holds meat scraps, and UC IPM adds pet waste as a source. Flesh flies are bigger, 3/8 to 5/8 inch, gray with black stripes on the thorax, and in some species the tip of the abdomen is red or pink, according to Texas A&M."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/flesh-fly.webp",
+      "width": 1200,
+      "height": 910,
+      "alt": "Gray flesh fly with red eyes, a striped thorax and a gray-checkered abdomen, seen from above on a white surface",
+      "caption": "A flesh fly (genus Sarcophaga). Texas A&M describes flesh flies as large gray flies with black stripes on the thorax.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) aispinsects, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/162710628"
+    },
+    {
+      "type": "p",
+      "text": "A dead-animal outbreak ends on its own. UMN says the maggots leave the carcass to pupate and may drop to the floor through gaps in a wall or ceiling, and that the situation is temporary: it stops when the food is used up, which may take up to a week for an animal the size of a squirrel. Texas A&M says the adult flies usually show up 1 to 2 weeks after the maggots and may keep emerging for 1 to 3 weeks before they stop. The other common source is the trash: UC IPM says garbage that sits for more than a week is likely to produce blow flies."
+    },
+    {
+      "type": "p",
+      "text": "If you can reach the animal, remove it. [CDC's cleanup steps for dead rodents](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) are to wear rubber or plastic gloves, spray the animal and the area around it with a disinfectant or a fresh mix of 1.5 cups of household bleach in a gallon of water, let it soak 5 minutes or as the disinfectant's label directs, seal it in a plastic bag inside a second bag, put it in a covered garbage can and wash your hands. If it is out of reach, Texas A&M says destroying the maggots and swatting the adults is usually the only practical response."
+    },
+    {
+      "type": "p",
+      "text": "Then close the way in. Texas A&M advises sealing openings that birds and mammals could use with sturdy wire or sheet metal, capping the chimney and screening roof vents. [The guide to mice in the house](/learn/mice) and [the guide to animals in the attic](/blog/animals-in-attic) cover keeping them out."
+    },
+    {
+      "type": "h2",
+      "text": "Why are there slow flies at my windows in fall, winter and spring?"
+    },
+    {
+      "type": "p",
+      "text": "Sluggish flies at sunny windows between fall and spring are most likely cluster flies. UMN describes them as black and a little larger than house flies, 3/8 to 1/2 inch long, with short yellow hairs on the thorax and wings that overlap at rest. They are parasites of earthworms: the maggots develop inside earthworms in the soil, and in August and September the year's last generation looks for winter shelter on the sunny south and west sides of buildings, crawling into cracks around siding, windows, vents and chimneys."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/cluster-fly.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Dark gray cluster fly with its wings folded flat over its back, feeding on a bright yellow flower outdoors",
+      "caption": "A cluster fly (genus Pollenia), photographed outdoors on a flower in May. UMN's tells are short yellow hairs on the thorax and wings that overlap at rest.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/160151367"
+    },
+    {
+      "type": "p",
+      "text": "[Penn State Extension's cluster fly page](https://extension.psu.edu/cluster-flies) says they gather at windows inside homes on warm winter days and fly so sluggishly that they are easy to swat or catch. They are not breeding in the house, they will not damage it, and they are not known to carry diseases of medical importance to people, though they can leave small dark spots of excrement on windows and walls. Near pastures, some of the window flies may be face flies, which UMN says look very much like house flies and shelter in attics and little-used upper rooms, often with cluster flies. A few blow flies also spend the winter indoors."
+    },
+    {
+      "type": "p",
+      "text": "Once they are inside the walls there is no practical way to stop them coming out, UMN says, so vacuum or swat them as they appear; drawing them to a bright window in a darkened room makes that easier. Penn State adds that foggers kill flies in the attic but do not stop more from coming out of wall voids. The lasting fix is sealing gaps outside before late summer, which [the guide to cluster flies in the house](/blog/cluster-flies-in-house-canada) and [the guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) explain; [cluster fly control](/blog/how-to-get-rid-of-cluster-flies) goes step by step, and [a Canadian edition](/blog/how-to-get-rid-of-cluster-flies-canada) is available too."
+    },
+    {
+      "type": "h2",
+      "text": "What are the flies that hover in a room or bite?"
+    },
+    {
+      "type": "p",
+      "text": "Two house fly look-alikes behave differently. Little house flies are smaller and slimmer, 1/8 to 3/16 inch, and UMN says the males often hover in rooms for long periods; the females lay their eggs in animal waste and decaying organic matter. Stable flies look like house flies but have checkerboard markings on the abdomen and a bayonet-like mouthpart, and UMN says they are sometimes called biting house flies: about 1/4 inch long, they give a painful bite, can bite through clothing and go for the ankles. They breed outdoors in soiled animal bedding and rotting grass clippings."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/stable-fly-feeding.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Side view of a gray stable fly standing on pink human skin, its stiff, pointed mouthpart reaching down from the front of its head",
+      "caption": "A stable fly (Stomoxys calcitrans) feeding on human skin. The stiff, pointed mouthpart in front of the head is what lets it bite, unlike a house fly.",
+      "license": "CC-BY-SA-4.0",
+      "credit": "Peterwchen, CC BY-SA 4.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stomoxys_calcitrans-sucking_blood.jpg"
+    },
+    {
+      "type": "p",
+      "text": "Of the flies on this page, only the stable fly is described by these sources as biting people; UC IPM says house flies have sponging mouthparts and cannot bite. Stable flies breed outdoors, so one that bites in the house came in from outside; [the stable fly guide](/blog/stable-flies) covers where they breed and when they are worst."
+    },
+    {
+      "type": "h2",
+      "text": "What are the tiny flies around fruit, drains or houseplants?"
+    },
+    {
+      "type": "p",
+      "text": "Flies of about 1/16 to 1/5 inch are a different group, usually called gnats, and they breed in small, wet sources indoors. Texas A&M lists fruit flies at about 1/8 inch, usually with reddish eyes, breeding in fermenting fruit and vegetables; drain flies at 1/16 to 1/5 inch, gray and densely hairy, breeding in the film inside drains; mosquito-like fungus gnats at 1/16 to 1/8 inch, breeding in damp potting soil; and humpbacked phorid flies at about 1/8 inch, breeding in decaying matter. [How to get rid of gnats](/blog/how-to-get-rid-of-gnats) sorts the four with photos, and the full fixes are in [the fruit fly guide](/blog/how-to-get-rid-of-fruit-flies), [the drain fly guide](/blog/how-to-get-rid-of-drain-flies) and [the fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats)."
+    },
+    {
+      "type": "media",
+      "needed": "Photo of several house flies or blow flies on the inside of a kitchen or living-room window, as a homeowner sees them, with a ruler or coin for scale (public domain or CC0, so it could lead the page)."
+    },
+    {
+      "type": "h2",
+      "text": "Where do the maggots in my house come from?"
+    },
+    {
+      "type": "p",
+      "text": "Maggots are fly larvae, so finding them means flies have been breeding close by. UMN says flies lay their eggs in decaying organic material, the eggs hatch into pale, legless maggots, and when they are full grown the maggots crawl off to find a dry place to pupate inside a hard, dark brown shell. New adults may emerge in as little as 7 to 14 days. Texas A&M says maggots indoors usually mean an animal has died somewhere in the structure, so look at the wall or ceiling above where they turn up; a garbage can or other rotting food is the other place to check."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/fly-maggot.webp",
+      "width": 1200,
+      "height": 817,
+      "alt": "Pale, cream-colored, legless fly maggot, narrower at one end, lying on crumbly brown material",
+      "caption": "A fly maggot; CDC does not name the species. Maggots are pale and legless, and when full grown they crawl away from their food to pupate.",
+      "license": "public-domain",
+      "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25572"
+    },
+    {
+      "type": "p",
+      "text": "Destroy the maggots you can reach, as Texas A&M advises, and deal with the source: the steps above cover a dead animal, and for a garbage can, UMN advises tying bags tightly, cleaning the can regularly and keeping a tight-fitting lid on it. [The maggot guide](/blog/maggots) shows the life stages in more detail."
+    },
+    {
+      "type": "confused",
+      "items": [
+        {
+          "href": "/blog/stable-flies",
+          "name": "Stable fly",
+          "photo": "stable-fly",
+          "note": "Looks like a house fly but bites, often at the ankles; checkered abdomen",
+          "alt": "Gray stable fly with a striped thorax and spotted abdomen on white-painted wood"
+        },
+        {
+          "href": "/blog/cluster-flies-in-house-canada",
+          "name": "Cluster fly",
+          "photo": "cluster-fly",
+          "note": "Slow at sunny windows from fall to spring; short yellow hairs on the thorax",
+          "alt": "Dark cluster fly with folded wings on a yellow flower"
+        },
+        {
+          "href": "/blog/how-to-get-rid-of-fruit-flies",
+          "name": "Fruit fly",
+          "photo": "fruit-fly",
+          "note": "About 1/8 inch with reddish eyes; breeds in fermenting fruit and vegetables",
+          "alt": "Tan fruit fly with red eyes seen from the side"
+        },
+        {
+          "href": "/blog/how-to-get-rid-of-drain-flies",
+          "name": "Drain fly",
+          "photo": "drain-fly",
+          "note": "Gray, hairy and 1/16 to 1/5 inch; breeds in the film inside drains",
+          "alt": "Fuzzy gray drain fly with broad wings on a white wall"
+        },
+        {
+          "href": "/learn/how-to-get-rid-of-fungus-gnats",
+          "name": "Fungus gnat",
+          "photo": "fungus-gnat",
+          "note": "Mosquito-like and 1/16 to 1/8 inch; breeds in damp potting soil",
+          "alt": "Slender dark fungus gnat with long legs on wood"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do you find where the flies are coming from?"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "Name the fly first, with the checks above. It tells you whether to look in the trash, in the walls or at the windows.",
+        "Check the trash, recycling and compost. UC IPM advises putting garbage out at least once a week even when the can is not full, and UMN advises tight-fitting lids, cans cleaned regularly and cans kept as far from the house as possible.",
+        "Walk the yard. UMN lists animal manure, rotting mulch, lawn clippings and dead birds and animals among the things to remove, and says to cover compost piles with black plastic sheeting.",
+        "For blow flies or flesh flies, follow the flies and any odor to a wall, ceiling, attic, crawl space or chimney, and look for maggots on the floor below.",
+        "For slow flies gathering at sunny, often upstairs, windows between fall and spring, the source is the walls and attic, and there is nothing indoors to clean.",
+        "If the flies are tiny, use the drain and potting-soil tests in the gnat guide instead."
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "How do you get rid of the flies once you know the source?"
+    },
+    {
+      "type": "p",
+      "text": "Remove the source first; the flies in the air are the last step. UC IPM says pesticides are not needed or recommended in most home situations, and UMN says insecticides do not give long-term control."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**House flies.** Repair torn screens and use 14- to 16-mesh screening on doors and windows, as UMN advises, and keep up the trash routine above. A flyswatter handles a few flies, and sticky flypaper works in a confined space, hung out of reach of children and pets. UC IPM says ultraviolet light traps can work indoors where they do not compete with daylight, and advises against swatters and bug zappers near food preparation areas.",
+        "**Blow flies and flesh flies.** Remove the animal if you can reach it, using the CDC steps above; if not, swat the adults and wait it out, since the flies stop once the carcass is used up. Then seal the gap the animal used.",
+        "**Cluster flies.** Vacuum or swat them, then seal gaps in siding, under eaves and around vents, cables and meters before late summer. UMN says caulking alone will not solve the problem and adds an exterior insecticide in late summer or early fall, applied as the label directs or by a licensed professional; Penn State says treating inside the walls is not advisable.",
+        "**Insect sprays.** For a large number of flies indoors, UMN says an aerosol labeled for flying insects, such as one containing pyrethrins, is a short-term solution that will not solve an ongoing problem. Texas A&M notes that some commercial fly baits can be toxic to pets. Use any product only where and how its label directs; as UMN reminds readers, the label is the law."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Save a specimen",
+      "text": "Seal a fly in a small jar or a zip-top bag, photograph it beside a ruler marked in inches, and note where and when you found it. Your local cooperative extension office or a pest professional can use those details to identify it."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I get rid of lots of flies in my house?",
+      "answer": "Find and remove what they are breeding in, then deal with the adults. For house flies that means garbage, pet waste and compost: UC IPM advises putting garbage out at least weekly, and UMN Extension advises tight lids and clean cans. For a crowd of shiny blow flies, look for a dead animal in a wall, attic or chimney. Slow flies at sunny windows are usually cluster flies, which you vacuum up. A flyswatter, flypaper or an indoor light trap handles the adults that remain."
+    },
+    {
+      "question": "How do you find the source of a fly infestation?",
+      "answer": "Start with the fly. Dull gray house flies point to garbage, pet waste, manure or compost, usually outdoors. Shiny green or blue blow flies and large gray flesh flies point to meat scraps in the trash or a dead animal in a wall, ceiling, attic or chimney, so follow the flies and any odor and look for maggots on the floor below. Slow flies at sunny windows between fall and spring are usually cluster flies coming out of the walls, with nothing indoors to find."
+    },
+    {
+      "question": "How long will a fly infestation last?",
+      "answer": "As long as the source is there. House flies keep coming while they have garbage or waste to breed in, and Texas A&M AgriLife Extension says one generation can take as little as 7 days at 95°F. Flies from a dead animal end on their own: Texas A&M says the adults usually appear 1 to 2 weeks after the maggots and stop after 1 to 3 weeks. Cluster flies keep coming out of the walls on warm days through winter and early spring."
+    },
+    {
+      "question": "Why are there flies in a clean house?",
+      "answer": "Because the source may not be in the house at all. UC IPM says flies inside a building have almost always come in from outside, and UMN Extension says house flies can fly up to 20 miles, though most stay within two miles of where they bred. Cluster flies breed in earthworms outdoors and only shelter in walls and attics for the winter. A sudden burst of blow flies can come from an animal that died out of sight in a wall or chimney, however clean the rooms are."
+    },
+    {
+      "question": "Why do I suddenly have 20 flies in my house?",
+      "answer": "A burst of flies that appears almost overnight usually came from one source. If they are shiny green or blue, or large and gray, an animal may have died in a wall void, ceiling or chimney: UMN Extension says a sudden population of blow flies can appear several days later. If they are slow and gather at sunny windows on a warm day between fall and spring, they are most likely cluster flies coming out of the walls. Garbage left for more than a week, which UC IPM says is likely to produce blow flies, is the third common cause."
+    },
+    {
+      "question": "What kills house flies instantly?",
+      "answer": "A flyswatter, which Texas A&M AgriLife Extension calls an effective control for the occasional household fly. Sticky flypaper catches a few flies in a confined space. Aerosol sprays labeled for flying insects, such as those containing pyrethrins, kill the flies they reach, but UMN Extension calls them a short-term solution that will not solve an ongoing problem, and UC IPM advises against swatters and bug zappers near food preparation areas. None of these touches the breeding source, so the flies return until it is gone."
+    },
+    {
+      "question": "Do flies lay eggs inside houses?",
+      "answer": "Some do when they find something to breed in. UMN Extension says house flies lay their eggs mostly in garbage, and blow flies lay theirs on meat scraps in garbage and on dead animals, including one that dies inside a wall. Texas A&M says house flies rarely breed indoors, while SDSU Extension says a population can keep going inside all winter on decaying organic matter. Cluster flies do not breed indoors; Penn State says the ones in your house came in from outside."
+    },
+    {
+      "question": "Is it bad to sleep in a room with flies?",
+      "answer": "House flies cannot bite, so a bite is not the worry; the concern with them is food. UC IPM says house flies pick up disease agents from feces, body secretions and kitchen waste, and UMN Extension says they can transfer disease through the specks they leave where they walk, so cover food and wipe counters. A fly that does bite is more likely a stable fly, which UMN says gives a painful bite, often at the ankles, and breeds outdoors."
+    },
+    {
+      "question": "Why are the flies so bad this year?",
+      "answer": "Often heat. Texas A&M AgriLife Extension says a house fly takes about 45 days to develop from egg to adult at 60°F but only 7 days at 95°F, so a hot summer turns a few flies into many within weeks. Garbage that sits longer than a week, which UC IPM says is likely to produce blow flies, adds to it. In fall, large numbers at the windows are usually cluster flies, which UMN Extension says move into buildings in August and September."
+    },
+    {
+      "question": "Where do flies hide in the house?",
+      "answer": "It depends on the fly. UMN Extension says cluster flies spend the winter in large clusters in attics and the upper walls of buildings, and face flies shelter in attics and little-used upper rooms, often alongside them. Blow fly maggots leave a dead animal to pupate in a dry spot and can drop through gaps in a wall or ceiling. House flies breed in garbage and other decaying matter, so look for their source there rather than in the walls."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Flies",
+      "publisher": "University of Minnesota Extension",
+      "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies"
+    },
+    {
+      "title": "Indoor Flies and Their Control (ENTO-050)",
+      "publisher": "Texas A&M AgriLife Extension Service",
+      "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/"
+    },
+    {
+      "title": "Pest Notes: Flies (Publication 7457)",
+      "publisher": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/flies/"
+    },
+    {
+      "title": "Cluster Flies",
+      "publisher": "Penn State Extension",
+      "url": "https://extension.psu.edu/cluster-flies"
+    },
+    {
+      "title": "Fall Household Pests",
+      "publisher": "SDSU Extension, South Dakota State University",
+      "url": "https://extension.sdstate.edu/fall-household-pests"
+    },
+    {
+      "title": "How to Clean Up After Rodents",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html"
+    }
+  ],
+  "disclaimer": "pesticide"
+}

@@ -2,7 +2,7 @@
  "id": "asian-lady-beetles",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7675d1bf7adc50d54bfb8e102eb9c38b6cfc93b7acfb77cf02ae0793cf883a6d",
+ "sha": "7c2d2e2d14ee62f6397434ee46d6876772295f20ad38456908e65b9a19349222",
  "claimsChecked": 126,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-10-16",
    "note": "carpet beetle link in 'How do you get rid of Asian lady beetles in the house?' now points at the US edition /blog/how-to-get-rid-of-carpet-beetles instead of the Canadian edition; anchor text unchanged",
    "previousSha": "b47f21c4fcafa7e40ef7830f9950e95ff00e4b2fbf7d3ff28f6a93dca71c60ee"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added at the end of 'Which other bugs gather on sunny walls in the fall?' linking the new /blog/beetles-in-house; no fact changed.",
+   "previousSha": "7675d1bf7adc50d54bfb8e102eb9c38b6cfc93b7acfb77cf02ae0793cf883a6d"
   }
  ]
 }

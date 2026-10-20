@@ -79,6 +79,7 @@
     { "type": "media", "needed": "House mouse droppings and Norway rat droppings photographed side by side on a plain light surface beside a ruler marked in inches, in a US home, so the reader can compare length and thickness at the same scale" },
     { "type": "p", "text": "Shape and color are less reliable than size. Cornell says rodent droppings are cylindrical with pointed to rounded ends and typically black, though the color can change with what the animal ate; green or red droppings may mean it fed on a rodenticide bait. Droppings with ridges running along their length suggest cockroaches rather than rodents: Arkansas Extension describes those ridges on cockroach droppings, and Cornell says rodent droppings have no lines." },
     { "type": "p", "text": "Do not sweep or vacuum them up; CDC's cleanup steps are at the end of this page. For fresh versus old droppings and more photos, see [what mouse droppings look like, fresh and old](/blog/what-does-mouse-poop-look-like-canada) and the [guide to rat droppings](/blog/rat-droppings)." },
+    { "type": "p", "text": "Droppings that match neither animal are compared by size, shape and where you found them in the [chart of droppings by animal](/blog/animal-droppings), from raccoon and opossum to rabbit, bat and lizard." },
 
     { "type": "h2", "text": "What other signs tell rats from mice?" },
     { "type": "p", "text": "Gnaw marks, entry holes and footprints all come in a rat size and a mouse size, and Norway rats add burrows:" },

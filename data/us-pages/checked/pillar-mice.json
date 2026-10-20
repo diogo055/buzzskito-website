@@ -2,7 +2,7 @@
  "id": "pillar-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6df728d32158734a2b6036c8dd63cfa0f4c2a825d7ca54e6e295fe316f97a48c",
+ "sha": "5f8ef67ab063fa6546330ef0d6343241321d2727333f495032e753625a19176a",
  "claimsChecked": 208,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 5,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/blog/fall-mouse-proofing-checklist"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence-pair paragraph added after the mouse droppings paragraph in 'What are the signs of a mouse infestation?' linking the new /blog/rat-droppings and /blog/animal-droppings; no fact changed.",
+   "previousSha": "6df728d32158734a2b6036c8dd63cfa0f4c2a825d7ca54e6e295fe316f97a48c"
+  }
  ]
 }

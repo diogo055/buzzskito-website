@@ -1,0 +1,494 @@
+{
+  "slug": "bat-poop",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "bat poop",
+  "alsoTargets": [
+    "bat droppings",
+    "bat guano in attic",
+    "bat poop vs mouse poop",
+    "what does bat poop look like",
+    "bat poop on siding"
+  ],
+  "metaTitle": "Bat Poop: What Bat Droppings Look Like (Photos)",
+  "metaDescription": "Bat poop is 1/8 to 1/4 inch, black and speckled, and crumbles into shiny insect bits; mouse poop stays hard. Real photos, health risks and safe cleanup.",
+  "h1": "Bat Poop: What Bat Droppings (Guano) Look Like and Whether They Are Dangerous",
+  "dek": "Bat droppings are mouse-sized but crumble into shiny bits of insect and pile up under a roost or a gap in the siding. Real photos at true scale, the bat-or-mouse test, CDC on the health risks, and the rules on removing bats.",
+  "breadcrumb": "Bat Poop",
+  "excerpt": "What bat poop looks like at true size, how to tell it from mouse droppings, where it shows up, what CDC says about the health risks, and how to clean it up safely.",
+  "datePublished": "2026-10-20",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
+  "quickAnswer": {
+    "lead": "**Bat droppings are about the size of mouse droppings, but they crumble to powder full of shiny insect bits and pile up below a roost or entry gap, while mouse droppings stay hard and lie scattered.** That crumble test comes from the [U.S. Fish and Wildlife Service's house bat manual](https://pubs.usgs.gov/rp/0143/report.pdf). Do it with gloves on.",
+    "bullets": [
+      "[Nebraska Extension](https://extensionpubs.unl.edu/publication/g1667/2012/html/view) gives individual bat droppings as 1/8 to 1/4 inch long, black and dotted with speckles, which are fragments of insect exoskeleton.",
+      "House mouse droppings are about 1/4 inch long, black, pointed at one end, hard when dry and scattered in high-traffic areas, says [ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/).",
+      "Bat droppings never contain the white, chalky uric acid that marks bird and lizard droppings, the USFWS manual says.",
+      "[CDC](https://www.cdc.gov/histoplasmosis/about/index.html) says histoplasmosis comes from breathing in spores of a fungus that spreads in bird and bat droppings mixed into soil, and that most people who breathe them in do not get sick.",
+      "Droppings are not how bats spread rabies; [CDC](https://www.cdc.gov/rabies/prevention/bats.html) says to avoid touching bats and to see a medical professional if you may have had contact with one."
+    ]
+  },
+  "facts": {
+    "title": "Bat poop or something else? Quick ID",
+    "head": [
+      "Droppings",
+      "What they look like",
+      "Where, and the tell"
+    ],
+    "rows": [
+      [
+        "Bat",
+        "1/8 to 1/4 inch, black, speckled with insect bits; crumble to powder when crushed",
+        "Piled below a roost or entry gap: attic and porch floors, under eaves and shutters"
+      ],
+      [
+        "House mouse",
+        "About 1/4 inch, black, pointed at one end, hard when dry",
+        "Scattered in high-traffic areas; not powdery when crushed unless very old"
+      ],
+      [
+        "Rat",
+        "About 1/2 inch (roof rat) to 1 inch (Norway rat), cylindrical, typically black",
+        "At 1/2 inch or longer, at least twice the length of a bat dropping"
+      ],
+      [
+        "Flying squirrel",
+        "Moist droppings, with urine stains nearby",
+        "Directly below the attic vent the squirrels use"
+      ],
+      [
+        "Bird or lizard",
+        "Marked with white, chalky uric acid",
+        "Sometimes found mixed in with bat droppings"
+      ]
+    ],
+    "caption": "From Nebraska Extension, the U.S. Fish and Wildlife Service, ICWDM and Cornell IPM, each linked on this page."
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "What does bat poop look like?"
+    },
+    {
+      "type": "p",
+      "text": "Bat poop looks like small, dark mouse droppings until you look closely. [Nebraska Extension's guide to bats in and around structures](https://extensionpubs.unl.edu/publication/g1667/2012/html/view) calls droppings the most common sign that bats are present and describes them as small, 1/8 to 1/4 inch long, black and dotted with speckles that are fragments of insect exoskeleton. [The Internet Center for Wildlife Damage Management's bat damage guide](https://icwdm.org/species/other-mammals/bats/bat-damage-identification/) calls them segmented, elongated and crumbly, and says they turn powdery when crushed, showing shiny bits of undigested insect."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bat-guano-cave-floor.webp",
+      "width": 1200,
+      "height": 1066,
+      "alt": "Close view of a layer of elongated, crumbly bat droppings flecked with tiny light fragments",
+      "caption": "A close view of bat droppings, or guano, on a cave floor below roosting bats near the Salton Sea, California, identified on iNaturalist by the observer and by the tracker Kim Cabrera. The pale flecks are most likely undigested bits of insect.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/339458266"
+    },
+    {
+      "type": "p",
+      "text": "Fresh guano can look flecked with pale specks. [ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/) explains that the white speckles in fresh guano are the remains of undigested insect wings, and [Bat Conservation International (BCI)](https://www.batcon.org/the-scoop-on-bat-poop/) notes that bats cannot digest the shiny, hard outer shells of insects. Those flecks are bits of insect, not the chalky white material on a bird's or lizard's dropping, which [the U.S. Fish and Wildlife Service's 1982 manual on house bats](https://pubs.usgs.gov/rp/0143/report.pdf) says bat droppings never contain."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bat-droppings-cave-inch-ruler.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Floor carpeted with small, dark, elongated droppings beside a green ruler marked in quarter inches",
+      "caption": "Bat droppings covering the floor of a desert cave near the Salton Sea, California, below bats the observer saw roosting there, beside a ruler marked in quarter inches. Compare the droppings with the quarter-inch marks.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/257314401"
+    },
+    {
+      "type": "p",
+      "text": "Guano, as bat droppings are also called, has long been used as fertilizer: BCI says the insect shells in it are rich in nitrogen, phosphorus and potassium, and the USFWS manual says bat guano was once mined commercially in the Southwest."
+    },
+    {
+      "type": "h2",
+      "text": "Is it bat poop or mouse poop?"
+    },
+    {
+      "type": "p",
+      "text": "Crush one: bat droppings crumble, mouse droppings do not. The USFWS manual says droppings of insect-eating bats are easily crushed, revealing shiny bits of undigested insect shell, while rodent droppings are unsegmented, harder and more fibrous. ICWDM adds that rodent droppings taper and do not turn powdery when crushed unless they are very old."
+    },
+    {
+      "type": "p",
+      "text": "Never test one bare-handed. BCI's version of the test is to squish a dropping while wearing gloves, hold it up to the light and wash your hands afterward: a dull dropping likely came from a mouse or other small rodent, and one that glitters came from a bat."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/mouse-droppings-ruler.webp",
+      "width": 655,
+      "height": 779,
+      "alt": "A few small, dark droppings on an orange surface with two coins above them and a ruler marked in centimeters below",
+      "caption": "Droppings the photographer identified as house mouse droppings, from a kitchen in the Netherlands, beside a ruler marked in centimeters. Mouse droppings are hard when dry and pointed at one end.",
+      "license": "CC-BY-SA-4.0",
+      "credit": "Hansmuller, CC BY-SA 4.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Housemouse_(Mus_musculus)_droppings_with_10_and_20_euro_cent_coins_and_a_ruler,_Utrecht,_The_Netherlands,_December_14,_2019.jpg"
+    },
+    {
+      "type": "p",
+      "text": "Size will not settle it: about 1/4 inch for a house mouse dropping, by ICWDM's key, against 1/8 to 1/4 inch for a bat's. The pattern helps more, since ICWDM says mouse droppings are scattered in high-traffic areas while bat droppings pile up below the bats' daytime roost. For mice, see [what mouse droppings look like, fresh and old](/blog/what-does-mouse-poop-look-like-canada), [the US guide to mouse poop](/blog/mouse-poop) and [a step-by-step plan for getting rid of mice](/blog/how-to-get-rid-of-mice-canada)."
+    },
+    {
+      "type": "p",
+      "text": "If you still cannot tell, clean up as if it were mouse droppings: [CDC's rodent cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html), set out below, soak the droppings with disinfectant first and never sweep or vacuum, which CDC says can put tiny droplets containing viruses into the air."
+    },
+    {
+      "type": "media",
+      "needed": "Bat droppings and house mouse droppings side by side on a white card beside one ruler marked in inches, with one of each crushed to show the bat dropping's shiny insect fragments against the mouse dropping's hard, dull inside"
+    },
+    {
+      "type": "h2",
+      "text": "What else looks like bat droppings?"
+    },
+    {
+      "type": "p",
+      "text": "Rat, flying squirrel, bird and lizard droppings are the other usual suspects, and each has a tell."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Rats.** Bigger. [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) gives roof rat droppings as about 1/2 inch long and Norway rat droppings as 3/4 to 1 inch, at least twice the length of a bat dropping; [the rat droppings guide](/blog/rat-droppings) covers both.",
+        "**Flying squirrels.** ICWDM describes moist droppings, with urine stains, directly below the attic vent the squirrels use to come and go; [the squirrel poop guide](/blog/squirrel-poop) covers them.",
+        "**Birds and lizards.** Insect-eating birds and lizards sometimes leave droppings among bat droppings, the USFWS manual says, but theirs carry white, chalky uric acid, which bat droppings never contain.",
+        "**Anything much bigger.** Droppings 2 inches long or more on a deck, roof or lawn come from bigger animals; see [raccoon poop](/blog/raccoon-poop), [possum poop](/blog/possum-poop) and [the animal poop identification chart](/blog/animal-droppings)."
+      ]
+    },
+    {
+      "type": "confused",
+      "items": [
+        {
+          "href": "/blog/mouse-poop",
+          "name": "House mouse",
+          "photo": "house-mouse-on-stove",
+          "note": "Droppings about 1/4 inch, hard and pointed at one end, scattered rather than piled",
+          "alt": "House mouse peering out from the coil burner of a kitchen stove"
+        },
+        {
+          "href": "/blog/rat-droppings",
+          "name": "Rat droppings",
+          "photo": "norway-rat-droppings-cornell",
+          "note": "1/2 to 1 inch long: at least twice the length of a bat dropping",
+          "alt": "A dozen dark, blunt-ended Norway rat droppings on a white background"
+        },
+        {
+          "href": "/blog/squirrel-poop",
+          "name": "Flying squirrel",
+          "photo": "flying-squirrel-attic",
+          "note": "Moist droppings and urine stains right below the attic vent it uses",
+          "alt": "Flying squirrel climbing a brick chimney inside an attic, in a trail-camera image"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where do bat droppings show up?"
+    },
+    {
+      "type": "p",
+      "text": "Below wherever bats roost or squeeze in and out. The USFWS manual says bats nearly always reveal their presence by droppings left beneath entrance holes and below roosts, and that brown stains and odors near the eaves of wooden buildings often mean bats inside. Nebraska Extension lists attic and porch floors and the spots under eaves and shutters, and ICWDM adds wall recesses."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**The attic floor.** Droppings pile up in the attic below the bats' daytime roost, ICWDM's key says, and Nebraska Extension says droppings and urine build up beneath a colony over time, staining the area and leaving a pungent smell in enclosed spaces.",
+        "**Siding, windows and cars.** Bats urinate and defecate as they leave a roost, ICWDM says, spotting and staining the sides of buildings, windows, patio furniture and cars, and its droppings key notes that droppings sometimes catch in spider webs.",
+        "**Shutters and porches.** Shutters on brick houses are favored day roosts for migrating bats and for males during the nursing season, the USFWS manual says, and a big brown bat resting on a porch after feeding leaves a few droppings below the spot each morning."
+      ]
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bat-droppings-siding.webp",
+      "width": 1200,
+      "height": 904,
+      "alt": "Clumps of small, dark droppings stuck to brown-painted wooden siding on both sides of a narrow gap between boards",
+      "caption": "Droppings identified on iNaturalist as big brown bat droppings, stuck to the wooden siding of a building in Watson, Minnesota, beside a gap between the boards.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Matt Muir, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/184631840"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bat-droppings-bat-box-ruler.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Two small, dark, crumbly-looking droppings on weathered wood beside a white ruler",
+      "caption": "Two droppings that fell from a bat box onto weathered wood in Windsor, Connecticut, identified on iNaturalist as big brown bat droppings by bat researcher Paul R. Moosman Jr.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Mark Apgar, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/116896641"
+    },
+    {
+      "type": "media",
+      "needed": "Bat droppings piled on attic insulation or floorboards below a roost in a US house, beside a ruler marked in inches, public domain or CC0, identified by a wildlife agency or a bat researcher"
+    },
+    {
+      "type": "h2",
+      "text": "What does finding bat droppings mean?"
+    },
+    {
+      "type": "p",
+      "text": "It means bats are roosting nearby, inside or out, and a pile that keeps growing means they are still there. ICWDM says rub marks, guano and sightings of bats are usually enough to confirm bats, and Nebraska Extension describes the rub marks as smudges of oil and dirt from the bats' fur at entry points near eaves, vents, chimneys and cracks."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bat-droppings-ruler.webp",
+      "width": 1200,
+      "height": 1467,
+      "alt": "Several dark, crumbly, elongated droppings on paper under a clear plastic ruler",
+      "caption": "Droppings that tipped off the observer to little brown bats roosting in a patio umbrella on Prince Edward Island, Canada; the bats were identified on iNaturalist.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Barry Cottam, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/92243395"
+    },
+    {
+      "type": "p",
+      "text": "Listen around dusk. The USFWS manual says bats often get noisy before they leave the roost at sunset, so noise that rises around dusk probably means bats, while scrambling, scratching and thumping can come from rats, mice or flying squirrels. Most bats start to leave a building about 15 minutes after sunset, it adds, so watch the outside of the house then to see where they come out."
+    },
+    {
+      "type": "p",
+      "text": "Smell is a sign too: ICWDM says decomposing droppings give off an unpleasant odor that can often be noticed from outside a building with a large or long-term colony, though the USFWS manual says the odor itself is not dangerous. [The guide to noises in the attic at night](/blog/animals-in-attic) sorts bats from mice, rats, squirrels and raccoons by sound and sign."
+    },
+    {
+      "type": "h2",
+      "text": "Is bat poop dangerous?"
+    },
+    {
+      "type": "p",
+      "text": "It can be, mainly because of histoplasmosis, a lung infection. [CDC](https://www.cdc.gov/histoplasmosis/about/index.html) says people get it by breathing in spores of *Histoplasma*, a fungus that lives in soil and spreads in bird and bat droppings that mix into soil; in the United States it mainly lives in the central and eastern states. [CDC's workplace safety institute, NIOSH](https://www.cdc.gov/niosh/histoplasmosis/about/environment.html), adds that unlike birds, bats can become infected with the fungus and may excrete it in their droppings."
+    },
+    {
+      "type": "p",
+      "text": "Most people who breathe in the spores do not get sick, CDC says, and the infection does not spread between people or between people and pets. When it does make someone ill, fever, cough, fatigue, chills, headache, chest pain or body aches usually start 3 to 17 days later, and people with weakened immune systems can develop a long-term lung infection. [CDC's prevention page](https://www.cdc.gov/histoplasmosis/prevention/index.html) adds that adults over 55 and infants are at higher risk."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "When to ask about testing",
+      "text": "CDC says to ask a healthcare provider about testing for histoplasmosis if you live in or recently traveled to an area where the fungus lives and you have symptoms of pneumonia, or you took prescribed antibiotics and are not getting better. Early testing and antifungal treatment help prevent severe infections, CDC adds."
+    },
+    {
+      "type": "p",
+      "text": "Bat droppings are not how people catch rabies. [CDC's page on preventing rabies from bats](https://www.cdc.gov/rabies/prevention/bats.html) says bats are the most reported rabid animals in the United States and that most people in the US who die of rabies were exposed to a rabid bat, but the danger is bites and saliva. CDC's [2008 rabies prevention recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm) count contact with an animal's blood, urine or feces as indirect contact that is not an exposure."
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "If you may have touched a bat",
+      "text": "Bat bites can be so tiny you may not know you were bitten, CDC says, so avoid touching bats and see a medical professional after any possible contact; CDC's 2008 recommendations give waking up to find a bat in the room as an example of contact that may go unnoticed. If a bat is inside your home, CDC says to have animal control or your health department capture it safely for rabies testing, and not to release it until you have talked with a public health expert."
+    },
+    {
+      "type": "h2",
+      "text": "How do you clean up bat droppings safely?"
+    },
+    {
+      "type": "p",
+      "text": "Wet them first, never sweep them up dry, and leave large amounts to professionals. [NIOSH's guidance on removing bird and bat droppings](https://www.cdc.gov/niosh/histoplasmosis/prevention/elimination-and-engineering-controls.html) says to avoid shoveling or sweeping dry, dusty material, to spray it carefully with water to keep it out of the air, and to collect the wet material in a secure container for disposal."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**A few droppings** on a sill, porch or car that might be a mouse's: use CDC's rodent cleanup steps. Indoors, air the room out for 30 minutes first. Then, in rubber or plastic gloves, spray the droppings with an EPA-registered disinfectant or 1.5 cups of household bleach in 1 gallon of water until very wet, wait 5 minutes or as the label directs, wipe them up with paper towels into a covered garbage can, and wash your hands with the gloves on and again after taking them off.",
+        "**A pile in an attic or wall.** CDC says large amounts of bird or bat droppings should be cleaned up by professional companies that specialize in hazardous waste removal. NIOSH rates disturbing or cleaning up large accumulations of bat droppings as high-risk work, recommending a powered air-purifying respirator or a full-facepiece respirator with 100-series filters, plus gloves, disposable coveralls and shoe covers, in [its protective equipment guidance](https://www.cdc.gov/niosh/histoplasmosis/prevention/personal-protective-equipment.html).",
+        "**Disposal.** NIOSH says material that might carry the fungus should be disposed of properly and safely under state and local rules, and notes that some landfill rules treat it as infectious waste."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Clean up after the bats are out, or the pile will simply grow back: NIOSH says the best way to prevent exposure is to keep droppings from building up in the first place, by finding and sealing entry and exit points."
+    },
+    {
+      "type": "h2",
+      "text": "Can you get rid of bats yourself?"
+    },
+    {
+      "type": "p",
+      "text": "Not by harming them, and often not in summer. Bats have legal protection in some states. New Jersey's [nuisance wildlife control guidelines for bats](https://dep.nj.gov/wp-content/uploads/njfw/nuisance-wildlife-control-guidelines-for-bats-2026-04-01.pdf) note that a state law, the Endangered and Nongame Species Conservation Act, makes it illegal to harass, capture or kill bats, and rule out lethal methods and glue traps. [Wisconsin's Department of Natural Resources](https://dnr.wisconsin.gov/topic/WildlifeHabitat/Bats) lists the little brown, big brown, northern long-eared and tricolored bats as state threatened, and [its bat FAQ](https://dnr.wisconsin.gov/topic/EndangeredResources/batFAQs) says it is illegal to kill bats there."
+    },
+    {
+      "type": "p",
+      "text": "In Canada, the little brown myotis, northern myotis and tri-colored bat are listed as endangered under the federal [Species at Risk Act](https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/factsheets/bats-white-nose-syndrome/emergency-listing-order.html), which protects them on federal lands, and CDC notes that some bats are endangered and that local rules or laws on removing bats apply."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/big-brown-bat.webp",
+      "width": 1200,
+      "height": 889,
+      "alt": "Big brown bat with glossy brown fur, dark ears and folded wings clinging head-down to white-painted wooden boards",
+      "caption": "A big brown bat clinging to white-painted wood in Stevens County, Minnesota, in a U.S. Fish and Wildlife Service photo. Wisconsin lists the big brown bat among its threatened, legally protected bats.",
+      "license": "public-domain",
+      "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Brown_Bat_(21925795404).jpg"
+    },
+    {
+      "type": "p",
+      "text": "Timing matters because of the young. New Jersey's 2026 guidelines allow exclusions only from April 1 to May 14 and August 1 to October 15: from May 15 to July 31 young that cannot yet fly die if their mothers are shut out, and from October 16 to March 31 bats, especially big brown bats, may be wintering in the building. Wisconsin bars exclusions from June 1 through July 31 unless the landowner files a health exemption form. CDC calls fall and winter the best times to bat-proof and warns against trapping young bats inside between May and August."
+    },
+    {
+      "type": "p",
+      "text": "The method wildlife agencies describe is exclusion: seal the smaller gaps, fit one-way devices at the bats' main exit so they can leave but not return, and seal it once all have gone; New Jersey says to leave the devices at least a week, including 3 nights in a row above 50°F. NIOSH says ultrasonic devices and chemical repellents do not work for clearing bats from a roost. Because rules differ by state and province, hire a licensed wildlife professional who knows them; CDC notes that an animal control or wildlife conservation agency can bat-proof a home."
+    },
+    {
+      "type": "p",
+      "text": "Their parasites can linger: the USFWS manual says bat parasites such as ticks, mites, fleas and bugs are most likely to become a nuisance after a house is bat-proofed, and quickly die without bats. [The guide to bugs that look like bed bugs](/blog/bugs-that-look-like-bed-bugs) shows how to tell a bat bug from a bed bug, and [the bat bug guide](/blog/bat-bugs) covers them."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do once you know it's bats?"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Leave the bats alone,** and call animal control or your health department if one gets into the living space, as CDC advises.",
+        "**Find the way in** by watching the outside of the house from about 15 minutes after sunset.",
+        "**Plan the exclusion** for the right season with a licensed wildlife professional; [the guide to animals in the attic](/blog/animals-in-attic) covers sealing an attic.",
+        "**Clean up afterward,** wetting small amounts first and leaving large piles to a hazardous waste cleanup company."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Photograph it, don't handle it",
+      "text": "Photograph a few droppings beside a ruler marked in inches without touching them, note where they lie, such as under a gap, a shutter or a vent, and check whether new ones appear each morning. Your state's cooperative extension office or a licensed wildlife professional can use those details to confirm bats."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are bat droppings harmful?",
+      "answer": "They can be. CDC says histoplasmosis, a lung infection, comes from breathing in spores of a fungus that spreads in bird and bat droppings mixed into soil, and NIOSH says bats can become infected and may excrete the fungus in their droppings. Most people who breathe in the spores do not get sick, CDC says, but the infection can become long-term in people with weakened immune systems. Never sweep droppings up dry, and leave large amounts to a hazardous waste cleanup company, as CDC advises."
+    },
+    {
+      "question": "What should I do if I find bat poop?",
+      "answer": "Leave it in place at first and look for where it came from: bat droppings pile up below a roost or an entry gap. Photograph a few beside a ruler, check with gloves on whether one crumbles into shiny bits, and watch the spot around dusk for bats leaving. Wet small amounts before wiping them up; CDC says large amounts should be cleaned up by a company that specializes in hazardous waste. Plan any exclusion around your state's timing rules."
+    },
+    {
+      "question": "How do you tell if you have mice or bats?",
+      "answer": "Look at the droppings and listen at dusk. Bat droppings crumble into shiny bits of insect and pile up below a roost, while mouse droppings are hard, pointed at one end and scattered in high-traffic areas, ICWDM says. The USFWS house bat manual says noise that rises around dusk, when bats get ready to leave, probably means bats, while scrambling and scratching can be mice, rats or flying squirrels. Bats also leave smudges of oil and dirt at their entry points."
+    },
+    {
+      "question": "Do bat droppings carry rabies?",
+      "answer": "Droppings are not how rabies spreads. CDC's 2008 rabies prevention recommendations treat contact with an animal's blood, urine or feces as indirect contact that is not an exposure; the risk from bats is bites and saliva. CDC says bat bites can be so tiny that you may not know you were bitten, so avoid touching bats, see a medical professional if you may have had contact with one, and call animal control or your health department if a bat is inside your home."
+    },
+    {
+      "question": "What does bat poop look like on siding or a window?",
+      "answer": "Small, dark specks and smears below the gap where bats come and go. Bats urinate and defecate as they leave a roost, ICWDM says, spotting and staining the sides of buildings, windows, patio furniture and cars. The droppings themselves are 1/8 to 1/4 inch long and crumble when pressed. Look above the marks for a gap at the eaves, the trim or behind a shutter, where bats may be roosting."
+    },
+    {
+      "question": "Is it safe to clean up bat guano yourself?",
+      "answer": "It depends on how much there is. For a few droppings, take the precautions CDC and NIOSH give for droppings: wear gloves, wet them before you wipe them up, and never sweep them dry. A large accumulation, such as an attic floor covered in guano, is different: CDC says large amounts of bird or bat droppings should be cleaned up by professional companies that specialize in hazardous waste removal, and NIOSH treats that work as high risk, recommending a powered or full-facepiece respirator and protective clothing."
+    },
+    {
+      "question": "How much bat poop means bats in the attic?",
+      "answer": "Any amount means bats have used the spot; Nebraska Extension calls droppings the most common sign that bats are present. A pile that keeps growing, with staining and a pungent smell, points to a colony, since droppings and urine build up beneath one over time. A few droppings below a shutter or a porch can come from bats resting there. Watch outside around 15 minutes after sunset, when the USFWS manual says most bats start to leave."
+    },
+    {
+      "question": "Can I remove bats myself?",
+      "answer": "Not by harming or trapping them, and often not in summer. In New Jersey, for example, all native nongame wildlife is protected by state law, lethal methods are ruled out, and bat exclusions are allowed only from April 1 to May 14 and from August 1 to October 15, partly because young bats that cannot yet fly die if their mothers are shut out in summer. Exclusion means sealing gaps and fitting one-way devices so the bats leave on their own. A licensed wildlife professional who knows your state's rules is the safer route."
+    },
+    {
+      "question": "What is bat guano used for?",
+      "answer": "Mostly as fertilizer. Bat Conservation International says the bits of insect shell in bat guano are rich in nitrogen, phosphorus and potassium, and recommends mixing guano with water before applying it to a garden. The U.S. Fish and Wildlife Service's 1982 house bat manual notes that bat guano was once mined commercially in the Southwest. Droppings that build up inside a house are a health concern instead, and CDC advises leaving large amounts to hazardous waste professionals."
+    },
+    {
+      "question": "Does bat poop smell?",
+      "answer": "It does once it builds up. ICWDM says bat droppings give off an unpleasant odor as they decompose in attics and wall spaces, a sharp, musty smell that can often be noticed from outside a building with a large or long-term colony. Nebraska Extension says droppings and urine collecting beneath a colony lead to staining and a pungent odor in enclosed spaces. The USFWS house bat manual adds that the odor can be pungent but is not dangerous."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bats in and Around Structures (NebGuide G1667, revised 2012)",
+      "publisher": "University of Nebraska-Lincoln Extension",
+      "url": "https://extensionpubs.unl.edu/publication/g1667/2012/html/view"
+    },
+    {
+      "title": "Bat Damage Identification",
+      "publisher": "Internet Center for Wildlife Damage Management",
+      "url": "https://icwdm.org/species/other-mammals/bats/bat-damage-identification/"
+    },
+    {
+      "title": "Brown or Black Droppings",
+      "publisher": "Internet Center for Wildlife Damage Management",
+      "url": "https://icwdm.org/identification/inspection/brown-or-black-droppings/"
+    },
+    {
+      "title": "House Bat Management (Resource Publication 143, 1982), by Arthur M. Greenhall",
+      "publisher": "U.S. Fish and Wildlife Service, via the USGS Publications Warehouse",
+      "url": "https://pubs.usgs.gov/rp/0143/report.pdf"
+    },
+    {
+      "title": "The Scoop on Bat Poop (April 24, 2024)",
+      "publisher": "Bat Conservation International",
+      "url": "https://www.batcon.org/the-scoop-on-bat-poop/"
+    },
+    {
+      "title": "How to Clean Up After Rodents",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html"
+    },
+    {
+      "title": "Mouse and Rat Biology and Behavior",
+      "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University",
+      "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior"
+    },
+    {
+      "title": "About Histoplasmosis",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/histoplasmosis/about/index.html"
+    },
+    {
+      "title": "Reducing Risk for Histoplasmosis",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/histoplasmosis/prevention/index.html"
+    },
+    {
+      "title": "Histoplasma in the Environment: An Overview",
+      "publisher": "National Institute for Occupational Safety and Health (NIOSH), CDC",
+      "url": "https://www.cdc.gov/niosh/histoplasmosis/about/environment.html"
+    },
+    {
+      "title": "Elimination and Engineering Controls (Histoplasmosis and Work)",
+      "publisher": "National Institute for Occupational Safety and Health (NIOSH), CDC",
+      "url": "https://www.cdc.gov/niosh/histoplasmosis/prevention/elimination-and-engineering-controls.html"
+    },
+    {
+      "title": "Personal Protective Equipment (Histoplasmosis and Work)",
+      "publisher": "National Institute for Occupational Safety and Health (NIOSH), CDC",
+      "url": "https://www.cdc.gov/niosh/histoplasmosis/prevention/personal-protective-equipment.html"
+    },
+    {
+      "title": "Preventing Rabies from Bats",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/rabies/prevention/bats.html"
+    },
+    {
+      "title": "Human Rabies Prevention, United States, 2008: Recommendations of the Advisory Committee on Immunization Practices",
+      "publisher": "Centers for Disease Control and Prevention, Morbidity and Mortality Weekly Report",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5703a1.htm"
+    },
+    {
+      "title": "Nuisance Wildlife Control Guidelines for Bats (last updated April 1, 2026)",
+      "publisher": "New Jersey Department of Environmental Protection, Fish & Wildlife, Endangered and Nongame Species Program",
+      "url": "https://dep.nj.gov/wp-content/uploads/njfw/nuisance-wildlife-control-guidelines-for-bats-2026-04-01.pdf"
+    },
+    {
+      "title": "Wisconsin Bat Program",
+      "publisher": "Wisconsin Department of Natural Resources",
+      "url": "https://dnr.wisconsin.gov/topic/WildlifeHabitat/Bats"
+    },
+    {
+      "title": "Bat Frequently Asked Questions",
+      "publisher": "Wisconsin Department of Natural Resources",
+      "url": "https://dnr.wisconsin.gov/topic/EndangeredResources/batFAQs"
+    },
+    {
+      "title": "3 species of bat: fact sheet on emergency listing order",
+      "publisher": "Environment and Climate Change Canada",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/factsheets/bats-white-nose-syndrome/emergency-listing-order.html"
+    }
+  ],
+  "disclaimer": "health"
+}

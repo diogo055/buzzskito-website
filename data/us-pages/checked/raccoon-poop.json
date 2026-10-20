@@ -1,0 +1,15 @@
+{
+ "id": "raccoon-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b7c4ae958e6fca0e63a2e9dd4617cc5b236d4d65e474173372a04e41c8ccc048",
+ "claimsChecked": 174,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

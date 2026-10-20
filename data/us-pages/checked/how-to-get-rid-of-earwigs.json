@@ -1,0 +1,15 @@
+{
+ "id": "how-to-get-rid-of-earwigs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "9f4a6923bac646c152d484b710a0826e4709c55f00e537ca77b0fc3fdf694a8b",
+ "claimsChecked": 270,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

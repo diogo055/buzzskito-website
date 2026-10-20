@@ -319,6 +319,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Does Alcohol Kill Bed Bugs? What the Research Says About Rubbing Alcohol: https://buzzskito.ca/blog/does-alcohol-kill-bed-bugs
 - Does Lysol Kill Bed Bugs? What the Label, the Research and the EPA Say: https://buzzskito.ca/blog/does-lysol-kill-bed-bugs
 - Signs of Bed Bugs: A 7-Point Checklist to Run Tonight: https://buzzskito.ca/blog/signs-of-bed-bugs-checklist
+- Bed Bug Poop: What Bed Bug Droppings and Stains Look Like: https://buzzskito.ca/blog/bed-bug-poop
 
 ### Ants
 - Sugar Ants: What They Really Are and How to Get Rid of Them: https://buzzskito.ca/blog/sugar-ants
@@ -367,6 +368,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Rat vs Mouse: How to Tell Them Apart by Size, Tail, Ears and Droppings: https://buzzskito.ca/blog/rat-vs-mouse
 - Roof Rat vs Norway Rat: Tail, Ears, Droppings and Where Each Lives: https://buzzskito.ca/blog/roof-rat-vs-norway-rat
 - Rat Droppings: What Rat Poop Looks Like, Next to Mouse and Squirrel: https://buzzskito.ca/blog/rat-droppings
+- Mouse Poop: What Mouse Droppings Look Like, Next to Rat, Bat and Roach Droppings: https://buzzskito.ca/blog/mouse-poop
 
 ### Cockroaches
 - German Cockroaches: Identification, Habits and the Control Plan That Works: https://buzzskito.ca/blog/german-cockroaches
@@ -378,6 +380,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Where Do Cockroaches Come From? The Four Ways They Get Into a Home: https://buzzskito.ca/blog/where-do-cockroaches-come-from
 - Palmetto Bugs: What They Are and How They Compare With Other Roaches: https://buzzskito.ca/blog/palmetto-bugs
 - What Do Cockroach Eggs Look Like? Egg Cases Species by Species: https://buzzskito.ca/blog/cockroach-eggs
+- Cockroach Poop: What Roach Droppings Look Like and What They Mean: https://buzzskito.ca/blog/cockroach-droppings
 - How to Get Rid of Roaches: Identify the Species, Then Bait in the Right Order: https://buzzskito.ca/blog/how-to-get-rid-of-cockroaches
 
 ### Mosquitoes
@@ -446,13 +449,20 @@ Source-cited identification and how-to guides written for readers in the United 
 - Spiders in Texas: Common Species, Recluses, Tarantulas and Which Bite: https://buzzskito.ca/blog/spiders-in-texas
 - Spider Egg Sacs: Which Spider Made It, and What to Do About It: https://buzzskito.ca/blog/spider-egg-sacs
 
+### Flies and gnats
+- Why Are There So Many Flies in My House? Find the Fly, Then the Source: https://buzzskito.ca/blog/flies-in-house
+- How to Get Rid of Gnats: Identify the Gnat First, Then Fix Its Source: https://buzzskito.ca/blog/how-to-get-rid-of-gnats
+
 ### Household bugs
 - What Do Fleas Look Like? Adult Fleas Up Close, on Pets and People: https://buzzskito.ca/blog/what-do-fleas-look-like
 - How to Get Rid of Fleas in the House: The Order That Breaks the Life Cycle: https://buzzskito.ca/blog/how-to-get-rid-of-fleas
 - House Centipedes: What They Are, Whether They Bite and How to Get Rid of Them: https://buzzskito.ca/blog/house-centipedes
+- How to Get Rid of Silverfish: Humidity First, Then Baits and Dusts: https://buzzskito.ca/blog/how-to-get-rid-of-silverfish
 - How to Get Rid of Carpet Beetles: Identify the Larvae, Remove What They Eat: https://buzzskito.ca/blog/how-to-get-rid-of-carpet-beetles
 - How to Get Rid of Stink Bugs: Remove Them Without Crushing, Then Seal: https://buzzskito.ca/blog/how-to-get-rid-of-stink-bugs
+- Millipedes in the House: Why They Come In and How to Keep Them Out: https://buzzskito.ca/blog/millipedes
 - Asian Lady Beetle vs Ladybug: How to Tell Them Apart, Bites and Fall Swarms: https://buzzskito.ca/blog/asian-lady-beetles
+- How to Get Rid of Earwigs: Traps, Moisture and the Ear Myth: https://buzzskito.ca/blog/how-to-get-rid-of-earwigs
 - Bugs in Flour and Rice: How to Identify the Pantry Pests: https://buzzskito.ca/blog/pantry-pests
 - Tiny Black Bugs in the House: What They Are, by Where You Found Them: https://buzzskito.ca/blog/tiny-black-bugs
 - What Do Flea Eggs Look Like? Eggs, Larvae and Flea Dirt Compared: https://buzzskito.ca/blog/flea-eggs
@@ -471,6 +481,8 @@ Source-cited identification and how-to guides written for readers in the United 
 - Noises in the Attic at Night: Which Animal Is Up There, by Sound and Sign: https://buzzskito.ca/blog/animals-in-attic
 - Small Holes in the Yard: Which Animal Dug Them, by Size, Shape and Mound: https://buzzskito.ca/blog/holes-in-yard
 - Animal Poop Identification: A Photo Chart of Droppings by Animal and Place: https://buzzskito.ca/blog/animal-droppings
+- Raccoon Poop: What Raccoon Droppings and Latrines Look Like: https://buzzskito.ca/blog/raccoon-poop
+- Bat Poop: What Bat Droppings (Guano) Look Like and Whether They Are Dangerous: https://buzzskito.ca/blog/bat-poop
 
 ### Hiring and DIY pest control
 - How Much Is Pest Control? Typical US Prices by Visit, Plan and Pest: https://buzzskito.ca/blog/how-much-is-pest-control

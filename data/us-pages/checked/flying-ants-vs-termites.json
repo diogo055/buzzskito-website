@@ -2,9 +2,16 @@
  "id": "flying-ants-vs-termites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4a19c0f787008bcd36c485936b5b8b29003a8a69f6161e9e43d784b802a844b8",
+ "sha": "4c42275c5de9bca997ac874c6ec1556e6af6f08c7458ddfd93c16fc069635d3f",
  "claimsChecked": 62,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 4,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: two one-sentence paragraphs added in 'What do frass, mud tubes and damaged wood tell you?': /blog/termite-droppings after the pellet paragraph, /blog/termite-damage after the mud tube paragraph; no fact changed.",
+   "previousSha": "4a19c0f787008bcd36c485936b5b8b29003a8a69f6161e9e43d784b802a844b8"
+  }
+ ]
 }

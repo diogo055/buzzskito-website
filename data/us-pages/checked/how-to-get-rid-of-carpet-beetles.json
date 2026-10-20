@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-carpet-beetles",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5d7021985f60ad06a08eff2d3865c47c8b99dd3df02a68db3a87d0e897a5649d",
+ "sha": "436607fc9178d76e0c35846ced5c9ec28f70382bf9d9b415f0f31eee1f454795",
  "claimsChecked": 296,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: the clothes-moths link now points to the new moths-in-house page, which covers clothes moths (the planned clothes-moths page is replaced by it); no fact changed.",
    "previousSha": "91265f55c1fc8526f41354b81809dc256e15c7b1c8d976e5a463862b6d63afe3"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the species table in 'What do carpet beetles look like?' linking the new /blog/beetles-in-house; no fact changed.",
+   "previousSha": "5d7021985f60ad06a08eff2d3865c47c8b99dd3df02a68db3a87d0e897a5649d"
   }
  ]
 }

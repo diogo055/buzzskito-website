@@ -1,0 +1,15 @@
+{
+ "id": "how-to-get-rid-of-silverfish",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "36c8400d608c24e3cf2455763b4b42165aa461d077d0fb20cdb3eeced45987f8",
+ "claimsChecked": 280,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 2,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

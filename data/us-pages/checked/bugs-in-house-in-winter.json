@@ -2,7 +2,7 @@
  "id": "bugs-in-house-in-winter",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8a1c9cbf48f79ae4c3301491e1632088eaacdd5784f14f4f42960ed681092ff4",
+ "sha": "7418608456347b6605bebec7fc5b765a64e02ab826f64034fd2890557be06e5b",
  "claimsChecked": 420,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 1,
@@ -17,6 +17,11 @@
    "on": "2026-10-16",
    "note": "Softened 'live in the house all year rather than moving in for the winter' to 'can live ... rather than only moving in': Missouri Department of Conservation says house centipedes move indoors especially in winter; Penn State says they reproduce in heated buildings (flagged by the house-centipedes fact-check, Oct 16).",
    "previousSha": "92779a7a7e979009fa0e6519ca57d1ae47d20393b92cd8a7881d22ea0a597e02"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added at the end of 'What are the small bugs in my house in winter?' linking the new /blog/beetles-in-house; no fact changed.",
+   "previousSha": "8a1c9cbf48f79ae4c3301491e1632088eaacdd5784f14f4f42960ed681092ff4"
   }
  ]
 }
