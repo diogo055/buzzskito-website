@@ -1,0 +1,965 @@
+{
+  "_readme": "One amazon.com pick per US guide (content/guides/*.json with kind 'spoke' and no locale; the 4 pillars and the 7 en-CA guides are excluded). One page = one store: these pages link amazon.com only, never amazon.ca. Fields: label (what the product is for, shown on the page), name (generic product type, shown), search (amazon.com search words), basis (where the page itself recommends or uses this product type; for review only, not shown). Rules followed: the page must already support the pick; nothing the page warns against; pesticides only as the generic type the page names and recommends; repellent actives only as the page names them, permethrin for clothing only; no traps, poisons or handling tools for wildlife or snakes; bite pages carry only items the page names from its medical sources. Where a page recommends nothing to buy, the pick is a neutral identification or monitoring aid from the page's own method, and the basis says so. Generic types only: no brands, prices, ratings or claims. Picks chosen October 20, 2026.",
+  "picks": {
+    "alaska-mosquitoes": {
+      "label": "To shield face and neck",
+      "name": "Mosquito head net",
+      "search": "mosquito head net",
+      "basis": "'How should you protect yourself from mosquitoes in Alaska?': the National Park Service's advice for Brooks Range visitors lists head nets, bug coats, long pants and insect repellents; list item 'Head net and bug coat. The park service names both, and recommends pairing them with a billed cap.'"
+    },
+    "animal-droppings": {
+      "label": "For safe droppings cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'How do you clean up animal droppings safely?': CDC's rodent cleanup steps say to wear rubber or plastic gloves before soaking droppings with disinfectant; CDC's raccoon latrine steps start with disposable gloves; FAQ 'Is it safe to clean up raccoon poop yourself?' repeats disposable gloves."
+    },
+    "animals-in-attic": {
+      "label": "For attic droppings cleanup",
+      "name": "N95 respirator mask",
+      "search": "n95 respirator mask",
+      "basis": "'Are animals in the attic a health risk?': 'CDC says to wear disposable gloves and, in a confined space such as an attic, an N95-rated respirator, to mist the droppings lightly so they do not raise dust'. CDC cleanup advice cited on the page, as rule 4 requires."
+    },
+    "ant-killer-recipes": {
+      "label": "To keep bait enclosed",
+      "name": "Refillable ant bait stations",
+      "search": "refillable ant bait stations",
+      "basis": "The page's recipes go in an enclosed station: 'use an enclosed station, not the open bottle caps the guide pictures'; recipe card 'Station: small lidded container ... out of reach of children and pets'; FAQ on outdoor use: the University of California describes liquid borate bait 'in refillable bait stations'. Empty stations only; no pesticide picked."
+    },
+    "aphid-control-guide": {
+      "label": "When a spray is needed",
+      "name": "Insecticidal soap concentrate",
+      "search": "insecticidal soap concentrate",
+      "basis": "Quick answer: spray insecticidal soap or neem oil only if water, pruning and natural enemies are not enough, and UC calls soaps and oils the best choices when a spray is needed; FAQ 'Can I use dish soap and water to kill aphids?': extension sources steer gardeners to a commercial insecticidal soap; recipe uses concentrate (potassium salts of fatty acids) at 1 to 2 percent."
+    },
+    "are-mice-nocturnal": {
+      "label": "To trap night-active mice",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "'When should you set and check mouse traps?': CDC says to put the baited end of a snap trap next to the wall so it forms a T, and Nebraska Extension's rough guide is two dozen snap traps for a new infestation; the page notes CDC advises against glue and live traps. Quick answer bullet: CDC says to check traps daily."
+    },
+    "are-mosquitoes-attracted-to-light": {
+      "label": "For porch and patio lights",
+      "name": "Yellow incandescent bug light bulbs",
+      "search": "yellow incandescent bug light",
+      "basis": "'Do yellow or LED bulbs help keep mosquitoes away?': yellow bug lights are 'the one bulb change the sources support'; EPA says they tend to attract fewer mosquitoes than ordinary lights but are not repellents, and the AMCA wording is about incandescent bulbs (LEDs untested), hence incandescent. The page says a bulb does not stand in for repellent, clothing or screens."
+    },
+    "army-ants": {
+      "label": "To seal slab cracks",
+      "name": "Concrete crack filler",
+      "search": "concrete crack filler",
+      "basis": "'What should you do if army ants turn up in a house?': after the colony moves on, the University of Tennessee advice is to 'repair cracks in the foundation or slab and do other pest-proofing so the ants cannot return'. The page recommends no product for the ants themselves (leave them, avoid contact)."
+    },
+    "asian-lady-beetles": {
+      "label": "To vacuum up clusters",
+      "name": "Wet/dry shop vacuum",
+      "search": "wet dry shop vacuum",
+      "basis": "'How do you get rid of Asian lady beetles in the house?': 'Ohio State recommends a fan-bypass vacuum such as a shop vacuum, not a direct-fan machine'; Penn State calls vacuuming the most efficient way to remove clusters; FAQ: beetles already inside are best removed with a vacuum. Foggers are ruled out."
+    },
+    "baby-mice": {
+      "label": "For nest cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'What should you do about a nest of baby mice?': 'Clean the nest up with gloves and disinfectant, without sweeping or vacuuming'; step 'Put on rubber or plastic gloves'; wash gloved hands before taking the gloves off (CDC)."
+    },
+    "bat-poop": {
+      "label": "For testing and cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "Quick answer: the USFWS crumble test separates bat from mouse droppings, 'Do it with gloves on'; BCI's version is to squish a dropping while wearing gloves; 'How do you clean up bat droppings safely?': in rubber or plastic gloves, spray droppings with an EPA-registered disinfectant or bleach solution (CDC). Nothing for the bats themselves is picked: the page cites New Jersey law against harassing, capturing or killing bats, and NIOSH says ultrasonic devices and repellents do not work."
+    },
+    "bed-bug-poop": {
+      "label": "To seal the mattress",
+      "name": "Bed bug mattress encasement",
+      "search": "bed bug mattress encasement",
+      "basis": "'Can you wash bed bug poop stains out?' and FAQ 'Do you have to throw out a mattress with bed bug stains?': Cornell advises a bed bug-proof encasement on the mattress and box spring, kept on for a year and a half, which starves the bugs inside and makes new bugs easier to see."
+    },
+    "bed-bugs-on-mattress": {
+      "label": "To encase the mattress",
+      "name": "Bed bug mattress encasement",
+      "search": "bed bug mattress encasement",
+      "basis": "Quick answer and HowTo step 'Encase the mattress and box spring': zip both into bed-bug-proof encasements and leave the covers on for a year (EPA); Texas A&M describes an encasement with a zipper tight enough to hold in the smallest life stages, woven so bugs cannot bite through."
+    },
+    "beetles-in-house": {
+      "label": "To catch and check one",
+      "name": "Clear specimen jars with lids",
+      "search": "clear specimen jars with lids",
+      "basis": "'How do you tell which beetle you have?': 'Once you know it is a beetle, catch it in a jar and run these checks'; callout: seal the beetle in a small jar, photograph it beside a ruler and note where and when you found it. Identification aid from the page's own method."
+    },
+    "black-ants": {
+      "label": "To reach the colony",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "'What does each kind of black ant need?': small black ants need their trail removed and 'a slow-acting bait they will carry home'; table rows for the little black ant and odorous house ant both call for bait; FAQ 'Why do I suddenly see black ants in my kitchen?': bait is what reaches the colony."
+    },
+    "black-bed-bugs": {
+      "label": "To check the bug's build",
+      "name": "Hand lens magnifier",
+      "search": "hand lens magnifier",
+      "basis": "'How do you confirm whether it is a bed bug?': 'Check the build under a hand lens'; the Connecticut poster's inspection kit includes a bright flashlight, a hand lens, soft tweezers and a glass bottle; bat bugs can only be separated from bed bugs under magnification."
+    },
+    "black-spiders": {
+      "label": "For work where widows live",
+      "name": "Work gloves",
+      "search": "work gloves",
+      "basis": "'What should you do once you know what it is?': where widows are common, the Army fact sheet advises shaking out clothing and shoes and wearing gloves, long sleeves and boots when working where widows live, and clearing debris, lumber and rock piles from around the foundation."
+    },
+    "borax-for-ants": {
+      "label": "For a weak liquid bait",
+      "name": "Refillable ant bait stations",
+      "search": "refillable ant bait stations",
+      "basis": "'Which ready-made ant baits contain borax or boric acid?': 'For a weaker liquid bait there are refillable stations', and the University of California calls reusable stations more useful than prepackaged baits for difficult ant problems; its recipe is applied 'in refillable, reusable bait stations'. Empty stations only; no pesticide picked."
+    },
+    "brown-recluse-bite": {
+      "label": "To monitor for recluses",
+      "name": "Spider sticky traps",
+      "search": "spider glue traps",
+      "basis": "'How do you avoid brown recluse bites?': 'Poison Control suggests making noise before entering basements, attics and storage areas, cutting clutter and using glue traps.' No treatment product picked; for a bite the page says to wash it and call Poison Control or get medical care."
+    },
+    "brown-recluse-look-alikes": {
+      "label": "To count the eyes",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you check a spider you have caught?': trap it under a jar and 'Count them with a magnifying glass' (six eyes in three pairs means a recluse); Vetter says minor magnification shows the pattern; FAQ 'Who can confirm...': someone trained to check the eyes under magnification."
+    },
+    "bug-bites": {
+      "label": "To save a caught biter",
+      "name": "Clear specimen jars with lids",
+      "search": "clear specimen jars with lids",
+      "basis": "The page recommends nothing to buy for the bite itself. Neutral identification aid from its own method, 'What if you still cannot tell what bit you?': 'If you find the insect, seal it in a jar and note where and when you found it'; UC IPM advises saving any biter you catch for identification."
+    },
+    "bugs-in-house-in-winter": {
+      "label": "To seal gaps before fall",
+      "name": "Exterior caulk",
+      "search": "exterior caulk",
+      "basis": "'What should you do once you know what it is?': 'Vacuum up the overwintering bugs, seal the gaps before next fall'; for western conifer seed bugs Penn State says to replace loose screens and caulk gaps around door and window frames, soffits and chimneys; quick-ID table: seal gaps before next fall. Indoor sprays and foggers are not recommended."
+    },
+    "bugs-that-look-like-bed-bugs": {
+      "label": "To send one for ID",
+      "name": "Small specimen vials",
+      "search": "small specimen vials with caps",
+      "basis": "'How do you get a specimen identified by an extension office?': catch the bug, keep it intact in a small container and take or send it to the extension office; Wisconsin's lab accepts a dry hard-bodied insect 'in a small clean vial or box'; the Connecticut kit includes a glass bottle to hold insects."
+    },
+    "bugs-that-look-like-cockroaches": {
+      "label": "To catch one and compare",
+      "name": "Sticky insect monitoring traps",
+      "search": "sticky insect monitoring traps",
+      "basis": "'What should you do once you know what it is?': 'If you are still not sure what you have, a sticky trap can hold a specimen to compare against the table above'; Texas A&M describes sticky cards as trapping cockroaches and other crawling insects and as most useful for monitoring."
+    },
+    "bugs-that-look-like-fleas": {
+      "label": "To check it up close",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How can you identify the bug in a jar?': 'Catch one first in a clear jar, a sealed plastic bag or on clear tape, and use a magnifying glass'; the cat flea's combs and the bat bug's fringe hairs show only under magnification."
+    },
+    "bullet-ants": {
+      "label": "For forest night walks",
+      "name": "LED headlamp",
+      "search": "led headlamp",
+      "basis": "The page recommends nothing to buy. Neutral aid tied to its own traveler advice, 'What should a traveler know about bullet ants?': the ants are more active at night, 'so a night walk through lowland forest is a time to watch where you put your hands'. A headlamp only helps you see; no protection claim."
+    },
+    "can-cockroaches-fly": {
+      "label": "To close door gaps",
+      "name": "Door sweep",
+      "search": "door sweep",
+      "basis": "'How do you keep flying cockroaches out of the house?': keep screens and door seals tight; 'The University of California guide adds door sweeps and weather stripping'; the University of Florida advises keeping doors shut and caulking gaps around door and window frames."
+    },
+    "can-mice-climb-walls": {
+      "label": "To screen vents and gaps",
+      "name": "1/4-inch galvanized hardware cloth",
+      "search": "1/4 inch hardware cloth",
+      "basis": "'What does climbing ability mean for sealing a house?': for vents and windows Nebraska recommends galvanized hardware cloth; for larger holes 'for mice, 24-gauge hardware cloth with 1/4 by 1/4 inch mesh'; FAQ 'Can a mouse get through a window screen?': Nebraska recommends galvanized hardware cloth over vents and windows."
+    },
+    "cockroach-droppings": {
+      "label": "To check for live roaches",
+      "name": "Cockroach sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "FAQ 'Does roach poop mean an infestation?': 'Set sticky traps near the droppings and check them daily for several days'; FAQ 'What should you do when you see cockroach poop?': set sticky traps where floors meet walls near the droppings; 'How much roach poop means a big infestation?': sticky traps tell you which it is."
+    },
+    "cockroach-eggs": {
+      "label": "To monitor after cleanup",
+      "name": "Cockroach sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'What should you do with cockroach egg cases you find?': remove them, then 'Set sticky traps'; Rutgers advises follow-up until no cockroaches have been seen or caught in sticky traps for at least a month; FAQ 'Do bug sprays kill cockroach eggs?': the guides pair treatment with monitoring by sticky traps."
+    },
+    "commercial-pest-control": {
+      "label": "For indoor flies",
+      "name": "Insect light trap for flies",
+      "search": "commercial fly light trap",
+      "basis": "'What does a commercial IPM program include?': in EPA's model IPM contract 'light traps are the standard method for indoor flies'; Food Code section 6-202.13 covers insect light traps; the contract section says insect light traps are left out of the contractor's work unless requested, so the business may supply them."
+    },
+    "deer-mice": {
+      "label": "To trap deer mice",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "Quick answer: 'Seal gaps larger than 1/4 inch, trap with snap traps'; 'How do you get rid of deer mice that are already inside?': trap them with snap traps while you seal, and skip glue boards, live traps and poison bait; CDC calls for spring-loaded traps that kill."
+    },
+    "diy-pest-control": {
+      "label": "When applying any pesticide",
+      "name": "Chemical-resistant nitrile gloves",
+      "search": "chemical resistant nitrile gloves",
+      "basis": "'What protective equipment do you need?': wear what the label specifies and at a minimum chemical-resistant gloves, eye protection, a long-sleeved shirt, long pants and closed shoes (UC IPM), which adds that chemical-resistant gloves are nitrile, neoprene, butyl or rubber and advises against cotton gloves."
+    },
+    "do-ants-bite": {
+      "label": "For the itch",
+      "name": "Anti-itch cream",
+      "search": "anti itch cream",
+      "basis": "'How do you treat an ant bite or sting at home?': 'Try not to scratch. Ohio State's report on pavement ant stings says frequent washing and an anti-itch cream can help avoid scratching and secondary infections.' The page sends severe reactions to emergency care."
+    },
+    "do-carpenter-ants-bite": {
+      "label": "For the itch",
+      "name": "Anti-itch cream",
+      "search": "anti itch cream",
+      "basis": "'How do you treat a carpenter ant bite?': MedlinePlus first aid on the page: wash the bite, ice it, and 'If necessary, take an antihistamine or apply a cream that reduces itching, following the package directions.'"
+    },
+    "do-chickens-eat-ticks": {
+      "label": "To clear leaf litter",
+      "name": "Leaf rake",
+      "search": "leaf rake",
+      "basis": "'What actually reduces ticks in a yard?': CDC lists removing leaf litter, clearing tall grass and brush and mowing often; the Connecticut handbook says removing leaf litter has been shown to reduce blacklegged tick nymphs on some properties. No pesticide picked (the page says to check labels before treating where birds range)."
+    },
+    "do-cockroaches-bite": {
+      "label": "For the itch",
+      "name": "Anti-itch cream",
+      "search": "anti itch cream",
+      "basis": "'What should you do about a suspected cockroach bite?': MedlinePlus first aid steps on the page: wash the site, ice it, and 'If necessary, take an antihistamine or apply a cream that reduces itching'; follow the label directions on any medicine."
+    },
+    "do-mosquitoes-bite-dogs": {
+      "label": "For time in the backyard",
+      "name": "Outdoor patio fan",
+      "search": "outdoor patio fan",
+      "basis": "'How do you cut down mosquitoes around a dog's yard?': 'Run a fan. The guidelines call fan-generated wind a practical way to protect people and pets in a backyard' (American Heartworm Society guidelines). Heartworm preventives are prescription-only and dog spot-ons were not picked."
+    },
+    "do-mothballs-keep-mice-away": {
+      "label": "To seal gaps instead",
+      "name": "Copper mesh for gaps",
+      "search": "copper mesh rodent",
+      "basis": "'What works instead of mothballs?': 'Push metal mesh into gaps, or pack them with size 00 steel wool or copper mesh and caulk over it'; quick answer bullet: NC State says gaps of 1/4 inch or larger let adult mice in, so the fix is sealing those gaps and setting snap traps."
+    },
+    "does-alcohol-kill-bed-bugs": {
+      "label": "To seal the mattress",
+      "name": "Bed bug mattress encasement",
+      "search": "bed bug mattress encasement",
+      "basis": "'What works better than alcohol for bed bugs?': EPA recommends covers that seal mattresses and box springs so the bugs are trapped inside and die; 'What should you do if you already sprayed alcohol?': 'Move to the methods above, starting with encasements and heat'."
+    },
+    "does-lysol-kill-bed-bugs": {
+      "label": "To confirm a bed bug",
+      "name": "Small specimen vials",
+      "search": "small specimen vials with caps",
+      "basis": "The page recommends no product except 'a registered product labeled for bed bugs' (not picked: a search would surface unregistered and food-grade products the page says are not legal for bed bugs). Neutral aid for the first step of 'What should you do instead of spraying Lysol?': identify the insect and confirm it is a bed bug."
+    },
+    "does-vinegar-kill-ants": {
+      "label": "To reach the colony",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "Quick answer: 'Bait that workers carry home is what ends the problem'; FAQ 'What should I do if ants keep coming back after I use vinegar?': the University of California suggests putting out bait stations or gel bait at entry points; keep vinegar away from the bait."
+    },
+    "fall-mouse-proofing-checklist": {
+      "label": "To plug pipe gaps",
+      "name": "Stainless steel wool",
+      "search": "stainless steel wool rodent",
+      "basis": "HowTo step 'Plug small holes with metal wool and caulk': 'Wedge copper or stainless steel wool tightly into each small hole around pipes and cables, then put caulk around it'; quick answer bullet: coarse steel wool is a temporary plug that rusts, and Nebraska names copper or stainless steel wool for gaps under 3/4 inch."
+    },
+    "field-mice": {
+      "label": "To trap field mice",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "'How is controlling field mice different from controlling house mice?': 'The core steps are the same, which are sealing openings and trapping with snap traps'; table: snap traps for deer and white-footed mice, standard mouse snap traps for voles; avoid glue boards for deer mice."
+    },
+    "flea-eggs": {
+      "label": "To see eggs and specks",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'What do flea eggs look like?': 'A magnifying glass shows the smooth, pearly oval, unlike a flat flake of skin'; 'How do you tell flea eggs from dandruff, flea dirt and sand?': with a magnifying glass, white ovals suggest eggs; FAQ: a dark surface and a magnifying glass help."
+    },
+    "flies-in-house": {
+      "label": "For flies that remain",
+      "name": "Sticky fly paper ribbons",
+      "search": "fly paper ribbons",
+      "basis": "'How do you get rid of the flies once you know the source?': 'A flyswatter handles a few flies, and sticky flypaper works in a confined space, hung out of reach of children and pets'; FAQ 'How do I get rid of lots of flies in my house?': a flyswatter, flypaper or an indoor light trap handles the adults that remain."
+    },
+    "flying-ants-vs-termites": {
+      "label": "To check antennae and wings",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How can you tell a flying ant from a termite swarmer?': 'A magnifying glass, or a phone camera zoomed in on one insect, makes all three features easier to see' (elbowed or straight antennae, waist, wing lengths). The page sends termites to a licensed professional."
+    },
+    "flying-ants": {
+      "label": "To get them identified",
+      "name": "Small specimen vials",
+      "search": "small specimen vials with caps",
+      "basis": "'What should you do about flying ants in the house?': confirm what they are; 'Texas A&M suggests collecting ants with a cotton swab dipped in rubbing alcohol and putting them in an alcohol-filled vial for a county Extension agent to identify'."
+    },
+    "german-cockroaches": {
+      "label": "To bait where they hide",
+      "name": "Cockroach gel bait",
+      "search": "cockroach gel bait",
+      "basis": "Quick answer: Rutgers rates bait as the most effective treatment and does not recommend foggers; 'What gets rid of German cockroaches?': find them with sticky traps, take away food and water, 'place gel bait where they hide'; in the NC State study, gel-baited homes fell sharply while foggers produced no drop."
+    },
+    "ghost-ants": {
+      "label": "To bait ghost ant trails",
+      "name": "Liquid ant bait stations",
+      "search": "liquid ant bait stations",
+      "basis": "'How do you get rid of ghost ants?': find the trails and 'put a sweet bait on them'; the University of Florida says sweet baits are effective for many sweet-feeding ants and that baits come as granules, liquids, gels and tamper-resistant stations; keep sprays away from the bait."
+    },
+    "holes-in-yard": {
+      "label": "To measure the hole",
+      "name": "Ruler marked in inches",
+      "search": "12 inch ruler",
+      "basis": "The page recommends nothing to buy (most holes need no action; ultrasonic devices, mothballs and live trapping are ruled out). Neutral identification aid from its own method: 'Lay a ruler or a coin across the opening'; callout 'Record the hole': photograph the hole beside a ruler or a coin."
+    },
+    "honeypot-ants": {
+      "label": "For ants on the counter",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "The page recommends nothing for honeypot ants, which it says are not household pests. Its section 'Are honeypot ants dangerous, and are they a household pest?' says ants on a kitchen counter are far more likely a common household species and points to why 'baiting beats spraying for indoor ants'. The pick is for those ants only."
+    },
+    "house-centipedes": {
+      "label": "To dry out the basement",
+      "name": "Dehumidifier",
+      "search": "dehumidifier for basement",
+      "basis": "Quick answer: extension services put drying out damp areas and sealing cracks ahead of spraying; 'How do you get rid of house centipedes?': 'Penn State recommends dehumidifiers and grading the soil so water drains away from the foundation'; UC IPM says using pesticides labeled for centipedes is rarely justified."
+    },
+    "house-spiders": {
+      "label": "To see where spiders roam",
+      "name": "Spider sticky traps",
+      "search": "spider glue traps",
+      "basis": "'What should you do once you know what it is?': 'Sticky traps along walls and under furniture show where spiders are active, UMN says; UC IPM says to place them where pets and children cannot reach.'"
+    },
+    "houseplant-bugs": {
+      "label": "To spot tiny plant pests",
+      "name": "10x hand lens",
+      "search": "10x hand lens magnifier",
+      "basis": "Quick answer: 'University of Minnesota Extension suggests a 10-power hand lens, since some are very small'; 'How do you tell which bug is on your plant?': look for the sign first and the bug second, with a 10-power hand lens or a phone magnifier app."
+    },
+    "how-long-do-ants-live": {
+      "label": "For ants in the house",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "'What does ant lifespan mean for ants in your house?': spraying kills replaceable workers while the queen keeps laying; 'That is the reasoning behind baiting. The Missouri publication says bait is passed around to other workers, larvae and queens, so it reaches ants that never leave the nest.'"
+    },
+    "how-long-do-mice-live": {
+      "label": "To trap mice inside",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "'Will a mouse problem go away on its own?': no; UC IPM says an infestation almost always also needs population reduction, including traps, and that traps with a wide trigger plate have higher catch rates; list step 'Trap what is already inside'."
+    },
+    "how-many-ants-are-in-the-world": {
+      "label": "For ants in the kitchen",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "The page recommends nothing to buy for its main topic. Its section 'What does the global count mean for ants in your house?' says the count means little for one home and, for ants in the kitchen, points to 'a guide to controlling household ants with bait'. The pick is for household ants only."
+    },
+    "how-much-is-pest-control": {
+      "label": "To monitor crawling insects",
+      "name": "Sticky insect monitoring traps",
+      "search": "sticky insect monitoring traps",
+      "basis": "The page is about prices and recommends nothing to buy. Neutral monitoring aid from its own evidence, 'When is professional pest control worth the money?': the integrated program it describes used sticky traps to monitor cockroaches, 24-hour sticky trap catches measured which program worked, and it suggests asking whether a plan includes monitoring."
+    },
+    "how-to-get-rid-of-ants-in-the-house": {
+      "label": "To bait the colony",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "Quick answer: seal the gap, 'then set slow-acting bait near the trail and leave the ants feeding on it alone'; HowTo step 'Place the stations safely': set enclosed stations near trails and entry points, outdoors where you can, out of reach of children and pets; UC IPM calls baits more effective and safer than sprays."
+    },
+    "how-to-get-rid-of-ants-in-the-kitchen": {
+      "label": "To keep food sealed",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "'How should you store food so ants lose interest?': 'The EPA's Citizen's Guide to Pest Control and Pesticide Safety recommends sealed glass or plastic containers'; HowTo step 'Remove food and water': move sugar, syrup, honey and pet food into closed containers. The page baits only if ants keep coming."
+    },
+    "how-to-get-rid-of-bed-bugs": {
+      "label": "To monitor for bed bugs",
+      "name": "Bed bug interceptor cups",
+      "search": "bed bug interceptor cups",
+      "basis": "Quick answer: check interceptor traps weekly; HowTo step 'Install interceptors and inspect weekly': place an interceptor trap under each leg of the bed and nearby furniture and inspect at least every 7 days; FAQ 'Should I sleep in another room...': stay in your bed with interceptor traps under each leg."
+    },
+    "how-to-get-rid-of-carpet-beetles": {
+      "label": "To store fabrics sealed",
+      "name": "Airtight plastic storage bins",
+      "search": "airtight plastic storage bins",
+      "basis": "Quick answer: clean, freeze or discard what the larvae eat, vacuum edges and vents, 'and store fabrics sealed, as the University of Kentucky advises'; 'How do you get rid of carpet beetles?': 'Store clean items sealed in tight-fitting plastic bags or containers (Kentucky)'; closets are generally not airtight (UC IPM)."
+    },
+    "how-to-get-rid-of-cockroaches": {
+      "label": "To bait hiding places",
+      "name": "Cockroach gel bait",
+      "search": "cockroach gel bait",
+      "basis": "'Step 3: Put bait where they hide': 'Gel bait beside the hiding places does most of the killing'; Rutgers says gel usually beats stations because it goes closer to the roaches; use many pea-sized dots (Kentucky) and follow the label. The page also says to trust trap counts, since store-bought baits varied in one apartment study."
+    },
+    "how-to-get-rid-of-earwigs": {
+      "label": "To seal door gaps",
+      "name": "Door weather stripping",
+      "search": "door weather stripping",
+      "basis": "'How do you get rid of earwigs in the house?': 'Colorado State says earwigs usually get in through small gaps along doors, windows and vents, which can be sealed with caulk, and Wisconsin adds putty and weather stripping around doors and windows'; quick answer: seal gaps. Indoor insecticides are not recommended (UC IPM)."
+    },
+    "how-to-get-rid-of-fleas": {
+      "label": "To comb fleas off pets",
+      "name": "Fine-toothed flea comb",
+      "search": "flea comb",
+      "basis": "'How do you treat fleas on dogs and cats?': 'A soap bath and a flea comb deal with the adults on the animal', and the CDC recommends combing afterward with attention to the face, neck and the area in front of the tail; 'How do you get rid of fleas?': confirm it is fleas by combing the pet over a white sink."
+    },
+    "how-to-get-rid-of-fungus-gnats": {
+      "label": "To trap the adults",
+      "name": "Yellow sticky traps",
+      "search": "yellow sticky traps",
+      "basis": "Quick answer: trap the adults on yellow sticky cards; '2. Yellow Sticky Traps': Colorado State says to place yellow sticky cards under the plant canopy or on the edge of the container, which may help by mass-trapping adult females; Bti does not affect adults, so sticky traps are needed for the fliers."
+    },
+    "how-to-get-rid-of-gnats": {
+      "label": "To catch and identify gnats",
+      "name": "Yellow sticky traps",
+      "search": "yellow sticky traps",
+      "basis": "'How can you tell which gnat you have?': 'Catch a few on a yellow sticky card or a strip of clear tape and look at them with a magnifying glass'; 'How do you get rid of gnats in houseplants?': yellow sticky cards under the leaves or along the pot rim catch the adults (Colorado State); vinegar traps do not work for fungus gnats."
+    },
+    "how-to-get-rid-of-mice-humanely": {
+      "label": "To seal mice out",
+      "name": "Steel wool for mouse holes",
+      "search": "steel wool for mice",
+      "basis": "Quick answer: 'The most humane way to get rid of mice is to seal every gap larger than 1/4 inch so they cannot get in'; HowTo step 'Seal small holes': 'Pack steel wool into holes about the width of a pencil and put caulk around it' (CDC); the page notes a steel wool plug is checked and replaced when it rusts."
+    },
+    "how-to-get-rid-of-mosquitoes": {
+      "label": "For water you cannot empty",
+      "name": "Bti larvicide dunks",
+      "search": "bti larvicide dunks",
+      "basis": "Quick answer: 'treat water you cannot empty with a larvicide such as Bti'; 'How do you treat water you cannot empty?': CDC says homeowners can use dunks or bits containing larvicide in small bodies of water that will not be used for drinking; UC IPM says the dunk lasts about 30 days; do not apply more than the label directs (CDC)."
+    },
+    "how-to-get-rid-of-silverfish": {
+      "label": "To dry the air",
+      "name": "Dehumidifier",
+      "search": "dehumidifier",
+      "basis": "Quick answer: you get rid of silverfish 'by drying the air'; H1 'Humidity First, Then Baits and Dusts'; 'How do you get rid of silverfish, step by step?': UC IPM says silverfish require a lot of moisture, so dehumidifiers in closed spaces can help discourage them; EPA's indoor target is 30 to 50 percent humidity."
+    },
+    "how-to-get-rid-of-stink-bugs": {
+      "label": "To seal gaps before fall",
+      "name": "Silicone caulk",
+      "search": "silicone caulk",
+      "basis": "Quick answer: Penn State Extension calls sealing the best way to keep stink bugs out; 'How do you keep stink bugs out of the house?': 'Caulk cracks around windows, doors, siding, pipes and wires, behind chimneys and under fascia and soffits, using good-quality silicone or silicone-latex caulk (Penn State)'. Indoor sprays and foggers are not recommended."
+    },
+    "how-to-keep-mosquitoes-away": {
+      "label": "For exposed skin",
+      "name": "Picaridin insect repellent",
+      "search": "picaridin insect repellent",
+      "basis": "Quick answer: put an EPA-registered repellent on exposed skin; 'Which mosquito repellent should you choose?': choose a product with an EPA registration number and one of CDC's six active ingredients, picaridin among them, which the Yellow Book says can be used on children without age restriction. Use as the label directs."
+    },
+    "kissing-bug-look-alikes": {
+      "label": "To contain one for ID",
+      "name": "Clear specimen jars with lids",
+      "search": "clear specimen jars with lids",
+      "basis": "'What should you do if you find a kissing bug?': collect it without bare hands, 'then keep the bug in a closed plastic bag, a vial or another small container', freeze it and send photos for identification (Texas A&M Kissing Bug program); Texas DSHS asks for no alcohol or preservatives in the container."
+    },
+    "lawn-pest-control": {
+      "label": "For lawn fire ants",
+      "name": "Fire ant bait granules",
+      "search": "fire ant bait granules",
+      "basis": "'How do you get rid of fire ants in a lawn?': 'Broadcast bait across the yard first, then treat the mounds that remain'; Texas A&M: broadcast between late August and mid-October, use fresh bait from an unopened container, expect weeks to months to reach 80 to 90 percent control; use bait as its label directs."
+    },
+    "mice-exterminator": {
+      "label": "If it is one mouse",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "FAQ 'Is it worth calling an exterminator for one mouse?': 'Set several snap traps against walls near the sighting and check them daily'; 'What does an exterminator do for mice?': Nebraska calls trapping the preferred method in homes and the CDC recommends traditional snap traps."
+    },
+    "mice-poison": {
+      "label": "To try before poison",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "Quick answer: University of California guidance treats trapping as the first step; 'Bromethalin or an anticoagulant': 'A snap trap raises none of these questions, which is the case for starting with mouse traps'; FAQ: in a home with pets, traps set where the pet cannot reach avoid the poison question. No rodenticide picked."
+    },
+    "mice-removal": {
+      "label": "To trap mice inside",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "Quick answer: seal every opening 1/4 inch or larger, 'trap the mice already inside with snap traps', and clean up wet; HowTo step 'Set snap traps': bait with a small amount of chunky peanut butter, baited end against the wall, no more than about 10 feet apart (CDC, Nebraska)."
+    },
+    "mice-repellent": {
+      "label": "To remove resident mice",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "Quick answer: 'Closing gaps and trapping are the steps the sources support'; 'What works instead of a repellent?', subsection 'Set traps where the mice are active': NC State says to set snap traps along mouse runways, out of reach of children and pets; UC IPM spaces traps no more than about 10 feet apart."
+    },
+    "mice-traps": {
+      "label": "To trap house mice",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "Quick answer: 'For most homes, a traditional snap trap is the right mouse trap. The CDC recommends snap traps and says not to use glue traps or live traps'; HowTo step 'Pick the right trap': buy mouse-size traditional snap traps with a wide trigger plate."
+    },
+    "millipedes": {
+      "label": "To seal the door gap",
+      "name": "Door sweep",
+      "search": "door sweep",
+      "basis": "'How do you get rid of millipedes in the house?': 'Kentucky names door thresholds and windowsills as possible entry points and suggests caulking gaps and fitting door sweeps or weather stripping'; FAQ 'Can millipedes climb walls?' repeats it. Pesticides are rarely justified (UC IPM, Kentucky)."
+    },
+    "moths-in-house": {
+      "label": "To monitor pantry moths",
+      "name": "Pantry moth pheromone traps",
+      "search": "pantry moth pheromone traps",
+      "basis": "'How do you get rid of pantry moths?': 'Pheromone traps for Indian meal moths catch the males and show whether moths remain after the cleanup; UC IPM says to check them weekly'; FAQ 'Will moth traps get rid of moths?': they detect an infestation and give some control, alongside cleaning. Label limits it to pantry moths."
+    },
+    "mouse-poop": {
+      "label": "For safe droppings cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "Quick answer bullet: CDC's cleanup is to air the room for 30 minutes, wear rubber or plastic gloves, soak droppings with disinfectant or bleach solution for 5 minutes and wipe them up; 'How do you clean up mouse droppings safely?': 'Put on rubber or plastic gloves'; never sweep or vacuum."
+    },
+    "natural-garden-pest-control": {
+      "label": "To shield young plants",
+      "name": "Floating row cover",
+      "search": "floating row cover",
+      "basis": "'What order should natural garden pest control follow?': 'Floating row covers keep some adult insects from laying eggs on new plants but have to come off for pollination'; 'When should you stop and try something else?': move to hand removal, water or row covers."
+    },
+    "natural-pest-control": {
+      "label": "To seal small gaps first",
+      "name": "Steel wool for mouse holes",
+      "search": "steel wool for mice",
+      "basis": "Quick answer: natural pest control starts by sealing entry points; bullet: mice fit through a 1/4-inch hole, 'which is why sealing gaps with steel wool and caulk comes before any spray'; 'Where should natural pest control start?': fill small holes with steel wool and put caulk around it (CDC)."
+    },
+    "natural-weed-control": {
+      "label": "To pull whole taproots",
+      "name": "Fishtail hand weeder",
+      "search": "fishtail weeder",
+      "basis": "'3. Pull after rain': the University of California suggests a dandelion fork or fishtail weeder for weeds with a thick taproot; HowTo step and cheat sheet: 'lever out the whole taproot with a fishtail weeder before the weed sets seed'."
+    },
+    "palmetto-bugs": {
+      "label": "To seal cracks they use",
+      "name": "Exterior caulk",
+      "search": "exterior caulk",
+      "basis": "'What should you do once you know which one it is?': 'UF recommends caulking cracks around door and window frames and around plumbing and electrical lines, weather-stripping doors and repairing window and soffit screens'; quick answer bullet: one big roach indoors is usually a stray, and UF says removing outdoor cockroaches is often all the control needed."
+    },
+    "pantry-pests": {
+      "label": "To store dry goods",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "'How do you keep pantry pests from coming back?': Minnesota Extension recommends storing food in tightly closed glass, metal or heavy plastic containers; UC IPM says plastic bags are not adequate; FAQ 'Can bugs get into sealed packages?': tightly closed glass, metal or heavy plastic containers are what the extension guides recommend."
+    },
+    "peppermint-oil-for-mice": {
+      "label": "To seal holes instead",
+      "name": "Steel wool for mouse holes",
+      "search": "steel wool for mice",
+      "basis": "Quick answer: CDC and University of California guidance rely on sealing, sanitation and trapping, not peppermint oil; 'Where does peppermint oil fit in a real mouse control plan?': fill small holes with steel wool with caulk around it (CDC); FAQ 'What works better than peppermint oil for mice?' lists steel wool and caulk."
+    },
+    "pet-safe-pest-control": {
+      "label": "Instead of mouse poison",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "Quick answer: 'set traps where paws cannot reach'; 'Which pest products are most dangerous to cats and dogs?': rat and mouse poison causes the most pet poisonings and 'A snap trap leaves no bait and no poisoned carcass'; risk table lists snap traps as the alternative to rat and mouse poison."
+    },
+    "raccoon-poop": {
+      "label": "For latrine cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'How do you clean up raccoon poop safely?': 'Put on disposable gloves, and rubber boots you can scrub or disposable shoe covers'; FAQ 'What should I do if I find raccoon poop in my yard?': wear disposable gloves and scrubbable boots, mist the pile, bag it and treat hard surfaces with boiling water."
+    },
+    "rat-droppings": {
+      "label": "To trap rats",
+      "name": "Rat-size snap traps",
+      "search": "rat snap traps",
+      "basis": "'What should you do once you know it is rats?': CDC recommends traditional snap traps, not glue or live traps, and NC State Extension adds that mouse snap traps are typically not an effective tool against rats; FAQ 'What should I do if I find rat droppings?': after cleanup, seal entry gaps and set snap traps."
+    },
+    "rat-vs-mouse": {
+      "label": "For handling and cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'What should you do once you know which one it is?': CDC's advice is the same for rats and mice: 'Put on rubber or plastic gloves', soak droppings with disinfectant and never sweep or vacuum; the tail test on a dead rat is done 'with the gloves used in CDC's cleanup steps'."
+    },
+    "red-ants": {
+      "label": "For fire ant mounds",
+      "name": "Fire ant bait granules",
+      "search": "fire ant bait granules",
+      "basis": "'How do you get rid of fire ants?': 'Bait first: broadcast a fire ant bait across the yard, then treat individual problem mounds' (Texas A&M Two-Step Method); California's guide does not recommend products not labeled as fire ant baits; use fresh bait, as the label directs."
+    },
+    "roof-rat-vs-norway-rat": {
+      "label": "To trap either rat",
+      "name": "Rat-size snap traps",
+      "search": "rat snap traps",
+      "basis": "'What should you do once you know which rat it is?': let the species decide where traps go; UC IPM says to set traps for Norway rats close to walls, behind objects and in dark corners, and for roof rats both on the ground and above it on ledges, shelves, branches, fences, pipes or beams."
+    },
+    "seed-ticks": {
+      "label": "To lift off seed ticks",
+      "name": "Duct tape",
+      "search": "duct tape",
+      "basis": "Quick answer: the University of Rhode Island's TickEncounter program 'recommends lifting loose larvae off with duct tape before they attach'; 'How do you remove dozens of seed ticks at once?': use tape, not tweezers, for the loose ones; URI calls duct tape a very effective way to de-tick and lint rollers less sticky."
+    },
+    "signs-of-bed-bugs-checklist": {
+      "label": "For the 10-minute check",
+      "name": "LED flashlight",
+      "search": "led flashlight",
+      "basis": "'How do you check for bed bugs tonight in 10 minutes?': 'Work outward from the pillow with a flashlight and a stiff card, because that is where the evidence concentrates'; FAQ 'Do I have to check for bed bugs at night?': a daytime check with a flashlight along the seams, box spring, headboard and frame will find the signs."
+    },
+    "spider-egg-sacs": {
+      "label": "For egg sac removal",
+      "name": "Leather work gloves",
+      "search": "leather work gloves",
+      "basis": "'What should you do with a spider egg sac?': 'Kansas State advises leather gloves, long sleeves and long pants, and removing the spiders, webbing and all egg sacs with a broom or other long-handled tool, or a vacuum'. Sprays and fogs are not effective on sacs (UC IPM, UMN)."
+    },
+    "spiders-in-california": {
+      "label": "When clearing clutter",
+      "name": "Gardening gloves",
+      "search": "gardening gloves",
+      "basis": "'What should you do about spiders around a California home?': 'Wear gloves when clearing clutter, keep gardening gloves and clothes in closed bags, and store boxes taped shut and off the floor'; the page says western black widows live in populated areas almost everywhere in California."
+    },
+    "spiders-in-florida": {
+      "label": "For woodpiles and storage",
+      "name": "Work gloves",
+      "search": "work gloves",
+      "basis": "'What should you do about spiders around a Florida home?': 'Wear gloves when lifting boards or firewood or reaching into storage boxes' (FDACS pest alert), and wear gloves in sheds, basements and attics, as UF's black widow profile suggests."
+    },
+    "spiders-in-texas": {
+      "label": "For stored items",
+      "name": "Lidded plastic storage bins",
+      "search": "plastic storage bins with lids",
+      "basis": "'What should you do about spiders and spider bites in Texas?': 'Texas A&M suggests taping stored boxes shut or using lidded plastic bins, and moving firewood away from the house'; also wear gloves where spiders live and shake out stored shoes, clothes and towels."
+    },
+    "steel-wool-for-mice": {
+      "label": "To plug small holes",
+      "name": "Coarse steel wool",
+      "search": "coarse steel wool",
+      "basis": "Quick answer: the CDC says to fill small holes with steel wool and put caulk around it; 'What kind of steel wool should you use?': 'The practical reading is to buy the coarsest plain steel wool on the shelf'; for openings up to about 3/4 inch, with hardware cloth, sheet metal or concrete for larger ones."
+    },
+    "sugar-ants": {
+      "label": "To bait the trail",
+      "name": "Liquid ant bait stations",
+      "search": "liquid ant bait stations",
+      "basis": "Quick answer: 'use a slow-acting bait and skip the spray'; HowTo step 'Set slow-acting bait beside the trail': 'Place a bait station next to the trail where pets and small children cannot reach it. Start with a sweet bait'; Kentucky recommends syrupy, sweet baits for odorous house ants."
+    },
+    "termite-damage": {
+      "label": "To save wings for ID",
+      "name": "Clear specimen jars with lids",
+      "search": "clear specimen jars with lids",
+      "basis": "The page sends treatment to a licensed professional and says to skip the spray can. Neutral identification aid from its own method, callout 'Bring the evidence': photograph damage beside a ruler 'and keep a few insects or wings in a sealed jar' for the extension office or inspector to identify."
+    },
+    "termite-droppings": {
+      "label": "To see the six sides",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "Quick answer bullet: Texas A&M says drywood termite pellets have lengthwise flutes 'that show under magnification'; 'What do termite droppings look like?': the flutes show under modest magnification; UC IPM calls six-sided pellets diagnostic for drywood termites."
+    },
+    "tick-identification-chart": {
+      "label": "To save a removed tick",
+      "name": "Small plastic specimen vials",
+      "search": "small plastic specimen vials",
+      "basis": "'What should you do with a tick you have removed, and how do you get it identified?': 'the Connecticut handbook says a sealable plastic bag will do, although a small plastic vial is best, and that rubbing alcohol will preserve a tick'; tick-check routine: seal the tick in a bag or vial and note the date and place."
+    },
+    "ticks-by-state": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite?': 'Take the tick off with clean, fine-tipped tweezers, grasping it as close to the skin as possible and pulling it away with steady, even pressure, without twisting or jerking'."
+    },
+    "ticks-in-alabama": {
+      "label": "For clothing and gear",
+      "name": "Permethrin clothing spray (0.5%)",
+      "search": "permethrin spray for clothing",
+      "basis": "'How do you prevent tick bites in Alabama?': 'The department recommends 0.5% permethrin on clothes, and Alabama Extension calls treating clothing and gear the most effective preventive step when used according to the label.' Clothing and gear only, per the label."
+    },
+    "ticks-in-arkansas": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Arkansas?': 'Grasp the tick as close to the skin as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-connecticut": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Connecticut?': 'Grasp the tick as close to the skin as you can, with fine-tipped tweezers if you have them.'"
+    },
+    "ticks-in-delaware": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Delaware?': 'Grasp the tick with clean, fine-tipped tweezers as close to the skin's surface as possible.'"
+    },
+    "ticks-in-georgia": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Georgia?': 'Grasp the tick with clean, fine-tipped tweezers as close to the skin's surface as possible.'"
+    },
+    "ticks-in-illinois": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Illinois?': 'Grasp the tick with fine-tipped tweezers as close to the skin's surface as possible.'"
+    },
+    "ticks-in-indiana": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Indiana?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-kentucky": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Kentucky?': 'Grasp the tick as close to the skin's surface as possible using clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-maine": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Maine?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-maryland": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Maryland?': 'Grasp the tick with fine-tipped tweezers or forceps as close to the skin as possible'; FAQ on the Asian longhorned tick: remove an attached tick with fine-tipped tweezers, then mail it to a state identification service."
+    },
+    "ticks-in-massachusetts": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Massachusetts?': 'Grip the tick with fine-point tweezers as close to the skin as possible.'; FAQ 'How long does a tick have to be attached...': remove any attached tick right away with fine-point tweezers."
+    },
+    "ticks-in-michigan": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Michigan?': 'Remove the tick promptly with fine-tipped tweezers'; 'Grasp the tick with fine-tipped tweezers or a tick removal tool as close to the skin as possible.'"
+    },
+    "ticks-in-minnesota": {
+      "label": "For clothing and gear",
+      "name": "Permethrin clothing spray (0.5%)",
+      "search": "permethrin spray for clothing",
+      "basis": "'How do you prevent tick bites in Minnesota?': 'MDH especially recommends permethrin products on clothing and gear for people who spend a lot of time in wooded areas, and never on skin.'"
+    },
+    "ticks-in-mississippi": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Mississippi?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers'."
+    },
+    "ticks-in-missouri": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Missouri?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-new-hampshire": {
+      "label": "For clothing and gear",
+      "name": "Permethrin clothing spray (0.5%)",
+      "search": "permethrin spray for clothing",
+      "basis": "'How do you prevent tick bites in New Hampshire?': 'Use permethrin on clothing, not skin. The state calls permethrin highly effective at repelling ticks on clothing and says it is not meant for skin; CDC recommends clothing and gear treated with 0.5% permethrin.'"
+    },
+    "ticks-in-new-jersey": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in New Jersey?': 'Grasp the tick with fine-tipped tweezers as close to the skin as possible.'"
+    },
+    "ticks-in-new-york": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in New York?': 'Use pointed tweezers and grasp the tick by the head or mouth, right where it enters the skin, not by its body.'"
+    },
+    "ticks-in-north-carolina": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in North Carolina?': 'Use clean, fine-tipped tweezers to grip the tick as close to the skin as you can.'"
+    },
+    "ticks-in-ohio": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Ohio?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-oklahoma": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Oklahoma?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-pennsylvania": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Pennsylvania?': 'Grasp the tick with fine-tipped tweezers as close to the skin as possible.'; the Asian longhorned tick section adds fine-point tweezers for pets and farm animals."
+    },
+    "ticks-in-rhode-island": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Rhode Island?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'; FAQ 'Should I see a doctor after a tick bite...': remove the tick right away with fine-tipped tweezers."
+    },
+    "ticks-in-south-carolina": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in South Carolina?': 'Grasp the tick as close to the skin as you can with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-tennessee": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Tennessee?': 'Grasp the tick with tweezers as close to the skin as possible and pull straight out, without using bare hands.'"
+    },
+    "ticks-in-texas": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Texas?': 'Use tweezers or forceps; if you use your fingers, wear disposable gloves or shield them with a paper towel.'"
+    },
+    "ticks-in-vermont": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Vermont?': 'Grasp the tick as close to the skin's surface as possible with clean, fine-tipped tweezers.'"
+    },
+    "ticks-in-virginia": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Virginia?': 'Grasp the tick with tweezers as close to the skin as possible.'"
+    },
+    "ticks-in-west-virginia": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in West Virginia?': 'Grip the tick with clean, fine-tipped tweezers as close to the skin as you can.'; FAQ on the Asian longhorned tick: remove an attached tick with fine-tipped tweezers and keep it."
+    },
+    "ticks-in-wisconsin": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a tick bite in Wisconsin?': 'Grasp the tick with narrow-bladed tweezers as close to the skin as possible; if you have none, cover your fingers with tissue paper or rubber gloves.'"
+    },
+    "ticks-on-dogs": {
+      "label": "To pull ticks off dogs",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "Quick answer: 'pull any attached tick straight out with fine-tipped tweezers as soon as you find it'; 'How do you remove a tick from a dog?': grasp the tick with fine-tipped tweezers as close to the skin as you can, the method in CAPC's guidelines, which also say to wear gloves. Prescription preventives were not picked."
+    },
+    "ticks-that-carry-lyme-disease": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after a bite from a tick that may carry Lyme disease?': 'Grasp the tick as close to the skin's surface as possible with clean fine-tipped tweezers'; if you have none, CDC says regular tweezers or fingers; keep the tick in a sealed container or rubbing alcohol."
+    },
+    "tiny-ants": {
+      "label": "To count the waist nodes",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you identify a tiny ant?': 'With a magnifier or a phone camera zoomed in, count the small knobs, called nodes, in the narrow waist'; FAQ 'What is the tiny yellow ant in my kitchen?': the right bait differs by species, 'so a close look with a magnifier is worth the effort'."
+    },
+    "tiny-black-bugs": {
+      "label": "To check tiny bugs",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you tell which tiny black bug you have?': catch one in a clear jar or on clear tape; 'A magnifying glass helps: many of these insects are 1/8 inch long or less'; under a magnifier, fleas, flour beetles and most spider beetles turn out reddish brown."
+    },
+    "tiny-brown-bugs": {
+      "label": "To check tiny bugs",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you tell which tiny brown bug you have?': 'Catch one in a clear jar or press it onto clear tape, then look at it with a magnifying glass, because many of these are 1/8 inch long or less.'"
+    },
+    "types-of-mice": {
+      "label": "For safe mouse cleanup",
+      "name": "Disposable nitrile gloves",
+      "search": "disposable nitrile gloves",
+      "basis": "Quick answer: deer and white-footed mice are hantavirus hosts, so check the coat and tail before you clean up; callout under 'Which types of mice carry hantavirus?': UC IPM's method is to air the space, 'wear nonfabric gloves (rubber, latex, vinyl or nitrile)' and wet droppings with disinfectant or bleach solution."
+    },
+    "vamoose-for-mice": {
+      "label": "To seal entry points",
+      "name": "Steel wool for mouse holes",
+      "search": "steel wool for mice",
+      "basis": "Quick answer: treat a pouch as an optional extra to sealing and trapping; 'What should you pair with Vamoose to get rid of mice?', subsection 'Seal the entry points': CDC says to fill small holes with steel wool and put caulk around it. No scent repellent picked (the page calls the evidence inconsistent)."
+    },
+    "venomous-spiders": {
+      "label": "To check a spider's eyes",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you check a spider you have caught?': trap it in a jar and 'Use a magnifying glass' for the five checks; 'How do you recognize a brown recluse?': you will likely need a hand lens to see the eyes, the University of Arizona notes."
+    },
+    "water-bugs-vs-cockroaches": {
+      "label": "To bait where they live",
+      "name": "Cockroach bait stations",
+      "search": "cockroach bait stations",
+      "basis": "'How do you get rid of the cockroaches called water bugs?': 'Cut off water, close the gaps, and put bait where the roaches live'; Penn State lists bait active ingredients placed where roaches harbor, and UC IPM recommends placing baits in water meter boxes, drains or under concrete slabs for outdoor-living roaches."
+    },
+    "what-do-ants-eat": {
+      "label": "To offer ants a bait",
+      "name": "Ant bait stations",
+      "search": "ant bait stations",
+      "basis": "'Why does what ants eat decide which bait works?': UC recommends setting out a small amount of each kind of bait, 'or several formulations in one bait station', and watching which the ants prefer; FAQ 'Why are ants ignoring my bait?': reposition stations or try another product."
+    },
+    "what-do-baby-cockroaches-look-like": {
+      "label": "For many small placements",
+      "name": "Cockroach gel bait",
+      "search": "cockroach gel bait",
+      "basis": "'What should you do after finding baby cockroaches?': 'Use bait in many small placements'; Texas A&M calls baits among the most effective insecticides for cockroaches in homes and says many small, pea-sized gel placements work better than a few large ones; skip bug bombs."
+    },
+    "what-do-bed-bugs-look-like": {
+      "label": "To check seams for eggs",
+      "name": "Lighted magnifying glass",
+      "search": "lighted magnifying glass",
+      "basis": "'What do bed bug eggs look like?', callout 'Use magnification': 'Check seams with a magnifying glass and strong light before deciding a mattress is clear'; the University of Kentucky says the eggs are hard to see without magnification."
+    },
+    "what-do-fleas-look-like": {
+      "label": "To see fleas up close",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'What does a flea look like to the naked eye?': 'The features that set a flea apart show best under a magnifying glass'; 'What does a flea look like under a magnifying glass?': a hard, side-flattened body with backward bristles, and cat and dog fleas show two combs of spines."
+    },
+    "what-do-mice-eat": {
+      "label": "To keep food from mice",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "'How do you store food so mice cannot get it?': 'Seal food in thick plastic, metal or glass containers with tight lids, because thin packaging does not stop a mouse'; good sanitation also makes traps work better by reducing competing food (Timm)."
+    },
+    "what-do-ticks-look-like": {
+      "label": "To remove a tick",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "'What should you do after finding a tick?': 'Remove an attached tick with tweezers, then decide whether you want it identified'; Iowa State describes grasping the tick's mouthparts where they enter the skin and pulling steadily, directly away from the skin."
+    },
+    "what-kills-ticks-on-dogs-instantly": {
+      "label": "To remove a tick now",
+      "name": "Fine-tipped tweezers",
+      "search": "fine tipped tweezers tick removal",
+      "basis": "Quick answer: nothing safe kills an attached tick instantly; 'The fastest fix is to pull the tick out with fine-tipped tweezers, following CDC's tick removal steps'; table: fine-tipped tweezers work right away; FAQ on dish soap: pulling the tick with fine-tipped tweezers is quicker. Prescription chews and spot-ons not picked."
+    },
+    "what-kills-ticks": {
+      "label": "For clothing and gear",
+      "name": "Permethrin clothing spray (0.5%)",
+      "search": "permethrin spray for clothing",
+      "basis": "Quick answer: CDC advises 'treating clothing and gear with 0.5% permethrin'; 'What kills ticks on boots, packs and camping gear?': permethrin applied to fabric kills ticks that crawl across it and stays protective through several washings (CDC); apply it to clothing or other fabrics, never to skin."
+    },
+    "what-smells-do-mice-hate": {
+      "label": "To seal gaps instead",
+      "name": "Copper mesh for gaps",
+      "search": "copper mesh rodent",
+      "basis": "Quick answer: sealing gaps, trapping and removing food and shelter are what the guidance describes instead of smells; 'What works better than a smell?': CDC steel wool with caulk for small holes, and 'Copper mesh does not rust, NC State says, but it should also be caulked because rodents can push it aside.'"
+    },
+    "where-do-bed-bugs-hide": {
+      "label": "To inspect dim corners",
+      "name": "LED flashlight",
+      "search": "led flashlight",
+      "basis": "'How do you inspect a bedroom for bed bugs?': 'Flashlight. Kentucky calls a flashlight useful for dimly lit areas'; 'How do you check a hotel room for bed bugs?': the University of Kentucky's advice for travelers is to inspect beds with a flashlight for dimly lit areas."
+    },
+    "where-do-cockroaches-come-from": {
+      "label": "To seal pipe gaps",
+      "name": "Copper mesh for gaps",
+      "search": "copper mesh roll",
+      "basis": "'How do cockroaches spread between apartments?': Kentucky recommends sealing the openings where plumbing pipes or wires pass through walls or floors with caulk, foam or copper mesh, especially in apartments; the table 'How do you close each route?' and FAQ 'Where do cockroaches come from in an apartment?' repeat it."
+    },
+    "whitefly-identification-control": {
+      "label": "For leaf undersides",
+      "name": "Insecticidal soap concentrate",
+      "search": "insecticidal soap concentrate",
+      "basis": "Quick answer: wet the undersides of the leaves with insecticidal soap or oil and repeat every 5 to 7 days; 'Insecticidal soap is the first spray to reach for'; 'Use a commercial insecticidal soap, not a kitchen mix' (Clemson). Spray in the evening, below 90 degrees F, keeping it off open flowers."
+    },
+    "wolf-spiders": {
+      "label": "To spot eyeshine at night",
+      "name": "LED flashlight",
+      "search": "led flashlight",
+      "basis": "'What do a wolf spider's eyes look like?': 'Hold a flashlight beside your head at night and their eyes shine back like a cat's, MDC says, and UC IPM says they reflect green'; Texas A&M says a flashlight shone into grass shows dozens of points of light from wolf spiders' eyes."
+    },
+    "zombie-ants": {
+      "label": "To examine a found ant",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "The page recommends nothing to buy. Neutral identification aid for its own section 'What does a zombie ant look like if you find one?': look for a dead carpenter ant gripping a plant with a stalk from its head; a freshly dead ant may show only growth between its body segments; photograph it with a coin for scale."
+    }
+  }
+}

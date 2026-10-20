@@ -28,7 +28,19 @@ if (!process.env.PUBLIC_AMAZON_TAG && !process.env.NEXT_PUBLIC_AMAZON_TAG) {
   } catch {}
 }
 
+if (!process.env.PUBLIC_AMAZON_US_TAG && !process.env.NEXT_PUBLIC_AMAZON_US_TAG) {
+  try {
+    for (const line of readFileSync('.env.production', 'utf8').split('\n')) {
+      const m = line.match(/^\s*PUBLIC_AMAZON_US_TAG\s*=\s*(.*?)\s*$/)
+      if (m) process.env.PUBLIC_AMAZON_US_TAG = m[1].replace(/^["']|["']$/g, '').trim()
+    }
+  } catch {}
+}
+
 const TAG = process.env.PUBLIC_AMAZON_TAG ?? process.env.NEXT_PUBLIC_AMAZON_TAG ?? ''
+// amazon.com is allowed ONLY on the US guides, and only with this tag (owner, Oct 20, 2026:
+// one page = one store; see lib/amazon.ts). Everything else stays amazon.ca.
+const US_TAG = process.env.PUBLIC_AMAZON_US_TAG ?? process.env.NEXT_PUBLIC_AMAZON_US_TAG ?? ''
 // Per-cluster tracking IDs (mirror of lib/amazon-clusters.ts — kept independent on
 // purpose so the guard doesn't import app code). Any Amazon URL may carry the
 // default tag OR one of these; anything else (or no tag) is a violation.
@@ -87,6 +99,20 @@ if (files.length === 0) {
   process.exit(1)
 }
 
+// The US guides (content/guides/*.json spokes without a locale): the only pages allowed to carry
+// amazon.com links, and they may carry nothing else from Amazon (owner, Oct 20, 2026).
+const GUIDE_LIST = (() => {
+  try {
+    return readdirSync(join('content', 'guides')).filter((n) => n.endsWith('.json')).map((name) => {
+      const g = JSON.parse(readFileSync(join('content', 'guides', name), 'utf8'))
+      return { g, path: `/${g.section ?? (g.kind === 'pillar' ? 'learn' : 'blog')}/${g.slug}` }
+    })
+  } catch { return [] }
+})()
+const isUsGuide = (g) => g.kind === 'spoke' && !g.locale
+const builtFiles = (path) => ['.html', '.rsc'].map((ext) => join(ROOT, 'server', 'app', `${path.slice(1)}${ext}`))
+const US_GUIDE_FILES = new Set(GUIDE_LIST.filter(({ g }) => isUsGuide(g)).flatMap(({ path }) => builtFiles(path)))
+
 const violations = []
 for (const f of files) {
   // Next.js RSC/flight payloads encode "&" as "&" (and "/" as "\/").
@@ -105,11 +131,15 @@ for (const f of files) {
       // An exact-match Levanta partner link is brand-paid and correctly untagged.
       if (LEVANTA_URLS.some((u) => m === u || m.startsWith(u))) continue
       if (ASSET_RE.test(m)) violations.push([f, i + 1, m, 'hotlinked Amazon asset — never allowed'])
-      // Amazon.ca only. The Associates account is a Canadian one; a link to amazon.com earns
-      // nothing and mixing marketplaces is what the owner was warned off (Oct 2026 brief:
-      // "amazon.ca ONLY — never amazon.com, never OneLink"). OneLink's script is served from
-      // amazon-adsystem, so the rule above already blocks it.
-      else if (NOT_CA_RE.test(m)) violations.push([f, i + 1, m, 'link to an Amazon marketplace other than amazon.ca — this site links to Amazon.ca only'])
+      // One page = one store. amazon.com only on the US guides, with the US tag and nothing else
+      // (owner, Oct 20, 2026); amazon.ca everywhere else. Never a client-side swap: OneLink's
+      // script is served from amazon-adsystem, so the rule above already blocks it.
+      else if (NOT_CA_RE.test(m)) {
+        if (!US_GUIDE_FILES.has(f)) violations.push([f, i + 1, m, 'amazon.com link outside a US guide — amazon.com is allowed only on the US guides (one page, one store)'])
+        else if (!US_TAG) violations.push([f, i + 1, m, 'amazon.com link but PUBLIC_AMAZON_US_TAG is unset (output must be zero)'])
+        else if (!m.includes(`tag=${US_TAG}`) || VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `amazon.com link without exactly the US tag ${US_TAG}`])
+      }
+      else if (US_GUIDE_FILES.has(f)) violations.push([f, i + 1, m, 'amazon.ca link on a US guide — the US guides link amazon.com only'])
       else if (!TAG) violations.push([f, i + 1, m, 'Amazon URL present but PUBLIC_AMAZON_TAG is unset (output must be zero)'])
       else if (!VALID_TAGS.some((t) => m.includes(`tag=${t}`))) violations.push([f, i + 1, m, `Amazon URL missing a valid tag (default ${TAG} or a cluster tag)`])
     }
@@ -146,34 +176,41 @@ if (TAG) {
   }
 }
 
-// ─── North American guides carry no Amazon links ─────────────────────────────
-// The 86 data-driven guides (content/guides/*.json, rendered by components/GuidePage.tsx)
-// are written for US readers and the Associates account is Canadian, so an Amazon.ca link
-// there is the wrong marketplace for the reader. Owner's rule (Oct 2026): Amazon stays on
-// every page that already had it, and stays OFF these guides. scripts/validate-guide.mjs
-// checks the words in the JSON; this checks the page that was actually built, so a link
-// that arrives through a shared component is caught too.
+// ─── Data-driven guides: one page, one store ─────────────────────────────────
+// The guides (content/guides/*.json, rendered by components/GuidePage.tsx). Owner, Oct 20, 2026:
+// the US guides (spokes without a locale) carry ONE amazon.com pick each, from
+// lib/amazon-us-picks.json, with the US tag (the main loop above enforces store and tag per URL).
+// The Canadian-locale guides and the pillars (hub pages) carry no Amazon link at all. This reads
+// the pages that were actually built, so a link arriving through a shared component is caught too.
 // Host-anchored (a source about the Amazon basin is not a store link), any marketplace, and
 // the two short-link hosts. A bare origin with no path is a resource hint, not a link.
 const GUIDE_AMAZON_RE = /https?:\/\/(?:[a-z0-9-]+\.)*(?:amazon\.[a-z]{2,3}(?:\.[a-z]{2})?|amzn\.to|a\.co)[/?#][^\s"'<>\\)]+/gi
-let guidesChecked = 0
-try {
-  for (const name of readdirSync(join('content', 'guides'))) {
-    if (!name.endsWith('.json')) continue
-    const g = JSON.parse(readFileSync(join('content', 'guides', name), 'utf8'))
-    const path = `/${g.section ?? (g.kind === 'pillar' ? 'learn' : 'blog')}/${g.slug}`
-    for (const ext of ['.html', '.rsc']) {
-      const f = join(ROOT, 'server', 'app', `${path.slice(1)}${ext}`)
-      let src
-      try { src = readFileSync(f, 'utf8') } catch { if (ext === '.html') violations.push([f, 0, path, 'North American guide has no built page — cannot confirm it is free of Amazon links']); continue }
-      if (ext === '.html') guidesChecked++
-      for (const m of src.replace(/\\u0026/gi, '&').replace(/\\\//g, '/').match(GUIDE_AMAZON_RE) || []) {
-        violations.push([f, 0, m, 'Amazon link on a North American guide — these pages carry no Amazon links'])
-      }
+const COM_RE = /^https?:\/\/(?:[a-z0-9-]+\.)*amazon\.com[/?#]/i
+let guidesChecked = 0, usGuidesWithPick = 0
+const PICKS = (() => {
+  try { return JSON.parse(readFileSync(join('lib', 'amazon-us-picks.json'), 'utf8')).picks || {} } catch (e) { violations.push(['lib/amazon-us-picks.json', 0, String(e && e.message), 'could not read the US picks file']); return {} }
+})()
+const usSlugs = new Set(GUIDE_LIST.filter(({ g }) => isUsGuide(g)).map(({ g }) => g.slug))
+for (const [slug, p] of Object.entries(PICKS)) {
+  if (!usSlugs.has(slug)) violations.push(['lib/amazon-us-picks.json', 0, slug, 'a pick for a page that is not a live US guide (spoke without a locale)'])
+  const bad = (v, lo, hi) => typeof v !== 'string' || v.trim().length < lo || v.trim().length > hi
+  if (!p || bad(p.label, 3, 40) || bad(p.name, 3, 60) || bad(p.search, 3, 60)) violations.push(['lib/amazon-us-picks.json', 0, slug, 'each pick needs label (3-40), name (3-60) and search (3-60)'])
+  else if (/amazon|[®™]|https?:/i.test(`${p.label} ${p.name} ${p.search}`)) violations.push(['lib/amazon-us-picks.json', 0, slug, 'a pick may not name Amazon, carry a trademark sign or a URL'])
+}
+for (const { g, path } of GUIDE_LIST) {
+  for (const f of builtFiles(path)) {
+    let src
+    try { src = readFileSync(f, 'utf8') } catch { if (f.endsWith('.html')) violations.push([f, 0, path, 'guide has no built page — cannot check its Amazon links']); continue }
+    if (f.endsWith('.html')) guidesChecked++
+    const links = src.replace(/\\u0026/gi, '&').replace(/\\\//g, '/').match(GUIDE_AMAZON_RE) || []
+    if (!isUsGuide(g)) {
+      for (const m of links) violations.push([f, 0, m, 'Amazon link on a Canadian-locale guide or a hub page — these carry no Amazon links'])
+      continue
     }
+    for (const m of links) if (!COM_RE.test(m)) violations.push([f, 0, m, 'non-amazon.com Amazon link on a US guide — US guides link amazon.com only'])
+    if (f.endsWith('.html') && links.length) usGuidesWithPick++
+    if (f.endsWith('.html') && PICKS[g.slug] && US_TAG && !links.length) violations.push([f, 0, path, 'US guide has a pick in lib/amazon-us-picks.json but no amazon.com link was built'])
   }
-} catch (e) {
-  violations.push(['content/guides', 0, String(e && e.message), 'could not read the guide list'])
 }
 
 if (violations.length) {
@@ -188,5 +225,5 @@ if (violations.length) {
 console.log(
   `✓ check:amazon passed — scanned ${files.length} crawler-visible files. ` +
   (TAG ? `Every Amazon URL carries a valid tag (default ${TAG} or one of ${CLUSTER_TAGS.length} cluster tags).` : `Zero Amazon URLs in output (no tag configured — fail-closed).`) +
-  ` Amazon.ca only. ${guidesChecked} North American guides carry no Amazon link.`
+  ` amazon.com only on the US guides (${usGuidesWithPick} carry their pick, tag ${US_TAG || 'unset'}); amazon.ca everywhere else. ${guidesChecked} guides checked.`
 )

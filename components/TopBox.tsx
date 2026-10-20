@@ -1,6 +1,6 @@
 import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
-import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
+import { AMAZON_ENABLED, AMAZON_US_ENABLED, AMAZON_DISCLOSURE, type AmazonStore } from '@/lib/amazon'
 
 /**
  * "Top box": the page's #1 pick near the very top of product and remedy pages, directly under
@@ -17,16 +17,20 @@ import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
  * `inline`: for pages whose disclosure sits inside the article column (no outer wrapper).
  * `disclosure`: for pages whose AffiliateDisclosure comes further down; the box then carries
  * Amazon's required sentence itself, so no Amazon link appears above a disclosure.
+ * `store`: "com" on the US guides only (amazon.com, the US tag; components/GuidePage.tsx), with
+ * its own pick from lib/amazon-us-picks.json. Every other page keeps the default amazon.ca.
  */
 export default function TopBox({
   name,
   search,
   asin,
   label = 'Top pick',
-  cta = 'Check price on Amazon.ca',
+  cta,
   tag,
   inline = false,
   disclosure = false,
+  store,
+  component = 'TopBox',
 }: {
   name: string
   search?: string
@@ -37,28 +41,33 @@ export default function TopBox({
   tag?: string
   inline?: boolean
   disclosure?: boolean
+  store?: AmazonStore
+  /** Analytics placement label. */
+  component?: string
 }) {
-  if (!AMAZON_ENABLED) return null
+  if (store === 'com' ? !AMAZON_US_ENABLED : !AMAZON_ENABLED) return null
+  const buttonText = cta ?? (store === 'com' ? 'Check price on Amazon' : 'Check price on Amazon.ca')
   if (!asin && !(search ?? '').trim()) return null
   const box = (
     <div className="not-prose my-4 flex flex-col gap-3 rounded-2xl border-2 border-amber-400 bg-amber-50 px-4 py-3 shadow-sm sm:flex-row sm:items-center">
       <div className="min-w-0 flex-1">
         {disclosure && <p className="mb-2 text-[11px] leading-snug text-amber-900/60">{AMAZON_DISCLOSURE}</p>}
-        <p className="text-[11px] font-extrabold uppercase leading-none tracking-wide text-amber-700">🏆 {label}</p>
+        <p className="text-[11px] font-extrabold uppercase leading-none tracking-wide text-amber-700">{store === 'com' ? label : `🏆 ${label}`}</p>
         <p className="mt-1 text-base font-extrabold leading-snug text-brand-900">
           <AmazonLink
             search={search}
             asin={asin}
             tag={tag}
-            component="TopBox"
+            store={store}
+            component={component}
             className="text-brand-900 no-underline transition-colors hover:text-amber-700 hover:underline"
           >
             {name}
           </AmazonLink>
         </p>
       </div>
-      <BuyLink search={search} asin={asin} tag={tag} component="TopBox" block className="sm:w-auto sm:shrink-0">
-        {cta} →
+      <BuyLink search={search} asin={asin} tag={tag} store={store} component={component} block className="sm:w-auto sm:shrink-0">
+        {buttonText} →
       </BuyLink>
     </div>
   )

@@ -23,6 +23,23 @@ const TAG =
 
 export const AMAZON_ENABLED = TAG.length > 0
 
+// ─── amazon.com, for the US guides only (owner, Oct 20, 2026) ────────────────
+// One page = one store: the US guides (content/guides/*.json without a locale, rendered by
+// components/GuidePage.tsx) link amazon.com with the US Associates tag, and every other page
+// keeps amazon.ca. Nothing is ever switched by the visitor's country (that client-side swap
+// caused the July 2026 rejection). The US tag comes only from its own env variable, so with
+// PUBLIC_AMAZON_US_TAG unset no amazon.com link can be produced. scripts/check-amazon.mjs fails
+// the build on an amazon.com link anywhere but a US guide, on any other tag, and on an
+// amazon.ca link on a US guide.
+const US_TAG =
+  process.env.PUBLIC_AMAZON_US_TAG ??
+  process.env.NEXT_PUBLIC_AMAZON_US_TAG ??
+  ''
+
+export const AMAZON_US_ENABLED = US_TAG.length > 0
+
+export type AmazonStore = 'ca' | 'com'
+
 /**
  * Amazon-mandated disclosure sentence. Rendered only when AMAZON_ENABLED.
  *
@@ -54,7 +71,15 @@ const enc = (s: string) =>
 // earnings down by content cluster. It does NOT affect the fail-closed switch:
 // AMAZON_ENABLED is still governed only by the env tag, so with PUBLIC_AMAZON_TAG
 // unset every link stays off regardless of any cluster tag passed in.
-export function amazonUrl(opts: { asin?: string; search?: string; tag?: string }): string | null {
+export function amazonUrl(opts: { asin?: string; search?: string; tag?: string; store?: AmazonStore }): string | null {
+  if (opts.store === 'com') {
+    // amazon.com: the US tag only (a passed Canadian cluster tag is ignored), no Levanta.
+    if (!AMAZON_US_ENABLED) return null
+    if (opts.asin) return `https://www.amazon.com/dp/${enc(opts.asin)}?tag=${US_TAG}&linkCode=ll1`
+    const q = (opts.search ?? '').trim()
+    if (!q) return null
+    return `https://www.amazon.com/s?k=${enc(q)}&tag=${US_TAG}&linkCode=ll2`
+  }
   if (!AMAZON_ENABLED) return null // fail closed — env tag is the master switch
   const t = opts.tag && opts.tag.length > 0 ? opts.tag : TAG
   // Levanta wins when configured for this ASIN. Its commission comes from the

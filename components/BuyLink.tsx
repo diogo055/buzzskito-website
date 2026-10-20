@@ -1,5 +1,5 @@
 import AmazonLink from '@/components/AmazonLink'
-import { AMAZON_ENABLED } from '@/lib/amazon'
+import { AMAZON_ENABLED, AMAZON_US_ENABLED, type AmazonStore } from '@/lib/amazon'
 
 /**
  * Amber "check price" affiliate button. Thin wrapper over <AmazonLink> — the
@@ -18,6 +18,7 @@ export default function BuyLink({
   block = false,
   tag,
   component = 'BuyLink',
+  store,
 }: {
   asin?: string
   search?: string
@@ -29,8 +30,10 @@ export default function BuyLink({
   tag?: string
   /** Analytics-only placement label; StickyBuyBar overrides this. */
   component?: string
+  /** "com" = amazon.com with the US tag (US guides only); default amazon.ca. */
+  store?: AmazonStore
 }) {
-  if (!AMAZON_ENABLED) return null
+  if (store === 'com' ? !AMAZON_US_ENABLED : !AMAZON_ENABLED) return null
   // No ASIN and no search means there is nothing to link to — render no button
   // rather than a dead one styled to look clickable.
   if (!asin && !(search ?? '').trim()) return null
@@ -38,7 +41,7 @@ export default function BuyLink({
     ? 'not-prose flex w-full min-h-[44px] items-center justify-center gap-1.5 rounded-xl bg-gradient-to-b from-amber-500 to-amber-600 px-5 py-3 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
     : 'not-prose inline-flex min-h-[44px] items-center gap-1.5 rounded-full bg-gradient-to-b from-amber-500 to-amber-600 px-4 py-2 text-sm font-bold text-white no-underline shadow-sm transition-transform hover:-translate-y-0.5'
   return (
-    <AmazonLink asin={asin} search={search} tag={tag} component={component} className={`${base} ${className}`}>
+    <AmazonLink asin={asin} search={search} tag={tag} component={component} store={store} className={`${base} ${className}`}>
       {children}
     </AmazonLink>
   )

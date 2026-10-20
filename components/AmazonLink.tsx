@@ -1,4 +1,4 @@
-import { amazonUrl } from '@/lib/amazon'
+import { amazonUrl, type AmazonStore } from '@/lib/amazon'
 
 /**
  * The ONLY component that renders an Amazon link. SERVER component (no 'use
@@ -20,6 +20,7 @@ export default function AmazonLink({
   tag,
   component,
   label,
+  store,
 }: {
   asin?: string
   search?: string
@@ -31,8 +32,10 @@ export default function AmazonLink({
   component?: string
   /** Human label for the slot, e.g. "Best overall". Analytics only. */
   label?: string
+  /** "com" = amazon.com with the US tag (US guides only); default amazon.ca. One page, one store. */
+  store?: AmazonStore
 }) {
-  const href = amazonUrl({ asin, search, tag })
+  const href = amazonUrl({ asin, search, tag, store })
   if (!href) {
     return <span className={className}>{children}</span>
   }
@@ -48,7 +51,8 @@ export default function AmazonLink({
       data-aff-search={asin ? undefined : search || undefined}
       data-aff-component={component || undefined}
       data-aff-label={label || undefined}
-      data-aff-tag={tag || undefined}
+      // amazon.com links (US guides) report as cluster_tag "amazon.com" in GA4
+      data-aff-tag={store === 'com' ? 'amazon.com' : tag || undefined}
     >
       {children}
     </a>
