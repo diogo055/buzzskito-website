@@ -6,6 +6,7 @@ import GuideHub, { type HubSection } from '@/components/GuideHub'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -425,6 +426,7 @@ export default function BedBugControlHubPage() {
           attribution: '— BuzzSkito Pest Product Guides · independent Canadian research',
         }}
         adjacentPest="bed bugs"
+        topBox={<TopBox tag={AMZ_TAG} name="Vapamore MR-100 Primo dry-vapour steamer" search="vapamore mr-100 steamer" label="Our top pick" disclosure />}
         howWeRank={{
           title: 'How we rank bed bug products',
           body: (

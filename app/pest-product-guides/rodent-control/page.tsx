@@ -5,6 +5,7 @@ import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import TopBox from '@/components/TopBox'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -147,6 +148,7 @@ export default function RodentControlHubPage() {
         subtitle="The traps that actually catch mice and rats, the one poison format that is legal for Canadian consumers, and how to seal a house before winter drives rodents indoors. Every recommendation checked against Health Canada’s PMRA registry."
         heroStats={[{ value: `${POSTS_LINKED}`, label: 'Research guides' }, { value: `${SECTIONS.length}`, label: 'Categories' }, { value: 'PMRA-legal', label: 'Picks only' }]}
         adjacentPest="mice or rats"
+        topBox={<TopBox tag={AMZ_TAG} name="Victor M325 Wood Snap Trap (4-pack)" search="victor mouse trap 4 pack" label="Start Here" disclosure />}
         quickAnswer={{
           lead: <>For a home mouse or rat problem in Canada, start with <strong>traps, not poison</strong>: a good snap or electronic trap gives you a confirmed kill, works the first night, and avoids the secondary-poisoning risk bait poses to pets and wildlife. Poison is the narrower option here anyway — second-generation anticoagulants are restricted to commercial applicators, so the legal consumer choice is a non-anticoagulant bait sold pre-loaded inside a tamper-resistant disposable station.</>,
           bullets: [
