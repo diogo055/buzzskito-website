@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-20",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 148,
+  "newPagesBuilt": 152,
   "hubPages": 4,
-  "guides": 133,
+  "guides": 137,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 249,
-  "internalLinksInNewPages": 1912
+  "notBuilt": 253,
+  "internalLinksInNewPages": 1958
  },
  "pages": [
   {
@@ -104,7 +104,7 @@
    "wordCount": 2348,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -120,8 +120,24 @@
    "wordCount": 2288,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "rat droppings",
+   "us_volume": null,
+   "url": "/blog/rat-droppings",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Rat Poop: What Rat Droppings Look Like (Photos)",
+   "wordCount": 2167,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -133,11 +149,11 @@
    "kind": "pillar",
    "cluster": "cockroaches",
    "title": "Cockroaches: Species, Health Risks and Control",
-   "wordCount": 5103,
+   "wordCount": 5109,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 14,
-   "outboundInternalLinks": 19,
+   "inboundFromNewPages": 15,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -152,7 +168,7 @@
    "wordCount": 2412,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -168,8 +184,24 @@
    "wordCount": 2517,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of roaches",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-cockroaches",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "How to Get Rid of Roaches: The Order That Works",
+   "wordCount": 3056,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1102,6 +1134,38 @@
   },
   {
    "rank": null,
+   "keyword": "termite damage",
+   "us_volume": null,
+   "url": "/blog/termite-damage",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Termite Damage: What It Looks Like (Photos)",
+   "wordCount": 2218,
+   "faqs": 10,
+   "sources": 10,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "termite droppings",
+   "us_volume": null,
+   "url": "/blog/termite-droppings",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Termite Droppings: ID Termite Frass (Photos)",
+   "wordCount": 1788,
+   "faqs": 10,
+   "sources": 12,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "bug bite identification",
    "us_volume": null,
    "url": "/learn/bug-bites",
@@ -1109,11 +1173,11 @@
    "kind": "spoke",
    "cluster": "bites",
    "title": "Bug Bite Identification: What Bit You? (Photos)",
-   "wordCount": 3921,
+   "wordCount": 3942,
    "faqs": 6,
    "sources": 20,
    "inboundFromNewPages": 8,
-   "outboundInternalLinks": 43,
+   "outboundInternalLinks": 44,
    "status": "built"
   },
   {
@@ -1128,7 +1192,7 @@
    "wordCount": 4530,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2817,13 +2881,6 @@
   },
   {
    "rank": null,
-   "keyword": "rat droppings",
-   "url": "/blog/rat-droppings",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "what does a mouse nest look like",
    "url": "/blog/mouse-nest",
    "action": "new",
@@ -2880,13 +2937,6 @@
   },
   {
    "rank": null,
-   "keyword": "how to get rid of roaches",
-   "url": "/blog/how-to-get-rid-of-cockroaches",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "small holes in yard",
    "url": "/blog/holes-in-yard",
    "action": "new",
@@ -2910,13 +2960,6 @@
    "rank": null,
    "keyword": "animal poop identification",
    "url": "/blog/animal-droppings",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "termite damage",
-   "url": "/blog/termite-damage",
    "action": "new",
    "status": "not built"
   },
@@ -2952,6 +2995,55 @@
    "rank": null,
    "keyword": "maggots",
    "url": "/blog/maggots",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "raccoon poop",
+   "url": "/blog/raccoon-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bat poop",
+   "url": "/blog/bat-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mouse poop",
+   "url": "/blog/mouse-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "squirrel poop",
+   "url": "/blog/squirrel-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "possum poop",
+   "url": "/blog/possum-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bug poop",
+   "url": "/blog/bed-bug-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "mouse urine",
+   "url": "/blog/mouse-urine",
    "action": "new",
    "status": "not built"
   },
@@ -3097,7 +3189,7 @@
    "wordCount": 3292,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3145,7 +3237,7 @@
    "wordCount": 5203,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 26,
+   "inboundFromNewPages": 27,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -3237,7 +3329,7 @@
    "wordCount": 2971,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3321,7 +3413,7 @@
    "wordCount": 3187,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3464,8 +3556,8 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Bugs That Look Like Cockroaches: 8 to Rule Out",
-   "wordCount": 2334,
-   "faqs": 6,
+   "wordCount": 2338,
+   "faqs": 9,
    "sources": 6,
    "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
@@ -3633,7 +3725,7 @@
    "wordCount": 2267,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -3729,7 +3821,7 @@
    "wordCount": 3741,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 22,
    "status": "built"
   },
@@ -3785,7 +3877,7 @@
    "wordCount": 3187,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4023,7 +4115,7 @@
    "wordCount": 4028,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -4071,7 +4163,7 @@
    "wordCount": 3111,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4279,7 +4371,7 @@
    "wordCount": 2267,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4337,7 +4429,7 @@
    "wordCount": 2219,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4411,7 +4503,7 @@
    "wordCount": 2862,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4443,7 +4535,7 @@
    "wordCount": 2936,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   }

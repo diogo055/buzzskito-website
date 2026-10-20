@@ -2916,6 +2916,20 @@
     "/blog/black-flies-mississauga-toronto-gta-2026"
    ]
   },
+  "/blog/how-to-get-rid-of-cockroaches": {
+   "next": "/blog/cockroach-eggs",
+   "related": [
+    "/blog/palmetto-bugs",
+    "/blog/what-do-baby-cockroaches-look-like",
+    "/blog/water-bugs-vs-cockroaches"
+   ],
+   "cards": [
+    "/blog/bugs-that-look-like-cockroaches",
+    "/learn/cockroaches",
+    "/blog/can-cockroaches-fly"
+   ],
+   "bar": true
+  },
   "/blog/how-to-get-rid-of-cockroaches-canada": {
    "next": "/blog/german-cockroaches",
    "related": [
@@ -4328,6 +4342,20 @@
     "/blog/citronella-candles-canada-do-they-work"
    ]
   },
+  "/blog/rat-droppings": {
+   "next": "/blog/roof-rat-vs-norway-rat",
+   "related": [
+    "/blog/what-does-mouse-poop-look-like-canada",
+    "/blog/how-to-get-rid-of-rats-canada",
+    "/blog/vamoose-for-mice"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/rat-vs-mouse",
+    "/blog/baby-mice"
+   ],
+   "bar": true
+  },
   "/blog/rat-poison-canada-what-is-legal": {
    "next": "/blog/how-to-get-rid-of-rats-canada",
    "related": [
@@ -4599,6 +4627,34 @@
     "/blog/bed-bugs-on-the-ttc-toronto",
     "/blog/dupray-neat-vs-hill-injection-canada"
    ]
+  },
+  "/blog/termite-damage": {
+   "next": "/blog/termite-droppings",
+   "related": [
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/flea-eggs",
+    "/blog/how-to-get-rid-of-carpet-beetles"
+   ],
+   "cards": [
+    "/blog/house-centipedes",
+    "/blog/pantry-pests",
+    "/blog/asian-lady-beetles"
+   ],
+   "bar": true
+  },
+  "/blog/termite-droppings": {
+   "next": "/blog/asian-lady-beetles",
+   "related": [
+    "/blog/flea-eggs",
+    "/blog/house-centipedes",
+    "/blog/how-to-get-rid-of-fleas"
+   ],
+   "cards": [
+    "/blog/termite-damage",
+    "/blog/bugs-in-house-in-winter",
+    "/blog/how-to-get-rid-of-carpet-beetles"
+   ],
+   "bar": true
   },
   "/blog/thermacell-canada-where-to-buy": {
    "next": "/blog/thermacell-refills-recharge-canada",

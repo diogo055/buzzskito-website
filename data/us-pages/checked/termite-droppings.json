@@ -1,0 +1,22 @@
+{
+ "id": "termite-droppings",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e1d64d3439f60ab207f3426aebc61a7251a9d2decaba0691faabb6dd9008af97",
+ "claimsChecked": 210,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 0,
+ "checkedOn": "2026-10-20",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026 (after the fact-check): the damaged-wood figure caption's second sentence now restates the page's own UC IPM test (pellets = drywood, mud = subterranean) instead of implying the photo shows drywood galleries; the checker flagged the ambiguity. No new fact.",
+   "previousSha": "54848db8b6d175be2f542333b475b4bec5b62ee2ede6b9b8ce0bae3355956578"
+  }
+ ],
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

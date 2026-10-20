@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-270 images across 110 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+284 images across 114 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -298,6 +298,12 @@
 - Photo of an active Norway rat burrow entrance in the soil along a house foundation or under a woodpile, with a ruler marked in inches beside the opening for scale
 - Photo of a hollowed-out orange still hanging on the tree, showing the small hole through which the fruit was eaten out, the damage UC IPM attributes to roof rats
 
+## /blog/rat-droppings
+
+- Norway rat, roof rat and house mouse droppings photographed side by side on a white card beside one ruler marked in inches, in a US home, so all three can be compared at the same scale
+- Gray squirrel droppings found in a US attic, photographed beside a ruler marked in inches next to Norway rat droppings, so the two can be compared at the same scale
+- Fresh and old rat droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dry, gray and crumbling
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -354,6 +360,12 @@
 - Egg cases of the German, brown-banded, American and Oriental cockroaches side by side on a white background beside a ruler marked in inches, at life size and each identified to species; public domain or CC0
 - Smokybrown cockroach egg case (dark brown to black, about 3/8 inch), identified to species, ideally beside a ruler marked in inches; public domain or CC0
 - Close-up of an empty cockroach egg case split open along the top after hatching, beside a case with the small round exit hole of an ensign wasp, each identified to species, next to a ruler marked in inches; public domain or CC0
+
+## /blog/how-to-get-rid-of-cockroaches
+
+- Top-down photo of an adult male wood cockroach (Parcoblatta species) beside a ruler marked in inches, ideally on a porch, windowsill or firewood where people find it
+- Close-up photo of German cockroach droppings (pepper-like specks and dark smears) in the corner of a kitchen cabinet near a hinge, beside a ruler marked in inches
+- Photo of pea-sized dots of cockroach gel bait placed along a cabinet hinge and inside corner under a kitchen sink, with a ruler marked in inches for scale
 
 ## /blog/how-to-get-rid-of-mosquitoes
 
@@ -543,6 +555,20 @@
 
 - Top-down macro photo of a gray springtail beside a cat flea on a white surface with a ruler marked in inches, plus a side view showing the forked jumping appendage folded under the springtail's body
 - Close-up photo of an adult flea beetle on a leaf peppered with small round shot holes, beside a ruler marked in inches, showing the thickened hind legs and the hard wing covers
+
+## /blog/termite-damage
+
+- Close-up of a split sill plate or floor joist showing subterranean termite galleries running along the grain, with dried mud on the gallery walls, beside a ruler marked in inches
+- Close-up of narrow, sunken, winding lines in painted drywall over termite galleries, with a small spot of dried mud, beside a ruler marked in inches
+- Side-by-side photo of brown-rotted wood cracked into cube-like blocks and termite-damaged wood with mud-lined galleries along the grain, each beside a ruler marked in inches
+- Close-up of powderpost beetle exit holes in a hardwood floorboard with a small pile of flour-like powder below, beside a US dime for scale
+
+## /blog/termite-droppings
+
+- Close-up color photo of drywood termite pellets on a white card beside a ruler marked in inches and millimeters, sharp enough to show the six flattened sides
+- Small pile of drywood termite pellets on a painted windowsill directly below a kick-out hole in the window trim, with a US penny beside the pile for scale
+- Small pile of carpenter ant frass (coarse wood shavings with ant body parts) beside a pile of drywood termite pellets on a white surface, with a US dime for scale
+- Small pile of flour-like powderpost beetle frass below tiny round exit holes in a hardwood board, beside a US dime for scale
 
 ## /learn/bug-bites
 

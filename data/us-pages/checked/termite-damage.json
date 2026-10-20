@@ -1,0 +1,15 @@
+{
+ "id": "termite-damage",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3a2e73733dacb446fe884ecf8a048fb7dc069dc330b2f959bb449bc9b5afa424",
+ "claimsChecked": 220,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

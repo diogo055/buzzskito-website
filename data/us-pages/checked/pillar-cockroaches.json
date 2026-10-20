@@ -2,7 +2,7 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "66ee9f1763a61e8c9c7c7d06a4ddb7cd08f1b84829b5b2880d277dbe22a48692",
+ "sha": "3084641c23b43d933157b6f2895a647acb5769e87e5efa3d2948f6dc2b01e7af",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
@@ -12,6 +12,11 @@
    "on": "2026-10-16",
    "note": "Added two link paragraphs (no new facts): after the American cockroach paragraph -> /blog/palmetto-bugs; after the life-cycle paragraph -> /blog/cockroach-eggs (both planned pages, shown as text until live).",
    "previousSha": "0d4e3f111db48c01713da771d964adbfac17d9e8b1064d034c9eb1a6eb7b032c"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: the treatment-plan link now points to the new US edition (/blog/how-to-get-rid-of-cockroaches) and keeps the Canadian edition as a second link; no fact changed.",
+   "previousSha": "66ee9f1763a61e8c9c7c7d06a4ddb7cd08f1b84829b5b2880d277dbe22a48692"
   }
  ]
 }

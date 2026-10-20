@@ -1,0 +1,168 @@
+{
+  "slug": "termite-droppings",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "termite droppings",
+  "alsoTargets": [
+    "termite poop",
+    "termite frass",
+    "drywood termite droppings",
+    "termite droppings vs carpenter ant frass",
+    "termite droppings but no termites",
+    "carpenter ant frass"
+  ],
+  "metaTitle": "Termite Droppings: ID Termite Frass (Photos)",
+  "metaDescription": "Termite droppings are hard pellets with six flattened sides, piled below small holes in wood. How to tell them from carpenter ant frass and beetle powder.",
+  "h1": "Termite Droppings: What Termite Frass Looks Like, and What Else It Could Be",
+  "dek": "Drywood termite pellets up close, why most termites leave mud instead of droppings, and how to tell termite frass from carpenter ant shavings, beetle powder and sawdust.",
+  "breadcrumb": "Termite Droppings",
+  "excerpt": "What termite droppings look like, which termites leave them, and how to tell them from carpenter ant frass, powderpost beetle powder and sawdust.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Termite droppings are hard, tiny pellets with six flattened sides, piled below small holes in wood, and they come from drywood termites; subterranean termites, the most common kind in most of the US, leave mud instead.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/drywood-termites/) calls the six-sided pellets diagnostic for drywood termites.",
+    "bullets": [
+      "Texas A&M says drywood termite pellets are about 1/32 inch long, blunt at one end and pointed at the other, with lengthwise flutes that show under magnification.",
+      "Termites push them out through kick-out holes roughly 1/16 inch (1 to 2 mm) across, and they pile up or scatter below, according to UF/IFAS.",
+      "Mississippi State's species table marks pellet piles as a drywood termite sign; eastern and Formosan subterranean termites do not leave them.",
+      "Carpenter ant frass looks like pencil shavings mixed with insect parts (NC State), and powderpost beetle frass is as fine as flour (UC IPM).",
+      "UC IPM says pellets alone cannot show whether termites are still active: clean them up and check a few days later for new ones."
+    ]
+  },
+  "facts": {
+    "title": "Termite droppings or something else?",
+    "head": ["Who left it", "What it looks like", "Where you find it"],
+    "rows": [
+      ["Drywood termites", "Hard pellets about 1/32 inch long with six flattened, ridged sides; cream, red, black or wood-colored", "Piled or scattered below kick-out holes in wood"],
+      ["Subterranean termites", "No pellet piles; mud in the galleries and mud tubes", "Wood near the soil, foundations, crawl spaces"],
+      ["Formosan subterranean termites", "No pellet piles; soil in the galleries and carton of soil, wood pulp, saliva and feces", "Walls and voids; southeastern states, Hawaii, southern California"],
+      ["Dampwood termites", "Elongated pellets rounded at both ends, without clear ridges", "Wet, decaying wood"],
+      ["Carpenter ants", "Fiber-like shavings like pencil shavings, with insect parts", "Below slit-like openings; under crawl space insulation"],
+      ["Powderpost beetles", "Powder as fine as flour or talcum", "Small piles below tiny round holes in hardwood"],
+      ["Deathwatch beetles", "Tiny gritty pellets, smaller than termite pellets", "Packed in galleries in damp softwood"],
+      ["Carpenter bees", "Coarse sawdust", "Below a perfectly round hole about 1/2 inch wide"],
+      ["German cockroaches", "Specks like crushed pepper, stuck to surfaces", "Where cockroaches hide and gather"]
+    ],
+    "caption": "From UC IPM, Texas A&M, UF/IFAS, Mississippi State, NC State and University of Kentucky Extension and the USDA Forest Products Laboratory, each linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What do termite droppings look like?" },
+    { "type": "p", "text": "Termite droppings are hard, tiny pellets with six flattened sides that drywood termites push out of the wood they live in. [Texas A&M's drywood termite page](https://urbanentomology.tamu.edu/urban-pests/termites/drywood/) says they are about 1/32 inch long and tend to be blunt at one end and pointed at the other, with long dimples or flutes down each surface that show under modest magnification. UC IPM's [pest note on subterranean and other termites](https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/) describes six lengthwise flattened sides, and its [drywood termite note](https://ipm.ucanr.edu/home-and-landscape/drywood-termites/) calls six-sided pellets diagnostic for drywood termites." },
+    { "type": "figure", "src": "/guides/photos/drywood-termite-pellets.webp", "width": 1058, "height": 1367, "alt": "Dozens of magnified oval termite fecal pellets with ridged, flattened sides on a black background, in a black-and-white photograph", "caption": "Magnified fecal pellets of the western drywood termite in a 1977 USDA Forest Service photograph from the book Western Forest Insects, shown without a scale. Look for the flattened, ridged sides; real pellets are only about 1/32 inch long.", "license": "public-domain", "credit": "R6, State & Private Forestry, Forest Health Protection, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:1977._Western_drywood_termite_(Incisitermes_minor)_fecal_pellets._Figure_27-C_on_page_74_in_Furniss_and_Carolin._1977._Western_Forest_Insects._(38594678042).jpg" },
+    { "type": "p", "text": "Color is a poor clue, because the sources disagree. Texas A&M says pellets are generally the color of the wood the termites have been eating, while [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN236), writing about the West Indian drywood termite, says pellets can be cream, red or black and that their color does not follow the wood or change over time. Shape is the better test: UC IPM's beetle note says that up close, drywood termite pellets show ridges on their sides." },
+    { "type": "media", "needed": "Close-up color photo of drywood termite pellets on a white card beside a ruler marked in inches and millimeters, sharp enough to show the six flattened sides" },
+
+    { "type": "h2", "text": "Which termites leave droppings?" },
+    { "type": "p", "text": "Drywood termites are the ones that leave piles of dry pellets; dampwood termites leave pellets of a different shape, and subterranean termites leave no pellet piles. [Mississippi State University Extension's termite guide](https://extension.msstate.edu/publications/protect-your-house-termites) compares its three species: southeastern drywood termites produce piles of dry fecal pellets, while eastern and Formosan subterranean termites do not, and instead build mud tubes and leave dry soil in their galleries. The [EPA](https://www.epa.gov/safepestcontrol/termites-how-identify-and-control-them) says the native subterranean termite is the most common termite in most of the United States, so in most of the country a termite problem shows up as mud, not pellets." },
+    { "type": "h3", "text": "Where do drywood termites live?" },
+    { "type": "p", "text": "Drywood termites are a southern and western problem. The USDA Forest Products Laboratory's [Wood Handbook chapter on wood-damaging fungi and insects](https://research.fs.usda.gov/treesearch/62262) says non-subterranean termites, the group drywood termites belong to, occur only in a narrow strip from central California around the southern edge of the country to Virginia, and in Hawaii. Their main damage is in southern California, parts of southern Florida and Hawaii, and they are a local problem in Arizona and New Mexico. Infested furniture carries them farther, so isolated cases turn up elsewhere." },
+    { "type": "p", "text": "Regional sources fill in the map. UC IPM places the western drywood termite along California's coast, in the Central Valley and in the southern California deserts; Texas A&M finds drywood termites throughout Texas, most of all along the Gulf Coast; Mississippi State finds most of its infestations in three coastal counties; and UF/IFAS traces the West Indian drywood termite through coastal Florida and the southeastern Gulf Coast." },
+    { "type": "h3", "text": "What about dampwood termites?" },
+    { "type": "p", "text": "Dampwood termites leave pellets too, but of a different shape. UC IPM says theirs are elongated and rounded at both ends, like a football, and lack the clear lengthwise ridges of drywood pellets. Dampwood termites live in decayed wood kept moist by soil contact or a leak, mostly in cool, humid coastal areas of California, so UC IPM treats finding them as a sign of a moisture problem too." },
+
+    { "type": "h2", "text": "Where do termite droppings come from?" },
+    { "type": "p", "text": "They come out of kick-out holes, small openings drywood termites make in the surface of the wood to push their pellets out. UF/IFAS puts the holes at roughly 1/16 inch across (usually 1 to 2 mm). The pellets fall onto whatever lies below: UC IPM says they accumulate on horizontal surfaces under the openings, and UF/IFAS says they form piles or scattered circles depending on how high the hole is. One of its photos shows pellets and adult termites on a windowsill." },
+    { "type": "p", "text": "So a small pile of pellets on a windowsill, floor, shelf or bed points to the wood directly above or beside it. UC IPM lists structural lumber, decks, fences and furniture among the dry wood drywood termites infest, and Texas A&M says that in buildings they prefer to nest under wooden roof shingles, eaves or siding. Texas A&M adds that drywood damage is seldom obvious, but any damage that does show is proof of a past or present infestation." },
+    { "type": "media", "needed": "Small pile of drywood termite pellets on a painted windowsill directly below a kick-out hole in the window trim, with a US penny beside the pile for scale" },
+
+    { "type": "h2", "text": "Do subterranean termites leave droppings?" },
+    { "type": "p", "text": "Not as loose pellets; their droppings end up in the walls of their galleries. [NC State Extension's carpenter ant guide](https://content.ces.ncsu.edu/biology-and-control-of-carpenter-ants), comparing the damage, says subterranean termite gallery walls are filled with a mud-like fecal material, and UC IPM says some species leave light-brown excrement in their cavities. What you see from outside is mud: shelter tubes of soil, saliva and bits of wood, which UC IPM calls the most commonly seen evidence of subterranean termites." },
+    { "type": "figure", "src": "/guides/photos/termite-mud-tubes.webp", "width": 1200, "height": 792, "alt": "Several thin, tan mud tubes running up a white-painted interior wall, photographed from below", "caption": "Subterranean termite mud tubes on the inside wall of a building, in a US Marine Corps photo. Subterranean termites leave tubes like these in sight, not pellet piles.", "license": "public-domain", "credit": "Sgt. Justin J. Shemanski, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:USMC-110924-M-KV513-225.jpg" },
+    { "type": "p", "text": "Formosan subterranean termites, an invasive species in the Southeast, build with their droppings. [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN278) says they often bring soil into their feeding galleries and fill voids with carton, a blend of soil, wood pulp, saliva and termite feces, and Mississippi State notes that established colonies build these carton nests in walls. Texas A&M's drywood page draws the same contrast: Formosan termites leave no fecal pellets in their galleries. Photos of subterranean damage and mud tubes are in [the termite damage guide](/blog/termite-damage)." },
+
+    { "type": "h2", "text": "Termite frass vs carpenter ant frass: how do you tell them apart?" },
+    { "type": "p", "text": "Carpenter ant frass is fibrous and full of insect parts; drywood termite frass is a pile of small, hard pellets. NC State Extension says carpenter ants throw out piles of fiber-like wood debris and frass that looks like pencil shavings and holds the remains of ants and other insects the colony has eaten. Drywood termite galleries, by contrast, hold small, hard, seed-like six-sided pellets that look nothing like that wood fiber." },
+    { "type": "p", "text": "Where you find it helps too. NC State says carpenter ants push their debris out through slit-like openings, that it is often found by pulling back insulation in a crawl space, and that dark debris points to decaying wood. Their galleries are tidy, with walls that look almost sandpapered. Because carpenter ants prefer wood at 15% moisture or more, their frass often leads to a moisture problem. [A guide to finding a carpenter ant nest](/blog/carpenter-ants-canada) covers the next step, and [the flying ants vs termites comparison](/blog/flying-ants-vs-termites) sorts the winged forms." },
+    { "type": "media", "needed": "Small pile of carpenter ant frass (coarse wood shavings with ant body parts) beside a pile of drywood termite pellets on a white surface, with a US dime for scale" },
+
+    { "type": "h2", "text": "What else looks like termite droppings?" },
+    { "type": "p", "text": "Beetle powder, carpenter bee sawdust and cockroach droppings are the usual mix-ups, and UC IPM notes that telling drywood pellets from the debris of other wood-destroying pests, or from plain wood debris, can take an expert." },
+    { "type": "h3", "text": "Powderpost and deathwatch beetles" },
+    { "type": "p", "text": "Powderpost beetles leave a fine, dustlike powder with the feel of baking flour or talcum, which UC IPM's [pest note on wood-boring beetles in homes](https://ipm.ucanr.edu/home-and-landscape/wood-boring-beetles-in-homes/) contrasts with the larger, granular, almost pepperlike pellets of drywood termites. The powder sometimes falls from tiny round exit holes into small piles, mostly from hardwoods such as oak, ash and walnut in floors, paneling and furniture; the Forest Products Laboratory gives those holes as 1/32 to 1/16 inch. Deathwatch beetles pack their galleries with very small, slightly gritty pellets, smaller than drywood termite pellets, mostly in damp softwood in basements, subfloor areas and outbuildings. Other indoor beetles are sorted in [a photo guide to beetles in the house](/blog/beetles-in-house)." },
+    { "type": "media", "needed": "Small pile of flour-like powderpost beetle frass below tiny round exit holes in a hardwood board, beside a US dime for scale" },
+    { "type": "h3", "text": "Carpenter bees" },
+    { "type": "p", "text": "A pile of coarse sawdust under a perfectly round hole is a carpenter bee's work. [University of Kentucky Entomology](https://entomology.mgcafe.uky.edu/ef611) describes the entrance hole as about the diameter of your little finger, sometimes with coarse sawdust below, in unpainted, weathered wood such as eaves, fascia boards, siding and decks. The Forest Products Laboratory puts the hole at about 1/2 inch, many times wider than a kick-out hole. [A guide to carpenter bees](/blog/how-to-get-rid-of-carpenter-bees-canada) covers what to do about them." },
+    { "type": "h3", "text": "Cockroach droppings" },
+    { "type": "p", "text": "Dark specks stuck to surfaces, rather than loose pellets piled below wood, point to cockroaches. [Texas A&M AgriLife Extension](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) says that with German cockroaches you find tiny droppings like crushed pepper, stuck to surfaces where the roaches gather; drywood termite pellets are loose, hard and six-sided, and pile up below holes in wood. [A guide to cockroach droppings](/blog/cockroach-droppings) compares the household species, and droppings left by mice, rats, bats and other animals are sorted in [the animal droppings identification chart](/blog/animal-droppings)." },
+    { "type": "confused", "title": "Look-alikes and related signs", "items": [
+      { "href": "/blog/flying-ants-vs-termites", "name": "Carpenter ant", "photo": "carpenter-ant-winged-queen", "note": "Fibrous shavings like pencil shavings, mixed with insect parts", "alt": "Winged black carpenter ant queen seen from above on a green leaf" },
+      { "href": "/blog/how-to-get-rid-of-carpenter-bees", "name": "Carpenter bee", "photo": "carpenter-bee-female", "note": "Coarse sawdust below a perfectly round hole about 1/2 inch wide", "alt": "Female eastern carpenter bee with a black face and fuzzy yellow thorax on pink flowers" },
+      { "href": "/blog/cockroach-droppings", "name": "German cockroach", "photo": "german-cockroach-adult", "note": "Droppings like crushed pepper, stuck to surfaces where roaches gather", "alt": "Adult German cockroach on a white surface, seen from above" },
+      { "href": "/blog/what-do-termites-look-like", "name": "Termite swarmers", "photo": "termite-swarmers", "note": "Four equal wings; swarmers emerging indoors mean an active infestation", "alt": "Winged subterranean termites with long, pale wings on decaying wood" }
+    ] },
+
+    { "type": "h2", "text": "Termite droppings but no termites: what does it mean?" },
+    { "type": "p", "text": "It is normal not to see the termites. UC IPM describes drywood termites as cryptic insects that live deep inside wood and are seldom seen except when they swarm or when infested wood is opened during repairs. Their colonies are small, usually fewer than 1,000 termites, and take years to mature, and Texas A&M says winged swarmers are usually the first sign of a drywood infestation." },
+    { "type": "p", "text": "Pellets do not prove the termites are still there, either. UC IPM says it is not possible to tell from fecal pellets alone whether an infestation is active or how far it extends. Its check is to clean up the pellets around a kick-out hole and look again a few days later. Both UC IPM and UF/IFAS warn that building vibration or movement can shake old pellets loose, so new pellets are a clue rather than proof, and UC IPM says judging an infestation takes experience and is best done by a professional." },
+    { "type": "p", "text": "Swarmers are firmer evidence. UC IPM says drywood swarmers fly in daylight in summer and fall, and Texas A&M says swarmers found inside a building are almost a sure sign the termites are in its structural timbers." },
+
+    { "type": "h2", "text": "What should you do if you find termite droppings?" },
+    { "type": "p", "text": "Save a sample, then get an inspection; drywood termite treatment is professional work. UC IPM says do-it-yourself treatments are not recommended and that the products needed are not available for homeowner use." },
+    { "type": "ol", "items": [
+      "**Photograph the pile where it lies**, and the wood above it, before you clean anything up.",
+      "**Keep a sample.** Sweep a few pellets into a sealed bag or jar; UC IPM notes that confirming drywood pellets may take an expert.",
+      "**Clean and watch.** Clear the pile and check the spot a few days later for new pellets, the activity check UC IPM describes.",
+      "**Book a licensed inspection.** EPA says firms offering termite services must be licensed by your state; ask to see the license, and call your state pesticide regulatory agency with any concerns.",
+      "**Ask about whole-structure versus spot treatment.** UC IPM says whole-structure treatments such as fumigation should reach hidden infestations, while with localized treatments you can never be sure every infestation was treated."
+    ] },
+    { "type": "figure", "src": "/guides/photos/termite-damaged-wood.webp", "width": 1200, "height": 900, "alt": "Wood under a board in an old building eaten away into thin, ragged layers along the grain", "caption": "Termite damage under a board in a historic building in Florida, in a 2009 National Park Service photo; the park's caption does not name the species. Look inside the galleries: drywood termites leave pellets, subterranean termites leave mud (UC IPM).", "license": "public-domain", "credit": "NPS Photo, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:One_of_the_greatest_threats_to_this_structure_has_been_termite_damage._(155edfe9-1dd8-b71c-072c-c7c65eb75be8).JPG" },
+    { "type": "p", "text": "What termite galleries can look like, and the other signs of termites, are in [the termite damage guide](/blog/termite-damage), and [the termite identification guide](/blog/what-do-termites-look-like) covers the insects themselves." },
+    { "type": "callout", "tone": "tip", "title": "Bring a sample", "text": "Put a few pellets in a sealed jar or bag, photograph them beside a ruler marked in inches, and note where you found them and what wood is above. Your state's cooperative extension office or a licensed inspector can use that to tell termite pellets from beetle frass or ant debris." }
+  ],
+  "faqs": [
+    {
+      "question": "What do I do if I see termite droppings?",
+      "answer": "Photograph the pile and the wood above it, keep a few pellets in a sealed bag, then clean up the rest and check the spot a few days later for new pellets, as UC IPM suggests. Because drywood termites live deep inside wood, UC IPM says judging how far an infestation extends is best done by a professional, and it does not recommend do-it-yourself treatments. EPA says termite firms must be licensed by your state, so ask to see the license."
+    },
+    {
+      "question": "What can be mistaken for termite droppings?",
+      "answer": "Several kinds of debris. Carpenter ants push out fibrous shavings like pencil shavings mixed with insect parts, according to NC State Extension. Powderpost beetles leave powder as fine as flour, and deathwatch beetles leave tiny gritty pellets smaller than termite pellets, according to UC IPM. Carpenter bees leave coarse sawdust under a round hole about 1/2 inch wide, and Texas A&M says German cockroach droppings look like crushed pepper stuck to surfaces. Drywood termite pellets are hard, with six flattened sides."
+    },
+    {
+      "question": "Are termite droppings harmful?",
+      "answer": "None of the government or university sources cited on this page describes drywood termite pellets as a health hazard to people; they treat the pellets as evidence of termites. The harm the pellets point to is in the wood, where the termites are feeding. UC IPM says pellets alone cannot show how far an infestation extends or whether it is still active, so once you have photographed the pile and kept a sample, the useful next step is an inspection."
+    },
+    {
+      "question": "Why are there termite droppings but no termites?",
+      "answer": "Because drywood termites stay inside the wood. UC IPM describes them as cryptic insects that live deep in wood and are seldom seen except when they swarm or when infested wood is opened during repairs, and says their colonies are small, usually fewer than 1,000 termites. Old pellets can also fall out on their own: UC IPM and UF/IFAS both say building vibration or movement can shake loose pellets from wood that was infested in the past."
+    },
+    {
+      "question": "Does termite frass mean an active infestation?",
+      "answer": "Not by itself. UC IPM says it is not possible to tell from fecal pellets alone whether an infestation is active or how far it extends. To check, clean up the pellets around a kick-out hole and look again a few days later; new pellets suggest the termites are still feeding, though vibration can shake old ones loose. Swarmers indoors are stronger evidence, and UC IPM says judging an infestation takes experience and is best left to a professional."
+    },
+    {
+      "question": "What color are termite droppings?",
+      "answer": "They vary, and the sources disagree about why. UF/IFAS says West Indian drywood termite pellets can be cream, red or black, and that their color does not depend on the wood being eaten or on age. Texas A&M says drywood pellets are generally the color of the wood the termites have been feeding on. Either way, color is a poor clue and shape is better: drywood termite pellets are hard, about 1/32 inch long, with six flattened sides."
+    },
+    {
+      "question": "Do subterranean termites leave droppings?",
+      "answer": "Not as piles of pellets. Mississippi State University Extension's species table marks pellet piles as a drywood termite sign that eastern and Formosan subterranean termites do not produce. Subterranean termites leave mud instead: NC State Extension says their gallery walls are filled with a mud-like fecal material, and UC IPM describes the mud tubes they build from soil, saliva and bits of wood. EPA says the native subterranean termite is the most common termite in most of the United States."
+    },
+    {
+      "question": "How do you tell termite frass from carpenter ant frass?",
+      "answer": "Look at the texture and at what is mixed in. NC State Extension says carpenter ant frass is fiber-like wood debris that resembles pencil shavings, mixed with the remains of ants and other insects the colony has eaten. Drywood termite frass is a pile of small, hard pellets, each with six flattened sides. NC State adds that carpenter ant galleries are tidy, with almost sandpapered walls, while drywood termite galleries hold the pellets themselves."
+    },
+    {
+      "question": "Why are termite droppings falling from my ceiling or onto my windowsill?",
+      "answer": "Drywood termites push their pellets out of tiny kick-out holes, and the pellets drop onto whatever lies below. UC IPM says they accumulate on horizontal surfaces under the openings, and UF/IFAS says they form piles or scattered circles depending on how high the hole is. So look for the termites in wood directly above or beside the pile, such as window trim, structural lumber or furniture. Texas A&M says drywood termites in buildings prefer to nest under wooden roof shingles, eaves or siding."
+    },
+    {
+      "question": "What is termite poop called?",
+      "answer": "Frass, or fecal pellets. Frass is the general word for insect droppings: UC IPM defines it as a mixture of feces and wood fragments when it describes wood-boring beetles, and NC State Extension uses it for carpenter ant debris too. For drywood termites, UC IPM and Texas A&M speak of fecal pellets, hard pellets about 1/32 inch long with six flattened sides that the termites push out of the wood through small kick-out holes."
+    }
+  ],
+  "sources": [
+    { "title": "Drywood Termites (Pest Notes, Publication 7440)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/drywood-termites/" },
+    { "title": "Subterranean and Other Termites (Pest Notes, Publication 7415)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/" },
+    { "title": "Wood-Boring Beetles in Homes (Pest Notes, Publication 7418)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/wood-boring-beetles-in-homes/" },
+    { "title": "Drywood Termites", "publisher": "Texas A&M University Urban and Structural Entomology Program", "url": "https://urbanentomology.tamu.edu/urban-pests/termites/drywood/" },
+    { "title": "West Indian Drywood Termite, Cryptotermes brevis (EENY-79)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN236" },
+    { "title": "Formosan Subterranean Termite, Coptotermes formosanus Shiraki (EENY121)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN278" },
+    { "title": "Protect Your House from Termites (Publication 2568)", "publisher": "Mississippi State University Extension", "url": "https://extension.msstate.edu/publications/protect-your-house-termites" },
+    { "title": "Biology and Control of Carpenter Ants", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/biology-and-control-of-carpenter-ants" },
+    { "title": "Termites: How to Identify and Control Them", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/termites-how-identify-and-control-them" },
+    { "title": "Chapter 14: Biodeterioration of Wood (Wood Handbook, FPL-GTR-282)", "publisher": "USDA Forest Service, Forest Products Laboratory", "url": "https://research.fs.usda.gov/treesearch/62262" },
+    { "title": "Carpenter Bees (ENTFACT-611)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef611" },
+    { "title": "Cockroach Biology and Management (ENTO-PU-121)", "publisher": "Texas A&M AgriLife Extension", "url": "https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/" }
+  ]
+}

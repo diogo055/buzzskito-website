@@ -163,6 +163,9 @@ app/blog/rat-vs-mouse/page.tsx
 content/guides/roof-rat-vs-norway-rat.json
 data/us-pages/checked/roof-rat-vs-norway-rat.json
 app/blog/roof-rat-vs-norway-rat/page.tsx
+content/guides/rat-droppings.json
+data/us-pages/checked/rat-droppings.json
+app/blog/rat-droppings/page.tsx
 content/guides/pillar-cockroaches.json
 data/us-pages/checked/pillar-cockroaches.json
 app/learn/cockroaches/page.tsx
@@ -193,6 +196,9 @@ app/blog/palmetto-bugs/page.tsx
 content/guides/cockroach-eggs.json
 data/us-pages/checked/cockroach-eggs.json
 app/blog/cockroach-eggs/page.tsx
+content/guides/how-to-get-rid-of-cockroaches.json
+data/us-pages/checked/how-to-get-rid-of-cockroaches.json
+app/blog/how-to-get-rid-of-cockroaches/page.tsx
 content/guides/how-to-get-rid-of-mosquitoes.json
 data/us-pages/checked/how-to-get-rid-of-mosquitoes.json
 app/blog/how-to-get-rid-of-mosquitoes/page.tsx
@@ -406,6 +412,12 @@ app/blog/bugs-in-house-in-winter/page.tsx
 content/guides/bugs-that-look-like-fleas.json
 data/us-pages/checked/bugs-that-look-like-fleas.json
 app/blog/bugs-that-look-like-fleas/page.tsx
+content/guides/termite-damage.json
+data/us-pages/checked/termite-damage.json
+app/blog/termite-damage/page.tsx
+content/guides/termite-droppings.json
+data/us-pages/checked/termite-droppings.json
+app/blog/termite-droppings/page.tsx
 content/guides/bug-bites.json
 data/us-pages/checked/bug-bites.json
 app/learn/bug-bites/page.tsx

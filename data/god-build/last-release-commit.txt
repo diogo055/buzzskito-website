@@ -1,4 +1,8 @@
-release: 2 scheduled page(s) go live (2026-10-16)
+release: 4 scheduled page(s) go live (2026-10-20)
 
-- /blog/spiders-in-california
-- /blog/spiders-in-texas
+- /blog/rat-droppings
+- /blog/how-to-get-rid-of-cockroaches
+- /blog/termite-damage
+- /blog/termite-droppings
+
+Held back: 6 (see data/god-build/releases/2026-10-20.md)

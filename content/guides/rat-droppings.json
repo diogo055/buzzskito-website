@@ -1,0 +1,206 @@
+{
+  "slug": "rat-droppings",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "rat droppings",
+  "alsoTargets": [
+    "rat poop",
+    "what does rat poop look like",
+    "rat poop vs mouse poop",
+    "rat droppings vs mouse droppings",
+    "rat poop vs squirrel poop",
+    "rat poop size",
+    "rat poop pictures"
+  ],
+  "metaTitle": "Rat Poop: What Rat Droppings Look Like (Photos)",
+  "metaDescription": "Rat poop is about 1/2 inch long or more; mouse poop 1/8 to 1/4 inch. Photos, Norway vs roof rat shapes, look-alikes, fresh vs old and CDC's cleanup steps.",
+  "h1": "Rat Droppings: What Rat Poop Looks Like, Next to Mouse and Squirrel",
+  "dek": "Rat droppings run about 1/2 inch long or more, a mouse's 1/8 to 1/4 inch. Real photos, the shapes that tell a Norway rat from a roof rat, the look-alikes, fresh against old, and CDC's cleanup steps.",
+  "breadcrumb": "Rat Droppings",
+  "excerpt": "What rat droppings look like and how big they are, how they differ from mouse, squirrel and bat droppings, fresh against old, and CDC's steps for cleaning them up.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**If the droppings are about 1/2 inch long or longer, a rat left them, not a mouse: mouse droppings are only 1/8 to 1/4 inch.** Thick pellets 3/4 to 1 inch long with blunt ends point to a Norway rat, and slimmer, pointed ones about 1/2 inch long to a roof rat, by [Cornell IPM's](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) sizes. Never sweep or vacuum them.",
+    "bullets": [
+      "Cornell IPM gives Norway rat droppings as 3/4 to 1 inch long, roof rat droppings as about 1/2 inch and mouse droppings as 1/8 to 1/4 inch.",
+      "[NC State Extension](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats) describes rat droppings as cylindrical and dark when fresh, washing out in color and sometimes breaking apart as they age.",
+      "[Maricopa County's vector control program](https://www.maricopa.gov/2141/Roof-Rat-Identification) lists Norway rat droppings as blunt-ended and roof rat droppings as pointed and banana-shaped.",
+      "Fresh droppings are dark and soft, while old ones are hard, or gray and brittle, according to [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf).",
+      "[CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html): air the room out for 30 minutes, wear rubber or plastic gloves, and soak the droppings with disinfectant or 1.5 cups of bleach per gallon of water for 5 minutes before wiping them up."
+    ]
+  },
+  "facts": {
+    "title": "Rat droppings and look-alikes: quick ID",
+    "head": ["Droppings", "What they look like", "Where you find them"],
+    "rows": [
+      ["Norway rat", "3/4 to 1 inch long and thick, with blunt, rounded ends", "Along runways, near food and shelter; basements, ground floors and burrows by foundations"],
+      ["Roof rat", "About 1/2 inch long, slimmer, with pointed ends; often banana-shaped", "Attics, walls, false ceilings and cabinets; fewer on floors, as roof rats travel overhead"],
+      ["House mouse", "1/8 to 1/4 inch long, with pointed ends", "Scattered close to runways, feeding spots and shelter"],
+      ["Bat", "Crush easily, showing shiny bits of insect; never a white chalky tip", "Below roosts and entrance holes; builds up in attics and wall spaces"],
+      ["Cockroach", "German cockroach: tiny, like crushed pepper. American cockroach: lines along each dropping", "Stuck to surfaces where cockroaches gather, around their hiding places"],
+      ["Bird or lizard", "Marked with white, chalky uric acid", "Sometimes mixed in with bat droppings"]
+    ],
+    "caption": "Rat and mouse sizes and shapes from Cornell IPM, Maricopa County, NC State Extension and the Army Public Health Center; places from UC IPM, the rat handbook chapters and the Army; bats, birds and lizards from USFWS; cockroaches from Texas A&M and Cornell."
+  },
+  "body": [
+    { "type": "h2", "text": "What does rat poop look like?" },
+    { "type": "p", "text": "Rat poop comes as dark, cylindrical pellets about 1/2 inch to 1 inch long. [Cornell IPM's guide to mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) gives Norway rat droppings as 3/4 to 1 inch long and roof rat droppings as about 1/2 inch, and describes rodent droppings as cylindrical, with pointed to rounded ends. [NC State Extension's guide to structure-invading rats](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats) puts rat droppings at roughly 1/2 to 3/4 inch, cylindrical and dark when fresh." },
+    { "type": "figure", "src": "/guides/photos/rat-droppings-thumb.webp", "width": 1200, "height": 900, "alt": "Several dark, thick, oblong droppings with rounded ends lying on green and rust-colored moss, with a person's thumb at the bottom of the frame for size", "caption": "Droppings identified on iNaturalist, from the droppings alone, as Norway rat droppings, on moss in Alaska's Aleutian Islands, with a thumb for size. Note the thick pellets and rounded ends.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/394894114" },
+    { "type": "p", "text": "They are thick, too: [Maricopa County's roof rat identification table](https://www.maricopa.gov/2141/Roof-Rat-Identification) gives Norway rat droppings a diameter of 1/4 to 3/8 inch and roof rat droppings 3/16 inch. Color says less than size. Cornell says rodent droppings are typically black but can change color with what the animal ate, and that green or red droppings may mean it fed on a rodenticide bait." },
+    { "type": "figure", "src": "/guides/photos/rat-droppings-table.webp", "width": 1200, "height": 924, "alt": "Sepia photograph of a tabletop with an electric burner, condiment jars, a cup and stacked saucers, with many dark rat droppings scattered across the surface", "caption": "Rat droppings scattered across a tabletop beside an electric burner, a cup and saucers, in a historic CDC photograph. CDC's record does not say which rat left them; the cups give a rough sense of their size.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=29215" },
+
+    { "type": "h2", "text": "How is rat poop different from mouse poop?" },
+    { "type": "p", "text": "Length is the test: rat droppings are about 1/2 inch long or more, mouse droppings 1/8 to 1/4 inch, by Cornell IPM's figures. The droppings chart in the [Army Public Health Center's rodent control fact sheet](https://ph.health.mil/PHC%20Resource%20Library/RodentControl_FS_18-080-1218.pdf) gives average lengths of 3/4 inch for Norway rat droppings, 1/2 inch for roof rat droppings and 1/4 inch for house mouse droppings, with rounded ends on the Norway rat's and pointed ends on the other two." },
+    { "type": "figure", "src": "/guides/photos/mouse-droppings-ruler.webp", "width": 655, "height": 779, "alt": "A few small, dark droppings on an orange surface, with two coins above them and a ruler marked in centimeters below", "caption": "Droppings the photographer identified as house mouse droppings, found in a kitchen and near a computer keyboard in the Netherlands, beside a ruler marked in centimeters. At 1/8 to 1/4 inch, about 3 to 6 millimeters, each is a fraction of a Norway rat dropping's length.", "license": "CC-BY-SA-4.0", "credit": "Hansmuller, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Housemouse_(Mus_musculus)_droppings_with_10_and_20_euro_cent_coins_and_a_ruler,_Utrecht,_The_Netherlands,_December_14,_2019.jpg" },
+    { "type": "p", "text": "There is a gray zone between 1/4 and 1/2 inch: Maricopa County's table puts roof rat droppings at 1/4 to 1/2 inch long, close to a mouse's. In that range, check the thickness, the ends and the other signs. [The side-by-side guide to rats and mice](/blog/rat-vs-mouse) covers those signs, from gnaw marks and entry holes to the animals themselves." },
+    { "type": "media", "needed": "Norway rat, roof rat and house mouse droppings photographed side by side on a white card beside one ruler marked in inches, in a US home, so all three can be compared at the same scale" },
+    { "type": "p", "text": "Mouse droppings have guides of their own: [what mouse droppings look like, fresh and old](/blog/what-does-mouse-poop-look-like-canada), and [the US guide to mouse poop](/blog/mouse-poop). For the house mouse itself, from identification to control, see [the complete guide to mice](/learn/mice)." },
+
+    { "type": "h2", "text": "Is it Norway rat or roof rat poop?" },
+    { "type": "p", "text": "Thick droppings 3/4 to 1 inch long with blunt ends point to a Norway rat; pointed ones about 1/2 inch long, often banana-shaped, point to a roof rat, by the sizes and shapes Cornell IPM and Maricopa County give. NC State Extension likewise describes Norway rat droppings as more rounded on the ends and roof rat droppings as pointier." },
+    { "type": "p", "text": "Where you find them points the same way. [UC IPM's rat Pest Notes](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) say Norway rats in buildings usually live in the basement and ground floor and burrow outside along foundations, while roof rats favor attics, walls, false ceilings and cabinets. [The roof rat chapter of the Prevention and Control of Wildlife Damage handbook](https://digitalcommons.unl.edu/icwdmhandbook/6/) adds that because roof rats travel overhead, their droppings, urine and tracks are less likely to show up on floors." },
+    { "type": "figure", "src": "/guides/photos/roof-rat-rafters.webp", "width": 1200, "height": 817, "alt": "Gray-brown roof rat crouched on a wooden beam among the rafters of a building, eating from a small round dish, its long thin tail hanging below the beam", "caption": "A roof rat among the rafters of a building, eating bait from a small dish, in a CDC photograph. UC IPM says roof rats indoors favor attics, walls, false ceilings and cabinets.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25123" },
+    { "type": "p", "text": "Your region narrows it down. Norway rats have spread throughout the contiguous 48 states, says [the handbook's Norway rat chapter](https://digitalcommons.unl.edu/icwdmhandbook/5/). Roof rats prefer warm climates and coastal areas, though UC IPM says their documented range is expanding. [The side-by-side guide to roof rats and Norway rats](/blog/roof-rat-vs-norway-rat) compares the animals' tails, ears and snouts." },
+
+    { "type": "h2", "text": "Is it rat poop or squirrel poop?" },
+    { "type": "p", "text": "Size alone will not settle it: none of the extension or health agency sources cited here gives a size for squirrel droppings, so let the timing of the noises and the other signs decide. [UC IPM's tree squirrel Pest Notes](https://ipm.ucanr.edu/home-and-landscape/tree-squirrels/) say tree squirrels are active during the day, most of all in early morning and late afternoon, and can get into attics through gaps or broken vent screens or gnaw their own way in." },
+    { "type": "p", "text": "Rats work the other shift: UC IPM says they are mostly active at night, and the roof rat chapter says attic sounds are often the first sign of roof rats, heard once the house is quiet. The [US Fish and Wildlife Service's House Bat Management](https://pubs.usgs.gov/rp/0143/report.pdf) adds that scrambling and scratching in attics and walls can also come from mice or flying squirrels, and that noise rising around dusk probably means bats." },
+    { "type": "figure", "src": "/guides/photos/flying-squirrel-attic.webp", "width": 1200, "height": 626, "alt": "Black-and-white trail camera image of a small squirrel with a flat, furry tail climbing head-down on a brick chimney that rises out of attic insulation", "caption": "A southern flying squirrel climbing a brick chimney inside an attic in New Jersey, in a trail-camera image. UC IPM calls the flying squirrel nocturnal; rats, too, are mostly active at night.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/22191794" },
+    { "type": "p", "text": "Squirrel droppings get their own guide, [what squirrel poop looks like](/blog/squirrel-poop), and [the guide to animals in the attic](/blog/animals-in-attic) sorts the noises by time of day." },
+    { "type": "media", "needed": "Gray squirrel droppings found in a US attic, photographed beside a ruler marked in inches next to Norway rat droppings, so the two can be compared at the same scale" },
+
+    { "type": "h2", "text": "What else looks like rat droppings?" },
+    { "type": "p", "text": "Bat droppings, cockroach droppings, a wood rat's droppings and the white-marked droppings of birds and lizards are the usual look-alikes, and each has a tell." },
+    { "type": "h3", "text": "Bat droppings" },
+    { "type": "p", "text": "Bats leave droppings beneath entrance holes and below roosts, and guano builds up in attics and wall spaces, according to the USFWS bat guide. It says bat droppings crush easily, revealing shiny bits of undigested insect shell, while rodent droppings are unsegmented, harder and more fibrous. Do not handle either kind with bare hands." },
+    { "type": "figure", "src": "/guides/photos/bat-droppings-siding.webp", "width": 1200, "height": 904, "alt": "Clumps of small, dark droppings stuck to brown-painted wooden siding on both sides of a narrow gap between boards", "caption": "Droppings identified on iNaturalist as big brown bat droppings, stuck to the wooden siding of a building in Watson, Minnesota, at a gap between boards.", "license": "CC-BY-4.0", "credit": "(c) Matt Muir, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/184631840" },
+    { "type": "p", "text": "Treat them with the same care as rat droppings: [CDC's histoplasmosis page](https://www.cdc.gov/histoplasmosis/about/index.html) says the disease comes from breathing in spores of a soil fungus that spreads in bird and bat droppings mixed into soil. [The guide to bat poop](/blog/bat-poop) covers them in detail." },
+    { "type": "h3", "text": "Cockroach, wood rat, bird and lizard droppings" },
+    { "type": "p", "text": "Cockroach droppings look different. [Texas A&M AgriLife Extension's cockroach guide](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) describes German cockroach droppings as tiny, like crushed pepper, stuck where cockroaches gather, and Cornell notes lines along American cockroach droppings, which rodent droppings lack. [The guide to cockroach droppings](/blog/cockroach-droppings) covers both kinds." },
+    { "type": "p", "text": "A wood rat, or pack rat, leaves blunt droppings 1/2 to 3/4 inch long, within the house rats' range, by Maricopa County's table, which sets the animal apart by its hairy tail." },
+    { "type": "p", "text": "White, chalky material made of uric acid is characteristic of bird and lizard droppings, the USFWS bat guide says, and bat droppings never contain it. Droppings far bigger than a rat's come from bigger animals: [the animal poop identification chart](/blog/animal-droppings) sorts them, with separate guides to [raccoon poop](/blog/raccoon-poop) and [possum poop](/blog/possum-poop)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/mouse-poop", "name": "House mouse", "photo": "house-mouse-on-stove", "note": "Droppings only 1/8 to 1/4 inch long, with pointed ends", "alt": "House mouse peering out of the coil burner of a kitchen stove" },
+      { "href": "/blog/roof-rat-vs-norway-rat", "name": "Roof rat", "photo": "roof-rat", "note": "Droppings about 1/2 inch with pointed ends, often found up high", "alt": "Slim brown roof rat on a wooden bird-feeder platform scattered with seed" },
+      { "href": "/blog/bat-poop", "name": "Bat droppings", "photo": "bat-droppings-ruler", "note": "Crush easily, showing shiny bits of insect; build up below roosts", "alt": "Several dark, crumbly bat droppings photographed with a clear plastic ruler" },
+      { "href": "/blog/squirrel-poop", "name": "Squirrel", "photo": "eastern-gray-squirrel", "note": "Tree squirrels are active by day; rats mostly at night", "alt": "Eastern gray squirrel sitting up in short green grass" },
+      { "href": "/blog/cockroach-droppings", "name": "American cockroach", "photo": "american-cockroach", "note": "Its droppings have lines running along them; rodent droppings have none", "alt": "Reddish-brown American cockroach seen from above on a white background" }
+    ] },
+
+    { "type": "h2", "text": "How can you tell if rat droppings are fresh?" },
+    { "type": "p", "text": "Fresh rat droppings are dark and soft; old ones are hard, or gray and brittle. That is how [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf) tells them apart, and NC State Extension adds that droppings wash out in color and can break apart as they age. The same CDC manual says urine may be wet, glossy or sticky, or a dried stain, and that a black light can help show rodent urine stains." },
+    { "type": "p", "text": "Fresh droppings mean rats are active now, so watch for new ones after cleanup and while trapping. [CDC's guide to trapping rodents](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) says a week with no rodents caught and no new signs means the rats are gone, while new droppings, urine spots or gnawing after a week may mean a rat infestation." },
+    { "type": "p", "text": "How much you find matters too. The handbook's Norway rat chapter grades it: old droppings and gnawing that are common, or rats seen by flashlight at night but not by day, point to medium numbers; fresh droppings, tracks and gnawing, three or more rats seen at night, or rats seen in daytime point to large numbers. NC State Extension says a rat produces 30 to 50 droppings a day on average." },
+    { "type": "media", "needed": "Fresh and old rat droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dry, gray and crumbling" },
+
+    { "type": "h2", "text": "Where do rat droppings turn up, inside and outside?" },
+    { "type": "p", "text": "Rat droppings collect along the routes rats travel, in feeding areas and near shelter, the handbook's Norway rat chapter says, and the Army fact sheet calls droppings the most common sign of rodent activity. NC State Extension says to look around food such as seeds, pet food and trash, and in rarely disturbed places such as attics, crawlspaces, sheds and barns." },
+    { "type": "h3", "text": "Inside the house" },
+    { "type": "ul", "items": [
+      "**Kitchen and pantry.** Rat droppings near food preparation or storage areas, or around pet food containers, are on UC IPM's list of rat signs.",
+      "**Low or high.** Basements and ground floors for Norway rats; attics, walls, false ceilings and cabinets for roof rats, UC IPM says.",
+      "**Garage.** UC IPM lists rat nests behind boxes or in drawers in the garage."
+    ] },
+    { "type": "h3", "text": "Outside: yard, bins and woodpiles" },
+    { "type": "ul", "items": [
+      "**Pet dishes.** UC IPM lists droppings around dog or cat dishes and says rats can become a problem where dogs are fed outdoors.",
+      "**Bins, compost and garbage cans.** Look for droppings in recycling bins and burrows beneath compost piles or garbage cans.",
+      "**Woodpiles, gardens and fruit trees.** UC IPM's signs include nests in firewood, burrows among garden plants, and fruit or nuts fed on in the trees.",
+      "**Foundations.** Norway rat burrows turn up along foundations and beneath rubbish or woodpiles."
+    ] },
+    { "type": "figure", "src": "/guides/photos/norway-rat-burrows.webp", "width": 1200, "height": 1600, "alt": "Several burrow openings in mossy soil around the base of a small street tree, a few feet from a building's concrete wall", "caption": "Burrow entrances identified on iNaturalist as Norway rat burrows, in mossy soil at the base of a street tree beside a building in Seattle. UC IPM describes Norway rats as burrowers along foundations.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/114324321" },
+    { "type": "p", "text": "Take away what draws them. UC IPM advises picking up dog and cat feces in the yard, since rats eat it, and the Army fact sheet advises keeping pet food and bird seed in thick plastic or metal canisters and notes that compost piles attract rodents. [Keeping rats out of a compost bin](/blog/rodent-proof-compost-bin-canada) has its own guide." },
+
+    { "type": "h2", "text": "Is rat poop dangerous?" },
+    { "type": "p", "text": "It can be. [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says people get hantaviruses from contact with rodents such as rats and mice, especially their urine, droppings and saliva, and CDC's cleanup page says rodent diseases reach people mainly when they breathe in contaminated air, which is why it says never to sweep or vacuum droppings." },
+    { "type": "ul", "items": [
+      "**Seoul virus.** This hantavirus is carried mainly by Norway rats and has been found in wild and pet rats in the United States, says [CDC's guidance on Seoul virus](https://www.cdc.gov/hantavirus/hcp/animals/index.html). Infected rats look healthy, can shed it in urine, feces and saliva for months, and pass it on through direct contact or when infected material gets into the air. CDC says Seoul virus infections are usually moderate, with less than 1% of patients dying.",
+      "**Hantavirus from deer mice.** The most common hantavirus behind hantavirus pulmonary syndrome in the United States is spread by the deer mouse, CDC says, so mouse-sized droppings deserve the same care. [The deer mouse guide](/blog/deer-mice) shows how to recognize one.",
+      "**Leptospirosis.** [CDC's leptospirosis page](https://www.cdc.gov/leptospirosis/about/index.html) says it spreads through the urine of infected animals, rats among them. The Norway rat chapter notes urine stains along travel routes and in feeding areas, where droppings collect too.",
+      "**Rat-bite fever and food poisoning.** [CDC's rat-bite fever page](https://www.cdc.gov/rat-bite-fever/about/index.html) says rat-bite fever spreads through scratches, bites, a rodent's saliva or urine, and contaminated food or drink, and UC IPM lists foodborne illnesses such as salmonella among the most common diseases rats transmit."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "CDC says to talk to a healthcare provider if you think a recent illness may be due to a rodent-borne disease, and to tell them about any rodent exposure. If you suspect hantavirus disease, it says to see a physician immediately and mention the exposure; with rat-bite fever symptoms after recent rodent contact, to see a provider immediately." },
+
+    { "type": "h2", "text": "How do you clean up rat droppings safely?" },
+    { "type": "p", "text": "Wet them down and wipe them up; never sweep or vacuum, which CDC says can put tiny droplets containing viruses into the air. [CDC's steps for cleaning up after rodents](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) are:" },
+    { "type": "ol", "items": [
+      "Open all doors and windows for 30 minutes before you start, and leave the area while it airs out.",
+      "Put on rubber or plastic gloves.",
+      "Spray the droppings and any urine with an EPA-registered disinfectant, or a mix of 1.5 cups of household bleach in 1 gallon of water, until very wet, and let it soak for 5 minutes or as the disinfectant label directs.",
+      "Wipe it all up with paper towels and throw them in a covered garbage can that is emptied regularly.",
+      "Mop or sponge the area with disinfectant, including floors, countertops, cabinets and drawers.",
+      "Wash your gloved hands with soap and water or disinfectant, take the gloves off, then wash your hands with soap and warm water."
+    ] },
+    { "type": "figure", "src": "/guides/photos/rodent-droppings-drawer.webp", "width": 1200, "height": 791, "alt": "Open wooden cupboard drawer lined with white dotted shelf paper, scattered with many small dark droppings, with fluffy material in the far corner", "caption": "Rodent droppings in an open cupboard drawer, in a CDC photograph; its record does not name the rodent. CDC's cleanup steps cover drawers and cabinets too.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14340" },
+    { "type": "p", "text": "CDC's page also covers the harder cases: shampoo carpets and upholstery with a commercial disinfectant or a commercial-grade steam cleaner, launder bedding and clothing in hot water with detergent, and in a car, open the hood, doors and trunk to air it out for 20 minutes first. A heavy infestation calls for protective clothing, goggles and a respirator with HEPA filters; for questions about your situation, CDC suggests your local health department." },
+
+    { "type": "h2", "text": "What should you do once you know it is rats?" },
+    { "type": "p", "text": "Clean up, seal up and trap up: the Army fact sheet sums up rodent control in those three steps. For traps, CDC recommends traditional snap traps and says not to use glue traps or live traps, which can scare rodents into urinating; NC State Extension adds that mouse snap traps are typically not an effective tool against rats. Let the droppings guide placement: UC IPM says to set traps for Norway rats close to walls, behind objects, in dark corners and where you found droppings, and traps for roof rats off the ground on ledges, shelves, branches, fences, pipes or beams." },
+    { "type": "p", "text": "[A step-by-step plan for clearing rats with traps and exclusion](/blog/how-to-get-rid-of-rats-canada) covers the order of work, from sealing gaps to confirming the rats are gone." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph a few droppings beside a ruler marked in inches without touching them, and note the room, the floor and whether you hear noises by day or at night. Your state's cooperative extension office or a pest professional can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "How can you tell if it's rat droppings?",
+      "answer": "Measure one against a ruler without touching it. Cornell IPM gives rat droppings as about 1/2 inch long for a roof rat and 3/4 to 1 inch for a Norway rat, against 1/8 to 1/4 inch for a mouse. NC State Extension describes rat droppings as cylindrical and dark when fresh, with more rounded ends on a Norway rat's and pointier ends on a roof rat's. Other signs help confirm it: gnawing, dark greasy rub marks along walls and beams, burrows, and noises from the attic."
+    },
+    {
+      "question": "What can be mistaken for rat poop?",
+      "answer": "Mouse, squirrel and bat droppings are the usual confusions, along with the droppings of a wood rat, or pack rat. Mouse droppings are only 1/8 to 1/4 inch long, by Cornell IPM's figures. Bat droppings crush easily and show shiny bits of insect, according to the US Fish and Wildlife Service. Maricopa County's vector control table lists wood rat droppings as blunt and 1/2 to 3/4 inch long, in the same range as the house rats. White, chalky material on a dropping points to a bird or a lizard."
+    },
+    {
+      "question": "What should I do if I find rat droppings?",
+      "answer": "Do not sweep or vacuum them. CDC's steps are to open doors and windows for 30 minutes and leave the area, put on rubber or plastic gloves, spray the droppings until very wet with a disinfectant or a mix of 1.5 cups of bleach per gallon of water, let it soak for 5 minutes, wipe up with paper towels and throw them in a covered garbage can, then disinfect the surfaces. After that, seal entry gaps, set snap traps and watch for new droppings."
+    },
+    {
+      "question": "Is rat poop dangerous to breathe or touch?",
+      "answer": "It can be. CDC says people catch hantaviruses from contact with rodents such as rats and mice, especially their urine, droppings and saliva, and that rodent diseases reach people mainly through breathing contaminated air, which sweeping or vacuuming droppings can create. Norway rats carry Seoul virus, which CDC says spreads through direct contact or when infected material gets into the air. Wear rubber or plastic gloves, soak droppings with disinfectant before wiping them up, and talk to a healthcare provider if you think a recent illness may be linked to rodents."
+    },
+    {
+      "question": "Can you vacuum rat droppings?",
+      "answer": "No. CDC says not to vacuum or sweep rodent urine, droppings or nesting materials, because that can put tiny droplets containing viruses into the air, and it says rodent diseases spread to people mainly through breathing contaminated air. Spray the droppings with disinfectant or a bleach solution, let them soak for 5 minutes, and wipe them up with paper towels instead. For carpets and upholstery, CDC suggests shampooing with a commercial disinfectant or using a commercial-grade steam cleaner."
+    },
+    {
+      "question": "What are the signs of a rat infestation?",
+      "answer": "Droppings are the most common sign of rodent activity, says the Army Public Health Center. UC IPM's list of rat signs adds noises from the attic or drop ceilings, smudge marks where rats rub against beams, rafters, pipes and walls, burrows under compost piles, garbage cans or garden plants, nests in firewood or behind boxes in the garage, fruit fed on in the trees, and rats running along utility lines or fence tops at dusk."
+    },
+    {
+      "question": "How many droppings does a rat leave in a day?",
+      "answer": "On average a rat produces 30 to 50 droppings a day, according to NC State Extension. Rats leave them along the routes they travel, in feeding areas and near shelter, the Norway rat chapter of the Prevention and Control of Wildlife Damage handbook says, so droppings collect where rats run and eat. The same chapter treats fresh droppings, tracks and gnawing, three or more rats seen at night, or rats seen in daytime as signs of large numbers."
+    },
+    {
+      "question": "Does rat poop have white tips?",
+      "answer": "Not in the descriptions given by the extension and health sources on this page. Cornell IPM describes rodent droppings as cylindrical and typically black, with color that can change with what the animal ate. White, chalky material made of uric acid is characteristic of bird and lizard droppings, according to the US Fish and Wildlife Service, which notes that bat droppings never contain it. A pellet with a white, chalky end therefore points to a bird or a lizard rather than a rat."
+    },
+    {
+      "question": "What color is rat poop?",
+      "answer": "Usually dark. Cornell IPM says rodent droppings are typically black but can vary with the food eaten, and that green or red droppings may mean the rodent fed on a rodenticide bait. NC State Extension says rat droppings are dark when fresh and wash out in color as they age, and CDC's manual for urban rodent surveys describes old droppings as hard, or gray and brittle, against fresh ones that are dark and soft."
+    },
+    {
+      "question": "Are rats harder to get rid of than mice?",
+      "answer": "Rats are more cautious. UC IPM says rats often avoid new traps and baits for the first several days, and maybe weeks, and CDC's trapping guide suggests baiting rat traps without setting them until the bait is eaten, because rats fear anything new. NC State Extension says mouse snap traps are typically not an effective tool for rats, so use traps made for rats. CDC says a week with no rodents caught and no new signs means the rats are gone."
+    }
+  ],
+  "sources": [
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Surveillance and Management of Common Structure-Invading Rats (2024)", "publisher": "NC State Extension, North Carolina State University", "url": "https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats" },
+    { "title": "Roof Rat Identification", "publisher": "Maricopa County Environmental Services Department, Vector Control", "url": "https://www.maricopa.gov/2141/Roof-Rat-Identification" },
+    { "title": "Rodent Control (Fact Sheet 18-080-1218)", "publisher": "Army Public Health Center, Entomological Sciences Division", "url": "https://ph.health.mil/PHC%20Resource%20Library/RodentControl_FS_18-080-1218.pdf" },
+    { "title": "Integrated Pest Management: Conducting Urban Rodent Surveys (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf" },
+    { "title": "Norway Rats (Prevention and Control of Wildlife Damage, 1994), by Robert M. Timm", "publisher": "University of Nebraska-Lincoln, Digital Commons", "url": "https://digitalcommons.unl.edu/icwdmhandbook/5/" },
+    { "title": "Roof Rats (Prevention and Control of Wildlife Damage, 1994), by Rex E. Marsh", "publisher": "University of Nebraska-Lincoln, Digital Commons", "url": "https://digitalcommons.unl.edu/icwdmhandbook/6/" },
+    { "title": "Pest Notes: Rats (UC ANR Publication 74106)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "Pest Notes: Tree Squirrels (UC ANR Publication 74122)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/tree-squirrels/" },
+    { "title": "House Bat Management (Resource Publication 143, 1982), by Arthur M. Greenhall", "publisher": "U.S. Fish and Wildlife Service, via the USGS Publications Warehouse", "url": "https://pubs.usgs.gov/rp/0143/report.pdf" },
+    { "title": "Cockroach Biology and Management", "publisher": "Texas A&M AgriLife Extension", "url": "https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Veterinary Guidance for Testing for Seoul Virus in Pet Rats", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/hcp/animals/index.html" },
+    { "title": "About Leptospirosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/leptospirosis/about/index.html" },
+    { "title": "About Rat Bite Fever (RBF)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rat-bite-fever/about/index.html" },
+    { "title": "About Histoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/about/index.html" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "termite-damage",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "termite damage",
+  "alsoTargets": [
+    "what does termite damage look like",
+    "signs of termites",
+    "termite mud tubes",
+    "termite damage vs wood rot"
+  ],
+  "metaTitle": "Termite Damage: What It Looks Like (Photos)",
+  "metaDescription": "Termite damage hollows wood from the inside and leaves mud or pellets. Photos of damaged wood and mud tubes, the look-alikes, and how it differs from rot.",
+  "h1": "Termite Damage: What It Looks Like, Plus Mud Tubes and Wood Rot",
+  "dek": "Photos of termite-damaged wood, mud tubes and swarmers, the one check that separates termites from carpenter ants, beetles, carpenter bees and rot, and what to do when you find damage.",
+  "breadcrumb": "Termite Damage",
+  "excerpt": "What termite damage looks like in wood and walls, with photos: mud tubes, swarmers, the look-alikes, termite damage vs wood rot, and what to do next.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Termite damage is wood eaten out from the inside, and what sits in the galleries tells you what did it: dried mud means subterranean termites and hard pellets mean drywood termites.** Clean, smooth galleries point to carpenter ants, and wood cracked across the grain into cube-like pieces is brown rot, a fungal decay. [Mississippi State University Extension](https://extension.msstate.edu/publications/protect-your-house-termites) treats galleries holding dried mud as termite damage.",
+    "bullets": [
+      "UC IPM says subterranean termites follow the grain, eating the softer springwood and leaving the harder summerwood, and that damaged wood is often thin at the surface and easy to puncture with a screwdriver.",
+      "Mud tubes on a foundation, piers or plumbing are usually a sure sign of infestation, and swarmers emerging indoors are a sure sign of an active one, according to Mississippi State.",
+      "Look-alikes leave different holes: carpenter bees bore round holes about 1/2 inch across, and powderpost beetles leave exit holes 1/32 to 1/16 inch wide that spill flour-fine powder.",
+      "Rot needs wet wood: the USDA Forest Products Laboratory says wood kept air dry, usually at 20% moisture or less, will not decay.",
+      "EPA says the native subterranean termite is the most common termite in most of the United States; drywood and Formosan termites are less common.",
+      "Mississippi State says termites rarely destroy a building outright, and a colony found in a house has usually been there for several years."
+    ]
+  },
+  "facts": {
+    "title": "Damaged wood: termites or something else?",
+    "head": ["Cause", "What the damage looks like", "What you find with it", "Where it turns up"],
+    "rows": [
+      ["Subterranean termites", "Galleries along the grain; soft springwood eaten, harder summerwood left", "Dried mud in the galleries; mud tubes from the soil", "Wood near the soil: crawl spaces, foundations, porches"],
+      ["Formosan subterranean termites", "Like other subterranean damage, but done faster", "Soil in the galleries; carton nests in walls and voids", "Southeastern states, Hawaii, southern California"],
+      ["Drywood termites", "Chambers and tunnels that can cut across the grain", "Hard pellets in the galleries and piled below small holes", "Dry wood above ground: lumber, decks, furniture"],
+      ["Dampwood termites", "Large, open galleries", "Wet, decaying wood", "Leaks or soil contact; cool, humid coastal areas"],
+      ["Carpenter ants", "Smooth, clean galleries that look sandpapered", "Shavings like pencil shavings, mixed with insect parts", "Damp wood: casings, wall voids, attics"],
+      ["Powderpost beetles", "Tiny round exit holes, 1/32 to 1/16 inch", "Powder as fine as flour, in small piles", "Hardwood floors, paneling, molding, furniture"],
+      ["Carpenter bees", "A perfectly round hole about 1/2 inch wide", "Coarse sawdust may sit below the hole", "Bare, weathered wood: eaves, fascia, decks"],
+      ["Wood rot (brown rot)", "Cracks across the grain into cube-like pieces", "No galleries; crumbly wood that has been wet", "Wood kept wet by rain, condensation or wet ground"]
+    ],
+    "caption": "From UC IPM, Mississippi State, Texas A&M, UF/IFAS, NC State and University of Kentucky Extension and the USDA Forest Products Laboratory, each linked in the sections below."
+  },
+  "body": [
+    { "type": "h2", "text": "What does termite damage look like?" },
+    { "type": "p", "text": "Termite damage is wood eaten out from the inside: galleries behind a thin surface, holding dried mud when subterranean termites made them and hard pellets when drywood termites did. [UC IPM's pest note on subterranean and other termites](https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/) says subterranean termites hollow out enclosed cavities that run more or less along the grain, eating the softer springwood and leaving the harder summerwood, a pattern that on its own can often identify them." },
+    { "type": "figure", "src": "/guides/photos/termite-damaged-wood.webp", "width": 1200, "height": 900, "alt": "Wood under a board in an old building eaten away into thin, ragged layers that run along the grain", "caption": "Termite damage under a board in a historic building at Timucuan Ecological and Historic Preserve, Florida (National Park Service, 2009); the park's caption does not name the species. The wood is eaten into thin layers along the grain.", "license": "public-domain", "credit": "NPS Photo, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:One_of_the_greatest_threats_to_this_structure_has_been_termite_damage._(155edfe9-1dd8-b71c-072c-c7c65eb75be8).JPG" },
+    { "type": "p", "text": "What is left in the galleries is the best clue. Texas A&M's [native subterranean termite page](https://urbanentomology.tamu.edu/urban-pests/termites/native/) says shelter tubes and mud inside the galleries are what identify termite-damaged wood, and Mississippi State University Extension's [guide to protecting a house from termites](https://extension.msstate.edu/publications/protect-your-house-termites) agrees: damaged timbers with galleries containing dried mud are termite damage." },
+    { "type": "p", "text": "Drywood termites work differently. UC IPM says their feeding can cut across the grain into chambers and tunnels, some filled with fecal pellets, and that most species nest entirely above ground. Dampwood termites leave large, open galleries in decayed wood kept moist by soil contact or a leak." },
+    { "type": "p", "text": "From outside, damaged wood can look almost normal. UC IPM lists darkening or blistering of the wood as a possible sign and says damaged wood is typically thin at the surface and easy to puncture with a knife or screwdriver. [EPA's consumer guide to termites](https://www.epa.gov/safepestcontrol/termites-how-identify-and-control-them) suggests probing exposed wood for hollow spots, and Texas A&M says to examine any wood that thuds or sounds dull when struck." },
+    { "type": "media", "needed": "Close-up of a split sill plate or floor joist showing subterranean termite galleries running along the grain, with dried mud on the gallery walls, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What are the other signs of termites?" },
+    { "type": "p", "text": "Mud tubes, swarmers or shed wings, BB-sized spots of dried mud on walls, soil on windowsills and pellet piles often show up before anyone finds damaged wood. EPA notes that termites rarely leave the soil, their tubes or the wood they are eating, so most people find out from a swarm or from damage uncovered during construction." },
+    { "type": "h3", "text": "What do termite mud tubes look like?" },
+    { "type": "p", "text": "Mud tubes are tunnels of soil that subterranean termites build to cross hard surfaces such as brick or a concrete foundation, Mississippi State says. UC IPM calls them the most commonly seen evidence of subterranean termites, made by workers from saliva mixed with soil and bits of wood or even drywall, and notes that some, called exploratory tubes, rise from the soil without ever reaching wood." },
+    { "type": "figure", "src": "/guides/photos/termite-mud-tubes.webp", "width": 1200, "height": 792, "alt": "Several thin, tan mud tubes running up a white-painted interior wall toward the ceiling, photographed from below", "caption": "Subterranean termite mud tubes on the inside wall of a building, in a US Marine Corps photo. UC IPM says working tubes can climb concrete or stone foundations to reach wood.", "license": "public-domain", "credit": "Sgt. Justin J. Shemanski, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:USMC-110924-M-KV513-225.jpg" },
+    { "type": "p", "text": "Texas A&M says to look on crawl space piers, around utility penetrations and on foundation walls and slabs, along cracks and in corners. To see whether a tube is in use, Mississippi State suggests breaking off a 1-inch section and watching for termites or a repair over the next few days. It advises a professional inspection either way, unless you know the tubes are old, and warns that destroying tubes does not control the termites." },
+    { "type": "h3", "text": "What do swarmers and shed wings tell you?" },
+    { "type": "p", "text": "Winged termites emerging indoors, or many dead ones on a floor or windowsill, are a sure sign of an active infestation, Mississippi State says. A swarm from a stump right beside the foundation calls for an inspection, while one about 25 feet or more from the house is rarely cause for concern. Its swarmer lengths, wings included, are about 3/8 inch for eastern subterranean termites and 1/2 inch for Formosan termites." },
+    { "type": "figure", "src": "/guides/photos/termite-swarmers.webp", "width": 1200, "height": 802, "alt": "Three dark-bodied winged termites with long, pale wings resting on a piece of decaying wood outdoors", "caption": "Subterranean termite swarmers (Reticulitermes) on decaying wood in Blount County, Alabama, identified on iNaturalist. Their long wings are roughly equal in length, which EPA lists as a way to tell termites from winged ants.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/346853050" },
+    { "type": "p", "text": "Ant swarms are sometimes mistaken for termites, EPA notes; termites have wings of roughly equal length and straight antennae. [The flying ants vs termites comparison](/blog/flying-ants-vs-termites) sets the two side by side, and [the guide to what termites look like](/blog/what-do-termites-look-like) covers each caste and species." },
+    { "type": "h3", "text": "What do termite droppings look like?" },
+    { "type": "p", "text": "Drywood termites are the ones that leave piles of droppings: Mississippi State's species table marks pellet piles as a sign that eastern and Formosan subterranean termites do not produce. UC IPM describes the pellets as distinctive, with six flattened sides. [The termite droppings guide](/blog/termite-droppings) shows them up close, with the frass and sawdust they get confused with." },
+    { "type": "h3", "text": "Can you see termite damage on walls, floors and paint?" },
+    { "type": "p", "text": "Sometimes, as small changes on the surface. Mississippi State lists BB-sized spots of dried mud on drywall or ceilings, where termites patched a hole they cut by accident, and narrow, sunken, winding lines in paint or wallpaper over galleries just beneath; termites eat the outer cardboard covering of drywall, not its gypsum core. Sagging floors or a broken door frame could be rot or other causes, it cautions, but timbers with galleries containing dried mud are termite damage." },
+    { "type": "media", "needed": "Close-up of narrow, sunken, winding lines in painted drywall over termite galleries, with a small spot of dried mud, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "Termite damage vs wood rot: how can you tell?" },
+    { "type": "p", "text": "Termites remove wood and leave galleries; rot is decay caused by fungi, and it breaks wood down only where it stays wet. The USDA Forest Products Laboratory's [Wood Handbook chapter on wood decay and wood-boring insects](https://research.fs.usda.gov/treesearch/62262) says brown-rotted wood turns browner, cracks across the grain into cube-like pieces, shrinks and can be crushed into powder, while white rot looks bleached. Wood kept air dry, usually at 20% moisture or less, will not decay; serious decay needs wood wetter than about 30% moisture." },
+    { "type": "p", "text": "The name dry rot is misleading: the chapter says brown, crumbly rot is sometimes called that once it dries out, but wood must have moisture available for decay to happen." },
+    { "type": "table", "head": ["Clue", "Termite damage", "Brown rot"], "rows": [
+      ["The wood", "Eaten out in galleries, often along the grain", "Cracks across the grain into cube-like pieces"],
+      ["Inside", "Dried mud (subterranean) or pellets (drywood)", "No galleries; crumbles to powder"],
+      ["Surface", "Thin and easy to push a screwdriver through", "Browner; shrinks and collapses"],
+      ["Moisture", "Drywood termites live in dry wood", "Serious decay needs wood above about 30% moisture"]
+    ], "caption": "From the USDA Forest Products Laboratory, UC IPM and Mississippi State University Extension." },
+    { "type": "p", "text": "The two often turn up together, so rot does not rule out insects. UC IPM says termites prefer decayed wood and eat it faster, dampwood termites live in it, and the Forest Products Laboratory says carpenter ants favor wood softened by decay. Galleries holding dried mud still mean termites, whatever else is wrong with the wood." },
+    { "type": "media", "needed": "Side-by-side photo of brown-rotted wood cracked into cube-like blocks and termite-damaged wood with mud-lined galleries along the grain, each beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What else damages wood like termites?" },
+    { "type": "p", "text": "Carpenter ants, powderpost beetles and carpenter bees also tunnel into wood, and [UC IPM's drywood termite pest note](https://ipm.ucanr.edu/home-and-landscape/drywood-termites/) names wood-boring beetles and carpenter ants as pests that can be confused with drywood termites. Each leaves its own kind of hole and debris." },
+    { "type": "h3", "text": "Carpenter ants" },
+    { "type": "p", "text": "Carpenter ants dig galleries to nest in but do not eat wood. [NC State Extension's carpenter ant guide](https://content.ces.ncsu.edu/biology-and-control-of-carpenter-ants) says they keep their galleries tidy, with almost sandpapered walls, and push out fiber-like debris resembling pencil shavings, mixed with insect remains, through slit-like openings. Their galleries usually run along the grain too, so what is in the gallery, not its direction, separates them from termites. They prefer wood at 15% moisture or more; [a guide to finding a carpenter ant nest](/blog/carpenter-ants-canada) covers the next step." },
+    { "type": "h3", "text": "Powderpost beetles" },
+    { "type": "p", "text": "Powderpost beetles leave tiny round exit holes and powder as fine as flour. UC IPM's [note on wood-boring beetles in homes](https://ipm.ucanr.edu/home-and-landscape/wood-boring-beetles-in-homes/) says the frass feels like talcum or baking flour, unlike the larger, granular pellets of drywood termites, and turns up in hardwoods such as oak, ash and walnut in floors, paneling, molding and furniture. The Forest Products Laboratory gives their exit holes as 1/32 to 1/16 inch. Other indoor beetles are sorted in [a photo guide to beetles in the house](/blog/beetles-in-house)." },
+    { "type": "media", "needed": "Close-up of powderpost beetle exit holes in a hardwood floorboard with a small pile of flour-like powder below, beside a US dime for scale" },
+    { "type": "h3", "text": "Carpenter bees" },
+    { "type": "p", "text": "Carpenter bees bore a perfectly round hole about the diameter of your little finger, sometimes with coarse sawdust below, in unpainted, weathered wood such as eaves, fascia boards, siding and decks, says [University of Kentucky Entomology](https://entomology.mgcafe.uky.edu/ef611); the Forest Products Laboratory puts the hole at about 1/2 inch. Kentucky's fact sheet says they are seldom as destructive as termites. [A guide to carpenter bees](/blog/how-to-get-rid-of-carpenter-bees-canada) covers getting them out of the wood." },
+    { "type": "confused", "title": "Look-alikes and related signs", "items": [
+      { "href": "/blog/carpenter-ants-canada", "name": "Carpenter ant", "photo": "carpenter-ant-winged-queen", "note": "Clean, sandpapered galleries; pushes out shavings mixed with insect parts", "alt": "Winged black carpenter ant queen seen from above on a green leaf" },
+      { "href": "/blog/how-to-get-rid-of-carpenter-bees", "name": "Carpenter bee", "photo": "carpenter-bee-female", "note": "A perfectly round hole about 1/2 inch wide, sometimes with coarse sawdust below", "alt": "Female eastern carpenter bee with a black face and fuzzy yellow thorax on pink flowers" },
+      { "href": "/blog/termite-droppings", "name": "Termite droppings", "photo": "drywood-termite-pellets", "note": "Hard pellets with six flattened sides, piled below small holes: drywood termites", "alt": "Magnified drywood termite fecal pellets with ridged sides on a black background" }
+    ] },
+
+    { "type": "h2", "text": "Where does termite damage show up in a house?" },
+    { "type": "p", "text": "Subterranean damage starts low, in wood near the soil; drywood termites can be anywhere dry wood sits above ground. The Forest Products Laboratory rates the subterranean risk highest beneath houses built on a concrete slab or over a poorly drained crawl space without a moisture barrier, and in wood close to the ground or an earth-filled porch. UC IPM says drywood termites infest dry, sound wood such as structural lumber, decks, fences and furniture." },
+    { "type": "checklist", "title": "Where to check for termite damage", "items": [
+      "**Foundation and crawl space:** mud tubes on piers, walls and slabs and where pipes come through (Texas A&M).",
+      "**Wood near the ground:** substructure wood close to soil or an earth fill (Forest Products Laboratory).",
+      "**Soil against the house:** Mississippi State advises at least 6 inches between soil and siding, with mulch, leaves and firewood kept off.",
+      "**Windowsills and baseboards:** live or dead swarmers, or small piles of soil (Mississippi State).",
+      "**Walls and ceilings:** BB-sized spots of dried mud and sunken trails in paint or wallpaper."
+    ] },
+    { "type": "p", "text": "Damage is often found by accident: UC IPM says most homeowners learn about subterranean termites from a real estate inspection, a remodel, a tube on a wall or a sudden swarm. Because the signs hide in attics and tight crawl spaces with nails, dust or standing water, it recommends a licensed professional for the inspection." },
+
+    { "type": "h2", "text": "Which termites cause the damage, and where do they live?" },
+    { "type": "p", "text": "EPA says termites cause billions of dollars in structural damage every year. Subterranean termites cause most of it, the Forest Products Laboratory says, and EPA calls the native subterranean termite the most common termite in most of the country. The others depend on where you live:" },
+    { "type": "ul", "items": [
+      "**Native subterranean termites** belong to the subterranean termites, which live in every state except Alaska, according to Texas A&M, and are more common in the South than in the North, where cold holds them back, the Forest Products Laboratory says.",
+      "**Formosan subterranean termites**, an invasive species, are found in Hawaii and the southeastern states, north along the Atlantic coast to Virginia, inland to Tennessee and in southern California, according to [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN278). Mississippi State says their larger colonies can do more damage in less time.",
+      "**Drywood termites** belong to the non-subterranean termites, which the Forest Products Laboratory says occur only in a narrow strip from central California around the southern edge of the country to Virginia, plus Hawaii, with most damage in southern California, parts of southern Florida and Hawaii; infested furniture carries them farther.",
+      "**Dampwood termites** need wet, decaying wood. In California, UC IPM finds them mostly in cool, humid areas along the coast and calls them less common and less costly than drywood or subterranean termites."
+    ] },
+    { "type": "figure", "src": "/guides/photos/formosan-termites-wood.webp", "width": 1200, "height": 785, "alt": "Dozens of pale termite workers and two soldiers with orange-brown heads crawling over two blocks of light-colored wood", "caption": "Formosan subterranean termites feeding on blocks of spruce (left) and birch in a USDA Agricultural Research Service photo. UF/IFAS says Formosan colonies can number several million termites.", "license": "public-domain", "credit": "Peggy Greb, US Dept of Agriculture, Agricultural Research Service. Uploaded by த*உழவன்., Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Ants_(Termites)147.jpg" },
+    { "type": "p", "text": "The insects themselves, including how to tell workers, soldiers and swarmers of each kind apart, are in [the termite identification guide](/blog/what-do-termites-look-like)." },
+
+    { "type": "h2", "text": "Is the damage old, or are termites still active?" },
+    { "type": "p", "text": "Damage alone cannot tell you; live termites can. UF/IFAS says live termites are needed to confirm an active infestation, UC IPM calls termites foraging in wood a sure sign of one, and Mississippi State says dried mud in galleries with no termites present could be old damage from an infestation controlled in the past." },
+    { "type": "figure", "src": "/guides/photos/termite-workers-soldier.webp", "width": 1200, "height": 824, "alt": "A pale termite at the mouth of a tunnel in dark decaying wood, beside termites with long amber heads and dark jaws", "caption": "Subterranean termites (Reticulitermes) at a tunnel in decaying wood, from the same Alabama colony as the swarmers above, identified on iNaturalist. Workers are pale; soldiers have long amber heads and larger jaws, the features UC IPM describes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/346853050" },
+    { "type": "p", "text": "Mississippi State's checks: break a 1-inch section out of a mud tube, or scrape away a BB-sized spot of dried mud on a wall and mark it, then see over the next few days whether termites repair it. For drywood termites, UC IPM suggests clearing the pellets around a hole and looking for new ones a few days later, though building vibration can shake old pellets loose." },
+    { "type": "p", "text": "Finding damage is serious but rarely an emergency. Mississippi State says a colony takes several years to grow large enough to invade a building, so it has been there a while, and a month or two spent getting inspections and bids will not add much damage." },
+
+    { "type": "h2", "text": "What should you do if you find termite damage?" },
+    { "type": "p", "text": "Get a licensed inspection before you spray anything or start repairs. UC IPM says do-it-yourself termite pesticides are generally not effective, and Mississippi State says treating a house is not a do-it-yourself job, partly because it can take years to learn that a home treatment failed. EPA names the two common treatments as soil-applied barrier treatments and termite baits; for drywood termites, UC IPM sorts the options into whole-structure treatments, such as fumigation or heat, and localized ones." },
+    { "type": "ol", "items": [
+      "**Leave the evidence.** Photograph the damage, tubes, wings or pellets where you found them.",
+      "**Skip the spray can.** EPA says products that only claim to kill termites kill the ones they touch, not the infestation, and have not shown they protect a structure.",
+      "**Check the license.** EPA says termite firms must be licensed by your state; ask to see the license, and call your state pesticide regulatory agency with any concerns. Mississippi State suggests bids from more than one company.",
+      "**Read the contract.** Most contracts cover retreatment if termites come back, not damage repair, Mississippi State says.",
+      "**Fix what invited them.** EPA advises keeping soil around the foundation dry with grading, gutters and downspouts, fixing leaks right away, sealing cracks and keeping firewood away from the house.",
+      "**Repair the wood.** UC IPM says homeowners can replace damaged wood and correct the conditions themselves; pesticide work needs a licensed professional."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Bring the evidence", "text": "Photograph damaged wood, mud tubes, pellets or wings beside a ruler marked in inches, and keep a few insects or wings in a sealed jar. Your state's cooperative extension office or a licensed inspector can use them to tell termites from carpenter ants, beetles or rot." }
+  ],
+  "faqs": [
+    {
+      "question": "How do I tell if I have termite damage?",
+      "answer": "Look inside the damaged wood. Galleries that run along the grain with dried mud or soil in them are subterranean termite damage, and galleries holding hard, six-sided pellets are drywood termite damage. Clean, smooth galleries with shavings piled outside point to carpenter ants, and wood cracked across the grain into cube-like pieces is brown rot. Mud tubes on the foundation, swarmers indoors and small spots of dried mud on walls are other signs extension services list. A licensed inspector can confirm it."
+    },
+    {
+      "question": "Can you fix termite damage?",
+      "answer": "Usually, yes. Mississippi State University Extension says it is rare for termites to completely destroy a building. UC IPM says homeowners can replace termite-damaged wood and correct the conditions that invited termites on their own, but pesticide treatments are highly regulated and need a licensed professional. Have the house inspected and the termites treated, ask the inspector which pieces of wood need replacing, and fix the leaks, soil contact or wood debris that drew the termites in."
+    },
+    {
+      "question": "Can a house with termites be saved?",
+      "answer": "Usually. Mississippi State University Extension says termites rarely destroy a building completely, and that a colony found in a house has typically been there for several years, so taking a month or two to get inspections and compare bids will not add much damage. What matters is treating the colony properly. EPA says termite firms must be licensed by your state, and UC IPM says do-it-yourself pesticides for termites are generally not effective."
+    },
+    {
+      "question": "How long does it take termites to cause damage?",
+      "answer": "Years, in most cases. Mississippi State University Extension says a new colony may hold only 50 to 100 termites after its first year and typically needs at least 3 to 5 years to grow large enough to invade a building or produce swarmers. Formosan termites, with much larger colonies, can do more damage in less time. The USDA Forest Products Laboratory says drywood termite damage is not rapid but can riddle timbers when the termites are left undisturbed for many years."
+    },
+    {
+      "question": "What kills termites instantly in a house?",
+      "answer": "Spraying the termites you can see does not deal with the infestation. EPA says products that only claim to kill termites have not demonstrated that they protect structures and are meant to kill only the termites that contact them, not the whole infestation. EPA adds that in most cases termite treatments can only be properly applied by a trained pest management professional, and UC IPM says do-it-yourself pesticides for termites are generally not effective. An inspection comes first."
+    },
+    {
+      "question": "Is it termite damage or water damage?",
+      "answer": "Sagging floors, a sagging roof or a broken door frame can come from either, and Mississippi State University Extension says such problems could be due to wood rot or other causes. The deciding clue is inside the wood: damaged timbers with galleries containing dried mud are termite damage, and termites seen in the wood mean the infestation is active. Brown-rotted wood cracks and crumbles instead of being hollowed into galleries, and decay needs wood that stays wet."
+    },
+    {
+      "question": "How can you tell if termite damage is old?",
+      "answer": "Often you cannot tell from the damage alone. Mississippi State University Extension says dried mud in the galleries with no termites present could be old damage from an infestation controlled in the past, and UF/IFAS says live termites are needed to confirm an active infestation. To test a mud tube, Mississippi State suggests breaking off a 1-inch section and watching for termites or a repair over the next few days. Unless you know the tubes are old, it recommends a professional inspection."
+    },
+    {
+      "question": "What does termite damage look like on drywall?",
+      "answer": "Look for BB-sized spots of dried mud, where termites patched a hole they cut by accident, and for narrow, sunken, winding lines in the paint or wallpaper over galleries just beneath the surface. Mississippi State University Extension lists both as signs and notes that termites do not eat the gypsum core of drywall but readily eat its outer cardboard covering. UC IPM adds that termites build their mud tubes partly from bits of wood or even drywall."
+    },
+    {
+      "question": "What are the different types of termites?",
+      "answer": "Homeowners in the United States deal with three main groups. Subterranean termites, including the native species EPA calls the most common in most of the country and the invasive Formosan termite, nest in soil and build mud tubes. Drywood termites live inside dry wood above ground and leave pellets; the USDA Forest Products Laboratory says their group occurs in a strip of southern states from California to Virginia, plus Hawaii. Dampwood termites live in wet, decaying wood."
+    },
+    {
+      "question": "Can termites get into a house with a concrete foundation?",
+      "answer": "Yes. Mississippi State University Extension says termites build mud tubes when they have to cross a hard surface such as rock, brick, treated wood or a concrete foundation, and UC IPM says working tubes can travel up concrete or stone foundations to reach wood. The USDA Forest Products Laboratory says the subterranean termite hazard is greatest beneath buildings on a concrete slab or over a poorly drained crawl space. Texas A&M advises checking along cracks and in corners of foundations and slabs."
+    }
+  ],
+  "sources": [
+    { "title": "Subterranean and Other Termites (Pest Notes, Publication 7415)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/subterranean-and-other-termites/" },
+    { "title": "Drywood Termites (Pest Notes, Publication 7440)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/drywood-termites/" },
+    { "title": "Wood-Boring Beetles in Homes (Pest Notes, Publication 7418)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/wood-boring-beetles-in-homes/" },
+    { "title": "Protect Your House from Termites (Publication 2568)", "publisher": "Mississippi State University Extension", "url": "https://extension.msstate.edu/publications/protect-your-house-termites" },
+    { "title": "Termites: How to Identify and Control Them", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/safepestcontrol/termites-how-identify-and-control-them" },
+    { "title": "Chapter 14: Biodeterioration of Wood (Wood Handbook, FPL-GTR-282)", "publisher": "USDA Forest Service, Forest Products Laboratory", "url": "https://research.fs.usda.gov/treesearch/62262" },
+    { "title": "Native Subterranean Termites Reticulitermes sp", "publisher": "Texas A&M University Urban and Structural Entomology Program", "url": "https://urbanentomology.tamu.edu/urban-pests/termites/native/" },
+    { "title": "Formosan Subterranean Termite, Coptotermes formosanus Shiraki (EENY121)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN278" },
+    { "title": "Biology and Control of Carpenter Ants", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/biology-and-control-of-carpenter-ants" },
+    { "title": "Carpenter Bees (ENTFACT-611)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef611" }
+  ]
+}

@@ -16,6 +16,7 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
@@ -86,7 +87,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'How to get rid of cockroaches in Canada: German vs American vs Oriental ID, why sprays scatter colonies, the bait-station + glue-board-monitor plan, apartment/landlord rules, and the honest Canadian answer on Advion gel. Updated 2026.',
   canonical: `/blog/${SLUG}`,
@@ -94,7 +95,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('german-cockroach-adult'),
-})
+}), '/blog/how-to-get-rid-of-cockroaches-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-cockroaches-canada')
 
