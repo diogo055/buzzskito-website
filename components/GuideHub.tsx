@@ -28,6 +28,10 @@ export type GuideHubProps = {
   /** Adjacent-pest pages pass the pest name → renders the specialist disclosure instead. */
   adjacentPest?: string
   howWeRank?: { title: string; body: ReactNode }
+  /** Product hubs: the hub's own #1 Amazon pick as a `<TopBox ... disclosure />`, shown right under
+   *  the hero so a phone reader meets it in the first screen or two instead of about 4 screens down
+   *  inside "How we rank" (Oct 20, 2026). Same product, search term and tag the hub already links. */
+  topBox?: ReactNode
   sections: HubSection[]
   bottomLine?: { title: string; body: ReactNode }
   faqs: { question: string; answer: string }[]
@@ -91,6 +95,9 @@ export default function GuideHub(p: GuideHubProps) {
           </div>
         </nav>
       )}
+
+      {/* ── Top box (product hubs: the hub's #1 Amazon pick, near the top) ── */}
+      {p.topBox}
 
       {/* ── Quick answer + tie-in / disclosure ─────────────────────────── */}
       <section className="bg-gray-50 border-b border-gray-100">

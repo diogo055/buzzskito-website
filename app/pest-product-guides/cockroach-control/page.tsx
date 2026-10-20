@@ -5,6 +5,7 @@ import { SITE_URL } from '@/lib/constants'
 import GuideHub, { type HubSection } from '@/components/GuideHub'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
+import TopBox from '@/components/TopBox'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
 
@@ -131,6 +132,7 @@ export default function CockroachControlHubPage() {
         subtitle="The bait stations and glue boards that do the work, the narrow jobs a spray still has, and the Canadian answer on imported gel bait — plus identification and how-to guides for readers anywhere in North America."
         heroStats={[{ value: `${POSTS_LINKED}`, label: 'Research guides' }, { value: `${SECTIONS.length}`, label: 'Categories' }, { value: 'Bait-first', label: 'Method' }]}
         adjacentPest="cockroaches"
+        topBox={<TopBox tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (12-pack)" search="combat roach killing bait stations" label="Start Here" disclosure />}
         quickAnswer={{
           lead: <>For a cockroach problem in a Canadian home, start with <strong>bait, not spray</strong>: enclosed bait stations along the wall edges of the kitchen and bathroom, glue-board monitors to measure progress, and no food or water left out overnight. A roach that feeds on the slow-acting bait crawls back to the harbourage, where, the University of Kentucky explains, traces left in its droppings can kill roaches that never touched the bait. A spray kills only the roaches it reaches, and Rutgers University notes that most active ingredients in retail sprays are pyrethroids, which repel cockroaches and may push them into neighbouring units.</>,
           bullets: [

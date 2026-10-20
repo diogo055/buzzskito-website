@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -97,6 +98,7 @@ export default function ClusterFliesInHouseCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Best indoor fix" />
+      <TopBox tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Best indoor fix" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
