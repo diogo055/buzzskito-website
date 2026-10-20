@@ -1,14 +1,5 @@
-release: 10 scheduled page(s) go live (2026-10-20)
+release: 3 scheduled page(s) go live (2026-10-20)
 
-- /blog/how-to-get-rid-of-silverfish
-- /blog/millipedes
-- /blog/how-to-get-rid-of-earwigs
-- /blog/cockroach-droppings
-- /blog/flies-in-house
-- /blog/how-to-get-rid-of-gnats
-- /blog/raccoon-poop
-- /blog/bat-poop
-- /blog/mouse-poop
-- /blog/bed-bug-poop
-
-Held back: 3 (see data/god-build/releases/2026-10-20.md)
+- /blog/kissing-bug-look-alikes
+- /blog/houseplant-bugs
+- /blog/black-spiders

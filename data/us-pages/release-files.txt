@@ -388,6 +388,9 @@ app/blog/spiders-in-texas/page.tsx
 content/guides/spider-egg-sacs.json
 data/us-pages/checked/spider-egg-sacs.json
 app/blog/spider-egg-sacs/page.tsx
+content/guides/black-spiders.json
+data/us-pages/checked/black-spiders.json
+app/blog/black-spiders/page.tsx
 content/guides/flies-in-house.json
 data/us-pages/checked/flies-in-house.json
 app/blog/flies-in-house/page.tsx
@@ -418,6 +421,9 @@ app/blog/millipedes/page.tsx
 content/guides/asian-lady-beetles.json
 data/us-pages/checked/asian-lady-beetles.json
 app/blog/asian-lady-beetles/page.tsx
+content/guides/kissing-bug-look-alikes.json
+data/us-pages/checked/kissing-bug-look-alikes.json
+app/blog/kissing-bug-look-alikes/page.tsx
 content/guides/how-to-get-rid-of-earwigs.json
 data/us-pages/checked/how-to-get-rid-of-earwigs.json
 app/blog/how-to-get-rid-of-earwigs/page.tsx
@@ -502,3 +508,6 @@ app/learn/whitefly-identification-control/page.tsx
 content/guides/natural-weed-control.json
 data/us-pages/checked/natural-weed-control.json
 app/learn/natural-weed-control/page.tsx
+content/guides/houseplant-bugs.json
+data/us-pages/checked/houseplant-bugs.json
+app/blog/houseplant-bugs/page.tsx

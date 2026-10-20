@@ -1511,6 +1511,20 @@
     "/blog/chigger-bites"
    ]
   },
+  "/blog/black-spiders": {
+   "next": "/blog/brown-recluse-look-alikes",
+   "related": [
+    "/blog/spider-egg-sacs",
+    "/blog/spiders-in-texas",
+    "/blog/venomous-spiders"
+   ],
+   "cards": [
+    "/blog/house-spiders",
+    "/blog/spiders-in-florida",
+    "/blog/wolf-spiders"
+   ],
+   "bar": true
+  },
   "/blog/blacklegged-deer-tick-ontario": {
    "next": "/blog/what-ticks-look-like-ontario",
    "related": [
@@ -2720,6 +2734,20 @@
    ],
    "bar": true
   },
+  "/blog/houseplant-bugs": {
+   "next": "/blog/how-to-get-rid-of-fungus-gnats-houseplants",
+   "related": [
+    "/learn/how-to-get-rid-of-fungus-gnats",
+    "/learn/natural-weed-control",
+    "/learn/whitefly-identification-control"
+   ],
+   "cards": [
+    "/learn/aphid-control-guide",
+    "/blog/june-bugs-ontario",
+    "/learn/natural-garden-pest-control"
+   ],
+   "bar": true
+  },
   "/blog/how-long-do-ants-live": {
    "next": "/blog/honeypot-ants",
    "related": [
@@ -3532,6 +3560,20 @@
     "/blog/best-mosquito-repellent-device-canada",
     "/blog/is-mosquito-spray-safe-kids-pets"
    ]
+  },
+  "/blog/kissing-bug-look-alikes": {
+   "next": "/blog/tiny-brown-bugs",
+   "related": [
+    "/blog/how-to-get-rid-of-stink-bugs",
+    "/blog/asian-lady-beetles",
+    "/blog/how-to-get-rid-of-carpet-beetles"
+   ],
+   "cards": [
+    "/blog/termite-damage",
+    "/blog/beetles-in-house",
+    "/blog/how-to-get-rid-of-earwigs"
+   ],
+   "bar": true
   },
   "/blog/knock-down-bed-bug-killer-review-canada": {
    "next": "/blog/best-bed-bug-spray-for-mattress-canada",

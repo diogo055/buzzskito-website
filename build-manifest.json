@@ -2,14 +2,14 @@
  "generated": "2026-10-20",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 168,
+  "newPagesBuilt": 171,
   "hubPages": 4,
-  "guides": 153,
+  "guides": 156,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 236,
-  "internalLinksInNewPages": 2170
+  "notBuilt": 233,
+  "internalLinksInNewPages": 2210
  },
  "pages": [
   {
@@ -872,7 +872,7 @@
    "wordCount": 3140,
    "faqs": 6,
    "sources": 18,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -904,7 +904,7 @@
    "wordCount": 2741,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -933,11 +933,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Common House Spiders: Photos and Which Ones Bite",
-   "wordCount": 3349,
+   "wordCount": 3382,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1000,8 +1000,24 @@
    "wordCount": 2203,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "black spider with white spots",
+   "us_volume": null,
+   "url": "/blog/black-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Black Spider With White Spots? ID It (Photos)",
+   "wordCount": 2127,
+   "faqs": 10,
+   "sources": 13,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -1032,7 +1048,7 @@
    "wordCount": 2421,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1128,7 +1144,7 @@
    "wordCount": 2879,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1144,7 +1160,7 @@
    "wordCount": 1886,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -1162,6 +1178,22 @@
    "sources": 13,
    "inboundFromNewPages": 3,
    "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs that look like kissing bugs",
+   "us_volume": null,
+   "url": "/blog/kissing-bug-look-alikes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs That Look Like Kissing Bugs (Photos)",
+   "wordCount": 2366,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1240,7 +1272,7 @@
    "wordCount": 2880,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 22,
    "status": "built"
   },
@@ -1256,7 +1288,7 @@
    "wordCount": 2571,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1464,7 +1496,7 @@
    "wordCount": 5076,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1480,7 +1512,7 @@
    "wordCount": 3568,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1496,7 +1528,7 @@
    "wordCount": 4813,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1512,7 +1544,7 @@
    "wordCount": 5236,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -1530,6 +1562,22 @@
    "sources": 7,
    "inboundFromNewPages": 4,
    "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs on houseplants",
+   "us_volume": null,
+   "url": "/blog/houseplant-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "Bugs on Houseplants? Identify Them (Photos)",
+   "wordCount": 2590,
+   "faqs": 10,
+   "sources": 10,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -2563,13 +2611,6 @@
   },
   {
    "rank": null,
-   "keyword": "bugs that look like kissing bugs",
-   "url": "/blog/kissing-bug-look-alikes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "scorpion sting",
    "url": "/blog/scorpion-stings",
    "action": "new",
@@ -3118,20 +3159,6 @@
    "rank": null,
    "keyword": "springtails",
    "url": "/blog/springtails",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bugs on houseplants",
-   "url": "/blog/houseplant-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "black spider with white spots",
-   "url": "/blog/black-spiders",
    "action": "new",
    "status": "not built"
   },

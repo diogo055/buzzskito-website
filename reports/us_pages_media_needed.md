@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-316 images across 130 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+323 images across 133 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -509,6 +509,10 @@
 - Brown recluse egg sac (off-white, round, about 1/3 inch) in a retreat along a joist or inside a box, with the spider identified by an arachnologist, ideally beside a ruler marked in inches; public domain or CC0
 - Praying mantid egg case (ootheca) on a house wall, fence post or eave, identified to species (Chinese or Carolina mantid), ideally beside a ruler marked in inches; public domain or CC0
 
+## /blog/black-spiders
+
+- A male red-legged purseweb spider (shiny black body, bright reddish-orange legs) walking on the ground in early summer beside a ruler marked in inches, and a second photo of a purseweb silk tube against the base of a tree
+
 ## /blog/flies-in-house
 
 - Photo of several house flies or blow flies on the inside of a kitchen or living-room window, as a homeowner sees them, with a ruler or coin for scale (public domain or CC0, so it could lead the page).
@@ -561,6 +565,10 @@
 - Close-up, top-down photo of an adult Asian lady beetle's head and the white plate behind it, showing a clear black M or W, with a ruler marked in inches in the frame
 - Photo of an Asian lady beetle larva and a pupa on a leaf beside a ruler marked in inches, showing the larva's dark body with orange markings and branched spines and the orange pupa with its black spots
 - Top-down photo of a seven-spotted lady beetle beside a ruler marked in inches, showing the white spot on either side of the head and the 7 black spots on its wing covers
+
+## /blog/kissing-bug-look-alikes
+
+- Side views of a kissing bug and a wheel bug on a white background beside a ruler marked in inches, sharp enough to show the kissing bug's straight beak and the wheel bug's curved beak and crest
 
 ## /blog/how-to-get-rid-of-earwigs
 
@@ -707,3 +715,11 @@
 - Side-by-side photo of weeds in a paving crack: on the left, seedlings with 2 to 5 leaves (the stage a vinegar spray controls); on the right, an established dandelion rosette that will regrow from its root after spraying
 - Photo of a ruler pushed into fresh wood chip mulch in a shrub bed, reading 4 inches, with the mulch visibly tapered down to almost nothing where it meets the shrub's trunk
 - Photo of a freshly pulled dandelion with its full taproot intact lying beside a fishtail weeder on a lawn, with visibly damp soil in the hole
+
+## /blog/houseplant-bugs
+
+- Close-up photo of fungus gnat larvae in moist houseplant potting mix, or on the cut face of a raw potato chunk lifted from a pot, beside a ruler marked in inches, showing the shiny black heads and clear bodies
+- Photo of a houseplant leaf glossy with sticky honeydew, with patches of black sooty mold starting on it, ideally with the aphids or scale insects that produced it in view
+- Photo of cyclamen mite damage on an African violet or a cyclamen: the small, cupped, hairy leaves in the center of the plant, with a healthy plant beside it for comparison
+- Photo of thrips damage on a houseplant leaf: irregular silvery streaks dotted with tiny black specks of excrement, beside a ruler marked in inches
+- Photo of white or gray springtails on the surface of damp houseplant potting soil right after watering, beside a ruler marked in inches

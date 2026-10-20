@@ -539,6 +539,7 @@ export const US_GUIDE_BUILT = new Set<string>([
   "/blog/spiders-in-florida",
   "/blog/spiders-in-texas",
   "/blog/spider-egg-sacs",
+  "/blog/black-spiders",
   "/blog/flies-in-house",
   "/blog/how-to-get-rid-of-gnats",
   "/blog/what-do-fleas-look-like",
@@ -549,6 +550,7 @@ export const US_GUIDE_BUILT = new Set<string>([
   "/blog/how-to-get-rid-of-stink-bugs",
   "/blog/millipedes",
   "/blog/asian-lady-beetles",
+  "/blog/kissing-bug-look-alikes",
   "/blog/how-to-get-rid-of-earwigs",
   "/blog/pantry-pests",
   "/blog/tiny-black-bugs",
@@ -577,6 +579,7 @@ export const US_GUIDE_BUILT = new Set<string>([
   "/learn/aphid-control-guide",
   "/learn/whitefly-identification-control",
   "/learn/natural-weed-control",
+  "/blog/houseplant-bugs",
   "/pest-product-guides/ant-control",
   "/pest-product-guides/cockroach-control",
 ])

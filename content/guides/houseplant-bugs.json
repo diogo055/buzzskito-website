@@ -1,0 +1,209 @@
+{
+  "slug": "houseplant-bugs",
+  "kind": "spoke",
+  "cluster": "garden",
+  "keyword": "bugs on houseplants",
+  "alsoTargets": [
+    "houseplant pests",
+    "white bugs on plants",
+    "tiny bugs in houseplant soil",
+    "spider mites on houseplants",
+    "mealybugs",
+    "thrips on houseplants"
+  ],
+  "metaTitle": "Bugs on Houseplants? Identify Them (Photos)",
+  "metaDescription": "Bugs on houseplants are usually fungus gnats, mealybugs, whiteflies, aphids, scale, spider mites, thrips or springtails. Sort yours by the sign it leaves.",
+  "h1": "Bugs on Houseplants: Which Pest Is on Your Plant, and What to Do",
+  "dek": "Tiny flies at the soil, white fluff, sticky leaves, brown bumps, webbing, silvery streaks or specks that jump: the sign you see names the houseplant pest. Photos, sizes in inches and next steps from university extension guides.",
+  "breadcrumb": "Bugs on Houseplants",
+  "excerpt": "Fungus gnats, mealybugs, whiteflies, aphids, scale, spider mites, thrips or springtails? Sort the bug on your houseplant by the sign it leaves, with photos and sizes.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn/natural-garden-pest-control", "name": "Garden Pest Control" },
+  "disclaimer": "pesticide",
+  "quickAnswer": {
+    "lead": "**The bugs on houseplants are usually fungus gnats, mealybugs, whiteflies, aphids, scale insects, spider mites, thrips or springtails, and the sign you see first sorts them: tiny flies at the soil, white fluff, sticky leaves, brown bumps, fine webbing, silvery streaks or specks that jump.** [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants) suggests a 10-power hand lens, since some are very small.",
+    "bullets": [
+      "Fungus gnats are slender, mosquito-like flies 1/16 to 1/8 inch long, and Texas A&M says infestations from potted plants are most common in winter, when overwatering is more common.",
+      "Clemson gives mealybugs as about 1/8 to 1/4 inch long and coated in white wax, and UC IPM names the citrus mealybug as the most common one on indoor ornamentals.",
+      "Spider mites are about 1/50 inch long (UMN), so the damage, fine light speckling on the leaves, is usually the first sign, as Clemson notes.",
+      "UMN gives soft scales as 1/8 to 1/4 inch and armored scales as 1/16 to 1/8 inch: bumps on stems and leaf veins that never move as adults.",
+      "Thrips, usually 1/16 inch or less, leave silvery streaks and tiny dark specks of excrement on leaves, according to UMN and UC IPM.",
+      "Springtails, about 1/16 inch and white or gray, jump in damp potting soil, and UMN says they rarely, if ever, damage indoor plants."
+    ]
+  },
+  "facts": {
+    "title": "Bugs on houseplants: quick ID",
+    "head": ["Bug", "Size", "What you notice first", "How it moves"],
+    "rows": [
+      ["Fungus gnat", "Adults 1/16 to 1/8 inch; larvae up to 1/4 inch", "Small dark flies running over the soil or flying close to it", "Flies or runs; larvae live in the soil"],
+      ["Mealybug", "About 1/8 to 1/4 inch", "White, cottony wax in leaf joints and under leaves", "Crawls very slowly"],
+      ["Whitefly", "About 1/16 inch", "Tiny white insects under the leaves", "Flutters up when the plant is moved"],
+      ["Aphid", "1/16 to 1/8 inch", "Pear-shaped clusters on new shoots and buds; sticky leaves", "Crawls; some adults have wings"],
+      ["Scale insect", "1/16 to 1/4 inch", "Brown, gray or white bumps on stems and leaf veins", "Adults stay put; tiny crawlers walk"],
+      ["Spider mite", "About 1/50 inch", "Leaves speckled with light dots; fine webbing", "Crawls; shows up on white paper when a leaf is tapped"],
+      ["Thrips", "1/16 inch or less", "Silvery streaks and black specks on leaves", "Runs fast; adults can fly"],
+      ["Springtail", "About 1/16 inch", "White or gray specks in damp soil after watering", "Jumps"],
+      ["Cyclamen mite", "Too small to see without high magnification", "Stunted, brittle, hairy new leaves; deformed buds", "Hides in buds and young leaves"]
+    ],
+    "caption": "Sizes and signs from [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants), with Clemson HGIC, UC IPM and Texas A&M AgriLife Extension, each linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the bugs on my houseplants?" },
+    { "type": "p", "text": "[University of Minnesota Extension's guide to insects on indoor plants](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants) names nine common pests: fungus gnats, mealybugs, whiteflies, aphids, scale insects, spider mites, thrips, springtails and cyclamen mites, the last too small to see without high magnification. All but two feed on the plant, sucking sap or the contents of leaf cells; fungus gnats and springtails live in the potting mix and are mostly a nuisance, UMN says." },
+    { "type": "figure", "src": "/guides/photos/long-tailed-mealybug.webp", "width": 1200, "height": 949, "alt": "White, waxy long-tailed mealybug with long tail filaments on a green plant stem, beside a 1 mm scale bar", "caption": "Long-tailed mealybug (Pseudococcus longispinus) on a plant stem, beside a scale bar of 1 mm, about 1/25 inch. UC IPM lists indoor ornamentals among its hosts.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/7668880" },
+    { "type": "p", "text": "Each pest leaves its own sign, and the sign is the quickest way to a name. Indoors, the order of work is the one in [a natural garden pest control plan](/learn/natural-garden-pest-control): name the pest first, then use the gentlest fix that works." },
+
+    { "type": "h2", "text": "How do you tell which bug is on your plant?" },
+    { "type": "p", "text": "Look for the sign first and the bug second, with a 10-power hand lens or a phone magnifier app, as UMN suggests. Check both sides of the leaves, the leaf joints, the soil surface, and the rim and saucer of the pot, where UMN says pests also hide." },
+    { "type": "checklist", "title": "Checks to run on the plant", "items": [
+      "**Tap a leaf over white paper.** Specks that walk are probably spider mites; slender specks that run fast are thrips. UMN and [UC IPM's thrips guide](https://ipm.ucanr.edu/home-and-landscape/thrips/) both use this test.",
+      "**Water or brush the plant.** Tiny white insects that flutter up and settle again are whiteflies; specks that jump on the wet soil are springtails; small dark flies running over the soil are fungus gnats.",
+      "**Touch the leaves and the table under the pot.** Sticky, shiny spots are honeydew from aphids, mealybugs, soft scales or whiteflies; a black film on it is sooty mold.",
+      "**Look along the stems and leaf veins.** Cottony white tufts are mealybugs; bumps that never move are scale insects; pear-shaped clusters on new shoots are aphids.",
+      "**Watch the newest leaves.** Stunted, brittle, hairy new growth with nothing visible on it points to cyclamen mites.",
+      "**Set a chunk of raw potato on the soil, cut side down,** and check under it now and then for fungus gnat larvae, a check [UC IPM's fungus gnat guide](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) describes.",
+      "**Catch one and measure it.** Press it onto clear tape or seal it in a jar beside a ruler marked in inches, and compare it with the table above."
+    ] },
+
+    { "type": "h2", "text": "What are the tiny flies around my houseplant's soil?" },
+    { "type": "p", "text": "Small dark flies that run over the potting mix or fly close to it are most likely fungus gnats. [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) describes slender, mosquito-like flies 1/16 to 1/8 inch long and says infestations from potted plants are most common in winter, when overwatering is more common. They do not bite people or damage plants (UC IPM), and in a bad infestation they gather at nearby windows (Clemson)." },
+    { "type": "figure", "src": "/guides/photos/fungus-gnat.webp", "width": 1200, "height": 900, "alt": "Dark fungus gnat with long, thin legs, long antennae and clear wings, standing on a piece of decaying wood", "caption": "Dark-winged fungus gnat (family Sciaridae), photographed outdoors on wood: a small, delicate dark fly with long legs and antennae, shaped like a tiny mosquito.", "credit": "Katja Schulz from Washington, D. C., USA, CC BY 2.0, via Wikimedia Commons", "license": "CC-BY-2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dark-winged_Fungus_Gnat_(28778903446).jpg" },
+    { "type": "p", "text": "The larvae live in the soil. UC IPM describes them as legless and whitish to clear, with a shiny black head, and says large numbers can damage roots and stunt growth, particularly in seedlings and young plants; UMN links fungus gnats to overwatering, poor drainage and peat-rich mixes. [The five-step fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats) and [a longer houseplant walkthrough](/blog/how-to-get-rid-of-fungus-gnats-houseplants) cover drying the soil and treating the larvae." },
+    { "type": "media", "needed": "Close-up photo of fungus gnat larvae in moist houseplant potting mix, or on the cut face of a raw potato chunk lifted from a pot, beside a ruler marked in inches, showing the shiny black heads and clear bodies" },
+    { "type": "p", "text": "Three look-alikes turn up too. Fruit flies are about 1/8 inch long with a stout body and usually reddish eyes, and breed in overripe produce, trash cans and drains, Texas A&M says; [the fruit fly guide](/blog/how-to-get-rid-of-fruit-flies) covers them. Phorid flies, the same size, have a humped back and can breed in wet potting soil (Texas A&M). Shore flies, tied to algae, have short, bristle-like antennae (UC IPM). [A guide that sorts gnats by type](/blog/how-to-get-rid-of-gnats) compares most of them." },
+
+    { "type": "h2", "text": "What are the white, fluffy bugs on my plant?" },
+    { "type": "p", "text": "White, cottony fluff in the leaf joints, along the veins under the leaves or on the stems is most likely the wax that coats mealybugs. [Clemson's houseplant pest fact sheet](https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/) describes them as small, pale insects about 1/8 to 1/4 inch long that move very sluggishly, and UMN adds the white filaments along the sides and at the tail end. Heavy feeding yellows the leaves, stunts the plant and makes it wilt." },
+    { "type": "p", "text": "[UC IPM's mealybug guide](https://ipm.ucanr.edu/home-and-landscape/mealybugs/) says they thrive indoors because of mild temperatures all year and the absence of the natural enemies that keep them in check outside. It names the citrus mealybug, with short wax filaments all around its body, as the most common mealybug on indoor ornamentals; the long-tailed mealybug in the photo above has two tail filaments longer than its body." },
+    { "type": "h3", "text": "Mealybugs in the soil" },
+    { "type": "p", "text": "UMN says mealybugs may also sit below the soil surface on the main stem, and UC IPM describes ground mealybugs that live in the soil, feed on roots and do the most damage on potted plants such as African violets. They have no obvious filaments and are generally not seen until a plant is lifted from its pot." },
+    { "type": "h3", "text": "Are they white mites?" },
+    { "type": "p", "text": "Often not. Mealybugs, whiteflies and springtails are insects that can all look like tiny white specks. The mites UMN names as houseplant pests are spider mites, yellowish or greenish and about 1/50 inch long, and cyclamen mites, too small to see. Spider mites do leave whitish cast skins, so pale flecks with fine webbing deserve a look with a lens." },
+
+    { "type": "h2", "text": "What are the tiny white insects that fly up from my plant?" },
+    { "type": "p", "text": "Tiny white insects that rise when you water or brush the plant, then settle again, are whiteflies. UMN describes the adults as white, gnat-like insects about 1/16 inch long and says all stages are normally found on the undersides of the leaves; the young are flat, oval, scale-like and hard to spot. Feeding yellows leaves and can make them drop, and Clemson says whiteflies leave honeydew, as aphids do." },
+    { "type": "figure", "src": "/guides/photos/greenhouse-whitefly.webp", "width": 1165, "height": 1440, "alt": "Magnified top view of an adult greenhouse whitefly with broad, powdery white wings on a dark green leaf", "caption": "Greenhouse whitefly (Trialeurodes vaporariorum), an adult on a leaf, with a scale bar of 0.1 mm (about 1/250 inch).", "credit": "(c) Don Loarie, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/1727167" },
+    { "type": "p", "text": "Yellow sticky cards catch the flying adults, UMN says, not the young on the leaves. [The whitefly control guide](/learn/whitefly-identification-control) explains the shake test and why sprays have to be repeated." },
+
+    { "type": "h2", "text": "Why are my plant's leaves sticky?" },
+    { "type": "p", "text": "Sticky, shiny leaves, or sticky spots on the table under the pot, are honeydew, which UMN describes as a shiny, sticky substance made by aphids, mealybugs and scale insects; Clemson adds whiteflies. Among scales, only the soft ones make it. Honeydew can turn black with sooty mold, and UC IPM counts ants feeding on honeydew as another sign of mealybugs." },
+    { "type": "media", "needed": "Photo of a houseplant leaf glossy with sticky honeydew, with patches of black sooty mold starting on it, ideally with the aphids or scale insects that produced it in view" },
+    { "type": "h3", "text": "Aphids" },
+    { "type": "p", "text": "If the sticky leaves sit under clusters of small, soft bugs on new shoots and buds, look for aphids. Clemson describes them as pear-shaped and 1/16 to 1/8 inch long, usually green but sometimes pink, brown, black or yellow. UMN says their legs and antennae are clearly visible and most are wingless, and their whitish cast skins on the leaves are another clue. Feeding yellows, stunts and distorts the plant." },
+    { "type": "figure", "src": "/guides/photos/melon-aphid-colony.webp", "width": 1200, "height": 1136, "alt": "Colony of yellow-green and dark green aphids of mixed sizes on the pale underside of a leaf, beside a 1 mm scale bar", "caption": "Melon aphids (Aphis gossypii), a colony of mixed sizes on the underside of a leaf, beside a scale bar of 1 mm, about 1/25 inch.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/55997238" },
+    { "type": "p", "text": "A small colony can be washed off in a sink or shower, the first step UMN suggests for aphids. [The aphid control guide](/learn/aphid-control-guide) covers insecticidal soap, neem oil and the insects that eat aphids." },
+
+    { "type": "h2", "text": "What are the brown bumps on my plant's stems and leaves?" },
+    { "type": "p", "text": "Small bumps that never move, stuck to the stems and to the undersides of the leaves along the midvein, are scale insects. Clemson says the adults are immobile, with no visible legs, and UMN describes their shell-like coverings as brown, gray or white and round, oval or oyster-shell-shaped. Soft scales, the most common kind, are about 1/8 to 1/4 inch long and make honeydew; armored scales are 1/16 to 1/8 inch and do not." },
+    { "type": "figure", "src": "/guides/photos/brown-soft-scale.webp", "width": 1200, "height": 1600, "alt": "A single flat, oval, tan-brown soft scale insect stuck to a green leaf with a fine network of veins", "caption": "Brown soft scale (Coccus hesperidum) on a leaf: a flat, oval, tan-brown bump with no legs showing.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/343123523" },
+    { "type": "p", "text": "Only the young move: both kinds produce tiny crawlers with legs. UMN says heavy feeding yellows the leaves, makes them drop and stunts the plant, and suggests scraping small numbers off with a fingernail file. [Clemson's insecticidal soap fact sheet](https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/) names scale crawlers among the soft-bodied insects that insecticidal soap controls." },
+
+    { "type": "h2", "text": "What is the fine webbing on my plant?" },
+    { "type": "p", "text": "Fine webbing, with leaves speckled with tiny light dots, points to spider mites. [UC IPM's spider mite guide](https://ipm.ucanr.edu/home-and-landscape/spider-mites/) says the webbing is an easy way to tell them from all other mites, and that the damage starts as a stippling of light dots that can turn bronze, then yellowish or reddish before the leaves drop. UMN puts spider mites at about 1/50 inch, oval and yellowish or greenish, and Clemson notes that the damage is usually seen before the mites are." },
+    { "type": "figure", "src": "/guides/photos/spider-mite-webbing.webp", "width": 1200, "height": 800, "alt": "Dense, shiny silk webbing wrapped around the spiny shoots of a plant by a colony of twospotted spider mites", "caption": "Webbing spun by a colony of twospotted spider mites (Tetranychus urticae) over a plant's shoots. Webbing this heavy comes with a large colony.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/29244553" },
+    { "type": "p", "text": "To confirm them, tap a leaf over white paper and watch for specks that walk (UMN), or check the leaf undersides with a hand lens (UC IPM). They thrive in warm, dry conditions, UMN says, and Clemson says they are more of a problem on plants kept indoors all year, especially palms and English ivy. [Cornell's integrated pest management program](https://cals.cornell.edu/new-york-state-integrated-pest-management/outreach-education/whats-bugging-you/mites) describes them as mites that feed on plants, indoors and out; [the spider mite guide](/blog/spider-mites) goes further." },
+    { "type": "p", "text": "Red specks crowding a sunny windowsill may be clover mites instead. [Penn State Extension](https://extension.psu.edu/clover-mites) gives them as 0.75 mm (about 1/32 inch), reddish or greenish, with a greatly lengthened first pair of legs, often on windowsills on the sunny side of homes; they do not attack people or reproduce indoors. [A guide to tiny red bugs and clover mites](/blog/red-ticks-and-clover-mites) compares them with red spider mites." },
+    { "type": "h3", "text": "New leaves stunted, but no bugs in sight?" },
+    { "type": "p", "text": "That pattern fits cyclamen mites, which you cannot see. UMN describes them as extremely small and semi-transparent, living in young leaves, buds and flowers: infested leaves are stunted, brittle and often hairy, buds can be deformed and streaked, and African violets show small, cupped, hairy leaves in the center. UMN's advice is to throw infested plants away, because pesticides and other methods are not practical." },
+    { "type": "media", "needed": "Photo of cyclamen mite damage on an African violet or a cyclamen: the small, cupped, hairy leaves in the center of the plant, with a healthy plant beside it for comparison" },
+
+    { "type": "h2", "text": "What makes silvery streaks and black specks on leaves?" },
+    { "type": "p", "text": "Silvery streaks or patches on the leaves, often dotted with tiny black specks, are the mark of thrips. UC IPM describes slender insects with fringed wings, most adults less than 1/20 inch long, whose feeding leaves stippling, flecks or silvering, usually with black, varnish-like flecks of excrement. UMN gives about 1/16 inch, usually tan or dark, and says they run quickly when disturbed, adults can fly, and flowers can end up streaked or distorted." },
+    { "type": "figure", "src": "/guides/photos/western-flower-thrips.webp", "width": 1200, "height": 800, "alt": "Slender yellow-orange western flower thrips adult with narrow fringed wings folded along its back, on white woven cloth", "caption": "Western flower thrips (Frankliniella occidentalis), an adult on white cloth. Thrips are slender, usually 1/16 inch or less, with narrow fringed wings.", "credit": "(c) Trevor Van Loon, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/261203486" },
+    { "type": "p", "text": "Clemson suggests blowing lightly into flowers and leaves to make thrips scurry about where you can see them, and UMN says blue or yellow sticky cards catch the adults that fly. Most species pupate in the soil, leaf litter or plant crevices, UC IPM notes." },
+    { "type": "media", "needed": "Photo of thrips damage on a houseplant leaf: irregular silvery streaks dotted with tiny black specks of excrement, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What are the tiny bugs jumping in my houseplant soil?" },
+    { "type": "p", "text": "Tiny white or gray specks that jump when you water or disturb the soil are springtails. UMN describes slender insects about 1/16 inch long that feed on decaying roots and fungi in damp potting soil, especially peat-rich mixes; they show up most right after watering and rarely, if ever, damage indoor plants. Clemson says their presence is usually a sign of overwatering." },
+    { "type": "figure", "src": "/guides/photos/springtail.webp", "width": 1200, "height": 949, "alt": "Pale springtail with dark bands across its body and long antennae on a green leaf, beside a 1 mm scale bar", "caption": "Springtail (Entomobrya atrocincta) on a leaf, beside a scale bar of 1 mm, about 1/25 inch. The ones in potting soil are usually white or gray.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/10397241" },
+    { "type": "p", "text": "Let the soil surface dry as much as possible between waterings without letting the plant wilt, UMN advises; there are no pesticides for springtails. Worried it is a flea? [The guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) sets springtails beside fleas, and [the springtail guide](/blog/springtails) covers springtails elsewhere in the house." },
+    { "type": "media", "needed": "Photo of white or gray springtails on the surface of damp houseplant potting soil right after watering, beside a ruler marked in inches" },
+    { "type": "p", "text": "Pots that spent the summer outdoors can also bring in pillbugs, millipedes, slugs or ants. Clemson says the first three usually sit in small cavities along the outside of the root ball and can simply be scraped away; [the millipede guide](/blog/millipedes) explains why millipedes wander indoors." },
+
+    { "type": "confused", "title": "Look-alikes and their own guides", "items": [
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat", "note": "Dark, mosquito-like fly 1/16 to 1/8 inch; larvae live in moist potting soil", "alt": "Dark fungus gnat with long legs and clear wings standing on wood" },
+      { "href": "/blog/how-to-get-rid-of-fruit-flies", "name": "Fruit fly", "photo": "fruit-fly", "note": "About 1/8 inch, stout, usually with reddish eyes; breeds in overripe produce and trash", "alt": "Tan fruit fly with bright red eyes, magnified, seen from the side" },
+      { "href": "/blog/how-to-get-rid-of-gnats", "name": "Phorid fly", "photo": "phorid-fly", "note": "About 1/8 inch with a humped back; can breed in wet potting soil", "alt": "Small tan phorid fly with a humped back, magnified, on pale fruit flesh" },
+      { "href": "/learn/aphid-control-guide", "name": "Aphid", "photo": "potato-aphid", "note": "Pear-shaped, 1/16 to 1/8 inch, legs and antennae visible; clusters on new growth", "alt": "Magnified side view of a green potato aphid with long legs and antennae on a hairy leaf" },
+      { "href": "/blog/spider-mites", "name": "Spider mite", "photo": "twospotted-spider-mite", "note": "About 1/50 inch; leaves stippled with light dots, then fine webbing", "alt": "Red form female twospotted spider mite with long bristles on a bean leaf" },
+      { "href": "/blog/red-ticks-and-clover-mites", "name": "Clover mite", "photo": "clover-mite", "note": "Reddish, about 1/32 inch, on sunny windowsills; does not reproduce indoors", "alt": "Reddish-brown clover mite with long, thin legs on a pale surface, seen under a microscope" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know which bug it is?" },
+    { "type": "p", "text": "Move the plant away from the others and start with the gentlest fix. UMN says many indoor plant pests can be managed without chemicals when the infestation is minor: wipe the leaves with a damp paper towel, rinse the plant in a sink or shower, pick off or scrape what you can, prune the worst parts, and repot in fresh potting soil for pests in the soil. A heavily infested, badly damaged plant is better thrown out, UMN says, so the pest does not spread." },
+    { "type": "ul", "items": [
+      "**Fungus gnats and springtails.** Dry the soil surface between waterings. UMN lists *Bacillus thuringiensis* subspecies *israelensis* (Bti), applied to the soil, for gnat larvae but not adults, and says no pesticides treat springtails.",
+      "**Mealybugs.** Dab them with a cotton swab dipped in rubbing alcohol, 70% or weaker, tested on a small part of the plant a day or two ahead (UC IPM), and consider discarding a badly infested plant rather than treating it again and again.",
+      "**Scale insects.** Scrape off small numbers; UMN lists horticultural oils, insecticidal soap, pyrethrins and imidacloprid.",
+      "**Aphids, whiteflies and thrips.** Wash them off; UMN lists insecticidal soap, neem oil, plant oil extracts and pyrethrins, and UC IPM says thrips sprays must cover buds and shoot tips and be repeated.",
+      "**Spider mites.** Mist the leaf undersides with water at least once a day while infested (UC IPM); UMN lists insecticidal soap and plant oil extracts, and Clemson says control often takes weekly sprays for several weeks.",
+      "**Cyclamen mites.** Throw the plant away (UMN)."
+    ] },
+    { "type": "p", "text": "If you use a pesticide, pick one whose label lists your plant, and follow the label exactly: the label is the law. Of the active ingredients UMN lists for indoor plants, pyrethrins and insecticidal soap (potassium fatty acids) kill only the insects the spray hits; plant oils smother insects; neem oil lasts days to weeks; and imidacloprid, a systemic, lasts months but is toxic to bees, so UMN says to keep it off bee-attractive plants that summer outdoors." },
+    { "type": "callout", "tone": "warning", "title": "Insecticidal soap is not dish soap", "text": "UMN warns that homemade soap sprays can burn plants, and Clemson's soap fact sheet says homemade mixes carry a substantially increased risk of injury. Even true insecticidal soap harms some houseplants: Clemson says not to use it on ornamental ivy, maidenhair fern, dieffenbachia, schefflera, crown of thorns, chrysanthemum, Easter lilies in bud, Asiatic or oriental lilies, jade plant, begonia, fuchsia, zebra plant, impatiens or certain palms. On other plants, test a few leaves first, since injury can take 48 hours or more to show, and water the plant a day or two before spraying (UMN)." },
+
+    { "type": "h2", "text": "How do bugs get on indoor plants, and how do you keep them off?" },
+    { "type": "p", "text": "Most ride in on a plant. [Clemson's Home and Garden Information Center](https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/) says houseplant pests usually arrive on newly bought plants or on plants that spent the summer outdoors, so check the leaves, stems and pot before a plant comes inside, and the outside of the root ball of one that summered outdoors, where Clemson says most soil pests are found. Then keep the newcomer apart: one to two weeks, UMN suggests, or six weeks with weekly checks, as Clemson recommends." },
+    { "type": "ul", "items": [
+      "**Use new, sterile potting soil and a clean pot,** never garden soil or soil from an open bag left outside (UMN).",
+      "**Water to the plant's needs.** Overwatering and poor drainage encourage fungus gnats, UMN says; do not let pots stand in water.",
+      "**Check whenever you water.** Springtails and fungus gnats move when the soil is watered, and yellow or blue sticky cards detect whiteflies, fungus gnats, winged aphids and thrips (UMN).",
+      "**Give the plant the right conditions.** UMN says plants struggling with too little light, the wrong watering or the wrong temperature cannot fight off pests."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Press the bug onto clear tape or seal it in a small jar, photograph it beside a ruler marked in inches, and photograph the damaged leaves too. Note where on the plant you found it. Your state's cooperative extension office can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Is it normal to have tiny bugs in houseplants?",
+      "answer": "A few springtails or fungus gnats in moist potting soil are common, and University of Minnesota Extension calls both mostly a nuisance that rarely, if ever, damages indoor plants. Clemson says springtails usually signal overwatering, and UMN links fungus gnats to overwatering, poor drainage and peat-rich mixes, so letting the surface of the soil dry between waterings is the first fix UMN recommends. Bugs on the leaves or stems are different: mealybugs, scale, aphids, whiteflies, thrips and spider mites feed on the plant, so move it away from your other plants and identify the pest."
+    },
+    {
+      "question": "How do you get rid of bugs on indoor plants?",
+      "answer": "Identify the bug first, then start gentle. University of Minnesota Extension says many indoor plant pests can be managed without chemicals when the infestation is minor: isolate the plant, wipe the leaves with a damp paper towel, rinse small plants in a sink and large ones in a shower, pick or scrape off what you can, prune the worst parts and repot in fresh potting soil for pests that live in the soil. UMN says a heavily infested, badly damaged plant is better thrown out. If you spray, use a product whose label lists your plant, and follow the label."
+    },
+    {
+      "question": "What can I spray on my indoor plants to keep bugs away?",
+      "answer": "Most houseplant sprays kill the pests they touch rather than keeping new ones away. University of Minnesota Extension says insecticidal soap and pyrethrins have no residual activity, so they kill only insects they hit directly, and plant oils work only where the spray covers the insects. Neem oil lasts days to weeks. Imidacloprid, a systemic, lasts months, but UMN warns it is toxic to bees and should not be used on bee-attractive plants that go outside for the summer. To keep bugs out, UMN advises inspecting new plants, isolating them for one to two weeks, using fresh potting soil and avoiding overwatering."
+    },
+    {
+      "question": "Can you use dish soap on plants for bugs?",
+      "answer": "Extension sources advise against it. University of Minnesota Extension says insecticidal soap is sold specifically as an insecticide and warns not to mix homemade soap products, because they can burn plants, and Clemson Extension says homemade soap mixes carry a substantially increased risk of plant injury. Even commercial insecticidal soap injures some houseplants: Clemson says not to use it on ornamental ivy, maidenhair fern, dieffenbachia, schefflera, jade plant, certain palms and several others. On other plants, test it on a few leaves and wait at least 48 hours, as Clemson advises, before you spray the whole plant."
+    },
+    {
+      "question": "What are the white mites on my plant?",
+      "answer": "Often they are not mites. White, cottony specks in the leaf joints and along the veins are usually the wax of mealybugs, which are insects; tiny white insects that fly up when the plant is moved are whiteflies; and white or gray specks that jump in the soil are springtails. The mites University of Minnesota Extension names as houseplant pests are spider mites, which it describes as yellowish or greenish and about 1/50 inch long, and cyclamen mites, which are semi-transparent and too small to see without high magnification. Spider mites do leave whitish cast skins and fine webbing on the leaves."
+    },
+    {
+      "question": "What do plant mites look like?",
+      "answer": "Spider mites are tiny oval specks about 1/50 inch long, yellowish or greenish according to University of Minnesota Extension, with eight legs and two red eyespots according to UC IPM; females usually have a large dark blotch on each side. Clemson says the damage is usually noticed first: fine, light speckling on the leaves, then a silky web as numbers grow. Tap a leaf over white paper and watch for specks that walk. Cyclamen mites are semi-transparent and too small to see, so stunted, brittle, hairy new leaves are the sign."
+    },
+    {
+      "question": "Can humans get mites from plants?",
+      "answer": "The mites that damage houseplants feed on plants. Cornell's integrated pest management program describes spider mites as mites that feed on plants indoors and outdoors, and UC IPM says they damage plants by sucking the contents of leaf cells. The mites Cornell lists as biting people are others, such as bird and rodent mites and straw itch mites. Clover mites, which sometimes crowd sunny windowsills, do not attack people, Penn State says. University of Minnesota Extension does advise washing your hands and tools after handling an infested plant, so you do not carry mites to other plants. See a healthcare provider about any bites or rash that worry you."
+    },
+    {
+      "question": "What are the tiny white bugs in my houseplant soil?",
+      "answer": "Three things are possible. Springtails are slender white or gray insects about 1/16 inch long that jump when disturbed and are easiest to see right after watering, according to University of Minnesota Extension, which says they rarely, if ever, damage plants. Fungus gnat larvae are legless and whitish to clear, with a shiny black head. Ground mealybugs, which UC IPM says live in the soil and feed on roots, mostly in potted plants such as African violets, are generally not seen until a plant is lifted from its pot and its roots are exposed."
+    },
+    {
+      "question": "What kills gnats in houseplants instantly?",
+      "answer": "Nothing ends a fungus gnat problem instantly, because new adults keep coming from larvae in the soil. UC IPM says a generation can be produced in about 17 days, depending on temperature, and University of Minnesota Extension says yellow sticky cards catch only some adults and should not be the only method. Bti, a bacterium applied to the soil, kills larvae but not adults, and UC IPM says it does not persist indoors, so potting mix may need treating about every five days. Letting the top of the soil dry between waterings, which both sources advise, makes the pot less welcoming."
+    },
+    {
+      "question": "How long should you quarantine a new houseplant?",
+      "answer": "Sources differ. University of Minnesota Extension suggests isolating newly acquired plants for one to two weeks so any pest problem has time to show, while Clemson Extension recommends six weeks, checking the plant about once a week; UMN says to look at both sides of the leaves. Clemson says most houseplant pests arrive on newly bought plants or on plants that spent the summer outdoors, so the same applies to plants coming back inside in the fall. Inspect the leaves, stems, pot and soil before the plant joins the others."
+    }
+  ],
+  "sources": [
+    { "title": "Managing insects on indoor plants", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants" },
+    { "title": "Common Houseplant Insects & Related Pests (HGIC 2252)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/" },
+    { "title": "Insecticidal Soaps for Garden Pest Control (HGIC 2771)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/insecticidal-soaps-for-garden-pest-control/" },
+    { "title": "Mealybugs (Pest Notes, Publication 74174)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/mealybugs/" },
+    { "title": "Spider Mites (Pest Notes, Publication 7405)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/" },
+    { "title": "Thrips (Pest Notes, Publication 7429)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/thrips/" },
+    { "title": "Fungus Gnats (Pest Notes, Publication 7448)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" },
+    { "title": "Indoor Flies and Their Control", "publisher": "Texas A&M AgriLife Extension", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Clover Mites", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/clover-mites" },
+    { "title": "Mites", "publisher": "Cornell University, New York State Integrated Pest Management", "url": "https://cals.cornell.edu/new-york-state-integrated-pest-management/outreach-education/whats-bugging-you/mites" }
+  ]
+}

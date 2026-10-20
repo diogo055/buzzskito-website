@@ -1,0 +1,15 @@
+{
+ "id": "houseplant-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b38a3ba2c040ee52700f891f03086e77388ada548b6a1f94ab31290d165c4a30",
+ "claimsChecked": 240,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

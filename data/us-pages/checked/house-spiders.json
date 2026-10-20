@@ -2,7 +2,7 @@
  "id": "house-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7ed95ff4fa4a49c7abf32738176ea6e15bd30464ec59e04cd5516839d300463a",
+ "sha": "913f91b2492543e093d7de209e403a764d31900b5f74ec96a73d8c5b5f121bee",
  "claimsChecked": 390,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 7,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the bold jumper paragraph linking the new black spiders guide (/blog/black-spiders); no fact changed.",
+   "previousSha": "7ed95ff4fa4a49c7abf32738176ea6e15bd30464ec59e04cd5516839d300463a"
+  }
+ ]
 }
