@@ -7,6 +7,7 @@ import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -102,6 +103,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PetraTools cordless ULV cold fogger" search="petratools ulv cordless fogger" label="Best all-round pick" />
+      <TopBox tag={AMZ_TAG} name="PetraTools cordless ULV cold fogger" search="petratools ulv cordless fogger" label="Best all-round pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

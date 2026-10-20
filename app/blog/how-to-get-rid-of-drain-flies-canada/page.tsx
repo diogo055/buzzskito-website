@@ -8,6 +8,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -108,6 +109,7 @@ export default function DrainFliesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flexible drain brush set — the tool that removes the biofilm" search="flexible drain cleaning brush set long" label="The thing that actually works" />
+      <TopBox tag={AMZ_TAG} name="Flexible drain brush set — the tool that removes the biofilm" search="flexible drain cleaning brush set long" label="The thing that actually works" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

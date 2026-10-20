@@ -7,6 +7,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -92,6 +93,8 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="Thermacell E90 (rechargeable)" search="thermacell e90 rechargeable" label="Better than torches" disclosure />
 
       <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">

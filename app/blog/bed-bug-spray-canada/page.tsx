@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -121,6 +122,7 @@ export default function BedBugSprayCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Sleep Tight bed bug spray" asin="B0D2PFS1WZ" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
+      <TopBox tag={AMZ_TAG} name="Doktor Doom Sleep Tight bed bug spray" asin="B0D2PFS1WZ" search="doktor doom sleep tight bed bug spray" label="Best PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

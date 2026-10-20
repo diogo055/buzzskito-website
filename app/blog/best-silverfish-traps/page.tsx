@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -104,6 +105,7 @@ export default function BestSilverfishTrapsCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flat insect glue board traps (multi-pack)" search="insect glue board traps multi pack silverfish" label="Best overall trap" />
+      <TopBox tag={AMZ_TAG} name="Flat insect glue board traps (multi-pack)" search="insect glue board traps multi pack silverfish" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -87,6 +88,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
+      <TopBox tag={AMZ_TAG} name="Katchy Indoor Insect Trap (UV + fan + glue board)" search="katchy indoor insect trap uv fan" label="Best overall indoor" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">

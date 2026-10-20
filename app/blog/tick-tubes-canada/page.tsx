@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -94,6 +95,7 @@ export default function TickTubesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell Tick Control Tubes" search="thermacell tick control tubes 12 pack" label="Top tick tube pick" />
+      <TopBox tag={AMZ_TAG} name="Thermacell Tick Control Tubes" search="thermacell tick control tubes 12 pack" label="Top tick tube pick" />
 
       <section className="bg-white pt-8 px-4">
         <div className="max-w-4xl mx-auto">

@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -96,6 +97,7 @@ export default function BestCommercialSteamCleanerCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Continuous-fill commercial steam cleaner" search="dupray hill injection commercial steam cleaner" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Continuous-fill commercial steam cleaner" search="dupray hill injection commercial steam cleaner" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

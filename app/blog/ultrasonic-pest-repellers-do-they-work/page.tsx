@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -94,6 +95,8 @@ export default function UltrasonicPestRepellersPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="Victor M250S electronic mouse trap" search="victor electronic mouse trap" label="What to buy instead" disclosure />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

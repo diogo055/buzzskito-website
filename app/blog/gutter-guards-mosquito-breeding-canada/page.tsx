@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -144,6 +145,7 @@ export default function GutterGuardsMosquitoBreedingPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Aluminium micro-mesh gutter guard" search="aluminum micro mesh gutter guard 200 ft" label="The style that works" />
+      <TopBox tag={AMZ_TAG} name="Aluminium micro-mesh gutter guard" search="aluminum micro mesh gutter guard 200 ft" label="The style that works" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">

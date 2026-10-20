@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -94,6 +95,7 @@ export default function FlowtronBugZapperCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="Best zapper pick" />
+      <TopBox tag={AMZ_TAG} name="Flowtron BK-40D Electronic Insect Killer" search="flowtron bk-40d bug zapper" label="Best zapper pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

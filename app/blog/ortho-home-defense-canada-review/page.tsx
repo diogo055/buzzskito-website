@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -83,6 +84,7 @@ export default function OrthoHomeDefenseCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Ortho Bug B Gon ECO (Canadian perimeter insect control)" search="ortho bug b gon eco" label="Best legal Canadian pick" />
+      <TopBox tag={AMZ_TAG} name="Ortho Bug B Gon ECO (Canadian perimeter insect control)" search="ortho bug b gon eco" label="Best legal Canadian pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

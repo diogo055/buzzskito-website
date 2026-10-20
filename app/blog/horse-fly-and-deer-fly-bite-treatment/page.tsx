@@ -4,6 +4,7 @@ import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import Figure from '@/components/Figure'
@@ -86,6 +87,8 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="Hydrocortisone 1% Anti-Itch Cream" search="hydrocortisone anti itch cream" asin="B0GBY8KXFY" label="For bite relief" disclosure />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">

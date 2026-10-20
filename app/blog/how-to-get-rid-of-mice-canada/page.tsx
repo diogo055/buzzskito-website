@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -113,6 +114,8 @@ export default function HowToGetRidOfMiceCanadaPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="Victor M325 Wood Snap Trap" search="victor mouse trap 4 pack" label="Best trap" disclosure />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -161,6 +162,7 @@ export default function RainBarrelMosquitoProofPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Screened barrel + downspout diverter" search="downspout rain barrel diverter kit" label="The core fix" />
+      <TopBox tag={AMZ_TAG} name="Screened barrel + downspout diverter" search="downspout rain barrel diverter kit" label="The core fix" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">

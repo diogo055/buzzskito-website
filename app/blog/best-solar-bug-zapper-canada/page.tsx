@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -95,6 +96,7 @@ export default function BestSolarBugZapperCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="4,500V dual-charge solar bug zapper (solar + USB-C)" search="solar bug zapper outdoor 4500V USB-C" label="Best all-round pick" />
+      <TopBox tag={AMZ_TAG} name="4,500V dual-charge solar bug zapper (solar + USB-C)" search="solar bug zapper outdoor 4500V USB-C" label="Best all-round pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

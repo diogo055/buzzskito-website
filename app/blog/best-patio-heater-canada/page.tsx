@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -87,6 +88,7 @@ export default function BestPatioHeaterCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="48,000 BTU Propane Tower Patio Heater" search="propane patio heater 48000 btu tower" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="48,000 BTU Propane Tower Patio Heater" search="propane patio heater 48000 btu tower" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

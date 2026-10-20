@@ -6,6 +6,7 @@ import AmazonLink from '@/components/AmazonLink'
 import TopPick from '@/components/TopPick'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -96,6 +97,7 @@ export default function ThermacellE90CanadaReviewPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Thermacell E90 Rechargeable Mosquito Repeller" search="thermacell e90 rechargeable" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

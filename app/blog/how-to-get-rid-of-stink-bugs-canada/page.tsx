@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -111,6 +112,7 @@ export default function HowToGetRidOfStinkBugsCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Exterior silicone caulk + sealant gun (the seal-out kit)" search="exterior silicone caulk sealant gun kit" label="The only permanent fix" />
+      <TopBox tag={AMZ_TAG} name="Exterior silicone caulk + sealant gun (the seal-out kit)" search="exterior silicone caulk sealant gun kit" label="The only permanent fix" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

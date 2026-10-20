@@ -8,6 +8,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -101,6 +102,8 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="ClimbUp Insect Interceptor" search="climbup bed bug interceptor" label="Top pick" disclosure />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

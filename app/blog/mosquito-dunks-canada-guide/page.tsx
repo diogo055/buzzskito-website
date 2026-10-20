@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -265,6 +266,7 @@ export default function MosquitoDunksPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" asin="B005UTKT0W" search="summit mosquito dunks" label="Best for standing water" />
+      <TopBox tag={AMZ_TAG} name="Summit Mosquito Dunks (6-pack)" asin="B005UTKT0W" search="summit mosquito dunks" label="Best for standing water" />
 
       <div className="max-w-4xl mx-auto px-4 -mt-6 sm:-mt-8 relative z-10">
       </div>

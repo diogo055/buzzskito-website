@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
@@ -103,6 +104,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Black Flag 190107 Electric Insect Fogger" search="black flag electric fogger" label="Best-selling backyard fogger" />
+      <TopBox tag={AMZ_TAG} name="Black Flag 190107 Electric Insect Fogger" search="black flag electric fogger" label="Best-selling backyard fogger" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -6,6 +6,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -104,6 +105,8 @@ export default function MosquitoBiteTreatmentReliefPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="1% Hydrocortisone Anti-Itch Cream" search="hydrocortisone anti itch cream" label="Best for the itch" disclosure />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4 pt-8">

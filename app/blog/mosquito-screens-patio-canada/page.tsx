@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -81,6 +82,7 @@ export default function MosquitoScreensPatioCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Pop-Up Screen House (screened gazebo)" search="pop up screen house gazebo" label="Best for open patios" />
+      <TopBox tag={AMZ_TAG} name="Pop-Up Screen House (screened gazebo)" search="pop up screen house gazebo" label="Best for open patios" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

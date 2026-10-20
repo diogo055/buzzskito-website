@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -86,6 +87,7 @@ export default function TickRemovalToolGuidePage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="otom tick twister" label="Best overall tool" />
+      <TopBox tag={AMZ_TAG} name="Tick Twister / O’Tom Tick Twister removal tool" asin="B0D4DTM25H" search="otom tick twister" label="Best overall tool" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">

@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -91,6 +92,7 @@ export default function PatioMistingSystemCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="HOMENOTE Misting Kit with 5 Brass Nozzles" search="homenote misting kit brass nozzles" label="Best small-patio kit" />
+      <TopBox tag={AMZ_TAG} name="HOMENOTE Misting Kit with 5 Brass Nozzles" search="homenote misting kit brass nozzles" label="Best small-patio kit" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

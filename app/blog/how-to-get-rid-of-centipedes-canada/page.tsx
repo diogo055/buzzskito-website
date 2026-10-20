@@ -9,6 +9,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -121,6 +122,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Energy Star basement dehumidifier (50-pint class)" search="50 pint dehumidifier basement energy star" label="The actual fix" />
+      <TopBox tag={AMZ_TAG} name="Energy Star basement dehumidifier (50-pint class)" search="50 pint dehumidifier basement energy star" label="The actual fix" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -176,6 +177,7 @@ export default function PermethrinCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Legal ready-to-wear option" />
+      <TopBox tag={AMZ_TAG} name="Permethrin-treated clothing (Insect Shield)" search="insect shield permethrin treated clothing" label="Legal ready-to-wear option" />
 
       {/* ANSWER CAPSULE */}
       <section className="bg-white px-4">

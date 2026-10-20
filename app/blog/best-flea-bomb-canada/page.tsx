@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -106,6 +107,7 @@ export default function BestFleaBombCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Pet-hair vacuum with a beater bar and sealed filtration" search="upright vacuum pet hair carpet sealed hepa" label="The buy that always helps" />
+      <TopBox tag={AMZ_TAG} name="Pet-hair vacuum with a beater bar and sealed filtration" search="upright vacuum pet hair carpet sealed hepa" label="The buy that always helps" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -5,6 +5,7 @@ import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import Photo from '@/components/Photo'
@@ -108,6 +109,7 @@ export default function MouseBaitStationCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Tomcat Mouse Killer disposable bait station (bromethalin)" search="tomcat mouse killer disposable bait station" label="PMRA-legal pick" />
+      <TopBox tag={AMZ_TAG} name="Tomcat Mouse Killer disposable bait station (bromethalin)" search="tomcat mouse killer disposable bait station" label="PMRA-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

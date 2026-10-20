@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -109,6 +110,7 @@ export default function BedBugHeaterCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" asin="B00JU5G1PY" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="ZappBug Oven 2 heat chamber" search="zappbug oven 2 bed bug heater" asin="B00JU5G1PY" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

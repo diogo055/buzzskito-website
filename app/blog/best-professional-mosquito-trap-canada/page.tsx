@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
@@ -103,6 +104,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />
+      <TopBox tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

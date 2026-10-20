@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -105,6 +106,7 @@ export default function GoodnatureA24ReviewCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Goodnature A24 self-resetting rat & mouse trap" search="goodnature a24 automatic rat trap" label="Poison-free auto-reset" />
+      <TopBox tag={AMZ_TAG} name="Goodnature A24 self-resetting rat & mouse trap" search="goodnature a24 automatic rat trap" label="Poison-free auto-reset" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

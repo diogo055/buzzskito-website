@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -106,6 +107,7 @@ export default function BestMagneticScreenDoorCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Heavy-duty magnetic screen door with a full magnet line" search="magnetic screen door heavy duty mesh" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Heavy-duty magnetic screen door with a full magnet line" search="magnetic screen door heavy duty mesh" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

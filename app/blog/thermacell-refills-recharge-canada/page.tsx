@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import TopPick from '@/components/TopPick'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -88,6 +89,7 @@ export default function ThermacellRefillsRechargeCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Thermacell E-Series Refill Cartridge (E55/E90)" search="thermacell e-series refill" label="Most-bought refill" />
+      <TopBox tag={AMZ_TAG} name="Thermacell E-Series Refill Cartridge (E55/E90)" search="thermacell e-series refill" label="Most-bought refill" />
 
       {/* Quick Answer — AI-extraction block */}
       <section className="bg-white px-4">

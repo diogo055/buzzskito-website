@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -107,6 +108,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Hanging wooden carpenter bee trap" search="carpenter bee trap wooden hanging" label="Best supplement — paint is the fix" />
+      <TopBox tag={AMZ_TAG} name="Hanging wooden carpenter bee trap" search="carpenter bee trap wooden hanging" label="Best supplement — paint is the fix" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

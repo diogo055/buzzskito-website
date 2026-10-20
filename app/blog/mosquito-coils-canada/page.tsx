@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -82,6 +83,7 @@ export default function MosquitoCoilsCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PIC Mosquito Repellent Coils" search="pic mosquito coils" label="Best value coil" />
+      <TopBox tag={AMZ_TAG} name="PIC Mosquito Repellent Coils" search="pic mosquito coils" label="Best value coil" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">

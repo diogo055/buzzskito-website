@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -115,6 +116,7 @@ export default function BestScreenTentCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Clam Quick-Set Escape Hub Shelter" search="clam quick set escape screen shelter" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Clam Quick-Set Escape Hub Shelter" search="clam quick set escape screen shelter" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

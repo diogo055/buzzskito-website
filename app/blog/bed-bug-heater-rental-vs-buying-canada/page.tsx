@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -101,6 +102,7 @@ export default function BedBugHeaterRentalVsBuyingCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="High-temp probe thermometer — the cheapest item that decides everything" search="high temperature probe thermometer" label="Buy this either way" />
+      <TopBox tag={AMZ_TAG} name="High-temp probe thermometer — the cheapest item that decides everything" search="high temperature probe thermometer" label="Buy this either way" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

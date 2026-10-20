@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -98,6 +99,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="1/3 HP Cast Iron Submersible Sump Pump" search="1/3 hp cast iron submersible sump pump" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="1/3 HP Cast Iron Submersible Sump Pump" search="1/3 hp cast iron submersible sump pump" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

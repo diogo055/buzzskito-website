@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -89,6 +90,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Half-inch galvanised hardware cloth" search="galvanized hardware cloth 1/2 inch 36 inch roll" label="The permanent fix" />
+      <TopBox tag={AMZ_TAG} name="Half-inch galvanised hardware cloth" search="galvanized hardware cloth 1/2 inch 36 inch roll" label="The permanent fix" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

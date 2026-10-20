@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
@@ -99,6 +100,8 @@ export default function MosquitoSprayLastPage() {
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox tag={AMZ_TAG} name="Summit Mosquito Dunks (BTi larvicide)" search="summit mosquito dunks" label="For standing water" disclosure />
 
       <div className="max-w-3xl mx-auto px-4">
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">

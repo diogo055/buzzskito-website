@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -181,6 +182,7 @@ export default function DynaTrapCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />
+      <TopBox tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

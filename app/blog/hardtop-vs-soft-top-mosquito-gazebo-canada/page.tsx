@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -88,6 +89,7 @@ export default function HardtopVsSoftTopMosquitoGazeboCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Aluminium hardtop gazebo 10x12 with netting + curtain set" search="hardtop gazebo 10x12 aluminum with mosquito netting curtains" label="Best long-term buy" />
+      <TopBox tag={AMZ_TAG} name="Aluminium hardtop gazebo 10x12 with netting + curtain set" search="hardtop gazebo 10x12 aluminum with mosquito netting curtains" label="Best long-term buy" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

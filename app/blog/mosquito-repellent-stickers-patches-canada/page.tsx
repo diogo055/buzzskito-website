@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -84,6 +85,7 @@ export default function MosquitoRepellentStickersPatchesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="BuzzPatch / NATPAT DEET-free kids' repellent stickers" search="buzzpatch natpat mosquito stickers" label="Most popular for kids" />
+      <TopBox tag={AMZ_TAG} name="BuzzPatch / NATPAT DEET-free kids' repellent stickers" search="buzzpatch natpat mosquito stickers" label="Most popular for kids" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

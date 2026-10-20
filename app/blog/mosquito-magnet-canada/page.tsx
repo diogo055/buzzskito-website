@@ -6,6 +6,7 @@ import AmazonLink from '@/components/AmazonLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -148,6 +149,7 @@ export default function MosquitoMagnetCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" asin="B07QJY2NL1" search="mosquito magnet patriot plus" label="Best overall trap" />
+      <TopBox tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO₂ trap)" asin="B07QJY2NL1" search="mosquito magnet patriot plus" label="Best overall trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

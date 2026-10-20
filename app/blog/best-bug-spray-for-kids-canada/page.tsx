@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -83,6 +84,7 @@ export default function BestBugSprayForKidsCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Natrapel Icaridin 20% insect repellent" search="natrapel icaridin 20%" label="Best for kids" />
+      <TopBox tag={AMZ_TAG} name="Natrapel Icaridin 20% insect repellent" search="natrapel icaridin 20%" label="Best for kids" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

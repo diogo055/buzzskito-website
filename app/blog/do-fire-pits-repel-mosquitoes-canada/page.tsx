@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -91,6 +92,7 @@ export default function DoFirePitsRepelMosquitoesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="24-in Stainless Smokeless Fire Pit" search="smokeless fire pit stainless steel 24 inch" label="Best fire, honestly rated" />
+      <TopBox tag={AMZ_TAG} name="24-in Stainless Smokeless Fire Pit" search="smokeless fire pit stainless steel 24 inch" label="Best fire, honestly rated" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

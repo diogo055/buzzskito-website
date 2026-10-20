@@ -6,6 +6,7 @@ import TopPick from '@/components/TopPick'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -52,6 +53,8 @@ export default function PreventMosquitoesPage() {
           <div className="mt-4"><FreshnessStamp date={POST.date} tone="dark" /></div>
         </div>
       </section>
+
+      <TopBox name="Summit BTI Mosquito Dunks" search="summit mosquito dunks" label="For standing water" tag={AMZ_TAG} disclosure />
 
       {/* QUICK ANSWER */}
       <section className="bg-white px-4">

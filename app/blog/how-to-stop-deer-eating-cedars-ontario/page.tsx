@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -89,6 +90,7 @@ export default function HowToStopDeerEatingCedarsOntarioPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Natural burlap roll for winter hedge protection" search="burlap roll winter plant protection natural jute" label="The barrier that works" />
+      <TopBox tag={AMZ_TAG} name="Natural burlap roll for winter hedge protection" search="burlap roll winter plant protection natural jute" label="The barrier that works" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

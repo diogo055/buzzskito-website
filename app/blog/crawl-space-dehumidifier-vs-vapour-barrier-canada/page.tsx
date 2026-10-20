@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -89,6 +90,7 @@ export default function CrawlSpaceDehumidifierVsVapourBarrierCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Reinforced crawl space vapour barrier" search="reinforced crawl space vapor barrier 12 mil" label="Do this first" />
+      <TopBox tag={AMZ_TAG} name="Reinforced crawl space vapour barrier" search="reinforced crawl space vapor barrier 12 mil" label="Do this first" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

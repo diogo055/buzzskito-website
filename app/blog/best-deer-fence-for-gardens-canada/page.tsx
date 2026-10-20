@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -89,6 +90,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="7 ft UV-stabilised poly deer netting" search="7 ft deer fence netting 100 ft roll" label="Best deer fence" />
+      <TopBox tag={AMZ_TAG} name="7 ft UV-stabilised poly deer netting" search="7 ft deer fence netting 100 ft roll" label="Best deer fence" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

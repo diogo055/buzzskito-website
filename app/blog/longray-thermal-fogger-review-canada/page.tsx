@@ -5,6 +5,7 @@ import { PROMISES } from '@/lib/constants'
 import BuyLink from '@/components/BuyLink'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -104,6 +105,7 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Longray TS35A Pulse-Jet Thermal Fogger" search="longray ts35a thermal fogger" label="Flagship pulse-jet" />
+      <TopBox tag={AMZ_TAG} name="Longray TS35A Pulse-Jet Thermal Fogger" search="longray ts35a thermal fogger" label="Flagship pulse-jet" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

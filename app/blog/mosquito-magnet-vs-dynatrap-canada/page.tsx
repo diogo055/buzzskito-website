@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
@@ -102,6 +103,7 @@ export default function MosquitoMagnetVsDynatrapCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best for real mosquito reduction" />
+      <TopBox tag={AMZ_TAG} name="Mosquito Magnet (propane CO₂ trap)" search="mosquito magnet patriot plus" label="Best for real mosquito reduction" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

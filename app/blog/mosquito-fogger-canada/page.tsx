@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AmazonLink from '@/components/AmazonLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -85,6 +86,7 @@ export default function MosquitoFoggerCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Black Flag Propane Mosquito Fogger" search="black flag propane fogger" label="Best overall fogger" />
+      <TopBox tag={AMZ_TAG} name="Black Flag Propane Mosquito Fogger" search="black flag propane fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">

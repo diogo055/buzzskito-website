@@ -7,6 +7,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import Photo from '@/components/Photo'
@@ -124,6 +125,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour steamer — the genuinely instant tool" search="bed bug steamer dry vapour" label="Kills on contact" />
+      <TopBox tag={AMZ_TAG} name="Dry-vapour steamer — the genuinely instant tool" search="bed bug steamer dry vapour" label="Kills on contact" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

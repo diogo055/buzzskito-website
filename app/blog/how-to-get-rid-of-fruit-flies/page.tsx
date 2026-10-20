@@ -8,6 +8,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -108,6 +109,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="TERRO T2502 Fruit Fly Trap (2-pack)" search="terro fruit fly trap" label="Best ready-made trap" />
+      <TopBox tag={AMZ_TAG} name="TERRO T2502 Fruit Fly Trap (2-pack)" search="terro fruit fly trap" label="Best ready-made trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

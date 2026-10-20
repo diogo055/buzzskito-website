@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
@@ -105,6 +106,7 @@ export default function BestBedBugFoggerCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
+      <TopBox tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import AuthorByline from '@/components/AuthorByline'
@@ -104,6 +105,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
+      <TopBox tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

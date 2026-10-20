@@ -10,6 +10,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
@@ -99,6 +100,7 @@ export default function RatPoisonCanadaLegalPage() {
       </section>
 
       <AffiliateDisclosure />
+      <TopBox tag={AMZ_TAG} name="Heavy-duty rat snap trap" search="heavy duty rat snap trap" label="Traps first" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -6,6 +6,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -107,6 +108,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Quarter-inch galvanised hardware cloth (trunk guards)" search="hardware cloth 1 4 inch galvanized mesh" label="The buy that prevents real loss" />
+      <TopBox tag={AMZ_TAG} name="Quarter-inch galvanised hardware cloth (trunk guards)" search="hardware cloth 1 4 inch galvanized mesh" label="The buy that prevents real loss" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

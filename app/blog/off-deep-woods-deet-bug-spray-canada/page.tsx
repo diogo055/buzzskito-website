@@ -4,6 +4,7 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import BuyLink from '@/components/BuyLink'
 import AwardRow from '@/components/AwardRow'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -82,6 +83,7 @@ export default function OffDeepWoodsDeetPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="OFF Deep Woods (25% DEET insect repellent)" search="off deep woods" label="Best DEET pick" />
+      <TopBox tag={AMZ_TAG} name="OFF Deep Woods (25% DEET insect repellent)" search="off deep woods" label="Best DEET pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">

@@ -5,6 +5,7 @@ import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import StickyBuyBar from '@/components/StickyBuyBar'
+import TopBox from '@/components/TopBox'
 import AwardRow from '@/components/AwardRow'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
@@ -95,6 +96,7 @@ export default function MistingFanCanadaPage() {
 
       <AffiliateDisclosure />
       <StickyBuyBar tag={AMZ_TAG} name="Portable oscillating outdoor misting fan" search="portable oscillating misting fan outdoor" label="Best patio pick" />
+      <TopBox tag={AMZ_TAG} name="Portable oscillating outdoor misting fan" search="portable oscillating misting fan outdoor" label="Best patio pick" />
 
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
