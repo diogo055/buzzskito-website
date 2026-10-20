@@ -66,6 +66,9 @@ const ARTICLES_PHOTOS_OCT15 = new Set([
 const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/why-do-mosquito-bites-itch': '2026-10-16T12:00:00.000Z',
   '/blog/bugs-that-look-like-cockroaches': '2026-10-16T12:00:00.000Z',
+  '/blog/baby-bed-bugs-nymphs': '2026-10-20T12:00:00.000Z',
+  '/blog/bed-bug-bites-vs-mosquito-bites': '2026-10-20T12:00:00.000Z',
+  '/blog/bed-bug-bites': '2026-10-20T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

@@ -12,10 +12,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'baby-bed-bugs-nymphs'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-20'
 // This page is the LIFE-STAGE ID page: what a nymph looks like at each of the five
 // instars, what it is not (carpet beetle larva, booklouse, roach nymph), and the one
 // conclusion that matters — nymphs mean eggs were laid here. The inspection routine
@@ -90,6 +94,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-nymph'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -97,7 +102,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BabyBedBugsNymphsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to baby bed bugs: the five nymphal stages and their sizes and colours, the translucent-with-a-red-centre tell, how nymphs differ from eggs and shed skins, look-alikes including carpet beetle larvae, booklice and cockroach nymphs, why nymphs prove a breeding population, and the confirmation and containment kit that follows.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian identification guide to baby bed bugs: the five nymphal stages and their sizes and colours, the translucent-with-a-red-centre tell, how nymphs differ from eggs and shed skins, look-alikes including carpet beetle larvae, booklice and cockroach nymphs, why nymphs prove a breeding population, and the confirmation and containment kit that follows.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-nymph') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Baby Bed Bugs (Nymphs) in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -133,6 +138,23 @@ export default function BabyBedBugsNymphsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
+
+          <QuickIdTable
+            title="Baby bed bug or something else? Quick ID"
+            head={['What you found', 'How to recognize it', 'What it means']}
+            rows={[
+              ['Bed bug nymph, unfed', 'About 1 to 4.5 mm, depending on the stage; flat, oval, six legs, translucent to straw-coloured', 'It hatched here: bed bugs are breeding where you found it'],
+              ['Bed bug nymph, fed', 'The same flat oval with a bright red to dark red-brown centre: the blood meal showing through the body', 'The reliable tell for a bed bug nymph'],
+              ['Bed bug egg', 'About 1 mm, pearly white, shaped like a grain of rice, glued in place; it does not move', 'Eggs need heat, or a residual that is still there when they hatch'],
+              ['Shed skin', 'Hollow, papery and lighter, with the bug’s outline, often split along the back', 'A bug grew up here; skins outlast the bugs, so a skin alone does not prove current activity'],
+              ['Adult bed bug', 'About 4.5–5 mm, the size of an apple seed; reddish-brown and opaque', 'Can arrive as a hitchhiker; nymphs, eggs or skins show a breeding population'],
+              ['Carpet beetle larva', 'Elongated and visibly bristly, with hair tufts; inches along like a caterpillar', 'Not a bed bug and does not bite: vacuum and launder'],
+              ['Booklouse', 'Under 2 mm, pale, soft and fast; on damp paper, cardboard and window frames', 'Not a bed bug and does not bite: dry the room'],
+              ['Cockroach nymph', 'Fast, with a longer body and long antennae; in kitchens and bathrooms, not the bed', 'Not a bed bug: a different plan entirely'],
+              ['Bat bug', 'Nearly identical to a bed bug; told apart only under magnification, by longer body hairs', 'Look for a roost above the room and get the identification confirmed'],
+            ]}
+            caption={<>Restated from the stage table and the look-alike table further down this page, which rest on the <a href="https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" target="_blank" rel="noopener noreferrer" className="underline">EPA</a>, <a href="https://extension.psu.edu/biology-habitat-and-management-of-bed-bugs" target="_blank" rel="noopener noreferrer" className="underline">Penn State Extension</a> and <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7454.html" target="_blank" rel="noopener noreferrer" className="underline">UC IPM</a> fact sheets linked in the section on sizes in inches. Sizes vary with feeding: a fed bug is longer and fatter than the same bug unfed.</>}
+          />
 
           <div className="not-prose rounded-xl border-l-4 border-brand-500 bg-brand-50 p-5 mb-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">Where this page sits</p>
@@ -221,6 +243,11 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Sizes are the standard published ranges for <em>Cimex lectularius</em> and vary with feeding state &mdash; a fed nymph is visibly longer and fatter than the same insect an hour earlier. Use them as a scale, not a ruler.
           </p>
+          <Photo
+            id="bed-bug-nymph"
+            alt="Bed bug nymph on white fabric: a small, amber-coloured, flat oval insect with six legs, darker in the middle of its body"
+            caption="A bed bug nymph, Cimex lectularius, on fabric. Look for the flat, oval, six-legged outline and the see-through shell; after a meal, the blood shows through as a red to dark centre."
+          />
         </div>
       </section>
 
@@ -342,6 +369,15 @@ export default function BabyBedBugsNymphsCanadaPage() {
               <strong className="text-amber-900">⚠️ The one that costs people money:</strong> carpet beetle larvae. They are the most common bed bug misidentification, they shed skins that look like more larvae, and they turn up in bedrooms &mdash; so people buy a full bed bug arsenal for an insect that a vacuum and a laundry cycle would have handled. Before you spend anything, check the outline: bristly and caterpillar-shaped is not a bed bug, at any stage. If you are unsure, a public health unit or a university extension service will identify a photograph or a taped specimen for free.
             </p>
           </div>
+          <ConfusedWith
+            title="Often mistaken for a baby bed bug"
+            items={[
+              { href: '/blog/how-to-get-rid-of-carpet-beetles', name: 'Carpet beetle larva', photo: 'carpet-beetle-larva', note: 'Elongated and visibly bristly, with hair tufts; inches along like a caterpillar' },
+              { href: '/blog/booklice', name: 'Booklouse', photo: 'booklouse', note: 'Under 2 mm, pale, soft and fast; on damp paper and cardboard, and it does not bite' },
+              { href: '/blog/what-do-baby-cockroaches-look-like', name: 'Cockroach nymph', photo: 'german-cockroach-nymphs', note: 'Fast, with a longer body and long antennae; kitchens and bathrooms, not the bed' },
+              { href: '/blog/bat-bugs', name: 'Bat bug', photo: 'western-bat-bug', note: 'Nearly identical; told apart only under magnification, by its longer body hairs' },
+            ]}
+          />
         </div>
       </section>
 
@@ -407,6 +443,11 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <p>People searching for baby bed bugs usually have one of three things in front of them, and each one leads somewhere different.</p>
           <p><strong>An egg</strong> is about a millimetre, pearly white, shaped like a very small grain of rice, and glued down &mdash; often in a loose cluster wedged into a crack, a screw hole, or the underside of a seam. It does not move and it cannot be brushed off easily, which is the fastest test. Eggs are also the reason a treatment can look like it worked and then fail about a fortnight later: most consumer contact sprays do poorly against a cemented, shelled egg, so the surviving generation hatches into a room whose spray residue has already faded. That is the whole argument for heat, and it is covered properly in <Link href="/blog/how-to-kill-bed-bug-eggs-canada">how to kill bed bug eggs in Canada</Link>.</p>
           <p><strong>A shed skin</strong> is the most common evidence anyone finds, for a simple reason: five moults means five cast skins per insect, so the skins outnumber the bugs. It looks like a bed bug that has been emptied &mdash; correct outline, correct colour, but hollow, papery and slightly translucent, often split along the back where the insect climbed out. Skins persist far longer than the bugs, so a scatter of them can survive a treatment and does not by itself prove current activity. What it does prove is history: something grew up here.</p>
+          <Photo
+            id="bed-bug-cast-skin-fabric"
+            alt="Bed bug shed skin on white fabric: an amber, bug-shaped husk split open at the head end, with empty leg casings"
+            caption="The shed skin of a bed bug nymph, Cimex lectularius, on white fabric (France). Hollow and split where the bug climbed out, it keeps the outline of the nymph that left it."
+          />
           <p><strong>A nymph</strong> is the live insect: six legs, antennae, it moves when disturbed, and if it has fed recently, the red centre settles it. If you would rather not conduct the identification yourself, an <Link href="/blog/best-bed-bug-detector-canada">interceptor or detector</Link> under the bed legs will collect specimens for you overnight and hold them where you can photograph them.</p>
           <p>Everything else in the seam &mdash; the dark specks that are not insects &mdash; is fecal spotting, which smears rusty-brown when touched with a damp cotton bud because it is digested blood. It is the most reliable evidence of the four, and it does not require you to find anything alive.</p>
 
@@ -414,6 +455,11 @@ export default function BabyBedBugsNymphsCanadaPage() {
           <p>Nymphs are not merely smaller adults from a control standpoint. Three things make them the reason infestations survive a serious effort.</p>
           <p><strong>They fit where adults cannot.</strong> A one-millimetre insect gets into the hollow tube of a metal bed frame, the pilot hole of a screw, the gap under a baseboard, the fold inside a piece of piping. Sprays wet surfaces; they do not fill voids. This is the argument for a dust rather than more liquid, and for a steamer on the seams rather than a heavier hand with a can.</p>
           <p><strong>They are hard to see, which distorts your sense of progress.</strong> A room that produces no more adult sightings can still be running a full nymph population, and people declare victory at exactly the wrong moment &mdash; typically about ten days before the next generation matures. Interceptor cups fix this: they are cheap instrumentation that keeps counting after your eyes stop.</p>
+          <Photo
+            id="bed-bug-signs"
+            alt="Many bed bugs of different sizes, from pale yellow to dark reddish-brown, clustered on dark fabric among dark specks"
+            caption="Bed bugs, Cimex lectularius, in an infestation, on fabric. Look for the smallest, palest bugs: a newly hatched nymph is translucent and about a millimetre long."
+          />
           <p><strong>They are on a clock you do not control.</strong> Because each moult waits on a blood meal, development speed is set by feeding opportunity and temperature. A warm, slept-in bedroom runs the sequence quickly. A cool spare room, a basement bedroom, or a bed nobody has used since a guest visit runs it slowly &mdash; and stalled nymphs stay alive and hungry rather than dying off. This is precisely why sleeping in the living room to &ldquo;starve them out&rdquo; backfires so reliably: it does not starve the population out of the bedroom, and it introduces it to the couch. Stay in the bed, isolate it properly, and let the interceptors do the counting.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Check interceptor cup sets on Amazon.ca &rarr;</BuyLink>
@@ -466,6 +512,11 @@ export default function BabyBedBugsNymphsCanadaPage() {
             <li><strong>5th stage:</strong> 4.5 mm, about 0.18 inch (just under 3/16).</li>
           </ul>
           <p><a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7454.html" target="_blank" rel="noopener noreferrer">University of California IPM</a> gives the whole nymph range as 1/20 to 1/5 inch, and <a href="https://u.osu.edu/bedbugs/faq/" target="_blank" rel="noopener noreferrer">Ohio State University</a> likens nymphs to sesame seeds and notes that a bed bug gets longer and fatter once it has fed, so a recently fed bug looks bigger than an unfed one at the same stage.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Adult bed bug seen from above beside a millimetre ruler: a flat, oval, reddish-brown insect about 5 mm long"
+            caption="An unfed adult bed bug, Cimex lectularius, beside a millimetre ruler, for scale. The CDC gives about 5 mm as the average adult length; a fifth-stage nymph, at about 4.5 mm, comes close to it."
+          />
           <p>On look-alikes, Penn State lists ticks, fleas, cockroaches and carpet beetles among the insects bed bugs are mistaken for, and the <a href="https://npic.orst.edu/pest/bedbug/index.html" target="_blank" rel="noopener noreferrer">National Pesticide Information Center</a> (NPIC) adds bat bugs. Three details from extension fact sheets go beyond the outline test above:</p>
           <ul>
             <li><strong>Bristly shed skins point to carpet beetles.</strong> <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7436.html" target="_blank" rel="noopener noreferrer">UC IPM&rsquo;s carpet beetle notes</a> say the larvae leave brown, shell-like, bristly looking cast skins when they molt.</li>

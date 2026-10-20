@@ -12,10 +12,12 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import ConfusedWith from '@/components/ConfusedWith'
+import Photo from '@/components/Photo'
 
 const SLUG = 'bed-bug-bites-vs-mosquito-bites'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-20'
 // This is the DECISION page: two suspects, five tells, and a branch at the end —
 // bed bug evidence hunt vs yard work. The deep bed-bug-bite page (/blog/bed-bug-bites)
 // owns "what do bed bug bites look like"; this page owns the comparison and the
@@ -373,7 +375,17 @@ export default function BedBugBitesVsMosquitoBitesPage() {
           <NextUp path="/blog/bed-bug-bites-vs-mosquito-bites" />
           <h2>Tell 1 — The Pattern on Your Skin</h2>
           <p>The best-known separator is the arrangement. Bed bug bites frequently appear in a rough line or a tight zigzag cluster of three to five welts on one patch of skin &mdash; the pattern sometimes nicknamed &ldquo;breakfast, lunch, dinner&rdquo;. The mechanism is worth knowing, because it explains the exceptions: a feeding bed bug is easily disturbed by a sleeper shifting, and it will withdraw and probe again a short distance away, so a single insect can leave several marks in one night. The line also tends to trace an edge &mdash; the hem of a sleeve, the line where the duvet fell, a waistband &mdash; because that is where accessible skin ended.</p>
+          <Photo
+            id="bed-bug-bites-forearm"
+            alt="Several raised red welts of different sizes on a forearm resting on a white sheet"
+            caption="Bed bug bites on a forearm. Several welts grouped on one stretch of skin lean bed bug; as Tell 5 explains, only evidence in the room confirms it."
+          />
           <p>Mosquito bites have no geometry. A mosquito bites, is noticed or is not, and flies off; the next one lands somewhere unrelated. You get scattered singles on whatever was uncovered.</p>
+          <Photo
+            id="mosquito-bite-welts"
+            alt="Two faint, raised pinkish welts on the skin of a leg, well apart from each other"
+            caption="Two mosquito bite welts on a leg; the photographer believed they came from Aedes mosquitoes indoors. Separate single welts, with no line or cluster, are the mosquito pattern."
+          />
           <p>Trust this signal moderately. A line is a strong reason to inspect your bed. Its absence is not an all-clear: single, scattered bed bug bites are entirely normal, especially early in an infestation when there are few insects.</p>
           <p>There is one other biter that produces clustered welts tracing a clothing edge, and it is worth naming here because it is the thing most often mistaken for the bed bug pattern by travellers: chigger larvae bite where fabric presses tight against skin &mdash; sock line, waistband, behind the knees &mdash; a few hours after time in tall grass or brush. Two things separate them from a bed bug: the outing came first, and one exposure produces one crop of welts that then stops, whereas bed bug bites keep arriving night after night. If you were bitten in the US South or Midwest rather than at home, our guide to <Link href="/blog/chigger-bites">chigger bites and their look-alikes</Link> covers the distribution and the flea comparison &mdash; in most of Canada, established chigger populations are rare enough that another biter is usually the real answer.</p>
 
@@ -400,11 +412,26 @@ export default function BedBugBitesVsMosquitoBitesPage() {
             <li><strong>Eggs.</strong> About a millimetre, pearly white, rice-shaped, cemented into cracks and seams in small clusters. They do not brush away.</li>
             <li><strong>Live bugs.</strong> Adults are apple-seed sized and reddish-brown. The immature stages are much easier to miss &mdash; translucent and around a millimetre when newly hatched, showing a dark red centre once fed. Our guide to <Link href="/blog/baby-bed-bugs-nymphs">baby bed bugs and nymphs</Link> covers the size-by-stage chart and the look-alikes, because carpet beetle larvae send a lot of people down the wrong road.</li>
           </ul>
+          <Photo
+            id="bed-bug-signs"
+            alt="Many bed bugs of different sizes, from pale yellow to dark reddish-brown, clustered on dark fabric among dark specks"
+            caption="Bed bugs, Cimex lectularius, in an infestation, on fabric. Evidence like this settles the question in a way no photo of a bite can."
+          />
           <p>Search with a bright, narrow-beam flashlight held almost flat against the fabric &mdash; the low angle throws shadows and makes a millimetre-long insect visible when a ceiling light will not. Work the seam, then the piping, then the tag, then the box spring corners, then the frame joints and screw holes, then behind the headboard, then the baseboard behind the bed. The full routine is in <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs in Canada</Link>.</p>
           <p>And if you would rather not conduct a search at all, the low-effort version genuinely works: put interceptor cups under all four bed legs, pull the bed a few centimetres off the wall, keep the bedding from touching the floor, and read the cups each morning for a fortnight. The insects do the reporting for you.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Check interceptor cup sets on Amazon.ca &rarr;</BuyLink>
           </div>
+
+          <ConfusedWith
+            title="Also mistaken for bed bug or mosquito bites"
+            items={[
+              { href: '/blog/flea-bites-on-humans', name: 'Flea bites', photo: 'flea-bites-lower-leg', note: 'Small red bumps with a lighter halo, low on the ankles and lower legs, itchy within minutes' },
+              { href: '/blog/chigger-bites', name: 'Chigger bites', photo: 'chigger-bites-ruler', note: 'Welts where clothing presses tight, like the sock line, hours after tall grass or brush' },
+              { href: '/blog/no-see-um-bites', name: 'No-see-um bites', photo: 'biting-midge-bites-ankles', note: 'A sharp, burning pinprick that swells into itchy welts, often in clusters on exposed skin' },
+              { href: '/blog/tick-bite-vs-mosquito-bite', name: 'Tick', photo: 'blacklegged-tick-nymph-fingernail', note: 'Usually painless, and the tick stays attached to the skin instead of flying off' },
+            ]}
+          />
 
           <RelatedLinks path="/blog/bed-bug-bites-vs-mosquito-bites" />
           <h2>If the Answer Is Bed Bugs</h2>

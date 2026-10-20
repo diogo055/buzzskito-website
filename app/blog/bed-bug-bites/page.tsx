@@ -14,10 +14,13 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
+import Photo from '@/components/Photo'
 
 const SLUG = 'bed-bug-bites'
 const DATE = '2026-07-19'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-20'
 // H1 keeps the long descriptive form; SERP title is trimmed to 47 chars so it
 // survives Google's ~60-char cap once the " | BuzzSkito" template is appended.
 // Carries a Canada token: title-geo pages measure 13.1 CA clicks/page vs 4.6
@@ -85,6 +88,10 @@ const FAQS = [
     question: 'Should I see a dermatologist for bed bug bites?',
     answer: 'The American Academy of Dermatology says to see a dermatologist if you have many bites, blisters, a skin infection (bites that feel tender or ooze discharge such as pus), or an allergic skin reaction such as red, swollen skin or hives. It lists difficulty breathing, an irregular or forceful heartbeat, a swollen tongue, and fever among the serious reactions that need immediate medical care. The CDC says to speak with your healthcare provider if you think you are having an allergic reaction. Without signs of an infection or a serious reaction, the academy says bites can often be treated at home.',
   },
+  {
+    question: 'What are the stages of a bed bug bite?',
+    answer: 'There is no fixed timetable, because the welt is an allergic reaction and reactions vary, but bites tend to follow the same sequence. The bite itself is painless: the bug feeds for 3–10 minutes and leaves. A mark can take from about an hour to 14 days to appear (the CDC notes up to two weeks in some people), and most people who react see it within 1–3 days as a small, raised, itchy welt, often in a line or cluster. Most bites fade within 1–2 weeks. Stronger reactions take longer, and on medium and deep skin tones a flat darker mark can linger for weeks or months. A bite that keeps getting worse is worth showing to a healthcare provider.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -94,6 +101,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('bed-bug-bites')
@@ -101,7 +109,7 @@ const AMZ_TAG = tagForSlug('bed-bug-bites')
 export default function BedBugBitesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to bed bug bites — the line and cluster pattern, comparison against mosquito and flea bites, the appearance timeline, relief options, and how to confirm an infestation.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to bed bug bites — the line and cluster pattern, comparison against mosquito and flea bites, the appearance timeline, relief options, and how to confirm an infestation.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Bites', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -159,6 +167,19 @@ export default function BedBugBitesPage() {
           <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Check price on Amazon.ca →</BuyLink>
         </div>
 
+        <QuickIdTable
+          title="Bed bug bites or something else? Quick ID"
+          head={['Bite', 'What you see', 'Where on the body', 'Timing and context']}
+          rows={[
+            ['Bed bug', 'Raised, itchy welts in a rough line or zigzag cluster of 3–5, each 0.2–2 cm (about 1/16–3/4 in)', 'Skin left uncovered in bed: face, neck, shoulders, arms, hands', 'From about an hour to 14 days after the bite, most often 1–3 days; after sleeping, in any season'],
+            ['Mosquito', 'Scattered single welts', 'Whatever was uncovered outdoors', 'Within minutes, after time outdoors in warm weather'],
+            ['Flea', 'Tiny red spots with a lighter halo, in loose groups', 'Ankles, lower legs and waistline', 'Itchy within minutes; usually pets in the home, now or before you moved in'],
+            ['Chigger', 'Intensely itchy welts', 'Along sock lines and waistbands', 'After time in grass or brush, not after a night’s sleep'],
+            ['Tick', 'The tick itself, still attached to the skin', 'Wherever it attached', 'A different situation: ticks carry real disease risk'],
+          ]}
+          caption={<>From the comparisons further down this page, with the up-to-14-day delay from the <a href="https://www.cdc.gov/bed-bugs/about/index.html" target="_blank" rel="noopener noreferrer" className="underline">CDC</a>. The <a href="https://www.epa.gov/bedbugs/how-find-bed-bugs" target="_blank" rel="noopener noreferrer" className="underline">EPA</a> adds that rashes such as eczema or a fungal infection, and hives, can also look like bites. Reactions vary from person to person, so no bite pattern confirms bed bugs on its own.</>}
+        />
+
         <h2>What do bed bug bites look like?</h2>
         <Figure
           src="/diagrams/bite-pattern-comparison.svg"
@@ -168,6 +189,11 @@ export default function BedBugBitesPage() {
           height={440}
         />
         <p>Bed bug bites look like <strong>small, raised, itchy welts arranged in a rough line, curve, or tight zigzag cluster</strong> &mdash; most often three to five marks, a pattern so common it earned the nickname <strong>&ldquo;breakfast, lunch, dinner.&rdquo;</strong> Each welt is typically 0.2&ndash;2 cm (about 1/16&ndash;3/4 in) across, red on lighter skin and often purple, plum, or dark brown on deeper skin tones, sometimes with a tiny darker point at the centre where the bug fed.</p>
+        <Photo
+          id="bed-bug-bites-forearm"
+          alt="Several raised red welts of different sizes on a forearm resting on a white sheet"
+          caption="Bed bug bites on a forearm. Raised red welts grouped on one stretch of skin are the typical picture, but no photo match can confirm bed bugs: only the bugs or their traces can."
+        />
         <p>The line pattern has a simple mechanical explanation: a single bug often probes several spots in one feeding session &mdash; it gets disturbed when the sleeper shifts, detaches, and reattaches a centimetre or two away. Bugs also feed along the edge where bedding or clothing meets exposed skin, so the row of welts frequently traces a collar line, a waistband, or the edge of a sheet.</p>
         <NextUp path="/blog/bed-bug-bites" />
         <p>Location is the other half of the picture. Bed bugs cannot bite through fabric, so welts concentrate on <strong>skin that was uncovered during sleep</strong>: the face, neck, shoulders, arms, hands, and lower legs. Bites across areas that were snugly covered all night count as evidence <em>against</em> bed bugs. Reactions vary enormously person to person &mdash; from nothing at all to large hives or small blisters &mdash; which is why two people sharing a bed can wake up looking like they slept in different houses.</p>
@@ -198,6 +224,15 @@ export default function BedBugBitesPage() {
           </table>
         </div>
         <p>One more lookalike worth ruling out if the bites showed up after time in grass or brush rather than after a night&rsquo;s sleep: chiggers, which leave intensely itchy welts along sock lines and waistbands. Our <Link href="/blog/chigger-bites">chigger bites guide</Link> covers that pattern.</p>
+        <ConfusedWith
+          title="Often mistaken for bed bug bites"
+          items={[
+            { href: '/blog/why-do-mosquito-bites-itch', name: 'Mosquito bites', photo: 'mosquito-bite-welts', note: 'Scattered single welts that rise within minutes of time outdoors in warm weather' },
+            { href: '/blog/flea-bites-on-humans', name: 'Flea bites', photo: 'flea-bites-lower-leg', note: 'Tiny red spots with a lighter halo, low on the ankles and lower legs, itchy within minutes' },
+            { href: '/blog/chigger-bites', name: 'Chigger bites', photo: 'chigger-bites-ruler', note: 'Intensely itchy welts along sock lines and waistbands after time in grass or brush' },
+            { href: '/blog/tick-vs-bed-bug', name: 'Tick', photo: 'blacklegged-tick-nymph-fingernail', note: 'The tick stays attached to the skin, while a bed bug feeds for minutes and leaves' },
+          ]}
+        />
 
         <h2>How long do bed bug bites take to appear?</h2>
         <p>Anywhere from <strong>about an hour to 14 days</strong> after the actual bite &mdash; the CDC notes that bite marks can take up to two weeks to develop in some people. Most people who react will see marks within one to three days. The reason for the lag is that the welt is not a wound; it is an <strong>allergic reaction to proteins in bed bug saliva</strong>, and immune reactions take time to build.</p>
@@ -241,6 +276,11 @@ export default function BedBugBitesPage() {
           <li><strong>Shed skins</strong> &mdash; pale, translucent moulted shells in seams and joints.</li>
           <li><strong>Eggs</strong> &mdash; white, about 1 mm (1/25 in), glued into cracks and fabric seams.</li>
         </ul>
+        <Photo
+          id="bed-bug-signs"
+          alt="Many bed bugs of different sizes, from pale yellow to dark reddish-brown, clustered on dark fabric among dark specks"
+          caption="Bed bugs, Cimex lectularius, in an infestation, on fabric. Live bugs are one of the five signs that confirm bed bugs, which a bite never can."
+        />
         <p>Run the check methodically: strip the bedding, then work the mattress seams and piping, the box spring underside, the frame joints, and the headboard with a flashlight and an old card. Our step-by-step guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> covers the full room-by-room technique.</p>
         <p>If the visual inspection comes up empty but bites keep appearing, escalate to <strong>interceptor cups</strong> &mdash; passive pitfall traps that sit under each bed leg and catch bugs travelling to or from the bed. They are pesticide-free, cost less than a can of spray, and in university field trials have confirmed infestations that trained visual inspections missed. Run them for 14 consecutive nights &mdash; bed bugs feed only every 3&ndash;7 days, so shorter tests miss light infestations. Our <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor trap guide</Link> explains the full protocol and how to read what you catch.</p>
         <div className="not-prose my-4 flex flex-wrap gap-3">
