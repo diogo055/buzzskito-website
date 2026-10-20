@@ -16539,7 +16539,7 @@
    "resolution": "new page",
    "pairWith": null,
    "priority": 3,
-   "gate": null,
+   "gate": "Replaced on Oct 20, 2026 by moths-in-house, which covers clothes moths, their larvae and eggs (its fact-check confirmed the overlap); the two live links to /blog/clothes-moths now point to /blog/moths-in-house. Do not build: it would be a near-duplicate.",
    "parent": {
     "href": "/learn/household-bugs",
     "name": "Household Bugs"
@@ -21644,8 +21644,7 @@
    "alsoTargets": [
     "black beetles in house",
     "small black beetles in house",
-    "brown beetles in house",
-    "beetles in house in winter"
+    "brown beetles in house"
    ],
    "demand": {
     "summary": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16: beetles in house + small black beetles + black beetles x0.5 = 0.361 of \"stink bug\" (Nov-Mar 0.69, May-Aug 1.35 of the yearly average); Ahrefs Keywords Explorer, US, 2026-10-16: beetles in house 500; black beetles in house 900; small black beetles in house 350 (family 1,750); target \"beetles in house\" 500, KD 0, traffic potential 2,100, parent topic \"beetles\"; demand used: Trends 0.361 and Ahrefs 0.010 disagree 36.1x: geometric mean used; Search Console, 90 days to 2026-10-12: Nothing; Google page 1, gl=us, \"black beetles in house\", 2026-10-16: Reddit, UMN extension, Facebook, bettertermite.com, Orkin, bugspray.com, Quora, UC IPM; read: forums and pest companies with two extension pages; model estimate, not a measurement: 17 clicks a month Nov-Mar (6.8-50.9), 39.8 May-Aug (15.9-119.5), confidence medium; evidence from data/god-build/next-wave-research.json (build order 12)",

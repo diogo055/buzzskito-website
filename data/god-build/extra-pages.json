@@ -5341,39 +5341,6 @@
    "priority": 3
   },
   {
-   "slug": "clothes-moths",
-   "section": "blog",
-   "role": "page",
-   "cluster": "household",
-   "audience": "na",
-   "keyword": "clothes moths",
-   "alsoTargets": [
-    "clothes moth larvae",
-    "moths in closet",
-    "clothes moths vs pantry moths"
-   ],
-   "h1Hint": "Clothes Moths: How to Spot the Larvae and Save Your Wool",
-   "metaTitleHint": "Clothes Moths: Find the Larvae, Save Wool",
-   "scope": "Webbing and casemaking clothes moths: identification, the larvae that do the damage, pheromone monitoring, freezing and cleaning, and storage.",
-   "pageType": "entity-id",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1000,
-   "minExisting": 2,
-   "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
-   },
-   "mustLink": [
-    "/learn/household-bugs"
-   ],
-   "pairWith": null,
-   "collisions": [],
-   "family": "household",
-   "priority": 3
-  },
-  {
    "slug": "japanese-beetles",
    "section": "blog",
    "role": "page",
@@ -7317,8 +7284,7 @@
    "alsoTargets": [
     "black beetles in house",
     "small black beetles in house",
-    "brown beetles in house",
-    "beetles in house in winter"
+    "brown beetles in house"
    ],
    "h1Hint": "Beetles in the House: Identify Black, Brown and Spotted Beetles Indoors",
    "metaTitleHint": "Beetles in the House? Identify Them (Photos)",

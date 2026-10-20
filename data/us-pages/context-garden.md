@@ -365,7 +365,6 @@
 - `/blog/european-hornets` — european hornet
 - `/blog/wheel-bugs` — wheel bug
 - `/blog/bot-flies` — bot fly
-- `/blog/clothes-moths` — clothes moths
 - `/blog/ticks-on-cats` — ticks on cats
 - `/blog/soft-ticks` — soft tick
 - `/blog/booklice` — booklice

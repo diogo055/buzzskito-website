@@ -10274,40 +10274,6 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
-   "neighbors": [],
-   "minNeighbors": 0,
-   "slug": "clothes-moths",
-   "cluster": "household",
-   "audience": "na",
-   "keyword": "clothes moths",
-   "alsoTargets": [
-    "clothes moth larvae",
-    "moths in closet",
-    "clothes moths vs pantry moths"
-   ],
-   "h1Hint": "Clothes Moths: How to Spot the Larvae and Save Your Wool",
-   "metaTitleHint": "Clothes Moths: Find the Larvae, Save Wool",
-   "scope": "Webbing and casemaking clothes moths: identification, the larvae that do the damage, pheromone monitoring, freezing and cleaning, and storage.",
-   "pageType": "entity-id",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1000,
-   "parent": {
-    "href": "/learn",
-    "name": "Learning Centre"
-   },
-   "pairWith": null,
-   "collisions": [],
-   "family": "household",
-   "priority": 3,
-   "releaseOn": "2026-12-28"
-  },
-  {
-   "section": "blog",
-   "role": "page",
-   "minExisting": 2,
    "mustLink": [
     "/learn/natural-garden-pest-control"
    ],
@@ -11240,7 +11206,7 @@
    "collisions": [],
    "family": "scorpions",
    "priority": 3,
-   "releaseOn": "2027-01-04"
+   "releaseOn": "2026-12-28"
   },
   {
    "section": "blog",
@@ -12357,8 +12323,7 @@
    "alsoTargets": [
     "black beetles in house",
     "small black beetles in house",
-    "brown beetles in house",
-    "beetles in house in winter"
+    "brown beetles in house"
    ],
    "h1Hint": "Beetles in the House: Identify Black, Brown and Spotted Beetles Indoors",
    "metaTitleHint": "Beetles in the House? Identify Them (Photos)",

@@ -17609,55 +17609,6 @@
    }
   },
   {
-   "slug": "clothes-moths",
-   "kind": "spoke",
-   "section": "blog",
-   "cluster": "household",
-   "path": "/blog/clothes-moths",
-   "keyword": "clothes moths",
-   "alsoTargets": [
-    "clothes moth larvae",
-    "moths in closet",
-    "clothes moths vs pantry moths"
-   ],
-   "ranks": [],
-   "type": "informational",
-   "flags": [
-    "id"
-   ],
-   "minWords": 1000,
-   "datePublished": "2026-12-28",
-   "projClicks": 0,
-   "batch": "god",
-   "audience": "na",
-   "role": "page",
-   "series": null,
-   "state": null,
-   "releaseOn": "2026-12-28",
-   "parent": {
-    "href": "/learn",
-    "name": "Learning Centre"
-   },
-   "h1Hint": "Clothes Moths: How to Spot the Larvae and Save Your Wool",
-   "scope": "Webbing and casemaking clothes moths: identification, the larvae that do the damage, pheromone monitoring, freezing and cleaning, and storage.",
-   "dataPacket": null,
-   "metaTitleHint": "Clothes Moths: Find the Larvae, Save Wool",
-   "pageType": "entity-id",
-   "pairWith": null,
-   "collisions": [],
-   "required": {
-    "pillar": null,
-    "ring": [],
-    "minSiblings": 0,
-    "minExisting": 2,
-    "category": null,
-    "mustLink": [],
-    "neighbors": [],
-    "minNeighbors": 0,
-    "seriesAll": []
-   }
-  },
-  {
    "slug": "japanese-beetles",
    "kind": "spoke",
    "section": "blog",
@@ -18947,14 +18898,14 @@
     "health"
    ],
    "minWords": 1000,
-   "datePublished": "2027-01-04",
+   "datePublished": "2026-12-28",
    "projClicks": 0,
    "batch": "god",
    "audience": "us",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2027-01-04",
+   "releaseOn": "2026-12-28",
    "parent": {
     "href": "/learn/scorpions",
     "name": "Scorpions"
@@ -20430,8 +20381,7 @@
    "alsoTargets": [
     "black beetles in house",
     "small black beetles in house",
-    "brown beetles in house",
-    "beetles in house in winter"
+    "brown beetles in house"
    ],
    "ranks": [],
    "type": "informational",

@@ -452,7 +452,6 @@
 - `/blog/spotted-lanternfly` — spotted lanternfly
 - `/blog/bot-flies` — bot fly
 - `/blog/leaf-footed-bugs` — leaf footed bug
-- `/blog/clothes-moths` — clothes moths
 - `/blog/japanese-beetles` — japanese beetle
 - `/blog/booklice` — booklice
 - `/blog/pseudoscorpions` — pseudoscorpion

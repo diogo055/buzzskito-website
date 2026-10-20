@@ -2,7 +2,7 @@
  "id": "pantry-pests",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ba55d64fc15d785a2d21583ade98f9ab953c07e3ce46e1b4c854d689fa5444fa",
+ "sha": "429f81a169a19420099df43d78cb0c6d1896f55029d357404ae45371a9b57d0d",
  "claimsChecked": 290,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: the clothes moth larvae link now points to the new moths-in-house page, which covers clothes moths and their larvae (the planned clothes-moths page is replaced by it); anchor reworded to match; no fact changed.",
+   "previousSha": "ba55d64fc15d785a2d21583ade98f9ab953c07e3ce46e1b4c854d689fa5444fa"
+  }
+ ]
 }
