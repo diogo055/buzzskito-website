@@ -16,7 +16,8 @@ import { photoImageObject } from '@/lib/photos'
 import TopBox from '@/components/TopBox'
 import usPicks from '@/lib/amazon-us-picks.json'
 
-// amazon.com pick per US guide (owner, Oct 20, 2026): one box under the quick-ID table, linking
+// amazon.com pick per US guide (owner, Oct 20, 2026): one box right under the quick answer (readers
+// click near the top: data/amazon/reverse-engineering-2026-10-20.md), linking
 // amazon.com with the US tag only. Canadian-locale guides and pillars get none. The pick is a
 // generic product type the page itself recommends (its "basis" field records where).
 const US_PICKS = (usPicks as { picks: Record<string, { label: string; name: string; search: string }> }).picks
@@ -370,6 +371,22 @@ export default function GuidePage({ guide }: { guide: Guide }) {
         </div>
       </section>
 
+      {guide.kind === 'spoke' && !guide.locale && US_PICKS[guide.slug] && (
+        <section className="pb-2 px-4 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <TopBox
+              inline
+              disclosure
+              store="com"
+              component="GuidePick"
+              label={US_PICKS[guide.slug].label}
+              name={US_PICKS[guide.slug].name}
+              search={US_PICKS[guide.slug].search}
+            />
+          </div>
+        </section>
+      )}
+
       {hero && (
         <section className="bg-white px-4 pb-4" aria-label="Printable guide">
           <figure className="mx-auto max-w-md">
@@ -394,22 +411,6 @@ export default function GuidePage({ guide }: { guide: Guide }) {
                 ? guide.facts.rows.map((row) => row.map((cell, c) => <Inline key={c} text={cell} />))
                 : guide.facts.rows.map(([k, v]) => [k, <Inline key="v" text={v} />])}
               caption={guide.facts.caption ? <Inline text={guide.facts.caption} /> : undefined}
-            />
-          </div>
-        </section>
-      )}
-
-      {guide.kind === 'spoke' && !guide.locale && US_PICKS[guide.slug] && (
-        <section className="pb-2 px-4 bg-white">
-          <div className="max-w-4xl mx-auto">
-            <TopBox
-              inline
-              disclosure
-              store="com"
-              component="GuidePick"
-              label={US_PICKS[guide.slug].label}
-              name={US_PICKS[guide.slug].name}
-              search={US_PICKS[guide.slug].search}
             />
           </div>
         </section>
