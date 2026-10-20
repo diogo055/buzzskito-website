@@ -19,6 +19,19 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 20 EVENING (after the end-of-day note below):** (1) **amazon.com is LIVE on 157 US guides**
+  (d0370563 + 2c4e345c): one pick box right under the quick answer, US tag buzzskito200d-20, picks in
+  `lib/amazon-us-picks.json`, all checked independently (8 fixed, 3 removed: bullet-ants,
+  does-lysol-kill-bed-bugs, zombie-ants). **A guide released from `content/guides-scheduled/` gets
+  NO box until a pick is added to that file** (the build does not catch it): add one per release.
+  Judge it ~Nov 17 (GA4 `amazon_click` placement `GuidePick`, US account report). (2) Link-in round 2
+  (3f704f3f): 16 links to the 13 batch 3-4 pages. Left alone: deer-mice, mice-traps, pillar-mice and
+  cockroach-eggs still link US readers to `/blog/what-does-mouse-poop-look-like-canada` instead of
+  `/blog/mouse-poop` (repointing is a judgement call). (3) Photo batch 8 (cef1d5a6): NPS mouse urine
+  under UV + mouse droppings (public domain, new `nps` source type) unblock `/blog/mouse-urine`;
+  `squirrel-poop` can be built with the CC0 animal photo leading and the new CC BY droppings photo
+  second; `possum-poop` still has no usable droppings photo. (4) The winter Amazon session's holiday
+  pass is live (8720e89d, 9b396cdb).
 - **OCT 20 END OF DAY — 23 NEW PAGES LIVE (supersedes the "in flight" list below):** batch 1 35406ed6
   (rat-droppings, termite-damage, termite-droppings, how-to-get-rid-of-cockroaches), batch 2 6b6f720e
   (animals-in-attic, holes-in-yard, animal-droppings, tiny-brown-bugs, beetles-in-house, moths-in-house),
