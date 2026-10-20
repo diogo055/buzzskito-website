@@ -19,6 +19,7 @@ import AdNavigationGuard from '@/components/AdNavigationGuard'
 import QuoteLink from '@/components/QuoteLink'
 import { BUSINESS, PROMISES, SITE_URL } from '@/lib/constants'
 import { websiteSchema, organizationSchema, personSchema } from '@/lib/seo'
+import { PAGE_KEEPER_JS } from '@/lib/page-keeper'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -114,6 +115,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{ __html: `document.documentElement.classList.add('anim')` }}
         />
+        {/* Page keeper: if the app ever wipes the page (a blank or "Application error" render),
+            put the server HTML back, so Google never stores a copy without title, canonical and
+            text. Does nothing on a healthy page. Why and tests: lib/page-keeper.ts. */}
+        <script dangerouslySetInnerHTML={{ __html: PAGE_KEEPER_JS }} />
         {/* Pinterest domain verification (Oct 2026). A literal tag in the root layout, so it is
             on every page whatever a page's own metadata says. Pinterest re-checks it: keep it. */}
         <meta name="p:domain_verify" content="df9d0a4e3a51bf5a52cc8baa766b4500" />
