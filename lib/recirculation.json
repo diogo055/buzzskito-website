@@ -55,6 +55,34 @@
     "/blog/tick-hot-spots-mississauga-2026"
    ]
   },
+  "/blog/animal-droppings": {
+   "next": "/blog/animals-in-attic",
+   "related": [
+    "/blog/raccoon-proof-chimney-cap-canada",
+    "/blog/best-live-animal-trap-canada",
+    "/blog/motion-activated-sprinkler-canada"
+   ],
+   "cards": [
+    "/blog/holes-in-yard",
+    "/blog/raccoon-deterrent",
+    "/blog/best-electric-fence-for-raccoons-canada"
+   ],
+   "bar": true
+  },
+  "/blog/animals-in-attic": {
+   "next": "/blog/raccoon-proof-chimney-cap-canada",
+   "related": [
+    "/blog/animal-droppings",
+    "/blog/best-live-animal-trap-canada",
+    "/blog/motion-activated-sprinkler-canada"
+   ],
+   "cards": [
+    "/blog/holes-in-yard",
+    "/blog/raccoon-deterrent",
+    "/blog/best-electric-fence-for-raccoons-canada"
+   ],
+   "bar": true
+  },
   "/blog/are-mice-nocturnal": {
    "next": "/blog/baby-mice",
    "related": [
@@ -424,6 +452,20 @@
     "/blog/bed-bug-mattress-encasement-canada",
     "/blog/crossfire-bed-bug-concentrate-review-canada"
    ]
+  },
+  "/blog/beetles-in-house": {
+   "next": "/blog/tiny-brown-bugs",
+   "related": [
+    "/blog/tiny-black-bugs",
+    "/blog/pantry-pests",
+    "/blog/house-centipedes"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/termite-damage",
+    "/blog/asian-lady-beetles"
+   ],
+   "bar": true
   },
   "/blog/best-air-purifier-for-dust-mites-canada": {
    "next": "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada",
@@ -2553,6 +2595,20 @@
     "/blog/ultimate-backyard-mosquito-control-guide"
    ]
   },
+  "/blog/holes-in-yard": {
+   "next": "/blog/animal-droppings",
+   "related": [
+    "/blog/raccoon-proof-chimney-cap-canada",
+    "/blog/best-live-animal-trap-canada",
+    "/blog/motion-activated-sprinkler-canada"
+   ],
+   "cards": [
+    "/blog/raccoon-deterrent",
+    "/blog/animals-in-attic",
+    "/blog/best-raccoon-live-trap-canada"
+   ],
+   "bar": true
+  },
   "/blog/honeypot-ants": {
    "next": "/blog/how-long-do-ants-live",
    "related": [
@@ -3908,6 +3964,20 @@
     "/blog/how-long-does-mosquito-spray-last",
     "/blog/natural-eco-friendly-mosquito-control-ontario"
    ]
+  },
+  "/blog/moths-in-house": {
+   "next": "/blog/pantry-pests",
+   "related": [
+    "/blog/tiny-black-bugs",
+    "/blog/tiny-brown-bugs",
+    "/blog/how-to-get-rid-of-fleas"
+   ],
+   "cards": [
+    "/blog/house-centipedes",
+    "/blog/termite-damage",
+    "/blog/asian-lady-beetles"
+   ],
+   "bar": true
   },
   "/blog/motion-activated-sprinkler-canada": {
    "next": "/blog/raccoon-deterrent",
@@ -5436,6 +5506,20 @@
     "/blog/how-to-get-rid-of-fleas",
     "/blog/flea-eggs",
     "/blog/what-do-fleas-look-like"
+   ],
+   "bar": true
+  },
+  "/blog/tiny-brown-bugs": {
+   "next": "/blog/tiny-black-bugs",
+   "related": [
+    "/blog/beetles-in-house",
+    "/blog/house-centipedes",
+    "/blog/how-to-get-rid-of-fleas"
+   ],
+   "cards": [
+    "/blog/moths-in-house",
+    "/blog/what-do-fleas-look-like",
+    "/blog/flea-eggs"
    ],
    "bar": true
   },

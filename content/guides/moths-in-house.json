@@ -1,0 +1,180 @@
+{
+  "slug": "moths-in-house",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "small moths in house",
+  "alsoTargets": [
+    "moths in house",
+    "how to get rid of moths",
+    "clothes moths",
+    "moth larvae",
+    "pantry moths vs clothes moths",
+    "moth eggs"
+  ],
+  "metaTitle": "Small Moths in the House? Which Kind (Photos)",
+  "metaDescription": "Small moths indoors are usually pantry moths from stored food or clothes moths from wool. Tell them apart by where they hide, then stop the larvae.",
+  "h1": "Small Moths in the House: Pantry Moth or Clothes Moth, and What to Do",
+  "dek": "A moth circling the kitchen light and a moth hiding in the closet need two different fixes. How to tell them apart, what their larvae and eggs look like, and how to clear each one, from university extension guides.",
+  "breadcrumb": "Small Moths in the House",
+  "excerpt": "Pantry moth or clothes moth? Tell small moths in the house apart by where they are and how they fly, with photos of adults, larvae and the damage they leave.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Small moths in a house are usually pantry moths or clothes moths, and where they are and how they act tells you which.** A moth flying around the kitchen or a lamp is most likely an Indian meal moth from stored food. A smaller moth that hides in a closet and shuns light is a clothes moth, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/clothes-moths/) says stays close to the infested wool.",
+    "bullets": [
+      "UC IPM gives the Indian meal moth as 1/3 to 2/5 inch long, with forewings whitish gray near the body and coppery reddish brown on the outer two-thirds.",
+      "At rest a clothes moth is only about 1/4 inch long, about half the length of most food moths, and has a tuft of hair on its head, according to UC IPM.",
+      "The University of Kentucky says clothes moths avoid light and are seldom seen, while the University of Florida says Indian meal moths fly to lights and may reach rooms far from the food.",
+      "Only the larvae feed: Kentucky describes clothes moth larvae as creamy white and up to 1/2 inch, and UC IPM describes Indian meal moth larvae as about 1/2 inch and white with a greenish or pinkish hue.",
+      "Indian meal moth eggs are grayish white and 0.3 to 0.5 mm, under 1/50 inch, according to the University of Florida; Kentucky calls clothes moth eggs pinhead-sized."
+    ]
+  },
+  "facts": {
+    "title": "Small moths in the house: quick ID",
+    "head": ["Moth", "Size", "Where you see it", "The tell"],
+    "rows": [
+      ["Indian meal moth (pantry moth)", "1/3 to 2/5 inch long; wingspan about 3/5 inch", "Kitchen and pantry; flies to lights, even in other rooms", "Forewings whitish gray near the body, coppery reddish brown on the outer two-thirds"],
+      ["Webbing clothes moth", "About 1/4 inch at rest; wingspan about 1/2 inch", "Dark closets and storage near wool; avoids light", "Plain golden buff wings and a tuft of reddish hairs on the head"],
+      ["Casemaking clothes moth", "About the size of the webbing clothes moth", "Closets and storage near wool, fur or feathers", "Browner wings with faint dark spots; the larva carries a case"],
+      ["Angoumois grain moth", "About 1/2 inch", "Whole grains and decorative ear corn", "Pale yellow brown, with a finger-like point at the hind wing tip"],
+      ["Drain fly (moth fly)", "1/16 to 1/5 inch", "Near sinks, tubs and drains", "A fuzzy fly with broad wings held flat or like a roof; flies a few feet at a time"],
+      ["Miller moth (army cutworm moth)", "Wingspan 1 1/2 to 2 inches", "Eastern Colorado and nearby plains, late spring", "Gray or light brown with a kidney-shaped mark on each forewing"]
+    ],
+    "caption": "Sizes and features from UC IPM, the Universities of Kentucky and Florida, Texas A&M AgriLife Extension and Colorado State University Extension, each linked in the sections below."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the small moths in my house?" },
+    { "type": "p", "text": "Most small moths indoors are one of two kinds: the Indian meal moth, which breeds in stored food, or a clothes moth, whose larvae eat wool, fur and feathers. [UC IPM's guide to pantry pests](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) calls the Indian meal moth the most common moth found on food products in the home, and [its guide to clothes moths](https://ipm.ucanr.edu/home-and-landscape/clothes-moths/) says the webbing clothes moth is probably the most commonly encountered clothes moth in the United States. The two need different fixes, so tell them apart before you clean or throw anything out." },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth.webp", "width": 1200, "height": 1400, "alt": "Indian meal moth at rest on a gray woven mesh, its folded forewings pale gray near the head and dark coppery brown toward the tips", "caption": "Indian meal moth (Plodia interpunctella), adult. The forewings are whitish gray on the inner part and coppery reddish brown on the outer two-thirds, the pattern UC IPM describes.", "license": "CC0-1.0", "credit": "Kaldari, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indianmeal_moth_2009.jpg" },
+    { "type": "p", "text": "A few other insects get called small moths. Fuzzy little flies near the bathroom sink are drain flies, also called moth flies, and a much bigger moth that came in at night is an outdoor moth, such as the miller moth, which does not breed indoors. Both are covered below, after the two that matter." },
+
+    { "type": "h2", "text": "Is it a pantry moth or a clothes moth?" },
+    { "type": "p", "text": "Where it is and how it behaves settle it. The University of Kentucky's [fact sheet on clothes moths](https://entomology.mgcafe.uky.edu/ef609) says clothes moths avoid light and are seldom seen, preferring dark, undisturbed places such as closets, basements and attics, and that similar-looking moths in kitchens and other well-lit rooms are possibly grain moths from stored food. UC IPM adds that clothes moths are weak fliers, not drawn to lights, that flutter around the immediate area of the infestation, while food moths fly in a direct, steady line. [The University of Florida's Indian meal moth profile](https://edis.ifas.ufl.edu/publication/IN153) says those often seem to flutter, fly to lights and can turn up in rooms far from the food, which is why they are commonly mistaken for clothes moths." },
+    { "type": "figure", "src": "/guides/photos/webbing-clothes-moth.webp", "width": 1200, "height": 1200, "alt": "Webbing clothes moth at rest on a white painted surface: a slender moth with plain golden buff wings and a tuft of reddish-golden hair on its head", "caption": "Webbing clothes moth (Tineola bisselliella), adult. Plain golden buff wings and the tuft of reddish hairs on the head are its marks.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/140528256" },
+    { "type": "p", "text": "Then look closely. UC IPM says a clothes moth at rest is only about 1/4 inch long, while most food-infesting moths are about double that, and that food moths lack the little tufts of hair on the head; catch one and check its head with a magnifying glass. The Indian meal moth's two-tone forewings, whitish gray near the body and coppery on the outer two-thirds, are easy to see without one." },
+    { "type": "checklist", "title": "Checks to run with the moth in a jar", "items": [
+      "**Where was it?** Kitchen, pantry or near a light suggests a pantry moth; a dark closet, a wool rug or a storage box suggests a clothes moth.",
+      "**How did it fly?** Toward lights or into other rooms fits a food moth; a weak flutter that stays near one spot and avoids light fits a clothes moth.",
+      "**Two-tone wings?** Whitish gray near the body and coppery toward the tips means an Indian meal moth.",
+      "**Tuft of hair on the head?** Plain golden buff wings with a reddish tuft mean a webbing clothes moth; browner wings with faint dark spots, a casemaking clothes moth.",
+      "**How long at rest?** About 1/4 inch fits a clothes moth; about twice that, a food moth. Measure it against a ruler marked in inches.",
+      "**Fuzzy, with broad rounded wings held flat?** It is a drain fly, not a moth."
+    ] },
+
+    { "type": "h2", "text": "What do clothes moths look like?" },
+    { "type": "p", "text": "Clothes moths are small and plain. UC IPM describes the webbing clothes moth as gold, with reddish-golden hairs on top of the head and a fringe of golden hairs on wings that span about 1/2 inch; Kentucky calls the adults beige or buff with narrow, fringed wings. The casemaking clothes moth is about the same size, but UC IPM says its wings are more brownish with faint dark spots and the hairs on its head are lighter. [Penn State Extension's clothes moth page](https://extension.psu.edu/clothes-moth) notes that the spots are often rubbed off on older moths and that both species, when found, tend to escape by running rather than flying." },
+    { "type": "figure", "src": "/guides/photos/casemaking-clothes-moth.webp", "width": 1200, "height": 1191, "alt": "Casemaking clothes moth, an adult with narrow gray-brown speckled wings and a tuft of tawny hair on its head, resting on a white tissue", "caption": "Casemaking clothes moth (Tinea pellionella), adult, on a tissue. UC IPM describes its wings as browner than the webbing clothes moth's, with faint dark spots.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/176048740" },
+    { "type": "p", "text": "The adults do no damage; the larvae do. Kentucky says clothes moth adults do not feed, so they cannot injure fabric, and that the larvae are creamy-white caterpillars up to 1/2 inch long. UC IPM describes them as shiny white with dark head capsules. The two species' larvae are nearly identical except for one habit: casemaking clothes moth larvae carry a silken case with them as they feed, enlarging it as they grow, and the case takes on the color of the fabric they have eaten. Webbing clothes moth larvae spin patches of silk and temporary feeding tubes that collect droppings and bits of fiber, then leave them behind when they move on." },
+    { "type": "figure", "src": "/guides/photos/casemaking-clothes-moth-larva.webp", "width": 1200, "height": 960, "alt": "Magnified casemaking clothes moth larva, pale with a dark reddish-brown head, emerging from a fuzzy case made of tangled multicolored fibers", "caption": "Casemaking clothes moth larva reaching out of its case. UC IPM says the case takes on the color of the fabric the larva has eaten.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/53999053" },
+
+    { "type": "h2", "text": "What do clothes moths eat, and where do they hide?" },
+    { "type": "p", "text": "Clothes moth larvae eat animal fibers. Kentucky lists wool, fur, silk, feathers, felt and leather, and items such as sweaters, scarves, coats, blankets, rugs, down pillows and comforters, upholstery and taxidermy mounts; cotton and synthetics are rarely attacked unless blended with wool or heavily soiled with food or body oils. They feed in dark, undisturbed places where woolens sit for long periods, so clothing and blankets in regular use are seldom infested, but the edges and undersides of rugs and the carpet beneath furniture often are. UC IPM says most wall-to-wall carpet, being synthetic, is not affected." },
+    { "type": "p", "text": "Look for the signs in hidden spots. Penn State says larvae graze the surface of woolens, leaving furrows, and are commonly found under cuffs, collars and other hidden parts of clothing; holes come with heavier infestations. Kentucky adds vents and ducts that collect lint and pet hair, and bird nests or dead animals in attics, chimneys and wall cavities, as places an infestation can start. Holes alone do not prove moths: [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says carpet beetles tend to damage a large area in one spot while moth damage is more often scattered holes, and carpet beetle larvae leave brown, bristly cast skins and no webbing. [How to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles) covers that pest." },
+    { "type": "media", "needed": "Photo of clothes moth damage on a wool sweater or rug: grazed furrows and holes with webbing clothes moth larvae, their silk tubes and droppings, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What do moth larvae look like?" },
+    { "type": "p", "text": "The moth larvae found indoors are pale caterpillars, unlike the fuzzy, hairy larvae of carpet beetles. UC IPM says moth larvae have three pairs of true legs plus leg-like structures farther down the body, while pantry beetle larvae are legless grubs or have only three pairs of legs near the head. The table sorts the ones found indoors." },
+    { "type": "table", "head": ["Larva", "Size and color", "Where you find it", "The sign it leaves"], "rows": [
+      ["Indian meal moth", "About 1/2 inch; white with a greenish or pinkish hue", "In food, or crawling up walls and across ceilings", "Silk threads and webbing in the food"],
+      ["Webbing clothes moth", "Up to 1/2 inch; creamy white with a dark head", "On wool, often under collars, cuffs and folds", "Silk patches and tubes with fibers and droppings"],
+      ["Casemaking clothes moth", "Similar, inside a case about 3/8 inch long when grown", "On wool, fur or feathers in storage", "A portable silk case the color of the fabric"],
+      ["Carpet beetle (not a moth)", "Slightly longer than the 1/10- to 1/8-inch adult; fuzzy or hairy", "Closets, rugs, under furniture", "Brown, bristly cast skins and no silk"]
+    ], "caption": "From UC IPM's clothes moth, pantry pest and carpet beetle guides and the University of Kentucky's fact sheets, linked on this page." },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-larva.webp", "width": 1200, "height": 804, "alt": "Pale pinkish Indian meal moth larva with a brown head, crawling among flakes of cereal", "caption": "An Indian meal moth larva searching for food among cereal flakes. USDA photo by Scott Bauer.", "license": "public-domain", "credit": "USDAgov, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:K10313-1_(8411788665).jpg" },
+    { "type": "p", "text": "Small caterpillars crawling up a kitchen wall or across the ceiling are usually pantry moth larvae. [The University of Kentucky's pantry pest fact sheet](https://entomology.mgcafe.uky.edu/ef612) names caterpillars on walls and ceilings among the first signs of a pantry infestation, and says Indian meal moth larvae crawl away from the infested food to find a place to change into moths. The University of Florida describes mature larvae traveling so far, up shelves and into lids, cans and cups, that they mislead people looking for the source and get mistaken for clothing pests." },
+
+    { "type": "h2", "text": "What do moth eggs look like?" },
+    { "type": "p", "text": "You will rarely see moth eggs, because they are tiny and laid right on the food or fabric the larvae will eat. The University of Florida describes Indian meal moth eggs as grayish white and 0.3 to 0.5 mm long, under 1/50 inch, laid singly or in clusters directly on the food; one female can lay up to 400, and they hatch in 7 to 8 days at 68°F or 3 to 4 days at 86°F. UC IPM says the female lays them singly on food material and that they hatch within a few days." },
+    { "type": "p", "text": "Clothes moth eggs are pinhead-sized, about 40 to 50 per female, according to the University of Kentucky. UC IPM says the female attaches them to the fabric threads with an adhesive and that they hatch in 4 to 10 days in warm weather; Penn State says hatching can take three weeks or more in winter. Because the eggs are so hard to find, look for what comes out of them, larvae, silk, cases and droppings, and treat the whole item: UC IPM says brushing woolens destroys eggs and that hot laundering or dry cleaning kills every stage." },
+    { "type": "media", "needed": "Macro photo of clothes moth eggs on wool yarn, and Indian meal moth eggs on a grain of rice or a nut, each beside a ruler marked in inches so readers can see how small they are" },
+
+    { "type": "h2", "text": "Where do pantry moths come from?" },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-webbing.webp", "width": 560, "height": 373, "alt": "Silk webbing and debris binding black sunflower seeds together inside an open woven bag of bird seed", "caption": "Silk webbing, droppings and seeds stuck together in a bag of sunflower seed, recorded by the photographer as Indian meal moth damage.", "license": "CC-BY-SA-2.5", "credit": "Mike Boone, CC BY-SA 2.5, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plodia_interpunctella_damage.jpg" },
+    { "type": "p", "text": "Pantry moths come home in an infested package. UC IPM says Indian meal moth larvae attack cereal products, flour, cornmeal, rice, dried fruit, nuts, chocolate and candy, and Kentucky adds powdered milk, dried dog food and bird seed, noting that the larvae spin silk webbing through the food. In warm weather UC IPM puts the trip from egg to adult at six to eight weeks, and Kentucky says the source is often a partly used box or bag forgotten at the back of a shelf. [The pantry pest guide](/blog/pantry-pests) goes food by food and covers the beetles that infest the same packages." },
+    { "type": "p", "text": "One other small moth comes from stored food. Kentucky describes the Angoumois grain moth as about 1/2 inch and pale yellow brown, developing inside whole kernels, with decorative ear corn a common source; it resembles a clothes moth but has a finger-like point at the tip of the hind wing. Small brown beetles flying in the kitchen are pantry beetles rather than moths: Kentucky says drugstore and cigarette beetles fly and are attracted to light, and [the guide to tiny brown bugs](/blog/tiny-brown-bugs) sorts them, with [the guide to beetles in the house](/blog/beetles-in-house) for the larger ones." },
+
+    { "type": "h2", "text": "Is the tiny moth in the bathroom a drain fly?" },
+    { "type": "p", "text": "Probably. [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control) says drain flies are also called moth flies because of their fuzzy, moth-like look, and describes them as 1/16 to 1/5 inch, grayish and densely hairy, holding their broad wings flat or like a roof and usually flying only a few feet at a time. They breed in the film inside sink and floor drains. Texas A&M's check is to lay clear packing tape across part of the drain, leaving some of the opening uncovered, and look at it periodically for trapped flies. [The drain fly guide](/blog/how-to-get-rid-of-drain-flies) covers the fix." },
+    { "type": "p", "text": "Two other small fliers get mistaken for moths. Tiny, dark, long-legged flies around houseplants are fungus gnats, which Texas A&M describes as 1/16 to 1/8 inch and built like small mosquitoes; [the fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats) covers them. Flies hovering over the fruit bowl are fruit flies, which Texas A&M says breed in fermenting fruit and vegetables; see [how to get rid of fruit flies](/blog/how-to-get-rid-of-fruit-flies). [The guide to gnats](/blog/how-to-get-rid-of-gnats) sorts all the small flies people call gnats, and [the guide to tiny black bugs](/blog/tiny-black-bugs) sorts small dark insects by the room they turn up in." },
+
+    { "type": "h2", "text": "Why are there big moths in my house?" },
+    { "type": "p", "text": "A moth with a wingspan of an inch or more is too big to be a pantry or clothes moth, whose wingspans UC IPM and the University of Florida put at roughly 1/2 to 3/4 inch, so it is an outdoor moth that came in. In the West a well-known case is the miller moth: [Colorado State University Extension's miller moth fact sheet](https://extension.colostate.edu/resource/miller-moths/) describes the adult army cutworm as gray or light brown with a kidney-shaped mark on the forewing and a wingspan of 1 1/2 to 2 inches, migrating through eastern Colorado and nearby plains states in late spring. The moths hide in cracks by day, and a crack around a door can lead them inside." },
+    { "type": "p", "text": "Colorado State says miller moths in the home do not feed, do not lay eggs and do not eat household furnishings or food; they find their way out or die without reproducing, though dead moths left in quantity can feed carpet beetles. Its advice is to seal openings around windows and doors, cut down on outdoor lighting or switch to yellow bulbs, and swat or vacuum the moths inside, since insecticides have little or no place against them. It also notes that the most common moth in Colorado homes is the much smaller Indian meal moth." },
+
+    { "type": "confused", "items": [
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly", "photo": "drain-fly", "note": "A fuzzy fly, 1/16 to 1/5 inch, with broad wings held flat; breeds in drains", "alt": "Fuzzy gray-brown drain fly on a white wall with its broad wings spread flat" },
+      { "href": "/blog/how-to-get-rid-of-carpet-beetles", "name": "Carpet beetle larva", "photo": "carpet-beetle-larva", "note": "Hairy, not smooth; leaves bristly cast skins and spins no silk", "alt": "Hairy carpet beetle larva with bands of brown bristles" },
+      { "href": "/blog/pantry-pests", "name": "Drugstore beetle", "photo": "drugstore-beetle", "note": "A tiny brown beetle, not a moth; flies to light from infested pantry food", "alt": "Reddish-brown drugstore beetle with grooved wing covers" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat", "note": "A tiny, dark, long-legged fly built like a small mosquito; lives around houseplants", "alt": "Dark fungus gnat with long legs and clear wings standing on wood" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of clothes moths?" },
+    { "type": "p", "text": "Find every infested item, kill the larvae and eggs in it, and store wool so it cannot be reinfested. The steps below come from Kentucky, UC IPM and Penn State." },
+    { "type": "ol", "items": [
+      "**Find the source.** Kentucky says it may be a wool scarf or felt hat at the back of a closet, an old rug in the basement or an abandoned bird or squirrel nest in the attic. Check seams, folds, cuffs and collars, the edges and undersides of rugs, under furniture and inside vents that collect pet hair and lint.",
+      "**Wash or dry-clean what is infested.** UC IPM says laundering for 20 to 30 minutes in water of at least 120°F kills all stages, and that a dry cleaner is the option for wool that cannot take hot water. Kentucky adds that the heat of a clothes dryer is also effective.",
+      "**Freeze what you cannot wash.** Kentucky says to seal items in plastic and hold them at 0°F or colder for at least a week; a freezer that reaches minus 20°F kills all stages within 72 hours. Let items return to room temperature for about a day before unwrapping them.",
+      "**Vacuum thoroughly.** Penn State says vacuuming alone can prevent or control clothes moths in many cases. Vacuum closets, baseboards, under heavy furniture and along carpet edges, and empty the bag or canister promptly, since UC IPM notes it can hold eggs and larvae.",
+      "**Store wool clean and sealed.** Clean woolens before storing them and pack them in tight-fitting plastic bags or containers, as Kentucky advises. Mothballs work only as a vapor inside a sealed container and can be hazardous, so never scatter them in an open closet or where children and pets can reach them; Kentucky says cedar closets and chests are seldom effective.",
+      "**Monitor with pheromone traps.** UC IPM says these catch male clothes moths and help detect and reduce an infestation, but traps for grain moths will not catch clothes moths, and Kentucky notes that webbing and casemaking clothes moths respond to different lures.",
+      "**Use insecticides only as a last resort.** Penn State advises never applying pesticides to clothing or bedding, and UC IPM says any product used must list clothes moths on its label, with the directions followed exactly."
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of pantry moths?" },
+    { "type": "p", "text": "Find and throw out the infested food; UC IPM does not recommend insecticides for pantry pests. Check every package of grain, cereal, flour, nuts, dried fruit, chocolate, pet food and bird seed, including the forgotten ones at the back, then vacuum and wash the shelves and corners. Keep dry food in airtight containers or the freezer, and because the larvae wander before they pupate, check the shelves above and the joints of walls and ceiling as well. Pheromone traps for Indian meal moths catch the males and show whether moths remain after the cleanup; UC IPM says to check them weekly. [The pantry pest guide](/blog/pantry-pests) goes step by step, and [the guide to pantry moth traps](/blog/pantry-moth-traps-canada) explains how the traps are used." },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Catch a moth, or a larva with a bit of the food or fabric it was on, in a small sealed jar. Photograph it beside a ruler marked in inches and note where you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Why do I suddenly have small moths in my house?",
+      "answer": "A sudden crop of small moths usually means one infested source has just produced a new generation. UC IPM says Indian meal moths take about six to eight weeks from egg to adult in warm weather, and Kentucky says serious clothes moth infestations can develop unnoticed in stored woolens. In late spring in eastern Colorado and nearby plains states, larger miller moths can also come in through cracks around doors, according to Colorado State University Extension."
+    },
+    {
+      "question": "How do I get rid of moths in my house?",
+      "answer": "First work out which moth you have. For pantry moths, throw out infested food, clean the shelves and keep dry food in airtight containers; UC IPM does not recommend insecticides for them. For clothes moths, find the infested wool, wash it for 20 to 30 minutes in water of at least 120°F or have it dry-cleaned, freeze what cannot be washed, vacuum closets and rugs, and store clean woolens sealed, as UC IPM and Kentucky advise."
+    },
+    {
+      "question": "What is the difference between pantry moths and clothes moths?",
+      "answer": "Pantry moths are bigger and found near food and lights; clothes moths are smaller and hide in the dark near wool. UC IPM says a clothes moth at rest is about 1/4 inch, roughly half the length of most food moths, and has a tuft of hair on its head. The Indian meal moth has two-tone forewings, whitish gray near the body and coppery on the outer two-thirds. Pantry moth larvae eat stored food; clothes moth larvae eat wool, fur and feathers."
+    },
+    {
+      "question": "What do moth eggs look like?",
+      "answer": "They are tiny and seldom seen. The University of Florida describes Indian meal moth eggs as grayish white and 0.3 to 0.5 mm long, under 1/50 inch, laid singly or in clusters on the food. The University of Kentucky calls clothes moth eggs pinhead-sized, and UC IPM says they are glued to the fabric threads. Because they are so hard to spot, look for larvae, silk webbing and droppings instead, and clean or freeze the whole item."
+    },
+    {
+      "question": "What do moth larvae look like?",
+      "answer": "They are pale caterpillars, not fuzzy ones like carpet beetle larvae. UC IPM describes full-grown Indian meal moth larvae as about 1/2 inch long and white with a greenish or pinkish hue, spinning silk through the food. Kentucky describes clothes moth larvae as creamy white and up to 1/2 inch, and UC IPM says they have dark heads. Casemaking clothes moth larvae live inside a portable silk case the color of the fabric they eat."
+    },
+    {
+      "question": "Are the small worms on my ceiling moth larvae?",
+      "answer": "Most likely, yes. The University of Kentucky names caterpillars crawling up walls or across ceilings as a common first sign of a pantry pest infestation, and says Indian meal moth larvae crawl away from the infested food to find a place to transform into moths. The University of Florida describes larvae climbing shelves and pupating in lids, cans and cups well away from the source, so check every food package, not just the shelf below."
+    },
+    {
+      "question": "Do clothes moths eat cotton or polyester?",
+      "answer": "Rarely. The University of Kentucky says clothes moth larvae feed on animal fibers such as wool, fur, silk, feathers, felt and leather, and that cotton and synthetic fabrics are rarely attacked unless blended with wool or heavily soiled with food stains or body oils. UC IPM says most wall-to-wall carpeting, being synthetic, is not affected. Clean fabrics are less likely to be damaged, which is one reason to wash woolens before storing them."
+    },
+    {
+      "question": "Do mothballs or cedar get rid of moths?",
+      "answer": "Not on their own. Kentucky and UC IPM say mothball vapors only reach a level that harms moths inside a sealed container, so scattering them in an open closet does little, and both warn that the products can be hazardous; keep them away from children and pets. Kentucky says cedar closets and chests are seldom effective because they do not hold enough of the oil, and UC IPM says cedar oil can kill small larvae but not large ones and fades with age."
+    },
+    {
+      "question": "Can small house moths hurt you?",
+      "answer": "The adult moths do not feed at all: the University of Kentucky says so of clothes moths and the University of Florida of Indian meal moths, and none of the sources on this page describes them biting. The damage comes from the larvae eating wool or contaminating stored food. The bigger risk is the treatment, since mothballs and insecticides can be hazardous if misused, so follow the label and keep them away from children and pets."
+    },
+    {
+      "question": "Will moth traps get rid of moths?",
+      "answer": "Traps help find and track moths but rarely end an infestation alone. UC IPM says pheromone traps catch male moths, which detects an infestation and provides some control because trapped males cannot mate, but it advises cleaning or treating infested items as well. Clothes moth traps and pantry moth traps use different lures, and UC IPM says grain-moth traps will not catch clothes moths, so match the trap to the moth you have."
+    }
+  ],
+  "sources": [
+    { "title": "Pantry Pests (Pest Notes, Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Clothes Moths (Pest Notes, Publication 7435)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/clothes-moths/" },
+    { "title": "Clothes Moths (ENTFACT-609)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef609" },
+    { "title": "Indianmeal Moth, Plodia interpunctella (EENY-026/IN153)", "publisher": "University of Florida IFAS Extension", "url": "https://edis.ifas.ufl.edu/publication/IN153" },
+    { "title": "Clothes Moth", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/clothes-moth" },
+    { "title": "Carpet Beetles (Pest Notes, Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Stored Product Pests in the Pantry (ENTFACT-612)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef612" },
+    { "title": "Indoor Flies and Their Control", "publisher": "Texas A&M AgriLife Extension", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control" },
+    { "title": "Miller Moths (Fact Sheet 5.597)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/miller-moths/" }
+  ]
+}

@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-284 images across 114 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+298 images across 120 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -556,12 +556,27 @@
 - Top-down macro photo of a gray springtail beside a cat flea on a white surface with a ruler marked in inches, plus a side view showing the forked jumping appendage folded under the springtail's body
 - Close-up photo of an adult flea beetle on a leaf peppered with small round shot holes, beside a ruler marked in inches, showing the thickened hind legs and the hard wing covers
 
+## /blog/moths-in-house
+
+- Photo of clothes moth damage on a wool sweater or rug: grazed furrows and holes with webbing clothes moth larvae, their silk tubes and droppings, beside a ruler marked in inches
+- Macro photo of clothes moth eggs on wool yarn, and Indian meal moth eggs on a grain of rice or a nut, each beside a ruler marked in inches so readers can see how small they are
+
+## /blog/beetles-in-house
+
+- Top-down photo of a black carpet beetle larva, carrot-shaped and golden to dark brown with a long tuft of hairs at the tail, on a rug or closet shelf beside a ruler marked in inches
+- Close-up photo of powderpost beetle exit holes, each about 1/16 inch across, in a hardwood floorboard or furniture leg, with the fine, flour-like frass piled beneath them and a ruler marked in inches for scale
+
 ## /blog/termite-damage
 
 - Close-up of a split sill plate or floor joist showing subterranean termite galleries running along the grain, with dried mud on the gallery walls, beside a ruler marked in inches
 - Close-up of narrow, sunken, winding lines in painted drywall over termite galleries, with a small spot of dried mud, beside a ruler marked in inches
 - Side-by-side photo of brown-rotted wood cracked into cube-like blocks and termite-damaged wood with mud-lined galleries along the grain, each beside a ruler marked in inches
 - Close-up of powderpost beetle exit holes in a hardwood floorboard with a small pile of flour-like powder below, beside a US dime for scale
+
+## /blog/tiny-brown-bugs
+
+- Photo of carpet beetle larvae and their brown, bristly cast skins along the edge of a wool rug or on a closet shelf, beside a ruler marked in inches, as a homeowner would find them
+- Phone-style photo of several booklice on a damp book page, cardboard box or window frame, beside a ruler marked in inches, showing how small and pale they look without magnification
 
 ## /blog/termite-droppings
 
@@ -574,6 +589,23 @@
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
 - Non-graphic photo of a black widow spider bite on skin showing the two small puncture marks, from a case where the spider was caught and identified, with its credit and license on record
+
+## /blog/animals-in-attic
+
+- Photo of a raccoon latrine inside an attic: a pile of droppings on insulation or a joist, from a public domain or CC0 source such as CDC PHIL or a state wildlife agency
+- Photo taken from the ground of a gray squirrel going into a chewed opening at a soffit, eave or gable vent of a house, showing how big the hole is
+- Photo of bat droppings piled on attic insulation or flooring below a roost, beside a ruler marked in inches, taken without handling any bats (public domain or CC0, identified by a wildlife agency)
+
+## /blog/holes-in-yard
+
+- Lawn with several fresh, shallow cone-shaped holes 3 to 4 inches wide dug overnight by a skunk hunting grubs, with a coin or a ruler marked in inches for scale
+- Pocket gopher mound beside a mole hill, showing the gopher mound's lopsided shape and plugged hole against the round mole hill, with a ruler for scale
+- Groundhog burrow entrance about 10 inches across with its mound of excavated dirt in front, with a ruler or a shoe for scale
+
+## /blog/animal-droppings
+
+- Virginia opossum droppings beside a ruler marked in inches, identified by a wildlife agency or an experienced tracker, ideally next to raccoon droppings for comparison
+- Gray squirrel droppings found in an attic or on a porch, identified by a wildlife agency or extension specialist, beside a ruler marked in inches
 
 ## /blog/diy-pest-control
 

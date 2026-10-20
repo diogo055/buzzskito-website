@@ -2,14 +2,14 @@
  "generated": "2026-10-20",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 152,
+  "newPagesBuilt": 158,
   "hubPages": 4,
-  "guides": 137,
+  "guides": 143,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 253,
-  "internalLinksInNewPages": 1958
+  "notBuilt": 246,
+  "internalLinksInNewPages": 2040
  },
  "pages": [
   {
@@ -120,7 +120,7 @@
    "wordCount": 2288,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -136,7 +136,7 @@
    "wordCount": 2167,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -152,7 +152,7 @@
    "wordCount": 5109,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -200,7 +200,7 @@
    "wordCount": 3056,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -968,7 +968,7 @@
    "wordCount": 2281,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -984,7 +984,7 @@
    "wordCount": 3180,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1016,7 +1016,7 @@
    "wordCount": 2898,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1048,7 +1048,7 @@
    "wordCount": 2350,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -1061,10 +1061,10 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
-   "wordCount": 2610,
+   "wordCount": 2611,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1080,7 +1080,7 @@
    "wordCount": 2698,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1112,7 +1112,7 @@
    "wordCount": 2849,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -1134,6 +1134,38 @@
   },
   {
    "rank": null,
+   "keyword": "small moths in house",
+   "us_volume": null,
+   "url": "/blog/moths-in-house",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Small Moths in the House? Which Kind (Photos)",
+   "wordCount": 2662,
+   "faqs": 10,
+   "sources": 9,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "beetles in house",
+   "us_volume": null,
+   "url": "/blog/beetles-in-house",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Beetles in the House? Identify Them (Photos)",
+   "wordCount": 2591,
+   "faqs": 9,
+   "sources": 17,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "termite damage",
    "us_volume": null,
    "url": "/blog/termite-damage",
@@ -1144,8 +1176,24 @@
    "wordCount": 2218,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "tiny brown bugs in house",
+   "us_volume": null,
+   "url": "/blog/tiny-brown-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Tiny Brown Bugs in the House? ID Them (Photos)",
+   "wordCount": 2487,
+   "faqs": 10,
+   "sources": 15,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 24,
    "status": "built"
   },
   {
@@ -1160,7 +1208,7 @@
    "wordCount": 1788,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1178,6 +1226,54 @@
    "sources": 20,
    "inboundFromNewPages": 8,
    "outboundInternalLinks": 44,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "noises in attic at night",
+   "us_volume": null,
+   "url": "/blog/animals-in-attic",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Noises in Attic at Night? ID the Animal (Photos)",
+   "wordCount": 2066,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "small holes in yard",
+   "us_volume": null,
+   "url": "/blog/holes-in-yard",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Small Holes in Yard? What Dug Them (Photos)",
+   "wordCount": 1880,
+   "faqs": 10,
+   "sources": 14,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "animal poop identification",
+   "us_volume": null,
+   "url": "/blog/animal-droppings",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Animal Poop Identification Chart (Photos)",
+   "wordCount": 1761,
+   "faqs": 9,
+   "sources": 18,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -1224,7 +1320,7 @@
    "wordCount": 3568,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2692,13 +2788,6 @@
   },
   {
    "rank": null,
-   "keyword": "clothes moths",
-   "url": "/blog/clothes-moths",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "japanese beetle",
    "url": "/blog/japanese-beetles",
    "action": "new",
@@ -2902,22 +2991,8 @@
   },
   {
    "rank": null,
-   "keyword": "noises in attic at night",
-   "url": "/blog/animals-in-attic",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "bugs on houseplants",
    "url": "/blog/houseplant-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "small moths in house",
-   "url": "/blog/moths-in-house",
    "action": "new",
    "status": "not built"
   },
@@ -2937,36 +3012,8 @@
   },
   {
    "rank": null,
-   "keyword": "small holes in yard",
-   "url": "/blog/holes-in-yard",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "black spider with white spots",
    "url": "/blog/black-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "beetles in house",
-   "url": "/blog/beetles-in-house",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "animal poop identification",
-   "url": "/blog/animal-droppings",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "tiny brown bugs in house",
-   "url": "/blog/tiny-brown-bugs",
    "action": "new",
    "status": "not built"
   },
@@ -3067,7 +3114,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3083,7 +3130,7 @@
    "wordCount": 2424,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3189,7 +3236,7 @@
    "wordCount": 3292,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3237,7 +3284,7 @@
    "wordCount": 5203,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 27,
+   "inboundFromNewPages": 29,
    "outboundInternalLinks": 35,
    "status": "built"
   },
@@ -3329,7 +3376,7 @@
    "wordCount": 2971,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3543,7 +3590,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3591,7 +3638,7 @@
    "wordCount": 2213,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 39,
+   "inboundFromNewPages": 40,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3607,7 +3654,7 @@
    "wordCount": 2554,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -3657,7 +3704,7 @@
    "wordCount": 3994,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3757,7 +3804,7 @@
    "wordCount": 3492,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -3901,7 +3948,7 @@
    "wordCount": 2332,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4025,7 +4072,7 @@
    "wordCount": 2483,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4083,7 +4130,7 @@
    "wordCount": 3298,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4503,7 +4550,7 @@
    "wordCount": 2862,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 13,
    "status": "built"
   },

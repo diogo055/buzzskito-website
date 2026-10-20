@@ -1,8 +1,10 @@
-release: 4 scheduled page(s) go live (2026-10-20)
+release: 6 scheduled page(s) go live (2026-10-20)
 
-- /blog/rat-droppings
-- /blog/how-to-get-rid-of-cockroaches
-- /blog/termite-damage
-- /blog/termite-droppings
+- /blog/animals-in-attic
+- /blog/moths-in-house
+- /blog/holes-in-yard
+- /blog/beetles-in-house
+- /blog/animal-droppings
+- /blog/tiny-brown-bugs
 
-Held back: 6 (see data/god-build/releases/2026-10-20.md)
+Held back: 10 (see data/god-build/releases/2026-10-20.md)

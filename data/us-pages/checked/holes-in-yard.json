@@ -1,0 +1,15 @@
+{
+ "id": "holes-in-yard",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ff327eec949355d998699bd1fd10e78c665d41b4374d16aa37fa80a6c1cc6630",
+ "claimsChecked": 236,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

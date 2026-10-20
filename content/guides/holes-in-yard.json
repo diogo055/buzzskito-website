@@ -1,0 +1,184 @@
+{
+  "slug": "holes-in-yard",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "small holes in yard",
+  "alsoTargets": [
+    "holes in yard",
+    "what animal is digging holes in my yard",
+    "holes in lawn",
+    "snake holes",
+    "mole vs vole",
+    "small holes in lawn",
+    "holes in yard no mounds"
+  ],
+  "metaTitle": "Small Holes in Yard? What Dug Them (Photos)",
+  "metaDescription": "Hole size sorts the digger: bees 1/4 to 1/2 inch, voles 1 to 1 1/2 inches, chipmunks about 2, rats up to 3, skunks 3 to 4. Photos and a quick-ID chart.",
+  "h1": "Small Holes in the Yard: Which Animal Dug Them, by Size, Shape and Mound",
+  "dek": "Measure the hole, look at the soil around it and note when it appeared: those three clues sort lawn holes into bees and wasps, voles, chipmunks, squirrels, rats, moles, crayfish, and skunks or raccoons hunting grubs.",
+  "breadcrumb": "Small Holes in the Yard",
+  "excerpt": "Small holes in the lawn? Sort the digger by hole size, shape and mound, with real photos, sizes in inches from extension services and what to do next.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Measure the hole and look for a mound: neat holes under 1/2 inch with a little soil are usually ground-nesting bees, clean 1- to 2-inch holes with no mound point to voles, chipmunks or squirrels, and shallow cone-shaped holes 3 to 4 inches wide that appear overnight point to skunks or raccoons digging for grubs.**",
+    "bullets": [
+      "Clemson Extension gives solitary ground bee holes as 1/4 to 1/2 inch wide, cicada killer tunnels 1/2 to 1 inch, vole tunnel entrances 1 to 1 1/2 inches, and chipmunk and gray squirrel holes about 2 inches.",
+      "Rat tunnel entrances near shrubs or woodpiles are up to 3 inches across (Clemson), and UF/IFAS Extension describes rodent holes as smooth and 2 to 3 inches wide.",
+      "Skunk and raccoon holes are cone-shaped and 3 to 4 inches wide, dug at night while the animals hunt grubs and other insects (Clemson).",
+      "Moles push up volcano-shaped mounds and raised ridges instead of leaving open holes, and they eat insects, grubs and earthworms (Clemson).",
+      "UGA Extension says holes that appear overnight point to night animals such as skunks, raccoons and opossums, and holes that appear during the day to squirrels, chipmunks or woodchucks.",
+      "Most snakes do not dig: UF/IFAS Extension says they use holes made by other animals, and only a few species burrow."
+    ]
+  },
+  "facts": {
+    "title": "Holes in the yard: quick ID",
+    "head": ["Hole maker", "Hole size", "What it looks like", "Where and when"],
+    "rows": [
+      ["Ground-nesting bee", "1/4 to 1/2 inch", "Neat hole, often with a small mound of loose soil up to 2 inches high", "Bare or thin grass; bees fly for 2 to 4 weeks in spring or early summer"],
+      ["Cicada killer", "1/2 to 1 inch", "U-shaped mound of soil at the entrance", "Sunny, well-drained, sparse spots; adults from early July"],
+      ["Emerging cicadas or June beetles", "About the size of a nickel", "Small mound of loose soil and fecal pellets", "Spring and early summer, often after rain"],
+      ["Earthworm", "Usually no hole on top", "Piles of granular soil pellets about 1 inch high", "Spring and fall"],
+      ["Vole", "1 to 1 1/2 inches", "Open hole with no mound; runways through the grass", "Any time of year; runways show as snow melts"],
+      ["Chipmunk", "About 2 inches", "Tunnel entrance with little or no loose soil", "Near stumps, buildings, brush or log piles; dug by day"],
+      ["Gray squirrel", "About 2 inches", "Shallow hole with no mound", "Lawns and mulched beds where nuts are buried; dug by day"],
+      ["Crayfish", "About 1 inch, on top of a mud tower", "Tower of mud balls 2 to 4 inches high", "Wet ground near water; crayfish work at night"],
+      ["Norway rat", "2 to 3 inches", "Smooth-walled holes, one or a few", "Along foundations and under woodpiles, compost piles and garbage cans"],
+      ["Skunk or raccoon", "3 to 4 inches", "Cone-shaped holes in a disturbed patch up to 10 inches wide", "Dug at night, where grubs and other insects are"],
+      ["Mole", "No open hole", "Volcano-shaped mounds and raised ridges", "Lawns and shrub beds; most active in spring and fall"],
+      ["Groundhog", "10 to 12 inches", "Large mound of dirt at the entrance", "Active by day"]
+    ],
+    "caption": "Sizes and signs from Clemson Cooperative Extension, with Ohio State (cicada killers), Maryland (mining bees), Iowa State (voles), UF/IFAS (rodent holes), UC IPM (rats) and UGA (time of day), each linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What is making small holes in my yard?" },
+    { "type": "p", "text": "The size of the hole, the soil around it and when it appeared narrow it down fast: small, neat holes are usually insects, clean holes 1 to 3 inches across are usually small mammals, and shallow cone-shaped pits or torn turf mean an animal was digging for food. [Clemson Cooperative Extension's guide to holes in the lawn](https://hgic.clemson.edu/factsheet/holes-in-the-lawn/) advises noting the season, location and size, the clues used on this page, and [UGA Extension's nuisance wildlife guide](https://fieldreport.caes.uga.edu/publications/B1248/resolving-human-nuisance-wildlife-conflicts/) adds that the diameter of a hole is a clue to the size of the animal." },
+    { "type": "figure", "src": "/guides/photos/chipmunk-burrow.webp", "width": 1200, "height": 1600, "alt": "Round, dark burrow opening in a lawn of grass and clover with no loose soil piled around it", "caption": "A clean, round burrow entrance in a yard of grass and clover in Alabama, with no pile of soil around it, which the photographer identified as an eastern chipmunk's. Chipmunk holes are about 2 inches across.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/355754121" },
+    { "type": "p", "text": "Timing is the other quick check. UGA says holes that appear overnight are the work of night animals such as skunks, raccoons and opossums, while holes that appear during the day are dug by daytime animals such as squirrels, chipmunks and woodchucks. It also cautions that digging is not always diagnostic: a dog's digging and a squirrel's can look much alike." },
+    { "type": "checklist", "title": "Checks to run at the hole", "items": [
+      "**Measure it.** Lay a ruler or a coin across the opening: under 1/2 inch, 1 to 2 inches, 2 to 3 inches or bigger sorts most of the list.",
+      "**Look at the rim.** A neat little mound, a U-shaped mound, a mud tower, a volcano of loose soil or no soil at all each points to a different maker.",
+      "**Is it a hole or a pit?** Shallow cone-shaped pits and peeled-back turf mean digging for grubs, not a home.",
+      "**When did it appear?** Overnight points to skunks, raccoons or other night animals; during the day to squirrels, chipmunks or groundhogs.",
+      "**Watch it from a distance for a few minutes.** Bees or wasps flying in and out settle it; keep children and pets back until you know which.",
+      "**Check the place and season.** Wet ground near water suggests crayfish, bare sunny soil in July suggests cicada killers, and runways after snowmelt suggest voles."
+    ] },
+
+    { "type": "h2", "text": "What makes tiny holes under 1/2 inch?" },
+    { "type": "p", "text": "Holes 1/4 to 1/2 inch wide in bare or thin grass, each with a small pile of loose soil, are usually solitary ground-nesting bees. Clemson says these bees dig cylindrical tunnels where vegetation is sparse and may pile soil as high as 2 inches at the entrance. [University of Maryland Extension's page on mining bees](https://extension.umd.edu/resource/mining-bees-lawns/) says they are not aggressive, seldom sting and fly for only 2 to 4 weeks in spring or early summer, and that they are important pollinators, so control should be avoided if possible; heavy watering discourages nesting, and dense turf keeps them away over the long term. [The ground bee guide](/blog/ground-bees) has more." },
+    { "type": "p", "text": "Three other small signs are easy to mistake for holes. Piles of granular soil pellets about 1 inch high with no hole on top are earthworm castings, most common in spring and fall, Clemson says. Nickel-size holes that appear in spring or early summer, often after rain and sometimes ringed with loose soil and fecal pellets, are where insects such as cicadas and June beetles came out of the ground. And small probe holes with no mound or loose soil at all are usually birds looking for food." },
+
+    { "type": "h2", "text": "Are the holes from bees or wasps that sting?" },
+    { "type": "p", "text": "Usually not from anything aggressive, but check before you mow. Cicada killers, among the largest wasps in North America, dig burrows 6 to 10 inches deep and 1/2 inch wide and throw the soil into a U-shaped mound at the entrance, according to [Ohio State University Extension](https://ohioline.osu.edu/factsheet/ENT-63), choosing sunny, well-drained spots with sparse vegetation. Adults appear by the first week of July. Ohio State says the males are territorial but cannot sting, the females usually fly away when disturbed and may sting if handled roughly, and control is usually unnecessary unless they are a nuisance. [The cicada killer guide](/blog/cicada-killers) covers them in full." },
+    { "type": "figure", "src": "/guides/photos/cicada-killer-burrow.webp", "width": 1200, "height": 800, "alt": "Large orange-and-black eastern cicada killer wasp standing on the mound of dark loose soil at its burrow", "caption": "An eastern cicada killer on the mound of soil at its burrow in Minnesota. Ohio State says the soil from each burrow forms a U-shaped mound at the entrance.", "license": "public-domain", "credit": "USFWS Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphecius_speciosus,_Vorderansicht.jpg" },
+    { "type": "p", "text": "A single hole with a steady stream of yellow-and-black wasps flying in and out is more serious. [UC IPM's yellowjacket guide](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) says yellowjackets commonly build nests in rodent burrows, that a wasp's stinger has no barbs and can be used repeatedly, and that when a nest has to go, it is easiest and safest to call for professional help. [The guide to ground wasps in the lawn](/blog/how-to-get-rid-of-ground-wasps-canada) covers the options." },
+
+    { "type": "h2", "text": "What makes holes 1 to 2 inches wide?" },
+    { "type": "p", "text": "Open holes 1 to 1 1/2 inches across with no mound, joined by runways through the grass, belong to voles, small plant-eating rodents that Clemson says do not hibernate and can be seen at any time of year. [Clemson's guide to moles and voles](https://hgic.clemson.edu/factsheet/how-to-tell-the-difference-between-moles-voles/) adds that voles dig golf ball-sized exit holes in old mole tunnels. The runways stand out as snow melts: [Iowa State's answer on narrow paths in a lawn after snowmelt](https://yardandgarden.extension.iastate.edu/faq/what-produces-narrow-snow-pathways-my-lawn) says they were likely made by meadow voles and that the damaged areas usually recover on their own within a few weeks. [The vole guide](/blog/how-to-get-rid-of-voles-canada) covers runways, bark damage and control." },
+    { "type": "figure", "src": "/guides/photos/meadow-vole-runways.webp", "width": 1200, "height": 1600, "alt": "Small brown vole with a blunt face and tiny ears looking out of a hole in matted dead grass, a shallow runway leading away", "caption": "An eastern meadow vole at the mouth of its hole under a lifted plywood sheet in a field, with a shallow runway leading away through the matted grass.", "license": "CC-BY-4.0", "credit": "(c) Ian Murdoch, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/355636621" },
+    { "type": "p", "text": "Chipmunk and gray squirrel holes are both about 2 inches across, Clemson says, but they differ. A chipmunk's is a tunnel entrance with little or no loose soil, usually tucked near a stump, a building, or a brush or log pile. A squirrel's is a shallow hole with no mound, dug in a lawn or mulched bed to bury or dig up nuts. Both animals dig in daylight." },
+    { "type": "p", "text": "Near water, a tower of mud balls 2 to 4 inches high with a 1-inch hole at the top is a crayfish chimney. Clemson says crayfish are nocturnal and tunnel where a lot of water moves through the soil." },
+    { "type": "figure", "src": "/guides/photos/crayfish-chimney.webp", "width": 1200, "height": 1200, "alt": "Ring-shaped tower of wet mud balls around a burrow opening, with a reddish crayfish visible inside the hole", "caption": "A crayfish chimney: a mud tower over a burrow in wet ground at a nature preserve in Georgia, with a red swamp crayfish visible inside.", "license": "CC-BY-4.0", "credit": "(c) Dan Vickers, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/252552756" },
+
+    { "type": "h2", "text": "What makes holes 2 to 3 inches wide near the house?" },
+    { "type": "p", "text": "Smooth-walled holes 2 to 3 inches wide, one or a few together, are typical of rodents, according to [UF/IFAS Extension's guide to wildlife disturbances in the yard](https://sfyl.ifas.ufl.edu/media/sfylifasufledu/sarasota/documents/pdf/multi/nbp/2023_Multi_NBP_factsheetWildlifeYardHoles_FINAL_ADA.pdf), and Clemson puts rat tunnel entrances at up to 3 inches, often near shrubs or woodpiles. [UC IPM's rat guide](https://ipm.ucanr.edu/home-and-landscape/rats/) says Norway rats burrow along building foundations and beneath rubbish and woodpiles, and lists burrows under compost piles and garbage cans as a sign. [A side-by-side of the two rats](/blog/roof-rat-vs-norway-rat) separates the burrowing Norway rat from the climbing roof rat." },
+    { "type": "figure", "src": "/guides/photos/norway-rat-burrows.webp", "width": 1200, "height": 1600, "alt": "Several dark burrow openings in mossy soil around the base of a small tree, a few feet from a concrete wall", "caption": "Burrow entrances at the base of a street tree beside a building in Seattle, identified on iNaturalist as Norway rat burrows; no rat is in the photo.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/114324321" },
+
+    { "type": "h2", "text": "What digs shallow, cone-shaped holes overnight?" },
+    { "type": "p", "text": "Shallow, cone-shaped holes 3 to 4 inches wide that appear overnight are usually skunks or raccoons digging for grubs and other insects; Clemson says the disturbed patch can reach 10 inches across and that both animals have been known to peel back newly laid sod. [UNL Extension's raccoon and opossum guide](https://extensionpubs.unl.edu/publication/g1688/na/html/view) says skunks dig precise cone-shaped holes while raccoons roll up or shred the sod, and [Minnesota DNR](https://www.dnr.state.mn.us/livingwith_wildlife/raccoons/index.html) says raccoons roll or pull up freshly laid sod beginning in late June or early July. [Iowa State's flow chart for holes in the yard](https://naturalresources.extension.iastate.edu/wildlife/diagnosing-holes-yard) credits neatly rolled sod to striped skunks instead, so go by the holes rather than the sod." },
+    { "type": "media", "needed": "Lawn with several fresh, shallow cone-shaped holes 3 to 4 inches wide dug overnight by a skunk hunting grubs, with a coin or a ruler marked in inches for scale" },
+    { "type": "p", "text": "The digging is a sign of what is under the turf. [Purdue Extension's white grub guide](https://extension.entm.purdue.edu/publications/E-271/E-271.html) says damage from raccoons, skunks or turkeys foraging for white grubs is common and can be the first obvious sign of an infestation, that large grubs are present by September, and that grubs move back up to feed in spring. It also says commercial milky spore products are active only against Japanese beetle grubs and have not proven effective as a single, stand-alone application. [The lawn pest guide](/blog/lawn-pest-control) explains how to count grubs before treating, and [the June bug guide](/blog/june-bugs-ontario) covers one of the beetles behind them." },
+    { "type": "p", "text": "Armadillos also root in lawns where they live. Clemson says they are active from sunset to early morning and that their holes are typically 1 to 3 inches deep and 3 to 5 inches wide, though the disturbed area can be 3 feet across. To keep raccoons and skunks from settling in under a deck, see [the guide to proofing under a deck](/blog/raccoon-and-skunk-proofing-under-a-deck-canada)." },
+
+    { "type": "h2", "text": "Is it a mole or a vole?" },
+    { "type": "p", "text": "A mole pushes soil up; a vole leaves open holes. Clemson's guide describes moles as 4 to 7 inches long, with paddle-shaped feet and digging claws, eating insects, grubs and earthworms, and leaving characteristic volcano-shaped hills; voles are 5 to 8 inches long, look like field mice with short tails and eat roots and stems. The same guide says moles are most active in the early morning and late evening on cloudy days in spring and fall, and Clemson's lawn guide adds that mole hills can stand 2 to 24 inches tall and flatten over time." },
+    { "type": "figure", "src": "/guides/photos/mole-hills.webp", "width": 1200, "height": 801, "alt": "Two mounds of loose dark soil pushed up through a carpet of brown fallen leaves, with no open hole", "caption": "Two mole hills pushed up through fallen leaves in Indiana, identified on iNaturalist as eastern mole. A mole hill has no open hole.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/19381329" },
+    { "type": "figure", "src": "/guides/photos/mole-ridge.webp", "width": 1200, "height": 904, "alt": "Raised, cracked ridge of soil running across bare sandy ground where a mole tunneled just below the surface", "caption": "A mole's surface tunnel in Missouri: the raised, cracked line of soil across the middle of the photo, identified on iNaturalist as eastern mole.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/261498716" },
+    { "type": "media", "needed": "Pocket gopher mound beside a mole hill, showing the gopher mound's lopsided shape and plugged hole against the round mole hill, with a ruler for scale" },
+    { "type": "p", "text": "Pocket gophers, in the regions that have them, also push up mounds: UF/IFAS describes the southeastern pocket gopher's as a lopsided mound with a covered or sunken 3-inch hole, and Iowa State's chart tells a gopher mound from a mole's by its plugged hole. In Southeastern lawns, mole crickets tunnel near the surface too; [UF/IFAS's mole cricket guide](https://ask.ifas.ufl.edu/publication/IN1021) says their tunneling can raise surface ridges, and that the southern mole cricket occurs from southern North Carolina to central Texas. Clemson notes that mothballs do not work on moles and that using them that way is illegal as a misuse of a pesticide." },
+
+    { "type": "h2", "text": "What makes bigger holes, and do snakes dig them?" },
+    { "type": "p", "text": "A hole 10 to 12 inches across with a large mound of dirt in front is a groundhog burrow; Clemson says groundhogs are active during daylight hours. An armadillo's burrow entrance runs 7 to 8 inches. Snakes are not usually the diggers: UF/IFAS Extension says snakes use holes made by other species to hunt and find shelter, and that only a few species burrow, so a snake in a hole is most likely using another animal's burrow." },
+    { "type": "media", "needed": "Groundhog burrow entrance about 10 inches across with its mound of excavated dirt in front, with a ruler or a shoe for scale" },
+
+    { "type": "confused", "title": "Other holes with their own guides", "items": [
+      { "href": "/blog/ground-bees", "name": "Ground bee nest", "photo": "mining-bee-burrow", "note": "A neat hole 1/4 to 1/2 inch wide with a small pile of loose soil", "alt": "Small round hole in the middle of a little mound of crumbly soil in a lawn" },
+      { "href": "/blog/cicada-killers", "name": "Cicada killer", "photo": "cicada-killer", "note": "A big wasp whose burrow has a U-shaped soil mound; males cannot sting", "alt": "Eastern cicada killer wasp holding a cicada, seen from above" },
+      { "href": "/blog/how-to-get-rid-of-ground-wasps-canada", "name": "Yellowjacket nest", "photo": "yellowjacket-ground-nest", "note": "Wasps streaming in and out of one hole, often an old rodent burrow", "alt": "Yellowjackets gathered at the entrance of a ground nest among rocks and dry grass" },
+      { "href": "/blog/how-to-get-rid-of-voles-canada", "name": "Vole hole", "photo": "vole-hole-snowmelt", "note": "An open 1- to 1 1/2-inch hole with no mound, often with runways", "alt": "Grass-lined hole in melting snow with tufts of dry nest grass" },
+      { "href": "/blog/mole-crickets", "name": "Mole cricket", "photo": "southern-mole-cricket", "note": "Tunnels raise ridges in Southeastern turf, like a tiny mole", "alt": "Southern mole cricket with a velvety brown body and stout front legs on pavement" },
+      { "href": "/blog/lawn-pest-control", "name": "White grubs", "photo": "japanese-beetle-grub", "note": "C-shaped grubs under the turf draw skunks, raccoons and moles", "alt": "C-shaped white Japanese beetle grub with an orange head in dark soil" }
+    ] },
+
+    { "type": "h2", "text": "What should you do about holes in the yard?" },
+    { "type": "p", "text": "Identify the maker first, because most of these holes need no action and the rest call for different fixes." },
+    { "type": "ul", "items": [
+      "**Bees and cicada killers.** Leave them if you can: Maryland calls mining bees important pollinators that fly for only 2 to 4 weeks, and Ohio State says cicada killers usually need no control.",
+      "**Yellowjackets.** Keep people and pets away and, as UC IPM advises, call for professional help if the nest must go.",
+      "**Voles.** Iowa State recommends regular mowing, at 2 1/2 to 3 1/2 inches for Kentucky bluegrass, and cutting tall weeds next to lawns and gardens.",
+      "**Skunk and raccoon digging.** Check the turf for grubs before treating anything, following [the lawn pest guide](/blog/lawn-pest-control). UGA does not recommend live trapping raccoons or skunks for homeowners because they can carry rabies, and relocating wildlife is generally discouraged and may be illegal.",
+      "**Moles.** Clemson says vibrating and ultrasonic devices are often not very effective and castor oil repellents work only briefly.",
+      "**Rats.** A burrow by the foundation can mean Norway rats; UC IPM's guide and [the rat comparison](/blog/roof-rat-vs-norway-rat) cover the next steps."
+    ] },
+    { "type": "p", "text": "Droppings near a hole can confirm the digger: [the animal droppings chart](/blog/animal-droppings) sets them side by side. If the same animal seems to be getting into the house, [the guide to noises in the attic at night](/blog/animals-in-attic) sorts it by sound and sign." },
+    { "type": "callout", "tone": "tip", "title": "Record the hole", "text": "Photograph the hole beside a ruler or a coin, and note whether there is soil around it, whether it appeared overnight and whether anything flies in or out. Your county's cooperative extension office can use those details to help identify the maker." }
+  ],
+  "faqs": [
+    {
+      "question": "What do rat holes look like in a lawn?",
+      "answer": "UF/IFAS Extension describes rodent holes as smooth, 2 to 3 inches wide, and single or a few together, often with runways along frequently traveled paths. Clemson Extension puts rat tunnel entrances at up to 3 inches and says they are usually in less conspicuous places, such as near shrubbery or woodpiles. UC IPM says Norway rats burrow along building foundations and beneath woodpiles, compost piles and garbage cans."
+    },
+    {
+      "question": "Do squirrels dig holes at night?",
+      "answer": "Gray squirrels dig by day. UGA Extension says holes that appear during the day are dug by daytime animals such as squirrels, chipmunks and woodchucks, while holes that appear overnight point to night animals such as skunks, raccoons and opossums. Clemson Extension describes a squirrel's hole as about 2 inches across, shallow and without a mound, dug in lawns and mulched beds when it buries or digs up nuts."
+    },
+    {
+      "question": "What animal digs small holes in the lawn at night?",
+      "answer": "Skunks and raccoons are the usual night diggers. Clemson Extension says their holes are cone-shaped and 3 to 4 inches wide, dug at night in search of grubs and other insects, and UNL Extension says skunks make precise cone-shaped holes while raccoons roll up or shred the sod. Where armadillos live, Clemson says they root in lawns from sunset to early morning, and crayfish, also nocturnal, build mud chimneys in wet ground."
+    },
+    {
+      "question": "What do vole holes in a lawn look like?",
+      "answer": "Clemson Extension says vole tunnel entrances are 1 to 1 1/2 inches across with no mound of soil, and that voles also make surface runways through the grass. Its moles and voles guide adds that voles dig golf ball-sized exit holes in old mole tunnels. Iowa State Extension says narrow, winding paths that appear in a lawn as snow melts were likely made by meadow voles and usually recover within a few weeks."
+    },
+    {
+      "question": "How can you tell if you have moles or voles in your lawn?",
+      "answer": "Look for mounds or open holes. Clemson Extension says moles leave volcano-shaped hills and raised tunnels and feed on insects, grubs and earthworms, while voles leave open holes 1 to 1 1/2 inches wide with no mound, make runways through the grass and eat roots and stems. Moles are 4 to 7 inches long with paddle-shaped digging feet; voles are 5 to 8 inches long and look like field mice with short tails."
+    },
+    {
+      "question": "Why are there small holes in my yard with no mounds?",
+      "answer": "Several diggers leave little or no soil. Clemson Extension lists vole tunnel entrances with no mound, chipmunk holes with little or no loose soil, shallow squirrel holes with no mound, and bird probe holes with no loose soil at all. UGA Extension adds that a hole with no dirt mound could indicate a chipmunk, skunk, mole or vole. Measuring the hole and noting whether it appeared overnight usually narrows it down."
+    },
+    {
+      "question": "Why are there suddenly holes all over my lawn?",
+      "answer": "Sudden holes often mean something is feeding. Purdue Extension says damage from raccoons, skunks or turkeys foraging for white grubs is common and can be the first obvious sign of grubs, with large grubs present by September. Clemson Extension says insects such as cicadas and June beetles leave nickel-size holes as they emerge in spring and early summer, often after a rain, and Maryland Extension says mining bees nest in spring or early summer."
+    },
+    {
+      "question": "Do snakes dig holes in the yard?",
+      "answer": "Usually not. UF/IFAS Extension lists snakes among the wildlife that do not make holes: they use holes made by other species to hunt and find shelter, and only a few species burrow. A snake seen in a hole is most likely using a rodent's or another animal's burrow, so the size and shape of the hole still point to the animal that dug it."
+    },
+    {
+      "question": "Are the bees nesting in my lawn dangerous?",
+      "answer": "Mining bees are not aggressive and seldom sting, according to University of Maryland Extension, which says their flying lasts only 2 to 4 weeks and calls them important pollinators. Cicada killers look fierce, but Ohio State Extension says the males cannot sting and the females usually fly away unless handled roughly. Yellowjackets are the exception: UC IPM says their stingers can be used repeatedly and advises professional help when a nest must be removed."
+    },
+    {
+      "question": "How do I get rid of holes in my yard?",
+      "answer": "Deal with the maker rather than the hole. Iowa State Extension says vole damage usually recovers within a few weeks and that regular mowing keeps voles down. Maryland Extension suggests heavy watering and dense turf to discourage mining bees. Purdue Extension says digging by skunks and raccoons often signals white grubs, so check the turf for grubs first. UGA Extension does not recommend that homeowners live-trap raccoons or skunks."
+    }
+  ],
+  "sources": [
+    { "title": "Holes in the Lawn (HGIC 2364)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/holes-in-the-lawn/" },
+    { "title": "How to Tell the Difference Between Moles and Voles (HGIC 2366)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/how-to-tell-the-difference-between-moles-voles/" },
+    { "title": "Resolving Human-Nuisance Wildlife Conflicts (Bulletin 1248)", "publisher": "University of Georgia Cooperative Extension", "url": "https://fieldreport.caes.uga.edu/publications/B1248/resolving-human-nuisance-wildlife-conflicts/" },
+    { "title": "Diagnosing Holes in the Yard", "publisher": "Iowa State University Extension and Outreach", "url": "https://naturalresources.extension.iastate.edu/wildlife/diagnosing-holes-yard" },
+    { "title": "What produces narrow snow pathways in my lawn?", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/faq/what-produces-narrow-snow-pathways-my-lawn" },
+    { "title": "Wildlife Disturbances In Your Yard", "publisher": "UF/IFAS Extension Sarasota County", "url": "https://sfyl.ifas.ufl.edu/media/sfylifasufledu/sarasota/documents/pdf/multi/nbp/2023_Multi_NBP_factsheetWildlifeYardHoles_FINAL_ADA.pdf" },
+    { "title": "Controlling Raccoon and Opossum Damage (G1688)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1688/na/html/view" },
+    { "title": "Raccoons: Preventing and Controlling Property Damage", "publisher": "Minnesota Department of Natural Resources", "url": "https://www.dnr.state.mn.us/livingwith_wildlife/raccoons/index.html", "kind": "government" },
+    { "title": "Cicada Killer Wasp (ENT-63)", "publisher": "The Ohio State University Extension", "url": "https://ohioline.osu.edu/factsheet/ENT-63" },
+    { "title": "Mining Bees - Lawns", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/mining-bees-lawns/" },
+    { "title": "Yellowjackets and Other Social Wasps (Pest Notes, Publication 7450)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" },
+    { "title": "Managing White Grubs in Turfgrass (E-271)", "publisher": "Purdue University Extension Entomology", "url": "https://extension.entm.purdue.edu/publications/E-271/E-271.html" },
+    { "title": "Rats (Pest Notes, Publication 74106)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/" },
+    { "title": "Mole Cricket IPM Guide for Florida (IPM-206)", "publisher": "UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN1021" }
+  ]
+}

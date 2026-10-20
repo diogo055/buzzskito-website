@@ -1,0 +1,15 @@
+{
+ "id": "moths-in-house",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f030f8192e10bcf3d74880edb0440f2744c91444fde8c6b34349902200d402da",
+ "claimsChecked": 201,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

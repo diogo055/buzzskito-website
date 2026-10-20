@@ -1,0 +1,192 @@
+{
+  "slug": "beetles-in-house",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "beetles in house",
+  "alsoTargets": [
+    "black beetles in house",
+    "small black beetles in house",
+    "little black beetles in house",
+    "brown beetles in house",
+    "furniture beetles"
+  ],
+  "metaTitle": "Beetles in the House? Identify Them (Photos)",
+  "metaDescription": "Beetles indoors are usually carpet beetles, pantry beetles, lady beetles or ground beetles. Sort yours by where and when you see it, with photos and sizes.",
+  "h1": "Beetles in the House: Identify Black, Brown and Spotted Beetles Indoors",
+  "dek": "Windowsill, pantry, sunny wall, basement floor or a hole in the furniture: where and when a beetle turns up says which one it is. Photos, sizes in inches and the one feature that settles each, from extension guides.",
+  "breadcrumb": "Beetles in the House",
+  "excerpt": "Carpet beetle, pantry beetle, lady beetle, ground beetle or a wood borer? Sort a beetle in the house by where and when you saw it, with photos and sizes.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Beetles in a house are usually carpet beetles, pantry beetles or outdoor beetles that came in, and where and when you see them sorts them.** Small round beetles on a sunny windowsill are often carpet beetles, which [UC IPM](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says are drawn to sunlight; beetles in flour or spices are pantry pests. Orange beetles on walls in fall are lady beetles.",
+    "bullets": [
+      "UC IPM puts adult carpet beetles at about 1/10 to 1/8 inch, with round bodies and short antennae; the black carpet beetle is 1/8 to 3/16 inch and shiny black and dark brown.",
+      "Drugstore and cigarette beetles are about 1/8 inch and light brown, and flour beetles about 1/7 inch and shiny reddish brown, according to UC IPM.",
+      "The University of Kentucky describes the Asian lady beetle as about 1/4 inch, tan to red, usually with an M- or W-shaped mark behind the head, and says it does not breed indoors.",
+      "University of Minnesota Extension says ground beetles, mostly 1/8 to 1/2 inch, usually come in during mid to late summer and do not reproduce indoors.",
+      "Penn State Extension describes powderpost beetles as small brown beetles, usually under 1/4 inch, that leave holes 1/16 to 1/8 inch across and fine powder in hardwood."
+    ]
+  },
+  "facts": {
+    "title": "Beetles in the house: quick ID",
+    "head": ["Beetle", "Size", "Where and when", "The tell"],
+    "rows": [
+      ["Varied or furniture carpet beetle", "About 1/10 to 1/8 inch", "Windowsills in spring and early summer; larvae in closets and rugs", "Round, with a mottled pattern of white, brown and yellow scales"],
+      ["Black carpet beetle", "1/8 to 3/16 inch", "Windowsills; larvae in closets, rugs or stored grain", "Shiny black and dark brown, with brownish legs"],
+      ["Drugstore or cigarette beetle", "About 1/8 inch", "Kitchen and pantry; flies to lights", "Light brown and humped, head tucked under"],
+      ["Flour beetle", "About 1/7 inch", "Flour, cereal and other pantry foods", "Flat, oval and shiny reddish brown"],
+      ["Sawtoothed grain beetle", "About 1/10 inch", "Cereal, dried fruit, pet food, bird seed", "Six saw-like teeth on each side of the thorax"],
+      ["Rice weevil", "1/8 to 1/4 inch", "Inside whole grain kernels", "A snout in front of the head"],
+      ["Spider beetle", "About 1/12 to 1/6 inch", "Damp basements, crawl spaces, stored food", "Round body on thin legs, head hidden from above"],
+      ["Larder beetle", "About 1/3 inch", "Spring; near pet food or dead insects in attics and walls", "Dark, with a pale yellowish band that usually holds six dark spots"],
+      ["Asian lady beetle", "About 1/4 inch", "Sunny walls in fall; windows and lights in late winter and spring", "Tan to red, often spotted; an M- or W-shaped mark behind the head"],
+      ["Ground beetle", "Mostly 1/8 to 1/2 inch", "Basement floors and under boxes, mid to late summer", "Black or brown with a sheen, long legs, runs fast"],
+      ["May beetle (June bug)", "1/2 to 1 inch", "Around porch lights on late-spring nights", "Stout, brown to black, with clubbed antennae"],
+      ["Powderpost beetle", "Usually under 1/4 inch", "Near hardwood floors, trim or furniture; dead ones on windowsills", "Tiny round holes and flour-like dust in the wood"]
+    ],
+    "caption": "Sizes and features from UC IPM, the Universities of Kentucky, Minnesota and Maryland, Penn State, Colorado State and the Missouri Department of Conservation, linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the beetles in my house?" },
+    { "type": "p", "text": "Most beetles found indoors fall into four groups: carpet beetles, whose larvae eat wool, fur and pet hair; pantry beetles living in stored food; outdoor beetles that move in for the winter or wander in by accident, such as lady beetles and ground beetles; and wood-boring beetles that emerge from furniture, floors or trim. Where and when you see one sorts it: windowsills in spring point to carpet beetles, the pantry to stored-food beetles, sunny walls in fall to lady beetles, and a basement floor in late summer to ground beetles." },
+    { "type": "figure", "src": "/guides/photos/black-carpet-beetle.webp", "width": 1200, "height": 801, "alt": "Small, shiny, dark brown oval black carpet beetle with orange-brown legs, walking on a white paper towel indoors", "caption": "Black carpet beetle (Attagenus unicolor), found indoors and photographed on a paper towel. UC IPM gives the adults as 1/8 to 3/16 inch, shiny black and dark brown with brownish legs.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/369801950" },
+    { "type": "p", "text": "This page covers beetles of every size, from 1/12-inch spider beetles to inch-long May beetles. The smallest get a short entry here and the full treatment in [the guide to tiny brown bugs](/blog/tiny-brown-bugs) and [the guide to tiny black bugs](/blog/tiny-black-bugs), which sort small indoor insects by the room they turn up in." },
+
+    { "type": "h2", "text": "How do you tell which beetle you have?" },
+    { "type": "p", "text": "Start with the back. [The Missouri Department of Conservation's ground beetle page](https://mdc.mo.gov/discover-nature/field-guide/ground-beetles-carabids) notes that, like other beetles, ground beetles have shell-like wing covers that meet in a straight line down the back. A cockroach has none: [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) says adult cockroaches have membranous wings and lack the thick, hardened forewings of beetles, and young cockroaches lack fully developed wings. [The University of Maryland Extension's key to household pests](https://extension.umd.edu/resource/identifying-common-household-insect-pests) adds that cockroaches are flattened, with long antennae." },
+    { "type": "p", "text": "Bed bugs and stink bugs are true bugs, not beetles. [EPA's bed bug identification page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes an adult bed bug as flat, oval and about the size of an apple seed, with wings that are not used for flying. [The University of Maryland Extension's stink bug page](https://extension.umd.edu/resource/brown-marmorated-stink-bug) puts the brown marmorated stink bug at 14 to 17 mm (about 9/16 to 11/16 inch), mottled brown, with banded antenna tips. Once you know it is a beetle, catch it in a jar and run these checks." },
+    { "type": "checklist", "title": "Checks to run with the beetle in a jar", "items": [
+      "**Round, about 1/8 inch, patterned or shiny black?** A carpet beetle; look for fuzzy larvae in closets and rugs.",
+      "**Light brown and humped, with the head tucked under?** A drugstore or cigarette beetle from the pantry.",
+      "**Flat and shiny reddish brown, or slender with saw-like teeth along the thorax?** A flour beetle or a sawtoothed grain beetle.",
+      "**A snout?** A weevil from whole grain.",
+      "**A round body on thin, spidery legs?** A spider beetle.",
+      "**Dark, with a pale band across the front half of the back?** A larder beetle.",
+      "**Orange to red and round, with an M or W behind the head?** An Asian lady beetle.",
+      "**Black or brown, long-legged and fast, on a basement floor?** A ground beetle that wandered in.",
+      "**Holes and fine powder in wood nearby?** A wood-boring beetle; see the section on furniture below.",
+      "**How big is it?** Lay it beside a ruler marked in inches and compare it with the quick-ID table."
+    ] },
+
+    { "type": "h2", "text": "What are the little black beetles in my house?" },
+    { "type": "p", "text": "Little black beetles indoors are often black carpet beetles. UC IPM describes the adults as 1/8 to 3/16 inch long, shiny black and dark brown with brownish legs; the larvae grow to 5/16 inch, light brown to almost black, and taper to a tuft of long hairs. The adults feed on pollen and gather at windows, while the larvae feed in dark places on wool, fur, feathers and pet hair. In dry regions, UC IPM says, the black carpet beetle is more often a pest of stored grains, flours and cereals than of fabrics. [How to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles) covers the larvae step by step." },
+    { "type": "media", "needed": "Top-down photo of a black carpet beetle larva, carrot-shaped and golden to dark brown with a long tuft of hairs at the tail, on a rug or closet shelf beside a ruler marked in inches" },
+    { "type": "p", "text": "Other beetles look black at a glance. Ground beetles are bigger, shiny and long-legged, and the larder beetle is dark with a pale band; both are covered below. False powderpost beetles, which UC IPM describes as dark brown or black, mostly about 1/4 inch and humpbacked so the head is hidden from above, come out of hardwood. And a shiny, almost black insect about 1 1/4 inches long in a basement or a tub may not be a beetle: UC IPM notes that the Oriental cockroach is sometimes called a black beetle, lives in cool, damp places such as basements and drains, and can get trapped in sinks and tubs." },
+
+    { "type": "h2", "text": "What are the small beetles on my windowsills?" },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle.webp", "width": 1200, "height": 1027, "alt": "Round varied carpet beetle covered in a mottled pattern of black, white and orange-brown scales, beside a 1 mm scale bar", "caption": "Varied carpet beetle (Anthrenus verbasci) beside a scale bar of 1 mm, about 1/25 inch. UC IPM notes that the pattern wears off older adults, which can look solid brown or black.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/10606651" },
+    { "type": "p", "text": "Small, round beetles on a sill are usually adult carpet beetles. [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says the adults feed on pollen and nectar, often fly in from flowering plants or arrive on cut flowers, and are drawn to sunlight, so indoors they are typically seen near windows. The varied carpet beetle is about 1/10 inch and black with an irregular pattern of white, brown and dark yellow scales; the furniture carpet beetle is a little larger and rounder, mottled with black spots among white and yellow to orange scales, and white underneath. Varied carpet beetle adults usually appear in spring or early summer." },
+    { "type": "p", "text": "The adults on the sill are not the problem; their larvae are. UC IPM says a few adults indoors are no cause for alarm and that action is needed only when larvae are developing in fabrics, so look in closets, under heavy furniture and along carpet edges for fuzzy larvae and their brown, bristly cast skins. Other beetles end up on sills too: Kentucky says drugstore, cigarette and confused flour beetles fly to lights, and UC IPM says powderpost beetles fly toward light after they emerge, so dead ones collect on windowsills." },
+
+    { "type": "h2", "text": "What are the beetles in my kitchen and pantry?" },
+    { "type": "figure", "src": "/guides/photos/cigarette-beetle.webp", "width": 1200, "height": 900, "alt": "Side view of a light reddish-brown cigarette beetle with a humped, finely hairy body and its head tucked down under the front of the body", "caption": "Cigarette beetle (Lasioderma serricorne) from the side, showing the humped body and the head turned down, which Colorado State notes in both this beetle and the drugstore beetle.", "license": "CC-BY-3.0", "credit": "division, CSIRO, CC BY 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10823_Lasioderma_serricorne_Tobacco_or_Cigarette_Beetle.jpg" },
+    { "type": "p", "text": "Small beetles in or near food are stored-product pests, and [the pantry pest guide](/blog/pantry-pests) identifies them food by food. In short, from [UC IPM's pantry pest guide](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/): drugstore and cigarette beetles are about 1/8 inch and light brown, flour beetles about 1/7 inch and shiny reddish brown, and the sawtoothed grain beetle about 1/10 inch and slender, with six saw-like teeth on each side of the thorax. [Colorado State University Extension](https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SpiderBeetlesJan42010.pdf) notes that drugstore and cigarette beetles fly well and can be strongly drawn to lights." },
+    { "type": "p", "text": "A beetle with a snout is a weevil: [the University of Kentucky's pantry pest fact sheet](https://entomology.mgcafe.uky.edu/ef612) describes rice weevils as 1/8 to 1/4 inch and reddish brown to black, developing inside whole kernels, and says the first sign of a pantry problem is often small beetles crawling over countertops. Spider beetles, about 1/12 to 1/6 inch (2 to 4 mm) with a round body on thin legs and the head hidden from above, turn up in stored food and in damp basements and crawl spaces, Colorado State says. They also get mistaken for ticks, as [the guide to bugs that look like ticks](/blog/bugs-that-look-like-ticks) shows, and [the spider beetle guide](/blog/spider-beetles) covers them. UC IPM does not recommend insecticides for any pantry pest." },
+
+    { "type": "h2", "text": "What is the dark beetle with a pale band across its back?" },
+    { "type": "figure", "src": "/guides/photos/larder-beetle.webp", "width": 1200, "height": 900, "alt": "Larder beetle seen from above on a wooden surface: an oval black beetle with a pale tan band across the front half of its wing covers, marked with dark spots", "caption": "Larder beetle (Dermestes lardarius). Penn State describes the adult as about 1/3 inch and dark, with a band of pale yellow hairs on the front half of the wing covers that usually holds six dark spots.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/76795736" },
+    { "type": "p", "text": "A dark, oval beetle about 1/3 inch long with a pale band across its back is a larder beetle, a relative of the carpet beetles. [Penn State Extension's larder beetle page](https://extension.psu.edu/larder-beetle) says the adults often spend the winter outdoors under bark and, in early spring, come indoors drawn to dead insects to lay their eggs. The larvae, brownish, hairy and about 1/2 inch with two curved spines at the tail end, feed on dried pet food, hides, feathers, many pantry items and the dead flies, wasps and other insects that collect in attics and wall voids. When ready to pupate they bore into whatever is nearby, Penn State says, occasionally even structural timbers." },
+
+    { "type": "h2", "text": "Why are there orange beetles on my walls in fall and spring?" },
+    { "type": "figure", "src": "/guides/photos/asian-lady-beetle-aggregation.webp", "width": 1200, "height": 2019, "alt": "Dozens of orange and red Asian lady beetles, some heavily spotted and some with few spots, clustered on a wooden door frame beside a white wall", "caption": "Asian lady beetles (Harmonia axyridis) massed on a door frame. Their color runs from tan to orange to red, and some have no spots at all.", "license": "CC-BY-SA-4.0", "credit": "Chinoaltubedenoia, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ladybug_meeting_I.png" },
+    { "type": "p", "text": "Swarms of orange beetles on sunny walls in fall, or at windows in late winter, are Asian lady beetles, which often spend the winter in buildings. [The University of Kentucky's Asian lady beetle fact sheet](https://entomology.mgcafe.uky.edu/ef416) describes them as oval, about 1/4 inch and tan to orange to red, with several black spots or none, and usually a small dark M- or W-shaped mark on the whitish area behind the head. They fly to buildings from September through November, gather on the sunny southwest side and settle into attics and wall cavities; on warm days in late winter and spring, some wander inward and turn up at windows and light fixtures." },
+    { "type": "p", "text": "Kentucky says they do not reproduce indoors and do not attack wood, food or clothing, but they give off an odor and a yellowish fluid that can stain, and they occasionally pinch. A vacuum removes them, and sealing cracks in late spring or summer helps keep the next fall's beetles out. [The Asian lady beetle guide](/blog/asian-lady-beetles) tells them from native ladybugs, and [the guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) covers the other fall invaders." },
+
+    { "type": "h2", "text": "What are the big black beetles in the basement or by the door?" },
+    { "type": "figure", "src": "/guides/photos/ground-beetle.webp", "width": 1200, "height": 900, "alt": "Shiny black ground beetle with grooved wing covers and long legs, pinned on foam beside a printed metric ruler card", "caption": "A ground beetle (Pterostichus melanarius), a pinned specimen beside a metric ruler. Like other beetles, its hard wing covers meet in a straight line down the back.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/222572904" },
+    { "type": "p", "text": "A black or brown beetle with long legs running across a basement floor in late summer is likely a ground beetle that came in by accident. [University of Minnesota Extension's ground beetle page](https://extension.umn.edu/nuisance-insects/ground-beetles) puts most at 1/8 to 1/2 inch, a few up to 1 inch, flattened, with obvious jaws, mostly black or brown with an iridescent sheen. They are active at night and sometimes drawn to lights, usually come in during mid to late summer through cracks and gaps, and hide in damp spots in the basement or under boxes. UMN says they do not damage buildings, food or clothing, are short-lived indoors and do not reproduce there; catch them in a container or vacuum them up." },
+    { "type": "figure", "src": "/guides/photos/may-june-beetle.webp", "width": 1200, "height": 1600, "alt": "Stout reddish-brown May beetle with a shiny back, resting on a person's fingertip outdoors", "caption": "A May beetle (genus Phyllophaga) on a fingertip. The Missouri Department of Conservation gives May beetles as 1/2 to 1 inch long.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/353850006" },
+    { "type": "p", "text": "A stout brown beetle, 1/2 to 1 inch long, that flies clumsily around porch lights and crash-lands on late-spring nights is a May beetle, also called a June bug. [The Missouri Department of Conservation's May beetle page](https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs) describes them as brown, rusty or black, hairy underneath, with clubbed antennae, attracted to lights at night and unable to hurt people. One that gets inside has probably followed the light through a door or a gap. [The June bug guide](/blog/june-bugs-ontario) covers them and their lawn grubs." },
+
+    { "type": "h2", "text": "Are beetles eating my furniture or wood floors?" },
+    { "type": "p", "text": "Tiny round holes in wooden furniture, flooring or trim, with fine dust beneath them, are the work of wood-boring beetles. The University of Maryland Extension groups these as powderpost beetles, furniture or deathwatch beetles, and false powderpost beetles, with adults 1/8 to 1/4 inch and brown to black. [UC IPM's guide to wood-boring beetles in homes](https://ipm.ucanr.edu/home-and-landscape/wood-boring-beetles-in-homes/) says the larvae do the damage inside the wood and the adults chew round exit holes on their way out." },
+    { "type": "media", "needed": "Close-up photo of powderpost beetle exit holes, each about 1/16 inch across, in a hardwood floorboard or furniture leg, with the fine, flour-like frass piled beneath them and a ruler marked in inches for scale" },
+    { "type": "p", "text": "Powderpost beetles attack hardwoods such as oak, ash, hickory, mahogany and walnut in paneling, molding, flooring, window and door frames, plywood, bamboo and furniture, UC IPM says, and can arrive in furniture, firewood or wooden decorations; their frass feels like flour or talcum powder. [Penn State Extension's powderpost beetle page](https://extension.psu.edu/powderpost-beetles) describes them as small brown beetles usually under 1/4 inch that leave holes about 1/16 to 1/8 inch across, and says old furniture and antiques are especially vulnerable. Deathwatch beetles, relatives of the drugstore and cigarette beetles, prefer damp softwood in basements and crawl spaces, and their frass feels gritty." },
+    { "type": "p", "text": "UC IPM's two quick tests sort the three: push the tip of a click-type ballpoint pen into an exit hole, and rub the dust between your fingers. Only the tip fits a powderpost hole and the dust feels like talcum powder; the tip and part of the angled face fit a deathwatch hole and the dust feels gritty; the whole point usually fits a false powderpost hole, whose dust is hard to get out. Small wooden items without fabric, pelts or paint can be heated to 120 to 140°F for 6 hours or frozen at 0°F for 72 hours, longer if the wood is over 2 inches thick. Treating structural wood with borates requires a licensed pest control operator, UC IPM says." },
+    { "type": "p", "text": "Beetles that come out of firewood brought indoors are usually forest insects, which UC IPM says will not attack the house or the furniture. Six-sided, ridged pellets instead of fine powder point to [drywood termites](https://ipm.ucanr.edu/home-and-landscape/drywood-termites/);[the guide to termite damage](/blog/termite-damage) shows the difference." },
+
+    { "type": "h2", "text": "Do beetles in the house bite?" },
+    { "type": "p", "text": "Most do not. The University of Kentucky says Asian lady beetles occasionally pinch when they land on skin, which feels like a pinprick and is seldom serious, and University of Minnesota Extension says ground beetles could pinch if mishandled. May beetles cannot hurt people, according to the Missouri Department of Conservation. Carpet beetle larvae do not bite, but [Penn State Extension's page on carpet beetle dermatitis](https://extension.psu.edu/carpet-beetle-dermatitis) describes an intensely itchy rash, often taken for bites, that is an allergic reaction to the larvae's hairs and apparently develops only after years of exposure. [The carpet beetle rash guide](/blog/carpet-beetle-rash) has more. Contact a healthcare provider about any rash or reaction that worries you." },
+
+    { "type": "h2", "text": "Why are there beetles in my house in winter?" },
+    { "type": "p", "text": "Beetles indoors in winter are usually Asian lady beetles that moved in during the fall, or carpet and pantry beetles breeding inside. Kentucky says the lady beetles spend the winter in attics and wall cavities, wake on warm days in late winter and early spring, and are the same beetles that came in the previous fall. UC IPM says varied carpet beetle larvae can feed for 220 to 630 days before they pupate, so they turn up in any season, and Penn State notes that larder beetles come inside in early spring, drawn to insects that died in attics and walls. [The guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) sorts all the winter invaders." },
+
+    { "type": "confused", "title": "Often mistaken for beetles", "items": [
+      { "href": "/blog/what-do-baby-cockroaches-look-like", "name": "Cockroach nymph", "photo": "german-cockroach-nymphs", "note": "No hard wing covers; a flattened body with long antennae", "alt": "Three German cockroach nymphs of different sizes seen from above on a blue background" },
+      { "href": "/learn/cockroaches", "name": "Oriental cockroach", "photo": "oriental-cockroach", "note": "Almost black and about 1 1/4 inches; sometimes called a black beetle", "alt": "Shiny black Oriental cockroach on a gritty concrete surface" },
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-adult-ruler", "note": "A flat, oval true bug the size of an apple seed; its wings are not used for flying", "alt": "Adult bed bug seen from above beside a millimeter scale" },
+      { "href": "/blog/how-to-get-rid-of-stink-bugs", "name": "Stink bug", "photo": "brown-marmorated-stink-bug", "note": "Mottled brown, about 9/16 to 11/16 inch, with banded antenna tips", "alt": "Brown marmorated stink bug feeding on an apple" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know which beetle it is?" },
+    { "type": "p", "text": "Find and remove what the beetle came for; the extension sources favor that over spraying." },
+    { "type": "ul", "items": [
+      "**Carpet beetles.** Vacuum rugs, closets and upholstered furniture, wash infested items in hot water or dry-clean them, clear out lint, hair, dead insects and old spider webs, and check cut flowers before bringing them in, as UC IPM advises. [How to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles) has the full plan.",
+      "**Pantry beetles and weevils.** Throw out infested food, vacuum and wash the shelves, and store dry goods in airtight containers; UC IPM does not recommend insecticides for pantry pests. [The pantry pest guide](/blog/pantry-pests) goes food by food.",
+      "**Larder and spider beetles.** Find the food source: Penn State points to dead insects in attics and walls and to pet food for larder beetles, and Colorado State links spider beetles to damp areas, stored food and old rodent nests.",
+      "**Asian lady beetles.** Vacuum them up and seal cracks around windows, doors, soffits and utility lines before fall; Kentucky does not recommend indoor foggers or sprays for them.",
+      "**Ground beetles and May beetles.** Carry them out or vacuum them, seal gaps around doors and low windows, and cut down outdoor lighting or switch to yellow bulbs, as University of Minnesota Extension suggests for ground beetles.",
+      "**Wood-boring beetles.** Inspect wooden furniture and decorations before bringing them in, heat or freeze small items as UC IPM describes, and have structural wood looked at by a licensed professional."
+    ] },
+    { "type": "p", "text": "If the insect turns out to be a moth or a moth larva rather than a beetle, [the guide to small moths in the house](/blog/moths-in-house) sorts pantry moths from clothes moths." },
+    { "type": "callout", "tone": "tip", "title": "Save the specimen", "text": "Seal the beetle in a small jar, photograph it beside a ruler marked in inches, and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "What attracts beetles into the house?",
+      "answer": "Light, food and shelter, depending on the beetle. UC IPM says carpet beetle adults are drawn to sunlight and often come in on cut flowers, and University of Minnesota Extension says ground beetles are active at night and sometimes drawn to lights. Pantry beetles come in with infested food. Asian lady beetles fly to sunny walls in fall looking for a place to spend the winter, Kentucky says, and Penn State says larder beetles come inside in spring drawn to dead insects."
+    },
+    {
+      "question": "Are little black beetles in the house harmful?",
+      "answer": "Usually they are a sign of a food source rather than a danger. Black carpet beetles, often the little black beetles found indoors, do not bite, but UC IPM says their larvae damage wool, fur, feathers and pet hair, and in dry regions infest stored grains and cereals. Ground beetles do not damage buildings, food or clothing, according to University of Minnesota Extension. Find out which one you have, then deal with what it is feeding on."
+    },
+    {
+      "question": "Why do I keep finding beetles in my house?",
+      "answer": "A steady trickle can mean they are breeding indoors. Repeated carpet beetles point to larvae in a closet, rug or under furniture, and repeated pantry beetles to an infested package of food that has not been found yet. UC IPM says a few adult carpet beetles that fly in from flowers are no cause for alarm. Beetles that return every fall, such as Asian lady beetles, are getting in through cracks, which Kentucky advises sealing in late spring or summer."
+    },
+    {
+      "question": "Do beetles in the house bite?",
+      "answer": "Most do not. Kentucky says Asian lady beetles occasionally pinch when they land on skin, which feels like a pinprick and is seldom serious, and University of Minnesota Extension says ground beetles may pinch if mishandled. May beetles cannot hurt people, according to the Missouri Department of Conservation. Carpet beetle larvae do not bite, but Penn State Extension says their hairs can cause an itchy rash, often mistaken for bites, in people exposed for years."
+    },
+    {
+      "question": "Can beetles damage wood furniture or floors?",
+      "answer": "Yes, wood-boring beetles can. UC IPM says powderpost, deathwatch and false powderpost beetles damage furniture and structural and decorative wood, with the larvae feeding inside and the adults leaving round exit holes. Penn State Extension says powderpost beetle holes are about 1/16 to 1/8 inch across, with fine powder below them, and that old furniture and antiques are especially vulnerable. Beetles that emerge from firewood are usually forest insects that will not attack the house."
+    },
+    {
+      "question": "How do I get rid of beetles in my house?",
+      "answer": "Identify the beetle first, because each one needs a different fix. Carpet beetles call for vacuuming and hot washing or dry cleaning of what the larvae eat; pantry beetles for throwing out infested food and storing the rest in airtight containers, without insecticides, as UC IPM advises. Lady beetles and ground beetles can be vacuumed up and kept out by sealing gaps. Wood-boring beetles in structural wood need a licensed professional."
+    },
+    {
+      "question": "Why are there beetles in my house in winter?",
+      "answer": "Most winter beetles moved in during the fall or are breeding inside. Kentucky says Asian lady beetles spend the winter in attics and wall cavities and become active on warm days in late winter and early spring, and that they do not reproduce indoors. Carpet beetle larvae can feed for months before pupating, according to UC IPM, so they turn up in any season. Penn State says larder beetles come inside in early spring, drawn to dead insects."
+    },
+    {
+      "question": "How can I tell a beetle from a cockroach?",
+      "answer": "Look at the back. Beetles have hard, shell-like wing covers that meet in a straight line down the back, as the Missouri Department of Conservation describes. UC IPM says adult cockroaches have membranous wings and lack the hardened forewings of beetles, and young cockroaches lack fully developed wings. The Oriental cockroach, almost black and about 1 1/4 inches long, is sometimes called a black beetle, according to UC IPM."
+    },
+    {
+      "question": "Are beetles in the house a sign of a bigger problem?",
+      "answer": "Sometimes they lead to one. Penn State says larder beetles are drawn to dead insects, and their larvae feed on the insects that collect in attics and wall voids. Colorado State says spider beetles are typically found in damp basements and crawl spaces and can develop in the refuse of rodent nests. UC IPM advises removing old bird, rodent, bee and wasp nests, which can harbor carpet beetles. Holes and powder in wood mean wood-boring beetles."
+    }
+  ],
+  "sources": [
+    { "title": "Carpet Beetles (Pest Notes, Publication 7436)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Ground Beetles (Carabids)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/ground-beetles-carabids" },
+    { "title": "Cockroaches (Pest Notes, Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Identifying Common Household Insect Pests", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/identifying-common-household-insect-pests" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "Brown Marmorated Stink Bug", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/brown-marmorated-stink-bug" },
+    { "title": "Pantry Pests (Pest Notes, Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Colorado Insects of Interest: Spider Beetles", "publisher": "Colorado State University Extension", "url": "https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/SpiderBeetlesJan42010.pdf" },
+    { "title": "Stored Product Pests in the Pantry (ENTFACT-612)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef612" },
+    { "title": "Larder Beetle", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/larder-beetle" },
+    { "title": "Asian Lady Beetle Infestation of Structures (ENTFACT-416)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef416" },
+    { "title": "Ground Beetles", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/nuisance-insects/ground-beetles" },
+    { "title": "May Beetles (June Bugs)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs" },
+    { "title": "Wood-Boring Beetles in Homes (Pest Notes, Publication 7418)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/wood-boring-beetles-in-homes/" },
+    { "title": "Drywood Termites (Pest Notes, Publication 7440)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/drywood-termites/" },
+    { "title": "Powderpost Beetles", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/powderpost-beetles" },
+    { "title": "Carpet Beetle Dermatitis", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" }
+  ]
+}

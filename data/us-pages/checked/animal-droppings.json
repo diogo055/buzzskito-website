@@ -1,0 +1,15 @@
+{
+ "id": "animal-droppings",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7236642ff51bb7049bfda01b539c524af44f03bf6fc3257d6aeb66c498aab46f",
+ "claimsChecked": 223,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

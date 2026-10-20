@@ -1,0 +1,187 @@
+{
+  "slug": "animals-in-attic",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "noises in attic at night",
+  "alsoTargets": [
+    "animal in attic",
+    "squirrels in attic",
+    "mice in attic",
+    "rats in attic",
+    "raccoon in attic",
+    "bats in attic",
+    "scratching in walls",
+    "scratching noise in attic at night",
+    "what animal is in my attic"
+  ],
+  "metaTitle": "Noises in Attic at Night? ID the Animal (Photos)",
+  "metaDescription": "Night noise in an attic points to mice, rats, flying squirrels, raccoons or opossums; daytime to gray squirrels; dusk to bats. Sort it by sound and sign.",
+  "h1": "Noises in the Attic at Night: Which Animal Is Up There, by Sound and Sign",
+  "dek": "When you hear it, how it got in and what it leaves behind narrow an attic noise to a few animals: mice, rats, squirrels, raccoons, opossums or bats. Photos, a quick-ID table and the next step for each.",
+  "breadcrumb": "Noises in the Attic at Night",
+  "excerpt": "Scratching, thumping or squeaking overhead? Sort the animal by time of night, entry hole and droppings, with photos, a quick-ID table and what to do next.",
+  "datePublished": "2026-10-20",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**The time you hear it is the first sort: attic noise at night usually means mice, rats, flying squirrels, raccoons or opossums, noise during the day points to gray squirrels, and a burst of squeaking and scratching around dusk points to bats.** Then confirm the animal with its droppings and the size of the hole it uses to get in.",
+    "bullets": [
+      "UGA Extension says attic noise at night could be mice, bats or flying squirrels, while noise during the day could be gray squirrels, and it lists raccoons and opossums as night animals.",
+      "Penn State Extension says flying squirrels are the only squirrels active at night.",
+      "The U.S. Fish and Wildlife Service notes that bats often get noisy just before they leave the roost at sunset, so noise that rises around dusk probably means bats.",
+      "Mouse droppings are 1/8 to 1/4 inch long (Nebraska Extension) and roof rat droppings about 1/2 inch (Cornell IPM).",
+      "Adult raccoons usually weigh 7 to 35 pounds and opossums about 10 pounds (UNL Extension), against 15 to 24 ounces for a gray squirrel (Penn State).",
+      "CDC says that if you bat-proof between May and August, take care not to trap young bats inside."
+    ]
+  },
+  "facts": {
+    "title": "Noises in the attic: quick ID",
+    "head": ["Animal", "When you hear it", "How it gets in", "Sign that confirms it"],
+    "rows": [
+      ["House mouse", "At night", "Gaps slightly larger than 1/4 inch; climbs rough walls", "Droppings 1/8 to 1/4 inch, pointed, scattered rather than piled"],
+      ["Roof rat", "Mostly at night", "Climbs; travels utility lines and fence tops at dusk", "Droppings about 1/2 inch; smudge marks on beams and rafters"],
+      ["Gray squirrel", "During the day", "Chews openings in siding and under the eaves", "Chewed insulation and chewed coating on wires"],
+      ["Flying squirrel", "At night", "Gable ends and other gaps; nests in attics", "Squirrel noise after dark; they often group together in winter"],
+      ["Raccoon", "At night", "Holes 4 to 6 inches across; can tear through shingles", "Dark, tubular droppings with seeds, piled in one spot"],
+      ["Opossum", "At night", "Openings at least 3 inches wide", "Cat-sized droppings full of bits of food"],
+      ["Bat", "Around dusk, as bats leave, and at night", "Openings as small as 1/4 inch", "Crumbly droppings piled under entry holes; brown stains by the eaves"]
+    ],
+    "caption": "Timing from UGA Extension, UC IPM, Penn State, UNL Extension and the USFWS; entry points from Nebraska and UNL Extension, UC IPM, Penn State, UGA and CDC; signs from Nebraska and UNL Extension, Cornell IPM, UC IPM, Penn State, CDC and the USFWS, each linked below."
+  },
+  "body": [
+    { "type": "h2", "text": "What is making noise in my attic at night?" },
+    { "type": "p", "text": "Night noise in an attic usually comes from mice, rats, flying squirrels, raccoons or opossums, and the hour you hear it is the quickest way to narrow the list. [UGA Extension's guide to nuisance wildlife](https://fieldreport.caes.uga.edu/publications/B1248/resolving-human-nuisance-wildlife-conflicts/) says attic noise at night could be mice, bats or flying squirrels, while attic noise during the day could be gray squirrels, and it names raccoons and opossums among the animals that are active at night." },
+    { "type": "figure", "src": "/guides/photos/raccoon-on-chimney.webp", "width": 1200, "height": 1800, "alt": "Gray raccoon with a black mask peering over the brick top of a house chimney at night, lit by a camera flash", "caption": "A raccoon on top of a house chimney at night in Chapel Hill, North Carolina. Raccoons den in chimneys and attics, and an adult usually weighs 7 to 35 pounds.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/203890432" },
+    { "type": "p", "text": "Sound alone is a weak clue, so confirm with what the animal leaves behind: droppings, an entry hole of a telling size, and rub or chew marks. The [U.S. Fish and Wildlife Service's 1982 house bat manual](https://pubs.usgs.gov/rp/0143/report.pdf) warns that scrambling, scratching and thumping in attics and walls may be rats, mice or flying squirrels rather than bats, and that twittering and rustling in an old chimney may be chimney swifts, a bird. Droppings often settle it, and [the animal droppings chart](/blog/animal-droppings) sets each attic animal's side by side." },
+    { "type": "checklist", "title": "Checks to run before you call it", "items": [
+      "**When is it loudest?** Night points to mice, rats, flying squirrels, raccoons or opossums; daytime to gray squirrels; a burst around dusk to bats.",
+      "**How heavy does it sound?** A raccoon of 7 to 35 pounds or an opossum of about 10 pounds makes heavier footsteps than a squirrel of 15 to 24 ounces.",
+      "**Where is it coming from?** Inside a wall could be mice; a chimney can mean a raccoon, a squirrel, a bird or a bat.",
+      "**What droppings are there?** Compare them to a ruler without touching them: 1/8 to 1/4 inch fits a mouse, about 1/2 inch a roof rat, and crumbly piles under a gap fit bats.",
+      "**How big is the way in?** Bats fit through 1/4 inch and mice through a gap slightly larger than 1/4 inch, while opossums need 3 inches and raccoons 4 to 6."
+    ] },
+    { "type": "h2", "text": "Is it scratching and scurrying at night? Mice or rats" },
+    { "type": "p", "text": "Scratching and squeaking from ceilings and walls at night often means mice. [Nebraska Extension's house mouse guide](https://extensionpubs.unl.edu/publication/g1105/html/view) lists those sounds among the signs of mice, says they are usually seen on their nocturnal travels, and notes that they climb any rough vertical surface, which is how they reach an attic. Their droppings average 1/8 to 1/4 inch long, with one or both ends pointed, and usually do not collect in piles. Why mice are loudest at night, and where in a house you hear them, is covered in [the guide to when mice are active](/blog/are-mice-nocturnal)." },
+    { "type": "p", "text": "Rats are bigger, and the roof rat is the one that lives up high. [UC IPM's rat guide](https://ipm.ucanr.edu/home-and-landscape/rats/) says roof rats nest in attics, wall voids and ceiling voids, that rats are mostly active at night, and that signs include noises from the attic or a drop ceiling and smudge marks where rats rub their fur against beams, rafters, pipes and walls. Norway rats, by contrast, typically stay in basements and on ground floors. [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) puts roof rat droppings at about 1/2 inch long and Norway rat droppings at 3/4 to 1 inch." },
+    { "type": "figure", "src": "/guides/photos/roof-rat-rafters.webp", "width": 1200, "height": 817, "alt": "Gray-brown roof rat with large ears and a long thin tail on a wooden beam among the rafters of a building, beside a small dish", "caption": "A roof rat among the rafters of a building, eating bait from a small dish. Roof rats nest in attics and other high, enclosed spaces.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25123" },
+    { "type": "p", "text": "For mice in an attic, [the mice removal guide](/blog/mice-removal) has a section on where to set traps and which roofline gaps to close, and [a side-by-side of the two rats](/blog/roof-rat-vs-norway-rat) shows how to tell the climbing roof rat from the burrowing Norway rat. [The complete guide to mice](/learn/mice) covers the rest." },
+
+    { "type": "h2", "text": "Is it heavy walking or thumping at night? Raccoon or opossum" },
+    { "type": "p", "text": "Slow, heavy movement overhead at night fits the two big night animals that use buildings, raccoons and opossums. [UNL Extension's raccoon and opossum guide](https://extensionpubs.unl.edu/publication/g1688/na/html/view) says both are nocturnal and puts adult raccoons at 7 to 35 pounds and opossums at about 10 pounds. Raccoons den in attics and chimneys, need only a 4- to 6-inch hole and have been known to tear through a shingled roof; opossums need an opening at least 3 inches wide." },
+    { "type": "p", "text": "Raccoons normally leave their dens every night to forage, according to [Minnesota DNR's raccoon page](https://www.dnr.state.mn.us/livingwith_wildlife/raccoons/index.html), but in spring and early summer the young may be too small to leave, and in very cold or stormy winter weather adults may stay in for weeks. UNL adds that raccoons breed from January through March, with much screeching and growling, and give birth about nine weeks later, so attic or chimney noise in spring can mean a mother with young." },
+    { "type": "p", "text": "A raccoon also leaves a latrine, a spot it uses again and again. [CDC](https://www.cdc.gov/baylisascaris/prevention/index.html) describes raccoon droppings as dark and tubular, with a strong odor and often undigested seeds, and lists attics among the places they turn up. To keep raccoons away from the house once they are out, see [the raccoon deterrent guide](/blog/raccoon-deterrent)." },
+    { "type": "figure", "src": "/guides/photos/virginia-opossum.webp", "width": 1200, "height": 900, "alt": "Virginia opossum with a white face, pink nose, dark ears and grizzled gray fur walking through dry grass in daylight", "caption": "A Virginia opossum, out in the daytime. Opossums grow to about the size of a housecat and need an opening at least 3 inches wide to get into a building.", "license": "CC0-1.0", "credit": "PookieFugglestein, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virginia_opossum_during_daytime.jpg" },
+    { "type": "media", "needed": "Photo of a raccoon latrine inside an attic: a pile of droppings on insulation or a joist, from a public domain or CC0 source such as CDC PHIL or a state wildlife agency" },
+
+    { "type": "h2", "text": "Is the noise during the day? Gray squirrels" },
+    { "type": "p", "text": "Noise in daylight points to gray squirrels, the attic animal that keeps a daytime schedule in UGA Extension's guide. [Penn State Extension's tree squirrel guide](https://extension.psu.edu/tree-squirrels) says squirrels chew siding and under the eaves to make openings for their nests, then chew insulation and the insulation around wires, a habit it calls dangerous because bare wires may cause a fire. Gray squirrels usually have two litters a year, breeding in mid-December or early January and again in June, and the young are weaned after two months." },
+    { "type": "figure", "src": "/guides/photos/eastern-gray-squirrel.webp", "width": 1072, "height": 1072, "alt": "Eastern gray squirrel sitting upright in green grass, with gray fur, a pale belly and a bushy tail", "caption": "An eastern gray squirrel. Gray squirrels weigh 15 to 24 ounces, far lighter than a raccoon or an opossum.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/366669598" },
+    { "type": "media", "needed": "Photo taken from the ground of a gray squirrel going into a chewed opening at a soffit, eave or gable vent of a house, showing how big the hole is" },
+
+    { "type": "h2", "text": "Is it a squirrel you hear at night? Flying squirrels" },
+    { "type": "p", "text": "A squirrel heard at night is a flying squirrel: Penn State says flying squirrels are the only squirrels active at night, that their small size makes them prone to nesting in attics, and that young may stay with the mother through the winter, when flying squirrels commonly group together. They are 8 to 10 inches long and weigh 1.3 to 4 ounces. UGA lists the gable ends of a house as a common way in for flying squirrels, gray squirrels, bats and birds." },
+    { "type": "figure", "src": "/guides/photos/flying-squirrel-attic.webp", "width": 1200, "height": 626, "alt": "Black-and-white trail camera image of a small flying squirrel climbing head-down on a brick chimney that rises out of attic insulation", "caption": "A southern flying squirrel climbing down a brick chimney inside an attic in New Jersey, recorded by a trail camera.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/22191794" },
+
+    { "type": "h2", "text": "Is it squeaking and scratching around dusk? Bats" },
+    { "type": "p", "text": "Squeaking, scratching and chattering that rises around dusk points to bats. The USFWS manual explains that bats often get noisy before they leave their roosts at sunset and may chatter on hot days, and that they nearly always give themselves away with droppings beneath entrance holes and below roosts, often with brown stains and odors near the eaves. Bat droppings crumble easily into shiny bits of insect shell, while rodent droppings are harder." },
+    { "type": "figure", "src": "/guides/photos/big-brown-bat.webp", "width": 1200, "height": 889, "alt": "Big brown bat with glossy reddish-brown fur clinging head-down to white-painted wooden boards in sunlight", "caption": "A big brown bat on white-painted wood in Minnesota. Buildings suit this species for both raising young and hibernating.", "license": "public-domain", "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Brown_Bat_(21925795404).jpg" },
+    { "type": "figure", "src": "/guides/photos/bat-droppings-siding.webp", "width": 1200, "height": 904, "alt": "Clumps of small, dark, crumbly droppings stuck to brown wooden siding around a narrow gap between two boards", "caption": "Droppings on wooden siding at a gap between boards, identified on iNaturalist as big brown bat droppings. Bat droppings collect below the gaps bats use.", "license": "CC-BY-4.0", "credit": "(c) Matt Muir, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/184631840" },
+    { "type": "media", "needed": "Photo of bat droppings piled on attic insulation or flooring below a roost, beside a ruler marked in inches, taken without handling any bats (public domain or CC0, identified by a wildlife agency)" },
+    { "type": "p", "text": "[CDC's page on bats and rabies](https://www.cdc.gov/rabies/prevention/bats.html) says bats can fit through openings as small as 1/4 inch, that bat bites can be so tiny you may not know you were bitten, and that you should avoid touching bats and see a medical professional if you may have had contact with one. If a bat gets into the living space, CDC advises calling animal control or the health department to capture it for rabies testing and not releasing it until you have talked with a public health expert. [The bat poop guide](/blog/bat-poop) compares bat and mouse droppings in detail." },
+
+    { "type": "h2", "text": "Can you seal bats out of the attic yourself?" },
+    { "type": "p", "text": "Only at the right time of year and within your state's rules, which is why a licensed wildlife professional is the safer choice. CDC says most bats leave in the fall or winter, the best times to bat-proof, warns that anyone bat-proofing between May and August must take care not to trap young bats inside, and notes that some bats are endangered and that local rules or laws on removing bats apply." },
+    { "type": "p", "text": "The rules vary by state. [New Jersey's bat guidelines, updated in April 2026](https://dep.nj.gov/wp-content/uploads/njfw/nuisance-wildlife-control-guidelines-for-bats-2026-04-01.pdf), note that state law protects bats like all of New Jersey's native nongame wildlife, rule out lethal methods and glue boards, and allow eviction only from April 1 to May 14 and August 1 to October 15, because from May 15 to July 31 the young cannot yet fly and would die in the roost, and from October 16 to March 31 bats, especially big brown bats, may be overwintering inside. [Wisconsin's bat program](https://dnr.wisconsin.gov/topic/WildlifeHabitat/bats) says not to restrict bats' exits from June 1 through July 31, the maternity season, and lists little brown and big brown bats as threatened in the state." },
+    { "type": "p", "text": "In Canada, [Environment and Climate Change Canada](https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/factsheets/bats-white-nose-syndrome/buildings-emergency-listing-order.html) lists the little brown myotis, northern myotis and tri-colored bat as endangered and asks whether removal can wait until the end of the breeding season. Check with your state or provincial wildlife agency before any work." },
+
+    { "type": "h2", "text": "What about chirping or twittering in the chimney?" },
+    { "type": "p", "text": "Chirping and thumping from a chimney is a raccoon sign: UNL lists both sounds, along with smudge marks along the downspouts. UGA adds that noise in a chimney can also be a squirrel, a bird or a bat, and the USFWS manual says twittering and rustling in old chimneys may be chimney swifts. All native birds, chimney swifts included, are federally protected under the Migratory Bird Treaty Act, UGA notes, so leave them be." },
+    { "type": "p", "text": "For raccoons in a chimney, UNL says to secure the damper and ash cleanouts, then either wait until the young grow enough to leave, typically 6 to 8 weeks, or hire a qualified professional, and to cap the flue once the raccoons are gone. [The chimney cap guide](/blog/raccoon-proof-chimney-cap-canada) covers fitting a cap without trapping an animal inside." },
+
+    { "type": "h2", "text": "Are animals in the attic a health risk?" },
+    { "type": "p", "text": "Their droppings are the main risk, and each kind needs different care. [CDC's rodent cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) say to open the space for 30 minutes first, wear rubber or plastic gloves, soak urine and droppings with disinfectant or a bleach solution of 1.5 cups of bleach per gallon of water for 5 minutes, wipe them up with paper towels, and never sweep or vacuum them; insulation soiled with urine and droppings goes into plastic bags. [CDC's hantavirus page](https://www.cdc.gov/hantavirus/about/index.html) says the most common hantavirus that causes hantavirus pulmonary syndrome in the United States is spread by the deer mouse; [the deer mouse guide](/blog/deer-mice) explains how to recognize one." },
+    { "type": "p", "text": "Raccoon latrines can carry raccoon roundworm. CDC says to wear disposable gloves and, in a confined space such as an attic, an N95-rated respirator, to mist the droppings lightly so they do not raise dust, and to remember that most chemicals do not kill the eggs while heat does; it suggests contacting local animal control for help. Bat and bird droppings are linked to histoplasmosis: [CDC says](https://www.cdc.gov/histoplasmosis/about/index.html) people catch it by breathing in spores of a fungus that lives in soil mixed with bird and bat droppings, mainly in the central and eastern states, though most people who breathe the spores do not get sick. [CDC's prevention page](https://www.cdc.gov/histoplasmosis/prevention/index.html) says large amounts of bird or bat droppings should be cleaned up by professional companies that specialize in hazardous waste." },
+
+    { "type": "confused", "title": "Look closer at each suspect", "items": [
+      { "href": "/blog/are-mice-nocturnal", "name": "House mouse", "photo": "house-mouse", "note": "Scratches and squeaks at night; droppings 1/8 to 1/4 inch", "alt": "House mouse with a long thin tail seen from the side" },
+      { "href": "/blog/roof-rat-vs-norway-rat", "name": "Roof rat", "photo": "roof-rat", "note": "Climbs high and nests in attics; droppings about 1/2 inch", "alt": "Roof rat with large ears and a slim body on a bird feeder platform" },
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "1/2 inch long or more; a mouse's are 1/8 to 1/4 inch", "alt": "Dark rat droppings on moss beside a thumb for size" },
+      { "href": "/blog/bat-poop", "name": "Bat droppings", "photo": "bat-droppings-ruler", "note": "Crumble into shiny insect bits and pile up below entry holes", "alt": "Dark, crumbly bat droppings beside a clear ruler" },
+      { "href": "/blog/raccoon-poop", "name": "Raccoon latrine", "photo": "raccoon-latrine-deck", "note": "Dark, tubular droppings piled in one spot, often with seeds", "alt": "Pile of old and newer raccoon droppings on a backyard deck" },
+      { "href": "/blog/deer-mice", "name": "Deer mouse", "photo": "deer-mouse", "note": "The mouse that spreads the most common US hantavirus, per CDC", "alt": "Deer mouse with big dark eyes, a brown back and a white belly clinging to bare twigs in winter" }
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know which animal it is?" },
+    { "type": "p", "text": "Let the animal leave before you seal anything, and use a licensed wildlife professional for raccoons, bats and any animal with young." },
+    { "type": "ul", "items": [
+      "**Mice and rats.** UC IPM says to seal openings larger than 1/4 inch, noting that young rats can squeeze under a door with a 1/2-inch gap; [the mice removal guide](/blog/mice-removal) covers an attic job.",
+      "**Squirrels.** Penn State says to close openings only after the squirrels appear to have left, making sure none are locked inside, and that a one-way door over the opening lets them out without letting them back in.",
+      "**Raccoons.** Minnesota DNR's advice is to wait until all the raccoons have left the attic, then repair the hole. UNL warns never to close an opening unless you are certain it is no longer in use, so a mother is not separated from her young, and UGA does not recommend live trapping raccoons or skunks for homeowners because they can carry rabies.",
+      "**Bats.** Work within your state wildlife agency's rules and dates, and hire a licensed wildlife professional for exclusion. New Jersey's guidelines rule out lethal methods and glue boards.",
+      "**Any wild animal.** State and federal laws protect nearly all wildlife, UGA says, and relocating it is generally discouraged and may be illegal, so check with your state wildlife agency first."
+    ] },
+    { "type": "p", "text": "If something is also digging up the lawn, [the guide to holes in the yard](/blog/holes-in-yard) sorts the diggers by hole size." },
+    { "type": "callout", "tone": "tip", "title": "Record it before you call", "text": "Note the time you hear the noise for a few nights, and photograph any droppings beside a ruler without touching them. Your state wildlife agency or cooperative extension office can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "What is making noise in my attic at night but not during the day?",
+      "answer": "Night-only noise points to an animal that is active at night. UGA Extension says attic noise at night could be mice, bats or flying squirrels, and it lists raccoons and opossums among the night animals, while daytime noise could be gray squirrels. UC IPM adds that rats are mostly active at night. Droppings help tell them apart: mouse droppings are 1/8 to 1/4 inch long, roof rat droppings about 1/2 inch, and bat droppings pile up below the gaps bats use."
+    },
+    {
+      "question": "What does a raccoon in the attic sound like?",
+      "answer": "UNL Extension lists chirping and thumping from a chimney as signs of raccoons and says their breeding season, January through March, brings much screeching and growling. Adult raccoons usually weigh 7 to 35 pounds, so their movement is heavier than a squirrel's or a rat's. In spring the noise may include young: Minnesota DNR says young raccoons may be unable to leave the den in spring and early summer."
+    },
+    {
+      "question": "What time of night are raccoons active?",
+      "answer": "Raccoons sleep during the day and are active at night, according to Minnesota DNR, which says they normally leave their dens every night to forage. There are exceptions: in very cold or stormy winter weather they may stay in the den for weeks, coming out only on warmer nights, and young raccoons may stay in the den in spring and early summer. UNL Extension adds that raccoons do not hibernate."
+    },
+    {
+      "question": "How can you tell if a raccoon is in your attic?",
+      "answer": "Look for several signs together. UNL Extension lists brown smudge marks and fine scratches where raccoons climb, smudge marks along downspouts, chirping and thumping, and entry holes 4 to 6 inches wide, often enlarged from smaller openings, and notes that raccoons have been known to tear through a shingled roof. CDC describes raccoon droppings as dark and tubular, often with undigested seeds, and lists attics among the places raccoon latrines turn up. Heavy movement at night fits an animal of 7 to 35 pounds."
+    },
+    {
+      "question": "What are the signs that rats are in my attic?",
+      "answer": "UC IPM lists noises from the attic or a drop ceiling, smudge marks where rats rub their fur against beams, rafters, pipes and walls, rat nests, and rats traveling along utility lines or fence tops at dusk. Roof rats are the climbers that nest in attics and wall voids, while Norway rats usually stay low. Cornell IPM puts roof rat droppings at about 1/2 inch long and Norway rat droppings at 3/4 to 1 inch."
+    },
+    {
+      "question": "Is it mice or squirrels in my attic?",
+      "answer": "Timing and droppings usually settle it. UGA Extension says daytime attic noise could be gray squirrels and night noise mice, bats or flying squirrels. Nebraska Extension says mouse droppings are 1/8 to 1/4 inch long and scattered, and that mice get through gaps slightly larger than 1/4 inch, while Penn State says squirrels chew openings in siding and under the eaves. A squirrel heard at night is a flying squirrel, the only squirrel active after dark."
+    },
+    {
+      "question": "Why do I hear scratching in the walls at night?",
+      "answer": "Mice are the usual cause. UGA Extension says noise inside a wall could be mice, and Nebraska Extension lists scratching and squeaking from ceilings and walls among the signs of mice, which travel mostly at night. Roof rats also nest in wall voids, according to UC IPM, and the USFWS bat manual notes that bats roost in walls too and can be heard squeaking and scratching there. Droppings near the base of the wall or in the attic help confirm which."
+    },
+    {
+      "question": "Are bats in the attic dangerous?",
+      "answer": "The risk comes from contact and from the droppings. CDC says to avoid touching bats and to see a medical professional if you may have had contact with one, because bat bites can be tiny enough to miss. CDC links histoplasmosis to breathing spores from soil mixed with bird or bat droppings, though most people who breathe them do not get sick, and it says large amounts of bird or bat droppings should be cleaned up by professional companies."
+    },
+    {
+      "question": "Can I seal up the hole while an animal is still inside?",
+      "answer": "No. Minnesota DNR says to wait until all the raccoons have left before repairing the hole, UNL Extension warns that closing an opening still in use can separate a mother from her young, and Penn State says to make sure no squirrels are locked inside. For bats, CDC warns against trapping young bats inside between May and August, and New Jersey's guidelines rule out evicting bats from May 15 to July 31. A licensed wildlife professional can confirm the space is empty."
+    },
+    {
+      "question": "When do animals have babies in the attic?",
+      "answer": "It depends on the animal. UNL Extension says raccoons breed from January through March and give birth about nine weeks later. Penn State says gray squirrels breed in mid-December or early January and again in June, and that young flying squirrels may stay with the mother through the winter. New Jersey's wildlife agency says bat nursery colonies are active from May 15 to July 31, while the young cannot yet fly."
+    }
+  ],
+  "sources": [
+    { "title": "Resolving Human-Nuisance Wildlife Conflicts (Bulletin 1248)", "publisher": "University of Georgia Cooperative Extension", "url": "https://fieldreport.caes.uga.edu/publications/B1248/resolving-human-nuisance-wildlife-conflicts/" },
+    { "title": "House Bat Management (Resource Publication 143, 1982)", "publisher": "U.S. Fish and Wildlife Service", "url": "https://pubs.usgs.gov/rp/0143/report.pdf" },
+    { "title": "Controlling House Mice (G1105)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1105/html/view" },
+    { "title": "Rats (Pest Notes, Publication 74106)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Tree Squirrels", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/tree-squirrels" },
+    { "title": "Controlling Raccoon and Opossum Damage (G1688)", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1688/na/html/view" },
+    { "title": "Raccoons: Preventing and Controlling Property Damage", "publisher": "Minnesota Department of Natural Resources", "url": "https://www.dnr.state.mn.us/livingwith_wildlife/raccoons/index.html", "kind": "government" },
+    { "title": "Preventing Rabies from Bats", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rabies/prevention/bats.html" },
+    { "title": "Nuisance Wildlife Control Guidelines for Bats (updated April 1, 2026)", "publisher": "New Jersey Department of Environmental Protection, Fish & Wildlife, Endangered and Nongame Species Program", "url": "https://dep.nj.gov/wp-content/uploads/njfw/nuisance-wildlife-control-guidelines-for-bats-2026-04-01.pdf" },
+    { "title": "Wisconsin Bat Program", "publisher": "Wisconsin Department of Natural Resources", "url": "https://dnr.wisconsin.gov/topic/WildlifeHabitat/bats" },
+    { "title": "Bats in buildings and the emergency listing order", "publisher": "Environment and Climate Change Canada", "url": "https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/factsheets/bats-white-nose-syndrome/buildings-emergency-listing-order.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Preventing Raccoon Roundworm", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/baylisascaris/prevention/index.html" },
+    { "title": "About Histoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/about/index.html" },
+    { "title": "Reducing Risk for Histoplasmosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/prevention/index.html" }
+  ],
+  "disclaimer": "health"
+}

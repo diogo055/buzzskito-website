@@ -1,0 +1,15 @@
+{
+ "id": "beetles-in-house",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ec64acd4702633a17917843f59730e16df8bd1ade12abcecf6fc50720016a3e7",
+ "claimsChecked": 224,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-20",
+ "released": {
+  "on": "2026-10-20",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}
