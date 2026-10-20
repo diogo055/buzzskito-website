@@ -19,6 +19,32 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **TUESDAY OCT 20 — THE ORDER (set Oct 19 late; serve the month's goal in data/god-build/goal-2027.md first):**
+  OWNER (morning, with him): (a) Anthropic API key walkthrough (he pastes it into Vercel himself);
+  (b) Search Console Request indexing in his Chrome (3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
+  wolf-spiders, baby-mice, field-mice; ~10/day); (c) he checks the US Amazon account (open, tax form,
+  buzzskito.ca listed); (d) ask: which "hub pages" stay ad-free; (e) ask permission to register two GA4 custom
+  dimensions (position_index, above_fold: reporting fields only, nothing on the site changes); (f) is he
+  signed in to Microsoft Clarity in Chrome (scroll and click maps of the top Amazon pages).
+  ME, in order: 1. Replace the 6 "boric acid roach powder" Amazon search links on the cockroach pages
+  (cancelled for home use in Canada) with legal Canadian options (bait stations, gel bait) — OWNER APPROVED
+  Oct 19 ("Yes"); change only those search terms, verify every other affiliate token and attribute byte for
+  byte; also review the roach product picks (roach clicks are 96% Canadian but buy at ~4%/click vs 8-12%
+  elsewhere: cheap store-shelf items). 2. REVERSE-ENGINEER WHAT DRIVES AMAZON MONEY: Amazon reports sales
+  only per tag, never per button, and 94% of items are indirect, so a click is worth about the same wherever
+  it comes from: measure GA4 Amazon clicks per 1,000 views against each page's set-up (button count, first
+  button position, Top Pick, award rows, sticky bar) WITHIN the same page type and topic (ops rule 10:
+  control before concluding), add Clarity scroll depth on the top 20 Amazon pages, then confirm with a
+  controlled test: a test tag on a group of pages vs a control tag (groups big enough that Amazon does not
+  hide the numbers, ~150+ clicks/month each). 3. Holiday-ready pass on the top earners before Nov 20 (bed bugs,
+  wildlife, rodents, dehumidifiers), guided by step 2: buttons up top, Top Pick boxes, the item readers want.
+  NO "Christmas" or holiday wording on pages (owner: "kind of dumb"; Amazon also bans deal/sale wording);
+  dismiss card task_0b290094 if doing it here. 4. Droppings family: beat-the-top-3 research, then writers.
+  5. bettertermite/Fox winners gap list. 6. Canadian winter pages from positions 4-20 into the top 3.
+  7. Bug bite identifier + photo bug identifier (after the key). 8. /tools on the Mediavine allow-list.
+  9. Foreign-copies (canonical folding) investigation. 10. /mosquito-control Android width fix.
+  Then: Wed Oct 21 bot-block check; Fri Oct 23 indexing check before ramping to 50/week.
+
 - **Live today: 62 new pages** = 37 tick pages + all 25 next-50 pages of build waves 1 and 2, in four
   hand releases (5d3b024d 12 pages, 1c7fa33f 3, b6725e7a 8, 19bc56ee 2), each built with every guard
   first and checked live (200 + title). diogo/main = 19bc56ee. Nothing is due or waiting in
