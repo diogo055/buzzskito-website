@@ -14,9 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
+import { shareImage } from '@/lib/photos'
 
 const POST = TICK_BLOGS.supporting[1]
-const UPDATED = '2026-07-12'
+// Oct 20, 2026: rebuilt to the photo-ID formula (quick-ID table, photos of the three ticks, look-alike cards, 3 FAQs)
+const UPDATED = '2026-10-20'
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: 'Tick Identification Ontario: 3 Species + Sizes',
@@ -25,6 +30,8 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
 }), '/blog/what-ticks-look-like-ontario')
 
 const FAQS = [
@@ -35,6 +42,11 @@ const FAQS = [
   { question: 'How can I tell a deer tick from a dog tick?', answer: 'Colour, size, and pattern. The blacklegged (deer) tick is small (3–5 mm) with a plain reddish-orange body, a solid black shield, and no markings — it is the main Lyme disease carrier. The American dog tick is larger (5 mm) with an ornamental mottled grey-and-white patterned shield and does not typically carry Lyme. If the tick has decorative markings on its back, it is almost certainly a dog tick. See our deer tick vs dog tick comparison for a full side-by-side.' },
   { question: 'What is the lone star tick and how do I identify it?', answer: 'The lone star tick (Amblyomma americanum) is reddish-brown, and adult females have a single bright white or silver dot — the "lone star" — in the centre of the back. It is an emerging species in southwestern Ontario and is still rare in the GTA. It does not transmit Lyme disease but is associated with alpha-gal syndrome (a red-meat allergy) and ehrlichiosis.' },
   { question: 'What tool should I use to remove a tick?', answer: 'Use fine-tipped tweezers or a purpose-built tick-removal tool (a Tick Twister-style hook or a tick key). Grasp the tick at the head, as close to the skin as possible, and pull straight up with steady, even pressure — do not twist, squeeze the body, or use heat, petroleum jelly, or nail polish. A dedicated tool slides under the head and gives the cleanest pull, which matters because a feeding nymph can be smaller than a sesame seed. Our tick-removal tool guide compares the options.' },
+  // Oct 20, 2026 retrofit: questions from this page's Search Console queries (different types of ticks in ontario, grey tick ontario, white tick ontario).
+  // Facts restate this page; the 40-species figure and eTick are from the Public Health Agency of Canada's Ticks in Canada page, linked in the body.
+  { question: 'What kinds of ticks are in Ontario?', answer: 'Three ticks matter most to Ontario homeowners. The blacklegged (deer) tick is small and plain, with a reddish-orange body behind a solid black shield, and it is the province’s primary Lyme disease carrier. The American dog tick is larger, with white or cream mottling on its shield, and it does not transmit Lyme. The lone star tick is reddish-brown, its adult females carry a single white or silver dot, and it is still rare in the GTA. The Public Health Agency of Canada counts more than 40 kinds of ticks in Canada, so if yours matches none of these, send a photo to eTick.ca for identification.' },
+  { question: 'Why is the tick I found grey?', answer: 'A grey, swollen tick has already fed. As a tick feeds it swells, rounds out and turns grey-blue, and an engorged adult female blacklegged tick can reach about 10 mm, the size of a small raisin. A fed tick no longer looks like the unfed ticks described on this page, so do not rely on its colour to name the species. Remove it with fine-tipped tweezers or a tick-removal tool, keep it or photograph it, note the date, and contact your healthcare provider if you are concerned about the bite.' },
+  { question: 'What tick has white markings in Ontario?', answer: 'Two of the three ticks on this page carry white. The American dog tick, the larger one, has white or cream mottled markings on its shield (females) or across its whole back (males), and it does not transmit Lyme disease. The lone star tick is reddish-brown, and its adult females have a single white or silver dot in the centre of the back; it is still rare in the GTA. The blacklegged (deer) tick, Ontario’s primary Lyme carrier, has no white markings at all: just a reddish-orange body behind a solid black shield.' },
 ]
 
 const AMZ_TAG = tagForSlug('what-ticks-look-like-ontario')
@@ -42,7 +54,7 @@ const AMZ_TAG = tagForSlug('what-ticks-look-like-ontario')
 export default function WhatTicksLookLikePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: UPDATED, image: shareImage('blacklegged-tick-adult-nymph-fingertip') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Identify Ticks Ontario', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
@@ -56,7 +68,7 @@ export default function WhatTicksLookLikePage() {
           </nav>
           <span className="bg-brand-800 text-brand-200 text-xs px-3 py-1 rounded-full mb-4 inline-block">Tick Control</span>
           <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 leading-tight">{POST.title}</h1>
-          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated July 2026 · By BuzzSkito</p>
+          <p className="text-brand-300 text-sm">Published {new Date(POST.date).toLocaleDateString('en-CA', { year: 'numeric', month: 'long', day: 'numeric' })} · Updated {new Date(UPDATED).toLocaleDateString('en-CA', { year: 'numeric', month: 'long' })} · By BuzzSkito</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -84,6 +96,20 @@ export default function WhatTicksLookLikePage() {
         <AffiliateDisclosure />
         <p className="not-prose text-gray-700">Trying to identify one that is still attached? Get it off first. A fine-tipped remover grips at the head and lifts the whole tick out in one piece, so you have something intact to compare against the pictures below. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
 
+        <QuickIdTable
+          title="Which Ontario tick is it? Quick ID"
+          head={['Tick', 'Unfed size', 'Colour and markings', 'What it means']}
+          rows={[
+            ['Blacklegged (deer) tick, adult female', '3–4 mm (sesame seed); up to 10 mm once fed', 'Reddish-orange body, solid black shield, dark legs, no pattern', 'Ontario’s primary Lyme disease carrier'],
+            ['Blacklegged tick, nymph', '1–1.5 mm (poppy seed)', 'Translucent to light brown; 8 legs', 'Causes most human Lyme infections, because it is so tiny'],
+            ['Blacklegged tick, larva', 'Under 1 mm', '6 legs, not 8', 'Almost never carries Lyme'],
+            ['Blacklegged tick, adult male', '2–3 mm', 'Uniformly dark brown', 'Feeds less; less often found attached to people'],
+            ['American dog tick', 'Females about 5 mm; males 3–4 mm', 'Brown, with white or cream mottling on the shield (females) or the whole back (males)', 'Does not transmit Lyme; Rocky Mountain spotted fever is rare in Ontario'],
+            ['Lone star tick', '3–4 mm', 'Reddish-brown; adult females have one white or silver dot', 'Does not transmit Lyme; linked to alpha-gal syndrome (red-meat allergy); rare in the GTA'],
+          ]}
+          caption={<>Sizes and field marks from the species notes and the size-by-life-stage table further down this page, cross-referenced with the <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="underline">CDC tick guide</a> and the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="underline">Government of Canada&rsquo;s Lyme disease resource</a>.</>}
+        />
+
         <h2>The Three Ticks Ontario Homeowners Need to Know</h2>
         <Figure
           src="/diagrams/tick-species-ontario.svg"
@@ -103,6 +129,12 @@ export default function WhatTicksLookLikePage() {
           <li><strong>Adult male:</strong> ~2–3 mm. Uniformly dark brown. Males feed less and are less commonly found attached to humans.</li>
         </ul>
 
+        <Photo
+          id="blacklegged-tick-adult-nymph-fingertip"
+          alt="A blacklegged deer tick adult female and a much smaller nymph on a person's fingertip"
+          caption="Two blacklegged (deer) ticks on a person's fingertip: an adult female on the left and a nymph on the right. The nymph is the poppy-seed-sized stage described above, almost impossible to spot without magnification."
+        />
+
         <h3>2. American Dog Tick — <em>Dermacentor variabilis</em></h3>
         <p><strong>Why it matters:</strong> Does not transmit Lyme disease, but can transmit Rocky Mountain Spotted Fever (rare in Ontario) and cause tick paralysis. Commonly found across GTA.</p>
         <NextUp path="/blog/what-ticks-look-like-ontario" />
@@ -113,6 +145,12 @@ export default function WhatTicksLookLikePage() {
           <li>More likely to be found in open, grassy areas rather than wooded edges</li>
         </ul>
 
+        <Photo
+          id="american-dog-tick-female"
+          alt="An adult female American dog tick seen from above on a green leaf, with white-to-cream mottled markings on its shield"
+          caption="An adult female American dog tick seen from above, with the white-to-cream mottled markings on its shield that set it apart from a blacklegged tick."
+        />
+
         <h3>3. Lone Star Tick — <em>Amblyomma americanum</em></h3>
         <p><strong>Why it matters:</strong> An emerging species in southwestern Ontario associated with warming temperatures. Can cause alpha-gal syndrome (red meat allergy).</p>
         <p><strong>Identification:</strong></p>
@@ -121,6 +159,12 @@ export default function WhatTicksLookLikePage() {
           <li>Adult females have a distinctive single white or silver spot (the "lone star") in the centre of the back</li>
           <li>Currently rare in the GTA; more common in southwestern Ontario</li>
         </ul>
+
+        <Photo
+          id="lone-star-tick-female"
+          alt="An adult female lone star tick seen from above on a leaf, with a single white spot in the middle of its reddish-brown back"
+          caption="An adult female lone star tick seen from above, with the single white spot, the lone star, in the centre of her back."
+        />
 
         <p>Because it is the one Ontario tick tied to a food allergy rather than an infection, the lone star tick raises a different set of questions — is it actually established here, and what does an alpha-gal reaction look like? Our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal syndrome guide for Canada</Link> answers both with the current PHAC and eTick picture.</p>
 
@@ -155,6 +199,17 @@ export default function WhatTicksLookLikePage() {
         </div>
         <p className="text-sm text-gray-500">Species identification and field marks cross-referenced with the <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="text-brand-700 underline">CDC tick guide</a> and <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease.html" target="_blank" rel="noopener" className="text-brand-700 underline">the Government of Canada&rsquo;s Lyme disease resource</a>.</p>
 
+        <p>A few other things get mistaken for these three. Spider beetles, small round beetles with a spider-like look that are common in old stored food (<a href="https://pestsense.cahnrs.wsu.edu/fact-sheet/spider-beetle/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Washington State University Extension</a>), and bed bugs, flat, oval, wingless insects that come out at night to feed (<a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-what-are-they.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Health Canada</a>), are insects with antennae, which no tick has. Clover mites do have eight legs, but they are smaller than a pinhead, with very long front legs, and they cluster on sunny walls and window sills in spring and fall without biting (<a href="https://ohioline.osu.edu/factsheet/HYG-2095" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Ohio State University Extension</a>).</p>
+        <p>The three above are not the only ticks here, either. The <a href="https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Agency of Canada</a> counts more than 40 kinds of ticks in Canada and lists the groundhog tick as established in southcentral and southeastern Canada, where it can transmit the virus that causes Powassan virus disease.</p>
+        <ConfusedWith
+          items={[
+            { href: '/blog/groundhog-tick', name: 'Groundhog tick', photo: 'groundhog-tick', note: 'A real tick, established in southcentral and southeastern Canada; linked to Powassan virus' },
+            { href: '/blog/bugs-that-look-like-ticks', name: 'Spider beetle', photo: 'spider-beetle', note: 'A small, round beetle with antennae, common in old stored food' },
+            { href: '/blog/tick-vs-bed-bug', name: 'Bed bug', photo: 'bed-bug-adult-ruler', note: 'A flat, oval, wingless insect, up to 10 mm, that comes out at night to feed' },
+            { href: '/blog/red-ticks-and-clover-mites', name: 'Clover mite', photo: 'clover-mite', note: 'Smaller than a pinhead with very long front legs; clusters on sunny walls and does not bite' },
+          ]}
+        />
+
         <h2>Size Comparison: Why Nymphs Are So Dangerous</h2>
         <div className="not-prose bg-brand-50 border border-brand-100 rounded-2xl p-6 my-6">
           <h3 className="font-bold text-brand-900 mb-4 text-base">Blacklegged Tick Size Reference</h3>
@@ -173,6 +228,12 @@ export default function WhatTicksLookLikePage() {
             ))}
           </div>
         </div>
+
+        <Photo
+          id="blacklegged-tick-nymph-fingernail"
+          alt="A tiny blacklegged tick nymph crawling beside a person's fingernail"
+          caption="A blacklegged tick nymph crawling beside a person's fingernail. At about 1 to 1.5 mm, it is the stage that causes most human infections, precisely because it is so easy to miss."
+        />
 
         <h3>Tick Size by Life Stage (in mm)</h3>
         <p>Ticks grow through four stages, and each looks different. This is why a tick can look like anything from a fleck of dirt to a small grape depending on its age and whether it has fed:</p>
@@ -205,6 +266,11 @@ export default function WhatTicksLookLikePage() {
         </div>
         <p className="text-sm text-gray-500">Tip: a six-legged tick is a larva; nymphs and adults have eight legs. Larvae almost never carry Lyme, but nymphs — active in late spring and summer — cause most human infections precisely because they are so tiny.</p>
         <p>That leg count is more than a field mark. Eight legs, no wings, and no antennae are the reason <Link href="/blog/are-ticks-arachnids-or-insects" className="text-brand-700 underline">ticks are classified as arachnids rather than insects</Link> — which is also why bug zappers and CO₂ traps built for flying insects do nothing about them.</p>
+        <Photo
+          id="blacklegged-tick-life-stages"
+          alt="Three blacklegged ticks of very different sizes: an adult, a nymph and a tiny larva"
+          caption="A blacklegged tick adult, nymph and larva. The larva is the six-legged stage; nymphs and adults have eight legs, and no stage has wings or antennae."
+        />
 
         <RelatedLinks path="/blog/what-ticks-look-like-ontario" />
         <h2>Found a Tick? Have the Right Removal Tool Ready</h2>

@@ -69,6 +69,12 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/baby-bed-bugs-nymphs': '2026-10-20T12:00:00.000Z',
   '/blog/bed-bug-bites-vs-mosquito-bites': '2026-10-20T12:00:00.000Z',
   '/blog/bed-bug-bites': '2026-10-20T12:00:00.000Z',
+  '/blog/what-does-tick-look-like-on-dog': '2026-10-20T12:00:00.000Z',
+  '/blog/what-does-a-tick-bite-look-like': '2026-10-20T12:00:00.000Z',
+  '/blog/tick-bites-that-wont-heal-when-to-worry': '2026-10-20T12:00:00.000Z',
+  '/blog/deer-tick-vs-dog-tick-canada': '2026-10-20T12:00:00.000Z',
+  '/blog/what-ticks-look-like-ontario': '2026-10-20T12:00:00.000Z',
+  '/blog/blacklegged-deer-tick-ontario': '2026-10-20T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

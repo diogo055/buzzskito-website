@@ -11,10 +11,13 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
 
 const SLUG = 'what-does-a-tick-bite-look-like'
 const DATE = '2026-07-15'
-const UPDATED = '2026-07-15'
+const UPDATED = '2026-10-20'
 const TITLE = 'What Does a Tick Bite Look Like? Pictures, Timeline & How to Identify One (2026)'
 const META_TITLE = 'What Does a Tick Bite Look Like? Day by Day'
 
@@ -65,7 +68,7 @@ const FAQS = [
   },
   {
     question: 'How long does a tick bite mark last?',
-    answer: 'A normal tick bite mark typically fades within 1–2 weeks, sometimes leaving a small scab or faint spot that resolves on its own. A mild local reaction can persist a little longer. If a mark is still growing, forming a ring, or the skin is increasingly red, warm, and painful beyond two weeks, that is outside the normal healing pattern and should be checked by a healthcare provider. Keep an eye on the site through the full 30-day window, since a Lyme disease rash can appear well after the original bite has healed.',
+    answer: 'The small red bump of a normal tick bite generally goes away in 1–2 days, according to the CDC; a small scab or faint spot where the tick was removed can take longer to clear on its own. A mild local reaction can persist a little longer. If a mark is still growing, forming a ring, or the skin is increasingly red, warm, and painful beyond two weeks, that is outside the normal healing pattern and should be checked by a healthcare provider. Keep an eye on the site through the full 30-day window, since a Lyme disease rash can appear well after the original bite has healed.',
   },
   {
     question: 'What does an infected tick bite look like?',
@@ -88,6 +91,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('what-does-a-tick-bite-look-like')
@@ -95,7 +99,7 @@ const AMZ_TAG = tagForSlug('what-does-a-tick-bite-look-like')
 export default function WhatDoesATickBiteLookLikePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to what a tick bite looks like on humans and dogs, with a day-by-day timeline and bite comparison for Ontario.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A visual identification guide to what a tick bite looks like on humans and dogs, with a day-by-day timeline and bite comparison for Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Does a Tick Bite Look Like?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -134,7 +138,7 @@ export default function WhatDoesATickBiteLookLikePage() {
             <li>A fresh tick bite is usually a single small red bump or dot &mdash; not a cluster of welts like flea bites.</li>
             <li>Tick bites are typically painless because tick saliva contains a mild anaesthetic, so the tick is often the clearest clue.</li>
             <li>An unfed nymph is poppy-seed-sized (about 1&ndash;2 mm); an unfed adult is sesame-seed-sized (about 3&ndash;5 mm).</li>
-            <li>Per PHAC, the Lyme (erythema migrans) rash typically appears 3 to 30 days after a bite from an infected blacklegged tick.</li>
+            <li>Per the CDC, the Lyme (erythema migrans) rash begins at the bite 3 to 30 days after a bite from an infected blacklegged tick (about 7 days on average).</li>
             <li>Public Health Ontario notes the rash shows in only about 70&ndash;80% of Lyme cases, so no rash does not rule out Lyme.</li>
             <li>Watch for a red patch expanding beyond about 5 cm, or fever and aches &mdash; both are reasons to see a healthcare provider.</li>
           </ul>
@@ -146,6 +150,20 @@ export default function WhatDoesATickBiteLookLikePage() {
         <p>Both a tick bite and a mosquito bite can start as a small red mark, so telling them apart is really about three things: whether an insect is still attached, how the bite feels, and what happens over the following days and weeks. This page is a pure visual-identification guide &mdash; what a tick bite actually looks like at each stage, on people and on dogs, and where the line is between a normal reaction and something a doctor should see. If you have already found a bite and want the step-by-step of what to do next, read <Link href="/blog/tick-bite-symptoms-what-to-do-ontario">tick bite symptoms &amp; what to do in Ontario</Link>.</p>
 
         <p className="text-sm text-gray-600 italic border-l-4 border-gray-200 pl-4">This is general information, not medical advice. If you are worried about a bite, an expanding rash, or any symptoms after a tick bite, contact a healthcare provider. In an emergency, call 911.</p>
+
+        <QuickIdTable
+          title="Normal tick bite or warning sign? Quick ID"
+          head={['What you see', 'What it looks like', 'When', 'What to do']}
+          rows={[
+            ['Tick still attached', 'A small dark speck, or a swollen grey, tan or bluish body fixed to the skin', 'Feeds in place for hours to several days', 'Remove it with a fine-tipped tool, pulling straight up; note the date and the spot'],
+            ['Normal bite', 'One small red bump or dot, sometimes with a tiny dark centre; little or no itch', 'Right after the tick comes off; the bump generally goes in 1–2 days (CDC)', 'Keep an eye on the spot for 30 days'],
+            ['Healing bite', 'Bump flattening, redness shrinking; maybe a tiny scab or faint mark', 'From about day 3; mostly faded after a week', 'Nothing, as long as it keeps shrinking'],
+            ['Lyme rash (erythema migrans)', 'A red patch or ring that keeps growing, often past 5 cm; solid red or bull’s-eye; warm, not very itchy or painful', '3–30 days after the bite', 'See a healthcare provider and mention the bite and its date'],
+            ['Infected bite', 'Redness that gets warmer, more swollen and more painful; pus, sometimes red streaks', 'Gets worse after the first day or two instead of better', 'See a healthcare provider'],
+            ['Flu-like illness', 'Fever, chills, headache, fatigue, joint or muscle aches, with or without a rash', 'In the days or weeks after the bite', 'See a healthcare provider: no rash does not rule out Lyme'],
+          ]}
+          caption={<>Restated from the day-by-day timeline and the normal-versus-doctor table further down this page. Rash timing and appearance: <a href="https://www.cdc.gov/lyme/signs-symptoms/index.html" target="_blank" rel="noopener noreferrer" className="underline">CDC</a> and the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/symptoms-lyme-disease.html" target="_blank" rel="noopener noreferrer" className="underline">Public Health Agency of Canada</a>. General information, not a diagnosis.</>}
+        />
 
         <h2>What do tick bites look like on humans?</h2>
         <p>On a human, a fresh tick bite most often looks like a <strong>single small red bump or dot</strong>, sometimes with a tiny darker point in the centre where the tick&rsquo;s mouthparts entered. It is usually not clustered and not as puffy as a mosquito bite. Many people also get a small halo of redness or mild itch around the site &mdash; a normal reaction to proteins in tick saliva &mdash; which is different from the expanding rash of Lyme disease.</p>
@@ -181,7 +199,17 @@ export default function WhatDoesATickBiteLookLikePage() {
             </tbody>
           </table>
         </div>
+        <Photo
+          id="tick-unfed-vs-engorged"
+          alt="A small male Ixodes tick beside a much larger female swollen after a blood meal"
+          caption="Two hard ticks of the genus Ixodes, which includes the blacklegged tick: a male (left) and a female swollen after a blood meal (right). An engorged tick like the one on the right is often mistaken for a skin tag or blood blister."
+        />
         <p>A fully engorged tick is what most people picture, but the dangerous ones for Lyme transmission in Ontario are the tiny <strong>nymphs</strong>, which are active in late spring and summer and are so small they are routinely missed. Do not squeeze the swollen body &mdash; follow the technique in <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>, then save the tick in a sealed bag or photo it in case identification is needed later.</p>
+        <Photo
+          id="blacklegged-tick-nymph-fingernail"
+          alt="A tiny blacklegged tick nymph crawling beside a person's fingernail"
+          caption="A blacklegged (deer) tick nymph crawling beside a fingernail. Nymphs this small are the ones most often missed."
+        />
         <p>If the body separates during removal and the mouthparts stay behind, do not dig at the skin &mdash; see <Link href="/blog/tick-head-stuck-in-skin">what to do if a tick&rsquo;s head is stuck in the skin</Link>. A dedicated tick-removal kit makes a clean, straight pull far easier than fumbling with wide household tweezers, and is worth keeping in a first-aid bag if you spend time in tick country.</p>
         <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}
@@ -198,6 +226,11 @@ export default function WhatDoesATickBiteLookLikePage() {
         <NextUp path="/blog/what-does-a-tick-bite-look-like" />
         <h2>What does a tick bite look like on a dog?</h2>
         <p>On a dog, a tick bite is usually <strong>hidden under the fur</strong>, so you are more likely to feel it than see it. Running your fingertips slowly over your dog&rsquo;s skin, you will notice a small raised bump or scab where a tick attached or has been removed. Favourite spots are the ears (inside and at the base), around the collar and neck, the armpits, the groin, between the toes, and around the eyelids.</p>
+        <Photo
+          id="brown-dog-ticks-dog-ear"
+          alt="A cluster of brown dog ticks attached inside a dog's ear"
+          caption="A dog's ear infested with brown dog ticks. On a dog, ticks and their bites are usually hidden under the fur, and the ears are one of the favourite spots."
+        />
         <p>If the tick is still attached it looks like a small grey, brown, or black skin tag that grows larger and firmer as it feeds. After you remove it, the bite site on a dog commonly shows:</p>
         <ul>
           <li>A <strong>small red bump or raised welt</strong> that may persist for a few days.</li>
@@ -235,6 +268,14 @@ export default function WhatDoesATickBiteLookLikePage() {
         </div>
         <p>For a deeper side-by-side of the two most-confused bites, see <Link href="/blog/tick-bite-vs-mosquito-bite">tick bite vs mosquito bite</Link>.</p>
         <p>The spider column is the one worth treating with the most caution, because the label gets applied far more often than it is earned — published reviews find most suspected spider bites are something else entirely. Our guide to <Link href="/blog/what-does-a-spider-bite-look-like">how a spider bite actually presents</Link> sets out the stages and the red flags.</p>
+        <ConfusedWith
+          title="Often mistaken for a tick bite"
+          items={[
+            { href: '/blog/why-do-mosquito-bites-itch', name: 'Mosquito bite', photo: 'mosquito-bite-welts', note: 'A puffy welt that itches within minutes, often several at once, with no tick left behind' },
+            { href: '/blog/flea-bites-on-humans', name: 'Flea bites', photo: 'flea-bites-lower-leg', note: 'Clusters of small, very itchy red dots, mostly on the ankles and lower legs' },
+            { href: '/blog/what-does-a-spider-bite-look-like', name: 'Spider bite', photo: 'brown-recluse-bite-early', note: 'Can be painful or sting, unlike a painless tick bite; rarely, pain spreads and an ulcer forms' },
+          ]}
+        />
 
         <h2>Day-by-day: what a tick bite looks like over time</h2>
         <p>The appearance of a tick bite changes over days and weeks. Most bites simply fade, but the same timeline is when a Lyme disease rash can emerge, so it is worth knowing what each stage typically looks like.</p>
@@ -257,14 +298,20 @@ export default function WhatDoesATickBiteLookLikePage() {
           </table>
         </div>
         <p><strong>What does a tick bite look like after a week?</strong> Normally, it is fading &mdash; the bump flattens and the redness shrinks, often leaving only a tiny scab or faint mark. But one week is also inside the window when the Lyme disease rash can start. If, instead of fading, the area is expanding into a larger red patch or a ring with a clearing centre, that is the signal to act.</p>
+        <Photo
+          id="erythema-migrans-rash"
+          alt="A bull's-eye rash with a red centre and an outer red ring on a woman's upper arm"
+          caption="Erythema migrans, the bull's-eye rash of Lyme disease, at the site of a tick bite on a woman's upper arm. A ring like this that keeps growing in the weeks after a bite, instead of fading, is the signal to act."
+        />
 
         <h2>The bull&rsquo;s-eye rash: what it actually looks like</h2>
         <p>The rash most associated with Lyme disease is <strong>erythema migrans</strong>. It begins as a red spot at the bite site and slowly grows over days into a circular or oval red patch, commonly 5 cm or larger. The classic version has a red outer ring with a clearer centre &mdash; the &ldquo;bull&rsquo;s-eye&rdquo; or target look &mdash; but in many real cases it is a <strong>solid, evenly red, expanding patch</strong> with no clear centre. It is usually warm to the touch but not especially painful or itchy, which is part of why it gets overlooked.</p>
         <p>Two important, hedged facts from Canadian public health authorities:</p>
         <ul>
-          <li>Per the <strong>Public Health Agency of Canada (PHAC)</strong>, erythema migrans typically appears <strong>3 to 30 days</strong> after a bite from an infected blacklegged tick.</li>
+          <li>Per the <a href="https://www.cdc.gov/lyme/signs-symptoms/index.html" target="_blank" rel="noopener noreferrer"><strong>CDC</strong></a>, erythema migrans begins at the bite <strong>3 to 30 days</strong> after a bite from an infected blacklegged tick (about 7 days on average).</li>
           <li>The rash appears in only about <strong>70&ndash;80% of Lyme disease cases</strong>, according to Public Health Ontario &mdash; meaning a meaningful share of people never develop it. <strong>No rash does not rule out Lyme.</strong> Flu-like symptoms after a tick bite still deserve medical attention.</li>
         </ul>
+        <p>The <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/symptoms-lyme-disease.html" target="_blank" rel="noopener noreferrer">Public Health Agency of Canada</a> adds that the rash can go unnoticed on dark skin or in areas of the body that are hard to see.</p>
         <p>For the fuller symptom picture beyond the rash, see our <Link href="/blog/lyme-disease-symptoms-guide">Lyme disease symptoms guide</Link>. Lyme is the best-known tick-borne illness in Ontario, but it is not the only one &mdash; certain tick bites are also linked (per the CDC) to <Link href="/blog/alpha-gal-syndrome">alpha-gal syndrome</Link>, a delayed allergy to red meat, though it remains uncommon in Canada.</p>
 
         <h2>Normal bite vs. when to see a doctor</h2>

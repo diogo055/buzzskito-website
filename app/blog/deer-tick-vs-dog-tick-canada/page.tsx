@@ -11,10 +11,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import ConfusedWith from '@/components/ConfusedWith'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'deer-tick-vs-dog-tick-canada'
 const DATE = '2026-04-28'
-const UPDATED = '2026-07-12'
+// Oct 20, 2026: rebuilt to the photo-ID formula (photos of both ticks, look-alike cards, 2 FAQs)
+const UPDATED = '2026-10-20'
 const TITLE = 'Deer Tick vs Dog Tick: Which Is It, Lyme or Not'
 
 const FAQS = [
@@ -32,11 +36,11 @@ const FAQS = [
   },
   {
     question: 'Do both deer ticks and dog ticks live in Canada?',
-    answer: 'Yes — both are widespread across southern Canada. Deer ticks (blacklegged) are concentrated in southern Ontario, southern Quebec, southern Manitoba, parts of the Maritimes, and southern BC. Their range has expanded dramatically northward over the past 20 years due to warmer winters. Dog ticks (American dog ticks) are even more widespread, found in nearly every province south of the boreal forest. In the GTA specifically, both species coexist — deer ticks dominate forested ravines and conservation areas while dog ticks dominate grassy fields and yard edges.',
+    answer: 'Yes — both are widespread across southern Canada. Deer ticks (blacklegged) are concentrated in southern Ontario, southern Quebec, southern Manitoba, New Brunswick and Nova Scotia; in British Columbia the Lyme carrier is a close relative, the western blacklegged tick. Their range has expanded dramatically northward over the past 20 years due to warmer winters. Dog ticks (American dog ticks) are even more widespread, found in nearly every province south of the boreal forest. In the GTA specifically, both species coexist — deer ticks dominate forested ravines and conservation areas while dog ticks dominate grassy fields and yard edges.',
   },
   {
     question: 'What disease does the deer tick carry?',
-    answer: 'The blacklegged tick (deer tick) is the primary vector in Canada for: (1) Lyme disease — the most common, caused by Borrelia burgdorferi bacteria. About 10–30% of blacklegged ticks in Ontario carry it. (2) Anaplasmosis — bacterial infection causing fever and flu-like symptoms. (3) Babesiosis — red blood cell parasite, less common. (4) Powassan virus — rare but severe neurological infection, increasing in Ontario. The 24-hour rule applies: ticks typically need to be attached for 24+ hours to transmit Lyme disease, which is why prompt removal dramatically reduces disease risk.',
+    answer: 'The blacklegged tick (deer tick) is the primary vector in Canada for: (1) Lyme disease — the most common, caused by Borrelia burgdorferi bacteria. Not every blacklegged tick carries it: one Ontario health unit, Simcoe Muskoka, estimated that under 20% of blacklegged ticks in its local risk areas did in 2023, a share it expects to rise. (2) Anaplasmosis — bacterial infection causing fever and flu-like symptoms. (3) Babesiosis — red blood cell parasite, less common. (4) Powassan virus — rare but severe neurological infection, increasing in Ontario. The 24-hour rule applies: ticks typically need to be attached for 24+ hours to transmit Lyme disease, which is why prompt removal dramatically reduces disease risk.',
   },
   {
     question: 'What does a deer tick look like vs a dog tick photo comparison?',
@@ -64,11 +68,11 @@ const FAQS = [
   },
   {
     question: 'Do dog ticks carry Lyme disease?',
-    answer: 'No — American dog ticks (Dermacentor variabilis) do not transmit Lyme disease in Canada. Lyme is spread almost exclusively by the blacklegged (deer) tick. Dog ticks can, very rarely, carry Rocky Mountain spotted fever and tularemia, but confirmed Canadian cases are extremely rare. If a small, plain, reddish-black deer tick bit you, watch for Lyme symptoms and see a healthcare provider; a larger patterned dog tick is a much lower concern. Public Health Ontario tracks Lyme risk province-wide.',
+    answer: 'No — American dog ticks (Dermacentor variabilis) do not transmit Lyme disease in Canada. Lyme is spread almost exclusively by the blacklegged (deer) tick. Dog ticks can, very rarely, carry Rocky Mountain spotted fever and tularemia, but confirmed Canadian cases are rare: Public Health Ontario counted only two Ontario cases of Rocky Mountain spotted fever from 1979 until 2025, when infected American dog ticks and two human cases were linked to the Long Point area. If a small, plain, reddish-black deer tick bit you, watch for Lyme symptoms and see a healthcare provider; a larger patterned dog tick is a much lower concern. Public Health Ontario tracks Lyme risk province-wide.',
   },
   {
     question: 'Are dog ticks dangerous to humans?',
-    answer: 'American dog ticks bite humans but are a low medical risk in Canada. They do not transmit Lyme disease, and the diseases they can theoretically carry — Rocky Mountain spotted fever and tularemia — are extraordinarily rare here (the CDC notes RMSF is uncommon in Canada). A dog tick bite usually causes only local irritation. Still, remove any attached tick promptly with fine-tipped tweezers and see a healthcare provider if you develop fever, a rash, or flu-like symptoms afterward.',
+    answer: 'American dog ticks bite humans but are a low medical risk in Canada. They do not transmit Lyme disease, and the diseases they can theoretically carry — Rocky Mountain spotted fever and tularemia — are rare here (Public Health Ontario counted only two Ontario RMSF cases from 1979 until a 2025 cluster linked to Long Point). A dog tick bite usually causes only local irritation. Still, remove any attached tick promptly with fine-tipped tweezers and see a healthcare provider if you develop fever, a rash, or flu-like symptoms afterward.',
   },
   {
     question: 'Do American dog ticks carry Lyme disease?',
@@ -81,6 +85,16 @@ const FAQS = [
   {
     question: 'Deer tick vs dog tick: which one did I find?',
     answer: 'A deer tick is about 3 mm unfed with a plain reddish-black body and dark legs, and it is the one that transmits Lyme disease in Canada. A dog tick is about 5 mm unfed with a mottled grey-and-brown shield and brown legs, and it does not transmit Lyme here.',
+  },
+  // Oct 20, 2026 retrofit: two Search Console queries with no answer on the page ("brown dog tick vs deer tick", "deer tick vs wood tick").
+  // Sources: Public Health Agency of Canada, Ticks in Canada; UW–Madison Entomology, The American Dog Tick/Wood Tick.
+  {
+    question: 'Brown dog tick vs deer tick: what is the difference?',
+    answer: 'They are different species, and the brown dog tick is not the American dog tick compared on this page. The brown dog tick (Rhipicephalus sanguineus) is reddish-brown, and the Public Health Agency of Canada says it has not been found in natural outdoor environments in Canada: it turns up in kennels and homes with dogs, and it can transmit the bacteria that cause Rocky Mountain spotted fever, not Lyme disease. A deer tick is the small, plain, reddish-black outdoor tick with dark legs that can carry Lyme. A tick picked up on a walk in Canada is unlikely to be a brown dog tick.',
+  },
+  {
+    question: 'Is a wood tick the same as a dog tick?',
+    answer: 'Usually, yes. Wood tick is another name for the American dog tick (Dermacentor variabilis): the University of Wisconsin–Madison’s entomology department lists it as the wood tick or American dog tick. So deer tick vs wood tick is the same comparison as this page. The wood tick is the larger tick with the mottled grey-and-brown shield, which does not transmit Lyme in Canada; the deer tick is the small, plain, reddish-black one that can. In parts of Western Canada, wood tick can also mean the Rocky Mountain wood tick, a different species.',
   },
 ]
 
@@ -102,7 +116,8 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
-  modifiedTime: '2026-07-12',
+  modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-female'),
 })
 
 const AMZ_TAG = tagForSlug('deer-tick-vs-dog-tick-canada')
@@ -110,7 +125,7 @@ const AMZ_TAG = tagForSlug('deer-tick-vs-dog-tick-canada')
 export default function DeerTickVsDogTickPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Deer tick vs dog tick comparison for Canada.', slug: SLUG, datePublished: DATE, dateModified: '2026-07-12' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Deer tick vs dog tick comparison for Canada.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Deer Tick vs Dog Tick', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -139,7 +154,7 @@ export default function DeerTickVsDogTickPage() {
               <li>A deer tick is about 3 mm unfed (sesame-seed sized); a dog tick is about 5 mm (apple-seed sized).</li>
               <li>Deer ticks have a plain reddish-black body; dog ticks have a mottled grey-and-brown patterned shield.</li>
               <li>Only the blacklegged (deer) tick transmits Lyme disease in Canada &mdash; the American dog tick does not.</li>
-              <li>About 10&ndash;30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em>, the Lyme bacterium.</li>
+              <li>Not every blacklegged tick carries <em>Borrelia burgdorferi</em>, the Lyme bacterium: the <a href="https://simcoemuskokahealth.org/docs/default-source/jfy-health-care-professionals/jfy-healthfax/20240620vectorborneupdate_v1.pdf" target="_blank" rel="noopener noreferrer">Simcoe Muskoka health unit</a> estimated under 20% did in its local risk areas in 2023, and expects that share to rise.</li>
               <li>Ticks generally need to stay attached 24+ hours to transmit Lyme, so prompt removal sharply cuts the risk.</li>
               <li>Not sure which you found? Photograph it from above and submit to eTick.ca for free species ID within 1&ndash;3 days.</li>
             </ul>
@@ -171,7 +186,7 @@ export default function DeerTickVsDogTickPage() {
                   ['Habitat', 'Leaf litter, damp shaded forest, ravine edges', 'Grassy fields, meadows, trail edges'],
                   ['Lyme disease', 'YES — primary Canadian vector', 'No'],
                   ['Other diseases', 'Anaplasmosis, babesiosis, Powassan', 'Rocky Mountain spotted fever (rare in CA), tick paralysis in dogs'],
-                  ['Range in Canada', 'Southern ON, QC, MB, NB, NS, southern BC', 'Most of southern Canada'],
+                  ['Range in Canada', 'Southern ON, QC, MB, NB, NS (in BC: the western blacklegged tick)', 'Most of southern Canada'],
                   ['Peak activity', 'May–July (nymphs), Aug–Oct (adults)', 'Apr–Jun (primary), Aug–Oct (secondary)'],
                   ['Medical priority', 'HIGH — watch for Lyme symptoms', 'LOW — local irritation usually only'],
                 ].map(([feat, deer, dog]) => (
@@ -207,6 +222,16 @@ export default function DeerTickVsDogTickPage() {
           <p><strong>Deer tick vs dog tick comes down to three things: a deer tick is about 3 mm unfed with a plain reddish-black body and transmits Lyme disease in Canada; a dog tick is about 5 mm unfed with a mottled grey-and-brown shield and does not.</strong></p>
           <p><strong>Size.</strong> Unfed, a deer tick is sesame-seed small and a dog tick is apple-seed sized. Deer tick nymphs are poppy-seed tiny and easy to miss.</p>
           <p><strong>Pattern.</strong> Look at the shield (scutum) on the back. A deer tick&rsquo;s is smooth and plain, and its legs are dark. A dog tick&rsquo;s carries mottled grey-and-brown markings, and its legs are brown. Any decoration on the back rules out a deer tick.</p>
+          <Photo
+            id="blacklegged-tick-female"
+            alt="An adult female deer tick seen from above on a green leaf, with a reddish-orange body, plain dark shield and black legs"
+            caption="An adult female blacklegged (deer) tick seen from above. The shield behind the head is plain and dark, with no pattern, and the legs are dark: the deer tick's field marks."
+          />
+          <Photo
+            id="american-dog-tick-female"
+            alt="An adult female American dog tick seen from above on a green leaf, with pale mottled markings on its shield"
+            caption="An adult female American dog tick seen from above. Its shield carries the pale, mottled markings that a deer tick never has, and unfed it is the larger of the two."
+          />
           {/* source: https://www.canada.ca/en/public-health/services/diseases/lyme-disease/causes-lyme-disease.html */}
           <p><strong>Lyme risk.</strong> The Public Health Agency of Canada names the blacklegged (deer) tick and the western blacklegged tick as the ticks that spread Lyme disease. The American dog tick does not transmit it here. In most cases an infected tick needs to be attached for at least 24 hours to pass on the bacterium, so remove either species promptly, and if it was the small plain one, save it and note the date.</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
@@ -249,13 +274,23 @@ export default function DeerTickVsDogTickPage() {
             <li><strong>Shield (scutum):</strong> smooth and plain — never the mottled grey-and-brown pattern you see on a dog tick.</li>
           </ul>
           <p>Put simply: <strong>a tiny, plain, dark-legged tick is a blacklegged (deer) tick and a Lyme risk</strong>; a larger tick with a decorated grey-brown shield is a dog tick with low disease risk in Canada.</p>
+          <Photo
+            id="blacklegged-tick-adult-nymph-fingertip"
+            alt="A blacklegged deer tick adult female and a much smaller nymph on a person's fingertip"
+            caption="Two blacklegged (deer) ticks on a person's fingertip: an adult female on the left and a nymph on the right. An unfed dog tick is bigger than that adult, while a deer tick nymph is poppy-seed small and easy to miss."
+          />
           <p>For a deeper dive into the blacklegged tick&rsquo;s life cycle, Ontario range, and season-by-season activity, see our full <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick Ontario guide</Link>.</p>
           <p>Telling these two apart on a dog is harder than it is on a bare arm — fur hides the shield, and an engorged tick loses the shape and colour you would normally go by. Our photo guide to <Link href="/blog/what-does-tick-look-like-on-dog" className="text-brand-700 underline">what a tick looks like on a dog</Link> covers the fur-parting angles and how to rule out a skin tag or a flea.</p>
+          <Photo
+            id="tick-on-cat"
+            alt="An engorged tick attached to a tabby cat's head between the eye and the ear"
+            caption="An engorged tick attached to a cat's head, between the eye and the ear (the species is not recorded). Once a tick has fed and sits in fur, the shield pattern that separates a deer tick from a dog tick is hard to see."
+          />
 
           <RelatedLinks path="/blog/deer-tick-vs-dog-tick-canada" />
           <h2>Why the Distinction Matters Medically</h2>
-          <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>About 10–30% of blacklegged ticks in southern Ontario carry <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>
-          <p>The dog tick is a much lower medical concern. While theoretically capable of transmitting Rocky Mountain spotted fever and tularemia, both diseases are extraordinarily rare in Canada — fewer than 5 confirmed RMSF cases per year nationwide. The main veterinary concern is tick paralysis in dogs (resolves with prompt tick removal).</p>
+          <p>The deer tick is the entire reason Lyme disease exists in Canada. <strong>Not every blacklegged tick carries <em>Borrelia burgdorferi</em></strong>, the bacterium that causes Lyme: the <a href="https://simcoemuskokahealth.org/docs/default-source/jfy-health-care-professionals/jfy-healthfax/20240620vectorborneupdate_v1.pdf" target="_blank" rel="noopener noreferrer">Simcoe Muskoka health unit</a> estimated under 20% did in its local risk areas in 2023, a share it expects to rise. Untreated Lyme can progress to chronic joint pain, neurological symptoms, and cardiac issues. Caught early (within weeks of the bite), it&rsquo;s treatable with a 2–4 week antibiotic course (doxycycline) with full recovery in most cases.</p>
+          <p>The dog tick is a much lower medical concern. While theoretically capable of transmitting Rocky Mountain spotted fever and tularemia, both diseases are rare in Canada: <a href="https://www.publichealthontario.ca/-/media/Documents/R/25/rocky-mountain-spotted-fever-ontario.pdf" target="_blank" rel="noopener noreferrer">Public Health Ontario</a> counted only two documented Ontario cases of Rocky Mountain spotted fever from 1979 on. That changed in 2025, when American dog ticks from the Long Point area tested positive (the first in Ontario in over 50 years) and two people were infected there, so a dog tick bite near Long Point deserves the same attention as a deer tick bite. The main veterinary concern is tick paralysis in dogs (resolves with prompt tick removal).</p>
           <p>Lyme is the other half of the veterinary picture, and it comes from the blacklegged tick rather than the dog tick despite the names. <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 underline">Can dogs get Lyme disease from ticks?</Link> covers the first signs owners notice, the three stages, and what treatment involves.</p>
 
           <p>Neither of these two species causes the red-meat allergy people sometimes worry about after a bite. That is the lone star tick, a third species that is not established in Canada — our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal syndrome guide</Link> explains how rarely it turns up here and what a delayed reaction actually looks like.</p>
@@ -269,6 +304,17 @@ export default function DeerTickVsDogTickPage() {
           <p>Those heights are a ceiling, not a starting point: neither species can jump or drop from a tree, so everything they reach, they climbed. <Link href="/blog/do-ticks-fly-or-jump" className="text-brand-700 underline">How high ticks actually climb, and why they cannot fly or jump</Link> explains what that means for socks, pant legs and mowing height.</p>
           <p>Yards bordering both grassland AND wooded areas (common in the GTA) host both species. Both are controlled by the same yard-spray approach.</p>
           <p>Which of the two you are more likely to meet also depends on where in the country you are &mdash; the two species have quite different Canadian ranges, mapped out in <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">our province-by-province guide to where ticks are found in Canada</Link>.</p>
+
+          <p>Names add to the mix-up. The American dog tick is also known as the wood tick: the <a href="https://wisconsin-ticks.russell.wisc.edu/wisconsin-ticks/dermacentor-variabilis" target="_blank" rel="noopener noreferrer">University of Wisconsin&ndash;Madison&rsquo;s entomology department</a> lists it under both names. The Rocky Mountain wood tick of Western Canada is a different species.</p>
+          <p>Three other ticks are worth ruling out. The <a href="https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" target="_blank" rel="noopener noreferrer">Public Health Agency of Canada</a> reports that brown dog ticks have not been found in natural outdoor environments in Canada and turn up in kennels and homes with dogs, that groundhog ticks are established in southcentral and southeastern Canada, and that lone star ticks, whose adult females have a white dot on the back, have been found in southern Ontario. None of the three spreads Lyme disease.</p>
+          <ConfusedWith
+            title="Three other ticks to rule out"
+            items={[
+              { href: '/blog/brown-dog-tick', name: 'Brown dog tick', photo: 'brown-dog-tick-male', note: 'Reddish-brown; in Canada, found in kennels and homes with dogs, not outdoors' },
+              { href: '/blog/groundhog-tick', name: 'Groundhog tick', photo: 'groundhog-tick', note: 'Established in southcentral and southeastern Canada; linked to Powassan virus, not Lyme' },
+              { href: '/blog/lone-star-tick-alpha-gal-canada', name: 'Lone star tick', photo: 'lone-star-tick-female', note: 'One white dot on the adult female’s back; linked to the red-meat allergy, not Lyme' },
+            ]}
+          />
 
           <h2>What to Do When You Find Either One</h2>
           <p>The removal technique is identical for both species: grasp the tick as close to the skin as possible with fine-tipped tweezers or a purpose-made tick tool, pull straight up with steady pressure, and disinfect the bite. A dedicated removal tool grips the mouthparts more reliably than fingers and reduces the risk of leaving the head behind.</p>

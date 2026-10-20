@@ -12,10 +12,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'what-does-tick-look-like-on-dog'
 const DATE = '2026-04-26'
-const UPDATED = '2026-04-26'
+const UPDATED = '2026-10-20'
 const TITLE = 'What Does a Tick Look Like on a Dog? (Ontario Field Guide 2026)'
 const META_TITLE = 'What Does a Tick Look Like on a Dog? Photos'
 
@@ -52,6 +56,14 @@ const FAQS = [
     question: 'How big does a tick get when fed?',
     answer: 'A fully engorged adult female tick can swell to 50–100 times her unfed weight. Visually: a sesame-seed-sized blacklegged tick becomes pea-sized after 5+ days of feeding. An apple-seed-sized American dog tick becomes grape-sized. Engorged ticks typically turn from their original colour to grey-blue, olive, or pale tan. They look bloated and balloon-like. Many owners initially mistake an engorged tick for a skin growth, wart, or cyst — until they look more closely and see the legs.',
   },
+  {
+    question: 'How can I tell a tick from a scab on my dog?',
+    answer: 'Part the fur and look at the spot from the side with a flashlight or magnifying glass. A tick, even a swollen one, has legs at the front where its body meets the skin and a hard shell, and it is attached at one point while staying separate from the skin. A scab is a dry crust with no legs. A tick also grows over a day or more as it feeds. If you still cannot tell, or the spot stays red, swollen or sore, ask your vet to look at it.',
+  },
+  {
+    question: 'What do baby ticks (seed ticks) look like on a dog?',
+    answer: 'Baby ticks are the larva and nymph stages of the same ticks described on this page; larvae are often called seed ticks. The CDC describes the larva as six-legged and the nymph as eight-legged, and both are smaller than an adult, so they are easy to miss: the CDC also notes that ticks can be hard to spot on pets with long or dark fur. A six-legged larva can look like a flea, but a tick of any stage stays attached in one spot instead of jumping. If you find many tiny ticks on your dog, ask your vet.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -60,6 +72,8 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
 })
 
 const AMZ_TAG = tagForSlug('what-does-tick-look-like-on-dog')
@@ -67,7 +81,7 @@ const AMZ_TAG = tagForSlug('what-does-tick-look-like-on-dog')
 export default function WhatDoesTickLookLikeOnDogPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Visual identification guide for ticks on dogs in Ontario.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Visual identification guide for ticks on dogs in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-adult-nymph-fingertip') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Tick Looks Like on Dog', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -94,7 +108,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>An unfed tick is flat, oval, and sesame-seed-sized (1&ndash;3 mm) with 8 legs near the head &mdash; fleas have 6 legs and jump.</li>
               <li>After 24+ hours feeding, ticks swell 50&ndash;100 times their weight to pea- or grape-sized (5&ndash;15 mm) and turn grey-blue, olive, or tan.</li>
-              <li>Blacklegged ticks are reddish-brown with dark legs and no shield (the Lyme carrier); American dog ticks (~5 mm) have a mottled grey-brown scutum.</li>
+              <li>Blacklegged ticks are reddish-brown with dark legs and a plain dark shield, no white markings (the Lyme carrier); American dog ticks (~5 mm) have a mottled grey-brown scutum.</li>
               <li>Common attachment spots are the ears, eyelids, under the collar, armpits, between toes, and the tail base and groin.</li>
               <li>Only 10&ndash;30% of Ontario blacklegged ticks carry Borrelia, so most single bites do not transmit Lyme.</li>
               <li>Remove with fine-tipped tweezers gripping at skin level and pulling straight up &mdash; do not squeeze the body.</li>
@@ -106,6 +120,21 @@ export default function WhatDoesTickLookLikeOnDogPage() {
           {/* Service CTA first (lead-CTA rule), then the affiliate pick under it */}
           <AffiliateDisclosure />
           <p>If it turns out to be a tick, the next thing you will want is a fine-tipped remover that grips at the skin rather than flat tweezers that crush the body. <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>
+
+          <QuickIdTable
+            title="Tick, skin tag or flea? Quick ID"
+            head={['What you found', 'Size and colour', 'Legs', 'How to tell']}
+            rows={[
+              ['Blacklegged (deer) tick', 'Sesame-seed size (1–3 mm) unfed; reddish-brown body, no patterned shield', '8, dark', 'Small, plain and reddish-black: treat it as a possible Lyme carrier'],
+              ['American dog tick', 'About 5 mm unfed; brown, with a mottled grey-and-brown shield', '8', 'The patterned shield; the tick most often found on pets'],
+              ['Lone star tick', 'Brown; the female has a single white spot on her back', '8', 'Rare in Ontario'],
+              ['Engorged tick (any kind)', 'Pea-sized or bigger, round like a balloon; grey-blue, olive or pale tan', '8, hidden under the swollen body', 'Part the fur: the legs show at the base, where it meets the skin'],
+              ['Tick larva (seed tick) or nymph', 'Smaller than an adult tick', 'Larva 6, nymph 8', <>Stays attached in one spot, unlike a flea: see <Link href="/blog/baby-ticks-nymphs-seed-ticks-ontario">baby ticks</Link></>],
+              ['Skin tag', 'Soft and fleshy, part of the skin itself', 'None', 'No legs, no hard shell, never moves'],
+              ['Flea', 'Tiny (1–4 mm), dark brown, narrow side to side', '6', 'Jumps and moves fast; leaves black flea dirt on the skin'],
+            ]}
+            caption={<>Restated from the descriptions further down this page. Larva and nymph leg counts from the <a href="https://www.cdc.gov/ticks/about/tick-lifecycles.html" target="_blank" rel="noopener noreferrer" className="underline">CDC</a>, which also notes that ticks can be hard to spot on pets with long or dark fur (<a href="https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html" target="_blank" rel="noopener noreferrer" className="underline">CDC, ticks on pets</a>). Not sure what you found? Your vet can tell you.</>}
+          />
 
           <h2>The Quick Identification Checklist</h2>
           <Figure
@@ -132,6 +161,12 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li><strong>Lone star tick</strong> (rare in Ontario) — brown with a single white spot on the back of females.</li>
           </ul>
 
+          <Photo
+            id="blacklegged-tick-adult-nymph-fingertip"
+            alt="A blacklegged tick adult female and a much smaller nymph on a person's fingertip"
+            caption="A blacklegged (deer) tick adult female (left) and nymph (right) on a fingertip, for size. This is the flat, oval, unfed form, before a tick swells with blood."
+          />
+
           <h2>What an Engorged Tick Looks Like</h2>
           <p>After 24+ hours of feeding, ticks swell to 50–100 times their original weight. They become:</p>
           <ul>
@@ -141,6 +176,11 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li><strong>Legs harder to see</strong> because they&rsquo;re under the engorged body</li>
           </ul>
           <p>This is the form most owners discover — and most often mistake for a skin tag, wart, or cyst.</p>
+          <Photo
+            id="tick-on-cat"
+            alt="An engorged grey-brown tick attached to a tabby cat's head between the eye and the ear"
+            caption="An engorged tick attached to a cat's head, between the eye and the ear. Round, smooth and balloon-like, an engorged tick is easy to mistake for a skin tag."
+          />
 
           <h2>Tick vs Skin Tag — How to Tell</h2>
           <p>This is the most common mix-up. Three reliable distinctions:</p>
@@ -149,7 +189,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li><strong>Texture</strong> — Ticks have a hard, somewhat brittle outer shell. Skin tags are soft and fleshy.</li>
             <li><strong>Attachment</strong> — Skin tags are <em>part of the skin</em>; they&rsquo;re a continuous tissue with the dog. Ticks are foreign objects firmly attached but distinct from the skin.</li>
           </ol>
-          <p>If you&rsquo;re unsure: gently part the fur and look from multiple angles with a flashlight or magnifying glass. When in doubt, treat as a tick and remove with tweezers — there&rsquo;s no harm in &ldquo;removing&rdquo; a skin tag (you literally can&rsquo;t pull off a skin tag with tweezers).</p>
+          <p>If you&rsquo;re unsure: gently part the fur and look from multiple angles with a flashlight or magnifying glass. When in doubt, look again for legs under a magnifier, and if you still cannot tell, ask your vet before pulling at it: a skin tag is part of your dog&rsquo;s skin.</p>
 
           <RelatedLinks path="/blog/what-does-tick-look-like-on-dog" />
           <h2>Tick vs Flea — How to Tell</h2>
@@ -168,6 +208,17 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             </tbody>
           </table>
 
+          <ConfusedWith
+            title="Often confused on a dog"
+            items={[
+              { href: '/blog/blacklegged-deer-tick-ontario', name: 'Blacklegged (deer) tick', photo: 'blacklegged-tick-female', note: 'Small and plain: reddish-brown body, dark legs, no patterned shield; the Lyme carrier in Ontario' },
+              { href: '/blog/american-dog-tick-canada', name: 'American dog tick', photo: 'american-dog-tick-female', note: 'Larger, with a mottled grey-and-brown shield; the tick most often found on pets' },
+              { href: '/blog/lone-star-tick-alpha-gal-canada', name: 'Lone star tick', photo: 'lone-star-tick-female', note: 'Brown, and the female has a single white spot on her back; rare in Ontario' },
+              { href: '/blog/baby-ticks-nymphs-seed-ticks-ontario', name: 'Tick nymph', photo: 'blacklegged-tick-nymph-fingernail', note: 'A smaller, earlier stage of the same tick, with 8 legs; easy to miss in fur' },
+              { href: '/blog/what-do-fleas-look-like', name: 'Flea', photo: 'cat-flea-scale-bar', note: 'Six legs, narrow side to side, and it jumps; leaves black flea dirt on the skin' },
+            ]}
+          />
+
           <h2>Where on Your Dog to Look</h2>
           <p>Ticks prefer warm, hidden, hard-to-groom spots. Check these zones after every walk in tick habitat:</p>
           <ul>
@@ -179,6 +230,11 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li>At the <strong>tail base and groin</strong></li>
             <li>At the <strong>base of the head and neck</strong></li>
           </ul>
+          <Photo
+            id="brown-dog-ticks-dog-ear"
+            alt="A cluster of brown dog ticks attached inside a dog's ear"
+            caption="A dog's ear infested with brown dog ticks. Inside and behind the ears is the first place on this list to check."
+          />
           <p>Use both hands to slowly run through your dog&rsquo;s fur, feeling for bumps. Once you find one, separate the fur to look at it directly.</p>
           <p>A fine-toothed flea and tick comb makes this faster on long-coated dogs &mdash; it snags an unfed tick that fingers slide straight over. <BuyLink tag={AMZ_TAG} search="flea tick comb dog">Check price on Amazon.ca &rarr;</BuyLink></p>
 
@@ -200,6 +256,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             <li><Link href="/blog/how-to-remove-tick-from-dog-ontario">Step-by-Step Tick Removal</Link></li>
           </ul>
           <p>To lower the odds of the next tick even latching on, pair yard treatment with an on-dog repellent — see our guide to the best <Link href="/blog/tick-repellent-for-dogs-ontario">tick repellent for dogs in Ontario</Link>.</p>
+          <p>For prevention on the dog itself, the <a href="https://www.cdc.gov/ticks/prevention/preventing-ticks-on-pets.html" target="_blank" rel="noopener noreferrer">CDC</a> advises asking your veterinarian which tick prevention product is best for your dog, and checking your dog for ticks daily, especially after time outdoors.</p>
 
           <h2>Stop Finding Ticks in the First Place</h2>
           <p>Once you&rsquo;ve found one tick, you&rsquo;ll likely find more — they don&rsquo;t travel alone. The most efficient solution is reducing the tick population in your yard, which is where dogs spend most of their outdoor time. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> targets leaf litter, lawn edges, and fence-line zones — the micro-habitats where most yard ticks live, and repeats the treatment through the season as the residual wears down. Keep checking your dog after outdoor time; no yard treatment removes every tick.</p>

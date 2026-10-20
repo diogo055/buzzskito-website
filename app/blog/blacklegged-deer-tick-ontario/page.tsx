@@ -11,10 +11,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import ConfusedWith from '@/components/ConfusedWith'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'blacklegged-deer-tick-ontario'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+// Oct 20, 2026: rebuilt to the photo-ID formula (photos where people find the tick, look-alike cards, 1 FAQ)
+const UPDATED = '2026-10-20'
 const TITLE = 'Blacklegged (Deer) Tick Ontario: ID, Range & Lyme Risk'
 const META_TITLE = 'Blacklegged Deer Tick Ontario: ID & Lyme 2026'
 
@@ -51,6 +55,12 @@ const FAQS = [
     question: 'Should I get a blacklegged tick tested?',
     answer: 'Ontario public-health guidance focuses on your symptoms and exposure, not on testing the tick itself, so a negative tick test does not rule out infection and a positive one does not confirm it. You can submit a photo to eTick.ca for free species identification, which tells you whether it was a blacklegged tick at all. Watch the bite for 30 days: see a doctor if you develop an expanding rash (often a bull\'s-eye), fever, fatigue, or joint aches.',
   },
+  // Oct 20, 2026 retrofit: the page's query "deer tick range canada" (and Google's "Are there deer ticks in Canada?") had no answer here.
+  // Source: Public Health Agency of Canada, Ticks in Canada (linked in the body); the bird note restates the range FAQ above.
+  {
+    question: 'Where are deer ticks found in Canada?',
+    answer: 'The Public Health Agency of Canada lists blacklegged (deer) ticks as established in southern Manitoba, mid to southern New Brunswick, Nova Scotia, western, southern and southeastern Ontario, and southern Quebec. Coastal and southern interior British Columbia has a different species, the western blacklegged tick, which can also transmit the bacteria that cause Lyme disease. Ticks can turn up outside these areas too, because migrating birds carry them, so a tick check after time in woods, brush or long grass is worthwhile anywhere in southern Canada.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -60,6 +70,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-female'),
 })
 
 const AMZ_TAG = tagForSlug('blacklegged-deer-tick-ontario')
@@ -67,7 +78,7 @@ const AMZ_TAG = tagForSlug('blacklegged-deer-tick-ontario')
 export default function BlackleggedDeerTickOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Identify the blacklegged (deer) tick in Ontario, its range and season, and why it spreads Lyme disease.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Identify the blacklegged (deer) tick in Ontario, its range and season, and why it spreads Lyme disease.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Blacklegged (Deer) Tick Ontario', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -198,6 +209,26 @@ export default function BlackleggedDeerTickOntarioPage() {
           <h2>How to Recognize an Adult Blacklegged Tick</h2>
           <p>An unfed adult female is roughly the size and shape of a sesame seed. Look for a <strong>reddish-orange to brownish body</strong> behind a smaller, dark, glossy dorsal shield (the scutum) just behind the mouthparts. The eight legs are dark — nearly black — which is where the name comes from. There are <strong>no white or silver markings</strong>; that mottled marbling belongs to the American dog tick, a larger and harmless-for-Lyme species that is common right across the GTA. Males are a little smaller and uniformly dark, and they rarely bite. Once a female has fed for a day or two she swells to the size of a small grape and turns grey-olive, which can make her hard to identify by colour alone.</p>
 
+          <Photo
+            id="blacklegged-tick-female"
+            alt="An adult female blacklegged deer tick seen from above on a green leaf, with a reddish-orange body, black shield and black legs"
+            caption="An adult female blacklegged (deer) tick, Ixodes scapularis, seen from above: a reddish-orange body behind a dark shield, black legs, and no white or silver markings anywhere."
+          />
+          <Photo
+            id="engorged-blacklegged-tick"
+            alt="An engorged female blacklegged tick seen from the side, its body swollen and tan-brown"
+            caption="An engorged female blacklegged tick seen from the side, her body swollen with a blood meal. After a day or two of feeding she looks nothing like the unfed female above, which is why colour alone is a poor guide."
+          />
+          <p>The American dog tick is not the only tick to rule out. The <a href="https://www.canada.ca/en/public-health/services/diseases/ticks-tick-borne-diseases/ticks.html" target="_blank" rel="noopener noreferrer">Public Health Agency of Canada</a> lists the groundhog tick as established in southcentral and southeastern Canada, where it can transmit the virus that causes Powassan virus disease, and reports that lone star ticks, whose adult females have a white dot on the back, have been found in southern Ontario. Neither spreads Lyme disease. In British Columbia, the Lyme carrier is a different species, the western blacklegged tick.</p>
+          <ConfusedWith
+            items={[
+              { href: '/blog/american-dog-tick-canada', name: 'American dog tick', photo: 'american-dog-tick-female', note: 'Larger, with white or silver marbling on the shield; does not spread Lyme in Ontario' },
+              { href: '/blog/lone-star-tick-alpha-gal-canada', name: 'Lone star tick', photo: 'lone-star-tick-female', note: 'A white dot on the adult female’s back; found in southern Ontario, not a Lyme carrier' },
+              { href: '/blog/groundhog-tick', name: 'Groundhog tick', photo: 'groundhog-tick', note: 'Established in southcentral and southeastern Canada; linked to Powassan virus, not Lyme' },
+              { href: '/blog/ticks-in-british-columbia', name: 'Western blacklegged tick', photo: 'western-blacklegged-tick-female', note: 'A different species: the Lyme carrier of coastal and southern interior BC' },
+            ]}
+          />
+
           <h2>Where Blacklegged Ticks Live in Ontario</h2>
           <p>Blacklegged ticks are no longer a rarity confined to a few parks. Over the past two decades their range has expanded steadily across <strong>southern and eastern Ontario</strong>, driven by warming winters and by migrating birds that drop ticks far outside established zones. Well-known risk areas include:</p>
           <ul>
@@ -221,6 +252,11 @@ export default function BlackleggedDeerTickOntarioPage() {
 
           <h2>When Are They Active?</h2>
           <p>Blacklegged ticks do not disappear in cold weather the way people assume. Adults become active whenever the air temperature climbs above roughly <strong>4&deg;C</strong> and the ground is clear of snow, so the two adult peaks are spring (April&ndash;May) and fall (October&ndash;November). The tiny <strong>nymphs</strong> — the stage responsible for most human Lyme cases because they are so easy to overlook — peak from late May through July, overlapping perfectly with the busiest months in Ontario backyards. In practice, that means tick checks are worth doing on any mild day after you have been in grass, brush, or the woods, not just in mid-summer.</p>
+          <Photo
+            id="blacklegged-tick-nymph-fingernail"
+            alt="A tiny blacklegged tick nymph crawling beside a person's fingernail"
+            caption="A blacklegged tick nymph crawling beside a person's fingernail: the poppy-seed-sized stage behind most human Lyme cases, because it is so easy to overlook."
+          />
 
           <RelatedLinks path="/blog/blacklegged-deer-tick-ontario" />
           <h2>Why This Tick Spreads Lyme and the Dog Tick Does Not</h2>
@@ -252,6 +288,12 @@ export default function BlackleggedDeerTickOntarioPage() {
 
           <h2>When to Test and When to See a Doctor</h2>
           <p>Ontario guidance is built around your <strong>exposure and symptoms</strong>, not around lab-testing the tick itself — a negative tick test would not clear you, and a positive one would not confirm infection. What is genuinely useful is <strong>species identification</strong>: submit a clear photo to the free <em>eTick.ca</em> service to learn whether you were bitten by a blacklegged tick at all. If it was a blacklegged tick attached for more than about 24 hours in a known risk area, contact your health-care provider promptly, because a single preventive dose of doxycycline is sometimes offered within 72 hours of removal. Then watch the bite for 30 days and seek care if you develop an <strong>expanding rash</strong> (often, but not always, a bull&rsquo;s-eye pattern), fever, fatigue, headache, or aching joints — early Lyme disease is very treatable with antibiotics.</p>
+
+          <Photo
+            id="erythema-migrans-rash"
+            alt="A bull's-eye erythema migrans rash of early Lyme disease on the back of a person's upper arm"
+            caption="Erythema migrans, the expanding rash of early Lyme disease, at the site of a tick bite on the back of a woman's upper arm, here in a bull's-eye pattern. Not every Lyme rash has rings, so any rash that keeps expanding after a bite is worth showing a doctor."
+          />
 
           <h2>Protecting Your Yard and Yourself</h2>
           <p>Because blacklegged ticks quest low on vegetation and cannot fly or jump, yard control genuinely works. Mow to 3&ndash;4 inches, clear leaf litter at the edges each spring and fall, keep a dry wood-chip or gravel strip between lawn and woods, and discourage mice and deer. On your body, tuck pant legs into socks, wear light colours to spot ticks, treat footwear and pant legs with permethrin, and use a DEET or icaridin (picaridin) repellent on skin. A licensed <Link href="/tick-control">barrier spray</Link> applied to the shaded borders where deer ticks actually wait removes them at the source for the season.</p>
