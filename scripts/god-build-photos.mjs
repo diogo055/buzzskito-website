@@ -5,7 +5,8 @@
 //
 //   node scripts/god-build-photos.mjs           fetch what is missing
 //
-// Allowed: public domain (CDC PHIL images whose page says public domain), CC0, CC BY, CC BY-SA.
+// Allowed: public domain (CDC PHIL images whose page says public domain; figures on www.nps.gov
+// pages whose caption credits them "NPS Photo"), CC0, CC BY, CC BY-SA.
 // Never NonCommercial or NoDerivatives. No AI images, no drawings.
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'fs'
 import { join } from 'path'
@@ -422,6 +423,13 @@ const PHOTOS = [
   ['deer-droppings-snow', 'Deer droppings (pellets) on snow at Big Meadows, Shenandoah National Park, Virginia (National Park Service photograph)', { commons: 'Deer Scat in the Snow (51861792238).jpg' }],
   ['lizard-droppings-ruler', 'Western fence lizard, Sceloporus occidentalis, dropping with its white urate cap beside a centimeter ruler; the observer saw the lizard leave it seconds before (San Mateo County, California)', { inat: { obs: 163828317, photo: 283400775 } }],
   ['anole-droppings-fence', 'Green anole, Anolis carolinensis, dropping with a white tip on a wooden fence post; the observer watched the lizard leave it (Birmingham, Alabama)', { inat: { obs: 204441225, photo: 361362651 } }],
+  // eighth batch (Oct 20): mouse urine under UV light and mouse droppings from NPS Conserve O Gram 3/12
+  // (figures captioned "NPS Photo", public domain, taken with the nps source type above), and gray
+  // squirrel droppings the photographer saw the squirrel leave. Squirrel, opossum, cockroach and rat
+  // droppings searched again; what was found, refused and why: data/god-build/photo-notes-batch8.json
+  ['mouse-urine-uv-light', 'Mouse urine glowing blue-white in spots and streaks under a UV flashlight, on the bottom shelf of a cabinet (National Park Service photograph)', { nps: { page: 'https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm', figure: 1 } }],
+  ['mouse-droppings-wood', 'Mouse droppings scattered on a wooden surface (National Park Service photograph)', { nps: { page: 'https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm', figure: 2 } }],
+  ['gray-squirrel-droppings-ledge', 'Eastern gray squirrel, Sciurus carolinensis, droppings on a concrete ledge by a railing; the photographer saw the squirrel leave them (Richmond Hill, Ontario)', { inat: { obs: 106432462, photo: 178790061 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }
@@ -458,6 +466,26 @@ async function inat({ obs, photo }) {
   if (!license) throw new Error(`iNaturalist photo ${photo}: licence "${p.license_code}" is not allowed`)
   return { sourceUrl: `https://www.inaturalist.org/observations/${obs}`, originalUrl: p.url.replace('/square.', '/original.'), license, credit: `${p.attribution}, via iNaturalist`, description: j.results[0].taxon?.name || '' }
 }
+// One numbered figure on a www.nps.gov page ({ nps: { page, figure: 1 } }), taken only when the
+// page's own caption ends "(NPS Photo)". Work the National Park Service made is in the public
+// domain (17 U.S.C. 105; nps.gov/aboutus/disclaimer.htm: "material created by the National Park
+// Service ... is generally considered in the public domain"). Any other credit is refused, e.g.
+// Conserve O Gram 3/12's "(Photo courtesy of Thomas Parker, PhD, MuseumPests.Net)".
+async function nps({ page, figure }) {
+  if (!/^https:\/\/www\.nps\.gov\//.test(page)) throw new Error(`NPS source must be a https://www.nps.gov/ page: ${page}`)
+  const html = await (await fetch(page, { headers: UA })).text()
+  const fig = [...html.matchAll(/<figure\b[\s\S]*?<\/figure>/g)].map((m) => m[0]).find((f) => new RegExp(`<figcaption>\\s*Figure ${figure}:`).test(f))
+  if (!fig) throw new Error(`NPS ${page}: no "Figure ${figure}:" caption`)
+  const caption = strip((fig.match(/<figcaption>([\s\S]*?)<\/figcaption>/) || [])[1])
+  const credit = (caption.match(/\(([^()]+)\)$/) || [])[1]
+  if (credit !== 'NPS Photo') throw new Error(`NPS ${page} Figure ${figure} is credited "${credit || 'nobody'}", not "NPS Photo"`)
+  const publisher = (html.match(/<title>[^<]*\(([^()<]+)\)\s*<\/title>/) || [])[1]
+  if (!publisher) throw new Error(`NPS ${page}: no publisher in the page title`)
+  const src = (fig.match(/<img\b[^>]*?\ssrc="([^"]+)"/) || [])[1]
+  if (!src) throw new Error(`NPS ${page} Figure ${figure}: no image`)
+  // the page asks the server for a resized WebP (?maxwidth=...&format=webp): take the file itself
+  return { sourceUrl: page, originalUrl: new URL(src.replace(/&amp;/g, '&').split('?')[0], page).href, license: 'public-domain', credit: `${credit} (${strip(publisher)}, nps.gov)`, description: caption.slice(0, 300) }
+}
 
 const ledger = JSON.parse(readFileSync(LEDGER, 'utf8'))
 const have = Object.fromEntries(ledger.photos.map((p) => [p.file, p]))
@@ -468,7 +496,7 @@ for (const [name, subject, src, opts = {}] of PHOTOS) {
   // a corrected subject line in PHOTOS reaches the ledger without downloading again
   if (have[file] && existsSync(join(OUT, `${name}.webp`))) { have[file].subject = subject; console.log(`have ${name}`); continue }
   try {
-    const meta = src.phil ? await phil(src.phil) : src.commons ? await commons(src.commons) : await inat(src.inat)
+    const meta = src.phil ? await phil(src.phil) : src.commons ? await commons(src.commons) : src.nps ? await nps(src.nps) : await inat(src.inat)
     const res = await fetch(meta.originalUrl, { headers: UA })
     if (!res.ok) throw new Error(`download HTTP ${res.status}`)
     const buf = Buffer.from(await res.arrayBuffer())

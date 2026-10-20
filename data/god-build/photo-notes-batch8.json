@@ -1,0 +1,73 @@
+{
+ "_readme": "Scout notes for the eighth photo batch (Oct 20, 2026): squirrel droppings (squirrel-poop), opossum droppings (possum-poop), mouse urine under a UV light (mouse-urine) and a public domain mouse droppings lead (mouse-poop), plus another look for cockroach droppings in a cabinet and rat droppings beside a US coin or ruler. Same format as batch 7: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; slugs as in data/god-build/research/droppings-top3.md), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. New this batch: scripts/god-build-photos.mjs reads a fourth source, a numbered figure on a www.nps.gov page ({ nps: { page, figure } }); it takes the credit from the figure's own caption, accepts only 'NPS Photo' (material the National Park Service made is public domain: 17 U.S.C. 105 and nps.gov/aboutus/disclaimer.htm) and refuses any other credit, so Conserve O Gram 3/12's figures credited to Thomas Parker, PhD cannot be taken by mistake. Its credit line reads 'NPS Photo (U.S. National Park Service, nps.gov)', with the publisher read from the page title. lib/photos.ts photoCreator() does not parse that credit shape yet, so the two NPS photos' ImageObject carries creditText, license and acquireLicensePage but no creator (a one-line follow-up, outside this batch). All 3 images were looked at after conversion and show what their subject lines say, so none was removed. Searches, rejected candidates and what is still missing are in 'gaps'. Write captions from these notes and the record together, in US spelling and US units.",
+ "candidates": [
+  {
+   "id": "mouse-urine-uv-light",
+   "forPages": [
+    "mouse-urine",
+    "mouse-poop"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "NPS Conserve O Gram 3/12, 'Identifying Mouse and Rat Damage in Museum Collections' (www.nps.gov article, last updated January 23, 2026), Figure 1: 'Mouse urine fluorescing blue-white on the bottom shelf of a cabinet, revealed using a UV flashlight. Many substances fluoresce, so UV flashlights help confirm when there are other signs of mouse activity in the area, as well. (NPS Photo)'. Image alt text: 'Mouse urine fluorescing under blacklight.' The text cites it in its inspection advice: use a flashlight, an ultra-violet (UV) flashlight (urine fluoresces under UV) and a camera.",
+   "caveats": "Inside a cabinet lit only by a UV flashlight (the whole frame is purple-blue): small blue-white spots and streaks glowing along the bottom shelf where it meets a slotted shelving upright. The glow is small at web size and 800x741 is the largest file NPS serves, so tell the reader where to look in the caption. An agency identification in a federal pest-identification bulletin, taken in a park or museum building (place not given), not a home. NPS itself says many substances fluoresce, so a caption must say the glow only supports other signs (droppings, rub marks, gnawing) and never present it as proof of mice. Public domain, so it can lead mouse-urine and be its share image; NPS asks only for an acknowledgement of the National Park Service, which the credit line gives.",
+   "note": "Credit: NPS Photo (U.S. National Park Service, nps.gov). Licence: public-domain. Size: 800x741."
+  },
+  {
+   "id": "mouse-droppings-wood",
+   "forPages": [
+    "mouse-poop",
+    "rat-droppings",
+    "cockroach-droppings",
+    "animal-droppings",
+    "squirrel-poop",
+    "mouse-urine"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "NPS Conserve O Gram 3/12 (as above), Figure 2: 'Mouse droppings. (NPS Photo)'. Image alt text: 'Mouse droppings on a wood surface'. The file name (mouse-droppings-Fran-Ritchie-NPS_resized.jpg) names Fran Ritchie of the NPS as the photographer, but the page credits only 'NPS Photo', so the record does too. The paragraph that cites it: 'Mouse excrement is smooth with a characteristic ovoid shape with at least one pointed end. Although color can vary based on what the animal was eating, droppings are usually dark and similar in size (1/8 to 1/4 inch) and appearance to small dark grains of rice (Figure 2).'",
+   "caveats": "About twenty dark, rice-shaped droppings, several with a pointed end, plus crumbs, scattered on a light wooden surface (a shelf or drawer bottom; not stated), sharp and well lit. Identified by the agency in its own rodent-sign publication; the species is not named (house mouse or deer mouse), so caption it as mouse droppings. No scale object: give the size from NPS's text (1/8 to 1/4 inch, like a grain of rice) or another written source. The same NPS paragraph gives rat droppings as 1/2 to 3/4 inch, wider and blunt at the ends, and says American cockroach droppings 'are also blunt ended but have ridges and are smaller' (the sentence follows the rat sizes): sourced text for the look-alike sections and cards. 800x600 is the largest file NPS serves. Public domain and agency-identified, so it is the droppings lead mouse-poop lacked; the live page leads with house-mouse (the animal), so moving this first is an edit to a live guide (run the amend step).",
+   "note": "Credit: NPS Photo (U.S. National Park Service, nps.gov). Licence: public-domain. Size: 800x600."
+  },
+  {
+   "id": "gray-squirrel-droppings-ledge",
+   "forPages": [
+    "squirrel-poop",
+    "rat-droppings",
+    "mouse-poop",
+    "animal-droppings"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist needs-ID observation 106432462 of Sciurus carolinensis (Eastern Gray Squirrel), Bel Canto Crescent, Richmond Hill, Ontario, 2022-02-09, by Andrew Sebastian (data_nerd; about 84,000 observations and 152,000 identifications on iNaturalist); his identification only; photo 1 of 1. Observer's note: 'Saw it poop!'",
+   "caveats": "Five fresh, dark, oval to bean-shaped droppings (some kinked, two stuck together) on a pebbly concrete ledge with a black-and-white railing behind: the porch-and-balcony setting the page's 'Why is a squirrel pooping on my porch?' question needs. The tie to the squirrel is the best kind for droppings, the photographer watched it leave them, but it rests on his report: the squirrel is not in the frame and no second user has identified the observation. Two pale brown flakes beside the droppings are not identified: do not count them as droppings. No scale object: sizes only from a written source. Taken in the Greater Toronto Area; eastern gray squirrels are the same animal across the eastern US, so name the place honestly or leave it out. CC BY (credit Andrew Sebastian), so it cannot lead: lead squirrel-poop with eastern-gray-squirrel (CC0, the animal) and put this right after it, the pattern the live mouse-poop and cockroach-droppings pages use.",
+   "note": "Credit: (c) Andrew Sebastian, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "squirrel-poop",
+   "why": "A reliable droppings photo now exists (gray-squirrel-droppings-ledge, seen being left, CC BY), so the page can be built like mouse-poop and cockroach-droppings: CC0 animal lead (eastern-gray-squirrel), droppings right after. Still not found: a public domain or CC0 squirrel droppings photo with a trustworthy identification, so there is no droppings lead. Searched: iNaturalist tree, flying and red squirrels (27 scat-annotated observations under allowed licences, plus description searches for poop, pooped, pooping, poo, droppings, dropping, scat, feces, excrement, fecal, pellets, latrine, turd, attic, trap, trapped, live trap, defecated; flying squirrels in nest boxes, bird boxes and attics: no droppings visible); the 2,721 tree and flying squirrel observations Kim Cabrera identified, filtered for scat: her own squirrel scat photos, dozens including 46305081 ('scat that fell when it was above me in a tree'), are all CC BY-NC-ND, not allowed; scat-annotated squirrel observations identified by Jonathan Poppele, Max Allen, Jonah Evans or Tom French: none new. Wikimedia Commons (16 queries): only Siberian flying squirrel droppings (Finland, Estonia) and USFWS public domain Carolina northern flying squirrel nest-box photos showing nest material and people, not droppings. nps.gov: no squirrel droppings figure credited 'NPS Photo' (Denali's Arctic ground squirrel scat photo is credited to Jedediah Brodie). Openverse (Flickr): nothing identifiable, and Flickr is not a source the script reads. Rejected: 26638920 (CC BY, research grade, Washington DC: droppings on a granite wall beside fingers, identified from the droppings by a second user reasoning 'Among those rodents: 100% gray.'; downtown DC has rats and the droppings are kinked and broken, too risky on a squirrel-versus-rat page); 101591822 (CC BY, Kim Cabrera identified western gray squirrel on a park visitor center deck railing, but it is one atypical dropping of two round lumps and the observer doubted it); 391797988 (CC BY, Mark Apgar: a flying squirrel latrine at a tree cavity beside a CyberTracker centimeter card; his identification only, needs ID; a tracker's confirmation would make it the flying squirrel latrine photo the page wants); 189177130 (CC0, Kim Cabrera identified only to the squirrel family, which in Alabama includes chipmunks and groundhogs); single droppings identified by the observer alone (CC0: 107373583, 162708221, 165356404, 266676472, 153068319 'scat found on porch'); 322393686 (CC0, 'might be from the Eastern Gray Squirrel')."
+  },
+  {
+   "slug": "possum-poop",
+   "why": "Still blocked: no opossum droppings with a trustworthy identification under an allowed licence. Searched: iNaturalist Virginia opossum, the 12 scat-annotated observations batch 7 saw plus description searches (poop, pooped, pooping, poo, poops, droppings, dropping, scat, scats, feces, excrement, turd, turds, dung, stool, fecal, doo, deposit, pellets, latrine; playing dead, played dead, playing possum; trap, trapped, garage, crawl space, attic); photos of the 15 records with an opossum in a live trap (mostly feral cat trap by-catch), a compost cage, a garage or a house: no droppings visible in any; no scat-annotated opossum observation identified by Kim Cabrera, Jonathan Poppele, Max Allen, Jonah Evans or Tom French; no DNA-confirmed opossum scat; mammal-level scat records that mention opossum (Alabama, California, Louisiana) are guesses; records worded 'possum' are Australian and New Zealand brushtail possums, a different animal. Wikimedia Commons (9 queries): none. nps.gov: opossum pages show the animal only. Openverse (Flickr): 'Opossum Poop Or Something' (CC BY 2.0), uncertain by its own title. Re-checked and still refused: the two CC0 road-kill records (250303394, 238171309): their droppings photos leave the carcass out of frame, but the droppings are tied to the opossum only by lying beside it; one is a soft smear on asphalt, the other carries a grasshopper and loose fur, and neither shows what people find on a deck or in a garage. 37444906 (CC0, Mexico City: droppings in a trash can liner beside a chewed food carton; the observer's identification, no opossum seen). 57801822 (CC BY, Culver City, California: tubular droppings beside a US nickel at night, the observer's 'Scat.' only; the nickel makes it worth asking a tracker to confirm)."
+  },
+  {
+   "slug": "mouse-urine",
+   "why": "Unblocked: mouse-urine-uv-light (public domain, NPS-identified) can lead the page. Still missing: mouse urine stains in daylight (on a floor, fabric or paper) and urine pillars. Conserve O Gram 3/12 Figures 4 to 6 show urine splatters on a book and a floor and stained ceiling tiles, but they are credited to Thomas Parker, PhD (MuseumPests.Net) and the nps source type refuses them by design. A Commons search (mouse urine, rodent urine stain, urine fluorescence, urine pillar) found nothing usable; batch 7 found no UV or urine-stain photo on PHIL, Commons or iNaturalist."
+  },
+  {
+   "slug": "mouse-poop",
+   "why": "A public domain droppings lead is now on file (mouse-droppings-wood). The page is live and leads with house-mouse; putting the NPS photo first is an edit to a live guide (amend). Other figures on the same NPS page credited 'NPS Photo', available through the same source type if a page wants them: 9 (a mouse in its nest in a desk drawer), 10 (a mouse nest in a stagecoach), 11 to 13 and 15 (gnawing on a saddle, a woven chair seat, a wool blanket, a ranger hat). Figures 3 to 8, 14 and 16 are credited to Thomas Parker and are refused."
+  },
+  {
+   "slug": "cockroach-droppings",
+   "why": "Still no public domain or CC0 cockroach droppings photo (specks in a cabinet or on a hinge). iNaturalist cockroach and termite descriptions (frass, droppings, poop, feces, specks, fecal, excrement, smear): termite frass, outdoor cockroaches and wing-shedding only. NPS Conserve O Gram 3/11 (Identifying Museum Insect Pest Damage, 2008) exists only as a PDF; its one cockroach figure (11, damage to a book) is credited to Patrick Kelley, Insects Limited, Inc., not NPS; its text says cockroach fecal pellets can resemble small mouse droppings without pointed ends. New for the page: mouse-droppings-wood as a public domain look-alike card, with NPS 3/12's sentence that American cockroach droppings 'are also blunt ended but have ridges and are smaller'."
+  },
+  {
+   "slug": "rat-droppings",
+   "why": "Not found: rat droppings beside a US coin or ruler, and roof rat droppings. iNaturalist Old World rats (Rattus) annotated as scat under allowed licences (32 observations): the only scale objects are a thumb (Taiwan, 123471015) and a length stated in the notes (New Zealand, 30802792). 274485272 (CC0, 'Texas roof rats near Contrapest bait station', annotated as scat) is two camera-trap frames of rats on a fence with no droppings visible. The NPS Rodent Exclusion Manual (2019) credits its photos 'NPS Photo' but is a PDF, and the nps source type reads only figures on nps.gov article pages."
+  }
+ ]
+}

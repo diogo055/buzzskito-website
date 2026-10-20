@@ -69,13 +69,14 @@ built from the downloaded government files, so writers do not retype figures fro
 
 ## Photos
 
-Real photographs only: public domain (CDC PHIL, USDA, USGS), CC0, CC BY or CC BY-SA.
+Real photographs only: public domain (CDC PHIL, USDA, USGS, NPS), CC0, CC BY or CC BY-SA.
 NonCommercial or NoDerivatives licences are not allowed on this ad-supported site. Every photo
 is listed in `data/god-build/photos.json` with its source page, credit and licence; the
 validator refuses a `figure` that is not in that record or whose details differ.
 
 - **Adding photos:** add a line to `PHOTOS` in `scripts/god-build-photos.mjs` (a CDC PHIL id, a
-  Commons file name or an iNaturalist observation + photo id) and run it. It checks the licence
+  Commons file name, an iNaturalist observation + photo id, or a numbered figure on a www.nps.gov
+  page whose own caption credits it "NPS Photo"; any other credit is refused) and run it. It checks the licence
   at the source, downloads, converts to WebP and writes the record. Then look at every new photo
   against its `sourceDescription` before using it (a contact sheet is quickest): a photo labelled
   as something it does not show is a false claim on an identification page.

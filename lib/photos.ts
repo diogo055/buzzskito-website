@@ -67,6 +67,7 @@ const NO_NAME = /^(?:unknown author|Employee of US Government)$/i
  *   iNaturalist        "(c) Name, some rights reserved (CC BY), via iNaturalist"
  *   CDC PHIL           "Content provider; photo: Photographer (CDC Public Health Image Library, phil.cdc.gov)"
  *   Wikimedia Commons  "Author, CC BY 2.0, via Wikimedia Commons"
+ *   nps.gov figure     "NPS Photo (U.S. National Park Service, nps.gov)"
  * The name is always text from the credit itself (Commons' " from <place>", " at English
  * Wikipedia", "User:" and upload notes trimmed). No creator when the credit names nobody:
  * iNaturalist's CC0 line ("no rights reserved"), "unknown author", or a PHIL record with a
@@ -77,6 +78,7 @@ export function photoCreator(credit: string): PhotoCreator | undefined {
   let m: RegExpExecArray | null
   if ((m = /^\(c\) (.+?), some rights reserved \(CC BY(?:-SA)?\), via iNaturalist$/.exec(credit))) name = m[1]
   else if ((m = /^(.+) \(CDC Public Health Image Library, phil\.cdc\.gov\)$/.exec(credit))) name = /(?:^|; )photo: (.+)$/.exec(m[1])?.[1]
+  else if ((m = /^NPS Photo \((.+), nps\.gov\)$/.exec(credit))) name = m[1]
   else if ((m = /^(.+), (?:CC BY(?:-SA)? [\d.]+|CC0|Public domain), via Wikimedia Commons$/.exec(credit))) {
     name = m[1]
       .replace(/^User:/, '')

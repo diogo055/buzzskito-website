@@ -2665,6 +2665,20 @@
    "sha256Original": "d5288575b1b018aab88c19df15eae0abded0357d2a378959aa89fbcef58980e1"
   },
   {
+   "file": "/guides/photos/gray-squirrel-droppings-ledge.webp",
+   "subject": "Eastern gray squirrel, Sciurus carolinensis, droppings on a concrete ledge by a railing; the photographer saw the squirrel leave them (Richmond Hill, Ontario)",
+   "sourceUrl": "https://www.inaturalist.org/observations/106432462",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/178790061/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Andrew Sebastian, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 122918,
+   "sourceDescription": "Sciurus carolinensis",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "01b1edb3f5756c6e4b563cb73cb94d2dc78699e75ed929c5026df28992f31a1c"
+  },
+  {
    "file": "/guides/photos/green-bottle-fly.webp",
    "subject": "Common green bottle fly, Lucilia sericata, with a 1 mm scale bar (Orange, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/9915028",
@@ -3687,6 +3701,34 @@
    "sourceDescription": "Housemouse (Mus musculus) droppings found in the kitchen and near a computer keyboard, shown with 10 and 20 euro cent coins (with diameters of 1,975 and 2,225 cm respectively) and a ruler, Utrecht, The Netherlands, December 14, 2019",
    "downloadedOn": "2026-10-16",
    "sha256Original": "edc266c9f01ced1c34cff7404c671cecc061558ffc3d1949209cb55343d6bc04"
+  },
+  {
+   "file": "/guides/photos/mouse-droppings-wood.webp",
+   "subject": "Mouse droppings scattered on a wooden surface (National Park Service photograph)",
+   "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm",
+   "originalUrl": "https://www.nps.gov/articles/images/mouse-droppings-Fran-Ritchie-NPS_resized.jpg",
+   "license": "public-domain",
+   "credit": "NPS Photo (U.S. National Park Service, nps.gov)",
+   "width": 800,
+   "height": 600,
+   "bytes": 44962,
+   "sourceDescription": "Figure 2: Mouse droppings. (NPS Photo)",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "71177aeb68319fe455e6be71a8a1678878100a3b3510803e2c53fd4a8f82bc95"
+  },
+  {
+   "file": "/guides/photos/mouse-urine-uv-light.webp",
+   "subject": "Mouse urine glowing blue-white in spots and streaks under a UV flashlight, on the bottom shelf of a cabinet (National Park Service photograph)",
+   "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm",
+   "originalUrl": "https://www.nps.gov/articles/images/mouse-urine-fluoresce_resized.jpg",
+   "license": "public-domain",
+   "credit": "NPS Photo (U.S. National Park Service, nps.gov)",
+   "width": 800,
+   "height": 741,
+   "bytes": 15182,
+   "sourceDescription": "Figure 1: Mouse urine fluorescing blue-white on the bottom shelf of a cabinet, revealed using a UV flashlight. Many substances fluoresce, so UV flashlights help confirm when there are other signs of mouse activity in the area, as well. (NPS Photo)",
+   "downloadedOn": "2026-10-20",
+   "sha256Original": "9cda2a9c88ae23aa6aade46779e7d4022b4419587a1c0226f9f6fb3f13347f86"
   },
   {
    "file": "/guides/photos/north-american-deer-mouse.webp",
