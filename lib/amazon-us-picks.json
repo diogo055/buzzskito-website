@@ -1,5 +1,11 @@
 {
   "_readme": "One amazon.com pick per US guide (content/guides/*.json with kind 'spoke' and no locale; the 4 pillars and the 7 en-CA guides are excluded). One page = one store: these pages link amazon.com only, never amazon.ca. Fields: label (what the product is for, shown on the page), name (generic product type, shown), search (amazon.com search words), basis (where the page itself recommends or uses this product type; for review only, not shown). Rules followed: the page must already support the pick; nothing the page warns against; pesticides only as the generic type the page names and recommends; repellent actives only as the page names them, permethrin for clothing only; no traps, poisons or handling tools for wildlife or snakes; bite pages carry only items the page names from its medical sources. Where a page recommends nothing to buy, the pick is a neutral identification or monitoring aid from the page's own method, and the basis says so. Generic types only: no brands, prices, ratings or claims. Picks chosen October 20, 2026.",
+  "_noPick": {
+    "_why": "US guides deliberately left without a pick after the independent check (Oct 20, 2026): the page recommends nothing a search could safely find.",
+    "bullet-ants": "The page recommends nothing to buy and never mentions a light; the headlamp support was a stretch.",
+    "does-lysol-kill-bed-bugs": "No container is named; the only product the page endorses is a registered bed bug pesticide, unsafe as a search.",
+    "zombie-ants": "Page never mentions a magnifier; its own check is photos with a coin for scale. It recommends nothing to buy."
+  },
   "picks": {
     "alaska-mosquitoes": {
       "label": "To shield face and neck",
@@ -8,16 +14,16 @@
       "basis": "'How should you protect yourself from mosquitoes in Alaska?': the National Park Service's advice for Brooks Range visitors lists head nets, bug coats, long pants and insect repellents; list item 'Head net and bug coat. The park service names both, and recommends pairing them with a billed cap.'"
     },
     "animal-droppings": {
-      "label": "For safe droppings cleanup",
+      "label": "For droppings cleanup",
       "name": "Disposable gloves",
       "search": "disposable gloves",
-      "basis": "'How do you clean up animal droppings safely?': CDC's rodent cleanup steps say to wear rubber or plastic gloves before soaking droppings with disinfectant; CDC's raccoon latrine steps start with disposable gloves; FAQ 'Is it safe to clean up raccoon poop yourself?' repeats disposable gloves."
+      "basis": "'How do you clean up animal droppings safely?': CDC rodent steps 'wear rubber or plastic gloves'; raccoon latrines: 'CDC's steps are disposable gloves, scrubbable boots or disposable booties'"
     },
     "animals-in-attic": {
-      "label": "For attic droppings cleanup",
+      "label": "For raccoon latrine cleanup",
       "name": "N95 respirator mask",
       "search": "n95 respirator mask",
-      "basis": "'Are animals in the attic a health risk?': 'CDC says to wear disposable gloves and, in a confined space such as an attic, an N95-rated respirator, to mist the droppings lightly so they do not raise dust'. CDC cleanup advice cited on the page, as rule 4 requires."
+      "basis": "'Are animals in the attic a health risk?': for raccoon latrines, 'CDC says to wear disposable gloves and, in a confined space such as an attic, an N95-rated respirator'"
     },
     "ant-killer-recipes": {
       "label": "To keep bait enclosed",
@@ -151,12 +157,6 @@
       "search": "magnifying glass",
       "basis": "'How can you identify the bug in a jar?': 'Catch one first in a clear jar, a sealed plastic bag or on clear tape, and use a magnifying glass'; the cat flea's combs and the bat bug's fringe hairs show only under magnification."
     },
-    "bullet-ants": {
-      "label": "For forest night walks",
-      "name": "LED headlamp",
-      "search": "led headlamp",
-      "basis": "The page recommends nothing to buy. Neutral aid tied to its own traveler advice, 'What should a traveler know about bullet ants?': the ants are more active at night, 'so a night walk through lowland forest is a time to watch where you put your hands'. A headlamp only helps you see; no protection claim."
-    },
     "can-cockroaches-fly": {
       "label": "To close door gaps",
       "name": "Door sweep",
@@ -164,10 +164,10 @@
       "basis": "'How do you keep flying cockroaches out of the house?': keep screens and door seals tight; 'The University of California guide adds door sweeps and weather stripping'; the University of Florida advises keeping doors shut and caulking gaps around door and window frames."
     },
     "can-mice-climb-walls": {
-      "label": "To screen vents and gaps",
+      "label": "To cover larger holes",
       "name": "1/4-inch galvanized hardware cloth",
       "search": "1/4 inch hardware cloth",
-      "basis": "'What does climbing ability mean for sealing a house?': for vents and windows Nebraska recommends galvanized hardware cloth; for larger holes 'for mice, 24-gauge hardware cloth with 1/4 by 1/4 inch mesh'; FAQ 'Can a mouse get through a window screen?': Nebraska recommends galvanized hardware cloth over vents and windows."
+      "basis": "'What does climbing ability mean for sealing a house?': table row Larger holes, 'for mice, 24-gauge hardware cloth with 1/4 by 1/4 inch mesh' (Nebraska)"
     },
     "cockroach-droppings": {
       "label": "To check for live roaches",
@@ -194,10 +194,10 @@
       "basis": "Quick answer: 'Seal gaps larger than 1/4 inch, trap with snap traps'; 'How do you get rid of deer mice that are already inside?': trap them with snap traps while you seal, and skip glue boards, live traps and poison bait; CDC calls for spring-loaded traps that kill."
     },
     "diy-pest-control": {
-      "label": "When applying any pesticide",
+      "label": "For mixing and applying pesticides",
       "name": "Chemical-resistant nitrile gloves",
       "search": "chemical resistant nitrile gloves",
-      "basis": "'What protective equipment do you need?': wear what the label specifies and at a minimum chemical-resistant gloves, eye protection, a long-sleeved shirt, long pants and closed shoes (UC IPM), which adds that chemical-resistant gloves are nitrile, neoprene, butyl or rubber and advises against cotton gloves."
+      "basis": "'What protective equipment do you need?': 'at a minimum chemical-resistant gloves'; UC IPM 'adds that chemical-resistant gloves are made of nitrile, neoprene, butyl or rubber'"
     },
     "do-ants-bite": {
       "label": "For the itch",
@@ -240,12 +240,6 @@
       "name": "Bed bug mattress encasement",
       "search": "bed bug mattress encasement",
       "basis": "'What works better than alcohol for bed bugs?': EPA recommends covers that seal mattresses and box springs so the bugs are trapped inside and die; 'What should you do if you already sprayed alcohol?': 'Move to the methods above, starting with encasements and heat'."
-    },
-    "does-lysol-kill-bed-bugs": {
-      "label": "To confirm a bed bug",
-      "name": "Small specimen vials",
-      "search": "small specimen vials with caps",
-      "basis": "The page recommends no product except 'a registered product labeled for bed bugs' (not picked: a search would surface unregistered and food-grade products the page says are not legal for bed bugs). Neutral aid for the first step of 'What should you do instead of spraying Lysol?': identify the insect and confirm it is a bed bug."
     },
     "does-vinegar-kill-ants": {
       "label": "To reach the colony",
@@ -494,10 +488,10 @@
       "basis": "'How do you get rid of pantry moths?': 'Pheromone traps for Indian meal moths catch the males and show whether moths remain after the cleanup; UC IPM says to check them weekly'; FAQ 'Will moth traps get rid of moths?': they detect an infestation and give some control, alongside cleaning. Label limits it to pantry moths."
     },
     "mouse-poop": {
-      "label": "For safe droppings cleanup",
+      "label": "For droppings cleanup",
       "name": "Disposable gloves",
       "search": "disposable gloves",
-      "basis": "Quick answer bullet: CDC's cleanup is to air the room for 30 minutes, wear rubber or plastic gloves, soak droppings with disinfectant or bleach solution for 5 minutes and wipe them up; 'How do you clean up mouse droppings safely?': 'Put on rubber or plastic gloves'; never sweep or vacuum."
+      "basis": "'How do you clean up mouse droppings safely?': CDC step 'Put on rubber or plastic gloves.'"
     },
     "natural-garden-pest-control": {
       "label": "To shield young plants",
@@ -554,10 +548,10 @@
       "basis": "'What should you do once you know it is rats?': CDC recommends traditional snap traps, not glue or live traps, and NC State Extension adds that mouse snap traps are typically not an effective tool against rats; FAQ 'What should I do if I find rat droppings?': after cleanup, seal entry gaps and set snap traps."
     },
     "rat-vs-mouse": {
-      "label": "For handling and cleanup",
+      "label": "For cleanup after rodents",
       "name": "Disposable gloves",
       "search": "disposable gloves",
-      "basis": "'What should you do once you know which one it is?': CDC's advice is the same for rats and mice: 'Put on rubber or plastic gloves', soak droppings with disinfectant and never sweep or vacuum; the tail test on a dead rat is done 'with the gloves used in CDC's cleanup steps'."
+      "basis": "'What should you do once you know which one it is?': CDC cleanup step 'Put on rubber or plastic gloves.'"
     },
     "red-ants": {
       "label": "For fire ant mounds",
@@ -590,10 +584,10 @@
       "basis": "'What should you do with a spider egg sac?': 'Kansas State advises leather gloves, long sleeves and long pants, and removing the spiders, webbing and all egg sacs with a broom or other long-handled tool, or a vacuum'. Sprays and fogs are not effective on sacs (UC IPM, UMN)."
     },
     "spiders-in-california": {
-      "label": "When clearing clutter",
-      "name": "Gardening gloves",
-      "search": "gardening gloves",
-      "basis": "'What should you do about spiders around a California home?': 'Wear gloves when clearing clutter, keep gardening gloves and clothes in closed bags, and store boxes taped shut and off the floor'; the page says western black widows live in populated areas almost everywhere in California."
+      "label": "For clearing garage clutter",
+      "name": "Work gloves",
+      "search": "work gloves",
+      "basis": "'What should you do about spiders around a California home?': 'Garages. Wear gloves when clearing clutter'"
     },
     "spiders-in-florida": {
       "label": "For woodpiles and storage",
@@ -854,10 +848,10 @@
       "basis": "'How do you tell which tiny brown bug you have?': 'Catch one in a clear jar or press it onto clear tape, then look at it with a magnifying glass, because many of these are 1/8 inch long or less.'"
     },
     "types-of-mice": {
-      "label": "For safe mouse cleanup",
+      "label": "For cleaning up after mice",
       "name": "Disposable nitrile gloves",
       "search": "disposable nitrile gloves",
-      "basis": "Quick answer: deer and white-footed mice are hantavirus hosts, so check the coat and tail before you clean up; callout under 'Which types of mice carry hantavirus?': UC IPM's method is to air the space, 'wear nonfabric gloves (rubber, latex, vinyl or nitrile)' and wet droppings with disinfectant or bleach solution."
+      "basis": "'Which types of mice carry hantavirus?': callout: 'wear nonfabric gloves (rubber, latex, vinyl or nitrile)'"
     },
     "vamoose-for-mice": {
       "label": "To seal entry points",
@@ -954,12 +948,6 @@
       "name": "LED flashlight",
       "search": "led flashlight",
       "basis": "'What do a wolf spider's eyes look like?': 'Hold a flashlight beside your head at night and their eyes shine back like a cat's, MDC says, and UC IPM says they reflect green'; Texas A&M says a flashlight shone into grass shows dozens of points of light from wolf spiders' eyes."
-    },
-    "zombie-ants": {
-      "label": "To examine a found ant",
-      "name": "Magnifying glass",
-      "search": "magnifying glass",
-      "basis": "The page recommends nothing to buy. Neutral identification aid for its own section 'What does a zombie ant look like if you find one?': look for a dead carpenter ant gripping a plant with a stalk from its head; a freshly dead ant may show only growth between its body segments; photograph it with a coin for scale."
     }
   }
 }
