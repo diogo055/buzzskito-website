@@ -175,9 +175,9 @@ export default function MosquitoControlPage() {
           <p className="kicker mb-3 text-center">Seasonal Plan</p>
           <h2 id="seasonal-plan" className="h2-display text-brand-900 mb-4 text-center">Recommended Seasonal Mosquito Schedule</h2>
           <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">Five treatments from May through September, one a month, is our Basic plan ($549). Most GTA homes choose Standard: 10 sprays every 2 weeks ($994).</p>
-          <div className="grid grid-cols-5 gap-2 sm:gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 sm:gap-4">
             {['May','June','July','August','September'].map((month, i) => (
-              <div key={month} className="bg-white rounded-xl p-4 text-center shadow-sm border border-brand-200">
+              <div key={month} className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-sm border border-brand-200 min-w-0">
                 <div className="text-brand-700 font-extrabold text-xs uppercase tracking-wide mb-1">Treatment {i + 1}</div>
                 <div className="text-brand-900 font-bold text-sm sm:text-base">{month}</div>
               </div>

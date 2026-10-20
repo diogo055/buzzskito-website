@@ -45,7 +45,7 @@ const FAQS = [
   },
   {
     question: 'What cockroach baits can Canadian consumers legally buy?',
-    answer: 'The domestic-class lane is enclosed bait stations and a handful of registered gels and dusts sold at Canadian retailers: Combat-style bait stations (hydramethylnon), Raid roach bait stations, boric acid powders and pastes, and diatomaceous earth products registered for crawling insects. Every legal option carries a PMRA registration number on the pack. They are slower and less glamorous than professional gel, but bait stations run the same core playbook — delayed-kill bait carried back to the harbourage — and against light-to-moderate German cockroach pressure, a dense, well-placed station deployment plus sanitation genuinely works.',
+    answer: 'The domestic-class lane is enclosed bait stations and a handful of registered gels and dusts sold at Canadian retailers: Combat-style bait stations (hydramethylnon), Raid roach bait stations, boric acid gels and baits (boric acid dust has not been sold for home use since 2018), and diatomaceous earth products registered for crawling insects. Every legal option carries a PMRA registration number on the pack. They are slower and less glamorous than professional gel, but bait stations run the same core playbook — delayed-kill bait carried back to the harbourage — and against light-to-moderate German cockroach pressure, a dense, well-placed station deployment plus sanitation genuinely works.',
   },
   {
     question: 'Do Combat and Raid bait stations actually work on German cockroaches?',
@@ -61,7 +61,7 @@ const FAQS = [
   },
   {
     question: 'Does boric acid work on cockroaches?',
-    answer: 'Yes — it is one of the oldest verified cockroach actives, and registered boric acid products remain a legitimate domestic-class tool in Canada. Roaches walk through a thin dust film, groom themselves, and ingest it. The operative word is thin: a visible pile repels roaches and does nothing. Puff a barely-there film into cracks, behind kick plates, under appliances, into hinge gaps — dry locations only, since moisture cakes it. It is slower than bait and useless on roaches that never cross the film, which is why it is a complement to a station deployment, not a substitute.',
+    answer: 'Yes — it is one of the oldest verified cockroach actives, and boric acid gels and baits remain a legitimate domestic-class tool in Canada. The dust form is gone for home use: Health Canada stopped its sale in 2018 and its use in 2019, so today you buy boric acid as a gel or an enclosed bait. Roaches eat it and carry it back to the harbourage. Place small amounts in cracks, behind kick plates and under appliances, where children and pets cannot reach. It is slower than the main stations and only works on roaches that find it, which is why it is a complement to a station deployment, not a substitute.',
   },
   {
     question: 'Do cockroach foggers or bug bombs work?',
@@ -155,7 +155,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
           <p>That package is what commercial-class registration assumes. Provincial applicator certification tests exactly the failure modes of casual use &mdash; baiting over repellent residues, contaminating food surfaces, mis-dosing, ignoring sanitation &mdash; and a licensed operator carries insurance and record-keeping obligations behind every placement. So the honest reframe for a Canadian homeowner is this: you are not locked out of good cockroach control. You are locked out of <em>one tier of tools</em>, and the licensed professionals who can use that tier are a phone call away when the situation warrants them. What you can do yourself, legally and effectively, is the tier below &mdash; and against light-to-moderate infestations it is a real tier, not a consolation prize.</p>
 
           <h2>The Compliant Toolkit: What Canadian Consumers Can Actually Use</h2>
-          <p>Domestic-class cockroach control in Canada runs on four legs: enclosed bait stations, registered dusts (boric acid and diatomaceous earth), glue monitors, and sanitation. Here is how the products the internet recommends map onto Canadian reality &mdash; with price checks only where a consumer purchase makes sense. For everything in the table, the standing rule applies: confirm the PCP registration number on the pack you actually receive.</p>
+          <p>Domestic-class cockroach control in Canada runs on four legs: enclosed bait stations (boric acid baits and gels included), registered diatomaceous earth dust, glue monitors, and sanitation. Here is how the products the internet recommends map onto Canadian reality &mdash; with price checks only where a consumer purchase makes sense. For everything in the table, the standing rule applies: confirm the PCP registration number on the pack you actually receive.</p>
 
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
             <table className="min-w-[560px] w-full text-sm">
@@ -199,10 +199,10 @@ export default function AdvionCockroachGelBaitCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max roach bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Boric acid powder<br /><span className="font-normal text-xs text-gray-500">registered dust products</span></td>
-                  <td className="px-4 py-3 text-gray-700">One of the oldest verified roach actives; thin films in cracks and voids, dry areas only</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Boric acid bait<br /><span className="font-normal text-xs text-gray-500">gel or enclosed bait</span></td>
+                  <td className="px-4 py-3 text-gray-700">One of the oldest verified roach actives; for home use in Canada it now comes as gel or enclosed bait (the dust has not been sold for home use since 2018)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Cheap force multiplier</strong></td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach powder" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach bait" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">crawling-insect registrations</span></td>
@@ -253,17 +253,17 @@ export default function AdvionCockroachGelBaitCanadaPage() {
               },
               {
                 badge: 'Best Budget Add-On',
-                name: 'Boric Acid Roach Powder',
-                why: 'One of the oldest verified roach actives — a barely-there dust film in cracks, kick plates, and voids catches the roaches that never visit a station.',
-                search: 'boric acid roach powder',
+                name: 'Boric Acid Roach Bait (gel or stations)',
+                why: 'One of the oldest verified roach actives, in the form Canada still allows at home: a gel or enclosed bait placed in cracks and near kick plates reaches the roaches that never visit a station. Boric acid dust has not been sold for home use in Canada since 2018.',
+                search: 'boric acid roach bait',
                 score: 7.4,
                 pros: ['Cheap force multiplier for a station deployment', 'Registered domestic-class products carry a PCP number'],
-                cons: ['Skip it as your only purchase — it complements stations rather than replacing them, and it cakes uselessly in damp spots'],
+                cons: ['Skip it as your only purchase — it complements stations rather than replacing them; place it only where children and pets cannot reach'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Light-to-moderate kitchen problem?</strong> Put <em>glue monitors</em> down for a few nights, then deploy the <em>Best Overall</em> Combat stations densely &mdash; 12 to 24, clustered on the evidence. <strong>Counts stalling or bait going untouched?</strong> Rotate actives with the <em>Raid</em> line and dust the voids stations can&rsquo;t reach with <em>boric acid</em>. <strong>Daylight sightings, roaches beyond the kitchen, or a multi-unit building?</strong> That is past the consumer tier &mdash; a licensed pro can legally run the professional gels this article is about; our <Link href="/pest-control-cost-canada">cost guide</Link> shows what that should run.
+                <strong>Light-to-moderate kitchen problem?</strong> Put <em>glue monitors</em> down for a few nights, then deploy the <em>Best Overall</em> Combat stations densely &mdash; 12 to 24, clustered on the evidence. <strong>Counts stalling or bait going untouched?</strong> Rotate actives with the <em>Raid</em> line, add <em>boric acid bait</em> in the cracks the stations miss, and dust the voids with diatomaceous earth. <strong>Daylight sightings, roaches beyond the kitchen, or a multi-unit building?</strong> That is past the consumer tier &mdash; a licensed pro can legally run the professional gels this article is about; our <Link href="/pest-control-cost-canada">cost guide</Link> shows what that should run.
               </>
             }
           />
@@ -275,7 +275,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             <li><strong>Monitor first.</strong> Place glue monitors under the sink, behind the fridge and stove, and along cabinet hinge lines for a few nights. They tell you where the harbourages are and give you a baseline number &mdash; the only honest progress metric you will have. We compare the monitor and station formats worth buying here in <Link href="/blog/best-roach-traps-canada">our roach trap guide for Canada</Link>.</li>
             <li><strong>Bait densely, exactly where the monitors say.</strong> 12&ndash;24 stations for a typical kitchen infestation, clustered within a metre of the evidence. German cockroaches forage short distances; a station across the room might as well be in another postal code.</li>
             <li><strong>Starve the competition.</strong> Delayed-kill bait only wins if it is the best food in the room. Degrease the stovetop, empty the toaster tray, dry the sink at night, lid the compost bin. Sanitation is not a virtue signal here &mdash; it is the mechanism.</li>
-            <li><strong>Dust the places bait can&rsquo;t reach.</strong> A barely-visible film of boric acid or diatomaceous earth into wall voids, under kick plates, and behind outlet covers (power off) catches the roaches that never visit a station. Thin films work; visible piles repel.</li>
+            <li><strong>Dust the places bait can&rsquo;t reach.</strong> A barely-visible film of diatomaceous earth into wall voids, under kick plates, and behind outlet covers (power off) catches the roaches that never visit a station. Thin films work; visible piles repel. Boric acid dust is no longer sold for home use in Canada, so use boric acid as a gel or bait instead.</li>
             <li><strong>Never spray over your bait.</strong> Repellent aerosols and foggers contaminate baiting surfaces and scatter the colony into new rooms. If you feel the urge to fog, re-read the FAQ below and put the money into more stations.</li>
             <li><strong>Expect a nymph wave, and re-judge at 4 weeks.</strong> Egg cases laid before you started will hatch on schedule; small roaches at week three are not failure. Falling monitor counts by week four are success. Flat counts are your signal to escalate.</li>
           </ul>

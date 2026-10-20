@@ -270,6 +270,8 @@ if (existsSync(idxPath)) {
 }
 
 execFileSync(process.execPath, [join(ROOT, 'scripts', 'build-article-index.mjs')], { stdio: 'inherit' })
+// hub pages carry no display ads: keep lib/hub-routes.json in step with the guides (check:ads verifies it)
+execFileSync(process.execPath, [join(ROOT, 'scripts', 'build-hub-routes.mjs')], { stdio: 'inherit' })
 // a new guide needs its in-content "Next" and "Related" picks (existing picks are kept)
 execFileSync(process.execPath, [join(ROOT, 'scripts', 'backfill-recirculation.mjs')], { stdio: 'inherit' })
 

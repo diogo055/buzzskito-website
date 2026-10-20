@@ -3,7 +3,21 @@
   "sections": [
     "/blog",
     "/learn",
-    "/pest-product-guides"
+    "/pest-product-guides",
+    "/tools"
+  ],
+  "_tools_readme": "Reader tools (owner, Oct 19-20, 2026: tools run ads and recommend Amazon products). Only the reader tools live under /tools; the GTA lead tools (/yard-risk-report, /am-i-a-mosquito-magnet, /lyme-disease-risk-calculator, /free-yard-assessment) are root-level service pages and stay ad-free.",
+  "_hubs_readme": "Pages that mainly list other pages carry no ads (owner, Oct 20, 2026: \"don't put ads on the main pages where it lists all the other pages\"). These are the hand-made hubs: the section index pages and the six product-guide hubs. Guide hubs (pillars, parents, plan role \"hub\") are generated into lib/hub-routes.json by scripts/build-hub-routes.mjs.",
+  "hubs": [
+    "/blog",
+    "/learn",
+    "/pest-product-guides",
+    "/pest-product-guides/ant-control",
+    "/pest-product-guides/bed-bug-control",
+    "/pest-product-guides/cockroach-control",
+    "/pest-product-guides/mosquito-gear",
+    "/pest-product-guides/rodent-control",
+    "/pest-product-guides/tick-gear"
   ],
   "pages": [
     "/ontario-lyme-disease-tracker-2026",

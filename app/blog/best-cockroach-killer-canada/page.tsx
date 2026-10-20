@@ -23,7 +23,7 @@ const META_TITLE = 'Best Cockroach Killer Canada'
 const FAQS = [
   {
     question: 'What is the best cockroach killer in Canada?',
-    answer: 'Enclosed bait stations, not spray. The best cockroach killer available to Canadian homeowners is a domestic-class bait station line — Combat and Raid Max are the two mainstream ones on Canadian shelves — backed by boric acid powder in the voids the stations cannot reach and flat glue monitors to measure progress. Bait works because a cockroach carries the dose back to the harbourage, where it spreads through the colony via droppings and shared shelter — one feeding can kill roaches that never visited the station. Spray kills only the individual it lands on and its repellent residue actively sabotages any bait placed nearby, which is why the spray aisle is where most failed DIY roach campaigns started.',
+    answer: 'Enclosed bait stations, not spray. The best cockroach killer available to Canadian homeowners is a domestic-class bait station line — Combat and Raid Max are the two mainstream ones on Canadian shelves — backed by boric acid gel or bait in the cracks the stations miss and flat glue monitors to measure progress. Bait works because a cockroach carries the dose back to the harbourage, where it spreads through the colony via droppings and shared shelter — one feeding can kill roaches that never visited the station. Spray kills only the individual it lands on and its repellent residue actively sabotages any bait placed nearby, which is why the spray aisle is where most failed DIY roach campaigns started.',
   },
   {
     question: 'Why is gel bait considered better than spray for cockroaches?',
@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     question: 'Is boric acid safe and does it still work on roaches?',
-    answer: 'Boric acid remains one of the best value roach killers in Canada — a stomach poison and desiccant that roaches pick up walking through a thin dusting and ingest during grooming, with no known behavioural resistance after decades of use. The technique is everything: a barely-visible film puffed into wall voids, under appliances, and behind cabinet kick plates works; a visible pile gets walked around. It is slow, which is a feature — dusted roaches return to the harbourage and die there. On safety, domestic-class boric acid products are low-hazard to mammals compared with most insecticides, but they are not candy: keep the dust inside voids and behind appliances where children and pets cannot reach, and never dust food-contact surfaces. Read and follow the Canadian label — the PCP registration number on the package is what separates a legal product from grey-market powder.',
+    answer: 'Boric acid remains one of the best value roach killers in Canada, with no known behavioural resistance after decades of use. For home use it now comes as a gel or an enclosed bait: Health Canada stopped the sale of boric acid dust for home use in 2018. Roaches eat the bait and carry it back to the harbourage, which makes it slow, and slow is a feature: they die where the colony lives. On safety, domestic-class boric acid baits are low-hazard to mammals compared with most insecticides, but they are not candy: place them only where children and pets cannot reach, and never on food-contact surfaces. Read and follow the Canadian label — the PCP registration number on the package is what separates a legal product from grey-market powder.',
   },
   {
     question: 'Do cockroach foggers or bug bombs work?',
@@ -110,7 +110,7 @@ export default function BestCockroachKillerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best cockroach killer in Canada is an <strong>enclosed bait station program</strong> &mdash; Combat and Raid Max are the two domestic-class lines on Canadian shelves &mdash; backed by <strong>boric acid powder</strong> in wall voids and under appliances, with <strong>flat glue monitors</strong> to measure progress. Bait wins because a slow-acting dose gets carried back to the harbourage and spreads through the colony via droppings and shared shelter, killing roaches that never touched a station. Sprays kill one roach at a time, repel the rest, and contaminate every surface where bait would have worked. Expect a dramatic reduction in about three weeks; the famous US gel, Advion, is commercial-class in Canada &mdash; licensed applicators only.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best cockroach killer in Canada is an <strong>enclosed bait station program</strong> &mdash; Combat and Raid Max are the two domestic-class lines on Canadian shelves &mdash; backed by <strong>boric acid gel or bait</strong> in cracks and under appliances, with <strong>flat glue monitors</strong> to measure progress. Bait wins because a slow-acting dose gets carried back to the harbourage and spreads through the colony via droppings and shared shelter, killing roaches that never touched a station. Sprays kill one roach at a time, repel the rest, and contaminate every surface where bait would have worked. Expect a dramatic reduction in about three weeks; the famous US gel, Advion, is commercial-class in Canada &mdash; licensed applicators only.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Buy bait first.</strong> A dozen-plus stations, concentrated within a metre of the kitchen and bathroom harbourages &mdash; not spread thinly through the house.</li>
               <li><strong>Never spray near bait.</strong> Pyrethroid residue repels roaches from your own stations for weeks &mdash; the single most common DIY failure.</li>
@@ -151,12 +151,12 @@ export default function BestCockroachKillerCanadaPage() {
               },
               {
                 badge: 'Best Budget Add-On',
-                name: 'Boric Acid Roach Powder',
-                why: 'Decades old, still no behavioural resistance, and a few dollars a bottle. A whisper-thin dusting in wall voids, behind the stove, and under the fridge catches the roaches that commute through spaces no station reaches. The thin-film technique is the entire product — a visible pile gets walked around.',
-                search: 'boric acid roach powder',
+                name: 'Boric Acid Roach Bait (gel or stations)',
+                why: 'Decades old and still no behavioural resistance. For home use in Canada it now comes as gel or enclosed bait (boric acid dust has not been sold for home use since 2018): a few dabs of gel or a station behind the stove and under the fridge catch the roaches that commute through spaces the main stations miss.',
+                search: 'boric acid roach bait',
                 score: 8.5,
-                pros: ['Cheapest effective active on the shelf', 'No known resistance after decades of use', 'Works the same colony-level way — carried home by groomers'],
-                cons: ['Useless applied thick — technique matters', 'Keep it inside voids, away from kids, pets, and food surfaces'],
+                pros: ['Cheapest effective active on the shelf', 'No known resistance after decades of use', 'Works the same colony-level way: foragers carry it home'],
+                cons: ['A support act, not the lead: pair it with the main stations', 'Place it only where children and pets cannot reach, away from food surfaces'],
               },
               {
                 badge: 'Best Diagnostic',
@@ -170,7 +170,7 @@ export default function BestCockroachKillerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Small striped roaches in the kitchen or bathroom?</strong> That is a German cockroach infestation: buy the <em>Best Overall</em> Combat stations at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid for the voids. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> Raid Max stations rather than doubling down on the same bait. <strong>Big dark roaches in the basement?</strong> Read the German-vs-American section first &mdash; you likely need drain work and exclusion, not more bait. <strong>In an apartment, or still catching roaches nightly at week three?</strong> That is professional territory, and in an Ontario rental it is your landlord&rsquo;s bill, not yours.
+                <strong>Small striped roaches in the kitchen or bathroom?</strong> That is a German cockroach infestation: buy the <em>Best Overall</em> Combat stations at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> Raid Max stations rather than doubling down on the same bait. <strong>Big dark roaches in the basement?</strong> Read the German-vs-American section first &mdash; you likely need drain work and exclusion, not more bait. <strong>In an apartment, or still catching roaches nightly at week three?</strong> That is professional territory, and in an Ontario rental it is your landlord&rsquo;s bill, not yours.
               </>
             }
           />
@@ -182,14 +182,14 @@ export default function BestCockroachKillerCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Cockroach Killer in Canada?</h2>
-          <p>Bait &mdash; specifically, a dense program of enclosed bait stations backed by boric acid in the voids, with glue monitors keeping score. That is the whole answer, and it is worth saying plainly because the roach aisle is engineered to sell you the opposite. The products with the action photography and the instant promises are contact sprays, and contact spray is the tool most strongly associated with DIY campaigns that fail. The products that end infestations are small, slow, and boring, and the reason is a piece of cockroach biology that rewards patience: roaches take poison home.</p>
+          <p>Bait &mdash; specifically, a dense program of enclosed bait stations backed by boric acid bait in the cracks the stations miss, with glue monitors keeping score. That is the whole answer, and it is worth saying plainly because the roach aisle is engineered to sell you the opposite. The products with the action photography and the instant promises are contact sprays, and contact spray is the tool most strongly associated with DIY campaigns that fail. The products that end infestations are small, slow, and boring, and the reason is a piece of cockroach biology that rewards patience: roaches take poison home.</p>
           <p>This guide ranks every product class a Canadian can actually buy, because the Canadian shelf is not the American shelf. The gel bait that dominates US forums &mdash; Advion &mdash; is a commercial-class product here, restricted to licensed applicators, and our <Link href="/blog/advion-cockroach-gel-bait">Advion Canada deep dive</Link> covers that legality picture in full. What follows is the strategy that works with the domestic-class tier, which against light-to-moderate infestations is a real tier, not a consolation prize.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat bait stations &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="raid max roach bait stations">Raid Max stations &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="boric acid roach powder">Boric acid powder &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Boric acid bait &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor">Glue monitors &rarr;</BuyLink>
           </div>
 
@@ -216,7 +216,7 @@ export default function BestCockroachKillerCanadaPage() {
                 {[
                   ['1', 'Gel bait (Advion-style)', 'Yes — the benchmark', 'Commercial class — licensed applicators only', 'The best tool in the field; in Canada it arrives with the professional you hire'],
                   ['2', 'Enclosed bait stations', 'Yes — same mechanism', 'Domestic class — Combat, Raid Max', 'The best killer you can buy; density of placement is everything'],
-                  ['3', 'Boric acid powder', 'Partly — carried home by groomers', 'Domestic class — check for a PCP number', 'Superb value in voids and under appliances; thin film or nothing'],
+                  ['3', 'Boric acid gel or bait', 'Yes — foragers carry it home', 'Domestic class as gel or bait — the dust is no longer sold for home use', 'Superb value in cracks and under appliances'],
                   ['4', 'Diatomaceous earth', 'No — contact desiccant', 'Domestic class — widely stocked', 'Chemical-free option for dry voids; slower and moisture-sensitive'],
                   ['5', 'Insect growth regulators (IGR)', 'Yes — sterilizes the colony', 'Effectively a professional tool in Canada', 'The pro one-two punch with gel; ask your operator what they run'],
                   ['6', 'Contact sprays', 'No — individuals only', 'Domestic class — everywhere', 'One legitimate job: a visible roach, away from any bait surface'],
@@ -238,7 +238,7 @@ export default function BestCockroachKillerCanadaPage() {
           <h2>German vs American Roaches: Two Different Wars</h2>
           <p>Before spending a dollar, identify the enemy, because the two common Canadian scenarios call for opposite strategies.</p>
           <p><strong>Small tan roaches with two dark stripes, in the kitchen or bathroom &mdash; German cockroaches.</strong> This is the infestation species: exclusively indoors, explosive breeding (one female produces an egg case of 30&ndash;40 nymphs roughly monthly), harbouraged within a few metres of warmth, moisture, and food. Everything in this guide about bait density, the repellency trap, and the three-week timeline is aimed at this insect. The campaign is won or lost within about a metre of the fridge motor, the dishwasher, the sink plumbing, and the stove.</p>
-          <p><strong>Large dark roaches in the basement, laundry room, or near floor drains &mdash; American or Oriental cockroaches.</strong> These usually arrive from drains, sewer connections, and moist sub-grade voids, and a sighting is often a wanderer rather than a resident colony. The strategy is plumbing and building work first: run water into unused floor drains monthly so the trap seal stays intact, screen or seal gaps around pipe penetrations, fix the moisture that makes a basement hospitable, and dust the travel voids with boric acid. Stations still help as insurance, but bait density in the kitchen does nothing about an insect commuting up a drain stack. Our full <Link href="/blog/how-to-get-rid-of-cockroaches-canada">how to get rid of cockroaches guide</Link> walks the whole identification-first sequence.</p>
+          <p><strong>Large dark roaches in the basement, laundry room, or near floor drains &mdash; American or Oriental cockroaches.</strong> These usually arrive from drains, sewer connections, and moist sub-grade voids, and a sighting is often a wanderer rather than a resident colony. The strategy is plumbing and building work first: run water into unused floor drains monthly so the trap seal stays intact, screen or seal gaps around pipe penetrations, fix the moisture that makes a basement hospitable, and dust the travel voids with diatomaceous earth (boric acid dust is no longer sold for home use in Canada). Stations still help as insurance, but bait density in the kitchen does nothing about an insect commuting up a drain stack. Our full <Link href="/blog/how-to-get-rid-of-cockroaches-canada">how to get rid of cockroaches guide</Link> walks the whole identification-first sequence.</p>
 
           <RelatedLinks path="/blog/best-cockroach-killer-canada" />
           <h2>The Repellency Trap: How DIYers Kill Their Own Bait Program</h2>
@@ -267,7 +267,7 @@ export default function BestCockroachKillerCanadaPage() {
               <tbody>
                 {[
                   ['Best killer class', 'Enclosed bait stations (Combat, Raid Max) — colony-transfer mechanism'],
-                  ['Best backup', 'Boric acid powder, thin film, in voids and under appliances'],
+                  ['Best backup', 'Boric acid gel or bait in cracks and under appliances'],
                   ['Measure progress with', 'Flat glue monitors along baseboards — data beats sightings'],
                   ['Advion gel in Canada', 'Commercial class — licensed applicators only; grey-market imports have no legal homeowner use'],
                   ['The one rule', 'Repellent spray and bait never share a surface'],

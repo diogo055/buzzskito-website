@@ -57,7 +57,7 @@ const FAQS = [
   },
   {
     question: 'Do home remedies like bay leaves, citrus, or vinegar repel cockroaches?',
-    answer: 'No — none of the scent-based folk remedies survive testing. Bay leaves, citrus peel, cucumber slices, essential oil sprays, and vinegar wipe-downs neither kill roaches nor meaningfully repel a motivated, food-seeking German cockroach population. The two DIY materials with genuine evidence are boric acid and diatomaceous earth used as fine dust in dry, hidden locations — behind the stove, under the fridge, inside the void under a kitchen cabinet kickplate. Both kill roaches that walk through them, though they are slow, useless in damp spots, and messy compared with enclosed bait stations. If you use them, look for products labelled for the purpose with a PCP registration number, and apply a barely visible film — piles get walked around.',
+    answer: 'No — none of the scent-based folk remedies survive testing. Bay leaves, citrus peel, cucumber slices, essential oil sprays, and vinegar wipe-downs neither kill roaches nor meaningfully repel a motivated, food-seeking German cockroach population. The two DIY materials with genuine evidence are boric acid, which for home use in Canada now comes only as gel or enclosed bait (the dust has not been sold for home use since 2018), and diatomaceous earth used as a fine dust in dry, hidden locations — behind the stove, under the fridge, inside the void under a kitchen cabinet kickplate. Both are slow compared with enclosed bait stations, and diatomaceous earth is useless in damp spots. Look for products labelled for the purpose with a PCP registration number, and apply diatomaceous earth as a barely visible film — piles get walked around.',
   },
   {
     question: 'Do cockroaches mean my home is dirty?',
@@ -232,10 +232,10 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cockroach gel bait" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">Boric acid / DE dust<br /><span className="font-normal text-xs text-gray-500">Inorganic dusts</span></td>
-                  <td className="px-4 py-3 text-gray-700">Thin film in dry hidden voids; abrades and poisons roaches that walk through</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Boric acid bait / DE dust<br /><span className="font-normal text-xs text-gray-500">Inorganic actives</span></td>
+                  <td className="px-4 py-3 text-gray-700">Boric acid as gel or enclosed bait (the dust is no longer sold for home use); diatomaceous earth as a thin film in dry hidden voids</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Legitimate supplement</strong> &mdash; slow, dry areas only, apply thin</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach powder" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach bait" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-bold text-brand-800">Aerosol sprays &amp; foggers<br /><span className="font-normal text-xs text-gray-500">The satisfying mistake</span></td>
@@ -298,7 +298,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="roach killing bait stations">Enclosed bait stations →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cockroach glue trap monitor">Glue-board monitors →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="boric acid roach powder">Boric acid dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Boric acid bait →</BuyLink>
           </div>
 
           <NextUp path="/blog/how-to-get-rid-of-cockroaches-canada" />

@@ -1,4 +1,5 @@
 import routes from './ad-routes.json'
+import hubRoutes from './hub-routes.json'
 
 /**
  * Mediavine display ads: where they are allowed to show.
@@ -35,6 +36,8 @@ const SECTIONS: readonly string[] = routes.sections
 const PAGES: ReadonlySet<string> = new Set(routes.pages)
 const AD_FREE: ReadonlySet<string> = new Set(routes.adFree)
 const SCRIPT_ONLY: ReadonlySet<string> = new Set(routes.scriptOnly)
+/** Hub pages (they mainly list other pages): never ads. Owner, Oct 20, 2026. */
+const HUBS: ReadonlySet<string> = new Set([...routes.hubs, ...hubRoutes.paths])
 
 /** '/blog/foo/?x=1#y' -> '/blog/foo'; '/' stays '/'. */
 export function normalizePath(pathname: string): string {
@@ -46,7 +49,7 @@ export function normalizePath(pathname: string): string {
 export function isAdPath(pathname: string | null | undefined): boolean {
   if (!ADS_ENABLED || !pathname || !pathname.startsWith('/')) return false
   const path = normalizePath(pathname)
-  if (AD_FREE.has(path)) return false
+  if (AD_FREE.has(path) || HUBS.has(path)) return false
   if (PAGES.has(path)) return true
   return SECTIONS.some((section) => path === section || path.startsWith(`${section}/`))
 }

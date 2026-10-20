@@ -19,6 +19,7 @@
 //   node scripts/check-ads.mjs        (run after `next build`; wired into `npm run build`)
 import { readFileSync, readdirSync, existsSync, statSync } from 'fs'
 import { join, relative, sep } from 'path'
+import { pathToFileURL } from 'url'
 
 const ROOT = process.cwd()
 const APP_OUT = join(ROOT, '.next', 'server', 'app')
@@ -36,8 +37,12 @@ const enabled = /ADS_ENABLED\s*=\s*true/.test(ads)
 // ── the allow-list, mirrored from lib/ads.ts (keep the two in step) ─────────────
 const SECTIONS = routes.sections, PAGES = new Set(routes.pages), AD_FREE = new Set(routes.adFree)
 const SCRIPT_ONLY = new Set(routes.scriptOnly)
+// Hub pages (they mainly list other pages) never show ads: the hand-made ones in ad-routes.json
+// plus the generated guide hubs in lib/hub-routes.json, which must match what the guides say now.
+const hubFile = JSON.parse(readFileSync(join(ROOT, 'lib', 'hub-routes.json'), 'utf8'))
+const HUBS = new Set([...(routes.hubs || []), ...hubFile.paths])
 const isAdPath = (path) =>
-  enabled && !AD_FREE.has(path) && (PAGES.has(path) || SECTIONS.some((s) => path === s || path.startsWith(`${s}/`)))
+  enabled && !AD_FREE.has(path) && !HUBS.has(path) && (PAGES.has(path) || SECTIONS.some((s) => path === s || path.startsWith(`${s}/`)))
 
 // ── second opinion: what a service / lead page looks like, as patterns ──────────
 const SERVICE_PATTERNS = [
@@ -63,6 +68,13 @@ for (const p of routes.adFree) {
 }
 for (const p of routes.scriptOnly) {
   if (p !== '/') problems.push(`scriptOnly may contain only "/" (the homepage). "${p}" would put the Mediavine script on another service page.`)
+}
+{
+  const { computeHubPaths } = await import(pathToFileURL(join(ROOT, 'scripts', 'build-hub-routes.mjs')).href)
+  const now = computeHubPaths()
+  if (JSON.stringify(now) !== JSON.stringify(hubFile.paths)) {
+    problems.push(`lib/hub-routes.json is stale (the guides now name ${now.length} hubs, the file lists ${hubFile.paths.length}). Run: node scripts/build-hub-routes.mjs`)
+  }
 }
 
 // The floating yard-risk card (components/StickyRiskCTA.tsx) is pinned bottom-right, exactly
@@ -143,7 +155,7 @@ for (const file of htmlFiles) {
 }
 
 // every explicitly listed page must exist as a built page
-for (const p of [...routes.pages, ...routes.adFree, ...routes.scriptOnly]) {
+for (const p of [...routes.pages, ...routes.adFree, ...routes.scriptOnly, ...HUBS]) {
   if (!seen.has(p)) problems.push(`"${p}" is listed in lib/ad-routes.json but was not built. Stale entry?`)
 }
 
