@@ -2,9 +2,16 @@
  "id": "natural-garden-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b6c8ab95f4c195474afe1cd0034779b1b754d9924aa8c0f7b83b1745432b6f06",
+ "sha": "8edaa2b74f432eaa4d1f868c6cb0b0f47a318c5d15f180a5976ca266d42d95d7",
  "claimsChecked": 122,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 13,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the fungus gnat paragraph in 'How does this plan handle aphids, whiteflies, fungus gnats and weeds?' linking the new /blog/houseplant-bugs; no fact changed.",
+   "previousSha": "b6c8ab95f4c195474afe1cd0034779b1b754d9924aa8c0f7b83b1745432b6f06"
+  }
+ ]
 }

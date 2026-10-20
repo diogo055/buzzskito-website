@@ -66,6 +66,7 @@
       ["Fungus gnat", "About 1/8 inch", "Delicate, dark fly that resembles a small mosquito", "Running across or flying near the soil surface", "A weak flier that stays near the pot"]
     ], "caption": "Sizes and locations from Clemson Cooperative Extension (HGIC 2252). Movement notes for aphids and mealybugs, and the fungus gnat's color and flight, from the University of California's Pest Notes on each insect." },
     { "type": "p", "text": "If the insects are dark and stay around the pot, follow [the step-by-step plan for fungus gnats in houseplants](/learn/how-to-get-rid-of-fungus-gnats) instead; that fix happens in the soil, not on the leaves." },
+    { "type": "p", "text": "Scale insects, spider mites, thrips and the other pests of indoor plants are sorted by the sign each one leaves, with photos, in the guide to [identifying bugs on houseplants](/blog/houseplant-bugs)." },
     { "type": "media", "needed": "Side-by-side comparison illustration at the same scale of an adult whitefly, a pear-shaped green aphid, a cottony mealybug and a dark fungus gnat, each labeled with its size in inches and the part of the plant where it is found" },
 
     { "type": "h2", "text": "Why are whiteflies hard to kill?" },

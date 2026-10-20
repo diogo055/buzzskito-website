@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cb1a7a7188534451843606496074b742c946b063ab10a4322bbd90f9f75bce4b",
+ "sha": "779b1ee4e59a84a4f339b24e7720eb318b74b0fbfd3f1e0b015324cf597057f4",
  "claimsChecked": 75,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 4,
@@ -17,6 +17,11 @@
    "on": "2026-10-16",
    "note": "Photo-ID retrofit, Oct 16 2026: at-a-glance box restructured into a quick-ID table (same facts: Texas A&M, Penn State, MDC, UC IPM); 3 CC0 ledger photos with captions from their records and facts already on the page (smokybrown cockroach on a rail, Oriental cockroach on pavement, European earwig on a palm); look-alike cards (palmetto bug, May beetle, house cricket, bed bug) with notes from facts on the page; 3 FAQs restating body facts (MDC, UC IPM, Texas A&M); dateModified 2026-10-16.",
    "previousSha": "c42571d97344ff54b52ee1f774848cf1c2a91ec3c6e1a72a6bb77dba1bab80c9"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the earwig paragraphs in 'Do earwigs and crickets look like cockroaches?' linking the new /blog/how-to-get-rid-of-earwigs; no fact changed.",
+   "previousSha": "cb1a7a7188534451843606496074b742c946b063ab10a4322bbd90f9f75bce4b"
   }
  ]
 }

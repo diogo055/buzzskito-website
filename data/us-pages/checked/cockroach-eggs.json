@@ -2,7 +2,7 @@
  "id": "cockroach-eggs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "681bfcb33fd09fc02c8e7ad56174ea3d17377547f1504b00de931398d0050e47",
+ "sha": "6f2f66bc2d36206a64ab0ebae9a3ff00bfca11de4ff7d86aa4b79a5919fb9ab3",
  "claimsChecked": 284,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 9,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the droppings paragraph in 'What else looks like cockroach eggs?' linking the new /blog/cockroach-droppings; no fact changed.",
+   "previousSha": "681bfcb33fd09fc02c8e7ad56174ea3d17377547f1504b00de931398d0050e47"
+  }
+ ]
 }

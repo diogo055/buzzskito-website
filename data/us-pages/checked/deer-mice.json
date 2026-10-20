@@ -2,9 +2,16 @@
  "id": "deer-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "db583954506316629c036c9ddddbd3fd959c7c7aeceb836c0ba6982c01ba1ca1",
+ "sha": "7ec383b8b4f6ce026dd5a02306b85a40442f7f51e30ba70709d969145c20a60f",
  "claimsChecked": 109,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the signs list in 'Why do deer mice come into houses, cabins and sheds?' linking the new /blog/mouse-poop; no fact changed.",
+   "previousSha": "db583954506316629c036c9ddddbd3fd959c7c7aeceb836c0ba6982c01ba1ca1"
+  }
+ ]
 }

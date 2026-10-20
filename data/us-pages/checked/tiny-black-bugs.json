@@ -2,7 +2,7 @@
  "id": "tiny-black-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cde66246a275f8ddf6ac7141f4e2484e82f652b25aa9397defdf6acf2d6ddace",
+ "sha": "440f39a0f464862e4aaeaff67169ef624fc445c9142461e0aff675919ed79664",
  "claimsChecked": 241,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added in 'What are the tiny black bugs in my house?' after the 'Many are not truly black' paragraph, linking the new /blog/tiny-brown-bugs; no fact changed.",
    "previousSha": "7d1d7ae7c3b26971fe382236942d7477652f3570c6f5f3f5ddbcf8f5cc9f95dc"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the phorid fly paragraph in 'What are the tiny black bugs in the bathroom?' linking the new /blog/how-to-get-rid-of-gnats; no fact changed.",
+   "previousSha": "cde66246a275f8ddf6ac7141f4e2484e82f652b25aa9397defdf6acf2d6ddace"
   }
  ]
 }

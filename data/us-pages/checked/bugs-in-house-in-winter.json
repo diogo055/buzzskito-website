@@ -2,7 +2,7 @@
  "id": "bugs-in-house-in-winter",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7418608456347b6605bebec7fc5b765a64e02ab826f64034fd2890557be06e5b",
+ "sha": "11641193d063210a5e72bf0496d705a174753ea3506570a36c3b97e1036213e0",
  "claimsChecked": 420,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 1,
@@ -22,6 +22,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added at the end of 'What are the small bugs in my house in winter?' linking the new /blog/beetles-in-house; no fact changed.",
    "previousSha": "8a1c9cbf48f79ae4c3301491e1632088eaacdd5784f14f4f42960ed681092ff4"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added at the end of 'Why are there slow flies at my windows in winter?' linking the new /blog/flies-in-house, and one after the western conifer seed bug paragraph in 'What is the large brown bug that buzzes when it flies?' linking the new /blog/kissing-bug-look-alikes; no fact changed.",
+   "previousSha": "7418608456347b6605bebec7fc5b765a64e02ab826f64034fd2890557be06e5b"
   }
  ]
 }

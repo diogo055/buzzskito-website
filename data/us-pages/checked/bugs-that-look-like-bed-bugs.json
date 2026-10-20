@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5ee3ff618f56922a9dd3b5341bcb76a14b496a5b0592cfd06d081d9dd6655e7d",
+ "sha": "5fa0d25e3f4a870a1c6250a7bc090a9b28b84408bfc72a7fe3eb36f700e6acca",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -22,6 +22,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added at the end of 'Which bugs get mistaken for bed bugs?' linking the new /blog/tiny-brown-bugs; no fact changed.",
    "previousSha": "571d2150a0f1e4f70947088dec98d93995d97938345ba722d058d08613fd034e"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the bat bug location paragraph in 'How do you tell a bat bug or swallow bug from a bed bug?' linking the new /blog/bat-poop; no fact changed.",
+   "previousSha": "5ee3ff618f56922a9dd3b5341bcb76a14b496a5b0592cfd06d081d9dd6655e7d"
   }
  ]
 }

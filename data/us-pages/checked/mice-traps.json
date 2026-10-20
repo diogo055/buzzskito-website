@@ -2,9 +2,16 @@
  "id": "mice-traps",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1fe3270b6eae4480a095a9373aa8061e3aef3bfede9db7a26fd480376fd6c53e",
+ "sha": "5c5e70d4a04f2b0394b3e21b0981e2fea45109d2e3bd52543aa9ab25c7fb6958",
  "claimsChecked": 78,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the 'Size matters' paragraph in 'How do snap traps work, and which one should you buy?' linking the new /blog/mouse-poop; no fact changed.",
+   "previousSha": "1fe3270b6eae4480a095a9373aa8061e3aef3bfede9db7a26fd480376fd6c53e"
+  }
+ ]
 }

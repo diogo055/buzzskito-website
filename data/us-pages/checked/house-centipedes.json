@@ -2,7 +2,7 @@
  "id": "house-centipedes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5941dbe90fd54b13a8ff6c1ab1235f9ea05481a4bd0803bbf7c8e0bfdab28388",
+ "sha": "03196dc2448d51297ce1c0ed0f7a18736bdfbcf9f7f0e4404bc127db510a7a06",
  "claimsChecked": 208,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the earwig photo in 'Why are house centipedes in my house?' linking the new /blog/how-to-get-rid-of-earwigs; no fact changed.",
+   "previousSha": "5941dbe90fd54b13a8ff6c1ab1235f9ea05481a4bd0803bbf7c8e0bfdab28388"
+  }
+ ]
 }

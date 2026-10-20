@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-fungus-gnats",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "91f031896bf455b6227aff392e83e456e0a7705388835e89d14f7174fdcc29af",
+ "sha": "7c33398fc3b41b7146e8aa149088f2d01e6a12bafc756709bdafa83445663486",
  "claimsChecked": 119,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the 'wrong fly' paragraph in 'What if the fungus gnats keep coming back?' linking the new /blog/how-to-get-rid-of-gnats; no fact changed.",
+   "previousSha": "91f031896bf455b6227aff392e83e456e0a7705388835e89d14f7174fdcc29af"
+  }
+ ]
 }

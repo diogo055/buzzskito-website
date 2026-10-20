@@ -2,9 +2,16 @@
  "id": "whitefly-identification-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0f9c8320807b3e8ec40be96e3c1b904af49b1ce625b81b3cd86c0090f8a855af",
+ "sha": "b9dd738efe070b557384b709a0b8cfd48a15af0982700d074737b6eeb4d3eb75",
  "claimsChecked": 174,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the fungus gnat paragraph in 'Whitefly, aphid, mealybug or fungus gnat?' linking the new /blog/houseplant-bugs; no fact changed.",
+   "previousSha": "0f9c8320807b3e8ec40be96e3c1b904af49b1ce625b81b3cd86c0090f8a855af"
+  }
+ ]
 }

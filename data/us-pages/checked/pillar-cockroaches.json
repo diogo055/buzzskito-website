@@ -2,7 +2,7 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3084641c23b43d933157b6f2895a647acb5769e87e5efa3d2948f6dc2b01e7af",
+ "sha": "4b6452f9ac9d55f03d409bd9ef6ca0766cac7eb1ab2dbb1cb2c1d6ecf8909275",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: the treatment-plan link now points to the new US edition (/blog/how-to-get-rid-of-cockroaches) and keeps the Canadian edition as a second link; no fact changed.",
    "previousSha": "66ee9f1763a61e8c9c7c7d06a4ddb7cd08f1b84829b5b2880d277dbe22a48692"
+  },
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added after the first paragraph of 'What are the signs of a cockroach infestation?' linking the new /blog/cockroach-droppings; no fact changed.",
+   "previousSha": "3084641c23b43d933157b6f2895a647acb5769e87e5efa3d2948f6dc2b01e7af"
   }
  ]
 }
