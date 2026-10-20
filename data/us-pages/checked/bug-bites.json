@@ -2,7 +2,7 @@
  "id": "bug-bites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "735b3b2ff4cd021bbc9bfb13eb525941cd4c10685cb91bab1ccaf6788bcde4a7",
+ "sha": "4cbcd2b5b09c1182f795aaa5243702d407bde28c3510dbc81f4f3e4dbb644281",
  "claimsChecked": 322,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-20",
+   "note": "Oct 20, 2026: one sentence added under 'How can you tell what bit you?' linking the new bug bite identifier tool (/tools/bug-bite-identifier); no fact changed.",
+   "previousSha": "735b3b2ff4cd021bbc9bfb13eb525941cd4c10685cb91bab1ccaf6788bcde4a7"
+  }
+ ]
 }

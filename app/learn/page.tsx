@@ -129,6 +129,22 @@ export default function LearnHubPage() {
         </div>
       </section>
 
+      {/* Bug bite identifier (Oct 20, 2026), app/tools/bug-bite-identifier */}
+      <section aria-labelledby="bite-identifier" className="pb-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <Link
+            href="/tools/bug-bite-identifier"
+            className="group flex flex-col gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 transition-all hover:shadow-md sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div>
+              <h2 id="bite-identifier" className="text-lg font-extrabold text-brand-900">Not sure what bit you?</h2>
+              <p className="mt-1 text-sm text-gray-700 leading-relaxed">Six quick questions about where, when and how the bites appeared. Get the most likely biters, real photos and the signs that need a doctor.</p>
+            </div>
+            <p className="shrink-0 text-sm font-bold text-brand-700 group-hover:text-brand-600">Try the bug bite identifier →</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Printable guides (Oct 2026): recipes, checklists and ID charts, generated list */}
       {US_GUIDE_LEARN_PAGES.length > 0 && (
         <section aria-labelledby="printable-guides" className="pb-12 px-4 bg-white">

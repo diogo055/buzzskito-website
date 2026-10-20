@@ -426,11 +426,11 @@ function validate(file) {
     for (const s of p.required.seriesAll) if (!uniq.has(s)) err(`a hub must link to every page in its series; missing ${s}`)
     const ex = [...uniq].filter((h) => EXISTING.has(h) && h !== '/' && (h.startsWith('/blog/') || h.startsWith('/learn') || h.startsWith('/pest-product-guides')))
     if (ex.length < p.required.minExisting) err(`links to ${ex.length} pre-existing pages; it needs at least ${p.required.minExisting} real topical matches`)
-    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
+    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && !h.startsWith('/tools/') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
     if (svc.length) err(`do not link to service or city pages from these guides: ${svc.join(', ')}`)
   } else if (visual) {
     for (const s of p.required.mustLink) if (!uniq.has(s)) err(`must link to ${s} in the body text`)
-    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
+    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && !h.startsWith('/tools/') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
     if (svc.length) err(`do not link to service or city pages from these guides: ${svc.join(', ')}`)
   } else {
     if (p.required.pillar && !uniq.has(p.required.pillar)) err(`must link to its hub page ${p.required.pillar} in the body text`)
@@ -441,7 +441,7 @@ function validate(file) {
     const ex = [...uniq].filter((h) => EXISTING.has(h) && h !== p.required.pillar && h !== '/' && (h.startsWith('/blog/') || h.startsWith('/learn') || h.startsWith('/pest-product-guides') || h === '/pest-control-cost-canada' || /-(statistics|tracker)/.test(h)))
     if (ex.length < p.required.minExisting) err(`links to ${ex.length} pre-existing pages; it needs 2 to 4 real topical matches`)
     if (p.required.category && !uniq.has(p.required.category)) err(`must link to the product guide hub ${p.required.category}`)
-    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
+    const svc = [...uniq].filter((h) => EXISTING.has(h) && !h.startsWith('/blog/') && !h.startsWith('/learn') && !h.startsWith('/pest-product-guides') && !h.startsWith('/tools/') && h !== '/pest-control-cost-canada' && !/-(statistics|tracker)/.test(h))
     if (svc.length) err(`do not link to service or city pages from these guides: ${svc.join(', ')}`)
   }
 

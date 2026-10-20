@@ -99,6 +99,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/lyme-disease-risk-calculator`,  lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly',  priority: 0.9 },
     // Pest identifier quiz, published Oct 12, 2026 (its true date, not the site-wide one)
     { url: `${SITE_URL}/tools/what-bug-is-this`,        lastModified: '2026-10-12T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
+    // Bug bite identifier, published Oct 20, 2026 (its true date)
+    { url: `${SITE_URL}/tools/bug-bite-identifier`,     lastModified: '2026-10-20T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/ontario-lyme-disease-tracker-2026`, lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.95 },
     // ── Statistics / data hubs (linkable assets — Jun 2026) ───────────────────
     { url: `${SITE_URL}/ticks-in-ontario-statistics`,       lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'weekly', priority: 0.9 },
