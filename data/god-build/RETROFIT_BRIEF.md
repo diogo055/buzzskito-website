@@ -158,6 +158,12 @@ Everything else is an addition. Existing lines you may change: the import block 
 datePublished={DATE} />` (add `dateModified={UPDATED}`), the `UPDATED` constant (add one if missing),
 the title constant (with its TITLE NOTE), and the end of the `FAQS` array (append).
 
+Change those lines in place: set `UPDATED` to the new date on its own line, and extend the schema,
+metadata and byline lines as listed. **Do not keep the old version in a comment** to make the diff
+show zero deleted lines: these few changed lines are expected and checked by hand. The zero-deletion
+rule is about the page's content and its affiliate, quote and recirculation elements, which stay
+byte for byte.
+
 **Never touch** a line containing `BuyLink`, `TopPick`, `StickyBuyBar`, `AffiliateDisclosure`,
 `AwardRow`, `AwardCard`, `AmazonLink`, `asin=`, `search=`, `tag=`, `NextUp`, `RelatedLinks` or
 `ReadNext`, and do not move one by inserting a block between a buy button and its introduction.
