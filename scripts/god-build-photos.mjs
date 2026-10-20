@@ -375,7 +375,7 @@ const PHOTOS = [
   ['formosan-termites-wood', 'Formosan subterranean termites, Coptotermes formosanus, feeding on spruce (left) and birch wood blocks (USDA ARS photograph)', { commons: 'White Ants (Termites)147.jpg' }],
   ['formosan-termite-soldier', 'Formosan subterranean termite, Coptotermes formosanus, soldier gnawing on wood (USDA ARS photograph)', { commons: 'K8085-3 (8412887808).jpg' }],
   ['termite-swarmers', 'Winged termite swarmers (alates) on wood, identified on iNaturalist as eastern subterranean termite, Reticulitermes flavipes (Blount County, Alabama)', { inat: { obs: 346853050, photo: 632324119 } }],
-  ['termite-workers-soldier', 'Termite workers and a soldier in decaying wood, from the same colony as termite-swarmers (Reticulitermes flavipes on iNaturalist; Blount County, Alabama)', { inat: { obs: 346853050, photo: 632323098 } }],
+  ['termite-workers-soldier', 'One termite worker and two soldiers in decaying wood (counted on the image, Oct 20, 2026), from the same colony as termite-swarmers (Reticulitermes flavipes on iNaturalist; Blount County, Alabama)', { inat: { obs: 346853050, photo: 632323098 } }],
   ['carpenter-ant-winged-queen', 'Eastern black carpenter ant, Camponotus pennsylvanicus, winged queen on a leaf (Waltham, Massachusetts)', { inat: { obs: 47906724, photo: 75992810 } }],
   ['carpenter-bee-female', 'Eastern carpenter bee, Xylocopa virginica, female, close-up of the head (Birmingham, Alabama)', { inat: { obs: 244806874, photo: 436736100 } }],
   ['carpenter-bee-male', 'Eastern carpenter bee, Xylocopa virginica, male, face-on, with a pale patch on the face (Birmingham, Alabama)', { inat: { obs: 204742178, photo: 361929383 } }],

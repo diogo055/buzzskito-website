@@ -103,6 +103,9 @@ const AUTH_HOSTS = [
   'nationalgeographic.com', 'smithsonianmag.com', 'britannica.com', 'animaldiversity.org', 'inaturalist.org', 'bugguide.net', 'tickencounter.org',
   'lymedisease.org', 'globallymealliance.org', 'mosquito.org', 'naccho.org', 'nfpa.org', 'aapcc.org', 'poisonhelp.org', 'healthychildren.org', 'aap.org',
   'ipminstitute.org', 'ecoipm.org', 'stoppests.org', 'ncipmc.org', 'neipmc.org', 'npirspublic.ceris.purdue.edu',
+  // Internet Center for Wildlife Damage Management (university extension collaboration: Cornell, Clemson,
+  // Nebraska, Utah State, with USDA) and Bat Conservation International: the wildlife and droppings pages (Oct 20, 2026)
+  'icwdm.org', 'batcon.org',
 ]
 // Canadian governments and universities do not use .gov / .edu (the province pages cite them)
 const CA_AUTH = [
