@@ -19,6 +19,28 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 20 END OF DAY — 23 NEW PAGES LIVE (supersedes the "in flight" list below):** batch 1 35406ed6
+  (rat-droppings, termite-damage, termite-droppings, how-to-get-rid-of-cockroaches), batch 2 6b6f720e
+  (animals-in-attic, holes-in-yard, animal-droppings, tiny-brown-bugs, beetles-in-house, moths-in-house),
+  batch 3 fdb35aaf (cockroach-droppings, mouse-poop, bed-bug-poop, raccoon-poop, bat-poop, millipedes,
+  how-to-get-rid-of-earwigs, how-to-get-rid-of-silverfish, flies-in-house, how-to-get-rid-of-gnats + a 17-link
+  link-in round + hreflang pairs for mouse poop, bed bug poop, earwigs, silverfish), batch 4 f5d01266
+  (kissing-bug-look-alikes, black-spiders, houseplant-bugs). Every page had a beat-the-top-3 note
+  (data/god-build/research/top3/ or droppings-top3.md) and an independent fact-check (174-400 claims each).
+  clothes-moths gated (moths-in-house replaces it). OCT 21 FIRST: (1) Request indexing, ~10/day, droppings first
+  (rat, cockroach, mouse, raccoon, bat, bed bug, termite droppings, animal-droppings, roach how-to,
+  best-cockroach-killer-canada), the rest Oct 22-23; (2) GA4 bot check (SG/CN ~0); (3) link-in round 2 for batch
+  3-4 pages: cockroach-eggs + pillar-cockroaches signs -> cockroach-droppings; deer-mice, mice-traps, pillar-mice ->
+  mouse-poop; bugs-in-house-in-winter -> flies-in-house + kissing-bug-look-alikes; how-to-get-rid-of-fungus-gnats +
+  tiny-black-bugs -> how-to-get-rid-of-gnats; natural-garden-pest-control + whitefly page -> houseplant-bugs;
+  venomous-spiders -> black-spiders; bugs-that-look-like-cockroaches + house-centipedes -> earwigs;
+  bugs-that-look-like-bed-bugs -> bat-poop; raccoon-deterrent (TSX) -> raccoon-poop; (4) GA4 TopBox clicks vs
+  other buttons (placement "TopBox"). OCT 23: indexing check of the Oct 16 + Oct 20 batches (URL Inspection
+  sweep, scratchpad fc-scripts/gsc_sweep.py) before ramping to 50/week. NEXT PAGES: squirrel-poop and possum-poop
+  need droppings photos; mouse-urine needs the NPS Conserve O Gram photo (add an NPS source type to
+  scripts/god-build-photos.mjs); the winners-gap list (signs of carpet beetles, signs of cockroaches, bed bug
+  bites but no bed bugs, oriental / brown-banded / white cockroach, mice in walls, camel crickets, flea dirt) with
+  beat-the-top-3 research first; drain flies + boxelder US twins after Oct 30.
 - **OCT 20 AFTERNOON — STATE (read this first on Oct 21):**
   LIVE today: boric acid bait links (0383f08c); 3 bed bug + 6 tick retrofits with sourced corrections
   (00e3f1d0, bd036052); TOP BOX on 214 product+remedy pages (c86dbc38, owner: "every page applicable", no test;
