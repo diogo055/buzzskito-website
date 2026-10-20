@@ -48,6 +48,13 @@ Then read the page (`content/guides-scheduled/<slug>.json`), its plan entry
   included; nothing that implies a snake is safe to handle, catch, move or kill, or a bite
   harmless; photos only with an expert identification (WRITER_BRIEF_PHOTO_ID.md, "Snakes").
   Treat a wrong venomous / nonvenomous identification as the most serious error a page can have.
+- **Beat the top 3** (pages written from Oct 20, 2026): read the page's research (its section of
+  `data/god-build/research/droppings-top3.md`, or `data/god-build/research/top3/<slug>.md`).
+  Every question listed there as one the searcher needs is answered on the page, and the three
+  things the page does that the ranking pages do not are really on it. Where the research says a
+  ranking page got a fact wrong, check that our page states it correctly. A missing item is a
+  finding for your report, not a reason to rewrite; add it only if it is one or two sentences
+  you can source.
 - **Authorship:** no `reviewedBy` / `reviewedOn` added by the writer, no invented author or
   first-person experience ("in our experience", "our technicians"), no testing claims.
 - **Links:** internal links (text, card and map links) point at pages that exist or are

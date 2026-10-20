@@ -24,6 +24,8 @@
 
 - `/blog/bat-bugs` — **bat bugs** (also: bat bug vs bed bug; swallow bugs; bat bug bites). The hair-length test, why bat bugs appear after bats leave or are excluded, swallow bugs from cliff swallow nests, bites, and why the bat or bird problem has to be solved first (with bat exclusion rules).
 
+- `/blog/bed-bug-poop` — **bed bug poop** (also: bed bug droppings; what does bed bug poop look like; bed bug poop stains; bed bug poop on walls; bed bug poop on sheets; bed bug poop vs flea poop). US edition, written fresh. Bed bug droppings are ink-dot spots that soak into fabric like a marker and smear red-brown when dampened; cockroach specks sit on top and stay dark (EPA, Tennessee, Virginia: already cited on what-do-bed-bugs-look-like and signs-of-bed-bugs-checklist). Sections: what it looks like on sheets, mattress, wood, walls and plastic; the damp-swab test; what else leaves spots like these; what finding it means; washing the stains out; is it dangerous.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -418,6 +420,13 @@
 - `/blog/copperhead-look-alikes` — baby copperhead
 - `/blog/wasp-vs-hornet` — wasp vs hornet
 - `/blog/maggots` — maggots
+- `/blog/termite-droppings` — termite droppings
+- `/blog/raccoon-poop` — raccoon poop
+- `/blog/bat-poop` — bat poop
+- `/blog/mouse-poop` — mouse poop
+- `/blog/squirrel-poop` — squirrel poop
+- `/blog/possum-poop` — possum poop
+- `/blog/mouse-urine` — mouse urine
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

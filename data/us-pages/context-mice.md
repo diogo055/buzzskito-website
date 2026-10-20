@@ -48,9 +48,13 @@
 
 - `/blog/roof-rat-vs-norway-rat` — **roof rat vs norway rat** (also: norway rat vs roof rat; roof rat; norway rat; types of rats; roof rat vs norway rat droppings; roof rat vs norway rat pictures). The two rats that live in US buildings, told apart by photo: tail length against head and body, ears, snout and build, droppings, where each nests in a building, and their US ranges. Identification only: control stays on /blog/how-to-get-rid-of-rats-canada (link both ways) and the rat-or-mouse question on rat-vs-mouse (planned).
 
-- `/blog/rat-droppings` — **rat droppings** (also: rat poop; what does rat poop look like; rat droppings vs mouse droppings; rat droppings pictures; rat droppings vs squirrel droppings). What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted.
+- `/blog/rat-droppings` — **rat droppings** (also: rat poop; what does rat poop look like; rat poop vs mouse poop; rat droppings vs mouse droppings; rat poop vs squirrel poop; rat poop size; rat poop pictures). What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted. This page also owns "rat poop vs mouse poop" (6,200 US searches) as its second section and quick-ID table, and rat vs squirrel poop as a section. Cleanup and health only from CDC or a state health department, at their strength (CDC rodent cleanup: air the space out, gloves, soak with disinfectant or 1.5 cups of bleach per gallon for 5 minutes, wipe with paper towels, never sweep or vacuum).
 
 - `/blog/mouse-nest` — **what does a mouse nest look like** (also: mouse nest; mouse nest in car; rat nest vs mouse nest; mouse nest in wall; mouse nest in attic). What a mouse nest looks like (the materials, shape and size), where mice build them in a house or a car, how to tell an active nest from an old one, and how a rat nest differs. Appearance and location only: /blog/baby-mice keeps what finding baby mice means and /blog/mice-removal the cleanup steps; link both instead of repeating them. Any cleanup or disease statement follows CDC. Photo on record: a deer mouse in its nest (public domain); a house mouse nest is still needed.
+
+- `/blog/mouse-poop` — **mouse poop** (also: mouse droppings; what does mouse poop look like; mice poop; mice droppings; mouse poop vs rat poop; is mouse poop dangerous; mouse poop pictures). US edition, written fresh from US sources (CDC on cleanup, hantavirus and LCMV; Nebraska Extension; Cornell), not a conversion of the Canadian page. Mouse droppings are 1/8 to 1/4 inch long, one or both ends pointed, scattered along walls rather than piled (Nebraska). Sections: what it looks like, how big, fresh or old, mouse vs rat poop (short, link rat-droppings), mouse vs bat, roach and lizard droppings, where you find it, is it dangerous, how to clean it up by CDC guidance, what to do next. No retailer links (US guide). Cleanup and health only from CDC or a state health department, at their strength (CDC rodent cleanup: air the space out, gloves, soak with disinfectant or 1.5 cups of bleach per gallon for 5 minutes, wipe with paper towels, never sweep or vacuum).
+
+- `/blog/mouse-urine` — **mouse urine** (also: mouse pee; what does mouse pee smell like; mouse urine under black light; mouse urine stains; how to get rid of mouse urine smell). What mouse urine looks like, what it smells like, whether it glows under a black light (a UV light shows many things, not only urine: say so from a source), urine pillars and rub marks, whether it is harmful (CDC), how to clean it and the smell by CDC guidance, clothes, carpets and car vents, what to do next.
 
 ## Pillars (hub pages)
 
@@ -432,6 +436,12 @@
 - `/blog/copperhead-look-alikes` — baby copperhead
 - `/blog/wasp-vs-hornet` — wasp vs hornet
 - `/blog/maggots` — maggots
+- `/blog/termite-droppings` — termite droppings
+- `/blog/raccoon-poop` — raccoon poop
+- `/blog/bat-poop` — bat poop
+- `/blog/squirrel-poop` — squirrel poop
+- `/blog/possum-poop` — possum poop
+- `/blog/bed-bug-poop` — bed bug poop
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

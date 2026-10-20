@@ -39,6 +39,39 @@ buttons.
    Oct 15 caption rules). Where they differ, this brief wins on file location, dates, sources,
    audience, FAQs, photos and the shape of the page.
 
+## Before you write: beat the top 3 (owner, Oct 19, 2026)
+
+Only the top 3 results get clicked on these searches (Google shows an AI answer box and image thumbnails
+above them), so a page is written to be better than each of the three pages ranking now. This step comes
+before the draft, every time.
+
+1. **Is the research already done?** Droppings pages: your section of
+   `data/god-build/research/droppings-top3.md` is the research (demand, who ranks, the top 3 taken apart,
+   the gaps, then your page: target, titles, the test, sections, quick-ID table, photos, cards, FAQs,
+   overlap). Follow it, and verify every cell or claim it marks "source needed" or "verify" in the source
+   itself, or leave that cell out. Other pages: do steps 2-4.
+2. **Read the three.** Take the top 3 editorial results for your target search from your spec's `serp`
+   (Oct 16). Skip forums, Reddit, YouTube, stock-photo and shopping pages and take the next article; name
+   the skipped ones in your notes (people posting "is this X?" photos is itself a finding). Open each with
+   WebFetch (or the built-in browser if it blocks scripts). Do not use Ahrefs: the units are needed elsewhere.
+3. **Take each apart.** Words (roughly), the questions its headings answer, its photos (how many, of what,
+   real or stock or AI-made, any scale or "where you find it" shots), tables and comparisons, FAQs,
+   sources cited, and what it gets wrong (a size or claim that disagrees with an extension, CDC or EPA
+   source: check it).
+4. **Write the beat list** to `data/god-build/research/top3/<slug>.md` (20-60 lines, plain words):
+   - every question at least one of the three answers that a searcher needs: our page answers each one;
+   - at least **three things our page does that none of them do** (real photos of the thing where people
+     find it, beside a coin or ruler; a quick-ID table with sourced sizes; the one-line test; look-alike
+     cards; correct, linked health or pesticide facts; the "People also ask" questions answered);
+   - what they get wrong, with the source that says otherwise (our page states it correctly);
+   - Google's "People also ask" questions for the search, when you can see them (they feed the FAQs).
+5. **Facts only from our own sources.** Never copy their wording, their order of sections, their images
+   or their numbers: a number they give goes in only if a government, university or manufacturer source
+   you opened says it. Their pages show what to cover, not what is true.
+
+Report the three things that make the page better than the top 3 in your final message; the checker
+checks the page against the beat list.
+
 ## The file
 
 - Write `content/guides-scheduled/<slug>.json`, never `content/guides/`. `kind` "spoke"; `cluster` =

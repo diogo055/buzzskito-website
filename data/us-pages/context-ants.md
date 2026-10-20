@@ -432,6 +432,14 @@
 - `/blog/copperhead-look-alikes` — baby copperhead
 - `/blog/wasp-vs-hornet` — wasp vs hornet
 - `/blog/maggots` — maggots
+- `/blog/termite-droppings` — termite droppings
+- `/blog/raccoon-poop` — raccoon poop
+- `/blog/bat-poop` — bat poop
+- `/blog/mouse-poop` — mouse poop
+- `/blog/squirrel-poop` — squirrel poop
+- `/blog/possum-poop` — possum poop
+- `/blog/bed-bug-poop` — bed bug poop
+- `/blog/mouse-urine` — mouse urine
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

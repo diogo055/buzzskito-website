@@ -6720,17 +6720,20 @@
    "section": "blog",
    "role": "page",
    "cluster": "mice",
+   "audience": "na",
    "keyword": "rat droppings",
    "alsoTargets": [
     "rat poop",
     "what does rat poop look like",
+    "rat poop vs mouse poop",
     "rat droppings vs mouse droppings",
-    "rat droppings pictures",
-    "rat droppings vs squirrel droppings"
+    "rat poop vs squirrel poop",
+    "rat poop size",
+    "rat poop pictures"
    ],
-   "h1Hint": "Rat Droppings: What Rat Poop Looks Like and How to Clean It Up Safely",
-   "metaTitleHint": "Rat Droppings: What Rat Poop Looks Like (Photos)",
-   "scope": "What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted.",
+   "h1Hint": "Rat Droppings: What Rat Poop Looks Like, Next to Mouse and Squirrel",
+   "metaTitleHint": "Rat Poop: What Rat Droppings Look Like (Photos)",
+   "scope": "What rat droppings look like (size, shape, color, fresh against old), how they differ from mouse droppings and other look-alikes, where they collect, and how to clean them up by CDC's guidance. Scoped to rats: /blog/what-does-mouse-poop-look-like-canada keeps mouse droppings, so link it for mice. Photos on record: rat droppings on a tabletop and rodent droppings in a drawer (both public domain), mouse droppings beside a ruler; a rat-droppings photo with a scale is still wanted. This page also owns \"rat poop vs mouse poop\" (6,200 US searches) as its second section and quick-ID table, and rat vs squirrel poop as a section. Cleanup and health only from CDC or a state health department, at their strength (CDC rodent cleanup: air the space out, gloves, soak with disinfectant or 1.5 cups of bleach per gallon for 5 minutes, wipe with paper towels, never sweep or vacuum).",
    "pageType": "entity-id",
    "flags": [
     "id",
@@ -6751,9 +6754,19 @@
      "path": "/blog/what-does-mouse-poop-look-like-canada",
      "overlap": "mouse droppings with a short rat comparison (17,248 impressions in 90 days, CTR 0.28%)",
      "resolution": "keeps mice; this page owns rat droppings and links back for mice"
+    },
+    {
+     "path": "/blog/rat-vs-mouse",
+     "overlap": "droppings as one trait",
+     "resolution": "keeps droppings as one trait and links here"
+    },
+    {
+     "path": "/blog/roof-rat-vs-norway-rat",
+     "overlap": "Norway and roof rat droppings",
+     "resolution": "link both ways"
     }
    ],
-   "family": "household",
+   "family": "droppings",
    "priority": 2
   },
   {
@@ -6886,7 +6899,7 @@
      "resolution": "link"
     }
    ],
-   "family": "household",
+   "family": "droppings",
    "priority": 3
   },
   {
@@ -7350,17 +7363,16 @@
    "audience": "na",
    "keyword": "animal poop identification",
    "alsoTargets": [
-    "raccoon poop",
-    "squirrel poop",
-    "bat poop",
-    "possum poop",
-    "snake poop",
-    "squirrel poop vs rat poop",
-    "raccoon poop vs possum poop"
+    "animal poop identification chart",
+    "what animal poop is this",
+    "animal droppings identification",
+    "identify animal poop",
+    "raccoon vs possum poop",
+    "snake poop"
    ],
    "h1Hint": "Animal Poop Identification: Raccoon, Squirrel, Bat, Opossum and Rat Droppings",
-   "metaTitleHint": "Animal Poop Identification (Photos)",
-   "scope": "A side-by-side photo sorter for animal droppings found around homes, with a scale wherever the photo allows: raccoon (latrines), opossum, squirrel, bat (guano), rat, mouse and snake, built around the comparisons that fill autocomplete (raccoon vs opossum, squirrel vs rat, bat vs mouse). Size, shape, where found and the one feature that settles each. Raccoon latrines carry a roundworm risk that CDC documents: state it with that source; every health and cleanup statement follows CDC or a state health department. Mouse droppings stay on /blog/what-does-mouse-poop-look-like-canada and rat droppings on rat-droppings (planned): summarize and link. Photos on record: rat and mouse droppings, rodent droppings in a drawer; a raccoon latrine (CDC, public domain), bat guano, squirrel and opossum droppings are still needed.",
+   "metaTitleHint": "Animal Poop Identification Chart (Photos)",
+   "scope": "The hub of the droppings family, aimed at \"animal poop identification chart\" (2,100 US searches, against 450 for the old wording). A sorter: a quick-ID table with one row per animal (raccoon, opossum, skunk, squirrel, flying squirrel, rat, mouse, bat, rabbit, deer, coyote, snake or lizard, bird), then short h2s by where it was found (yard and lawn; deck, roof and porch; attic; garage and indoors; pool), most common first. Each animal gets 2 to 4 sentences and a link to its own page (rat-droppings, mouse pages, raccoon-poop, bat-poop, squirrel-poop, possum-poop, cockroach-droppings, termite-droppings), never a full section, so this page does not compete with them. Link holes-in-yard, animals-in-attic and /blog/raccoon-deterrent. Cleanup and health only from CDC or a state health department, at their strength (CDC rodent cleanup: air the space out, gloves, soak with disinfectant or 1.5 cups of bleach per gallon for 5 minutes, wipe with paper towels, never sweep or vacuum).",
    "pageType": "entity-id",
    "flags": [
     "id",
@@ -7386,7 +7398,7 @@
      "resolution": "link; rats stay there"
     }
    ],
-   "family": "wildlife",
+   "family": "droppings",
    "priority": 2
   },
   {
@@ -7398,13 +7410,12 @@
    "alsoTargets": [
     "what does termite damage look like",
     "signs of termites",
-    "termite droppings",
     "termite mud tubes",
     "termite damage vs wood rot"
    ],
    "h1Hint": "Termite Damage: What It Looks Like, Plus Droppings, Mud Tubes and Wood Rot",
    "metaTitleHint": "Termite Damage: What It Looks Like (Photos)",
-   "scope": "A photo guide for homeowners asking \"is this termite damage?\": what damaged wood looks like, mud tubes, termite droppings (frass) and the other signs of termites, then termite damage vs wood rot. Termite droppings (Ahrefs 15,000 US searches a month, all pest companies on page 1) is a section here, not a separate page. /blog/flying-ants-vs-termites keeps a short version of the frass, mud tube and damaged wood clues: link both ways. The insect itself is on what-do-termites-look-like (new): link both ways. What finding damage means and what to do next follows EPA and extension sources; no product advice. Photos: none on record; damaged wood, mud tubes and drywood termite frass (public domain or CC BY) are needed before writing.",
+   "scope": "A photo guide for homeowners asking \"is this termite damage?\": what damaged wood looks like, mud tubes and the other signs of termites, then termite damage vs wood rot. Termite droppings (frass) now has its own page, termite-droppings (split on Oct 20, 2026 by data/god-build/research/droppings-top3.md, one search per page): keep 2 or 3 sentences on droppings here and link there. /blog/flying-ants-vs-termites keeps a short version of the frass, mud tube and damaged wood clues: link both ways. The insect itself is on what-do-termites-look-like (new): link both ways. What finding damage means and what to do next follows EPA and extension sources; no product advice.",
    "pageType": "entity-id",
    "flags": [
     "id"
@@ -7427,6 +7438,11 @@
      "path": "what-do-termites-look-like (new)",
      "overlap": "the insects",
      "resolution": "link both ways; damage here, the insects there"
+    },
+    {
+     "path": "termite-droppings (new)",
+     "overlap": "termite droppings and frass",
+     "resolution": "split out on Oct 20, 2026: this page keeps 2 or 3 sentences on droppings and links there"
     }
    ],
    "family": "termites",
@@ -7649,6 +7665,366 @@
     }
    ],
    "family": "household",
+   "priority": 2
+  },
+  {
+   "slug": "termite-droppings",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "keyword": "termite droppings",
+   "alsoTargets": [
+    "termite poop",
+    "termite frass",
+    "drywood termite droppings",
+    "termite droppings vs carpenter ant frass",
+    "termite droppings but no termites",
+    "carpenter ant frass"
+   ],
+   "h1Hint": "Termite Droppings: What Termite Frass Looks Like, and What Else It Could Be",
+   "metaTitleHint": "Termite Droppings: ID Termite Frass (Photos)",
+   "scope": "What termite droppings look like: drywood termite pellets (hard, sand-grain size, six flattened sides, piled under kick-out holes, UC IPM), why subterranean termites leave mud instead of pellets, dampwood termites, then termite frass vs carpenter ant frass vs powderpost beetle frass vs sawdust (carpenter ant frass is an h2 here, not its own page), termite droppings but no termites, and what to do next (an inspection; link termite-damage, what-do-termites-look-like and flying-ants-vs-termites). US pests: drywood termites are a southern and western US problem; say where each lives from extension sources. No product advice.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "termite-damage (new)",
+     "overlap": "droppings as one sign of termites",
+     "resolution": "keeps 2 or 3 sentences and links here"
+    },
+    {
+     "path": "/blog/flying-ants-vs-termites",
+     "overlap": "its frass section",
+     "resolution": "keeps a short version; link both ways"
+    },
+    {
+     "path": "what-do-termites-look-like (new)",
+     "overlap": "the insects",
+     "resolution": "link"
+    }
+   ],
+   "family": "termites",
+   "priority": 2
+  },
+  {
+   "slug": "raccoon-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "raccoon poop",
+   "alsoTargets": [
+    "what does raccoon poop look like",
+    "raccoon droppings",
+    "raccoon latrine",
+    "raccoon poop vs opossum poop",
+    "raccoon poop in pool",
+    "raccoon poop on deck"
+   ],
+   "h1Hint": "Raccoon Poop: What Raccoon Droppings and Latrines Look Like",
+   "metaTitleHint": "Raccoon Poop: ID Raccoon Latrines (Photos)",
+   "scope": "What raccoon poop looks like (dark, blunt-ended, often full of seeds, 2 to 3 inches long, ICWDM), the latrine (piled in the same spot on decks, roofs, logs, tree bases and in attics), raccoon vs opossum, dog and coyote poop, raccoon poop in pools, why it is dangerous (raccoon roundworm, Baylisascaris, from CDC and state health departments, at their strength) and how to clean up a latrine by CDC guidance, then what to do next. Canada may be named where it helps (raccoons are common in Toronto).",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/raccoon-deterrent",
+     "overlap": "raccoon poop in the yard",
+     "resolution": "link both ways"
+    },
+    {
+     "path": "animal-droppings (new)",
+     "overlap": "a raccoon row",
+     "resolution": "that page keeps a short row and links here"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2
+  },
+  {
+   "slug": "bat-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "bat poop",
+   "alsoTargets": [
+    "bat droppings",
+    "bat guano in attic",
+    "bat poop vs mouse poop",
+    "what does bat poop look like",
+    "bat poop on siding"
+   ],
+   "h1Hint": "Bat Poop: What Bat Droppings (Guano) Look Like and Whether They Are Dangerous",
+   "metaTitleHint": "Bat Poop: What Bat Droppings Look Like (Photos)",
+   "scope": "What bat droppings look like (piles under a roost or entry point that crumble to powder with shiny insect bits; fresh guano can show white specks, ICWDM, BCI), bat poop vs mouse poop (hard and scattered), where it turns up (attic floor, siding, windows, porch), whether it is dangerous (CDC: histoplasmosis from soil or droppings disturbed in enclosed spaces, and rabies from bats themselves, not droppings), and cleanup only as CDC/NIOSH give it. Bat guano as fertilizer: one line. Bats are protected in many US states and Canadian provinces: say so from a wildlife agency and send readers to a licensed wildlife professional for exclusion; never advise harming bats.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "animal-droppings (new)",
+     "overlap": "a bat row",
+     "resolution": "that page keeps a short row and links here"
+    },
+    {
+     "path": "animals-in-attic (new)",
+     "overlap": "bats in the attic",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2
+  },
+  {
+   "slug": "mouse-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "keyword": "mouse poop",
+   "alsoTargets": [
+    "mouse droppings",
+    "what does mouse poop look like",
+    "mice poop",
+    "mice droppings",
+    "mouse poop vs rat poop",
+    "is mouse poop dangerous",
+    "mouse poop pictures"
+   ],
+   "h1Hint": "Mouse Poop: What Mouse Droppings Look Like, Next to Rat, Bat and Roach Droppings",
+   "metaTitleHint": "Mouse Poop: What Mouse Droppings Look Like",
+   "scope": "US edition, written fresh from US sources (CDC on cleanup, hantavirus and LCMV; Nebraska Extension; Cornell), not a conversion of the Canadian page. Mouse droppings are 1/8 to 1/4 inch long, one or both ends pointed, scattered along walls rather than piled (Nebraska). Sections: what it looks like, how big, fresh or old, mouse vs rat poop (short, link rat-droppings), mouse vs bat, roach and lizard droppings, where you find it, is it dangerous, how to clean it up by CDC guidance, what to do next. No retailer links (US guide). Cleanup and health only from CDC or a state health department, at their strength (CDC rodent cleanup: air the space out, gloves, soak with disinfectant or 1.5 cups of bleach per gallon for 5 minutes, wipe with paper towels, never sweep or vacuum).",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "pairWith": "/blog/what-does-mouse-poop-look-like-canada",
+   "collisions": [
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "the Canadian edition (earns on amazon.ca)",
+     "resolution": "regional pair: add { us: \"/blog/mouse-poop\", ca: \"/blog/what-does-mouse-poop-look-like-canada\" } to REGIONAL_PAIRS at release; do not merge; written fresh from US sources"
+    },
+    {
+     "path": "rat-droppings (new)",
+     "overlap": "mouse vs rat poop",
+     "resolution": "rat-droppings owns the comparison; summarize here in a section and link"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2
+  },
+  {
+   "slug": "squirrel-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "squirrel poop",
+   "alsoTargets": [
+    "what does squirrel poop look like",
+    "squirrel poop vs rat poop",
+    "squirrel droppings",
+    "squirrel poop vs mouse poop",
+    "squirrel poop in attic"
+   ],
+   "h1Hint": "Squirrel Poop: What Squirrel Droppings Look Like, Next to Rat and Mouse Poop",
+   "metaTitleHint": "Squirrel Poop: What It Looks Like (Photos)",
+   "scope": "What squirrel poop looks like (sizes only from a source; flag what is unsourced), squirrel vs rat poop, squirrel vs mouse poop, flying squirrel latrines in attics (ICWDM), where it turns up (attic, porch, deck, car), whether it is a health hazard (CDC or a state health department only; CDC does not name squirrels as hantavirus carriers, so make no such claim), cleanup by the CDC rodent method, then animals-in-attic.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "animal-droppings (new)",
+     "overlap": "a squirrel row",
+     "resolution": "that page keeps a short row and links here"
+    },
+    {
+     "path": "rat-droppings (new)",
+     "overlap": "rat vs squirrel poop",
+     "resolution": "both keep a short comparison; link both ways"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2
+  },
+  {
+   "slug": "possum-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "possum poop",
+   "alsoTargets": [
+    "opossum poop",
+    "possum droppings",
+    "possum poop vs raccoon poop",
+    "is possum poop dangerous"
+   ],
+   "h1Hint": "Possum Poop: What Opossum Droppings Look Like, and Possum or Raccoon?",
+   "metaTitleHint": "Possum Poop: What Opossum Droppings Look Like",
+   "scope": "The Virginia opossum of North America (not the Australian possum: say so once). What possum poop looks like (sizes only from a source), possum or raccoon, where possums poop (under decks, in garages, near pet food), whether it is dangerous to people and dogs (CDC or a state health department only), cleanup, and what to do next.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "animal-droppings (new)",
+     "overlap": "an opossum row",
+     "resolution": "that page keeps a short row and links here"
+    },
+    {
+     "path": "raccoon-poop (new)",
+     "overlap": "possum or raccoon",
+     "resolution": "both keep a short comparison; link both ways"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2
+  },
+  {
+   "slug": "bed-bug-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "bed-bugs",
+   "keyword": "bed bug poop",
+   "alsoTargets": [
+    "bed bug droppings",
+    "what does bed bug poop look like",
+    "bed bug poop stains",
+    "bed bug poop on walls",
+    "bed bug poop on sheets",
+    "bed bug poop vs flea poop"
+   ],
+   "h1Hint": "Bed Bug Poop: What Bed Bug Droppings and Stains Look Like",
+   "metaTitleHint": "Bed Bug Poop: What the Stains Look Like (Photos)",
+   "scope": "US edition, written fresh. Bed bug droppings are ink-dot spots that soak into fabric like a marker and smear red-brown when dampened; cockroach specks sit on top and stay dark (EPA, Tennessee, Virginia: already cited on what-do-bed-bugs-look-like and signs-of-bed-bugs-checklist). Sections: what it looks like on sheets, mattress, wood, walls and plastic; the damp-swab test; what else leaves spots like these; what finding it means; washing the stains out; is it dangerous.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "mustLink": [
+    "/learn/bed-bugs"
+   ],
+   "pairWith": "/blog/bed-bug-stains-poop-droppings-canada",
+   "collisions": [
+    {
+     "path": "/blog/bed-bug-stains-poop-droppings-canada",
+     "overlap": "the Canadian edition",
+     "resolution": "regional pair: add it to REGIONAL_PAIRS at release; repoint signs-of-bed-bugs-checklist and what-do-bed-bugs-look-like to this page at release"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2
+  },
+  {
+   "slug": "mouse-urine",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "audience": "na",
+   "keyword": "mouse urine",
+   "alsoTargets": [
+    "mouse pee",
+    "what does mouse pee smell like",
+    "mouse urine under black light",
+    "mouse urine stains",
+    "how to get rid of mouse urine smell"
+   ],
+   "h1Hint": "Mouse Urine: What Mouse Pee Looks and Smells Like, and How to Find It",
+   "metaTitleHint": "Mouse Urine: Stains, Smell and UV Glow",
+   "scope": "What mouse urine looks like, what it smells like, whether it glows under a black light (a UV light shows many things, not only urine: say so from a source), urine pillars and rub marks, whether it is harmful (CDC), how to clean it and the smell by CDC guidance, clothes, carpets and car vents, what to do next.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 900,
+   "minExisting": 2,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "mouse-poop (new)",
+     "overlap": "signs of mice",
+     "resolution": "link both ways"
+    }
+   ],
+   "family": "droppings",
    "priority": 2
   }
  ]
