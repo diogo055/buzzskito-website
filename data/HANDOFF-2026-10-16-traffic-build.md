@@ -19,6 +19,33 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 20 AFTERNOON — STATE (read this first on Oct 21):**
+  LIVE today: boric acid bait links (0383f08c); 3 bed bug + 6 tick retrofits with sourced corrections
+  (00e3f1d0, bd036052); TOP BOX on 214 product+remedy pages (c86dbc38, owner: "every page applicable", no test;
+  realistic +10-25% Amazon clicks there, told plainly it is not 8x); PAGE KEEPER in app/layout.tsx head
+  (e2015417: Google folded blank/crash renders into other Next.js sites, 7 of 105 fresh guides); photo batch 7
+  (e028f4c9, 383 photos); BUG BITE IDENTIFIER /tools/bug-bite-identifier (40322d34); RELEASE 1: rat-droppings,
+  termite-damage, termite-droppings, how-to-get-rid-of-cockroaches (US; hreflang pair with the Canadian page;
+  the cockroach pillar links both) (35406ed6, deploy success 13:08 UTC). Request indexing used 10 of ~10 today
+  (bug-bites, baby-mice, field-mice AM; the 7 folded pages after the keeper went live): TOMORROW request the 4
+  new pages + best-cockroach-killer-canada (Discovered, not indexed), then each new release.
+  IN FLIGHT (content/guides-scheduled/, untracked until released): checkers on tiny-brown-bugs, beetles-in-house,
+  moths-in-house and animals-in-attic, holes-in-yard, animal-droppings; writers on millipedes + earwigs +
+  silverfish, raccoon-poop + bat-poop, cockroach-droppings + mouse-poop (lead = PD insect/animal photo, droppings
+  photos CC BY/BY-SA right after: no PD/CC0 droppings photo exists), flies-in-house + how-to-get-rid-of-gnats,
+  kissing-bug-look-alikes + black-spiders, bed-bug-poop. NOT STARTED: houseplant-bugs; squirrel-poop and
+  possum-poop (no reliable droppings photo), mouse-urine (needs the NPS Conserve O Gram photo: add an NPS source
+  type to scripts/god-build-photos.mjs). Held to after Oct 30: drain flies, boxelder US twins.
+  AT RELEASE: mouse-poop and bed-bug-poop need REGIONAL_PAIRS entries + withRegionalAlternates on their Canadian
+  pages; every family releases together (siblings satisfy the 1-inbound-link gate); then a link-in round
+  (LINK_IN_BRIEF.md): pillar-mice -> rat-droppings; flying-ants-vs-termites -> both termite pages; the 9 other
+  cockroach guides still link only the Canadian how-to (owner's call whether to repoint); tiny-black-bugs,
+  pantry-pests, bugs-in-house-in-winter -> the household roundups. Plan clean-ups the writers asked for: drop the
+  Dec 28 clothes-moths page (moths-in-house covers it); drop "beetles in house in winter" from beetles-in-house.
+  Validator: icwdm.org and batcon.org now accepted; /tools/ links allowed from guides.
+  Amazon analysis: data/amazon/reverse-engineering-2026-10-20.md (page type decides: product ~275 clicks per
+  1,000 CA views, remedy ~157, info ~18; no Amazon boxes on info pages). Foreign-canonical report:
+  data/god-build/research/foreign-canonical.md (weekly inspection sweep script in the scratchpad fc-scripts/).
 - **TUESDAY OCT 20 — THE ORDER (set Oct 19 late; serve the month's goal in data/god-build/goal-2027.md first):**
   OWNER (morning, with him): (a) Anthropic API key walkthrough (he pastes it into Vercel himself);
   (b) Search Console Request indexing in his Chrome (3 hubs, does-vinegar-kill-ants, how-long-do-ants-live,
