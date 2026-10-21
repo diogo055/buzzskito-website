@@ -1,0 +1,10 @@
+{
+ "id": "signs-of-cockroaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "9f8ff9f1259a4bcc67ed5084da018417fd02358bfdbc55588b6e9cc5021a943f",
+ "claimsChecked": 331,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-21"
+}
