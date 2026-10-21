@@ -74,7 +74,7 @@
 - 150+ pages (city pages, neighbourhood pages, blog posts, service pages)
 - IndexNow installed (buzzskito.ca/api/indexnow)
 - llms.txt for AI crawlers
-- robots.txt allows: OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot. Blocks: GPTBot, CCBot.
+- robots.txt (`app/robots.ts`) allows OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot and, since Jul 16, 2026 (owner decision), the training bots GPTBot and CCBot. Only `/api/` is disallowed. AI-search findings (Oct 21, 2026): `reports/ChatGPT shopping and citation opportunity.md`; tool review: `reports/GitHub SEO tools for BuzzSkito.md`.
 - GSC MCP server connected (sc-domain:buzzskito.ca)
 - Schema: LocalBusiness + Service + FAQ + HowTo + Speakable + AggregateRating on every page
 
