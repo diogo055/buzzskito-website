@@ -26,6 +26,8 @@
 
 - `/blog/bed-bug-poop` — **bed bug poop** (also: bed bug droppings; what does bed bug poop look like; bed bug poop stains; bed bug poop on walls; bed bug poop on sheets; bed bug poop vs flea poop). US edition, written fresh. Bed bug droppings are ink-dot spots that soak into fabric like a marker and smear red-brown when dampened; cockroach specks sit on top and stay dark (EPA, Tennessee, Virginia: already cited on what-do-bed-bugs-look-like and signs-of-bed-bugs-checklist). Sections: what it looks like on sheets, mattress, wood, walls and plastic; the damp-swab test; what else leaves spots like these; what finding it means; washing the stains out; is it dangerous.
 
+- `/blog/bed-bug-bites-but-no-bed-bugs` — **no signs of bed bugs but i have bites** (also: bed bug bites but no bed bugs; bites but no bed bugs; what is biting me at night if not bed bugs; what else bites at night; bites but can't find bed bugs). For the reader with itchy bites who has looked and found no bed bugs. First, whether it can still be bed bugs (they hide in seams and cracks by day, early infestations are small, and reactions vary and can take days to show: CDC, AAD, EPA), with how to check properly (/blog/signs-of-bed-bugs-checklist; interceptor traps). Then what else bites at night or indoors, each with a bite photo, the pattern, where on the body and the clue that points to it: fleas (ankles and lower legs; pets or wildlife), mosquitoes, bird and rodent mites (after a nest is removed or a rodent dies), bat and swallow bugs, chiggers and no-see-ums picked up outdoors, and spiders (rarely); then what is not a bite at all (scabies, carpet beetle larval hairs, skin conditions, irritants such as fiberglass, dry skin: CDC and UC IPM's itching guide). Get a specimen identified (a county extension office) before treating, why spraying for an unidentified biter does not help, and when to see a doctor (CDC, AAD, Mayo Clinic or Cleveland Clinic at their strength). Never diagnose: bites alone rarely name the biter, and CDC says bites cannot confirm bed bugs. Link /learn/bug-bites and /tools/bug-bite-identifier for the general "what bit me" search; the "invisible bugs biting me" searches stay with /blog/no-see-um-bites.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -426,6 +428,10 @@
 - `/blog/squirrel-poop` — squirrel poop
 - `/blog/possum-poop` — possum poop
 - `/blog/mouse-urine` — mouse urine
+- `/blog/signs-of-carpet-beetles` — signs of carpet beetles
+- `/blog/signs-of-cockroaches` — signs of cockroaches
+- `/blog/oriental-cockroaches` — oriental cockroach
+- `/blog/white-cockroach` — white cockroach
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

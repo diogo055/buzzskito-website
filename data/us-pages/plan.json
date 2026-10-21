@@ -21345,14 +21345,14 @@
     "health"
    ],
    "minWords": 900,
-   "datePublished": "2026-11-02",
+   "datePublished": "2026-10-21",
    "projClicks": 0,
    "batch": "god",
    "audience": "na",
    "role": "page",
    "series": null,
    "state": null,
-   "releaseOn": "2026-11-02",
+   "releaseOn": "2026-10-21",
    "parent": {
     "href": "/learn/mice",
     "name": "Mice"
@@ -21378,6 +21378,447 @@
     "category": null,
     "mustLink": [
      "/learn/mice"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "signs-of-carpet-beetles",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "household",
+   "path": "/blog/signs-of-carpet-beetles",
+   "keyword": "signs of carpet beetles",
+   "alsoTargets": [
+    "signs of carpet beetles in bed",
+    "mattress signs of carpet beetles",
+    "signs of carpet beetle infestation",
+    "carpet beetle shed skin",
+    "carpet beetle damage",
+    "carpet beetle droppings"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-10-21",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-21",
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "h1Hint": "Signs of Carpet Beetles: Larvae, Shed Skins, Damage and Where to Look",
+   "scope": "The signs page for carpet beetles, sign first and beetle second, each sign with a photo, its size from a source and where it turns up: adults at windowsills in spring (a hint, not proof), the bristly larvae, their brown shed (cast) skins, fecal pellets about the size of a grain of salt, and the damage (a large grazed or thinned patch with holes and no webbing) in wool, fur, felt, silk, feathers and pet hair. Signs in a bed or on a mattress (larvae and skins in seams and under the bed; the itchy bumps larval hairs can cause, linked to carpet-beetle-rash once live) set against bed bug signs (/blog/signs-of-bed-bugs-checklist) and clothes moth damage (/blog/moths-in-house). Where to look (closets and stored wool, carpet edges and under furniture, vents and ducts, pet bedding, bird nests and dead insects), what each sign means (one adult that flew in, or larvae breeding indoors), then the next step: /blog/how-to-get-rid-of-carpet-beetles for removal, no product advice here. Not a second how-to: the head term, \"carpet beetle larvae\" and removal stay with the how-to.",
+   "dataPacket": null,
+   "metaTitleHint": "Signs of Carpet Beetles: Larvae, Skins, Damage",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-carpet-beetles",
+     "overlap": "the live US how-to: section \"How do you know if you have carpet beetles?\" and a \"Signs of carpet beetles\" row; it targets \"carpet beetles\", \"carpet beetle larvae\", \"carpet beetles in house\" and \"how to get rid of carpet beetles in bed\"",
+     "resolution": "keeps the head term, the larvae search, removal and its short signs section; this page takes the signs searches, sends removal there and links it both ways; never target \"carpet beetle(s)\" or \"carpet beetle larvae\" here"
+    },
+    {
+     "path": "carpet-beetle-rash (new)",
+     "overlap": "the itchy bumps larval hairs can cause, one of the bed and mattress signs (scheduled 2026-12-14)",
+     "resolution": "one short paragraph here that links the rash page once it is live; the rash page keeps the skin reaction"
+    },
+    {
+     "path": "/blog/signs-of-bed-bugs-checklist",
+     "overlap": "mattress signs (shed skins, spots, eggs) of the other bed pest",
+     "resolution": "link both ways for \"bed bugs or carpet beetles?\"; each page keeps its own pest"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-bed-bugs",
+     "overlap": "section \"How do carpet beetles and their larvae differ from bed bugs?\"",
+     "resolution": "keeps the look-alike comparison; link"
+    },
+    {
+     "path": "/blog/moths-in-house",
+     "overlap": "clothes moth larvae and damage (webbing, cases, scattered holes)",
+     "resolution": "keeps clothes moths; this page contrasts the damage in a line or two and links there"
+    },
+    {
+     "path": "/blog/beetles-in-house",
+     "overlap": "the little black beetle (black carpet beetle) and larder beetle entries",
+     "resolution": "keeps the beetle sorter; link"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-carpet-beetles-canada",
+     "overlap": "the Canadian edition of the how-to, where Google sends most carpet beetle queries today (1,297 impressions in 90 days at 12.9), with its own what-are-you-seeing table",
+     "resolution": "no change; link the US how-to, not this one"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "signs-of-cockroaches",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/signs-of-cockroaches",
+   "keyword": "signs of cockroaches",
+   "alsoTargets": [
+    "cockroach infestation",
+    "signs of roaches",
+    "signs of a cockroach infestation",
+    "what do cockroaches smell like",
+    "roach smell",
+    "what does a cockroach infestation look like"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "datePublished": "2026-10-21",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-21",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "Signs of Cockroaches: How to Tell If You Have a Cockroach Infestation",
+   "scope": "The signs page for the cockroach family, sign first: live roaches (and what seeing them by day may mean, only as the sources put it), pepper-like droppings and smear marks, egg cases, shed skins and pale freshly molted roaches, dead roaches, and the smell (what cockroaches smell like: the musty odor of heavy infestations, only as the sources describe it), each with a photo, its size from a source and where it turns up (kitchen and bathroom cabinets, behind and under appliances, under sinks; drains, basements and crawl spaces for the large species). How to confirm and size an infestation with sticky traps (the University of Florida's reading of trap catches), whether one roach means an infestation, signs by species (German and brown-banded indoors; American and Oriental from drains and outdoors), and signs mistaken for roaches (mouse droppings, bed bug spots, drywood termite pellets). A short section and a link for each sibling (/blog/cockroach-droppings, /blog/cockroach-eggs, /blog/what-do-baby-cockroaches-look-like, and white-cockroach and oriental-cockroaches once live), not a rewrite of them. Health (allergens and asthma) from EPA, CDC or a health department at their strength; control goes to /blog/how-to-get-rid-of-cockroaches, no product advice here.",
+   "dataPacket": null,
+   "metaTitleHint": "Signs of Cockroaches: Droppings, Smell, Eggs",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "section \"What are the signs of a cockroach infestation?\"",
+     "resolution": "the pillar keeps a short summary and links here (mustLink); this page is the full signs page"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-cockroaches",
+     "overlap": "section \"What are the signs of roaches, and how bad is the infestation?\" (sizing with sticky traps)",
+     "resolution": "keeps its short sizing section as the first step of control; this page owns \"signs of cockroaches\" and \"cockroach infestation\" and sends treatment there"
+    },
+    {
+     "path": "/blog/cockroach-droppings",
+     "overlap": "droppings and smear marks, and the FAQ \"Does cockroach poop smell?\"",
+     "resolution": "droppings get one short section here that links there; the smell search (\"what do cockroaches smell like\") is this page's; link both ways"
+    },
+    {
+     "path": "/blog/cockroach-eggs",
+     "overlap": "egg cases as a sign",
+     "resolution": "one short section here and a link; link both ways"
+    },
+    {
+     "path": "/blog/what-do-baby-cockroaches-look-like",
+     "overlap": "nymphs and pale freshly molted roaches as signs",
+     "resolution": "a short mention here and a link"
+    },
+    {
+     "path": "/blog/where-do-cockroaches-come-from",
+     "overlap": "section \"Is it one stray or an infestation?\"",
+     "resolution": "keeps it; link"
+    },
+    {
+     "path": "white-cockroach (new)",
+     "overlap": "shed skins and freshly molted roaches",
+     "resolution": "same batch; link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "bed-bug-bites-but-no-bed-bugs",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "bed-bugs",
+   "path": "/blog/bed-bug-bites-but-no-bed-bugs",
+   "keyword": "no signs of bed bugs but i have bites",
+   "alsoTargets": [
+    "bed bug bites but no bed bugs",
+    "bites but no bed bugs",
+    "what is biting me at night if not bed bugs",
+    "what else bites at night",
+    "bites but can't find bed bugs"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "datePublished": "2026-10-21",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-21",
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "h1Hint": "No Signs of Bed Bugs but You Have Bites? What Else Bites at Night",
+   "scope": "For the reader with itchy bites who has looked and found no bed bugs. First, whether it can still be bed bugs (they hide in seams and cracks by day, early infestations are small, and reactions vary and can take days to show: CDC, AAD, EPA), with how to check properly (/blog/signs-of-bed-bugs-checklist; interceptor traps). Then what else bites at night or indoors, each with a bite photo, the pattern, where on the body and the clue that points to it: fleas (ankles and lower legs; pets or wildlife), mosquitoes, bird and rodent mites (after a nest is removed or a rodent dies), bat and swallow bugs, chiggers and no-see-ums picked up outdoors, and spiders (rarely); then what is not a bite at all (scabies, carpet beetle larval hairs, skin conditions, irritants such as fiberglass, dry skin: CDC and UC IPM's itching guide). Get a specimen identified (a county extension office) before treating, why spraying for an unidentified biter does not help, and when to see a doctor (CDC, AAD, Mayo Clinic or Cleveland Clinic at their strength). Never diagnose: bites alone rarely name the biter, and CDC says bites cannot confirm bed bugs. Link /learn/bug-bites and /tools/bug-bite-identifier for the general \"what bit me\" search; the \"invisible bugs biting me\" searches stay with /blog/no-see-um-bites.",
+   "dataPacket": null,
+   "metaTitleHint": "No Signs of Bed Bugs but Bites? Other Causes",
+   "pageType": "bite-sting",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/bed-bug-bites",
+     "overlap": "section \"What else could have bitten you?\" and the FAQ \"Can you have bed bugs without getting bites?\"",
+     "resolution": "keeps the bed bug bite pictures and its short section; this page takes the \"no bed bugs found\" searches; link both ways"
+    },
+    {
+     "path": "/blog/flea-bites-on-humans",
+     "overlap": "section \"What is biting me at night, if it's not bed bugs?\" (a seven-row table) and the FAQ of the same name",
+     "resolution": "stays for now; trimming it to a short summary that links here is a separate edit that fits the pending taxonomy upgrade of that page (move its bed bug sections out); it carries Amazon links, so the affiliate integrity protocol applies"
+    },
+    {
+     "path": "/learn/bug-bites",
+     "overlap": "\"What if you still cannot tell what bit you?\", \"What else can look like a bug bite?\" and the FAQ \"What bit me in my sleep?\"; it targets \"what bit me\"",
+     "resolution": "keeps the bite photo chart and \"what bit me\"; this page goes deeper on the bed-bug-negative case; link both ways"
+    },
+    {
+     "path": "/tools/bug-bite-identifier",
+     "overlap": "FAQ \"Why do I have bites but cannot find any bugs?\"",
+     "resolution": "link the tool as a next step; the tool keeps its FAQ"
+    },
+    {
+     "path": "/blog/signs-of-bed-bugs-checklist",
+     "overlap": "how to check a bed properly; FAQ \"Can you have bed bugs and not have bites?\"",
+     "resolution": "link it for the inspection; that page keeps the checklist"
+    },
+    {
+     "path": "/blog/no-see-um-bites",
+     "overlap": "holds the \"invisible bugs biting me\" searches (16 impressions at about position 2.8 in 90 days)",
+     "resolution": "keeps them; no-see-ums get one short entry here that links there; do not target \"invisible bugs\" here"
+    },
+    {
+     "path": "scabies-vs-bed-bugs (new)",
+     "overlap": "scabies, the night itch most often blamed on bed bugs (scheduled 2026-12-14)",
+     "resolution": "one short entry here that links it once live; that page keeps the comparison"
+    },
+    {
+     "path": "bird-mites (new)",
+     "overlap": "bird and rodent mite bites after a nest is removed (scheduled 2027-02-01)",
+     "resolution": "one short entry here that links it once live"
+    },
+    {
+     "path": "bat-bugs (new)",
+     "overlap": "bat bug and swallow bug bites after bats or birds leave (scheduled 2026-12-14)",
+     "resolution": "one short entry here that links it once live"
+    },
+    {
+     "path": "carpet-beetle-rash (new)",
+     "overlap": "larval hairs mistaken for bites (scheduled 2026-12-14)",
+     "resolution": "one short entry here that links it once live"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/bed-bugs"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "oriental-cockroaches",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/oriental-cockroaches",
+   "keyword": "oriental cockroach",
+   "alsoTargets": [
+    "big black cockroach",
+    "oriental cockroaches",
+    "black cockroach",
+    "oriental cockroach vs american cockroach"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "datePublished": "2026-10-21",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-21",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "Oriental Cockroaches: The Big Black Roach in Basements and Drains",
+   "scope": "Blatta orientalis for US readers, identification first: a shiny dark brown to black roach about 1 to 1 1/4 inches long, males with wings covering part of the abdomen and females with short wing pads, neither able to fly (sizes and wing details only from extension sources), then the \"big black cockroach\" question: how it differs from the American, smokybrown and Turkestan cockroaches and from black ground beetles (look-alike cards). Where it lives and why it comes inside (damp basements, crawl spaces, drains, water meter boxes, mulch and leaf litter; a slow insect of low places, rarely on walls or upper floors; may move indoors in dry spells, per Penn State), when it is active, the egg case and nymphs (/blog/cockroach-eggs, /blog/what-do-baby-cockroaches-look-like), signs (signs-of-cockroaches once live), health risks at the sources' strength (allergens and asthma from EPA; carried organisms only as Penn State or another extension source puts them), and what to do: fix moisture, seal entry points, bait (/blog/how-to-get-rid-of-cockroaches; no product advice here). The \"water bug\" nickname gets one short paragraph that links /blog/water-bugs-vs-cockroaches; whether it flies gets one FAQ that links /blog/can-cockroaches-fly.",
+   "dataPacket": null,
+   "metaTitleHint": "Oriental Cockroach: The Big Black Roach (Photos)",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/water-bugs-vs-cockroaches",
+     "overlap": "the Oriental cockroach as the \"waterbug\" of basements and drains: its quick answer, ID table, \"Which cockroaches do people call water bugs?\" and the FAQ \"Why do I keep finding Oriental cockroaches in my basement?\"",
+     "resolution": "keeps \"water bugs vs cockroaches\" and the giant water bug angle; this page owns \"oriental cockroach\" and \"big black cockroach\", gives the nickname one short paragraph and links there; link both ways"
+    },
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "h3 \"Oriental cockroach\" in the species section",
+     "resolution": "keeps its short species entry and links here (mustLink)"
+    },
+    {
+     "path": "/blog/palmetto-bugs",
+     "overlap": "h3 \"What about the brown and Oriental cockroaches?\"; winners-gap also suggests adding \"big cockroach\" to that page",
+     "resolution": "keeps the palmetto bug and American cockroach searches (and \"big cockroach\" if that upgrade is made); \"big black cockroach\" is this page's; link both ways"
+    },
+    {
+     "path": "/blog/can-cockroaches-fly",
+     "overlap": "gets 13 of the impressions for \"oriental\" queries (\"can oriental cockroaches fly\", position 8.8)",
+     "resolution": "keeps the flying question and its species table; this page answers it in one FAQ and links there"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-cockroaches",
+     "overlap": "h3 \"Oriental cockroach, the one called a water bug\" and the section on big roaches from outdoors",
+     "resolution": "keeps control; this page sends control there"
+    },
+    {
+     "path": "/blog/cockroach-eggs",
+     "overlap": "h3 \"Oriental cockroach egg cases\"",
+     "resolution": "keeps it; link"
+    },
+    {
+     "path": "/blog/what-do-baby-cockroaches-look-like",
+     "overlap": "h3 \"Oriental cockroach nymphs\"",
+     "resolution": "keeps it; link"
+    },
+    {
+     "path": "/blog/where-do-cockroaches-come-from",
+     "overlap": "Oriental cockroaches moving indoors in dry spells and coming up from drains",
+     "resolution": "keeps the entry routes; link"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches"
+    ],
+    "neighbors": [],
+    "minNeighbors": 0,
+    "seriesAll": []
+   }
+  },
+  {
+   "slug": "white-cockroach",
+   "kind": "spoke",
+   "section": "blog",
+   "cluster": "cockroaches",
+   "path": "/blog/white-cockroach",
+   "keyword": "white cockroach",
+   "alsoTargets": [
+    "albino cockroach",
+    "albino roach",
+    "white roach",
+    "white baby cockroach"
+   ],
+   "ranks": [],
+   "type": "informational",
+   "flags": [
+    "id"
+   ],
+   "minWords": 900,
+   "datePublished": "2026-10-21",
+   "projClicks": 0,
+   "batch": "god",
+   "audience": "na",
+   "role": "page",
+   "series": null,
+   "state": null,
+   "releaseOn": "2026-10-21",
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "h1Hint": "White Cockroach: What a White or Albino Roach Really Is",
+   "scope": "Photo-ID page for the white roach someone just saw: a cockroach is white right after it molts and darkens as its new outer skin hardens, usually within hours (UC IPM), so it is an ordinary roach of its species, not a separate kind; say what the sources say about albino roaches, and nothing they do not. Which roaches you are likely to see white (nymphs of any species after a molt; German nymphs molt five to six times, per Rutgers), how long the white phase lasts, the shed skin left behind, what a white roach means (molting nymphs point to roaches breeding indoors: link signs-of-cockroaches once live), and the pale insects mistaken for one, as cards: termite workers, booklice, bed bug nymphs and young German cockroach nymphs. Then the next step: /blog/how-to-get-rid-of-cockroaches, no product advice here. /blog/what-do-baby-cockroaches-look-like keeps its short white-roach section and links here.",
+   "dataPacket": null,
+   "metaTitleHint": "White Cockroach: Is It an Albino Roach?",
+   "pageType": "entity-id",
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/what-do-baby-cockroaches-look-like",
+     "overlap": "section \"Why do some baby cockroaches look white?\" and a \"Color right after a molt\" row; takes the white-roach and \"white stripe\" nymph impressions today (11 in 90 days)",
+     "resolution": "keeps its short section and the white-stripe nymph searches and links here; \"white cockroach\" and \"albino roach\" are this page's"
+    },
+    {
+     "path": "signs-of-cockroaches (new)",
+     "overlap": "shed skins and freshly molted roaches as signs",
+     "resolution": "same batch; link both ways"
+    }
+   ],
+   "required": {
+    "pillar": null,
+    "ring": [],
+    "minSiblings": 0,
+    "minExisting": 2,
+    "category": null,
+    "mustLink": [
+     "/learn/cockroaches"
     ],
     "neighbors": [],
     "minNeighbors": 0,

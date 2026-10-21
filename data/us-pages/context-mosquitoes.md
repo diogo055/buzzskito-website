@@ -494,6 +494,11 @@
 - `/blog/possum-poop` — possum poop
 - `/blog/bed-bug-poop` — bed bug poop
 - `/blog/mouse-urine` — mouse urine
+- `/blog/signs-of-carpet-beetles` — signs of carpet beetles
+- `/blog/signs-of-cockroaches` — signs of cockroaches
+- `/blog/bed-bug-bites-but-no-bed-bugs` — no signs of bed bugs but i have bites
+- `/blog/oriental-cockroaches` — oriental cockroach
+- `/blog/white-cockroach` — white cockroach
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
