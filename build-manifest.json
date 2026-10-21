@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 171,
+  "newPagesBuilt": 178,
   "hubPages": 4,
-  "guides": 156,
+  "guides": 163,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 233,
-  "internalLinksInNewPages": 2210
+  "notBuilt": 231,
+  "internalLinksInNewPages": 2350
  },
  "pages": [
   {
@@ -21,11 +21,11 @@
    "kind": "pillar",
    "cluster": "bed-bugs",
    "title": "Bed Bugs: Identification, Signs and Treatment",
-   "wordCount": 5431,
+   "wordCount": 5467,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 14,
-   "outboundInternalLinks": 19,
+   "inboundFromNewPages": 15,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -40,7 +40,7 @@
    "wordCount": 3297,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -56,8 +56,24 @@
    "wordCount": 1947,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "no signs of bed bugs but i have bites",
+   "us_volume": null,
+   "url": "/blog/bed-bug-bites-but-no-bed-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "No Signs of Bed Bugs but I Have Bites? (Photos)",
+   "wordCount": 2397,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 32,
    "status": "built"
   },
   {
@@ -120,7 +136,7 @@
    "wordCount": 2379,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -152,7 +168,7 @@
    "wordCount": 2167,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -168,8 +184,24 @@
    "wordCount": 2098,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "mouse urine",
+   "us_volume": null,
+   "url": "/blog/mouse-urine",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mouse Urine: Stains, Smell and UV Glow",
+   "wordCount": 2095,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -181,11 +213,11 @@
    "kind": "pillar",
    "cluster": "cockroaches",
    "title": "Cockroaches: Species, Health Risks and Control",
-   "wordCount": 5109,
+   "wordCount": 5139,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 17,
-   "outboundInternalLinks": 20,
+   "inboundFromNewPages": 20,
+   "outboundInternalLinks": 21,
    "status": "built"
   },
   {
@@ -200,7 +232,7 @@
    "wordCount": 2412,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -213,11 +245,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "What Do Cockroach Eggs Look Like? (Photos)",
-   "wordCount": 2517,
+   "wordCount": 2549,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -229,10 +261,10 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Cockroach Poop: ID Roach Droppings (Photos)",
-   "wordCount": 1733,
+   "wordCount": 1734,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -248,8 +280,56 @@
    "wordCount": 3056,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 15,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "signs of cockroaches",
+   "us_volume": null,
+   "url": "/blog/signs-of-cockroaches",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Signs of Cockroaches: Droppings, Smell, Eggs",
+   "wordCount": 2371,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 19,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "oriental cockroach",
+   "us_volume": null,
+   "url": "/blog/oriental-cockroaches",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Oriental Cockroach: The Big Black Roach (Photos)",
+   "wordCount": 2203,
+   "faqs": 10,
+   "sources": 11,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "white cockroach",
+   "us_volume": null,
+   "url": "/blog/white-cockroach",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "White Cockroach: Is It an Albino Roach? (Photos)",
+   "wordCount": 1755,
+   "faqs": 10,
+   "sources": 16,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -869,11 +949,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Venomous Spiders in the US by State (Photos)",
-   "wordCount": 3140,
+   "wordCount": 3171,
    "faqs": 6,
    "sources": 18,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 18,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -888,7 +968,7 @@
    "wordCount": 2514,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1016,7 +1096,7 @@
    "wordCount": 2127,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -1032,7 +1112,7 @@
    "wordCount": 2554,
    "faqs": 10,
    "sources": 6,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1048,7 +1128,7 @@
    "wordCount": 2421,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1080,7 +1160,7 @@
    "wordCount": 3180,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1093,11 +1173,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "House Centipede: Bites, ID and Control (Photos)",
-   "wordCount": 2843,
+   "wordCount": 2866,
    "faqs": 5,
    "sources": 13,
    "inboundFromNewPages": 3,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -1125,11 +1205,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Carpet Beetles (Photos): How to Get Rid of Them",
-   "wordCount": 2931,
+   "wordCount": 2963,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 15,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -1192,7 +1272,7 @@
    "wordCount": 2366,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1208,7 +1288,7 @@
    "wordCount": 2172,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -1224,7 +1304,7 @@
    "wordCount": 2642,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1237,11 +1317,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny Black Bugs in the House? ID Them (Photos)",
-   "wordCount": 2727,
+   "wordCount": 2758,
    "faqs": 6,
    "sources": 15,
    "inboundFromNewPages": 10,
-   "outboundInternalLinks": 18,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -1269,11 +1349,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in House in Winter: What They Are (Photos)",
-   "wordCount": 2880,
+   "wordCount": 2957,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 22,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 24,
    "status": "built"
   },
   {
@@ -1304,7 +1384,7 @@
    "wordCount": 2662,
    "faqs": 10,
    "sources": 9,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1320,7 +1400,7 @@
    "wordCount": 2591,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1336,7 +1416,7 @@
    "wordCount": 2218,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -1368,8 +1448,24 @@
    "wordCount": 1788,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "signs of carpet beetles",
+   "us_volume": null,
+   "url": "/blog/signs-of-carpet-beetles",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Signs of Carpet Beetles: Skins, Larvae (Photos)",
+   "wordCount": 2181,
+   "faqs": 10,
+   "sources": 14,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -1384,7 +1480,7 @@
    "wordCount": 3942,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 44,
    "status": "built"
   },
@@ -1400,7 +1496,7 @@
    "wordCount": 2066,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1432,7 +1528,7 @@
    "wordCount": 1761,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -1448,7 +1544,7 @@
    "wordCount": 1973,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1464,8 +1560,24 @@
    "wordCount": 2184,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "squirrel poop",
+   "us_volume": null,
+   "url": "/blog/squirrel-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Squirrel Poop: What It Looks Like (Photos)",
+   "wordCount": 1984,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -1493,11 +1605,11 @@
    "kind": "spoke",
    "cluster": "garden",
    "title": "Natural Garden Pest Control: A Seasonal Plan",
-   "wordCount": 5076,
+   "wordCount": 5109,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 8,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1509,11 +1621,11 @@
    "kind": "spoke",
    "cluster": "garden",
    "title": "How to Get Rid of Fungus Gnats: The 5-Step Plan",
-   "wordCount": 3568,
+   "wordCount": 3601,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 8,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -1541,11 +1653,11 @@
    "kind": "spoke",
    "cluster": "garden",
    "title": "How to Get Rid of Whiteflies: 6 Natural Controls",
-   "wordCount": 5236,
+   "wordCount": 5266,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 6,
-   "outboundInternalLinks": 6,
+   "outboundInternalLinks": 7,
    "status": "built"
   },
   {
@@ -1576,7 +1688,7 @@
    "wordCount": 2590,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3192,22 +3304,8 @@
   },
   {
    "rank": null,
-   "keyword": "squirrel poop",
-   "url": "/blog/squirrel-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "possum poop",
    "url": "/blog/possum-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "mouse urine",
-   "url": "/blog/mouse-urine",
    "action": "new",
    "status": "not built"
   },
@@ -3231,7 +3329,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3247,7 +3345,7 @@
    "wordCount": 2424,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3350,11 +3448,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Deer Mice: ID, Hantavirus Risk and Safe Cleanup",
-   "wordCount": 3292,
+   "wordCount": 3320,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 15,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3385,7 +3483,7 @@
    "wordCount": 2522,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -3398,11 +3496,11 @@
    "kind": "pillar",
    "cluster": "mice",
    "title": "Mice Control: Seal Up, Trap Up, Clean Up",
-   "wordCount": 5255,
+   "wordCount": 5280,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 31,
-   "outboundInternalLinks": 37,
+   "inboundFromNewPages": 33,
+   "outboundInternalLinks": 38,
    "status": "built"
   },
   {
@@ -3493,7 +3591,7 @@
    "wordCount": 2971,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3577,7 +3675,7 @@
    "wordCount": 3187,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3707,7 +3805,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3720,11 +3818,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Bugs That Look Like Cockroaches: 8 to Rule Out",
-   "wordCount": 2338,
+   "wordCount": 2365,
    "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3768,11 +3866,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bugs That Look Like Bed Bugs: How to Tell Apart",
-   "wordCount": 2591,
+   "wordCount": 2616,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 17,
-   "outboundInternalLinks": 16,
+   "inboundFromNewPages": 19,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -3821,7 +3919,7 @@
    "wordCount": 3994,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3934,11 +4032,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Mice Traps: CDC Advises Snap Traps, Not Glue",
-   "wordCount": 3202,
+   "wordCount": 3222,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 24,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 25,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -4041,7 +4139,7 @@
    "wordCount": 3187,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4065,7 +4163,7 @@
    "wordCount": 2363,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4359,7 +4457,7 @@
    "wordCount": 3056,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4593,7 +4691,7 @@
    "wordCount": 2219,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4667,7 +4765,7 @@
    "wordCount": 2862,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4699,7 +4797,7 @@
    "wordCount": 2936,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 10,
    "status": "built"
   }

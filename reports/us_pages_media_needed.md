@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-323 images across 133 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+338 images across 139 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -65,6 +65,12 @@
 - Bed bug fecal spots on a light-colored mattress seam or white sheet beside a ruler marked in inches, public domain or CC0, to serve as the lead and share image of this page
 - Bed bug fecal spots along a painted baseboard or at a ceiling-wall joint in a US home, close enough to see single dots, with a ruler marked in inches for scale
 - The wet-tissue test: a black bed bug fecal spot on a white mattress cover wiped with a damp white tissue, showing the rusty smear, beside a German cockroach speck that stays dark, with a ruler marked in inches
+
+## /blog/bed-bug-bites-but-no-bed-bugs
+
+- Bed bug interceptor trap (a plastic pitfall dish) under the leg of a bed on a wood floor, close enough to see one or two trapped bed bugs, with a ruler marked in inches; public domain or CC0
+- Bird mites or tropical rat mites caught on a white sticky trap or crawling on a windowsill near a nest, beside a ruler marked in inches; public domain or CC0, identified by an entomologist
+- Carpet beetle dermatitis: bite-like red bumps on the skin of an arm or torso from a case where carpet beetle larvae were found and identified, with the larva shown beside a ruler marked in inches; public domain or CC0
 
 ## /learn/ants
 
@@ -315,6 +321,12 @@
 - House mouse droppings beside a US dime and a ruler marked in inches, on a kitchen counter or in a drawer, identified by CDC or an extension service; public domain or CC0 so it can lead the page
 - Fresh and old house mouse droppings side by side beside a ruler marked in inches: the fresh ones dark and moist-looking, the old ones dull, gray and crumbling
 
+## /blog/mouse-urine
+
+- Dried mouse urine seen in ordinary light: small drops and streaks along a shelf, drawer bottom or baseboard in a US home, identified by an extension service or health department, beside a ruler marked in inches; public domain or CC0
+- Dark, greasy rub marks left by house mice along a baseboard or around a pipe hole in a US home, beside a ruler marked in inches, identified by an extension service or health department
+- Mouse urine pillars (small mounds of grease, urine and dirt) on a floor or shelf, photographed and identified by a health department or university, with a scale
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -382,6 +394,15 @@
 - Top-down photo of an adult male wood cockroach (Parcoblatta species) beside a ruler marked in inches, ideally on a porch, windowsill or firewood where people find it
 - Close-up photo of German cockroach droppings (pepper-like specks and dark smears) in the corner of a kitchen cabinet near a hinge, beside a ruler marked in inches
 - Photo of pea-sized dots of cockroach gel bait placed along a cabinet hinge and inside corner under a kitchen sink, with a ruler marked in inches for scale
+
+## /blog/signs-of-cockroaches
+
+- German cockroach fecal spotting and smear marks on a kitchen cabinet hinge, door edge or shelf corner, beside a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0
+- A German cockroach hiding place as a homeowner finds it (a cabinet corner, the gap behind a stove or refrigerator, or a door hinge) with droppings, shed skins and an egg case together, identified by an extension service or entomologist; public domain or CC0 so it can lead the page
+
+## /blog/white-cockroach
+
+- A freshly molted, still-white German cockroach nymph or adult beside a ruler marked in inches, identified to species by an entomologist or extension service; public domain or CC0 so it could lead the page
 
 ## /blog/how-to-get-rid-of-mosquitoes
 
@@ -631,6 +652,12 @@
 - Small pile of carpenter ant frass (coarse wood shavings with ant body parts) beside a pile of drywood termite pellets on a white surface, with a US dime for scale
 - Small pile of flour-like powderpost beetle frass below tiny round exit holes in a hardwood board, beside a US dime for scale
 
+## /blog/signs-of-carpet-beetles
+
+- Several adult carpet beetles on a sunny indoor windowsill in spring, photographed from above beside a US coin or a ruler marked in inches, identified to species; public domain or CC0
+- Close-up of carpet beetle feeding damage on a wool sweater or rug: a thin, grazed patch with irregular holes and no silk webbing, with shed larval skins in view, beside a ruler marked in inches; public domain or CC0
+- Carpet beetle larvae and shed skins in the seam of a mattress or along a bed frame, beside a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0
+
 ## /learn/bug-bites
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
@@ -662,6 +689,12 @@
 
 - Bat droppings and house mouse droppings side by side on a white card beside one ruler marked in inches, with one of each crushed to show the bat dropping's shiny insect fragments against the mouse dropping's hard, dull inside
 - Bat droppings piled on attic insulation or floorboards below a roost in a US house, beside a ruler marked in inches, public domain or CC0, identified by a wildlife agency or a bat researcher
+
+## /blog/squirrel-poop
+
+- Gray squirrel droppings and roof rat droppings side by side on a white card beside one ruler marked in inches, each identified by a wildlife agency or extension specialist, so the two can be compared at the same scale
+- Flying squirrel droppings and urine stains on attic insulation or a joist directly below an attic vent, beside a ruler marked in inches, from a public domain or CC0 source with an expert identification, such as a state wildlife agency or extension service
+- Fresh and old gray squirrel droppings side by side beside a ruler marked in inches, the fresh ones dark and glossy and the old ones dull and lighter, identified by a wildlife agency or extension specialist; public domain or CC0
 
 ## /blog/diy-pest-control
 

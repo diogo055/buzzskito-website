@@ -2,9 +2,14 @@
  "id": "squirrel-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ede2aab93c150d13d14cd13801d41745101027f725fe1d5a5d549f9f3b4784f7",
+ "sha": "95c1bc8c175ab757abcbe5e1a1f9e80fb32394249d867b84f6a7c50dccd60835",
  "claimsChecked": 376,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 22,
- "checkedOn": "2026-10-21"
+ "checkedOn": "2026-10-21",
+ "released": {
+  "on": "2026-10-21",
+  "scheduledFor": "2026-10-20",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

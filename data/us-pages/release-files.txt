@@ -31,6 +31,9 @@ app/blog/signs-of-bed-bugs-checklist/page.tsx
 content/guides/bed-bug-poop.json
 data/us-pages/checked/bed-bug-poop.json
 app/blog/bed-bug-poop/page.tsx
+content/guides/bed-bug-bites-but-no-bed-bugs.json
+data/us-pages/checked/bed-bug-bites-but-no-bed-bugs.json
+app/blog/bed-bug-bites-but-no-bed-bugs/page.tsx
 content/guides/pillar-ants.json
 data/us-pages/checked/pillar-ants.json
 app/learn/ants/page.tsx
@@ -172,6 +175,9 @@ app/blog/rat-droppings/page.tsx
 content/guides/mouse-poop.json
 data/us-pages/checked/mouse-poop.json
 app/blog/mouse-poop/page.tsx
+content/guides/mouse-urine.json
+data/us-pages/checked/mouse-urine.json
+app/blog/mouse-urine/page.tsx
 content/guides/pillar-cockroaches.json
 data/us-pages/checked/pillar-cockroaches.json
 app/learn/cockroaches/page.tsx
@@ -208,6 +214,15 @@ app/blog/cockroach-droppings/page.tsx
 content/guides/how-to-get-rid-of-cockroaches.json
 data/us-pages/checked/how-to-get-rid-of-cockroaches.json
 app/blog/how-to-get-rid-of-cockroaches/page.tsx
+content/guides/signs-of-cockroaches.json
+data/us-pages/checked/signs-of-cockroaches.json
+app/blog/signs-of-cockroaches/page.tsx
+content/guides/oriental-cockroaches.json
+data/us-pages/checked/oriental-cockroaches.json
+app/blog/oriental-cockroaches/page.tsx
+content/guides/white-cockroach.json
+data/us-pages/checked/white-cockroach.json
+app/blog/white-cockroach/page.tsx
 content/guides/how-to-get-rid-of-mosquitoes.json
 data/us-pages/checked/how-to-get-rid-of-mosquitoes.json
 app/blog/how-to-get-rid-of-mosquitoes/page.tsx
@@ -457,6 +472,9 @@ app/blog/tiny-brown-bugs/page.tsx
 content/guides/termite-droppings.json
 data/us-pages/checked/termite-droppings.json
 app/blog/termite-droppings/page.tsx
+content/guides/signs-of-carpet-beetles.json
+data/us-pages/checked/signs-of-carpet-beetles.json
+app/blog/signs-of-carpet-beetles/page.tsx
 content/guides/bug-bites.json
 data/us-pages/checked/bug-bites.json
 app/learn/bug-bites/page.tsx
@@ -475,6 +493,9 @@ app/blog/raccoon-poop/page.tsx
 content/guides/bat-poop.json
 data/us-pages/checked/bat-poop.json
 app/blog/bat-poop/page.tsx
+content/guides/squirrel-poop.json
+data/us-pages/checked/squirrel-poop.json
+app/blog/squirrel-poop/page.tsx
 content/guides/how-much-is-pest-control.json
 data/us-pages/checked/how-much-is-pest-control.json
 app/blog/how-much-is-pest-control/page.tsx

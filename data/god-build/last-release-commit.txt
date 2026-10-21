@@ -1,5 +1,9 @@
-release: 3 scheduled page(s) go live (2026-10-20)
+release: 7 scheduled page(s) go live (2026-10-21)
 
-- /blog/kissing-bug-look-alikes
-- /blog/houseplant-bugs
-- /blog/black-spiders
+- /blog/squirrel-poop
+- /blog/mouse-urine
+- /blog/signs-of-carpet-beetles
+- /blog/signs-of-cockroaches
+- /blog/bed-bug-bites-but-no-bed-bugs
+- /blog/oriental-cockroaches
+- /blog/white-cockroach

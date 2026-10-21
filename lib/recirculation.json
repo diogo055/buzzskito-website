@@ -271,6 +271,20 @@
     "/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada"
    ]
   },
+  "/blog/bed-bug-bites-but-no-bed-bugs": {
+   "next": "/blog/black-bed-bugs",
+   "related": [
+    "/blog/bed-bug-bites",
+    "/blog/bed-bug-poop",
+    "/blog/what-do-bed-bugs-look-like"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/heat-vs-chemical-bed-bug-treatment-canada",
+    "/blog/zappbug-heater-review-canada"
+   ],
+   "bar": true
+  },
   "/blog/bed-bug-bites-vs-mosquito-bites": {
    "next": "/blog/bed-bug-bites",
    "related": [
@@ -4199,6 +4213,20 @@
     "/blog/rodent-exclusion-kit-canada"
    ]
   },
+  "/blog/mouse-urine": {
+   "next": "/blog/what-smells-do-mice-hate",
+   "related": [
+    "/blog/rat-droppings",
+    "/blog/rat-vs-mouse",
+    "/blog/mouse-poop"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/how-long-do-mice-live",
+    "/blog/mouse-proof-garage-door-seal-canada"
+   ],
+   "bar": true
+  },
   "/blog/natural-eco-friendly-mosquito-control-ontario": {
    "next": "/blog/natural-mosquito-repellent-ontario",
    "related": [
@@ -4290,6 +4318,20 @@
     "/blog/tick-season-burlington-when-are-ticks-active",
     "/blog/alpha-gal-syndrome"
    ]
+  },
+  "/blog/oriental-cockroaches": {
+   "next": "/blog/cockroach-droppings",
+   "related": [
+    "/blog/white-cockroach",
+    "/blog/how-to-get-rid-of-cockroaches",
+    "/blog/palmetto-bugs"
+   ],
+   "cards": [
+    "/blog/cockroach-eggs",
+    "/blog/signs-of-cockroaches",
+    "/blog/advion-cockroach-gel-bait"
+   ],
+   "bar": true
   },
   "/blog/ortho-home-defense-bed-bug-review-canada": {
    "next": "/blog/best-natural-bed-bug-spray-canada",
@@ -4743,6 +4785,34 @@
    ],
    "bar": true
   },
+  "/blog/signs-of-carpet-beetles": {
+   "next": "/blog/how-to-get-rid-of-carpet-beetles",
+   "related": [
+    "/blog/beetles-in-house",
+    "/blog/termite-damage",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-earwigs",
+    "/blog/moths-in-house",
+    "/blog/what-do-fleas-look-like"
+   ],
+   "bar": true
+  },
+  "/blog/signs-of-cockroaches": {
+   "next": "/blog/cockroach-eggs",
+   "related": [
+    "/blog/cockroach-droppings",
+    "/blog/white-cockroach",
+    "/blog/what-do-baby-cockroaches-look-like"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-cockroaches",
+    "/blog/where-do-cockroaches-come-from",
+    "/blog/best-roach-traps-canada"
+   ],
+   "bar": true
+  },
   "/blog/smells-mosquitoes-hate": {
    "next": "/blog/do-tiki-torches-repel-mosquitoes",
    "related": [
@@ -4823,6 +4893,20 @@
     "/learn/tick-identification-chart",
     "/blog/ultimate-tick-control-guide-ontario",
     "/blog/bugs-that-look-like-ticks"
+   ],
+   "bar": true
+  },
+  "/blog/squirrel-poop": {
+   "next": "/blog/raccoon-poop",
+   "related": [
+    "/blog/bat-poop",
+    "/blog/animal-droppings",
+    "/blog/animals-in-attic"
+   ],
+   "cards": [
+    "/blog/motion-activated-sprinkler-canada",
+    "/blog/raccoon-proof-chimney-cap-canada",
+    "/blog/best-electric-fence-for-raccoons-canada"
    ],
    "bar": true
   },
@@ -6297,6 +6381,20 @@
     "/blog/why-do-mosquito-bites-itch",
     "/blog/gutter-guards-mosquito-breeding-canada",
     "/blog/mosquito-screens-patio-canada"
+   ],
+   "bar": true
+  },
+  "/blog/white-cockroach": {
+   "next": "/blog/cockroach-droppings",
+   "related": [
+    "/blog/how-to-get-rid-of-cockroaches",
+    "/blog/oriental-cockroaches",
+    "/blog/palmetto-bugs"
+   ],
+   "cards": [
+    "/blog/where-do-cockroaches-come-from",
+    "/blog/bugs-that-look-like-cockroaches",
+    "/blog/what-do-baby-cockroaches-look-like"
    ],
    "bar": true
   },
