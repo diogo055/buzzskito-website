@@ -1,0 +1,10 @@
+{
+ "id": "bed-bug-bites-but-no-bed-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "4a50dc67f544e37f7598e39dad80535d63d38c12536d9b6f895893eae4cb667e",
+ "claimsChecked": 462,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-21"
+}
