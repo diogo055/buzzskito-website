@@ -1,0 +1,209 @@
+{
+  "slug": "mouse-urine",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "mouse urine",
+  "alsoTargets": [
+    "mouse pee",
+    "what does mouse pee smell like",
+    "mouse urine under black light",
+    "mouse urine stains",
+    "how to get rid of mouse urine smell",
+    "what does mouse urine look like",
+    "mouse urine smell",
+    "mice urine"
+  ],
+  "metaTitle": "Mouse Urine: Stains, Smell and UV Glow",
+  "metaDescription": "Mouse urine shows as tiny drops and streaks, a musky smell and a blue-white glow under UV light. How to confirm it, the risks and CDC's cleanup steps.",
+  "h1": "Mouse Urine: What Mouse Pee Looks and Smells Like, and How to Find It",
+  "dek": "Mouse pee leaves tiny drops and streaks along walls, a musky, ammonia-like smell and spots that glow under a UV light. Photos, how to tell it from rat and bat signs, the health risks and CDC's cleanup steps.",
+  "breadcrumb": "Mouse Urine",
+  "excerpt": "What mouse urine looks and smells like, why a UV glow is not proof on its own, how to tell it from rat and bat signs, the health risks and CDC's cleanup steps.",
+  "datePublished": "2026-10-21",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**Mouse urine shows up as tiny drops and streaks along walls and shelves and a musky, ammonia-like smell, and it glows blue-white under a UV light; because many other things glow too, count a glow as mouse urine only when other mouse signs, such as droppings 1/8 to 1/4 inch long, turn up in the same area.** Never sweep or vacuum it: [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) soak it with disinfectant first.",
+    "bullets": [
+      "Rodent urine may be wet, glossy or sticky, or it may be a dried stain, according to [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf), which lists a black light among an inspector's tools.",
+      "The [National Park Service](https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm) photographed mouse urine glowing blue-white under a UV flashlight, and warns that many substances glow, so the light helps confirm mice when other signs are present as well.",
+      "UC IPM ties the musky odor of house mice to large or long-term infestations, and a University of Arizona newsletter describes a musky ammonia smell, often more noticeable in pantries, cabinets and drawers.",
+      "CDC says people get hantavirus from contact with rodents, especially their urine, droppings and saliva, and that the deer mouse spreads the most common hantavirus behind hantavirus pulmonary syndrome in the United States.",
+      "CDC's cleanup: open doors and windows for 30 minutes, wear rubber or plastic gloves, spray the urine with disinfectant or 1.5 cups of bleach per gallon of water until very wet, wait 5 minutes or as the label directs, then wipe it up with paper towels."
+    ]
+  },
+  "facts": {
+    "title": "Is it mouse urine? Quick ID",
+    "head": ["Sign", "What it looks like", "Where you find it"],
+    "rows": [
+      ["Fresh urine", "Wet, glossy or sticky drops", "Along walls and baseboards, travel routes and feeding spots"],
+      ["Dried urine", "Small spots, streaks and trails; dark stains on fabric, books and ceiling tiles", "Floors, carpets, shelves and ceilings; stained tiles away from any leak"],
+      ["Glow under UV light", "Blue-white spots and streaks, seen in a dark room", "The same places; many other substances glow too"],
+      ["Smell", "Musky, ammonia-like odor", "Often more noticeable in pantries, cabinets and drawers"],
+      ["Rub marks", "Dark, greasy smears; black and soft when fresh", "Baseboards, beams, pipes, wires and the edges of holes"],
+      ["Mouse droppings", "Dark pellets 1/8 to 1/4 inch long, like grains of rice", "Along the same runways and feeding spots; they back up a stain or glow"]
+    ],
+    "caption": "From CDC's rodent survey manual, the National Park Service, the house mouse chapter of Prevention and Control of Wildlife Damage, a University of Arizona IPM newsletter and an allergy practice parameter on rodents."
+  },
+  "body": [
+    { "type": "h2", "text": "What does mouse urine look like?" },
+    { "type": "p", "text": "Mouse urine looks like tiny drops, streaks and trails. [The National Park Service's rodent damage guide](https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm) says rodents urinate while walking or perched on an edge, so trails can build up across a room, and [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf) describes rodent urine as wet, glossy or sticky, or as a dried stain." },
+    { "type": "figure", "src": "/guides/photos/mouse-urine-uv-light.webp", "width": 800, "height": 741, "alt": "Inside of a cabinet lit by a UV flashlight, with small blue-white spots and streaks glowing on the bottom shelf where it meets a slotted metal shelf upright", "caption": "Mouse urine glowing blue-white on the bottom shelf of a cabinet, near the metal upright, under a UV flashlight, in a National Park Service photograph. NPS warns that many substances glow, so a glow helps confirm mice when droppings or other signs turn up in the area too.", "license": "public-domain", "credit": "NPS Photo (U.S. National Park Service, nps.gov)", "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "type": "p", "text": "The drops are easy to miss: Illinois's public health department says in its [sample pest management procedures](https://idph.illinois.gov/envhealth/ipm/Guidelines_Pest_Stratagies.pdf) that mouse urine spots are harder to detect than a rat's, and suggests a black light for finding many small drops. Where urine builds up, NPS says, it can stain fabric and ceiling tiles and darken surfaces; stained tiles away from any water source likely mean mice or rats, not a leak." },
+    { "type": "media", "needed": "Dried mouse urine seen in ordinary light: small drops and streaks along a shelf, drawer bottom or baseboard in a US home, identified by an extension service or health department, beside a ruler marked in inches; public domain or CC0" },
+
+    { "type": "h2", "text": "What does mouse pee smell like?" },
+    { "type": "p", "text": "Mouse pee smells musky and ammonia-like. A [University of Arizona newsletter on house mice](https://schoolipm.tennessee.edu/wp-content/uploads/sites/207/2023/12/December2023b.pdf) describes a musky ammonia smell, often more noticeable in pantries, cabinets and drawers and stronger along baseboards and walls, where mice leave microdroplets of urine as they travel." },
+    { "type": "p", "text": "A smell you notice points to mice that have been around a while or in numbers. [UC IPM's Pest Notes on the house mouse](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) say the musky odor is common in large or long-term infestations, and [an allergy practice parameter on rodents](https://pmc.ncbi.nlm.nih.gov/articles/PMC3519934/) says that because rodents urinate constantly as they travel, infestations often come with a strong urine odor." },
+    { "type": "p", "text": "The house mouse chapter of [Prevention and Control of Wildlife Damage](https://digitalcommons.unl.edu/icwdmhandbook/4/) calls a characteristic musky odor a positive indication of house mice, one that can tell them apart from rats. A smell of rot is different: the Arizona newsletter says dead mice give off extremely pungent odors of decay." },
+
+    { "type": "h2", "text": "Does mouse urine glow under a black light?" },
+    { "type": "p", "text": "Yes, wet or dry, but a glow is a clue, not proof. The house mouse chapter says urine fluoresces under ultraviolet light, although so do some other materials, and the Arizona newsletter counts some cleaning solutions among them. NPS's advice is to use a UV flashlight to help confirm mice where other signs of mouse activity are present." },
+    { "type": "checklist", "title": "Checking a stain with a UV light", "items": [
+      "Darken the room: the Arizona newsletter says urine can be seen under a black light in an otherwise dark room.",
+      "Sweep the light along baseboards and walls and into pantries, cabinets and drawers.",
+      "Look for many small drops, as Illinois's procedures advise, not just one spot.",
+      "Check each glowing spot in daylight for droppings 1/8 to 1/4 inch long, rub marks or gnawing nearby.",
+      "Touch nothing and never sweep or vacuum: photograph it, then follow CDC's cleanup below."
+    ] },
+    { "type": "figure", "src": "/guides/photos/mouse-droppings-wood.webp", "width": 800, "height": 600, "alt": "About twenty dark, rice-shaped droppings, several with one pointed end, scattered with a few crumbs across a light wooden surface", "caption": "Mouse droppings on a wooden surface, in a National Park Service photograph. NPS puts them at 1/8 to 1/4 inch long, like small dark grains of rice; found near a stain or glow, they point to mice.", "license": "public-domain", "credit": "NPS Photo (U.S. National Park Service, nps.gov)", "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "type": "p", "text": "Droppings are the sign to look for first; [what mouse poop looks like](/blog/mouse-poop) shows them beside their look-alikes, from rat droppings to cockroach specks." },
+
+    { "type": "h2", "text": "Where do you find mouse urine in a house?" },
+    { "type": "p", "text": "Along the routes mice travel and where they feed or nest. The house mouse chapter says urine stains may occur along travelways or in feeding areas; NPS says mice mark their routes with urine and that nests may smell of urine and droppings; and the practice parameter lists urine staining of floors, carpets and ceilings among the signs of rodents." },
+    { "type": "ul", "items": [
+      "**Kitchens and pantries.** [Nebraska Extension's guide to controlling house mice](https://extensionpubs.unl.edu/publication/g1105/html/view) says house mice nest near heat sources such as water heaters, ovens and refrigerators.",
+      "**Along walls.** Nebraska says mice keep contact with walls as they travel at night, and the Arizona newsletter says the urine smell is often stronger along baseboards.",
+      "**Ceilings and attics.** NPS points to stained ceiling tiles away from any leak; in an attic, consider bats too (below).",
+      "**Cars.** CDC says rodents may nest in cars, trucks and campers, especially ones used infrequently."
+    ] },
+    { "type": "figure", "src": "/guides/photos/house-mouse-on-stove.webp", "width": 1200, "height": 900, "alt": "Brown house mouse looking out from under the coil burner of a white electric stove, with a single dark dropping on the stovetop beside it", "caption": "A house mouse on a kitchen stovetop in Washington, DC, with a dropping beside it. Nebraska Extension says house mice nest near heat sources such as ovens.", "license": "CC-BY-4.0", "credit": "(c) jonsense, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/300314476" },
+    { "type": "p", "text": "Why so many spots? The Arizona newsletter says house mice urinate continuously, producing thousands of microdroplets a day, and that their signs are often found before the mice, which UC IPM says are active mostly at night. [When mice are most active](/blog/are-mice-nocturnal) has its own guide, and [the complete guide to house mice](/learn/mice) covers how they live." },
+
+    { "type": "h2", "text": "What are urine pillars and rub marks?" },
+    { "type": "p", "text": "Urine pillars are small mounds of grease, urine and dirt; rub marks are dark, greasy smears along mouse routes. Illinois's procedures say house mice occasionally build the mounds, which they call urinating pillars, and that they can become quite conspicuous; none of the other sources on this page mentions them." },
+    { "type": "p", "text": "The house mouse chapter says rub marks form on beams, rafters, pipes and walls as oil and dirt rub off the fur along frequently traveled routes, and that a mouse's are smaller than a rat's. CDC's survey manual says fresh ones are black, soft and greasy, and NPS says the smears show on walls, around holes and pipes and on electrical wiring." },
+    { "type": "p", "text": "The Arizona newsletter says rub marks hold chemicals mice use to communicate and should be washed off with soap and water; since NPS says mice mark these routes with urine too, disinfect them first, as below." },
+    { "type": "media", "needed": "Dark, greasy rub marks left by house mice along a baseboard or around a pipe hole in a US home, beside a ruler marked in inches, identified by an extension service or health department" },
+    { "type": "media", "needed": "Mouse urine pillars (small mounds of grease, urine and dirt) on a floor or shelf, photographed and identified by a health department or university, with a scale" },
+
+    { "type": "h2", "text": "What else leaves stains and smells like mouse urine?" },
+    { "type": "p", "text": "Rats, deer mice and bats leave the closest matches. For specks or pellets rather than drops, see [cockroach droppings](/blog/cockroach-droppings), [bed bug stains](/blog/bed-bug-poop) and [the animal poop identification chart](/blog/animal-droppings)." },
+    { "type": "h3", "text": "Rats" },
+    { "type": "p", "text": "Rat signs run bigger: NPS gives rat droppings as 1/2 to 3/4 inch long, wider and blunt at the ends, and Illinois says rat urine spots are easier to detect than a mouse's. [The guide to rat droppings](/blog/rat-droppings) compares the two, and [how to tell a rat from a mouse](/blog/rat-vs-mouse) compares the animals." },
+    { "type": "h3", "text": "Deer mice" },
+    { "type": "p", "text": "A deer mouse's signs look like a house mouse's. [UC IPM's Pest Notes on the deer mouse](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/) say its nests, droppings and other signs are similar, though deer mice are far more likely to cache acorns, seeds or nuts and often move into vacated homes and cabins. CDC links the deer mouse to the most common US hantavirus behind hantavirus pulmonary syndrome; [the deer mouse guide](/blog/deer-mice) shows how to recognize one." },
+    { "type": "h3", "text": "Bats" },
+    { "type": "p", "text": "In an attic or high on a wall, consider bats. The US Fish and Wildlife Service's [House Bat Management](https://pubs.usgs.gov/rp/0143/report.pdf) says brown stains and odors from urine, droppings and body secretions near the eaves of wooden buildings may often point to bats inside, that in old, loosely built houses their waste can seep through and stain ceilings and walls, and that bat droppings crush easily into shiny bits of insect. [The guide to bat poop](/blog/bat-poop) covers them." },
+    { "type": "confused", "title": "Other signs to compare", "items": [
+      { "href": "/blog/mouse-poop", "name": "Mouse droppings", "photo": "mouse-droppings-ruler", "note": "Dark pellets 1/8 to 1/4 inch long; found beside a stain, they point to mice", "alt": "A few small, dark mouse droppings on an orange surface beside a ruler marked in centimeters and two coins" },
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "1/2 to 3/4 inch, wider and blunt-ended; rat urine spots are easier to see", "alt": "Thick, dark droppings with rounded ends lying on moss beside a person's thumb" },
+      { "href": "/blog/deer-mice", "name": "Deer mouse", "photo": "deer-mouse", "note": "Leaves signs like a house mouse's; spreads the most common US hantavirus", "alt": "Deer mouse with a brown back, white belly and two-tone tail clinging to a bare twig in winter" },
+      { "href": "/blog/bat-poop", "name": "Bat droppings", "photo": "bat-droppings-siding", "note": "Brown stains and odor near the eaves; droppings crush into shiny insect bits", "alt": "Clumps of small, dark droppings stuck to brown-painted wooden siding on both sides of a gap between boards" }
+    ] },
+
+    { "type": "h2", "text": "Is mouse urine harmful?" },
+    { "type": "p", "text": "It can be. Rodent urine can carry viruses and bacteria, and mouse urine is a major source of allergens. [CDC's hantavirus prevention page](https://www.cdc.gov/hantavirus/prevention/index.html) says that when fresh urine, droppings or nesting materials of an infected rodent are stirred up, the virus can get into the air and be breathed in, and that it can also spread through cuts or the eyes, nose or mouth." },
+    { "type": "ul", "items": [
+      "**Hantavirus, mainly from deer mice.** [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says people get hantavirus from contact with rodents, especially their urine, droppings and saliva, and that the deer mouse spreads the most common US hantavirus behind hantavirus pulmonary syndrome. Nebraska says house mice are not known to carry hantavirus, but advises caution with every cleanup, since few people can tell which rodents they have.",
+      "**LCM, from house mice.** [CDC's page on lymphocytic choriomeningitis](https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html) says the house mouse spreads it through fresh urine, droppings, saliva or nesting materials. Most healthy people have no or only mild symptoms, but infection in pregnancy can cause miscarriage or serious birth defects.",
+      "**Leptospirosis.** [CDC's leptospirosis page](https://www.cdc.gov/leptospirosis/about/index.html) says the bacteria behind it spread through the urine of infected animals, rodents among them, including through food or water contaminated by that urine.",
+      "**Allergies and asthma.** UC IPM calls house mouse urine a major source of allergens and links its proteins to early-onset asthma in sensitive children; Nebraska says mouse urine has been implicated as an asthma trigger in some people. The practice parameter says the main mouse allergen, first identified in mouse urine, was detectable in 82% of homes in a nationally representative US housing survey."
+    ] },
+    { "type": "figure", "src": "/guides/photos/deer-mouse-nest.webp", "width": 1200, "height": 796, "alt": "Deer mouse with large dark eyes and ears peering out of a nest of torn cream-colored fabric, green woven cloth and white feathers", "caption": "A North American deer mouse in a nest it made among deteriorating sheets of fabric and bird feathers, in a CDC photograph. CDC says the deer mouse spreads the most common US hantavirus behind hantavirus pulmonary syndrome.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=13216" },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "If you suspect hantavirus disease, CDC says to see a physician immediately and mention the rodent exposure; symptoms usually start 1 to 8 weeks after contact with an infected rodent, with fatigue, fever and muscle aches. If you think you may have leptospirosis, CDC says to see a healthcare provider right away." },
+
+    { "type": "h2", "text": "How do you clean up mouse urine safely?" },
+    { "type": "p", "text": "Wet it, then wipe it; never sweep or vacuum it, which [CDC's steps for cleaning up after rodents](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) say can put tiny droplets containing viruses into the air. CDC's steps for a house, shed or cabin:" },
+    { "type": "ol", "items": [
+      "Open all doors and windows for 30 minutes and stay out while the space airs.",
+      "Put on rubber or plastic gloves.",
+      "Spray the urine and any droppings until very wet with an EPA-registered disinfectant, or a fresh mix of 1.5 cups of household bleach per gallon of water, and let it soak for 5 minutes or as the label directs.",
+      "Wipe it all up with paper towels and put them in a covered garbage can that is emptied regularly.",
+      "Mop or sponge floors, countertops, cabinets and drawers with disinfectant.",
+      "Wash your gloved hands, take the gloves off, then wash your hands with soap and warm water."
+    ] },
+    { "type": "figure", "src": "/guides/photos/rodent-droppings-drawer.webp", "width": 1200, "height": 791, "alt": "Open cupboard drawer lined with white dotted shelf paper, scattered with small dark droppings and faint brownish marks, with fluffy material in a back corner", "caption": "Rodent droppings in a cupboard drawer, in a CDC photograph whose record does not name the rodent. CDC's steps cover drawers: soak urine and droppings with disinfectant before wiping them up.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14340" },
+    { "type": "p", "text": "For heavy infestations, vacant homes with many rodents or buildings where disease has been confirmed in the rodents, CDC lists coveralls, rubber boots or shoe covers, gloves, goggles and a respirator with a HEPA filter. [What a professional mouse cleanup involves](/blog/mice-removal) is covered separately." },
+
+    { "type": "h2", "text": "How do you get mouse urine out of clothes, carpets and car vents?" },
+    { "type": "p", "text": "Disinfect and remove the urine first; CDC's steps for soft and porous things come after that." },
+    { "type": "ul", "items": [
+      "**Clothes and bedding.** Wash in hot water with detergent, then machine-dry on high or dry in the sun, CDC says; its [2002 hantavirus recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm) add rubber, latex, vinyl or nitrile gloves for handling contaminated laundry.",
+      "**Carpets and upholstery.** Shampoo with a commercial disinfectant, or use a commercial-grade steam cleaner or shampoo. UC IPM's deer mouse notes warn that bleach solution may damage rugs and fabrics.",
+      "**Books and papers.** Leave them in sunlight for several hours, or in a rodent-free room for at least three weeks; CDC strongly suggests six.",
+      "**Insulation, boxes and ducts.** Bag soiled insulation and throw out soiled cardboard, CDC says, and call a professional rodent exterminating service if rodents have gotten into heating and cooling ducts."
+    ] },
+    { "type": "h3", "text": "A mouse pee smell from the car vents" },
+    { "type": "p", "text": "Rodents can reach a car's passenger compartment through ducting, rusted areas and cable conduit, CDC notes. Its steps: open the hood, doors and trunk for 20 minutes, inspect the air intakes and filters before starting the engine, and disconnect the battery before inspecting the engine compartment. Wearing plastic gloves and a long-sleeved shirt, soak any urine, droppings or nest with disinfectant before picking it up, with no vacuum or high-pressure sprayer until then, and replace the air filter if nesting material is in the intake. CDC suggests a qualified mechanic for help; [keeping mice out of a parked car](/blog/how-to-keep-mice-out-of-your-car) covers prevention." },
+    { "type": "h3", "text": "Getting rid of the smell" },
+    { "type": "p", "text": "None of the agency sources cited here offers a deodorizer or mentions enzyme cleaners: CDC's cleanup removes the source by disinfecting and wiping up urine, washing what can be washed and throwing out soaked insulation and cardboard. Whatever you use for odor afterward, disinfect first. A smell that returns after cleaning can mean mice are still active." },
+
+    { "type": "h2", "text": "What should you do once you know it is mice?" },
+    { "type": "p", "text": "Seal, trap and clean. CDC's hantavirus overview advises sealing holes and gaps, setting traps and clearing away easy-to-get food, and [CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) recommends snap traps placed where you have seen urine and droppings, not glue or live traps, which can scare rodents into urinating and increase your chance of getting sick." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-live-trap.webp", "width": 1200, "height": 810, "alt": "Gray-brown house mouse with large ears and a long, thin tail at the open end of a metal live-catch trap, with a cracker spread with bait beside it", "caption": "A mouse the photographer identified as a house mouse, in the live-catch trap that caught it. CDC advises against live traps because a frightened rodent may urinate.", "license": "CC0-1.0", "credit": "Ahunt, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_mouse_(Mus_musculus)_2808.jpg" },
+    { "type": "p", "text": "Then watch for new signs: CDC says a week with nothing caught and no new signs means the rodents are gone, while new droppings, urine spots or gnawing after a week may mean wary rats. [The complete guide to mice](/learn/mice) covers sealing and trapping, [which mouse traps to use](/blog/mice-traps) compares them, and [the four steps for clearing mice out of a house](/blog/how-to-get-rid-of-mice-canada) and [sealing gaps before winter](/blog/how-to-keep-mice-out-of-your-house-winter) cover the whole job." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph the stain in daylight and under the UV light, and any droppings beside a ruler marked in inches, without touching anything. Your state's cooperative extension office or a pest professional can use the photos, the room and where the smell is strongest to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "How can you tell if urine is mouse urine?",
+      "answer": "Look for other mouse signs in the same place. The National Park Service says that because many substances glow, a UV light helps confirm mice when other signs of activity are present as well. The companion sign to look for first is droppings: NPS gives mouse droppings as 1/8 to 1/4 inch long, like small dark grains of rice, against 1/2 to 3/4 inch for a rat's. A musky smell, small drops and streaks along walls, and greasy rub marks on baseboards or pipes point the same way."
+    },
+    {
+      "question": "Can you see mouse urine without a black light?",
+      "answer": "Sometimes. CDC's manual for urban rodent surveys describes rodent urine as wet, glossy or sticky, or as a dried stain. The National Park Service says urine that builds up can stain fabric and ceiling tiles and that urine splatters darken surfaces. Single drops are easy to miss, though: Illinois's public health department notes that mouse urine spots are harder to detect than a rat's and suggests a black light for finding many small drops."
+    },
+    {
+      "question": "Does mouse pee smell ever go away?",
+      "answer": "Not while urine-soaked material and active mice remain. None of the agency sources cited here offers a deodorizer; CDC's approach is to disinfect and wipe up urine, wash or steam-clean soft items, and bag or throw out soaked insulation and cardboard. UC IPM links the musky odor to large or long-term infestations, and a smell that returns after cleaning can mean mice are still active. A smell of rot is different: a University of Arizona newsletter says dead mice give off strong odors of decay."
+    },
+    {
+      "question": "Can you get sick from smelling mouse urine?",
+      "answer": "CDC does not discuss the smell itself. What it warns about is breathing in air after fresh urine, droppings or nesting materials of an infected rodent are stirred up, which can spread hantavirus, and that is why it says never to sweep or vacuum them. Mouse urine is also a major source of allergens, UC IPM says, and Nebraska Extension says it has been implicated as an asthma trigger in some people. If you suspect hantavirus disease, CDC says to see a physician immediately."
+    },
+    {
+      "question": "Is dried mouse urine still dangerous?",
+      "answer": "Treat it with the same care as fresh. CDC's 2002 hantavirus recommendations estimate that hantaviruses probably survive less than a week indoors and much less in sunlight outdoors, but you usually cannot tell how old a dried stain is or whether mice are still adding fresh urine nearby. The allergen in mouse urine lasts longer: an allergy practice parameter says rodent allergens become part of household dust, which can stay allergenic for long periods. CDC's soak-then-wipe method covers old and new stains alike."
+    },
+    {
+      "question": "Can mouse urine cause allergies or asthma?",
+      "answer": "It can in sensitive people. UC IPM says house mouse urine is a major source of allergens and that exposure to its proteins has been linked to early-onset asthma in sensitive children and to other allergic reactions later in life. An allergy practice parameter says the main mouse allergen was first identified in mouse urine and was detectable in 82% of homes in a nationally representative US housing survey. The same parameter recommends skin prick or blood tests for patients with suspected rodent exposure, so an allergist can check."
+    },
+    {
+      "question": "How do you get mouse urine out of clothes?",
+      "answer": "Disinfect the urine first, then wash them. CDC says its steps for soft items follow after rodent urine has been sanitized, and to launder clothing, bedding and stuffed animals that may be contaminated in hot water with detergent, then machine-dry them on a high setting or hang them to dry in the sun. CDC's 2002 recommendations add rubber, latex, vinyl or nitrile gloves for handling contaminated laundry, and say cleanup should limit dust from contaminated surfaces getting into the air, so carry soiled items to the washer gently rather than shaking them out."
+    },
+    {
+      "question": "Can you use bleach on mouse urine in carpet?",
+      "answer": "Bleach may damage it. CDC's soaking step allows a bleach solution or an EPA-registered disinfectant on the urine itself, but for carpets, rugs and upholstered furniture it recommends shampooing with a commercial disinfectant or using a commercial-grade steam cleaner or shampoo. UC IPM cautions that a bleach solution may damage rugs and fabrics and irritate skin, so on carpet, choose a disinfectant whose label allows carpet use. On hard floors and countertops, CDC's mix of 1.5 cups of bleach per gallon of water is an option."
+    },
+    {
+      "question": "Why does my car smell like mouse pee?",
+      "answer": "Rodents may nest in cars, especially ones used infrequently, CDC says, and they can reach the passenger compartment through ducting, rusted areas and cable conduit. CDC's steps: air the car out with the hood, doors and trunk open for 20 minutes, check the air intakes and filters before starting the engine, soak any urine, droppings or nest with disinfectant before picking it up, and replace the air filter if nesting material is in the intake. CDC suggests a qualified mechanic for help."
+    },
+    {
+      "question": "Why do mice pee everywhere?",
+      "answer": "Because they urinate as they move. A University of Arizona newsletter says house mice urinate continuously, producing thousands of microdroplets a day, and an allergy practice parameter says rodents constantly urinate as they travel. The National Park Service adds that mice mark their territory and travel routes with secreted oils and urine, and that they urinate while walking or perched on an edge, so urine trails can build up across a room. That is why the stains follow walls, runways and feeding spots."
+    }
+  ],
+  "sources": [
+    { "title": "Conserve O Gram 3/12: Identifying Mouse and Rat Damage in Museum Collections (updated January 23, 2026)", "publisher": "National Park Service, U.S. Department of the Interior", "url": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "title": "Integrated Pest Management: Conducting Urban Rodent Surveys (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf" },
+    { "title": "Sample Pest Management Procedures for Specific Pests (Appendix D of Developing and Implementing an Integrated Pest Management Program in Schools and Day Care Centers, 2009)", "publisher": "Illinois Department of Public Health, Division of Environmental Health", "url": "https://idph.illinois.gov/envhealth/ipm/Guidelines_Pest_Stratagies.pdf" },
+    { "title": "Keep House Mice Away This Winter, by Shaku Nair and Shujuan Li (University of Arizona), in Pests and Pesticides in Child-serving Facilities: An IPM Newsletter (December 2023)", "publisher": "University of Tennessee Extension, Entomology and Plant Pathology", "url": "https://schoolipm.tennessee.edu/wp-content/uploads/sites/207/2023/12/December2023b.pdf" },
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Environmental Assessment and Exposure Reduction of Rodents: A Practice Parameter (Annals of Allergy, Asthma and Immunology, 2012)", "publisher": "Joint Task Force on Practice Parameters (AAAAI, ACAAI and JCAAI), via PubMed Central", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3519934/" },
+    { "title": "House Mice (Prevention and Control of Wildlife Damage, 1994), by Robert M. Timm", "publisher": "University of Nebraska-Lincoln, Digital Commons", "url": "https://digitalcommons.unl.edu/icwdmhandbook/4/" },
+    { "title": "G1105: Controlling House Mice", "publisher": "Nebraska Extension, University of Nebraska-Lincoln", "url": "https://extensionpubs.unl.edu/publication/g1105/html/view" },
+    { "title": "Pest Notes: Deer Mouse (UC ANR Publication 74161)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/" },
+    { "title": "House Bat Management (Resource Publication 143, 1982), by Arthur M. Greenhall", "publisher": "U.S. Fish and Wildlife Service, via the USGS Publications Warehouse", "url": "https://pubs.usgs.gov/rp/0143/report.pdf" },
+    { "title": "Hantavirus Prevention", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/prevention/index.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "About Lymphocytic Choriomeningitis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html" },
+    { "title": "About Leptospirosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/leptospirosis/about/index.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "Hantavirus Pulmonary Syndrome — United States: Updated Recommendations for Risk Reduction (MMWR, 2002)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "mouse-urine",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3fc1b047ca917ac9c564f1010bc03cde83e875383654035665bac9ce99e53d0f",
+ "claimsChecked": 328,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-21"
+}
