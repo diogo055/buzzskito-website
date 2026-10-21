@@ -19,6 +19,25 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 21 (end of day): 7 NEW PAGES + 81 LINKS LIVE.** Release cea7c1c4 + US picks 796ac9dc (pushed
+  15:10 UTC): squirrel-poop, mouse-urine, signs-of-carpet-beetles, signs-of-cockroaches,
+  bed-bug-bites-but-no-bed-bugs, oriental-cockroaches, white-cockroach (each: beat-the-top-3 note in
+  research/top3, writer, independent checker 280-462 claims, amazon.com pick checked). Link-in round
+  5364e342 (deployed 20:27 UTC): 81 links on 53 pages = links into the 7 new pages + 2-3 strong links
+  into the 20 climbers (positions 6-10, most impressions); exact lists with a GSC baseline in
+  `data/god-build/linkin/2026-10-21-*.md`. **Compare around Nov 4-11: the 20 linked climbers vs the next
+  20 unlinked ones** (positions, impressions, clicks). OCT 22 FIRST: request indexing for the 7 new pages
+  (today's 10 went to the Oct 20 droppings batch + roach how-to + termite damage + best-cockroach-killer-
+  canada). Open: (a) best-cockroach-spray-canada says the American cockroach is "a strong flier when warm"
+  vs can-cockroaches-fly "can fly but seldom does" (Kentucky, Clemson): correct with sources; (b) link-in
+  candidates the agents found but did not use: spray page Oriental paragraph + how-to-get-rid-of-cockroaches-
+  canada -> oriental/signs/white; traps and Advion daylight paragraphs -> signs; bed-bug-stains-poop-
+  droppings-canada -> bites-but-no-bed-bugs; baby-bed-bugs-nymphs + bugs-that-look-like-bed-bugs-canada ->
+  signs-of-carpet-beetles; best-squirrel-proof-bird-feeder-canada + roof-vent-covers -> squirrel-poop;
+  (c) photos still needed: squirrel droppings beside a ruler (PD/CC0 lead), white German roach with ruler,
+  carpet beetle damage on wool (Bugwood slides are NonCommercial), cockroach smear marks; possum-poop still
+  blocked. Backlink plan agent running (data/god-build/link-plan.md + link-drafts/, nothing sent without
+  the owner's OK per message).
 - **OCT 20 EVENING (after the end-of-day note below):** (1) **amazon.com is LIVE on 157 US guides**
   (d0370563 + 2c4e345c): one pick box right under the quick answer, US tag buzzskito200d-20, picks in
   `lib/amazon-us-picks.json`, all checked independently (8 fixed, 3 removed: bullet-ants,
