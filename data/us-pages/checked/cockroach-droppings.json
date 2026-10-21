@@ -2,7 +2,7 @@
  "id": "cockroach-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0f263d2d7d44cbf26db66e6f1ab999dd643af679e3ef37bd56a394f5b42eb577",
+ "sha": "94c71cfe3a5c6b3d026e9283fcd9f648fcae4ae6323c2e892d9a813349a92086",
  "claimsChecked": 380,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026: 'risk factors for asthma in children' -> 'risk factors for developing asthma in children' in the body and one FAQ, matching UC IPM's wording ('development of asthma'), found by the signs-of-cockroaches checker.",
+   "previousSha": "0f263d2d7d44cbf26db66e6f1ab999dd643af679e3ef37bd56a394f5b42eb577"
+  }
+ ]
 }
