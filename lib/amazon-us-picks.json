@@ -948,6 +948,48 @@
       "name": "LED flashlight",
       "search": "led flashlight",
       "basis": "'What do a wolf spider's eyes look like?': 'Hold a flashlight beside your head at night and their eyes shine back like a cat's, MDC says, and UC IPM says they reflect green'; Texas A&M says a flashlight shone into grass shows dozens of points of light from wolf spiders' eyes."
+    },
+    "mouse-urine": {
+      "label": "To check for urine stains",
+      "name": "UV flashlight (black light)",
+      "search": "uv black light flashlight",
+      "basis": "'Does mouse urine glow under a black light?': the National Park Service says a UV light helps confirm mice when other signs are present as well (Conserve O Gram 3/12)."
+    },
+    "squirrel-poop": {
+      "label": "For droppings cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'How do you clean up squirrel droppings safely?': CDC step 2, after airing out, 'Put on rubber or plastic gloves.'; FAQ 'Is it safe to clean up squirrel droppings yourself?': 'wear rubber or plastic gloves'"
+    },
+    "signs-of-carpet-beetles": {
+      "label": "For checking under furniture",
+      "name": "LED flashlight",
+      "search": "led flashlight",
+      "basis": "'Take a flashlight, as Ohio State suggests for checking under baseboards and furniture.'"
+    },
+    "signs-of-cockroaches": {
+      "label": "To confirm and count roaches",
+      "name": "Cockroach sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'How do you confirm a cockroach infestation, and how bad is it?': 'Set sticky traps: they catch roaches you never see and show where most of them are.'"
+    },
+    "oriental-cockroaches": {
+      "label": "To see if more roaches turn up",
+      "name": "Cockroach sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'How can you tell if you have Oriental cockroaches?': 'let sticky traps do the counting'; FAQ 'Should I worry if I see one Oriental cockroach?': set sticky traps near drains, doors and damp spots 'to see whether more turn up'"
+    },
+    "white-cockroach": {
+      "label": "To check for more roaches",
+      "name": "Cockroach sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'UC IPM calls sticky traps the best way to detect and monitor cockroaches: put them where floors meet walls near the spot and check them daily for several days.'"
+    },
+    "bed-bug-bites-but-no-bed-bugs": {
+      "label": "To catch bed bugs at the bed legs",
+      "name": "Bed bug interceptor cups",
+      "search": "bed bug interceptor cups",
+      "basis": "Kentucky's bed bug fact sheet: interceptor traps, small dishes under bed and furniture legs that wandering bed bugs fall into; checked regularly they can reveal an infestation early."
     }
   }
 }
