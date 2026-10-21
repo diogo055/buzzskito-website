@@ -1,0 +1,10 @@
+{
+ "id": "oriental-cockroaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "815395aaadb27ca222de4275bf10dfa84a7fe5ec17f0ecddc1f2d4e3b6fe2a3f",
+ "claimsChecked": 300,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-21"
+}
