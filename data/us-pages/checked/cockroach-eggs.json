@@ -2,7 +2,7 @@
  "id": "cockroach-eggs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6f2f66bc2d36206a64ab0ebae9a3ff00bfca11de4ff7d86aa4b79a5919fb9ab3",
+ "sha": "10d4494add34e32b38cc0451b9a724ab0ff25f0a3c8ee2edd63079945fdc7b75",
  "claimsChecked": 284,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 9,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the droppings paragraph in 'What else looks like cockroach eggs?' linking the new /blog/cockroach-droppings; no fact changed.",
    "previousSha": "681bfcb33fd09fc02c8e7ad56174ea3d17377547f1504b00de931398d0050e47"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): 3 sentences added, no fact changed: /blog/oriental-cockroaches after the Oriental egg case photo, /blog/signs-of-cockroaches at the end of 'What does finding a cockroach egg case mean?', /blog/white-cockroach at the end of 'What hatches from a cockroach egg case?'.",
+   "previousSha": "6f2f66bc2d36206a64ab0ebae9a3ff00bfca11de4ff7d86aa4b79a5919fb9ab3"
   }
  ]
 }

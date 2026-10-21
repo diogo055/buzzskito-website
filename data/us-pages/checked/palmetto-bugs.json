@@ -2,7 +2,7 @@
  "id": "palmetto-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cc1b60b8981ca4015e7a72ebad4a5d403d6173967190319368c7d89cd5fb72aa",
+ "sha": "5456a88e47c6e6a1c6e582e053158bcdb1644df1b56bc14dc197c6a971468dde",
  "claimsChecked": 320,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): one sentence added in 'What about the brown and Oriental cockroaches?' linking /blog/oriental-cockroaches; no fact changed.",
+   "previousSha": "cc1b60b8981ca4015e7a72ebad4a5d403d6173967190319368c7d89cd5fb72aa"
+  }
+ ]
 }

@@ -2,7 +2,7 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4b6452f9ac9d55f03d409bd9ef6ca0766cac7eb1ab2dbb1cb2c1d6ecf8909275",
+ "sha": "a756cc614e338a58d2684718f138d20a56037d5a1cd49e0a4ae2eb85d5f37a3f",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
@@ -22,6 +22,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the first paragraph of 'What are the signs of a cockroach infestation?' linking the new /blog/cockroach-droppings; no fact changed.",
    "previousSha": "3084641c23b43d933157b6f2895a647acb5769e87e5efa3d2948f6dc2b01e7af"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): 3 sentences added, no fact changed: /blog/white-cockroach after the nymph paragraph in 'What does a cockroach look like?', /blog/oriental-cockroaches after the Oriental cockroach entry, /blog/signs-of-cockroaches at the end of 'What are the signs of a cockroach infestation?'.",
+   "previousSha": "4b6452f9ac9d55f03d409bd9ef6ca0766cac7eb1ab2dbb1cb2c1d6ecf8909275"
   }
  ]
 }

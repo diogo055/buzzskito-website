@@ -2,9 +2,16 @@
  "id": "where-do-cockroaches-come-from",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a6bbee467e95470d907448b4c9f910592256ae9989588a72b79dd17c615bf5ac",
+ "sha": "41184d946928b9442535948c0ab4d4a6eaca3c711879dc81cb5dc45e4b4c23b7",
  "claimsChecked": 74,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): 2 sentences added, no fact changed: /blog/oriental-cockroaches at the end of 'Which cockroaches come in from outdoors?', /blog/signs-of-cockroaches after the sticky-trap paragraph in 'Is it one stray or an infestation?'.",
+   "previousSha": "a6bbee467e95470d907448b4c9f910592256ae9989588a72b79dd17c615bf5ac"
+  }
+ ]
 }

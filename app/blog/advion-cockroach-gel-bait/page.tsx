@@ -281,6 +281,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             <li><strong>Never spray over your bait.</strong> Repellent aerosols and foggers contaminate baiting surfaces and scatter the colony into new rooms. If you feel the urge to fog, re-read the FAQ below and put the money into more stations.</li>
             <li><strong>Expect a nymph wave, and re-judge at 4 weeks.</strong> Egg cases laid before you started will hatch on schedule; small roaches at week three are not failure. Falling monitor counts by week four are success. Flat counts are your signal to escalate.</li>
           </ul>
+          <p>What those small roaches look like, species by species and size by size, is shown in our photo guide to <Link href="/blog/what-do-baby-cockroaches-look-like">baby cockroaches</Link>, written for US readers.</p>
           <p>The full room-by-room campaign &mdash; including apartment-specific tactics and what to do about neighbouring units &mdash; lives in our <Link href="/blog/how-to-get-rid-of-cockroaches-canada">complete guide to getting rid of cockroaches in Canada</Link>; this page is the legality-and-products chapter of that playbook.</p>
 
           <h2>Cockroach Bait in Canada &mdash; Key Facts</h2>

@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "779b1ee4e59a84a4f339b24e7720eb318b74b0fbfd3f1e0b015324cf597057f4",
+ "sha": "9e95e572005da5ea44446dad8038d54ff7e0678dc275bdbe6cb5af6a08d11fe6",
  "claimsChecked": 75,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 4,
@@ -22,6 +22,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the earwig paragraphs in 'Do earwigs and crickets look like cockroaches?' linking the new /blog/how-to-get-rid-of-earwigs; no fact changed.",
    "previousSha": "cb1a7a7188534451843606496074b742c946b063ab10a4322bbd90f9f75bce4b"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): one sentence added after the Oriental cockroach photo in 'How do you tell a cockroach from a look-alike?' linking /blog/oriental-cockroaches; no fact changed.",
+   "previousSha": "779b1ee4e59a84a4f339b24e7720eb318b74b0fbfd3f1e0b015324cf597057f4"
   }
  ]
 }

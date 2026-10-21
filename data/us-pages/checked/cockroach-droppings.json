@@ -2,7 +2,7 @@
  "id": "cockroach-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "94c71cfe3a5c6b3d026e9283fcd9f648fcae4ae6323c2e892d9a813349a92086",
+ "sha": "a1bd32ed747097194e38b6833cd50a532f6e333da573386541598e3e95cd52f0",
  "claimsChecked": 380,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -17,6 +17,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: 'risk factors for asthma in children' -> 'risk factors for developing asthma in children' in the body and one FAQ, matching UC IPM's wording ('development of asthma'), found by the signs-of-cockroaches checker.",
    "previousSha": "0f263d2d7d44cbf26db66e6f1ab999dd643af679e3ef37bd56a394f5b42eb577"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): one sentence added after the paragraph in 'How much roach poop means a big infestation?' linking /blog/signs-of-cockroaches; no fact changed.",
+   "previousSha": "94c71cfe3a5c6b3d026e9283fcd9f648fcae4ae6323c2e892d9a813349a92086"
   }
  ]
 }

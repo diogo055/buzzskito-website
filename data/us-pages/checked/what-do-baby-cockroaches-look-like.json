@@ -2,7 +2,7 @@
  "id": "what-do-baby-cockroaches-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ece795a761fb9a037edfc09a14b796730794ca6c1f720e7e64048885a5ba7cb5",
+ "sha": "89f6b74661f44285ab7aa8ca19aa95d91e6ad35ecb2f111c78062610ca52837f",
  "claimsChecked": 68,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 6,
@@ -12,6 +12,11 @@
    "on": "2026-10-16",
    "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
    "previousSha": "b9e9467983cb2ffb30fce83a29b1f09283b9f4060552fcb107a366636702bc74"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): 3 sentences added, no fact changed: /blog/oriental-cockroaches after 'Oriental cockroach nymphs', /blog/white-cockroach in 'Why do some baby cockroaches look white?', /blog/signs-of-cockroaches at the end of 'What does finding baby cockroaches tell you?'.",
+   "previousSha": "ece795a761fb9a037edfc09a14b796730794ca6c1f720e7e64048885a5ba7cb5"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4b1ec29c97e7ba8e519b3a729c58587533fdb74188c60dfa8759c8de8ac782e6",
+ "sha": "78891469bacede5ff68eff4e5cb1715973a7edb0579cbe41cbfe10b83c58f15a",
  "claimsChecked": 260,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 7,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026 link-in (cockroaches): 2 sentences added, no fact changed: /blog/oriental-cockroaches after the Oriental cockroach photo in 'Which cockroach do you have?', /blog/signs-of-cockroaches at the end of 'What are the signs of roaches, and how bad is the infestation?' (before the look-alike cards).",
+   "previousSha": "4b1ec29c97e7ba8e519b3a729c58587533fdb74188c60dfa8759c8de8ac782e6"
+  }
+ ]
 }

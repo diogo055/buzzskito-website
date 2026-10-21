@@ -382,6 +382,7 @@ export default function BestRoachTrapsCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="cockroach glue traps sticky boards">Check glue-board multi-packs on Amazon.ca →</BuyLink>
           </div>
+          <p>To rule out a look-alike, our photo guide to <Link href="/blog/bugs-that-look-like-cockroaches">insects that get mistaken for cockroaches</Link>, written for US readers, shows how to tell ground beetles, crickets and earwigs from a roach.</p>
 
           <h2>Placement: the Part That Decides Whether Any of This Works</h2>
           <p>A trap in the wrong place is not a weak trap, it is no trap. The rules are simple, and they are the easiest part of the job to skip.</p>
@@ -423,6 +424,7 @@ export default function BestRoachTrapsCanadaPage() {
             <li><strong>Finally, zero.</strong> Then hold. <strong>Several consecutive weeks of completely empty boards is the finish line.</strong> &ldquo;We stopped seeing them&rdquo; is not, because sightings were always a function of luck, lighting, and how often anyone walked into the kitchen at 2 a.m.</li>
           </ul>
           <p>Photos of those egg cases, from the one a female German cockroach carries to the ones other species leave in protected spots, are in our guide to <Link href="/blog/cockroach-eggs">cockroach egg cases</Link>, written for US readers, along with what finding one means.</p>
+          <p>The nymphs that hatch from them are shown species by species in our photo guide to <Link href="/blog/what-do-baby-cockroaches-look-like">what baby cockroaches look like</Link>, also written for US readers.</p>
           <p>If the curve never falls &mdash; if a later week looks the same as an early one &mdash; the boards are telling you something structural. Common culprits: bait competing with an unsecured food or water source, residue from an earlier spray, too few stations, stations placed too far from harbourage, or a source outside your walls entirely.</p>
 
           <h2>What Roach Traps Cannot Do</h2>
@@ -450,6 +452,7 @@ export default function BestRoachTrapsCanadaPage() {
             <li><strong>Asthma in the household.</strong> Cockroach allergens in droppings and shed skins are an established asthma trigger, particularly in children. That converts a nuisance into a health issue and shortens the acceptable timeline considerably.</li>
             <li><strong>Any multi-unit building.</strong> Coordinated treatment of adjacent units is the only thing that works, and it requires authority you do not have as a tenant.</li>
           </ul>
+          <p>Whether cockroaches bite, and the health problems that are better documented than bites, are covered in our US guide to <Link href="/blog/do-cockroaches-bite">cockroach bites and health risks</Link>.</p>
           <p>A professional brings what Canadian consumers cannot buy: commercial-class gel baits, insect growth regulators that break the breeding cycle, HEPA vacuum removal of live harbourages, and in apartments the mandate to treat the units actually driving your problem. Expect a program &mdash; inspection, baiting, and follow-up visits spread over several weeks &mdash; and be suspicious of anyone proposing a single fogging visit. To sanity-check a quote before you accept it, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what interior general-pest work typically runs.</p>
 
           <h2>Frequently Asked Questions</h2>
