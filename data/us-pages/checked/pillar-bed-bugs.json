@@ -2,7 +2,7 @@
  "id": "pillar-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f50a78a71c6858c3bfe03f360dfcc65a82541fb105b9acaf049d2f4a70ff3801",
+ "sha": "ffccc8ae680df690a9c4bbd2e9a507466116f8387753ba0f7d70079a0051094c",
  "claimsChecked": 145,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/blog/signs-of-bed-bugs-checklist"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026: one sentence added at the end of 'What if it turns out not to be bed bugs?' linking the new /blog/bed-bug-bites-but-no-bed-bugs; no fact changed.",
+   "previousSha": "f50a78a71c6858c3bfe03f360dfcc65a82541fb105b9acaf049d2f4a70ff3801"
+  }
  ]
 }
