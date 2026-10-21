@@ -74,6 +74,7 @@
 
     { "type": "h2", "text": "Is the noise during the day? Gray squirrels" },
     { "type": "p", "text": "Noise in daylight points to gray squirrels, the attic animal that keeps a daytime schedule in UGA Extension's guide. [Penn State Extension's tree squirrel guide](https://extension.psu.edu/tree-squirrels) says squirrels chew siding and under the eaves to make openings for their nests, then chew insulation and the insulation around wires, a habit it calls dangerous because bare wires may cause a fire. Gray squirrels usually have two litters a year, breeding in mid-December or early January and again in June, and the young are weaned after two months." },
+    { "type": "p", "text": "To confirm squirrels by what they leave behind, [the guide to squirrel poop](/blog/squirrel-poop) shows gray squirrel droppings next to rat and mouse droppings and explains where squirrels leave them in an attic." },
     { "type": "figure", "src": "/guides/photos/eastern-gray-squirrel.webp", "width": 1072, "height": 1072, "alt": "Eastern gray squirrel sitting upright in green grass, with gray fur, a pale belly and a bushy tail", "caption": "An eastern gray squirrel. Gray squirrels weigh 15 to 24 ounces, far lighter than a raccoon or an opossum.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/366669598" },
     { "type": "media", "needed": "Photo taken from the ground of a gray squirrel going into a chewed opening at a soffit, eave or gable vent of a house, showing how big the hole is" },
 

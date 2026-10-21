@@ -2,7 +2,7 @@
  "id": "rat-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5c5f47abb9701c00668bea27d481c971800baa1f024e7e16ab6ff252d8af7dc5",
+ "sha": "137de5a9cc6a2c99143ef55059131f09001b3c32c38652329feba68dff095566",
  "claimsChecked": 198,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 8,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026: one sentence added after the urine-stain paragraph in 'How can you tell if rat droppings are fresh?' linking the new /blog/mouse-urine; no fact changed.",
+   "previousSha": "5c5f47abb9701c00668bea27d481c971800baa1f024e7e16ab6ff252d8af7dc5"
+  }
+ ]
 }

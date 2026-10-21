@@ -241,6 +241,7 @@ export default function MouseBaitStationCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="stainless steel wool rodent exclusion">Steel wool gap fill &rarr;</BuyLink>
           </div>
+          <p>For more on that exclusion step, our North American guides cover <Link href="/blog/can-mice-climb-walls">the gaps mice can climb to and squeeze through</Link>, including openings well above the floor, and <Link href="/blog/steel-wool-for-mice">sealing gaps with steel wool</Link>, from which kind to buy to locking it in with caulk.</p>
           <p>One thing not to spend money on: ultrasonic plug-in repellers, which have failed controlled testing repeatedly and to which mice habituate within days. <Link href="/blog/ultrasonic-pest-repellers-do-they-work">We reviewed the research here</Link>.</p>
 
           <h2>When Is It Time to Call a Professional?</h2>

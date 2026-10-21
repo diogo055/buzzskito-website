@@ -2,7 +2,7 @@
  "id": "animal-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7236642ff51bb7049bfda01b539c524af44f03bf6fc3257d6aeb66c498aab46f",
+ "sha": "632cde54bfa83d1f5557b525d627b55116882d431870ce973e0eb2a8a697e544",
  "claimsChecked": 223,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 6,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026: one sentence added after the indoor droppings paragraph in 'What droppings turn up in the garage, kitchen or basement?' linking the new /blog/mouse-urine; and in 'What animal poop is in my yard?' the now-false 'the squirrel poop guide will cover squirrels' changed to 'covers squirrels' (the page went live today); no fact changed.",
+   "previousSha": "7236642ff51bb7049bfda01b539c524af44f03bf6fc3257d6aeb66c498aab46f"
+  }
+ ]
 }

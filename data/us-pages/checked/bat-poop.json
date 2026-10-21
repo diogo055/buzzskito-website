@@ -2,7 +2,7 @@
  "id": "bat-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1f799349d2f19d1040446ab23f49eb36d920d7736bdd1ec4fbb94bc2fef0e384",
+ "sha": "5926183c8a5d0506c4c845b1e150306b05d5efabe2dd35378b96703979d311ce",
  "claimsChecked": 179,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "Oct 21, 2026: one sentence added after the staining list in 'Where do bat droppings show up?' linking the new /blog/mouse-urine; no fact changed.",
+   "previousSha": "1f799349d2f19d1040446ab23f49eb36d920d7736bdd1ec4fbb94bc2fef0e384"
+  }
+ ]
 }
