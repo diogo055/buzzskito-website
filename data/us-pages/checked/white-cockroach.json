@@ -1,0 +1,10 @@
+{
+ "id": "white-cockroach",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f4cb29fff8a0cd069fad57e81ff4833fffa5fa7953e32c5c5e4b13d591707634",
+ "claimsChecked": 280,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-21"
+}
