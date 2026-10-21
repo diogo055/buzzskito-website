@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5fa0d25e3f4a870a1c6250a7bc090a9b28b84408bfc72a7fe3eb36f700e6acca",
+ "sha": "50b8d26067aff29f1cc8356d27e7f966d8811cc4e720649c23efdec9fadf7927",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -27,6 +27,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the bat bug location paragraph in 'How do you tell a bat bug or swallow bug from a bed bug?' linking the new /blog/bat-poop; no fact changed.",
    "previousSha": "5ee3ff618f56922a9dd3b5341bcb76a14b496a5b0592cfd06d081d9dd6655e7d"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: three sentences added: /blog/signs-of-carpet-beetles in 'How do carpet beetles and their larvae differ from bed bugs?', /blog/bugs-that-look-like-fleas in the Fleas subsection, /blog/bed-bug-bites-but-no-bed-bugs in 'Can you identify the bug from the bites?' (no new facts)",
+   "previousSha": "5fa0d25e3f4a870a1c6250a7bc090a9b28b84408bfc72a7fe3eb36f700e6acca"
   }
  ]
 }

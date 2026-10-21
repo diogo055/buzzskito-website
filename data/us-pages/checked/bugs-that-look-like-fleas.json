@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "635a683789c655729f963bbe46430ad5bd99681fc3a631ed020079838a188ade",
+ "sha": "630c2c308c787872249b806520dc3b6509380e708e1213ef5abdb984c36f2428",
  "claimsChecked": 440,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 13,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: one sentence linking /blog/signs-of-carpet-beetles added in 'Could it be a carpet beetle larva?' (no new facts)",
+   "previousSha": "635a683789c655729f963bbe46430ad5bd99681fc3a631ed020079838a188ade"
+  }
+ ]
 }

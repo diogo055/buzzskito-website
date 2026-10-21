@@ -2,7 +2,7 @@
  "id": "bug-bites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4cbcd2b5b09c1182f795aaa5243702d407bde28c3510dbc81f4f3e4dbb644281",
+ "sha": "d2c4490110206b040006d660b608e0cbe80ae5e33fbb5a1f43cbbd8757a778f9",
  "claimsChecked": 322,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added under 'How can you tell what bit you?' linking the new bug bite identifier tool (/tools/bug-bite-identifier); no fact changed.",
    "previousSha": "735b3b2ff4cd021bbc9bfb13eb525941cd4c10685cb91bab1ccaf6788bcde4a7"
+  },
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: one sentence linking /blog/bed-bug-bites-but-no-bed-bugs added in section 'What if you still cannot tell what bit you?' (no new facts)",
+   "previousSha": "4cbcd2b5b09c1182f795aaa5243702d407bde28c3510dbc81f4f3e4dbb644281"
   }
  ]
 }

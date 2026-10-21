@@ -2,9 +2,16 @@
  "id": "sugar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "950e9da6842894dd0f4911bcf7179881f7029b422c3d71026537ff36d4eed139",
+ "sha": "14131273c0f1c08ab778f59d689ad2f86cde4e4eac8c7b0180c2f00602cc7f46",
  "claimsChecked": 148,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: one sentence linking /blog/do-ants-bite added in 'Are sugar ants harmful?' (no new facts)",
+   "previousSha": "950e9da6842894dd0f4911bcf7179881f7029b422c3d71026537ff36d4eed139"
+  }
+ ]
 }

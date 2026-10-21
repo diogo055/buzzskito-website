@@ -2,7 +2,7 @@
  "id": "bed-bug-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "922648ad0346eb3132d06ffecf61a7a5e58691153dbd05f79f8fe8cb6a6ed22c",
+ "sha": "7d12f47ca33f82bdb874e2567e00ebd152fa6403e4687305996926dfedfe6ddf",
  "claimsChecked": 224,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: one sentence linking /blog/bed-bug-bites-but-no-bed-bugs added in 'Bed bug poop but no bugs?' (no new facts)",
+   "previousSha": "922648ad0346eb3132d06ffecf61a7a5e58691153dbd05f79f8fe8cb6a6ed22c"
+  }
+ ]
 }

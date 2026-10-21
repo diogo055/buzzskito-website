@@ -421,6 +421,7 @@ export default function BedBugShellsCasingsPage() {
             caption="A carpet beetle larva, genus Anthrenus. The skins it sheds are bristly and banded too, where a bed bug shell is smooth, with no hairs at all."
           />
           <p>Location helps too. Bed bug casings concentrate within reach of where a person sleeps, because that is where the bugs harbour. Carpet beetle skins turn up in wool rugs, closets, stored blankets, under furniture that never moves, and around light fixtures and window sills where the adult beetles die. If the husks are hairy and they are in the closet rather than the bed, close this page and go look at your stored wool &mdash; you have a textile pest, and none of the bed bug spending applies. Our <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada">carpet beetle guide</Link> covers that job, and <Link href="/blog/bugs-that-look-like-bed-bugs-canada">bugs that look like bed bugs</Link> works through the other look-alikes if the husk turns out to have a live version somewhere.</p>
+          <p>Photos of the other signs a carpet beetle problem leaves, from droppings to grazed patches in wool, and where to look for each, are in <Link href="/blog/signs-of-carpet-beetles">what a carpet beetle infestation leaves behind</Link>.</p>
 
           <h2>Where the Shells Are Pointing</h2>
           <p>Moulting happens in the harbourage, not out in the open, which makes a concentration of husks a direction sign rather than just a finding. Follow it. In order of how often they hold the population:</p>

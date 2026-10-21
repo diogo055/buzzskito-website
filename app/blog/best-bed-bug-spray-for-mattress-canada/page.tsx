@@ -623,6 +623,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
 
           <h2>Where the Mattress Spray Fits in the Bigger Plan</h2>
           <p>A mattress spray is a fast, satisfying, honest tool &mdash; it drops the bugs you can see and buys you a better night quickly. What it is not is a whole solution. Eradication comes from stacking the spray with the tools that cover its blind spots: heat for the eggs, an encasement for the survivors, interceptors for monitoring, and residual treatment on the frame and baseboards where the population spreads. If you want the full sequence in one place, start with our <Link href="/blog/bed-bug-control-canada-hub">bed bug control hub</Link> and the <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat treatment</Link> guide, then layer the spray in as the knockdown step. If you are still deciding between chemical and heat approaches overall, the <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical comparison</Link> lays out the trade-offs.</p>
+          <p>Reading from the United States? <Link href="/blog/how-to-get-rid-of-bed-bugs">The US step-by-step plan for getting rid of bed bugs</Link> follows the EPA&rsquo;s do-it-yourself sequence, from confirming and containing the bugs to heat, steam, registered products and follow-up inspections.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

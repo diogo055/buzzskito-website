@@ -315,6 +315,7 @@ export default function HowToGetRidOfFruitFliesCanadaPage() {
             alt="Fungus gnat on wood: a slender fly with long legs, long antennae and dusky wings"
             caption="A female dark-winged fungus gnat (family Sciaridae) on wood. Look for the mosquito-like shape and the dangly legs."
           />
+          <p>If the small dark flies match neither, <Link href="/blog/tiny-black-bugs">tiny black bugs, room by room</Link> sorts the other suspects, such as drain flies and phorid flies, by where in the house you find them.</p>
           <p>The fungus gnat fix is BTI — the same larvicidal bacterium used against mosquito larvae — applied to the plant soil. Mosquito Bits are the granular product labelled for fungus gnat use: sprinkle into the pot or soak into the watering can, and the larvae in the soil die off within days. We cover the difference between the granules and the doughnut-shaped dunks in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>, and the full BTI product landscape in our <Link href="/blog/mosquito-dunks-canada-guide">mosquito dunks guide</Link>. Let the soil surface dry between waterings and the gnats lose their nursery entirely.</p>
 
           <h2>Prevention: Keeping the August–October Spike Out of Your Kitchen</h2>

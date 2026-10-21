@@ -235,6 +235,7 @@ export default function TickVsBedBugPage() {
             alt="Adult bed bug seen from above beside a millimetre scale, with two antennae and a flat, oval, banded body about 5 mm long"
             caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. Look for the two antennae at the front; a tick has none."
           />
+          <p>For the bed bug side of the comparison, <Link href="/blog/what-do-bed-bugs-look-like">what bed bugs look like from egg to adult</Link> sets out size, shape and colour stage by stage, and how a blood meal changes them.</p>
 
           {/* Ticks vs bed bugs — direct-answer section; every fact below restates the ID chart and the sections above and below it on this page */}
           <h2>Ticks vs Bed Bugs: The Four Differences That Never Change</h2>
@@ -371,6 +372,7 @@ export default function TickVsBedBugPage() {
             <li><strong>Cold.</strong> Freezing works but slowly &mdash; the EPA notes items must be held at 0&deg;F (&minus;18&deg;C) for around four days, which rules out most household freezers that are opened daily.</li>
           </ul>
           <p><strong>What does not work:</strong> bug bombs and total-release foggers, which scatter bed bugs deeper into voids without killing the population; rubbing alcohol, which is a fire risk and kills only on direct contact; and leaving an infested mattress on the curb, which spreads the problem to a neighbour without solving yours. <Link href="/blog/what-kills-bed-bugs-instantly-canada">Our full breakdown of what actually kills bed bugs quickly</Link> goes method by method.</p>
+          <p>Whether rubbing alcohol is worth trying at all is answered in <Link href="/blog/does-alcohol-kill-bed-bugs">our guide to rubbing alcohol and bed bugs</Link>, which goes through the university studies on adults, nymphs and eggs and the fire risk around a bed.</p>
 
           <RelatedLinks path="/blog/tick-vs-bed-bug" />
           <h2>Flea, Tick, or Bed Bug? The Three-Way Check</h2>
@@ -469,6 +471,7 @@ export default function TickVsBedBugPage() {
           <h2>Buying the Right Product in the Right Country</h2>
           <p><strong>Every pesticide claim on a label is a legal claim, and it is country-specific.</strong> The paragraph above is right that Canadians should check for a PCP registration number &mdash; issued by Health Canada&rsquo;s Pest Management Regulatory Agency &mdash; because a product without one is not legally registered for that use in Canada, no matter how many American reviews it has. The parallel test in the United States is an <strong>EPA Registration Number</strong> printed on the label, and the EPA maintains a <a href="https://www.epa.gov/bedbugs/bed-bug-product-search-tool" target="_blank" rel="noreferrer nofollow">searchable list of products registered for bed bugs</a> so you can confirm one before buying.</p>
           <p>This cuts both ways, and it is the single most common way people waste money on this problem. A bed bug product recommended on a US site may have no Canadian registration; a Canadian formulation may not be sold at all in the US. <strong>Match the label to the country you are standing in</strong> &mdash; PCP number in Canada, EPA registration number in the United States &mdash; and follow the label directions exactly, because on both sides of the border those directions are the legally enforceable part.</p>
+          <p>Reading this in the United States? <Link href="/blog/how-to-get-rid-of-bed-bugs">Our US plan for getting rid of bed bugs</Link> takes the EPA&rsquo;s do-it-yourself steps in order, from confirming the bug to inspecting until the traps stay empty.</p>
 
           <h2>Tick Season by Region &mdash; United States and Canada</h2>
           <p><strong>There is no single tick season across North America, and in one region the calendar is inverted.</strong> The CDC treats April through September as the national peak exposure window, but adds that ticks bite whenever temperatures are above freezing &mdash; which in warm states means effectively year-round. A reader in California who is told &ldquo;tick season is May to September&rdquo; has been given the wrong answer.</p>

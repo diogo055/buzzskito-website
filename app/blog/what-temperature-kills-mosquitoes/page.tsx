@@ -524,6 +524,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           <h2>What temperature do mosquitoes stop coming out?</h2>
           <p><strong>50&deg;F (10&deg;C) is the line.</strong> Below it mosquitoes stop flying, stop host-seeking and stop feeding; they either find shelter to overwinter or die off. You will notice the decline well before that threshold &mdash; below 60&deg;F (15&deg;C) they fly poorly and biting pressure drops sharply, which is why a cool evening feels dramatically less buggy than a warm one in the same week.</p>
           <p>That single number is the most portable fact on this page. It is what sets the start of the season in Alaska in mid-June and in South Florida in February; it is what ends the season in Ontario in October and never ends it in Honolulu. If you want one temperature to watch, watch the overnight low against 50&deg;F, not the daytime high.</p>
+          <p>How that short Alaska season plays out by region, and why it brings so many mosquitoes, is covered in <Link href="/blog/alaska-mosquitoes">the guide to mosquitoes in Alaska</Link>.</p>
 
           <h2>What temperature do mosquitoes go away at night?</h2>
           <p><strong>The same 50&deg;F (10&deg;C) threshold applies after dark.</strong> An evening that cools below 60&deg;F (15&deg;C) makes biting noticeably lighter, and once the overnight low drops under 50&deg;F mosquitoes stop flying altogether. A clear, cool, breezy night feels bug-free while a warm, humid, still one does not &mdash; it is temperature and wind doing that, not darkness.</p>

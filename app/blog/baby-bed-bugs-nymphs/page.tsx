@@ -497,6 +497,7 @@ export default function BabyBedBugsNymphsCanadaPage() {
             <li><strong>Space heaters as DIY whole-room heat.</strong> Consumer heaters do not hold a room at a lethal core temperature evenly, and the attempt is a fire risk. Contained heat &mdash; a purpose-built chamber or bag for items, or a professional whole-room treatment &mdash; is the version that works.</li>
             <li><strong>A second mattress.</strong> Repeating for emphasis, because it is the most expensive mistake on the list.</li>
           </ul>
+          <p>For rubbing alcohol in particular, the university tests on adults, nymphs and eggs, and the fire risk around a bed, are covered in <Link href="/blog/does-alcohol-kill-bed-bugs">whether rubbing alcohol kills bed bugs</Link>.</p>
 
           <h2>When a Professional Is the Cheaper Answer</h2>
           <p>Finding nymphs does not automatically mean calling someone &mdash; a single bed in a single room, caught early, is a genuinely winnable DIY job with encasements, interceptors, steam and a registered residual applied on a schedule rather than once. But be honest about the tipping point, because serial DIY buying is how people end up spending more than a treatment would have cost.</p>

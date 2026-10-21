@@ -2,9 +2,16 @@
  "id": "flying-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "987478b018a0100e54b6c33a24da6fe8aba5887f1a653cde36d97d529f5dfc34",
+ "sha": "0e033479bc8ed75cdcd55827a4a0fbd61bc99cc927b76157f871164f4f70f2f1",
  "claimsChecked": 64,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: one sentence linking /blog/how-many-ants-are-in-the-world added in 'Why do flying ants suddenly appear?' (no new facts)",
+   "previousSha": "987478b018a0100e54b6c33a24da6fe8aba5887f1a653cde36d97d529f5dfc34"
+  }
+ ]
 }

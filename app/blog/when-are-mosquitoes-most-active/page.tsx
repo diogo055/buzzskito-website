@@ -402,6 +402,7 @@ export default function WhenAreMosquitoesMostActivePage() {
 
           <h3>Alaska</h3>
           <p>Short and intense: mosquitoes emerge as the snowmelt pools thaw in May, peak from mid-June to mid-July, and drop away through August. Alaska&rsquo;s particular quirk is light. Sub-arctic summer twilight lasts for hours and never fully darkens in the north, which stretches the dusk window so far that biting can continue through most of what passes for night in June. The upside: West Nile virus is not established in Alaska, so the problem is nuisance biting rather than disease risk.</p>
+          <p>Why Alaska breeds so many mosquitoes, how big they really get and how visitors protect themselves are covered in <Link href="/blog/alaska-mosquitoes">our guide to Alaska mosquitoes</Link>.</p>
 
           <h2>What Month Is Worst for Mosquitoes?</h2>
           <p><strong>July and August, across most of the United States and Canada.</strong> The exceptions run in both directions: the Gulf Coast, Florida and Hawaii peak from June through September inside a February-to-November season, while Alaska compresses its entire worst stretch into mid-June to mid-July. Southern Ontario peaks from late June through early August.</p>

@@ -2,9 +2,16 @@
  "id": "bullet-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "aa9cad344acb97c05b4c67adbd818edb53d519592db3a6c9a9c795f643e580cb",
+ "sha": "a7b9289d59668828d39a1219b8d94cc91e6ec74edb8a31ae9c226275d36ee13c",
  "claimsChecked": 69,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 10,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-21",
+   "note": "link-in 2026-10-21: one sentence linking /blog/how-many-ants-are-in-the-world added in 'How does a bullet ant colony live?' (no new facts)",
+   "previousSha": "aa9cad344acb97c05b4c67adbd818edb53d519592db3a6c9a9c795f643e580cb"
+  }
+ ]
 }

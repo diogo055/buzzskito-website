@@ -437,6 +437,7 @@ export default function BedBugStainsCanadaPage() {
             alt="Bed bug nymph on white fabric: a small, amber-coloured oval insect with six legs"
             caption="A bed bug nymph, Cimex lectularius, on fabric. Nymphs moult on the way to adulthood, so look in the same few centimetres for the empty, translucent shells they leave behind."
           />
+          <p>To match a shell, an egg or a live bug against each life stage, <Link href="/blog/what-do-bed-bugs-look-like">what a bed bug looks like at each stage</Link> gives the size, shape and colour of the egg, every nymph stage and the adult before and after a meal.</p>
           <p>And one thing that is <em>not</em> evidence, no matter how convincing it feels: bites. Skin reactions to bed bug bites vary enormously between people, several other insects produce a similar-looking mark, and some people show no reaction at all &mdash; so a bite pattern can neither confirm nor rule out an infestation. Our guide to <Link href="/blog/bed-bug-bites">what bed bug bites look like</Link> covers why, and <Link href="/blog/tick-vs-bed-bug">tick vs bed bug</Link> handles the other insect that most often gets blamed. If you have bites and no physical evidence anywhere, the honest position is that you do not know yet &mdash; and interceptors, not a spray, are what resolve it.</p>
 
           <RelatedLinks path="/blog/bed-bug-stains-poop-droppings-canada" />
