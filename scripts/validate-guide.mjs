@@ -106,6 +106,9 @@ const AUTH_HOSTS = [
   // Internet Center for Wildlife Damage Management (university extension collaboration: Cornell, Clemson,
   // Nebraska, Utah State, with USDA) and Bat Conservation International: the wildlife and droppings pages (Oct 20, 2026)
   'icwdm.org', 'batcon.org',
+  // Extension Foundation's national Cooperative Extension sites (USDA NIFA funded), e.g.
+  // pestsinthehome.extension.org: the squirrel droppings size (Oct 21, 2026)
+  'extension.org',
 ]
 // Canadian governments and universities do not use .gov / .edu (the province pages cite them)
 const CA_AUTH = [
