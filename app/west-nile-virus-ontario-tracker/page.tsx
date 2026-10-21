@@ -219,7 +219,7 @@ const FAQS = [
   },
   {
     question: 'Is this tracker a substitute for medical advice?',
-    answer: 'No. This page aggregates publicly available surveillance data for educational purposes and is not medical advice or diagnostic. If you develop a high fever, severe headache, stiff neck, confusion, muscle weakness or any neurological symptoms during mosquito season, contact your family doctor, Telehealth Ontario (1-866-797-0000), or seek emergency care. Most people who are infected have no symptoms, but severe neuroinvasive disease is a medical emergency.',
+    answer: 'No. This page aggregates publicly available surveillance data for educational purposes and is not medical advice or diagnostic. If you develop a high fever, severe headache, stiff neck, confusion, muscle weakness or any neurological symptoms during mosquito season, contact your family doctor, Health811 (call 811), or seek emergency care. Most people who are infected have no symptoms, but severe neuroinvasive disease is a medical emergency.',
   },
 ]
 
@@ -590,7 +590,7 @@ export default function WestNileVirusOntarioTrackerPage() {
               <li>• Muscle weakness, tremors, or difficulty walking</li>
               <li>• Vision changes, seizures, or loss of consciousness</li>
             </ul>
-            <p className="text-xs mt-3 opacity-90 italic">Adults over 60 and people with weakened immune systems are at higher risk of severe disease. Contact your family doctor, Telehealth Ontario (1-866-797-0000), or seek emergency care. There is no specific antiviral treatment &mdash; care is supportive, which makes early recognition important.</p>
+            <p className="text-xs mt-3 opacity-90 italic">Adults over 60 and people with weakened immune systems are at higher risk of severe disease. Contact your family doctor, Health811 (call 811), or seek emergency care. There is no specific antiviral treatment &mdash; care is supportive, which makes early recognition important.</p>
           </div>
         </div>
       </section>
@@ -743,7 +743,7 @@ export default function WestNileVirusOntarioTrackerPage() {
           </div>
           <p className="text-xs text-brand-300 mt-5">BuzzSkito Mosquito &amp; Tick Control &middot; Mississauga, ON &middot; serving 19+ GTA cities. {PROMISES.licence}. {PROMISES.labelLine}.</p>
           <p className="mt-6 text-xs italic text-brand-300 max-w-2xl mx-auto">
-            This page provides educational information aggregated from public sources. It is not medical advice or diagnostic. For suspected symptoms, contact your family doctor, Telehealth Ontario (1-866-797-0000), or seek emergency care.
+            This page provides educational information aggregated from public sources. It is not medical advice or diagnostic. For suspected symptoms, contact your family doctor, Health811 (call 811), or seek emergency care.
           </p>
         </div>
       </section>

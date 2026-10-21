@@ -251,11 +251,11 @@ const FAQS = [
   },
   {
     question: 'How long does a blacklegged tick need to be attached to transmit Lyme disease?',
-    answer: 'Blacklegged ticks generally need to be attached for 24–36 hours before they can transmit the Lyme bacterium Borrelia burgdorferi, which is why daily tick checks after outdoor activity dramatically reduce risk. If a blacklegged tick is found attached for 24 or more hours in an established risk area where infection prevalence exceeds 20%, a doctor may prescribe a single preventive dose of doxycycline within 72 hours (post-exposure prophylaxis). This page is educational and not a substitute for medical advice — contact your doctor, Telehealth Ontario, or your local public health unit after a tick bite.',
+    answer: 'Blacklegged ticks generally need to be attached for 24–36 hours before they can transmit the Lyme bacterium Borrelia burgdorferi, which is why daily tick checks after outdoor activity dramatically reduce risk. If a blacklegged tick is found attached for 24 or more hours in an established risk area where infection prevalence exceeds 20%, a doctor may prescribe a single preventive dose of doxycycline within 72 hours (post-exposure prophylaxis). This page is educational and not a substitute for medical advice — contact your doctor, Health811 (call 811), or your local public health unit after a tick bite.',
   },
   {
     question: 'Is this page a substitute for medical advice?',
-    answer: 'No. This page aggregates publicly available tick and Lyme disease statistics from Public Health Ontario, the Public Health Agency of Canada, and other official sources for educational purposes. It is not diagnostic. If you have a tick bite, a bullseye rash, or unexplained symptoms after possible tick exposure, contact your family doctor, Telehealth Ontario (1-866-797-0000), or your local public health unit. In an emergency (facial drooping, irregular heartbeat, or severe headache with neck stiffness), go to an Emergency Room.',
+    answer: 'No. This page aggregates publicly available tick and Lyme disease statistics from Public Health Ontario, the Public Health Agency of Canada, and other official sources for educational purposes. It is not diagnostic. If you have a tick bite, a bullseye rash, or unexplained symptoms after possible tick exposure, contact your family doctor, Health811 (call 811), or your local public health unit. In an emergency (facial drooping, irregular heartbeat, or severe headache with neck stiffness), go to an Emergency Room.',
   },
 ]
 

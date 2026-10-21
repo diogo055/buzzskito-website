@@ -503,7 +503,7 @@ export default function DeadliestAnimalInCanadaPage() {
           traffic page, read mostly outside the GTA (lib/page-roles.ts). The disclaimer stays. */}
       <section className="bg-white px-4 py-8 border-t border-gray-200">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs text-gray-500">Educational resource &mdash; not medical advice. For confirmed disease exposure, contact your doctor, Telehealth Ontario, or your local Public Health Unit.</p>
+          <p className="text-xs text-gray-500">Educational resource &mdash; not medical advice. For confirmed disease exposure, contact your doctor, Health811 (call 811), or your local Public Health Unit.</p>
         </div>
       </section>
 

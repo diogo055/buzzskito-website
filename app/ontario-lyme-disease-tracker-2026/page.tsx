@@ -318,7 +318,7 @@ const FAQS = [
   },
   {
     question: 'Is this tracker a substitute for medical advice?',
-    answer: 'No. This page provides educational information about tick-borne disease surveillance and prevention in Ontario. It is not diagnostic. If you have a confirmed tick bite, an expanding rash, or unexplained symptoms after potential tick exposure, contact your family doctor, Health811 / Telehealth Ontario (1-866-797-0000), or your local public health unit. In emergencies (facial drooping, irregular heartbeat, severe headache with neck stiffness), go to an Emergency Room.',
+    answer: 'No. This page provides educational information about tick-borne disease surveillance and prevention in Ontario. It is not diagnostic. If you have a confirmed tick bite, an expanding rash, or unexplained symptoms after potential tick exposure, contact your family doctor, Health811 (call 811), or your local public health unit. In emergencies (facial drooping, irregular heartbeat, severe headache with neck stiffness), go to an Emergency Room.',
   },
 ]
 
@@ -772,7 +772,7 @@ export default function OntarioLymeTrackerPage() {
             <p className="mb-2">BuzzSkito Mosquito &amp; Tick Control · Mississauga, ON · serving the GTA</p>
             <p className="mb-1">📞 <a href="tel:+12892165030" className="text-amber-400 underline">(289) 216-5030</a> · ✉️ <a href="mailto:info@buzzskito.ca" className="text-amber-400 underline">info@buzzskito.ca</a></p>
             <p className="mt-4 text-xs italic opacity-75 max-w-2xl mx-auto">
-              This page provides educational information aggregated from published government and peer-reviewed sources. It is not medical advice. For confirmed tick bites, suspected symptoms, or post-exposure prophylaxis questions, contact your family doctor, Health811 / Telehealth Ontario (1-866-797-0000), or your local public health unit.
+              This page provides educational information aggregated from published government and peer-reviewed sources. It is not medical advice. For confirmed tick bites, suspected symptoms, or post-exposure prophylaxis questions, contact your family doctor, Health811 (call 811), or your local public health unit.
             </p>
           </div>
         </div>
