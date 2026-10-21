@@ -1,0 +1,10 @@
+{
+ "id": "squirrel-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ede2aab93c150d13d14cd13801d41745101027f725fe1d5a5d549f9f3b4784f7",
+ "claimsChecked": 376,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 22,
+ "checkedOn": "2026-10-21"
+}
