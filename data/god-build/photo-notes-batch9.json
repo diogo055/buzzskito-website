@@ -1,0 +1,206 @@
+{
+ "_readme": "Scout notes for the ninth photo batch (Oct 21, 2026): white (freshly molted) cockroaches for the new page white-cockroach, signs for the new pages signs-of-carpet-beetles and signs-of-cockroaches, plus two nice-to-haves (a brown-banded cockroach on a wall; Oriental cockroaches in a drain setting). Same format as batches 7 and 8: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; slugs as in plan.src.json, learn/<slug> for the Learning Centre), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. All 14 images were looked at after conversion and show what their subject lines say, so none was removed. One licence finding worth keeping: the best carpet beetle damage photos on Commons come from Bugwood (Clemson University - USDA Cooperative Extension Slide Series). Commons tags one of them public domain, but Bugwood's own page, read in a browser on Oct 21, says 'licensed under a Creative Commons Attribution 3.0 License' and 'Commercial use is prohibited without permission from the photographer or copyright owner', so both were refused (details in gaps). New ID pages want at least 3 photos: white-cockroach has 4 new ones; signs-of-carpet-beetles has 3 new ones plus carpet-beetle, carpet-beetle-larva and black-carpet-beetle on record; signs-of-cockroaches has 3 new ones plus white-american-cockroach-shed-skin (a cast skin), german-cockroach-frass-cabinet, american-cockroach-droppings-trap and the egg-case photos on record. Write captions from these notes and the record together, in US spelling and US units.",
+ "candidates": [
+  {
+   "id": "white-american-cockroach-shed-skin",
+   "forPages": [
+    "white-cockroach",
+    "signs-of-cockroaches",
+    "american-cockroaches",
+    "what-do-baby-cockroaches-look-like"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 398937495 of Periplaneta americana (American Cockroach), Jackson, Georgia (30233), 2026-09-10, by Christine Braaten; her description: 'Chicken coop cockroach molting'. Species identified by the observer and confirmed by dhricenak (about 214,000 identifications) and shroom_spotting. Photo 2 of 2 (photo 1 shows the white cockroach alone).",
+   "caveats": "Night, flash, on a wooden board in a chicken coop. Right: a freshly molted cockroach, cream-white all over with dark eyes, its new wings still crumpled pads (it has just made the final molt to adult). Left: a dark reddish-brown cast skin lying head-down, the back of the thorax and the head capsule split open with ragged, translucent edges. The source says only 'molting': that the left object is a cast skin is read from the photo (split thorax, hollow head), and that it is this cockroach's own skin is very likely (they lie together minutes after the molt) but not stated, so caption it 'beside a shed skin', not 'beside its own skin'. A chicken coop, not a home. No scale object. CC0: it can lead white-cockroach and be its share image. It also serves signs-of-cockroaches as a shed-skin photo (an American cockroach skin).",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Christine Braaten). Licence: CC0-1.0. Size: 1200x1154."
+  },
+  {
+   "id": "white-american-cockroach-wall",
+   "forPages": [
+    "white-cockroach",
+    "american-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 16997716 of Periplaneta americana, 1350 Lakeshore Dr, Coppell, Texas, 2018-09-28, by Meghan Cassidy (wildcarrot); her note: 'White roaches!!??'. Identified to species by Grant Schiermeyer (highwaytohellgrammite, about 141,000 identifications), whose identification reads: 'This roach is white because it just molted recently. When a roach molts its new cuticle is soft and white. It will harden up and get color over time.' He also annotated it as an adult; the observer agreed. Photo 1 of 2.",
+   "caveats": "Sharp, close view from above of a fully winged adult, cream-white with black eyes and a faint tan wash on the head shield, on a rough stucco wall (indoors or out is not recorded). It is what people report as an 'albino cockroach': use it for the 'it just molted' explanation. The identifier's sentence supports the mechanism, not a time span: take how fast the color comes back from a written source. No scale object. CC BY-SA, so in the body with the credit, not as a share image.",
+   "note": "Credit: (c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "american-cockroach-molting-wall",
+   "forPages": [
+    "white-cockroach",
+    "american-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'American cockroachs (Periplaneta americana).jpg', from the NY State IPM Program at Cornell University's Flickr stream (photo 10068911826, 'American Cockroach'; FlickreviewR passed CC BY 2.0 in 2015). Caption: 'American cockroaches are among the largest of the roaches in NY. They love dark, warm, wet areas such as basement boiler rooms and steam tunnels. They feed on just about anything. They also invade structures usually from sewer pipes and drains...'. The species is the institution's identification; the caption does not mention molting.",
+   "caveats": "Three American cockroaches on a rough gray concrete surface: at the top, one halfway through a molt, its white new body (head down) coming out of the reddish-brown nymph skin that still holds its abdomen; below it, two dark reddish-brown adults with the pale-rimmed head shield. The molt is plain in the frame but is our reading, not the caption's: write 'one is molting' in our own words and do not quote NYSIPM for it. The dark specks on the concrete are not identified: do not call them droppings. 931x1200 is the largest size available. CC BY 2.0: credit the NY State IPM Program at Cornell University.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 931x1200."
+  },
+  {
+   "id": "cockroach-molting-bathroom",
+   "forPages": [
+    "white-cockroach"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'Molting Cockroach - An \"Alien\" being born in the 3rd floor east bathroom!.jpg', from the Flickr stream of abbeyprivate (photo 53571620392, taken 2024-03-07), marked by the photographer with the Public Domain Mark and checked by FlickreviewR (PD-author-FlickrPDM). Commons categories: Blattodea of Louisiana; 2024 in Saint Tammany Parish, Louisiana; Ecdysis. The photographer's description: 'I have never seen a Cockroach molt before. They usually go into hiding to do so. A roach does this 8 - 13 times and always comes out white and quickly hardens and turns dark...'. No species is given by anyone.",
+   "caveats": "Flash on a white surface: a cockroach mid-molt, its pale cream new body and legs pulled almost free of the old reddish-brown nymph skin, which still sheathes the tip of the abdomen and keeps its spiny reddish legs. What it shows (a cockroach molting) is plain in the photo, so confidence is high for that; the species is not identified (the build suggests a large Periplaneta-type nymph, but do not name it). Indoors, in a building's bathroom in St. Tammany Parish, Louisiana (the photographer's words). The photographer's other statements (number of molts, lifespan) are not sources. Public domain, so it can be a lead or share image, but white-american-cockroach-shed-skin is the stronger lead because its species is confirmed.",
+   "note": "Credit: abbeyprivate, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x833."
+  },
+  {
+   "id": "carpet-beetle-adult-cast-skin-book",
+   "forPages": [
+    "signs-of-carpet-beetles",
+    "how-to-get-rid-of-carpet-beetles",
+    "beetles-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 258853298 of Anthrenus verbasci (Varied Carpet Beetle), Windsor Forest, Savannah, Georgia, 2025-01-18, by Nonbinary-Naturalist; note: 'I guess you could say it's a real bookworm'. Species confirmed by Andrew R. (escol, about 78,000 identifications, many of them skin beetles), who annotated an adult and a molt and commented 'adult and its molt probably'. Photo 1 of 3; photo 3 shows the same pair on the page edges of a book, beside a thumb.",
+   "caveats": "A mottled black, white and tan adult and, just beside it, a banded, bristly larval skin on the page edges of a book (at this magnification the paper looks like wood grain, so the caption should say 'on the edge of a book's pages'). Both are small in the frame: use it wide and say where to look. That the skin is this beetle's own is the identifier's 'probably': caption it 'a shed larval skin beside an adult'. No scale object in this frame. CC0: it can lead signs-of-carpet-beetles and be its share image.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "carpet-beetle-skins-frass",
+   "forPages": [
+    "signs-of-carpet-beetles",
+    "how-to-get-rid-of-carpet-beetles"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 117232088 of Anthrenus verbasci, Coeur d'Alene, Idaho, 2022-05-15, by John Powers (jellyturtle); note: 'They ate my fence lizard :('. Species confirmed by Derek Sikes (dssikes) and Andrew R. (escol), who annotated adult and molt. Photo 3 of 6 (photo 1: an adult beside a split black skin; photos 2 and 6: the eaten lizard).",
+   "caveats": "On white paper: dozens of pale, banded larval skins, two heaps of powdery tan droppings (frass), a few mottled adults and a thin strand of the lizard's remains. It shows what an established infestation leaves behind, but the food here was a dried lizard specimen, not fabric or carpet: say so in the caption. The observer does not say how the material was gathered. CC BY, in the body with the credit.",
+   "note": "Credit: (c) John Powers, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x966."
+  },
+  {
+   "id": "carpet-beetle-larva-frass-cast-skin",
+   "forPages": [
+    "signs-of-carpet-beetles"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Grain bait wolly bear.jpg', transferred from English Wikipedia (uploaded 2007-11-06 by Andybrookestar, self-published under CC BY-SA 3.0, 2.5, 2.0 and 1.0 and the GFDL). Description: 'The larva of A.verbasci, frass, caste skin, and a grain of Blue rodent bait damaged by the larva was found by A.R.Brookes BSc(Biol),FRES during a pest control inspection. Also photographed by Andy Brookes. The photo shows rodent grain bait which might be mistaken for rodent activity.' Identified by the photographer, an entomologist (Fellow of the Royal Entomological Society) working in pest control.",
+   "caveats": "An old slide, soft and small (805x708 is the largest available) with a warm cast: top, a banded larva surrounded by dark specks of frass; lower left, a translucent banded cast skin; right, a blackish grain of rodent bait with pale chewed patches. Use it small, beside text that names the signs (cast skins, pepper-like specks of frass). The place is not stated. The record's credit names the uploading account (Andybrookestar); the photographer is Andy (A. R.) Brookes. CC BY-SA.",
+   "note": "Credit: Original uploader was Andybrookestar at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 805x708."
+  },
+  {
+   "id": "cockroach-damaged-book",
+   "forPages": [
+    "signs-of-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library (PHIL) 26945, public domain (content provider CDC; no photographer named). Caption: 'Captured inside a residence, this image depicts a textbook damaged by cockroaches that have been feeding on the book's cover.'",
+   "caveats": "An old color slide with a strong blue cast: a dark cloth-bound textbook ('Practical Bacteriology, Blood Work, Parasitology', Blakiston) with its spine and cover grazed in pale, irregular patches, and a second, similarly damaged book beneath it. The agency names the cause; the species is not named and no date is given. Describe what is visible (surface grazed in patches, no holes). Public domain, so lead-eligible, though a feeding-damage photo is an unusual lead for a signs page: a droppings or shed-skin photo reads faster.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x669."
+  },
+  {
+   "id": "german-cockroach-egg-case-hatchlings",
+   "forPages": [
+    "signs-of-cockroaches",
+    "cockroach-eggs",
+    "german-cockroaches",
+    "what-do-baby-cockroaches-look-like",
+    "white-cockroach"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 289782406 of Blattella germanica (German Cockroach), Ontario, Canada, 2025-05-21, by Neville Park (arachnoto); description: 'Easily one of the grossest and most morbid observations I've ever made: German cockroaches hatching from an ootheca and immediately getting stuck in the sticky trap.' Species confirmed by Jiří Hromádka (sabutaro, about 244,000 identifications). Photo 2 of 3.",
+   "caveats": "Close view on a sticky trap: an adult German cockroach (side view) beside a tan, ridged egg case (ootheca), with about a dozen newly hatched nymphs, pale and nearly white with dark eyes, stuck around the case. The observer does not say the adult is the mother: caption it 'an adult beside an egg case'. Blurred green brand lettering of the trap shows, reversed, along the top edge. Taken in Ontario, Canada: on US pages leave the place out of the caption. It also serves white-cockroach: newly hatched nymphs are pale before they darken (take that from a written source). CC0: lead-eligible.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "cockroach-nymph-shed-skin",
+   "forPages": [
+    "signs-of-cockroaches",
+    "what-do-baby-cockroaches-look-like"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist needs-ID observation 343355658, Rowlett, Texas, 2026-03-16, by Vince Hale (vince13), no description. The observer first identified it as German cockroach and withdrew that; Elijah M. (bugsinmypocket) identified it to the genus Blattella and annotated it as a nymph and a molt; the observer then agreed with Blattella. Community identification: genus Blattella, two agreeing. Photo 2 of 2.",
+   "caveats": "One translucent, amber-and-brown banded nymph skin on brown cardboard, in sharp focus; it is empty (light passes through the abdominal segments, and the leg and antenna casings trail from it). Identified to genus only: in Texas, Blattella includes the German cockroach and also the Asian and field cockroaches, so caption it 'a young cockroach's shed skin', never 'German cockroach'. Where it was found (indoors or out) is not recorded. CC0, but not a lead because the identification stops at the genus; white-american-cockroach-shed-skin is the species-confirmed shed skin.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "brown-banded-cockroach-wall",
+   "forPages": [
+    "learn/cockroaches",
+    "bugs-that-look-like-cockroaches",
+    "german-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 270462125 of Supella longipalpa (Brown-banded Cockroach), Chicon St, Austin, Texas, 2024-12-09, by Alec Gosewehr; identified by the observer and confirmed by Jiří Hromádka (sabutaro). Photo 1 of 2.",
+   "caveats": "An adult, head down, on a white painted wall just under a ledge: tan wings with darker patches and a pale cross-band, spiny pale legs. Slightly soft (phone photo). Whether indoors is not recorded. The sex is not annotated (it looks broad-bodied like a female, but do not say so). Nice-to-have from the brief: the live adult on a wall the record lacked (brown-banded-cockroach-male-female is a pinned pair, brown-banded-cockroach-nymph is held in fingers). CC BY-SA.",
+   "note": "Credit: (c) Alec Gosewehr, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "brown-banded-cockroach-nymph-wall",
+   "forPages": [
+    "what-do-baby-cockroaches-look-like",
+    "learn/cockroaches",
+    "bugs-that-look-like-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 4923775 of Supella longipalpa, University of Hawai'i at Manoa, Honolulu, Hawaii, 2017-01-10, by Bill (dakoolkine); confirmed by Brandon Woo (brandonwoo, about 355,000 identifications). Single photo.",
+   "caveats": "A dark nymph seen from above on a textured wall, its two pale cross-bands (one behind the head shield, one across the middle of the body) clear; long antennae. Yellowish color cast from the light. A university building, not a home: leave the place out or name it honestly. No scale object. CC0: lead-eligible for a brown-banded section.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "oriental-cockroaches-manhole",
+   "forPages": [
+    "where-do-cockroaches-come-from",
+    "water-bugs-vs-cockroaches",
+    "oriental-cockroaches",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 2986238 of Blatta orientalis (Oriental Cockroach), 1099-1108 Michigan Ave NE, Washington, DC, 2016-04-11, by Carrie Seltzer; description: 'Crepuscular cockroaches! I've never noticed them here before but I usually walk by during the day. They were coming out of the manhole.' Species identified by Elliot Greiner (elliotgreiner, about 66,000 identifications); the observer agreed. Photo 3 of 3.",
+   "caveats": "Night, flash: dozens of dark, shiny cockroaches scattered in the grass and leaf litter around the rusty rim of a manhole cover, at the edge of a paved path; a cigarette butt at the left edge. The roaches are small in the frame but clear at 1200 px. That they came out of the manhole is the observer's statement: this frame shows them around it, not climbing out. A street, not a house. Nice-to-have from the brief (drain setting). CC BY.",
+   "note": "Credit: (c) Carrie Seltzer, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "oriental-cockroach-garage-floor",
+   "forPages": [
+    "oriental-cockroaches",
+    "water-bugs-vs-cockroaches",
+    "where-do-cockroaches-come-from",
+    "learn/cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 242704549 of Blatta orientalis, Pennsylvania, 2024-09-18, by Nelson Chu Pavlosky; description: 'In garage'. The observer identified it to the genus Blatta; Jiří Hromádka (sabutaro) and Brandon Woo (brandonwoo) identified it as Blatta orientalis. Single photo.",
+   "caveats": "A shiny black-brown adult with short wing pads, dusted with fine debris, on a gray concrete floor beside a dry leaf; sharp. The sex is not annotated: say 'adult'. A garage, not a basement, but the same bare-concrete look: fair for 'found on a basement or garage floor'. CC BY.",
+   "note": "Credit: (c) Nelson Chu Pavlosky, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "white-cockroach",
+   "why": "Covered: 4 new photos, two of them CC0 or public domain and lead-eligible. Not found: a white German cockroach with a trustworthy identification under an allowed licence, and a white cockroach beside a coin or ruler. Searched: iNaturalist (the 'Teneral' life-stage annotation is never used on cockroaches: 0 records; cockroaches annotated 'Molt': 448, of which 53 have allowed licences, research grade only for Florida woods, Pacific beetle and tawny cockroaches; description searches for molt, moult, white, albino, teneral, freshly, newly, shed, exuvia, ecdysis, skin, pale and cream: 122 records), Wikimedia Commons (molting / moulting / teneral / freshly molted / albino / white cockroach, cockroach ecdysis, exuvia, shed skin, Periplaneta americana and Blattella germanica molting, the Blattella germanica category) and CDC PHIL (cockroach series 26928 to 26947: no molting image). Refused: 'Cockroach, post-ecdysis.jpg' (public domain, a pale cockroach held in forceps that the uploader calls a German cockroach: the species is the uploader's word only and the forceps make it a poor page photo); 'Cockroach after molt.jpg' (CC BY-SA, 721x233, too small, species unidentified); 'White Cockroach1.jpg' and 'White Cockroach2.jpg' (CC BY-SA, a white nymph in Bangladesh, species unidentified; the American cockroach photos cover the same view); '2004-11-07 Blatta orientalis ecdysis.jpg' and its '2' (CC BY-SA, a captive Oriental cockroach molting in a terrarium with artificial rock: the keeper's identification and an artificial setting; a fallback for oriental-cockroaches); 'Molting cockroach.jpg' (CC BY 4.0, a large captive cockroach, species not given, likely a pet species); 'White cockroach NJ, USA.jpg' (a Madagascar hissing cockroach in a science-center enclosure); the Starr series 'cockroach that just molted on leaf' (CC BY 2.0, Maui, outdoors, unidentified); 'Newly-shed Gisborne cockroach.jpg' (CC0, a New Zealand species); iNaturalist 238957034 (research grade, a pale American cockroach in Moscow: blurry), 398627992 (Austin: not white), 179700174 (CC0, San Diego, 'Albino': needs ID, the observer's identification only), 45844286, 53225770 and 74469447 (Georgia and Missouri molts: needs ID)."
+  },
+  {
+   "slug": "signs-of-carpet-beetles",
+   "why": "Covered for cast skins and droppings: 3 new photos, plus carpet-beetle, carpet-beetle-larva and black-carpet-beetle on record. Not found: damage to wool, carpet or fabric under an allowed licence with a trustworthy identification. The two best damage photos are Clemson University - USDA Cooperative Extension Slide Series slides on Bugwood: 'Anthrenus flavipes larva adult wool.jpg' (Bugwood 1435008, described there as 'larva (left), adult (right) and typical damage to woolen cloth') and 'Anthrenus flavipes damage to cloth.jpg' (Bugwood 1233076, long chewed slits in a cloth). Commons tags the first public domain (PD-USGov-USDA, licence-reviewed 2025-04-30) and the second CC BY 3.0 US, but the Bugwood page itself, read in a browser on Oct 21, says 'licensed under a Creative Commons Attribution 3.0 License' and 'Commercial use is prohibited without permission from the photographer or copyright owner'. On an ad-supported site both are refused, and the Commons public domain tag is contradicted by the source (the script would also refuse the second: its licence map has no 'CC BY 3.0 US'). Asking Clemson or Bugwood for permission is the owner's call. Other searches: iNaturalist skin beetles (Dermestidae) annotated 'Molt' (71 with allowed licences) and description searches for wool, woolen, sweater, carpet, rug, damage, holes, eaten, skins, casings, shed, molts, closet, blanket, scarf, coat, felt, fur, silk, cashmere, clothes, fabric, textile and infestation: larvae on fabric with no damage visible (320994930, CC0, 'eating the wool socks', shows one larva on a cloth), adults on blankets and carpets, wardrobe larvae on graph paper (36012428 and 36939424, needs ID, no damage shown), Australian carpet beetles in a hand (31974708, New Zealand). Commons categories 'Textiles damaged by pests', 'Anthrenus verbasci (larva)' and 'Anthrenus (larva)', and searches in English, German and French: the textile damage there is clothes moth damage ('Mottenbefall.jpg', 'Koin syömä villatakki.jpg'), and the dermestid damage is to museum specimens. Also refused: 'Carpet Beetle Larvae.jpg' (CC BY 4.0, larvae in a cup, the uploader's identification only) and 'Sceliphron and pest.jpg' (a larva on a pinned wasp, museum damage). NPS: Conserve O Gram 3/11 (dermestid damage figures) exists only as a PDF, 3/12's Figure 16 (dermestid larval casings) is credited to Thomas Parker and refused, and 3/7 has no insect figures. CDC PHIL has only a drawing of the adult (28590)."
+  },
+  {
+   "slug": "signs-of-cockroaches",
+   "why": "Covered: a shed skin (cockroach-nymph-shed-skin; white-american-cockroach-shed-skin is the species-confirmed one), an egg case with hatchlings and feeding damage, beside german-cockroach-frass-cabinet, american-cockroach-droppings-trap and the egg-case photos on record. Not found: smear marks, and a crack or hiding place with droppings, skins and egg cases together, under an allowed licence with a trustworthy identification. Searched: iNaturalist cockroaches annotated 'Scat' (6 with allowed licences: the Blacksburg trap photo already on record as american-cockroach-droppings-trap; American cockroaches on a white surface with no droppings in view, Edinburg, 169719523, needs ID; a German cockroach on a peeling green wall among dark specks, Delhi, 146700934, the closest thing to fecal specks found, refused because only the observer has identified it and nobody has identified the specks; a bird pellet in India; two species that are not house pests) and 'Molt' (53), and description searches for infestation, droppings, frass, feces, poop, excrement, smear, specks, cabinet, kitchen, cupboard, drawer, harborage, colony, egg case, ootheca, skins, nest, pantry, stove, fridge, refrigerator, dishwasher, microwave and sink; Wikimedia Commons (cockroach infestation, nest, droppings, feces, frass, harborage, egg cases, excrement, evidence, stains, smear marks, specks, German cockroach feces and frass, plus Spanish, French and German terms; categories Oothecae, Insect feces, Blattella germanica) and the NY State IPM uploads on Commons (only the American cockroach photo taken here); CDC PHIL 16466 (1966, a garbage shed in Trenton holding a German cockroach colony: the photo shows only the shed from outside), 26943 (cockroaches crawling under a door into a home: public domain, available, not taken) and 26944 (a cockroach in a sack of potatoes, not taken). Refused: 'Blatta orientalis frass Vic Catalonia 091.JPG' (CC BY-SA: many dark droppings on a board in a damp corner, but the cockroach identification is the uploader's alone and some pellets look like mouse droppings); 'Old Ootheca.jpg' (public domain: the uploader calls it a German cockroach egg case 'stamped onto a vertical bathroom tile', but German cockroach females carry the egg case until it hatches rather than gluing it down, so the identification is doubtful); 'Audubon Insectarium Roach Infestation.jpg' (a museum exhibit); iNaturalist 238957034 (a pale American cockroach among droppings on a shelf in Moscow: blurry), 400614462, 259235452 and 335508522 (single roaches, no signs), and the other shed skins (47965095 and 62686122: identified only as cockroaches; 405294976, a Florida woods cockroach skin on a palm frond: a backlit silhouette)."
+  },
+  {
+   "slug": "oriental-cockroaches",
+   "why": "Nice-to-have covered: oriental-cockroaches-manhole (drain setting) and oriental-cockroach-garage-floor (concrete floor). No basement photo: research-grade Oriental cockroach records with allowed licences describing basement, drain, sewer, cellar, crawl space, bathtub, floor drain, damp, storm drain, pipe, gutter or laundry: none; garage: 2; manhole: 1."
+  },
+  {
+   "slug": "learn/cockroaches",
+   "why": "Nice-to-have covered: brown-banded-cockroach-wall (adult, CC BY-SA) and brown-banded-cockroach-nymph-wall (nymph, CC0), picked from a contact sheet of 16 US research-grade brown-banded cockroach records with allowed licences."
+  }
+ ]
+}

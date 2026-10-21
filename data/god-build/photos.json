@@ -114,6 +114,20 @@
    "sha256Original": "f88f370a42c964da5d5b718ee14ec8019a424a5119a63947c4da216f80829f9b"
   },
   {
+   "file": "/guides/photos/american-cockroach-molting-wall.webp",
+   "subject": "American cockroaches, Periplaneta americana, on a rough concrete surface: one (top) pulling its white new body out of its reddish-brown nymph skin as it molts, beside two dark adults (NY State IPM Program at Cornell University photograph)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_cockroachs_(Periplaneta_americana).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/American_cockroachs_%28Periplaneta_americana%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 931,
+   "height": 1200,
+   "bytes": 213986,
+   "sourceDescription": "American cockroaches are among the largest of the roaches in NY. They love dark, warm, wet areas such as basement boiler rooms and steam tunnels. They feed on just about anything. They also invade structures usually from sewer pipes and drains carrying germs and disease organisms. For more Informati",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "301d78e6a116c891388fb000f405b9e6676cf47d827d13232a459a6f7bd895ba"
+  },
+  {
    "file": "/guides/photos/american-cockroach-ootheca.webp",
    "subject": "American cockroach, Periplaneta americana, egg case (ootheca) on white paper (Sabaneta, Dominican Republic)",
    "sourceUrl": "https://www.inaturalist.org/observations/306466708",
@@ -927,6 +941,20 @@
    "sha256Original": "2abe8f973e2b56b30213cffc6611010bac6bc295c68155a64cd5f7f2bf20749f"
   },
   {
+   "file": "/guides/photos/brown-banded-cockroach-nymph-wall.webp",
+   "subject": "Brown-banded cockroach, Supella longipalpa, nymph showing its two pale bands, on a textured wall (Honolulu, Hawaii)",
+   "sourceUrl": "https://www.inaturalist.org/observations/4923775",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5998876/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 43570,
+   "sourceDescription": "Supella longipalpa",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "5ac7a783d3fe460940749a3492c3e48ed19e84a12fefa561b434e21f2997881e"
+  },
+  {
    "file": "/guides/photos/brown-banded-cockroach-nymph.webp",
    "subject": "Brown-banded cockroach, Supella longipalpa, nymph held between fingertips (Ithaca, New York)",
    "sourceUrl": "https://www.inaturalist.org/observations/370742816",
@@ -939,6 +967,20 @@
    "sourceDescription": "Supella longipalpa",
    "downloadedOn": "2026-10-16",
    "sha256Original": "b0491806cc588bf1e17b2f9f8bd0c7071c8c1e319a9e833a85f3392f8239ac21"
+  },
+  {
+   "file": "/guides/photos/brown-banded-cockroach-wall.webp",
+   "subject": "Brown-banded cockroach, Supella longipalpa, adult on a white wall below a ledge (Austin, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/270462125",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/486405163/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Alec Gosewehr, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 53386,
+   "sourceDescription": "Supella longipalpa",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "62188bdb8d704f1ac325693b094d49e45ad06532e3733431053074f928c27df5"
   },
   {
    "file": "/guides/photos/brown-dog-tick-male.webp",
@@ -1306,6 +1348,34 @@
    "sha256Original": "44f60827d536913bf3b3a1b718aada1c07286c524efcaf5e4c17f7034b848e4c"
   },
   {
+   "file": "/guides/photos/carpet-beetle-adult-cast-skin-book.webp",
+   "subject": "Varied carpet beetle, Anthrenus verbasci: adult beside a shed larval skin on the page edges of a book (Savannah, Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/258853298",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/464529035/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 157582,
+   "sourceDescription": "Anthrenus verbasci",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "a11c4b32b1b02e92c98b23f69c96fdfbc69fabcf71a5928e44aeab763c77486f"
+  },
+  {
+   "file": "/guides/photos/carpet-beetle-larva-frass-cast-skin.webp",
+   "subject": "Varied carpet beetle, Anthrenus verbasci: a larva among its droppings (frass), a shed larval skin and a grain of rodent bait the larva damaged, found during a pest control inspection by entomologist A. R. Brookes",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grain_bait_wolly_bear.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Grain_bait_wolly_bear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Original uploader was Andybrookestar at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 805,
+   "height": 708,
+   "bytes": 42282,
+   "sourceDescription": "The larva of A.verbasci , frass, caste skin, and a grain of Blue rodent bait damaged by the larva was found by A.R.Brookes BSc(Biol),FRES during a pest control inspection. Also photographed by Andy Brookes. The photo shows rodent grain bait which might be mistaken for rodent activity.",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "ed82718a8dfd0edc6849624c078336a649bc38ef16c3057586ac4f3cfa36c857"
+  },
+  {
    "file": "/guides/photos/carpet-beetle-larva.webp",
    "subject": "Carpet beetle larva",
    "sourceUrl": "https://www.inaturalist.org/observations/22181694",
@@ -1318,6 +1388,20 @@
    "sourceDescription": "Anthrenus",
    "downloadedOn": "2026-10-15",
    "sha256Original": "ee09483505f7480090233e408a55d2eecfaca1d856df1370a0a46bb67446d93e"
+  },
+  {
+   "file": "/guides/photos/carpet-beetle-skins-frass.webp",
+   "subject": "Varied carpet beetle, Anthrenus verbasci: dozens of shed larval skins, heaps of powdery droppings (frass) and a few adults, from a dried fence lizard specimen the larvae ate (Coeur d'Alene, Idaho)",
+   "sourceUrl": "https://www.inaturalist.org/observations/117232088",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318501820/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) John Powers, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 966,
+   "bytes": 153380,
+   "sourceDescription": "Anthrenus verbasci",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "8624f8ad671e3bd49801adb2c6a984f6613a13d0d247308f28dbd2d2090a2e4b"
   },
   {
    "file": "/guides/photos/carpet-beetle.webp",
@@ -1528,6 +1612,48 @@
    "sourceDescription": "Pollenia",
    "downloadedOn": "2026-10-15",
    "sha256Original": "c027213a19b97a27a743cbe22c6efb7a6bd18b20901a4d93ca3242e735e7d58f"
+  },
+  {
+   "file": "/guides/photos/cockroach-damaged-book.webp",
+   "subject": "Textbook with its cover and spine grazed by feeding cockroaches, photographed inside a home (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26945",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26945/26945.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 669,
+   "bytes": 75550,
+   "sourceDescription": "Captured inside a residence, this image depicts a textbook damaged by cockroaches that have been feeding on the book’s cover.",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "3c3863effc718dfccd20533b74a67a74bcea77902c2f97925696683196a0dac8"
+  },
+  {
+   "file": "/guides/photos/cockroach-molting-bathroom.webp",
+   "subject": "A cockroach (species not identified) pulling its white new body out of its old reddish-brown skin while molting, on a white surface in a building's bathroom (St. Tammany Parish, Louisiana)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Molting_Cockroach_-_An_%22Alien%22_being_born_in_the_3rd_floor_east_bathroom!.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Molting_Cockroach_-_An_%22Alien%22_being_born_in_the_3rd_floor_east_bathroom%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "abbeyprivate, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 833,
+   "bytes": 47962,
+   "sourceDescription": "I have never seen a Cockroach molt before. They usually go into hiding to do so. A roach does this 8 - 13 times and always comes out white and quickly hardens and turns dark and goes about its business. A fully matured roach lives about 2 years.",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "a428bd0fdfe3e3e52c0cae884e6064a268a463b5f10f3cc1d9445152495efa0b"
+  },
+  {
+   "file": "/guides/photos/cockroach-nymph-shed-skin.webp",
+   "subject": "Shed skin (cast skin) of a young Blattella cockroach, the genus of the German cockroach, on cardboard (Rowlett, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/343355658",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/625436114/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 217616,
+   "sourceDescription": "Blattella",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "da2dc6d9ecd29107e980ad12ae2b8c5d92bf7b11130ae7fbceffe7b7ad046601"
   },
   {
    "file": "/guides/photos/common-eastern-bumble-bee.webp",
@@ -2509,6 +2635,20 @@
    "sourceDescription": "Blattella germanica",
    "downloadedOn": "2026-10-16",
    "sha256Original": "fd3ecd7a0715b48647f5e39826beab64e01288db58e0013d8c2b951c2156baa5"
+  },
+  {
+   "file": "/guides/photos/german-cockroach-egg-case-hatchlings.webp",
+   "subject": "German cockroach, Blattella germanica: an adult on a sticky trap beside an egg case (ootheca), with newly hatched pale nymphs stuck around it; the observer saw them hatching (Ontario)",
+   "sourceUrl": "https://www.inaturalist.org/observations/289782406",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/521237399/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 26318,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "0314134c2132a9b83f0e676a3ce397784999df8a28238e0efa877d806f2c300e"
   },
   {
    "file": "/guides/photos/german-cockroach-egg-case.webp",
@@ -3899,6 +4039,20 @@
    "sha256Original": "936d6d98b3d7e2895bdd3d19c7d82c9efbb886df3ab0660781652cfbd86951ca"
   },
   {
+   "file": "/guides/photos/oriental-cockroach-garage-floor.webp",
+   "subject": "Oriental cockroach, Blatta orientalis, adult on a concrete garage floor (Pennsylvania)",
+   "sourceUrl": "https://www.inaturalist.org/observations/242704549",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/432694752/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Nelson Chu Pavlosky, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 257034,
+   "sourceDescription": "Blatta orientalis",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "8a1f5ef0e8b18191876bbbcca43ee870b0e416749bd33e6fb8d089ec91e98bdf"
+  },
+  {
    "file": "/guides/photos/oriental-cockroach-male-female.webp",
    "subject": "Oriental cockroach, Blatta orientalis, male (left) and female (right)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blatta_orientalis_cdc_2.jpg",
@@ -3925,6 +4079,20 @@
    "sourceDescription": "Blatta orientalis",
    "downloadedOn": "2026-10-16",
    "sha256Original": "945e429adf98b306d4f947c9b9795c0ed8810d0b0fe279c0a82a9941901f3a6d"
+  },
+  {
+   "file": "/guides/photos/oriental-cockroaches-manhole.webp",
+   "subject": "Oriental cockroaches, Blatta orientalis, out at night in the grass around a sewer manhole cover they were coming out of (Washington, DC)",
+   "sourceUrl": "https://www.inaturalist.org/observations/2986238",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3433414/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Carrie Seltzer, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 254882,
+   "sourceDescription": "Blatta orientalis",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "96a4ce9e18ef4975b20dbc81cb59889310ddc963651640ddfffeeb0841758825"
   },
   {
    "file": "/guides/photos/oriental-rat-flea.webp",
@@ -5159,6 +5327,34 @@
    "sourceDescription": "Wheel bug (Arilus cristatus) at Shelby Park in Nashville, Tennessee. Focus stack of two images.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "2a17713f340015f29666cebb73da6c094d4583fd1a426ff7c8fddee5dd6076a6"
+  },
+  {
+   "file": "/guides/photos/white-american-cockroach-shed-skin.webp",
+   "subject": "American cockroach, Periplaneta americana, freshly molted and still white with its new wings crumpled, beside a dark cast skin split open at the thorax; the observer recorded it molting in a chicken coop (Jackson, Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/398937495",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/731883198/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1154,
+   "bytes": 156722,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "d2ca7fcdcae2bcdb0ad6230e7c77528efc529c249e4eede42bc33c472d0d1d54"
+  },
+  {
+   "file": "/guides/photos/white-american-cockroach-wall.webp",
+   "subject": "American cockroach, Periplaneta americana, adult, cream-white after a recent molt, on a textured wall; the identifier notes it is white because it had just molted (Coppell, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/16997716",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/25702415/original.jpg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 144774,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-10-21",
+   "sha256Original": "a09d1aeb5e50d0c556c09c5c53504c1d682c97ab9e75e73377ef37fb744fab07"
   },
   {
    "file": "/guides/photos/white-footed-mouse-leaf-litter.webp",

@@ -430,6 +430,24 @@ const PHOTOS = [
   ['mouse-urine-uv-light', 'Mouse urine glowing blue-white in spots and streaks under a UV flashlight, on the bottom shelf of a cabinet (National Park Service photograph)', { nps: { page: 'https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm', figure: 1 } }],
   ['mouse-droppings-wood', 'Mouse droppings scattered on a wooden surface (National Park Service photograph)', { nps: { page: 'https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm', figure: 2 } }],
   ['gray-squirrel-droppings-ledge', 'Eastern gray squirrel, Sciurus carolinensis, droppings on a concrete ledge by a railing; the photographer saw the squirrel leave them (Richmond Hill, Ontario)', { inat: { obs: 106432462, photo: 178790061 } }],
+  // ninth batch (Oct 21): white (freshly molted) cockroaches for white-cockroach; carpet beetle cast skins and
+  // droppings for signs-of-carpet-beetles; cockroach signs (a shed skin, an egg case with hatchlings, feeding damage)
+  // for signs-of-cockroaches; a brown-banded cockroach on a wall; Oriental cockroaches at a sewer manhole and on a
+  // garage floor. Who identified each photo, what was refused and why: data/god-build/photo-notes-batch9.json
+  ['white-american-cockroach-shed-skin', 'American cockroach, Periplaneta americana, freshly molted and still white with its new wings crumpled, beside a dark cast skin split open at the thorax; the observer recorded it molting in a chicken coop (Jackson, Georgia)', { inat: { obs: 398937495, photo: 731883198 } }],
+  ['white-american-cockroach-wall', 'American cockroach, Periplaneta americana, adult, cream-white after a recent molt, on a textured wall; the identifier notes it is white because it had just molted (Coppell, Texas)', { inat: { obs: 16997716, photo: 25702415 } }],
+  ['american-cockroach-molting-wall', 'American cockroaches, Periplaneta americana, on a rough concrete surface: one (top) pulling its white new body out of its reddish-brown nymph skin as it molts, beside two dark adults (NY State IPM Program at Cornell University photograph)', { commons: 'American cockroachs (Periplaneta americana).jpg' }],
+  ['cockroach-molting-bathroom', 'A cockroach (species not identified) pulling its white new body out of its old reddish-brown skin while molting, on a white surface in a building\'s bathroom (St. Tammany Parish, Louisiana)', { commons: 'Molting Cockroach - An "Alien" being born in the 3rd floor east bathroom!.jpg' }],
+  ['carpet-beetle-adult-cast-skin-book', 'Varied carpet beetle, Anthrenus verbasci: adult beside a shed larval skin on the page edges of a book (Savannah, Georgia)', { inat: { obs: 258853298, photo: 464529035 } }],
+  ['carpet-beetle-skins-frass', 'Varied carpet beetle, Anthrenus verbasci: dozens of shed larval skins, heaps of powdery droppings (frass) and a few adults, from a dried fence lizard specimen the larvae ate (Coeur d\'Alene, Idaho)', { inat: { obs: 117232088, photo: 318501820 } }],
+  ['carpet-beetle-larva-frass-cast-skin', 'Varied carpet beetle, Anthrenus verbasci: a larva among its droppings (frass), a shed larval skin and a grain of rodent bait the larva damaged, found during a pest control inspection by entomologist A. R. Brookes', { commons: 'Grain bait wolly bear.jpg' }],
+  ['cockroach-damaged-book', 'Textbook with its cover and spine grazed by feeding cockroaches, photographed inside a home (CDC photograph)', { phil: 26945 }],
+  ['german-cockroach-egg-case-hatchlings', 'German cockroach, Blattella germanica: an adult on a sticky trap beside an egg case (ootheca), with newly hatched pale nymphs stuck around it; the observer saw them hatching (Ontario)', { inat: { obs: 289782406, photo: 521237399 } }],
+  ['cockroach-nymph-shed-skin', 'Shed skin (cast skin) of a young Blattella cockroach, the genus of the German cockroach, on cardboard (Rowlett, Texas)', { inat: { obs: 343355658, photo: 625436114 } }],
+  ['brown-banded-cockroach-wall', 'Brown-banded cockroach, Supella longipalpa, adult on a white wall below a ledge (Austin, Texas)', { inat: { obs: 270462125, photo: 486405163 } }],
+  ['brown-banded-cockroach-nymph-wall', 'Brown-banded cockroach, Supella longipalpa, nymph showing its two pale bands, on a textured wall (Honolulu, Hawaii)', { inat: { obs: 4923775, photo: 5998876 } }],
+  ['oriental-cockroaches-manhole', 'Oriental cockroaches, Blatta orientalis, out at night in the grass around a sewer manhole cover they were coming out of (Washington, DC)', { inat: { obs: 2986238, photo: 3433414 } }],
+  ['oriental-cockroach-garage-floor', 'Oriental cockroach, Blatta orientalis, adult on a concrete garage floor (Pennsylvania)', { inat: { obs: 242704549, photo: 432694752 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }
