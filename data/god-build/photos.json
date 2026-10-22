@@ -1222,6 +1222,34 @@
    "sha256Original": "a92d771f60e9a329b664d81ae72a4558d5c6fea961ef5f4773ad5db14f553ee6"
   },
   {
+   "file": "/guides/photos/camel-cricket-baseboard.webp",
+   "subject": "Greenhouse camel cricket, Tachycines asynamorus, climbing a white-painted baseboard above a wood floor, indoors (Silver Spring, Maryland)",
+   "sourceUrl": "https://www.inaturalist.org/observations/292512847",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/526408853/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1890,
+   "bytes": 141294,
+   "sourceDescription": "Tachycines asynamorus",
+   "downloadedOn": "2026-10-22",
+   "sha256Original": "ddda70cdd78a0134cdd2d9adc8879ea4a6cd25bfe8cf8d5640414dbfae1b1408"
+  },
+  {
+   "file": "/guides/photos/camel-cricket-basement-floor.webp",
+   "subject": "Greenhouse camel cricket, Tachycines asynamorus, seen from above on the concrete floor of the observer’s basement in December (Oak Bluffs, Massachusetts)",
+   "sourceUrl": "https://www.inaturalist.org/observations/143896493",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246865376/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Matt Pelikan, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 241352,
+   "sourceDescription": "Tachycines asynamorus",
+   "downloadedOn": "2026-10-22",
+   "sha256Original": "6e559454a74fc844ac0efbbe2c0fdd253b0c43b7af3865df0e589ab30b4977ed"
+  },
+  {
    "file": "/guides/photos/camel-cricket.webp",
    "subject": "Greenhouse camel cricket, Tachycines asynamorus (Diestrammena asynamora), Maryland",
    "sourceUrl": "https://www.inaturalist.org/observations/384357",
@@ -2440,6 +2468,20 @@
    "sha256Original": "dd50f510fccbe5cbe416d2d87dcf615c3c49b0b79528bbacb11cdb7be65c0be8"
   },
   {
+   "file": "/guides/photos/flea-dirt-on-dog.webp",
+   "subject": "Flea dirt: dark specks in a patch of white fur on a dog examined at an animal health clinic (CDC photograph, 2024)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30838",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/30838/30838.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Ann Carpenter; DVM; photo: Ann Carpenter; DVM (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 239712,
+   "sourceDescription": "This photograph depicts a collection of flea dirt on a dog, that was being examined in an animal health clinic.When a flea bites a person or animal, the bite breaks the skin, causing a wound. Fleas poop when they feed. This poop, also called flea dirt, can contain bacteria that gets rubbed into the ",
+   "downloadedOn": "2026-10-22",
+   "sha256Original": "2b9d25f8f43ed15cf8b844125acd1a921462f9c903e8c76e24cd720a0b7f136b"
+  },
+  {
    "file": "/guides/photos/flea-dirt.webp",
    "subject": "Flea dirt: droppings of the cat flea, Ctenocephalides felis, magnified",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenocephalides_felis_excr%C3%A9ments.jpg",
@@ -2480,6 +2522,20 @@
    "sourceDescription": "Shown here, was a larva on the left, and an adult female oriental rat flea, Xenopsylla cheopis, which through its bite, is responsible for transmitting the bacterium, Yersinia pestis, the causative agent of plague.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "aa5ae3821e436cf419f29da76e039285d750d0af281a98244b5e6a38fa0c321a"
+  },
+  {
+   "file": "/guides/photos/flea-on-comb.webp",
+   "subject": "A flea on a fine-toothed flea comb held in a hand, at an animal health clinic (CDC photograph, 2024)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30839",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/30839/30839.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Ann Carpenter, DVM; photo: Ann Carpenter, DVM (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 63308,
+   "sourceDescription": "This photograph depicts a close view of a flea on a comb in an animal health clinic.Fleas are small insects that survive by feeding on animal or human blood. Their bites can cause discomfort, itchiness, and irritation. Fleas can transmit germs that cause disease when they feed on hosts, or through t",
+   "downloadedOn": "2026-10-22",
+   "sha256Original": "273c7fe5fca504bd56ca0688714f4fbbd28c14438f4020f8b47b0f96a5207f18"
   },
   {
    "file": "/guides/photos/flesh-fly.webp",
@@ -4164,6 +4220,20 @@
    "sourceDescription": "Armadillidium vulgare",
    "downloadedOn": "2026-10-15",
    "sha256Original": "beae1d537c179d10386872176c3e5bbed8bcb3009a40afcdf1199e3e2e4e1a6a"
+  },
+  {
+   "file": "/guides/photos/plains-camel-cricket.webp",
+   "subject": "Plains camel cricket, Ceuthophilus pallidus, a native North American camel cricket, side view on a pale gritty surface (Fort Collins, Colorado)",
+   "sourceUrl": "https://www.inaturalist.org/observations/233885997",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/415711861/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 57466,
+   "sourceDescription": "Ceuthophilus pallidus",
+   "downloadedOn": "2026-10-22",
+   "sha256Original": "9ec00d5d7ec927479c9650052d1f8e82ae2ba129bd254de6c37317382b2bf6e0"
   },
   {
    "file": "/guides/photos/potato-aphid.webp",

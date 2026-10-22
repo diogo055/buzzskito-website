@@ -1,0 +1,81 @@
+{
+ "_readme": "Scout notes for the tenth photo batch (Oct 22, 2026): flea dirt on a dog and a flea on a flea comb for the new page flea-dirt (CDC PHIL 30838 and 30839, the clinic series brown-dog-ticks-dog-ear comes from), and a native camel cricket (Ceuthophilus) plus greenhouse camel crickets where people find them for the new page camel-crickets. Same format as batches 7 to 9: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; slugs as in plan.src.json), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. No script change was needed: the phil source type already reads PHIL's per-image 'Copyright Restrictions' field (checked again today: 30838 and 30839 carry PHIL's public-domain statement, 'Permission is not required for public domain images...', while a copyrighted record such as PHIL 9817 reads 'This image is copyright protected'), and lib/photos.ts already reads both credit shapes (run against the new records: the public domain and CC0 photos pass shareImage(); the CC BY photo is refused as a share image and gets a creator and copyright notice). One credit quirk, kept exactly as the source writes it: PHIL 30838 gives its content provider and photographer as 'Ann Carpenter; DVM' with a semicolon (30839 and 30840 write 'Ann Carpenter, DVM'), so its visible credit reads 'CDC/ Ann Carpenter; DVM; photo: Ann Carpenter; DVM (CDC Public Health Image Library, phil.cdc.gov)' and its ImageObject creator is 'Ann Carpenter; DVM'. All 5 images were looked at after conversion (the two CDC photos also at full resolution) and show what their subject lines say, so none was removed. Leads: flea-dirt-on-dog for flea-dirt (public domain, flea dirt identified by CDC; the CC BY flea-dirt close-up follows it); camel-cricket-baseboard for camel-crickets (CC0, research grade, the species most readers find, photographed indoors). Searches, rejected candidates and what is still missing are in 'gaps'. Write captions from these notes and the record together, in US spelling and US units.",
+ "candidates": [
+  {
+   "id": "flea-dirt-on-dog",
+   "forPages": [
+    "flea-dirt",
+    "what-do-fleas-look-like",
+    "how-to-get-rid-of-fleas",
+    "flea-eggs",
+    "flea-bites-on-humans",
+    "bed-bug-poop",
+    "murine-typhus"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 30838 (created 2024): 'This photograph depicts a collection of flea dirt on a dog, that was being examined in an animal health clinic. When a flea bites a person or animal, the bite breaks the skin, causing a wound. Fleas poop when they feed. This poop, also called flea dirt, can contain bacteria that gets rubbed into the bite wound, or other wounds, and subsequently cause an infection.' Content provider 'CDC/ Ann Carpenter; DVM', photo credit 'Ann Carpenter; DVM' (a veterinarian). Copyright Restrictions: PHIL's public-domain statement; redistribution must credit CDC and, where known, the photographer, and identify the CDC website as the free source, which the credit line does. Same series as PHIL 30839 (flea-on-comb) and 30840 (brown-dog-ticks-dog-ear, on record).",
+   "caveats": "Looking down on a patch of white fur ringed by orange fur, parted so the pink skin shows. Viewed at full resolution, dozens of tiny black-gray specks, some elongated, sit on the skin and in the hair across the white patch. CDC names them flea dirt, so the identification is the agency's (a veterinarian's photograph and CDC's caption), not ours. Which part of the dog it is (belly, chest or groin) is not stated: say 'a patch of white fur', not a body part. The specks are small at web size: tell the reader to look for the dark specks in the white patch. Faint reddish streaks and blotches on the skin are not explained by the source: do not call them bites, irritation or dissolved flea dirt. Two small elongated objects near the top edge of the white patch (one brown, one pale) are not identified: do not call them fleas or eggs. No flea and no scale object in the frame: sizes only from a written source. The orange-and-white coat could read as a cat's; CDC says dog, so caption it as a dog. Public domain and identified by the agency: the flea dirt lead the page lacked (the taxonomy entry: 'should lead once recorded and checked'); the CC BY flea-dirt close-up (Auguste Le Roux) can follow it as the magnified view. Credit kept exactly as PHIL writes it on this record (semicolons; see the readme).",
+   "note": "Credit: CDC/ Ann Carpenter; DVM; photo: Ann Carpenter; DVM (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1600 (from a 3024x4032 TIFF)."
+  },
+  {
+   "id": "flea-on-comb",
+   "forPages": [
+    "flea-dirt",
+    "how-to-get-rid-of-fleas",
+    "what-do-fleas-look-like",
+    "flea-bites-on-humans"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 30839 (created 2024): 'This photograph depicts a close view of a flea on a comb in an animal health clinic. Fleas are small insects that survive by feeding on animal or human blood. Their bites can cause discomfort, itchiness, and irritation. Fleas can transmit germs that cause disease when they feed on hosts, or through their fecal contamination.' Content provider 'CDC/ Ann Carpenter, DVM', photo credit 'Ann Carpenter, DVM'. Copyright Restrictions: PHIL's public-domain statement (as 30838).",
+   "caveats": "A hand holds a white plastic flea comb with fine metal teeth over a wood-look floor (a yellow sign and boxes blurred behind). Viewed at full resolution: one reddish-brown flea lies on its back on the white plastic just below the teeth, legs in the air, with loose hairs caught in the teeth. The flea is small in the full frame: point to it in the caption, or crop for a card. CDC does not name the flea's species, the animal that was combed or whether the flea is alive: name none of them. Dark specks and clumps caught at the base of the teeth are not identified by CDC (flea dirt and debris are likely, but that is our reading): do not call them flea dirt in a caption. It shows the combing step (comb the pet over white paper or a white sink and check the comb) and fills the empty flea-comb slot on how-to-get-rid-of-fleas named in the taxonomy. Public domain and plainly a flea on a comb, so it could lead a page about combing, but on flea-dirt it is the combing-step photo, not the lead: flea-dirt-on-dog shows the page's subject.",
+   "note": "Credit: CDC/ Ann Carpenter, DVM; photo: Ann Carpenter, DVM (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1600 (from a 3024x4032 TIFF)."
+  },
+  {
+   "id": "plains-camel-cricket",
+   "forPages": [
+    "camel-crickets"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 233885997 of Ceuthophilus pallidus (plains camel cricket), Fort Collins, Colorado, 2024-08-01, by Joshua Smith (joshuagsmith; about 13,500 observations and 305,000 identifications). Identified to species by ayden (aydenburd); the observer, who had first entered the subgenus Ceuthophilus, agreed. No description or annotations. Photo 1 of 1; the photo's own licence is CC0.",
+   "caveats": "A sharp, ground-level side view of a living camel cricket: pale cream with dark brown bands and blotches, the arched (humped) back, no wings, very long hind legs with patterned thighs, one long antenna rising out of the frame. The upcurved blade at the tip of the abdomen is an ovipositor, so it is a female (our reading; no sex or life stage is recorded). It stands on a pale, gritty surface (concrete or stone; whether outdoors or in a building is not recorded). It is one of the native camel crickets (genus Ceuthophilus), the group the scope sets beside the introduced greenhouse camel cricket: caption it as a plains camel cricket photographed in Fort Collins, Colorado, and take its range and habits from a written source, not from this record. No scale object. CC0 and research grade with two species-level identifications, so it can be a lead or share image, but camel-cricket-baseboard is the recommended lead because most readers meet the greenhouse camel cricket indoors; use this one where the page introduces the native camel crickets.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Joshua Smith). Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "camel-cricket-baseboard",
+   "forPages": [
+    "camel-crickets",
+    "crickets-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 292512847 of Tachycines asynamorus (greenhouse camel cricket), Silver Spring, Maryland, 2025-06-24, by Dr. Ben R. Goldstein (ben_r_goldstein); species confirmed by dontwantnoshrubs (about 20,800 identifications). No description or annotations. Photo 1 of 1; the photo's own licence is CC0.",
+   "caveats": "A mottled brown camel cricket seen from behind and above, climbing a white-painted wooden baseboard, with a hardwood floor at the lower left. The baseboard and floor put it inside a building, but the observer wrote nothing, so the room (and whether it is a basement) is not recorded: say 'indoors', not 'in a basement'. It shows the humped, banded body, the banded legs and two long antennae; the head faces away. Sex and life stage are not recorded. No scale object (do not estimate a size from the baseboard). iNaturalist's place line names the street: print only Silver Spring, Maryland. CC0 and research grade, and the species the page's sources call the most common camel cricket in eastern US homes, photographed indoors: the recommended lead and share image for camel-crickets, with camel-cricket (the side-view specimen on black, CC0) right after it for the profile. Also a candidate for the camel cricket card on crickets-in-house.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Dr. Ben R. Goldstein). Licence: CC0-1.0. Size: 1200x1890."
+  },
+  {
+   "id": "camel-cricket-basement-floor",
+   "forPages": [
+    "camel-crickets",
+    "crickets-in-house"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 143896493 of Tachycines asynamorus (greenhouse camel cricket), Oak Bluffs, Massachusetts, 2022-12-07, by Matt Pelikan (mpelikan; about 18,900 observations and 26,000 identifications). Observer's note: 'On our basement.' Species confirmed by Nathaniel Sharp, Steve Pelikan and Brandon Woo (about 355,000 identifications). In the comments the observer calls the species 'a new arrival' and says fall field crickets 'get into our basement a lot'. Photo 2 of 2 (photo 1, a flash view from the front and side, was not taken).",
+   "caveats": "A straight-down flash view of the whole insect on a gray concrete floor: mottled brown and black, humped, wingless, with spiny banded legs and two long antennae (one runs out of the frame). The long, straight blade at the tip of the abdomen is an ovipositor, which only females have (our reading; no sex or life stage is recorded). The basement is the observer's statement; the frame shows only concrete. Photographed in December, so it can show a camel cricket found in a basement in winter (any claim about behavior still needs a written source). It covers the spec's wish for a greenhouse camel cricket seen from above (no ruler or coin, and its life stage is not recorded) and is the second where-people-find-them photo after camel-cricket-baseboard. No scale object. CC BY: credit Matt Pelikan; use it in the body with its credit, not as a share image.",
+   "note": "Credit: (c) Matt Pelikan, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "flea-dirt",
+   "why": "Now on file: a public domain flea dirt lead (flea-dirt-on-dog) and a flea comb photo (flea-on-comb). Still missing, and not searched this batch beyond the CDC series: the wet paper towel test (specks on a damp white paper towel, then reddish-brown smears), flea dirt in a cat's coat, and ordinary dirt beside flea dirt on a wet towel; the empty towel-test slot on flea-eggs needs the same shot. The Ann Carpenter clinic series on PHIL is three images (30838 flea dirt, 30839 a flea on a comb, 30840 brown dog ticks in a dog's ear, on record as brown-dog-ticks-dog-ear); PHIL 30828 to 30837 and 30841 to 30852 are 1964 CDC course photos and 2024 EIS field images, nothing on fleas."
+  },
+  {
+   "slug": "camel-crickets",
+   "why": "Now on file: a native camel cricket (plains-camel-cricket, CC0) and two greenhouse camel crickets where people find them (camel-cricket-baseboard, CC0, indoors by our reading of the photo; camel-cricket-basement-floor, CC BY, the observer's basement), beside camel-cricket (CC0 specimen) already on record. Searched: iNaturalist research-grade Ceuthophilus with an allowed photo licence (all 218 observations listed and read; 160 are the California camel cricket; none has a description mentioning a basement, garage, crawl space or cellar); research-grade greenhouse camel crickets whose descriptions mention basement, garage, house, inside, indoors, kitchen, bathroom or wall (19 observations, 4 of them outside North America); the first photo of each of the 77 US research-grade greenhouse camel cricket observations with a CC0 photo; Wikimedia Commons (Ceuthophilus, camel cricket, cave cricket, spider cricket, Rhaphidophoridae, Diestrammena, Tachycines). Still not found: a camel cricket in a crawl space or window well (no research-grade observation with an allowed licence says so), a greenhouse camel cricket beside a ruler or coin, and the dark fecal smears NC State describes (not searched). Alternatives worth keeping, not added. Native Ceuthophilus: Katja Schulz's photos from Rock Creek Park, Washington, DC (Commons 'Camel Cricket - Flickr - treegrow.jpg' and its (1) and (2), CC BY 2.0, sharp side views on a leaf; identified to genus by the photographer only); James St. John's 'Ceuthophilus stygius (camel cricket) inside entrance to Great Onyx Cave (Flint Ridge, Mammoth Cave National Park, Kentucky, USA) 1 (8314214922).jpg' (CC BY 2.0, species named by the photographer); NPS Carlsbad Caverns 'Cave Cricket (51202520362).jpg' and 'Cave Cricket - Slaughter Canyon Cave (51203441898).jpg' (public domain, 'Ceuthophilus sp. NPS / Andy Rankin', but the cricket is small on cave rock; their Commons credit would read 'CarlsbadCavernsNPS', which the ORGANIZATION list in lib/photos.ts does not include, so add it there if one is taken); iNaturalist 41136381 (CC0, Ceuthophilus maculatus, research grade with the observer's diagnostic notes, a pinned specimen on black, Ontario) and 28427369 (CC0, Ceuthophilus, research grade, on tree bark, soft focus, Vermont). Greenhouse camel crickets indoors, CC0 and research grade, setting not stated: 214551033 (tile floor, Athens, Georgia), 117401946 (painted concrete floor beside a carpeted step, Berea, Kentucky), 75692329 (hardwood floor, Baltimore), 101756037 (light wood floor, Deale, Maryland). CC BY with the setting in the observer's words: 4939818 ('basement', Asheville, North Carolina), 31450847 ('in the garage', Hanover County, Virginia), 99775486 ('Cave cricket inside of garage', Lafayette, Indiana), 175737398 ('Living in my garage', on a wall, Pennsylvania). Not taken: Commons 'Ceuthophilus sp.jpg' (Clemson University - USDA Cooperative Extension Slide Series, Bugwood.org), the source batch 9 refused because Bugwood's terms prohibit commercial use without permission (this image's Bugwood page was not read); iNaturalist 95027070 (CC BY, Ceuthophilus pallidus small in the frame on a gray floor beside something red, Fort Collins; setting not stated) and 22643423 (CC BY, Ceuthophilus on a dark dusty surface, Mandeville, Louisiana; setting not stated)."
+  }
+ ]
+}

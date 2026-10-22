@@ -448,6 +448,15 @@ const PHOTOS = [
   ['brown-banded-cockroach-nymph-wall', 'Brown-banded cockroach, Supella longipalpa, nymph showing its two pale bands, on a textured wall (Honolulu, Hawaii)', { inat: { obs: 4923775, photo: 5998876 } }],
   ['oriental-cockroaches-manhole', 'Oriental cockroaches, Blatta orientalis, out at night in the grass around a sewer manhole cover they were coming out of (Washington, DC)', { inat: { obs: 2986238, photo: 3433414 } }],
   ['oriental-cockroach-garage-floor', 'Oriental cockroach, Blatta orientalis, adult on a concrete garage floor (Pennsylvania)', { inat: { obs: 242704549, photo: 432694752 } }],
+  // tenth batch (Oct 22): flea dirt on a dog and a flea on a flea comb (CDC PHIL, public domain, the series
+  // brown-dog-ticks-dog-ear comes from) for flea-dirt; a native camel cricket (Ceuthophilus) and greenhouse camel
+  // crickets where people find them (a baseboard indoors, a basement floor) for camel-crickets. Who identified each
+  // photo, what was refused and why: data/god-build/photo-notes-batch10.json
+  ['flea-dirt-on-dog', 'Flea dirt: dark specks in a patch of white fur on a dog examined at an animal health clinic (CDC photograph, 2024)', { phil: 30838 }],
+  ['flea-on-comb', 'A flea on a fine-toothed flea comb held in a hand, at an animal health clinic (CDC photograph, 2024)', { phil: 30839 }],
+  ['plains-camel-cricket', 'Plains camel cricket, Ceuthophilus pallidus, a native North American camel cricket, side view on a pale gritty surface (Fort Collins, Colorado)', { inat: { obs: 233885997, photo: 415711861 } }],
+  ['camel-cricket-baseboard', 'Greenhouse camel cricket, Tachycines asynamorus, climbing a white-painted baseboard above a wood floor, indoors (Silver Spring, Maryland)', { inat: { obs: 292512847, photo: 526408853 } }],
+  ['camel-cricket-basement-floor', 'Greenhouse camel cricket, Tachycines asynamorus, seen from above on the concrete floor of the observer’s basement in December (Oak Bluffs, Massachusetts)', { inat: { obs: 143896493, photo: 246865376 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }
