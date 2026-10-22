@@ -19,6 +19,21 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 22 (end of day): 4 NEW PAGES LIVE** (plan d87d688c, photos batch 10 15a2d9c1, link-ins
+  e6ce8f1d, release 3bf26101; full build + 11 guards green): brown-banded-cockroaches, mice-in-walls,
+  camel-crickets, flea-dirt (winners-gap rows 11, 13, 7, 19). Each: plan entry from a planning agent,
+  writer with its own beat-the-top-3 note in research/top3, independent checker (293-373 claims), 2
+  link-ins, amazon.com pick. Also live (3c640b35): the spray page's American cockroach flight fixed
+  (seldom flies, can glide) + 10 links into the Oct 21 pages. INDEXING: sweep Oct 22 = Oct 16 batch
+  59/62 indexed, Oct 20 17/23, Oct 21 5/7; 10 requests used Oct 22 (bug-bites re-request: it was folded
+  into smart-eat.ru). **OCT 23 FIRST: request indexing for the 4 new pages + rat-vs-mouse +
+  what-do-fleas-look-like** (try after ~15:00 UTC: the quota is a rolling window). Product-page rebuilds
+  were skipped on data (cannibalized cockroach killer page, giant-filled SERPs for fruit fly and rat
+  traps; details in memory project_god_plan_50k). NEXT PAGES: winners-gap rows still open "now":
+  bed bugs in hotels (holiday travel), drain flies vs fruit flies vs gnats, Asian vs German cockroach
+  (alsoTarget + section), moth eggs (section in moths-in-house), small FAQ adds (cockroach noise, mice
+  swim, spiders poop); possum-poop still blocked on photos. Photos still wanted: a paper towel test,
+  flea dirt in a cat's coat, a camel cricket beside a ruler, a brown-banded adult in a home with a scale.
 - **OCT 21 (end of day): 7 NEW PAGES + 81 LINKS LIVE.** Release cea7c1c4 + US picks 796ac9dc (pushed
   15:10 UTC): squirrel-poop, mouse-urine, signs-of-carpet-beetles, signs-of-cockroaches,
   bed-bug-bites-but-no-bed-bugs, oriental-cockroaches, white-cockroach (each: beat-the-top-3 note in
