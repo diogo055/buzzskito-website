@@ -990,6 +990,30 @@
       "name": "Bed bug interceptor cups",
       "search": "bed bug interceptor cups",
       "basis": "Kentucky's bed bug fact sheet: interceptor traps, small dishes under bed and furniture legs that wandering bed bugs fall into; checked regularly they can reveal an infestation early."
+    },
+    "brown-banded-cockroaches": {
+      "label": "To find where they hide",
+      "name": "Cockroach sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'Set sticky traps against walls and in corners of floors, shelves and drawers at ten or more spots for a week, as Penn State advises', to find where brown-banded cockroaches hide (they live and breed entirely indoors, per UC IPM)."
+    },
+    "mice-in-walls": {
+      "label": "To catch mice leaving the wall",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "'Set snap traps there, flat on the floor with the baited end touching the wall so trap and wall form a T, with a little chunky peanut butter on the bait pan, as CDC advises': trap where mice leave the wall, then seal after a week with no catches."
+    },
+    "camel-crickets": {
+      "label": "To dry out the basement",
+      "name": "Dehumidifier",
+      "search": "dehumidifier for basement",
+      "basis": "'Maryland Extension says solving high moisture problems in a basement will greatly reduce or eliminate camel crickets': dry the space and seal the way in before any insecticide (the page also names sticky boards, NC State and Clemson)."
+    },
+    "flea-dirt": {
+      "label": "To check your pet for flea dirt",
+      "name": "Fine-toothed flea comb",
+      "search": "flea comb",
+      "basis": "'Comb over something white. Stand the pet in a white sink or tub (Ohio State) or on white paper or a pillowcase (Cornell) and run a fine-toothed flea comb through the coat.'"
     }
   }
 }

@@ -178,6 +178,9 @@ app/blog/mouse-poop/page.tsx
 content/guides/mouse-urine.json
 data/us-pages/checked/mouse-urine.json
 app/blog/mouse-urine/page.tsx
+content/guides/mice-in-walls.json
+data/us-pages/checked/mice-in-walls.json
+app/blog/mice-in-walls/page.tsx
 content/guides/pillar-cockroaches.json
 data/us-pages/checked/pillar-cockroaches.json
 app/learn/cockroaches/page.tsx
@@ -223,6 +226,9 @@ app/blog/oriental-cockroaches/page.tsx
 content/guides/white-cockroach.json
 data/us-pages/checked/white-cockroach.json
 app/blog/white-cockroach/page.tsx
+content/guides/brown-banded-cockroaches.json
+data/us-pages/checked/brown-banded-cockroaches.json
+app/blog/brown-banded-cockroaches/page.tsx
 content/guides/how-to-get-rid-of-mosquitoes.json
 data/us-pages/checked/how-to-get-rid-of-mosquitoes.json
 app/blog/how-to-get-rid-of-mosquitoes/page.tsx
@@ -475,6 +481,12 @@ app/blog/termite-droppings/page.tsx
 content/guides/signs-of-carpet-beetles.json
 data/us-pages/checked/signs-of-carpet-beetles.json
 app/blog/signs-of-carpet-beetles/page.tsx
+content/guides/flea-dirt.json
+data/us-pages/checked/flea-dirt.json
+app/blog/flea-dirt/page.tsx
+content/guides/camel-crickets.json
+data/us-pages/checked/camel-crickets.json
+app/blog/camel-crickets/page.tsx
 content/guides/bug-bites.json
 data/us-pages/checked/bug-bites.json
 app/learn/bug-bites/page.tsx

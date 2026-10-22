@@ -1,9 +1,6 @@
-release: 7 scheduled page(s) go live (2026-10-21)
+release: 4 scheduled page(s) go live (2026-10-22)
 
-- /blog/squirrel-poop
-- /blog/mouse-urine
-- /blog/signs-of-carpet-beetles
-- /blog/signs-of-cockroaches
-- /blog/bed-bug-bites-but-no-bed-bugs
-- /blog/oriental-cockroaches
-- /blog/white-cockroach
+- /blog/brown-banded-cockroaches
+- /blog/mice-in-walls
+- /blog/flea-dirt
+- /blog/camel-crickets

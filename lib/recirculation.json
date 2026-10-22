@@ -1566,6 +1566,20 @@
    ],
    "bar": true
   },
+  "/blog/brown-banded-cockroaches": {
+   "next": "/blog/cockroach-droppings",
+   "related": [
+    "/blog/white-cockroach",
+    "/blog/how-to-get-rid-of-cockroaches",
+    "/blog/oriental-cockroaches"
+   ],
+   "cards": [
+    "/learn/cockroaches",
+    "/blog/can-cockroaches-fly",
+    "/blog/where-do-cockroaches-come-from"
+   ],
+   "bar": true
+  },
   "/blog/brown-recluse-bite": {
    "next": "/blog/brown-recluse-look-alikes",
    "related": [
@@ -1726,6 +1740,20 @@
     "/learn/ant-killer-recipes",
     "/blog/best-ant-killer",
     "/blog/flying-ants"
+   ],
+   "bar": true
+  },
+  "/blog/camel-crickets": {
+   "next": "/blog/beetles-in-house",
+   "related": [
+    "/blog/how-to-get-rid-of-carpet-beetles",
+    "/blog/flea-dirt",
+    "/blog/how-to-get-rid-of-earwigs"
+   ],
+   "cards": [
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/how-to-get-rid-of-silverfish",
+    "/blog/termite-damage"
    ],
    "bar": true
   },
@@ -2490,6 +2518,20 @@
     "/blog/how-to-keep-spiders-out-of-your-house",
     "/blog/best-flea-bomb-canada"
    ]
+  },
+  "/blog/flea-dirt": {
+   "next": "/blog/flea-eggs",
+   "related": [
+    "/blog/what-do-fleas-look-like",
+    "/blog/beetles-in-house",
+    "/blog/camel-crickets"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-earwigs",
+    "/blog/pantry-pests",
+    "/blog/asian-lady-beetles"
+   ],
+   "bar": true
   },
   "/blog/flea-eggs": {
    "next": "/blog/how-to-get-rid-of-carpet-beetles",
@@ -3759,6 +3801,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/what-does-mouse-poop-look-like-canada",
     "/blog/field-mice"
+   ],
+   "bar": true
+  },
+  "/blog/mice-in-walls": {
+   "next": "/blog/can-mice-climb-walls",
+   "related": [
+    "/blog/how-to-get-rid-of-mice-humanely",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/how-to-keep-mice-out-of-your-car"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/are-mice-nocturnal",
+    "/blog/how-to-get-rid-of-rats-canada"
    ],
    "bar": true
   },

@@ -1,0 +1,15 @@
+{
+ "id": "brown-banded-cockroaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "2c43b2f430ba9d7045a45cd7cef76c9bdb0842927265b5e2bff7c3ba9a88c271",
+ "claimsChecked": 310,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-22",
+ "released": {
+  "on": "2026-10-22",
+  "scheduledFor": "2026-10-22",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

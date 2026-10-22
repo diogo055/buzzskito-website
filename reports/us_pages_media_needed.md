@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-338 images across 139 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+350 images across 143 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -327,6 +327,13 @@
 - Dark, greasy rub marks left by house mice along a baseboard or around a pipe hole in a US home, beside a ruler marked in inches, identified by an extension service or health department
 - Mouse urine pillars (small mounds of grease, urine and dirt) on a floor or shelf, photographed and identified by a health department or university, with a scale
 
+## /blog/mice-in-walls
+
+- A house mouse at a hole in a baseboard or drywall in a US home, identified by an extension service or wildlife agency, public domain or CC0, to replace the lead photo (the current lead also leads /blog/mouse-poop)
+- Dark, greasy rub marks left by house mice around a hole in a baseboard or around a pipe entering a wall in a US home, beside a ruler marked in inches, identified by an extension service or health department; public domain or CC0
+- Fresh mouse gnaw marks on a baseboard, drywall edge or electrical wire inside a US home, beside a ruler marked in inches, identified by an extension service or health department
+- A snap trap set flat on the floor in a T against a wall, baited end touching the wall, behind a refrigerator or under a sink where pipes enter, in a US home; public domain or CC0
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -403,6 +410,13 @@
 ## /blog/white-cockroach
 
 - A freshly molted, still-white German cockroach nymph or adult beside a ruler marked in inches, identified to species by an entomologist or extension service; public domain or CC0 so it could lead the page
+
+## /blog/brown-banded-cockroaches
+
+- An adult brown-banded cockroach photographed in a home (on a ceiling, inside a cabinet or on an appliance) beside a coin or a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0 so it can lead the page
+- A brown-banded cockroach and a German cockroach side by side at one scale, seen from above beside a ruler marked in inches, showing the bell-shaped mark and pale bands against the two dark stripes; identified by an entomologist or extension service; public domain or CC0
+- An adult Asian cockroach (Blattella asahinai) identified by an entomologist or extension service, ideally at a porch light or on a lit wall at night; any license on record works for a look-alike card
+- A female brown-banded cockroach carrying her egg case, or a cluster of egg cases glued under a drawer or inside an appliance, beside a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0
 
 ## /blog/how-to-get-rid-of-mosquitoes
 
@@ -657,6 +671,16 @@
 - Several adult carpet beetles on a sunny indoor windowsill in spring, photographed from above beside a US coin or a ruler marked in inches, identified to species; public domain or CC0
 - Close-up of carpet beetle feeding damage on a wool sweater or rug: a thin, grazed patch with irregular holes and no silk webbing, with shed larval skins in view, beside a ruler marked in inches; public domain or CC0
 - Carpet beetle larvae and shed skins in the seam of a mattress or along a bed frame, beside a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0
+
+## /blog/flea-dirt
+
+- Life-size photo of dark specks combed from a dog or cat on a damp white paper towel beside a ruler marked in inches, then the same towel after a minute showing the reddish-brown smears flea dirt leaves, beside ordinary soil that leaves none; public domain or CC0, from a veterinary school, extension service or CDC
+- Flea dirt in a cat's coat at life size: dark specks on the skin where the fur is parted at the base of the tail or the back of the neck, identified by a veterinarian or veterinary school; public domain or CC0
+
+## /blog/camel-crickets
+
+- Photo of an adult greenhouse camel cricket from above on a basement floor beside a ruler marked in inches or a US quarter, to show its real size
+- Photo of the dark fecal smears camel crickets leave on basement or crawl space surfaces such as floor joists, as NC State Extension describes, ideally beside a ruler marked in inches
 
 ## /learn/bug-bites
 

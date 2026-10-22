@@ -1,0 +1,15 @@
+{
+ "id": "camel-crickets",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "9e6231695b96edf1423b46a3775e4f076ab235779c43e56c8216201b0143739a",
+ "claimsChecked": 308,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-22",
+ "released": {
+  "on": "2026-10-22",
+  "scheduledFor": "2026-10-22",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

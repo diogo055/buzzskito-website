@@ -1,0 +1,15 @@
+{
+ "id": "mice-in-walls",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f65ed96d3e8e39c2f5b0ab525229ed1ba5d0839f4620e72a5d82885873227fba",
+ "claimsChecked": 293,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-22",
+ "released": {
+  "on": "2026-10-22",
+  "scheduledFor": "2026-10-22",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

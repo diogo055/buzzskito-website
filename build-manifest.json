@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-21",
+ "generated": "2026-10-22",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 178,
+  "newPagesBuilt": 182,
   "hubPages": 4,
-  "guides": 163,
+  "guides": 167,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
   "notBuilt": 231,
-  "internalLinksInNewPages": 2350
+  "internalLinksInNewPages": 2455
  },
  "pages": [
   {
@@ -37,11 +37,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Signs of Bed Bugs: 7-Point Checklist for Tonight",
-   "wordCount": 3297,
+   "wordCount": 3365,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 8,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -53,11 +53,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bed Bug Poop: What the Stains Look Like (Photos)",
-   "wordCount": 1947,
+   "wordCount": 1993,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 18,
    "status": "built"
   },
   {
@@ -72,7 +72,7 @@
    "wordCount": 2397,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 32,
    "status": "built"
   },
@@ -120,7 +120,7 @@
    "wordCount": 3421,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -136,7 +136,7 @@
    "wordCount": 2379,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -152,7 +152,7 @@
    "wordCount": 2288,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -165,11 +165,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Rat Poop: What Rat Droppings Look Like (Photos)",
-   "wordCount": 2167,
+   "wordCount": 2202,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 15,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -184,7 +184,7 @@
    "wordCount": 2098,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -200,8 +200,24 @@
    "wordCount": 2095,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 15,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "mice in walls",
+   "us_volume": null,
+   "url": "/blog/mice-in-walls",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Mice in Walls: Sounds, Signs, Getting Them Out",
+   "wordCount": 2457,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 25,
    "status": "built"
   },
   {
@@ -213,11 +229,11 @@
    "kind": "pillar",
    "cluster": "cockroaches",
    "title": "Cockroaches: Species, Health Risks and Control",
-   "wordCount": 5139,
+   "wordCount": 5273,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 20,
-   "outboundInternalLinks": 21,
+   "inboundFromNewPages": 21,
+   "outboundInternalLinks": 25,
    "status": "built"
   },
   {
@@ -229,11 +245,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Palmetto Bug vs Cockroach: How to Tell (Photos)",
-   "wordCount": 2412,
+   "wordCount": 2438,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -245,11 +261,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "What Do Cockroach Eggs Look Like? (Photos)",
-   "wordCount": 2549,
+   "wordCount": 2639,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -261,11 +277,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Cockroach Poop: ID Roach Droppings (Photos)",
-   "wordCount": 1734,
+   "wordCount": 1771,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 15,
+   "outboundInternalLinks": 18,
    "status": "built"
   },
   {
@@ -277,11 +293,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "How to Get Rid of Roaches: The Order That Works",
-   "wordCount": 3056,
+   "wordCount": 3111,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 15,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -296,7 +312,7 @@
    "wordCount": 2371,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -312,7 +328,7 @@
    "wordCount": 2203,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -328,8 +344,24 @@
    "wordCount": 1755,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "brown banded cockroach",
+   "us_volume": null,
+   "url": "/blog/brown-banded-cockroaches",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "cockroaches",
+   "title": "Brown Banded Cockroach: Light-Colored Roach ID",
+   "wordCount": 2172,
+   "faqs": 10,
+   "sources": 12,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -984,7 +1016,7 @@
    "wordCount": 2741,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1013,11 +1045,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Common House Spiders: Photos and Which Ones Bite",
-   "wordCount": 3382,
+   "wordCount": 3419,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -1141,11 +1173,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "What Do Fleas Look Like? Up Close (Photos)",
-   "wordCount": 2281,
+   "wordCount": 2305,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -1160,7 +1192,7 @@
    "wordCount": 3180,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1173,11 +1205,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "House Centipede: Bites, ID and Control (Photos)",
-   "wordCount": 2866,
+   "wordCount": 2890,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 3,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1317,11 +1349,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny Black Bugs in the House? ID Them (Photos)",
-   "wordCount": 2758,
+   "wordCount": 2789,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 19,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -1333,11 +1365,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "What Do Flea Eggs Look Like? (Photos)",
-   "wordCount": 2030,
+   "wordCount": 2059,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 4,
-   "outboundInternalLinks": 7,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -1352,7 +1384,7 @@
    "wordCount": 2957,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1365,11 +1397,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs That Look Like Fleas: How to Tell (Photos)",
-   "wordCount": 2571,
+   "wordCount": 2600,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 15,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -1464,8 +1496,40 @@
    "wordCount": 2181,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "flea dirt",
+   "us_volume": null,
+   "url": "/blog/flea-dirt",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Flea Dirt: What It Looks Like and How to Test It",
+   "wordCount": 2191,
+   "faqs": 9,
+   "sources": 18,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "camel cricket",
+   "us_volume": null,
+   "url": "/blog/camel-crickets",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Camel Cricket (Spider Cricket): ID and Control",
+   "wordCount": 2230,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -1477,11 +1541,11 @@
    "kind": "spoke",
    "cluster": "bites",
    "title": "Bug Bite Identification: What Bit You? (Photos)",
-   "wordCount": 3942,
+   "wordCount": 3988,
    "faqs": 6,
    "sources": 20,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 44,
+   "outboundInternalLinks": 45,
    "status": "built"
   },
   {
@@ -1493,11 +1557,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Noises in Attic at Night? ID the Animal (Photos)",
-   "wordCount": 2066,
+   "wordCount": 2134,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -1525,11 +1589,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Animal Poop Identification Chart (Photos)",
-   "wordCount": 1761,
+   "wordCount": 1781,
    "faqs": 9,
    "sources": 18,
    "inboundFromNewPages": 13,
-   "outboundInternalLinks": 16,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -1557,11 +1621,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Bat Poop: What Bat Droppings Look Like (Photos)",
-   "wordCount": 2184,
+   "wordCount": 2211,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -1576,7 +1640,7 @@
    "wordCount": 1984,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3392,11 +3456,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Sugar Ants: Types and How to Get Rid of Them",
-   "wordCount": 3068,
+   "wordCount": 3103,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 11,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3411,7 +3475,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3451,7 +3515,7 @@
    "wordCount": 3320,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3464,11 +3528,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Flying Ants: What They Are and Why They Swarm",
-   "wordCount": 2826,
+   "wordCount": 2860,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -3496,11 +3560,11 @@
    "kind": "pillar",
    "cluster": "mice",
    "title": "Mice Control: Seal Up, Trap Up, Clean Up",
-   "wordCount": 5280,
+   "wordCount": 5317,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 33,
-   "outboundInternalLinks": 38,
+   "inboundFromNewPages": 34,
+   "outboundInternalLinks": 39,
    "status": "built"
   },
   {
@@ -3546,11 +3610,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Sugar Ants: Types and How to Get Rid of Them",
-   "wordCount": 3068,
+   "wordCount": 3103,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 11,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3588,11 +3652,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "German Cockroaches: Two Stripes, Bait Not Spray",
-   "wordCount": 2971,
+   "wordCount": 2990,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 19,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 20,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3617,7 +3681,7 @@
    "wordCount": 3135,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3672,11 +3736,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Can Cockroaches Fly? Which Species Do and Why",
-   "wordCount": 3187,
+   "wordCount": 3224,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3818,11 +3882,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Bugs That Look Like Cockroaches: 8 to Rule Out",
-   "wordCount": 2365,
+   "wordCount": 2398,
    "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -3837,7 +3901,7 @@
    "wordCount": 2385,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -3866,11 +3930,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bugs That Look Like Bed Bugs: How to Tell Apart",
-   "wordCount": 2616,
+   "wordCount": 2742,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 19,
-   "outboundInternalLinks": 17,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -3903,7 +3967,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3916,11 +3980,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Mice Removal: Walls, Attics, Cars and Cleanup",
-   "wordCount": 3994,
+   "wordCount": 4026,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 16,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 17,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -3937,7 +4001,7 @@
    "wordCount": 3126,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3953,7 +4017,7 @@
    "wordCount": 3934,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4035,7 +4099,7 @@
    "wordCount": 3222,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 25,
+   "inboundFromNewPages": 26,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -4123,7 +4187,7 @@
    "wordCount": 2267,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4136,11 +4200,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Can Cockroaches Fly? Which Species Do and Why",
-   "wordCount": 3187,
+   "wordCount": 3224,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4163,7 +4227,7 @@
    "wordCount": 2363,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4253,7 +4317,7 @@
    "wordCount": 2409,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4268,11 +4332,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Flying Ants: What They Are and Why They Swarm",
-   "wordCount": 2826,
+   "wordCount": 2860,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4441,7 +4505,7 @@
    "wordCount": 2964,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4470,11 +4534,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Black Bed Bugs: Brown Bugs, Black Droppings",
-   "wordCount": 2170,
+   "wordCount": 2240,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 8,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4571,7 +4635,7 @@
    "wordCount": 2521,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4592,11 +4656,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Bullet Ants: The Sting That Tops the Pain Scale",
-   "wordCount": 2341,
+   "wordCount": 2370,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 5,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4688,11 +4752,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Water Bugs vs Cockroaches: Tell Them Apart",
-   "wordCount": 2219,
+   "wordCount": 2254,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 11,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4762,11 +4826,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "What Baby Cockroaches Look Like, by Species",
-   "wordCount": 2862,
+   "wordCount": 2959,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 17,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 18,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -4794,11 +4858,11 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Where Do Cockroaches Come From? The 4 Ways In",
-   "wordCount": 2936,
+   "wordCount": 2995,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 12,
    "status": "built"
   }
  ]

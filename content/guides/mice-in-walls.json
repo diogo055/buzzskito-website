@@ -1,0 +1,208 @@
+{
+  "slug": "mice-in-walls",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "mice in walls",
+  "alsoTargets": [
+    "mouse in wall",
+    "how to get mice out of walls",
+    "how to get rid of mice in walls",
+    "mice in walls sounds",
+    "dead mouse in wall smell",
+    "scratching in walls",
+    "scratching in walls at night"
+  ],
+  "metaTitle": "Mice in Walls: Sounds, Signs, Getting Them Out",
+  "metaDescription": "Scratching in the walls at night? Tell mice from rats, squirrels, bats and carpenter ants by sound and sign, then trap mice out without sealing them in.",
+  "h1": "Mice in Walls: Scratching Sounds, Signs and How to Get Them Out",
+  "dek": "Scratching and squeaking in a wall at night points first to mice, but rats, squirrels, bats and carpenter ants make noise in walls too. A sourced sound-and-sign table, real photos, and how to trap mice out without sealing one in.",
+  "breadcrumb": "Mice in Walls",
+  "excerpt": "What is in your wall by sound, timing and droppings, how mice get in, how to trap them out without sealing them inside, and what to do about a dead mouse smell.",
+  "datePublished": "2026-10-22",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**Scratching and squeaking inside a wall at night, with dark droppings 1/8 to 1/4 inch long turning up nearby, points to mice; rat droppings run 1/2 inch or longer, gray squirrels make their noise by day and bats around dusk.** Trap mice where they come out of the wall, and close the last holes only after the traps go quiet.",
+    "bullets": [
+      "[Nebraska Extension](https://extensionpubs.unl.edu/publication/g1105/html/view) lists scratching and squeaking from ceilings and walls among the signs of house mice and says they are most active before dawn and after dusk.",
+      "Mouse droppings are 1/8 to 1/4 inch long with one or both ends pointed; [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) puts roof rat droppings at about 1/2 inch and Norway rat droppings at 3/4 to 1 inch.",
+      "A mouse can fit through a hole 1/4 inch across, about the width of a pencil, according to [CDC's guide to sealing up](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html).",
+      "[CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) puts snap traps behind the stove and refrigerator and in the back of cabinets, and counts rodents gone after a week with no catches and no new signs.",
+      "[UC IPM](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) says rodenticide often results in house mice dying inside the structure, and Cornell says a dead mouse in a wall can smell for days.",
+      "Never sweep or vacuum droppings: [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) soak them with disinfectant or 1.5 cups of bleach per gallon of water before wiping them up."
+    ]
+  },
+  "facts": {
+    "title": "What is in the wall? Quick ID",
+    "head": ["Suspect", "What you hear or see", "When", "Sign that confirms it"],
+    "rows": [
+      ["House mouse", "Scratching and squeaking in walls and ceilings", "Mostly at night; busiest before dawn and after dusk", "Droppings 1/8 to 1/4 inch, pointed, scattered; greasy smears at holes and pipes; musky odor"],
+      ["Roof rat", "Noise in the attic, upper walls or a drop ceiling", "Mostly at night", "Droppings about 1/2 inch; tooth marks about 1/6 inch wide; dark smudges on beams and pipes"],
+      ["Norway rat", "Activity in the basement and on the ground floor", "Mostly at night", "Droppings 3/4 to 1 inch with blunt ends; burrows along the foundation outside"],
+      ["Gray squirrel", "Running, scratching and clawing in the attic", "By day, most of all in early morning", "Droppings about 3/8 inch with rounded ends; holes chewed in siding or under the eaves"],
+      ["Flying squirrel", "Scrambling and scratching in attics and walls", "At night", "Entry often at the gable ends; groups nesting in attics and between walls"],
+      ["Bat", "Squeaking, scratching and scrambling", "Rising around dusk, before bats fly out; also on hot days", "Droppings piled below entry gaps that crumble into shiny insect bits; brown stains near the eaves"],
+      ["Carpenter ants", "A faint rustling in walls, floors and woodwork", "Most active after sunset", "Fibrous sawdust and frass; nests in wall voids, hollow doors and insulation"],
+      ["Cluster flies", "Flies at windows indoors", "Warm days in winter", "They crawl out of wall voids and attics; small dark spots on windows and walls"]
+    ],
+    "caption": "Sounds and signs from Nebraska Extension, UC IPM, Cornell IPM, the National Park Service, UGA and Penn State Extension, Pests in the Home and the USFWS house bat manual, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "Is it mice in the wall? How to tell by sound and sign" },
+    { "type": "p", "text": "Scratching and squeaking inside a wall at night points first to house mice, and droppings settle it. [UGA Extension's guide to nuisance wildlife](https://fieldreport.caes.uga.edu/publications/B1248/resolving-human-nuisance-wildlife-conflicts/) says noise inside a wall could be mice, and [Nebraska Extension's house mouse guide](https://extensionpubs.unl.edu/publication/g1105/html/view) lists scratching and squeaking from ceilings and walls among the signs, adding that people are often surprised how much noise house mice make." },
+    { "type": "figure", "src": "/guides/photos/house-mouse.webp", "width": 1200, "height": 1151, "alt": "Brown house mouse with large ears, dark eyes and a long, thin tail, crouched against the edge of a concrete corner scattered with dead leaves", "caption": "A house mouse, showing the large ears and long, thin tail. Nebraska Extension says mice keep their whiskers and guard hairs in contact with walls to guide them at night.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/261877585" },
+    { "type": "media", "needed": "A house mouse at a hole in a baseboard or drywall in a US home, identified by an extension service or wildlife agency, public domain or CC0, to replace the lead photo (the current lead also leads /blog/mouse-poop)" },
+    { "type": "p", "text": "Walls are their roads. [CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) says rodents prefer to run next to walls or other objects for safety, and [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) says mice can make nests inside walls; [the guide to mouse nests](/blog/mouse-nest) shows one, and [the complete guide to mice](/learn/mice) covers how they live." },
+    { "type": "p", "text": "Sound alone rarely names the animal, so rule out the house first. The [Internet Center for Wildlife Damage Management's noise key](https://icwdm.org/identification/noises/) warns that noises tell you something is wrong but rarely what, and lists rats, mice and birds for scratching in a wall. A steady, repeating sound is likely mechanical, such as a smoke detector, it says, and it asks whether the noise comes only when the wind blows or late in the day, when vinyl siding is hottest." },
+    { "type": "checklist", "title": "Is it mice? Five quick checks", "items": [
+      "**When?** Mice are busiest before dawn and after dusk; daytime noise points to gray squirrels, a burst at dusk to bats.",
+      "**Droppings?** Dark pellets 1/8 to 1/4 inch long along baseboards, under sinks or behind appliances. Do not touch them.",
+      "**Greasy marks?** Dark smears around holes, pipes and wiring.",
+      "**Gnawing?** Mouse tooth marks are about 1/12 inch wide, a rat's about 1/6 inch.",
+      "**Smell?** Musky means mice that have been there a while; a sudden smell of decay can mean a dead animal."
+    ] },
+
+    { "type": "h2", "text": "What do mice in the walls sound like, and when?" },
+    { "type": "p", "text": "Scratching and squeaking, mostly at night and especially before dawn and after dusk, Nebraska says; [UC IPM's Pest Notes on the house mouse](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) add that house mice are sometimes seen by day when food is available. [The guide to when mice are active](/blog/are-mice-nocturnal) explains the schedule." },
+    { "type": "p", "text": "Listen near warmth and food. Nebraska says nests sit in sheltered spots near heat sources such as water heaters, ovens and refrigerators, and Cornell IPM's guide to [managing mice and rats](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/managing-mice-and-rats) adds spots next to or inside stove walls and near appliance motors. Mice seldom stray far from shelter and food: about 50 feet in Nebraska's guide, 30 in UC IPM's." },
+    { "type": "p", "text": "The noise can move between floors. Nebraska's guide to [rodent-proof construction](https://extensionpubs.unl.edu/publication/g1530/html/view) says rats and mice climb electrical wires and almost any rough vertical surface and crawl along pipes and conduit, and Cornell notes that droppings marked by bait set in a basement can turn up on a second floor. [How mice climb walls, wires and pipes](/blog/can-mice-climb-walls) has its own guide." },
+
+    { "type": "h2", "text": "What signs confirm mice in a wall?" },
+    { "type": "p", "text": "Droppings first, then smears, gnawing, nests and a musky smell. [The National Park Service's rodent damage guide](https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm) describes mouse droppings as smooth and oval with at least one pointed end, 1/8 to 1/4 inch long, like small dark grains of rice, and says one house mouse can leave 50 to 75 a day; [photos of mouse poop and its look-alikes](/blog/mouse-poop) help you compare." },
+    { "type": "figure", "src": "/guides/photos/mouse-droppings-wood.webp", "width": 800, "height": 600, "alt": "About twenty small, dark, rice-shaped droppings, several with a pointed end, scattered across a light wooden surface", "caption": "Mouse droppings on a wooden surface, in a National Park Service photograph that does not name the species. NPS puts mouse droppings at 1/8 to 1/4 inch and rat droppings at 1/2 to 3/4 inch.", "license": "public-domain", "credit": "NPS Photo (U.S. National Park Service, nps.gov)", "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "type": "p", "text": "NPS says mice and rats mark their routes with body oils and urine, leaving smears on walls, around holes and pipes and on electrical wiring; Cornell calls the oily brown buildup sebum marks. Nebraska says mice gnaw clean-cut holes about 1 1/2 inches across in cardboard and similar products, and gnaw electrical wiring too." },
+    { "type": "media", "needed": "Dark, greasy rub marks left by house mice around a hole in a baseboard or around a pipe entering a wall in a US home, beside a ruler marked in inches, identified by an extension service or health department; public domain or CC0" },
+    { "type": "media", "needed": "Fresh mouse gnaw marks on a baseboard, drywall edge or electrical wire inside a US home, beside a ruler marked in inches, identified by an extension service or health department" },
+    { "type": "p", "text": "NPS says mouse and rat nests are built from soft material such as shredded paper, textiles and insulation, and can give themselves away by the smell of the urine and droppings concentrated in them. Nebraska ties a musky odor to long-term mouse presence; [the guide to mouse urine](/blog/mouse-urine) explains that smell. A smell of decay from one spot is different: see the dead mouse section below." },
+
+    { "type": "h2", "text": "Could it be rats in the wall instead of mice?" },
+    { "type": "p", "text": "It could, especially high in the house. [UC IPM's Pest Notes on rats](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) say roof rats typically nest in attics, wall voids, ceiling voids and cabinets and take the upper floors when both species share a building, while Norway rats usually stay in basements and on ground floors. Rats are mostly active at night, UC IPM says, and noise from the attic or a drop ceiling is one of its signs." },
+    { "type": "figure", "src": "/guides/photos/roof-rat-rafters.webp", "width": 1200, "height": 817, "alt": "Brown roof rat with large ears on a wooden beam among the rafters of a building, eating from a small white dish, its long tail hanging below the beam", "caption": "A roof rat among the rafters of a building, eating bait from a small dish, in a CDC photograph. UC IPM says roof rats nest in attics and wall voids.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25123" },
+    { "type": "p", "text": "Rat signs are bigger. Cornell IPM gives roof rat droppings as about 1/2 inch and Norway rat droppings as 3/4 to 1 inch, and NPS says rat droppings are wider and blunt at the ends. UC IPM puts rat tooth marks at about 1/6 inch wide, double a mouse's, and lists dark smudges where rats rub against beams, pipes and walls. CDC says droppings, urine spots or gnawing that continue after a week of trapping may mean rats." },
+    { "type": "p", "text": "A young rat can pass for a mouse: UC IPM says very young rats have large heads and feet for their bodies. [How to tell a rat from a mouse](/blog/rat-vs-mouse), [the roof rat and Norway rat side by side](/blog/roof-rat-vs-norway-rat) and [the guide to rat droppings](/blog/rat-droppings) go further." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-vs-young-rat.webp", "width": 1200, "height": 795, "alt": "Sepia photograph of a house mouse lying above a larger 2-week-old Norway rat on a wooden board, with both names printed on the image", "caption": "A house mouse (top) beside a 2-week-old Norway rat (bottom), in a CDC photograph; CDC points to the young rat's proportionally larger feet, smaller ears and blunter head and tail.", "license": "public-domain", "credit": "CDC/ Bayard F. Bjornson (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26271" },
+
+    { "type": "h2", "text": "Could it be squirrels or bats in the wall?" },
+    { "type": "p", "text": "Yes, and the hour usually tells you which. UGA Extension says daytime attic noise could be gray squirrels, and [Pests in the Home](https://pestsinthehome.extension.org/squirrels/how-to-get-rid-of-squirrels-in-the-attic/), a Cooperative Extension site, says squirrels are most likely heard in early morning, scratching, running and clawing; their droppings run about 3/8 inch with rounded ends. [Penn State Extension's tree squirrel guide](https://extension.psu.edu/tree-squirrels) says squirrels can damage walls, insulation and wiring, and [the squirrel poop guide](/blog/squirrel-poop) shows their droppings." },
+    { "type": "p", "text": "A squirrel heard after dark is a flying squirrel: Penn State says they are the only squirrels active at night and that groups have lived between the walls of mountain cabins. The [USFWS house bat manual](https://pubs.usgs.gov/rp/0143/report.pdf) warns that scrambling, scratching and thumping in attics and walls may be rats, mice or flying squirrels rather than bats; [the guide to animals in the attic](/blog/animals-in-attic) sorts them by sound." },
+    { "type": "p", "text": "Bats get noisy around dusk. The USFWS manual says bats squeak and scratch in attics, walls and chimneys, grow noisy before leaving their roosts at sunset and may chatter on hot days when they move into walls, so rising noise about dusk probably means bats. Their droppings pile up below entry holes and crumble easily into shiny bits of insect; [the bat poop guide](/blog/bat-poop) shows them. [CDC's page on bats and rabies](https://www.cdc.gov/rabies/prevention/bats.html) says to avoid touching bats, to see a medical professional after any possible contact, and not to trap young bats inside if you bat-proof between May and August." },
+
+    { "type": "h2", "text": "Could it be insects in the wall?" },
+    { "type": "p", "text": "Yes. [UC IPM's Pest Notes on carpenter ants](https://ipm.ucanr.edu/home-and-landscape/carpenter-ants/) list a faint rustling in walls, floors and woodwork among the signs, along with fibrous sawdust and frass, and say the ants nest in wall voids, hollow doors and insulation and are most active after sunset. [Do carpenter ants bite?](/blog/do-carpenter-ants-bite) covers them." },
+    { "type": "p", "text": "[Penn State Extension's cluster fly page](https://extension.psu.edu/cluster-flies) says cluster flies spend the winter in wall voids and attics, crawl out on warm days and gather at windows; it names the multicolored Asian lady beetle and boxelder bug among other overwintering pests, which [the guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) sorts." },
+    { "type": "confused", "items": [
+      { "href": "/blog/roof-rat-vs-norway-rat", "name": "Roof rat", "photo": "roof-rat", "note": "Nests in attics and wall voids; droppings about 1/2 inch", "alt": "Slim brown roof rat with large ears and eyes on a wooden bird-feeder platform scattered with seed" },
+      { "href": "/blog/rat-vs-mouse", "name": "Norway rat", "photo": "norway-rat", "note": "Stockier; usually stays in basements and ground floors; droppings 3/4 to 1 inch", "alt": "Grayish-brown Norway rat with a thick body, small ears and a thick, dark tail, seen from the side among dead leaves and stems" },
+      { "href": "/blog/animals-in-attic", "name": "Flying squirrel", "photo": "flying-squirrel-attic", "note": "The only squirrel active at night; nests in attics and walls", "alt": "Trail camera image of a small squirrel climbing head-down on a brick chimney rising out of attic insulation" },
+      { "href": "/blog/bat-poop", "name": "Bat", "photo": "big-brown-bat", "note": "Noise rises around dusk; crumbly droppings below the gap it uses", "alt": "Big brown bat with rusty brown fur and dark wings clinging head-down to white-painted wood" },
+      { "href": "/blog/do-carpenter-ants-bite", "name": "Carpenter ants", "photo": "carpenter-ant-frass", "note": "A faint rustling in walls; fibrous sawdust and frass", "alt": "Black carpenter ant on tree bark beside a long strip of coarse, light brown wood shavings" },
+      { "href": "/blog/bugs-in-house-in-winter", "name": "Cluster flies", "photo": "cluster-fly", "note": "Crawl out of wall voids on warm winter days; gather at windows", "alt": "Dark, bristly cluster fly with its wings folded over its back, feeding on a yellow flower" }
+    ] },
+
+    { "type": "h2", "text": "How do mice get into the walls?" },
+    { "type": "p", "text": "Through gaps about the width of a pencil. [CDC's guide to sealing up](https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html) says a mouse can fit through a hole 1/4 inch across, and UC IPM says house mice squeeze under gaps 1/4 inch tall and through openings 3/8 inch wide; where they live outdoors, it adds, they frequently move into homes in autumn as nights turn colder." },
+    { "type": "p", "text": "Look where pipes, wires and vents pass through. Inside, CDC lists the pipes under sinks and to water heaters and furnaces, all utility lines and the joint between floor and wall; outside, the roofline, the gap between foundation and ground, vents and utility holes. Nebraska's rodent-proofing guide adds that rodents often gnaw into walls at corners or construction joints." },
+
+    { "type": "h2", "text": "How do you get mice out of the walls?" },
+    { "type": "p", "text": "Trap them where they come out; there is no need to open the wall. Nebraska names places mice exit wall spaces, such as along pipes, above drop ceilings and on foundation sill plates, and CDC lists behind the stove and refrigerator, the back of cabinets and drawers, attics, basements and crawlspaces as trap sites. Nebraska adds that trapping lets you dispose of mice before they cause odors." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-on-stove.webp", "width": 1200, "height": 900, "alt": "Brown house mouse with big round ears looking out from the coil burner of a white electric stove, with a dark dropping on the stovetop beside it", "caption": "A house mouse in a kitchen stove burner in Washington, DC, with a dropping beside it. Cornell IPM says house mice nest in warm spots, including inside stove walls.", "license": "CC-BY-4.0", "credit": "(c) jonsense, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/300314476" },
+    { "type": "ol", "items": [
+      "**Find the exits.** Look for fresh droppings, smears and gnawing at those spots, especially where pipes come through the wall.",
+      "**Set snap traps there**, flat on the floor with the baited end touching the wall so trap and wall form a T, with a little chunky peanut butter on the bait pan, as CDC advises.",
+      "**Check them daily and keep them out** for at least 15 days, CDC says, checking the bait weekly.",
+      "**Call it done after a quiet week**: CDC's test is a week with no rodents caught and no new signs."
+    ] },
+    { "type": "p", "text": "Skip glue traps and live traps. CDC says they can scare rodents into urinating, which can increase your chance of getting sick, and Nebraska does not recommend live traps because mice should not be relocated. How many traps to set, which kind and how to bait them is covered in [which mouse traps to use](/blog/mice-traps), and [getting rid of mice humanely](/blog/how-to-get-rid-of-mice-humanely) weighs the options." },
+    { "type": "media", "needed": "A snap trap set flat on the floor in a T against a wall, baited end touching the wall, behind a refrigerator or under a sink where pipes enter, in a US home; public domain or CC0" },
+
+    { "type": "h2", "text": "Should you seal the holes while mice are still in the wall?" },
+    { "type": "p", "text": "Not the last ones. Nebraska's rodent-proofing guide says that if there is any doubt about whether an animal is using a hole, do not close it until the species is identified and a control program chosen, warning of further structural damage and personal injury; Penn State warns that a squirrel locked inside may cause damage chewing its way out. So close the obvious outside gaps while the traps run, and seal the last openings after CDC's quiet week." },
+    { "type": "p", "text": "Then seal for good: UC IPM calls exclusion the most successful and permanent form of house mouse control and says to close every gap larger than 1/4 inch. [Packing holes with steel wool](/blog/steel-wool-for-mice) covers the materials, and [the fall mouse-proofing checklist](/blog/fall-mouse-proofing-checklist) and [keeping mice out before winter](/blog/how-to-keep-mice-out-of-your-house-winter) walk through the rest of the house." },
+
+    { "type": "h2", "text": "Why are poison and ultrasonic devices a poor fit for mice in walls?" },
+    { "type": "p", "text": "Poison tends to leave a dead mouse where you cannot reach it: because house mice stay close to the nest, UC IPM says, rodenticide use will often result in mice dying inside the structure, and Nebraska says no one can predict where a poisoned mouse will die. Cornell adds that bait does not send rodents outdoors for water, and CDC reserves poison for infestations that persist; [the mouse poison guide](/blog/mice-poison) covers the products and their risks." },
+    { "type": "p", "text": "Ultrasonic devices cannot reach mice behind a wall: UC IPM and Nebraska say ultrasound is directional, does not penetrate behind objects and fades with distance, that mice quickly get used to regularly repeated sounds, and that there is little evidence any sound device drives established mice out. [Do ultrasonic pest repellers work?](/blog/ultrasonic-pest-repellers-do-they-work) has the evidence." },
+
+    { "type": "h2", "text": "What if a mouse dies inside the wall?" },
+    { "type": "p", "text": "Expect a smell that can last for days. Cornell IPM says a rodent that dies inside a wall or other void produces a smell that can last for days for a mouse and weeks for a rat. Nebraska says whether there is any odor depends on how many mice died, where they died, the humidity and airflow, the size of the mice and the sensitivity of the resident's nose." },
+    { "type": "p", "text": "Poison is one cause, and young squirrels sometimes fall down wall voids, Pests in the Home says. Remove a carcass you can reach: Cornell warns that dead rodents can attract carpet beetles and clothes moths, which later move on to wool rugs and clothing. No source here sets a rule for cutting into a wall, so weigh days of odor against the repair. [Finding and removing a dead mouse](/blog/mice-removal) covers the search, CDC's steps for bagging the carcass and the other spaces mice use." },
+
+    { "type": "h2", "text": "Are mice in the walls a health risk?" },
+    { "type": "p", "text": "They can be, mainly through urine, droppings and nests. [CDC's cleanup guide](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) says rodent diseases mainly reach people who breathe in contaminated air, so never vacuum or sweep urine, droppings or nests. Instead, open doors and windows for 30 minutes, put on rubber or plastic gloves, spray the mess with disinfectant or 1.5 cups of bleach per gallon of water, let it soak 5 minutes, then wipe it up with paper towels." },
+    { "type": "ul", "items": [
+      "**LCM, from house mice.** [CDC's LCM page](https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html) says the common house mouse spreads it through fresh urine, droppings, saliva or nesting materials. Most healthy people have no or only mild symptoms, but pregnant women with LCM are at higher risk of miscarriage, and people with weakened immune systems are at higher risk of serious illness.",
+      "**Hantavirus, mainly from deer mice.** [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says people get it from contact with rodents' urine, droppings and saliva, and that the deer mouse spreads the most common US hantavirus behind hantavirus pulmonary syndrome. Nebraska says house mice are not known to carry hantavirus but advises caution in every cleanup, since few people can tell which rodent they have; [the deer mouse guide](/blog/deer-mice) shows the difference.",
+      "**Fire.** UC IPM says house mice chew wires in walls and that many fires of unknown origin are believed to be caused by rodents gnawing on wires."
+    ] },
+    { "type": "figure", "src": "/guides/photos/rodent-droppings-drawer.webp", "width": 1200, "height": 791, "alt": "Open cupboard drawer lined with white dotted shelf paper, scattered with small dark droppings and stains, with fluffy material in a back corner", "caption": "Rodent droppings in a cupboard drawer, in a CDC photograph whose record does not name the rodent. CDC says to soak droppings like these with disinfectant, never sweep them.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14340" },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "If you suspect hantavirus disease, CDC says to see a physician immediately and mention the possible rodent exposure; symptoms usually start 1 to 8 weeks after contact with an infected rodent. CDC also says to talk to a healthcare provider if you think a recent illness may be due to a rodent-borne disease, and to see a medical professional after possible contact with a bat." },
+
+    { "type": "h2", "text": "When should you call a professional for mice in the walls?" },
+    { "type": "p", "text": "When the exits are out of reach, trapping stalls or the cleanup is big. CDC says to consider professional help if trapping does not resolve an infestation, and to call a professional rodent exterminating service if rodents get into heating and cooling ducts. [What a mice exterminator does](/blog/mice-exterminator) and [the four steps for clearing mice out of a whole house](/blog/how-to-get-rid-of-mice-canada) cover the rest." },
+    { "type": "callout", "tone": "tip", "title": "Keep a log and photos", "text": "For three or four nights, note when the noise starts and stops and where it is loudest, and photograph any droppings beside a ruler marked in inches without touching them. Your state's cooperative extension office or a pest professional can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "What should I do if I hear mice in my walls?",
+      "answer": "Confirm it is mice, then trap them where they leave the wall. Look without touching for droppings 1/8 to 1/4 inch long, pointed at one or both ends, along baseboards, under sinks and behind the stove and refrigerator. Set snap traps against the wall in those spots, as CDC advises, check them daily and keep trapping for at least 15 days. Skip poison, which UC IPM says often leaves mice dying inside the structure, and close the last entry holes only after a week with no catches and no new signs."
+    },
+    {
+      "question": "Is it okay to have mice in your walls?",
+      "answer": "It is not something to leave alone. CDC says the common house mouse spreads lymphocytic choriomeningitis through fresh urine, droppings, saliva or nesting materials, and that rodent-borne diseases mainly reach people who breathe in contaminated air, which is why droppings should never be swept or vacuumed. UC IPM adds that house mice chew wires in walls and that many fires of unknown origin are believed to be caused by rodents gnawing on wires."
+    },
+    {
+      "question": "How many mice are in the walls if I hear one?",
+      "answer": "Sound cannot tell you. Cornell IPM says a sudden pile of droppings does not by itself prove a full-blown infestation, but that large and very small droppings side by side suggest both adults and young, which means the mice are breeding. Nebraska Extension says a female can raise 5 to 10 litters of 5 to 6 young a year, and gives two dozen properly placed snap traps as a rough guide for a new infestation in a 1,500-square-foot building."
+    },
+    {
+      "question": "Will banging on the wall scare mice away?",
+      "answer": "Not for long. UC IPM and Nebraska Extension both say house mice are easily frightened by strange or unfamiliar noises but quickly become accustomed to regularly repeated sounds. Nebraska adds that researchers have found little evidence that electronic, sound, magnetic or vibrating devices drive established mice from buildings. Banging may startle them, but the extension guides rely on trapping where mice travel and sealing the way in, not on noise, to get mice out of a house."
+    },
+    {
+      "question": "How long will mice live in the walls?",
+      "answer": "A single house mouse usually lives 9 to 12 months, according to Nebraska Extension and UC IPM, which notes that some have lived up to 3 years. A group in a wall can last much longer because it breeds: Nebraska says young mice reach reproductive maturity in 6 to 10 weeks, and a female can raise 5 to 10 litters a year. Trapping and sealing, not waiting, is what the extension guides recommend to end it."
+    },
+    {
+      "question": "Why do I hear mice in the walls but find no droppings?",
+      "answer": "The droppings may be inside the wall or in places you have not checked yet, or the noise may not be mice. Look behind the stove and refrigerator, in the back of cabinets and drawers and in the attic and basement, the spots CDC lists for traps. If nothing turns up anywhere, consider other suspects: UC IPM says carpenter ants make a faint rustling in walls and leave sawdust instead, and the Internet Center for Wildlife Damage Management lists birds alongside rats and mice for scratching in a wall."
+    },
+    {
+      "question": "How long does a dead mouse smell in a wall?",
+      "answer": "Days, by Cornell IPM's account: it says a rodent that dies inside a wall or other void produces a smell that can last for days for a mouse and weeks for a rat. Nebraska Extension says whether there is any odor depends on how many mice died, where they died, the humidity and airflow, the size of the mice and how sensitive the resident's nose is. Leaving a carcass you can reach has a cost too: Cornell warns that dead rodents can attract carpet beetles and clothes moths."
+    },
+    {
+      "question": "Can mice chew through walls?",
+      "answer": "They can gnaw into them, especially at an edge. Nebraska Extension's rodent-proofing guide says rats and mice can gnaw through aluminum sheeting, wood, rubber, vinyl, plastic and concrete block, that they often gnaw into walls at corners or where construction joints give them an edge, and that with an edge they can quickly gnaw into most materials. UC IPM adds that house mice chew wires inside walls. CDC's fix for small holes is steel wool with caulk or spray foam around it to hold it in place."
+    },
+    {
+      "question": "What keeps mice out of the walls for good?",
+      "answer": "Sealing the way in. UC IPM calls exclusion the most successful and permanent form of house mouse control and says to close every gap and opening larger than 1/4 inch, warning that steel wool pads may rust over time. Nebraska Extension suggests copper woven-wire mesh or stainless steel fibers, which do not rust, finished with sealant or mortar. Nebraska also cautions that rodent-proofing does not guarantee a rodent-free building, because rodents may gnaw new entrances, so keep watching for fresh droppings."
+    },
+    {
+      "question": "What time of year do mice get into walls?",
+      "answer": "Often in fall. UC IPM says that where house mice live outdoors, they frequently enter homes in autumn as nighttime temperatures become colder, and Nebraska Extension says mice are attracted to buildings when they detect openings and escaping heat. That makes late summer and early fall the time to close gaps of 1/4 inch or more, check around pipes and vents, and watch for the first droppings along baseboards and under sinks."
+    }
+  ],
+  "sources": [
+    { "title": "G1105: Controlling House Mice (revised March 2012), by Stephen M. Vantassel, Scott E. Hygnstrom and Dennis M. Ferraro", "publisher": "Nebraska Extension, University of Nebraska-Lincoln", "url": "https://extensionpubs.unl.edu/publication/g1105/html/view" },
+    { "title": "G1530: Rodent-Proof Construction, Structural (2003, revised January 2009), by Stephen M. Vantassel and others", "publisher": "University of Nebraska-Lincoln Extension", "url": "https://extensionpubs.unl.edu/publication/g1530/html/view" },
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483, updated July 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Pest Notes: Rats (UC ANR Publication 74106, updated June 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "Pest Notes: Carpenter Ants (UC ANR Publication 7416)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpenter-ants/" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Managing Mice and Rats", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/managing-mice-and-rats" },
+    { "title": "Conserve O Gram 3/12: Identifying Mouse and Rat Damage in Museum Collections (updated January 23, 2026)", "publisher": "National Park Service, U.S. Department of the Interior", "url": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+    { "title": "Resolving Human-Nuisance Wildlife Conflicts (Bulletin 1248), by Michael T. Mengak", "publisher": "University of Georgia Cooperative Extension", "url": "https://fieldreport.caes.uga.edu/publications/B1248/resolving-human-nuisance-wildlife-conflicts/" },
+    { "title": "Tree Squirrels", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/tree-squirrels" },
+    { "title": "Cluster Flies (updated June 24, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/cluster-flies" },
+    { "title": "How To Get Rid of Squirrels in the Attic", "publisher": "Pests in the Home, a national Cooperative Extension resource (Extension Foundation, funded by USDA NIFA)", "url": "https://pestsinthehome.extension.org/squirrels/how-to-get-rid-of-squirrels-in-the-attic/" },
+    { "title": "House Bat Management (Resource Publication 143, 1982), by Arthur M. Greenhall", "publisher": "U.S. Fish and Wildlife Service, via the USGS Publications Warehouse", "url": "https://pubs.usgs.gov/rp/0143/report.pdf" },
+    { "title": "Noises: Identifying Noises Caused by Wildlife in Structures", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/noises/" },
+    { "title": "How to Seal Up to Prevent Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "About Lymphocytic Choriomeningitis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lymphocytic-choriomeningitis/about/index.html" },
+    { "title": "Preventing Rabies from Bats", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rabies/prevention/bats.html" }
+  ],
+  "disclaimer": "health"
+}
