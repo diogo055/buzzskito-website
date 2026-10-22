@@ -2,7 +2,7 @@
  "id": "flea-eggs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f18f026a556a0f59912dd519e10be86456e979820be1b54678e3a7397db6b8fd",
+ "sha": "d36d02ce013e070532cad306657a23417cfd348a2ca4ce881afc4645da20cb33",
  "claimsChecked": 281,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 7,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-22",
+   "note": "link to /blog/flea-dirt added after the flea dirt paragraph (Oct 22 link-in)",
+   "previousSha": "f18f026a556a0f59912dd519e10be86456e979820be1b54678e3a7397db6b8fd"
+  }
+ ]
 }

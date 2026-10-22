@@ -2,7 +2,7 @@
  "id": "german-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a2f5b9852b8da186201f7060a9a9c3cb93f273d8e156bbc4f9c668ad0179b68e",
+ "sha": "6a56ce0459502169f633890618b5a57b71683733b202ff1279f25517527bb997",
  "claimsChecked": 94,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 6,
@@ -12,6 +12,11 @@
    "on": "2026-10-16",
    "note": "Added link paragraph(s) (no new facts) to the new /blog/cockroach-eggs and/or /blog/palmetto-bugs pages (planned; shown as text until live), Oct 16 2026.",
    "previousSha": "1192402bd988ef457fa846851a7d55e9a6e603299d7ac897e4f2cff41ca11832"
+  },
+  {
+   "on": "2026-10-22",
+   "note": "link to /blog/brown-banded-cockroaches added after the egg-case photo paragraph (Oct 22 link-in)",
+   "previousSha": "a2f5b9852b8da186201f7060a9a9c3cb93f273d8e156bbc4f9c668ad0179b68e"
   }
  ]
 }

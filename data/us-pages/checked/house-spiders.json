@@ -2,7 +2,7 @@
  "id": "house-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "913f91b2492543e093d7de209e403a764d31900b5f74ec96a73d8c5b5f121bee",
+ "sha": "447b331e5d9b88d77a23821b4f905a1391510a0c42b3ad0742b57aaa02dccfe8",
  "claimsChecked": 390,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 7,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the bold jumper paragraph linking the new black spiders guide (/blog/black-spiders); no fact changed.",
    "previousSha": "7ed95ff4fa4a49c7abf32738176ea6e15bd30464ec59e04cd5516839d300463a"
+  },
+  {
+   "on": "2026-10-22",
+   "note": "link to /blog/camel-crickets added after the cellar spider paragraph (Oct 22 link-in)",
+   "previousSha": "913f91b2492543e093d7de209e403a764d31900b5f74ec96a73d8c5b5f121bee"
   }
  ]
 }

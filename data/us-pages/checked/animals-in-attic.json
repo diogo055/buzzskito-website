@@ -2,7 +2,7 @@
  "id": "animals-in-attic",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8f3e8929f5173320165955b84e2caae71ddde97897dd071631657ab91247f1ca",
+ "sha": "54d28a375af9b884886c9142af93daa671c82ed0c10019314b99f84f1cde6b6d",
  "claimsChecked": 225,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: one sentence added after the gray squirrel paragraph in 'Is the noise during the day? Gray squirrels' linking the new /blog/squirrel-poop; no fact changed.",
    "previousSha": "29f3e2111e4623b30575e95ecc22de00e9d5ab36a78d58709bad4df22b51ca6d"
+  },
+  {
+   "on": "2026-10-22",
+   "note": "link to /blog/mice-in-walls added after the scratching-at-night paragraph (Oct 22 link-in)",
+   "previousSha": "8f3e8929f5173320165955b84e2caae71ddde97897dd071631657ab91247f1ca"
   }
  ]
 }
