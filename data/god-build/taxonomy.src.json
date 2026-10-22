@@ -9941,69 +9941,120 @@
    "family": "household",
    "pageType": "entity-id",
    "audience": "na",
-   "title": "Camel Crickets (Spider Crickets): Why They Jump at You in the Basement",
-   "metaTitle": "Camel Crickets: The Spider Crickets in Basements",
+   "title": "Camel Crickets (Spider Crickets): How to Identify Them and Get Rid of Them",
+   "metaTitle": "Camel Cricket (Spider Cricket): ID and Control",
    "keyword": "camel cricket",
    "alsoTargets": [
+    "camel crickets",
     "spider cricket",
+    "cricket spider",
     "cave cricket",
-    "camel crickets in basement"
+    "camel crickets in basement",
+    "how to get rid of camel crickets",
+    "do camel crickets bite"
    ],
    "demand": {
-    "summary": "No Search Console impressions (the site has no page that ranks for it); Google autocomplete returns 20 suggestions for \"camel cricket\", \"cave cricket\" (demand exists; volume unsized)",
-    "searchConsole": null,
-    "searchConsoleRegex": "(camel|cave|spider) crickets?",
-    "autocomplete": {
-     "seeds": [
-      "camel cricket",
-      "cave cricket"
-     ],
-     "suggestions": [
-      "camel cricket bite",
-      "cave cricket bite",
-      "camel cricket spider",
-      "cave cricket spider",
-      "camel cricket nymph",
-      "cave cricket image",
-      "camel cricket sound",
-      "cave cricket vs camel cricket",
-      "camel cricket images",
-      "cave cricket sound"
-     ],
-     "count": 20
-    },
-    "ahrefsUS": null
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md, written 2026-10-20, gap #7): moxieservices.com earns about 1,356 US visits a month with its what-are-spider-crickets page (top search \"cricket spider\", 10,000 searches a month) and bugoutservice.com about 215 with its camel-crickets page (top search \"how to get rid of camel crickets\", 1,100 a month): 1,571 between them, both from pages about this insect alone. Ahrefs US volumes stored Oct 16 (data/god-build/next-wave-research.json): \"camel crickets\" 2,700 searches a month, KD 12, traffic potential 16,000 (parent topic \"camel cricket\"), against \"crickets in house\" 1,600, KD 9, traffic potential 500. Google Trends, United States (data/god-build/next-50.json and next-wave-research.json, pulled Oct 16): \"camel cricket\" 0.109 of \"stink bug\", Nov-Mar 0.71 of its yearly average and May-Aug 1.23, so a spring-to-fall search that holds up fairly well in winter. Search Console, 90 days to 2026-10-19: no impressions at all for camel, cave or spider cricket, \"cricket spider\", or crickets in the basement or house, in any country (the site has no page on them); every query containing \"cricket\" adds up to 20 impressions (18 US) and 1 click, 15 of them \"do ultrasonic pest repellers work on crickets\" (14 US, position 8.2) on /blog/ultrasonic-pest-repellers-do-they-work.",
+    "searchConsole": {
+     "window": "90 days to 2026-10-19 (Search Console, query dimension only, filtered by query text; US = country filter)",
+     "impressions90d": 0,
+     "usImpressions90d": 0,
+     "clicks90d": 0,
+     "queries": 0,
+     "topQueries": [],
+     "shownOn": [],
+     "note": "No impressions for any query matching camel cricket|cave cricket|spider cricket|cricket spider|crickets? in (the )?(basement|house), all countries or US; a looser camel|cave|cricket check finds only \"camel spider bite mark\" (1) and off-topic travel queries. All \"cricket\" queries together: 20 impressions (18 US), 1 click, 6 queries: \"do ultrasonic pest repellers work on crickets\" 15 (14 US, position 8.2) and \"crickets\" 1 (US, position 2) on /blog/ultrasonic-pest-repellers-do-they-work; \"do crickets look like cockroaches\" 1 impression and 1 click (position 9) on /blog/bugs-that-look-like-cockroaches; three single impressions on unrelated pages."
+    }
    },
    "collisions": [
     {
+     "path": "crickets-in-house (new)",
+     "overlap": "the planned general cricket page (scheduled 2026-12-28; \"crickets in house\", also \"house cricket\", \"how to get rid of crickets\", \"field crickets\"). The Oct 16 next-wave verdict replaced the queued camel-crickets page with it (\"camel crickets become a section\"), but its scope covers only field and house crickets and it targets no camel, spider or cave cricket search; winners-gap adds \"do crickets bite\" (Fox 1,425) and cricket poop (gap #17) to it",
+     "resolution": "crickets-in-house keeps the general sorter and the chirping crickets: house and field crickets, \"crickets in house\", the generic \"crickets in basement\" as its sorter question, \"how to get rid of crickets\", \"do crickets bite\", finding a chirping cricket and cricket poop; camel crickets get one card (photo camel-cricket) or two lines there that link here, and it never targets camel, spider or cave cricket. This page owns \"camel cricket\", \"spider cricket\", \"cricket spider\", \"cave cricket\", \"camel crickets in basement\" and \"how to get rid of camel crickets\", answers \"do camel crickets bite\" for camel crickets only, and links crickets-in-house for chirping crickets (its cards show without a link until it is live). Change the crickets-in-house spec to match before it is written"
+    },
+    {
      "path": "/blog/bugs-that-look-like-cockroaches",
-     "overlap": "crickets section",
-     "resolution": "link"
+     "overlap": "h2 \"Do earwigs and crickets look like cockroaches?\", a field or house cricket table row and a \"House cricket\" card that links /blog/crickets-in-house; the one cricket query with a click in 90 days lands here (\"do crickets look like cockroaches\", position 9)",
+     "resolution": "keeps field and house crickets as cockroach look-alikes; no change; no link needed either way"
+    },
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "the indoor spider guide, including cellar spiders (very long, thin legs; basement and garage ceilings); people who search \"spider cricket\" or \"cricket spider\" take the basement jumper for a spider (next-50, Oct 16: \"spider crickets look like spiders\", decision link)",
+     "resolution": "keeps the spiders; this page settles spider or cricket and shows a cellar spider card that links there; one line there on spider crickets that links here is the best first link-in for the release job"
+    },
+    {
+     "path": "/blog/wolf-spiders",
+     "overlap": "the large hunting spider people meet on basement and garage floors, a likely \"spider\" behind some spider cricket searches",
+     "resolution": "keeps wolf spiders; a card here links there; no change there"
+    },
+    {
+     "path": "/blog/house-centipedes",
+     "overlap": "the other long-legged bug of damp basements and crawl spaces, with the same dry-it-out advice; it lists crickets among the house centipede's prey (MDC)",
+     "resolution": "keeps house centipedes and their control; a card here links there and the shared moisture advice stays short here; a line there that links here is a candidate link-in"
+    },
+    {
+     "path": "/blog/bugs-in-house-in-winter",
+     "overlap": "the winter sorter: its group of bugs that live in the house all year (house centipedes, cellar spiders, silverfish) leaves out camel crickets, which MDC calls common in basements and garages",
+     "resolution": "keeps the winter sorter; one line on camel crickets in damp basements that links here is a candidate link-in (only what the sources say about breeding indoors)"
+    },
+    {
+     "path": "/blog/ultrasonic-pest-repellers-do-they-work",
+     "overlap": "a Canadian hand-written page with Amazon.ca links that holds the site's only cricket query of any size (\"do ultrasonic pest repellers work on crickets\", 15 impressions, 14 US, position 8.2) and a line on crickets in an open basement from a 2002 Kansas State test",
+     "resolution": "keeps the device question; this page recommends no ultrasonic device (none of the extension pages read for this spec lists one) and does not repeat that page's cricket result; an optional neutral-anchor link from a what-does-not-work line"
+    },
+    {
+     "path": "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada",
+     "overlap": "a Canadian buying guide (Amazon.ca links) that names camel crickets among the moisture pests of a damp crawl space (an FAQ and the body)",
+     "resolution": "no change; this US page cites extension sources for moisture and does not link it; a later line there that links here is an edit to an Amazon page (affiliate integrity protocol)"
+    },
+    {
+     "path": "/blog/best-sump-pump-for-basement-canada",
+     "overlap": "a Canadian buying guide (Amazon.ca links) that names camel crickets among the pests damp concrete keeps (an FAQ)",
+     "resolution": "no change, as for the crawl space page"
+    },
+    {
+     "path": "camel-spiders (new)",
+     "overlap": "the name only: the camel spider is a solifuge of the desert Southwest (scheduled 2026-12-21); \"camel spider bite mark\" had 1 impression in 90 days",
+     "resolution": "keeps the solifuge; one line here says it is a different animal, linked once live; no card"
+    },
+    {
+     "path": "daddy-long-legs (new)",
+     "overlap": "cellar spiders and harvestmen, the other long-legged basement animals (scheduled 2026-12-14 with \"cellar spider\" as a target, but the Oct 16 verdict is DROP; winners-gap suggests reinstating it as the cellar spider page)",
+     "resolution": "no link while it is on hold: the cellar spider card links /blog/house-spiders; switch the card only if daddy-long-legs is built"
+    },
+    {
+     "path": "mole-crickets (new)",
+     "overlap": "another cricket, the Southeastern lawn tunneler (scheduled 2027-01-04)",
+     "resolution": "keeps mole crickets (lawns, not basements); at most one line here, linked once live; no card"
+    },
+    {
+     "path": "household-bugs (new hub)",
+     "overlap": "the household hub would sort indoor bugs by behaviour, jumpers included (dated 2026-12-07, but /learn/household-bugs is a deferred hub)",
+     "resolution": "this page goes out under /learn and does not link the deferred hub; if the hub is ever built it lists camel crickets with the jumpers and links here"
     }
    ],
    "resolution": "new page",
    "pairWith": null,
    "priority": 2,
-   "gate": "replaced by /blog/crickets-in-house (next-wave-research, Oct 16, 2026)",
+   "gate": null,
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
-   "mustLink": [
-    "/learn/household-bugs"
-   ],
-   "scope": "Greenhouse and native camel crickets: identification, why they jump toward you, damp basements and crawl spaces, whether they bite or damage anything, and drying and sealing.",
+   "mustLink": [],
+   "scope": "Camel crickets for US and Canadian readers, identification first: a humpbacked, wingless cricket, light tan to dark brown, with antennae much longer than its body and large hind legs, that never chirps (no sound-making organs, per Clemson HGIC; chirping indoors points to field crickets, per NC State) and jumps a surprisingly long way (MDC); sizes only from sources (Clemson: 1/2 to 1 1/2 inches; MDC: body up to about 1 inch). The \"jumps at you\" reputation only as a source puts it: NC State, Clemson and MDC do not say they jump toward people, and it is never an attack. Which ones get into homes: the greenhouse camel cricket (Tachycines asynamorus, also written Diestrammena asynamora), the most common camel cricket in eastern US homes (Epps et al. 2014, PeerJ; NC State), and the native camel or cave crickets (Ceuthophilus); nymphs look like small adults (NC State). Then the \"spider cricket\" question, spider or cricket (six legs and long antennae against a spider's eight legs and none), with look-alike cards: house and field cricket (crickets-in-house, once live), cellar spider (/blog/house-spiders), wolf spider (/blog/wolf-spiders), house centipede (/blog/house-centipedes). Where they live and why they come in: damp basements, crawl spaces, garages and laundry rooms; outdoors under stones, logs, firewood, mulch and ivy; large numbers point to a moisture problem (MDC); whether they breed indoors, where sources differ (MDC and Iowa State: unlikely unless it stays dark and damp; Cornell's Nassau County office: they can). Bites and harm at the sources' strength: none of the sources read reports a bite (MDC and Kentucky call them harmless); damage only as Clemson (fine fabrics and houseplants when numerous) and NC State (stored garments and linens after a long infestation; dark fecal smears on joists) put it. A control section, since this page owns \"how to get rid of camel crickets\": dry the space, seal and weather-strip, pull mulch, firewood and stored boxes back from walls, sticky traps in corners and behind appliances, vacuum (NC State, Clemson); insecticides only as those sources put them (perimeter first, baits in crawl spaces, a product labeled for the site; the label is the law), no product names. One line each, linked once live: chirping crickets (crickets-in-house) and the unrelated desert camel spider (camel-spiders); the western Jerusalem cricket is another family (UC IPM), one line at most. Sources: NC State Extension's Camel Crickets (revised 2023), Clemson HGIC, University of Maryland Extension, University of Kentucky, MDC, Iowa State, Epps et al. 2014.",
    "flags": [
-    "id"
+    "id",
+    "pesticide"
    ],
-   "minWords": 1000,
-   "photos": "needed",
+   "minWords": 1100,
+   "photos": "in-hand (partial): camel-cricket (CC0; a greenhouse camel cricket from a Maryland basement, immature per the observer's note in photo-notes-batch3.json though the record itself does not say so, shot as a specimen on black: side view of the hump, the banded hind legs and the long antennae) leads, and it is the only camel cricket on record; cards: house-cricket and fall-field-cricket (CC0; the field cricket on a hand), cellar-spider (CC0), carolina-wolf-spider or rabid-wolf-spider (CC0), house-centipede or house-centipede-on-wall (CC0). Needed, none on record: a native camel (cave) cricket, Ceuthophilus; camel crickets where people find them (basement floor or wall, crawl space, window well), at least two, since a specimen shot does not count toward the two where-people-find-it photos; an adult greenhouse camel cricket from above, ideally beside a ruler or coin; the dark fecal smears NC State describes, if the page shows them.",
    "dataAssets": null,
-   "notes": null,
-   "wave": 3,
-   "suggestedWeek": "2026-12-21",
-   "releaseOrder": 81,
-   "evidenceScore": 165
+   "notes": "Added 2026-10-22 from data/god-build/research/winners-gap.md gap #7; the writer does the beat-the-top-3 research into data/god-build/research/top3/camel-crickets.md. Replaces, in place, the gated camel-crickets entry of 2026-10-14 (gate \"replaced by /blog/crickets-in-house (next-wave-research, Oct 16, 2026)\"): under the owner's Priority #1 (Oct 19) two comparables win camel and spider crickets with pages of their own (Moxie 1,356, Bug Out 215 a month) and crickets-in-house as specified targets neither, so the Oct 16 REPLACE verdict is reversed and crickets-in-house stays the general sorter on 2026-12-28. Honest expectation: the Oct 16 model gave 4.3 clicks a month in Nov-Mar (1.7-13) and 9 in May-Aug (3.6-27.1), and Search Console has nothing yet because the site has no page; the comparables' 1,571 is a ceiling, not a forecast. Parent /learn because /learn/household-bugs is a deferred hub (as for signs-of-carpet-beetles); the page's own cluster will be \"household\". flags add pesticide because the control section discusses insecticides at the sources' strength. Checked, no overlap: tiny-black-bugs, tiny-brown-bugs, bugs-that-look-like-fleas and springtails (the tiny jumpers are springtails and fleas), jumping-spiders; there is no bugs-that-look-like-spiders page, live or planned (next-50 left it out: Trends 0.001).",
+   "wave": 2,
+   "suggestedWeek": "2026-10-22",
+   "releaseOrder": 216,
+   "evidenceScore": null
   },
   {
    "slug": "kissing-bug-bites",
@@ -18611,7 +18662,13 @@
     },
     "ahrefsUS": null
    },
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/camel-crickets",
+     "overlap": "camel, spider and cave crickets (a gated camel-crickets entry was replaced by this page on Oct 16; camel-crickets was reinstated on Oct 22 from winners-gap row 7)",
+     "resolution": "camel-crickets owns \"camel cricket\", \"spider cricket\", \"cricket spider\" and \"cave cricket\"; this page keeps the general cricket sorter (house and field crickets, chirping, getting rid of them), gives camel crickets one look-alike card linking there and does not target camel, spider or cave cricket; link both ways"
+    }
+   ],
    "resolution": "new page",
    "pairWith": null,
    "priority": 3,
@@ -23737,6 +23794,515 @@
    "wave": 2,
    "suggestedWeek": "2026-10-21",
    "releaseOrder": 212,
+   "evidenceScore": null
+  },
+  {
+   "slug": "brown-banded-cockroaches",
+   "path": "/blog/brown-banded-cockroaches",
+   "section": "blog",
+   "role": "page",
+   "cluster": "cockroaches",
+   "guideCluster": "cockroaches",
+   "family": "household",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Brown-Banded Cockroaches: The Light-Colored Roach in Furniture and Electronics",
+   "metaTitle": "Brown Banded Cockroach: Light-Colored Roach ID",
+   "keyword": "brown banded cockroach",
+   "alsoTargets": [
+    "light colored cockroach",
+    "light colored roach",
+    "brown banded cockroaches",
+    "brownbanded cockroach",
+    "brown banded roach",
+    "brown banded cockroach vs german cockroach"
+   ],
+   "demand": {
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md gap #11): fox-pest.com earns about 1,235 US visits a month with its brown-banded cockroach page (#2 for \"light colored cockroach\", 200 searches a month; that is only the page's top search, so most of those visits come from searches the file does not list, the species name above all); data/god-build/200k-comparables.md puts the same page at about 2,000 in July 2026. No Google Trends reading is on record: winners-gap counted it winter-strong by judgment (an indoor species), not by measurement. Search Console, 90 days to 2026-10-19: 32 impressions (17 US), 0 clicks, on 9 brown-banded queries, all questions other pages already answer: \"brown banded cockroach baby\" and four variants (22, 13 US, positions 1 to 10.5, mostly near 10) on /blog/what-do-baby-cockroaches-look-like, \"can brown banded cockroaches fly\" and two variants (9, 3 US, positions 7.5 to 10) on /blog/can-cockroaches-fly, and \"brown banded cockroach eggs\" (1 US, position 11) on /blog/cockroach-eggs; no impressions for \"brown banded cockroach\" itself, \"light colored cockroach\" or \"light brown cockroach\".",
+    "searchConsole": {
+     "window": "90 days to 2026-10-19 (Search Console, query dimension only, filtered by query text; US = country filter)",
+     "impressions90d": 32,
+     "usImpressions90d": 17,
+     "clicks90d": 0,
+     "queries": 9,
+     "topQueries": [
+      {
+       "query": "brown banded cockroach baby",
+       "impressions": 11,
+       "us": 5,
+       "position": 9.6
+      },
+      {
+       "query": "baby brown banded cockroach",
+       "impressions": 6,
+       "us": 5,
+       "position": 10.5
+      },
+      {
+       "query": "can brown banded cockroaches fly",
+       "impressions": 6,
+       "us": 2,
+       "position": 7.5
+      },
+      {
+       "query": "brown banded roach baby",
+       "impressions": 3,
+       "us": 3,
+       "position": 10
+      },
+      {
+       "query": "do brown banded cockroaches fly",
+       "impressions": 2,
+       "us": 1,
+       "position": 9
+      }
+     ],
+     "shownOn": [
+      {
+       "path": "/blog/what-do-baby-cockroaches-look-like",
+       "impressions": 25
+      },
+      {
+       "path": "/blog/can-cockroaches-fly",
+       "impressions": 10
+      },
+      {
+       "path": "/blog/cockroach-eggs",
+       "impressions": 1
+      }
+     ],
+     "note": "Page totals count impressions per page, so they run higher than the query totals (36 against 32). \"brown banded cockroach eggs\" showed only in the US pull. The filter word \"banded\" also caught three carpet beetle queries (5 impressions, 0 US, on /blog/how-to-get-rid-of-carpet-beetles-canada), left out. No impressions for \"brown banded cockroach\", \"light colored cockroach\" or \"light brown cockroach\"; a wider net (light, pale, tan, yellow or golden + roach) found 6 impressions (2 US) on five look-alike searches such as \"light colored bug that looks like a roach\" (1 US, position 7), 5 of them on /blog/bugs-that-look-like-cockroaches."
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/what-do-baby-cockroaches-look-like",
+     "overlap": "h3 \"Brownbanded cockroach nymphs\" (Penn State's two bands, UC IPM's hiding places) and its brownbanded table rows; it takes 22 of our 32 brown-banded impressions (\"brown banded cockroach baby\" and four variants, 13 US, mostly near position 10)",
+     "resolution": "keeps its nymph section and the \"brown banded cockroach baby\" searches (not a target here); this page gives the nymph one short section and one photo and links there; link both ways"
+    },
+    {
+     "path": "/blog/can-cockroaches-fly",
+     "overlap": "h3 \"German and brownbanded cockroaches: the small indoor species\" (UC IPM's 85°F, Clemson), its quick answer and table rows; it takes the \"can brown banded cockroaches fly\" searches (9 impressions, 3 US, positions 7.5 to 10)",
+     "resolution": "keeps the flying question and its species table; this page answers it in one FAQ and links there"
+    },
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "h3 \"Brown-banded cockroach\" in the species section (Kentucky, UC IPM), its rows in the species and reproduction tables, a placeholder for a German and brown-banded photo pair, and the FAQ \"Do cockroaches fly?\"",
+     "resolution": "keeps its short species entry and links here (mustLink)"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-cockroaches",
+     "overlap": "h3 \"Brown-banded cockroach\" under \"Which cockroach do you have?\" (with the CDC male and female photo), the brown-banded nymph photo, the bait bullet \"Brown-banded roaches\" and the size test in its quick answer",
+     "resolution": "keeps control, including where bait goes and UC IPM's note that baits work less well on this species; its short ID entry stays and links here; this page sends control there"
+    },
+    {
+     "path": "/blog/cockroach-eggs",
+     "overlap": "h3 \"Brown-banded cockroach egg cases\" (Ebeling's size, carried 24 to 36 hours, glued in clusters; Kentucky's dresser and table undersides) with the CDC brown-banded egg case photo as its lead; \"brown banded cockroach eggs\" (1 US impression at position 11)",
+     "resolution": "keeps the egg case comparison and that search; this page gives egg cases one short section and links there; link both ways"
+    },
+    {
+     "path": "/blog/german-cockroaches",
+     "overlap": "the brownbanded row in its comparison table \"How do you tell it from other household cockroaches?\" and its Asian and field cockroach paragraph (winners-gap #23 adds \"asian roach vs german roach\" there)",
+     "resolution": "keeps its comparison row and the Asian and field cockroaches; \"brown banded cockroach vs german cockroach\" is this page's, with a German cockroach card; link both ways"
+    },
+    {
+     "path": "/blog/signs-of-cockroaches",
+     "overlap": "\"Brown-banded: other rooms, up high\" under \"Where do you find signs of cockroaches?\", the CDC droppings sizes and a quick-ID row",
+     "resolution": "keeps the signs; one short section here that links there; link both ways"
+    },
+    {
+     "path": "/blog/white-cockroach",
+     "overlap": "a just-molted (white) roach is one answer to \"light colored cockroach\"; its molting table has a brown-banded row",
+     "resolution": "keeps \"white cockroach\" and \"albino roach\"; the light-colored sorter here gives it one short paragraph and a card that links there"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-cockroaches",
+     "overlap": "no brown-banded content, but it takes the light brown and tan \"bug that looks like a cockroach\" searches (5 impressions, 2 US, about position 8.6)",
+     "resolution": "keeps those look-alike searches (beetles, crickets, wood roaches); \"light colored cockroach\", a roach the reader knows is a roach, is this page's; link both ways"
+    },
+    {
+     "path": "/blog/cockroach-droppings",
+     "overlap": "brown-banded droppings (about 1/32 inch in CDC's key) and \"Up high\" under where to find droppings",
+     "resolution": "keeps droppings; one line here and a link"
+    },
+    {
+     "path": "/blog/where-do-cockroaches-come-from",
+     "overlap": "brownbanded hiding places (UC IPM), with the note that UC IPM does not say how they arrive",
+     "resolution": "keeps the ways in; this page says how egg cases glued to furniture spread the species, at the sources' strength, and links there"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "mustLink": [
+    "/learn/cockroaches"
+   ],
+   "scope": "Supella longipalpa for US readers, identification first: a small roach about 1/2 inch long (UC IPM, Penn State, UF; up to 5/8 inch per Texas A&M and Clemson: give the range) with two light bands across the wings and abdomen (UC IPM), males golden tan with wings that cover the abdomen, females darker and broader with shorter wings (UC IPM, UF, Texas A&M); on adult males the wings can hide the bands (Clemson). Then the \"light colored cockroach\" question as a sorter, with a quick-ID table (one row per light-colored roach) and look-alike cards: brown-banded (bands across the body, found away from the kitchen), German (two dark stripes behind the head, kitchens and bathrooms; /blog/german-cockroaches), the Asian cockroach (looks like a German but flies to lights; /blog/can-cockroaches-fly) and a just-molted roach of any species (white, darkening within hours, per UC IPM; /blog/white-cockroach); \"brown banded cockroach vs german cockroach\" gets its own h2. Where it lives, the best tell after the bands: warm (about 80°F, UC IPM), dry, dim spots nearer the ceiling than the floor and away from water (Penn State, Texas A&M): upper walls, cabinets and closets, behind picture frames, under and inside furniture, in and near electronics and appliances (UC IPM, Penn State, Clemson), not the kitchen-and-sink spots of the German cockroach; UC IPM's \"about 1% of indoor infestations\" is a California figure, so say so. Egg cases glued in clusters under furniture and drawers, on ceilings and in closets, about 1/4 inch (UC IPM, Clemson), a habit that spreads the species with furniture (Ebeling, as /blog/cockroach-eggs cites him): one short section that links /blog/cockroach-eggs. Nymphs, signs and how they get in get a short section each, linking /blog/what-do-baby-cockroaches-look-like (which keeps the \"baby\" searches), /blog/signs-of-cockroaches and /blog/where-do-cockroaches-come-from. Whether it flies is one FAQ that links /blog/can-cockroaches-fly, at the sources' strength (males only: sometimes when disturbed, especially above 85°F, per UC IPM; readily, per Penn State). Health at the sources' strength (allergens and asthma from EPA; carried bacteria only as Penn State puts it). Control goes to /blog/how-to-get-rid-of-cockroaches (UC IPM says baits work less well on this species; no product advice here). Sources: UC IPM Pest Notes: Cockroaches, Texas A&M's brown-banded cockroach page, Penn State Extension, Kentucky ENTFACT-614, UF/IFAS's brownbanded cockroach page, Clemson HGIC 2449 and CDC's droppings key; NC State only where one of its pages covers this species.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "photos": "in-hand: brown-banded-cockroach-male-female (public domain, CDC: a male and a female, dorsal, labelled on the photo) leads, as the only public-domain or CC0 photo of adults (the Oct 16 scout notes rate it better in-article because of the printed labels, and /blog/how-to-get-rid-of-cockroaches already uses it mid-page); brown-banded-cockroach-nymph-wall (CC0, a nymph on a textured wall with both pale bands clear; a university building, so leave the place out; no scale) and brown-banded-cockroach-wall (CC BY-SA 4.0, an adult on a white wall, sex not recorded; not a lead) are the two photos where people find it; brown-banded-cockroach-nymph (CC BY 4.0, a nymph between fingertips, which shows its size; recorded in Cornell's entomology building, so imply no home; not a lead) and brown-banded-cockroach-egg-cases (public domain, CDC: four cases glued to an unnamed wooden surface; already the lead of /blog/cockroach-eggs) serve the nymph and egg case sections. Cards: german-cockroach-adult (CC0) or german-cockroach (public domain), white-american-cockroach-shed-skin (CC0, a just-molted American cockroach: the card must not call it brown-banded), german-cockroach-nymphs (public domain). Needed, none on record: an adult brown-banded cockroach in a home (on a ceiling, in a cabinet or inside an appliance), public domain or CC0, ideally beside a coin or ruler, which should then lead; a female carrying her egg case; egg cases glued under a drawer or inside an appliance, with a scale; a brown-banded beside a German cockroach at one scale (the /learn/cockroaches placeholder asks for the same pair); an Asian cockroach for a card.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-22 from data/god-build/research/winners-gap.md gap #11; the writer does the beat-the-top-3 research into data/god-build/research/top3/brown-banded-cockroaches.md, for \"brown banded cockroach\" and for \"light colored cockroach\" (Fox is #2 there). Like oriental-cockroaches, this goes past the Oct 16 next-50 decision for /learn/cockroaches (\"sections exist\", \"no separate pages now\") under the owner's Priority #1 (Oct 19): Fox wins the search with its own page. It completes the winners-gap cockroach batch after signs-of-cockroaches, oriental-cockroaches and white-cockroach (released Oct 21). Sources opened 2026-10-22: UC IPM Pest Notes: Cockroaches (UC ANR Publication 7467, updated 12/2019; its 1% figure is for California) https://ipm.ucanr.edu/home-and-landscape/cockroaches/; Texas A&M Urban and Structural Entomology https://urbanentomology.tamu.edu/cockroaches/brown-banded-cockroach/; Penn State Extension, Brown-banded Cockroaches (updated 2026-06-24) https://extension.psu.edu/brown-banded-cockroaches; UF/IFAS cockroach photo gallery page (2005) https://entnemdept.ufl.edu/projex/gallery/dl/cockroaches/text/brownbanded_cockroach.htm (no Featured Creatures profile for this species was found, and UF's IG082 gives 3/4 inch in a caption and 5/8 in its text, so not for sizes); Clemson HGIC 2449, Cockroach (Roach) Control https://hgic.clemson.edu/factsheet/cockroach-control/. Already cited on the live cockroach pages: Kentucky ENTFACT-614 https://entomology.mgcafe.uky.edu/ef614, CDC's pictorial key to droppings https://stacks.cdc.gov/view/cdc/13428, EPA https://www.epa.gov/asthma/asthma-triggers-gain-control. NC State has no brown-banded fact sheet that a search found.",
+   "wave": 2,
+   "suggestedWeek": "2026-10-22",
+   "releaseOrder": 213,
+   "evidenceScore": null
+  },
+  {
+   "slug": "mice-in-walls",
+   "path": "/blog/mice-in-walls",
+   "section": "blog",
+   "role": "page",
+   "cluster": "mice",
+   "guideCluster": "mice",
+   "family": "household",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Mice in Walls: Scratching Sounds, Signs and How to Get Them Out",
+   "metaTitle": "Mice in Walls: Sounds, Signs, Getting Them Out",
+   "keyword": "mice in walls",
+   "alsoTargets": [
+    "mouse in wall",
+    "how to get mice out of walls",
+    "how to get rid of mice in walls",
+    "mice in walls sounds",
+    "dead mouse in wall smell"
+   ],
+   "demand": {
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md gap #13): fox-pest.com earns about 584 US visits a month with its how-to-get-rid-of-mice-in-walls page (#10 for \"mice in walls\", 3,400 searches a month), the only page among the four comparable sites' top pages that wins the search. Ahrefs Keywords Explorer, US, Oct 16 (data/god-build/next-wave-research.json): \"dead mouse smell\" 1,100 a month, a search /blog/mice-removal already answers. Google Trends, United States (data/god-build/next-50.json, pulled Oct 16): \"mice in walls\" 0.101 of \"stink bug\" and Nov-Mar 1.14 of its yearly average, the most winter-peaked rodent term measured (Trends counts these words in any order, so it runs well above Ahrefs' 3,400 for the exact phrase); \"scratching in walls\" 0.027 (Nov-Mar 1.22) and \"noises in walls\" 0.005 (data/god-build/next-wave-research.json). Search Console, 90 days to 2026-10-19: no impressions for \"mice in walls\" itself or for any of the also-targeted searches; 13 impressions (4 US, 0 clicks) across 9 wall queries, all on pages that do not aim at them (\"mice in walls removal\" 3 at 17.3 on /blog/mice-removal; \"sounds to scare mice in walls\" 2, both US, at 2 on /blog/ultrasonic-pest-repellers-do-they-work; six single impressions at positions 2 to 4). The brief's regex also caught 55 \"can mice climb walls\" questions (370 impressions), which belong to /blog/can-mice-climb-walls and are left out of the counts.",
+    "searchConsole": {
+     "window": "90 days to 2026-10-19 (Search Console, query dimension only, filtered by query text; US = country filter)",
+     "impressions90d": 13,
+     "usImpressions90d": 4,
+     "clicks90d": 0,
+     "queries": 9,
+     "topQueries": [
+      {
+       "query": "mice in walls removal",
+       "impressions": 3,
+       "us": 0,
+       "position": 17.3
+      },
+      {
+       "query": "sounds to scare mice in walls",
+       "impressions": 2,
+       "us": 2,
+       "position": 2
+      },
+      {
+       "query": "mouse poop on wall",
+       "impressions": 2,
+       "us": 2,
+       "position": 21
+      },
+      {
+       "query": "how to get rid of mice in walls",
+       "impressions": 1,
+       "us": 0,
+       "position": 2
+      },
+      {
+       "query": "how to get mice out of the walls",
+       "impressions": 1,
+       "us": 0,
+       "position": 3
+      },
+      {
+       "query": "heard scratching in the walls",
+       "impressions": 1,
+       "us": 0,
+       "position": 4
+      }
+     ],
+     "shownOn": [
+      {
+       "path": "/blog/how-to-get-rid-of-mice-canada",
+       "impressions": 4
+      },
+      {
+       "path": "/blog/mice-removal",
+       "impressions": 3
+      },
+      {
+       "path": "/blog/ultrasonic-pest-repellers-do-they-work",
+       "impressions": 2
+      },
+      {
+       "path": "/blog/what-does-mouse-poop-look-like-canada",
+       "impressions": 2
+      },
+      {
+       "path": "/blog/what-smells-do-mice-hate",
+       "impressions": 2
+      }
+     ],
+     "note": "Regex (includingRegex, dataState all): (mice|mouse).*(wall|walls|ceiling)|(wall|walls|ceiling).*(mice|mouse)|scratching in (the )?wall. Raw match: 64 queries, 383 impressions, 0 clicks (US pull: 29 queries, 59 impressions). The counts above leave out the 55 climbing questions (370 impressions; 55 US impressions across these and 9 more climbing queries that appear only in the US pull), which land on /blog/can-mice-climb-walls at about position 11. The other three wall queries had 1 impression each: \"can exterminators get rid of mice in walls\" (position 3), \"can mice eat through walls\" (position 2) and \"how do mice get in the walls of your house\" (position 3). shownOn = the page Search Console reports for each of the 9 queries (query equals filter). No impressions for \"mice in walls\", \"mouse in wall\", \"mice in walls sounds\", \"scratching in walls at night\" or \"dead mouse in wall smell\". A separate dead-mouse and smell regex found \"dead mouse smell\" 1 impression (position 2, /blog/how-to-get-rid-of-mice-canada)."
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/mice-removal",
+     "overlap": "the closest live page: meta title \"Mice Removal: Walls, Attics, Cars and Cleanup\", dek \"How to get mice out of walls, attics...\", h2 \"How do you get mice out of walls, attics, crawl spaces and garages?\" with h3 \"Mice in the walls\" (trap where they come out, poison a poor fit), and h2 \"How do you find and remove a dead mouse, and how long does the smell last?\" (\"dead mouse smell\", Ahrefs 1,100). Search Console: \"mice in walls removal\" 3 impressions at 17.3; the page 74 in 90 days at 17.5. The Oct 16 next-50 verdict made \"mice in walls\" an upgrade of this page; it was never carried out (unchanged since Oct 8)",
+     "resolution": "keeps \"mice removal\", removal from attics, crawl spaces, garages and cars, the dead-mouse find-and-remove steps and \"dead mouse smell\"; its \"Mice in the walls\" h3 stays as a short section and gains a link here in the link-in round; this page owns \"mice in walls\", the sorter and the full wall method, and links there for the carcass and the other spaces; link both ways; no title change"
+    },
+    {
+     "path": "/blog/animals-in-attic",
+     "overlap": "alsoTarget \"scratching in walls\", the FAQ \"Why do I hear scratching in the walls at night?\" and section \"Is it scratching and scurrying at night? Mice or rats\" (live Oct 20; no Search Console data yet)",
+     "resolution": "keeps the attic sorter and \"noises in attic at night\"; the wall searches are this page's: move \"scratching in walls\" from its alsoTargets to this page at release (an edit to a live guide, see checks); its FAQ stays as a short answer and gains a link here; this page summarizes the attic animals for walls and links there; link both ways"
+    },
+    {
+     "path": "/blog/are-mice-nocturnal",
+     "overlap": "section \"What noises do mice make at night, and where do you hear them?\" (scratching and squeaking from ceilings and walls)",
+     "resolution": "keeps the timing question; this page owns the wall sounds (\"mice in walls sounds\", \"scratching in walls at night\") and the sorter, gives the dusk and dawn peaks one line and links there; link both ways"
+    },
+    {
+     "path": "/blog/can-mice-climb-walls",
+     "overlap": "holds every climbing question the regex picked up (55 queries, 370 impressions in 90 days, position about 11)",
+     "resolution": "keeps them; this page says in a line that mice climb inside walls along pipes and wires and links there; never target \"can mice climb walls\" here"
+    },
+    {
+     "path": "/blog/mice-exterminator",
+     "overlap": "FAQ \"Can an exterminator get rid of mice in the walls?\" and scratching inside walls as a sign you need one",
+     "resolution": "keeps hiring, cost and licensing; the \"when to call a pro\" section here is short and links there"
+    },
+    {
+     "path": "/learn/mice",
+     "overlap": "signs (scratching sounds) and the note on noises in a wall at night (links /blog/are-mice-nocturnal)",
+     "resolution": "the pillar keeps its short signs summary; mustLink; a link from the pillar to this page is a link-in edit"
+    },
+    {
+     "path": "/blog/mouse-urine",
+     "overlap": "the musky, ammonia-like smell of mice, and its line that a smell of rot means dead mice",
+     "resolution": "keeps the urine smell; this page's smell section tells the musky smell of live mice from the decay smell of a dead one in a line each and links there; link both ways"
+    },
+    {
+     "path": "/blog/mouse-poop",
+     "overlap": "droppings as the first sign (1/8 to 1/4 inch, scattered along walls)",
+     "resolution": "droppings get a line and a photo here and a link; link both ways"
+    },
+    {
+     "path": "/blog/rat-vs-mouse",
+     "overlap": "the shared sounds and smudge marks of rats and mice, and where each nests",
+     "resolution": "keeps the comparison; the rat card here links it"
+    },
+    {
+     "path": "/blog/roof-rat-vs-norway-rat",
+     "overlap": "roof rats nesting in attics, wall voids and ceiling voids (UC IPM)",
+     "resolution": "keeps the two-rat comparison; the rat card here links it for the roof rat"
+    },
+    {
+     "path": "/blog/mice-traps",
+     "overlap": "trap types, where to put traps, bait and checking",
+     "resolution": "keeps traps; this page covers only placement where mice leave the wall and links there"
+    },
+    {
+     "path": "/blog/fall-mouse-proofing-checklist",
+     "overlap": "FAQ \"Will sealing holes trap mice inside my house?\" and the seven entry points",
+     "resolution": "keeps sealing; this page gives the trap-before-closing-the-last-holes order in a short section, consistent with that FAQ, and links there; link both ways"
+    },
+    {
+     "path": "/blog/steel-wool-for-mice",
+     "overlap": "FAQ \"Can I seal holes while mice are still in the house?\"",
+     "resolution": "keeps it; link for the sealing materials"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-mice-humanely",
+     "overlap": "a hole sealed while a mouse is on the wrong side of it shuts that mouse inside the wall",
+     "resolution": "keeps it; link"
+    },
+    {
+     "path": "/blog/mice-poison",
+     "overlap": "poisoned mice dying inside walls and the FAQ \"Do poisoned mice leave the house to die outside?\"",
+     "resolution": "keeps the rodenticide detail; this page says in two sentences why poison is a poor fit for wall voids and links there"
+    },
+    {
+     "path": "mouse-nest (new)",
+     "overlap": "alsoTarget \"mouse nest in wall\" (scheduled 2027-01-04)",
+     "resolution": "keeps that search and what a nest looks like; this page says in a line that mice nest inside walls and links it once live"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-mice-canada",
+     "overlap": "the site's mouse how-to (meta title \"How to Get Rid of Mice: 4 Steps (US & Canada)\"), which mentions scratching in the walls and mice in wall voids; it drew 4 single impressions for wall queries at positions 2 to 4 (0 US)",
+     "resolution": "no change; it keeps \"how to get rid of mice\"; a link from its wall-void lines to this page is an optional link-in edit (TSX with amazon.ca links: affiliate integrity protocol)"
+    },
+    {
+     "path": "/blog/ultrasonic-pest-repellers-do-they-work",
+     "overlap": "\"sounds to scare mice in walls\" (2 US impressions at position 2) and its point that ultrasound does not reach wall voids",
+     "resolution": "keeps that search; this page says in a line that sound devices are no answer for mice in walls (UC IPM) and links there; TSX with amazon.ca links, so any link added to it follows the affiliate integrity protocol"
+    },
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "\"mouse poop on wall\" (2 US impressions at 21) and scratching in walls after dark as a sign",
+     "resolution": "no change (Canadian twin of /blog/mouse-poop, amazon.ca links); link /blog/mouse-poop instead"
+    },
+    {
+     "path": "/blog/what-smells-do-mice-hate",
+     "overlap": "drew \"how to get mice out of the walls\" and \"how do mice get in the walls of your house\" (1 impression each, position 3)",
+     "resolution": "no change; it keeps the smells question"
+    },
+    {
+     "path": "/blog/mouse-bait-station-canada",
+     "overlap": "FAQ \"Do mice die inside walls after eating bait — and will it smell?\" (the only other dead-mouse-in-wall answer; there is no dead-animal-smell page)",
+     "resolution": "no change (Canadian product page, amazon.ca links); not linked from this US page"
+    },
+    {
+     "path": "/blog/bugs-in-house-in-winter",
+     "overlap": "insects that winter in wall voids and attics (lady beetles, boxelder bugs, stink bugs, cluster flies)",
+     "resolution": "keeps them; one card here links it"
+    },
+    {
+     "path": "/blog/do-carpenter-ants-bite",
+     "overlap": "UC IPM's faint rustling in walls as a carpenter ant sign; nests in wall voids",
+     "resolution": "keeps it; the carpenter ant card here links it"
+    },
+    {
+     "path": "GTA service pages (/pest-control-<city>, /pest-control-gta)",
+     "overlap": "they say BuzzSkito does not treat rodents; none mentions mice in walls",
+     "resolution": "never changed by this plan; this page carries no quote prompt (a traffic page) and does not suggest BuzzSkito treats mice"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "scope": "The page for the reader who hears something in the wall, identification first: what is in the wall, by sound, time and sign. Scratching, scurrying and squeaking at night (mice: Nebraska); rats, mainly roof rats, which nest in attics and wall voids (UC IPM); noise by day from gray squirrels and at night from flying squirrels (as /blog/animals-in-attic sorts them, UGA); squeaking and chattering around dusk (bats: USFWS); a faint rustling (carpenter ants: UC IPM); and the insects that winter in wall voids and wander out on warm days (/blog/bugs-in-house-in-winter). Quick-ID table, one row per suspect: what you hear, when, the droppings, the other sign. For each suspect a photo, the sign that confirms it (droppings and their size, a musky smell, gnaw marks, dark rub marks at holes and along pipes, shredded nesting material; NPS Conserve O Gram 3/12 shows mouse signs) and a link (/blog/rat-vs-mouse, /blog/roof-rat-vs-norway-rat, /blog/animals-in-attic, /blog/bat-poop, /blog/mouse-poop, /blog/mouse-urine). Then how mice get into and travel through walls (openings of 1/4 inch, along pipes, wires and sill plates; climbing goes to /blog/can-mice-climb-walls) and how to get them out without sealing them in: snap traps where they leave the wall (behind the stove and refrigerator, under sinks, where pipes enter, above drop ceilings: CDC, Nebraska; trap types go to /blog/mice-traps), traps set and working before the last holes are closed and a week with no catches before calling it done (CDC, consistent with /blog/fall-mouse-proofing-checklist and /blog/steel-wool-for-mice), and why poison and ultrasonic devices are a poor fit for wall voids (UC IPM, Cornell, Nebraska; /blog/mice-poison). A dead mouse in the wall: why it happens, how long the smell lasts (Cornell: days for a mouse), when opening the wall is worth it; finding and removing the carcass stays on /blog/mice-removal. When to call a pro: /blog/mice-exterminator. Health only from CDC at its strength (never sweep or vacuum droppings or nests; hantavirus and which mice carry it: /blog/deer-mice). Sources: CDC rodent control (seal up, trap up, clean up), EPA, Nebraska Extension G1105, UC IPM Pest Notes (house mouse, rats, carpenter ants), Cornell, Penn State, Purdue, NPS Conserve O Gram 3/12, the USFWS bat manual, UGA. No product advice; no quote prompt (a traffic page; BuzzSkito does not treat rodents).",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1300,
+   "photos": "in-hand (partial): house-mouse (CC0, side view) can lead, but it already leads /blog/mouse-poop, so a public-domain or CC0 photo of a house mouse at a hole in a wall or baseboard would be a better lead; house-mouse-vs-young-rat (public domain, CDC) for mouse or young rat; mouse-droppings-wood and mouse-urine-uv-light (public domain, NPS) for the signs, mouse-droppings-ruler (CC BY-SA 4.0, not a lead) for size, rodent-droppings-drawer and deer-mouse-nest (public domain, CDC; the nest is a deer mouse's, say so); house-mouse-on-stove (CC BY 4.0, not a lead); rat-gnawed-sack (public domain, CDC) is the only gnawing photo on record and shows rats; cards: roof-rat-rafters (public domain) or norway-rat (CC0), flying-squirrel-attic and eastern-gray-squirrel (CC0), big-brown-bat (public domain) with bat-droppings-siding (CC BY 4.0), carpenter-ant-frass (CC BY 4.0), brown-marmorated-stink-bug (public domain). house-mouse-live-trap (CC0) shows a live-catch trap, which CDC advises against: not a lead, and only with that said. Needed, none on record: mouse gnaw marks (baseboard, drywall, wiring), dark rub (grease) marks at a hole or along a pipe, a mouse hole at a wall, baseboard or pipe, a nest in wall insulation, and a snap trap set against a wall at an exit point. NPS Conserve O Gram 3/12 has NPS (public-domain) photos not yet on record: gnawing (figs. 11, 12 and 15) and mouse nests (figs. 9 and 10); its rub-mark photo (fig. 7) is courtesy of Thomas Parker, PhD (MuseumPests.Net), not public domain.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-22 from data/god-build/research/winners-gap.md gap #13; the writer does the beat-the-top-3 research into data/god-build/research/top3/mice-in-walls.md (Fox's page is a how-to: note whether the top 3 lead with identification or with removal). This overrides the Oct 16 next-50 verdict for /blog/mice-removal (next-50.json upgradesInstead, \"mice in walls\": \"surface the section (H2, meta description); no new page\"; never carried out) under the owner's Priority #1 (Oct 19): Fox wins the search with its own page, and for a bugs-in-a-room search a section inside a page about something else does not count (winners-gap coverage rules). \"how to get rid of mice in walls\" was added to the brief's targets (Fox's page is built on it). Release date 2026-10-22 goes in data/god-build/release-overrides.json (releaseOn), as for the Oct 21 pages.",
+   "wave": 2,
+   "suggestedWeek": "2026-10-22",
+   "releaseOrder": 214,
+   "evidenceScore": null
+  },
+  {
+   "slug": "flea-dirt",
+   "path": "/blog/flea-dirt",
+   "section": "blog",
+   "role": "page",
+   "cluster": "fleas",
+   "guideCluster": "pest-control",
+   "family": "fleas",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Flea Dirt: What Flea Poop Looks Like on Dogs and Cats, and How to Test It",
+   "metaTitle": "Flea Dirt: What It Looks Like and How to Test It",
+   "keyword": "flea dirt",
+   "alsoTargets": [
+    "what does flea dirt look like",
+    "flea poop",
+    "flea dirt on dog",
+    "flea dirt on cat",
+    "flea dirt vs dirt",
+    "flea dirt test"
+   ],
+   "demand": {
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md, written 2026-10-20, gap #19): fox-pest.com earns about 327 US visits a month with its what-does-flea-dirt-look-like post while ranking only #11 for \"flea dirt\" (21,000 searches a month), so there is room above it; none of the other three comparables wins the search. Google Trends, United States (data/god-build/next-50.json, weekly 2024-10-01 to 2026-10-10): \"flea dirt\" 0.136 of \"stink bug\" (about 23,800 Ahrefs-equivalent US searches a month on that file's rough scale, close to Ahrefs) and 0.71 of its yearly average in Nov-Mar (highest in September and October, lowest in January and February). Search Console, 90 days to 2026-10-19: no query rows for flea dirt, flea poop, flea feces, flea droppings or flea excrement in any country, and a broader pull (fleas dirt, flea poo, flea specks, black specks, paper towel, flea comb) found nothing about flea dirt either; the page report with the same filter shows one impression, on /blog/flea-bites-on-humans at position 11 (the query itself is withheld). /blog/flea-eggs, live since Oct 16 with the site's only flea dirt section, had 1 impression in total through Oct 21 (\"flea eggs\", position 9) and none for flea dirt.",
+    "searchConsole": {
+     "window": "90 days to 2026-10-19 (Search Console, query dimension only, filtered by query text; US = country filter)",
+     "impressions90d": 0,
+     "usImpressions90d": 0,
+     "clicks90d": 0,
+     "queries": 0,
+     "topQueries": [],
+     "shownOn": [
+      {
+       "path": "/blog/flea-bites-on-humans",
+       "impressions": 1
+      }
+     ],
+     "note": "No query rows for the regex flea (dirt|poop|feces|droppings|excrement)|flea dirt, all countries or US. The one page-report impression (position 11, Oct 16-19) belongs to a withheld query. /blog/flea-eggs: 1 impression in total Oct 16-21 (\"flea eggs\", position 9), none for flea dirt."
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/flea-eggs",
+     "overlap": "the live eggs page (Oct 16) holds the site's only flea dirt section today: H1 \"What Do Flea Eggs Look Like? Eggs, Larvae and Flea Dirt Compared\", h2 \"What does flea dirt look like?\" with the flea-dirt photo, h3 \"How do you confirm it is flea dirt?\" (the wet paper towel test, with an empty slot for a towel-test photo), the eggs vs flea dirt vs dandruff vs sand table and five-step checklist, and the alsoTarget \"flea dirt vs flea eggs\"; six pages link it as the flea dirt guide (what-do-fleas-look-like, how-to-get-rid-of-fleas, bugs-that-look-like-fleas, bed-bug-poop, flea-bites-on-humans, best-flea-spray-for-home-canada). No flea dirt impressions yet",
+     "resolution": "keeps eggs, larvae, cocoons and the eggs-vs-dirt comparison (its table, checklist and \"flea dirt vs flea eggs\"); this page owns \"flea dirt\", \"flea poop\" and the paper towel test, gives eggs one short section that links there, and the two link both ways. Once this page is live, trim flea-eggs' flea dirt h2 and h3 to a short summary that links here and move its towel-test slot here (an edit to a live guide: validate it and amend its check record; see checks)"
+    },
+    {
+     "path": "/blog/what-do-fleas-look-like",
+     "overlap": "the live adult-flea page: a quick-answer bullet and a facts row on flea dirt (Merck: reddish black, reddish brown on a damp paper towel), a flea dirt paragraph and the flea-dirt photo under \"What do fleas look like on a dog or cat?\" that sends the test to /blog/flea-eggs, and the FAQ \"How can you tell if you have fleas in the house?\"; its plan entry here still lists \"flea dirt\" and \"flea eggs\" in alsoTargets and \"flea dirt, the wet paper towel test\" in scope, which the live page dropped",
+     "resolution": "keeps the adult flea and its short flea dirt paragraph as a sign on the pet; its flea dirt link points here once this page is live (link-in); this page links it for the insect; remove \"flea dirt\" and \"flea eggs\" from its plan entry so the plan has one owner"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-fleas",
+     "overlap": "the live how-to: h2 \"How do you know it is fleas?\" (comb the pet over a white sink and wet the specks, the flea-dirt photo, an empty slot for a flea-comb photo), plus a quick-answer bullet and a checklist step on flea droppings",
+     "resolution": "keeps the confirm step as the first step of control and all treatment; this page gives what to do one short section and sends the full plan there (no product advice here); link both ways"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-fleas",
+     "overlap": "a flea-droppings check under \"What does a real flea look like?\" that links /blog/flea-eggs for flea dirt",
+     "resolution": "keeps the look-alike insects; its flea dirt link can point here once live (link-in); link both ways"
+    },
+    {
+     "path": "/blog/flea-bites-on-humans",
+     "overlap": "h2 \"How can you tell if your home has fleas?\" (comb over white paper, the wet-paper test, the flea-dirt photo and a link to /blog/flea-eggs for flea dirt photos), flea dirt in two FAQs and its bite comparison table; the site's biggest flea page (32,040 impressions in the 90 days to Oct 12) with a pending taxonomy upgrade",
+     "resolution": "keeps its short home check inside the bite page, and the bites; add one sentence linking here (an additive link-in; it carries Amazon.ca links, so the affiliate integrity protocol applies); link both ways"
+    },
+    {
+     "path": "/blog/bed-bug-poop",
+     "overlap": "h3 \"Flea dirt\" under \"What else leaves black spots like bed bug poop?\", the FAQ \"How do you tell bed bug poop from flea dirt?\", the alsoTarget \"bed bug poop vs flea poop\" and a Cat flea card; its flea dirt link goes to /blog/flea-eggs",
+     "resolution": "keeps \"bed bug poop vs flea poop\" and its h3; this page gives bed bug poop one card and a line (both run red when wet; stains soaked into seams vs loose specks where a pet rests) and links there; its flea dirt link can point here once live; link both ways"
+    },
+    {
+     "path": "murine-typhus (new)",
+     "overlap": "flea dirt as the way the infection reaches people (CDC's flea-borne typhus page: infected flea dirt rubbed into bites or other wounds, breathed in or rubbed into the eyes); scheduled 2026-12-21",
+     "resolution": "one short paragraph here at CDC's strength that links the disease page once it is live; that page keeps the disease"
+    },
+    {
+     "path": "/blog/best-flea-spray-for-home-canada",
+     "overlap": "Canadian product page (Amazon.ca): flea dirt as larval food in its vacuuming pick, the comb and damp-paper-towel check before buying, and a link to /blog/flea-eggs for flea dirt photos",
+     "resolution": "no change (products, Canada: a different intent); not linked from this US page"
+    },
+    {
+     "path": "/blog/best-flea-bomb-canada",
+     "overlap": "Canadian product page (Amazon.ca): the flea comb and the wet paper towel test as the check before buying a fogger",
+     "resolution": "no change (products, Canada: a different intent); not linked from this US page"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn/fleas",
+    "name": "Fleas"
+   },
+   "mustLink": [
+    "/learn/fleas"
+   ],
+   "scope": "The flea dirt page, identification first: what flea dirt is (the digested blood adult fleas excrete as they feed: Ohio State, Texas A&M, the University of Florida's cat flea profile, Penn State's cat flea fact sheet), what it looks like at life size and magnified (black to reddish-black specks like ground pepper, comma-shaped up close: the University of Minnesota's veterinary diagnostics textbook, the Merck Veterinary Manual; a size only if a source gives one), and the wet paper towel test as the centerpiece, step by step: comb the pet over white paper, a white sink or a pillowcase, put the specks on a damp white paper towel, and flea dirt dissolves into reddish-brown smears where ordinary dirt does not (Ohio State, Minnesota, Merck, Cornell Feline Health Center). Where to look: on a dog, the neck, shoulder blades and base of the tail, belly and groin (Ohio State, Minnesota, Merck); on a cat, the back of the neck, the top of the tail head, belly and back (Cornell Feline Health Center); with a fine-toothed flea comb; then pet bedding, resting spots, beds and carpet, and for cats shelves and tabletops (Ohio State). A photo strip and quick-ID table, flea dirt vs ordinary dirt vs flea eggs vs dandruff, and look-alike cards (flea eggs; bed bug poop, which also runs red but stains mattress seams; cockroach specks). What finding it means: adult fleas are feeding on the animal now, even when none is seen (Merck: dogs very allergic to flea saliva may be almost free of fleas because they groom so much), and larvae develop where flea dirt collects because they feed on it (only as UF, UC IPM and Penn State put it); flea dirt but no fleas; flea dirt in a bed. Whether it is harmful, at the sources' strength: CDC's flea-borne typhus page (infected flea dirt rubbed into bites or other wounds; murine-typhus once live) and cat-scratch disease page (scratches contaminated with flea feces), anemia in heavily infested kittens and puppies (Cornell, Merck), tapeworm (Texas A&M, Cornell). What to do: treat every pet with a product a veterinarian recommends, never a dog product on a cat (Cornell; CDC: never permethrin on cats), wash pet bedding hot and vacuum often (UC IPM), then /blog/how-to-get-rid-of-fleas for the full plan; no product advice here. Not a second eggs page: eggs, larvae and cocoons stay with /blog/flea-eggs (one short section and a link), the adult flea with /blog/what-do-fleas-look-like. Sources: CDC (About Fleas, Getting Rid of Fleas, flea-borne typhus, cat-scratch disease), UC IPM Pest Notes: Fleas, Texas A&M AgriLife Managing Fleas, Ohio State HYG-2081, Penn State Extension Cat Fleas, UF/IFAS Featured Creatures cat flea (EENY-011), the Minnesota textbook, Merck, Cornell Feline Health Center (Fleas: A Source of Torment for Your Cat), AVMA (External parasites).",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "photos": "in-hand (partial): cat-flea-scale-bar (public domain, CDC: an adult cat flea under a 3 mm scale bar, the insect that leaves flea dirt) leads for now, because the only flea dirt photo on record is CC BY and the first figure becomes the share image, which shows no credit; flea-dirt (CC BY 3.0, Auguste Le Roux: cat flea droppings, magnified; the subject, not a lead) goes right after it, in the first screen; flea-egg-and-larva (public domain) for the eggs comparison and card; flea-larva-and-adult (public domain, CDC/WHO; the adult is an oriental rat flea, so never captioned as a cat flea) for the larvae-feed-on-flea-dirt point; cards: bed-bug-fecal-spots-bed-frame (CC BY 2.0), german-cockroach-frass-cabinet (CC BY-SA 4.0); cat-flea and dog-flea (CC BY-SA 3.0) only if needed, not leads. flea-dirt is already on five live pages (flea-eggs, what-do-fleas-look-like, how-to-get-rid-of-fleas, bed-bug-poop, flea-bites-on-humans). Found, not yet on record: CDC PHIL 30838, \"a collection of flea dirt on a dog\" examined in an animal health clinic (CDC/ Ann Carpenter, DVM, 2024, public domain; the series brown-dog-ticks-dog-ear comes from) should lead once recorded and checked, and PHIL 30839 (a flea on a comb, same series) fits the combing step. Needed, none on record or found: the wet paper towel test (specks on a white paper towel, then the reddish-brown smears after a few drops of water), flea dirt in a cat's coat, ordinary dirt beside flea dirt on a wet towel; flea-eggs' empty towel-test slot needs the same shot.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-22 from data/god-build/research/winners-gap.md gap #19; the writer does the beat-the-top-3 research into data/god-build/research/top3/flea-dirt.md. The flea family's page for the sign itself: it owns \"flea dirt\" and the paper towel test, /blog/flea-eggs keeps eggs, larvae and the eggs-vs-dirt comparison, and it links every live flea sibling (flea-eggs, what-do-fleas-look-like, how-to-get-rid-of-fleas, bugs-that-look-like-fleas, flea-bites-on-humans), bed-bug-poop, and murine-typhus once live. /learn/fleas is a deferred hub (release-overrides.json), so the plan script puts the page under the Learning Centre and drops the hub from mustLink, as for the four live flea guides. Passing flea dirt mentions, no decision needed: /blog/bugs-that-look-like-ticks, /blog/what-does-tick-look-like-on-dog, /blog/chigger-bites and /blog/wondercide-canada-review (a sentence or a table cell each; Amazon.ca links on all four).",
+   "wave": 2,
+   "suggestedWeek": "2026-10-22",
+   "releaseOrder": 215,
    "evidenceScore": null
   }
  ],

@@ -424,6 +424,10 @@
 - `/blog/bed-bug-bites-but-no-bed-bugs` — no signs of bed bugs but i have bites
 - `/blog/oriental-cockroaches` — oriental cockroach
 - `/blog/white-cockroach` — white cockroach
+- `/blog/brown-banded-cockroaches` — brown banded cockroach
+- `/blog/mice-in-walls` — mice in walls
+- `/blog/flea-dirt` — flea dirt
+- `/blog/camel-crickets` — camel cricket
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

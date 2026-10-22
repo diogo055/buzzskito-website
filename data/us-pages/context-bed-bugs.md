@@ -432,6 +432,10 @@
 - `/blog/signs-of-cockroaches` — signs of cockroaches
 - `/blog/oriental-cockroaches` — oriental cockroach
 - `/blog/white-cockroach` — white cockroach
+- `/blog/brown-banded-cockroaches` — brown banded cockroach
+- `/blog/mice-in-walls` — mice in walls
+- `/blog/flea-dirt` — flea dirt
+- `/blog/camel-crickets` — camel cricket
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

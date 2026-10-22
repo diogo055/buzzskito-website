@@ -56,6 +56,8 @@
 
 - `/blog/mouse-urine` — **mouse urine** (also: mouse pee; what does mouse pee smell like; mouse urine under black light; mouse urine stains; how to get rid of mouse urine smell). What mouse urine looks like, what it smells like, whether it glows under a black light (a UV light shows many things, not only urine: say so from a source), urine pillars and rub marks, whether it is harmful (CDC), how to clean it and the smell by CDC guidance, clothes, carpets and car vents, what to do next.
 
+- `/blog/mice-in-walls` — **mice in walls** (also: mouse in wall; how to get mice out of walls; how to get rid of mice in walls; mice in walls sounds; dead mouse in wall smell). The page for the reader who hears something in the wall, identification first: what is in the wall, by sound, time and sign. Scratching, scurrying and squeaking at night (mice: Nebraska); rats, mainly roof rats, which nest in attics and wall voids (UC IPM); noise by day from gray squirrels and at night from flying squirrels (as /blog/animals-in-attic sorts them, UGA); squeaking and chattering around dusk (bats: USFWS); a faint rustling (carpenter ants: UC IPM); and the insects that winter in wall voids and wander out on warm days (/blog/bugs-in-house-in-winter). Quick-ID table, one row per suspect: what you hear, when, the droppings, the other sign. For each suspect a photo, the sign that confirms it (droppings and their size, a musky smell, gnaw marks, dark rub marks at holes and along pipes, shredded nesting material; NPS Conserve O Gram 3/12 shows mouse signs) and a link (/blog/rat-vs-mouse, /blog/roof-rat-vs-norway-rat, /blog/animals-in-attic, /blog/bat-poop, /blog/mouse-poop, /blog/mouse-urine). Then how mice get into and travel through walls (openings of 1/4 inch, along pipes, wires and sill plates; climbing goes to /blog/can-mice-climb-walls) and how to get them out without sealing them in: snap traps where they leave the wall (behind the stove and refrigerator, under sinks, where pipes enter, above drop ceilings: CDC, Nebraska; trap types go to /blog/mice-traps), traps set and working before the last holes are closed and a week with no catches before calling it done (CDC, consistent with /blog/fall-mouse-proofing-checklist and /blog/steel-wool-for-mice), and why poison and ultrasonic devices are a poor fit for wall voids (UC IPM, Cornell, Nebraska; /blog/mice-poison). A dead mouse in the wall: why it happens, how long the smell lasts (Cornell: days for a mouse), when opening the wall is worth it; finding and removing the carcass stays on /blog/mice-removal. When to call a pro: /blog/mice-exterminator. Health only from CDC at its strength (never sweep or vacuum droppings or nests; hantavirus and which mice carry it: /blog/deer-mice). Sources: CDC rodent control (seal up, trap up, clean up), EPA, Nebraska Extension G1105, UC IPM Pest Notes (house mouse, rats, carpenter ants), Cornell, Penn State, Purdue, NPS Conserve O Gram 3/12, the USFWS bat manual, UGA. No product advice; no quote prompt (a traffic page; BuzzSkito does not treat rodents).
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -446,6 +448,9 @@
 - `/blog/bed-bug-bites-but-no-bed-bugs` — no signs of bed bugs but i have bites
 - `/blog/oriental-cockroaches` — oriental cockroach
 - `/blog/white-cockroach` — white cockroach
+- `/blog/brown-banded-cockroaches` — brown banded cockroach
+- `/blog/flea-dirt` — flea dirt
+- `/blog/camel-crickets` — camel cricket
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
