@@ -19,6 +19,25 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 23 (04:45 UTC): TWO TOOLS + 51 LINK-INS LIVE.** Pushed 4302f7a1 + 42807a5c.
+  - **Tools:** `/tools/tick-identifier` and `/tools/spider-identifier`, on the shared engine `lib/identifier-quiz.ts` + `components/IdentifierQuiz.tsx`. Each had a writer with a beat-the-top-3 note and an independent checker (tick ~330 claim lines, spider ~550).
+  - **Links:**
+    - the bite identifier from 17 bite pages;
+    - the tick tool from 12 hand-written pages and 7 guides;
+    - the spider tool from 5 hand-written pages and 10 guides;
+    - the three tools link to each other.
+  - **Fixes:** CDC's Lyme timing ("more than 24 hours", not "36 to 48") corrected on 4 tick pages; "rarely" changed to "not known to" on american-dog-tick-canada; the clover-mite leg count fixed.
+  - **Owner decision:** keep "Mississauga" in the homepage title; the GBP Website button links to the homepage (memory `project_homepage_title_gbp`).
+  - **OCT 23 FIRST:** request indexing, after ~15:00 UTC, for:
+    - the 2 tools;
+    - the 4 Oct 22 pages;
+    - rat-vs-mouse and what-do-fleas-look-like.
+  - **Spotted by the tool writers, not fixed:**
+    - how-to-keep-spiders-out-of-your-house says the fall surge is "mating season, not the cold" (Penn State, Colorado State and Minnesota say spiders also come in from the cold);
+    - what-does-a-spider-bite-look-like says camel-spider jaws break skin (Colorado State says they cannot);
+    - what-ticks-look-like-ontario calls the lone star "emerging" in SW Ontario (PHO: no established population);
+    - ticks-in-pennsylvania may carry an old Asian longhorned state count (24 states by April 2026).
+  - **The Hub work is in memory `project_hub_crm_ai_sales_plan`:** phase 1 is live as 715ab0c (budget page removed, resent-quote links fixed, signed webhook waiting on the owner's `RESEND_WEBHOOK_SECRET`); a 2027 sprays-owed ledger draft is waiting for owner confirmation.
 - **OCT 22 (end of day): 4 NEW PAGES LIVE** (plan d87d688c, photos batch 10 15a2d9c1, link-ins
   e6ce8f1d, release 3bf26101; full build + 11 guards green): brown-banded-cockroaches, mice-in-walls,
   camel-crickets, flea-dirt (winners-gap rows 11, 13, 7, 19). Each: plan entry from a planning agent,
