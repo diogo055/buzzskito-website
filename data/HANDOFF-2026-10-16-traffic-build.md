@@ -19,6 +19,17 @@ with SendUserFile.
 
 ## 1b. WHERE THINGS STAND (end of Oct 16, 09:45 UTC) - start here
 
+- **OCT 23 (14:01 UTC): 4 NEW PAGES + 4 UPGRADES LIVE** (photos batch 11 bbe608d3, plan 7c51b846, upgrades f6ba31bf, release 5474712d; full build + 11 guards green).
+  - **New pages:** bed-bugs-in-hotels (row 20), daddy-long-legs re-aimed at "cellar spider", yellow-sac-spiders (adds "white house spider"), springtails (condition removed). Each had a planner, a writer with beat-the-top-3, and an independent checker (206-297 claims).
+  - **amazon.com picks:** flashlight, cobweb duster, sticky traps, dehumidifier.
+  - **Upgrades** (independently checked): Asian vs German cockroach section, moth eggs table, cockroach noise and nuclear FAQs, "do ants carry disease".
+  - **validate-guide source caps** raised: 10 for first-batch guides, 12 for pillars.
+  - **Held:** drain-flies-vs-fruit-flies-vs-gnats (planned, not merged: it would compete with the Oct 20 gnats guide).
+  - **After Oct 30** (frozen pages):
+    - bugs-that-look-like-ticks says harvestmen have "a visible waist" (MDC/UC Riverside: one body, no waist);
+    - add a yellow-sac-spiders link on what-does-a-spider-bite-look-like.
+  - **Quiz gap:** the pest quiz (lib/bug-quiz.ts) has no springtail or jumping-bug result.
+  - **Indexing:** TODAY after 15:00 UTC the 2 tools + 4 Oct 22 pages + 4 new pages (10 = quota); rat-vs-mouse and what-do-fleas-look-like on Oct 24.
 - **OCT 23 (04:45 UTC): TWO TOOLS + 51 LINK-INS LIVE.** Pushed 4302f7a1 + 42807a5c.
   - **Tools:** `/tools/tick-identifier` and `/tools/spider-identifier`, on the shared engine `lib/identifier-quiz.ts` + `components/IdentifierQuiz.tsx`. Each had a writer with a beat-the-top-3 note and an independent checker (tick ~330 claim lines, spider ~550).
   - **Links:**

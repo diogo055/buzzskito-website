@@ -58,6 +58,8 @@
 
 - `/blog/mice-in-walls` — **mice in walls** (also: mouse in wall; how to get mice out of walls; how to get rid of mice in walls; mice in walls sounds; dead mouse in wall smell). The page for the reader who hears something in the wall, identification first: what is in the wall, by sound, time and sign. Scratching, scurrying and squeaking at night (mice: Nebraska); rats, mainly roof rats, which nest in attics and wall voids (UC IPM); noise by day from gray squirrels and at night from flying squirrels (as /blog/animals-in-attic sorts them, UGA); squeaking and chattering around dusk (bats: USFWS); a faint rustling (carpenter ants: UC IPM); and the insects that winter in wall voids and wander out on warm days (/blog/bugs-in-house-in-winter). Quick-ID table, one row per suspect: what you hear, when, the droppings, the other sign. For each suspect a photo, the sign that confirms it (droppings and their size, a musky smell, gnaw marks, dark rub marks at holes and along pipes, shredded nesting material; NPS Conserve O Gram 3/12 shows mouse signs) and a link (/blog/rat-vs-mouse, /blog/roof-rat-vs-norway-rat, /blog/animals-in-attic, /blog/bat-poop, /blog/mouse-poop, /blog/mouse-urine). Then how mice get into and travel through walls (openings of 1/4 inch, along pipes, wires and sill plates; climbing goes to /blog/can-mice-climb-walls) and how to get them out without sealing them in: snap traps where they leave the wall (behind the stove and refrigerator, under sinks, where pipes enter, above drop ceilings: CDC, Nebraska; trap types go to /blog/mice-traps), traps set and working before the last holes are closed and a week with no catches before calling it done (CDC, consistent with /blog/fall-mouse-proofing-checklist and /blog/steel-wool-for-mice), and why poison and ultrasonic devices are a poor fit for wall voids (UC IPM, Cornell, Nebraska; /blog/mice-poison). A dead mouse in the wall: why it happens, how long the smell lasts (Cornell: days for a mouse), when opening the wall is worth it; finding and removing the carcass stays on /blog/mice-removal. When to call a pro: /blog/mice-exterminator. Health only from CDC at its strength (never sweep or vacuum droppings or nests; hantavirus and which mice carry it: /blog/deer-mice). Sources: CDC rodent control (seal up, trap up, clean up), EPA, Nebraska Extension G1105, UC IPM Pest Notes (house mouse, rats, carpenter ants), Cornell, Penn State, Purdue, NPS Conserve O Gram 3/12, the USFWS bat manual, UGA. No product advice; no quote prompt (a traffic page; BuzzSkito does not treat rodents).
 
+- `/blog/shrews` — **shrew** (also: shrews; shrew vs mouse; what does a shrew look like; are shrews dangerous; shrew bite; shrews in house; shrew vs vole). Shrews for US and Canadian readers, the "is this a mouse?" question first. The quick answer: a shrew is not a rodent but a small insect-eater, with a long pointed snout, tiny eyes, small or hidden ears, short dense fur and five-toed feet; it is smaller and pointier than a mouse and moves fast and nervously (each as sources say). Shrew, mouse, vole or mole, in a quick-ID table under the quick answer (snout, eyes, ears, tail, fur, teeth, food, signs), with photos at a printed scale. The species people meet: the northern short-tailed shrew (Blarina brevicauda, whose saliva is venomous to its prey; what that means for people only at the sources' strength), the masked or common shrew, the least shrew and others by region only as sources give them. Are shrews dangerous: bites when handled, disease only at the sources' strength (CDC's rodent and hantavirus pages cover rodents, which shrews are not: say only what a source says about shrews), the musky odor, and why cats catch them but often do not eat them, as sources say. Shrews in the house: how they get in, why they are usually following insects, what they leave behind (droppings only as a source describes them), and what to do (seal gaps, traps where sources recommend them for shrews, remove the insects and cover they follow); no poison advice. Cards: house mouse (/blog/types-of-mice), deer mouse (/blog/deer-mice), vole (/blog/holes-in-yard), mole (/blog/holes-in-yard). Sources: state wildlife agencies (for example the Missouri Department of Conservation, the Pennsylvania Game Commission, New York DEC), Penn State Extension, the Smithsonian's National Museum of Natural History or a university mammal guide, the Internet Center for Wildlife Damage Management, CDC only at its strength. No quote prompt.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -382,7 +384,7 @@
 - `/blog/tick-eggs` — tick eggs
 - `/blog/mayflies` — mayflies
 - `/blog/european-hornets` — european hornet
-- `/blog/wheel-bugs` — wheel bug
+- `/blog/wheel-bugs` — assassin bug
 - `/blog/spotted-lanternfly` — spotted lanternfly
 - `/blog/bot-flies` — bot fly
 - `/blog/leaf-footed-bugs` — leaf footed bug
@@ -399,7 +401,7 @@
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
-- `/blog/pill-bugs` — pill bugs
+- `/blog/pill-bugs` — roly poly
 - `/blog/scorpions-in-arizona` — scorpions in arizona
 - `/blog/scorpions-in-texas` — scorpions in texas
 - `/blog/northern-giant-hornet` — northern giant hornet
@@ -452,6 +454,12 @@
 - `/blog/flea-dirt` — flea dirt
 - `/blog/camel-crickets` — camel cricket
 - `/blog/bed-bugs-in-hotels` — bed bugs in hotels
+- `/blog/flea-bites` — flea bites
+- `/blog/what-do-bed-bug-bites-look-like` — bed bug bites
+- `/blog/fruit-flies` — how to get rid of fruit flies
+- `/blog/carpet-beetle-larvae` — carpet beetle larvae
+- `/blog/weevils` — weevils
+- `/blog/jerusalem-crickets` — jerusalem cricket
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

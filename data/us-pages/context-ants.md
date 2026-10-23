@@ -374,7 +374,7 @@
 - `/blog/tick-eggs` — tick eggs
 - `/blog/mayflies` — mayflies
 - `/blog/european-hornets` — european hornet
-- `/blog/wheel-bugs` — wheel bug
+- `/blog/wheel-bugs` — assassin bug
 - `/blog/spotted-lanternfly` — spotted lanternfly
 - `/blog/bot-flies` — bot fly
 - `/blog/leaf-footed-bugs` — leaf footed bug
@@ -391,7 +391,7 @@
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
-- `/blog/pill-bugs` — pill bugs
+- `/blog/pill-bugs` — roly poly
 - `/blog/scorpions-in-arizona` — scorpions in arizona
 - `/blog/scorpions-in-texas` — scorpions in texas
 - `/blog/northern-giant-hornet` — northern giant hornet
@@ -449,6 +449,13 @@
 - `/blog/flea-dirt` — flea dirt
 - `/blog/camel-crickets` — camel cricket
 - `/blog/bed-bugs-in-hotels` — bed bugs in hotels
+- `/blog/flea-bites` — flea bites
+- `/blog/what-do-bed-bug-bites-look-like` — bed bug bites
+- `/blog/fruit-flies` — how to get rid of fruit flies
+- `/blog/carpet-beetle-larvae` — carpet beetle larvae
+- `/blog/weevils` — weevils
+- `/blog/jerusalem-crickets` — jerusalem cricket
+- `/blog/shrews` — shrew
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

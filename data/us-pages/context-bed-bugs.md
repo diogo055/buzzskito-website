@@ -30,6 +30,8 @@
 
 - `/blog/bed-bugs-in-hotels` — **bed bugs in hotels** (also: how to check for bed bugs in a hotel; how to check a hotel room for bed bugs; bed bugs in hotel rooms; what to do if your hotel room has bed bugs; how to avoid bringing bed bugs home; can you get bed bugs from a hotel). For US travelers, the hotel check first, in the order to do it. Keep luggage off the floor and off the bed until the check is done, on a luggage rack, table or other hard surface (University of Kentucky ENTFACT-636; EPA's Protecting Your Home from Bed Bugs says to inspect the luggage rack). Check the bed from the pillow end with a flashlight: sheets and pillows back, mattress seams, piping and tags, and the box spring where it can be seen (Kentucky); the headboard edges and the gap behind it, a frequent hiding place in hotel rooms, without taking it down (Kentucky warns untrained people not to); then the nightstand, upholstered chairs and the luggage rack straps. What the signs look like in a hotel bed (live bugs, ink-dot fecal spots, shed skins, eggs), with photos at life size, linking /blog/signs-of-bed-bugs-checklist, /blog/bed-bug-poop and /blog/what-do-bed-bugs-look-like; why a clean check is not proof (Virginia Tech: in a new infestation, a hotel room for example, evidence can be very hard to find). If you find them: tell the front desk, ask for a room in a different part of the hotel because infestations sometimes extend to nearby units (Kentucky), photograph the evidence and keep luggage closed; who must act is set by states and cities, not EPA (EPA's Bed Bug Laws and Regulations page: 21 states with some law or regulation, focused mostly on hotels and landlords), stated at that strength, no legal advice. Bites during or after a trip: marks can take as long as 14 days to show and bites alone do not confirm bed bugs (CDC), and bites noticed after getting home do not mean the home is infested (Virginia Tech); link /blog/bed-bug-bites and /blog/bed-bug-bites-but-no-bed-bugs. Coming home: unpack away from the bedroom, put clothing straight into the washer or dryer (heat settings only as a source gives them), heat-treat or isolate a suitcase you are worried about (Kentucky: a hot car in summer; Rutgers: a portable heating box), why Kentucky rates inspecting or vacuuming a suitcase as less useful, how to watch for bed bugs at home afterwards (interceptors under the bed legs; /blog/signs-of-bed-bugs-checklist) and what to do if they came home (/blog/how-to-get-rid-of-bed-bugs). For perspective, Kentucky says most hotel infestations are limited to a few rooms. A where-to-check table (spot, what to look for, how to check it) and look-alike cards (bat bug, carpet beetle larva, cockroach nymph, spider beetle; /blog/bugs-that-look-like-bed-bugs). Hiding places in general go to /blog/where-do-bed-bugs-hide. Sources: EPA (How to Find Bed Bugs; Protecting Your Home from Bed Bugs; Bed Bug Laws and Regulations), CDC, University of Kentucky ENTFACT-636, Virginia Tech, Rutgers and the Indiana Department of Health, as already cited on /blog/where-do-bed-bugs-hide and /learn/bed-bugs. Never name a hotel, chain, booking or registry site; no spray or product advice beyond the one generic pick; no quote prompt (a traffic page; BuzzSkito does not treat bed bugs).
 
+- `/blog/what-do-bed-bug-bites-look-like` — **bed bug bites** (also: what do bed bug bites look like; bed bugs bites; what do bedbug bites look like; bed bug bite; bed bug bites pictures; how long do bed bug bites last; bed bug bites treatment). US edition, the bite first: what bed bug bites look like (red, itchy bumps or welts, often in a line, a zigzag or a cluster on skin exposed during sleep: face, neck, arms, hands, shoulders and legs, as CDC, EPA, the American Academy of Dermatology or Mayo Clinic describe them), with real bite photos and the caveats the sources give: marks can take up to 14 days to appear, some people never react, and bites alone cannot confirm bed bugs (CDC, EPA). How long they last and when the itch is worst, at the sources' strength; when to see a provider (infection, an allergic or blistering reaction, as the sources list them); treatment as washing, not scratching and anti-itch care only as given, no medicine doses. Do bed bugs spread disease (CDC: they are not known to), at the source's strength. Bed bug bites or something else, in a quick-ID table under the quick answer (bed bug, flea, mosquito, chigger, spider, scabies, carpet beetle rash): where on the body, pattern, timing, what else you would find; flea vs bed bug bites in one row that links flea-bites (mustLink), mosquito in one row that links /blog/bed-bug-bites-vs-mosquito-bites. How to confirm: the signs to look for on the mattress and bed frame (fecal spots, shed skins, eggs, live bugs), linking /blog/bed-bug-poop, /blog/what-do-bed-bugs-look-like, /blog/where-do-bed-bugs-hide and /blog/signs-of-bed-bugs-checklist; bites but no bugs found goes to /blog/bed-bug-bites-but-no-bed-bugs. If it is bed bugs: link /blog/how-to-get-rid-of-bed-bugs and /learn/bed-bugs (mustLink); no treatment plan here. Cards: flea bites (flea-bites, no link until Oct 31), chigger bites (/blog/chigger-bites), scabies (scabies-vs-bed-bugs, no link until live), carpet beetle rash (carpet-beetle-rash, no link until live). Regional pair with /blog/bed-bug-bites: written fresh from US sources; add the pair to REGIONAL_PAIRS at release. Sources: CDC (bed bugs), EPA (bed bugs), American Academy of Dermatology, Mayo Clinic, Cleveland Clinic, MedlinePlus, University of Kentucky ENTFACT-636, Virginia Tech, Rutgers. Never suggest BuzzSkito treats bed bugs; no quote prompt.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -364,7 +366,7 @@
 - `/blog/tick-eggs` — tick eggs
 - `/blog/mayflies` — mayflies
 - `/blog/european-hornets` — european hornet
-- `/blog/wheel-bugs` — wheel bug
+- `/blog/wheel-bugs` — assassin bug
 - `/blog/spotted-lanternfly` — spotted lanternfly
 - `/blog/bot-flies` — bot fly
 - `/blog/leaf-footed-bugs` — leaf footed bug
@@ -381,7 +383,7 @@
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
-- `/blog/pill-bugs` — pill bugs
+- `/blog/pill-bugs` — roly poly
 - `/blog/scorpions-in-arizona` — scorpions in arizona
 - `/blog/scorpions-in-texas` — scorpions in texas
 - `/blog/northern-giant-hornet` — northern giant hornet
@@ -438,6 +440,12 @@
 - `/blog/mice-in-walls` — mice in walls
 - `/blog/flea-dirt` — flea dirt
 - `/blog/camel-crickets` — camel cricket
+- `/blog/flea-bites` — flea bites
+- `/blog/fruit-flies` — how to get rid of fruit flies
+- `/blog/carpet-beetle-larvae` — carpet beetle larvae
+- `/blog/weevils` — weevils
+- `/blog/jerusalem-crickets` — jerusalem cricket
+- `/blog/shrews` — shrew
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
