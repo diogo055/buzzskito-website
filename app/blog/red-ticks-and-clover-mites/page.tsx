@@ -281,6 +281,7 @@ export default function RedTicksAndCloverMitesPage() {
             caption="An adult female Gulf Coast tick, Amblyomma maculatum, seen from above. Look for the ornate silvery markings on a reddish-brown body, unlike the single dot on a female lone star tick."
           />
           <p>Neither of these looks like the tiny scarlet dots on your windowsill. They are tick-sized (a few millimetres), eight-legged, brown with reddish tones, and found in grass and brush — not swarming your siding. To compare the ticks you are most likely to meet in Ontario, see our breakdown of the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick</Link>.</p>
+          <p>If you are still unsure which tick you have found, or whether it is a tick at all, our <Link href="/tools/tick-identifier">tick identifier quiz</Link> asks six quick questions about where you picked it up, where you found it, its size, its colour and markings, its legs and the season, then shows the most likely ticks with a real photo of each, how to confirm it and what it can spread, or tells you when the bug is probably not a tick.</p>
 
           <h2>How Big Is a Clover Mite Compared to a Tick?</h2>
           <p>A clover mite is about 0.75 mm long — roughly 1/32 inch, smaller than the head of a pin. A tick is much bigger: 1–5 mm (about 1/16 to 3/16 inch) unfed, and 4–10 mm (about 3/16 to 3/8 inch) once engorged. If you can make out individual legs without magnification, it is a tick.</p>

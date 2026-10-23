@@ -2,7 +2,7 @@
  "id": "venomous-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "644d6b3841f2b35cbf1ab60493dabac676fbb93ecf56e678c94ee9b2f06039b2",
+ "sha": "12841cc914396acf0f2b2b8b6fcc709d26b67e78126f695bd94d6125810a2fe0",
  "claimsChecked": 354,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 7,
@@ -22,6 +22,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added at the end of 'How do you recognize a black widow?' linking the new /blog/black-spiders; no fact changed.",
    "previousSha": "511b39ec5de847831a060d5d5f7c57a10e01ea6f7c5b6f019c7226794770129b"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/spider-identifier added in section How do you check a spider you have caught? (one new paragraph after the five checks)",
+   "previousSha": "644d6b3841f2b35cbf1ab60493dabac676fbb93ecf56e678c94ee9b2f06039b2"
   }
  ]
 }

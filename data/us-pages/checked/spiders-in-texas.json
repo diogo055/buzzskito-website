@@ -2,7 +2,7 @@
  "id": "spiders-in-texas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0c4e58773d3377c8ef2c5e3e03299001b2e8da5dfe9312f0377b9d8a3c72a20c",
+ "sha": "009de470ca3b6d5f1af068f0012c03e1c96e429606bd77f821206dc988ec987e",
  "claimsChecked": 323,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/spider-identifier added in section How can you tell which Texas spider you have? (one new paragraph after the jar checklist)",
+   "previousSha": "0c4e58773d3377c8ef2c5e3e03299001b2e8da5dfe9312f0377b9d8a3c72a20c"
+  }
+ ]
 }

@@ -2,9 +2,16 @@
  "id": "ticks-on-dogs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bc0d09240551c4cf7323a7caded37ee411e313d202a01c8ef5bf3eb817f73b06",
+ "sha": "92433af4dbdb9aa5878711e51532a06ba35619a123f000531fb41e7d7e3ffce5",
  "claimsChecked": 118,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/tick-identifier added in section What does a tick look and feel like on a dog? (one new paragraph before the skin tag subsection)",
+   "previousSha": "bc0d09240551c4cf7323a7caded37ee411e313d202a01c8ef5bf3eb817f73b06"
+  }
+ ]
 }

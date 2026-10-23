@@ -333,6 +333,12 @@ export default function BugBiteIdentifierPage() {
             university extension services say about each one, and the result shows the reasons. It cannot see your skin, so treat the result as a place to start, and it
             is not medical advice. Your answers are not saved with your name; the site counts which answers are picked, through Google Analytics, to improve the tool.
           </p>
+          <p className="mt-3 text-sm leading-relaxed text-gray-700">
+            Found the bug itself? Identify it with the{' '}
+            <Link href="/tools/tick-identifier" prefetch={false} data-recirc="quiz_result" data-recirc-kind="tool" data-recirc-target="tick-identifier" className="font-semibold text-brand-700 underline underline-offset-2 hover:text-brand-900">tick identifier</Link>{' '}
+            or the{' '}
+            <Link href="/tools/spider-identifier" prefetch={false} data-recirc="quiz_result" data-recirc-kind="tool" data-recirc-target="spider-identifier" className="font-semibold text-brand-700 underline underline-offset-2 hover:text-brand-900">spider identifier</Link>.
+          </p>
         </div>
       </div>
 

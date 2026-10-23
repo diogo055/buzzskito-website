@@ -228,6 +228,7 @@ export default function BlackleggedDeerTickOntarioPage() {
               { href: '/blog/ticks-in-british-columbia', name: 'Western blacklegged tick', photo: 'western-blacklegged-tick-female', note: 'A different species: the Lyme carrier of coastal and southern interior BC' },
             ]}
           />
+          <p>If the tick you found does not clearly match any of these, our <Link href="/tools/tick-identifier">tool for identifying a tick</Link> asks six quick questions, from where you picked it up to the colour and markings on its back, then shows the most likely ticks in Canada and the US with a real photo of each, how to confirm it and what it can spread.</p>
 
           <h2>Where Blacklegged Ticks Live in Ontario</h2>
           <p>Blacklegged ticks are no longer a rarity confined to a few parks. Over the past two decades their range has expanded steadily across <strong>southern and eastern Ontario</strong>, driven by warming winters and by migrating birds that drop ticks far outside established zones. Well-known risk areas include:</p>

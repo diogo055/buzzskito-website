@@ -260,6 +260,7 @@ export default function DeerTickVsDogTickPage() {
             </table>
           </div>
           <p>If the tick matches neither description, our <Link href="/blog/types-of-ticks-identification" className="text-brand-700 underline">types of ticks identification chart</Link> covers the other common North American species by size, colour and markings.</p>
+          <p>To narrow it down from what you can see, our <Link href="/tools/tick-identifier" className="text-brand-700 underline">tick ID quiz</Link> asks six quick questions about where you picked the tick up, where you found it, its size, the markings on its back, its legs and the season, then shows the most likely ticks in Canada and the US with a real photo of each, how to confirm it and what it can spread.</p>
 
           <h2>Which Tick Carries Lyme Disease?</h2>
           <p><strong>The deer tick — also called the blacklegged tick (<em>Ixodes scapularis</em>) — is the only one of these two that carries Lyme disease in Canada.</strong> The American dog tick does not transmit Lyme here. So the practical question &ldquo;which tick carries Lyme?&rdquo; has a simple answer: the small, plain, reddish-black one. About <strong>10–30% of blacklegged ticks in southern Ontario</strong> carry <em>Borrelia burgdorferi</em>, the Lyme bacterium. If a tiny, unpatterned tick bit you, save it and watch for symptoms; if a larger patterned dog tick bit you, Lyme is not the concern.</p>

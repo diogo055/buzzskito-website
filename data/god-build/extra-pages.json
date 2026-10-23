@@ -295,8 +295,7 @@
    "keyword": "spider identification",
    "alsoTargets": [
     "common house spiders",
-    "types of spiders",
-    "what kind of spider is this"
+    "types of spiders"
    ],
    "h1Hint": "Spider Identification: Common North American Spiders and Which Ones Bite",
    "metaTitleHint": "Spider Identification: Common Spiders and Bites",
@@ -328,6 +327,11 @@
      "path": "/blog/what-does-a-spider-bite-look-like",
      "overlap": "bite page (43,773 impressions in 90 days)",
      "resolution": "link; the hub does not target bites"
+    },
+    {
+     "path": "/tools/spider-identifier",
+     "overlap": "the interactive spider identifier (live Oct 23, 2026) targets \"spider identifier\" and \"what kind of spider is this\"",
+     "resolution": "link to the tool near the top; the hub keeps \"spider identification\", \"types of spiders\" and \"common house spiders\""
     }
    ],
    "family": "spider-id",

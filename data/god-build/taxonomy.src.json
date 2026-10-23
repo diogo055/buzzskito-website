@@ -1023,8 +1023,7 @@
    "keyword": "spider identification",
    "alsoTargets": [
     "common house spiders",
-    "types of spiders",
-    "what kind of spider is this"
+    "types of spiders"
    ],
    "demand": {
     "summary": "Search Console, 90 days to 2026-10-12: 52 impressions (42 US) across 22 queries, average position 6.4; Google shows /blog/bugs-that-look-like-ticks and /blog/what-does-a-spider-bite-look-like; Google autocomplete returns 10 suggestions for \"types of spiders in\" (demand exists; volume unsized)",
@@ -1111,6 +1110,11 @@
      "path": "/blog/what-does-a-spider-bite-look-like",
      "overlap": "bite page (43,773 impressions in 90 days)",
      "resolution": "link; the hub does not target bites"
+    },
+    {
+     "path": "/tools/spider-identifier",
+     "overlap": "the interactive spider identifier (live Oct 23, 2026) targets \"spider identifier\" and \"what kind of spider is this\"",
+     "resolution": "link to the tool near the top; the hub keeps \"spider identification\", \"types of spiders\" and \"common house spiders\""
     }
    ],
    "resolution": "new page",

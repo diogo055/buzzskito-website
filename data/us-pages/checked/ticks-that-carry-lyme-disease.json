@@ -2,7 +2,7 @@
  "id": "ticks-that-carry-lyme-disease",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "95dd7ef128e03a96354f1129a6db8dd1afd04b72cf12955d7f6920c57f5ce966",
+ "sha": "03d01f76b54c89b8f8ce11316e861c69c32750dfefa09528f8c92dc85396c424",
  "claimsChecked": 112,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 8,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/learn/tick-identification-chart"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/tick-identifier added in section Which common ticks do not carry Lyme disease? (one new paragraph after the side-by-side markings line)",
+   "previousSha": "95dd7ef128e03a96354f1129a6db8dd1afd04b72cf12955d7f6920c57f5ce966"
+  }
  ]
 }

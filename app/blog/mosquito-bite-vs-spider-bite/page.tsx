@@ -183,6 +183,9 @@ export default function MosquitoBiteVsSpiderBitePage() {
           <p className="text-gray-700 leading-relaxed mb-4">
             To identify the spider itself, our guide to <Link href="/blog/venomous-spiders" className="text-emerald-700 underline font-semibold">black widows and brown recluses in the US</Link> has photos of each and the features that identify them, with a state-by-state range table.
           </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            If you saw or caught the spider but cannot tell which one it is, our <Link href="/tools/spider-identifier" className="text-emerald-700 underline font-semibold">spider identification quiz</Link> asks seven quick questions about where you found it, its web, its size, its colour and markings, its eyes and legs, what it did and where you live, then shows the most likely spiders with a real photo of each, how to confirm it and how to tell the few dangerous ones from the rest.
+          </p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Single vs multiple bites: what the number tells you</h2>
           <p className="text-gray-700 leading-relaxed mb-4">

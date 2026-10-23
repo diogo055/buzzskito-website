@@ -2,7 +2,7 @@
  "id": "black-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "751b0355c14df9de8df243680c1a77fcd6350faae5277363ebf3a6ab30b7f09f",
+ "sha": "883e5860a47e54a832ac683bbe9c18db6e25b49536eb5787f3af7f0df1c5687d",
  "claimsChecked": 245,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/spider-identifier added in section How do you tell which black spider you have? (one new paragraph after the checklist)",
+   "previousSha": "751b0355c14df9de8df243680c1a77fcd6350faae5277363ebf3a6ab30b7f09f"
+  }
+ ]
 }

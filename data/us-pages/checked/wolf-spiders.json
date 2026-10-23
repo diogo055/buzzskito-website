@@ -2,7 +2,7 @@
  "id": "wolf-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6e23683cf25c17cfc2e8aac0306f40c11af7a78497019f0efecd9175bafce82c",
+ "sha": "48edf65a9cfda673819f141d09a6a791b8fc004c167281d60fda4d85987568d6",
  "claimsChecked": 340,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/spider-identifier added in section What other spiders look like wolf spiders? (one new paragraph at the end of the section)",
+   "previousSha": "6e23683cf25c17cfc2e8aac0306f40c11af7a78497019f0efecd9175bafce82c"
+  }
+ ]
 }

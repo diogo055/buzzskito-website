@@ -209,6 +209,7 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             <li><strong>Colour before feeding.</strong> Blacklegged nymphs are translucent tan to dark brown. After feeding they turn grey or slate-coloured.</li>
             <li><strong>Movement.</strong> Ticks crawl slowly and deliberately. If a tiny bug jumped, sprinted, or flew, it was not a tick.</li>
           </ul>
+          <p>Still not sure what you found? Our <Link href="/tools/tick-identifier">six-question tick identifier</Link> asks about its size, its legs and the markings on its back, where you found it, where you picked it up and the time of year, then shows the most likely ticks with a real photo of each and how to confirm it, or tells you when the speck is probably not a tick.</p>
           <p>Several harmless specks get mistaken for baby ticks: poppy seeds and dirt (no legs), baby spiders (obvious two-part body and long legs), and clover mites (bright red and very fast). For a full visual walkthrough of every Ontario tick stage, see our guide to <Link href="/blog/what-ticks-look-like-ontario">what ticks look like in Ontario</Link>.</p>
 
           <p>Counting six legs versus eight on something 0.5 mm across is nearly impossible unaided — a 10x hand lens or a phone macro clip is what turns &ldquo;moving speck&rdquo; into an actual identification, and it doubles as the tool for checking the bite site afterwards. <BuyLink tag={AMZ_TAG} search="10x magnifying glass hand lens">Check price on Amazon.ca →</BuyLink></p>

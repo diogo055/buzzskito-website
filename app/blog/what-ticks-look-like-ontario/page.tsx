@@ -209,6 +209,7 @@ export default function WhatTicksLookLikePage() {
             { href: '/blog/red-ticks-and-clover-mites', name: 'Clover mite', photo: 'clover-mite', note: 'Smaller than a pinhead with very long front legs; clusters on sunny walls and does not bite' },
           ]}
         />
+        <p>Still not sure which tick you found? Our <Link href="/tools/tick-identifier" className="text-brand-700 underline">free tick identifier</Link> asks six quick questions, from where you are in Canada or the US to the markings on its back and its legs, then shows the most likely ticks with a real photo of each, how to confirm it and what it can spread, and tells you when your bug is probably not a tick.</p>
 
         <h2>Size Comparison: Why Nymphs Are So Dangerous</h2>
         <div className="not-prose bg-brand-50 border border-brand-100 rounded-2xl p-6 my-6">

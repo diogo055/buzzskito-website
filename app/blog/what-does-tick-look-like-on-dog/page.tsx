@@ -218,6 +218,7 @@ export default function WhatDoesTickLookLikeOnDogPage() {
               { href: '/blog/what-do-fleas-look-like', name: 'Flea', photo: 'cat-flea-scale-bar', note: 'Six legs, narrow side to side, and it jumps; leaves black flea dirt on the skin' },
             ]}
           />
+          <p>Found a tick on your dog but still not sure which kind it is? Our <Link href="/tools/tick-identifier">tick identifier</Link> asks six quick questions, including where you found it, its size and the colour and markings on its back, then shows the most likely ticks with a real photo of each, how to confirm it and what it can spread.</p>
 
           <h2>Where on Your Dog to Look</h2>
           <p>Ticks prefer warm, hidden, hard-to-groom spots. Check these zones after every walk in tick habitat:</p>

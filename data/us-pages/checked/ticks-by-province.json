@@ -2,7 +2,7 @@
  "id": "ticks-by-province",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e62dcbc359265eff9dd83de5d752005c9f1832a6c247a13946ad4586dd5dfd37",
+ "sha": "2536e70418109f62ca83e6e3658302783a1eddeeb1d799079d5660341dfc85ef",
  "claimsChecked": 378,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/tick-identifier added in section How do you get a tick identified or tested in your province? (one new paragraph at the end of the section)",
+   "previousSha": "e62dcbc359265eff9dd83de5d752005c9f1832a6c247a13946ad4586dd5dfd37"
+  }
+ ]
 }

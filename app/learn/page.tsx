@@ -145,6 +145,38 @@ export default function LearnHubPage() {
         </div>
       </section>
 
+      {/* Tick identifier (Oct 23, 2026), app/tools/tick-identifier */}
+      <section aria-labelledby="tick-identifier" className="pb-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <Link
+            href="/tools/tick-identifier"
+            className="group flex flex-col gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 transition-all hover:shadow-md sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div>
+              <h2 id="tick-identifier" className="text-lg font-extrabold text-brand-900">Found a tick?</h2>
+              <p className="mt-1 text-sm text-gray-700 leading-relaxed">A few quick questions about where you are, its size, its markings and where you found it. Get the most likely ticks with real photos, what each can carry and what to do now.</p>
+            </div>
+            <p className="shrink-0 text-sm font-bold text-brand-700 group-hover:text-brand-600">Try the tick identifier →</p>
+          </Link>
+        </div>
+      </section>
+
+      {/* Spider identifier (Oct 23, 2026), app/tools/spider-identifier */}
+      <section aria-labelledby="spider-identifier" className="pb-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <Link
+            href="/tools/spider-identifier"
+            className="group flex flex-col gap-3 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 transition-all hover:shadow-md sm:flex-row sm:items-center sm:justify-between"
+          >
+            <div>
+              <h2 id="spider-identifier" className="text-lg font-extrabold text-brand-900">What kind of spider is this?</h2>
+              <p className="mt-1 text-sm text-gray-700 leading-relaxed">A few quick questions about its web, markings, size and where you saw it. Get the most likely spiders with real photos, how to confirm each and how to tell the few dangerous ones apart.</p>
+            </div>
+            <p className="shrink-0 text-sm font-bold text-brand-700 group-hover:text-brand-600">Try the spider identifier →</p>
+          </Link>
+        </div>
+      </section>
+
       {/* Printable guides (Oct 2026): recipes, checklists and ID charts, generated list */}
       {US_GUIDE_LEARN_PAGES.length > 0 && (
         <section aria-labelledby="printable-guides" className="pb-12 px-4 bg-white">

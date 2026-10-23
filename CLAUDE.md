@@ -21,8 +21,9 @@
 - **Pricing scales by lot size:** 10K–100K sq ft. Full matrix in src/lib/pricing.ts on the Hub
 - **Costs (CORRECTED Aug 2026 — the old "$25/job commission" was superseded and was
   producing wrong margin maths):** the technician has been **salaried since Jun 1**, so
-  cost is per DAY not per job. Live source of truth is `src/lib/season-ops-data.ts` in
-  the Hub: technician $170/day + insurance $8 + gas $40 = **$218 per service day**,
+  cost is per DAY not per job. These figures came from `src/lib/season-ops-data.ts` in
+  the Hub, which was deleted with the budget page on Oct 23, 2026 (the accountant now
+  tracks the budget), so this file is the record: technician $170/day + insurance $8 + gas $40 = **$218 per service day**,
   plus **~$8 product per visit**.
   - **The marginal cost of one more visit on a day the van is already out is ~$8**,
     against $170.88 average revenue per stop. This is why a bonus spray is a far
@@ -180,6 +181,17 @@
 - Tool #1 of the tools program ("bug bite identifier" ~19K US searches a month, KD 6). Six questions scored against 11 biters (`lib/bite-quiz.ts`, `components/BiteQuiz.tsx`); best match plus up to two close ones, each with sourced reasons, a real credited photo, how to confirm it and links to our bite pages (the build fails if a linked page is gone). Red-flag box on every result; a spreading ring, an attached tick or night itch between the fingers raise a warning. 29 sources; medical claims independently checked.
 - Reader tool: ads allowed (`/tools` is an ad section), no phone bar (`READER_TOOL_ROUTES` in `lib/tool-routes.ts`), no Amazon yet (US-facing; needs the US account). The scoring accepts a photo opinion later, capped so it cannot outvote the answers: that is the hook for the AI photo identifier once the owner's Anthropic API key is in Vercel.
 - Linked from `/learn` and `/learn/bug-bites` (which targets "what bit me" too: watch for the two competing in Search Console). Guides may link `/tools/*` (validate-guide treats reader tools as content, not service pages).
+
+## Tick and spider identifiers: /tools/tick-identifier, /tools/spider-identifier (Oct 23, 2026)
+- **Same design as the bite identifier, on a shared engine.** `lib/identifier-quiz.ts` holds the scoring: each answer adds points with a sourced "why", `unlikely` penalties, `only` sets (several `only` answers intersect, and none left means "not clear") and `flag` warnings. `components/IdentifierQuiz.tsx` holds the client UI. The quiz data lives in `lib/tick-quiz.ts` (6 questions, 12 results including "probably not a tick") and `lib/spider-quiz.ts` (7 questions, 20 results including harvestman and camel spider, "not true spiders"). The bite identifier keeps its own older copy (`lib/bite-quiz.ts`, `components/BiteQuiz.tsx`).
+- **Content:** every sentence names its source; 45+ sources per page. A writer and a second, independent fact-check pass both ran on Oct 23. Research notes are in `data/god-build/research/top3/{tick,spider}-identifier.md`. Real photos from the ledger only.
+- **Links in results** are checked at build time against `lib/article-index.json`. A link to a page that is only *planned* (`data/us-pages/routes.json`) is skipped until its release day. That way the species pages scheduled Dec 2026–Feb 2027 show up in the results by themselves.
+- **Search targets:**
+  - The tick tool targets "tick identifier" and "what kind of tick is this". Leave "tick identification chart" to `/learn/tick-identification-chart` and "bugs that look like ticks" to that post.
+  - The spider tool targets "spider identifier" and "what kind of spider is this". The planned `/learn/spiders` hub (Dec 7) keeps "spider identification" and "types of spiders" (collision recorded in the taxonomy).
+- **Registered in:** reader tools (`lib/tool-routes.ts`: no phone bar), ad pages (`/tools`), the sitemap (true date Oct 23), and `/learn` cards. The three tools link to each other.
+- **Linked from:** 17 bite pages (bite identifier) and the main tick and spider articles and guides.
+- **No Amazon box yet.** check:amazon allows amazon.com only on US guides. A pick box on the tools needs that guard widened first.
 
 ## Speed of the article template (measured Oct 12, 2026)
 - **Live, simulated mid-range phone on slow 4G, median of 3:** LCP 3.17 to 3.19 s, first paint 1.72 to 1.79 s, blocking time 442 to 616 ms, CLS 0.000, score 77 to 81. The LCP element is the H1 (text, no image). With real throttling LCP is about 2.5 to 2.8 s; unthrottled 0.3 to 0.5 s.

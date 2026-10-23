@@ -2,9 +2,16 @@
  "id": "tick-identification-chart",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a4c7a08a996f1fd58ca1d014d7bdfe11bcc0db54eb528e7d4705b7cf7a3b78e7",
+ "sha": "1c25980b06315c2058cdbe6a37ca93c712cffa9db032076e6fbb44fd3de8c71d",
  "claimsChecked": 90,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/tick-identifier added in section What should you do with a tick you have removed, and how do you get it identified? (one new paragraph after the photo identification line)",
+   "previousSha": "a4c7a08a996f1fd58ca1d014d7bdfe11bcc0db54eb528e7d4705b7cf7a3b78e7"
+  }
+ ]
 }

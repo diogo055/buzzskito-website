@@ -2,7 +2,7 @@
  "id": "seed-ticks",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "03bd4a7726ca2321462379440894353654efb1f75d61b160b7325004fad7796b",
+ "sha": "43fc92113cbd64e49189f652795bf3e74198a97dc8556f3a2892a8a738dbc132",
  "claimsChecked": 94,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 10,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/learn/tick-identification-chart"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /tools/tick-identifier added in section What do seed ticks look like? (one new paragraph at the end of Could it be something other than ticks?)",
+   "previousSha": "03bd4a7726ca2321462379440894353654efb1f75d61b160b7325004fad7796b"
+  }
  ]
 }

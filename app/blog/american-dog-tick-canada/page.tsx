@@ -147,6 +147,8 @@ export default function AmericanDogTickPage() {
 
           <p>A third species sometimes enters the conversation: the <strong>lone star tick</strong>, reddish-brown with a single white dot on the female&rsquo;s back. It is the tick linked to the alpha-gal red-meat allergy, and it is not established in Canada — see our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal risk guide for Canada</Link> for where it has actually been logged.</p>
 
+          <p>If you still cannot tell which of these you have, our <Link href="/tools/tick-identifier" className="text-brand-700 underline">quiz for identifying ticks</Link> asks six quick questions about where you picked it up, where you found it, its size, the markings on its back, its legs and the season, then shows the most likely ticks with a real photo of each, how to confirm it and what it can spread.</p>
+
           <h2>Where They Live in Canada</h2>
           <p>American dog ticks are widespread across southern Canada with highest population density in:</p>
           <ul>
