@@ -1566,6 +1566,20 @@
     "/blog/bugs-that-look-like-ticks"
    ]
   },
+  "/blog/booklice": {
+   "next": "/blog/tiny-brown-bugs",
+   "related": [
+    "/blog/moths-in-house",
+    "/blog/jerusalem-crickets",
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "cards": [
+    "/blog/asian-lady-beetles",
+    "/blog/how-to-get-rid-of-earwigs",
+    "/blog/signs-of-carpet-beetles"
+   ],
+   "bar": true
+  },
   "/blog/borax-for-ants": {
    "next": "/blog/how-to-get-rid-of-ants-in-the-house",
    "related": [
@@ -3647,6 +3661,20 @@
     "/blog/patio-heater-vs-fire-table-canada"
    ]
   },
+  "/blog/jerusalem-crickets": {
+   "next": "/blog/camel-crickets",
+   "related": [
+    "/blog/wheel-bugs",
+    "/blog/tiny-brown-bugs",
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "cards": [
+    "/blog/termite-droppings",
+    "/blog/bugs-in-house-in-winter",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "bar": true
+  },
   "/blog/joro-spiders": {
    "next": "/blog/jumping-spiders",
    "related": [
@@ -4367,6 +4395,20 @@
    ],
    "bar": true
   },
+  "/blog/mud-daubers": {
+   "next": "/blog/paper-wasps",
+   "related": [
+    "/blog/how-to-get-rid-of-wasps-canada",
+    "/blog/best-wasp-killer-canada",
+    "/blog/best-wasp-trap"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-ground-wasps-canada",
+    "/blog/rescue-why-trap-review-canada",
+    "/blog/best-wasp-nest-spray-canada"
+   ],
+   "bar": true
+  },
   "/blog/natural-eco-friendly-mosquito-control-ontario": {
    "next": "/blog/natural-mosquito-repellent-ontario",
    "related": [
@@ -4606,6 +4648,20 @@
    ],
    "bar": true
   },
+  "/blog/paper-wasps": {
+   "next": "/blog/how-to-get-rid-of-wasps-canada",
+   "related": [
+    "/blog/how-to-get-rid-of-ground-wasps-canada",
+    "/blog/best-wasp-nest-spray-canada",
+    "/blog/wasp-dust-canada"
+   ],
+   "cards": [
+    "/blog/mud-daubers",
+    "/blog/best-wasp-killer-canada",
+    "/blog/best-yellow-jacket-trap-canada"
+   ],
+   "bar": true
+  },
   "/blog/patio-heater-vs-fire-table-canada": {
    "next": "/blog/do-fire-pits-repel-mosquitoes-canada",
    "related": [
@@ -4684,6 +4740,20 @@
     "/blog/bug-protective-clothing-canada",
     "/blog/mosquito-dunks-canada-guide"
    ]
+  },
+  "/blog/pill-bugs": {
+   "next": "/blog/millipedes",
+   "related": [
+    "/blog/tiny-brown-bugs",
+    "/blog/jerusalem-crickets",
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-silverfish",
+    "/blog/termite-droppings",
+    "/blog/bugs-in-house-in-winter"
+   ],
+   "bar": true
   },
   "/blog/pond-aerator-mosquito-larvae-canada": {
    "next": "/blog/mosquito-larvae-identification",
@@ -4922,6 +4992,20 @@
     "/learn/tick-identification-chart",
     "/blog/lone-star-tick-alpha-gal-canada",
     "/blog/tick-season-burlington-when-are-ticks-active"
+   ],
+   "bar": true
+  },
+  "/blog/shrews": {
+   "next": "/blog/how-to-get-rid-of-voles-canada",
+   "related": [
+    "/blog/rat-droppings",
+    "/blog/rat-vs-mouse",
+    "/blog/mouse-urine"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/best-mouse-trap-canada",
+    "/blog/how-to-keep-mice-out-of-your-car"
    ],
    "bar": true
   },
@@ -6496,6 +6580,20 @@
     "/blog/tick-repellent-for-dogs-ontario",
     "/blog/alpha-gal-syndrome"
    ]
+  },
+  "/blog/wheel-bugs": {
+   "next": "/blog/kissing-bug-look-alikes",
+   "related": [
+    "/blog/weevils",
+    "/blog/tiny-brown-bugs",
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "cards": [
+    "/blog/tiny-black-bugs",
+    "/blog/camel-crickets",
+    "/blog/jerusalem-crickets"
+   ],
+   "bar": true
   },
   "/blog/when-are-mosquitoes-most-active": {
    "next": "/blog/what-temperature-kills-mosquitoes",

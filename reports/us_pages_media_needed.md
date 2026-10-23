@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-385 images across 154 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+395 images across 160 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -339,6 +339,12 @@
 - Fresh mouse gnaw marks on a baseboard, drywall edge or electrical wire inside a US home, beside a ruler marked in inches, identified by an extension service or health department
 - A snap trap set flat on the floor in a T against a wall, baited end touching the wall, behind a refrigerator or under a sink where pipes enter, in a US home; public domain or CC0
 
+## /blog/shrews
+
+- A shrew's open mouth or cleaned skull showing the dark, iron-pigmented tips of its teeth beside a ruler marked in inches, identified by a museum, university or wildlife agency; public domain or CC0
+- A masked shrew (Sorex cinereus) found in a US house, garage or window well, photographed beside a ruler marked in inches and identified by a wildlife agency, museum or university; public domain or CC0
+- Shrew droppings in a small pile on a basement floor or windowsill, beside house mouse droppings and a ruler marked in inches, identified by a wildlife biologist or extension specialist; public domain or CC0
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -591,6 +597,16 @@
 
 - A male red-legged purseweb spider (shiny black body, bright reddish-orange legs) walking on the ground in early summer beside a ruler marked in inches, and a second photo of a purseweb silk tube against the base of a tree
 
+## /blog/paper-wasps
+
+- A red paper wasp (Polistes carolina or P. rubiginosus) on its nest under a house eave or porch ceiling in the eastern US, identified by an extension service, museum or expert; public domain or CC0
+- A small paper wasp nest started by a single queen in spring, under a porch ceiling, deck railing or play set in the US, beside a ruler marked in inches; identified by an extension service or expert; public domain or CC0
+
+## /blog/mud-daubers
+
+- An adult organ-pipe mud dauber (Trypoxylon politum) at its tube nest on a house wall, porch ceiling or garage in the US, identified by an extension service, museum or expert; public domain or CC0
+- A black-and-yellow mud dauber nest broken open to show the paralyzed spiders packed in its cells, beside a ruler marked in inches, identified by an extension service or expert; public domain or CC0
+
 ## /blog/flies-in-house
 
 - Photo of several house flies or blow flies on the inside of a kitchen or living-room window, as a homeowner sees them, with a ruler or coin for scale (public domain or CC0, so it could lead the page).
@@ -658,6 +674,14 @@
 - Public domain or CC0 photo of Indian meal moth silk webbing with clumped flour or cereal inside an opened kitchen package, sharp enough to show the silk threads, to sit beside or replace the small birdseed photo
 - Top-down photo of an adult drugstore beetle (Stegobium paniceum) beside a ruler marked in inches, sharp enough to show the rows of lines on its wing covers, ideally next to a cigarette beetle; public domain or CC0
 - Magnified public domain or CC0 photo of grain mites (Acarus siro) or booklice on flour or a pantry shelf beside a scale marked in inches, showing how pale and small they are
+
+## /blog/wheel-bugs
+
+- A spined assassin bug or pale green assassin bug hunting on a garden plant in the US, beside a ruler marked in inches if possible, identified by an extension service, museum or expert; public domain or CC0
+
+## /blog/pill-bugs
+
+- A sow bug (genus Porcellio or Oniscus) seen from above beside a pill bug and a ruler marked in inches, showing the two tail-like uropods at the sow bug's rear; identified by an extension service, museum or expert; public domain or CC0
 
 ## /blog/tiny-black-bugs
 
@@ -749,6 +773,10 @@
 - Rice or maize weevils on rice or another whole grain in a kitchen container or package, with small round exit holes in the kernels, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0
 - A strawberry root weevil or black vine weevil indoors, in a sink or tub or on a floor or windowsill of a US or Canadian home, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0
 - An acorn weevil larva beside the acorn it left, showing the round exit hole, on a table or windowsill indoors; identified by an extension service, museum or expert; public domain or CC0
+
+## /blog/jerusalem-crickets
+
+- A Jerusalem cricket beside a ruler marked in inches, seen from above and from the side to show the head and jaws at life size, in a US yard or garage; identified by an extension service, museum or expert; public domain or CC0
 
 ## /learn/bug-bites
 

@@ -1080,6 +1080,48 @@
       "name": "Airtight food storage containers",
       "search": "airtight food storage containers",
       "basis": "\"**Store food sealed** in tightly closed glass, metal or heavy plastic containers, or in the refrigerator or freezer, until the infestation is gone (UMN, Iowa State)\". Not a moth trap: the page says pheromone traps for the Indian meal moth will not catch weevils (UC IPM). Never an insecticide."
+    },
+    "shrews": {
+      "label": "To cover entry points",
+      "name": "1/4-inch hardware cloth",
+      "search": "1/4 inch hardware cloth",
+      "basis": "\"The chapter says rodent-proofing keeps shrews out too: cover possible entrances with 1/4-inch hardware cloth and stuff small openings with coarse steel wool\" (Prevention and Control of Wildlife Damage, shrew chapter). Never a poison."
+    },
+    "pill-bugs": {
+      "label": "To seal the gap under a door",
+      "name": "Door sweep",
+      "search": "door sweep",
+      "basis": "\"**Seal the way in.** UC IPM recommends weather stripping and door sweeps, and Idaho names loose sliding patio doors, basement windows next to window wells and foundation vents as easy ways in\". Never an insecticide."
+    },
+    "booklice": {
+      "label": "To bring humidity below 50%",
+      "name": "Dehumidifier",
+      "search": "dehumidifier",
+      "basis": "\"Penn State says keeping relative humidity below 50% prevents mold growth and booklouse development, so a dehumidifier or moisture absorber can be very effective\"; DCPH-A: keep the dehumidifier running. Never an insecticide."
+    },
+    "mud-daubers": {
+      "label": "To scrape off old nests",
+      "name": "Putty knife",
+      "search": "putty knife",
+      "basis": "\"**Scrape it off.** Purdue says to scrape the nest away with a putty knife and dispose of it, which prevents mud daubers emerging from it the following year\". Never an insecticide."
+    },
+    "wheel-bugs": {
+      "label": "To keep masked hunters out",
+      "name": "Door sweep",
+      "search": "door sweep",
+      "basis": "\"Penn State says the best control is to find and eliminate the pests a masked hunter feeds on ... and Utah State suggests door sweeps on doors leading outside or into a garage, and regular vacuuming\". Never an insecticide."
+    },
+    "jerusalem-crickets": {
+      "label": "To catch it and let it go",
+      "name": "Clear plastic jar with lid",
+      "search": "clear plastic jar with lid",
+      "basis": "\"**Use a hard container.** Slide a clear jar or a hard plastic container over it, photograph it beside a ruler marked in inches, and note where you found it\". Never an insecticide."
+    },
+    "paper-wasps": {
+      "label": "For a nest you must remove",
+      "name": "Wasp and hornet spray",
+      "search": "wasp and hornet spray",
+      "basis": "\"**Use a wasp and hornet spray labeled for nests**\"; \"Penn State says these sprays shoot a stream up to 20 feet, and Kentucky says most make the insects drop instantly, so never stand under the nest\". The page names this type; UF and Utah State's no-spray options are also on the page."
     }
   }
 }

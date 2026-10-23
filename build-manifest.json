@@ -2,14 +2,14 @@
  "generated": "2026-10-23",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 193,
+  "newPagesBuilt": 200,
   "hubPages": 4,
-  "guides": 178,
+  "guides": 185,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 228,
-  "internalLinksInNewPages": 2618
+  "notBuilt": 221,
+  "internalLinksInNewPages": 2682
  },
  "pages": [
   {
@@ -200,7 +200,7 @@
    "wordCount": 2098,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -234,6 +234,22 @@
    "sources": 20,
    "inboundFromNewPages": 2,
    "outboundInternalLinks": 25,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "shrew",
+   "us_volume": null,
+   "url": "/blog/shrews",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Shrews vs Mice and Voles: How to Tell (Photos)",
+   "wordCount": 2238,
+   "faqs": 10,
+   "sources": 15,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -360,7 +376,7 @@
    "wordCount": 1755,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1048,7 +1064,7 @@
    "wordCount": 2315,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1128,7 +1144,7 @@
    "wordCount": 2540,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1246,6 +1262,38 @@
   },
   {
    "rank": null,
+   "keyword": "paper wasp",
+   "us_volume": null,
+   "url": "/blog/paper-wasps",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wasps",
+   "title": "Paper Wasps: ID, Nests and Stings (Photos)",
+   "wordCount": 2330,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "mud dauber",
+   "us_volume": null,
+   "url": "/blog/mud-daubers",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wasps",
+   "title": "Mud Daubers: ID, Mud Nests and Do They Sting?",
+   "wordCount": 1771,
+   "faqs": 10,
+   "sources": 14,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "why are there so many flies in my house",
    "us_volume": null,
    "url": "/blog/flies-in-house",
@@ -1288,7 +1336,7 @@
    "wordCount": 2306,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1320,7 +1368,7 @@
    "wordCount": 2890,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1336,7 +1384,7 @@
    "wordCount": 2472,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1384,7 +1432,7 @@
    "wordCount": 1886,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -1415,8 +1463,8 @@
    "title": "Bugs That Look Like Kissing Bugs (Photos)",
    "wordCount": 2366,
    "faqs": 10,
-   "sources": 17,
-   "inboundFromNewPages": 3,
+   "sources": 18,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1448,8 +1496,56 @@
    "wordCount": 2675,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "assassin bug",
+   "us_volume": null,
+   "url": "/blog/wheel-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Assassin Bug and Wheel Bug: ID and the Bite",
+   "wordCount": 1743,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "booklice",
+   "us_volume": null,
+   "url": "/blog/booklice",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Booklice: Tiny Pale Bugs in Books and Pantries",
+   "wordCount": 1759,
+   "faqs": 10,
+   "sources": 12,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "roly poly",
+   "us_volume": null,
+   "url": "/blog/pill-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Roly Poly Bugs: Pill Bugs and Sow Bugs Indoors",
+   "wordCount": 2092,
+   "faqs": 10,
+   "sources": 15,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 7,
    "status": "built"
   },
   {
@@ -1512,7 +1608,7 @@
    "wordCount": 2601,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -1528,7 +1624,7 @@
    "wordCount": 2255,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1672,7 +1768,7 @@
    "wordCount": 2230,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1710,6 +1806,22 @@
   },
   {
    "rank": null,
+   "keyword": "jerusalem cricket",
+   "us_volume": null,
+   "url": "/blog/jerusalem-crickets",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Jerusalem Cricket (Potato Bug): Do They Bite?",
+   "wordCount": 1857,
+   "faqs": 10,
+   "sources": 11,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "bug bite identification",
    "us_volume": null,
    "url": "/learn/bug-bites",
@@ -1720,7 +1832,7 @@
    "wordCount": 3991,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 45,
    "status": "built"
   },
@@ -1752,7 +1864,7 @@
    "wordCount": 1880,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1768,7 +1880,7 @@
    "wordCount": 1781,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1928,7 +2040,7 @@
    "wordCount": 2590,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3201,13 +3313,6 @@
   },
   {
    "rank": null,
-   "keyword": "paper wasp",
-   "url": "/blog/paper-wasps",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "ground bees",
    "url": "/blog/ground-bees",
    "action": "new",
@@ -3245,13 +3350,6 @@
    "rank": null,
    "keyword": "european hornet",
    "url": "/blog/european-hornets",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "assassin bug",
-   "url": "/blog/wheel-bugs",
    "action": "new",
    "status": "not built"
   },
@@ -3299,22 +3397,8 @@
   },
   {
    "rank": null,
-   "keyword": "booklice",
-   "url": "/blog/booklice",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "pseudoscorpion",
    "url": "/blog/pseudoscorpions",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "mud dauber",
-   "url": "/blog/mud-daubers",
    "action": "new",
    "status": "not built"
   },
@@ -3364,13 +3448,6 @@
    "rank": null,
    "keyword": "western conifer seed bug",
    "url": "/blog/western-conifer-seed-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "roly poly",
-   "url": "/blog/pill-bugs",
    "action": "new",
    "status": "not built"
   },
@@ -3511,20 +3588,6 @@
    "rank": null,
    "keyword": "how to get rid of fruit flies",
    "url": "/blog/fruit-flies",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "jerusalem cricket",
-   "url": "/blog/jerusalem-crickets",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "shrew",
-   "url": "/blog/shrews",
    "action": "new",
    "status": "not built"
   },
@@ -3670,7 +3733,7 @@
    "wordCount": 3320,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3718,7 +3781,7 @@
    "wordCount": 5317,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 34,
+   "inboundFromNewPages": 35,
    "outboundInternalLinks": 39,
    "status": "built"
   },
@@ -4088,7 +4151,7 @@
    "wordCount": 2742,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -4254,7 +4317,7 @@
    "wordCount": 3222,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 26,
+   "inboundFromNewPages": 27,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -4440,7 +4503,7 @@
    "wordCount": 2518,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4538,7 +4601,7 @@
    "wordCount": 2810,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4790,7 +4853,7 @@
    "wordCount": 2521,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },

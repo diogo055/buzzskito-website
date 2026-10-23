@@ -1,9 +1,9 @@
 release: 7 scheduled page(s) go live (2026-10-23)
 
-- /blog/joro-spiders
-- /blog/orb-weaver-spiders
-- /blog/jumping-spiders
-- /blog/camel-spiders
-- /blog/what-do-termites-look-like
-- /blog/carpet-beetle-larvae
-- /blog/weevils
+- /blog/paper-wasps
+- /blog/wheel-bugs
+- /blog/booklice
+- /blog/mud-daubers
+- /blog/pill-bugs
+- /blog/jerusalem-crickets
+- /blog/shrews

@@ -2,9 +2,14 @@
  "id": "pill-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a7851a301136ca1e8e332658bc94431f5d456d568923359fd4db88f5be600e3e",
+ "sha": "5dbe1d16028287b900053603908faa00d3a8c3940eb556e300472fae940cf169",
  "claimsChecked": 230,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-23"
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

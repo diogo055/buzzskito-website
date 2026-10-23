@@ -373,6 +373,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Mouse Poop: What Mouse Droppings Look Like, Next to Rat, Bat and Roach Droppings: https://buzzskito.ca/blog/mouse-poop
 - Mouse Urine: What Mouse Pee Looks and Smells Like, and How to Find It: https://buzzskito.ca/blog/mouse-urine
 - Mice in Walls: Scratching Sounds, Signs and How to Get Them Out: https://buzzskito.ca/blog/mice-in-walls
+- Shrews: How to Tell a Shrew From a Mouse or Vole, and Are They Dangerous?: https://buzzskito.ca/blog/shrews
 
 ### Cockroaches
 - German Cockroaches: Identification, Habits and the Control Plan That Works: https://buzzskito.ca/blog/german-cockroaches
@@ -464,6 +465,10 @@ Source-cited identification and how-to guides written for readers in the United 
 - Spider Egg Sacs: Which Spider Made It, and What to Do About It: https://buzzskito.ca/blog/spider-egg-sacs
 - Black Spider With White Spots? How to Identify Black Spiders by Markings: https://buzzskito.ca/blog/black-spiders
 
+### Wasps, hornets and bees
+- Paper Wasps: How to Identify Them, Their Umbrella Nests and the Sting: https://buzzskito.ca/blog/paper-wasps
+- Mud Daubers: How to Identify Them and Their Mud Nests, and Do They Sting?: https://buzzskito.ca/blog/mud-daubers
+
 ### Flies and gnats
 - Why Are There So Many Flies in My House? Find the Fly, Then the Source: https://buzzskito.ca/blog/flies-in-house
 - How to Get Rid of Gnats: Identify the Gnat First, Then Fix Its Source: https://buzzskito.ca/blog/how-to-get-rid-of-gnats
@@ -480,6 +485,9 @@ Source-cited identification and how-to guides written for readers in the United 
 - Bugs That Look Like Kissing Bugs: Wheel Bugs, Seed Bugs, Boxelders and More: https://buzzskito.ca/blog/kissing-bug-look-alikes
 - How to Get Rid of Earwigs: Traps, Moisture and the Ear Myth: https://buzzskito.ca/blog/how-to-get-rid-of-earwigs
 - Bugs in Flour and Rice: How to Identify the Pantry Pests: https://buzzskito.ca/blog/pantry-pests
+- Assassin Bugs and Wheel Bugs: How to Identify Them, and How Bad Is the Bite?: https://buzzskito.ca/blog/wheel-bugs
+- Booklice (Psocids): The Tiny Pale Bugs in Damp Rooms, Books and Pantries: https://buzzskito.ca/blog/booklice
+- Roly Poly Bugs (Pill Bugs and Sow Bugs): What They Are and Why They Come Inside: https://buzzskito.ca/blog/pill-bugs
 - Tiny Black Bugs in the House: What They Are, by Where You Found Them: https://buzzskito.ca/blog/tiny-black-bugs
 - What Do Flea Eggs Look Like? Eggs, Larvae and Flea Dirt Compared: https://buzzskito.ca/blog/flea-eggs
 - Bugs in the House in Winter: What They Are and Why They Came Inside: https://buzzskito.ca/blog/bugs-in-house-in-winter
@@ -496,6 +504,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Camel Crickets (Spider Crickets): How to Identify Them and Get Rid of Them: https://buzzskito.ca/blog/camel-crickets
 - Carpet Beetle Larvae: What They Look Like, Where They Hide and What They Eat: https://buzzskito.ca/blog/carpet-beetle-larvae
 - Weevils: How to Identify Rice, Grain and House Weevils and Get Rid of Them: https://buzzskito.ca/blog/weevils
+- Jerusalem Crickets (Potato Bugs): What They Are and Do They Bite?: https://buzzskito.ca/blog/jerusalem-crickets
 
 ### Bug bites and stings
 - Bug Bite Identification: Pictures and Clues to What Bit You: https://buzzskito.ca/learn/bug-bites

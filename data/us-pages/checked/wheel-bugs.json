@@ -2,9 +2,14 @@
  "id": "wheel-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a4b96eb034527ee08ae51c555df27eed5bdd9b08c724eed1e518b372d5a2d6aa",
+ "sha": "9b239331b5847668a872fbdbfa992ada2cdbed2b8850e05f7bc9d5531135a569",
  "claimsChecked": 210,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-23"
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }
