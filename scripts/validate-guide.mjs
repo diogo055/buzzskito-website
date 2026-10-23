@@ -372,7 +372,9 @@ function validate(file) {
   if (want && g.disclaimer !== want && g.disclaimer !== 'both') err(`"disclaimer" must be "${want}"`)
 
   // ── sources and links ─────────────────────────────────────────────────────────
-  const [sMin, sMax] = pillar ? [5, 8] : visual ? [4, 7] : god ? [4, 20] : [3, 6]
+  // Oct 23, 2026: first-batch guides and pillars may grow past their launch caps (6 and 8) when a
+  // sourced upgrade adds a section or FAQ the existing sources do not cover.
+  const [sMin, sMax] = pillar ? [5, 12] : visual ? [4, 7] : god ? [4, 20] : [3, 10]
   const srcUrls = new Set()
   let auth = 0
   if (!Array.isArray(g.sources) || g.sources.length < sMin || g.sources.length > sMax) err(`"sources" must list ${sMin} to ${sMax} sources`)

@@ -2,7 +2,7 @@
  "id": "german-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6a56ce0459502169f633890618b5a57b71683733b202ff1279f25517527bb997",
+ "sha": "2c202d7b0a2cc7348e9bd5a3c7e064b80c9387102944a100f2cc0267b312dbca",
  "claimsChecked": 94,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,16 @@
    "on": "2026-10-22",
    "note": "link to /blog/brown-banded-cockroaches added after the egg-case photo paragraph (Oct 22 link-in)",
    "previousSha": "a2f5b9852b8da186201f7060a9a9c3cb93f273d8e156bbc4f9c668ad0179b68e"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "Asian vs German cockroach section (h3, paragraph, 3 checks) from UF/IFAS IG082; figure asian-cockroach-on-leaf (USDA ARS, Barry Fitzgerald) + CDC german-cockroach lead photo; 7 sources",
+   "previousSha": "6a56ce0459502169f633890618b5a57b71683733b202ff1279f25517527bb997"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker: verified the Asian vs German section against UF IG082 (looks very much like a German cockroach except it flies; adults seldom over 5/8 in; flies to porch lights and finds its way inside; lives outside, drawn to lights from buildings; survives poorly once inside, like other outdoor cockroaches), UF IN128 (very similar, a practiced eye can discern differences; unable to survive away from humans; breeds continuously with overlapping generations), Penn State (fully developed wings, does not fly; kitchens and bathrooms). Figures: USDA ARS image K2252-8 page reads 'Photo by Barry Fitzgerald' (caption right; ledger credit 'unknown author' is incomplete), CDC PHIL 26932 dorsal view of a female (fully winged, so adult), Rutgers FS1322 and Penn State give the two dark stripes as the identifying mark. No changes.",
+   "previousSha": "2c202d7b0a2cc7348e9bd5a3c7e064b80c9387102944a100f2cc0267b312dbca"
   }
  ]
 }

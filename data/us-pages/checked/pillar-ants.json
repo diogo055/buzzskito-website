@@ -2,7 +2,7 @@
  "id": "pillar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c44d681bee4212f0697c0663b63c8f529fd6698da85199c3312f6c17620ecec1",
+ "sha": "86e79075aeae62d704703b643917d6e270fd31d9701c5ab6d959e6bb4afee78b",
  "claimsChecked": 250,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
@@ -10,5 +10,22 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/learn/ant-killer-recipes"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "FAQ added: 'Do ants carry disease?' (Kentucky ef619: ants contaminate food; UC IPM: sealed containers, clean spills; CDC NIOSH: fire ant stings; no new sources, pillar at its 8-source cap)",
+   "previousSha": "c44d681bee4212f0697c0663b63c8f529fd6698da85199c3312f6c17620ecec1"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "FAQ 'Do ants carry disease?' revised to include UF/IFAS IN533 (pharaoh ants in hospitals, pathogens) besides Kentucky ef619, UC IPM, CDC NIOSH; 9 sources",
+   "previousSha": "11c6418d7d17d37fbcc4c734d4118dfb49de0bf41ae92debb4a5da90455821a7"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker: verified UF IN533 (in ant-infested hospitals burn victims and newborns are at increased risk because the pharaoh ant can transmit over a dozen pathogens such as Salmonella, Staphylococcus and Streptococcus), Kentucky ef619 (ants contaminate food; fire ant stings can be life-threatening to hypersensitive individuals), NIOSH (burning sensation; red bumps that become pustules), and that UC IPM 7411, Kentucky ef619 and Texas A&M B-6183 link household ants to no illness. Fixed: the FAQ 'Do ants carry disease?' discusses sting symptoms, so it now ends 'Contact a healthcare provider about any reaction that concerns you.' (the page's own wording, per the checker brief).",
+   "previousSha": "cb01fa61acf8e7b2a4d43a89d04db3a30dfd6c996319c6ae5e16a2c905f47b02"
+  }
  ]
 }

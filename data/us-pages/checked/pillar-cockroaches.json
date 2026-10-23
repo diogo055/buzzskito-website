@@ -2,7 +2,7 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7a5842cf2e0df9e9a4932a27a63730536d586a58090a669832b67a7b153dc420",
+ "sha": "9ee790b1c513c7fa37f7410434a8e3206b454501ba0e174d45c304cd297dd9d1",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
@@ -32,6 +32,16 @@
    "on": "2026-10-22",
    "note": "link to /blog/brown-banded-cockroaches added after the brown-banded paragraph (Oct 22 link-in)",
    "previousSha": "a756cc614e338a58d2684718f138d20a56037d5a1cd49e0a4ae2eb85d5f37a3f"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "FAQs + short body paragraphs: do cockroaches make noise (Kentucky ENTFACT-014: hissing cockroach), can cockroaches survive a nuclear blast (University of Melbourne Pursuit: 6-15x human radiation tolerance, not the blast); 10 sources",
+   "previousSha": "7a5842cf2e0df9e9a4932a27a63730536d586a58090a669832b67a7b153dc420"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker: verified Kentucky ENTFACT-014 (air forced through a pair of modified abdominal spiracles; very loud hiss when disturbed; males hiss in fights and courtship; ideal classroom insect), that none of UC IPM, Kentucky ef614, Texas A&M ENTO-037 or Rutgers FS1322 mentions sound, and Melbourne Pursuit (6-15 times more radiation-resistant than humans, worse than fruit flies; initial blast; Elgar: very little, if anything, will survive; Ruff: no documented evidence of cockroaches in the rubble). Fixed in the nuclear FAQ: 'A Nobel laureate' became 'A public health professor' (Tilman Ruff: the Nobel Peace Prizes in the article went to IPPNW 1985 and ICAN 2017, not to him; the article calls him a School of Population and Global Health professor).",
+   "previousSha": "5bab79ec045a54450d3af1e3f3527c48087620dee1fdae367e8571ff35238e01"
   }
  ]
 }

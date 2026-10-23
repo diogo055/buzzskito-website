@@ -782,7 +782,7 @@ export const CANDIDATES: Record<SpiderId, CandidateCopy> = {
     summary: 'A pale spider with a tiny body on very long, thin legs, hanging in a loose web in a corner of a basement or ceiling.',
     confirm: [
       'Its body is only about 1/4 to 1/3 inch long, pale gray to light tan, on long, delicate legs, in a loose web near the ceiling or floor (University of Minnesota).',
-      'Touch the web gently with a pencil: a threatened cellar spider vibrates in a fast circle until it is hard to see (Penn State).',
+      'A threatened cellar spider vibrates rapidly in a circle in its web, which makes it hard to see (Penn State).',
       'It has two body parts and spins a web. A long-legged animal with one oval body and no web is a harvestman, which is not a spider (UC Riverside; Missouri Dept. of Conservation).',
     ],
     links: [
