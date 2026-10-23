@@ -87,6 +87,11 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/what-do-baby-cockroaches-look-like': '2026-10-23T12:00:00.000Z',
   '/blog/water-bugs-vs-cockroaches': '2026-10-23T12:00:00.000Z',
   '/blog/do-ants-bite': '2026-10-23T12:00:00.000Z',
+  '/blog/steel-wool-for-mice': '2026-10-23T12:00:00.000Z',
+  '/blog/can-mice-climb-walls': '2026-10-23T12:00:00.000Z',
+  '/blog/tick-season-ontario-when-are-ticks-active': '2026-10-23T12:00:00.000Z',
+  '/blog/mosquito-season-gta-when-does-it-start': '2026-10-23T12:00:00.000Z',
+  '/blog/black-flies-ontario-when-they-come-out': '2026-10-23T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

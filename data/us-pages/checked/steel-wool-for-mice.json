@@ -2,7 +2,7 @@
  "id": "steel-wool-for-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7f6d5bfb5544acc10a7143de68016758caa7a51d96b4c519c4061159c03feba4",
+ "sha": "a2bb1f977de80e65180bcf2ad4bc89c71a86ca5f1c4fa84df1905b1eefec4005",
  "claimsChecked": 62,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 6,
@@ -10,5 +10,17 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/blog/fall-mouse-proofing-checklist"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "Oct 23 retrofit (beat-the-top-3, data/god-build/research/top3/steel-wool-for-mice.md): metaTitle 'Steel Wool for Mice: It Works if Caulked In' (was 'Where It Works and Fails'); quick-answer first sentence answers the search; two-column box restructured into a 10-row 'What stops mice' quick table, every old fact kept (CDC seal-up; UC IPM house mouse; Missouri G9442; Nebraska G1530 Table I mesh 24 ga 1/4 in for mice, 19 ga 1/2 in for rats, sheet metal, concrete); h3 'Can mice chew through steel wool or wire wool?' with Nebraska G1530 incisor sentence (difficult to gnaw flat, round over 7/8 in, or harder than iron such as steel; rough surface or edge gnawed quickly); 3 ledger photos (house-mouse CC0, mouse-droppings-wood NPS, rodent-droppings-drawer CDC); FAQs 6 to 9 (1/2-inch hardware cloth, steel wool grade = coarse, no number in sources, materials mice cannot chew); dateModified 2026-10-23. No new sources; all facts re-verified Oct 23 on UC IPM, CDC and Nebraska G1530.",
+   "previousSha": "7f6d5bfb5544acc10a7143de68016758caa7a51d96b4c519c4061159c03feba4"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker (Oct 23): quick table row 'Coarse steel wool' use cell 'packed tight (CDC)' -> 'Filling small holes (CDC)' (CDC says fill); 1/2-inch hardware cloth 'No' -> 'Not reliably' (no source tests it; G1530 Table I gives 1/2 in for rats, 1/4 in for mice); door gap 'within 1/4 inch' -> 'less than 1/4 inch' (G1530); house-mouse photo: 'concrete' removed from alt and caption (not in ledger; setting unclear in image). Verified all other new claims on CDC seal-up, UC IPM house mouse, Missouri G9442, Nebraska G1530 (incl. 'harder than iron (such as steel)'). Steel wool plus caulk confirmed by CDC ('Put caulk around the steel wool to keep it in place or use spray foam').",
+   "previousSha": "2557114f64f799529db3767c70ce47c1439d53029c2f7044f8a7afc5aec81a42"
+  }
  ]
 }

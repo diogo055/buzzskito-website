@@ -11,10 +11,11 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import Photo from '@/components/Photo'
 
 const POST = MOSQUITO_BLOGS.supporting[0]
 const DATE = POST.date
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-23'
 
 const FAQS = [
   {
@@ -61,16 +62,25 @@ const FAQS = [
     question: 'Where do mosquitoes go during the day?',
     answer: 'During the day mosquitoes rest in cool, shaded, humid spots to avoid drying out — tall grass, dense shrubs, under decks, in leaf litter, ivy, and thick vegetation around your yard. Most GTA mosquitoes feed at dawn and dusk, so they stay hidden through the midday heat and emerge to bite in the evening. This is exactly why professional barrier sprays target shaded resting vegetation rather than open lawn.',
   },
+  {
+    question: 'Are mosquitoes still out in October in Ontario?',
+    answer: 'Yes, on mild days. Mosquito numbers drop sharply after Labour Day and slow down once nights fall below about 10°C, but they do not disappear on a set date: Public Health Ontario reports that Ontario\'s mosquito surveillance traps collect mosquitoes from June through October, and Penn State Extension notes that mosquitoes remain a threat well into the autumn months if it stays warm enough. Keep using repellent on warm October evenings; the first hard frost ends adult biting for the year.',
+  },
+  {
+    question: 'Where do mosquitoes go in the winter?',
+    answer: 'Most mosquitoes spend the winter as eggs that wait for warmer temperatures, longer days and the right wetting before they hatch. Some spend it as adults, hiding in protected places like catch basins, storm drains, culverts, barns and sheds (University of Georgia Extension). Either way they wait out the cold and start the season again in spring: the first GTA mosquitoes come out in late April, once temperatures hold above 10°C.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Season Ontario: Start, Peak, End Dates',
+  // TITLE NOTE (Oct 23, 2026): was 'Mosquito Season Ontario: Start, Peak, End Dates'; top queries Sep 23-Oct 20: when do mosquitoes go away in ontario 378 at 2.1 (9 clicks), mosquito season ontario at 3, are mosquitoes out in october at 4 (page: 3,682 impressions at 4.2). Fact-check Oct 23: "First Frost" became "a Hard Frost", the Public Health Agency of Canada's wording (risk "goes to the first hard frost in late September or October").
+  title: 'Mosquitoes Go Away in Ontario After a Hard Frost',
   description:
-    'Ontario mosquito season starts late April above 10°C, peaks June–July, and mosquitoes go away by early October. Month-by-month GTA timeline and 5-spray plan.',
+    'Ontario mosquito season starts late April above 10°C, peaks June–July and ends with the first hard frost in late September or October. GTA timeline and 5-spray plan.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
-  modifiedTime: '2026-07-12',
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('mosquito-season-gta-when-does-it-start')
@@ -78,10 +88,10 @@ const AMZ_TAG = tagForSlug('mosquito-season-gta-when-does-it-start')
 export default function MosquitoSeasonPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: '2026-07-12' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Season GTA', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, '2026-07-12')) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 to-brand-800 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -101,6 +111,7 @@ export default function MosquitoSeasonPage() {
         <AuthorByline datePublished={DATE} dateModified={UPDATED} />
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-900 text-[15px] leading-relaxed font-bold mb-2">Mosquitoes go away in Ontario with the cold, not on a set date: numbers drop after Labour Day, they can still bite on mild October evenings, and the first hard frost ends the season. They survive the winter as eggs or as adults hidden in sheltered spots, which is why they are back every spring.</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">GTA mosquito season starts in late April, once daytime temperatures hold above 10°C, and biting peaks in June and July. The single best window to book your first treatment is the first week of May &mdash; before the first generation of adults breeds.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
             <li>The first GTA mosquitoes emerge in late April, when temperatures consistently exceed 10°C.</li>
@@ -168,6 +179,40 @@ export default function MosquitoSeasonPage() {
 
         <h3>September: Gradual Decline</h3>
         <p>Mosquito activity declines as temperatures drop, but biting continues through most of the month. Homeowners who stop treatment in August often regret it by Labour Day.</p>
+
+        <h3>October and November: When Mosquitoes Go Away</h3>
+        <p>Mosquitoes fade out rather than stopping on a date. <a href="https://blog.ontarioparks.ca/camping-comfortably-with-bugs/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Ontario Parks</a> tells campers to expect them from June all the way through September, and numbers fall quickly once nights turn cold, but a mild October evening can still bring bites: Ontario&rsquo;s mosquito surveillance traps collect mosquitoes from June through October, according to <a href="https://www.publichealthontario.ca/en/About/News/2017/Monitor-Mosquitoes" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Ontario</a>, and <a href="https://extension.psu.edu/fall-mosquitoes-and-mosquito-borne-diseases" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Penn State Extension</a> notes that mosquitoes remain a threat well into the autumn months if it stays warm enough. The first hard frost ends the biting for the year: the <a href="https://www.canada.ca/en/public-health/services/diseases/west-nile-virus/risks-west-nile-virus.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Public Health Agency of Canada</a> says the risk of West Nile virus in most of Canada goes to the first hard frost, in late September or October.</p>
+        <p>They do not all die, though. Most mosquitoes spend the winter as eggs that wait for warmer temperatures, longer days and the right wetting before they hatch, and some spend it as adults hiding in protected places like catch basins, storm drains, culverts, barns and sheds, according to <a href="https://site.extension.uga.edu/colquitthomeowners/2023/02/wet-winter-weather-points-to-active-mosquito-season-ahead/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">University of Georgia Extension</a>. That is why the season starts over every spring.</p>
+        <div className="not-prose overflow-x-auto my-6">
+          <table className="w-full text-sm border-collapse">
+            <thead>
+              <tr className="bg-brand-800 text-white">
+                <th className="px-4 py-2 text-left">When</th>
+                <th className="px-4 py-2 text-left">Still biting?</th>
+                <th className="px-4 py-2 text-left">What is going on</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { when: 'September', biting: 'Yes, but fewer after Labour Day', what: 'Ontario Parks lists mosquitoes from June all the way through September' },
+                { when: 'October', biting: 'On mild days and evenings', what: 'Ontario\'s mosquito surveillance traps run through October (Public Health Ontario); nights below about 10°C slow them down' },
+                { when: 'After the first hard frost', biting: 'No', what: 'The Public Health Agency of Canada puts the end of West Nile risk in most of Canada at the first hard frost, in late September or October' },
+                { when: 'Winter', biting: 'No', what: 'Most wait it out as eggs; some adults hide in catch basins, storm drains, culverts, barns and sheds' },
+                { when: 'Late April to May', biting: 'Yes, the season restarts', what: 'Eggs hatch and the first adults fly once temperatures hold above 10°C' },
+              ].map(({ when, biting, what }) => (
+                <tr key={when} className="border-b border-gray-200 even:bg-gray-50">
+                  <td className="px-4 py-2 font-bold text-brand-700">{when}</td>
+                  <td className="px-4 py-2">{biting}</td>
+                  <td className="px-4 py-2 text-gray-600">{what}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="not-prose text-xs text-gray-500 -mt-3 mb-6">Sources: Ontario Parks (May 2026), Public Health Ontario (trap season), Penn State Extension (fall activity), the Public Health Agency of Canada (first hard frost) and University of Georgia Extension (winter), all linked above; the 10°C lines restate the temperature section of this page.</p>
+        <p>Two of Ontario&rsquo;s most common mosquitoes are pictured below. In Ontario&rsquo;s mosquito surveillance trapping (as Public Health Ontario reported in 2017, counting the mosquitoes identified since 2002), the inland floodwater mosquito, <em>Aedes vexans</em>, was the species identified most often (30% of all mosquitoes identified), and the <em>Culex pipiens/restuans</em> group, which includes the northern house mosquito, made up 14%.</p>
+        <Photo id="aedes-vexans" alt="Inland floodwater mosquito, Aedes vexans, resting on a green flower head" caption="An inland floodwater mosquito, Aedes vexans (Rock Creek Park, Washington, DC). It was the mosquito identified most often in Ontario's surveillance trapping, as Public Health Ontario reported in 2017: 30% of all mosquitoes identified." />
+        <Photo id="culex-pipiens" alt="Northern house mosquito, Culex pipiens, photographed in Ontario" caption="A northern house mosquito, Culex pipiens, photographed in Ontario. The Culex pipiens/restuans group made up 14% of the mosquitoes identified in Ontario's surveillance traps (Public Health Ontario, 2017)." />
 
         <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
           <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>

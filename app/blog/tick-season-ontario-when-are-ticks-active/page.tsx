@@ -5,6 +5,9 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -13,30 +16,37 @@ const POST = TICK_BLOGS.supporting[4]
 
 const AMZ_TAG = tagForSlug('tick-season-ontario-when-are-ticks-active')
 
+const UPDATED = '2026-10-23'
+
 export const metadata: Metadata = buildMetadata({
-  title: 'When Are Ticks Active in Ontario? | 2026',
+  // TITLE NOTE (Oct 23, 2026): was 'When Are Ticks Active in Ontario? | 2026'; top queries Sep 23-Oct 20: when do ticks die off in ontario 251 at 5.5; are ticks still active in september / october, are there ticks in october, are ticks active in october about 30 each at 5-8 (page: 3,179 impressions at 5.5, 18 clicks).
+  title: "When Do Ticks Die Off in Ontario? They Don't",
   description:
     'Month-by-month tick activity in Ontario. Peak Lyme disease risk windows, when to treat, and seasonal prevention tips.',
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
 })
 
 const FAQS = [
-  { question: 'Are ticks active in winter in Ontario?', answer: 'Surprisingly, yes — blacklegged ticks remain active on days when temperatures exceed 4°C, even in winter. Unlike most Ontario insects, they don\'t die off in cold weather. This is why blacklegged ticks can be encountered on warm February or March days. American dog ticks and most other species do become dormant in winter.' },
+  { question: 'Are ticks active in winter in Ontario?', answer: 'Surprisingly, yes, on mild days. Public Health Ontario says ticks can be found any time of year when the temperature is above freezing, and CDC says adult blacklegged ticks may be out searching for a host any time winter temperatures are above freezing. Unlike most Ontario insects, they don\'t die off in cold weather. This is why blacklegged ticks can be encountered on warm February or March days. American dog ticks and most other species do become dormant in winter.' },
   { question: 'What month has the most tick bites in Ontario?', answer: 'May and June see the highest rate of Lyme disease transmission in Ontario due to the emergence of nymph ticks, which are tiny and difficult to detect. Adult tick activity peaks again in September and October. Both windows require vigilance and ideally professional yard treatment.' },
   { question: 'When should I get my first tick treatment of the season?', answer: 'May is the optimal timing for your first professional tick treatment in the GTA — laying the barrier down before nymphs (the highest-risk life stage) start questing in earnest. That first visit is the opener of a five-treatment season: applications run roughly one a month from May through September, because each one leaves a temporary residual that wears down within weeks and wildlife keeps carrying fresh ticks in from adjacent woodland. BuzzSkito prices the full five-treatment tick season at $597 standalone, or $497 when added to any mosquito plan.' },
-  { question: 'When do ticks come out in Ontario?', answer: 'Blacklegged ticks become active any time the temperature rises above roughly 4°C, so across most of Ontario they emerge as early as March or April once the snow melts. The first major surge is the May–June nymph season, the highest-risk window for Lyme disease. Because adults can appear on mild winter days too, treat any above-freezing time outdoors as possible tick weather.' },
-  { question: 'When do ticks go away or die off in Ontario?', answer: 'Blacklegged ticks do not truly die off — adults stay active into November and re-emerge on any winter day above about 4°C, sheltering under leaf litter and snow during hard frost rather than dying. American dog ticks and most other species do become dormant for winter. Practically, peak risk winds down after the fall adult surge, but in Ontario vigilance never fully ends.' },
+  { question: 'When do ticks come out in Ontario?', answer: 'The Public Health Agency of Canada says ticks can be active whenever the temperature is consistently above freezing and the ground isn\'t covered by snow, so across most of Ontario blacklegged ticks emerge as early as March or April once the snow melts. The first major surge is the May–June nymph season, the highest-risk window for Lyme disease. Because adults can appear on mild winter days too, treat any above-freezing time outdoors as possible tick weather.' },
+  { question: 'When do ticks go away or die off in Ontario?', answer: 'Blacklegged ticks do not truly die off — adults stay active into November and, as CDC puts it, may be out searching for a host any time winter temperatures are above freezing, sheltering under leaf litter and snow during hard frost rather than dying. American dog ticks and most other species do become dormant for winter. Practically, peak risk winds down after the fall adult surge, but in Ontario vigilance never fully ends.' },
   { question: 'Are ticks active at night?', answer: 'Yes — unlike mosquitoes, ticks do not follow a day-night cycle. They quest for hosts whenever conditions are humid and mild enough, day or night. Ticks wait on grass and low vegetation for a host to brush past rather than actively hunting, so a dusk or nighttime walk through tall grass carries the same risk as a midday one. Always do a tick check after any time outdoors.' },
   { question: 'When is peak tick season in Ontario?', answer: 'Ontario has two peaks. The highest-risk window is the May–June nymph season, when poppy-seed-sized nymphs emerge and cause most Lyme disease cases. A second peak arrives in September–October as adult blacklegged ticks become active before frost. Both windows call for daily tick checks and, ideally, professional yard treatment across the whole season — five applications spread roughly monthly from May through September, since each one\'s residual wears down within weeks.' },
-  { question: 'At what temperature do ticks become inactive?', answer: 'Blacklegged ticks generally go dormant once temperatures fall below about 4°C, which is why they can surprise people on mild winter days above that threshold. Cold does not kill them — they shelter under leaf litter and snow and resume questing whenever it warms up. Sustained hard frost reduces activity, but a single winter thaw can bring adults back out looking for a host.' },
+  { question: 'At what temperature do ticks become inactive?', answer: 'Public health agencies put the line at freezing. The Public Health Agency of Canada says ticks can be active whenever the temperature is consistently above freezing and the ground isn\'t covered by snow, and the Ontario government says ticks can be found at any time of the year when the temperature is above freezing (0°C), which is why they can surprise people on mild winter days. Winter cold does not wipe them out — leaf litter and snow cover help them survive it, and they resume questing whenever it warms up. Sustained hard frost reduces activity, but a single winter thaw can bring adults back out looking for a host.' },
+  { question: 'Are ticks still active in September and October?', answer: 'Yes. September and October are the fall peak for adult blacklegged ticks: CDC says adults are most active in early spring and fall, and in Ontario they stay active into November. The Public Health Agency of Canada says ticks can be active whenever the temperature is consistently above freezing and the ground isn\'t covered by snow, so keep checking yourself, your children and your dog after time in long grass, leaf litter or along a wooded edge, right through the fall.' },
+  { question: 'Is it still tick season after the first frost?', answer: 'Usually, yes. One frost does not end tick season. Blacklegged ticks shelter under leaf litter and snow during cold snaps and come back out when it warms up: CDC says adult blacklegged ticks may be out searching for a host any time winter temperatures are above freezing, and the Ontario government says ticks can be found at any time of the year when the temperature is above freezing (0°C). Keep up tick checks after time outdoors on mild days, even in November and December.' },
 ]
 
 export default function TickSeasonPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: UPDATED, image: shareImage('blacklegged-tick-adult-nymph-fingertip') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Season Ontario', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
@@ -57,9 +67,10 @@ export default function TickSeasonPage() {
       <article className="max-w-3xl mx-auto px-4 py-12 prose-brand">
         <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Ontario, blacklegged (deer) ticks are active any day the temperature climbs above about 4&deg;C, so the season runs roughly March through November with two danger peaks &mdash; nymphs in May&ndash;June and adults in September&ndash;October.</p>
+          <p className="text-gray-900 text-[15px] leading-relaxed font-bold mb-2">Ticks don&rsquo;t die off in Ontario in the fall. Adult blacklegged (deer) ticks are most active in early spring and fall (<a href="https://www.cdc.gov/lyme/causes/index.html" target="_blank" rel="noopener noreferrer" className="underline">CDC</a>), so they are out through September, October and November, and cold only pauses them: the <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html" target="_blank" rel="noopener noreferrer" className="underline">Public Health Agency of Canada</a> says ticks can be active whenever the temperature is consistently above freezing and the ground isn&rsquo;t covered by snow.</p>
+          <p className="text-gray-800 text-[15px] leading-relaxed font-medium">In Ontario, ticks can be found at any time of the year when the temperature is above freezing (0&deg;C), as the <a href="https://www.ontario.ca/page/tick-borne-diseases" target="_blank" rel="noopener noreferrer" className="underline">Ontario government</a> puts it, so the blacklegged (deer) tick season runs roughly March through November with two danger peaks &mdash; nymphs in May&ndash;June and adults in September&ndash;October.</p>
           <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-            <li>Blacklegged ticks stay active any time it is above about 4&deg;C, so they can appear on warm February or March days.</li>
+            <li>Adult blacklegged ticks may be out searching for a host any time winter temperatures are above freezing (CDC), so they can appear on warm February or March days.</li>
             <li>The May&ndash;June nymph season is the highest-risk window and causes the majority of Ontario Lyme disease cases.</li>
             <li>Adult blacklegged ticks peak again in September&ndash;October and stay active until hard frost, into November.</li>
             <li>American dog ticks and most other species go dormant in winter, but blacklegged ticks never truly die off.</li>
@@ -100,6 +111,18 @@ export default function TickSeasonPage() {
           <p className="mt-4 text-xs text-gray-500">If you find an attached tick, note the date you removed it and watch for a rash, fever, or flu-like symptoms in the following days and weeks &mdash; see a healthcare provider if any appear. General information, not medical advice.</p>
         </div>
 
+        <QuickIdTable
+          title="Are ticks still out in fall and winter? Ontario at a glance"
+          head={['Tick', 'September to November', 'Winter', 'Bites people?']}
+          rows={[
+            ['Blacklegged tick, adult', 'Peak season: adults are most active in early spring and fall', 'Can be out looking for a host any time winter temperatures are above freezing', 'Yes: adult females are one of the two stages most likely to bite'],
+            ['Blacklegged tick, nymph', 'Winding down: nymphs quest from April through July, then moult into adults in the fall', 'The next generation of nymphs comes out in spring', 'Yes: nymphs are a particularly high risk because they are small and abundant'],
+            ['Blacklegged tick, larva', 'Hatched in summer', 'Turns into next spring\'s nymphs', 'Not one of the stages most likely to bite people'],
+            ['American dog tick', 'Fading: bites are most likely in spring and summer; low by October', 'Dormant', 'Yes: adult females are the stage most likely to bite'],
+          ]}
+          caption={<>From the CDC&rsquo;s <a href="https://www.cdc.gov/lyme/causes/index.html" target="_blank" rel="noopener noreferrer" className="underline">How Lyme Disease Spreads</a> (adults most active in early spring and fall; nymphs April through July), <a href="https://www.cdc.gov/ticks/about/where-ticks-live.html" target="_blank" rel="noopener noreferrer" className="underline">Where Ticks Live</a> (winter activity above freezing; which stages bite; dog tick bites mostly in spring and summer) and <a href="https://www.cdc.gov/ticks/about/tick-lifecycles.html" target="_blank" rel="noopener noreferrer" className="underline">Tick Lifecycles</a>. The <a href="https://www.canada.ca/en/public-health/services/diseases/lyme-disease/prevention-lyme-disease.html" target="_blank" rel="noopener noreferrer" className="underline">Public Health Agency of Canada</a> says ticks can be active whenever the temperature is consistently above freezing and the ground isn&rsquo;t covered by snow, and the <a href="https://www.ontario.ca/page/tick-borne-diseases" target="_blank" rel="noopener noreferrer" className="underline">Ontario government</a> says they can be found at any time of the year when the temperature is above freezing (0&deg;C). Dog tick months from the calendar further down this page.</>}
+        />
+
         <h2>The Key Distinction: Two Tick Seasons in Ontario</h2>
         <p>Ontario's most dangerous tick — the blacklegged tick — has two distinct peak activity periods, driven by its lifecycle. Two peaks with months of activity in between is exactly why we run <strong>five professional tick treatments per season</strong>, roughly one a month from May through September, rather than a spring-and-fall pair.</p>
         <div className="not-prose grid grid-cols-1 sm:grid-cols-2 gap-5 my-6">
@@ -114,6 +137,7 @@ export default function TickSeasonPage() {
             <p className="text-sm text-amber-800">Adult ticks emerge and aggressively seek large hosts. Larger and more visible than nymphs, but still easily missed. Active into late fall.</p>
           </div>
         </div>
+        <Photo id="blacklegged-tick-adult-nymph-fingertip" alt="Adult female and nymph blacklegged ticks side by side on a person's fingertip" caption="Two blacklegged ticks on a person's fingertip: an adult female (left) and a nymph (right). The poppy-seed-sized nymph drives the May–June peak; the larger adult is the tick still out in September, October and November." />
 
         <NextUp path="/blog/tick-season-ontario-when-are-ticks-active" />
         <h2>Month-by-Month Tick Activity in Ontario 2026</h2>
@@ -129,7 +153,7 @@ export default function TickSeasonPage() {
             </thead>
             <tbody>
               {[
-                { month: 'January–March', bl: 'Low*',    dog: 'Dormant', note: '*Adults active on warm days (>4°C)' },
+                { month: 'January–March', bl: 'Low*',    dog: 'Dormant', note: '*Adults can be out on days above freezing (0°C)' },
                 { month: 'April',         bl: 'Moderate',dog: 'Low',     note: 'Nymphs begin emerging; adults still active' },
                 { month: 'May',           bl: '🔴 HIGH', dog: 'Moderate',note: 'Nymph peak begins — highest Lyme risk window' },
                 { month: 'June',          bl: '🔴 HIGH', dog: '🔴 HIGH', note: 'Nymph peak continues; dog ticks very active' },
@@ -170,6 +194,7 @@ export default function TickSeasonPage() {
         <p>Mississauga runs on its own calendar too, shaped by the Credit River valley and the Rattray Marsh shoreline — see <Link href="/blog/tick-season-mississauga-when-are-ticks-active" className="text-brand-700 underline">when ticks are active in Mississauga, month by month</Link>.</p>
 
         <h2>What to Have on Hand Through Both Peaks</h2>
+        <Photo id="blacklegged-tick-nymph-fingernail" alt="Blacklegged tick nymph crawling beside a person's fingernail" caption="A blacklegged tick nymph crawling beside a person's fingernail. At this size a nymph is easy to miss, which is why the tick check matters through both peaks." />
         <p>A calendar is only useful if it changes something, and for most households the change is small: from the May nymph emergence through the October adult surge, a tick check becomes part of coming indoors, and removal has to be possible the moment one turns up. The nymphs are the reason it matters. A poppy-seed-sized nymph is easy to miss and easy to crush with blunt household tweezers &mdash; and crushing an attached, feeding tick is the one thing every removal guide tells you not to do, because it works the tick&rsquo;s gut contents into the bite. A fine-tipped remover grips flush at the skin and lifts the whole tick out, mouthparts included, which is the difference between a non-event and a month of watching a bite site.</p>
         <AffiliateDisclosure />
         <p className="not-prose text-gray-700">See how the common types compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">tick-removal tool guide</Link>, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca &rarr;</BuyLink></p>

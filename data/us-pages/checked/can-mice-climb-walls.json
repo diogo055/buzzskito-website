@@ -2,7 +2,7 @@
  "id": "can-mice-climb-walls",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "54d4d0c9c9ca0924e45bbfe780c4c1237668f8c13478059f4736f3c796445dd8",
+ "sha": "05ca30935837ead2f0828cabb4b8bf201444cb1a5dbd414ac9a32cb17fffbfdd",
  "claimsChecked": 78,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -10,5 +10,17 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/blog/fall-mouse-proofing-checklist"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "Oct 23 retrofit (beat-the-top-3, data/god-build/research/top3/can-mice-climb-walls.md): metaTitle 'Can Mice Climb Walls? Yes: Brick, Wood, Wires' (was 'Yes, Any Rough Surface'); quick answer opens 'Yes, mice can climb walls'; bullet 6 on Nebraska G1530 aluminum sheet metal bands 12-18 in, 36 in up; at-a-glance box restructured into an 11-row surface-and-feat quick table, every old fact kept; h3 'Can mice climb brick walls?' (G1530 climbable list; Table I brick 3 3/4 in with mortar-filled joints; gnawing at corners and joints; CDC outdoor list); h3 'Can mice climb stainless steel?' (no source tests it; G1530 weathered sheet metal, bands, interior corner guards; UC IPM wire cables; stated as inference); 3 ledger photos (deer-mouse USFWS PD lead, roof-rat-rafters CDC, house-mouse-on-stove CC BY); FAQs 5 to 8 (surfaces mice cannot climb, how high, how to stop climbing; UC IPM exclusion and plant thinning, CDC, California deer mice 2 ft); dateModified 2026-10-23. No new sources; facts re-verified Oct 23 on UC IPM, CDC and Nebraska G1530.",
+   "previousSha": "54d4d0c9c9ca0924e45bbfe780c4c1237668f8c13478059f4736f3c796445dd8"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker (Oct 23): quick-answer bullet and FAQ 'What surfaces can mice not climb?' now say the G1530 aluminum bands stop climbing inside buildings (section 'Interior Rodent Control'); screen wire cell 'Yes, and it can hang' -> 'Yes: it can hang' (G1530 says hang upside-down only); stainless steel paragraph softened: 'points one way' -> 'offers a clue', inference now ends 'so treat it as unproven', 'gives' -> 'can give', 'for this page' -> 'here' (paragraph length); deer-mouse caption 'in winter' removed (not in ledger); stove caption 'with a dropping' removed (not in ledger) and 'Washington, DC' -> 'the Washington, DC, area' (iNat location obscured, place_ids include both DC and Virginia). Verified on G1530 2003, G1105 PDF, UC IPM, CDC seal-up, CDFA deer mice, Pitt 2011.",
+   "previousSha": "077048e939d54e5722d17acd19c1d45fcbd4c69d22830f7b2ae70aba67d098df"
+  }
  ]
 }

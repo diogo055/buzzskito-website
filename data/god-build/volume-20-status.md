@@ -121,3 +121,39 @@ Owner's words: "build the 20 most stat changing pages u can right now. Backed by
      - bed bug bites: hydrocortisone cream
      - Check each against the page text first.
   - The morning job releases the pages, but it does NOT do steps 1-3.
+- **18:24 UTC: release 3 (`4caab41a`), owner's go ("you can do 1 and 2 right now").** These are live now, each with an amazon.com pick:
+  - paper-wasps, mud-daubers, wheel-bugs, pill-bugs
+  - booklice, jerusalem-crickets, shrews
+  - Pulled to Oct 23. Build: 759 pages + 11 guards green.
+  - The Oct 24 morning job now finds nothing due, which is expected.
+- **TOTAL Oct 23: 18 new pages live** (4 morning + 7 + 7), plus:
+  - 2 re-aims and 10 upgrades;
+  - photos on 13 live guides.
+- **Still scheduled:** flea-bites, fruit-flies and how-to-get-rid-of-drain-flies (Oct 31); what-do-bed-bug-bites-look-like (Nov 11).
+- **INDEXING QUEUE (10 requests a day, owner's Chrome GSC tab, from ~15:05 UTC):**
+  - **Oct 24:**
+    - bed-bugs-in-hotels, rat-vs-mouse
+    - water-bugs-vs-cockroaches, do-ants-bite
+    - wheel-bugs, pill-bugs
+    - jumping-spiders, orb-weaver-spiders
+    - what-do-termites-look-like, paper-wasps
+  - **Oct 25:**
+    - carpet-beetle-larvae, weevils
+    - joro-spiders, camel-spiders
+    - mud-daubers, booklice
+    - jerusalem-crickets, shrews
+    - plus 2 spare
+- **Owner decisions open:**
+  - remove the AI foot note too?
+  - image sitemap and per-section sitemaps (offered; about an hour, low risk; Google Images = 143K impressions / 117 clicks in 28 days, found without an image sitemap)
+- **~19:50 UTC: Search Console access restored** (the owner re-ran `auth_setup.py`).
+- **Upgrade round 2 launched** from fresh GSC data (Sep 23 to Oct 20; positions 3.5 to 10.5; 1,200+ impressions). Excluded: frozen pages, the Oct 20 retrofits and pages changed in the last 10 days.
+  - **Ontario pages (TSX):**
+    - tick-season-ontario-when-are-ticks-active: "when do ticks die off in ontario", 251 impressions at 5.5.
+    - mosquito-season-gta-when-does-it-start: "when do mosquitoes go away in ontario", 378 impressions at 2.1, 2.4% CTR.
+    - black-flies-ontario-when-they-come-out: "black flies canada/black flies", positions 7 to 10; spring prep.
+  - **Mouse guides (JSON):**
+    - steel-wool-for-mice: position 9.6.
+    - can-mice-climb-walls: position 9.9.
+  - **Then:** one independent checker, then build and push.
+  - **Watch:** both agents run `retrofit-date.mjs`, which writes app/sitemap.ts. Verify all 5 entries are there afterwards.

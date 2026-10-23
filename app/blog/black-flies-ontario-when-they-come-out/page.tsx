@@ -9,6 +9,10 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { MOSQUITO_BLOGS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
+import QuickIdTable from '@/components/QuickIdTable'
+import ConfusedWith from '@/components/ConfusedWith'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import RelatedProducts from '@/components/RelatedProducts'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -16,7 +20,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'black-flies-ontario-when-they-come-out'
 const DATE = '2026-04-26'
-const UPDATED = '2026-07-13'
+const UPDATED = '2026-10-23'
 const TITLE = 'Black Flies in Ontario: When Black Fly Season Starts and How to Stop Them'
 const EXCERPT = 'Black fly season in Ontario peaks May through July. Learn when black flies come out, where they breed, why GTA properties near rivers and ravines are at risk, and how professional barrier spray controls them.'
 
@@ -53,15 +57,25 @@ const FAQS = [
     question: 'How do you get rid of black flies?',
     answer: 'You cannot eliminate black flies at their source because they breed in flowing rivers and streams you have no control over — but you can dramatically reduce how many bite you in your yard. Personal protection is the first line: wear light-coloured, long-sleeved clothing, skip scented products, and use a DEET or picaridin repellent. On the property, trim back the shaded shrubs, hedges, and dense vegetation where black flies rest between feeding, and schedule a professional barrier spray for mid-to-late May, when emergence peaks. The residual treatment coats the exact leaf undersides and treelines black flies use for cover, so the ones that fly in from nearby waterways do not linger or feed in numbers.',
   },
+  {
+    question: 'Are black flies everywhere in Canada?',
+    answer: 'Nearly. Environment and Climate Change Canada says black flies are established in every province and territory, including the Arctic, and occur almost anywhere there are rivers and streams, because their larvae live in flowing water. The season follows the water: in the GTA they emerge in mid-May and peak from late May through late June, Muskoka and cottage country run about 1–2 weeks later, and in Northern Ontario black fly season can stretch into late summer.',
+  },
+  {
+    question: 'What are the biting flies in Ontario?',
+    answer: 'Ontario\'s biting flies include black flies (1–5 mm, daytime, mostly May and June), mosquitoes (feeding mostly between dusk and dawn, worst in summer), no-see-ums or biting midges (1–2 mm, small enough to get through regular window screens, biting mostly at dusk, night and morning), and deer flies and horse flies (10–19 mm, late June through August, with a painful bite on hot, sunny afternoons). The quick-ID table near the top of this page compares them side by side.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Black Flies Ontario: Season & How to Stop Them',
+  // TITLE NOTE (Oct 23, 2026): was 'Black Flies Ontario: Season & How to Stop Them'; top queries, 90 days to Oct 23: black fly 1,787 at 8.7, black flies 910 at 7.1, black flies canada 471 at 8.7, black flies ontario 462 at 3.0, black fly season ontario 325 at 2.9 (56 clicks on 5,263 impressions); Sep 23-Oct 20: 5,147 impressions at 6.2, biting flies ontario at 8.4.
+  title: 'Black Flies in Ontario & Canada: Season & Bites',
   description: 'Black flies are 1–5 mm humpbacked flies that cut the skin, so bites bleed. Ontario black fly season runs mid-May to mid-July. Bite care and how to stop them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('black-fly'),
 })
 
 const AMZ_TAG = tagForSlug('black-flies-ontario-when-they-come-out')
@@ -69,7 +83,7 @@ const AMZ_TAG = tagForSlug('black-flies-ontario-when-they-come-out')
 export default function BlackFliesOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('black-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Black Flies in Ontario', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -91,6 +105,7 @@ export default function BlackFliesOntarioPage() {
       <div className="max-w-3xl mx-auto px-4">
         <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
           <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
+          <p className="text-gray-900 text-[15px] leading-relaxed font-bold mb-2">Black flies are tiny (1&ndash;5&nbsp;mm), dark, humpbacked biting flies that breed in clean, flowing water. They are established in every province and territory of Canada (<a href="https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/publications/wild-species-2010/chapter-16.html" target="_blank" rel="noopener noreferrer" className="underline">Environment and Climate Change Canada</a>), only the females bite, and in southern Ontario they are mostly a May and June problem that bites in daylight, hardest around 9&ndash;11&nbsp;a.m. and 4&ndash;7&nbsp;p.m. (<a href="https://extension.psu.edu/black-flies-in-our-gardens" target="_blank" rel="noopener noreferrer" className="underline">Penn State Extension</a>).</p>
           <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
             In the GTA and southern Ontario, black flies emerge in mid-May and peak from late May through late June, fading fast by mid-July. Muskoka and cottage country run about 1&ndash;2 weeks later, and in Northern Ontario black fly season can stretch into late summer. A well-timed <Link href="/mosquito-control" className="text-brand-700 underline">barrier spray in mid-May</Link> covers the worst weeks.
           </p>
@@ -112,9 +127,23 @@ export default function BlackFliesOntarioPage() {
           If you have ever walked out to your patio in early June and been chased back inside by a swarm of tiny biting insects that draw blood when they bite, you are not alone — and you are not dealing with mosquitoes. You are dealing with black flies. This guide covers when they come out in Ontario, where they breed, and how professional treatment controls them as part of a mosquito barrier spray program.
         </p>
 
+        <QuickIdTable
+          title="Black fly or another biting fly? Ontario quick ID"
+          head={['Fly', 'Size and look', 'When it bites', 'The bite']}
+          rows={[
+            ['Black fly', '1–5 mm; dark and humpbacked, like a tiny housefly', 'Daytime, mid-May through June; peaks about 9–11 a.m. and 4–7 p.m.', 'Cuts the skin: a sharp nip and a small wound that bleeds, then swells and itches'],
+            ['Mosquito', '3–6 mm; slender, with long legs', 'Late spring into fall, worst in summer; most feed between dusk and dawn', 'Pierces with a needle-like mouthpart: little pain at first, then an itchy welt'],
+            ['No-see-um (biting midge)', '1–2 mm; small enough to get through regular window screens', 'Mostly dusk, night and morning', 'Stinging or burning with a defined red area; usually minutes to hours, up to 2–3 days of itch in sensitive people'],
+            ['Deer fly', '10–13 mm; wings tinted or with dark patterns', 'Late June through August; hot, still, sunny afternoons near woods and water', 'Cuts the skin; a painful bite'],
+            ['Horse fly', '14–19 mm; the largest of these flies', 'Late June through August, in the same places as deer flies', 'Cuts the skin; bleeds more and takes longer to settle than a black fly bite'],
+          ]}
+          caption={<>Sizes from <a href="https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/publications/wild-species-2010/chapter-16.html" target="_blank" rel="noopener noreferrer" className="underline">Environment and Climate Change Canada</a> (black flies), <a href="https://ask.ifas.ufl.edu/publication/IN626" target="_blank" rel="noopener noreferrer" className="underline">UF/IFAS Extension</a> (no-see-ums, with their screens, biting hours and bite) and <a href="https://content.ces.ncsu.edu/horse-flies-and-deer-flies" target="_blank" rel="noopener noreferrer" className="underline">NC State Extension</a> (deer and horse flies, with the deer fly&rsquo;s wings); black fly months and biting peaks from <a href="https://blog.ontarioparks.ca/camping-comfortably-with-bugs/" target="_blank" rel="noopener noreferrer" className="underline">Ontario Parks</a> and <a href="https://extension.psu.edu/black-flies-in-our-gardens" target="_blank" rel="noopener noreferrer" className="underline">Penn State Extension</a>; mosquito feeding hours from the <a href="https://www.ontario.ca/page/west-nile-virus" target="_blank" rel="noopener noreferrer" className="underline">Ontario government</a>. The mosquito size, the deer and horse fly season and the other bite descriptions restate this page&rsquo;s own sections below.</>}
+        />
+
         <h2>What Are Black Flies?</h2>
         <p>Black flies (family <em>Simuliidae</em>) are small, dark, hump-backed biting flies that emerge in massive numbers each spring across Ontario. They are sometimes called &quot;buffalo gnats&quot; or &quot;turkey gnats,&quot; though Ontarians almost universally call them black flies. There are more than 60 black fly species in Canada, with several common to the GTA — including <em>Simulium venustum</em> and <em>Simulium decorum</em>, two of the most aggressive human-biting species.</p>
-        <p>Adult black flies are 1 to 5 millimetres long — much smaller than mosquitoes — with a distinctive humped thorax that gives them the look of miniature houseflies. They are dark grey to black, with clear wings and short antennae. Unlike mosquitoes, only the female black flies bite. Females need a blood meal to develop their eggs, while males feed on plant nectar.</p>
+        <p>Adult black flies are 1 to 5 millimetres long — much smaller than mosquitoes — with a distinctive humped thorax that gives them the look of miniature houseflies. They are dark grey to black, with clear wings and short antennae. As with mosquitoes, only female black flies bite: <a href="https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/publications/wild-species-2010/chapter-16.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Environment and Climate Change Canada</a> says only female black flies bite, and <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/mosquitoes.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Health Canada</a> says only female mosquitoes feed on animal or human blood. Females need a blood meal to develop their eggs, while males feed on plant nectar.</p>
+        <Photo id="black-fly" alt="Male black fly, genus Simulium, with short antennae and clear wings" caption="A black fly, genus Simulium (a male: only the females bite). Black flies have a humped back, short antennae and clear wings." />
 
         <h2>When Do Black Flies Come Out in Ontario?</h2>
         <p>Black flies in Ontario follow a predictable seasonal pattern driven almost entirely by water temperature. Larvae develop in flowing streams over the winter, and adults emerge once the water and air reach the right temperature window.</p>
@@ -162,6 +191,16 @@ export default function BlackFliesOntarioPage() {
             </tbody>
           </table>
         </div>
+
+        <ConfusedWith
+          title="Other biting flies in Ontario"
+          items={[
+            { href: '/blog/no-see-ums-biting-midges-ontario', name: 'No-see-ums', photo: 'biting-midge-on-skin', note: 'Even smaller (1–2 mm), slip through regular window screens and bite mostly at dusk, night and morning' },
+            { href: '/blog/deer-flies-horse-flies-ontario', name: 'Deer flies', photo: 'deer-fly', note: 'Far bigger (10–13 mm) with patterned wings; a painful bite on hot, sunny afternoons from late June to August' },
+            { href: '/blog/horse-fly-and-deer-fly-bite-treatment', name: 'Horse flies', photo: 'horse-fly', note: 'The largest (14–19 mm); the bite bleeds more and takes longer to settle than a black fly bite' },
+            { href: '/blog/mosquito-season-gta-when-does-it-start', name: 'Mosquitoes', photo: 'culex-pipiens', note: 'Slender and long-legged; most feed from dusk to dawn and leave an itchy welt, not a bleeding nick' },
+          ]}
+        />
 
         <aside aria-label="Professional mosquito control" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
           <h3 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-2 leading-tight">Or let us handle it</h3>
