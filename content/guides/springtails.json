@@ -1,0 +1,196 @@
+{
+  "slug": "springtails",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "springtails",
+  "alsoTargets": [
+    "springtail",
+    "springtails in house",
+    "springtails in bathroom",
+    "how to get rid of springtails",
+    "baby springtails",
+    "springtails in plant soil"
+  ],
+  "metaTitle": "Springtails in the House: Photos, Causes, Fixes",
+  "metaDescription": "Springtails are soft, pinhead-size bugs that jump with a spring folded under the body. Photos, baby springtails, why they gather in damp spots, and fixes.",
+  "h1": "Springtails: Why They Turn Up in Bathrooms, Basements and Plant Soil",
+  "dek": "Real photos of springtails indoors, at a printed scale and on snow, a quick-ID table against fleas, booklice, mites and fungus gnats, what baby springtails look like, and the moisture fixes extension entomologists put first.",
+  "breadcrumb": "Springtails",
+  "excerpt": "What springtails look like at life size, why they gather in bathrooms, basements and houseplant soil, how to tell them from fleas, and the moisture fixes that clear them out.",
+  "datePublished": "2026-10-23",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Springtails are soft, wingless specks about the size of a pinhead that flip into the air with a forked spring folded under the body; indoors they gather where it is damp, and they do not bite people or pets.** Dry the spot out and they usually disappear, as [Colorado State University Extension](https://extension.colostate.edu/resource/springtails/) explains.",
+    "bullets": [
+      "Most springtails that get into homes are 1/25 to 1/12 inch (1 to 2 mm) long, in colors from white to black, according to [Penn State Extension](https://extension.psu.edu/springtails).",
+      "They turn up around plumbing leaks and condensation in bathrooms, kitchens and basements and in the soil of overwatered houseplants, says [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails).",
+      "Baby springtails are small copies of the adults: [UC IPM](https://ipm.ucanr.edu/home-and-landscape/springtails/) says the young are usually whitish and differ from adults only in size and color.",
+      "UMN calls moisture control the most effective way to control springtails and says pesticides are not effective against them and should not be used inside the home.",
+      "The dark specks hopping on melting snow in late winter are springtails called snow fleas, says [the University of Minnesota's Department of Entomology](https://entomology.umn.edu/snow-flea)."
+    ]
+  },
+  "facts": {
+    "title": "Springtail or something else? Quick ID",
+    "head": ["Bug", "Size", "What it looks like", "Where you find it", "Bites people?"],
+    "rows": [
+      ["Springtail", "Mostly 1/25 to 1/12 inch (1 to 2 mm)", "Soft and wingless; white, gray or black; slender or round; jumps with a spring folded under the body", "Damp spots: tubs, sinks, drains, basements, wet houseplant soil", "No"],
+      ["Snow flea (a springtail)", "About 1/10 inch", "Dark blue-gray and somewhat plump; jumps", "On melting snow in late winter, often around the base of trees", "No"],
+      ["Flea", "About 1/8 inch", "Hard, dark reddish brown and flattened side to side; jumps", "Indoors and on pets; jumps onto people and pets to bite", "Yes"],
+      ["Booklouse", "Usually under 1/16 inch (1.5 mm)", "Soft, translucent white, gray or light brown, with long antennae; indoor kinds mostly wingless", "Warm, humid spots, often among books and papers", "No"],
+      ["Clover mite", "About 1/32 inch (0.75 mm)", "Reddish or greenish, with very long front legs; moves fast", "Windowsills on the sunny side of the house, mostly in spring", "No"],
+      ["Fungus gnat", "Adults 1/16 to 1/8 inch", "Dark fly with clear wings; larvae legless, with a shiny black head", "On and around damp houseplant soil; larvae in the soil", "No"]
+    ],
+    "caption": "Sizes and descriptions from Penn State Extension, UMN Extension and Entomology, Colorado State, UC IPM, the University of Kentucky, Texas A&M AgriLife and the University of Florida, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are springtails?" },
+    { "type": "p", "text": "Springtails are tiny, wingless, six-legged soil animals named for the spring that flips them into the air, and they are mostly noticed when crowds come indoors. [Colorado State University Extension's springtail fact sheet](https://extension.colostate.edu/resource/springtails/) says they are now usually classed as hexapods that form a sister group to the insects, and that moist soils rich in organic matter can hold thousands of them per square foot." },
+    { "type": "figure", "src": "/guides/photos/springtail.webp", "width": 1200, "height": 949, "alt": "Pale tan springtail with dark brown bands across its body and long, segmented antennae, on a green leaf beside a printed 1 mm scale bar", "caption": "A springtail (Entomobrya atrocincta) on a leaf in California, beside a 1 mm scale bar printed on the photo, about 1/25 inch.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/10397241" },
+    { "type": "p", "text": "The spring is a forked appendage, the furcula, held folded under the body. When a springtail is disturbed, the furcula snaps down and throws it up to several inches, according to [UC IPM's Pest Notes on springtails](https://ipm.ucanr.edu/home-and-landscape/springtails/), and [Penn State Extension](https://extension.psu.edu/springtails) says it can launch one up to 100 times its body length. That jump is why, UC IPM says, springtails are sometimes confused with fleas." },
+    { "type": "p", "text": "Indoors they are a nuisance, not a threat: UC IPM says springtails do not bite humans or pets, spread disease or damage household furnishings, and [the University of Kentucky's springtail fact sheet](https://entomology.mgcafe.uky.edu/ef420) finds no evidence that they become parasites. Outdoors, Colorado State says, they help break down organic matter. If you keep springtails on purpose, as terrarium keepers do, this page is about the ones that turn up uninvited." },
+
+    { "type": "h2", "text": "What do springtails look like?" },
+    { "type": "p", "text": "Most springtails seen indoors are pinhead-sized, soft and wingless, either long and slender or round and plump, in colors from white to black. Penn State puts most of the kinds that get into homes at 1/25 to 1/12 inch (1 to 2 mm); [University of Minnesota Extension's springtail page](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails) gives 1/16 to 1/8 inch, and Kentucky says they are usually the size of a mustard seed or smaller." },
+    { "type": "ul", "items": [
+      "**Body shape.** Colorado State says the species seen most often have a somewhat elongated body, while others have a rounded, globular one; UMN calls that second group round and stout.",
+      "**Color.** Most are gray or purplish, Colorado State says; UMN says most are dark (brown, gray or black), with some white or brightly colored species.",
+      "**Legs, antennae, wings.** Colorado State counts six legs, and UMN describes moderate-length antennae and no wings, so springtails cannot fly.",
+      "**The spring.** Under a magnifier, look for the fork folded under the rear of the body. Penn State places it on the underside of the fourth abdominal segment, held in place by a clasp."
+    ] },
+    { "type": "media", "needed": "A round-bodied (globular) springtail and a long-bodied springtail side by side beside a ruler marked in inches, to show the two body shapes at life size; identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What do baby springtails look like?" },
+    { "type": "p", "text": "Baby springtails look like small, pale adults. UC IPM says the immature stage is usually whitish, while adults are whitish, bluish, or dark gray to black, and that the young differ from adults only in size and color. [Clemson Cooperative Extension's springtail fact sheet](https://hgic.clemson.edu/factsheet/springtails/) explains why: springtails do not go through metamorphosis or a pupal stage. They hatch from eggs as juveniles, molt a series of times to reach maturity, and keep molting as adults." },
+    { "type": "p", "text": "So there is no springtail larva to look for. UC IPM says the eggs are round and laid in small groups in moist soil, especially where organic matter is abundant. A legless, wormlike larva with a dark head in a plant pot is something else: [University of Minnesota Extension's guide to insects on indoor plants](https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants) describes fungus gnat larvae that way." },
+
+    { "type": "h2", "text": "Where do springtails show up in a house?" },
+    { "type": "p", "text": "Springtails show up wherever water collects or the air stays damp. UC IPM says that when their outdoor home dries out they go looking for moisture, come in through window screens, open doors, vent pipes or potted plants, and soon die indoors unless they find it; Colorado State says they need moist places because they breathe through their skin." },
+    { "type": "p", "text": "They often arrive all at once: Penn State says springtails become a nuisance in homes mostly during extended droughts or prolonged, soaking rains, and Colorado State says household migrations in Colorado typically follow a moist spring and then hot, dry weather in early to mid summer." },
+    { "type": "h3", "text": "Bathrooms, tubs, sinks and drains" },
+    { "type": "p", "text": "Colorado State says springtails indoors are found most abundantly where there is water, such as bathrooms, drains, tubs and kitchen sinks, and UMN points to condensation and plumbing leaks in bathrooms, basements and kitchens. Kentucky notes that springtails gather at drains and standing water, often after getting into the house another way." },
+    { "type": "media", "needed": "Springtails in a white bathtub, sink or shower pan or around a drain in a US home, beside a ruler marked in inches, identified as springtails by an extension service, museum or expert; public domain or CC0" },
+    { "type": "h3", "text": "Basements, crawl spaces and walls" },
+    { "type": "p", "text": "UC IPM lists floor drains, damp basements, crawl spaces and wall voids. Penn State says springtails can keep an indoor population going where humidity is high and mold grows, most often in bathrooms and basements, and sometimes inside the walls of newly built homes whose floors and walls were soaked by rain before they were covered." },
+    { "type": "h3", "text": "Houseplant soil" },
+    { "type": "p", "text": "Springtails in a pot are usually slender, white or gray and about 1/16 inch long, UMN's indoor-plant guide says; they show up most right after watering, feed on decaying roots and fungi, and rarely, if ever, damage the plant." },
+    { "type": "figure", "src": "/guides/photos/springtails-under-houseplant.webp", "width": 1200, "height": 800, "alt": "About ten tiny, slender white springtails scattered over a speckled blue and tan surface around a crumb of brown soil", "caption": "White springtails found indoors under a potted houseplant in Wisconsin, scattered beside a crumb of soil.", "credit": "(c) Cole Wolf, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/354557747" },
+    { "type": "p", "text": "The fix is drier soil: UMN says to let the surface dry as much as possible between waterings without letting the plant wilt, and that there are no pesticides to treat springtails in houseplants. It lists Bti (*Bacillus thuringiensis* subspecies *israelensis*), applied to the soil, for fungus gnat larvae, not for springtails. [The guide to bugs on houseplants](/blog/houseplant-bugs) sorts the other pests that live in a pot." },
+    { "type": "h3", "text": "Around windows, doors and the foundation" },
+    { "type": "p", "text": "UC IPM says springtails may be attracted to light and, after a hot day, can gather on the side of a building in tremendous numbers. [Texas A&M AgriLife's springtail guide](https://agrilifeextension.tamu.edu/library/gardening/springtails/) says they crawl up the sides of houses and enter through gaps between bricks or around doors and windows, so hundreds can suddenly appear indoors." },
+    { "type": "h3", "text": "Swimming pools" },
+    { "type": "p", "text": "Texas A&M says large numbers can fall into swimming pools, where their waterproof bodies float on the surface like pollen or algae. UC IPM says normal pool filtering or a skimmer removes them, and that cutting back lush plants and mulch around the pool edge may reduce repeat problems." },
+    { "type": "media", "needed": "Springtails floating in a dense raft on swimming pool water or in a pool skimmer basket in the US, identified as springtails by an extension service or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What are snow fleas?" },
+    { "type": "p", "text": "Snow fleas are springtails, not fleas. [The University of Minnesota's Department of Entomology](https://entomology.umn.edu/snow-flea) describes the snow flea *Hypogastrura nivicola* as about 1/10 inch long, dark blue-gray and somewhat plump. As the snow starts to melt in late winter, it says, snow fleas move up through breaks in the snow, sometimes turning it black, especially around the base of trees. Penn State says they appear on warm winter days, more often in or near woods." },
+    { "type": "figure", "src": "/guides/photos/snow-fleas-on-snow.webp", "width": 1200, "height": 1600, "alt": "Thousands of tiny dark specks on white snow, packed most densely in a hollow where they turn the snow gray-black, and thinning out across the rest of the frame", "caption": "Snow fleas, springtails of the genus Hypogastrura, massed in a hollow in the snow. Colorado State says footprints and other hollows can collect very dense groups of them.", "credit": "(c) Emilie I. Dion, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/143536303" },
+    { "type": "p", "text": "Colorado State says they climb tree trunks, plant stems and the sides of rocks to reach the surface, with overcrowding and a lack of food the suggested triggers. UMN's entomologists say snow fleas do not harm people, though they can sometimes be pests in buckets of maple sap." },
+    { "type": "figure", "src": "/guides/photos/snow-fleas-close-up.webp", "width": 1200, "height": 900, "alt": "Four small dark blue-gray snow fleas with short legs and antennae on coarse, granular snow, one of them curled", "caption": "Snow fleas, springtails of the genus Hypogastrura, on granular snow in Massachusetts, close enough to see their short legs and antennae.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/38225190" },
+
+    { "type": "h2", "text": "Is it a springtail or a flea?" },
+    { "type": "p", "text": "A springtail is soft, usually grayish and smaller than a flea, and it does not bite; a flea is hard, dark reddish brown, flattened from side to side and feeds on blood. Kentucky puts fleas at about 1/8 inch, half the size of a grain of rice, against a mustard seed or smaller for springtails, and says fleas leave small red bite marks along the legs and ankles. UMN adds that a flea's hard body is difficult to crush, while a springtail crushes easily." },
+    { "type": "p", "text": "Where you found it helps too. A jumper by the tub or in a plant pot points to springtails, while Texas A&M says adult fleas jump onto people and pets and bite them. [The guide to bugs that look like fleas](/blog/bugs-that-look-like-fleas) sets the two side by side, [what flea bites look like on people](/blog/flea-bites-on-humans) covers the bites, and springtails also turn up among the [bugs that look like ticks](/blog/bugs-that-look-like-ticks)." },
+
+    { "type": "h2", "text": "What other tiny bugs look like springtails?" },
+    { "type": "p", "text": "Booklice, clover mites, fungus gnats and silverfish turn up in the same kinds of places, from humid rooms to windowsills and pots, but of the bugs in the quick-ID table, the sources here describe only springtails (snow fleas included) and fleas as jumpers. For dark specks that crawl or fly, [the guide to tiny black bugs in the house](/blog/tiny-black-bugs) sorts beetles, ants and small flies." },
+    { "type": "ul", "items": [
+      "**Booklice.** [The University of Florida's booklice and silverfish guide](https://ask.ifas.ufl.edu/publication/IG094) describes soft, translucent white to gray or light brown insects, usually under 1/16 inch (1.5 mm), in warm, humid spots, often among books and papers. Indoor kinds are mostly wingless, none are parasites, and [Penn State's booklice page](https://extension.psu.edu/booklice) says they do not bite.",
+      "**Clover mites.** [Penn State's clover mite page](https://extension.psu.edu/clover-mites) describes reddish or greenish mites about 1/32 inch (0.75 mm) long, with very long front legs, moving fast on sunny windowsills, mostly in spring; they do not attack people. [The guide to clover mites and other tiny red bugs](/blog/red-ticks-and-clover-mites) has photos.",
+      "**Fungus gnats.** Dark flies 1/16 to 1/8 inch long with clear wings, UMN says. [UC IPM's Pest Notes on fungus gnats](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) describes their larvae in damp potting soil as legless, with a shiny black head, and says the adults do not bite people. [The fungus gnat guide](/learn/how-to-get-rid-of-fungus-gnats) covers control.",
+      "**Silverfish.** Far bigger: the University of Florida describes wingless, carrot-shaped, scaly insects about 1/3 to 1/2 inch long, with two long antennae and three long tail appendages, in humid places with little airflow. See [how to get rid of silverfish](/blog/how-to-get-rid-of-silverfish)."
+    ] },
+    { "type": "confused", "items": [
+      { "href": "/blog/bugs-that-look-like-fleas", "name": "Cat flea", "photo": "cat-flea-scale-bar", "note": "Hard, reddish brown and flattened side to side, about 1/8 inch; it bites, a springtail does not", "alt": "Magnified side view of an amber adult cat flea with long, bristly hind legs under a printed scale bar" },
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse", "note": "Soft and pale, usually under 1/16 inch, with long antennae; among damp books and papers", "alt": "Magnified booklouse seen from above, with a broad brownish head, very long thin antennae and a segmented body" },
+      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "gray-silverfish", "note": "Far bigger, carrot-shaped and scaly, with two long antennae and three long tail bristles", "alt": "Gray, scaly silverfish with long antennae and tail bristles beside white-painted trim on an orange-brown surface" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat", "note": "A tiny dark fly with clear wings; its legless, black-headed larvae live in damp potting soil", "alt": "Dark-winged fungus gnat with long antennae, smoky clear wings and a pale abdomen, standing on a piece of wood" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of springtails?" },
+    { "type": "p", "text": "Dry out the places they gather: every springtail fact sheet cited here puts moisture control first. UMN calls it the most effective option, says springtails generally die when moisture levels drop, and says small numbers can simply be ignored or removed with a vacuum. For more, work through these steps in order." },
+    { "type": "ol", "items": [
+      "**Fix leaks and drips.** Repair plumbing leaks, as UC IPM, UMN and Kentucky advise. Outside, UMN flags downspouts that drop water near the foundation, ground that slopes toward the house, too much irrigation and drainage that does not work.",
+      "**Ventilate and dry the room.** Colorado State says a well-ventilated bathroom and fixed leaks typically solve the problem, and UC IPM says a fan speeds up the drying.",
+      "**Lower the humidity.** Penn State calls air conditioning or a dehumidifier the best way to manage springtails indoors, especially in bathrooms and showers.",
+      "**Remove wet and moldy material.** UMN says to remove wet wood, especially if it is moldy, and Penn State to remove any mold and mildew.",
+      "**Let plant soil dry.** Water houseplants thoroughly, then let the soil dry before watering again, Penn State says, and do not let drain water stand in saucers, UC IPM adds.",
+      "**Pull mulch back.** Kentucky says to keep mulch and wood piles at least a foot from exterior walls; UC IPM says to remove excess mulch and moist leaves around the foundation.",
+      "**Seal the way in.** UC IPM suggests repairing torn screens and closing gaps under doors, around windows and at attic or basement vents with caulk, weather stripping, fine-mesh screen, steel wool or expandable foam.",
+      "**Vacuum the ones inside.** UC IPM says to sweep or vacuum springtails indoors and, in sinks and tubs, simply wash them down the drain."
+    ] },
+    { "type": "p", "text": "Expect them to fade quickly once the area is dry. Colorado State says migrations usually last less than a week and springtails trapped indoors soon die, and Clemson says reducing moisture often cuts their numbers within a few days." },
+
+    { "type": "h2", "text": "Should you spray insecticide for springtails?" },
+    { "type": "p", "text": "Usually not inside. UMN says pesticides are not effective against springtails and should not be used inside the home for them. Colorado State says springtails are fairly resistant to most insecticides and advises avoiding insecticides indoors when possible, and UC IPM says sprays are often no more effective than vacuuming and give only temporary relief while the damp conditions remain." },
+    { "type": "ul", "items": [
+      "**Never down the drain.** UC IPM says never to pour or spray insecticides down drains.",
+      "**Outside, around the foundation.** For recurring infestations, Kentucky says a perimeter spray around the foundation may be needed; UC IPM says pyrethroid treatments of foundation walls are best done by a professional, without runoff into storm drains. Texas A&M reports mixed results from outdoor treatments.",
+      "**Inside.** Texas A&M lists short-lived pesticides such as pyrethrins or allethrin as the third of three indoor options, after removing the dampness and vacuuming; Kentucky says indoor applications give only temporary relief while springtails keep coming in.",
+      "**Follow the label.** Some yard and garden insecticides claim springtail control on the label, Colorado State notes; UMN reminds readers that the place you treat must be listed on the label, which is the law."
+    ] },
+    { "type": "p", "text": "None of the extension guides cited here recommends vinegar, bleach or other homemade sprays for springtails; their first answer is a dry room, and several add a vacuum." },
+
+    { "type": "h2", "text": "When do springtails point to a bigger moisture problem?" },
+    { "type": "p", "text": "When they keep coming back after the obvious leaks are fixed. Texas A&M says a chronic indoor infestation may mean springtails are living in potted plants or in moist areas in walls or storage areas, and that they may infest wells, toilet tanks, wet insulation, drains, damp basements and damp walls. Kentucky and Penn State add newly built homes with wet plaster, or with walls soaked by rain before they were closed in." },
+    { "type": "p", "text": "Texas A&M says fungal growth where there is moisture can sustain an infestation, and Clemson's list of likely causes is short: a water leak, too much watering of plants, or high humidity." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Tap a few onto a white index card or into a clear jar, photograph them beside a ruler marked in inches, and note where you found them and whether they jump. Your state's cooperative extension office can help identify them." }
+  ],
+  "faqs": [
+    {
+      "question": "Is it normal to have springtails in your house?",
+      "answer": "A few now and then are not unusual, but a steady stream points to moisture. Texas A&M AgriLife says you almost certainly have springtails in and around your home and garden, mostly unseen, and UC IPM says those that wander indoors soon die unless they find moisture, which is why their continued presence indoors signals it. Penn State says they can sometimes keep a population going inside where humidity is high and mold grows, most often in bathrooms and basements."
+    },
+    {
+      "question": "Why do I suddenly have springtails?",
+      "answer": "Usually the weather pushed them in. Penn State says springtails become a nuisance in homes mostly during extended droughts or prolonged, soaking rains, and Colorado State says household migrations in Colorado typically follow a moist spring and then hot, dry weather in early to mid summer, as the soil they live in dries out. UC IPM says that after a hot day they may gather on the side of a building in huge numbers. Colorado State says migrations usually last less than a week, so a crowd that lingers points to moisture indoors."
+    },
+    {
+      "question": "Do springtails come up through drains?",
+      "answer": "They gather at drains, but often get there from somewhere else. The University of Kentucky says springtails collect at standing water such as drains, often after entering the house another way, commonly through gaps around windows, doors and garage doors or in the damp soil of potted plants. UC IPM says they crawl around looking for moisture and get trapped in sinks, washbasins and tubs. Texas A&M notes that a long-lasting infestation can live in drains and other wet spots, so start by fixing leaks and drying the room."
+    },
+    {
+      "question": "What can I pour down the drain to kill springtails?",
+      "answer": "Plain water is enough to rinse them away. UC IPM says to simply wash springtails in sinks and bathtubs down the drain and never to pour or spray insecticides down drains. None of the extension guides cited here recommends vinegar, bleach or other homemade drain treatments. Since Kentucky says springtails often reach drains after getting in some other way, the lasting fix is a drier bathroom: repaired drips, good ventilation and lower humidity, as Colorado State and Penn State advise."
+    },
+    {
+      "question": "What kills springtails instantly?",
+      "answer": "Nothing the extension guides recommend beats a vacuum and a dry room. UC IPM says insecticide sprays are often no more effective than vacuuming and give only temporary relief while the area stays damp, and the University of Minnesota says pesticides are not effective against springtails and should not be used inside the home for them. Springtails need moisture because they breathe through their skin, Colorado State says, and UC IPM says they soon die indoors unless they find it. Vacuum the ones you see, then fix the moisture."
+    },
+    {
+      "question": "How long do springtails stay in your house?",
+      "answer": "Often only days once the house is dry. Colorado State says springtail migrations usually last less than a week and that springtails trapped indoors soon die, and Clemson says reducing moisture often cuts their numbers within a few days. Texas A&M says an infestation can take a few days to several weeks to run its course, depending on the weather. Springtails that keep turning up for weeks may be living somewhere damp indoors, such as potted plants, wet insulation or damp walls, Texas A&M adds."
+    },
+    {
+      "question": "Can springtails live in your hair?",
+      "answer": "None of the sources here describes springtails living on people. The University of Kentucky says there is no evidence that springtails form parasitic relationships or transmit disease, and that skin irritation has been reported only in a few cases of handling them directly, with none reported from passive contact with their hairs or scales in the home. Clemson likewise lists only rare dermatitis from handling. Texas A&M says springtails that get indoors usually die quickly from low humidity and lack of food, so they cannot be carried from house to house in boxes or on clothing. If your scalp or skin itches, see a healthcare provider."
+    },
+    {
+      "question": "Are springtails good or bad?",
+      "answer": "Outdoors they are mostly good; indoors they are a nuisance and a moisture warning. Colorado State says springtails help break down organic matter and recycle nutrients and that their presence is usually a sign of healthy, living soil, and the University of Kentucky says they are primarily considered beneficial outdoors. Some species chew seedlings, UC IPM says, but mature plants are not significantly injured. Indoors they do not bite, spread disease or damage furnishings, though large numbers mean excess moisture worth fixing, as Clemson notes."
+    },
+    {
+      "question": "Why do I keep finding springtails in my bathroom?",
+      "answer": "Because bathrooms hold the moisture springtails need. Colorado State says springtails that get indoors are found most abundantly where there is water, such as bathrooms, drains, tubs and sinks, and that keeping bathrooms well ventilated and fixing leaks typically resolves the problem. Penn State recommends lowering humidity with air conditioning or a dehumidifier, especially in bathrooms and showers, and removing mold and mildew. If they keep coming back, look for a slow leak, condensation or a damp wall, conditions UMN and Texas A&M tie to springtails indoors."
+    },
+    {
+      "question": "What do springtails eat?",
+      "answer": "Mostly fungi, algae, bacteria and decaying plant matter. Colorado State says the great majority develop in soil and feed on those, UC IPM adds molds, and the University of Minnesota says springtails in houseplant soil feed on decaying roots and fungi. Penn State says they can sometimes keep an indoor population going where humidity is high and mold grows. They do not eat household goods: UMN says springtails do not damage food, clothes, furniture or property."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Springtails (UC ANR Publication 74136; E. J. Perry, updated August 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/springtails/" },
+    { "title": "Springtails (Fact Sheet 5.602; W. Cranshaw, reviewed August 2025)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/springtails/" },
+    { "title": "Springtails (Steve Jacobs, updated June 24, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/springtails" },
+    { "title": "Springtails (reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/springtails" },
+    { "title": "Managing insects on indoor plants (Jeff Hahn and Julie Weisenhorn, reviewed 2026)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/insects-on-indoor-plants" },
+    { "title": "Snow Flea (Jeff Hahn, Extension Entomologist)", "publisher": "University of Minnesota Department of Entomology", "url": "https://entomology.umn.edu/snow-flea" },
+    { "title": "ENTFACT-420: Springtails (Hannah Blevins, Jonathan Larson and Zachary DeVries, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef420" },
+    { "title": "Springtails (Michael Merchant and Mark Muegge)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/gardening/springtails/" },
+    { "title": "Springtails (Collembola) in South Carolina: Identification and Management (HGIC 2445, revised September 18, 2026)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/springtails/" },
+    { "title": "Booklice and Silverfish (ENY-225/IG094; F. M. Oi, P. G. Koehler, D. Branscome and B. E. Bayer, reviewed March 2026)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Booklice (Michael J. Skvarla, updated July 23, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/booklice" },
+    { "title": "Clover Mites (Steve Jacobs, updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/clover-mites" },
+    { "title": "Pest Notes: Fungus Gnats (UC ANR Publication 7448; J. A. Bethke and S. H. Dreistadt, updated August 2013)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" }
+  ],
+  "disclaimer": "pesticide"
+}

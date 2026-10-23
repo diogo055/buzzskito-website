@@ -1,0 +1,15 @@
+{
+ "id": "bed-bugs-in-hotels",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "09c5740d127eaeba96ee7d6729859d5b01fc4e1dbfd655e04df3677c5035c5b4",
+ "claimsChecked": 206,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

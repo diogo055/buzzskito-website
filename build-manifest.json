@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-22",
+ "generated": "2026-10-23",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 182,
+  "newPagesBuilt": 186,
   "hubPages": 4,
-  "guides": 167,
+  "guides": 171,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 231,
-  "internalLinksInNewPages": 2455
+  "notBuilt": 228,
+  "internalLinksInNewPages": 2521
  },
  "pages": [
   {
@@ -21,11 +21,11 @@
    "kind": "pillar",
    "cluster": "bed-bugs",
    "title": "Bed Bugs: Identification, Signs and Treatment",
-   "wordCount": 5467,
+   "wordCount": 5506,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 15,
-   "outboundInternalLinks": 20,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 21,
    "status": "built"
   },
   {
@@ -40,7 +40,7 @@
    "wordCount": 3365,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -56,7 +56,7 @@
    "wordCount": 1993,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -72,8 +72,24 @@
    "wordCount": 2397,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 32,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bugs in hotels",
+   "us_volume": null,
+   "url": "/blog/bed-bugs-in-hotels",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Bed Bugs in Hotels: How to Check Your Room",
+   "wordCount": 2387,
+   "faqs": 10,
+   "sources": 15,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -85,9 +101,9 @@
    "kind": "pillar",
    "cluster": "ants",
    "title": "Ants: Identification, Prevention and Control",
-   "wordCount": 6173,
-   "faqs": 8,
-   "sources": 8,
+   "wordCount": 6216,
+   "faqs": 9,
+   "sources": 9,
    "inboundFromNewPages": 25,
    "outboundInternalLinks": 33,
    "status": "built"
@@ -229,9 +245,9 @@
    "kind": "pillar",
    "cluster": "cockroaches",
    "title": "Cockroaches: Species, Health Risks and Control",
-   "wordCount": 5273,
-   "faqs": 8,
-   "sources": 8,
+   "wordCount": 5381,
+   "faqs": 10,
+   "sources": 10,
    "inboundFromNewPages": 21,
    "outboundInternalLinks": 25,
    "status": "built"
@@ -373,11 +389,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Tick Identification Chart: Deer, Dog, Lone Star",
-   "wordCount": 3443,
+   "wordCount": 3505,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 17,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -389,11 +405,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Ticks in Canada by Province: Map, Species, Tests",
-   "wordCount": 2677,
+   "wordCount": 2740,
    "faqs": 5,
    "sources": 15,
    "inboundFromNewPages": 7,
-   "outboundInternalLinks": 20,
+   "outboundInternalLinks": 21,
    "status": "built"
   },
   {
@@ -501,11 +517,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Ticks by State: Tick Map and Lyme Disease Rates",
-   "wordCount": 2825,
+   "wordCount": 2896,
    "faqs": 6,
    "sources": 10,
    "inboundFromNewPages": 30,
-   "outboundInternalLinks": 60,
+   "outboundInternalLinks": 61,
    "status": "built"
   },
   {
@@ -981,11 +997,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Venomous Spiders in the US by State (Photos)",
-   "wordCount": 3171,
+   "wordCount": 3238,
    "faqs": 6,
    "sources": 18,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 19,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 20,
    "status": "built"
   },
   {
@@ -997,11 +1013,27 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Brown Recluse Bite: Stages and Symptoms (Photos)",
-   "wordCount": 2514,
+   "wordCount": 2575,
    "faqs": 6,
    "sources": 12,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "cellar spider",
+   "us_volume": null,
+   "url": "/blog/daddy-long-legs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Cellar Spider (Daddy Long Legs): Bite and ID",
+   "wordCount": 2359,
+   "faqs": 10,
+   "sources": 17,
    "inboundFromNewPages": 6,
-   "outboundInternalLinks": 8,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1013,11 +1045,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Wolf Spider ID: Eyes, Size and Bites (Photos)",
-   "wordCount": 2741,
+   "wordCount": 2801,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1029,11 +1061,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spiders That Look Like Brown Recluse (Photos)",
-   "wordCount": 2701,
+   "wordCount": 2760,
    "faqs": 5,
    "sources": 16,
-   "inboundFromNewPages": 8,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1045,11 +1077,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Common House Spiders: Photos and Which Ones Bite",
-   "wordCount": 3419,
+   "wordCount": 3486,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1061,11 +1093,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spiders in California: Common Species (Photos)",
-   "wordCount": 3198,
+   "wordCount": 3265,
    "faqs": 6,
    "sources": 19,
-   "inboundFromNewPages": 3,
-   "outboundInternalLinks": 23,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 24,
    "status": "built"
   },
   {
@@ -1077,11 +1109,27 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spiders in Florida: Common Species (Photos)",
-   "wordCount": 3010,
+   "wordCount": 3077,
    "faqs": 6,
    "sources": 17,
    "inboundFromNewPages": 3,
-   "outboundInternalLinks": 17,
+   "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "yellow sac spider",
+   "us_volume": null,
+   "url": "/blog/yellow-sac-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Yellow Sac Spider: Pale House Spider ID and Bite",
+   "wordCount": 2223,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1093,11 +1141,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spiders in Texas: Common Species (Photos)",
-   "wordCount": 3050,
+   "wordCount": 3117,
    "faqs": 5,
    "sources": 20,
    "inboundFromNewPages": 3,
-   "outboundInternalLinks": 22,
+   "outboundInternalLinks": 23,
    "status": "built"
   },
   {
@@ -1109,11 +1157,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Spider Egg Sacs: Which Spider Made It? (Photos)",
-   "wordCount": 2203,
+   "wordCount": 2268,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -1125,11 +1173,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Black Spider With White Spots? ID It (Photos)",
-   "wordCount": 2127,
+   "wordCount": 2194,
    "faqs": 10,
    "sources": 13,
    "inboundFromNewPages": 2,
-   "outboundInternalLinks": 16,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -1224,7 +1272,7 @@
    "wordCount": 2472,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1352,7 +1400,7 @@
    "wordCount": 2789,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1384,7 +1432,7 @@
    "wordCount": 2957,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1400,8 +1448,24 @@
    "wordCount": 2600,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 16,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "springtails",
+   "us_volume": null,
+   "url": "/blog/springtails",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Springtails in the House: Photos, Causes, Fixes",
+   "wordCount": 2255,
+   "faqs": 10,
+   "sources": 13,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -1413,7 +1477,7 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Small Moths in the House? Which Kind (Photos)",
-   "wordCount": 2662,
+   "wordCount": 2921,
    "faqs": 10,
    "sources": 9,
    "inboundFromNewPages": 5,
@@ -1528,7 +1592,7 @@
    "wordCount": 2230,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1688,7 +1752,7 @@
    "wordCount": 3601,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1752,7 +1816,7 @@
    "wordCount": 2590,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2661,13 +2725,6 @@
   },
   {
    "rank": null,
-   "keyword": "daddy long legs",
-   "url": "/blog/daddy-long-legs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "joro spider",
    "url": "/blog/joro-spiders",
    "action": "new",
@@ -2950,13 +3007,6 @@
    "rank": null,
    "keyword": "hobo spider",
    "url": "/blog/hobo-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "yellow sac spider",
-   "url": "/blog/yellow-sac-spiders",
    "action": "new",
    "status": "not built"
   },
@@ -3333,13 +3383,6 @@
   },
   {
    "rank": null,
-   "keyword": "springtails",
-   "url": "/blog/springtails",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "what do termites look like",
    "url": "/blog/what-do-termites-look-like",
    "action": "new",
@@ -3393,7 +3436,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3409,7 +3452,7 @@
    "wordCount": 2424,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3496,11 +3539,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
-   "wordCount": 2745,
+   "wordCount": 2806,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 12,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -3652,9 +3695,9 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "German Cockroaches: Two Stripes, Bait Not Spray",
-   "wordCount": 2990,
+   "wordCount": 3183,
    "faqs": 6,
-   "sources": 6,
+   "sources": 7,
    "inboundFromNewPages": 20,
    "outboundInternalLinks": 12,
    "status": "built"
@@ -3869,7 +3912,7 @@
    "wordCount": 3629,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3914,11 +3957,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "What Do Ticks Look Like? Size, Color, Species",
-   "wordCount": 2213,
+   "wordCount": 2274,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 40,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3933,7 +3976,7 @@
    "wordCount": 2742,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -4454,11 +4497,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Ticks on Dogs: Where to Check and How to Remove",
-   "wordCount": 3495,
+   "wordCount": 3549,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 35,
-   "outboundInternalLinks": 14,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -4518,11 +4561,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Where Do Bed Bugs Hide? Start With the Bed",
-   "wordCount": 3056,
+   "wordCount": 3099,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4552,11 +4595,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
-   "wordCount": 2745,
+   "wordCount": 2806,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 12,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4784,11 +4827,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Ticks That Carry Lyme Disease: Only 2 US Species",
-   "wordCount": 3150,
+   "wordCount": 3204,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 14,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {

@@ -1014,6 +1014,30 @@
       "name": "Fine-toothed flea comb",
       "search": "flea comb",
       "basis": "'Comb over something white. Stand the pet in a white sink or tub (Ohio State) or on white paper or a pillowcase (Cornell) and run a fine-toothed flea comb through the coat.'"
+    },
+    "bed-bugs-in-hotels": {
+      "label": "To check the hotel room",
+      "name": "Small LED flashlight",
+      "search": "small led flashlight",
+      "basis": "'set your luggage on a counter or another hard surface, then shine a flashlight along the mattress seams, piping and tags at the pillow end'; the room checklist says 'Run a flashlight along every seam at the head of the bed' (EPA, Kentucky)."
+    },
+    "daddy-long-legs": {
+      "label": "To clear the webs",
+      "name": "Extendable cobweb duster",
+      "search": "extendable cobweb duster",
+      "basis": "The page advises tolerating cellar spiders when possible and 'removing webs and egg sacs with a broom or vacuum' (Minnesota Extension, UC IPM); a long-handled web duster reaches the ceiling corners where their webs hang. Never an insecticide."
+    },
+    "yellow-sac-spiders": {
+      "label": "To see where they roam",
+      "name": "Sticky traps",
+      "search": "sticky traps for spiders",
+      "basis": "'Check with sticky traps': 'Minnesota says sticky traps along walls and under furniture show whether spiders are present' (also UC IPM)."
+    },
+    "springtails": {
+      "label": "To dry out damp rooms",
+      "name": "Dehumidifier",
+      "search": "dehumidifier",
+      "basis": "'Penn State calls air conditioning or a dehumidifier the best way to manage springtails indoors, especially in bathrooms and showers'; the page puts moisture first and recommends no insecticide."
     }
   }
 }

@@ -1,0 +1,15 @@
+{
+ "id": "daddy-long-legs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "eec276d05b7c1e330fd694bd772ae8d6c2bad3ffb4c671f65e0fa66a34fc5a22",
+ "claimsChecked": 269,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

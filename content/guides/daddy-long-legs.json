@@ -1,0 +1,202 @@
+{
+  "slug": "daddy-long-legs",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "cellar spider",
+  "alsoTargets": [
+    "cellar spider bite",
+    "cellar spider vs harvestman",
+    "daddy long legs spider",
+    "are daddy long legs poisonous",
+    "cellar spiders",
+    "daddy long legs"
+  ],
+  "metaTitle": "Cellar Spider (Daddy Long Legs): Bite and ID",
+  "metaDescription": "Cellar spiders are the pale, long-legged spiders in basement webs. Photos, the shake test, how to tell a harvestman, and what the evidence says on bites.",
+  "h1": "Cellar Spiders (Daddy Long Legs): Do They Bite, and How to Tell a Harvestman",
+  "dek": "The pale, long-legged spider in a basement web is a cellar spider, one of three animals called daddy long legs. Real photos, the test that tells it from a harvestman, the bite and venom facts, and what to do about the webs.",
+  "breadcrumb": "Cellar Spiders (Daddy Long Legs)",
+  "excerpt": "How to recognize a cellar spider, tell it from a harvestman and a crane fly, what the evidence says about its bite and the venom myth, and how to clear the webs.",
+  "datePublished": "2026-10-23",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A cellar spider is a small, pale spider on very long, thin legs that hangs upside down in a loose web and vibrates into a blur when disturbed; a harvestman, the other daddy long legs, has one oval body and spins no web.** [Penn State Extension](https://extension.psu.edu/longbodied-cellar-spider) says cellar spiders are not known to bite people.",
+    "bullets": [
+      "The long-bodied cellar spider, the most common of its family in the United States, has a body about 1/4 to 5/16 inch long (6 to 8 mm), while an adult female's front legs reach about 2 inches, Penn State says.",
+      "[The Missouri Department of Conservation (MDC)](https://mdc.mo.gov/discover-nature/field-guide/cellar-spiders) says cellar spiders bounce so fast in their webs when alarmed that they become a blur, and that they hang belly-up in garages, basements, cellars and ceiling corners.",
+      "Harvestmen have a simple oval body, only two eyes and no silk or venom glands, so they never build webs, according to [MDC's harvestmen guide](https://mdc.mo.gov/discover-nature/field-guide/daddy-longlegs-harvestmen).",
+      "The tale that daddy long legs have the deadliest venom but fangs too short to bite has no scientific basis, says [Rick Vetter's daddy longlegs page at UC Riverside](https://spiders.ucr.edu/daddy-long-legs).",
+      "[University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders) advises tolerating spiders when possible and removing webs and egg sacs with a broom or vacuum."
+    ]
+  },
+  "facts": {
+    "title": "Cellar spider or harvestman? Quick ID",
+    "head": ["Feature", "Cellar spider", "Harvestman"],
+    "rows": [
+      ["What it is", "A true spider (family Pholcidae)", "An arachnid, but not a spider (order Opiliones)"],
+      ["Body", "Two parts: a front section and an abdomen", "One oval body with no waist"],
+      ["Eyes", "Usually 8, clustered at the front", "2 at most"],
+      ["Silk and web", "Spins a loose, messy web and hangs upside down in it", "Makes no silk and never builds a web"],
+      ["Body length", "About 1/4 to 5/16 inch (long-bodied cellar spider)", "About 1/16 to 1/2 inch"],
+      ["Where you find it", "Basements, cellars, garages and ceiling corners, all year in heated buildings", "Leaf litter and tree bark; clusters on trees and homes, around eaves and windows, in fall"],
+      ["When disturbed", "Vibrates in its web until it blurs", "Gives off a foul odor; a lost leg keeps twitching"],
+      ["Venom and bite", "Has venom, like almost all spiders; not known to bite people", "No venom glands or fangs; mouthparts too small to bite people"]
+    ],
+    "caption": "Sources: Penn State Extension, the Missouri Department of Conservation, UC Riverside, the University of Minnesota, Clemson Extension and the Burke Museum, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a cellar spider look like?" },
+    { "type": "p", "text": "A cellar spider is a small, pale spider with extremely long, thin legs that hangs upside down in a loose, messy web. [Penn State Extension's page on the longbodied cellar spider](https://extension.psu.edu/longbodied-cellar-spider), the most common member of the family Pholcidae in the United States, gives females a body about 1/4 to 5/16 inch long (7 to 8 mm) and males about 1/4 inch (6 mm), while an adult female's front legs reach about 2 inches (50 mm)." },
+    { "type": "figure", "src": "/guides/photos/cellar-spider.webp", "width": 1200, "height": 1600, "alt": "Long-bodied cellar spider on a textured white wall: a small, pale body with a long, tube-shaped abdomen and very long, thin legs with dark joints", "caption": "A long-bodied cellar spider, *Pholcus phalangioides*, on a textured white wall in Foster City, California. Look for legs many times longer than the small, pale body.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/296194035" },
+    { "type": "p", "text": "Penn State describes a pale tan or yellow body with a gray mark in the middle of the front section and a cylindrical abdomen about three times as long as it is wide. [The Missouri Department of Conservation (MDC) field guide to cellar spiders](https://mdc.mo.gov/discover-nature/field-guide/cellar-spiders) adds that some species have dark, knobby-looking leg joints and that many common species have eight eyes in three groups: two in the middle and three on each side." },
+    { "type": "p", "text": "The quickest test is to make it move. Penn State says a threatened cellar spider vibrates rapidly in a circle in its web, which makes it hard to see, and MDC suggests blowing a quick puff of air on one to watch it bob into a blur." },
+    { "type": "checklist", "title": "Is it a cellar spider? Four quick checks", "items": [
+      "**Legs.** Many times longer than the body.",
+      "**Web.** A loose, irregular web in a corner, with the spider hanging upside down in it.",
+      "**Shake.** A puff of air sets it bouncing in the web until it blurs.",
+      "**Body.** Two parts, a front section and an abdomen. One oval body with no waist means a harvestman."
+    ] },
+
+    { "type": "h2", "text": "Which animals are called daddy long legs?" },
+    { "type": "p", "text": "Three unrelated animals share the name: cellar spiders, harvestmen and crane flies. The [Burke Museum's spider myths page](https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-daddy-longlegs-would) lists all three. UC Riverside says the animals most correctly called daddy longlegs are the harvestmen, order Opiliones, and that arachnologists also call cellar spiders daddy-longlegs spiders because the public confused the two." },
+    { "type": "p", "text": "The third is an insect: [UF/IFAS Extension](https://blogs.ifas.ufl.edu/manateeco/2025/12/17/a-tale-of-three-daddy-long-legs/) describes crane flies as six-legged insects with wings that look like oversized mosquitoes and do not bite or sting, and [the crane fly guide](/blog/mosquito-hawk-explained) covers them." },
+    { "type": "p", "text": "A long-legged animal sitting in a web is a spider: MDC says harvestmen have no silk glands and never build webs. UC Riverside adds that people seldom run into harvestmen, which live under logs and rocks, while cellar spiders are plentiful and commonly seen, which is probably why they are the animal people mean when they repeat the venom tale. [The guide to common house spiders](/blog/house-spiders) covers the other spiders found indoors." },
+
+    { "type": "h2", "text": "How do you tell a cellar spider from a harvestman?" },
+    { "type": "p", "text": "Look at the body and the web: a cellar spider has two body parts and lives in a web, while a harvestman has one oval body and never spins silk. [MDC's harvestmen guide](https://mdc.mo.gov/discover-nature/field-guide/daddy-longlegs-harvestmen) says it is usually hard to tell where a harvestman's head ends and its segmented abdomen begins, and that it has only two eyes and no silk or venom glands; MDC's cellar spider guide adds that the two groups are unrelated." },
+    { "type": "figure", "src": "/guides/photos/harvestman-brick-wall.webp", "width": 1200, "height": 1200, "alt": "Harvestman with a small, round, reddish-brown body and eight very long, dark, thin legs splayed across a weathered brick framed by pale mortar", "caption": "A banded harvestman, *Leiobunum vittatum*, on a brick retaining wall beside a house's garage in Macon, Virginia. Look for one small, round body with no waist, slung between eight very long legs.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/324448053" },
+    { "type": "p", "text": "You meet them in different places. MDC finds harvestmen in leaf litter and on tree bark, mostly at night, and [Clemson Extension's daddy longlegs fact sheet](https://hgic.clemson.edu/factsheet/daddy-longlegs/) says they cluster on trees and homes in fall, usually around eaves and windows, and turn up in damp crawl spaces, unfinished basements and garages but rarely in finished living spaces. Clemson puts most adult bodies at about 1/16 to 1/2 inch long." },
+    { "type": "figure", "src": "/guides/photos/harvestman.webp", "width": 1200, "height": 718, "alt": "Magnified side view of a harvestman on black: a single reddish oval body with ridged segments at the rear and long, thin, bristly legs", "caption": "A harvestman, *Leiobunum flavum*, from Maryland, magnified in a USGS photograph. Its body is one oval piece; the lines across the rear are segments of that one body, not a waist, as UC Riverside describes.", "credit": "USGS Bee Inventory and Monitoring Lab, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leiobunum_flavum.jpg" },
+    { "type": "p", "text": "They defend themselves differently, too: MDC says a disturbed harvestman gives off a foul-smelling odor, can play dead, and can drop a leg that keeps twitching to distract a predator. Harvestmen eat organic material, dung and dead animals, MDC says, and some catch aphids and other small insects." },
+    { "type": "p", "text": "Harvestmen are arachnids, like spiders, ticks and scorpions, Clemson notes, but they are not spiders; [how ticks fit among the arachnids](/blog/are-ticks-arachnids-or-insects) explains the group." },
+    { "type": "media", "needed": "A cellar spider and a harvestman photographed at the same scale beside a ruler marked in inches, so the cellar spider's two-part body and the harvestman's one-piece oval body show side by side; public domain or CC0" },
+
+    { "type": "h2", "text": "Do cellar spiders bite?" },
+    { "type": "p", "text": "Rarely, if ever, and no bite has been recorded doing harm. Penn State says cellar spiders are not known to bite people, and UC Riverside says there is no reference to any cellar spider biting a person and causing a harmful reaction. [UC IPM's Pest Notes on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) say they are only marginally capable of biting people because, in most cases, their fangs are too short to pierce skin; their main nuisance is messy cobwebs." },
+    { "type": "p", "text": "Do not read too much into the fangs either way. UC Riverside notes that cellar spider fangs share the tong-like structure of the brown recluse's, a spider that does bite people, so the too-short claim has no scientific basis either. In [a UC Riverside entomology article](https://entomology.ucr.edu/news/2022/01/14/are-daddy-longlegs-really-most-venomous-spiders-world), Vetter said he knew of no publication showing that cellar spiders cause a toxic effect in humans." },
+    { "type": "p", "text": "A red bump after a night in the basement is not proof of a spider. [Mayo Clinic's page on spider bites](https://www.mayoclinic.org/diseases-conditions/spider-bites/symptoms-causes/syc-20352371) says a typical spider bite looks like any other bug bite and that, unless you saw the spider bite you, it is difficult to be certain one did. The University of Minnesota says even doctors over-diagnose spider bites, when the cause is usually another condition or a bacterial skin infection. [What a spider bite looks like](/blog/what-does-a-spider-bite-look-like) covers bites in general." },
+    { "type": "p", "text": "For any spider bite, [Poison Control](https://www.poison.org/articles/insect-and-spider-bites) says to wash the area with soap and water and put cold water or a cloth filled with ice on it for 10 to 20 minutes, then watch for signs of infection: pus, swollen glands, and worsening swelling, redness and pain around the bite." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care for a spider bite", "text": "Mayo Clinic says to seek medical care immediately if you were bitten by a dangerous spider such as a widow or recluse, are unsure whether the spider was dangerous, have severe pain, abdominal cramping or a growing wound at the bite, have trouble breathing or swallowing, or see spreading redness or red streaks. Poison Control answers at 1-800-222-1222 in the US, and online. In Canada, [Health Canada](https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html) says 1-844-764-7669 (1-844 POISON-X) connects callers to their local poison center; Quebec keeps its own line, 1-800-463-5060." },
+
+    { "type": "h2", "text": "Are daddy long legs the most venomous spiders?" },
+    { "type": "p", "text": "No. The Burke Museum calls the story that daddy long legs have the world's most powerful venom but jaws too small to bite a full-fledged urban legend with no basis in fact, and it fails for each of the three animals." },
+    { "type": "ul", "items": [
+      "**Harvestmen** have no venom glands or fangs, UC Riverside and Clemson say, so they cannot bite you; some give off defensive secretions that might be toxic to small animals if eaten.",
+      "**Crane flies** have no venom of any kind either, the Burke Museum says.",
+      "**Cellar spiders** have venom, like almost all spiders, but the Burke Museum says it is nothing special and that a study found it unusually weak in its effect on insects; MDC calls it comparatively mild. UC Riverside adds that there is no scientific basis for the idea that it is deadly to people."
+    ] },
+    { "type": "p", "text": "MDC suggests the myth may have grown from what cellar spiders can kill: they capture spiders known to be harmfully venomous, including members of the black widow genus, by casting long swaths of silk over them from a distance. [The guide to venomous spiders in the US](/blog/venomous-spiders) covers the spiders whose bites do matter, and [the black widow guide](/blog/black-widow-spiders) shows how to recognize a widow." },
+
+    { "type": "h2", "text": "Which cellar spiders live in North American homes?" },
+    { "type": "p", "text": "A handful of species. [Clemson Extension's cellar spider fact sheet](https://hgic.clemson.edu/factsheet/cellar-spiders/) counts about 20 species of cellar spiders in the United States and Canada and names the long-bodied and short-bodied cellar spiders as the two most commonly seen; UC Riverside says the most common ones in US homes are two species that came from Europe, the long-bodied and marbled cellar spiders." },
+    { "type": "ul", "items": [
+      "**Long-bodied cellar spider** (*Pholcus phalangioides*): the most common in the United States, Penn State says; UC Riverside describes a uniformly gray spider with a long, rectangular abdomen, found throughout the US.",
+      "**Marbled cellar spider** (*Holocnemus pluchei*): introduced into California in the 1970s, it has displaced the long-bodied species there, UC IPM says. UC Riverside says it is very common along the Pacific Coast and into the Southwest deserts and has a brown stripe on its underside; [the guide to spiders in California](/blog/spiders-in-california) covers it.",
+      "**Short-bodied cellar spider**: Clemson gives the female a body only 1/16 inch long, with legs reaching about 5/16 inch."
+    ] },
+    { "type": "p", "text": "Two photos here show another species, Manuel's cellar spider (*Pholcus manueli*). Telling cellar spiders apart can take a close look at the palps, face, markings and eye groups, MDC says; its description of them as harmless, and UC Riverside's finding on bites, cover the whole family." },
+    { "type": "media", "needed": "A marbled cellar spider (Holocnemus pluchei) hanging upside down in its web, showing the brown stripe on its underside, in a home, garage or porch in California or the Southwest; public domain or CC0" },
+
+    { "type": "h2", "text": "Why are cellar spiders in the house all year?" },
+    { "type": "p", "text": "Because a heated building suits them. Penn State finds male and female cellar spiders in heated buildings throughout the year, in cellars, warehouses, garages and other dark, quiet, protected spots, and says they can build up large populations in protected places. MDC says that in nature they live in cave openings and cliff crevices, and that cellars and basements are a lot like caves." },
+    { "type": "figure", "src": "/guides/photos/cellar-spider-bathroom-corner.webp", "width": 1200, "height": 1200, "alt": "Pale cellar spider with a small, dark oval body and very long, thin legs in a corner where a white surface meets dark wood trim, with wisps of web at the joint", "caption": "Manuel's cellar spider, *Pholcus manueli*, in a corner of an upstairs bathroom where a white surface meets wood trim, in Macon, Virginia. Look for the small body hanging between very long, thin legs and the wisps of loose web in the corner.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/325836179" },
+    { "type": "p", "text": "Inside, look in basements, crawl spaces and cellars, where the University of Minnesota finds their loose webs in corners near the ceiling or floor, and in ceiling corners anywhere in the house, where MDC says they hang belly-up. [Utah State University Extension's cellar spider page](https://extension.usu.edu/planthealth/ipm/notes_nuisance/cellar-spiders) adds the spaces behind heating and cooling units, furniture and pianos. [The guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) covers the other year-round residents." },
+    { "type": "media", "needed": "A long-bodied cellar spider hanging upside down in its loose web in a basement, garage or ceiling corner, with the tangle of web visible, photographed in a US or Canadian home; public domain or CC0" },
+
+    { "type": "h2", "text": "What do cellar spiders eat?" },
+    { "type": "p", "text": "Insects and other spiders, including ones bigger than themselves. MDC says cellar spiders eat small arthropods and often capture prey much larger than themselves, such as [wolf spiders](/blog/wolf-spiders) and crane flies. Their webs are not sticky, so they rely on the tangle of silk to trap prey, which they bite, wrap in silk and eat; Clemson says they shake the web hard once prey is caught to entangle it further." },
+    { "type": "p", "text": "Some hunt in other spiders' webs: MDC says some species enter another spider's web, jiggle it the way a trapped insect would, then bite and eat the owner when it approaches." },
+    { "type": "p", "text": "Females carry their eggs instead of hanging a sac in the web. Penn State says the long-bodied cellar spider wraps 25 to 60 eggs in a thin layer of silk and holds them in her jaws while she hangs upside down, and Clemson says the spiderlings crawl onto their mother for a short time after they hatch. [The spider egg sac guide](/blog/spider-egg-sacs) compares other spiders' sacs." },
+    { "type": "figure", "src": "/guides/photos/cellar-spider-carrying-eggs.webp", "width": 1200, "height": 780, "alt": "Long-legged pale cellar spider facing the camera on a gray surface, holding a round cluster of see-through eggs in its jaws", "caption": "Manuel's cellar spider, *Pholcus manueli*, an adult female holding her eggs in her jaws, in Ohio. Look for the bundle held at the front, wrapped in so little silk that each egg shows.", "credit": "(c) Timothy Lindsey, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/271762266" },
+    { "type": "p", "text": "Each one can live for years: Penn State says the long-bodied cellar spider takes about a year to mature and can live two or more years as an adult, and Clemson says development from egg to adult usually takes about a year, with adults living perhaps two more." },
+
+    { "type": "h2", "text": "What else gets mistaken for a cellar spider?" },
+    { "type": "p", "text": "Besides harvestmen and crane flies, three other animals are worth ruling out:" },
+    { "type": "ul", "items": [
+      "**Common house spider.** It also lives in indoor cobwebs, but the University of Minnesota describes chevron-like marks on its abdomen and a body over 1/4 inch long, and UC IPM says cobweb spiders have a soft, round, bulbous abdomen. [The house spider guide](/blog/house-spiders) shows it.",
+      "**Brown recluse.** [UC IPM's recluse Pest Note](https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/) lists cellar spiders among the tan or gray spiders whose dark head markings make people think they have caught a recluse. A recluse has six equal-sized eyes in three pairs, plain legs without spines and a body no more than 3/8 inch long; [the guide to brown recluse look-alikes](/blog/brown-recluse-look-alikes) compares the two.",
+      "**Camel cricket.** [MDC's camel cricket guide](https://mdc.mo.gov/discover-nature/field-guide/camel-crickets-cave-crickets) describes humpbacked, wingless insects with long antennae and large hind legs that live in basements and cellars, jump surprisingly far and are sometimes called spider crickets. An insect has six legs, a spider eight, the University of Minnesota notes; [the camel cricket guide](/blog/camel-crickets) covers them."
+    ] },
+    { "type": "p", "text": "Not sure which one you have? [The spider identifier](/tools/spider-identifier) asks seven questions, about where you found it, its web, size, markings and behavior, and names the likely spider with photos and links." },
+    { "type": "confused", "items": [
+      { "href": "/blog/mosquito-hawk-explained", "name": "Crane fly", "photo": "crane-fly", "note": "A six-legged insect with wings that looks like an oversized mosquito; it does not bite or sting", "alt": "Giant crane fly with a long, slender body, smoky folded wings and very long, thin legs on a gray textured surface" },
+      { "href": "/blog/house-spiders", "name": "Common house spider", "photo": "common-house-spider", "note": "A round, bulbous abdomen with chevron-like marks, in a tangled cobweb", "alt": "Common house spider with a round, mottled gray and black abdomen and banded legs, seen at an angle against a pale wall" },
+      { "href": "/blog/brown-recluse-look-alikes", "name": "Brown recluse", "photo": "brown-recluse-female", "note": "Six eyes in three pairs, plain legs without spines and a body no more than 3/8 inch long", "alt": "Living female brown recluse seen from above on white, with a pale tan body and long, uniformly colored legs" },
+      { "href": "/blog/camel-crickets", "name": "Camel cricket", "photo": "camel-cricket-baseboard", "note": "A humpbacked, wingless insect with six legs and long antennae that jumps", "alt": "Mottled brown camel cricket with banded legs and two very long antennae climbing a white baseboard above a wood floor" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of cellar spiders and their webs?" },
+    { "type": "p", "text": "Vacuum or sweep them up with their webs, or leave them be. The University of Minnesota says spiders are not harmful, so tolerate them when possible, and advises removing webbing with a broom or vacuum and destroying any egg sacs. UC IPM says vacuuming works because a spider's soft body usually does not survive the trip through the hose, and that a spider can also be caught in a jar and released outside." },
+    { "type": "p", "text": "Expect the webs to come back while the spiders are there. Clemson says that many spiders eat their old web before spinning a new one but cellar spiders do not: they keep adding to it, and the webbing becomes the nuisance. UC IPM adds that a web with dust on it is an old one no spider is using." },
+    { "type": "ul", "items": [
+      "**Cut their food.** Clemson calls reducing the insects spiders eat a key part of spider control; Minnesota suggests checking under webs to see what they catch.",
+      "**Lower the humidity.** A dehumidifier or better ventilation may help, Clemson says, because drier air deters the insects they eat.",
+      "**Change outdoor lights.** Yellow bulbs draw fewer insects than white ones, Clemson says.",
+      "**Seal and clear.** Seal cracks around the foundation, doors and windows, fit door sweeps and screens, and clear clutter, as Minnesota, Clemson and Utah State advise."
+    ] },
+    { "type": "p", "text": "Many people simply leave them: MDC says that because cellar spiders eat so many other spiders and insects, many people tolerate them in their cellars, and Utah State calls them beneficial. [Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) goes further on prevention, and [how to get rid of spiders](/blog/how-to-get-rid-of-spiders) covers bigger problems." },
+    { "type": "callout", "tone": "tip", "title": "Catch it to be sure", "text": "Trap the spider under a clear jar, or photograph it beside a ruler marked in inches, and note where you found it and whether it sat in a web. Count the body parts: two means a spider, one oval body a harvestman. A local cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "How poisonous are cellar spiders?",
+      "answer": "Poisonous is the wrong word, and their venom has never been shown to harm people. UC Riverside's spider research site explains that venomous means an animal injects venom through fangs or a sting, poisonous means it makes a substance that harms by contact or by being eaten, and toxic describes the effect on a particular target. Cellar spiders are venomous, like almost all spiders, but the Burke Museum says their venom is nothing special, and the Missouri Department of Conservation calls it comparatively mild."
+    },
+    {
+      "question": "What happens if a cellar spider bites you?",
+      "answer": "Probably very little, and a bite is unlikely in the first place. Penn State Extension says cellar spiders are not known to bite people, and UC Riverside knows of no record of one causing a harmful reaction. For any spider bite, Poison Control says to wash the area with soap and water and put cold water or a cloth filled with ice on it for 10 to 20 minutes. Mayo Clinic says to seek medical care immediately for severe pain, a growing wound, trouble breathing or swallowing, or spreading redness or red streaks."
+    },
+    {
+      "question": "What do cellar spider bites look like?",
+      "answer": "None of the sources cited here describes a confirmed cellar spider bite, and UC Riverside knows of no record of one causing a harmful reaction. Mayo Clinic says a typical spider bite looks like any other bug bite, a red, inflamed, sometimes itchy or painful bump, and that unless you saw the spider bite you, it is hard to be sure a spider caused it. UC IPM lists ticks, fleas, bed bugs and mosquitoes among the biters mistaken for spiders, and Mayo notes that many skin sores have other causes, such as a bacterial infection."
+    },
+    {
+      "question": "Is it bad to have cellar spiders in your house?",
+      "answer": "Not for your health, by the sources' account. Penn State says the long-bodied cellar spider is not known to be harmful in any way, the Missouri Department of Conservation calls cellar spiders harmless, and Utah State University Extension calls them beneficial and not known to be a health hazard. The drawback is webbing: Clemson Extension says cellar spiders keep adding to their webs instead of eating the old silk, and Utah State says the webs collect dust and dirt and make an area look unsightly."
+    },
+    {
+      "question": "Should I leave cellar spiders alone?",
+      "answer": "You can, unless the webs bother you. The University of Minnesota says spiders are not harmful and suggests tolerating them when possible, and the Missouri Department of Conservation says many people tolerate cellar spiders in their cellars because they eat so many other spiders and insects, including wolf spiders. If you want them gone, the University of Minnesota advises removing webs with a broom or vacuum and destroying the egg sacs, and UC IPM suggests catching a spider in a jar and releasing it outside."
+    },
+    {
+      "question": "Can you touch a cellar spider?",
+      "answer": "A bite is unlikely: Penn State Extension says cellar spiders are not known to bite people, and UC IPM says spiders generally bite only when squeezed, lain on or otherwise provoked. Mayo Clinic suggests flicking a spider off your skin rather than crushing it against the skin. The Missouri Department of Conservation describes cellar spiders as fragile, with extremely long, thin legs, so the gentlest way to move one is the way UC IPM suggests: catch it in a jar and release it outside."
+    },
+    {
+      "question": "Is a daddy long legs a spider or an insect?",
+      "answer": "It depends which one you mean, because three animals share the name. A cellar spider is a true spider, with two body parts, eight legs and silk. A harvestman is an arachnid, related to spiders, ticks and scorpions, but not a spider: it has one oval body, two eyes at most and no silk or venom. A crane fly is an insect with six legs and wings that looks like an oversized mosquito. UF/IFAS Extension, UC Riverside and the Burke Museum all sort the name this way."
+    },
+    {
+      "question": "Why are they called daddy long legs?",
+      "answer": "For the legs, mostly. Clemson Extension says the harvestmen's name daddy longlegs likely came from their small oval body and long legs, and the name harvestman from the large numbers seen in fall around harvest time. Cellar spiders picked up the name through confusion: UC Riverside says arachnologists gave them the name daddy-longlegs spiders because the public mixed them up with harvestmen. The Missouri Department of Conservation lists other names for cellar spiders, including pholcids and vibrating spiders."
+    },
+    {
+      "question": "How long do cellar spiders live?",
+      "answer": "About three years or more. Clemson Extension says development from egg to adult usually takes about a year and that adults may live another two, and Penn State Extension says the long-bodied cellar spider takes about a year to mature and can live two or more years as an adult. Harvestmen differ by region: Clemson says they live only one year in the northern United States but can overwinter as adults and live up to two years in the Southeast."
+    },
+    {
+      "question": "Do cellar spiders kill black widows?",
+      "answer": "They can catch them. The Missouri Department of Conservation says cellar spiders capture spiders in the black widow genus by casting long swaths of silk over them, binding the prey from a distance, and that they often catch prey much larger than themselves, such as wolf spiders. MDC suggests the myth that cellar spiders have the most potent venom of any spider may have grown out of this ability to kill dangerously venomous spiders, but says studies show their venom is comparatively mild."
+    }
+  ],
+  "sources": [
+    { "title": "Longbodied Cellar Spider (Steve Jacobs, updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/longbodied-cellar-spider" },
+    { "title": "Cellar Spiders (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/cellar-spiders" },
+    { "title": "Daddy Longlegs (Harvestmen) (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/daddy-longlegs-harvestmen" },
+    { "title": "Camel Crickets (Cave Crickets) (field guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/camel-crickets-cave-crickets" },
+    { "title": "Spiders (Jeffrey Hahn and others, reviewed 2019)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders" },
+    { "title": "Pest Notes: Spiders (updated October 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Pest Notes: Brown Recluse and Other Recluse Spiders (UC ANR Publication 7468, R. S. Vetter, updated November 2018)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/brown-recluse-and-other-recluse-spiders/" },
+    { "title": "Daddy Long Legs (Rick Vetter's Spider Research site)", "publisher": "University of California, Riverside", "url": "https://spiders.ucr.edu/daddy-long-legs" },
+    { "title": "Are daddy longlegs really the most venomous spiders in the world? (January 14, 2022, originally published by Live Science)", "publisher": "UC Riverside Department of Entomology", "url": "https://entomology.ucr.edu/news/2022/01/14/are-daddy-longlegs-really-most-venomous-spiders-world" },
+    { "title": "Myth: Daddy-longlegs would be deadly but... (Spider Myths, Rod Crawford)", "publisher": "Burke Museum of Natural History and Culture (Washington State Museum, University of Washington)", "url": "https://www.burkemuseum.org/collections-and-research/biology/arachnology-and-entomology/spider-myths/myth-daddy-longlegs-would", "kind": "government" },
+    { "title": "Daddy Longlegs (HGIC 2418, revised June 17, 2026)", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/daddy-longlegs/" },
+    { "title": "Cellar Spiders (HGIC 2408, published May 2004)", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/cellar-spiders/" },
+    { "title": "Cellar Spiders (Urban Pest Guide)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/cellar-spiders" },
+    { "title": "A Tale of Three Daddy Long Legs (Caitlin Sollazzo, December 17, 2025)", "publisher": "UF/IFAS Extension Manatee County, University of Florida", "url": "https://blogs.ifas.ufl.edu/manateeco/2025/12/17/a-tale-of-three-daddy-long-legs/" },
+    { "title": "Spider bites: Symptoms and causes (July 30, 2021)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/spider-bites/symptoms-causes/syc-20352371" },
+    { "title": "Insect and spider bites: When to worry (Wendy Klein-Schwartz)", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/insect-and-spider-bites" },
+    { "title": "Canada launches new toll-free 1-844 POISON-X number for poison centres (news release, March 20, 2023)", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html" }
+  ],
+  "disclaimer": "health"
+}

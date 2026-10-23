@@ -2,7 +2,7 @@
  "id": "pillar-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ffccc8ae680df690a9c4bbd2e9a507466116f8387753ba0f7d70079a0051094c",
+ "sha": "8d931f987f5d961633f4381395e5469f160659a53963065351123309f13db0d9",
  "claimsChecked": 145,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
@@ -16,6 +16,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: one sentence added at the end of 'What if it turns out not to be bed bugs?' linking the new /blog/bed-bug-bites-but-no-bed-bugs; no fact changed.",
    "previousSha": "f50a78a71c6858c3bfe03f360dfcc65a82541fb105b9acaf049d2f4a70ff3801"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "link to /blog/bed-bugs-in-hotels added under 'When you travel' (one new paragraph, no new facts)",
+   "previousSha": "ffccc8ae680df690a9c4bbd2e9a507466116f8387753ba0f7d70079a0051094c"
   }
  ]
 }

@@ -1,0 +1,15 @@
+{
+ "id": "yellow-sac-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1c44b7983be41657f65581f34323768a998d738fea5c7031ff9b2d4d49071155",
+ "claimsChecked": 297,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

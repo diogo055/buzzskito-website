@@ -1,6 +1,6 @@
-release: 4 scheduled page(s) go live (2026-10-22)
+release: 4 scheduled page(s) go live (2026-10-23)
 
-- /blog/brown-banded-cockroaches
-- /blog/mice-in-walls
-- /blog/flea-dirt
-- /blog/camel-crickets
+- /blog/daddy-long-legs
+- /blog/yellow-sac-spiders
+- /blog/springtails
+- /blog/bed-bugs-in-hotels

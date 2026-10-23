@@ -2,7 +2,7 @@
  "id": "where-do-bed-bugs-hide",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5cbbcfec7f6ba74beb6694c1c943c250bdd11c30b295623cd8de4c13f96896db",
+ "sha": "54bcdc27ecdac0b663b1dbd0e25b2bd3c04ccffa1523226a0111328fc4f29c69",
  "claimsChecked": 66,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 6,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/blog/signs-of-bed-bugs-checklist"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link to /blog/bed-bugs-in-hotels added at the end of 'How do you check a hotel room for bed bugs?' (one new paragraph, no new facts)",
+   "previousSha": "5cbbcfec7f6ba74beb6694c1c943c250bdd11c30b295623cd8de4c13f96896db"
+  }
  ]
 }

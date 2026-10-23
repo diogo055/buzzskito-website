@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-350 images across 143 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+361 images across 147 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -71,6 +71,11 @@
 - Bed bug interceptor trap (a plastic pitfall dish) under the leg of a bed on a wood floor, close enough to see one or two trapped bed bugs, with a ruler marked in inches; public domain or CC0
 - Bird mites or tropical rat mites caught on a white sticky trap or crawling on a windowsill near a nest, beside a ruler marked in inches; public domain or CC0, identified by an entomologist
 - Carpet beetle dermatitis: bite-like red bumps on the skin of an arm or torso from a case where carpet beetle larvae were found and identified, with the larva shown beside a ruler marked in inches; public domain or CC0
+
+## /blog/bed-bugs-in-hotels
+
+- A hotel bed checked at the pillow end: pillows, blanket and sheet folded back at one corner, a flashlight beam on the mattress seam, piping and tag, in a US hotel room; public domain or CC0, from CDC PHIL, EPA or an extension service
+- A suitcase standing on a metal hotel luggage rack, the rack's straps lifted to show the frame underneath, with the bed in the background; public domain or CC0, from CDC PHIL, EPA or an extension service
 
 ## /learn/ants
 
@@ -507,6 +512,12 @@
 - Photo of a MRSA skin abscess (a red, swollen, pus-filled bump on skin), public domain from CDC's Public Health Image Library or CC0, for comparison with the recluse bite photos lower on the page; no identifiable face
 - Clinical photo of a verified brown recluse bite in the United States (spider seen biting and identified) in its first 24 to 72 hours, with the timing documented by a clinical or government source; public domain or CC0, no identifiable face
 
+## /blog/daddy-long-legs
+
+- A cellar spider and a harvestman photographed at the same scale beside a ruler marked in inches, so the cellar spider's two-part body and the harvestman's one-piece oval body show side by side; public domain or CC0
+- A marbled cellar spider (Holocnemus pluchei) hanging upside down in its web, showing the brown stripe on its underside, in a home, garage or porch in California or the Southwest; public domain or CC0
+- A long-bodied cellar spider hanging upside down in its loose web in a basement, garage or ceiling corner, with the tangle of web visible, photographed in a US or Canadian home; public domain or CC0
+
 ## /blog/wolf-spiders
 
 - Adult wolf spider identified to species, photographed from above beside a ruler marked in inches, sharp enough to compare body length with leg span; public domain or CC0
@@ -533,6 +544,12 @@
 - Regal jumping spider (Phidippus regius) photographed in Florida: a black adult male with white markings, or an orange or gray female, showing the iridescent jaws; public domain or CC0
 - Pantropical huntsman spider (Heteropoda venatoria) photographed in Florida, top view on a wall or floor, showing the flat brown body, the pale band around the front body section and the black spots at the bases of the leg bristles; public domain or CC0
 - Wolf spider photographed in Florida, top view, ideally a female carrying her egg sac at her spinnerets or her spiderlings on her back, beside a ruler marked in inches; public domain or CC0
+
+## /blog/yellow-sac-spiders
+
+- Agrarian sac spider, Cheiracanthium inclusum, adult, on a wall or a plant and ideally beside a ruler marked in inches, identified by an extension service or university; public domain or CC0 (every yellow sac spider photo on record shows C. mildei or an unnamed Cheiracanthium)
+- A white crab spider (for example the goldenrod crab spider, Misumena vatia) on a cut flower or a houseplant indoors, identified by an extension service, university or museum; public domain or CC0, for the pale-spider sorter
+- Yellow sac spider eggs or newly hatched spiderlings inside an opened silk retreat, ideally indoors and beside a ruler marked in inches, identified by an extension service or university; public domain or CC0
 
 ## /blog/spiders-in-texas
 
@@ -636,6 +653,12 @@
 
 - Top-down macro photo of a gray springtail beside a cat flea on a white surface with a ruler marked in inches, plus a side view showing the forked jumping appendage folded under the springtail's body
 - Close-up photo of an adult flea beetle on a leaf peppered with small round shot holes, beside a ruler marked in inches, showing the thickened hind legs and the hard wing covers
+
+## /blog/springtails
+
+- A round-bodied (globular) springtail and a long-bodied springtail side by side beside a ruler marked in inches, to show the two body shapes at life size; identified by an extension service, museum or expert; public domain or CC0
+- Springtails in a white bathtub, sink or shower pan or around a drain in a US home, beside a ruler marked in inches, identified as springtails by an extension service, museum or expert; public domain or CC0
+- Springtails floating in a dense raft on swimming pool water or in a pool skimmer basket in the US, identified as springtails by an extension service or expert; public domain or CC0
 
 ## /blog/moths-in-house
 

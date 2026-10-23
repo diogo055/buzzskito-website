@@ -34,6 +34,9 @@ app/blog/bed-bug-poop/page.tsx
 content/guides/bed-bug-bites-but-no-bed-bugs.json
 data/us-pages/checked/bed-bug-bites-but-no-bed-bugs.json
 app/blog/bed-bug-bites-but-no-bed-bugs/page.tsx
+content/guides/bed-bugs-in-hotels.json
+data/us-pages/checked/bed-bugs-in-hotels.json
+app/blog/bed-bugs-in-hotels/page.tsx
 content/guides/pillar-ants.json
 data/us-pages/checked/pillar-ants.json
 app/learn/ants/page.tsx
@@ -388,6 +391,9 @@ app/blog/venomous-spiders/page.tsx
 content/guides/brown-recluse-bite.json
 data/us-pages/checked/brown-recluse-bite.json
 app/blog/brown-recluse-bite/page.tsx
+content/guides/daddy-long-legs.json
+data/us-pages/checked/daddy-long-legs.json
+app/blog/daddy-long-legs/page.tsx
 content/guides/wolf-spiders.json
 data/us-pages/checked/wolf-spiders.json
 app/blog/wolf-spiders/page.tsx
@@ -403,6 +409,9 @@ app/blog/spiders-in-california/page.tsx
 content/guides/spiders-in-florida.json
 data/us-pages/checked/spiders-in-florida.json
 app/blog/spiders-in-florida/page.tsx
+content/guides/yellow-sac-spiders.json
+data/us-pages/checked/yellow-sac-spiders.json
+app/blog/yellow-sac-spiders/page.tsx
 content/guides/spiders-in-texas.json
 data/us-pages/checked/spiders-in-texas.json
 app/blog/spiders-in-texas/page.tsx
@@ -463,6 +472,9 @@ app/blog/bugs-in-house-in-winter/page.tsx
 content/guides/bugs-that-look-like-fleas.json
 data/us-pages/checked/bugs-that-look-like-fleas.json
 app/blog/bugs-that-look-like-fleas/page.tsx
+content/guides/springtails.json
+data/us-pages/checked/springtails.json
+app/blog/springtails/page.tsx
 content/guides/moths-in-house.json
 data/us-pages/checked/moths-in-house.json
 app/blog/moths-in-house/page.tsx

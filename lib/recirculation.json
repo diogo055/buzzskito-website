@@ -468,6 +468,20 @@
     "/blog/how-to-get-rid-of-bed-bugs-canada"
    ]
   },
+  "/blog/bed-bugs-in-hotels": {
+   "next": "/learn/bed-bugs",
+   "related": [
+    "/blog/bed-bug-poop",
+    "/blog/black-bed-bugs",
+    "/blog/packtite-vs-zappbug-canada"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/best-bed-bug-luggage-heater-canada",
+    "/blog/how-to-check-for-bed-bugs-canada"
+   ],
+   "bar": true
+  },
   "/blog/bed-bugs-on-mattress": {
    "next": "/learn/bed-bugs",
    "related": [
@@ -1998,6 +2012,20 @@
     "/blog/mcculloch-mc1275-steamer-review-canada",
     "/blog/bed-bug-heater-canada"
    ]
+  },
+  "/blog/daddy-long-legs": {
+   "next": "/blog/wolf-spiders",
+   "related": [
+    "/blog/spiders-in-texas",
+    "/blog/yellow-sac-spiders",
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "cards": [
+    "/blog/black-spiders",
+    "/blog/house-spiders",
+    "/blog/spiders-in-florida"
+   ],
+   "bar": true
   },
   "/blog/deer-flies-horse-flies-ontario": {
    "next": "/blog/horse-fly-and-deer-fly-bite-treatment",
@@ -4952,6 +4980,20 @@
    ],
    "bar": true
   },
+  "/blog/springtails": {
+   "next": "/blog/asian-lady-beetles",
+   "related": [
+    "/blog/beetles-in-house",
+    "/blog/camel-crickets",
+    "/blog/flea-dirt"
+   ],
+   "cards": [
+    "/blog/flea-eggs",
+    "/blog/kissing-bug-look-alikes",
+    "/blog/tiny-black-bugs"
+   ],
+   "bar": true
+  },
   "/blog/squirrel-poop": {
    "next": "/blog/raccoon-poop",
    "related": [
@@ -6533,6 +6575,20 @@
     "/blog/ultrasonic-pest-repellers-do-they-work",
     "/blog/diy-pest-control"
    ]
+  },
+  "/blog/yellow-sac-spiders": {
+   "next": "/blog/black-spiders",
+   "related": [
+    "/blog/spider-egg-sacs",
+    "/blog/spiders-in-texas",
+    "/blog/daddy-long-legs"
+   ],
+   "cards": [
+    "/blog/house-spiders",
+    "/blog/spiders-in-florida",
+    "/blog/wolf-spiders"
+   ],
+   "bar": true
   },
   "/blog/zappbug-heater-review-canada": {
    "next": "/blog/best-bed-bug-heat-chamber-canada",
