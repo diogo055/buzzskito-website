@@ -1,0 +1,803 @@
+{
+ "_readme": "Scout notes for the twelfth photo batch (Oct 23, 2026): photos for the 20 volume-20 pages (data/god-build/research/volume-20-2026-10-23.md), chosen to show each subject where people find it: bites on skin, bugs at windows, doors, walls and floors, nests on houses, pests in food, shrews in yards and basements. Same format as batches 7 to 11: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; slugs as in plan.src.json, learn/<slug> for the Learning Centre, tools/<slug> for a reader tool; 'wheel-bugs' is the planned slug the selector re-aims at 'assassin bug'), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. 58 photos were added, with no script change beyond the 58 PHOTOS rows: 7 public domain (6 CDC PHIL, 1 USGS via Commons), 15 CC0, 33 CC BY 4.0, 1 CC BY-SA 4.0 and 2 CC BY-SA 3.0. Identifications: every iNaturalist photo is research grade with at least one identifier besides the observer; the rest are CDC PHIL records (CDC's own description and attribution), a USGS lab photo and two Commons bite photos (see their confidence fields). Bite photos are clinical or credited: CDC PHIL (cat flea bites attributed by CDC, fire ant stings), a photo credited 'James Heilman, MD', and one photographer's own bites that he attributes to bed bugs (marked as such). All 58 images were looked at large before choosing and again after conversion, and show what their subject lines say. A read-only replica of the lib/photos.ts and lib/guides.ts rules was run against the 58 new records: every licence is in LICENSE_LABEL, every file is on disk at its recorded size, the 22 public domain and CC0 photos pass shareImage(), the 36 CC BY and CC BY-SA photos need their visible credit, and photoCreator() types the USGS credit as an Organization and gives no creator for the six PHIL records (they name a content provider, not a photographer). The ledger change is additive: 421 records before, 479 after, none changed. Sizes: two files stay over the script's 260 KB target at its lowest quality (termite-swarmers-ceiling-light 322 KB, giant-water-bug-brick-pavement 292 KB; textured surfaces compress poorly) and two are small (booklouse-cereal-package 676 x 689, wheel-bug-nymphs-hatching-wall 1004 x 713). Several observers' place names carry a street address or a school's name: the caveats say what may be printed. Photos now on file per page (new in brackets): jumping spiders 5 (+3), orb weavers 7 (+2), camel spiders 4 (+3), joro spiders 4 (+3), flea bites 3 bite photos (+2) plus a flea on a fingertip (+1) and the flea-on-pet photos from batch 10, bed bug bites 5 (+3), ant bites and fire ant stings 5 (+4), paper wasps 5 (+2), mud daubers 5 (+2), wheel and other assassin bugs 8 (+3), giant water bugs 4 (+4), weevils 6 (+4), booklice 4 (+3), carpet beetle larvae 6 (+3), pill bugs 4 (+3), Jerusalem crickets 3 (+3), fruit flies 4 (+1), drain flies 5 (+2), termites 11 (+3), shrews 4 (+4). Every topic now has at least 3 photos, at least 2 of them where people find it. Leads (public domain or CC0 and confidently identified): what-do-bed-bug-bites-look-like: bed-bug-on-skin-cdc (the bites themselves are CC BY-SA, or bed-bug-bites-back from batch 7, CC0, self-reported); flea-bites: flea-bites-ankles-cdc; fire-ant-stings: fire-ant-stings-pustules-closeup; do-carpenter-ants-bite: carpenter-ant-on-fingers; jumping-spiders: zebra-jumping-spider-house-wall or bold-jumping-spider (batch 3); camel-spiders: camel-spider-apartment-floor; joro-spiders: joro-spider-front-door; wheel-bugs/assassin-bugs: wheel-bug-on-fingers; water-bugs-vs-cockroaches: giant-water-bug-brick-pavement; weevils: maize-weevil-fingertip; carpet-beetle-larvae: carpet-beetle-larva-hallway-wall; pill-bugs: pill-bugs-in-palm; jerusalem-crickets: jerusalem-cricket-wood-floor; how-to-get-rid-of-drain-flies: drain-fly-bathroom-wall; shrews: short-tailed-shrew-snout-usgs (a dead specimen: a live CC BY photo reads better in the page, but cannot be the share image). Paper wasps, mud daubers, booklice and fruit flies keep their earlier CC0 or public domain leads (dark-paper-wasp, paper-wasp-nest, black-and-yellow-mud-dauber, blue-mud-dauber-on-nest, booklouse, fruit-fly). Searches, refused candidates, alternatives and what is still missing are in 'gaps'. Write captions from these notes and the record together, in US spelling and US units. No page or lib file was edited in this batch.",
+ "candidates": [
+  {
+   "id": "bold-jumping-spider-kitchen-window",
+   "forPages": [
+    "jumping-spiders",
+    "house-spiders",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 164065154, Glendale, Salt Lake City, Utah, 2023-05-27, by Rebecca Ray (tigerbb; about 137,000 identifications). Observer's note: the spider 'has been living in our house for months now. He likes it in the kitchen window but also spends a lot of time around our plants.' Eleven current identifications, all Phidippus audax, including jumping_arachnids (about 167,000 identifications), calebcam (about 237,000) and Sam Kieschnick (about 863,000). Photo 1 of 1.",
+   "caveats": "A black bold jumping spider with white spots and blue-green iridescent mouthparts (chelicerae), legs spread on window glass, a white window frame at the right and garden greenery blurred outside. That this is the kitchen window of the house it lived in is the observer's account: say 'on a kitchen window'. The observer calls it 'he'; nobody annotated the sex: don't state it. A strand of silk crosses the top. No scale object. CC BY: credit Rebecca Ray.",
+   "note": "Credit: (c) Rebecca Ray, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1331."
+  },
+  {
+   "id": "bold-jumping-spider-house-siding",
+   "forPages": [
+    "jumping-spiders",
+    "house-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 206175475, Buckingham Springs, Bucks County, Pennsylvania, 2024-04-08, by Bill Keim (keimwj; about 21,000 observations). Observer's note: 'Found on siding.' Identified to the genus Phidippus by the observer and spiderladylyle (Breanna Lyle, about 382,000 identifications), and to Phidippus audax by jumping_arachnids (about 167,000) and huttonia (Matthew Lindsey, about 140,000). Photo 1 of 2.",
+   "caveats": "An orange-brown, hairy bold jumping spider with green iridescent chelicerae on white grooved vinyl siding in sunlight; sharp. Its color differs from the black adult in bold-jumping-spider-kitchen-window: bold jumping spiders vary with age and sex, but cite a source before saying which this is (no life stage or sex is recorded). No scale object. CC BY: credit Bill Keim.",
+   "note": "Credit: (c) Bill Keim, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "zebra-jumping-spider-house-wall",
+   "forPages": [
+    "jumping-spiders",
+    "house-spiders",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 76237466, Logy Bay-Middle Cove-Outer Cove, Newfoundland and Labrador, 2021-05-01, by Mardon Erbland (logybayer). Observer's note: '5.5 mm nose to body rear. Found sitting on the side of our house.' Identified as Salticus scenicus by the observer, arthropop and calebcam (about 237,000 identifications). Photo 1 of 2; CC0.",
+   "caveats": "A black-and-white striped zebra jumping spider on a white, slightly speckled painted surface (the house wall, by the observer's note); sharp dorsal view. The 5.5 mm length is the observer's measurement: attribute it, or use a published size range. A Canadian location is fine for a US page (the species is common on house walls in the northern US too: cite a source for the range). CC0 and confidently identified: a lead option for jumping-spiders.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1160."
+  },
+  {
+   "id": "cross-orb-weaver-kitchen-window",
+   "forPages": [
+    "orb-weaver-spiders",
+    "house-spiders",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 19186831, Lake Forest Park, Washington (a street address), 2018-12-23, by John Brew (brewbooks; about 24,000 observations). Observer's note: 'This spider hangs out in the corner of our kitchen window. It seems to be feeding pretty well.' Identified as Araneus diadematus by the observer and Stewart Wechsler (about 142,000 identifications). Photo 1 of 3.",
+   "caveats": "A cross orbweaver hanging in its web, seen from below (the white cross on the back does not show), with gray house siding and a window frame blurred behind. Whether the web is outside the glass is not stated: say 'at the corner of a kitchen window'. A December record. Do not print the street address. 1070 x 805. CC BY: credit John Brew.",
+   "note": "Credit: (c) John Brew, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1070x805."
+  },
+  {
+   "id": "furrow-orb-weaver-back-door",
+   "forPages": [
+    "orb-weaver-spiders",
+    "house-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 243698225, Hamilton, Ohio (a street name), 2024-09-23, by Mary Spilman (maryspilman). Observer's note: 'Has reconstructed a web across my back door every night for two months, just to be torn down again in the morning.' Identified as Larinioides cornutus by the observer, huttonia (Matthew Lindsey, about 140,000 identifications) and spiderladylyle (Breanna Lyle, about 382,000). Photo 1 of 2.",
+   "caveats": "A small pale furrow orbweaver in the middle of its web across an open back doorway, the room inside (framed pictures, a chandelier) out of focus behind. The spider is small in the frame: the picture's value is the setting, a web rebuilt across a door every night (the observer's account). Do not print the street name. CC BY: credit Mary Spilman.",
+   "note": "Credit: (c) Mary Spilman, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1315."
+  },
+  {
+   "id": "camel-spider-house-wall",
+   "forPages": [
+    "camel-spiders",
+    "spiders-in-arizona",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high for a solifuge (order Solifugae); species Eremocosta striata by two identifiers, genus confirmed by a third",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 6763128, Sierra Vista, Arizona (a street address), 2017-06-22, by CK2AZ (about 338,000 observations). No description. Identified as Eremocosta striata by the observer and Kari McWest (kjmcwest); to the genus Eremocosta by solifugaeworldwide01 (Sebastian Garza Maya, about 15,000 identifications); to the family Eremobatidae and the order Solifugae by two more. Photo 2 of 5.",
+   "caveats": "A pale tan solifuge with a dark-banded abdomen on a heavily textured white wall (stucco or textured drywall), a fingertip pointing at it from the lower left for scale. Whether this is inside or outside is not recorded: say 'on a house wall' (the place is a house address, not to be printed). 2017 photo, 1762 x 1321 original. CC BY: credit CK2AZ.",
+   "note": "Credit: (c) CK2AZ, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "camel-spider-apartment-floor",
+   "forPages": [
+    "camel-spiders",
+    "spiders-in-florida"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 67964825, Key West, Florida, 2021-01-11, by Marissa Balfour (marissa3). Observer's note: 'These guys like living in my apartment apparently. Third one we've found here. Missing a leg.' Six identifications, all Ammotrechella stimpsoni, including myriada (David Hernandez, about 128,000 identifications), mecopteron_bouillon (Ahn Feldman, about 44,000), dum1 (about 69,000) and waye2go. Photo 2 of 2; CC0.",
+   "caveats": "A dark-bodied solifuge on a speckled tan floor (tile or terrazzo by our reading) in the observer's apartment. It is missing a leg (the observer's note): don't use it to count legs. The Florida camel spider belongs to a different family (Ammotrechidae) from the western Eremobatidae in camel-spider-house-wall and camel-spider-in-hand. An identifier wrote on the observer's sister record (47551139) that it is the only solifuge recorded in Florida according to Muma (1967): cite a published source, not the comment. CC0: a lead option for a 'camel spider in the house' slot.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "camel-spider-in-hand",
+   "forPages": [
+    "camel-spiders",
+    "spiders-in-arizona"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 174063588, Pima County, Arizona, 2023-07-20, by Wendy McCrady (wendybirds; about 34,000 observations). Observer's note: 'I forgot the species name given at the IECC event. He noted it was one of the largest locally.' Identified as Eremocosta striata by solifugaeworldwide01 (Sebastian Garza Maya, about 15,000 identifications) and the observer. Photo 1 of 3.",
+   "caveats": "A large tan solifuge with big jaws (chelicerae) on an open palm at an insect event (the observer writes 'IECC' without expanding it: don't expand). Whose hand it is is not stated. Useful for 'how big is a camel spider'. Don't let the photo suggest handling them: solifuges can bite (cite a source). CC BY: credit Wendy McCrady.",
+   "note": "Credit: (c) Wendy McCrady, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1115."
+  },
+  {
+   "id": "joro-spider-web-gutter",
+   "forPages": [
+    "joro-spiders",
+    "orb-weaver-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 97032719, Georgia (location shown to state level), 2021-10-02, by janeyair (about 113,000 identifications). Observer's note: 'Side of house'. Identified as Trichonephila clavata by the observer, pucak (Joan Knapp, about 410,000 identifications), presto84 and wthompson23 (W. Thompson, about 129,000). Photo 3 of 4; CC0.",
+   "caveats": "A large golden web hanging from a roof gutter down the outside corner of a house, shingles above; the spider is small, up by the gutter. The setting is the point (how big and how close to the house joro webs get); not a lead (the spider barely shows: use joro-spider or joro-spider-front-door). Same observer and house as joro-spider-front-door, a day apart: don't present them as two places.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1316."
+  },
+  {
+   "id": "joro-spider-front-door",
+   "forPages": [
+    "joro-spiders",
+    "orb-weaver-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 97032775, Georgia (state level), 2021-10-03, by janeyair. Observer's note: 'Front door'. Five identifications, all Trichonephila clavata (the observer, pucak, presto84, wthompson23 and dreakicks). Observation field 'Joro Leg Color Morph - Solid Black': 'Solid Black'. Photo 1 of 2; CC0.",
+   "caveats": "A female joro (by size and the yellow-banded abdomen; cite a source for the sexes) in her golden web against beige house siding, reddish trim at the lower left; phone photo, slightly soft. Same observer and house as joro-spider-web-gutter. CC0 and confidently identified: a lead option for joro-spiders beside the batch-3 joro-spider.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1378."
+  },
+  {
+   "id": "joro-spiders-pair-soffit",
+   "forPages": [
+    "joro-spiders",
+    "orb-weaver-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 131123271, Clarkston, Georgia, 2022-08-16, by Laura Martin (sugarbuns). Observer's note: 'Saw this pair outside the house'. Identified as Trichonephila clavata by the observer, greatpurpleheron and pucak (Joan Knapp, about 410,000 identifications), who adds 'Female (large) and male (small)'. Photo 1 of 1.",
+   "caveats": "A large female (yellow-banded abdomen, long banded legs) and a much smaller brown male above her, in a web against white painted trim or a soffit, a few dark spots on the paint. The female/male labels come from pucak's identification comment: attribute them, or cite a source that males are much smaller. 1103 x 939. CC BY: credit Laura Martin.",
+   "note": "Credit: (c) Laura Martin, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1103x939."
+  },
+  {
+   "id": "flea-bites-ankles-cdc",
+   "forPages": [
+    "flea-bites",
+    "flea-bites-on-humans",
+    "bug-bites",
+    "learn/bug-bites",
+    "tools/bug-bite-identifier"
+   ],
+   "confidence": "clinical record: CDC describes the lesions as attributed to cat flea bites",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25258, content provider CDC/Dr. H.G. Scott; PHIL's rights field says public domain. PHIL's description: an anterosuperior view of a female patient's lower legs and feet 'highlighting the presence of numerous erythematous macular lesions, which had been attributed to flea bites, inflicted by the cat flea, Ctenocephalides felis', captured in Decatur, Georgia, in 1963; PHIL 25257 to 25260 are four views of this patient.",
+   "caveats": "Black and white (sepia-toned): the redness does not show, the bites read as dark dots. Both lower legs from the front, the woman seated in 1960s pointed shoes on a tiled floor; the bites cluster around the ankles and lower legs (cite CDC or a dermatology source for where flea bites cluster). Keep CDC's wording ('bites attributed to cat fleas') and say it is a 1963 photo. Public domain and a clinical attribution: lead-eligible for flea-bites, though a color photo may read better in the page.",
+   "note": "Credit: CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1763."
+  },
+  {
+   "id": "flea-bites-ankle-foot-cdc",
+   "forPages": [
+    "flea-bites",
+    "flea-bites-on-humans",
+    "bug-bites"
+   ],
+   "confidence": "clinical record: same CDC patient and attribution",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25257, same patient and content provider (CDC/Dr. H.G. Scott; Decatur, Georgia, 1963); public domain per PHIL. A left superolateral view of the patient's left lower leg and foot, 'highlighting the presence of numerous erythematous macular lesions, which had been attributed to flea bites, inflicted by the cat flea, Ctenocephalides felis'.",
+   "caveats": "The closer view: clusters of dark spots on the ankle and the top of the foot above the shoe; sepia-toned. Use with flea-bites-ankles-cdc or instead of it, not as a separate case. The other views in the series were looked at and not taken (see gaps).",
+   "note": "Credit: CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1196."
+  },
+  {
+   "id": "cat-flea-on-fingertip",
+   "forPages": [
+    "flea-bites",
+    "what-do-fleas-look-like",
+    "fleas",
+    "how-to-get-rid-of-fleas",
+    "bugs-that-look-like-fleas"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 371364750, Fort Worth, Texas, 2026-06-13, by Sam Kieschnick (sambiology; about 189,000 observations, 863,000 identifications). Observer's note: 'Shoot! Fleas on the cats. Will have to do some treatment.' Four identifications, all Ctenocephalides felis (jrpletch, the observer, castlegrande, texas_nature_family). Photo 1 of 4.",
+   "caveats": "A cat flea in side view on finely ridged skin (a fingertip by our reading): the flattened body, combs and long hind legs show. It shows a flea on a person, not a bite. That the fleas came off his cats is the observer's note. Small file (1024 x 768). CC BY: credit Sam Kieschnick.",
+   "note": "Credit: (c) Sam Kieschnick, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1024x768."
+  },
+  {
+   "id": "bed-bug-on-skin-cdc",
+   "forPages": [
+    "what-do-bed-bug-bites-look-like",
+    "bed-bug-bites",
+    "what-do-bed-bugs-look-like",
+    "bed-bugs-in-hotels",
+    "tools/bug-bite-identifier"
+   ],
+   "confidence": "high (CDC: common bed bug, Cimex lectularius)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 6283, content provider 'CDC/ Donated by the World Health Organization, Geneva, Switzerland'; PHIL's rights field says public domain. Description: 'a left lateral view of a common bed bug, Cimex lectularius, which was photographed as it was perched atop the skin of its human host'.",
+   "caveats": "A reddish-brown bed bug in side view on pale skin with fine hairs; not visibly feeding (don't say it is biting). No date or photographer on PHIL. Donated by the WHO but marked public domain by PHIL: credit 'CDC / World Health Organization' as the ledger does. The lead option for what-do-bed-bug-bites-look-like (it shows the biter on skin, with no doubt about the identification). Two PHIL photos of bed bugs feeding on an arm were refused (see gaps).",
+   "note": "Credit: CDC/ Donated by the World Health Organization, Geneva, Switzerland. (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "bed-bug-bites-back-physician",
+   "forPages": [
+    "what-do-bed-bug-bites-look-like",
+    "bed-bug-bites",
+    "bed-bug-bites-but-no-bed-bugs",
+    "bug-bites"
+   ],
+   "confidence": "medium-high: a photo credited to a physician and labeled bed bug bites; how the cause was established is not stated",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bedbugb2.JPG', own work by James Heilman, MD (User:Jmh649), 2013-05-08 11:05:18, CC BY-SA 3.0; description 'Bedbug bites'. Taken 23 seconds after 'Bedbugb1.JPG' (same camera), which has been on file since batch 2 as bed-bug-bites-forearm: the same set.",
+   "caveats": "Red, raised welts scattered over a person's upper back and shoulders, some in small groups. The description is two words: say 'bed bug bites (photo: James Heilman, MD)' and don't add a diagnosis story. Same set as bed-bug-bites-forearm: don't present them as two people. CC BY-SA 3.0: credit, and share-alike applies to the image file.",
+   "note": "Credit: James Heilman, MD, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x1248."
+  },
+  {
+   "id": "bed-bug-bites-wrist-row",
+   "forPages": [
+    "what-do-bed-bug-bites-look-like",
+    "bed-bug-bites",
+    "bug-bites"
+   ],
+   "confidence": "medium: the photographer attributes his own bites to bed bugs; no clinical confirmation",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bed bug bites around left wrist.jpg', own work by Oliver Arend (User:Raketenolli), 2013-07-29, CC BY-SA 3.0. Description: 'Approx. four day old bed bug bites on the outside of the left arm, around the wrist', followed by general text with errors and a link to a commercial bed bug site; German: 'Ca. vier Tage alte Bettwanzen-Bisse auf der Außenseite des linken Arms'.",
+   "caveats": "A line of small red bumps along the outside of the forearm toward the wrist: the 'row of bites' pattern people search for. Write 'bites the photographer attributes to bed bugs'. The rest of the Commons description is wrong in places ('Bed Bugs can sting') and promotional: never quote it (photos.json keeps its first 300 characters as the source's text). CC BY-SA 3.0: credit Oliver Arend.",
+   "note": "Credit: Oliver Arend, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x2051."
+  },
+  {
+   "id": "fire-ant-stings-pustules-closeup",
+   "forPages": [
+    "fire-ant-stings",
+    "do-ants-bite",
+    "european-fire-ants",
+    "bug-bites",
+    "tools/bug-bite-identifier"
+   ],
+   "confidence": "clinical record: CDC attributes the papules to imported fire ants (species unknown)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 16368, content provider CDC/John Ridley, Department of Agriculture, Capitol Square, Atlanta, Georgia; public domain per PHIL. Description: 'erythematous papules, which were the result of this individual having been bitten by imported fire ants ... In this particular instance, it is not known, which species was responsible.'",
+   "caveats": "A close-up of five or six raised, shiny, pale pustule-like bumps on reddened skin, the skin's fine grid visible; no body part or date. PHIL says 'bitten'; fire ants grip with their jaws and sting (cite a source): on the page call them stings. Say 'imported fire ants' unless naming both species with a source. Public domain: the lead option for fire-ant-stings.",
+   "note": "Credit: CDC/ John Ridley, Department of Agriculture, Capitol Square, Atlanta, Georgia (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "fire-ant-stings-lower-legs",
+   "forPages": [
+    "fire-ant-stings",
+    "do-ants-bite",
+    "bug-bites"
+   ],
+   "confidence": "clinical record (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 25047, content provider CDC/Harold George Scott, PhD; public domain per PHIL. Description: 'both lower legs of a male patient demonstrating multiple maculopapular and pustular lesions consistent with fire ant stings caused by Solenopsis saevissima ... Note the erythematous halo surrounding each pustular center.' PHIL 25044 to 25046 are more views of the same patient.",
+   "caveats": "Both lower legs against a dark blue backdrop with scattered red spots, a few with pale centers: shows how the stings scatter over the legs. PHIL's 'Solenopsis saevissima' is the older name it uses for the imported fire ants (cite a source before giving the current names). No date given. Use one of the three PHIL fire ant photos per page section.",
+   "note": "Credit: CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1097."
+  },
+  {
+   "id": "fire-ant-stings-arm",
+   "forPages": [
+    "fire-ant-stings",
+    "do-ants-bite",
+    "bug-bites"
+   ],
+   "confidence": "clinical record (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 15978, content provider CDC/Harold George Scott, PhD; public domain per PHIL. Description: 'The arm of this patient displayed a number of erythematous pustular lesions that had been caused by the bites of fire ants, Solenopsis saevissima ... Note the erythematous ring, which surrounded the pustular, papular center.'",
+   "caveats": "A hairy arm on a black backdrop with several small pustules ringed in red. The single pustule is clearer in fire-ant-sting-pustule (PHIL 6347, on file since batch 3) and fire-ant-stings-pustules-closeup. Same wording point as above ('stings').",
+   "note": "Credit: CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x1400."
+  },
+  {
+   "id": "carpenter-ant-on-fingers",
+   "forPages": [
+    "do-carpenter-ants-bite",
+    "do-ants-bite",
+    "black-ants"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 238169041, Blount County, Alabama, 2024-08-26, by Kristi Zoebelein (kzoebel; about 49,000 observations). Observer's note: 'I watched it walk on my hand and then it just bit me randomly.' Identified as Camponotus pennsylvanicus by the observer and mettcollsuss (Emmett Collins-Sussman, about 527,000 identifications). Photo 1 of 2; CC0.",
+   "caveats": "A large black carpenter ant walking across the fingers of a hand: the ant against fingers gives the scale. The bite is the observer's report; no bite mark shows: 'a carpenter ant that bit the observer moments later'. CC0 and confidently identified: the lead option for do-carpenter-ants-bite.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1543."
+  },
+  {
+   "id": "paper-wasp-nest-eave-corner",
+   "forPages": [
+    "paper-wasps",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 227695136, Saratoga, California, 2024-07-01, by bungelina. Observer's note: 'In the last two photos you can see the larvae and some of the unhatched eggs in the cells. The homeowners plan to leave the nest alone. The wasps have been building for decades under the overhang of the house, and they never seem to get very large or be a problem.' Identified as Polistes dominula by the observer and Ruan Veldtman (ruanveldt, about 23,000 identifications). Photo 1 of 4.",
+   "caveats": "An open, umbrella-shaped paper comb with five or six European paper wasps on it, in the angle where a white wall meets the underside of the roof overhang; some white-capped cells. 'Never a problem' is these homeowners' experience, not advice: don't use it to say nests are harmless. CC BY: credit bungelina.",
+   "note": "Credit: (c) bungelina, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "paper-wasp-nest-house-siding",
+   "forPages": [
+    "paper-wasps",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 401667576, Lexington, Lee County, Texas (a street address), 2026-09-19, by Linda Jo Conn (connlindajo; about 65,000 observations, 340,000 identifications). Observer's note: 'One of many paper wasp nests on the siding of my house this summer.' Identified as Polistes exclamans by the observer, franpfer (Frances, about 283,000) and texas_nature_family. Photo 1 of 1.",
+   "caveats": "A gray paper comb of open and white-capped cells with a dozen Guinea paper wasps on it, against white lap siding; sharp. Do not print the street address. CC BY: credit Linda Jo Conn.",
+   "note": "Credit: (c) Linda Jo Conn, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1174."
+  },
+  {
+   "id": "mud-dauber-nest-garage-wall",
+   "forPages": [
+    "mud-daubers",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 28591120, Shepard Settlement, Onondaga County, New York, 2019-07-10, by Randy A Nonenmacher (nonenmac). Observer's note: 'On the back interior wall and ceiling of garage'. Identified as Sceliphron caementarium by the observer and philipwoodscc (Philip Woods, about 324,000 identifications). Photo 2 of 8.",
+   "caveats": "A black-and-yellow mud dauber (yellow legs, thread waist) on a rounded mud cell with an open hole at one end, on white painted wood inside a garage. Sex not recorded (only females build: cite a source before saying 'female'). CC BY: credit Randy A Nonenmacher.",
+   "note": "Credit: (c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "mud-dauber-nest-house-overhang",
+   "forPages": [
+    "mud-daubers",
+    "wasp-nest-identification"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 231959498, Northeast Los Angeles, California, 2024-07-05, by Heather Dawnstar Sabin (trickykid1). Observer's note: 'We have been getting one nest per year on our house for the last few years, but this really seems to be the most successful one yet- the others only seemed to be a couple chambers, but this seems to have several.' Identified as Sceliphron caementarium by the observer and jfmantis (Julian Fuchs, about 368,000 identifications). Field 'Urban / Built Environment': yes. Photo 5 of 7.",
+   "caveats": "A mud dauber on top of a lumpy mud nest of several cells, one sealed cell end showing as a dark round cap, on a white ledge under a light fixture (a white dome behind). The wasp is slightly soft; the nest on the house is the subject. CC BY: credit Heather Dawnstar Sabin.",
+   "note": "Credit: (c) Heather Dawnstar Sabin, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "wheel-bug-on-fingers",
+   "forPages": [
+    "wheel-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 187384535, Camp Creek Greenway Trail, Lilburn, Georgia, 2023-10-03, by Dennis White (yawwhite; about 6,400 observations). Observer's note: 'I've heard that these bugs can give a nasty bite, but this one readily crawled on my hand and didn't bite. There was water on the bug because of the dew.' Identified as Arilus cristatus by the observer, pucak (Joan Knapp, about 410,000 identifications) and lafonlabs (Ethan Lafon). Photo 1 of 3; CC0.",
+   "caveats": "Side view of an adult wheel bug on fingers against blue sky: the cog-like crest, beak and long banded antennae show; dew drops on the body. Don't let it suggest wheel bugs are safe to handle: the bite is painful (cite a university source); the observer's experience is one case. CC0 and confidently identified: the lead option for wheel-bugs / assassin-bugs.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "wheel-bug-door-frame",
+   "forPages": [
+    "wheel-bugs",
+    "kissing-bug-look-alikes"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 141322877, Lafayette, Indiana, 2022-11-04, by Kaden Slone (kaden_slone04; about 37,000 identifications). Observer's note: 'On door frame'. Identified as Arilus cristatus by the observer, mmmmbugs (Adrienne van den Beemt, about 968,000 identifications) and lafonlabs. Photo 1 of 2.",
+   "caveats": "Side view of an adult wheel bug on a white painted door frame; a November record (adults are around late in the season: cite a source). Sharp. CC BY: credit Kaden Slone.",
+   "note": "Credit: (c) Kaden Slone, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "wheel-bug-nymphs-hatching-wall",
+   "forPages": [
+    "wheel-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 112735024, Arkansas (state level), 2022-04-24, by hr_dragonfly (about 65,000 identifications). Observer's note: 'Hundreds emerging on the brick wall out front. I like those fancy orange fresh ones.' Identified as Arilus cristatus by the observer, linneav and lafonlabs. Photo 1 of 1.",
+   "caveats": "Dozens of tiny newly hatched nymphs with red abdomens and black legs, a few pale orange (freshly hatched, by the observer's note), around a gray hexagonal egg mass of many barrel-shaped eggs. The wall is brick by the observer's description; the frame shows mostly the egg mass on a pale gritty surface. Good for 'tiny red bugs on my wall' searches. Small file (1004 x 713). CC BY: credit hr_dragonfly.",
+   "note": "Credit: (c) hr_dragonfly, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1004x713."
+  },
+  {
+   "id": "giant-water-bug-store-sidewalk",
+   "forPages": [
+    "water-bugs-vs-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 400202538, North Carolina (state level), 2026-09-14, by Matthew Lumsden (dark_l0rd2; about 279,000 identifications). Observer's note: 'First time seeing one and it's on the sidewalk at a store'. Identified as Lethocerus uhleri by mpintar (Matthew Pintar, about 401,000 identifications) and abbycf; the observer identified it to the family Belostomatidae. Photo 1 of 2.",
+   "caveats": "A dark brown giant water bug, dorsal view, on light concrete beside a crack: the flat oval body, grasping front legs and short tail straps show. No scale object. Why it was at a store is not stated (giant water bugs fly to lights: cite a source). 242 KB. CC BY: credit Matthew Lumsden.",
+   "note": "Credit: (c) Matthew Lumsden, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "giant-water-bug-in-hand",
+   "forPages": [
+    "water-bugs-vs-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 129346571, Baton Rouge, Louisiana (a street name), 2022-08-03, by Amber M. King (amberenergy; about 19,000 observations). Observer's note: 'In the parking garage'. Identified as Benacus griseus by the observer and mpintar (Matthew Pintar). Photo 1 of 2.",
+   "caveats": "A large giant water bug held flat on a palm, dorsal view: its size against the fingers is the point. iNaturalist calls Benacus griseus the 'Eastern Toe-biter'; 'toe-biter' is also used for Belostoma (toe-biter-pool-filter) and for giant water bugs generally: cite a source before calling one species 'the toe-biter'. Do not print the street. Handling: see giant-water-bug-brick-pavement. CC BY: credit Amber M. King.",
+   "note": "Credit: (c) Amber M. King, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1748."
+  },
+  {
+   "id": "giant-water-bug-brick-pavement",
+   "forPages": [
+    "water-bugs-vs-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 154722407, St Mary's College of Maryland, Lexington Park, Maryland, 2023-04-13, by Jasper Shide (jdshide). Observer's note: 'My attempt to move it to a safer spot by hand led to one of the most painful bites/stings I've ever experienced, so maybe don't do that.' Identified as Lethocerus americanus by mpintar (Matthew Pintar) and danielmorton (Daniel Morton, about 75,000 identifications); the observer to the genus Lethocerus. Photo 1 of 2; CC0.",
+   "caveats": "A large brown giant water bug on red brick paving in sunlight, wings and grasping front legs visible. The painful bite is the observer's report: a fair quote for 'do water bugs bite', attributed. 292 KB (over the 260 KB target: brick texture). CC0 and confidently identified: the lead option for water-bugs-vs-cockroaches.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "toe-biter-pool-filter",
+   "forPages": [
+    "water-bugs-vs-cockroaches"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 134635002, Nesconset, Long Island, New York, 2022-09-11, by David LaMagna (lamagswag). Observer's note: 'Alive, pulled out of pool filter. *First state record for positive ID on iNaturalist and Bug Guide'. Identified as Belostoma lutarium by mpintar (Matthew Pintar), who gave the key feature in a comment ('shape and extent of ventral pubescent area very clear in third photo'), and the observer. Photo 1 of 3.",
+   "caveats": "A smaller brown giant water bug (Belostoma), dorsal view, on wet concrete by the pool. 'First state record' is the observer's note about two websites, not an official record: don't repeat it. For the general point say 'a Belostoma toe-biter from a pool filter'. 253 KB. CC BY: credit David LaMagna.",
+   "note": "Credit: (c) David LaMagna, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "rice-weevil-on-rice-grain",
+   "forPages": [
+    "weevils",
+    "pantry-pests"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 359165419, Trofaiach, Austria (a street name), 2026-05-07, by Katharina Pi (katpi). Observer's note: 'From a sealed package of rice (Italy, Po Valley)'. Field 'This organism was found inside, right?': Yes. Identified as Sitophilus oryzae by the observer and holzcol (Erwin Holzer). Photo 1 of 2.",
+   "caveats": "A reddish-brown rice weevil with its long snout on a single polished grain of rice, on white: its size against a grain. Photographed in Austria from Italian rice: fine for a general page, don't imply a US location. 'Sealed package' does not prove where the weevil got in (cite a source before saying weevil larvae grow inside the grains). 941 x 1288. CC BY: credit Katharina Pi.",
+   "note": "Credit: (c) Katharina Pi, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 941x1288."
+  },
+  {
+   "id": "maize-weevil-fingertip",
+   "forPages": [
+    "weevils",
+    "pantry-pests"
+   ],
+   "confidence": "medium-high: two species identifications, one from a new identifier; the observer reports a DNA test",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 352101942, Division No. 19, Alberta, 2026-03-20, by Simon (one3u9). Observer's note: 'DNA tested - Found in wild bird seed mix'. Identified as Sitophilus zeamais by the observer and nemandatode_03 (Amanda Jorgensen, 67 identifications). Photo 1 of 4; CC0.",
+   "caveats": "A dark grain weevil with a long snout and faint pale patches on the wing covers, on a fingertip against black: the size against a fingertip. The DNA test is the observer's statement (method not given), and rice and maize weevils look alike: caption 'a grain weevil (maize weevil by DNA test, according to the observer)'. CC0: a lead option for weevils.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "grain-weevils-bird-seed",
+   "forPages": [
+    "weevils",
+    "pantry-pests"
+   ],
+   "confidence": "high for the genus",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 250510993, Jonesboro, Craighead County, Arkansas, 2024-11-04, by Gordon C. Snelling (gcsnelling; about 22,600 observations, 42,000 identifications). Observer's note: 'In bird seed.' Identified to the genus Sitophilus by the observer and entomike (Mike Quinn, about 178,000 identifications). Photo 1 of 1.",
+   "caveats": "A dark grain weevil with orange-brown markings standing on cracked corn and other kernels in a bird seed mix, macro. Genus only: 'a grain weevil (Sitophilus)'. The subject line says 'weevils' but one weevil is in frame. CC BY: credit Gordon C. Snelling.",
+   "note": "Credit: (c) Gordon C. Snelling, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1208."
+  },
+  {
+   "id": "black-vine-weevil-house-wall",
+   "forPages": [
+    "weevils"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 39709447, Westmorland County, New Brunswick, 2020-03-08, by Claire Moxon-Waltz (scotiaspinner). Observer's note: 'Discovered on the wall in my house today. Weevil of some sort I think.' Identified as Otiorhynchus sulcatus by the observer and e-aus-kanada (Eric Knopf, about 45,000 identifications). Photo 1 of 2.",
+   "caveats": "A black, bumpy, short-snouted weevil with long antennae walking on a pinkish-beige wall inside a house, in March: the 'weevils that wander indoors' side of the page. Black vine weevils are garden root weevils (cite a source for why they come indoors and that they don't infest food). CC BY: credit Claire Moxon-Waltz.",
+   "note": "Credit: (c) Claire Moxon-Waltz, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x899."
+  },
+  {
+   "id": "booklouse-notebook-pen-tip",
+   "forPages": [
+    "booklice"
+   ],
+   "confidence": "high for the genus",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 405233758, Goose Green, London, UK, 2026-10-02, by Marco Zaccaria Di Fraia (marco_zaccaria). Observer's note: 'Tentatively:) pen tip for scale in page 4'. Identified to the genus Liposcelis by the observer and alexei_kouprianov (Alexei Kouprianov, about 51,000 identifications). Photo 4 of 5.",
+   "caveats": "A tiny pale brown speck on cream paper beside the point of a pen, with handwriting around: how small booklice are. The insect shows no detail at this scale: pair it with booklouse-printed-paper or the batch-3 booklouse (public domain). London: fine for a general page. CC BY: credit Marco Zaccaria Di Fraia.",
+   "note": "Credit: (c) Marco Zaccaria Di Fraia, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1599."
+  },
+  {
+   "id": "booklouse-printed-paper",
+   "forPages": [
+    "booklice"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 34150162, Berlin, Germany, 2019-10-08, by Alexis Tinker-Tsavalas (alexis_orion; about 146,000 observations). No description. Identified as Liposcelis bostrychophila by the observer and sea-kangaroo (about 111,000 identifications). Photo 1 of 2.",
+   "caveats": "A pale, nearly translucent booklouse beside printed letters ('en') on paper; sharp, the body shape and thick hind legs show. Whether a book, a magazine or a label is not stated: say 'on printed paper'. CC BY: credit Alexis Tinker-Tsavalas.",
+   "note": "Credit: (c) Alexis Tinker-Tsavalas, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x901."
+  },
+  {
+   "id": "booklouse-cereal-package",
+   "forPages": [
+    "booklice",
+    "pantry-pests"
+   ],
+   "confidence": "medium-high: the observer was tentative, a second identifier confirmed",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 38613294, North Rhine-Westphalia, Germany, 2020-02-13, by agujaceratops. Observer's note: 'in cereal package'. Identified as Liposcelis bostrychophila by the observer (comment 'maybe?') and sea-kangaroo (about 111,000 identifications). Photo 1 of 2.",
+   "caveats": "A booklouse on a pale gray surface, sharp but the smallest file in this batch (676 x 689): use it small. Caption 'a booklouse from a cereal package'. CC BY: credit agujaceratops.",
+   "note": "Credit: (c) agujaceratops, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 676x689."
+  },
+  {
+   "id": "carpet-beetle-larva-knit-fabric",
+   "forPages": [
+    "carpet-beetle-larvae",
+    "signs-of-carpet-beetles",
+    "how-to-get-rid-of-carpet-beetles"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 41480946, Maryland (state level), 2020-04-05, by Erin Lalime (erininmd; about 16,750 observations). Observer's note: 'I've seen the adults in the house too'. Identified as Anthrenus verbasci by the observer and shadowmirror (Laura Semesky), and to the genus by escol (Andrew R.). Photo 1 of 3.",
+   "caveats": "A small banded, bristly larva on light-blue knitted fabric in the house (the third photo shows the fabric held up indoors). Sweater, blanket or towel is not stated, nor whether it was eating it: don't say so. The larva is small in a tall frame (1152 x 2048). CC BY: credit Erin Lalime.",
+   "note": "Credit: (c) Erin Lalime, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1152x2048."
+  },
+  {
+   "id": "carpet-beetle-larva-wood-floor",
+   "forPages": [
+    "carpet-beetle-larvae",
+    "signs-of-carpet-beetles"
+   ],
+   "confidence": "high for the genus",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 2612934, Buckingham Springs, Bucks County, Pennsylvania, 2012-01-24, by Bill Keim (keimwj). Observer's note: 'Larval stage of an unwelcome guest in the house.' Identified to the genus Anthrenus by the observer, gcsnelling (Gordon C. Snelling) and escol (Andrew R.). Photo 1 of 1.",
+   "caveats": "A pale larva with dark bands and bristly tail tufts on a reddish wood-grain floor inside the house. Paler than most larvae on file (possibly just molted: don't state). Genus only: 'a carpet beetle larva (Anthrenus)'. CC BY: credit Bill Keim.",
+   "note": "Credit: (c) Bill Keim, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "carpet-beetle-larva-hallway-wall",
+   "forPages": [
+    "carpet-beetle-larvae",
+    "signs-of-carpet-beetles",
+    "how-to-get-rid-of-carpet-beetles"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 93975625, Woolton, Liverpool, UK (a street address), 2021-09-07, by Stephen James McWilliam (steve_mcwilliam; about 181,000 observations, 475,000 identifications). Observer's note: 'larva, on wall in hall in house'. Identified as Anthrenus verbasci by the observer and antony_coombs (Antony Coombs). Photo 1 of 2; CC0.",
+   "caveats": "A sharp macro of a varied carpet beetle larva on a white wall: banded body, long brown bristles and the spear-tipped hair tufts at the tail. The best detail view of the larva on record. From England (same species as in US homes); do not print the street address. CC0 and confidently identified: the lead option for carpet-beetle-larvae.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "pill-bug-rolled-kitchen-floor",
+   "forPages": [
+    "pill-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 71379504, Greater Vancouver, British Columbia, 2021-03-16, by lucky (luck; about 45,000 identifications). Observer's note: the pill bug 'was discovered on its back on the kitchen floor, having difficulty righting itself, and seemed very dry. Dribbled a drop of water on it so it could respirate, but clumsily so it triggered the defensive ball posture ... Relocated to garden.' Identified as Armadillidium vulgare by the observer, greensoul and americanisopodologist (Nathan T. Jones, about 96,000 identifications). Photo 3 of 10.",
+   "caveats": "A pill bug rolled into a tight ball, wet from the water drop, on a pale mottled kitchen floor: the 'roly poly' shape the search is named for, indoors. Rolling up as defense is the observer's word (cite a source). CC BY: credit lucky.",
+   "note": "Credit: (c) lucky, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "pill-bugs-in-palm",
+   "forPages": [
+    "pill-bugs"
+   ],
+   "confidence": "medium-high: the second identifier has few identifications, the shape matches",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 44831331, Florida (state level), 2020-05-03, by Jade Fortnash (buggybuddy; about 18,500 observations). Observer's note: 'they were just chillin on the surface in balls'. Identified as Armadillidium vulgare by the observer and porcellios (128 identifications). Photo 1 of 2; CC0.",
+   "caveats": "Three small dark pill bugs on an open palm at night (flash), one rolled up and two unrolling, plants behind: small in the frame, the scale is the point. CC0: a lead option for pill-bugs (for a close view use pill-bug from batch 3).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "pill-bugs-under-flowerpot",
+   "forPages": [
+    "pill-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 266907447, Tennessee (state level), 2025-03-25, by Nicholas Stockmaster (nick_nv04). Observer's note: 'In a suburban yard under a flowerpot.' Identified as Armadillidium vulgare by zcoraces (about 124,000 identifications) and ib0i (about 110,000); the observer to the family Armadillidiidae. Photo 2 of 3.",
+   "caveats": "Two gray pill bugs among soil, wood bits and grass blades where a flowerpot had stood; sharp. CC BY: credit Nicholas Stockmaster.",
+   "note": "Credit: (c) Nicholas Stockmaster, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x901."
+  },
+  {
+   "id": "jerusalem-cricket-wood-floor",
+   "forPages": [
+    "jerusalem-crickets",
+    "camel-crickets"
+   ],
+   "confidence": "high for the genus (North American Jerusalem crickets)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 256852488, California (state level), 2024-12-30, by Deniz Wilson (dgwdoesthings; about 13,500 observations, 95,000 identifications). No description. Identified to the genus Ammopelmatus by jellyfishww, lisamillbank (Lisa Millbank) and alice_abela (Alice Abela). Photo 1 of 2; CC0.",
+   "caveats": "A dark-banded Jerusalem cricket on a honey-colored wood floor; 'indoors' is our reading of the floor (nothing written): say 'on a wood floor'. Genus only (species in this group are told apart mostly by song and anatomy: cite a source). CC0 and confidently identified: the lead option for jerusalem-crickets.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "jerusalem-cricket-house-floor",
+   "forPages": [
+    "jerusalem-crickets"
+   ],
+   "confidence": "high for the genus",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 189365590, Guerneville, California (a road name), 2023-10-29, by Roger Raiche (rogerraiche). Observer's note: 'Inside house on floor.' Identified to the genus Ammopelmatus by alice_abela (Alice Abela, about 88,000 identifications) and dlevitis (Daniel Levitis, about 32,000); the observer has no current identification. Photo 2 of 3.",
+   "caveats": "A Jerusalem cricket on a gray concrete-like floor inside a house, one long hind leg stretched out. A second record from the same observer was refused for a conflicting identification (see gaps); this one has none. Do not print the road name. 209 KB. CC BY: credit Roger Raiche.",
+   "note": "Credit: (c) Roger Raiche, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "jerusalem-cricket-garden-soil",
+   "forPages": [
+    "jerusalem-crickets"
+   ],
+   "confidence": "high for the genus",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 320112596, Santa Rosa, California (a school's name in the place), 2025-06-04, by Emily Heaton (emilyheaton). Observer's note: 'in the school garden'. Identified to the genus Ammopelmatus by dlevitis (Daniel Levitis) and the observer. Photo 2 of 3; CC0.",
+   "caveats": "A Jerusalem cricket on dark garden soil with wood chips and small stones: big head, striped abdomen. Don't print the school's name. CC0 and confidently identified, so lead-eligible, but jerusalem-cricket-wood-floor reads better as the lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "fruit-fly-banana-peel",
+   "forPages": [
+    "fruit-flies",
+    "how-to-get-rid-of-fruit-flies",
+    "how-to-get-rid-of-gnats"
+   ],
+   "confidence": "high for the subgenus Sophophora (D. melanogaster or D. simulans)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 107022101, New Lynn, West Auckland, New Zealand (a road name), 2022-02-19, by Saryu Mae (invertebratist; about 175,000 identifications). Observer's note: 'Approx. 2.5 mm. On banana in kitchin waste container.' Identified to the subgenus Sophophora by carnifex ('the sister species D. simulans cannot be excluded') and the observer (who first suggested D. melanogaster). Photo 1 of 1.",
+   "caveats": "A red-eyed, tan fruit fly on yellow banana peel, side-on macro: the classic fruit-fly-on-a-banana picture. Caption 'a fruit fly (Drosophila melanogaster group) on a banana'. 2.5 mm is the observer's estimate. 1104 x 827. CC BY: credit Saryu Mae.",
+   "note": "Credit: (c) Saryu Mae 前 朝琉, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1104x827."
+  },
+  {
+   "id": "drain-fly-bathroom-wall",
+   "forPages": [
+    "how-to-get-rid-of-drain-flies",
+    "how-to-get-rid-of-gnats"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 57179699, Sebastopol, California, 2020-08-19, by Isaac Caswell (icaswell). Observer's note: 'What I think of as a \"drain fly\", which seems actually to be a moth! Found in bathroom, of course'. Identified as Clogmia albipunctata by the observer and zdanko (Zachary Dankowicz, about 250,000 identifications). Photo 1 of 3; CC0.",
+   "caveats": "A furry gray drain fly with leaf-shaped, iridescent wings held flat, on a textured white bathroom wall; the hairy antennae show. The observer's 'actually a moth' is wrong (drain flies are true flies, family Psychodidae: cite a source): don't quote it. 1099 x 906. CC0: the lead option for how-to-get-rid-of-drain-flies (replaces a refused CC0 photo, see gaps).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1099x906."
+  },
+  {
+   "id": "drain-fly-bathroom-fingertip",
+   "forPages": [
+    "how-to-get-rid-of-drain-flies",
+    "how-to-get-rid-of-gnats"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 59182505, Abilene, Texas (a road name), 2020-09-10, by Luke Padon (threeagoutdoors). Observer's note: 'I found this in a bathroom ... Then I showed my dad and he said it was something called a \"Drain Fly\".' Identified as Clogmia albipunctata by the observer and ktratboy (Kim Draper, about 18,000 identifications). Photo 2 of 3.",
+   "caveats": "A small drain fly on a white bathroom wall (a strand of web above it) next to a fingertip: the fly is smaller than a fingernail. Soft but clear. CC BY: credit Luke Padon.",
+   "note": "Credit: (c) Luke Padon, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "termite-swarmers-ceiling-light",
+   "forPages": [
+    "what-do-termites-look-like",
+    "flying-ants-vs-termites",
+    "termite-damage"
+   ],
+   "confidence": "medium-high: the species rests on one identifier (the observer followed); the swarmers are too small in this frame to identify",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 192875036, Thousand Oaks, California (a street name), 2023-11-22, by kjamaleddine (74 observations). Observer's note: 'These termites were found in our lights and were flying around each other. They would not change their behavior when we turned the lights off.' Identified as Incisitermes minor by r_r_r_ (about 42,000 identifications) and the observer (who first suggested Nasutitermes). Photo 1 of 2; CC0.",
+   "caveats": "Looking up at a ceiling light fixture: dozens of small dark termites, some winged, on and behind the textured plastic diffuser panels. Caption 'termite swarmers inside a ceiling light (western drywood termites, according to the record)'. Not a lead: no single termite is identifiable here. The heaviest file in the batch (322 KB at the script's lowest quality). Do not print the street. Good for 'termites in my light fixture'.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1179x1247."
+  },
+  {
+   "id": "termite-swarmers-pine-straw-house",
+   "forPages": [
+    "what-do-termites-look-like",
+    "flying-ants-vs-termites"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 234431354, EJ Wild Life Garden, Raleigh, North Carolina, 2024-08-04, by Linda Watson (ejwildlife). Observer's note: 'Swarming up out of pine straw next to an outside faucet on the house. They flew away by the hundreds or thousands, cloud emerging for at least 20 minutes. Glad the house is on a concrete slab!' Identified as Reticulitermes hageni by r_r_r_ and colorado_river; the observer's earlier R. flavipes was withdrawn. Photo 1 of 4.",
+   "caveats": "A dozen winged swarmers with long milky wings, plus a few wingless termites, among pine straw mulch; sharp. The faucet and house are outside this frame: 'beside a house, by the observer's note'. An August swarm (cite a source for when each species swarms). The slab remark is the observer's, not advice. CC BY: credit Linda Watson.",
+   "note": "Credit: (c) Linda Watson, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "drywood-termite-swarmer-fingers",
+   "forPages": [
+    "what-do-termites-look-like",
+    "termite-damage"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 244383461, North Berkeley, California, 2024-09-27, by evn. Observer's note: 'in my house >:|||'. Identified as Incisitermes minor by colorado_river and r_r_r_; the observer to the epifamily Termitoidae. Photo 1 of 4; CC0.",
+   "caveats": "A small dark termite swarmer held at a fingertip, a patterned blanket or rug behind: a person finding a termite in the house. Small in the frame: for detail use termite-swarmers (CC0, on file since batch 6). CC0, but not a lead (the termite is too small to show what termites look like).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "shrew-yard-lawn",
+   "forPages": [
+    "shrews",
+    "rat-vs-mouse",
+    "learn/mice"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 286925121, North Falmouth, Massachusetts, 2025-05-31, by Jake McCumber (jakemccumber; about 21,000 observations). Observer's note: 'Caught in flower pot, then quickly released. The whole family watched it snuffling around, foraging in the yard for about 15 minutes or so.' Identified as Blarina brevicauda by the observer and apgarm (Mark Apgar, about 352,000 identifications). Photo 1 of 7.",
+   "caveats": "A gray-brown short-tailed shrew on a lawn with clover, side-on: pointed snout, tiny eye, short tail; sharp. Short-tailed shrews have venomous saliva (cite a source): don't let the page suggest handling them. CC BY: credit Jake McCumber.",
+   "note": "Credit: (c) Jake McCumber, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x857."
+  },
+  {
+   "id": "shrew-on-grass",
+   "forPages": [
+    "shrews",
+    "rat-vs-mouse"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 231903058, Saint Paul, Minnesota (a street name), 2024-07-26, by Meghan Cassidy (wildcarrot; about 37,000 observations). Observer's note: 'Shoo'd this little guy gently off the sidewalk so it didn't get hurt'. Identified as Blarina brevicauda by the observer and jorgenols. Photo 2 of 8.",
+   "caveats": "A close view of a short-tailed shrew's head and shoulders in grass: velvety slate fur, pointed pink-tipped snout, tiny eye, no visible ear. The best 'shrew or mouse?' face on record. CC BY-SA 4.0: credit Meghan Cassidy; share-alike applies to the image.",
+   "note": "Credit: (c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1200x900."
+  },
+  {
+   "id": "shrew-basement-mouse-trap",
+   "forPages": [
+    "shrews",
+    "rat-vs-mouse",
+    "mice-in-walls"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 83607311, Monroe, New York, 2021-02-08, by Kimberely G. (kimberelyg). Observer's note: 'Caught in a basement mouse trap, photographed before release. Body length (not including tail) approximately 8-10 cm.' Identified as Blarina brevicauda by the observer and tfrench (Tom French, about 126,000 identifications). Photo 1 of 1.",
+   "caveats": "Looking down into a gray plastic bin: a dark shrew on a paper towel beside an open metal live-catch mouse trap. It shows that shrews end up in basement mouse traps (this observer's case). The 8-10 cm is the observer's estimate (US pages: about 3 to 4 inches, or use a published range). 1280 x 1104. CC BY: credit Kimberely G.",
+   "note": "Credit: (c) Kimberely G., some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1035."
+  },
+  {
+   "id": "short-tailed-shrew-snout-usgs",
+   "forPages": [
+    "shrews",
+    "rat-vs-mouse"
+   ],
+   "confidence": "high (USGS Bee Inventory and Monitoring Lab)",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file from the USGS Bee Inventory and Monitoring Lab's Flickr (photo 14339520776), uploaded 2014-06-05, tagged PD-USGov-USGS (and CC BY 2.0 from Flickr); Commons' licence field reads public domain. Description: 'Blarina brevicauda - the short-tailed shrew. This one found dead in the yard in Upper Marlboro, MD.' A focus-stacked macro (Canon 5D Mark II, 65 mm macro lens).",
+   "caveats": "A dead shrew on black: side view of the head and a forefoot, the long pointed snout and whiskers, the eye and ear almost hidden in the fur. Say it was found dead in a yard. The lab's other two views were looked at: neither shows the teeth (the 'mouth' view does not show the red-tipped teeth), so don't caption any of them as a teeth photo. Public domain and confidently identified: lead-eligible for shrews, though a dead specimen on black reads as a museum photo.",
+   "note": "Credit: USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x850."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "what-do-bed-bug-bites-look-like (and bed-bug-bites)",
+   "why": "Now on file: bed-bug-on-skin-cdc (public domain), bed-bug-bites-back-physician (CC BY-SA 3.0) and bed-bug-bites-wrist-row (CC BY-SA 3.0), beside bed-bug-bites-back (CC0, self-reported) and bed-bug-bites-forearm (CC BY-SA 3.0). Searched: CDC PHIL quick search 'bed bug', 'bedbug' and 'Cimex' (no bite photos, only bugs, SEMs and illustrations); Commons category 'Bedbug bites' (all 17 files read) and searches 'cimicosis', 'bed bug bites'; Europe PMC for open-access (CC BY) case reports. Refused: PHIL 9819 and 9820 (bed bugs feeding on an arm, by Piotr Naskrecki: PHIL marks them 'copyright protected' although their Commons copies say public domain); 'Lymphangitis after bed bug bites.jpg' (CC BY-SA 4.0, a complication, the uploader's attribution only); Correogsk's Mexican series ('Cimex lectularius (piquetes de chinche de cama) 02-06.jpg', CC BY-SA 4.0, the uploader's attribution only); 'Tahtakurusuisirigi.jpeg' (public domain, bites on the feet, the uploader's attribution only); 'Bedbug bites.jpg' (436 px); KEBman's public domain set (faint, see batch 7); Hermann Luyken's other two CC0 views (same bites as bed-bug-bites-back). Not on Commons, so the script cannot take them: two CC BY open-access papers with clinical photos of bites from known bed bugs, Cureus 2019 'Cimicosis in Persons Previously Fed Upon by Bed Bugs' (PMC6860660) and Rev Soc Bras Med Trop 2021 'New pandemic, old bugs' (PMC7849327); a journal-figure source type would be needed. Still missing: bed bug bites on darker skin under an allowed licence."
+  },
+  {
+   "slug": "flea-bites (and flea-bites-on-humans)",
+   "why": "Now on file: flea-bites-ankles-cdc and flea-bites-ankle-foot-cdc (public domain, 1963, black and white) and cat-flea-on-fingertip (CC BY), beside flea-bites-lower-leg (CC BY-SA 4.0), flea-dirt-on-dog and flea-on-comb (batch 10). Searched: PHIL quick search 'flea bites' (8 images): taken 25258 and 25257; looked at and not taken 25185, 25259 and 25260 (sepia close-ups of single lesions), 23565 (a 1966 plague investigation: bites not visible, and the plague context would mislead), 19595 (a woodrat); the 2024 flea series around 30838-30839 was scanned (no bites on people). Commons category 'Flea bites': 'Flea Bites on the Lower Leg 02.jpg' (CC BY 4.0, a close-up from the same uploader as flea-bites-lower-leg) not added; 'Flea bites.jpg' (no author or source) refused; 'Fleabite.JPG' ('Copyrighted free use', not an allowed licence) refused; 'Ulceration of flea bite cause by yersinia pestis.jpg' (a plague ulcer) refused; the NARA 111-SC black-and-white set not used. All 67 research-grade cat flea records with allowed licences were read: none shows a flea in a pet's fur (they are on combs, fingers, paper or slides). Not on Commons: 'Dermatitis caused by Ctenocephalides felis (cat flea) in human' (Caspian J Intern Med 2014, PMC4247491, CC BY per Europe PMC). Still missing: a color clinical photo of flea bites, and a flea in a pet's fur."
+  },
+  {
+   "slug": "jumping-spiders",
+   "why": "Now on file: bold-jumping-spider-kitchen-window, bold-jumping-spider-house-siding (both CC BY) and zebra-jumping-spider-house-wall (CC0), beside bold-jumping-spider and johnson-jumping-spider (CC0). Searched: research-grade Phidippus audax worldwide and Salticus scenicus in North America with allowed licences (house, window, wall, inside, indoors, kitchen, siding, deck, porch, fence, hand, finger, bathroom, ceiling, car, brick); about 200 records read, about 55 looked at. Refused: 366631895 (CC0, indoors in a room corner: too soft to identify), 291917010 (CC BY, on a house wall with a grasshopper: photographer's watermark), 215165100 (CC0, blurred behind glass), 70297021 (CC0, on a kitchen ceiling light: the spider is a speck; the other photos are in a cup). Alternatives worth keeping: 15700724 (CC0, zebra jumper on a house's window shutter, Newfoundland), 225652903 (CC BY, zebra jumper on a fingertip), 329191070 (CC BY, bold jumper at a window), 79808527 (CC BY, bold jumper on an indoor ceiling edge), 6525514 (CC BY, bold jumper on a kitchen door)."
+  },
+  {
+   "slug": "fruit-flies (US edition of how-to-get-rid-of-fruit-flies)",
+   "why": "Now on file: fruit-fly-banana-peel (CC BY), beside fruit-fly (CC0), fruit-fly-mango-peel and fruit-flies-lemon (CC BY, batch 11). Searched: research-grade Drosophila worldwide (banana, kitchen, wine, trap, vinegar, fruit bowl, compost, tomato, peach, apple, counter, glass, beer, sink). Alternatives: 42413135 (CC BY, Drosophila immigrans on a wine bottle in a kitchen, New Zealand), 149751250 (CC BY, D. melanogaster drawn to apple peelings in a kitchen, New Zealand), 15813643 (CC BY, seven species from a vinegar trap in a kitchen, Vienna). Not found: fruit flies in a homemade vinegar trap in a US kitchen with an allowed licence and a species-level identification."
+  },
+  {
+   "slug": "camel-spiders",
+   "why": "Now on file: camel-spider-house-wall, camel-spider-in-hand (CC BY) and camel-spider-apartment-floor (CC0), beside camel-spider-solifuge (CC0). Only 53 US solifuge records are research grade (about 1,050 stay at Needs ID because most cannot be named past genus or family from photos); all 53 were looked at. Needs-ID records were not used, however obvious the animal. Alternatives: 47551139 (CC0, Key West, the same apartment, on a white surface), 172848626 (CC BY, Nebraska, on a window screen, small), 207342170 and 128701880 (CC BY, held in a hand, California), 372495375 (CC BY, Texas, on a white surface)."
+  },
+  {
+   "slug": "shrews",
+   "why": "Now on file: shrew-yard-lawn, shrew-basement-mouse-trap (CC BY), shrew-on-grass (CC BY-SA 4.0) and short-tailed-shrew-snout-usgs (public domain); none before. Searched: research-grade Soricidae in North America (garage, basement, house, yard, porch, window well, cat, dog, pool, patio, driveway, deck, kitchen, inside, garden, bird feeder, shed, mouse trap, trap, lawn, sidewalk); 112 records listed, most are cat or dog kills, so live animals were preferred. Commons category 'Blarina brevicauda' read; the USGS lab's 'mouth' and 'face, front' views were looked at and not taken (no teeth visible). Refused: 252442646 (CC0, a shrew in a trap indoors: files under 900 px, a wet animal photographed outdoors afterwards). Alternatives: 325388599 (CC BY, held in a gardening glove after a dog found it in a flower bed), 74852200 (CC0, a southern short-tailed shrew behind garden pots, small in frame), 71890895 (CC BY, in a garden by a house foundation), 148903802 (CC0, found dead in a basement, beside a ruler). Still missing: a photo showing a shrew's red-tipped teeth under an allowed licence, and a masked shrew (Sorex) in a house."
+  },
+  {
+   "slug": "wheel-bugs (to be re-aimed at assassin-bugs)",
+   "why": "Now on file: wheel-bug-on-fingers (CC0), wheel-bug-door-frame and wheel-bug-nymphs-hatching-wall (CC BY), beside wheel-bug (public domain), wheel-bug-nymph (CC0), masked-hunter, masked-hunter-nymph and milkweed-assassin-bug. Searched: research-grade Arilus cristatus in the US (house, siding, deck, porch, window, door, wall, railing, garden, tomato, hand, bite, bit me, patio, brick, screen); 41 records. Alternatives: 237712630 (CC BY, a red-bellied nymph on siding, very sharp), 92712269 (CC0, a mating pair on a garage door frame, soft), 76013573 (CC BY, a nymph on tomato plants). Still missing: an assassin bug bite on skin from a clinical or credited source."
+  },
+  {
+   "slug": "paper-wasps",
+   "why": "Now on file: paper-wasp-nest-eave-corner and paper-wasp-nest-house-siding (CC BY), beside dark-paper-wasp, european-paper-wasp and paper-wasp-nest (CC0). Searched: research-grade Polistes in North America (eave, porch, deck, soffit, window, house, siding, door, gutter, shutter, grill, mailbox, light fixture, overhang, railing, shed, garage). Alternatives: 120444023 (CC BY, a nest hanging from wooden eaves, Charlotte), 124429731 (CC BY, two nests in a stucco corner, New Mexico), 340496815 (CC0, scraping wood fiber from a porch broom handle: the camera's date stamp is printed in the corner), 7674983 (CC BY, a nest knocked from a window corner, held in fingers, larvae spinning)."
+  },
+  {
+   "slug": "joro-spiders",
+   "why": "Now on file: joro-spider-web-gutter, joro-spider-front-door (CC0) and joro-spiders-pair-soffit (CC BY), beside joro-spider (CC0). Searched: research-grade Trichonephila clavata in the US (house, porch, deck, window, power line, mailbox, gutter, eave, siding, car, front door, garage, fence, railing, yard, light, bush, tree, male). Refused: 140077906 (CC BY, in a West Virginia parking garage: a one-off hitchhiker from a conference, not found again; a misleading range signal). Alternatives: 397568064 (CC0, a female and males against a pale surface, setting unclear), 408011796 (CC BY, near an eave, the spider a silhouette)."
+  },
+  {
+   "slug": "how-to-get-rid-of-drain-flies",
+   "why": "Now on file: drain-fly-bathroom-wall (CC0) and drain-fly-bathroom-fingertip (CC BY), beside drain-fly (CC0), drain-flies-sink and drain-fly-larva (CC BY). Searched: research-grade Psychodidae worldwide (bathroom, shower, tub, sink, drain, toilet, tile, wall, mirror, window, kitchen, basement, laundry). Refused: 342169267 (CC0, research grade, in a bathroom: heavy phone digital zoom gives it a painted look that could be read as an illustration). Alternatives: 242463153 (CC BY, on a bathroom wall, Massachusetts), 229071900 (CC BY, near a kitchen sink drain, Kentucky), 202559574 (CC BY, in a gym shower)."
+  },
+  {
+   "slug": "do-ants-bite (and fire-ant-stings, do-carpenter-ants-bite)",
+   "why": "Now on file: fire-ant-stings-pustules-closeup, fire-ant-stings-lower-legs and fire-ant-stings-arm (public domain) and carpenter-ant-on-fingers (CC0), beside fire-ant-sting-pustule (public domain), fire-ant-mound and the fire ant portraits. Searched: PHIL quick search 'fire ant', 'Solenopsis', 'ant bite' (13 images); taken 16368, 25047 and 15978; 25044 to 25046 are more views of 25047's patient (25044 is a good alternative). iNaturalist research-grade ants in North America described biting (bit me, biting me, bit my, it bit, painful bite). Alternatives: 70713571 (CC BY, a velvety tree ant biting skin, Los Angeles), 74886004 (CC BY, a pavement ant that crawled onto a hand and bit). Still missing: a non-fire-ant bite mark on skin from a clinical or credited source."
+  },
+  {
+   "slug": "water-bugs-vs-cockroaches",
+   "why": "Now on file: giant-water-bug-store-sidewalk, giant-water-bug-in-hand, toe-biter-pool-filter (CC BY) and giant-water-bug-brick-pavement (CC0); none before. Searched: research-grade Belostomatidae in North America (porch, light, pool, driveway, sidewalk, parking, garage, house, hand, patio, door, window, street, lamp, store, deck, bit). Commons category 'Lethocerus americanus': every file is identified by its uploader only: not used. Alternatives: 227622392 (CC BY, a Belostoma in a pool skimmer net), 133717032 (CC BY, Lethocerus medius on a grocery store floor), 7911036 (CC BY, dead on a city sidewalk under street lights), 171160286 (CC BY, a backyard visitor near ponds)."
+  },
+  {
+   "slug": "weevils",
+   "why": "Now on file: rice-weevil-on-rice-grain, grain-weevils-bird-seed, black-vine-weevil-house-wall (CC BY) and maize-weevil-fingertip (CC0), beside granary-weevil (public domain) and rice-weevil (CC0). Searched: research-grade Sitophilus worldwide (rice, flour, pantry, kitchen, bag, cereal, pasta, grain, beans, oats, corn, popcorn, bird seed, wheat, cupboard, infest, stored, food) and the house-invading Otiorhynchus ovatus, O. sulcatus and Cyrtepistomus castaneus in North America (inside, indoors, in house, kitchen, bathroom, window, wall, sink, floor, bedroom, carpet, ceiling, basement). Refused: 31736332 (a strawberry root weevil described as a common fall invader of homes: photos only 513 to 653 px). Alternatives: 109010915 (CC BY, Sitophilus from brown rice in a pantry, on a ruler), 242015963 (CC BY, a strawberry root weevil 'climbing up my walls'), 384210267 (CC BY, found indoors), 112907568 (CC BY, a black vine weevil on a bathroom wall, ruler). Still missing: weevils in a bag or jar of rice or flour with the package in frame."
+  },
+  {
+   "slug": "booklice",
+   "why": "Now on file: booklouse-notebook-pen-tip, booklouse-printed-paper and booklouse-cereal-package (CC BY), beside booklouse (public domain). All 51 research-grade Liposcelis records with allowed licences were read: most are microscope work from Austria; the three taken are European household finds. North American records with allowed licences show no household setting (242143780, CC0, California, among debris; 228320096 and 188708110, Liposcelis ornata outdoors). Alternatives: 245555820 (CC BY, 'found indoors', UK, through a lens), 39743618 (CC BY, in old flour, Japan, small). Still missing: booklice on a damp windowsill or on a book in a North American home."
+  },
+  {
+   "slug": "carpet-beetle-larvae",
+   "why": "Now on file: carpet-beetle-larva-knit-fabric, carpet-beetle-larva-wood-floor (CC BY) and carpet-beetle-larva-hallway-wall (CC0), beside carpet-beetle-larva, carpet-beetle-larva-frass-cast-skin and carpet-beetle-skins-frass. Searched: research-grade Anthrenus and Dermestidae annotated as larvae (carpet, rug, closet, clothes, sweater, wool, blanket, bed, floor, baseboard, sill, couch, drawer, curtain, house, home, inside, indoors, apartment, bedroom, kitchen, pantry, bathroom). Alternatives: 254670894 (CC BY, upstairs bedroom, 14 photos), 404248117 (CC BY, on a bed sheet, small in frame). Still missing: larvae on a wool rug or sweater with damage visible."
+  },
+  {
+   "slug": "pill-bugs",
+   "why": "Now on file: pill-bug-rolled-kitchen-floor, pill-bugs-under-flowerpot (CC BY) and pill-bugs-in-palm (CC0), beside pill-bug (CC0). Searched: research-grade Armadillidium vulgare in the US (ball, rolled, curled, hand, flower pot, pot, planter, garden, basement, garage, patio, under a, mulch, brick, kitchen, bathroom, inside, house) and worldwide for rolled-up photos. Refused: 19555616 (CC0, a perfect ball, but 496 px; the one larger photo is a belly view). Alternatives: 174922559 (CC BY, on carpet in a house, Georgia), 360097186 (CC0, on a child's hand, Utah), 266906688 (CC BY, curling up, same yard as pill-bugs-under-flowerpot)."
+  },
+  {
+   "slug": "jerusalem-crickets",
+   "why": "Now on file: jerusalem-cricket-wood-floor, jerusalem-cricket-garden-soil (CC0) and jerusalem-cricket-house-floor (CC BY); none before. All 235 research-grade US records (genus Ammopelmatus) were looked at. Refused: 102047845 (CC BY, held on a gardening glove in a garden: research grade on three Ammopelmatus identifications, but the observer's own current identification is a camel cricket, Ceuthophilus californianus). Alternatives: 38037858 (CC0, 'found almost dead inside and brought outside', San Diego), 203196380 (CC BY, held in a hand, Pasadena), 315430671 (CC BY, a dark form in a backyard), 260776220 (CC BY, held in a hand by a fence). Still missing: a fourth photo of the cricket where gardeners dig it up, with a clean record."
+  },
+  {
+   "slug": "what-do-termites-look-like",
+   "why": "Now on file: termite-swarmers-ceiling-light, drywood-termite-swarmer-fingers (CC0) and termite-swarmers-pine-straw-house (CC BY), beside eight termite photos from batches 6 and 7. Searched: research-grade Reticulitermes and all termites (Termitoidae) in the US (window, inside, indoors, in the house, swarm, swarmers, swarming, basement, garage, sill, floor, kitchen, bathroom, porch, light, wall, baseboard, door, deck). Refused: 239725052 (CC BY, a swarmer that flew into a dorm room, on a wall: Tenuirostritermes cinereus, a grass-feeding desert termite that does not infest buildings, so a caption could mislead). Alternatives: 214931291 (CC0, a Formosan termite swarmer on a table, 'swarming any and all light sources'), 212474980 (CC BY, Formosan swarmers on jeans), 113165276 (CC0, Incisitermes snyderi swarming, Florida), 321833102 (CC0, Reticulitermes flavipes swarming). Still missing: subterranean termite swarmers on an indoor windowsill, and shed wings on a sill."
+  },
+  {
+   "slug": "orb-weaver-spiders",
+   "why": "Now on file: cross-orb-weaver-kitchen-window and furrow-orb-weaver-back-door (CC BY), beside golden-silk-orb-weaver, spinybacked-orb-weaver and three yellow garden spider photos (CC0). Searched: research-grade Neoscona crucifera, Araneus diadematus and Larinioides in North America (porch light, porch, window, house, door, deck, siding, eave, garage, railing, mailbox, light). Refused: 8556152 (CC0, a cross orbweaver in a porch ceiling corner: 453 x 606). Alternatives: 401343253 (CC0, a spotted orbweaver at a soffit edge, slightly soft), 104860940 (CC BY, a spotted orbweaver outside a back door), 239011426 (CC BY, two webs across the path to a back door at night)."
+  },
+  {
+   "slug": "mud-daubers",
+   "why": "Now on file: mud-dauber-nest-garage-wall and mud-dauber-nest-house-overhang (CC BY), beside black-and-yellow-mud-dauber, blue-mud-dauber-on-nest (CC0) and organ-pipe-mud-dauber-nest. Searched: research-grade Sceliphron caementarium in North America (house, garage, porch, eave, wall, siding, ceiling, window, shed, barn, mud, puddle, nest, door, deck). Refused: 303496951 (CC0, collecting mud: every photo under 470 px). Alternatives: 3929659 (CC BY, a female at her nest on a garage door frame, identification confirmed by John S. Ascher), 232750087 (CC BY, collecting mud at a puddle), 57938253 (CC BY, beside a nest on a stucco house wall), 401708845 (CC BY, building a nest in a grill)."
+  },
+  {
+   "slug": "all topics",
+   "why": "Every topic now has at least 3 photos, at least 2 of them where people find the subject. Not used anywhere: Bugwood images (their terms), photos identified only by the uploader, NonCommercial or NoDerivatives licences, drawings and AI images."
+  }
+ ]
+}

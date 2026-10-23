@@ -548,6 +548,20 @@
    "sha256Original": "7dc9b6739327f3b54bc9f1f83c067577b2efcf4cd5e95252530e977632d0e75c"
   },
   {
+   "file": "/guides/photos/bed-bug-bites-back-physician.webp",
+   "subject": "Bed bug bites: scattered red welts on a person’s back, photographed by emergency physician James Heilman, MD (same set as bed-bug-bites-forearm)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugb2.JPG",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Bedbugb2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "James Heilman, MD, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1248,
+   "bytes": 54244,
+   "sourceDescription": "Bedbug bites",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "431cd76773a5ba1b0c32d0f32eecf355c3b74756222b88b44f6fe9ab3b34dba2"
+  },
+  {
    "file": "/guides/photos/bed-bug-bites-back.webp",
    "subject": "Raised red bites on a man's back and arm that the photographer attributes to bed bugs in a hotel in Amsterdam",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015.11.26.192605Cimex_lectularius_bites.jpg",
@@ -574,6 +588,20 @@
    "sourceDescription": "Bedbug bites",
    "downloadedOn": "2026-10-15",
    "sha256Original": "0f6015c3067cde74f39c04f4676e62b366e9d7a54b41932142561ce2f9ab1877"
+  },
+  {
+   "file": "/guides/photos/bed-bug-bites-wrist-row.webp",
+   "subject": "Bites in a row along the outside of the left wrist and forearm, about four days old, that the photographer attributes to bed bugs",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_bug_bites_around_left_wrist.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bed_bug_bites_around_left_wrist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-3.0",
+   "credit": "Oliver Arend, CC BY-SA 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 2051,
+   "bytes": 42770,
+   "sourceDescription": "Approx. four day old bed bug bites on the outside of the left arm, around the wrist. Bed Bugs are biting insects that feed on the blood of people while they sleep. Bed Bugs can sting only people who share the same room. They rarely bite pets. If they are not exterminated, bed bugs reproduce and spre",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "ea56668a995a8a3cbe07a108c2a8492be74768e37b460b446aefed4b6c08f081"
   },
   {
    "file": "/guides/photos/bed-bug-cast-skin-fabric.webp",
@@ -658,6 +686,20 @@
    "sourceDescription": "Cimex lectularius",
    "downloadedOn": "2026-10-15",
    "sha256Original": "250b179adaffae620aa8519617797e6eec7ac9d143149a181099b5bf77f5e73d"
+  },
+  {
+   "file": "/guides/photos/bed-bug-on-skin-cdc.webp",
+   "subject": "Common bed bug, Cimex lectularius, on human skin, side view (CDC photograph donated by the World Health Organization)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6283",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/6283/6283.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Donated by the World Health Organization, Geneva, Switzerland. (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 78006,
+   "sourceDescription": "This image depicts a left lateral view of a common bed bug, Cimex lectularius, which was photographed as it was perched atop the skin of its human host. C. lectularius uses its mouthparts adapted to piercing skin in order to obtain its blood meal.",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "839060c8e8545daad4c2610248e9e4f71f3cb13281391b682f003f0145afe905"
   },
   {
    "file": "/guides/photos/bed-bug-signs.webp",
@@ -815,6 +857,20 @@
    "sha256Original": "704bec247abf3d1d966bb5d0a1d43b517aa1ff71d08ec06954424815b789fa84"
   },
   {
+   "file": "/guides/photos/black-vine-weevil-house-wall.webp",
+   "subject": "Black vine weevil, Otiorhynchus sulcatus, on a wall inside a house (Westmorland County, New Brunswick)",
+   "sourceUrl": "https://www.inaturalist.org/observations/39709447",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63026582/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Claire Moxon-Waltz, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 899,
+   "bytes": 31214,
+   "sourceDescription": "Otiorhynchus sulcatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "badbf4ec12e8339f8a96a62434baa03c652226a7c50edfb3f61ef46b494e8cd1"
+  },
+  {
    "file": "/guides/photos/black-widow.webp",
    "subject": "Southern black widow, Latrodectus mactans, showing the red hourglass",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9854",
@@ -913,6 +969,34 @@
    "sha256Original": "0e9ca44c2052069309c9ba4da5d0fa91109db939cd701add139d447c0b283ecc"
   },
   {
+   "file": "/guides/photos/bold-jumping-spider-house-siding.webp",
+   "subject": "Bold jumping spider, Phidippus audax, on white house siding (Bucks County, Pennsylvania)",
+   "sourceUrl": "https://www.inaturalist.org/observations/206175475",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/364625728/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bill Keim, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 81040,
+   "sourceDescription": "Phidippus audax",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "49c7a2c102bd371d157a1964031e83889b33cd812efd7989344f087c82b90256"
+  },
+  {
+   "file": "/guides/photos/bold-jumping-spider-kitchen-window.webp",
+   "subject": "Bold jumping spider, Phidippus audax, on the glass of a kitchen window in the house where, according to the observer, it lived for months (Salt Lake City, Utah)",
+   "sourceUrl": "https://www.inaturalist.org/observations/164065154",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/283830382/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Rebecca Ray, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1331,
+   "bytes": 78742,
+   "sourceDescription": "Phidippus audax",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "7d895d23cd5dd750dcb510c5a643cc6732503b6996b8d26bd11f971cafe3889a"
+  },
+  {
    "file": "/guides/photos/bold-jumping-spider.webp",
    "subject": "Bold jumping spider, Phidippus audax, adult female",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Phidippus_audax_01.jpg",
@@ -925,6 +1009,48 @@
    "sourceDescription": "Adult female Phidippus audax jumping spider in Nashville, Tennessee",
    "downloadedOn": "2026-10-15",
    "sha256Original": "ea1fe5b007c85dc0e232bdc18970a08df8f7a6ea1accddc4b0db78bd3bfac648"
+  },
+  {
+   "file": "/guides/photos/booklouse-cereal-package.webp",
+   "subject": "Booklouse, Liposcelis bostrychophila, from a cereal package (North Rhine-Westphalia, Germany)",
+   "sourceUrl": "https://www.inaturalist.org/observations/38613294",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61392621/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) agujaceratops, some rights reserved (CC BY), via iNaturalist",
+   "width": 676,
+   "height": 689,
+   "bytes": 14496,
+   "sourceDescription": "Liposcelis bostrychophila",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "a645c1c88e974fced84ef4e3ced307ed445563480854d8a27b974e2f8304f2a6"
+  },
+  {
+   "file": "/guides/photos/booklouse-notebook-pen-tip.webp",
+   "subject": "Booklouse (genus Liposcelis), a tiny pale speck on a handwritten page beside a pen tip for scale (London)",
+   "sourceUrl": "https://www.inaturalist.org/observations/405233758",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/744299298/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Marco Zaccaria Di Fraia, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1599,
+   "bytes": 25798,
+   "sourceDescription": "Liposcelis",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "7344438d2bbccc263cc936b08c036d9cf5701f91fa586039df609f5ba57ea24c"
+  },
+  {
+   "file": "/guides/photos/booklouse-printed-paper.webp",
+   "subject": "Booklouse, Liposcelis bostrychophila, on printed paper beside a printed letter, for scale (Berlin)",
+   "sourceUrl": "https://www.inaturalist.org/observations/34150162",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/53708933/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 901,
+   "bytes": 40744,
+   "sourceDescription": "Liposcelis bostrychophila",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "608d6f48507fd4bf9392d32574b5947c323fe4b530ea8ea1dfec49db41bd7ca1"
   },
   {
    "file": "/guides/photos/booklouse.webp",
@@ -1320,6 +1446,48 @@
    "sha256Original": "dbfa08863cb761a73ca387ba3acf9d13447ae8e5096776d617a05b6d32d975b9"
   },
   {
+   "file": "/guides/photos/camel-spider-apartment-floor.webp",
+   "subject": "Florida camel spider (solifuge), Ammotrechella stimpsoni, on the floor of an apartment where the observer found three of them (Key West, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/67964825",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/109943236/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 148548,
+   "sourceDescription": "Ammotrechella stimpsoni",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "0a49a2146a90e6e8f6abf0599cb8cbd667ec94da477a531a07a5ec2222cd35cf"
+  },
+  {
+   "file": "/guides/photos/camel-spider-house-wall.webp",
+   "subject": "Camel spider (solifuge), Eremocosta striata, on a textured white wall at a house, a fingertip in the corner of the frame for scale (Sierra Vista, Arizona)",
+   "sourceUrl": "https://www.inaturalist.org/observations/6763128",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8594523/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) CK2AZ, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 124164,
+   "sourceDescription": "Eremocosta striata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "1ad3fd18bf67299bfd96d4bdd52f3ed78ef514d57b056603fdf8f3d0208702a3"
+  },
+  {
+   "file": "/guides/photos/camel-spider-in-hand.webp",
+   "subject": "Camel spider (solifuge), Eremocosta striata, held on an open hand at an insect event (Pima County, Arizona)",
+   "sourceUrl": "https://www.inaturalist.org/observations/174063588",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/302356121/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Wendy McCrady, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1115,
+   "bytes": 131824,
+   "sourceDescription": "Eremocosta striata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "59a13de3ff71ef4dd4cb14457f327d458e626aca72a66845971fae4389dab4b9"
+  },
+  {
    "file": "/guides/photos/camel-spider-solifuge.webp",
    "subject": "Solifuge (camel spider, order Solifugae) from southern Colorado, on a white background",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solifuge_on_white_background,_2026-09-28.jpg",
@@ -1360,6 +1528,20 @@
    "sourceDescription": "Camponotus modoc",
    "downloadedOn": "2026-10-20",
    "sha256Original": "b95c3f4d4eeef1cf82e0211102eb11303ea0dfb6cb6d17124243871a81c3e4f9"
+  },
+  {
+   "file": "/guides/photos/carpenter-ant-on-fingers.webp",
+   "subject": "Eastern black carpenter ant, Camponotus pennsylvanicus, on a hand; the observer says it walked on the hand and then bit (Blount County, Alabama)",
+   "sourceUrl": "https://www.inaturalist.org/observations/238169041",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/423978404/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1543,
+   "bytes": 146758,
+   "sourceDescription": "Camponotus pennsylvanicus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "048b839028ab4ed2723337d87509e3af187786a6f16011c78c2e1366716a9ce8"
   },
   {
    "file": "/guides/photos/carpenter-ant-winged-queen.webp",
@@ -1460,6 +1642,48 @@
    "sha256Original": "ed82718a8dfd0edc6849624c078336a649bc38ef16c3057586ac4f3cfa36c857"
   },
   {
+   "file": "/guides/photos/carpet-beetle-larva-hallway-wall.webp",
+   "subject": "Varied carpet beetle, Anthrenus verbasci, larva on a wall in the hall of a house, close-up (Liverpool, England)",
+   "sourceUrl": "https://www.inaturalist.org/observations/93975625",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/155830110/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 45566,
+   "sourceDescription": "Anthrenus verbasci",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "47c94cac9e93683ccebfc624df98d3f6b032d44f5e737257a3728be121e2031f"
+  },
+  {
+   "file": "/guides/photos/carpet-beetle-larva-knit-fabric.webp",
+   "subject": "Varied carpet beetle, Anthrenus verbasci, larva on blue knitted fabric in a house (Maryland)",
+   "sourceUrl": "https://www.inaturalist.org/observations/41480946",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/65807216/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Erin Lalime, some rights reserved (CC BY), via iNaturalist",
+   "width": 1152,
+   "height": 2048,
+   "bytes": 174638,
+   "sourceDescription": "Anthrenus verbasci",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "fd3827a1acc213656ab7da009e459c2871515f7acf424627ec481fea187d4411"
+  },
+  {
+   "file": "/guides/photos/carpet-beetle-larva-wood-floor.webp",
+   "subject": "Carpet beetle larva (genus Anthrenus) on a wood floor inside a house (Bucks County, Pennsylvania)",
+   "sourceUrl": "https://www.inaturalist.org/observations/2612934",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/481813540/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bill Keim, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 119876,
+   "sourceDescription": "Anthrenus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "e387aeefd0a24eee6fbb528fd2677f61be7c435e7a7d1d2ae7db344360e96036"
+  },
+  {
    "file": "/guides/photos/carpet-beetle-larva.webp",
    "subject": "Carpet beetle larva",
    "sourceUrl": "https://www.inaturalist.org/observations/22181694",
@@ -1528,6 +1752,20 @@
    "sourceDescription": "Tinea pellionella",
    "downloadedOn": "2026-10-16",
    "sha256Original": "5745f69a448baa4e865e7ad605f4559f5f2e4764f5629f4fc5ccf26958f7428e"
+  },
+  {
+   "file": "/guides/photos/cat-flea-on-fingertip.webp",
+   "subject": "Cat flea, Ctenocephalides felis, on a fingertip, one of the fleas the observer found on his cats (Fort Worth, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/371364750",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/678502083/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Sam Kieschnick, some rights reserved (CC BY), via iNaturalist",
+   "width": 1024,
+   "height": 768,
+   "bytes": 37626,
+   "sourceDescription": "Ctenocephalides felis",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "b89874e84b406b17ccc8898261efba40d9516b17cea05ed3b9e6d4356d0e5eb8"
   },
   {
    "file": "/guides/photos/cat-flea-scale-bar.webp",
@@ -1936,6 +2174,20 @@
    "sha256Original": "eeae928149e278978dec11c15c6ea8db32c3569fc13313705addb01838710165"
   },
   {
+   "file": "/guides/photos/cross-orb-weaver-kitchen-window.webp",
+   "subject": "Cross orbweaver, Araneus diadematus, in its web at the corner of a house’s kitchen window, the house siding blurred behind it (Lake Forest Park, Washington)",
+   "sourceUrl": "https://www.inaturalist.org/observations/19186831",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29468914/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) John Brew, some rights reserved (CC BY), via iNaturalist",
+   "width": 1070,
+   "height": 805,
+   "bytes": 29958,
+   "sourceDescription": "Araneus diadematus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "cc60c023cbd1a7f432afcc606cbb28ddaba874ae0ca48ad4b9132043cc1d2b05"
+  },
+  {
    "file": "/guides/photos/culex-egg-raft.webp",
    "subject": "Culex mosquito egg raft on water",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12549",
@@ -2188,6 +2440,34 @@
    "sha256Original": "3da07ecb87864ee56875777423e18964c8d59a22c013b87f18ae417e66159831"
   },
   {
+   "file": "/guides/photos/drain-fly-bathroom-fingertip.webp",
+   "subject": "Drain fly (bathroom moth fly), Clogmia albipunctata, on a bathroom wall beside a fingertip for scale (Abilene, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/59182505",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/94546767/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Luke Padon, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 57076,
+   "sourceDescription": "Clogmia albipunctata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "f3f0b6fa29b275b8bb5ca4d95f4406641e350ffd91a80382eb9e50de497e1557"
+  },
+  {
+   "file": "/guides/photos/drain-fly-bathroom-wall.webp",
+   "subject": "Drain fly (bathroom moth fly), Clogmia albipunctata, on a bathroom wall (Sebastopol, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/57179699",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/91184571/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1099,
+   "height": 906,
+   "bytes": 104226,
+   "sourceDescription": "Clogmia albipunctata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "e405126874f07a1a653c111871270db7fa84ff582618dbc2bc21a299a6caf47e"
+  },
+  {
    "file": "/guides/photos/drain-fly-larva.webp",
    "subject": "Drain fly (bathroom moth fly), Clogmia albipunctata, larva found in a sink, photographed on white (Vienna, Austria)",
    "sourceUrl": "https://www.inaturalist.org/observations/29101450",
@@ -2242,6 +2522,20 @@
    "sourceDescription": "This image or file is a work of a United States Department of Agriculture employee, taken or made as part of that person's official duties. As a work of the U.S. federal government, the image is in the public domain.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "5ee7c2102fe280c39d26f113e38a00a2eb80a8209d7fa20d1fc752c1ec1919dc"
+  },
+  {
+   "file": "/guides/photos/drywood-termite-swarmer-fingers.webp",
+   "subject": "Western drywood termite, Incisitermes minor, a swarmer the observer found in their house, held on a fingertip (Berkeley, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/244383461",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435907663/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 78170,
+   "sourceDescription": "Incisitermes minor",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "b4049b9e3e07fb5dbc154fb021e21a84f7062407d4c88c51d4e83984c09f53a7"
   },
   {
    "file": "/guides/photos/eastern-copperhead.webp",
@@ -2552,6 +2846,76 @@
    "sha256Original": "06533d9329a86f0bfc12a6d50db667b7674ddc148fecc4178661a92625093db7"
   },
   {
+   "file": "/guides/photos/fire-ant-stings-arm.webp",
+   "subject": "Fire ant stings on a patient’s arm: small pustules ringed with red (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=15978",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/15978/15978.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1400,
+   "bytes": 144082,
+   "sourceDescription": "The arm of this patient displayed a number of erythematous pustular lesions that had been caused by the bites of fire ants, Solenopsis saevissima. The insect is a native to South America, and was introduced to the United States through the importation of agricultural products. Note the erythematous ",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "1f63c2803c3657541bc953ba4a684e70d8ec617b5069788915bf785a3056e7f9"
+  },
+  {
+   "file": "/guides/photos/fire-ant-stings-lower-legs.webp",
+   "subject": "Fire ant stings on both lower legs of a male patient: scattered red spots, some with pustule centers (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25047",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/25047/25047.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1097,
+   "bytes": 58702,
+   "sourceDescription": "This image depicts an anterior view of both lower legs of a male patient demonstrating multiple maculopapular and pustular lesions consistent with fire ant stings caused by Solenopsis saevissima. This species, native to South America, was introduced into the United States through agricultural import",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "77d09eeb595f988570e0ac3a00cc1d85a7085878e322fd40c836b04c5e3c5029"
+  },
+  {
+   "file": "/guides/photos/fire-ant-stings-pustules-closeup.webp",
+   "subject": "Imported fire ant stings: raised white pustules on skin, close-up (CDC photograph; the source does not say which imported fire ant species)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=16368",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/16368/16368.tif",
+   "license": "public-domain",
+   "credit": "CDC/ John Ridley, Department of Agriculture, Capitol Square, Atlanta, Georgia (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 130920,
+   "sourceDescription": "This close-up photograph of a section of human skin, revealed the presence of the erythematous papules, which were the result of this individual having been bitten by imported fire ants. There are two species of imported fire ants, the red imported fire ants (RIFA), Solenopsis invicta, and the black",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "d1b0cd1a93186c5031ca6160229042d2b956a679717b2d7bdc60f20e9d1332ea"
+  },
+  {
+   "file": "/guides/photos/flea-bites-ankle-foot-cdc.webp",
+   "subject": "Flea bites attributed to the cat flea, Ctenocephalides felis: clusters of small dark spots on the ankle and top of the foot (same patient; CDC photograph, Decatur, Georgia, 1963; black and white)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25257",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/25257/25257.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1196,
+   "bytes": 40662,
+   "sourceDescription": "This photograph depicted a left superolateral view of a female patient’s left lower leg and foot, highlighting the presence of numerous erythematous macular lesions, which had been attributed to flea bites, inflicted by the cat flea, Ctenocephalides felis. This scenario had been captured in Decatur,",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "c6fc6343ea6a76a857c610a7eb6f3c8592fde6cfae766a53d4bc7c8ffa5a812d"
+  },
+  {
+   "file": "/guides/photos/flea-bites-ankles-cdc.webp",
+   "subject": "Flea bites attributed to the cat flea, Ctenocephalides felis: dozens of small dark spots around the ankles and lower legs of a woman (CDC photograph, Decatur, Georgia, 1963; black and white)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25258",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/25258/25258.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1763,
+   "bytes": 52822,
+   "sourceDescription": "This photograph depicted an anterosuperior view of a female patient’s lower legs and feet, highlighting the presence of numerous erythematous macular lesions, which had been attributed to flea bites, inflicted by the cat flea, Ctenocephalides felis. This scenario had been captured in Decatur, Georgi",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "542932ebb8deb62910753826f372939c652308e7cccd70f7ca5edc9d574d037a"
+  },
+  {
    "file": "/guides/photos/flea-bites-lower-leg.webp",
    "subject": "Flea bites on the lower leg",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flea_Bites_to_the_Lower_Leg_of_a_Human_Subject_01.jpg",
@@ -2763,6 +3127,20 @@
    "sha256Original": "dda211fb87512fb5d6c808600f5c5a921daeb3856095c5a6d531747e5e514aa6"
   },
   {
+   "file": "/guides/photos/fruit-fly-banana-peel.webp",
+   "subject": "Fruit fly of the Drosophila melanogaster group (subgenus Sophophora), about 2.5 mm long, on a banana in a kitchen waste container (Auckland, New Zealand)",
+   "sourceUrl": "https://www.inaturalist.org/observations/107022101",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/179913892/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), via iNaturalist",
+   "width": 1104,
+   "height": 827,
+   "bytes": 41348,
+   "sourceDescription": "Sophophora",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "b14bf30d38775ac677c71d39c9001143b0ee3a9244b8466f8122dcf5e3dcbfcc"
+  },
+  {
    "file": "/guides/photos/fruit-fly-mango-peel.webp",
    "subject": "Common fruit fly, Drosophila melanogaster, side view on the mango peel where the observer’s household fruit flies were feeding and breeding, indoors (Austin, Texas)",
    "sourceUrl": "https://www.inaturalist.org/observations/320069474",
@@ -2803,6 +3181,20 @@
    "sourceDescription": "Sciaridae sp. Rock Creek Park, Washington, DC, USA. It looked like her ovpositor was stuck on the wood.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "6f9008943a5fa27fc089c59f6c5c4da078f00da9c4c0d1860f6f3c4d419e4a7e"
+  },
+  {
+   "file": "/guides/photos/furrow-orb-weaver-back-door.webp",
+   "subject": "Furrow orbweaver, Larinioides cornutus, in the web it rebuilt across a back door every night for two months, with the room inside the house behind it (Hamilton, Ohio)",
+   "sourceUrl": "https://www.inaturalist.org/observations/243698225",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/434585724/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Mary Spilman, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1315,
+   "bytes": 50788,
+   "sourceDescription": "Larinioides cornutus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "afa4d41dc8b4cb0facef5d82001079e5826d8710ad401655553451a822cbbd91"
   },
   {
    "file": "/guides/photos/german-cockroach-adult.webp",
@@ -2917,6 +3309,48 @@
    "sha256Original": "6eb454d7a29f7fb5faf9e53eac8e8b34152b9e3ec98b8f180cbde07ef8532682"
   },
   {
+   "file": "/guides/photos/giant-water-bug-brick-pavement.webp",
+   "subject": "American giant water bug, Lethocerus americanus, on brick paving; the observer reports a very painful bite when moving it by hand (Lexington Park, Maryland)",
+   "sourceUrl": "https://www.inaturalist.org/observations/154722407",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/267370190/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 299502,
+   "sourceDescription": "Lethocerus americanus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "60c0b37fbc3f380d71995c1116eef874939a60ec796b0b1d646b2f70a7abd0e2"
+  },
+  {
+   "file": "/guides/photos/giant-water-bug-in-hand.webp",
+   "subject": "Eastern toe-biter, Benacus griseus, a giant water bug found in a parking garage, held on an open hand (Baton Rouge, Louisiana)",
+   "sourceUrl": "https://www.inaturalist.org/observations/129346571",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/219799535/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Amber M. King, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1748,
+   "bytes": 139346,
+   "sourceDescription": "Benacus griseus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "712996be6d828ae94954c7df76b099e0b374c957b604292acdde5c49d9fb25c5"
+  },
+  {
+   "file": "/guides/photos/giant-water-bug-store-sidewalk.webp",
+   "subject": "Uhler’s giant water bug, Lethocerus uhleri, on the sidewalk outside a store (North Carolina)",
+   "sourceUrl": "https://www.inaturalist.org/observations/400202538",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/734351327/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Matthew Lumsden, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 248710,
+   "sourceDescription": "Lethocerus uhleri",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "db0761e08ff5edc068032646ca9c140d30b56679235e7070507d1672434bf71c"
+  },
+  {
    "file": "/guides/photos/golden-silk-orb-weaver.webp",
    "subject": "Golden silk orb weaver (banana spider), Trichonephila clavipes, female in her web (Anahuac National Wildlife Refuge, Texas)",
    "sourceUrl": "https://www.inaturalist.org/observations/126590005",
@@ -2929,6 +3363,20 @@
    "sourceDescription": "Trichonephila clavipes",
    "downloadedOn": "2026-10-15",
    "sha256Original": "4aa3fef8b97e114d83ce94ff2643dc86dd520bcd930ea38ce16491eb7e718ab4"
+  },
+  {
+   "file": "/guides/photos/grain-weevils-bird-seed.webp",
+   "subject": "Grain weevil (genus Sitophilus) among broken corn and other kernels in bird seed (Jonesboro, Arkansas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/250510993",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/448047031/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Gordon C. Snelling, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1208,
+   "bytes": 87352,
+   "sourceDescription": "Sitophilus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "13dab89135e5998743cd895974ef12967590f2db27ad3a9761a2000cda28d62e"
   },
   {
    "file": "/guides/photos/granary-weevil.webp",
@@ -3661,6 +4109,48 @@
    "sha256Original": "1b5db5f408a6045e5ce57b766522f300dabafb318f3aa1bfe004b0fc1747c3df"
   },
   {
+   "file": "/guides/photos/jerusalem-cricket-garden-soil.webp",
+   "subject": "Jerusalem cricket (genus Ammopelmatus) on the soil of a school garden (Santa Rosa, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/320112596",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/578732555/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 141718,
+   "sourceDescription": "Ammopelmatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "89429304f30e3867235e739f7fefc5b6f4bd0ff1393084015984eaf27c111ec0"
+  },
+  {
+   "file": "/guides/photos/jerusalem-cricket-house-floor.webp",
+   "subject": "Jerusalem cricket (genus Ammopelmatus) on the floor inside a house (Guerneville, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/189365590",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/331708229/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Roger Raiche, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 214184,
+   "sourceDescription": "Ammopelmatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "808fb8a14845af37cc1d5e03e47c57e881116fdeded4f279fca04d4d1a25d7d4"
+  },
+  {
+   "file": "/guides/photos/jerusalem-cricket-wood-floor.webp",
+   "subject": "Jerusalem cricket (genus Ammopelmatus) on a wood floor (California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/256852488",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/460620500/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 128908,
+   "sourceDescription": "Ammopelmatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "8f3fcb2323dcf7ae887642970ed4129e14264c60e13b62985b57820639671905"
+  },
+  {
    "file": "/guides/photos/johnson-jumping-spider.webp",
    "subject": "Johnson’s jumping spider, Phidippus johnsoni, on a grass blade (Sebastopol, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/44200934",
@@ -3675,6 +4165,34 @@
    "sha256Original": "92e5d56b881e3f0f031247e688ac22f855442e2a1d6c582083b5b3ec7241ba07"
   },
   {
+   "file": "/guides/photos/joro-spider-front-door.webp",
+   "subject": "Joro spider, Trichonephila clavata, female in her golden web against the siding by a front door (Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/97032775",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/161290706/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1378,
+   "bytes": 72292,
+   "sourceDescription": "Trichonephila clavata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "1d998b967e8872c95e542b3ddaf897f9661ac9859aed2d3cef86614a0c53ef15"
+  },
+  {
+   "file": "/guides/photos/joro-spider-web-gutter.webp",
+   "subject": "Joro spider, Trichonephila clavata, golden web hanging from a roof gutter down the corner of a house (Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/97032719",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/161290637/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1316,
+   "bytes": 86200,
+   "sourceDescription": "Trichonephila clavata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "2b8eaa57954ba548ac3dfffd4337a3bd7aada8eb914ee3a9e4e58adcacb856c5"
+  },
+  {
    "file": "/guides/photos/joro-spider.webp",
    "subject": "Joro spider, Trichonephila clavata, female in her web (North Carolina)",
    "sourceUrl": "https://www.inaturalist.org/observations/403928091",
@@ -3687,6 +4205,20 @@
    "sourceDescription": "Trichonephila clavata",
    "downloadedOn": "2026-10-15",
    "sha256Original": "5f7a15b7c6c66b7743d39e81950bce18630a87908c2c522cdf948089ce0d69c4"
+  },
+  {
+   "file": "/guides/photos/joro-spiders-pair-soffit.webp",
+   "subject": "Joro spiders, Trichonephila clavata: a large female and a small male in a web against white trim outside a house (Clarkston, Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/131123271",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/223094255/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Laura Martin, some rights reserved (CC BY), via iNaturalist",
+   "width": 1103,
+   "height": 939,
+   "bytes": 12196,
+   "sourceDescription": "Trichonephila clavata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "b623318f5d009534b80c58786e6c21aaf3795b0c699a0663f920cab2dbff0223"
   },
   {
    "file": "/guides/photos/larder-beetle.webp",
@@ -3827,6 +4359,20 @@
    "sourceDescription": "Plecia nearctica",
    "downloadedOn": "2026-10-15",
    "sha256Original": "abb745bcd9b8a137f2ea901eb23e544123c5bcc800a78ad67fe14be76643b647"
+  },
+  {
+   "file": "/guides/photos/maize-weevil-fingertip.webp",
+   "subject": "Maize weevil, Sitophilus zeamais, on a fingertip; found in a wild bird seed mix and DNA tested according to the observer (Alberta)",
+   "sourceUrl": "https://www.inaturalist.org/observations/352101942",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/642621333/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 39702,
+   "sourceDescription": "Sitophilus zeamais",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "f7a9d1b8336656ff5cb6072b04fbad8cada7388a71bc86e5f4ff1e2fc0e44af3"
   },
   {
    "file": "/guides/photos/masked-hunter-nymph.webp",
@@ -4067,6 +4613,34 @@
    "sha256Original": "9cda2a9c88ae23aa6aade46779e7d4022b4419587a1c0226f9f6fb3f13347f86"
   },
   {
+   "file": "/guides/photos/mud-dauber-nest-garage-wall.webp",
+   "subject": "Black-and-yellow mud dauber, Sceliphron caementarium, on its mud nest on the back wall of a garage (Onondaga County, New York)",
+   "sourceUrl": "https://www.inaturalist.org/observations/28591120",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/321487836/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 97506,
+   "sourceDescription": "Sceliphron caementarium",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "d0aa59355ac9b67fe410585a587a937ca8fbbad9552c4557e53d0b10e4e470fa"
+  },
+  {
+   "file": "/guides/photos/mud-dauber-nest-house-overhang.webp",
+   "subject": "Black-and-yellow mud dauber, Sceliphron caementarium, on a mud nest of several cells built on a house (Los Angeles, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/231959498",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/412049505/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Heather Dawnstar Sabin, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 51062,
+   "sourceDescription": "Sceliphron caementarium",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "29dda2356d260aa98433bed8292af12a3bd87d25cf0557efb8cbf5b58b3285fd"
+  },
+  {
    "file": "/guides/photos/north-american-deer-mouse.webp",
    "subject": "North American deer mouse, Peromyscus maniculatus",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8358",
@@ -4305,6 +4879,34 @@
    "sha256Original": "e5de6fca7c8d9e661f90f02fdd83e9e408d1a6e0b93045c2f107e50ccc5b01e9"
   },
   {
+   "file": "/guides/photos/paper-wasp-nest-eave-corner.webp",
+   "subject": "European paper wasps, Polistes dominula, on their open-comb nest in a corner under the overhang of a house (Saratoga, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/227695136",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/403966657/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) bungelina, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 58818,
+   "sourceDescription": "Polistes dominula",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "b0c885e50d64b2322633c295473fa6c3e211b32100974905461e743044a0b02c"
+  },
+  {
+   "file": "/guides/photos/paper-wasp-nest-house-siding.webp",
+   "subject": "Guinea paper wasps, Polistes exclamans, on their nest on house siding (Lee County, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/401667576",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/737248725/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Linda Jo Conn, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1174,
+   "bytes": 124128,
+   "sourceDescription": "Polistes exclamans",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "88218a2e642e56ae7e70dd90d514f732dae638a8cf78beeef1f4359c7e157cf4"
+  },
+  {
    "file": "/guides/photos/paper-wasp-nest.webp",
    "subject": "Paper wasps, Polistes apachus, on their open-comb nest (Texas)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paper_wasp_nest_(Vespidae,_Polistes_apachus)_(30960058872).jpg",
@@ -4348,6 +4950,20 @@
    "sha256Original": "2f35714b832ecc9ccd119d264c131fef0ee481c7c35cc725ef33313f0357c281"
   },
   {
+   "file": "/guides/photos/pill-bug-rolled-kitchen-floor.webp",
+   "subject": "Pill bug (common pill woodlouse), Armadillidium vulgare, rolled into a ball on a kitchen floor (Greater Vancouver, British Columbia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/71379504",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/116206973/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) lucky, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 66160,
+   "sourceDescription": "Armadillidium vulgare",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "61bfedcb577d54551fc36b2f8bbc5ab54849263a92d2eb50d49442a0f9978d5f"
+  },
+  {
    "file": "/guides/photos/pill-bug.webp",
    "subject": "Common pill woodlouse (pill bug), Armadillidium vulgare (North Carolina)",
    "sourceUrl": "https://www.inaturalist.org/observations/145857564",
@@ -4360,6 +4976,34 @@
    "sourceDescription": "Armadillidium vulgare",
    "downloadedOn": "2026-10-15",
    "sha256Original": "beae1d537c179d10386872176c3e5bbed8bcb3009a40afcdf1199e3e2e4e1a6a"
+  },
+  {
+   "file": "/guides/photos/pill-bugs-in-palm.webp",
+   "subject": "Pill bugs, Armadillidium vulgare: three on an open palm, partly rolled up (Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/44831331",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/71070620/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 166250,
+   "sourceDescription": "Armadillidium vulgare",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "2f61951499304905e7a402b706155999b9b4c1a0714e352b39d17d7f33304710"
+  },
+  {
+   "file": "/guides/photos/pill-bugs-under-flowerpot.webp",
+   "subject": "Pill bugs, Armadillidium vulgare, in the soil under a flowerpot in a suburban yard (Tennessee)",
+   "sourceUrl": "https://www.inaturalist.org/observations/266907447",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/479591790/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Nicholas Stockmaster, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 901,
+   "bytes": 109506,
+   "sourceDescription": "Armadillidium vulgare",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "54991c6f6137bbec4eedfe7ab00cfebdc46f8e5aff5fa55dca0893df63b3fbfe"
   },
   {
    "file": "/guides/photos/plains-camel-cricket.webp",
@@ -4698,6 +5342,20 @@
    "sha256Original": "f48060b9ff9f1582a1e6f204327614d44058739d3040ce2147e59b489db621ff"
   },
   {
+   "file": "/guides/photos/rice-weevil-on-rice-grain.webp",
+   "subject": "Rice weevil, Sitophilus oryzae, on a grain of rice from a sealed package of rice (photographed in Austria; the rice came from Italy)",
+   "sourceUrl": "https://www.inaturalist.org/observations/359165419",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/655279909/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Katharina Pi, some rights reserved (CC BY), via iNaturalist",
+   "width": 941,
+   "height": 1288,
+   "bytes": 29340,
+   "sourceDescription": "Sitophilus oryzae",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "7d0d5811b52600083a4e9bc49a9ce3cb06255d2457fd9dd6a6094ca1bc24020c"
+  },
+  {
    "file": "/guides/photos/rice-weevil.webp",
    "subject": "Rice weevil, Sitophilus oryzae (Kentucky)",
    "sourceUrl": "https://www.inaturalist.org/observations/200334640",
@@ -4836,6 +5494,62 @@
    "sourceDescription": "Known as scabies, the pimple-like rash in the webbing between the fingers of this adult’s hand, was due to the human itch mite, Sarcoptes scabiei var. hominis.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "e6f8bfd7d013e3732e728ea296015082734d8dd7506277dbde4d64bf65518774"
+  },
+  {
+   "file": "/guides/photos/short-tailed-shrew-snout-usgs.webp",
+   "subject": "Short-tailed shrew, Blarina brevicauda, side view of the head: long pointed snout, tiny eye and ear almost hidden in the fur; found dead in a yard (USGS photograph, Upper Marlboro, Maryland)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Short_tailed_shrew,_side_face,_md,_upper_marlboro_2014-06-04-13.08.07_ZS_PMax_(14339520776).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Short_tailed_shrew%2C_side_face%2C_md%2C_upper_marlboro_2014-06-04-13.08.07_ZS_PMax_%2814339520776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 850,
+   "bytes": 248098,
+   "sourceDescription": "Blarina brevicauda - the short -tailed shrew. This one found dead in the yard in Upper Marlboro, MD. Canon Mark II 5D, Zerene Stacker, Stackshot Sled, 65mm Canon MP-E 1-5X macro lens, Twin Macro Flash in Styrofoam Cooler, F5.0, ISO 100, Shutter Speed 200, link to a .pdf of our set up is located in o",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "5952ddf4d7e53cd21dd4f8161db84b4c45f5cb866e38e2208652139abc60a926"
+  },
+  {
+   "file": "/guides/photos/shrew-basement-mouse-trap.webp",
+   "subject": "Northern short-tailed shrew, Blarina brevicauda, caught alive in a basement mouse trap and photographed before release (Monroe, New York)",
+   "sourceUrl": "https://www.inaturalist.org/observations/83607311",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/137333853/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kimberely G., some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1035,
+   "bytes": 107682,
+   "sourceDescription": "Blarina brevicauda",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "b85a061ca4eb33df5b8ddf5670eae1e65b87dd53dbe7426d6f5fb8640e63f347"
+  },
+  {
+   "file": "/guides/photos/shrew-on-grass.webp",
+   "subject": "Northern short-tailed shrew, Blarina brevicauda, in grass beside a sidewalk, showing the pointed snout and tiny eye (Saint Paul, Minnesota)",
+   "sourceUrl": "https://www.inaturalist.org/observations/231903058",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/411934528/original.jpeg",
+   "license": "CC-BY-SA-4.0",
+   "credit": "(c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 194310,
+   "sourceDescription": "Blarina brevicauda",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "e5ba9085c62aec23b207836282d630692f18625e2ad7e86f2f0e7777b239b7d0"
+  },
+  {
+   "file": "/guides/photos/shrew-yard-lawn.webp",
+   "subject": "Northern short-tailed shrew, Blarina brevicauda, foraging on the lawn of a yard (Falmouth, Massachusetts)",
+   "sourceUrl": "https://www.inaturalist.org/observations/286925121",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/515866173/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Jake McCumber, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 857,
+   "bytes": 172276,
+   "sourceDescription": "Blarina brevicauda",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "395deeb7645c3d72bd293254f2a3300907f11e24c6770a844ba32690f315f5ad"
   },
   {
    "file": "/guides/photos/silverfish.webp",
@@ -5301,6 +6015,34 @@
    "sha256Original": "b23249d42ebf8841ebcf0eb901af4b1f91bcfdaffeb811731cac34f6b234c7e5"
   },
   {
+   "file": "/guides/photos/termite-swarmers-ceiling-light.webp",
+   "subject": "Western drywood termite, Incisitermes minor, swarmers inside a ceiling light fixture, seen through the diffuser panel (Thousand Oaks, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/192875036",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/338691784/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1179,
+   "height": 1247,
+   "bytes": 330170,
+   "sourceDescription": "Incisitermes minor",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "fa00f7747d374473bda5f4ccef304defd73c5a6953958f4994514e53a754c8bb"
+  },
+  {
+   "file": "/guides/photos/termite-swarmers-pine-straw-house.webp",
+   "subject": "Light southern subterranean termite, Reticulitermes hageni, winged swarmers coming up out of pine straw beside a house (Raleigh, North Carolina)",
+   "sourceUrl": "https://www.inaturalist.org/observations/234431354",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/416755910/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Linda Watson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 169878,
+   "sourceDescription": "Reticulitermes hageni",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "2d59fef19539bb1cee3464a25b9644059a0ba7182e7ecade221172e8bfa7af20"
+  },
+  {
    "file": "/guides/photos/termite-swarmers.webp",
    "subject": "Winged termite swarmers (alates) on wood, identified on iNaturalist as eastern subterranean termite, Reticulitermes flavipes (Blount County, Alabama)",
    "sourceUrl": "https://www.inaturalist.org/observations/346853050",
@@ -5383,6 +6125,20 @@
    "sourceDescription": "This image shows a dorsal view of two hard ticks of the genus Ixodes (family Ixodidae), with the male on the left and the female on the right. The female appears larger due to recent blood feeding, with a distended, engorged abdomen. The image was created and donated by Dr. George Anastos, Departmen",
    "downloadedOn": "2026-10-15",
    "sha256Original": "1705d55608de8f4cafc704178a9064c16bb467c8f2c2aa2acf62118455e39419"
+  },
+  {
+   "file": "/guides/photos/toe-biter-pool-filter.webp",
+   "subject": "Toe-biter, Belostoma lutarium, a smaller giant water bug pulled alive out of a swimming pool filter, on concrete (Nesconset, New York)",
+   "sourceUrl": "https://www.inaturalist.org/observations/134635002",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229519537/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) David LaMagna, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 259544,
+   "sourceDescription": "Belostoma lutarium",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "e1cc612739fd7f6c5f58bafb705cb2837f529cc93d4af677928134c0a79063a0"
   },
   {
    "file": "/guides/photos/trypanosoma-cruzi.webp",
@@ -5553,6 +6309,20 @@
    "sha256Original": "aca6634510af4dba3940f19b3b959cc6f7dd973449b0d10bc94e73f66961fb38"
   },
   {
+   "file": "/guides/photos/wheel-bug-door-frame.webp",
+   "subject": "Wheel bug, Arilus cristatus, adult on a white door frame (Lafayette, Indiana)",
+   "sourceUrl": "https://www.inaturalist.org/observations/141322877",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/242079121/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kaden Slone, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 43650,
+   "sourceDescription": "Arilus cristatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "0de921b48e5aa2347a7ac001ae8f227749760491455b599d58e2e26efefddf6a"
+  },
+  {
    "file": "/guides/photos/wheel-bug-nymph.webp",
    "subject": "Wheel bug, Arilus cristatus, nymph on a chain-link fence (Florida)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheel-bug-nymph.jpg",
@@ -5565,6 +6335,34 @@
    "sourceDescription": "Wheel bug nymph on top of a chain link fence. Photo was taken on April 14,2012 in central Florida, USA.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "d54f1217ba77cfe7af28bd5e4de9a8207aaf92b4b27867d1baabc4cfdd74b9c5"
+  },
+  {
+   "file": "/guides/photos/wheel-bug-nymphs-hatching-wall.webp",
+   "subject": "Wheel bug, Arilus cristatus, newly hatched nymphs (red and black, the freshest orange) around their egg mass on a brick wall out front, by the observer’s description (Arkansas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/112735024",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/190436829/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) hr_dragonfly, some rights reserved (CC BY), via iNaturalist",
+   "width": 1004,
+   "height": 713,
+   "bytes": 88504,
+   "sourceDescription": "Arilus cristatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "d82162eed7dccdd32dafcc56e55056037ab68e172c9daf24a41c0de2ff0961c5"
+  },
+  {
+   "file": "/guides/photos/wheel-bug-on-fingers.webp",
+   "subject": "Wheel bug, Arilus cristatus, adult crawling on fingers; the observer says it did not bite (Lilburn, Georgia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/187384535",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/327684098/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 43746,
+   "sourceDescription": "Arilus cristatus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "68be15c6ac7d0415626c0b8c041f872be19f17105a860e93f3d7514e646f65ba"
   },
   {
    "file": "/guides/photos/wheel-bug.webp",
@@ -5901,6 +6699,20 @@
    "sourceDescription": "This image depicts the dorsal surface of a woman’s forearms and hands revealing marked swelling of the right hand after having been stung by a yellow jacket, Vespula sp. wasp, 24-hours earlier. The ensuing swelling and erythema subsided 72-hours after beginning oral corticosteroid administration. No",
    "downloadedOn": "2026-10-15",
    "sha256Original": "d17cc5d06b5efd4bb37d8969d4061be8a4686d637f1fc6ee03c7a8ad0ab77337"
+  },
+  {
+   "file": "/guides/photos/zebra-jumping-spider-house-wall.webp",
+   "subject": "Zebra jumping spider, Salticus scenicus, on the white outside wall of a house, about 5.5 mm long according to the observer (Logy Bay, Newfoundland)",
+   "sourceUrl": "https://www.inaturalist.org/observations/76237466",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/124715709/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1160,
+   "bytes": 109788,
+   "sourceDescription": "Salticus scenicus",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "cdf524e64aa9b05e594485af82842704710a8016dbf386f7724acbe36ce6f2f4"
   }
  ]
 }
