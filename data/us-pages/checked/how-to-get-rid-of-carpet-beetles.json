@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-carpet-beetles",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ff2538bb18f940af81fee4dbf12e290feb2e0a09f140886f7691312676294cf9",
+ "sha": "0244c380de7b14918d05f79909d2d6e32cd747e9d6f7cf882352c9bfb0dae606",
  "claimsChecked": 296,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -27,6 +27,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: one sentence added after the signs paragraph in 'How do you know if you have carpet beetles?' linking the new /blog/signs-of-carpet-beetles; no fact changed.",
    "previousSha": "436607fc9178d76e0c35846ced5c9ec28f70382bf9d9b415f0f31eee1f454795"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "alsoTargets: removed 'carpet beetle larvae' (now owned by /blog/carpet-beetle-larvae, 2026-10-24) (volume-20, Oct 23)",
+   "previousSha": "ff2538bb18f940af81fee4dbf12e290feb2e0a09f140886f7691312676294cf9"
   }
  ]
 }

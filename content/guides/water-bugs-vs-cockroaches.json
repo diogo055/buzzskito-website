@@ -2,41 +2,42 @@
   "slug": "water-bugs-vs-cockroaches",
   "kind": "spoke",
   "cluster": "cockroaches",
-  "keyword": "water bugs vs cockroaches",
-  "alsoTargets": [],
-  "metaTitle": "Water Bugs vs Cockroaches: Tell Them Apart",
-  "metaDescription": "A true water bug is a pond insect that bites; the waterbug in your basement is usually an Oriental cockroach. See how to tell them apart.",
+  "keyword": "water bug",
+  "alsoTargets": ["water bugs", "water bugs vs cockroaches", "water bug vs cockroach", "giant water bug", "toe biter", "water bug bite", "do water bugs fly", "what is a water bug"],
+  "metaTitle": "Water Bug vs Cockroach: How to Tell Them Apart",
+  "metaDescription": "Water bug can mean a pond insect, the toe-biter, with a painful bite, or the cockroach in your basement. Photos and how to tell them apart.",
   "h1": "Water Bugs vs Cockroaches: How to Tell Which One You Found",
   "dek": "Why two unrelated insects share one nickname, how to tell a giant water bug from an Oriental or American cockroach by sight, and what each one means for your home.",
   "breadcrumb": "Water Bugs vs Cockroaches",
   "excerpt": "Two unrelated insects share the name water bug. Here is how to tell a biting giant water bug from an Oriental or American cockroach, and what to do about each.",
   "datePublished": "2026-10-07",
+  "dateModified": "2026-10-23",
   "quickAnswer": {
-    "lead": "**A true water bug is a pond insect that bites, while the waterbug in a basement or drain is usually an Oriental cockroach.** The giant water bug is brown, flat and up to about 2.5 inches long, with grasping front legs. [Penn State Extension](https://extension.psu.edu/oriental-cockroaches) says Oriental cockroaches earn the nickname from the dark, damp places they hide.",
+    "lead": "**Water bug is a name for two different insects: the giant water bug, a pond insect nicknamed the toe-biter for its painful bite, and the cockroach in a basement or drain, usually an Oriental cockroach.** The giant water bug is brown, flat and up to about 2.5 inches long, with grasping front legs. [Penn State Extension](https://extension.psu.edu/oriental-cockroaches) says Oriental cockroaches earn the nickname from the dark, damp places they hide.",
     "bullets": [
       "Giant water bugs are about 2 to 2.5 inches long, live in ponds, lakes and slow streams, and fly to lights on summer nights.",
       "Oriental cockroaches are about 1 to 1.25 inches long, dark brown to nearly black, and do not fly.",
-      "American cockroaches are about 2 inches long, reddish brown, and the adults can fly on warm, humid evenings.",
+      "American cockroaches are about 2 inches long and reddish brown, and both adult males and females can fly.",
       "Mississippi State Extension describes a giant water bug bite as extremely painful but short-lived, with no long-term adverse effects.",
       "Oriental cockroaches die within two weeks without water, so leaks and damp spots are the weak point.",
       "Giant water bugs are not household pests, while Oriental and American cockroaches are."
     ]
   },
   "facts": {
-    "title": "Water bug or cockroach at a glance",
+    "title": "True water bug or cockroach? Quick ID",
+    "head": ["Insect", "Size and look", "Where you find it", "Flies?", "Bite or pest?"],
     "rows": [
-      ["True water bug", "Giant water bug: aquatic predator, about 2 to 2.5 inches"],
-      ["Cockroach called a waterbug", "Oriental cockroach: about 1 to 1.25 inches, dark brown to nearly black"],
-      ["Where each lives", "Water bug: ponds, lakes, slow streams. Oriental cockroach: damp basements, crawl spaces, drains"],
-      ["Flight", "Giant water bug flies to lights; Oriental cockroach does not fly; American cockroach adults can"],
-      ["Bite", "Giant water bug: extremely painful if handled or disturbed"],
-      ["Household pest?", "Giant water bug: no. Oriental and American cockroaches: yes"],
-      ["Weak point of the cockroach", "Dies within two weeks without water (Oriental)"]
-    ]
+      ["Giant water bug (toe-biter)", "About 2 to 2.5 inches; brown, flat and oval, with grasping front legs and no long antennae", "Ponds, lakes and slow streams, where it lives as an aquatic predator; strays to lights and pools", "Yes, toward lights on summer nights", "Extremely painful bite if handled or disturbed; not a household pest"],
+      ["Oriental cockroach (waterbug)", "About 1 to 1.25 inches; dark brown to nearly black, with short wings or only wing pads", "Damp basements, crawl spaces and drains; dies within two weeks without water", "No", "A household pest: allergens, and may spread germs"],
+      ["American cockroach (palmetto bug)", "About 2 inches; reddish brown, with pale edges on the plate behind the head", "Warm, humid places: sewers, storm drains, water meter boxes", "Yes, adults of both sexes", "A household pest that also lives outdoors and in sewers"],
+      ["Smokybrown cockroach", "About 1.25 to 1.5 inches; dark brown to mahogany, with an almost black plate behind the head", "Outdoor plantings, woodpiles and garages; sometimes attics", "Yes, especially on warm, humid evenings", "A nuisance pest that sometimes invades homes"]
+    ],
+    "caption": "The giant water bug is the true water bug; the cockroaches share the nickname. From Missouri's Department of Conservation, Mississippi State, Kentucky, Minnesota, UC IPM, Penn State and Texas A&M, all linked on this page. Sources differ slightly on sizes."
   },
   "body": [
     { "type": "h2", "text": "Are water bugs and cockroaches the same insect?" },
     { "type": "p", "text": "No. Water bug is a nickname that has landed on two unrelated insects: the giant water bug, which lives in ponds and bites, and the Oriental cockroach, which hides in damp basements and drains. [Penn State Extension](https://extension.psu.edu/oriental-cockroaches) says Oriental cockroaches are often called water bugs because they favor dark, damp, cool places such as under sinks and washing machines, and the [University of California's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) notes that the same species is sometimes called a water bug or a black beetle." },
+    { "type": "figure", "src": "/guides/photos/giant-water-bug-brick-pavement.webp", "width": 1200, "height": 1200, "alt": "Brown American giant water bug on sunlit red brick paving, seen from above, with a flat oval body and two hooked grasping front legs", "caption": "An American giant water bug on brick paving in Maryland. The person who photographed it reports a very painful bite after trying to move it by hand.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/154722407" },
     { "type": "p", "text": "The name fits the giant water bug better. [Missouri's Department of Conservation](https://www.mdc.mo.gov/discover-nature/field-guide/giant-water-bugs) describes a brownish, flattened, beetle-like insect that lives in ponds and sluggish water and eats insects, crayfish, frogs, fish and young turtles and snakes. The [University of Kentucky](https://www.uky.edu/Ag/CritterFiles/casefile/insects/bugs/giantwater/giantwater.htm) records the confusion running the other way, listing water roach among the giant water bug's other names." },
     { "type": "p", "text": "The two call for opposite responses. A giant water bug is a pond animal that strayed toward a light and is best left alone, while a roach in the house is a pest that needs a plan. If you want the background on the species behind the nickname first, [the complete cockroach guide for US homes](/learn/cockroaches) covers all of them." },
 
@@ -46,12 +47,12 @@
       ["Size", "About 2 to 2.5 inches", "About 1 to 1.25 inches", "About 2 inches"],
       ["Color and body", "Brown, flattened, oval and beetle-like", "Dark brown to almost black, with a greasy sheen", "Reddish brown, with light-colored edges on the plate behind the head"],
       ["Head end", "Large grasping front legs and a sharp piercing beak", "Long antennae and a shield-shaped plate behind the head", "Long antennae and a shield-shaped plate behind the head"],
-      ["Wings", "Adults fly at night, toward lights", "Males have short wings, females only small pads; does not fly", "Adults can fly, especially on warm, humid evenings"],
+      ["Wings", "Adults fly at night, toward lights", "Males have short wings, females only small pads; does not fly", "Adults can fly, males and females alike"],
       ["Movement", "Swims with long oar-like hind legs", "Sluggish; stays at or below ground level; cannot climb smooth vertical surfaces", "Forages from sewers into ground floors; adults can fly"],
       ["Where it lives", "Ponds, lakes, slow streams and wetlands", "Cool, dark, damp places: basements, crawl spaces, drains, water meter boxes", "Warm, humid places: sewers, storm drains, water meter boxes, steam tunnels"],
       ["Health concern", "Very painful bite if handled", "Allergens; may spread germs", "Allergens; can carry bacteria that cause food poisoning"],
       ["Household pest?", "No, a stray from water", "Yes", "Yes, though it also lives outdoors and in sewers"]
-    ], "caption": "Compiled from Missouri's Department of Conservation, Mississippi State Extension, the University of Kentucky, UC IPM and Penn State Extension. Sources differ slightly: about 2 versus up to 2.5 inches for the water bug, and about 1 versus 1.25 inches for the Oriental cockroach." },
+    ], "caption": "Compiled from Missouri's Department of Conservation, Mississippi State Extension, the University of Kentucky, UC IPM, Penn State Extension and Texas A&M AgriLife. Sources differ slightly: about 2 versus up to 2.5 inches for the water bug, and about 1 versus 1.25 inches for the Oriental cockroach." },
     { "type": "media", "needed": "Side-view photo of an adult giant water bug on a flat light surface beside a US quarter for scale, showing the flattened oval brown body, the large grasping front legs and the beak" },
     { "type": "media", "needed": "Top-down photo of an adult Oriental cockroach and an adult American cockroach side by side next to a US penny, showing the size and color difference, the shield-shaped plate behind the head and the long antennae" },
     { "type": "p", "text": "Behavior is a second clue. UC IPM describes cockroaches as mostly nocturnal insects that crawl quickly and may climb rough surfaces, and Penn State calls the Oriental cockroach sluggish, found at or below ground level and rarely on walls or upper floors. A large insect beside a lit doorway or floating in a swimming pool is more likely to be the aquatic one, as the next section explains." },
@@ -59,16 +60,32 @@
 
     { "type": "h2", "text": "What is a giant water bug, and why is one at my door?" },
     { "type": "p", "text": "A giant water bug is a large aquatic predator that sometimes leaves the water on summer nights and flies toward bright lights. [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2024/giant-water-bug-vol-10-no-08) says adults reach up to 2.5 inches, live in ponds, lakes and streams throughout the country, and are relatively common but rarely seen. On summer nights they sometimes crawl out of the water and fly, it adds, and they are attracted to artificial lights, sometimes crash-landing nearby. Missouri says these night flights occasionally end with a bug in a swimming pool." },
+    { "type": "figure", "src": "/guides/photos/giant-water-bug-store-sidewalk.webp", "width": 1200, "height": 900, "alt": "Dark brown giant water bug on a light concrete sidewalk beside a crack, seen from above, with its grasping front legs held forward", "caption": "Uhler's giant water bug on the sidewalk outside a store in North Carolina. Look for the flat, oval body and the grasping front legs.", "license": "CC-BY-4.0", "credit": "(c) Matthew Lumsden, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/400202538" },
     { "type": "p", "text": "In the water, it is an ambush hunter. Mississippi State reports that young nymphs eat other insects and small aquatic invertebrates, while large nymphs and adults take minnows, tadpoles, frogs, and small snakes and turtles. The bug grabs prey with its front legs and injects saliva that paralyzes the victim and begins digesting it. Missouri calls giant water bugs generally beneficial because they consume mosquito larvae." },
     { "type": "p", "text": "One oddity helps with identification. Missouri reports that the female lays her eggs in a flat cluster on the male's back, and that an egg-laden male cannot fly or mate until the eggs hatch. Kentucky adds that only some species do this. A water bug carrying a mat of eggs is therefore a male that is not about to fly to your porch light." },
     { "type": "media", "needed": "Close-up photo of a male giant water bug with a flat cluster of eggs on its back, resting on a white surface or a gloved hand so the size is clear" },
 
+    { "type": "h2", "text": "What is a toe-biter?" },
+    { "type": "p", "text": "Toe-biter is another name for the giant water bug, and it comes from the bite. [Missouri's Department of Conservation](https://www.mdc.mo.gov/discover-nature/field-guide/giant-water-bugs) says giant water bugs that are handled, or bothered by barefoot waders, can deliver an excruciatingly painful bite, hence the name. The [University of Kentucky](https://www.uky.edu/Ag/CritterFiles/casefile/insects/bugs/giantwater/giantwater.htm) lists toe-biters, belostomatids, water roaches and electric light bugs among its other names, and [the University of Minnesota's Department of Entomology](https://entomology.umn.edu/giant-water-bug) adds alligator ticks, for the insect's tick-like look." },
+    { "type": "p", "text": "The name covers several species. [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2024/giant-water-bug-vol-10-no-08) names two of the more common ones: *Benacus griseus*, colloquially called the eastern toe-biter, and *Lethocerus americanus*, the one officially known as the giant water bug. Not all of them are giants. Kentucky says its most commonly encountered giant water bugs are only about 1 inch long, and that its common *Belostoma* species look very similar to the big *Lethocerus* water bugs apart from their size." },
+    { "type": "figure", "src": "/guides/photos/giant-water-bug-in-hand.webp", "width": 1200, "height": 1748, "alt": "Large dark brown giant water bug lying across the fingers of an open hand, seen from above, with its grasping front legs folded", "caption": "A giant water bug of the species Mississippi State calls the eastern toe-biter, found in a parking garage in Louisiana and shown on an open hand for size.", "license": "CC-BY-4.0", "credit": "(c) Amber M. King, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/129346571" },
+    { "type": "p", "text": "Electric light bug comes from the night flights. The [University of Florida's giant water bug profile](https://ask.ifas.ufl.edu/publication/IN578) says adults fly from pond to pond or pool of water in the mating season, and that during these flights they fly to lights in large numbers. Mississippi State says they leave the water on summer nights in search of mates, or to escape water that is drying up, and sometimes crash-land and end up stranded near lights. [University of Minnesota Extension](https://apps.extension.umn.edu/garden/diagnose/insect/general-curiosity-insects/beetles/large/giant-water-bug.html) finds them in shallow ponds and lakes from May to August, and around lights in yards, parking lots and recreational fields." },
+    { "type": "p", "text": "For all the name, the bite is a defense. UMN Extension says a mishandled giant water bug can jab you to defend itself, and Minnesota's entomologists point out that human toes are not on its menu. Florida adds that it can pinch with its front legs as well as bite with its strong beak. The section on water bug bites below covers how much it hurts; the practical rule is Kentucky's: giant water bugs can bite, so they should not be handled." },
+
+    { "type": "h2", "text": "Why does the male carry eggs on its back?" },
+    { "type": "p", "text": "Because in two groups of giant water bugs, *Abedus* and *Belostoma*, that is where the female lays them. The [University of Florida](https://ask.ifas.ufl.edu/publication/IN578) says females of these two genera glue their eggs onto the males' backs, calls egg carrying by males a unique feature of the pair, and says the eggs hatch in one to two weeks. Missouri describes the result as a big, flat cluster that stays on the male until the young hatch." },
+    { "type": "p", "text": "Missouri's explanation is protection: on the male's back, the eggs are safe from the many aquatic animals that would otherwise eat them. The cost falls on the male, which Missouri says cannot fly or mate again until the eggs hatch, while the female often mates again. Florida even notes a report of females laying eggs on other females' backs when large enough males were scarce." },
+    { "type": "p", "text": "The big *Lethocerus* water bugs work differently. Florida says *Lethocerus* eggs are laid above the water on plants and other objects, and Minnesota's entomologists say the male American giant water bug guards them there. A giant water bug with a mat of eggs on its back is therefore usually an *Abedus* or *Belostoma* male, not a *Lethocerus*." },
+
     { "type": "h2", "text": "Which cockroaches do people call water bugs?" },
     { "type": "p", "text": "Mostly the Oriental cockroach, a dark, slow insect of damp, low places that does not fly. UC IPM lists it at about 1.25 inches and almost black, living in cool, dark, damp places such as garages, basements, water meter boxes and drains, and unable to climb smooth vertical surfaces. Penn State puts adults at about an inch, very dark brown to nearly black with a greasy sheen. The two sources differ by a fraction of an inch, so expect something between 1 and 1.25 inches." },
+    { "type": "figure", "src": "/guides/photos/oriental-cockroach-garage-floor.webp", "width": 1200, "height": 1200, "alt": "Shiny, nearly black Oriental cockroach on a gray concrete floor beside a dry leaf, seen from above", "caption": "An adult Oriental cockroach on a concrete garage floor in Pennsylvania. Look for the very dark, nearly black body Penn State describes.", "license": "CC-BY-4.0", "credit": "(c) Nelson Chu Pavlosky, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/242704549" },
     { "type": "p", "text": "Males have short wings that cover about three-quarters of the abdomen, and females have only small, functionless wing pads, and UC IPM says the species does not fly. Penn State places the species indoors under porches, in drains, sewers, crawl spaces and damp basements, and gathered around leaks. Outdoors it lives in leaf litter, bark mulch around foundations, water valve pits and garbage areas, and it may move inside during dry spells to find humidity." },
+    { "type": "figure", "src": "/guides/photos/oriental-cockroaches-manhole.webp", "width": 1200, "height": 1600, "alt": "Dozens of shiny black Oriental cockroaches in the grass at night around a rusty sewer manhole cover", "caption": "Oriental cockroaches out at night around a sewer manhole cover in Washington, DC, which the photographer saw them coming out of.", "license": "CC-BY-4.0", "credit": "(c) Carrie Seltzer, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/2986238" },
     { "type": "p", "text": "The [guide to the Oriental cockroach](/blog/oriental-cockroaches) shows males and females in photos and covers where the species lives, when it is most active and the checks that separate it from American, smokybrown and Turkestan cockroaches." },
     { "type": "h3", "text": "What about the American cockroach?" },
-    { "type": "p", "text": "The American cockroach is the larger, reddish brown species that shares the Oriental cockroach's damp territory. UC IPM lists it at about 2 inches with light-colored edges on the plate behind the head, and says adults can fly, especially on warm, humid evenings. It prefers warm, humid conditions, usually above 82°F (28°C), in places such as sewers, water meter boxes, storm drains and steam tunnels, and UC IPM says it readily lives outdoors under the right conditions. That overlap in size and in warm-evening flights is why a large flying insect at night can be either one. Which cockroaches really fly, and how well, is laid out in [the species-by-species guide to flying roaches](/blog/can-cockroaches-fly)." },
+    { "type": "p", "text": "The American cockroach is the larger, reddish brown species that shares the Oriental cockroach's damp territory. UC IPM lists it at about 2 inches with light-colored edges on the plate behind the head, and Texas A&M AgriLife says both adult males and females can fly. It prefers warm, humid conditions, usually above 82°F (28°C), in places such as sewers, water meter boxes, storm drains and steam tunnels, and UC IPM says it readily lives outdoors under the right conditions. That overlap in size and in warm-evening flights is why a large flying insect at night can be either one. Which cockroaches really fly, and how well, is laid out in [the species-by-species guide to flying roaches](/blog/can-cockroaches-fly)." },
+    { "type": "p", "text": "[Texas A&M AgriLife Extension](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) lists waterbug and palmetto bug as other names for the American cockroach, puts adults at 1 1/2 to 2 inches, and says both males and females can fly. It also says American and Oriental cockroaches commonly enter buildings through floor drains, and advises keeping drain traps filled with water as a barrier between the sewer and the home." },
     { "type": "p", "text": "The [palmetto bug guide](/blog/palmetto-bugs) compares the American cockroach with the other large roaches that go by that name, with photos." },
 
     { "type": "h2", "text": "Do water bugs bite?" },
@@ -80,9 +97,22 @@
     { "type": "p", "text": "Penn State links Oriental cockroaches to gastroenteritis, dysentery and diarrhea through disease organisms carried on their legs and bodies. It also lists allergic reactions to their droppings and shed skins, including sneezing, watery eyes, nasal congestion and asthma. UC IPM says the American cockroach is capable of transmitting the bacteria *Salmonella* and *Shigella*, which cause food poisoning. The sources use cautious wording such as capable of and linked to, so read these as documented risks, not as a certainty that any one roach has made someone sick." },
     { "type": "p", "text": "If anyone in the home has asthma or allergy symptoms that are worse indoors and you are finding cockroaches, tell their healthcare provider about the infestation. The giant water bug has no comparable household risk; Kentucky says giant water bugs are not considered pests." },
 
+    { "type": "confused", "items": [
+      { "href": "/blog/oriental-cockroaches", "name": "Oriental cockroach", "photo": "oriental-cockroach", "note": "About 1 to 1.25 inches and nearly black; lives in damp basements and drains and does not fly" },
+      { "href": "/blog/palmetto-bugs", "name": "Palmetto bug (American cockroach)", "photo": "american-cockroach", "note": "About 2 inches and reddish brown, with pale edges on the plate behind the head; adults fly" },
+      { "href": "/blog/german-cockroaches", "name": "German cockroach", "photo": "german-cockroach-adult", "note": "Only about 1/2 inch, light brown, with two dark stripes on the plate behind the head" },
+      { "href": "/blog/bugs-that-look-like-cockroaches", "name": "Beetles that look like roaches", "photo": "ground-beetle", "note": "Thick, hardened front wings; adult cockroaches have membranous wings instead", "alt": "Shiny black ground beetle specimen pinned on white foam beside a metric ruler" }
+    ] },
+
     { "type": "h2", "text": "What should you do about a giant water bug?" },
     { "type": "p", "text": "Leave it alone, or move it outside without touching it, because it is not a household pest and the bite is the only real risk. Missouri describes the painful bite coming when waders handle or disturb the insect, and Mississippi State says bites are rare because encounters are infrequent. A bug stranded on a porch can be nudged into a container with a piece of cardboard and released near water, and one in a pool can be lifted out with a net." },
     { "type": "p", "text": "Because adults are drawn to artificial lights, a bright light near a pond or pool is the likely draw. The sources describe that attraction, but none tests a lighting change as a fix, so there is no evidence-based method to offer. What they do show is that the visits are seasonal: Mississippi State ties the flights to summer nights." },
+
+    { "type": "h2", "text": "Why is there a water bug in my pool?" },
+    { "type": "p", "text": "Most likely it flew in at night. Missouri says giant water bugs are strong fliers that are attracted to artificial lights after dark, and that they are sometimes found in swimming pools as a result of these night trips. Florida describes adults flying from pond to pond or pool of water in the mating season, and UMN Extension says they are found from May to August." },
+    { "type": "figure", "src": "/guides/photos/toe-biter-pool-filter.webp", "width": 1200, "height": 900, "alt": "Brown Belostoma toe-biter on damp gray concrete, seen from above, with a flat oval body and short grasping front legs", "caption": "A Belostoma toe-biter, one of the smaller giant water bugs, pulled alive out of a swimming pool filter on Long Island, New York.", "license": "CC-BY-4.0", "credit": "(c) David LaMagna, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/134635002" },
+    { "type": "p", "text": "Lift it out with the pool's skimmer net, as Missouri advises because of the painful bite, and let it go away from the pool. Do not pick it up: Kentucky says giant water bugs can bite and should not be handled, and Florida says they can also pinch with their front legs. Mississippi State notes that children are among the most common bite victims, so keep them out of the water until it is gone." },
+    { "type": "p", "text": "None of the sources cited here recommends an insecticide for a giant water bug in a pool; Missouri's advice is a net. Any pesticide may be used only where and how its label directs." },
 
     { "type": "h2", "text": "How do you get rid of the cockroaches called water bugs?" },
     { "type": "p", "text": "Cut off water, close the gaps, and put bait where the roaches live. That is the pattern in the extension guidance, and it targets what these species need most: Penn State reports that Oriental cockroaches die within two weeks without water, although they can live a month without food when water is available." },
@@ -102,7 +132,7 @@
   "faqs": [
     {
       "question": "Can giant water bugs fly?",
-      "answer": "Yes. Mississippi State Extension says giant water bugs sometimes crawl out of the water on summer nights and fly, and that they are drawn to artificial lights. Missouri's Department of Conservation says these night flights occasionally land them in swimming pools. Among the cockroaches, UC IPM reports that American cockroach adults can fly, especially on warm, humid evenings, while Oriental cockroaches do not fly. A large insect circling a light at night could therefore be either a giant water bug or an American cockroach, and the legs, size and color sort them out."
+      "answer": "Yes. Mississippi State Extension says giant water bugs sometimes crawl out of the water on summer nights and fly, and that they are drawn to artificial lights. Missouri's Department of Conservation says these night flights occasionally land them in swimming pools. Among the cockroaches, Texas A&M AgriLife says both adult male and female American cockroaches can fly, while UC IPM says Oriental cockroaches do not fly. A large insect circling a light at night could therefore be either a giant water bug or an American cockroach, and the legs, size and color sort them out."
     },
     {
       "question": "Is a giant water bug bite dangerous?",
@@ -119,6 +149,26 @@
     {
       "question": "Do giant water bugs eat mosquitoes?",
       "answer": "They eat the larvae. Missouri's Department of Conservation calls giant water bugs generally beneficial because they consume mosquito larvae. Larvae are only part of the diet, though: large nymphs and adults also eat minnows, tadpoles, frogs and small snakes and turtles, according to Mississippi State Extension. None of the sources reviewed here claims that the giant water bugs in a pond prevent a mosquito problem, so treat them as one natural predator among many and not as a control method."
+    },
+    {
+      "question": "What is a water bug?",
+      "answer": "Water bug is a common name for two unrelated insects. The true water bug is the giant water bug, a brown, flat pond insect up to about 2.5 inches long with grasping front legs, also called the toe-biter and the electric light bug. In homes, the name usually means a cockroach: Penn State and UC IPM say the Oriental cockroach is called a water bug, and Texas A&M lists waterbug as another name for the American cockroach. The giant water bug is not a household pest; both cockroaches are."
+    },
+    {
+      "question": "Do water bugs bite?",
+      "answer": "The giant water bug does, and the bite hurts. Missouri's Department of Conservation calls it excruciatingly painful, and Mississippi State Extension says people who have been bitten describe it as more painful than any other insect sting or bite they have had, though the pain is relatively short-lived with no long-term adverse effects. Bites are rare, and Missouri says they come when a bug is handled or disturbed by barefoot waders. The University of Kentucky notes that, very rarely, someone has a medically serious reaction. The cockroaches called water bugs are a different case: their main risks are allergens and germs."
+    },
+    {
+      "question": "Are water bugs and palmetto bugs the same thing?",
+      "answer": "Sometimes, depending on who uses the names. Texas A&M AgriLife Extension lists waterbug and palmetto bug as other names for the American cockroach, a reddish brown roach about 2 inches long whose adults can fly. Penn State and UC IPM apply water bug to the Oriental cockroach, a smaller, nearly black roach that does not fly. Neither is the true water bug, the giant water bug of ponds and slow streams, which is not a cockroach and not a household pest."
+    },
+    {
+      "question": "Why do I have water bugs in my house?",
+      "answer": "If the water bug is a cockroach, damp hiding places and easy ways in are the usual reasons. Penn State says Oriental cockroaches favor dark, damp, cool areas, gather around leaks in basements and crawl spaces, and may move indoors during dry spells in search of humidity. Texas A&M says American and Oriental cockroaches commonly come in through floor drains, and UC IPM says American cockroaches forage from sewers into ground floors where pipes are damaged or drain traps are faulty. A giant water bug near the house is more likely a stray drawn to lights at night."
+    },
+    {
+      "question": "What does a water bug look like?",
+      "answer": "It depends on which one you mean. The giant water bug is brown, flat and oval, with large grasping front legs, a sharp, piercing beak and none of the long antennae a cockroach has. Mississippi State puts adults at up to 2.5 inches, though Kentucky says its most common kinds are only about 1 inch long. The Oriental cockroach called a water bug is about 1 to 1.25 inches long, dark brown to nearly black with a greasy sheen, and has short wings or only wing pads. Cockroaches have long antennae and a shield-shaped plate behind the head."
     }
   ],
   "sources": [
@@ -127,6 +177,10 @@
     { "title": "Giant Water Bugs of Kentucky", "publisher": "University of Kentucky Department of Entomology", "url": "https://www.uky.edu/Ag/CritterFiles/casefile/insects/bugs/giantwater/giantwater.htm" },
     { "title": "Cockroaches (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
     { "title": "Oriental Cockroaches", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/oriental-cockroaches" },
-    { "title": "Asthma Triggers: Gain Control", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/asthma/asthma-triggers-gain-control" }
+    { "title": "Asthma Triggers: Gain Control", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/asthma/asthma-triggers-gain-control" },
+    { "title": "EENY-301/IN578: Giant Water Bugs, Electric Light Bugs, Lethocerus, Abedus, Belostoma", "publisher": "University of Florida IFAS Extension (Featured Creatures)", "url": "https://ask.ifas.ufl.edu/publication/IN578" },
+    { "title": "Giant water bug (What insect is this?)", "publisher": "University of Minnesota Extension", "url": "https://apps.extension.umn.edu/garden/diagnose/insect/general-curiosity-insects/beetles/large/giant-water-bug.html" },
+    { "title": "Giant Water Bug", "publisher": "University of Minnesota Department of Entomology", "url": "https://entomology.umn.edu/giant-water-bug" },
+    { "title": "Cockroach Biology and Management", "publisher": "Texas A&M AgriLife Extension", "url": "https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/" }
   ]
 }

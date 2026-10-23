@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d2be3e9de07d10b80fc9aed607474dab0b655bd4a07b3d626dc5a909497a4c29",
+ "sha": "2d338a2c1e3e02146b9dd0a242fa4e23e3335c75e291776428b34838bd38c3ec",
  "claimsChecked": 195,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 2,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: cat-flea-on-fingertip (batch 12, Oct 23)",
+   "previousSha": "d2be3e9de07d10b80fc9aed607474dab0b655bd4a07b3d626dc5a909497a4c29"
+  }
+ ]
 }

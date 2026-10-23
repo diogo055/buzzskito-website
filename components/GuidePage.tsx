@@ -226,6 +226,8 @@ const longDate = (iso: string) => new Date(iso).toLocaleDateString('en-US', { ye
  * These guides were drafted with AI assistance and fact-checked by a second AI pass, so they
  * do NOT carry the site's usual "By <person>" byline: Google asks for accurate authorship and
  * Mediavine does not monetize undisclosed AI content. The publisher is named instead.
+ * Owner, Oct 23, 2026: the AI note is no longer repeated under the title; the method is stated
+ * once, in "How this guide was made" at the foot of the page beside the sources.
  *
  * When a person has actually read and approved a guide, add "reviewedBy" and "reviewedOn" to
  * that guide's JSON file. The byline and the note at the foot of the page then say so. Only
@@ -247,7 +249,7 @@ function Byline({ guide }: { guide: Guide }) {
         <p className="text-xs text-gray-600">
           Published {longDate(guide.datePublished)}
           {guide.dateModified && guide.dateModified !== guide.datePublished ? <> · Updated {longDate(guide.dateModified)}</> : null}
-          {' '}· Drafted with AI assistance and fact-checked against the <a href="#sources" className="underline">sources listed below</a>
+          {' '}· Fact-checked against the <a href="#sources" className="underline">sources listed below</a>
         </p>
       </div>
     </div>

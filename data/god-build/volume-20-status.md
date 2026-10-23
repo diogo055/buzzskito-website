@@ -44,3 +44,39 @@ Owner's words: "build the 20 most stat changing pages u can right now. Backed by
   - **Writers wave 1 launched (7):** jumping-spiders, orb-weaver-spiders, camel-spiders, joro-spiders, what-do-termites-look-like, weevils, carpet-beetle-larvae.
   - **Wave 2 waits for photo batch 12:** paper-wasps, mud-daubers, wheel-bugs, pill-bugs, booklice, jerusalem-crickets, shrews, flea-bites, fruit-flies, drain flies, bed bug bites.
   - **The plan files are not committed yet.**
+- **~17:00 UTC update (allowance 63% weekly):**
+  - **Committed locally, NOT pushed** (they push with tomorrow's release build):
+    - `1108eeed`: the 10 upgrades, checker-fixed, affiliate tokens identical.
+    - `8ff62ba3`: the plan.
+  - **Photo batch 12** done: 58 photos, ledger now 479. NOT committed yet: script, ledger, notes batch12, public photos.
+  - **Wave 1 status:**
+    - joro-spiders, jumping-spiders, camel-spiders, carpet-beetle-larvae, what-do-termites-look-like and orb-weaver-spiders are written, and each has its checker running.
+    - weevils' writer is still running.
+  - **Wave 2 writers (11) launched ~17:05:** paper-wasps, mud-daubers, wheel-bugs, pill-bugs, booklice, jerusalem-crickets, shrews, flea-bites, fruit-flies, how-to-get-rid-of-drain-flies, what-do-bed-bug-bites-look-like.
+  - **Live re-aims agent launched:** do-ants-bite and water-bugs-vs-cockroaches, plus the side-target removals per `UPGRADES.md`.
+  - **After every writer finishes:** run its checker. Each checker gets a SHORT brief: CHECKER_BRIEF, the flagged items, validate, record LAST, a final message under 60 words.
+  - **When all 14 Oct-24 pages are checked:**
+    - Link-ins: one agent; every new page needs ≥1 inbound link from a live guide. Frozen until after Oct 30: what-does-a-spider-bite-look-like, bugs-that-look-like-ticks, Canadian fly and bed bug pages.
+    - `RELEASE_DATE=2026-10-24 node scripts/release-scheduled.mjs`.
+    - amazon.com picks: each writer reported 1-2 generic types (joro: telescoping cobweb brush; jumping: bug-catcher cup; camel: bug catcher jar; carpet beetle larvae: hand lens; termites: specimen vials; orb weavers: yellow bug-light bulbs).
+    - Then build, commit by path, push (not 12:15-12:45 UTC), verify the deploy, and index 10 a day.
+- **~17:50 UTC update (weekly allowance 65%):**
+  - Committed locally, not pushed: `b1a5c1b6` photo batch 12 (58 photos, ledger 479).
+  - Checked and recorded: jumping-spiders, joro-spiders, camel-spiders.
+    - The orchestrator added batch-12 photos to all three. Placeholders were kept beside the photos where a photo only partly meets the request (RETROFIT_BRIEF), then amended.
+  - Checkers still running: orb-weaver, carpet-beetle-larvae, termites, weevils. Each was told by message to add its batch-12 photos with the same placeholder rule.
+  - Link-ins done: 10 links from 9 live guides, each amended:
+    - flying-ants-vs-termites, signs-of-carpet-beetles and beetles-in-house (x2)
+    - tiny-black-bugs, camel-crickets and types-of-mice
+    - house-spiders, wolf-spiders and diy-pest-control
+    - The re-aims agent adds pantry-pests → weevils and carpet-beetles → larvae per UPGRADES.md.
+  - Live photo pass agent running on about 15 live guides (batch-12 photos the scout picked for them). It skips the frozen 29, the Oct 20 retrofits and the re-aims agent's pages.
+  - The diagram on when-are-mosquitoes-most-active now reads "past the evening peak" instead of "biting falls away" (SVG + alt; not committed yet).
+  - amazon.com picks staged in scratchpad `picks-oct24.json` for joro, jumping and camel. Apply them after the release, before the build: check:amazon fails on a pick for a page that is not live.
+  - No title work on are-ticks-arachnids-or-insects or what-blood-type-do-mosquitoes-bite:
+    - blood-type already answers "hate";
+    - the ticks page's searches are yes/no questions that Google answers itself.
+  - Release gate notes:
+    - The release needs `record.sha === sha(file)`, so amend after ANY edit.
+    - Links from other pages going out the same day count.
+    - Hubs /learn, /learn/mice, /learn/bug-bites and /learn/bed-bugs are all live.

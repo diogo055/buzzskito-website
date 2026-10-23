@@ -2,7 +2,7 @@
  "id": "camel-crickets",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9e6231695b96edf1423b46a3775e4f076ab235779c43e56c8216201b0143739a",
+ "sha": "c9b9e41572b1afa2de350ffefe7071b24f7fbea3e4886233c25720820a28dc48",
  "claimsChecked": 308,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-10-22",
   "scheduledFor": "2026-10-22",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/jerusalem-crickets (volume-20, Oct 23)",
+   "previousSha": "9e6231695b96edf1423b46a3775e4f076ab235779c43e56c8216201b0143739a"
+  }
+ ]
 }

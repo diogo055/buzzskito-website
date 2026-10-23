@@ -2,7 +2,7 @@
  "id": "tiny-black-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "472821d272f03b8fac4098efc6dbf59c431f12e3c5065ad6bbe1e75916265d90",
+ "sha": "f473cad392ffe81b880d56d3df83a2ddb56d901a2c53479860e6079e04b8d8f5",
  "claimsChecked": 241,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -27,6 +27,11 @@
    "on": "2026-10-21",
    "note": "link-in 2026-10-21: one sentence linking /blog/signs-of-carpet-beetles added in 'Carpet beetles and their larvae' (no new facts)",
    "previousSha": "440f39a0f464862e4aaeaff67169ef624fc445c9142461e0aff675919ed79664"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/weevils (volume-20, Oct 23)",
+   "previousSha": "472821d272f03b8fac4098efc6dbf59c431f12e3c5065ad6bbe1e75916265d90"
   }
  ]
 }

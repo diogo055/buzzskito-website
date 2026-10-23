@@ -1,0 +1,27 @@
+{
+ "id": "carpet-beetle-larvae",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "56d93308ceb04281be2be388dd047ace2aa33f665f11ef0d95310d1829f9287e",
+ "claimsChecked": 410,
+ "claimsCorrected": 1,
+ "claimsRemovedOrSoftened": 0,
+ "checkedOn": "2026-10-23",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "layout: the three new larva photos spread through the hiding-places section instead of stacked (no text change; orchestrator, Oct 23)",
+   "previousSha": "01946edff22f3d5af92c9cefac7ddbdf417b1b1a47db11d2e9e93c15501fd42f"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "layout fix: hallway-wall photo moved out of the hiding-places list to just after it; validate passes (orchestrator, Oct 23)",
+   "previousSha": "08082aa21d2e59640b10c8ccf3b4958143c1a5c0bbc0a15cedba57d0db6e47a5"
+  }
+ ],
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

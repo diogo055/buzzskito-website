@@ -1,0 +1,15 @@
+{
+ "id": "what-do-termites-look-like",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "db94bc2fa328b1341ec0842a2cbfd31ff2fac56836be90cd5de08ae6cb81b42e",
+ "claimsChecked": 256,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

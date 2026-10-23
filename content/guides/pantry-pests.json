@@ -3,7 +3,7 @@
   "kind": "spoke",
   "cluster": "household",
   "keyword": "pantry pests",
-  "alsoTargets": ["bugs in flour", "weevils in rice", "drugstore beetle", "bugs in rice", "pantry moths"],
+  "alsoTargets": ["bugs in flour", "drugstore beetle", "bugs in rice", "pantry moths"],
   "metaTitle": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
   "metaDescription": "Flour beetles, Indian meal moths, sawtoothed grain beetles, weevils and drugstore beetles: photos and the checks that tell which one is in your food.",
   "h1": "Bugs in Flour and Rice: How to Identify the Pantry Pests",
@@ -99,6 +99,7 @@
     { "type": "figure", "src": "/guides/photos/rice-weevil.webp", "width": 785, "height": 785, "alt": "Reddish-brown weevil with a long, narrow snout and a pitted body walking across skin among fine hairs", "caption": "Rice weevil (*Sitophilus oryzae*), photographed in Kentucky. The snout projecting forward from the head marks it as a weevil.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/200334640" },
     { "type": "p", "text": "The larvae stay out of sight. Nebraska Extension says the female lays a single egg inside a kernel and the white, legless grub hollows it out and pupates there, and Minnesota Extension says the adults leave small round exit holes. Weevils usually do not feed on flour or cereal products unless these have caked and hardened, Nebraska adds, though they can infest pasta." },
     { "type": "p", "text": "To separate rice and granary weevils, Nebraska Extension says rice weevils have four orange spots on the wing covers and round pits on the thorax and fly readily, while granary weevils are dark brown with oval pits on the thorax and cannot fly. Kentucky Entomology says rice weevil adults can live 6 to 8 months and may be found some distance from the infested food." },
+    { "type": "p", "text": "Photos of rice and granary weevils, the root weevils that wander indoors from the yard, and the clean-out steps in order are in [the guide to weevils in rice, grain and the house](/blog/weevils)." },
     { "type": "p", "text": "Dried beans have a pest of their own, the bean weevil, which Minnesota Extension says is mottled light and dark brown with no conspicuous snout, and whose larvae feed inside dried beans and peas." },
 
     { "type": "h2", "text": "Is it a spider beetle?" },

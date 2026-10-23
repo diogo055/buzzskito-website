@@ -85,6 +85,8 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/what-do-bed-bugs-look-like': '2026-10-23T12:00:00.000Z',
   '/blog/horse-fly-and-deer-fly-bite-treatment': '2026-10-23T12:00:00.000Z',
   '/blog/what-do-baby-cockroaches-look-like': '2026-10-23T12:00:00.000Z',
+  '/blog/water-bugs-vs-cockroaches': '2026-10-23T12:00:00.000Z',
+  '/blog/do-ants-bite': '2026-10-23T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

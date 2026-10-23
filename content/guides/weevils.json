@@ -1,0 +1,231 @@
+{
+  "slug": "weevils",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "weevils",
+  "alsoTargets": [
+    "weevil",
+    "weevils in rice",
+    "weevils in flour",
+    "rice weevil",
+    "how to get rid of weevils",
+    "weevils in house",
+    "what do weevils look like"
+  ],
+  "metaTitle": "Weevils: What They Are, How to Get Rid of Them",
+  "metaDescription": "Weevils are snout beetles. Photos of rice and granary weevils, why they show up in grain and around the house, look-alikes, and how to get rid of them.",
+  "h1": "Weevils: How to Identify Rice, Grain and House Weevils and Get Rid of Them",
+  "dek": "Real photos of rice and granary weevils, a quick-ID table against flour beetles and other look-alikes, the root weevils that wander in from the yard, and the clean-out steps extension entomologists give, in order.",
+  "breadcrumb": "Weevils",
+  "excerpt": "How to spot a weevil by its snout, which ones breed in rice and whole grain, which wander in from the yard, whether they bite, and how to clear them out.",
+  "datePublished": "2026-10-23",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A weevil is a small beetle with a snout: the ones in the pantry breed inside whole kernels such as rice, wheat, corn and popcorn, and the ones that wander in from the yard are root weevils that leave on their own.** Bugs in flour are more likely flour beetles, as [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food) explains, and flour beetles have no snout.",
+    "bullets": [
+      "Rice weevils are about 3/32 to 1/8 inch long (2 to 3 mm), dull reddish brown to black, with four light spots on the wing covers, and they fly, says [Oklahoma State University Extension](https://extension.okstate.edu/programs/digital-diagnostics/insects-and-arthropods/rice-weevil-sitophilus-oryzae).",
+      "The granary weevil cannot fly, and the maize weevil is a little larger, about 1/8 to 3/16 inch, according to [Oklahoma State's stored-grain fact sheet](https://extension.okstate.edu/fact-sheets/stored-grain-insect-pests-that-feed-inside-kernels-and-seeds).",
+      "Their larvae are white, legless grubs hidden inside single kernels; [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/rice-weevil-and-granary-weevil) says there is usually no outside sign until the adult chews its way out about a month later.",
+      "Strawberry root weevils, about 1/4 inch, wander indoors in summer and often end up in sinks and tubs; [UMN Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/home-invading-weevils) says they do not harm people, pets or buildings or infest food.",
+      "Iowa State says rice and granary weevils cannot bite or sting and do not carry diseases. Throwing out infested food and vacuuming the shelves clears them, and UMN does not recommend insecticides in food cupboards."
+    ]
+  },
+  "facts": {
+    "title": "Weevil or another pantry bug? Quick ID",
+    "head": ["Bug", "Snout?", "Size", "What to look for", "Where you find it"],
+    "rows": [
+      ["Rice weevil", "Yes, long", "About 3/32 to 1/8 inch", "Dull reddish brown to black; four light spots on the wing covers; flies to lights", "Inside whole grains and seeds: rice, wheat, corn, beans, birdseed"],
+      ["Maize weevil", "Yes, long", "About 1/8 to 3/16 inch", "Generally darker than the rice weevil; a stronger flier", "Corn above all; also wheat, rice, macaroni, cereal"],
+      ["Granary weevil", "Yes, long", "About 1/8 to 3/16 inch", "Uniformly dark, with no spots; cannot fly", "Inside whole grain kernels and seeds"],
+      ["Bean weevil", "No conspicuous snout", "About 1/8 inch", "Mottled light and dark brown, broadly oval; tip of the abdomen shows", "Inside dried beans and peas"],
+      ["Flour beetle", "No", "About 3/16 inch", "Reddish brown, elongate oval", "Flour, cereal products, dried fruit, nuts, chocolate"],
+      ["Sawtoothed grain beetle", "No", "About 1/10 inch", "Slender and flat; saw-like teeth along each side behind the head", "Dried fruit, cereal, nuts, macaroni, seeds"],
+      ["Drugstore beetle", "No", "About 1/8 inch", "Oval, brown and humped, head bent down; flies to windows", "Spices, grain-based foods, dried flowers"],
+      ["Strawberry root weevil", "Yes", "About 1/4 inch", "Black or dark brown, rows of pits on the back; cannot fly", "Indoors in summer, often in sinks and tubs; comes in from the yard"],
+      ["Black vine weevil", "Yes, short and broad", "About 1/2 inch", "Slate gray to blackish brown, patches of short yellow hairs; cannot fly", "Wanders in from yard plants, more in late summer and early fall"],
+      ["Acorn weevil", "Yes, very long and thin", "Adult about 3/8 inch; grub 1/4 to 3/8 inch", "Brown adult; creamy white, legless grub with a brown head", "Grubs inside acorns and hickory nuts in fall"]
+    ],
+    "caption": "Sizes and descriptions from Oklahoma State, Iowa State, Mississippi State, Colorado State and University of Minnesota Extension; snout or no snout also from the Canadian Grain Commission's beetle key. Each is linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are weevils?" },
+    { "type": "p", "text": "Weevils are beetles with a snout. [UC IPM's weevil page](https://ipm.ucanr.edu/home-and-landscape/weevils/) says they are also called snout beetles because the front of the head and the mouthparts are drawn out, and that most species are innocuous, though some are common pests. [UMN Extension's page on home-invading weevils](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/home-invading-weevils) describes small beetles often shaped like a lightbulb or a pear." },
+    { "type": "figure", "src": "/guides/photos/rice-weevil.webp", "width": 785, "height": 785, "alt": "Reddish-brown rice weevil with a long, narrow snout, antennae branching from the snout and a pitted back, crawling across skin among fine hairs", "caption": "A rice weevil, *Sitophilus oryzae*, photographed on skin in Kentucky. Look for the long snout, with the antennae attached to it.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/200334640" },
+    { "type": "p", "text": "Indoors, weevils turn up in three places, each with its own fix:" },
+    { "type": "ul", "items": [
+      "**In stored food.** Rice, maize and granary weevils breed in whole grains and seeds; [UMN's pantry pest guide](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food) says their larvae are found only inside whole kernels or seeds, and that infested food should be thrown away.",
+      "**Away from food.** Root weevils such as the strawberry root weevil wander in from the yard, and UMN says they go away on their own.",
+      "**In acorns.** The creamy white grubs that come out of acorns and hickory nuts in late fall or early winter are nut weevil larvae, [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/acorn-and-nut-weevils) says."
+    ] },
+    { "type": "p", "text": "Iowa State says [rice and granary weevils](https://yardandgarden.extension.iastate.edu/encyclopedia/rice-weevil-and-granary-weevil) and the [black vine weevil](https://yardandgarden.extension.iastate.edu/encyclopedia/black-vine-weevil), a root weevil, cannot bite or sting and do not carry diseases." },
+
+    { "type": "h2", "text": "What do weevils look like?" },
+    { "type": "p", "text": "Look for the snout, then the antennae: UC IPM says adult weevils have club-tipped antennae, bent at an elbow, attached to the sides of the snout. Many species are dull blackish, brown or gray and about 1/8 to 2/5 inch long, and some cannot fly." },
+    { "type": "p", "text": "Sizes differ by kind. [Oklahoma State University Extension](https://extension.okstate.edu/programs/digital-diagnostics/insects-and-arthropods/rice-weevil-sitophilus-oryzae) puts adult rice weevils at about 3/32 to 1/8 inch (2 to 3 mm); UMN gives about 1/4 inch for the strawberry root weevil, and Iowa State about 1/2 inch for the black vine weevil." },
+    { "type": "p", "text": "Weevil larvae are usually legless, pale grubs with a brown head that curl into a C, UC IPM says, and in the pantry species they stay hidden inside a single kernel." },
+    { "type": "checklist", "title": "Is it a weevil? Four quick checks", "items": [
+      "**Snout** sticking out in front of the head.",
+      "**Antennae** bent at an elbow and attached to the snout.",
+      "**Six legs.** UMN notes that strawberry root weevils get mistaken for ticks, which have eight.",
+      "**Where it was:** in whole grain, popcorn or birdseed, a pantry weevil; at a sink, tub or door in summer or early fall, a root weevil."
+    ] },
+
+    { "type": "h2", "text": "Which weevils get into rice and other whole grains?" },
+    { "type": "p", "text": "Three close relatives: the rice, maize and granary weevils, genus *Sitophilus*. UMN describes them as slender and dark brown, with a snout projecting forward, sometimes four orange-ish spots on the wing covers, and under 3/16 inch long; they eat only whole grains or seeds and leave small round exit holes in the kernels." },
+    { "type": "h3", "text": "Rice weevil" },
+    { "type": "p", "text": "Oklahoma State describes it as dull reddish brown to black, with four light reddish or yellowish spots on the wing covers; it flies and is attracted to lights. It mostly infests stored wheat, oats, rye, barley, rice and corn, and in homes sometimes beans, birdseed, sunflower seeds and dried corn." },
+    { "type": "h3", "text": "Maize weevil" },
+    { "type": "p", "text": "[Oklahoma State's stored-grain fact sheet](https://extension.okstate.edu/fact-sheets/stored-grain-insect-pests-that-feed-inside-kernels-and-seeds) says the maize weevil is slightly larger, about 1/8 to 3/16 inch, generally darker and a stronger flier, and that in the southern US it infests corn ears in the field. [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2021/maize-weevils-vol-7-no-1) says it loves corn but also attacks wheat, rice and grain products formed into shapes, such as macaroni, cereal and dog treats." },
+    { "type": "h3", "text": "Granary weevil" },
+    { "type": "figure", "src": "/guides/photos/granary-weevil.webp", "width": 1200, "height": 1822, "alt": "Granary weevil seen from above on a green background: a slender, dark, shiny body covered in fine pits, with a narrow snout and short antennae at the front", "caption": "A granary weevil, *Sitophilus granarius*, a mounted specimen seen from above in a CDC photograph. It has the snout of a rice weevil but no spots, and it cannot fly.", "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=17435" },
+    { "type": "p", "text": "The granary weevil walks: Oklahoma State says it has no functional wings and measures about 3/16 inch or smaller, and Iowa State says it has no spots, while the rice weevil has four faint yellowish ones." },
+    { "type": "p", "text": "Spots and flight are only clues. Mississippi State says rice and granary weevils look so much like maize weevils that it takes a microscope and an identification key to tell them apart, and that because control is similar for all three, it is not usually important to do so." },
+    { "type": "h3", "text": "Bean weevils in dried beans" },
+    { "type": "p", "text": "The bean weevil is not a true weevil. UMN calls it a seed beetle: mottled light and dark brown, broadly oval and about 1/8 inch long, with no conspicuous snout and short wing covers that leave part of the abdomen showing. Its small, legless larvae feed inside dried beans and peas." },
+    { "type": "media", "needed": "Bean weevils (Acanthoscelides obtectus) on infested dried beans that show round exit holes, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "How do weevils get into rice and grain?" },
+    { "type": "p", "text": "Usually as eggs or larvae already inside the kernels. Oklahoma State explains that the female bores a small hole into a kernel with the mouthparts at the end of her snout, lays a single egg and seals the hole; the larva feeds inside, pupates there and chews its way out as an adult." },
+    { "type": "p", "text": "So a bag can look clean for weeks: Iowa State says there is usually no outside sign until the adult chews out about a month later, and Oklahoma State gives the rice weevil's life cycle as about 25 to 35 days in ideal conditions, with 300 to 400 eggs per female." },
+    { "type": "p", "text": "The [Singapore Food Agency](https://www.sfa.gov.sg/food-safety-tips/food-risk-concerns/risk-at-a-glance/rice-weevils) says rice weevils can be in crops in the field before harvest and generally reach homes in products people buy. UMN says stored food is most likely to become infested in the grocery store or at home, and [UC IPM's pantry pest guide](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) says the source is commonly a package damaged at the store or an opened one that is little used or forgotten. Iowa State adds popcorn, saved garden seeds, seed decorations, decorative Indian corn, bean bags and old grain-based mouse bait, and Mississippi State adds birdseed." },
+    { "type": "p", "text": "The signs are adults and holes. [The University of Kentucky's pantry pest fact sheet](https://entomology.mgcafe.uky.edu/ef612) says problems are usually first noticed as small beetles crawling over countertops, UMN adds beetles in cupboards and around windows, and Mississippi State says adults that keep reappearing mean one or more infested products in the kitchen or nearby." },
+    { "type": "media", "needed": "Rice or maize weevils on rice or another whole grain in a kitchen container or package, with small round exit holes in the kernels, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0" },
+    { "type": "figure", "src": "/guides/photos/rice-weevil-on-rice-grain.webp", "width": 941, "height": 1288, "alt": "Reddish-brown rice weevil with a long, curved snout and orange legs clinging to the side of a single white grain of rice, on a white background", "caption": "A rice weevil, *Sitophilus oryzae*, on a grain of rice from a package of rice, photographed in Austria. Compare it with the grain: Oklahoma State puts adult rice weevils at about 3/32 to 1/8 inch long.", "credit": "(c) Katharina Pi, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/359165419" },
+    { "type": "figure", "src": "/guides/photos/grain-weevils-bird-seed.webp", "width": 1200, "height": 1208, "alt": "Dark grain weevil with orange-brown markings on its wing covers and a long snout, standing on a broken corn kernel among other kernels in birdseed", "caption": "A grain weevil, genus *Sitophilus*, among broken corn and other kernels in birdseed in Arkansas. Oklahoma State and Mississippi State both list birdseed among the things grain weevils infest.", "credit": "(c) Gordon C. Snelling, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/250510993" },
+
+    { "type": "h2", "text": "Are the bugs in your flour weevils?" },
+    { "type": "p", "text": "Probably not. UMN says these weevils are rarely found in caked or crusted milled products such as flour, and Mississippi State says maize weevils do not usually develop in flour or other finely ground grain products." },
+    { "type": "p", "text": "Reddish-brown beetles in flour are more likely flour beetles, which UMN describes as about 3/16 inch and elongate oval, feeding on flour, cereal products, dried fruit, nuts and chocolate. UC IPM adds sawtoothed grain beetles, about 1/10 inch with saw-like teeth on each side of the thorax, which feed on flours and other grain products. [The guide to bugs in flour and rice](/blog/pantry-pests) sorts them all." },
+    { "type": "figure", "src": "/guides/photos/confused-flour-beetles.webp", "width": 1200, "height": 817, "alt": "Two dark reddish-brown confused flour beetles with short, blunt heads beside three pale, segmented, wormlike larvae on a tan surface", "caption": "Confused flour beetles, *Tribolium confusum*: two adults and three larvae, in a CDC photograph. Unlike a weevil, a flour beetle has no snout.", "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28852" },
+    { "type": "p", "text": "Pale caterpillars and silk mean a moth. UC IPM says Indian meal moth larvae spin webbing as they grow and reach about 1/2 inch, and that moth larvae have extra leglike structures farther down the body, which beetle larvae lack." },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-larvae-peanuts.webp", "width": 1200, "height": 1600, "alt": "Clear plastic bag of red-skinned peanuts with small pale larvae and a sprinkling of light brown, crumbly droppings among the nuts", "caption": "Indian meal moth larvae and their droppings in a bag of peanuts in Pennsylvania. Pale caterpillars loose in the food are moth larvae; UMN says weevil larvae are found only inside whole kernels or seeds.", "credit": "(c) cigazze, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/179429749" },
+    { "type": "p", "text": "Moth traps will not catch weevils: UC IPM says pheromone traps made for the Indian meal moth won't attract beetles. See [small moths in the house](/blog/moths-in-house) and [pantry moth traps](/blog/pantry-moth-traps-canada)." },
+
+    { "type": "h2", "text": "Why are there weevils in my house but not in my food?" },
+    { "type": "p", "text": "They came in from the yard. UMN says adult weevils look for shelter in unfavorable weather, especially when it is hot and dry, and crawl in through cracks around foundations, doors and windows; they do not harm people or pets, damage buildings or infest food, and they are a temporary nuisance." },
+    { "type": "h3", "text": "Strawberry root weevil" },
+    { "type": "p", "text": "UMN calls it the most common home-invading weevil in Minnesota, found indoors from the end of June through August. It is about 1/4 inch long, black or dark brown with rows of pits along the back, cannot fly, and is drawn to moisture, so it turns up in sinks and bathtubs. Its larvae feed on the roots of strawberries, evergreens, raspberries, grapes and many other plants." },
+    { "type": "h3", "text": "Black vine weevil and other root weevils" },
+    { "type": "p", "text": "Iowa State describes the black vine weevil as about 1/2 inch long, slate gray to blackish brown, with patches of short yellow hairs and a short, broad snout; it cannot fly and is most active at night. [Colorado State University Extension's root weevil fact sheet](https://extension.colostate.edu/resource/root-weevils/) says strawberry root weevils come in mostly in hot, dry weather in late June and July, and black vine and rough strawberry root weevils more in late summer and early autumn." },
+    { "type": "p", "text": "Colorado State says root weevils cause no injury indoors, will not reproduce there, and either die out or go back outside. Outdoors, the adults chew notches along leaf edges at night and the grubs feed on roots. [The guide to bugs in the house in winter](/blog/bugs-in-house-in-winter) covers other seasonal invaders." },
+    { "type": "p", "text": "UMN says people sometimes mistake strawberry root weevils for ticks, but weevils have six legs and ticks have eight. [Why ticks are arachnids, not insects](/blog/are-ticks-arachnids-or-insects) explains the difference, and [the tick identification guide](/blog/what-do-ticks-look-like) shows ticks up close." },
+    { "type": "media", "needed": "A strawberry root weevil or black vine weevil indoors, in a sink or tub or on a floor or windowsill of a US or Canadian home, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0" },
+    { "type": "figure", "src": "/guides/photos/black-vine-weevil-house-wall.webp", "width": 1200, "height": 899, "alt": "Black vine weevil seen from above on a pinkish-beige wall indoors: a dark, pear-shaped body with ridged, pitted wing covers flecked with yellowish hairs, a short snout and long antennae", "caption": "A black vine weevil, *Otiorhynchus sulcatus*, on a wall inside a house in New Brunswick. Iowa State describes its short, broad snout and says it cannot fly.", "credit": "(c) Claire Moxon-Waltz, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/39709447" },
+
+    { "type": "h2", "text": "What are the grubs coming out of acorns?" },
+    { "type": "p", "text": "Acorn or nut weevil larvae. Iowa State says the adult acorn weevil is a brown beetle about 3/8 inch long with a very long, thin snout, and that females lay eggs inside developing nuts in midsummer; the creamy white, legless grub with a brown head grows to 1/4 to 3/8 inch inside the nut." },
+    { "type": "p", "text": "In late fall or early winter the grub chews a perfectly round 1/8-inch hole, comes out and tunnels into the soil, Iowa State says, so acorns gathered earlier in the fall can still hold one. [NC State Extension](https://content.ces.ncsu.edu/acorn-weevil) suggests collecting acorns as soon as they fall, refrigerating them, then freezing them to kill the grubs, or soaking them for 20 minutes in water heated to 120°F; it writes for acorns saved as seed." },
+    { "type": "media", "needed": "An acorn weevil larva beside the acorn it left, showing the round exit hole, on a table or windowsill indoors; identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "Do weevils bite or make you sick?" },
+    { "type": "p", "text": "No source cited here describes a weevil biting, stinging or spreading disease. Iowa State says rice and granary weevils are harmless to people and pets, Oklahoma State says rice weevils do not bite, and UMN says pantry pests do not bite or sting people or pets." },
+    { "type": "p", "text": "The harm is to food. UMN says pantry pests contaminate more food than they eat, and UC IPM says they might introduce microbes that could produce mycotoxins, which it calls highly carcinogenic, especially in warm, humid storage. UMN and UC IPM say to throw infested food away; Iowa State says small amounts of grain can be saved by heating or freezing it." },
+    { "type": "p", "text": "The Singapore Food Agency, the food-safety regulator in Singapore, takes a milder view of rice: it says the weevils can be removed by washing the rice and the rice eaten afterward, with no known illness from eating them." },
+
+    { "type": "h2", "text": "What else gets mistaken for a weevil?" },
+    { "type": "p", "text": "Mostly other small pantry beetles, plus a few bugs found far from food. Check for a snout first: the [Canadian Grain Commission's key to stored-product beetles](https://www.canada.ca/content/dam/cgc-ccg/documents/qualite-grain-quality/entomologie-entomology/stored-product-beetles.pdf) separates the grain weevils, whose heads are drawn out into a snout, from the flour, sawtoothed grain, drugstore and spider beetles and the bean weevil, whose heads are not." },
+    { "type": "ul", "items": [
+      "**Flour beetles:** reddish brown, elongate oval, about 3/16 inch (UMN).",
+      "**Sawtoothed grain beetles:** about 1/10 inch, slender, with saw-like teeth along each side behind the head (UMN).",
+      "**Drugstore beetles:** about 1/8 inch, oval and humped with the head bent down; they fly to windows (UMN). [Tiny brown bugs in the house](/blog/tiny-brown-bugs) compares them.",
+      "**Spider beetles:** reddish brown, long-legged and spider-like (UMN); see [the spider beetle guide](/blog/spider-beetles).",
+      "**Carpet beetles:** searching for carpet weevils? [UC IPM's carpet beetle Pest Notes](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) describes round adults about 1/10 to 1/8 inch with short antennae, and fuzzy larvae that feed on wool, silk, leather and fur. See [carpet beetle larvae](/blog/carpet-beetle-larvae) and [how to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles).",
+      "**Ticks:** eight legs to a weevil's six (UMN)."
+    ] },
+    { "type": "p", "text": "For dark specks found away from food, [the tiny black bugs guide](/blog/tiny-black-bugs) and [beetles in the house](/blog/beetles-in-house) sort the rest." },
+    { "type": "confused", "items": [
+      { "href": "/blog/pantry-pests", "name": "Flour beetle", "photo": "red-flour-beetle", "note": "No snout; reddish brown, elongate oval and about 3/16 inch, in flour and cereal products", "alt": "Reddish-brown red flour beetle with a long, smooth body and short antennae on a crumbly piece of pale food" },
+      { "href": "/blog/beetles-in-house", "name": "Sawtoothed grain beetle", "photo": "sawtoothed-grain-beetle", "note": "No snout; slender, flat, about 1/10 inch, with saw-like teeth along each side behind the head", "alt": "Slender, dark brown sawtoothed grain beetle seen from above on a red surface, with small teeth along each side behind the head" },
+      { "href": "/blog/tiny-brown-bugs", "name": "Drugstore beetle", "photo": "drugstore-beetle", "note": "No snout; oval, brown and humped, about 1/8 inch, with the head bent down; flies to windows", "alt": "Oval reddish-brown drugstore beetle with lined wing covers on a gray perforated surface, beside a printed scale bar" },
+      { "href": "/blog/spider-beetles", "name": "Spider beetle", "photo": "spider-beetle", "note": "No snout; reddish brown, with long legs and a spider-like look", "alt": "Shiny, rounded reddish-brown spider beetle seen from above on white, with long, hairy legs and long antennae" },
+      { "href": "/blog/carpet-beetle-larvae", "name": "Carpet beetle larva", "photo": "carpet-beetle-larva", "note": "A fuzzy larva that feeds on wool, silk, leather and fur; the adult is round", "alt": "Hairy, banded brown carpet beetle larva clinging to the edge of a pale surface" },
+      { "href": "/blog/what-do-ticks-look-like", "name": "Tick (American dog tick)", "photo": "american-dog-tick-female", "note": "Eight legs to a weevil's six; UMN says strawberry root weevils are sometimes mistaken for ticks", "alt": "Female American dog tick seen from above on a green grass blade, with eight banded legs and a pale, mottled shield behind the head" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of weevils in the pantry?" },
+    { "type": "p", "text": "Find the infested food and get it out of the house. Iowa State says control requires locating and eliminating the infested whole grain, and Mississippi State calls exclusion and sanitation the key methods. In order:" },
+    { "type": "ol", "items": [
+      "**Check everything with whole grains or seeds,** including popcorn, dried beans, cereal, macaroni, birdseed, dry pet food and seed decorations. UMN suggests shining a flashlight on the top of the product or pouring it onto a cookie sheet, and warns there may be more than one infested source.",
+      "**Throw infested food away,** as UMN and UC IPM advise; UC IPM says to seal the package and remove it from the house. Iowa State says larger quantities may need disposal or professional fumigation.",
+      "**Vacuum the shelves,** especially cracks and corners, then empty the vacuum or throw out the bag (UMN). Kentucky says to do upper and lower shelf surfaces with a crevice tool and to check under cans.",
+      "**Wash with soap and water, not bleach.** UC IPM says soap and water; UMN says detergent, bleach, ammonia or disinfectants will not keep pantry pests from returning and could be dangerous if they touch food.",
+      "**Freeze or heat what you keep.** Iowa State says heating grain to 140°F for 15 minutes or freezing it at 0°F for 3 days kills all stages. UMN gives at least four days in the freezer, or at least 30 minutes in shallow pans in a 130-degree oven. Kentucky treats decorations and birdseed at 0°F for 4 days in a freezer that does not self-defrost, or about 20 minutes at 155°F with the oven door propped open.",
+      "**Store food sealed** in tightly closed glass, metal or heavy plastic containers, or in the refrigerator or freezer, until the infestation is gone (UMN, Iowa State). UC IPM says plastic bags are not adequate.",
+      "**Buy less at a time.** UMN suggests amounts you will use within two to four months, older packages first, and no packages with holes."
+    ] },
+    { "type": "p", "text": "Kentucky says rice weevil adults can live 6 to 8 months and may be found some distance from the infested food, but Mississippi State says weevils that keep reappearing mean an infested product is still nearby, so search again, including birdseed, pet food and decorations." },
+    { "type": "p", "text": "Skip the bay leaves: UMN says there is no evidence that bay leaves or sticks of spearmint gum in a cupboard prevent or get rid of stored-food pests." },
+
+    { "type": "h2", "text": "Should you spray insecticide for weevils?" },
+    { "type": "p", "text": "Not in the pantry. UMN says insecticides are not recommended in food cupboards and have no effect on insects inside packages, and that any food they touch must be thrown away. Iowa State does not recommend sprays there either, and UC IPM says spraying pesticides on or near food may cause greater harm to your family than the pests would." },
+    { "type": "p", "text": "For root weevils indoors, use a vacuum or broom. UMN says pesticides are not effective or necessary indoors, Colorado State says there is no effective use of insecticides indoors against them, and Iowa State says black vine weevils need only be swept or picked up. To keep them out:" },
+    { "type": "ul", "items": [
+      "**Seal the way in.** Caulk cracks and keep screens and doors snug (UMN); Colorado State says sealing openings is the best way to prevent indoor migrations.",
+      "**Dry out the foundation.** Colorado State says watering less near the foundation and removing the plants they feed on may help, since the adults seem drawn to shade and moisture.",
+      "**Outdoor sprays only for big numbers.** UMN says permethrin or bifenthrin can be applied around the foundation when numbers are high, though products sold to the public are not very effective against weevils. The place you treat must be listed on the label, which is the law.",
+      "**Grubs in garden soil.** Colorado State and UC IPM describe drenching the soil with *Heterorhabditis* nematodes; UC IPM says the soil must stay warm and moist, not soggy, for at least two weeks."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Drop one into a clear jar or onto a white index card, photograph it beside a ruler marked in inches, and note where it was: in food, at a sink or by a door. Check for a snout and count the legs. A local cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are weevils harmful to humans?",
+      "answer": "Not directly. Iowa State University Extension says rice and granary weevils are harmless to people, houses, furniture, clothing and pets, cannot bite or sting, and do not carry diseases, and the University of Minnesota says the root weevils that wander indoors do not harm people or pets. The harm is to food: UMN says pantry pests contaminate more food than they eat, and UC IPM warns that they might bring in microbes that can produce mycotoxins in warm, humid storage. Both say to throw infested food away."
+    },
+    {
+      "question": "Can weevils bite humans at night?",
+      "answer": "No. None of the sources cited here describes a weevil biting a person at any hour. Iowa State says rice, granary and black vine weevils cannot bite or sting, and Oklahoma State says rice weevils do not bite. Weevils do not live on people or pets either: pantry weevils develop inside grain kernels and seeds, and root weevil grubs live in the soil on plant roots. If you wake up with bites or a rash, look for another cause, and see a healthcare provider if it does not clear up."
+    },
+    {
+      "question": "Can I still eat rice with weevils in it?",
+      "answer": "Sources differ. The Singapore Food Agency, the food-safety regulator in Singapore, says rice weevils can be removed by washing the rice and the rice eaten afterward, with no known illness from eating them. US extension guides are stricter: the University of Minnesota and UC IPM say to throw away food that shows signs of infestation, and UC IPM warns that pantry pests might introduce microbes that could produce mycotoxins. Iowa State says small amounts of grain can be saved by heating or freezing it."
+    },
+    {
+      "question": "What causes weevils in the home?",
+      "answer": "Weevils in food usually arrive in it. The Singapore Food Agency says rice weevils can be in crops before harvest and reach homes in the products people buy, and UC IPM says the source is commonly a package damaged at the store or an opened one that sits forgotten. Weevils far from any food are usually root weevils from the yard: the University of Minnesota says they crawl in through cracks around foundations, doors and windows looking for shelter, especially in hot, dry weather."
+    },
+    {
+      "question": "Do all bags of rice have weevils?",
+      "answer": "No source cited here says every bag does, but weevils can be inside the grain before you buy it. The Singapore Food Agency says rice weevils can be in crops in the field before harvest and may only become visible later, and Iowa State says the larvae grow hidden inside kernels with no outside sign for about a month. Mississippi State says the longer grain sits in storage, the greater the chance of infestation, on store shelves and at home alike, so buy amounts you will use soon and keep them sealed."
+    },
+    {
+      "question": "What smell do weevils hate?",
+      "answer": "None that the extension sources cited here recommend. The University of Minnesota says there is no evidence that bay leaves or sticks of spearmint gum in a cupboard prevent or get rid of stored-food pests. What those sources do recommend is finding and throwing out the infested food, vacuuming the shelves and storing dry foods in tightly closed glass, metal or heavy plastic containers. Iowa State adds that heating grain to 140°F for 15 minutes or freezing it at 0°F for 3 days kills all stages of the weevils."
+    },
+    {
+      "question": "Can weevils fly?",
+      "answer": "Some can. Oklahoma State says rice weevils have working wings, fly and are attracted to lights, and that maize weevils are stronger fliers, while the granary weevil has no functional wings and only walks. The weevils that wander into houses from the yard cannot fly: Colorado State says none of the root weevils can, the University of Minnesota says strawberry root weevils do not fly, and Iowa State says black vine weevils cannot fly but walk actively. Small beetles flying to a window may also be drugstore beetles."
+    },
+    {
+      "question": "How long do weevils live?",
+      "answer": "For months as adults. The University of Kentucky says rice weevil adults can live 6 to 8 months, while Oklahoma State gives averages of four to five months for rice weevils, about four to eight for maize weevils and seven to 13 for granary weevils. They develop quickly: Oklahoma State puts the rice weevil's egg-to-adult cycle at about 25 to 35 days in ideal conditions. Root weevils have a one-year life cycle, and Colorado State says the adults live at least a couple of months."
+    },
+    {
+      "question": "Do weevils turn into anything?",
+      "answer": "Only into adult weevils. UC IPM says weevils develop through four stages: egg, larva, pupa and adult. In pantry weevils the whole change happens inside one kernel, Oklahoma State explains: the legless larva feeds there, pupates and chews its way out as an adult beetle. Weevils do not turn into moths. The small moths common in kitchens are a different pantry pest: UC IPM says the Indian meal moth is the most common moth in home pantries, and its caterpillars spin silk webbing as they grow."
+    },
+    {
+      "question": "Can weevils damage your house?",
+      "answer": "No. Iowa State says rice and granary weevils will not feed on furniture, the house structure or other items, Oklahoma State says rice weevils do not damage wood or furniture, and the University of Minnesota says home-invading weevils do not damage buildings or property. Colorado State says root weevils cause no injury to household furnishings and do not reproduce indoors. The damage weevils do is to stored grain and seeds inside, and to plant roots and leaf edges outside."
+    }
+  ],
+  "sources": [
+    { "title": "Pantry pests: Insects found in stored food (reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food" },
+    { "title": "Home-invading weevils (reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/home-invading-weevils" },
+    { "title": "Rice Weevil and Granary Weevil (Yard and Garden, originally published September 13, 2016)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/rice-weevil-and-granary-weevil" },
+    { "title": "Black Vine Weevil (Yard and Garden, last reviewed December 2021)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/black-vine-weevil" },
+    { "title": "Acorn and Nut Weevils (Yard and Garden, last reviewed November 2021)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/acorn-and-nut-weevils" },
+    { "title": "Stored Grain Insect Pests that Feed Inside Kernels and Seeds (EPP-7101; Edmond L. Bonjour, December 2019)", "publisher": "Oklahoma State University Extension", "url": "https://extension.okstate.edu/fact-sheets/stored-grain-insect-pests-that-feed-inside-kernels-and-seeds" },
+    { "title": "Rice Weevil (Digital Diagnostics: Insects and Arthropods)", "publisher": "Oklahoma State University Extension", "url": "https://extension.okstate.edu/programs/digital-diagnostics/insects-and-arthropods/rice-weevil-sitophilus-oryzae" },
+    { "title": "Maize Weevils (Bug's Eye View, Vol. 7, No. 1; Blake Layton, 2021)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2021/maize-weevils-vol-7-no-1" },
+    { "title": "ENTFACT-612: Stored Product Pests in the Pantry (Lee Townsend, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef612" },
+    { "title": "Root Weevils (Fact Sheet 5.551; W. S. Cranshaw, reviewed August 2025)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/root-weevils/" },
+    { "title": "Weevils (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/weevils/" },
+    { "title": "Pest Notes: Pantry Pests (UC ANR Publication 7452; D. H. Choe, updated March 2013)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Pest Notes: Carpet Beetles (UC ANR Publication 7436; D. H. Choe, updated April 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Acorn Weevil (James Baker, March 16, 2017, reviewed October 14, 2026)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/acorn-weevil" },
+    { "title": "Rice Weevils (Risk at a Glance, December 4, 2023)", "publisher": "Singapore Food Agency", "url": "https://www.sfa.gov.sg/food-safety-tips/food-risk-concerns/risk-at-a-glance/rice-weevils" },
+    { "title": "A Key to Common Species: Stored-Product Beetles in Canada (from Y. Bousquet, 1990)", "publisher": "Canadian Grain Commission", "url": "https://www.canada.ca/content/dam/cgc-ccg/documents/qualite-grain-quality/entomologie-entomology/stored-product-beetles.pdf" }
+  ],
+  "disclaimer": "pesticide"
+}

@@ -2,7 +2,7 @@
  "id": "diy-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "de7473e010a834402ab451fca3eae0c016f5c26f4e4f1df3fae7898dfa5d7ab4",
+ "sha": "5f056360029bff3f659439ea8b36cd08bef69dca00844495d803a1997addf5e6",
  "claimsChecked": 110,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 4,
@@ -12,5 +12,12 @@
   "/learn/natural-garden-pest-control",
   "/learn/whitefly-identification-control",
   "/learn/natural-weed-control"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/paper-wasps (volume-20, Oct 23)",
+   "previousSha": "de7473e010a834402ab451fca3eae0c016f5c26f4e4f1df3fae7898dfa5d7ab4"
+  }
  ]
 }

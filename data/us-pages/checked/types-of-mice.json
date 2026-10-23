@@ -2,7 +2,7 @@
  "id": "types-of-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "54c7c1a47a92ae47fec96e13f079b98a3ecb8e12663f8e32d13a2362c20f2887",
+ "sha": "b0d5032a5006a4c31be4443431b987e824b38f748efcd1638bf6d83264ae08a2",
  "claimsChecked": 95,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 5,
@@ -12,6 +12,11 @@
    "on": "2026-10-16",
    "note": "link to /blog/rat-vs-mouse added in section 'Young rats' as a new one-sentence paragraph; no facts changed",
    "previousSha": "180d8c29425876223654e1be730eead0cccb2ea0ced12bb4d809e87bd595c01e"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/shrews (volume-20, Oct 23)",
+   "previousSha": "54c7c1a47a92ae47fec96e13f079b98a3ecb8e12663f8e32d13a2362c20f2887"
   }
  ]
 }

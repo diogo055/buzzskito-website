@@ -258,7 +258,7 @@ export default function WhenAreMosquitoesMostActivePage() {
 
           <Figure
             src="/diagrams/mosquito-activity-24-hour-clock.svg"
-            alt="Twenty-four hour chart of mosquito biting activity by species group, showing the Culex peak in the one to two hours after local sunset, the Aedes daytime plateau with a midday heat dip, the broad Anopheles overnight plateau, and biting falling away between about 2 and 4 a.m."
+            alt="Twenty-four hour chart of mosquito biting activity by species group, showing the Culex peak in the one to two hours after local sunset, the Aedes daytime plateau with a midday heat dip, the broad Anopheles overnight plateau, and Culex biting past its evening peak by about 2 to 4 a.m."
             caption="Relative biting pressure across 24 hours. The clock is anchored to local sunrise and sunset, which shift by hours between June and September and between Miami and Anchorage — so read the shape, not the tick labels."
             width={720}
             height={420}

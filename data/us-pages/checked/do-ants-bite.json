@@ -2,9 +2,16 @@
  "id": "do-ants-bite",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "504d8a9fd777d32561146f674eebe5714e5af8754321367103f79f1b1d133b22",
+ "sha": "c7b12931d4c5707de00fdfc4860f4eecf0998ee5800098698b0e3089bf4d000b",
  "claimsChecked": 80,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "Oct 23, 2026 re-aim at 'ant bites' (volume-20, UPGRADES.md section 2): keyword 'ant bites'; 8 alsoTargets (no fire-ant or carpenter-ant targets); metaTitle 'Ant Bites: What They Look Like and What to Do' (was 'Do Ants Bite? Which Ones Bite and Which Sting'); metaDescription; quick-answer lead opens with how a bite looks and feels (Cleveland Clinic) then sting (CDC) and bite vs sting (UC IPM); dateModified 2026-10-23 (+ sitemap). Facts box unchanged. 4 ledger photos: fire-ant-sting-pustule (PD lead/share, first section), red-imported-fire-ant (fire ant h3), carpenter-ant-on-fingers (carpenter h3), fire-ant-stings-lower-legs (look-like h2); media placeholders kept. One paragraph: Cleveland Clinic's ordinary ant bite (pinch, redness, mild swelling, pimple-like red-to-purple mark, a few days; feet, legs, hands; most ants' jaws too small). New h2 Ant bite or another bug bite? with a 7-row table (fire ant: CDC, MedlinePlus; harvester: Texas A&M; carpenter and household ants: Cleveland Clinic, UC; mosquito and flea: Cleveland Clinic bug bite guides; bed bug: CDC About Bed Bugs) and 5 cards (fire-ant-stings planned, flea-bites planned, what-do-bed-bug-bites-look-like planned, what-does-a-spider-bite-look-like link only, chigger-bites). 4 FAQs appended (look, treat, how long, why itch: Cleveland Clinic histamine, MedlinePlus piperidine). Sources +4: Cleveland Clinic Ant Bites, Cleveland Clinic Bug Bites and Stings, Cleveland Clinic How To Identify 8 Common Bug Bites, CDC About Bed Bugs.",
+   "previousSha": "504d8a9fd777d32561146f674eebe5714e5af8754321367103f79f1b1d133b22"
+  }
+ ]
 }

@@ -2,7 +2,7 @@
  "id": "bed-bug-bites-but-no-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4a50dc67f544e37f7598e39dad80535d63d38c12536d9b6f895893eae4cb667e",
+ "sha": "99edfb5037b9c40a6eed5b5ccd0613165a8b0d501b87c858e31a2efee354c9d7",
  "claimsChecked": 462,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 11,
@@ -11,5 +11,12 @@
   "on": "2026-10-21",
   "scheduledFor": "2026-10-21",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: bed-bug-bites-back-physician (batch 12, Oct 23)",
+   "previousSha": "4a50dc67f544e37f7598e39dad80535d63d38c12536d9b6f895893eae4cb667e"
+  }
+ ]
 }

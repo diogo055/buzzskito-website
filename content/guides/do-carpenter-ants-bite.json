@@ -38,6 +38,7 @@
   },
   "body": [
     { "type": "h2", "text": "Do carpenter ants bite?" },
+    { "type": "figure", "src": "/guides/photos/carpenter-ant-on-fingers.webp", "width": 1200, "height": 1543, "alt": "A large black carpenter ant walking across the fingers of a person's hand", "caption": "A black carpenter ant, *Camponotus pennsylvanicus*, walking across the fingers of a hand in Blount County, Alabama; the observer reports that it bit moments later. University of Maryland Extension says a carpenter ant may give a little nip if handled.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/238169041" },
     { "type": "p", "text": "Yes, carpenter ants can bite, and they cannot sting. Two university extension fact sheets say so, although they describe the bite very differently, and a third does not mention biting at all." },
     { "type": "table", "head": ["Source", "What it says about carpenter ant bites"], "rows": [
       ["[UC IPM](https://ipm.ucanr.edu/home-and-landscape/carpenter-ants/)", "Cannot sting. Can bite painfully with the jaws and spray formic acid into the wound, causing a burning sensation."],

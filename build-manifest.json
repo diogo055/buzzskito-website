@@ -2,14 +2,14 @@
  "generated": "2026-10-23",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 186,
+  "newPagesBuilt": 193,
   "hubPages": 4,
-  "guides": 171,
+  "guides": 178,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
   "notBuilt": 228,
-  "internalLinksInNewPages": 2521
+  "internalLinksInNewPages": 2618
  },
  "pages": [
   {
@@ -69,10 +69,10 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "No Signs of Bed Bugs but I Have Bites? (Photos)",
-   "wordCount": 2397,
+   "wordCount": 2398,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 32,
    "status": "built"
   },
@@ -85,7 +85,7 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bed Bugs in Hotels: How to Check Your Room",
-   "wordCount": 2387,
+   "wordCount": 2388,
    "faqs": 10,
    "sources": 15,
    "inboundFromNewPages": 2,
@@ -360,7 +360,7 @@
    "wordCount": 1755,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1000,7 +1000,7 @@
    "wordCount": 3238,
    "faqs": 6,
    "sources": 18,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1038,6 +1038,22 @@
   },
   {
    "rank": null,
+   "keyword": "joro spider",
+   "us_volume": null,
+   "url": "/blog/joro-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Joro Spider: ID, Range and Is It Dangerous?",
+   "wordCount": 2315,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "wolf spider",
    "us_volume": null,
    "url": "/blog/wolf-spiders",
@@ -1048,8 +1064,8 @@
    "wordCount": 2801,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -1064,7 +1080,7 @@
    "wordCount": 2760,
    "faqs": 5,
    "sources": 16,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1077,11 +1093,11 @@
    "kind": "spoke",
    "cluster": "spiders",
    "title": "Common House Spiders: Photos and Which Ones Bite",
-   "wordCount": 3486,
+   "wordCount": 3488,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 15,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -1096,8 +1112,24 @@
    "wordCount": 3265,
    "faqs": 6,
    "sources": 19,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 24,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "orb weaver spider",
+   "us_volume": null,
+   "url": "/blog/orb-weaver-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Orb Weaver Spiders: Garden and Banana Spiders",
+   "wordCount": 2540,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1112,8 +1144,24 @@
    "wordCount": 3077,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "jumping spider",
+   "us_volume": null,
+   "url": "/blog/jumping-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Jumping Spiders: ID, Common Species and Bites",
+   "wordCount": 2388,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 7,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -1130,6 +1178,22 @@
    "sources": 17,
    "inboundFromNewPages": 5,
    "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "camel spider",
+   "us_volume": null,
+   "url": "/blog/camel-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Camel Spider (Sun Spider): Size, Bite and Myths",
+   "wordCount": 2198,
+   "faqs": 10,
+   "sources": 12,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1160,7 +1224,7 @@
    "wordCount": 2268,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1176,7 +1240,7 @@
    "wordCount": 2194,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1205,7 +1269,7 @@
    "kind": "spoke",
    "cluster": "flies",
    "title": "How to Get Rid of Gnats, by Type (Photos)",
-   "wordCount": 2421,
+   "wordCount": 2423,
    "faqs": 10,
    "sources": 11,
    "inboundFromNewPages": 5,
@@ -1221,7 +1285,7 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "What Do Fleas Look Like? Up Close (Photos)",
-   "wordCount": 2305,
+   "wordCount": 2306,
    "faqs": 5,
    "sources": 13,
    "inboundFromNewPages": 6,
@@ -1237,7 +1301,7 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "How to Get Rid of Fleas in the House and Yard",
-   "wordCount": 3180,
+   "wordCount": 3181,
    "faqs": 6,
    "sources": 11,
    "inboundFromNewPages": 8,
@@ -1288,7 +1352,7 @@
    "wordCount": 2963,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1320,7 +1384,7 @@
    "wordCount": 1886,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -1381,11 +1445,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
-   "wordCount": 2642,
+   "wordCount": 2675,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -1400,8 +1464,8 @@
    "wordCount": 2789,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 20,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 21,
    "status": "built"
   },
   {
@@ -1416,7 +1480,7 @@
    "wordCount": 2059,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1432,7 +1496,7 @@
    "wordCount": 2957,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1445,7 +1509,7 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs That Look Like Fleas: How to Tell (Photos)",
-   "wordCount": 2600,
+   "wordCount": 2601,
    "faqs": 6,
    "sources": 17,
    "inboundFromNewPages": 8,
@@ -1480,7 +1544,7 @@
    "wordCount": 2921,
    "faqs": 10,
    "sources": 9,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1496,8 +1560,8 @@
    "wordCount": 2591,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -1509,10 +1573,10 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Termite Damage: What It Looks Like (Photos)",
-   "wordCount": 2218,
+   "wordCount": 2220,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -1528,8 +1592,24 @@
    "wordCount": 2487,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 24,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do termites look like",
+   "us_volume": null,
+   "url": "/blog/what-do-termites-look-like",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "What Do Termites Look Like? Photos and Swarmers",
+   "wordCount": 2360,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -1544,7 +1624,7 @@
    "wordCount": 1788,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1557,11 +1637,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Signs of Carpet Beetles: Skins, Larvae (Photos)",
-   "wordCount": 2181,
+   "wordCount": 2184,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1592,8 +1672,40 @@
    "wordCount": 2230,
    "faqs": 10,
    "sources": 17,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "carpet beetle larvae",
+   "us_volume": null,
+   "url": "/blog/carpet-beetle-larvae",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Carpet Beetle Larvae: Photos and Where They Hide",
+   "wordCount": 2294,
+   "faqs": 10,
+   "sources": 18,
    "inboundFromNewPages": 3,
-   "outboundInternalLinks": 9,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "weevils",
+   "us_volume": null,
+   "url": "/blog/weevils",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Weevils: What They Are, How to Get Rid of Them",
+   "wordCount": 2647,
+   "faqs": 10,
+   "sources": 16,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -1605,7 +1717,7 @@
    "kind": "spoke",
    "cluster": "bites",
    "title": "Bug Bite Identification: What Bit You? (Photos)",
-   "wordCount": 3988,
+   "wordCount": 3991,
    "faqs": 6,
    "sources": 20,
    "inboundFromNewPages": 9,
@@ -2725,13 +2837,6 @@
   },
   {
    "rank": null,
-   "keyword": "joro spider",
-   "url": "/blog/joro-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "brown recluse",
    "url": "/blog/brown-recluse",
    "action": "new",
@@ -2970,13 +3075,6 @@
   },
   {
    "rank": null,
-   "keyword": "orb weaver spider",
-   "url": "/blog/orb-weaver-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "chiggers in texas",
    "url": "/blog/chiggers-in-texas",
    "action": "new",
@@ -2986,13 +3084,6 @@
    "rank": null,
    "keyword": "grass spider",
    "url": "/blog/grass-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "jumping spider",
-   "url": "/blog/jumping-spiders",
    "action": "new",
    "status": "not built"
   },
@@ -3014,13 +3105,6 @@
    "rank": null,
    "keyword": "fishing spider",
    "url": "/blog/fishing-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "camel spider",
-   "url": "/blog/camel-spiders",
    "action": "new",
    "status": "not built"
   },
@@ -3166,7 +3250,7 @@
   },
   {
    "rank": null,
-   "keyword": "wheel bug",
+   "keyword": "assassin bug",
    "url": "/blog/wheel-bugs",
    "action": "new",
    "status": "not built"
@@ -3285,7 +3369,7 @@
   },
   {
    "rank": null,
-   "keyword": "pill bugs",
+   "keyword": "roly poly",
    "url": "/blog/pill-bugs",
    "action": "new",
    "status": "not built"
@@ -3383,13 +3467,6 @@
   },
   {
    "rank": null,
-   "keyword": "what do termites look like",
-   "url": "/blog/what-do-termites-look-like",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "baby copperhead",
    "url": "/blog/copperhead-look-alikes",
    "action": "new",
@@ -3413,6 +3490,41 @@
    "rank": null,
    "keyword": "possum poop",
    "url": "/blog/possum-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "flea bites",
+   "url": "/blog/flea-bites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bug bites",
+   "url": "/blog/what-do-bed-bug-bites-look-like",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of fruit flies",
+   "url": "/blog/fruit-flies",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "jerusalem cricket",
+   "url": "/blog/jerusalem-crickets",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "shrew",
+   "url": "/blog/shrews",
    "action": "new",
    "status": "not built"
   },
@@ -3448,12 +3560,12 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "bed-bugs",
-   "title": "What Do Bed Bugs Look Like? Size, Color, Stages",
-   "wordCount": 2424,
-   "faqs": 6,
-   "sources": 6,
+   "title": "What Do Bed Bugs Look Like? Actual Size + Photos",
+   "wordCount": 2502,
+   "faqs": 9,
+   "sources": 7,
    "inboundFromNewPages": 20,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -3574,7 +3686,7 @@
    "wordCount": 2860,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -3875,7 +3987,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Black Ants: Tell Carpenter Ants from the Rest",
-   "wordCount": 2667,
+   "wordCount": 2668,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 11,
@@ -3960,7 +4072,7 @@
    "wordCount": 2274,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 40,
+   "inboundFromNewPages": 41,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3976,7 +4088,7 @@
    "wordCount": 2742,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 20,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -4094,8 +4206,8 @@
    "wordCount": 2323,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4357,10 +4469,10 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Do Carpenter Ants Bite? Yes, and What to Do",
-   "wordCount": 2409,
+   "wordCount": 2410,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4378,7 +4490,7 @@
    "wordCount": 2860,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4427,7 +4539,7 @@
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 14,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4485,7 +4597,7 @@
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 15,
-   "outboundInternalLinks": 18,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -4544,10 +4656,10 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "ants",
-   "title": "Do Ants Bite? Which Ones Bite and Which Sting",
-   "wordCount": 2964,
-   "faqs": 6,
-   "sources": 6,
+   "title": "Ant Bites: What They Look Like and What to Do",
+   "wordCount": 3380,
+   "faqs": 10,
+   "sources": 10,
    "inboundFromNewPages": 14,
    "outboundInternalLinks": 12,
    "status": "built"
@@ -4740,8 +4852,8 @@
    "wordCount": 2323,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4794,10 +4906,10 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "cockroaches",
-   "title": "Water Bugs vs Cockroaches: Tell Them Apart",
-   "wordCount": 2254,
-   "faqs": 5,
-   "sources": 6,
+   "title": "Water Bug vs Cockroach: How to Tell Them Apart",
+   "wordCount": 3052,
+   "faqs": 10,
+   "sources": 10,
    "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
@@ -4868,11 +4980,11 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "cockroaches",
-   "title": "What Baby Cockroaches Look Like, by Species",
-   "wordCount": 2959,
-   "faqs": 5,
+   "title": "Baby Cockroach: What Nymphs Look Like (Photos)",
+   "wordCount": 2964,
+   "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 16,
    "status": "built"
   },

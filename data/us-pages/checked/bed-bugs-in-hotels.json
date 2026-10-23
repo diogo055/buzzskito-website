@@ -2,7 +2,7 @@
  "id": "bed-bugs-in-hotels",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "09c5740d127eaeba96ee7d6729859d5b01fc4e1dbfd655e04df3677c5035c5b4",
+ "sha": "811d0ab6cc493568f7e2d68bb7acbd29ff20277d9bd2e1062f147e956b0c97d4",
  "claimsChecked": 206,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 7,
@@ -11,5 +11,12 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: bed-bug-on-skin-cdc (batch 12, Oct 23)",
+   "previousSha": "09c5740d127eaeba96ee7d6729859d5b01fc4e1dbfd655e04df3677c5035c5b4"
+  }
+ ]
 }

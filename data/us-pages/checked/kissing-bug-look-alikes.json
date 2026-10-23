@@ -2,7 +2,7 @@
  "id": "kissing-bug-look-alikes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "696a5971383f9afee161893baff00f5573599d0d3404c9ca24fbe83dd5742219",
+ "sha": "a7639abab6463dfef0a7d2b0126a57bb3ff3403e85144eb2d92f1a8372e34d52",
  "claimsChecked": 260,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "alsoTargets: removed 'assassin bug' (now owned by /blog/wheel-bugs, re-aimed 2026-10-24) (volume-20, Oct 23)",
+   "previousSha": "696a5971383f9afee161893baff00f5573599d0d3404c9ca24fbe83dd5742219"
+  }
+ ]
 }

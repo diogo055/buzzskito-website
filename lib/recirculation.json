@@ -1771,6 +1771,20 @@
    ],
    "bar": true
   },
+  "/blog/camel-spiders": {
+   "next": "/blog/spiders-in-california",
+   "related": [
+    "/blog/orb-weaver-spiders",
+    "/blog/jumping-spiders",
+    "/blog/spiders-in-texas"
+   ],
+   "cards": [
+    "/blog/black-spiders",
+    "/blog/joro-spiders",
+    "/blog/spiders-in-florida"
+   ],
+   "bar": true
+  },
   "/blog/can-cockroaches-fly": {
    "next": "/blog/what-do-baby-cockroaches-look-like",
    "related": [
@@ -1865,6 +1879,20 @@
     "/blog/does-vinegar-kill-ants",
     "/blog/how-to-get-rid-of-ants-in-the-house"
    ]
+  },
+  "/blog/carpet-beetle-larvae": {
+   "next": "/blog/signs-of-carpet-beetles",
+   "related": [
+    "/blog/beetles-in-house",
+    "/blog/camel-crickets",
+    "/blog/flea-dirt"
+   ],
+   "cards": [
+    "/blog/tiny-black-bugs",
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "bar": true
   },
   "/blog/chapin-battery-backpack-sprayer-review-canada": {
    "next": "/blog/best-battery-backpack-sprayer-canada",
@@ -3619,6 +3647,34 @@
     "/blog/patio-heater-vs-fire-table-canada"
    ]
   },
+  "/blog/joro-spiders": {
+   "next": "/blog/jumping-spiders",
+   "related": [
+    "/blog/brown-recluse-look-alikes",
+    "/blog/spider-egg-sacs",
+    "/blog/camel-spiders"
+   ],
+   "cards": [
+    "/blog/house-spiders",
+    "/blog/spiders-in-florida",
+    "/blog/black-spiders"
+   ],
+   "bar": true
+  },
+  "/blog/jumping-spiders": {
+   "next": "/blog/house-spiders",
+   "related": [
+    "/blog/spiders-in-texas",
+    "/blog/spiders-in-california",
+    "/blog/spiders-in-florida"
+   ],
+   "cards": [
+    "/blog/venomous-spiders",
+    "/blog/brown-recluse-look-alikes",
+    "/blog/orb-weaver-spiders"
+   ],
+   "bar": true
+  },
   "/blog/june-bugs-ontario": {
    "next": "/blog/how-to-get-rid-of-fungus-gnats-houseplants",
    "related": [
@@ -4402,6 +4458,20 @@
     "/blog/tick-season-burlington-when-are-ticks-active",
     "/blog/alpha-gal-syndrome"
    ]
+  },
+  "/blog/orb-weaver-spiders": {
+   "next": "/blog/camel-spiders",
+   "related": [
+    "/blog/jumping-spiders",
+    "/blog/spider-egg-sacs",
+    "/blog/joro-spiders"
+   ],
+   "cards": [
+    "/blog/house-spiders",
+    "/blog/spiders-in-florida",
+    "/blog/black-spiders"
+   ],
+   "bar": true
   },
   "/blog/oriental-cockroaches": {
    "next": "/blog/cockroach-droppings",
@@ -6044,6 +6114,20 @@
    ],
    "bar": true
   },
+  "/blog/weevils": {
+   "next": "/blog/beetles-in-house",
+   "related": [
+    "/blog/camel-crickets",
+    "/blog/moths-in-house",
+    "/blog/carpet-beetle-larvae"
+   ],
+   "cards": [
+    "/blog/flea-eggs",
+    "/blog/millipedes",
+    "/blog/tiny-brown-bugs"
+   ],
+   "bar": true
+  },
   "/blog/west-nile-virus-mosquito-risk-ontario": {
    "next": "/blog/west-nile-virus-ontario-2026",
    "related": [
@@ -6194,6 +6278,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/are-mice-nocturnal",
     "/blog/how-to-get-rid-of-mice-canada"
+   ],
+   "bar": true
+  },
+  "/blog/what-do-termites-look-like": {
+   "next": "/blog/termite-droppings",
+   "related": [
+    "/blog/termite-damage",
+    "/blog/camel-crickets",
+    "/blog/carpet-beetle-larvae"
+   ],
+   "cards": [
+    "/blog/flea-dirt",
+    "/blog/kissing-bug-look-alikes",
+    "/blog/tiny-black-bugs"
    ],
    "bar": true
   },

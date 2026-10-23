@@ -2,9 +2,16 @@
  "id": "do-carpenter-ants-bite",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "521a0f1aa817e4fbeec7ba70812391332a900383dd6d196f9a9f1c13e3715c1b",
+ "sha": "2652c831e93bb459e7697f50c5b7e5f59c1adc6c37a1c14e36e03ed72f9bd7c9",
  "claimsChecked": 64,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: carpenter-ant-on-fingers (batch 12, Oct 23)",
+   "previousSha": "521a0f1aa817e4fbeec7ba70812391332a900383dd6d196f9a9f1c13e3715c1b"
+  }
+ ]
 }

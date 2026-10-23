@@ -2,7 +2,7 @@
  "id": "house-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "03c93fa37873aed9d77ef05006639c538bfe5fd5c7b0a04d831579bc96a6fd90",
+ "sha": "1ace800672a2b80ed6aa1f295902df0a244479ae21ca97e14f864f6f61e54ac9",
  "claimsChecked": 390,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 7,
@@ -27,6 +27,16 @@
    "on": "2026-10-23",
    "note": "link to /tools/spider-identifier added in section How do you tell house spiders apart? (one new paragraph after the jar checklist)",
    "previousSha": "447b331e5d9b88d77a23821b4f905a1391510a0c42b3ad0742b57aaa02dccfe8"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/jumping-spiders (volume-20, Oct 23)",
+   "previousSha": "03c93fa37873aed9d77ef05006639c538bfe5fd5c7b0a04d831579bc96a6fd90"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "photos: bold-jumping-spider-kitchen-window, bold-jumping-spider-house-siding (batch 12, Oct 23)",
+   "previousSha": "af9456b579bad60c8c97c278ff9c40b4af98b41d6909d87b2fba01f5f6989748"
   }
  ]
 }

@@ -1,0 +1,27 @@
+{
+ "id": "joro-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "95dade968dd91c6788bcf9430afbd00815cd0e2778f4bf89987ff8239664495f",
+ "claimsChecked": 270,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-23",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "two media placeholders replaced with ledger photos (female and male in one web, Clarkston GA, sexes attributed to the iNaturalist identification; a joro web by a front door, Georgia); captions state only what each record says (orchestrator, Oct 23)",
+   "previousSha": "0c4e59097194e6ee9053417821b001f3fd567d4def31587338904d318e713356"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "media placeholders kept beside the new photos (each photo only partly meets its placeholder's request; RETROFIT_BRIEF rule; renders nothing)",
+   "previousSha": "f587d174b7b2e289477037f190b962a232ac3fc1a312f29e4888cba19ead2927"
+  }
+ ],
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

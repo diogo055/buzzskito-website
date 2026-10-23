@@ -2,7 +2,7 @@
  "id": "signs-of-carpet-beetles",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b64793d7c2ccddaef63903a719bb8a7e60eb2cd5ec96d7bf80580f3d6848e441",
+ "sha": "7f18018c6f0821db4c39a1bf166394654214d72d491538105a60bc3c115ef426",
  "claimsChecked": 340,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 11,
@@ -11,5 +11,17 @@
   "on": "2026-10-21",
   "scheduledFor": "2026-10-21",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/carpet-beetle-larvae (volume-20, Oct 23)",
+   "previousSha": "b64793d7c2ccddaef63903a719bb8a7e60eb2cd5ec96d7bf80580f3d6848e441"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "photos: carpet-beetle-larva-knit-fabric, carpet-beetle-larva-hallway-wall, carpet-beetle-larva-wood-floor (batch 12, Oct 23)",
+   "previousSha": "6e734770866c015549ffb6b986676e3aa06abc2795ce75073f0f6eee4fa7050e"
+  }
+ ]
 }

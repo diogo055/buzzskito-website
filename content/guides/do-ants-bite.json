@@ -2,17 +2,18 @@
   "slug": "do-ants-bite",
   "kind": "spoke",
   "cluster": "ants",
-  "keyword": "do ants bite",
-  "alsoTargets": [],
-  "metaTitle": "Do Ants Bite? Which Ones Bite and Which Sting",
-  "metaDescription": "Ants can bite, but most species rarely do; the painful ones sting. See which US ants bite, which sting, what a reaction looks like and when to get care.",
+  "keyword": "ant bites",
+  "alsoTargets": ["ant bite", "do ants bite", "what do ant bites look like", "ant bites on humans", "ant bite treatment", "red ant bite", "black ant bite", "do ants bite or sting"],
+  "metaTitle": "Ant Bites: What They Look Like and What to Do",
+  "metaDescription": "Ant bites: what a bite and a fire ant sting look like, how long they last, how to treat them, and which US ants bite or sting. With photos.",
   "h1": "Do Ants Bite? Which US Ants Bite, Which Sting and What to Do",
   "dek": "Most household ants are not known for biting people, a few bite, and a small group sting hard enough to matter. A species table, what the reactions look like, and the first aid CDC and MedlinePlus describe.",
   "breadcrumb": "Do Ants Bite?",
   "excerpt": "Most ants can bite but rarely do; fire ants and harvester ants sting. A species table, what reactions look like, first aid and when a sting is an emergency.",
   "datePublished": "2026-10-07",
+  "dateModified": "2026-10-23",
   "quickAnswer": {
-    "lead": "**Yes, ants can bite, but most species rarely do, and the ants that really hurt are the few that sting.** The [University of California's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants can bite with their pincer-like jaws and names fire ants and harvester ants among the few that sting. Fire ants do both: they hold on with their jaws while they inject venom with a stinger.",
+    "lead": "**An ant bite usually feels like a sharp pinch and leaves a small, red, pimple-like mark that fades within a few days, while a fire ant sting burns and can turn into a white, fluid-filled pustule.** [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/22943-ant-bites) describes the bite and CDC the sting. The [University of California's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants bite with pincer-like jaws, but only a few, such as fire ants and harvester ants, also sting.",
     "bullets": [
       "Fire ant stings can burn, and CDC says red bumps may form and develop into white, fluid-filled pustules within a day or two.",
       "MedlinePlus says fire ant blisters last 3 to 8 days and a scab may remain for 3 to 10 days.",
@@ -39,6 +40,7 @@
   "body": [
     { "type": "h2", "text": "Do ants bite, or do they sting?" },
     { "type": "p", "text": "Ants can do either, and the two are different acts. A bite is made with the jaws. A sting comes from the other end of the ant: [Texas A&M's guide to household ants](https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf) describes fire ants injecting venom with stingers at the ends of their abdomens. The [University of California's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants can bite with their pincer-like jaws, although most species rarely do, and that only a few ants sting. It names native fire ants and harvester ants, both primarily outdoor species." },
+    { "type": "figure", "src": "/guides/photos/fire-ant-sting-pustule.webp", "width": 1200, "height": 836, "alt": "Close-up of a hairy leg with a fire ant sting: a small pale pustule at the center of a raised red spot", "caption": "A fire ant sting on a patient's leg: a pustule with a red halo (CDC photograph). CDC says such pustules can form at the sting site within a day or two.", "license": "public-domain", "credit": "CDC/ Dr. Harold G. Scott (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6347" },
     { "type": "p", "text": "In practice, what people call an ant bite is one of three things: a pinch from an ant that has only its jaws to use, a true sting from one of the few species that sting, or both at once. Fire ants are the both-at-once case. The Texas A&M guide explains that they bite and hold on with their jaws while they sting. Even medical references blur the two words: [MedlinePlus](https://medlineplus.gov/ency/article/002843.htm) calls the injury a fire ant sting and, in the same list of symptoms, refers to the site of the bite." },
     { "type": "p", "text": "Which one you are dealing with depends on the species, so identification comes first. The [complete reference to ants in US homes](/learn/ants) shows how the common species are told apart, and the table below sorts them by what they can do to skin." },
     { "type": "media", "needed": "Labeled macro diagram of a fire ant worker on skin showing the two ends used in an attack: jaws gripping the skin at the head (bite) and the stinger at the tip of the abdomen curled under to inject venom (sting)" },
@@ -69,6 +71,7 @@
     { "type": "p", "text": "Fire ants use the bite to hold on, and the sting delivers the venom. Texas A&M describes what happens when a mound is disturbed: the workers respond quickly, run up vertical surfaces to reach the intruder, grip with their jaws and inject venom through the stinger. The stings produce a burning sensation and often cause whitish blisters. MedlinePlus identifies piperidine as a chemical in the venom. Texas A&M also says a mature colony can contain more than 200,000 adult and immature ants, and MedlinePlus lists separate symptoms for people who receive multiple stings." },
     { "type": "p", "text": "[CDC's National Institute for Occupational Safety and Health (NIOSH)](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says fire ants are mostly found in the Southeastern United States, with limited distribution in New Mexico, Arizona and California. The University of California reports that the red imported fire ant has been found in various Southern California counties. MedlinePlus adds that they are typically found in the southern United States and other areas that do not freeze in winter, where they build dirt mounds, usually in open, grassy settings." },
     { "type": "p", "text": "Red imported fire ant workers are small: 1/16 to 1/5 inch long by the University of California's measure and 1/16 to 3/16 inch in the text of Texas A&M's guide. The California guide describes them as reddish with a dark brown abdomen. Not every reddish ant is a fire ant, so a separate guide explains [how to tell fire ants from the other red ants in a yard](/blog/red-ants) and how fire ant mounds are treated." },
+    { "type": "figure", "src": "/guides/photos/red-imported-fire-ant.webp", "width": 1200, "height": 851, "alt": "Magnified portrait of a red imported fire ant worker's reddish head, antennae and front legs against a blue background", "caption": "A red imported fire ant worker, magnified. The workers themselves are only 1/16 to 1/5 inch long, by the University of California's measure.", "license": "CC0-1.0", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solenopsis_invicta_-_fire_ant_worker.jpg" },
     { "type": "h3", "text": "Harvester ants" },
     { "type": "p", "text": "Harvester ants can bite and deliver a painful sting, but they are slow to use it. [Texas A&M's profile of the red harvester ant](https://texasinsects.tamu.edu/red-harvester-ant/) describes workers 1/4 to 1/2 inch long, red to dark brown, that are generally reluctant to sting. It also warns that the effects of a sting can spread along lymph channels and may be medically serious. The profile counts 22 species of harvester ants in the United States, most of them in the West." },
     { "type": "p", "text": "The same profile describes the nest. It sits in open ground, often with no vegetation in a 3-to-6-foot circle around the central opening or along the foraging trails that radiate from it, and the profile says the ants do not invade homes or other structures." },
@@ -77,6 +80,7 @@
     { "type": "p", "text": "Carpenter ants, acrobat ants and bigheaded ants bite but do not sting, according to Texas A&M, and the University of California adds the velvety tree ant, which it calls an aggressive biter." },
     { "type": "h3", "text": "Carpenter ants" },
     { "type": "p", "text": "Carpenter ants are large ants that can bite but do not sting. Texas A&M and the University of California both put the workers at 1/4 to 1/2 inch, and the California guide describes them as black or two-toned red and black. The Texas guide says only that these ants can bite and do not sting, and gives the bite no further attention. What a bite feels like and how to care for it are covered in [the guide to carpenter ant bites](/blog/do-carpenter-ants-bite)." },
+    { "type": "figure", "src": "/guides/photos/carpenter-ant-on-fingers.webp", "width": 1200, "height": 1543, "alt": "Large black carpenter ant walking across the fingers of an open hand", "caption": "An eastern black carpenter ant on a person's fingers in Alabama. The photographer reports that it bit moments later; carpenter ants bite but do not sting.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/238169041" },
     { "type": "p", "text": "The larger worry with this ant is the nest. Texas A&M notes that carpenter ant galleries can weaken structural timbers, so finding large ants indoors is a reason to learn [how carpenter ant nests are tracked down](/blog/carpenter-ants-canada). Not every dark ant is a carpenter ant, and a separate guide shows [how to sort big black ants from small ones](/blog/black-ants)." },
     { "type": "h3", "text": "Acrobat, bigheaded and velvety tree ants" },
     { "type": "p", "text": "Three other biters are less familiar. Acrobat ants are 1/8 to 1/4 inch long with a heart-shaped abdomen that is often held up over the body. The Texas chart marks them as biting but not stinging, and the guide says they nest under stones, in stumps or in dead wood and occasionally invade homes. Bigheaded ants, whose larger workers have heads that are big for their bodies, bite but do not sting and prefer to nest in soil outdoors. In California, the university singles out the velvety tree ant as an aggressive biter. It is 1/8 to 1/4 inch long with a red thorax and a velvety black abdomen, and it nests in dead wood such as old tree limbs, stumps and logs." },
@@ -91,6 +95,7 @@
 
     { "type": "h2", "text": "What does an ant bite or sting look like?" },
     { "type": "p", "text": "A fire ant sting is the one with a recognizable look: a burning red bump that can turn into a white, fluid-filled pustule within a day or two. That description is CDC's. MedlinePlus lists the wider set of symptoms as swelling, redness, itchiness and pain around the site, pus-filled blisters and a possible scab." },
+    { "type": "figure", "src": "/guides/photos/fire-ant-stings-lower-legs.webp", "width": 1200, "height": 1097, "alt": "A man's lower legs against a blue backdrop with scattered red spots from fire ant stings, a few with pale centers", "caption": "Fire ant stings scattered over both lower legs, some with pale pustule centers ringed in red (CDC photograph).", "license": "public-domain", "credit": "CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25047" },
     { "type": "table", "head": ["When", "What happens after a fire ant sting", "Source"], "rows": [
       ["At the sting", "A burning sensation", "CDC; Texas A&M"],
       ["Within a day or two", "Red bumps may form and develop into white, fluid-filled pustules", "CDC"],
@@ -100,9 +105,29 @@
     ], "caption": "The course of a fire ant sting as described by CDC, MedlinePlus and Texas A&M." },
     { "type": "media", "needed": "Photo of an ankle or forearm one to two days after fire ant stings, showing a cluster of red bumps topped with white, fluid-filled pustules" },
     { "type": "p", "text": "Other ants leave less to see. Ohio State describes pavement ant stings as normally inconsequential, with burning, itching and occasionally a small blister in people who react. Texas A&M describes harvester ant stings as painful and says their effects can spread along lymph channels. None of the sources cited here describes a lasting mark from the bite of a non-stinging ant such as a carpenter or acrobat ant." },
+    { "type": "p", "text": "[Cleveland Clinic's description of an ordinary ant bite](https://my.clevelandclinic.org/health/diseases/22943-ant-bites) fits that: a sharp pinch with redness and mild swelling, and a small, raised, pimple-like mark, red to purple, that usually goes away after a few days. It says ants usually bite on the feet, legs or hands, after contact with a mound or colony, and that most ants' jaws are too small to harm people." },
     { "type": "p", "text": "If marks keep turning up overnight and you never see an ant, compare them with [what bed bugs look like and the signs they leave](/blog/what-do-bed-bugs-look-like) before blaming ants." },
     { "type": "h3", "text": "Signs of an allergic or severe reaction" },
     { "type": "p", "text": "Some people react to the venom well beyond the sting site. Texas A&M notes that most people can tolerate fire ant stings but that some are very sensitive to the venom and must seek medical attention. MedlinePlus lists difficulty breathing, a rapid heart rate and throat swelling as symptoms that people allergic to fire ant venom may also have. It says multiple stings may cause vomiting, diarrhea, swelling throughout the body, shortness of breath, low blood pressure, rapid heartbeat and shock." },
+
+    { "type": "h2", "text": "Ant bite or another bug bite?" },
+    { "type": "p", "text": "Where the bites are, how they are grouped and whether they hurt or itch are useful clues, though [Cleveland Clinic's overview of bug bites and stings](https://my.clevelandclinic.org/health/diseases/bug-bites) notes that it is not always easy to tell which bug was responsible. Its ant bite page says an ant can leave a single bite, usually on the feet, hands or legs, while bed bugs tend to bite in several places, in a line. [CDC's bed bug page](https://www.cdc.gov/bed-bugs/about/index.html) adds that bed bug bite marks can take days to appear, and Cleveland Clinic's [guide to identifying common bug bites](https://health.clevelandclinic.org/how-to-identify-bug-bites) places flea bites near the feet and ankles." },
+    { "type": "table", "head": ["Bite or sting", "What it looks like", "How it feels", "Timing"], "rows": [
+      ["Fire ant sting", "Red bumps that can become white, fluid-filled pustules", "Burning; itching and pain around the site", "Pustules within a day or two; blisters last 3 to 8 days"],
+      ["Harvester ant sting", "Not described in these sources", "Painful; the effects can spread along lymph channels", "Not given in these sources"],
+      ["Carpenter ant bite", "A small, red, pimple-like mark", "A sharp pinch, with redness and mild swelling", "Usually gone after a few days"],
+      ["Other household ant bite", "Seldom seen: most species rarely bite", "Can be painless; most ants' jaws are too small to harm people", "Usually gone after a few days"],
+      ["Mosquito bite", "Itchy, raised bumps, sometimes with a dark spot in the center", "Itchy", "Itching and mild swelling usually clear within a few days"],
+      ["Flea bite", "Tiny red spots, often near the feet and ankles", "Itchy", "Itching and mild swelling usually clear within a few days"],
+      ["Bed bug bite", "Slightly swollen red areas, random or in a straight line", "May itch and be irritating", "Marks appear one to several days later, up to 14 days in some people"]
+    ], "caption": "Fire ant: CDC and MedlinePlus. Harvester ant: Texas A&M. Carpenter and other household ants: Cleveland Clinic's description of an ordinary ant bite, and the University of California. Mosquito, flea and bed bug: Cleveland Clinic and CDC; the few-days timing is Cleveland Clinic's figure for bug bites in general." },
+    { "type": "confused", "title": "Compare with these bites and stings", "items": [
+      { "href": "/blog/fire-ant-stings", "name": "Fire ant sting", "photo": "fire-ant-stings-pustules-closeup", "note": "A burning red bump that can become a white, fluid-filled pustule within a day or two" },
+      { "href": "/blog/flea-bites", "name": "Flea bites", "photo": "flea-bites-lower-leg", "note": "Tiny red, itchy spots, often near the feet and ankles" },
+      { "href": "/blog/what-do-bed-bug-bites-look-like", "name": "Bed bug bites", "photo": "bed-bug-bites-forearm", "note": "Slightly swollen red bites, random or in a line, that can take days to appear" },
+      { "href": "/blog/what-does-a-spider-bite-look-like", "name": "Spider bite", "photo": "brown-recluse-bite-early", "note": "Often blamed for other bugs' bites; a brown recluse bite starts as a red, swollen welt that can worsen" },
+      { "href": "/blog/chigger-bites", "name": "Chigger bites", "photo": "chigger-bites-ruler", "note": "Intensely itchy small red spots along sock lines, waistbands and skin folds" }
+    ] },
 
     { "type": "h2", "text": "How do you treat an ant bite or sting at home?" },
     { "type": "p", "text": "For a mild reaction, get the ants off, wash the area and cool it. The steps below combine CDC's first aid for fire ant stings with the home care listed by MedlinePlus and one note from Ohio State. MedlinePlus presents its article as information only and directs anyone stung by fire ants to the local emergency number or the Poison Help line, so these steps do not replace advice from a healthcare provider who has seen the reaction." },
@@ -158,6 +183,22 @@
     {
       "question": "Do ants bite people indoors, or only outside?",
       "answer": "The ants that sting are mostly met outside. The University of California describes the stinging ants it names, native fire ants and harvester ants, as primarily outdoor species, and Texas A&M says red harvester ants do not invade homes. Fire ants are a partial exception: Texas A&M notes that foraging workers may enter a house for food or moisture, particularly during hot, dry periods or floods, and that colonies are occasionally found nesting indoors in wall voids. Most of the small ants that come indoors are listed as neither biting nor stinging. Carpenter ants, which do come inside, can bite but do not sting."
+    },
+    {
+      "question": "What do ant bites look like?",
+      "answer": "Most ant bites leave a small, raised, pimple-like mark, red to purple, usually on the feet, legs or hands, according to Cleveland Clinic. Fire ant stings are the ones with a distinctive look: CDC says red bumps can form at the sting site and develop into white, fluid-filled pustules within a day or two, and Cleveland Clinic describes a light pink to white blister with a dark red ring around it. Fire ant stings often come several at a time, Cleveland Clinic adds, because fire ants typically attack in groups."
+    },
+    {
+      "question": "How do you treat an ant bite?",
+      "answer": "For a mild reaction, move away from the ants, rub or brush them off, and wash the area with soap and water. For mild fire ant stings, MedlinePlus advises ice wrapped in a clean cloth, 10 minutes on and 10 minutes off. Cleveland Clinic lists antihistamines or hydrocortisone cream for itching and says not to pop a blister, because that could lead to an infection. Get emergency care right away for trouble breathing, throat swelling or other signs of a severe allergic reaction, and contact a healthcare provider if symptoms last longer than a week to ten days."
+    },
+    {
+      "question": "How long do ant bites last?",
+      "answer": "Cleveland Clinic says ordinary ant bites usually go away after a few days, and that a fire ant sting typically takes three to seven days to go away. MedlinePlus breaks a fire ant sting down further: the pus-filled blisters last 3 to 8 days, and a scab may remain for 3 to 10 days. People who are not allergic to fire ants should be fine in a few hours to a few days, MedlinePlus adds. Cleveland Clinic advises contacting a healthcare provider if you do not feel better after a week to ten days."
+    },
+    {
+      "question": "Why do ant bites itch?",
+      "answer": "Your body is reacting to what got into the skin. Cleveland Clinic explains that bug bites itch because the immune system recognizes the bug's saliva as something that does not belong and sends a chemical called histamine to the spot, and it notes that saliva or venom entering the skin causes itching. With ants, the itch is best documented for stings: a fire ant sting delivers venom, which MedlinePlus says contains a chemical called piperidine, and Cleveland Clinic says the itching can last a few days. Try not to scratch, because broken skin can become infected."
     }
   ],
   "sources": [
@@ -166,7 +207,11 @@
     { "title": "Ants (Pest Notes, UC ANR Publication 7411)", "publisher": "University of California Statewide Integrated Pest Management Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
     { "title": "Managing Household Ant Pests (B-6183)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf" },
     { "title": "Red Harvester Ant (Field Guide to Common Texas Insects)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://texasinsects.tamu.edu/red-harvester-ant/" },
-    { "title": "Pavement Ants Have Stingers?", "publisher": "Ohio State University Extension, Buckeye Yard and Garden Line", "url": "https://bygl.osu.edu/node/1366" }
+    { "title": "Pavement Ants Have Stingers?", "publisher": "Ohio State University Extension, Buckeye Yard and Garden Line", "url": "https://bygl.osu.edu/node/1366" },
+    { "title": "Ant Bites", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/22943-ant-bites" },
+    { "title": "Bug Bites and Stings", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/bug-bites" },
+    { "title": "How To Identify 8 Common Bug Bites", "publisher": "Cleveland Clinic (Health Essentials)", "url": "https://health.clevelandclinic.org/how-to-identify-bug-bites" },
+    { "title": "About Bed Bugs", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" }
   ],
   "disclaimer": "health"
 }

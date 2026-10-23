@@ -2,7 +2,7 @@
  "id": "water-bugs-vs-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a9907ad094f48952b38fbf59f06dc7e8b2451f1111d3344c6cefb09d5c5fa946",
+ "sha": "68557683c888604e9281bc75557f670a2cf1f2ecf52eecd2112d6244135bc5fb",
  "claimsChecked": 62,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 3,
@@ -17,6 +17,16 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026 link-in (cockroaches): one sentence added at the end of 'Which cockroaches do people call water bugs?' linking /blog/oriental-cockroaches; no fact changed.",
    "previousSha": "82c669e58d365faad4dacb0d29b4e066c052d4e806622dd22b65704da1767de7"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "Oct 23, 2026 re-aim at 'water bug' (volume-20, UPGRADES.md section 1): keyword 'water bug'; 8 alsoTargets; metaTitle 'Water Bug vs Cockroach: How to Tell Them Apart' (was 'Water Bugs vs Cockroaches: Tell Them Apart'); metaDescription; quick-answer lead opens with the two meanings; dateModified 2026-10-23 (+ sitemap). The 7-row at-a-glance box became a 4-row quick-ID table (giant water bug, Oriental, American, smokybrown), every old fact kept; smokybrown from UC IPM + Texas A&M. New h2s: What is a toe-biter? (MDC toe-biter; UKY other names; UMN Entomology alligator ticks, lacks long antennae, toes not on menu; MSU Benacus griseus eastern toe-biter / Lethocerus americanus; UF IN578 mating flights to lights, pinch; UMN Extension May-Aug, lights in yards and parking lots, jab), Why does the male carry eggs on its back? (UF: Abedus and Belostoma only, hatch 1-2 weeks, Kraus report; MDC protection, male cannot fly or mate; UF + UMN Lethocerus eggs on plants, male guards), Why is there a water bug in my pool? (MDC pools and net; UF; UMN May-Aug; UKY do not handle; MSU children; label rule only). One Texas A&M paragraph (waterbug and palmetto bug names, 1 1/2-2 in, both sexes fly, floor drains, P-traps). 6 ledger photos (giant-water-bug-brick-pavement CC0 lead/share, giant-water-bug-store-sidewalk, giant-water-bug-in-hand, toe-biter-pool-filter, oriental-cockroach-garage-floor, oriental-cockroaches-manhole); 3 media placeholders kept. Cards: Oriental, palmetto bug, German (UC IPM 0.5 in, 2 stripes), beetles (UC IPM hardened forewings; ground-beetle photo). 5 FAQs appended. Sources +4: UF/IFAS IN578, UMN Extension, UMN Entomology, Texas A&M AgriLife.",
+   "previousSha": "a9907ad094f48952b38fbf59f06dc7e8b2451f1111d3344c6cefb09d5c5fa946"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "American cockroach flight re-sourced: UC IPM says 'especially on warm humid evenings' only of smokybrowns; Texas A&M AgriLife (already a source): 'Both the adult male and the female can fly'; UC IPM: 'Oriental cockroaches do not fly' (4 sentences + table cell + caption; orchestrator, Oct 23)",
+   "previousSha": "5938c7c7958bc01f76b4cac17aaeac68bb014574831cdde24beb932df8f2c5d7"
   }
  ]
 }

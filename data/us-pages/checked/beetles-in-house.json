@@ -2,7 +2,7 @@
  "id": "beetles-in-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ec64acd4702633a17917843f59730e16df8bd1ade12abcecf6fc50720016a3e7",
+ "sha": "e858cc74fc19b37a719b8bed82c00a5768e6304f82db6207aa2d56033ede6dca",
  "claimsChecked": 224,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/carpet-beetle-larvae and /blog/weevils (volume-20, Oct 23)",
+   "previousSha": "ec64acd4702633a17917843f59730e16df8bd1ade12abcecf6fc50720016a3e7"
+  }
+ ]
 }

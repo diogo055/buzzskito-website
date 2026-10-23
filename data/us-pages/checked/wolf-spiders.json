@@ -2,7 +2,7 @@
  "id": "wolf-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "48edf65a9cfda673819f141d09a6a791b8fc004c167281d60fda4d85987568d6",
+ "sha": "e813264cb1b9b4f7a30981e27d3139922d8519b93f55fe1d7e3eff3dca172944",
  "claimsChecked": 340,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "link to /tools/spider-identifier added in section What other spiders look like wolf spiders? (one new paragraph at the end of the section)",
    "previousSha": "6e23683cf25c17cfc2e8aac0306f40c11af7a78497019f0efecd9175bafce82c"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "link-in: /blog/jumping-spiders (volume-20, Oct 23)",
+   "previousSha": "48edf65a9cfda673819f141d09a6a791b8fc004c167281d60fda4d85987568d6"
   }
  ]
 }

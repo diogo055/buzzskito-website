@@ -431,7 +431,7 @@ export default function TickIdentifierPage() {
           <p className="mt-5 text-sm text-brand-200">
             Published by{' '}
             <Link href="/buzzskito-history" className="font-semibold text-white underline-offset-2 hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link> · {PUBLISHED} ·
-            Drafted with AI assistance and checked against the <a href="#sources" className="underline">sources listed below</a>
+            Checked against the <a href="#sources" className="underline">sources listed below</a>
           </p>
         </div>
       </section>

@@ -1,0 +1,15 @@
+{
+ "id": "weevils",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a9a6b14560ed5de1cc9a7a186507edd21d17c8aa89888701c1753ff89f210732",
+ "claimsChecked": 365,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-23",
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

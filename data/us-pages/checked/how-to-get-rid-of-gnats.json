@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-gnats",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "db7d9767be3ae8b587e8636161b1eb29850b7bf2da14278980a8fd1bdd153a45",
+ "sha": "6b0f8945683940a2ddf37bf4a46d2c2a82d990a0172c1e7353c5de4fb1a263ed",
  "claimsChecked": 310,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: fruit-fly-banana-peel, drain-fly-bathroom-fingertip (batch 12, Oct 23)",
+   "previousSha": "db7d9767be3ae8b587e8636161b1eb29850b7bf2da14278980a8fd1bdd153a45"
+  }
+ ]
 }

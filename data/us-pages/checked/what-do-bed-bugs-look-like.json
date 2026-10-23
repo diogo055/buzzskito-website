@@ -2,7 +2,7 @@
  "id": "what-do-bed-bugs-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3075a4832919e7aea30b61c5b31ec7831b2565ee45325ecf7ed38ed6584a412e",
+ "sha": "8640b192a71ac62d3501c140cd4256f006f8105eac8cf59a227f724a9bc20448",
  "claimsChecked": 74,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -26,6 +26,11 @@
    "on": "2026-10-23",
    "note": "checker (Oct 23 retrofit, independent pass): quick-ID table caption now also names the University of Tennessee (source of 'elongated' egg); FAQ 'CDC gives the size range across all life stages as 1 mm to 7 mm' -> 'CDC gives their size range as 1 mm to 7 mm' (CDC About Bed Bugs does not tie the range to life stages). All other new cells, captions, cards and FAQs verified against EPA (appearance; how to find: 3-12 min, bullet-size spots, pale yellow skins), Virginia Tech (torpedo, bright/brilliant red, empty-shell skins of different sizes, groups of 10+), Univ. of Kentucky (lentil, pinhead, no fly/jump, mistaken insects), CDC (1-7 mm, Lincoln's head, bites), CDC PHIL 12704 (5 mm average) and Texas A&M E-359.",
    "previousSha": "e2cef02076e88776c136965807897d5d20b36ccbd793c1ef224078d1ff62cfc9"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "photos: bed-bug-on-skin-cdc (batch 12, Oct 23)",
+   "previousSha": "3075a4832919e7aea30b61c5b31ec7831b2565ee45325ecf7ed38ed6584a412e"
   }
  ]
 }

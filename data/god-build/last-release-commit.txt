@@ -1,6 +1,9 @@
-release: 4 scheduled page(s) go live (2026-10-23)
+release: 7 scheduled page(s) go live (2026-10-23)
 
-- /blog/daddy-long-legs
-- /blog/yellow-sac-spiders
-- /blog/springtails
-- /blog/bed-bugs-in-hotels
+- /blog/joro-spiders
+- /blog/orb-weaver-spiders
+- /blog/jumping-spiders
+- /blog/camel-spiders
+- /blog/what-do-termites-look-like
+- /blog/carpet-beetle-larvae
+- /blog/weevils

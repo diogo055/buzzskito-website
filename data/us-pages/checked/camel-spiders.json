@@ -1,0 +1,27 @@
+{
+ "id": "camel-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "340ce0f1a9f3ba0f76923ba5f165de12b9ae7ebe3ba54ef428267455a1ff2d4c",
+ "claimsChecked": 276,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-23",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: house-wall placeholder replaced (Sierra Vista AZ, fingertip for scale); in-hand size photo added under the size paragraph with the page's own DCPH-A do-not-pick-up advice in the caption; captions state only what each record says (orchestrator, Oct 23)",
+   "previousSha": "b080e943d530dbfc3c2cca9d4fe7457dc8ac431586d3450ae8e0c9318a498a39"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "media placeholders kept beside the new photos (each photo only partly meets its placeholder's request; RETROFIT_BRIEF rule; renders nothing)",
+   "previousSha": "8c427a258f02d2a30edebaef6cffb435ca8f661ad5677929b1c41356b0ca3c3c"
+  }
+ ],
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

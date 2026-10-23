@@ -1,0 +1,205 @@
+{
+  "slug": "orb-weaver-spiders",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "orb weaver spider",
+  "alsoTargets": [
+    "orb weaver",
+    "orb weaver spiders",
+    "garden spider",
+    "yellow garden spider",
+    "banana spider",
+    "spiny orb weaver",
+    "are orb weavers poisonous"
+  ],
+  "metaTitle": "Orb Weaver Spiders: Garden and Banana Spiders",
+  "metaDescription": "Orb weavers build the big round webs of late summer and fall. Photos of garden, cross, banana and spiny orb weavers, the Joro tell, and what a bite does.",
+  "h1": "Orb Weaver Spiders: Garden Spiders, Banana Spiders and Their Big Round Webs",
+  "dek": "The big spider in the round web by your door is an orb weaver. Real photos, a quick-ID table for eight species, why they appear in fall, what happens to the webs and egg sacs, and what the sources say about bites.",
+  "breadcrumb": "Orb Weaver Spiders",
+  "excerpt": "How to recognize garden spiders, cross, marbled and spotted orb weavers, the banana spider and the spiny orb weaver, why they appear in fall, and what a bite does.",
+  "datePublished": "2026-10-23",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A spider waiting in a round web of spokes and circles is an orb weaver, and the big, colorful ones people notice are mostly females that reach full size in late summer and fall.** [The University of Minnesota](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders) calls orb weavers not dangerous and extremely unlikely to bite people.",
+    "bullets": [
+      "[The Missouri Department of Conservation (MDC)](https://mdc.mo.gov/discover-nature/field-guide/black-yellow-garden-spider) gives the female yellow garden spider a yellow and black body 3/4 to 1 inch long, resting head-down in a web about 2 feet across with a zigzag band of silk.",
+      "Many orb weavers eat their web at dawn and spin a new one at dusk; the spotted orbweaver hides in cracks and corners by day, says [MDC's spotted orbweaver guide](https://mdc.mo.gov/discover-nature/field-guide/arboreal-orbweaver-spotted-orbweaver).",
+      "[Clemson Extension](https://hgic.clemson.edu/factsheet/big-yellow-spiders-in-south-carolina/) says the golden silk orb weaver is also called the banana spider, and [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN467) says its golden web is often 3 to 6 1/2 feet (1 to 2 meters) across.",
+      "Bites are rare: [Penn State Extension](https://extension.psu.edu/yellow-garden-spider) says the yellow garden spider is not known to be medically important and a bite would likely hurt no more than a wasp or bee sting for most people.",
+      "A huge yellow spider with silver stripes on its abdomen may be a Joro spider, an Asian relative spreading through the eastern US, says [Clemson's Joro fact sheet](https://hgic.clemson.edu/factsheet/the-joro-spider/)."
+    ]
+  },
+  "facts": {
+    "title": "Orb weavers: quick ID",
+    "head": ["Spider", "Female body", "Look for", "Where and when"],
+    "rows": [
+      ["Yellow garden spider", "3/4 to 1 inch; males about 1/4 inch", "Yellow and black abdomen, black legs striped yellow-orange; head-down in a web with a zigzag band", "Gardens and tall plants near houses; adults July to October; most of the US"],
+      ["Banded garden spider", "1/2 to 1 inch; males to 1/4 inch", "Thin silver and yellow crosswise lines and thicker black ones on a pointier abdomen; zigzag band", "Open, sunny grassland, web a little lower in the plants; adults July to October"],
+      ["Cross orb weaver", "About 1/4 to 3/4 inch", "Yellow, tan, brown or orange, with a cross of four spots near the front of the abdomen", "On or by lit buildings, late summer to fall; from Europe, now across the US and much of Canada"],
+      ["Spotted orbweaver", "About 1/2 inch", "Camouflage pattern, often like an upside-down spruce tree; gray legs with brown rings", "Eaves of houses and barns, often near dusk-to-dawn lights; full grown by late summer"],
+      ["Marbled orbweaver", "1/2 to 3/4 inch", "Often orange, also yellow, tan, gray or white, with dark marbling; nearly round abdomen", "Moist woods near streams, hiding in a folded leaf; late summer through fall; across North America"],
+      ["Golden silk orb weaver (banana spider)", "Nearly 1 to just over 1 1/2 inches; males about 1/4 inch", "Long orange to tan body with yellow spots, hair tufts on the legs; golden web 3 to 6 1/2 feet across", "Open woods and forest edges; late summer and fall; Florida and the Gulf States north to North Carolina"],
+      ["Spinybacked orb weaver", "3/16 to 1/3 inch long, 3/8 to 1/2 inch wide", "Six pointed spines; in Florida white with black spots and red spines", "Woodlands and citrus groves; southern US; in Florida most common October to January"],
+      ["Joro spider", "Over 1 inch; leg span 3 inches or more", "Yellow abdomen with silver crosswise stripes, reddish patch underneath; golden web", "Yards, parks, forest edges and buildings; noticed from late summer; Georgia, the Carolinas, Tennessee and spreading"]
+    ],
+    "caption": "Sources: MDC, Penn State Extension, UF/IFAS, Clemson Extension and the Essig Museum of Entomology (UC Berkeley), each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What is an orb weaver spider?" },
+    { "type": "p", "text": "An orb weaver is a spider that builds the classic wheel-shaped web: spokes radiating from a central hub, with a spiral of sticky silk wound around them, as the [Essig Museum of Entomology at UC Berkeley](https://essig.berkeley.edu/identifications/cross-orb-weaver/) describes it. [UC IPM's Pest Notes on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) counts about 200 orb weaver species in North America and says the spider waits at the hub or in a shelter near the edge, sensing prey through the web's vibrations because its eyesight is poor." },
+    { "type": "figure", "src": "/guides/photos/yellow-garden-spider.webp", "width": 1200, "height": 1600, "alt": "Yellow garden spider with a black and yellow abdomen and black and orange banded legs hanging head-down in a round web below a thick zigzag band of white silk, with pavement and trees behind", "caption": "A yellow garden spider, *Argiope aurantia*, in her web with the zigzag band of silk, in Chapel Hill, North Carolina. Look for the head-down pose at the hub.", "credit": "NCBioTeacher, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow_Garden_Spider_Chapel_Hill_NC.jpg" },
+    { "type": "p", "text": "[University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders) puts orb weavers at 1/8 inch to 1 inch long, in many colors, with large, swollen-looking abdomens, and says they are common outdoors but rarely found indoors. The [University of Kentucky's urban spider chart](https://entomology.mgcafe.uky.edu/spider-chart) says they are almost always found in their webs, commonly on porches and in gardens, especially in late summer." },
+
+    { "type": "h2", "text": "What does a garden spider look like?" },
+    { "type": "p", "text": "Garden spider is a loose name that covers more than one species, the Essig Museum notes, but the University of Minnesota uses it for the two common *Argiope* spiders, the yellow and banded garden spiders. Both sit in the middle of a round web with a thick zigzag of silk through it." },
+    { "type": "h3", "text": "Yellow garden spider (writing spider)" },
+    { "type": "p", "text": "[MDC](https://mdc.mo.gov/discover-nature/field-guide/black-yellow-garden-spider) describes the female's oval abdomen as yellow (sometimes orange) and black, her legs as black with yellow-orange stripes and her front section as tipped with silver hairs, and gives her a body 3/4 to 1 inch long; males are about 1/4 inch and rarely noticed. [Penn State Extension](https://extension.psu.edu/yellow-garden-spider) gives females 19 to 28 mm (about 3/4 inch to just over 1 inch) and finds the species throughout most of the United States." },
+    { "type": "p", "text": "Her web gives her away. MDC says it can be about 2 feet across, with the spider head-down at the hub and a zigzag band, the stabilimentum, running up and down the center; Penn State says webs 20 to 40 inches (50 to 100 cm) across are not uncommon. MDC lists writing spider, zipper spider and corn spider among her other names, and [Clemson Extension's big yellow spider fact sheet](https://hgic.clemson.edu/factsheet/big-yellow-spiders-in-south-carolina/) traces writing spider to the zigzag, whose purpose is still debated." },
+    { "type": "figure", "src": "/guides/photos/yellow-garden-spider-with-egg-sac.webp", "width": 1200, "height": 1600, "alt": "Yellow garden spider with a cream and brown patterned abdomen and long black legs in a web against a gray wall, below a brown, papery, pear-shaped egg sac hung in the silk", "caption": "An adult female yellow garden spider, *Argiope aurantia*, beside an egg sac on a wall in Cameron, Texas. Look for the yellow-patterned abdomen and the papery sac in the silk nearby.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/244191355" },
+    { "type": "h3", "text": "Banded garden spider" },
+    { "type": "p", "text": "The banded garden spider, *Argiope trifasciata*, is slightly smaller, 1/2 to 1 inch, says [MDC's banded garden spider guide](https://mdc.mo.gov/discover-nature/field-guide/banded-garden-spider), with a pointier rear and many thin silver and yellow crosswise lines between thicker black, spotty ones; Clemson adds yellow legs with black stripes. It favors open, sunny grassland, MDC says, and sets its web a little lower in the plants." },
+
+    { "type": "h2", "text": "Which other orb weavers turn up around houses?" },
+    { "type": "p", "text": "Three brown, tan or orange orb weavers are common, mostly in fall." },
+    { "type": "h3", "text": "Cross orb weaver" },
+    { "type": "p", "text": "The cross orb weaver, *Araneus diadematus*, came from Europe. [Penn State Extension's cross orbweaver page](https://extension.psu.edu/cross-orbweaver-spider) gives females 6.5 to 20 mm (about 1/4 to 3/4 inch), yellow to brown, with four elongated spots near the front of the abdomen forming a cross, and finds it on or next to buildings with outdoor lights, from Pennsylvania through New England and Canada to Washington and Oregon. The Essig Museum adds tan and orange forms and says it now ranges across the US and into much of Canada." },
+    { "type": "media", "needed": "A female cross orb weaver (Araneus diadematus) in her web beside a lit porch or door frame, showing the cross of spots on the abdomen, identified by an extension service, museum or expert; public domain or CC0" },
+    { "type": "figure", "src": "/guides/photos/cross-orb-weaver-kitchen-window.webp", "width": 1070, "height": 805, "alt": "Cross orb weaver hanging in its web, seen from below, with a dark patterned abdomen and legs banded dark brown and pale, gray house siding and a window frame blurred behind", "caption": "A cross orb weaver, *Araneus diadematus*, in its web at the corner of a kitchen window in Lake Forest Park, Washington, with the house siding blurred behind. It is seen from below, so the cross on its back does not show.", "credit": "(c) John Brew, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/19186831" },
+    { "type": "h3", "text": "Spotted orbweaver, often called the barn spider" },
+    { "type": "p", "text": "Many people call the spotted orbweaver, *Neoscona crucifera*, the barn spider, though many spiders build on barns, says [MDC's spotted orbweaver guide](https://mdc.mo.gov/discover-nature/field-guide/arboreal-orbweaver-spotted-orbweaver). MDC gives it a body of usually about 1/2 inch, says it builds in woods and on the eaves of houses and barns, and describes its genus as camouflage-patterned, typically with a mark like an upside-down spruce tree and gray legs with brown rings. The University of Minnesota gives the name barn spider to a larger orb weaver, about 4/5 inch and yellow and brown, the model for Charlotte in *Charlotte's Web*." },
+    { "type": "h3", "text": "Marbled orbweaver (pumpkin spider)" },
+    { "type": "p", "text": "The marbled orbweaver, *Araneus marmoreus*, is often bright orange, though [MDC's marbled orbweaver guide](https://mdc.mo.gov/discover-nature/field-guide/marbled-orbweaver) says it can also be yellow, tan, grayish or white, mottled with black, brown or purple, and gives females 1/2 to 3/4 inch, nearly round when full of eggs. MDC finds it in moist woods, often near streams, hiding in a folded leaf tacked shut with silk, and says it ranges widely across North America. MDC calls it the pumpkin spider; the Essig Museum notes that the cross orb weaver gets that name too." },
+    { "type": "media", "needed": "A marbled orbweaver (Araneus marmoreus) and a spotted orbweaver (Neoscona crucifera), each photographed in its web beside a ruler marked in inches in the US or Canada, identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What is a banana spider?" },
+    { "type": "p", "text": "Clemson Extension's South Carolina fact sheet gives banana spider as another name for the golden silk orb weaver, *Trichonephila clavipes*, the huge golden-web spider of the Southeast. Clemson says the name likely comes from its bright yellow abdomen, and [the University of Florida's golden silk spider profile](https://ask.ifas.ufl.edu/publication/IN467) says it occurs throughout Florida, across the Gulf States and as far north as North Carolina." },
+    { "type": "p", "text": "UF gives females a body nearly 1 inch to just over 1 1/2 inches (24 to 40 mm) long, with a silvery front section, yellow spots on a long, dull orange to tan abdomen and brushes of hair on several legs; the slender, dark brown males average about 1/4 inch (6 mm). The finely meshed web, often 3 to 6 1/2 feet (1 to 2 meters) across, traps unwary hikers in late summer and fall, UF says." },
+    { "type": "figure", "src": "/guides/photos/golden-silk-orb-weaver.webp", "width": 1200, "height": 800, "alt": "Golden silk orb weaver with a long orange abdomen and banded legs bearing dark tufts of hair, hanging in a fine-meshed web against green foliage, with a much smaller spider higher in the web", "caption": "A female golden silk orb weaver, *Trichonephila clavipes*, in her web at Anahuac National Wildlife Refuge, Texas. Look for the dark leg tufts, which Clemson says set it apart from the other big yellow orb weavers.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/126590005" },
+    { "type": "p", "text": "[UF's pantropical huntsman spider profile](https://ask.ifas.ufl.edu/publication/IN317) says the huntsman, a large spider that hunts without a web, is sometimes called the banana spider too, because it occasionally turns up in bananas sold in stores; UF calls it not dangerous, though it can bite painfully if handled carelessly. [The guide to spiders in Florida](/blog/spiders-in-florida) covers both." },
+
+    { "type": "h2", "text": "What is the spiny orb weaver?" },
+    { "type": "p", "text": "It is the spinybacked orb weaver, *Gasteracantha cancriformis*, a small spider wider than it is long, with six pointed spines. [UF's spiny orb weaver profile](https://ask.ifas.ufl.edu/publication/IN324) gives females 3/16 to 1/3 inch long but 3/8 to 1/2 inch wide, typically white with black spots and red spines in Florida, while elsewhere the top may be yellow, the spines black, or the spider nearly all black. Males are tiny, 1/16 to 1/8 inch." },
+    { "type": "figure", "src": "/guides/photos/spinybacked-orb-weaver.webp", "width": 900, "height": 675, "alt": "Spinybacked orb weaver seen from above in its web: a wide white abdomen with dark red-brown spots ringed by six pointed red spines, black legs tucked beneath", "caption": "A spinybacked orb weaver, *Gasteracantha cancriformis*, in its web in Florida. The white abdomen with dark spots and red spines is the form UF calls typical of Florida.", "credit": "Zygy, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gasteracantha_cancriformis_172582232.jpg" },
+    { "type": "p", "text": "UF says it ranges from the southern United States to northern Argentina, lives mostly in woodlands and citrus groves, and in Florida is most common as an adult from October through January. Tufts of silk dot the web's support lines, possibly to make the web easier for birds to see. In parts of Florida it is called a crab spider, though it is unrelated to true crab spiders, UF notes." },
+
+    { "type": "h2", "text": "Is it a Joro spider?" },
+    { "type": "p", "text": "A huge yellow spider in a golden web may be a Joro spider, *Trichonephila clavata*, an East Asian relative of the golden silk orb weaver. [Clemson's Joro spider fact sheet](https://hgic.clemson.edu/factsheet/the-joro-spider/) says it was first found near Athens, Georgia, in 2014 and is spreading through the eastern US; females can have bodies over 1 inch long and a leg span of 3 inches or more." },
+    { "type": "p", "text": "Clemson's big yellow spider fact sheet gives the tell: the Joro's yellow abdomen has horizontal silver stripes and a reddish pink patch near the tip underneath, while the golden silk orb weaver lacks the silver stripes and has bottlebrush tufts on its legs. A Joro bite may leave a small, itchy red welt that usually fades in a day or two, Clemson says. [The Joro spider guide](/blog/joro-spiders) covers where it has spread." },
+
+    { "type": "h2", "text": "What else gets mistaken for an orb weaver?" },
+    { "type": "p", "text": "Mostly other web builders, and other spiders' egg sacs. Kentucky's chart says no other common Kentucky spider makes an organized, circular web, so check the web first:" },
+    { "type": "ul", "items": [
+      "**Common house spider.** A spherical abdomen in a compact, messy cobweb, often in homes and buildings, Kentucky's chart says. [The house spider guide](/blog/house-spiders) shows it.",
+      "**Black widow.** [Clemson's widow spider fact sheet](https://hgic.clemson.edu/factsheet/widow-spiders-in-south-carolina/) describes the female southern black widow as shiny, round and black with a red hourglass underneath, in a messy, tangled web in dark spots near the ground, such as woodpiles and sheds, and round, tan to grayish egg sacs with one small point. Black widow bites may cause serious symptoms and can require medical attention, Clemson says; see [the black widow guide](/blog/black-widow-spiders).",
+      "**Jumping spiders.** Many are gray or black, with large eyes and quick, jerky moves, and they build no web, Kentucky's chart says. See [jumping spiders](/blog/jumping-spiders) and [black spiders](/blog/black-spiders).",
+      "**Grass spiders.** Kentucky's chart says grass spiders build large, funnel-shaped webs in lawns; see [the grass spider guide](/blog/grass-spiders)."
+    ] },
+    { "type": "p", "text": "Still not sure? [The spider identifier](/tools/spider-identifier) asks seven questions and names the likely match." },
+    { "type": "confused", "items": [
+      { "href": "/blog/joro-spiders", "name": "Joro spider", "photo": "joro-spider", "note": "Yellow abdomen with silver crosswise stripes and a reddish patch underneath; a golden web", "alt": "Joro spider hanging in a large web, with an orange and yellow patterned body and long legs banded black and yellow" },
+      { "href": "/blog/spider-egg-sacs", "name": "Black widow egg sac", "photo": "northern-black-widow-egg-sac", "note": "Round, tan to grayish, with one small point, in a messy web in a dark spot near the ground", "alt": "Glossy black northern black widow with a red mark on her round abdomen in front of a round tan egg sac on gray stone, with tangled webbing behind" },
+      { "href": "/blog/black-spiders", "name": "Black spiders", "photo": "bold-jumping-spider", "note": "This one is a jumping spider: large eyes, quick jerky moves and no web at all", "alt": "Fuzzy black bold jumping spider with white markings and shiny green jaws, facing the camera on a green leaf" },
+      { "href": "/blog/house-spiders", "name": "Common house spider", "photo": "common-house-spider", "note": "A spherical abdomen in a compact, messy cobweb, often indoors; not a wheel-shaped web", "alt": "Common house spider with a round, mottled gray and black abdomen and banded legs, seen at an angle against a pale wall" }
+    ] },
+
+    { "type": "h2", "text": "Why do orb weavers show up in the fall?" },
+    { "type": "p", "text": "Because that is when they are full grown. Most common orb weavers live one season: Penn State says yellow garden spiderlings emerge in early spring and go unnoticed until they mature in late summer, MDC says spotted orbweavers reach full size by late summer and early fall, and Clemson says adult garden spiders are typically seen from July to October. The Essig Museum says cross orb weaver numbers peak in fall, when they mature." },
+    { "type": "p", "text": "Lights help. MDC says spotted orbweavers often build near dusk-to-dawn lights to catch the insects drawn to them, Penn State finds cross orbweavers by buildings with outdoor lights, and UC IPM says outdoor lighting attracts insects, which in turn attracts spiders. Now and then one wanders indoors and builds in a doorway or windowsill, Kentucky's chart says." },
+    { "type": "media", "needed": "An orb web built across a front door, porch light or window at night, with the spider at the hub, photographed at a US or Canadian home; public domain or CC0" },
+    { "type": "figure", "src": "/guides/photos/furrow-orb-weaver-back-door.webp", "width": 1200, "height": 1315, "alt": "Small pale orb weaver with a gray-white abdomen marked by a dark wavy band, in the middle of a web spun across an open doorway, with framed pictures and a chandelier blurred in the room behind", "caption": "A furrow orbweaver, *Larinioides cornutus*, in the middle of its web across an open back doorway in Hamilton, Ohio, with the room inside blurred behind. Its observer says it rebuilt the web across the door every night for two months.", "credit": "(c) Mary Spilman, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/243698225" },
+    { "type": "p", "text": "Cold ends the season: MDC says garden spider females die in the first frosts and the first freezes usually kill adult marbled orbweavers, leaving the egg cases to overwinter. In Florida, UF finds adult spinybacked orb weavers all year." },
+
+    { "type": "h2", "text": "Do orb weavers rebuild their webs every day?" },
+    { "type": "p", "text": "Many do. MDC says many orbweavers are nocturnal: they build the web at dusk, hunt through the night and eat it at dawn, dew and all, recycling the silk. The spotted orbweaver then hides in cracks and corners by day, and the Essig Museum says the cross orb weaver also builds a fresh web each day, eating the old one." },
+    { "type": "p", "text": "Others keep one web. MDC says a yellow garden spider tends to stay in one area all season and repairs the damaged parts of her web, and Clemson says banded garden spiders sit at the hub by day. UF calls the golden silk orb weaver's web semipermanent, repaired in large sections rather than taken down." },
+
+    { "type": "h2", "text": "What do orb weaver egg sacs look like?" },
+    { "type": "p", "text": "Most are silk sacs made in late summer and fall that carry the eggs through winter. MDC says a yellow garden spider makes about four tan, papery egg cases a little smaller than a ping-pong ball, each able to hold over 1,000 eggs, generally attached to nearby plants; Clemson describes them as white to brown, somewhat teardrop-shaped and suspended in the web, with spiderlings emerging in April or May." },
+    { "type": "figure", "src": "/guides/photos/yellow-garden-spider-egg-sac.webp", "width": 1200, "height": 1200, "alt": "Brown, papery, pear-shaped egg sac with a narrow neck at the top, hung in fine silk threads among white asters with yellow centers", "caption": "A yellow garden spider (*Argiope aurantia*) egg sac hanging in silk among wildflowers in Kentucky, identified from the sac and the web beside it. Look for the papery brown cover narrowing to a neck.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/250477923" },
+    { "type": "p", "text": "Others differ. MDC says the banded garden spider's sac is kettledrum-shaped and about 3/4 inch across; Penn State says cross orbweavers lay 300 to 900 eggs in late September in a dome of yellow silk under bark or in cracks; UF says golden silk females make at least two sacs about an inch across (2.5 to 3 cm); and Clemson says Joro females glue a flat egg mass under bark or leaves or between deck boards, not in the web. [The spider egg sac guide](/blog/spider-egg-sacs) compares other spiders' sacs." },
+
+    { "type": "h2", "text": "Do orb weavers bite people?" },
+    { "type": "p", "text": "Rarely. Orb weavers have venom, as almost all spiders do, but the sources here do not count them among dangerous spiders. The Essig Museum says the venom is meant to paralyze insects, the University of Minnesota calls orb weavers extremely unlikely to bite, MDC says orbweavers do not bite unless molested and their bites are not dangerous, and Kentucky's chart calls the bites harmless except to allergic people." },
+    { "type": "p", "text": "Penn State says a yellow garden spider is unlikely to bite unless someone handles a female with an egg sac in the web, and that even then the bite would likely hurt no more than a wasp or bee sting for most people. UF says the golden silk orb weaver bites only if held or pinched, causing local pain and slight redness that soon fade." },
+    { "type": "p", "text": "The cross orb weaver has the most on record in the sources here: Penn State says verified bites have caused pain, swelling and redness, sometimes with anxiety, nausea, headache or muscle cramps, lasting two days to three weeks, and that reactions vary. The Essig Museum says it bites only as a last resort and that a bite may be painful, with a small local reaction like a bee sting." },
+    { "type": "p", "text": "UC IPM says spiders generally bite only when squeezed, lain on or otherwise provoked, and may bite by instinct when disturbed in a web. A red bump is not proof of a spider: [Mayo Clinic's page on spider bites](https://www.mayoclinic.org/diseases-conditions/spider-bites/symptoms-causes/syc-20352371) says a spider bite typically looks like any other bug bite and is hard to pin on a spider unless you saw it happen. [What a spider bite looks like](/blog/what-does-a-spider-bite-look-like) and [mosquito bite or spider bite](/blog/mosquito-bite-vs-spider-bite) cover the marks." },
+    { "type": "p", "text": "For any spider bite, [Poison Control](https://www.poison.org/articles/insect-and-spider-bites) says to wash the area with soap and water, put cold water or a cloth filled with ice on it for 10 to 20 minutes, and watch for pus, swollen glands and worsening swelling, redness or pain. [The guide to venomous spiders](/blog/venomous-spiders) covers the spiders whose bites do need care." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care for a spider bite", "text": "Mayo Clinic says to seek medical care immediately if you were bitten by a dangerous spider such as a widow or recluse, are unsure whether the spider was dangerous, have severe pain, abdominal cramping or a growing wound at the bite, have trouble breathing or swallowing, or see spreading redness or red streaks. Poison Control answers at 1-800-222-1222 in the US. In Canada, [Health Canada](https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html) says 1-844-764-7669 (1-844 POISON-X) connects callers to their local poison center; Quebec keeps its own line, 1-800-463-5060." },
+
+    { "type": "h2", "text": "What should you do about an orb weaver by your door?" },
+    { "type": "p", "text": "Usually nothing. MDC calls the garden spider harmless and a help against insect pests, and the University of Minnesota says garden spiders should be left alone. If a web is in the way:" },
+    { "type": "ul", "items": [
+      "**Move the web, not the spider by hand.** UC IPM suggests a broom or high-pressure hose for webs on the outside of the house, and Clemson suggests knocking a Joro off its web with a stick or broom and moving it away, such as from a porch to the edge of the woods.",
+      "**Use a jar indoors.** Set a jar over the spider, slide a sheet of paper underneath and release it outside, as UC IPM describes.",
+      "**Change the lights.** UC IPM suggests keeping light fixtures off the house and away from windows and doors where possible; Minnesota suggests yellow bulbs, which draw fewer insects.",
+      "**Skip the spray.** UC IPM says insecticides will not provide long-term control and should not generally be used against spiders outdoors."
+    ] },
+    { "type": "p", "text": "[Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing gaps and the other steps indoors." },
+    { "type": "callout", "tone": "tip", "title": "Photograph it to be sure", "text": "Photograph the spider in its web from above and below, with a ruler marked in inches held near it but not touching the web, and note where the web is and the date. A local cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are orb weavers poisonous?",
+      "answer": "Orb weavers have venom, as almost all spiders do, but the sources here do not consider them dangerous. The Essig Museum at UC Berkeley says the venom is meant to paralyze insects. The University of Minnesota calls orb weavers not dangerous and extremely unlikely to bite, the Missouri Department of Conservation says their bites are not dangerous, and the University of Kentucky calls the bites harmless except to allergic people. Penn State Extension notes that verified cross orbweaver bites have caused pain, swelling and redness."
+    },
+    {
+      "question": "What happens if an orb weaver bites you?",
+      "answer": "Usually a sting-like hurt that fades. Penn State Extension says a yellow garden spider bite would likely cause no more discomfort than a wasp or bee sting for most people, and the University of Florida says a golden silk orb weaver bite causes local pain and slight redness that soon go away. Penn State reports that verified cross orbweaver bites caused pain, swelling and redness, sometimes with nausea, headache or muscle cramps, for two days to three weeks. Poison Control says to wash a spider bite with soap and water and cool it, and Mayo Clinic says to seek care at once for severe pain, a growing wound, trouble breathing or spreading redness."
+    },
+    {
+      "question": "Can you touch an orb weaver?",
+      "answer": "It is better not to. Penn State Extension says people are unlikely to be bitten by a yellow garden spider unless they handle a female with an egg sac in her web, the Missouri Department of Conservation says orbweavers do not bite unless molested, and UC IPM says spiders generally bite when squeezed or otherwise provoked. To move one, UC IPM and Clemson Extension suggest a broom, a stick or a jar rather than your hands, and Mayo Clinic suggests flicking a spider off your skin rather than crushing it."
+    },
+    {
+      "question": "Should I get rid of orb weaver spiders?",
+      "answer": "You do not need to. The Missouri Department of Conservation says garden spiders help control insect pests and calls them harmless, the University of Minnesota says garden spiders are not dangerous and should be left alone, and Clemson Extension says the big yellow orb weavers eat insects, some of them pests. If a web blocks a doorway, UC IPM suggests clearing it with a broom or hose, and Clemson suggests moving a Joro spider to the edge of the woods. UC IPM says insecticides do not give long-term control of spiders outdoors."
+    },
+    {
+      "question": "Where do orb weavers go during the day?",
+      "answer": "It depends on the species. The Missouri Department of Conservation says the spotted orbweaver eats its web at dawn, hides in cracks and corners through the day and spins a new web at dusk, and that the marbled orbweaver waits in a folded leaf tacked shut with silk, linked to the web by a signal line. Garden spiders stay in the open: MDC says the yellow garden spider rests head-down at the hub, and Clemson Extension says the banded garden spider sits in the middle of its web by day."
+    },
+    {
+      "question": "How long do orb weavers live?",
+      "answer": "Most common orb weavers live about a year. Clemson Extension says garden spiders have one generation a year, with the eggs spending the winter in the sac and spiderlings emerging in spring, and the Missouri Department of Conservation says adult spotted orbweavers die when it freezes while the young overwinter in egg cases. The University of Florida says the golden silk orb weaver also has one generation a year in temperate North America, and that in Florida spinybacked orb weavers are found as adults year-round."
+    },
+    {
+      "question": "How big does a garden spider get?",
+      "answer": "A female yellow garden spider's body is 3/4 to 1 inch long, not counting the legs, according to the Missouri Department of Conservation, and Penn State Extension gives 19 to 28 mm, or about 3/4 inch to just over 1 inch. With the legs, the University of Minnesota says garden spiders can measure several inches. Males are much smaller: MDC puts the yellow garden spider male at about 1/4 inch. The banded garden spider female is 1/2 to 1 inch long, MDC says."
+    },
+    {
+      "question": "What attracts yellow garden spiders?",
+      "answer": "Sunny spots full of plants and insects. Clemson Extension says garden spider webs are often placed near open, sunny areas in tall vegetation at about knee height, and the Missouri Department of Conservation finds them in gardens, grassy areas near houses and tall grassland, catching grasshoppers, katydids and other insects. Once a spider settles, MDC says, it tends to stay in the same area all season. UC IPM adds that outdoor lights attract insects, which in turn attract spiders."
+    },
+    {
+      "question": "Are banana spiders dangerous?",
+      "answer": "Neither spider the sources here call a banana spider is considered dangerous. Clemson Extension says the golden silk orb weaver is also called the banana spider, and the University of Florida says it bites only if held or pinched, causing local pain and slight redness that quickly go away, much less severe than a bee sting. The pantropical huntsman spider, a large hunter that builds no web, is sometimes called a banana spider because it occasionally turns up in bananas sold in stores; UF calls it not dangerous, though it can give a painful bite when handled carelessly."
+    },
+    {
+      "question": "Do orb weavers come inside the house?",
+      "answer": "Rarely. The University of Minnesota says orb weavers are common outdoors in gardens, fields and landscapes but rarely found indoors, and the University of Kentucky says one occasionally wanders in and builds a web in a doorway or windowsill. Clemson Extension says Joro spiders are highly unlikely to come inside, though they may build on the house. Off their webs orb weavers do poorly, Minnesota says, moving very slowly with very poor vision, and one found indoors can be caught under a jar and released outside, as UC IPM describes."
+    }
+  ],
+  "sources": [
+    { "title": "Black-and-Yellow Garden Spider (field guide, reviewed December 30, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/black-yellow-garden-spider" },
+    { "title": "Banded Garden Spider (field guide, reviewed December 30, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/banded-garden-spider" },
+    { "title": "Arboreal Orbweaver (Spotted Orbweaver) (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/arboreal-orbweaver-spotted-orbweaver" },
+    { "title": "Marbled Orbweaver (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/marbled-orbweaver" },
+    { "title": "Yellow Garden Spider (Steve Jacobs, updated June 24, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/yellow-garden-spider" },
+    { "title": "Cross Orbweaver Spider (Steve Jacobs, updated September 8, 2025)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/cross-orbweaver-spider" },
+    { "title": "Golden Silk Spider, Trichonephila clavipes (EENY229; H. V. Weems Jr. and G. B. Edwards Jr.)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN467" },
+    { "title": "Spiny Orb Weaver Spider, Gasteracantha cancriformis (EENY-167; G. B. Edwards)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN324" },
+    { "title": "Pantropical Huntsman Spider, Heteropoda venatoria (EENY-160; G. B. Edwards Jr.)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN317" },
+    { "title": "Big Yellow Spiders in South Carolina (HGIC 2503, revised November 20, 2024)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/big-yellow-spiders-in-south-carolina/" },
+    { "title": "The Joro Spider (HGIC 2517, published November 21, 2024)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/the-joro-spider/" },
+    { "title": "Widow Spiders in South Carolina (HGIC 2518, published September 17, 2026)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/widow-spiders-in-south-carolina/" },
+    { "title": "Spiders (Jeffrey Hahn and others, reviewed 2019)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/spiders" },
+    { "title": "Urban Spider Chart (ENTFACT supplement; Blake Newton and Lee Townsend)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/spider-chart" },
+    { "title": "Pest Notes: Spiders (UC ANR Publication 7442; R. S. Vetter, updated October 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Cross Orb Weaver (Susan Kennedy)", "publisher": "Essig Museum of Entomology, University of California, Berkeley", "url": "https://essig.berkeley.edu/identifications/cross-orb-weaver/" },
+    { "title": "Spider bites: Symptoms and causes (July 30, 2021)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/spider-bites/symptoms-causes/syc-20352371" },
+    { "title": "Insect and spider bites: When to worry (Wendy Klein-Schwartz)", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/insect-and-spider-bites" },
+    { "title": "Canada launches new toll-free 1-844 POISON-X number for poison centres (news release, March 20, 2023)", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html" }
+  ],
+  "disclaimer": "health"
+}

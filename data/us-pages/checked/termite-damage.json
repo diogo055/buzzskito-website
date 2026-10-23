@@ -2,7 +2,7 @@
  "id": "termite-damage",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3a2e73733dacb446fe884ecf8a048fb7dc069dc330b2f959bb449bc9b5afa424",
+ "sha": "748cb376fd9b85aa5e9d54fa424b5e972d98352d9dade1a9762521607b090dd9",
  "claimsChecked": 220,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "photos: termite-swarmers-ceiling-light, drywood-termite-swarmer-fingers (batch 12, Oct 23)",
+   "previousSha": "3a2e73733dacb446fe884ecf8a048fb7dc069dc330b2f959bb449bc9b5afa424"
+  }
+ ]
 }

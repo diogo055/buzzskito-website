@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-361 images across 147 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+385 images across 154 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -518,6 +518,13 @@
 - A marbled cellar spider (Holocnemus pluchei) hanging upside down in its web, showing the brown stripe on its underside, in a home, garage or porch in California or the Southwest; public domain or CC0
 - A long-bodied cellar spider hanging upside down in its loose web in a basement, garage or ceiling corner, with the tangle of web visible, photographed in a US or Canadian home; public domain or CC0
 
+## /blog/joro-spiders
+
+- A male Joro spider in a female's web close to her, showing the size difference, photographed in the US and identified by an extension service, museum or expert; public domain or CC0
+- Joro spider webs on a house, porch, deck railing, fence or power line in the US, with the spider visible, as a homeowner sees them; public domain or CC0
+- A Joro spider egg sac on tree bark, a leaf or a building in the US, identified by an extension service or expert, beside a ruler marked in inches; public domain or CC0
+- Several Joro spider webs strung together between trees, shrubs or a fence line in late summer or fall in the US, with the spiders visible; public domain or CC0
+
 ## /blog/wolf-spiders
 
 - Adult wolf spider identified to species, photographed from above beside a ruler marked in inches, sharp enough to compare body length with leg span; public domain or CC0
@@ -539,17 +546,36 @@
 - Silver garden spider (Argiope argentata) or western spotted orbweaver (Neoscona oaxacensis) photographed in California, identified to species, sitting in its orb web; public domain or CC0
 - Native California tarantula (Aphonopelma), ideally a wandering male photographed in California in fall, or a California trapdoor spider (Bothriocyrtum californicum) beside its open burrow lid, identified to genus or species; public domain or CC0
 
+## /blog/orb-weaver-spiders
+
+- A female cross orb weaver (Araneus diadematus) in her web beside a lit porch or door frame, showing the cross of spots on the abdomen, identified by an extension service, museum or expert; public domain or CC0
+- A marbled orbweaver (Araneus marmoreus) and a spotted orbweaver (Neoscona crucifera), each photographed in its web beside a ruler marked in inches in the US or Canada, identified by an extension service, museum or expert; public domain or CC0
+- An orb web built across a front door, porch light or window at night, with the spider at the hub, photographed at a US or Canadian home; public domain or CC0
+
 ## /blog/spiders-in-florida
 
 - Regal jumping spider (Phidippus regius) photographed in Florida: a black adult male with white markings, or an orange or gray female, showing the iridescent jaws; public domain or CC0
 - Pantropical huntsman spider (Heteropoda venatoria) photographed in Florida, top view on a wall or floor, showing the flat brown body, the pale band around the front body section and the black spots at the bases of the leg bristles; public domain or CC0
 - Wolf spider photographed in Florida, top view, ideally a female carrying her egg sac at her spinnerets or her spiderlings on her back, beside a ruler marked in inches; public domain or CC0
 
+## /blog/jumping-spiders
+
+- A face-on close-up of a jumping spider (for example a bold jumper) showing the two huge front eyes and the smaller eyes beside and behind them, to set beside the wolf spider face below; public domain or CC0
+- A zebra jumping spider (Salticus scenicus) on a sunny house wall, window frame or windowsill in the US or Canada, showing the black-and-white stripes, ideally beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0
+- A jumping spider where a homeowner meets it: on an indoor windowsill or window frame, a sunny house wall, a deck rail or a car mirror, in the US or Canada; identified to species by an extension service, museum or expert; public domain or CC0
+- Jumping spider spiderlings, or a female jumping spider guarding a flattened white egg sac in a silk retreat on a leaf, under bark or in a crevice on a building, with a ruler marked in inches for scale; identified by an extension service, museum or expert; public domain or CC0
+
 ## /blog/yellow-sac-spiders
 
 - Agrarian sac spider, Cheiracanthium inclusum, adult, on a wall or a plant and ideally beside a ruler marked in inches, identified by an extension service or university; public domain or CC0 (every yellow sac spider photo on record shows C. mildei or an unnamed Cheiracanthium)
 - A white crab spider (for example the goldenrod crab spider, Misumena vatia) on a cut flower or a houseplant indoors, identified by an extension service, university or museum; public domain or CC0, for the pale-spider sorter
 - Yellow sac spider eggs or newly hatched spiderlings inside an opened silk retreat, ideally indoors and beside a ruler marked in inches, identified by an extension service or university; public domain or CC0
+
+## /blog/camel-spiders
+
+- A face-on close-up of a camel spider's head showing the forward-pointing jaws (chelicerae), the leg-like pedipalps and the two eyes, beside a ruler marked in inches; identified to order by an extension service, museum or expert; public domain or CC0
+- A camel spider (solifuge) on a porch, patio or garage floor at night under an outdoor light in the US Southwest, beside a ruler marked in inches; identified to order by an extension service, museum or expert; public domain or CC0
+- A giant whip scorpion (vinegaroon), Mastigoproctus giganteus, on the ground in Arizona, New Mexico or Texas, showing the thick pincer-like palps and the thin, whip-like tail; public domain or CC0
 
 ## /blog/spiders-in-texas
 
@@ -682,6 +708,12 @@
 - Photo of carpet beetle larvae and their brown, bristly cast skins along the edge of a wool rug or on a closet shelf, beside a ruler marked in inches, as a homeowner would find them
 - Phone-style photo of several booklice on a damp book page, cardboard box or window frame, beside a ruler marked in inches, showing how small and pale they look without magnification
 
+## /blog/what-do-termites-look-like
+
+- A termite swarmer and a winged ant photographed side by side at the same scale beside a ruler marked in inches, showing the waist, antennae and wings; public domain or CC0
+- Termite swarmers, or a scatter of their shed wings, on an indoor windowsill or floor in a US home, beside a ruler marked in inches; public domain or CC0
+- A drywood termite swarmer or a pale drywood termite nymph beside a ruler marked in inches, identified by an extension service or museum, in a US home or piece of furniture; public domain or CC0
+
 ## /blog/termite-droppings
 
 - Close-up color photo of drywood termite pellets on a white card beside a ruler marked in inches and millimeters, sharp enough to show the six flattened sides
@@ -704,6 +736,19 @@
 
 - Photo of an adult greenhouse camel cricket from above on a basement floor beside a ruler marked in inches or a US quarter, to show its real size
 - Photo of the dark fecal smears camel crickets leave on basement or crawl space surfaces such as floor joists, as NC State Extension describes, ideally beside a ruler marked in inches
+
+## /blog/carpet-beetle-larvae
+
+- A full-grown black carpet beetle larva (Attagenus unicolor) beside a ruler marked in inches, showing the shiny, carrot-shaped golden-brown body and the long tuft of hairs at the tail; identified by an extension service, museum or expert; public domain or CC0
+- Live carpet beetle larvae with their shed skins at the edge of a wool rug, along a baseboard or in a closet in a home, beside a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0
+- A duff millipede (Polyxenus, a bristly millipede) beside a carpet beetle larva at the same scale, or beside a ruler marked in inches, so the fans of hair at its rear and its many legs show; identified by an extension service, museum or expert; public domain or CC0
+
+## /blog/weevils
+
+- Bean weevils (Acanthoscelides obtectus) on infested dried beans that show round exit holes, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0
+- Rice or maize weevils on rice or another whole grain in a kitchen container or package, with small round exit holes in the kernels, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0
+- A strawberry root weevil or black vine weevil indoors, in a sink or tub or on a floor or windowsill of a US or Canadian home, beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0
+- An acorn weevil larva beside the acorn it left, showing the round exit hole, on a table or windowsill indoors; identified by an extension service, museum or expert; public domain or CC0
 
 ## /learn/bug-bites
 

@@ -1,0 +1,195 @@
+{
+  "slug": "jumping-spiders",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "jumping spider",
+  "alsoTargets": [
+    "jumping spiders",
+    "bold jumping spider",
+    "zebra jumping spider",
+    "jumping spider bite",
+    "are jumping spiders poisonous",
+    "baby jumping spider",
+    "what do jumping spiders eat"
+  ],
+  "metaTitle": "Jumping Spiders: ID, Common Species and Bites",
+  "metaDescription": "Jumping spiders have two huge front eyes, move in jerky hops and spin no web. Photos, common species, look-alikes and what the sources say about bites.",
+  "h1": "Jumping Spiders: How to Identify Them, Common Species and Do They Bite?",
+  "dek": "A small, fuzzy spider with big front eyes that hops across a windowsill, wall or deck rail is a jumping spider. Real photos of common species, the eye test that sorts it from a wolf spider, look-alike cards and the bite facts.",
+  "breadcrumb": "Jumping Spiders",
+  "excerpt": "How to recognize a jumping spider by its eyes and hops, the bold, Johnson's and zebra jumpers, the wolf spider and black widow look-alikes, and the bite facts.",
+  "datePublished": "2026-10-23",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A jumping spider is a compact, often fuzzy spider with two huge eyes facing forward on a flat face; it moves in jerky hops, hunts by day and pounces on prey instead of waiting in a web.** Bites are uncommon and minor: [Colorado State University Extension](https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/JumpingSpiders.pdf) says most species' jaws are too small to pierce skin.",
+    "bullets": [
+      "Most jumping spiders that people notice are about 1/6 to 1/2 inch (4 to 12 mm) long, Colorado State says, and [the University of Kentucky's spider chart](https://entomology.mgcafe.uky.edu/spider-chart) puts a typical one at about the size of a dime with its legs stretched out.",
+      "The [bold jumping spider](https://mdc.mo.gov/discover-nature/field-guide/bold-jumper) is fuzzy and usually black, with white, orange or reddish spots and shiny green or blue jaws; females are 1/4 to 3/4 inch long without the legs, says the Missouri Department of Conservation (MDC).",
+      "Jumping spiders hunt on plants, fences and the sides of buildings and often wander indoors, but they are not normally pests, says [the University of Kentucky's jumping spider page](https://www.uky.edu/Ag/CritterFiles/casefile/spiders/jumping/jumping.htm).",
+      "A wolf spider also has big front eyes, but [MDC's wolf spider guide](https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders) says it has a row of four small eyes below the large ones and runs smoothly instead of jumping.",
+      "For one indoors, [Clemson Extension](https://hgic.clemson.edu/factsheet/jumping-spiders/) advises a glass or dish to carry it outside, not a can of insect spray."
+    ]
+  },
+  "facts": {
+    "title": "Jumping spider or look-alike? Quick ID",
+    "head": ["Spider", "Body length", "What to look for", "Web", "Bite"],
+    "rows": [
+      ["Bold jumping spider", "Female 1/4 to 3/4 inch; male usually under 1/2 inch", "Fuzzy and usually black, with white, orange or reddish spots; green or blue jaws", "None; a silk retreat and a safety line", "Can bite if squeezed; harmless, MDC says"],
+      ["Johnson's jumping spider", "1/4 to 1/2 inch", "Black, with red on top of the abdomen; males have an all-red abdomen", "None", "May bite if disturbed; usually not serious, UC IPM says"],
+      ["Zebra jumping spider", "About 1/6 to 1/4 inch", "Dark, with white stripes; around sunny walls and windows", "None; a retreat in cracks", "Not medically significant, Penn State says"],
+      ["Wolf spider", "1/4 inch to 1 inch", "Two big eyes above a row of four small ones; runs smoothly on the ground", "No web to catch prey", "Can bite if provoked; harmless, MDC says"],
+      ["Black widow (adult female)", "Up to about 3/8 inch", "Glossy black, with a big, round abdomen and a red hourglass underneath", "Tangled, sticky web under rocks or logs, near foundations or in outbuildings", "Venomous: get medical care right away"],
+      ["False black widow", "About 3/8 inch", "Round, chocolate-brown abdomen that is never red", "Cobweb, often indoors", "Mild, like a yellowjacket sting, UC IPM says"],
+      ["Parson spider", "Female 5/16 to 1/2 inch", "Dark and hairy, with a white collar-like band on the abdomen; very fast, at night", "None; hides in a silk retreat by day", "Painful but generally not medically important, Penn State says"]
+    ],
+    "caption": "Body lengths do not count the legs. Sources: MDC, UC IPM, Penn State Extension and the University of Minnesota, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a jumping spider look like?" },
+    { "type": "p", "text": "A jumping spider is a small, compact, often hairy spider with a flat, big-eyed face that moves in quick, jerky bursts and leaps. [The University of Kentucky's Critter Files](https://www.uky.edu/Ag/CritterFiles/casefile/spiders/jumping/jumping.htm) say jumping spiders may be the easiest Kentucky spiders to recognize, with one pair of eyes always very large and directed forward, almost like human eyes." },
+    { "type": "figure", "src": "/guides/photos/bold-jumping-spider.webp", "width": 1200, "height": 900, "alt": "Fuzzy black bold jumping spider facing the camera on a green leaf, showing two big round front eyes, white-tipped hairs and shiny green jaws", "caption": "An adult female bold jumping spider, *Phidippus audax*, on a leaf in Nashville, Tennessee. Look for the two huge front eyes and the iridescent green jaws.", "credit": "Kaldari, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Phidippus_audax_01.jpg" },
+    { "type": "p", "text": "Count the eyes if you can get close. [UC IPM's Pest Notes on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) describe three rows: four across the front, the middle two large; two very small eyes behind them; and two medium-sized eyes farther back. Kentucky adds that one pair is often so small the spider seems to have only six eyes. [Colorado State University Extension (CSU)](https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/JumpingSpiders.pdf) says the rows may number three or four, but the front pair is enormous and faces forward." },
+    { "type": "media", "needed": "A face-on close-up of a jumping spider (for example a bold jumper) showing the two huge front eyes and the smaller eyes beside and behind them, to set beside the wolf spider face below; public domain or CC0" },
+    { "type": "p", "text": "CSU describes most jumping spiders that get noticed as about 1/6 to 1/2 inch (4 to 12 mm) long and somewhat fuzzy, with an abdomen anywhere from round to long and slender. Many are black, brown or gray, but some are bright red or orange, and common species often carry red, yellow, metallic, gold or silver patches. Patterns vary even within one species, CSU warns, so go by the eyes and the jumping more than by the colors." },
+    { "type": "p", "text": "Like all spiders, they have eight legs, two body parts and no antennae, Kentucky notes; [why ticks and spiders are arachnids, not insects](/blog/are-ticks-arachnids-or-insects) explains the group." },
+    { "type": "checklist", "title": "Is it a jumping spider? Four quick checks", "items": [
+      "**Eyes.** Two huge eyes facing forward on a flat face.",
+      "**Movement.** Quick, jerky bursts and sudden jumps.",
+      "**Web.** None. It hunts in the open, in daylight.",
+      "**Body.** Small, stout and often hairy."
+    ] },
+
+    { "type": "h2", "text": "Which jumping spiders are you most likely to find?" },
+    { "type": "p", "text": "UC IPM counts about 300 species of jumping spiders in North America, and Clemson more than 300 in the United States. Three are easy to name on sight." },
+    { "type": "h3", "text": "Bold jumping spider (Phidippus audax)" },
+    { "type": "p", "text": "[MDC's bold jumper page](https://mdc.mo.gov/discover-nature/field-guide/bold-jumper) describes a fuzzy, usually black spider with several spots on top of the abdomen, the middle one largest. The spots are often white but can be orange or reddish, and the upper parts of the jaws shine iridescent green or blue. Females are 1/4 to 3/4 inch long without the legs, and males usually under 1/2 inch. It lives across much of the United States and southeastern Canada, on broad-leafed plants such as milkweed, tree trunks, fence posts and house or barn siding." },
+    { "type": "p", "text": "[Washington State University's entomology department](https://entomology.wsu.edu/outreach/bug-info/jumping-spider/) calls it one of the most common and conspicuous jumping spiders, found in gardens and around homes, and CSU lists it among the species that often enter homes. Black spiders with white marks that are not jumpers are sorted in [the guide to black spiders with white spots](/blog/black-spiders)." },
+    { "type": "h3", "text": "Johnson's jumping spider (Phidippus johnsoni)" },
+    { "type": "figure", "src": "/guides/photos/johnson-jumping-spider.webp", "width": 1200, "height": 936, "alt": "Jumping spider with a black front half and a bright red-orange abdomen marked with black, resting on a green grass blade in sunlight", "caption": "Johnson's jumping spider, *Phidippus johnsoni*, on a grass blade in Sebastopol, California. Look for the black front half and the red abdomen with black marks.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/44200934" },
+    { "type": "p", "text": "UC IPM describes Johnson's jumping spider as a red and black jumping spider 1/4 to 1/2 inch long: females are black with red on top of the abdomen, and males have a black front half and an all-red abdomen. It may bite if disturbed, UC IPM says, but the bites are usually not serious. CSU lists it among Colorado's jumping spiders, and [the guide to spiders in California](/blog/spiders-in-california) shows it with that state's common spiders." },
+    { "type": "h3", "text": "Zebra jumping spider (Salticus scenicus)" },
+    { "type": "p", "text": "The zebra jumper is the small striped one on sunny walls. [University of Minnesota Extension](https://apps.extension.umn.edu/garden/diagnose/insect/indoor/relatives/medium/zebra-spider.html) describes a compact spider about 1/4 inch long, dark brown to black with white stripes and two very large eyes, found in and around buildings, especially around windows and other sunny areas in spring and summer. [Penn State Extension](https://extension.psu.edu/zebra-jumper) puts females at about 1/6 to 1/4 inch (4.3 to 6.4 mm), with males slightly smaller and armed with very large, dark jaws that project forward." },
+    { "type": "p", "text": "It is not native. Penn State says the zebra jumper came from Europe and western Asia and now lives across most of the United States and southern Canada, apparently most commonly in the Northeast and on the West Coast, with very few records from the Southeast and the Plains. It turns up under stones, in high grass, on bushes and fences, and inside and outside buildings, and its bite is not medically significant." },
+    { "type": "media", "needed": "A zebra jumping spider (Salticus scenicus) on a sunny house wall, window frame or windowsill in the US or Canada, showing the black-and-white stripes, ideally beside a ruler marked in inches; identified by an extension service, museum or expert; public domain or CC0" },
+    { "type": "figure", "src": "/guides/photos/zebra-jumping-spider-house-wall.webp", "width": 1200, "height": 1160, "alt": "Small black-and-white striped zebra jumping spider on the white outside wall of a house", "caption": "A zebra jumping spider, *Salticus scenicus*, on the outside wall of a house in Logy Bay, Newfoundland. The observer put it at a little under 1/4 inch (about 5.5 mm) long.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/76237466" },
+    { "type": "p", "text": "Many others look different: [MDC's tan jumping spider page](https://mdc.mo.gov/discover-nature/field-guide/tan-jumping-spider) describes a flattened gray, tan and brown jumper up to 5/8 inch long, camouflaged for tree bark, on trunks, fence posts and building walls across the eastern United States." },
+
+    { "type": "h2", "text": "Is it a jumping spider or a wolf spider?" },
+    { "type": "p", "text": "Look at the face first. Both have two large eyes facing forward, but [MDC's wolf spider guide](https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders) says that, unlike jumpers, wolf spiders have a row of four small eyes below the larger ones; UC IPM adds a widely spaced pair on top of the head. On a jumper, the big pair sits in the front row." },
+    { "type": "figure", "src": "/guides/photos/wolf-spider-eyes.webp", "width": 1200, "height": 960, "alt": "Face-on close-up of a hairy tan and brown wolf spider, with two large black eyes above a straight row of four small eyes and two more eyes set back at the upper corners", "caption": "A young wetland giant wolf spider, *Tigrosa helluo*, face on, in Chester County, Pennsylvania: two big eyes above a row of four small ones.", "credit": "(c) Meghan Cassidy, some rights reserved (CC BY-SA), via iNaturalist", "license": "CC-BY-SA-4.0", "sourceUrl": "https://www.inaturalist.org/observations/44850401" },
+    { "type": "p", "text": "Then watch it move. MDC says wolf spiders run smoothly over the ground and often hunt at night, while jumpers hunt in plants by day, move jerkily and jump great distances. After dark, UC IPM says, a flashlight makes wolf spiders' eyes reflect green. Wolf spiders are 1/4 inch to 1 inch long without the legs, MDC says; [the wolf spider guide](/blog/wolf-spiders) has photos of the common species." },
+
+    { "type": "h2", "text": "Which other spiders get mistaken for jumping spiders?" },
+    { "type": "p", "text": "Mostly black spiders with red or white marks, since the bold jumper and Johnson's jumping spider are black with white or red on top. MDC lists the black widow, wolf spiders and the common house spider, among others, as similar to the bold jumper." },
+    { "type": "ul", "items": [
+      "**Black widow.** Glossy black, with a big, round abdomen and a red hourglass underneath; [MDC's black widow page](https://mdc.mo.gov/discover-nature/field-guide/black-widow-spiders) says the northern black widow usually has red spots down its back too. A widow sits in a tangled, sticky web under rocks or logs, near foundations or in outbuildings; a jumper is fuzzy, has no web and hops. See [the black widow guide](/blog/black-widow-spiders).",
+      "**False black widow.** The same round shape, but chocolate brown and never red, about 3/8 inch long, and common indoors in cupboards and under appliances, says [UC IPM's Pest Note on widow spiders and their relatives](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/). [The false widow guide](/blog/false-widow-spiders) covers it.",
+      "**Parson spider.** [Penn State Extension's parson spider page](https://extension.psu.edu/parson-spider) describes a dark, hairy ground spider, females 5/16 to 1/2 inch long, with a white collar-like band on the abdomen, that hunts at night, runs very fast and comes indoors in fall. A bold jumper has white spots and hunts by day.",
+      "**Common house spider.** A cobweb spider with a soft, round abdomen that almost always hangs upside down in its tangled web, UC IPM says; [the house spider guide](/blog/house-spiders) covers it and the other spiders found indoors.",
+      "**Brown recluse.** Kentucky says brown jumping spiders found indoors are sometimes mistaken for brown recluses; [the guide to brown recluse look-alikes](/blog/brown-recluse-look-alikes) shows the differences.",
+      "**Ant-mimic jumping spiders.** These jumpers look and act like ants, and Kentucky says most of them also eat ants."
+    ] },
+    { "type": "p", "text": "Still not sure? [The spider identifier](/tools/spider-identifier) asks seven questions about where you found the spider, its web, size, markings and behavior, and names the likely match with photos." },
+    { "type": "confused", "items": [
+      { "href": "/blog/wolf-spiders", "name": "Wolf spider", "photo": "rabid-wolf-spider", "note": "Two big eyes above a row of four small ones; runs smoothly over the ground instead of jumping", "alt": "Rabid wolf spider seen from above on grass leaves, with a striped tan body, a dark band down the abdomen and long, spiny legs" },
+      { "href": "/blog/black-widow-spiders", "name": "Black widow", "photo": "black-widow", "note": "Glossy black with a big, round abdomen and a red hourglass underneath; lives in a tangled web", "alt": "Glossy black widow hanging under a rusty twig, with a red hourglass on the underside of its round abdomen" },
+      { "href": "/blog/false-widow-spiders", "name": "False black widow", "photo": "false-black-widow", "note": "A round, chocolate-brown abdomen that is never red; spins cobwebs, often indoors", "alt": "Dark reddish-brown false black widow with a shiny, round abdomen and thin legs on a rough brown surface" },
+      { "href": "/blog/black-spiders", "name": "Parson spider", "photo": "parson-spider", "note": "Dark, with a white collar-like band on the abdomen; hunts at night and runs very fast", "alt": "Dark, hairy parson spider on gray concrete, with white bands across its body and long, dark brown legs" },
+      { "href": "/blog/house-spiders", "name": "Common house spider", "photo": "common-house-spider", "note": "Hangs upside down in a tangled cobweb, with a soft, round abdomen and thin legs", "alt": "Common house spider with a round, mottled gray and black abdomen and banded legs, seen at an angle against a pale background" }
+    ] },
+
+    { "type": "h2", "text": "Why do jumping spiders turn up on windows and walls?" },
+    { "type": "p", "text": "Because that is where they hunt. [Clemson Extension's fact sheet](https://hgic.clemson.edu/factsheet/jumping-spiders/) says jumping spiders hunt during the day, both indoors and outdoors, and Kentucky says many are common on fence posts and the sides of buildings, and inside barns and sheds. University of Minnesota Extension finds zebra spiders especially around windows and other sunny areas, and MDC says people may see tan jumping spiders exploring walls inside houses in late autumn." },
+    { "type": "p", "text": "Indoors they are visitors. Kentucky says jumping spiders are not normally pests but often wander into homes, and Clemson says they come in while hunting or are carried in by people. UC IPM adds that the more insects a building holds, the more likely it is to have spiders living in it. [The house spider guide's answer on the small black spider that jumps](/blog/house-spiders#what-is-the-small-black-spider-that-jumps) sorts it from the other spiders found indoors." },
+    { "type": "p", "text": "Most live about a year, CSU says; the common species spend the winter nearly full-grown in silk retreats in sheltered spots and mature in spring. MDC says bold jumper eggs, young and adults can all overwinter in silk cocoons under bark and in curled leaves." },
+    { "type": "media", "needed": "A jumping spider where a homeowner meets it: on an indoor windowsill or window frame, a sunny house wall, a deck rail or a car mirror, in the US or Canada; identified to species by an extension service, museum or expert; public domain or CC0" },
+    { "type": "figure", "src": "/guides/photos/bold-jumping-spider-kitchen-window.webp", "width": 1200, "height": 1331, "alt": "Black bold jumping spider with white spots on the glass of a kitchen window", "caption": "A bold jumping spider, *Phidippus audax*, on the glass of a kitchen window in Salt Lake City, Utah. The observer says it lived in the house for months.", "credit": "(c) Rebecca Ray, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/164065154" },
+
+    { "type": "h2", "text": "Do jumping spiders bite?" },
+    { "type": "p", "text": "Rarely, and the sources describe the bite as minor. CSU says jumping spiders are not aggressive and try to bite only if confined; the jaws of most species are too small to pierce skin, and a bite that gets through causes only mild, temporary pain with no complications. MDC says a bold jumper can bite if squeezed or otherwise mishandled, but that the bite is harmless." },
+    { "type": "p", "text": "When a bite does happen, it can hurt. Washington State University says jumping spiders are not considered harmful and are unlikely to bite unless cornered or handled, but that the bite is painful and can penetrate tough human skin. Kentucky says the bold jumping spider is large enough to bite, but that its bite is not dangerous except to people with severe allergies." },
+    { "type": "p", "text": "Penn State says jumping spiders, zebra jumpers included, do not have a medically significant bite. The spiders that do matter are few: [the CDC National Institute for Occupational Safety and Health page on venomous spiders](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) covers the black widow and the brown recluse, and MDC says only a few kinds, such as those two, have venom that can be medically significant for people. [The guide to venomous spiders in the US](/blog/venomous-spiders) covers them." },
+    { "type": "p", "text": "A red bump is not proof of a spider. UC IPM says people and their doctors often blame spiders for skin sores with no proof, and that bites from ticks, fleas, bed bugs, mosquitoes and other biters can be mistaken for spider bites. [What a spider bite looks like](/blog/what-does-a-spider-bite-look-like) and [how a mosquito bite differs from a spider bite](/blog/mosquito-bite-vs-spider-bite) cover bites in general." },
+    { "type": "p", "text": "For a bite, [Poison Control](https://www.poison.org/articles/insect-and-spider-bites) says to wash the area with soap and water and put cold water or a cloth filled with ice on it for 10 to 20 minutes. UC IPM gives similar advice and warns that scratching can break the skin and let in infection; CSU adds that any spider bite that draws blood should be disinfected." },
+    { "type": "callout", "tone": "warning", "title": "When to get help after a spider bite", "text": "Poison Control says to seek help if symptoms at the bite get significantly worse, if symptoms appear away from the bite, if you have a history of allergic reactions, or if you think a black widow or brown recluse bit you. Allergic reactions can bring hives, wheezing and difficulty breathing, it says. In the US, Poison Control answers at 1-800-222-1222 and online. In Canada, [Health Canada](https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html) says 1-844-764-7669 (1-844 POISON-X) connects callers to their local poison center; Quebec keeps its own line, 1-800-463-5060." },
+
+    { "type": "h2", "text": "How do jumping spiders hunt, and what do they eat?" },
+    { "type": "p", "text": "They stalk by sight and pounce. CSU says the small eyes on the sides of the head detect movement, then the spider turns its huge front eyes toward it, and that jumping spiders have the best vision of any spiders, seeing shapes, color and depth. MDC says the two big front eyes give binocular, 3D vision for accurate jumps, while the other six watch all around." },
+    { "type": "p", "text": "The leap runs on fluid pressure, not big leg muscles: CSU says muscle contractions force fluid into the hind legs, which straighten extremely quickly. Clemson estimates a jump at about 10 times the spider's body length, and Kentucky says jumping spiders always attach a silk line when they jump, so they can climb back up if they miss." },
+    { "type": "p", "text": "They eat insects and other spiders. MDC says bold jumpers prefer insects, especially true bugs and caterpillars, and other spiders, and lists flies, aphids, moths and other spiders for the tan jumper. [The University of Florida's (UF/IFAS) jumping spider page](https://entnemdept.ufl.edu/projex/gallery/dl/Beneficial_Arthropods_Predators/text/jumping_spiders.htm) adds beetles, earwigs, flies, aphids, crickets, grasshoppers and mites, and Clemson names houseflies, beetles, stink bugs and armyworms among the pests they take around homes and gardens." },
+
+    { "type": "h2", "text": "What do baby jumping spiders and their egg sacs look like?" },
+    { "type": "p", "text": "Baby jumping spiders look like tiny adults. Kentucky says young jumping spiders hatch from eggs looking like tiny adults and shed their skin as they grow, and UF says the spiderlings start out dark and pick up their colorful bands later in their development." },
+    { "type": "p", "text": "Look for a mother on guard. UF describes the egg sac as somewhat flattened and cream to white, in crevices, under boards and under eaves. Kentucky says many females build a silk case for their eggs, often in leaves, on branches or in crevices on the sides of buildings, and guard it until the eggs hatch; Clemson says a female may make several egg sacs of 80 to 100 eggs each." },
+    { "type": "p", "text": "Then the young scatter. Clemson says spiderlings leave the egg sac within a few months and disperse, and CSU says tiny spiderlings also travel long distances by ballooning on a silk line caught by the wind. [The spider egg sac guide](/blog/spider-egg-sacs) compares the sacs of other common spiders." },
+    { "type": "media", "needed": "Jumping spider spiderlings, or a female jumping spider guarding a flattened white egg sac in a silk retreat on a leaf, under bark or in a crevice on a building, with a ruler marked in inches for scale; identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What should you do about a jumping spider in the house?" },
+    { "type": "p", "text": "Leave it, or move it outside. Clemson's advice for a jumping spider indoors is not a can of insect spray: pick it up with a glass or dish and put it outside. UC IPM describes the same catch, setting a jar over the spider, sliding a piece of paper underneath and releasing it outdoors, and Kentucky says never to pick up a jumping spider with bare hands." },
+    { "type": "p", "text": "To keep more out, Clemson suggests keeping windows and doors closed, screened and sealed with weather stripping, and keeping the house free of the pests spiders feed on. UC IPM says outdoor lights draw insects, which draw spiders, so keep light fixtures off the house and away from windows and doors where you can. [How to get rid of spiders](/blog/how-to-get-rid-of-spiders) covers bigger spider problems." },
+    { "type": "callout", "tone": "tip", "title": "Catch it to be sure", "text": "Trap the spider under a clear jar, or photograph it beside a ruler marked in inches, and note where you found it, whether it jumped and whether it sat in a web. Get the face in the picture: CSU calls the jumping spider's eye pattern very distinctive. A local cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are jumping spiders poisonous to humans?",
+      "answer": "Not in any medically significant way. Jumping spiders are venomous, like nearly every spider: the Missouri Department of Conservation says almost all spiders use a venomous bite to subdue their prey, but only a few kinds, such as the black widow and the brown recluse, have venom that can be medically significant for people. Penn State Extension says jumping spiders do not have a medically significant bite, and Colorado State says the jaws of most species are too small to pierce skin."
+    },
+    {
+      "question": "What happens if a jumping spider bites you?",
+      "answer": "Usually very little. Colorado State University Extension says a jumping spider bite that gets through the skin causes only mild, temporary pain with no complications, though Washington State University notes that the bite can be painful. For any spider bite, Poison Control says to wash the area with soap and water and put cold water or a cloth filled with ice on it for 10 to 20 minutes. It advises getting help if symptoms at the bite get much worse, symptoms appear away from the bite, or you have a history of allergic reactions."
+    },
+    {
+      "question": "Can a baby jumping spider bite you?",
+      "answer": "None of the sources cited here describes a bite from a spiderling, which the University of Kentucky says looks like a tiny adult. Colorado State says even adult jumping spiders mostly have jaws too small to pierce skin, and UC IPM says spiders generally bite people only when squeezed, lain on or otherwise provoked. If something does bite, Poison Control's advice is the same for any spider: wash the area with soap and water and cool it with cold water or a cloth filled with ice."
+    },
+    {
+      "question": "Is it good to have jumping spiders in your house?",
+      "answer": "They are not considered harmful, and they eat pests. The University of Kentucky says jumping spiders are not normally pests, though they often wander into homes, and Clemson Extension says they are not harmful and usually flee once noticed. Clemson notes that they eat pests such as houseflies, beetles and stink bugs, and Penn State calls zebra jumpers beneficial to have around. If you would rather not share the house, Clemson suggests catching one with a glass or dish and putting it outside."
+    },
+    {
+      "question": "How long do jumping spiders live?",
+      "answer": "About a year, for most. Colorado State University Extension says a one-year life cycle is typical of jumping spiders: the most common species spend the winter nearly full-grown but still immature, in a silk retreat in a sheltered spot, and mature in spring. In species that mature before winter, CSU says, mating happens in fall, the males die and the females survive until the next spring. The Missouri Department of Conservation says bold jumper eggs, young and adults can all spend the winter in silk cocoons."
+    },
+    {
+      "question": "How big do jumping spiders get?",
+      "answer": "Most are small. Colorado State says the jumping spiders people notice are mostly about 1/6 to 1/2 inch (4 to 12 mm) long, and the University of Kentucky puts a typical one at about the size of a dime with its legs stretched out. Kentucky says jumpers in the bold jumper's genus are some of the largest; the Missouri Department of Conservation gives bold jumper females 1/4 to 3/4 inch without the legs. The University of Florida says some species reach nearly 3/4 inch (18 mm) and that males are much smaller than females."
+    },
+    {
+      "question": "Why do jumping spiders look at you?",
+      "answer": "Because they hunt by sight. Colorado State University Extension says the small eyes on the sides of a jumping spider's head pick up movement, and the spider then turns its huge front eyes toward whatever moved. Unlike most spiders, CSU says, many jumping spiders stay put and turn toward a person, and may even approach instead of running, though they are not aggressive. Clemson Extension says it is common for one to look straight at you with its large front eyes, and that they usually flee once noticed."
+    },
+    {
+      "question": "How far can a jumping spider jump?",
+      "answer": "Several times its own length. Clemson Extension estimates about 10 times the spider's body length, UC IPM says jumping spiders pounce on prey from distances many times their body length, and Colorado State says a jump may cover several times the body length. The power comes from fluid pressure rather than big leg muscles: CSU says muscle contractions force fluid into the hind legs, which straighten extremely fast. The University of Kentucky says jumping spiders always attach a silk line when they jump, so they can climb back up if they miss."
+    },
+    {
+      "question": "Are jumping spiders active at night?",
+      "answer": "No, they hunt by day. UC IPM describes jumping spiders as day-active hunters, and Clemson Extension says they hunt during the day, indoors and outdoors. When not hunting, they hide in small silk retreats: the Missouri Department of Conservation says bold jumpers make cocoon-like retreats to hide in, and Colorado State says the common species spend the cold months in silk retreats in sheltered sites. Spiders that do hunt at night include wolf spiders, MDC says, and parson spiders, Penn State Extension says."
+    },
+    {
+      "question": "What is the most common jumping spider?",
+      "answer": "The bold jumping spider is among the most common. Washington State University calls it one of the most common and conspicuous jumping spiders, the University of Kentucky one of the most commonly seen, and Colorado State calls it ubiquitous; the Missouri Department of Conservation says it lives across much of the United States and southeastern Canada. The zebra jumper is widespread too: Penn State Extension says it is found throughout most of the US and southern Canada, though there are very few records from the Southeast."
+    }
+  ],
+  "sources": [
+    { "title": "Bold Jumper (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bold-jumper" },
+    { "title": "Tan Jumping Spider (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/tan-jumping-spider" },
+    { "title": "Wolf Spiders (field guide, reviewed December 31, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/wolf-spiders" },
+    { "title": "Black Widow Spiders (field guide, reviewed December 30, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/black-widow-spiders" },
+    { "title": "Colorado Arachnids of Interest: Jumping Spiders", "publisher": "Colorado State University Extension", "url": "https://wci.extension.colostate.edu/wp-content/uploads/sites/14/2017/03/JumpingSpiders.pdf" },
+    { "title": "Jumping Spiders (HGIC 2429; M. Vickers, P. A. Zungoli and E. P. Benson, published May 2, 2001)", "publisher": "Clemson Cooperative Extension Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/jumping-spiders/" },
+    { "title": "Jumping spiders (Beneficial Arthropods: Predators photo collection, 2007)", "publisher": "University of Florida, Department of Entomology and Nematology (UF/IFAS)", "url": "https://entnemdept.ufl.edu/projex/gallery/dl/Beneficial_Arthropods_Predators/text/jumping_spiders.htm" },
+    { "title": "Kentucky Critter Files: Jumping Spiders (Blake Newton, updated February 7, 2008)", "publisher": "University of Kentucky Department of Entomology", "url": "https://www.uky.edu/Ag/CritterFiles/casefile/spiders/jumping/jumping.htm" },
+    { "title": "Urban Spider Chart (Blake Newton and Lee Townsend)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/spider-chart" },
+    { "title": "Jumping Spider (Bug Info)", "publisher": "Washington State University Department of Entomology", "url": "https://entomology.wsu.edu/outreach/bug-info/jumping-spider/" },
+    { "title": "Zebra Jumper (Steve Jacobs, revised by Michael Skvarla; updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/zebra-jumper" },
+    { "title": "Zebra spider (What insect is this? Insects found indoors)", "publisher": "University of Minnesota Extension", "url": "https://apps.extension.umn.edu/garden/diagnose/insect/indoor/relatives/medium/zebra-spider.html" },
+    { "title": "Parson Spider (updated September 8, 2025)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/parson-spider" },
+    { "title": "Pest Notes: Spiders (UC ANR Publication 7442; R. S. Vetter, updated October 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Pest Notes: Widow Spiders and Their Relatives (UC ANR Publication 74149; R. S. Vetter, updated March 2017)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Venomous Spiders at Work", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Insect and spider bites: When to worry", "publisher": "Poison Control (National Capital Poison Center)", "url": "https://www.poison.org/articles/insect-and-spider-bites" },
+    { "title": "Canada launches new toll-free 1-844 POISON-X number for poison centres (news release, March 20, 2023)", "publisher": "Health Canada", "url": "https://www.canada.ca/en/health-canada/news/2023/03/canada-launches-new-toll-free-1-844-poison-x-number-for-poison-centres.html" }
+  ],
+  "disclaimer": "health"
+}

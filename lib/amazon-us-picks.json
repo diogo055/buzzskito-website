@@ -1038,6 +1038,48 @@
       "name": "Dehumidifier",
       "search": "dehumidifier",
       "basis": "'Penn State calls air conditioning or a dehumidifier the best way to manage springtails indoors, especially in bathrooms and showers'; the page puts moisture first and recommends no insecticide."
+    },
+    "joro-spiders": {
+      "label": "To take down a web",
+      "name": "Extendable cobweb duster",
+      "search": "extendable cobweb duster",
+      "basis": "'Where a web blocks a path, porch, deck or doorway, UGA suggests using a broom, rake, long stick or pole to wrap the spider in its web and take it away'; the page passes on UGA's advice against spraying insecticides over large areas. Never an insecticide."
+    },
+    "jumping-spiders": {
+      "label": "To catch it and let it go",
+      "name": "Clear plastic jar with lid",
+      "search": "clear plastic jar with lid",
+      "basis": "'UC IPM describes the same catch, setting a jar over the spider, sliding a piece of paper underneath and releasing it outdoors'; the ID tip says 'Trap the spider under a clear jar'. Never an insecticide."
+    },
+    "camel-spiders": {
+      "label": "To trap it and let it go",
+      "name": "Clear plastic jar with lid",
+      "search": "clear plastic jar with lid",
+      "basis": "'To remove one, UC IPM says to trap it under a jar, slide paper underneath and release it outdoors; it recommends no chemical control'. Never an insecticide."
+    },
+    "what-do-termites-look-like": {
+      "label": "To save a sample for an expert",
+      "name": "Small specimen jars",
+      "search": "small specimen jars with lids",
+      "basis": "\"drop a few termites, soldiers or swarmers if you can find them, into a small jar of alcohol\"; \"For a sure answer, save a few in alcohol ... for an extension office or a licensed inspector\" (Mississippi State suggests preserving swarmers in alcohol for identification). Never an insecticide."
+    },
+    "orb-weaver-spiders": {
+      "label": "To draw fewer bugs to the door",
+      "name": "Yellow bug light bulbs",
+      "search": "yellow bug light bulb",
+      "basis": "\"UC IPM suggests keeping light fixtures off the house and away from windows and doors where possible; Minnesota suggests yellow bulbs, which draw fewer insects\" (orb weavers build where lights draw their prey). Never an insecticide."
+    },
+    "carpet-beetle-larvae": {
+      "label": "To vacuum vents and rug edges",
+      "name": "Cordless handheld vacuum",
+      "search": "cordless handheld vacuum",
+      "basis": "\"Kentucky says to launder, dry-clean or discard infested items ... and to vacuum floors, carpets and heating vents\"; the hiding-places list names rug edges, baseboards, vents and ducts (Kentucky, Ohio State). Never an insecticide."
+    },
+    "weevils": {
+      "label": "To keep grains sealed",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "\"**Store food sealed** in tightly closed glass, metal or heavy plastic containers, or in the refrigerator or freezer, until the infestation is gone (UMN, Iowa State)\". Not a moth trap: the page says pheromone traps for the Indian meal moth will not catch weevils (UC IPM). Never an insecticide."
     }
   }
 }

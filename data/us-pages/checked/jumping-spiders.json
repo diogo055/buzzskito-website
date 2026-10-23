@@ -1,0 +1,27 @@
+{
+ "id": "jumping-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "de42d38f1d5f4eef71448e51bb9903b1c4a407a82a38bfcd3015fdf2f9141ab8",
+ "claimsChecked": 235,
+ "claimsCorrected": 2,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-23",
+ "amendments": [
+  {
+   "on": "2026-10-23",
+   "note": "two media placeholders replaced with ledger photos (zebra jumper on a house wall, bold jumper on a kitchen window); captions state only what each record says (orchestrator, Oct 23)",
+   "previousSha": "75e5f27a8ae92dd1d36f9b87a9bc64596c61a4e5181793f99688f69d1b098967"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "media placeholders kept beside the new photos (each photo only partly meets its placeholder's request; RETROFIT_BRIEF rule; renders nothing)",
+   "previousSha": "c21fc23fab2562ca01ea93065b5c3b50f6c3c1de07373b0d0699f01f444fafca"
+  }
+ ],
+ "released": {
+  "on": "2026-10-23",
+  "scheduledFor": "2026-10-23",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}
