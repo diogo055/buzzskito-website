@@ -457,6 +457,26 @@ const PHOTOS = [
   ['plains-camel-cricket', 'Plains camel cricket, Ceuthophilus pallidus, a native North American camel cricket, side view on a pale gritty surface (Fort Collins, Colorado)', { inat: { obs: 233885997, photo: 415711861 } }],
   ['camel-cricket-baseboard', 'Greenhouse camel cricket, Tachycines asynamorus, climbing a white-painted baseboard above a wood floor, indoors (Silver Spring, Maryland)', { inat: { obs: 292512847, photo: 526408853 } }],
   ['camel-cricket-basement-floor', 'Greenhouse camel cricket, Tachycines asynamorus, seen from above on the concrete floor of the observer’s basement in December (Oak Bluffs, Massachusetts)', { inat: { obs: 143896493, photo: 246865376 } }],
+  // eleventh batch (Oct 23): where people find them, for the next pages: yellow sac spiders on an indoor wall and in their
+  // silk retreats, springtails under a houseplant and snow fleas on snow, bed bugs in a hotel, the Asian cockroach,
+  // clothes moth eggs on wool, drain flies in a sink, fruit flies on fruit, a cellar spider in a bathroom corner and a
+  // harvestman outdoors. Who identified each photo, what was refused and why: data/god-build/photo-notes-batch11.json
+  ['yellow-sac-spider-wall', 'Yellow sac spider (genus Cheiracanthium; the observer identified it as C. mildei) on a textured white wall at an outside corner, indoors by our reading of the photo (Greater Vancouver, British Columbia)', { inat: { obs: 163920899, photo: 283573818 } }],
+  ['yellow-sac-spider-in-silk-sac', 'Northern yellow sac spider, Cheiracanthium mildei, inside its silk sac where a white-painted wall meets a gray-painted ledge; the observer thought it was molting (Chilliwack, British Columbia)', { inat: { obs: 182790381, photo: 318774989 } }],
+  ['yellow-sac-spider-retreat-flowerpot', 'Silk retreat of a yellow sac spider (genus Cheiracanthium) on the bottom of a plastic flowerpot kept on an indoor porch over the winter; the spider crawled out of it when the pot was picked up (Coatesville, Pennsylvania)', { inat: { obs: 70160027, photo: 114002444 } }],
+  ['springtails-under-houseplant', 'White springtails (subfamily Onychiurinae) found indoors under a potted houseplant (Madison, Wisconsin)', { inat: { obs: 354557747, photo: 646721071 } }],
+  ['snow-fleas-on-snow', 'Snow fleas: springtails of the genus Hypogastrura massed in a hollow in the snow (Saint-Étienne-de-Bolton, Quebec)', { inat: { obs: 143536303, photo: 246177065 } }],
+  ['snow-fleas-close-up', 'Snow fleas, springtails of the genus Hypogastrura, on granular snow (Wendell, Massachusetts)', { inat: { obs: 38225190, photo: 60720588 } }],
+  ['bed-bugs-hotel-headboard', 'A bed bug coated in pesticide dust in a crevice of a hotel headboard after a treatment, photographed by the New York State IPM Program at Cornell University', { commons: 'Bed Bugs Treated on a Hotel Headboard (11555818913).jpg' }],
+  ['bed-bug-hotel-bedding', 'Bed bug, Cimex lectularius, on white woven fabric (bedding by our reading) that the observer photographed at a hotel (Tacoma area, Washington)', { inat: { obs: 27817210, photo: 43320707 } }],
+  ['asian-cockroach-on-leaf', 'Asian cockroach, Blattella asahinai, adult on a leaf (USDA Agricultural Research Service image K2252-8, photo by Barry Fitzgerald)', { commons: 'ARS Blattella asahinai.jpg' }],
+  ['asian-cockroach-ruler', 'Asian cockroach, Blattella asahinai, adult beside a millimeter ruler; collected at a blacklight and kept as a specimen by the observer (Tallahassee, Florida)', { inat: { obs: 318046352, photo: 574768738 } }],
+  ['clothes-moth-eggs-wool', 'Clothes moth eggs on knitted wool fabric (CSIRO photograph; the source does not name the species)', { commons: 'CSIRO ScienceImage 2070 Eggs of the Clothes Moth.jpg' }],
+  ['drain-flies-sink', 'Drain flies (bathroom moth flies), Clogmia albipunctata, in a bathroom sink beside the drain (Long Island City, Queens, New York)', { inat: { obs: 28811964, photo: 44937376 } }],
+  ['fruit-fly-mango-peel', 'Common fruit fly, Drosophila melanogaster, side view on the mango peel where the observer’s household fruit flies were feeding and breeding, indoors (Austin, Texas)', { inat: { obs: 320069474, photo: 578641489 } }],
+  ['fruit-flies-lemon', 'Fruit flies (genus Drosophila) on an old squeezed lemon half on a kitchen table (Moscow, Russia)', { inat: { obs: 103577509, photo: 173387622 } }],
+  ['cellar-spider-bathroom-corner', 'Manuel’s cellar spider, Pholcus manueli, in a corner of an upstairs bathroom where a white surface meets wood trim (Macon, Virginia)', { inat: { obs: 325836179, photo: 590020582 } }],
+  ['harvestman-brick-wall', 'Banded harvestman, Leiobunum vittatum, on a brick retaining wall beside a house’s garage (Macon, Virginia)', { inat: { obs: 324448053, photo: 587241435 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }

@@ -268,6 +268,34 @@
    "sha256Original": "7a0f225759138fe0065d817950dba156532d661cbcac1c25a06b7687e23f17ac"
   },
   {
+   "file": "/guides/photos/asian-cockroach-on-leaf.webp",
+   "subject": "Asian cockroach, Blattella asahinai, adult on a leaf (USDA Agricultural Research Service image K2252-8, photo by Barry Fitzgerald)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:ARS_Blattella_asahinai.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/ARS_Blattella_asahinai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "unknown author, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 870,
+   "bytes": 173372,
+   "sourceDescription": "",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "701a2f85ebf06343b20a08282bdc6762c614cf5bc0f4893328c21a4dfa31c6cf"
+  },
+  {
+   "file": "/guides/photos/asian-cockroach-ruler.webp",
+   "subject": "Asian cockroach, Blattella asahinai, adult beside a millimeter ruler; collected at a blacklight and kept as a specimen by the observer (Tallahassee, Florida)",
+   "sourceUrl": "https://www.inaturalist.org/observations/318046352",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/574768738/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1633,
+   "bytes": 111044,
+   "sourceDescription": "Blattella asahinai",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "7b04eb92953e631878fbeda3640f8b1cc55b652d423aa49afceae1be17d06589"
+  },
+  {
    "file": "/guides/photos/asian-lady-beetle-aggregation.webp",
    "subject": "Aggregation of Asian lady beetles, Harmonia axyridis, on a door frame",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ladybug_meeting_I.png",
@@ -604,6 +632,20 @@
    "sha256Original": "bc2dea6e34c2bfa73c9266c9815cf54a87fc4069375890f0929f2d4653d395b8"
   },
   {
+   "file": "/guides/photos/bed-bug-hotel-bedding.webp",
+   "subject": "Bed bug, Cimex lectularius, on white woven fabric (bedding by our reading) that the observer photographed at a hotel (Tacoma area, Washington)",
+   "sourceUrl": "https://www.inaturalist.org/observations/27817210",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/43320707/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Roxanna Muller, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 169400,
+   "sourceDescription": "Cimex lectularius",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "d4a12ca59509daf2c38a9d446dd7f143e43380358d23a5e35bddaf170bce3f51"
+  },
+  {
    "file": "/guides/photos/bed-bug-nymph.webp",
    "subject": "Bed bug nymph on fabric",
    "sourceUrl": "https://www.inaturalist.org/observations/325824918",
@@ -644,6 +686,20 @@
    "sourceDescription": "Bedbugs with their eggs locating on the bed.",
    "downloadedOn": "2026-10-20",
    "sha256Original": "5fde833a45b8b2524fe669cb1985f883969067ff4c04473f9189d43a4b3330e2"
+  },
+  {
+   "file": "/guides/photos/bed-bugs-hotel-headboard.webp",
+   "subject": "A bed bug coated in pesticide dust in a crevice of a hotel headboard after a treatment, photographed by the New York State IPM Program at Cornell University",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_Bugs_Treated_on_a_Hotel_Headboard_(11555818913).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Bed_Bugs_Treated_on_a_Hotel_Headboard_%2811555818913%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 97472,
+   "sourceDescription": "Beware of bed bugs when travelling, but also be aware of pesticides left behind after treatment. For more information about protecting yourself from bed bugs when travelling, or anytime, visit us at: &lt;a href=\"http://www.nysipm.cornell.edu/whats_bugging_you/bed_bugs/default.asp\" rel=\"nofollow\"&gt;",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "ebef0ae8985356b89f8454cd6f10e1186756bd58863dd662f50066dc52577567"
   },
   {
    "file": "/guides/photos/big-brown-bat.webp",
@@ -1502,6 +1558,20 @@
    "sha256Original": "bca40a0f56f728089fb785b394f8809b26eaba259bd82b6d804a217a24b249aa"
   },
   {
+   "file": "/guides/photos/cellar-spider-bathroom-corner.webp",
+   "subject": "Manuel’s cellar spider, Pholcus manueli, in a corner of an upstairs bathroom where a white surface meets wood trim (Macon, Virginia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/325836179",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/590020582/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 78540,
+   "sourceDescription": "Pholcus manueli",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "ef4dc6aaefd4a330bcdfee314f3a2c24978e7a31c2b7f4e1320f42a3a246c9ab"
+  },
+  {
    "file": "/guides/photos/cellar-spider-carrying-eggs.webp",
    "subject": "Manuel’s cellar spider, Pholcus manueli, adult female holding her eggs in her jaws (Ohio)",
    "sourceUrl": "https://www.inaturalist.org/observations/271762266",
@@ -1612,6 +1682,20 @@
    "sourceDescription": "Lasioderma serricorne Tobacco or Cigarette beetles are pests of a wide range of stored products, especially processed foods, tobacco and spices. Occasionally found in grain and grain stores.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "622768905a138c2c3073d20f8b4658df929421374bfe2c2a10713e86417a3957"
+  },
+  {
+   "file": "/guides/photos/clothes-moth-eggs-wool.webp",
+   "subject": "Clothes moth eggs on knitted wool fabric (CSIRO photograph; the source does not name the species)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2070_Eggs_of_the_Clothes_Moth.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/CSIRO_ScienceImage_2070_Eggs_of_the_Clothes_Moth.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-3.0",
+   "credit": "Textile and Fibre Technology, CSIRO, CC BY 3.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 814,
+   "bytes": 168706,
+   "sourceDescription": "Egg stage of a clothes moth. Moths attack a wide variety of other natural materials, and even some synthetic ones, around the home, including carpets. It is the larvae of clothes moths that attack fabrics. The larval stage lasts for one to three months.",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "cb7ececb187aba7dc5ddbfffc822abfde9e36b35d33904691559b130837ed55f"
   },
   {
    "file": "/guides/photos/clover-mite.webp",
@@ -2088,6 +2172,20 @@
    "sourceDescription": "Ctenocephalides canis, female, stored in ZSM collection (insecta varia)",
    "downloadedOn": "2026-10-16",
    "sha256Original": "a3c7c37b15414ac4283c42725fad16f9ccb197908d288aac4123eefdeffdd37d"
+  },
+  {
+   "file": "/guides/photos/drain-flies-sink.webp",
+   "subject": "Drain flies (bathroom moth flies), Clogmia albipunctata, in a bathroom sink beside the drain (Long Island City, Queens, New York)",
+   "sourceUrl": "https://www.inaturalist.org/observations/28811964",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/44937376/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 16198,
+   "sourceDescription": "Clogmia albipunctata",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "3da07ecb87864ee56875777423e18964c8d59a22c013b87f18ae417e66159831"
   },
   {
    "file": "/guides/photos/drain-fly-larva.webp",
@@ -2651,6 +2749,34 @@
    "sha256Original": "aa0f80050a312bcbb5baebda68c977bcd5a483a24978f15d9a527d8605652229"
   },
   {
+   "file": "/guides/photos/fruit-flies-lemon.webp",
+   "subject": "Fruit flies (genus Drosophila) on an old squeezed lemon half on a kitchen table (Moscow, Russia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/103577509",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/173387622/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 558,
+   "bytes": 61258,
+   "sourceDescription": "Drosophila",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "dda211fb87512fb5d6c808600f5c5a921daeb3856095c5a6d531747e5e514aa6"
+  },
+  {
+   "file": "/guides/photos/fruit-fly-mango-peel.webp",
+   "subject": "Common fruit fly, Drosophila melanogaster, side view on the mango peel where the observer’s household fruit flies were feeding and breeding, indoors (Austin, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/320069474",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/578641489/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 33226,
+   "sourceDescription": "Drosophila melanogaster",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "76bc9d0f3d9f76b8a523f99a0eaeb10caa36d01ddc88f8cb42e98184e2a393bd"
+  },
+  {
    "file": "/guides/photos/fruit-fly.webp",
    "subject": "Common fruit fly, Drosophila melanogaster, male, with a 1 mm scale bar",
    "sourceUrl": "https://www.inaturalist.org/observations/13229956",
@@ -3070,6 +3196,20 @@
    "sourceDescription": "White-marked Spider-Beetle (‘’Ptinus fur’’) in Bærum, Norway.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "f13ccc1f3676b8159b259050aef834bdc13c335f52f8aed5d11f62f058fe3e81"
+  },
+  {
+   "file": "/guides/photos/harvestman-brick-wall.webp",
+   "subject": "Banded harvestman, Leiobunum vittatum, on a brick retaining wall beside a house’s garage (Macon, Virginia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/324448053",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/587241435/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 560466,
+   "sourceDescription": "Leiobunum vittatum",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "d18cfbdf47bc967b33b032fb017f363b79e65c5f4dd240a659b38b3d608f45c7"
   },
   {
    "file": "/guides/photos/harvestman.webp",
@@ -4768,6 +4908,34 @@
    "sha256Original": "6c3e11312636247c9f9decd7372e30a25f3e07d18c1ad7ef2bacf4b5c0589d0b"
   },
   {
+   "file": "/guides/photos/snow-fleas-close-up.webp",
+   "subject": "Snow fleas, springtails of the genus Hypogastrura, on granular snow (Wendell, Massachusetts)",
+   "sourceUrl": "https://www.inaturalist.org/observations/38225190",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/60720588/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 68962,
+   "sourceDescription": "Hypogastrura",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "d64c47a854b39fc1fffab0e65cb84996e51bac7f139384303ab8b592be6b6ef6"
+  },
+  {
+   "file": "/guides/photos/snow-fleas-on-snow.webp",
+   "subject": "Snow fleas: springtails of the genus Hypogastrura massed in a hollow in the snow (Saint-Étienne-de-Bolton, Quebec)",
+   "sourceUrl": "https://www.inaturalist.org/observations/143536303",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/246177065/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Emilie I. Dion, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 215568,
+   "sourceDescription": "Hypogastrura",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "9a1bbb91ec6b3328e74930ba4bf5c350aee6cf86913156a01b3ae3e92aa1ac37"
+  },
+  {
    "file": "/guides/photos/southern-house-spider-female-web.webp",
    "subject": "Southern house spider, Kukulcania hibernalis, female on her woolly web, beside a large insect wrapped in silk (Tallahassee, Florida)",
    "sourceUrl": "https://www.inaturalist.org/observations/28653824",
@@ -4906,6 +5074,20 @@
    "sourceDescription": "Entomobrya atrocincta",
    "downloadedOn": "2026-10-16",
    "sha256Original": "6b09661b7fac04edde7f85911c45e8c74c080a8aa351871183ac359f8ae9237e"
+  },
+  {
+   "file": "/guides/photos/springtails-under-houseplant.webp",
+   "subject": "White springtails (subfamily Onychiurinae) found indoors under a potted houseplant (Madison, Wisconsin)",
+   "sourceUrl": "https://www.inaturalist.org/observations/354557747",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/646721071/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Cole Wolf, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 155912,
+   "sourceDescription": "Onychiurinae",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "c756f8ff65604c3f1f5df9dc6d39d76edf9886bbde484dffaecc8a02e65582dd"
   },
   {
    "file": "/guides/photos/squash-bug.webp",
@@ -5621,6 +5803,48 @@
    "sourceDescription": "Vespa velutina (Frelon asiatique) sur une feuille de bambou à Poitiers (Union Européenne - FR).",
    "downloadedOn": "2026-10-15",
    "sha256Original": "323db6d2dded7e29a3987d41cde4d0584b27dcf59efda2bd0397455af7b19fe9"
+  },
+  {
+   "file": "/guides/photos/yellow-sac-spider-in-silk-sac.webp",
+   "subject": "Northern yellow sac spider, Cheiracanthium mildei, inside its silk sac where a white-painted wall meets a gray-painted ledge; the observer thought it was molting (Chilliwack, British Columbia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/182790381",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/318774989/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) William C. McKnight, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 904,
+   "bytes": 84912,
+   "sourceDescription": "Cheiracanthium mildei",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "e5e5976413af7df62187c9909c0f63cd2c4d0d9035c14ca6ec65511240ae0ea3"
+  },
+  {
+   "file": "/guides/photos/yellow-sac-spider-retreat-flowerpot.webp",
+   "subject": "Silk retreat of a yellow sac spider (genus Cheiracanthium) on the bottom of a plastic flowerpot kept on an indoor porch over the winter; the spider crawled out of it when the pot was picked up (Coatesville, Pennsylvania)",
+   "sourceUrl": "https://www.inaturalist.org/observations/70160027",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/114002444/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) E. H. B. Forget, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 183906,
+   "sourceDescription": "Cheiracanthium",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "75a30b91a7cf26262df4e4a407966727e56e1cb602c08069e90161c733af13c5"
+  },
+  {
+   "file": "/guides/photos/yellow-sac-spider-wall.webp",
+   "subject": "Yellow sac spider (genus Cheiracanthium; the observer identified it as C. mildei) on a textured white wall at an outside corner, indoors by our reading of the photo (Greater Vancouver, British Columbia)",
+   "sourceUrl": "https://www.inaturalist.org/observations/163920899",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/283573818/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 904,
+   "bytes": 50566,
+   "sourceDescription": "Cheiracanthium mildei",
+   "downloadedOn": "2026-10-23",
+   "sha256Original": "79696c43090b1ac79d0fd83fce29d93b8b38cb04c17262f27e850434101c025c"
   },
   {
    "file": "/guides/photos/yellow-sac-spider.webp",

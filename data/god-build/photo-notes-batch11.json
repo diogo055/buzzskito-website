@@ -1,0 +1,256 @@
+{
+ "_readme": "Scout notes for the eleventh photo batch (Oct 23, 2026): real photographs of the bugs where people find them, for today's next pages and the species pages on hold: yellow sac spiders on an indoor wall and in their silk retreats (yellow-sac-spiders), springtails indoors and snow fleas on snow (springtails, bugs-that-look-like-fleas), bed bugs in a hotel (winners-gap row 20, no slug yet), the Asian cockroach (german-cockroaches, row 23), clothes moth eggs (moths-in-house, row 12), drain flies in a sink and fruit flies on fruit (how-to-get-rid-of-drain-flies, how-to-get-rid-of-gnats, row 15), and a cellar spider in a house corner plus a harvestman outdoors (daddy-long-legs). Same format as batches 7 to 10: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; slugs as in plan.src.json, learn/<slug> for the Learning Centre, tools/<slug> for a reader tool), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. No script change was needed beyond the 16 new PHOTOS rows. All 16 images were looked at after conversion (and at large or full size before choosing) and show what their subject lines say, so none was removed. A read-only replica of the lib/photos.ts and lib/guides.ts rules was run against the 16 new records: every licence is in LICENSE_LABEL, every file is on disk at its recorded size, the 6 public domain and CC0 photos pass shareImage(), and the 10 CC BY photos need their visible credit. Three credit quirks, kept exactly as the sources write them: (1) asian-cockroach-on-leaf: the Commons file has no Information template, so the ledger credit reads 'unknown author, Public domain, via Wikimedia Commons' (as red-flour-beetle already does) and the record has no description, although the file page and the USDA ARS gallery page (ars.usda.gov/oc/images/photos/jan08/k2252-8/, read Oct 23) say 'Asian cockroach, Blattella asahinai. Photo by Barry Fitzgerald.': write 'USDA Agricultural Research Service photo by Barry Fitzgerald' in the caption; (2) clothes-moth-eggs-wool and (3) bed-bugs-hotel-headboard: photoCreator() in lib/photos.ts types 'Textile and Fibre Technology, CSIRO' and 'NY State IPM Program at Cornell University' as a Person (the NYSIPM records already on file do the same); adding them to ORGANIZATION would fix the schema type. No page or lib file was edited in this batch. Size: harvestman-brick-wall is the heaviest photo on record (547 KB at the script's lowest quality, 56): brick texture compresses poorly and guide figures are served unoptimized (see its caveats). Leads: yellow-sac-spiders: yellow-sac-spider-wall (CC0, indoor wall) or the existing yellow-sac-spider (CC0); springtails: keep springtail (CC0, scale bar) as the lead, snow-fleas-close-up (CC0) for a snow flea section; an Asian cockroach section or page: asian-cockroach-on-leaf (public domain, USDA) then asian-cockroach-ruler (CC0); daddy-long-legs: cellar-spider-bathroom-corner and harvestman-brick-wall (both CC0). The new hotel bed bug, moth egg, drain fly and fruit fly photos are all CC BY (credit required), so those pages keep public domain or CC0 leads already on record (bed-bug-bites-back or bed-bug-adult-ruler; drain-fly; fruit-fly). Several observers' notes carry street addresses or a business name: the caveats say what may be printed. Searches, rejected candidates and what is still missing are in 'gaps'. Write captions from these notes and the record together, in US spelling and US units.",
+ "candidates": [
+  {
+   "id": "yellow-sac-spider-wall",
+   "forPages": [
+    "yellow-sac-spiders",
+    "house-spiders",
+    "brown-recluse-look-alikes",
+    "venomous-spiders",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high for the genus (a yellow sac spider); medium-high for the species",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 163920899, Greater Vancouver, British Columbia (location obscured by the observer), 2023-05-26, by Guerric Haché (quillipede; about 44,900 observations and 11,000 identifications). The observer identified it as Cheiracanthium mildei (northern yellow sac spider); ajott (about 260,000 identifications) and cataranea (about 18,400) both identified it to the genus Cheiracanthium, ajott adding that it is 'very likely the suggested species, as it seem like found indoors, which would be typical' because the other species, C. inclusum, is found indoors less often. No description. Annotated adult, alive. Photo 1 of 4; the photo's own licence is CC0.",
+   "caveats": "A pale yellow-green sac spider with dark leg tips, legs spread, on a heavily textured white wall right at an outside corner (the corner runs down the left side). Sharp enough for body shape and leg proportions; the face and fangs do not show. 'Indoors' is our reading of the textured drywall and ajott's, not the observer's (nothing was written): say 'on a textured wall' or 'indoors, by the look of the wall'. Call it 'a yellow sac spider' (the genus is certain); if a species is named, 'probably the northern yellow sac spider, Cheiracanthium mildei'. No scale object. A Canadian location is fine for a US page (the species lives across the northern US too). CC0 and confidently a yellow sac spider: can lead yellow-sac-spiders for the 'in house' search, with the existing Toronto yellow-sac-spider as the second view. Fallback with an explicit indoor statement, not added: iNaturalist 345077499 (CC0, Port Elgin, Ontario, field 'found inside: Yes', two species-level identifications), softer focus.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Guerric Haché). Licence: CC0-1.0. Size: 1200x904."
+  },
+  {
+   "id": "yellow-sac-spider-in-silk-sac",
+   "forPages": [
+    "yellow-sac-spiders",
+    "spider-egg-sacs",
+    "house-spiders"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 182790381, Chilliwack, British Columbia, 2023-09-11, by William C. McKnight (dijarida; about 4,300 observations and 1,800 identifications). Observer's note: 'Sac spider molting (perhaps?) inside silk sac.' Identified as Cheiracanthium mildei by the observer and aparshyn (about 7,000 identifications). Photo 1 of 1.",
+   "caveats": "A flat, translucent silk sac spun into the angle where a white-painted wall meets a gray-painted ledge; through the silk show a sac spider's legs and darker body, with a paler set of legs stacked above them (perhaps the cast skin, if it was molting as the observer guessed: do not state it as fact). That these spiders rest by day in silk sacs and hunt at night must come from a written source. Whether this is inside a house or on a porch is not recorded: say only 'where a painted wall meets a ledge'. Two small brown spots on the wall above are not explained. The spider is seen through silk, so it reads as a shape, not an identification view: pair it with yellow-sac-spider-wall or yellow-sac-spider. No scale object. On spider-egg-sacs it can show a silk retreat that people mistake for an egg sac (the source does not say it held eggs). CC BY: credit William C. McKnight.",
+   "note": "Credit: (c) William C. McKnight, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x904."
+  },
+  {
+   "id": "yellow-sac-spider-retreat-flowerpot",
+   "forPages": [
+    "yellow-sac-spiders",
+    "spider-egg-sacs"
+   ],
+   "confidence": "high for the genus (a yellow sac spider); the silk is the observer's attribution",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 70160027, Coatesville, Pennsylvania (coordinates in Chester County), 2021-02-25, by E. H. B. Forget (coatesvillecryptid; about 660 observations). Observer's note: 'Found on a planter pot that had been left on an indoor porch during the winter. When I picked up the pot it crawled out of the web on the bottom.' Identified to the genus Cheiracanthium (the yellow sac spiders) by the observer and paolosol (about 932,000 identifications). Photo 2 of 2 (photo 1, the spider on the red pot, was not taken).",
+   "caveats": "A hand holds a red plastic flowerpot upside down: a dense white silk sac is spun across the bottom beside a drainage hole, with soil crumbs around it. The spider is not in this frame (it had crawled out); the genus is identified from photo 1 and the observer ties the silk to that spider: say 'the silk retreat the spider came out of'. A darker clump of soil and debris at the right is not identified. February, an indoor porch: a winter retreat by the observer's account. No scale object (the hand gives a rough idea). A strong where-people-find-it photo for 'yellow sac spider in house' and for spider-egg-sacs (a retreat, not an egg sac; the source does not mention eggs). CC BY: credit E. H. B. Forget.",
+   "note": "Credit: (c) E. H. B. Forget, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "springtails-under-houseplant",
+   "forPages": [
+    "springtails",
+    "houseplant-bugs",
+    "bugs-that-look-like-fleas"
+   ],
+   "confidence": "high that they are springtails; medium for the subfamily. iNaturalist grade Needs ID only because a subfamily cannot become research grade",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 354557747 (grade Needs ID), Madison, Wisconsin, 2026-04-24, by Cole Wolf (colejwolf; about 48,600 observations and 12,500 identifications). Observer's note: 'found indoors under potted house plant.' Identified to the subfamily Onychiurinae (white, eyeless soil springtails) by jjwsphotography (about 85,500 identifications, a frequent springtail identifier) and the observer. Photo 1 of 2.",
+   "caveats": "About ten small, slender white springtails scattered over a speckled blue-and-tan surface (the floor or shelf under the pot; the surface is not described), with a crumb of soil. It is the closest thing to 'springtails massed indoors' with a trustworthy identification under an allowed licence (see gaps): a group, not a solid mass. It does not meet the brief's research-grade bar, only because iNaturalist cannot make a subfamily research grade: caption it 'springtails', or 'white soil springtails (Onychiurinae)' for detail. Do not call them baby springtails or mites. No scale object. CC BY: credit Cole Wolf.",
+   "note": "Credit: (c) Cole Wolf, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "snow-fleas-on-snow",
+   "forPages": [
+    "springtails",
+    "bugs-that-look-like-fleas",
+    "tiny-black-bugs"
+   ],
+   "confidence": "high for the genus Hypogastrura (two expert identifications); the species is not known",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 143536303 (genus level), Saint-Étienne-de-Bolton, Quebec, 2022-11-27, by Emilie I. Dion (emilieidion; about 1,600 observations). The observer entered Hypogastrura nivicola; erikamitchell (about 85,400 identifications) and opilion (about 6,500) identified the genus Hypogastrura, opilion noting 'It is impossible to know the species with only a picture' and erikamitchell that 'there are actually quite a few species of snow fleas, not just one. You need a microscope'. Photo 2 of 4.",
+   "caveats": "Thousands of dark specks on snow, densest in a hollow (footprint-sized; the source does not say what made it) where they turn the snow gray-black, thinning out across the frame. At full size the specks are plainly elongated springtails. It is the sight people search for (black specks on snow). Name them 'snow fleas, springtails of the genus Hypogastrura', never H. nivicola (the experts declined the species). That they are not fleas and do not bite must come from a written source. No scale object. Late November, southern Quebec. CC BY: credit Emilie I. Dion; snow-fleas-close-up (CC0) is the share-safe one.",
+   "note": "Credit: (c) Emilie I. Dion, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "snow-fleas-close-up",
+   "forPages": [
+    "springtails",
+    "bugs-that-look-like-fleas",
+    "tiny-black-bugs"
+   ],
+   "confidence": "high for the genus Hypogastrura",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 38225190 (genus level), Wendell, Massachusetts, 2020-02-02, by Lynn Harper (lynnharper; about 82,000 observations and 555,000 identifications), identified to the genus Hypogastrura by the observer and tsn (about 738,000 identifications). No description. Photo 1 of 1; the photo's own licence is CC0.",
+   "caveats": "Four dark blue-gray snow fleas on coarse, granular snow, close enough to see their short legs and antennae; one is curled. A few brown specks of debris on the snow are not identified. Genus only: 'snow fleas, springtails of the genus Hypogastrura'. No scale object (do not size them from the snow grains). CC0 and research grade: can be the share image of a snow flea section; for a springtails page as a whole, the existing springtail (CC0, with a scale bar) remains the better lead.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Lynn Harper). Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "bed-bugs-hotel-headboard",
+   "forPages": [
+    "bed bugs in hotels (winners-gap row 20; no slug yet)",
+    "how-to-check-for-bed-bugs-canada",
+    "where-do-bed-bugs-hide",
+    "signs-of-bed-bugs-checklist",
+    "learn/bed-bugs"
+   ],
+   "confidence": "high (a university IPM program photographed it and titled it a hotel headboard)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bed Bugs Treated on a Hotel Headboard (11555818913).jpg', from the New York State IPM Program at Cornell University's Flickr gallery (photo dated 2012-06-11), CC BY 2.0 (Flickr licence review passed). Description: 'Beware of bed bugs when travelling, but also be aware of pesticides left behind after treatment.' The title is the source's statement that this is a hotel headboard.",
+   "caveats": "A close view into the crevice where a dark wooden headboard meets a fuzzy gray-purple fabric surface: white pesticide dust coats the corner, with two chalky lumps, and at the bottom center lies a pale bed bug coated in the dust (its segmented abdomen shows on close inspection). At web size the bug is hard to spot: point to it in the caption or crop for a card. The title says 'bed bugs'; only one is clearly visible to us. The photo is soft (an older small-camera image enlarged to 4000x3000). The NYSIPM 'IPM' logo sits in the upper right corner (part of the licensed original, as on bed-bug-fecal-stains-mattress): do not crop it without recording the edit. Do not name the pesticide (the source does not). Its use: what can turn up behind a hotel headboard, and Cornell's warning that treatments leave residue; it is not a picture of live bed bugs. CC BY 2.0: credit the NY State IPM Program at Cornell University.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x900 (from 4000x3000)."
+  },
+  {
+   "id": "bed-bug-hotel-bedding",
+   "forPages": [
+    "bed bugs in hotels (winners-gap row 20; no slug yet)",
+    "how-to-check-for-bed-bugs-canada",
+    "signs-of-bed-bugs-checklist",
+    "what-do-bed-bugs-look-like",
+    "learn/bed-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 27817210, Tacoma area, Washington (iNaturalist's place line is a street address), 2019-06-28, by Roxanna Muller (therealroxie; 50 observations), identified as Cimex lectularius by the observer and nasehenry (about 9,600 identifications). The observer's note names the hotel where it was photographed. Photo 2 of 3.",
+   "caveats": "One small reddish-brown bed bug, seen from above, on white woven fabric with soft folds that reads as a sheet or pillowcase (our reading: the observer wrote only the hotel's name). The bug is small in a large white frame, which is how a traveler meets one: say so, or crop for a card. Adult or large nymph, and whether it had fed, are not recorded. NEVER name the hotel or print the street address in a caption, alt text or credit: 'at a hotel in the Tacoma area of Washington' at most. CC BY: credit Roxanna Muller.",
+   "note": "Credit: (c) Roxanna Muller, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "asian-cockroach-on-leaf",
+   "forPages": [
+    "german-cockroaches",
+    "Asian vs German cockroach (winners-gap row 23; no slug yet)",
+    "can-cockroaches-fly",
+    "bugs-that-look-like-cockroaches",
+    "palmetto-bugs",
+    "brown-banded-cockroaches"
+   ],
+   "confidence": "high (USDA Agricultural Research Service caption)",
+   "leadEligible": true,
+   "sourceDescription": "USDA Agricultural Research Service image K2252-8, on Wikimedia Commons as 'ARS Blattella asahinai.jpg' (PD-USGov-USDA-ARS). The ARS image gallery page (ars.usda.gov/oc/images/photos/jan08/k2252-8/, read Oct 23, 2026) reads: 'Asian cockroach, Blattella asahinai. Photo by Barry Fitzgerald.' No date or place is given.",
+   "caveats": "A sharp side-on view of an adult Asian cockroach on a green, deeply veined leaf against a black background: pale tan, long wings covering the abdomen, and the two dark stripes behind the head that it shares with the German cockroach. Leaves and leaf litter outdoors are where this species usually lives (cite that from a written source). The photo alone cannot separate it from a German cockroach, which is why the caption should rest on USDA's identification. Credit quirk: the Commons page has no Information template, so the ledger credit reads 'unknown author, Public domain, via Wikimedia Commons' (as red-flour-beetle) and the record has no description: write 'USDA Agricultural Research Service photo by Barry Fitzgerald' in the caption. No scale object. Public domain and identified by USDA: the lead for an Asian cockroach section or page, beside german-cockroach (CDC, dorsal) or german-cockroach-adult for the comparison.",
+   "note": "Credit: unknown author, Public domain, via Wikimedia Commons (the source names USDA ARS photographer Barry Fitzgerald). Licence: public-domain. Size: 1200x870 (from 2700x1958)."
+  },
+  {
+   "id": "asian-cockroach-ruler",
+   "forPages": [
+    "german-cockroaches",
+    "Asian vs German cockroach (winners-gap row 23; no slug yet)",
+    "can-cockroaches-fly",
+    "bugs-that-look-like-cockroaches"
+   ],
+   "confidence": "high (research grade; the observer kept the specimen)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 318046352, Tallahassee, Florida, 2025-09-30, by Ingolf Askevold (ingolfaskevold; about 9,700 observations and 22,500 identifications). Observer's note: 'Blacklighting. Voucher retained in case other photos needed for identification.' Identified as Blattella asahinai by the observer and insulindian_phasmid (about 54,700 identifications). Annotated adult. Photo 1 of 2; the photo's own licence is CC0.",
+   "caveats": "A dorsal view of an adult on white beside a ruler with millimeter marks along the left edge: the pale shield behind the head with two dark stripes, long narrow veined wings reaching past the abdomen, spiny legs. Sharp and bright (slightly overexposed at the edges). It came to a blacklight, which fits the species' attraction to light, but take that behavior from a written source. Give a size only if the writer measures the ruler carefully; otherwise use a source. Sex not recorded. CC0 and research grade with a kept specimen: lead-eligible. No single photo of an Asian and a German cockroach side by side was found (see gaps): set this beside german-cockroach (CDC, also a dorsal view on white) for the comparison the brief asked for.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Ingolf Askevold). Licence: CC0-1.0. Size: 1200x1633."
+  },
+  {
+   "id": "clothes-moth-eggs-wool",
+   "forPages": [
+    "moths-in-house",
+    "moth eggs (winners-gap row 12; section or page, no slug yet)"
+   ],
+   "confidence": "high that these are clothes moth eggs (a CSIRO textile research photograph); the species is not named",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'CSIRO ScienceImage 2070 Eggs of the Clothes Moth.jpg', CSIRO Science Image 2070 by CSIRO's Textile and Fibre Technology division, dated 2003-03-26, CC BY 3.0. Description: 'Egg stage of a clothes moth. Moths attack a wide variety of other natural materials, and even some synthetic ones, around the home, including carpets. It is the larvae of clothes moths that attack fabrics. The larval stage lasts for one to three months.' A Commons editor filed it under Tineola bisselliella (the webbing clothes moth); CSIRO does not name the species.",
+   "caveats": "About fifteen small, oval, pearly white eggs lying loose among the loops of a knitted wool fabric in deep purple-red. The colors are strong (an older slide scan), and the blue sparkles in the knit are lighting, not eggs. It is the only allowed photo found of clothes moth eggs on fabric with an institutional identification. Caption 'clothes moth eggs' without a species ('probably the webbing clothes moth' only with a written source). No scale object: give the egg size from a source. Not pantry moth eggs. Credit quirk: photoCreator() reads the creator as 'Textile and Fibre Technology, CSIRO' and types it a Person; the visible credit line is correct. CC BY 3.0: credit CSIRO.",
+   "note": "Credit: Textile and Fibre Technology, CSIRO, CC BY 3.0, via Wikimedia Commons. Licence: CC-BY-3.0. Size: 1200x814 (from 2657x1803)."
+  },
+  {
+   "id": "drain-flies-sink",
+   "forPages": [
+    "how-to-get-rid-of-drain-flies",
+    "how-to-get-rid-of-gnats",
+    "drain flies vs fruit flies vs gnats (winners-gap row 15; no slug yet)",
+    "flies-in-house",
+    "tiny-black-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 28811964, Long Island City, Queens, New York, 2019-05-13, by Dilrukshan Priyantha Wijesinghe (elaphrornis; about 11,900 observations). Observer's note: 'Clogmia albipunctata. Inside building, Long Island City, Queens, NY. In mens' room sinks etc.' Identified as Clogmia albipunctata by the observer, zoology123 (about 95,400 identifications) and subhajit_roy (about 4,000). Photo 6 of 6.",
+   "caveats": "Looking down into a white sink basin: three small, dark, fuzzy-winged drain flies on the porcelain, with the chrome drain strainer at the lower left and a drop of water. Exactly where people meet them, and clearly better for that than drain-fly (a single fly on a plain pale wall). The flies are small in the frame: the moth-like wing shape shows at full size, their spots do not, so pair it with drain-fly (CC0 close-up) for the look. A restroom in a public building per the observer, not a home: say 'a bathroom sink'. No scale object (do not compute a size from the drain holes). The file is only 16 KB because the plain white basin compresses well. CC BY: credit Dilrukshan Priyantha Wijesinghe; drain-fly remains the CC0 lead.",
+   "note": "Credit: (c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "fruit-fly-mango-peel",
+   "forPages": [
+    "how-to-get-rid-of-gnats",
+    "drain flies vs fruit flies vs gnats (winners-gap row 15; no slug yet)",
+    "flies-in-house",
+    "how-to-get-rid-of-fungus-gnats"
+   ],
+   "confidence": "high (research grade; a Drosophila geneticist confirmed the species from this side view)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 320069474, Austin, Texas, 2025-10-09, by Justin Williams (jgw_atx; about 8,200 observations and 136,500 identifications). Observer's note: 'Household fruit flies. They were feeding/reproducing on a mango peel my kid left in the living room.' Observation field 'found inside: Yes'. Identified as Drosophila melanogaster by the observer, darren_j_obbard ('It is melanogaster, but it requires your great lateral shot to distinguish it from simulans') and carnifex (about 77,300 identifications). Photo 2 of 2.",
+   "caveats": "A sharp side view of one fruit fly on a pale yellow surface, the mango peel by our reading together with the observer's note: bright red eyes, a bristly tan thorax, a banded abdomen with a dark tip, clear wings. Sex not recorded (do not call it male or female). One fly only: fruit-flies-lemon shows several on fruit. This is the species-confirmed view; the existing fruit-fly (CC0, 1 mm scale bar) stays the share-safe lead. CC BY: credit Justin Williams.",
+   "note": "Credit: (c) Justin Williams, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "fruit-flies-lemon",
+   "forPages": [
+    "how-to-get-rid-of-gnats",
+    "drain flies vs fruit flies vs gnats (winners-gap row 15; no slug yet)",
+    "flies-in-house"
+   ],
+   "confidence": "high for the genus Drosophila (research grade at genus level); the species is not settled",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 103577509 (genus level), central Moscow, Russia, 2021-12-24, by Georgy Vinogradov (prokhozhyj; about 25,500 observations and 22,000 identifications). Observer's note: 'On an old cut lemon fruit on the kitchen table. Flat on the 8th floor of the city building.' The observer entered Drosophila melanogaster; carnifex (about 77,300 identifications) supported only the genus, pointing out that the series mixes males and females and that several similar species visit the same food. Photo 3 of 7.",
+   "caveats": "Three fruit flies on the pale, pulpy inside of a squeezed lemon half, the yellow rind at the left and a dark hollow behind them: red eyes, brown bodies, one with iridescent wings. A wide, low frame (1200x558) and only moderately sharp, but it shows what people see in a kitchen: fruit flies on old fruit. Genus only ('fruit flies, genus Drosophila'), not D. melanogaster. A pale round object at the lower right is not identified (lemon pulp or a seed by its look; do not call it eggs or a pupa). Say where it was taken (Moscow, Russia). CC BY: credit Georgy Vinogradov (the credit line carries his name in Cyrillic too, as iNaturalist writes it).",
+   "note": "Credit: (c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x558 (from 1324x616)."
+  },
+  {
+   "id": "cellar-spider-bathroom-corner",
+   "forPages": [
+    "daddy-long-legs",
+    "house-spiders",
+    "brown-recluse-look-alikes",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high for a cellar spider; the species Pholcus manueli per two identifications",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 325836179, Macon, Virginia, 2025-11-09, by Trevor Clarke (drfishva; about 1,000 observations). Observer's note: found in a house 'in the 2nd floor upstairs bathroom in the right hand corner of the bathtub and vinyl floor' (the note also gives the property's street address). Identified as Pholcus manueli (Manuel's cellar spider) by the observer and christoph1954 (Christoph Fitzek, about 68,200 identifications). Annotated adult. Photo 2 of 10; the photo's own licence is CC0.",
+   "caveats": "A long-legged cellar spider in the angle where a white surface (the tub side or wall, by the observer's note) meets dark wood trim, with a rounded wooden molding at the bottom and wisps of cobweb at the joint: the house corner the brief asked for. The small body and very long thin legs read clearly; markings do not (use cellar-spider, or the closer frames of the same observation, for detail). Two thin curved hairs or fibers on the white surface at the left are not part of the spider. Print only 'Macon, Virginia' (or 'Virginia'), never the street address in the note. CC0 and research grade: lead-eligible for the cellar spider part of daddy-long-legs.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Trevor Clarke). Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "harvestman-brick-wall",
+   "forPages": [
+    "daddy-long-legs",
+    "house-spiders",
+    "venomous-spiders",
+    "tools/spider-identifier"
+   ],
+   "confidence": "high (a harvestman specialist identified the species)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 324448053, Macon, Virginia, 2025-10-31, by Trevor Clarke (drfishva). Observer's note: 'Specimen found resting on the brick retaining wall along the gravel driveway at the Garage of house' (the note also gives a street address); habitat field: 'Rural Subdivision retaining wall along driveway'. Identified as Leiobunum vittatum (banded harvestman) by harvestman-man (about 43,600 identifications, a harvestman specialist by his record) and the observer. Photo 7 of 7; the photo's own licence is CC0.",
+   "caveats": "A harvestman resting on a weathered brick framed by pale mortar joints: the small round body (one oval section with no waist, which tells it from a spider) and all eight very long, dark, thin legs splayed across the brick. Outdoors on a house's retaining wall, as the brief asked (the harvestman on record is a museum specimen on black). The body is small in this frame; the closer frames of the same observation (587241378 and 587241405, both CC0) show it better if the body shape must show. Print only 'Macon, Virginia'. Size: 547 KB, the heaviest photo on record, because the brick texture compresses poorly even at the script's lowest quality (56); guide figures are served unoptimized, so use it once and lazy-loaded, or swap to frame 587241378 (392 KB). CC0: lead-eligible for the harvestman part of daddy-long-legs.",
+   "note": "Credit: no rights reserved, via iNaturalist (photographer Trevor Clarke). Licence: CC0-1.0. Size: 1200x1200 (547 KB)."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "yellow-sac-spiders",
+   "why": "Now on file: yellow-sac-spider-wall (CC0, indoor wall), yellow-sac-spider-in-silk-sac (CC BY) and yellow-sac-spider-retreat-flowerpot (CC BY), beside yellow-sac-spider (CC0, Toronto). Searched: iNaturalist research-grade Cheiracanthium mildei and C. inclusum with allowed photo licences (descriptions: wall, ceiling, inside, indoors, house, home, bedroom, kitchen, bathroom, window, sac, retreat, silk), the genus Cheiracanthium (sac, retreat, silk, nest, cocoon, tent, leaf, curled, folded, hiding, shelter, molt, moult, egg, web), a contact sheet of every CC0 photo of both species (73 observations, 168 photos), and Commons (categories Cheiracanthium inclusum and C. mildei; yellow sac spider; sac spider retreat; Cheiracanthium retreat). Still missing: a yellow sac spider beside a ruler or coin, and a CC0 or public domain photo of a silk retreat. Refused: iNaturalist 352866695 (CC0, a sac spider in a silk retreat in a curled leaf, but in Maharashtra, India, identified as C. inclusum, an American species, by two non-specialists); 175157954 (CC BY, Salt Lake City: a cast skin in a silk sac, no spider); 308981079 (CC0, Wisconsin, on a textured yellow wall: blurry); 115009253 (CC BY, inside a bathroom night-light cover: behind plastic); 190438647 (CC BY, on a wall poster); 45159534 (CC BY, spinning silk, Newton MA: blurry); Commons 'Spider Producing Web.jpg' (CC BY-SA 4.0: hanging from a thread, no sac); 'Cheiracanthium furculatum, in sysak, Pretoria.jpg' (a sac spider in its silk retreat, but a South African species); 'Cheiracanthium virescens female retreat.jpg' and iNaturalist 148524704, 178871328 and 397749150 (retreats and nests of European species); the Joseph Berger / Bugwood images ('5439745-LGPT.jpg' and others, CC BY 3.0 US: Bugwood's terms, refused since batch 9, and the script cannot read 'CC BY 3.0 us'). Alternatives worth keeping, not added: iNaturalist 148289812 (CC BY, 'on ceiling', United States, soft side views), 345077499 (CC0, Port Elgin, Ontario, 'found inside: Yes', soft), 309272805 (CC0, a sharp Cheiracanthium on a pomelo leaf at home, California, genus only), Commons 'Yellow-sac-spider.jpg' (CC BY-SA 4.0, Austin Campbell: sharp, 'found inside a house in Michigan during the winter', the uploader's identification only)."
+  },
+  {
+   "slug": "springtails",
+   "why": "Now on file: springtails-under-houseplant (CC BY, Needs ID at subfamily level), snow-fleas-on-snow (CC BY) and snow-fleas-close-up (CC0), beside springtail (CC0). Not found: springtails massed on a damp indoor surface or in houseplant soil with a trustworthy identification under an allowed licence. Searched: iNaturalist research-grade Collembola (houseplant, house plant, potted, plant pot, flower pot, pot, soil, bathroom, sink, bathtub, tub, shower, basement, window sill, indoors, inside, kitchen, apartment, mold, mould, damp, hundreds, thousands, swarm, infestation), the same words at any grade in North America (about 300 records read), the observation field 'found inside: Yes', and Commons (springtails with potting soil, houseplant, flower pot, mass, swimming pool, bathroom; Collembola aggregation; springtail infestation; German and French terms). Masses with allowed licences turned up only outdoors: Commons 'PoduraAquatica2.jpg' (a pond edge in Germany), 'Collembola swarm.jpg' (India), iNaturalist 103840208 (a raft on a composter lid, order level), 334228316 (hundreds on a car, close-ups only). Houseplant alternatives, not added: iNaturalist 199042762 (CC BY, Louisiana, two pale springtails on dark potting soil 'in a potted plant inside', order level by two), 333760775 (an indoor orchid pot, microscope views), 42573984 (soil of an indoor potted mint, one springtail identification). Refused: 284420413 (CC0, rafts in the saucer of a potted aloe, Chapel Hill NC: the photos are 221 to 353 pixels wide), 277209052 and 39781402 (CC0, one or two globular springtails on a terra-cotta pot rim, and one on a pale surface from the soil of a dead potted plant). Bathroom alternatives, research grade, single springtails: 289130115 (CC BY, Entomobrya multifasciata in a bathroom sink, Fairfax VA), 83951905 (CC BY, Willowsia nigromaculata in a bathroom sink, three identifications), 402882343 (CC0, a Willowsia in a sink, small and soft). Snow fleas also refused: Commons 'Schneefloh Population in Fussabdruck im Schnee ... 01/02/03.jpg' (a European snow springtail, Desoria nivalis, not Hypogastrura), 'Snow flea 01.jpg' and '02.jpg' (CC BY-SA 4.0, the uploader's species claim only), iNaturalist 150730976 (CC0, Sherbrooke: specks tiny in the frame; its identifications range from H. nivicola to the order Poduromorpha) and 109308683 (collected on snow, photographed on white)."
+  },
+  {
+   "slug": "bed bugs in hotels (winners-gap row 20; no slug yet)",
+   "why": "Now on file: bed-bugs-hotel-headboard (CC BY 2.0, Cornell) and bed-bug-hotel-bedding (CC BY); neither can be a share image, so a hotel page can lead with bed-bug-bites-back (CC0, bites the photographer attributes to a hotel in Amsterdam) or bed-bug-adult-ruler (CDC). Searched: iNaturalist Cimex lectularius at any grade with allowed licences (hotel, motel, suitcase, luggage, travel, airbnb, hostel, inn, resort, cruise, trip, vacation, train, airplane, bus, headboard, mattress, room) and Commons (bed bug hotel, bedbugs hotel, bed bugs luggage, bed bug suitcase, Cimex lectularius hotel, bedbug travel, bed bug headboard, German and French terms). Not found: bed bugs on luggage or in a suitcase with a stated setting, or on a hotel mattress seam. Alternatives, not added: iNaturalist 105320720 (CC BY-SA, a sharp macro of a fed bed bug 'found in motel bedding', 4.6 mm, Kern County CA, five identifications: it shows the bug, not the setting, and that biology is already on record), 147862569 (CC BY, Ontario, 'check your beds before you sleep in a hotel', a bug on a white surface), 191006352 (CC BY, Chicago, a bed bug that fell off a classmate's laptop after a trip to Paris, photographed in a container lid). Refused: Commons 'Bed Bug Evidence on Headboard (11555720024).jpg' (Cornell, CC BY 2.0: nothing beyond the title, so no hotel is stated, and the IPM logo sits mid-frame), iNaturalist 260756746 (a hotel shower in Oaxaca, Mexico, but photographed in a container lid) and 398337819 (a hotel room in Albuquerque: one identification, blurry)."
+  },
+  {
+   "slug": "german-cockroaches",
+   "why": "Asian cockroach (winners-gap row 23). Now on file: asian-cockroach-on-leaf (public domain, USDA ARS) and asian-cockroach-ruler (CC0). Not found: one photo with an Asian and a German cockroach side by side under an allowed licence: pair either new photo with german-cockroach (CDC) or german-cockroach-adult. Searched: Commons category Blattella asahinai and searches for the Asian cockroach; iNaturalist research-grade Blattella asahinai with allowed licences (all 24 CC0 observations on a contact sheet; descriptions searched for german, germanica, compare, vs, light, flew, flying, porch, outdoors, leaf litter, tergal, wing, swarm, lawn, yard, house, kitchen). Refused: Commons 'Blattella asahinai the Asian cockroach - adult 05.jpg' and '- nymph 06.jpg' (Natasha Wright, Florida Department of Agriculture and Consumer Services, via Bugwood, CC BY 3.0 US: Bugwood's terms, refused since batch 9, and the script cannot read 'CC BY 3.0 us'), 'B. asahinai.tif' (CC BY-SA 4.0, a pinned specimen with spread wings, the uploader's identification only), 'An Asian cockroach (Blattella asahinai; possibly).jpg' and the three Nativeplants garden photos (India, unconfirmed). Alternatives on iNaturalist, CC0 and research grade, not added: 241893306 and 293023938 (adults on a hand, Magnolia TX), 41579784 (on a leaf at night, Tallahassee), 358449165 (a Malaise-trap specimen beside a ruler, same observer as asian-cockroach-ruler), and the kcthetc1 series of adults on white sheets in Georgia (111245737 and others)."
+  },
+  {
+   "slug": "moths-in-house",
+   "why": "Clothes moth eggs (winners-gap row 12). Now on file: clothes-moth-eggs-wool (CSIRO, CC BY 3.0). Still missing: a public domain or CC0 egg photo, and eggs of the case-bearing clothes moth. Searched: iNaturalist webbing and case-bearing clothes moths with the life-stage annotation Egg (no records with allowed licences), descriptions egg, eggs, ovum, laid and laying across the family Tineidae, and Commons (categories Tineola bisselliella, Tinea pellionella and Tineidae eggs; English, German and French searches). Refused: Commons 'EggOeuMiteTineola.JPG' (294x241, too small); 'Tineola Bisselliella5303.JPG' and 'Tineola bisselliella 5305.JPG' (CC BY-SA 3.0, Lamiot: an adult webbing clothes moth with one tiny egg at the edge of the frame, the uploader's identification, and adults are already on record); 'Clothes' moth (Tinea pellionella).jpg' (a drawing); iNaturalist 402824044 (CC BY, a moth caught laying eggs on a shirt, Cambridgeshire, England: family level by the observer only) and 214510448 ('Laying eggs?', Garland TX, genus Tinea by the observer only). Seen, not needed: 'CSIRO ScienceImage 2028 Clothes Moths.jpg' (an adult on the same wool, with a cyan color cast)."
+  },
+  {
+   "slug": "how-to-get-rid-of-gnats",
+   "why": "Drain flies, fruit flies and fungus gnats (winners-gap row 15). Drain fly: drain-flies-sink added. drain-fly already shows a fly on a pale wall, so a bathroom-wall shot alone was not clearly better; a contact sheet of 16 North American research-grade bathroom observations also showed 220887396 (CC0, a bathroom wall in Brampton, Ontario, the fly tiny in the frame), 242082581 (CC0, a sharp close-up in a bathroom on Bowen Island, the setting not visible) and 186483395 (CC0, one fly and its reflection on a bathroom mirror, Toronto). Fruit flies: fruit-fly-mango-peel and fruit-flies-lemon added. Not added: iNaturalist 129733789 (CC BY, a crowd of spotted-wing drosophila, Drosophila suzukii, on a watermelon rind set out for butterflies in Kentucky: a crop pest, not the kitchen fruit fly), 207162027 (CC0, one immigrant fruit fly on an orange peel in a yard, small), 360241564 (CC BY, on a banana, Columbus OH: melanogaster or simulans per Darren Obbard, Needs ID), 14046379 (CC BY, on an apple core, Austin: genus by three, Needs ID, small in the frame), 251928712 (microscope views). Fungus gnat: nothing clearly better than fungus-gnat. Dark-winged fungus gnats (Sciaridae) cannot reach research grade at family level; houseplant records seen, all Needs ID: 144075474 (a silhouette on an amaryllis leaf), 153898884 (sharp, near potted plants indoors, but the setting does not show), 204994393 (seedling pots indoors, the gnat at the edge of the frame), 38070938 (a larva in soil on a fingertip, one Sciaridae identification), 330554465 (CC0, Oregon, beside a penny, soft)."
+  },
+  {
+   "slug": "daddy-long-legs",
+   "why": "Now on file: cellar-spider-bathroom-corner and harvestman-brick-wall (both CC0), beside cellar-spider, cellar-spider-carrying-eggs and harvestman (a museum specimen). Searched: iNaturalist research-grade Pholcus phalangioides and the cellar spider family Pholcidae with CC0 photos in North America (corner, ceiling, basement, bathroom, in my house, indoors, inside, window, garage, closet, laundry, web in, kitchen, bedroom), and harvestmen (Opiliones) research grade with CC0 photos in the US (siding, house, porch, deck, wall, garden, fence, window, door, foundation, shed, outside, yard, back yard, patio, brick). Alternatives, CC0 and research grade, not added: cellar spiders 255363143 and 255363144 (Pholcus manueli in small cobwebs in the high and low corners of a root cellar, United States, location obscured), 264723602 (P. manueli in a basement powder room in Ottawa, its web shown), 271890026 (P. phalangioides on the ceiling above a bed, Salinas CA), 260330477 (a residential basement in Greater Vancouver, three identifications), 110706441 (a workplace bathroom, Birmingham AL); harvestman 320523688 (Leiobunum vittatum on white vinyl siding of a house: missing one leg, so not taken). Not used: iNaturalist 228503939 (a European harvestman on a bathroom wall in Moscow, Idaho: indoors, not what was asked)."
+  }
+ ]
+}
