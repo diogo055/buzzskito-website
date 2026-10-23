@@ -1,0 +1,10 @@
+{
+ "id": "mud-daubers",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "801f7f5136e6b4f99edd015738255ad6c03d2f90bdfc3b02ac5b05c80a7d7407",
+ "claimsChecked": 220,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-23"
+}

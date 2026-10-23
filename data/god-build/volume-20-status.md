@@ -80,3 +80,30 @@ Owner's words: "build the 20 most stat changing pages u can right now. Backed by
     - The release needs `record.sha === sha(file)`, so amend after ANY edit.
     - Links from other pages going out the same day count.
     - Hubs /learn, /learn/mice, /learn/bug-bites and /learn/bed-bugs are all live.
+- **~17:45 UTC: release 2 pushed (`6118312e`, on top of `b1a5c1b6` photos, `8ff62ba3` plan and `1108eeed` upgrades).**
+  - **New pages:** joro, orb-weaver, jumping and camel spiders, what-do-termites-look-like, carpet-beetle-larvae and weevils, each with an amazon.com pick. Pulled forward to Oct 23 via release-overrides.
+  - **Re-aims:** do-ants-bite now targets "ant bites"; water-bugs-vs-cockroaches now targets "water bug". American cockroach flight is re-sourced to Texas A&M AgriLife.
+  - **Links and photos:** 12 link-ins; batch-12 photos on 13 live guides.
+  - **AI line:** removed from under the title on guides and the 3 tools (owner). The foot note stays; whether to remove it too is the owner's call (Mediavine's "undisclosed AI content" sentence).
+  - **Mosquito diagram:** label fixed.
+  - **Build:** 752 pages, all 11 guards passed.
+- **Wave 2 (dated Oct 24):** the morning GitHub release job publishes these once each check is on record and committed, so commit the scheduled files plus check records tonight.
+  - Being checked: shrews, pill-bugs, booklice, jerusalem-crickets, paper-wasps, mud-daubers, wheel-bugs.
+  - Also being checked: what-do-bed-bug-bites-look-like (Nov 11).
+  - Still being written: flea-bites, fruit-flies, how-to-get-rid-of-drain-flies (all Oct 31).
+  - After release, add picks by hand. The writers suggested:
+    - shrews: hardware cloth
+    - pill-bugs: door sweep
+    - booklice: dehumidifier
+    - jerusalem-crickets: clear bug-catcher container
+    - paper-wasps: nest spray (only if the page names it)
+    - mud-daubers: putty knife
+    - wheel-bugs: door sweep
+    - bed bug bites: hydrocortisone cream
+  - Verify each pick against the page text, as for wave 1. Example: weevils' moth trap was WRONG, because the page says moth traps don't catch weevils.
+- **Indexing, Oct 24 from ~15:05 UTC (10 a day):**
+  1. bed-bugs-in-hotels
+  2. rat-vs-mouse
+  3. the 7 new pages
+  4. water-bugs-vs-cockroaches
+  - **Oct 25:** do-ants-bite and the wave-2 pages.

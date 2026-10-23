@@ -1,0 +1,10 @@
+{
+ "id": "wheel-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a4b96eb034527ee08ae51c555df27eed5bdd9b08c724eed1e518b372d5a2d6aa",
+ "claimsChecked": 210,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-23"
+}

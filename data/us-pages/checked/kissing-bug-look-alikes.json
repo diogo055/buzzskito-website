@@ -2,7 +2,7 @@
  "id": "kissing-bug-look-alikes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a7639abab6463dfef0a7d2b0126a57bb3ff3403e85144eb2d92f1a8372e34d52",
+ "sha": "f303f1c8b6f4ee6e5a9273c29563f9df9be66a95dbf6dcfd4cd8415f8da4a0a2",
  "claimsChecked": 260,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 1,
@@ -17,6 +17,16 @@
    "on": "2026-10-23",
    "note": "alsoTargets: removed 'assassin bug' (now owned by /blog/wheel-bugs, re-aimed 2026-10-24) (volume-20, Oct 23)",
    "previousSha": "696a5971383f9afee161893baff00f5573599d0d3404c9ca24fbe83dd5742219"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "masked hunter size corrected to Penn State's 17-22 mm (about 2/3 to 7/8 inch) in the list and the table; Penn State's Masked Hunter page added to sources; Utah State's 'entirely black' and 'most common look-alike' kept (orchestrator, Oct 23)",
+   "previousSha": "a7639abab6463dfef0a7d2b0126a57bb3ff3403e85144eb2d92f1a8372e34d52"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "Penn State masked hunter citation linked in the text (validator: every source linked where used) (orchestrator, Oct 23)",
+   "previousSha": "492ebed6de3b27468659e9d5879aad7eb80e421cdc3459899770d2205beacd74"
   }
  ]
 }

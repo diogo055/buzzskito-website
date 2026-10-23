@@ -1,0 +1,171 @@
+{
+  "slug": "mud-daubers",
+  "kind": "spoke",
+  "cluster": "wasps",
+  "keyword": "mud dauber",
+  "alsoTargets": [
+    "mud daubers",
+    "mud dauber nest",
+    "do mud daubers sting",
+    "mud dauber sting",
+    "mud dauber vs wasp",
+    "dirt dauber",
+    "organ pipe mud dauber"
+  ],
+  "metaTitle": "Mud Daubers: ID, Mud Nests and Do They Sting?",
+  "metaDescription": "Mud daubers are thread-waisted wasps that build nests of mud, not paper. Photos of the three nest types, what is inside, the sting and nest removal.",
+  "h1": "Mud Daubers: How to Identify Them and Their Mud Nests, and Do They Sting?",
+  "dek": "Real photos of the three mud dauber nests people find on walls and eaves, a quick-ID table against paper wasps, yellowjackets and cicada killers, what is inside a nest, how rarely they sting, and how to remove nests.",
+  "breadcrumb": "Mud Daubers",
+  "excerpt": "How to recognize a mud dauber and tell its nest from the others, what the spiders inside are for, whether it stings, and how to scrape a nest off.",
+  "datePublished": "2026-10-24",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A mud dauber is a slender wasp with a long, thread-thin waist that builds its nest out of mud, not paper, and it rarely stings because it does not defend that nest.** [Purdue Extension](https://www.extension.entm.purdue.edu/publications/E-253/E-253.pdf) describes three kinds, two of which build mud nests you can tell apart by shape.",
+    "bullets": [
+      "Most are about 1/2 to 1 inch long, says the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/mud-daubers); many are all black, others black and yellow or iridescent blue-black, per [Texas A&M's Apiary Inspection Service](https://txbeeinspection.tamu.edu/mud-daubers/).",
+      "Lumpy clusters of cells belong to the black-and-yellow mud dauber and long parallel tubes to the organ-pipe mud dauber, MDC says; the blue mud dauber reuses old nests, Purdue says.",
+      "Each cell is packed with paralyzed spiders, up to 25 of them by Texas A&M's count, for one young wasp; MDC says blue mud daubers use large numbers of black widows.",
+      "[University of Missouri Extension](https://extension.missouri.edu/publications/g7391) says they are not aggressive and usually sting only when pinned against the skin, and that no insecticide is needed to remove a nest.",
+      "A hole chewed through a cell means the wasp that grew inside has left, as [Clemson's Home & Garden Information Center](https://hgic.clemson.edu/factsheet/mud-daubers/) explains."
+    ]
+  },
+  "facts": {
+    "title": "Mud dauber or another wasp? Quick ID",
+    "head": ["Wasp", "Waist and color", "Nest", "Stings people?"],
+    "rows": [
+      ["Black-and-yellow mud dauber", "Thread-thin waist; black with yellow markings and yellow legs", "A lumpy mass of mud cells about the size of a lemon or a fist, usually horizontal", "Rarely; only if handled or pinned against the skin"],
+      ["Organ-pipe mud dauber", "Robust and black, with blue wings and white stockings on the hind legs", "Parallel mud tubes up to 6 or more inches long, oriented vertically", "Rarely; the males that guard the nest have no stinger"],
+      ["Blue mud dauber", "Thread-thin waist; metallic blue to blackish, with blue wings", "Builds none of its own; reuses old black-and-yellow mud dauber nests", "Rarely; does not defend the nest"],
+      ["Paper wasp", "Slender; black or brown with rusty or yellowish markings; legs dangle in flight", "An open comb of paper cells hanging from one stalk", "Yes, to defend the nest; usually not aggressive away from it"],
+      ["Yellowjacket", "About 1/2 inch and bee-sized; black and yellow bands", "Paper nest inside an envelope, mostly underground", "Yes; the colony defends the nest aggressively as a group"],
+      ["Eastern cicada killer", "Can exceed 1 1/2 inches; black and yellow, with rusty clear wings", "Tunnels in lawns and other open ground, with a mound of soil at the entrance", "Rarely; females save the sting for cicadas unless molested, and males cannot sting"]
+    ],
+    "caption": "From the Missouri Department of Conservation, Purdue, Mississippi State and University of Missouri Extension pages linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a mud dauber look like?" },
+    { "type": "p", "text": "A mud dauber is a long, slender wasp, usually 1/2 to 1 inch long, with a thread-like waist joining the thorax to the abdomen. [Purdue Extension's mud dauber fact sheet](https://www.extension.entm.purdue.edu/publications/E-253/E-253.pdf) describes long, slender wasps with a prominent thread-like waist, and the [Missouri Department of Conservation's mud dauber guide](https://mdc.mo.gov/discover-nature/field-guide/mud-daubers) gives a length of about 1/2 to 1 inch. Texas A&M's Apiary Inspection Service says many are entirely black, while others are black with yellow markings or an iridescent blue-black." },
+    { "type": "figure", "src": "/guides/photos/blue-mud-dauber-on-nest.webp", "width": 1152, "height": 2048, "alt": "Slender, shiny metallic blue-black wasp with long dark legs standing on a lumpy orange-brown mud nest stuck to a gray surface", "caption": "A blue mud dauber (Chalybion californicum) on an old black-and-yellow mud dauber nest it is reusing, in Oklahoma. Purdue says this species does not build a mud nest of its own.", "credit": "Calinsdad, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chalybion_californicum_(526309709).jpg" },
+    { "type": "p", "text": "Mud daubers live alone. [Texas A&M's Apiary Inspection Service](https://txbeeinspection.tamu.edu/mud-daubers/) says each nest is built from mud by a single mated female, and Clemson says one female builds and stocks it, so there is no colony to guard it. Dirt dauber is another name for one of the most common ones: [UF/IFAS](https://blogs.ifas.ufl.edu/news/2016/09/23/ufifas-uses-wasps-to-monitor-exotic-joro-spider/) calls the black-and-yellow mud dauber, *Sceliphron caementarium*, the dirt dauber too." },
+    { "type": "figure", "src": "/guides/photos/black-and-yellow-mud-dauber.webp", "width": 1200, "height": 786, "alt": "Side view of a black-and-yellow mud dauber specimen against black, with a long, thin black waist, a black abdomen, yellow legs and spots, and smoky wings", "caption": "A black-and-yellow mud dauber (Sceliphron caementarium), a museum specimen from Texas, showing the long, thread-thin waist.", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_and_Yellow_Mud_Dauber_(Sphecidae,_Sceliphron_caementarium_(Drury))_(36164276721).jpg" },
+    { "type": "p", "text": "MDC says people often notice the nests in barns, garages and the eaves of houses and under bridges, and Purdue adds the sides of buildings and the rafters of open structures." },
+
+    { "type": "h2", "text": "Which mud dauber built this nest?" },
+    { "type": "p", "text": "The shape of the mud tells you. Purdue and MDC describe three common kinds, which MDC says you can identify by color and by their distinctive nests." },
+    { "type": "h3", "text": "Lumps of mud: the black-and-yellow mud dauber" },
+    { "type": "p", "text": "MDC says the black-and-yellow, or yellow-legged, mud dauber builds its cells side by side or on top of one another (a cell takes most mud daubers about an hour) and often adds mud to cover and smooth over the mass, so the finished nest is rounded like a lump, about the size of a lemon or a fist. [Mississippi State Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2020/organ-pipe-mud-dauber-vol-6-no-20) describes these nests as blocky, only a couple of inches long and usually horizontal." },
+    { "type": "figure", "src": "/guides/photos/mud-dauber-nest-garage-wall.webp", "width": 1200, "height": 800, "alt": "Black wasp with yellow and orange legs, long curled antennae and amber wings on a rounded gray-brown mud cell with an open hole at one end, on white-painted wood", "caption": "A black-and-yellow mud dauber (Sceliphron caementarium) on its mud nest on the back wall of a garage in New York.", "credit": "(c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/28591120" },
+    { "type": "figure", "src": "/guides/photos/mud-dauber-nest-house-overhang.webp", "width": 1200, "height": 900, "alt": "Black wasp with yellow legs and a thin waist standing on a lumpy tan mud nest of several cells, one cell end closed with a dark round cap, on a white ledge", "caption": "A black-and-yellow mud dauber on a mud nest of several cells built on a house in California.", "credit": "(c) Heather Dawnstar Sabin, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/231959498" },
+    { "type": "h3", "text": "Organ pipes: the organ-pipe mud dauber" },
+    { "type": "p", "text": "MDC describes the organ-pipe mud dauber as black with blue wings and white stockings on the hind legs, and Purdue as a more robust black wasp that builds its tubes on smooth surfaces such as walls and bridges. Mississippi State says the tubes can be 6 inches long or more and are oriented vertically; MDC says the finished nest looks like a pipe organ." },
+    { "type": "figure", "src": "/guides/photos/organ-pipe-mud-dauber-nest.webp", "width": 1200, "height": 1601, "alt": "Several ridged tan and cream mud tubes lying side by side on a gray surface, some of them pierced by small dark holes", "caption": "Organ-pipe mud dauber (Trypoxylon politum) tubes in Washington, DC. Mississippi State says the adult leaves by cutting a hole through the side of the nest.", "credit": "Katja Schulz from Washington, D. C., USA, CC BY 2.0, via Wikimedia Commons", "license": "CC-BY-2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipe_Organ_Mud_Dauber_Nest_-_Flickr_-_treegrow.jpg" },
+    { "type": "p", "text": "The males stay close. MDC says they often guard the nest while the female gathers mud or hunts spiders and may buzz loudly in its defense, but like all male wasps they have no stinger." },
+    { "type": "media", "needed": "An adult organ-pipe mud dauber (Trypoxylon politum) at its tube nest on a house wall, porch ceiling or garage in the US, identified by an extension service, museum or expert; public domain or CC0" },
+    { "type": "h3", "text": "A reused nest: the blue mud dauber" },
+    { "type": "p", "text": "Purdue says the blue mud dauber, a metallic blue to blackish wasp with blue wings, does not build its own mud nest but uses abandoned black-and-yellow mud dauber nests, and MDC says its nests are often irregular, with an uneven, lumpy surface. MDC says common blue mud daubers stock them with large numbers of black widow spiders; [black widows](/blog/black-widow-spiders) have their own guide." },
+    { "type": "p", "text": "A comb of gray paper, a covered paper ball or a hole in the ground belongs to another insect; [the guide to wasp nest identification](/blog/wasp-nest-identification) sorts them." },
+
+    { "type": "h2", "text": "What is inside a mud dauber nest?" },
+    { "type": "p", "text": "Paralyzed spiders and one young wasp in each cell. Clemson says the cells are about 1 inch long and stocked with prey the female has immobilized with her sting, and that her venom preserves it for the larva. Texas A&M says she keeps adding spiders until the cell is full, which can be up to 25 spiders, usually lays one egg on the first spider, and the larva eats them all." },
+    { "type": "p", "text": "Each kind has its favorites, MDC says: black-and-yellow mud daubers prefer crab spiders and other small, colorful species, organ-pipe mud daubers typically take orbweavers, and blue mud daubers black widows. In northeastern Georgia, UF/IFAS and University of Georgia scientists found mud daubers stocking their nests with the Joro spider, first found in the US in 2014, and set out to use the wasps to track its spread; see [Joro spiders](/blog/joro-spiders) and [orb weaver spiders](/blog/orb-weaver-spiders)." },
+    { "type": "media", "needed": "A black-and-yellow mud dauber nest broken open to show the paralyzed spiders packed in its cells, beside a ruler marked in inches, identified by an extension service or expert; public domain or CC0" },
+    { "type": "p", "text": "The young wait out the winter in the mud. MDC says Missouri's mud daubers pass the winter as immature wasps in their nests, and Purdue says the larvae finish feeding and spin a cocoon but do not pupate until the following spring. MDC counts two generations each summer for the black-and-yellow mud dauber, one or two a year for the organ-pipe and several for the blue." },
+    { "type": "p", "text": "That diet is why Clemson's first non-chemical step against mud daubers is to make an area less attractive to spiders, by caulking or plastering cracks where they hide and regularly removing webs; [keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers that, and [the spider identifier](/tools/spider-identifier) helps name the ones you find." },
+
+    { "type": "h2", "text": "Is a mud dauber nest active or old?" },
+    { "type": "p", "text": "Look for holes. Clemson says a new wasp chews a hole in the cell wall to get out, and Mississippi State says the adult cuts a hole through the side of the nest, so a cell with a hole in it has already been left. What the other signs mean:" },
+    { "type": "ul", "items": [
+      "**A wasp adding mud or carrying a spider in.** The nest is being built; MDC says a cell takes most mud daubers about an hour.",
+      "**Smooth, sealed cells with no holes.** A young wasp may still be inside, and MDC, Purdue and University of Missouri Extension say it can spend the winter there.",
+      "**Holes chewed through the cells.** The wasps that grew there have left, per Clemson and Mississippi State.",
+      "**A shiny blue wasp working on an old nest.** Purdue says the blue mud dauber moves into abandoned black-and-yellow nests, so an old nest can come back into use."
+    ] },
+
+    { "type": "h2", "text": "Do mud daubers sting?" },
+    { "type": "p", "text": "Rarely, and only when handled or trapped against the skin. University of Missouri Extension says mud daubers are not aggressive, do not defend their nests and usually sting only when pinned against the skin, and MDC says the females can sting people but only do so if mishandled. [UF/IFAS Extension's guide to stinging and venomous insects](https://ask.ifas.ufl.edu/publication/IG099) says mud daubers will not sting unless touched or accidentally caught in clothing, and Purdue says solitary wasps, unlike paper wasps, hornets and yellowjackets, do not defend their nest." },
+    { "type": "p", "text": "A sting still hurts. Mississippi State says the stings are painful, and Clemson cites a rating of 1 on a pain scale from 1 (mild) to 4 (severe) for the black-and-yellow mud dauber, the same rating as the red imported fire ant." },
+    { "type": "p", "text": "Treat it like any wasp sting. [Mayo Clinic's first-aid guide](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) says to move to a safe area, wash the spot gently with soap and water, hold a cold, damp cloth or one filled with ice on it for 10 to 20 minutes and raise the arm or leg if that is where the sting is. [CDC's NIOSH](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) adds not to scratch, which may increase swelling, itching and the risk of infection. Mayo says to see a healthcare professional if the swelling gets worse, the site shows signs of infection or you do not feel well." },
+    { "type": "callout", "tone": "warning", "title": "When a sting is an emergency", "text": "Mayo Clinic says to call 911 if anyone stung shows signs of anaphylaxis, even just one or two: trouble breathing; swelling of the lips, face, eyelids or throat; dizziness, fainting or unconsciousness; a weak and rapid pulse; hives; or nausea, vomiting or diarrhea. [The American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) adds a feeling that the throat is closing, chest pain and a racing heartbeat lasting more than a few minutes." },
+    { "type": "p", "text": "To compare stings, see [bee stings vs wasp stings](/blog/bee-sting-vs-wasp-sting) and [the bug bite and sting chart](/learn/bug-bites); [the bug bite identifier](/tools/bug-bite-identifier) asks six questions when you are not sure what got you." },
+
+    { "type": "h2", "text": "Is it a mud dauber or another wasp?" },
+    { "type": "p", "text": "Check the nest first, then the waist. Paper wasps build an open comb of paper cells hanging from one stalk, and [MDC's paper wasp guide](https://mdc.mo.gov/discover-nature/field-guide/paper-wasps) says their workers defend it, though they are usually not aggressive away from it; [the paper wasp guide](/blog/paper-wasps) shows those nests on houses. [MDC's yellowjacket guide](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps) describes workers about 1/2 inch long that mostly nest underground and defend the nest aggressively as a group." },
+    { "type": "p", "text": "The eastern cicada killer is far bigger: [MDC's cicada killer guide](https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer) says it can exceed 1 1/2 inches, that females dig tunnels in lawns and pastures with a conspicuous mound of soil at the entrance, and that they reserve their sting for cicadas unless molested. MDC also lists spider wasps, which have spinier legs and extra-long hind legs that dangle in flight, and mason and potter wasps, which lack the long, narrow waist and, when they build with mud, typically make nests like little round pots or jugs stuck to a wall." },
+    { "type": "confused", "items": [
+      { "href": "/blog/paper-wasps", "name": "Paper wasp", "photo": "paper-wasp-nest", "note": "Builds an open comb of paper cells, not mud, and its workers defend it", "alt": "Reddish brown and yellow paper wasps on a pale gray comb of open paper cells" },
+      { "href": "/blog/yellow-jackets", "name": "Yellowjacket", "photo": "eastern-yellowjacket-live", "note": "About 1/2 inch, black and yellow; nests mostly underground and defends it as a group", "alt": "Black and yellow eastern yellowjacket with yellow legs standing on white cloth" },
+      { "href": "/blog/cicada-killers", "name": "Cicada killer", "photo": "cicada-killer", "note": "Can exceed 1 1/2 inches; digs tunnels in lawns with a mound of soil at the entrance", "alt": "Large black and yellow cicada killer wasp with orange legs and rusty wings holding a gray cicada in the grass" }
+    ] },
+
+    { "type": "h2", "text": "Should you remove mud dauber nests?" },
+    { "type": "p", "text": "Only where they bother you. MDC suggests allowing mud daubers to nest wherever you can tolerate them, and Purdue says that when they nest away from where people live or work they can be considered beneficial and no controls are needed. To remove a nest, the extension steps are:" },
+    { "type": "ol", "items": [
+      "**Scrape it off.** Purdue says to scrape the nest away with a putty knife and dispose of it, which prevents mud daubers emerging from it the following year.",
+      "**Wash off the rest.** University of Missouri Extension says to knock down unwanted nests, wash the leftover soil off with water and a brush, and that no insecticide is needed.",
+      "**Spray only in special cases.** Clemson says chemical control may be necessary when someone has a known wasp or bee sting allergy or large numbers of mud daubers are in high-traffic areas. Then use a product according to its label, spray its stream from a distance (Clemson notes up to 20 feet), treat in late evening or early morning and wear long sleeves and pants. Purdue says a nuisance nest can be treated with a wasp and hornet aerosol before it is scraped away.",
+      "**Close the gaps.** Clemson says manual removal of nests may discourage mud daubers and reduce later generations, and that screening or caulking openings keeps them from nesting inside buildings."
+    ] },
+    { "type": "p", "text": "Timing matters more than spray. Because the young spend the winter sealed in their cells, Purdue's advice to scrape and dispose of a nest is what stops next year's wasps from coming out of it. [How to get rid of wasps](/blog/how-to-get-rid-of-wasps) covers the social wasps that do defend their nests." },
+    { "type": "callout", "tone": "tip", "title": "Not sure it is a mud dauber?", "text": "Photograph the wasp and its nest from a few feet away, or drop a dead one from a windowsill into a clear jar beside a ruler marked in inches, and note what the nest is made of. Your state's cooperative extension office can help identify it, and the site's [guides to bugs found around the house](/learn) cover the rest." }
+  ],
+  "faqs": [
+    {
+      "question": "Do mud daubers sting or bite?",
+      "answer": "They can sting, but they rarely do. University of Missouri Extension says mud daubers are not aggressive, do not defend their nests and usually sting only when pinned against the skin, and the Missouri Department of Conservation says females sting people only if mishandled. UF/IFAS says they will not sting unless touched or caught in clothing. The male organ-pipe mud daubers that buzz around a nest have no stinger at all, MDC says."
+    },
+    {
+      "question": "Should you remove mud dauber nests?",
+      "answer": "Only where they are a nuisance. The Missouri Department of Conservation suggests letting mud daubers nest wherever you can tolerate them, and Purdue Extension says no controls are needed when they nest away from where people live or work. Where a nest has to go, Purdue says to scrape it off with a putty knife and dispose of it, which prevents wasps emerging from it the next year, and University of Missouri Extension says to wash off the leftover soil, with no insecticide needed."
+    },
+    {
+      "question": "Are mud daubers good to have around?",
+      "answer": "Mostly, yes. The Missouri Department of Conservation says mud daubers prey on spiders, controlling their numbers, and Purdue Extension says they can be considered beneficial when they nest away from where people live or work. Clemson Extension adds a caution: spiders also reduce insect populations, so the benefit of removing them is questionable. The main downside is their nests, which University of Missouri Extension calls unsightly and often built near homes."
+    },
+    {
+      "question": "What attracts mud dauber wasps?",
+      "answer": "Sheltered surfaces and spiders. The Missouri Department of Conservation says people often notice mud dauber nests in barns, garages, under the eaves of houses and under bridges, and Purdue adds the sides of buildings and the rafters of open structures. Because the females hunt spiders for their young, Clemson Extension says making an area less attractive to spiders, by caulking cracks and regularly removing webs, is one way to reduce mud dauber activity."
+    },
+    {
+      "question": "Do mud daubers chase you?",
+      "answer": "No. Mud daubers are solitary wasps that do not defend their nests, according to University of Missouri Extension and Purdue Extension, unlike paper wasps, hornets and yellowjackets. Clemson says they rarely sting unless threatened or accidentally touched. The loud buzzing near an organ-pipe mud dauber nest can come from a guarding male, and the Missouri Department of Conservation says male wasps have no stinger. Still, avoid grabbing or trapping one against your skin."
+    },
+    {
+      "question": "Is a dirt dauber the same as a mud dauber?",
+      "answer": "Yes. Dirt dauber is another common name for the black-and-yellow mud dauber, Sceliphron caementarium, which UF/IFAS calls both names. Mud dauber also covers other wasps: the Missouri Department of Conservation uses it for several wasps with narrow or threadlike waists that build nests of mud, including the organ-pipe mud dauber, and for the blue mud dauber, which Purdue says reuses old black-and-yellow mud dauber nests rather than building its own."
+    },
+    {
+      "question": "What happens if a mud dauber stings you?",
+      "answer": "Expect a painful but usually short-lived sting. Mississippi State Extension calls mud dauber stings painful, and Clemson cites a rating of 1, the mildest, on a pain scale of 1 to 4 for the black-and-yellow mud dauber. Mayo Clinic says most insect stings are mild and might cause itching, swelling and stinging that go away in a day or two, and to call 911 for trouble breathing or a swelling face, lips or throat, which can signal a severe allergic reaction."
+    },
+    {
+      "question": "What is inside a mud dauber nest?",
+      "answer": "Paralyzed spiders and one young wasp per cell. Clemson Extension says the female immobilizes her prey with her sting and that the venom preserves it for the larva, and Texas A&M says she keeps adding spiders until a cell is full, which can be up to 25 spiders, with one egg usually on the first spider. The larva eats them all, and the Missouri Department of Conservation says the young spend the winter inside the nest."
+    },
+    {
+      "question": "Do mud daubers kill black widows?",
+      "answer": "Some do, the blue mud dauber above all. The Missouri Department of Conservation says common blue mud daubers use large numbers of black widow spiders to stock their nests, while black-and-yellow mud daubers prefer crab spiders and other small, colorful species and organ-pipe mud daubers typically take orbweavers. The female paralyzes each spider with her sting, Clemson says, and the larva eats the spiders in its cell, according to Texas A&M."
+    },
+    {
+      "question": "Where do mud daubers go in the winter?",
+      "answer": "The young stay sealed in the nest. The Missouri Department of Conservation says mud daubers pass the winter as immature wasps in their nests, University of Missouri Extension says they overwinter as larvae inside the mud tubes, and Purdue Extension says the larvae spin a cocoon and do not pupate until the following spring. That is why Purdue says scraping off and disposing of a nest prevents mud daubers from emerging from it the following year."
+    }
+  ],
+  "sources": [
+    { "title": "Mud Daubers (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/mud-daubers" },
+    { "title": "Mud Daubers (E-253-W; Timothy J. Gibb, April 2018)", "publisher": "Purdue University Extension, Department of Entomology", "url": "https://www.extension.entm.purdue.edu/publications/E-253/E-253.pdf" },
+    { "title": "Mud Daubers: Identification, Habits, and Control (HGIC 2512; Powell Smith, revised by Eric P. Benson and Jhessye Moore-Thomas, August 2025)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/mud-daubers/" },
+    { "title": "Bees and Wasps (G7391; Tamra Reall)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7391" },
+    { "title": "Organ Pipe Mud Dauber (Bug's Eye View, Vol. 6, No. 20; Blake Layton, 2020)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2020/organ-pipe-mud-dauber-vol-6-no-20" },
+    { "title": "Mud Daubers", "publisher": "Texas Apiary Inspection Service, Texas A&M AgriLife Research", "url": "https://txbeeinspection.tamu.edu/mud-daubers/" },
+    { "title": "UF/IFAS uses wasps to monitor exotic Joro spider (September 23, 2016)", "publisher": "University of Florida, UF/IFAS News", "url": "https://blogs.ifas.ufl.edu/news/2016/09/23/ufifas-uses-wasps-to-monitor-exotic-joro-spider/" },
+    { "title": "Stinging or Venomous Insects and Related Pests (ENY-215/IG099; P. G. Koehler and J. W. Diclaro)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG099" },
+    { "title": "Eastern Cicada-Killer (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer" },
+    { "title": "Paper Wasps (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/paper-wasps" },
+    { "title": "Yellowjackets (Vespula Wasps) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps" },
+    { "title": "Insect Bites and Stings: First Aid (April 10, 2024)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593" },
+    { "title": "Insects and Scorpions at Work (reviewed September 2026)", "publisher": "CDC National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" },
+    { "title": "Bug Bites and Stings: When to See a Dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "booklice",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "c45727804dd811bec97ff156d07fba24e4406aef24bee445b329e610a61b1817",
+ "claimsChecked": 190,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-10-23"
+}

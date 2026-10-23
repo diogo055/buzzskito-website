@@ -24,7 +24,7 @@
     "bullets": [
       "CDC lists 11 kissing bug species in the United States, from about 0.5 inch to 1.3 inches long; the eastern kissing bug is 0.6 to 0.9 inch.",
       "Wheel bugs grow to 1 1/2 inches and carry a spiny, cog-like crest on the back, and CDC says they do not carry the parasite that causes Chagas disease.",
-      "The masked hunter is about 1/2 to 3/4 inch and entirely black, and Utah State University says it is the look-alike most often sent to its lab as a possible kissing bug.",
+      "The masked hunter is about 2/3 to 7/8 inch (17 to 22 mm) long, [Penn State says](https://extension.psu.edu/masked-hunter), and Utah State University calls it entirely black and the look-alike most often sent to its lab as a possible kissing bug.",
       "Western conifer seed bugs are about 3/4 inch, with a leaf-like flare on the hind legs, and Penn State Extension says they look for winter shelter in houses.",
       "Boxelder bugs are up to 1/2 inch long, with red eyes and orange stripes, according to Penn State Extension.",
       "Do not touch a suspected kissing bug with bare hands: Texas A&M's Kissing Bug program says to pick it up with a glove or a small plastic bag."
@@ -36,7 +36,7 @@
     "rows": [
       ["Kissing bug (11 US species)", "About 1/2 to 1 1/4 inches, by species", "Cone-shaped head, straight beak, thin legs without spines; most have red, orange or yellow stripes around the body's edge", "Can carry it"],
       ["Wheel bug", "Up to 1 1/2 inches", "Spiny, cog-like crest on the back; gray to brown; curved beak", "Does not carry it, CDC says"],
-      ["Masked hunter", "About 1/2 to 3/4 inch", "Entirely black with no striped edge; shorter, less pointed head; young ones coated in dust", "Does not spread human parasites, Utah State says"],
+      ["Masked hunter", "About 2/3 to 7/8 inch", "Entirely black with no striped edge; shorter, less pointed head; young ones coated in dust", "Does not spread human parasites, Utah State says"],
       ["Milkweed assassin bug", "About 5/8 to 3/4 inch", "Orange and black, with very long legs", "Not known to carry it"],
       ["Western conifer seed bug", "About 3/4 inch", "Leaf-like flare on the hind legs; loud buzz in flight", "Not known to carry it"],
       ["Leaf-footed bugs", "About 3/4 to 1 inch", "Swollen or leaf-shaped hind legs; western species have a white zigzag across the wings", "Does not carry it, CDC says"],
@@ -180,6 +180,7 @@
     { "title": "Found a Bug? (Kissing Bugs and Chagas Disease)", "publisher": "Texas A&M University", "url": "https://kissingbug.tamu.edu/found-a-bug/" },
     { "title": "Triatomine Submission and Testing", "publisher": "Texas Department of State Health Services", "url": "https://www.dshs.texas.gov/idcu/health/zoonosis/Triatominae" },
     { "title": "Kissing Bugs", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/kissing-bugs" },
+    { "title": "Masked Hunter", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/masked-hunter" },
     { "title": "Western Conifer Seed Bug", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/western-conifer-seed-bug" },
     { "title": "Western Conenose Bug (Kissing Bug)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/research/kissing-bugs" },
     { "title": "Conenose Bugs ('Kissing Bugs') and Insects of Similar Appearance in Colorado", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/conenose-bugs-kissing-bugs-and-insects-of-similar-appearance-in-colorado" },

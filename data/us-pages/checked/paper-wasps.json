@@ -1,0 +1,10 @@
+{
+ "id": "paper-wasps",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "6ee3093165e65b90f05479fa6be590456ed4480548e3eddc47d02bc3077b9516",
+ "claimsChecked": 185,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-23"
+}

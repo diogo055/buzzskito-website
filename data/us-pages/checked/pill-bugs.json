@@ -1,0 +1,10 @@
+{
+ "id": "pill-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a7851a301136ca1e8e332658bc94431f5d456d568923359fd4db88f5be600e3e",
+ "claimsChecked": 230,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-23"
+}

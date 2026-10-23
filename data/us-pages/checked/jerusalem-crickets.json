@@ -1,0 +1,10 @@
+{
+ "id": "jerusalem-crickets",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d5e841c06d44a9ace1156a0d207defbc913e783c04523fcdd18b3676d3055813",
+ "claimsChecked": 240,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-23"
+}

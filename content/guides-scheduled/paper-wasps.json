@@ -1,0 +1,202 @@
+{
+  "slug": "paper-wasps",
+  "kind": "spoke",
+  "cluster": "wasps",
+  "keyword": "paper wasp",
+  "alsoTargets": [
+    "paper wasps",
+    "paper wasp nest",
+    "paper wasp sting",
+    "are paper wasps aggressive",
+    "paper wasp vs yellow jacket",
+    "european paper wasp",
+    "red paper wasp"
+  ],
+  "metaTitle": "Paper Wasps: ID, Nests and Stings (Photos)",
+  "metaDescription": "Paper wasps are slender wasps with dangling legs that build open, umbrella-shaped paper nests. Photos, a nest calendar, sting care and nest removal.",
+  "h1": "Paper Wasps: How to Identify Them, Their Umbrella Nests and the Sting",
+  "dek": "Real photos of paper wasp nests on houses, a quick-ID table against yellowjackets, hornets and mud daubers, the nest through the year, what a sting does and when to get help, and how extension entomologists say to remove a nest.",
+  "breadcrumb": "Paper Wasps",
+  "excerpt": "How to recognize a paper wasp and its open umbrella nest, tell it from a yellowjacket, care for a sting, and decide whether to leave the nest or remove it.",
+  "datePublished": "2026-10-24",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A paper wasp is a slender wasp with a thin waist and long legs that dangle in flight, and its nest gives it away: one open comb of paper cells hanging from a single stalk, with no outer cover.** Paper wasps sting to defend that nest, but [UC IPM](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) calls them much less defensive than yellowjackets.",
+    "bullets": [
+      "Most are 1/2 to 1 inch long, black or brown with rusty or yellowish markings, says the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/paper-wasps).",
+      "The black-and-yellow European paper wasp is often mistaken for a yellowjacket; [Penn State Extension](https://extension.psu.edu/european-paper-wasp) points to its orange-tipped antennae and dangling legs.",
+      "A nest left alone grows to an average of 6 to 8 inches across and can hold several dozen wasps, according to [Texas A&M's Apiary Inspection Service](https://txbeeinspection.tamu.edu/public/bee-identification/paper-wasp/).",
+      "Each nest is started from scratch in spring and very rarely reused; freezing weather in late fall kills all but the fertilized queens, MDC says.",
+      "Call 911 if anyone stung shows even one or two signs of anaphylaxis, such as trouble breathing, hives or a swelling face, lips or throat, as [Mayo Clinic's first-aid guide](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) advises."
+    ]
+  },
+  "facts": {
+    "title": "Paper wasp or another stinging insect? Quick ID",
+    "head": ["Insect", "Size and look", "Nest", "Defends its nest?"],
+    "rows": [
+      ["Paper wasp", "1/2 to 1 inch; slender with a thin waist; black or brown with rusty or yellowish marks; legs dangle in flight", "One open comb of downward-facing paper cells on a single stalk, no cover; under eaves and in other sheltered spots", "Yes, but relatively nonaggressive; foragers away from the nest usually are not aggressive"],
+      ["European paper wasp", "Black and yellow; larger and slimmer-waisted than a yellowjacket; orange-tipped antennae", "Open umbrella comb, often in enclosed spots: inside eaves, attics and wall voids", "Yes; a hidden nest is easy to disturb without knowing it is there"],
+      ["Yellowjacket", "About 1/2 inch; black with jagged yellow bands and a very short waist; legs held close in flight", "Layers of comb inside a paper envelope, mostly underground; also in walls, attics and sheds", "Yes, aggressively and as a group"],
+      ["Bald-faced hornet", "1/2 to 3/4 inch; mostly black with white or ivory markings", "Large, rounded gray paper nest with an outer envelope, usually in trees or shrubs, often high up", "Yes; stings intruders, but foragers are not aggressive away from the nest"],
+      ["European hornet", "Up to 1 inch (queens to 1 3/8 inches); reddish brown and yellow, somewhat hairy", "Inside hollow trees or dark spaces such as barns, sheds, attics and wall cavities", "Yes, near the nest; much less likely to sting away from it unless mishandled"],
+      ["Mud dauber", "1/2 to 1 1/4 inches; very slender, with a threadlike waist", "Mud cells or tubes in sheltered spots", "No; rarely stings, usually only when pinned against the skin"]
+    ],
+    "caption": "From the Missouri Department of Conservation, Penn State Extension, UC IPM and University of Missouri Extension pages linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a paper wasp look like?" },
+    { "type": "p", "text": "A paper wasp is a slender wasp, 1/2 to 1 inch long, with a narrow waist and long legs that hang down when it flies. The [Missouri Department of Conservation's paper wasp guide](https://mdc.mo.gov/discover-nature/field-guide/paper-wasps) says paper wasps look something like skinny yellowjackets and are black or brown, often with rusty or yellowish markings. About 24 species of *Polistes*, the paper wasp genus, live in North America north of Mexico, MDC says." },
+    { "type": "figure", "src": "/guides/photos/paper-wasp-nest.webp", "width": 1200, "height": 790, "alt": "Reddish brown and yellow paper wasps crawling over a pale gray comb of open, six-sided paper cells, some capped white, attached to a gray surface", "caption": "Paper wasps (Polistes apachus) on their open-comb nest in Texas: the cells are in plain view, with no paper cover around them.", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paper_wasp_nest_(Vespidae,_Polistes_apachus)_(30960058872).jpg" },
+    { "type": "p", "text": "Color varies by species, so check these three features first:" },
+    { "type": "ul", "items": [
+      "**The waist.** [The University of Kentucky's ENTFACT on wasps, hornets and yellowjackets](https://entomology.mgcafe.uky.edu/ef620) says a paper wasp's very thin waist distinguishes it from hornets and yellowjackets.",
+      "**The legs in flight.** Penn State says paper wasps dangle their legs as they fly, while yellowjackets hold theirs close to the body.",
+      "**The nest.** One layer of open, downward-facing cells on a single stalk, with no outer covering, MDC says. Yellowjackets and hornets wrap their combs in a paper envelope."
+    ] },
+
+    { "type": "h2", "text": "Which kind of paper wasp do you have?" },
+    { "type": "p", "text": "A black-and-yellow paper wasp around a house is often the European paper wasp, while many native species run darker: [Penn State Extension's European paper wasp page](https://extension.psu.edu/european-paper-wasp) says many native paper wasps can be identified by their blacks, browns and dark reds." },
+    { "type": "h3", "text": "European paper wasp" },
+    { "type": "p", "text": "Penn State says *Polistes dominula* was first reported in North America in 1978 around Boston and is now widespread, though apparently less common in the Southeast and Great Plains. Black with prominent yellow markings, it is frequently mistaken for a yellowjacket, but it is larger, with a slimmer waist and abdomen and orange-tipped antennae." },
+    { "type": "figure", "src": "/guides/photos/european-paper-wasp.webp", "width": 1200, "height": 800, "alt": "Black and yellow wasp with orange legs and amber wings on a bright yellow dandelion flower among green leaves", "caption": "A European paper wasp (Polistes dominula) on a dandelion. Penn State says its orange-tipped antennae and dangling legs set it apart from a yellowjacket.", "credit": "Romzig, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feldwespe_(M%C3%A4rz_2023)_2.jpg" },
+    { "type": "p", "text": "It often nests out of sight. Penn State lists nests under and within eaves, in attics and wall voids and in other enclosed spaces, and warns that the risk of stings may be higher because homeowners may not know a nest is there." },
+    { "type": "figure", "src": "/guides/photos/paper-wasp-nest-eave-corner.webp", "width": 1200, "height": 800, "alt": "Five black and yellow paper wasps on a round, dark gray comb of open hexagonal cells, a few capped white, in the corner where a white wall meets the underside of a roof overhang", "caption": "European paper wasps (Polistes dominula) on their comb in a corner under the overhang of a house in California.", "credit": "(c) bungelina, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/227695136" },
+    { "type": "h3", "text": "Northern paper wasp (dark paper wasp)" },
+    { "type": "p", "text": "The native northern paper wasp, *Polistes fuscatus*, is the paper wasp the European species competes with most, Penn State says." },
+    { "type": "figure", "src": "/guides/photos/dark-paper-wasp.webp", "width": 1200, "height": 900, "alt": "Dark brown paper wasp with reddish legs, two rusty spots and thin pale bands on its abdomen, and smoky brown wings, on yellow goldenrod flowers", "caption": "A northern paper wasp (Polistes fuscatus, also called the dark paper wasp) on goldenrod: dark brown, with reddish legs and thin pale bands.", "credit": "Zygy, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polistes_fuscatus_157265190.jpg" },
+    { "type": "h3", "text": "Red paper wasps, or red wasps" },
+    { "type": "p", "text": "[UF/IFAS Featured Creatures](https://ask.ifas.ufl.edu/publication/IN1112) gives paper wasp and red wasp as the names of *Polistes carolina*, whose females are nearly completely rust-colored. It lives mostly from New York, Ohio and Pennsylvania south to Florida and west to Kansas and eastern Texas, and hangs its nests under overhangs such as house eaves or in tree hollows. UF calls it not particularly aggressive, stinging mainly when threatened." },
+    { "type": "media", "needed": "A red paper wasp (Polistes carolina or P. rubiginosus) on its nest under a house eave or porch ceiling in the eastern US, identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What does a paper wasp nest look like?" },
+    { "type": "p", "text": "A paper wasp nest is one open comb of six-sided paper cells that face downward and hang from a single stalk, with no outer covering. [UC IPM's Pest Notes on yellowjackets and other social wasps](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) says it hangs like an open umbrella, and MDC says the paper is wood fiber scraped from weathered boards or branches, mixed with the females' saliva." },
+    { "type": "figure", "src": "/guides/photos/paper-wasp-nest-house-siding.webp", "width": 1200, "height": 1174, "alt": "About a dozen brown and yellow paper wasps with long dangling legs on a gray paper comb of open and white-capped cells, attached to white lap siding", "caption": "Guinea paper wasps (Polistes exclamans) on their comb on white lap siding of a house in Texas.", "credit": "(c) Linda Jo Conn, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/401667576" },
+    { "type": "p", "text": "Most stay small. Texas A&M's Apiary Inspection Service says a nest left alone grows to an average of 6 to 8 inches across and can hold several dozen wasps, and UC IPM says paper wasp nests rarely grow bigger than an outstretched hand, with colonies of 15 to 200 wasps." },
+    { "type": "p", "text": "Look under anything that keeps the rain off. MDC names eaves, open buildings and other sheltered sites; Kentucky adds gutters, ledges, sheds, the backs of shutters, porch lights, grills and mailboxes; [Utah State University Extension](https://extension.usu.edu/planthealth/ipm/notes_nuisance/paper-wasps) adds play equipment, benches and hollow pipes." },
+    { "type": "p", "text": "A covered nest, a nest in the ground or a nest of mud belongs to something else; [the guide to wasp nest identification](/blog/wasp-nest-identification) sorts every type." },
+    { "type": "p", "text": "Round holes in wood are not a paper wasp's work. [University of Missouri Extension's carpenter bee guide](https://extension.missouri.edu/publications/g7424) describes nearly perfectly round entry holes about 1/2 inch across, made by large bees often seen hovering near decks, eaves and gables; see [carpenter bees and the holes they bore](/blog/how-to-get-rid-of-carpenter-bees-canada)." },
+    { "type": "media", "needed": "A small paper wasp nest started by a single queen in spring, under a porch ceiling, deck railing or play set in the US, beside a ruler marked in inches; identified by an extension service or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What happens to a paper wasp nest through the year?" },
+    { "type": "p", "text": "A paper wasp colony normally lasts one season, UC IPM says, though UF notes that colonies may last several seasons in subtropical areas. MDC, Penn State, UC IPM and Texas A&M describe the year like this:" },
+    { "type": "table", "head": ["Season", "What the colony is doing", "What it means for you"], "rows": [
+      ["Spring, often April", "One or a few overwintered females start a nest from scratch; at first the queen builds and forages alone", "A small nest with no workers yet is the easiest to remove"],
+      ["Late spring and summer", "The first offspring, worker females, take over foraging and building while the queen lays eggs", "The nest now has defenders; larvae can become adults in as little as 40 days"],
+      ["Mid to late summer", "Males and new queens are produced; colony growth slows or stops by late summer", "A nest left alone can be 6 to 8 inches across with several dozen wasps"],
+      ["Late fall", "Freezing weather kills every wasp except the fertilized queens", "The empty nest is very rarely reused"],
+      ["Winter", "Each queen shelters under tree bark or inside building walls; a warm spell can wake her", "That explains a lone wasp flying on a warm February day"]
+    ] },
+    { "type": "p", "text": "So in cold-winter states a nest found in October is ending on its own: Kentucky says colonies die off once the weather turns cold." },
+
+    { "type": "h2", "text": "Are paper wasps aggressive?" },
+    { "type": "p", "text": "Not usually, away from the nest; they sting to defend it. MDC calls paper wasps relatively nonaggressive and says wasps foraging away from the nest are usually not aggressive, but workers defend the nest, so they can sting if they sense it is under attack. UC IPM says they rarely sting people and shy away from human activity, except where nests sit near doors, windows or other high-traffic areas." },
+    { "type": "p", "text": "If a wasp comes at you, [CDC's NIOSH page on insects at work](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says to stay calm and still when a single stinging insect is flying around, because swatting may cause it to sting. If several attack at once, it says to run, get indoors if you can (shade is better than open ground), and not to jump into water." },
+
+    { "type": "h2", "text": "How can you tell a paper wasp from a yellowjacket?" },
+    { "type": "p", "text": "Check the waist, the legs and the nest. UC IPM describes yellowjackets as black with jagged yellow bands and a very short, narrow waist, and Penn State says they hold their legs close in flight. [MDC's yellowjacket guide](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps) puts workers at about 1/2 inch and says most nest underground, where often all that shows is a hole with wasps flying in and out; the combs sit inside a paper envelope, and the colony aggressively defends the nest as a group. [Yellowjackets](/blog/yellow-jackets) have their own guide." },
+    { "type": "p", "text": "Hornets are bigger or differently marked. [MDC's bald-faced hornet page](https://mdc.mo.gov/discover-nature/field-guide/bald-faced-hornet) describes a mostly black wasp with white or ivory markings, and [its European hornet page](https://mdc.mo.gov/discover-nature/field-guide/european-hornet) a reddish brown and yellow one up to 1 inch long that nests in hollow trees and wall spaces and is sometimes drawn to lights at night. [Wasp vs hornet](/blog/wasp-vs-hornet) covers those two in detail." },
+    { "type": "p", "text": "The other wasp people most often find on a house is the mud dauber. [University of Missouri Extension's bee and wasp guide](https://extension.missouri.edu/publications/g7391) describes solitary wasps with threadlike waists that build mud nests, do not defend them and rarely sting; see [mud daubers and their mud nests](/blog/mud-daubers)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/yellow-jackets", "name": "Yellowjacket", "photo": "eastern-yellowjacket-live", "note": "About 1/2 inch with a very short waist; most nest underground in a covered paper nest", "alt": "Black and yellow eastern yellowjacket with yellow legs and black antennae standing on white cloth" },
+      { "href": "/blog/bald-faced-hornets", "name": "Bald-faced hornet", "photo": "bald-faced-hornet", "note": "Mostly black with ivory-white marks; builds a large gray paper nest with an outer envelope", "alt": "Black bald-faced hornet with ivory-white markings on its face and the tip of its abdomen, and smoky brown wings, on a pale textured surface" },
+      { "href": "/blog/european-hornets", "name": "European hornet", "photo": "european-hornet", "note": "Up to 1 inch, reddish brown and yellow; nests in hollow trees and wall spaces", "alt": "Large European hornet with a reddish brown head and thorax and a yellow abdomen with black bands, on a lichen-covered branch" },
+      { "href": "/blog/mud-daubers", "name": "Mud dauber", "photo": "black-and-yellow-mud-dauber", "note": "Threadlike waist; builds nests of mud, not paper, and rarely stings", "alt": "Side view of a black-and-yellow mud dauber specimen with a long, thin black waist and yellow legs" }
+    ] },
+
+    { "type": "h2", "text": "What happens if a paper wasp stings you?" },
+    { "type": "p", "text": "Expect pain, then swelling around the spot; most healthy adults recover without medical care. [UF/IFAS Extension's guide to stinging and venomous insects](https://ask.ifas.ufl.edu/publication/IG099) says wasp venom causes a painful swelling that may last several days, and that in some cases a sting may cause severe illness or even death. Penn State says stings in otherwise healthy adults should resolve without medical intervention." },
+    { "type": "p", "text": "One wasp can sting more than once: University of Missouri Extension says wasps sting repeatedly because their stingers are smooth, while a honey bee's barbed stinger stays in the skin. [The guide to telling a bee sting from a wasp sting](/blog/bee-sting-vs-wasp-sting) has the details, and [the bug bite and sting chart](/learn/bug-bites) covers other insects." },
+    { "type": "p", "text": "For a mild reaction, Mayo Clinic's first-aid guide and NIOSH give these steps:" },
+    { "type": "ol", "items": [
+      "**Move away** from the nest to avoid more stings, Mayo says, and have someone stay with the person to watch for an allergic reaction, as NIOSH advises.",
+      "**Wash** the area gently with soap and water.",
+      "**Cool it** with a cloth dampened with cold water or filled with ice for 10 to 20 minutes, Mayo says, to reduce pain and swelling, and raise the arm or leg if that is where the sting is.",
+      "**Do not scratch.** NIOSH says scratching may increase swelling, itching and the risk of infection.",
+      "**Ease the itch** with calamine lotion, a baking soda paste or hydrocortisone cream, or a nonprescription antihistamine by mouth, and take a nonprescription pain reliever if needed, following Mayo's list."
+    ] },
+    { "type": "p", "text": "Mayo says to see a healthcare professional if the swelling gets worse, the sting shows signs of infection or you do not feel well. [UC IPM's Pest Notes on bee and wasp stings](https://ipm.ucanr.edu/home-and-landscape/bee-and-wasp-stings/) says to get medical attention immediately for a sting on the neck or in the mouth, where swelling can cause suffocation, and Penn State says people allergic to wasp stings or stung many times should seek medical attention." },
+    { "type": "callout", "tone": "warning", "title": "When a sting is an emergency", "text": "Mayo Clinic says to call 911 if anyone stung shows signs of anaphylaxis, even just one or two: trouble breathing; swelling of the lips, face, eyelids or throat; dizziness, fainting or unconsciousness; a weak and rapid pulse; hives; or nausea, vomiting or diarrhea. If the person carries an epinephrine autoinjector, ask whether to help them use it. [The American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) says to go to the emergency room immediately for these signs too: a feeling that the throat is closing, chest pain or a racing heartbeat that lasts more than a few minutes." },
+    { "type": "p", "text": "Not sure what stung or bit you? [The bug bite identifier](/tools/bug-bite-identifier) asks six questions and names the likeliest culprits." },
+
+    { "type": "h2", "text": "Should you leave a paper wasp nest alone?" },
+    { "type": "p", "text": "Often, yes: a nest away from doors, paths and play areas can be left to die out when the weather turns cold. UC IPM says paper wasp nests should not need treatment unless they are near people, and University of Missouri Extension says to eliminate them only when they are near human activity and pose a risk of stings." },
+    { "type": "p", "text": "They earn their keep. MDC says paper wasps specialize in feeding caterpillars to their young, many of them pests of crops, landscaping and garden plants, and calls them truly beneficial to humans; UF names corn earworms and armyworms among their prey. One caveat: Penn State reports that multiple studies have found the European paper wasp reduces monarch caterpillar populations." },
+    { "type": "p", "text": "A nest over a doorway, or anywhere people pass all the time, is a different matter: UC IPM says that is where paper wasps can be a problem." },
+
+    { "type": "h2", "text": "How do you get rid of a paper wasp nest?" },
+    { "type": "p", "text": "Knock down a nest while the queen is alone in spring; treat an established nest at night with a product labeled for wasp and hornet nests, then scrape it off days later. The extension steps:" },
+    { "type": "ol", "items": [
+      "**In spring, knock down a starter nest.** Penn State says nests made early by founding queens are easier to eliminate before workers appear. UF says spraying may be unnecessary while a nest has just one queen: remove the nest or knock it down with a broom, and the queen will likely start a nest elsewhere.",
+      "**Treat when the wasps are home.** Penn State says to treat at night, when all the workers and the queen are on the nest, and UF says the evening, when the wasps are inactive. Utah State's method uses no spray: early in the morning, in a bee veil, suit and gloves, crush the nest and remove it.",
+      "**Cover up.** UC IPM recommends full-body protective clothing, including a veil over the face, gloves and eye protection.",
+      "**Use a wasp and hornet spray labeled for nests.** Penn State says these sprays shoot a stream up to 20 feet, and Kentucky says most make the insects drop instantly, so never stand under the nest. UC IPM warns that these products must be used with extreme caution: wasps attack if they sense a poison being applied to their nest, and even after dark stinging incidents are likely. Read and follow the label's directions and safety precautions, Penn State says, and UF says not to use these aerosols near open flames.",
+      "**Wait, then scrape.** Kentucky says to wait a few days to be sure the colony is dead, then scrape or knock down the nest; University of Missouri Extension says removing it discourages other paper wasps from nesting there."
+    ] },
+    { "type": "p", "text": "Skip the folk remedies. Kentucky says dousing a nest with gasoline or a garden hose seldom works and can result in multiple stings, and none of the extension guides cited here recommends burning a nest." },
+    { "type": "p", "text": "Get help when the job is risky: UC IPM says hiring a pest control professional will reduce risks to you and your family, and its sting guide says people who know they are allergic to stings should carry an epinephrine injection device whenever they may encounter stinging insects. Penn State says nests hidden inside eaves or soffits can be treated by applying an insecticidal dust labeled for that use to the openings. [How to get rid of wasps](/blog/how-to-get-rid-of-wasps) covers other species." },
+    { "type": "p", "text": "Then make the house less inviting. Penn State suggests repairing holes in walls, caulking cracks in soffits and eaves, and screening vents and louvers, and Utah State says to watch for new nests from early summer through fall." },
+    { "type": "callout", "tone": "tip", "title": "Not sure it is a paper wasp?", "text": "Photograph the wasp and its nest from a distance, or drop a dead one from a windowsill into a clear jar beside a ruler marked in inches, and note where the nest is. Your state's cooperative extension office can help identify it, and the site's [guides to bugs found around the house](/learn) cover the rest." }
+  ],
+  "faqs": [
+    {
+      "question": "Will paper wasps sting you?",
+      "answer": "They can, but usually only near their nest. The Missouri Department of Conservation says paper wasps foraging away from the nest are usually not aggressive, while workers defend the nest and may sting if they sense it is under attack. UC IPM says they rarely sting people and shy away from human activity, except where a nest sits near doors, windows or other busy spots. University of Missouri Extension notes that wasps can sting repeatedly because their stingers are smooth, and that only females sting."
+    },
+    {
+      "question": "How harmful are paper wasps?",
+      "answer": "For most people a sting means pain and swelling that clear up on their own. Penn State says stings in otherwise healthy adults should resolve without medical intervention, and UF/IFAS says the swelling may last several days. The danger is an allergic reaction: Mayo Clinic says wasp stings might cause a severe allergic reaction called anaphylaxis, and a University of Kentucky fact sheet, citing a 2018 journal article, says allergic reactions to wasp and hornet stings of every kind (not paper wasps alone) account for about 225,000 emergency room visits and as many as 100 deaths a year in the US."
+    },
+    {
+      "question": "What is the difference between a paper wasp and a regular wasp?",
+      "answer": "The black-and-yellow wasp people picture at picnics is usually a yellowjacket. Paper wasps are slimmer, with a thin waist and long legs that dangle in flight, Penn State and MDC say, while yellowjackets hold their legs close, Penn State adds, and have a very short waist, according to UC IPM. The nests differ most: paper wasps build one open comb under a shelter, while MDC says most yellowjackets nest underground in a covered paper nest and defend it aggressively as a group."
+    },
+    {
+      "question": "Should paper wasps be killed?",
+      "answer": "Not as a rule. The Missouri Department of Conservation says paper wasps should not be killed indiscriminately because they feed caterpillars, many of them garden and crop pests, to their young. UC IPM says paper wasp nests should not need treatment unless they are near people, and Kentucky says that in states with cold winters a nest away from busy areas can be left until cold weather ends the colony. A nest by a door, a deck or a play set is the exception extension guides make."
+    },
+    {
+      "question": "What kills paper wasps instantly?",
+      "answer": "Kentucky's entomologists say most aerosol wasp and hornet sprays make the insects drop instantly and can reach as far as 20 feet. Penn State says to apply them at night, when all the workers and the queen are on the nest, and to read and follow the label directions and safety precautions. Never stand directly under the nest while spraying. UC IPM cautions that even the freeze-type products may not stop every wasp that comes flying out. Kentucky warns that gasoline or a garden hose seldom works and can lead to multiple stings."
+    },
+    {
+      "question": "Where do paper wasps go in the winter?",
+      "answer": "Only the fertilized queens survive it. The Missouri Department of Conservation says freezing weather in late fall kills every other wasp in the colony, and each queen spends the winter in a protected spot such as under tree bark or inside building walls. A warm spell can wake her, MDC says, which is why you may see a wasp flying on a warm day in February. In spring she starts a new nest from scratch."
+    },
+    {
+      "question": "Do paper wasps reuse their nests?",
+      "answer": "Very rarely. The Missouri Department of Conservation says nests are started from scratch each spring and are very rarely reused, and Texas A&M's Apiary Inspection Service says the old nest is never reused. Kentucky says colonies die off once the weather turns cold and that in cold-winter states the paper breaks down over winter. University of Missouri Extension still advises removing a treated nest to discourage other paper wasps from nesting there."
+    },
+    {
+      "question": "How big is a paper wasp nest?",
+      "answer": "Usually no bigger than a hand. Texas A&M's Apiary Inspection Service says a nest left alone grows to an average of 6 to 8 inches across and can hold several dozen wasps, and UC IPM says paper wasp nests rarely exceed the size of an outstretched hand, with colonies of 15 to 200 wasps. The nest is a single comb of open cells hanging from one stalk, so its size shows at a glance, unlike the covered nests of yellowjackets and hornets."
+    },
+    {
+      "question": "What do paper wasps eat?",
+      "answer": "The adults drink nectar from flowers and juice from fruit, and they hunt caterpillars to feed their young, according to the Missouri Department of Conservation, which counts them among the most beneficial insects for that reason. UF/IFAS Extension names corn earworms and armyworms among their prey. Penn State notes one downside of the introduced European paper wasp: studies have found it reduces monarch caterpillar populations."
+    },
+    {
+      "question": "How long does a paper wasp sting hurt?",
+      "answer": "The sharp pain fades, but swelling can linger. UF/IFAS Extension says wasp venom causes a painful swelling that may last several days, and Mayo Clinic says most insect stings are mild and might cause itching, swelling and stinging that go away in a day or two. Mayo advises cold compresses and seeing a healthcare professional if the swelling gets worse, the spot looks infected or you feel unwell, and calling 911 for trouble breathing, a swelling face or throat or any other sign of anaphylaxis."
+    }
+  ],
+  "sources": [
+    { "title": "Paper Wasps (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/paper-wasps" },
+    { "title": "European Paper Wasp (Michael J. Skvarla, updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/european-paper-wasp" },
+    { "title": "Pest Notes: Yellowjackets and Other Social Wasps (UC ANR Publication 7450; E. C. Mussen and M. K. Rust)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" },
+    { "title": "Pest Notes: Bee and Wasp Stings (UC ANR Publication 7449; E. C. Mussen)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/bee-and-wasp-stings/" },
+    { "title": "ENTFACT-620: Controlling Wasps, Hornets and Yellowjackets (Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef620" },
+    { "title": "Paper Wasps", "publisher": "Texas Apiary Inspection Service, Texas A&M AgriLife Research", "url": "https://txbeeinspection.tamu.edu/public/bee-identification/paper-wasp/" },
+    { "title": "Paper Wasp, Red Wasp, Polistes carolina (EENY640; Lizzie Paulus and Andrea Lucky)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN1112" },
+    { "title": "Stinging or Venomous Insects and Related Pests (ENY-215/IG099; P. G. Koehler and J. W. Diclaro)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG099" },
+    { "title": "Paper Wasps (Urban Pest Guide)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/paper-wasps" },
+    { "title": "Bees and Wasps (G7391; Tamra Reall)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7391" },
+    { "title": "Carpenter Bees (G7424)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7424" },
+    { "title": "Yellowjackets (Vespula Wasps) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps" },
+    { "title": "Bald-Faced Hornet (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bald-faced-hornet" },
+    { "title": "European Hornet (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/european-hornet" },
+    { "title": "Insects and Scorpions at Work (reviewed September 2026)", "publisher": "CDC National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" },
+    { "title": "Insect Bites and Stings: First Aid (April 10, 2024)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593" },
+    { "title": "Bug Bites and Stings: When to See a Dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" }
+  ],
+  "disclaimer": "both"
+}

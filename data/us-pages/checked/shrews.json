@@ -1,0 +1,10 @@
+{
+ "id": "shrews",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "22864869e0c39feec38adafffba39fb379df40c08e65a388edd4e725b1d164df",
+ "claimsChecked": 300,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-23"
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "wheel-bugs",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "assassin bug",
+  "alsoTargets": [
+    "assassin bugs",
+    "wheel bug",
+    "wheel bugs",
+    "assassin bug bite",
+    "wheel bug bite",
+    "are assassin bugs dangerous",
+    "masked hunter"
+  ],
+  "metaTitle": "Assassin Bug and Wheel Bug: ID and the Bite",
+  "metaDescription": "Most assassin bugs hunt insects with a curved beak, led by the cog-crested wheel bug. Photos, baby wheel bugs, the masked hunter and how bad the bite is.",
+  "h1": "Assassin Bugs and Wheel Bugs: How to Identify Them, and How Bad Is the Bite?",
+  "dek": "Real photos of wheel bugs on houses, their red-and-black babies, the milkweed assassin bug and the dust-coated masked hunter, a quick-ID table, what the bite feels like and what to do, and how they differ from kissing bugs.",
+  "breadcrumb": "Assassin Bugs and Wheel Bugs",
+  "excerpt": "How to recognize an assassin bug, from the cog-crested wheel bug to the masked hunter indoors, what the bite does, and how to tell them from kissing bugs.",
+  "datePublished": "2026-10-24",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most assassin bugs are long-legged insect hunters with a narrow head and a stout, curved beak folded underneath; the biggest in North America is the wheel bug, the only US insect with a cog-wheel crest on its back.** Handled, it bites painfully, but [Kentucky's entomologists](https://entomology.mgcafe.uky.edu/ef705) say it is not aggressive and tries to avoid contact.",
+    "bullets": [
+      "Kentucky gives wheel bugs as 1 to 1 1/2 inches long and gray to brown; [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN243) says no other US insect has such a crest.",
+      "Baby wheel bugs have no crest: the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/wheel-bug) says the nymphs are red with black legs and can look antlike or spiderlike.",
+      "A wheel bug bite causes immediate, intense pain that lasts three to six hours, says [UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/IG099), and it bites only when handled.",
+      "The masked hunter is the one found indoors; [Penn State Extension](https://extension.psu.edu/masked-hunter) says its young cover themselves in dust and lint.",
+      "Kissing bugs are blood-feeding assassin bugs, but [CDC](https://www.cdc.gov/chagas/spreads/index.html) says the wheel bug does not carry the parasite that causes Chagas disease."
+    ]
+  },
+  "facts": {
+    "title": "Assassin bug or look-alike? Quick ID",
+    "head": ["Bug", "Size", "Look", "Where you find it", "Bites people?"],
+    "rows": [
+      ["Wheel bug", "1 to 1 1/2 inches", "Gray to brown; toothed, cog-like crest on the back; curved beak", "Trees, shrubs and gardens; around homes in late summer and fall", "Only if handled; very painful"],
+      ["Milkweed assassin bug", "About 5/8 to 3/4 inch", "Orange and black, with long, hairy legs", "Gardens and fields in the Gulf Coast and South Atlantic states, southern California and southwestern Arizona", "If mishandled; burning and swelling that can last several days"],
+      ["Masked hunter", "About 2/3 to 9/10 inch", "Glossy black or very dark brown; young coated in dust and lint", "Indoors: under heat registers and cabinets, in wall voids and attics", "Mainly when handled or squished; about like a honey bee sting"],
+      ["Kissing bug", "About 1/2 to over 1 1/4 inches", "Stick-like head, straight beak, thin legs; body edge often striped", "Southern US; active mostly at night", "Yes, for blood, usually painlessly; its droppings can carry the Chagas parasite"],
+      ["Leaf-footed bug", "About 3/4 to 1 inch", "Narrow brown body with leaf-like enlargements on the hind legs", "Garden fruits, vegetables and nuts; adults winter in woodpiles and buildings", "No"],
+      ["Western conifer seed bug", "About 3/4 inch", "Reddish brown to dark brown; loud buzz in flight", "Comes into homes in fall to spend the winter", "Does not generally bite people"]
+    ],
+    "caption": "From MDC, Kentucky, UF/IFAS, Penn State, Utah State, Texas A&M, UC IPM, Colorado State and CDC pages linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does an assassin bug look like?" },
+    { "type": "p", "text": "Most assassin bugs are long-legged insect hunters with a narrow head and a clawlike beak that folds into a groove under the body. The [Missouri Department of Conservation's assassin bug guide](https://mdc.mo.gov/discover-nature/field-guide/assassin-bugs) says the beak has three segments and the antennae are long and thin, and that most species are black or brown, sometimes orange, yellow or red, up to 1 1/2 inches long. [UC IPM's natural enemies gallery](https://ipm.ucanr.edu/natural-enemies/assassin-bugs/) describes rounded, beady eyes and gives adults as about 1/5 to 1 1/4 inches long, by species." },
+    { "type": "figure", "src": "/guides/photos/wheel-bug.webp", "width": 1200, "height": 800, "alt": "Gray-brown wheel bug seen from above on green ivy leaves, with a toothed half-wheel crest on its back, long legs and thin reddish antennae", "caption": "A wheel bug (Arilus cristatus) on ivy in Nashville, Tennessee, showing the cog-wheel crest that gives it its name.", "credit": "Ryan Kaldari, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arilus_cristatus_Kaldari_02.jpg" },
+    { "type": "p", "text": "There are many of them. UC IPM says about 7,000 species are known worldwide, and [Texas A&M AgriLife's wheel bug fact sheet](https://citybugs.tamu.edu/factsheets/landscape/others/ent-1003/) puts the North American count at roughly 150. MDC says assassin bugs are good flyers and walkers that prowl trees, gardens and grassy areas, hunting other insects." },
+
+    { "type": "h2", "text": "How do you identify a wheel bug?" },
+    { "type": "p", "text": "Look for the wheel. [UF/IFAS Featured Creatures](https://ask.ifas.ufl.edu/publication/IN243) says the wheel bug is the only insect species in the United States with such a crest, and [the University of Kentucky's wheel bug fact sheet](https://entomology.mgcafe.uky.edu/ef705) describes a cog-like toothed wheel rising from the top of the thorax. Kentucky gives adults as 1 to 1 1/2 inches long, gray to brown with brown antennae; MDC calls the wheel bug North America's largest assassin bug." },
+    { "type": "figure", "src": "/guides/photos/wheel-bug-door-frame.webp", "width": 1200, "height": 900, "alt": "Side view of a gray-brown wheel bug with a spiky half-wheel crest and long, thin legs on a white painted door frame", "caption": "A wheel bug on a white door frame in Indiana. Kentucky says adults are common from midsummer through fall.", "credit": "(c) Kaden Slone, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/141322877" },
+    { "type": "p", "text": "That is when they turn up around houses. Kentucky says the wheel bug is frequently seen in late summer and fall in residential areas, parks and other outdoor settings, and that it looks dangerous because of its size and odd shape, but is not aggressive and will try to avoid contact." },
+    { "type": "figure", "src": "/guides/photos/wheel-bug-on-fingers.webp", "width": 1200, "height": 800, "alt": "Side view of an adult wheel bug on a person's fingertips, showing its toothed crest, the curved beak held under the head and long reddish antennae", "caption": "A wheel bug on a person's fingers in Georgia, which shows its size against a hand. MDC says handling wheel bugs is not recommended, because they can inflict a very painful bite.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/187384535" },
+
+    { "type": "h2", "text": "What do baby wheel bugs look like?" },
+    { "type": "p", "text": "At first, little like their parents: small, red and black, and without the wheel. Kentucky says the eggs hatch in early spring into small red and black nymphs with long legs that spread onto nearby trees and shrubs, that the nymphs have no wheel, and that later stages turn gray like the adults. MDC says the nymphs can look antlike or spiderlike." },
+    { "type": "figure", "src": "/guides/photos/wheel-bug-nymphs-hatching-wall.webp", "width": 1004, "height": 713, "alt": "Dozens of tiny newly hatched bugs with bright red abdomens and long black legs, a few pale orange, crowded around a gray mass of small barrel-shaped eggs", "caption": "Newly hatched wheel bug nymphs around their egg mass in Arkansas. By the observer's description, they were on a brick wall and the orange ones are the freshest.", "credit": "(c) hr_dragonfly, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/112735024" },
+    { "type": "p", "text": "The eggs are laid in fall. Kentucky says the female glues several dozen barrel-shaped eggs on end in a cluster on small twigs of shrubs and trees. UF describes them as miniature brown bottles with white stoppers, in a six-sided cluster of 42 to 182, usually 4 feet off the ground or lower on trunks, limbs, shrubs and other objects, and says the wheel bug has one generation a year and spends the winter as eggs." },
+    { "type": "figure", "src": "/guides/photos/wheel-bug-nymph.webp", "width": 1200, "height": 750, "alt": "Gray, mottled wheel bug nymph with long legs and long orange antennae standing on the rail of a metal chain-link fence", "caption": "A gray wheel bug nymph on a chain-link fence in Florida, with no crest yet. Kentucky says the later nymph stages turn gray like the adults.", "credit": "JoeOfTheWiki at English Wikipedia, CC0, via Wikimedia Commons", "license": "CC0-1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheel-bug-nymph.jpg" },
+    { "type": "p", "text": "Much smaller red specks crawling on a sunny windowsill in spring are more likely clover mites: [Penn State's clover mite page](https://extension.psu.edu/clover-mites) describes reddish or greenish mites about 1/32 inch long that do not attack people. See [clover mites and other tiny red bugs](/blog/red-ticks-and-clover-mites)." },
+
+    { "type": "h2", "text": "Which other assassin bugs might you find?" },
+    { "type": "h3", "text": "Milkweed assassin bug" },
+    { "type": "p", "text": "In the South it may be the milkweed assassin bug, *Zelus longipes*. [UF/IFAS Featured Creatures](https://ask.ifas.ufl.edu/publication/IN883) describes US populations as orange and black, about 5/8 to 3/4 inch long, with long, hairy legs, living in the Gulf Coast and South Atlantic states, southern California and southwestern Arizona, where it hunts insects in gardens and fields. Texas A&M calls it one of the most common assassin bugs around Galveston County." },
+    { "type": "figure", "src": "/guides/photos/milkweed-assassin-bug.webp", "width": 1200, "height": 1033, "alt": "Orange and black assassin bug with a narrow orange head and very long, thin black legs standing on a cracked white wall", "caption": "A milkweed assassin bug (Zelus longipes) in Houston, Texas: orange and black, on very long legs.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/4990060" },
+    { "type": "p", "text": "UC IPM says assassin bugs in the *Zelus* genus commonly spend the winter as adults and may be seen on walls and windows in fall as they look for shelter." },
+    { "type": "h3", "text": "Masked hunter" },
+    { "type": "p", "text": "The masked hunter, *Reduvius personatus*, is the assassin bug that lives in houses. [Colorado State University Extension](https://extension.colostate.edu/resource/conenose-bugs-kissing-bugs-and-insects-of-similar-appearance-in-colorado) calls it the only assassin bug commonly found indoors, where it feeds on the insects that live in homes. [Penn State Extension's masked hunter page](https://extension.psu.edu/masked-hunter) describes glossy black or very dark brown adults 17 to 22 mm (about 2/3 to 7/8 inch) long that hide by day under heat registers and cabinets and in wall voids and attics. [Utah State University Extension](https://extension.usu.edu/planthealth/ipm/notes_nuisance/masked-hunter) gives adults as 9/10 inch long." },
+    { "type": "figure", "src": "/guides/photos/masked-hunter.webp", "width": 1200, "height": 826, "alt": "Glossy black, slender assassin bug with dark wings folded flat and long thin legs and antennae, seen from above on weathered gray wood", "caption": "An adult masked hunter (Reduvius personatus) on weathered wood: black all over, with no colored stripes along its sides.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/377318047" },
+    { "type": "p", "text": "Its young give it away. Penn State says the nymphs usually cover themselves with dust, lint, bits of insect skeleton and other small items, and CSU says the debris masks the body, which is where the name comes from." },
+    { "type": "figure", "src": "/guides/photos/masked-hunter-nymph.webp", "width": 1200, "height": 1447, "alt": "Gray, fuzzy-looking bug coated in dust and lint with its legs spread, on white-painted wood beside a wooden edge", "caption": "A masked hunter nymph coated in dust and lint, on painted wood in Vermont.", "credit": "(c) Jason Hill, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/178636280" },
+    { "type": "p", "text": "A masked hunter indoors usually means something else is living there too. Penn State lists bed bugs, silverfish, booklice, house centipedes and carpet beetles among its prey. If you are waking up with bites, compare them with [bed bug bites](/blog/bed-bug-bites) before blaming the hunter." },
+    { "type": "h3", "text": "Garden assassin bugs" },
+    { "type": "p", "text": "MDC also names the pale green, spiny and orange assassin bugs and the ambush bugs, which Texas A&M says wait for prey on flowers. CSU says bee assassins live on the flowers of outdoor plants and are never found in homes." },
+    { "type": "media", "needed": "A spined assassin bug or pale green assassin bug hunting on a garden plant in the US, beside a ruler marked in inches if possible, identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "How bad is an assassin bug bite?" },
+    { "type": "p", "text": "Painful, but it rarely happens unless you handle one. UF/IFAS Extension's guide to stinging and venomous insects says wheel bugs bite people mainly by accident, piercing the skin with the beak and injecting the fluid they use to kill prey, and that the fluid causes immediate, intense pain lasting three to six hours. UF's wheel bug profile says the bite has been described as worse than bee, wasp or hornet stings, that numbness often follows the pain and that healing usually takes about two weeks. The author of Kentucky's fact sheet notes that the bite is painful, with the sensation lasting several minutes, so accounts vary." },
+    { "type": "p", "text": "Other assassin bugs bite the same way. Penn State says the masked hunter bites mainly when handled or squished, about as painfully as a honey bee sting, and the bite can take up to a week to heal; [Utah State University Extension](https://extension.usu.edu/planthealth/ipm/notes_nuisance/masked-hunter) says it may bite even if unprovoked. UF says a milkweed assassin bug that is not handled properly can bite, causing a burning sensation with swelling that may last several days. CSU says the bite of insect-eating assassin bugs can produce immediate pain that soon subsides." },
+    { "type": "p", "text": "Texas A&M's advice for a wheel bug bite is to wash it and apply an antiseptic; it says an oral pain reliever may ease the pain and a physician is usually not needed. [Mayo Clinic's first-aid guide](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) adds a cloth dampened with cold water or filled with ice for 10 to 20 minutes, and says to see a healthcare professional if the swelling gets worse, the bite shows signs of infection or you do not feel well. UF says serious or lasting effects are usually blamed on a secondary infection or individual hypersensitivity." },
+    { "type": "callout", "tone": "warning", "title": "When a bite needs emergency care", "text": "Texas A&M says anyone with signs of an anaphylactic reaction, such as difficulty breathing, should seek care immediately. Mayo Clinic says to call 911 for a serious reaction that suggests anaphylaxis after a bite or sting, even if it is just one or two of these signs: trouble breathing; swelling of the lips, face, eyelids or throat; dizziness, fainting or unconsciousness; a weak and rapid pulse; hives; or nausea, vomiting or diarrhea." },
+    { "type": "p", "text": "Not sure what bit you? [The bug bite chart](/learn/bug-bites) and [the bug bite identifier](/tools/bug-bite-identifier) cover the other suspects." },
+
+    { "type": "h2", "text": "Is a kissing bug an assassin bug?" },
+    { "type": "p", "text": "A kissing bug is an assassin bug too, one that feeds on blood: UC IPM says certain species in the family feed on the blood of birds, mammals or reptiles, including conenose bugs and kissing bugs. [Texas A&M's guide to kissing bug identification](https://citybugs.tamu.edu/2015/12/01/kissing-bug-identification-requires-closer-look/) says a kissing bug has stout, straight mouthparts, a stick-like, tapering head and thin legs without spines, often with reddish to cream stripes along the edge of the abdomen, while a wheel bug's mouthparts are stout and curved. CSU adds that kissing bugs feed at night, with a bite that is painless." },
+    { "type": "p", "text": "Wheel bugs do not carry the Chagas parasite. [CDC's page on how Chagas disease spreads](https://www.cdc.gov/chagas/spreads/index.html) shows the wheel bug, the western corsair and the leaf-footed bug as bugs commonly confused with kissing bugs and says they do not carry the parasite that causes Chagas disease. Kissing bugs can pass that parasite in their droppings, CDC says, not through the bite, as CSU puts it, and Utah State says the masked hunter does not transmit Chagas disease." },
+    { "type": "p", "text": "Two plant feeders get mixed up with all of these. [UC IPM's leaffooted bug guide](https://ipm.ucanr.edu/home-and-landscape/leaffooted-bug/) describes narrow brown bugs about 3/4 to 1 inch long with leaf-like enlargements on the hind legs, which spend the winter in woodpiles, barns and other buildings, and Texas A&M says leaf-footed bugs do not bite. [Penn State's western conifer seed bug page](https://extension.psu.edu/western-conifer-seed-bug) describes a 3/4-inch bug that buzzes loudly in flight, often comes indoors in fall and does not generally bite people." },
+    { "type": "p", "text": "Telling a kissing bug from the rest, and what to do with one, is covered in [bugs that look like kissing bugs](/blog/kissing-bug-look-alikes); [kissing bugs](/learn/kissing-bugs), [kissing bug bites](/blog/kissing-bug-bites) and [Chagas disease](/blog/chagas-disease) each have their own guide." },
+    { "type": "confused", "items": [
+      { "href": "/blog/kissing-bug-look-alikes", "name": "Kissing bug", "photo": "eastern-kissing-bug", "note": "Straight beak, stick-like head and often a striped body edge; feeds on blood at night", "alt": "Dark eastern kissing bug seen from above, with pale bands along the edge of its body, beside a size bar and a small US range map" },
+      { "href": "/blog/leaf-footed-bugs", "name": "Leaf-footed bug", "photo": "leaf-footed-bug", "note": "Leaf-like enlargements on the hind legs; a plant feeder that does not bite", "alt": "Dark brown eastern leaf-footed bug with a pale band across its wings and flattened, leaf-like hind legs, on a sunflower head" },
+      { "href": "/blog/western-conifer-seed-bugs", "name": "Western conifer seed bug", "photo": "western-conifer-seed-bug", "note": "About 3/4 inch, buzzes loudly in flight and comes indoors in fall", "alt": "Reddish brown western conifer seed bug with long antennae and legs on a black computer keyboard" },
+      { "href": "/blog/how-to-get-rid-of-boxelder-bugs", "name": "Boxelder bug", "photo": "boxelder-bug", "note": "Smaller than most kissing bugs, with red eyes and no banded edge; does not bite", "alt": "Black boxelder bug with orange stripes and red eyes on a twig with small yellow flowers" }
+    ] },
+
+    { "type": "h2", "text": "Are assassin bugs good for the garden?" },
+    { "type": "p", "text": "Mostly, yes. MDC calls them top predators in the world of insects, and UF lists the wheel bug's prey as caterpillars, beetles, [stink bugs](/blog/how-to-get-rid-of-stink-bugs-canada) including the brown marmorated stink bug, sawflies and aphids, though also lady beetles and honey bees. Texas A&M says assassin bugs do not require insecticide sprays and advises against trying to control them." },
+    { "type": "p", "text": "UC IPM tempers the praise: it says assassin bugs are not considered important in the biological control of pests, unlike predators such as bigeyed bugs and minute pirate bugs." },
+
+    { "type": "h2", "text": "What should you do if you find an assassin bug?" },
+    { "type": "p", "text": "Outdoors, leave it alone. MDC says handling assassin bugs is not recommended, that they sometimes land on people but can be brushed off easily if they do not fly away on their own, and that crushing or slapping at them generally makes them bite." },
+    { "type": "p", "text": "Indoors, find what the masked hunter is eating. Penn State says the best control is to find and eliminate the pests a masked hunter feeds on, after which the hunters die out from lack of food or old age, and Utah State suggests door sweeps on doors leading outside or into a garage, and regular vacuuming." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Never pick one up with bare hands. Coax it into a clear jar with a sheet of paper, photograph it beside a ruler marked in inches, and check the back for a crest, the beak for a curve and the edge of the body for stripes. Your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are assassin bugs harmful to humans?",
+      "answer": "They can bite painfully if handled, but the insect-eating kinds are not known to spread disease. UF/IFAS says wheel bugs bite people mainly by accident, causing intense pain for three to six hours, and Colorado State says the masked hunter transmits no pathogens when it bites. CDC says the wheel bug does not carry the Chagas parasite; that risk belongs to kissing bugs, a blood-feeding group of assassin bugs. Seek care at once for signs of a severe allergic reaction such as difficulty breathing, Texas A&M says."
+    },
+    {
+      "question": "What happens if a wheel bug bites you?",
+      "answer": "Expect sharp pain right away. UF/IFAS Extension says the wheel bug injects the fluid it uses to kill prey, causing immediate, intense pain that lasts three to six hours, and its wheel bug profile says numbness often follows and healing usually takes about two weeks. Texas A&M advises washing the bite and applying an antiseptic, says an oral pain reliever may help and a physician is usually unnecessary, and says to seek care at once for signs of a severe allergic reaction, such as difficulty breathing. Mayo Clinic says to see a healthcare professional if the swelling gets worse, the bite shows signs of infection or you do not feel well."
+    },
+    {
+      "question": "Is a wheel bug a kissing bug?",
+      "answer": "No, though both are assassin bugs. A wheel bug has a toothed crest on its back, which UF/IFAS says no other US insect has, and a stout, curved beak, while Texas A&M says a kissing bug has a straight beak, a stick-like head and often stripes along the edge of its body. Kissing bugs feed on blood; wheel bugs hunt insects. CDC says the wheel bug does not carry the parasite that causes Chagas disease."
+    },
+    {
+      "question": "Should assassin bugs be killed?",
+      "answer": "Outdoors, no. Texas A&M says assassin bugs are beneficial in gardens and do not require insecticide sprays, and the Missouri Department of Conservation calls them top predators of other insects, though UF/IFAS notes that wheel bugs also eat lady beetles and honey bees. Simply avoid handling them. Indoors, a masked hunter is a sign of other insects to feed on, so Penn State says the best control is to find and eliminate those pests."
+    },
+    {
+      "question": "Where do assassin bugs live in the US?",
+      "answer": "Across the country, in many forms. Texas A&M counts roughly 150 assassin bug species in North America, and the Missouri Department of Conservation says they prowl trees, gardens and grassy areas. UF/IFAS reports the wheel bug from Rhode Island west to California and south to Texas and Florida, and the milkweed assassin bug from the Gulf Coast and South Atlantic states, southern California and southwestern Arizona. The masked hunter lives indoors, and CDC says kissing bugs are typically found in the southern US."
+    },
+    {
+      "question": "How many humans are killed by assassin bugs each year?",
+      "answer": "None of the extension or medical sources cited here reports a death from the bite of an insect-eating assassin bug such as the wheel bug; UF/IFAS says serious or lasting effects of a wheel bug bite are usually blamed on secondary infection or individual hypersensitivity. The disease risk in the family is Chagas disease, which kissing bugs, a blood-feeding group of assassin bugs, can spread through their droppings, as CDC explains. A severe allergic reaction to any bite needs emergency care, Mayo Clinic says."
+    },
+    {
+      "question": "What attracts wheel bugs?",
+      "answer": "Prey, mostly. The Missouri Department of Conservation says wheel bugs prowl flowers, gardens, trees and grassy areas hunting other insects, and UF/IFAS lists caterpillars, beetles, stink bugs, sawflies and aphids among their prey. The University of Kentucky says adults are commonly attracted to lights at night near wooded areas, not necessarily by the light but by the other insects there, and are frequently seen in late summer and fall around homes and parks, the season when females lay their eggs on small twigs of shrubs and trees. UC IPM adds that some assassin bugs show up on walls and windows in fall while looking for shelter."
+    },
+    {
+      "question": "What do baby wheel bugs look like?",
+      "answer": "Small, red and black, with long legs and no wheel on the back. The University of Kentucky says the nymphs hatch in early spring and spread onto nearby trees and shrubs, and that later stages turn gray like the adults. The Missouri Department of Conservation says they can look antlike or spiderlike. UF/IFAS says they hatch from clusters of 42 to 182 brown, bottle-shaped eggs glued on end, usually 4 feet off the ground or lower."
+    },
+    {
+      "question": "Do masked hunters bite?",
+      "answer": "They can. Penn State Extension says masked hunters bite mainly in defense, when handled or squished, and that the bite is about as painful as a honey bee sting and can take up to a week to heal; it says there have apparently been no cases of allergic reaction to the bite reported in the medical literature. Utah State says they may bite even if unprovoked and occasionally enter bedrooms, and that they do not transmit Chagas disease. Colorado State says the pain soon subsides."
+    },
+    {
+      "question": "How big do wheel bugs get?",
+      "answer": "Up to about 1 1/2 inches. The University of Kentucky gives adults as 1 to 1 1/2 inches long, UF/IFAS says most measure 1 to 1 1/4 inches, and Texas A&M describes them as gray and about 1 1/4 inches long. The Missouri Department of Conservation calls the wheel bug North America's largest assassin bug. Most other assassin bugs are smaller: UC IPM gives the family's adults as about 1/5 to 1 1/4 inches long, by species."
+    }
+  ],
+  "sources": [
+    { "title": "Wheel Bug (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/wheel-bug" },
+    { "title": "Assassin Bugs (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/assassin-bugs" },
+    { "title": "Wheel Bug, Arilus cristatus (EENY-086; F. W. Mead)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN243" },
+    { "title": "Stinging or Venomous Insects and Related Pests (ENY-215/IG099; P. G. Koehler and J. W. Diclaro)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG099" },
+    { "title": "Milkweed Assassin Bug, Zelus longipes (EENY489; Megha Kalsi and Dakshina R. Seal)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN883" },
+    { "title": "ENTFACT-705: The Wheel Bug (Ric Bessin, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef705" },
+    { "title": "Wheel bugs and other assassin bugs (ENT-1003; Michael Merchant)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://citybugs.tamu.edu/factsheets/landscape/others/ent-1003/" },
+    { "title": "Kissing bug identification requires closer look (Insects in the City, December 1, 2015)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://citybugs.tamu.edu/2015/12/01/kissing-bug-identification-requires-closer-look/" },
+    { "title": "Masked Hunter (Michael J. Skvarla, updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/masked-hunter" },
+    { "title": "Masked Hunter (Urban Pest Guide)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/masked-hunter" },
+    { "title": "Conenose Bugs ('Kissing Bugs') and Insects of Similar Appearance in Colorado (W. S. Cranshaw, May 2025)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/conenose-bugs-kissing-bugs-and-insects-of-similar-appearance-in-colorado" },
+    { "title": "Assassin Bugs (Natural Enemies Gallery)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/natural-enemies/assassin-bugs/" },
+    { "title": "How Chagas Disease Spreads (February 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/chagas/spreads/index.html" },
+    { "title": "Western Conifer Seed Bug", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/western-conifer-seed-bug" },
+    { "title": "Pest Notes: Leaffooted Bug (UC ANR Publication 74168)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/leaffooted-bug/" },
+    { "title": "Clover Mites (Steve Jacobs, updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/clover-mites" },
+    { "title": "Insect Bites and Stings: First Aid (April 10, 2024)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593" }
+  ],
+  "disclaimer": "health"
+}

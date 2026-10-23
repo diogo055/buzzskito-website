@@ -1,0 +1,169 @@
+{
+  "slug": "booklice",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "booklice",
+  "alsoTargets": [
+    "booklouse",
+    "book lice",
+    "psocids",
+    "booklice in bed",
+    "booklice vs bed bugs",
+    "how to get rid of booklice",
+    "booklice in house"
+  ],
+  "metaTitle": "Booklice: Tiny Pale Bugs in Books and Pantries",
+  "metaDescription": "Booklice are tiny, pale, wingless insects that eat mold in damp rooms. Photos to scale, booklice vs bed bugs, why they appear and the humidity fix.",
+  "h1": "Booklice (Psocids): The Tiny Pale Bugs in Damp Rooms, Books and Pantries",
+  "dek": "Real photos of booklice beside a pen tip and a printed letter, a quick-ID table against bed bug nymphs, fleas, springtails and grain mites, and the humidity fixes extension entomologists put first.",
+  "breadcrumb": "Booklice",
+  "excerpt": "What booklice look like at life size, why they appear on books, windowsills and pantry shelves, how to tell them from bed bugs, and how to dry them out.",
+  "datePublished": "2026-10-24",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Booklice are tiny, pale, wingless insects, usually under 1/16 inch long, that eat mold in damp rooms; they are not true lice, and unlike bed bugs they do not bite or feed on blood.** Bringing the humidity under 50% is the fix [Penn State Extension](https://extension.psu.edu/booklice) puts first.",
+    "bullets": [
+      "They are soft-bodied, translucent white to gray or light brown, with long antennae and a bulging front of the head, says the [University of Florida](https://ask.ifas.ufl.edu/publication/IG094).",
+      "They turn up on books, papers, wallpaper and stored flour or grain, feeding on the mold growing there, Penn State says.",
+      "[UMN Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/booklice-barklice) says they are harmless to people and pets and do not survive when the humidity falls below 45 to 50%.",
+      "To tell one from a baby bed bug, look at the head: Penn State says a booklouse's is wider than the segment behind it, while a bed bug's is narrower than its body."
+    ]
+  },
+  "facts": {
+    "title": "Booklouse or something else? Quick ID",
+    "head": ["Bug", "Size", "What it looks like", "Where you find it", "Feeds on blood?"],
+    "rows": [
+      ["Booklouse", "Usually under 1/16 inch", "Soft, flat and wingless; pale, tan or gray; a broad head", "Damp, warm spots: books, papers, windowsills, flour and cereal", "No"],
+      ["Bed bug nymph", "About 1/16 to 3/16 inch (1.5 to 4.5 mm)", "Rounder; translucent or whitish-yellow; head narrower than the body", "Mattress seams and tags, bed frames, headboards", "Yes"],
+      ["Flea", "No larger than 1/8 inch", "Reddish brown, wingless and flattened side to side", "On cats and dogs and where they sleep", "Yes"],
+      ["Springtail", "Most indoor kinds about 1/25 to 1/13 inch", "Wingless; jumps with a spring folded under the body", "Damp bathrooms and basements", "No"],
+      ["Grain mite", "About 1/50 inch", "Pale grayish white, with eight legs; crowds look like moving dust", "Damp flour, grain, cheese and pet food", "No"]
+    ],
+    "caption": "Sizes and descriptions from Penn State Extension, UF/IFAS, the Defense Centers for Public Health, the US EPA, UC IPM and Purdue Extension, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are booklice?" },
+    { "type": "p", "text": "Booklice are tiny, soft-bodied, wingless insects that live indoors in damp, warm places and feed on mold. [Penn State Extension's booklice page](https://extension.psu.edu/booklice) calls them indicators of high humidity or moisture and places them in the family Liposcelididae, in the order that also holds barklice and parasitic lice. The [University of Florida's guide to booklice and silverfish](https://ask.ifas.ufl.edu/publication/IG094) says the lice in the name is somewhat misleading: none of these insects are parasites, and few of them even look like lice." },
+    { "type": "figure", "src": "/guides/photos/booklouse.webp", "width": 791, "height": 1377, "alt": "Magnified booklouse seen from above, with a broad brownish head, very long thin antennae, thick hind legs and a segmented body", "caption": "An adult booklouse (genus Liposcelis) under a microscope. Look for the broad head, long thin antennae and thick, flattened hind legs.", "credit": "S.E. Thorpe, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liposcelis.jpg" },
+    { "type": "p", "text": "Psocids, pronounced SO-sids as [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/booklice-barklice) spells it out, come in two broad groups. Most are winged barklice that live outdoors on tree bark, leaves and under stones, feeding on fungi, lichen and pollen; UMN says they are harmless to plants and need no treatment. The kinds found inside buildings, usually species of *Liposcelis*, are wingless, and they are called booklice because they are so often found near books or paper." },
+
+    { "type": "h2", "text": "What do booklice look like?" },
+    { "type": "p", "text": "To the naked eye, a booklouse is a pale speck. UF puts the indoor kinds at usually under 1/16 inch (1.5 mm), Penn State at 1 to 2 mm (about 1/25 to 1/13 inch), and the [Defense Centers for Public Health](https://ph.health.mil/topics/entomology/fii/Pages/Booklice-%28Psocids%29.aspx) at 1/25 to 1/13 inch, small enough that they often go unnoticed. Under a magnifier, look for these features." },
+    { "type": "ul", "items": [
+      "**Body.** Soft and flattened from top to bottom, so wider than thick, Penn State says, with flattened, wide thighs on the legs.",
+      "**Head.** Wide, with a large clypeus at the front that looks like a big nose; UMN and UF describe the same bulge, and the Defense Centers for Public Health says it takes magnification to see.",
+      "**Color.** Most are light to dark tan, Penn State says, but they can be gray, dark brown, orange-brown or nearly clear, especially young ones; UF describes translucent white to gray to light brown.",
+      "**Antennae and wings.** Long, slender antennae, UMN says, and no wings on the indoor kinds."
+    ] },
+    { "type": "figure", "src": "/guides/photos/booklouse-notebook-pen-tip.webp", "width": 1200, "height": 1599, "alt": "A tiny pale brown speck, a booklouse, on a handwritten page just beyond the tip of a ballpoint pen", "caption": "A booklouse (genus Liposcelis) beside the tip of a pen on a handwritten page, photographed in London, England: at life size it is barely more than a speck.", "credit": "(c) Marco Zaccaria Di Fraia, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/405233758" },
+    { "type": "figure", "src": "/guides/photos/booklouse-printed-paper.webp", "width": 1200, "height": 901, "alt": "A pale, nearly see-through booklouse on white paper beside a printed black letter that is taller than the insect is long", "caption": "A booklouse (Liposcelis bostrychophila) on printed paper beside a printed letter, photographed in Berlin, Germany. Penn State says booklice are found worldwide.", "credit": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/34150162" },
+
+    { "type": "h2", "text": "What causes booklice in a house?" },
+    { "type": "p", "text": "Damp air and the mold it grows. Penn State says that indoors booklice live in humid, damp, generally dark places and feed on fungi and mold, which is why they turn up on starchy things such as paper, books, book bindings, wallpaper, flour and stored grain: they are eating the mold growing on them. [Clemson's booklice fact sheet](https://hgic.clemson.edu/factsheet/booklice/) gives 75 to 82°F and 75 to 90% relative humidity as ideal for them." },
+    { "type": "h3", "text": "Books, papers and boxes" },
+    { "type": "p", "text": "UMN says booklice can cause problems when stored cardboard gets wet, and that people commonly find them in summer. Penn State says they do not directly damage paper or fabric. Other fact sheets say more: Clemson's says they damage damp books by feeding on moldy paper and the starchy glue in bindings, and UF says they may damage books directly by eating the starch sizing in bindings and along the edges of pages." },
+    { "type": "h3", "text": "Windowsills and door frames" },
+    { "type": "p", "text": "The Defense Centers for Public Health says booklice also live on windowsills and around door frames, where cracks shelter them and dead flies, moths and other insects give them food. Penn State suggests leaving an air space under potted plants on windowsills to keep the humidity down there." },
+    { "type": "h3", "text": "Pantries: flour, cereal and other dry food" },
+    { "type": "p", "text": "The Defense Centers for Public Health lists cereals, pasta, flour, powdered milk, chocolate and yeast among dry foods commonly infested, mostly after a package has been broken or opened, and Penn State says their droppings can contaminate stored food. UMN says booklice in food point to a fungal or mold problem. The [guide to pantry pests](/blog/pantry-pests) covers the beetles and moths that share those shelves." },
+    { "type": "figure", "src": "/guides/photos/booklouse-cereal-package.webp", "width": 676, "height": 689, "alt": "Close view of a tan booklouse with a segmented abdomen and a rounded head on a pale gray surface", "caption": "A booklouse from a cereal package, photographed in Germany.", "credit": "(c) agujaceratops, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/38613294" },
+    { "type": "h3", "text": "New and damp houses" },
+    { "type": "p", "text": "Clemson says booklice sometimes build up in newly built houses, because fresh plaster and drywall can hold enough moisture to grow mold, and Penn State says moisture trapped in a wall void of new construction may mean cutting holes in the drywall so the space can dry. Penn State also names leaky pipes and roofs as water problems to fix." },
+
+    { "type": "h2", "text": "Booklice in bed: are they bed bugs?" },
+    { "type": "p", "text": "**Booklice do not feed on blood, and bed bugs do.** Penn State says booklice do not bite, are not vectors of disease and do not otherwise affect human or animal health, while [the EPA's guide to finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) says a bed bug needs at least one blood meal to develop to each next stage. Penn State says the two get confused because both are flat, but bed bugs are usually bigger and rounder: a newly hatched bed bug is about the size of an adult booklouse, and an adult bed bug about three times as long." },
+    { "type": "p", "text": "The head tells them apart. Penn State says a booklouse's head is wider than the segment behind it and nearly as wide as the body, while a bed bug's head is narrower than the segment behind it and the body. [EPA's bed bug life cycle page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes the nymphs as translucent or whitish-yellow, from 1.5 mm (about 1/16 inch) in the first stage to 4.5 mm (about 3/16 inch) in the fifth, and EPA's guide to finding them points to the seams and tags of mattresses and box springs and the cracks of bed frames and headboards." },
+    { "type": "p", "text": "Booklice in a bed are handled like booklice anywhere else: UF's control steps include laundering or cleaning bedding, furniture and other movable furnishings, along with drying the room. If you are waking up with bites, look for bed bugs instead: see [what bed bug bites look like](/blog/bed-bug-bites), [what baby bed bugs look like](/blog/baby-bed-bugs-nymphs) and [the other bugs that look like bed bugs](/blog/bugs-that-look-like-bed-bugs)." },
+
+    { "type": "h2", "text": "What else looks like booklice?" },
+    { "type": "p", "text": "Several other tiny, pale or brownish bugs turn up in the same damp rooms and pantries. The quick-ID table above compares them; these are the tells." },
+    { "type": "ul", "items": [
+      "**Springtails.** About the same size, but they jump: [Penn State's springtail page](https://extension.psu.edu/springtails) says most kinds that get into homes are about 1/25 to 1/13 inch (1 to 2 mm) long and fling themselves into the air with a forked appendage folded under the body, and [UC IPM's springtail Pest Notes](https://ipm.ucanr.edu/home-and-landscape/springtails/) says they do not bite people or pets. See [springtails](/blog/springtails).",
+      "**Fleas.** Bigger, and flattened the other way: [UC IPM's flea Pest Notes](https://ipm.ucanr.edu/home-and-landscape/fleas/) describes reddish-brown, wingless insects no larger than 1/8 inch, flattened from side to side, that take blood meals and bite people as well as cats and dogs. The guide to [bugs that look like fleas](/blog/bugs-that-look-like-fleas) sets them side by side, and [what fleas look like](/blog/what-do-fleas-look-like) has more photos.",
+      "**Grain mites.** Smaller still: [Purdue Extension's grain mite page](https://extension.entm.purdue.edu/publications/E-222/E-222.html) describes pale grayish-white mites about 1/50 inch long, with eight legs as adults, that can be so numerous on damp grain that it seems covered with a moving layer of dust.",
+      "**White cockroaches.** A cockroach that has just shed its skin is white, and [UC IPM's cockroach Pest Notes](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) says its new covering darkens as it hardens, usually within hours. See [white cockroaches](/blog/white-cockroach).",
+      "**Silverfish.** Much larger: UF describes wingless, carrot-shaped, scaly insects about 1/3 to 1/2 inch long, with two long antennae and three long tail appendages, that also eat paper sizing and like damp rooms. See [how to get rid of silverfish](/blog/how-to-get-rid-of-silverfish)."
+    ] },
+    { "type": "confused", "items": [
+      { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "About the same size, but it jumps with a spring folded under the body", "alt": "Pale tan springtail with dark brown bands and long antennae on a green leaf, with a scale bar" },
+      { "href": "/blog/baby-bed-bugs-nymphs", "name": "Bed bug nymph", "photo": "bed-bug-nymph", "note": "Rounder, with a head narrower than its body; it feeds on blood", "alt": "Rounded amber bed bug nymph with a dark patch inside its abdomen, on white fabric" },
+      { "href": "/blog/bugs-that-look-like-fleas", "name": "Cat flea", "photo": "cat-flea-on-fingertip", "note": "Reddish brown and flattened side to side, up to 1/8 inch; it jumps and bites", "alt": "Cat flea seen from the side on the ridged skin of a fingertip" },
+      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "gray-silverfish", "note": "Far bigger and carrot-shaped, with scales and three long tail bristles", "alt": "Gray, scaly silverfish with long antennae and tail bristles beside white-painted trim on an orange-brown surface" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of booklice?" },
+    { "type": "p", "text": "Dry the air, and they go. Penn State says the best control in most cases is fixing the water problem that lets them breed, and UMN says psocids do not survive when the humidity falls below 45 to 50%. Work through these steps in order." },
+    { "type": "ol", "items": [
+      "**Bring the humidity under 50%.** Penn State says keeping relative humidity below 50% prevents mold growth and booklouse development, so a dehumidifier or moisture absorber can be very effective; UMN adds fans to keep the air moving. For sizing, see [how to size a dehumidifier for a damp basement](/blog/what-size-dehumidifier-do-i-need-canada).",
+      "**Fix the water.** Repair leaky pipes and roofs, Penn State says. UMN says to check the roofline for poor attic ventilation, trees overgrowing the roof and leaf litter in the eaves, and to make sure any crawl space is ventilated and dry.",
+      "**Throw out infested food.** Penn State says stored food with booklice should be discarded, since it is contaminated with mold and their droppings; the Defense Centers for Public Health suggests putting it in a plastic bag first to reduce the spread of the adults.",
+      "**Store food tightly.** Penn State recommends tight-closing glass or plastic containers for food that is still clean, and the Defense Centers for Public Health suggests using opened packages within a week.",
+      "**Clean and vacuum.** UMN says small numbers can be ignored or vacuumed up; UF says to vacuum or wipe down shelves where food is stored and to launder or clean bedding, furniture and other movable furnishings.",
+      "**Get paper off the floor.** UMN and the Defense Centers for Public Health say to store boxes, bags, books and papers off the floor, and Clemson to keep books and papers in well-ventilated, uncluttered areas.",
+      "**Trace the source.** The Defense Centers for Public Health suggests sticky traps along walls and next to doors: booklice do not fly, so they walk into them, and the trap with the rising count leads to the infested product."
+    ] },
+    { "type": "p", "text": "Expect it to take a while. Clemson says booklice are hurt by humidity as low as 50 to 60% and can die within weeks if it stays low, while the Defense Centers for Public Health warns that colonies living in mold and dead insects can reinvade after the main source is gone." },
+
+    { "type": "h2", "text": "Do you need insecticide for booklice?" },
+    { "type": "p", "text": "Usually not. Penn State says pesticides are not normally necessary in homes, because fixing the water problem works better. UMN says insecticides are not effective while moisture remains, and that the products typically available to residents are generally not effective against psocids. Clemson notes that booklice are easily killed by insecticides but often rest in places that are hard to treat, so humidity control alone can be very effective. UF says chemical control is not usually needed once the moisture is down, and that anyone who uses a pesticide must follow the label directions." },
+    { "type": "p", "text": "For infested food there is a simpler step: the Defense Centers for Public Health describes freezing it at 0°F for one day to kill the eggs, nymphs and adults, and then throwing it away." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Tap a few onto a white index card or into a clear jar, photograph them beside a ruler marked in inches, and note where you found them and whether they jump. Your local cooperative extension office can help identify them." }
+  ],
+  "faqs": [
+    {
+      "question": "Are booklice harmful to humans?",
+      "answer": "No. Penn State Extension says booklice do not bite, are not vectors of disease and do not otherwise affect human or animal health, and the University of Minnesota says they are harmless to people and pets. The University of Florida adds that none of these insects are parasites, despite the name. In Penn State's account, the harm they do is to food: their droppings can contaminate stored products, so food with booklice in it should be thrown out."
+    },
+    {
+      "question": "Will booklice get in your hair?",
+      "answer": "None of the sources here describes booklice living on people. The University of Florida says none of these insects are parasites and few even look like lice, and Penn State says they do not bite and do not affect human health. They live where mold grows, in damp, warm, undisturbed places, UMN says, and they feed on molds, fungi, grains and other starchy material. If your scalp itches, see a healthcare provider rather than treating the house for booklice."
+    },
+    {
+      "question": "What kills booklice instantly?",
+      "answer": "None of the extension sources here recommends an instant fix; the lasting one is dry air. UMN says psocids do not survive when the humidity falls below 45 to 50 percent, and Clemson says they can die within weeks if it stays low. In the meantime, UMN says you can vacuum up the ones you see. For infested food, the Defense Centers for Public Health describes freezing it at 0°F for one day to kill every stage, then throwing it away. Penn State says pesticides are not normally necessary."
+    },
+    {
+      "question": "What causes booklice?",
+      "answer": "High humidity and the mold it grows. Penn State Extension says booklice are indicators of high humidity or moisture and feed on fungi and mold, which is why they gather on paper, books, wallpaper and stored grain. Clemson says they sometimes build up in newly constructed buildings with damp plaster and drywall, and Penn State points to leaky pipes and roofs. UMN says they can cause problems when stored cardboard gets wet, and that people commonly find them in summer."
+    },
+    {
+      "question": "Will booklice ever go away?",
+      "answer": "Yes, once the air dries out. UMN Extension says psocids do not survive when the relative humidity falls below 45 to 50 percent, and Clemson says booklice are harmed by humidity of 50 to 60 percent and can die within weeks if it stays low. The Defense Centers for Public Health warns that leftover colonies living on mold and dead insects can reinvade after the main source is gone, so keep the dehumidifier running and throw out infested food."
+    },
+    {
+      "question": "What are these tiny bugs in my bed?",
+      "answer": "They could be booklice or young bed bugs, and the head tells them apart. Penn State says a booklouse's head is wider than the segment behind it, while a bed bug's is narrower than its body, and that bed bugs are usually larger and rounder. Booklice do not bite, but bed bugs feed on blood, so bites are not from booklice. The EPA says bed bugs hide in the seams and tags of mattresses and box springs and in cracks of the bed frame and headboard."
+    },
+    {
+      "question": "What do booklice eat?",
+      "answer": "Mainly mold and fungi. UMN Extension says booklice usually feed on molds, fungi, grains, insect fragments and other starchy material, including glue from book bindings, and the University of Florida adds cereals and pollen. Penn State says that when they turn up on paper, books, wallpaper or flour, they are feeding on the mold growing there. The Defense Centers for Public Health lists cereals, pasta, flour, powdered milk, chocolate and yeast among the dry foods they commonly infest."
+    },
+    {
+      "question": "How long do booklice live?",
+      "answer": "Months, and they breed fast in warm weather. Clemson says a booklouse takes about a month to grow from egg to adult and that adults can live three months more, while the Defense Centers for Public Health says adults can live six months. Penn State says the life cycle can take less than a month in warm summer months and over three months when it is cool, and the University of Florida gives 30 to 60 days from egg to adult."
+    },
+    {
+      "question": "Where do booklice lay their eggs?",
+      "answer": "On paper and food, often out of sight. Clemson says the eggs are usually laid on paper or food products, Penn State says they are laid singly and often hidden under debris, and the University of Florida says they may be laid singly or in clusters and covered with silk or debris. Penn State counts about 60 eggs per female in summer and the Defense Centers for Public Health up to 100, hatching in two to four weeks into nymphs that look like small adults."
+    },
+    {
+      "question": "Do booklice damage books?",
+      "answer": "The sources disagree. Penn State Extension says booklice do not directly damage paper products or fabric, and that on paper and books they are feeding on the mold growing there. Clemson's older fact sheet says they damage damp books by feeding on moldy paper and the starchy glue used in bindings, and the University of Florida says they may damage books directly by eating the starch sizing in bindings and along the edges of pages. All three advise bringing the humidity below 50 percent, and Clemson says to keep books and papers in well-ventilated, uncluttered areas."
+    }
+  ],
+  "sources": [
+    { "title": "Booklice (Steve Jacobs; revised by Michael J. Skvarla, updated July 23, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/booklice" },
+    { "title": "Psocids (barklice, booklice) (Jeffrey Hahn and Stephen Kells, reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/booklice-barklice" },
+    { "title": "Booklice and Silverfish (ENY-225/IG094; F. M. Oi, P. G. Koehler, D. Branscome and B. E. Bayer, reviewed March 2026)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Booklice (HGIC 2403; D. A. Oswalt, E. P. Benson and P. A. Zungoli, published March 2004)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/booklice/" },
+    { "title": "Booklice (Psocids) (updated December 17, 2025)", "publisher": "Defense Centers for Public Health - Aberdeen, US Department of Defense", "url": "https://ph.health.mil/topics/entomology/fii/Pages/Booklice-%28Psocids%29.aspx" },
+    { "title": "Stored Product Pests: Grain Mite, Acarus siro (E-222; Linda J. Mason, November 2018)", "publisher": "Purdue Extension Entomology", "url": "https://extension.entm.purdue.edu/publications/E-222/E-222.html" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "How to Find Bed Bugs", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" },
+    { "title": "Pest Notes: Fleas (UC ANR Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "Springtails (Steve Jacobs, updated June 24, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/springtails" },
+    { "title": "Pest Notes: Springtails (UC ANR Publication 74136, updated August 2025)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/springtails/" },
+    { "title": "Pest Notes: Cockroaches (UC ANR Publication 7467, updated December 2019)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" }
+  ],
+  "disclaimer": "pesticide"
+}
