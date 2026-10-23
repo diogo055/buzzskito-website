@@ -1,0 +1,10 @@
+{
+ "id": "fruit-flies",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "fce1540b1bd3efed2a7cf523ead42ea69258edaeae032d376d3513e5e3037a2d",
+ "claimsChecked": 208,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 1,
+ "checkedOn": "2026-10-23"
+}

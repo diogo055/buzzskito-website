@@ -1,0 +1,10 @@
+{
+ "id": "flea-bites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "170c8c5753acfea0ad25d6f2c1e8c4fa6f3e1a7c230c79dc564d9d4ffef4e64c",
+ "claimsChecked": 260,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-23"
+}

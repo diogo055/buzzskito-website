@@ -1,0 +1,165 @@
+{
+  "slug": "fruit-flies",
+  "kind": "spoke",
+  "cluster": "flies",
+  "keyword": "how to get rid of fruit flies",
+  "alsoTargets": [
+    "fruit flies",
+    "fruit fly",
+    "how to get rid of fruit flies in kitchen",
+    "homemade fruit fly trap",
+    "where do fruit flies come from",
+    "fruit flies in house",
+    "fruit flies in drain"
+  ],
+  "metaTitle": "How to Get Rid of Fruit Flies: Find the Source",
+  "metaDescription": "Fruit flies breed in ripe produce, drains, trash and recycling. Remove the source, then trap the adults with a cider vinegar jar. Photos and fly ID table.",
+  "h1": "How to Get Rid of Fruit Flies: Find the Source, Trap the Adults, Keep Them Out",
+  "dek": "Where fruit flies come from, a checklist of the places they breed, the overnight drain test, the cider vinegar trap as extension entomologists build it, and how to tell fruit flies from drain flies, fungus gnats and phorid flies.",
+  "breadcrumb": "How to Get Rid of Fruit Flies",
+  "excerpt": "Fruit flies breed in ripe produce, drains, trash and recycling. Find and remove the source, trap the adults, check the drains and keep them from coming back.",
+  "datePublished": "2026-10-31",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**To get rid of fruit flies, find and remove whatever they are breeding in, usually ripe or rotting produce, a drain, the trash or the recycling, then trap the adults that are left.** The [University of Kentucky](https://entomology.mgcafe.uky.edu/ef621) says that unless the breeding sites are removed, the problem will continue no matter how often insecticides are applied.",
+    "bullets": [
+      "Fruit flies are about 1/8 inch long, tan in front and black behind, usually with red eyes, and a female can lay about 500 eggs, according to the University of Kentucky.",
+      "Kentucky says the cycle from egg to adult can finish in about a week, and that fruit juice spilled under a refrigerator can breed thousands of fruit flies.",
+      "To test a drain, Kentucky says to tape a clear plastic food storage bag over the opening overnight; flies caught in the bag mean that drain is breeding them.",
+      "[Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) says a trap can be as simple as a bowl of apple cider vinegar with a few drops of soap, but that traps or sprays give only temporary relief.",
+      "[Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/fruit-vinegar-and-pomace-flies) says there is no benefit to treating drains with bleach or ammonia; scrub the slime out with a stiff brush instead."
+    ]
+  },
+  "facts": {
+    "title": "Fruit fly or another small fly? Quick ID",
+    "head": ["Fly", "What it looks like", "Where it breeds", "First fix"],
+    "rows": [
+      ["Fruit fly", "About 1/8 inch and stout; tan in front, black behind; usually red eyes", "Ripe or rotting produce, trash and recycling, drains, disposals, mops and rags", "Remove the source, then trap the adults"],
+      ["Dark-eyed fruit fly", "A fruit fly with black eyes", "Drains, and around bathrooms", "Scrub the slime out of the drain"],
+      ["Drain fly (moth fly)", "1/16 to 1/5 inch; gray to black and fuzzy; leaf-shaped wings often held like a roof", "The gelatinous film in sink, shower, tub and floor drains", "Scrub the film out with a stiff brush"],
+      ["Fungus gnat", "1/16 to 1/8 inch; slender, with clear or dark wings", "Moist potting soil", "Water less often; treat or replace the soil"],
+      ["Phorid fly", "About 1/8 inch; humpbacked; often runs and stops before taking wing", "Moist decaying matter: garbage, drain pipes, wet potting soil, soil around sewer leaks", "Find and remove the decaying matter"]
+    ],
+    "caption": "Sizes and habits from the University of Kentucky, Texas A&M AgriLife Extension and University of Minnesota Extension, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What do fruit flies look like?" },
+    { "type": "p", "text": "Fruit flies are small, stout flies about 1/8 inch long, tan in front and black behind, usually with red eyes. That is how the [University of Kentucky's fruit fly fact sheet](https://entomology.mgcafe.uky.edu/ef621) describes them, and [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) adds a stout, cylindrical body and a length of about 1/8 inch (2 to 4 mm)." },
+    { "type": "figure", "src": "/guides/photos/fruit-fly.webp", "width": 1133, "height": 971, "alt": "Side view of a tan fruit fly with bright red eyes, clear iridescent wings and a dark-tipped abdomen, beside a printed 1 mm scale bar", "caption": "A male common fruit fly (Drosophila melanogaster) from La Habra, California, beside a 1 mm scale bar printed on the photo (about 1/25 inch). Note the red eyes and the dark rear end.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/13229956" },
+    { "type": "p", "text": "Not every fruit fly has red eyes. Texas A&M says fruit flies with black eyes, known as dark-eyed fruit flies, breed more often in drains, and also around bathrooms. Kentucky says that small flies or gnats in the kitchen are probably fruit flies. Fuzzy flies resting on the bathroom wall, slender flies around houseplants and humpbacked flies running across the counter are other small flies, sorted in the quick-ID table above and further down this page." },
+
+    { "type": "h2", "text": "Where do fruit flies come from?" },
+    { "type": "p", "text": "Mostly from produce brought into the house, and sometimes through the windows. Kentucky says tomatoes, melons, squash, grapes and other perishables brought in from the garden are often the cause, that over-ripened fruits or vegetables can already be infested when they come home, and that fruit flies are also attracted to rotting bananas, potatoes, onions and other unrefrigerated produce from the grocery store. Adults can also fly in from outside through poorly screened windows and doors." },
+    { "type": "p", "text": "They seem to appear out of nowhere because the cycle is fast. Kentucky says females lay their eggs near the surface of fermenting foods or other moist, organic material, a female can lay about 500 eggs, and the whole cycle from egg to adult can be completed in about a week; Texas A&M puts it at as few as 8 days under the best conditions. Fruit flies can be a problem all year, Kentucky adds, but are especially common in late summer and fall." },
+    { "type": "figure", "src": "/guides/photos/fruit-fly-mango-peel.webp", "width": 1200, "height": 1200, "alt": "Close side view of a fruit fly with red eyes, a bristly tan thorax and a banded abdomen standing on pale yellow fruit peel", "caption": "A common fruit fly on a mango peel left in a living room in Austin, Texas, where, the photographer says, the household's fruit flies were feeding and breeding.", "credit": "(c) Justin Williams, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/320069474" },
+    { "type": "p", "text": "Fruit is not the only source. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/fruit-vinegar-and-pomace-flies) says fruit need not be present to have fruit flies: they can breed anywhere fermenting organic matter stays wet, and the most likely such place in a home is a slow-moving or seldom-used sink, bathtub, shower or floor drain with a layer of slime above the water line." },
+
+    { "type": "h2", "text": "Step 1: How do you find what fruit flies are breeding in?" },
+    { "type": "p", "text": "Check every place that holds ripe produce or a moist film of fermenting food, starting where the flies gather. Iowa State says a steady presence of adult fruit flies means the larvae are developing nearby, and that finding the spot can take perseverance. The extension sources point to these:" },
+    { "type": "checklist", "title": "Places fruit flies breed", "items": [
+      "**The fruit bowl and counter.** Kentucky says fruit flies are attracted to rotting bananas and other unrefrigerated produce.",
+      "**Potatoes and onions.** Kentucky names both, and [University of Wisconsin-Madison Extension](https://hort.extension.wisc.edu/articles/fruit-flies-home/) says to check onions, potatoes, squash and other produce stored out of sight.",
+      "**Under and behind appliances.** Kentucky warns that fruit juice spilled under a refrigerator can breed thousands of fruit flies, Wisconsin says banana peels or apple cores swept under furniture or appliances can support significant numbers, and Iowa State adds wet areas under dripping pipes and refrigeration equipment.",
+      "**Drains and the garbage disposal,** especially slow or seldom-used drains with slime above the water line (Kentucky, Iowa State).",
+      "**Trash and recycling.** Kentucky lists trash containers, empty bottles and cans, and a recycling bin in the basement that is never emptied or cleaned; Texas A&M points to the wet bottoms of trash cans where a liner has leaked.",
+      "**Mops and cleaning rags,** both on Kentucky's list.",
+      "**Home canning, wine, cider and beer.** Kentucky says the containers must be well sealed, or fruit flies will lay their eggs under the lid."
+    ] },
+    { "type": "p", "text": "Then remove what you find: eat, throw out or refrigerate ripe produce, clean up spills, and empty and rinse the bins. Kentucky says cracked or damaged parts of fruits and vegetables should be cut away and discarded in case eggs or larvae are in the wounded area." },
+    { "type": "figure", "src": "/guides/photos/fruit-flies-lemon.webp", "width": 1200, "height": 558, "alt": "Three small fruit flies with red eyes and brown bodies on the pale pulp inside an old squeezed lemon half, the yellow rind at the left", "caption": "Fruit flies (genus Drosophila) on an old cut lemon half on a kitchen table in Moscow, Russia. Kentucky says fruit flies lay their eggs near the surface of fermenting foods.", "credit": "(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/103577509" },
+
+    { "type": "h2", "text": "Step 2: How do you trap the fruit flies that are left?" },
+    { "type": "p", "text": "Once the source is gone, a bait trap catches the adults still flying around. The extension sources build it three ways:" },
+    { "type": "ul", "items": [
+      "**Jar and paper funnel (University of Kentucky).** Roll a sheet of notebook paper into a funnel, set it in the mouth of a jar, and bait the jar with a few ounces of cider vinegar (Kentucky's drawing also allows a slice of banana). Kentucky says the trap will soon catch any remaining adult flies, which can then be killed or released outdoors.",
+      "**Bowl with soap (Texas A&M).** A trap can be as simple as a plastic bowl of an attractant such as apple cider vinegar, with a few drops of soap to drown flies that land on it. Texas A&M lists apple cider vinegar, wine, bananas, orange slices and apple cider as suitable attractants, says a little yeast makes bait more attractive though fermenting bait can smell, and says such baits may need replacing every few days.",
+      "**Jar with a top funnel (University of Wisconsin).** Bait a jar with ripe bananas, pears or wine and fit a funnel on top to keep the adults inside; Wisconsin adds that old wine bottles with residue inside also capture adults."
+    ] },
+    { "type": "p", "text": "Set the traps wherever you see flies, as Kentucky advises. What a trap cannot do is end the problem: Texas A&M says bait traps alone rarely provide adequate fly control, though they can help pinpoint the source, show whether control is working and reduce numbers while you find and remove breeding sites, and Wisconsin calls trapping short-term control." },
+    { "type": "figure", "src": "/guides/photos/fruit-fly-banana-peel.webp", "width": 1104, "height": 827, "alt": "A reddish-brown fruit fly with red eyes and clear wings standing on speckled yellow banana skin", "caption": "A fruit fly of the Drosophila melanogaster group on a banana in a kitchen waste container in Auckland, New Zealand. Kentucky lists trash containers among the places fruit flies breed.", "credit": "(c) Saryu Mae 前 朝琉, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/107022101" },
+    { "type": "media", "needed": "Fruit flies caught in a homemade cider vinegar trap (a jar with a paper funnel, or a bowl with soap) on a US kitchen counter, beside a ruler marked in inches, the flies identified as Drosophila; public domain or CC0" },
+
+    { "type": "h2", "text": "Step 3: How do you get rid of fruit flies in a drain?" },
+    { "type": "p", "text": "Test the drain, then scrub out the slime the larvae live in. Kentucky's test is to tape a clear plastic food storage bag over the drain or disposal opening overnight: if flies are caught in the bag by morning, that drain is breeding them. Iowa State suggests covering each drain with a plastic film." },
+    { "type": "p", "text": "To clean a drain, Iowa State says to scrub slow-moving drains with a stiff brush or other tool, rinse drains that cannot be scrubbed with water under high pressure, or use a bacterial drain treatment that biodegrades the organic matter, following its label. It says there is no benefit to treating drains with bleach or ammonia." },
+    { "type": "p", "text": "Fuzzy, moth-like flies on the bathroom wall are drain flies, not fruit flies. [How to get rid of drain flies](/blog/how-to-get-rid-of-drain-flies) covers them, their larvae and the hidden sources, such as a broken drain line under the floor." },
+
+    { "type": "h2", "text": "Is it a fruit fly or another small fly?" },
+    { "type": "p", "text": "If the vinegar trap stays empty, check what you are trying to catch. [University of Minnesota Extension's guide to flies](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies) describes drain flies, also called moth flies, as dark and fuzzy, with leaf-shaped wings often held roof-like over the body, breeding in the gelatinous film in sink, shower and bathtub drains; Texas A&M gives them as 1/16 to 1/5 inch long. Texas A&M describes fungus gnats as slender flies 1/16 to 1/8 inch long with clear or dark wings, whose larvae live in moist potting soil, and phorid flies as humpbacked flies about 1/8 inch long whose enlarged hind legs make them good runners; they often run and stop repeatedly before taking wing." },
+    { "type": "p", "text": "[How to get rid of gnats](/blog/how-to-get-rid-of-gnats) sorts all the small flies people call gnats, including how gnats differ from fruit flies, and [the fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats) deals with the ones in houseplant soil. Bigger flies, such as house flies, are sorted in [the guide to flies in the house](/blog/flies-in-house)." },
+    { "type": "p", "text": "Small moths fluttering around the kitchen are not flies at all. [UC IPM's Pest Note on pantry pests](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) describes the Indian meal moth as 1/3 to 2/5 inch long, with reddish-brown forewings that have a coppery luster on the outer two-thirds, and says small moths flying around the kitchen are often the first sign of an infestation. Its larvae spin silk webbing as they grow. [Moths in the house](/blog/moths-in-house) sorts them from clothes moths." },
+    { "type": "confused", "items": [
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly", "photo": "drain-fly", "note": "Fuzzy and moth-like, with broad hairy wings; breeds in the slime inside drains", "alt": "Fuzzy gray-brown drain fly seen from above, its broad, oval, hairy wings spread on a pale surface" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat", "note": "Slender, 1/16 to 1/8 inch, with clear or dark wings; its larvae live in moist potting soil", "alt": "Slender dark-winged fungus gnat with long legs and antennae on wood" },
+      { "href": "/blog/how-to-get-rid-of-gnats", "name": "Phorid fly", "photo": "phorid-fly", "note": "Humpbacked, about 1/8 inch; a good runner that often runs and stops before flying", "alt": "Humpbacked tan phorid fly with a large black eye, beside a printed scale bar of 1 mm (about 1/25 inch)" },
+      { "href": "/blog/moths-in-house", "name": "Indian meal moth", "photo": "indian-meal-moth", "note": "A small moth, not a fly, with coppery outer wings; its larvae spin silk webbing", "alt": "Indian meal moth at rest on a screen, its folded wings pale near the head and dark coppery brown toward the tips" }
+    ] },
+
+    { "type": "h2", "text": "Should you spray insecticide for fruit flies?" },
+    { "type": "p", "text": "Rarely, and only for the last adults after the source is gone. Kentucky says that unless breeding sites are removed or cleaned, the problem will continue no matter how often insecticides are applied; once the source is eliminated, a pyrethrum-based aerosol may be used to kill any remaining adult flies, but Kentucky calls its jar trap a better approach. Texas A&M says that once breeding areas are cleaned or eliminated you should not need insecticides, and that pyrethrin aerosols or other flying insect sprays give temporary control of adults indoors. Wisconsin says pyrethrin sprays control only the adults present at the time of spraying, with no residual control, and Iowa State calls household sprays labeled for fly control temporary relief at best." },
+    { "type": "p", "text": "If you use one, read the label first. [EPA's introduction to pesticide labels](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) says every label carries the statement that using the product in a manner inconsistent with its labeling is a violation of federal law: the label is the law. University of Minnesota Extension adds that the area you want to treat must be listed on the label. None of the extension sources cited here recommend foggers or bleach for fruit flies." },
+
+    { "type": "h2", "text": "How do you keep fruit flies from coming back?" },
+    { "type": "ul", "items": [
+      "**Eat, toss or refrigerate ripe produce.** Kentucky's prevention starts there, along with cleaning up spills and waste.",
+      "**Keep drains clean.** Scrub slow and seldom-used drains before slime builds up, the breeding site Iowa State calls most likely in a home.",
+      "**Empty the bins.** Empty trash and recycling often and rinse them out; Kentucky lists trash containers, empty bottles and cans, and recycling bins among the breeding sites.",
+      "**Seal what ferments.** Kentucky says home-canned produce, wine, cider and beer need well-sealed containers.",
+      "**Screen windows and doors.** Kentucky recommends tight-fitting 16-mesh screens to help keep adult fruit flies from coming in from outdoors."
+    ] },
+    { "type": "p", "text": "For other bugs in the kitchen and pantry, browse [the full library of pest guides](/learn). Readers in Canada can use [the Canadian edition of this guide](/blog/how-to-get-rid-of-fruit-flies)." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Press a few flies onto clear tape, photograph them beside a ruler marked in inches, and note where you found them. Your state's cooperative extension office can tell a fruit fly from a drain fly, a fungus gnat or a phorid fly." }
+  ],
+  "faqs": [
+    {
+      "question": "Why do I suddenly have so many fruit flies?",
+      "answer": "Most likely, something has been breeding them for a week or so. The University of Kentucky says the cycle from egg to adult can be completed in about a week and that a female can lay about 500 eggs, so one piece of over-ripe produce that was already infested when it came home can produce a crowd quickly. Adults can also fly in through poorly screened windows and doors. Kentucky says fruit flies are especially common in late summer and fall."
+    },
+    {
+      "question": "Does apple cider vinegar and dish soap get rid of fruit flies?",
+      "answer": "It catches adults, but it will not end the problem by itself. Texas A&M AgriLife Extension says a trap can be as simple as a plastic bowl of apple cider vinegar with a few drops of soap to drown flies that land on it. It also says bait traps alone rarely provide adequate fly control and that eliminating the breeding site is essential for complete control. Remove the produce, spills or drain slime the flies breed in first, then trap the rest."
+    },
+    {
+      "question": "What kills fruit flies instantly?",
+      "answer": "A spray kills only the adults present, so it helps only after the breeding source is gone. The University of Kentucky says a pyrethrum-based aerosol may then be used on the remaining adults, but calls a jar trap baited with cider vinegar a better approach. Wisconsin Extension says pyrethrin sprays control the adults present at the time of spraying but leave no residual control. If you spray, read the label first: EPA says using a product in a way its labeling does not allow is a violation of federal law."
+    },
+    {
+      "question": "Can fruit flies live in drains?",
+      "answer": "Yes. Iowa State University Extension says the most likely breeding site for fruit flies in a home is a slow-moving or seldom-used sink, bathtub, shower or floor drain with a layer of slime above the water line, and Texas A&M says dark-eyed fruit flies breed more often in drains. To check a drain, the University of Kentucky suggests taping a clear plastic food storage bag over the opening overnight. Flies in the bag by morning mean that drain needs scrubbing with a stiff brush."
+    },
+    {
+      "question": "Does pouring boiling water down the drain kill fruit flies?",
+      "answer": "It is a fallback, not the first fix. Iowa State University Extension lists slowly pouring boiling water down the sides of the drain pipe as one option for drains that cannot be scrubbed, alongside high-pressure rinsing and bacterial drain treatments, but its first step is scrubbing out the slime with a stiff brush. University of Minnesota Extension says hot or boiling water is not effective against drain flies. Iowa State says there is no benefit to treating drains with bleach or ammonia."
+    },
+    {
+      "question": "How long does it take to get rid of fruit flies?",
+      "answer": "Plan on a week or two after the source is gone. The University of Kentucky says the cycle from egg to adult can be completed in about a week and Wisconsin Extension says in 8 to 10 days, so flies already developing can keep appearing for that long. A trap catches them as they emerge. If new flies keep showing up after that, something is still breeding them: Iowa State says a steady presence of adults means the larvae are developing nearby."
+    },
+    {
+      "question": "Are fruit flies harmful?",
+      "answer": "They are mainly a nuisance. The University of Kentucky says fruit flies are primarily nuisance pests but have the potential to contaminate food with bacteria and other disease-producing organisms. That is one more reason to deal with the source: Kentucky advises eating, discarding or refrigerating ripe produce, cleaning up spills and waste, and cutting away and discarding cracked or damaged parts of fruits and vegetables in case eggs or larvae are in the wounded area."
+    },
+    {
+      "question": "Should you throw away fruit that has fruit flies on it?",
+      "answer": "Not always. The University of Kentucky says fruit fly larvae feed near the surface of the fermenting mass, so damaged or over-ripened portions of fruits and vegetables can be cut away without discarding the rest. It says cracked or damaged portions should be cut away and discarded in case eggs or larvae are in the wounded area, and that ripened produce should be eaten, discarded or refrigerated. Throw out anything that is rotting through."
+    },
+    {
+      "question": "Why are there fruit flies in my bathroom?",
+      "answer": "Probably a drain. Texas A&M AgriLife Extension says fruit flies with black eyes, known as dark-eyed fruit flies, breed more often in drains and around bathrooms, and Iowa State says slow or seldom-used sink, tub, shower and floor drains with slime above the water line are the most likely breeding sites in a home. If the flies are fuzzy and moth-like and rest on the walls, they are drain flies, which University of Minnesota Extension says breed in the gelatinous film in drains."
+    },
+    {
+      "question": "Why do I have fruit flies when there is no fruit out?",
+      "answer": "Because fruit flies breed in more than fruit. Iowa State University Extension says fruit need not be present: they breed wherever fermenting organic matter stays wet, such as drains, wet areas under dripping pipes and refrigeration equipment, garbage containers and discarded bottles and cans. The University of Kentucky adds mops, cleaning rags, a recycling bin that is never emptied, potatoes and onions, and fruit juice spilled under a refrigerator, which it says can breed thousands of fruit flies."
+    }
+  ],
+  "sources": [
+    { "title": "ENTFACT-621: Fruit Flies (Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef621" },
+    { "title": "Indoor Flies and Their Control (ENTO-050; Michael Merchant)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Fruit, Vinegar, and Pomace Flies (Yard and Garden, September 12, 2016)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/fruit-vinegar-and-pomace-flies" },
+    { "title": "Fruit Flies in the Home (XHT1102; Phil Pellitteri, UW Insect Diagnostic Lab)", "publisher": "University of Wisconsin-Madison Division of Extension", "url": "https://hort.extension.wisc.edu/articles/fruit-flies-home/" },
+    { "title": "Flies (Jeffrey Hahn and Valerie Cervenka, reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies" },
+    { "title": "Pest Notes: Pantry Pests (UC ANR Publication 7452; D. H. Choe, updated March 2013)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Introduction to Pesticide Labels (updated June 2, 2026)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" }
+  ],
+  "disclaimer": "pesticide"
+}

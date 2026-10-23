@@ -107,3 +107,17 @@ Owner's words: "build the 20 most stat changing pages u can right now. Backed by
   3. the 7 new pages
   4. water-bugs-vs-cockroaches
   - **Oct 25:** do-ants-bite and the wave-2 pages.
+- **~18:05 UTC: `6aab442f` pushed.**
+  - The Oct 24 morning job releases paper-wasps, mud-daubers, wheel-bugs, pill-bugs, booklice, jerusalem-crickets and shrews. All are checked, and their sha matches.
+  - drain-flies (Oct 31) and bed-bug-bites (Nov 11) are committed and checked.
+  - Live fix: the masked hunter size on kissing-bug-look-alikes, now from Penn State.
+- **AT EACH US-EDITION RELEASE (Oct 31: flea-bites, fruit-flies, how-to-get-rid-of-drain-flies; Nov 11: what-do-bed-bug-bites-look-like):**
+  1. Add the pair to `REGIONAL_PAIRS` in `lib/guides.ts`: flea-bites ↔ flea-bites-on-humans, fruit-flies ↔ how-to-get-rid-of-fruit-flies, drain flies ↔ how-to-get-rid-of-drain-flies-canada, bed bug bites ↔ bed-bug-bites.
+  2. Do the link repoints in `data/god-build/research/volume-20-upgrades.md`, section 4 (12 + 6 + 1 + 14 guides). Validate and amend each one.
+  3. Add the amazon.com picks:
+     - flea-bites: flea comb
+     - fruit-flies: fruit fly trap
+     - drain flies: enzyme drain cleaner
+     - bed bug bites: hydrocortisone cream
+     - Check each against the page text first.
+  - The morning job releases the pages, but it does NOT do steps 1-3.

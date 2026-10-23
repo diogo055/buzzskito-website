@@ -1,0 +1,200 @@
+{
+  "slug": "flea-bites",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "flea bites",
+  "alsoTargets": [
+    "flea bites on humans",
+    "what do flea bites look like",
+    "what does a flea bite look like",
+    "flea bite",
+    "how long do flea bites last",
+    "flea bites vs bed bug bites",
+    "flea bite treatment"
+  ],
+  "metaTitle": "Flea Bites: What They Look Like on Humans",
+  "metaDescription": "Flea bites are small, very itchy bumps, often in threes on the feet, ankles and calves. Photos, how long they last, look-alikes and when to see a doctor.",
+  "h1": "Flea Bites on Humans: What They Look Like, How Long They Last and What to Do",
+  "dek": "Real photos of flea bites, a quick-ID table against bed bug, mosquito, chigger, scabies and spider bites, the white-sock test that confirms fleas, and when a bite needs a doctor, from CDC, dermatology and extension sources.",
+  "breadcrumb": "Flea Bites",
+  "excerpt": "What flea bites look like on people, where they show up, how long they last, how to tell them from bed bug bites and when to see a doctor, with real photos.",
+  "datePublished": "2026-10-31",
+  "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
+  "quickAnswer": {
+    "lead": "**Flea bites are small, very itchy bumps, often in groups of three, a line or a cluster, most often on the legs.** [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/21718-flea-bites) says they are most common on the feet, calves and ankles, rarely appear above the knee unless you spend a lot of time sitting or lying down, do not swell to the size of mosquito bites and last only a few days.",
+    "bullets": [
+      "[MedlinePlus](https://medlineplus.gov/ency/article/001329.htm) says bites often occur on the legs and where clothes fit close to the body, such as the waist, buttocks and thighs, and that people allergic to flea bites can get blisters.",
+      "Each bite is a small red spot inside a red halo, usually without much swelling, and in people who react, itching can persist up to 5 days, according to [UC IPM's Pest Note on fleas](https://ipm.ucanr.edu/home-and-landscape/fleas/).",
+      "People allergic to flea bites can get hives, a rash or itching all over, usually 12 to 24 hours after a bite, and the reaction may last a week or more, says [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf).",
+      "Not everyone reacts: [Cleveland Clinic's page on papular urticaria](https://my.clevelandclinic.org/health/symptoms/papular-urticaria) says just one child in a family might react to flea bites.",
+      "Go to the emergency room for trouble breathing, a throat that feels like it is closing, or swollen lips, tongue or face after a bite, the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) advises."
+    ]
+  },
+  "facts": {
+    "title": "Flea bites or something else? Quick ID",
+    "head": ["Biter", "What you see", "Where on the body", "Timing"],
+    "rows": [
+      ["Flea", "Small, very itchy bumps, often in threes, a line or a cluster; may have a ring or halo", "Cleveland Clinic: mostly the feet, calves and ankles, rarely above the knee. MedlinePlus: the legs and where clothes fit close, such as the waist", "Usually gone in a few days; an allergic itch can last up to 5 days"],
+      ["Bed bug", "Several welts, often in a zigzag line; specks of blood on the bedding", "Skin left bare in bed, such as the face, hands, arms, feet and legs", "First bites can take as long as 14 days to itch"],
+      ["Mosquito", "A puffy, reddish bump, then a hard, itchy, reddish-brown bump; sometimes a dark spot in the center", "Any skin a mosquito reaches; they can bite through thin clothes", "Puffy bump within minutes, hard bump a day or so later; lasts a few days"],
+      ["Chigger", "A speckled line of very itchy red spots or pimples, often where clothing fits tight", "Ankles, lower legs, behind the knees, waist and groin", "Itch can start up to 3 hours after contact, is worst for 24 to 48 hours, fades over about 2 weeks"],
+      ["No-see-um (biting midge)", "Stinging or burning bites with well-defined red areas; often mistaken for mosquito bites", "Any skin they reach; small enough to fly through window screens", "Females bite most at dusk and dawn"],
+      ["Scabies mite", "A pimple-like, itchy rash; tiny burrows just under the skin", "Between the fingers; folds of the wrist, elbow, knee and armpit; waist and buttocks", "Itch worst at night; 3 to 6 weeks to first symptoms, 1 to 4 days after a past case"],
+      ["Spider", "Itching, redness, swelling and pain, at worst usually no more than a bee sting", "Where a spider was squeezed or lain on against the skin", "Symptoms usually last a few minutes to a few hours"]
+    ],
+    "caption": "From Cleveland Clinic, MedlinePlus, UC IPM, the American Academy of Dermatology, CDC and Montana State University, each linked on this page. The same bite can look different on different people."
+  },
+  "body": [
+    { "type": "h2", "text": "What do flea bites look like on humans?" },
+    { "type": "p", "text": "Flea bites look like small, itchy bumps, sometimes with a ring or halo around each one, in a straight line or a cluster. [Cleveland Clinic's flea bite page](https://my.clevelandclinic.org/health/diseases/21718-flea-bites) says a small, discolored bump forms after a flea bites, a ring or halo may appear around it, and flea bites do not swell to the size of mosquito bites. MedlinePlus calls them small, very itchy red bumps, often in groups of three, and UC IPM describes a small central red spot surrounded by a red halo, usually without much swelling." },
+    { "type": "figure", "src": "/guides/photos/flea-bites-ankles-cdc.webp", "width": 1200, "height": 1763, "alt": "Black-and-white photo of a seated woman's lower legs and feet in pointed shoes, with dozens of small dark spots clustered around both ankles and shins", "caption": "Bites that CDC attributes to the cat flea, around a woman's ankles and lower legs, in a CDC photograph taken in Decatur, Georgia, in 1963. The photo is black and white, so the redness does not show: each bite reads as a dark dot.", "credit": "CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25258" },
+    { "type": "p", "text": "How strongly skin reacts varies from person to person. UC IPM says a flea bite usually causes minor itching but can become increasingly irritating to people with sensitive or reactive skin, and MedlinePlus says people with a flea-bite allergy may develop blisters. Color varies too: Cleveland Clinic's page on papular urticaria, a reaction in which the immune system overreacts to bug bites, says the bumps can be red, purple or another color, and lighter or darker than the skin around them." },
+    { "type": "p", "text": "A photo can suggest fleas but cannot prove them. [UC IPM's guide to unexplained itching](https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/) says bed bugs, fleas, mites and mosquitoes can all cause bite marks, swelling and itching, and that a conclusive answer takes a specimen identified by a trained entomologist. Treat the photos here as examples, not a diagnosis; the surest sign is finding the fleas themselves, as described further down." },
+
+    { "type": "h2", "text": "Where do fleas bite people?" },
+    { "type": "p", "text": "Mostly low on the legs. Cleveland Clinic says flea bites most commonly occur on the legs, especially the feet, calves and ankles, and rarely appear above the knee unless you spend a lot of time sitting or lying down. Bites can land higher, though: [MedlinePlus's article on fleas](https://medlineplus.gov/ency/article/001329.htm) adds the places where clothing fits tightly, such as the waist, buttocks, thighs and lower abdomen." },
+    { "type": "figure", "src": "/guides/photos/flea-bites-ankle-foot-cdc.webp", "width": 1200, "height": 1196, "alt": "Black-and-white close view of a woman's ankle and the top of her foot above a pointed shoe, with small dark spots in loose clusters", "caption": "A closer view of the same patient in CDC's black-and-white 1963 series: clusters of small dark spots on the ankle and the top of the foot, which CDC attributes to cat flea bites.", "credit": "CDC/ Dr. H.G. Scott (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25257" },
+    { "type": "p", "text": "That pattern fits how fleas live. [Texas A&M AgriLife Extension's flea guide](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf) says adult fleas prefer to wait and jump onto a passing animal, and that the cat flea, the species behind most flea problems in Texas, does not normally live on humans but can bite people who handle or sleep with infested animals." },
+    { "type": "figure", "src": "/guides/photos/flea-bites-lower-leg.webp", "width": 1200, "height": 900, "alt": "Lower leg and ankle resting on a blue towel, with about fifteen small red dots scattered along the side of the lower leg and around the ankle bone", "caption": "Flea bites on a lower leg and ankle, as labeled by the person who photographed them: small red spots with little swelling around them. A photo alone cannot confirm what bit.", "credit": "Maslesha, CC BY-SA 4.0, via Wikimedia Commons", "license": "CC-BY-SA-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flea_Bites_to_the_Lower_Leg_of_a_Human_Subject_01.jpg" },
+    { "type": "media", "needed": "A color clinical photo of flea bites on the ankle or lower leg, attributed to fleas by a physician or a health agency, public domain or CC0; ideally on darker skin, where redness is harder to see, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "How long do flea bites last?" },
+    { "type": "p", "text": "Usually a few days. Cleveland Clinic says flea bites only last a few days. Reactions can run longer: UC IPM says just one bite can set off an allergic reaction in some people, with itching that can persist up to 5 days, and Texas A&M says people allergic to flea bites can get hives, rashes or itching all over, usually 12 to 24 hours after a bite, which may last a week or more." },
+    { "type": "p", "text": "Bumps that keep coming back for weeks may be a reaction as much as new bites. [Cleveland Clinic's page on papular urticaria](https://my.clevelandclinic.org/health/symptoms/papular-urticaria), itchy hives or blisters that appear when the immune system overreacts to bug bites, names fleas among the causes. It says the bumps may last several days or a week at a time, new ones can appear as old ones fade, and the condition can keep returning for months or years. Children get it more often than adults and can outgrow it, it adds." },
+
+    { "type": "h2", "text": "Why do flea bites itch on one person and not another?" },
+    { "type": "p", "text": "Because people react differently to the same bites. Cleveland Clinic says the immune system treats flea saliva as an allergen and releases histamine, the chemical that makes flea bites itch and swell. Its papular urticaria page says not everyone gets hives from a bug bite, and that just one child in a family might react to flea bites." },
+    { "type": "p", "text": "Fleas also go for animals first. Cleveland Clinic says fleas prefer to bite animals and will bite anyone when no animal is around, drawn by body heat, breathing (carbon dioxide), movement and vibrations. [CDC's page on fleas](https://www.cdc.gov/fleas/about/index.html) likewise says fleas prefer animal hosts but will resort to biting people when animals are unavailable." },
+
+    { "type": "h2", "text": "Is it flea bites or bed bug bites?" },
+    { "type": "p", "text": "Look at where and when: flea bites gather on the feet, ankles and lower legs, while bed bugs bite skin left bare in bed and their welts often run in a zigzag line. Cleveland Clinic says bed bug bites look similar to flea bites but often show a distinct line or zigzag pattern, and that bed bugs bite exposed skin, such as the face, hands, arms, feet and legs, while people sleep." },
+    { "type": "p", "text": "Timing helps too. The [American Academy of Dermatology's bed bug page](https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms) says the first bed bug bites can take as long as 14 days to itch, and lists specks of blood on the bedding among the signs. Allergic reactions to flea bites, by contrast, usually show up within 12 to 24 hours, according to Texas A&M." },
+    { "type": "checklist", "title": "Fleas or bed bugs? Check these", "items": [
+      "**Bites mostly below the knee, around the ankles and feet?** That fits fleas.",
+      "**Welts in a zigzag line on the face, hands, arms or legs after a night in bed?** That fits bed bugs.",
+      "**A pet that scratches, or tiny dark insects jumping onto white socks?** That points to fleas.",
+      "**Specks of blood on the sheets?** Look in the mattress seams for bed bugs.",
+      "**Bites that took a week or more to start itching?** Bed bug bites can be that slow; flea reactions usually are not."
+    ] },
+    { "type": "p", "text": "[What bed bug bites look like](/blog/what-do-bed-bug-bites-look-like) has photos of those welts, [bites with no sign of bed bugs](/blog/bed-bug-bites-but-no-bed-bugs) sorts the other night biters, and [the bug bite identification chart](/learn/bug-bites) compares every common bite side by side." },
+
+    { "type": "h2", "text": "What else looks like flea bites?" },
+    { "type": "p", "text": "Mosquito, chigger, no-see-um and spider bites and the scabies rash are the usual mix-ups. The quick-ID table above sets them side by side; here is what the sources say about each." },
+    { "type": "ul", "items": [
+      "**Mosquito bites.** [CDC's page on mosquito bites](https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html) describes a puffy, reddish bump a few minutes after the bite, then a hard, itchy, reddish-brown bump a day or so later. Cleveland Clinic says the bump can show a small, dark spot in the center, and its [page on mosquito bites](https://my.clevelandclinic.org/health/diseases/17695-mosquito-bites) says mosquitoes can bite through thin clothes and their bites last a few days.",
+      "**Chigger bites.** [Cleveland Clinic's chigger page](https://my.clevelandclinic.org/health/diseases/23267-chigger-bites) describes a speckled line of red spots or pimples where clothing fits tightly, such as sock lines and waistbands, commonly on the ankles, lower legs, behind the knees, the waist and the groin. The itch is most intense during the first 24 to 48 hours, then slowly fades over about two weeks, and chiggers do not burrow into the skin. See [chigger bites](/blog/chigger-bites).",
+      "**No-see-um bites.** These biting midges, usually about 1/25 to 1/10 inch (1 to 2.5 mm) long, are tiny enough to fly through window screens, and the females are most active at dusk and dawn, according to [Montana State University Extension](https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf). Their bites can sting or burn, leave well-defined red areas and are often mistaken for mosquito bites. See [no-see-um bites](/blog/no-see-um-bites).",
+      "**Scabies.** [CDC's scabies symptoms page](https://www.cdc.gov/scabies/signs-symptoms/index.html) describes intense itching, especially at night, and a pimple-like rash, often between the fingers, in the folds of the wrist, elbow, knee or armpit, and on the waist and buttocks. Symptoms can take three to six weeks to appear the first time, or one to four days in someone who has had scabies before. [Scabies vs bed bugs](/blog/scabies-vs-bed-bugs) compares the two.",
+      "**Spider bites.** [UC IPM's Pest Note on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) says people and their physicians often blame spiders for skin lesions with no proof, and names fleas among the biters mistaken for them. A spider does not try to bite unless it is squeezed, lain on or similarly provoked, it says, and at worst the bite is usually no more severe than a bee sting. See [what a spider bite looks like](/blog/what-does-a-spider-bite-look-like)."
+    ] },
+    { "type": "p", "text": "Itching is not always a bite at all. UC IPM says itching, crawling or burrowing sensations may come from many unrelated medical conditions, and that the first person to contact is your family physician or primary health care provider. To narrow it down from your own answers, the [bug bite identifier](/tools/bug-bite-identifier) asks six questions and names the most likely biters." },
+    { "type": "confused", "items": [
+      { "href": "/blog/what-do-bed-bug-bites-look-like", "name": "Bed bug bites", "photo": "bed-bug-bites-forearm", "note": "Welts often in a zigzag line on skin bare in bed; first bites can take up to 14 days to itch", "alt": "Several raised red welts scattered along a forearm resting on a white sheet" },
+      { "href": "/blog/chigger-bites", "name": "Chigger bites", "photo": "chigger-bites-ruler", "note": "Very itchy red spots in a line at sock lines and waistbands; also behind the knees and in the groin", "alt": "Three small red welts on a hairy arm beside a ruler marked in inches" },
+      { "href": "/blog/no-see-um-bites", "name": "No-see-um bites", "photo": "biting-midge-bites-ankles", "note": "Stinging bites from midges small enough to fly through screens, most active at dusk and dawn", "alt": "A man's lower legs with rolled-down white socks and reddish bite marks just above the ankles" },
+      { "href": "/blog/scabies-vs-bed-bugs", "name": "Scabies", "photo": "scabies-rash-hand", "note": "A pimple-like rash between the fingers and in skin folds that itches most at night", "alt": "Close view of a small pimple-like rash in the webbing between two fingers" }
+    ] },
+
+    { "type": "h2", "text": "How can you tell if fleas are biting you?" },
+    { "type": "p", "text": "Find the fleas. UC IPM's check is to walk around the places your pet rests wearing white socks pulled up to the knee: if fleas are there, they jump onto the socks and are easy to see. It also suggests combing pets at regular intervals to keep track of them." },
+    { "type": "figure", "src": "/guides/photos/cat-flea-on-fingertip.webp", "width": 1024, "height": 768, "alt": "Magnified side view of a shiny reddish-brown cat flea with long, bristly hind legs, standing on the ridged skin of a fingertip", "caption": "A cat flea on a fingertip; the photographer, in Fort Worth, Texas, says it was one of the fleas he found on his cats. Texas A&M describes adult cat fleas as about 1/8 inch long, reddish brown and wingless, with long hind legs for jumping.", "credit": "(c) Sam Kieschnick, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/371364750" },
+    { "type": "p", "text": "Then check the pets and where they sleep. Texas A&M describes flea dirt, the feces of adult fleas, as a fine, reddish-black dust in pet fur and bedding, and says flea larvae are most likely to be found in infested pet bedding. [Flea dirt](/blog/flea-dirt) shows how to test the specks, [what fleas look like](/blog/what-do-fleas-look-like) has close-ups of the adults, and [flea eggs](/blog/flea-eggs) shows the eggs." },
+    { "type": "figure", "src": "/guides/photos/flea-dirt-on-dog.webp", "width": 1200, "height": 1600, "alt": "A patch of white fur in a ginger dog's coat, parted to show many tiny dark specks on the pale skin", "caption": "Flea dirt, the tiny dark specks in this patch of white fur, on a dog examined at an animal health clinic, in a 2024 CDC photograph.", "credit": "CDC/ Ann Carpenter; DVM; photo: Ann Carpenter; DVM (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=30838" },
+    { "type": "p", "text": "No pets does not rule fleas out. Texas A&M says a building can become infested with no pets in it, from a previous occupant's pets with fleas or from wildlife such as bats, rats, squirrels, raccoons and feral cats and dogs living under or around it, and that long-vacant homes can come alive with fleas when new tenants move in, because adult fleas can wait in their cocoons for a host. MedlinePlus notes that pet owners may not be bothered until the pet has been gone for a while, when the fleas look for other food and bite people." },
+    { "type": "p", "text": "If the insect you caught is not a flea, [bugs that look like fleas](/blog/bugs-that-look-like-fleas) sorts the other tiny jumpers and biters." },
+
+    { "type": "h2", "text": "How do you treat flea bites?" },
+    { "type": "p", "text": "Most flea bites clear up without treatment, and simple care eases the itch. Cleveland Clinic says flea bites typically don't need treatment and that over-the-counter anti-itch creams or ointments and antihistamines can relieve itchy skin. These steps come from the medical sources cited here:" },
+    { "type": "ol", "items": [
+      "**Keep broken skin clean.** If scratching breaks the skin, Cleveland Clinic says to keep the area clean by washing it with soap and water and to cover the bites with a bandage.",
+      "**Cool them.** Cleveland Clinic suggests an ice pack wrapped in a light towel over the area for at least 10 minutes.",
+      "**Calm the itch.** MedlinePlus says an over-the-counter hydrocortisone cream can relieve itching and oral antihistamines may help, and the AAD names the same two options for most bug bites. Use them as the package directs.",
+      "**Don't scratch.** MedlinePlus says scratching can lead to a skin infection, and Cleveland Clinic says it risks breaking the skin.",
+      "**Deal with the fleas.** The bites stop when the fleas are gone: [how to get rid of fleas](/blog/how-to-get-rid-of-fleas) covers the pets, the house and the yard."
+    ] },
+
+    { "type": "h2", "text": "When should you see a doctor for flea bites?" },
+    { "type": "p", "text": "See a healthcare provider if the bites set off an allergic reaction, look infected or last longer than a few days, and get emergency care for signs of a severe reaction. Cleveland Clinic lists hives, a rash, shortness of breath and swelling as signs of an allergic reaction to flea bites, and says to contact a provider if bite symptoms last longer than a few days." },
+    { "type": "ul", "items": [
+      "**Go to the emergency room immediately** for difficulty breathing, a feeling that your throat is closing, swollen lips, tongue or face, chest pain, a racing heartbeat that lasts more than a few minutes, dizziness, vomiting or a headache after a bite or sting, the American Academy of Dermatology says.",
+      "**See a provider right away for signs of infection.** Cleveland Clinic's papular urticaria page lists fever, pain, crust forming around blisters, yellow or green discharge, and a wound that smells foul or feels warm to the touch.",
+      "**See a provider** for a rash that does not go away after a week or spreads over a large area of the body, as Cleveland Clinic advises. The AAD says that feeling tired all the time, a headache, fever or body aches, or a rash after a bug bite calls for a board-certified dermatologist right away."
+    ] },
+    { "type": "p", "text": "Mention the fleas and any pets. MedlinePlus says a provider can usually diagnose flea bites by examining the skin and may ask about contact with cats or dogs." },
+
+    { "type": "h2", "text": "Can flea bites make you sick?" },
+    { "type": "p", "text": "Sometimes. CDC says fleas can sometimes infect people or pets with the germs that cause flea-borne typhus, plague or cat scratch disease, and that tapeworms can spread to a person who accidentally swallows an infected flea. Here is what CDC says about each in the US:" },
+    { "type": "ul", "items": [
+      "**Flea-borne (murine) typhus.** [CDC's page on flea-borne typhus](https://www.cdc.gov/typhus/about/murine.html) says it spreads through contact with infected fleas, most commonly the Oriental rat flea and the cat flea, whose feces (flea dirt) can be rubbed into the bite wound. Southern California, Hawaii and southern Texas report most US cases. Symptoms begin 3 to 14 days after contact and can include fever and chills, body aches, headache, nausea, vomiting, stomach pain, cough and a rash; CDC says to see a healthcare provider if they develop.",
+      "**Plague.** CDC says plague is most commonly spread to people in the US by infected ground squirrel fleas, and [CDC's plague statistics](https://www.cdc.gov/plague/maps-statistics/index.html) count an average of five human cases a year, in the western states, most of them in northern New Mexico and Arizona.",
+      "**Cat scratch disease.** CDC says it spreads to people most often through the scratch of a domestic or feral cat."
+    ] },
+    { "type": "p", "text": "Texas A&M advises avoiding close contact with wild rodents such as squirrels, rats and prairie dogs, because their fleas can bite you and may carry plague or [murine typhus](/blog/murine-typhus)." },
+
+    { "type": "h2", "text": "What should you do once you know it is fleas?" },
+    { "type": "p", "text": "Treat the pets and the home together: Texas A&M says pet living areas should be treated at the same time as the pet. [How to get rid of fleas](/blog/how-to-get-rid-of-fleas) takes you through combing and bathing pets, vacuuming, washing bedding and choosing products by their labels, and the [bug bite identification chart](/learn/bug-bites) covers bites from other pests. Readers in Canada can use [the Canadian edition of this guide](/blog/flea-bites-on-humans)." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Press a suspect insect onto clear tape, photograph it beside a ruler marked in inches, and photograph the bites the same day. Your state's cooperative extension office can identify the insect, and a healthcare provider can look at the bites." }
+  ],
+  "faqs": [
+    {
+      "question": "Can fleas live in human hair?",
+      "answer": "Not normally. Texas A&M AgriLife Extension says cat fleas do not normally live on humans but can bite people who handle or sleep with infested animals. Cleveland Clinic says the fleas that bother dogs and cats do not live on people, and that fur helps them hide. CDC says fleas prefer animal hosts and bite people when animals are unavailable. Fleas biting you usually means fleas on a pet or in the home, so check pets and their bedding."
+    },
+    {
+      "question": "Can you get flea bites if you don't have pets?",
+      "answer": "Yes. Texas A&M AgriLife Extension says buildings can become infested with fleas even with no pets, either from a previous occupant's pets or from wildlife such as bats, rats, squirrels, raccoons and feral cats and dogs living under or around the building. It says long-vacant homes can come alive with fleas when new tenants move in, because adult fleas can wait in their cocoons for a host, and that wildlife has to be removed before a flea treatment can work."
+    },
+    {
+      "question": "Why do flea bites itch so much?",
+      "answer": "Because the body reacts to the flea's saliva. Cleveland Clinic says the immune system treats flea saliva as an allergen and releases histamine, which makes the bites itch and swell. How much they itch varies: UC IPM says bites usually cause minor itching but can become increasingly irritating to people with sensitive or reactive skin, and Texas A&M says people allergic to flea bites can develop hives, rashes or itching all over. Try not to scratch, since MedlinePlus says scratching can lead to a skin infection."
+    },
+    {
+      "question": "How soon do flea bites show up after you are bitten?",
+      "answer": "A small bump forms after a flea bites, Cleveland Clinic says. In people who are allergic, Texas A&M AgriLife Extension says reactions such as hives, a rash or itching all over usually appear 12 to 24 hours after a bite and may last a week or more. Bed bug bites can be much slower: the American Academy of Dermatology says the first bed bug bites can take as long as 14 days to itch, which is one way to tell the two apart."
+    },
+    {
+      "question": "Do flea bites go away on their own?",
+      "answer": "Usually, yes. Cleveland Clinic says flea bites typically don't need treatment and only last a few days. Reactions can take longer: UC IPM says an allergic itch can persist up to 5 days after a bite, and Texas A&M AgriLife Extension says allergic reactions can last a week or more. Keep the bites clean and try not to scratch, since MedlinePlus says scratching can lead to a skin infection, and contact a healthcare provider if symptoms last longer than a few days, as Cleveland Clinic advises."
+    },
+    {
+      "question": "Can flea bites cause a rash all over your body?",
+      "answer": "They can in people who are allergic. Texas A&M AgriLife Extension says people with allergies to flea bites can get hives, rashes or generalized itching. Cleveland Clinic's papular urticaria page, about itchy hives or blisters after bug bites, says the bumps can appear near the bites or on other parts of the body. It advises seeing a provider for a rash that does not go away after a week or spreads over a large area. The American Academy of Dermatology says trouble breathing or a swollen face after a bite needs the emergency room."
+    },
+    {
+      "question": "Why do flea bites look worse on my child?",
+      "answer": "Children are more prone to a strong reaction called papular urticaria. Cleveland Clinic describes it as itchy hives or blisters that form when the immune system overreacts to bug bites such as flea bites, says kids are more likely to get it than adults, and says just one child in a family might react. The bumps may last several days or a week at a time and can keep coming back for months or years, though children can outgrow it. A child with fever, yellow or green discharge or a wound that feels warm should see a provider right away."
+    },
+    {
+      "question": "Can fleas bite you in bed while you sleep?",
+      "answer": "They can if an infested pet shares the bed: Texas A&M AgriLife Extension says cat fleas can bite people who handle or sleep with infested animals. Bites that appear overnight on the face, hands, arms or legs, often in a zigzag line, fit bed bugs better; Cleveland Clinic says bed bugs bite exposed skin while people sleep, and the American Academy of Dermatology lists specks of blood on the bedding as a sign. Cleveland Clinic says flea bites rarely appear above the knee unless you spend a lot of time sitting or lying down."
+    },
+    {
+      "question": "Are flea bites dangerous?",
+      "answer": "Usually not, but watch for three things. Allergic reactions: Cleveland Clinic lists hives, rash, shortness of breath and swelling, and the American Academy of Dermatology says trouble breathing or a swollen face, lips or tongue after a bite needs the emergency room. Infection: MedlinePlus says scratching can lead to a skin infection. Disease: CDC says fleas can sometimes spread flea-borne typhus, plague or cat scratch disease; it counts about five US plague cases a year, in the West, and most typhus cases in southern California, Hawaii and southern Texas."
+    },
+    {
+      "question": "Do flea bites have a ring around them?",
+      "answer": "Often. Cleveland Clinic says a discolored ring or halo may appear around a flea bite, and UC IPM describes a small central red spot surrounded by a red halo, usually without much swelling. MedlinePlus describes small, very itchy red bumps, often in groups of three. A ring alone does not prove fleas: UC IPM says bed bugs, mites and mosquitoes also cause bite marks, swelling and itching. A red, donut-shaped rash after a tick bite is different: the American Academy of Dermatology says it could be a sign of Lyme disease and lists it among the reasons to go to the emergency room immediately."
+    }
+  ],
+  "sources": [
+    { "title": "Flea Bites (medically reviewed August 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/21718-flea-bites" },
+    { "title": "Papular Urticaria (last updated August 25, 2026)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/symptoms/papular-urticaria" },
+    { "title": "Mosquito Bites (last updated October 15, 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/17695-mosquito-bites" },
+    { "title": "Chigger Bites (last updated June 7, 2022)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/23267-chigger-bites" },
+    { "title": "Fleas (Medical Encyclopedia, reviewed October 13, 2024)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/001329.htm" },
+    { "title": "Bug Bites and Stings: When to See a Dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" },
+    { "title": "Bedbugs: Signs and Symptoms", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms" },
+    { "title": "About Fleas (May 15, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/fleas/about/index.html" },
+    { "title": "About Flea-borne Typhus (December 11, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/typhus/about/murine.html" },
+    { "title": "Plague Maps and Statistics (reviewed October 7, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/plague/maps-statistics/index.html" },
+    { "title": "About Mosquito Bites (June 21, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html" },
+    { "title": "Symptoms of Scabies (January 12, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/signs-symptoms/index.html" },
+    { "title": "Pest Notes: Fleas (UC ANR Publication 7419; M. K. Rust)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" },
+    { "title": "Pest Notes: Spiders (UC ANR Publication 7442; R. S. Vetter, updated October 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Pest Notes: Itching and Infestation: What's Attacking Me? (UC ANR Publication 7443, updated September 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/" },
+    { "title": "Managing Fleas (ENTO-PU-046; Wizzie Brown and Molly Keck, January 2025)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/managing-fleas.pdf" },
+    { "title": "Biology and Impact of Biting Midges in Montana (MontGuide MT201205AG; Marni Rolston and Greg Johnson, reviewed March 2017)", "publisher": "Montana State University Extension", "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf" }
+  ],
+  "disclaimer": "health"
+}
