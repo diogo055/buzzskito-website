@@ -3,14 +3,15 @@
   "kind": "spoke",
   "cluster": "cockroaches",
   "keyword": "what do baby cockroaches look like",
-  "alsoTargets": [],
-  "metaTitle": "What Baby Cockroaches Look Like, by Species",
-  "metaDescription": "Baby cockroaches (nymphs) are small, wingless copies of adults. German nymphs are dark, striped and 1/8 to 9/16 inch. See each species and look-alikes.",
+  "alsoTargets": ["baby cockroach", "baby roach"],
+  "metaTitle": "Baby Cockroach: What Nymphs Look Like (Photos)",
+  "metaDescription": "Baby cockroaches (nymphs) are small, wingless copies of adults. Real photos of German and brownbanded nymphs, sizes by species, and bed bug look-alikes.",
   "h1": "What Do Baby Cockroaches Look Like? Nymphs by Species, Size and Color",
   "dek": "Cockroach nymphs differ by species in size, color and markings. Here is how to tell them from adults, bed bugs and beetles, and what finding them says about an infestation.",
   "breadcrumb": "Baby Cockroaches",
   "excerpt": "What baby cockroaches look like: German, American, Oriental, brownbanded and smokybrown nymphs by size and color, why some look white, and what finding them means.",
   "datePublished": "2026-10-07",
+  "dateModified": "2026-10-23",
   "quickAnswer": {
     "lead": "**Baby cockroaches, called nymphs, look like small, wingless versions of the adults, with a broad, flat body, long antennae and a color pattern that depends on the species.** German nymphs measure 1/8 to 9/16 inch and carry dark stripes; American and Oriental nymphs run from grayish or reddish brown to black. [Rutgers University's German cockroach fact sheet](https://njaes.rutgers.edu/fs1322/) gives the size range.",
     "bullets": [
@@ -38,6 +39,7 @@
   "body": [
     { "type": "h2", "text": "What do baby cockroaches look like?" },
     { "type": "p", "text": "A baby cockroach, called a nymph, looks like a smaller, wingless copy of the adult, with the same broad, flat body and long antennae. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/cockroaches/), the University of California's pest management program, explains that cockroaches grow by gradual metamorphosis, so nymphs resemble adults and feed the same way but lack fully developed wings and cannot reproduce. There is no grub or cocoon stage: [Texas A&M AgriLife Extension](https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2016/07/E-359-Cockroach-biology-and-management-2012.pdf) describes a life cycle of just three stages, egg, nymph and adult." },
+    { "type": "figure", "src": "/guides/photos/german-cockroach-nymphs.webp", "width": 1200, "height": 799, "alt": "Three German cockroach nymphs at different stages seen from above against a blue background: dark bodies with a paler stripe down the middle, long antennae and spiny legs", "caption": "German cockroach nymphs at three different stages, seen from above (CDC photograph). Texas A&M describes German nymphs as having wing pads and two dark stripes running down the whole thorax and abdomen.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26933" },
     { "type": "p", "text": "What changes from one species to the next is color, markings and final size. A nymph in a kitchen cabinet may be dark with two stripes, while one near a floor drain may be reddish brown. [The complete cockroach reference for US homes](/learn/cockroaches) covers the adult species in depth, so this page concentrates on the young." },
     { "type": "p", "text": "Three features mark almost any cockroach, nymphs included, whatever the color. Texas A&M describes a flattened body whose head is hidden from above by a plate-like shield called the pronotum, long and thin antennae, and elongated, spiny legs that let the insect run surprisingly fast. Most species are also nocturnal, hiding by day and feeding at night." },
     { "type": "media", "needed": "Top-down close-up photo of a German cockroach nymph and an adult German cockroach side by side on a plain light surface next to a US penny for scale, sharp enough to show the dark stripes behind the head and the missing wings on the nymph" },
@@ -63,6 +65,7 @@
     { "type": "p", "text": "To compare a large nymph with a short-winged adult, see the photos of males and females in the guide to [Oriental cockroach identification](/blog/oriental-cockroaches)." },
     { "type": "h3", "text": "Brownbanded cockroach nymphs" },
     { "type": "p", "text": "Brownbanded nymphs carry bands instead of stripes. [Penn State Extension](https://extension.psu.edu/brown-banded-cockroaches) says both adults and nymphs show two broad brownish bands across the body, one at the base of the abdomen and one at mid-abdomen. Adults are about 1/2 inch long, close to a German cockroach, and UC IPM adds light bands on the wings and the sides of the pronotum." },
+    { "type": "figure", "src": "/guides/photos/brown-banded-cockroach-nymph-wall.webp", "width": 1200, "height": 1600, "alt": "A dark brownbanded cockroach nymph on a textured wall, seen from above, with two pale bands across its body and very long antennae", "caption": "A brownbanded cockroach nymph on a textured wall, seen from above. The two pale bands across the body, rather than stripes down it, set it apart from a German nymph.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/4923775" },
     { "type": "p", "text": "Where the insect turns up helps. UC IPM lists crevices in electrical appliances, behind wall decorations and inside hollow furniture legs, and Penn State says brownbanded cockroaches favor warm, dry places nearer the ceiling than the floor and away from water, such as pantries, closets and dressers. A banded baby roach in a bedroom closet therefore points toward brownbanded rather than German. UC IPM adds that females glue egg cases of about 1/4 inch to ceilings, beneath furniture or in closets." },
     { "type": "h3", "text": "Smokybrown cockroach nymphs" },
     { "type": "p", "text": "Young smokybrown nymphs look nothing like their parents. Texas A&M describes them as black with two white bands on the body and white-tipped antennae, turning uniformly reddish brown as they age. UC IPM describes the nymphs in similar terms: dark brown, with white segments at the end of the antennae and across the back. Adults are 1 1/4 to 1 1/2 inches, dark brown to black, with wings that extend beyond the abdomen. The species lives mostly outdoors, especially in the humid South, so a banded black nymph indoors has probably come in from outside." },
@@ -80,6 +83,7 @@
 
     { "type": "h2", "text": "Why do some baby cockroaches look white?" },
     { "type": "p", "text": "A white cockroach has just shed its skin. UC IPM says cockroaches are white immediately after molting and darken as the new outer covering hardens, usually within hours. A German nymph molts five to six times before adulthood according to Rutgers, and the University of Florida reports six as the number most often given, so it passes through that pale stage that many times." },
+    { "type": "figure", "src": "/guides/photos/cockroach-molting-bathroom.webp", "width": 1200, "height": 833, "alt": "A cockroach pulling its white new body out of its old reddish-brown skin on a white bathroom surface", "caption": "A cockroach of an unidentified species molting on a white surface in a building’s bathroom: the new body pulling free of the old reddish-brown skin is white. UC IPM says it darkens as the new outer covering hardens, usually within hours.", "license": "public-domain", "credit": "abbeyprivate, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Molting_Cockroach_-_An_%22Alien%22_being_born_in_the_3rd_floor_east_bathroom!.jpg" },
     { "type": "p", "text": "That has two practical uses. A white roach is the same insect that will usually look brown or black again within hours, not a separate kind. And the skins it leaves behind count as evidence: UC IPM lists cast skins alongside droppings, egg cases and live or dead roaches as signs of cockroach activity. Rutgers adds that the shed skins of German cockroaches, like their feces and dead bodies, contain allergens that are asthma triggers." },
     { "type": "p", "text": "Photos of cockroaches caught in the middle of a molt, an answer to whether albino cockroaches are real, and the pale insects most often mistaken for a white roach are in the guide to [what a white cockroach really is](/blog/white-cockroach)." },
     { "type": "media", "needed": "Close-up photo of a pale, freshly molted cockroach nymph beside its brown shed skin and a darker nymph of the same species, on a plain surface with a ruler marked in inches" },
@@ -106,9 +110,16 @@
     { "type": "p", "text": "Shape alone will not settle it. Cockroach nymphs and bed bug nymphs are both flat, and their size ranges overlap. UC IPM's bed bug description gives an oval, flat body and pale to rusty color but mentions no stripes or bands, so bold dark stripes or bands point to a cockroach nymph rather than a bed bug. [What bed bugs look like at each stage](/blog/what-do-bed-bugs-look-like) and [the insects most often mistaken for bed bugs](/blog/bugs-that-look-like-bed-bugs) cover the other side of the comparison." },
     { "type": "p", "text": "The beetle test applies to adults: UC IPM notes that people confuse cockroaches with beetles, but adult cockroaches have membranous wings and lack the thick, hardened forewings of beetles. For the wider list of look-alikes, including crickets, ground beetles and wood roaches, [bugs that look like cockroaches](/blog/bugs-that-look-like-cockroaches) goes through each with a comparison table." },
     { "type": "media", "needed": "Side-by-side macro photo on a white background of a German cockroach nymph and a bed bug nymph, both next to a ruler marked in inches, with the stripes and head shield of the cockroach clearly visible" },
+    { "type": "confused", "title": "Often mistaken for a baby cockroach", "items": [
+      { "href": "/blog/baby-bed-bugs-nymphs", "name": "Bed bug nymph", "photo": "bed-bug-nymph", "note": "Oval, flat and pale with no stripes or bands; it needs a blood meal before each molt", "alt": "A pale bed bug nymph on white fabric" },
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Adult bed bug", "photo": "bed-bug-adult-ruler", "note": "About 1/5 inch, flattened, oval and rusty red, with no wings", "alt": "An adult bed bug beside a millimeter scale" },
+      { "href": "/blog/german-cockroaches", "name": "Adult German cockroach", "photo": "german-cockroach-adult", "note": "Wings reach the end of the abdomen; a winged roach is an adult, not a baby", "alt": "An adult German cockroach seen from above on a white surface" },
+      { "href": "/blog/bugs-that-look-like-cockroaches", "name": "Ground beetle", "photo": "ground-beetle", "note": "Thick, hardened wing covers over the back; adult cockroaches have membranous wings", "alt": "A black ground beetle, a pinned specimen beside a metric ruler" }
+    ] },
 
     { "type": "h2", "text": "What does finding baby cockroaches tell you?" },
     { "type": "p", "text": "It tells you eggs have hatched somewhere close, which means adults are breeding nearby, though not always inside your walls. In an actively growing German cockroach population about 80 percent of the insects are nymphs, as Rutgers and the University of Florida both report, so in that case nymphs are the stage you should expect to meet. UC IPM says the same of cockroach populations generally: nymphs are typically the most abundant stage. After hatching, Texas A&M adds, nymphs tend to stay in dark, protected cracks that they often share with adults." },
+    { "type": "figure", "src": "/guides/photos/german-cockroach-egg-case-hatchlings.webp", "width": 1200, "height": 900, "alt": "Newly hatched, pale German cockroach nymphs stuck on a sticky trap around a tan egg case, beside an adult German cockroach", "caption": "Newly hatched German cockroach nymphs stuck on a sticky trap around the egg case they came from, beside an adult; the observer watched them hatch. A glue trap like this one is how UC IPM suggests finding where roaches are.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/289782406" },
     { "type": "p", "text": "Where the nymph is matters as much as the fact that it exists:" },
     { "type": "ul", "items": [
       "**In the open during the day.** Texas A&M says that seeing cockroaches by day usually means a lot of them are around, noting that a German cockroach spends about 75 percent of its life in cracks 1/32 to 3/16 inch wide.",
@@ -152,6 +163,22 @@
     {
       "question": "What is a tiny black cockroach with white stripes?",
       "answer": "A likely match in the southern states is a young smokybrown cockroach. Texas A&M describes the younger nymphs as black with two white bands on the body and white-tipped antennae, turning uniformly reddish brown as they get older. Adult smokybrown cockroaches are 1 1/4 to 1 1/2 inches long and live mostly outdoors, in places such as mulch, palm fronds and tree holes, so a banded black nymph indoors has likely wandered in from outside."
+    },
+    {
+      "question": "What is a baby cockroach called?",
+      "answer": "A baby cockroach is called a nymph. UC IPM explains that cockroaches grow by gradual metamorphosis, so the young look like small adults and feed the same way, but lack fully developed wings and cannot reproduce. Texas A&M describes a life cycle of just three stages, egg, nymph and adult, with no larva or pupa. A nymph grows by shedding its skin, and Rutgers says a German cockroach does that five to six times before it becomes an adult."
+    },
+    {
+      "question": "How big is a baby cockroach?",
+      "answer": "It depends on the species and the stage. Rutgers measures German cockroach nymphs at 1/8 to 9/16 inch (3 to 14 mm), the only nymph measurement in the sources reviewed for this page. Nymphs of the other species grow toward their adult length with each molt: about 1/2 inch for brownbanded, about 1 1/4 inches for Oriental and 1 1/2 to 2 inches for American cockroaches. Missing wings, not size, are what mark the biggest nymphs as babies."
+    },
+    {
+      "question": "Are baby cockroaches white or black?",
+      "answer": "Most are brown to black, and the shade depends on the species. The University of Florida describes German nymphs as dark brown to black, and Texas A&M describes Oriental nymphs as reddish brown to black and young smokybrown nymphs as black with two white bands. A cockroach that looks white has usually just molted: UC IPM says cockroaches are white immediately after shedding their skin and darken as the new outer covering hardens, usually within hours."
+    },
+    {
+      "question": "Does one baby cockroach mean an infestation?",
+      "answer": "Not necessarily, but it means eggs have hatched somewhere nearby, so adults are breeding close by. In an actively growing German cockroach population about 80 percent of the insects are nymphs, according to Rutgers and the University of Florida, and Texas A&M says that seeing cockroaches in the daytime usually means a lot of them are around. No source reviewed sets a number that counts as an infestation, which is why sticky traps checked daily for several days are the way to find out how many there are."
     }
   ],
   "sources": [

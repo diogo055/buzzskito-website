@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
@@ -9,6 +10,8 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-temperature-kills-mosquitoes'
 const DATE = '2026-07-16'
+// Oct 23, 2026: answer-first quick answer with its sources, three ledger photos, the CDC's egg-survival figure
+const UPDATED = '2026-10-23'
 const TITLE = 'What Temperature Kills Mosquitoes? 28°F (-2°C) Hard Freeze'
 
 const FAQS = [
@@ -143,17 +146,19 @@ const FAQS = [
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'What Temperature Kills Mosquitoes? 28°F',
-  description: 'Active adult mosquitoes die in a 28°F (-2°C) hard freeze held for hours, and stop flying below 50°F (10°C) — but eggs and hibernating females survive winter.',
+  // TITLE NOTE (Oct 23, 2026): was 'What Temperature Kills Mosquitoes? 28°F'; top queries (28 days to Oct 20): what temp do mosquitoes die 2,328 @ 8.8, at what temperature do mosquitoes die 2,192 @ 8.0, what temperature kills mosquitoes 1,918 @ 7.7, what temperature do mosquitoes die 1,893 @ 8.6 (page: 183 clicks on 59,116 impressions).
+  title: 'What Temperature Do Mosquitoes Die? 28°F (-2°C)',
+  description: 'Mosquitoes die at 28°F (-2°C), a hard freeze held for hours, and stop flying below 50°F (10°C). Eggs and hibernating females survive. Full chart.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function WhatTemperatureKillsMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The temperatures that kill, slow, and reactivate mosquitoes — with Ontario winter framing and hard numbers AI assistants can cite.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The temperatures that kill, slow, and reactivate mosquitoes — with Ontario winter framing and hard numbers AI assistants can cite.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Temperature Kills Mosquitoes', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -176,7 +181,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-base text-gray-900 font-semibold mb-3">
-              BuzzSkito&rsquo;s GTA technicians: mosquitoes go dormant below 10&deg;C (50&deg;F) and active adults die in a hard frost of about -2&deg;C (28&deg;F) &mdash; but eggs and hibernating females survive Ontario winters, which is why populations rebound every May.
+              Most active adult mosquitoes die at about -2&deg;C (28&deg;F), the National Weather Service&rsquo;s hard-freeze line, once the air holds there for a couple of hours; below 10&deg;C (50&deg;F) they go dormant and stop biting without dying &mdash; and eggs and hibernating females survive Ontario winters, which is why populations rebound every May.
             </p>
             <ul className="space-y-2 text-sm text-gray-800 list-disc pl-5">
               <li>Mosquitoes stop flying and feeding once temperatures fall below <strong>10&deg;C (50&deg;F)</strong>.</li>
@@ -187,6 +192,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
               <li>Hibernating female mosquitoes (Culex, Anopheles) survive winter in diapause &mdash; so no single cold snap wipes them out.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-2 text-xs text-gray-500">Sources: the <a href="https://forecast.weather.gov/glossary.php?word=freeze" target="_blank" rel="noopener" className="text-emerald-700 underline">National Weather Service</a> (a hard freeze is 28&deg;F or lower for an extended period); the <a href="https://www.mass.gov/doc/2025-arbovirus-surveillance-and-response-plan/download" target="_blank" rel="noopener" className="text-emerald-700 underline">Massachusetts Department of Public Health</a> (the first hard frost, often taken as below 28&deg;F, kills most remaining adult mosquitoes, and they are extremely unlikely to be active below 50&deg;F in the evening); <a href="https://pubmed.ncbi.nlm.nih.gov/16892629/" target="_blank" rel="noopener" className="text-emerald-700 underline">Rinehart, Robich &amp; Denlinger, <em>Journal of Medical Entomology</em>, 2006</a> (held at -5&deg;C, overwintering-state <em>Culex pipiens</em> females lived about two to ten times longer than active ones); <a href="https://extension.msstate.edu/blog/tips-for-reducing-mosquito-bites" target="_blank" rel="noopener" className="text-emerald-700 underline">Mississippi State University Extension</a> (mosquitoes are often most active above 50&deg;F); <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> (<em>Aedes</em> eggs survive drying out for up to 8 months).</p>
           </div>
         </div>
       </section>
@@ -310,6 +316,7 @@ export default function WhatTemperatureKillsMosquitoesPage() {
             <li><strong>Hibernating adult females.</strong> Species like Culex (a West Nile virus vector) overwinter as mated females in diapause, tucked into culverts, sheds, hollow logs, basements and animal burrows below the frost line.</li>
             <li><strong>Overwintering larvae.</strong> A few species ride out winter as larvae in water bodies that do not freeze completely.</li>
           </ul>
+          <Photo id="culex-pipiens" caption="A northern house mosquito, Culex pipiens, photographed in Ontario. Mated females of this species spend the winter dormant in sheltered spots such as culverts, sheds and basements." />
           <p>This is exactly why mosquitoes reappear every May even after a brutal deep freeze &mdash; the cold never reached the eggs and dormant adults where they shelter.</p>
 
           <h2>What temperature is too cold for mosquitoes?</h2>
@@ -337,10 +344,13 @@ export default function WhatTemperatureKillsMosquitoesPage() {
 
           <h2>What temperature kills mosquito larvae?</h2>
           <p><strong>Mosquito larvae stop developing between about 8&deg;C and 12&deg;C (46&ndash;53&deg;F), and die outright once the water they live in freezes solid.</strong> The lower developmental threshold measured for <em>Aedes aegypti</em> larvae is roughly 11.8&deg;C (53&deg;F). Below that figure, growth halts and mortality climbs steeply, long before the water itself turns to ice.</p>
+          <Photo id="culex-larvae" caption="Four larvae of the southern house mosquito, Culex quinquefasciatus, one at each of the four larval stages (CDC photograph)." />
           <p>Container water is the part that matters in a backyard, and it cools faster than anything natural. A plant saucer, a sagging tarp, a tire or a clogged gutter drops below the developmental threshold weeks before a pond does, which is why the breeding sites on your own property shut down first in the fall and restart first in the spring. Cold is still a slow and unreliable larvicide. Draining the water works in minutes; treating what you cannot drain with a <em>Bacillus thuringiensis israelensis</em> (Bti) larvicide &mdash; check the label for a PCP registration number in Canada or an EPA registration number in the US &mdash; works in days.</p>
 
           <h2>What temperature kills mosquito eggs?</h2>
           <p><strong>No temperature a Canadian winter produces reliably kills mosquito eggs.</strong> <em>Aedes</em> eggs are desiccation-resistant and freeze-tolerant, and stay viable for months in soil, leaf litter, gutters and on the dry inner walls of containers. They hatch within days once meltwater or spring rain covers them and warms past roughly 10&deg;C (50&deg;F).</p>
+          <Photo id="aedes-albopictus-eggs" caption="Elongated, cigar-shaped eggs laid by a female Asian tiger mosquito, Aedes albopictus, on paper (CDC photograph)." />
+          <p>The <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> puts a number on how long they can wait: <em>Aedes</em> eggs can survive drying out for up to 8 months, and can even survive a winter in the southern United States.</p>
           <p>This is the single fact that undoes the &ldquo;wait for frost&rdquo; instinct. The frost kills the adults you can see and leaves next year&rsquo;s population entirely untouched, sitting a few metres from your patio door. Removing eggs is physical work rather than weather: scrub the inside walls of containers rather than just tipping them, store them upside down over winter, and clear gutters and leaf litter in the fall. Scrubbing matters because <em>Aedes</em> eggs are glued to the container wall above the waterline and survive a simple pour-out.</p>
 
           <h2>How long does it take for cold to kill a mosquito?</h2>

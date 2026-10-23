@@ -75,6 +75,16 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/deer-tick-vs-dog-tick-canada': '2026-10-20T12:00:00.000Z',
   '/blog/what-ticks-look-like-ontario': '2026-10-20T12:00:00.000Z',
   '/blog/blacklegged-deer-tick-ontario': '2026-10-20T12:00:00.000Z',
+  '/blog/what-temperature-kills-mosquitoes': '2026-10-23T12:00:00.000Z',
+  '/blog/when-are-mosquitoes-most-active': '2026-10-23T12:00:00.000Z',
+  '/blog/how-many-times-can-a-mosquito-bite-you': '2026-10-23T12:00:00.000Z',
+  '/blog/what-colors-attract-mosquitoes': '2026-10-23T12:00:00.000Z',
+  '/blog/can-ticks-fly-jump-swim': '2026-10-23T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-mosquitoes-in-the-house': '2026-10-23T12:00:00.000Z',
+  '/blog/mosquito-hawk-explained': '2026-10-23T12:00:00.000Z',
+  '/blog/what-do-bed-bugs-look-like': '2026-10-23T12:00:00.000Z',
+  '/blog/horse-fly-and-deer-fly-bite-treatment': '2026-10-23T12:00:00.000Z',
+  '/blog/what-do-baby-cockroaches-look-like': '2026-10-23T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import AuthorByline from '@/components/AuthorByline'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
@@ -10,6 +11,8 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-many-times-can-a-mosquito-bite-you'
 const DATE = '2026-07-16'
+// Oct 23, 2026: answer-first quick answer with its sources, the feeding studies behind "more than once", two ledger photos
+const UPDATED = '2026-10-23'
 const TITLE = 'How Many Times Can a Mosquito Bite You? (One Female, Many Bites)'
 
 const FAQS = [
@@ -95,17 +98,19 @@ export const metadata: Metadata = buildMetadata({
   // interruption mechanic, and the does-she-die myth — and deliberately carries no
   // itch/welt vocabulary, which was pulling this page onto "why do mosquito bites itch"
   // (position 2.1, zero clicks) against the page that genuinely answers it.
-  title: 'How Many Times Can a Mosquito Bite You? No Limit',
-  description: 'No fixed limit. Left alone she fills up in one 2-5 minute bite; swat and she relands. She does not die after biting, so a cluster of 3-4 bites is one mosquito.',
+  // TITLE NOTE (Oct 23, 2026): was 'How Many Times Can a Mosquito Bite You? No Limit'; top queries (28 days to Oct 20): can a mosquito bite more than once 882 @ 4.6, how many times can one mosquito bite you 668 @ 7.8, how many times can a mosquito bite 591 @ 6.6 (page: 386 clicks on 40,491 impressions). The H1 keeps "How many times".
+  title: 'Can a Mosquito Bite More Than Once? Yes, Often',
+  description: 'Yes, with no fixed limit: a female bites until she has a full blood meal, comes back if swatted and feeds again after laying eggs. Biting does not kill her.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function HowManyTimesCanAMosquitoBiteYouPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How many times a single mosquito can bite you, whether it dies after biting, and how many people one mosquito can bite.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How many times a single mosquito can bite you, whether it dies after biting, and how many people one mosquito can bite.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How Many Times Can a Mosquito Bite You', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -128,7 +133,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              One female mosquito can bite you several times in a single evening &mdash; she keeps feeding until she is full or you interrupt her, and she does not die after biting. A tight cluster of welts is usually one persistent mosquito, not a swarm.
+              Yes, a mosquito can bite more than once: one female can bite you several times in a single evening &mdash; she keeps feeding until she is full or you interrupt her, and she does not die after biting. A tight cluster of welts is usually one persistent mosquito, not a swarm.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Only female mosquitoes bite; each blood meal fuels a batch of 100 to 300 eggs.</li>
@@ -139,6 +144,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
               <li>One mosquito can bite more than one person, which is how a single infected mosquito can spread viruses such as West Nile.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-2 text-xs text-gray-500">Sources: <a href="https://pubmed.ncbi.nlm.nih.gov/686250/" target="_blank" rel="noopener" className="text-emerald-700 underline">Klowden &amp; Lea, <em>American Journal of Tropical Medicine and Hygiene</em>, 1978</a> (yellow fever mosquitoes that had taken less than about 2.5 microlitres of blood still went after a host; above that, their tendency to respond dropped sharply); <a href="https://pubmed.ncbi.nlm.nih.gov/22300806/" target="_blank" rel="noopener" className="text-emerald-700 underline">Scott &amp; Takken, <em>Trends in Parasitology</em>, 2012</a> (<em>Aedes aegypti</em> and <em>Anopheles gambiae</em> commonly take more than one blood meal per batch of eggs); <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener" className="text-emerald-700 underline">CDC</a> (only female mosquitoes bite, because they need blood to produce eggs).</p>
           </div>
         </div>
       </section>
@@ -179,7 +185,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
 
       <article className="py-10 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
-          <AuthorByline datePublished={DATE} />
+          <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>How many times can one mosquito bite you?</h2>
           <p>There is no fixed limit. One female mosquito can bite you three, four, or more times in a single evening, because she starts a fresh bite every time she is interrupted before her abdomen is full. Left undisturbed she finishes in one bite of about 2 to 5 minutes. The number of welts tracks how often you swatted at her.</p>
@@ -194,6 +200,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <p>One mosquito can bite you as many times as it takes her to get a full meal &mdash; often several times in a single sitting. A female mosquito does not have a bite budget that runs out; she is driven to keep feeding until her abdomen is stretched full of blood. If she manages that in one undisturbed bite, you get one welt. If she is knocked off, brushed away, or startled by a twitch before she finishes, she simply relands a short distance away and starts a new bite to top up. Each of those restarts can leave its own mark, which is why one persistent mosquito can be responsible for a whole cluster.</p>
           <NextUp path="/blog/how-many-times-can-a-mosquito-bite-you" />
           <p>Left completely alone, a female drinks roughly 2 to 5 microliters of blood over about 2 to 5 minutes, swelling to as much as three times her own body weight before she is satisfied. That single meal is usually enough to supply the protein she needs to develop a batch of 100 to 300 eggs. The takeaway for anyone counting welts: the number of bites you end up with has far more to do with how many times you disturbed her than with any fixed limit built into the mosquito.</p>
+          <p>Laboratory work shows the mechanism. In a 1978 study, yellow fever mosquitoes (<em>Aedes aegypti</em>) that had taken less than about 2.5 microlitres of blood were still attracted to a host, and above that threshold their tendency to respond dropped sharply; the researchers traced the switch-off to the stretching of a full abdomen (<a href="https://pubmed.ncbi.nlm.nih.gov/686250/" target="_blank" rel="noopener" className="text-emerald-700 underline">Klowden &amp; Lea, 1978</a>). Interrupt a female before she reaches that point and she is still hunting for blood. Across her life the bites add up further: a 2012 review found that <em>Aedes aegypti</em> and the malaria mosquito <em>Anopheles gambiae</em> commonly take more than one blood meal per batch of eggs (<a href="https://pubmed.ncbi.nlm.nih.gov/22300806/" target="_blank" rel="noopener" className="text-emerald-700 underline">Scott &amp; Takken, 2012</a>), and a female <em>Aedes aegypti</em> goes through several rounds of egg-laying in her life (<a href="https://pubmed.ncbi.nlm.nih.gov/37275523/" target="_blank" rel="noopener" className="text-emerald-700 underline">David et al., 2023</a>).</p>
 
           <h2>How many times can a mosquito bite you in one night?</h2>
           <p>In one night a single mosquito commonly leaves one to four bites on the same person. One bite is the norm if she is left alone; three or four is normal if she is repeatedly brushed off, because each restart is a new puncture. A tight cluster of welts found in the morning is usually one mosquito, not a swarm.</p>
@@ -248,6 +255,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <RelatedLinks path="/blog/how-many-times-can-a-mosquito-bite-you" />
           <h2>Why do I have so many bites from one mosquito?</h2>
           <p>Usually because one female was interrupted repeatedly, not because a swarm found you. Three or four welts in a tight patch is the normal output of a single disturbed mosquito. The bumps then surface together 24 to 48 hours later, which makes one evening&rsquo;s bites look like several nights of them.</p>
+          <Photo id="mosquito-bites-forearm" caption="Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024)." />
           <p>If you are covered in welts but only ever saw one mosquito, interruption is almost always the answer. A feeding female that gets disturbed does not give up &mdash; she lifts off, relands nearby, and probes again, and she may poke the skin several times before she hits a blood vessel she likes. Each of those probes can trigger the small immune reaction that raises a welt, so a single determined mosquito can leave three, four, or more marks in a tight patch. A neat line or cluster of bites in one area is a classic signature of one insect, not a swarm.</p>
           <p>Two other things make it look like more bites than mosquitoes. First, the reaction is delayed: your immune system can take 24 to 48 hours to raise the itchy bumps, so bites collected over one evening often appear together the next morning. Second, mosquitoes concentrate on thin-skinned areas &mdash; ankles, wrists, the backs of knees &mdash; where blood vessels sit near the surface, so those spots collect a disproportionate share. If you want the full story on the swelling and itch itself, see our explainer on <Link href="/blog/why-do-mosquito-bites-itch">why mosquito bites itch</Link>. And if you always seem to be the one getting bitten, the reasons are in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
 
@@ -255,6 +263,7 @@ export default function HowManyTimesCanAMosquitoBiteYouPage() {
           <p>Yes, many times over. A female that lives 2 to 3 weeks completes several feeding cycles and can bite well over a dozen times in total, plus an extra welt each time she is swatted off mid-meal. Males never bite at all &mdash; they lack the mouthparts to pierce skin and feed on nectar.</p>
           <p>Yes &mdash; mosquitoes bite more than once, on two different timescales. Within a single feeding session, a disturbed female relands and bites again until she is full, so one meal can produce several welts. Across her lifetime, she runs a repeating loop that entomologists call the gonotrophic cycle: take a blood meal, rest and digest for 3 to 4 days, lay a batch of 100 to 300 eggs, then set off to find the next blood meal. A female that lives 2 to 3 weeks can complete several of these loops, which adds up to a lot of bites from one insect over its life.</p>
           <p>It is worth repeating the part that surprises people most: only female mosquitoes bite at all. Males do not have the mouthparts to pierce skin and live entirely on flower nectar and plant juices, contributing to pollination and never taking a drop of blood. So every bite you have ever received came from a female that needed protein to make eggs &mdash; and that same female was fully capable of coming back for more. For a broader set of these facts, our <Link href="/blog/mosquito-facts">mosquito facts guide</Link> collects the numbers in one place.</p>
+          <Photo id="aedes-aegypti-female-and-male" caption="A female (left) and a male (right) yellow fever mosquito, Aedes aegypti (NIAID photograph). Only the female bites: the CDC notes that only female Aedes mosquitoes bite, because they need blood to produce eggs." />
 
           <h2>Can a mosquito bite through clothing?</h2>
           <p>Yes. A mosquito can bite through thin, tight-fitting fabric such as a snug t-shirt, leggings, or thin socks, because her proboscis is long enough to reach skin through one stretched layer. Loose, thicker, or doubled-up clothing defeats her. This is why bites turn up on shoulders, knees, and ankles that felt fully covered.</p>

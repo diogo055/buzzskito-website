@@ -10,21 +10,25 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import ConfusedWith from '@/components/ConfusedWith'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-hawk-explained'
 const DATE = '2026-04-28'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-23'
 const TITLE = 'Mosquito Hawk — What It Actually Is (Crane Fly Truth)'
-const META_TITLE = 'Mosquito Hawk: Do Crane Flies Eat Mosquitoes?'
+// TITLE NOTE (Oct 23, 2026): was 'Mosquito Hawk: Do Crane Flies Eat Mosquitoes?'; top queries (90 days): mosquito hawk 2,934 @ 8.8 (4 clicks), crane fly 41, crane fly eat mosquitoes 40, crane fly eating mosquito 32. "Crane fly" (about 40K US searches a month, Ahrefs) was not in the title.
+const META_TITLE = 'Mosquito Hawk (Crane Fly): Eat Mosquitoes? Bite?'
 
 const FAQS = [
   {
     question: 'What is a mosquito hawk?',
-    answer: 'A "mosquito hawk" is the common name for the crane fly — a large, long-legged flying insect that looks like a giant mosquito. Despite the name, mosquito hawks DO NOT eat mosquitoes. The name is a myth. Adult crane flies don\'t eat at all (they live for only a few days to mate and die). Crane fly larvae live in soil and eat plant roots, sometimes damaging lawns. The "mosquito hawk" name comes from their resemblance to mosquitoes, not from any predator-prey relationship.',
+    answer: 'A "mosquito hawk" is the common name for the crane fly — a large, long-legged flying insect that looks like a giant mosquito. Despite the name, mosquito hawks DO NOT eat mosquitoes. The name is a myth. Adult crane flies don\'t eat at all (they live for only a few days to mate and die). The larvae of lawn species live in soil and eat plant roots, sometimes damaging lawns. The "mosquito hawk" name comes from their resemblance to mosquitoes, not from any predator-prey relationship.',
   },
   {
     question: 'Do mosquito hawks eat mosquitoes?',
-    answer: 'No — this is one of the most persistent insect myths in North America. Crane flies (mosquito hawks) do not eat mosquitoes at any life stage. Adult crane flies have non-functional or extremely reduced mouthparts and feed only minimally if at all (some species sip nectar). Their larvae are vegetarian — they eat plant roots, decaying leaves, and organic matter in soil. The myth likely originated because they look like giant mosquitoes, leading people to assume an exaggerated predator role.',
+    answer: 'No — this is one of the most persistent insect myths in North America. Adult crane flies (mosquito hawks) do not eat mosquitoes. Adult crane flies have non-functional or extremely reduced mouthparts and feed only minimally if at all (some species sip nectar). Most of their larvae are vegetarian — they eat plant roots, decaying leaves, and organic matter — although the Missouri Department of Conservation notes that some species\' larvae eat other insects, including mosquito larvae. The myth likely originated because they look like giant mosquitoes, leading people to assume an exaggerated predator role.',
   },
   {
     question: 'Are mosquito hawks dangerous?',
@@ -56,7 +60,7 @@ const FAQS = [
   },
   {
     question: 'What is the difference between a mosquito hawk and a mosquito?',
-    answer: 'A mosquito hawk (crane fly) is roughly 4–8 times larger than a mosquito (15–25 mm vs 3–6 mm), flies slowly and clumsily instead of fast and agile, has no functional biting mouthparts instead of a needle-like proboscis, and cannot bite, sting, or transmit disease. Crane fly larvae live in soil and eat plant roots; mosquito larvae live in standing water. In short: the mosquito hawk looks scary but is harmless, while the tiny mosquito is the one that actually bites you and can carry West Nile virus.',
+    answer: 'A mosquito hawk (crane fly) is roughly 4–8 times larger than a mosquito (15–25 mm vs 3–6 mm), flies slowly and clumsily instead of fast and agile, has no functional biting mouthparts instead of a needle-like proboscis, and cannot bite, sting, or transmit disease. Lawn crane fly larvae live in soil and eat plant roots; mosquito larvae live in standing water. In short: the mosquito hawk looks scary but is harmless, while the tiny mosquito is the one that actually bites you and can carry West Nile virus.',
   },
   {
     question: 'Do mosquito hawks bite?',
@@ -118,11 +122,12 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'A "mosquito hawk" is a crane fly — and no, it does NOT eat mosquitoes. What it is, if it bites, and how to get rid of them. Clear Ontario guide.',
+  description: 'A mosquito hawk is a crane fly: a big, long-legged fly that cannot bite and does not hunt mosquitoes. Real photos and how to tell it from a mosquito.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('crane-fly'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-hawk-explained')
@@ -130,7 +135,7 @@ const AMZ_TAG = tagForSlug('mosquito-hawk-explained')
 export default function MosquitoHawkPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The truth about mosquito hawks (crane flies).', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The truth about mosquito hawks (crane flies).', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('crane-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Hawk', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -152,9 +157,9 @@ export default function MosquitoHawkPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A &ldquo;mosquito hawk&rdquo; is the common name for the crane fly &mdash; a large, harmless, long-legged insect that looks like a giant mosquito but does NOT eat mosquitoes at any life stage. The predator name is a myth.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">A &ldquo;mosquito hawk&rdquo; is the common name for the <strong>crane fly</strong> &mdash; a large, harmless, long-legged insect that looks like a giant mosquito. Adult crane flies cannot bite and do NOT eat mosquitoes (many do not eat at all), so the predator name is a myth. The <a href="https://mdc.mo.gov/discover-nature/field-guide/large-crane-flies" target="_blank" rel="noopener" className="underline hover:text-brand-700">Missouri Department of Conservation</a> says crane flies do not bite and are harmless.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Crane flies (&ldquo;mosquito hawks&rdquo;) do not eat mosquitoes at any life stage &mdash; the name is a myth.</li>
+              <li>Adult crane flies (&ldquo;mosquito hawks&rdquo;) do not eat mosquitoes &mdash; the name is a myth, though some crane fly species have water-dwelling larvae that eat mosquito larvae.</li>
               <li>Crane flies cannot bite or sting; they have no venom, stinger, or piercing mouthparts.</li>
               <li>Adult crane flies live only 5 to 10 days, just long enough to mate and lay eggs.</li>
               <li>Crane flies are 15&ndash;25 mm long versus a mosquito&rsquo;s 3&ndash;6 mm, and fly slowly and clumsily.</li>
@@ -268,8 +273,18 @@ export default function MosquitoHawkPage() {
           <p>The most important fact about the adult is anatomical rather than behavioural. A crane fly&rsquo;s mouthparts are reduced to a soft, blunt snout — it is <strong>anatomically incapable of killing or consuming another insect</strong>, mosquito or otherwise. Entomologists have been saying this in public for years: as <a href="https://entomologytoday.org/2015/08/17/mosquito-hawk-skeeter-eater-giant-mosquito-no-no-and-no/" target="_blank" rel="noopener" className="text-emerald-700 underline">Entomology Today</a> put it in a piece quoting crane fly specialists Matthew Bertone (North Carolina State University) and Jon Gelhaus (Academy of Natural Sciences of Drexel University), the mosquito hawk is not a mosquito hawk, not a skeeter eater, and not a giant mosquito.</p>
           <p className="text-sm text-gray-600">A note on lifespan, because published figures differ: this page uses the commonly cited <strong>5&ndash;10 days</strong> for the adult stage, which is accurate for many species. Other reference sources — including Wikipedia&rsquo;s crane fly entry and the <a href="https://www.cvmosquito.org/crane-fly-mosquito-hawk-mosquito-eater" target="_blank" rel="noopener" className="text-emerald-700 underline">Coachella Valley Mosquito &amp; Vector Control District</a> — put it at <strong>10&ndash;15 days</strong>. The honest answer is that adult crane flies live somewhere between a few days and about two weeks depending on species and weather. Either way, they die on their own, quickly, without you doing anything.</p>
 
+          <h2>What Does a Crane Fly Look Like?</h2>
+          <p><strong>A crane fly looks like an oversized mosquito: a slender body, very long and thin legs, and one pair of wings that is often held out from the body at rest.</strong> The <a href="https://mdc.mo.gov/discover-nature/field-guide/large-crane-flies" target="_blank" rel="noopener" className="text-emerald-700 underline">Missouri Department of Conservation&rsquo;s field guide to large crane flies</a> lists the features to check: wings often held out at a 45-degree angle to the body; two small, antenna-like appendages called <strong>halteres</strong> just behind the wings; and a <strong>V-shaped groove on the thorax</strong>, the body section behind the head that the wings grow from. It gives an adult length of up to about 38 mm (1&frac12; inches), varying by species, and says crane flies do not bite and are harmless.</p>
+          <Photo
+            id="crane-fly"
+            alt="A giant crane fly resting on a rough grey painted surface, its wings folded over its slender body and its very long, thin legs spread wide"
+            caption="A giant crane fly, Tipula abdominalis by its photographer's identification, resting on a rough painted surface in Pennsylvania. The very long, thread-thin legs spread around a slender body are the first thing to look for."
+          />
+          <p>Set that beside a real mosquito and the difference is scale and the head: a mosquito is 3&ndash;6 mm long with a needle-like proboscis, while the crane fly you are looking at is several times longer and has only a soft snout that cannot pierce skin (the comparison table at the top of this page lists every difference).</p>
+
           <h2>Do Mosquito Hawks Eat Mosquitoes?</h2>
-          <p><strong>No — crane fly &ldquo;mosquito hawks&rdquo; do not eat mosquitoes at any life stage.</strong> This is the single most repeated myth about the insect, and it is simply wrong. Adult crane flies have reduced, non-functional mouthparts and mostly don&rsquo;t feed at all in their few days of life; a few species sip a little nectar. Their larvae are vegetarians that chew on plant roots and decaying matter in soil — nowhere near mosquito larvae, which live in water. The confusion comes entirely from the crane fly&rsquo;s uncanny resemblance to a giant mosquito, plus the fact that in some regions the <em>dragonfly</em> (a true mosquito predator) shares the same &ldquo;mosquito hawk&rdquo; nickname. If you actually want insects eating your mosquitoes, you want dragonflies and bats, not crane flies.</p>
+          <p><strong>No — adult crane fly &ldquo;mosquito hawks&rdquo; do not eat mosquitoes.</strong> This is the single most repeated myth about the insect, and it is simply wrong. Adult crane flies have reduced, non-functional mouthparts and mostly don&rsquo;t feed at all in their few days of life; a few species sip a little nectar. The larvae of the familiar lawn species are vegetarians that chew on plant roots and decaying matter in soil — nowhere near mosquito larvae, which live in water. The confusion comes entirely from the crane fly&rsquo;s uncanny resemblance to a giant mosquito, plus the fact that in some regions the <em>dragonfly</em> (a true mosquito predator) shares the same &ldquo;mosquito hawk&rdquo; nickname. If you actually want insects eating your mosquitoes, you want dragonflies and bats, not crane flies.</p>
+          <p><strong>One honest footnote about the larvae.</strong> &ldquo;Crane fly&rdquo; covers a very large family, and not every species&rsquo; larvae are vegetarian. The <a href="https://mdc.mo.gov/discover-nature/field-guide/large-crane-flies" target="_blank" rel="noopener" className="text-emerald-700 underline">Missouri Department of Conservation</a> notes that crane fly larvae usually live in water, in streams and lakes, and that some species eat other insects, including mosquito larvae; other species have land-dwelling larvae that eat roots, and some of those can be lawn pests. So some crane flies do eat mosquitoes as larvae, out of sight in streams and lakes. The adult on your porch screen does not, and the lawn larvae described further down this page eat roots, not insects.</p>
           <p>How much those real predators actually accomplish is a separate question, and the answer is smaller than most people hope. We ranked dragonflies, bats, swallows, frogs, fish and the rest in <Link href="/blog/what-eats-ticks-and-mosquitoes" className="text-brand-700 underline">what eats ticks and mosquitoes</Link>, including which ones are worth attracting to a backyard and which are folklore.</p>
 
           <h2>Are Mosquito Hawks Dangerous?</h2>
@@ -340,9 +355,21 @@ export default function MosquitoHawkPage() {
             </table>
           </div>
           <p className="text-sm text-gray-600">The &ldquo;daddy long legs is the most venomous spider but its fangs are too short&rdquo; story is false for all three animals. Harvestmen have no venom glands at all, cellar spider venom is not medically significant to people, and crane flies have neither venom nor fangs.</p>
+          <ConfusedWith
+            title="Often mistaken for a mosquito hawk"
+            items={[
+              { href: '/blog/mosquito-facts', name: 'Mosquito', photo: 'culex-pipiens', note: 'Only 3–6 mm, with a needle-like proboscis; the female bites, a crane fly cannot', alt: 'A northern house mosquito resting, seen close up' },
+              { href: '/blog/daddy-long-legs', name: 'Daddy long legs (cellar spider)', photo: 'cellar-spider-bathroom-corner', note: 'Eight legs and no wings; builds a loose, messy web in basements and garages', alt: 'A long-legged cellar spider in the corner of a bathroom where a white surface meets wood trim' },
+            ]}
+          />
 
           <h2>Gallinipper vs Mosquito Hawk: The One That Really Does Bite</h2>
           <p><strong>This is the one nickname on the list that can get you hurt, so it is worth separating carefully.</strong> In much of North America &ldquo;gallinipper&rdquo; gets used loosely for any oversized fly, crane flies included — which is why it appears in the nickname list above. But in <strong>Florida and along the Gulf Coast</strong>, &ldquo;gallinipper&rdquo; means something specific and very different: <em>Psorophora ciliata</em>, a genuine mosquito about the size of a quarter that bites hard, bites through clothing, and is often out in force after heavy summer rain.</p>
+          <Photo
+            id="psorophora-ciliata"
+            alt="A gallinipper, a large dark mosquito with long banded legs, resting on a white cloth with a faint blue grid"
+            caption="A gallinipper, Psorophora ciliata, photographed in Davis Mountains State Park, Texas. Unlike the crane fly, it is a true mosquito, and UF/IFAS Extension describes its bite as painful."
+          />
           <p>If you are in the U.S. South and something the size of a quarter bit you through your shirt, that was not a crane fly. <a href="https://blogs.ifas.ufl.edu/okaloosaco/2026/06/24/when-the-rain-brings-the-giants/" target="_blank" rel="noopener" className="text-emerald-700 underline">UF/IFAS Extension</a> describes the gallinipper as a floodwater mosquito that turns up in numbers after storms and flooding, is noticeably larger than most mosquitoes, and delivers a painful bite — while noting that gallinippers &ldquo;do not play a major role in spreading diseases in Florida&rdquo; and rarely pose a serious health threat. It carries no venom either. It is still a real biting mosquito, and worth protecting yourself from.</p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
             <table className="w-full text-sm min-w-[560px]">

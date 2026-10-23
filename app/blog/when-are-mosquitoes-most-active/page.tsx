@@ -4,6 +4,7 @@ import AuthorByline from '@/components/AuthorByline'
 import BuyLink from '@/components/BuyLink'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -15,7 +16,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'when-are-mosquitoes-most-active'
 const DATE = '2026-07-13'
-const UPDATED = '2026-09-02'
+const UPDATED = '2026-10-23'
 const TITLE = 'When Are Mosquitoes Most Active — and When Do They Stop?'
 
 const FAQS = [
@@ -53,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'What time do mosquitoes stop biting at night?',
-    answer: 'Most mosquitoes have stopped biting, or fallen to a fraction of their peak, by roughly 2 to 4 a.m. Culex biting climbs steeply around sunset, peaks in the first one to two hours after dark, holds until about midnight, then tapers through the small hours before a smaller rise near dawn. Anopheles hold a broader plateau across the night. Aedes daytime biters mostly quiet down within an hour or two of full dark. They are not watching a clock: activity falls as the air cools toward 10 C (50 F) and as their internal daily rhythm winds down.',
+    answer: 'By roughly 2 to 4 a.m. most mosquitoes are past their evening peak, but night biters do not stop: the CDC describes adult Culex as most active from dusk to dawn. Culex biting climbs steeply around sunset, peaks in the first one to two hours after dark, holds until about midnight, then tapers through the small hours before a smaller rise near dawn. Anopheles hold a broader plateau across the night. Aedes daytime biters mostly quiet down within an hour or two of full dark. They are not watching a clock: activity falls as the air cools toward 10 C (50 F) and as their internal daily rhythm winds down.',
   },
   {
     question: 'Do mosquitoes sleep?',
@@ -91,6 +92,14 @@ const FAQS = [
     question: 'How does mosquito season compare between the United States and Canada?',
     answer: 'The daily pattern is identical; the calendar is not. Most of Canada runs a compressed May-to-September season that peaks from late June through early August and ends with the first hard frost. Much of the southern United States runs from February or March into November, and south Florida, Hawaii and south Texas are effectively year-round. Same species groups, same temperature thresholds — the difference is simply how many months a year the thermometer sits above them.',
   },
+  {
+    question: 'What time do mosquitoes go away in the morning?',
+    answer: 'Night-biting Culex mosquitoes stop around sunrise: the CDC describes adult Culex as most active from dusk to dawn. Day-biting Aedes work the other way. The CDC lists dawn as one of the two peak biting times for Aedes aegypti and Aedes albopictus, so in a yard with those species the hour after sunrise brings a second wave rather than relief. Pressure then eases as the morning warms and dries and most mosquitoes settle into shade, although Aedes keep biting in shaded spots through the day.',
+  },
+  {
+    question: 'When are mosquitoes least active?',
+    answer: 'In the middle of a hot, sunny, dry day, and whenever the air is below about 10 C (50 F) or the wind is above about 16 km/h (10 mph). Night-biting Culex and Anopheles rest in shade through the daylight hours, and the hottest two or three hours of the afternoon push even day-biting Aedes deeper into shade. Aedes are the exception to a quiet day: the CDC lists dawn and dusk as their peak biting times and they bite in shade through the day, so a shady yard can have bites at any hour of daylight.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -101,8 +110,9 @@ export const metadata: Metadata = buildMetadata({
   // also the second-largest query family on this page ("when do mosquitoes go away at
   // night", "when are mosquitoes least active", "when do mosquitoes stop biting":
   // ~2,900 impressions between them, all under 0.5%).
-  title: 'When Mosquitoes Are Active, and When They Stop',
-  description: 'Dusk is the peak, from 30 min before sunset to 90 after, and biting bottoms out by 2-4 a.m. Aedes bite in shade all day. Hour-by-hour chart plus temp table.',
+  // TITLE NOTE (Oct 23, 2026): was 'When Mosquitoes Are Active, and When They Stop'; top queries (28 days to Oct 20): when do mosquitoes go away at night 1,467 @ 5.8, when are mosquitoes most active 1,415 @ 5.9, when do mosquitoes come out 1,350 @ 6.3, what time do mosquitoes come out 608 @ 5.1 (page: 201 clicks on 51,326 impressions). This page owns "go away at night"; the temperature page keeps the temperature wording.
+  title: 'When Do Mosquitoes Come Out & Go Away at Night?',
+  description: 'Mosquitoes come out at sunset; house mosquitoes peak about 2 hours later and bite until dawn. Aedes bite by day, peaking at dawn and dusk. Hourly table.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -138,7 +148,7 @@ export default function WhenAreMosquitoesMostActivePage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-base text-gray-800 leading-relaxed">
-              <strong>Most mosquitoes are most active at dawn and dusk, when temperature and wind drop and humidity rises.</strong> Culex mosquitoes — the main West Nile carriers — peak from dusk into the night, while Aedes species (including the Asian tiger mosquito) are daytime biters that attack in shade all afternoon. Activity switches on above about 10 C (50 F) and peaks around 24-28 C (75-82 F); above ~35 C (95 F) mosquitoes retreat to shade. Warm, humid, still, overcast conditions a few days after rain are the worst. The practical takeaway: avoid the dawn/dusk peaks in the open, watch for daytime bites in shaded yards, and treat the shaded resting spots where mosquitoes wait out the day.
+              <strong>Most mosquitoes are most active at dawn and dusk, when temperature and wind drop and humidity rises: they come out around sunset, and night-biting <em>Culex</em> house mosquitoes peak about two hours after sunset and keep biting until dawn.</strong> Culex mosquitoes — the main West Nile carriers — peak from dusk into the night, while Aedes species (including the Asian tiger mosquito) are daytime biters that attack in shade all afternoon. Activity switches on above about 10 C (50 F) and peaks around 24-28 C (75-82 F); above ~35 C (95 F) mosquitoes retreat to shade. Warm, humid, still, overcast conditions a few days after rain are the worst. The practical takeaway: avoid the dawn/dusk peaks in the open, watch for daytime bites in shaded yards, and treat the shaded resting spots where mosquitoes wait out the day.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Dusk (roughly the hour around sunset) is the single highest-bite window for most mosquitoes.</li>
@@ -149,6 +159,7 @@ export default function WhenAreMosquitoesMostActivePage() {
               <li>Warm, humid, still, overcast conditions a few days after rain drive the worst biting.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-2 text-xs text-gray-500">Sources: <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-culex-mosquitoes.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC, Life Cycle of <em>Culex</em> Mosquitoes</a> (adult <em>Culex</em> are most active from dusk to dawn); <a href="https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">CDC Yellow Book</a> (peak biting at dawn and dusk for <em>Aedes aegypti</em> and <em>Aedes albopictus</em>, about 10&ndash;11 p.m. for the southern house mosquito); <a href="https://pubmed.ncbi.nlm.nih.gov/17427688/" target="_blank" rel="noopener" className="underline hover:text-brand-700">Reddy et al., 2007</a> and <a href="https://www.usgs.gov/publications/host-seeking-activity-and-avian-host-preferences-mosquitoes-associated-west-nile-virus" target="_blank" rel="noopener" className="underline hover:text-brand-700">Suom et al., 2010</a> (<em>Culex</em> host-seeking peaked about two hours after sunset in the northeastern United States).</p>
           </div>
         </div>
       </section>
@@ -238,9 +249,11 @@ export default function WhenAreMosquitoesMostActivePage() {
 
           <h2>The Daytime Exception: Aedes Mosquitoes</h2>
           <p>Not every mosquito waits for dusk. <strong>Aedes</strong> species — including <em>Aedes aegypti</em> and the Asian tiger mosquito (<em>Aedes albopictus</em>) — are <strong>daytime biters</strong>. They are aggressive, they target the lower legs and ankles, and they happily bite in the shade all afternoon. If you have ever been eaten alive at a shady midday backyard barbecue, that was almost certainly an Aedes. Because they rest in the same cool, humid, shaded microclimates during the day and don&rsquo;t need to wait for evening, a leafy, damp yard can have a genuine daytime mosquito problem while the open lawn nearby feels fine. Mature, tree-lined neighbourhoods are the classic case, which is why a treatment on a shaded lot follows the shade line and the shrub interiors rather than the open grass &mdash; the approach behind our <Link href="/oakville-mosquito-control">mosquito control in Oakville</Link> and the other older-canopy suburbs we cover.</p>
+          <Photo id="aedes-aegypti-female" caption="A resting female yellow fever mosquito, Aedes aegypti (CDC photograph). The CDC lists dawn and dusk as this species’ peak biting times, and it bites during the day as well." />
 
           <h2>When Do Mosquitoes Stop Biting at Night?</h2>
-          <p><strong>Most mosquitoes have stopped biting, or dropped to a fraction of their peak, by roughly 2 to 4 a.m.</strong> Biting does not switch off at midnight. It decays. <strong>Culex</strong> house mosquitoes climb steeply in the half hour before sunset, peak in the first one to two hours of darkness, hold that pressure until around midnight, then fade through the small hours &mdash; and by the 2&ndash;4 a.m. window most of them have settled onto resting surfaces. A smaller second rise follows around dawn. <strong>Anopheles</strong> hold a flatter plateau right across the night, which is why they are the group most likely to bite you at 3 a.m. <strong>Aedes</strong> daytime biters mostly quiet down within an hour or two of full dark.</p>
+          <p><strong>By roughly 2 to 4 a.m. most mosquitoes are past their evening peak, but night biters do not stop until dawn.</strong> Biting does not switch off at midnight. It decays. <strong>Culex</strong> house mosquitoes climb steeply in the half hour before sunset, peak in the first one to two hours of darkness, hold that pressure until around midnight, then fade through the small hours &mdash; by the 2&ndash;4 a.m. window they are past their peak, though field studies find <em>Culex</em> still host-seeking until dawn. A smaller second rise follows around dawn. <strong>Anopheles</strong> hold a flatter plateau right across the night, which is why they are the group most likely to bite you at 3 a.m. <strong>Aedes</strong> daytime biters mostly quiet down within an hour or two of full dark.</p>
+          <Photo id="culex-quinquefasciatus-female" caption="A resting female southern house mosquito, Culex quinquefasciatus (CDC photograph). The CDC puts this species’ biting peak at about 10–11 p.m." />
           <p>They are not reading a clock. Two things wind them down together: the air keeps cooling toward the ~10&nbsp;C (50&nbsp;F) floor where flight stops, and their own circadian rhythm &mdash; the internal daily clock that sets when each species flies &mdash; runs out its evening programme. That is why a warm, muggy night with no cooling keeps biting going far later than a night that drops sharply after sunset, and why the same yard can be unbearable at 11 p.m. in July and quiet at 11 p.m. in September.</p>
 
           <Figure
@@ -271,7 +284,7 @@ export default function WhenAreMosquitoesMostActivePage() {
                   ['30 min before sunset → 90 min after', 'PEAK', 'Culex surge; the single worst window of the day'],
                   ['2 hrs after sunset → midnight', 'High, slowly falling', 'Culex still feeding; Anopheles ramping up'],
                   ['Midnight → 2 a.m.', 'Moderate', 'Anopheles plateau; Culex thinning out'],
-                  ['2 a.m. → 4 a.m.', 'Low — the nightly floor', 'Most mosquitoes have settled onto resting surfaces'],
+                  ['2 a.m. → 4 a.m.', 'Lower than the evening peak', 'Culex past their peak but still host-seeking; Anopheles still active'],
                 ].map(([window, level, who]) => (
                   <tr key={window} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-2 font-semibold text-brand-800">{window}</td>
@@ -283,6 +296,10 @@ export default function WhenAreMosquitoesMostActivePage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 not-prose">Sunset-anchored windows shift with latitude and month. Far-north summers (Alaska, northern Canada) hold long twilight, which stretches the dusk peak for hours; low-latitude sunsets are abrupt, which compresses it.</p>
+
+          <h3>What the field measurements show, hour by hour</h3>
+          <p>Here is what public-health agencies and field studies have actually measured. The <a href="https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/mosquitoes-ticks-and-other-arthropods.html" target="_blank" rel="noopener">CDC Yellow Book</a> puts the peak biting of the two day-biting <em>Aedes</em> (<em>aegypti</em> and <em>albopictus</em>) at dawn and dusk, and that of the southern house mosquito (<em>Culex quinquefasciatus</em>) at about 10&ndash;11 p.m. Field studies of the West Nile <em>Culex</em> in the northeastern United States found their host-seeking peaked about two hours after sunset (<a href="https://pubmed.ncbi.nlm.nih.gov/17427688/" target="_blank" rel="noopener">Reddy et al., 2007</a>; <a href="https://www.usgs.gov/publications/host-seeking-activity-and-avian-host-preferences-mosquitoes-associated-west-nile-virus" target="_blank" rel="noopener">Suom et al., 2010</a>), while the saltmarsh mosquito <em>Aedes taeniorhynchus</em> was most active at dusk and kept coming through the night. In Tennessee, <em>Culex pipiens</em>-complex mosquitoes began host-seeking at the end of civil twilight and kept at it for 8&ndash;10 hours (<a href="https://pubmed.ncbi.nlm.nih.gov/18402144/" target="_blank" rel="noopener">Savage et al., 2008</a>). The <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-culex-mosquitoes.html" target="_blank" rel="noopener">CDC</a> sums up adult <em>Culex</em> as most active from dusk to dawn.</p>
+          <p>For anyone sitting outside, the practical reading is that sunset is when the night shift starts, not when it ends: the West Nile carriers are still climbing toward their peak an hour after sunset. Connecticut&rsquo;s <a href="https://portal.ct.gov/-/media/caes/documents/publications/press_releases/2019/caes-press-release-eee--risk-10-16-19.pdf" target="_blank" rel="noopener">State Mosquito Management Program</a> gives the same advice: keep time outdoors between dusk and dawn, when mosquitoes are most active, to a minimum.</p>
 
           <h2>Do Mosquitoes Sleep?</h2>
           <p>Not the way you do &mdash; but yes, they rest, and the rest period is the mirror image of the bite window. Mosquitoes have no eyelids and nothing resembling mammalian sleep architecture, but they run on a strong circadian rhythm and pass their inactive hours in a <strong>quiescent state</strong>: motionless on a cool, humid, shaded surface, metabolism dialled down, noticeably slower to respond to light and movement. Nudge a resting Culex at noon and it is sluggish in a way the same insect never is at 9 p.m.</p>
@@ -446,7 +463,7 @@ export default function WhenAreMosquitoesMostActivePage() {
           <p>Two cautions on ranges. The CDC builds its estimated potential-range maps for <em>Aedes aegypti</em> and <em>Aedes albopictus</em> from county-level and historical collection records combined with climate suitability, and they are explicitly maps of where the species could survive if introduced during the months mosquitoes are locally active &mdash; not maps of disease risk. The CDC also cautions that a species may turn up in an area the map does not shade, simply because nobody has trapped and reported it there. Second, ranges move. <em>Aedes albopictus</em> has been expanding northward for three decades; a species list that was right for your county in 2005 may be incomplete now. For current local surveillance, the <a href="https://www.mosquito.org/" target="_blank" rel="noopener">American Mosquito Control Association (AMCA)</a> maintains a directory of member districts, and most U.S. states run a public arbovirus surveillance page.</p>
 
           <h2>In Canada: The Same Behaviour, a Much Shorter Calendar</h2>
-          <p>Canadian readers get the same daily clock &mdash; dusk peak, 2&ndash;4 a.m. floor, Aedes biting in shade at midday &mdash; inside a season that runs roughly May through September and ends decisively at the first hard frost. In the Greater Toronto Area the practical window is early May to late September, with the worst biting from late June through early August. The compressed season is the whole difference: southern Ontario simply does not spend February above 50&nbsp;&deg;F (10&nbsp;C), so there is no February mosquito.</p>
+          <p>Canadian readers get the same daily clock &mdash; dusk peak, night biters until dawn, Aedes biting in shade at midday &mdash; inside a season that runs roughly May through September and ends decisively at the first hard frost. In the Greater Toronto Area the practical window is early May to late September, with the worst biting from late June through early August. The compressed season is the whole difference: southern Ontario simply does not spend February above 50&nbsp;&deg;F (10&nbsp;C), so there is no February mosquito.</p>
           <p>The species mix is narrower but familiar. <em>Culex pipiens</em> and <em>Culex restuans</em> are the West Nile carriers <a href="https://www.publichealthontario.ca/en/Diseases-and-Conditions/Infectious-Diseases/Vector-Borne-Zoonotic-Diseases/West-Nile-Virus" target="_blank" rel="noopener">Public Health Ontario</a> tracks through its summer trapping programme, and they bite from dusk into the night &mdash; the reason WNV risk in Ontario is an evening-and-night risk, not a midday one. <em>Aedes vexans</em> is the floodwater mosquito behind the wave that shows up a week after a heavy summer rain. <em>Aedes albopictus</em>, the daytime shade biter, has been detected in southernmost Ontario in recent years but is nowhere near as established as it is in the U.S. Southeast. National West Nile updates are published by the <a href="https://www.canada.ca/en/public-health/services/diseases/west-nile-virus.html" target="_blank" rel="noopener">Public Health Agency of Canada</a>, and repellent active ingredients sold in Canada are registered by <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management.html" target="_blank" rel="noopener">Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA)</a>.</p>
           <p className="text-sm text-gray-600 not-prose">A note on who we are: BuzzSkito treats yards in the Greater Toronto Area only &mdash; <Link href="/mosquito-control" className="underline">mosquito control</Link> across 19+ GTA cities. If you are reading this from the United States, everything above about timing, temperature and species applies to your yard too; for treatment, the AMCA directory linked above will point you to a licensed operator or mosquito control district near you.</p>
 
@@ -476,7 +493,7 @@ export default function WhenAreMosquitoesMostActivePage() {
             <h2 className="text-xl font-extrabold text-brand-900 mb-3 mt-0">Key Takeaways</h2>
             <ul className="space-y-2 text-sm text-gray-800 list-disc pl-5">
               <li><strong>Dusk is the peak</strong> &mdash; from about 30 minutes before local sunset to 90 minutes after it is the worst window of the day for most mosquitoes.</li>
-              <li><strong>Biting stops between roughly 2 and 4 a.m.</strong>, then rises again briefly at dawn. Anopheles are the group most likely to be biting in the middle of the night.</li>
+              <li><strong>Biting eases after the evening peak but does not stop</strong>: night-biting Culex keep going until dawn, and biting rises again briefly at dawn. Anopheles are the group most likely to be biting in the middle of the night.</li>
               <li><strong>Aedes break the rule.</strong> The Asian tiger mosquito and <em>Aedes aegypti</em> bite in shade all day, which is why a leafy yard can be miserable at noon.</li>
               <li><strong>The thermometer sets the season:</strong> activity switches on above 50&nbsp;&deg;F (10&nbsp;C), peaks at 75&ndash;82&nbsp;&deg;F (24&ndash;28&nbsp;C), and declines above 95&nbsp;&deg;F (35&nbsp;C). Wind above 10 mph (16 km/h) grounds them.</li>
               <li><strong>The calendar is regional.</strong> Gulf Coast and Florida run February to November; the Midwest and Mid-Atlantic April to September; New England and the northern Midwest May to September; Alaska mid-June to mid-July; southern Ontario May to September, worst late June to early August.</li>

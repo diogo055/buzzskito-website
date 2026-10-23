@@ -11,10 +11,13 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'can-ticks-fly-jump-swim'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-23'
 const TITLE = 'Can Ticks Fly, Jump, or Swim? (Myths vs Facts, Ontario)'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
 const SEO_TITLE = 'Can Ticks Drown? How Long They Survive in Water'
@@ -52,6 +55,14 @@ const FAQS = [
     question: 'Are ticks that survive water still dangerous?',
     answer: 'Yes. A tick that survived a swim, a rinse, or a soak is fully capable of biting and transmitting disease afterward. In Ontario the main concern is the blacklegged (deer) tick, which can transmit Lyme disease when attached for roughly 24 hours or more. Never assume water killed a tick you found on skin, a pet, or clothing. Remove any attached tick promptly with fine-tipped tweezers, gripping close to the skin and pulling straight out, and dry-heat clothing to kill hidden ticks.',
   },
+  {
+    question: 'Can you flush a tick down the toilet?',
+    answer: 'Yes. Flushing is one of the four ways the U.S. Centers for Disease Control and Prevention (CDC) lists for getting rid of a live tick, along with sealing it in a container, wrapping it tightly in tape, or putting it in alcohol. The University of Rhode Island’s TickEncounter Resource Center says a flushed tick should be the last you see of it, because ticks do not swim. If you would like the tick identified later, choose the sealed container or the tape instead, because a flushed tick is gone. Never crush a tick with your fingers.',
+  },
+  {
+    question: 'How do ticks breathe underwater?',
+    answer: 'Slowly, and partly through a thin film of air. A 2011 study of the American dog tick in the Journal of Insect Physiology found evidence of plastron breathing: a thin layer of air held on the tick’s spiracular plates, its breathing openings, that can take up oxygen from the surrounding water. The ticks survived longer in oxygenated water, and the authors suggest that a slowed-down metabolism helps as well. Wetting the spiracular plates with alcohol lowered the ticks’ survival, which is part of why plain water is such a poor way to kill a tick.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
@@ -61,6 +72,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
 })
 
 const AMZ_TAG = tagForSlug('can-ticks-fly-jump-swim')
@@ -68,7 +80,7 @@ const AMZ_TAG = tagForSlug('can-ticks-fly-jump-swim')
 export default function CanTicksFlyJumpSwimPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Can ticks fly, jump, or swim? Myths vs facts on how ticks move and reach hosts in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Can ticks fly, jump, or swim? Myths vs facts on how ticks move and reach hosts in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-adult-nymph-fingertip') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Can Ticks Fly, Jump, or Swim?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -92,12 +104,13 @@ export default function CanTicksFlyJumpSwimPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              No &mdash; ticks cannot fly, jump, or swim. They are wingless with no jumping legs, so they reach you only by &ldquo;questing&rdquo;: climbing grass or low plants and grabbing a host that brushes past. Ticks can survive underwater for days but never swim toward you &mdash; every tick is picked up on land.
+              <strong>Ticks are very hard to drown.</strong> Deer ticks held underwater for 2&ndash;3 days still seem to survive, according to the <a href="https://web.uri.edu/tickencounter/tick-notes/ticks-definitely-dont-swim/" target="_blank" rel="noopener" className="underline hover:text-brand-700">University of Rhode Island&rsquo;s TickEncounter Resource Center</a>, so a swim, a bath, or a cold wash will not reliably kill one. Ticks cannot swim, fly, or jump either: they are wingless with no jumping legs, so they reach you only by &ldquo;questing&rdquo;, climbing grass or low plants and grabbing a host that brushes past. Every tick is picked up on land.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Ticks are wingless at every life stage &mdash; larva, nymph, and adult &mdash; so no tick can fly.</li>
               <li>Ticks have no jumping legs; fleas can leap about 30 cm, but ticks cannot launch themselves at all.</li>
               <li>A blacklegged (deer) tick can survive full submersion underwater for 2&ndash;3 days, so a rinse or cold wash will not reliably kill it.</li>
+              <li>To get rid of a live tick, the CDC lists four options: flush it down the toilet, put it in alcohol, seal it in a container, or wrap it tightly in tape.</li>
               <li>In Ontario, ticks quest low &mdash; from ground level to about knee height (30&ndash;50 cm) &mdash; and do not drop from trees.</li>
               <li>To kill ticks hiding in clothing, tumble-dry on high heat for at least 10 minutes.</li>
               <li>A blacklegged tick generally needs to stay attached about 24 hours or more to transmit Lyme disease.</li>
@@ -107,6 +120,28 @@ export default function CanTicksFlyJumpSwimPage() {
 
           <AffiliateDisclosure />
           <p className="not-prose text-gray-700 text-[15px] leading-relaxed my-4">Because every tick is picked up on land and crawls for a while before it bites, the check when you get home is what catches it &mdash; and a fine-tipped remover is the tool that check needs: <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">Check price on Amazon.ca →</BuyLink></p>
+        </div>
+      </section>
+
+      {/* Water first: what water does to a tick, and what actually kills one */}
+      <section className="pt-4 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Can ticks drown? What water does, and what actually kills a tick"
+            head={['What you try', 'Does it kill the tick?', 'What the source says']}
+            rows={[
+              ['Holding it under plain water', 'Not reliably', 'URI’s TickEncounter labs have seen deer ticks of several life stages spend 2–3 days underwater and seem to survive just fine.'],
+              ['A swim, a bath or a hot tub', 'No', 'TickEncounter lists the bath, swimming, the washer and the hot tub as common misperceptions: none of them seems to harm ticks.'],
+              ['A shower after time outdoors', 'No, but take one', 'It will not drown a tick, but CDC says showering within two hours of coming indoors has been shown to reduce your risk of getting Lyme disease.'],
+              ['A cold or medium wash cycle', 'No', 'CDC: cold and medium temperature water will not kill ticks.'],
+              ['A hot wash, then the dryer', 'Yes, with the dryer', 'CDC recommends hot water when clothes need washing first; the dryer on high heat is the step that finishes the job.'],
+              ['The dryer on high heat (dry clothes)', 'Yes', 'CDC: tumble dry on high heat for 10 minutes to kill ticks on dry clothing.'],
+              ['Flushing it down the toilet', 'Gets rid of it', 'One of CDC’s four ways to dispose of a live tick. TickEncounter says a flushed tick should be the last you see of it, because ticks do not swim.'],
+              ['Putting it in alcohol', 'Yes, as disposal', 'Also on CDC’s list. In a lab study, wetting a tick’s breathing plates with alcohol lowered its survival underwater.'],
+              ['Smothering an attached tick (petroleum jelly, nail polish, heat)', 'Don’t try it', 'CDC: do not use these to make a tick detach. Grip it close to the skin with clean, fine-tipped tweezers and pull it away with steady, even pressure.'],
+            ]}
+            caption={<>Sources: the CDC&rsquo;s <a href="https://www.cdc.gov/ticks/prevention/index.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">Preventing Tick Bites</a> and <a href="https://www.cdc.gov/ticks/after-a-tick-bite/index.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">What to Do After a Tick Bite</a> pages, the University of Rhode Island&rsquo;s <a href="https://web.uri.edu/tickencounter/tick-notes/ticks-definitely-dont-swim/" target="_blank" rel="noopener" className="underline hover:text-brand-700">TickEncounter Resource Center</a>, and a <a href="https://pubmed.ncbi.nlm.nih.gov/20826157/" target="_blank" rel="noopener" className="underline hover:text-brand-700">2011 Journal of Insect Physiology study of American dog ticks underwater</a>.</>}
+          />
         </div>
       </section>
 
@@ -165,10 +200,17 @@ export default function CanTicksFlyJumpSwimPage() {
           <h2>Can Ticks Swim? No — But They Survive Water Longer Than You&rsquo;d Think</h2>
           <p>Ticks have no swimming appendages and cannot propel themselves through water, so a tick never swims toward a host. You pick ticks up on land, from vegetation — not from a lake, pool, or puddle. But here is the part that surprises people: a tick is remarkably hard to drown. Ticks breathe extremely slowly through tiny openings on their bodies called <strong>spiracles</strong>, and they can seal them and go dormant. A blacklegged tick can survive full submersion for <strong>two to three days</strong>, and some have been kept alive underwater even longer in the lab.</p>
           <p>That has a practical consequence: <strong>a quick rinse, a swim, or a cold wash cycle will not reliably kill a tick.</strong> If you find a tick after being at the lake or in the pool, do not assume the water killed it — a survivor can still bite and transmit disease. Remove any attached tick promptly and treat it as fully live.</p>
+          <p><strong>How does a tick last that long underwater?</strong> A <a href="https://pubmed.ncbi.nlm.nih.gov/20826157/" target="_blank" rel="noopener">2011 study in the Journal of Insect Physiology</a> found evidence that the American dog tick breathes underwater through a <strong>plastron</strong>: a thin layer of air held on its spiracular plates that can take up oxygen from the surrounding water. The ticks survived longer in oxygenated water, the authors suggest that a slowed-down metabolism helps as well, and wetting the spiracular plates with alcohol lowered the ticks&rsquo; survival. The two-to-three-day figure for deer ticks comes from the lab observations of the University of Rhode Island&rsquo;s <a href="https://web.uri.edu/tickencounter/tick-notes/ticks-definitely-dont-swim/" target="_blank" rel="noopener">TickEncounter Resource Center</a>, which says ticks don&rsquo;t drown easily but don&rsquo;t swim either, so a tick flushed down the toilet should be the last you see of it.</p>
+          <Photo
+            id="blacklegged-tick-adult-nymph-fingertip"
+            alt="An adult female blacklegged tick and a much smaller blacklegged tick nymph on the tip of a person's index finger"
+            caption="An adult female blacklegged (deer) tick, left, and a blacklegged tick nymph, right, on a person's fingertip (CDC photograph). A tick like either one, found on skin after a swim or a bath, may well still be alive: remove it promptly."
+          />
 
           <RelatedLinks path="/blog/can-ticks-fly-jump-swim" />
           <h2>Can Ticks Drown in the Wash? Dry Heat Is What Kills Them</h2>
           <p>Because ticks resist water so well, washing clothes is not a dependable way to kill them. The reliable step is <strong>heat and dryness</strong>. Public-health guidance is consistent on this: tumble-dry clothing on <strong>high heat for at least 10 minutes</strong> to kill ticks that may be hiding in the fabric. If clothes are damp or dirty and you want to wash first, use hot water (over 54°C / 130°F) — but the dryer on high is the step you can count on. Ticks die from desiccation far faster than from a soak.</p>
+          <p>The CDC&rsquo;s <a href="https://www.cdc.gov/ticks/prevention/index.html" target="_blank" rel="noopener">tick-bite prevention page</a> puts it plainly: cold and medium temperature water will not kill ticks, so if clothes need washing first, use hot water, and dry clothing goes straight into the dryer on high heat for 10 minutes. The same page recommends a shower within two hours of coming indoors, which has been shown to reduce your risk of getting Lyme disease. The water itself will not drown a tick, and the CDC also advises a full body check when you come back from tick-infested areas, including your own backyard. Our separate guide on <Link href="/blog/do-ticks-die-in-the-washing-machine">whether ticks die in the washing machine</Link> covers wash temperatures and dryer times in more detail.</p>
 
           <h2>Do Ticks Fall From Trees? Almost Never</h2>
           <p>Ticks do not climb trees to drop on hosts. They quest low, because that is where hosts pass. The myth persists because ticks are often found on the upper body — the scalp, neck, or behind the ears — which makes it feel like they fell from above. In reality the tick almost always latched onto a lower leg during questing and then <strong>crawled upward</strong> over several minutes, looking for a sheltered place to feed. That is why your yard defence belongs at ground level: grass, leaf litter, and shaded edges, not overhead branches.</p>

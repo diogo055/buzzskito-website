@@ -2,7 +2,7 @@
  "id": "what-do-bed-bugs-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "fa64bf7e1b15b54dad01bc05fffbd1597e375e1344dd66dc4d96e5d9aeff6751",
+ "sha": "3075a4832919e7aea30b61c5b31ec7831b2565ee45325ecf7ed38ed6584a412e",
  "claimsChecked": 74,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -16,6 +16,16 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: the fecal-stains link now points to the new US edition, /blog/bed-bug-poop (hreflang pair with the Canadian page); no fact changed.",
    "previousSha": "a3366bdcf1ef29db75ff853378588b835a01f995e519c82959cce2a2152484b6"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "Oct 23, 2026 retrofit (volume-20 upgrade #8): metaTitle 'What Do Bed Bugs Look Like? Actual Size + Photos' (was 'What Do Bed Bugs Look Like? Size, Color, Stages'), metaDescription leads with 'How big are bed bugs?', alsoTargets 'how big are bed bugs' and 'bed bug size', dateModified 2026-10-23. The two-column facts box became a 6-row quick-ID table (egg, nymph, adult unfed, adult fed, shed skin, fecal spot) holding every old fact (EPA, Virginia Tech, University of Kentucky, all already on the page). 5 ledger photos: bed-bug-adult-ruler (PD, lead; CDC average adult 5 mm), bed-bug-nymph (CC0, fabric), bed-bugs-eggs-mattress-seam (PD), bed-bug-fecal-spots-bed-frame (CC BY 2.0, NY State IPM), bed-bug-bites-forearm (CC BY-SA 3.0); the 3 media placeholders stay. One new paragraph on cockroach nymphs from Texas A&M AgriLife E-359 (pronotum, antennae, spiny legs; German nymphs' two dark stripes), added as a source and checked in the PDF. Look-alike cards: bat bug (planned), tick, cockroach nymph, flea, notes from facts already on the page. 3 FAQs appended (penny size, how small nymphs are, what is mistaken for bed bugs) restating EPA, CDC and University of Kentucky facts on the page.",
+   "previousSha": "fa64bf7e1b15b54dad01bc05fffbd1597e375e1344dd66dc4d96e5d9aeff6751"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker (Oct 23 retrofit, independent pass): quick-ID table caption now also names the University of Tennessee (source of 'elongated' egg); FAQ 'CDC gives the size range across all life stages as 1 mm to 7 mm' -> 'CDC gives their size range as 1 mm to 7 mm' (CDC About Bed Bugs does not tie the range to life stages). All other new cells, captions, cards and FAQs verified against EPA (appearance; how to find: 3-12 min, bullet-size spots, pale yellow skins), Virginia Tech (torpedo, bright/brilliant red, empty-shell skins of different sizes, groups of 10+), Univ. of Kentucky (lentil, pinhead, no fly/jump, mistaken insects), CDC (1-7 mm, Lincoln's head, bites), CDC PHIL 12704 (5 mm average) and Texas A&M E-359.",
+   "previousSha": "e2cef02076e88776c136965807897d5d20b36ccbd793c1ef224078d1ff62cfc9"
   }
  ]
 }

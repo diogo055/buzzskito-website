@@ -2,15 +2,20 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
+import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-colors-attract-mosquitoes'
 const DATE = '2026-07-16'
+// Oct 23, 2026: answer-first quick answer with its source, a colour-by-colour table from the 2022 study (three species), one ledger photo, two FAQs
+const UPDATED = '2026-10-23'
 const TITLE = 'What Colors Attract Mosquitoes? (2022 Study: Red, Orange, Black, Cyan)'
 // SERP title only (H1 + schema keep TITLE). Layout appends ' | BuzzSkito' (12 chars) — keep <= 48.
-const SEO_TITLE = 'What Colors Attract Mosquitoes? All 8 Ranked'
+// TITLE NOTE (Oct 23, 2026): was 'What Colors Attract Mosquitoes? All 8 Ranked'; top queries (28 days to Oct 20): what colors are mosquitoes attracted to 366 @ 7.6, what color attracts mosquitoes 275 @ 8.0, what colors attract mosquitoes 254 @ 7.7 (page: 54 clicks on 15,933 impressions). The H1 keeps "What Colors Attract Mosquitoes".
+const SEO_TITLE = 'What Colors Are Mosquitoes Attracted To? (Chart)'
 
 const FAQS = [
   {
@@ -57,20 +62,29 @@ const FAQS = [
     question: 'What colors attract mosquitoes at dusk and after dark?',
     answer: 'At dusk and in low light, contrast matters more than hue. Mosquitoes silhouette a warm, dark shape against the fading sky, so black and dark saturated colours remain the most conspicuous at the times mosquitoes bite most — dawn and dusk for many GTA species. The red-orange skin signal identified in the 2022 study still applies to exposed skin regardless of light level. In practical terms, the colour advice does not change after dark: avoid black, red, and orange, and cover exposed skin, because your body heat and CO2 keep working around the clock.',
   },
+  {
+    question: 'Are mosquitoes attracted to blue?',
+    answer: 'It depends on the species. In the 2022 Nature Communications study, yellow fever mosquitoes (Aedes aegypti) that had smelled CO2 ignored a blue target (452 nm), and so did the malaria mosquito Anopheles stephensi, but the southern house mosquito, Culex quinquefasciatus, was drawn to it. The study also notes that the US military changed its dress shirts from dark blue to light blue, partly to cut mosquito biting. Pale blue is a reasonable choice; dark blue gives a mosquito the dark, high-contrast shape it looks for.',
+  },
+  {
+    question: 'Which colour are mosquitoes attracted to twice as much as any other?',
+    answer: 'That line is popular trivia, usually told about blue, and blue is a colour the main subject of the 2022 Nature Communications study, the yellow fever mosquito, ignored. The colour with the strongest and most consistent pull in that study was red (660 nm): the yellow fever mosquito strongly preferred it, along with 600 nm orange, and red was the one colour all three species tested went for. All four human skin tones tested were equally attractive, through the orange-red light that skin reflects.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: SEO_TITLE,
-  description: 'What colors attract mosquitoes? A 2022 Nature Communications study split 8 shades into attract vs ignore. See the chart, 7 myths checked, and what to wear.',
+  description: 'Red, orange, cyan and black drew yellow fever mosquitoes in a 2022 study; blue, green and violet did not. Red drew all 3 species tested. Colour chart.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 export default function WhatColorsAttractMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Which colours attract and repel mosquitoes, based on the 2022 Nature Communications colour-vision study, with GTA clothing advice.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Which colours attract and repel mosquitoes, based on the 2022 Nature Communications colour-vision study, with GTA clothing advice.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Colors Attract Mosquitoes', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -92,17 +106,19 @@ export default function WhatColorsAttractMosquitoesPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-base text-gray-800 leading-relaxed mb-3">
-              <strong>BuzzSkito&rsquo;s GTA technicians:</strong> mosquitoes are most attracted to <strong>red, orange, black, and cyan</strong>, and largely ignore <strong>green, blue, purple, and white</strong> &mdash; but colour is only a weak, last-second cue compared with CO2 and body odour.
+              Mosquitoes are most attracted to <strong>red, orange, black, and cyan</strong>, and largely ignore <strong>green, blue, purple, and white</strong> &mdash; but colour is only a weak, last-second cue compared with CO2 and body odour.
             </p>
             <ul className="space-y-2 text-sm text-gray-800 list-disc pl-5">
               <li>A 2022 University of Washington study in <em>Nature Communications</em> found mosquitoes flew to red, orange, black, and cyan after detecting CO2.</li>
               <li>The same mosquitoes ignored green, blue, purple, and white in the identical setup.</li>
+              <li>Red was the one colour all three species in the study went for; the southern house mosquito (<em>Culex quinquefasciatus</em>) was also drawn to blue, which the yellow fever mosquito ignored.</li>
               <li>Mosquitoes only paid attention to colour <em>after</em> smelling CO2 &mdash; without CO2 they ignored every colour.</li>
               <li>Human skin emits a long-wavelength red-orange signal regardless of skin tone, which is exactly the wavelength range mosquitoes chase.</li>
               <li>Colour ranks behind CO2, body heat, and skin odour (like lactic acid) as an attractant &mdash; clothing colour is a minor edge, not a shield.</li>
               <li>To be least visible, wear white, khaki, or pale blue; avoid red, orange, and black.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+            <p className="mt-2 text-xs text-gray-500">Source: <a href="https://doi.org/10.1038/s41467-022-28195-x" target="_blank" rel="noopener" className="text-emerald-700 underline">Alonso San Alberto et al., &ldquo;The olfactory gating of visual preferences to human skin and visible spectra in mosquitoes,&rdquo; <em>Nature Communications</em> 13, 555 (2022)</a>: yellow fever mosquitoes (<em>Aedes aegypti</em>) in a wind tunnel, about 1.3 million flight tracks, with the southern house mosquito and the malaria mosquito <em>Anopheles stephensi</em> also tested.</p>
           </div>
         </div>
       </section>
@@ -110,8 +126,27 @@ export default function WhatColorsAttractMosquitoesPage() {
       <article className="py-6 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
 
+          <QuickIdTable
+            title="What colours attract mosquitoes? The 2022 study, colour by colour"
+            head={['Colour (peak wavelength)', 'Yellow fever mosquito (Aedes aegypti)', 'Southern house mosquito and Anopheles stephensi']}
+            rows={[
+              ['Red (660 nm)', 'Strongly preferred', 'Both drawn in: red was the one colour all three species chose'],
+              ['Orange (590–600 nm)', 'Drawn in; 600 nm strongly preferred', 'Not reported'],
+              ['Cyan (496 nm)', 'Drawn in', 'Not reported'],
+              ['Black and dark grey', 'Drawn in; the darker the target, the stronger the pull', 'Anopheles drawn in; house mosquito not'],
+              ['Blue (452 nm)', 'Ignored', 'House mosquito drawn in; Anopheles not'],
+              ['Green (510 nm)', 'Ignored', 'Neither drawn in'],
+              ['Green-yellow (520 nm)', 'Ignored', 'Not reported'],
+              ['Violet (437 nm)', 'Ignored', 'Not reported'],
+              ['White', 'The comparison target: an ignored colour drew no more interest than white', 'Not reported'],
+              ['Human skin (4 tones)', 'All four drew equal interest; blocking their orange-red light (550–700 nm) took the pull away', 'Not reported'],
+            ]}
+            caption={<>Source: <a href="https://doi.org/10.1038/s41467-022-28195-x" target="_blank" rel="noopener" className="text-emerald-700 underline">Alonso San Alberto et al., <em>Nature Communications</em> 13, 555 (2022)</a>. Small coloured targets of matched darkness were compared with a white one in a wind tunnel (about 1.3 million flight tracks). The preferences appeared only after the mosquitoes smelled CO2: in clean air just 1&ndash;4% of them inspected any target, against 21% with CO2. The two night-active species looked at the targets only in dim light, under 5 lux.</>}
+          />
+
           <h2>What colors attract mosquitoes?</h2>
           <p>Mosquitoes are most strongly attracted to <strong>red, orange, black, and cyan</strong>. That specific list comes from a 2022 study published in <em>Nature Communications</em> by Jeffrey Riffell&rsquo;s lab at the University of Washington, which tracked <em>Aedes aegypti</em> mosquitoes inside a small wind tunnel and offered them coloured dots on a neutral background.</p>
+          <Photo id="aedes-aegypti-female" caption="A resting female yellow fever mosquito, Aedes aegypti, the species behind most of the 2022 colour experiments (CDC photograph)." />
           <p>The twist that made the study famous: the mosquitoes only cared about colour <strong>after</strong> they smelled carbon dioxide. When the researchers pulsed CO2 into the chamber &mdash; mimicking the breath of a nearby human &mdash; the insects suddenly flew toward red, orange, black, and cyan while ignoring the others. Remove the CO2, and the same mosquitoes drifted past every colour without interest. In other words, scent flips the switch, and colour helps the mosquito finish the hunt.</p>
           <p>Why those colours? They share long-wavelength or high-contrast properties. Reds and oranges sit at the long end of the visible spectrum (roughly 620&ndash;750 nanometres), and the researchers noted that human skin &mdash; regardless of pigmentation &mdash; reflects a strong signal in exactly that red-orange band. To a CO2-primed mosquito, a patch of exposed skin, a red shirt, or a black silhouette all read as &ldquo;host here.&rdquo; If you want the fuller picture of what draws mosquitoes to specific people, see our guide on <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
 

@@ -7,9 +7,12 @@ import { PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-mosquitoes-in-the-house'
 const DATE = '2026-07-15'
+const UPDATED = '2026-10-23'
 const TITLE = 'How to Get Rid of Mosquitoes in the House (Fast) — 2026 Indoor Guide'
 const META_TITLE = 'How to Get Rid of Mosquitoes in the House Fast'
 
@@ -74,10 +77,12 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How to get rid of mosquitoes in the house fast — the fan trick, where mosquitoes hide in a room, how to find and kill them, natural methods, sleep protection, and finding the indoor breeding source. Ontario 2026 guide.',
+  description: 'How to get rid of mosquitoes in the house fast, step by step: a fan on the bed, a dusk hunt in their hiding spots, no standing water, sealed screens.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
+  image: shareImage('culex-quinquefasciatus-female'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-mosquitoes-in-the-house')
@@ -85,7 +90,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-mosquitoes-in-the-house')
 export default function GetRidOfMosquitoesInHousePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A complete 2026 indoor playbook for getting rid of mosquitoes in the house, room and bedroom — where they hide, how to find them, the fan trick, natural methods and the breeding source.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A complete 2026 indoor playbook for getting rid of mosquitoes in the house, room and bedroom — where they hide, how to find them, the fan trick, natural methods and the breeding source.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('culex-quinquefasciatus-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Mosquitoes in the House', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -118,6 +123,20 @@ export default function GetRidOfMosquitoesInHousePage() {
               <li>Bug zappers are a poor indoor choice &mdash; research shows they kill mostly moths and beetles and very few biting mosquitoes.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
+          </div>
+
+          <div className="not-prose mb-6 rounded-xl border border-navy-100 bg-white p-5">
+            <h2 className="text-lg font-extrabold text-brand-900 mb-3">How to get rid of mosquitoes in the house, step by step</h2>
+            <ol className="list-decimal pl-5 space-y-2 text-[15px] leading-relaxed text-gray-800">
+              <li><strong>Put a fan on your bed or seat.</strong> Mosquitoes fly at only about 1&ndash;2 km/h, so moving air keeps them from landing and biting, and it scatters the carbon dioxide they follow to find you.</li>
+              <li><strong>Dim the room and watch the walls at dusk.</strong> When one lands on a wall or the ceiling, swat it or take it out of the air with an electric bug racket.</li>
+              <li><strong>Check where they hide.</strong> Under the bed and furniture, inside closets, behind curtains, and in the bathroom: the cool, dark, humid spots where mosquitoes rest by day.</li>
+              <li><strong>Empty and scrub anything that holds water.</strong> Plant saucers, vases, pet bowls, the drip tray under the fridge or a dehumidifier, and slow drains. The CDC says to do it once a week and to scrub, because some mosquito eggs stick to the inside walls of containers.</li>
+              <li><strong>Close the way in.</strong> Patch torn screens, add a door sweep, keep doors closed instead of propped open, shut unscreened windows at dusk, and use air conditioning when you can.</li>
+              <li><strong>Protect the night.</strong> Run an indoor UV-light or heat-lure trap overnight in a closed bedroom, or sleep under a fitted bed net.</li>
+              <li><strong>Still finding them?</strong> The supply is usually the yard next to the house, so deal with standing water outside too. The CDC suggests an indoor spray or fogger only if mosquitoes remain after these steps, used as its label directs; pick one whose label lists mosquitoes and indoor use.</li>
+            </ol>
+            <p className="mt-3 text-xs text-gray-500">Steps 4, 5 and 7 follow the CDC&rsquo;s <a href="https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">mosquito control at home</a> guidance; every step is explained in its own section below.</p>
           </div>
         </div>
       </section>
@@ -195,6 +214,11 @@ export default function GetRidOfMosquitoesInHousePage() {
             <li><strong>Become the bait.</strong> Sit still under a lamp with a bare arm or leg exposed. Mosquitoes home in on carbon dioxide, body heat and skin scent — within a few minutes it will usually come to you, giving you a clear, close shot.</li>
             <li><strong>Follow the whine.</strong> If you hear it near your ear in the dark, hold still and listen for the direction, then turn on the light and watch where it settles.</li>
           </ul>
+          <Photo
+            id="culex-quinquefasciatus-female"
+            alt="A female southern house mosquito at rest, seen close up from the side, with long thin legs and a slender proboscis"
+            caption="A female southern house mosquito, Culex quinquefasciatus, at rest (CDC photograph). Texas A&M says this species often enters homes through unscreened windows or open doors."
+          />
 
           <h2>How do I get a mosquito out of my room?</h2>
           <p>If you&rsquo;d rather evict it than kill it, exploit the fact that mosquitoes drift toward light and warmth. Turn off the light in your room and turn on a light in the hallway or the next room with the door open — many will follow the light out, and you close the door behind them. It doesn&rsquo;t work every time, but it&rsquo;s worth 60 seconds before you resort to hunting.</p>
@@ -302,6 +326,11 @@ export default function GetRidOfMosquitoesInHousePage() {
           <h2>Which mosquitoes come inside houses in the United States?</h2>
           <p>In the United States, the two mosquitoes to know indoors are Culex, the night biters, and <em>Aedes aegypti</em>, a day biter that lives inside homes as well as outside. <a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-culex-mosquitoes.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s page on Culex mosquitoes</a> says Culex are most active from dusk to dawn and, when not active, usually rest in grass, shrubs and other thick vegetation. <a href="https://mosquitosafari.tamu.edu/types/culex-quinquefasciatus/" target="_blank" rel="noopener noreferrer">Texas A&amp;M&rsquo;s Mosquito Safari guide</a> says the southern house mosquito, <em>Culex quinquefasciatus</em>, often enters homes through unscreened windows or open doors. CDC also lists West Nile virus among the viruses Culex spread in US states.</p>
           <p><a href="https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s Aedes life cycle page</a> says <em>Aedes aegypti</em> lives indoors and outdoors and prefers to live near and bite people, and <a href="https://ask.ifas.ufl.edu/publication/IN792" target="_blank" rel="noopener noreferrer">University of Florida IFAS Extension</a> notes that it bites during the day and is common in urban southern Florida and in cities along the Gulf coast of Texas and Louisiana. CDC adds that its eggs stick to the inner walls of containers above the waterline and can survive drying out for up to 8 months, so a vase that is emptied but not scrubbed can still carry them.</p>
+          <Photo
+            id="aedes-aegypti-female"
+            alt="A female yellow fever mosquito at rest, a dark mosquito with white bands on its legs, seen close up"
+            caption="A female yellow fever mosquito, Aedes aegypti, at rest (CDC photograph). CDC says this mosquito lives indoors and outdoors and prefers to live near and bite people."
+          />
           <p>Indoors, <a href="https://www.cdc.gov/mosquitoes/mosquito-control/mosquito-control-at-home.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s mosquito control at home guidance</a> starts with keeping them out: install or repair screens, keep doors closed instead of propped open, and use air conditioning when possible. Once a week, empty and scrub anything that holds water. CDC suggests an indoor insect spray or fogger only if mosquitoes remain after those steps, and adds that these products work quickly, may need reapplying, and will not keep a home mosquito-free on their own.</p>
           <p>Any US product must be used as its label directs: <a href="https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" target="_blank" rel="noopener noreferrer">EPA&rsquo;s introduction to pesticide labels</a> explains that labels are legally enforceable, and <a href="https://www.epa.gov/safepestcontrol/dos-and-donts-pest-control" target="_blank" rel="noopener noreferrer">EPA&rsquo;s pest control do&rsquo;s and don&rsquo;ts</a> warns against using outdoor products indoors and says to use fogging devices only when absolutely necessary. For a total release fogger whose label lists mosquitoes, <a href="https://www.epa.gov/safepestcontrol/safety-precautions-total-release-foggers" target="_blank" rel="noopener noreferrer">EPA&rsquo;s fogger safety precautions</a> say to use no more than one per room, keep it 6 feet or farther from pilot lights and other ignition sources, leave with people and pets, and stay out for the time on the label, usually two to four hours.</p>
           <p>For the yard that produces indoor mosquitoes, see <Link href="/blog/how-to-get-rid-of-mosquitoes">how to get rid of mosquitoes outdoors</Link>, and let the <Link href="/blog/ultimate-backyard-mosquito-control-guide">backyard mosquito control guide</Link> put the whole plan in order. For your skin, <Link href="/blog/how-to-keep-mosquitoes-away">how to keep mosquitoes away</Link> compares the ingredients on <a href="https://www.cdc.gov/mosquitoes/prevention/index.html" target="_blank" rel="noopener noreferrer">CDC&rsquo;s list of EPA-registered repellents</a>, including DEET and picaridin, called icaridin outside the US.</p>

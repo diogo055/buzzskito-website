@@ -2,7 +2,7 @@
  "id": "what-do-baby-cockroaches-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "89f6b74661f44285ab7aa8ca19aa95d91e6ad35ecb2f111c78062610ca52837f",
+ "sha": "d0f73ff4cfe06133d77526c40912f79bb0aab944169008487eb6c1efe2a96545",
  "claimsChecked": 68,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,16 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026 link-in (cockroaches): 3 sentences added, no fact changed: /blog/oriental-cockroaches after 'Oriental cockroach nymphs', /blog/white-cockroach in 'Why do some baby cockroaches look white?', /blog/signs-of-cockroaches at the end of 'What does finding baby cockroaches tell you?'.",
    "previousSha": "ece795a761fb9a037edfc09a14b796730794ca6c1f720e7e64048885a5ba7cb5"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "Oct 23, 2026 retrofit (volume-20 upgrade #10, winner page, conservative): metaTitle 'Baby Cockroach: What Nymphs Look Like (Photos)' (was 'What Baby Cockroaches Look Like, by Species'; top query baby cockroach 439 impressions @ 7.7, 0 clicks in 90 days), metaDescription mentions the photos, alsoTargets 'baby cockroach' and 'baby roach', dateModified 2026-10-23. 4 ledger photos, none before: german-cockroach-nymphs (PD, lead; caption restates Texas A&M's stripes and wing pads), brown-banded-cockroach-nymph-wall (CC0), cockroach-molting-bathroom (PD; UC IPM white after molting), german-cockroach-egg-case-hatchlings (CC0; UC IPM glue traps); the 5 media placeholders stay. Look-alike cards (bed bug nymph, adult bed bug, adult German cockroach, ground beetle) with notes from the page's own look-alike table. 4 FAQs appended (what a baby cockroach is called, how big, white or black, does one mean an infestation) restating UC IPM, Texas A&M, Rutgers and University of Florida facts already on the page. Facts box unchanged.",
+   "previousSha": "89f6b74661f44285ab7aa8ca19aa95d91e6ad35ecb2f111c78062610ca52837f"
+  },
+  {
+   "on": "2026-10-23",
+   "note": "checker (Oct 23 retrofit, independent pass): no change. Verified new figures/captions (CDC PHIL 26933; Texas A&M E-359 wing pads + two dark stripes; UC IPM white after molting, sticky traps checked daily), look-alike cards (UC IPM bed bugs: about 1/5 inch, rusty red, blood meal before each molt; UC IPM membranous wings vs beetles; Texas A&M German wings to abdomen tip) and the 4 new FAQs (Rutgers 1/8-9/16 inch and 5-6 molts, UF dark brown to black, Texas A&M three-stage life cycle and nymph colours).",
+   "previousSha": "d0f73ff4cfe06133d77526c40912f79bb0aab944169008487eb6c1efe2a96545"
   }
  ]
 }

@@ -14,10 +14,12 @@ import RelatedProducts from '@/components/RelatedProducts'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import ConfusedWith from '@/components/ConfusedWith'
 
 const SLUG = 'horse-fly-and-deer-fly-bite-treatment'
 const DATE = '2026-07-13'
-const UPDATED = '2026-07-13'
+const UPDATED = '2026-10-23'
 const TITLE = 'Horse Fly & Deer Fly Bites: Why They Hurt and How to Treat Them'
 const META_TITLE = 'Horse Fly vs Deer Fly Bite Ontario: Why It Hurts'
 
@@ -54,11 +56,19 @@ const FAQS = [
     question: 'How do I stop horse flies and deer flies from biting me?',
     answer: 'Wear light-coloured, loose long sleeves and pants (these flies are drawn to dark, moving shapes), and wear factory permethrin-treated clothing (in Canada permethrin comes bonded into the fabric, not as a consumer spray). On skin, a DEET or picaridin repellent that carries a Canadian PCP registration number (EPA registration in the US) gives the best protection, though tabanids are stubborn and may still land. Avoid peak activity — hot, sunny, humid afternoons near water, livestock, and wooded edges — and keep car and patio doors closed. Reducing the shaded, damp yard edges where they rest also helps.',
   },
+  {
+    question: 'What does a deer fly or horse fly bite look like?',
+    answer: 'Usually a raised red bump where the fly cut the skin, and it hurts the moment it happens. Cleveland Clinic describes a horsefly bite as a raised bump of red or discoloured skin, with pain as the first sign. Because these flies slice the skin rather than pierce it, the bite often bleeds a little and can leave a small scab. Deer fly bites tend to land on the head, neck and shoulders, horse fly bites on the legs, arms and back. Many people then get a larger hot, itchy welt that lasts a few days.',
+  },
+  {
+    question: 'Can deer flies or horse flies give you Lyme disease?',
+    answer: 'No. The U.S. Centers for Disease Control and Prevention (CDC) says Lyme disease spreads through the bites of infected ticks, mainly blacklegged ticks, and that there is no credible evidence it spreads through flies, mosquitoes, fleas or lice. The infection linked to deer flies is tularemia, which the CDC says they can transmit in parts of North America; it is uncommon and treatable with antibiotics. A fever, a skin ulcer at the bite or swollen glands after a fly bite is worth mentioning to a doctor.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Horse fly and deer fly bites sting because the fly cuts the skin. Wash, ice 10–15 min, hydrocortisone — sore for hours, itchy 2–4 days, healed in a week.',
+  description: 'Deer fly and horse fly bites hurt because the fly cuts the skin. Wash, ice 10–15 min, hydrocortisone; sore for hours, itchy 2–4 days, healed in a week.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -104,6 +114,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
               <li>Deer flies can rarely transmit tularemia in parts of North America, per the U.S. CDC — mention the bite to a doctor if fever, a skin ulcer, or swollen glands follow.</li>
               <li>Horse flies reach up to 2.5 cm and bite legs and arms; smaller deer flies target the head and neck.</li>
             </ul>
+            <p className="mt-3 text-sm text-gray-700">What the sources say: <a href="https://extension.psu.edu/protecting-horses-from-horse-and-deer-fly-bites" target="_blank" rel="noopener" className="underline hover:text-brand-700">Penn State Extension</a> explains that horse and deer flies have mouthparts that cut the skin to produce a pool of blood, and that adult female flies feed on blood. <a href="https://my.clevelandclinic.org/health/diseases/horsefly-bite" target="_blank" rel="noopener" className="underline hover:text-brand-700">Cleveland Clinic</a> describes a horsefly bite as a raised bump of red or discoloured skin that usually heals within days, and starts the treatment with soap and water.</p>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
           </div>
 
@@ -237,8 +248,19 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           <h2>Are These Bites Dangerous? The Tularemia Note</h2>
           <p>For the vast majority of people, horse fly and deer fly bites are painful but harmless and clear up on their own. The realistic risks are two: a secondary skin infection from scratching, and — rarely — disease transmission. In parts of North America, <strong>deer flies (genus <em>Chrysops</em>) can transmit tularemia</strong>, a bacterial infection sometimes nicknamed &ldquo;deer fly fever,&rdquo; according to the U.S. Centers for Disease Control and Prevention. Tularemia is uncommon and treatable with antibiotics, but if a fly bite is followed by fever, a skin ulcer at the bite, or swollen glands, mention the bite to your doctor.</p>
           <p className="text-sm text-gray-500">Authority: <a href="https://www.cdc.gov/tularemia/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) — Tularemia</a>.</p>
+          <p>Lyme disease is not one of those risks. The CDC&rsquo;s page on <a href="https://www.cdc.gov/lyme/causes/index.html" target="_blank" rel="noopener">how Lyme disease spreads</a> says the bacteria travel through the bites of infected ticks and that there is no credible evidence they spread through flies, mosquitoes, fleas or lice.</p>
 
           <h2>Horse Fly vs Deer Fly vs Mosquito Bite</h2>
+          <Photo
+            id="deer-fly"
+            alt="A female deer fly seen from above on a white background, with dark bands across its clear wings, a striped yellow-and-black body and patterned green eyes"
+            caption="A female deer fly, Chrysops lateralis, collected at the edge of a pond in Sudbury, Massachusetts, where it had been feeding on people and dogs (CDC photograph). The dark bands across the wings mark a deer fly."
+          />
+          <Photo
+            id="horse-fly"
+            alt="A large, dark female horse fly seen from above on a white background, with very large eyes, a grey striped thorax and broad, mostly clear wings"
+            caption="A female horse fly, Tabanus stygius, collected at the same Massachusetts pond (CDC photograph). CDC describes this species as a very large, dark fly that bites during the day in midsummer."
+          />
           <div className="not-prose overflow-x-auto">
           <table className="min-w-[560px] not-prose w-full text-sm border-collapse border border-gray-200 rounded-lg overflow-hidden my-4">
             <thead className="bg-brand-50">
@@ -259,6 +281,13 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           </table>
           </div>
           <p>For a full identification walkthrough of the flies themselves, see our companion guide on <Link href="/blog/deer-flies-horse-flies-ontario">deer flies vs horse flies</Link>.</p>
+          <ConfusedWith
+            title="Often mistaken for a horse fly or deer fly bite"
+            items={[
+              { href: '/blog/why-do-mosquito-bites-itch', name: 'Mosquito bite', photo: 'mosquito-bite-welts', note: 'A small, puffy welt from a fine needle; you often feel little or nothing at the time', alt: 'Two raised mosquito bite welts on a leg' },
+              { href: '/blog/no-see-um-bites', name: 'No-see-um bites', photo: 'biting-midge-bites-ankles', note: 'Burning pinprick bites that peak at dawn and dusk', alt: 'Small red biting midge bites on a man’s ankles above rolled-down socks' },
+            ]}
+          />
           <p>If you did not see what bit you, our <Link href="/tools/bug-bite-identifier">bug bite quiz</Link> asks six quick questions, from where you were to whether you felt it happen, then shows the most likely biters with real photos, how to confirm each one and the signs that mean a bite needs a doctor.</p>
 
           <h2>How to Avoid Getting Bitten in the First Place</h2>
