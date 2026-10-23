@@ -203,6 +203,7 @@ export default function WhenToWorryMosquitoBitePage() {
               <p className="text-xs text-gray-600 mt-3">Use a prescribed epinephrine auto-injector immediately if you have one and suspect anaphylaxis.</p>
             </div>
           </div>
+          <p>Not sure a mosquito made the bite in the first place? Our <Link href="/tools/bug-bite-identifier">online bite identifier</Link> asks six quick questions, from where you were to whether you felt it, then shows the most likely biters with real photos, how to confirm each one and the signs that mean a bite needs a doctor.</p>
 
           <h2>How long does a normal mosquito bite last?</h2>
           <p>A typical bite does its worst in the first few hours to a day &mdash; that is when the itch and the puffy welt peak &mdash; and then steadily calms down, usually clearing within 3 to 7 days. Larger allergic reactions (skeeter syndrome) can take a week or two to fully settle and may leave a temporary darker or bruise-coloured mark as they heal, which is normal. What matters for triage is the <em>direction of travel</em>: a bite that is fading, even slowly, is reassuring, while a bite that is still enlarging, reddening, or hurting more on day three is the one to have looked at. Bites that blister on top can be part of a strong reaction; keep the blister intact and clean rather than popping it, since broken skin is what invites infection.</p>

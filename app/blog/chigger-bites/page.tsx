@@ -328,6 +328,7 @@ export default function ChiggerBitesPage() {
           </table>
         </div>
         <p>One more tell that is easy to miss: <strong>chigger bites do not keep coming</strong>. One trip through the wrong patch of grass produces one crop of welts, and that is the end of it. Bites that keep arriving night after night, with no time in vegetation in between, belong to <Link href="/blog/bed-bug-bites">bed bugs</Link> or <Link href="/blog/flea-bites-on-humans">fleas</Link> instead.</p>
+        <p>If your bites fail any of these tells and you still cannot place them, our <Link href="/tools/bug-bite-identifier">&ldquo;What bit me?&rdquo; bite identifier</Link> runs through six quick questions on where you were, when you noticed the bites, their pattern and how one bite looks, then shows the most likely biters with real photos, how to confirm each one and when to see a doctor.</p>
 
         <h2>How big are chiggers, and can you see them?</h2>
         <p>A chigger larva is 0.15&ndash;0.3 mm long &mdash; smaller than a grain of table salt, and about 70 of them end to end would span a thumbnail. You can occasionally see them as reddish-orange specks moving on pale skin, particularly in a cluster, but most people never spot one before it drops off.</p>

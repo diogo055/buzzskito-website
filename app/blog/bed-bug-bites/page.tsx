@@ -234,6 +234,7 @@ export default function BedBugBitesPage() {
             { href: '/blog/tick-vs-bed-bug', name: 'Tick', photo: 'blacklegged-tick-nymph-fingernail', note: 'The tick stays attached to the skin, while a bed bug feeds for minutes and leaves' },
           ]}
         />
+        <p>Still unsure which of these bit you? Our <Link href="/tools/bug-bite-identifier">bite identifier quiz</Link> asks six quick questions about where you were, when the bites appeared, the pattern they make and whether you felt them, then shows the two or three most likely biters with a real photo of each, how to confirm it and when to see a doctor.</p>
 
         <h2>How long do bed bug bites take to appear?</h2>
         <p>Anywhere from <strong>about an hour to 14 days</strong> after the actual bite &mdash; the CDC notes that bite marks can take up to two weeks to develop in some people. Most people who react will see marks within one to three days. The reason for the lag is that the welt is not a wound; it is an <strong>allergic reaction to proteins in bed bug saliva</strong>, and immune reactions take time to build.</p>

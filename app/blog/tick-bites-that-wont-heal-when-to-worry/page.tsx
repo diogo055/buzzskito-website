@@ -160,6 +160,7 @@ export default function TickBitesThatWontHealWhenToWorryPage() {
             { href: '/blog/lone-star-tick-alpha-gal-canada', name: 'Lone star tick', photo: 'lone-star-tick-female', note: 'Uncommon in Ontario; its bite can trigger alpha-gal syndrome, a delayed allergy to red meat' },
           ]}
         />
+        <p>If you never found a tick and are not sure one made the bite, our <Link href="/tools/bug-bite-identifier">tool for identifying bug bites</Link> asks six quick questions about where you were, when the bite appeared, its pattern and whether you felt it, then shows the two or three most likely biters with a real photo of each, how to confirm it and the signs that mean you should see a doctor.</p>
 
         <h2>Getting the Next One Out Cleanly</h2>
         <p>Two of the problems on this page &mdash; the persistent granuloma at number 4, and the hot, hard bite site at number 3 &mdash; trace back to the same moment, and it is not the bite. It is the removal. Blunt household tweezers are too wide at the tip to grip a tick at the head, so they take hold of the body instead, squeeze it, and tear the mouthparts off in the skin. That retained fragment is what the immune system then walls off into a nodule, or what a secondary infection gets going around.</p>

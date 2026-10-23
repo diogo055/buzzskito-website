@@ -522,6 +522,7 @@ export default function WhyDoMosquitoBitesItchPage() {
               { href: '/blog/what-does-a-tick-bite-look-like', name: 'Lyme disease rash', photo: 'erythema-migrans-rash', note: 'Grows outward over several days to more than 5 cm (2 in) instead of shrinking' },
             ]}
           />
+          <p>If the list and the photos still leave you guessing, our <Link href="/tools/bug-bite-identifier">&ldquo;What bit me?&rdquo; quiz</Link> takes six quick questions, from where you were to whether you felt the bite, and shows the two or three most likely biters, each with a real photo, how to confirm it and the signs that mean you should see a doctor.</p>
 
           <h2>How long do other bites last, compared with a mosquito bite?</h2>
           <p>Duration is one of the most reliable ways to tell bites apart, and it is the reason so many people searching &ldquo;how long do mosquito bites last&rdquo; are actually looking at something else. Mosquito bites are the <em>short</em> ones. If a bite is still going strong at day ten, or new ones keep appearing every morning, the duration itself is the clue.</p>

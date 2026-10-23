@@ -23,7 +23,7 @@ const TITLE = 'Red Ticks & Tiny Red Bugs: What They Actually Are'
 const FAQS = [
   {
     question: 'Is there such a thing as a red tick?',
-    answer: 'Not really — there is no common tick species that is bright, uniform red. When people search for a "red tick," they are almost always looking at one of three things: a clover mite (a tiny, bright-red plant mite, not a tick at all), an engorged tick that has turned reddish-brown or grey after feeding on blood, or a true tick with reddish markings such as the lone star tick (Amblyomma americanum) or Gulf Coast tick. A genuinely scarlet, six-legged speck on a windowsill or sunny wall is a clover mite, not a tick.',
+    answer: 'Not really — there is no common tick species that is bright, uniform red. When people search for a "red tick," they are almost always looking at one of three things: a clover mite (a tiny, bright-red plant mite, not a tick at all), an engorged tick that has turned reddish-brown or grey after feeding on blood, or a true tick with reddish markings such as the lone star tick (Amblyomma americanum) or Gulf Coast tick. A genuinely scarlet, eight-legged speck on a windowsill or sunny wall is a clover mite, not a tick.',
   },
   {
     question: 'What are the tiny red bugs on my window sill or patio?',
@@ -75,7 +75,7 @@ const FAQS = [
   },
   {
     question: 'How long does a tick have to be attached to transmit Lyme disease?',
-    answer: 'A blacklegged tick generally has to stay attached for 24 hours or more before it can transmit the bacteria that cause Lyme disease, and the U.S. Centers for Disease Control and Prevention notes the risk rises substantially after 36 to 48 hours of attachment. Daily tick checks and prompt removal are the single most effective precaution. A clover mite carries no equivalent risk at all, because clover mites never attach to skin and never feed on blood.',
+    answer: 'A blacklegged tick generally has to stay attached for more than 24 hours before it can transmit the bacteria that cause Lyme disease, according to the U.S. Centers for Disease Control and Prevention. Daily tick checks and prompt removal are the single most effective precaution. A clover mite carries no equivalent risk at all, because clover mites never attach to skin and never feed on blood.',
   },
   {
     question: 'When should you see a doctor after finding a red bug on your skin?',
@@ -323,7 +323,7 @@ export default function RedTicksAndCloverMitesPage() {
           <p>Clover mites peak twice a year: in spring as lawns green up, and again in fall as temperatures drop. They enter homes on warm, sunny days during those two windows and die back in hot, dry summer weather. Numbers are highest where a well-fertilized lawn or dense ground cover grows right against the foundation.</p>
 
           <h2>How Long Does a Tick Have to Be Attached to Transmit Lyme Disease?</h2>
-          <p>A blacklegged tick generally must stay attached for 24 hours or more before it can transmit the bacteria that cause Lyme disease, and the CDC notes the risk rises substantially after 36 to 48 hours. Daily tick checks and same-day removal are the most effective precaution. A clover mite never attaches to skin, so it carries no such risk.</p>
+          <p>A blacklegged tick generally must stay attached for more than 24 hours before it can transmit the bacteria that cause Lyme disease, according to the CDC. Daily tick checks and same-day removal are the most effective precaution. A clover mite never attaches to skin, so it carries no such risk.</p>
 
           <h2>When Should You See a Doctor After Finding a Red Bug on Your Skin?</h2>
           <p>See a doctor if an expanding circular or bull&rsquo;s-eye rash, fever, headache, fatigue, or joint aches appear in the days or weeks after a tick bite. The Government of Canada lists these as early signs of Lyme disease. A clover mite cannot cause any of them, because clover mites do not bite or attach to skin.</p>

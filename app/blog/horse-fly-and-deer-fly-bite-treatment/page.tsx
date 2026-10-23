@@ -259,6 +259,7 @@ export default function HorseFlyDeerFlyBiteTreatmentPage() {
           </table>
           </div>
           <p>For a full identification walkthrough of the flies themselves, see our companion guide on <Link href="/blog/deer-flies-horse-flies-ontario">deer flies vs horse flies</Link>.</p>
+          <p>If you did not see what bit you, our <Link href="/tools/bug-bite-identifier">bug bite quiz</Link> asks six quick questions, from where you were to whether you felt it happen, then shows the most likely biters with real photos, how to confirm each one and the signs that mean a bite needs a doctor.</p>
 
           <h2>How to Avoid Getting Bitten in the First Place</h2>
           <p>Tabanids are visual hunters drawn to dark, moving shapes, warmth and carbon dioxide, and they are most active on hot, humid, sunny afternoons near water, livestock and wooded edges. To cut your odds:</p>

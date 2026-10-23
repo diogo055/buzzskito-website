@@ -201,6 +201,7 @@ export default function TickBiteVsMosquitoBitePage() {
           </table>
         </div>
         <p className="text-sm text-gray-500">Sources: <a href="https://www.cdc.gov/ticks/" target="_blank" rel="noopener" className="text-brand-700 hover:underline">CDC — Ticks</a> and <a href="https://www.publichealthontario.ca/" target="_blank" rel="noopener" className="text-brand-700 hover:underline">Public Health Ontario</a>. This article is educational and not a substitute for medical advice.</p>
+        <p>If the mark fits neither column, or you never saw what bit you, our <Link href="/tools/bug-bite-identifier" className="text-brand-700 underline">bug bite identifier quiz</Link> asks six quick questions about where you were, when you noticed the bite, its pattern and whether you felt it, then shows the two or three most likely biters with real photos, how to confirm each one and when to see a doctor.</p>
 
         <h2>What a Mosquito Bite Looks Like</h2>
         <p>A typical mosquito bite:</p>

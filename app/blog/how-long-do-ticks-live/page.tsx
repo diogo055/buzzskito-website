@@ -93,7 +93,7 @@ const FAQS = [
   },
   {
     question: 'How long must a tick be attached to transmit Lyme disease?',
-    answer: 'Roughly 24 hours or more, and the risk climbs with every additional hour of feeding. The Public Health Agency of Canada notes that the risk of Lyme disease transmission is generally low during the first 24 hours of attachment and rises the longer the tick stays attached, and the U.S. Centers for Disease Control and Prevention (CDC) states that in most cases a blacklegged tick must be attached for 36 to 48 hours or more before the Lyme bacterium is transmitted. Removing a tick the same day you find it is the single most effective step.',
+    answer: 'Roughly 24 hours or more, and the risk climbs with every additional hour of feeding. The Public Health Agency of Canada notes that the risk of Lyme disease transmission is generally low during the first 24 hours of attachment and rises the longer the tick stays attached, and the U.S. Centers for Disease Control and Prevention (CDC) states that in most cases a blacklegged tick must be attached for more than 24 hours before the Lyme bacterium is transmitted. Removing a tick the same day you find it is the single most effective step.',
   },
   {
     question: 'When should you see a doctor after a tick bite?',
@@ -311,7 +311,7 @@ export default function HowLongDoTicksLivePage() {
           <p>If you find an attached tick, remove it with fine-tipped tweezers by gripping as close to the skin as possible and pulling straight out with steady pressure &mdash; do not twist, burn, or smother it. Then clean the area. Watch for an expanding rash, fever, fatigue, or flu-like symptoms in the following days to weeks, and <strong>see a healthcare provider</strong> if any appear, mentioning that you had a tick bite. Our step-by-step <Link href="/blog/how-to-do-a-tick-check">tick check guide</Link> covers where to look and how to do it thoroughly.</p>
 
           <h2>How Long Must a Tick Be Attached to Transmit Lyme Disease?</h2>
-          <p>Roughly <strong>24 hours or more</strong>, and the risk climbs with every additional hour of feeding. The Public Health Agency of Canada notes the risk is generally low during the first 24 hours of attachment. The CDC states that in most cases a blacklegged tick must be attached for <strong>36 to 48 hours or more</strong> before the Lyme bacterium is transmitted.</p>
+          <p>Roughly <strong>24 hours or more</strong>, and the risk climbs with every additional hour of feeding. The Public Health Agency of Canada notes the risk is generally low during the first 24 hours of attachment. The CDC states that in most cases a blacklegged tick must be attached for <strong>more than 24 hours</strong> before the Lyme bacterium is transmitted.</p>
           <p>That window is the reason a daily tick check works so well. A tick found and removed the evening you come in from the yard has usually not been attached long enough to matter; one found three days later has. Neither figure is a guarantee &mdash; they are odds &mdash; which is why any bite followed by symptoms is a question for a healthcare provider rather than a chart.</p>
 
           <h2>When Should You See a Doctor After a Tick Bite?</h2>

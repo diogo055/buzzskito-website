@@ -155,6 +155,9 @@ export default function MosquitoBiteVsSpiderBitePage() {
           <p className="text-gray-700 leading-relaxed mb-4">
             One thing to let go of: fang marks. Spiders do have two fangs, and a bite can technically leave two puncture points, but in real life they are usually too small and too close together to see. Do not diagnose a spider bite from &ldquo;two dots&rdquo; alone. If you are also trying to rule out ticks &mdash; which matter more in Ontario because of Lyme disease &mdash; our guide on <Link href="/blog/tick-bite-vs-mosquito-bite" className="text-emerald-700 underline font-semibold">tick bites vs mosquito bites</Link> covers those differences in detail.
           </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            If the four questions still leave you unsure, our <Link href="/tools/bug-bite-identifier" className="text-emerald-700 underline font-semibold">six-question bug bite quiz</Link> asks where you were, when you noticed the bites, the pattern and whether you felt them, then shows the two or three most likely biters, each with a real photo, how to confirm it and the signs that mean you should see a doctor.
+          </p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">What does a spider bite look like vs a mosquito bite?</h2>
           <p className="text-gray-700 leading-relaxed mb-4">

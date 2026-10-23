@@ -241,6 +241,7 @@ export default function MosquitoBiteTreatmentReliefPage() {
             <li><Link href="/blog/no-see-um-bites">No-see-um bites</Link> &mdash; tiny biting midges that leave a burning, disproportionately itchy welt.</li>
             <li><Link href="/blog/mosquito-bite-vs-spider-bite">Mosquito bite vs spider bite</Link> &mdash; how to tell a harmless welt from a bite worth watching.</li>
           </ul>
+          <p>Not sure which of these you are dealing with? Our <Link href="/tools/bug-bite-identifier">free bug bite identifier</Link> asks six quick questions and shows the two or three most likely biters, each with a real photo, the reasons your answers point to it, how to confirm it and the signs that mean you should see a doctor.</p>
 
           <h2>Related Reading</h2>
           <ul>

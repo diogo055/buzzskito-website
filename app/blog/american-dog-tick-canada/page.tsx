@@ -89,7 +89,7 @@ export default function AmericanDogTickPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The American dog tick (<em>Dermacentor variabilis</em>) is one of Canada&rsquo;s most common tick species — a 5 mm, apple-seed-sized tick with a distinctive mottled grey-and-brown shield, found in grassy fields and yard edges across southern Canada. It rarely transmits Lyme disease, but can carry Rocky Mountain spotted fever and cause tick paralysis in dogs.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Adult American dog ticks measure 5 mm unfed (apple-seed sized) and engorge to 15 mm after a blood meal.</li>
-              <li>American dog ticks rarely transmit Lyme disease — the smaller 3 mm blacklegged tick is Canada&rsquo;s main Lyme vector.</li>
+              <li>American dog ticks are not known to transmit Lyme disease — the smaller 3 mm blacklegged tick is Canada&rsquo;s main Lyme vector.</li>
               <li>Rocky Mountain spotted fever from dog ticks is very rare in Canada, with fewer than 5 confirmed cases per year nationally.</li>
               <li>Tick paralysis can occur in dogs when a tick stays attached 4–7 days, and resolves within 24–72 hours of removal.</li>
               <li>In Ontario, American dog ticks peak twice a year: late April–June and again August–October.</li>

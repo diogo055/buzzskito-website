@@ -87,7 +87,7 @@ const FAQS = [
   },
   {
     question: 'How long does a tick have to be attached to transmit Lyme disease?',
-    answer: 'The Centers for Disease Control and Prevention states that in most cases a blacklegged tick must stay attached for 36 to 48 hours or more before it can transmit the Lyme disease bacterium. That is why identification speed matters: a real tick should be removed as soon as it is found, while a 6-legged beetle, bed bug or booklouse carries no tick-borne disease risk at all. Remove the tick with fine-tipped tweezers, pulling straight out without squeezing the body, and note when the bite happened.',
+    answer: 'The Centers for Disease Control and Prevention states that in most cases a blacklegged tick must stay attached for more than 24 hours before it can transmit the Lyme disease bacterium. That is why identification speed matters: a real tick should be removed as soon as it is found, while a 6-legged beetle, bed bug or booklouse carries no tick-borne disease risk at all. Remove the tick with fine-tipped tweezers, pulling straight out without squeezing the body, and note when the bite happened.',
   },
   {
     question: 'When should I see a doctor after a tick bite?',
@@ -499,8 +499,8 @@ export default function BugsThatLookLikeTicksPage() {
         <p>All of which is far easier to judge under magnification than at arm&rsquo;s length. At 1 to 2 mm, six legs versus eight <em>is</em> the identification, and at that size the naked eye is mostly guessing &mdash; the antennae that rule out a tick in one second are simply too fine to resolve. A lighted handheld magnifier, or a clip-on macro lens for a phone camera, settles it properly, and it is the one piece of kit that works on every look-alike on this page rather than just one. <BuyLink tag={AMZ_TAG} search="lighted handheld magnifying glass">Check lighted magnifiers on Amazon.ca &rarr;</BuyLink></p>
 
         <h2>Why Misidentification Matters</h2>
-        <p>Identification decides the response. The Centers for Disease Control and Prevention states that in most cases a blacklegged tick must stay attached for 36 to 48 hours or more before it can transmit the Lyme disease bacterium, so removing a real tick quickly matters. A 6-legged beetle, bed bug or booklouse carries no tick-borne disease risk at all.</p>
-        <p>Lyme disease is most easily treated when caught early. The Ontario Public Health guidance is clear: a deer tick attached for less than 24 hours is unlikely to transmit Lyme, while one attached for 36–48 hours or longer carries meaningful risk. That gives you a tight window to act — but only if you correctly identify what you have.</p>
+        <p>Identification decides the response. The Centers for Disease Control and Prevention states that in most cases a blacklegged tick must stay attached for more than 24 hours before it can transmit the Lyme disease bacterium, so removing a real tick quickly matters. A 6-legged beetle, bed bug or booklouse carries no tick-borne disease risk at all.</p>
+        <p>Lyme disease is most easily treated when caught early. The Ontario Public Health guidance is clear: a deer tick attached for less than 24 hours is unlikely to transmit Lyme, while one attached for 24 to 36 hours or longer carries meaningful risk. That gives you a tight window to act — but only if you correctly identify what you have.</p>
         <p>Here is the practical decision tree:</p>
         <ul>
           <li><strong>Bug found indoors, not attached to skin, with 6 legs and antennae:</strong> Almost certainly not a tick. Identify by location (bed, pantry, attic) and address as appropriate.</li>
