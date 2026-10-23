@@ -283,7 +283,7 @@
 - `/blog/brown-recluse-bite` — brown recluse bite
 - `/blog/black-widow-spiders` — black widow spider
 - `/blog/bat-bugs` — bat bugs
-- `/blog/daddy-long-legs` — daddy long legs
+- `/blog/daddy-long-legs` — cellar spider
 - `/blog/joro-spiders` — joro spider
 - `/blog/wolf-spiders` — wolf spider
 - `/blog/brown-recluse` — brown recluse
@@ -433,6 +433,7 @@
 - `/blog/mice-in-walls` — mice in walls
 - `/blog/flea-dirt` — flea dirt
 - `/blog/camel-crickets` — camel cricket
+- `/blog/bed-bugs-in-hotels` — bed bugs in hotels
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

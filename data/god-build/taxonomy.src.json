@@ -6616,34 +6616,44 @@
    "family": "spider-id",
    "pageType": "entity-id",
    "audience": "na",
-   "title": "Daddy Long Legs: Harvestmen vs Cellar Spiders and the Venom Myth",
-   "metaTitle": "Daddy Long Legs: Harvestman or Spider?",
-   "keyword": "daddy long legs",
+   "title": "Cellar Spiders (Daddy Long Legs): Do They Bite, and How to Tell a Harvestman",
+   "metaTitle": "Cellar Spider (Daddy Long Legs): Bite and ID",
+   "keyword": "cellar spider",
    "alsoTargets": [
-    "cellar spider",
-    "harvestman",
-    "are daddy long legs poisonous"
+    "cellar spider bite",
+    "cellar spider vs harvestman",
+    "daddy long legs spider",
+    "are daddy long legs poisonous",
+    "cellar spiders",
+    "daddy long legs"
    ],
    "demand": {
-    "summary": "Search Console, 90 days to 2026-10-12: 14 impressions (0 US) across 3 queries, average position 8.1; Google shows /blog/how-to-keep-spiders-out-of-your-house and /blog/are-ticks-arachnids-or-insects; Google autocomplete returns 20 suggestions for \"daddy long legs\", \"cellar spider\" (demand exists; volume unsized)",
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md, planned pages to reinstate): bugoutservice.com earns about 1,540 US visits a month with its cellar-spiders page (top search \"cellar spider bite\", 3,000 searches a month) and bettertermite.com about 591 with its cellar-spider-vs-daddy-long-legs page (#2 for \"cellar spider vs harvestman\", 800 a month): 2,131 between them, the largest of the three reinstated pages; winners-gap rates both winter-strong. Ahrefs Keywords Explorer, US, stored Oct 16 (data/god-build/next-wave-research.json): \"daddy long legs\" 76,000 a month, KD 0, traffic potential 12,000, parent topic \"cellar spider\". Google Trends, United States (pulled Oct 16): \"daddy long legs\" 0.766 of \"stink bug\", Nov-Mar 0.71 and May-Aug 1.31 of its yearly average. The Oct 16 model for the old \"daddy long legs\" myth page gave 6.2 clicks a month in Nov-Mar (2.5-18.7) and 13.8 in May-Aug (5.5-41.5), confidence low (answer-box risk). Search Console, 90 days to 2026-10-20: 4 queries, 21 impressions (1 US), 0 clicks for cellar spiders, daddy longlegs and harvestmen, none on a page aimed at them; since Oct 16 \"cellar spider vs brown recluse pictures\" has drawn 15 US impressions at 7.9 on /blog/brown-recluse-look-alikes, the only cellar spider search the site gets. Crane fly and \"mosquito hawk\" searches (about 4,740 impressions in 90 days, 1,665 US) all land on /blog/mosquito-hawk-explained and are not this page's.",
     "searchConsole": {
-     "impressions90d": 14,
-     "usImpressions90d": 0,
+     "window": "90 days to 2026-10-20 (Search Console, query dimension only, filtered by query text; US = country filter); page totals from the page dimension",
+     "impressions90d": 21,
+     "usImpressions90d": 1,
      "clicks90d": 0,
-     "avgPosition": 8.1,
-     "queries": 3,
+     "avgPosition": 7.7,
+     "queries": 4,
      "topQueries": [
       {
        "query": "do daddy long legs eat silverfish",
        "impressions": 8,
        "us": 0,
-       "position": 8.3
+       "position": 8.2
       },
       {
        "query": "are ticks harvestmen",
-       "impressions": 5,
+       "impressions": 7,
        "us": 0,
-       "position": 9
+       "position": 8.4
+      },
+      {
+       "query": "cellar spider vs brown recluse pictures",
+       "impressions": 5,
+       "us": 1,
+       "position": 7
       },
       {
        "query": "daddy long legs",
@@ -6659,15 +6669,28 @@
       },
       {
        "path": "/blog/are-ticks-arachnids-or-insects",
+       "impressions": 7
+      },
+      {
+       "path": "/blog/brown-recluse-look-alikes",
        "impressions": 5
+      },
+      {
+       "path": "/blog/how-to-get-rid-of-spiders-in-house-canada",
+       "impressions": 1
       },
       {
        "path": "/blog/doktor-doom-canada-guide",
        "impressions": 1
+      },
+      {
+       "path": "/blog/what-does-a-spider-bite-look-like",
+       "impressions": 1
       }
-     ]
+     ],
+     "note": "Regex (includingRegex, dataState all): daddy ?long|daddy ?longleg|harvestm|cellar spider|pholc|long ?legged spider|long ?leg spider|opilion|skull spider|vibrating spider|grand ?daddy|spider with (really |very )?long legs|long skinny legs. A first pull that also caught crane fly|mosquito hawk found 178 queries and 4,764 impressions (1,666 US); all but these 21 are crane fly and mosquito hawk searches on /blog/mosquito-hawk-explained (page total 11,529 impressions in 90 days, 2,115 US, 21 clicks, at 8.3). Since Oct 16 (to Oct 22): \"cellar spider vs brown recluse pictures\" 15 at 7.9, all on /blog/brown-recluse-look-alikes. No impressions for \"cellar spider\", \"cellar spider bite\", \"cellar spider vs harvestman\", \"daddy long legs spider\" or \"are daddy long legs poisonous\". The Oct 12 window (old entry) had 14 impressions across 3 queries; nothing has grown except the brown recluse comparison."
     },
-    "searchConsoleRegex": "daddy long ?legs|harvestm|cellar spider|pholcid",
+    "searchConsoleRegex": "daddy ?long|daddy ?longleg|harvestm|cellar spider|pholc|long ?legged spider|long ?leg spider|opilion|skull spider|vibrating spider|grand ?daddy|spider with (really |very )?long legs|long skinny legs",
     "autocomplete": {
      "seeds": [
       "daddy long legs",
@@ -6685,34 +6708,127 @@
       "daddy long legs are not spiders",
       "cellar spider egg sac"
      ],
-     "count": 20
+     "count": 20,
+     "pulled": "2026-10-14 (kept from the Oct 14 entry)"
     },
-    "ahrefsUS": null
+    "ahrefsUS": {
+     "source": "Ahrefs Keywords Explorer, US, pulled 2026-10-16 (data/god-build/next-wave-research.json); no new Ahrefs pull (units held until Oct 26)",
+     "target": {
+      "keyword": "daddy long legs",
+      "volume": 76000,
+      "kd": 0,
+      "trafficPotential": 12000,
+      "parentTopic": "cellar spider"
+     },
+     "competitorTopSearches": [
+      "cellar spider bite 3,000 (bugoutservice.com's top search, winners-gap)",
+      "cellar spider vs harvestman 800 (bettertermite.com #2, winners-gap)"
+     ]
+    },
+    "trendsUS": {
+     "source": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16; ratio = average interest relative to \"stink bug\" in the same request",
+     "terms": [
+      "daddy long legs"
+     ],
+     "ratio": 0.766,
+     "novMar": 0.71,
+     "mayAug": 1.31
+    }
    },
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "h2 \"What is the spider with very long, thin legs?\" (cellar spider: Penn State sizes, the web-shaking tell, not known to bite, daddy longlegs named) that links here as \"the daddy longlegs guide\"; 665 impressions since Oct 16 at 9.9",
+     "resolution": "keeps \"house spider\" and its short cellar spider section; this page owns \"cellar spider\"; link both ways (it links here already)"
+    },
+    {
+     "path": "/blog/brown-recluse-look-alikes",
+     "overlap": "h2 \"Can a cellar spider look like a brown recluse?\" with the cellar-spider photo; \"cellar spider vs brown recluse pictures\" 15 US impressions since Oct 16 at 7.9; links here",
+     "resolution": "keeps \"cellar spider vs brown recluse\": one line and a link here, never a target of this page"
+    },
+    {
+     "path": "/blog/venomous-spiders",
+     "overlap": "h2 \"Are hobo spiders and daddy longlegs dangerous?\" with UC Riverside's myth answer; links here",
+     "resolution": "keeps a short answer; this page owns \"are daddy long legs poisonous\" and \"cellar spider bite\"; link both ways"
+    },
+    {
+     "path": "/blog/mosquito-hawk-explained",
+     "overlap": "TSX, the crane fly page: h2 and FAQ \"Is a mosquito hawk a daddy long legs?\" (three animals share the name); 11,529 impressions in 90 days (2,115 US), about 4,740 of them crane fly and mosquito hawk searches; amazon.ca links",
+     "resolution": "keeps every crane fly and mosquito hawk search; this page gives the crane fly one card and one line and links there; no edit to it"
+    },
+    {
+     "path": "/blog/bugs-in-house-in-winter",
+     "overlap": "h3 \"How do you recognize a cellar spider?\"; links here",
+     "resolution": "keeps it; link both ways"
+    },
+    {
+     "path": "/blog/spiders-in-california",
+     "overlap": "h2 \"What is the long-legged spider on the ceiling?\" (the marbled cellar spider displacing the long-bodied one, UC IPM); links here",
+     "resolution": "keeps it; this page gives the marbled cellar spider a line and links there"
+    },
+    {
+     "path": "/blog/spider-egg-sacs",
+     "overlap": "the cellar spider carrying her eggs in her jaws (its h2 and the cellar-spider-carrying-eggs photo)",
+     "resolution": "keeps egg sacs; one line here and a link"
+    },
+    {
+     "path": "/tools/spider-identifier",
+     "overlap": "live Oct 23: the cellar spider and harvestman results and the cellar spider photo card all link /blog/daddy-long-legs (held until it is live)",
+     "resolution": "keeps \"spider identifier\"; its links light up with this page; link the tool as the next step"
+    },
+    {
+     "path": "/blog/how-to-keep-spiders-out-of-your-house",
+     "overlap": "TSX: \"do daddy long legs eat silverfish\" (7 impressions at 8.3) and cellar spiders in its FAQ; 1,912 impressions in 90 days; amazon.ca links",
+     "resolution": "keeps its searches; no edit; this page answers what cellar spiders eat only from a source"
+    },
+    {
+     "path": "/blog/are-ticks-arachnids-or-insects",
+     "overlap": "TSX: \"are ticks harvestmen\" (7 at 8.4) and harvestmen in its arachnid list",
+     "resolution": "keeps it; no edit"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-spiders-in-house-canada",
+     "overlap": "Canadian TSX: \"Know Your Three: House Spider, Wolf Spider, Cellar Spider\"",
+     "resolution": "no change; not linked (the US control page is planned)"
+    },
+    {
+     "path": "/blog/camel-crickets",
+     "overlap": "its cellar-spider card (spider crickets taken for spiders in basements)",
+     "resolution": "keeps camel crickets; a camel cricket card here; link both ways"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-ticks",
+     "overlap": "TSX in the Oct 29-30 read: harvestmen named as tick look-alikes",
+     "resolution": "no change"
+    },
+    {
+     "path": "how-to-get-rid-of-spiders (new)",
+     "overlap": "scheduled 2026-12-21: spider control",
+     "resolution": "keeps control; this page links it once live for anything beyond vacuuming webs"
+    }
+   ],
    "resolution": "new page",
    "pairWith": null,
    "priority": 2,
    "gate": null,
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
-   "mustLink": [
-    "/learn/spiders"
-   ],
-   "scope": "Three animals share the name (harvestmen, cellar spiders, crane flies): how to tell them apart, the \"most venomous spider\" myth and what the evidence says, and why cellar spiders are useful indoors.",
+   "mustLink": [],
+   "scope": "Cellar spiders (family Pholcidae) for US and Canadian readers: the spider most people mean by \"daddy long legs\" indoors, identification and the bite question first. The quick answer: a tiny pale body on very long, thin legs, hanging upside down in a loose web in a basement, crawl space, garage or ceiling corner, that vibrates in its web until it blurs when disturbed, and that is not known to bite people (Penn State; UMN). Sizes only from sources (Penn State's long-bodied cellar spider: body about 1/4 to 5/16 inch, a female's front legs about 2 inches). The species people meet, each only as a source covers it: the long-bodied cellar spider, the most common of its family in the US (Penn State), the marbled cellar spider, which has displaced it in California (UC IPM), and the short-bodied cellar spider. \"Cellar spider bite\" and \"are daddy long legs poisonous\" answered at the sources' strength: Penn State says cellar spiders are not known to bite people; the story that they are the most venomous spider but cannot bite has no scientific basis, and harvestmen have no venom glands or fangs (UC Riverside's daddy-long-legs page; Missouri Dept. of Conservation); never a bite photo, never a diagnosis (bites in general: /blog/what-does-a-spider-bite-look-like). \"Cellar spider vs harvestman\" gets its own h2 and the quick-ID table (traits as rows: body parts, eyes, silk and web, legs, where you find it, venom), from the sources: a harvestman has one oval body with no waist, two eyes and no silk (MDC), a cellar spider two body parts, a cluster of eyes and a messy web (Penn State, MDC). The third \"daddy longlegs\", the crane fly, gets one card and one line that link /blog/mosquito-hawk-explained, which keeps every crane fly search. Then the female carrying her eggs in her jaws (one line; /blog/spider-egg-sacs), what cellar spiders eat (only as a source says; answer \"do daddy long legs eat silverfish\" only if one does), why they live indoors all year, and what to do: leave them, or remove webs with a broom or vacuum (UMN); control goes to /blog/how-to-get-rid-of-spiders (planned) or /blog/house-spiders. Cards: harvestman, crane fly, common house spider (/blog/house-spiders), brown recluse (\"cellar spider vs brown recluse\" stays with /blog/brown-recluse-look-alikes: one line and a link), camel cricket (/blog/camel-crickets, the long-legged basement jumper called a spider cricket). Link /tools/spider-identifier as the next step. Sources: Penn State Extension (long-bodied cellar spider), UMN Extension, UC IPM, UC Riverside (Vetter), Missouri Dept. of Conservation, as already cited on /blog/house-spiders, /blog/venomous-spiders, /blog/spiders-in-california and /tools/spider-identifier. No pesticide advice; no quote prompt (a traffic page).",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 1100,
-   "photos": "being-sourced",
+   "minWords": 1200,
+   "photos": "in-hand (partial): lead cellar-spider (CC0, long-bodied cellar spider, Pholcus phalangioides, Foster City, California; used on six pages but the lead of none); harvestman (public domain, USGS: Leiobunum flavum, Maryland, an identification shot, not in place); crane-fly (CC0, giant crane fly, Pennsylvania); cellar-spider-carrying-eggs (CC BY 4.0, a female holding her eggs in her jaws; not a lead); cards: common-house-spider (CC0), brown-recluse-female (CC0), camel-cricket-baseboard (CC0). Needed, none on record: a cellar spider in its web in a basement, garage or ceiling corner (where people find it; the formula wants two such shots), a marbled cellar spider (Holocnemus pluchei) for western readers, a short-bodied cellar spider (Spermophora senoculata), a harvestman in place (wall, siding, plant or tree trunk) and a group of harvestmen, ideally a cellar spider and a harvestman at the same scale. Never a \"cellar spider bite\" photo.",
    "dataAssets": null,
-   "notes": "next-wave-research (Oct 16, 2026): DROP (myth answered on the results page; authority and dictionary results). Not gated yet: live guides link to /blog/daddy-long-legs, and taking it out of the plan would fail check:guides and turn those held links into broken ones at the next register run. Repoint or remove those links (validate, then amend their checks), then set \"gate\": \"dropped (next-wave-research, Oct 16, 2026): myth answered on the results page; authority and dictionary results\". Do not write this page.",
+   "notes": "Re-aimed 2026-10-23 at \"cellar spider\" from data/god-build/research/winners-gap.md (planned pages to reinstate: bugoutservice.com 1,540 a month on \"cellar spider bite\", bettertermite.com 591 on \"cellar spider vs harvestman\"); the writer does the beat-the-top-3 research into data/god-build/research/top3/daddy-long-legs.md for \"cellar spider\" and \"cellar spider bite\". The Oct 16 DROP note is cleared: next-wave-research dropped this page as a \"daddy long legs\" myth page (the myth is answered on the results page, which authority and dictionary sites hold). The re-aimed page targets the cellar spider searches that two comparable sites win with pages of their own, and Ahrefs (stored Oct 16) gives \"cellar spider\" as the parent topic of \"daddy long legs\". The slug stays daddy-long-legs: five live guides (house-spiders, brown-recluse-look-alikes, venomous-spiders, bugs-in-house-in-winter, spiders-in-california) and the spider identifier link it. health flag added for the bite question (the bite-page rules in WRITER_BRIEF_PHOTO_ID apply). Parent /learn because /learn/spiders is a deferred hub (release-overrides.json), as for the Oct 22 pages. Release date 2026-10-23 goes in data/god-build/release-overrides.json (releaseOn); releaseOrder, wave and suggestedWeek stay as they were so no other page's slot moves (see checks).",
    "wave": 2,
    "suggestedWeek": "2026-12-14",
    "releaseOrder": 54,
-   "evidenceScore": 199
+   "evidenceScore": null
   },
   {
    "slug": "joro-spiders",
@@ -13185,22 +13301,26 @@
    "family": "spider-id",
    "pageType": "entity-id",
    "audience": "na",
-   "title": "Yellow Sac Spiders: The Spider Behind Many Real Bites",
-   "metaTitle": "Yellow Sac Spider: ID and Bite Facts",
+   "title": "Yellow Sac Spiders: The Pale White Spider in the House, and Its Bite",
+   "metaTitle": "Yellow Sac Spider: Pale House Spider ID and Bite",
    "keyword": "yellow sac spider",
    "alsoTargets": [
+    "yellow sac spiders",
+    "sac spider",
+    "white house spider",
     "yellow sac spider bite",
-    "yellow sac spider vs brown recluse",
-    "yellow sac spider in house"
+    "yellow sac spider in house",
+    "is a yellow sac spider venomous"
    ],
    "demand": {
-    "summary": "Search Console, 90 days to 2026-10-12: 2 impressions (1 US) across 2 queries, average position 3; Google autocomplete returns 10 suggestions for \"yellow sac spider\" (demand exists; volume unsized)",
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md, planned pages to reinstate): bugoutservice.com earns about 1,558 US visits a month on three sac spider pages: its sac-spiders page 1,141 (top search \"white house spider\", 800 searches a month), its Texas sac spider page 223 (\"yellow spider texas\", 450) and its yellow-sac-spiders page 194 (\"yellow sac spider ny\", 300); winners-gap rates them spring and fall. Ahrefs Keywords Explorer, US, stored Oct 16 (data/god-build/next-wave-research.json): \"yellow sac spider\" 19,000 a month, KD 9, traffic potential 500, parent topic \"yellow spider\". Google Trends, United States (pulled Oct 16): \"yellow sac spider\" 0.12 of \"stink bug\", Nov-Mar 0.58 and May-Aug 1.33 of its yearly average. The Oct 16 model gave 5 clicks a month in Nov-Mar (2-15.1) and 13.9 in May-Aug (5.5-41.6), confidence medium. Search Console, 90 days to 2026-10-20: 3 queries, 3 impressions (1 US), 0 clicks, all on /blog/what-does-a-spider-bite-look-like (\"sac spider bite treatment\" and \"yellow sac spider in house\" at 3, \"white spider bite pictures\" at 10); since Oct 16, /blog/house-spiders has drawn \"common white house spider\" (2 at 12.5) and \"light colored spiders in house\" (1 at 1), the first sign of the \"white house spider\" search on the site. No impressions for \"yellow sac spider\" or \"white house spider\" themselves.",
     "searchConsole": {
-     "impressions90d": 2,
+     "window": "90 days to 2026-10-20 (Search Console, query dimension only, filtered by query text; US = country filter); page totals from the page dimension",
+     "impressions90d": 3,
      "usImpressions90d": 1,
      "clicks90d": 0,
-     "avgPosition": 3,
-     "queries": 2,
+     "avgPosition": 5.3,
+     "queries": 3,
      "topQueries": [
       {
        "query": "sac spider bite treatment",
@@ -13213,11 +13333,23 @@
        "impressions": 1,
        "us": 1,
        "position": 3
+      },
+      {
+       "query": "white spider bite pictures",
+       "impressions": 1,
+       "us": 0,
+       "position": 10
       }
      ],
-     "shownOn": []
+     "shownOn": [
+      {
+       "path": "/blog/what-does-a-spider-bite-look-like",
+       "impressions": 3
+      }
+     ],
+     "note": "Regex (includingRegex, dataState all): sac spider|sack spider|cheiracanth|yellow spider|white spider|pale spider|clubion|cream spider|beige spider|light colou?red spider|white house spider|spider (on|in) (the )?(ceiling|wall) at night. Since Oct 16 (to Oct 22): \"common white house spider\" 2 at 12.5 and \"light colored spiders in house\" 1 at 1 on /blog/house-spiders, \"black white spider texas\" 1 at 9 on /blog/spiders-in-texas. Page totals (page dimension): /blog/what-does-a-spider-bite-look-like 47,882 impressions in 90 days (9,498 US), 289 clicks, at 6.8 (an Oct 15 upgrade in the Oct 29-30 read); /blog/house-spiders 74 in 90 days, 665 since Oct 16 (53 US) at 9.9; /blog/brown-recluse-look-alikes 79, 326 since Oct 16 (173 US). The Oct 12 window (old entry) had 2 impressions."
     },
-    "searchConsoleRegex": "sac spider",
+    "searchConsoleRegex": "sac spider|sack spider|cheiracanth|yellow spider|white spider|pale spider|clubion|cream spider|beige spider|light colou?red spider|white house spider|spider (on|in) (the )?(ceiling|wall) at night",
     "autocomplete": {
      "seeds": [
       "yellow sac spider"
@@ -13234,31 +13366,114 @@
       "yellow sac spider eggs",
       "yellow sac spider bite stages"
      ],
-     "count": 10
+     "count": 10,
+     "pulled": "2026-10-14 (kept from the Oct 14 entry)"
     },
-    "ahrefsUS": null
+    "ahrefsUS": {
+     "source": "Ahrefs Keywords Explorer, US, pulled 2026-10-16 (data/god-build/next-wave-research.json); no new Ahrefs pull (units held until Oct 26)",
+     "target": {
+      "keyword": "yellow sac spider",
+      "volume": 19000,
+      "kd": 9,
+      "trafficPotential": 500,
+      "parentTopic": "yellow spider"
+     },
+     "competitorTopSearches": [
+      "white house spider 800 (bugoutservice.com sac-spiders page, winners-gap)",
+      "yellow spider texas 450 (bugoutservice.com Texas sac spider page)",
+      "yellow sac spider ny 300 (bugoutservice.com yellow-sac-spiders page)"
+     ]
+    },
+    "trendsUS": {
+     "source": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16; ratio = average interest relative to \"stink bug\" in the same request",
+     "terms": [
+      "yellow sac spider"
+     ],
+     "ratio": 0.12,
+     "novMar": 0.58,
+     "mayAug": 1.33
+    }
    },
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "h2 \"What is the pale spider on the wall or ceiling?\" (yellow sac spider: UC IPM's silk sac in ceiling and wall corners, Penn State's sizes and colors, the bite evidence; links here as \"the yellow sac spider guide\"); since Oct 16 it drew \"common white house spider\" (2 at 12.5) and \"light colored spiders in house\" (1 at 1)",
+     "resolution": "keeps \"house spider\" and its short pale-spider section; the \"white house spider\" searches are this page's (house-spiders does not target them); link both ways (it links here already)"
+    },
+    {
+     "path": "/blog/brown-recluse-look-alikes",
+     "overlap": "alsoTarget \"yellow sac spider vs brown recluse\" and h2 \"How do you tell a yellow sac spider from a brown recluse?\" with the yellow-sac-spider photo; links here",
+     "resolution": "keeps the comparison: \"yellow sac spider vs brown recluse\" is dropped from this entry's alsoTargets (it was in the Oct 14 entry); a two-sentence section here and a link"
+    },
+    {
+     "path": "/blog/venomous-spiders",
+     "overlap": "the yellow sac spider paragraph: the study of 20 verified bites with no necrosis and the review of 39 worldwide; links here",
+     "resolution": "keeps it; this page owns the bite in full; link both ways"
+    },
+    {
+     "path": "/blog/what-does-a-spider-bite-look-like",
+     "overlap": "TSX, an Oct 15 upgrade in the Oct 29-30 read: a yellow sac spider row in its biter table; \"sac spider bite treatment\" and \"yellow sac spider in house\" (1 each at 3) land on it; 47,882 impressions in 90 days (9,498 US), 289 clicks; no Amazon elements",
+     "resolution": "keeps \"what does a spider bite look like\" and the bite photos; this page owns \"yellow sac spider bite\"; a link from its table row to this page is a link-in for after Oct 30 (not before the read)"
+    },
+    {
+     "path": "/blog/spiders-in-california",
+     "overlap": "h2 \"What is the pale spider on the wall at night?\" (UC IPM's bite description); links here",
+     "resolution": "keeps it; link"
+    },
+    {
+     "path": "/blog/spider-egg-sacs",
+     "overlap": "the sac spider retreat paragraph (Penn State: eggs laid loosely inside a silk retreat); links here",
+     "resolution": "keeps egg sacs; one line here and a link"
+    },
+    {
+     "path": "/tools/spider-identifier",
+     "overlap": "live Oct 23: the yellow sac spider result links here (held until it is live)",
+     "resolution": "keeps \"spider identifier\"; its link lights up with this page; link the tool as the next step"
+    },
+    {
+     "path": "/blog/daddy-long-legs",
+     "overlap": "re-aimed today at \"cellar spider\": the other pale indoor spider",
+     "resolution": "the pale-spider sorter's cellar spider row links it; link both ways"
+    },
+    {
+     "path": "/blog/spiders-in-texas",
+     "overlap": "Bug Out wins \"yellow spider texas\" with a Texas sac spider page; ours has a Texas garden spider h2 (the big yellow and black orb weaver)",
+     "resolution": "no change; \"yellow spider texas\" is not a target here (a state wording; and \"yellow spider\" in Texas often means the garden spider)"
+    },
+    {
+     "path": "/blog/brown-recluse-bite",
+     "overlap": "the dying-tissue wounds once blamed on sac spiders",
+     "resolution": "keeps recluse bites; link once where the necrosis myth is explained"
+    },
+    {
+     "path": "spider-bites (new, Canadian)",
+     "overlap": "scheduled 2026-12-07 for Canadian readers: yellow sac spiders among the few biters in Canada",
+     "resolution": "keeps the Canadian bite searches; optional link once live"
+    },
+    {
+     "path": "how-to-get-rid-of-spiders (new)",
+     "overlap": "scheduled 2026-12-21: spider control",
+     "resolution": "keeps control; this page links it once live"
+    }
+   ],
    "resolution": "new page",
    "pairWith": null,
-   "priority": 3,
+   "priority": 2,
    "gate": null,
    "parent": {
-    "href": "/learn/spiders",
-    "name": "Spiders"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
-   "mustLink": [
-    "/learn/spiders"
-   ],
-   "scope": "Cheiracanthium: pale wandering spiders that hide in silk sacs on walls and ceilings, why they account for many confirmed bites, what the bite does, and how to tell them from recluses.",
+   "mustLink": [],
+   "scope": "Yellow sac spiders (Cheiracanthium) for US and Canadian readers, and for the reader who searched \"white house spider\" or \"sac spider\": a small, pale yellow to cream spider, sometimes greenish, with darker jaws and foot tips (Penn State), about 1/5 to 2/5 inch (UMN; Penn State gives females as 3/16 to 3/8 inch), that hunts at night on walls and ceilings without a web and hides by day in a flat silk sac in a wall-ceiling corner or behind shelves and pictures, dropping to the floor when disturbed (UC IPM). The quick answer bolds the tell: a pale spider that spends the day inside a small silk sac in a corner. The two common species, the agrarian (American) yellow sac spider and the longlegged (northern) yellow sac spider, which Penn State says is found mostly in buildings and lays its eggs almost exclusively indoors; where each lives in the US and Canada only as sources give it. A pale-spider sorter for the \"white house spider\" search (no source uses it as a species name): a quick-ID table, one row per pale spider people find indoors (yellow sac spider; cellar spider, linking /blog/daddy-long-legs; others only where a source supports them, for example a freshly molted spider or a white crab spider carried in on flowers), with size, color, web or sac, where you find it and the tell. Bites at the evidence's strength: Penn State says the two common sac spiders account for a significant number of bites, usually when one is trapped against skin in bedding, clothing or shoes, painful and burning at first with redness and swelling, normally without serious medical problems; studies of verified bites did not find the dying-tissue wounds once blamed on them (Vetter and colleagues' 20 verified bites, as /blog/venomous-spiders cites them); when to see a doctor only at a medical source's strength (CDC or a state health department); never diagnose from a photo (link /blog/what-does-a-spider-bite-look-like and /tools/bug-bite-identifier). \"Yellow sac spider vs brown recluse\" stays with /blog/brown-recluse-look-alikes: a two-sentence section and a link. Then when they come indoors (the season only as a source gives it), the retreat and egg sac (/blog/spider-egg-sacs), and what to do: shake out clothes and shoes, vacuum the silk sacs, seal gaps (sources only); control goes to /blog/how-to-get-rid-of-spiders (planned). Cards: cellar spider, brown recluse, common house spider (/blog/house-spiders, which keeps \"house spider\"), false widow. Link /tools/spider-identifier as the next step. Sources: Penn State Extension (agrarian and longlegged sac spiders), UC IPM, UMN Extension, the verified-bite study, CDC or a state health department for care. No pesticide advice; no quote prompt (a traffic page).",
    "flags": [
     "id",
     "health"
    ],
-   "minWords": 1000,
-   "photos": "being-sourced",
+   "minWords": 1100,
+   "photos": "in-hand (partial): lead yellow-sac-spider (CC0, northern yellow sac spider, Cheiracanthium mildei, Toronto; used on four pages but the lead of none); cards: cellar-spider (CC0), brown-recluse-female (CC0), common-house-spider (CC0), false-black-widow (CC0). Needed, none on record: the agrarian (American) yellow sac spider, Cheiracanthium inclusum; a sac spider in its silk retreat in a wall-ceiling corner or behind a picture (where people find it; the formula wants two such shots); a yellow sac spider on a wall or ceiling; the egg sac inside a retreat; for the pale-spider sorter, a white crab spider on a flower (for example Misumena vatia) and any other pale spider the writer's sources support. No bite photos unless the bite was verified and the photo is public domain or CC0 (none on record).",
    "dataAssets": null,
-   "notes": null,
+   "notes": "Brought forward 2026-10-23 from 2026-12-21 under data/god-build/research/winners-gap.md (planned pages to reinstate: bugoutservice.com earns 1,558 a month on three sac spider pages, top search \"white house spider\"); the writer does the beat-the-top-3 research into data/god-build/research/top3/yellow-sac-spiders.md for \"yellow sac spider\" and \"white house spider\". The Oct 16 next-wave queued verdict (DEFER, \"small\") is reversed under the owner's Priority #1 (Oct 19). alsoTargets: \"white house spider\", \"sac spider\" and \"yellow sac spiders\" added; \"yellow sac spider vs brown recluse\" dropped (owned by /blog/brown-recluse-look-alikes); \"is a yellow sac spider venomous\" added from autocomplete. Parent /learn because /learn/spiders is a deferred hub, as for the Oct 22 pages. Release date 2026-10-23 goes in data/god-build/release-overrides.json (releaseOn); releaseOrder, wave and suggestedWeek stay as they were (see checks).",
    "wave": 3,
    "suggestedWeek": "2026-12-21",
    "releaseOrder": 113,
@@ -20405,25 +20620,51 @@
    "family": "household",
    "pageType": "entity-id",
    "audience": "us",
-   "title": "Springtails: The Tiny Jumping Bugs That Get Mistaken for Fleas",
-   "metaTitle": "Springtails: Tiny Jumping Bugs, Not Fleas",
+   "title": "Springtails: The Tiny Jumping Bugs in Bathrooms, Basements and Plant Soil",
+   "metaTitle": "Springtails: Tiny Jumping Bugs in the House",
    "keyword": "springtails",
    "alsoTargets": [
+    "springtail",
     "springtails in house",
-    "springtails vs fleas",
-    "tiny jumping bugs",
     "springtails in bathroom",
+    "how to get rid of springtails",
+    "baby springtails",
     "springtails in plant soil"
    ],
    "demand": {
-    "summary": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16: \"springtails\" 0.431 of \"stink bug\" (about 75,400 Ahrefs-equivalent US searches a month, a rough scale), Nov-Mar 0.64 of the yearly average; Search Console, 90 days to 2026-10-12: 2 impressions (0 US) across 2 queries, average position 10.5; Google shows /blog/mosquito-bits-canada-vs-dunks; in Canada, ranking first on \"springtails\" produced about one impression a quarter (skill rule 3), so this is a US-only bet; Google autocomplete (hl=en, gl=us, 2026-10-14) returns 10 suggestions for \"springtails\", several of them terrarium and pet-supply searches (demand exists; volume unsized); evidence from data/god-build/next-50.json (rank 31)",
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md, planned pages to reinstate): bugoutservice.com earns about 804 US visits a month with its springtails page (top search \"baby springtails\", 2,400 searches a month) and bettertermite.com about 260 with its springtails-in-bathroom page (#2 for \"tiny bugs\", 2,300) and 240 with its how-to-get-rid-of-springtails page (#6 for \"what kills springtails instantly\", 350): 1,304 between them; winners-gap rates all three winter-strong. Ahrefs Keywords Explorer, US, stored Oct 16 (data/god-build/next-wave-research.json): \"springtails\" 62,000 a month, KD 12, traffic potential 26,000. Google Trends, United States (pulled Oct 16): \"springtails\" 0.431 of \"stink bug\", Nov-Mar 0.64 of its yearly average. The next-50 model (Oct 16) gave 10 clicks a month in Nov-Mar (4-29), confidence low (US Trends against a Canadian Search Console reality: ranking first on \"springtails\" in Canada produced about one impression a quarter, ops skill rule 3), and next-wave's queued verdict was DEFER (knowledge panel, Wikipedia and extension pages on the results page). Google autocomplete (Oct 14) shows the head term's second audience: springtails for sale, for terrariums, with isopods. Search Console, 90 days to 2026-10-20: 10 queries, 22 impressions, 0 clicks for springtails and tiny jumping bugs (the US-filtered pull also comes to 22, including six US-only \"tiny black jumping bugs\" variants at positions 32-40 on /blog/tiny-black-bugs): \"jumping bug that looks like a tick\" 7 at 6.4 (/blog/bugs-that-look-like-ticks), \"springtail vs flea size\" 5 at 18.2 and \"springtail vs flea pictures\" 2 at 10.5 (/blog/bugs-that-look-like-fleas), and single impressions on Bti and look-alike pages. No impressions for \"springtails\" or any also-targeted search. The old condition is met: since its Oct 16 release /blog/bugs-that-look-like-fleas shows springtail impressions in the US (\"springtail vs flea size\" 6 at 18.5, \"springtail vs flea pictures\" 2 at 10.5).",
     "searchConsole": {
-     "impressions90d": 2,
-     "usImpressions90d": 0,
+     "window": "90 days to 2026-10-20 (Search Console, query dimension only, filtered by query text; US = country filter); page totals from the page dimension",
+     "impressions90d": 22,
+     "usImpressions90d": 22,
      "clicks90d": 0,
-     "avgPosition": 10.5,
-     "queries": 2,
+     "avgPosition": 10.2,
+     "queries": 10,
      "topQueries": [
+      {
+       "query": "jumping bug that looks like a tick",
+       "impressions": 7,
+       "us": 4,
+       "position": 6.4
+      },
+      {
+       "query": "springtail vs flea size",
+       "impressions": 5,
+       "us": 6,
+       "position": 18.2
+      },
+      {
+       "query": "springtail vs flea pictures",
+       "impressions": 2,
+       "us": 2,
+       "position": 10.5
+      },
+      {
+       "query": "jumping insects bugs that look like fleas",
+       "impressions": 2,
+       "us": 0,
+       "position": 18
+      },
       {
        "query": "do mosquito dunks kill springtails",
        "impressions": 1,
@@ -20439,12 +20680,25 @@
      ],
      "shownOn": [
       {
+       "path": "/blog/bugs-that-look-like-fleas",
+       "impressions": 12
+      },
+      {
+       "path": "/blog/bugs-that-look-like-ticks",
+       "impressions": 8
+      },
+      {
+       "path": "/blog/tiny-black-bugs",
+       "impressions": 8
+      },
+      {
        "path": "/blog/mosquito-bits-canada-vs-dunks",
        "impressions": 2
       }
-     ]
+     ],
+     "note": "Regex (includingRegex, dataState all): springtail|spring tail|snow ?fleas?|collembol|jumping (bugs?|insects?)|bugs? that (jump|hop)|(tiny|little|small) (jumping|black jumping|white jumping|gr[ae]y jumping)|(bugs?|insects?) in (potting )?soil|soil (bugs?|mites?)|bugs? in (the )?(bathtub|tub|sink|shower|pool). The US-filtered pull returns rows the all-countries pull hides (privacy thresholds differ): \"black tiny jumping bugs\" 4 at 39.8 and five single \"tiny black jumping bugs\" variants at 32-40, all on /blog/tiny-black-bugs, plus \"fleas vs springtails pictures\" 1 at 11. A second regex for tiny bugs in bathrooms, sinks, tubs and soil (flies and gnats excluded) found 8 queries and 13 impressions (13 US), the same springtail-vs-flea rows plus one each for bathroom, kitchen and pool bugs. No snow flea impressions. Page totals (page dimension): /blog/bugs-that-look-like-fleas 1,880 impressions Oct 16-22 at 6.3; /blog/tiny-black-bugs 3,568 Oct 16-22 at 9.5; /blog/bugs-that-look-like-ticks 82,035 in 90 days (13,644 US), 778 clicks, an Oct 15 upgrade in the Oct 29-30 read; /blog/houseplant-bugs 0; /blog/how-to-get-rid-of-silverfish 4. The Oct 12 window (old entry) had 2 impressions."
     },
-    "searchConsoleRegex": "springtail",
+    "searchConsoleRegex": "springtail|spring tail|snow ?fleas?|collembol|jumping (bugs?|insects?)|bugs? that (jump|hop)|(tiny|little|small) (jumping|black jumping|white jumping|gr[ae]y jumping)|(bugs?|insects?) in (potting )?soil|soil (bugs?|mites?)|bugs? in (the )?(bathtub|tub|sink|shower|pool)",
     "autocomplete": {
      "seeds": [
       "springtails"
@@ -20461,36 +20715,103 @@
       "springtails in soil",
       "springtails how to get rid of"
      ],
-     "count": 10
+     "count": 10,
+     "pulled": "2026-10-14, hl=en, gl=us (kept from the Oct 14 entry)"
     },
-    "ahrefsUS": null
+    "ahrefsUS": {
+     "source": "Ahrefs Keywords Explorer, US, pulled 2026-10-16 (data/god-build/next-wave-research.json); no new Ahrefs pull (units held until Oct 26)",
+     "target": {
+      "keyword": "springtails",
+      "volume": 62000,
+      "kd": 12,
+      "trafficPotential": 26000,
+      "parentTopic": "springtails"
+     },
+     "competitorTopSearches": [
+      "baby springtails 2,400 (bugoutservice.com springtails page, winners-gap)",
+      "tiny bugs 2,300 (bettertermite.com springtails-in-bathroom, #2)",
+      "what kills springtails instantly 350 (bettertermite.com how-to-get-rid-of-springtails, #6)"
+     ]
+    },
+    "trendsUS": {
+     "source": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16; ratio = average interest relative to \"stink bug\" in the same request",
+     "terms": [
+      "springtails"
+     ],
+     "ratio": 0.431,
+     "novMar": 0.64
+    }
    },
    "collisions": [
     {
-     "path": "bugs-that-look-like-fleas (new)",
-     "overlap": "springtail section",
-     "resolution": "link"
+     "path": "/blog/bugs-that-look-like-fleas",
+     "overlap": "live Oct 16: alsoTarget \"springtails vs fleas\", h2 \"Are springtails fleas?\", FAQ \"Do springtails bite people or pets?\" and a springtail row in its quick-ID table; links here; since Oct 16 \"springtail vs flea size\" (6 US at 18.5) and \"springtail vs flea pictures\" (2 at 10.5)",
+     "resolution": "keeps \"springtails vs fleas\", which is dropped from this entry's alsoTargets (it was in the Oct 14 entry); a short springtail-or-flea section here links there; link both ways (it links here already)"
+    },
+    {
+     "path": "/blog/tiny-black-bugs",
+     "overlap": "live Oct 16: h3 \"Springtails\" in its bathroom section, a springtail row, alsoTargets \"tiny black bugs that jump\" and \"tiny black bugs in bathroom\"; the US \"tiny black jumping bugs\" variants land on it at 32-40; 3,568 impressions Oct 16-22; links here",
+     "resolution": "keeps every tiny-black-bug search; its springtail h3 stays short with its link here; this page never targets \"tiny black bugs\" or \"tiny jumping bugs\" (dropped from this entry: the jumping-bug searches belong to it and to bugs-that-look-like-fleas)"
+    },
+    {
+     "path": "/blog/houseplant-bugs",
+     "overlap": "live Oct 20: h2 \"What are the tiny bugs jumping in my houseplant soil?\", FAQ \"What are the tiny white bugs in my houseplant soil?\", alsoTarget \"tiny bugs in houseplant soil\" and the springtail photo; links here",
+     "resolution": "keeps the houseplant searches; this page's potting-soil section is short and links there; link both ways"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-silverfish",
+     "overlap": "live Oct 20: a springtail card and table row (it links here twice)",
+     "resolution": "keeps silverfish; a silverfish card here links back"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-ticks",
+     "overlap": "TSX, an Oct 15 upgrade in the Oct 29-30 read: springtails named as tick look-alikes; \"jumping bug that looks like a tick\" 7 impressions at 6.4; 82,035 impressions in 90 days; amazon.ca links",
+     "resolution": "keeps it; no edit (under measurement; affiliate integrity protocol for any later edit)"
+    },
+    {
+     "path": "/blog/mosquito-bits-canada-vs-dunks",
+     "overlap": "\"will mosquito bits kill springtails\" and \"do mosquito dunks kill springtails\" (1 each at 10-11)",
+     "resolution": "no change (Canadian product page); this page answers Bti questions only if a source does"
+    },
+    {
+     "path": "/blog/what-do-fleas-look-like",
+     "overlap": "springtails named as flea look-alikes (four mentions); /blog/how-to-get-rid-of-fleas and /blog/bugs-that-look-like-bed-bugs mention them once each",
+     "resolution": "no change"
+    },
+    {
+     "path": "booklice (new)",
+     "overlap": "scheduled 2026-12-28 but marked REPLACE (by tiny-white-bugs) in its notes: psocids in damp rooms, another tiny pale indoor bug",
+     "resolution": "a booklouse card without a link here (planned targets show without one); add no new links to /blog/booklice while it is slated for replacement"
+    },
+    {
+     "path": "tiny-white-bugs (winners-gap #14, not in the plan)",
+     "overlap": "white springtails in potting soil and bathrooms are among the tiny white bugs",
+     "resolution": "if built, it keeps \"tiny white bugs\" and links here for springtails"
+    },
+    {
+     "path": "/learn/household-bugs (deferred hub)",
+     "overlap": "alsoTarget \"tiny bugs in house\"; bettertermite's springtails-in-bathroom page wins the head term \"tiny bugs\"",
+     "resolution": "not a target here; the hub stays deferred"
     }
    ],
    "resolution": "new page",
    "pairWith": null,
-   "priority": 3,
+   "priority": 2,
    "gate": null,
    "parent": {
-    "href": "/learn/household-bugs",
-    "name": "Household Bugs"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
-   "mustLink": [
-    "/learn/household-bugs"
-   ],
-   "scope": "Springtails for US readers: what they look like, how they jump, why they gather in damp bathrooms, basements and houseplant soil, how to tell them from fleas, and what the sources advise (moisture first). Conditional (next-50): build only once /blog/bugs-that-look-like-fleas shows springtail impressions in the US. No springtail photo is on record yet.",
+   "mustLink": [],
+   "scope": "Springtails (Collembola) for US readers who find tiny jumping bugs indoors, identification first. The quick answer: tiny (sizes only from sources, inches first), soft-bodied and wingless, white, gray, black or banded, and they flip into the air with a forked, tail-like spring folded under the body; they need moisture and are a sign of it, and they do not bite people or damage the house (Colorado State, UMN, Penn State, UC IPM, whichever say so). The two body shapes people see (long-bodied and round, globular springtails) with photos at a printed scale. Where they turn up and why: tubs, sinks and shower drains, damp basements and window sills, wet potting soil after watering, pool water, and outdoors in mulch and leaf litter, sometimes in large numbers by foundations (each only as a source says); snow fleas, the springtails that dot late-winter snow, in one short section (a winter search). \"Baby springtails\": young springtails look like small adults (no larval stage), only as a source says. \"Springtail or flea?\" in one short section that links /blog/bugs-that-look-like-fleas, which keeps \"springtails vs fleas\"; the tiny-black-bug and houseplant searches stay with /blog/tiny-black-bugs and /blog/houseplant-bugs (link both). How to get rid of springtails, moisture first, in order: fix leaks and drips, ventilate the bathroom, run a dehumidifier, let houseplant soil dry between waterings, pull mulch and leaf litter back from the foundation, seal gaps, vacuum the ones indoors (Colorado State, UMN); insecticides only at the sources' strength (Colorado State advises avoiding them indoors where possible; UMN says there are no pesticides for springtails in houseplants), never a home-remedy spray. Quick-ID table: the springtail and its look-alikes (flea, booklouse, mite, fungus gnat larva in soil), one row each: size, color, how it moves, where you find it, bites or not. Cards: flea (/blog/bugs-that-look-like-fleas), booklouse (no link: /blog/booklice is slated for replacement), silverfish (/blog/how-to-get-rid-of-silverfish), fungus gnat (/learn/how-to-get-rid-of-fungus-gnats). Sources: Colorado State Extension, UMN Extension, Penn State Extension, UC IPM, and a state extension page for snow fleas. No product advice beyond the one generic pick; no quote prompt (a traffic page).",
    "flags": [
-    "id"
+    "id",
+    "pesticide"
    ],
-   "minWords": 900,
-   "photos": "needed",
+   "minWords": 1100,
+   "photos": "in-hand (partial): lead springtail (CC0, Entomobrya atrocincta on a leaf outdoors, with a 1 mm scale bar printed by the observer; used on /blog/houseplant-bugs and /blog/how-to-get-rid-of-silverfish, the lead of neither); cards: cat-flea-scale-bar (public domain), booklouse (public domain), gray-silverfish (CC0), fungus-gnat (CC BY 2.0). Needed, none on record (the batch-5 scout found none under an allowed licence): springtails indoors (tub, sink or shower drain, window sill, damp basement floor), white springtails in potting soil, a globular springtail, snow fleas on snow, springtails on pool water, a springtail beside a flea or a ruler in inches. The formula wants at least two where-people-find-it photos: wait for the scout's indoor shots before writing (see checks).",
    "dataAssets": null,
-   "notes": "Added 2026-10-16 from data/god-build/next-50.json (rank 31, build wave 4); that entry is the page's spec (target query, variants, format, overlap decision). Conditional: build only once /blog/bugs-that-look-like-fleas shows springtail impressions in the US (next-50). Scheduled rather than gated so it keeps a slot; nothing is written without the owner's go-ahead.",
+   "notes": "Brought forward 2026-10-23 from 2027-01-04 and made unconditional under data/god-build/research/winners-gap.md (planned pages to reinstate: bugoutservice.com 804 a month on \"baby springtails\", bettertermite.com 260 on springtails in the bathroom and 240 on getting rid of springtails: 1,304 between them). The condition the page carried (next-50.json: build only once /blog/bugs-that-look-like-fleas shows springtail impressions in the US) is met anyway: since Oct 16 that page shows \"springtail vs flea size\" (6 US impressions at 18.5) and \"springtail vs flea pictures\" (2 at 10.5). The writer does the beat-the-top-3 research into data/god-build/research/top3/springtails.md for \"springtails\" and \"springtails in bathroom\". alsoTargets: \"springtails vs fleas\" dropped (owned by /blog/bugs-that-look-like-fleas) and \"tiny jumping bugs\" dropped (held by bugs-that-look-like-fleas and tiny-black-bugs); \"how to get rid of springtails\", \"baby springtails\" and \"springtail\" added. pesticide flag added for the control section. Parent /learn because /learn/household-bugs is a deferred hub (the plan already puts it there). Release date 2026-10-23 goes in data/god-build/release-overrides.json (releaseOn) once at least one indoor springtail photo is on record; releaseOrder, wave and suggestedWeek stay as they were (see checks).",
    "wave": 5,
    "suggestedWeek": "2027-01-04",
    "releaseOrder": 182,
@@ -24307,6 +24628,205 @@
    "wave": 2,
    "suggestedWeek": "2026-10-22",
    "releaseOrder": 215,
+   "evidenceScore": null
+  },
+  {
+   "slug": "bed-bugs-in-hotels",
+   "path": "/blog/bed-bugs-in-hotels",
+   "section": "blog",
+   "role": "page",
+   "cluster": "bed-bugs",
+   "guideCluster": "bed-bugs",
+   "family": "household",
+   "pageType": "entity-id",
+   "audience": "us",
+   "title": "Bed Bugs in Hotels: How to Check Your Room and Avoid Bringing Them Home",
+   "metaTitle": "Bed Bugs in Hotels: How to Check Your Room",
+   "keyword": "bed bugs in hotels",
+   "alsoTargets": [
+    "how to check for bed bugs in a hotel",
+    "how to check a hotel room for bed bugs",
+    "bed bugs in hotel rooms",
+    "what to do if your hotel room has bed bugs",
+    "how to avoid bringing bed bugs home",
+    "can you get bed bugs from a hotel"
+   ],
+   "demand": {
+    "summary": "Ahrefs US estimates (Ahrefs data dated 2026-10-19, data/god-build/research/winners-gap.md gap #20): fox-pest.com earns about 301 US visits a month with its how-to-check-for-bed-bugs-in-a-hotel page (#5 for \"how to check for bed bugs in a hotel\", 1,400 searches a month), the only page among the four comparable sites' top pages that wins a hotel search; winners-gap rates it winter-strong (holiday travel) and builds it \"now\". Google Trends (data/god-build/next-wave-research.json, pulled Oct 16): \"how to get rid of bed bugs\" keeps 0.79 of its yearly interest in Nov-Mar, the flattest pest curve measured; no hotel-specific Trends reading is on record. Search Console, 90 days to 2026-10-20: no impressions for \"bed bugs in hotels\", \"bed bugs in hotel\", \"hotel bed bugs\" or any also-targeted search. Hotel and travel searches without product words add up to 21 queries and 24 impressions (5 US), 0 clicks, none above 3 impressions: two hotel-check searches (\"checking for bed bugs in hotel\" and \"how to check for bedbugs in a hotel\", 1 each at position 3 on /blog/what-kills-bed-bugs-instantly-canada, which holds 19 of the 24 at position 3, the pattern of an AI Overview citation), travel questions (planes, suitcases, clothes) and four searches naming a hotel or resort (7 impressions). The travel product searches (\"best bed bug spray for travel\", luggage heaters) add about 270 more impressions, almost all Canadian, on the Canadian product pages (collisions). The site's existing hotel check, a section of /blog/how-to-check-for-bed-bugs-canada, drew 114 impressions in 90 days at 19.4 (0 US) and no named query; the US guide /blog/where-do-bed-bugs-hide, which also gives a hotel check, drew 202 (61 US) at 10.7, all for \"where do bed bugs hide\" wordings. The demand case rests on Fox's estimate, a ceiling for a DR 24-66 .com, not a forecast.",
+    "searchConsole": {
+     "window": "90 days to 2026-10-20 (Search Console, query dimension only, filtered by query text; US = country filter); page totals from the page dimension, which keeps the anonymized queries the query dimension drops",
+     "impressions90d": 24,
+     "usImpressions90d": 5,
+     "clicks90d": 0,
+     "queries": 21,
+     "topQueries": [
+      {
+       "query": "checking for bed bugs in hotel",
+       "impressions": 1,
+       "us": 0,
+       "position": 3
+      },
+      {
+       "query": "how to check for bedbugs in a hotel",
+       "impressions": 1,
+       "us": 0,
+       "position": 3
+      },
+      {
+       "query": "how to protect from bed bugs when traveling",
+       "impressions": 1,
+       "us": 0,
+       "position": 3
+      },
+      {
+       "query": "how to check suitcase for bed bugs",
+       "impressions": 1,
+       "us": 0,
+       "position": 3
+      },
+      {
+       "query": "signs of bed bugs in luggage",
+       "impressions": 1,
+       "us": 1,
+       "position": 3
+      },
+      {
+       "query": "bed bugs on airplanes",
+       "impressions": 1,
+       "us": 1,
+       "position": 3
+      }
+     ],
+     "shownOn": [
+      {
+       "path": "/blog/what-kills-bed-bugs-instantly-canada",
+       "impressions": 19
+      },
+      {
+       "path": "/blog/best-natural-bed-bug-spray-canada",
+       "impressions": 2
+      },
+      {
+       "path": "/blog/best-bed-bug-spray-for-mattress-canada",
+       "impressions": 1
+      },
+      {
+       "path": "/blog/best-bed-bug-spray-for-travel-canada",
+       "impressions": 1
+      },
+      {
+       "path": "/pest-product-guides/bed-bug-control",
+       "impressions": 1
+      }
+     ],
+     "note": "Regex (includingRegex, dataState all): (bed ?bugs?|bedbugs?).*(hotel|motel|travel|vacation|trip|suitcase|luggage|airbnb|air bnb|cruise|plane|airplane|hostel|resort)|(hotel|motel|travel|vacation|suitcase|luggage|airbnb|air bnb|cruise|hostel|resort|airplane).*(bed ?bugs?|bedbugs?), excludingRegex spray|heater|oven|encasement|detector|kit|repellent|treatment|trap|zappbug|packtite|thermalstrike|chamber|powder|killer. Without the exclusion: 59 queries, 294 impressions (9 US), 2 clicks; the extra 270 are Canadian product searches, 243 of them on /blog/best-bed-bug-spray-for-travel-canada at 6.5. Four of the 21 queries name a hotel or resort (7 impressions); they are not targets. A prevention regex (prevent, avoid, bring or brought home) found 16 queries and 24 impressions (4 US), none about travel (\"how to prevent bed bugs\" 4 at 2.5). A check regex (how to check, inspect, find) found 18 bed bug check searches (32 impressions; \"how to check for bed bugs\" 4 at 2.5), 3 of them about a hotel or a suitcase; the rest of its 411 impressions are mosquito, wasp-nest and tick checks. Since Oct 16 (to Oct 22): 1 hotel or travel impression (\"bed bugs on airplanes\"). Page totals (page dimension, 90 days): /blog/how-to-check-for-bed-bugs-canada 114 (0 US) at 19.4, indexed (URL Inspection: submitted and indexed, last crawl Oct 13); /blog/where-do-bed-bugs-hide 202 (61 US) at 10.7, 243 Oct 16-22; /learn/bed-bugs 28 (0 US); /blog/signs-of-bed-bugs-checklist 168 (12 US) at 5.7."
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/how-to-check-for-bed-bugs-canada",
+     "overlap": "the site's first hotel check: h2 \"How Do You Check a Hotel Room for Bed Bugs in 5 Minutes?\" (luggage in the bathtub, then sheets, box spring, headboard, nightstand and luggage rack, chairs) and the same question as an FAQ, inside a Canadian page about checking for bed bugs in general (the five signs, tools, the used-furniture rule, a Toronto and GTA move-in checklist, Ontario tenancy law). H1 \"How to Check for Bed Bugs in Canada — Hotel, Apartment & Used Furniture (2026)\", meta title \"How to Check for Bed Bugs: 5 Signs, 5 Minutes\"; amazon.ca BuyLink, TopPick and StickyBuyBar. Search Console: 114 impressions in 90 days at 19.4, 0 US, no named query",
+     "resolution": "not a regional pair: its topic is checking for bed bugs anywhere, with hotels as one section, and most of it (Ontario rentals, Canadian products) has no US counterpart here. It keeps \"how to check for bed bugs\", used furniture and Ontario rentals; this page owns the hotel searches and the after-trip routine. No change to it now; a link from its hotel h2 to this page is optional and the owner's call (TSX with amazon.ca links: affiliate integrity protocol). Not linked from this US page"
+    },
+    {
+     "path": "/blog/where-do-bed-bugs-hide",
+     "overlap": "h2 \"How do you check a hotel room for bed bugs?\" (the University of Kentucky's traveler advice: the bed from the pillow end with a flashlight, the headboard caution, the luggage rack per EPA's photo caption, asking for another room in a different area of the hotel, Virginia Tech's note that a new hotel infestation is hard to find), h2 \"Do bed bugs hide in luggage, clothing and belongings?\" and FAQ \"Do bed bugs hide in clothes and luggage?\"; its metaDescription and dek promise how to inspect \"a bedroom or hotel room\". Search Console: 202 impressions in 90 days (61 US) at 10.7, 243 since Oct 16 at 11.9, every named query a \"where do bed bugs hide\" wording, no hotel query",
+     "resolution": "keeps \"where do bed bugs hide\", the hiding-place ranking and the luggage-and-belongings h2 and FAQ (bugs carried into a home); its hotel h2 shrinks to two or three sentences and a link here at release (an edit to a live guide: amend), so two live pages do not give the same hotel check; dropping \"or hotel room\" from its metaDescription and dek is optional; link both ways. This page names the hiding places in one line and links there"
+    },
+    {
+     "path": "/learn/bed-bugs",
+     "overlap": "the pillar's h2 \"How do you avoid bringing bed bugs home?\" with h3 \"When you travel\" (Kentucky's five travel steps, heat for a suitcase, most hotel infestations limited to a few rooms) and the line \"The room-by-room version, including how to check a hotel room, is in the guide to where bed bugs hide\"; 28 impressions in 90 days (0 US)",
+     "resolution": "the pillar keeps its short travel h3 (a pillar summarizes); at release its hotel line is repointed here and the travel h3 gains a link here (amend), which also gives this page the live inbound link the release job needs; parent and mustLink"
+    },
+    {
+     "path": "/blog/signs-of-bed-bugs-checklist",
+     "overlap": "the printable bedroom checklist; its FAQ lists hotels among the places bed bugs turn up (CDC); 168 impressions in 90 days at 5.7",
+     "resolution": "keeps the checklist; this page links it for the signs and for watching the home after a trip; a link back is optional"
+    },
+    {
+     "path": "/blog/bed-bug-bites-but-no-bed-bugs",
+     "overlap": "frequent travel and sleeping where others have slept raise the risk, and marks can take as long as 14 days to develop (CDC)",
+     "resolution": "keeps the bites-without-bed-bugs searches; this page's bites section is three or four sentences that link it and /blog/bed-bug-bites"
+    },
+    {
+     "path": "/blog/bed-bug-bites",
+     "overlap": "bed bug bite pictures; three hotel mentions",
+     "resolution": "keeps the bite searches; link from the bites section"
+    },
+    {
+     "path": "/blog/what-do-bed-bugs-look-like",
+     "overlap": "what the bug looks like at every stage",
+     "resolution": "keeps identification; this page shows the signs a traveler checks for at life size and links there for the bug itself"
+    },
+    {
+     "path": "/blog/bed-bug-poop",
+     "overlap": "the fecal spots a hotel check looks for (and the bed-bugs-eggs-mattress-seam lead photo)",
+     "resolution": "keeps the droppings searches; one line and a link"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-bed-bugs",
+     "overlap": "the look-alikes a traveler may find (bat bugs, carpet beetle larvae, cockroach nymphs, spider beetles)",
+     "resolution": "keeps them; the cards here link it"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-bed-bugs",
+     "overlap": "a portable heat chamber for suitcases (Rutgers) and the full elimination plan",
+     "resolution": "keeps treatment; this page links it for \"they came home with you\" and does not repeat it"
+    },
+    {
+     "path": "/blog/best-bed-bug-spray-for-travel-canada",
+     "overlap": "the travel spray searches (\"best bed bug spray for travel\" 44 at 5.0 and variants; 1,244 impressions in 90 days, 24 clicks, 2 US); \"bed bug spray for hotels\"",
+     "resolution": "keeps every travel product search in Canada; this page targets no product search, recommends no travel spray and does not link it (US guides: amazon.com only); no change"
+    },
+    {
+     "path": "/blog/best-bed-bug-luggage-heater-canada",
+     "overlap": "the luggage heater searches (\"bed bug suitcase heater\", \"bed bug luggage heater\"; the page drew 487 impressions in 90 days, 10 clicks); /blog/thermalstrike-ranger-review-canada (836, 25 clicks) and /blog/packtite-portable-review-canada share them",
+     "resolution": "keep the product searches; no change; not linked; this page may say a suitcase can be heat-treated (Kentucky, Rutgers) without naming a product"
+    },
+    {
+     "path": "/blog/what-kills-bed-bugs-instantly-canada",
+     "overlap": "holds 19 of the 24 hotel and travel impressions, all at position 3 (likely an AI Overview citation)",
+     "resolution": "no change; it keeps \"what kills bed bugs instantly\""
+    },
+    {
+     "path": "/blog/bed-bugs-on-the-ttc-toronto",
+     "overlap": "transit as a way bed bugs travel (Toronto)",
+     "resolution": "no change; Canadian local page; not linked"
+    },
+    {
+     "path": "bat-bugs (new)",
+     "overlap": "a look-alike card here (scheduled 2026-12-14)",
+     "resolution": "the bat bug card links it once live"
+    },
+    {
+     "path": "GTA service pages",
+     "overlap": "none; BuzzSkito's disclosure on bed bug pages says it does not treat bed bugs",
+     "resolution": "no quote prompt here (a traffic page); never suggest BuzzSkito treats bed bugs"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn/bed-bugs",
+    "name": "Bed Bugs"
+   },
+   "mustLink": [
+    "/learn/bed-bugs"
+   ],
+   "scope": "For US travelers, the hotel check first, in the order to do it. Keep luggage off the floor and off the bed until the check is done, on a luggage rack, table or other hard surface (University of Kentucky ENTFACT-636; EPA's Protecting Your Home from Bed Bugs says to inspect the luggage rack). Check the bed from the pillow end with a flashlight: sheets and pillows back, mattress seams, piping and tags, and the box spring where it can be seen (Kentucky); the headboard edges and the gap behind it, a frequent hiding place in hotel rooms, without taking it down (Kentucky warns untrained people not to); then the nightstand, upholstered chairs and the luggage rack straps. What the signs look like in a hotel bed (live bugs, ink-dot fecal spots, shed skins, eggs), with photos at life size, linking /blog/signs-of-bed-bugs-checklist, /blog/bed-bug-poop and /blog/what-do-bed-bugs-look-like; why a clean check is not proof (Virginia Tech: in a new infestation, a hotel room for example, evidence can be very hard to find). If you find them: tell the front desk, ask for a room in a different part of the hotel because infestations sometimes extend to nearby units (Kentucky), photograph the evidence and keep luggage closed; who must act is set by states and cities, not EPA (EPA's Bed Bug Laws and Regulations page: 21 states with some law or regulation, focused mostly on hotels and landlords), stated at that strength, no legal advice. Bites during or after a trip: marks can take as long as 14 days to show and bites alone do not confirm bed bugs (CDC), and bites noticed after getting home do not mean the home is infested (Virginia Tech); link /blog/bed-bug-bites and /blog/bed-bug-bites-but-no-bed-bugs. Coming home: unpack away from the bedroom, put clothing straight into the washer or dryer (heat settings only as a source gives them), heat-treat or isolate a suitcase you are worried about (Kentucky: a hot car in summer; Rutgers: a portable heating box), why Kentucky rates inspecting or vacuuming a suitcase as less useful, how to watch for bed bugs at home afterwards (interceptors under the bed legs; /blog/signs-of-bed-bugs-checklist) and what to do if they came home (/blog/how-to-get-rid-of-bed-bugs). For perspective, Kentucky says most hotel infestations are limited to a few rooms. A where-to-check table (spot, what to look for, how to check it) and look-alike cards (bat bug, carpet beetle larva, cockroach nymph, spider beetle; /blog/bugs-that-look-like-bed-bugs). Hiding places in general go to /blog/where-do-bed-bugs-hide. Sources: EPA (How to Find Bed Bugs; Protecting Your Home from Bed Bugs; Bed Bug Laws and Regulations), CDC, University of Kentucky ENTFACT-636, Virginia Tech, Rutgers and the Indiana Department of Health, as already cited on /blog/where-do-bed-bugs-hide and /learn/bed-bugs. Never name a hotel, chain, booking or registry site; no spray or product advice beyond the one generic pick; no quote prompt (a traffic page; BuzzSkito does not treat bed bugs).",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "photos": "in-hand (partial): lead bed-bug-adult-ruler (public domain, CDC: an adult beside a millimetre ruler; used on many pages but the lead of none) or bed-bugs-eggs-mattress-seam (public domain: bugs and eggs along a bed seam, the check's main target, but it already leads /blog/bed-bug-poop, so the two pages would share a share image); bed-bug-nymph (CC0); for the signs bed-bug-signs (CC BY 4.0), bed-bug-fecal-spots-bed-frame and bed-bug-fecal-stains-mattress (CC BY 2.0), bed-bug-cast-skin-fabric (CC BY 4.0) and bed-bug-cast-skin (CC BY-SA 3.0), none a lead; bed-bug-bites-back (CC0: bites the photographer attributes to a hotel stay in Amsterdam; usable in the bites section only with that said, never as proof or a lead); cards: western-bat-bug (public domain), carpet-beetle-larva (CC BY 4.0), german-cockroach-nymphs (public domain), spider-beetle (CC BY-SA 2.0). Needed, none on record: a hotel bed checked at the pillow end (sheet and mattress corner pulled back, flashlight), a hotel headboard edge or the gap behind it, a luggage rack with its straps, a suitcase on a rack or a hard surface, bed bugs or their spots on a headboard or on luggage. Where to look: CDC PHIL, EPA's bed bug pages (EPA's own photos are public domain; check each credit), USDA ARS, Wikimedia Commons and iNaturalist (public domain or CC0 for a lead).",
+   "dataAssets": null,
+   "notes": "Added 2026-10-23 from data/god-build/research/winners-gap.md gap #20 (Fox 301 US visits a month; winter-strong, holiday travel); the writer does the beat-the-top-3 research into data/god-build/research/top3/bed-bugs-in-hotels.md for \"how to check for bed bugs in a hotel\" and \"bed bugs in hotels\". winners-gap offered a section in /blog/how-to-check-for-bed-bugs-canada instead; not taken: that page is Canadian (Ontario rentals, amazon.ca links), sits at 19.4 with no US impressions, and a hotel check is a bugs-in-a-place search, for which a section inside a broader page does not count (winners-gap coverage rules). Not a regional pair (different topic). Release date 2026-10-23 goes in data/god-build/release-overrides.json (releaseOn), as for the Oct 22 pages; the page goes out the morning after its fact-check once a live guide links it (the pillar or where-do-bed-bugs-hide, link-in at release).",
+   "wave": 2,
+   "suggestedWeek": "2026-10-23",
+   "releaseOrder": 217,
    "evidenceScore": null
   }
  ],
