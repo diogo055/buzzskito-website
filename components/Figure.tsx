@@ -2,6 +2,9 @@ import type { ReactNode } from 'react'
 import FigureZoom from './FigureZoom'
 import { BUSINESS } from '@/lib/constants'
 
+/** The licence for diagrams we author (owner, Oct 24, 2026); terms and how to credit at /image-use. */
+export const ORIGINAL_LICENSE = 'https://creativecommons.org/licenses/by/4.0/'
+
 /**
  * A captioned, schema-annotated figure for identification and comparison content.
  *
@@ -81,11 +84,14 @@ export default function Figure({
         // a source page is where the licence is found, not the licence itself
         : { creditText: credit, ...(creditHref && { acquireLicensePage: creditHref }) }
       // an original diagram (data/image-licenses.json: licence "original", author BuzzSkito).
-      // No `license` / `acquireLicensePage`: the site offers no licence for its diagrams.
+      // Owner, Oct 24, 2026: our diagrams are free to reuse with credit and a link (CC BY 4.0,
+      // terms at /image-use).
       : {
           creator: { '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: BUSINESS.legalName },
           creditText: BUSINESS.name,
           copyrightNotice: `© ${BUSINESS.legalName}`,
+          license: ORIGINAL_LICENSE,
+          acquireLicensePage: `${siteUrl}/image-use`,
         })),
   }
 
@@ -111,6 +117,13 @@ export default function Figure({
             ) : (
               <>, {license.name}</>
             ))}
+          </span>
+        )}
+        {!credit && !rights && (
+          <span className="block mt-1 text-xs text-gray-500">
+            Diagram: BuzzSkito &middot;{' '}
+            <a href="/image-use" className="underline hover:text-gray-700">free to reuse with credit</a>
+            {' '}(<a href={ORIGINAL_LICENSE} rel="license nofollow noopener noreferrer" target="_blank" className="underline hover:text-gray-700">CC BY 4.0</a>)
           </span>
         )}
       </figcaption>

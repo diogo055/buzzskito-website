@@ -244,7 +244,8 @@ export function guideImage(g: Guide): { src: string; width: number; height: numb
     return {
       ...hero,
       alt: g.heroAlt || g.h1,
-      rights: { creator: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName }, creditText: BUSINESS.name, copyrightNotice: `© ${BUSINESS.legalName}` },
+      // our own infographic: free to reuse with credit (CC BY 4.0, owner Oct 24, 2026; terms at /image-use)
+      rights: { creator: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName }, creditText: BUSINESS.name, copyrightNotice: `© ${BUSINESS.legalName}`, license: 'https://creativecommons.org/licenses/by/4.0/', acquireLicensePage: `${SITE_URL}/image-use` },
     }
   }
   const fig = g.body.find((b): b is Extract<GuideBlock, { type: 'figure' }> => b.type === 'figure')

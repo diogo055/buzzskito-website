@@ -208,6 +208,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/pest-product-guides/cockroach-control`,   lastModified: US_GUIDES_PUBLISHED, changeFrequency: 'weekly', priority: 0.8 },
     // /about removed (page doesn't exist), /privacy-policy removed (noindex)
     { url: `${SITE_URL}/terms`,                         lastModified: LAST_CONTENT_UPDATE, changeFrequency: 'yearly',  priority: 0.3 },
+    // Reuse terms for our own diagrams (CC BY 4.0), owner's decision Oct 24, 2026
+    { url: `${SITE_URL}/image-use`,                     lastModified: '2026-10-24T12:00:00.000Z', changeFrequency: 'yearly',  priority: 0.3 },
   ]
 
   // ── All city pages — generated from CITIES array ────────────────────────────
