@@ -58,7 +58,8 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    // image-sitemap.xml lists each page's photos and diagrams for Google Images and Lens (Oct 24, 2026).
+    sitemap: [`${SITE_URL}/sitemap.xml`, `${SITE_URL}/image-sitemap.xml`],
     host: SITE_URL,
   }
 }

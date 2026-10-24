@@ -94,18 +94,24 @@ export function photoCreator(credit: string): PhotoCreator | undefined {
 }
 
 /**
- * The copyright notice, only where the source gives one: iNaturalist's "(c) Name" line on a
- * CC BY / CC BY-SA photo. Public-domain and CC0 photos have no copyright to give notice of.
+ * The copyright notice, only where there is a copyright to give notice of: a CC BY or CC BY-SA
+ * photo, whose author keeps the copyright and licenses it. iNaturalist's "(c) Name" line is used
+ * as it is; any other CC BY / CC BY-SA credit (Wikimedia Commons, CDC photographers) gives
+ * "© <creator>" when the credit names one (Oct 24, 2026: Search Console listed 537 photos
+ * without the field). Public-domain and CC0 photos have no copyright to give notice of, so they
+ * get none, and no notice is ever invented for a credit that names nobody.
  */
-export function photoCopyrightNotice(credit: string): string | undefined {
+export function photoCopyrightNotice(credit: string, license?: GuideLicense, creator?: PhotoCreator): string | undefined {
   const m = /^\(c\) (.+?), some rights reserved \(CC BY(?:-SA)?\), via iNaturalist$/.exec(credit)
-  return m ? `© ${m[1]}` : undefined
+  if (m) return `© ${m[1]}`
+  if (license && license.startsWith('CC-BY') && creator) return `© ${creator.name}`
+  return undefined
 }
 
 /** The rights fields of a photo's ImageObject: the same credit, licence and source page the caption shows. */
 export function photoRights(p: Pick<LedgerPhoto, 'credit' | 'license' | 'sourceUrl'>): Record<string, unknown> {
   const creator = photoCreator(p.credit)
-  const copyrightNotice = photoCopyrightNotice(p.credit)
+  const copyrightNotice = photoCopyrightNotice(p.credit, p.license, creator)
   return {
     creditText: p.credit,
     ...(creator && { creator }),

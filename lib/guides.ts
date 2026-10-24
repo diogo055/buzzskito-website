@@ -15,6 +15,9 @@ import type { Metadata } from 'next'
 import { buildMetadata, blogPostingSchema, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { SITE_URL, BUSINESS } from '@/lib/constants'
 import heroes from '@/lib/us-guide-heroes.json'
+// photos.ts imports LICENSE_LABEL from this file too; both use each other only inside functions,
+// so the import cycle is safe.
+import { photoRights } from '@/lib/photos'
 
 export type GuideCluster = 'bed-bugs' | 'ants' | 'mice' | 'cockroaches' | 'mosquitoes' | 'ticks' | 'spiders' | 'wasps' | 'flies' | 'mites' | 'household' | 'bites' | 'wildlife' | 'pest-control' | 'garden'
 
@@ -230,12 +233,22 @@ export function withRegionalAlternates(meta: Metadata, path: string): Metadata {
 /** The page's hub for breadcrumbs: its own parent when it has one, else the cluster's pillar. */
 export const guideParent = (g: Guide) => g.parent ?? CLUSTER_PILLAR[g.cluster]
 
-/** The page's share image: its hero infographic, else its first photograph. */
-export function guideImage(g: Guide): { src: string; width: number; height: number; alt: string } | undefined {
+/**
+ * The page's share image: its hero infographic, else its first photograph. `rights` are the
+ * image's schema rights fields: our own for an infographic (as for the diagrams in <Figure>),
+ * else the photo's from its ledger fields (photoRights in lib/photos.ts).
+ */
+export function guideImage(g: Guide): { src: string; width: number; height: number; alt: string; rights: Record<string, unknown> } | undefined {
   const hero = GUIDE_HEROES[guidePath(g)]
-  if (hero) return { ...hero, alt: g.heroAlt || g.h1 }
+  if (hero) {
+    return {
+      ...hero,
+      alt: g.heroAlt || g.h1,
+      rights: { creator: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName }, creditText: BUSINESS.name, copyrightNotice: `© ${BUSINESS.legalName}` },
+    }
+  }
   const fig = g.body.find((b): b is Extract<GuideBlock, { type: 'figure' }> => b.type === 'figure')
-  return fig ? { src: fig.src, width: fig.width, height: fig.height, alt: fig.alt } : undefined
+  return fig ? { src: fig.src, width: fig.width, height: fig.height, alt: fig.alt, rights: photoRights(fig) } : undefined
 }
 
 export function guideMetadata(g: Guide): Metadata {
@@ -281,7 +294,7 @@ export function guideSchemas(g: Guide): Record<string, unknown>[] {
     // who wrote them. (The visible byline handles a human reviewer, when there is one.)
     author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName, url: SITE_URL },
     inLanguage: g.locale ?? 'en-US',
-    ...(hero && { image: { '@type': 'ImageObject', url: `${SITE_URL}${hero.src}`, width: hero.width, height: hero.height } }),
+    ...(hero && { image: { '@type': 'ImageObject', url: `${SITE_URL}${hero.src}`, contentUrl: `${SITE_URL}${hero.src}`, width: hero.width, height: hero.height, ...hero.rights } }),
     about: { '@type': 'Thing', name: CLUSTER_LABEL[g.cluster] },
     citation: g.sources.map((s) => ({ '@type': 'CreativeWork', name: s.title, publisher: s.publisher, url: s.url })),
   }
