@@ -77,6 +77,11 @@
 - llms.txt for AI crawlers
 - robots.txt (`app/robots.ts`) allows OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot and, since Jul 16, 2026 (owner decision), the training bots GPTBot and CCBot. Only `/api/` is disallowed. AI-search findings (Oct 21, 2026): `reports/ChatGPT shopping and citation opportunity.md`; tool review: `reports/GitHub SEO tools for BuzzSkito.md`.
 - GSC MCP server connected (sc-domain:buzzskito.ca)
+- **Images (Oct 24, 2026):**
+  - `/image-sitemap.xml` is a route that lists every page's photos and diagrams (1,232 images on 189 pages at launch). It reads `lib/page-images.json`, which `scripts/build-image-index.mjs` writes at the start of `npm run build`, and it lists only pages that are in the main sitemap. robots.txt names both sitemaps.
+  - **Owner's decision:** our own diagrams and infographics are free to reuse under **CC BY 4.0**, with terms at `/image-use`. Third-party photos keep their own licences. Original diagrams show "free to reuse with credit" and carry `license` and `acquireLicensePage` in their schema.
+  - CC BY photos carry `copyrightNotice` "© creator" when the credit names one. Public-domain and CC0 photos correctly carry none.
+  - Image search plus Lens brought about 150 clicks a week on Oct 24 (about 8% of Google clicks). The research says unique original photos are what win Google Images.
 - Schema: LocalBusiness + Service + FAQ + HowTo + Speakable + AggregateRating on every page
 
 ## Dashboard Features (app.buzzskito.ca)
