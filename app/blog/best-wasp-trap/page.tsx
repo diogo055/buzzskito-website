@@ -18,9 +18,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-wasp-trap'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Wasp Traps in Canada: Bag, Sticky, Reusable and DIY Compared'
-const META_TITLE = 'Best Wasp Traps Canada 2026: Bag vs Reusable'
+// TITLE NOTE (Oct 23, 2026): was 'Best Wasp Traps Canada 2026: Bag vs Reusable'; top queries (Jul 23-Oct 20, all countries): best wasp trap 472, wasp bags 156, best wasp traps 122, bee bags traps 14, wasp bag traps 13 (44 page clicks). Singular "trap" and "Bags" match the two biggest searches.
+const META_TITLE = 'Best Wasp Trap Canada 2026: Bags vs Reusable'
 
 const FAQS = [
   {
@@ -44,8 +45,8 @@ const FAQS = [
     answer: 'They respond to completely different cues, which is why one trap rarely catches both. Yellowjackets follow food odours — heptyl butyrate (a synthetic fruit-ester lure), sweet liquids, and in early summer, protein like meat scraps. Paper wasps largely ignore those scent lures; they are visual hunters, which is why the RESCUE! TrapStik works on them — its VisiLure colour pattern draws them onto a glue surface. One honest caveat for Ontario and Quebec: heptyl butyrate is most powerful on western yellowjacket species, and some eastern species respond less strongly, which is why multi-attractant traps like the WHY Trap out-fish single-lure bottle traps here.',
   },
   {
-    question: 'Do wasp traps need to be registered with Health Canada?',
-    answer: 'No — and that is one of their quiet advantages. Traps and sticky boards are devices, not pesticides, so they do not require PMRA (Pest Management Regulatory Agency) registration the way any insecticide spray, foam, or dust does. Every legal wasp spray in Canada must carry a PCP registration number on the label; a trap needs none. That makes traps the zero-paperwork, zero-restriction first move for any Canadian household — including condo balconies and rental properties where spraying may not be allowed.',
+    question: 'Do wasp traps need a PCP number in Canada?',
+    answer: 'A baited one does. The Pest Control Products Act counts a product used as a means for "attracting" a pest as a pest control product, and Health Canada’s pesticide database lists the RESCUE! maker’s lures, Sterling International’s Disposable Yellowjacket Trap W (PCP 35529), Yellowjacket Trap Cartridge (PCP 35530) and Yellowjacket Trap Tube (PCP 35531), as domestic-class registrations with heptyl butyrate as the active ingredient, first registered December 11, 2025. Devices sold to attract or destroy flying insects are also covered by Schedule 1 of the Pest Control Products Regulations, with exemptions only on conditions. So check a baited trap or refill for a PCP number, as you would a spray. We found no registration under the TrapStik name, which uses colour and glue rather than a chemical lure.',
   },
   {
     question: 'Do DIY pop-bottle wasp traps work?',
@@ -75,11 +76,19 @@ const FAQS = [
     question: 'What is a wasp bag trap, and is it the same as a wasp nest bag?',
     answer: 'No, and the mix-up is common. A disposable wasp bag trap is a pre-baited pouch you fill with water to the line and hang; it catches yellowjackets, is single-use, and gets thrown out full. Paper wasps and most hornets ignore its lure entirely. A "wasp nest bag" is something different — a decoy paper-lantern nest meant to discourage wasps from building nearby. A decoy is a deterrent, not a trap, and catches nothing. If you wanted something that actually collects wasps, you want the bag trap, not the decoy nest.',
   },
+  {
+    question: 'Do wasp bag traps catch bees?',
+    answer: 'It depends on the lure. The RESCUE! disposable bag registered in Canada, Disposable Yellowjacket Trap W (PCP 35529), lists heptyl butyrate as its active ingredient and yellowjackets as its pest in Health Canada’s pesticide database, and RESCUE! says of its W·H·Y attractant that it "Will not lure beneficial honeybees." Sweet DIY baits are the bigger bycatch risk, as the bottle-trap section explains. Hang bags away from flowering plants and feeders, and at least 6 metres from where people sit.',
+  },
+  {
+    question: 'What is the best trap for hornets?',
+    answer: 'A trap whose lure is made for them, which rules out the yellowjacket-only bag. RESCUE! says its W·H·Y Trap catches "5 species of Paper Wasps; Bald-faced Hornets and European Hornets; and 12 species of Yellowjackets," using two chambers with different lures, and the included attractant "lasts about two weeks under normal conditions." Its maker also says to hang it "at least 20 feet away from any known nests." A trap thins hornet foragers; a bald-faced hornet nest itself is high in a tree or under a soffit, and taking it down is a nest-spray or licensed-operator job.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Reusable, sticky, disposable bag and DIY wasp traps compared for Canadian yards, plus where to hang them, when to set them out, and where to buy.',
+  description: 'Best wasp trap in Canada: the reusable RESCUE! W·H·Y Trap for most yards. Bags vs reusable vs sticky, hanging it 6 m+ away, spring queens and PCP numbers.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -104,7 +113,7 @@ export default function BestWaspTrapCanadaPage() {
             <span className="text-white">Best Wasp Traps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Reusable attractant traps, sticky visual traps, disposable bag traps, and the DIY pop bottle — compared honestly for Canadian yards, with the spring-queen and August-worker timing that decides whether any of them work.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best wasp trap for most Canadian yards is the reusable RESCUE! W&middot;H&middot;Y Trap, which its maker says catches paper wasps, hornets and yellowjackets; hang it at least 6 metres (20 feet) from where you sit. Disposable bags suit a late-summer yellowjacket spike at the bins. No trap removes a nest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -122,7 +131,7 @@ export default function BestWaspTrapCanadaPage() {
               <li>Hang traps 6&ndash;9 metres away from your patio, never on it &mdash; a trap attracts wasps, so it must intercept them, not invite them to lunch.</li>
               <li>Two trapping windows matter in Canada: spring queens (April&ndash;May, one queen caught = one nest never built) and the August&ndash;September worker spike.</li>
               <li>Yellowjackets follow scent lures like heptyl butyrate; paper wasps hunt visually and need a sticky visual trap instead.</li>
-              <li>Traps are devices &mdash; no Health Canada PMRA registration needed &mdash; while every legal wasp spray must carry a PCP registration number.</li>
+              <li>Baited traps are pest control products in Canada: Health Canada&rsquo;s database lists the RESCUE! maker&rsquo;s yellowjacket lures as domestic registrations (PCP 35529, 35530, 35531), so look for a PCP number on a baited trap or refill, as on a spray.</li>
               <li>A DIY pop-bottle trap barely works: weak lure, escapes, slow drowning, and pollinator bycatch.</li>
               <li>No hanging trap eliminates an active nest &mdash; a mature colony out-breeds any trap; treat or remove the nest itself.</li>
             </ul>
@@ -181,7 +190,7 @@ export default function BestWaspTrapCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Trap Types Compared &middot; Updated July 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Trap Types Compared &middot; Updated October 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">The 4 Kinds of Wasp Trap (and What Each Actually Catches)</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             &ldquo;Wasp trap&rdquo; covers four very different tools, and the biggest mistake Canadian buyers make is using a yellowjacket scent trap against paper wasps &mdash; or vice versa. Here is the honest breakdown, with a live Amazon.ca price check per type.
@@ -237,6 +246,41 @@ export default function BestWaspTrapCanadaPage() {
               <strong className="text-amber-900">⚠️ Traps thin, they don&rsquo;t eliminate.</strong> A mature colony holds hundreds to thousands of workers and replaces losses daily. If you can see an active nest, you need nest treatment, not more traps &mdash; start with our <Link href="/blog/best-wasp-nest-spray-canada" className="text-emerald-700 underline font-semibold">PMRA-registered nest spray guide</Link> or the full <Link href="/blog/how-to-get-rid-of-wasps-canada" className="text-emerald-700 underline font-semibold">get-rid-of-wasps playbook</Link>.
             </p>
           </div>
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-8 mb-3">Which trap for your situation</h3>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="min-w-[520px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your situation</th>
+                  <th className="px-4 py-3 text-left">What to hang</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Yellowjackets at the patio table or the bins in August</td>
+                  <td className="px-4 py-3 text-gray-700">A W&middot;H&middot;Y Trap or two disposable bags, at least 6 m (20 ft) from the table: RESCUE! says &ldquo;at least about 20 feet away from patios, decks, or areas of outdoor activity&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Long-legged paper wasps building under the eaves</td>
+                  <td className="px-4 py-3 text-gray-700">The TrapStik (colour and glue); RESCUE! also lists 5 paper wasp species for the W&middot;H&middot;Y Trap. The bag&rsquo;s lure is for yellowjackets only</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Spring, before nests start</td>
+                  <td className="px-4 py-3 text-gray-700">A lure trap, set out early: RESCUE! says early-spring use &ldquo;increases the likelihood of catching emerging queens before they start building nests&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Honey bees or birds visit the yard</td>
+                  <td className="px-4 py-3 text-gray-700">A formulated lure rather than sweet bait (RESCUE! says its W&middot;H&middot;Y attractant &ldquo;Will not lure beneficial honeybees&rdquo;), and the caged TrapStik where birds come by</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">You can see a nest, or wasps pour from a hole or a wall</td>
+                  <td className="px-4 py-3 text-gray-700">No trap: UC IPM says &ldquo;Lure traps can help reduce the number of localized foraging workers, but they don&rsquo;t eliminate large populations.&rdquo; See the <Link href="/blog/best-wasp-nest-spray-canada" className="text-emerald-700 underline font-semibold">nest spray guide</Link></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">Sources: RESCUE! product pages (rescue.com) for what each trap is sold to catch, the two-week lure life and hanging distance; Health Canada Pesticide Product Information Database for the yellowjacket lure registrations (PCP 35529&ndash;35531), read October 23, 2026; University of California IPM, &ldquo;Pest Notes: Yellowjackets and Other Social Wasps&rdquo;, which notes that the common heptyl butyrate lure &ldquo;attracts primarily the western yellowjacket&rdquo;.</p>
         </div>
       </section>
 
@@ -312,7 +356,7 @@ export default function BestWaspTrapCanadaPage() {
                   ['Paper wasp lure', 'None — visual pattern traps only'],
                   ['Attractant refresh', 'About every 2 weeks for the WHY Trap'],
                   ['Nest elimination', 'No trap does this — treat or remove the nest itself'],
-                  ['Health Canada status', 'Traps are devices — no PMRA registration required (sprays need one)'],
+                  ['Canadian registration', 'Baited lures are registered pest control products (RESCUE! yellowjacket lures: PCP 35529, 35530, 35531): look for the number'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -384,9 +428,9 @@ export default function BestWaspTrapCanadaPage() {
           </ul>
           <p>Placement is also where trapping meets its ceiling. Distance rules govern how much pressure reaches your table; they never take it to zero, and in the middle of the worker spike a sugar-starved yellowjacket will still find the food. The only thing that keeps wasps off a plate outright is a physical barrier between them and it — and mesh excludes wasps far more easily than it does mosquitoes, because a yellowjacket is several times the size of a mosquito and cannot squeeze through a weave that a mosquito still gets past. If August dining is the actual problem rather than wasps in general, a <Link href="/blog/best-screen-tent-canada">screen shelter pitched over the table</Link> does the one thing no trap can.</p>
 
-          <h2>The PMRA Angle: Why Traps Are the Zero-Paperwork First Move</h2>
-          <p>Here is a piece of Canadian context that US-centric buying guides never mention: wasp <em>traps</em> and sticky boards are devices, not pesticides. They require no registration from Health Canada&rsquo;s Pest Management Regulatory Agency, no label restrictions, and no thought about where you are allowed to deploy them &mdash; balconies, rentals, cottages, school-adjacent fences, all fine. Wasp <em>sprays</em> are the opposite: every insecticide legally sold in Canada must be PMRA-registered and carry a PCP registration number on the label.</p>
-          <p>That distinction matters when the internet tells you to import something. US-market aerosols like Hot Shot Wasp &amp; Hornet Killer and Ortho Home Defense Hornet &amp; Wasp Killer7 &mdash; the staples of American advice threads &mdash; are formulated under US EPA registrations and are <strong>not PMRA-registered for sale in Canada</strong>; bringing them across the border or buying them grey-market from cross-listed sellers puts you on the wrong side of the Pest Control Products Act, with no Canadian label directions to protect you. There is no need: registered Canadian foaming wasp killers exist and work, and we compare them in the <Link href="/blog/best-wasp-nest-spray-canada">best wasp nest spray guide</Link>. But the cleaner point is this &mdash; for everything short of nest destruction, a trap does the job with zero regulatory footprint at all.</p>
+          <h2>The PMRA Angle: Baited Traps Carry PCP Numbers Too</h2>
+          <p>Here is a piece of Canadian context that US-centric buying guides never mention: a baited wasp trap is a pest control product here, just like a spray. The Pest Control Products Act counts anything used as a means for &ldquo;attracting&rdquo; a pest, and Health Canada&rsquo;s Pesticide Product Information Database lists the RESCUE! maker&rsquo;s three yellowjacket lures as domestic-class registrations: Disposable Yellowjacket Trap W (PCP 35529), Yellowjacket Trap Cartridge (PCP 35530) and Yellowjacket Trap Tube (PCP 35531), all heptyl butyrate, first registered December 11, 2025, for &ldquo;outdoor living areas&rdquo;. Look for that number on a bag trap, lure cartridge or refill, and follow its label as you would a spray&rsquo;s. We found no separate registration under the TrapStik name, which uses colour and glue rather than a chemical lure.</p>
+          <p>That distinction matters when the internet tells you to import something. US-market aerosols like Hot Shot Wasp &amp; Hornet Killer and Ortho Home Defense Hornet &amp; Wasp Killer 7 &mdash; the staples of American advice threads &mdash; are formulated under US EPA registrations and are <strong>not PMRA-registered for sale in Canada</strong>; bringing them across the border or buying them grey-market from cross-listed sellers puts you on the wrong side of the Pest Control Products Act, with no Canadian label directions to protect you. There is no need: registered Canadian wasp killers exist and work, and we compare them in the <Link href="/blog/best-wasp-nest-spray-canada">best wasp nest spray guide</Link>. But the cleaner point is this &mdash; for everything short of nest destruction, a trap with a registered lure does the job without spraying anything.</p>
 
           <h2>When a Trap Is Not Enough</h2>
           <p>Traps intercept foragers. They do not, and cannot, eliminate an established colony &mdash; the queen out-lays your catch rate. Escalate past trapping when you see: a visible nest with steady traffic (eaves, shed, BBQ cabinet), wasps streaming from a hole in the lawn or a gap in siding (ground or wall-void nests, the two highest-sting-risk scenarios), or wasps appearing <em>inside</em> the house. The <Link href="/blog/how-to-get-rid-of-wasps-canada">full get-rid-of-wasps guide</Link> walks the whole decision tree, the <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link> covers the lawn-nest case specifically, and if the nest is high, hidden in a wall, or anyone in the household has sting allergies, hiring a licensed pro is the right call &mdash; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> shows what wasp nest removal typically runs so you can sanity-check quotes.</p>

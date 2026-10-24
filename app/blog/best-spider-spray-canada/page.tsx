@@ -17,9 +17,10 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-spider-spray-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Spider Spray Canada 2026 — PMRA-Registered Picks vs US Grey-Market'
-const META_TITLE = 'Best Spider Spray Canada 2026: PMRA-Registered'
+// TITLE NOTE (Oct 23, 2026): was 'Best Spider Spray Canada 2026: PMRA-Registered'; top queries: spider spray 505, best spider spray outdoor 91, best spider killer spray for indoors 78, best spider spray 70, spider ban vs spider out 53 (13 clicks).
+const META_TITLE = 'Best Spider Spray Canada: Indoor & Outdoor Picks'
 
 const FAQS = [
   {
@@ -70,11 +71,23 @@ const FAQS = [
     question: 'Why are there suddenly so many spiders in my house in September?',
     answer: 'Because it is mating season, not because they are escaping the cold. From late August through October, mature male house spiders abandon their hiding spots and wander in search of females — and a male crossing open floor at 10 p.m. is dramatically more visible than the same spider spending all summer behind the furnace. Arachnologists consistently find the fall-surge spiders are residents that were already living in the house. The surge is self-limiting (the males mate and die by November), which is exactly why a perimeter treatment applied in August, before the wandering peaks, out-performs a panic purchase in October.',
   },
+  {
+    question: 'Spider Ban vs Spider Out: which should I buy?',
+    answer: 'Spider Out. Health Canada’s pesticide registry lists Wilson SpiderBan Spider Killer (Reg. No. 31129) as cancelled, with June 6, 2016 as its last date of sale, and every other SpiderBan registration as historical. Wilson Spider Out Spider Killer (Reg. No. 31900) and Wilson Spider Out Ready-To-Use Spider Killer (Reg. No. 26632) are current registrations. The Spider Out aerosol’s label says it “is to be used to kill spiders inside buildings and outdoors on the exterior surfaces of buildings, porches, patios and decks”, with “Permethrin 0.25%” as the active ingredient.',
+  },
+  {
+    question: 'What is the best spider spray for outdoors?',
+    answer: 'One whose Canadian label lists outdoor use, because not every spider spray does. Our pick, Doktor Doom Pro Max Spider Killer Plus (Reg. No. 34748), is labelled “To kill spiders & flies inside buildings and outdoors on exterior surfaces of buildings and attached porches, patios and decks.” Wilson Spider Out Spider Killer (Reg. No. 31900), Knock Down Spider Killer (Reg. No. 29689) and Konk Spider & Tick II (Reg. No. 32619) also carry outdoor directions, while Raid Spider Blaster Bug Killer 6 (Reg. No. 32437) is labelled “For Indoor Use at Buildings”. Outdoors, aim at foundations, under eaves and around light fixtures, never a broadcast mist.',
+  },
+  {
+    question: 'What is the best spider killer spray for indoors?',
+    answer: 'A registered residual applied as a narrow band where spiders walk, not a fog. Our pick, Doktor Doom Pro Max Spider Killer Plus (Reg. No. 34748), is labelled to treat inside surfaces including cracks and crevices, “along and behind baseboards”, “around interior foundations” and “points of entry (e.g., around windows and doors)”. Every spider spray label we read rules out space spraying and broadcast spraying, and the Doktor Doom label adds: “When applied indoors, DO NOT apply to overhead areas or in confined spaces (for example, attics, crawlspaces).” So vacuum ceiling webs instead of spraying them.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best spider sprays in Canada for 2026: Doktor Doom, Konk OnGuard, and Knock Down residual sprays vs natural peppermint options and glue traps — with the PCP-number check that filters out US grey-market imports, perimeter application how-to, and late-August timing.',
+  description: 'Best spider spray in Canada: Doktor Doom Pro Max Spider Killer Plus. What each registered label allows indoors and outdoors, SpiderBan vs Spider Out, and timing.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +112,7 @@ export default function BestSpiderSprayCanadaPage() {
             <span className="text-white">Best Spider Spray Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Canadian-registered residual sprays, natural low-tox options, and glue-trap monitoring — compared honestly, with the PCP-number check that keeps you off the US grey market and the late-August timing that makes any of it work.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best spider spray for most Canadian homes is a registered residual such as Doktor Doom Pro Max Spider Killer Plus (Reg. No. 34748 P.C.P. Act), labelled for spiders inside the house and on its outside walls. Spray it in cracks along baseboards, windows, doors and the foundation where spiders walk, and vacuum the webs.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -341,6 +354,104 @@ export default function BestSpiderSprayCanadaPage() {
 
           <h2>Indoor vs Outdoor Labels: The Line People Miss</h2>
           <p>Canadian domestic labels specify <em>sites of application</em>, and the indoor/outdoor split is the one that catches buyers. An outdoor perimeter product may use solvents and concentrations never evaluated for enclosed spaces; an indoor crack-and-crevice product may break down quickly under sun and rain. Many residual sprays are labelled for both — with different directions per site — and those dual-labelled products are the practical pick if you want one can for thresholds, sill plates, and the exterior foundation band. The check takes ten seconds at the shelf: find the sites-of-application section, confirm it names where you plan to spray, and if it does not, put it back. The label is not legal decoration; it is the tested boundary of where the product is known to be safe and effective.</p>
+
+          <h3>Registered spider sprays in Canada: what each label allows</h3>
+          <p>We read the current Canadian labels of five registered domestic spider sprays on Health Canada&rsquo;s Pesticide Registry. Quoted phrases are the labels&rsquo; own words. The split that matters is in the third column: four are labelled for indoors and outdoors, one for indoors only.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Spray (registration)</th>
+                  <th className="px-4 py-3 text-left">Type and active ingredient (label)</th>
+                  <th className="px-4 py-3 text-left">Where the label lets you spray</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Limits on the label</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom Pro Max Long Lasting Residual Spider Killer Plus (+)<br /><span className="font-normal text-xs text-gray-500">Reg. No. 34748 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Trigger-spray solution: &ldquo;Permethrin &hellip; 0.35%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;To kill spiders &amp; flies inside buildings and outdoors on exterior surfaces of buildings and attached porches, patios and decks&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Our pick: one product for basement baseboards and the outside of the foundation</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;When applied indoors, DO NOT apply to overhead areas or in confined spaces (for example, attics, crawlspaces).&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Wilson Spider Out Spider Killer<br /><span className="font-normal text-xs text-gray-500">Reg. No. 31900 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Permethrin 0.25%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;to kill spiders inside buildings and outdoors on the exterior surfaces of buildings, porches, patios and decks&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Door sills and window frames inside; outside, &ldquo;under eaves troughs, around light fixtures&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Outdoors: &ldquo;Treatment must only be repeated after 14 days&rdquo; if the problem persists</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Knock Down Spider Killer<br /><span className="font-normal text-xs text-gray-500">Reg. No. 29689 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;PERMETHRIN &hellip; 0.25%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Spiders and cockroaches &ldquo;inside buildings&rdquo;; spiders outdoors &ldquo;including under eaves, awnings and canopies&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">A basement with spiders and cockroaches</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;When applied outdoors, DO NOT apply in areas where plants are grown for food or feed&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Konk Spider &amp; Tick II<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32619 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Permethrin 0.25%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;For use indoors and outdoors on the exterior surfaces of buildings and porches, patios and decks&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Spiders plus fleas and brown dog ticks</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;KEEP PETS AND CHILDREN AWAY FROM SURFACE UNTIL DRY.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Spider Blaster Bug Killer 6<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32437 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Pyrethrins 0.25%, Piperonyl Butoxide 1.01%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;For Indoor Use at Buildings&rdquo; only</td>
+                  <td className="px-4 py-3 text-gray-700">Killing a spider on contact indoors</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;DO NOT APPLY AS A SPACE SPRAY OR BROADCAST TREATMENT.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Wilson SpiderBan Spider Killer<br /><span className="font-normal text-xs text-gray-500">Reg. No. 31129</span></td>
+                  <td className="px-4 py-3 text-gray-700">Permethrin</td>
+                  <td className="px-4 py-3 text-gray-700">Registry status: cancelled; last sale June 6, 2016</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">No current Canadian registration</td>
+                  <td className="px-4 py-3 text-gray-700">Every SpiderBan record in the registry is historical</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Miss Muffet&rsquo;s Revenge</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-3 text-gray-700">No record in Health Canada&rsquo;s registry</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Not registered in Canada</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-6">Health Canada Pesticide Registry (pest-control.canada.ca), records and labels read October 23, 2026: Doktor Doom 34748 (label 2025-1186), Wilson 31900 (2021-1480), Knock Down 29689 (2019-5838), Konk 32619 (2022-1723), Raid 32437 (2023-2002). Every one of these five labels rules out space spraying and broadcast spraying.</p>
+
+          <h3>Which one for your situation</h3>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[520px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your situation</th>
+                  <th className="px-4 py-3 text-left">What to use</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Spiders crossing the basement floor in late summer and fall</td>
+                  <td className="px-4 py-3 text-gray-700">An indoor-labelled residual in cracks along baseboards, door sills and around the interior foundation: any of the five registered sprays above</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Webs under the eaves, around porch lights and window frames</td>
+                  <td className="px-4 py-3 text-gray-700">A spray whose label lists outdoor use: Doktor Doom Pro Max (34748), Spider Out (31900), Knock Down (29689) or Konk Spider &amp; Tick II (32619). Raid Spider Blaster Bug Killer 6 is indoor only</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Webs on ceilings and in high corners</td>
+                  <td className="px-4 py-3 text-gray-700">Vacuum them: all five labels say not to spray overhead areas indoors</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">You want no pesticide at all</td>
+                  <td className="px-4 py-3 text-gray-700">Glue traps along baseboards, a door sweep, and sealing the gaps spiders use</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <h2>Timing: Why Late August Is the Whole Game</h2>
           <p>The annual indoor spider surge — late August through October — is mating season, not a cold-weather migration. Mature male house spiders abandon their corners and wander for females, which is when they cross your floors, your thresholds, and, if you have timed it right, your freshly treated perimeter band. That makes <strong>mid-to-late August</strong> the high-value application window in most of Canada: the residual sits at full strength across the peak wandering weeks. Outdoors, plan one refresh in late September if pressure stays high, since UV and rain erode exterior residuals faster than indoor ones. A treatment in November, by contrast, mostly postdates the problem — the wandering males are dead by then regardless, and the resident population is back to being invisible. (The same seasonal logic drives other fall invaders; if your problem is buzzing at the windows rather than crossing the floor, see our <Link href="/blog/how-to-get-rid-of-cluster-flies-canada">cluster fly guide</Link>.)</p>

@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-bed-bug-trap-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Bed Bug Trap Canada 2026 — Passive Interceptors vs Active Lure Traps Compared'
-const META_TITLE = 'Best Bed Bug Trap Canada 2026: Passive vs Active'
+// TITLE NOTE (Oct 23, 2026): was 'Best Bed Bug Trap Canada 2026: Passive vs Active'; top queries, 90 days to Oct 23: bed bug traps 332 at 16.0, bed bug interceptor cups 189 at 8.2 and interceptor cups for bed bugs 96 at 7.9 (cup searches now belong to /blog/bed-bug-interceptor-traps-canada: data/god-build/research/top3/bed-bug-traps-cluster.md), best bed bug traps 69 at 4.0, bed bug cups for bed legs 49, bed bug trap 43 (20 clicks on 1,473 impressions).
+const META_TITLE = 'Best Bed Bug Traps Canada: Which Ones Work'
 
 const FAQS = [
   {
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'What can I mistake for a bed bug in a trap?',
     answer: 'The usual false alarms are carpet beetle larvae (fuzzy, bristled, segmented), adult spider beetles (globular, long-legged, reddish-brown), and immature cockroaches. True bed bugs are flat, oval, wingless, and rusty-brown at 4.5–5.5 mm as adults; nymphs are 1.3–4.5 mm and translucent to tan, turning red-brown after feeding. Nymphs in your trap are the more important find — they cannot walk in from far away the way dispersing adults can, so they signal eggs hatching nearby and an established, breeding population. Photograph anything you catch before discarding it; most Canadian public health units will confirm a clear photo for free.',
   },
+  {
+    question: 'Do CO2 traps work for bed bugs?',
+    answer: 'Yes, for detection. Rutgers Cooperative Extension calls carbon dioxide the primary bed bug attractant and says one night with a dry ice or sugar-yeast CO₂ trap can detect low numbers of bed bugs in occupied or vacant rooms, often faster than unbaited interceptor cups. In a Rutgers apartment study, one sugar-yeast monitor with an experimental lure, left for a day, trapped as well as 6 to 18 ClimbUp interceptors left for 11 days. Two cautions: dry ice can freeze skin and belongs in a ventilated room, and no CO₂ trap ends an infestation.',
+  },
+  {
+    question: 'What is the most effective bed bug trap?',
+    answer: 'It depends on the room. For a bedroom someone sleeps in, pitfall interceptor cups under every bed and couch leg are what Rutgers Cooperative Extension calls the most cost-effective bed bug detector, and they found small infestations that visual inspections missed. For the fastest answer, or a room nobody sleeps in, a CO₂ trap (dry ice or sugar-yeast) is as effective or more and works in one night. In a Rutgers apartment study, the commercial CDC3000 and NightWatch monitors, run for one night, caught fewer bed bugs than a home-made dry ice trap.',
+  },
+  {
+    question: 'Can I make a homemade bed bug trap?',
+    answer: 'Yes. Rutgers Cooperative Extension publishes instructions: turn a pet food bowl or cat feeder upside down, cover its outside with fabric or tape (or roughen it) so bed bugs can climb it, wipe a very thin layer of talc inside so they cannot climb out, and set an insulated jug of dry ice on top as the CO₂ lure, or use a bucket of 150 g yeast, 750 g sugar and 3 litres of warm water instead. Use one trap per room, set it up in the late afternoon and check it the next morning. Handle dry ice with gloves, in a ventilated room, away from children.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best bed bug traps in Canada for 2026: passive interceptor cups (Aspectek, ClimbUp-style) vs active heat/CO₂ lure monitors — how each works, when to use which, the 14-night protocol, and our picks. Independent research, updated 2026.',
+  description: 'Bed bug traps that work in Canada: interceptor cups, CO₂ traps, active monitors and lure traps compared with Rutgers data, and which to use in your room.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function BestBedBugTrapCanadaPage() {
             <span className="text-white">Best Bed Bug Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Bed bug traps come in two families &mdash; passive interceptor cups that catch bugs climbing to the bed, and active lure traps that generate their own heat and CO&#8322; to pull bugs from across a room. Here is which one fits which situation, and our picks for each.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the bed bug traps that work are pitfall interceptor cups under the bed legs: Rutgers calls pitfall traps the most cost-effective way to detect bed bugs, and our pick for a bed someone sleeps in is a double-well Aspectek or ClimbUp-style cup. In a room nobody sleeps in, a CO&#8322; trap finds bed bugs faster. No trap ends an infestation; traps detect and measure.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -247,6 +261,18 @@ export default function BestBedBugTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="aspectek bed bug interceptor 8 pack">Aspectek 8-pack →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="active bed bug monitor lure trap">Active lure trap →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Bed bug trap types compared: what the research found"
+            head={['Trap', 'How it works', 'What studies found', 'Best for', 'Limits']}
+            rows={[
+              ['Pitfall interceptor cup (ClimbUp-style)', 'Passive, with no lure: bugs climb the rough outer wall and drop into a slick well', 'Rutgers calls pitfall traps “the most cost-effective” bed bug detectors; interceptors beat visual inspections at finding small numbers', 'A bed or couch someone uses, with legs you can isolate', 'Needs “at least a week or longer” for very low numbers; pull the furniture away from the walls'],
+              ['CO₂ trap (dry ice or sugar-yeast)', 'Active: carbon dioxide, the primary bed bug attractant, draws them in', 'One night can detect low numbers in occupied or vacant rooms; as effective as unbaited cups or more, and faster', 'Empty rooms, or a fast answer', 'Dry ice can freeze skin and its CO₂ can lower the oxygen you breathe: ventilated room only; refill daily; one trap per room'],
+              ['Commercial active monitor (e.g. CDC3000, NightWatch)', 'Heat, CO₂ and/or a chemical lure in a powered or refillable unit', 'Run one night in apartments, both caught fewer bed bugs than a dry ice trap; NightWatch matched the cups only over four nights', 'Vacant units and checking a treatment', 'Rutgers researchers: most active monitors “are either expensive or ineffective”; one night of NightWatch missed infestations that visual inspection found'],
+              ['Indoor lure trap (e.g. Ortho Bed Bug B Gon MAX)', 'A pheromone attractant in a clear trap set near hiding spots (the maker’s description)', 'No independent test found; the maker says it is “designed for detection and trapping, not complete elimination”', 'A quick check near a bed, couch or luggage', 'Replace every two weeks (the maker)'],
+            ]}
+            caption={<>Sources: Rutgers Cooperative Extension fact sheet <a href="https://njaes.rutgers.edu/fs1117/" target="_blank" rel="noopener noreferrer" className="underline">FS1117, Detecting Bed Bugs Using Bed Bug Monitors</a> (Changlu Wang, 2019), with its dry ice warnings; the Rutgers apartment studies by <a href="https://doi.org/10.1603/ec10141" target="_blank" rel="noopener noreferrer" className="underline">Wang et al. (2011)</a> on the CDC3000, NightWatch, a dry ice trap and interceptors, and <a href="https://doi.org/10.1093/jee/tov061" target="_blank" rel="noopener noreferrer" className="underline">Singh, Wang &amp; Cooper (2015)</a> on active monitors; and Scotts Canada&rsquo;s <a href="https://scottsmiraclegro.com/en-ca/brands/ortho/products/insect-control/0466010.html" target="_blank" rel="noopener noreferrer" className="underline">Ortho Bed Bug B Gon MAX Bed Bug Trap page</a>. Glue and sticky traps are in the comparison above.</>}
+          />
 
           <NextUp path="/blog/best-bed-bug-trap-canada" />
           <h2>How Passive Interceptors Work — and Why They Come First</h2>

@@ -15,17 +15,19 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'motion-activated-sprinkler-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Motion-Activated Sprinkler Canada 2026 — Keep Raccoons, Cats & Squirrels Out'
-const META_TITLE = 'Best Motion-Activated Sprinkler Canada 2026'
+// TITLE NOTE (Oct 23, 2026): was 'Best Motion-Activated Sprinkler Canada 2026'; top queries Jul 23-Oct 20: motion activated sprinkler 1,718 impressions at 7.6 (18 clicks), motion sensor sprinkler 448 at 9.2, motion detector sprinkler 161 at 7.7, motion sprinkler 143 at 9.4 (page: 9,464 impressions at 6.8, 134 clicks).
+const META_TITLE = 'Motion-Activated Sprinkler: Best in Canada 2026'
 
 const FAQS = [
   {
     question: 'What is the best motion-activated sprinkler in Canada?',
-    answer: 'The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards in 2026. Its infrared sensor detects animal movement up to roughly 12 metres away across a 120-degree arc, fires a startling 5-second burst of water, and — critically — offers day-only, night-only, and 24-hour sensing modes, so you can target nocturnal raccoons without soaking daytime songbirds or your kids. One 9V battery lasts a full season (Orbit rates it at about 7,500 activation cycles), and each deterrent event uses only about 2 cups of water. The step-up Yard Enforcer Pro adds a wider detection footprint for larger lots, and budget clones cover small garden beds for less, but the standard Yard Enforcer hits the sweet spot of reliability, sensing intelligence, and parts availability in Canada.',
+    answer: 'The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards in 2026. Its infrared sensor detects animal movement up to roughly 12 metres away across a 120-degree arc, fires a startling 5-second burst of water, and — critically — offers day-only, night-only, and 24-hour sensing modes, so you can target nocturnal raccoons without soaking daytime songbirds or your kids. It runs on 4 AA alkaline batteries, and each deterrent event uses only about 2 cups of water. The step-up Yard Enforcer Pro adds a wider detection footprint for larger lots, and budget clones cover small garden beds for less, but the standard Yard Enforcer hits the sweet spot of reliability, sensing intelligence, and parts availability in Canada.',
   },
   {
     question: 'Do motion-activated sprinklers actually work on raccoons?',
@@ -41,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'How long does the battery last in a motion-activated sprinkler?',
-    answer: 'The Orbit Yard Enforcer runs on a single 9V alkaline battery, rated for roughly 7,500 activation cycles — in practice a full Canadian season (April to October) on one battery, because the sprinkler only draws meaningful power during the brief sensing-and-firing event. Budget models vary: some use 4 AA batteries with shorter life, and a few solar models exist but struggle in shaded garden positions. Two practical tips: install a fresh battery each spring rather than trusting last year’s, and if the unit starts false-firing or not firing late in the season, the battery is the first suspect before you blame the sensor.',
+    answer: 'The Orbit Yard Enforcer runs on 4 AA alkaline batteries, and Orbit publishes no battery-life figure. The sprinkler only draws meaningful power during the brief sensing-and-firing event, and Orbit says its Intelligent Sensing Mode conserves water and batteries by cutting activations to one a minute for an hour after repeated false alerts. Budget models vary: some also use AA batteries, and a few solar models exist but struggle in shaded garden positions. Two practical tips: install fresh batteries each spring rather than trusting last year’s, and if the unit starts false-firing or not firing late in the season, the batteries are the first suspect before you blame the sensor.',
   },
   {
     question: 'How much water does each activation use?',
@@ -49,7 +51,7 @@ const FAQS = [
   },
   {
     question: 'When do I need to winterize a motion-activated sprinkler in Canada?',
-    answer: 'Before the first hard frost — in the GTA that means bringing it in by mid-to-late October, and earlier in colder regions. The valve body and impact-sprinkler head hold water after every activation, and trapped water that freezes will crack the plastic valve housing or split the brass fittings — the number-one cause of dead units the following spring. The winterizing routine takes five minutes: shut off the tap, disconnect the hose, trigger the sprinkler once to release pressure, tip the unit upside down to drain the valve completely, pull the 9V battery, and store it indoors. A sprinkler that lives outside year-round in southern Ontario is a one-season sprinkler.',
+    answer: 'Before the first hard frost — in the GTA that means bringing it in by mid-to-late October, and earlier in colder regions. The valve body and impact-sprinkler head hold water after every activation, and trapped water that freezes will crack the plastic valve housing or split the brass fittings — the number-one cause of dead units the following spring. The winterizing routine takes five minutes: shut off the tap, disconnect the hose, trigger the sprinkler once to release pressure, tip the unit upside down to drain the valve completely, remove the batteries, and store it indoors. A sprinkler that lives outside year-round in southern Ontario is a one-season sprinkler.',
   },
   {
     question: 'Will a motion-activated sprinkler stop raccoons digging up my lawn for grubs?',
@@ -71,11 +73,23 @@ const FAQS = [
     question: 'Motion-activated sprinkler vs repellent sprays and granules — which is better?',
     answer: 'For raccoons, cats, and squirrels, the sprinkler wins on almost every axis that matters in Canada. Scent repellents (capsaicin, putrescent egg, predator urine) fade with rain and UV and need reapplication every one to two weeks all season; a sprinkler re-arms itself indefinitely on one battery. Repellents are also where the regulatory mess lives: a legal repellent in Canada must carry a PMRA registration number on the label, and many popular US-market granules and coyote-urine products sold through cross-border sellers carry none — while household folk remedies like scattering mothballs outdoors are actually an illegal off-label use of a registered pesticide. A device that fires water has no label, no residue, and no legal grey zone. Where repellents earn a place is indoors and in structures — areas a sprinkler obviously cannot go.',
   },
+  {
+    question: 'What is a motion sensor sprinkler?',
+    answer: 'Motion sensor sprinkler, motion detector sprinkler and motion-activated sprinkler are names for the same device: a sprinkler on a garden hose with a passive infrared sensor that watches part of your yard for the heat of a moving animal, then fires a short, noisy burst of water. Orbit lists the Yard Enforcer, this page’s pick, as detecting up to 40 ft across a 120-degree viewing angle, with Off, Day, Night and Always settings and a 30-minute watering cycle for ordinary watering.',
+  },
+  {
+    question: 'Which is the best motion-activated sprinkler: Orbit or Havahart?',
+    answer: 'For most Canadian yards, the Orbit Yard Enforcer, because of its mode dial: Orbit lists Off, Day, Night and Always settings, so the Night setting can target raccoons and skunks while kids and dogs stay dry by day. Havahart’s Critter Ridder (model 5277) has four sensitivity levels plus Off and Sprinkler settings, and Havahart says its sensor seeks animal heat and movement day and night, but its page lists no day-only or night-only setting. Orbit lists 4 AA batteries; Havahart lists 2 AA.',
+  },
+  {
+    question: 'Do motion-activated sprinklers work at night?',
+    answer: 'Yes. The sensor reads the heat of a moving animal, so it works in the dark, which is when raccoons and skunks raid. The Orbit Yard Enforcer has a Night setting that keeps it asleep through the day and arms it at dusk; Havahart says its Critter Ridder seeks animal heat and movement day and night. Move the unit every two to three days, because raccoons are quick to learn where a fixed sprinkler stands.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best motion-activated sprinklers in Canada for 2026: Orbit Yard Enforcer vs Pro vs budget clones. How the day/night sensor works, keeping raccoons and cats out humanely, and the drain-before-frost rule every Canadian owner needs.',
+  description: 'Best motion-activated sprinkler in Canada: Orbit Yard Enforcer, with night mode for raccoons, always-on for cats. Orbit vs Havahart specs and winter care.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -100,7 +114,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             <span className="text-white">Best Motion-Activated Sprinkler Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The humane, chemical-free way to evict raccoons, neighbourhood cats, and squirrels from your yard — which sprinkler to buy, how the day/night sensor works, and the drain-before-frost rule that decides whether yours survives a Canadian winter.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best motion-activated sprinkler for most Canadian yards is the Orbit Yard Enforcer: run it in night-only mode for raccoons and skunks, or 24-hour mode for cats. For one small garden bed on a tight budget, a basic clone will do, without the day and night settings.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -117,7 +131,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Detects warm moving animals up to ~12 m away over a 120° arc, then fires a startling 5-second burst — about 2 cups of water per activation.</li>
               <li>Day-only, night-only, and 24-hour sensing modes: night-only is the raccoon and skunk setting; 24-hour is the cat setting.</li>
-              <li>One 9V battery is rated for roughly 7,500 activation cycles — a full April-to-October Canadian season.</li>
+              <li>Runs on 4 AA alkaline batteries, per Orbit, which publishes no battery-life figure.</li>
               <li>Move the unit every few days; animals habituate to a fixed sprinkler position faster than any spec sheet admits.</li>
               <li>Canadian rule: disconnect, drain, and bring it indoors before first frost — trapped water cracking the valve is the number-one cause of dead units.</li>
               <li>It is a mechanical device, not a pesticide — no PMRA registration needed, unlike the grey-market US repellent granules with no Canadian PCP number.</li>
@@ -185,7 +199,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
                   ['Best overall model', 'Orbit Yard Enforcer (day/night sensing, season-long battery)'],
                   ['Detection range', 'Up to ~12 m (40 ft), 120° adjustable arc'],
                   ['Water per activation', '~2 cups (500 mL) in a 5-second burst'],
-                  ['Battery life', '~7,500 activations on one 9V — a full season'],
+                  ['Batteries', '4 AA alkaline (Orbit publishes no battery-life figure)'],
                   ['Best raccoon setting', 'Night-only mode, repositioned every few days'],
                   ['Best cat setting', '24-hour mode covering the garden bed they visit'],
                   ['Humane rating', 'Water-only startle — no injury, no chemicals, no traps'],
@@ -223,7 +237,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             <li><strong>24-hour</strong> — the cat setting, since neighbourhood cats treat your garden as a litter box on no particular schedule.</li>
             <li><strong>Off</strong> — for mowing day, garden parties, and any time you would rather not explain the sprinkler to a guest the hard way.</li>
           </ul>
-          <p>Detection reaches out to roughly 12 metres across an arc adjustable up to 120 degrees, and collars on the sprinkler head let you set both the spray distance and the width of the water pattern independently of the sensing zone. Each activation lasts about five seconds and uses around two cups of water — the point is startle, not irrigation. A single 9V battery drives the whole show for approximately 7,500 activation cycles, which in real Canadian use means you install a fresh battery in April and forget about it until Thanksgiving.</p>
+          <p>Detection reaches out to roughly 12 metres across an arc adjustable up to 120 degrees, and collars on the sprinkler head let you set both the spray distance and the width of the water pattern independently of the sensing zone. Each activation lasts about five seconds and uses around two cups of water — the point is startle, not irrigation. It runs on 4 AA alkaline batteries; Orbit publishes no battery-life figure, so fit fresh ones each spring.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -248,7 +262,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Orbit Yard Enforcer</td>
                   <td className="px-4 py-3 text-gray-700">Day / night / 24-hr selector + intelligent false-trigger filtering</td>
-                  <td className="px-4 py-3 text-gray-700">~12 m range, 120° arc; ~7,500 cycles per 9V</td>
+                  <td className="px-4 py-3 text-gray-700">~12 m range, 120° arc; 4 AA batteries</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best overall — raccoons, cats, squirrels on a typical suburban lot</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
@@ -270,6 +284,21 @@ export default function MotionActivatedSprinklerCanadaPage() {
             </table>
           </div>
           <p className="text-sm text-gray-600">Typical Canadian retail across Amazon.ca, Canadian Tire, and Home Depot Canada runs roughly $70&ndash;$150 depending on model and season. Spring stock is deepest; by August the popular models sell through.</p>
+
+          <QuickIdTable
+            title="Orbit Yard Enforcer vs Havahart Critter Ridder: the makers’ specs"
+            head={['Spec', 'Orbit Yard Enforcer (item 62100Z)', 'Havahart Critter Ridder (model 5277)']}
+            rows={[
+              ['Sensor', 'Heat-and-motion sensor', <>Infrared sensor that &ldquo;seeks animal heat and movement day and night&rdquo;</>],
+              ['Settings', <>Modes &ldquo;Off, Day, Night, Always&rdquo;; Intelligent Sensing Mode, on from the factory, slows it to 1 activation a minute for an hour after repeated false alerts</>, <>Sensitivity &ldquo;OFF, 1, 2, 3, 4, Sprinkler&rdquo;; no day-only or night-only setting listed</>],
+              ['Detection', <>&ldquo;Up to 40 ft. (adjustable)&rdquo; across a 120&deg; viewing angle; coverage &ldquo;Up to 1,600 sq. ft.&rdquo;</>, <>&ldquo;Up to 100 ft&rdquo; in Havahart&rsquo;s spec table, &ldquo;within 60 feet&rdquo; in its feature list</>],
+              ['Spray', <>&ldquo;Approx. 3&ndash;10 seconds (adjustable)&rdquo;, plus a 30-minute watering cycle with up to a 35 ft radius</>, <>&ldquo;Up to 35 ft&rdquo; for &ldquo;approximately 5 seconds&rdquo;, &ldquo;2-3 cups of water per spray&rdquo;</>],
+              ['Power', <>&ldquo;4 AA (1.5V) alkaline batteries (not included)&rdquo;</>, <>&ldquo;2 AA Batteries (not included)&rdquo;</>],
+              ['Winter', <>&ldquo;Remove from hose, remove batteries, and store indoors before first frost&rdquo;</>, 'Not covered on Havahart’s product page: drain it and bring it in, as in the winter rule below'],
+              ['Best for', 'Raccoons and skunks on Night, cats on Always, squirrels and birds on Day', 'Spots animals visit at any hour; switch it off by hand when people or pets are in the yard'],
+            ]}
+            caption={<>Quoted from each maker&rsquo;s current product page, opened Oct 23, 2026: <a href="https://www.orbitonline.com/products/yard-enforcer-motion-activated-sprinkler" target="_blank" rel="noopener noreferrer" className="underline">Orbit</a> (item 62100Z; <a href="https://canada.orbitonline.com/en-ca/products/yard-enforcer-motion-activated-sprinkler" target="_blank" rel="noopener noreferrer" className="underline">Orbit Canada</a> lists the Yard Enforcer as item 62100, also on 4 AA batteries) and <a href="https://www.havahart.com/critter-ridder-motion-activated-animal-repellent-sprinkler-5277" target="_blank" rel="noopener noreferrer" className="underline">Havahart</a> (model 5277). Both Orbit pages list 4 AA batteries; go by the box of the unit you buy.</>}
+          />
 
           <h2>Keeping Cats Out of Gardens (the Humane Way That Works)</h2>
           <p>If your problem is neighbourhood cats digging and defecating in garden beds, a motion-activated sprinkler is the closest thing to a guaranteed fix that exists in the humane-deterrent world. Cats have an intense aversion to sudden water, and — unlike coyote-urine granules, citrus peels, and ultrasonic gadgets — the sprinkler never fades, never washes away, and never needs the cat to be within earshot. Extension-service reviews of cat-deterrent methods consistently put motion sprinklers at the top for one reason: cats form a durable, location-specific negative association. After a soaking or two, the cat does not merely avoid the sprinkler; it strikes your whole garden off its route.</p>
@@ -302,8 +331,8 @@ export default function MotionActivatedSprinklerCanadaPage() {
             <li>Shut off the outdoor tap and disconnect the hose from the sprinkler.</li>
             <li>Trigger one last activation (wave a hand in front of the sensor) to release line pressure.</li>
             <li>Tip the unit upside down and let the valve body drain completely.</li>
-            <li>Pull the 9V battery — alkaline cells leak in freeze-thaw cycles.</li>
-            <li>Store the unit indoors; a garage shelf is fine, and install a fresh battery at spring redeployment.</li>
+            <li>Remove the batteries — alkaline cells leak in freeze-thaw cycles.</li>
+            <li>Store the unit indoors; a garage shelf is fine, and install fresh batteries at spring redeployment.</li>
           </ol>
           <p>Conveniently, the timing aligns with the pest calendar: raccoon grub-digging tapers off once the ground cools in late fall, and cats dig far less in frozen beds, so bringing the sprinkler in for winter costs you almost nothing in protection.</p>
 

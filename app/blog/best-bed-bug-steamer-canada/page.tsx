@@ -15,12 +15,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-bed-bug-steamer-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+// Oct 23, 2026: answer-first hero, kill temperatures restated from University of Minnesota Extension and Health Canada, steamer-type table, situation guide, 3 FAQs, McCulloch heat-up time per McCulloch
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Bed Bug Steamer Canada 2026 — Vapamore MR-100 vs McCulloch MC1275 vs PurSteam'
-const META_TITLE = 'Best Bed Bug Steamer Canada 2026: 100°C Kill'
+// TITLE NOTE (Oct 23, 2026): was 'Best Bed Bug Steamer Canada 2026: 100°C Kill'; top queries (Jul 23-Oct 20): steam cleaner for bed bugs 499 @ 6.8, steamer for bed bugs 226 @ 6.9, best steamer for bed bugs 222 @ 4.5, steamer to kill bed bugs 176 @ 7.3, bed bug steamer 167 @ 6.7, best steam cleaner for bed bugs canada 119 @ 3.3 (page: 179 clicks on 6,722 impressions).
+const META_TITLE = 'Best Steam Cleaner for Bed Bugs Canada 2026'
 
 const FAQS = [
   {
@@ -29,11 +32,11 @@ const FAQS = [
   },
   {
     question: 'Do steamers really kill bed bug eggs?',
-    answer: 'Yes — steam is one of the very few consumer tools that kills bed bug eggs reliably. Research summarized by university extension entomologists shows all bed bug life stages, including eggs, die almost instantly at 100°C steam-contact temperatures, and eggs die within about a minute once surface temperatures pass roughly 55°C. The catch is contact: the steam head must pass directly over the egg at a slow enough speed (2–3 cm per second) for the surface to actually reach lethal temperature. Eggs hidden deeper than about 2 cm inside fabric or 6 cm inside cracks are typically not reached.',
+    answer: 'Yes — steam is one of the very few consumer tools that kills bed bug eggs reliably. The University of Minnesota Extension calls steam an effective method for killing bed bugs at all stages of development when applied correctly, and says bed bugs and eggs die immediately at 50°C, or within 90 minutes at 48°C. The catch is contact: the steam head must pass directly over the egg at a slow enough speed (2–3 cm per second) for the surface to reach 71–82°C (160–180°F), the university\'s target. Eggs hidden deeper than about 2 cm inside fabric or 6 cm inside cracks are typically not reached.',
   },
   {
     question: 'How hot does a steamer need to be to kill bed bugs?',
-    answer: 'Steam leaves the boiler at 100°C or higher, but the number that matters is surface temperature at the point of contact — aim for 71–82°C measured with an infrared thermometer immediately behind the steam head. Bed bug adults and nymphs die within minutes above roughly 48–50°C and near-instantly above 60°C; eggs need slightly higher temperatures or longer exposure. If your infrared readings behind the head are below about 70°C, slow your pass speed or move the head closer to the surface.',
+    answer: 'Steam leaves the boiler at 100°C or higher, but the number that matters is surface temperature at the point of contact — aim for 71–82°C (160–180°F) measured with an infrared thermometer immediately behind the steam head, the University of Minnesota Extension\'s target; below that range, it warns, bed bugs may survive. The bugs themselves die at lower temperatures: Health Canada says bedbugs die at 50°C, and the University of Minnesota says bed bugs and eggs die immediately at 50°C or within 90 minutes at 48°C. If your infrared readings behind the head are below about 70°C, slow your pass speed or move the head closer to the surface.',
   },
   {
     question: 'How fast should I move a steamer over a mattress?',
@@ -75,14 +78,27 @@ const FAQS = [
     question: 'Why do US websites recommend steamers alongside sprays we cannot buy in Canada?',
     answer: 'Most English-language bed bug guides are written for the US market, where consumers can buy professional-grade concentrates like Crossfire, Temprid FX, or Bedlam Plus over the counter. Those products are not PMRA domestic-class registered in Canada — importing or using them here is illegal under the Pest Control Products Act, and Canadian retailers cannot legally sell them. The good news: the steamer itself is jurisdiction-proof. The exact same Vapamore and McCulloch machines US professionals use are legally available on Amazon.ca, because heat is not a regulated pesticide.',
   },
+  {
+    question: 'How long does it take a steam cleaner to kill bed bugs?',
+    answer: 'Seconds per spot, if the surface actually gets hot enough. The University of Minnesota Extension says correctly delivered steam kills the bugs immediately, and that bed bugs and eggs die immediately at 50°C. The time goes into the pass itself: Vapamore\'s instructions are a slow pass of about 2.5 cm (1 inch) per second, with a jet tip held no more than 2.5 cm from the surface, and the surface just behind the head should read 71–82°C (160–180°F). At that speed a whole bed is a long job, so plan on refilling (Vapamore rates one fill at 50–60 minutes of steam), and the job is repeated every 7–10 days for any eggs that were missed.',
+  },
+  {
+    question: 'Can I use a carpet steam cleaner for bed bugs?',
+    answer: 'No. The University of Minnesota Extension says not to use a carpet cleaning machine (or a clothing steamer) for bed bugs, because these machines do not reach high enough temperatures to kill them. What you need is a proper steam cleaner: Health Canada notes that steam cleaners generally emit steam at a temperature of at least 100°C, and that dry steam or low vapour steamers are better because they leave behind less moisture. Check the result with an infrared thermometer: if the surface just behind the head reads below 71°C (160°F), bed bugs may survive.',
+  },
+  {
+    question: 'Do I need a commercial steam machine to kill bed bugs?',
+    answer: 'The University of Minnesota Extension recommends one for any bed bug steaming: a commercial steamer holding at least 1 gallon (about 4 litres), preferably with a steam volume control, and it says to avoid smaller, non-commercial units because of the amount of steam they deliver and the need to cool and refill them often. Every steamer in this guide is smaller than that (Vapamore lists a 1.6-litre tank, McCulloch a 48 oz tank), so none meets that recommendation; if you use one, expect to stop, cool and refill often. If buying a commercial unit is out of reach, the university suggests renting one, or a housing co-op buying one for members to share.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Independent Canadian guide to bed bug steamers: Vapamore MR-100 vs McCulloch MC1275 vs PurSteam, the 100°C kill science, the 2–3 cm/s slow-pass technique, what steam can\'t reach, and why steamers need no PMRA registration.',
+  description: 'A steam cleaner kills bed bugs and eggs once the surface hits 71–82°C (160–180°F). Best steam cleaners for bed bugs in Canada, the slow-pass method and limits.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('best-bed-bug-steamer-canada')
@@ -90,7 +106,7 @@ const AMZ_TAG = tagForSlug('best-bed-bug-steamer-canada')
 export default function BestBedBugSteamerCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent 2026 Canadian research on the best bed bug steamers — models, kill-temperature science, technique, and limitations.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent 2026 Canadian research on the best bed bug steamers — models, kill-temperature science, technique, and limitations.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Bed Bug Steamer Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -103,7 +119,7 @@ export default function BestBedBugSteamerCanadaPage() {
             <span className="text-white">Best Bed Bug Steamer Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The three steamers actually worth buying on Amazon.ca, the 100°C contact-kill science, the slow-pass technique that decides success or failure, and an honest list of what steam cannot reach.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A steam cleaner kills bed bugs and their eggs, but the surface has to reach 71&ndash;82&deg;C (160&ndash;180&deg;F) as the steam passes. Our pick: the Vapamore MR-100 Primo, or the McCulloch MC1275 for one bedroom on a budget.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -118,7 +134,7 @@ export default function BestBedBugSteamerCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug steamer in Canada for 2026 is the <AmazonLink search="vapamore mr-100 steamer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Vapamore MR-100 Primo</AmazonLink> — a 1,500 W dry-vapour canister steamer with roughly 60 minutes of run time per fill and a lifetime warranty, hot enough at the tip to kill every bed bug life stage, including eggs, on contact. On a tighter budget, the McCulloch MC1275 does the same job with a shorter run time for roughly half the price.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Steam at 100°C kills bed bug adults, nymphs, and eggs on contact — no PMRA registration needed because heat is not a pesticide.</li>
+              <li>Health Canada: bedbugs die at 50°C and steam cleaners generally emit steam at 100°C or more; the University of Minnesota says steam kills every stage, eggs included, when applied correctly. No PMRA registration needed because heat is not a pesticide.</li>
               <li>Correct pass speed is 2–3 cm per second — about 30 cm every 10–12 seconds; faster passes are the #1 reason do-it-yourself steaming fails.</li>
               <li>Target 71–82°C surface temperature immediately behind the steam head, verified with an infrared thermometer.</li>
               <li>Steam penetrates only about 2 cm into fabric and roughly 6 cm into cracks — wall voids and box-spring interiors are out of reach.</li>
@@ -129,6 +145,7 @@ export default function BestBedBugSteamerCanadaPage() {
             <div className="mt-4">
               <BuyLink search="vapamore mr-100 steamer" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>
+            <p className="mt-3 text-xs text-gray-500">Sources: <a href="https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/bed-bugs/bed-bug-prevention-and-control-in-the-home" target="_blank" rel="noopener" className="text-emerald-700 underline">University of Minnesota Extension</a> (steam kills all stages when applied correctly; surfaces must reach 160&ndash;180&deg;F; bed bugs and eggs die within 90 minutes at 48&deg;C or immediately at 50&deg;C; no carpet cleaners or clothing steamers; a commercial steamer of at least 1 gallon) and its <a href="https://extension.umn.edu/courses-and-events/for-professionals/pesticide-safety-certification-resources/structural-pesticide-applicators/bed-bug-control-for-pest-management-professionals" target="_blank" rel="noopener" className="text-emerald-700 underline">guide for professionals</a> (steam kills immediately but leaves no residual control); <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Health Canada</a> (bedbugs die at 50&deg;C; steam at 100&deg;C or more; dry or low vapour steamers; steam only kills what it reaches); <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA</a> (at least 130&deg;F, no forceful airflow, use a diffuser).</p>
           </div>
           <SpecialistDisclosure pest="bed bugs" />
         </div>
@@ -184,7 +201,7 @@ export default function BestBedBugSteamerCanadaPage() {
           />
 
           <h2>Why does steam work so well on bed bugs?</h2>
-          <p>Because heat kills every bed bug life stage — including the eggs that survive almost everything else. Steam exits the boiler at 100°C or hotter, and university extension research shows adults and nymphs die within minutes above roughly 48–50°C and near-instantly above 60°C, while eggs die within about a minute once surfaces pass roughly 55°C. Direct contact with 100°C steam is effectively an instant kill for all of them. Steam is also the only genuinely instant option in the house: <Link href="/blog/what-kills-bed-bugs-instantly-canada" className="text-brand-700 underline">what kills bed bugs on contact, and what only looks like it does</Link> ranks it against alcohol, foggers and hardware-store aerosols.</p>
+          <p>Because heat kills every bed bug life stage — including the eggs that survive almost everything else. Steam cleaners generally emit steam at 100°C or more, and Health Canada says bedbugs die at 50°C. The University of Minnesota Extension is more exact: bed bugs and eggs die within 90 minutes at 48°C, or immediately at 50°C, and correctly delivered steam kills them immediately. Steam is also the only genuinely instant option in the house: <Link href="/blog/what-kills-bed-bugs-instantly-canada" className="text-brand-700 underline">what kills bed bugs on contact, and what only looks like it does</Link> ranks it against alcohol, foggers and hardware-store aerosols.</p>
           <p>That makes steam unique among consumer tools. PMRA domestic-class sprays available in Canada are contact killers with weak residual performance against bed bugs, and pyrethroid resistance is now widespread in Canadian bed bug populations — a problem we cover in detail in <Link href="/blog/do-bed-bug-sprays-actually-work">do bed bug sprays actually work</Link>. Heat has no resistance mechanism. A bed bug cannot evolve its way around protein denaturation, which is why professional heat treatment remains the gold-standard commercial service and why a good steamer is the closest do-it-yourself equivalent.</p>
           <p>There is also a compliance bonus that matters in Canada specifically: a steamer is a physical device, not a pest control product, so it needs no PMRA registration, no licence, and no re-entry interval. It is legal in every province, every apartment, and every home with kids, pets, or chemical sensitivities.</p>
 
@@ -206,7 +223,7 @@ export default function BestBedBugSteamerCanadaPage() {
               <tbody>
                 {[
                   { name: 'Vapamore MR-100 Primo', spec: '1,500 W · stainless boiler', run: '~60 min', heat: '~11 min', best: 'Serious infestations, multi-room jobs, buy-once-cry-once' },
-                  { name: 'McCulloch MC1275', spec: '1,500 W · 1.4 L tank', run: '~45 min', heat: '~12 min', best: 'Best value — single bedroom + couch treatments' },
+                  { name: 'McCulloch MC1275', spec: '1,500 W · 1.4 L tank', run: '~45 min', heat: '~8 min', best: 'Best value — single bedroom + couch treatments' },
                   { name: 'PurSteam handheld', spec: '~1,000 W · ~0.35 L tank', run: '~10–15 min', heat: '~3–4 min', best: 'Spot touch-ups, luggage, follow-up sessions' },
                 ].map(({ name, spec, run, heat, best }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
@@ -238,6 +255,28 @@ export default function BestBedBugSteamerCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="pursteam steam cleaner">Check PurSteam availability on Amazon.ca →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Which kind of steamer kills bed bugs?"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Household canister steamer (Vapamore MR-100, McCulloch MC1275)', 'A boiler makes steam that runs through a hose to a wand with brush heads; Vapamore lists a 1.6 L tank and 210–220°F steam', 'Mattress, box spring, bed frame and couch seams in one or two rooms', 'Kills only what it touches; smaller than the 1-gallon (4 L) commercial steamer the University of Minnesota recommends, and it says to avoid smaller units, so expect to stop, cool and refill'],
+              ['Commercial steamer, 4 L (1 gallon) or more', 'The same idea with a bigger boiler, ideally with a steam volume control', 'Any bed bug steaming: the University of Minnesota recommends this size and suggests renting one, or a housing co-op sharing one', 'Costly to buy outright; like any steamer, no residual effect once the heat is gone'],
+              ['Handheld steamer (PurSteam)', 'A small tank inside the hand unit', 'Follow-up passes, luggage and spot touch-ups', 'About 10–15 minutes per fill, and pressure drops as the tank empties'],
+              ['Garment (clothing) steamer', 'Low-pressure steam for wrinkles', 'Clothes, not bed bugs', 'University of Minnesota: does not reach high enough temperatures to kill bed bugs'],
+              ['Carpet cleaning machine', 'Washes carpet with hot water and suction', 'Carpets, not bed bugs', 'University of Minnesota: does not reach high enough temperatures to kill bed bugs'],
+            ]}
+            caption={<>Sources: <a href="https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/bed-bugs/bed-bug-prevention-and-control-in-the-home" target="_blank" rel="noopener" className="text-emerald-700 underline">University of Minnesota Extension</a> and its <a href="https://extension.umn.edu/courses-and-events/for-professionals/pesticide-safety-certification-resources/structural-pesticide-applicators/bed-bug-control-for-pest-management-professionals" target="_blank" rel="noopener" className="text-emerald-700 underline">guide for professionals</a> (a commercial steamer of at least 1 gallon or 4 litres with a steam volume control; smaller units need frequent cooling and refilling; carpet cleaning machines and clothing steamers do not get hot enough; renting or sharing a steamer; no residual control); Vapamore&rsquo;s own MR-100 technical specifications (vapamore.com). Handheld row: this guide&rsquo;s spec table above.</>}
+          />
+
+          <h2>Which steamer for your situation?</h2>
+          <ul>
+            <li><strong>One bedroom, caught early:</strong> the McCulloch MC1275 or the Vapamore, the slow-pass method below, then encase the mattress and box spring. Both are smaller than the 4-litre commercial steamer the University of Minnesota recommends, so expect to stop, cool and refill.</li>
+            <li><strong>Several rooms or a whole apartment:</strong> rent a commercial steamer of at least 4 litres (1 gallon), the size the University of Minnesota recommends for any bed bug steaming, or bring in a professional: the university says controlling bed bugs on your own is very difficult and most people cannot do it.</li>
+            <li><strong>A couch or upholstered chair:</strong> use a floor or upholstery attachment, never a pinpoint nozzle that can blow the bugs away, and test a hidden spot first (University of Minnesota).</li>
+            <li><strong>Luggage after a trip, or follow-up passes:</strong> a handheld such as the PurSteam is enough.</li>
+            <li><strong>All you own is a clothing steamer or a carpet cleaner:</strong> don&rsquo;t count on it; the University of Minnesota says neither gets hot enough to kill bed bugs.</li>
+          </ul>
 
           <h2>How do you actually steam for bed bugs? The slow-pass technique</h2>
           <p>Move the steam head at 2–3 centimetres per second — about one foot every 10 to 12 seconds — with the head in light contact with the surface. That single sentence is most of the technique, and ignoring it is why most do-it-yourself steam jobs fail. At normal cleaning speed the fabric surface never reaches lethal temperature, and bugs a few millimetres deep survive untouched.</p>

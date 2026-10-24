@@ -12,12 +12,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-indoor-fly-mosquito-trap-canada'
 const DATE = '2026-07-12'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Indoor Fly & Mosquito Trap Canada 2026 (Plug-In Buyer’s Guide)'
-const META_TITLE = 'Best Indoor Fly & Mosquito Trap Canada 2026'
+// TITLE NOTE (Oct 23, 2026): was 'Best Indoor Fly & Mosquito Trap Canada 2026'; top queries: indoor mosquito trap 76, best indoor mosquito trap 70, best mosquito trap indoor 34, best indoor mosquito traps 15 (10 clicks).
+const META_TITLE = 'Best Indoor Mosquito & Fly Trap in Canada 2026'
 
 const FAQS = [
   {
@@ -52,11 +54,23 @@ const FAQS = [
     question: 'Do indoor traps replace professional mosquito control?',
     answer: 'No. Indoor traps only catch insects already inside your home — they do nothing about the mosquito and tick population breeding in your yard. Most flying insects indoors originate outdoors and slip in through doors and screens. The lasting fix is reducing the outdoor population with a professional barrier spray (from $99 in the GTA) so far fewer insects reach the house in the first place. Use indoor traps as cleanup, not as your main line of defence.',
   },
+  {
+    question: 'Do indoor bug zappers work on mosquitoes?',
+    answer: 'Poorly. A zapper grid lures with UV light, and mosquitoes find people by carbon dioxide, body heat and skin odour, so in a bedroom the sleeping person is the stronger draw. In the University of Delaware count of 13,789 insects killed by home bug zappers, 0.22% were mosquitoes or other biting flies. Indoors a grid is also loud and messy. For the odd indoor mosquito, a quiet fan-and-glue trap catches more, and an electric fly swatter lets you go after the one you can hear.',
+  },
+  {
+    question: 'Are electric mosquito repellents better than sticky mosquito traps?',
+    answer: 'If the electric repellent is a plug-in ultrasonic or electronic repeller, no: a Cochrane review of 10 field studies (Enayati, Hemingway and Garner, 2007) concluded that these devices have no effect on preventing mosquito bites. A sticky or fan-and-glue trap at least catches some of the mosquitoes already inside, though it is backup rather than protection, because mosquitoes find people by carbon dioxide and body heat. Fixed screens, a fan aimed at the bed and emptying indoor standing water do more than either.',
+  },
+  {
+    question: 'What is the best indoor fly trap?',
+    answer: 'It depends on the fly. For fruit flies, a small vinegar-style lure trap beside the fruit bowl beats any light trap. For fungus gnats and other small flies, a UV + fan + glue-board trap like the Katchy. For houseflies, repair the screens first, then use a fan-suction UV trap or a glue board near the window. Zevo says its plug-in, which uses blue and UV light and an adhesive pad, is designed for house flies, fruit flies and gnats, and it suggests two or more traps in larger rooms.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best indoor fly and mosquito traps in Canada for 2026 — plug-in UV, fan-suction, and glue-board picks compared by room size and refill cost, how they work indoors, and whether they actually catch mosquitoes.',
+  description: 'Best indoor mosquito trap in Canada: a quiet UV + fan + glue trap like the Katchy. Strong on gnats and fruit flies, only fair on mosquitoes. Here is why.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -81,7 +95,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             <span className="text-white">Best Indoor Fly &amp; Mosquito Trap</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Plug-in UV, fan-suction, and glue-board traps compared by room size and refill cost — plus the honest truth about how well any of them catch mosquitoes indoors.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for a bedroom or kitchen, a quiet UV + fan + glue-board trap like the Katchy is the best indoor pick &mdash; it clears fruit flies and gnats and catches the odd mosquito. No light trap is strong on mosquitoes, which find people by carbon dioxide and body heat, so fix screens and standing water first.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -257,6 +271,24 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">Mosquito ratings reflect that mosquitoes locate hosts by carbon dioxide and body heat rather than light — see the <a href="https://www.cdc.gov/mosquitoes/" target="_blank" rel="noopener" className="underline hover:text-brand-700">U.S. Centers for Disease Control and Prevention (CDC) — Mosquitoes</a>.</p>
+        </div>
+      </section>
+
+      <section className="pb-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Which indoor trap for your situation?"
+            head={['What is bugging you', 'Use this', 'Why']}
+            rows={[
+              ['A mosquito in the bedroom at night', 'Fixed screens and a fan aimed at the bed first; a quiet UV + fan + glue trap as backup', 'Mosquitoes track carbon dioxide, body heat and skin odour, so a sleeping person out-draws any light'],
+              ['Fruit flies at the fruit bowl or compost', 'A small vinegar-style lure trap right beside the bowl', 'The source is right there, so a scent lure clears them faster than a UV unit across the room'],
+              ['Fungus gnats at the houseplants', 'A UV + fan + glue-board trap, and let the soil dry between waterings', 'Gnats and small flies are what this trap type catches best'],
+              ['Houseflies at the windows', 'Repair the screen, then a fan-suction UV trap or a glue board by the window', 'Most indoor flies came in from outside; the table above lists houseflies among what the fan-suction and glue-board types catch best'],
+              ['Mosquitoes hatching indoors', 'BTI in the floor drain, sump pit or catch basin that stays wet', 'It stops larvae maturing in water you cannot tip out; a trap only catches the adults'],
+              ['A garage or entryway', 'A UV glue-board wall unit', 'Noise and looks matter less there, and glue cards are cheap to replace'],
+            ]}
+            caption={<>Each row restates a section of this guide. Why light traps do poorly on mosquitoes: <a href="https://blogs.ifas.ufl.edu/news/1997/07/23/electric-bug-zappers-useless-for-controlling-mosquitoes/" target="_blank" rel="noopener" className="underline hover:text-brand-700">University of Florida IFAS</a>.</>}
+          />
         </div>
       </section>
 

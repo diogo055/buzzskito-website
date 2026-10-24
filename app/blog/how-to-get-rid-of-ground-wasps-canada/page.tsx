@@ -18,14 +18,15 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-ground-wasps-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'How to Get Rid of Ground Wasps in Canada — Yellow Jacket Nests in the Lawn'
-const META_TITLE = 'Ground Wasps Canada 2026: The Dusk Foam Method'
+// TITLE NOTE (Oct 23, 2026): was 'Ground Wasps Canada 2026: The Dusk Foam Method'; top queries (Jul 23-Oct 20, all countries): delta dust canada 2,009 (wasp-dust-canada's lane, not retargeted here), ground wasps 1,423, how to get rid of ground wasps 1,014, wasp nest in ground 604, ground wasp nest 594 (1,381 page clicks). "Dusk Foam" dropped because the foam picks' Canadian labels exclude nests underground: data/god-build/research/top3/how-to-get-rid-of-ground-wasps-canada.md.
+const META_TITLE = 'Ground Wasps in Canada: How to Get Rid of a Nest'
 
 const FAQS = [
   {
     question: 'How do I get rid of ground wasps in Canada?',
-    answer: 'Confirm the nest entrance in daylight (a steady stream of yellow jackets in and out of one hole), then treat at dusk or dawn when the whole colony is home and sluggish. Stand 2–3 metres back, soak the entrance with a PMRA-registered jet foam or jet spray like Wilson OneShot Jet Foam or a Canadian Raid wasp and hornet formula, then leave immediately without blocking the hole. Check from a distance after 24–48 hours; if traffic continues, re-treat once at dusk. If the nest has multiple entrances, sits against a foundation, or is feeding into a wall void, stop and hire a licensed local exterminator instead.',
+    answer: 'Confirm the nest entrance in daylight (a steady stream of yellow jackets in and out of one hole), then read the label of any can before you use it, because many Canadian wasp cans are written for exposed nests: Health Canada’s pesticide database records the exclusion "nests located underground or in voids" for 13 domestic wasp products, including Wilson WASP OUT Jet Foam (PCP 31899). With a product whose label covers the nest, treat at dusk or dawn (S.C. Johnson’s Raid directions say "at sunrise or sunset"), from the distance on the label, leave the hole open, and check from a distance after 24–48 hours. If no label covers it, or the nest has several entrances, sits against a foundation or feeds into a wall void, hire a licensed local exterminator.',
   },
   {
     question: 'What kind of wasps nest in the ground in Canada?',
@@ -53,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'What is the best spray for ground wasps in Canada?',
-    answer: 'A foaming jet formula is the best match for a nest in the ground, because the foam expands into the burrow entrance and keeps killing wasps that walk through it, where a thin liquid jet mostly wets the entrance rim. Our top pick is Wilson OneShot Jet Foam Wasp & Hornet Killer — a Canadian, PMRA-registered product (d-phenothrin and tetramethrin, 0.20% each) that jets roughly 2–2.5 metres and, per Wilson, makes the nest uninhabitable within about 48 hours. It is registered with Health Canada under PCP number 31899, in newer packaging as Wilson WASP OUT Jet Foam, with yellowjacket nests named on its label as a registered use site. Note that "Raid Max" on the Canadian market is also a foam — Raid Max Wasp & Hornet Foam Bug Killer 2, PCP 30746 — rated by S.C. Johnson at only about 2–3 metres. If you genuinely need stand-off distance, the long-reach Canadian can is the plain Raid Wasp & Hornet Killer Spray, registered as Raid Wasp & Hornet Bug Killer 7 under PCP 29776, which the S.C. Johnson product page for Canada rates at 5.7 metres. Whatever you buy, check the can for a PCP registration number — Health Canada\'s own wasp guidance tells you to look for exactly that.',
+    answer: 'One whose label covers a nest in the ground, and in Canada that rules out many wasp cans. A foam would suit the job physically, because it expands into the burrow entrance where a thin liquid jet mostly wets the rim. But our product pick, Wilson WASP OUT Jet Foam (PCP 31899, sold earlier as Wilson OneShot Jet Foam; d-phenothrin and tetramethrin, 0.20% each), is listed in Health Canada’s pesticide database as domestic class with hornet, wasp and yellowjacket nests as use sites, each with the exclusion "nests located underground or in voids". The same exclusion is recorded for 12 other domestic wasp products, including both Ortho Wasp B Gon MAX cans. S.C. Johnson’s Canadian directions for Raid Max Wasp & Hornet Foam Bug Killer 2 (PCP 30746) say "Not for use against nests located underground or in voids," and the company describes Raid Wasp & Hornet Bug Killer 7 (PCP 29776, up to 5.7 metres) for nests "in trees or attached to buildings." Check the PCP number and the directions on the can you hold; if they do not cover a ground nest, use the City of Calgary’s clear-bowl method or a licensed operator.',
   },
   {
     question: 'Can I use Delta Dust or Sevin dust on a ground nest like American websites say?',
@@ -61,11 +62,11 @@ const FAQS = [
   },
   {
     question: 'How long after spraying does it take for a ground nest to die?',
-    answer: 'Contact-killed wasps drop within seconds to minutes, but colony-level death takes longer because foragers away from the nest keep returning for a day or two. A foam treatment applied at dusk typically shows dramatically reduced traffic by the next morning and near-zero traffic within 48 hours — Wilson states that its foam makes the nest uninhabitable within 48 hours. That is the manufacturer\'s own claim for the product; we have not run controlled tests on it. Watch from a window or from several metres away; if you still see a steady two-way stream after two days, the foam missed a chamber or a second entrance, and the nest needs one repeat treatment at the next dusk — or a professional if traffic persists after that.',
+    answer: 'Contact-killed wasps drop within seconds to minutes, but colony-level death takes longer because foragers away from the nest keep returning for a day or two. A treatment applied at dusk, with a product whose label covers the nest, typically shows dramatically reduced traffic by the next morning and near-zero traffic within 48 hours. (Wilson\'s claim that its foam makes a nest uninhabitable within 48 hours is a manufacturer claim we have not tested, and that foam\'s label excludes nests underground.) Watch from a window or from several metres away; if you still see a steady two-way stream after two days, the treatment missed a chamber or a second entrance, and the nest needs one repeat treatment at the next dusk — or a professional if traffic persists after that.',
   },
   {
     question: 'When should I call a professional instead of treating a ground nest myself?',
-    answer: 'Five situations take DIY off the table: the nest has more than one entrance hole (foam through one hole leaves live galleries behind the others); wasps are entering a wall void, deck, shed foundation, or retaining wall rather than open lawn; anyone in the household has a known or suspected sting allergy; the colony is a large late-season one — September nests can hold several thousand workers; or the nest sits beside a walkway, playset, or door you cannot cordon off for 48 hours. A licensed exterminator has commercial-class dusts, protective gear, and the experience to find every entrance. Typical Canadian pricing for a single wasp nest treatment is modest — see our Canadian pest control cost guide for current ranges.',
+    answer: 'Five situations take DIY off the table: the nest has more than one entrance hole (treating one hole leaves live galleries behind the others); wasps are entering a wall void, deck, shed foundation, or retaining wall rather than open lawn; anyone in the household has a known or suspected sting allergy; the colony is a large late-season one — September nests can hold several thousand workers; or the nest sits beside a walkway, playset, or door you cannot cordon off for 48 hours. A licensed exterminator has commercial-class dusts, protective gear, and the experience to find every entrance. Typical Canadian pricing for a single wasp nest treatment is modest — see our Canadian pest control cost guide for current ranges.',
   },
   {
     question: 'Do ground wasp nests come back in the same spot next year?',
@@ -75,11 +76,23 @@ const FAQS = [
     question: 'Are ground wasps good for anything, or should every nest be destroyed?',
     answer: 'Yellow jackets are genuinely useful predators — a single colony consumes enormous numbers of caterpillars, grubs, and flies over a summer, which is free pest control for your garden. The honest rule: destroy nests that create a real sting hazard (in the lawn you mow, beside doors, patios, play areas, or anywhere near an allergic household member) and leave nests in the back corner of a property, in the bush line, or in unused ground alone — they die on their own at first frost. Solitary ground-nesting bees and digger wasps, which make scattered individual holes and almost never sting, should be left alone entirely.',
   },
+  {
+    question: 'What is the best underground wasp nest killer in Canada?',
+    answer: 'The one whose label covers a nest in the ground, and many Canadian wasp cans do not. Health Canada’s pesticide database records the exclusion "nests located underground or in voids" for 13 domestic wasp products, including Wilson WASP OUT Jet Foam (PCP 31899) and both Ortho Wasp B Gon MAX cans, and S.C. Johnson’s Canadian directions for Raid Max Wasp & Hornet Foam Bug Killer 2 say "Not for use against nests located underground or in voids." Read the directions before you buy. If no can you find covers a ground nest, the City of Calgary lists covering the entrance with a large, clear bowl, and a licensed operator can use commercial products such as Drione Insecticide Dust (PCP 15255), whose record names wasp nests.',
+  },
+  {
+    question: 'What does a ground wasp nest look like?',
+    answer: 'From above, just a hole: usually one opening in the lawn, at the edge of a garden bed or under a shrub, often an old rodent burrow, with a steady two-way stream of black-and-yellow wasps going in and out. The nest itself is a paper structure in a cavity below, and UC IPM notes that "Underground nests can be quite a distance from the visible entrance," which is one reason a kettle of boiling water rarely reaches every chamber. Dozens of scattered single holes in dry, sandy soil, with one insect each, are solitary bees or digger wasps, which you can leave alone. Watch from 4 to 5 metres away in daylight to confirm before you do anything.',
+  },
+  {
+    question: 'Does a clear bowl over the hole kill ground wasps?',
+    answer: 'The City of Calgary lists it as a ground-nest method: "Ground nests can be destroyed by covering the entrance with a large, clear bowl." Calgary advises waiting "until dusk or dark since wasps are more docile and slower to react at cooler temperatures," and wearing layers that cover the whole body, because "Even a small exposed area could become a target for wasps." It uses no pesticide. It suits a single entrance in open ground; a nest with more than one hole, or one against a foundation or under a slab, is still a job for a licensed operator.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Yellow jackets nesting in your lawn? How to identify a ground wasp nest, why mowing triggers attacks, the safe dusk treatment with PMRA-registered jet foam (Wilson OneShot), the boiling-water myth, and when to call a pro. Updated 2026.',
+  description: 'Ground wasps in Canada are yellow jackets. Steps: confirm the busy hole, read the label (many wasp cans exclude underground nests), act at dusk, or call a pro.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -91,7 +104,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-ground-wasps-canada')
 export default function HowToGetRidOfGroundWaspsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to ground-nesting yellow jackets: nest identification, the dusk jet-foam treatment protocol, why boiling water and grey-market US dusts are the wrong answer, and when a nest is beyond DIY.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to ground-nesting yellow jackets: nest identification, the dusk treatment protocol, what wasp-can labels allow, why boiling water and grey-market US dusts are the wrong answer, and when a nest is beyond DIY.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Ground Wasps Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -104,7 +117,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
             <span className="text-white">Ground Wasps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">That hole in the lawn with wasps streaming in and out is a yellow jacket colony &mdash; and it peaks at thousands of workers by late August. How to confirm it, kill it safely at dusk with a PMRA-registered foam, and know when the nest is beyond DIY.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Ground wasps are almost always yellow jackets, and frost kills the colony. To clear one sooner, confirm the busy hole in daylight, then read your can&rsquo;s label and use it only if it allows nests underground. Many don&rsquo;t, including our pick, Wilson WASP OUT Jet Foam, which is for exposed nests; in that case call a licensed operator.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -122,7 +135,8 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
               <li>Ground nests in Canadian lawns are almost always yellow jackets that took over an old rodent burrow &mdash; colonies reach hundreds to several thousand workers by late August.</li>
               <li>Mower and trimmer vibration reads as a digging predator to the colony &mdash; it is the number-one trigger for mass sting attacks over ground nests.</li>
               <li>Treat at dusk or dawn only: every forager is inside and cool temperatures slow the colony&rsquo;s defence.</li>
-              <li>Foam beats liquid jets on ground nests because it expands down into the burrow entrance instead of wetting the rim.</li>
+              <li>Foam would beat a liquid jet in a burrow, since it expands down the entrance instead of wetting the rim, but many Canadian foam labels exclude nests underground.</li>
+              <li>Read the label before any can goes near the hole: Health Canada&rsquo;s pesticide database records the exclusion &ldquo;nests located underground or in voids&rdquo; for 13 domestic wasp products, Wilson WASP OUT Jet Foam (PCP 31899) among them.</li>
               <li>Boiling water is legal but risky and only partly effective; gasoline is an illegal contaminant discharge &mdash; and US-recommended Delta Dust and Sevin dust are not registered for wasp control in Canada at all, at any class.</li>
               <li>Multiple entrance holes, a nest feeding into a wall void, or a sting allergy in the house means stop and hire a licensed local exterminator.</li>
             </ul>
@@ -210,25 +224,69 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
           </div>
 
           <h2>The Dusk Treatment: Step by Step</h2>
-          <p>Everything about safe DIY ground-nest treatment flows from one fact: <strong>the entire colony is only home at night</strong>. During the day, a large fraction of the workers are out foraging; spray at noon and they return over the following hours to an alarm-scented entrance with you still standing beside it. At dusk &mdash; roughly 30 to 60 minutes after sunset &mdash; every forager is inside, temperatures are dropping, and cold-blooded wasps are at their slowest. Here is the protocol:</p>
+          <p>Everything about DIY ground-nest treatment flows from one fact: <strong>the entire colony is only home at night</strong>. During the day, a large fraction of the workers are out foraging; spray at noon and they return over the following hours to an alarm-scented entrance with you still standing beside it. At dusk &mdash; roughly 30 to 60 minutes after sunset &mdash; every forager is inside, temperatures are dropping, and cold-blooded wasps are at their slowest. S.C. Johnson&rsquo;s Canadian Raid pages say the same: &ldquo;Spray nest at sunrise or sunset when insects are least active&rdquo; (Raid Max foam directions) and &ldquo;Spraying after nightfall is recommended because wasps are less active at night&rdquo; (Raid Wasp &amp; Hornet Bug Killer 7). Here is the protocol:</p>
           <ol>
             <li><strong>Scout in daylight, mark the hole.</strong> Confirm the single entrance from distance and mark the approach line with something you can find in low light &mdash; a garden stake a metre to the side, never at the hole.</li>
+            <li><strong>Read the label before you go back.</strong> Use a can only if its directions cover a nest in the ground: using a registered product in a way that is inconsistent with its label is prohibited by section 6(5) of the Pest Control Products Act. Many do not cover it. Health Canada&rsquo;s database records the exclusion &ldquo;nests located underground or in voids&rdquo; for 13 domestic wasp products, including Wilson WASP OUT Jet Foam (PCP 31899) and both Ortho Wasp B Gon MAX cans, and S.C. Johnson&rsquo;s Canadian directions for Raid Max Wasp &amp; Hornet Foam Bug Killer 2 say &ldquo;Not for use against nests located underground or in voids.&rdquo; If yours says that, skip to the options in the next section.</li>
             <li><strong>Dress for it.</strong> Long sleeves and pants with cuffs closed, closed shoes, and ideally a hat. Smooth, light-coloured fabric is harder for wasps to grip than fleece or knit.</li>
             <li><strong>Light discipline.</strong> Wasps orient toward white light. Use a flashlight with a red filter, or set a light off to the side pointing at the hole rather than carrying the beam in your hand.</li>
-            <li><strong>Approach from downhill or cross-slope, never over the nest.</strong> Stop 2&ndash;3 metres out &mdash; inside the rated jet distance of a foam can, outside the instant-response radius.</li>
-            <li><strong>Soak the entrance until foam mounds over the hole.</strong> With a foaming can like the Wilson OneShot, empty a long, continuous burst directly into and around the entrance so the expanding foam pushes down into the burrow. Do not economize; the can is the cheapest part of this operation.</li>
+            <li><strong>Approach from downhill or cross-slope, never over the nest.</strong> Stop 2&ndash;3 metres out &mdash; inside the rated reach of the can, outside the instant-response radius.</li>
+            <li><strong>Soak the entrance, as the label directs.</strong> With a product whose label covers the nest, empty a long, continuous burst directly into and around the entrance so it pushes down into the burrow. Do not economize; the can is the cheapest part of this operation.</li>
             <li><strong>Leave immediately and do not plug the hole.</strong> Walk away the moment you release the trigger. The open, treated entrance is a feature: stragglers and next-morning returnees walk through the residue and carry it inside.</li>
             <li><strong>Assess at 24 and 48 hours from distance.</strong> Traffic should collapse by morning and reach near-zero within 48 hours. A trickle of confused foragers hovering at the hole is normal; a steady two-way stream means a missed chamber &mdash; repeat once at the next dusk.</li>
             <li><strong>Fill the burrow after several silent days.</strong> Once the hole shows zero activity, shovel soil into it and tamp. This prevents any late-returning wasps from re-occupying and stops the burrow becoming next year&rsquo;s rodent-then-wasp real estate.</li>
           </ol>
 
+          <h2>Which Approach for Your Nest</h2>
+          <p>Where the hole is, and who is around it, decides the method. Each line below rests on the source named in it; none of it is a test we ran.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your nest</th>
+                  <th className="px-4 py-3 text-left">What to do</th>
+                  <th className="px-4 py-3 text-left">Why</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">One hole in a corner nobody mows or walks</td>
+                  <td className="px-4 py-3 text-gray-700">Leave it, mark it and mow around it</td>
+                  <td className="px-4 py-3 text-gray-700">UC IPM: &ldquo;Normally, yellowjacket and paper wasp colonies live only one season.&rdquo; In Canada the workers die with the first hard frosts</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">One hole in the lawn you mow or the kids play on</td>
+                  <td className="px-4 py-3 text-gray-700">A can only if its label covers a nest in the ground; otherwise the City of Calgary&rsquo;s clear-bowl method or a licensed operator</td>
+                  <td className="px-4 py-3 text-gray-700">13 domestic wasp products carry the exclusion &ldquo;nests located underground or in voids&rdquo; in Health Canada&rsquo;s database. Calgary: &ldquo;Ground nests can be destroyed by covering the entrance with a large, clear bowl,&rdquo; working at &ldquo;dusk or dark&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Hole against the foundation, or under a step, deck or slab</td>
+                  <td className="px-4 py-3 text-gray-700">A licensed operator</td>
+                  <td className="px-4 py-3 text-gray-700">Calgary recommends a pest control company for nests &ldquo;in difficult-to-reach spots like walls, along foundations or in attics&rdquo;; many can labels also exclude nests in voids</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Two or more busy holes</td>
+                  <td className="px-4 py-3 text-gray-700">A licensed operator</td>
+                  <td className="px-4 py-3 text-gray-700">UC IPM: &ldquo;Underground nests can be quite a distance from the visible entrance&rdquo;; treating one hole leaves the others open</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Someone in the house has reacted badly to stings</td>
+                  <td className="px-4 py-3 text-gray-700">A licensed operator</td>
+                  <td className="px-4 py-3 text-gray-700">UC IPM: &ldquo;Stings generally cause pain and short-term injury, but some people suffer severe allergic responses.&rdquo;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 -mt-3 mb-6">Sources: Health Canada Pesticide Product Information Database, use-site records read October 23, 2026; City of Calgary, &ldquo;Wasps&rdquo; (calgary.ca); University of California IPM, &ldquo;Pest Notes: Yellowjackets and Other Social Wasps&rdquo;; S.C. Johnson&rsquo;s Canadian Raid product directions.</p>
+
           <h2>Why the Top Pick Is a Foam, Not a Jet</h2>
           <p>Aerial wasp nests and ground nests are different targets, and most wasp sprays were designed for the first one. A hanging paper nest is an exposed structure you can wet from every angle; a ground nest is a chimney &mdash; the entrance hole is all you can see, and the actual nest chambers hang in a soil cavity that can extend 30 cm or more below and to the side. A thin liquid jet fired at a hole in the lawn mostly wets the rim and soaks away into soil.</p>
-          <p>The <strong>Wilson OneShot Jet Foam Wasp &amp; Hornet Killer</strong> is our top pick precisely because foam solves that geometry. The expanding foam physically plugs and fills the entrance tunnel, pushing insecticide down toward the galleries, and it persists as a barrier that returning foragers must dig through &mdash; contact-killing them as they try. The formula pairs two pyrethroids (d-phenothrin and tetramethrin at 0.20% each, per Premier Tech&rsquo;s safety data sheet) for knockdown plus kill, jets a rated 2&ndash;2.5 metres, and Wilson states the nest becomes uninhabitable within about 48 hours &mdash; a manufacturer claim, not a result we have tested, and one that assumes the foam actually reached the tunnel rather than only wetting the rim. Just as important for Canadian buyers: Health Canada&rsquo;s Pesticide Product Information Database lists it as a <strong>domestic-class product under PCP registration 31899</strong>, held by Premier Tech Ltd. of Rivi&egrave;re-du-Loup, Quebec, in full registration and carrying hornet, wasp <em>and</em> yellowjacket nests as registered use sites &mdash; the last of which is what makes it the right legal fit for a ground nest. The same registration now appears on shelf as Wilson WASP OUT Jet Foam. It is stocked at Canadian hardware and garden retailers and on Amazon.ca.</p>
+          <p>The <strong>Wilson OneShot Jet Foam Wasp &amp; Hornet Killer</strong> is our product pick because foam suits that geometry on paper: an expanding foam would plug and fill an entrance tunnel, pushing insecticide toward the galleries and leaving a barrier that returning foragers must dig through. Its Canadian label, though, rules out this job (below). The formula pairs two pyrethroids (d-phenothrin and tetramethrin at 0.20% each, per Premier Tech&rsquo;s safety data sheet) for knockdown plus kill, jets a rated 2&ndash;2.5 metres, and Wilson states the nest becomes uninhabitable within about 48 hours &mdash; a manufacturer claim, not a result we have tested, and made for the exposed nests its label covers. Just as important for Canadian buyers: Health Canada&rsquo;s Pesticide Product Information Database lists it as a <strong>domestic-class product under PCP registration 31899</strong>, held by Premier Tech Ltd. of Rivi&egrave;re-du-Loup, Quebec, in full registration, with hornet, wasp <em>and</em> yellowjacket nests as use sites, each carrying the exclusion <strong>&ldquo;nests located underground or in voids&rdquo;</strong>. The label itself is explicit: &ldquo;For Use on Exposed Nests&rdquo; and &ldquo;Not for use against nests located underground or in voids,&rdquo; so do not use this foam on a hole in the lawn. The same registration now appears on shelf as Wilson WASP OUT Jet Foam. It is stocked at Canadian hardware and garden retailers and on Amazon.ca.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer">Check Wilson OneShot Jet Foam on Amazon.ca →</BuyLink>
           </div>
-          <p>One correction worth making, because American guides get it wrong for Canada: <strong>&ldquo;Raid Max&rdquo; here is not a long-range jet.</strong> The only Raid Max wasp product with a current Canadian registration is <strong>Raid Max Wasp &amp; Hornet Foam Bug Killer 2</strong> (PCP 30746, domestic class, S. C. Johnson and Son, Limited), and it is a foam that S.C. Johnson rates at roughly 2&ndash;3 metres &mdash; no more stand-off than the Wilson can. If the entrance is somewhere you truly cannot approach &mdash; on a slope above you, beside a woodpile, at the base of a hedge &mdash; the can you want is the plain <strong>Raid Wasp &amp; Hornet Killer Spray</strong> (PCP 29776), a straight jet that S.C. Johnson&rsquo;s own Canadian product page rates at <strong>5.7 metres</strong> &mdash; roughly double the reach of either foam. It is not the only one: Premier Tech also holds a current domestic registration for <strong>Wilson OneShot Wasp &amp; Hornet Long Shot</strong> (PCP 30192), the same d-phenothrin and tetramethrin pair as our top pick, if you would rather stay with one brand. (Some retail listings advertise &ldquo;up to 7.5 m&rdquo; for the same 400 g can; we quote the manufacturer&rsquo;s own Canadian figure.) Use it to collapse the entrance traffic from distance, then foam the hole once things quiet down. For a full comparison of every registered can on the Canadian market, see our <Link href="/blog/best-wasp-nest-spray-canada">best wasp nest spray guide</Link>.</p>
+          <p>One correction worth making, because American guides get it wrong for Canada: <strong>&ldquo;Raid Max&rdquo; here is not a long-range jet.</strong> The only Raid Max wasp product with a current Canadian registration is <strong>Raid Max Wasp &amp; Hornet Foam Bug Killer 2</strong> (PCP 30746, domestic class, S. C. Johnson and Son, Limited), and it is a foam that S.C. Johnson rates at roughly 2&ndash;3 metres &mdash; no more stand-off than the Wilson can. If the entrance is somewhere you truly cannot approach &mdash; on a slope above you, beside a woodpile, at the base of a hedge &mdash; the can you want is the plain <strong>Raid Wasp &amp; Hornet Killer Spray</strong> (PCP 29776), a straight jet that S.C. Johnson&rsquo;s own Canadian product page rates at <strong>5.7 metres</strong> &mdash; roughly double the reach of either foam. It is not the only one: Premier Tech also holds a current domestic registration for <strong>Wilson OneShot Wasp &amp; Hornet Long Shot</strong> (PCP 30192), the same d-phenothrin and tetramethrin pair as our top pick, if you would rather stay with one brand. (Some retail listings advertise &ldquo;up to 7.5 m&rdquo; for the same 400 g can; we quote the manufacturer&rsquo;s own Canadian figure.) S.C. Johnson describes it for nests &ldquo;in trees or attached to buildings,&rdquo; so read its directions before you aim it at a hole in the ground, and do not follow up with a foam whose label excludes nests underground. For a full comparison of every registered can on the Canadian market, see our <Link href="/blog/best-wasp-nest-spray-canada">best wasp nest spray guide</Link>.</p>
+          <p><strong>Two label notes on the Raid cans.</strong> S.C. Johnson&rsquo;s Canadian directions for Raid Max Wasp &amp; Hornet Foam Bug Killer 2 say it is &ldquo;For control of exposed nests&rdquo; and &ldquo;Not for use against nests located underground or in voids,&rdquo; and the company describes Raid Wasp &amp; Hornet Bug Killer 7 for nests &ldquo;in trees or attached to buildings,&rdquo; so read either label before you aim it at a hole in the lawn. Separately, Health Canada&rsquo;s recall notice (first posted April 16, 2025, updated September 9, 2025) covers Raid Max Wasp &amp; Hornet Foam Bug Killer 2 (PCP 30746) and Raid Outdoor Ant Nest Destroyer 2 (PCP 30744) cans made at one facility, which may leak: about 456,804 units of the two products were sold in Canada from December 2023 to January 2025. Check a can at raidrecallcanada.com before you use it.</p>
 
           <h2>How the Methods Compare</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
@@ -247,14 +305,14 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Jet foam at dusk<br /><span className="font-normal text-xs text-gray-500">Wilson OneShot</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; nest uninhabitable in ~48 h</td>
                   <td className="px-4 py-3 text-gray-700">Low (2&ndash;3 m stand-off, colony dormant)</td>
-                  <td className="px-4 py-3 text-gray-700">PMRA domestic class &mdash; fully legal</td>
+                  <td className="px-4 py-3 text-gray-700">Domestic class, but not for this nest: Health Canada&rsquo;s database records &ldquo;nests located underground or in voids&rdquo; as excluded for PCP 31899</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wilson one shot foam wasp hornet killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Other registered aerosol cans<br /><span className="font-normal text-xs text-gray-500">Raid Max foam, Raid jet, Doktor Doom</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Usually</strong> &mdash; straight jets penetrate a burrow less than foam</td>
                   <td className="px-4 py-3 text-gray-700">Low &mdash; foam cans rated 2&ndash;3 m, straight-jet cans about 5.7 m</td>
-                  <td className="px-4 py-3 text-gray-700">PMRA domestic class &mdash; fully legal</td>
+                  <td className="px-4 py-3 text-gray-700">Domestic class; read each label: the Raid Max foam directions say &ldquo;Not for use against nests located underground or in voids&rdquo;</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="raid max wasp hornet bug killer" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
@@ -295,6 +353,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
               </tbody>
             </table>
           </div>
+          <p className="not-prose text-xs text-gray-500 -mt-3 mb-6">Legality column: Health Canada Pesticide Product Information Database records for PCP 31899, 30746, 29776, 15255, 33495 and the RESCUE! yellowjacket lures 35529&ndash;35531, read October 23, 2026; S.C. Johnson&rsquo;s Canadian Raid product directions; Province of British Columbia, &ldquo;Managing Yellow Jacket Pests&rdquo;; Ontario Environmental Protection Act, s. 14(1).</p>
 
           <RelatedLinks path="/blog/how-to-get-rid-of-ground-wasps-canada" />
           <h2>The Boiling-Water Myth (and the Gasoline Non-Starter)</h2>
@@ -304,12 +363,12 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
 
           <h2>The Canadian Rulebook: Why US Advice Gets This Wrong</h2>
           <p>Search this topic and most of what you will read is American &mdash; and the standard American playbook for ground nests is a puff of insecticidal dust into the entrance: <strong>Delta Dust</strong> (deltamethrin) or <strong>Sevin</strong> (carbaryl) dust, both available in any US garden centre. That advice does not transfer across the border, and the reason is sharper than most Canadian pages admit. Search Health Canada&rsquo;s Pesticide Product Information Database and the only live DeltaDust entry is <strong>DELTADUST POWDER, PCP 33495</strong> &mdash; classed not as commercial but as <strong>restricted</strong>, the tightest tier short of cancellation, and registered for exactly one Canadian use site: <em>black-tailed prairie dog burrows</em>, for fleas. There is no lawful Canadian wasp-nest use of Delta Dust for anyone, homeowner or licensed applicator. Carbaryl went the same way: the domestic-class Sevin garden dusts Canadians remember were cancelled one by one (Sanex 5% in 2000, Greenleaf 5% in 2003, Later&rsquo;s Sevin Garden Dust in 2009), and no domestic-class carbaryl product is registered today. The US-label <strong>Spectracide</strong> wasp cans that dominate American reviews return zero records in that same database &mdash; a can bought across the border or from a US marketplace seller is a grey-market product with no Canadian label, no PCP number, and no legal homeowner use.</p>
-          <p>The practical test takes five seconds: flip the can and look for a <strong>PCP registration number</strong> (&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;) &mdash; the same check Health Canada&rsquo;s own wasp page tells consumers to make. Wilson (PCP 31899), Canadian-label Raid (PCP 30746 and 29776) and Doktor Doom all carry one; grey-market imports do not. This is not bureaucratic trivia &mdash; the dust technique those US sites describe genuinely <em>is</em> the better method for complicated nests. It is simply a different dust here: the commercial-class product a Canadian professional actually reaches for is <strong>Drione Insecticide Dust</strong> (PCP 15255, pyrethrins with piperonyl butoxide and silica aerogel), which carries wasp nests on its registered label. That is why &ldquo;hire a pro&rdquo; is the honest answer for the nests foam cannot solve. For the broader landscape of what is and is not on Canadian shelves, our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp control guide</Link> covers every product class.</p>
+          <p>The practical test takes five seconds: flip the can and look for a <strong>PCP registration number</strong> (&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;) &mdash; the same check Health Canada&rsquo;s own wasp page tells consumers to make. Wilson (PCP 31899), Canadian-label Raid (PCP 30746 and 29776) and Doktor Doom all carry one; grey-market imports do not. This is not bureaucratic trivia &mdash; the dust technique those US sites describe genuinely <em>is</em> the better method for complicated nests. It is simply a different dust here: the commercial-class product a Canadian professional actually reaches for is <strong>Drione Insecticide Dust</strong> (PCP 15255, pyrethrins with piperonyl butoxide and silica aerogel), which carries wasp nests on its registered label. That is why &ldquo;hire a pro&rdquo; is the honest answer for the nests foam cannot solve. For the broader landscape of what is and is not on Canadian shelves, our <Link href="/blog/how-to-get-rid-of-wasps-canada">complete Canadian wasp control guide</Link> covers every product class, and every dust Canadians ask about, with its class and registered use sites, is laid out in our <Link href="/blog/wasp-dust-canada">wasp dust and powder guide</Link>.</p>
 
           <h2>When the Nest Is Beyond DIY</h2>
-          <p>A single-entrance nest in open lawn is a solved problem: foam at dusk, done. These five situations are not, and recognizing them is the difference between a $20 fix and an emergency-room trip:</p>
+          <p>A single-entrance nest in open lawn is often manageable: a can whose label covers nests underground, used at dusk, or the City of Calgary&rsquo;s clear-bowl method. These five situations are not, and recognizing them is the difference between a $20 fix and an emergency-room trip:</p>
           <ul>
-            <li><strong>Multiple entrance holes.</strong> Foam down one hole leaves live galleries venting through the others &mdash; and tells the colony it is under attack. Multi-entrance nests need professional dusting that treats the whole cavity.</li>
+            <li><strong>Multiple entrance holes.</strong> Treating one hole leaves live galleries venting through the others &mdash; and tells the colony it is under attack. Multi-entrance nests need professional dusting that treats the whole cavity.</li>
             <li><strong>Wasps entering a structure.</strong> Traffic disappearing under a deck, into a retaining wall, under a shed slab, or into siding means the nest is in a void, not soil. Spraying a void entrance can drive agitated wasps <em>through</em> interior walls into the house. This is the single most common way DIY wasp control goes badly wrong.</li>
             <li><strong>Anyone in the household with a sting allergy.</strong> The treatment-gone-wrong scenario is a mass-sting event; if anaphylaxis is on the table, no can of foam is worth it.</li>
             <li><strong>Late-season monster colonies.</strong> A September nest at several thousand workers, often with a visibly excavated, saucer-sized entrance, responds to disturbance on a different scale than a July nest.</li>

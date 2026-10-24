@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'bed-bug-heat-treatment-diy-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'DIY Bed Bug Heat Treatment Canada 2026 — The Temperatures, Gear & Protocol That Actually Kill'
-const META_TITLE = 'DIY Bed Bug Heat Treatment Canada: 50°C, 60 Min'
+// TITLE NOTE (Oct 23, 2026): was 'DIY Bed Bug Heat Treatment Canada: 50°C, 60 Min' (no source opened gives 60 minutes at 50°C; Health Canada gives 50°C, Virginia Cooperative Extension 48°C adults / 50°C eggs); top queries, 90 days to Oct 23: bed bug heat treatment 209 at 24.1, heat treatment for bed bugs 156 at 11.2, bed bugs heat treatment 41, diy heat treatment for bed bugs 39 at 15.3, bedbug heat treatments 32, diy bed bug heat treatment 19 (1 click on 745 impressions).
+const META_TITLE = 'Bed Bug Heat Treatment DIY Canada: 50°C & Risks'
 
 const FAQS = [
   {
@@ -28,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'What temperature kills bed bugs and their eggs?',
-    answer: 'Bed bugs die when their body core is held at roughly 45 °C (113 °F) for an extended period, and their eggs — the hardest stage to kill — need about 48–50 °C (118–122 °F) sustained to be reliably destroyed. Research from Virginia Tech and others found that all life stages, including eggs, die when held at 48 °C (118 °F) for 90 minutes or at 50 °C (122 °F) for about 60 minutes. The critical word is sustained, and it applies to the coldest spot in the load, not the air temperature the heater reports. The centre of a packed duffel bag, the inside of a shoe, or the core of a rolled sleeping bag lags far behind the air around it, so practical DIY protocols aim higher — an air temperature of 55–60 °C (130–140 °F) held for several hours — to guarantee the cold core actually crosses the lethal line.',
+    answer: 'Bed bugs die when their body core is held at roughly 45 °C (113 °F) for an extended period, and their eggs — the hardest stage to kill — need about 48–50 °C (118–122 °F) sustained to be reliably destroyed. Virginia Cooperative Extension (Virginia Tech) puts the thermal death point at 48 °C (118 °F) for adults and nymphs and 50 °C (122 °F) for eggs, Health Canada says bed bugs die at 50 °C, and in a University of Minnesota study eggs survived 7 hours at 45 °C while 71.5 minutes at 48 °C killed 99% of them. The critical word is sustained, and it applies to the coldest spot in the load, not the air temperature the heater reports. The centre of a packed duffel bag, the inside of a shoe, or the core of a rolled sleeping bag lags far behind the air around it, so practical DIY protocols aim higher — an air temperature of 55–60 °C (130–140 °F) held for several hours — to guarantee the cold core actually crosses the lethal line.',
   },
   {
     question: 'How long does DIY bed bug heat treatment take?',
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'Are US-only bed bug heaters a problem to buy in Canada?',
     answer: 'They can be, on two fronts. First, electrical: some heat products sold on US marketplaces are built for US voltage and carry US safety certification rather than the CSA or cUL marks Canadian electrical code expects, which matters for a high-draw device you run unattended for hours. Second, chemical add-ons: heat itself is a device and needs no pesticide registration, but if a "kit" bundles a spray or dust, that pesticide must be PMRA-registered to be legal for sale and use in Canada, and many US formulations are not. Buy the heat chamber from a Canadian-available listing with the right electrical certification, and treat any bundled US pesticide as a red flag — pair your heat with a Canadian-legal product instead. The chamber is the part worth importing carefully; the chemistry should stay domestic.',
   },
+  {
+    question: 'How do I prepare for a bed bug heat treatment?',
+    answer: 'For a professional whole-home treatment, Virginia Tech’s extension says houseplants, pets, candles, lipstick and combustibles such as aerosol cans and cigarette lighters should come out of the home, and technicians will move things around so hot air reaches every crack, so do not expect everything back in its place. For a DIY heat chamber, read the maker’s list of items to keep out, load it loosely and put a probe thermometer in the densest item. Either way, wash bedding and clothes and dry them on the hottest dryer setting, as Health Canada advises.',
+  },
+  {
+    question: 'How do you heat up a room to kill bed bugs?',
+    answer: 'Not with the furnace or a space heater. The EPA says raising your indoor temperature with a thermostat, propane space heater or fireplace does not work and is dangerous, and Health Canada says heat treatments should be left to the professionals. A professional treatment uses dedicated heaters and fans to bring the air to about 57 °C (135 °F) for hours while the technician measures the floor and wall junctions, which must reach 50 °C (122 °F), according to Virginia Tech’s extension. At home, heat what you can move, in a dryer or a heat chamber.',
+  },
+  {
+    question: 'Is 60 degrees hot enough to kill bed bugs?',
+    answer: 'Yes, if the bugs and eggs themselves reach it. 60 °C (140 °F) is above every kill point in the sources on this page: 50 °C (Health Canada), 48 °C for adults and 50 °C for eggs (Virginia Tech’s extension), and 54.8 °C, the temperature that killed 99% of eggs in the University of Minnesota study’s lethal-temperature trial. The catch is the core of the load: the middle of a packed bag or a mattress lags well behind the air, so keep the heat on until a probe in the densest item reads at least 50 °C, and longer is better; in that study, eggs needed 71.5 minutes at 48 °C.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'A complete DIY bed bug heat treatment guide for Canada: the exact lethal temperatures and dwell times, portable heat chambers (ZappBug, PackTite) vs space heaters, the core-temperature rule, what heat can damage, safety, and the heat-plus-steam-plus-trap protocol. Updated 2026.',
+  description: 'DIY bed bug heat treatment in Canada: kill temperatures from Health Canada and Virginia Tech, what a dryer or heat chamber treats, and EPA’s heater warning.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
             <span className="text-white">DIY Bed Bug Heat Treatment Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Heat is the one method that kills bed bugs at every life stage &mdash; eggs included &mdash; but only if you reach and hold the right temperature at the coldest point of what you are treating. Here is the exact protocol, the gear that gets there safely, and the mistakes that let bugs survive.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> bed bugs die at 50&nbsp;&deg;C (Health Canada), measured where they hide, not in the air. DIY heat works for belongings, in a hot dryer or a portable heat chamber such as the ZappBug Room (our pick for home loads); heating a whole room is not a DIY job, and the EPA says doing it with a thermostat, propane space heater or fireplace &ldquo;does not work and is dangerous.&rdquo;</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,7 +128,7 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">You can do bed bug heat treatment yourself in Canada by putting your belongings in a <strong>portable heat chamber</strong> (a ZappBug or PackTite) that holds the load at a lethal temperature. Bed bugs and their eggs die at roughly <strong>48&ndash;50 &deg;C (118&ndash;122 &deg;F) sustained</strong>, so practical DIY runs push the air to 55&ndash;60 &deg;C and hold it for several hours until the <strong>coldest core of the load</strong> crosses the line. What you cannot safely DIY is heating a whole occupied room &mdash; that is a fire risk and leaves cold pockets where bugs survive. Heat the movable items, steam the fixed ones, and trap to verify.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Lethal dose: about 48 &deg;C (118 &deg;F) for 90 min, or 50 &deg;C (122 &deg;F) for 60 min &mdash; measured at the <strong>coldest point</strong>, not the air.</li>
+              <li>Kill points: 48 &deg;C (118 &deg;F) for adults and nymphs, 50 &deg;C (122 &deg;F) for eggs (Virginia Cooperative Extension); in a University of Minnesota study eggs needed 71.5 min at 48 &deg;C &mdash; measured at the <strong>coldest point</strong>, not the air.</li>
               <li>A probe thermometer buried in the densest part of the load is the only proof the core got hot enough.</li>
               <li>Portable chambers (ZappBug, PackTite, ThermalStrike) reach lethal temps safely; space heaters in a room do not.</li>
               <li>Heat kills eggs that vacuuming and many sprays leave alive &mdash; its single biggest advantage.</li>
@@ -255,9 +269,36 @@ export default function BedBugHeatTreatmentDiyCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="remote probe thermometer high temperature">Probe thermometer →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="What temperature kills bed bugs? The official numbers"
+            head={['Stage or method', 'Temperature', 'Time', 'Source']}
+            rows={[
+              ['All stages, general rule', '50 °C (122 °F)', 'Not given', 'Health Canada'],
+              ['Adults and nymphs', '48 °C (118 °F), the “thermal death point”', 'At 44–46 °C (112–115 °F), only after “a number of hours”', 'Virginia Cooperative Extension (Virginia Tech)'],
+              ['Eggs', '50 °C (122 °F); cracks and crevices “must reach 122°F”', 'Not given', 'Virginia Cooperative Extension'],
+              ['Eggs, lab study', '48 °C (118 °F)', '71.5 minutes killed 99%; eggs survived 7 hours at 45 °C', 'University of Minnesota (Kells & Goblirsch 2011)'],
+              ['Adults, same study', '45 °C (113 °F)', '94.8 minutes killed 99%', 'University of Minnesota'],
+              ['Professional whole-room heat', 'Air at about 57 °C (135 °F)', 'Heaters often left 4 to 5 hours; the air temperature itself “is not relevant”', 'Virginia Cooperative Extension'],
+              ['Clothes dryer', 'Hot setting', '30 minutes or more for small non-washable items', 'Health Canada'],
+              ['Steamer', 'Steam of at least 54 °C (130 °F), without forceful airflow (EPA); steamers generally emit at least 100 °C (Health Canada)', 'Move slowly: steam kills only the bed bugs it reaches', 'EPA; Health Canada'],
+              ['Freezer (the cold option)', '−18 °C (0 °F); Health Canada says −19 °C', '3 days (EPA); 4 days, and it “may not kill all” (Health Canada)', 'EPA; Health Canada'],
+            ]}
+            caption={<>Sources: Health Canada, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Bedbugs: how do I get rid of them?</a>; Virginia Cooperative Extension, <a href="https://spes.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ento-583/ENTO-583.pdf" target="_blank" rel="noopener noreferrer" className="underline">Bed Bug Heat Treatments: What you need to know!</a> (ENTO-583NP, Dini Miller et al., Virginia Tech, 2024); <a href="https://doi.org/10.3390/insects2030412" target="_blank" rel="noopener noreferrer" className="underline">Kells &amp; Goblirsch (2011)</a>, University of Minnesota; and the EPA&rsquo;s <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener noreferrer" className="underline">Do-it-yourself Bed Bug Control</a> page (updated Aug 10, 2026). Celsius figures are rounded conversions; the temperature that counts is the one where the bugs and eggs are.</>}
+          />
+
+          <div className="not-prose my-8 rounded-xl border-l-4 border-red-400 bg-red-50 p-5">
+            <h2 className="text-xl font-extrabold text-brand-900 mb-3">Fire risk and the limits of DIY heat, in the regulators&rsquo; words</h2>
+            <ul className="space-y-2 text-sm text-gray-800 leading-relaxed list-disc pl-5">
+              <li><strong>EPA:</strong> &ldquo;Do not try to kill bed bugs by increasing your indoor temperature with a thermostat, propane space heater, or fireplace - this does not work and is dangerous.&rdquo; It adds that &ldquo;Do-it-yourself heat treatments might not work,&rdquo; and that rubbing alcohol, kerosene and gasoline &ldquo;can easily ignite with a spark or cigarette,&rdquo; so keep them far from any heater.</li>
+              <li><strong>Health Canada:</strong> &ldquo;Heat treatments should be left to the professionals.&rdquo; The home heat it does describe is a hot dryer: small non-washable items &ldquo;in a hot dryer for 30 minutes or more.&rdquo;</li>
+              <li><strong>Virginia Cooperative Extension:</strong> the air temperature &ldquo;is not relevant&rdquo;; cracks and crevices must reach 50&nbsp;&deg;C (122&nbsp;&deg;F), and before a heat treatment &ldquo;candles, lipstick, and combustibles (aerosol cans and cigarette lighters)&rdquo; come out of the home.</li>
+              <li><strong>What that means for a portable chamber:</strong> follow the maker&rsquo;s instructions and its list of items to keep out, never leave a heater running unattended, and trust a probe thermometer in the densest item, not the air reading.</li>
+            </ul>
+          </div>
+
           <NextUp path="/blog/bed-bug-heat-treatment-diy-canada" />
           <h2>The Numbers: Lethal Temperature and Dwell Time</h2>
-          <p>Here is the biology in plain figures. Bed bugs begin to die when their body core is held around <strong>45 &deg;C (113 &deg;F)</strong>, but their eggs &mdash; the toughest stage &mdash; need more. Research from Virginia Tech and others established that all life stages, eggs included, are reliably killed when held at <strong>48 &deg;C (118 &deg;F) for about 90 minutes</strong> or <strong>50 &deg;C (122 &deg;F) for about 60 minutes</strong>. Those are the thresholds every commercial heat chamber is engineered around.</p>
+          <p>Here is the biology in plain figures. Bed bugs begin to die when their body core is held around <strong>45 &deg;C (113 &deg;F)</strong>, but their eggs &mdash; the toughest stage &mdash; need more. Virginia Cooperative Extension (Virginia Tech) puts the <strong>thermal death point at 48 &deg;C (118 &deg;F) for adults and nymphs and 50 &deg;C (122 &deg;F) for eggs</strong>, and Health Canada says simply that bedbugs die at 50 &deg;C. Time matters as much as temperature: in a University of Minnesota study, eggs survived 7 hours at 45 &deg;C, while <strong>71.5 minutes at 48 &deg;C</strong> killed 99% of them.</p>
           <p>The word that does all the work in those numbers is <em>held</em>, and the temperature that matters is the one at the <strong>coldest point of your load</strong> &mdash; not the air temperature the heater proudly displays. The centre of a rolled sleeping bag, the inside of a stuffed backpack, the middle of a folded stack of jeans: these all lag far behind the surrounding air, sometimes by many degrees and by an hour or more. That lag is why practical DIY protocols do not aim for exactly 48 &deg;C. They push the air to <strong>55&ndash;60 &deg;C (130&ndash;140 &deg;F)</strong> and hold it for several hours, so that even the slowest, coldest core is dragged well past the lethal line with margin to spare. Aim high, hold long, and measure the middle.</p>
 
           <h2>The Core-Temperature Rule (the Step Everyone Skips)</h2>

@@ -14,21 +14,23 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-bed-bug-spray-for-travel-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
-const TITLE = 'Best Bed Bug Spray for Travel Canada 2026 — Carry-On-Legal Luggage & Hotel Picks'
+const UPDATED = '2026-10-23'
+const TITLE = 'Best Bed Bug Spray for Travel Canada 2026 — Luggage & Hotel Picks, and What You Can Fly With'
+// TITLE NOTE (Oct 23, 2026): kept; it already answers the top queries Jul 23-Oct 20: best bed bug spray for travel 48 at 5.1, bed bug spray for travel 41 at 6.8, travel bed bug spray 35 at 6.9, bed bug travel spray 33 at 6.5, travel size bed bug spray 17 at 6.8 (page: 1,244 impressions at 6.9, 24 clicks). The h1 lost "Carry-On-Legal": CATSA lists insecticides as not allowed in carry-on.
 const META_TITLE = 'Best Bed Bug Spray for Travel Canada 2026'
 
 const FAQS = [
   {
     question: 'What is the best bed bug spray for travel in Canada?',
-    answer: 'For most Canadian travellers, the best travel bed-bug spray is a small aerosol or pump with a Canadian PCP registration number that you can spray directly onto luggage seams, zippers, and hotel headboard cracks — the Doktor Doom Travel Pro is the standout because it is a Canadian product with a PCP registration number on the label, sold in a compact can, so it is legal here and easy to pack. A Proof travel-size bed-bug and dust-mite spray is the best lower-odour, residual pick for treating a suitcase before and after a trip. Whatever you choose, keep any liquid under 100 mL if it is going in a carry-on, and remember that a spray is a prevention-and-spot-treatment tool for the road, not a way to clear an active infestation at home.',
+    answer: 'For most Canadian travellers, the best travel bed-bug spray is a small aerosol or pump with a Canadian PCP registration number that you can spray directly onto luggage seams, zippers, and hotel headboard cracks — the Doktor Doom Travel Pro is the standout because it is a Canadian product with a PCP registration number on the label, sold in a compact can, so it is legal here and easy to pack. A Proof travel-size bed-bug and dust-mite spray is the best lower-odour, residual pick for treating a suitcase before and after a trip. Whatever you choose, pack it in checked baggage only, and only if your airline approves (CATSA lists insecticides as not permitted in carry-on), and remember that a spray is a prevention-and-spot-treatment tool for the road, not a way to clear an active infestation at home.',
   },
   {
     question: 'Are travel bed bug sprays TSA and CATSA carry-on legal?',
-    answer: 'Only the small ones. Both the U.S. TSA and the Canadian CATSA carry-on liquid rule cap containers at 100 mL (3.4 oz), and all your liquids, gels, and aerosols must fit in a single one-litre resealable bag. A full-size 400 mL bed-bug aerosol will be confiscated at the carry-on line, so for cabin baggage you need a travel-size can or a small pump bottle under 100 mL. Larger cans are fine in checked luggage, subject to the airline\'s aerosol limits (typically 500 mL per container and 2 kg total). Aerosols with flammable propellant have extra restrictions, so if you are unsure, pack a non-aerosol pump under 100 mL in the carry-on and leave the big can at home.',
+    answer: 'No, not in your carry-on, whatever the size. CATSA lists "Insecticides" as not permitted in carry-on baggage and says they "May be permitted in checked baggage if approved by air carrier." The 100 mL limit people remember applies to items such as insect repellent for your skin, not to bed bug sprays. For flights from the US, the TSA says "Aerosol insecticides are not allowed in carry-on; however they are allowed in checked bags as long as they are not labeled as hazardous material (HAZMAT)." So ask your airline before you put a can in checked luggage, or travel without one and rely on the inspection, luggage and hot-dryer steps, which Health Canada\'s own travel advice is built on.',
   },
   {
     question: 'How do I use bed bug spray on my luggage while travelling?',
@@ -68,13 +70,25 @@ const FAQS = [
   },
   {
     question: 'How much bed bug spray should I pack for a trip?',
-    answer: 'Less than you think. A single travel-size can or a 60–100 mL pump bottle is plenty for pre-treating a suitcase, touching up on arrival, and re-spraying on the way home — you are treating seams and zippers, not fogging a room. Packing one carry-on-legal container under 100 mL keeps you compliant with the liquids rule and avoids the confiscation that a full-size can invites. If you are checking a bag, you can bring a larger can within airline aerosol limits, but for most trips the compact option does everything you need and weighs almost nothing. Buy the small size on purpose; the big can is a home tool, not a travel one.',
+    answer: 'Less than you think. A single travel-size can or a 60–100 mL pump bottle is plenty for pre-treating a suitcase, touching up on arrival, and re-spraying on the way home — you are treating seams and zippers, not fogging a room. A small size does not make it carry-on legal: CATSA lists insecticides as not permitted in carry-on, and says they may go in checked baggage only if your airline approves. On a road trip that limit does not apply, and the compact option still does everything you need and weighs almost nothing. Buy the small size on purpose; the big can is a home tool, not a travel one.',
+  },
+  {
+    question: 'What is the best travel-size bed bug spray?',
+    answer: 'A small can or pump with a Canadian PCP registration number that is labelled for the surfaces you will treat, such as suitcase seams and zippers. Our pick is the Doktor Doom Travel Pro; check the can for its PCP number before you buy, because Health Canada says "If the product label does not have a PCP registration number, do not buy or use it." A travel size is handy for packing, but it does not change the airport rule: CATSA lists insecticides as not permitted in carry-on baggage, and they may go in checked baggage only if your airline approves.',
+  },
+  {
+    question: 'How do I avoid bringing bed bugs home from a hotel?',
+    answer: 'Health Canada\'s routine does most of the work. Inspect the room before you bring luggage in; keep luggage off the bed, on a tile floor or on a luggage stand you have checked; look along the mattress and box spring seams, behind the headboard and inside the closet with a flashlight; and if you find signs, tell the front desk and ask for another room that is not next to it, or stay somewhere else. At home, check your luggage on a hard surface before bringing it in, wash all clothing in hot water whether you wore it or not, dry non-washable items on the highest heat for 30 minutes, and vacuum the suitcase.',
+  },
+  {
+    question: 'Is a "TSA approved" bed bug spray legal in Canada?',
+    answer: 'Not because of that label. "TSA approved" on a US listing is a marketing claim about bottle size for US airports, not a Canadian registration: Health Canada says "If the product label does not have a PCP registration number, do not buy or use it" and "Unregistered pesticides are illegal in Canada." The TSA\'s own guidance is also stricter than those listings suggest: it says "Aerosol insecticides are not allowed in carry-on." Buy a product with a Canadian PCP number, and pack it in checked baggage only with your airline\'s approval.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best carry-on-legal bed-bug sprays for travel in Canada: TSA/CATSA 100 mL rules, picks with a Canadian PCP number like Doktor Doom Travel Pro and Proof travel, luggage pre-treatment technique, and the homecoming routine that stops hitchhikers. Updated 2026.',
+  description: 'Best bed bug spray for travel in Canada: a small can with a PCP number for luggage seams. CATSA: insecticides not in carry-on. Picks and the hotel routine.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -86,7 +100,7 @@ const AMZ_TAG = tagForSlug('best-bed-bug-spray-for-travel-canada')
 export default function BestBedBugSprayForTravelCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to travel-size bed-bug sprays — carry-on liquid rules, picks with a Canadian PCP number, luggage pre-treatment, and the homecoming heat routine.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to travel-size bed-bug sprays — what CATSA allows on a flight, picks with a Canadian PCP number, luggage pre-treatment, and the homecoming heat routine.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Bed Bug Spray for Travel Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -99,7 +113,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
             <span className="text-white">Best Bed Bug Spray for Travel</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A travel bed-bug spray protects your suitcase and spot-treats a hotel room &mdash; here is what stays carry-on legal under the 100&nbsp;mL rule, which Canadian products carry a PCP registration number, and the homecoming routine that actually stops hitchhikers from moving in.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best bed bug spray for travel is a small can with a Canadian PCP number for your luggage seams, not your clothes; our pick is the Doktor Doom Travel Pro (check its label for the number). Flying? CATSA says insecticides cannot go in carry-on, and checked bags need your airline&rsquo;s approval.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,9 +126,9 @@ export default function BestBedBugSprayForTravelCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed-bug spray for travel in Canada is a small product with a Canadian <strong>PCP registration number</strong> that you can pack in a carry-on and spray onto luggage seams and hotel harbourage &mdash; the <strong>Doktor Doom Travel Pro</strong> is the standout because it is a Canadian aerosol with a PCP number on the label, in a compact can. A <strong>Proof travel-size</strong> spray is the best lower-odour residual for pre-treating a suitcase. Keep any carry-on liquid under 100&nbsp;mL, treat the bag &mdash; not the hotel room &mdash; and finish with a hot-dryer cycle on clothes when you get home.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed-bug spray for travel in Canada is a small product with a Canadian <strong>PCP registration number</strong> that you can pack and spray onto luggage seams and hotel harbourage &mdash; the <strong>Doktor Doom Travel Pro</strong> is the standout because it is a Canadian aerosol with a PCP number on the label, in a compact can. A <strong>Proof travel-size</strong> spray is the best lower-odour residual for pre-treating a suitcase. Flying? CATSA lists insecticides as not permitted in carry-on (checked only if your airline approves). Treat the bag &mdash; not the hotel room &mdash; and finish with a hot-dryer cycle on clothes when you get home.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Carry-on liquids and aerosols are capped at <strong>100&nbsp;mL</strong> under both CATSA and TSA &mdash; a full-size 400&nbsp;mL can gets confiscated.</li>
+              <li>Bed bug sprays are insecticides: CATSA says <strong>no in carry-on</strong>, at any size, and checked baggage only if your airline approves.</li>
               <li>Buy products with a Canadian <strong>PCP registration number</strong> &mdash; skip U.S.-only sprays that aren&rsquo;t legal for Canadian use.</li>
               <li>Spray the suitcase seams, zippers, and corners &mdash; not your clothes or the hotel mattress.</li>
               <li>Residual sprays leave a lasting film for prevention; contact sprays kill a bug you can see right now.</li>
@@ -192,7 +206,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
                 <tr>
                   <th className="px-4 py-3 text-left">Spray type</th>
                   <th className="px-4 py-3 text-left">Best at</th>
-                  <th className="px-4 py-3 text-left">Carry-on friendly?</th>
+                  <th className="px-4 py-3 text-left">On a flight?</th>
                   <th className="px-4 py-3 text-left">Watch out for</th>
                   <th className="px-4 py-3 text-left">Availability</th>
                 </tr>
@@ -201,28 +215,28 @@ export default function BestBedBugSprayForTravelCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact aerosol<br /><span className="font-normal text-xs text-gray-500">Doktor Doom Travel Pro</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Spot kill + residual</strong> on seams and cracks</td>
-                  <td className="px-4 py-3 text-gray-700">Only if the can is under 100&nbsp;mL; else checked bag</td>
+                  <td className="px-4 py-3 text-gray-700">Not in carry-on (CATSA); checked only if the airline approves</td>
                   <td className="px-4 py-3 text-gray-700">Flammable-propellant limits; surface use only</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual pump<br /><span className="font-normal text-xs text-gray-500">Proof travel size</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Pre-treating the suitcase</strong> to stay protected</td>
-                  <td className="px-4 py-3 text-gray-700">Yes if the bottle is ≤100&nbsp;mL</td>
+                  <td className="px-4 py-3 text-gray-700">Not in carry-on, at any size; checked only if the airline approves</td>
                   <td className="px-4 py-3 text-gray-700">Slower knockdown than an aerosol</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fabric / gear treatment<br /><span className="font-normal text-xs text-gray-500">permethrin, label-specific</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bonding to</strong> travel sacks, liners, gear</td>
-                  <td className="px-4 py-3 text-gray-700">Small pumps can be; check the size</td>
+                  <td className="px-4 py-3 text-gray-700">An insecticide: not in carry-on; ask the airline about checked</td>
                   <td className="px-4 py-3 text-gray-700">Fabric-only; never off-label on worn clothing</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / plant-oil<br /><span className="font-normal text-xs text-gray-500">botanical</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Gentle spot touch-up</strong> in a room you sleep in</td>
-                  <td className="px-4 py-3 text-gray-700">Usually yes in small sizes</td>
+                  <td className="px-4 py-3 text-gray-700">If sold to kill insects, CATSA&rsquo;s insecticide rule applies: not in carry-on</td>
                   <td className="px-4 py-3 text-gray-700">Little residual — contact kill only</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
@@ -245,7 +259,7 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Bed Bug Spray for Travel in Canada?</h2>
-          <p>The best travel bed-bug spray is the one you can legally pack and confidently use on the surfaces that matter &mdash; and for Canadian travellers that means a small product with a Canadian <strong>PCP registration number</strong>, built for luggage seams and hotel harbourage rather than a full-size home aerosol you cannot even carry onto the plane. A travel spray is a narrow tool with a specific job: it protects your suitcase and lets you spot-treat something you find on arrival. It is not, and cannot be, a way to clear an active infestation, and any product that promises otherwise on a trip-size can is overselling.</p>
+          <p>The best travel bed-bug spray is the one you can legally pack and confidently use on the surfaces that matter &mdash; and for Canadian travellers that means a small product with a Canadian <strong>PCP registration number</strong>, built for luggage seams and hotel harbourage rather than a full-size home aerosol (and on a flight, no insecticide goes in your carry-on, whatever its size). A travel spray is a narrow tool with a specific job: it protects your suitcase and lets you spot-treat something you find on arrival. It is not, and cannot be, a way to clear an active infestation, and any product that promises otherwise on a trip-size can is overselling.</p>
           <p>That job splits into two jobs, which is why our picks above are differentiated by intent. If you want one reliable, Canada-legal can that does knockdown and leaves a residual film, the <strong>Doktor Doom Travel Pro</strong> is the standout &mdash; a Canadian aerosol with a PCP number on the label, in a compact format. If your priority is pre-treating a suitcase so it stays protected across a week, a lower-odour <strong>Proof travel-size</strong> residual is the longer-lasting choice. The fabric and natural picks cover narrower needs. The reasoning below explains how to match the tool to the trip &mdash; and, just as importantly, what the spray does <em>not</em> replace.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
@@ -258,8 +272,21 @@ export default function BestBedBugSprayForTravelCanadaPage() {
 
           <NextUp path="/blog/best-bed-bug-spray-for-travel-canada" />
           <h2>The Carry-On Rule That Decides What You Can Pack</h2>
-          <p>Before you compare formulas, sort out logistics, because the single most common travel-spray mistake is buying a can you cannot bring. Both the Canadian Air Transport Security Authority (CATSA) and the U.S. TSA enforce the same carry-on liquids rule: every liquid, gel, and aerosol container must be <strong>100 mL (3.4 oz) or smaller</strong>, and they all have to fit inside one clear, resealable one-litre bag. A standard 400 mL bed-bug aerosol fails that test instantly and will be pulled at the checkpoint &mdash; you will lose the can and the money. Daily transit is the other travel case and it behaves nothing like a hotel stay &mdash; <Link href="/blog/bed-bugs-on-the-ttc-toronto" className="text-brand-700 underline">bed bugs on the TTC</Link> covers what a Toronto commuter should actually do at the door instead of carrying a can.</p>
-          <p>So for cabin baggage, you need a genuinely travel-size container: a small aerosol under 100 mL or, more reliably, a non-aerosol pump bottle you can fill to 60&ndash;100 mL. Aerosols carry extra baggage: those with flammable propellant face additional airline restrictions, and while larger cans are usually allowed in <em>checked</em> luggage (typically up to 500 mL per container and 2 kg total per passenger, per airline policy), the carry-on line is strict. The clean solution for most travellers is a compact pump under 100 mL in the carry-on, leaving any full-size home can at home where it belongs. When you shop, read the container size, not just the brand.</p>
+          <p>Before you compare formulas, sort out logistics, because the single most common travel-spray mistake is buying a can you cannot bring. The Canadian Air Transport Security Authority (CATSA) lists &ldquo;Insecticides&rdquo; as not permitted in carry-on baggage, at any size, and says they &ldquo;May be permitted in checked baggage if approved by air carrier.&rdquo; The 100 mL rule many travellers remember applies to things like insect repellent for your skin, not to a bed-bug spray. Daily transit is the other travel case and it behaves nothing like a hotel stay &mdash; <Link href="/blog/bed-bugs-on-the-ttc-toronto" className="text-brand-700 underline">bed bugs on the TTC</Link> covers what a Toronto commuter should actually do at the door instead of carrying a can.</p>
+          <p>So for a flight, the spray goes in checked luggage, and only after your airline says yes; for flights from the US, the TSA says aerosol insecticides &ldquo;are not allowed in carry-on; however they are allowed in checked bags as long as they are not labeled as hazardous material (HAZMAT).&rdquo; On a road trip none of this applies, which is where a compact can earns its place. If you would rather not ask the airline, fly without a spray: Health Canada&rsquo;s travel advice does not rely on one, and the inspection and hot-dryer steps below do most of the work.</p>
+          <QuickIdTable
+            title="Can a bed bug spray travel with you? The rules by situation"
+            head={['Situation', 'The rule', 'Source']}
+            rows={[
+              ['Carry-on, flight from Canada', 'Insecticides: not permitted, whatever the size', 'CATSA'],
+              ['Checked bag, flight from Canada', 'Insecticides "May be permitted in checked baggage if approved by air carrier"', 'CATSA'],
+              ['Carry-on, flight from the US', '"Aerosol insecticides are not allowed in carry-on"', 'TSA'],
+              ['Checked bag, flight from the US', 'Aerosol insecticides are allowed in checked bags as long as they are not labelled as hazardous material (HAZMAT)', 'TSA'],
+              ['Insect repellent for your skin (not a bed bug spray)', 'Carry-on in a container of 100 mL or less; checked bags capped at 500 mL per container and 2 L in total', 'CATSA'],
+              ['Car trip', 'No airport screening; follow the product label (on a train or bus, check the carrier’s own baggage rules)', 'Product label; carrier'],
+            ]}
+            caption={<>Sources: CATSA&rsquo;s <a href="https://www.catsa-acsta.gc.ca/en/what-can-bring/item/insecticides-except-those-be-used-crew-members-disinfection-purposes" target="_blank" rel="noopener noreferrer" className="underline">insecticides</a> and <a href="https://www.catsa-acsta.gc.ca/en/what-can-bring/item/insect-repellent" target="_blank" rel="noopener noreferrer" className="underline">insect repellent</a> entries and the TSA&rsquo;s <a href="https://www.tsa.gov/travel/security-screening/whatcanibring/items/aerosol-insecticide" target="_blank" rel="noopener noreferrer" className="underline">aerosol insecticide</a> entry (checked October 23, 2026). Airline rules can be stricter: ask yours before you pack a can.</>}
+          />
 
           <h2>Why PMRA Registration Matters More Than the Brand Name</h2>
           <p>Here is the compliance point that trips up cross-border shoppers: a bed-bug spray that is a bestseller in the United States is not automatically legal to import or use in Canada. Every pest-control product sold or used here must be registered under the federal Pest Control Products Act, administered by Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong>, and must display a <strong>PCP registration number</strong> on the label. That number tells you the product is registered for use in Canada and that its label directions were written for Canadian use.</p>
@@ -286,15 +313,15 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <p>Do not carry the suitcase to the bedroom and unpack onto the bed. Unpack in the garage, entryway, or bathroom instead. Run every piece of washable clothing &mdash; worn or not &mdash; through a <strong>hot dryer for at least 30 minutes</strong>, because sustained heat kills bed bugs at every life stage, eggs included, with no chemical at all. Then spray the empty case seams and zippers with a residual product, wipe it down, and store it away from bedrooms &mdash; sealed in a large bag or a hard bin. For frequent travellers, the definitive version of this step is a <Link href="/blog/best-bed-bug-luggage-heater-canada">portable luggage heater</Link>, which raises the entire contents of a bag to a lethal temperature and reaches the eggs a surface spray never can. Spray protects the outside of the bag; heat clears the inside.</p>
 
           <h2>How to Choose: Matching the Spray to the Trip</h2>
-          <p>Travel sprays are inexpensive, so the goal is not to save a few dollars &mdash; it is to pack the right small can and skip the ones that will fail you at the checkpoint or under-deliver in the room. Prioritise in this order:</p>
+          <p>Travel sprays are inexpensive, so the goal is not to save a few dollars &mdash; it is to pack the right small can, in the right bag, and skip the ones that will under-deliver in the room. Prioritise in this order:</p>
           <ul>
-            <li><strong>Carry-on legality first (non-negotiable).</strong> If it is over 100 mL and going in your cabin bag, it does not matter how good the formula is &mdash; it is getting confiscated. Confirm the container size before anything else.</li>
+            <li><strong>How you are travelling first (non-negotiable).</strong> Flying? A bed-bug spray is an insecticide, and CATSA does not allow insecticides in carry-on at any size; checked baggage needs your airline&rsquo;s approval. Driving? Any registered can you can pack will do.</li>
             <li><strong>PMRA registration (buy this).</strong> A PCP number on the label is how you confirm the product is registered for use in Canada. Registered Canadian products like Doktor Doom make this easy.</li>
             <li><strong>Residual for prevention, contact for reaction.</strong> If you want the bag protected all week, prioritise a residual. If your worry is reacting to a live bug, value knockdown speed. A blended aerosol covers both.</li>
             <li><strong>Odour and comfort if you sleep in the room.</strong> A low-odour or natural spray is far more pleasant to use in a hotel room you have to sleep in &mdash; worth trading a little residual power for.</li>
             <li><strong>Fabric-labelled only for gear.</strong> If you specifically want to treat a travel sack or liner, use a product labelled for fabric &mdash; and never repurpose a surface spray for clothing that touches skin.</li>
           </ul>
-          <p>Read that as a packing decision, not a shopping spree: one carry-on-legal can or pump with a PCP number does everything a traveller needs. The frequent-flyer upgrade is not a bigger spray &mdash; it is adding a luggage heater to your homecoming routine.</p>
+          <p>Read that as a packing decision, not a shopping spree: one small can or pump with a PCP number, in a checked bag or the car, does everything a traveller needs. The frequent-flyer upgrade is not a bigger spray &mdash; it is adding a luggage heater to your homecoming routine.</p>
 
           <h2>Is a Travel Spray Enough, or Do You Need More?</h2>
           <p>For occasional trips, disciplined behaviour plus a residual travel spray covers most of the real risk: inspect the hotel bed, keep luggage off the floor and bed, pre-treat and re-spray the case, and run your clothes through a hot dryer at home. That routine stops the large majority of hitchhiker scares before they become a problem, and the spray earns its small place in it.</p>

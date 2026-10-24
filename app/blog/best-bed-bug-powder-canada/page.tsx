@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-bed-bug-powder-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Bed Bug Powder Canada 2026 — Silica Gel vs Diatomaceous Earth Compared'
-const META_TITLE = 'Best Bed Bug Powder Canada 2026: Silica vs DE'
+// TITLE NOTE (Oct 23, 2026): was 'Best Bed Bug Powder Canada 2026: Silica vs DE'; top queries, 90 days to Oct 23: bed bug powder 157 at 9.7, cimexa canada 157 at 8.0 (CimeXa searches belong to /blog/cimexa-bed-bug-review-canada, 1,809 impressions), bedbug powder 56, cimexa vs diatomaceous earth 54 at 3.6, bed bugs powder 37 (18 clicks on 913 impressions).
+const META_TITLE = 'Bed Bug Powder Canada: Silica Gel vs DE Compared'
 
 const FAQS = [
   {
@@ -28,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Which is better for bed bugs — silica gel or diatomaceous earth?',
-    answer: 'Silica gel generally outperforms diatomaceous earth for bed bugs. Both kill the same way — by abrading and adsorbing the waxy layer on the insect cuticle so it dries out — but laboratory comparisons have repeatedly shown silica-gel dusts kill bed bugs faster and at much lighter application rates. Silica also holds up better in slightly humid conditions and does not clump the way some DE can. Diatomaceous earth wins on cost, availability, and the comfort of a food-grade natural mineral many people already keep on hand. If you want the strongest single dust, choose silica; if you want cheap, accessible, and gentle, choose food-grade DE.',
+    answer: 'Silica gel generally outperforms diatomaceous earth for bed bugs. Both kill the same way — by abrading and adsorbing the waxy layer on the insect cuticle so it dries out — but laboratory comparisons have repeatedly shown silica-gel dusts kill bed bugs faster and at much lighter application rates. Silica also holds up better in slightly humid conditions and does not clump the way some DE can. Diatomaceous earth wins on cost, availability, and the comfort of a food-grade natural mineral many people already keep on hand. If you want the strongest single dust, choose silica; if you want cheap, accessible, and gentle, choose a DE whose label shows a Canadian PCP number.',
   },
   {
     question: 'How long does bed bug powder take to work?',
@@ -36,11 +38,11 @@ const FAQS = [
   },
   {
     question: 'How do I apply bed bug powder correctly?',
-    answer: 'The single biggest mistake is using too much. A bed bug will walk around a visible pile of powder but will readily cross a film so thin you can barely see it, so you want a light, even dusting — a faint haze, not a snowdrift. Use a bulb hand-duster to puff a fine layer into cracks and crevices, along baseboards, into electrical outlets and switch plates (power off), bed-frame joints and bolt holes, behind headboards, under carpet edges, and inside wall voids. Keep it out of the open air you breathe and off surfaces you touch daily, concentrate it in the hidden harbourage and travel routes, and leave it undisturbed so it can keep working.',
+    answer: 'The single biggest mistake is using too much. A bed bug will walk around a visible pile of powder but will readily cross a film so thin you can barely see it, so you want a light, even dusting — a faint haze, not a snowdrift. Use a bulb hand-duster to puff a fine layer into cracks and crevices, along baseboards, behind outlet and switch-plate covers (power off, dusting the wall void but never the electrical box itself), bed-frame joints and bolt holes, behind headboards, under carpet edges, and inside wall voids. Keep it out of the open air you breathe and off surfaces you touch daily, concentrate it in the hidden harbourage and travel routes, and leave it undisturbed so it can keep working.',
   },
   {
     question: 'Is diatomaceous earth safe to use indoors around bed bugs?',
-    answer: 'Food-grade diatomaceous earth is a naturally occurring mineral and is considered low-toxicity to people and pets, which is a large part of its appeal, but the practical safety issue is dust inhalation, not poisoning. The fine airborne particles can irritate the lungs, nose, and eyes, so you should wear a dust mask while applying, avoid creating clouds, and apply thin films into cracks rather than broadcasting powder across open floors. Never use pool-grade (calcined) diatomaceous earth indoors — it contains crystalline silica and is a genuine respiratory hazard. For bed bugs, only food-grade DE, applied lightly with a mask on, is appropriate.',
+    answer: 'Food-grade diatomaceous earth is a naturally occurring mineral and is considered low-toxicity to people and pets, which is a large part of its appeal, but the practical safety issue is dust inhalation, not poisoning. The fine airborne particles can irritate the lungs, nose, and eyes, so you should wear a dust mask while applying, avoid creating clouds, and apply thin films into cracks rather than broadcasting powder across open floors. Never use pool-grade (calcined) diatomaceous earth indoors — it contains crystalline silica and is a genuine respiratory hazard. For bed bugs, use only a DE whose label carries a Canadian PCP registration number and lists bed bugs, applied lightly with a mask on: Health Canada says not to buy or use a pest control product without that number, and the U.S. EPA says pool or food grade DE should not be used.',
   },
   {
     question: 'Where should I not put bed bug powder?',
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'How much bed bug powder do I need for a typical bedroom?',
     answer: 'Far less than most people expect — a single small container of silica gel goes a remarkably long way because the correct application is a barely-visible film, and a bag of diatomaceous earth for a single bedroom will likely last through the whole job with plenty to spare. If you find yourself getting through powder quickly, that is a strong sign you are applying it far too heavily, which not only wastes product but actively reduces its effectiveness because bugs avoid visible piles. Buy modestly, apply lightly, and keep the leftover sealed and dry for the follow-up applications a bed-bug job almost always needs.',
   },
+  {
+    question: 'Does bed bug powder actually work?',
+    answer: 'Yes, as a slow, long-lasting layer rather than a quick fix. In a Rutgers University field study, apartments treated with non-chemical methods plus a silica gel dust saw bed bug counts fall 99% over six months, against 89% with the non-chemical methods alone. In Rutgers lab tests, a 5-minute contact with CimeXa silica gel killed over 95% of field-collected bed bugs within 72 hours, while a diatomaceous earth dust killed every bed bug but took 4 to 6 days. A dust only works where bugs walk through it, and steam, or months in damp conditions, weakens it.',
+  },
+  {
+    question: 'Does silica gel kill bed bugs?',
+    answer: 'Yes. Amorphous silica gel dust clings to a bed bug and absorbs the waxy coating on its body, so the bug dies of dehydration (that is how the CimeXa label describes it), and in Rutgers lab tests a 5-minute contact killed over 95% of field-collected bed bugs within 72 hours. In Canada the catch is registration: PMRA’s registry lists no CimeXa and no domestic-class silica gel dust for bed bugs, and the one current silica-aerogel bed bug dust, Drione (Reg. No. 15255), is commercial class. Health Canada says not to buy or use a product whose label has no PCP registration number.',
+  },
+  {
+    question: 'What is the best diatomaceous earth for bed bugs in Canada?',
+    answer: 'One whose label carries a Canadian PCP registration number and lists bed bugs, because that label tells you where and how much to apply. PMRA’s registry shows domestic-class diatomaceous earth products with bed bugs on the label, including Doktor Doom Be Green Premium Food Grade Diatomaceous Earth (Reg. No. 32561), DX 13 (Reg. No. 30973) and Knock Down Eco Crawling Insect Control & Killer Bait Powder (Reg. No. 31048). Quality matters: in a 2024 lab study, diatomaceous earth bought at a supermarket and DE sold as a litter conditioner were ineffective against bed bugs, and the U.S. EPA says to use only desiccants registered as pesticides, not pool or food grade DE, because the pesticide version “uses a different size of diatoms, which reduces the hazard.”',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best bed-bug powders in Canada compared: silica gel (CimeXa) vs food-grade diatomaceous earth (Doktor Doom), how desiccant dusts actually kill, the light-film application technique, why you need a duster, and what powder can and cannot do. Updated 2026.',
+  description: 'Bed bug powder in Canada: silica gel vs diatomaceous earth, what labels and Rutgers studies show, which dusts carry a PCP number, and how to apply them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function BestBedBugPowderCanadaPage() {
             <span className="text-white">Best Bed Bug Powder Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Silica gel or diatomaceous earth? Both dry bed bugs out &mdash; but they kill at very different speeds and rates. Here is the honest comparison, the light-film technique that makes or breaks a powder treatment, and our picks for Canadian homes.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the bed bug powders that work are desiccant dusts that dry bugs out over days. Silica gel (our top pick, CimeXa) kills fastest in lab tests but carries a U.S. EPA number and no Canadian PMRA listing; for a dust whose label shows a Canadian PCP number, pick a diatomaceous earth such as Doktor Doom Be Green (Reg. No. 32561).</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -209,14 +223,14 @@ export default function BestBedBugPowderCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Doktor Doom, food-grade</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slower, heavier film</td>
                   <td className="px-4 py-3 text-gray-700">Cheap, gentle, easy to find</td>
-                  <td className="px-4 py-3 text-gray-700">Food-grade only; wear a mask</td>
+                  <td className="px-4 py-3 text-gray-700">PCP number on the label (Be Green: 32561); wear a mask</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulk food-grade DE<br /><span className="font-normal text-xs text-gray-500">value</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slowest, most volume</td>
                   <td className="px-4 py-3 text-gray-700">Whole-home coverage on a budget</td>
-                  <td className="px-4 py-3 text-gray-700">Never pool-grade (crystalline silica)</td>
+                  <td className="px-4 py-3 text-gray-700">Only a bag whose label shows a PCP number and lists bed bugs; never pool-grade (crystalline silica)</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="food grade diatomaceous earth bulk" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
@@ -255,6 +269,29 @@ export default function BestBedBugPowderCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bulb hand duster pest control">Bulb duster →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="Bed bug powders compared: what the labels and studies say"
+            head={['Powder', 'How it works', 'Speed in tests', 'Limits', 'Canada (PMRA registry)']}
+            rows={[
+              ['Silica gel dust (CimeXa)', 'Clings to the bug and absorbs its waxy coating, so it dies of dehydration (92.1% amorphous silica)', 'A 5-minute contact killed over 95% of field-collected bed bugs within 72 hours', 'Steam, and months in damp conditions, cut its kill rate; label rate 2 oz per 100 sq ft', 'No CimeXa listing (searched Oct 23, 2026); its label carries U.S. EPA Reg. No. 73079-12'],
+              ['Diatomaceous earth with a PCP number (e.g. Doktor Doom Be Green Premium Food Grade DE)', 'The same drying action, from fossil diatoms (81.5% silicon dioxide as diatomaceous earth)', 'A DE dust killed every bed bug, resistant strains included, but took 4 to 6 days', 'Label: “Avoid breathing dust”; 5.0 g per square metre, applied “lightly and uniformly”', 'Domestic class, Reg. No. 32561; the label lists bed bugs'],
+              ['Diatomaceous earth with no PCP number (feed, garden or other “food grade” bags)', 'The same mineral, sold for another use', 'Quality varies: in a 2024 lab study, supermarket DE and litter-conditioner DE were ineffective against bed bugs', 'EPA: “Pool or food grade diatomaceous earth should not be used”; it “can harm you when you breathe it in”', 'Not a registered pest control product; Health Canada: “If the product label does not have a PCP registration number, do not buy or use it.”'],
+              ['Silica aerogel + pyrethrins (Drione Insecticide Dust)', 'Silica aerogel plus the insecticide pyrethrins and piperonyl butoxide', 'Killed pyrethroid-susceptible bed bugs within an hour; much slower on resistant tropical bed bugs', 'Commercial class, not domestic', 'Reg. No. 15255: the only current silica-aerogel bed bug dust in the registry'],
+              ['Bulb hand-duster', 'Puffs a thin, even film into cracks and voids', '—', 'The DE label allows application “by hand or by hand duster”; CimeXa’s label names a bulb or puffer duster', 'A tool, so no registration'],
+            ]}
+            caption={<>Sources: the <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">PMRA product registry</a> (searched Oct 23, 2026), including the labels of <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32561" target="_blank" rel="noopener noreferrer" className="underline">Reg. No. 32561</a> and <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=15255" target="_blank" rel="noopener noreferrer" className="underline">Reg. No. 15255</a>; the <a href="https://rockwelllabs.com/wp-content/uploads/2025/04/CimeXa-Product-Label.pdf" target="_blank" rel="noopener noreferrer" className="underline">CimeXa label</a> (Rockwell Labs); Rutgers University lab studies by <a href="https://doi.org/10.3390/insects14020133" target="_blank" rel="noopener noreferrer" className="underline">Yu, Ranabhat &amp; Wang (2023)</a> on CimeXa, <a href="https://doi.org/10.1093/jee/toaf244" target="_blank" rel="noopener noreferrer" className="underline">Yu, Daramola &amp; Wang (2025)</a> on DE and <a href="https://doi.org/10.1093/jee/toaa122" target="_blank" rel="noopener noreferrer" className="underline">Ranabhat &amp; Wang (2020)</a> on steam and humidity; <a href="https://doi.org/10.1051/parasite/2024040" target="_blank" rel="noopener noreferrer" className="underline">Oumarou et al. (2024)</a> on supermarket DE; <a href="https://doi.org/10.1093/jee/toaf359" target="_blank" rel="noopener noreferrer" className="underline">Lum &amp; Veera Singham (2026)</a> on Drione; the EPA&rsquo;s <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener noreferrer" className="underline">Do-it-yourself Bed Bug Control</a> page; and <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Health Canada</a>.</>}
+          />
+
+          <div className="not-prose my-8 rounded-xl border border-emerald-200 bg-emerald-50/60 p-5">
+            <h2 className="text-xl font-extrabold text-brand-900 mb-3">Which bed bug powder for your situation</h2>
+            <ul className="space-y-2 text-sm text-gray-800 leading-relaxed list-disc pl-5">
+              <li><strong>You want a dust with a Canadian PCP number:</strong> a diatomaceous earth whose label lists bed bugs, such as Doktor Doom Be Green Premium Food Grade DE (Reg. No. 32561). Its label says to take beds apart and dust &ldquo;frames, joints, mattresses, tufts and seams, floors and baseboards.&rdquo;</li>
+              <li><strong>You want the fastest kill:</strong> silica gel worked faster than DE in the Rutgers tests above, but PMRA&rsquo;s registry has no domestic-class silica gel dust for bed bugs: CimeXa has no listing and Drione is commercial class. Check any listing for a PCP number before you buy.</li>
+              <li><strong>The room is damp, or you have just steamed:</strong> wait until everything is dry. Steam, and months in damp conditions, cut the kill rate of dusts, CimeXa included (Rutgers, 2020).</li>
+              <li><strong>You need bugs dead tonight:</strong> no powder does that. Steam the seams and hot-dry bedding and clothes; Health Canada says to put small non-washable items in a hot dryer for 30 minutes or more.</li>
+            </ul>
+          </div>
+
           <NextUp path="/blog/best-bed-bug-powder-canada" />
           <h2>How Desiccant Dusts Actually Kill Bed Bugs</h2>
           <p>Silica gel and diatomaceous earth are not poisons. They are <strong>desiccants</strong> &mdash; they kill physically, not chemically. A bed bug&rsquo;s body is sealed by a thin waxy layer on its cuticle that holds moisture in. When the insect walks through a fine powder film, the microscopic particles cling to that waxy coating and either abrade it (DE, which is made of sharp-edged fossilized diatoms) or adsorb it away (silica gel, which is intensely moisture-hungry). Either way the seal is breached, the bug&rsquo;s water leaks out faster than it can replace it, and over the following days it dehydrates and dies.</p>
@@ -263,7 +300,7 @@ export default function BestBedBugPowderCanadaPage() {
           <h2>Silica Gel vs Diatomaceous Earth: The Real Difference</h2>
           <p>Because both powders share a mechanism, people assume they are interchangeable. They are not, and the difference is well documented. In head-to-head laboratory work, <strong>silica-gel dusts have consistently killed bed bugs faster and at dramatically lower application rates than diatomaceous earth</strong>. The silica aerogel&rsquo;s enormous surface area makes it a far more aggressive moisture-adsorber than the mechanical scratching of diatom shells, so a lighter, less visible film gets the job done sooner.</p>
           <p>Silica gel also tolerates mild humidity better and does not clump the way DE can when the air is damp &mdash; an underrated advantage in a Canadian basement bedroom. The trade-offs run the other way on cost and comfort: food-grade DE is inexpensive, sold everywhere, and reassuringly natural for households nervous about anything near where they sleep. Our deeper dives into each &mdash; the <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa silica review</Link> and the <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth for bed bugs</Link> guide &mdash; break down the evidence and the handling details for each product individually.</p>
-          <p><strong>The short version:</strong> if you want the strongest single dust and will use it carefully, choose silica gel. If you want cheap, widely available, and gentle, and you accept a slower kill, choose food-grade DE. Many people use both &mdash; silica in the tight voids that stay dry, DE for broad, low-cost coverage along baseboards and under carpet edges.</p>
+          <p><strong>The short version:</strong> if you want the strongest single dust and will use it carefully, choose silica gel. If you want cheap, widely available, and gentle, and you accept a slower kill, choose a DE whose label shows a Canadian PCP number. Many people use both &mdash; silica in the tight voids that stay dry, DE for broad, low-cost coverage along baseboards and under carpet edges.</p>
 
           <h2>The Light-Film Technique That Makes or Breaks a Treatment</h2>
           <p>Here is the mistake that ruins more home powder treatments than any other: <strong>using too much</strong>. It feels intuitive that more powder means more killing, but the opposite is true. A bed bug will detect and walk <em>around</em> a visible pile or a thick line of dust; it will readily walk <em>through</em> a film so thin you can barely tell it is there. The goal is a faint haze, not a snowdrift, and getting that light, even layer is exactly why a bulb hand-duster is nearly as important as the powder itself. Puffing dust from a duster lays down a controlled mist; shaking it from a jar dumps clumps a bug will simply avoid.</p>
@@ -272,16 +309,16 @@ export default function BestBedBugPowderCanadaPage() {
             <li><strong>Cracks and crevices</strong> &mdash; the hairline gaps where wall meets floor, baseboard seams, and any split in wood or trim near the bed.</li>
             <li><strong>Bed-frame joints and bolt holes</strong> &mdash; disassemble the frame if you can and puff into every joint and cavity.</li>
             <li><strong>Behind and inside the box spring frame</strong> &mdash; a prime harbourage; dust the wooden frame, not the fabric you sleep against.</li>
-            <li><strong>Electrical outlets and switch plates</strong> &mdash; power off at the breaker, remove the cover, and puff a light dust into the box (a classic hidden travel route).</li>
+            <li><strong>Behind switch plates and outlet covers</strong> &mdash; power off at the breaker, remove the cover and puff a light dust into the wall void beside the box, not into the electrical box itself: CimeXa&rsquo;s label says dust &ldquo;shouldn&rsquo;t be applied directly in electrical boxes&rdquo; (a classic hidden travel route).</li>
             <li><strong>Baseboards, carpet edges, and behind the headboard</strong> &mdash; the perimeter routes bed bugs use to move between harbourage and host.</li>
             <li><strong>Wall voids</strong> &mdash; behind loose trim or through a small gap, where a permanent dry film can quietly work for months.</li>
           </ul>
           <p>Keep the powder out of the open air you breathe and off the surfaces you touch daily. Concentrate it in the hidden, undisturbed places, then leave it alone &mdash; every time you clean or vacuum a treated crack, you remove the protection you laid down.</p>
 
           <RelatedLinks path="/blog/best-bed-bug-powder-canada" />
-          <h2>Safety: Food-Grade Only, and Mind the Dust</h2>
+          <h2>Safety: A PCP Number, and Mind the Dust</h2>
           <p>The safety story for these powders is genuinely reassuring on toxicity but demands respect on inhalation. Food-grade diatomaceous earth is a naturally occurring mineral considered low-toxicity to people and pets, and silica-gel insecticide dusts are formulated for indoor use around the home. The real hazard with any fine powder is the airborne dust itself: breathing clouds of it can irritate your lungs, nose, throat, and eyes. So wear a dust mask while applying, work slowly to avoid raising clouds, and apply thin films into cracks rather than broadcasting powder across open floor.</p>
-          <p>One rule is non-negotiable: <strong>never use pool-grade (calcined) diatomaceous earth indoors.</strong> Pool-filter DE is heat-treated into a form that contains crystalline silica, a serious respiratory hazard, and it is also far less effective as an insecticide. Only ever buy <em>food-grade</em> DE for bed bugs. And keep every powder off the sleeping surface itself &mdash; the mattress and box-spring surface are the job of an <Link href="/blog/bed-bug-mattress-encasement-canada">encasement</Link>, with the dust reserved for the frame, floor, and wall gaps around the bed.</p>
+          <p>One rule is non-negotiable: <strong>never use pool-grade (calcined) diatomaceous earth indoors.</strong> Pool-filter DE is heat-treated into a form that contains crystalline silica, a serious respiratory hazard, and it is also far less effective as an insecticide. For bed bugs, only buy a DE whose label shows a Canadian <em>PCP registration number</em>; Health Canada says not to buy or use a pest control product without one. And keep every powder off the sleeping surface itself &mdash; the mattress and box-spring surface are the job of an <Link href="/blog/bed-bug-mattress-encasement-canada">encasement</Link>, with the dust reserved for the frame, floor, and wall gaps around the bed.</p>
 
           <h2>Where Powder Fits in a Real Plan (and Where It Doesn&rsquo;t)</h2>
           <p>A dust is a specialist, not a generalist. Its superpower is the long residual &mdash; a barely-visible film that keeps killing for weeks or months in the hidden voids no other tool can protect that long. Its two hard limits are that it is <strong>slow</strong> and that it <strong>does not reliably kill eggs</strong>. Bed-bug eggs are cemented in place and shielded well enough that you should never count on any powder to clear an egg load. That is precisely why dusts are paired with heat.</p>
@@ -292,11 +329,11 @@ export default function BestBedBugPowderCanadaPage() {
           <ul>
             <li><strong>Kill speed and rate (this is where silica wins).</strong> If you want the most effective single dust and will handle it carefully, pay for silica gel &mdash; it kills sooner and a small container lasts a long time because the correct film is so light.</li>
             <li><strong>A proper applicator (do not skip this).</strong> A bulb hand-duster is the difference between a film that works and a pile a bug avoids. It is inexpensive relative to how much it improves the outcome. Buy one with the powder.</li>
-            <li><strong>Food-grade certification (a hard requirement for DE).</strong> Only food-grade DE goes indoors. Confirm it on the label; never substitute pool-grade to save money.</li>
-            <li><strong>Canadian-market legitimacy.</strong> Buy the version offered to Canadian customers through Canadian channels rather than a grey-market import. Health Canada&rsquo;s PMRA regulates these products, and some US-sold dusts are not registered here.</li>
-            <li><strong>Volume, only after the above.</strong> A big bulk bag of DE is the cheapest whole-home coverage &mdash; but volume is worthless if the powder is the wrong grade, applied too heavily, or bought instead of a duster. Sort the essentials first, then size up.</li>
+            <li><strong>A PCP registration number (a hard requirement for DE).</strong> Only a DE whose label carries a Canadian PCP number and lists bed bugs goes on a bed bug job; &ldquo;food grade&rdquo; on the bag is not the test. Confirm it on the label; never substitute pool-grade to save money.</li>
+            <li><strong>Canadian-market legitimacy.</strong> Buy a product whose label shows a Canadian PCP number, whichever store sells it, rather than a grey-market import. Health Canada&rsquo;s PMRA regulates these products, and some US-sold dusts are not registered here: PMRA&rsquo;s registry has no CimeXa listing.</li>
+            <li><strong>Volume, only after the above.</strong> A big bulk bag of DE is the cheapest whole-home coverage &mdash; but volume is worthless if the bag has no PCP number, is the wrong grade, is applied too heavily, or is bought instead of a duster. Sort the essentials first, then size up.</li>
           </ul>
-          <p>Read that as a spending map: put your dollars into the right powder and a real applicator, insist on food-grade and Canadian-legitimate, and treat sheer volume as the last consideration. A single small jar of silica gel plus a duster covers a bedroom with room to spare; a bulk DE bag is the budget route to dusting an entire home. Neither is expensive, and both outlast their cost many times over &mdash; provided you resist the urge to pile it on.</p>
+          <p>Read that as a spending map: put your dollars into the right powder and a real applicator, insist on a PCP number on the label, and treat sheer volume as the last consideration. A single small jar of silica gel plus a duster covers a bedroom with room to spare; a bulk DE bag with a PCP number is the budget route to dusting an entire home. Neither is expensive, and both outlast their cost many times over &mdash; provided you resist the urge to pile it on.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

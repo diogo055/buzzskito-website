@@ -13,12 +13,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-flea-spray-for-home-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-28'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Flea Spray for Home Canada 2026 — Why the IGR Matters More Than the Kill'
-const META_TITLE = 'Best Flea Spray for Home Canada 2026: IGR Guide'
+// TITLE NOTE (Oct 23, 2026): was 'Best Flea Spray for Home Canada 2026: IGR Guide'; top queries: flea spray for house 953, best flea spray for home and furniture 274, flea spray for furniture 216, best flea spray for home 101 (9 clicks).
+const META_TITLE = 'Best Flea Spray for House & Furniture in Canada'
 
 const FAQS = [
   {
@@ -69,11 +71,19 @@ const FAQS = [
     question: 'When is a professional cheaper than DIY flea treatment?',
     answer: 'When you have a multi-pet household, a heavily carpeted home, a re-infestation that has already survived one DIY round, or an apartment or semi where fleas may be commuting between units. In those cases the DIY path often means buying two or three rounds of product, a vacuum, and a steamer, then still calling someone in — and the cumulative spend passes a professional treatment. A licensed technician also has access to registered products and application equipment that consumers do not, and can reach voids and subfloor edges properly. If wildlife is denning under a deck, shed, or crawlspace, deal with that first or the yard keeps restocking the house.',
   },
+  {
+    question: 'What is the best flea spray for home and furniture?',
+    answer: 'The same product does both jobs if its label lists carpets and upholstery: a home flea spray with an insect growth regulator (methoprene or pyriproxyfen) plus an adult flea killer, and a Canadian PCP number. On furniture, vacuum first, spot-test the fabric somewhere hidden, then treat the seams, crevices and the undersides of cushions rather than the open surfaces, and keep people and pets off until it is completely dry. Steam the pieces you would rather not spray.',
+  },
+  {
+    question: 'What is the best IGR for fleas?',
+    answer: 'Either of the two used in home flea sprays, methoprene or pyriproxyfen. Both mimic an insect hormone so flea eggs and larvae never develop into biting adults, and neither is a fast adult killer, which is why the better sprays pair one with an adulticide such as permethrin or pyrethrins. Neither reaches the pupae sealed in their cocoons. In practice the best IGR is the one you can buy in a home spray that carries a Canadian PCP number and lists fleas, carpets and upholstery on its label.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Flea spray for home use in Canada: why the IGR (methoprene or pyriproxyfen) matters more than the kill — adult fleas are only 5% of an infestation.',
+  description: 'Best flea spray for house and furniture in Canada: one with an IGR (methoprene or pyriproxyfen), an adult killer and a PCP number. Where and how to spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -98,7 +108,7 @@ export default function BestFleaSprayForHomeCanadaPage() {
             <span className="text-white">Best Flea Spray for Home</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Adult fleas are about 5% of the problem. The other 95% is eggs, larvae and pupae in your carpet pile &mdash; which is why the ingredient that ends a flea infestation is the one that kills nothing you can see.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for the house and upholstered furniture, buy a flea spray that pairs an insect growth regulator (methoprene or pyriproxyfen) with an adult flea killer and shows a Canadian PCP number on the label. Spray after vacuuming, never on a pet: adult fleas are only about 5% of the problem, and the IGR is what stops the eggs and larvae that make up most of the rest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -245,6 +255,25 @@ export default function BestFleaSprayForHomeCanadaPage() {
         </div>
       </section>
 
+      <section className="pt-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Which flea product for your situation?"
+            head={['Your situation', 'Start with', 'Why']}
+            rows={[
+              ['Fleas confirmed: ankle bites, a scratching pet', 'Vacuum, then an IGR + adulticide home spray; book the pet with your vet the same day', 'The IGR reaches the eggs and larvae that make up most of the population, and an untreated pet re-seeds the house'],
+              ['Not sure it is fleas yet', 'A flea comb over white paper, and a plug-in flea light trap for a week', 'Let the comb and the catch decide before you spend on chemistry'],
+              ['A cat in the house', 'Read the active ingredients, and ask your vet before you buy', 'Permethrin, found in some household and dog products, is seriously toxic to cats'],
+              ['A sofa or pet bed you cannot wash', 'A steamer on the seams, then a spray whose label lists upholstery', 'Heat kills every flea stage it touches, pupae included; steam leaves no residual, so the spray covers what hatches later'],
+              ['Fleas back about two weeks after spraying', 'Daily vacuuming, and a repeat treatment only if the label allows one', 'Pupae in their cocoons hatched on cue; the product did not fail'],
+              ['Still finding fleas at week six', 'A licensed professional', 'After a proper round, more product is rarely the answer: something structural is feeding the population'],
+              ['An apartment, semi or other shared building', 'The property manager, alongside your own treatment', 'If the source is next door, treating only your unit becomes a subscription'],
+            ]}
+            caption="Each row restates the protocol and sections of this guide below. Nothing on this page goes on a pet."
+          />
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Home Flea Spray — Key Facts</h2>
@@ -302,6 +331,18 @@ export default function BestFleaSprayForHomeCanadaPage() {
           <p><strong>Adulticides</strong> are the killers. In consumer products these are usually pyrethrins (extracted from chrysanthemums, often paired with piperonyl butoxide to slow the flea&rsquo;s ability to break them down) or a synthetic pyrethroid such as permethrin or tetramethrin. They act on the insect nervous system, they act fast, and they give you the visible result that makes a purchase feel worthwhile. Their weakness is that they are contact and short-residual by nature: they kill what they touch and what walks across the treated surface while it is still active, and they do nothing whatsoever to an egg or to a larva burrowed at the base of the carpet.</p>
           <p><strong>Insect growth regulators</strong> are the opposite in every respect. Methoprene and pyriproxyfen are synthetic analogues of the juvenile hormone that keeps an immature insect immature. Expose a flea egg or larva to one and development simply never completes: the egg fails to hatch, or the larva never turns into a reproducing adult. Nothing dies in front of you. There is no satisfying pile of dead fleas. An IGR-only product applied on Monday changes nothing you can perceive by Friday &mdash; and it is nonetheless the ingredient that ends the infestation, because it removes the generation that would otherwise replace every adult you killed.</p>
           <p>That is why the ideal home product carries both: the adulticide buys relief tonight, the IGR wins the month. If you can only find one or the other on a Canadian shelf, buy the IGR product and handle the adults with vacuuming and traps &mdash; that combination works. The reverse combination, adulticide plus optimism, is the version that fails.</p>
+
+          <QuickIdTable
+            title="Flea spray ingredients: what each one does"
+            head={['On the label', 'What it does to fleas', 'Best for', 'Limits']}
+            rows={[
+              ['Methoprene (an IGR)', 'Acts like an insect hormone, so eggs fail to hatch and larvae never develop into adults', 'Breaking the egg-to-adult cycle in carpet, under furniture and in pet bedding', 'Works on the young stages, not on tonight’s biting adults; sunlight breaks it down'],
+              ['Pyriproxyfen (an IGR)', 'Mimics an insect hormone so young fleas cannot mature into adults', 'The same job as methoprene: either one in the bottle is what counts', 'Rarely toxic to adult insects, so pair it with an adult killer; sunlight breaks it down too'],
+              ['Permethrin (an adulticide)', 'Attacks the insect nervous system, causing muscle spasms, paralysis and death', 'Knocking down adult fleas on treated carpet and along baseboard edges', 'Kills on contact but is not a growth regulator, so pair it with an IGR; cats are more sensitive to it than dogs or people'],
+              ['Pyrethrins (an adulticide)', 'Compounds from chrysanthemum flowers that excite the insect nervous system, causing paralysis and death', 'Fast knockdown of the adults you can see', 'Short-lived: in sunlight, half-lives of about 12 to 13 hours on soil and in water'],
+            ]}
+            caption={<>What each ingredient does and how fast it breaks down, from the fact sheets of the U.S. National Pesticide Information Center (Oregon State University and the EPA): <a href="http://npic.orst.edu/factsheets/methogen.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">methoprene</a>, <a href="https://npic.orst.edu/factsheets/pyriprogen.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">pyriproxyfen</a>, <a href="http://npic.orst.edu/factsheets/PermGen.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">permethrin</a> and <a href="http://npic.orst.edu/factsheets/pyrethrins.html" target="_blank" rel="noopener" className="underline hover:text-brand-700">pyrethrins</a>. Their breakdown figures are outdoor ones; they give none for carpet. Whatever the ingredient, the Canadian label behind the PCP number sets where and how you may use it.</>}
+          />
 
           <h2>Methoprene vs Pyriproxyfen &mdash; Does It Matter Which?</h2>
           <p>Less than product marketing implies, but there is one real difference worth knowing. <strong>Pyriproxyfen</strong> is generally the more potent of the two by weight and is notably more stable in light. <strong>Methoprene</strong> breaks down comparatively quickly under ultraviolet exposure, which makes it an indoor-only tool in practice.</p>

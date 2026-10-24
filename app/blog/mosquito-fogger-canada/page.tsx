@@ -9,6 +9,7 @@ import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import QuickIdTable from '@/components/QuickIdTable'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
@@ -17,9 +18,16 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-fogger-canada'
 const DATE = '2026-07-12'
-const UPDATED = '2026-09-04'
+// Oct 23, 2026: answer-first hero; new table comparing the fogging options against Health Canada's registry and labels (the
+// registered domestic aerosol patio foggers, e.g. Muskol Patio & Deck Fogger 22808.03, quoted from its label), a "which one for
+// your situation" list, two Key Facts rows corrected to the 7-day label limit, and 3 FAQs in the searchers' words.
+const UPDATED = '2026-10-23'
 const TITLE = 'Mosquito Fogger Canada 2026 — Do They Work? Best Models + Fogging Liquid Guide'
-const META_TITLE = 'Mosquito Fogger Canada 2026: Models & Liquid'
+// TITLE NOTE (Oct 23, 2026): was 'Mosquito Fogger Canada 2026: Models & Liquid'; top queries (Jul 23-Oct 20): mosquito fogger 2,286 @ 7.0,
+// mosquito fogger liquid 715 @ 6.4, black flag fogging insecticide canada 303 @ 5.3, mosquito fogger canada 274 @ 3.9, mosquito fogger
+// liquid canada 248 @ 4.2 (341 clicks on 16,993 impressions). Google shows "Are mosquito foggers legal in Canada?" in People Also Ask.
+// Siblings: /blog/propane-vs-electric-fogger-canada, /blog/best-thermal-fogger-canada and /blog/thermal-vs-ulv-fogger-canada keep their machine searches.
+const META_TITLE = 'Mosquito Fogger Canada: Liquid + What\'s Legal'
 
 const FAQS = [
   {
@@ -50,11 +58,25 @@ const FAQS = [
     question: 'Is fogging better than professional barrier spray for mosquitoes?',
     answer: 'They solve different problems. A DIY fogger gives you fast, on-demand knockdown you control yourself — ideal for clearing the yard 30 minutes before guests arrive. A professional barrier spray is the season-long approach: a licensed technician applies a residual product to mosquito resting surfaces according to label directions, renews it on a schedule because it wears down with time and rain, covers the whole property, and also targets ticks, which foggers barely touch. For a one-off event, a fogger is cheaper and faster. For a summer where you actually want to use your yard without thinking about it, professional barrier spray delivers far more usable hours per dollar and none of the repeated fogging labour. Many homeowners keep a fogger on hand for spot events and run a seasonal barrier program for baseline control.',
   },
+  // Oct 23, 2026 additions, in the searchers' words. Sources: Health Canada pesticide registry and the label for Reg. No. 22808.03
+  // (read through the registry API); RVD2023-06; Health Canada, "Importing pesticides for personal use in Canada" (Sep 2025).
+  {
+    question: 'Are mosquito foggers legal in Canada?',
+    answer: 'The machine is legal to own; what you put in it is the problem. Health Canada’s Re-evaluation Decision RVD2023-06 (2 March 2023) cancelled “Domestic handler applications using handheld and stationary foggers” for pyrethrins and says “Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels”. What stays legal for a homeowner is a registered aerosol patio fogger such as Muskol Patio & Deck Fogger (Reg. No. 22808.03), used as its label says: outdoors around buildings, not when people or pets are present, and repeated only after 7 days.',
+  },
+  {
+    question: 'Can I buy Black Flag fogging insecticide in Canada?',
+    answer: 'Not as a registered product. Health Canada’s pesticide registry lists no current Black Flag registration (every Black Flag product in it is cancelled, among them Black Flag Fog Insecticide, Reg. No. 28121, whose registration ended in 2017), and Health Canada’s import guidance says “Online purchases of unregistered pesticides and their shipment to Canada are not permitted” under the personal-use exemption, adding that the Canada Border Services Agency “will refuse entry of ineligible pesticides.” Even a Canadian-registered pyrethrins liquid would face RVD2023-06, which cancelled domestic handheld-fogger use of pyrethrins. The registered do-it-yourself option is an aerosol patio fogger can.',
+  },
+  {
+    question: 'What can I put in a propane mosquito fogger in Canada?',
+    answer: 'For a homeowner, nothing registered that we could find. The products registered as domestic “foggers” in Health Canada’s registry, such as Muskol Patio & Deck Fogger (22808.03) and Fight Back Patio & Yard Fogger (32481), are pressurized cans, not liquids for a machine, and RVD2023-06 says “Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels”. Fogging liquids that are registered, such as pyrethrins ULV formulas, are commercial class, for licensed operators and municipal programs.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Propane foggers run $60–$110, electric ULV $80–$250 — knockdown lasts 6–24 hours, not weeks. And Health Canada cancelled homeowner handheld-fogger use of pyrethrin liquid.',
+  description: 'Health Canada cancelled homeowner fogger use of pyrethrin liquid; US liquids like Black Flag aren’t registered here. What you can legally fog with, and the limits.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -79,7 +101,7 @@ export default function MosquitoFoggerCanadaPage() {
             <span className="text-white">Mosquito Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A mosquito fogger clears the adult mosquitoes from a yard 20&ndash;30 minutes after you walk the perimeter, and that knockdown holds roughly 6&ndash;24 hours &mdash; real relief, almost no residual. Here is propane vs electric ULV, how the machines compare, and what Health Canada actually permits a homeowner to fog &mdash; which is less than most buying guides suggest.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">In Canada you can buy the fogger, but not a legal homeowner liquid for it: Health Canada cancelled &ldquo;domestic handler applications using handheld and stationary foggers&rdquo; of pyrethrins in 2023, and U.S. fogging liquids such as Black Flag carry no Canadian registration. The fog a homeowner can legally use is a registered aerosol patio fogger, such as Muskol Patio &amp; Deck Fogger (Reg. No. 22808.03), whose label allows a repeat only after 7 days.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -231,6 +253,35 @@ export default function MosquitoFoggerCanadaPage() {
         </div>
       </section>
 
+      {/* FOGGING OPTIONS IN CANADA (Oct 23, 2026). Registration status from Health Canada's pesticide registry, read through its API
+          on Oct 23, 2026 (product search for "FOGGER", "FOG", "PATIO" and "BLACK FLAG"); quoted label text from the label on file for
+          Muskol Patio & Deck Fogger, Reg. No. 22808.03 (label 2023-2267, dated 2024-03-14, updated for RVD2023-06); RVD2023-06 quoted
+          verbatim; deltamethrin from Health Canada's "Use of Deltamethrin for Mosquito Control". */}
+      <section className="pt-4 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Mosquito fogging in Canada: what a homeowner can legally use"
+            head={['Option', 'How it works', 'Canadian status', 'Best for, and the limits']}
+            rows={[
+              ['Aerosol patio fogger can (e.g. Muskol Patio & Deck Fogger, Reg. No. 22808.03)', 'A pressurized can of pyrethrins 0.20% and piperonyl butoxide 1.00%; the label says it “Provides a fogging action over a large area”', 'Registered, domestic class. Others in the registry: Fight Back Patio & Yard Fogger (32481), Spray-Pak Garden & Patio Fogger (22808)', 'A deck or patio before you sit out. “Fog will extend up to 6m from nozzle.” “Treatment must only be repeated after 7 days if pest problem persists or reoccurs.” “DO NOT apply when people or pets are present.”'],
+              ['Propane thermal fogger (the machine)', 'Heats an oil-based liquid into a visible fog', 'The machine is equipment. RVD2023-06 cancelled “Domestic handler applications using handheld and stationary foggers” for pyrethrins', 'Nothing a homeowner can legally run through it that we could find'],
+              ['Electric ULV cold fogger (the machine)', 'An air pump atomises a water-based concentrate into a fine mist', 'The same decision: “Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels”', 'The same gap: no domestic liquid we could find that permits it'],
+              ['U.S. fogging liquid (e.g. Black Flag Fogging Insecticide)', 'Ready-to-use liquid for thermal foggers', 'No current Black Flag registration in Health Canada’s registry (every Black Flag entry is cancelled). Health Canada: “Online purchases of unregistered pesticides and their shipment to Canada are not permitted” under the personal-use exemption', 'Not a legal option in Canada'],
+              ['Outdoor fogging by a licensed operator or municipality', 'Ultra-low-volume sprayers, e.g. deltamethrin or a commercial pyrethrins fogging formula', 'Commercial class. RVD2023-06: “Limit the commercial-class product application rates for outdoor fogging (mosquito abatement)”', 'Wide-area or public-health programs; deltamethrin is applied “by fogging using ultra-low volume sprayers”'],
+            ]}
+            caption={<>Sources: Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">pesticide registry</a> and the label on file for Muskol Patio &amp; Deck Fogger (Reg. No. 22808.03, label dated 2024-03-14), read October 23, 2026; <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2023/pyrethrins.html" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">RVD2023-06</a> (2 March 2023); Health Canada, <em>Importing pesticides for personal use in Canada</em> (September 2025) and <em>Use of Deltamethrin for Mosquito Control</em>. Labels and registrations change: read the label on the product in front of you.</>}
+          />
+          <h3 className="text-lg font-extrabold text-brand-900 mb-3">Which one for your situation</h3>
+          <ul className="space-y-2 text-[15px] text-gray-800 leading-relaxed list-disc pl-5">
+            <li><strong>One evening on the deck:</strong> a registered aerosol patio fogger, sprayed before anyone comes out. The label says &ldquo;DO NOT allow people or pets to enter treated areas until sprays have dried&rdquo; and to spray &ldquo;only when air is still and temperature is under 32°C.&rdquo;</li>
+            <li><strong>A gathering every few days:</strong> fogging cannot cover it within the label, because a repeat is allowed only after 7 days. A <Link href="/blog/best-screen-tent-canada" className="text-emerald-700 underline">screen tent over the table</Link> works on any night.</li>
+            <li><strong>You already own a propane or ULV fogger:</strong> check the label of anything you would put in it. RVD2023-06 says &ldquo;Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels&rdquo;, and we found no domestic liquid that permits it.</li>
+            <li><strong>Flowers, a pond or a vegetable patch nearby:</strong> do not fog there. The aerosol label reads &ldquo;Toxic to aquatic organisms. Toxic to bees.&rdquo; and &ldquo;DO NOT apply in areas where plants are grown for food or feed&rdquo;.</li>
+            <li><strong>Mosquitoes all season, or ticks:</strong> fogging is the wrong tool; the comparison further down this page sets it against the season-long options.</li>
+          </ul>
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-xl font-extrabold text-brand-900 mb-4">Mosquito Fogger Key Facts</h2>
@@ -246,8 +297,9 @@ export default function MosquitoFoggerCanadaPage() {
                   ['Tick effectiveness', 'Very limited — ticks hide low in leaf litter'],
                   ['Active ingredients', 'Pyrethrin / pyrethroid fogging insecticides'],
                   ['Best use', 'Right before an event — fast on-demand knockdown'],
-                  ['Reapplication', 'Before each outing (no lasting protection)'],
+                  ['Reapplication', 'Thermal or ULV: before each outing (no lasting protection). Registered aerosol patio foggers: “Treatment must only be repeated after 7 days if pest problem persists or reoccurs”'],
                   ['Canada availability', 'Machines are sold in Canada; there is no domestic-class handheld fogging liquid we can point a homeowner to'],
+                  ['Legal DIY fog in Canada', 'Registered aerosol patio foggers, e.g. Muskol Patio & Deck Fogger (Reg. No. 22808.03): “For outdoor use around buildings”, fog up to 6 m from the nozzle'],
                   ['Pollinator caution', 'Non-selective — never fog blooming plants when bees are active'],
                   ['Health Canada status', 'RVD2023-06 (2 Mar 2023) cancelled domestic handheld and stationary fogger use of pyrethrins; outdoor mosquito fogging is a commercial-class use with a capped rate'],
                 ].map(([k, v]) => (

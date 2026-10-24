@@ -17,13 +17,14 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-roach-traps-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-23'
 // This page owns the TRAP AND BAIT-STATION purchase only. Sprays and aerosols are
 // best-cockroach-spray-canada; the elimination plan is how-to-get-rid-of-cockroaches-canada;
 // the legality of one imported gel is advion-cockroach-gel-bait-canada.
 // SERP title trimmed to 45 chars so it survives Google's cap once " | BuzzSkito" is appended.
 const TITLE = 'Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them'
-const META_TITLE = 'Cockroach Traps Canada: Glue vs Bait Stations'
+// TITLE NOTE (Oct 23, 2026): was 'Cockroach Traps Canada: Glue vs Bait Stations'; top queries: cockroach traps 237, roach bait canada 16, best cockroach trap 15, cockroach glue 9 (4 clicks).
+const META_TITLE = 'Cockroach Traps Canada: Best Glue Traps & Baits'
 
 const FAQS = [
   {
@@ -74,11 +75,19 @@ const FAQS = [
     question: 'When should I stop trapping and call a professional?',
     answer: 'When the evidence says the problem is bigger than consumer tools. Daytime sightings mean harbourages are saturated and roaches are being pushed out to forage in daylight. Roaches spreading past the kitchen and bathroom into bedrooms or upper floors means the population has outgrown a two-room campaign. Monitors still catching after months of disciplined baiting means something structural is feeding it. Asthma in the household turns a nuisance into a health issue, since cockroach allergens are an established asthma trigger. And in any multi-unit building the source usually sits outside your walls, where only coordinated treatment works.',
   },
+  {
+    question: 'Can you buy Combat roach killing bait stations in Canada?',
+    answer: 'Not as a Canadian-registered product. Health Canada’s pesticide registry lists Combat Roach Killing System (Reg. No. 26519, hydramethylnon) as cancelled, with a last date of retail sale of May 31, 2006, and lists no current product containing hydramethylnon. So a pack shipped to a Canadian address cannot carry a current Canadian registration number, and Health Canada says “It’s a violation of the Pest Control Products Act to buy and use unregistered pesticides.” The registered consumer bait station to look for is Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735 P.C.P. Act, boric acid 2.0%).',
+  },
+  {
+    question: 'What roach bait can I buy in Canada?',
+    answer: 'Health Canada’s pesticide registry lists a short set of current domestic (consumer) cockroach baits, including Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735, enclosed stations, boric acid 2.0%), Homeowners DIY Roach Bait (Reg. No. 30293, a boric acid paste for cracks and crevices only), and borate gels: Ortho Ant B Gon Max Ant & Roach Killer Gel (Reg. No. 32560), Ecopest Ant & Roach Bait Gel (Reg. No. 34893) and Green Way Ant & Roach Bait Gel-D (Reg. No. 30628). Raid Max Roach Bait and Combat Roach Killing System are listed as cancelled. Check the number on the pack before you order.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Which cockroach trap to buy in Canada: glue boards diagnose where roaches live, enclosed bait stations do the killing. How many of each, placement, PCP check.',
+  description: 'Cockroach traps in Canada: glue traps find roaches, registered bait stations kill them. Which roach baits are registered here, how many you need and where they go.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -103,7 +112,7 @@ export default function BestRoachTrapsCanadaPage() {
             <span className="text-white">Cockroach Traps — Glue vs Bait Stations</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Two products get sold as &ldquo;roach traps&rdquo; and they do opposite jobs. Glue boards are instruments &mdash; they tell you the species, the room, and whether you are winning. Enclosed bait stations are the control. Buy both, and read the catch properly.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The cockroach trap that does the killing is an enclosed bait station with a Canadian PCP number, such as Raid Ant Roach &amp; Earwig Gel Baits (Reg. No. 25735 P.C.P. Act); glue traps only show you where the roaches are. If roaches are breeding in your kitchen or bathroom, buy both.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -405,6 +414,67 @@ export default function BestRoachTrapsCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Check Combat bait stations on Amazon.ca →</BuyLink>
           </div>
+
+          <h3>Roach baits and traps registered in Canada: what each label says</h3>
+          <p>A marketplace listing will not tell you this, so we looked the products up on Health Canada&rsquo;s Pesticide Registry and read their current labels. Quoted phrases are the labels&rsquo; own words.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Product (registration)</th>
+                  <th className="px-4 py-3 text-left">Type and active ingredient (label)</th>
+                  <th className="px-4 py-3 text-left">What the label says</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Limits</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Ant Roach &amp; Earwig Gel Baits<br /><span className="font-normal text-xs text-gray-500">Reg. No. 25735 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Enclosed bait stations: &ldquo;BORIC ACID 2.0%&rdquo;, &ldquo;12 CHILD RESISTANT BAITS&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Place at least 10 baits in the kitchen and 2 in each bathroom.&rdquo; &ldquo;Replace ALL baits every 4 weeks if ant, cockroach and earwig problems persists.&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">The kill tool for a kitchen-and-bathroom infestation in a home you control</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Apply/use only in areas inaccessible to children and pets.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Homeowners DIY Roach Bait (Nisus)<br /><span className="font-normal text-xs text-gray-500">Reg. No. 30293, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Paste in reservoirs: &ldquo;BORIC ACID &hellip; 33.3%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;APPLICATIONS OF THIS PRODUCT OTHER THAN AS A CRACK AND CREVICE TREATMENT ARE NOT PERMITTED.&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Seams behind the stove, fridge and dishwasher that a station cannot reach</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Contains the allergens, milk and wheat.&rdquo; Cockroaches only</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Ortho Ant B Gon Max Ant &amp; Roach Killer Gel<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32560 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Gel syringe: &ldquo;Disodium Octaborate Tetrahydrate 6.0%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Cockroaches will feed directly on the bait and die, but will not share the bait.&rdquo; Bait should be available &ldquo;for at least 14 days of continuous feeding&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Cracks along baseboards and around windows and doors</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Do not use sprays, foggers or any chemicals or cleaners near the bait placements.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Victor Roach Trap<br /><span className="font-normal text-xs text-gray-500">Reg. No. 28723, commercial</span></td>
+                  <td className="px-4 py-3 text-gray-700">Glue trap with a lure: &ldquo;0.03% German Cockroach Extract&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Keep traps in one location for three to four days. If they remain empty, move them to other areas.&rdquo; Replace &ldquo;after 35 days&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Finding where German cockroaches hide</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Use of sprays or insecticides on or near traps may reduce the effectiveness of the product.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Combat Roach Killing System<br /><span className="font-normal text-xs text-gray-500">Reg. No. 26519, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Bait station, hydramethylnon</td>
+                  <td className="px-4 py-3 text-gray-700">Registry status: cancelled; last sale by retail May 31, 2006</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">No current Canadian registration</td>
+                  <td className="px-4 py-3 text-gray-700">The registry lists no current product containing hydramethylnon</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Max Roach Bait and Raid Double Control Roach Baits<br /><span className="font-normal text-xs text-gray-500">Reg. Nos. 26645 and 27731, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Bait stations, abamectin</td>
+                  <td className="px-4 py-3 text-gray-700">Registry status: cancelled; last sale by retail September 25, 2025</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">No current Canadian registration</td>
+                  <td className="px-4 py-3 text-gray-700">Look for Reg. No. 25735 on a Raid station instead</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-6">Health Canada Pesticide Registry (pest-control.canada.ca), product records and labels read on October 23, 2026: Raid 25735 (label 2017-1008), Nisus 30293 (2016-5463), Ortho 32560 (2017-0029), Victor 28723 (2025-5872). Other current domestic cockroach gels in the registry include Ecopest Ant &amp; Roach Bait Gel (Reg. No. 34893) and Green Way Ant &amp; Roach Bait Gel-D (Reg. No. 30628), both disodium octaborate tetrahydrate.</p>
 
           <h2>Covered Glue Traps: When the Housing Is Worth It</h2>
           <p>A covered glue trap &mdash; the classic &ldquo;roach motel&rdquo; format &mdash; is the same adhesive inside a small cardboard or plastic shell with entry openings at the ends. It catches somewhat fewer roaches than a bare board of equal area, and in the places that matter it lasts far longer, which usually makes it the better instrument.</p>

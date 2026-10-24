@@ -17,18 +17,19 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-cockroach-spray-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-09-04'
+const UPDATED = '2026-10-23'
 // This page owns the SPRAY AND AEROSOL purchase only: the three jobs a can legitimately
 // wins, how to read a Canadian label, and what not to buy. Traps and bait stations are
 // best-roach-traps-canada; the elimination plan is how-to-get-rid-of-cockroaches-canada.
 // SERP title trimmed to 45 chars so it survives Google's cap once " | BuzzSkito" is appended.
 const TITLE = 'Cockroach Spray in Canada — The Three Jobs Worth Buying a Can For'
-const META_TITLE = 'Cockroach Spray Canada: What to Buy, What Not'
+// TITLE NOTE (Oct 23, 2026): was 'Cockroach Spray Canada: What to Buy, What Not'; top queries: cockroach spray 1,527, cockroach killer spray 166, cockroach sprays 21 (5 clicks). Kept off 'best' and 'killer': best-cockroach-killer-canada owns that search.
+const META_TITLE = 'Cockroach Spray Canada: What to Buy and Skip'
 
 const FAQS = [
   {
     question: 'What is the best cockroach spray in Canada?',
-    answer: 'The honest answer is that the best-performing cockroach product in Canada is not a spray at all — it is gel bait, which roaches carry back to the harbourage and share with the colony. If you specifically need a spray, buy an aerosol with a Canadian PCP registration number and a crack-and-crevice straw applicator — in Canada the Raid aerosol is registered as Raid Ant, Roach & Earwig (for example Reg. No. 30355 and Reg. No. 32434 P.C.P. Act, both domestic class) — and use it only in the three jobs a spray actually wins: sealing off cracks and voids you cannot bait, treating an exterior perimeter against American and Oriental cockroaches coming in from outside, and killing the individual roach in front of you. Broadcast-spraying baseboards and cabinets with a repellent pyrethroid does the opposite of what you want — it scatters a German cockroach population deeper into wall voids and neighbouring units.',
+    answer: 'The honest answer is that the best-performing cockroach product in Canada is not a spray at all — it is gel bait, which roaches carry back to the harbourage and share with the colony. If you specifically need a spray, buy an aerosol with a Canadian PCP registration number and a crack-and-crevice straw applicator — in Canada the Raid aerosol is registered as Raid Ant, Roach & Earwig (for example Reg. No. 30355 and Reg. No. 32434 P.C.P. Act, both domestic class) — and use it only where its label allows. The Reg. No. 32434 label says indoor use only, so the aerosol’s jobs are sealing off cracks and voids you cannot bait and killing the individual roach in front of you; an exterior perimeter against American and Oriental cockroaches coming in from outside needs a product whose Canadian label lists outdoor perimeter use. Broadcast-spraying baseboards and cabinets with a repellent pyrethroid does the opposite of what you want — it scatters a German cockroach population deeper into wall voids and neighbouring units.',
   },
   {
     question: 'Does spraying make cockroaches worse?',
@@ -74,11 +75,19 @@ const FAQS = [
     question: 'When should I stop DIYing cockroaches and hire a professional?',
     answer: 'Three triggers, and all of them save money rather than costing it. If you live in an apartment, condo, or any shared-wall building, German cockroaches move through wall voids and utility chases between units — your suite is not the colony, and unit-by-unit DIY loses to a building that needs coordinated treatment; report it to building management, who is generally responsible for a whole-building program. If you are still seeing daily activity after several weeks of a correctly-run bait plus sanitation program, suspect bait aversion or a source you have not found. And if you see roaches in daylight in the open, the harbourage is already overcrowded. A licensed exterminator has access to commercial-class non-repellents, insect growth regulators, and a follow-up schedule that DIY cannot replicate.',
   },
+  {
+    question: 'What is the best cockroach spray for indoor use?',
+    answer: 'Every registered domestic spray whose Canadian label we read lists cockroaches for indoor use only, so the real question is which indoor can. For the gaps you cannot bait and the roach you can see, a can such as Raid Ant Roach & Earwig Bug Killer 19 (Reg. No. 30355 P.C.P. Act) fits: its label covers “cracks and crevices in walls, floors and ceilings; along and behind baseboards” and the areas “around sinks, drains and pipes”, and says “Apply as a spot treatment only.” For German cockroaches breeding indoors, put bait out first and keep the spray away from it.',
+  },
+  {
+    question: 'Which cockroach sprays can I buy in Canada?',
+    answer: 'Health Canada’s pesticide registry lists domestic (consumer) sprays labelled for cockroaches, including Raid Ant Roach & Earwig Bug Killer 19 (Reg. No. 30355), Raid Ant Roach & Earwig Insect Killer 2 (Reg. No. 32434), Doktor Doom Maximum Strength Residual Barrier Cockroach Killer (Reg. No. 30847) and Ortho Ant B Gon Max Ant & Roach Killer Spray (Reg. No. 32118). All four labels rule out space spraying and broadcast spraying. Whatever you order online, find the number on the can: Health Canada says “It’s a violation of the Pest Control Products Act to buy and use unregistered pesticides.”',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Which cockroach spray to buy in Canada, and when not to: the three jobs a can genuinely wins, how to read a PCP label, and why spraying near bait ruins it.',
+  description: 'Cockroach spray in Canada: which registered cans to buy, what each label lets you spray indoors (cracks, crevices, spots), and why bait beats spray on German roaches.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -103,7 +112,7 @@ export default function BestCockroachSprayCanadaPage() {
             <span className="text-white">Cockroach Spray — What to Buy, What Not</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Most people searching for a roach killer are about to buy the one product category that scatters their infestation. Here is what a spray is genuinely good for, which registered Canadian options to buy for those jobs, and the thing you should buy before any of them.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Buy a registered indoor can such as Raid Ant Roach &amp; Earwig Bug Killer 19 (Reg. No. 30355 P.C.P. Act) for the gaps you cannot bait and the roach in front of you. Small striped German cockroaches breeding in your kitchen? Buy bait first, and never spray near it.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -395,6 +404,54 @@ export default function BestCockroachSprayCanadaPage() {
           <p>Every pest control product legally sold in Canada is registered under the Pest Control Products Act, which Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) administers, and carries a registration number on the label, formatted as <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>. That number is tied to <em>that exact formulation</em> and <em>that exact label</em> &mdash; the listed sites, rates, precautions, and bilingual first-aid directions. The label is not packaging copy; it is the legal document that governs use.</p>
           <p>Products are also assigned a <strong>class</strong>. Domestic class is what consumers can buy and use. Commercial and restricted classes require provincial applicator certification. This is the actual reason the exterminator&rsquo;s gel outperforms yours &mdash; access plus training plus a follow-up schedule, not a secret formula.</p>
           <p>The failure mode to watch for is a marketplace listing that ships a US-labelled product to a Canadian address. A US EPA registration number confers no legal status in Canada; Health Canada&rsquo;s own guidance on buying pest control products online says it is a violation of the Pest Control Products Act to buy and use unregistered pesticides, and that violators may be subject to enforcement action. Practically, buying grey-market also strips you of the Canadian label directions, PMRA review of the formulation you received, and any recourse if the product turns out to be repackaged or counterfeit &mdash; a known risk with high-demand roach baits on marketplaces. The screening habit takes ten seconds: <strong>find the PCP number on the container in your hands.</strong> If there is not one, put it down.</p>
+
+          <h3>Registered cockroach sprays in Canada: what each label allows</h3>
+          <p>We read the current Canadian labels of four registered domestic cockroach sprays on Health Canada&rsquo;s Pesticide Registry. Every quoted phrase below is the label&rsquo;s own wording. The pattern is plain: each one is an indoor product for cracks, crevices and spots, and none is a broadcast spray.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Can (registration)</th>
+                  <th className="px-4 py-3 text-left">Type and active ingredient (label)</th>
+                  <th className="px-4 py-3 text-left">Where the label lets you spray</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Limits on the label</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Ant Roach &amp; Earwig Bug Killer 19<br /><span className="font-normal text-xs text-gray-500">Reg. No. 30355 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Pyrethrins 0.2%, Piperonyl Butoxide 0.48 %, Cyfluthrin 0.05%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;For Indoor Use at Buildings&rdquo;: cracks and crevices, &ldquo;along and behind baseboards&rdquo;, behind and beneath appliances, &ldquo;around sinks, drains and pipes&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">The roach in front of you, and the gaps under the sink and behind the fridge that you cannot bait</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;DO NOT APPLY AS A SPACE SPRAY, PERIMETER, OR BROADCAST TREATMENT. Apply as a spot treatment only.&rdquo; Cyfluthrin products: not &ldquo;more than once every 10 days&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Ant Roach &amp; Earwig Insect Killer 2<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32434 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Pyrethrins 0.25%, Piperonyl Butoxide 1.01%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;For Indoor Use at Buildings&rdquo;: crack and crevice, spot, and a room-edge &ldquo;perimeter&rdquo; the label defines as &ldquo;less than 0.3m wide along the edges of a room&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Killing roaches on contact indoors, including along the edges of a room and around doorways</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;DO NOT APPLY AS A SPACE SPRAY OR BROADCAST TREATMENT.&rdquo; Its &ldquo;perimeter&rdquo; is the inside edge of a room, not the outside of the house</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom Maximum Strength Residual Barrier Cockroach Killer<br /><span className="font-normal text-xs text-gray-500">Reg. No. 30847 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Permethrin &hellip; 0.25%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;to be used to kill cockroaches inside buildings&rdquo;: cracks and crevices, &ldquo;around interior foundations&rdquo; and &ldquo;points of entry (e.g., around windows and doors)&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">A longer-lasting band in indoor cracks; the label claims &ldquo;Continuous cockroach killing action for 60 days&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Apply as a crack and crevice or spot treatment only to kill cockroaches.&rdquo; &ldquo;DO NOT apply to overhead areas or in confined spaces (for example, attics, crawlspaces).&rdquo;</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Ortho Ant B Gon Max Ant &amp; Roach Killer Spray<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32118 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Aerosol: &ldquo;Permethrin &hellip; 0.35%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Cockroaches &ldquo;inside buildings&rdquo; only. Its outdoor directions cover &ldquo;Ants, Crickets, Fleas, Spiders, Sowbugs and Brown Dog Ticks&rdquo;, not cockroaches</td>
+                  <td className="px-4 py-3 text-gray-700">A house with ants and spiders as well as roaches</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Apply as a crack and crevice or spot treatment only.&rdquo; Outdoors, &ldquo;DO NOT apply in areas where plants are grown for food or feed&rdquo;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Labels read on Health Canada&rsquo;s Pesticide Registry (pest-control.canada.ca) on October 23, 2026: Raid 30355 (label 2023-1858), Raid 32434 (2023-1994), Doktor Doom 30847 (2019-7129), Ortho 32118 (2019-5216). We also read Ortho Home Defense Max Perimeter &amp; Indoor Insect Control (Reg. No. 27521), Knock Down Spider Killer (Reg. No. 29689) and Konk Spider &amp; Tick II (Reg. No. 32619). Of these seven labels, none lists cockroaches for outdoor use. Labels change, so read the one on the can you buy.</p>
+          <p>That last point matters for the perimeter job above: before you buy anything for the outside of the house, find cockroaches in the outdoor directions of its Canadian label. On the seven labels we read, they are not there.</p>
 
           <h2>German vs American vs Oriental: Species Decides Everything</h2>
           <p>You cannot pick the right product until you know which insect you have, and the three common Canadian species point to three different plans.</p>

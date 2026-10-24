@@ -16,12 +16,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Mouse Traps in Canada — Snap, Electronic, and Catch-and-Release Picks'
-const META_TITLE = 'Best Mouse Trap Canada: Victor M325 + 2 Picks'
+// TITLE NOTE (Oct 23, 2026): was 'Best Mouse Trap Canada: Victor M325 + 2 Picks' (Sep 3 title test, data/exp-title-test.json: Canadian CTR 0.91% Aug 6-Sep 2, 0.38% Sep 24-Oct 21); top queries, 90 days to Oct 23: best mouse trap 145 at 11.7, best mouse traps canada 120 at 7.2 (the rat trap page gets 185 at 7.3 for it), best mouse traps 64 at 13.4, humane mouse traps toronto 38 at 13.3, best electric mouse trap 10 at 11.9.
+const META_TITLE = 'Best Mouse Traps Canada: Snap, Electric & Humane'
 
 const FAQS = [
   {
@@ -72,14 +74,27 @@ const FAQS = [
     question: 'How do I safely dispose of a dead mouse?',
     answer: 'Do not touch it bare-handed. Public health agencies in Canada recommend wearing disposable gloves, spraying the mouse and trap with a household disinfectant or 1:10 bleach solution and letting it soak 5 minutes, double-bagging the mouse, sealing the bags, and putting them in an outdoor garbage bin. Wash hands thoroughly afterward even though you wore gloves. Avoid sweeping or vacuuming dry droppings — wet them with disinfectant first — because dust from rodent droppings can carry pathogens; if you are dealing with a heavy accumulation, follow your local public health unit’s cleanup guidance.',
   },
+  {
+    question: 'What is the best electric mouse trap?',
+    answer: 'The Victor electronic mouse trap, this page\'s no-touch pick (sold as the M250S; Victor\'s current listing for it is the M250B). The mouse walks into a closed tunnel and is killed by a high-voltage shock; a green light then flashes every 10 seconds for up to a week, and the trap switches itself off when the lid is opened. It runs on four AA batteries (Victor says not to use rechargeables), holds one mouse per setting and is for indoor use only, and Victor says bevelled columns inside keep children and pets from reaching the plates. UC IPM notes that electric traps cost considerably more than other traps and need checking often.',
+  },
+  {
+    question: 'What are the most effective mouse traps?',
+    answer: 'Snap traps with a wide trigger, set in numbers. UC IPM\'s house mouse pest note says trapping works well in most situations, that traps with a wide trigger plate have higher catch rates, and that you should use enough traps to make the trapping period short and decisive, spaced no more than about 3 m (10 ft) apart where mice are active. The US CDC recommends traditional snap traps and advises against glue and live traps. An electric trap costs considerably more (UC IPM), so the same money buys enough snap traps to line every wall, which is why the Victor M325 is this page\'s first pick.',
+  },
+  {
+    question: 'What is the best live mouse trap?',
+    answer: 'If you want to catch mice alive, a two-door live trap such as the Motel Mouse, this page\'s no-kill pick, or a multi-catch trap that holds several mice without being reset (UC IPM). Either one is only humane if you check it every few hours, because a trapped mouse can die of stress or dehydration, and release the mice at least 2 km from home. Be aware that the US CDC advises against live traps: a frightened mouse urinates, which raises the risk of illness for whoever handles the trap, so wear gloves.',
+  },
 ]
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
-  description: 'Which mouse trap actually works in Canadian homes: our top snap, electronic, and catch-and-release picks, where to place them, and why traps beat poison here.',
+  description: 'The best mouse traps in Canada: a Victor wood snap trap for most homes, an electric trap if you never want to see the mouse, and when a humane trap makes sense.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 }), '/blog/best-mouse-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-mouse-trap-canada')
@@ -87,7 +102,7 @@ const AMZ_TAG = tagForSlug('best-mouse-trap-canada')
 export default function BestMouseTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of snap, electronic, catch-and-release, and glue mouse traps, with placement science and Canadian rodenticide law context.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of snap, electronic, catch-and-release, and glue mouse traps, with placement science and Canadian rodenticide law context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Mouse Trap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -100,7 +115,7 @@ export default function BestMouseTrapCanadaPage() {
             <span className="text-white">Best Mouse Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Snap, electronic, catch-and-release, and glue traps compared for Canadian homes — which one actually works, exactly where to place it, and why a trap line beats poison under Canada&rsquo;s rodenticide rules.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best mouse trap for most Canadian homes is a wood snap trap such as the Victor M325, set 6 to 12 at once along the walls. Pick the Victor electronic trap if you never want to see the mouse, and a catch-and-release trap only if you can check it every few hours.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -223,6 +238,29 @@ export default function BestMouseTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Victor M250S electronic →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="humane mouse trap catch and release">Motel Mouse catch-and-release →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Mouse traps compared: how each works, who it suits, its limits"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Wood snap trap (Victor M325)', 'The mouse steps on the trigger and a spring bar snaps shut; UC IPM says traps with a wide trigger plate have higher catch rates', 'Most homes: cheap enough to set 6 to 12 along the walls on the first night', 'You see and handle the catch; a mouse that trips it and escapes turns trap-shy'],
+              ['Electric trap (Victor M250S, now listed as M250B)', 'The mouse walks into a closed tunnel onto metal plates and gets a high-voltage shock; a green light flashes every 10 seconds for up to a week after a catch, and the trap shuts off when the lid is opened', 'No-see, no-touch disposal in a kitchen or living space', 'Indoor use only; one mouse per setting; four AA batteries, and Victor says not to use rechargeables; costs considerably more than snap traps (UC IPM)'],
+              ['Live-catch trap (Motel Mouse) or multi-catch trap', 'A door closes behind the mouse and nothing is killed; multi-catch traps hold several mice without being reset (UC IPM)', 'No-kill households that can check the trap every few hours', 'The CDC advises against live traps because frightened mice urinate, which raises the risk of illness; release mice 2 km or more away, and winter release often ends badly'],
+              ['Glue board', 'The mouse sticks to an adhesive sheet', 'Nothing: we do not recommend them', 'UC IPM says adult mice often detect and avoid the glue; the CDC advises against glue traps; Humane Canada and the BC SPCA oppose them'],
+            ]}
+            caption={<>Checked October 23, 2026: Victor&rsquo;s <a href="https://www.victorpest.com/victor-electronic-mouse-trap-cm250b" target="_blank" rel="noopener noreferrer" className="underline">electronic mouse trap</a> page, UC IPM&rsquo;s <a href="https://ipm.ucanr.edu/home-and-landscape/house-mouse/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: House Mouse</a> (July 2025) and the US CDC&rsquo;s <a href="https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" target="_blank" rel="noopener noreferrer" className="underline">trapping guidance</a> (April 2024). The trap counts, release distance and the Humane Canada and BC SPCA positions restate this page&rsquo;s own sections.</>}
+          />
+
+          <h2 id="situation">Which Mouse Trap for Your Situation?</h2>
+          <ul>
+            <li><strong>Mice in the kitchen or pantry:</strong> 6 to 12 Victor wood snap traps along the walls, trigger end touching the baseboard, all set on the same night. UC IPM says to space traps no more than about 3 m (10 ft) apart where mice are active, and to set pairs 2.5&ndash;5 cm (1&ndash;2 in) apart to catch mice that jump the first one.</li>
+            <li><strong>You never want to see or touch a mouse:</strong> one Victor electronic trap where you would least like to meet the result, usually the kitchen, and cheap snap traps everywhere else.</li>
+            <li><strong>Children or pets in the house:</strong> the electronic trap (Victor says bevelled columns inside keep children and pets from reaching the plates), or snap traps inside a tamper-resistant station; our <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> covers the station options sold in Canada.</li>
+            <li><strong>A cold garage, shed or cottage over winter:</strong> snap traps. Glue boards fail on cold, dusty floors, and Victor rates its electronic trap for indoor use only.</li>
+            <li><strong>A no-kill household:</strong> the Motel Mouse catch-and-release trap, but only if you can check it every few hours and drive the mouse 2 km or more away. If you cannot, a snap trap is the kinder choice in practice.</li>
+            <li><strong>Mice keep coming back:</strong> they are getting in through gaps as small as a pencil is wide; the CDC puts it at 1/4 inch (6 mm). Trap first, then seal: our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> covers the materials.</li>
+            <li><strong>Droppings over 1 cm long:</strong> that is a rat, and mouse traps are too small to kill rats reliably; see the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</li>
+          </ul>
 
           <h2>Why Is the Victor M325 Snap Trap Still the Best?</h2>
           <p>Because mouse control is a numbers game, and the M325 is the only trap cheap enough to win it. The pre-baited, expanded-trigger version of the classic Victor design snaps in milliseconds — a correctly placed snap trap is rated by humane-research groups as one of the fastest, most humane kill methods available to consumers, faster than poison by days and faster than glue by hours. The same trap is the standard tool for voles in a lawn or orchard, though the placement rules differ completely &mdash; <Link href="/blog/how-to-get-rid-of-voles-canada" className="text-brand-700 underline">how to trap voles in their surface runways</Link> covers that variant.</p>

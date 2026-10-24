@@ -14,21 +14,23 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-pump-pressure-sprayer-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Pump Sprayer Canada — Chapin vs Solo Hand-Pump Tank Sprayers Compared'
-const META_TITLE = 'Best Pump Sprayer Canada: Chapin vs Solo'
+// TITLE NOTE (Oct 23, 2026): was 'Best Pump Sprayer Canada: Chapin vs Solo'; top queries Jul 23-Oct 20: pump sprayer canadian tire 702 impr (retailer-named, not targeted), best pump sprayer 84 (pos 6.1), any good reviews for industrial sprayer brands in canada? 74, best garden sprayer canada 46, best weed sprayer 29 (4 clicks across the five).
+const META_TITLE = 'Best Pump Sprayer Canada: Garden and Weed Picks'
 
 const FAQS = [
   {
     question: 'What is the best pump pressure sprayer in Canada?',
-    answer: 'For most Canadian homeowners the best pump pressure sprayer is a 1 to 2 gallon (roughly 4 to 8 litre) hand-pump tank sprayer with Viton seals, a brass or stainless adjustable wand, and an in-line filter — the Chapin and Solo lines both build to this spec and both are widely stocked at Canadian retailers. Chapin is the value-and-availability pick, sold everywhere from Canadian Tire to Home Depot, while Solo is the rebuild-forever choice with the best seal quality and parts support. Viton seals are the single most important feature because they survive the oils and solvents in many concentrates that eat cheap EPDM or rubber O-rings within a season. For a small patio you can drop to a handheld pint-to-litre sprayer; for a large property step up to a 4 gallon backpack.',
+    answer: 'For most Canadian homeowners the best pump pressure sprayer is a 1 to 2 gallon (roughly 4 to 8 litre) hand-pump tank sprayer with Viton seals, a brass or stainless adjustable wand, and an in-line filter. Check the seals by model: SOLO and Smith name Viton on their own product pages, while Chapin names no Viton model on its site (its basic 2-gallon SureSpray lists nitrile seals). Chapin is the value-and-availability pick, sold everywhere from Canadian Tire to Home Depot, while Solo is the rebuild-forever choice with the best seal quality and parts support. Viton seals are the single most important feature because they survive the oils and solvents in many concentrates that eat cheap EPDM or rubber O-rings within a season. For a small patio you can drop to a handheld pint-to-litre sprayer; for a large property step up to a 4 gallon backpack.',
   },
   {
     question: 'Chapin or Solo — which pump sprayer is better?',
-    answer: 'They serve slightly different buyers. Chapin is the volume brand: broad model range, easy to find at Canadian Tire, Home Depot, and Amazon.ca, competitive pricing, and models with funnel-top tanks and cushioned pump handles that are pleasant for occasional use. Solo is the German-engineered workhorse: fewer models but excellent seal quality, a well-documented parts catalogue, and tanks that owners rebuild for a decade rather than replace. If you spray a few times a season and want the best value and the easiest local availability, Chapin. If you spray often, use aggressive concentrates, and want to rebuild rather than re-buy, Solo. Both make Viton-sealed models — buy that seal grade in either brand rather than the cheapest base unit.',
+    answer: 'They serve slightly different buyers. Chapin is the volume brand: broad model range, easy to find at Canadian Tire, Home Depot, and Amazon.ca, competitive pricing, and models with funnel-top tanks and cushioned pump handles that are pleasant for occasional use. Solo is the German-engineered workhorse: fewer models but excellent seal quality, a well-documented parts catalogue, and tanks that owners rebuild for a decade rather than replace. If you spray a few times a season and want the best value and the easiest local availability, Chapin. If you spray often, use aggressive concentrates, and want to rebuild rather than re-buy, Solo. SOLO says all its professional sprayers have Viton seals; Chapin names no Viton model on its own site, so if seal grade matters, buy only a listing that names Viton rather than the cheapest base unit.',
   },
   {
     question: 'What size pump sprayer do I need?',
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'Where can I buy Chapin and Solo pump sprayers in Canada?',
     answer: 'Chapin is the easiest to find in person — Canadian Tire, Home Depot Canada, Rona, and farm-and-garden retailers stock a range of Chapin tank sprayers through the season, and Amazon.ca carries the widest year-round selection of both Chapin and Solo. Solo is a little less common on shelves but well distributed online and through hardware and agricultural suppliers, and its parts and rebuild kits are readily available in Canada. Buy in spring before peak-season demand thins the shelves, and if you want a specific seal grade or tank size, ordering online usually gives you more model choice than a single store aisle. Whichever brand, confirm the model lists Viton seals before you buy.',
   },
+  {
+    question: 'What is the best sprayer for weed killer?',
+    answer: 'For most yards, a 1- or 2-gallon hand-pump tank sprayer that holds weed killer and nothing else. Chapin warns that multiple chemicals in one sprayer can cause cross contamination, even if you clean the sprayer after each use, so mark it for herbicide and keep it apart from the sprayer you use on plants you want to keep. The weed killer must show a registration number on its label, and Health Canada says the label’s instructions on the targeted pest, the location of use, the rate and the method of application must be followed.',
+  },
+  {
+    question: 'What are good industrial sprayer brands in Canada?',
+    answer: 'For industrial or harsh chemicals, judge a brand by the seals and tank its maker lists rather than by the badge. SOLO says its 456 Pro has Viton seals and a 7 mm tank wall; Smith, from The Fountainhead Group, lists Viton throughout the pump and shut-off on its Contractor MAX; Chapin pairs a 3.5-gallon steel tank with chemical-resistant seals on its 1949 industrial sprayer but says it is not for use with acetone-based chemicals. Smith also tells buyers to check each chemical against the seal material and its Safety Data Sheet. We do not test sprayers; these are the makers’ own specs.',
+  },
+  {
+    question: 'Can I use a pump sprayer for bug spray?',
+    answer: 'Yes, when the insecticide’s label allows that use. A hand-pump sprayer is only the delivery device: Health Canada says the label’s instructions on the targeted pest, the location of use, the rate and the method of application must be followed, along with the protective equipment it lists and its re-entry interval for treated areas. Use a sprayer that has never held weed killer, since Chapin warns that mixing chemicals in one sprayer can cause cross contamination even after cleaning. For a whole yard, a backpack sprayer is the more comfortable tool.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Chapin vs Solo hand-pump sprayers compared for Canadian yards: which seals survive harsh concentrates, what tank size you need, and how to make one last.',
+  description: 'The best pump sprayer for most Canadian yards is a 2-gallon tank sprayer with Viton seals. Chapin, Smith and SOLO specs from the makers, and which one for weeds.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
             <span className="text-white">Best Pump Pressure Sprayer Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A manual pump pressure sprayer is the workhorse of any yard-care kit &mdash; here is how Chapin and Solo hand-pump tank sprayers actually compare, why Viton seals decide how long yours lasts, and how to size, use, and maintain the right one.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best pump sprayer for most Canadian yards is a <strong className="text-white">2-gallon (about 8 L) hand-pump tank sprayer with Viton seals</strong>, for homeowners spraying weeds, lawn feed or garden beds a few times a season. Read the seal line before you buy: Smith and SOLO name Viton, while Chapin&rsquo;s basic 2-gallon SureSpray lists nitrile. The makers&rsquo; own specs are compared below.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,7 +126,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best pump pressure sprayer for most Canadian homeowners is a <strong>2 gallon (about 8 litre) hand-pump tank sprayer with Viton seals</strong> and a brass adjustable wand. <strong>Chapin</strong> is the value-and-availability pick, stocked everywhere from Canadian Tire to Home Depot; <strong>Solo</strong> is the rebuild-forever choice with the best seal quality and parts support. Buy the Viton-sealed model in either brand &mdash; the seals are what fail first, and Viton survives the concentrates that destroy cheap O-rings. Drop to a handheld for a patio, or step up to a backpack sprayer for a large property.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best pump pressure sprayer for most Canadian homeowners is a <strong>2 gallon (about 8 litre) hand-pump tank sprayer with Viton seals</strong> and a brass adjustable wand. <strong>Chapin</strong> is the value-and-availability pick, stocked everywhere from Canadian Tire to Home Depot; <strong>Solo</strong> is the rebuild-forever choice with the best seal quality and parts support. Buy a model whose listing names Viton seals (SOLO does; Chapin&rsquo;s own site names no Viton model) &mdash; the seals are what fail first, and Viton survives the concentrates that destroy cheap O-rings. Drop to a handheld for a patio, or step up to a backpack sprayer for a large property.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Viton seals</strong> are the single most important feature &mdash; they resist the oils and solvents that swell and crack ordinary rubber O-rings within a season.</li>
               <li><strong>Chapin</strong> = best value and easiest to find in Canadian stores; <strong>Solo</strong> = best seal quality and rebuildability.</li>
@@ -237,6 +251,21 @@ export default function BestPumpPressureSprayerCanadaPage() {
               <strong className="text-amber-900">⚠️ The seals decide how long it lasts.</strong> Two sprayers can look identical and differ only in seal material. Pay for <strong>Viton</strong> seals, keep a rebuild kit, and a worn O-ring becomes a two-dollar fix instead of a reason to buy a whole new sprayer. For bigger jobs, compare against a <Link href="/blog/backpack-sprayer-canada" className="text-emerald-700 underline font-semibold">backpack sprayer</Link>.
             </p>
           </div>
+          <QuickIdTable
+            title="Pump sprayer specs from the makers: tank, seals, wand"
+            head={['Model', 'Tank', 'Seals, in the maker’s words', 'Wand, hose, pressure', 'Warranty']}
+            rows={[
+              ['Chapin 20002 SureSpray (2 gal)', '2 gal translucent poly', 'Nitrile, “compatible with standard lawn and garden chemicals”', '12 in poly wand, 34 in hose; 40–60 PSI', '1-year limited'],
+              ['Smith Contractor MAX 190216 (2 gal)', '2 gal poly', 'Viton “throughout pump and shut-off”', '21 in poly wand, 50 in hose; 7 nozzles', '1 year'],
+              ['SOLO 456 Pro (5 L)', '5 L, 7 mm tank wall', '“Equipped with VITON® seals”', '50 cm wand plus a 50 cm extension, 1.4 m hose; 3.0 bar maximum', 'Not listed'],
+              ['Chapin 1949 Industrial (3.5 gal)', '3.5 gal Tri-Poxy steel', '“Chemical-resistant”; “Not for use with any acetone based chemicals”', '24 in brass wand; 40–60 PSI', '2-year limited'],
+              ['Field King MAX 190348 (4 gal backpack)', '4 gal poly, built-in agitator', 'Viton', '21 in stainless wand, 50 in hose; up to 150 PSI (25 PSI regulated)', '1 year'],
+            ]}
+            caption={<>From each maker&rsquo;s own product page, read Oct 23, 2026: Chapin <a href="https://chapinusa.com/shop/tank-sprayers/20002-2-gallon-garden-sprayer/" target="_blank" rel="noopener noreferrer" className="underline">20002</a> and <a href="https://chapinusa.com/shop/chapin-sprayers/1949-industrial-concrete-pump-sprayer/" target="_blank" rel="noopener noreferrer" className="underline">1949</a>; The Fountainhead Group&rsquo;s <a href="https://www.thefountainheadgroup.com/products/smith-contractor-max-2-gal-sprayer-model-190216" target="_blank" rel="noopener noreferrer" className="underline">Smith 190216</a> and <a href="https://www.thefountainheadgroup.com/products/field-king-max-190348-backpack-sprayer-for-professionals" target="_blank" rel="noopener noreferrer" className="underline">Field King 190348</a>; <a href="https://in.solo.global/gb/sprayers/12-456-pro-pressure-sprayer-4015966456026.html" target="_blank" rel="noopener noreferrer" className="underline">SOLO 456 Pro</a>. We did not test these sprayers.</>}
+          />
+          <p className="text-sm text-gray-700 leading-relaxed">
+            <strong>What the spec sheets show:</strong> the seal line is the one to read. Chapin rates the nitrile seals on its basic 2-gallon SureSpray for standard lawn and garden chemicals, while Smith, SOLO and Field King name Viton. Smith also tells buyers to check each chemical against the sprayer&rsquo;s seal material, and against the chemical&rsquo;s Safety Data Sheet, before spraying.
+          </p>
         </div>
       </section>
 
@@ -245,7 +274,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Pump Pressure Sprayer in Canada?</h2>
-          <p>The best pump pressure sprayer for most Canadian homeowners is a 2 gallon (roughly 8 litre) hand-pump tank sprayer with Viton seals, a brass or stainless adjustable wand, and an in-line filter &mdash; and both Chapin and Solo build exactly to that spec. The choice between the two brands is less about which is &ldquo;better&rdquo; in the abstract and more about which trade-off fits you: Chapin is the value-and-availability brand you will find on every Canadian Tire and Home Depot shelf, and Solo is the rebuild-forever workhorse you keep going for a decade. Around that core sit two size variations &mdash; a light handheld for a patio and a four-gallon backpack for a large lot &mdash; and the whole decision comes down to matching capacity, seal grade, and wand quality to the ground you actually cover.</p>
+          <p>The best pump pressure sprayer for most Canadian homeowners is a 2 gallon (roughly 8 litre) hand-pump tank sprayer with Viton seals, a brass or stainless adjustable wand, and an in-line filter. Check the seal material model by model: SOLO names Viton on its professional sprayers, while Chapin names no Viton model on its own site. The choice between the two brands is less about which is &ldquo;better&rdquo; in the abstract and more about which trade-off fits you: Chapin is the value-and-availability brand you will find on every Canadian Tire and Home Depot shelf, and Solo is the rebuild-forever workhorse you keep going for a decade. Around that core sit two size variations &mdash; a light handheld for a patio and a four-gallon backpack for a large lot &mdash; and the whole decision comes down to matching capacity, seal grade, and wand quality to the ground you actually cover.</p>
           <p>What separates a sprayer you love from one you curse is rarely the tank. It is the seals, the pump feel, and whether parts are available when something wears &mdash; the unglamorous details that a spec sheet buries and a cheap unit skips. This guide walks through each of them so you buy once and buy right.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
@@ -259,7 +288,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
           <NextUp path="/blog/best-pump-pressure-sprayer-canada" />
           <h2>Chapin vs Solo: Two Good Brands, Two Different Buyers</h2>
           <p>Chapin and Solo dominate the hand-pump tank sprayer market on both sides of the border, and both are genuinely good. Where they diverge is philosophy. <strong>Chapin</strong> is the volume brand: a wide model range at competitive prices, stocked in person at Canadian Tire, Home Depot, Rona, and farm-and-garden retailers, with nice quality-of-life touches on the better models &mdash; funnel-top tanks that fill without spilling, cushioned pump handles, and translucent poly tanks that show the fill level. For the homeowner who sprays a handful of times a season and wants the best value with the easiest local availability, Chapin is the obvious pick.</p>
-          <p><strong>Solo</strong> comes at it from the professional-and-serious-gardener direction. There are fewer models, but the seal quality is a notch above, the pressure holds beautifully, and &mdash; crucially &mdash; the parts catalogue is thorough and well supported in Canada. Solo owners rebuild their sprayers rather than replace them, which over a decade makes the higher up-front price the cheaper path. If you spray often, use aggressive concentrates, or simply hate throwing tools away, Solo rewards you. The key thing to understand is that <em>both</em> brands make Viton-sealed models, and the seal grade matters far more than the badge. Buy the Viton model in whichever brand you prefer rather than defaulting to the cheapest base unit on either shelf.</p>
+          <p><strong>Solo</strong> comes at it from the professional-and-serious-gardener direction. There are fewer models, but the seal quality is a notch above, the pressure holds beautifully, and &mdash; crucially &mdash; the parts catalogue is thorough and well supported in Canada. Solo owners rebuild their sprayers rather than replace them, which over a decade makes the higher up-front price the cheaper path. If you spray often, use aggressive concentrates, or simply hate throwing tools away, Solo rewards you. The key thing to understand is that the seal grade matters far more than the badge: SOLO says all its professional sprayers have Viton seals, while Chapin names no Viton model on its own site (its basic 2-gallon SureSpray lists nitrile). Buy whichever brand you prefer, but choose a listing that names Viton rather than defaulting to the cheapest base unit on either shelf.</p>
 
           <h2>Why Viton Seals Are the Feature That Actually Matters</h2>
           <p>If you remember one thing from this guide, make it this: <strong>the seals are what fail first, and Viton is the seal material that does not.</strong> A pump sprayer is a simple machine &mdash; a tank, a plunger pump, a wand, and a handful of O-rings and a pump cup that hold the pressure. Those rubber parts are the weak point. Many garden concentrates, horticultural oils, and solvent-carried products chemically attack ordinary rubber or EPDM seals, which swell, harden, and start to leak, often within a single season. Once the seals go, the sprayer will not hold pressure, and a cheap unit with no parts support becomes landfill.</p>
@@ -279,6 +308,20 @@ export default function BestPumpPressureSprayerCanadaPage() {
           <RelatedLinks path="/blog/best-pump-pressure-sprayer-canada" />
           <h2>Hand-Pump Tank vs Backpack Sprayer</h2>
           <p>The most common upgrade question is whether to buy a bigger hand tank or jump to a backpack. The honest answer is a weight one. A hand-pump tank sprayer is self-contained and simple, and it is ideal up to about 2 gallon &mdash; beyond that, a single-arm carry and a plunger you re-pump every minute or two stops being pleasant. A <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link> straps to your back so the load rides on your shoulders and hips, carries four gallons comfortably, and uses a side lever you work continuously to hold pressure through a long session. For small and medium jobs the hand tank wins on price and simplicity; for large properties, long fence lines, or repeat perimeter work the backpack wins decisively on comfort and sustained output. If your spraying is heavier still or you want a powered option, our guides to the <Link href="/blog/field-king-backpack-sprayer-review-canada">Field King backpack sprayer</Link> and to <Link href="/blog/best-atv-sprayer-for-tick-yard-canada">ATV sprayers for large tick yards</Link> cover the next steps up.</p>
+
+          <h2>Which Pump Sprayer for Your Job</h2>
+          <p>One sprayer rarely fits every job, because what you put in it matters as much as how much ground you cover. Match the sprayer to the job:</p>
+          <QuickIdTable
+            title="The job, and the sprayer that fits"
+            head={['Job', 'Sprayer', 'Why']}
+            rows={[
+              ['Spot weeds in patio cracks and planters', 'A 1-litre handheld or a 1-gallon tank', 'Light to carry, and cheap enough to keep one per product'],
+              ['Weed killer on a typical yard', 'A 2-gallon tank used only for herbicide, marked “WEEDS”', 'Chapin: multiple chemicals in one sprayer can cause cross contamination, even after cleaning'],
+              ['Lawn feed or insect control on plants you keep', 'A second sprayer that never holds herbicide', 'Same reason; follow each label’s rate and method of application (Health Canada)'],
+              ['Strong cleaners, sealers or solvents', 'A sprayer whose maker rates its seals for that chemical', 'Smith: check the chemical against the seal material and its Safety Data Sheet; Chapin 1949: no acetone-based chemicals'],
+              [<>A large lot or long fence lines</>, <>A backpack sprayer</>, <>The load rides on your back: see our <Link href="/blog/backpack-sprayer-canada">backpack sprayer guide</Link> or the <Link href="/blog/best-battery-backpack-sprayer-canada">battery backpack picks</Link></>],
+            ]}
+          />
 
           <h2>Maintenance: The Three Habits That Make a Sprayer Last</h2>
           <p>A well-chosen sprayer that is neglected still dies young, and a modest one that is looked after lasts for years. Three habits do almost all the work:</p>

@@ -9,6 +9,7 @@ import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
+import QuickIdTable from '@/components/QuickIdTable'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
@@ -17,13 +18,16 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mosquito-dunks-canada-guide'
 const DATE = '2026-04-28'
-const UPDATED = '2026-04-28'
+// Oct 23, 2026: answer-first hero and Quick Answer on the Canadian label for Reg. No. 28888 (6 sq. metres per dunk, 1/4 dunk up to
+// 3 sq. metres, 48 hours, on-property water only, use within a year); new dose-by-water-size table quoting that label; stale retailer
+// price table, Lowe's Canada and Safer's Brand removed (no Safer's BTI in Health Canada's registry); fungus gnat label caveat; 2 FAQs.
+const UPDATED = '2026-10-23'
 const TITLE = 'Mosquito Dunks in Canada: What BTI Is, Where to Buy, and How to Use Them'
 
 const FAQS = [
   {
     question: 'What are mosquito dunks?',
-    answer: 'Mosquito dunks are small donut-shaped tablets containing Bacillus thuringiensis israelensis (BTI), a naturally occurring soil bacterium. When dropped into standing water, the BTI is consumed by mosquito larvae and disrupts their digestive system, killing them within 24 hours. Each dunk treats up to 100 square feet of water surface for approximately 30 days. Dunks are sold by Summit Chemical and other brands at Canadian Tire, Home Depot, Rona, and most garden centres in Canada for $10–$20 per pack of 6.',
+    answer: 'Mosquito dunks are small donut-shaped tablets containing Bacillus thuringiensis israelensis (BTI), a naturally occurring soil bacterium. When dropped into standing water, the BTI is consumed by mosquito larvae and disrupts their digestive system, killing them; the Canadian label says to allow a minimum of 48 hours for control. On the Canadian label each dunk treats up to 6 square metres of water surface (a quarter dunk for up to 3), reapplied at 30-day intervals if larvae are detected; the U.S. label says 100 square feet. In Canada the registered product is Summit Mosquito Dunks, Reg. No. 28888, sold through hardware chains and garden centres.',
   },
   {
     question: 'Are mosquito dunks safe for pets, fish, and humans?',
@@ -31,11 +35,11 @@ const FAQS = [
   },
   {
     question: 'Where should I put mosquito dunks?',
-    answer: 'Use mosquito dunks in any standing water that cannot be drained, including: rain barrels (1 dunk per 50 gallons), ornamental ponds and water features, neglected swimming pools, large bird baths (use Mosquito Bits granules instead for small bird baths), tree holes, drainage ditches, and any container holding water for more than a week. Do NOT use them in puddles that dry out within a few days — they need water present to work.',
+    answer: 'Use mosquito dunks in standing water that cannot be drained, including: rain barrels (a quarter dunk on the Canadian label), ornamental ponds and water features, neglected swimming pools, large bird baths you cannot change weekly, tree holes, flooded low spots, and any container holding water for more than a week. In Canada, not in water designed to flow off your property: the label names ditches, drains, rain gutters and catch basin sumps. Do NOT use them in puddles that dry out within a few days — they need water present to work.',
   },
   {
     question: 'How long do mosquito dunks last?',
-    answer: 'A single mosquito dunk lasts approximately 30 days in still water and treats up to 100 square feet of surface area. Heavy rain or water turnover may reduce effectiveness — replace after major rain events. For continuous summer protection in a rain barrel or pond, drop in a fresh dunk on the first of each month from May through September.',
+    answer: 'The Canadian label says dunks release their BTI “for up to 30 days” and to reapply “at 30 day intervals if mosquito larvae are detected”, at one dunk per 6 square metres of water surface (100 square feet on the U.S. label). Heavy rain or water turnover may reduce effectiveness — check after major rain events. For a rain barrel or pond through the summer, put a fresh dose in each month from May through September while larvae keep appearing.',
   },
   {
     question: 'Do mosquito dunks actually work?',
@@ -47,15 +51,15 @@ const FAQS = [
   },
   {
     question: 'Where to buy mosquito dunks in Canada?',
-    answer: 'Mosquito dunks are widely available in Canada: Canadian Tire (in-store and online), Home Depot Canada, Rona, Lowe\'s Canada, and most garden centres. Look for the Summit Chemical brand (most common — orange and white packaging) or Safer\'s Brand (also widely stocked). Prices range from $10–$20 for a 6-pack, $25–$35 for a 20-pack. Stock up at the start of mosquito season (April–May) — supplies often run low by mid-summer.',
+    answer: 'Look for Summit Mosquito Dunks with REG. NO. 28888 on the label at hardware chains (Canadian Tire, Home Depot Canada and RONA, in-store and online), garden centres and pond shops. In Health Canada’s pesticide registry it is the only BTI briquet with a domestic registration, so a box with only a U.S. EPA number is not the Canadian product. We do not publish prices, because they go stale. Stock up at the start of mosquito season (April–May) — supplies often run low by mid-summer.',
   },
   {
     question: 'How much do mosquito dunks cost in Canada?',
-    answer: 'In Canada, expect to pay $12–$20 for a 6-pack of mosquito dunks at major retailers in 2026. Canadian Tire and Home Depot typically list 6-packs at $13.97–$15.99. Rona is usually $14.49–$16.49. A 20-pack runs $25–$35 — better value if you have multiple rain barrels or a pond. Prices increase 10–15% in peak season (June–August), so buying in April–May saves money. Each dunk treats 100 sq ft of water for ~30 days, so a 6-pack covers a typical Canadian backyard rain barrel for the entire May–September season.',
+    answer: 'We no longer publish a price: shelf prices moved within the 2026 season, and a stale price is worse than none, so check the retailer’s own site and compare the price per dunk between pack sizes. What decides the cost is the dose. On the Canadian label a rain barrel takes a quarter dunk (0.1 to 3.0 square metres of water), reapplied at 30-day intervals if larvae are detected, so one 6-pack covers several barrels for a May–September season. Buying in April–May also beats the mid-summer shortages.',
   },
   {
     question: 'Are mosquito dunks BTI-only or do they have other ingredients?',
-    answer: 'Mosquito dunks are essentially pure BTI (Bacillus thuringiensis subspecies israelensis) compressed with an inert binder that allows the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no pyrethroids or other synthetic insecticides in the tablet. That narrow target list is why dunks are used in ponds and rain barrels; follow the label for use sites. The Summit Chemical brand sold most widely in Canada carries Canadian PCP registration number 28888.',
+    answer: 'Mosquito dunks hold one active ingredient, BTI (Bacillus thuringiensis subspecies israelensis, strain BMP-144, 10.31% on the Canadian label), with the rest of the tablet made up of other ingredients that allow the slow 30-day release. The BTI is the only active ingredient — it specifically targets mosquito and black fly larvae. There are no pyrethroids or other synthetic insecticides in the tablet. That narrow target list is why dunks are used in ponds and rain barrels; follow the label for use sites. The Summit Chemical brand sold most widely in Canada carries Canadian PCP registration number 28888.',
   },
   {
     question: 'Can I use mosquito dunks in a swimming pool?',
@@ -63,11 +67,11 @@ const FAQS = [
   },
   {
     question: 'Where can you buy mosquito dunks near you in Canada?',
-    answer: 'You can buy mosquito dunks near you at most Canadian hardware and garden retailers — Canadian Tire, Home Depot, Rona, and Lowe\'s all stock them in-store, alongside independent garden centres and Amazon.ca. The quickest way to check local stock is to search \'mosquito dunks\' on the Canadian Tire or Home Depot website and filter by store availability using your postal code. Stock is most reliable in April–May; shelves often thin out by mid-July, so buy early.',
+    answer: 'You can buy mosquito dunks near you at most Canadian hardware and garden retailers — Canadian Tire, Home Depot and RONA, alongside independent garden centres and Amazon.ca; check that the box shows REG. NO. 28888. The quickest way to check local stock is to search \'mosquito dunks\' on the Canadian Tire or Home Depot website and filter by store availability using your postal code. Stock is most reliable in April–May; shelves often thin out by mid-July, so buy early.',
   },
   {
     question: 'How do you use mosquito dunks for fungus gnats?',
-    answer: 'To use mosquito dunks against fungus gnats, break a dunk into pieces and either float a chunk in your watering can overnight or steep it in a few litres of water, then use that BTI-infused water on your houseplants. The BTI kills fungus gnat larvae in the soil the same way it kills mosquito larvae. Repeat with each watering for 2–3 weeks to break the breeding cycle. Mosquito Bits are often easier for potting soil because you can sprinkle the granules right on top.',
+    answer: 'To use mosquito dunks against fungus gnats, break a dunk into pieces and either float a chunk in your watering can overnight or steep it in a few litres of water, then use that BTI-infused water on your houseplants. The BTI kills fungus gnat larvae in the soil the same way it kills mosquito larvae. Repeat with each watering for 2–3 weeks to break the breeding cycle. Mosquito Bits are often easier for potting soil because you can sprinkle the granules right on top. That is U.S. practice: in Canada, fungus gnats are not on the Mosquito Dunks label (Reg. No. 28888), which covers mosquito larvae in water only, and Bits are not registered.',
   },
   {
     question: 'What are mosquito dunks made of?',
@@ -75,11 +79,11 @@ const FAQS = [
   },
   {
     question: 'Where do you buy mosquito dunks in stores?',
-    answer: 'In stores, mosquito dunks are stocked in the garden, pest-control, or seasonal aisle at Canadian Tire, Home Depot, Rona, and Lowe\'s, plus most independent garden centres and nurseries. Look for the Summit Chemical orange-and-white box or the Safer\'s Brand package near the insect sprays and larvicides. If you cannot find them on the shelf, ask staff to check the seasonal stockroom — dunks are sometimes only put out once mosquito season begins in May.',
+    answer: 'In stores, mosquito dunks are stocked in the garden, pest-control, or seasonal aisle at Canadian Tire, Home Depot and RONA, plus most independent garden centres and nurseries. Look for the Summit Chemical orange-and-white box with REG. NO. 28888 on the label, near the insect sprays and larvicides. If you cannot find them on the shelf, ask staff to check the seasonal stockroom — dunks are sometimes only put out once mosquito season begins in May.',
   },
   {
     question: 'Do mosquito dunks really work?',
-    answer: 'Yes — in the water you actually treat. Mosquito control districts across North America run BTI larvicides as a standard tool, and published trials repeatedly show over 90% larval mortality within 24–48 hours. One dunk covers roughly 100 sq ft of water surface. What a dunk cannot do is touch adult mosquitoes that are already flying, because those arrive from a neighbour\'s yard, a ravine, a creek, or a storm drain you do not own. That half of the problem is what a barrier spray on vegetation handles.',
+    answer: 'Yes — in the water you actually treat. Mosquito control districts across North America run BTI larvicides as a standard tool, and published trials repeatedly show over 90% larval mortality within 24–48 hours. One dunk covers up to 6 square metres of water surface on the Canadian label (roughly 100 sq ft on the U.S. label). What a dunk cannot do is touch adult mosquitoes that are already flying, because those arrive from a neighbour\'s yard, a ravine, a creek, or a storm drain you do not own. That half of the problem is what a barrier spray on vegetation handles.',
   },
   {
     question: 'Do mosquito dunks kill anything else?',
@@ -91,7 +95,7 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks harmful to humans?',
-    answer: 'No. The U.S. Environmental Protection Agency states that BTI has no toxicity to people, and BTI is registered for residential use in both countries — EPA Reg. No. 6218-47 in the United States and Health Canada PCP #28888 in Canada. The Summit label carries the signal word CAUTION for moderate eye irritation only. Wash your hands after handling a dunk, keep the box out of reach of children, and do not deliberately treat household drinking water at home.',
+    answer: 'No. The U.S. Environmental Protection Agency states that BTI has no toxicity to people, and BTI is registered for residential use in both countries — EPA Reg. No. 6218-47 in the United States and Health Canada PCP #28888 in Canada. The U.S. Summit label carries the signal word CAUTION for moderate eye irritation; the Canadian label reads “CAUTION EYE IRRITANT” and “POTENTIAL SENSITIZER”. Wash your hands after handling a dunk, keep the box out of reach of children, and do not deliberately treat household drinking water at home.',
   },
   {
     question: 'Are mosquito dunks safe for dogs?',
@@ -119,7 +123,7 @@ const FAQS = [
   },
   {
     question: 'Do mosquito dunks expire?',
-    answer: 'Summit does not print a best-before date on the box — the package carries a lot number instead. BTI spores are stable while the tablets stay dry, cool, and out of direct sunlight, so leftovers from a 20-pack normally carry over to the next season if you keep them sealed in a bag or bin. What ruins a dunk is moisture. One that has been wetted, dried, and re-wetted, or stored damp in a shed floor puddle, has already given up part of its BTI and should be replaced rather than trusted.',
+    answer: 'Yes, by the Canadian label: “Store Mosquito Dunks in the original closed container in a cool (25°C or less), dry place and use them within one year from date of manufacture to ensure microbial purity and potency.” The Canadian label has a date-of-manufacture line for that reason, so leftovers carry over to the next season only while they are inside that year. What ruins a dunk fastest is moisture. One that has been wetted, dried, and re-wetted, or stored damp in a shed floor puddle, has already given up part of its BTI and should be replaced rather than trusted.',
   },
   {
     question: 'Do mosquito dunks still work if they sink?',
@@ -131,7 +135,7 @@ const FAQS = [
   },
   {
     question: 'How many mosquito dunks do I need for a season?',
-    answer: 'It depends where you live, because the season length does. In Canada and the northern United States a rain barrel needs about five dunks for a May-to-September season, so a 6-pack covers it. In the Mid-Atlantic and Midwest, budget six or seven for roughly April to October. In the Southeast and Southwest, eight or nine for roughly March to November. On the Gulf Coast and in Florida, Hawaii, and Puerto Rico, mosquitoes breed close to year-round — plan on about twelve, which means a 20-pack, not a 6-pack.',
+    answer: 'It depends where you live, because the season length does. In Canada the label sets a rain barrel (0.1 to 3.0 sq. metres of water) at a quarter dunk, reapplied at 30-day intervals if larvae are detected, so a May-to-September season takes about five quarters and one 6-pack covers several barrels. In the northern United States, budget about five dunks a barrel for the same season. In the Mid-Atlantic and Midwest, budget six or seven for roughly April to October. In the Southeast and Southwest, eight or nine for roughly March to November. On the Gulf Coast and in Florida, Hawaii, and Puerto Rico, mosquitoes breed close to year-round — plan on about twelve, which means a 20-pack, not a 6-pack.',
   },
   {
     question: 'Where can you buy mosquito dunks in the United States?',
@@ -143,15 +147,15 @@ const FAQS = [
   },
   {
     question: 'Do mosquito dunks kill fungus gnats?',
-    answer: 'Yes. The U.S. Environmental Protection Agency lists fungus gnat larvae as one of only three insect groups BTI affects, alongside mosquito and black fly larvae. The BTI kills the larvae living in damp potting soil; it does not kill the adult gnats already flying around your windows, which is why the population seems unchanged for the first week. A fungus gnat cycles from egg to adult in roughly two to three weeks, so keep the treated water going for at least three weeks to break the cycle.',
+    answer: 'Yes. The U.S. Environmental Protection Agency lists fungus gnat larvae as one of only three insect groups BTI affects, alongside mosquito and black fly larvae. The BTI kills the larvae living in damp potting soil; it does not kill the adult gnats already flying around your windows, which is why the population seems unchanged for the first week. A fungus gnat cycles from egg to adult in roughly two to three weeks, so keep the treated water going for at least three weeks to break the cycle. In Canada, though, fungus gnats are not on the Mosquito Dunks label (Reg. No. 28888), which covers mosquito larvae in water only.',
   },
   {
     question: 'How do you use mosquito dunks in potted plants?',
-    answer: 'Do not bury a whole tablet in the pot. Break off about a quarter of a dunk, drop it into a gallon jug or watering can of water, let it steep for 24 to 48 hours, then water your plants with that BTI-infused water. Repeat at every watering for three weeks. Mosquito Bits are easier for potting soil because you sprinkle the granules straight onto the top inch and water them in, which also avoids leaving a tablet sitting in a decorative pot.',
+    answer: 'Do not bury a whole tablet in the pot. Break off about a quarter of a dunk, drop it into a gallon jug or watering can of water, let it steep for 24 to 48 hours, then water your plants with that BTI-infused water. Repeat at every watering for three weeks. Mosquito Bits are easier for potting soil because you sprinkle the granules straight onto the top inch and water them in, which also avoids leaving a tablet sitting in a decorative pot. Both methods are U.S. practice; the Canadian Mosquito Dunks label covers mosquito larvae in water only.',
   },
   {
     question: 'Can you break a mosquito dunk into pieces?',
-    answer: 'Yes, and for small containers you should. Summit\'s rate is one dunk per 100 sq ft of water surface, which is far more BTI than a 5-gallon bucket, a plant saucer, or a watering can needs. K-State Research and Extension uses one quarter of a dunk per 5-gallon bucket. Score the tablet with a knife or snap it by hand — the BTI is distributed evenly through the dunk, so a quarter tablet treats a quarter of the volume and a 6-pack stretches to 24 small treatments.',
+    answer: 'Yes, and for small containers you should. The Canadian label says dunks “can be used whole or in pieces” and puts 0.1 to 3.0 square metres of water at a quarter dunk; Summit\'s U.S. rate is one dunk per 100 sq ft of water surface, which is far more BTI than a 5-gallon bucket, a plant saucer, or a watering can needs. K-State Research and Extension uses one quarter of a dunk per 5-gallon bucket. Score the tablet with a knife or snap it by hand — the BTI is distributed evenly through the dunk, so a quarter tablet treats a quarter of the volume and a 6-pack stretches to 24 small treatments.',
   },
   {
     question: 'Do mosquito dunks work for a lawn?',
@@ -171,14 +175,28 @@ const FAQS = [
     question: 'Can you use mosquito dunks in Canada?',
     answer: 'Yes. In Canada, Mosquito Dunks are a domestic-class larvicide, Reg. No. 28888 under the Pest Control Products Act, with registrant Summit Chemical Company and Bacillus thuringiensis subspecies israelensis strain BMP-144 at 10.31% as the active ingredient; the Canadian label rate is one dunk for up to 6 square metres of water surface, and it limits use to standing or containerized water on your own property that cannot be drained, emptied or changed at least weekly, not gutters, ditches or drains that flow off the property.',
   },
+  // Oct 23, 2026 additions. Sources: Health Canada pesticide registry and the Canadian label for Reg. No. 28888 (label 2023-3665),
+  // read through the registry API; Health Canada, "Importing pesticides for personal use in Canada" (Sep 2025).
+  {
+    question: 'Are mosquito dunks available in Canada?',
+    answer: 'Yes. Mosquito Dunks are registered in Canada as a domestic-class product, Reg. No. 28888, registrant Summit Chemical, with the registration current to December 31, 2028 in Health Canada’s pesticide registry (checked October 23, 2026). Buy the box that shows that number. Health Canada warns that an unregistered import may “not be properly labelled or packaged to ensure safe use, even if the imported pesticide has the same name as a pesticide registered in Canada,” so a U.S. box with only an EPA number is not the Canadian product.',
+  },
+  {
+    question: 'How much of a mosquito dunk goes in a rain barrel?',
+    answer: 'A quarter, on the Canadian label. The label doses by water surface, not volume: “Use one (1) Mosquito Dunk for up to 6 sq. metres water surface, regardless of depth”, with ¼ dunk for 0.1 to 3.0 sq. metres and ½ dunk for 3.0 to 6.0. A rain barrel’s water surface sits in the first row. The label also asks you to “Allow a minimum of 48 hours for control” and to reapply at 30-day intervals if larvae are detected. Screen the barrel too: Health Canada says to empty a barrel “if the water is over a week old, unless it’s protected with a fine screen”.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Mosquito Dunks Canada: BTI Tablets, Where to Buy',
-  description: 'Yes, mosquito dunks are sold across Canada — pure BTI, and the Summit brand carries Canadian PCP #28888. One dunk treats 100 sq ft for 30 days.',
+  // TITLE NOTE (Oct 23, 2026): was 'Mosquito Dunks Canada: BTI Tablets, Where to Buy'; top queries (Jul 23-Oct 20): mosquito dunks canada
+  // 1,697 @ 5.4, mosquito dunks 944 @ 11.2, bti canada 100 @ 6.6, are mosquito dunks available in canada? 26 @ 2.3 (165 clicks on 14,871
+  // impressions). Sibling /blog/mosquito-bits-canada-vs-dunks keeps "mosquito bits"; retailer-named searches are not put in the title.
+  title: 'Mosquito Dunks Canada: Registered + Where to Buy',
+  description: 'Yes: Mosquito Dunks are registered in Canada (Reg. No. 28888). The Canadian label: 1 dunk per 6 m², ¼ dunk for a rain barrel, only water that stays on your lot.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('mosquito-dunks-canada-guide')
@@ -245,10 +263,10 @@ const BUCKET_HOWTO_SCHEMA = {
 export default function MosquitoDunksPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to mosquito dunks in Canada.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to mosquito dunks in Canada.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Dunks Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(BUCKET_HOWTO_SCHEMA) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
@@ -259,7 +277,7 @@ export default function MosquitoDunksPage() {
             <span className="text-white">Mosquito Dunks Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Where to buy them in Canada, how they actually work, and how to combine them with yard barrier spray for total mosquito control.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Yes, Mosquito Dunks are registered in Canada: Reg. No. 28888, a domestic-class BTI larvicide. The Canadian label is stricter than the U.S. one: one dunk for up to 6 m² of water, a quarter dunk for up to 3 m² (a rain barrel), and only water that stays on your property.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -277,12 +295,13 @@ export default function MosquitoDunksPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For long-term standing water like rain barrels and ponds, <AmazonLink search="summit mosquito dunks" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Dunks</AmazonLink> are the best pick &mdash; each donut-shaped BTI tablet treats up to 100 sq ft of water for about 30 days, according to the label. For fast knockdown of unexpected larvae, use quick-release Mosquito Bits instead.</p>
+            <p className="mt-2 text-sm text-gray-800 leading-relaxed">In Canada, go by the Canadian label, not that U.S. 100 sq ft figure: &ldquo;Use one (1) Mosquito Dunk for up to 6 sq. metres water surface, regardless of depth&rdquo;, a quarter dunk for 0.1 to 3.0 sq. metres, &ldquo;Allow a minimum of 48 hours for control&rdquo;, and reapply at 30-day intervals if larvae are detected. Mosquito Bits, the quick-release granules, have no Canadian registration; the registered granules are AquaBac 200G and My-Crobe 200G (<Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-emerald-700 underline font-semibold">what is registered instead of Bits</Link>).</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>One mosquito dunk treats up to 100 sq ft of water surface and lasts about 30 days.</li>
+              <li>Canadian label: one dunk treats up to 6 m² of water surface, a quarter dunk 0.1 to 3.0 m²; reapply at 30-day intervals if larvae are detected.</li>
               <li>Dunks contain only BTI (Bacillus thuringiensis israelensis); the Summit brand carries Canadian PCP registration number 28888.</li>
-              <li>BTI kills mosquito and black fly larvae within 24&ndash;48 hours; the U.S. EPA states its toxins affect only mosquito, black fly, and fungus gnat larvae, with no toxicity to people.</li>
-              <li>A 6-pack costs about $10&ndash;$20 at hardware stores (Canadian Tire, Home Depot, Rona, Lowe&rsquo;s); Amazon.ca listings often run higher, so check the current price before buying.</li>
-              <li>Use one dunk per 50 gallons in a rain barrel and replace it monthly from May through September.</li>
+              <li>The Canadian label says to allow a minimum of 48 hours for control; the U.S. EPA states BTI toxins affect only mosquito, black fly, and fungus gnat larvae, with no toxicity to people.</li>
+              <li>Look for REG. NO. 28888 on the box at hardware stores, garden centres and pond shops; stock is seasonal, so check by postal code. We do not publish prices, because they go stale.</li>
+              <li>In a rain barrel, a quarter dunk (the label&rsquo;s 0.1 to 3.0 m² row); screen the barrel first, and only use it in water that stays on your property.</li>
               <li>Dunks only kill larvae in treated water; adult mosquitoes flying in need a barrier spray.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
@@ -296,34 +315,32 @@ export default function MosquitoDunksPage() {
       {/* WHERE TO BUY — top of page for shopping intent */}
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Dunks: Where to Buy in Canada (Prices Compared)</h2>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Where to Buy in Canada · Updated October 2026</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Mosquito Dunks: Where to Buy in Canada</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            Summit Chemical mosquito dunks (the orange-and-white 6-pack) and Safer&rsquo;s Brand are the two most widely stocked options across Canadian retailers. Here&rsquo;s the typical pricing as of spring 2026:
+            The box to look for is Summit Mosquito Dunks with REG. NO. 28888 P.C.P. ACT on the label: in Health Canada&rsquo;s pesticide registry (searched October 23, 2026) it is the only BTI briquet with a domestic-class registration. We have taken out the price table that used to sit here, because shelf prices moved within the season and a stale price is worse than none. One check matters more than the store: Health Canada warns that an unregistered import may &ldquo;not be properly labelled or packaged to ensure safe use, even if the imported pesticide has the same name as a pesticide registered in Canada.&rdquo;
           </p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
                 <tr>
-                  <th className="px-4 py-3 text-left">Retailer</th>
-                  <th className="px-4 py-3 text-left">6-Pack Price</th>
-                  <th className="px-4 py-3 text-left">20-Pack Price</th>
-                  <th className="px-4 py-3 text-left">Availability</th>
+                  <th className="px-4 py-3 text-left">Where to look</th>
+                  <th className="px-4 py-3 text-left">What to check</th>
+                  <th className="px-4 py-3 text-left">How to check stock</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { name: 'Canadian Tire',     six: '$14.99 – $15.99', twenty: '$29.99 – $34.99', avail: 'In-store + online · most consistent stock' },
-                  { name: 'Home Depot Canada', six: '$13.97 – $15.97', twenty: '$26.97 – $32.97', avail: 'In-store + online · pickup same day' },
-                  { name: 'Rona',              six: '$14.49 – $16.49', twenty: '$28.99 – $34.49', avail: 'In-store + online' },
-                  { name: 'Lowe\'s Canada',    six: '$14.99 – $15.99', twenty: '$29.99 – $33.99', avail: 'In-store + online' },
-                  { name: 'Garden centres',    six: '$13 – $18',        twenty: '$28 – $36',       avail: 'Independent local stocks vary' },
-                ].map(({ name, six, twenty, avail }) => (
+                  { name: 'Canadian Tire',              what: 'The Summit box with REG. NO. 28888 on the label', how: 'canadiantire.ca, by postal code' },
+                  { name: 'Home Depot Canada',          what: 'The same box; it has listed 2-packs and 6-packs', how: 'homedepot.ca, with your store set' },
+                  { name: 'RONA',                       what: 'The same box', how: 'rona.ca, by store' },
+                  { name: 'Garden centres and pond shops', what: 'The same box; independents often have stock when chains are out', how: 'Phone ahead in June and July' },
+                  { name: 'Amazon.ca',                  what: 'A listing whose photos show the Canadian label (Reg. No. 28888), not only a U.S. EPA number', how: 'Read the product photos and the seller details' },
+                ].map(({ name, what, how }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{six}</td>
-                    <td className="px-4 py-3 font-mono text-gray-800">{twenty}</td>
-                    <td className="px-4 py-3 text-xs text-gray-600">{avail}</td>
+                    <td className="px-4 py-3 text-gray-800">{what}</td>
+                    <td className="px-4 py-3 text-xs text-gray-600">{how}</td>
                   </tr>
                 ))}
               </tbody>
@@ -334,7 +351,7 @@ export default function MosquitoDunksPage() {
             <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Prices accurate as of May 2026. Stock up in April–May — supply tightens by July and prices rise 10–15% in peak season. Each dunk treats 100 sq ft of water surface for ~30 days, so a 6-pack covers most Canadian backyard rain barrels through the entire May–September season. Not sure where the standing water on your property is hiding? Track down these <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-emerald-700 underline font-semibold">hidden mosquito breeding spots</Link> before you treat.
+            Stock up in April–May — supply tightens by July. On the Canadian label a quarter dunk treats 0.1 to 3.0 m² of water, so one 6-pack holds 24 rain-barrel doses at 30-day intervals. Not sure where the standing water on your property is hiding? Track down these <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-emerald-700 underline font-semibold">hidden mosquito breeding spots</Link> before you treat.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -389,6 +406,26 @@ export default function MosquitoDunksPage() {
         </div>
       </section>
 
+      {/* CANADIAN DOSE TABLE (Oct 23, 2026). Every quoted cell is the Canadian label on file with Health Canada for Reg. No. 28888
+          (label 2023-3665, dated 2023-07-28, read through the pesticide registry API on Oct 23, 2026); the example column is ours;
+          the bird bath line quotes Health Canada's mosquito page (pest-control-tips/mosquitoes). */}
+      <section className="pt-8 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="How much dunk? The Canadian label, by size of water"
+            head={['Water surface', 'Canadian label', 'Examples', 'Then']}
+            rows={[
+              ['0.1 to 3.0 m²', '¼ dunk', 'A rain barrel, a flower planter or a discarded tire you cannot empty weekly', '“Allow a minimum of 48 hours for control”; reapply “at 30 day intervals if mosquito larvae are detected”'],
+              ['3.0 to 6.0 m²', '½ dunk', 'A small ornamental pond', 'The same'],
+              ['Over 6.0 m²', '1 dunk per 6.0 m²', 'A larger pond, or a flooded low spot that “remains for more than a week and cannot be drained”', 'The same; dunks “can be anchored with a string or staked in place with a small stick”'],
+              ['A bird bath or pet dish', 'None if it can be changed weekly', 'Water you can change easily', 'Health Canada: “replacing water in bird baths and outdoor pet dishes at least twice a week”'],
+              ['Water that leaves your property', '“DO NOT apply”', '“ditches, drains, rain gutters or catch basin sumps that flow into weeping tile beds or municipal storm drain systems”', 'Where outflow is possible, the label says to contact your provincial or territorial regulator first, as a permit may be required'],
+            ]}
+            caption={<>Source: the Canadian label for Mosquito Dunks, REG. NO. 28888 P.C.P. ACT (label 2023-3665, dated 2023-07-28), on Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="text-emerald-700 underline">pesticide registry</a>, read October 23, 2026. The same label says to store dunks &ldquo;in a cool (25°C or less), dry place&rdquo; and to &ldquo;use them within one year from date of manufacture&rdquo;. The examples are ours; check the size of your own water.</>}
+          />
+        </div>
+      </section>
+
       {/* KEY FACTS */}
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
@@ -400,13 +437,14 @@ export default function MosquitoDunksPage() {
                   ['Active ingredient', 'Bacillus thuringiensis israelensis (BTI)'],
                   ['What it kills', 'Mosquito larvae and black fly larvae'],
                   ['Acts on', 'Mosquito, black fly, and fungus gnat larvae only (per the U.S. EPA)'],
-                  ['Coverage per dunk', 'Up to 100 sq ft of water surface'],
-                  ['Duration', '~30 days per dunk'],
-                  ['Where to use', 'Rain barrels, ponds, neglected pools, drainage ditches, tree holes'],
-                  ['Where NOT to use', 'Active chlorinated swimming pools, fast-draining puddles'],
-                  ['Brands in Canada', 'Summit (most common), Safer\'s Brand'],
-                  ['Where to buy in Canada', 'Canadian Tire, Home Depot, Rona, Lowe\'s, garden centres, Amazon.ca'],
-                  ['Typical price', '$10–$20 per 6-pack · $25–$35 per 20-pack'],
+                  ['Coverage per dunk', 'Up to 6 m² of water surface on the Canadian label (100 sq ft on the U.S. label); ¼ dunk for 0.1 to 3.0 m²'],
+                  ['Duration', 'Reapply at 30-day intervals if larvae are detected; allow a minimum of 48 hours for control (Canadian label)'],
+                  ['Where to use', 'Label examples: flooded depressions and ponds on your property; bird baths, flower planters, discarded tires, ornamental ponds and rain barrels that cannot be emptied weekly'],
+                  ['Where NOT to use', 'Water that flows off your property (ditches, drains, rain gutters, catch basin sumps), treated drinking water, spray mixtures or irrigation systems; active chlorinated pools'],
+                  ['Brands in Canada', 'Summit Mosquito Dunks, the only BTI briquet with a domestic registration in Health Canada’s registry'],
+                  ['Where to buy in Canada', 'Hardware chains, garden centres and pond shops, Amazon.ca: check for Reg. No. 28888 on the label'],
+                  ['Typical price', 'Not published here, because prices go stale; compare the unit price at the retailer'],
+                  ['Storage', '“in a cool (25°C or less), dry place”; “use them within one year from date of manufacture” (Canadian label)'],
                   ['Canadian registration', 'PCP #28888 (Summit) — check the number on your package'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -496,7 +534,7 @@ export default function MosquitoDunksPage() {
                   ['Registered for residential use', 'Yes', 'Yes'],
                   ['Organic production', 'EPA states BTI is approved for pest control in organic farming operations', 'Check the specific product listing with your certifier'],
                   ['Documented resistance', 'EPA reports none, even after decades of treatment', 'Same finding — BTI resistance is not a field problem'],
-                  ['Typical retailers', 'Home Depot, Lowe\'s, Walmart, Ace Hardware, Tractor Supply, Target', 'Canadian Tire, Home Depot, Rona, Lowe\'s, garden centres'],
+                  ['Typical retailers', 'Home Depot, Lowe\'s, Walmart, Ace Hardware, Tractor Supply, Target', 'Canadian Tire, Home Depot, RONA, garden centres'],
                 ].map(([k, us, ca]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0 align-top">
                     <td className="px-4 py-3 font-semibold text-brand-800 bg-brand-50 w-1/4">{k}</td>
@@ -583,12 +621,12 @@ export default function MosquitoDunksPage() {
           <h2>Where to Use Mosquito Dunks (and Where Not To)</h2>
           <h3>✓ Ideal locations</h3>
           <ul>
-            <li><strong>Rain barrels</strong> — drop one dunk per 50 gallons. Replace monthly.</li>
+            <li><strong>Rain barrels</strong> — a quarter dunk on the Canadian label (its 0.1 to 3.0 sq. metre row); reapply at 30-day intervals if larvae are detected.</li>
             <li><strong>Ornamental ponds</strong> — koi ponds and water gardens are listed use sites on the Summit label.</li>
             <li><strong>Neglected swimming pools</strong> — pools that have lost chlorine and accumulated rainwater.</li>
-            <li><strong>Drainage ditches</strong> that hold water for weeks.</li>
+            <li><strong>Flooded low spots</strong> on your property that hold water for more than a week and cannot be drained (not a ditch that drains off the property).</li>
             <li><strong>Tree holes and stump cavities</strong> that collect rainwater.</li>
-            <li><strong>Large bird baths</strong> (use Mosquito Bits for small ones).</li>
+            <li><strong>Large bird baths</strong> you cannot change at least weekly (otherwise just change the water).</li>
             <li><strong>Boats covered with tarps</strong> that pool water on top.</li>
           </ul>
 
@@ -597,6 +635,7 @@ export default function MosquitoDunksPage() {
             <li><strong>Active chlorinated swimming pools</strong> — chlorine kills larvae anyway.</li>
             <li><strong>Puddles that dry within 3–5 days</strong> — the dunk needs water to work.</li>
             <li><strong>Drinking water</strong> — don&rsquo;t treat household drinking water. Health Canada&rsquo;s PMRA does not permit Bti products to be applied to treated, finished drinking water.</li>
+            <li><strong>Water that leaves your property</strong> &mdash; the Canadian label says &ldquo;DO NOT apply this product to any water that is designed to flow beyond your property limits (for example, ditches, drains, rain gutters or catch basin sumps that flow into weeping tile beds or municipal storm drain systems).&rdquo;</li>
           </ul>
 
           <h2>Mosquito Dunks vs Mosquito Bits</h2>
@@ -610,7 +649,7 @@ export default function MosquitoDunksPage() {
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Release speed</td><td className="px-3 py-2">Slow (30 days)</td><td className="px-3 py-2">Fast (minutes)</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Best for</td><td className="px-3 py-2">Long-term sources (rain barrel, pond)</td><td className="px-3 py-2">Quick knockdown / small water</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2">Visibility</td><td className="px-3 py-2">Visible in water (some mind this)</td><td className="px-3 py-2">Sinks/dissolves quickly</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2">Typical price</td><td className="px-3 py-2">$10–$20 per 6-pack</td><td className="px-3 py-2">$15–$25 per 8 oz</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2">Canadian registration</td><td className="px-3 py-2">Reg. No. 28888, domestic class</td><td className="px-3 py-2">None in Health Canada&rsquo;s registry (U.S. EPA Reg. No. 6218-86); registered granules here are AquaBac 200G and My-Crobe 200G</td></tr>
             </tbody>
           </table>
           <div className="not-prose my-4 flex flex-wrap items-center gap-3">
@@ -620,7 +659,7 @@ export default function MosquitoDunksPage() {
           <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
 
           <h2>Do mosquito dunks really work?</h2>
-          <p className="speakable"><strong>Yes &mdash; in the water you actually treat.</strong> BTI larvicides are standard equipment for mosquito control districts across North America, and published field trials report high larval mortality within 24&ndash;48 hours of contact. One dunk covers about 100 sq ft of water surface for roughly 30 days. What a dunk cannot do is touch an adult mosquito that is already flying.</p>
+          <p className="speakable"><strong>Yes &mdash; in the water you actually treat.</strong> BTI larvicides are standard equipment for mosquito control districts across North America, and published field trials report high larval mortality within 24&ndash;48 hours of contact. One dunk covers up to 6 sq. metres of water surface on the Canadian label (about 100 sq ft on the U.S. label), reapplied at 30-day intervals if larvae are detected. What a dunk cannot do is touch an adult mosquito that is already flying.</p>
           <p>That distinction is the entire honest answer, and it is where most of the online argument about dunks comes from. Two people can both use dunks correctly and come away with opposite verdicts, because they were solving different problems. If your mosquitoes are being produced <em>on your property</em> &mdash; a rain barrel, a tarp on the woodpile, a clogged gutter, a low spot that stays wet for a week &mdash; a dunk is close to a complete fix for a few dollars. If your mosquitoes are arriving from the ravine behind you, a neighbour&rsquo;s green pool, a creek, or a municipal storm system, you can treat every drop of water you own and still get bitten, because none of that water was yours.</p>
           <p>Two field details worth carrying: <strong>NC State Extension</strong> tells homeowners that dunks &ldquo;last around 3&ndash;4 weeks before they need to be replaced&rdquo; &mdash; slightly shorter than the label&rsquo;s 30 days, so treat 30 days as a ceiling rather than a target, especially in hot weather or after heavy rain that flushes the container. And a dunk does nothing for a <em>lawn</em>; it is a water treatment, and there is a section on that below.</p>
 
@@ -674,13 +713,13 @@ export default function MosquitoDunksPage() {
               </thead>
               <tbody>
                 {[
-                  ['Rain barrel (50 gal)', 'Dunks', 'Set-and-forget for 30 days; the barrel refills itself and you are not there to re-dose'],
+                  ['Rain barrel (50 gal)', 'Dunks (¼ dunk on the Canadian label)', 'Set-and-forget for 30 days; the barrel refills itself and you are not there to re-dose'],
                   ['5-gallon bucket trap', 'Dunks (quarter tablet)', 'You want a month of coverage from a fraction of a tablet'],
                   ['Ornamental pond, koi pond, water garden', 'Dunks', 'Large surface, long-lived water, and koi ponds are a labelled use site'],
-                  ['Drainage ditch or a wet low spot', 'Dunks', 'Slow release survives the days between your visits'],
-                  ['Bird bath or plant saucer', 'Bits', 'Small, shallow, and a floating tablet looks wrong; granules disappear'],
-                  ['Larvae you just found and want gone today', 'Bits', 'Minutes rather than days — this is the whole point of the granules'],
-                  ['Fungus gnats in houseplant soil', 'Bits (or a steeped quarter dunk)', 'Granules sprinkle onto the top inch of soil; a dunk has to be steeped first'],
+                  ['A wet low spot on your property', 'Dunks', 'Slow release survives the days between your visits; in Canada, not a ditch that drains off the property'],
+                  ['Bird bath or plant saucer', 'Usually nothing: change the water', 'Health Canada advises replacing bird bath water “at least twice a week”; the labels are for water you cannot change weekly'],
+                  ['Larvae you just found and want gone today', 'Tip the water out; if you can’t, BTI granules', 'In Canada, the registered granules are AquaBac 200G and My-Crobe 200G (“Allow 24 hours for maximum effect on larvae”); Bits have no Canadian registration'],
+                  ['Fungus gnats in houseplant soil', 'Not a Canadian label use', 'No Canadian BTI label we checked lists fungus gnats; fix the watering and use sticky cards (the U.S. labels allow a steeped drench)'],
                   ['Animal watering trough', 'Dunks', 'Labelled use site, monthly cadence'],
                 ].map(([what, buy, why]) => (
                   <tr key={what} className="border-t border-gray-100 align-top">
@@ -741,7 +780,7 @@ export default function MosquitoDunksPage() {
               <li><strong>Drill overflow holes about six inches below the rim.</strong> Heavy rain then escapes through the holes instead of washing larvae and treated water over the top edge.</li>
               <li><strong>Fill the bucket half to two-thirds.</strong> A 2&ndash;5 gallon bucket is the size the extension services use. The headroom you leave is what makes the overflow holes work.</li>
               <li><strong>Add a handful or two of straw, hay, or grass clippings &mdash; then wait.</strong> Leave it several days until the water smells genuinely foul. That smell <em>is</em> the attractant; a clean bucket of tap water attracts very little.</li>
-              <li><strong>Add one quarter of a mosquito dunk.</strong> Not a whole one. A full dunk is rated for about 100 sq ft of water surface, which is many times what a bucket presents.</li>
+              <li><strong>Add one quarter of a mosquito dunk.</strong> Not a whole one. A full dunk is rated for up to 6 sq. metres of water surface on the Canadian label (about 100 sq ft on the U.S. label), which is many times what a bucket presents.</li>
               <li><strong>Cover the top with hardware cloth and drop in a stick.</strong> The mesh keeps larger animals out while letting mosquitoes in; the stick is an escape ramp for anything that gets in anyway.</li>
               <li><strong>Refresh the quarter dunk every 30 days</strong> through your local season, and top the water up as it evaporates. Never tip an untreated bucket onto the ground &mdash; that releases whatever survived.</li>
             </ol>
@@ -754,7 +793,7 @@ export default function MosquitoDunksPage() {
           </div>
 
           <h2>How to use mosquito dunks: dosing rates, quartering a tablet, and how often to replace</h2>
-          <p className="speakable"><strong>The label rate is one dunk per 100 sq ft of water surface, or one dunk per 50 gallons in a rain barrel, replaced about every 30 days.</strong> Almost every container people actually treat is far smaller than 100 sq ft, which is why the extension services and experienced users break tablets into quarters. Depth barely matters; BTI is dosed by <em>surface area</em>, not volume.</p>
+          <p className="speakable"><strong>On the Canadian label the rate is one dunk for up to 6 sq. metres of water surface, half a dunk for 3.0 to 6.0 and a quarter for 0.1 to 3.0 (a rain barrel), reapplied at 30-day intervals if larvae are detected; the U.S. label says one dunk per 100 sq ft.</strong> Almost every container people actually treat is far smaller than either, which is why the extension services and experienced users break tablets into quarters, and why the Canadian dose table near the top of this page starts at a quarter dunk. Depth barely matters; the Canadian label doses by surface &ldquo;regardless of depth&rdquo;. The table below follows U.S. extension practice; in Canada, use the Canadian label&rsquo;s amounts.</p>
           <div className="not-prose rounded-xl border border-gray-200 overflow-x-auto my-6">
             <table className="min-w-[640px] w-full text-sm">
               <thead className="bg-brand-50">
@@ -767,12 +806,12 @@ export default function MosquitoDunksPage() {
               </thead>
               <tbody>
                 {[
-                  ['Rain barrel, ~50 gallons', '1 dunk', 'Every 30 days', 'The label rate this guide uses throughout'],
+                  ['Rain barrel, ~50 gallons', '1 dunk (¼ dunk on the Canadian label)', 'Every 30 days', 'The Canadian label table puts 0.1 to 3.0 sq. metres of water at ¼ dunk'],
                   ['5-gallon bucket', '¼ dunk', 'Every 30 days', 'K-State Research and Extension rate for the bucket method'],
                   ['Plant saucer, small bird bath', 'A pinch of Bits, or a small broken piece', 'Weekly, or just refresh the water', 'Refilling every 3 days beats the larvae without any product'],
                   ['Pond or water garden, up to 100 sq ft', '1 dunk', 'Every 30 days', 'Koi ponds and water gardens are labelled use sites'],
                   ['Pond larger than 100 sq ft', '1 dunk per 100 sq ft of surface', 'Every 30 days', 'Spread them out rather than clustering in one corner'],
-                  ['Drainage ditch or wet low spot', '1 dunk per 100 sq ft', 'Every 30 days, sooner after heavy rain', 'Flushing rain is the main reason coverage runs short'],
+                  ['Drainage ditch or wet low spot', '1 dunk per 100 sq ft', 'Every 30 days, sooner after heavy rain', 'Flushing rain is the main reason coverage runs short; in Canada, never a ditch that drains off your property'],
                   ['Unused or neglected pool', '1 dunk per 100 sq ft', 'Every 30 days', 'A stopgap — drain or restore chlorination when you can'],
                   ['Animal watering trough', '1 dunk', 'Every 30 days', 'Listed use site on the Summit label; top up rather than draining'],
                   ['Watering can for houseplants, 1 gallon', '¼ dunk steeped 24–48 hours', 'Each watering for 3 weeks', 'The fungus gnat method — see the section below'],
@@ -788,7 +827,7 @@ export default function MosquitoDunksPage() {
             </table>
           </div>
           <h3>Break the dunk into quarters</h3>
-          <p>The BTI is distributed evenly through the tablet, so a quarter tablet treats a quarter of the water. Score it with a utility knife or snap it by hand &mdash; they are brittle and break cleanly along the ring. This is the single biggest cost saving available on this product: a 6-pack broken into quarters becomes <strong>24 small-container treatments</strong>, which is a whole season of several buckets, saucers, and tree holes from one $13 box. Store the leftover pieces dry.</p>
+          <p>The BTI is distributed evenly through the tablet, so a quarter tablet treats a quarter of the water. Score it with a utility knife or snap it by hand &mdash; they are brittle and break cleanly along the ring. This is the single biggest cost saving available on this product: a 6-pack broken into quarters becomes <strong>24 small-container treatments</strong>, which is a whole season of several buckets, saucers, and tree holes from one box. The Canadian label agrees that dunks &ldquo;can be used whole or in pieces&rdquo;. Store the leftover pieces dry.</p>
           <h3>30 days is a ceiling, not a promise</h3>
           <p><strong>NC State Extension</strong> tells homeowners dunks &ldquo;last around 3&ndash;4 weeks before they need to be replaced&rdquo; &mdash; slightly shorter than the 30 days on the label. Heat, heavy rain, and water turnover all shorten it. The practical rule: check at three weeks, and if you see wrigglers, replace early rather than waiting out the calendar month.</p>
 
@@ -800,11 +839,14 @@ export default function MosquitoDunksPage() {
           <p>There is a version of this problem you can design out entirely. A rain barrel that a female cannot get into needs no tablet at all, and the fix is a fine mesh screen stretched under the lid and over the downspout inlet &mdash; the two openings people forget are openings. Screen first, dose second, and the dunk becomes a backstop for the barrel you cannot fully seal rather than the only thing standing between you and a month of wrigglers. <BuyLink tag={AMZ_TAG} search="rain barrel mesh screen cover">Check rain barrel screens on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Do mosquito dunks expire?</h2>
-          <p className="speakable"><strong>There is no printed expiry date &mdash; the box carries a lot number instead.</strong> BTI spores are stable while the tablets stay dry, cool, and out of direct sunlight, so leftovers from a 20-pack normally carry over to the next season if you keep them sealed in a bag or a lidded bin. Moisture is what ruins a dunk, not time on the shelf.</p>
+          <p className="speakable"><strong>Yes: the Canadian label says to &ldquo;use them within one year from date of manufacture to ensure microbial purity and potency.&rdquo;</strong> It also says to store them &ldquo;in the original closed container in a cool (25°C or less), dry place&rdquo;, and the box has a date-of-manufacture line, so leftovers carry over to the next season only while they are inside that year. Keep them sealed in a bag or a lidded bin; moisture is what ruins a dunk fastest.</p>
           <p>A tablet that has been wetted, dried out, and re-wetted &mdash; the one that sat in a puddle on the shed floor, or the half-used pack left open in a humid garage &mdash; has already released part of its BTI and will not give you a full 30 days. That is the one to replace rather than trust. If you buy the 20-pack for the price break, the storage discipline is the whole trick: seal it, keep it off the floor, and keep it out of the sun.</p>
 
           <h2>Mosquito dunks for fungus gnats and houseplants</h2>
           <p className="speakable"><strong>Mosquito dunks work on fungus gnats because fungus gnat larvae are one of only three things BTI kills.</strong> The U.S. Environmental Protection Agency lists them alongside mosquito and black fly larvae. You do not bury a tablet in the pot &mdash; you steep a quarter of a dunk in water for 24 to 48 hours, then water your plants with that BTI-infused water at every watering for three weeks.</p>
+          <div className="not-prose my-4 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
+            <p className="text-sm text-gray-800 leading-relaxed"><strong className="text-amber-900">In Canada, read the label first.</strong> The Canadian Mosquito Dunks label (Reg. No. 28888) is &ldquo;for use only when mosquito larvae are present in&rdquo; standing or containerized water, and fungus gnats are not on it. The same label says: &ldquo;It is an offence under the <em>Pest Control Products Act</em> to use this product in a way that is inconsistent with the directions on the label.&rdquo; The steeped-dunk method below follows U.S. practice; in Canada, the watering fix and the sticky cards are the part of the plan that needs no pesticide label.</p>
+          </div>
           <p>Two things confuse people about this. First, <strong>the BTI kills larvae in the soil, not the adults flying around the window</strong>, so for the first week nothing appears to change while the adults you already have live out their lives. Second, <strong>a fungus gnat goes from egg to adult in roughly two to three weeks</strong>, so a single treated watering does almost nothing &mdash; you have to keep the treated water going long enough to catch every generation still in the pot.</p>
           <div className="not-prose rounded-xl border border-gray-200 overflow-x-auto my-6">
             <table className="min-w-[600px] w-full text-sm">
@@ -892,7 +934,7 @@ export default function MosquitoDunksPage() {
                   ['Southeast & Southwest (GA, SC, TX, AZ, southern CA)', '~March to November', '~9', '20-pack, or two 6-packs'],
                   ['Mid-Atlantic & Midwest', '~April to October', '~7', 'One 6-pack plus a couple spare'],
                   ['Northern tier U.S. (New England, Upper Midwest, Pacific NW, Mountain)', '~May to September', '~5', '6-pack covers it'],
-                  ['Canada — GTA and southern Ontario', 'May to September', '~5', '6-pack covers it — the figure used throughout this guide'],
+                  ['Canada — GTA and southern Ontario', 'May to September', '~5 quarter dunks (the Canadian label puts a barrel at ¼ dunk)', 'One 6-pack covers several barrels for the season'],
                 ].map(([region, from, count, buy]) => (
                   <tr key={region} className="border-t border-gray-100 align-top">
                     <td className="px-3 py-2 font-semibold text-brand-800">{region}</td>

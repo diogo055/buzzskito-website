@@ -15,12 +15,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-rat-trap-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Rat Trap Canada 2026 — Snap vs Electronic + Why Mouse Traps Fail'
-const META_TITLE = 'Best Rat Trap Canada 2026: Why Mouse Traps Fail'
+// TITLE NOTE (Oct 23, 2026): was 'Best Rat Trap Canada 2026: Why Mouse Traps Fail'; top queries, 90 days to Oct 23: rat traps 1,792 at 10.6, best rat traps 1,121 at 6.9, rat trap 935 at 9.1, best rat trap 650 at 5.5, effective rat traps 640 at 11.2, electric rat trap 408 at 8.2, rat zapper 393 at 9.7 (76 clicks on the top 100 queries).
+const META_TITLE = 'Best Rat Traps Canada 2026: Snap vs Electric'
 
 const FAQS = [
   {
@@ -123,14 +125,27 @@ const FAQS = [
     question: 'How big a gap can a rat get through, in inches?',
     answer: 'About one inch (2.5 cm) — roughly the width of a US quarter, or a Canadian toonie. A mouse needs only a quarter inch (6 mm), about a pencil. That difference is why exclusion work has to be measured rather than eyeballed: a gap that stops rats will still let mice in. For the other figures on this page in imperial: an adult Norway rat is 7–18 oz against a house mouse at roughly half an ounce to an ounce, rat droppings run ½–¾ inch with blunt ends versus ⅛–¼ inch and pointed for mice, and traps go 10–16 feet apart along an active runway.',
   },
+  {
+    question: 'What is the most effective rat trap?',
+    answer: 'A rat-sized snap trap, used in numbers and pre-baited. The US CDC recommends traditional snap traps for reducing rodents around the home and advises against glue and live traps, and UC IPM\'s pest note on rats calls snap traps the most effective and most economical way to trap rats. How you use the trap matters more than which one you buy: leave it baited but unset until the bait has been taken several times, set it tight against a wall where rats travel, and run enough traps at once, which UC IPM says can mean a dozen or more in a heavily infested home. A rat that sets off a trap and escapes is very hard to catch again.',
+  },
+  {
+    question: 'Does the Rat Zapper work?',
+    answer: 'The Rat Zapper Classic (RZC001-4) is a Victor electric trap. When a rat walks into the chamber and steps onto the metal plates, it completes a circuit and the trap delivers a continuous high-voltage shock for 2 minutes; a blinking green light then signals the catch, and you tip the body into the garbage without touching it. Victor rates it for mice and average-size rats, up to 20 rats per set of four AA batteries and one rat per setting, and for indoor use only. Like any trap it needs pre-baiting for wary rats, and because it holds one rat at a time, a colony still calls for several snap traps.',
+  },
+  {
+    question: 'What is the best electric rat trap?',
+    answer: 'For most homes, the Victor Electronic Rat Trap, this page\'s no-touch pick. Victor\'s current model, the M241B, runs on four AA batteries and is rated to kill up to 35 rats per set, against up to 20 for Victor\'s Rat Zapper Classic; both flash a green light after a catch, both hold one rat per setting, and both are for indoor use only. Electric traps cost considerably more than snap traps (UC IPM), so they make most sense for one or two rats in a kitchen, apartment or finished basement. For a colony, or anywhere outdoors, several snap traps in stations do the job faster.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Independent Canadian guide to the best rat traps for 2026 — Victor snap vs electronic vs Tomcat, why mouse traps fail on rats, Norway vs roof rats in the GTA, pre-baiting for trap-shy rats, and what rodenticides are actually PMRA-legal.',
+  description: 'The best rat traps in Canada: a rat-sized snap trap for most homes, an electric trap or Rat Zapper if you never want to see the rat, and how to set them.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('best-rat-trap-canada')
@@ -138,7 +153,7 @@ const AMZ_TAG = tagForSlug('best-rat-trap-canada')
 export default function BestRatTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent 2026 Canadian guide to rat traps — snap vs electronic, rat-vs-mouse trap sizing, pre-baiting technique, and PMRA-legal rodenticide rules.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent 2026 Canadian guide to rat traps — snap vs electronic, rat-vs-mouse trap sizing, pre-baiting technique, and PMRA-legal rodenticide rules.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Rat Trap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -151,7 +166,7 @@ export default function BestRatTrapCanadaPage() {
             <span className="text-white">Best Rat Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Which rat traps actually work in Canadian homes, why a mouse trap will never kill a rat, the pre-baiting trick for trap-shy colonies, and what rodenticides are legally sold here — independent research, updated July 2026.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best rat trap for most Canadian homes is a rat-sized wooden snap trap such as the Victor rat trap, set four to six at a time along the walls. If you never want to see or touch the rat, an electric trap (the Victor Electronic Rat Trap or the Rat Zapper) kills it inside a closed box, indoors only.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -233,6 +248,7 @@ export default function BestRatTrapCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-brand-700 mb-2">On this page</p>
             <ul className="grid gap-x-6 gap-y-1.5 text-sm text-brand-800 sm:grid-cols-2">
               {[
+                ['#situation', 'Which rat trap for your situation?'],
                 ['#mouse-traps-fail', 'Why mouse traps fail on rats'],
                 ['#which-trap', 'Which rat trap should you buy?'],
                 ['#comparison', 'Rat trap comparison table'],
@@ -281,6 +297,31 @@ export default function BestRatTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="victor electronic rat trap">Victor electronic rat trap →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="tomcat rat snap trap">Tomcat rat snap trap →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Rat traps compared: how each type works, who it suits, its limits"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Wooden snap trap (Victor)', 'The rat steps on the trigger and a spring bar snaps shut; Victor’s Easy Set rat trap has an expanded trigger with a firm and a sensitive setting', 'Several rats at once in a basement, garage or crawl space', 'Takes a firm hand to set; you see and handle the catch; a rat that sets it off and escapes becomes very hard to trap again'],
+              ['Plastic snap trap (Tomcat Rat Snap Trap)', 'Sets by pressing the top down by hand or foot until it clicks; interlocking teeth hold the rat; a removable bait cup lets you bait it without setting it', 'People who do not want their fingers near a spring bar; pre-baiting', 'Tomcat says not to use it where children or pets can reach it, because it can cause serious injury'],
+              ['Electric trap (Victor Electronic Rat Trap, M241B)', 'The rat walks into a closed chamber and steps on metal plates that deliver a high-voltage shock; a green light flashes after a catch', 'One or two rats indoors, when you never want to see or touch one', 'Indoor use only; one rat per setting; up to 35 rats per set of four AA batteries; costs considerably more than snap traps and still needs pre-baiting'],
+              ['Electric trap (Rat Zapper Classic, RZC001-4)', 'The same closed chamber and plates, with a continuous high-voltage shock for 2 minutes; a blinking green light signals a catch', 'Mice and average-size rats in attics, garages, basements and kitchens', 'Indoor use only; one rat per setting; up to 20 rats per set of four AA batteries; Victor says not to use rechargeable batteries'],
+              ['Live cage trap', 'A door shuts behind the rat and nothing is killed', 'Packrats, and places where a kill trap cannot be used', 'UC IPM does not recommend live trapping of rats for non-professionals; the CDC advises against live traps because a frightened rodent urinates, which raises the risk of illness; release is restricted in many places'],
+              ['Glue board', 'The rat sticks to an adhesive tray', 'Not recommended for rats', 'The CDC advises against glue traps; UC IPM says they are not generally recommended for non-professional use and should never be used outdoors, where wildlife gets stuck'],
+            ]}
+            caption={<>From the makers&rsquo; own pages, checked October 23, 2026: Victor&rsquo;s <a href="https://www.victorpest.com/victor-wide-metal-pedal-rat-trap-m205" target="_blank" rel="noopener noreferrer" className="underline">Easy Set rat trap (M205)</a> and <a href="https://www.victorpest.com/victor-electronic-rat-trap-m241b" target="_blank" rel="noopener noreferrer" className="underline">Electronic Rat Trap (M241B)</a>, Woodstream Canada&rsquo;s <a href="https://www.woodstreambrands.ca/rat-zapper-classic-rat-trap-rzc001-4" target="_blank" rel="noopener noreferrer" className="underline">Rat Zapper Classic</a> page, and Tomcat&rsquo;s <a href="https://scottsmiraclegro.com/en-us/brands/tomcat/products/mouse-and-rodent-control/0361701.html" target="_blank" rel="noopener noreferrer" className="underline">Rat Snap Trap</a> page. Limits also from the US CDC&rsquo;s <a href="https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" target="_blank" rel="noopener noreferrer" className="underline">trapping guidance</a> (April 2024) and UC IPM&rsquo;s <a href="https://ipm.ucanr.edu/home-and-landscape/rats/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: Rats</a> (June 2025). The release and packrat notes restate this page&rsquo;s own sections below.</>}
+          />
+
+          <h2 id="situation">Which Rat Trap for Your Situation?</h2>
+          <ul>
+            <li><strong>Rats in the basement, garage or crawl space</strong> (the usual Ontario case, Norway rats): four to six wooden snap traps, baited but left unset for three to five nights, then armed together, tight against the walls. UC IPM says a heavily infested home may need a dozen or more.</li>
+            <li><strong>One or two rats in a kitchen, apartment or finished basement, and you never want to see one:</strong> an electric trap, either the Victor Electronic Rat Trap or the Rat Zapper Classic. Both are for indoor use only and hold one rat at a time.</li>
+            <li><strong>The spring bar makes you nervous:</strong> the Tomcat Rat Snap Trap sets with a press of the hand or foot, and its removable bait cup lets you pre-bait it without arming it.</li>
+            <li><strong>Children or pets in the house:</strong> put snap traps inside a lockable trap station, or only where they cannot reach. Tomcat&rsquo;s own directions say not to use its trap where children and pets can reach it.</li>
+            <li><strong>Outdoors, in the yard, shed or garden:</strong> a rat-sized snap trap inside an anchored, weather-resistant station. Both Victor electric traps above are rated for indoor use only, and UC IPM says glue boards should never be used outdoors.</li>
+            <li><strong>Rats keep coming back:</strong> the way in is still open. UC IPM says to seal every hole larger than 1/4 inch (6 mm) to keep out both rats and mice; see <a href="#exclusion">exclusion</a> below and our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link>.</li>
+            <li><strong>Droppings 3–6 mm long with pointed ends:</strong> those are mice, not rats. Use our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> instead.</li>
+          </ul>
 
           <h2 id="mouse-traps-fail">Why Do Mouse Traps Fail on Rats?</h2>
           <p>Because of mass. An adult Norway rat weighs 200–500 grams; a house mouse weighs 15–30 grams. A mouse trap&rsquo;s spring bar is engineered to break the neck of a 20-gram animal — against a rat that&rsquo;s 10–20 times heavier, it delivers a painful pinch instead of a kill. The rat tears free, and now you have a bigger problem than before: a <strong>trap-shy rat</strong>.</p>

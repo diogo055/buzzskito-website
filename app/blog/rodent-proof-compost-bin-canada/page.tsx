@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'rodent-proof-compost-bin-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-23'
 const TITLE = 'Rodent-Proof Compost Bins in Canada — What Actually Keeps Rats Out'
-const META_TITLE = 'Rodent-Proof Compost Bins in Canada'
+// TITLE NOTE (Oct 23, 2026): was 'Rodent-Proof Compost Bins in Canada'; top queries Jul 23-Oct 20: best compost bins 314 impr (pos 7.0), compost bin near toronto 86, animal proof compost bin 51, best rat proof compost bin 11 (0 clicks across the four).
+const META_TITLE = 'Best Rat- and Animal-Proof Compost Bins Canada'
 
 const FAQS = [
   {
@@ -62,11 +64,19 @@ const FAQS = [
     question: 'Will a compost bin attract rats to my yard even if it is sealed?',
     answer: 'A properly sealed bin is not a food source, so it does not draw rodents the way an open bin does. What it can still do is provide shelter — a warm, dry cavity under a bin or behind a frame is attractive on its own — so keep the base clear, do not stack yard bags against it, and leave a walkable gap all around. Also look at the rest of the yard honestly: spilled birdseed under a feeder, fallen fruit, dog waste, unsecured garbage, and pet food left outside are all bigger draws than a compost bin. Fixing the composter and leaving those in place solves nothing.',
   },
+  {
+    question: 'What is the best animal-proof compost bin?',
+    answer: 'One that closes all three ways in: underneath, through gaps, and through the lid. Rats and mice burrow and squeeze through any gap a quarter or a dime passes, and raccoons open resting lids and tip bins over. So look for a closed floor or a drum raised on a frame, no opening wider than about 6 mm, a latching lid and an anchored base. Among bins sold in Canada, SpeediBin’s metal bins come closest on paper: a screen or quarter-inch mesh floor, and a lid its maker says latches to keep out raccoons and dogs.',
+  },
+  {
+    question: 'Where can I get a compost bin near Toronto?',
+    answer: 'Canadian Tire, Home Depot, Rona and Lee Valley sell composters in the GTA, mostly in spring and summer, and Amazon.ca carries them year-round. Do not count on a government sale: York Region says its composter sale has wrapped up and suggests checking with your city or town or a local garden or hardware store, and the City of Toronto gives away free finished compost at its Community Environment Days, not backyard composters. Whichever bin you buy, give it a closed floor before the first kitchen scraps go in.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Rodent-proof compost bins for Canadian yards: sealed tumblers, steel bins, hardware-cloth floors, lid clips, winter reality and the cheap retrofit.',
+  description: 'The best rat- and animal-proof compost bin is a sealed tumbler on a frame or a metal bin with a mesh floor. Makers’ specs compared, plus the cheap retrofit.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -91,7 +101,7 @@ export default function RodentProofCompostBinCanadaPage() {
             <span className="text-white">Rodent-Proof Compost Bins Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A sealed floor, a gap-free shell, and a lid that latches &mdash; the three specs that separate a real rodent-proof composter from a plastic dome with a rat tunnel under it. Plus the $40 retrofit that fixes the bin you already own.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best rat- and animal-proof compost bin for most Canadian yards is a <strong className="text-white">sealed dual-chamber tumbler on a frame</strong>, for anyone composting kitchen scraps where rats are around: there is nothing under it to burrow into. Already own an open-bottom bin? A quarter-inch hardware-cloth floor and lid clips close it for a fraction of the price of a new one.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -108,7 +118,7 @@ export default function RodentProofCompostBinCanadaPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Rats pass any quarter-sized opening; mice pass any dime-sized one. Check the lid seam, hatch, vents and drain holes &mdash; not just the walls.</li>
               <li>Elevation beats armour: a drum on a frame removes the burrow route entirely, which is the single most common way bins are breached.</li>
-              <li>Chicken wire is not exclusion. Use <strong>quarter-inch (6 mm) galvanized hardware cloth</strong> for any floor panel or vent screen.</li>
+              <li>Put wire under the bin. York Region suggests chicken wire, but the Regional District of Central Okanagan says chicken wire is not strong enough and its holes are too big, so use <strong>quarter-inch (6 mm) galvanized hardware cloth</strong> for any floor panel or vent screen.</li>
               <li>Never compost meat, fish, dairy, oil, cooked food or pet waste in a backyard bin &mdash; those go to municipal green-bin organics.</li>
               <li>Ontario reality: composting effectively stops below freezing, roughly December to March, while rodent pressure peaks September to November.</li>
               <li>If you only compost leaves and yard waste with no rodent pressure, the cheap open bin is genuinely the right buy. We say so below.</li>
@@ -252,6 +262,20 @@ export default function RodentProofCompostBinCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Enclosed tumblers and steel bins typically sit in the <strong>$150&ndash;$400 CAD</strong> range in Canada; a hardware-cloth roll plus lid clips is a fraction of that. Garden aisles at Canadian Tire, Home Depot and Rona thin out sharply after August &mdash; check current Amazon.ca listings for what is actually in stock today.
           </p>
+          <QuickIdTable
+            title="Bins sold in Canada: what the makers say"
+            head={['Bin', 'Type and size', 'Floor and lid', 'Rodent claim, in the maker’s words']}
+            rows={[
+              ['FCMP Outdoor IM4000', 'Dual-chamber tumbler, about 43 US gal (162 L) in both chambers; recycled polypropylene drum on a galvanized steel frame', 'Drum sits on the frame; removable door, no latch described; aeration holes', 'None stated'],
+              ['Enviro World FreeGarden EARTH', 'Stationary bin, 11 cu ft (311 L); 100% recycled materials; 10-year warranty', 'Twist-locking lid; the base is not described', '“Rodent resistant”'],
+              ['SpeediBin Deluxe', 'Metal bin, 107 US gal (405 L); 24-gauge powder-coated galvanized steel; made in Canada', '22-gauge perforated aluminum screen floor; lid “latches closed to preclude raccoons and dogs”', '“Metal construction keeps out mice, rats, and raccoons”'],
+              ['SpeediBin Scholar', 'Metal and cedar bin, 92 US gal (347 L)', '1/4-inch metal mesh floor; lid “locks to preclude raccoons and dogs”', 'The same maker claim'],
+            ]}
+            caption={<>From each maker&rsquo;s own page, read Oct 23, 2026: <a href="https://fcmponline.com/products/im4000-dual-chamber-tumbling-composter" target="_blank" rel="noopener noreferrer" className="underline">FCMP Outdoor</a> (Forest City Models and Patterns), <a href="https://enviroworld.ca/environmental-products/freegarden-earth" target="_blank" rel="noopener noreferrer" className="underline">Enviro World</a> (Brampton, Ont.) and <a href="https://speedibin.com/pages/speedibin-specifications" target="_blank" rel="noopener noreferrer" className="underline">SpeediBin</a> (Merville, B.C.). The claims are the makers&rsquo;; we have not tested these bins.</>}
+          />
+          <p className="text-sm text-gray-700 leading-relaxed">
+            <strong>What the spec sheets show:</strong> only SpeediBin describes both a closed floor (a screen or quarter-inch mesh) and a lid that latches, two of the three things this page checks for. The FCMP tumbler gets its protection from height rather than a sealed shell, so check its door and aeration holes with a coin. Enviro World calls its EARTH bin rodent resistant but does not describe the base, so plan on a hardware-cloth floor under it.
+          </p>
         </div>
       </section>
 
@@ -313,7 +337,7 @@ export default function RodentProofCompostBinCanadaPage() {
           <h2>The Retrofit: Fixing the Bin You Already Own</h2>
           <p>Most people reading this already own an open-bottom plastic composter, and the honest advice is not to bin it. A quarter-inch galvanized hardware-cloth floor turns it into a genuinely rodent-resistant enclosure for a small fraction of the price of a new tumbler, and the job takes an afternoon.</p>
           <p>Empty the bin and set it aside. Cut a hardware-cloth panel oversized by about 15 cm on every side, lay it flat where the bin will sit, then set the bin down on it and fold the excess mesh up the outside of the wall, securing it with heavy zip ties or stainless wire through the bin&rsquo;s existing vent slots. The fold-up is the part people skip and the part that matters &mdash; a flat panel with a bin balanced on top leaves a seam at the perimeter, and the seam is exactly where a rat will work. Pin the whole assembly with ground anchors so the bin cannot be tipped or shoved off the mesh by a raccoon.</p>
-          <p>Two material notes. Use <strong>quarter-inch</strong> mesh, not half-inch: half-inch stops rats and passes mice. And use galvanized, not plain steel &mdash; buried mesh in Canadian soil goes through freeze, thaw, and constant moisture, and a plain steel panel will rust through in a couple of seasons. Chicken wire is not a candidate at all; the hexagonal weave is soft enough for a rat to work apart with its teeth, and the openings are far too large regardless.</p>
+          <p>Two material notes. Use <strong>quarter-inch</strong> mesh, not half-inch: half-inch stops rats and passes mice. And use galvanized, not plain steel &mdash; buried mesh in Canadian soil goes through freeze, thaw, and constant moisture, and a plain steel panel will rust through in a couple of seasons. On chicken wire, official advice differs: <a href="https://www.york.ca/compost" target="_blank" rel="noopener noreferrer" className="underline">York Region</a> suggests a base of chicken wire under the composter to keep pests and rodents out, while the <a href="https://www.rdco.com/media/slrd0hz5/compostrodents.pdf" target="_blank" rel="noopener noreferrer" className="underline">Regional District of Central Okanagan</a> says chicken wire is not strong enough and its holes are too big, and recommends 16- or 18-gauge mesh with openings no larger than 1/4 inch. A <a href="https://stlawrence.cce.cornell.edu/resources/composting-preventing-animal-nuisances" target="_blank" rel="noopener noreferrer" className="underline">Cornell Waste Management Institute fact sheet</a> suggests 1/4- to 1/2-inch galvanized hardware cloth under the bin. This guide follows the stricter advice: quarter-inch galvanized hardware cloth, in as heavy a gauge as you can find.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="hardware cloth 1/4 inch galvanized">Check hardware cloth on Amazon.ca &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="heavy duty ground anchor stakes">Check ground anchors &rarr;</BuyLink>
@@ -329,6 +353,21 @@ export default function RodentProofCompostBinCanadaPage() {
           <p>Not everyone needs to spend three hundred dollars. If you compost only yard waste &mdash; leaves, grass clippings, spent annuals, garden trimmings &mdash; rodents are not interested, because there is nothing there worth the trip. An open plastic dome or a simple wire enclosure is the correct tool, costs very little, and composts perfectly well. Buying a sealed steel bin for a leaf pile is money spent on a problem you do not have.</p>
           <p>The line to watch is food scraps plus pressure. Ask three questions honestly. Are you putting kitchen scraps in the bin? Have you seen droppings, a burrow hole about the diameter of a golf ball near a foundation or fence line, or greasy rub marks along a wall? And is your property in a setting that reliably supports rats &mdash; a laneway neighbourhood, near active construction, near a commercial food strip, near a ravine or transit corridor? Two yeses means buy the sealed bin. One yes means retrofit the bin you own. If you are not sure whether what you are seeing is rats or mice, our guide on <Link href="/blog/what-does-mouse-poop-look-like-canada">identifying droppings</Link> settles it in about a minute.</p>
           <p>And be equally honest about the rest of the yard. A perfectly sealed composter next to a spilling bird feeder, fallen fruit, dog waste, an unsecured garbage bin, or a bowl of pet food left on the deck has not removed the food supply &mdash; it has only removed one line item from it. <Link href="/blog/best-squirrel-proof-bird-feeder-canada">Feeder spill</Link> in particular is the one people never count, and it feeds far more rodents than any compost bin.</p>
+
+          <h2>Which Bin for Your Yard</h2>
+          <p>Pick the bin for what goes in it and what lives nearby. Each row restates a finding from this page:</p>
+          <QuickIdTable
+            title="Your yard, and the bin that fits"
+            head={['Your yard', 'Buy', 'Why']}
+            rows={[
+              ['Kitchen scraps, and rats or droppings seen nearby', 'A sealed tumbler on a frame, or a metal bin with a mesh floor', 'Nothing to burrow into; rats pass any quarter-sized gap'],
+              ['You already own an open-bottom bin', 'Quarter-inch galvanized hardware cloth plus lid clips', 'Closes the floor and the lid for a fraction of the price of a new bin'],
+              ['Raccoons open or tip the bin', 'A latching lid plus ground anchors', 'A lid that only rests is a door; anchors stop the tipping'],
+              ['Leaves and yard waste only', 'Any open bin or wire enclosure', 'Rodents are not interested in yard waste'],
+              ['Meat, fish, dairy, fats or pet waste', 'Nothing: keep them out of the backyard bin', 'York Region’s “no” list for backyard composting includes bones, dairy, meat or fish, dog or cat waste, and fats, oils and grease'],
+            ]}
+            caption={<>The last row is from <a href="https://www.york.ca/compost" target="_blank" rel="noopener noreferrer" className="underline">York Region&rsquo;s compost page</a>; the GTA buying notes in the FAQ below come from the same page and the City of Toronto&rsquo;s <a href="https://www.toronto.ca/services-payments/recycling-organics-garbage/houses/yard-waste/" target="_blank" rel="noopener noreferrer" className="underline">yard waste page</a>. Both read Oct 23, 2026.</>}
+          />
 
           <h2>Autumn Is the Deadline</h2>
           <p>Rodent pressure on Canadian yards is seasonal and predictable. Through the summer, rats and mice live comfortably outdoors on abundant natural food. As overnight temperatures start holding below about 10&nbsp;&deg;C and that food collapses, they begin systematically working every yard for a reliable calorie source and a warm cavity &mdash; and a compost bin is both. The pressure builds from September and peaks through October and November, which is precisely when a bin with an open bottom gets colonised.</p>

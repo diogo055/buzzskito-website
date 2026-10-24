@@ -15,12 +15,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-dehumidifier-for-mold-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Dehumidifier for Mold in Canada — Stop Mould by Holding Humidity Under 60%'
-const META_TITLE = 'Best Dehumidifier for Mold Canada: The 60% Rule'
+// TITLE NOTE (Oct 23, 2026): was 'Best Dehumidifier for Mold Canada: The 60% Rule'; top queries: best dehumidifier canada 1,113, best dehumidifiers canada 119, best dehumidifier for mold 93, best dehumidifier 17 (12 clicks). Kept 'for Mould' (Canadian spelling, set at the Oct 23 fact-check) after 'Best Dehumidifier': best-large-capacity-dehumidifier-canada also ranks for 'best dehumidifier canada' (946 impr, 6.9); no basement, 70-pint or garage words.
+const META_TITLE = 'Best Dehumidifier for Mould Canada: 2026 Picks'
 
 const FAQS = [
   {
@@ -71,11 +73,19 @@ const FAQS = [
     question: 'Is a dehumidifier or a basement waterproofing job the real fix?',
     answer: 'They solve different problems, and a dehumidifier cannot substitute for fixing an actual water intrusion. If your basement is damp because of humid air, poor ventilation, or seasonal moisture, a right-sized dehumidifier on continuous drain is the correct, cost-effective fix. But if water is physically entering — a cracked foundation, failed grading, a leaking pipe, groundwater through the slab — no dehumidifier can keep up with a genuine leak, and running one is treating the symptom while the source keeps feeding it. In that case the dehumidifier is a companion to the repair, not a replacement for it. Diagnose whether you have a humidity problem or a water problem first; the dehumidifier is the answer to the former.',
   },
+  {
+    question: 'Are NOMA dehumidifiers any good?',
+    answer: 'NOMA dehumidifiers are sold at Canadian Tire, and the useful check is the same as for any brand. The ENERGY STAR certified-product list includes five NOMA and NOMA iQ models for the Canadian market, in 35- and 50-pint sizes, certified in September 2025. BuzzSkito does not test dehumidifiers, so judge a NOMA by the three things this guide says decide mould control: a humidistat you can set to a number, enough capacity for the space, and a drain-hose port or a pump. Check the model number on the box against the ENERGY STAR list.',
+  },
+  {
+    question: 'Is there an anti-mould dehumidifier?',
+    answer: 'No dehumidifier kills or removes mould. What one can do is hold relative humidity in the 30% to 50% range Health Canada recommends, which keeps new mould from growing. Mould that is already there has to be cleaned: Health Canada says small and medium areas can generally be cleaned yourself with water and dish soap, with no need for bleach, and recommends a qualified professional for a single patch larger than 3 m². Fix the moisture source as well, or the mould comes back.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Mould needs humidity above 60% to grow. How to size a dehumidifier for a damp Canadian basement, why a hygrostat and continuous drain matter, plus our picks.',
+  description: 'Stop mould with an Energy Star dehumidifier whose humidistat holds 30–50% humidity, Health Canada’s range, on a drain hose. Picks by space, and when to clean.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -100,7 +110,7 @@ export default function BestDehumidifierForMoldCanadaPage() {
             <span className="text-white">Best Dehumidifier for Mold</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Mould is a humidity problem before it is a cleaning problem &mdash; keep a room below 60% relative humidity and the spores can&rsquo;t take hold. Here is why a hygrostat and continuous drainage matter more than the badge, how to size the unit correctly, and our Frigidaire and Midea picks for Canadian basements.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for a damp Canadian basement, the best dehumidifier for mould is a 35&ndash;50 pint Energy Star unit with a humidistat, like the Frigidaire picked below, set to hold humidity between 30% and 50% (Health Canada&rsquo;s range) and run on a drain hose. It stops new mould from growing; it does not clean mould that is already there.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -265,6 +275,21 @@ export default function BestDehumidifierForMoldCanadaPage() {
           <p>Mould spores are always in the air &mdash; you cannot eliminate them, and you do not need to. What they require to germinate and colonise a surface is moisture, and the practical dividing line is relative humidity. Below roughly 60% RH, the moisture available in the air and on surfaces is generally not enough for common household mould to take hold; above 60% it becomes possible, and above 70% it becomes easy. That is the entire mechanism behind using a dehumidifier against mould: you are not killing anything, you are keeping the humidity under the threshold where the spores can do their work.</p>
           <p>The target most sources converge on is holding indoor humidity in the 45&ndash;50% band &mdash; comfortably under 60%, and low enough to also discourage dust mites, which thrive in the same damp conditions. That connection is why our companion guide to the <Link href="/blog/best-air-purifier-for-dust-mites-canada">best air purifier for dust mites</Link> pairs so naturally with this one: the same humidity that feeds mould feeds mites, and controlling it helps both problems at once. Buy a cheap separate hygrometer to verify the reading, because a built-in sensor can drift over time and you want to know the real number, not the number the display hopes for.</p>
 
+          <QuickIdTable
+            title="Humidity and mould: what each reading means"
+            head={['Reading or situation', 'What Health Canada or the EPA says', 'What to do']}
+            rows={[
+              ['30% to 50% relative humidity', 'Health Canada: keep indoor humidity “between 30% and 50%”; the EPA’s ideal is the same band', 'Set the humidistat here; this guide aims for 45–50%'],
+              ['Above 50%', 'Health Canada: run a dehumidifier when humidity is above 50% or moisture condenses on cold surfaces such as windows', 'Let the humidistat switch the unit on'],
+              ['Above 60%', 'EPA: keep indoor humidity below 60 percent', 'Mould can take hold; a unit that never gets the room under 60% is too small'],
+              ['A wet area after a leak or flood', 'EPA: dry it within 24–48 hours; Health Canada: mould begins to grow within 48 hours', 'Run the dehumidifier with the windows closed, and fix the leak'],
+              ['Small mould: 1 m² or less, up to three patches', 'Health Canada: clean it yourself with water and dish soap and proper protective equipment; “There’s no need to use bleach”', 'Clean it, then hold the room under 50%'],
+              ['Medium: more than three patches, under 3 m² in total', 'Health Canada: an assessment by a qualified professional is recommended, though most medium areas can be cleaned without one', 'Get it assessed if you can, then keep humidity low'],
+              ['Large: one patch over 3 m²', 'Health Canada: a qualified professional should assess and clean it up', 'Remediation first; the dehumidifier keeps it from coming back'],
+            ]}
+            caption={<>From Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/reduce-humidity-moisture-mould.html" target="_blank" rel="noopener noreferrer" className="underline">Mould</a> page and <a href="https://www.canada.ca/en/health-canada/services/publications/healthy-living/addressing-moisture-mould-your-home.html" target="_blank" rel="noopener noreferrer" className="underline">Guide to addressing moisture and mould indoors</a>, and the US EPA&rsquo;s <a href="https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" target="_blank" rel="noopener noreferrer" className="underline">A Brief Guide to Mold, Moisture, and Your Home</a>, read October 23, 2026. A dehumidifier controls humidity; it does not remove mould.</>}
+          />
+
           <h2>Why the Hygrostat Is the Feature That Matters Most</h2>
           <p>A hygrostat &mdash; also spelled humidistat &mdash; is the humidity sensor and control that lets the unit target a relative humidity and cycle to maintain it. It is the difference between a dehumidifier that holds your basement at a steady 48% around the clock and one that simply runs until its bucket is full and then quits. For mould control the hygrostat does two indispensable jobs. First, it keeps the room reliably under the mould threshold without you thinking about it: humidity rises after a rainy day, the unit senses it and kicks on; humidity drops, it rests. Second, it saves substantial energy and compressor life, because a machine that cycles to hold a setpoint runs far less than one grinding continuously.</p>
           <p>When you shop, insist on a model where you can set humidity to an actual number, not just a vague &ldquo;low/medium/high&rdquo; dial. Both the Frigidaire and Midea picks above offer a settable humidistat, which is precisely why they anchor the list. A dehumidifier without a real hygrostat forces you to guess how long to run it, and guessing wrong means either mould-friendly humidity or a needlessly high hydro bill. This is not a luxury feature for this job &mdash; it is the core of it.</p>
@@ -283,6 +308,17 @@ export default function BestDehumidifierForMoldCanadaPage() {
           </ul>
           <p>The one rule that overrides the raw square footage: <strong>when in doubt, size up.</strong> An oversized unit is not a problem &mdash; its hygrostat simply cycles it off sooner once it reaches the target, so it costs little extra to run. An undersized unit is a real problem: it runs continuously, never reaches the target humidity, never gets you under the mould threshold, and lets the mould keep its foothold while your hydro meter spins. A damp, musty, or visibly humid space should jump a size regardless of what the square-footage chart says. That is the single most valuable thing to understand before you spend money.</p>
           <p>Beyond capacity, the features worth paying for are the ones already named: a settable hygrostat, continuous-drain capability (a pump if you cannot drain by gravity), and Energy Star certification for running cost. What you can skip are app-connected gimmicks and cosmetic finishes that do nothing for the core job of pulling moisture and holding a setpoint. Put your dollars into capacity, control, and drainage; treat everything else as optional.</p>
+
+          <h2>Which Dehumidifier for Your Situation</h2>
+          <ul>
+            <li><strong>Damp basement with a floor drain:</strong> a 35&ndash;50 pint Energy Star unit with a humidistat, on a hose to the drain &mdash; the <em>Best Overall</em> or <em>Best Value</em> pick above.</li>
+            <li><strong>No floor drain, or the drain sits higher than the unit:</strong> a model with a built-in condensate pump &mdash; the <em>Best for Wet Basements</em> pick.</li>
+            <li><strong>One damp room, closet or small condo:</strong> the <em>Best Compact</em> pick, with its humidistat set inside the 30&ndash;50% band.</li>
+            <li><strong>A space colder than 18&deg;C</strong> (a cold cellar, an unheated garage or a crawl space): Natural Resources Canada says to consider a product meant for lower temperatures. Our <Link href="/blog/best-dehumidifier-for-cold-garage-canada">cold garage dehumidifier guide</Link> covers the desiccant option, and the <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space dehumidifier guide</Link> covers sealed crawl spaces.</li>
+            <li><strong>Bathroom mould:</strong> Health Canada&rsquo;s fix is the exhaust fan, run while you shower and for a few minutes after.</li>
+            <li><strong>Water coming in</strong> (a leak, a foundation crack, a wet wall after rain): fix the source first. Health Canada warns that unless the cause of the moisture problem is solved, mould will reappear.</li>
+            <li><strong>Visible mould in one patch over 3 m&sup2;:</strong> Health Canada recommends a qualified professional assess and clean it up; run the dehumidifier afterward to keep it from coming back.</li>
+          </ul>
 
           <h2>Frigidaire vs Midea: Which Brand for Mould?</h2>
           <p>Both Frigidaire and Midea make well-regarded, Energy Star, hygrostat-equipped dehumidifiers that are widely stocked on Amazon.ca, and either does the job well when sized correctly. Frigidaire has a reputation for straightforward controls, a clear humidity setpoint, and easy continuous-drain setup, which makes it a dependable default for a set-and-forget basement &mdash; that is why it anchors the <em>Best Overall</em> slot. Midea typically competes on value and quiet operation while including every essential feature &mdash; the same hygrostat, continuous drain, and Energy Star rating &mdash; which earns it the <em>Best Value</em> slot.</p>

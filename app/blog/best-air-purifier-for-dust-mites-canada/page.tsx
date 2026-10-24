@@ -14,10 +14,12 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-air-purifier-for-dust-mites-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+// Oct 23, 2026: answer-first hero, what EPA says about dust-mite allergen and air filters, HEPA definition per EPA (the H13 equivalence and "0.3 microns is the dust-mite size" lines corrected), air-cleaner type table, 3 FAQs
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Air Purifier for Dust Mites Canada 2026 — True-HEPA, CADR & Room Sizing'
 const META_TITLE = 'Best Air Purifier for Dust Mites Canada 2026'
 
@@ -32,7 +34,7 @@ const FAQS = [
   },
   {
     question: 'What does True-HEPA actually mean, and is it different from "HEPA-type"?',
-    answer: 'True-HEPA (sometimes labelled H13 in the European EN 1822 grading) means the filter captures at least 99.97% of particles at 0.3 microns — the hardest particle size to catch — on a single pass. That 0.3-micron spec is exactly the range that matters for dust-mite allergen fragments and fine dust. "HEPA-type," "HEPA-like," or "99% at 2 microns" are marketing terms for cheaper media that does not meet the standard and will let more allergen through. When you shop, look for the words "True HEPA" or "H13," and treat vague "HEPA" wording as a reason to check the spec sheet before buying.',
+    answer: 'True HEPA is the US Department of Energy definition that EPA describes: a filter that can theoretically remove at least 99.97% of airborne particles 0.3 microns in size, the most penetrating size and so the hardest to catch. EPA adds that particles larger or smaller are trapped with even higher efficiency, which covers dust-mite allergen, most of it carried on larger particles. Some listings use the European grade "H13" instead; check that the spec sheet still states the 99.97% figure. "HEPA-type," "HEPA-like," or "99% at 2 microns" are marketing terms for cheaper media that does not meet the standard and will let more allergen through. When you shop, look for the words "True HEPA" (or "H13" with that 99.97% figure), and treat vague "HEPA" wording as a reason to check the spec sheet before buying.',
   },
   {
     question: 'What size air purifier do I need for my room?',
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'Air purifier or dehumidifier for dust mites — which matters more?',
     answer: 'They do different jobs and the honest answer is you often want both. Dust mites cannot survive when relative humidity stays below roughly 50%, so a dehumidifier attacks the mite population at the source by making your home inhospitable to them — especially valuable in a damp basement or a humid summer. An air purifier does not affect humidity or kill mites; it removes the allergen already airborne so you breathe easier now. Humidity control is prevention; air filtering is symptom relief. In a genuinely damp home, controlling humidity is arguably the higher-leverage first move; in a dry home with an existing allergy, the purifier does more day to day. See our basement dehumidifier guide for the sizing side of that equation.',
   },
+  {
+    question: 'What are the downsides of using an air purifier for dust mites?',
+    answer: 'Four main ones. First, EPA notes that dust-mite allergen mostly rides larger particles that settle out of the air rather rapidly, so air filters are not likely to remove it effectively; washing bedding, encasing the mattress and controlling humidity still do most of the work. Second, in the studies EPA reviewed, air cleaners were somewhat effective for allergy and asthma symptoms, but the improvements were not very large. Third, filters are a running cost, usually replaced every 6 to 12 months. Fourth, EPA says some ionizers, electrostatic precipitators and UV units may give off ozone, a lung irritant, so choose a filter-and-fan unit.',
+  },
+  {
+    question: 'Will a furnace filter help with dust mites?',
+    answer: 'A little, as a whole-home layer. EPA advises a furnace or HVAC filter rated at least MERV 13, or as high as your system fan and filter slot can take. The limit is the same one a portable purifier faces: EPA notes that most of the larger particles resettle before they reach the HVAC system or a portable air cleaner, and dust-mite allergen mostly rides larger particles. EPA also notes that filtered air delivered close to where an allergic person sleeps appears more effective than central filtering, so a True HEPA purifier in the bedroom, encased bedding and weekly hot washes matter more than the furnace filter.',
+  },
+  {
+    question: 'Is an air cleaner the same as an air purifier for dust mites?',
+    answer: 'Yes. EPA uses the names together: portable air cleaners, also known as air purifiers or air sanitizers, are designed to filter the air in a single room or area. For dust-mite allergy what matters is not the name on the box but how it cleans: a fan pushing air through a True HEPA filter, a clean air delivery rate (CADR) big enough for the room, and no ozone. Health Canada\'s rule of thumb is a tobacco-smoke CADR of at least two-thirds of the room\'s area, with ratings that assume an 8-foot ceiling.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best True-HEPA air purifiers for dust-mite allergies in Canada for 2026: how CADR and room sizing really work, honest limits (purifiers cut airborne allergen but do not kill mites in the mattress), and picks for large rooms, quiet bedrooms, and tight budgets.',
+  description: 'An air purifier helps dust-mite allergy only partly: EPA says most mite allergen rides heavy particles that settle fast. Best True HEPA picks for Canada.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
             <span className="text-white">Best Air Purifier for Dust Mites</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">True-HEPA air purifiers compared for Canadian dust-mite sufferers &mdash; how CADR and room sizing actually work, what a purifier can and can&rsquo;t do, and the best picks for large rooms, quiet bedrooms, and tight budgets.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">An air purifier helps only partly: a True HEPA unit catches the dust-mite allergen in the air, but EPA says most of it rides heavier particles that settle fast. Our pick for most bedrooms: a mid-size Coway Airmega or Winix-class True HEPA unit.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,7 +128,8 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best air purifier for dust-mite allergies in Canada is a <strong>True-HEPA</strong> unit (99.97% at 0.3 microns) with a CADR rated for a room bigger than yours, run continuously in the bedroom. A purifier pulls airborne dust-mite allergen out of the air so you breathe easier &mdash; but it does <strong>not</strong> kill the mites living in your mattress. Pair it with allergen-proof encasements and humidity control below 50% for real, lasting relief.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>True-HEPA (H13) captures 99.97% of particles at 0.3 microns &mdash; the size that matters for dust-mite allergen; ignore vague &ldquo;HEPA-type&rdquo; wording.</li>
+              <li>True HEPA, as EPA describes the US Department of Energy definition, can theoretically remove at least 99.97% of 0.3-micron particles, the hardest size to catch; ignore vague &ldquo;HEPA-type&rdquo; wording.</li>
+              <li>EPA: most dust-mite allergen rides larger particles that settle rather rapidly, which air filters are not likely to remove; the small share on fine particles stays airborne longer and is more likely to be caught.</li>
               <li>Size by CADR, not the box&rsquo;s square-footage claim: aim for rated coverage at least 1.5&times; your room so it runs quiet, not maxed out.</li>
               <li>A purifier removes airborne allergen only &mdash; it can&rsquo;t reach mites buried in a mattress or carpet.</li>
               <li>Run it 24/7 on low or auto in the bedroom, a metre or two from the bed with clear airflow.</li>
@@ -122,6 +137,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
               <li>Avoid ozone-generating ionizers; the HEPA does the allergy work, and ozone can worsen asthma.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
+            <p className="mt-2 text-xs text-gray-500">Sources: <a href="https://www.epa.gov/indoor-air-quality-iaq/what-hepa-filter" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA, What is a HEPA filter?</a> (at least 99.97% of 0.3-micron particles; larger and smaller ones trapped even more efficiently); <a href="https://www.epa.gov/sites/default/files/2018-07/documents/residential_air_cleaners_-_a_technical_summary_3rd_edition.pdf" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA, Residential Air Cleaners: A Technical Summary</a> (2018: dust-mite allergen and settling; modest symptom gains; filtered air near the sleeper works better); <a href="https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/choosing-portable-purifier.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Health Canada</a> (CADR of at least two-thirds of the room&rsquo;s area; avoid devices that produce ozone); <a href="https://www.canada.ca/en/health-canada/services/chemicals-product-safety/dust-mites.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Health Canada on dust mites</a> (humidity between 35 and 50%, hot-water washes weekly, dust-mite-impermeable covers).</p>
           </div>
           <SpecialistDisclosure pest="dust mites" />
         </div>
@@ -228,8 +244,22 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="levoit core hepa air purifier">Levoit budget unit →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="HEPA, ionizer, UV or ozone: what works for dust mites?"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['True HEPA purifier', 'A fan pulls room air through a filter that can theoretically remove at least 99.97% of 0.3-micron particles', 'The bedroom: EPA notes filtered air delivered close to a sleeping allergic person appears more effective than central or living-room filtering', 'EPA: most dust-mite allergen rides larger particles that settle rather rapidly, which air filters are not likely to remove; symptom gains in studies were modest'],
+              ['Furnace or HVAC filter', 'Filters the air the heating and cooling system moves', 'Whole-home filtering: EPA advises MERV 13, or as high as your system can take', 'EPA: most larger particles resettle before they reach the HVAC system'],
+              ['Ionizer (ion generator)', 'Charges particles so they stick to walls, furniture or each other', 'Not a strong choice for dust-mite allergy', 'EPA: very low CADR for most particle sizes; the particles soil walls and curtains and can be stirred up again; some may emit ozone'],
+              ['UV light (UVGI)', 'A UV lamp in the airflow', 'Not a dust-mite tool', 'EPA found no research showing UV reduces dust-mite allergenicity; lamps without adequate coatings may emit ozone'],
+              ['Electrostatic precipitator', 'Charged plates collect particles from the air', 'Removing particles from the air', 'EPA: in some cases may emit ozone; the California Air Resources Board lists air cleaners tested for ozone'],
+              ['Ozone generator', 'Makes ozone on purpose and is sold as an air cleaner', 'Nothing in an occupied home', 'Health Canada advises against ozone generators in homes; EPA: ozone can damage the lungs and may worsen asthma, and at levels within health standards it has little potential to clean the air'],
+            ]}
+            caption={<>Sources: <a href="https://www.epa.gov/sites/default/files/2018-07/documents/residential_air_cleaners_-_a_technical_summary_3rd_edition.pdf" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA, Residential Air Cleaners: A Technical Summary</a> (3rd edition, 2018) and <a href="https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home" target="_blank" rel="noopener" className="text-emerald-700 underline">Guide to Air Cleaners in the Home</a>; <a href="https://www.epa.gov/indoor-air-quality-iaq/what-hepa-filter" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA, What is a HEPA filter?</a>; <a href="https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA on ozone generators sold as air cleaners</a>; <a href="https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/ozone.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Health Canada on ozone</a>.</>}
+          />
+
           <h2>Why True-HEPA Is Non-Negotiable</h2>
-          <p>A True-HEPA filter is defined by a hard standard: it must capture at least <strong>99.97% of particles at 0.3 microns</strong>, the particle size that is hardest to trap, on a single pass through the media. In the European EN 1822 system the equivalent grade is labelled <strong>H13</strong>. That 0.3-micron figure is not a random benchmark &mdash; it sits right in the size range of the fine dust and dust-mite allergen fragments you are trying to remove, which is why True-HEPA is the correct spec for allergy control rather than overkill.</p>
+          <p>A True-HEPA filter is defined by a hard standard: as EPA describes the US Department of Energy definition, it can theoretically remove at least <strong>99.97% of airborne particles 0.3 microns in size</strong>, the particle size that is hardest to trap. Some listings use the European grade <strong>H13</strong> instead; check that the spec sheet still states the 99.97% figure. That 0.3-micron figure is not a random benchmark &mdash; EPA calls it the worst case, the most penetrating particle size, and says larger and smaller particles are trapped with even higher efficiency. Dust-mite allergen is mostly carried on larger particles, so a filter that passes the hardest test also traps the mite allergen that reaches it; the limit, as EPA notes, is that most of it settles before it gets there. That is why True-HEPA is the correct spec for allergy control rather than overkill, and also why it is only one part of the fix.</p>
           <p>The trap to avoid is language that sounds like HEPA but isn&rsquo;t. &ldquo;HEPA-type,&rdquo; &ldquo;HEPA-like,&rdquo; and &ldquo;99% at 2 microns&rdquo; all describe cheaper media that does not meet the standard and lets more allergen slip through. When you shop, look for the exact words <strong>True HEPA</strong> or <strong>H13</strong>, and if a listing only says &ldquo;HEPA&rdquo; without a spec, open the details and confirm the 99.97%-at-0.3-micron rating before you buy. For dust-mite allergy specifically, the HEPA stage is the part doing the work &mdash; not the ionizer, not the UV lamp, not the marketing.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="true hepa h13 air purifier">Check True-HEPA (H13) purifiers on Amazon.ca →</BuyLink>

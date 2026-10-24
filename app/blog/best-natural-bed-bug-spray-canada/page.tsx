@@ -15,25 +15,27 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-natural-bed-bug-spray-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Natural Bed Bug Spray Canada — Plant-Based Picks and the PMRA Check'
-const META_TITLE = 'Best Natural Bed Bug Spray Canada: 4 Compared'
+// TITLE NOTE (Oct 23, 2026): was 'Best Natural Bed Bug Spray Canada: 4 Compared'; top queries: best bed bug killer in canada 248, best bed bug spray canada 146, natural bed bug spray 55, natural bed bug repellent 49 (12 clicks). The general head terms belong to /blog/bed-bug-spray-canada (data/god-build/research/top3/bed-bug-spray-cluster.md); this title drops "Best" and leads with the natural search.
+const META_TITLE = 'Natural Bed Bug Spray in Canada: Legal Options'
 
 const FAQS = [
   {
     question: 'What is the best natural bed bug spray in Canada?',
-    answer: 'For most Canadian homes, the best natural bed bug spray is a plant-based contact killer such as EcoRaider, used on mattress seams, box-spring edges, and cracks where bugs hide. It kills adults, nymphs, and eggs on direct contact using botanical active ingredients (geraniol, cedar, and similar plant oils) rather than synthetic pyrethroids, which is why people treating a bedroom they sleep in often reach for it first. Proof is a strong alternative that leans on a longer-lasting botanical-plus-mineral residual, and Doktor Doom is the pick if you specifically want a Canadian brand with a clear PCP registration number on the label. The honest caveat that runs through this whole category: contact sprays only kill what the spray physically touches, so no natural spray on its own clears an established infestation — it is one tool inside a plan that also needs heat, encasements, and monitoring.',
+    answer: 'For most Canadian homes, the best natural bed bug spray you can legally use is a pyrethrin spray, made with the insecticide extracted from chrysanthemum flowers, such as Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339), worked into mattress seams, box-spring edges, and cracks where bugs hide. Its label pairs the pyrethrins with piperonyl butoxide, a synthetic synergist. EcoRaider, the essential-oil spray with the strongest lab results (geraniol and cedar extract), and Proof show no Canadian registration on Health Canada’s pesticide database. The honest caveat that runs through this whole category: contact sprays only kill what the spray physically touches, so no natural spray on its own clears an established infestation — it is one tool inside a plan that also needs heat, encasements, and monitoring.',
   },
   {
     question: 'Do natural bed bug sprays actually work?',
     answer: 'They work the way any contact insecticide works — they kill the bugs and eggs the spray directly wets, and they do very little to the ones it misses. Plant-based actives such as geraniol and cedar oil disrupt an insect’s nervous system and outer cuticle on contact, so a bug you spray directly will usually die. The limitation is not “natural vs synthetic”; it is that bed bugs spend most of their lives tucked deep inside seams, screw holes, and wall voids where no spray reaches, and botanical actives break down and evaporate quickly, leaving little lasting residual. So a natural spray is genuinely useful for knocking down bugs you can see and treating harbourage you can reach — but treating it as a standalone cure is the single most common reason DIY bed-bug jobs fail.',
   },
   {
-    question: 'Are natural bed bug sprays safe to use on a mattress and around kids or pets?',
-    answer: 'Plant-based actives are the whole appeal for people spraying where they sleep, but the label, not the word “natural,” decides how a product may be used. Many botanical bed-bug sprays are labelled for use on mattresses and upholstery; check the specific product before you apply it there. That said, “natural” does not mean “spray freely”: essential oils can irritate skin, eyes, and airways, cats in particular are sensitive to some plant oils, and every product still has label directions you must follow — including letting the mattress dry fully before you put bedding back on and sleep on it. Always read the specific label, keep kids and pets out of the room until surfaces are dry, and never treat a product as safe just because the front of the bottle says “non-toxic.”',
+    question: 'Can natural bed bug sprays be used on a mattress and around kids or pets?',
+    answer: 'The label, not the word “natural,” decides how a product may be used. In Canada, the registered pyrethrin bed bug sprays (for example Doktor Doom Sleep Tight Bed Bug Killer II, KONK and Knock Down) are labelled for mattress tufts and seams, while the d-limonene spray registered for homeowners, ProCitra-DL, says not to use it on mattresses. Plant-based does not mean low hazard: essential oils can irritate skin, eyes, and airways, cats in particular are sensitive to some plant oils, and the registered labels we checked tell you to keep people and pets out of treated areas until surfaces are dry. Read the specific label, let the mattress dry fully before you put bedding back on, and never let reassuring words on the front of the bottle replace the precautions on the back.',
   },
   {
     question: 'What does PMRA registration mean, and why does it matter for bed bug spray in Canada?',
@@ -57,25 +59,37 @@ const FAQS = [
   },
   {
     question: 'Where can I buy natural bed bug spray in Canada?',
-    answer: 'Plant-based bed-bug sprays are widely available on Amazon.ca, and some are carried seasonally at Canadian Tire, Home Depot Canada, and Home Hardware, plus specialty pest-supply retailers. Amazon.ca has the broadest year-round selection, but it is also where you have to be most careful about the PMRA issue: filter toward products that show a Canadian PCP registration number, and be wary of US-market listings shipped across the border that are not registered here. Doktor Doom is a Canadian brand you will find in domestic retail, and Proof is listed on Amazon.ca. EcoRaider is the awkward one: as of September 2026 it is not stocked on Amazon.ca at all — searches for it return other brands entirely — so despite being the strongest plant-based contact killer on paper, Canadians generally cannot buy it here. Check any listing for a Canadian PCP registration number before you buy.',
+    answer: 'Plant-based bed-bug sprays are widely available on Amazon.ca, and some are carried seasonally at Canadian Tire, Home Depot Canada, and Home Hardware, plus specialty pest-supply retailers. Amazon.ca has the broadest year-round selection, but it is also where you have to be most careful about the PMRA issue: filter toward products that show a Canadian PCP registration number, and be wary of US-market listings shipped across the border that are not registered here. Doktor Doom is a Canadian brand you will find in domestic retail, and Proof is listed on Amazon.ca. EcoRaider is the awkward one: as of September 2026 it is not stocked on Amazon.ca at all — searches for it return other brands entirely — so despite being the strongest plant-based contact killer on paper, Canadians generally cannot buy it here. Health Canada’s pesticide database shows no registration for EcoRaider or Proof (searched October 23, 2026). Check any listing for a Canadian PCP registration number before you buy.',
   },
   {
     question: 'Is EcoRaider or Proof or Doktor Doom the better choice?',
-    answer: 'It depends on what you weight most. EcoRaider is our overall pick for a plant-based contact killer — fast knockdown on adults, nymphs, and directly-sprayed eggs with a low-odour botanical formula that suits bedrooms. Proof leans toward a longer-lasting residual by combining botanical actives with a mineral component, so it is the pick if you want the spray to keep working in treated cracks a bit longer. Doktor Doom is the choice when a clear Canadian PCP registration number is your priority — it is a domestic brand whose bed-bug products carry a PCP number — though note that Doktor Doom’s classic formulas use pyrethrins (a plant-derived but still insecticidal active), so it sits at the “botanical but not oil-only” end of natural. Match the product to whether you value knockdown speed, residual length, or clear Canadian registration.',
+    answer: 'In Canada, registration narrows it to one. EcoRaider is the strongest plant-oil contact killer on the lab evidence — Rutgers University found it killed all directly sprayed nymphs and 87% of the eggs it wet — but Health Canada’s database shows no Canadian registration for it, and none for Proof either. Doktor Doom is the registered choice, with one catch: check for pyrethrins on the label, as in Sleep Tight Bed Bug Killer II (PCP 29339), because several Doktor Doom bed bug cans use permethrin, a synthetic pyrethroid. Pyrethrins are plant-derived but genuinely insecticidal, so treat them with the same label care as any other spray.',
   },
   {
     question: 'Will a natural spray alone get rid of my bed bugs?',
     answer: 'For an established infestation, no — and being honest about that saves you weeks of frustration. Sprays kill what they touch and miss the majority of a population living deep in the structure of the bed, the frame, and the room. Every credible bed-bug protocol is a layered plan: spray to knock down the reachable live bugs, heat (steam and/or a heat chamber) to kill eggs and reach into fabric, encasements to trap and starve anything sealed inside the mattress and box spring, and interceptor traps to monitor. A natural spray is a legitimate and useful part of that stack — it is simply not the whole stack. If the infestation is widespread or keeps rebounding, professional treatment is usually faster and cheaper than months of partial DIY.',
   },
   {
-    question: 'Are “non-toxic” and “natural” bed bug sprays the same thing?',
-    answer: 'Not exactly, and the marketing blurs it deliberately. “Natural” usually refers to plant-derived active ingredients — essential oils like geraniol, cedar, clove, or lemongrass, or plant-extracted pyrethrins. “Non-toxic” is a looser marketing claim about relative hazard to people and pets, and it is not a regulated guarantee. A product can be plant-based and still irritate skin or airways, and pyrethrins, though plant-derived, are genuinely insecticidal and can be harmful to cats and aquatic life. Treat both words as starting points, not assurances: read the actual ingredient list, look for a Canadian PCP registration number, and follow the label directions regardless of how gentle the front of the bottle sounds.',
+    question: 'Does “natural” mean a bed bug spray is low-hazard?',
+    answer: 'Not necessarily, and the marketing blurs it deliberately. “Natural” usually refers to plant-derived active ingredients — essential oils like geraniol, cedar, clove, or lemongrass, or plant-extracted pyrethrins. Hazard claims on the front of a bottle are marketing, not a regulated guarantee. A product can be plant-based and still irritate skin or airways: ProCitra-DL, the d-limonene spray registered for Canadian homeowners, carries DANGER and skin-irritant warnings on its label, and pyrethrins, though plant-derived, are genuinely insecticidal and can be harmful to cats and aquatic life. Treat both words as starting points, not assurances: read the actual ingredient list, look for a Canadian PCP registration number, and follow the label directions regardless of how gentle the front of the bottle sounds.',
+  },
+  {
+    question: 'Do natural bed bug repellents work?',
+    answer: 'Not as a way to keep bed bugs off you or your bed. When Rutgers University researchers tested whether bed bugs would avoid surfaces treated with EcoRaider or Bed Bug Patrol, two of the better plant-based sprays, they found no detectable repellency once a carbon dioxide source, the cue bed bugs use to find a sleeping person, was present. Without that cue, bugs given a choice did avoid resting on treated fabric, and that let most of them survive. A registered spray that kills on contact, plus encasements and interceptor traps, does more than any repellent.',
+  },
+  {
+    question: 'Does cedar oil kill bed bugs?',
+    answer: 'Only weakly on its own, as far as the published evidence goes. Rutgers University researchers reported that a water solution of 10% cedar oil with an adjuvant killed about 22% of bed bugs in a direct-spray lab test, and noted that the essential oils in EcoRaider and Bed Bug Patrol are too dilute to kill bed bugs by themselves, so other ingredients probably account for those two sprays’ effect. Health Canada’s pesticide database lists no current cedar-oil product, so a cedar-oil bed bug spray sold in Canada has no PCP number. For a registered plant-derived option, look at the pyrethrin sprays in the table above.',
+  },
+  {
+    question: 'What is the best homemade spray for bed bugs?',
+    answer: 'Health Canada advises against homemade pesticides, noting they can be dangerous to make and use, and the evidence does not favour them: in Rutgers University tests, even most commercial essential-oil and detergent sprays killed few bed bugs, and Texas A&M notes that alcohol-based sprays do not kill eggs. If you want to avoid insecticides entirely, the non-chemical steps Health Canada lists work better: a hot dryer for 30 minutes or more, slow steam on seams (bed bugs die at 50°C), daily vacuuming with a crevice nozzle, and sealed bags or bins for cleaned items.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Plant-based bed bug sprays for Canadian bedrooms: EcoRaider, Proof and Doktor Doom compared, why PMRA registration matters, and what no contact spray can do.',
+  description: 'Natural bed bug sprays in Canada: the plant-derived actives that are registered (pyrethrins, d-limonene), the ones with no PCP number, and what works.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -100,7 +114,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
             <span className="text-white">Best Natural Bed Bug Spray Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Plant-based bed bug sprays for Canadian bedrooms &mdash; EcoRaider, Proof, and Doktor Doom compared on knockdown, residual, and the one thing that trips up online buyers: whether the product is actually PMRA-registered for legal sale in Canada.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The natural-leaning bed bug sprays registered in Canada for homeowners are pyrethrin sprays, made with an insecticide from chrysanthemum flowers, and one d-limonene crack-and-crevice spray. For the bed itself, the pick is a pyrethrin can such as Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339); essential-oil sprays like EcoRaider and Proof show no Canadian registration.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,7 +128,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
           <div className="bg-amber-50 border-2 border-amber-300 rounded-xl p-5 my-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-amber-800 mb-2">Availability note &mdash; checked September 2026</p>
             <p className="text-gray-800 text-[15px] leading-relaxed">
-              <strong>EcoRaider is not currently sold on Amazon.ca.</strong> We have checked three times and searches for it return other brands entirely. It remains the best plant-based contact killer on the evidence, which is why it keeps the top slot here &mdash; but if you want something you can actually buy in Canada today, <strong>Proof</strong> (listed on Amazon.ca) and <strong>Doktor Doom</strong> (Canadian brand, clear PCP registration) are the two picks below that are genuinely available.
+              <strong>EcoRaider is not currently sold on Amazon.ca.</strong> We have checked three times and searches for it return other brands entirely. It remains the strongest plant-based contact killer in published lab tests, which is why it keeps the top slot here &mdash; but on October 23, 2026, Health Canada&rsquo;s pesticide database showed no Canadian registration for EcoRaider or for <strong>Proof</strong>. The pick you can legally use in Canada is <strong>Doktor Doom</strong> in its pyrethrin version, Sleep Tight Bed Bug Killer II (PCP 29339).
             </p>
           </div>
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
@@ -191,7 +205,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Natural Sprays Compared · Updated July 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Natural Sprays Compared · Updated October 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">EcoRaider vs Proof vs Doktor Doom vs Budget Botanical — What Each Is For</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             All four are plant-based options, but they trade off knockdown speed, residual length, and Canadian registration differently. Here is the honest breakdown, with a live Amazon.ca availability check per pick.
@@ -212,28 +226,28 @@ export default function BestNaturalBedBugSprayCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">EcoRaider<br /><span className="font-normal text-xs text-gray-500">geraniol + cedar</span></td>
                   <td className="px-4 py-3 text-gray-700">Essential-oil botanical</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best overall</strong> &mdash; fast, low-odour contact kill</td>
-                  <td className="px-4 py-3 text-gray-700">Little residual once dry; check CA listing</td>
+                  <td className="px-4 py-3 text-gray-700">Little residual once dry; no Canadian registration found</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Proof<br /><span className="font-normal text-xs text-gray-500">botanical + mineral</span></td>
                   <td className="px-4 py-3 text-gray-700">Botanical + mineral residual</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Residual</strong> &mdash; keeps working in cracks longer</td>
-                  <td className="px-4 py-3 text-gray-700">Still not a standalone cure</td>
+                  <td className="px-4 py-3 text-gray-700">Not a standalone cure; no Canadian registration found</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom<br /><span className="font-normal text-xs text-gray-500">pyrethrins</span></td>
                   <td className="px-4 py-3 text-gray-700">Plant-derived pyrethrins</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Clear PCP number</strong> &mdash; Canadian brand</td>
-                  <td className="px-4 py-3 text-gray-700">Harsher; caution around cats &amp; fish</td>
+                  <td className="px-4 py-3 text-gray-700">Check for pyrethrins on the label (PCP 29339); some Doktor Doom cans are permethrin</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget botanical<br /><span className="font-normal text-xs text-gray-500">clove / lemongrass</span></td>
                   <td className="px-4 py-3 text-gray-700">Essential-oil blend</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Light work</strong> &mdash; spot-treating, supplement</td>
-                  <td className="px-4 py-3 text-gray-700">Weakest knockdown; verify registration</td>
+                  <td className="px-4 py-3 text-gray-700">Weakest knockdown; no clove, lemongrass or cedar blend is among Canada&rsquo;s registered bed bug products</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
@@ -255,7 +269,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Natural Bed Bug Spray in Canada?</h2>
-          <p>The best natural bed bug spray for most Canadian homes is a plant-based contact killer &mdash; EcoRaider is our overall pick &mdash; applied directly into the seams, joints, and cracks where bed bugs actually hide. &ldquo;Natural&rdquo; here means the active ingredients are plant-derived (essential oils such as geraniol and cedar, or plant-extracted pyrethrins) rather than synthetic pyrethroids, which is exactly what people want when they are spraying a mattress they sleep on or a child&rsquo;s room. All four picks above are botanical options; they differ mainly in how fast they knock bugs down, how long they keep working, and whether they carry a clear Canadian registration.</p>
+          <p>EcoRaider tops the lab evidence among plant-oil sprays, but it has no Canadian registration, so the best natural bed bug spray you can legally use in most Canadian homes is a plant-derived pyrethrin contact spray, applied directly into the seams, joints, and cracks where bed bugs actually hide. &ldquo;Natural&rdquo; here means the active ingredients are plant-derived (essential oils such as geraniol and cedar, or plant-extracted pyrethrins) rather than synthetic pyrethroids, which is what many people look for when they are spraying a mattress they sleep on. All four picks above are botanical options; they differ mainly in how fast they knock bugs down, how long they keep working, and whether they carry a clear Canadian registration.</p>
           <p>But the most important thing to understand before you buy anything is not which brand wins &mdash; it is what a spray can and cannot do. A contact spray kills the bugs and eggs it physically touches and very little else. That single fact shapes every honest recommendation on this page, and it is the reason a spray is one layer of a plan rather than the plan itself.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
@@ -266,6 +280,33 @@ export default function BestNaturalBedBugSprayCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="natural essential oil bed bug spray">Budget botanical →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="Natural-leaning bed bug products in Canada: registered or not"
+            head={['Product type (examples)', 'Canadian status', 'Where it can go', 'Limits and evidence']}
+            rows={[
+              ['Pyrethrin aerosols: Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339), KONK (PCP 31110), Knock Down (PCP 29633), Raid Bed Bug Killer (PCP 31897)', 'Registered, domestic class', 'Mattress tufts and seams, box springs, bed frames, cracks, baseboards', 'Pyrethrins come from chrysanthemum flowers and are paired with the synthetic synergist piperonyl butoxide; they kill only what they wet, and no label claims egg kill'],
+              ['d-Limonene: ProCitra-DL Crawling Insect Killer (PCP 29811)', 'Registered, domestic class', 'Cracks and crevices in bed frames, box springs, empty dressers, closets, carpet edges', 'Not on mattresses or linens; DANGER, extremely flammable; skin irritant; the label says it is not recommended as sole protection against bed bugs'],
+              ['Diatomaceous earth dusts: DX 13 (PCP 30973), Ortho Bed Bug B Gon Diatom (PCP 32674), Doktor Doom Be Green DE (PCP 32561)', 'Registered, domestic class', 'A dust for cracks and voids, as each label directs', 'A mineral, not a spray, and slow: in a 2016 study a DE product took 14 days to kill bed bugs at its label rate'],
+              ['EcoRaider (geraniol 1%, cedar extract 1%, sodium lauryl sulfate 2%)', 'No Canadian registration found', 'Health Canada: with no PCP number, do not buy or use it', 'Rutgers: all directly sprayed nymphs and 87% of eggs killed, but only 1.7% when bugs could choose untreated fabric'],
+              ['Other botanical sprays: geraniol, clove, lemongrass or cedar blends, and Proof', 'No Canadian registration found', 'Health Canada: with no PCP number, do not buy or use it', 'In the same Rutgers tests, most essential-oil and detergent sprays killed 0–30% of nymphs'],
+            ]}
+            caption={<>Status from Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/index.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">Pesticide Product Information Database</a>, searched October 23, 2026; directions from the approved labels; efficacy from <a href="https://archive.sebs.rutgers.edu/wp-content/uploads/Singh2014Essentialoilsbedbugcontrol.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">Singh, Wang and Cooper (Rutgers), Journal of Economic Entomology, 2014</a> and <a href="https://doi.org/10.3390/insects7040074" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">Lilly, Webb and Doggett, Insects, 2016</a>.</>}
+          />
+
+          <QuickIdTable
+            title="Which natural option for your situation?"
+            head={['Your situation', 'Use this', 'Why']}
+            rows={[
+              ['Bugs on the mattress seams, and you want a plant-derived active', 'A pyrethrin aerosol whose label names mattresses', 'Among Canada’s registered bed bug products, pyrethrins are the plant-derived active labelled for mattresses; let it dry before bedding goes back'],
+              ['Cracks, bed frame joints, inside empty dressers', 'ProCitra-DL with its injector tube, or a registered diatomaceous earth dust', 'ProCitra-DL is crack-and-crevice only; follow each dust label for where it may go'],
+              ['You would rather use no insecticide at all', 'Heat: a hot dryer for 30 minutes or more, slow steam on the seams, daily vacuuming', 'Health Canada: bed bugs die at 50°C, and steamers emit steam at 100°C or more'],
+              ['You want a spray that keeps bed bugs away', 'Skip repellent claims', 'Rutgers found no detectable repellency from the better plant-based sprays once a carbon dioxide cue was present'],
+              ['You found EcoRaider or Proof online', 'Do not buy it for use in Canada', 'No PCP number, and Health Canada says not to buy or use an unregistered product'],
+              ['Bugs in several rooms, or back after weeks of spraying', 'A licensed exterminator', 'Health Canada recommends a professional; no spray alone clears an established infestation'],
+            ]}
+            caption={<>Each row restates the table above or Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">bed bug guidance</a>. For the heat side, see our <Link href="/blog/best-bed-bug-steamer-canada" className="underline hover:text-brand-700">bed bug steamer guide</Link>.</>}
+          />
+
           <NextUp path="/blog/best-natural-bed-bug-spray-canada" />
           <h2>How Natural Bed Bug Sprays Actually Work (and Where They Fail)</h2>
           <p>Plant-based bed-bug sprays kill through direct contact. Botanical actives like geraniol and cedar oil disrupt an insect&rsquo;s nervous system and attack the waxy outer cuticle, so a bug you spray directly will usually die within minutes. Pyrethrins &mdash; the plant-extracted active in products like Doktor Doom &mdash; hit the nervous system harder and faster, which is why they deliver more reliable knockdown but also sit at the stronger, less &ldquo;gentle&rdquo; end of the natural category.</p>
@@ -273,8 +314,8 @@ export default function BestNaturalBedBugSprayCanadaPage() {
 
           <h2>The PMRA Angle: What&rsquo;s Actually Legal to Use in Canada</h2>
           <p>This is the part that trips up online buyers, and it deserves its own section. In Canada, any product sold to kill pests is a pesticide, and pesticides must be registered under the Pest Control Products Act, which Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> administers. A registered product carries a <strong>PCP (Pest Control Product) registration number</strong> on the label &mdash; that number, and the label directions that come with it, are what make the product legal to sell and use here for the uses printed on the bottle.</p>
-          <p>Here is where it matters: Amazon.ca and cross-border sellers list a great many bed-bug sprays, including popular &ldquo;natural&rdquo; and &ldquo;non-toxic&rdquo; brands, that were formulated and labelled for the <em>US</em> market. A US EPA classification &mdash; including the &ldquo;minimum-risk&rdquo; exemption that many essential-oil sprays rely on south of the border &mdash; is <strong>not</strong> the same as Canadian registration, and does not make the product legal to sell or use here. Some well-known US natural brands are simply not registered in Canada, even though the listing ships to a Canadian address.</p>
-          <p>The practical rule: favour products that clearly show a Canadian PCP number, and check the label or listing details rather than assuming a big brand name is automatically legal here. This is why Doktor Doom earns the &ldquo;Best Canadian&rdquo; badge above &mdash; it is a domestic brand whose bed-bug products carry a PCP number, so you are on solid regulatory ground. For EcoRaider, Proof, and any budget botanical, verify the specific Canadian listing before you buy. Note too that a vacuum or a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> is a device, not a pesticide, so it needs no registration at all &mdash; which is part of why heat is such a frictionless, fully legal weapon against bed bugs in Canada.</p>
+          <p>Here is where it matters: Amazon.ca and cross-border sellers list a great many bed-bug sprays, including popular &ldquo;natural&rdquo; brands, that were formulated and labelled for the <em>US</em> market. A US EPA classification &mdash; including the &ldquo;minimum-risk&rdquo; exemption that many essential-oil sprays rely on south of the border &mdash; is <strong>not</strong> the same as Canadian registration, and does not make the product legal to sell or use here. Some well-known US natural brands are simply not registered in Canada, even though the listing ships to a Canadian address.</p>
+          <p>The practical rule: favour products that clearly show a Canadian PCP number, and check the label or listing details rather than assuming a big brand name is automatically legal here. This is why Doktor Doom earns the &ldquo;Best Canadian&rdquo; badge above &mdash; it is a domestic brand whose bed-bug products carry a PCP number, so you are on solid regulatory ground. For EcoRaider and Proof there is no Canadian registration to verify &mdash; Health Canada&rsquo;s database showed none on October 23, 2026 &mdash; and no clove, lemongrass or cedar blend is among the registered bed bug products either. Note too that a vacuum or a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> is a device, not a pesticide, so it needs no registration at all &mdash; which is part of why heat is such a frictionless, fully legal weapon against bed bugs in Canada.</p>
 
           <h2>How to Choose a Natural Bed Bug Spray: What You&rsquo;re Actually Paying For</h2>
           <p>These sprays span a modest price range, but the differences that matter are not really about cost &mdash; they are about which trade-off fits your situation. Prioritise in roughly this order:</p>
@@ -282,7 +323,7 @@ export default function BestNaturalBedBugSprayCanadaPage() {
             <li><strong>Canadian PMRA registration (verify this first).</strong> A clear PCP number means the product is registered for sale and use here. This is the one thing you cannot see on a US-market listing, and the easiest way to end up with something you shouldn&rsquo;t be using. Check it before anything else.</li>
             <li><strong>Knockdown speed (pay for this if the infestation is active).</strong> When you have live bugs to deal with now, fast contact kill matters. EcoRaider and pyrethrin-based Doktor Doom lead here; the lightest essential-oil blends are slower.</li>
             <li><strong>Residual length (pay for this if you want fewer re-sprays).</strong> Oil-only sprays evaporate fast; a botanical-plus-mineral formula like Proof keeps working in treated cracks a little longer, meaning fewer applications.</li>
-            <li><strong>Low odour and a milder active (weight this for bedrooms).</strong> This is the whole reason people go natural. Essential-oil formulas have the least odour; pyrethrins are effective but harsher, and warrant extra caution around cats and aquarium fish. Whichever you choose, follow the label on use around kids and pets.</li>
+            <li><strong>Low odour (weight this for bedrooms).</strong> This is the main reason people go natural. Essential-oil formulas tend to have the least odour, but a milder smell is not a lower hazard; pyrethrins warrant extra caution around cats and aquarium fish (most of the pyrethrin labels we checked say to cover fish bowls). Whichever you choose, follow the label on use around kids and pets.</li>
             <li><strong>Coverage volume for the space (don&rsquo;t overbuy or underbuy).</strong> A single bed and frame needs far less product than a multi-room job. Match the bottle size to the harbourage you actually have to treat.</li>
           </ul>
           <p>Read that as a decision map: confirm it&rsquo;s legal in Canada, then pick for knockdown, residual, or low odour depending on whether you are fighting an active infestation, trying to minimise re-sprays, or prioritising a low-odour bedroom.</p>
@@ -332,6 +373,8 @@ export default function BestNaturalBedBugSprayCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every Registered Can Compared</Link></li>
+            <li><Link href="/blog/best-bed-bug-spray-for-mattress-canada">Bed Bug Spray for Mattress — Which Canadian Labels Allow It</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment Canada — The Full Device Hub</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-bed-bugs-canada">How to Get Rid of Bed Bugs in Canada — The Complete Plan</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills the Eggs</Link></li>

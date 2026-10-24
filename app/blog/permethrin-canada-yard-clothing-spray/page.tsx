@@ -13,10 +13,11 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'permethrin-canada-yard-clothing-spray'
 const DATE = '2026-05-01'
-const UPDATED = '2026-07-12'
+const UPDATED = '2026-10-23'
 const TITLE = 'Permethrin Canada: Where to Buy + Is It Legal? (2026)'
 
 const FAQS = [
@@ -137,11 +138,19 @@ const FAQS = [
     question: 'What is permethrin spray?',
     answer: 'Permethrin spray is a liquid insecticide (a synthetic pyrethroid) sold ready-to-use or as a concentrate you dilute, and in Canada the phrase covers three different products: the consumer 0.5% clothing and gear spray, which is not approved for use in Canada because Health Canada has not approved permethrin liquids or sprays for consumers to treat their own clothing; ready-to-use household sprays that carry a Canadian PCP registration number, such as Wilson CrawlOut (Reg. No. 26901, domestic class, 0.25% permethrin), whose label covers listed pests inside buildings and on the exterior surfaces of buildings, porches, patios and decks and says do not apply to clothing; and 10%–36.8% yard and turf concentrates, which are restricted to licensed applicators. The permethrin format Canada permits for personal protection is factory pre-treated clothing, for ages 16 and over.',
   },
+  {
+    question: 'Why is permethrin banned in Canada?',
+    answer: 'It is not banned. Permethrin is sold in Canada in several forms; what Canada has not approved is one of them. The Public Health Agency of Canada says "Permethrin products in the form of liquids or sprays for consumers to treat their own clothing are not approved for use in Canada," which is why a Sawyer-style clothing spray is missing from Canadian shelves. Clothing already treated with permethrin "is available to protect against mosquitoes and ticks," Health Canada says, though it is "not available for children under the age of 16." Permethrin products used on structures carry their own label rules, including "Do not apply to furniture, mattresses, linens, toys or clothing."',
+  },
+  {
+    question: 'How can I tell if permethrin-treated clothing is legal in Canada?',
+    answer: 'Check the label. The Public Health Agency of Canada says: "When purchasing permethrin-treated clothing, look for the Health Canada Pest Control Product (PCP) number on the label." Health Canada says that number appears in a form such as "Reg. No. 00000 P.C.P. Act". The label also tells you how long the treatment lasts: Health Canada says treated clothing "can remain effective for a number of wash cycles, as indicated on the clothing label." It is "not available for children under the age of 16," and PHAC adds that it "doesn\'t provide complete protection and should be combined with other prevention measures."',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: 'Permethrin Spray Canada: Legal? Where to Buy',
-  description: 'Permethrin is registered in Canada, but consumer clothing sprays are not approved — pre-treated clothing is. Yard concentrate is licensed applicators only.',
+  description: 'Permethrin sprays for treating your own clothing are not approved in Canada; factory-treated clothing is the legal route from 16. What to buy, and where.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -168,7 +177,7 @@ export default function PermethrinCanadaPage() {
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
           <div className="speakable rounded-xl bg-white/10 border border-white/20 p-4 mb-4 max-w-3xl">
             <p className="text-xs font-extrabold text-amber-300 uppercase tracking-wider mb-1">Is permethrin legal in Canada?</p>
-            <p className="text-base sm:text-lg text-white leading-relaxed">Permethrin is registered in Canada, but the format decides what you may actually buy. Health Canada states that permethrin liquids and sprays for consumers to treat their own clothing are NOT approved here; factory pre-treated permethrin clothing IS permitted, for ages 16 and over. Higher-concentration yard and turf concentrate is restricted &mdash; only a licensed Ontario applicator may spray it on your lawn.</p>
+            <p className="text-base sm:text-lg text-white leading-relaxed">Permethrin is registered in Canada, but the format decides what you may actually buy. Permethrin &ldquo;liquids or sprays for consumers to treat their own clothing are not approved&rdquo; here, says the Public Health Agency of Canada; clothing treated with permethrin at the factory &ldquo;is available to protect against mosquitoes and ticks,&rdquo; says Health Canada, for ages 16 and over, and it is the pick for hikers and anyone working in tick country. For a yard, the product label decides: Health Canada says every label states its class (domestic, commercial or restricted), that domestic products are &ldquo;intended for use in and around homes,&rdquo; and that your province may add restrictions. For whole-yard tick and mosquito control, hire a licensed Ontario operator.</p>
           </div>
           <p className="text-xl text-brand-100 max-w-3xl">Which permethrin format Canadians can legally buy, why Health Canada has not approved a consumer clothing spray, why yard-application is restricted, and the licensed Ontario alternative for whole-yard tick and mosquito control.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
@@ -381,6 +390,21 @@ export default function PermethrinCanadaPage() {
             </tbody>
           </table>
           <p>So if you are searching &ldquo;is permethrin legal in Canada,&rdquo; the honest answer is: yes for factory-treated clothes, no for a spray you apply to clothing yourself, and no for your lawn. For whole-yard protection you legally need a licensed operator — see our <Link href="/tick-control">tick control</Link> and <Link href="/mosquito-control">mosquito control</Link> services below.</p>
+
+          <QuickIdTable
+            title="Which permethrin for your situation? What the rules say"
+            head={['Your situation', 'What the Government of Canada says', 'What to do']}
+            rows={[
+              ['Spraying your own clothes or gear', <>&ldquo;Permethrin products in the form of liquids or sprays for consumers to treat their own clothing are not approved for use in Canada&rdquo; (PHAC).</>, 'There is no compliant Canadian bottle to buy: wear factory-treated clothing, with a skin repellent for the skin it does not cover'],
+              ['Buying treated clothing for hiking or tick country', <>Clothing treated with permethrin &ldquo;is available to protect against mosquitoes and ticks&rdquo; (Health Canada). When buying it, PHAC says to &ldquo;look for the Health Canada Pest Control Product (PCP) number on the label.&rdquo;</>, <>Start with the trousers and socks that meet the brush first; the treatment lasts for the wash cycles &ldquo;indicated on the clothing label&rdquo; (Health Canada)</>],
+              ['Children', <>It is &ldquo;not available for children under the age of 16&rdquo; (Health Canada). PHAC: &ldquo;Carrying an infant or young child who may suckle or chew on the fabric of the clothing should be avoided.&rdquo;</>, <>Use a skin repellent whose label covers their age: icaridin products &ldquo;should not be used on infants younger than 6 months old&rdquo; (Health Canada)</>],
+              ['Pregnant or nursing', <>PHAC: &ldquo;Women who are pregnant or nursing can wear permethrin-treated clothing (e.g., shirts, jackets), but it is recommended that these not be worn while nursing, as it places infants in close contact with the product.&rdquo;</>, 'Change out of treated shirts and jackets before you nurse, so the baby is not held against the fabric'],
+              ['Cats, dogs and other pets', <>&ldquo;Permethrin-treated clothing has not been evaluated for pet safety in Canada.&rdquo; &ldquo;Prolonged periods of contact between the clothing and your pet should be avoided&rdquo; (PHAC).</>, 'Keep treated clothes off pet beds and away from where a cat sleeps; the toxicology section below explains why cats are the exception'],
+              ['Ants, spiders or bed bugs inside the house', <>For permethrin products used on structures: &ldquo;Only perimeter, spots or cracks and crevices applications are permitted indoors in residential areas&rdquo; and &ldquo;Do not apply to furniture, mattresses, linens, toys or clothing&rdquo; (Health Canada, 2024).</>, <>Buy a product whose label lists your pest, and use it exactly as labelled: &ldquo;Using a pesticide contrary with the label directions is a violation of the Pest Control Products Act&rdquo;</>],
+              ['Expecting full protection from clothing alone', <>Treated clothing &ldquo;doesn&rsquo;t provide complete protection and should be combined with other prevention measures&rdquo; (PHAC).</>, 'Pair it with a skin repellent, and do a tick check after every outing'],
+            ]}
+            caption={<>Quoted from the Public Health Agency of Canada (PHAC), <a href="https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html" target="_blank" rel="noopener noreferrer" className="underline">Permethrin-treated clothing</a> (canada.ca, August 2020); Health Canada, <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">Personal insect repellents</a> (canada.ca, 2021); and Health Canada, <a href="https://www.canada.ca/en/health-canada/services/publications/product-safety/changes-registration-permethrin-pesticides-uses-structures.html" target="_blank" rel="noopener noreferrer" className="underline">Changes to the registration of permethrin pesticides (uses on structures)</a> (January 2024). The &ldquo;what to do&rdquo; column restates this guide.</>}
+          />
 
           <h2>Why Yard-Application Permethrin Is Restricted in Canada</h2>
           <p>Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) classifies pesticides into Domestic, Commercial, and Restricted use categories. Higher-concentration permethrin products intended for yard application — the kind you can buy at a US Home Depot — fall under Commercial or Restricted classification in Canada, requiring a licensed applicator.</p>

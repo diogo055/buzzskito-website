@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'mouse-proof-garage-door-seal-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-23'
 const TITLE = 'Mouse-Proof Your Garage Door (Canada) — Sealing the Corner Gap'
-const META_TITLE = 'Mouse-Proof Your Garage Door (Canada)'
+// TITLE NOTE (Oct 23, 2026): was 'Mouse-Proof Your Garage Door (Canada)'; top queries Jul 23-Oct 20: how to mouse proof garage 6 at 8.2, mouse proof garage door seal 5 at 6.0, how to seal garage from mice 4 at 7.5, seal garage door from mice 3 at 7.0, mouse garage door seal 3 at 8.3 (page: 1,330 impressions at 7.2, 28 clicks).
+const META_TITLE = 'How to Mouse-Proof a Garage Door (Canada)'
 
 const FAQS = [
   {
@@ -54,11 +56,23 @@ const FAQS = [
     question: 'What temperature rating should a garage door seal have for Ontario?',
     answer: 'Look for EPDM or a thermoplastic rubber rather than rigid PVC. The practical difference shows up in January: quality rubber compounds stay flexible well below minus 30 degrees Celsius, while cheap vinyl stiffens, stops conforming to the floor, and cracks along the fold. A stiff seal in February is a seal that no longer touches the slab at the corners — which is the same gap you set out to close, arriving by a different route. Packaging that quotes a cold-temperature rating is telling you something useful; packaging that says only "all weather" is telling you nothing.',
   },
+  {
+    question: 'How do I mouse-proof my garage?',
+    answer: 'Work from the outside in. The CDC says mice can fit through a hole the width of a pencil (1/4 inch or 6 millimetres) and to "Seal outbuildings and garages as well." Start with the overhead door: the University of Nebraska says doors should fit so the gap between the door bottom and the threshold "is less than ¼-inch." Then check around windows, the side door, pipes and vents. The CDC says to fill small holes with steel wool and put caulk around it to keep it in place, and to use lath screen or metal, cement, hardware cloth or metal sheeting for larger holes. If mice are already inside, trap before you seal the last gaps.',
+  },
+  {
+    question: 'What garage door seal keeps mice out?',
+    answer: 'No rubber seal does it on its own. The University of Nebraska says "Rats and mice can quickly gnaw through rubber or vinyl weather stops," and UC IPM lists rubber, vinyl and insulating (expanding) foam among the materials that are ineffective for plugging holes used by house mice. What works is fit plus metal: a bottom or threshold seal that closes the gap to less than 1/4 inch, metal mesh packed into the corner voids, and metal on the lower edge of the door where mice gnaw, which both guides recommend. Nebraska adds that it is sometimes easier to build up the threshold than to modify the door.',
+  },
+  {
+    question: 'Do garage door rodent guards work?',
+    answer: 'They follow the right principle: metal where mice chew. The rodent guards sold for garage doors are mostly metal pieces fixed at the bottom corners of the side seals, where the bottom seal meets the side seals and a gap often opens, and both the University of Nebraska and UC IPM recommend metal at door edges because rodents gnaw through rubber and vinyl. We found no independent test of any specific guard, so treat one as a corner fix only: it does nothing about a gap across the middle of the door, which still needs a bottom or threshold seal that closes it to less than 1/4 inch.',
+  },
 ];
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The garage door is the biggest gap in most Ontario homes. Threshold seals, bottom seal profiles, corner inserts, and the mesh fix that keeps mice out.',
+  description: 'To mouse-proof a garage door, close every gap to less than 1/4 inch (6 mm): a threshold or bottom seal, metal in the corners, brush on the jambs.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +97,7 @@ export default function MouseProofGarageDoorSealCanadaPage() {
             <span className="text-white">Mouse-Proof Garage Door Seal</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The two bottom corners of a garage door are the largest unsealed opening in most Ontario houses &mdash; and the entry point behind a large share of autumn mouse calls. Here is what closes them, what size to buy, and what not to waste money on.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Close every gap under and beside the door: mice fit through a hole the width of a pencil (1/4 inch, 6 mm), the CDC says. Our pick for most Canadian garages is a floor-bonded rubber threshold seal plus metal packed into the two bottom corners; on a flat slab, a new bottom seal does the job for less.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -281,6 +295,22 @@ export default function MouseProofGarageDoorSealCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
+
+          <QuickIdTable
+            title="What stops mice at a garage door: what the rodent-proofing guides say"
+            head={['At the door', 'What the guides say', 'Source']}
+            rows={[
+              ['Gap size', 'Mice can fit through a hole the width of a pencil (1/4 inch, 6 mm); house mice can squeeze under gaps 1/4 inch tall', 'CDC; UC IPM'],
+              ['Door bottom to floor', 'Keep the gap between the door bottom and the threshold under 1/4 inch; it is sometimes easier to build up the threshold than to modify the door', 'University of Nebraska'],
+              ['Rubber or vinyl seal on its own', '"Rats and mice can quickly gnaw through rubber or vinyl weather stops"; rubber and vinyl are ineffective for plugging mouse holes', 'University of Nebraska; UC IPM'],
+              ['Metal on the door edge', 'Flashing or a metal channel on the lower edge of the door, to within 1/8 inch of its sides and bottom; covering door edges with metal may be needed to stop gnawing', 'University of Nebraska; UC IPM'],
+              ['Small holes and corner voids', 'Fill with steel wool, then caulk or spray foam around it to hold it in place', 'CDC'],
+              ['Larger holes', 'Lath screen or metal, cement, hardware cloth or metal sheeting; for mice, 24-gauge hardware cloth with 1/4-inch mesh', 'CDC; University of Nebraska'],
+              ['Expanding foam alone', 'Insulating (expanding) foam is among the gnawable materials that are ineffective for plugging holes used by house mice', 'UC IPM'],
+              ['When to do it', 'House mice often enter homes in autumn as nights get colder; trapping is the preferred method in garages where only a few mice are present', 'UC IPM'],
+            ]}
+            caption={<>Sources: the CDC&rsquo;s <a href="https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" target="_blank" rel="noopener noreferrer" className="underline">How to Seal Up to Prevent Rodents</a>, the University of Nebraska&ndash;Lincoln&rsquo;s <a href="https://extensionpubs.unl.edu/publication/g1530/html/view" target="_blank" rel="noopener noreferrer" className="underline">rodent-proof construction guide (G1530)</a> and UC IPM&rsquo;s <a href="https://ipm.ucanr.edu/home-and-landscape/house-mouse/" target="_blank" rel="noopener noreferrer" className="underline">house mouse guidelines</a> (checked October 23, 2026).</>}
+          />
 
           <h2>Why the Garage Door Is the Biggest Hole in Your House</h2>
           <p>Mice get into an Ontario house through the garage more often than through any single opening people actually think about, and they do it at the bottom corners of the overhead door. The reason is mechanical rather than mysterious. A garage door is a heavy panel that seals against the floor with a compressible rubber astragal, and it compresses that rubber hardest where the weight is &mdash; along the middle. At each end, where the astragal runs out and meets the vertical jamb weatherstripping, the two seals meet at right angles and never quite marry. What is left is a small triangular void, open to the outside, at ground level, on both sides of an opening that is otherwise several metres wide.</p>

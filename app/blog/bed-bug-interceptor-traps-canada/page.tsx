@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'bed-bug-interceptor-traps-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-23'
 const TITLE = 'Bed Bug Interceptor Traps Canada — Which Cup to Buy and How to Read It'
-const META_TITLE = 'Bed Bug Interceptors Canada: Which Cup to Buy'
+// TITLE NOTE (Oct 23, 2026): was 'Bed Bug Interceptors Canada: Which Cup to Buy'; top queries, 90 days to Oct 23: bed bug interceptors canadian tire 186 at 8.4 (a retailer search, not targeted), bed bug interceptors 87 at 12.9, do bed bug interceptors work 75 at 8.2, bed bug interceptor cups 60 at 9.5 (189 more on /blog/best-bed-bug-trap-canada, which now leaves cup searches to this page: data/god-build/research/top3/bed-bug-traps-cluster.md), interceptor cups 45, bed bug interceptor traps 34 (12 clicks on 1,078 impressions).
+const META_TITLE = 'Bed Bug Interceptor Cups Canada: Do They Work?'
 
 const FAQS = [
   {
@@ -70,14 +72,27 @@ const FAQS = [
     question: 'Are bed bug interceptors legal in Canada?',
     answer: 'Completely. Interceptors contain no pesticide, so they fall outside the Pest Control Products Act entirely — no PMRA registration, no domestic-class restrictions, no provincial licensing issues. That makes them one of the few bed bug tools where the Canadian buyer faces zero regulatory complications, in contrast to the US-only insecticide concentrates that American forums routinely recommend and that cannot legally be sold for consumer use here.',
   },
+  {
+    question: 'Do bed bug interceptors work?',
+    answer: 'Yes, as a detection and monitoring tool. Rutgers Cooperative Extension calls pitfall traps such as the ClimbUp Insect Interceptor the most cost-effective way to detect bed bugs and says interceptors are much more effective than visual inspections. In a Rutgers study of lightly infested apartments, cups left for 7 days caught as many bed bugs as a dry ice trap did in one night. Under bed and couch legs they can also cut bites by stopping bugs on the way to you, but Rutgers is clear that monitors are only meant to detect bed bugs and track a treatment, not to end an infestation.',
+  },
+  {
+    question: 'What are interceptor cups?',
+    answer: 'Interceptor cups are small plastic pitfall traps that sit under each leg of a bed or couch. The outside wall is rough, so a bed bug can climb it; the inside wall is slick, so it falls into the well and cannot climb back out. Double-well cups add a second ring around the leg that catches bugs coming down off the bed, which tells you which way they were travelling. They hold no attractant, which is why Rutgers Cooperative Extension calls them passive monitors, and no pesticide.',
+  },
+  {
+    question: 'Can I make my own bed bug interceptors?',
+    answer: 'Yes. The U.S. EPA’s version uses two clean plastic containers, the smaller set inside the larger (deli or take-out containers work), rough masking or painter’s tape around the outside of the larger one so bed bugs can climb in, and a little talcum powder in both so they cannot climb out; check and clean them every week and reapply the talc. Rutgers Cooperative Extension describes a similar trap made from an upside-down pet food bowl. Either way, move the furniture a few inches from the walls and keep linens off the floor. Commercial cups such as the ClimbUp come ready to use, which is why they are our pick.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Which bed bug interceptor to buy in Canada: ClimbUp vs generic cups, sizing by bed-leg width, how many you need, and how to read inner vs outer well catches.',
+  description: 'Do bed bug interceptor cups work? Yes: in Rutgers studies they found bed bugs inspections missed. How they work, which cup to buy, and the 14-night check.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('bed-bug-interceptor-traps-canada')
@@ -85,10 +100,10 @@ const AMZ_TAG = tagForSlug('bed-bug-interceptor-traps-canada')
 export default function BedBugInterceptorTrapsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug interceptor traps — ClimbUp cups, the 14-night monitoring protocol, and reading your catch before you spray anything.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug interceptor traps — ClimbUp cups, the 14-night monitoring protocol, and reading your catch before you spray anything.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Interceptor Traps Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -98,7 +113,7 @@ export default function BedBugInterceptorTrapsCanadaPage() {
             <span className="text-white">Bed Bug Interceptor Traps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Interceptor cups are the cheapest, most reliable way to confirm a bed bug problem before you spend a dollar on sprays — here&rsquo;s how they exploit bed bug physiology, how to run the 14-night protocol, and how to read what you catch.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> yes, bed bug interceptors work as a detection tool. Bugs climb the cup&rsquo;s rough outer wall, drop into a slick well and cannot get out, and in Rutgers apartment studies the cups found bed bugs that visual inspections missed. Our pick is the ClimbUp Insect Interceptor, four per bed, left in place for 14 nights; it catches bed bugs but does not end an infestation.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -183,6 +198,21 @@ export default function BedBugInterceptorTrapsCanadaPage() {
           <p>An interceptor is a small two-ring plastic cup that sits under each bed leg and exploits a hard limit of bed bug physiology: bed bugs cannot fly, cannot jump, and cannot climb smooth vertical plastic. Every bed bug that wants to feed on a sleeping person in an isolated bed has to walk across the floor and climb a bed leg — and the interceptor turns that mandatory climb into a one-way pitfall.</p>
           <p>The mechanics are simple. The outside wall of the cup is textured (and often talc-dusted), so a bug climbing toward the bed gets up it easily. At the top it drops into a moat with polished, slippery inner walls. Bed bug tarsal claws are built to grip rough surfaces — fabric, wood, skin — but they find no purchase on slick plastic, so the bug stays in the well until you find it. The double-well design adds a second moat around the bed leg itself, which catches bugs travelling in the opposite direction: down off the bed.</p>
           <p>That directionality is the genius of the design. A pitfall trap doesn&rsquo;t just say &ldquo;bed bugs: yes or no.&rdquo; It tells you <strong>where they are living</strong> — information no spray can give you and the reason entomologists put interceptors at the front of every inspection protocol.</p>
+
+          <QuickIdTable
+            title="Do bed bug interceptors work? What the research found"
+            head={['Question', 'What the research found', 'Source']}
+            rows={[
+              ['Better than looking?', 'Interceptors are “much more effective than visual inspections” and residents’ reports at finding bed bugs', 'Rutgers Extension FS1117, citing Wang et al. 2016'],
+              ['Better than active traps?', 'In lightly infested apartments, cups left 7 days caught as many bed bugs as a dry ice trap in one night, and more than the CDC3000 and NightWatch monitors run one night', 'Wang et al. 2011, Rutgers'],
+              ['How long to leave them?', '“At least a week or longer” to detect bed bugs at very low numbers', 'Rutgers Extension FS1117'],
+              ['Do they cut bites?', 'Under bed and couch legs they are “more likely to reduce the number of bed bug bites” by stopping bugs on the way to you', 'Rutgers Extension FS1117'],
+              ['No legs, or legs too wide?', 'Set the cups against the walls and furniture legs instead, which “would slightly reduce the bed bug detection rate”', 'Rutgers Extension FS1117'],
+              ['Can a lure boost the catch?', 'An experimental chemical lure increased ClimbUp catches 2.2 times', 'Singh, Wang & Cooper 2013, Rutgers'],
+              ['Do they end an infestation?', 'No: monitors “are only intended to detect bed bugs and monitor control efforts”', 'Rutgers Extension FS1117'],
+            ]}
+            caption={<>Sources: Rutgers Cooperative Extension fact sheet <a href="https://njaes.rutgers.edu/fs1117/" target="_blank" rel="noopener noreferrer" className="underline">FS1117, Detecting Bed Bugs Using Bed Bug Monitors</a> (Changlu Wang, 2019) and the Rutgers studies behind it: <a href="https://doi.org/10.1603/ec10141" target="_blank" rel="noopener noreferrer" className="underline">Wang et al. (2011)</a> on monitors in apartments and <a href="https://doi.org/10.1603/ec13075" target="_blank" rel="noopener noreferrer" className="underline">Singh, Wang &amp; Cooper (2013)</a> on trap design and lures.</>}
+          />
 
           <NextUp path="/blog/bed-bug-interceptor-traps-canada" />
           <h2>Why Should You Use Interceptors Before Any Spray?</h2>

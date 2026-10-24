@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-sump-pump-for-basement-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Sump Pumps for Canadian Basements — Sizing by Lift Height, Switch Failure and Winter Discharge'
-const META_TITLE = 'Best Sump Pumps for Canadian Basements'
+// TITLE NOTE (Oct 23, 2026): was 'Best Sump Pumps for Canadian Basements'; top queries Jul 23-Oct 20: best sump pump canada 212 at 7.5, sump pumps 111 at 15.9, best sump pump 56 at 12.8, best sump pump for basement 56 at 11.7, best sump pump for basement canada 48 at 6.7, best submersible sump pump 35 at 4.4 (page: 3,399 impressions at 8.8, 56 clicks).
+const META_TITLE = 'Best Sump Pump Canada: Sized by Lift, Not HP'
 
 const FAQS = [
   {
@@ -62,12 +64,24 @@ const FAQS = [
     question: 'Where can I buy sump pumps in Canada?',
     answer: 'Home Depot Canada, Rona and Lowe\'s, Canadian Tire and Home Hardware all carry primary pumps, basins, check valves and discharge kits, with the heaviest stock in late winter and spring as melt season approaches. Plumbing wholesalers carry the contractor-grade lines and are worth a call if you want a specific model. Amazon.ca is the most reliable channel for the parts that actually strand people — replacement float switches, check valves, weep-hole fittings, quick-disconnect unions, water alarms and freeze-relief fittings — because those are the items a big-box store is most likely to be out of on the Saturday you need one.',
   },
+  {
+    question: 'Does Toronto pay for a sump pump?',
+    answer: 'Partly, if you qualify. Under Toronto\'s Basement Flooding Protection Subsidy Program, the City offers up to 80 per cent of the invoiced cost, to a maximum of $2,250 for one device, to install or replace a sump pump and its alarm, plus up to 80 per cent, to a maximum of $300, for a battery backup, for work completed on or after November 12, 2025. You must be the registered owner of a single-family, duplex, triplex or fourplex home in Toronto, use contractors with a valid City of Toronto business licence, and apply within two years with the invoices and photos of the sump pump and the discharge pipe outside. Subsidies are first-come, first-serve and depend on annual funding.',
+  },
+  {
+    question: 'What is the best submersible sump pump in Canada?',
+    answer: 'For most basements, a 1/3 HP cast iron submersible with a switch that fits your basin: vertical for narrow or crowded pits, tethered where it has room to swing. Step up to 1/2 HP only when the total head is genuinely high, as with a deep pit, a long run to the property line or a high water table. Whatever you buy, read its flow at your total head on the maker\'s performance chart rather than the headline number, and look for a recognized certification mark: Ontario\'s Electrical Safety Authority says an electrical product must be approved by an accredited certification or evaluation agency before it is used, sold, displayed or advertised for sale in Ontario.',
+  },
+  {
+    question: 'Is a 1/3 HP sump pump enough?',
+    answer: 'For most Canadian basements, yes. A typical Ontario basement has 7 to 10 feet of vertical lift from the bottom of the pit to where the pipe leaves the house; add about a foot of head for every ten feet of horizontal pipe, and a 1/3 HP cast iron submersible covers that standard case. It stops being enough when the pit is deep, the run to the property line is long, or the water table refills the basin in minutes during spring melt, and then a 1/2 HP is the right step. Going bigger in a small basin backfires, because an oversized pump short-cycles and wears out its switch.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
   description:
-    'Sizing a Canadian basement sump pump by lift height, not horsepower — cast iron vs thermoplastic, why the float switch fails first, and winter discharge.',
+    'The best sump pump for most Canadian basements: a 1/3 HP cast iron submersible, 1/2 HP for high lift. Size by total head; the switch fails first.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -92,7 +106,7 @@ export default function BestSumpPumpForBasementCanadaPage() {
             <span className="text-white">Best Sump Pump for a Basement Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">Best Sump Pumps for Canadian Basements</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The moisture problem sitting upstream of every damp-basement pest call. Damp concrete is what feeds silverfish, centipedes and mould &mdash; and a failing sump is why the dehumidifier is losing. How to size one by lift height rather than horsepower, and why the switch is the part that actually dies.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">For most Canadian basements the best sump pump is a 1/3 HP cast iron submersible with a float switch that fits your pit; go 1/2 HP only for a deep pit, a long run or a high water table. In Toronto, the City&rsquo;s flooding subsidy can cover up to 80 per cent of a licensed install, to $2,250.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -305,6 +319,23 @@ export default function BestSumpPumpForBasementCanadaPage() {
 
           <h2>Where to Buy in Canada</h2>
           <p>Home Depot Canada, Rona, Lowe&rsquo;s, Canadian Tire and Home Hardware all stock pumps, basins, check valves and discharge kits, deepest from late winter through spring as melt season approaches. Plumbing wholesalers carry the contractor-grade lines if you want a particular model. Amazon.ca is the reliable channel for the small parts that strand people mid-job &mdash; float switches, check valves, unions, freeze-relief fittings, water alarms &mdash; precisely the items a big-box aisle is picked clean of on a spring Saturday.</p>
+
+          <h2>Two Canadian Checks Before You Buy: Certification and Toronto&rsquo;s Subsidy</h2>
+          <p>A sump pump is a plugged-in electrical product sitting in water, so the certification mark matters, and in Toronto the City pays for part of a professionally installed pump. Both are easy to check before you spend anything.</p>
+          <QuickIdTable
+            title="Canadian buying checks: certification and Toronto's subsidy"
+            head={['Check', 'What the rule says', 'Source']}
+            rows={[
+              ['Certification mark', 'An electrical product must be approved by an accredited certification or evaluation agency, and carry its mark, before it is used, sold, displayed or advertised for sale in Ontario (CSA, UL, ULC and Intertek are on the recognized list)', 'Electrical Safety Authority (Ontario)'],
+              ['Sump pump and alarm', 'Up to 80 per cent of the invoiced cost, to a maximum of $2,250 for one device, for work completed on or after November 12, 2025', 'City of Toronto'],
+              ['Battery backup', 'An additional subsidy of up to 80 per cent of the invoiced cost, to a maximum of $300; the contractor must itemize it separately', 'City of Toronto'],
+              ['Backwater valve', 'Up to 80 per cent of the invoiced cost, to a maximum of $1,600 per device (up to two); a building permit and inspection are required', 'City of Toronto'],
+              ['Who qualifies', 'The registered owner of a single-family, duplex, triplex or fourplex home in Toronto; contractors need a valid City of Toronto business licence; apply within two years of installation', 'City of Toronto'],
+              ['What to submit', 'Original invoices marked paid in full, and photos of the sump pump and the discharge pipe at the outside of the house; subsidies are first-come, first-serve and depend on annual funding', 'City of Toronto'],
+            ]}
+            caption={<>Sources: the Electrical Safety Authority&rsquo;s <a href="https://esasafe.com/electrical-products/recognized-certification-marks/" target="_blank" rel="noopener noreferrer" className="underline">Recognized Approval Marks</a> and the City of Toronto&rsquo;s <a href="https://www.toronto.ca/services-payments/water-environment/managing-rain-melted-snow/basement-flooding/basement-flooding-protection-subsidy-program/" target="_blank" rel="noopener noreferrer" className="underline">Basement Flooding Protection Subsidy Program</a> (checked October 23, 2026; the City says it now offers up to $6,650 in subsidies per property). Outside Toronto, ask your own municipality.</>}
+          />
+          <p>The subsidy covers licensed installation, not a pump you put in yourself, so price both routes: the parts list above for a DIY swap, or a licensed plumber&rsquo;s quote with the City paying part of it.</p>
 
           <h2>The Bottom Line</h2>
           <p>Buy a 1/3 HP cast iron submersible unless the tape measure says otherwise, and let total head &mdash; not the horsepower badge &mdash; make that call. Match the float switch to your basin diameter and keep a spare, because the switch is what fails. Fit a serviceable check valve above the lid, drill the weep hole, add a union. Then spend your winter attention on the discharge line, since a frozen pipe during a February thaw is how a perfectly good pump dies in this country. Seal the pit, run the discharge well away from the foundation, and the damp that has been feeding the silverfish, centipedes and mould goes with it &mdash; which is the whole reason a mosquito company ended up writing about sump pumps.</p>

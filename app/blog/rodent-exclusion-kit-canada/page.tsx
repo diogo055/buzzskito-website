@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'rodent-exclusion-kit-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Rodent Exclusion Kit Canada 2026 — Seal Mice Out Before October'
-const META_TITLE = 'Rodent Exclusion Kit Canada: 8 Spots to Seal'
+// TITLE NOTE (Oct 23, 2026): was 'Rodent Exclusion Kit Canada: 8 Spots to Seal'; 90 days to Oct 23 the page had 3,389 impressions at 6.9, mostly from unlisted queries; listed: mouse sealant 15, rodent barrier kit 11, mouse exclusion 9 at 8.2, rodent exclusion 7 at 8.1, best sealant to keep mice out 7 at 6.7, plus about 20 sealant and caulk variants (mouse proof sealant, rodent proof caulking, rodent stop caulk).
+const META_TITLE = 'Rodent Exclusion Kit Canada: Best Sealant & Mesh'
 
 const FAQS = [
   {
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'What does professional rodent exclusion cost in Canada?',
     answer: 'Typically several hundred dollars for a standard exclusion package on a detached home — sealing identified entry points with metal and sealant — and more where roofline work, chimney caps, or extensive hardware-cloth screening is involved; complex jobs can run past a thousand. That price usually includes the inspection, which is genuinely the hardest part to DIY well. A self-assembled kit of copper mesh, sealant, hardware cloth, and a garage seal costs a fraction of that, so the DIY case is strong if you are comfortable on a ladder and methodical about the walk-around. Our Canadian pest control cost guide breaks down what pros charge so you can sanity-check any quote.',
   },
+  {
+    question: 'What is the best sealant to keep mice out?',
+    answer: 'No sealant keeps mice out on its own: mice and rats chew through caulk and cured foam, and UC IPM lists expanding foam with rubber, vinyl and plastic among the materials that are ineffective for plugging holes. The best sealant is an exterior-grade polyurethane or hybrid sealant used over metal. Pack the gap tightly with copper mesh or stainless steel wool first, then seal around it, which is the order the US CDC gives: steel wool in the hole, caulk around it to hold it in place. Foams and caulks sold as rodent-blocking are still sealants, so put metal behind them too.',
+  },
+  {
+    question: 'What can I use instead of steel wool to keep mice out?',
+    answer: 'Copper mesh or stainless steel wool, which hold up outdoors where ordinary steel wool rusts. Nebraska Extension says coarse steel wool will do but will eventually rust, and recommends wedging copper or stainless steel wool tightly into gaps under 3/4 inch (2 cm). For bigger holes, the US CDC lists lath screen or metal, cement, hardware cloth and metal sheeting, and Nebraska specifies 24-gauge, 1/4-inch hardware cloth for mice and galvanized sheet metal of 24 gauge or heavier. Avoid wood, plastic, rubber and vinyl: rodents gnaw through all of them.',
+  },
+  {
+    question: 'How do I seal the outside of my house from mice?',
+    answer: 'Walk the outside in daylight at crouch height and mark every gap a pencil could pass through: the US CDC says a mouse fits through a hole 1/4 inch (6 mm) across. Check where the siding meets the foundation, every pipe, cable and AC line, dryer and exhaust vents, brick weep holes, both garage-door corners, door thresholds, the roofline and basement windows. Pack small gaps with copper mesh or stainless steel wool and seal over it, screen vents and weep holes so they still breathe, and fix larger holes with hardware cloth, sheet metal or cement. If mice are already inside, trap first, then seal.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Build a rodent exclusion kit for Canadian homes: copper mesh vs steel wool, quarter-inch hardware cloth for vents and weep holes, exterior sealant, garage-door seals, the dime-sized-gap rule, and the 8-point September inspection walk that keeps mice out before the October surge.',
+  description: 'The best sealant to keep mice out is exterior sealant over copper mesh or stainless wool; the full kit adds 1/4-inch hardware cloth for vents and a garage seal.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function RodentExclusionKitCanadaPage() {
             <span className="text-white">Rodent Exclusion Kit Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Copper mesh, hardware cloth, exterior sealant, and a chew-proof garage seal — the four-layer kit that permanently seals mice out of a Canadian house, plus the 8-point inspection walk and the September deadline that makes it all work.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best rodent exclusion kit is copper mesh packed into every gap with exterior sealant over it, plus 1/4-inch hardware cloth for vents and a chew-resistant garage-door seal. No caulk or foam stops mice on its own, so the metal goes in first.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -301,6 +315,20 @@ export default function RodentExclusionKitCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="exterior polyurethane sealant masonry">Exterior sealant →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rodent proof garage door seal">Garage-door rodent seal →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Which material for which gap"
+            head={['Gap or opening', 'Use', 'Why', 'Avoid']}
+            rows={[
+              ['Gaps around pipes, cables and AC lines; cracks up to about 2 cm (3/4 in)', 'Copper mesh or stainless steel wool packed in tight, with exterior sealant around it', 'Nebraska Extension: wedge copper or stainless steel wool tightly into gaps under 3/4 inch; the US CDC: put caulk around the steel wool to keep it in place', 'Foam or caulk on its own: UC IPM lists expanding foam among the materials that do not work for plugging holes'],
+              ['Hairline cracks too narrow to stuff', 'Exterior-grade polyurethane or hybrid sealant', 'Closes the crack and the warm-air leak that draws mice to it', 'Interior latex caulk, which shrinks and cracks in the first winter'],
+              ['Dryer, bathroom and attic vents', 'A vent guard, or 1/4-inch galvanized hardware cloth around the hood with the flap still working', 'Nebraska Extension specifies 24-gauge, 1/4-inch mesh to keep out mice (19-gauge, 1/2-inch for rats)', 'Screen inside a dryer duct, which clogs with lint; chicken wire, which rats get through (UC IPM)'],
+              ['Brick weep holes', 'Weep-hole covers, or a rolled piece of copper mesh or hardware cloth in each hole', 'Water and air still get out of the wall; mice do not get in', 'Caulking them shut, which traps moisture in the wall'],
+              ['Garage-door corners', 'A chew-resistant garage-door bottom seal or corner guards, with chipped concrete under the seal patched', 'Nebraska Extension: rats and mice quickly gnaw through rubber or vinyl weather stops', 'A plain rubber seal on its own'],
+              ['Larger holes: foundation cracks, gaps at the sill, holes over 2 cm', 'Hardware cloth, galvanized sheet metal (24 gauge or heavier) or cement', 'The US CDC lists lath screen or metal, cement, hardware cloth and metal sheeting for larger holes', 'Wood, plastic, rubber, vinyl and aluminum sheeting, all of which rodents gnaw (Nebraska Extension)'],
+            ]}
+            caption={<>Checked October 23, 2026: the US CDC&rsquo;s <a href="https://www.cdc.gov/healthy-pets/rodent-control/seal-up.html" target="_blank" rel="noopener noreferrer" className="underline">How to Seal Up to Prevent Rodents</a> (April 2024), Nebraska Extension&rsquo;s <a href="https://extensionpubs.unl.edu/publication/g1530/html/view" target="_blank" rel="noopener noreferrer" className="underline">Rodent-Proof Construction: Structural</a> (NebGuide G1530, revised 2009), and UC IPM&rsquo;s Pest Notes on the <a href="https://ipm.ucanr.edu/home-and-landscape/house-mouse/" target="_blank" rel="noopener noreferrer" className="underline">house mouse</a> (July 2025) and <a href="https://ipm.ucanr.edu/home-and-landscape/rats/" target="_blank" rel="noopener noreferrer" className="underline">rats</a> (June 2025). The sealant, weep-hole and garage-seal rows also restate this page&rsquo;s own sections below.</>}
+          />
 
           <NextUp path="/blog/rodent-exclusion-kit-canada" />
           <h2>The Dime Rule: How Small Is Too Small to Ignore</h2>

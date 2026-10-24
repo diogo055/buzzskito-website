@@ -14,17 +14,19 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-steam-cleaner-for-pest-control-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Steam Cleaner for Pest Control Canada 2026 — Dry Vapour That Kills Bed Bugs, Dust Mites & Fleas'
-const META_TITLE = 'Best Steam Cleaner for Pest Control Canada 2026'
+// TITLE NOTE (Oct 23, 2026): was 'Best Steam Cleaner for Pest Control Canada 2026'; top queries Jul 23-Oct 20: dry steam cleaner for bed bugs 47 at 7.3, best steam cleaner for bed bugs canada 32 at 6.3, best steam cleaner for dust mites 11 at 2.3, best steam cleaner for fleas 9 at 3.7 (page: 2,695 impressions at 8.3, 75 clicks). "steam cleaner for bed bugs" stays with the sibling /blog/best-bed-bug-steamer-canada.
+const META_TITLE = 'Best Dry Steam Cleaner for Pest Control Canada'
 
 const FAQS = [
   {
     question: 'What is the best steam cleaner for pest control in Canada?',
-    answer: 'For most Canadian homes fighting bed bugs, dust mites, or fleas, the best steam cleaner is a heavy-duty dry-vapour unit with a boiler that reaches roughly 150–170°C at the tip and holds temperature under a continuous trigger — the Dupray Neat is the reference machine for this job. Dry steam (very low moisture content) delivers lethal heat deep into fabric seams and cracks without soaking the mattress, which is exactly what kills bed-bug eggs that suction cannot lift. A Vapamore MR-100 Primo is the best pick if you want long continuous runtime for larger jobs, and a heavy-duty McCulloch canister is the best value if you want real boiler heat without the premium. Whatever you buy, the steamer is one tool in a plan — pair it with a sealed-HEPA vacuum and monitoring traps.',
+    answer: 'For most Canadian homes fighting bed bugs, dust mites, or fleas, the best steam cleaner is a heavy-duty dry-vapour unit with a pressurised boiler and a continuous-steam trigger — the Dupray Neat is the reference machine for this job, and Dupray says it produces steam internally at up to 135°C (275°F). Dry steam (very low moisture content) delivers lethal heat deep into fabric seams and cracks without soaking the mattress, which is exactly what kills bed-bug eggs that suction cannot lift. A Vapamore MR-100 Primo is the best pick if you want long continuous runtime for larger jobs, and a heavy-duty McCulloch canister is the best value if you want real boiler heat without the premium. Whatever you buy, the steamer is one tool in a plan — pair it with a sealed-HEPA vacuum and monitoring traps.',
   },
   {
     question: 'Does steam actually kill bed bugs and their eggs?',
@@ -36,7 +38,7 @@ const FAQS = [
   },
   {
     question: 'How hot does a steam cleaner need to get to kill pests?',
-    answer: 'You want a machine whose boiler reaches roughly 150°C or higher internally, which puts the steam at the nozzle tip comfortably above the ~60°C lethal threshold for bed bugs, dust mites, and flea life stages even after some heat loss over the last few centimetres. Boiler temperature is not the same as tip temperature — heat drops as steam travels through the hose and nozzle — so a higher internal boiler figure gives you more margin at the surface where it counts. Be sceptical of small handheld units that claim high numbers: many produce wet, low-pressure steam that cools fast and never delivers penetrating heat. Look for a pressurised boiler, a stated internal temperature, and a continuous-steam trigger.',
+    answer: 'Health Canada says bedbugs die at 50°C and that steam cleaners generally emit steam at a temperature of at least 100°C, so what matters is heat that reaches and holds at the surface. Makers state the internal figure: Dupray lists the Neat at up to 135°C (275°F) and Vapamore lists the MR-100 Primo at 210–220°F (about 99–104°C). Boiler temperature is not the same as tip temperature — Dupray notes that the exit temperature depends on the accessory used — so a higher internal figure gives you more margin at the surface where it counts. Be sceptical of small handheld units that claim high numbers: many produce wet, low-pressure steam that cools fast and never delivers penetrating heat. Look for a pressurised boiler, a stated internal temperature, and a continuous-steam trigger.',
   },
   {
     question: 'Can a steam cleaner get rid of bed bugs on its own?',
@@ -52,7 +54,7 @@ const FAQS = [
   },
   {
     question: 'How long does a steam cleaner run before it needs a refill?',
-    answer: 'It depends on boiler size. Compact and handheld units may give only 10–20 minutes before you stop to cool and refill, which is frustrating on a whole-mattress or whole-room job. Mid-size canister steamers run 40–60 minutes on a tank, and larger continuous-fill or dual-tank machines (like the Vapamore MR-100 Primo) let you add water without cooling down, so you can work for extended sessions uninterrupted. For a single bed or a small flea spot you can manage with a smaller boiler; for an active bed-bug job across a bedroom, prioritise a larger tank or continuous-fill capability so heat and momentum do not keep stalling.',
+    answer: 'It depends on boiler size. Compact and handheld units may give only 10–20 minutes before you stop to cool and refill, which is frustrating on a whole-mattress or whole-room job. Mid-size canister steamers run 40–60 minutes on a tank (Dupray lists up to 50 minutes for the Neat, Vapamore 50–60 minutes for the MR-100 Primo), and continuous-fill or dual-tank machines let you add water without cooling down, so you can work for extended sessions uninterrupted. A single-boiler unit has to cool first: Dupray says the Neat\'s boiler must cool before refilling. For a single bed or a small flea spot you can manage with a smaller boiler; for an active bed-bug job across a bedroom, prioritise a larger tank or continuous-fill capability so heat and momentum do not keep stalling.',
   },
   {
     question: 'Why buy a Canadian-available steamer instead of a US high-pressure unit?',
@@ -70,11 +72,23 @@ const FAQS = [
     question: 'Is an expensive steam cleaner worth it for pest control, or will a cheap one do?',
     answer: 'For a one-time minor issue a decent mid-range canister used carefully will help. But for an active bed-bug problem the premium buys the three things a cheap unit fakes: a genuinely pressurised boiler that hits and holds lethal temperature, low-moisture dry vapour that penetrates without soaking, and continuous runtime so you can finish a job without constant cooling. A cheap handheld that spits wet, cooling steam can give a false sense of security while eggs survive — arguably worse than no treatment because you think the area is clear. Spend where the boiler, dryness, and runtime are real; skip novelty steam mops marketed for floors when the job is pests.',
   },
+  {
+    question: 'What is the best dry steam cleaner for bed bugs?',
+    answer: 'A canister with a pressurised boiler and a continuous-steam trigger, and our reference pick is the Dupray Neat: Dupray says it produces steam internally at up to 135°C (275°F) from a 1.6 L boiler, with up to 50 minutes of steam per fill. Health Canada says "Dry steam or low vapour steamers are better because they leave behind less moisture," and that steam "will only kill the bedbugs that it reaches, so move the steam cleaner slowly to maximize depth." Steam is one step: Health Canada strongly recommends a licensed pest control operator for an infestation.',
+  },
+  {
+    question: 'Should you steam or vacuum first for bed bugs?',
+    answer: 'Health Canada\'s order is steam first: "Steam cleaning should be done before vacuuming, as the steam will flush any bedbugs not killed out of hiding." Then vacuum the mattress, box spring, bed frame and baseboards with a stiff brush and a crevice nozzle, and seal and throw out the bag or canister contents straight away. If you vacuum loose debris before steaming, as some guides suggest, vacuum again afterwards so the bugs the steam flushed out do not escape.',
+  },
+  {
+    question: 'What is the best steam cleaner for fleas?',
+    answer: 'The same dry-vapour canister that handles bed bugs, run slowly along carpet edges, pet-bedding areas and baseboards. Health Canada\'s routine for fleas in the home includes "Steam-clean carpets," alongside vacuuming carpets and cushioned furniture daily and washing pet and family bedding in hot, soapy water every 2 to 3 weeks. It also says to treat the pet and the areas it uses with "both physical and chemical control methods," so pair the steamer with a flea product your veterinarian recommends for the animal.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best steam cleaners for pest control in Canada: why dry vapour kills bed bugs, dust mites, and fleas, what boiler temperature you need, technique for mattresses and carpet edges, and our Dupray, Vapamore, McCulloch, and portable picks. Updated 2026.',
+  description: 'Best dry steam cleaner for bed bugs, dust mites and fleas in Canada: the Dupray Neat, steam up to 135°C. Health Canada says bedbugs die at 50°C. How to use it.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
             <span className="text-white">Best Steam Cleaner for Pest Control</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Dry steam is one of the few things that reliably kills bed-bug eggs, dust mites, and fleas in the seams and cracks where they hide &mdash; here is the boiler temperature that actually matters, the slow-pass technique that penetrates fabric, and our Dupray, Vapamore, McCulloch, and portable picks.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best steam cleaner for pest control is a dry-vapour canister with a pressurised boiler: our pick is the Dupray Neat (steam up to 135&deg;C, per Dupray), for bed bugs, dust mites and fleas in mattresses, upholstery and carpet edges. Steam kills only what it reaches, so pair it with a vacuum.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,7 +126,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best steam cleaner for pest control in Canada is a <strong>heavy-duty dry-vapour unit</strong> whose boiler reaches roughly 150&ndash;170&deg;C and holds temperature under a continuous trigger &mdash; the <Link href="/blog/dupray-steamer-review-canada" className="text-emerald-700 underline">Dupray Neat</Link> is the reference machine. Dry steam drives lethal heat into mattress seams and cracks without soaking the fabric, which is what kills bed-bug eggs that suction cannot lift. Choose a <strong>Vapamore MR-100 Primo</strong> for long continuous runtime, or a heavy-duty <strong>McCulloch</strong> canister for real boiler heat at better value. The steamer is the contact-kill step &mdash; pair it with a HEPA vacuum and monitoring traps.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best steam cleaner for pest control in Canada is a <strong>heavy-duty dry-vapour unit</strong> with a pressurised boiler and a continuous-steam trigger &mdash; the <Link href="/blog/dupray-steamer-review-canada" className="text-emerald-700 underline">Dupray Neat</Link> is the reference machine, and Dupray says it produces steam internally at up to 135&deg;C. Dry steam drives lethal heat into mattress seams and cracks without soaking the fabric, which is what kills bed-bug eggs that suction cannot lift. Choose a <strong>Vapamore MR-100 Primo</strong> for long continuous runtime, or a heavy-duty <strong>McCulloch</strong> canister for real boiler heat at better value. The steamer is the contact-kill step &mdash; pair it with a HEPA vacuum and monitoring traps.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Heat kills bed bugs, dust mites, and fleas on contact at roughly 60&deg;C &mdash; a real boiler puts the tip well past that.</li>
               <li>&ldquo;Dry steam&rdquo; (~5% moisture) penetrates fabric and dries in minutes; wet handheld steam soaks and cools fast.</li>
@@ -182,7 +196,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Steamer Types Compared · Updated July 2026</p>
-          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Dry-Vapour vs Continuous-Fill vs Value Canister vs Handheld — What Each Is For</h2>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Dry-Vapour vs Long-Run Canister vs Value Canister vs Handheld — What Each Is For</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             All four can kill bed bugs, dust mites, and fleas on contact, but they differ on how hot and how dry the steam is, and how long you can work before stopping. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
@@ -206,8 +220,8 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Continuous-fill<br /><span className="font-normal text-xs text-gray-500">Vapamore MR-100 Primo</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; strong heat, refill without cooling</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Long-run canister<br /><span className="font-normal text-xs text-gray-500">Vapamore MR-100 Primo</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; 210&ndash;220&deg;F steam, 50&ndash;60 min per tank (Vapamore)</td>
                   <td className="px-4 py-3 text-gray-700">Long uninterrupted whole-room sessions</td>
                   <td className="px-4 py-3 text-gray-700">Larger and heavier to move</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
@@ -248,6 +262,31 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
           <p>A heavy-duty dry-vapour steam cleaner is the best tool for killing bed bugs, dust mites, and fleas &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this job actually demands: it delivers lethal heat deep into the seams and cracks where pests hide, and it does so without soaking the fabric you are treating. Everything else is a compromise on one of those two axes. A continuous-fill unit trades size for endurance; a value canister trades a little dryness for price; a handheld trades sustained heat for portability. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why a dry-vapour boiler sits at the top.</p>
           <p>The distinction that matters is between a steamer that <em>looks</em> like it is working &mdash; a visible plume, a hot nozzle &mdash; and one that actually delivers penetrating, dwelling heat to the egg glued deep in a mattress seam. That gap is invisible until an infestation refuses to drop despite &ldquo;treating&rdquo; it, and it is the single most important thing to understand before you spend money.</p>
 
+          <h2>Dry Steam Cleaners Compared: What the Makers and Health Canada Say</h2>
+          <p>Health Canada&rsquo;s bed bug guidance is the benchmark: &ldquo;Bedbugs die at 50&deg;C and steam cleaners generally emit steam at a temperature of at least 100&deg;C. Dry steam or low vapour steamers are better because they leave behind less moisture.&rdquo; Here is how the four steamer types on this page compare, with the two named canisters checked against their makers&rsquo; own spec pages.</p>
+          <QuickIdTable
+            title="Steam cleaners for pests: type, how it works, best for, limits"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Dry-vapour canister (Dupray Neat)', 'Pressurised boiler; Dupray: steam produced internally at up to 135°C (275°F), up to 50 min per 1.6 L fill, about 8–9 min to heat', 'Mattress seams, upholstery and baseboards: the whole job', 'Dupray: the boiler must cool before refilling'],
+              ['Long-run canister (Vapamore MR-100 Primo)', 'Vapamore: 1.6 L stainless steel boiler, 210–220°F (about 99–104°C) steam, 50–60 min per tank, 11 min to heat', 'Longer sessions per tank', 'Larger and heavier to move'],
+              ['Value canister (McCulloch heavy-duty)', 'Boiler canister; check the box for the stated steam temperature', 'A one-off bed bug or flea job on a budget', 'Slightly wetter steam than the top pick'],
+              ['Handheld spot steamer', 'Small, fast-heating unit', 'A chair, a suitcase seam, a pet-bedding corner', 'Short runtime and lower sustained heat: not for whole rooms'],
+              ['What Health Canada says', 'Bedbugs die at 50°C; steam cleaners generally emit steam of at least 100°C', 'Dry steam or low vapour steamers, which leave behind less moisture', 'Steam "will only kill the bedbugs that it reaches": move slowly and avoid excess moisture, which could lead to mould'],
+            ]}
+            caption={<>Sources: Dupray&rsquo;s <a href="https://dupray.com/en-ca/products/neat-steam-cleaner" target="_blank" rel="noopener noreferrer" className="underline">Neat steam cleaner specifications and FAQ</a>, Vapamore&rsquo;s <a href="https://www.vapamore.com/pages/mr-100-primo-steam-cleaning-system" target="_blank" rel="noopener noreferrer" className="underline">MR-100 Primo specifications</a> and Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Bedbugs: how do I get rid of them?</a> (checked October 23, 2026). The value-canister and handheld rows restate this page&rsquo;s own comparison above; no maker spec page was checked for them.</>}
+          />
+          <p><strong>If you already own a Neat:</strong> Health Canada&rsquo;s <a href="https://recalls-rappels.canada.ca/en/alert-recall/dupray-neat-steam-cleaner-recalled-due-burn-hazard" target="_blank" rel="noopener noreferrer">recall notice of February 26, 2026</a> covers model DUP020WNA with batch/date codes 0118-01 through 0425-05 (on a sticker under the base; codes 0525-XX and later are not affected). When the boiler is overfilled and badly corroded and the boiler cap also malfunctions, &ldquo;the boiler can rupture, posing a risk of serious injury or burn to the user or bystanders.&rdquo; Health Canada says to &ldquo;immediately stop using the recalled product&rdquo; and contact Dupray for a free replacement boiler cap. Dupray says Neat units sold today ship with the updated cap; its recall page is linked from the <a href="https://dupray.com/en-ca/products/neat-steam-cleaner" target="_blank" rel="noopener noreferrer">Neat product page</a>.</p>
+
+          <h3>Which steam cleaner for your situation?</h3>
+          <ul>
+            <li><strong>Bed bugs in a mattress or sofa:</strong> the dry-vapour canister. Health Canada&rsquo;s order is to steam first, &ldquo;as the steam will flush any bedbugs not killed out of hiding,&rdquo; then vacuum.</li>
+            <li><strong>Dust mites and allergies:</strong> the same machine on mattresses, pillows and upholstery; low-moisture steam avoids adding the humidity mites need.</li>
+            <li><strong>Fleas in carpet:</strong> steam the carpets and the edges where pets sleep. Health Canada&rsquo;s flea routine adds daily vacuuming, hot washing of pet and family bedding every 2 to 3 weeks, and treating the pet itself.</li>
+            <li><strong>A suitcase after a trip:</strong> the handheld for seams, or skip the steamer: Health Canada says to dry non-washable items in the clothes dryer on the highest heat for 30 minutes.</li>
+            <li><strong>A whole room, or bugs that keep coming back:</strong> a licensed pest control operator. Health Canada says heat treatments &ldquo;should be left to the professionals.&rdquo;</li>
+          </ul>
+
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
@@ -262,7 +301,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
           <p>The word <strong>dry</strong> is doing real work here. Dry steam &mdash; sometimes called dry vapour &mdash; carries only about 5% moisture because the boiler superheats the water before it exits the nozzle. That low water content matters for two reasons. First, drier steam actually drives heat deeper into fabric rather than immediately condensing on the surface, so the lethal temperature reaches the egg rather than stopping at the outer fibres. Second, it leaves the mattress or sofa only slightly damp, so it dries in minutes instead of becoming a soggy breeding ground for the very dust mites and mould you are trying to avoid. A cheap wet steamer fails on both counts: it soaks the surface, cools fast, and never penetrates.</p>
 
           <h2>Boiler Temperature Beats Nozzle Claims: What the Numbers Mean</h2>
-          <p>The most common mistake is trusting the big temperature number printed on a box. What you care about is the temperature at the <em>surface where the pest is</em>, and steam loses heat as it travels through the hose and out the nozzle. That is why a machine with a genuinely hot, pressurised <strong>boiler</strong> &mdash; ideally reaching roughly 150&deg;C or higher internally &mdash; gives you margin: even after some heat loss over the last few centimetres, the tip stays comfortably above the ~60&deg;C lethal threshold.</p>
+          <p>The most common mistake is trusting the big temperature number printed on a box. What you care about is the temperature at the <em>surface where the pest is</em>, and steam loses heat as it travels through the hose and out the nozzle &mdash; Dupray notes that the Neat&rsquo;s exit temperature depends on the accessory used. That is why a machine with a genuinely hot, pressurised <strong>boiler</strong> gives you margin. Dupray lists the Neat at up to 135&deg;C internally, Health Canada says steam cleaners generally emit steam at a temperature of at least 100&deg;C, and bedbugs die at 50&deg;C, so even after some heat loss over the last few centimetres a good machine&rsquo;s tip stays above that line if you move slowly.</p>
           <p>Small handheld units are where this goes wrong. Many advertise impressive figures but produce low-pressure, wet steam that cools almost instantly, so the surface never gets hot enough for long enough. When you are shopping, look for three specifics: a pressurised boiler (not just a heating element that flash-boils water at the tip), a stated internal boiler temperature, and a continuous-steam trigger so you can hold heat on a spot rather than firing intermittent bursts. Those three features, not the headline number, are what separate a pest-killing machine from a floor mop that happens to make steam.</p>
 
           <h2>The Slow-Pass Technique That Actually Kills Eggs</h2>
@@ -301,7 +340,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
           <p>No single device clears an infestation, and being honest about that is what separates useful buying advice from marketing. Here is where the steamer sits among the tools it works best alongside:</p>
           <ol>
             <li><strong>Vacuum first.</strong> A <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> physically removes live insects and debris from seams and edges so steam can focus on the eggs.</li>
-            <li><strong>Steam second.</strong> Dry vapour delivers the lethal, penetrating heat to the seams, cracks, and fabric the vacuum could not clear.</li>
+            <li><strong>Steam second, then vacuum again.</strong> Dry vapour delivers the lethal, penetrating heat to the seams, cracks, and fabric the vacuum could not clear. Health Canada puts steaming before vacuuming, &ldquo;as the steam will flush any bedbugs not killed out of hiding,&rdquo; so finish with a second vacuum pass.</li>
             <li><strong>Whole-room heat for severe cases.</strong> A <Link href="/blog/bed-bug-heater-canada">bed-bug heater</Link>, a <Link href="/blog/zappbug-heater-review-canada">portable heat box</Link>, or a full <Link href="/blog/best-bed-bug-heat-chamber-canada">heat chamber</Link> raises an entire room or container to lethal temperature to reach the harbourage a nozzle cannot.</li>
             <li><strong>Monitor and repeat.</strong> Interceptor traps under the bed legs tell you week over week whether the numbers are actually dropping, so you know when to keep steaming and when you are done.</li>
           </ol>

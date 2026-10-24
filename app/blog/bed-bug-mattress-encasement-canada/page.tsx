@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'bed-bug-mattress-encasement-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+// Oct 23, 2026: answer-first hero, the 12–18 month rule sourced to EPA, Health Canada and University of Minnesota Extension, encasement-type table, situation guide, 3 FAQs
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Bed Bug Mattress Encasement in Canada 2026 — SafeRest vs Utopia + the 12–18 Month Rule'
-const META_TITLE = 'Bed Bug Mattress Encasement Canada: 2026 Picks'
+// TITLE NOTE (Oct 23, 2026): was 'Bed Bug Mattress Encasement Canada: 2026 Picks'; top queries (Jul 23-Oct 20): bed bug mattress encasement 441 @ 8.9, bed bug mattress cover 327 @ 8.9, bed bug mattress protector 221 @ 10.0, best mattress encasement for bed bugs 99 @ 4.4 (page: 103 clicks on 12,224 impressions).
+const META_TITLE = 'Bed Bug Mattress Encasement Canada: Best Covers'
 
 const FAQS = [
   {
@@ -28,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'How long do I need to keep a bed bug encasement on the mattress?',
-    answer: 'A minimum of 12 months, and most pest professionals in Canada say 18 months to be safe. Laboratory studies have recorded adult bed bugs surviving 400+ days without feeding at cooler temperatures (below about 20°C) — conditions common in Canadian basements and unheated spare rooms. If you unzip the encasement even once during that window, any live bugs inside can escape and the containment clock restarts from zero. Practical rule: install it, launder only the outer bedding, and don\'t open the encasement until at least a full year has passed with no new bites or signs.',
+    answer: 'A minimum of 12 months. EPA says to leave the encasements on for a year, Health Canada calls keeping the mattress enclosed for a full year good practice, and the University of Minnesota Extension says at least a year. Health Canada also says bedbugs can live from several weeks to up to a year and a half without feeding, which is why this guide works to 12–18 months. If you unzip the encasement even once during that window, any live bugs inside can escape and the containment clock restarts from zero. Practical rule: install it, launder only the outer bedding, and don\'t open the encasement until at least a full year has passed with no new bites or signs.',
   },
   {
     question: 'What is the difference between a mattress encasement and a mattress cover or protector?',
@@ -70,14 +73,27 @@ const FAQS = [
     question: 'Do I need pillow encasements too?',
     answer: 'If you have a confirmed or suspected infestation, yes. Bed bugs and their eggs hide in pillow seams and piping just as they do in mattress seams, and pillows travel — to the couch, the guest room, the cottage — spreading bugs as they go. Zippered bed-bug-rated pillow protectors are inexpensive (typically sold in 2-packs) and follow the same rule as the mattress encasement: install and leave sealed. For prevention-only households, pillow encasements are optional; hot laundering pillows periodically achieves a similar result.',
   },
+  {
+    question: 'How long can bed bugs survive in a mattress encasement?',
+    answer: 'Long enough that you should plan on a year or more. The University of Minnesota Extension says bed bugs sealed inside an encasement start to die within two weeks, yet still says to leave encasements on for at least a year, and Health Canada explains why: bedbugs can live from several weeks to up to a year and a half without feeding, and older bedbugs can go even longer. EPA and Health Canada both give a full year as the minimum. That is the basis for this guide\'s 12–18 month rule: install it, keep it zipped, and check it for rips at every sheet change.',
+  },
+  {
+    question: 'Should I put tape over the zipper of a bed bug encasement?',
+    answer: 'Yes, Health Canada recommends it: put duct tape over the zipper, because zippers have a space where bedbugs can enter or escape. Close the zipper all the way to its end-stop first, then tape over it. Better encasements add a locking end-stop or a fold-over flap for the same reason, and tape is a cheap backup on any of them. Check the tape and the seams when you change the sheets, and replace an encasement that rips, because Health Canada\'s rule is that it only keeps bedbugs from biting while it stays intact, with no rips or holes.',
+  },
+  {
+    question: 'What is a certified bed bug mattress encasement?',
+    answer: 'Words like "certified" and "lab-tested" are the maker\'s own claims, so read what was actually tested. EPA\'s advice is to buy an encasement that has been tested for bed bugs and is strong enough to last the full year without tearing, and the University of Minnesota Extension says to use one designed for bed bug control rather than an ordinary mattress cover. A useful listing says what the test checked, such as bugs escaping through the zipper and biting through the fabric, and the product zips shut on all six sides. Without that, treat it as a plain protector, whatever the title says.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'SafeRest vs Utopia bed bug mattress encasements for Canadian homes — encasement vs cover explained, the 12–18 month containment rule, zipper failure points, and sizing. Independent research, updated 2026.',
+  description: 'A bed bug mattress encasement zips shut on all six sides so bugs inside can\'t bite and starve. Keep it on a year (EPA, Health Canada). Best covers in Canada.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('bed-bug-mattress-encasement-canada')
@@ -85,7 +101,7 @@ const AMZ_TAG = tagForSlug('bed-bug-mattress-encasement-canada')
 export default function BedBugMattressEncasementCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug mattress encasements — SafeRest vs Utopia, the 12–18 month containment rule, and zipper failure points.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bug mattress encasements — SafeRest vs Utopia, the 12–18 month containment rule, and zipper failure points.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Mattress Encasement Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -98,7 +114,7 @@ export default function BedBugMattressEncasementCanadaPage() {
             <span className="text-white">Bed Bug Mattress Encasement Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Why a six-sided zippered encasement beats throwing out your mattress, how SafeRest and Utopia compare, and the zipper details that decide whether containment actually holds.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A bed bug encasement zips shut on all six sides of the mattress, so bugs sealed inside can&rsquo;t bite and eventually die; keep it on at least a year. Our pick if bugs are in the bed: SafeRest Premium; for prevention, Utopia.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,13 +130,14 @@ export default function BedBugMattressEncasementCanadaPage() {
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For an active or suspected bed bug problem in Canada, the SafeRest Premium zippered encasement is the one to buy — it&rsquo;s a lab-tested, six-sided seal with a secured micro-zipper, which is exactly the failure point where cheaper encasements leak. Encase both the mattress AND the box spring, and leave them zipped for 12–18 months without opening.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>An encasement seals all 6 sides with a zipper; a mattress &ldquo;cover&rdquo; or protector covers only the top 1 side and does nothing against bed bugs.</li>
-              <li>Adult bed bugs survive 12+ months without feeding — lab studies record 400+ days at cooler temperatures — so containment must run 12–18 months unbroken.</li>
+              <li>Health Canada: bedbugs can live from several weeks to up to a year and a half without feeding. EPA, Health Canada and the University of Minnesota all say to keep the encasement on for at least a year, so containment runs 12–18 months unbroken.</li>
               <li>First-instar nymphs are about 1 mm wide; a zipper that gapes even 2–3 teeth at the end-stop defeats the entire encasement.</li>
               <li>Encasements are physical barriers, not pesticides — no PMRA registration applies, so they&rsquo;re fully legal to buy on amazon.ca in every province.</li>
               <li>A queen bed bug encasement typically runs $40–$90 in Canada; replacing an infested queen mattress runs $800–$2,000 and doesn&rsquo;t remove the bugs in the frame or baseboards.</li>
               <li>Measure mattress depth first: standard is 20–30 cm (8–12 in); pillow-tops need a 33–43 cm (13–17 in) deep-pocket encasement.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
+            <p className="mt-2 text-xs text-gray-500">Sources: <a href="https://www.epa.gov/bedbugs/top-ten-tips-prevent-or-control-bed-bugs" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA</a> (leave encasements on for a year; buy one tested for bed bugs and strong enough to last the year without tearing); <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-make-sure-they-don-t-come-back.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Health Canada</a> (zippered encasements on the mattress and box spring, duct tape over the zipper, a full year enclosed) and its <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-what-are-they.html" target="_blank" rel="noopener" className="text-emerald-700 underline">bedbug fact page</a> (several weeks to a year and a half without feeding); <a href="https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/bed-bugs/bed-bug-prevention-and-control-in-the-home" target="_blank" rel="noopener" className="text-emerald-700 underline">University of Minnesota Extension</a> (bugs inside start to die within two weeks; leave it on at least a year).</p>
           </div>
           <SpecialistDisclosure pest="bed bugs" />
         </div>
@@ -185,6 +202,19 @@ export default function BedBugMattressEncasementCanadaPage() {
           <p>The distinction matters because the products look similar in listings and the words get used interchangeably. Bed bugs don&rsquo;t live <em>in</em> your mattress foam the way dust mites do — they live <em>on</em> it, tucked into piping seams, handles, tufts, and the gauzy dust cover under the box spring. A six-sided encasement takes every one of those hiding spots off the board at once. Anything that leaves a side open leaves the harborage open. A French-language walkthrough of the same mattress evidence &mdash; taches, mues and points noirs &mdash; is available at <Link href="/blog/traces-punaises-de-lit-matelas" className="text-brand-700 underline">traces de punaises de lit sur un matelas</Link>.</p>
           <p>Two checks before you buy: the listing must say <strong>zippered</strong> and <strong>six-sided</strong> (or &ldquo;fully encases&rdquo;), and it should claim independent lab testing for bed bug escape and bite-through. If the photos show elastic corners, you&rsquo;re looking at a fitted protector wearing an encasement&rsquo;s title.</p>
 
+          <QuickIdTable
+            title="Encasement, protector or plastic: what stops bed bugs?"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Zippered bed bug encasement', 'Zips shut around all six sides; bugs sealed inside can\'t get through to bite and eventually die', 'Any bed where bugs are found or suspected, and prevention on a clean bed', 'Health Canada: zippers have a space bugs can use, so tape over it; works only with no rips or holes, kept on a full year'],
+              ['Fitted protector or "cover"', 'A fitted-sheet-style top layer against spills and allergens', 'Spills and allergens', 'Not sealed: the sides and underside stay open, so bugs keep their hiding spots'],
+              ['Box spring encasement', 'The same zippered seal, sized for the box spring', 'Every encased bed: the University of Minnesota lists the seams and edges under a box spring as very common hiding places', 'Buy the box-spring size; a second mattress encasement will not fit it properly'],
+              ['Pillow encasement', 'A zippered, bed-bug-rated pillow protector', 'Bugs found or suspected in the bed', 'Same rule as the mattress: zip it on and leave it sealed'],
+              ['Plastic film wrap', 'Health Canada: a mattress can also be wrapped and sealed in plastic film', 'An option Health Canada lists for sealing a mattress', 'Same test as any cover: it only works while it has no rips or holes'],
+            ]}
+            caption={<>Sources: <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener" className="text-emerald-700 underline">EPA</a> (covers that seal trap bed bugs inside, where they die) and its <a href="https://www.epa.gov/bedbugs/top-ten-tips-prevent-or-control-bed-bugs" target="_blank" rel="noopener" className="text-emerald-700 underline">top ten tips</a> (leave encasements on for a year); <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-make-sure-they-don-t-come-back.html" target="_blank" rel="noopener" className="text-emerald-700 underline">Health Canada</a> (zippered encasements, duct tape over the zipper, no rips or holes, a full year, plastic film); <a href="https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/bed-bugs/bed-bug-prevention-and-control-in-the-home" target="_blank" rel="noopener" className="text-emerald-700 underline">University of Minnesota Extension</a> (use an encasement designed for bed bug control; box spring hiding places). Protector and pillow rows: this guide&rsquo;s own comparison.</>}
+          />
+
           <NextUp path="/blog/bed-bug-mattress-encasement-canada" />
           <h2>Do Encasements Actually Work Against Bed Bugs?</h2>
           <p>Yes — encasements are one of the few bed bug products with a genuinely strong evidence base, because their job is mechanical rather than chemical. A quality encasement does three things: it traps any bugs and eggs already on the mattress inside, where they cannot feed and eventually starve; it denies new bugs the seams they need to hide in, forcing them onto smooth, light-coloured fabric where you can see them; and it converts a 30-minute mattress inspection into a 30-second glance. An encasement also freezes the evidence in place, which helps &mdash; anything appearing on that white surface afterwards is new, and <Link href="/blog/bed-bug-shells-casings-shed-skins-canada" className="text-brand-700 underline">telling a shed skin from a carpet beetle casing</Link> is the first read to make.</p>
@@ -192,7 +222,7 @@ export default function BedBugMattressEncasementCanadaPage() {
           <p>One honest caveat: bed bugs can still walk across the <em>outside</em> of an encasement and bite you through the night. The encasement is containment and denial of harborage — the interceptors and follow-up treatment are what cut off the rest of the population.</p>
 
           <h2>Why Must the Encasement Stay On for 12–18 Months?</h2>
-          <p>Because bed bugs are freakishly good at starving. An adult bed bug at typical room temperature survives several months without a blood meal, and laboratory work has recorded survival past 400 days at cooler temperatures — the exact conditions of a Canadian basement bedroom or a spare room with the vents closed. The 12–18 month containment rule exists because the encasement only wins when every bug sealed inside has died of starvation.</p>
+          <p>Because bed bugs are freakishly good at starving. Health Canada says bedbugs can live from several weeks to up to a year and a half without feeding, and that older bedbugs can go even longer. That is why EPA, Health Canada and the University of Minnesota Extension all say to keep the encasement on for at least a year, and why this guide works to 12–18 months: the encasement only wins when every bug sealed inside has died of starvation.</p>
           <p>The rule has a brutal corollary: <strong>opening the zipper resets the clock</strong>. Unzip the encasement at month eight to &ldquo;check&rdquo; or wash it, and any survivors walk out. Keep a normal washable protector or fitted sheet over the encasement and launder that instead; the encasement itself stays sealed until at least a full year has passed with no bites, no fecal spotting on the fabric, and no live bugs in your interceptors. Our guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> covers exactly what those signs look like.</p>
 
           <h2>SafeRest vs Utopia vs Pillow Encasements — Comparison</h2>
@@ -208,6 +238,15 @@ export default function BedBugMattressEncasementCanadaPage() {
             </tbody>
           </table>
           </div>
+
+          <h2>Which Encasement for Your Situation?</h2>
+          <ul>
+            <li><strong>Bugs found or suspected in the bed:</strong> the SafeRest on the mattress, a matching box spring encasement the same day, zippered pillow protectors, and duct tape over every zipper, as Health Canada advises. Leave all of it sealed for 12&ndash;18 months.</li>
+            <li><strong>Prevention only</strong> (rental turnover, used furniture, frequent travel): the Utopia zippered encasement on every bed is the budget route.</li>
+            <li><strong>Pillow-top or hybrid mattress:</strong> measure the depth first. Anything 33&ndash;43 cm (13&ndash;17 in) deep needs a deep or extra-deep encasement, or the seams strain.</li>
+            <li><strong>Dust-mite allergies too:</strong> Health Canada advises encasing pillows and mattresses in dust-mite-impermeable covers, so check that the listing says it blocks dust mites as well as bed bugs.</li>
+            <li><strong>The box spring:</strong> always encase it too. The University of Minnesota Extension lists the seams and edges under a box spring as very common hiding places; <Link href="/blog/best-bed-bug-box-spring-encasement-canada">box spring covers compared</Link>.</li>
+          </ul>
 
           <h2>SafeRest — the Containment-Grade Pick</h2>
           <p>SafeRest has been the default answer in the encasement category for over a decade, and the reasons are specific rather than reputational. The zipper is a micro-tooth design — the teeth are small enough that a 1 mm first-instar nymph can&rsquo;t squeeze between them — and the end of the zipper track is secured so the pull can&rsquo;t drift open a few teeth in normal use. That end-stop detail sounds trivial; it&rsquo;s actually the single most common failure point in the category, covered in the next section. The fabric is a cotton-terry surface over a waterproof membrane, which also makes it a legitimate spill and allergen barrier, and the brand publishes independent lab-test claims for bed bug escape and bite-through.</p>

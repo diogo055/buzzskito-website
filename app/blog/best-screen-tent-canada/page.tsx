@@ -13,12 +13,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-screen-tent-canada'
 const DATE = '2026-07-14'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Screen Tents & Screen Houses in Canada 2026'
-const META_TITLE = 'Best Screen Tents & Screen Houses Canada 2026'
+// TITLE NOTE (Oct 23, 2026): was 'Best Screen Tents & Screen Houses Canada 2026'; top queries Jul 23-Oct 20: screen tent 1,212 impressions at 14.5, screen house 612 at 16.2, screen houses 447 at 12.8, screen tents 363 at 17.3 (page: 13,514 impressions at 10.2, 165 clicks).
+const META_TITLE = 'Screen Tents & Screen Houses: Best in Canada'
 
 const FAQS = [
   {
@@ -81,14 +83,27 @@ const FAQS = [
     question: 'Do screen tents work for tick protection?',
     answer: 'Only while you\'re inside them. Ticks don\'t fly — they quest from grass and vegetation and latch on as you brush past. A screen house with no floor sits directly on the grass, so a tick can technically walk in, though in practice a mowed lawn under the tent carries low risk. The real tick exposure happens on the rest of the property: lawn edges, gardens, under trees. For properties in tick-heavy parts of Ontario, pair the screened zone with yard-level tick control — that\'s a treatment program for the vegetation, not something any tent can do.',
   },
+  {
+    question: 'Can you sleep in a screen tent?',
+    answer: 'You can, but a screen house is not built for it. It has no floor, so it sits straight on the grass, deck or campsite pad, and on grass a tick can walk in under the edge (on a mowed lawn the risk is low). Standard mesh stops mosquitoes and black flies, but no-see-ums are small enough to pass through it. If you want one shelter for sleeping and sitting, buy a tent with a screen room, which has a sewn-in floor; otherwise sleep in a tent or under a bed net and keep the screen house for meals.',
+  },
+  {
+    question: 'Are screen tents waterproof?',
+    answer: 'Not fully. The solid roof sheds rain, but the walls are mesh, which lets wind pass straight through. Keep the canopy taut so water cannot pool and stretch it, stake every corner and use every guy line, and take it down when a severe thunderstorm watch is issued, because the roof acts as a sail. Dry it fully before you pack it away, or it will mildew.',
+  },
+  {
+    question: 'What is the best screen tent for a deck?',
+    answer: 'For a deck or patio dining set, the Coleman Back Home 12x10: its rectangular 120 sq ft footprint fits a rectangular table better than a square campsite model, and its instant frame goes up in three to five minutes. Measure the deck before you order. If you want something that stays up from May to September, a steel-framed screened gazebo is the heavier, all-season alternative; whichever you choose, take a screen house down for storms.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Screen tents and screen houses compared for Canada: Clam Quick-Set and Gazelle G6 hub shelters, Coleman Instant 11x11, Skylodge, EAST OAK pop-up, CAMPROS.',
+  description: 'Best screen tent: a Clam or Gazelle hub shelter for wind and weekly use; best value, the Coleman Instant 11x11. Sizes, setup times and no-see-um mesh compared.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('best-screen-tent-canada')
@@ -109,7 +124,7 @@ export default function BestScreenTentCanadaPage() {
             <span className="text-white">Best Screen Tent Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Six screen houses compared for Canadian summers — hub shelters, instant frames, pop-up screen rooms and pole-style dining tents — on size (8x8 through 15x13), setup speed, wind tolerance and black-fly season performance. Plus when a mesh room beats spray entirely.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best screen tent overall is a six-sided hub shelter such as the Clam Quick-Set Escape, built for windy sites and weekly pitching. If you camp a few weekends a year at a sheltered site, the Coleman Instant 11x11 is the value pick most people should buy.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -311,6 +326,22 @@ export default function BestScreenTentCanadaPage() {
           <p>CAMPROS has built a reputation on amazon.ca for delivering a lot of tent per dollar, and its 12x10 screen house follows the formula: the same 120 sq ft coverage as the Coleman Back Home, mesh on all sides, two large doors — at a price that typically undercuts the name brands meaningfully.</p>
           <p>The trade-off is the frame. This is a traditional pole-assembly design: separate poles, sleeves, and a 10&ndash;15 minute setup that goes much better with two people. If the screen house is going up once at the cottage in June and coming down in September, that setup time is irrelevant and the CAMPROS is the value play — and for that use it is a genuinely sensible buy, not a compromise. If you&rsquo;re packing it up every weekend, spend more on an instant or pop-up frame — you&rsquo;ll resent the poles by August.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="campros screen house 12x10">Check price on Amazon.ca &rarr;</BuyLink></div>
+
+          <QuickIdTable
+            title="Which screen tent for your situation?"
+            head={['Your situation', 'Buy', 'Why', 'Watch out']}
+            rows={[
+              ['Exposed lakefront or dock, or pitching most weekends', 'Clam Quick-Set Escape or Gazelle G6 hub shelter', <>The only type here that takes fabric wind panels; Clam says the Escape &ldquo;takes about 60 seconds to set up&rdquo;</>, 'Heavy (Clam lists the Escape at 37 pounds, about 17 kg) and several times the price; on the plain Escape, wind panels are sold separately'],
+              ['A few weekends a year at a sheltered campsite', 'Coleman Instant Screened Canopy 11x11', '121 sq ft with pre-attached poles, up in about three minutes by one person', 'No wind-panel option'],
+              ['Hosting around a picnic table', 'Coleman Skylodge 15x13', '195 sq ft takes a full picnic table with benches, a cooler and standing room', 'Bulky in the trunk; wants two people to square it up'],
+              ['A deck or patio dining set', 'Coleman Back Home 12x10', 'The rectangle fits a rectangular table better than a square campsite model', 'Take it down for storms'],
+              ['Setting up alone at docks, beaches and tailgates', 'EAST OAK 10x10 pop-up', 'Up in about a minute, one person', 'Heavy for its size; the pivoting joints bend first in wind'],
+              ['Up in May, down in September, on a budget', 'CAMPROS 12x10', 'The most mesh per dollar', '10–15 minutes of pole assembly, better with two people'],
+              ['Beside a marsh or northern lake (no-see-ums)', <>A model sold with fine mesh: Clam lists &ldquo;no-see-um mesh&rdquo; on the Escape</>, 'Standard mesh stops mosquitoes and black flies, but no-see-ums can pass through it', 'A fan under the shelter helps, because midges are weak fliers'],
+              ['Sleeping out', 'Not a screen house: a tent with a screen room, or a bed net', 'A screen house has no floor', 'A tent with a screen room is smaller to sit in and comes down when you strike camp'],
+            ]}
+            caption={<>Picks, sizes and setup times are from this guide&rsquo;s reviews above. The Clam Escape&rsquo;s weight, setup time, no-see-um mesh and separately sold wind panels are from Clam&rsquo;s product pages (<a href="https://clamoutdoors.com/products/escape-screen-tent" target="_blank" rel="noopener noreferrer" className="underline">Escape</a> and <a href="https://clamoutdoors.com/products/escape-w-wind-panels" target="_blank" rel="noopener noreferrer" className="underline">Escape with wind panels</a>, opened Oct 23, 2026).</>}
+          />
 
           <h2>Screen Tent, Screen House, Dining Tent, Camping Shelter — Sorting Out the Names</h2>
           <p>Shopping this category in Canada is confusing because retailers use half a dozen names for near-identical products, and the search results split accordingly. Here&rsquo;s the decoder:</p>

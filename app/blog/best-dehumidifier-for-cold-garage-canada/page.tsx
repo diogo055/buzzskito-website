@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-dehumidifier-for-cold-garage-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Dehumidifier for a Cold Garage Canada 2026 — Rust, Slab Sweat, and What Actually Works Below 10°C'
-const META_TITLE = 'Best Dehumidifier for a Cold Garage Canada'
+// TITLE NOTE (Oct 23, 2026): was 'Best Dehumidifier for a Cold Garage Canada'; top queries: garage dehumidifier 341, garage dehumidifier canada 117, dehumidifier for garage 110, best dehumidifier for garage 44 (10 clicks). Kept off 'desiccant vs compressor' (its own page) and off mould (best-dehumidifier-for-mold-canada).
+const META_TITLE = 'Garage Dehumidifier Canada: Best Low-Temp Picks'
 
 const FAQS = [
   {
@@ -54,11 +56,19 @@ const FAQS = [
     question: 'Do I actually need a dehumidifier, or should I just ventilate and seal?',
     answer: 'Buy a hygrometer first and let it decide — that is a $20 experiment against a several-hundred-dollar purchase. Put a cheap digital hygrometer in the garage, leave it a fortnight, and look at what the humidity actually does. If it sits in the 40s and 50s and only spikes after you park a wet vehicle, you do not have a humidity problem, you have a water problem: a worn garage-door bottom seal, a car dripping snowmelt and salt slurry onto the slab, a downspout discharging beside the foundation, or an unsealed slab. Fixing those costs a fraction of an appliance. If the hygrometer shows the space living above 60% for weeks at a time in the warmer months, that is a real humidity load and a dehumidifier is the right tool. Ventilation, meanwhile, is not the free alternative people assume — in a humid Ontario July, opening the door brings more water in than it lets out.',
   },
+  {
+    question: 'What is the lowest temperature a dehumidifier will work at?',
+    answer: 'It depends on the type, and the maker’s stated minimum is the number to check. Compressor units with an automatic de-icer typically stop at about 5°C: Danby, for example, says its 40-pint model operates at temperatures as low as 5°C. Desiccant units go lower: Meaco rates its DD8L from 1°C to 40°C and says desiccant is the best choice below 10°C. Natural Resources Canada says to consider a product meant for lower temperatures anywhere below 18°C. Below freezing there is little water in the air to remove, and the drain hose can freeze.',
+  },
+  {
+    question: 'Can I use a dehumidifier in a cold room?',
+    answer: 'Yes, if you match it to the room’s temperature. A cold room is unheated by design, so measure it first: below 18°C, Natural Resources Canada says to consider a product meant for lower temperatures, and below about 10°C a desiccant unit is the type built for it (Meaco rates its DD8L down to 1°C and recommends desiccant below 10°C). A compressor unit only makes sense if the room stays above roughly 10°C. Run the drain hose to a floor drain so the unit never stalls on a full tank, and check the humidity with a hygrometer.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Choosing a dehumidifier for an unheated Canadian garage: why compressors quit in the cold, when desiccant wins, and when you need no dehumidifier at all.',
+  description: 'Garage above 10°C: compressor dehumidifier with auto-defrost. 1 to 10°C: desiccant, rated down to 1°C. Below freezing: neither. Makers’ figures inside.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +93,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
             <span className="text-white">Dehumidifier for a Cold Garage</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A garage is not a small basement. It leaks air, the slab is cold, and the temperature decides which machine can physically work. Here is the line where a compressor quits, when a desiccant unit earns its price, and the cheaper fixes that solve most Canadian garages without buying an appliance at all.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for a garage that stays above about 10&deg;C, buy a compressor dehumidifier with auto-defrost; for one that sits between about 1&deg;C and 10&deg;C, buy a desiccant dehumidifier, our pick for cold garages. Below freezing there is little water in the air and drain hoses freeze, so seal the door and manage the water instead.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -257,6 +267,19 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
           <h2>The Temperature Line: Why Compressors Quit and Desiccants Do Not</h2>
           <p>A compressor dehumidifier works the same way an air conditioner does: it pulls air across a refrigerated coil, the moisture condenses on that cold surface, and the water drips into a tank. The problem in a cold room is that the coil has to run colder than the room, so once the space drops toward 18&deg;C the coil is at or below freezing and frost begins to build. Frost blocks airflow, blocked airflow means less air over the coil, and extraction falls off a cliff. <strong>Auto-defrost</strong> is the standard countermeasure &mdash; the unit periodically pauses compression to melt the frost, then resumes &mdash; and it is genuinely effective down to roughly 5&deg;C. Below that, no amount of defrost cycling saves it; the machine spends most of its time defrosting rather than drying.</p>
           <p>A <strong>desiccant dehumidifier</strong> sidesteps the whole mechanism. Air passes over a rotor coated in a moisture-absorbing material, the rotor is then heated to drive the collected water off into a condensate stream, and no part of the process depends on a surface being colder than the room. That is why manufacturers can rate desiccant units to operate near freezing where compressor specs stop at 5&deg;C, and it is the entire reason to pay the premium. There is a useful side effect too: the regeneration heat means a desiccant unit exhausts slightly warmed air, which nudges surfaces further from the dewpoint and makes condensation less likely in the first place. The costs are real &mdash; more electricity per litre of water at warm temperatures, and smaller capacities &mdash; so a desiccant is a poor choice in a warm space and the only choice in a cold one.</p>
+
+          <QuickIdTable
+            title="Compressor or desiccant in a cold garage: what the makers say"
+            head={['What you need to know', 'Compressor with auto-defrost', 'Desiccant']}
+            rows={[
+              ['How it pulls water out', 'A fan draws air over a refrigerated coil and the water condenses; an automatic de-icer keeps frost from building up on the coil', 'A moisture-absorbing material soaks water out of the air; no refrigerant and no cold coil'],
+              ['Lowest working temperature the maker states', '5°C (Danby’s 40-pint model “operates at temperatures as low as 5°C”)', '1°C (Meaco’s DD8L: 1°C to 40°C)'],
+              ['The garage it suits', 'Attached and part-heated, above about 10°C through the season', 'Detached or unheated, between about 1°C and 10°C; Meaco: below 10°C, desiccant “is definitely the best choice”'],
+              ['Below 18°C', 'Natural Resources Canada: “consider buying a product meant for use at lower temperatures”', 'Built for it: Meaco names garages and cellars'],
+              ['Below freezing', 'Under its 5°C floor: switch it off and drain the tank and the hose', 'Under its 1°C floor too: manage the water instead'],
+            ]}
+            caption={<>One model from each maker, as published and checked October 23, 2026: <a href="https://danby.ca/products/dehumidifiers/ddr040bfcwdb/" target="_blank" rel="noopener noreferrer" className="underline">Danby DDR040BFCWDB</a> and <a href="https://www.meaco.com/products/meaco-dd8l-dehumidifier" target="_blank" rel="noopener noreferrer" className="underline">Meaco DD8L</a>. Other models differ, so check the minimum temperature on the box. The 18&deg;C line is from <a href="https://natural-resources.canada.ca/energy-efficiency/energy-star/products/list-certified-products/dehumidifiers" target="_blank" rel="noopener noreferrer" className="underline">Natural Resources Canada&rsquo;s ENERGY STAR dehumidifier page</a>.</>}
+          />
 
           <RelatedLinks path="/blog/best-dehumidifier-for-cold-garage-canada" />
           <h2>Below Freezing, Buy Nothing</h2>

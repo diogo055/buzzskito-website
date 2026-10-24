@@ -11,10 +11,11 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'mosquito-repellent-guide-ontario-2026'
 const DATE = '2026-04-26'
-const UPDATED = '2026-09-04'
+const UPDATED = '2026-10-23'
 const TITLE = 'Mosquito Repellent Guide — Ontario 2026 (What Actually Works)'
 const META_TITLE = 'Best Mosquito Repellent Canada 2026: Ranked'
 
@@ -29,7 +30,7 @@ const FAQS = [
   },
   {
     question: 'Picaridin vs DEET — which is better?',
-    answer: 'Picaridin offers similar duration to DEET (6–10 hours at 20% concentration) without DEET\'s plastic/fabric-melting side effects. It\'s odourless and non-greasy. Many people prefer picaridin for everyday use; DEET still wins in extreme conditions (tropical jungles, dense bug pressure) at 30% — which is also the maximum concentration Health Canada permits for adults, so nothing stronger is sold here. For Ontario backyard use, 20% picaridin is excellent.',
+    answer: 'Picaridin offers similar duration to DEET without DEET\'s plastic/fabric-melting side effects; for hours, go by each label, since Health Canada gives no protection times ("Depending on the ingredients, some products repel insects for a longer time than others do"). It\'s odourless and non-greasy. Many people prefer picaridin for everyday use; DEET still wins in extreme conditions (tropical jungles, dense bug pressure) at 30% — which is also the maximum concentration Health Canada permits for adults, so nothing stronger is sold here. For Ontario backyard use, 20% picaridin is excellent.',
   },
   {
     question: 'What about ultrasonic mosquito repellent devices?',
@@ -63,14 +64,27 @@ const FAQS = [
     question: 'Do mosquito foggers work?',
     answer: 'Yard foggers (Cutter, Black Flag) do knock down adult mosquitoes for a few hours, which makes them handy right before a party or barbecue. One Canadian caveat: the fogger hardware is legal to own, but the fogging insecticide you put in it must carry a Health Canada PCP registration number — the US Cutter and Black Flag fogging concentrates are EPA-registered, not PMRA-registered, so do not import them. But the effect wears off the same evening once fresh mosquitoes drift in from neighbouring yards, and repeated fogging can harm pollinators. For control beyond one evening, a professional barrier spray is applied to resting vegetation and re-applied on a schedule through the season.',
   },
+  {
+    question: 'What is the best DEET mosquito repellent?',
+    answer: 'For adults, the strongest DEET sold in Canada is 30%, because Health Canada’s limit for adults and children older than 12 is "up to 30%". The OFF Deep Woods sold here is 25% DEET, and it is this page’s pick for heavy bug pressure: cottage docks, canoe trips and dense bush. For children aged 2 to 12, Health Canada’s limit is "up to 10%", up to 3 times daily; for 6 months to 2 years it is also 10%, no more than once a day; and under 6 months, do not use DEET at all. Look for the PCP number on the label.',
+  },
+  {
+    question: 'What is the best bug spray in Canada for mosquitoes, ticks and black flies?',
+    answer: 'For most people, 20% icaridin (picaridin): Health Canada says "Icaridin products repel mosquitoes and ticks," and its only age rule is that they "should not be used on infants younger than 6 months old." For black flies, check the label: Health Canada lists soybean oil repellents as repelling "mosquitoes and blackflies" and says some PMD (oil of lemon eucalyptus) and metofluthrin products "also repel blackflies." On long days in tick country, adults can add permethrin-treated clothing, which Health Canada says is "not available for children under the age of 16."',
+  },
+  {
+    question: 'What is the best mosquito spray?',
+    answer: 'It depends on what you are spraying. On skin, a 20% icaridin (picaridin) repellent suits most people, and DEET, which Health Canada allows at "up to 30%" for adults and children older than 12, suits the heaviest bug pressure. Health Canada says to "apply only a small amount of repellent on exposed skin or on top of clothing," and not to spray it directly onto your face: spray your hands, then apply. For the yard itself, a fogger knocks adult mosquitoes down for an evening, while a professional barrier spray treats the shaded leaves where they rest and is re-applied on a schedule.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best mosquito repellent in Canada 2026: 20% picaridin — 6–10 odourless hours; 25–30% DEET for cottage country. Ranked picks, tiers, and what to skip.',
+  description: 'Best mosquito repellent in Canada: 20% icaridin (picaridin) for most people; DEET, up to 30% for adults, for heavy bush. Health Canada age rules, what to skip.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('mosquito-repellent-guide-ontario-2026')
@@ -78,7 +92,7 @@ const AMZ_TAG = tagForSlug('mosquito-repellent-guide-ontario-2026')
 export default function MosquitoRepellentGuidePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to mosquito repellents for Ontario homeowners.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to mosquito repellents for Ontario homeowners.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Repellent Guide', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -91,7 +105,7 @@ export default function MosquitoRepellentGuidePage() {
             <span className="text-white">Mosquito Repellent Guide</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">An evidence-based 2026 buyer&rsquo;s guide. What actually repels mosquitoes, what&rsquo;s marketing, and which option fits your specific situation.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best mosquito repellent for most Canadians is a 20% icaridin (picaridin) spray such as Natrapel, which its maker says won&rsquo;t damage clothing, gear or plastics. For heavy bush and cottage docks, use DEET, which Health Canada allows at &ldquo;up to 30%&rdquo; for adults and children older than 12.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -104,9 +118,9 @@ export default function MosquitoRepellentGuidePage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <div className="not-prose bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best all-round mosquito repellent for Canada in 2026 is 20% icaridin (picaridin) — 6–10 hours of odourless protection that won&rsquo;t melt plastics or fabrics. Natrapel is the 20% icaridin brand registered for sale in Canada under the Pest Control Products Act. For heavy cottage-country bug pressure, DEET still wins — the OFF Deep Woods sold in Canada is 25% DEET, and Health Canada allows adults up to 30%.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best all-round mosquito repellent for Canada in 2026 is 20% icaridin (picaridin) — odourless protection that won&rsquo;t melt plastics or fabrics. Health Canada sets no protection time (&ldquo;Depending on the ingredients, some products repel insects for a longer time than others do&rdquo;), so reapply as the label directs. Natrapel is the 20% icaridin brand registered for sale in Canada under the Pest Control Products Act. For heavy cottage-country bug pressure, DEET still wins — the OFF Deep Woods sold in Canada is 25% DEET, and Health Canada allows adults up to 30%.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>20% picaridin protects for 6–10 hours, is odourless, and won&rsquo;t damage gear or plastics.</li>
+              <li>20% picaridin is odourless and won&rsquo;t damage gear or plastics; reapply as its label directs, since Health Canada gives no protection time.</li>
               <li>25–30% DEET is the pick for cottage docks and dense bush — Canadian labels claim up to 8 hours, and Health Canada caps adults at 30%.</li>
               <li>Oil of lemon eucalyptus is the best-evidenced natural option, but read the active: synthetic PMD is registered in Canada only at 10% (Health Canada RVD2022-11), roughly 2 hours against mosquitoes, while the natural Citriodiol form is registered here at up to 30% and claims about 6 hours.</li>
               <li>The Thermacell Patio Shield creates a 15-foot (about 4.5 m) protection zone — roughly 225 sq ft — with no spray on your skin.</li>
@@ -262,11 +276,29 @@ export default function MosquitoRepellentGuidePage() {
             <li><strong>Mosquito-repelling plant beds</strong> — Tiny effect; oils only release when leaves are crushed. Health Canada names citrosa houseplants specifically as a product that does not protect well.</li>
           </ul>
 
+          <QuickIdTable
+            title="Mosquito repellents compared: Health Canada’s rules"
+            head={['Active ingredient', 'Health Canada age rule', 'Repels, per Health Canada', 'Best for', 'Limits']}
+            rows={[
+              ['DEET', <>Adults and children older than 12: &ldquo;up to 30%&rdquo;. Ages 2 to 12: &ldquo;up to 10%&rdquo;, &ldquo;up to 3 times daily&rdquo;. 6 months to 2 years: &ldquo;up to 10%&rdquo;, not &ldquo;more than once a day&rdquo;. Under 6 months: &ldquo;do not use&rdquo;.</>, 'Not listed for DEET on Health Canada’s page: the label names the insects', 'Heavy bug pressure: cottage docks, canoe trips, dense bush', <>Can damage plastics and synthetics. Under 12, &ldquo;do not use a DEET product on a daily basis for more than a month&rdquo;</>],
+              ['Icaridin (picaridin)', <>Products &ldquo;should not be used on infants younger than 6 months old&rdquo;</>, <>&ldquo;mosquitoes and ticks&rdquo;</>, 'Everyday backyard and travel use; Natrapel is the 20% pick above', 'Protects skin only, not the yard'],
+              ['PMD / oil of lemon eucalyptus', <>Products &ldquo;should not be used on children younger than 3 years old&rdquo;</>, <>&ldquo;mosquitoes&rdquo;; some products &ldquo;also repel blackflies&rdquo;</>, 'A DEET-free skin repellent', 'Every PMD product listed in RVD2022-11 is 10%: read which active the label names'],
+              ['Soybean oil', <>&ldquo;There are no age restrictions for these products&rdquo;</>, <>&ldquo;mosquitoes and blackflies&rdquo;</>, 'Short outings, any age', 'Short protection (Tier 3 above)'],
+              ['Metofluthrin clip-on', <>No age restrictions, but &ldquo;children should not be allowed to replace the refill disks&rdquo;</>, <>&ldquo;mosquitoes&rdquo;; some products &ldquo;also repel blackflies&rdquo;</>, 'No age limit, and nothing goes on the skin', 'A clip-on device, not a skin product'],
+              ['Essential-oil mixture', <>Lemon, eucalyptus, pine needle, geranium and camphor: &ldquo;should not be used on children younger than 2 years old&rdquo;</>, <>&ldquo;mosquitoes&rdquo;</>, 'A short, DEET-free outing', 'Short protection (Tier 3 above)'],
+              ['Permethrin-treated clothing', <>It is &ldquo;not available for children under the age of 16&rdquo;; adults, &ldquo;including pregnant women, may wear&rdquo; it</>, <>&ldquo;mosquitoes and ticks&rdquo;</>, 'Long days in tick country, under a skin repellent', <>Clothing only, never skin; it lasts for the wash cycles &ldquo;indicated on the clothing label&rdquo;</>],
+            ]}
+            caption={<>Age rules and what each active repels are quoted from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">Personal insect repellents</a> page (canada.ca, dated 2021-06-02). It gives no protection times: &ldquo;Depending on the ingredients, some products repel insects for a longer time than others do,&rdquo; and the label states &ldquo;how much to apply, and how often.&rdquo; Best for and limits restate the picks and tiers on this page.</>}
+          />
+
           <h2>What to Buy for What Situation</h2>
           <ul>
             <li><strong>Backyard BBQ (2–3 hours):</strong> 20% picaridin spray.</li>
             <li><strong>Long hike or camping:</strong> 30% DEET (Health Canada&rsquo;s adult maximum) or 20% icaridin.</li>
+            <li><strong>Hiking or yard work in tick country:</strong> 20% icaridin on exposed skin (Health Canada: &ldquo;Icaridin products repel mosquitoes and ticks&rdquo;), plus permethrin-treated clothing for adults, which Health Canada says is &ldquo;not available for children under the age of 16.&rdquo; Our <Link href="/blog/permethrin-canada-yard-clothing-spray">permethrin guide for Canada</Link> covers which formats you can buy here.</li>
+            <li><strong>Black-fly season:</strong> read the label for black flies. Health Canada lists soybean-oil repellents as repelling &ldquo;mosquitoes and blackflies&rdquo; and says some PMD and metofluthrin products &ldquo;also repel blackflies.&rdquo; Our guide to <Link href="/blog/black-flies-ontario-when-they-come-out">black flies in Ontario</Link> shows when they come out where you are.</li>
             <li><strong>Kids 2–12 years:</strong> DEET no stronger than 10%, up to 3 times a day — or 20% icaridin, which the Public Health Agency of Canada&rsquo;s travel-medicine committee and the Canadian Paediatric Society name as first choice for ages 6 months to 12 years. Health Canada&rsquo;s 10% DEET ceiling holds all the way to age 12; it does not rise with age within that band. For 6 months to 2 years, DEET is limited to one application per day.</li>
+            <li><strong>Kids using repellent every day for weeks (camp, the cottage):</strong> Health Canada says &ldquo;For children younger than 12 years old, do not use a DEET product on a daily basis for more than a month,&rdquo; so for a long stretch of daily use, 20% icaridin is the one to reach for.</li>
             <li><strong>Babies under 6 months:</strong> Health Canada says no DEET and no icaridin. Use a mosquito net over the crib or stroller plus long sleeves. Soybean-oil repellents and metofluthrin clip-ons are the two categories Health Canada lists with no age restriction. Parents at this stage almost always ask about the sticker-and-patch format next, because nothing goes on the baby&rsquo;s skin — what those patches realistically deliver, and why they are a supplement to a net rather than a replacement for one, is covered in our guide to <Link href="/blog/mosquito-repellent-stickers-patches-canada">mosquito repellent stickers and patches in Canada</Link>.</li>
             <li><strong>Pregnant women:</strong> The Public Health Agency of Canada&rsquo;s travel-medicine guidance considers DEET (20–30%) and icaridin (20%) suitable for use in pregnancy and while breastfeeding, and Health Canada states adults including pregnant women may wear permethrin-treated clothing. Health Canada&rsquo;s repellent page itself sets no separate pregnancy approval, so treat this as PHAC guidance rather than a label approval.</li>
             <li><strong>Pets in yard:</strong> Don&rsquo;t apply human repellents to pets. Use vet-prescribed flea/tick preventatives + professional yard barrier spray.</li>

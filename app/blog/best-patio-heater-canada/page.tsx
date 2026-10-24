@@ -13,17 +13,19 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-patio-heater-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Patio Heaters in Canada for 2026'
-const META_TITLE = 'Best Patio Heaters in Canada for 2026'
+// TITLE NOTE (Oct 23, 2026): was 'Best Patio Heaters in Canada for 2026'; top queries Jul 23-Oct 20: best patio heater canada 154 impr (pos 9.9), best patio heater 72 (19.8), best infrared patio heater canada 19, best outdoor heaters 16 (1 click across the four).
+const META_TITLE = 'Best Patio Heater Canada: Propane vs Infrared'
 
 const FAQS = [
   {
     question: 'How many BTU do I need for a patio heater?',
-    answer: 'For an open deck or patio, a full-size propane tower in the 46,000 to 50,000 BTU range is the standard and the right default. It puts usable warmth into a circle roughly 9 to 12 feet across, which covers a four- to six-person seating group. Below about 40,000 BTU a freestanding tower struggles on an exposed Ontario evening in October. Above 50,000 you are mostly buying a bigger tank appetite, not a bigger warm circle. Tabletop propane heaters run around 10,000 to 11,000 BTU and warm the people at that one table, nothing more. Electric infrared units are usually rated in watts instead: 1,500 W is roughly 5,100 BTU per hour, which sounds tiny beside a propane tower but behaves very differently because it radiates directly at people rather than heating the air.',
+    answer: 'For an open deck or patio, a full-size propane tower in the 46,000 to 50,000 BTU range is the standard and the right default. It warms a seating group pulled in close around it, not the whole deck. Below about 40,000 BTU a freestanding tower struggles on an exposed Ontario evening in October. Above 50,000 you are mostly buying a bigger tank appetite, not a bigger warm circle. Tabletop propane heaters run around 10,000 to 11,000 BTU and warm the people at that one table, nothing more. Electric infrared units are usually rated in watts instead: 1,500 W is roughly 5,100 BTU per hour, which sounds tiny beside a propane tower but behaves very differently because it radiates directly at people rather than heating the air.',
   },
   {
     question: 'Propane or electric patio heater — which is better in Canada?',
@@ -53,14 +55,27 @@ const FAQS = [
     question: 'How do I store a patio heater and a propane tank over a Canadian winter?',
     answer: 'Disconnect the regulator, cap the tank, and store the cylinder outdoors, upright, in a shaded and ventilated spot. Never in a garage, a basement, a shed you also heat, or anywhere indoors — that rule is not negotiable and it applies year-round, not just in winter. The heater itself should be cleaned, dried and covered, or brought into a shed if it fits. Water pooling in the reflector and freezing at the base is what rusts these units out in two or three Ontario winters, and a proper weighted cover is the cheapest life-extension you can buy. Also check the date stamp on your cylinder: propane tanks in Canada need requalification about every ten years, and exchange programs handle that for you automatically.',
   },
+  {
+    question: 'What is the best infrared patio heater in Canada?',
+    answer: 'For a covered porch, a balcony or a small seating area, a 1,500 W electric infrared heater on a standard 120 V outlet is the simplest choice. Napoleon lists its Phantom freestand infrared heater at 1,500 W and 5,000 BTU (1.47 kW) of heat output, on a plug-in cord with no installation. The best one for your space is the one you can aim at the seating, placed or mounted the way its manual says: infrared warms what it points at, so two smaller units from different sides often beat one big one.',
+  },
+  {
+    question: 'What is the best outdoor heater for a covered deck or porch?',
+    answer: 'An electric infrared heater, mounted on the wall or ceiling and angled at the seating. It burns nothing, so there is no exhaust under the roof, and it keeps warming people in a breeze. A propane tower is built for open air, and its own rating plate gives the clearances it needs. Gas heaters made for overhead or wall mounting do exist, since the CSA patio heater standard covers those types, but they are fixed installations; on natural gas in Ontario that work belongs to a TSSA-registered contractor.',
+  },
+  {
+    question: 'What is the best natural gas patio heater in Canada?',
+    answer: 'One certified for natural gas and installed on a fixed line where you sit most often. The CSA standard for gas-fired outdoor infrared patio heaters (CSA/ANSI Z83.26 and CSA 2.37) covers natural gas models on fixed piping, mounted overhead, on a wall or on the floor. In Ontario, TSSA says only TSSA-registered contractors and certified fuel technicians are legally permitted to install, service or maintain fuel-burning appliances, and you can check a contractor with its online lookup tool. You never swap a tank, but the heater stays where the gas line is.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Propane tower vs electric infrared patio heaters for Canadian yards: BTU and coverage, wind behaviour, running cost per evening, and CSA clearances.',
+  description: 'The best patio heater for most Canadian yards is a 46,000–50,000 BTU propane tower; covered porches and balconies need electric infrared. CSA rules, costs, wind.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -81,7 +96,7 @@ export default function BestPatioHeaterCanadaPage() {
             <span className="text-white">Best Patio Heaters Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Propane towers versus electric infrared, judged on the things that actually decide it in Ontario: coverage radius, how each behaves in wind, what an evening really costs, and the clearance rules that rule half of them out of a covered porch.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">For most Canadian backyards the best patio heater is a <strong className="text-white">46,000&ndash;50,000 BTU propane tower</strong>, for an open deck or lawn with no outdoor outlet. If your seating is under a roof, on a covered porch or a condo balcony, buy a wall- or ceiling-mounted electric infrared heater instead.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -94,7 +109,7 @@ export default function BestPatioHeaterCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards the best patio heater is a <strong>46,000&ndash;50,000 BTU propane tower</strong>: it needs no wiring, moves wherever the chairs are, and puts usable warmth into a circle roughly 9 to 12 feet across &mdash; enough to keep a group outside through an Ontario October. If your space is a <strong>covered porch, pergola or condo balcony</strong>, buy a <strong>wall- or ceiling-mounted electric infrared heater</strong> instead: it is far cheaper to run, it is the only option that is legal in most of those spaces, and it keeps working in wind that defeats propane.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards the best patio heater is a <strong>46,000&ndash;50,000 BTU propane tower</strong>: it needs no wiring, moves wherever the chairs are, and warms a group seated close around it &mdash; enough to keep a group outside through an Ontario October. If your space is a <strong>covered porch, pergola or condo balcony</strong>, buy a <strong>wall- or ceiling-mounted electric infrared heater</strong> instead: it is far cheaper to run, it is the only option that is legal in most of those spaces, and it keeps working in wind that defeats propane.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Full-size propane towers land in the $150&ndash;$400 range; electric infrared roughly $120&ndash;$500 depending on mount and output.</li>
               <li>A 20 lb tank gives about 8&ndash;10 hours at full output &mdash; call it $2.50&ndash;$4.00 an hour in Ontario.</li>
@@ -219,6 +234,20 @@ export default function BestPatioHeaterCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             Running costs are Ontario estimates: propane at typical tank-exchange pricing, electricity at regulated time-of-use rates. Both move &mdash; check your current rate and your local exchange price before treating these as budgets.
           </p>
+          <QuickIdTable
+            title="Fuel and certification: what the CSA standard and makers specify"
+            head={['Heater type', 'Fuel supply', 'What the standard or maker says', 'Installation']}
+            rows={[
+              ['Propane tower or pyramid', 'Its own propane cylinder', 'CSA 2.37: a patio heater that carries its own tank takes one cylinder of at most 20 lb (9.1 kg)', 'None; it moves on its base'],
+              ['Tabletop propane', 'Disposable 1 lb cylinders', 'CSA 2.37: tabletop heaters are 24,000 Btu/hr or less, with their own supply of up to two 1 lb (0.45 kg) cylinders', 'None; check the manual before using an adapter hose'],
+              ['Natural gas', 'A fixed gas line', 'CSA 2.37 covers heaters on fixed piping at an inlet pressure of 1/2 psi or less', 'Ontario (TSSA): only TSSA-registered contractors and certified fuel technicians may install fuel-burning appliances'],
+              ['Electric infrared, plug-in', 'A 120 V outlet', 'Napoleon Phantom freestand: 1,500 W, 120 V 15 A, 5,000 BTU (1.47 kW) heat output, anti-tip shut-off', 'Plugs in; “no expensive installation required”'],
+            ]}
+            caption={<>CSA/ANSI Z83.26:20 &bull; CSA 2.37:20, <em>Gas-fired outdoor infrared patio heaters</em>: scope as listed by the <a href="https://scc-ccn.ca/standardsdb/standards/4030766" target="_blank" rel="noopener noreferrer" className="underline">Standards Council of Canada</a>. <a href="https://www.tssa.org/protecting-ontarians-fraudulent-fuels-workers" target="_blank" rel="noopener noreferrer" className="underline">TSSA, March 2026</a>. <a href="https://www.napoleon.com/en/ca/barbecues/products/outdoor-heating/freestand-patio-heater-series/phantom-freestand-neofv80ih" target="_blank" rel="noopener noreferrer" className="underline">Napoleon product page</a>. All read Oct 23, 2026.</>}
+          />
+          <p className="text-sm text-gray-700 leading-relaxed">
+            <strong>What to look for on the box:</strong> a gas patio heater certified to CSA 2.37 is built for outdoor use on natural gas or propane, and the standard covers overhead, wall, floor and tabletop types. The clearances to walls, roofs and umbrellas are set model by model, so read them on your heater&rsquo;s rating plate and in its manual before you place it.
+          </p>
         </div>
       </section>
 
@@ -241,7 +270,7 @@ export default function BestPatioHeaterCanadaPage() {
           <h2>Coverage: What a Warm Circle Actually Measures</h2>
           <p>Marketing coverage figures are generous because they are measured on a still day at a temperature nobody needs a heater for. Realistic expectations for an Ontario evening in the single digits:</p>
           <ul>
-            <li><strong>46,000&ndash;50,000 BTU propane tower:</strong> comfortable in a circle roughly 9 to 12 feet across, with the drop-off past the edge being abrupt rather than gradual. That is a conversation group of four to six chairs pulled reasonably close.</li>
+            <li><strong>46,000&ndash;50,000 BTU propane tower:</strong> comfortable for a conversation group with the chairs pulled in close, with the drop-off past the edge of the group being abrupt rather than gradual.</li>
             <li><strong>Pyramid glass-tube propane:</strong> similar fuel burn, but a larger share of the output rises up the tube and away, so the practical warm zone is noticeably tighter than a mushroom tower of the same rating.</li>
             <li><strong>1,500 W wall or ceiling infrared:</strong> a directed cone rather than a circle. Effective for roughly six to eight feet in front of the element when it is mounted seven to nine feet up and angled down. Two units aimed from different directions beat one big one, because the shadow side of a person stays cold.</li>
             <li><strong>Tabletop propane, 10,000&ndash;11,000 BTU:</strong> the people at that table. Do not buy one hoping to warm a deck.</li>
@@ -257,6 +286,21 @@ export default function BestPatioHeaterCanadaPage() {
           <p>A full-size propane tower at 46,000 to 50,000 BTU per hour empties a 20 lb tank in roughly 8 to 10 hours of running wide open. Ontario tank exchange typically sits in the $25 to $35 range, with a weight-based refill at a propane dealer usually cheaper. Call it somewhere around $2.50 to $4.00 an hour at full blast &mdash; and rather less in practice, because most people run the heater high for twenty minutes and then turn it down.</p>
           <p>A 1,500 W electric infrared heater consumes 1.5 kWh per hour. At Ontario&rsquo;s regulated time-of-use pricing, which sits between single digits and the mid-teens of cents per kilowatt-hour depending on the period, that is roughly 12 to 25 cents an hour. An entire autumn of evenings on infrared costs less than a few tank exchanges.</p>
           <p>But do not read that as a knockout. The electric unit is producing about a tenth of the heat energy. The reason it competes at all is that radiant delivery puts a much larger share of what it makes onto people instead of into the sky. The fair summary: <strong>if infrared can reach everyone in your seating area, it is far cheaper to run and the better buy. If your space is too open or too spread out for a directed heater to cover, propane is the only practical way to buy that much warmth, and the fuel is what it costs.</strong></p>
+
+          <h2>Which Patio Heater for Your Space</h2>
+          <p>Start from where you sit, not from the BTU number. Each row restates this page&rsquo;s findings and the sources in the fuel table above:</p>
+          <QuickIdTable
+            title="Your space, and the heater that fits"
+            head={['Your space', 'Buy', 'Why']}
+            rows={[
+              ['Open deck or lawn, no outdoor outlet', '46,000–50,000 BTU propane tower', 'No wiring; about 8–10 hours on a 20 lb tank at full output'],
+              ['Covered porch, pergola or carport', 'Wall- or ceiling-mount electric infrared', 'No combustion under the roof; mount it where its manual says'],
+              ['Condo balcony', 'Electric infrared, after checking your building rules', 'Most Ontario condo corporations ban propane on balconies'],
+              ['Windy, exposed patio', 'Electric infrared, or a windbreak first', 'Napoleon: infrared warms people and objects directly, unlike gas heat a breeze can blow away'],
+              ['A permanent outdoor room near the house', 'Natural gas on a fixed line', 'No tanks to swap; in Ontario, installed by a TSSA-registered contractor'],
+              ['A bistro table for two to four', 'Tabletop propane', 'CSA 2.37 tabletop heaters run at 24,000 Btu/hr or less'],
+            ]}
+          />
 
           <h2>The Mistake Most Canadian Buyers Make</h2>
           <p>Buying a propane tower for a space it cannot legally or safely occupy. It happens constantly, in two versions.</p>

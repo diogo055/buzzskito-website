@@ -13,10 +13,11 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'electric-fly-swatter'
 const DATE = '2026-07-14'
-const UPDATED = '2026-07-14'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Electric Fly Swatter Canada 2026 — The Executioner vs Zap It vs Black Flag'
 const META_TITLE = 'Best Electric Fly Swatter Canada 2026: 3 Picks'
 
@@ -53,11 +54,23 @@ const FAQS = [
     question: 'Battery-powered vs USB-rechargeable electric fly swatter — which is better?',
     answer: 'USB-rechargeable models (the Zap It 4,000-volt line) are cheaper to run: the built-in lithium cell delivers up to roughly 10,000 zaps per charge and tops up in about two hours, so you never buy batteries again. Battery-powered models (the Executioner and Black Flag run on 2 AA cells; the Executioner Pro takes 2 C cells) win at the cottage and in the trailer, where spare alkalines keep in a drawer for years. Rule of thumb: if the racket lives in your kitchen, buy rechargeable; if it lives at the cottage in Muskoka or Haliburton, buy AA.',
   },
+  {
+    question: 'What is the strongest electric fly swatter?',
+    answer: 'Of the rackets compared here, the Zap It rechargeable line has the highest listed grid voltage, at 4,000 volts, and the Executioner Pro steps up to two C cells for a hotter, longer-lasting zap than the AA Executioner. Voltage is not the whole story: the Executioner’s open single-layer grid needs less voltage for an instant kill because nothing blocks contact, while the Zap It uses its extra volts to reach through its outer mesh. For wasps and hornets, look for 3,000 volts or more.',
+  },
+  {
+    question: 'Do electric fly swatters actually work?',
+    answer: 'Yes, on the insects you can reach. A racket is excellent on houseflies and on mosquitoes indoors, which fly slowly and rest on walls and ceilings, and a grid of 3,000 volts or more kills a wasp on contact without a hard surface behind it. It is no use as yard control: one person swatting cannot outpace a breeding population, and it does nothing for ticks, which do not fly. Rackets under about 2,000 volts often stun rather than kill, so the fly wakes up on the floor minutes later.',
+  },
+  {
+    question: 'Is an electric fly swatter better than a regular fly swatter?',
+    answer: 'For most indoor flying insects, yes. A racket can kill a fly or mosquito in mid-air, so you do not have to wait for it to land on a hard surface, and there is no smear left on the window or the paint. A plain swatter still wins on simplicity: no batteries, no charging and no live grid to keep away from children. If you buy an electric one, choose at least 2,500 volts, and a three-layer mesh racket if there are kids in the house.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The Executioner vs Zap It vs Black Flag on Amazon.ca — grid voltage explained, single vs 3-layer mesh safety, battery vs USB, and what a bug zapper racket honestly kills. 2026 Canadian guide.',
+  description: 'Best electric fly swatter in Canada: The Executioner for first-swing kills, a Zap It 3-layer mesh racket if you have kids, Black Flag on a budget.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -82,7 +95,7 @@ export default function ElectricFlySwatterCanadaPage() {
             <span className="text-white">Electric Fly Swatter Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The bug zapper racket is the one zapper we actually recommend without an asterisk. Here is which one to buy on Amazon.ca — grid voltage, single vs triple-layer mesh, battery vs USB — and an honest read on mosquitoes, houseflies, and wasps.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> The Executioner is the best electric fly swatter for most adults &mdash; its open single-layer grid kills flies, mosquitoes and wasps on the first swing. With young kids in the house, buy a three-layer-mesh racket such as the Zap It instead.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -196,6 +209,25 @@ export default function ElectricFlySwatterCanadaPage() {
         </div>
       </section>
 
+      <section className="pb-6 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Which electric fly swatter for your situation?"
+            head={['Your situation', 'Buy this', 'Why']}
+            rows={[
+              ['Adults only; flies and wasps', 'The Executioner (open single-layer grid)', 'Nothing sits between the insect and the charge, so contact means an instant kill; the live grid is exposed, so keep it an adults-only tool'],
+              ['Young kids in the house', 'Zap It rechargeable (three-layer mesh)', 'The two outer meshes carry no charge, so a flat palm does not complete the circuit; a small finger can still poke through, so store it out of reach'],
+              ['A mosquito over the bed at 2 a.m.', 'Zap It rechargeable', 'Its built-in LED lets you hunt with the lights off'],
+              ['Cluster flies on a high or cathedral ceiling', 'Executioner Pro, or the extendable Black Flag ZR-8000', 'Reach: past 55 cm on the Pro, about 75 cm on the Black Flag’s telescoping handle'],
+              ['One by every door, on a budget', 'Black Flag handheld multi-pack', 'Reliable on houseflies, mosquitoes and fruit flies; big wasps may need a second tap'],
+              ['A cottage, trailer or boat shut all winter', 'An AA or C-cell model', 'Alkaline cells keep for years; a lithium pack self-discharges over the winter'],
+              ['A yard full of mosquitoes, or ticks', 'Not a racket', 'Swatting is personal defence, not population control, and ticks do not fly'],
+            ]}
+            caption="Each row restates a section of this guide below."
+          />
+        </div>
+      </section>
+
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
@@ -284,6 +316,7 @@ export default function ElectricFlySwatterCanadaPage() {
             <li><strong>Expect to spend roughly $15–$50</strong> in Canada depending on voltage, size, and pack count — under $15 usually buys a stun-only grid you will replace by August.</li>
             <li><strong>Check Canadian Tire in season</strong> for the Executioner — many stores stock it May through September; Amazon.ca has the full lineup year-round.</li>
             <li><strong>Dry-weather use only.</strong> No racket in this category is waterproof — if it gets soaked, pull the batteries and dry it for 24 hours.</li>
+            <li><strong>Check the recall lists before buying a no-name rechargeable.</strong> In July 2025 the U.S. Consumer Product Safety Commission <a href="https://cpsc.gov/Recalls/2025/iMirror-Inc-Recalls-Electric-Bug-Zapper-Racket-Fly-Swatter-and-Mosquito-Swatter-Due-to-Shock-Hazard" target="_blank" rel="noopener">announced iMirror&rsquo;s recall of about 29,000 rechargeable bug zapper rackets</a> sold on Amazon, because the battery can catch fire. Canadian recalls are posted on the Government of Canada&rsquo;s <a href="https://recalls-rappels.canada.ca/en" target="_blank" rel="noopener">recalls and safety alerts site</a>.</li>
           </ul>
           <p>And place it where the action is: hang one by the patio door, one in the kitchen, and one at the cottage. A racket in a basement closet kills nothing.</p>
 

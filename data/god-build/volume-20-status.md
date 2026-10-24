@@ -157,3 +157,14 @@ Owner's words: "build the 20 most stat changing pages u can right now. Backed by
     - can-mice-climb-walls: position 9.9.
   - **Then:** one independent checker, then build and push.
   - **Watch:** both agents run `retrofit-date.mjs`, which writes app/sitemap.ts. Verify all 5 entries are there afterwards.
+- **20:42 UTC: upgrade round 2 LIVE (`706b4066`)**, each checked independently. Build: 759 pages + guards green.
+  - "When Do Ticks Die Off in Ontario? They Don't"
+  - "Mosquitoes Go Away in Ontario After a Hard Frost"
+  - "Black Flies in Ontario & Canada: Season & Bites"
+  - "Steel Wool for Mice: It Works if Caulked In"
+  - "Can Mice Climb Walls? Yes: Brick, Wood, Wires"
+  - **Fixes made along the way:**
+    - The black fly "Unlike mosquitoes, only females bite" error.
+    - The tick page's 4°C lines now use the "above freezing" wording from PHO/PHAC/CDC.
+  - **Indexing:** add these 5 to the queue for Oct 25-26, after the new pages.
+  - **Read the effect:** Nov 6-20, by position and CTR on their main searches.

@@ -14,21 +14,23 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-bed-bug-spray-for-mattress-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
-const TITLE = 'Best Bed Bug Spray for a Mattress in Canada — Mattress-Safe Picks and the Label Rule'
-const META_TITLE = 'Best Mattress-Safe Bed Bug Spray in Canada'
+const UPDATED = '2026-10-23'
+const TITLE = 'Best Bed Bug Spray for a Mattress in Canada — Mattress-Labelled Picks and the Label Rule'
+// TITLE NOTE (Oct 23, 2026): was 'Best Mattress-Safe Bed Bug Spray in Canada'; top queries: bed bug spray 604, best bed bug spray 344, strongest bed bug killer 322, bed bug spray for mattress 123 (7 clicks). The general head terms belong to /blog/bed-bug-spray-canada (data/god-build/research/top3/bed-bug-spray-cluster.md); this title leads with the mattress search and drops the safety claim.
+const META_TITLE = 'Bed Bug Spray for Mattress: Canada Label Guide'
 
 const FAQS = [
   {
     question: 'What is the best bed bug spray for a mattress in Canada?',
-    answer: 'For most Canadian homes, the best mattress-safe bed bug spray is a plant-based contact killer like EcoRaider, or a PMRA-registered Canadian product such as Doktor Doom Sleep Tight — both are formulated to be sprayed directly onto the seams and surface of a mattress you will sleep on. The key is that the label explicitly permits mattress use and carries a Canadian PCP registration number. A spray kills the bed bugs it directly wets, but it will not reach eggs buried deep in the fabric or bugs hiding inside the box spring, so it is one tool in a plan alongside a steamer, an encasement, and interceptor traps.',
+    answer: 'For most Canadian homes, the best bed bug spray for a mattress is a PMRA-registered contact spray whose label names mattresses, such as Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) or KONK Bed Bug Killer (PCP 31110); both labels direct you to the tufts and seams. The key is that the label explicitly permits mattress use and carries a Canadian PCP registration number. EcoRaider, a plant-based contact killer often recommended online, shows no Canadian registration. A spray kills the bed bugs it directly wets, but it will not reach eggs buried deep in the fabric or bugs hiding inside the box spring, so it is one tool in a plan alongside a steamer, an encasement, and interceptor traps.',
   },
   {
     question: 'Can you spray bed bug spray directly on a mattress you sleep on?',
-    answer: 'Only if the product label specifically says you can. This is the single most important rule. Many strong bed bug concentrates and foggers are labelled for cracks, crevices, and baseboards but are NOT approved for the sleeping surface of a mattress — spraying them where your skin contacts all night is unsafe and off-label. A mattress-labelled spray (EcoRaider, Doktor Doom Sleep Tight, and similar) is tested and registered for exactly that use, usually with a direction to let the mattress dry fully before you re-make the bed. Read the label, look for the word "mattress," and let it dry before sleeping.',
+    answer: 'Only if the product label specifically says you can. This is the single most important rule. Many strong bed bug concentrates and foggers are labelled for cracks, crevices, and baseboards but are NOT approved for the sleeping surface of a mattress — spraying them where your skin contacts all night is off-label, and in Canada using a pesticide against its label is an offence under the Pest Control Products Act. A mattress-labelled spray (in Canada, for example Doktor Doom Sleep Tight Bed Bug Killer II, KONK Bed Bug Killer or Raid Bed Bug Killer) is registered for exactly that use, with a direction to let the mattress dry before laundered bedding goes back on. Read the label, look for the word "mattress," and let it dry before sleeping.',
   },
   {
     question: 'Why does the PMRA registration number matter on a bed bug spray?',
@@ -40,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'What is the difference between a contact-kill and a residual bed bug spray?',
-    answer: 'A contact-kill spray (EcoRaider is the best-known plant-based example) kills bugs it directly hits and then largely evaporates, leaving little lasting film — you are spraying the bugs you can see, in real time. A residual spray leaves an active deposit on the surface that keeps killing bed bugs that walk across it for days or weeks afterward. For a mattress you sleep on, many people prefer a lower-residue contact killer on the sleeping surface and save the longer-residual products for the frame, box spring, and baseboards. Some Canadian products blend both effects — always confirm the label approves the surface you are treating.',
+    answer: 'A contact-kill spray (EcoRaider is the best-known plant-based example) kills bugs it directly hits and then largely evaporates, leaving little lasting film — you are spraying the bugs you can see, in real time. A residual spray leaves an active deposit on the surface that keeps killing bed bugs that walk across it for days or weeks afterward. For a mattress you sleep on, use a contact spray whose label names mattresses on the seams and tufts, and save the longer-residual permethrin products for the cracks and baseboards their labels list; the ones we checked rule out the mattress, headboard, footboard and furniture. Always confirm the label approves the surface you are treating.',
   },
   {
     question: 'How do I spray a mattress for bed bugs properly?',
@@ -48,7 +50,7 @@ const FAQS = [
   },
   {
     question: 'Is EcoRaider or Doktor Doom Sleep Tight better for a mattress?',
-    answer: 'They suit slightly different priorities. EcoRaider is a plant-oil-based contact killer that many people choose specifically because it is low-odour and they are comfortable spraying it near where they sleep; it drops bugs fast on contact but leaves modest residual. Doktor Doom Sleep Tight is a Canadian brand with clear PMRA registration and a mattress-and-furniture label, often chosen for the reassurance of a domestic product designed for exactly this use. If your priority is a plant-based, low-tox contact kill, lean EcoRaider; if your priority is a straightforward Canadian-registered mattress spray, lean Doktor Doom Sleep Tight. Both belong in the same shortlist.',
+    answer: 'In Canada the registration settles it. EcoRaider is a plant-oil-based contact killer that many people choose because it is low-odour; in Rutgers University lab tests it killed bed bugs and most of the eggs it directly wet, but Health Canada’s database shows no Canadian registration for it. Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) is a Canadian-registered pyrethrin spray whose label names mattress tufts and seams, box springs and bed frames. For a Canadian bed, the registered choice is Sleep Tight Bed Bug Killer II; check the PCP number, because the permethrin Sleep Tight cans are not labelled for mattresses.',
   },
   {
     question: 'Will a mattress spray get rid of bed bugs on its own?',
@@ -60,7 +62,7 @@ const FAQS = [
   },
   {
     question: 'Are "natural" bed bug sprays effective on a mattress?',
-    answer: 'The better plant-based sprays — those built around essential-oil actives like geraniol, or the specific formulation in EcoRaider — do genuinely kill bed bugs on contact and are popular for mattress use because people accept them near the sleeping surface. Where "natural" disappoints is residual and eggs: many botanical sprays evaporate quickly and offer little lasting protection, so they demand disciplined repeat spraying. Be wary of vague "natural bed bug spray" products with no PMRA registration and no independent evidence — a pleasant scent is not proof it works. Our companion guide to natural bed bug sprays in Canada digs into which botanical formulas hold up.',
+    answer: 'The better plant-based sprays — those built around essential-oil actives like geraniol, or the specific formulation in EcoRaider — do genuinely kill bed bugs on contact and are popular for mattress use because people accept them near the sleeping surface. Where "natural" disappoints is residual and eggs: many botanical sprays evaporate quickly and offer little lasting protection, so they demand disciplined repeat spraying. Be wary of vague "natural bed bug spray" products with no PMRA registration and no independent evidence — a pleasant scent is not proof it works. In Canada, no geraniol or cedar-oil bed bug spray appears in Health Canada’s pesticide database, so the registered plant-derived option for a mattress is a pyrethrin spray. Our companion guide to natural bed bug sprays in Canada digs into which botanical formulas hold up.',
   },
   {
     question: 'Can I just buy a strong American bed bug spray online instead?',
@@ -72,11 +74,11 @@ const FAQS = [
   },
   {
     question: 'Can we spray bed bug spray on mattress?',
-    answer: 'Only if the label names mattresses. In the United States, mattress-approved labels typically restrict application to the edges, tufts, folds, sides and seams, and warn against treating bed linens or any surface in prolonged contact with occupants. In Canada, the product also needs a PCP number. Either way, let it dry fully before remaking the bed. That narrow permission is deliberate: a mattress is a surface you breathe against for eight hours, so the registered use pattern is the harbourage strip along the seam, not a general misting of the sleeping surface. If your can does not name mattresses at all, it belongs on the frame, the box-spring wood, and the baseboards instead.',
+    answer: 'Only if the label names mattresses. In the United States, mattress-approved labels typically restrict application to the edges, tufts, folds, sides and seams, and warn against treating bed linens or any surface in prolonged contact with occupants. In Canada, the product also needs a PCP number. Either way, let it dry fully before remaking the bed. That narrow permission is deliberate: a mattress is a surface you breathe against for eight hours, so the registered use pattern is the harbourage strip along the seam, not a general misting of the sleeping surface. If your can does not name mattresses at all, it goes only where its label says, such as cracks and baseboards; the Canadian permethrin cans we checked also rule out the bed frame and other furniture.',
   },
   {
     question: 'What to do if you slept in a bed with bed bugs?',
-    answer: 'Do not panic and do not throw the mattress out. Strip the bedding straight into a sealed bag, wash and dry it on the hottest safe setting, inspect the seams and slats for live bugs and dark spotting, and set interceptor traps under the bed legs. Then treat, or call a professional. Do not move to the couch — that usually just spreads the infestation to a second room. The US Centers for Disease Control and Prevention and the Environmental Protection Agency, in their joint statement on bed bugs, describe them as a pest of significant public health importance while noting bed bugs are not known to transmit disease to people; the documented effects are allergic reactions and secondary skin infections such as impetigo, ecthyma and lymphangitis. Mayo Clinic advises seeing a doctor if bites blister, show signs of infection, or trigger an allergic skin reaction. This is general information, not medical advice.',
+    answer: 'Do not panic and do not throw the mattress out. Strip the bedding straight into a sealed bag, wash and dry it on the hottest setting the fabric allows, inspect the seams and slats for live bugs and dark spotting, and set interceptor traps under the bed legs. Then treat, or call a professional. Do not move to the couch — that usually just spreads the infestation to a second room. The US Centers for Disease Control and Prevention and the Environmental Protection Agency, in their joint statement on bed bugs, describe them as a pest of significant public health importance while noting bed bugs are not known to transmit disease to people; the documented effects are allergic reactions and secondary skin infections such as impetigo, ecthyma and lymphangitis. Mayo Clinic advises seeing a doctor if bites blister, show signs of infection, or trigger an allergic skin reaction. This is general information, not medical advice.',
   },
   {
     question: 'What kills bedbugs 100%?',
@@ -110,11 +112,19 @@ const FAQS = [
     question: 'Is bed bug season different in the United States and Canada?',
     answer: 'Bed bugs live indoors year round in both countries, so there is no weather-driven season the way there is for mosquitoes and ticks. What varies is how often they are moved around. US bed bug activity peaks roughly June through October and is sharpest in August and September, driven by summer travel and the college move-in season rather than by temperature. Orkin\'s 2026 US bed bug cities ranking put Chicago first again, followed by Los Angeles, Detroit, Cleveland and Indianapolis, with Ohio the most-represented state in the top 50. Canadian activity follows the same travel-driven pattern without the campus spike.',
   },
+  {
+    question: 'How long do bed bugs live after spraying a mattress?',
+    answer: 'A bug the spray wets directly can die within a day, but it depends on the product and on resistance. In Rutgers University lab tests, the plant-based EcoRaider killed 82% of directly sprayed nymphs of one strain within a day and all of them by day 10, while the conventional insecticide Temprid SC killed all of them within a day. Bugs the spray misses keep feeding, and the Canadian labels we checked make no egg claim, so new nymphs can appear for a week or two. Those labels allow a repeat only after 7 days if the problem persists, which is why steam and an encasement follow the spray.',
+  },
+  {
+    question: 'How do I get rid of bed bugs on my mattress?',
+    answer: 'Work in layers. Strip the bedding and wash and dry it on the hottest setting; Health Canada suggests a hot dryer for 30 minutes or more for items you cannot wash. Vacuum the seams with a crevice nozzle and seal the bag. Steam the seams and tufts slowly: Health Canada notes bed bugs die at 50°C and steamers emit steam at 100°C or more. Then spray the tufts and seams with a product whose label names mattresses, let it dry, encase the mattress and box spring, and put interceptors under the bed legs to see whether bugs keep turning up.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Only some bed bug sprays are label-approved for the mattress you sleep on. Our Canadian mattress-safe picks, why the PMRA number matters, and how to spray.',
+  description: 'Spray a mattress only with a can whose Canadian label names mattresses. The registered ones, their PCP numbers, the tufts-and-seams rule and the drying step.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -126,7 +136,7 @@ const AMZ_TAG = tagForSlug('best-bed-bug-spray-for-mattress-canada')
 export default function BestBedBugSprayForMattressCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to mattress-safe bed bug sprays — why PMRA registration and a mattress-approved label matter, contact-kill vs residual, spraying technique, and our EcoRaider, Doktor Doom Sleep Tight, and budget picks.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to mattress-labelled bed bug sprays — why PMRA registration and a mattress-approved label matter, contact-kill vs residual, spraying technique, and our EcoRaider, Doktor Doom Sleep Tight, and budget picks.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Bed Bug Spray for Mattress Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -139,7 +149,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
             <span className="text-white">Best Bed Bug Spray for Mattress</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Not every bed bug spray is safe to put on a mattress you sleep on. Here is how to read the label, why the PMRA registration number matters, and our mattress-approved picks &mdash; contact-kill, residual, and natural &mdash; for Canadian homes.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Spray a mattress only with a can whose Canadian label names mattresses, such as Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) or KONK Bed Bug Killer (PCP 31110): the pick for anyone treating the bed itself, on the tufts and seams only, with the bedding off. Let it dry before laundered bedding goes back, and keep permethrin baseboard sprays off the bed.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -152,11 +162,11 @@ export default function BestBedBugSprayForMattressCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug spray for a mattress in Canada is a <strong>mattress-labelled, PMRA-registered contact killer</strong> &mdash; a plant-based option like <strong>EcoRaider</strong> or a Canadian-registered product like <strong>Doktor Doom Sleep Tight</strong>. The rule that matters most: only spray a mattress you sleep on with a product whose label explicitly approves mattress use and that carries a Canadian PCP registration number. A spray kills the bugs it wets but not the glued-down eggs &mdash; pair it with a steamer, an encasement, and interceptor traps.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug spray for a mattress in Canada is a <strong>mattress-labelled, PMRA-registered contact killer</strong> &mdash; a Canadian-registered pyrethrin spray like <strong>Doktor Doom Sleep Tight Bed Bug Killer II</strong> (PCP 29339) or <strong>KONK Bed Bug Killer</strong> (PCP 31110). The rule that matters most: only spray a mattress you sleep on with a product whose label explicitly approves mattress use and that carries a Canadian PCP registration number. Plant-based <strong>EcoRaider</strong>, often recommended online, shows no Canadian registration. A spray kills the bugs it wets but not the glued-down eggs &mdash; pair it with a steamer, an encasement, and interceptor traps.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Only spray a sleeping surface with a product whose label says &ldquo;mattress&rdquo; &mdash; most strong concentrates and foggers are crack-and-crevice only.</li>
               <li>Look for a Canadian <strong>PCP registration number</strong> (PMRA), not just a US EPA number.</li>
-              <li>Contact-kill sprays (EcoRaider) drop bugs on contact; residual sprays keep killing on the frame and baseboards for days.</li>
+              <li>Contact-kill sprays (pyrethrin aerosols such as KONK) drop bugs on contact; residual permethrin sprays keep working in cracks and along baseboards, and their labels keep them off the bed.</li>
               <li>No spray reliably kills eggs &mdash; expect a second wave of nymphs and re-treat on schedule.</li>
               <li>Spray the seams, piping, tufts, and tags &mdash; that is where bed bugs harbour, not the open surface.</li>
               <li>Spray to knock the population down, then <em>encase</em> the mattress to trap and starve whatever is left.</li>
@@ -221,7 +231,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Mattress Sprays Compared · Updated July 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Mattress Sprays Compared · Updated October 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Contact-Kill vs Residual vs Natural — Which Belongs on a Mattress</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             All four types kill bed bugs, but only some are label-approved for the surface you sleep on. Here is the honest breakdown, with a live Amazon.ca availability check per type.
@@ -240,30 +250,30 @@ export default function BestBedBugSprayForMattressCanadaPage() {
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Plant-based contact<br /><span className="font-normal text-xs text-gray-500">EcoRaider</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; low-odour, popular on seams</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No PCP number</strong> &mdash; no Canadian registration found</td>
                   <td className="px-4 py-3 text-gray-700">Fast knockdown of visible bugs and nymphs</td>
-                  <td className="px-4 py-3 text-gray-700">Modest residual; re-treat on schedule</td>
+                  <td className="px-4 py-3 text-gray-700">Health Canada says not to buy or use a product with no PCP number</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Canadian mattress-labelled<br /><span className="font-normal text-xs text-gray-500">Doktor Doom Sleep Tight</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; PMRA-registered for mattresses</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; tufts and seams (PCP 29339; not the permethrin Sleep Tight cans)</td>
                   <td className="px-4 py-3 text-gray-700">No-guesswork mattress + furniture treatment</td>
                   <td className="px-4 py-3 text-gray-700">Respect the dry-time before re-making</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Residual (hard surfaces)<br /><span className="font-normal text-xs text-gray-500">Konk</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Frame/edges</strong> &mdash; check label for surface</td>
-                  <td className="px-4 py-3 text-gray-700">Lasting kill on frame, box spring, baseboards</td>
-                  <td className="px-4 py-3 text-gray-700">Heavier residue; not for the sleep surface</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Pyrethrin contact aerosol<br /><span className="font-normal text-xs text-gray-500">Konk</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; seams and tufts, sprayed lightly (PCP 31110)</td>
+                  <td className="px-4 py-3 text-gray-700">Contact kill on the mattress, frame, springs and joints</td>
+                  <td className="px-4 py-3 text-gray-700">Kills only the bugs it contacts; extremely flammable aerosol</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / essential-oil<br /><span className="font-normal text-xs text-gray-500">geraniol formulas</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; lowest-tox near the bed</td>
-                  <td className="px-4 py-3 text-gray-700">Low-tox contact kill for sensitive homes</td>
-                  <td className="px-4 py-3 text-gray-700">Short residual; skip unregistered products</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No PCP number</strong> &mdash; no geraniol bed bug spray is registered in Canada</td>
+                  <td className="px-4 py-3 text-gray-700">Direct-spray kill from the better formulas in lab tests</td>
+                  <td className="px-4 py-3 text-gray-700">Short residual; unregistered in Canada, so not for Canadian beds</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
@@ -285,16 +295,45 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>The One Rule That Matters Most: Read the Label for &ldquo;Mattress&rdquo;</h2>
-          <p>There is a dangerous assumption baked into the phrase &ldquo;bed bug spray&rdquo; &mdash; that because a product kills bed bugs, it is safe to spray anywhere bed bugs live, including the mattress you sleep on. It is not. A large share of the strongest bed bug sprays, foggers, and concentrates on the market are labelled strictly for cracks, crevices, and baseboards, and their directions explicitly exclude the sleeping surface. Spraying one of those onto a mattress and then lying on it all night is off-label and unsafe.</p>
-          <p>A <strong>mattress-labelled</strong> spray is a different animal. It has been formulated, tested, and registered specifically so that it can be applied to a surface your skin will contact, usually with a direction to let the mattress dry fully before you re-make the bed. The word you are hunting for on the can is literally <em>&ldquo;mattress.&rdquo;</em> If it is not there, that product goes on the frame and baseboards, not the bed. This single label check is more important than any brand ranking below.</p>
+          <p>There is a dangerous assumption baked into the phrase &ldquo;bed bug spray&rdquo; &mdash; that because a product kills bed bugs, it may be sprayed anywhere bed bugs live, including the mattress you sleep on. It may not. A large share of the strongest bed bug sprays, foggers, and concentrates on the market are labelled strictly for cracks, crevices, and baseboards, and their directions explicitly exclude the sleeping surface. Even within one brand the rule changes: the pyrethrin Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) may go on mattress tufts and seams, while the permethrin Sleep Tight cans (PCP 28973 and 30096) say not to apply them to the mattress. Spraying a can like that onto a mattress and then lying on it all night is off-label, and using a pesticide against its label is an offence under the Pest Control Products Act.</p>
+          <p>A <strong>mattress-labelled</strong> spray is a different animal. It has been formulated, tested, and registered specifically so that it can be applied to a surface your skin will contact, usually with a direction to let the mattress dry fully before you re-make the bed. The word you are hunting for on the can is literally <em>&ldquo;mattress.&rdquo;</em> If it is not there, that product stays off the bed and goes only where its label says, typically cracks and baseboards. This single label check is more important than any brand ranking below.</p>
 
-          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the mattress-safe picks:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the mattress picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="konk bed bug killer spray">Konk (frame &amp; edges) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol">Natural geraniol spray →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Which Canadian bed bug sprays may go on a mattress? Label check"
+            head={['Spray (PCP number)', 'Mattress on the label?', 'What the label says to do', 'Before you sleep on it']}
+            rows={[
+              ['Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339)', 'Yes', 'Remove bedding; spray the mattress, particularly around tufts and seams; take the bed apart and spray the frame, springs and all joints', 'The treated mattress must be dry before laundered bedding goes back'],
+              ['KONK Bed Bug Killer (PCP 31110)', 'Yes', 'Spray the mattress lightly, particularly around seams and tufts; spray the frames, springs and all joints', 'The mattress must be dry before laundered bedding goes back; it kills only the bugs it contacts'],
+              ['Knock Down Bed Bug Killer (PCP 29633)', 'Yes', 'Spray the mattress, particularly around tufts and seams; take the bed apart and spray the frame, springs and joints', 'Dry before laundered bedding goes back; no more than 16 seconds per m²'],
+              ['Raid Bed Bug Killer (PCP 31897) and Raid Max Bed Bug Killer (PCP 32966)', 'Yes', 'Spray mattresses, particularly around tufts and seams; take the bed apart and spray the frame, spring and joints', 'The treated mattress must be dry before laundered bedding goes back'],
+              ['Ortho Bed Bug B Gon MAX Bed Bug Killer I (PCP 33722)', 'Yes, as a spot treatment', 'Vacuum and air out the mattress first, then treat tufts, folds and seams until damp, plus bed frames and headboards', 'Let it dry, then remake the bed with freshly washed bedding; never treat the linens'],
+              ['Doktor Doom Pro Max (PCP 34126), Sleep Tight Residual II (PCP 30096), Go Green Sleep Tight II (PCP 28973)', 'No', 'For bed bugs: do not apply to the mattress, headboard, footboard or furniture; treat cracks, baseboards and the floor and wall near the bed', 'Keep these cans off the bed entirely'],
+              ['ProCitra-DL Crawling Insect Killer (PCP 29811)', 'No', 'Cracks and crevices in bed frames and box springs; do not use on mattresses, pillows, bed linens or clothes', 'If bugs are in or on the mattress, the label says to use a product approved for that use'],
+            ]}
+            caption={<>Quoted and summarized from the approved labels in Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/index.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">Pesticide Product Information Database</a>, searched October 23, 2026. No label here claims to kill eggs. The aerosol labels in the first four rows allow a repeat treatment only after 7 days if the problem persists. Read the label on the can you buy: one brand name can cover several different products.</>}
+          />
+
+          <QuickIdTable
+            title="Which mattress spray for your situation?"
+            head={['Your situation', 'Do this', 'Why']}
+            rows={[
+              ['Live bugs or dark spots on the mattress seams', 'Strip the bed, vacuum the seams, then spray the tufts and seams with a mattress-labelled can from the table above', 'Those labels name mattresses; let the mattress dry before the bedding goes back'],
+              ['Bugs in the box spring or bed frame', 'Take the bed apart and spray the frame, springs and joints with the same can', 'The same mattress-labelled labels cover frames, springs and joints'],
+              ['Bugs along the baseboards and floor near the bed', 'A permethrin residual such as Pro Max, on cracks and baseboards only', 'Its label keeps it off the mattress, headboard, footboard and furniture'],
+              ['Eggs, or bugs back a week after spraying', 'Steam the seams slowly, then encase the mattress and box spring', 'No label here claims egg kill; Health Canada notes bed bugs die at 50°C'],
+              ['You want a plant-based mattress spray', 'Choose a pyrethrin can; pyrethrins come from chrysanthemum flowers', 'The only other botanical registered for homeowners, a d-limonene crack-and-crevice spray, rules out mattresses'],
+              ['You are reading in the United States', 'Look the can up in the EPA Bed Bug Product Search Tool and check the mattress use site', 'US labels differ, and the EPA tool filters by where you plan to treat'],
+            ]}
+            caption={<>Each row restates the label check above or Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">bed bug guidance</a>. For heat, see <Link href="/blog/best-bed-bug-steamer-canada" className="underline hover:text-brand-700">bed bug steamers</Link>; to seal the bed afterwards, <Link href="/blog/bed-bug-mattress-encasement-canada" className="underline hover:text-brand-700">mattress encasements</Link>.</>}
+          />
 
           <NextUp path="/blog/best-bed-bug-spray-for-mattress-canada" />
           <h2>Why the PMRA Registration Number Is Non-Negotiable in Canada</h2>
@@ -354,7 +393,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <h2>Contact-Kill vs Residual: Where Each Belongs on a Bed</h2>
           <p>Mattress-relevant sprays split into two broad behaviours, and understanding the difference lets you build a smarter treatment than reaching for a single can.</p>
           <p>A <strong>contact-kill spray</strong> &mdash; EcoRaider is the archetype &mdash; kills the bed bugs and nymphs it directly wets, then largely evaporates and leaves little lasting film. You are essentially spraying the bugs you can see, in real time, which is exactly what you want on a sleeping surface where you would rather not leave a heavy chemical deposit. The trade-off is that once it dries, it is not doing much for you; a bug that walks across the spot tomorrow is unaffected. That is why contact killers demand disciplined repeat spraying.</p>
-          <p>A <strong>residual spray</strong> leaves an active deposit that keeps killing bed bugs walking across it for days or weeks. That lasting film is ideal on the surfaces you are <em>not</em> sleeping on &mdash; the bed frame joints, box-spring wood, slats, headboard, and the baseboards along the wall &mdash; where you want a standing defence against bugs travelling back toward the bed. The practical playbook for most homes is a low-residue contact killer on the mattress surface and seams, and a longer-residual product like Konk on the frame and edges. Always confirm each product&rsquo;s label approves the surface you point it at.</p>
+          <p>A <strong>residual spray</strong> leaves an active deposit that keeps killing bed bugs walking across it for days or weeks. That lasting film belongs on the surfaces you are <em>not</em> sleeping on and that its label lists &mdash; for the permethrin cans we checked, that means cracks and crevices, the baseboards along the wall, and the floor and wall beside the bed, not the frame, headboard or other furniture &mdash; where you want a standing defence against bugs travelling back toward the bed. The practical playbook for most homes is a mattress-labelled contact killer such as KONK or Sleep Tight Bed Bug Killer II on the seams, frame and springs, and a longer-residual permethrin product such as Doktor Doom Pro Max in the cracks and along the baseboards, which is as close to the bed as its label allows. Always confirm each product&rsquo;s label approves the surface you point it at.</p>
 
           <h2>Pyrethroid Resistance: Why a Residual Spray Can Fail in the United States</h2>
           <p>There is a fact that reframes the whole residual-spray decision, and it is the thing both of the strongest US authorities on this subject lead with. <strong>In the United States</strong>, bed bugs are widely resistant to pyrethroids &mdash; the chemical class that most mass-market aerosols and most residual sprays on a hardware-store shelf rely on. University of Kentucky researchers found that <strong>88% of 110 US bed bug populations</strong> sampled carried one or two kdr mutations linked to pyrethroid resistance. Seven of eight field populations collected from US pest-management firms were <strong>more than 100-fold resistant to deltamethrin</strong>. Virginia Tech recorded a Richmond, Virginia strain with a deltamethrin resistance ratio in the thousands, and six of seven Virginia strains carried the L925I genotype. Texas A&amp;M AgriLife Extension puts the consumer version plainly: most bed bugs are resistant to these sprays to some degree, and the common over-the-counter pesticides are at best moderately effective.</p>
@@ -427,7 +466,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
             <li><strong>Stand the mattress up.</strong> You need access to both faces and every edge. Bed bugs concentrate in the piping, seams, tufts, and the fabric tag &mdash; treat those thoroughly, not just the flat centre.</li>
             <li><strong>Spray the harbourage, per the label.</strong> Wet the seams and folds until the product reaches into the crease, and treat the surface as the mattress label directs.</li>
             <li><strong>Do the box spring next.</strong> Flip it, treat the fabric edge, and spray the wooden frame beneath &mdash; the box spring is a bigger harbourage than the mattress in many infestations.</li>
-            <li><strong>Treat the frame and baseboards.</strong> Hit the bed-frame joints, slats, bolt holes, headboard cracks, and the baseboards nearest the bed &mdash; ideally with a residual spray here.</li>
+            <li><strong>Treat the frame and baseboards.</strong> Hit the bed-frame joints, slats, bolt holes and headboard cracks with the mattress-labelled can, and the baseboards nearest the bed with a residual spray whose label lists baseboards.</li>
             <li><strong>Let it dry fully.</strong> Do not re-make the bed until the mattress is dry, exactly as the label instructs.</li>
             <li><strong>Re-treat on schedule.</strong> Repeat every 7&ndash;14 days for three to four weeks to catch newly hatched nymphs before they mature.</li>
           </ul>
@@ -436,10 +475,10 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <h2>Can We Spray Bed Bug Spray on Mattress?</h2>
           <p>Only if the label names mattresses. In the United States, mattress-approved labels typically restrict application to the edges, tufts, folds, sides and seams, and warn against treating bed linens or any surface in prolonged contact with occupants. In Canada, the product also needs a PCP number. Either way, let it dry fully before remaking the bed.</p>
           <p>That narrow permission is deliberate rather than fussy. A mattress is a surface you breathe against for eight hours, so the registered use pattern is a targeted treatment of the harbourage strip &mdash; the piping, the seam, the tuft, the fold, the tag &mdash; not a general misting of the sleeping surface. Harris, whose Egg Kill product is one of the few US labels to spell out its surface list, names carpet, mattresses, box springs, walls, bedding, floors, rugs, garments, luggage, closets and drapes, and then instructs you to let sprayed articles and surfaces dry thoroughly before using or replacing bedding. That dry-thoroughly line is not boilerplate; it is the condition under which the mattress permission was granted. Labels are not uniform on this point, so do not read one product&rsquo;s surface list as a general permission: other mattress-approved US labels explicitly exclude bed linens and any surface in prolonged contact with an occupant of the bed. The list printed on the can in front of you is the one that governs. Bedding itself is in any case better handled in a hot wash and a hot dryer cycle than with a pesticide.</p>
-          <p>So the safe answer to the question, in either country, is a three-part check. <strong>One:</strong> does the label contain the word &ldquo;mattress&rdquo; in its use sites? If not, the can goes on the frame and baseboards. <strong>Two:</strong> does it carry a registration number for your country &mdash; a PCP number in Canada, an EPA registration number in the United States (or, for a 25(b) botanical, the knowledge that it was never reviewed)? <strong>Three:</strong> is the bed fully dry before you remake it? If all three are yes, spraying a mattress is a normal, label-compliant thing to do. If any one is no, you are improvising with a pesticide on the surface you sleep on, which is the one place improvising is not worth it.</p>
+          <p>So the short answer to the question, in either country, is a three-part check. <strong>One:</strong> does the label contain the word &ldquo;mattress&rdquo; in its use sites? If not, the can stays off the bed and goes only where its label says. <strong>Two:</strong> does it carry a registration number for your country &mdash; a PCP number in Canada, an EPA registration number in the United States (or, for a 25(b) botanical, the knowledge that it was never reviewed)? <strong>Three:</strong> is the bed fully dry before you remake it? If all three are yes, spraying a mattress is a normal, label-compliant thing to do. If any one is no, you are improvising with a pesticide on the surface you sleep on, which is the one place improvising is not worth it.</p>
 
           <h2>What To Do If You Slept in a Bed With Bed Bugs</h2>
-          <p>Do not panic and do not throw the mattress out. Strip the bedding straight into a sealed bag, wash and dry it on the hottest safe setting, inspect the seams and slats for live bugs and dark spotting, and set interceptor traps under the bed legs. Then treat, or call a professional.</p>
+          <p>Do not panic and do not throw the mattress out. Strip the bedding straight into a sealed bag, wash and dry it on the hottest setting the fabric allows, inspect the seams and slats for live bugs and dark spotting, and set interceptor traps under the bed legs. Then treat, or call a professional.</p>
           <p>Two mistakes make the next morning worse. The first is moving to the couch or a spare room: bed bugs follow the carbon dioxide you exhale, so relocating usually converts a one-room problem into a two-room one. Sleep in the same bed, with the bedding laundered and interceptors deployed, while you treat it. The second is discarding the mattress before treatment &mdash; a bare bed frame still has a population in its joints, and dragging an infested mattress through the house seeds every room on the route. If you were sleeping somewhere else (a hotel, a relative&rsquo;s spare room), the priority shifts to your luggage: bag the clothes, run them through a hot dryer cycle, and inspect the case seams before it goes back in a closet. Our <Link href="/blog/best-bed-bug-spray-for-travel-canada">bed bug spray for travel</Link> guide covers that scenario in detail.</p>
           <p>On the health side, the United States Centers for Disease Control and Prevention and the Environmental Protection Agency issued a joint statement describing bed bugs as a pest of significant public health importance, while noting that bed bugs are not known to transmit disease to people. The effects those agencies do document are allergic reactions and secondary skin infections &mdash; impetigo, ecthyma and lymphangitis &mdash; usually arising from scratching rather than from the bite itself. Mayo Clinic advises seeing a doctor if bites blister, show signs of infection, or trigger an allergic skin reaction. Health Canada and provincial public health units give the same core guidance north of the border: bed bugs are a nuisance and a mental-health burden, not a disease vector.</p>
           <div className="not-prose my-6 rounded-xl border-l-4 border-brand-400 bg-brand-50 p-4">
@@ -487,7 +526,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Residual spray</td>
                   <td className="px-4 py-3 text-gray-700">Days to weeks on treated surfaces</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong></td>
-                  <td className="px-4 py-3 text-gray-700">Standing defence on frame and baseboards; weakened by pyrethroid resistance in the US</td>
+                  <td className="px-4 py-3 text-gray-700">Standing defence in cracks and along baseboards, where its label allows; weakened by pyrethroid resistance in the US</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam</td>
@@ -524,12 +563,12 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           </div>
 
           <h2>How to Choose: What You Are Actually Paying For</h2>
-          <p>Mattress sprays are not expensive individually, but the wrong one is worse than useless &mdash; it can be unsafe or simply ineffective on a bed. Prioritise your decision in this order:</p>
+          <p>Mattress sprays are not expensive individually, but the wrong one is worse than useless &mdash; it can be off-label or simply ineffective on a bed. Prioritise your decision in this order:</p>
           <ul>
             <li><strong>A mattress-approved label (non-negotiable).</strong> If the can does not say it can go on a mattress, it is disqualified for the sleeping surface no matter how well it kills. This is the first filter, not a nice-to-have.</li>
             <li><strong>A Canadian PCP registration number (non-negotiable).</strong> It is the proof the product&rsquo;s ingredients and uses were vetted here. No number, no sale &mdash; and no legal import of a foreign substitute.</li>
-            <li><strong>The kill behaviour that matches the surface.</strong> A low-residue contact killer for the sleeping surface; a residual for the frame and edges. Buy for where you are spraying.</li>
-            <li><strong>Odour and tox tolerance.</strong> If you are sensitive or have a low-tox preference, a plant-based contact killer near the bed makes the treatment something you will actually keep doing.</li>
+            <li><strong>The kill behaviour that matches the surface.</strong> A mattress-labelled contact killer for the sleeping surface and frame; a residual for the cracks and baseboards its label lists. Buy for where you are spraying.</li>
+            <li><strong>Odour tolerance.</strong> A low-odour product is one you will actually keep re-applying, but plant-based does not mean lower hazard: read the precautions on the label of whatever you choose.</li>
             <li><strong>Coverage volume.</strong> A full bed treatment repeated over several weeks uses more product than people expect &mdash; buy enough that you are not tempted to skimp on the repeat sprays that catch the hatching nymphs.</li>
           </ul>
           <p>Read that as a spending map: the money question is small, but the label question is large. A registered, mattress-approved contact killer that you will re-apply on schedule beats a stronger, cheaper, off-label spray every time &mdash; because the strong off-label spray either does not belong on the bed or does not stop the eggs any better.</p>
@@ -537,7 +576,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <h2>What Is the Most Effective Spray for Bed Bugs?</h2>
           <p>The most effective spray is the one whose chemical class your local population is not resistant to, applied where bed bugs actually harbour. In the United States that usually means a combination product or a non-pyrethroid class &mdash; a pyrrole like chlorfenapyr or a neonicotinoid &mdash; rather than another pyrethroid aerosol off the shelf.</p>
           <p>That framing is deliberately unglamorous, because &ldquo;most effective&rdquo; is not a fixed property of a bottle. Texas A&amp;M AgriLife Extension, which runs the strongest consumer factsheet on this subject, names actives and products in the same breath &mdash; silica aerogel products such as CimeXa and Tri-Die, diatomaceous earth, SteriFab, Bedlam, EcoRaider and Bed Bug Patrol &mdash; and then says the quiet part out loud: the common over-the-counter pesticides are at best moderately effective, and most bed bug populations carry some degree of resistance to them. That is why the answer for a bed is a stack rather than a single winner.</p>
-          <p>For the mattress specifically, narrow it further. The most effective mattress spray is whichever mattress-labelled product you will genuinely re-apply on the label&rsquo;s schedule for three to four weeks, because a moderately effective spray applied six times beats an excellent one applied once. That is the real reason the plant-based contact killers do so well on this surface: people are willing to keep using them near the bed, and willingness is a bigger determinant of outcome than the active ingredient.</p>
+          <p>For the mattress specifically, narrow it further. The most effective mattress spray is whichever mattress-labelled product you will genuinely re-apply on the label&rsquo;s schedule for three to four weeks, because a moderately effective spray applied six times beats an excellent one applied once. That is the real reason a low-odour contact spray does well on this surface: people are willing to keep using it near the bed, and willingness is a bigger determinant of outcome than the active ingredient.</p>
 
           <h2>What Is the Best Bug Spray for Bed Bugs?</h2>
           <p>A personal insect repellent is not a bed bug spray. DEET, picaridin and citronella products are built to keep biting insects off skin outdoors, and repellents are not registered to control a bed bug infestation. The best bug spray for bed bugs is a surface insecticide whose label names the site you intend to treat.</p>
@@ -565,7 +604,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">EcoRaider Bed Bug Killer<br /><span className="font-normal text-xs text-gray-500">also sold as EcoVenger</span></td>
-                  <td className="px-4 py-3 text-gray-700">The one pick on our shortlist sold on both sides of the border</td>
+                  <td className="px-4 py-3 text-gray-700">US: a FIFRA 25(b) exempt botanical; Canada: no registration found</td>
                   <td className="px-4 py-3 text-gray-700">Plant-based contact kill on mattress seams and piping, per label</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check availability &rarr;</BuyLink></td>
                 </tr>
@@ -589,7 +628,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bedlam Plus</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> aerosol combining a killing agent with an insect growth regulator</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> aerosol (Reg. No. 1021-2569) combining phenothrin, the neonicotinoid imidacloprid and the synergist MGK 264</td>
                   <td className="px-4 py-3 text-gray-700">Named by Texas A&amp;M among the products worth knowing; confirm the current label&rsquo;s mattress directions</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bedlam plus bed bug spray" block>Check availability &rarr;</BuyLink></td>
                 </tr>
@@ -602,13 +641,13 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">EcoSmart Bed Bug Killer<br /><span className="font-normal text-xs text-gray-500">Mattresses &amp; Carpets aerosol</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">FIFRA 25(b) exempt</strong> &mdash; minimum-risk botanical, so not EPA-registered and never efficacy-reviewed; sold in only about ten states</td>
-                  <td className="px-4 py-3 text-gray-700">Low-tox contact treatment where its label allows &mdash; check it ships to your state</td>
+                  <td className="px-4 py-3 text-gray-700">Contact treatment where its label allows &mdash; check it ships to your state</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecosmart bed bug killer mattresses carpets" block>Check availability &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Grandpa Gus&rsquo;s Natural Bed Bug Killer</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">FIFRA 25(b) exempt</strong> botanical &mdash; same no-efficacy-review caveat</td>
-                  <td className="px-4 py-3 text-gray-700">The lowest-tox tier, on the surfaces its label names; expect short residual</td>
+                  <td className="px-4 py-3 text-gray-700">A botanical contact spray, on the surfaces its label names; expect short residual</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="grandpa gus natural bed bug killer spray" block>Check availability &rarr;</BuyLink></td>
                 </tr>
               </tbody>
@@ -622,7 +661,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
           <p><strong>Geography.</strong> Orkin&rsquo;s 2026 US bed bug cities ranking, covering the twelve months to 12 May 2026, put Chicago first for another year, followed by Los Angeles, Detroit, Cleveland and Indianapolis. Ohio was the most-represented state in the top fifty with six metros on the list, and vacation destinations including Tampa and Myrtle Beach have been climbing. If you live in one of those metros, the case for keeping an encasement on the mattress permanently and interceptors under the legs year-round is stronger than the case for buying a bigger can of spray &mdash; re-introduction, not treatment failure, is what drives repeat infestations in high-incidence cities.</p>
 
           <h2>Where the Mattress Spray Fits in the Bigger Plan</h2>
-          <p>A mattress spray is a fast, satisfying, honest tool &mdash; it drops the bugs you can see and buys you a better night quickly. What it is not is a whole solution. Eradication comes from stacking the spray with the tools that cover its blind spots: heat for the eggs, an encasement for the survivors, interceptors for monitoring, and residual treatment on the frame and baseboards where the population spreads. If you want the full sequence in one place, start with our <Link href="/blog/bed-bug-control-canada-hub">bed bug control hub</Link> and the <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat treatment</Link> guide, then layer the spray in as the knockdown step. If you are still deciding between chemical and heat approaches overall, the <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical comparison</Link> lays out the trade-offs.</p>
+          <p>A mattress spray is a fast, satisfying, honest tool &mdash; it drops the bugs you can see and buys you a better night quickly. What it is not is a whole solution. Eradication comes from stacking the spray with the tools that cover its blind spots: heat for the eggs, an encasement for the survivors, interceptors for monitoring, and residual treatment in the cracks and along the baseboards where the population spreads. If you want the full sequence in one place, start with our <Link href="/blog/bed-bug-control-canada-hub">bed bug control hub</Link> and the <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat treatment</Link> guide, then layer the spray in as the knockdown step. If you are still deciding between chemical and heat approaches overall, the <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat vs chemical comparison</Link> lays out the trade-offs.</p>
           <p>Reading from the United States? <Link href="/blog/how-to-get-rid-of-bed-bugs">The US step-by-step plan for getting rid of bed bugs</Link> follows the EPA&rsquo;s do-it-yourself sequence, from confirming and containing the bugs to heat, steam, registered products and follow-up inspections.</p>
 
           <h2>Frequently Asked Questions</h2>
@@ -640,6 +679,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
+            <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every Registered Can Compared</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest Control Equipment in Canada — The Full Device Hub</Link></li>
             <li><Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider Bed Bug Spray Review — Canada</Link></li>
             <li><Link href="/blog/doktor-doom-sleep-tight-review-canada">Doktor Doom Sleep Tight Review — Canada</Link></li>

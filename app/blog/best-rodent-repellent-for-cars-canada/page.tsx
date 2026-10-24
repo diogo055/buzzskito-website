@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-rodent-repellent-for-cars-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Rodent Repellent for Cars in Canada — Tape vs Strobe vs Peppermint vs Traps'
-const META_TITLE = 'Best Car Rodent Repellent Canada: Tape vs Strobe'
+// TITLE NOTE (Oct 23, 2026): was 'Best Car Rodent Repellent Canada: Tape vs Strobe' (Sep 3 title test, data/exp-title-test.json: Canadian CTR 0.81% Aug 6-Sep 2, 0.47% Sep 24-Oct 21); top queries, 90 days to Oct 23: best rodent repellent for car engines 338 at 5.4, rodent repellent for cars 292 at 7.9, rodent deterrent for cars 230 at 7.8, mouse repellent for car 138 at 8.6, best rodent repellent for cars 120 at 8.7, car rodent repellent 115 at 7.3.
+const META_TITLE = 'Best Rodent Repellent for Car Engines in Canada'
 
 const FAQS = [
   {
@@ -64,7 +66,7 @@ const FAQS = [
   },
   {
     question: 'Do rodent repellents for cars need PMRA registration in Canada?',
-    answer: 'It depends on what the product is. Physical and electronic deterrents — deterrent tape sold as an automotive part, strobe and ultrasonic units, steel mesh, traps — are devices, not pesticides, so they need no Health Canada registration at all. Products sold as repellents with an active ingredient making a pest-control claim — peppermint-oil sprays and pouches among them — generally fall under pesticide rules and should carry a PCP registration number on the Canadian label. Before you buy any spray or sachet marketed as a rodent repellent, flip the label and look for that PCP number; if a listing will not show you a Canadian label, treat the registration status as unverified and choose accordingly.',
+    answer: 'It depends on what the product is. Physical deterrents — steel mesh, traps — are devices, not pesticides, so they need no Health Canada registration at all. Capsaicin deterrent tape is less clear-cut: it works through an active ingredient, the Pest Control Products Regulations exempt treated articles only when the treatment is an antimicrobial preservative, and Health Canada\'s registry lists no capsaicin rodent tape. Ultrasonic units are different: devices that repel pests by sound, touch or electromagnetic radiation are listed in Schedule 1 of the Pest Control Products Regulations, so they are not exempt from the Act, and Health Canada\'s pesticide registry lists ultrasonic rodent repellers with their own PCP numbers; look for one on any unit that uses ultrasound. Products sold as repellents with an active ingredient making a pest-control claim — peppermint-oil sprays and pouches among them — generally fall under pesticide rules and should carry a PCP registration number on the Canadian label. Before you buy any spray or sachet marketed as a rodent repellent, flip the label and look for that PCP number; if a listing will not show you a Canadian label, treat the registration status as unverified and choose accordingly.',
   },
   {
     question: 'How do I know mice have already been in my engine bay?',
@@ -74,11 +76,19 @@ const FAQS = [
     question: 'A mouse is already living in my car — repel it or trap it?',
     answer: 'Trap and evict; repellents are for keeping mice out, not for removing one already in residence. A mouse with an established nest and a memorized route will tolerate scent and light deterrents that would have discouraged a first visit. Remove the nest material (gloves on, engine cold), run the perimeter snap-trap protocol until you get seven or more consecutive quiet nights, then deploy the deterrent layers so the next mouse never moves in. If droppings are large — over a centimetre — or the chewing is heavy, you may be dealing with rats, which is a different and more serious playbook.',
   },
+  {
+    question: 'What is the best rodent repellent spray for car engines?',
+    answer: 'No rodent repellent spray in Health Canada\'s pesticide registry is labelled for car engines. When we checked the registry on October 23, 2026, the current rodent repellent sprays and liquids were bittering agents (denatonium benzoate), and none listed vehicles among its use sites. The Tomcat Rodent Repellent Spray (PCP 32499), for example, is labelled for fence posts, tree bark, siding, garbage and places reached by rodents, for outdoor use only, with a test patch first on paint, plastics and fabrics. No product with peppermint oil as its active ingredient appeared as a rodent repellent. For the engine itself, capsaicin deterrent tape puts a taste deterrent right on the wiring.',
+  },
+  {
+    question: 'What does Consumer Reports recommend to keep rodents out of a car?',
+    answer: 'Consumer Reports\' guide (updated August 2026) puts snap traps in the garage or around the car first, calling them “the easiest and most effective method,” along with keeping the garage closed and its gaps sealed, removing food and nesting material, and moving the car regularly. It describes Honda\'s capsaicin rodent tape (part 4019-2317) without testing how well it works, says peppermint and cayenne sprays need to be reapplied routinely, and notes the FTC\'s long-running warnings about ultrasonic device claims. It says mothballs under the hood may help briefly but are not a long-term solution; this page advises against them entirely (see the mothball answer above).',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Which rodent repellent actually protects a car in Canada: capsaicin deterrent tape vs under-hood strobes vs peppermint vs perimeter traps, plus a storage plan.',
+  description: 'The best rodent repellent for car engines: capsaicin tape on the wiring plus snap traps around the car, and what strobes, sprays and peppermint can\'t do.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -103,7 +113,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             <span className="text-white">Best Rodent Repellent for Cars</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Capsaicin deterrent tape, under-hood strobe units, peppermint pouches, and perimeter snap traps — rated honestly on evidence, for daily drivers, cottage cars, and vehicles going into Canadian winter storage.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best rodent repellent for a car engine is capsaicin rodent tape wrapped on the wiring mice chew, because it protects the wire itself. Add snap traps around (never inside) the parking spot, and for a car that sits for weeks, the storage steps below.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -122,7 +132,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
               <li>Deterrent tape only protects what you wrap &mdash; budget a patient hour with the hood up to cover the harness runs mice actually reach.</li>
               <li>Ultrasonic evidence is mixed (rodents habituate); enclosed engine bays and added strobe light make under-hood units a fair <em>extra</em> layer, never a standalone fix.</li>
               <li>Peppermint pouches are the weakest pick here &mdash; real aversion, short lifespan; refresh monthly and treat them as backup only.</li>
-              <li>Deterrent tape, strobes, mesh, and traps are devices &mdash; no PMRA registration needed; scent products claiming to repel rodents should show a PCP number on the Canadian label.</li>
+              <li>Mesh and traps are devices &mdash; no PMRA registration needed; capsaicin tape works through an active ingredient and the registry lists none, so its status is less clear-cut; ultrasonic units must be registered (sound repellers are prescribed devices), and scent products claiming to repel rodents should show a PCP number on the Canadian label.</li>
               <li>Rodent damage claims go through <em>comprehensive</em> coverage on Canadian auto policies &mdash; and dryer sheets, soap bars, and mothballs are not a plan (mothballs in a car are off-label and illegal).</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
@@ -261,7 +271,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
                   ['Storage must-do', 'Steel mesh in exhaust tip and air intake — tagged on the steering wheel'],
                   ['Battery strobe caveat', 'Batteries fade fast in deep cold; check monthly'],
                   ['Insurance', 'Rodent damage claims run through comprehensive coverage in Canada'],
-                  ['Health Canada status', 'Tape, strobes, mesh, traps = devices, no PMRA registration; scent repellents should show a PCP number'],
+                  ['Health Canada status', 'Mesh, traps = devices, no PMRA registration; capsaicin tape = active ingredient, none in the registry, less clear-cut; ultrasonic units are prescribed devices and need one; scent repellents should show a PCP number'],
                   ['Escalation sign', 'Droppings over 1 cm or heavy gnawing = possible rats, different playbook'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -291,6 +301,20 @@ export default function BestRodentRepellentForCarsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="peppermint oil rodent repellent pouches">Peppermint pouches →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Victor snap traps →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="Which car rodent defence for your situation?"
+            head={['Your situation', 'Do this', 'Why', 'Limits']}
+            rows={[
+              ['Daily driver, parked outside or in a garage', 'Wrap the reachable wiring in capsaicin rodent tape; set snap traps along the garage walls or beside the tires', 'The tape punishes the bite itself; Consumer Reports calls snap traps in the garage or around the car the easiest and most effective method', 'The tape protects only what you wrap; keep traps off the engine and out of the cabin'],
+              ['A car stored for the winter, or a cottage or seasonal car', 'Tape, an under-hood strobe unit, a crumb-free cabin, mesh in the air intake and exhaust (with a note on the steering wheel), traps around the car, and a short move every month if you can', 'A car nobody disturbs is one a mouse can furnish; Consumer Reports also advises moving the car regularly', 'Strobe batteries fade in deep cold, so check them monthly'],
+              ['A mouse already nesting in the car', 'Remove the nest with gloves on and the engine cold, trap until 7 or more quiet nights, then add the deterrents', 'Repellents keep new mice out; they do not evict one that has settled in', 'Do not vacuum droppings dry: spray them with disinfectant and wait 5 minutes first (Consumer Reports, citing the CDC)'],
+              ['You want a spray', 'Use it only where its label says', 'The rodent repellent sprays in Health Canada’s registry are bittering agents (denatonium benzoate); the Tomcat spray (PCP 32499) is labelled for fence posts, tree bark, siding, garbage and places reached by rodents, for outdoor use only', 'None of them lists vehicles among its registered use sites (registry checked October 23, 2026); the Tomcat label says to test paint and plastics first'],
+              ['The cabin of an RV, camper or stored vehicle', 'Rodents Away Odor Free sachets (PCP 33648), placed and checked as the label directs', 'Its label covers indoor spaces including modes of transport, such as recreational vehicles, where house mice are present; it is the one non-ultrasonic repellent we found in the registry that lists vehicles', 'House mice only, indoors; the label says to check every two weeks and replace sachets as needed'],
+              ['An ultrasonic unit on its own', 'Treat it as an extra layer, not the plan', 'UC IPM says ultrasonic sound has very limited use against rodents, and house mice quickly get used to repeated sounds', 'Sound repellers are prescribed devices in Canada: look for a PCP number on the box'],
+            ]}
+            caption={<>Checked October 23, 2026: Consumer Reports&rsquo; <a href="https://www.consumerreports.org/cars/car-maintenance/how-to-protect-your-car-from-rodents-a5816950285/" target="_blank" rel="noopener noreferrer" className="underline">How to Protect Your Car From Rodents</a> (updated August 25, 2026); Health Canada&rsquo;s pesticide registry entries and the product labels for <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32499" target="_blank" rel="noopener noreferrer" className="underline">PCP 32499</a> and <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=33648" target="_blank" rel="noopener noreferrer" className="underline">PCP 33648</a>; UC IPM&rsquo;s <a href="https://ipm.ucanr.edu/home-and-landscape/house-mouse/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: House Mouse</a> (July 2025); Schedule 1 of the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/page-10.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Regulations</a>. The tape, storage and nest rows restate this page&rsquo;s own sections below.</>}
+          />
 
           <NextUp path="/blog/best-rodent-repellent-for-cars-canada" />
           <h2>Why Mice Move Into Cars (and Why Canada Makes It Worse)</h2>
@@ -345,7 +369,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
           <p>Eight steps, one afternoon, one monthly ten-minute visit. Compare that to the alternative: a spring start-up that ends with a tow truck and a harness quote.</p>
 
           <h2>The PMRA Angle: What Needs a Registration Number and What Doesn&rsquo;t</h2>
-          <p>Here is the piece of Canadian context that US buying guides skip. Health Canada&rsquo;s Pest Management Regulatory Agency draws a line between <em>devices</em> and <em>pesticides</em>, and it happens to run straight through this product category. Deterrent tape sold as an automotive part, strobe and ultrasonic units, steel mesh, and snap traps sit on the device side: no registration, no label restrictions, deployable anywhere from a condo parkade to a farm shed. Products with an active ingredient sold with a pest-control claim — which is what a peppermint spray or sachet marketed as a &ldquo;rodent repellent&rdquo; is — generally fall under the Pest Control Products Act and should carry a PCP registration number on their Canadian label.</p>
+          <p>Here is the piece of Canadian context that US buying guides skip. Health Canada&rsquo;s Pest Management Regulatory Agency draws a line between <em>devices</em> and <em>pesticides</em>, and it happens to run straight through this product category. Steel mesh and snap traps sit on the device side: no registration, no label restrictions, deployable anywhere from a condo parkade to a farm shed. Capsaicin tape sold as an automotive part is less clear-cut: it works through an active ingredient, the federal Regulations exempt treated articles only when the treatment is an antimicrobial preservative, and Health Canada&rsquo;s registry lists no capsaicin rodent tape. Ultrasonic units are the exception: Schedule 1 of the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/page-10.html" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">Pest Control Products Regulations</a> lists devices that repel pests by sound, touch or electromagnetic radiation, so an ultrasonic repeller needs a registration, and Health Canada&rsquo;s registry lists ultrasonic rodent repellers with PCP numbers. Products with an active ingredient sold with a pest-control claim — which is what a peppermint spray or sachet marketed as a &ldquo;rodent repellent&rdquo; is — generally fall under the Pest Control Products Act and should carry a PCP registration number on their Canadian label.</p>
           <p>Our advice is the conservative version: we cannot verify the registration status of every listing in a marketplace that changes daily, and neither can you from a product photo. So flip the label — physically or in the listing images — and look for the PCP number before buying any scent product that claims to repel rodents. If a seller cannot show a Canadian label, treat the claim as unverified and put your money in the device aisle, where the question never arises.</p>
           <p>And one hard stop: <strong>mothballs are not a car product</strong>. Naphthalene and paradichlorobenzene mothballs are PMRA-registered for one narrow use — clothes moths, in sealed containers. Tossing them into an engine bay or cabin is off-label use that violates the Act, and the fumes end up circulating through your ventilation system at face level. The internet will keep suggesting it every fall; keep declining.</p>
           <p>Why mothballs do not reliably keep mice away, in a car or anywhere else, and what the vapour does to children and pets, is set out in our North American guide to <Link href="/blog/do-mothballs-keep-mice-away">whether mothballs keep mice away</Link>.</p>

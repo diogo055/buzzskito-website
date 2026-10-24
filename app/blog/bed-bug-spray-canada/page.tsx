@@ -15,25 +15,27 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'bed-bug-spray-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-23'
 const TITLE = 'Best Bed Bug Spray & Killer in Canada (2026)'
-const META_TITLE = 'Best Bed Bug Spray & Killer Canada 2026 (PMRA)'
+// TITLE NOTE (Oct 23, 2026): was 'Best Bed Bug Spray & Killer Canada 2026 (PMRA)'; top queries: best bed bug killer in canada 360, best bed bug spray 116, best bed bug spray canada 108 (16 clicks). This page now owns the general head terms of the bed bug spray cluster (data/god-build/research/top3/bed-bug-spray-cluster.md).
+const META_TITLE = 'Best Bed Bug Spray & Killer in Canada (2026)'
 
 const FAQS = [
   {
     question: 'What is the best bed bug spray in Canada?',
-    answer: 'For most Canadian households the best combination is Doktor Doom Sleep Tight for direct contact spraying on mattresses, box springs, and bed frames, paired with a permethrin-based residual like Doktor Doom Pro Max for baseboards, bed legs, and furniture perimeters. Both are PMRA domestic-class registered, meaning they carry a Pest Control Products (PCP) registration number and are legal for consumer use in Canada. Knock Down Bed Bug Killer and Konk bed bug sprays are solid PMRA-registered alternatives when Doktor Doom is out of stock. No spray alone eliminates an infestation — pair any spray with steam, mattress encasements, and interceptor traps.',
+    answer: 'For most Canadian households the best combination is Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339), the pyrethrin can in the Sleep Tight line, for direct contact spraying on mattress tufts and seams, box springs, and bed frames, paired with a permethrin-based residual like Doktor Doom Pro Max (PCP 34126) for cracks, baseboards and the floor beside the bed; the Pro Max label rules out the mattress, headboard, footboard and furniture. Both are PMRA domestic-class registered, meaning they carry a Pest Control Products (PCP) registration number and are legal for consumer use in Canada. Knock Down Bed Bug Killer and Konk bed bug sprays are solid PMRA-registered alternatives when Doktor Doom is out of stock. No spray alone eliminates an infestation — pair any spray with steam, mattress encasements, and interceptor traps.',
   },
   {
     question: 'What is the strongest bed bug killer available in Canada?',
-    answer: 'The strongest legal chemical option for a Canadian consumer is a permethrin residual such as Doktor Doom Pro Max applied to bed frames, baseboards, and furniture perimeters — but no domestic-class spray sold in Canada is dramatically more potent than the others, because PMRA domestic-class registration caps which actives and concentrations a homeowner may buy, and nearly all of them are pyrethrins or pyrethroids. The genuinely strongest tools are not sprays at all: heat kills every life stage including eggs within minutes at a sustained 50 degrees Celsius, and desiccant dusts such as amorphous silica gel kill by dehydration, a physical mechanism bed bugs cannot become resistant to. The US products marketed online as the strongest bed bug killer — Crossfire, Temprid FX, Bedlam Plus — carry no PMRA registration and are not legal to buy or use in Canada.',
+    answer: 'The strongest legal chemical option for a Canadian consumer is a permethrin residual such as Doktor Doom Pro Max applied to cracks, baseboards and the floor around the bed — but no domestic-class spray sold in Canada is dramatically more potent than the others, because PMRA domestic-class registration caps which actives and concentrations a homeowner may buy, and nearly all of them are pyrethrins or pyrethroids. The genuinely strongest tools are not sprays at all: heat kills every life stage including eggs within minutes at a sustained 50 degrees Celsius, and desiccant dusts such as amorphous silica gel kill by dehydration, a physical mechanism bed bugs cannot become resistant to. The US products marketed online as the strongest bed bug killer — Crossfire, Temprid FX, Bedlam Plus — carry no PMRA registration and are not legal to buy or use in Canada.',
   },
   {
     question: 'What chemical kills bed bugs and their eggs?',
-    answer: 'Very few chemicals do both. The pyrethrins and pyrethroids in nearly every PMRA-registered Canadian bed bug spray kill adults and nymphs on contact but do not reliably penetrate the egg shell, which is why eggs laid before treatment hatch six to ten days later into an apparently treated room. The exception among consumer sprays is EcoRaider, a plant-oil formulation with independent Rutgers University testing behind it that kills eggs on direct contact. Desiccant dusts such as amorphous silica gel and diatomaceous earth kill crawling bugs by dehydration but do not kill eggs either. The only method that reliably kills every life stage, eggs included, is heat: surface steam or a sustained core temperature near 50 degrees Celsius kills adults, nymphs, and eggs within minutes.',
+    answer: 'Very few chemicals do both. The pyrethrins and pyrethroids in nearly every PMRA-registered Canadian bed bug spray kill adults and nymphs on contact but do not reliably penetrate the egg shell, which is why eggs laid before treatment hatch six to ten days later into an apparently treated room. The exception among consumer sprays is EcoRaider, a plant-oil formulation with independent Rutgers University testing behind it that kills eggs on direct contact, though it has no Canadian registration. Desiccant dusts such as amorphous silica gel and diatomaceous earth kill crawling bugs by dehydration but do not kill eggs either. The only method that reliably kills every life stage, eggs included, is heat: surface steam or a sustained core temperature near 50 degrees Celsius kills adults, nymphs, and eggs within minutes.',
   },
   {
     question: 'Is Crossfire bed bug spray legal in Canada?',
@@ -49,19 +51,19 @@ const FAQS = [
   },
   {
     question: 'Are bed bug foggers or bug bombs a good idea?',
-    answer: 'No — even the PMRA-registered ones. Total-release foggers rarely penetrate the cracks, seams, and voids where bed bugs actually hide, and research published in the Journal of Economic Entomology found foggers had little to no effect on bed bugs, partly because the fine mist does not reach harbourages. Worse, the repellent effect of the pyrethroid mist can scatter bed bugs deeper into walls and into adjoining rooms, turning one infested bedroom into three. Targeted crack-and-crevice spraying plus steam is safer and far more effective.',
+    answer: 'No — even the PMRA-registered ones. Total-release foggers rarely penetrate the cracks, seams, and voids where bed bugs actually hide, and research published in the Journal of Economic Entomology found foggers had little to no effect on bed bugs, partly because the fine mist does not reach harbourages. Worse, the repellent effect of the pyrethroid mist can scatter bed bugs deeper into walls and into adjoining rooms, turning one infested bedroom into three. Targeted crack-and-crevice spraying plus steam is far more effective.',
   },
   {
     question: 'Does rubbing alcohol kill bed bugs?',
-    answer: 'Isopropyl alcohol kills some bed bugs on direct contact, but studies from Rutgers University found even 91 percent alcohol killed only about half of sprayed bugs, it has zero residual effect, and it is a serious fire hazard — there are documented house fires started by alcohol-based DIY bed bug treatments near pilot lights and cigarettes. A PMRA-registered spray costs a similar amount per can and is both safer and more effective. Skip the alcohol.',
+    answer: 'Isopropyl alcohol kills some bed bugs on direct contact, but studies from Rutgers University found even 91 percent alcohol killed only about half of sprayed bugs, it has zero residual effect, and it is a serious fire hazard — there are documented house fires started by alcohol-based DIY bed bug treatments near pilot lights and cigarettes. A PMRA-registered spray costs a similar amount per can, comes with label directions, and is more effective. Skip the alcohol.',
   },
   {
     question: 'How often should I reapply bed bug spray?',
     answer: 'Follow the label on your specific product, but the practical rhythm for domestic-class sprays is a full re-treatment every 7 to 14 days until you have gone at least four to six weeks with no live bugs, no fresh fecal spotting, and no new bites. The interval matters because eggs laid before your first treatment hatch over the following 6 to 10 days, and the newly hatched nymphs must contact fresh product. Interceptor traps under the bed legs are the cheapest way to verify whether each round is still catching bugs.',
   },
   {
-    question: 'Is it safe to spray a mattress you sleep on?',
-    answer: 'Only with a product whose label explicitly permits mattress application — Doktor Doom Sleep Tight is labelled for direct use on mattresses and box springs, which is a big part of why we recommend it. Spray seams, tufts, and edges (not the whole sleeping surface), let it dry completely before remaking the bed, and then install a certified bed-bug-proof encasement over the mattress and box spring so you never need to spray the sleeping surface again. Never use a general residual yard or perimeter spray on bedding.',
+    question: 'Can I spray the mattress I sleep on?',
+    answer: 'Only with a product whose label explicitly permits mattress application — Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) is labelled for mattress tufts and seams and box springs, which is a big part of why we recommend it, while the permethrin cans sold under the same Sleep Tight name (PCP 28973 and 30096) say not to apply them to the mattress. Spray seams, tufts, and edges (not the whole sleeping surface), let it dry completely before remaking the bed, and then install a certified bed-bug-proof encasement over the mattress and box spring so you never need to spray the sleeping surface again. Never use a general residual yard or perimeter spray on bedding.',
   },
   {
     question: 'Do bed bugs become resistant to sprays?',
@@ -87,14 +89,27 @@ const FAQS = [
     question: 'Which active ingredients are in US bed bug sprays?',
     answer: 'The EPA sorts registered bed bug pesticides into seven chemical classes: pyrethrins, pyrethroids, desiccants, biochemicals (cold pressed neem oil), pyrroles (chlorfenapyr), neonicotinoids and insect growth regulators. Pyrethrins and pyrethroids are the most common, but some bed bug populations resist them, so the EPA suggests a combination product or a different chemical class. Researchers have also detected neonicotinoid resistance in some US populations, which is why heat, steam and encasements still matter alongside any spray.',
   },
+  {
+    question: 'Is Temprid FX available in Canada?',
+    answer: 'Not to homeowners. Health Canada’s pesticide database has no registration for Temprid FX. Two products with the same two active ingredients, imidacloprid and beta-cyfluthrin, are registered in Canada as Temprid SC (PCP 32524) and Temprid ReadySpray (PCP 32523), but both are in the commercial class, the registration class for commercial use rather than the domestic class meant for homeowners. A Canadian homeowner’s registered choices are the domestic pyrethrin and pyrethroid sprays compared on this page; an infestation that needs professional products is a job for a licensed exterminator.',
+  },
+  {
+    question: 'Is Harris bed bug killer sold legally in Canada?',
+    answer: 'Not as a registered product. When we searched Health Canada’s Pesticide Product Information Database on October 23, 2026, it returned no product under the Harris name, so no Harris bed bug spray carries a Canadian PCP number. Harris Egg Kill Bed Bug Killer is registered in the United States (EPA Reg. No. 1021-1767-3). Health Canada’s advice is plain: if the label has no PCP registration number, do not buy or use the product. Registered Canadian sprays whose labels allow mattress seams include KONK Bed Bug Killer (PCP 31110) and Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339).',
+  },
+  {
+    question: 'What do professionals use to get rid of bed bugs in Canada?',
+    answer: 'Licensed exterminators combine heat or steam, vacuuming and monitoring with commercial-class products, the registration class for commercial use rather than for homeowners. Health Canada’s database lists several of them for bed bugs, among them Temprid SC (imidacloprid and beta-cyfluthrin), Seclira (dinotefuran), Demand CS (lambda-cyhalothrin), Suspend PolyZone (deltamethrin) and Drione dust (pyrethrins with silica aerogel). Health Canada recommends a licensed pest control professional for bed bugs and says heat treatments should be left to professionals. A homeowner’s own toolkit is the domestic sprays on this page plus steam, encasements and interceptor traps.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The strongest PMRA-legal bed bug sprays and killers sold in Canada, what each one actually kills, and why US picks like Crossfire are illegal here.',
+  description: 'Best bed bug sprays legal in Canada, with PCP numbers: which labels allow the mattress, which are baseboard-only, and why Crossfire and Harris don’t qualify.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug('bed-bug-spray-canada')
@@ -102,10 +117,10 @@ const AMZ_TAG = tagForSlug('bed-bug-spray-canada')
 export default function BedBugSprayCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to PMRA domestic-class bed bug sprays — what is legal, what actually works, and what to use alongside them.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to PMRA domestic-class bed bug sprays — what is legal, what actually works, and what to use alongside them.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bug Spray Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
 
       <section className="bg-gradient-to-br from-brand-950 via-brand-900 to-emerald-900 text-white py-14 px-4">
         <div className="max-w-4xl mx-auto">
@@ -115,7 +130,7 @@ export default function BedBugSprayCanadaPage() {
             <span className="text-white">Bed Bug Spray Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Every spray on this page is PMRA domestic-class registered and sold in Canada. We also cover the US products we refuse to recommend — and what sprays honestly can and can&rsquo;t do against a bed bug infestation.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best bed bug spray legally sold in Canada is Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339), the pick for anyone treating the bed itself: its label allows mattress tufts and seams, box springs and frames. For baseboards and floor cracks, add a permethrin can such as Doktor Doom Pro Max, whose label keeps it off the mattress and furniture.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -133,7 +148,7 @@ export default function BedBugSprayCanadaPage() {
               <li>Legal Canadian sprays carry a Pest Control Products (PCP) registration number on the label — no PCP number means it is not legal to sell or use in Canada.</li>
               <li>US favourites like Crossfire, Temprid FX, and Bedlam Plus have zero PMRA registration — importing them violates the federal Pest Control Products Act.</li>
               <li>Resistance surveys have found pyrethroid knockdown-resistance genes in over 80% of tested North American bed bug populations, which is why contact sprays alone routinely fail.</li>
-              <li>There is no &ldquo;strongest bed bug killer&rdquo; sold to Canadian consumers — every registered domestic-class spray is a pyrethrin or a pyrethroid, and heat out-kills all of them.</li>
+              <li>There is no &ldquo;strongest bed bug killer&rdquo; sold to Canadian consumers — nearly every registered domestic-class bed bug spray is a pyrethrin or a pyrethroid (the exception is a d-limonene crack-and-crevice spray), and heat out-kills all of them.</li>
               <li>Bed bug eggs hatch in 6&ndash;10 days and most domestic sprays don&rsquo;t kill them — plan on re-treating every 7&ndash;14 days for 4&ndash;6 weeks.</li>
               <li>All life stages, eggs included, die within minutes at a sustained 50&deg;C — heat and steam kill what sprays miss.</li>
               <li>Canadian market range: about $12&ndash;$35 per can for domestic-class sprays; professional treatment runs roughly $300&ndash;$600 per room (chemical) or $700&ndash;$1,500+ (heat).</li>
@@ -150,7 +165,7 @@ export default function BedBugSprayCanadaPage() {
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">PMRA-Registered Bed Bug Sprays Compared</h2>
-          <p className="text-sm text-gray-700 mb-5 leading-relaxed">All four products below are domestic-class registered with Health Canada&rsquo;s Pest Management Regulatory Agency and available from Canadian retailers. Actives and label directions change between formulation updates — always confirm the PCP number and directions on the can you actually buy.</p>
+          <p className="text-sm text-gray-700 mb-5 leading-relaxed">All four products below carry a PMRA domestic-class registration, shown as a PCP number on the label, and are available from Canadian retailers. Actives and label directions change between formulation updates — always confirm the PCP number and directions on the can you actually buy.</p>
           <div className="rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -164,10 +179,10 @@ export default function BedBugSprayCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { name: 'Doktor Doom Sleep Tight', active: 'Pyrethrins (plant-derived)', kill: 'Contact + short residual', mattress: 'Yes — labelled for mattresses & box springs', best: 'Direct treatment of the bed itself' },
-                  { name: 'Doktor Doom Pro Max', active: 'Permethrin (pyrethroid)', kill: 'Residual (weeks on surfaces)', mattress: 'No — perimeter surfaces only', best: 'Baseboards, bed legs, frames, furniture perimeters' },
-                  { name: 'Knock Down Bed Bug Killer', active: 'Pyrethrin/pyrethroid aerosol', kill: 'Contact + short residual', mattress: 'Check current label', best: 'Crack-and-crevice spot treatment' },
-                  { name: 'Konk Bed Bug Spray', active: 'Pyrethrin-based aerosol', kill: 'Contact', mattress: 'Check current label', best: 'Backup contact spray when others are out of stock' },
+                  { name: 'Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339)', active: 'Pyrethrins + piperonyl butoxide (aerosol)', kill: 'Contact (space and contact spray)', mattress: 'Yes — tufts and seams, box springs, bed frames (the permethrin Sleep Tight cans are not)', best: 'Direct treatment of the bed itself' },
+                  { name: 'Doktor Doom Pro Max (PCP 34126)', active: 'Permethrin (pyrethroid)', kill: 'Residual (long-lasting out of sunlight, per label)', mattress: 'No — label rules out the mattress, headboard, footboard and furniture', best: 'Cracks, baseboards, mouldings, floor and wall beside the bed' },
+                  { name: 'Knock Down Bed Bug Killer (PCP 29633)', active: 'Pyrethrins + piperonyl butoxide (aerosol)', kill: 'Contact', mattress: 'Yes — tufts and seams, box springs, bed frames', best: 'Crack-and-crevice spot treatment' },
+                  { name: 'KONK Bed Bug Killer (PCP 31110)', active: 'Pyrethrins + piperonyl butoxide (aerosol)', kill: 'Contact', mattress: 'Yes — seams and tufts, sprayed lightly', best: 'Backup contact spray when others are out of stock' },
                 ].map(({ name, active, kill, mattress, best }) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{name}</td>
@@ -253,26 +268,56 @@ export default function BedBugSprayCanadaPage() {
           <p>This matters for bed bugs more than almost any other pest, because the internet&rsquo;s bed bug advice is overwhelmingly American. US sites recommend products registered with the US EPA under completely different rules, in concentrations and active-ingredient combinations that Health Canada has never reviewed for Canadian consumer use. The four products above — Doktor Doom Sleep Tight, Doktor Doom Pro Max, Knock Down Bed Bug Killer, and Konk — are the PMRA-registered options you can actually walk out of a Canadian store with (or have shipped from Amazon.ca) without breaking federal law.</p>
           <p>The trade-off is real and we won&rsquo;t hide it: domestic-class products are deliberately limited to lower-risk actives, which for bed bugs means pyrethrins and pyrethroids almost across the board. That has consequences for effectiveness, covered honestly below.</p>
 
+          <QuickIdTable
+            title="Label check: where each registered bed bug spray may go"
+            head={['Spray (PCP number)', 'Active ingredients', 'Where the label lets you spray', 'Label limits']}
+            rows={[
+              ['Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339)', 'Pyrethrins 0.25% + piperonyl butoxide 1.25%, aerosol', 'Mattress tufts and seams, box springs, bed frames and joints, cracks, baseboards', 'Remove bedding first; the mattress must be dry before laundered bedding goes back; repeat only after 7 days'],
+              ['KONK Bed Bug Killer (PCP 31110)', 'Pyrethrins 0.50% + piperonyl butoxide 5.00%, aerosol', 'Mattress seams and tufts (lightly), bed frames, springs and joints, cracks, baseboards', 'Kills only the bugs it contacts; extremely flammable; repeat only after 7 days'],
+              ['Knock Down Bed Bug Killer (PCP 29633)', 'Pyrethrins 0.25% + piperonyl butoxide 1.25%, aerosol', 'Mattress tufts and seams, box springs, bed frames', 'Not on items that can be laundered (pillows, bedding); no more than 16 seconds per m²'],
+              ['Raid Bed Bug Killer (PCP 31897)', 'Pyrethrins 0.25% + piperonyl butoxide 1.01%, aerosol', 'Mattress tufts and seams, bed frames and springs, cracks, baseboards', 'Not on items that can be laundered; repeat only after 7 days'],
+              ['Ortho Bed Bug B Gon MAX Bed Bug Killer I (PCP 33722)', 'd-Phenothrin 0.20% + tetramethrin 0.20%, aerosol', 'Spot treatment of mattress and box-spring seams and tufts, bed frames, headboards, cracks', 'Do not treat bed linens or clothing; let it dry before remaking the bed'],
+              ['Doktor Doom Pro Max (PCP 34126)', 'Permethrin 0.35%, trigger-spray solution', 'Cracks and crevices, along and behind baseboards and mouldings, floor and wall areas beneath and behind the bed', 'For bed bugs the label says do not apply to the mattress, headboard, footboard or furniture'],
+              ['Doktor Doom Sleep Tight Residual Bed Bug Killer II (PCP 30096) and Go Green Sleep Tight Bed Bug Spray II (PCP 28973)', 'Permethrin 0.25%, aerosol', 'Cracks and crevices, baseboards and mouldings, floor and wall areas near the bed', 'Same Sleep Tight name, but the label says do not apply to the mattress, headboard, footboard or furniture'],
+              ['ProCitra-DL Crawling Insect Killer (PCP 29811)', 'd-Limonene 10%, a botanical insecticide, aerosol with injector tubes', 'Cracks and crevices in bed frames and box springs, empty dressers and closets, carpet edges, mouldings', 'Not on mattresses, pillows, linens or clothes; DANGER, extremely flammable; potential skin sensitizer'],
+            ]}
+            caption={<>From each product&rsquo;s approved label in Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/index.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">Pesticide Product Information Database</a>, searched October 23, 2026. All eight are domestic class. None of these labels claims to kill eggs. Labels are revised, so the PCP number and directions on the can you buy are what count.</>}
+          />
+
           <NextUp path="/blog/bed-bug-spray-canada" />
           <h2>Which Bed Bug Spray Should You Buy in Canada?</h2>
-          <p>Buy Doktor Doom Sleep Tight first — it is the only widely stocked Canadian spray specifically labelled for direct application to mattresses and box springs, which is exactly where the bugs are. Its pyrethrin formulation kills on contact, it&rsquo;s water-based so it won&rsquo;t stain most fabrics, and it dries fast enough to re-make the bed the same day. Note how much work the phrase &ldquo;kills on contact&rdquo; does on that label; <Link href="/blog/what-kills-bed-bugs-instantly-canada" className="text-brand-700 underline">the short list of things that really kill a bed bug immediately</Link> explains why instant kill is the wrong thing to optimise for.</p>
-          <p>Add Doktor Doom Pro Max as your second can if the infestation extends beyond the bed. Pro Max is a permethrin residual: sprayed along baseboards, bed frames, headboard backs, and the undersides of furniture, it keeps killing bugs that walk across treated surfaces for weeks — the piece a contact-only spray is missing. Do <em>not</em> use it on the mattress or bedding; that&rsquo;s not what its label permits. The brand runs far wider than these two cans, so <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">our Doktor Doom buying guide for Canada</Link> is the place to check before you reach for a third.</p>
+          <p>Buy Doktor Doom Sleep Tight first, in its pyrethrin version: Sleep Tight Bed Bug Killer II (PCP 29339) is labelled for mattress tufts and seams, box springs and bed frames, which is exactly where the bugs are. Its pyrethrins kill on contact, and the label asks for the treated mattress to be dry before laundered bedding goes back on. Check the PCP number before you buy, because the permethrin cans sold under the same Sleep Tight name (PCP 28973 and 30096) say not to spray the mattress. Note how much work the phrase &ldquo;kills on contact&rdquo; does on that label; <Link href="/blog/what-kills-bed-bugs-instantly-canada" className="text-brand-700 underline">the short list of things that really kill a bed bug immediately</Link> explains why instant kill is the wrong thing to optimise for.</p>
+          <p>Add Doktor Doom Pro Max as your second can if the infestation extends beyond the bed. Pro Max is a permethrin residual: sprayed into cracks and crevices, along and behind baseboards and mouldings, and on the floor and wall areas beneath and behind the bed and nightstand, it keeps killing bugs that walk across treated surfaces — the piece a contact-only spray is missing. Do <em>not</em> use it on the mattress, headboard, footboard or other furniture; for bed bugs its label rules all of them out. The brand runs far wider than these two cans, so <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">our Doktor Doom buying guide for Canada</Link> is the place to check before you reach for a third.</p>
           <p>Knock Down Bed Bug Killer and Konk are legitimate PMRA-registered alternates. Their formulations are similar contact-kill pyrethrin/pyrethroid aerosols, so treat them as substitutes when Doktor Doom is out of stock rather than upgrades. Whatever you buy, read the current label — Canadian formulations get revised, and the label is the law.</p>
-          <p>If you want the longer write-up on either alternate before you commit, we tested them individually: <Link href="/blog/knock-down-bed-bug-killer-review-canada">our full Knock Down Bed Bug Killer review</Link> covers the water-based residual and where it runs out, and <Link href="/blog/konk-bed-bug-killer-review-canada">the Konk bed bug aerosol, reviewed</Link> explains why a Canadian-made contact can scores well on legality and availability but not on eggs.</p>
-          <p>Two more sprays worth knowing before you buy: EcoRaider is the one botanical product with independent Rutgers University testing behind it and the unusual ability to kill eggs on direct contact — see <Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider, the plant-based spray with Rutgers testing behind it</Link>. And if you only need to treat the bed itself, <Link href="/blog/best-bed-bug-spray-for-mattress-canada">which sprays are actually labelled for mattress use</Link> narrows the field to the few products whose labels explicitly permit a sleeping surface.</p>
+          <p>If you want the longer write-up on either alternate before you commit, we reviewed them individually: <Link href="/blog/knock-down-bed-bug-killer-review-canada">our full Knock Down Bed Bug Killer review</Link> covers the water-based residual and where it runs out, and <Link href="/blog/konk-bed-bug-killer-review-canada">the Konk bed bug aerosol, reviewed</Link> explains why a Canadian-made contact can scores well on legality and availability but not on eggs.</p>
+          <p>Two more sprays worth knowing before you buy: EcoRaider, which has no Canadian registration, is the one botanical product with independent Rutgers University testing behind it and the unusual ability to kill eggs on direct contact — see <Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider, the plant-based spray with Rutgers testing behind it</Link>. And if you only need to treat the bed itself, <Link href="/blog/best-bed-bug-spray-for-mattress-canada">which sprays are actually labelled for mattress use</Link> narrows the field to the few products whose labels explicitly permit a sleeping surface.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray">Check Sleep Tight on Amazon.ca &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="doktor doom pro max">Check Pro Max on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="Which bed bug spray for your situation?"
+            head={['Your situation', 'Use this', 'Why']}
+            rows={[
+              ['Bugs or dark spotting along the mattress seams', 'A pyrethrin aerosol whose label names mattresses: Sleep Tight Bed Bug Killer II, KONK or Knock Down', 'Their labels allow tufts and seams with the bedding off; let the mattress dry, then encase it'],
+              ['Bugs in floor cracks and along the baseboards near the bed', 'A permethrin residual such as Doktor Doom Pro Max', 'It keeps working on the surfaces its label lists, but it may not go on the mattress or furniture'],
+              ['Bed frame joints, inside an empty dresser, carpet edges', 'A mattress-labelled aerosol on the frame, or ProCitra-DL with its injector tube in the cracks', 'ProCitra-DL is crack-and-crevice only, and its label rules out mattresses'],
+              ['Bugs still turning up after two or three rounds', 'Steam and a mattress encasement, not a stronger can', 'Nearly every domestic spray is a pyrethrin or pyrethroid, resistance to them is widespread, and none of these labels claims to kill eggs'],
+              ['Bugs in several rooms, or in a multi-unit building', 'A licensed exterminator', 'Health Canada recommends a professional, who can use commercial-class products and heat'],
+              ['A spray found online with no PCP number (Crossfire, Temprid FX, Harris, EcoRaider)', 'Do not buy it', 'Health Canada: if the label has no PCP registration number, do not buy or use it'],
+            ]}
+            caption={<>Each row restates the label check above and Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-brand-700">bed bug guidance</a>. For the heat side, see <Link href="/blog/best-bed-bug-steamer-canada" className="underline hover:text-brand-700">bed bug steamers</Link> and <Link href="/blog/bed-bug-mattress-encasement-canada" className="underline hover:text-brand-700">mattress encasements</Link>.</>}
+          />
+
           <h2>What Is the Strongest Bed Bug Killer You Can Buy in Canada?</h2>
-          <p>The strongest <em>legal</em> chemical option for a Canadian consumer is a permethrin residual — Doktor Doom Pro Max — applied to bed frames, baseboards, and furniture perimeters. But &ldquo;strongest&rdquo; is close to the wrong question, and chasing it is one of the more expensive ways to lose a bed bug fight.</p>
-          <p>Every domestic-class bed bug spray registered in Canada sits in the same chemical family: pyrethrins and pyrethroids. There is no consumer-grade can on the Canadian market that is dramatically more potent than the others, because PMRA domestic-class registration deliberately limits which actives and concentrations a homeowner may buy. Searching for the strongest bed bug killer and expecting a single can that ends an infestation is searching for a product that does not legally exist here.</p>
+          <p>The strongest <em>legal</em> chemical option for a Canadian consumer is a permethrin residual — Doktor Doom Pro Max — applied to cracks, baseboards and the floor around the bed. But &ldquo;strongest&rdquo; is close to the wrong question, and chasing it is one of the more expensive ways to lose a bed bug fight.</p>
+          <p>Nearly every domestic-class bed bug spray registered in Canada sits in the same chemical family: pyrethrins and pyrethroids (the one exception we found is a d-limonene crack-and-crevice spray). There is no consumer-grade can on the Canadian market that is dramatically more potent than the others, because PMRA domestic-class registration deliberately limits which actives and concentrations a homeowner may buy. Searching for the strongest bed bug killer and expecting a single can that ends an infestation is searching for a product that does not legally exist here.</p>
           <p>What <em>is</em> stronger, in the only sense that matters — killing the bugs that shrug off everything else:</p>
           <ul>
             <li><strong>Heat, by a wide margin.</strong> Every life stage, eggs included, dies within minutes at a sustained 50&deg;C. Resistance genes are irrelevant to physics. A proper steamer is the strongest thing most homeowners can bring into a bedroom.</li>
             <li><strong>Desiccant dusts.</strong> Amorphous silica gel and diatomaceous earth kill by stripping the waxy cuticle so the insect dehydrates — a physical mechanism, not a nerve toxin, so bed bugs cannot evolve around it. A barely visible film in a wall void or outlet box stays lethal for months.</li>
-            <li><strong>Permethrin residual.</strong> The strongest of the legal sprays for hard surfaces, because it keeps killing bugs that cross treated baseboards and frames long after you have left the room.</li>
+            <li><strong>Permethrin residual.</strong> The strongest of the legal sprays for hard surfaces, because it keeps killing bugs that cross treated baseboards and floor edges long after you have left the room.</li>
             <li><strong>A botanical with egg activity.</strong> EcoRaider is the unusual exception among consumer sprays: a plant-oil formulation with independent Rutgers University testing behind it, including kill on eggs it directly wets.</li>
           </ul>
           <p>If a page tells you the strongest bed bug killer is Crossfire, Temprid FX, or Bedlam Plus, it was written for an American reader under American law. None of those are options in Canada — the table below shows exactly which side of the line each product falls on.</p>
@@ -282,11 +327,11 @@ export default function BedBugSprayCanadaPage() {
           <ul>
             <li><strong>Crossfire Bed Bug Concentrate</strong> (clothianidin + metofluthrin) — the darling of US bed bug forums. No PMRA registration. Not legal to import, sell, or use in Canada.</li>
             <li><strong>Temprid FX</strong> (imidacloprid + beta-cyfluthrin) — a US professional product that shows up on grey-market listings. Not registered for any Canadian consumer use.</li>
-            <li><strong>Bedlam Plus</strong> — US aerosol with an added insect growth regulator combination not approved here. No Canadian registration.</li>
+            <li><strong>Bedlam Plus</strong> — US aerosol combining phenothrin with the neonicotinoid imidacloprid and the synergist MGK 264 (EPA Reg. No. 1021-2569). No Canadian registration; the original Bedlam (PCP 30075) is registered here only in the commercial class.</li>
             <li><strong>Transport GHP</strong> and other US commercial concentrates — restricted even in the US to licensed applicators, and entirely unregistered in Canada.</li>
           </ul>
-          <p>The trickier cases are the brands that sell under one name on both sides of the border, where the US formula and the Canadian-registered formula are different products in near-identical packaging. Ortho is the classic example — we unpack <Link href="/blog/ortho-home-defense-bed-bug-review-canada">the two-cans-one-name Ortho Home Defense problem</Link> and why the PCP number is the only reliable test. Harris has the same trap, so check <Link href="/blog/harris-bed-bug-killer-review-canada">whether the Harris bed bug spray you found is the Canadian version</Link> before you order.</p>
-          <p>The law is only half the argument. An unregistered product means no Canadian label, so there are no PMRA-reviewed directions for safe use in your home; no Health Canada assessment of the formulation you&rsquo;re spraying a metre from where you sleep; and no recourse whatsoever if it damages your health, your pets, or your property. Cross-border sellers who ship these to Canadian addresses are doing so illegally, and packages do get seized. When a US blog tells you Crossfire is &ldquo;the only thing that works,&rdquo; remember it was written under a different country&rsquo;s law — and that even Crossfire fails against heavy infestations without the non-chemical work below.</p>
+          <p>The trickier cases are the brands that sell under one name on both sides of the border. Ortho is the classic example: in Canada its registered bed bug cans carry the Bed Bug B Gon name (the MAX aerosol is PCP 33722), while the Home Defense bed bug cans on US listings have no Canadian registration — we unpack <Link href="/blog/ortho-home-defense-bed-bug-review-canada">the two-cans-one-name Ortho Home Defense problem</Link> and why the PCP number is the only reliable test. Harris is simpler: Health Canada&rsquo;s database lists no Harris product at all, so read <Link href="/blog/harris-bed-bug-killer-review-canada">our Harris bed bug killer review</Link> before you order one from a cross-border seller.</p>
+          <p>The law is only half the argument. An unregistered product means no Canadian label, so there are no PMRA-reviewed directions for use in your home; no Health Canada assessment of the formulation you&rsquo;re spraying a metre from where you sleep; and no recourse whatsoever if it damages your health, your pets, or your property. Cross-border sellers who ship these to Canadian addresses are doing so illegally, and packages do get seized. When a US blog tells you Crossfire is &ldquo;the only thing that works,&rdquo; remember it was written under a different country&rsquo;s law — and that even Crossfire fails against heavy infestations without the non-chemical work below.</p>
 
           <h2>PMRA-Legal vs Not Legal in Canada: The Product List</h2>
           <p>There is one test, and it takes five seconds: find the Pest Control Products (PCP) registration number on the label. Products in the green block below carry a Canadian registration. Products in the red block have none, in any Canadian formulation, which makes importing, selling, or using them a breach of the federal Pest Control Products Act. Registrations and formulations do get revised — confirm the PCP number on the can actually in front of you.</p>
@@ -305,13 +350,13 @@ export default function BedBugSprayCanadaPage() {
                   <td colSpan={4} className="px-4 py-2 text-xs font-extrabold uppercase tracking-wider text-emerald-800">Legal to buy and use in Canada &mdash; PCP-registered</td>
                 </tr>
                 {[
-                  { p: 'Doktor Doom Sleep Tight', a: 'Pyrethrins (plant-derived)', s: 'PMRA domestic class', m: 'Legal; the one widely stocked spray labelled for mattresses and box springs' },
-                  { p: 'Doktor Doom Pro Max', a: 'Permethrin (pyrethroid)', s: 'PMRA domestic class', m: 'Legal; surfaces and perimeters only — never bedding or a sleeping surface' },
-                  { p: 'Knock Down Bed Bug Killer', a: 'Pyrethrin / pyrethroid aerosol', s: 'PMRA domestic class', m: 'Legal; the hardware-store value can for crack-and-crevice work' },
-                  { p: 'Konk Bed Bug Spray', a: 'Pyrethrin-based aerosol', s: 'PMRA domestic class', m: 'Legal; a contact knockdown backup when the others are out of stock' },
-                  { p: 'EcoRaider Bed Bug Killer', a: 'Plant-oil botanical', s: 'Sold in Canada — confirm the PCP number', m: 'The one botanical with independent Rutgers testing, including egg kill on contact' },
-                  { p: 'Ortho Home Defense (Canadian SKU)', a: 'Pyrethroid', s: 'Canadian version registered; US version is not', m: 'Same brand name, two different products — the PCP number is the only reliable test' },
-                  { p: 'Harris Bed Bug Killer (Canadian SKU)', a: 'Pyrethroid', s: 'Canadian listings vary — verify the SKU', m: 'A US pedigree brand; confirm the exact SKU is registered before you order' },
+                  { p: 'Doktor Doom Sleep Tight Bed Bug Killer II', a: 'Pyrethrins + piperonyl butoxide', s: 'PMRA domestic class, PCP 29339', m: 'Legal; labelled for mattress tufts and seams, box springs and bed frames' },
+                  { p: 'Doktor Doom Pro Max', a: 'Permethrin (pyrethroid)', s: 'PMRA domestic class, PCP 34126', m: 'Legal; cracks, baseboards and floor edges — the label rules out the mattress, headboard, footboard and furniture' },
+                  { p: 'Knock Down Bed Bug Killer', a: 'Pyrethrins + piperonyl butoxide', s: 'PMRA domestic class, PCP 29633', m: 'Legal; the hardware-store value can, labelled for mattress tufts and seams' },
+                  { p: 'KONK Bed Bug Killer', a: 'Pyrethrins + piperonyl butoxide', s: 'PMRA domestic class, PCP 31110', m: 'Legal; a contact knockdown can whose label also allows mattress seams and tufts' },
+                  { p: 'Raid Bed Bug Killer', a: 'Pyrethrins + piperonyl butoxide', s: 'PMRA domestic class, PCP 31897', m: 'Legal; labelled for mattress tufts and seams, box springs and bed frames' },
+                  { p: 'Ortho Bed Bug B Gon MAX (Canadian product)', a: 'd-Phenothrin + tetramethrin (pyrethroids)', s: 'PMRA domestic class, PCP 33722', m: 'Sold in Canada under the Bed Bug B Gon name; no Ortho Home Defense bed bug can is registered here' },
+                  { p: 'ProCitra-DL Crawling Insect Killer', a: 'd-Limonene (botanical)', s: 'PMRA domestic class, PCP 29811', m: 'Legal; cracks and crevices only, and its label says not on mattresses' },
                 ].map(({ p, a, s, m }) => (
                   <tr key={p} className="border-b border-navy-50">
                     <td className="px-4 py-3 font-bold text-brand-800">{p}</td>
@@ -325,9 +370,11 @@ export default function BedBugSprayCanadaPage() {
                 </tr>
                 {[
                   { p: 'Crossfire Bed Bug Concentrate', a: 'Clothianidin + metofluthrin', s: 'No PMRA registration', m: 'Illegal to import, sell, or use here — the single most-recommended product on US forums' },
-                  { p: 'Temprid FX', a: 'Imidacloprid + beta-cyfluthrin', s: 'No Canadian consumer registration', m: 'US professional product; anything shipping it to a Canadian address is grey-market' },
-                  { p: 'Bedlam Plus', a: 'Pyrethroid + insect growth regulator', s: 'No Canadian registration', m: 'The combination has not been approved for Canadian consumer use' },
+                  { p: 'Temprid FX', a: 'Imidacloprid + beta-cyfluthrin', s: 'No Canadian consumer registration', m: 'US professional product; the same two actives are registered here only as commercial-class Temprid SC and Temprid ReadySpray' },
+                  { p: 'Bedlam Plus', a: 'Phenothrin + imidacloprid + MGK 264 synergist', s: 'No Canadian registration', m: 'The original Bedlam (PCP 30075) is registered here only in the commercial class' },
                   { p: 'Transport GHP', a: 'US commercial concentrate', s: 'No Canadian registration', m: 'Restricted to licensed applicators even in the US; not a consumer option here' },
+                  { p: 'EcoRaider Bed Bug Killer', a: 'Geraniol, cedar extract, sodium lauryl sulfate', s: 'No Canadian registration found', m: 'Sold in the US as a FIFRA 25(b) exempt product; Rutgers found 87% egg kill on direct spray, but with no PCP number Health Canada says do not buy or use it' },
+                  { p: 'Harris bed bug sprays', a: 'Varies by product', s: 'No Harris product in the database', m: 'Harris Egg Kill Bed Bug Killer is US EPA-registered (1021-1767-3); no Canadian PCP number exists' },
                 ].map(({ p, a, s, m }) => (
                   <tr key={p} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-3 font-bold text-brand-800">{p}</td>
@@ -364,8 +411,8 @@ export default function BedBugSprayCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { c: 'Pyrethrins (Sleep Tight, Konk)', b: 'Yes — on direct contact', e: 'No', r: 'Yes' },
-                  { c: 'Pyrethroids: permethrin, deltamethrin, cyfluthrin (Pro Max, Knock Down, Ortho, Harris)', b: 'Yes — contact plus surface residual', e: 'No', r: 'Yes — kdr mutations are widespread' },
+                  { c: 'Pyrethrins (Sleep Tight Bed Bug Killer II, KONK, Knock Down, Raid)', b: 'Yes — on direct contact', e: 'No', r: 'Yes' },
+                  { c: 'Pyrethroids: permethrin, d-phenothrin, tetramethrin (Pro Max, the permethrin Sleep Tight cans, Ortho Bed Bug B Gon MAX)', b: 'Yes — contact plus surface residual', e: 'No', r: 'Yes — kdr mutations are widespread' },
                   { c: 'Plant-oil botanicals (EcoRaider)', b: 'Yes — on direct contact', e: 'Yes — on direct contact', r: 'No known resistance' },
                   { c: 'Silica gel and diatomaceous earth dusts', b: 'Yes — slowly, over days', e: 'No', r: 'No — physical mechanism' },
                   { c: 'Steam and heat', b: 'Yes — on contact', e: 'Yes — on contact', r: 'None — physical' },
@@ -381,7 +428,7 @@ export default function BedBugSprayCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p>So the honest answer to &ldquo;what chemical kills bed bugs and their eggs&rdquo; is that among PMRA-registered consumer products, only EcoRaider does both — and only on the eggs its spray directly wets, which in practice means the ones you can see and reach. Everything else on the Canadian shelf kills bugs and leaves eggs.</p>
+          <p>So the honest answer to &ldquo;what chemical kills bed bugs and their eggs&rdquo; is that no registered domestic spray label we opened claims to kill eggs. EcoRaider, which killed 87% of the eggs it directly wet in Rutgers tests, has no Canadian registration, and even it reaches only the eggs its spray lands on. Everything on the Canadian shelf kills bugs and leaves eggs.</p>
           <p>The reliable egg-killer is not a chemical at all. It is heat: surface steam or a sustained core temperature near 50&deg;C kills adults, nymphs, and eggs alike, and no resistance gene changes that. This is the entire argument for building your plan around a steamer and treating spray as the residual backstop — and it is why the reapplication schedule below matters more than which can you picked.</p>
 
           <RelatedLinks path="/blog/bed-bug-spray-canada" />
@@ -391,8 +438,8 @@ export default function BedBugSprayCanadaPage() {
             <li><strong>Confirm it&rsquo;s actually bed bugs first.</strong> Fecal spotting, shed skins, and live bugs along mattress seams are the tells — our guide on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> walks through the full inspection.</li>
             <li><strong>Strip and bag bedding</strong>, launder hot, and dry on high for at least 30 minutes — the dryer alone kills all life stages in fabric.</li>
             <li><strong>Steam first if you have a steamer.</strong> Slow passes over seams, tufts, frame joints, and baseboards kill bugs and eggs sprays will miss.</li>
-            <li><strong>Spray the bed with a mattress-labelled contact product</strong> (Sleep Tight): seams, piping, tufts, box spring underside, frame joints. Let everything dry completely.</li>
-            <li><strong>Apply residual to the perimeter</strong> (Pro Max): baseboards, bed legs, headboard wall side, furniture undersides — never the sleeping surface.</li>
+            <li><strong>Spray the bed with a mattress-labelled contact product</strong> (Sleep Tight Bed Bug Killer II, KONK or Knock Down): seams, piping, tufts, box spring underside, frame joints. Let everything dry completely.</li>
+            <li><strong>Apply residual to the perimeter</strong> (Pro Max): cracks and crevices, along and behind baseboards and mouldings, and the floor and wall beneath and behind the bed — never the mattress, headboard, footboard or furniture, which its label rules out.</li>
             <li><strong>Encase and isolate.</strong> Certified encasements on mattress and box spring, interceptor cups under all bed legs, bed pulled 15 cm off the wall, no bedding touching the floor.</li>
             <li><strong>Repeat every 7&ndash;14 days</strong> until interceptors stay empty and no new signs appear for four to six weeks.</li>
           </ol>
@@ -403,7 +450,7 @@ export default function BedBugSprayCanadaPage() {
             <li><strong>A proper steamer</strong> — surface temperatures of 70&ndash;100&deg;C kill adults, nymphs, and eggs instantly on contact. Our roundup of the <Link href="/blog/best-bed-bug-steamer-canada">best bed bug steamers in Canada</Link> covers which units hold lethal temperature at the nozzle.</li>
             <li><strong>Mattress and box spring encasements</strong> — bugs inside are trapped and starve; new bugs can&rsquo;t colonize the mattress. See our <Link href="/blog/bed-bug-mattress-encasement-canada">Canadian mattress encasement guide</Link> for certified options.</li>
             <li><strong>Interceptor traps</strong> — under $30 for a set, they both protect the bed and tell you objectively whether your treatment is working. Full details in our <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor trap guide</Link>.</li>
-            <li><strong>Diatomaceous earth</strong> — a slow but resistance-proof desiccant dust for wall voids and under baseboards; how to apply it safely is covered in <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth for bed bugs</Link>.</li>
+            <li><strong>Diatomaceous earth</strong> — a slow but resistance-proof desiccant dust for wall voids and under baseboards; how to apply it is covered in <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth for bed bugs</Link>.</li>
           </ul>
           <p>One tool people reach for that we would skip entirely is the total-release fogger. Even the PMRA-registered Canadian ones only settle mist on exposed surfaces, which is a different place from the seams and voids the bugs are in — <Link href="/blog/best-bed-bug-fogger-canada">why bed bug foggers cannot reach the harbourages</Link> lays out the evidence and what to spend the money on instead.</p>
           <p>If you would rather see all of this sequenced as one campaign — heat first, then steam, dust, encase and monitor — <Link href="/blog/bed-bug-control-canada-hub">the full layered bed-bug control plan for Canada</Link> is the parent guide these product pages hang off.</p>
@@ -496,13 +543,15 @@ export default function BedBugSprayCanadaPage() {
             <li><Link href="/blog/knock-down-bed-bug-killer-review-canada">Knock Down Bed Bug Killer review</Link> &mdash; the hardware-store PMRA-registered value can.</li>
             <li><Link href="/blog/konk-bed-bug-killer-review-canada">Konk Bed Bug Killer review</Link> &mdash; Canadian-made contact aerosol: strong on legality, weak on eggs.</li>
             <li><Link href="/blog/ecoraider-bed-bug-spray-review-canada">EcoRaider review</Link> &mdash; the plant-based spray with independent Rutgers testing behind it.</li>
-            <li><Link href="/blog/harris-bed-bug-killer-review-canada">Harris Bed Bug Killer review</Link> &mdash; how to tell the Canadian SKU from the US one.</li>
+            <li><Link href="/blog/harris-bed-bug-killer-review-canada">Harris Bed Bug Killer review</Link> &mdash; a US brand with no product in Health Canada&rsquo;s pesticide database.</li>
             <li><Link href="/blog/ortho-home-defense-bed-bug-review-canada">Ortho Home Defense review</Link> &mdash; two cans, one name, and the PCP number that settles it.</li>
             <li><Link href="/blog/crossfire-bed-bug-concentrate-review-canada">Crossfire Bed Bug Concentrate review</Link> &mdash; good chemistry, wrong country: why we can&rsquo;t recommend it here.</li>
           </ul>
 
           <h2>Related Bed Bug Guides</h2>
           <ul>
+            <li><Link href="/blog/best-natural-bed-bug-spray-canada">Natural Bed Bug Spray in Canada: Which Botanicals Are Registered</Link></li>
+            <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa in Canada: Review, Label and Legal Status</Link></li>
             <li><Link href="/blog/do-bed-bug-sprays-actually-work">Do Bed Bug Sprays Actually Work? The Honest Evidence</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed Bug Steamer Canada</Link></li>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Bed Bug Mattress Encasements Canada</Link></li>

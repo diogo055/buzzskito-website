@@ -15,10 +15,11 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-fruit-fly-trap-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'The 4 Best Fruit Fly Traps in Canada: Why a Scent Lure Beats UV and Sticky Traps'
 const META_TITLE = 'Best Fruit Fly Trap in Canada: 4 Picks Ranked'
 
@@ -111,11 +112,19 @@ const FAQS = [
     question: 'When is fruit fly season in the United States?',
     answer: 'Fruit flies are a year-round indoor pest that spikes in late summer and fall, per University of Kentucky Entomology fact sheet EF-621. Development effectively stalls below roughly 53°F (12°C), which is why the season tracks kitchen temperature more than the weather. The Gulf Coast, Florida and South Texas see low-level activity almost all year; the Upper Midwest, New England and the Mountain West get a shorter, sharper September-to-October peak that ends with the first sustained cold snap.',
   },
+  {
+    question: 'TERRO vs Raid fruit fly trap: which is better?',
+    answer: 'They are the same kind of trap, so buy whichever your store has in stock. Both are small apple-shaped traps baited with a food-based lure; Raid sells its Canadian two-pack as the Raid Indoor Fruit Fly Trap with Food-Based Lure. TERRO’s own product page says each of its traps lasts up to 45 days and that refills are not sold; check the Raid box for its lure life. Either is the right type for fruit flies, which find food by smell, and neither ends an infestation unless the breeding source goes too.',
+  },
+  {
+    question: 'What is the best indoor fruit fly trap?',
+    answer: 'A sealed lure trap at counter height or lower, within a metre of where the flies gather: beside the fruit bowl, the sink, the compost pail or the recycling. Fruit flies find food by smell, so indoors a scent lure out-catches the UV and plug-in light traps; those are the better buy for fungus gnats or for a room with no counter space. Use two to four traps, one per spot, and take away the competing smell, because a trap next to an open compost pail loses every time.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best fruit fly trap in Canada: fruit flies hunt by fermentation smell, not light, so a vinegar-lure trap is the pick, not UV or sticky. Four picks, ranked.',
+  description: 'Best fruit fly trap in Canada: a sealed food-lure trap like the TERRO apple, because fruit flies find food by smell. Gnats from plant pots? Pick a UV trap.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -140,7 +149,7 @@ export default function BestFruitFlyTrapCanadaPage() {
             <span className="text-white">Best Fruit Fly Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Liquid-lure, UV, plug-in, and sticky-ribbon fruit fly traps compared for Canadian kitchens &mdash; which one actually out-smells your fruit bowl, what refills really cost you per season, and why every infestation takes two to three weeks to end.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for fruit flies at the fruit bowl, sink or green bin, buy a sealed lure trap such as the TERRO apple &mdash; fruit flies find food by smell, so a scent trap out-catches sticky and light traps. Flies rising from houseplant soil are usually fungus gnats, and a UV light trap like the Katchy suits them better.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -279,6 +288,24 @@ export default function BestFruitFlyTrapCanadaPage() {
         </div>
       </section>
 
+      <section className="pt-10 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <QuickIdTable
+            title="Which fruit fly trap for your situation?"
+            head={['Where the flies are', 'Buy this', 'Why']}
+            rows={[
+              ['Fruit bowl, sink, green bin or recycling', 'A sealed lure trap such as the TERRO apple, one per spot', 'Fruit flies find food by smell, so a scent lure out-catches light and sticky traps in a kitchen'],
+              ['Rising from houseplant soil', 'A UV + fan + glue trap such as the Katchy', 'These are usually fungus gnats, which are drawn to light; lure traps barely interest them'],
+              ['Around a bathroom or basement floor drain', 'A drain brush before any trap', 'Often drain flies, which breed in the film on the pipe wall; another lure will not clear that'],
+              ['A hallway, bathroom or bar cart with no counter space', 'A plug-in light + glue trap such as the Zevo', 'Nothing to knock over; light is the weaker cue for fruit flies, so it backs up a lure trap rather than replacing one'],
+              ['One weekend, one bowl of plums', 'A jar of apple cider vinegar with 3–4 drops of dish soap', 'Fine for a short flare-up; it peaks in a day or two and fades by day four or five, so refresh it twice a week if the flies hang on'],
+              ['Still catching flies after two weeks', 'No new trap: look for the breeding source', 'A missed source (drain film, a forgotten potato or onion, juice under the fridge) keeps hatching new adults'],
+            ]}
+            caption={<>Each row restates a section of this guide. RESCUE! says its own fruit fly trap does not catch fungus gnats or drain flies (<a href="https://www.rescue.com/products/traps/fruit-fly-trap/" target="_blank" rel="noopener" className="underline hover:text-brand-700">rescue.com</a>). To tell the three apart, see our guides to <Link href="/blog/how-to-get-rid-of-gnats" className="underline hover:text-brand-700">gnats by type</Link> and <Link href="/blog/how-to-get-rid-of-drain-flies-canada" className="underline hover:text-brand-700">drain flies</Link>.</>}
+          />
+        </div>
+      </section>
+
       <section className="py-10 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
           <h2 id="key-facts" className="text-xl font-extrabold text-brand-900 mb-4">Fruit Fly Trapping — Key Facts</h2>
@@ -362,6 +389,17 @@ export default function BestFruitFlyTrapCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="terro fruit fly trap">Check TERRO Fruit Fly Trap on Amazon.ca →</BuyLink>
           </div>
+
+          <QuickIdTable
+            title="TERRO vs RESCUE! vs Zevo: what each maker says"
+            head={['Trap', 'How it lures and catches', 'How long it lasts', 'Limits the maker states']}
+            rows={[
+              ['TERRO Fruit Fly Trap', 'A food-based liquid bait lures adult fruit flies inside an apple-shaped trap', 'Up to 45 days per trap, then throw it away (one TERRO answer to a buyer says every 30 days)', 'Refills are not sold: TERRO designs the traps to be disposable'],
+              ['RESCUE! Fruit Fly Trap', 'A food-based liquid lure plus a colour fruit flies are drawn to; they enter through funnel-shaped holes and drown', 'A 30-day supply of attractant; the trap is reusable with RESCUE! refills', 'Indoor use only; does not catch fungus gnats or drain flies; breeding sources must go for full control'],
+              ['Zevo Flying Insect Trap', 'A plug-in base shines blue and UV light; insects stick to an adhesive pad in a replaceable cartridge', 'The light blinks every 6 weeks as a reminder to check the cartridge', 'Not for uncovered outdoor spaces; 2 or more traps for larger rooms; Zevo describes a U.S. device base with a North American plug'],
+            ]}
+            caption={<>From each maker&rsquo;s own product page, read Oct 23, 2026: <a href="https://www.terro.com/terro-fruit-fly-trap-t2502b" target="_blank" rel="noopener" className="underline hover:text-brand-700">TERRO</a> (and its <a href="https://www.terro.com/terro-fruit-fly-trap-t2502b-all-questions" target="_blank" rel="noopener" className="underline hover:text-brand-700">answers to buyers</a>), <a href="https://www.rescue.com/products/traps/fruit-fly-trap/" target="_blank" rel="noopener" className="underline hover:text-brand-700">RESCUE!</a> and <a href="https://zevoinsect.com/flying-insect-trap-starter-kit-model-3" target="_blank" rel="noopener" className="underline hover:text-brand-700">Zevo</a>. TERRO says it does not sell refills, so where this guide mentions refill lure for the TERRO apple, plan on a new pack instead.</>}
+          />
 
           <h2 id="refill-economics">Refill Economics: The Real Cost of Each Trap</h2>
           <p>Fruit fly control is a consumables business, and the sticker price of the trap is the smallest part of what you will spend if flies are a recurring summer event in your house. Think in cost-per-season, not cost-per-unit:</p>

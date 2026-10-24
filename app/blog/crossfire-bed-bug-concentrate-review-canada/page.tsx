@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'crossfire-bed-bug-concentrate-review-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'MGK Crossfire Bed Bug Concentrate Review (Canada 2026) — Why It Is Not the Pick Here'
-const META_TITLE = 'Crossfire Bed Bug Concentrate Review Canada 2026'
+// TITLE NOTE (Oct 23, 2026): was 'Crossfire Bed Bug Concentrate Review Canada 2026'; top queries, 90 days to Oct 23: crossfire bed bug 868 at 7.9, crossfire bed bug canada 289 at 3.2, crossfire bed bug spray 223 at 8.4 (0 clicks), mgk crossfire 158 at 8.0, crossfire bed bug treatment 117, crossfire bed bug canada where to buy 101 at 4.2, crossfire canada 99 (62 clicks on 2,827 impressions). The h1 keeps "Concentrate"; general bed bug spray searches stay with /blog/bed-bug-spray-canada.
+const META_TITLE = 'CrossFire Bed Bug Spray Review: Legal in Canada?'
 
 const FAQS = [
   {
@@ -40,7 +42,7 @@ const FAQS = [
   },
   {
     question: 'What are the Canada-legal alternatives to Crossfire?',
-    answer: 'For a do-it-yourself Canadian, the most reliable chemical tool is a PMRA-registered silica (amorphous silica gel) desiccant dust, which kills by dehydration rather than by a nerve toxin — so resistance is essentially not a factor and the residual lasts for months in dry, undisturbed cracks. Alongside it, several ready-to-use bed-bug sprays carry Canadian registration for on-contact and light residual work. But the honest headline is that the single most dependable answer for bed bugs is not a chemical at all: heat and steam kill every life stage including the eggs, with no resistance and no residue, which is why our whole cluster leans on a steamer, a heater, and a sealed-HEPA vacuum as the core of a real plan.',
+    answer: 'For a do-it-yourself Canadian, the most reliable chemical tool is a desiccant dust whose label shows a Canadian PCP number (in PMRA’s registry the domestic bed bug dusts are diatomaceous earth; silica gel dusts such as CimeXa have no listing), which kills by dehydration rather than by a nerve toxin — so resistance is essentially not a factor and the residual lasts for months in dry, undisturbed cracks. Alongside it, several ready-to-use bed-bug sprays carry Canadian registration for on-contact and light residual work. But the honest headline is that the single most dependable answer for bed bugs is not a chemical at all: heat and steam kill every life stage including the eggs, with no resistance and no residue, which is why our whole cluster leans on a steamer, a heater, and a sealed-HEPA vacuum as the core of a real plan.',
   },
   {
     question: 'Does Crossfire really kill pyrethroid-resistant bed bugs?',
@@ -56,7 +58,7 @@ const FAQS = [
   },
   {
     question: 'Crossfire versus a desiccant dust like CimeXa — which should I choose?',
-    answer: 'For a Canadian DIY user, the desiccant dust wins on every axis that matters to you: it is PMRA-registered and legal, it kills by physical dehydration so bed bugs cannot evolve resistance to it, and a light film in cracks, outlet boxes, and bed-frame voids stays lethal for months. Crossfire may have more sophisticated chemistry, but you cannot legally use it, its residual is shorter, and resistance can erode it. A properly applied silica dust — a barely visible film, not a pile — is the most reliable long-residual tool a homeowner can legally buy in Canada.',
+    answer: 'For a Canadian DIY user, a desiccant dust wins on every axis that matters to you, provided its label shows a Canadian PCP number: it kills by physical dehydration so bed bugs cannot evolve resistance to it, and a light film in cracks, outlet boxes, and bed-frame voids stays lethal for months. Check CimeXa itself before you buy: its label carries only a U.S. EPA number, PMRA’s registry has no CimeXa listing, and the registered domestic bed bug dusts are diatomaceous earth. Crossfire may have more sophisticated chemistry, but you cannot legally use it, its residual is shorter, and resistance can erode it. A properly applied registered dust — a barely visible film, not a pile — is the most reliable long-residual tool a homeowner can legally buy in Canada.',
   },
   {
     question: 'What about heat and steam instead of any spray?',
@@ -68,13 +70,25 @@ const FAQS = [
   },
   {
     question: 'So what should I actually buy in Canada right now?',
-    answer: 'Skip the U.S. concentrate. For a Canadian DIY plan, start with a PMRA-registered silica desiccant dust as your long-residual backbone, add a steamer and a bed-bug heater for the heat kill that handles the eggs, encase the mattress and box spring, and set interceptor traps to monitor. If you want a ready-to-use spray for contact knockdown, choose one that shows a Canadian PCP registration number on the label. That kit is legal, resistance-resistant, and covers every part of the job a single liquid never could.',
+    answer: 'Skip the U.S. concentrate. For a Canadian DIY plan, start with a desiccant dust whose label shows a Canadian PCP number (in the domestic class, that means diatomaceous earth) as your long-residual backbone, add a steamer and a bed-bug heater for the heat kill that handles the eggs, encase the mattress and box spring, and set interceptor traps to monitor. If you want a ready-to-use spray for contact knockdown, choose one that shows a Canadian PCP registration number on the label. That kit is legal, resistance-resistant, and covers every part of the job a single liquid never could.',
+  },
+  {
+    question: 'Does CrossFire really work on bed bugs?',
+    answer: 'Its label says it kills all bed bug life stages, eggs included, targets pyrethroid-resistant strains and gives residual control for up to four weeks. Independent results are mixed. In 2025 Rutgers University lab tests, bed bugs held 4 hours on fabric sprayed with CrossFire at the label rate: with a fresh residue, 82% of one field strain died within a week; with a 30-day-old residue, 43% did; and the spray was ineffective against a second, highly pyrethroid-resistant strain. For a Canadian the question is moot: CrossFire has no PMRA registration, so it cannot be legally used here.',
+  },
+  {
+    question: 'How long does CrossFire last?',
+    answer: 'MGK’s label claims residual control for up to four weeks after application. In 2025 Rutgers University lab tests on fabric, a 30-day-old CrossFire residue killed 43% of a field strain of bed bugs within a week, against 82% for a fresh one, and against their laboratory strain the researchers found CrossFire and another spray had little to no residual effect on absorbent surfaces. None of that changes the Canadian picture: CrossFire is not in PMRA’s registry, so it cannot be legally used here.',
+  },
+  {
+    question: 'What is in CrossFire bed bug spray?',
+    answer: 'Three active ingredients. The concentrate’s EPA-accepted label lists clothianidin 4.00%, a neonicotinoid; metofluthrin 0.10%, a pyrethroid; and piperonyl butoxide 10.00%, a synergist that MGK says fights metabolic resistance. Diluted for spraying, that is about 0.4%, 0.01% and 1.0%. MGK also sells a ready-to-use CrossFire Aerosol. In Canada, PMRA’s registry lists no product named CrossFire, concentrate or aerosol, and no product that combines clothianidin and metofluthrin.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'An honest Canadian review of MGK Crossfire Bed Bug Concentrate: what the pro concentrate is, why it is not PMRA-registered (and so not legal to use in Canada), the grey-market import trap, and the Canada-legal desiccant, heat, and spray options that actually get the job done. Updated 2026.',
+  description: 'CrossFire bed bug spray is not legal in Canada: PMRA lists no CrossFire. What is in it, what MGK claims, what Rutgers lab tests found, and what to use instead.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +113,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             <span className="text-white">Crossfire Bed Bug Concentrate Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">MGK Crossfire is a genuinely modern U.S. professional bed-bug concentrate &mdash; and it is not registered for use in Canada. Here is the honest verdict, why the PMRA registration gap matters more than the chemistry, and the Canada-legal desiccant, heat, and spray tools that actually finish the job.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> you can&rsquo;t legally buy or use CrossFire in Canada. MGK&rsquo;s CrossFire Bed Bug Concentrate (clothianidin, metofluthrin and piperonyl butoxide) carries U.S. EPA Reg. No. 1021-2776, and Canada&rsquo;s PMRA registry lists no CrossFire insecticide. For a Canadian home, use heat and steam for the eggs and a dust or spray whose label shows a Canadian PCP number.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,11 +126,11 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">MGK <strong>Crossfire Bed Bug Concentrate</strong> is an EPA-registered <em>U.S. professional</em> product and is <strong>not PMRA-registered, so it is not legal to use, store, or import into Canada</strong>. The chemistry is real &mdash; a multi-active design aimed at pyrethroid-resistant strains &mdash; but that is moot for a Canadian homeowner. The Canada-legal answer that actually gets rid of bed bugs is a <strong>PMRA-registered silica desiccant dust</strong> for the long residual, plus <strong>heat and steam</strong> for the eggs, encasements, and interceptor traps. Skip the grey-market import.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">MGK <strong>Crossfire Bed Bug Concentrate</strong> is an EPA-registered <em>U.S. professional</em> product and is <strong>not PMRA-registered, so it is not legal to use, store, or import into Canada</strong>. The chemistry is real &mdash; a multi-active design aimed at pyrethroid-resistant strains &mdash; but that is moot for a Canadian homeowner. The Canada-legal answer that actually gets rid of bed bugs is a <strong>desiccant dust whose label shows a Canadian PCP number</strong> for the long residual, plus <strong>heat and steam</strong> for the eggs, encasements, and interceptor traps. Skip the grey-market import.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Crossfire is EPA-registered for the U.S. &mdash; it carries <strong>no Canadian PCP/PMRA number</strong>, so there is no legal way to use it here.</li>
               <li>Importing an unregistered pesticide for use in Canada violates the Pest Control Products Act &mdash; marketplace listings that ship it are grey-market.</li>
-              <li>A <strong>silica desiccant dust</strong> kills by dehydration &mdash; no resistance, months-long residual &mdash; and is PMRA-registered and legal.</li>
+              <li>A <strong>desiccant dust</strong> kills by dehydration &mdash; no resistance, months-long residual &mdash; and is legal here when its label shows a PCP number; the domestic ones in PMRA&rsquo;s registry are diatomaceous earth, and CimeXa has no listing.</li>
               <li>Heat and steam kill every life stage including the cemented eggs that most sprays never reach.</li>
               <li>No single product cures bed bugs &mdash; eradication is a combination applied repeatedly over weeks.</li>
               <li>If you want a spray, buy one that shows a Canadian PCP registration number on the label.</li>
@@ -175,13 +189,13 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">MGK Crossfire concentrate<br /><span className="font-normal text-xs text-gray-500">U.S. pro, multi-active</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; EPA only, no PMRA number</td>
-                  <td className="px-4 py-3 text-gray-700">Partial residual; not egg-reliable</td>
+                  <td className="px-4 py-3 text-gray-700">Label says yes, on contact; illegal here regardless</td>
                   <td className="px-4 py-3 text-gray-700">Resistant strains (U.S. pro use)</td>
                   <td className="px-4 py-3 text-xs text-gray-500 font-semibold">Not PMRA-registered &mdash; not recommended for Canada</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Silica desiccant dust<br /><span className="font-normal text-xs text-gray-500">PMRA-registered</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; carries a PCP number</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">silica gel or diatomaceous earth</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong>, if the label shows a PCP number (CimeXa&rsquo;s does not)</td>
                   <td className="px-4 py-3 text-gray-700">Kills nymphs/adults; not eggs directly</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in cracks &amp; voids</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug" block>Check price on Amazon.ca →</BuyLink></td>
@@ -236,6 +250,20 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="CrossFire at a glance: label, registry and lab results"
+            head={['Question', 'What the label, registry or study shows', 'Source']}
+            rows={[
+              ['What is it?', 'MGK CrossFire Bed Bug Concentrate, a water-dilutable insecticide for indoor use; MGK also sells a ready-to-use CrossFire Aerosol', 'MGK'],
+              ['What is in it?', 'Clothianidin 4.00% (a neonicotinoid), metofluthrin 0.10% (a pyrethroid) and piperonyl butoxide 10.00% (a synergist); about 0.4%, 0.01% and 1.0% once diluted', 'EPA-accepted label, Reg. No. 1021-2776; Rutgers 2025'],
+              ['Registered in Canada?', 'No: PMRA’s registry has no product named CrossFire, concentrate or aerosol, and no product combining clothianidin and metofluthrin (searched Oct 23, 2026)', 'PMRA product registry'],
+              ['What MGK claims', 'Kills all bed bug life stages including eggs, kills pyrethroid-resistant strains, and gives residual control “for up to four weeks after application”', 'EPA-accepted label; MGK technical bulletin'],
+              ['What an independent lab found', 'On fabric, a fresh residue killed 82% of one field strain within 7 days and 43% once 30 days old; it was “ineffective” against a second, highly pyrethroid-resistant strain', 'Pan, Sarker & Wang 2025, Rutgers University'],
+              ['What Health Canada says', '“If the product label does not have a PCP registration number, do not buy or use it.”', 'Health Canada'],
+            ]}
+            caption={<>Sources: the EPA-accepted <a href="https://www3.epa.gov/pesticides/chem_search/ppls/001021-02776-20160901.pdf" target="_blank" rel="noopener noreferrer" className="underline">CrossFire label</a> (Reg. No. 1021-2776, accepted Sept. 1, 2016); MGK&rsquo;s <a href="https://www.mgk.com/product/crossfire-bed-bug-concentrate/" target="_blank" rel="noopener noreferrer" className="underline">product page</a> and <a href="https://mgk.com/product_docs/15603/ldEAI008.pdf" target="_blank" rel="noopener noreferrer" className="underline">technical bulletin</a>; the <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">PMRA product registry</a>; <a href="https://doi.org/10.3390/insects16020200" target="_blank" rel="noopener noreferrer" className="underline">Pan, Sarker &amp; Wang (2025)</a>, Insects 16: 200, Rutgers lab tests in which bed bugs spent 4 hours on treated fabric; and <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Health Canada</a>.</>}
+          />
+
           <NextUp path="/blog/crossfire-bed-bug-concentrate-review-canada" />
           <h2>What Crossfire Actually Is</h2>
           <p>Crossfire is a liquid concentrate, meaning it ships as a small bottle of active ingredient that a professional dilutes with water at a label-specified ratio and loads into a sprayer. The reason a concentrate exists at all is economics and precision: a licensed operator treating many units wants to mix exactly the volume needed at exactly the right strength, rather than buying gallons of pre-mixed ready-to-use spray. That is a professional&rsquo;s workflow, not a homeowner&rsquo;s.</p>
@@ -253,7 +281,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <h2>What to Buy in Canada Instead</h2>
           <p>Here is the good news that makes skipping Crossfire painless: for a do-it-yourself bed-bug fight, the Canada-legal toolkit is not a weaker substitute &mdash; for a homeowner it is genuinely <em>better</em> than chasing a liquid concentrate. Bed bugs are one of the few pests where the non-chemical tools out-perform sprays for an untrained user, and where the best legal chemical is one resistance cannot touch.</p>
           <ul>
-            <li><strong>A silica desiccant dust (your residual backbone).</strong> This is the tool in our verdict box above. Amorphous silica gel kills by stripping the waxy layer off the insect&rsquo;s shell so it dehydrates &mdash; a physical mechanism, not a nerve toxin, which means bed bugs cannot evolve resistance to it. A barely visible film in cracks, outlet boxes, and bed-frame voids stays lethal for months, and it is PMRA-registered. Our <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa review</Link> covers the leading silica dust in Canada, and our <Link href="/blog/best-bed-bug-powder-canada">bed-bug powder guide</Link> compares it against food-grade diatomaceous earth.</li>
+            <li><strong>A silica desiccant dust (your residual backbone).</strong> This is the tool in our verdict box above. Amorphous silica gel kills by stripping the waxy layer off the insect&rsquo;s shell so it dehydrates &mdash; a physical mechanism, not a nerve toxin, which means bed bugs cannot evolve resistance to it. A barely visible film in cracks, outlet boxes, and bed-frame voids stays lethal for months. In Canada, buy a dust whose label shows a PCP number: PMRA&rsquo;s registry has no CimeXa listing, and its domestic bed bug dusts are diatomaceous earth. Our <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa review</Link> covers the best-known silica dust, and our <Link href="/blog/best-bed-bug-powder-canada">bed-bug powder guide</Link> compares it against diatomaceous earth.</li>
             <li><strong>Heat and steam (the egg-killer).</strong> Sprays struggle with bed-bug eggs because they are cemented to fabric; heat does not care. A dry-vapour <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> kills every life stage on contact along seams and tufts, and a <Link href="/blog/bed-bug-heater-canada">bed-bug heater</Link> decontaminates whole items like luggage and bedding. Heat has no resistance and no residue.</li>
             <li><strong>A sealed-HEPA vacuum (the removal step).</strong> A <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> physically pulls live bugs and debris out of harbourages before you treat, without blowing them back into the room.</li>
             <li><strong>Encasements and interceptors (protect and monitor).</strong> A <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement</Link> traps anything left inside and denies new bugs a home, while <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the legs catch travellers and let you measure whether the population is actually falling.</li>
@@ -268,7 +296,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <p>To be fair to the whole category: liquid residual sprays, applied by a professional with the right registered product, do have a place in bed-bug work &mdash; as a crack-and-crevice and spot treatment of harbourages, never as a broadcast coat across a sleeping surface. The problem is not that liquids are useless; it is that the specific liquid this page reviews cannot be used in Canada, and that a homeowner is generally better served by heat, dust, and mechanical tools than by trying to replicate a professional&rsquo;s spray workflow. If you do want to run a legal spray as one part of the plan, our <Link href="/blog/best-bed-bug-fogger-canada">fogger guide</Link> and <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">heat-vs-chemical comparison</Link> explain where sprays help and where they fall short, and our <Link href="/blog/backpack-sprayer-canada">sprayer hardware guide</Link> covers the equipment side.</p>
 
           <h2>Our Verdict on Crossfire for Canada</h2>
-          <p>MGK Crossfire is a well-engineered professional product that we cannot recommend to a Canadian reader, for one decisive reason: it is not PMRA-registered, so there is no legal way to use or import it here. The right move is not to hunt for a grey-market bottle &mdash; it is to build the Canada-legal plan that actually works better for a homeowner anyway. Start with a <Link href="/blog/cimexa-bed-bug-review-canada">PMRA-registered silica desiccant dust</Link> for the long residual, add <Link href="/blog/best-bed-bug-steamer-canada">steam</Link> and a <Link href="/blog/bed-bug-heater-canada">heater</Link> for the egg kill, encase the mattress, and monitor with interceptors. For the full step-by-step, our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> guide and the <Link href="/blog/bed-bug-control-canada-hub">bed-bug control hub</Link> tie the whole protocol together, and the <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> covers every device in the kit.</p>
+          <p>MGK Crossfire is a well-engineered professional product that we cannot recommend to a Canadian reader, for one decisive reason: it is not PMRA-registered, so there is no legal way to use or import it here. The right move is not to hunt for a grey-market bottle &mdash; it is to build the Canada-legal plan that actually works better for a homeowner anyway. Start with a <Link href="/blog/cimexa-bed-bug-review-canada">desiccant dust</Link> whose label shows a Canadian PCP number for the long residual, add <Link href="/blog/best-bed-bug-steamer-canada">steam</Link> and a <Link href="/blog/bed-bug-heater-canada">heater</Link> for the egg kill, encase the mattress, and monitor with interceptors. For the full step-by-step, our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> guide and the <Link href="/blog/bed-bug-control-canada-hub">bed-bug control hub</Link> tie the whole protocol together, and the <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> covers every device in the kit.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -286,7 +314,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/bed-bug-spray-canada">Best Bed Bug Spray &amp; Killer in Canada — Every PMRA-Legal Option Compared</Link></li>
-            <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Review Canada — The PMRA-Registered Silica Dust</Link></li>
+            <li><Link href="/blog/cimexa-bed-bug-review-canada">CimeXa Review Canada — Silica Dust for Bed Bugs</Link></li>
             <li><Link href="/blog/best-bed-bug-powder-canada">Best Bed-Bug Powder Canada — Silica Dust vs Diatomaceous Earth</Link></li>
             <li><Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">Heat vs Chemical Bed-Bug Treatment in Canada</Link></li>
             <li><Link href="/blog/best-bed-bug-steamer-canada">Best Bed-Bug Steamer Canada — Heat That Kills the Eggs</Link></li>

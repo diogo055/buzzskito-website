@@ -19,9 +19,10 @@ import NextUp from '@/components/NextUp'
 // so the canonical, og:url and structured data pointed at an address that redirects back here.
 const SLUG = 'advion-cockroach-gel-bait'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-23'
 const TITLE = 'Advion Cockroach Gel Bait in Canada — The Honest Grey-Market Answer'
-const META_TITLE = 'Advion Cockroach Gel Bait Canada: 2026 Legality'
+// TITLE NOTE (Oct 23, 2026): was 'Advion Cockroach Gel Bait Canada: 2026 Legality'; top queries: cockroach gel bait canada 408, advion cockroach gel bait 355, advion cockroach gel bait canada 321, advion cockroach gel 301 (15 clicks).
+const META_TITLE = 'Advion Cockroach Gel Bait Canada: Legal Options'
 
 const FAQS = [
   {
@@ -76,11 +77,27 @@ const FAQS = [
     question: 'How do I check whether any pesticide is legal to use in Canada?',
     answer: 'One test, ten seconds: find the Canadian registration number on the label — it reads “Reg. No. XXXXX P.C.P. Act” — then confirm the product class printed beside it (domestic means consumers; commercial means licensed applicators only). You can look any registration number up in Health Canada’s public pesticide label database to see the approved uses. No PCP number on the physical label of the unit you bought means it is not registered for use in Canada, no matter how reputable the seller looks or how many five-star reviews the listing has. That single habit screens out essentially the entire grey market.',
   },
+  {
+    question: 'Can Advion cockroach gel bait be shipped to Canada?',
+    answer: 'A seller may agree to ship it, but that does not make it legal to import or use. Health Canada says: “Online purchases of unregistered pesticides and their shipment to Canada are not permitted under the exemption for pest control products imported for personal use.” It also says: “The Canada Border Services Agency will refuse entry of ineligible pesticides.” Health Canada’s pesticide registry lists no Advion product and no product containing indoxacarb, so a shipped Advion syringe is an unregistered pesticide here.',
+  },
+  {
+    question: 'Is indoxacarb registered in Canada?',
+    answer: 'No product containing it is. Health Canada’s pesticide registry has an entry for the active ingredient (“INDOXACARB TECHNICAL”) with no registered products, current or historical, and two applications from 2005 that were both withdrawn. Indoxacarb is the active ingredient in Advion Cockroach Gel Bait: Syngenta’s US label lists “Indoxacarb … 0.6%” under EPA Reg. No. 100-1484. A US EPA registration does not make a product legal to sell or use in Canada.',
+  },
+  {
+    question: 'What is the best cockroach gel bait available in Canada?',
+    answer: 'For home use it has to be a product the registry lists as domestic, and there are only a few. For a kitchen and bathrooms, the enclosed Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735, “BORIC ACID 2.0%”) are the simplest to place; for cracks, a registered borate gel such as Ortho Ant B Gon Max Ant & Roach Killer Gel (Reg. No. 32560, “Disodium Octaborate Tetrahydrate 6.0%”). Other current domestic options include Homeowners DIY Roach Bait (Reg. No. 30293) and Ecopest Ant & Roach Bait Gel (Reg. No. 34893). Professional gels such as VANECTO are commercial class, for licensed applicators.',
+  },
+  {
+    question: 'What is Syngenta’s cockroach gel bait in Canada?',
+    answer: 'VANECTO Cockroach Gel Bait (Reg. No. 35686), registered to Syngenta Canada Inc. Its label lists “Isocycloseram … 1.0%” as the active ingredient and the commercial class, and says it is “Only to be used by individuals holding an appropriate pesticide applicator certificate or license recognized by the provincial or territorial pesticide regulatory agency where the application occurs.” So it is the Syngenta gel a licensed exterminator can use in a Canadian home, not one a homeowner can buy and apply.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Can you buy Advion cockroach gel bait in Canada? The honest answer: indoxacarb gel is professional-tier, and marketplace listings sit in a PMRA grey zone. What grey-market really costs you, the PCP-number check, and the legal bait-station toolkit that works.',
+  description: 'Advion cockroach gel bait is not registered in Canada: the federal registry lists no indoxacarb product. The cockroach gel baits you can use at home, by PCP number.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -105,7 +122,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
             <span className="text-white">Advion Cockroach Gel Bait Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Every American forum says Advion is the answer to German cockroaches. Here&rsquo;s what those threads never mention: how Canada&rsquo;s PMRA class system actually works, what a grey-market listing costs you in practice, the ten-second label check &mdash; and the legal bait-station toolkit that genuinely works.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Advion is not registered in Canada: Health Canada&rsquo;s pesticide registry lists no product containing indoxacarb, its active ingredient. For German cockroaches in a home you control, use a registered bait instead, such as Raid Ant Roach &amp; Earwig Gel Baits (Reg. No. 25735 P.C.P. Act); in a multi-unit building, call a licensed exterminator.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -141,6 +158,90 @@ export default function AdvionCockroachGelBaitCanadaPage() {
           <p>Here is the honest version of the answer, which is longer than the one Reddit gives. Advion Cockroach Gel Bait is a Syngenta product built around indoxacarb, and in the United States &mdash; where consumers can freely mail-order professional pesticides &mdash; it has earned its reputation as the default answer to German cockroaches. In Canada, the question is not &ldquo;is Advion good?&rdquo; (it is) but &ldquo;are you legally allowed to buy and use the unit a marketplace seller will ship you?&rdquo; &mdash; and that is a much murkier question than the listings suggest.</p>
           <p>Canada regulates every pesticide through Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA), which assigns each registered product a class: <strong>domestic</strong> products are for ordinary consumers, <strong>commercial</strong> products are for licensed applicators. Professional cockroach gels live in the commercial tier. Meanwhile, a large share of the Advion sold through cross-border sellers and marketplace listings is US-labelled stock &mdash; formulated, registered, and labelled under a US EPA registration that confers exactly zero legal status in Canada. Under the federal Pest Control Products Act, importing, selling, or using a pest control product that is not registered in Canada is an offence, and using a commercial-class product without provincial certification is a separate offence on top.</p>
           <p>We want to be careful and fair here: this is not an accusation aimed at any product or seller, and some products in this space do carry Canadian registrations. The problem is that <em>you cannot tell which from a product photo</em>. The only thing that settles it is the label on the physical unit in your hands: every pesticide legal to use in Canada carries a Canadian registration number that reads <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>, plus a class designation. No PCP number, or a commercial designation without a licence on your wall &mdash; the legal risk is yours, not the seller&rsquo;s. That one ten-second habit is the entire screening system, and it works on every pesticide category, not just roach gel &mdash; it is the same check we teach in our <Link href="/blog/rat-poison-canada-what-is-legal">rat poison legality guide</Link>, where the grey market is even bigger. Syngenta&rsquo;s ant version of this gel lands Canadian buyers in exactly the same spot, which is why <Link href="/blog/how-to-get-rid-of-ants-canada">our Canadian ant guide argues for the shelf-legal bait station instead</Link>.</p>
+
+          <h3>Cockroach gel baits and Canada: the registry check</h3>
+          <p>We looked each gel up on Health Canada&rsquo;s Pesticide Registry on October 23, 2026 and read the labels. Quoted phrases are the labels&rsquo; own words.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Gel (registration)</th>
+                  <th className="px-4 py-3 text-left">Active ingredient (label)</th>
+                  <th className="px-4 py-3 text-left">Who may use it in Canada</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Limits</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Advion Cockroach Gel Bait<br /><span className="font-normal text-xs text-gray-500">US EPA Reg. No. 100-1484; no Canadian registration</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Indoxacarb &hellip; 0.6%&rdquo; (Syngenta&rsquo;s US label)</td>
+                  <td className="px-4 py-3 text-gray-700">Nobody: the registry lists no Advion product and no product containing indoxacarb</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Not an option here</td>
+                  <td className="px-4 py-3 text-gray-700">Health Canada: &ldquo;The Canada Border Services Agency will refuse entry of ineligible pesticides.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">VANECTO Cockroach Gel Bait (Syngenta Canada)<br /><span className="font-normal text-xs text-gray-500">Reg. No. 35686, commercial</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Isocycloseram &hellip; 1.0%&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Only to be used by individuals holding an appropriate pesticide applicator certificate or license&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">The professional gel a licensed exterminator can use in your home</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Avoid direct application of repellent residual sprays to placements&rdquo; of the gel</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Ant Roach &amp; Earwig Gel Baits<br /><span className="font-normal text-xs text-gray-500">Reg. No. 25735 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;BORIC ACID 2.0%&rdquo; in &ldquo;12 CHILD RESISTANT BAITS&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Homeowners</td>
+                  <td className="px-4 py-3 text-gray-700">Kitchens and bathrooms: &ldquo;Place at least 10 baits in the kitchen and 2 in each bathroom.&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Apply/use only in areas inaccessible to children and pets.&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Ortho Ant B Gon Max Ant &amp; Roach Killer Gel<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32560 P.C.P. Act, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Disodium Octaborate Tetrahydrate 6.0%&rdquo;, 42.5 g syringe</td>
+                  <td className="px-4 py-3 text-gray-700">Homeowners</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;cracks and crevices around windows and doors, inside and out, along baseboards&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Cockroaches will feed directly on the bait and die, but will not share the bait.&rdquo;</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Homeowners DIY Roach Bait (Nisus)<br /><span className="font-normal text-xs text-gray-500">Reg. No. 30293, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;BORIC ACID &hellip; 33.3%&rdquo;, paste</td>
+                  <td className="px-4 py-3 text-gray-700">Homeowners</td>
+                  <td className="px-4 py-3 text-gray-700">Crack-and-crevice baiting, cockroaches only</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Contains the allergens, milk and wheat.&rdquo;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-6">Sources: Health Canada Pesticide Registry (pest-control.canada.ca), records and labels read October 23, 2026 (VANECTO label 2021-3044, Raid 25735 label 2017-1008, Ortho 32560 label 2017-0029, Nisus 30293 label 2016-5463); Syngenta&rsquo;s US label for Advion Cockroach Gel Bait (SCP 1484A-L1D 0724). The registry&rsquo;s indoxacarb record shows two applications from 2005, both withdrawn, and no products. Other current commercial cockroach gels include Maxforce Impact (Reg. No. 32275, clothianidin) and Seclira Cockroach Gel Bait Reservoir (Reg. No. 33424, dinotefuran).</p>
+
+          <h3>Which one for your situation</h3>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[520px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Your situation</th>
+                  <th className="px-4 py-3 text-left">Do this</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">German cockroaches at night in the kitchen or bathroom of a home you control</td>
+                  <td className="px-4 py-3 text-gray-700">Registered domestic bait: Raid Ant Roach &amp; Earwig Gel Baits (Reg. No. 25735) in the kitchen and bathrooms, a registered gel such as Ortho Ant B Gon Max Ant &amp; Roach Killer Gel (Reg. No. 32560) in the cracks, and glue monitors to measure</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Roaches in an apartment or condo building</td>
+                  <td className="px-4 py-3 text-gray-700">Report it in writing to the landlord or building manager; a licensed exterminator can use commercial gels such as VANECTO (Reg. No. 35686)</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Daylight sightings, roaches beyond the kitchen, or a month of bait with no fall in monitor counts</td>
+                  <td className="px-4 py-3 text-gray-700">Call a licensed exterminator</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">You already bought Advion from a US seller</td>
+                  <td className="px-4 py-3 text-gray-700">Do not use it. Health Canada: &ldquo;It&rsquo;s a violation of the Pest Control Products Act to buy and use unregistered pesticides.&rdquo;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <h2>What &ldquo;Grey Market&rdquo; Actually Costs You</h2>
           <p>&ldquo;Grey market&rdquo; sounds abstract until you list what you give up. A pesticide bought outside its legal channel costs you four protections simultaneously:</p>
