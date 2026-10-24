@@ -41,6 +41,17 @@ usually dip.
 
 Report where we stand against this every Monday. If two weeks in a row run more than 10% behind, say so plainly and propose what to change.
 
+## The pace comes from real search volumes, not averages (owner, Oct 24)
+
+The "about 60 a week" above is a placeholder from per-page averages. On Monday, Oct 27, when Ahrefs units
+and the Claude allowance reset, the real pace is worked out from search demand:
+
+1. **Collect about 600 candidates.** Draw winter and year-round topics from `taxonomy.src.json`, `next-wave-research.md`, the comparables research and Ahrefs related terms.
+2. **Pull real search volumes and difficulty for each.** US and Canada volume and KD come from Ahrefs Keywords Explorer, including each topic's keyword cluster (head term plus close variants). For Canada, also use our own Search Console impressions where we already show (Ahrefs Canadian volumes are unreliable; skill rule 3).
+3. **Estimate each topic's impressions.** Expected impressions a month = cluster volume x the chance of reaching page one by mid-January. Set that chance from KD and from our measured October results: low-KD pages reached page one within 1-3 weeks. On page one, almost every search counts as an impression.
+4. **Pick the smallest set that closes the gap.** The gap is about +1.6M a month. That set, highest expected impressions per page first, decides the number of pages and the weekly pace. Bigger topics mean fewer pages.
+5. **Recalibrate every Monday** against actual Search Console impressions per cohort.
+
 ## The build plan (from Monday, Oct 27, when the weekly allowance resets)
 
 **1. About 60 new pages a week through mid-December.** This puts them in the index by mid-December, so they mature by mid-January.
