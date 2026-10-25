@@ -43,8 +43,19 @@ Report where we stand against this every Monday. If two weeks in a row run more 
 
 ## The pace comes from real search volumes, not averages (owner, Oct 24)
 
-The "about 60 a week" above is a placeholder from per-page averages. On Monday, Oct 27, when Ahrefs units
-and the Claude allowance reset, the real pace is worked out from search demand:
+The "about 60 a week" above is a placeholder from per-page averages. On Monday, Oct 27, when the Claude
+allowance resets, the real pace is worked out from search demand.
+
+**Ahrefs was cancelled by the owner on Oct 25, 2026:** no new pulls. The demand data is what the repo already
+holds, plus our own Search Console:
+- the Ahrefs volumes and KD saved in `research/volume-20-2026-10-23.md`, `next-wave-research.md`, the
+  comparables files, `path-to-50k.md` and the taxonomy;
+- GSC impressions for our queries, which are the most accurate for this site;
+- Trends notes already in the repo.
+
+A candidate with no evidence gets low confidence and goes to the back of the queue. The owner will
+resubscribe if it turns out to be truly needed. The steps below still apply; step 2 uses saved data instead
+of a new pull.
 
 1. **Collect about 600 candidates.** Draw winter and year-round topics from `taxonomy.src.json`, `next-wave-research.md`, the comparables research and Ahrefs related terms.
 2. **Pull real search volumes and difficulty for each.** US and Canada volume and KD come from Ahrefs Keywords Explorer, including each topic's keyword cluster (head term plus close variants). For Canada, also use our own Search Console impressions where we already show (Ahrefs Canadian volumes are unreliable; skill rule 3).
