@@ -278,7 +278,7 @@
 - `/blog/brown-recluse` — brown recluse
 - `/blog/bird-mites` — bird mites
 - `/blog/brown-recluse-look-alikes` — spiders that look like brown recluse
-- `/blog/carpet-beetle-rash` — carpet beetle rash
+- `/blog/carpet-beetle-rash` — carpet beetle bites
 - `/blog/how-to-get-rid-of-ground-wasps` — how to get rid of ground wasps
 - `/blog/house-centipedes` — house centipede
 - `/blog/how-to-get-rid-of-silverfish` — how to get rid of silverfish
@@ -436,6 +436,10 @@
 - `/blog/weevils` — weevils
 - `/blog/jerusalem-crickets` — jerusalem cricket
 - `/blog/shrews` — shrew
+- `/blog/possum-vs-opossum` — possum vs opossum
+- `/blog/how-long-do-rats-live` — how long do rats live
+- `/blog/deer-poop` — deer poop
+- `/blog/voles` — vole
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

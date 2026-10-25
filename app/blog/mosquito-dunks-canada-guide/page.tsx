@@ -47,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Mosquito Dunks vs Mosquito Bits — what is the difference?',
-    answer: 'Same active ingredient (BTI), different format. Dunks are slow-release tablets ideal for long-term water sources (rain barrels, ponds — 30 days per dunk). Bits are quick-release granules that work within minutes — use for emergency knockdown of larvae outbreaks or for small water sources you don\'t want to look at a tablet floating in (small bird baths, kiddie pools). Many homeowners use both: dunks for the rain barrel, bits sprinkled when you find larvae anywhere unexpected.',
+    answer: 'Same active ingredient (BTI), different format. Dunks are slow-release tablets ideal for long-term water sources (rain barrels, ponds — 30 days per dunk). Bits are quick-release granules that work within minutes, but they have no Canadian registration. In Canada, use Dunks (Reg. No. 28888), or a registered BTI granule such as AquaBac 200G (Reg. No. 27374) or My-Crobe 200G (Reg. No. 34631) where you would have used Bits; a small bird bath needs fresh water twice a week (Health Canada), not a product, and the granule labels rule out wading pools.',
   },
   {
     question: 'Where to buy mosquito dunks in Canada?',
@@ -103,11 +103,11 @@ const FAQS = [
   },
   {
     question: 'Are mosquito dunks safe for cats?',
-    answer: 'The same points apply as for dogs: BTI toxins act on specific insect larvae, and the product should be used at the label rate. Cats are also far less likely than dogs to chew a tablet. If you are treating a bowl or fountain a cat drinks from, Mosquito Bits granules are tidier than a floating tablet — though a bowl you refresh every two or three days never gets the week of still water larvae need.',
+    answer: 'The same points apply as for dogs: BTI toxins act on specific insect larvae, and the product should be used at the label rate. Cats are also far less likely than dogs to chew a tablet. For a bowl or fountain a cat drinks from, skip the larvicide (Mosquito Bits have no Canadian registration, and the registered BTI granules’ labels rule out drinking receptacles): a bowl you refresh every two or three days never gets the week of still water larvae need.',
   },
   {
     question: 'Are mosquito dunks safe for birds?',
-    answer: 'Birdbaths, koi ponds, and water gardens are listed use sites on the Summit label, and birds are not among the larvae BTI toxins act on. For a small bird bath the simplest control is dumping and refilling every three days, which beats larvae on timing alone — mosquito larvae need more than a week of undisturbed water to reach a flying adult. If you would rather treat than refill, Mosquito Bits granules are the neater choice in a shallow basin.',
+    answer: 'Birdbaths, koi ponds, and water gardens are listed use sites on the Summit label, and birds are not among the larvae BTI toxins act on. For a small bird bath the simplest control is dumping and refilling every three days, which beats larvae on timing alone — mosquito larvae need more than a week of undisturbed water to reach a flying adult. In Canada, refilling is the answer: Health Canada advises replacing bird-bath water at least twice a week, and Mosquito Bits have no Canadian registration.',
   },
   {
     question: 'Are mosquito dunks safe for fish?',
@@ -656,7 +656,7 @@ export default function MosquitoDunksPage() {
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks (Reg. No. 28888)</BuyLink>
           </div>
-          <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
+          <p>In Canada the choice is narrower than that table suggests: Bits have no Canadian registration, so the plan is dunks (Reg. No. 28888) in rain barrels and ponds, a registered granule such as AquaBac 200G or My-Crobe 200G for unexpected standing water its label covers, and fresh water twice a week in bird baths.</p>
 
           <h2>Do mosquito dunks really work?</h2>
           <p className="speakable"><strong>Yes &mdash; in the water you actually treat.</strong> BTI larvicides are standard equipment for mosquito control districts across North America, and published field trials report high larval mortality within 24&ndash;48 hours of contact. One dunk covers up to 6 sq. metres of water surface on the Canadian label (about 100 sq ft on the U.S. label), reapplied at 30-day intervals if larvae are detected. What a dunk cannot do is touch an adult mosquito that is already flying.</p>
@@ -751,7 +751,7 @@ export default function MosquitoDunksPage() {
               <tbody>
                 {[
                   ['Dogs', 'Not a BTI target', 'Watering troughs are a labelled use site; use the label rate. The real scenario is a dog fishing the tablet out and chewing it — store the box out of reach and call your vet if a dunk was swallowed.'],
-                  ['Cats', 'Not a BTI target', 'Same points as dogs, and cats rarely chew tablets. For a fountain or bowl a cat drinks from, Bits granules are tidier than a floating tablet.'],
+                  ['Cats', 'Not a BTI target', 'Same points as dogs, and cats rarely chew tablets. For a fountain or bowl a cat drinks from, refresh the water instead: Bits have no Canadian registration, and the registered granule labels rule out drinking receptacles.'],
                   ['Fish (goldfish, koi, mosquitofish)', 'Not a BTI target', 'Koi ponds are a labelled use site, and BTI is used routinely in stocked ponds. Fish eat larvae themselves, so a dunk earns its keep mainly in fishless ponds and the plant-choked margins fish do not patrol.'],
                   ['Birds', 'Not a BTI target', 'Birdbaths are a labelled use site. For a small bath, dumping and refilling every three days beats larvae on timing alone — they need over a week of still water.'],
                   ['Bees, butterflies, fireflies, ladybugs', 'Not a BTI target', 'EPA: BTI toxins affect only mosquito, black fly, and fungus gnat larvae. EPA also notes BTI is approved for pest control in organic farming operations.'],
@@ -808,7 +808,7 @@ export default function MosquitoDunksPage() {
                 {[
                   ['Rain barrel, ~50 gallons', '1 dunk (¼ dunk on the Canadian label)', 'Every 30 days', 'The Canadian label table puts 0.1 to 3.0 sq. metres of water at ¼ dunk'],
                   ['5-gallon bucket', '¼ dunk', 'Every 30 days', 'K-State Research and Extension rate for the bucket method'],
-                  ['Plant saucer, small bird bath', 'A pinch of Bits, or a small broken piece', 'Weekly, or just refresh the water', 'Refilling every 3 days beats the larvae without any product'],
+                  ['Plant saucer, small bird bath', 'A small broken piece of dunk (Bits have no Canadian registration)', 'Weekly, or just refresh the water', 'Refilling every 3 days beats the larvae without any product'],
                   ['Pond or water garden, up to 100 sq ft', '1 dunk', 'Every 30 days', 'Koi ponds and water gardens are labelled use sites'],
                   ['Pond larger than 100 sq ft', '1 dunk per 100 sq ft of surface', 'Every 30 days', 'Spread them out rather than clustering in one corner'],
                   ['Drainage ditch or wet low spot', '1 dunk per 100 sq ft', 'Every 30 days, sooner after heavy rain', 'Flushing rain is the main reason coverage runs short; in Canada, never a ditch that drains off your property'],
@@ -874,7 +874,7 @@ export default function MosquitoDunksPage() {
               </tbody>
             </table>
           </div>
-          <p><strong>Bits are easier here than dunks.</strong> Mosquito Bits are the same BTI in granule form, and you sprinkle them straight onto the top inch of potting soil and water them in &mdash; no steeping, no jug, no tablet sitting in a decorative pot. Dunks win on cost if you already own a box; Bits win on convenience if houseplants are the only reason you are buying BTI at all. Either way, the durable fix is watering habits: fungus gnats breed in permanently damp soil, so letting the top inch dry between waterings does more than any product.</p>
+          <p><strong>Under the U.S. label, Bits are easier here than dunks.</strong> Mosquito Bits are the same BTI in granule form, and you sprinkle them straight onto the top inch of potting soil and water them in &mdash; no steeping, no jug, no tablet sitting in a decorative pot. In Canada that shortcut is not available: Bits have no Canadian registration, and the Mosquito Dunks label covers mosquito larvae in water only (see the note above). Either way, the durable fix is watering habits: fungus gnats breed in permanently damp soil, so letting the top inch dry between waterings does more than any product.</p>
           <div className="not-prose my-4 flex flex-wrap items-center gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks (mosquito larvae in water only)</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
@@ -958,7 +958,7 @@ export default function MosquitoDunksPage() {
           <p>Mosquito dunks solve only HALF of the mosquito problem — they kill larvae in the water you treat. They don&rsquo;t affect adult mosquitoes flying in from your neighbour&rsquo;s yard, the ravine behind your house, or the creek down the street. That off-property pressure is the whole story on ravine-backed lots, which is why <Link href="/toronto-mosquito-control">mosquito control in Toronto</Link> is almost never solved by treating your own standing water alone. A dunk also does nothing about the bites you already have &mdash; it kills the larvae that would have become next month&rsquo;s mosquitoes, not the welt on your arm tonight, and that is a separate question answered in <Link href="/blog/why-do-mosquito-bites-itch">why mosquito bites itch and how long they last</Link>.</p>
           <p>For fuller mosquito control in your GTA yard, combine three strategies:</p>
           <ol>
-            <li><strong>BTI dunks/bits</strong> in any standing water on your property ($15/season — covers larvae from your own water)</li>
+            <li><strong>BTI dunks</strong> (Reg. No. 28888) in the standing water on your property that the label covers &mdash; it handles larvae from your own water</li>
             <li><strong>Habitat modification</strong> — drain anything you can, mow grass short, clear leaf litter</li>
             <li><strong>Professional barrier spray</strong> — <Link href="/mosquito-control">BuzzSkito&rsquo;s seasonal program</Link> targets the adult mosquitoes flying onto your property from off-property sources, with a residual applied according to label directions and renewed on a schedule</li>
           </ol>

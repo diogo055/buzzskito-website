@@ -7350,20 +7350,25 @@
    "slug": "carpet-beetle-rash",
    "cluster": "household",
    "audience": "na",
-   "keyword": "carpet beetle rash",
+   "keyword": "carpet beetle bites",
    "alsoTargets": [
-    "carpet beetle bites",
+    "carpet beetle rash",
+    "do carpet beetles bite",
     "carpet beetle dermatitis",
-    "do carpet beetles bite"
+    "carpet beetle larvae bites",
+    "what do carpet beetle bites look like",
+    "carpet beetle rash pictures",
+    "carpet beetle rash treatment"
    ],
-   "h1Hint": "Carpet Beetle Rash: The Itchy Bumps Blamed on Bed Bugs",
-   "metaTitleHint": "Carpet Beetle Rash: Itchy Bumps Explained",
-   "scope": "Why larval hairs cause itchy welts that look like bites, where on the body, how to tell it from bed bugs and scabies, finding the larvae, and when to see a doctor.",
+   "h1Hint": "Carpet Beetle Bites: Why Carpet Beetles Don't Bite, and What the Rash Looks Like",
+   "metaTitleHint": "Carpet Beetle Bites? Why It's Really a Rash",
+   "scope": "Re-aimed to the searcher's words, \"carpet beetle bites\". The answer first: carpet beetles do not bite; the itchy, bite-like bumps some people get are a reaction to the larvae's hairs (carpet beetle dermatitis), as Penn State Extension, Texas A&M AgriLife and the CDC's Emerging Infectious Diseases report say, and most people never react (at the sources' strength). A quick-ID table under the quick answer: carpet beetle rash vs bed bug bites vs flea bites vs scabies vs mosquito bites: what it looks like, where on the body, when it appears, the sign to look for, each cell from a source (CDC, AAD or a medical school for the bites). What the rash looks like (red, itchy bumps or welts, often under clothing or where skin touched bedding or upholstery; never diagnose), who reacts (an acquired allergy, as Penn State says), how to confirm it (find the larvae and their cast skins: link /blog/signs-of-carpet-beetles and /blog/carpet-beetle-larvae), relief at the sources' strength (wash, launder bedding, an over-the-counter anti-itch cream only if a medical source names it), when to see a doctor (spreading or infected skin, eye or breathing symptoms, or no larvae found: scabies and other causes need a clinician), and the fix in one short section linking /blog/how-to-get-rid-of-carpet-beetles. Cards: carpet beetle larva (/blog/carpet-beetle-larvae), bites but no bed bugs (/blog/bed-bug-bites-but-no-bed-bugs), bed bug bites and flea bites (no link until the US pages are live), scabies (no link). Never write that carpet beetles bite, burrow into skin or live on people. Sources: Penn State Extension (Carpet Beetle Dermatitis), CDC EID 2021 (Anthrenus dermatitis cluster), Texas A&M AgriLife, UC IPM, University of Kentucky, AAD or a medical school for bite care. No quote prompt.",
    "pageType": "bite-sting",
    "flags": [
+    "id",
     "health"
    ],
-   "minWords": 1100,
+   "minWords": 1200,
    "parent": {
     "href": "/learn/bug-bites",
     "name": "Bug Bites"
@@ -7371,14 +7376,49 @@
    "pairWith": null,
    "collisions": [
     {
+     "path": "nine live guides (bed-bug-bites-but-no-bed-bugs, beetles-in-house, bug-bites, bugs-that-look-like-fleas, carpet-beetle-larvae, how-to-get-rid-of-carpet-beetles, signs-of-carpet-beetles, tiny-black-bugs, tiny-brown-bugs)",
+     "overlap": "each links /blog/carpet-beetle-rash (\"what a carpet beetle rash looks like has its own guide\") and says carpet beetles do not bite",
+     "resolution": "the release gate's inbound link exists; this page must agree with them (no bite, a reaction to the larvae's hairs); no edits there"
+    },
+    {
+     "path": "/blog/carpet-beetle-larvae",
+     "overlap": "live Oct 23; owns the larva searches (\"carpet beetle larvae\", \"carpet beetle larvae in bed\"); its health paragraph defers the rash here",
+     "resolution": "this page takes only the skin-reaction search \"carpet beetle larvae bites\"; link both ways; no larva ID beyond a card"
+    },
+    {
+     "path": "/blog/signs-of-carpet-beetles and /blog/how-to-get-rid-of-carpet-beetles",
+     "overlap": "signs and control (live Oct 21 and Oct 16)",
+     "resolution": "keep theirs; this page's \"confirm it\" and \"fix it\" sections are short and link them"
+    },
+    {
+     "path": "/blog/bed-bug-bites-but-no-bed-bugs",
+     "overlap": "live Oct 21 sorter (\"no signs of bed bugs but i have bites\"); carpet beetle larvae are one of its causes",
+     "resolution": "keeps the sorter; link both ways"
+    },
+    {
+     "path": "what-do-bed-bug-bites-look-like (scheduled 2026-11-11), flea-bites (scheduled 2026-10-31), /blog/bed-bug-bites (retrofitted Oct 20, read Nov 3-10)",
+     "overlap": "the bites this rash is mistaken for",
+     "resolution": "no bed bug or flea bite targets here; cards for them show without a link until each US page is live; do not link /blog/bed-bug-bites during its read"
+    },
+    {
      "path": "/blog/how-to-get-rid-of-carpet-beetles-canada",
-     "overlap": "Canadian control page",
-     "resolution": "link"
+     "overlap": "Canadian twin of the US control page; frozen to Oct 30 (gsc-review-2026-10-18.md Appendix C); no bite queries reach it",
+     "resolution": "no edit, no link; no measurable effect on the Oct 29-30 read"
+    },
+    {
+     "path": "/learn/bug-bites and /tools/bug-bite-identifier",
+     "overlap": "the bite chart (parent) and the identifier (no carpet beetle result today)",
+     "resolution": "/learn/bug-bites is the parent (mustLink); link the identifier once"
+    },
+    {
+     "path": "scabies-vs-bed-bugs (planned 2026-12-14), bird-mites (planned 2027-02-01)",
+     "overlap": "other causes of itchy bumps",
+     "resolution": "named only as reasons to see a doctor; cards without links until live"
     }
    ],
    "family": "bites-stings",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-26"
   },
   {
    "section": "blog",
@@ -10930,9 +10970,7 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [
-    "/learn/scorpions"
-   ],
+   "mustLink": [],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "pseudoscorpions",
@@ -10940,27 +10978,58 @@
    "audience": "na",
    "keyword": "pseudoscorpion",
    "alsoTargets": [
+    "pseudoscorpions",
     "pseudoscorpion bite",
     "pseudoscorpion in house",
-    "pseudoscorpion size"
+    "book scorpion",
+    "are pseudoscorpions dangerous",
+    "pseudoscorpion size",
+    "false scorpion"
    ],
    "h1Hint": "Pseudoscorpions: The Tiny Harmless 'Scorpions' in Your House",
    "metaTitleHint": "Pseudoscorpions: Tiny, Harmless, Indoors",
-   "scope": "Tiny arachnids found in bathrooms and old books across the US and Canada: identification, why they are harmless and useful, and the tick and bed bug confusion.",
+   "scope": "Pseudoscorpions for US and Canadian readers who find a tiny \"scorpion without a tail\" on a book, a bathroom sink, a windowsill or a bed. The answer first: a pseudoscorpion is a tiny arachnid (sizes only from sources, in inches) with scorpion-like pincers and no tail or stinger; it is harmless to people and eats tiny pests such as booklice, mites and small insect larvae, as sources say. A quick-ID table under the quick answer: pseudoscorpion, tick, bed bug, real scorpion and any other look-alike a source names: size, body shape, pincers, tail, legs, where found, harm to people. Then: the house pseudoscorpion or book scorpion (Chelifer cancroides, the species on record) and any other indoor species a source names, where they turn up indoors and why (damp rooms, old books and papers, firewood or plants brought in, as sources say), do pseudoscorpions bite (venom glands in the pincers are for prey; harmless to people at the sources' strength; no absolute claim a source does not make), are they a sign of an infestation (only that they follow tiny prey, as sources say; link /blog/booklice), what to do (leave it, or move it outside with a jar and a card; no spray advice; drying out a damp room only if a source ties it to them or their prey), and the scorpion question (real scorpions in the US live mainly in the South and West; link the scorpion pages once live). Cards: tick (/blog/what-do-ticks-look-like), bed bug (/blog/what-do-bed-bugs-look-like), booklouse (/blog/booklice), camel spider (/blog/camel-spiders), bark scorpion (planned: no link). Sources: University of Kentucky ENTFACT-647 (Centipedes and Pseudoscorpions), Penn State Extension, the American Arachnological Society, a state extension or university entomology department, Missouri Department of Conservation. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 800,
+   "minWords": 1000,
    "parent": {
-    "href": "/learn/scorpions",
-    "name": "Scorpions"
+    "href": "/learn",
+    "name": "Learning Centre"
    },
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/booklice",
+     "overlap": "live Oct 23; booklice are among the tiny pests pseudoscorpions eat (as sources say); no pseudoscorpion mention yet",
+     "resolution": "keeps booklice; link both ways; a sourced sentence there is the best link-in"
+    },
+    {
+     "path": "/blog/house-centipedes",
+     "overlap": "live; cites University of Kentucky ENTFACT-647, \"Centipedes and Pseudoscorpions\"",
+     "resolution": "keeps centipedes; second link-in candidate"
+    },
+    {
+     "path": "/blog/camel-spiders",
+     "overlap": "live Oct 23; another arachnid that is neither a true spider nor a scorpion",
+     "resolution": "card and link; no shared targets"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-ticks",
+     "overlap": "TSX, frozen to Oct 30 (Appendix C); Google showed it for 3 pseudoscorpion impressions in 90 days to Oct 12; it never mentions pseudoscorpions",
+     "resolution": "no edit; this page targets no tick look-alike search; the tick card links /blog/what-do-ticks-look-like"
+    },
+    {
+     "path": "scorpions (hub, planned 2026-12-14), scorpion-stings (2026-12-14), bark-scorpions (2026-12-28)",
+     "overlap": "real scorpions",
+     "resolution": "this page is re-parented to /learn so it does not wait for the hub; it links the scorpion pages once they are live and targets no scorpion search"
+    }
+   ],
    "family": "scorpions",
    "priority": 3,
-   "releaseOn": "2026-12-28"
+   "releaseOn": "2026-10-26"
   },
   {
    "section": "blog",
@@ -15224,6 +15293,289 @@
    "family": "mice",
    "priority": 2,
    "releaseOn": "2026-10-23"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "possum-vs-opossum",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "possum vs opossum",
+   "alsoTargets": [
+    "opossum vs possum",
+    "is a possum an opossum",
+    "are possums and opossums the same",
+    "difference between possum and opossum",
+    "what does an opossum look like",
+    "are opossums dangerous",
+    "do opossums carry rabies"
+   ],
+   "h1Hint": "Possum vs Opossum: Are They the Same Animal, and How Do You Tell?",
+   "metaTitleHint": "Possum vs Opossum: Is There a Difference?",
+   "scope": "The vocabulary question first, then the animal people actually meet. The quick answer: in the US and Canada \"possum\" is the everyday name for the Virginia opossum (Didelphis virginiana), the only marsupial north of Mexico; the possums of Australia and New Guinea are a different group of marsupials that share the name (each point only as a museum, a state wildlife agency or a university says it). A quick-ID table under the quick answer: Virginia opossum vs Australian common brushtail possum (and a ringtail possum only if a source and a photo exist): where it lives, size, fur, face, tail, feet, how it defends itself, what it eats; add a row for the raccoon people mistake an opossum for at night. Then the North American opossum: what it looks like (sizes from a state agency or university), range (north into southern Canada, as sources say), the prehensile tail and the thumb on the hind foot, playing dead (what it is, at the sources' strength), babies (pouch, then riding on the mother), lifespan, are opossums dangerous (bites when cornered; rabies only at CDC's or a state health department's strength, never \"immune to rabies\"; any other disease only if a primary source names it), the tick-eating claim in one or two sentences linking /blog/do-chickens-eat-ticks, diet in one line linking /blog/what-eats-ticks-and-mosquitoes, an opossum in the yard, under a deck, in a garage or attic (what state wildlife agencies advise: remove pet food and fallen fruit, secure trash, close gaps once it has left; trapping and relocation only as the state agency says, noting that rules differ by state; link /blog/animals-in-attic), and droppings in one line linking /blog/animal-droppings. Cards: raccoon (/blog/raccoon-poop), rat (/blog/rat-vs-mouse), opossum droppings (/blog/animal-droppings). Sources: the Smithsonian's National Zoo or NMNH, state wildlife agencies (Missouri Department of Conservation, Pennsylvania Game Commission, NY DEC, Texas Parks and Wildlife), the Australian Museum or an Australian state agency for the possums, CDC (rabies), ICWDM. No quote prompt; no product advice beyond the one generic pick.",
+   "pageType": "comparison",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/what-eats-ticks-and-mosquitoes",
+     "overlap": "Canadian TSX article; Search Console gives it every possum query we see (532 impressions in 90 days at 9.5: \"do possums eat mosquitoes\", \"do opossums eat mosquitoes\")",
+     "resolution": "keeps every diet, mosquito-eating and tick-eating search; this page gives diet one line, links it once and targets none of those searches"
+    },
+    {
+     "path": "/blog/do-chickens-eat-ticks",
+     "overlap": "live guide; covers the opossum tick-eating claim and what happened to it (31 opossum mentions)",
+     "resolution": "keeps that evidence; this page states the finding in one or two sentences and links there; no \"do opossums eat ticks\" target"
+    },
+    {
+     "path": "/blog/animals-in-attic",
+     "overlap": "live guide (\"noises in attic at night\"); an opossum section (23 opossum mentions)",
+     "resolution": "keeps opossums in attics and the noise sorter; link both ways; its opossum section is the best link-in"
+    },
+    {
+     "path": "/blog/animal-droppings and /blog/raccoon-poop",
+     "overlap": "live; an opossum row and the targets \"raccoon vs possum poop\" (animal-droppings) and \"raccoon poop vs opossum poop\" (raccoon-poop)",
+     "resolution": "keep every droppings search; this page mentions droppings in one line and links animal-droppings; both are link-in candidates"
+    },
+    {
+     "path": "possum-poop (planned, dated 2026-10-20, not written)",
+     "overlap": "opossum droppings; blocked since Oct 20 (photo-notes-batch8.json: no trustworthy opossum-droppings photo under an allowed licence)",
+     "resolution": "no target overlap; link it once it is live"
+    },
+    {
+     "path": "/blog/raccoon-deterrent and /blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+     "overlap": "amazon.ca product and Canadian proofing pages that mention opossums",
+     "resolution": "no change; not linked from this page"
+    }
+   ],
+   "family": "wildlife",
+   "priority": 2,
+   "releaseOn": "2026-10-26"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "how-long-do-rats-live",
+   "cluster": "mice",
+   "audience": "na",
+   "keyword": "how long do rats live",
+   "alsoTargets": [
+    "rat lifespan",
+    "how long do wild rats live",
+    "how long do pet rats live",
+    "how long do norway rats live",
+    "how long do rats live in the wild",
+    "how long can a rat live without food",
+    "how old do rats get"
+   ],
+   "h1Hint": "How Long Do Rats Live? Wild Rats, Pet Rats and How Fast They Breed",
+   "metaTitleHint": "How Long Do Rats Live? Wild vs Pet Rats",
+   "scope": "The answer first: how long wild Norway and roof rats live and how long pet (domesticated) rats live, each figure only as UC IPM, CDC, a state extension or a veterinary school gives it, saying which rat each number is for. A quick-ID table under the quick answer: Norway rat, roof rat, pet rat, and the house mouse for contrast (linking /blog/how-long-do-mice-live): lifespan in the wild, in captivity, age at maturity, gestation, litter size and litters a year, each cell from a source linked on the page. Then: why a rat problem outlasts any one rat (how fast they breed, at the sources' strength), telling a young rat from an adult (only what a source supports; the house-mouse-vs-young-rat photo shows a 2-week-old rat), how long a rat lives without food or water (only from a source, else leave it out), how long rats stay in walls or an attic (as long as food and shelter last, as sources say), what winter does and does not do to them (no folklore), pet rats in one short section from a veterinary source (no care guide), and what to do (seal entry points and set snap traps as CDC and UC IPM advise, linking /blog/roof-rat-vs-norway-rat for which rat and /blog/rat-droppings for signs; rodenticides only as \"the label is the law\"). Cards: Norway or roof rat (/blog/roof-rat-vs-norway-rat), rat or mouse (/blog/rat-vs-mouse), rat droppings (/blog/rat-droppings), house mouse (/blog/how-long-do-mice-live). Sources: UC IPM Pest Notes: Rats, CDC rodent pages, Cornell, NC State or Texas A&M extension, a veterinary school or AVMA for pet rats. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-long-do-mice-live",
+     "overlap": "live Oct 7 (\"how long do mice live\"; 815 impressions Oct 18-24 at 10.1); mentions rats for contrast; no alsoTargets",
+     "resolution": "keeps mice; this page keeps rats; link both ways; its rat sentence is the best link-in"
+    },
+    {
+     "path": "/blog/rat-vs-mouse and /blog/roof-rat-vs-norway-rat",
+     "overlap": "live comparisons; species traits",
+     "resolution": "keep the comparisons; this page links each once and repeats no comparison table"
+    },
+    {
+     "path": "/blog/rat-droppings and /learn/mice",
+     "overlap": "signs of rats; the mouse and rat pillar",
+     "resolution": "link; /learn/mice is the parent (mustLink)"
+    },
+    {
+     "path": "mouse-nest (planned 2027-01-04; \"rat nest vs mouse nest\"), baby-rats and rat-nest (research only)",
+     "overlap": "breeding, babies and nests",
+     "resolution": "this page answers how fast rats breed in one section at the sources' strength and does not target \"baby rats\" or \"rat nest\""
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-rats-canada and /blog/best-rat-trap-canada",
+     "overlap": "Canadian TSX control and amazon.ca product pages",
+     "resolution": "no change; not linked from this page"
+    }
+   ],
+   "family": "mice",
+   "priority": 2,
+   "releaseOn": "2026-10-26"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "deer-poop",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "deer poop",
+   "alsoTargets": [
+    "deer droppings",
+    "what does deer poop look like",
+    "deer scat",
+    "deer pellets",
+    "deer poop vs rabbit poop",
+    "is deer poop dangerous",
+    "deer poop in yard"
+   ],
+   "h1Hint": "Deer Poop: What Deer Droppings Look Like, and Is It Dangerous?",
+   "metaTitleHint": "Deer Poop: What Deer Droppings Look Like",
+   "scope": "What deer poop looks like, first: pellets, oval or acorn-shaped and often pointed at one end, usually in a pile, with firmer separate pellets on winter browse and softer clumps on green forage in spring and summer (shapes and sizes only from a state wildlife agency, a university or ICWDM, sizes in inches). A quick-ID table under the quick answer: deer, rabbit, elk or moose (only where a source covers them) and the rodent droppings people confuse at a glance (rat, squirrel): shape, size in inches, pile or scattered, where you find it. Deer poop vs rabbit poop as its own h2 (this page owns that search). Fresh vs old (shine and moisture vs dry and crumbly, at the sources' strength) and what a count of pellet piles tells wildlife biologists (only as a state agency describes it; one short paragraph, no hunting advice). Is deer poop dangerous: E. coli (only as CDC, FDA or a state health department reports it, for example the outbreak traced to deer droppings in a strawberry field), chronic wasting disease (CDC: no human cases reported; prions in feces only as CDC or USGS says), dogs that eat deer poop (parasites and bacteria only from a veterinary school or AVMA source), produce from a garden deer use (as FDA or USDA advise). Cleanup: gloves and handwashing, as health agencies advise for animal droppings. Deer in the yard in one short section at extension strength (fencing, repellents), no product claims. Cards: rabbit droppings (no page: shown without a link), raccoon poop (/blog/raccoon-poop), rat droppings (/blog/rat-droppings), squirrel poop (/blog/squirrel-poop), coyote scat (/blog/animal-droppings). Sources: state wildlife agencies (Missouri Department of Conservation, Pennsylvania Game Commission, Wisconsin DNR), ICWDM, UF/IFAS (UW369), CDC, USGS, FDA. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1000,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "live Oct 20 sorter (\"animal poop identification\"); a deer row and a rabbit row; no deer target",
+     "resolution": "keeps the chart and every \"what animal poop is this\" search; its deer row links here (the best link-in); this page links the chart for other animals"
+    },
+    {
+     "path": "/blog/squirrel-poop",
+     "overlap": "live Oct 21; cites UF/IFAS UW369 on squirrel pellets vs slightly larger, smoother white-tailed deer pellets",
+     "resolution": "keeps squirrel searches; that sentence is the second link-in candidate; this page links back for squirrel pellets"
+    },
+    {
+     "path": "/blog/raccoon-poop, /blog/rat-droppings, /blog/bat-poop",
+     "overlap": "droppings family siblings",
+     "resolution": "cards and links; no shared targets"
+    },
+    {
+     "path": "rabbit poop (research only; the head search is mostly pet-rabbit care)",
+     "overlap": "\"deer poop vs rabbit poop\"",
+     "resolution": "this page owns the deer-or-rabbit comparison; a future rabbit page keeps \"rabbit poop\""
+    },
+    {
+     "path": "/blog/how-to-stop-deer-eating-cedars-ontario and /blog/best-deer-fence-for-gardens-canada",
+     "overlap": "Canadian TSX and amazon.ca product pages about deer in yards",
+     "resolution": "no change; not linked from this page"
+    },
+    {
+     "path": "/blog/blacklegged-deer-tick-ontario, /blog/deer-mice, deer-keds (planned 2026-12-07)",
+     "overlap": "the word \"deer\" only",
+     "resolution": "no overlap; no link needed"
+    }
+   ],
+   "family": "droppings",
+   "priority": 2,
+   "releaseOn": "2026-10-26"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/mice"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "voles",
+   "cluster": "mice",
+   "keyword": "vole",
+   "alsoTargets": [
+    "voles",
+    "what does a vole look like",
+    "vole damage",
+    "how to get rid of voles",
+    "vole vs mouse",
+    "vole tunnels",
+    "voles in yard"
+   ],
+   "h1Hint": "Voles: How to Identify a Vole, Spot the Damage and Get Rid of Them",
+   "metaTitleHint": "Voles: How to ID Them and Stop the Damage",
+   "scope": "US edition of /blog/how-to-get-rid-of-voles-canada, written fresh for US readers (US species, ranges and extension sources; no Canadian retail or regulators). The animal first: what a vole looks like (a small, stocky rodent with a blunt face, small eyes, ears half-hidden in fur and a short tail; sizes only from sources) and the US voles people meet: meadow, prairie and pine (woodland) voles in the East and Midwest, the California and montane voles in the West, each only where a source covers it. A quick-ID table under the quick answer: vole, house mouse, deer mouse, shrew, mole: snout, eyes and ears, tail, fur, food, signs (linking /blog/field-mice, /blog/shrews, /blog/holes-in-yard). Signs and damage: surface runways in grass (most visible at snowmelt), small burrow openings without mounds (sizes as sources give them), gnawed bark and roots at the base of trees and shrubs, bulbs and root crops eaten from below; vole or mole damage in one paragraph linking /blog/holes-in-yard (which keeps \"mole vs vole\"). When voles are worst (population cycles, winter damage under snow, as sources say). How to get rid of voles: cut cover (mow, pull mulch and weeds back from trunks), 1/4-inch hardware cloth cylinders around trunks, snap traps set across runways, repellents and baits only at extension and label strength (rodenticides: the label is the law, no poison recipes), and what does not work only where a source says so. Are voles dangerous (bites when handled; disease only at CDC's or a state health department's strength). Cards: field mouse (/blog/field-mice), shrew (/blog/shrews), mole (/blog/holes-in-yard), house mouse (/blog/types-of-mice). Sources: UC IPM Pest Notes: Voles, ICWDM, Penn State, University of Minnesota, NC State or Cornell extension, Missouri Department of Conservation. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "pesticide"
+   ],
+   "minWords": 1300,
+   "parent": {
+    "href": "/learn/mice",
+    "name": "Mice"
+   },
+   "pairWith": "/blog/how-to-get-rid-of-voles-canada",
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-voles-canada",
+     "overlap": "the Canadian edition (TSX, META_TITLE \"Get Rid of Voles Canada: Vole vs Mouse ID\"; 137-170 impressions a week at 7-9, almost all Canadian; carries amazon.ca links: 9 BuyLink, 1 AwardRow, 1 StickyBuyBar, 1 TopBox, 11 search=)",
+     "resolution": "regional pair: at release add { us: '/blog/voles', ca: '/blog/how-to-get-rid-of-voles-canada' } to REGIONAL_PAIRS in lib/guides.ts and wrap that page's metadata in withRegionalAlternates (as the centipede and silverfish twins do); count the affiliate tokens before and after (they must not change); no link from this page"
+    },
+    {
+     "path": "/blog/field-mice",
+     "overlap": "live Oct 7 (\"field mice\"; metaTitle names voles; h3 \"How do you recognize a vole?\" and \"Voles: roots, bark and lawn runways\"; 131 impressions Oct 18-24 at 7.5)",
+     "resolution": "keeps \"field mice\" and its deer mouse and vole sorter; this page owns \"vole\"; link both ways; its vole h3 is the best link-in"
+    },
+    {
+     "path": "/blog/types-of-mice",
+     "overlap": "h3 \"Voles\" under \"Which animals get mistaken for mice?\"",
+     "resolution": "keeps \"types of mice\"; second link-in candidate"
+    },
+    {
+     "path": "/blog/holes-in-yard",
+     "overlap": "owns \"mole vs vole\" (h2 \"Is it a mole or a vole?\")",
+     "resolution": "this page links that section and does not target \"mole vs vole\""
+    },
+    {
+     "path": "/blog/shrews",
+     "overlap": "owns \"shrew vs vole\"",
+     "resolution": "card and link; no target here"
+    },
+    {
+     "path": "/learn/mice and /blog/lawn-pest-control",
+     "overlap": "the rodent pillar; lawn pests",
+     "resolution": "/learn/mice is the parent (mustLink); link lawn-pest-control only if a sentence needs it"
+    },
+    {
+     "path": "moles (research only, \"how to get rid of moles\")",
+     "overlap": "yard damage",
+     "resolution": "no target; one line on moles linking holes-in-yard"
+    }
+   ],
+   "family": "us-editions",
+   "priority": 2,
+   "releaseOn": "2026-10-26"
   }
  ]
 }

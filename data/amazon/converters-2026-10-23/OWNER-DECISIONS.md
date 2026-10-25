@@ -50,3 +50,15 @@ not, is the liability the site rules warn about. Fixing the wording of a box kee
 ## Also noted (not affiliate)
 
 - permethrin-canada-yard-clothing-spray: about 20 older lines say yard use is licensed-only. They are unverified because the registry was down. Recheck when PMRA is reachable.
+
+## Second pass, Oct 25 (follow-ups to the approved fixes; same rule: swap for the page's registered pick)
+
+1. **advion-cockroach-gel-bait.** Combat and Raid Max roach baits are cancelled in Health Canada's registry export of
+   3 Oct 2026 (confirmed by the text pass). The box already says "check the PCP number". Next step: swap the Combat
+   pick for a registered domestic bait that the page itself lists.
+2. **best-bed-bug-powder-canada.** CimeXa is still the top pick in the StickyBuyBar, TopBox, AwardRow card 1, table
+   (L216-220) and button (L267), but it is not in the export. The page text no longer calls it registered. Next step:
+   swap it for the registered DE product the page lists.
+3. **bed-bug-spray-canada ASIN B0D2PFS1WZ.** It is unverified which Sleep Tight can this ASIN opens. The box tells
+   readers to check for PCP 29339; the ASIN is unchanged.
+4. **Generic botanical picks** ("natural ... bed bug spray" searches) name no product. They are left as is.

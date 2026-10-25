@@ -27,7 +27,7 @@ const META_TITLE = 'Motion-Activated Sprinkler: Best in Canada 2026'
 const FAQS = [
   {
     question: 'What is the best motion-activated sprinkler in Canada?',
-    answer: 'The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards in 2026. Its infrared sensor detects animal movement up to roughly 12 metres away across a 120-degree arc, fires a startling 5-second burst of water, and — critically — offers day-only, night-only, and 24-hour sensing modes, so you can target nocturnal raccoons without soaking daytime songbirds or your kids. It runs on 4 AA alkaline batteries, and each deterrent event uses only about 2 cups of water. The step-up Yard Enforcer Pro adds a wider detection footprint for larger lots, and budget clones cover small garden beds for less, but the standard Yard Enforcer hits the sweet spot of reliability, sensing intelligence, and parts availability in Canada.',
+    answer: 'The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards in 2026. Its infrared sensor detects animal movement up to roughly 12 metres away across a 120-degree arc, fires a startling 5-second burst of water, and — critically — offers day-only, night-only, and 24-hour sensing modes, so you can target nocturnal raccoons without soaking daytime songbirds or your kids. It runs on 4 AA alkaline batteries, and each deterrent event uses only about 2 cups of water. For a larger lot, a second standard Yard Enforcer covers a second approach route (Orbit says the flow-through outlet "allows you to add additional sprinklers triggered by the sensor"), and budget clones cover small garden beds for less, but the standard Yard Enforcer hits the sweet spot of reliability, sensing intelligence, and parts availability in Canada.',
   },
   {
     question: 'Do motion-activated sprinklers actually work on raccoons?',
@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     question: 'Can I run more than one motion-activated sprinkler on the same hose?',
-    answer: 'Yes. The Orbit Yard Enforcer has a pass-through hose connection on the back, so you can daisy-chain a second unit (or a regular sprinkler) downstream off the same tap. Two units placed to cover different approach routes — say, the back fence line and the vegetable garden — dramatically cut down the unprotected gaps a clever raccoon or cat will find. If you daisy-chain, use good-quality washers at every connection and check for drips, since the whole chain sits under pressure around the clock. For very large lots, the Yard Enforcer Pro’s bigger detection footprint may cover in one unit what two standard units would.',
+    answer: 'Yes. The Orbit Yard Enforcer has a pass-through hose connection on the back, so you can daisy-chain a second unit (or a regular sprinkler) downstream off the same tap. Two units placed to cover different approach routes — say, the back fence line and the vegetable garden — dramatically cut down the unprotected gaps a clever raccoon or cat will find. If you daisy-chain, use good-quality washers at every connection and check for drips, since the whole chain sits under pressure around the clock. For very large lots, add a standard unit per approach route: Orbit rates detection at up to 40 ft per unit, and its Canadian site lists no Yard Enforcer Pro.',
   },
   {
     question: 'Will it spray my dog, my kids, or the mail carrier?',
@@ -71,7 +71,7 @@ const FAQS = [
   },
   {
     question: 'Motion-activated sprinkler vs repellent sprays and granules — which is better?',
-    answer: 'For raccoons, cats, and squirrels, the sprinkler wins on almost every axis that matters in Canada. Scent repellents (capsaicin, putrescent egg, predator urine) fade with rain and UV and need reapplication every one to two weeks all season; a sprinkler re-arms itself indefinitely on one battery. Repellents are also where the regulatory mess lives: a legal repellent in Canada must carry a PMRA registration number on the label, and many popular US-market granules and coyote-urine products sold through cross-border sellers carry none — while household folk remedies like scattering mothballs outdoors are actually an illegal off-label use of a registered pesticide. A device that fires water has no label, no residue, and no legal grey zone. Where repellents earn a place is indoors and in structures — areas a sprinkler obviously cannot go.',
+    answer: 'For raccoons, cats, and squirrels, the sprinkler wins on almost every axis that matters in Canada. Scent repellents (capsaicin, putrescent egg, predator urine) fade with rain and UV and need reapplication every one to two weeks all season; a sprinkler re-arms itself after every burst, on one set of 4 AA batteries (Orbit publishes no battery-life figure). Repellents are also where the regulatory mess lives: a legal repellent in Canada must carry a PMRA registration number on the label, and many popular US-market granules and coyote-urine products sold through cross-border sellers carry none — while household folk remedies like scattering mothballs outdoors are actually an illegal off-label use of a registered pesticide. A device that fires water has no label, no residue, and no legal grey zone. Where repellents earn a place is indoors and in structures — areas a sprinkler obviously cannot go.',
   },
   {
     question: 'What is a motion sensor sprinkler?',
@@ -196,7 +196,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Best overall model', 'Orbit Yard Enforcer (day/night sensing, season-long battery)'],
+                  ['Best overall model', 'Orbit Yard Enforcer (day/night sensing, 4 AA batteries)'],
                   ['Detection range', 'Up to ~12 m (40 ft), 120° adjustable arc'],
                   ['Water per activation', '~2 cups (500 mL) in a 5-second burst'],
                   ['Batteries', '4 AA alkaline (Orbit publishes no battery-life figure)'],
@@ -225,7 +225,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Motion-Activated Sprinkler in Canada?</h2>
-          <p>The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards, and it is not a close race. Plenty of products in this category can detect motion and fire water; the Yard Enforcer is the one that got the <em>sensing intelligence</em> right — a proper day/night/24-hour mode selector, an anti-false-trigger algorithm that learns to ignore wind-blown branches, and a battery budget that lasts an entire season. Those three things are the difference between a deterrent your household tolerates for years and a gadget that soaks the letter carrier twice and gets banished to the garage.</p>
+          <p>The Orbit Yard Enforcer is the best motion-activated sprinkler for Canadian yards, and it is not a close race. Plenty of products in this category can detect motion and fire water; the Yard Enforcer is the one that got the <em>sensing intelligence</em> right — a proper day/night/24-hour mode selector, an anti-false-trigger algorithm that learns to ignore wind-blown branches, and modest power needs: 4 AA batteries, though Orbit publishes no battery-life figure. Those three things are the difference between a deterrent your household tolerates for years and a gadget that soaks the letter carrier twice and gets banished to the garage.</p>
           <p>The concept itself is beautifully simple. A passive infrared sensor — the same technology as a security floodlight — watches a wedge of your yard for the heat signature of a moving animal. When something warm crosses the zone, a valve snaps open and an impact-sprinkler head fires a short, noisy burst of cold water. The combination of sudden spray, the mechanical clatter of the head, and pure surprise is deeply unpleasant to raccoons, cats, squirrels, skunks, and deer — without harming a hair on any of them. The animal does not just leave; it learns that your yard is unpredictable and hostile, which is the entire behavioural game.</p>
 
           <NextUp path="/blog/motion-activated-sprinkler-canada" />

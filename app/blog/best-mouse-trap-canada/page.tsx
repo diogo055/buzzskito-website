@@ -28,11 +28,11 @@ const META_TITLE = 'Best Mouse Traps Canada: Snap, Electric & Humane'
 const FAQS = [
   {
     question: 'What is the best mouse trap in Canada?',
-    answer: 'For most Canadian homes, the classic Victor M325 wood snap trap is still the best overall mouse trap: it kills quickly when placed correctly, is reusable dozens of times, and a 4-pack covers a typical kitchen or garage problem for the market price of a coffee run. If you want no-touch, no-see disposal, the Victor M250S electronic trap is the best upgrade — it kills in seconds and manages up to 100 kills per set of 4 AA batteries. Choose a catch-and-release trap like the Motel Mouse only if you are committed to checking it every few hours and releasing mice at least 2 km from your house.',
+    answer: 'For most Canadian homes, the classic Victor M325 wood snap trap is still the best overall mouse trap: it kills quickly when placed correctly, is reusable dozens of times, and a 4-pack covers a typical kitchen or garage problem for the market price of a coffee run. If you want no-touch, no-see disposal, the Victor M250S electronic trap is the best upgrade — it kills with a high-voltage shock inside a closed tunnel, runs on 4 AA batteries, and flashes a green light after a catch. Choose a catch-and-release trap like the Motel Mouse only if you are committed to checking it every few hours and releasing mice at least 2 km from your house.',
   },
   {
     question: 'Are electronic mouse traps worth it in Canada?',
-    answer: 'Yes, for specific buyers. Electronic traps like the Victor M250S deliver a high-voltage shock that kills in under 5 seconds, then a green indicator light tells you there is a mouse inside — you tip the body into the garbage without seeing or touching it. One set of 4 AA batteries handles up to 100 kills. The trade-offs: a much higher upfront cost than snap traps, they are for indoor dry locations only, and a single unit covers one runway while the same spend buys 15–20 snap traps you can deploy along every wall.',
+    answer: 'Yes, for specific buyers. Electronic traps like the Victor M250S (Victor now lists it as the M250B) kill with a high-voltage shock, then a green light flashes every 10 seconds for up to a week to tell you there is a mouse inside — you tip the body into the garbage without seeing or touching it. It runs on 4 AA batteries; Victor publishes no kill time and no kills-per-battery figure. The trade-offs: a much higher upfront cost than snap traps, they are for indoor dry locations only, and a single unit covers one runway while the same spend buys 15–20 snap traps you can deploy along every wall.',
   },
   {
     question: 'What is the best bait for a mouse trap?',
@@ -132,7 +132,7 @@ export default function BestMouseTrapCanadaPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A female house mouse can produce 5–10 litters per year of 5–6 pups each — two mice in October can become 30+ by January.</li>
               <li>Place traps every 2–3 metres along walls, trigger end touching the baseboard; mice rarely travel more than 3–9 metres from the nest.</li>
-              <li>The Victor M250S electronic trap kills in under 5 seconds and delivers up to 100 kills per set of 4 AA batteries.</li>
+              <li>The Victor M250S electronic trap kills with a high-voltage shock in a closed tunnel and runs on 4 AA batteries; Victor publishes no kill time or kills-per-battery figure.</li>
               <li>A pea-sized smear of peanut butter outperforms cheese as bait; a big glob lets mice feed without triggering the trap.</li>
               <li>Second-generation anticoagulant rodenticides (brodifacoum, bromadiolone) are not sold as domestic-class products in Canada — trap first.</li>
               <li>Glue traps are legal in most of Canada but discouraged by humane organizations; England and Wales banned public use in 2022.</li>
@@ -215,7 +215,7 @@ export default function BestMouseTrapCanadaPage() {
               <tbody>
                 {[
                   { type: 'Snap trap', pick: 'Victor M325 (4-pack)', kill: 'Instant mechanical kill when wall-placed', reuse: 'Dozens of catches per trap', best: 'Best overall — cheap enough to deploy 6–12 at once' },
-                  { type: 'Electronic trap', pick: 'Victor M250S', kill: 'High-voltage shock, dead in under 5 seconds', reuse: 'Up to 100 kills per 4×AA battery set', best: 'No-see, no-touch disposal; indoor dry areas' },
+                  { type: 'Electronic trap', pick: 'Victor M250S', kill: 'High-voltage shock in a closed tunnel', reuse: 'Reusable; 4×AA batteries, one mouse per setting', best: 'No-see, no-touch disposal; indoor dry areas' },
                   { type: 'Catch-and-release', pick: 'Motel Mouse (2-pack)', kill: 'Live capture — no kill', reuse: 'Indefinitely reusable', best: 'No-kill households willing to release 2+ km away' },
                   { type: 'Glue board', pick: 'Not recommended', kill: 'Slow death over hours–days', reuse: 'Single use', best: 'Nothing — inhumane, catches non-target animals' },
                 ].map(({ type, pick, kill, reuse, best }) => (
@@ -271,8 +271,8 @@ export default function BestMouseTrapCanadaPage() {
           </div>
 
           <h2>Are Electronic Mouse Traps Like the Victor M250S Worth It?</h2>
-          <p>Yes — if your objection to snap traps is seeing or touching the result, the Victor M250S solves exactly that problem. The mouse enters a dark tunnel (mice love enclosed spaces), steps on metal plates, and a high-voltage shock kills it in under 5 seconds. A green blinking light tells you there is a catch; you hold the trap over a garbage bag and tip. No sight, no touch, no blood.</p>
-          <p>The numbers: up to 100 kills per set of 4 AA batteries, a tunnel design that pets and children cannot reach into, and a kill rate in independent tests that rivals well-placed snap traps. The limits: indoor dry locations only (no garages with condensation, no crawl spaces), one runway covered per unit, and an upfront cost per trap that is 15–20× a wooden snap trap. For a full teardown of long-term reliability, battery life in real Canadian basements, and the common false-trigger complaints, see our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
+          <p>Yes — if your objection to snap traps is seeing or touching the result, the Victor M250S solves exactly that problem. The mouse enters a dark tunnel (mice love enclosed spaces), steps on metal plates, and a high-voltage shock kills it. A green blinking light tells you there is a catch; you hold the trap over a garbage bag and tip. No sight, no touch, no blood.</p>
+          <p>What Victor publishes: four AA batteries (not rechargeables), one mouse per setting, a green light that flashes every 10 seconds for up to a week after a catch, and bevelled columns that keep children and pets from reaching the plates; it gives no kill time and no kills-per-battery figure. The limits: indoor dry locations only (no garages with condensation, no crawl spaces), one runway covered per unit, and an upfront cost per trap that is 15–20× a wooden snap trap. For a full teardown of long-term reliability, battery life in real Canadian basements, and the common false-trigger complaints, see our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
           <p>The smart deployment is hybrid: an M250S in the kitchen where you would rather not meet the result at breakfast, and cheap snap traps everywhere else.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check Victor M250S on Amazon.ca →</BuyLink>

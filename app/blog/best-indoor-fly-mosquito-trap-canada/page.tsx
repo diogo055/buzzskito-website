@@ -24,7 +24,7 @@ const META_TITLE = 'Best Indoor Mosquito & Fly Trap in Canada 2026'
 const FAQS = [
   {
     question: 'What is the best indoor fly and mosquito trap in Canada?',
-    answer: 'For most Canadian homes, a plug-in UV + fan + glue-board trap (Katchy-style) is the best all-round indoor pick — it catches fruit flies, fungus gnats, houseflies, and the occasional indoor mosquito quietly overnight, with cheap glue-board refills. For larger rooms, a DynaTrap fan-suction UV unit covers up to ~600 sq ft with no refills. For a set-and-forget plug-in, a UV + sticky-cartridge trap (Zevo/Black+Decker style) is the simplest. No indoor trap is strong against mosquitoes specifically, because mosquitoes hunt by CO2 and body heat, not light — so pair any trap with source control.',
+    answer: 'For most Canadian homes, a plug-in UV + fan + glue-board trap (Katchy-style) is the best all-round indoor pick — it catches fruit flies, fungus gnats, houseflies, and the occasional indoor mosquito quietly overnight, with cheap glue-board refills. DynaTrap’s fan-suction UV unit (the 1/4 Acre DT160) is rated for up to 1/4 acre and sold with DynaTrap’s outdoor traps, so it is a yard option, not a room trap. For a set-and-forget plug-in, a UV + sticky-cartridge trap (Zevo/Black+Decker style) is the simplest. No indoor trap is strong against mosquitoes specifically, because mosquitoes hunt by CO2 and body heat, not light — so pair any trap with source control.',
   },
   {
     question: 'Do indoor UV light traps actually catch mosquitoes?',
@@ -113,7 +113,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>The UV + fan + glue-board trap (Katchy-style) is the best overall pick for small-to-medium rooms like bedrooms and kitchens.</li>
               <li>Replacement glue boards run about $13&ndash;$18 for a 4-pack.</li>
-              <li>A DynaTrap fan-suction UV unit covers up to roughly 600 sq ft with no refills to buy.</li>
+              <li>The DynaTrap 1/4 Acre unit (DT160) is rated for up to 1/4 acre and sold as an outdoor trap, with no refills to buy.</li>
               <li>Mosquitoes (Culex and Aedes) are drawn by CO&#8322; and body heat, so UV-light traps catch them poorly.</li>
               <li>A UV + sticky-cartridge plug-in is the simplest set-and-forget option for a single room.</li>
               <li>Pair any indoor trap with source control and an outdoor barrier so far fewer insects get inside.</li>
@@ -308,7 +308,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
 
           <h2>How to Choose the Right Indoor Trap</h2>
           <ul>
-            <li><strong>Match the room size.</strong> A small plug-in covers a nightstand zone; a fan-suction DynaTrap-style unit handles up to ~600 sq ft. One trap does not cover a whole open-plan floor.</li>
+            <li><strong>Match the room size.</strong> A small plug-in covers a nightstand zone, and one trap does not cover a whole open-plan floor; the DynaTrap 1/4 Acre unit is sold as an outdoor trap, not a room trap.</li>
             <li><strong>Decide: refills or rinsing.</strong> Glue-board and cartridge traps mean recurring refill cost but zero cleanup. Fan-suction traps have no refills but you empty and rinse the basket.</li>
             <li><strong>Confirm refills are still sold.</strong> A $50 trap with discontinued glue boards is disposable. Check the refill listing before you buy.</li>
             <li><strong>Pick silent for bedrooms.</strong> UV + glue board is the quietest category. Save loud zapper grids for the garage.</li>
