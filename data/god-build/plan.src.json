@@ -305,7 +305,7 @@
    ],
    "minNeighbors": 1,
    "dataPacket": "data/god-build/packets/ticks-ca/NL.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-prince-edward-island",
@@ -342,7 +342,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/PE.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-saskatchewan",
@@ -379,7 +379,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-ca/SK.json",
-   "releaseOn": "2026-11-16"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-by-state",
@@ -1610,7 +1610,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/FL.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-louisiana",
@@ -1647,7 +1647,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/LA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-iowa",
@@ -1687,7 +1687,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/IA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-kansas",
@@ -1725,7 +1725,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/KS.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-nebraska",
@@ -1765,7 +1765,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NE.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-california",
@@ -1802,7 +1802,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/CA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-oregon",
@@ -1840,7 +1840,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/OR.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-washington",
@@ -1876,7 +1876,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/WA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-colorado",
@@ -1916,7 +1916,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/CO.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-idaho",
@@ -1956,7 +1956,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/ID.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-montana",
@@ -1994,7 +1994,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/MT.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-utah",
@@ -2033,7 +2033,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/UT.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-arizona",
@@ -2071,7 +2071,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/AZ.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-new-mexico",
@@ -2109,7 +2109,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NM.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-nevada",
@@ -2148,7 +2148,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/NV.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-wyoming",
@@ -2188,7 +2188,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/WY.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "ticks-in-north-dakota",
@@ -2225,7 +2225,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/ND.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "ticks-in-south-dakota",
@@ -2265,7 +2265,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/ticks-us/SD.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "ticks-in-alaska",
@@ -2298,7 +2298,7 @@
    "neighbors": [],
    "minNeighbors": 0,
    "dataPacket": "data/god-build/packets/ticks-us/AK.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "ticks-in-hawaii",
@@ -2331,7 +2331,7 @@
    "neighbors": [],
    "minNeighbors": 0,
    "dataPacket": "data/god-build/packets/ticks-us/HI.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-by-province",
@@ -2373,7 +2373,7 @@
     "/blog/mosquitoes-in-newfoundland-and-labrador"
    ],
    "dataPacket": "data/god-build/packets/mosquitoes-ca/CA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "mosquitoes-in-manitoba",
@@ -2410,7 +2410,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/MB.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-alberta",
@@ -2447,7 +2447,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/AB.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-british-columbia",
@@ -2483,7 +2483,7 @@
    ],
    "minNeighbors": 1,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/BC.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-saskatchewan",
@@ -2520,7 +2520,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/SK.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-quebec",
@@ -2558,7 +2558,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/QC.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-nova-scotia",
@@ -2595,7 +2595,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/NS.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-new-brunswick",
@@ -2633,7 +2633,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/NB.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-newfoundland-and-labrador",
@@ -2669,7 +2669,7 @@
    ],
    "minNeighbors": 1,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/NL.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-prince-edward-island",
@@ -2706,7 +2706,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-ca/PE.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-by-state",
@@ -2787,7 +2787,7 @@
     "/blog/mosquitoes-in-wyoming"
    ],
    "dataPacket": "data/god-build/packets/mosquitoes-us/US.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-04"
   },
   {
    "slug": "mosquitoes-in-florida",
@@ -2823,7 +2823,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/FL.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-texas",
@@ -2861,7 +2861,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/TX.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-louisiana",
@@ -2898,7 +2898,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/LA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-georgia",
@@ -2937,7 +2937,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/GA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-california",
@@ -2974,7 +2974,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/CA.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-arizona",
@@ -3012,7 +3012,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/AZ.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-north-carolina",
@@ -3050,7 +3050,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NC.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-south-carolina",
@@ -3086,7 +3086,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/SC.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-11"
   },
   {
    "slug": "mosquitoes-in-alabama",
@@ -3124,7 +3124,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/AL.json",
-   "releaseOn": "2026-11-23"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-mississippi",
@@ -3162,7 +3162,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MS.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-tennessee",
@@ -3204,7 +3204,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/TN.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-virginia",
@@ -3243,7 +3243,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/VA.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-new-york",
@@ -3282,7 +3282,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NY.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-new-jersey",
@@ -3319,7 +3319,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NJ.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-pennsylvania",
@@ -3359,7 +3359,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/PA.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-ohio",
@@ -3398,7 +3398,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/OH.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-minnesota",
@@ -3436,7 +3436,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MN.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-wisconsin",
@@ -3474,7 +3474,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/WI.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-illinois",
@@ -3513,7 +3513,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/IL.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-michigan",
@@ -3550,7 +3550,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MI.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-indiana",
@@ -3588,7 +3588,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/IN.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-missouri",
@@ -3630,7 +3630,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MO.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-arkansas",
@@ -3670,7 +3670,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/AR.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-oklahoma",
@@ -3710,7 +3710,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/OK.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-kentucky",
@@ -3751,7 +3751,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/KY.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-maryland",
@@ -3789,7 +3789,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MD.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-massachusetts",
@@ -3828,7 +3828,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MA.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-connecticut",
@@ -3865,7 +3865,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/CT.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-north-dakota",
@@ -3902,7 +3902,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/ND.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-18"
   },
   {
    "slug": "mosquitoes-in-colorado",
@@ -3942,7 +3942,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/CO.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-washington",
@@ -3978,7 +3978,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/WA.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-oregon",
@@ -4016,7 +4016,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/OR.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-maine",
@@ -4051,7 +4051,7 @@
    ],
    "minNeighbors": 1,
    "dataPacket": "data/god-build/packets/mosquitoes-us/ME.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-new-hampshire",
@@ -4088,7 +4088,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NH.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-vermont",
@@ -4125,7 +4125,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/VT.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-delaware",
@@ -4162,7 +4162,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/DE.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-rhode-island",
@@ -4198,7 +4198,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/RI.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-west-virginia",
@@ -4237,7 +4237,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/WV.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-iowa",
@@ -4277,7 +4277,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/IA.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-kansas",
@@ -4315,7 +4315,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/KS.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-nebraska",
@@ -4355,7 +4355,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NE.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-south-dakota",
@@ -4395,7 +4395,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/SD.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-utah",
@@ -4434,7 +4434,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/UT.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-nevada",
@@ -4473,7 +4473,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NV.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-new-mexico",
@@ -4511,7 +4511,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/NM.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-idaho",
@@ -4551,7 +4551,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/ID.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-montana",
@@ -4589,7 +4589,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/MT.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-wyoming",
@@ -4629,7 +4629,7 @@
    ],
    "minNeighbors": 2,
    "dataPacket": "data/god-build/packets/mosquitoes-us/WY.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "slug": "mosquitoes-in-hawaii",
@@ -4662,7 +4662,7 @@
    "neighbors": [],
    "minNeighbors": 0,
    "dataPacket": "data/god-build/packets/mosquitoes-us/HI.json",
-   "releaseOn": "2026-11-30"
+   "releaseOn": "2027-01-25"
   },
   {
    "section": "blog",
