@@ -1122,6 +1122,36 @@
       "name": "Wasp and hornet spray",
       "search": "wasp and hornet spray",
       "basis": "\"**Use a wasp and hornet spray labeled for nests**\"; \"Penn State says these sprays shoot a stream up to 20 feet, and Kentucky says most make the insects drop instantly, so never stand under the nest\". The page names this type; UF and Utah State's no-spray options are also on the page."
+    },
+    "carpet-beetle-rash": {
+      "label": "For itchy skin",
+      "name": "Hydrocortisone cream",
+      "search": "hydrocortisone cream",
+      "basis": "\"**Try an over-the-counter remedy.** MedlinePlus suggests hydrocortisone cream on the itchy areas or an oral antihistamine\"; the MedlinePlus list later on the page also names over-the-counter hydrocortisone cream."
+    },
+    "pseudoscorpions": {
+      "label": "To dry out a damp room",
+      "name": "Dehumidifier",
+      "search": "dehumidifier",
+      "basis": "\"**Dry out damp rooms.** Wisconsin says pseudoscorpions prefer humid conditions in homes, and Penn State's booklice page suggests a dehumidifier, a moisture absorber or another way to bring relative humidity below 50%\". Never an insecticide."
+    },
+    "possum-vs-opossum": {
+      "label": "To close a den opening",
+      "name": "1/4-inch hardware cloth",
+      "search": "1/4 inch hardware cloth",
+      "basis": "\"**Close the gap for good.** Washington recommends 1/4-inch mesh hardware cloth, boards or metal flashing\"; the page repeats it: close the opening with hardware cloth once the animal has left."
+    },
+    "how-long-do-rats-live": {
+      "label": "For rats in the house",
+      "name": "Rat snap traps",
+      "search": "rat snap traps",
+      "basis": "\"**Set snap traps, not glue or live traps.** CDC's trapping guide recommends traditional snap traps made for rats, set on the floor against the wall, and advises against glue and live traps\". Snap traps made for rats, as the page says; never glue or live traps."
+    },
+    "deer-poop": {
+      "label": "For picking up droppings",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "\"keep deer droppings off food, remove them with gloves or a tool and wash your hands afterward\" (the CDC E. coli and Salmonella sentence). The page names gloves; nothing else to buy."
     }
   }
 }

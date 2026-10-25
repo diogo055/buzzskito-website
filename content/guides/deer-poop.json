@@ -1,0 +1,164 @@
+{
+  "slug": "deer-poop",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "deer poop",
+  "alsoTargets": [
+    "deer droppings",
+    "what does deer poop look like",
+    "deer scat",
+    "deer pellets",
+    "deer poop vs rabbit poop",
+    "is deer poop dangerous",
+    "deer poop in yard"
+  ],
+  "metaTitle": "Deer Poop: What Deer Droppings Look Like",
+  "metaDescription": "Deer poop is a pile of dark oval pellets 1/2 to 1 inch long. Photos, deer vs rabbit poop, E. coli and CWD facts, and what it means for dogs and gardens.",
+  "h1": "Deer Poop: What Deer Droppings Look Like, and Is It Dangerous?",
+  "dek": "Deer leave piles of dark pellets up to an inch long that can run together on summer greens. Photos and a quick-ID table set them beside rabbit, squirrel, rat, raccoon and coyote droppings, with what CDC, FDA and vets say.",
+  "breadcrumb": "Deer Poop",
+  "excerpt": "What deer droppings look like in every season, how to tell them from rabbit and squirrel pellets, and what deer poop means for people, dogs and vegetable gardens.",
+  "datePublished": "2026-10-25",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Deer poop is a pile of dark, oval or cylindrical pellets about 1/2 to 1 inch long; on soft spring and summer greens the pellets can run together into one wet clump.** Rabbit pellets are rounder, rougher and smaller, about 1/4 inch across, so shape and size usually settle it.",
+    "bullets": [
+      "[Wildlife Illinois, the Illinois Department of Natural Resources' guide to animal signs](https://wildlifeillinois.org/discover-animal-signs/white-tailed-deer-scat/), describes piles of dark, cylindrical deer pellets 1/2 to 1 inch long, larger than a rabbit's.",
+      "[UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/UW369) says rounded, pea-sized pellets with a rough texture are likely rabbit, and slightly larger, smoother ovals likely white-tailed deer.",
+      "[The Missouri Department of Conservation](https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective) explains the seasonal change: soft green browse in spring and summer gives wet pellets pressed into a bigger plop, woody browse in fall a pile of dry pellets.",
+      "Deer feces can carry E. coli O157:H7: a 2011 Oregon outbreak was traced to strawberries contaminated by deer, [investigators reported in Clinical Infectious Diseases](https://pubmed.ncbi.nlm.nih.gov/23876397/).",
+      "[CDC](https://www.cdc.gov/chronic-wasting/about/index.html) says chronic wasting disease prions spread between deer through body fluids including feces, and that no human infections have ever been reported, though it is not known whether people could be infected."
+    ]
+  },
+  "facts": {
+    "title": "Deer poop or something else? Quick ID",
+    "head": ["Animal", "Shape and size", "Pile or scattered", "Where you find it"],
+    "rows": [
+      ["White-tailed deer", "Dark oval or cylindrical pellets 1/2 to 1 inch long; a soft clump on green summer food", "Piles of many pellets", "Almost anywhere deer feed or travel"],
+      ["Cottontail rabbit", "Round, coarse pellets about 1/4 inch across", "Often scattered over an area", "Where rabbits feed, near low bushes and other cover"],
+      ["Squirrel", "Smaller oval pellets, about 5/16 to 3/8 inch long", "Placed at random", "Yards"],
+      ["Norway rat", "Capsules with blunt ends, up to 3/4 inch long and 1/4 inch wide", "Clumped in small groups", "Along runways, in feeding areas, near shelter"],
+      ["Raccoon", "Dark tubes 2 to 3 inches long, 1/2 inch wide", "Piled in one spot used again and again", "Roofs, attics, sandboxes, open areas"],
+      ["Coyote", "Tubes several inches long", "Left as territory markers", "Trails and crossroads"]
+    ],
+    "caption": "Sizes and shapes from Wildlife Illinois (Illinois DNR), UF/IFAS, MDC, UC IPM, New York State Parks and ICWDM, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does deer poop look like?" },
+    { "type": "p", "text": "Deer poop is usually a pile of dark pellets, each 1/2 to 1 inch long and oval to cylindrical, left wherever deer feed or walk. [Wildlife Illinois](https://wildlifeillinois.org/discover-animal-signs/white-tailed-deer-scat/), the Illinois Department of Natural Resources' guide to animal signs, describes piles of dark, cylindrical pellets in that size range, and [UF/IFAS Extension's guide to identifying wildlife damage](https://ask.ifas.ufl.edu/publication/UW369) calls white-tailed deer droppings slightly larger, smoother ovals than a rabbit's." },
+    { "type": "figure", "src": "/guides/photos/deer-droppings-snow.webp", "width": 1200, "height": 800, "alt": "Several dozen dark, oval white-tailed deer pellets on clean snow, most in a loose cluster and a few spread out to the sides", "caption": "White-tailed deer pellets on snow at Big Meadows in Shenandoah National Park, Virginia, in a National Park Service photo. Note the oval shape and the loose pile.", "credit": "ShenandoahNPS, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deer_Scat_in_the_Snow_(51861792238).jpg" },
+    { "type": "p", "text": "Color and amount help too. The Missouri Department of Conservation's guide to reading droppings, [The Scat Detective](https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective), lists deer droppings as black to greenish, made of plant material, left in large amounts of pellets and found almost anywhere. Look for the tracks that go with them: [MDC's white-tailed deer field guide](https://mdc.mo.gov/discover-nature/field-guide/white-tailed-deer) describes heart-shaped, split-hoof tracks 2 1/2 to 4 inches long, with pointed hooves." },
+    { "type": "media", "needed": "Fresh white-tailed deer pellets on a lawn or garden bed beside a ruler marked in inches, identified by a wildlife agency, extension service or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "Why does deer poop look different in summer and winter?" },
+    { "type": "p", "text": "Because the diet changes. MDC says deer eat soft green browse from spring through summer and switch to hard, woody browse such as acorns and twigs in fall; in one case its biologist solved, deer droppings had changed from wet pellets pressed into a bigger plop to a pile of dry, separate pellets. [The Pennsylvania Game Commission's deer profile](https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/white-tailed-deer.html) describes the same calendar: green leaves and new growth in spring and summer, fruits such as apples and acorns from late summer to early winter, and evergreen leaves, hard browse and dry leaves in winter." },
+    { "type": "p", "text": "[ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/) makes the same point from the other side: deer droppings can be pelleted or tubular, with the pellets usually still visible in the tube, and in summer the pellets can clump together. So a soft, dark clump on a lawn in June can still be deer if you can make out pellet shapes in it." },
+    { "type": "media", "needed": "A soft summer clump of white-tailed deer droppings with the pellet shapes still visible, on grass, identified by a wildlife agency or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "Deer poop vs rabbit poop: how do you tell them apart?" },
+    { "type": "p", "text": "Look at shape first, then size: rabbit pellets are round and rough, deer pellets oval and smoother, and a deer pellet is usually two to four times as long as a rabbit pellet is wide. UF/IFAS describes rabbit droppings as rounded, pea-sized pellets with a rough texture, and [UC IPM's Pest Notes on rabbits](https://ipm.ucanr.edu/home-and-landscape/rabbits/) describe coarse, circular cottontail pellets closer to 1/4 inch in diameter, against 1/2 to 1 inch long for a deer pellet in the Illinois guide." },
+    { "type": "figure", "src": "/guides/photos/cottontail-droppings.webp", "width": 1200, "height": 1594, "alt": "A small heap of round, dark rabbit pellets among pine needles, dead leaves and green grass blades", "caption": "Round droppings in pine litter in Gardendale, Alabama, identified on iNaturalist as eastern cottontail by seven users. Rabbit pellets are rounder and smaller than a deer's.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/128615485" },
+    { "type": "p", "text": "How they lie on the ground is a weaker clue. UC IPM describes rabbit pellets found scattered over an area, while the Illinois guide describes deer droppings in piles, but a rabbit can leave a small heap, as the photo above shows, so do not decide on the pattern alone. Where you find them helps: [New York State Parks](https://nystateparks.blog/2017/12/26/whats-that-thats-scat/) says rabbit droppings are common in brushy areas, near low bushes and other cover." },
+    { "type": "p", "text": "The plants nearby settle it. UC IPM says rabbits clip twigs cleanly at a diagonal, 45° angle close to the ground, while deer have no upper front teeth and must twist and pull, leaving a ragged break. UF/IFAS adds that rabbits usually clip within 15 inches of the ground and that deer damage sits higher on the plant." },
+
+    { "type": "h2", "text": "Could it be squirrel, rat or coyote droppings instead?" },
+    { "type": "p", "text": "Smaller pellets usually mean a smaller animal. UF/IFAS says smaller oval pellets could be from squirrels, and pellets the size of rice grains from rats, mice, chipmunks or bats. MDC gives squirrel droppings as about 5/16 to 3/8 inch (8 to 10 mm) long, placed at random; [the squirrel poop guide](/blog/squirrel-poop) has more photos, and [the bat poop guide](/blog/bat-poop) covers the rice-sized droppings under a roost." },
+    { "type": "figure", "src": "/guides/photos/gray-squirrel-droppings-ledge.webp", "width": 1200, "height": 1600, "alt": "Five dark, oval to bean-shaped squirrel droppings, two stuck together, on a pebbly concrete ledge with a black railing behind", "caption": "Eastern gray squirrel droppings on a concrete ledge by a railing; the photographer saw the squirrel leave them. They are much smaller than deer pellets.", "credit": "(c) Andrew Sebastian, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/106432462" },
+    { "type": "p", "text": "Rat droppings are capsules with blunt ends, up to 3/4 inch long and 1/4 inch wide, usually clumped in small groups along runways, in feeding areas and near shelter, according to [ICWDM's Norway rat page](https://icwdm.org/species/rodents/norway-rats/); [the rat droppings guide](/blog/rat-droppings) shows them. Mouse droppings are smaller still, and [this guide to mouse droppings](/blog/what-does-mouse-poop-look-like-canada) has their sizes." },
+    { "type": "p", "text": "Tubes with no pellet shapes in them point to another animal, such as a raccoon or a coyote. ICWDM's droppings key gives raccoon droppings as dark tubes 2 to 3 inches long and 1/2 inch wide, piled in latrines used again and again, and coyote droppings as tubes several inches long, left on trails and crossroads to mark territory. [The animal droppings chart](/blog/animal-droppings) covers the rest." },
+    { "type": "p", "text": "In elk or moose country, size is the check. In MDC's case notes, pellets about the size of chocolate-covered almonds were too big for a deer and turned out to be from an elk, and moose droppings would have been larger still; ICWDM's key shows elk pellets in piles or clusters beside a nickel, larger than a deer's." },
+    { "type": "confused", "items": [
+      { "href": "/blog/raccoon-poop", "name": "Raccoon poop", "photo": "raccoon-scat-lawn-ruler", "note": "Dark tubes 2 to 3 inches long, piled in a latrine spot used again and again", "alt": "Dark, tubular droppings from several deposits on a lawn beside an L-shaped ruler, identified by the observer as raccoon scat" },
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "Blunt-ended capsules up to 3/4 inch long, clumped in small groups", "alt": "Dark, oblong droppings on moss beside a person's thumb for size" },
+      { "href": "/blog/animal-droppings", "name": "Coyote scat", "photo": "coyote-scat-ruler", "note": "A tube several inches long, left on trails and crossroads to mark territory", "alt": "Brown, twisted coyote scat with hair and seeds on dry ground beside a green ruler" }
+    ] },
+
+    { "type": "h2", "text": "How can you tell fresh deer poop from old?" },
+    { "type": "p", "text": "Fresh droppings are wet and shiny; old ones sit under the season's debris. [A New York State Parks blog post](https://nystateparks.blog/2017/12/26/whats-that-thats-scat/) says wet or shiny deer scat suggests a deer is nearby, and that a pile under leaf litter or a layer of snow is most likely old. UF/IFAS Extension adds that fresh droppings are usually moist and shiny and older ones dry, dull and grayish. The same blog post says a deer produces pellets about 13 times a day, so a few piles in a yard do not have to mean many deer." },
+
+    { "type": "h2", "text": "Is deer poop dangerous?" },
+    { "type": "p", "text": "It can carry germs, so treat it like any animal droppings: do not touch it bare-handed and keep it off food. [CDC's guide to hygiene around animals](https://www.cdc.gov/hygiene/about/hygiene-practices-around-animals.html) says animals can carry harmful germs even when they look healthy and clean, names E. coli O157:H7 and Salmonella among the germs that spread from animals to people, and says children under 5, adults 65 and older and people with weakened immune systems are more likely to get sick from them." },
+    { "type": "p", "text": "Deer droppings have been behind a deadly outbreak. In 2011, investigators led by the Oregon Public Health Division traced 15 cases of E. coli O157:H7 infection to strawberries from one farm: six people were hospitalized, four developed hemolytic uremic syndrome and two of those four died. Every environmental sample from the farm that tested positive for the bacteria contained deer feces, [the investigators reported in Clinical Infectious Diseases](https://pubmed.ncbi.nlm.nih.gov/23876397/)." },
+    { "type": "p", "text": "Chronic wasting disease is the other concern. [CDC](https://www.cdc.gov/chronic-wasting/about/index.html) calls it a prion disease of deer, elk and moose and says scientists believe the prions spread between animals through body fluids such as feces, saliva, blood or urine, directly or through contaminated soil, food or water, and can stay in soil for years. CDC also says CWD infections in people have never been reported and that it is not known whether people could be infected. MDC adds that infected deer release prions into the environment in their droppings, urine and saliva." },
+    { "type": "h3", "text": "If your dog eats deer poop" },
+    { "type": "p", "text": "Stop it when you can. [Cornell University's College of Veterinary Medicine](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/coccidia-dogs) says coccidia of other animals, including ruminants, can show up on a dog's fecal test after it eats their feces, but those species do not infect dogs. Deer are ruminants, the Pennsylvania Game Commission notes. Dogs do catch their own kind of coccidia, from contaminated feces or prey: Cornell says healthy adult dogs rarely get diarrhea from it but puppies often do, lists diarrhea, vomiting, lethargy, weight loss and poor appetite among the signs, and says dogs with signs are treated with a prescription medicine, which means a visit to the veterinarian." },
+
+    { "type": "h2", "text": "Can you eat vegetables from a garden deer have visited?" },
+    { "type": "p", "text": "Follow the rule farms follow: leave any produce that droppings have touched, and wash the rest. [FDA's rule for produce farms](https://www.fda.gov/food/food-safety-modernization-act-fsma/what-produce-safety-rule-means-consumers) names deer among the wild animals found on farms and requires growers at harvest to take reasonable steps to identify contamination, including contamination by animals, and not to harvest the affected produce. The Oregon investigators called good agricultural practices key barriers to wildlife contamination of produce." },
+    { "type": "p", "text": "For the rest of the harvest, [FDA's tips for cleaning fruits and vegetables](https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables) say produce can be contaminated by animals while it grows, and advise rubbing it under plain running water, scrubbing firm produce with a clean brush and cutting away damaged or bruised areas; no soap or produce wash is needed." },
+    { "type": "p", "text": "Deer droppings are raw manure, and extension services are cautious about raw manure on food crops. [Penn State Extension](https://extension.psu.edu/wise-use-of-manure-in-home-vegetable-gardens) passes on USDA's waiting periods for raw manure in a vegetable garden, 120 days from application to harvest for crops that grow in or touch the soil and 90 days for other crops, and says aged manure is not the same as composted manure." },
+
+    { "type": "h2", "text": "How should you clean up deer poop in the yard?" },
+    { "type": "p", "text": "Pick it up with a shovel or gloved hands rather than bare skin, keep it out of the vegetable garden, and wash your hands afterward. [CDC's handwashing guidance](https://www.cdc.gov/clean-hands/about/index.html) lists touching an animal or animal waste among the key times to wash: wet your hands with clean running water, lather with soap, scrub for at least 20 seconds, rinse and dry." },
+    { "type": "p", "text": "Keep small children and pets away from the spot until it is clean. CDC's hygiene guidance says children under 5 are among the people most likely to get sick from germs spread by animals." },
+
+    { "type": "h2", "text": "How do you keep deer out of the yard?" },
+    { "type": "p", "text": "A tall fence is the dependable answer. [NC State Extension's gardener handbook](https://content.ces.ncsu.edu/extension-gardener-handbook/20-wildlife) says fencing significantly reduces deer damage if it is installed and maintained properly, and that a fence must be 6 feet or more high to keep deer from jumping over. It adds that chemical repellents generally work only before deer have started feeding in a spot and need to be reapplied regularly." },
+    { "type": "p", "text": "Fencing helps with ticks too: [CDC's tick prevention page](https://www.cdc.gov/ticks/prevention/index.html) suggests fences to keep deer, raccoons and stray dogs out of the yard. [The tick life cycle guide](/learn/tick-life-cycle) explains where deer fit in, and [a 10-step yard tick plan](/learn/how-to-combat-ticks) covers the rest." },
+    { "type": "callout", "tone": "tip", "title": "Not sure whose droppings they are?", "text": "Photograph them beside a ruler marked in inches or a coin, note where you found them and whether the pellets are round or oval, and check nearby plants for clean or ragged bites. Your state's cooperative extension office can help identify them." }
+  ],
+  "faqs": [
+    {
+      "question": "What does it mean when you find deer poop in your yard?",
+      "answer": "That deer are feeding in or passing through it. MDC says deer droppings turn up almost anywhere deer go, and New York State Parks says wet or shiny pellets suggest a deer is nearby, while a pile under leaves or snow is likely old. Check plants for ragged, torn stems higher than a rabbit can reach, which UC IPM and UF/IFAS describe as deer browsing, and look for heart-shaped, split-hoof tracks. NC State says a fence 6 feet or taller keeps deer from jumping in."
+    },
+    {
+      "question": "How big is deer poop?",
+      "answer": "Each pellet is about 1/2 to 1 inch long, according to Wildlife Illinois, the Illinois Department of Natural Resources' guide to animal signs, and the pellets are dark, oval to cylindrical and left in piles. That makes them larger than a cottontail rabbit's round pellets, which UC IPM puts closer to 1/4 inch across, and a squirrel's oval pellets, about 5/16 to 3/8 inch long by MDC's measure. Elk and moose pellets are bigger than a deer's, MDC says."
+    },
+    {
+      "question": "Is deer poop always pellets?",
+      "answer": "No. MDC says the same deer can leave wet pellets pressed together into a bigger plop when it eats soft green browse in spring and summer, and a pile of dry, separate pellets once it switches to woody browse in fall. ICWDM's droppings key says deer droppings can be pelleted or tubular, with the pellets usually still visible in the tube, and that pellets can clump together in summer."
+    },
+    {
+      "question": "How often do deer poop?",
+      "answer": "About 13 times a day, according to a New York State Parks blog post on animal droppings, which also says deer scat is usually in pellets and in a pile. That is why a few piles in a yard can come from a single deer. MDC lists large amounts of pellets as a mark of deer droppings, and New York State Parks adds that wet or shiny scat suggests a deer is nearby."
+    },
+    {
+      "question": "Do deer poop in the same spot?",
+      "answer": "Not the way raccoons do. ICWDM's droppings key describes raccoons using the same latrine spot again and again, while MDC lists the placement of deer droppings as everywhere: deer leave piles wherever they happen to be feeding or traveling. Piles scattered across a yard point to deer passing through or feeding there, not to one favorite spot."
+    },
+    {
+      "question": "Can you get E. coli from deer poop?",
+      "answer": "Yes, it has happened. In 2011, 15 people in Oregon were infected with E. coli O157:H7 from strawberries grown on a farm where every positive environmental sample contained deer feces, and two of them died, investigators reported in Clinical Infectious Diseases. CDC says animals can carry E. coli O157:H7 and Salmonella even when they look healthy, so keep deer droppings off food, remove them with gloves or a tool and wash your hands afterward."
+    },
+    {
+      "question": "Can people get chronic wasting disease from deer poop?",
+      "answer": "CDC says CWD infections in people have never been reported and that it is not known whether people could be infected. Among deer, elk and moose, CDC says scientists believe the prions spread through body fluids such as feces, saliva, blood and urine, directly or through contaminated soil, food or water, and that they can stay in soil for years. CDC advises hunters to check their state wildlife and health department guidance."
+    },
+    {
+      "question": "Is deer poop bad for dogs?",
+      "answer": "It is best to stop a dog from eating it. Cornell University's College of Veterinary Medicine says coccidia of other animals, including ruminants such as deer, can show up on a dog's fecal test after it eats their feces, but those species do not infect dogs. Dogs catch their own kind of coccidia from contaminated feces or prey, and puppies are the dogs most often made sick by it, Cornell says, so call your veterinarian if a dog develops diarrhea, vomiting, lethargy or a poor appetite."
+    },
+    {
+      "question": "Is deer poop good fertilizer?",
+      "answer": "Treat it with the caution extension services give raw manure, which is what it is. Penn State Extension passes on USDA's waiting periods for raw manure in a vegetable garden: 120 days between application and harvest for crops that grow in or touch the soil, and 90 days for other crops. It adds that aged manure is not the same as composted manure. The 2011 Oregon E. coli outbreak traced to deer feces on strawberries shows why the caution matters."
+    },
+    {
+      "question": "What does elk poop look like compared to deer poop?",
+      "answer": "Much the same, only bigger. In a case described by the Missouri Department of Conservation, pellets about the size of chocolate-covered almonds were too big for a deer and came from an elk, and moose droppings are larger still. ICWDM's droppings key shows elk pellets in piles or clusters, larger than a deer's. Size is the main check where the two overlap: a deer pellet is about 1/2 to 1 inch long, according to Wildlife Illinois."
+    }
+  ],
+  "sources": [
+    { "title": "White-tailed Deer Scat", "publisher": "Wildlife Illinois (authorized by the Illinois Department of Natural Resources)", "url": "https://wildlifeillinois.org/discover-animal-signs/white-tailed-deer-scat/", "kind": "government" },
+    { "title": "How to Identify the Wildlife Species Responsible for Damage in Your Yard (WEC324/UW369; H. K. Ober and A. Kane)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/UW369" },
+    { "title": "The Scat Detective (Tom Meister, Missouri Conservationist, September 2021)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective" },
+    { "title": "White-Tailed Deer (field guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/white-tailed-deer" },
+    { "title": "White-tailed deer", "publisher": "Pennsylvania Game Commission", "url": "https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/white-tailed-deer.html" },
+    { "title": "What's That? That's Scat! (December 26, 2017)", "publisher": "New York State Office of Parks, Recreation and Historic Preservation", "url": "https://nystateparks.blog/2017/12/26/whats-that-thats-scat/", "kind": "government" },
+    { "title": "Brown or Black Droppings", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/inspection/brown-or-black-droppings/" },
+    { "title": "Norway Rats", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/rodents/norway-rats/" },
+    { "title": "Pest Notes: Rabbits (UC ANR Publication 7447; R. A. Baldwin, updated August 2022)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rabbits/" },
+    { "title": "Escherichia coli O157:H7 infections associated with consumption of locally grown strawberries contaminated by deer (M. R. Laidler and others, Clinical Infectious Diseases, 2013)", "publisher": "PubMed, US National Library of Medicine", "url": "https://pubmed.ncbi.nlm.nih.gov/23876397/" },
+    { "title": "Hygiene Practices Around Animals (January 31, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hygiene/about/hygiene-practices-around-animals.html" },
+    { "title": "About Chronic Wasting Disease (January 21, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/chronic-wasting/about/index.html" },
+    { "title": "Coccidia in dogs", "publisher": "Cornell University College of Veterinary Medicine, Riney Canine Health Center", "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/coccidia-dogs" },
+    { "title": "What the Produce Safety Rule Means for Consumers", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/what-produce-safety-rule-means-consumers" },
+    { "title": "7 Tips for Cleaning Fruits, Vegetables (June 15, 2021)", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/consumers/consumer-updates/7-tips-cleaning-fruits-vegetables" },
+    { "title": "Wise Use of Manure in Home Vegetable Gardens (D. Diffenderfer, updated June 28, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/wise-use-of-manure-in-home-vegetable-gardens" },
+    { "title": "About Handwashing (February 16, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/clean-hands/about/index.html" },
+    { "title": "Extension Gardener Handbook, Chapter 20: Wildlife (AG-831; C. DePerno and others, February 1, 2022)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/extension-gardener-handbook/20-wildlife" },
+    { "title": "Preventing Tick Bites (August 28, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/index.html" }
+  ],
+  "disclaimer": "health"
+}

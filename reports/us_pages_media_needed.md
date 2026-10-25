@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-395 images across 160 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+405 images across 165 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -345,6 +345,10 @@
 - A masked shrew (Sorex cinereus) found in a US house, garage or window well, photographed beside a ruler marked in inches and identified by a wildlife agency, museum or university; public domain or CC0
 - Shrew droppings in a small pile on a basement floor or windowsill, beside house mouse droppings and a ruler marked in inches, identified by a wildlife biologist or extension specialist; public domain or CC0
 
+## /blog/how-long-do-rats-live
+
+- Rat pups in a nest, or a juvenile Norway rat where people find one (a garage, shed or yard), identified by an extension service, wildlife agency or museum; public domain or CC0
+
 ## /learn/cockroaches
 
 - Side-by-side scale photo or illustration of the adult German, brown-banded, American, Oriental, smokybrown and Turkestan (male and female) cockroaches plus a wood roach, top-down view on a white background with an inch ruler along the bottom
@@ -587,6 +591,11 @@
 
 - Spitting spider (Scytodes) photographed in Texas, top view, showing the banded legs and the spotted, domed front body section that separate it from a recluse; public domain or CC0
 
+## /blog/pseudoscorpions
+
+- A house pseudoscorpion in a white bathroom sink or tub in a home, beside a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0
+- A pseudoscorpion on the pages or spine of an old book, or on a wall indoors, beside a coin or a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0
+
 ## /blog/spider-egg-sacs
 
 - Female nursery web spider (Pisaurina mira), identified to species, carrying her round egg sac in her jaws, or guarding her nursery web in low vegetation; public domain or CC0
@@ -625,6 +634,10 @@
 
 - Photo of a fine-toothed flea comb pulled through a dog's or cat's coat over a white sink, with adult fleas and black flea dirt caught in its teeth, beside a ruler marked in inches
 - Magnified photo of cat flea cocoons tangled in carpet fibers, the silk coated with lint and pet hair, beside a ruler marked in inches
+
+## /blog/carpet-beetle-rash
+
+- A carpet beetle dermatitis rash: scattered red, raised bumps on the thigh, arm, chest or abdomen of a patient whose rash a physician attributed to carpet beetle larvae, ideally with the identified larva beside a ruler marked in inches; public domain or CC0
 
 ## /blog/house-centipedes
 
@@ -815,6 +828,18 @@
 - Gray squirrel droppings and roof rat droppings side by side on a white card beside one ruler marked in inches, each identified by a wildlife agency or extension specialist, so the two can be compared at the same scale
 - Flying squirrel droppings and urine stains on attic insulation or a joist directly below an attic vent, beside a ruler marked in inches, from a public domain or CC0 source with an expert identification, such as a state wildlife agency or extension service
 - Fresh and old gray squirrel droppings side by side beside a ruler marked in inches, the fresh ones dark and glossy and the old ones dull and lighter, identified by a wildlife agency or extension specialist; public domain or CC0
+
+## /blog/possum-vs-opossum
+
+- A close-up of a Virginia opossum's hind foot showing the clawless, thumb-like first toe, or of its bare, scaly tail, from a state wildlife agency, a university or a museum; public domain or CC0
+- A common brushtail possum in Australia, ideally on a roof, fence or garden tree, from an Australian museum or government agency, or a CC-licensed photo with an expert identification
+- A Virginia opossum playing dead (lying limp on its side with its mouth open), photographed in the US and identified by a wildlife agency, university or museum; public domain or CC0
+- A Virginia opossum mother carrying several young on her back, photographed in the US and identified by a wildlife agency, university or museum; public domain or CC0
+
+## /blog/deer-poop
+
+- Fresh white-tailed deer pellets on a lawn or garden bed beside a ruler marked in inches, identified by a wildlife agency, extension service or expert; public domain or CC0
+- A soft summer clump of white-tailed deer droppings with the pellet shapes still visible, on grass, identified by a wildlife agency or expert; public domain or CC0
 
 ## /blog/diy-pest-control
 

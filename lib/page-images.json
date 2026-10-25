@@ -168,6 +168,7 @@
   "/guides/photos/booklouse.webp",
   "/guides/photos/cat-flea-on-fingertip.webp",
   "/guides/photos/gray-silverfish.webp",
+  "/guides/photos/house-pseudoscorpion.webp",
   "/guides/photos/springtail.webp"
  ],
  "/blog/brown-banded-cockroaches": [
@@ -289,6 +290,18 @@
   "/guides/photos/flea-egg-and-larva.webp",
   "/guides/photos/woolly-bear-caterpillar.webp"
  ],
+ "/blog/carpet-beetle-rash": [
+  "/guides/photos/bed-bug-bites-back-physician.webp",
+  "/guides/photos/carpet-beetle-adult-cast-skin-book.webp",
+  "/guides/photos/carpet-beetle-larva-hallway-wall.webp",
+  "/guides/photos/carpet-beetle-larva-knit-fabric.webp",
+  "/guides/photos/carpet-beetle-larva.webp",
+  "/guides/photos/carpet-beetle-skins-frass.webp",
+  "/guides/photos/chigger-bites-ruler.webp",
+  "/guides/photos/flea-bites-ankles-cdc.webp",
+  "/guides/photos/mosquito-bites-forearm.webp",
+  "/guides/photos/scabies-rash-hand.webp"
+ ],
  "/blog/chigger-bites": [
   "/diagrams/bite-pattern-comparison.svg",
   "/guides/photos/bed-bug-bites-forearm.webp",
@@ -330,6 +343,14 @@
  ],
  "/blog/deer-flies-horse-flies-ontario": [
   "/diagrams/horse-fly-vs-deer-fly.svg"
+ ],
+ "/blog/deer-poop": [
+  "/guides/photos/cottontail-droppings.webp",
+  "/guides/photos/coyote-scat-ruler.webp",
+  "/guides/photos/deer-droppings-snow.webp",
+  "/guides/photos/gray-squirrel-droppings-ledge.webp",
+  "/guides/photos/raccoon-scat-lawn-ruler.webp",
+  "/guides/photos/rat-droppings-thumb.webp"
  ],
  "/blog/deer-tick-vs-dog-tick-canada": [
   "/guides/photos/american-dog-tick-female.webp",
@@ -449,6 +470,15 @@
   "/guides/photos/springtail.webp",
   "/guides/photos/twospotted-spider-mite.webp",
   "/guides/photos/western-flower-thrips.webp"
+ ],
+ "/blog/how-long-do-rats-live": [
+  "/guides/photos/house-mouse-on-stove.webp",
+  "/guides/photos/house-mouse-vs-young-rat.webp",
+  "/guides/photos/norway-rat-burrows.webp",
+  "/guides/photos/norway-rat.webp",
+  "/guides/photos/rat-droppings-thumb.webp",
+  "/guides/photos/roof-rat-rafters.webp",
+  "/guides/photos/roof-rat.webp"
  ],
  "/blog/how-long-do-ticks-live": [
   "/guides/photos/american-dog-tick-female.webp",
@@ -792,6 +822,24 @@
   "/guides/photos/pill-bugs-under-flowerpot.webp",
   "/guides/photos/springtail.webp",
   "/guides/photos/woodlouse-spider.webp"
+ ],
+ "/blog/possum-vs-opossum": [
+  "/guides/photos/norway-rat-face.webp",
+  "/guides/photos/norway-rat.webp",
+  "/guides/photos/raccoon-latrine-deck.webp",
+  "/guides/photos/raccoon-on-chimney.webp",
+  "/guides/photos/virginia-opossum.webp"
+ ],
+ "/blog/pseudoscorpions": [
+  "/guides/photos/arizona-bark-scorpion.webp",
+  "/guides/photos/bed-bug-on-skin-cdc.webp",
+  "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+  "/guides/photos/blacklegged-tick-female.webp",
+  "/guides/photos/booklouse-printed-paper.webp",
+  "/guides/photos/booklouse.webp",
+  "/guides/photos/camel-spider-house-wall.webp",
+  "/guides/photos/house-pseudoscorpion.webp",
+  "/guides/photos/striped-bark-scorpion.webp"
  ],
  "/blog/raccoon-poop": [
   "/guides/photos/bat-droppings-siding.webp",

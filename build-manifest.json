@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-23",
+ "generated": "2026-10-25",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 200,
+  "newPagesBuilt": 205,
   "hubPages": 4,
-  "guides": 185,
+  "guides": 190,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 221,
-  "internalLinksInNewPages": 2682
+  "notBuilt": 220,
+  "internalLinksInNewPages": 2724
  },
  "pages": [
   {
@@ -72,7 +72,7 @@
    "wordCount": 2398,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 32,
    "status": "built"
   },
@@ -152,7 +152,7 @@
    "wordCount": 2379,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -168,7 +168,7 @@
    "wordCount": 2288,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -181,11 +181,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Rat Poop: What Rat Droppings Look Like (Photos)",
-   "wordCount": 2202,
+   "wordCount": 2214,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 16,
+   "inboundFromNewPages": 14,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -250,6 +250,22 @@
    "sources": 15,
    "inboundFromNewPages": 1,
    "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how long do rats live",
+   "us_volume": null,
+   "url": "/blog/how-long-do-rats-live",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "How Long Do Rats Live? Wild vs Pet Rats",
+   "wordCount": 1676,
+   "faqs": 10,
+   "sources": 16,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -1048,7 +1064,7 @@
    "wordCount": 2359,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1208,7 +1224,7 @@
    "wordCount": 2198,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1226,6 +1242,22 @@
    "sources": 20,
    "inboundFromNewPages": 3,
    "outboundInternalLinks": 23,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "pseudoscorpion",
+   "us_volume": null,
+   "url": "/blog/pseudoscorpions",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Pseudoscorpion: Tiny, Harmless, No Stinger",
+   "wordCount": 1828,
+   "faqs": 10,
+   "sources": 15,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1358,6 +1390,22 @@
   },
   {
    "rank": null,
+   "keyword": "carpet beetle bites",
+   "us_volume": null,
+   "url": "/blog/carpet-beetle-rash",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Carpet Beetle Bites? Why It's Really a Rash",
+   "wordCount": 2079,
+   "faqs": 10,
+   "sources": 16,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "house centipede",
    "us_volume": null,
    "url": "/blog/house-centipedes",
@@ -1368,7 +1416,7 @@
    "wordCount": 2890,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1400,7 +1448,7 @@
    "wordCount": 2963,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1528,7 +1576,7 @@
    "wordCount": 1759,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1688,7 +1736,7 @@
    "wordCount": 2487,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1736,7 +1784,7 @@
    "wordCount": 2184,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1784,7 +1832,7 @@
    "wordCount": 2294,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1832,7 +1880,7 @@
    "wordCount": 3991,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 45,
    "status": "built"
   },
@@ -1848,7 +1896,7 @@
    "wordCount": 2134,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1877,11 +1925,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Animal Poop Identification Chart (Photos)",
-   "wordCount": 1781,
+   "wordCount": 1800,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 14,
-   "outboundInternalLinks": 17,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 19,
    "status": "built"
   },
   {
@@ -1912,7 +1960,7 @@
    "wordCount": 2211,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1928,8 +1976,40 @@
    "wordCount": 1984,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "possum vs opossum",
+   "us_volume": null,
+   "url": "/blog/possum-vs-opossum",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Possum vs Opossum: Is There a Difference?",
+   "wordCount": 2076,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "deer poop",
+   "us_volume": null,
+   "url": "/blog/deer-poop",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Deer Poop: What Deer Droppings Look Like",
+   "wordCount": 1688,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 7,
    "status": "built"
   },
   {
@@ -2963,13 +3043,6 @@
   },
   {
    "rank": null,
-   "keyword": "carpet beetle rash",
-   "url": "/blog/carpet-beetle-rash",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "how to get rid of ground wasps",
    "url": "/blog/how-to-get-rid-of-ground-wasps",
    "action": "new",
@@ -3397,13 +3470,6 @@
   },
   {
    "rank": null,
-   "keyword": "pseudoscorpion",
-   "url": "/blog/pseudoscorpions",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "sweat bees",
    "url": "/blog/sweat-bees",
    "action": "new",
@@ -3592,6 +3658,13 @@
    "status": "not built"
   },
   {
+   "rank": null,
+   "keyword": "vole",
+   "url": "/blog/voles",
+   "action": "new",
+   "status": "not built"
+  },
+  {
    "rank": 1,
    "keyword": "how to get rid of mice",
    "us_volume": 93000,
@@ -3627,7 +3700,7 @@
    "wordCount": 2502,
    "faqs": 9,
    "sources": 7,
-   "inboundFromNewPages": 20,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -3781,7 +3854,7 @@
    "wordCount": 5317,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 35,
+   "inboundFromNewPages": 36,
    "outboundInternalLinks": 39,
    "status": "built"
   },
@@ -3895,9 +3968,9 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "mice",
-   "title": "Steel Wool for Mice: Where It Works and Fails",
-   "wordCount": 3135,
-   "faqs": 6,
+   "title": "Steel Wool for Mice: It Works if Caulked In",
+   "wordCount": 3226,
+   "faqs": 9,
    "sources": 6,
    "inboundFromNewPages": 22,
    "outboundInternalLinks": 13,
@@ -4069,7 +4142,7 @@
    "wordCount": 1663,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4135,7 +4208,7 @@
    "wordCount": 2274,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 41,
+   "inboundFromNewPages": 42,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4401,9 +4474,9 @@
    "action": "new",
    "kind": "spoke",
    "cluster": "mice",
-   "title": "Can Mice Climb Walls? Yes, Any Rough Surface",
-   "wordCount": 2267,
-   "faqs": 5,
+   "title": "Can Mice Climb Walls? Yes: Brick, Wood, Wires",
+   "wordCount": 2523,
+   "faqs": 8,
    "sources": 6,
    "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
@@ -4931,7 +5004,7 @@
    "wordCount": 2287,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5031,7 +5104,7 @@
    "wordCount": 2558,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 9,
    "status": "built"
   },

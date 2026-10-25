@@ -102,6 +102,7 @@ https://buzzskito.ca/blog/mouse-poop
 https://buzzskito.ca/blog/mouse-urine
 https://buzzskito.ca/blog/mice-in-walls
 https://buzzskito.ca/blog/shrews
+https://buzzskito.ca/blog/how-long-do-rats-live
 https://buzzskito.ca/blog/palmetto-bugs
 https://buzzskito.ca/blog/cockroach-eggs
 https://buzzskito.ca/blog/cockroach-droppings
@@ -159,6 +160,7 @@ https://buzzskito.ca/blog/jumping-spiders
 https://buzzskito.ca/blog/yellow-sac-spiders
 https://buzzskito.ca/blog/camel-spiders
 https://buzzskito.ca/blog/spiders-in-texas
+https://buzzskito.ca/blog/pseudoscorpions
 https://buzzskito.ca/blog/spider-egg-sacs
 https://buzzskito.ca/blog/black-spiders
 https://buzzskito.ca/blog/paper-wasps
@@ -167,6 +169,7 @@ https://buzzskito.ca/blog/flies-in-house
 https://buzzskito.ca/blog/how-to-get-rid-of-gnats
 https://buzzskito.ca/blog/what-do-fleas-look-like
 https://buzzskito.ca/blog/how-to-get-rid-of-fleas
+https://buzzskito.ca/blog/carpet-beetle-rash
 https://buzzskito.ca/blog/house-centipedes
 https://buzzskito.ca/blog/how-to-get-rid-of-silverfish
 https://buzzskito.ca/blog/how-to-get-rid-of-carpet-beetles
@@ -202,4 +205,6 @@ https://buzzskito.ca/blog/animal-droppings
 https://buzzskito.ca/blog/raccoon-poop
 https://buzzskito.ca/blog/bat-poop
 https://buzzskito.ca/blog/squirrel-poop
+https://buzzskito.ca/blog/possum-vs-opossum
+https://buzzskito.ca/blog/deer-poop
 https://buzzskito.ca/blog/houseplant-bugs

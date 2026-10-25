@@ -2,7 +2,7 @@
  "id": "rat-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "137de5a9cc6a2c99143ef55059131f09001b3c32c38652329feba68dff095566",
+ "sha": "15d06a6fd045716497ea7d84fe63cbb8484320f9f971808e2fa2ce3497fc32f9",
  "claimsChecked": 198,
  "claimsCorrected": 3,
  "claimsRemovedOrSoftened": 8,
@@ -17,6 +17,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: one sentence added after the urine-stain paragraph in 'How can you tell if rat droppings are fresh?' linking the new /blog/mouse-urine; no fact changed.",
    "previousSha": "5c5f47abb9701c00668bea27d481c971800baa1f024e7e16ab6ff252d8af7dc5"
+  },
+  {
+   "on": "2026-10-25",
+   "note": "Oct 25: one navigation link added (/blog/how-long-do-rats-live) in the closing section; no new claims",
+   "previousSha": "137de5a9cc6a2c99143ef55059131f09001b3c32c38652329feba68dff095566"
   }
  ]
 }

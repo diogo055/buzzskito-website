@@ -187,6 +187,9 @@ app/blog/mice-in-walls/page.tsx
 content/guides/shrews.json
 data/us-pages/checked/shrews.json
 app/blog/shrews/page.tsx
+content/guides/how-long-do-rats-live.json
+data/us-pages/checked/how-long-do-rats-live.json
+app/blog/how-long-do-rats-live/page.tsx
 content/guides/pillar-cockroaches.json
 data/us-pages/checked/pillar-cockroaches.json
 app/learn/cockroaches/page.tsx
@@ -430,6 +433,9 @@ app/blog/camel-spiders/page.tsx
 content/guides/spiders-in-texas.json
 data/us-pages/checked/spiders-in-texas.json
 app/blog/spiders-in-texas/page.tsx
+content/guides/pseudoscorpions.json
+data/us-pages/checked/pseudoscorpions.json
+app/blog/pseudoscorpions/page.tsx
 content/guides/spider-egg-sacs.json
 data/us-pages/checked/spider-egg-sacs.json
 app/blog/spider-egg-sacs/page.tsx
@@ -454,6 +460,9 @@ app/blog/what-do-fleas-look-like/page.tsx
 content/guides/how-to-get-rid-of-fleas.json
 data/us-pages/checked/how-to-get-rid-of-fleas.json
 app/blog/how-to-get-rid-of-fleas/page.tsx
+content/guides/carpet-beetle-rash.json
+data/us-pages/checked/carpet-beetle-rash.json
+app/blog/carpet-beetle-rash/page.tsx
 content/guides/house-centipedes.json
 data/us-pages/checked/house-centipedes.json
 app/blog/house-centipedes/page.tsx
@@ -562,6 +571,12 @@ app/blog/bat-poop/page.tsx
 content/guides/squirrel-poop.json
 data/us-pages/checked/squirrel-poop.json
 app/blog/squirrel-poop/page.tsx
+content/guides/possum-vs-opossum.json
+data/us-pages/checked/possum-vs-opossum.json
+app/blog/possum-vs-opossum/page.tsx
+content/guides/deer-poop.json
+data/us-pages/checked/deer-poop.json
+app/blog/deer-poop/page.tsx
 content/guides/how-much-is-pest-control.json
 data/us-pages/checked/how-much-is-pest-control.json
 app/blog/how-much-is-pest-control/page.tsx

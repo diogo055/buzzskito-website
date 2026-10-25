@@ -1,9 +1,7 @@
-release: 7 scheduled page(s) go live (2026-10-23)
+release: 5 scheduled page(s) go live (2026-10-25)
 
-- /blog/paper-wasps
-- /blog/wheel-bugs
-- /blog/booklice
-- /blog/mud-daubers
-- /blog/pill-bugs
-- /blog/jerusalem-crickets
-- /blog/shrews
+- /blog/carpet-beetle-rash
+- /blog/pseudoscorpions
+- /blog/possum-vs-opossum
+- /blog/how-long-do-rats-live
+- /blog/deer-poop

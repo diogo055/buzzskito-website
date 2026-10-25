@@ -88,7 +88,8 @@
       { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "About the same size, but it jumps with a spring folded under the body", "alt": "Pale tan springtail with dark brown bands and long antennae on a green leaf, with a scale bar" },
       { "href": "/blog/baby-bed-bugs-nymphs", "name": "Bed bug nymph", "photo": "bed-bug-nymph", "note": "Rounder, with a head narrower than its body; it feeds on blood", "alt": "Rounded amber bed bug nymph with a dark patch inside its abdomen, on white fabric" },
       { "href": "/blog/bugs-that-look-like-fleas", "name": "Cat flea", "photo": "cat-flea-on-fingertip", "note": "Reddish brown and flattened side to side, up to 1/8 inch; it jumps and bites", "alt": "Cat flea seen from the side on the ridged skin of a fingertip" },
-      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "gray-silverfish", "note": "Far bigger and carrot-shaped, with scales and three long tail bristles", "alt": "Gray, scaly silverfish with long antennae and tail bristles beside white-painted trim on an orange-brown surface" }
+      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "gray-silverfish", "note": "Far bigger and carrot-shaped, with scales and three long tail bristles", "alt": "Gray, scaly silverfish with long antennae and tail bristles beside white-painted trim on an orange-brown surface" },
+      { "href": "/blog/pseudoscorpions", "name": "Pseudoscorpion", "photo": "house-pseudoscorpion", "note": "Two long pincer arms like a scorpion's and a rounded rear with no tail", "alt": "A dark brown house pseudoscorpion with a ridged, rounded abdomen and two long, reddish pincer arms reaching out ahead of its legs, on gray plastic" }
     ] },
 
     { "type": "h2", "text": "How do you get rid of booklice?" },

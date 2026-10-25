@@ -1908,6 +1908,20 @@
    ],
    "bar": true
   },
+  "/blog/carpet-beetle-rash": {
+   "next": "/blog/carpet-beetle-larvae",
+   "related": [
+    "/blog/signs-of-carpet-beetles",
+    "/blog/jerusalem-crickets",
+    "/blog/wheel-bugs"
+   ],
+   "cards": [
+    "/blog/termite-droppings",
+    "/blog/bugs-in-house-in-winter",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "bar": true
+  },
   "/blog/chapin-battery-backpack-sprayer-review-canada": {
    "next": "/blog/best-battery-backpack-sprayer-canada",
    "related": [
@@ -2093,6 +2107,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/baby-mice",
     "/blog/how-to-get-rid-of-rats-canada"
+   ],
+   "bar": true
+  },
+  "/blog/deer-poop": {
+   "next": "/blog/bat-poop",
+   "related": [
+    "/blog/raccoon-poop",
+    "/blog/animal-droppings",
+    "/blog/animals-in-attic"
+   ],
+   "cards": [
+    "/blog/best-live-animal-trap-canada",
+    "/blog/possum-vs-opossum",
+    "/blog/squirrel-poop"
    ],
    "bar": true
   },
@@ -2899,6 +2927,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/victor-electronic-mouse-trap-review-canada",
     "/blog/deer-mice"
+   ],
+   "bar": true
+  },
+  "/blog/how-long-do-rats-live": {
+   "next": "/blog/how-long-do-mice-live",
+   "related": [
+    "/blog/roof-rat-vs-norway-rat",
+    "/blog/baby-mice",
+    "/blog/rat-droppings"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/mouse-repellent-canada",
+    "/blog/what-does-mouse-poop-look-like-canada"
    ],
    "bar": true
   },
@@ -4768,6 +4810,20 @@
     "/blog/when-to-spray-mosquitoes-mississauga-2026"
    ]
   },
+  "/blog/possum-vs-opossum": {
+   "next": "/blog/animals-in-attic",
+   "related": [
+    "/blog/holes-in-yard",
+    "/blog/raccoon-proof-chimney-cap-canada",
+    "/blog/bat-poop"
+   ],
+   "cards": [
+    "/blog/best-raccoon-live-trap-canada",
+    "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+    "/blog/animal-droppings"
+   ],
+   "bar": true
+  },
   "/blog/propane-mosquito-trap-canada": {
    "next": "/blog/co2-mosquito-trap-canada",
    "related": [
@@ -4793,6 +4849,20 @@
     "/blog/patio-misting-system-canada",
     "/blog/best-pest-control-equipment-canada"
    ]
+  },
+  "/blog/pseudoscorpions": {
+   "next": "/blog/house-spiders",
+   "related": [
+    "/blog/yellow-sac-spiders",
+    "/blog/black-spiders",
+    "/blog/camel-spiders"
+   ],
+   "cards": [
+    "/blog/spiders-in-texas",
+    "/blog/brown-recluse-bite",
+    "/blog/joro-spiders"
+   ],
+   "bar": true
   },
   "/blog/raccoon-and-skunk-proofing-under-a-deck-canada": {
    "next": "/blog/raccoon-deterrent",

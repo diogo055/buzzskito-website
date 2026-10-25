@@ -2,7 +2,7 @@
  "id": "animal-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "632cde54bfa83d1f5557b525d627b55116882d431870ce973e0eb2a8a697e544",
+ "sha": "92d8ae44d4e636c4791bb8449025d3a5f21cc5e629864f22363e1ae77f9a5b7d",
  "claimsChecked": 223,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: one sentence added after the indoor droppings paragraph in 'What droppings turn up in the garage, kitchen or basement?' linking the new /blog/mouse-urine; and in 'What animal poop is in my yard?' the now-false 'the squirrel poop guide will cover squirrels' changed to 'covers squirrels' (the page went live today); no fact changed.",
    "previousSha": "7236642ff51bb7049bfda01b539c524af44f03bf6fc3257d6aeb66c498aab46f"
+  },
+  {
+   "on": "2026-10-25",
+   "note": "Oct 25: two navigation links added (/blog/deer-poop after the WSU pellet sentence, /blog/possum-vs-opossum after the possum poop link); no new claims",
+   "previousSha": "632cde54bfa83d1f5557b525d627b55116882d431870ce973e0eb2a8a697e544"
   }
  ]
 }

@@ -1,0 +1,173 @@
+{
+  "slug": "pseudoscorpions",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "pseudoscorpion",
+  "alsoTargets": [
+    "pseudoscorpions",
+    "pseudoscorpion bite",
+    "pseudoscorpion in house",
+    "book scorpion",
+    "are pseudoscorpions dangerous",
+    "pseudoscorpion size",
+    "false scorpion"
+  ],
+  "metaTitle": "Pseudoscorpion: Tiny, Harmless, No Stinger",
+  "metaDescription": "A pseudoscorpion is a tiny arachnid with scorpion-like pincers but no tail or stinger. Size, why it gets indoors, if it bites, look-alikes, what to do.",
+  "h1": "Pseudoscorpions: The Tiny Harmless 'Scorpions' in Your House",
+  "dek": "A real photo of the house pseudoscorpion, a quick-ID table against ticks, bed bugs, bark scorpions, camel spiders and booklice, why one turns up in a sink or an old book, whether it can bite, and what to do with it.",
+  "breadcrumb": "Pseudoscorpions",
+  "excerpt": "What a pseudoscorpion is, how big it gets, why it shows up in sinks, closets and old books, whether it can bite, how to tell it from a tick or a scorpion, and what to do.",
+  "datePublished": "2026-10-25",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A pseudoscorpion is a tiny arachnid with two long arms ending in pincers like a scorpion's but a short, rounded rear end with no tail or stinger.** The [University of Kentucky](https://entomology.mgcafe.uky.edu/ef647) says they are usually under 3/16 inch long, and the [University of Wisconsin Extension](https://hort.extension.wisc.edu/articles/pseudoscorpions/) says pseudoscorpions cannot bite and are harmless to people and pets.",
+    "bullets": [
+      "The house pseudoscorpion, the kind usually found indoors, is 3 to 4 mm (about 1/8 to 1/6 inch) long and a rich mahogany color, with pincer arms more than twice as long as its legs, says [Penn State Extension](https://extension.psu.edu/pseudoscorpions).",
+      "Homeowners often find them in bathroom sinks and tubs, Penn State says, and [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/pseudoscorpion) adds that they get trapped there and do not live in the drains.",
+      "They eat booklice, dust mites, ants, small flies and the larvae of clothes moths and carpet beetles, says the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/pseudoscorpions).",
+      "Many species have venom glands in their pincers for prey, but [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2019/pseudoscorpion-vol-5-no-32) says the venom tooth is far too tiny to penetrate human skin.",
+      "No treatment is needed: the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef647) says to sweep one up, and Penn State does not recommend pesticides."
+    ]
+  },
+  "facts": {
+    "title": "Pseudoscorpion or something else? Quick ID",
+    "head": ["Animal", "Size", "What to look for", "Where you find it", "Harm to people"],
+    "rows": [
+      ["Pseudoscorpion", "Usually under 3/16 inch (Kentucky); the house pseudoscorpion about 1/8 to 1/6 inch (Penn State)", "Flat, teardrop body; 8 legs plus two long pincer arms; rounded rear with no tail or stinger", "Bathroom sinks and tubs, closets, old books; outdoors under bark, stones and leaf litter", "Harmless; extension services say it cannot bite"],
+      ["Tick", "2 to 20 mm (about 1/12 to 3/4 inch), by species and stage", "Flattened oval body on 8 legs (6 in larvae); mouthparts it inserts into skin", "Grass, low plants and brush up to 3 feet off the ground; attached to skin", "Feeds on people and animals; can pass on disease"],
+      ["Bed bug", "3/16 to 1/4 inch, about the size of an apple seed", "Flat, oval, brown insect with a beak; swollen and reddish-brown after feeding", "Folds of mattresses and sheets", "Bites people; not known to spread disease"],
+      ["True scorpions, such as the bark scorpion", "Bark scorpions up to 3 inches", "Pincers plus a long, segmented tail ending in a stinger", "Southern and Southwestern US; the bark scorpion throughout Arizona", "Most stings feel like a bee sting; the bark scorpion's can be dangerous"],
+      ["Camel spider", "3/4 to 1 1/2 inches", "Large pincerlike jaws and leglike pedipalps; no venom glands", "California's San Joaquin Valley and arid parts of the Southwest", "Can bite if handled; cannot seriously harm people"],
+      ["Booklouse", "Usually under 1/16 inch", "Soft, pale, wingless insect with long antennae", "Warm, humid spots among books and papers", "Does not bite; pseudoscorpions eat it"]
+    ],
+    "caption": "From the Penn State, Kentucky, Iowa State, Wisconsin and Mississippi State extension services, the Missouri Department of Conservation, Utah State, the EPA, CDC, UC IPM and the University of Florida, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What is a pseudoscorpion?" },
+    { "type": "p", "text": "A pseudoscorpion is a tiny arachnid that looks like a scorpion without a tail. The [Missouri Department of Conservation's field guide](https://mdc.mo.gov/discover-nature/field-guide/pseudoscorpions) describes a flattened, teardrop- or pear-shaped body, 8 walking legs and 2 very long, armlike pedipalps ending in pincers much like a scorpion's, with the tip of the abdomen rounded instead of drawn out into a stinger. [Utah State University Extension's fact sheet](https://digitalcommons.usu.edu/extension_curall/945) says they are also known as false scorpions or book scorpions." },
+    { "type": "figure", "src": "/guides/photos/house-pseudoscorpion.webp", "width": 1018, "height": 1018, "alt": "A dark brown house pseudoscorpion with a ridged, rounded abdomen and two long, reddish pincer arms reaching out ahead of its legs, on gray plastic", "caption": "A house pseudoscorpion (Chelifer cancroides) in New York. Look for the two long pincer arms and the rounded rear end with no tail.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/83340006" },
+    { "type": "p", "text": "They are relatives of true scorpions, not small ones. The Missouri Department of Conservation places pseudoscorpions in their own order in the class Arachnida, alongside spiders, mites and ticks, daddy longlegs and true scorpions, and Utah State counts more than 3,300 species worldwide, most densely in the tropics and subtropics. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/pseudoscorpion) calls them common arachnids that usually go unnoticed because they are so small." },
+    { "type": "p", "text": "The one people meet indoors is usually the house pseudoscorpion, *Chelifer cancroides*. [Penn State Extension's pseudoscorpion page](https://extension.psu.edu/pseudoscorpions) describes the adult as 3 to 4 mm (about 1/8 to 1/6 inch) long and a rich mahogany color, with a teardrop-shaped body and pincer arms more than twice as long as its legs, and says many people take it for a tick or a small spider. The [University of Wisconsin Extension](https://hort.extension.wisc.edu/articles/pseudoscorpions/) calls it the common indoor species, found worldwide." },
+
+    { "type": "h2", "text": "How big are pseudoscorpions?" },
+    { "type": "p", "text": "Small enough to miss. The [University of Kentucky's fact sheet on centipedes and pseudoscorpions](https://entomology.mgcafe.uky.edu/ef647) says they are usually less than 3/16 inch long, and the Missouri Department of Conservation gives a top length of 1/4 inch, not counting the legs. Wisconsin puts them at 1/16 to 1/8 inch. With its pincers held out, crab-like, a house pseudoscorpion measures 7 to 9 mm (about 1/4 to 3/8 inch) across, Penn State says." },
+    { "type": "p", "text": "Watch how it moves, too. Kentucky says pseudoscorpions can run sideways or backward very quickly, and Wisconsin says a cornered one will often walk backward and raise its pincers in a threatening posture." },
+    { "type": "media", "needed": "A house pseudoscorpion in a white bathroom sink or tub in a home, beside a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "Why are there pseudoscorpions in my house?" },
+    { "type": "p", "text": "Usually by accident. Iowa State says pseudoscorpions are noticed when they accidentally invade homes and wander into sight, or get trapped in a sink or tub and cannot get out, mostly in spring and summer, and that they do not live in the drains. Penn State says homeowners frequently find them in bathroom sinks and tubs. Wisconsin says they prefer humid conditions in homes, are often found in or near the bathroom and spend most of their time hunting in closets and other quiet places." },
+    { "type": "p", "text": "Some ride in. The Missouri Department of Conservation says pseudoscorpions occasionally turn up in homes after hitching rides on houseflies and other flying insects. [Mississippi State University Extension's entomologist](https://extension.msstate.edu/newsletters/bugs-eye-view/2019/pseudoscorpion-vol-5-no-32) explains how: with no wings of their own, they grab an insect by a leg or antenna with their claws and hang on, and sometimes choose a ride that cannot fly, such as a [daddy longlegs](/blog/daddy-long-legs)." },
+    { "type": "p", "text": "Old books are another place to look. Mississippi State says one species, known as the book scorpion, lives in and around old books, where it preys on the book lice and dust mites that live there. Outdoors, pseudoscorpions live under bark, stones and leaf litter, Kentucky says, and Iowa State adds mulch, moss, bird nests and the gaps between the siding boards of buildings. Mississippi State notes that a stack of firewood with loose bark makes a great hunting ground for them." },
+    { "type": "media", "needed": "A pseudoscorpion on the pages or spine of an old book, or on a wall indoors, beside a coin or a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0" },
+
+    { "type": "h2", "text": "Can a pseudoscorpion bite or sting you?" },
+    { "type": "p", "text": "No, according to the extension services that cover them. Wisconsin says pseudoscorpions cannot bite and are harmless to people and pets, and Iowa State says they cannot bite or sting, do not attack a house, its furniture or the people in it, and have claws too small and weak to hurt people or pets. There is no stinger: the Missouri Department of Conservation notes the rounded tip of the abdomen, and Kentucky says they look like tailless scorpions without stingers." },
+    { "type": "p", "text": "They do carry venom, for their prey. Mississippi State says many species have venom glands in the pincers and a hollow venom tooth at the tip that injects venom into the tiny insects and mites they catch, but that the tooth is far too tiny to penetrate human skin, and it calls pseudoscorpions completely harmless to humans. The Missouri Department of Conservation says they are simply too small to bite us." },
+
+    { "type": "h2", "text": "What do pseudoscorpions eat?" },
+    { "type": "p", "text": "Tiny insects and mites. The Missouri Department of Conservation lists booklice, clothes moths, dust mites and ants, says they also eat the larvae of clothes moths and carpet beetles and small flies, and considers them beneficial for it. Penn State adds caterpillars, flies and beetle larvae. To feed, MDC says, a pseudoscorpion subdues its prey with the venom in its pincers, then secretes a digestive fluid onto it and takes in the dissolved remains." },
+    { "type": "figure", "src": "/guides/photos/booklouse-printed-paper.webp", "width": 1200, "height": 901, "alt": "A pale, nearly see-through booklouse with a rounded head and thick hind legs on white printed paper beside the black letters e and n", "caption": "A booklouse on printed paper in Germany, one of the tiny insects pseudoscorpions eat. The University of Florida says booklice are usually under 1/16 inch long and are often found among books or papers.", "credit": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/34150162" },
+
+    { "type": "h2", "text": "Does a pseudoscorpion mean you have an infestation?" },
+    { "type": "p", "text": "Rarely. Kentucky says usually only a single pseudoscorpion is found, and Iowa State says they are only rarely a chronic pest problem, more often an occasional accidental invader from outdoors. What one does hint at is its surroundings: Penn State says their presence may indicate high humidity, a population of other arthropods the pseudoscorpions are feeding on, or both." },
+    { "type": "p", "text": "Booklice are a common example. [The University of Florida's guide to booklice and silverfish](https://ask.ifas.ufl.edu/publication/IG094) describes soft, translucent white to light brown insects, usually under 1/16 inch long, that prefer warm, humid spots and are often found among books or papers, and [Penn State's booklice page](https://extension.psu.edu/booklice) says they feed on mold and fungi and do not bite. [The booklice guide](/blog/booklice) shows them up close, and [carpet beetle larvae](/blog/carpet-beetle-larvae) and clothes moth larvae, both on the Missouri Department of Conservation's list of their prey, are worth checking for too." },
+
+    { "type": "h2", "text": "How do you tell a pseudoscorpion from a tick or a bed bug?" },
+    { "type": "p", "text": "Look at the front end. A house pseudoscorpion carries two long pincer arms, more than twice the length of its legs, Penn State says. A tick has 8 legs (6 as a newly hatched larva) and mouthparts at the front, including a barbed, strawlike part it inserts into the skin to feed, says [Utah State University Extension's tick guide](https://extension.usu.edu/pests/research/ticks-and-tickborne-diseases-of-utah). Wisconsin calls pseudoscorpions tick-shaped, which is where the mix-up starts." },
+    { "type": "figure", "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp", "width": 1200, "height": 799, "alt": "Two blacklegged ticks on the tip of a person's index finger: a reddish adult female with dark legs and, to its right, a much smaller nymph", "caption": "For comparison, an adult female blacklegged tick (left) and a nymph on a fingertip, in a CDC photograph. A tick feeds with mouthparts at the front, where a pseudoscorpion has two long pincer arms.", "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383" },
+    { "type": "p", "text": "Where you found it helps too. Utah State says ticks climb grass, low plants and brush, from ground level to about 3 feet up, and wait for a host, and that diseases can pass from a tick to people or animals as it feeds. [What ticks look like](/blog/what-do-ticks-look-like) has photos of each common kind, [are ticks arachnids or insects](/blog/are-ticks-arachnids-or-insects) explains the family resemblance, and the [tick identifier](/tools/tick-identifier) walks you through one you have caught." },
+    { "type": "p", "text": "A bed bug is an insect with a beak, not pincers. [The EPA's bed bug page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) describes adults as flat, oval and brown, 3/16 to 1/4 inch long, about the size of an apple seed, turning balloon-like and reddish-brown after feeding. [CDC's page on bed bugs](https://www.cdc.gov/bed-bugs/about/index.html) says to look for them in the folds of mattresses and sheets, and that bed bugs are not known to spread diseases to people. [What bed bugs look like](/blog/what-do-bed-bugs-look-like) shows them at actual size, and [tick vs bed bug](/blog/tick-vs-bed-bug) compares those two." },
+
+    { "type": "h2", "text": "Is it a pseudoscorpion or a real scorpion?" },
+    { "type": "p", "text": "A real scorpion has a tail. [UC IPM's Pest Notes on scorpions](https://ipm.ucanr.edu/home-and-landscape/scorpions/) describes a crablike animal with a pair of pincers, four pairs of legs and a long, segmented tail ending in a stinger, and says bark scorpions reach 3 inches. The Missouri Department of Conservation lists the striped bark scorpion among the animals pseudoscorpions are confused with, and Mississippi State says homeowners are sometimes alarmed to find what look like tiny scorpions in the house." },
+    { "type": "figure", "src": "/guides/photos/striped-bark-scorpion.webp", "width": 1200, "height": 790, "alt": "A pale yellow-orange scorpion with a dark, striped back, its long segmented tail curled up behind it and its slender pincers held out in front", "caption": "A true scorpion, which CDC's photo library describes as what appeared to be a striped bark scorpion, with its curled tail stinger raised and pincers outstretched. A pseudoscorpion has the pincers but no tail.", "credit": "CDC/ Margaret A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=16417" },
+    { "type": "p", "text": "Where you live matters too. CDC's [page on insects and scorpions at work](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says scorpions are found in the Southern and Southwestern United States, and UC IPM says most US scorpions live in warm, dry places such as Arizona, nearby parts of California and parts of New Mexico. Pseudoscorpions, by contrast, are found throughout North America, Kentucky says." },
+    { "type": "p", "text": "A scorpion sting is a different matter from a pseudoscorpion. UC IPM says the sting of most US scorpions is like a bee sting, that of the 70 or so North American species only the bark scorpion is considered dangerous to people, and that anyone stung by a bark scorpion or having an allergic reaction to a sting should seek medical attention. CDC advises contacting a qualified health care provider or poison control center after a sting." },
+
+    { "type": "h2", "text": "What else looks like a pseudoscorpion?" },
+    { "type": "p", "text": "The quick-ID table at the top sets the common mix-ups side by side. Three more are worth a note:" },
+    { "type": "ul", "items": [
+      "**Camel spiders.** [UC IPM's page on windscorpions](https://ipm.ucanr.edu/home-and-landscape/windscorpion/) describes a yellowish-brown arachnid 3/4 to 1 1/2 inches long with large, pincerlike jaws and leglike pedipalps but no venom glands, common in California's San Joaquin Valley and arid parts of the Southwest. It can bite if handled but cannot seriously harm people, UC IPM says. See [camel spiders](/blog/camel-spiders).",
+      "**House centipedes and others.** The Missouri Department of Conservation also lists silverfish, red velvet mites, house centipedes, pillbugs and sowbugs, and ants among similar species; the guide to [house centipedes](/blog/house-centipedes) covers one of them.",
+      "**Tiny brown bugs in general.** If what you caught has no pincers at all, [the tiny brown bugs guide](/blog/tiny-brown-bugs) sorts the small brown crawlers found indoors."
+    ] },
+    { "type": "confused", "items": [
+      { "href": "/blog/what-do-ticks-look-like", "name": "Tick", "photo": "blacklegged-tick-female", "note": "Flattened oval body on 8 legs, with mouthparts it inserts into skin instead of long pincer arms", "alt": "Top view of a female blacklegged tick, reddish-orange with a dark shield and eight dark legs, on a green blade of grass" },
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-on-skin-cdc", "note": "A flat, oval, brown insect 3/16 to 1/4 inch long with a beak, not pincers; it bites people", "alt": "Side view of a reddish-brown bed bug standing on human skin" },
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse", "note": "Soft, pale and usually under 1/16 inch, with long antennae; a common pseudoscorpion meal", "alt": "Magnified booklouse seen from above, with a broad brownish head, very long thin antennae and a segmented body" },
+      { "href": "/blog/camel-spiders", "name": "Camel spider", "photo": "camel-spider-house-wall", "note": "Far bigger at 3/4 to 1 1/2 inches, with huge pincerlike jaws; lives in arid parts of the Southwest", "alt": "A pale camel spider with a dark-banded abdomen and long legs on a textured white house wall, a fingertip at lower left for scale" },
+      { "href": "/blog/bark-scorpions", "name": "Bark scorpion", "photo": "arizona-bark-scorpion", "note": "Up to 3 inches, with a long, segmented tail ending in a stinger; lives in the Southwest", "alt": "Top view of a pale tan Arizona bark scorpion on sand, its long, segmented tail curled toward its back" }
+    ] },
+
+    { "type": "h2", "text": "What should you do if you find a pseudoscorpion?" },
+    { "type": "p", "text": "Nothing, or put it outside. Kentucky says there is no need for any control beyond sweeping it up and discarding it, and Iowa State says special treatments are usually not warranted and that ones found indoors can be vacuumed or swept up. Wisconsin says control is neither needed nor suggested, and that since pseudoscorpions eat pest insects in the home, it is better to preserve their numbers. Penn State says using pesticides on them is not recommended." },
+    { "type": "ul", "items": [
+      "**Let it go outside.** A clear jar set over it and an index card slid underneath let you carry it out without touching it.",
+      "**Seal gaps.** Iowa State says sealing gaps, cracks and other points of entry may help keep them out, though preventing every one would be difficult.",
+      "**Dry out damp rooms.** Wisconsin says pseudoscorpions prefer humid conditions in homes, and Penn State's booklice page suggests a dehumidifier, a moisture absorber or another way to bring relative humidity below 50%, which prevents mold growth and booklouse development.",
+      "**Look for their food.** If they keep turning up, look for booklice in damp books and papers, and for the larvae of clothes moths and carpet beetles, prey the Missouri Department of Conservation names."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Ease it into a small clear jar with an index card, photograph it beside a ruler marked in inches, and look for the two long pincer arms and the rounded rear with no tail. Your state's cooperative extension office can confirm what it is." }
+  ],
+  "faqs": [
+    {
+      "question": "Are pseudoscorpions dangerous to pets?",
+      "answer": "No. Iowa State University Extension says their claws are too small and weak to be hurtful to people and pets, and the University of Wisconsin Extension says they are harmless to people and pets. They feed on tiny insects and mites, not on the animals themselves: the Missouri Department of Conservation says some species live with mammals and birds and feed on their lice and other parasites, and that they are often found in henhouses, where they eat the lice chickens carry."
+    },
+    {
+      "question": "Should you kill a pseudoscorpion?",
+      "answer": "You don't have to. The University of Wisconsin Extension says control is neither needed nor suggested and that, because pseudoscorpions eat pest insects in the home, it is better to preserve their numbers. The Missouri Department of Conservation considers them beneficial because they eat clothes moth and carpet beetle larvae, dust mites, small flies and booklice. If you want one gone, the University of Kentucky says sweeping it up is all the control needed, and Penn State Extension does not recommend pesticides."
+    },
+    {
+      "question": "How long do pseudoscorpions live?",
+      "answer": "Several years. Penn State Extension says house pseudoscorpions take 10 to 24 months to develop, depending on temperature, molting three times on the way to adulthood, and that adults do not molt and can live for 3 or 4 years. The Missouri Department of Conservation says that, depending on the species, pseudoscorpions can live for several years and spend 2 to 3 years as mature adults, and that many species spin a small silken cocoon for shelter while they molt."
+    },
+    {
+      "question": "Do pseudoscorpions lay eggs in your house?",
+      "answer": "The females keep their eggs with them. Penn State Extension says a female house pseudoscorpion produces 20 to 40 eggs that she carries beneath her abdomen, and the Missouri Department of Conservation says the female carries both the eggs and the hatched young on her body. Large numbers indoors are unusual: the University of Kentucky says usually only a single pseudoscorpion is found, and Iowa State University Extension says they are only rarely a chronic pest problem."
+    },
+    {
+      "question": "Why are pseudoscorpions called book scorpions?",
+      "answer": "Because one kind lives among old books. Utah State University Extension says pseudoscorpions are also known as false scorpions or book scorpions, and Mississippi State University Extension says one species, known as the book scorpion, is found in and around old books, where it preys on the book lice and dust mites that live there. Penn State Extension says booklice feed on mold and fungi in humid, damp places and can be associated with paper, books and book bindings."
+    },
+    {
+      "question": "Are pseudoscorpions spiders?",
+      "answer": "No, though they are relatives. The Missouri Department of Conservation says pseudoscorpions are a distinct order within the class Arachnida, which also includes spiders, mites and ticks, daddy longlegs and true scorpions, much as beetles and butterflies are different orders of insects. Iowa State University Extension calls them common arachnids closely related to scorpions, mites, ticks and spiders. Like other arachnids, they have 8 legs; the pincers are a separate pair of appendages called pedipalps."
+    },
+    {
+      "question": "Do pseudoscorpions come up through drains?",
+      "answer": "No. Iowa State University Extension says pseudoscorpions do not live in the drains; they are noticed when they wander into homes by accident or become trapped in a sink or tub and cannot get out. The University of Wisconsin Extension says one that falls into a sink may not be able to crawl out, and that they prefer humid conditions and are often found in or near the bathroom. Penn State Extension says homeowners frequently find them in bathroom sinks and tubs."
+    },
+    {
+      "question": "Can pseudoscorpions fly?",
+      "answer": "Not on their own, since they have no wings, but some species travel on insects that can. Mississippi State University Extension says they grab an insect by the leg or antenna with their claws and hang on, and that entomologists sometimes find them still clinging to insects they collect. The Missouri Department of Conservation says pseudoscorpions occasionally arrive in homes this way, having hitched rides on houseflies and other flying insects."
+    },
+    {
+      "question": "Where do pseudoscorpions live outside?",
+      "answer": "Under things. The University of Kentucky says they usually live under bark, stones or leaf litter, and Iowa State University Extension adds mulch, moss, bird nests and the gaps between siding boards on buildings. Penn State Extension lists animal nests, bark crevices and leaf litter for most species, which live in the tropics, and Mississippi State University Extension says a stack of firewood with loose bark makes a great hunting ground for them. Kentucky says pseudoscorpions are found throughout North America."
+    },
+    {
+      "question": "How many kinds of pseudoscorpions are there?",
+      "answer": "More than 3,300 species worldwide, according to Utah State University Extension, which says the densest populations are in the tropics and subtropics and that pseudoscorpions are found throughout Utah. The one most often found indoors is the house pseudoscorpion, Chelifer cancroides, which Penn State Extension calls cosmopolitan and the University of Wisconsin Extension describes as the common indoor species found worldwide."
+    }
+  ],
+  "sources": [
+    { "title": "Pseudoscorpions (Steve Jacobs, reviewed January 2013)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/pseudoscorpions" },
+    { "title": "Centipedes and Pseudoscorpions (ENTFACT-647; Lee Townsend and Mike Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef647" },
+    { "title": "Pseudoscorpions (field guide, reviewed November 30, 2024)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/pseudoscorpions" },
+    { "title": "Pseudoscorpion (Yard and Garden, September 13, 2016)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/pseudoscorpion" },
+    { "title": "Pseudoscorpions (Phil Pellitteri, UW Insect Diagnostic Lab, revised April 27, 2004)", "publisher": "University of Wisconsin-Madison Division of Extension, Wisconsin Horticulture", "url": "https://hort.extension.wisc.edu/articles/pseudoscorpions/" },
+    { "title": "Pseudoscorpion (Bug's Eye View, volume 5, number 32; Blake Layton, 2019)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2019/pseudoscorpion-vol-5-no-32" },
+    { "title": "Pseudoscorpions (Erin W. Hodgson, Alan H. Roe and Brooke Lambert, July 2008)", "publisher": "Utah State University Extension", "url": "https://digitalcommons.usu.edu/extension_curall/945" },
+    { "title": "Ticks and Tickborne Diseases of Utah (Kate Richardson, Ryan Davis and Ricardo Ramirez, July 2023)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/pests/research/ticks-and-tickborne-diseases-of-utah" },
+    { "title": "Bed Bugs Appearance and Life Cycle", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "About Bed Bugs (April 26, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "Pest Notes: Scorpions (UC ANR Publication 74110; E. T. Natwick, updated December 2011)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/scorpions/" },
+    { "title": "Insects and Scorpions at Work (September 28, 2026)", "publisher": "Centers for Disease Control and Prevention (NIOSH)", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" },
+    { "title": "Pest Notes: Windscorpion (UC ANR Publication 7495; E. J. Perry, updated May 2010)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/windscorpion/" },
+    { "title": "Booklice and Silverfish (ENY-225/IG094; F. M. Oi, P. G. Koehler, D. Branscome and B. E. Bayer)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Booklice (Michael J. Skvarla, updated July 23, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/booklice" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,191 @@
+{
+  "slug": "carpet-beetle-rash",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "carpet beetle bites",
+  "alsoTargets": [
+    "carpet beetle rash",
+    "do carpet beetles bite",
+    "carpet beetle dermatitis",
+    "carpet beetle larvae bites",
+    "what do carpet beetle bites look like",
+    "carpet beetle rash pictures",
+    "carpet beetle rash treatment"
+  ],
+  "metaTitle": "Carpet Beetle Bites? Why It's Really a Rash",
+  "metaDescription": "Carpet beetles don't bite: itchy bumps blamed on them are a reaction to larval hairs. What the rash looks like, how to confirm it, when to see a doctor.",
+  "h1": "Carpet Beetle Bites: Why They Don't Bite and What the Rash Looks Like",
+  "dek": "Carpet beetles never bite, but the hairs of their larvae can raise itchy red bumps that pass for bites. What the rash looks like, how it compares with bed bug, flea, chigger, mosquito and scabies marks, and when to see a doctor.",
+  "breadcrumb": "Carpet Beetle Bites",
+  "excerpt": "Do carpet beetles bite? No: the itchy bumps come from their larvae's hairs. What the rash looks like, how to tell it from bites, how to find the larvae and when to see a doctor.",
+  "datePublished": "2026-10-25",
+  "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
+  "quickAnswer": {
+    "lead": "**Carpet beetles do not bite: the itchy, bite-like bumps blamed on them are a skin reaction to the bristly hairs of their larvae, so the test is finding the fuzzy larvae and their shed skins, not studying the bumps.** [Texas A&M AgriLife Extension](https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3006-2/) says the hairs irritate some people, and [Penn State Extension](https://extension.psu.edu/carpet-beetle-dermatitis) describes an acquired allergy to them.",
+    "bullets": [
+      "In a [CDC journal report](https://wwwnc.cdc.gov/eid/article/27/7/20-3245_article) on 11 patients in southern France, the bumps were itchy, red and raised, mostly under clothing on the thighs, arms, chest and abdomen, and each lasted about a week while new ones appeared.",
+      "Penn State says that apparently only people exposed to the hairs for years become sensitized; in the CDC report, the bumps started in one family member and then appeared in some, not all, of the others.",
+      "The larvae are 1/8 to 1/4 inch long, tan to brownish and densely covered with hairs or bristles, says the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef601), and [UC IPM](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says they leave brown, bristly shed skins.",
+      "Contact a healthcare provider about itching that is severe, does not go away or cannot be easily explained, [MedlinePlus](https://medlineplus.gov/ency/article/003217.htm) advises.",
+      "Trouble breathing or swallowing, or swelling eyes or lips, calls for emergency care right away, says the [American Academy of Dermatology](https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101)."
+    ]
+  },
+  "facts": {
+    "title": "Carpet beetle rash or a bite? Quick ID",
+    "head": ["Cause", "What you see", "Where on the body", "Timing", "Sign to look for"],
+    "rows": [
+      ["Carpet beetle larvae (no bite)", "Scattered itchy, red, raised bumps that look like bites", "Mostly under clothing: thighs, arms, chest, abdomen", "Each bump lasts about a week while new ones appear, for weeks", "Hairy larvae and brown, bristly shed skins in wool, rugs, closets or lint; no bed bugs or fleas"],
+      ["Bed bugs", "Slightly swollen, red, itchy spots; several welts, often in a zigzag line", "Face, neck, arms, hands or any skin, noticed after sleeping", "One to several days after the bite; up to 14 days in some people", "Rusty spots, shed skins or bugs in the folds of mattresses and sheets"],
+      ["Fleas", "Small bumps, sometimes with a ring or halo, in a line or a cluster", "Mostly the feet, calves and ankles; rarely above the knee", "Gone in a few days", "A pet with fleas, and bites on your legs"],
+      ["Chiggers", "A speckled line of very itchy red spots or pimples", "Where clothing fits tight: ankles, lower legs, behind the knees, waist, groin", "Itch can start up to 3 hours after contact, peaks in 24 to 48 hours, fades in about 2 weeks", "Bites along the seams of tight clothing after time in overgrown grass, woods or gardens"],
+      ["Mosquitoes", "A puffy, reddish bump, then a hard, itchy, reddish-brown bump", "Any skin a mosquito reaches; they can bite through thin clothes", "Puffy bump within minutes, hard bump a day or so later; gone in a few days", "Sometimes a small dark spot in the center of the bump"],
+      ["Scabies mites (not a bite)", "Intense itching, worst at night, and a pimple-like rash", "Between the fingers; folds of the wrist, elbow, knee and armpit; waist, buttocks, shoulder blades", "First case: up to 3 to 6 weeks to show; repeat case: 1 to 4 days after exposure", "Tiny burrows just under the skin; a physician confirms it"]
+    ],
+    "caption": "From CDC and its Emerging Infectious Diseases journal, the American Academy of Dermatology, Cleveland Clinic, UC IPM, the University of Kentucky and Texas A&M AgriLife, each linked on this page. The same cause can look different on different people."
+  },
+  "body": [
+    { "type": "h2", "text": "Do carpet beetles bite?" },
+    { "type": "p", "text": "No. [Texas A&M AgriLife Extension's guide to mysterious bug bites](https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3006-2/) says carpet beetles do not bite, but hairs on the larvae irritate some people, and bite-like lesions may form where skin is pressed against a larva. A 2021 report in CDC's journal [Emerging Infectious Diseases](https://wwwnc.cdc.gov/eid/article/27/7/20-3245_article) says the adult beetles feed on nectar and pollen and are harmless to humans, and that the larvae never infest living animals." },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle-larva-hallway-wall.webp", "width": 1200, "height": 900, "alt": "Top view of a varied carpet beetle larva on a white wall, its banded amber body ringed with long dark bristles and dense pale tufts of hair at one end", "caption": "A varied carpet beetle larva on a wall in the hall of a house in England, seen up close. Its hairs, not a bite, are what Penn State and the CDC report tie to the rash, and the CDC authors say only the fine, spear-headed ones cause the bumps.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/93975625" },
+    { "type": "p", "text": "So what people call carpet beetle bites is carpet beetle dermatitis, a reaction of the skin. [Penn State Extension's page on carpet beetle dermatitis](https://extension.psu.edu/carpet-beetle-dermatitis) says dermatologists have reported cases since 1948, that biopsies and clinical tests confirmed the larval hairs of carpet beetles and their relatives as the cause, and that it appears to be an acquired allergic reaction to the hairs and the larvae's body fluid. Patients often say it feels like being bitten by something." },
+    { "type": "p", "text": "The shape of the hairs is the problem. The CDC report says the larvae's spear-headed hairs can get stuck in the skin or the lining of the airways, and that the hairs spread through a home on natural air currents or an air conditioning system. [UC IPM's Pest Notes on carpet beetles](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says mature varied carpet beetle larvae are covered with dense tufts of hair, which they raise into a round plume when disturbed." },
+
+    { "type": "h2", "text": "What does a carpet beetle rash look like?" },
+    { "type": "p", "text": "It looks like a scatter of itchy, red, raised bumps that are easy to take for bites. The 11 patients in the CDC report, 6 children aged 7 to 17 and 5 adults aged 19 to 58, each had a several-week history of bumps: 7 to 35 separate red, hive-like (urticarial) bumps per person, a median of 17. Each bump itched, lasted about a week and faded slowly, and new ones kept appearing. Penn State lists intense itching, a rash and eruptions of small bumps and blisters among the reported symptoms." },
+    { "type": "media", "needed": "A carpet beetle dermatitis rash: scattered red, raised bumps on the thigh, arm, chest or abdomen of a patient whose rash a physician attributed to carpet beetle larvae, ideally with the identified larva beside a ruler marked in inches; public domain or CC0" },
+    { "type": "p", "text": "This page shows no photo of the rash, because no clinically confirmed photo that can be credited and shared was available. A photo of bumps could not settle the cause anyway: [UC IPM's guide to unexplained itching](https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/) names bed bugs, fleas, mites and mosquitoes among the causes of skin irritation and says a correct, conclusive answer takes a specimen identified by a trained entomologist. The photos here show the larvae and what they leave behind, which is what confirms a carpet beetle cause." },
+
+    { "type": "h2", "text": "Where on the body does a carpet beetle rash appear?" },
+    { "type": "p", "text": "Mostly under clothing. The CDC report found the bumps mostly on covered skin, on the thighs, arms, chest and abdomen, and the medical entomologist who visited two of the homes quickly found larvae and adult beetles in clothing, fabric and upholstery. Texas A&M adds that bite-like lesions may form wherever skin is pressed against a larva." },
+    { "type": "p", "text": "The hairs also travel. The French authors say the hairs spread through a home on air currents or an air conditioning system, and they put one child's 35 bumps, the most in the series, down to the air conditioning unit above her bed as the probable cause." },
+
+    { "type": "h2", "text": "Why does only one person in the house get the rash?" },
+    { "type": "p", "text": "Because the reaction appears to be an allergy that takes time to build. Penn State says that apparently only people with long-term exposure to the hairs, measured in years, become sensitized. In the CDC report, the bumps always appeared first in one family member and then in some, but not all, of the others, and the authors note that more than one member of a household often has no symptoms." },
+    { "type": "p", "text": "That pattern is a clue, not proof. [CDC's page on bed bugs](https://www.cdc.gov/bed-bugs/about/index.html) says bed bug bites affect each person differently and lists no physical signs at all among the possibilities, so one itchy person in a shared bed does not rule bed bugs out." },
+
+    { "type": "h2", "text": "How do you confirm carpet beetles are causing the rash?" },
+    { "type": "p", "text": "Find the larvae or their shed skins. The [University of Kentucky's carpet beetle fact sheet](https://entomology.mgcafe.uky.edu/ef601) describes the larvae as 1/8 to 1/4 inch long, tan to brownish, slow moving and densely covered with hairs or bristles, often feeding in the hems, collars and cuffs of items kept in closets, chests and boxes. UC IPM says they prefer dark, secluded places and leave brown, shell-like, bristly cast skins and fecal pellets about the size of a grain of salt." },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle-larva-knit-fabric.webp", "width": 1152, "height": 2048, "alt": "A small striped carpet beetle larva, dark bands across a tan body, lying on light blue knitted fabric", "caption": "A varied carpet beetle larva on knitted fabric in a house in Maryland. The families in the CDC report washed clothing worn against the skin to get rid of larval hairs.", "credit": "(c) Erin Lalime, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/41480946" },
+    { "type": "ul", "items": [
+      "**Closets, drawers and stored clothes.** Kentucky says the larvae feed on wool, felt, fur, silk, feathers and leather, and the CDC report says they usually live in dark drawers and cupboards.",
+      "**Beds, soft toys and rugs.** The CDC report says they are commonly found in wardrobes, on stuffed animals and mattresses, and under carpets.",
+      "**Lint, vents and baseboards.** UC IPM points to accumulations of lint, hair, dead insects and other debris that feed them, and Kentucky says to vacuum floors, carpets and the inside of heating vents.",
+      "**Windowsills in spring.** Kentucky says the small, oval adults, 1/16 to 1/8 inch long, often appear on windowsills in springtime, which suggests an infestation may be present inside."
+    ] },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle-adult-cast-skin-book.webp", "width": 1200, "height": 1600, "alt": "A tiny mottled black, white and tan carpet beetle beside a banded, bristly shed larval skin on the pale, fibrous edge of a book's pages", "caption": "An adult varied carpet beetle with a shed larval skin just to its right, on the edge of a book's pages in Savannah, Georgia. UC IPM says shed skins and a lack of webbing are usually good clues that carpet beetles are the culprits.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/258853298" },
+    { "type": "p", "text": "Then have what you find identified. The CDC report says five of the seven families searched their homes after being shown pictures of carpet beetle adults and larvae, and a medical entomologist confirmed the insects they brought in. [What carpet beetle larvae look like](/blog/carpet-beetle-larvae) has close-ups of each kind, [signs of carpet beetles](/blog/signs-of-carpet-beetles) shows the skins, droppings and damage they leave, and photos of [bed bug shed skins](/blog/bed-bug-shells-casings-shed-skins-canada) help rule bed bugs in or out." },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle-skins-frass.webp", "width": 1200, "height": 966, "alt": "Dozens of pale, banded carpet beetle larval skins, heaps of powdery tan droppings and a few mottled adult beetles on white paper", "caption": "Shed larval skins, heaps of powdery droppings and a few adult varied carpet beetles, all from a dried fence lizard specimen the larvae ate in Idaho. UC IPM says the larvae leave cast skins when they molt.", "credit": "(c) John Powers, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/117232088" },
+
+    { "type": "h2", "text": "Is it carpet beetle rash or bed bug bites?" },
+    { "type": "p", "text": "Look for the insect, because the bumps alone rarely settle it. CDC says bed bug bites look like mosquito or flea bites, a slightly swollen, red area that may itch, often on the face, neck, arms and hands after sleeping, at random or in a straight line, and that they may take as long as 14 days to develop in some people. The [American Academy of Dermatology's bed bug page](https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms) describes several welts, often in a zigzag line, and specks of blood on the bedding." },
+    { "type": "p", "text": "In the CDC report the bumps were scattered all over the body, mainly under clothing, a pattern the authors call atypical for bed bugs and fleas, and the families' careful checks of beds and sofas found neither. The authors advise checking the home for carpet beetles when bumps that mimic bug bites have no central blister, and warn that mistaking the rash for bed bug or flea bites can lead to unnecessary insecticide use. CDC's signs of bed bugs are shed skins, bugs in the folds of mattresses and sheets, rusty blood spots on mattresses or nearby furniture and a sweet, musty odor. [Bites with no sign of bed bugs](/blog/bed-bug-bites-but-no-bed-bugs) works through the other suspects." },
+
+    { "type": "h2", "text": "What else looks like a carpet beetle rash?" },
+    { "type": "p", "text": "Flea, chigger and mosquito bites and scabies are the usual mix-ups, and the quick-ID table at the top sets them side by side. Here is the clue for each from the medical sources:" },
+    { "type": "ul", "items": [
+      "**Flea bites.** [Cleveland Clinic's flea bite page](https://my.clevelandclinic.org/health/diseases/21718-flea-bites) says they appear mostly on the feet, calves and ankles, rarely above the knee, and that if your pet has fleas and you have bites on your legs, you likely have flea bites.",
+      "**Chigger bites.** [Cleveland Clinic's chigger page](https://my.clevelandclinic.org/health/diseases/23267-chigger-bites) says they form in a line around the seams of tight-fitting clothing, and that chiggers are picked up in overgrown grass, woods, gardens and moist soil near water. See [chigger bites](/blog/chigger-bites).",
+      "**Mosquito bites.** [CDC's page on mosquito bites](https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html) describes a puffy, reddish bump a few minutes after the bite, then a hard, itchy, reddish-brown bump a day or so later. [Cleveland Clinic's mosquito bite page](https://my.clevelandclinic.org/health/diseases/17695-mosquito-bites) says mosquitoes can bite through thin clothes and the bites last only a few days.",
+      "**Scabies.** [CDC's scabies symptoms page](https://www.cdc.gov/scabies/signs-symptoms/index.html) describes intense itching, especially at night, a pimple-like rash between the fingers and in the folds of the wrist, elbow, knee and armpit, and tiny burrows just beneath the skin. It spreads through direct, extended skin-to-skin contact, says [CDC's page on how scabies spreads](https://www.cdc.gov/scabies/causes/index.html), and Texas A&M says a physician must diagnose it, usually from skin scrapings."
+    ] },
+    { "type": "p", "text": "Not every itch comes from an insect. Texas A&M lists fibers and paper slivers drawn to the skin by static, detergents, cosmetics and toiletries, solvents, some medicines and medical conditions among the causes of skin reactions mistaken for bites. The [bug bite identification chart](/learn/bug-bites) compares bites by pattern, place and timing, and the [bug bite identifier](/tools/bug-bite-identifier) asks six questions about your bumps." },
+    { "type": "confused", "title": "The larva behind the rash, and the bites it mimics", "items": [
+      { "href": "/blog/carpet-beetle-larvae", "name": "Carpet beetle larva", "photo": "carpet-beetle-larva", "note": "The real cause: a hairy, banded larva 1/8 to 1/4 inch long whose hairs, not a bite, raise the bumps", "alt": "A hairy, banded brown carpet beetle larva seen from the side on a pale, textured surface" },
+      { "href": "/blog/what-do-bed-bug-bites-look-like", "name": "Bed bug bites", "photo": "bed-bug-bites-back-physician", "note": "Welts, often in a zigzag line, on skin bare in bed; rusty blood spots on the mattress", "alt": "Scattered red welts, some in small groups, across a person's upper back and shoulders" },
+      { "href": "/blog/flea-bites", "name": "Flea bites", "photo": "flea-bites-ankles-cdc", "note": "Small bumps mostly on the feet, ankles and calves, rarely above the knee; often a pet with fleas", "alt": "Black-and-white photo of a seated woman's lower legs with dozens of small dark spots around both ankles" },
+      { "href": "/blog/chigger-bites", "name": "Chigger bites", "photo": "chigger-bites-ruler", "note": "Very itchy red spots in a line along sock lines and waistbands after time in overgrown grass", "alt": "Three small, raised red welts on a hairy arm beside a ruler marked in inches" },
+      { "href": "/blog/bed-bug-bites-vs-mosquito-bites", "name": "Mosquito bites", "photo": "mosquito-bites-forearm", "note": "A puffy bump minutes after the bite, then a hard, itchy, reddish-brown bump a day or so later", "alt": "Several mosquito bites merged into one raised red patch on the inside of a forearm" },
+      { "href": "/blog/scabies-vs-bed-bugs", "name": "Scabies", "photo": "scabies-rash-hand", "note": "A pimple-like rash between the fingers and in skin folds that itches most at night", "alt": "Close view of the skin between two fingers with small, raised pinkish bumps" }
+    ] },
+
+    { "type": "h2", "text": "How do you treat a carpet beetle rash?" },
+    { "type": "p", "text": "Ease the itch, then remove the source of the hairs. [MedlinePlus's guide to itching](https://medlineplus.gov/ency/article/003217.htm), from the US National Library of Medicine, lists these home care steps for itchy skin:" },
+    { "type": "ul", "items": [
+      "**Cool it.** Apply cold compresses to the itchy area.",
+      "**Leave it alone.** Do not scratch or rub the itchy areas.",
+      "**Bathe gently.** Take lukewarm baths with little soap, rinse thoroughly and use a moisturizer.",
+      "**Try an over-the-counter remedy.** MedlinePlus suggests hydrocortisone cream on the itchy areas or an oral antihistamine. CDC's advice for itchy mosquito bites is to follow the product label directions.",
+      "**Dress for it.** Wear cool, light, loose bedclothes, and avoid rough clothing such as wool over an itchy area."
+    ] },
+    { "type": "p", "text": "The patients in the CDC report were given antihistamines and topical corticosteroids while their households followed a cleanup plan: clothing worn against the skin was washed and stored dry in airtight bags, mattresses and other infested areas were vacuumed and the vacuum bag thrown out, the insects were removed physically and air conditioners were cleaned, with no insecticides. After those steps, the skin healed in every patient within 3 days, and a month later no new bumps had appeared in any of the seven families." },
+
+    { "type": "h2", "text": "When should you see a doctor for a carpet beetle rash?" },
+    { "type": "p", "text": "See a doctor when the rash is severe, keeps going or has no clear cause. MedlinePlus says to contact your provider about itching that is severe, does not go away or cannot be easily explained, or that comes with other unexplained symptoms. The [American Academy of Dermatology's guide to rashes](https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101) says a rash needs medical attention when it:" },
+    { "type": "ul", "items": [
+      "Covers most of your body, spreads rapidly or is painful.",
+      "Blisters or turns into open sores or raw skin.",
+      "Comes with a fever or illness.",
+      "Involves the eyes, lips, mouth or genital skin.",
+      "Shows signs of infection: pus, yellow or golden crusts, pain, swelling, warmth or an unpleasant smell."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Emergency signs", "text": "Get emergency medical care right away if you have trouble breathing or swallowing, or your eyes or lips swell up, the American Academy of Dermatology says." },
+    { "type": "p", "text": "Mention your eyes and breathing, too. Penn State says irritation of the airways and eyes may develop in some patients, and the CDC report notes that even rare cases of asthma could be linked to carpet beetle larvae in a home." },
+    { "type": "p", "text": "See a doctor as well if you find no larvae. UC IPM says that if no organism can be found, chances are you need to look for other causes, and that the first person to contact is your family physician or primary health care provider. Texas A&M suggests asking your doctor about possible allergies, undiagnosed medical conditions and reactions to the medicines you take." },
+
+    { "type": "h2", "text": "How do you get rid of the carpet beetles causing the rash?" },
+    { "type": "p", "text": "Find and remove what the larvae live in. Penn State says successful control depends on locating the source of the infestation, then cleaning or destroying the infested item. Kentucky says to locate every infested item, then launder, dry-clean or discard it and susceptible articles nearby. UC IPM says washing in hot water or dry cleaning kills all stages, that frequent, thorough vacuuming removes their food, and that the vacuum bag should be disposed of promptly because it can hold eggs, larvae or adults." },
+    { "type": "p", "text": "Texas A&M says thorough vacuuming and eliminating food sources are usually enough to keep carpet beetle numbers low, and the cleanup in the CDC report used no insecticides. [How to get rid of carpet beetles](/blog/how-to-get-rid-of-carpet-beetles) covers freezing, heat, storage and when an insecticide makes sense." },
+    { "type": "callout", "tone": "tip", "title": "Catch one for a closer look", "text": "Lift a larva or shed skin with clear tape or drop it into a small jar, photograph it beside a ruler marked in inches, and note where you found it. Your state's cooperative extension office can help identify it, and a doctor can look at the rash." }
+  ],
+  "faqs": [
+    {
+      "question": "Do carpet beetles crawl on you at night?",
+      "answer": "None of the sources here describes them seeking people out. UC IPM says carpet beetle larvae prefer dark, secluded places, and a CDC journal report says the larvae never infest living animals, though they are commonly found in wardrobes, on stuffed animals and mattresses, and under carpets. Skin can still meet them: Texas A&M AgriLife Extension says bite-like lesions may form where skin is pressed against a larva. The families in the CDC report vacuumed their mattresses and other infested areas and washed clothing worn against the skin."
+    },
+    {
+      "question": "Can carpet beetles live in your hair or on your skin?",
+      "answer": "No. The CDC journal report on carpet beetle dermatitis says the larvae never infest living animals; they feed on dried organic matter such as wool, dust, dead skin cells, feathers and hairs. What reaches people is their hair: the authors say the larvae's spear-headed hairs can get stuck in the skin and spread through a home on air currents. If your scalp or skin keeps itching and you find no larvae, see a healthcare provider, since UC IPM says many unrelated medical conditions can cause itching or crawling sensations."
+    },
+    {
+      "question": "How long does a carpet beetle rash last?",
+      "answer": "In the CDC journal report on 11 patients in France, each itchy bump lasted about a week before fading slowly while new ones appeared, and every patient had had bumps for several weeks. Once the families washed clothing worn against the skin, vacuumed, removed the insects and cleaned their air conditioners, and the patients were treated with antihistamines and topical corticosteroids, the skin healed within 3 days. MedlinePlus advises contacting a provider about itching that does not go away."
+    },
+    {
+      "question": "Is carpet beetle rash contagious?",
+      "answer": "None of the sources here describes it passing from person to person; it comes from larval hairs in the home. In the CDC journal report, the bumps appeared first in one family member and then in some, but not all, of the others sharing the infested home, and Penn State Extension says that apparently only people exposed to the hairs for years become sensitized. Scabies is different: CDC says it spreads through direct, extended skin-to-skin contact, such as between household members and sexual partners."
+    },
+    {
+      "question": "Can carpet beetles cause hives?",
+      "answer": "The bumps can look like hives. The CDC journal report described its patients' lesions as urticarial papules, meaning raised, hive-like red bumps, which itched and lasted about a week each. Penn State Extension calls the condition an acquired allergic reaction to the larvae's hairs and body fluid, with intense itching and a rash, and says irritation of the airways and eyes may develop in some patients. The American Academy of Dermatology says swelling of the eyes or lips, or trouble breathing or swallowing, needs emergency care right away."
+    },
+    {
+      "question": "Can carpet beetle rash show up on your face?",
+      "answer": "It was not the usual place in the CDC journal report, where the bumps were mostly under clothing, on the thighs, arms, chest and abdomen. Penn State Extension says irritation of the eyes and airways may develop in some people, and the American Academy of Dermatology says a rash involving the eyes, lips or mouth needs medical attention. If your face is itchy or red and you have found no larvae, UC IPM suggests starting with your family physician, since many medical conditions can cause itching."
+    },
+    {
+      "question": "Why does my carpet beetle rash keep coming back?",
+      "answer": "Likely because the hairs are still around. In the CDC journal report, each bump faded after about a week while new ones appeared, and the authors say larval hairs spread through a home on natural air currents or an air conditioning system. Penn State Extension says successful control depends on locating the source of the infestation, then cleaning or destroying the infested item. After the families in the report washed clothing worn against the skin, vacuumed and cleaned their air conditioners, no new bumps appeared a month later."
+    },
+    {
+      "question": "What helps a carpet beetle rash stop itching?",
+      "answer": "MedlinePlus, from the US National Library of Medicine, suggests cold compresses, not scratching or rubbing, lukewarm baths with little soap, a moisturizer, over-the-counter hydrocortisone cream and over-the-counter oral antihistamines for itchy skin, along with cool, light, loose bedclothes and no rough wool against itchy areas. The patients in the CDC journal report were given antihistamines and topical corticosteroids while their homes were cleaned, and their skin healed within 3 days. Contact a provider if the itch is severe or will not go away."
+    },
+    {
+      "question": "Why do I have bites but can't find any bugs?",
+      "answer": "Something other than a biting insect may be causing them. UC IPM says that if no organism can be found, chances are you need to look for other causes, and names fiberglass, paper dust, dry skin, many medical conditions and side effects of some prescription drugs. Texas A&M AgriLife Extension adds detergents, cosmetics, solvents and fibers drawn to the skin by static. Carpet beetle larvae are one possibility worth checking in closets, rugs and stored wool. UC IPM says the first person to contact is your family physician."
+    },
+    {
+      "question": "Are carpet beetles dangerous to humans?",
+      "answer": "Not in the way biting pests are. The CDC journal report says the adult beetles are harmless to humans and the larvae never infest living animals, but the larvae's hairs can cause itchy dermatitis in people who react to them. Penn State Extension says irritation of the airways and eyes may develop in some patients, and the CDC authors note that even rare cases of asthma could be linked to carpet beetle larvae in a home. Trouble breathing or swallowing calls for emergency care, the American Academy of Dermatology says."
+    }
+  ],
+  "sources": [
+    { "title": "Carpet Beetle Dermatitis (Steve Jacobs, revised February 2015)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/carpet-beetle-dermatitis" },
+    { "title": "Anthrenus sp. and an Uncommon Cluster of Dermatitis (Simon L. and others, volume 27, number 7, July 2021)", "publisher": "Emerging Infectious Diseases (Centers for Disease Control and Prevention)", "url": "https://wwwnc.cdc.gov/eid/article/27/7/20-3245_article" },
+    { "title": "Diagnosing Mysterious Bug Bites (Michael Merchant)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3006-2/" },
+    { "title": "Pest Notes: Carpet Beetles (UC ANR Publication 7436; D. H. Choe, updated April 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Pest Notes: Itching and Infestation: What's Attacking Me? (UC ANR Publication 7443, updated September 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/" },
+    { "title": "Carpet Beetles (ENTFACT-601; Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef601" },
+    { "title": "Itching (Medical Encyclopedia, reviewed August 5, 2024)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/003217.htm" },
+    { "title": "Rash 101 in Adults: When to Seek Medical Treatment", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/itchy-skin/rash/rash-101" },
+    { "title": "Bedbugs: Signs and Symptoms", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms" },
+    { "title": "About Bed Bugs (April 26, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "Symptoms of Scabies (January 12, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/signs-symptoms/index.html" },
+    { "title": "How Scabies Spreads (February 23, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/causes/index.html" },
+    { "title": "About Mosquito Bites (June 21, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mosquitoes/about/about-mosquito-bites.html" },
+    { "title": "Flea Bites (medically reviewed August 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/21718-flea-bites" },
+    { "title": "Chigger Bites (last updated June 7, 2022)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/23267-chigger-bites" },
+    { "title": "Mosquito Bites (last updated October 15, 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/17695-mosquito-bites" }
+  ],
+  "disclaimer": "health"
+}
