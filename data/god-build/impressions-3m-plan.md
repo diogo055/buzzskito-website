@@ -86,3 +86,17 @@ of a new pull.
 | Feb-Mar | Upgrade the top 30 mosquito and tick pages for the top 3: refresh season dates and 2027 picks, and polish the summer Amazon converters (already upgraded Oct 23). |
 | March | Service side, with the owner's approval first: fix "mosquito control toronto" (9 of our URLs compete for it) and strengthen the city pages. |
 | April | Google Business Profile posts, a reviews push, and the AI phone agent answering inbound calls before the May rush. |
+
+## Status log
+- **Oct 25, ~15:50 UTC: wave 1 started at the owner's request.**
+  - **Selection:** a planner picks the 6 winter/year-round pages with the highest expected impressions from `research/impressions-3m-candidates.json`, writes the plan entries (releaseOn 2026-10-26) and the writer notes (scratchpad `plan-drafts-3m/`).
+  - **Then:**
+    1. writers (photo-ID formula, beat-the-top-3);
+    2. independent checkers;
+    3. `RELEASE_DATE` release;
+    4. amazon.com picks;
+    5. build + 11 guards;
+    6. push;
+    7. index.
+  - **Allowance:** about 89% of the weekly Claude allowance is used. Wave 2 starts right after the reset (Oct 27 06:00 UTC).
+  - **Also running:** a text-fix agent for the Amazon pages' article text (FIX-LOG.md "Page text (Oct 25)"). Build + push after it finishes.
