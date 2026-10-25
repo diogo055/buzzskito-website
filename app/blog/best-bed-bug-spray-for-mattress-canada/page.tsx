@@ -155,8 +155,8 @@ export default function BestBedBugSprayForMattressCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="EcoRaider Bed Bug Killer Spray (plant-based, mattress-safe)" search="ecoraider bed bug killer spray" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="EcoRaider Bed Bug Killer Spray (plant-based, mattress-safe)" search="ecoraider bed bug killer spray" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339)" search="doktor doom sleep tight bed bug spray" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339)" search="doktor doom sleep tight bed bug spray" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -180,49 +180,50 @@ export default function BestBedBugSprayForMattressCanadaPage() {
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — Best Mattress-Safe Bed Bug Sprays in Canada"
+            heading="Our Picks — Mattress-Labelled Bed Bug Sprays in Canada"
             awards={[
               {
-                badge: 'Best Overall',
-                name: 'EcoRaider Bed Bug Killer Spray',
-                why: 'A plant-oil-based contact killer that people are comfortable spraying near where they sleep: low odour, drops bed bugs and nymphs fast on direct contact, and widely used on mattress seams and piping. Confirm current Canadian availability and the mattress direction on the label.',
-                search: 'ecoraider bed bug killer spray',
-                score: 9.1,
-                featured: true,
-                pros: ['Plant-based, low-odour formula', 'Fast contact kill on bugs and nymphs', 'Popular for direct mattress-seam use'],
-                cons: ['Modest residual — re-treat on schedule', 'Does not kill glued-down eggs'],
+                badge: 'Best Alternate',
+                name: 'Knock Down Bed Bug Killer (PCP 29633)',
+                why: 'A Canadian-registered pyrethrin aerosol (pyrethrins 0.25% + piperonyl butoxide 1.25%) whose label allows pet bedding, mattresses, box springs and bed frames: spray the mattress, particularly around tufts and seams, no more than 16 seconds per square metre, and let it dry before laundered bedding goes back.',
+                search: 'knock down bed bug killer',
+                score: 7.4,
+                featured: false,
+                pros: ['Domestic-class registration (PCP 29633)', 'Label names mattresses, box springs and bed frames', 'Contact kill on the bugs it wets'],
+                cons: ['No egg claim on the label', 'Max 16 seconds of spray per m² (label)'],
               },
               {
-                badge: 'Best Canadian / PMRA-Registered',
-                name: 'Doktor Doom Sleep Tight Bed Bug Spray',
-                why: 'A Canadian brand with a clear PMRA registration and a label written for mattresses and furniture — the reassurance of a domestic product designed for exactly this surface. The straightforward, no-guesswork pick for spraying a bed.',
+                badge: 'Best Overall',
+                name: 'Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339)',
+                why: 'A Canadian-registered pyrethrin aerosol whose label covers mattresses, box springs and bed frames only: spray the mattress, particularly around tufts and seams, and take the bed apart to spray the frame, springs and all joints. The straightforward pick for spraying a bed. Check for PCP 29339: the permethrin Sleep Tight cans say not to apply them to the mattress.',
                 search: 'doktor doom sleep tight bed bug spray',
                 score: 8.7,
-                pros: ['Canadian PMRA / PCP registration', 'Label approves mattress and furniture use', 'Easy to source in Canada'],
+                featured: true,
+                pros: ['Domestic-class registration (PCP 29339)', 'Label: mattresses, box springs and bed frames only', 'Easy to source in Canada'],
                 cons: ['Follow dry-time before re-making the bed', 'Eggs still need heat to kill'],
               },
               {
-                badge: 'Best Residual (Frame & Edges)',
-                name: 'Konk Bed Bug Killer',
-                why: 'A Canadian-registered spray better suited to the bed frame, box-spring wood, slats, and baseboards, where a longer-lasting deposit keeps killing bugs that travel back toward the bed. Check the label before using on the sleeping surface itself.',
+                badge: 'Best Backup Can',
+                name: 'Konk Bed Bug Killer (PCP 31110)',
+                why: 'A Canadian-registered pyrethrin contact aerosol (pyrethrins 0.50% + piperonyl butoxide 5.00%). Its label says to spray the mattress lightly, particularly around seams and tufts, and to take beds apart and spray the frames, springs and all joints. Insects must be contacted to be killed, so it leaves no lasting barrier.',
                 search: 'konk bed bug killer spray',
                 score: 8.0,
-                pros: ['Lasting residual on hard surfaces', 'Canadian registration', 'Good partner to a mattress-surface spray'],
-                cons: ['Best on frame/edges, not the sleep surface', 'Heavier residue than a contact killer'],
+                pros: ['Domestic-class registration (PCP 31110)', 'Label covers mattress seams, frames, springs and joints', 'Good partner to steam and an encasement'],
+                cons: ['Kills only the bugs it contacts', 'Extremely flammable aerosol (label)'],
               },
               {
                 badge: 'Best Natural Option',
                 name: 'Essential-Oil (Geraniol) Bed Bug Spray',
-                why: 'A botanical, essential-oil-based spray for households that want the lowest-tox option near the bed. Genuine contact kill from the better formulas, but short residual — this pick demands disciplined repeat spraying.',
+                why: 'A botanical, essential-oil-based spray for households that want a plant-oil option near the bed. Genuine contact kill from the better formulas, but short residual — this pick demands disciplined repeat spraying.',
                 search: 'natural bed bug spray geraniol',
                 score: 7.4,
-                pros: ['Lowest-tox choice near the bed', 'Contact kill from quality formulas', 'Low odour'],
+                pros: ['Plant-oil formula', 'Contact kill from quality formulas', 'Low odour'],
                 cons: ['Short residual — frequent re-treats', 'Skip vague products with no registration'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Want one spray for the whole bed?</strong> The <em>Best Overall</em> EcoRaider is the plant-based contact killer most people reach for on mattress seams. <strong>Prefer the reassurance of a Canadian-registered mattress label?</strong> The <em>Best Canadian</em> Doktor Doom Sleep Tight is the no-guesswork pick. <strong>Treating the frame, box spring, and baseboards?</strong> Add the <em>Best Residual</em> Konk for lasting protection where you are not sleeping. <strong>Want the lowest-tox option near the bed?</strong> The <em>Best Natural</em> geraniol spray works if you commit to frequent re-treats. Whichever you choose, confirm the label approves the exact surface you are spraying.
+                <strong>Want one spray for the whole bed?</strong> The <em>Best Overall</em> Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) is labelled for mattress tufts and seams, box springs and bed frames. <strong>Sleep Tight out of stock?</strong> The <em>Best Alternate</em> Knock Down Bed Bug Killer (PCP 29633) carries the same mattress directions. <strong>Want a second can for the frame, springs and joints?</strong> The <em>Best Backup</em> Konk (PCP 31110) is labelled for them too, and kills only the bugs it contacts. <strong>Want a plant-oil option near the bed?</strong> The <em>Best Natural</em> geraniol spray works only if you commit to frequent re-treats, and the table below shows no geraniol bed bug spray is registered in Canada. Whichever you choose, confirm the label approves the exact surface you are spraying.
               </>
             }
           />
@@ -253,7 +254,7 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">No PCP number</strong> &mdash; no Canadian registration found</td>
                   <td className="px-4 py-3 text-gray-700">Fast knockdown of visible bugs and nymphs</td>
                   <td className="px-4 py-3 text-gray-700">Health Canada says not to buy or use a product with no PCP number</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down bed bug killer" block>Registered alternative: Knock Down →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Canadian mattress-labelled<br /><span className="font-normal text-xs text-gray-500">Doktor Doom Sleep Tight</span></td>
@@ -300,9 +301,9 @@ export default function BestBedBugSprayForMattressCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the mattress picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug killer spray">EcoRaider →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down bed bug killer">Knock Down Bed Bug Killer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="doktor doom sleep tight bed bug spray">Doktor Doom Sleep Tight →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="konk bed bug killer spray">Konk (frame &amp; edges) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk bed bug killer spray">Konk (mattress seams, frame, springs) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="natural bed bug spray geraniol">Natural geraniol spray →</BuyLink>
           </div>
 
@@ -610,13 +611,13 @@ export default function BestBedBugSprayForMattressCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Harris Egg Kill Bed Bug Killer</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> &mdash; Reg. No. 1021-1767-3; its label names mattresses and box springs among the use sites</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> &mdash; Reg. No. 1021-1767-3; its label names mattresses and box springs among the use sites. Canada: no registration found (no Harris product in Health Canada&rsquo;s database)</td>
                   <td className="px-4 py-3 text-gray-700">Mattress seams and box spring; let sprayed articles dry thoroughly before bedding returns</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris egg kill bed bug killer" block>Check availability &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Harris 5-Minute Bed Bug Killer<br /><span className="font-normal text-xs text-gray-500">foaming spray</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> aerosol</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">EPA-registered</strong> aerosol; Canada: no registration found</td>
                   <td className="px-4 py-3 text-gray-700">Foam expands into voids &mdash; frame joints, bolt holes, headboard cracks; check the label before any mattress use</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="harris 5 minute bed bug killer foaming spray" block>Check availability &rarr;</BuyLink></td>
                 </tr>

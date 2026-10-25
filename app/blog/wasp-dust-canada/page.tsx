@@ -114,8 +114,8 @@ export default function WaspDustCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="Legal ground-nest fix" />
-      <TopBox tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="Legal ground-nest fix" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
+      <TopBox tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -142,14 +142,14 @@ export default function WaspDustCanadaPage() {
             heading="Our Picks — The Legal Canadian Wasp Kit"
             awards={[
               {
-                badge: 'Best Legal Ground-Nest Fix',
+                badge: 'Best for Exposed Nests',
                 name: 'Wilson OneShot Jet Foam Wasp & Hornet Killer',
-                why: 'The domestic-class answer to the job Delta Dust does commercially: a PMRA-registered d-phenothrin + tetramethrin foam that jets 2–2.5 metres and expands down the entrance tunnel of a lawn nest, contact-killing returning foragers as they dig through. For a single-entrance ground nest treated at dusk, it is the closest legal cousin of the dust technique.',
+                why: 'The domestic wasp can for the DIY lane: a d-phenothrin + tetramethrin foam that jets 2–2.5 metres, for exposed nests. It does not replace dust on a lawn nest: its label says “Not for use against nests located underground or in voids,” so ground, void and multi-entrance nests go to a licensed pro.',
                 search: 'wilson one shot foam wasp hornet killer',
                 score: 9.0,
                 featured: true,
-                pros: ['Canadian label, PCP-registered, homeowner-legal', 'Foam physically fills the tunnel — the geometry dust exploits', 'Nest typically uninhabitable within about 48 hours'],
-                cons: ['Single-entrance lawn nests only — voids and multi-hole nests need a pro', 'Shorter jet than a pressurised aerosol can'],
+                pros: ['Canadian label with a PCP number, for exposed nests', 'Expanding foam coats an exposed nest', 'Nest typically uninhabitable within about 48 hours'],
+                cons: ['Label: not for nests underground or in voids — those need a pro', 'Shorter jet than a pressurised aerosol can'],
               },
               {
                 badge: 'Best Applicator',
@@ -181,7 +181,7 @@ export default function WaspDustCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Wasps streaming in and out of one hole in the lawn?</strong> The <em>Best Legal Ground-Nest Fix</em> foam at dusk is the whole answer &mdash; our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link> walks the protocol step by step. <strong>Wasps entering a wall, deck, or soffit gap?</strong> That is the nest architecture dust exists for, and in Canada that means a licensed pro &mdash; spend your money on the phone call, not the grey market. <strong>Doing on-label dusting work around the structure?</strong> The <em>Best Applicator</em> bulb duster plus the <em>Best Domestic-Class Dust</em> is the legal pairing. <strong>Any of the above?</strong> The <em>Best Protection</em> suit makes every job calmer, and calm is a genuine safety feature around defended colonies.
+                <strong>Wasps streaming in and out of one hole in the lawn?</strong> Not a job for the <em>Best for Exposed Nests</em> foam, whose label says &ldquo;Not for use against nests located underground or in voids&rdquo;: use a can whose label covers a ground nest, the City of Calgary&rsquo;s clear-bowl method, or a licensed pro &mdash; our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link> walks through the options. <strong>A paper nest hanging in the open?</strong> That is the foam&rsquo;s job, applied as its label directs. <strong>Wasps entering a wall, deck, or soffit gap?</strong> That is the nest architecture dust exists for, and in Canada that means a licensed pro &mdash; spend your money on the phone call, not the grey market. <strong>Doing on-label dusting work around the structure?</strong> The <em>Best Applicator</em> bulb duster plus the <em>Best Domestic-Class Dust</em> is the legal pairing. <strong>Any of the above?</strong> The <em>Best Protection</em> suit makes every job calmer, and calm is a genuine safety feature around defended colonies.
               </>
             }
           />

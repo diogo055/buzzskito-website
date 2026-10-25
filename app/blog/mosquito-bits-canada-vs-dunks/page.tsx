@@ -165,15 +165,15 @@ export default function MosquitoBitsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Bits (BTI granules)" search="summit mosquito bits" label="Fastest larvae kill" />
-      <TopBox tag={AMZ_TAG} name="Summit Mosquito Bits (BTI granules)" search="summit mosquito bits" label="Fastest larvae kill" />
+      <StickyBuyBar tag={AMZ_TAG} name="Summit Mosquito Dunks (look for Reg. No. 28888)" search="summit mosquito dunks" label="In Canada: Dunks, not Bits" />
+      <TopBox tag={AMZ_TAG} name="Summit Mosquito Dunks (look for Reg. No. 28888)" search="summit mosquito dunks" label="In Canada: Dunks, not Bits" />
 
       {/* QUICK ANSWER — first content element */}
       <section className="bg-white px-4 pt-8">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For fast larvae knockdown, <AmazonLink search="summit mosquito bits" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Bits</AmazonLink> are the best pick &mdash; they release BTI within about 30 minutes and clear treated water within 24 hours &mdash; while Mosquito Dunks slow-release the same BTI for a full 30 days. Most GTA homeowners keep both.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For a Canadian rain barrel or pond, the pick is <AmazonLink search="summit mosquito dunks" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Dunks</AmazonLink> (Reg. No. 28888), the same BTI as Mosquito Bits in a slow-release tablet: the Canadian label says to allow a minimum of 48 hours for control and to reapply at 30-day intervals if larvae are detected. Mosquito Bits act faster, but they have no Canadian registration.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Mosquito Bits start releasing BTI within about 30 minutes and reach full larvae kill within 24 hours.</li>
               <li>Mosquito Dunks slow-release BTI for roughly 30 days; Bits last about 7 to 14 days per application.</li>
@@ -184,7 +184,7 @@ export default function MosquitoBitsCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
-              <BuyLink search="summit mosquito bits" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+              <BuyLink search="summit mosquito dunks" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>
         </div>
@@ -225,7 +225,7 @@ export default function MosquitoBitsCanadaPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca (look for Reg. No. 28888) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Compare with Mosquito Dunks →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
@@ -247,22 +247,22 @@ export default function MosquitoBitsCanadaPage() {
             awards={[
               {
                 badge: 'Best Value for Multiple Sources',
-                name: 'Summit Mosquito Bits — 30 oz Value Pack',
-                why: 'Nearly four times the contents of the 8-oz container, and normally the cheaper option per ounce. The right buy for properties with multiple rain barrels, a pond, or a neighbour to split with — compare the unit price on the shelf tag.',
-                search: 'summit mosquito bits',
+                name: 'Summit Mosquito Dunks, broken into quarters',
+                why: 'The value buy in Canada, where Mosquito Bits have no registration: the Canadian label for Mosquito Dunks (Reg. No. 28888) says they “can be used whole or in pieces” and puts 0.1 to 3.0 m² of water at a quarter dunk, so one 6-pack gives 24 quarter-dunk doses for the rain barrels, flower planters and tires you cannot empty weekly.',
+                search: 'summit mosquito dunks',
                 score: 8.5,
-                pros: ['Usually cheaper per ounce than the 8 oz — check the unit price', 'Treats roughly 4x the area of the small container', 'Sealed bits keep 2–3 years in dry storage'],
-                cons: ['Overkill for a single rain barrel — the 8 oz covers a typical yard', 'Once opened, use within a year and keep it dry'],
+                pros: ['One 6-pack breaks into 24 quarter-dunk doses', 'The label says dunks “can be used whole or in pieces”', 'Reapply at 30-day intervals if larvae are detected'],
+                cons: ['Not for water that flows off your property (ditches, drains, rain gutters)', 'Use within one year of the date of manufacture (Canadian label)'],
               },
               {
-                badge: 'Best Overall — Fastest Kill',
-                name: 'Summit Mosquito Bits (8 oz)',
-                why: 'The fastest larvae kill you can buy — starts releasing BTI within 30 minutes and clears treated water within 24 hours. At Summit’s label rate, one container treats about 2,000 sq ft of relatively clean water surface.',
-                search: 'summit mosquito bits',
+                badge: 'Best Overall in Canada',
+                name: 'Summit Mosquito Dunks (Canadian Reg. No. 28888)',
+                why: 'The same BTI as Mosquito Bits in a slow-release tablet, and the one with a Canadian registration: Reg. No. 28888, domestic class. The Canadian label: one dunk for up to 6 m² of water surface, “regardless of depth”, reapplied at 30-day intervals if larvae are detected.',
+                search: 'summit mosquito dunks',
                 score: 8.7,
                 featured: true,
-                pros: ['Releases BTI within about 30 minutes', 'Full larvae kill within 24 hours', 'BTI acts on mosquito and black fly larvae, per the label'],
-                cons: ['Lasts 7–14 days — rain-barrel owners are better served by a Dunk', 'Only treats the water you apply it to'],
+                pros: ['Canadian Reg. No. 28888; Mosquito Bits have none', 'Same BTI active ingredient as Mosquito Bits', 'Label sites include rain barrels and ornamental ponds you cannot empty weekly'],
+                cons: ['Not a fast knockdown: allow a minimum of 48 hours for control (Canadian label)', 'Check that the listing shows Reg. No. 28888, not only a U.S. EPA number'],
               },
               {
                 badge: 'Best for Rain Barrels & Ponds',
@@ -271,12 +271,12 @@ export default function MosquitoBitsCanadaPage() {
                 search: 'summit mosquito dunks',
                 score: 8.6,
                 pros: ['~30 days of coverage per dunk — set and forget', 'One 6-pack covers a rain barrel all season', 'Koi ponds and water gardens are labelled use sites'],
-                cons: ['Slow release — larvae found today call for Bits instead', 'The floating tablet is visible in small bird baths'],
+                cons: ['Slow release: for larvae found today, tip the water out if you can (Bits have no Canadian registration)', 'The floating tablet is visible in small bird baths'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Found wrigglers right now?</strong> The <em>Best Overall</em> 8-oz Bits clear treated water within 24 hours &mdash; keep a container in the shed for every surprise find. <strong>Rain barrel or pond you check monthly?</strong> Drop in a <em>Dunk</em> &mdash; one tablet lasts about 30 days versus 7&ndash;14 for Bits. <strong>Several barrels, a pond, or a neighbour to split with?</strong> The 30-oz <em>Best Value</em> pack holds nearly four times as much and is normally the better buy per ounce. Whichever you pick, BTI only handles larvae in the water you treat &mdash; the adults flying in are the job of a <Link href="/mosquito-control">whole-yard barrier spray</Link>.
+                <strong>Found wrigglers right now?</strong> Tip the water out if you can; Mosquito Bits have no Canadian registration, so they are not the answer here. <strong>Rain barrel or pond you check monthly?</strong> The <em>Best Overall</em> pick is Mosquito Dunks (Reg. No. 28888), reapplied at 30-day intervals if larvae are detected, as the Canadian label says. <strong>Several barrels, planters or tires?</strong> The <em>Best Value</em> move is to break dunks into quarters: one 6-pack gives 24 doses. Whichever you pick, BTI only handles larvae in the water you treat &mdash; the adults flying in are the job of a <Link href="/mosquito-control">whole-yard barrier spray</Link>.
               </>
             }
           />
@@ -320,7 +320,7 @@ export default function MosquitoBitsCanadaPage() {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks (Reg. No. 28888)</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
           </div>
           <p className="text-sm text-gray-600 mt-4 leading-relaxed">

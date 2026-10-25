@@ -111,8 +111,8 @@ export default function BestRaccoonLiveTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Havahart X-Large one-door live trap" asin="B00004RAMT" search="havahart xl one door live trap raccoon" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Havahart X-Large one-door live trap" asin="B00004RAMT" search="havahart xl one door live trap raccoon" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Havahart Large one-door live trap (1079, 32 in)" asin="B00004RAMT" search="havahart xl one door live trap raccoon" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Havahart Large one-door live trap (1079, 32 in)" asin="B00004RAMT" search="havahart xl one door live trap raccoon" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -140,8 +140,8 @@ export default function BestRaccoonLiveTrapCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Havahart X-Large One-Door Live Trap',
-                why: 'The reference raccoon trap: a ~32-inch galvanized body long enough that a full-grown adult steps all the way onto the trip plate before the door drops, with heavy mesh a raccoon cannot bend or reach through. A single spring-loaded door and a smooth interior make it reliable and humane.',
+                name: 'Havahart Large One-Door Live Trap (1079)',
+                why: 'The reference raccoon trap: Havahart lists the Large 1-Door (1079) at 32 × 10 × 12 inches, a galvanized body long enough that a full-grown adult steps all the way onto the trip plate before the door drops, with heavy mesh a raccoon cannot bend or reach through. A single spring-loaded door and a smooth interior make it reliable and humane.',
                 asin: 'B00004RAMT',
                 search: 'havahart xl one door live trap raccoon',
                 score: 9.1,
@@ -151,12 +151,12 @@ export default function BestRaccoonLiveTrapCanadaPage() {
               },
               {
                 badge: 'Best Value',
-                name: 'Duke Heavy-Duty Large Cage Trap',
-                why: 'A rugged large cage trap with a footprint close to the top pick at a lower price. Solid steel construction and a dependable gravity door make it the sensible buy when you want a genuine adult-raccoon size without the premium-brand markup.',
+                name: 'Duke Heavy-Duty Cage Trap (HD X-Large)',
+                why: 'A rugged heavy-duty cage trap at a lower price. Solid steel construction and a dependable gravity door make it the sensible buy without the premium-brand markup, as long as you get the right size: Duke lists its HD X-Large (1114) at 36 × 15 × 14 inches for large raccoons, while its HD Large (1112) is 28 inches, 4 inches short of this guide’s 32-inch rule.',
                 search: 'duke heavy duty large cage trap raccoon',
                 score: 8.5,
                 pros: ['Adult-raccoon sizing for less', 'Sturdy steel build', 'Simple, dependable door'],
-                cons: ['Finish less refined than premium brands', 'Confirm the large/XL size, not the mid'],
+                cons: ['Finish less refined than premium brands', 'Buy the 36-inch HD X-Large, not the 28-inch HD Large'],
               },
               {
                 badge: 'Best Two-Door',
@@ -188,7 +188,7 @@ export default function BestRaccoonLiveTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>One raccoon, done properly?</strong> The <em>Best Overall</em> Havahart XL one-door is the safest catch for a full-grown adult. <strong>Want the same size for less?</strong> The <em>Best Value</em> Duke large cage delivers. <strong>Raccoon keeps refusing a single-door?</strong> Switch to the <em>Best Two-Door</em>. <strong>Trapping repeatedly or professionally?</strong> The <em>Best Professional-Grade</em> rigid trap outlasts them all. <strong>Strictly a one-time job on a budget?</strong> The <em>Best Budget</em> collapsible cage stores flat and does the job once.
+                <strong>One raccoon, done properly?</strong> The <em>Best Overall</em> Havahart Large one-door (32 inches) is the most reliable catch for a full-grown adult. <strong>Want a heavy-duty cage for less?</strong> The <em>Best Value</em> Duke delivers in its 36-inch HD X-Large size (its HD Large is 28 inches). <strong>Raccoon keeps refusing a single-door?</strong> Switch to the <em>Best Two-Door</em>. <strong>Trapping repeatedly or professionally?</strong> The <em>Best Professional-Grade</em> rigid trap outlasts them all. <strong>Strictly a one-time job on a budget?</strong> The <em>Best Budget</em> collapsible cage stores flat and does the job once.
               </>
             }
           />
@@ -222,10 +222,10 @@ export default function BestRaccoonLiveTrapCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="havahart xl one door live trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Large heavy-duty<br /><span className="font-normal text-xs text-gray-500">Duke cage trap</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Heavy-duty X-Large<br /><span className="font-normal text-xs text-gray-500">Duke HD X-Large, 36 in</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best value</strong> &mdash; adult sizing for less</td>
                   <td className="px-4 py-3 text-gray-700">A sturdy catch on a budget</td>
-                  <td className="px-4 py-3 text-gray-700">Confirm the large size, not the mid</td>
+                  <td className="px-4 py-3 text-gray-700">Buy the 36-inch HD X-Large; Duke&rsquo;s HD Large is 28 inches</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="duke heavy duty large cage trap raccoon" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">

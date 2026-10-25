@@ -159,10 +159,10 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
               {
                 badge: 'Best for Long Sessions',
                 name: 'Vapamore MR-100 Primo Steam Cleaner',
-                why: 'Built for the endurance side of the job. Continuous-fill design means you add water without cooling down, so you can steam a whole bedroom, carpet edges, and baseboards in one uninterrupted run. A workhorse boiler and a full accessory kit make it the pick when runtime matters most.',
+                why: 'Built for the endurance side of the job: Vapamore lists 50–60 minutes of steam per tank from its 1.6 L stainless steel boiler. It is not continuous-fill; its manual says to let it cool down before removing the water tank cap to refill. A workhorse boiler and a full accessory kit make it the pick when runtime per tank matters most.',
                 search: 'vapamore mr-100 primo steam cleaner',
                 score: 8.7,
-                pros: ['Continuous fill — no cool-down stops', 'Long uninterrupted runtime', 'Comprehensive accessory kit'],
+                pros: ['50–60 minutes of steam per tank (Vapamore)', 'Long runtime per tank', 'Comprehensive accessory kit'],
                 cons: ['Larger and heavier to move', 'Premium tier'],
               },
               {
@@ -186,7 +186,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Active bed-bug problem or an allergen-sensitive home?</strong> The <em>Best Overall</em> Dupray Neat is the right tool &mdash; the dry vapour and held temperature are exactly what kill eggs without soaking fabric. <strong>Steaming a whole bedroom, carpet edges, and baseboards in one go?</strong> The <em>Best for Long Sessions</em> Vapamore&rsquo;s continuous fill keeps you moving. <strong>One-off job on a budget?</strong> The <em>Best Value</em> McCulloch delivers real boiler heat for less. <strong>Just need to touch up a chair or a suitcase?</strong> The <em>Best Portable</em> handheld covers spot work.
+                <strong>Active bed-bug problem or an allergen-sensitive home?</strong> The <em>Best Overall</em> Dupray Neat is the right tool &mdash; the dry vapour and held temperature are exactly what kill eggs without soaking fabric. <strong>Steaming a whole bedroom, carpet edges, and baseboards in one go?</strong> The <em>Best for Long Sessions</em> Vapamore gives 50&ndash;60 minutes of steam per tank, Vapamore&rsquo;s own figure. <strong>One-off job on a budget?</strong> The <em>Best Value</em> McCulloch delivers real boiler heat for less. <strong>Just need to touch up a chair or a suitcase?</strong> The <em>Best Portable</em> handheld covers spot work.
               </>
             }
           />

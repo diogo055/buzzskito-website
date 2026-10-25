@@ -123,14 +123,14 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
-      <TopBox tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="Best ground-nest foam" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
+      <TopBox tag={AMZ_TAG} name="Wilson OneShot Jet Foam Wasp & Hornet Killer" asin="B00LM93R58" search="wilson one shot foam wasp hornet killer" label="For exposed nests only" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of ground wasps in Canada, confirm the single entrance hole in daylight, then treat it at dusk &mdash; when the whole colony is home and sluggish &mdash; by soaking the entrance from 2&ndash;3 metres away with a PMRA-registered jet foam like <AmazonLink search="wilson one shot foam wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Wilson OneShot Jet Foam Wasp &amp; Hornet Killer</AmazonLink>. Leave the hole open, walk away, and expect near-zero traffic within 48 hours.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of ground wasps in Canada, confirm the single entrance hole in daylight, then act at dusk, when the whole colony is home and sluggish, with a product whose label covers a nest in the ground. Our foam pick, <AmazonLink search="wilson one shot foam wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Wilson OneShot Jet Foam Wasp &amp; Hornet Killer</AmazonLink>, does not: its label says &ldquo;Not for use against nests located underground or in voids,&rdquo; so keep it for exposed nests. If no label covers your hole, use the City of Calgary&rsquo;s clear-bowl method or a licensed operator.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Ground nests in Canadian lawns are almost always yellow jackets that took over an old rodent burrow &mdash; colonies reach hundreds to several thousand workers by late August.</li>
               <li>Mower and trimmer vibration reads as a digging predator to the colony &mdash; it is the number-one trigger for mass sting attacks over ground nests.</li>
@@ -152,18 +152,18 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — Best Products for Ground Wasp Nests in Canada"
+            heading="Our Picks — Wasp Cans and Traps for Canada: Read the Label Before a Ground Nest"
             awards={[
               {
-                badge: 'Best Overall',
+                badge: 'Best for Exposed Nests',
                 name: 'Wilson OneShot Jet Foam Wasp & Hornet Killer',
-                why: 'The Canadian, PMRA-registered answer to a nest in the ground: a d-phenothrin + tetramethrin foam that jets 2–2.5 m, expands into the burrow entrance, and makes the nest uninhabitable within about 48 hours.',
+                why: 'A d-phenothrin + tetramethrin foam that jets 2–2.5 m, for the exposed nests its Canadian label covers. Not for a hole in the lawn: the label says “Not for use against nests located underground or in voids.”',
                 asin: 'B00LM93R58',
                 search: 'wilson one shot foam wasp hornet killer',
                 score: 9.0,
                 featured: true,
-                pros: ['Foam expands down into the burrow', 'Canadian label with PCP registration number', 'Keeps killing returning foragers for hours'],
-                cons: ['Shorter reach than straight-jet cans', 'One can treats one, maybe two nests'],
+                pros: ['Expanding foam coats an exposed nest', 'Canadian label with PCP registration number', 'Keeps killing returning foragers for hours'],
+                cons: ['Label: not for nests underground or in voids', 'Shorter reach than straight-jet cans', 'One can treats one, maybe two nests'],
               },
               {
                 badge: 'Most Widely Stocked',
@@ -195,7 +195,7 @@ export default function HowToGetRidOfGroundWaspsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Nest in open lawn you can approach to 2&ndash;3 m?</strong> The <em>Best Overall</em> Wilson OneShot foam is the purpose-built tool &mdash; foam down the hole at dusk. <strong>Entrance somewhere you cannot get close to?</strong> Neither foam can helps you there: both Wilson and the Canadian Raid Max foam are rated at only 2&ndash;3 m. Real stand-off distance means a straight-jet can &mdash; on the Canadian market the mainstream one is the plain Raid Wasp &amp; Hornet Killer Spray, which S.C. Johnson rates at 5.7 m &mdash; used to collapse the entrance traffic first, then foam the hole once things quiet down. <strong>Either way, buy two cans</strong> &mdash; running dry mid-treatment over an angry nest is the scenario to design out. And if wasps are ruining dinner <em>today</em> while you wait for dusk, the <em>Best for Foragers</em> WHY Trap buys you a calmer patio &mdash; full breakdown in our <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY Trap review</Link>.
+                <strong>Nest in open lawn?</strong> Read the label first: the <em>Best for Exposed Nests</em> Wilson OneShot foam&rsquo;s label says &ldquo;Not for use against nests located underground or in voids,&rdquo; so it is not for a hole in the ground. Use a can only if its directions cover your nest; if none does, the City of Calgary&rsquo;s clear-bowl method at dusk or a licensed operator is the answer. <strong>An exposed nest you cannot get close to?</strong> Both foam cans are rated at only 2&ndash;3 m. Real stand-off distance means a straight-jet can &mdash; on the Canadian market the mainstream one is the plain Raid Wasp &amp; Hornet Killer Spray, which S.C. Johnson rates at 5.7 m. <strong>Either way, buy two cans</strong> &mdash; running dry mid-treatment over an angry nest is the scenario to design out. And if wasps are ruining dinner <em>today</em> while you wait for dusk, the <em>Best for Foragers</em> WHY Trap buys you a calmer patio &mdash; full breakdown in our <Link href="/blog/rescue-why-trap-review-canada">RESCUE! WHY Trap review</Link>.
               </>
             }
           />

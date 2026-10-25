@@ -119,8 +119,8 @@ export default function BestBedBugSprayForTravelCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Travel Pro bed bug spray" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
-      <TopBox tag={AMZ_TAG} name="Doktor Doom Travel Pro bed bug spray" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Travel Pro (PCP 32254), for beds and mattresses" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
+      <TopBox tag={AMZ_TAG} name="Doktor Doom Travel Pro (PCP 32254), for beds and mattresses" search="doktor doom travel pro bed bug spray" label="Best travel pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -144,49 +144,49 @@ export default function BestBedBugSprayForTravelCanadaPage() {
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — Best Bed Bug Sprays for Travel in Canada"
+            heading="Our Picks — Bed Bug Spray and Heat Tools for Travel in Canada"
             awards={[
               {
                 badge: 'Best Overall',
                 name: 'Doktor Doom Travel Pro Bed Bug Spray',
-                why: 'A compact, Canadian, PMRA-registered aerosol built for the job: knockdown for a bug you can see plus a residual film for suitcase seams. Because it carries a Canadian PCP number and is sold in a small can, it is both legal here and easy to pack.',
+                why: 'A compact Canadian aerosol (d-phenothrin and tetramethrin, PCP 32254) registered for bed bugs. Its listed use sites are beds and mattresses; luggage and clothing are not on the list, so it is for a bed, not your suitcase. For bags and clothes, heat is the tool: see the two picks beside it.',
                 search: 'doktor doom travel pro bed bug spray',
                 score: 9.0,
                 featured: true,
-                pros: ['Canadian, PMRA-registered (PCP number on label)', 'Compact can made for travel', 'Contact knockdown plus residual'],
-                cons: ['Aerosol — check carry-on vs checked rules', 'Surface use, not for spraying clothes'],
+                pros: ['Canadian, PMRA-registered (PCP 32254)', 'Compact can made for travel', 'Listed use sites: beds and mattresses'],
+                cons: ['Not in carry-on (CATSA); checked only if your airline approves', 'Luggage and clothing are not listed use sites'],
               },
               {
-                badge: 'Best Low-Odour Residual',
-                name: 'Proof Travel-Size Bed Bug & Dust Mite Spray',
-                why: 'A lower-odour, longer-lasting residual that is pleasant to use in a room you have to sleep in. Ideal for pre-treating a suitcase before a trip and re-spraying it on the way home, with a gentler profile around bedding.',
-                search: 'proof bed bug dust mite spray travel size',
+                badge: 'Best for the Suitcase (Heat)',
+                name: 'ThermalStrike Ranger (folding suitcase heater)',
+                why: 'Not a spray. Proof, the travel spray often suggested for pre-treating a suitcase, shows no Canadian registration. A suitcase-style heater chamber that packs flat and heats a single bag and its contents treats what is hiding inside the bag with no pesticide, so no PCP number is needed. Our luggage heater guide covers temperatures and times.',
+                search: 'thermalstrike ranger bed bug heater',
                 score: 8.4,
-                pros: ['Low odour, good near bedding', 'Residual protection for the suitcase', 'Compact travel format'],
-                cons: ['Confirm the size is carry-on legal', 'Slower knockdown than an aerosol'],
+                pros: ['No pesticide, so no PCP number needed', 'Heats the bag and its contents, not just the seams', 'Packs flat'],
+                cons: ['Bulkier than a spray can', 'One bag at a time'],
               },
               {
-                badge: 'Best Fabric / Gear Pre-Treat',
-                name: 'Permethrin Luggage & Gear Treatment Spray',
-                why: 'A different category, labelled specifically to bond to fabric — for pre-treating luggage liners, travel sacks, and gear rather than surfaces. Only use products whose label authorises fabric application, and never on clothing that touches skin off-label.',
-                search: 'insect shield permethrin treated clothing',
+                badge: 'Best for Clothes & Gear (Heat)',
+                name: 'PackTite Closet (hanging heat chamber)',
+                why: 'Not a spray. Permethrin-treated clothing is not registered in Canada against bed bugs: the one registered treated apparel, No Fly Zone (Reg. No. 32757), is for mosquitoes and ticks. For clothes, a travel sack or gear, use heat instead: a hot dryer for 30 minutes or more, or a hanging heat chamber for items that cannot go in the dryer.',
+                search: 'packtite closet bed bug heater',
                 score: 7.8,
-                pros: ['Made to bond to fabric and gear', 'Long-lasting on treated items', 'Good for a travel sack or liner'],
-                cons: ['Fabric-only — read the label carefully', 'Not a hotel-room surface product'],
+                pros: ['No pesticide on fabric you wear', 'Fits a full bag plus clothing'],
+                cons: ['Bulkier than a spray can', 'A hot dryer does the same job for washable items'],
               },
               {
-                badge: 'Best Natural / Non-Toxic',
+                badge: 'Best Natural',
                 name: 'Plant-Oil Travel Bed Bug Spray',
-                why: 'A botanical, low-toxicity spray for travellers who want reassurance in a room they are sleeping in. Fine for a quick spot treatment and suitcase touch-up — just know it is mostly contact-only with little residual, so it kills what it wets and then stops.',
+                why: 'A botanical spray for travellers who want reassurance in a room they are sleeping in. Fine for a quick spot treatment and suitcase touch-up — just know it is mostly contact-only with little residual, so it kills what it wets and then stops.',
                 search: 'natural plant based bed bug spray travel',
                 score: 7.2,
-                pros: ['Low toxicity and odour', 'Comfortable to use around a bed', 'Widely available in small sizes'],
+                pros: ['Low odour', 'Comfortable to use around a bed', 'Widely available in small sizes'],
                 cons: ['Little to no residual', 'Contact kill only — no lasting barrier'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Want one reliable, Canada-legal pick?</strong> The <em>Best Overall</em> Doktor Doom Travel Pro covers spot treatment and suitcase seams in a packable can. <strong>Pre-treating a bag you want protected all week?</strong> The <em>Best Low-Odour Residual</em> Proof travel spray lasts and is gentle near bedding. <strong>Treating a travel sack or gear specifically?</strong> A <em>fabric-labelled permethrin</em> product is the right category. <strong>Sleeping light and want the gentlest option?</strong> The <em>Best Natural</em> plant-oil spray reassures for spot use &mdash; pair any of them with a hot-dryer cycle at home.
+                <strong>Want one registered, packable can?</strong> The <em>Best Overall</em> Doktor Doom Travel Pro (PCP 32254) is labelled for beds and mattresses, not luggage. <strong>Worried about the suitcase itself?</strong> Heat it: the <em>Best for the Suitcase</em> folding heater treats what is inside the bag with no pesticide. <strong>Clothes, a travel sack or gear?</strong> A hot dryer for 30 minutes or more, or the <em>Best for Clothes &amp; Gear</em> heat chamber; no permethrin-treated clothing is registered in Canada against bed bugs. <strong>Want a plant-oil spray for spot use?</strong> The <em>Best Natural</em> plant-oil spray reassures for spot use &mdash; pair any of them with a hot-dryer cycle at home.
               </>
             }
           />
@@ -214,24 +214,24 @@ export default function BestBedBugSprayForTravelCanadaPage() {
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Compact aerosol<br /><span className="font-normal text-xs text-gray-500">Doktor Doom Travel Pro</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Spot kill + residual</strong> on seams and cracks</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Beds and mattresses</strong>, its listed use sites (PCP 32254)</td>
                   <td className="px-4 py-3 text-gray-700">Not in carry-on (CATSA); checked only if the airline approves</td>
-                  <td className="px-4 py-3 text-gray-700">Flammable-propellant limits; surface use only</td>
+                  <td className="px-4 py-3 text-gray-700">Luggage and clothing are not listed use sites</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Residual pump<br /><span className="font-normal text-xs text-gray-500">Proof travel size</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Pre-treating the suitcase</strong> to stay protected</td>
                   <td className="px-4 py-3 text-gray-700">Not in carry-on, at any size; checked only if the airline approves</td>
-                  <td className="px-4 py-3 text-gray-700">Slower knockdown than an aerosol</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700">No Canadian registration found (no PCP number)</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater" block>Suitcase heater instead →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Fabric / gear treatment<br /><span className="font-normal text-xs text-gray-500">permethrin, label-specific</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Bonding to</strong> travel sacks, liners, gear</td>
                   <td className="px-4 py-3 text-gray-700">An insecticide: not in carry-on; ask the airline about checked</td>
-                  <td className="px-4 py-3 text-gray-700">Fabric-only; never off-label on worn clothing</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700">No treated clothing is registered in Canada against bed bugs; No Fly Zone (Reg. No. 32757) is for mosquitoes and ticks</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater" block>Clothes heat chamber instead →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Natural / plant-oil<br /><span className="font-normal text-xs text-gray-500">botanical</span></td>
@@ -265,8 +265,8 @@ export default function BestBedBugSprayForTravelCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom travel pro bed bug spray">Doktor Doom Travel Pro →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="proof bed bug dust mite spray travel size">Proof travel spray →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Treated clothing &amp; gear →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermalstrike ranger bed bug heater">Suitcase heater →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="packtite closet bed bug heater">Clothes &amp; gear heat chamber →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="natural plant based bed bug spray travel">Natural travel spray →</BuyLink>
           </div>
 

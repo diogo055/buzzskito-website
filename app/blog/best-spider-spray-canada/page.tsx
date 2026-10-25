@@ -158,9 +158,9 @@ export default function BestSpiderSprayCanadaPage() {
               },
               {
                 badge: 'Best Alternative',
-                name: 'Konk OnGuard Residual Surface Spray',
-                why: 'The other Canadian-market residual line you will actually find on shelves here — same perimeter and crack-and-crevice mission, mid-range price. If your local store stocks OnGuard or Knock Down instead of Doktor Doom, buy what is in front of you rather than importing anything; verify the PCP number as always.',
-                search: 'konk onguard residual insecticide spray',
+                name: 'Knock Down Spider Killer',
+                why: 'The other Canadian-market spider spray you will actually find on shelves here, for the same perimeter and crack-and-crevice job. Its label covers spiders and cockroaches inside buildings, and spiders outdoors “including under eaves, awnings and canopies”. If your local store stocks Knock Down instead of Doktor Doom, buy what is in front of you rather than importing anything; the brand sells several formulations, so check the PCP number and the label sites on the can.',
+                search: 'knock down residual insecticide spray',
                 score: 8.3,
                 pros: ['Canadian-market residual formulation', 'Covers the same entry-point treatment job', 'Good availability where Doktor Doom is not stocked'],
                 cons: ['Retail availability varies by region', 'Multiple formulations — read the label sites carefully'],
@@ -186,7 +186,7 @@ export default function BestSpiderSprayCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Heavy fall spider traffic and want it stopped at the door?</strong> The <em>Best Overall</em> Doktor Doom residual across thresholds, sill plates, and foundation gaps is the play — with the <em>Best Alternative</em> Konk OnGuard doing the same job where it is the brand on the shelf. <strong>Chemical-averse household?</strong> Combine the <em>Best Budget</em> glue traps with sealing from our <Link href="/blog/how-to-keep-spiders-out-of-your-house">full spider-proofing guide</Link>, and add the <em>Best Low-Tox</em> peppermint spray if you enjoy the ritual. <strong>Not sure you have a real problem?</strong> Lay glue traps for two weeks first — if they stay empty, save the spray money entirely.
+                <strong>Heavy fall spider traffic and want it stopped at the door?</strong> The <em>Best Overall</em> Doktor Doom residual across thresholds, sill plates, and foundation gaps is the play — with the <em>Best Alternative</em> Knock Down Spider Killer doing the same job where it is the brand on the shelf. <strong>Chemical-averse household?</strong> Combine the <em>Best Budget</em> glue traps with sealing from our <Link href="/blog/how-to-keep-spiders-out-of-your-house">full spider-proofing guide</Link>, and add the <em>Best Low-Tox</em> peppermint spray if you enjoy the ritual. <strong>Not sure you have a real problem?</strong> Lay glue traps for two weeks first — if they stay empty, save the spray money entirely.
               </>
             }
           />
@@ -220,11 +220,11 @@ export default function BestSpiderSprayCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Konk OnGuard residual<br /><span className="font-normal text-xs text-gray-500">Best alternative</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Knock Down Spider Killer<br /><span className="font-normal text-xs text-gray-500">Best alternative</span></td>
                   <td className="px-4 py-3 text-gray-700">Same mission &mdash; residual surface treatment at entry points and baseboards</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Weeks</strong> (indoors, undisturbed)</td>
                   <td className="px-4 py-3 text-gray-700">Canadian domestic line &mdash; verify PCP no. on the can</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk onguard residual insecticide spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down residual insecticide spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Knock Down residual<br /><span className="font-normal text-xs text-gray-500">Regional favourite</span></td>
@@ -311,7 +311,7 @@ export default function BestSpiderSprayCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom residual insecticide spray">Doktor Doom residual →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="konk onguard residual insecticide spray">Konk OnGuard →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down residual insecticide spray">Knock Down →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="spider insect glue traps">Spider glue traps →</BuyLink>
           </div>
 
@@ -332,7 +332,7 @@ export default function BestSpiderSprayCanadaPage() {
           <p>Walk into hardware stores across Canada and the residual-insecticide shelf usually belongs to some mix of Doktor Doom, <strong>Konk OnGuard</strong>, and <strong>Knock Down</strong> — three Canadian-market families doing broadly the same work with broadly similar active-ingredient classes. OnGuard is the one we name as Best Alternative because its residual surface-spray formulations map most directly onto the perimeter-and-baseboard mission; Knock Down&rsquo;s catalogue is wide, spanning contact aerosols to residual crack-and-crevice products, and its regional availability makes it many buyers&rsquo; most convenient option.</p>
           <p>Between these three, our honest advice is: buy whichever residual formulation is on the shelf in front of you rather than ordering anything from across the border. The differences among the Canadian lines are small; the difference between a registered Canadian product and a grey-market import is the whole legal and safety framework. Whichever you choose, the same two checks apply — a PCP registration number on the label, and label sites that match where you intend to spray.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="konk onguard residual insecticide spray">Check Konk OnGuard availability on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="knock down residual insecticide spray">Check Knock Down availability on Amazon.ca →</BuyLink>
           </div>
 
           <h2>The Grey-Market Trap: Why US Favourites Are Missing From Canadian Shelves</h2>

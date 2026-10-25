@@ -128,8 +128,8 @@ export default function AdvionCockroachGelBaitCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Legal consumer pick" />
-      <TopBox tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Legal consumer pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Consumer pick: check the PCP number" />
+      <TopBox tag={AMZ_TAG} name="Combat roach killing bait stations (12-pack)" search="combat roach killing bait stations" label="Consumer pick: check the PCP number" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -292,7 +292,7 @@ export default function AdvionCockroachGelBaitCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Combat-style bait stations<br /><span className="font-normal text-xs text-gray-500">hydramethylnon, enclosed</span></td>
                   <td className="px-4 py-3 text-gray-700">Consumer bait stations widely stocked at Canadian retailers &mdash; delayed-kill bait in a child-resistant housing</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The legal workhorse</strong></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">The consumer workhorse</strong></td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="combat roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
@@ -324,16 +324,16 @@ export default function AdvionCockroachGelBaitCanadaPage() {
           </div>
 
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — The Legal Cockroach Toolkit"
+            heading="Our Picks — The Consumer Cockroach Toolkit"
             awards={[
               {
                 badge: 'Best Overall',
                 name: 'Combat Roach Killing Bait Stations (large 12-pack)',
-                why: 'The legal Canadian workhorse: enclosed, child-resistant stations pre-loaded with delayed-kill hydramethylnon bait, so foragers carry the dose back to the harbourage — the same core playbook as professional gel, in the format the consumer class allows.',
+                why: 'The consumer workhorse: enclosed, child-resistant stations pre-loaded with delayed-kill hydramethylnon bait, so foragers carry the dose back to the harbourage — the same core playbook as professional gel. Check the PCP registration number on the pack you receive before you use it.',
                 search: 'combat roach killing bait stations',
                 score: 8.2,
                 featured: true,
-                pros: ['Enclosed, child-resistant format — the class Canada permits', 'Cheap enough to deploy at the 12–24 station density that actually works'],
+                pros: ['Enclosed, child-resistant format', 'Cheap enough to deploy at the 12–24 station density that actually works'],
                 cons: ['Not enough for daylight sightings or any multi-unit building — that threshold calls for a licensed exterminator, not more stations'],
               },
               {

@@ -119,8 +119,8 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered silica desiccant dust (Canada-legal)" search="cimexa insecticide dust bed bug" label="Canada-legal pick" />
-      <TopBox tag={AMZ_TAG} name="PMRA-registered silica desiccant dust (Canada-legal)" search="cimexa insecticide dust bed bug" label="Canada-legal pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Be Green diatomaceous earth (PCP 32561)" search="doktor doom diatomaceous earth" label="Canada-legal pick" />
+      <TopBox tag={AMZ_TAG} name="Doktor Doom Be Green diatomaceous earth (PCP 32561)" search="doktor doom diatomaceous earth" label="Canada-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -137,7 +137,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
             <div className="mt-4">
-              <BuyLink search="cimexa insecticide dust bed bug" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+              <BuyLink search="doktor doom diatomaceous earth" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>
           <SpecialistDisclosure pest="bed bugs" />
@@ -148,20 +148,20 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
             label="Canada-Legal Pick (what to buy instead)"
-            name="PMRA-Registered Silica Desiccant Dust"
-            blurb="Since Crossfire cannot legally be used in Canada, this is the tool we point Canadian DIY readers to: an amorphous-silica-gel desiccant dust that kills bed bugs by dehydration rather than a nerve toxin. Resistance is essentially a non-issue, and a barely visible film in cracks, outlet boxes, and bed-frame voids stays lethal for months. It carries a Canadian PCP registration number — legal, low-toxicity, and the most reliable long-residual tool a homeowner can actually buy here."
-            search="cimexa insecticide dust bed bug"
-            score={8.4}
+            name="Doktor Doom Be Green Premium Food Grade Diatomaceous Earth (PCP 32561)"
+            blurb="Since Crossfire cannot legally be used in Canada, this is the dust we point Canadian DIY readers to: a diatomaceous earth whose label carries Registration No. 32561 (domestic class) and lists bed bugs. It kills by drying insects out rather than through a nerve toxin. For bed bugs the label says to take beds apart and dust &ldquo;frames, joints, mattresses, tufts and seams, floors and baseboards,&rdquo; applied lightly and uniformly at 5.0 g per square metre. CimeXa, the best-known silica dust, has no Canadian registration."
+            search="doktor doom diatomaceous earth"
+            score={8.3}
             pros={[
-              'PMRA-registered and legal to use in Canada',
-              'Kills by dehydration — no resistance possible',
-              'Months-long residual in dry, undisturbed cracks',
-              'Low-toxicity active; light film, not a pile',
+              'Domestic-class registration, No. 32561, with bed bugs on the label',
+              'Kills by drying insects out, not a nerve toxin',
+              'Label lists frames, joints, mattress tufts and seams, floors and baseboards',
+              'Label sizes from 100 g to 7 kg',
             ]}
             cons={[
               'A residual, not an instant knockdown — pair with heat/steam',
-              'Must be applied as a fine film with a hand duster',
-              'Not for damp areas or surfaces you touch daily',
+              'Slower than silica gel in university lab tests',
+              'Label: “Avoid breathing dust”; apply lightly and uniformly',
             ]}
           />
         </div>
@@ -198,7 +198,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong>, if the label shows a PCP number (CimeXa&rsquo;s does not)</td>
                   <td className="px-4 py-3 text-gray-700">Kills nymphs/adults; not eggs directly</td>
                   <td className="px-4 py-3 text-gray-700">Long residual in cracks &amp; voids</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dry-vapour steamer<br /><span className="font-normal text-xs text-gray-500">non-chemical</span></td>
@@ -245,7 +245,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the tools we recommend instead:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust bed bug">Silica desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Diatomaceous earth dust (PCP 32561) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="dupray bed bug steamer">Dry-vapour steamer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
           </div>
@@ -281,7 +281,7 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
           <h2>What to Buy in Canada Instead</h2>
           <p>Here is the good news that makes skipping Crossfire painless: for a do-it-yourself bed-bug fight, the Canada-legal toolkit is not a weaker substitute &mdash; for a homeowner it is genuinely <em>better</em> than chasing a liquid concentrate. Bed bugs are one of the few pests where the non-chemical tools out-perform sprays for an untrained user, and where the best legal chemical is one resistance cannot touch.</p>
           <ul>
-            <li><strong>A silica desiccant dust (your residual backbone).</strong> This is the tool in our verdict box above. Amorphous silica gel kills by stripping the waxy layer off the insect&rsquo;s shell so it dehydrates &mdash; a physical mechanism, not a nerve toxin, which means bed bugs cannot evolve resistance to it. A barely visible film in cracks, outlet boxes, and bed-frame voids stays lethal for months. In Canada, buy a dust whose label shows a PCP number: PMRA&rsquo;s registry has no CimeXa listing, and its domestic bed bug dusts are diatomaceous earth. Our <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa review</Link> covers the best-known silica dust, and our <Link href="/blog/best-bed-bug-powder-canada">bed-bug powder guide</Link> compares it against diatomaceous earth.</li>
+            <li><strong>A desiccant dust (your residual backbone).</strong> The dust in our verdict box above is a diatomaceous earth whose label carries PCP 32561 and lists bed bugs. Amorphous silica gel kills by stripping the waxy layer off the insect&rsquo;s shell so it dehydrates &mdash; a physical mechanism, not a nerve toxin, which means bed bugs cannot evolve resistance to it. A barely visible film in cracks, outlet boxes, and bed-frame voids stays lethal for months. In Canada, buy a dust whose label shows a PCP number: PMRA&rsquo;s registry has no CimeXa listing, and its domestic bed bug dusts are diatomaceous earth. Our <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa review</Link> covers the best-known silica dust, and our <Link href="/blog/best-bed-bug-powder-canada">bed-bug powder guide</Link> compares it against diatomaceous earth.</li>
             <li><strong>Heat and steam (the egg-killer).</strong> Sprays struggle with bed-bug eggs because they are cemented to fabric; heat does not care. A dry-vapour <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> kills every life stage on contact along seams and tufts, and a <Link href="/blog/bed-bug-heater-canada">bed-bug heater</Link> decontaminates whole items like luggage and bedding. Heat has no resistance and no residue.</li>
             <li><strong>A sealed-HEPA vacuum (the removal step).</strong> A <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> physically pulls live bugs and debris out of harbourages before you treat, without blowing them back into the room.</li>
             <li><strong>Encasements and interceptors (protect and monitor).</strong> A <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement</Link> traps anything left inside and denies new bugs a home, while <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the legs catch travellers and let you measure whether the population is actually falling.</li>

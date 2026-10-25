@@ -167,7 +167,7 @@ export default function BestBatteryBackpackSprayerCanadaPage() {
               {
                 badge: 'Best Value',
                 name: 'Petra 4-Gallon Battery Backpack Sprayer',
-                why: 'The most tank and runtime for the money. A full 4-gallon (15 L) capacity and usable lithium runtime at a homeowner-friendly price — ideal if you want battery convenience across a big yard without paying pro-grade prices.',
+                why: 'The most tank and runtime for the money. A full 4-gallon (15 L) capacity and the longest rated runtime of the three (PetraTools lists 6–8 hours per charge from its 12V 8 Ah lead-acid battery) at a homeowner-friendly price — ideal if you want battery convenience across a big yard without paying pro-grade prices.',
                 search: 'petra 4 gallon battery backpack sprayer',
                 score: 8.3,
                 pros: ['Large 4-gallon tank', 'Strong value for the runtime', 'Good for large residential lots'],

@@ -127,7 +127,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best motion-activated sprinkler in Canada is the <AmazonLink search="orbit yard enforcer motion activated sprinkler" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Orbit Yard Enforcer</AmazonLink> — its infrared sensor spots animals up to roughly 12 metres away across a 120-degree arc, its day/night selector lets you target nocturnal raccoons without soaking daytime birds or kids, and one 9V battery lasts the whole season. It is the rare deterrent that is humane, chemical-free, and needs no PMRA registration.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best motion-activated sprinkler in Canada is the <AmazonLink search="orbit yard enforcer motion activated sprinkler" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Orbit Yard Enforcer</AmazonLink> — its infrared sensor spots animals up to roughly 12 metres away across a 120-degree arc, its day/night selector lets you target nocturnal raccoons without soaking daytime birds or kids, and it runs on 4 AA alkaline batteries (Orbit publishes no battery-life figure). It is the rare deterrent that is humane, chemical-free, and needs no PMRA registration.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Detects warm moving animals up to ~12 m away over a 120° arc, then fires a startling 5-second burst — about 2 cups of water per activation.</li>
               <li>Day-only, night-only, and 24-hour sensing modes: night-only is the raccoon and skunk setting; 24-hour is the cat setting.</li>
@@ -153,22 +153,22 @@ export default function MotionActivatedSprinklerCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Orbit Yard Enforcer',
-                why: 'The category benchmark: ~12 m / 120° infrared detection, a genuine day/night/24-hour mode selector, ~7,500 activations per 9V battery, and a pass-through hose port for daisy-chaining. The mode selector alone justifies it over clones.',
+                why: 'The category benchmark: ~12 m / 120° infrared detection, a genuine day/night/24-hour mode selector, 4 AA alkaline batteries (Orbit publishes no battery-life figure), and a pass-through hose port for daisy-chaining. The mode selector alone justifies it over clones.',
                 search: 'orbit yard enforcer motion activated sprinkler',
                 asin: 'B009F1R0GC',
                 score: 9.1,
                 featured: true,
-                pros: ['Day / night / 24-hour sensing modes', 'Season-long battery life on one 9V', 'Pass-through port to chain a second unit'],
+                pros: ['Day / night / 24-hour sensing modes', 'Runs on 4 AA alkaline batteries (per Orbit)', 'Pass-through port to chain a second unit'],
                 cons: ['Metal spike needs soft ground to seat well', 'Must be drained and stored before frost'],
               },
               {
                 badge: 'Best for Large Yards',
-                name: 'Orbit Yard Enforcer Pro',
-                why: 'The upgraded version of the same platform with a wider detection footprint and beefed-up construction — one Pro can cover approach routes that would take two standard units on a big suburban or rural lot.',
-                search: 'orbit yard enforcer pro motion activated sprinkler',
+                name: 'A second Orbit Yard Enforcer',
+                why: 'For a big lot with more than one approach route, put a second standard Yard Enforcer on the second route: Orbit rates detection at up to 40 ft per unit, and says the flow-through outlet “allows you to add additional sprinklers triggered by the sensor.”',
+                search: 'orbit yard enforcer motion activated sprinkler',
                 score: 8.4,
-                pros: ['Larger detection footprint per unit', 'Same trusted sensing platform', 'Sturdier build for exposed placements'],
-                cons: ['Premium price over the standard model', 'Overkill for a small garden bed'],
+                pros: ['Covers a second approach route', 'Same Off / Day / Night / Always settings', 'Flow-through outlet takes extra sprinklers (per Orbit)'],
+                cons: ['Two units to buy, move and winterize', 'Overkill for a small garden bed'],
               },
               {
                 badge: 'Best Budget',
@@ -182,7 +182,7 @@ export default function MotionActivatedSprinklerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Raccoons shredding the lawn or cats using the garden as a litter box?</strong> Buy the <em>Best Overall</em> Orbit Yard Enforcer and run it in night-only (raccoons) or 24-hour (cats) mode. <strong>Big lot with multiple approach routes?</strong> The <em>Best for Large Yards</em> Pro covers more ground per unit — or daisy-chain two standard Enforcers off one tap. <strong>Just protecting one small veggie bed on a tight budget?</strong> A <em>Best Budget</em> clone works, but you give up the day/night selector that keeps kids and dogs dry.
+                <strong>Raccoons shredding the lawn or cats using the garden as a litter box?</strong> Buy the <em>Best Overall</em> Orbit Yard Enforcer and run it in night-only (raccoons) or 24-hour (cats) mode. <strong>Big lot with multiple approach routes?</strong> The <em>Best for Large Yards</em> answer is a second standard Enforcer covering the second route. <strong>Just protecting one small veggie bed on a tight budget?</strong> A <em>Best Budget</em> clone works, but you give up the day/night selector that keeps kids and dogs dry.
               </>
             }
           />
@@ -242,11 +242,11 @@ export default function MotionActivatedSprinklerCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler">Orbit Yard Enforcer →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="orbit yard enforcer pro motion activated sprinkler">Yard Enforcer Pro →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler">A second Yard Enforcer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="motion activated sprinkler animal repellent">Budget PIR sprinklers →</BuyLink>
           </div>
 
-          <h2>Comparison: Orbit Yard Enforcer vs Pro vs Budget Clones</h2>
+          <h2>Comparison: One Orbit Yard Enforcer vs Two vs Budget Clones</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -267,11 +267,11 @@ export default function MotionActivatedSprinklerCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Orbit Yard Enforcer Pro</td>
-                  <td className="px-4 py-3 text-gray-700">Same day/night platform, upgraded build</td>
-                  <td className="px-4 py-3 text-gray-700">Wider detection footprint per unit; 9V battery</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Two Orbit Yard Enforcers</td>
+                  <td className="px-4 py-3 text-gray-700">The same day/night selector on each unit</td>
+                  <td className="px-4 py-3 text-gray-700">Two detection zones of up to 40 ft each; 4 AA batteries per unit</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Large or rural lots with multiple animal approach routes</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer pro motion activated sprinkler" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="orbit yard enforcer motion activated sprinkler" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget PIR clones<br /><span className="font-normal text-xs text-gray-500">Hoont-style jet sprays</span></td>

@@ -115,8 +115,8 @@ export default function CimexaBedBugReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="CimeXa silica gel dust" search="cimexa insecticide dust" label="Our verdict: 9.1/10" />
-      <TopBox tag={AMZ_TAG} name="CimeXa silica gel dust" search="cimexa insecticide dust" label="Our verdict: 9.1/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="Doktor Doom Be Green diatomaceous earth (PCP 32561)" search="doktor doom diatomaceous earth" label="Canada-legal pick" />
+      <TopBox tag={AMZ_TAG} name="Doktor Doom Be Green diatomaceous earth (PCP 32561)" search="doktor doom diatomaceous earth" label="Canada-legal pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -140,14 +140,14 @@ export default function CimexaBedBugReviewCanadaPage() {
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
-            label="Our Verdict"
-            name="CimeXa Silica Gel Dust — pro-grade bed bug desiccant"
-            blurb="An engineered amorphous silica gel that professionals reach for when they want a residual that never expires and never meets resistance. It clings to a bed bug’s cuticle, strips the waxy layer that holds moisture in, and the insect dries out and dies over a few days &mdash; a mechanism no bed bug can evolve around. A barely-visible film into cracks and voids keeps killing for years, a fraction of a bottle treats a whole bedroom, and there is no pyrethroid chemistry for a resistant population to shrug off. It is not a knockdown spray and it will not reach eggs cemented in a seam, which is exactly why it earns its keep as the long-term backstop in a broader plan."
-            search="cimexa insecticide dust"
+            label="Canada-Legal Pick (what to buy instead)"
+            name="Doktor Doom Be Green Premium Food Grade Diatomaceous Earth (PCP 32561)"
+            blurb="CimeXa has no Canadian registration, so this is the desiccant we point Canadian readers to: a diatomaceous earth whose label carries Registration No. 32561 (domestic class) and lists bed bugs. It works the same way, by drying insects out, but more slowly: in University of Kentucky tests, 10% of bed bugs were dead 24 hours after a brief walk over diatomaceous earth, against 97.5% on CimeXa. For bed bugs its label says to take beds apart and dust &ldquo;frames, joints, mattresses, tufts and seams, floors and baseboards,&rdquo; applied lightly and uniformly."
+            search="doktor doom diatomaceous earth"
             cta="Check price on Amazon.ca"
-            score={9.1}
-            pros={['Kills by desiccation — resistance is biologically impossible', 'Out-performs diatomaceous earth in independent lab testing', 'Near-permanent residual (up to ~10 years dry and undisturbed)', 'A tiny amount treats a whole room — excellent value per application', 'Legitimate Canadian retail availability — no grey-market importing']}
-            cons={['Slow-acting — a residual barrier, not an instant knockdown', 'Treats voids and travel routes, not eggs sealed in seams', 'Needs a duster and a light touch — over-application actually works worse', 'Very fine dust — wear a mask and keep it out of open living areas']}
+            score={8.3}
+            pros={['Domestic-class registration, No. 32561, with bed bugs on the label', 'Kills by drying insects out, not a nerve toxin', 'Label sizes from 100 g to 7 kg']}
+            cons={['Slower than CimeXa in university lab tests', 'A residual barrier, not an instant knockdown', 'Label: “Avoid breathing dust”; apply lightly and uniformly']}
           />
         </div>
       </section>
@@ -176,14 +176,14 @@ export default function CimexaBedBugReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Amorphous silica desiccant &mdash; absorbs the cuticle wax; bug dehydrates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; 1&ndash;4 days to kill in tests; label claims up to 10 years</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Fastest dust in university tests and kills pyrethroid-resistant bugs; no Canadian registration (US EPA 73079-12)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa insecticide dust" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Registered DE instead &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Budget desiccant</span></td>
                   <td className="px-4 py-3 text-gray-700">Fossil-diatom powder &mdash; same drying mechanism, coarser particle</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Slower</strong> &mdash; days to weeks, long residual if dry</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Cheap and registered in Canada (e.g. DX 13, PCP 30973), but slower: 10% dead at 24 hours vs 97.5% for silica gel after brief contact</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="diatomaceous earth bed bugs food grade" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Pyrethroid dust<br /><span className="font-normal text-xs text-gray-500">e.g. deltamethrin dusts</span></td>
@@ -255,7 +255,7 @@ export default function CimexaBedBugReviewCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">CimeXa dust on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Registered DE dust (PCP 32561) &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bellows hand duster pest control">Hand duster &rarr;</BuyLink>
           </div>
 
@@ -311,7 +311,7 @@ export default function CimexaBedBugReviewCanadaPage() {
           <p>For a <strong>light, precautionary, or budget-constrained</strong> situation &mdash; dusting the voids of a guest room, hardening a home after travel, or working with almost no money &mdash; diatomaceous earth is a legitimate, effective, resistance-proof choice and there is no shame in reaching for it. The mistake in the other direction is more expensive: buying grey-market US chemical concentrates because a forum promised they are &ldquo;stronger.&rdquo; They are not stronger against a resistant population, they are frequently illegal to import into Canada, and they trade a clean physical mechanism for one the bugs may already beat. Outside Canada, CimeXa is the pick if you want the best dust; in Canada, where no CimeXa registration exists, the registered choice is a diatomaceous earth dust such as DX 13 (PCP 30973); the chemical grey market is the option to avoid regardless of budget.</p>
 
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="cimexa insecticide dust">Check CimeXa on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Check Doktor Doom Be Green DE (PCP 32561) on Amazon.ca &rarr;</BuyLink>
           </div>
 
           <h2>Where CimeXa Fits in a Real Bed Bug Plan</h2>

@@ -168,13 +168,13 @@ export default function BestBedBugDetectorCanadaPage() {
                 cons: ['Pricier than passive options', 'Runs for a set window; some need power or lure refills'],
               },
               {
-                badge: 'Best Passive Monitor',
+                badge: 'Optional Extra (Drawers & Luggage)',
                 name: 'Glue-Strip Monitors (BuggyBeds)',
-                why: 'Thin adhesive cards that slip into the enclosed spots an interceptor cup can’t reach — nightstand drawers, behind headboards, inside luggage after travel. Inexpensive, discreet, and ideal as a supplementary spot-check layer across furniture and storage.',
+                why: 'Thin adhesive cards for the enclosed spots an interceptor cup can’t reach — nightstand drawers, behind headboards, inside luggage after travel. EPA says sticky traps are not for bed bugs, and a 2009 Purdue and Rutgers study reported minimal success with them, even with heat or carbon dioxide added. Treat a strip as an optional extra, never as your detector: an empty card does not mean a room is clear.',
                 search: 'buggybeds bed bug monitor',
                 score: 7.8,
-                pros: ['Fits drawers, luggage, tight gaps', 'Discreet and cheap', 'Great travel and storage spot-check'],
-                cons: ['Depends on a bug crawling directly across it', 'Less catch than a well-placed interceptor'],
+                pros: ['Fits drawers, luggage, tight gaps', 'Discreet and cheap', 'Reaches spots a cup cannot sit'],
+                cons: ['EPA: sticky traps are not for bed bugs', 'Catches only a bug that crawls right across it; an empty strip is not proof a room is clear'],
               },
               {
                 badge: 'Best Inspection Kit',
@@ -197,7 +197,7 @@ export default function BestBedBugDetectorCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Just want reliable, always-on peace of mind?</strong> The <em>Best Overall</em> interceptors under every leg are the one thing almost everyone should own. <strong>Need a fast, confident answer</strong> for a new lease, a real-estate deal, or an empty room? Add the <em>Best Active</em> lured monitor. <strong>Checking drawers, furniture, and luggage?</strong> The <em>Best Passive Monitor</em> glue strips slip where cups can&rsquo;t. <strong>Want to inspect it yourself first?</strong> The <em>Best Inspection Kit</em> turns a hunch into a real look. <strong>On a tight budget?</strong> The <em>Best Budget</em> multipack covers the bed for the least money.
+                <strong>Just want reliable, always-on peace of mind?</strong> The <em>Best Overall</em> interceptors under every leg are the one thing almost everyone should own. <strong>Need a fast, confident answer</strong> for a new lease, a real-estate deal, or an empty room? Add the <em>Best Active</em> lured monitor. <strong>Checking drawers and luggage too?</strong> The <em>Optional Extra</em> glue strips fit where cups can&rsquo;t, but EPA says sticky traps are not for bed bugs, so never treat an empty strip as an all-clear. <strong>Want to inspect it yourself first?</strong> The <em>Best Inspection Kit</em> turns a hunch into a real look. <strong>On a tight budget?</strong> The <em>Best Budget</em> multipack covers the bed for the least money.
               </>
             }
           />
@@ -241,7 +241,7 @@ export default function BestBedBugDetectorCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Glue-strip monitor<br /><span className="font-normal text-xs text-gray-500">BuggyBeds</span></td>
                   <td className="px-4 py-3 text-gray-700">Adhesive card that traps bugs crawling across it</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Spot</strong> &mdash; depends on direct contact</td>
-                  <td className="px-4 py-3 text-gray-700">Drawers, headboards, luggage, storage gaps</td>
+                  <td className="px-4 py-3 text-gray-700">An optional extra in drawers, headboards and luggage; EPA says sticky traps are not for bed bugs</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="buggybeds bed bug monitor" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">

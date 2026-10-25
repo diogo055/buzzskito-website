@@ -119,8 +119,8 @@ export default function BestPumpPressureSprayerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Viton-sealed hand-pump tank sprayer (Chapin / Solo)" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Viton-sealed hand-pump tank sprayer (Chapin / Solo)" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Chapin 2-gallon tank sprayer: check for Viton seals" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Chapin 2-gallon tank sprayer: check for Viton seals" search="chapin viton pump sprayer 2 gallon" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -148,12 +148,12 @@ export default function BestPumpPressureSprayerCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Chapin 2-Gallon Viton-Sealed Tank Sprayer',
-                why: 'The sweet-spot size for a typical Canadian yard, with Viton seals that survive aggressive concentrates and a funnel-top tank that is easy to fill without spills. Widely stocked across Canadian retailers, so replacement parts are never far away.',
+                name: 'Chapin 2-Gallon Tank Sprayer',
+                why: 'The sweet-spot size for a typical Canadian yard, with a funnel-top tank that is easy to fill without spills. Widely stocked across Canadian retailers, so replacement parts are never far away. Check the seals before you buy: Chapin names no Viton model on its own site and rates the nitrile seals on its basic 2-gallon SureSpray for standard lawn and garden chemicals, so choose a listing that names Viton for harsher products.',
                 search: 'chapin 2 gallon viton pump sprayer',
                 score: 9.0,
                 featured: true,
-                pros: ['Viton seals resist oils and solvents', 'Ideal 2-gallon size for a suburban yard', 'Easy to find + cheap parts in Canada'],
+                pros: ['Ideal 2-gallon size for a suburban yard', 'Easy to find + cheap parts in Canada'],
                 cons: ['Full 2-gallon tank gets heavy by hand', 'Base non-Viton models are false economy'],
               },
               {
@@ -186,7 +186,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Typical suburban yard and want the best value?</strong> The <em>Best Overall</em> Chapin 2-gallon Viton model does nearly everything and is the easiest to find and service in Canada. <strong>Spray often or use harsh concentrates?</strong> The <em>Best Rebuild-Forever</em> Solo pays back in seals you replace instead of a sprayer you re-buy. <strong>Just a patio and planters?</strong> The <em>Best for Small Patios</em> handheld is all you need. <strong>Acreage, long fence lines, or repeat perimeter spraying?</strong> Step up to the <em>Best for Large Lots</em> <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link>.
+                <strong>Typical suburban yard and want the best value?</strong> The <em>Best Overall</em> Chapin 2-gallon does nearly everything and is the easiest to find and service in Canada; pick a listing that names Viton seals. <strong>Spray often or use harsh concentrates?</strong> The <em>Best Rebuild-Forever</em> Solo pays back in seals you replace instead of a sprayer you re-buy. <strong>Just a patio and planters?</strong> The <em>Best for Small Patios</em> handheld is all you need. <strong>Acreage, long fence lines, or repeat perimeter spraying?</strong> Step up to the <em>Best for Large Lots</em> <Link href="/blog/backpack-sprayer-canada">backpack sprayer</Link>.
               </>
             }
           />
@@ -279,7 +279,7 @@ export default function BestPumpPressureSprayerCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer">Chapin 2-gallon (Viton) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="chapin 2 gallon viton pump sprayer">Chapin 2-gallon →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="solo viton pump sprayer">Solo hand-pump →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="handheld pump sprayer 1 litre">Handheld sprayer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="backpack sprayer 4 gallon viton">4-gallon backpack →</BuyLink>

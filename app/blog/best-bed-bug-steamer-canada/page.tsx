@@ -125,14 +125,14 @@ export default function BestBedBugSteamerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo bed bug steamer" search="vapamore mr-100 steamer" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Vapamore MR-100 Primo bed bug steamer" search="vapamore mr-100 steamer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Vapamore MR-100 Primo steamer (1.6 L tank)" search="vapamore mr-100 steamer" label="Best household steamer" />
+      <TopBox tag={AMZ_TAG} name="Vapamore MR-100 Primo steamer (1.6 L tank)" search="vapamore mr-100 steamer" label="Best household steamer" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug steamer in Canada for 2026 is the <AmazonLink search="vapamore mr-100 steamer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Vapamore MR-100 Primo</AmazonLink> — a 1,500 W dry-vapour canister steamer with roughly 60 minutes of run time per fill and a lifetime warranty, hot enough at the tip to kill every bed bug life stage, including eggs, on contact. On a tighter budget, the McCulloch MC1275 does the same job with a shorter run time for roughly half the price.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug steamer in Canada for 2026 is the <AmazonLink search="vapamore mr-100 steamer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Vapamore MR-100 Primo</AmazonLink> — a 1,500 W dry-vapour canister steamer with roughly 60 minutes of run time per fill and a lifetime warranty, hot enough at the tip to kill every bed bug life stage, including eggs, on contact. On a tighter budget, the McCulloch MC1275 does the same job with a shorter run time for roughly half the price. Both are household units (1.6 L and about 1.4 L tanks), smaller than the 4-litre (1-gallon) commercial steamer the University of Minnesota recommends, so expect to stop, cool and refill.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Health Canada: bedbugs die at 50°C and steam cleaners generally emit steam at 100°C or more; the University of Minnesota says steam kills every stage, eggs included, when applied correctly. No PMRA registration needed because heat is not a pesticide.</li>
               <li>Correct pass speed is 2–3 cm per second — about 30 cm every 10–12 seconds; faster passes are the #1 reason do-it-yourself steaming fails.</li>
@@ -167,21 +167,21 @@ export default function BestBedBugSteamerCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Vapamore MR-100 Primo',
-                why: 'A 1,500 W stainless-steel boiler with ~60 minutes of dry-vapour steam per fill and a lifetime warranty — enough sustained, low-moisture heat to kill every bed bug life stage, including eggs, on contact.',
+                why: 'A 1,500 W stainless-steel boiler with ~60 minutes of dry-vapour steam per fill and a lifetime warranty — enough sustained, low-moisture heat to kill every bed bug life stage, including eggs, on contact. Its 1.6 L tank is smaller than the 4 L (1-gallon) commercial steamer the University of Minnesota recommends, so expect to stop, cool and refill.',
                 search: 'vapamore mr-100 steamer',
                 score: 9.3,
                 featured: true,
                 pros: ['~60 min run time per fill', 'Low-moisture dry vapour', 'Lifetime warranty'],
-                cons: ['Premium price tier', '~11 min heat-up'],
+                cons: ['Premium price tier', '~11 min heat-up', '1.6 L tank, under UMN’s 4 L advice'],
               },
               {
                 badge: 'Best Value',
                 name: 'McCulloch MC1275',
-                why: 'The most-recommended budget canister for bed bug work in North America: 1,500 W, a 1.4 L tank good for ~45 minutes, and an 18-piece kit with the triangular seam brush — for roughly half the Vapamore price.',
+                why: 'The most-recommended budget canister for bed bug work in North America: 1,500 W, a 1.4 L tank good for ~45 minutes, and an 18-piece kit with the triangular seam brush — for roughly half the Vapamore price. Like every pick here, its tank is far smaller than the 4 L commercial steamer the University of Minnesota recommends.',
                 search: 'mcculloch mc1275 steam cleaner',
                 score: 8.4,
                 pros: ['~45 min per 1.4 L fill', 'Triangular seam brush included', 'Best price-to-capability'],
-                cons: ['Wetter steam output', 'More plastic build'],
+                cons: ['Wetter steam output', 'More plastic build', '1.4 L tank, under UMN’s 4 L advice'],
               },
               {
                 badge: 'Best Handheld Supplement',
@@ -190,12 +190,12 @@ export default function BestBedBugSteamerCanadaPage() {
                 search: 'pursteam steam cleaner',
                 score: 7.0,
                 pros: ['3–4 min heat-up', 'Cheap and portable', 'Great for follow-up passes'],
-                cons: ['Only ~10–15 min per fill', 'Pressure drops as tank empties'],
+                cons: ['Only ~10–15 min per fill', 'Pressure drops as tank empties', '~0.35 L tank, far under UMN’s 4 L advice'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Serious or multi-room infestation?</strong> Buy the <em>Best Overall</em> Vapamore MR-100 — the run time and warranty pay off across long slow-pass sessions. <strong>Single bedroom caught early on a budget?</strong> The <em>Best Value</em> McCulloch MC1275 does the same job for roughly half the price. <strong>Already own a canister?</strong> Add the <em>Best Handheld Supplement</em> PurSteam for fast follow-up passes inside the 7–10 day re-treatment window.
+                <strong>Serious or multi-room infestation?</strong> The University of Minnesota recommends a commercial steamer holding at least 4 L (1 gallon), which you can rent, or a professional. <strong>Buying for one or two rooms?</strong> The <em>Best Overall</em> Vapamore MR-100 has the longest run time here, but its 1.6 L tank means stopping to cool and refill. <strong>Single bedroom caught early on a budget?</strong> The <em>Best Value</em> McCulloch MC1275 (about 1.4 L) does the same job for roughly half the price. <strong>Already own a canister?</strong> Add the <em>Best Handheld Supplement</em> PurSteam for fast follow-up passes inside the 7–10 day re-treatment window.
               </>
             }
           />
@@ -222,7 +222,7 @@ export default function BestBedBugSteamerCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { name: 'Vapamore MR-100 Primo', spec: '1,500 W · stainless boiler', run: '~60 min', heat: '~11 min', best: 'Serious infestations, multi-room jobs, buy-once-cry-once' },
+                  { name: 'Vapamore MR-100 Primo', spec: '1,500 W · stainless boiler', run: '~60 min', heat: '~11 min', best: 'One or two rooms; for several rooms UMN recommends a 4 L commercial steamer' },
                   { name: 'McCulloch MC1275', spec: '1,500 W · 1.4 L tank', run: '~45 min', heat: '~8 min', best: 'Best value — single bedroom + couch treatments' },
                   { name: 'PurSteam handheld', spec: '~1,000 W · ~0.35 L tank', run: '~10–15 min', heat: '~3–4 min', best: 'Spot touch-ups, luggage, follow-up sessions' },
                 ].map(({ name, spec, run, heat, best }) => (

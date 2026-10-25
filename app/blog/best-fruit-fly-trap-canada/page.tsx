@@ -162,11 +162,11 @@ export default function BestFruitFlyTrapCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best fruit fly trap in Canada is the <AmazonLink search="terro fruit fly trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">TERRO Fruit Fly Trap</AmazonLink> &mdash; the little red apple with a vinegar-based liquid lure. Fruit flies hunt by fermentation smell, not light, so a scent lure out-catches UV traps and sticky ribbons in a kitchen. Each apple works for about 30 days, refill lure keeps seasonal costs low, and pairing traps with breeding-source removal ends most infestations in two to three weeks.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best fruit fly trap in Canada is the <AmazonLink search="terro fruit fly trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">TERRO Fruit Fly Trap</AmazonLink> &mdash; the little red apple with a vinegar-based liquid lure. Fruit flies hunt by fermentation smell, not light, so a scent lure out-catches UV traps and sticky ribbons in a kitchen. Each apple works for about 30 days (TERRO says up to 45) and is then thrown away, since TERRO sells no refills; pairing traps with breeding-source removal ends most infestations in two to three weeks.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Fruit flies go from egg to breeding adult in 8&ndash;10 days, and a female lays up to 500 eggs &mdash; traps alone never outrun that math.</li>
               <li>The TERRO&rsquo;s vinegar lure needs 24&ndash;48 hours to reach full strength; each trap then catches for about 30 days.</li>
-              <li>Reuse the apple housings and buy refill lure &mdash; the cheapest way to run traps every summer.</li>
+              <li>TERRO designs the apples to be disposable and sells no refills: it says to discard each trap after 45 days of use.</li>
               <li>UV traps like the Katchy are the better pick for fungus gnats (light-attracted) and mixed infestations.</li>
               <li>Place traps low, within a metre of fruit, drains, compost, or recycling &mdash; and away from competing smells.</li>
               <li>US aerosol &ldquo;fruit fly killer&rdquo; sprays without a PMRA registration number are not legal in Canada &mdash; traps are devices and sidestep the issue entirely.</li>
@@ -192,7 +192,7 @@ export default function BestFruitFlyTrapCanadaPage() {
                 search: 'terro fruit fly trap',
                 score: 9.0,
                 featured: true,
-                pros: ['Scent lure out-catches UV on fruit flies', 'About 30 days of catching per trap', 'Refill lure keeps seasonal cost low'],
+                pros: ['Scent lure out-catches UV on fruit flies', 'About 30 days of catching per trap', 'Disposable, so there is no refill to buy (TERRO sells none)'],
                 cons: ['Needs 24–48 h to reach full strength', 'Does nothing for fungus gnats'],
               },
               {
@@ -255,7 +255,7 @@ export default function BestFruitFlyTrapCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Liquid lure<br /><span className="font-normal text-xs text-gray-500">TERRO apple</span></td>
                   <td className="px-4 py-3 text-gray-700">Vinegar-based fermentation scent draws flies inside; they drown in the liquid</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; scent is how fruit flies hunt</td>
-                  <td className="px-4 py-3 text-gray-700">Refill lure roughly monthly in season</td>
+                  <td className="px-4 py-3 text-gray-700">A new trap every 30&ndash;45 days (TERRO sells no refills)</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">

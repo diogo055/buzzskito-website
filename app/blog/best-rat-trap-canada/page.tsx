@@ -172,14 +172,14 @@ export default function BestRatTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Victor Metal Pedal Rat Snap Trap" search="victor rat trap" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Victor Metal Pedal Rat Snap Trap" search="victor rat trap" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Victor Wooden Rat Snap Trap" search="victor rat trap" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Victor Wooden Rat Snap Trap" search="victor rat trap" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best rat trap for most Canadian homes is the classic <AmazonLink search="victor rat trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Victor Metal Pedal rat snap trap</AmazonLink> — powerful enough for a 200–500 g Norway rat, reusable for years, and cheap enough to deploy the 4–6 traps a real infestation needs. If you don&rsquo;t want to see or handle a dead rat, the Victor Electronic Rat Trap kills inside an enclosed chamber with a 6,000-volt shock (Victor’s own published figure).</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best rat trap for most Canadian homes is the classic <AmazonLink search="victor rat trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Victor wooden rat snap trap</AmazonLink> — powerful enough for a 200–500 g Norway rat, reusable for years, and cheap enough to deploy the 4–6 traps a real infestation needs. If you don&rsquo;t want to see or handle a dead rat, the Victor Electronic Rat Trap kills inside an enclosed chamber with a 6,000-volt shock (Victor’s own published figure).</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Adult Norway rats weigh 200–500 g — 10–20x a house mouse — so mouse traps wound rats instead of killing them and create trap-shy survivors.</li>
               <li>Rats avoid new objects for 3–7 days (neophobia); pre-bait traps UNSET for 3–5 nights before arming them.</li>
@@ -204,8 +204,8 @@ export default function BestRatTrapCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Victor Metal Pedal Rat Snap Trap',
-                why: 'Unbeatable kill-rate-per-dollar. The metal-pedal trigger and full rat-force spring bar close the deal the first time, and each trap survives years of catches — cheap enough to deploy the 4–6 traps a real infestation needs.',
+                name: 'Victor Wooden Rat Snap Trap',
+                why: 'Unbeatable kill-rate-per-dollar. The full rat-force spring bar closes the deal the first time, and each trap survives years of catches — cheap enough to deploy the 4–6 traps a real infestation needs. Victor has discontinued its metal-pedal model (M201), and its page for that trap now shows the Easy Set (M205).',
                 search: 'victor rat trap',
                 score: 9.1,
                 featured: true,

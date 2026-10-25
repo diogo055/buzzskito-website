@@ -119,8 +119,8 @@ export default function BestRodentRepellentForCarsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall · not a registered repellent" />
+      <TopBox tag={AMZ_TAG} name="Capsaicin rodent deterrent tape (Honda-style)" search="rodent deterrent tape capsaicin" label="Best overall · not a registered repellent" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -149,7 +149,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Capsaicin Rodent Deterrent Tape (Honda-Style)',
-                why: 'Electrical tape infused with hot-pepper extract, developed after chronic wiring-chew warranty claims. Wrap the harness runs mice reach and the first bite is aversive enough to end the taste test — passive, weather-proof, and it never fades into background smell.',
+                why: 'Electrical tape infused with hot-pepper extract, developed after chronic wiring-chew warranty claims. Wrap the harness runs mice reach and the first bite is aversive enough to end the taste test — passive, weather-proof, and it never fades into background smell. Not a registered repellent: Health Canada’s pesticide registry lists no capsaicin rodent tape.',
                 search: 'rodent deterrent tape capsaicin',
                 score: 8.8,
                 featured: true,
@@ -168,7 +168,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
               {
                 badge: 'Best Natural',
                 name: 'Peppermint-Oil Repellent Pouches',
-                why: 'Concentrated peppermint sachets for the cabin, trunk, and engine bay. Real aversion at high concentration, but the honest read is that the effect fades within weeks as the oil evaporates — the weakest evidence of our four picks, and priced accordingly.',
+                why: 'Concentrated peppermint sachets for the cabin, trunk, and engine bay. Real aversion at high concentration, but the honest read is that the effect fades within weeks as the oil evaporates — the weakest evidence of our four picks, and priced accordingly. Not a registered repellent: Health Canada’s registry lists no peppermint rodent repellent, so check the PCP number on any product you buy.',
                 search: 'peppermint oil rodent repellent pouches',
                 score: 6.8,
                 pros: ['Pleasant for humans, no residue on parts', 'Easy to place in cabin, trunk, and glovebox', 'Reasonable supplementary layer for stored vehicles'],
@@ -213,7 +213,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">Capsaicin tape<br /><span className="font-normal text-xs text-gray-500">Honda-style deterrent tape</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Capsaicin tape<br /><span className="font-normal text-xs text-gray-500">Honda-style deterrent tape; not a registered repellent</span></td>
                   <td className="px-4 py-3 text-gray-700">Hot-pepper extract in the tape itself &mdash; the first gnaw is immediately aversive</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strongest here</strong> &mdash; taste aversion doesn&rsquo;t habituate like scent</td>
                   <td className="px-4 py-3 text-gray-700">None after installation; inspect yearly</td>
@@ -227,7 +227,7 @@ export default function BestRodentRepellentForCarsCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="under hood rodent repeller battery" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">Peppermint pouches<br /><span className="font-normal text-xs text-gray-500">Essential-oil sachets</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Peppermint pouches<br /><span className="font-normal text-xs text-gray-500">Essential-oil sachets; not a registered repellent</span></td>
                   <td className="px-4 py-3 text-gray-700">High-concentration mint scent is aversive &mdash; until it evaporates</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Weakest</strong> &mdash; real but short-lived; supplementary only</td>
                   <td className="px-4 py-3 text-gray-700">Replace monthly, without fail</td>

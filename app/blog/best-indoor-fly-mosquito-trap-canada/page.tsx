@@ -140,13 +140,13 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
                 cons: ['Recurring refill cost', 'Only fair on mosquitoes'],
               },
               {
-                badge: 'Best for Large Rooms',
-                name: 'DynaTrap Fan-Suction UV Unit',
-                why: 'Fan-suction UV that covers up to roughly 600 sq ft with no refills — you just rinse the basket. The pick for an open kitchen or family room.',
+                badge: 'Outdoor Option (1/4 Acre)',
+                name: 'DynaTrap 1/4 Acre Insect Trap (DT160)',
+                why: 'UV light plus fan suction, with no glue boards to buy: you empty the basket. DynaTrap rates this model for up to 1/4 acre and sells it with its outdoor traps, so it is a yard trap; for a bedroom or kitchen, the Best Overall pick is the indoor one.',
                 search: 'dynatrap indoor insect trap dt160',
                 score: 8.0,
-                pros: ['Covers up to ~600 sq ft', 'No refills to buy', 'Fair–good mosquito catch'],
-                cons: ['Quiet fan hum', 'You empty and rinse the basket'],
+                pros: ['Rated for up to 1/4 acre (DynaTrap)', 'No refills to buy', 'Fair–good mosquito catch'],
+                cons: ['DynaTrap sells it as an outdoor trap', 'Quiet fan hum', 'You empty and rinse the basket'],
               },
               {
                 badge: 'Best Set-and-Forget',
@@ -169,7 +169,7 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Bedroom or kitchen?</strong> The <em>Best Overall</em> UV + fan + glue-board trap is the quiet, all-round winner. <strong>Open-plan or large room?</strong> The <em>Best for Large Rooms</em> DynaTrap covers more with no refills. <strong>Want zero fuss on a nightstand?</strong> Grab the <em>Best Set-and-Forget</em> plug-in — but remember no indoor trap fixes the source. Cutting the outdoor population with <Link href="/mosquito-control">professional barrier spray</Link> means far fewer insects reach the door in the first place.
+                <strong>Bedroom or kitchen?</strong> The <em>Best Overall</em> UV + fan + glue-board trap is the quiet, all-round winner. <strong>Want a trap for the yard rather than a room?</strong> The <em>Outdoor Option</em> DynaTrap is rated by DynaTrap for up to 1/4 acre, with no refills. <strong>Want zero fuss on a nightstand?</strong> Grab the <em>Best Set-and-Forget</em> plug-in — but remember no indoor trap fixes the source. Cutting the outdoor population with <Link href="/mosquito-control">professional barrier spray</Link> means far fewer insects reach the door in the first place.
               </>
             }
           />
@@ -204,9 +204,9 @@ export default function BestIndoorFlyMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap uv fan" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">Best for large rooms</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Outdoor option</td>
                   <td className="px-4 py-3 text-gray-800">UV + fan suction (no refill)</td>
-                  <td className="px-4 py-3 text-gray-700">Up to ~600 sq ft</td>
+                  <td className="px-4 py-3 text-gray-700">Rated up to 1/4 acre, sold as an outdoor trap (DynaTrap)</td>
                   <td className="px-4 py-3 text-gray-700">None — rinse the basket</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap indoor insect trap dt160" block>Check price on Amazon.ca &rarr;</BuyLink></td>
                 </tr>

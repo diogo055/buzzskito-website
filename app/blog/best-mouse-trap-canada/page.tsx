@@ -164,10 +164,10 @@ export default function BestMouseTrapCanadaPage() {
               {
                 badge: 'Best No-Touch',
                 name: 'Victor M250S Electronic Trap',
-                why: 'A high-voltage tunnel that kills in under 5 seconds, then a green light tells you to tip it into the garbage — no sight, no touch, no blood.',
+                why: 'A closed tunnel that kills with a high-voltage shock, then a green light flashes every 10 seconds for up to a week to tell you to tip it into the garbage — no sight, no touch, no blood.',
                 search: 'victor electronic mouse trap',
                 score: 8.3,
-                pros: ['Up to 100 kills per 4×AA battery set', 'Pets and kids cannot reach inside', 'No-see, no-touch disposal'],
+                pros: ['Switches itself off when the lid is opened', 'Pets and kids cannot reach inside', 'No-see, no-touch disposal'],
                 cons: ['15–20× the price of a snap trap', 'Indoor dry areas only; one runway per unit'],
               },
               {

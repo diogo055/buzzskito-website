@@ -143,7 +143,7 @@ export default function BedBugSprayCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug spray legally available in Canada is <AmazonLink search="doktor doom sleep tight bed bug spray" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Doktor Doom Sleep Tight</AmazonLink> — it&rsquo;s PMRA-registered, labelled for direct use on mattresses and box springs, and widely stocked on Amazon.ca. Pair it with a permethrin-based residual (Doktor Doom Pro Max) for baseboards and bed frames, and treat every spray as a supporting tool: steam, encasements, and interceptor traps do the heavy lifting.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug spray legally available in Canada is <AmazonLink search="doktor doom sleep tight bed bug spray" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Doktor Doom Sleep Tight Bed Bug Killer II</AmazonLink> (PCP 29339) — it&rsquo;s PMRA-registered, labelled for direct use on mattresses and box springs, and widely stocked on Amazon.ca. Pair it with a permethrin-based residual (Doktor Doom Pro Max) for baseboards and floor cracks beside the bed, never the bed or other furniture, and treat every spray as a supporting tool: steam, encasements, and interceptor traps do the heavy lifting.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Legal Canadian sprays carry a Pest Control Products (PCP) registration number on the label — no PCP number means it is not legal to sell or use in Canada.</li>
               <li>US favourites like Crossfire, Temprid FX, and Bedlam Plus have zero PMRA registration — importing them violates the federal Pest Control Products Act.</li>
@@ -207,22 +207,22 @@ export default function BedBugSprayCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Doktor Doom Sleep Tight',
-                why: 'The only widely stocked Canadian spray labelled for direct use on mattresses and box springs — a plant-derived pyrethrin that kills on contact, dries fast, and won’t stain most fabrics.',
+                why: 'Sleep Tight Bed Bug Killer II (PCP 29339) is labelled for mattress tufts and seams, box springs and bed frames: a pyrethrin aerosol with piperonyl butoxide that kills the bugs it contacts. Check for PCP 29339, because the permethrin cans sold under the Sleep Tight name are not labelled for mattresses.',
                 asin: 'B0D2PFS1WZ',
                 search: 'doktor doom sleep tight bed bug spray',
                 score: 8.6,
                 featured: true,
-                pros: ['Labelled for mattresses & box springs', 'PMRA domestic-class registered', 'Water-based, fast-drying'],
+                pros: ['Labelled for mattresses & box springs', 'PMRA domestic-class registered (PCP 29339)', 'Pyrethrins + piperonyl butoxide aerosol'],
                 cons: ['Contact kill with short residual', 'Won’t reliably kill eggs'],
               },
               {
                 badge: 'Best Residual',
                 name: 'Doktor Doom Pro Max',
-                why: 'A permethrin residual for baseboards, bed legs, frames, and furniture perimeters — it keeps killing bugs that cross treated surfaces for weeks, the piece a contact-only spray misses.',
+                why: 'A permethrin residual for cracks and crevices, along and behind baseboards and mouldings, and the floor beneath and behind the bed — the piece a contact-only spray misses. For bed bugs its label says do not apply to the mattress, headboard, footboard or furniture.',
                 search: 'doktor doom pro max',
                 score: 8.0,
-                pros: ['Weeks of surface residual', 'Great for perimeters & frames', 'Pairs with Sleep Tight'],
-                cons: ['Not for mattresses or bedding', 'Pyrethroid resistance can blunt it'],
+                pros: ['Residual, long-lasting out of sunlight (label)', 'Cracks, baseboards & floor beside the bed', 'Pairs with Sleep Tight'],
+                cons: ['Label: not on the mattress, headboard, footboard or furniture', 'Pyrethroid resistance can blunt it'],
               },
               {
                 badge: 'Best Alternate',
@@ -245,7 +245,7 @@ export default function BedBugSprayCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Start with the <em>Best Overall</em> Sleep Tight</strong> for the bed itself, then add the <em>Best Residual</em> Pro Max for baseboards and frames. The <em>Best Alternate</em> and <em>Best Backup</em> cans are stock-out substitutes, not upgrades. Remember: no spray clears an infestation alone — pair any of these with steam, encasements, and interceptor traps.
+                <strong>Start with the <em>Best Overall</em> Sleep Tight</strong> for the bed itself, then add the <em>Best Residual</em> Pro Max for baseboards and floor cracks (its label keeps it off the bed and other furniture). The <em>Best Alternate</em> and <em>Best Backup</em> cans are stock-out substitutes, not upgrades. Remember: no spray clears an infestation alone — pair any of these with steam, encasements, and interceptor traps.
               </>
             }
           />

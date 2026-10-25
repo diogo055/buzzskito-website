@@ -147,12 +147,12 @@ export default function MosquitoRepellentGuidePage() {
                 {
                   badge: 'Best Overall',
                   name: 'Natrapel 20% Picaridin',
-                  why: 'Odourless, long-wearing, and it won’t melt plastics or fabrics — and it is registered for sale in Canada under the Pest Control Products Act. The best all-round everyday backyard and travel pick for Ontario.',
+                  why: 'Long-wearing, and it won’t melt plastics or fabrics — and it is registered for sale in Canada under the Pest Control Products Act. The best all-round everyday backyard and travel pick for Ontario.',
                   search: 'natrapel picaridin insect repellent',
                   asin: 'B0BYFF3S3V',
                   score: 9.1,
                   featured: true,
-                  pros: ['Canadian label claims up to 12 hrs vs mosquitoes and ticks', 'Odourless and non-greasy', 'Won’t damage gear, plastics or fabrics'],
+                  pros: ['Canadian label claims up to 12 hrs vs mosquitoes and ticks', 'Non-greasy', 'Won’t damage gear, plastics or fabrics'],
                   cons: ['Slightly pricier than generic DEET', 'Protects skin only, not the yard'],
                 },
                 {
@@ -205,7 +205,7 @@ export default function MosquitoRepellentGuidePage() {
                 <tr className="border-b border-gray-200">
                   <td className="py-3 pr-4 font-semibold text-gray-900">Natrapel Icaridin (20%)</td>
                   <td className="py-3 pr-4">Skin spray</td>
-                  <td className="py-3 pr-4"><strong>Best overall</strong> — odourless everyday backyard &amp; travel pick; Canadian PCP-registered, label claims up to 12 hrs.</td>
+                  <td className="py-3 pr-4"><strong>Best overall</strong> — everyday backyard &amp; travel pick; Canadian PCP-registered, label claims up to 12 hrs.</td>
                   <td className="py-3"><BuyLink tag={AMZ_TAG} search="natrapel picaridin insect repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-gray-200">

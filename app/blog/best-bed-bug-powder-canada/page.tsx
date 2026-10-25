@@ -159,20 +159,20 @@ export default function BestBedBugPowderCanadaPage() {
               {
                 badge: 'Best Diatomaceous Earth',
                 name: 'Doktor Doom Diatomaceous Earth (Food Grade)',
-                why: 'A trusted, Canadian-market food-grade DE that is easy to find and gentle to keep around a home with kids and pets. Slower than silica, but effective in the right dry harbourage and the most accessible dust for a first-timer.',
+                why: 'A trusted, Canadian-made DE whose label carries Reg. No. 32561 (domestic class) and lists bed bugs, and it is easy to find. Slower than silica, but effective in the right dry harbourage and the most accessible dust for a first-timer.',
                 search: 'doktor doom diatomaceous earth',
                 score: 8.3,
-                pros: ['Low-toxicity food-grade mineral', 'Widely available to Canadian buyers', 'Inexpensive and forgiving to handle'],
+                pros: ['Reg. No. 32561; bed bugs on the label', 'Widely available to Canadian buyers', 'Inexpensive'],
                 cons: ['Slower kill than silica gel', 'Needs a heavier film; clumps if damp'],
               },
               {
-                badge: 'Best Budget DE',
-                name: 'Food-Grade Diatomaceous Earth (Bulk)',
-                why: 'A plain bulk bag of food-grade DE is the cheapest way to dust a whole home. Not as refined as a named insecticide dust, but for cracks, voids, and baseboards on a budget it does the same desiccant job when applied thinly with a mask on.',
-                search: 'food grade diatomaceous earth bulk',
+                badge: 'Best Alternate DE',
+                name: 'Knock Down Diatomaceous Earth (Reg. No. 31048 or 32665)',
+                why: 'Use a registered DE instead of a plain bulk “food grade” bag: a bag with no PCP number is not a registered pest control product. PMRA’s registry lists Knock Down Eco Crawling Insect Control & Killer Bait Powder (Reg. No. 31048) and Knock Down Dust Diatomaceous Earth (Reg. No. 32665) in the domestic class, both with bed bugs among the listed pests. Check the bag for one of those numbers and follow its label.',
+                search: 'knock down diatomaceous earth',
                 score: 7.4,
-                pros: ['Lowest cost per treatment', 'Big volume for whole-home coverage', 'Same desiccant mechanism as named DE'],
-                cons: ['Verify food-grade, never pool-grade', 'Slowest option; wear a dust mask'],
+                pros: ['Domestic-class registrations that list bed bugs', 'Same desiccant mechanism as other DE', 'A second registered brand if Doktor Doom is out of stock'],
+                cons: ['Slow, like every DE', 'Confirm the PCP number on the listing'],
               },
               {
                 badge: 'Best Applicator',
@@ -186,7 +186,7 @@ export default function BestBedBugPowderCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want the single strongest dust?</strong> The <em>Best Overall</em> CimeXa silica gel kills faster and lasts at a lighter rate. <strong>Prefer a gentle, natural mineral that is easy to find?</strong> The <em>Best Diatomaceous Earth</em> Doktor Doom is the accessible pick. <strong>Dusting a whole house on a budget?</strong> A <em>Best Budget DE</em> bulk bag covers the most ground for the least money. <strong>Whichever powder you choose</strong>, add the <em>Best Applicator</em> bulb duster &mdash; the light-film technique it enables is what separates a powder that works from one that just sits there.
+                <strong>Want the single strongest dust?</strong> The <em>Best Overall</em> CimeXa silica gel kills faster and lasts at a lighter rate. <strong>Prefer a natural mineral with a Canadian PCP number that is easy to find?</strong> The <em>Best Diatomaceous Earth</em> Doktor Doom (Reg. No. 32561) is the accessible pick. <strong>Doktor Doom out of stock?</strong> The <em>Best Alternate DE</em> from Knock Down carries a registration that lists bed bugs too (Reg. No. 31048 or 32665); skip plain bulk bags with no PCP number. <strong>Whichever powder you choose</strong>, add the <em>Best Applicator</em> bulb duster &mdash; the light-film technique it enables is what separates a powder that works from one that just sits there.
               </>
             }
           />
@@ -227,11 +227,11 @@ export default function BestBedBugPowderCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Bulk food-grade DE<br /><span className="font-normal text-xs text-gray-500">value</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slowest, most volume</td>
-                  <td className="px-4 py-3 text-gray-700">Whole-home coverage on a budget</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Knock Down DE<br /><span className="font-normal text-xs text-gray-500">registered alternative</span></td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Good</strong> &mdash; slower, heavier film</td>
+                  <td className="px-4 py-3 text-gray-700">A second DE with a PCP number (Reg. No. 31048 or 32665)</td>
                   <td className="px-4 py-3 text-gray-700">Only a bag whose label shows a PCP number and lists bed bugs; never pool-grade (crystalline silica)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="food grade diatomaceous earth bulk" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="knock down diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Bulb hand-duster<br /><span className="font-normal text-xs text-gray-500">applicator</span></td>

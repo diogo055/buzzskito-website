@@ -348,7 +348,7 @@ export default function MosquitoDunksPage() {
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks price on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks (look for Reg. No. 28888) →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Stock up in April–May — supply tightens by July. On the Canadian label a quarter dunk treats 0.1 to 3.0 m² of water, so one 6-pack holds 24 rain-barrel doses at 30-day intervals. Not sure where the standing water on your property is hiding? Track down these <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-emerald-700 underline font-semibold">hidden mosquito breeding spots</Link> before you treat.
@@ -388,18 +388,18 @@ export default function MosquitoDunksPage() {
                 cons: ['Only treats water you can reach', 'Does nothing to adult mosquitoes flying in'],
               },
               {
-                badge: 'Best for Fast Knockdown',
-                name: 'Summit Mosquito Bits (BTI granules)',
-                why: 'The same BTI in quick-release granules — works within minutes when you find larvae unexpectedly, and easier than a dunk for fungus gnats because you sprinkle it straight onto potting soil.',
-                search: 'summit mosquito bits',
+                badge: 'Best for Small Containers',
+                name: 'Summit Mosquito Dunks, broken into quarters',
+                why: 'Mosquito Bits, the quick-release granules, have no Canadian registration, so for a flower planter, discarded tire or rain barrel you cannot empty weekly, break a dunk: the Canadian label says dunks “can be used whole or in pieces” and puts 0.1 to 3.0 m² of water at a quarter dunk.',
+                search: 'summit mosquito dunks',
                 score: 8.7,
-                pros: ['Acts within minutes, not days', 'Right size for bird baths and plant saucers', 'Sprinkles onto potting soil for fungus gnat larvae'],
-                cons: ['Days of coverage, not the ~30 a dunk gives a rain barrel', 'Long-term water sources are better served by a dunk'],
+                pros: ['One 6-pack breaks into 24 quarter-dunk doses', 'Canadian Reg. No. 28888', 'Reapply at 30-day intervals if larvae are detected'],
+                cons: ['Not a fast knockdown: allow a minimum of 48 hours for control (Canadian label)', 'A bird bath you can change twice a week needs no product'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>One rain barrel?</strong> The <em>Best Overall</em> 6-pack solves the whole season &mdash; one dunk per month, May through September. <strong>A pond, several barrels, or a ditch that holds water?</strong> The 20-pack costs less per dunk and won&rsquo;t run out in August. <strong>Wrigglers in a bird bath, saucer, or houseplant soil?</strong> Quick-release <em>Bits</em> work in minutes and go straight onto potting soil for fungus gnats. The limit they all share: BTI kills larvae in treated water only &mdash; the adults flying in from ravines and neighbours&rsquo; yards are what a <Link href="/mosquito-control">whole-yard barrier spray</Link> handles.
+                <strong>One rain barrel?</strong> The <em>Best Overall</em> 6-pack solves the whole season &mdash; one dunk per month, May through September. <strong>A pond, several barrels, or a ditch that holds water?</strong> The 20-pack costs less per dunk and won&rsquo;t run out in August. <strong>A flower planter or tire you cannot empty weekly?</strong> Use a quarter of a dunk, the Canadian label&rsquo;s dose for 0.1 to 3.0 m²; a bird bath you can change twice a week needs nothing, and Mosquito Bits have no Canadian registration. The limit they all share: BTI kills larvae in treated water only &mdash; the adults flying in from ravines and neighbours&rsquo; yards are what a <Link href="/mosquito-control">whole-yard barrier spray</Link> handles.
               </>
             }
           />
@@ -595,7 +595,7 @@ export default function MosquitoDunksPage() {
           </div>
           <div className="mt-4 flex flex-wrap items-center gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks price on Amazon →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits">Check Mosquito Bits (faster-acting) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks">Check Mosquito Dunks on Amazon.ca (Canadian Reg. No. 28888) →</BuyLink>
           </div>
           <p className="text-xs text-gray-500 mt-3">
             Typical U.S. shelf prices as of the 2026 season, in USD. They vary by store and climb roughly 10&ndash;15% at peak. <strong>Canadian prices are in the CAD table further up this page.</strong> One more U.S.-only option worth checking before you spend anything: search your county name plus &ldquo;mosquito abatement district&rdquo;. Several hundred of these publicly funded districts operate across the United States, many will inspect standing water on request, and a good number hand out <strong>free BTI dunks to residents</strong>. Canada has no equivalent district system &mdash; standing water on public land goes to your municipality (311 in the GTA).
@@ -654,7 +654,7 @@ export default function MosquitoDunksPage() {
           </table>
           <div className="not-prose my-4 flex flex-wrap items-center gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks (Reg. No. 28888)</BuyLink>
           </div>
           <p>Most Canadian homeowners with mosquito issues use both — dunks in rain barrels and ponds for set-and-forget protection, bits sprinkled into bird baths or unexpected standing water as needed.</p>
 
@@ -733,7 +733,7 @@ export default function MosquitoDunksPage() {
           </div>
           <div className="not-prose my-4 flex flex-wrap items-center gap-3">
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits price</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks (Reg. No. 28888)</BuyLink>
           </div>
           <p>If you want the two formats compared in more depth, we did that separately in <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks</Link>.</p>
 
@@ -876,7 +876,7 @@ export default function MosquitoDunksPage() {
           </div>
           <p><strong>Bits are easier here than dunks.</strong> Mosquito Bits are the same BTI in granule form, and you sprinkle them straight onto the top inch of potting soil and water them in &mdash; no steeping, no jug, no tablet sitting in a decorative pot. Dunks win on cost if you already own a box; Bits win on convenience if houseplants are the only reason you are buying BTI at all. Either way, the durable fix is watering habits: fungus gnats breed in permanently damp soil, so letting the top inch dry between waterings does more than any product.</p>
           <div className="not-prose my-4 flex flex-wrap items-center gap-3">
-            <BuyLink tag={AMZ_TAG} search="summit mosquito bits" className="!px-3 !py-1.5 !text-xs">Check Bits for fungus gnats</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks (mosquito larvae in water only)</BuyLink>
             <BuyLink tag={AMZ_TAG} search="summit mosquito dunks" className="!px-3 !py-1.5 !text-xs">Check Dunks price</BuyLink>
           </div>
 

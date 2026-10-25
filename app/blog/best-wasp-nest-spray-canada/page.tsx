@@ -154,8 +154,8 @@ export default function BestWaspNestSprayCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Raid Wasp & Hornet Bug Killer (foaming aerosol)" search="raid wasp hornet killer" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="Raid Wasp & Hornet Bug Killer (foaming aerosol)" search="raid wasp hornet killer" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid Wasp & Hornet Bug Killer 7 (jet spray, up to 5.7 m)" search="raid wasp hornet killer" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Raid Wasp & Hornet Bug Killer 7 (jet spray, up to 5.7 m)" search="raid wasp hornet killer" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -174,7 +174,7 @@ export default function BestWaspNestSprayCanadaPage() {
           </div>
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp nest spray for most Canadian homes is a PMRA-registered foaming aerosol like <AmazonLink search="raid wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Raid Wasp &amp; Hornet Bug Killer</AmazonLink> &mdash; the foam blankets the nest entrance, traps returning workers, and keeps killing for hours. Wilson WaspOut is the strongest pure-foam alternative, and the Ortho can registered for Canada is Wasp B Gon MAX Wasp Killer Spray (Health Canada PCP 33723) &mdash; the 20-foot Ortho Home Defense Hornet &amp; Wasp Killer 7 sold in the US has no Canadian registration. Spray at dusk, from the far end of the jet&rsquo;s reach, and always check the can for a Canadian PCP registration number.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best wasp nest spray for most Canadian homes is a domestic wasp-and-hornet can with a PCP number, like <AmazonLink search="raid wasp hornet killer" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Raid Wasp &amp; Hornet Bug Killer 7</AmazonLink> (PCP 29776) &mdash; a jet spray S.C. Johnson rates at up to 5.7 m, for nests &ldquo;in trees or attached to buildings&rdquo;: spray the nest opening first, then saturate the nest. Wilson WaspOut is the strongest pure-foam alternative, and the Ortho can registered for Canada is Wasp B Gon MAX Wasp Killer Spray (Health Canada PCP 33723) &mdash; the 20-foot Ortho Home Defense Hornet &amp; Wasp Killer 7 sold in the US has no Canadian registration. Spray at dusk, from the far end of the jet&rsquo;s reach, and always check the can for a Canadian PCP registration number.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Legal wasp sprays in Canada carry a PCP registration number from Health Canada&rsquo;s PMRA &mdash; no number on the can, not legal to sell or use here.</li>
               <li>US products like Spectracide&rsquo;s &ldquo;27-foot&rdquo; jet are EPA-registered, not PMRA-registered &mdash; importing or using them in Canada is grey-market and an offence under the Pest Control Products Act.</li>
@@ -199,21 +199,21 @@ export default function BestWaspNestSprayCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Raid Wasp & Hornet Bug Killer (foam)',
-                why: 'The Canadian benchmark: a foaming aerosol that blankets the nest and entrance, knocks wasps down on contact, and keeps killing returning foragers as they crawl through the residue. Widely stocked and inexpensive enough to keep a backup can.',
+                name: 'Raid Wasp & Hornet Bug Killer 7 (jet spray)',
+                why: 'The Canadian benchmark: a jet spray (PCP 29776) that S.C. Johnson rates at up to 5.7 m and describes for nests “in trees or attached to buildings”; spray the nest opening first, then saturate the nest. Widely stocked and inexpensive enough to keep a backup can.',
                 search: 'raid wasp hornet killer',
                 score: 9.0,
                 featured: true,
-                pros: ['Foam traps wasps at the entrance', 'Residual kills returning foragers', 'Sold at nearly every Canadian retailer'],
-                cons: ['Rated up to 5.7 m by SC Johnson — if the nest sits higher than the can reaches, call a pro rather than climb', 'Foam can drip on vertical surfaces'],
+                pros: ['Longest published throw we found among cans registered here (up to 5.7 m)', 'Directions: spray the nest opening first, then saturate the nest', 'Sold at nearly every Canadian retailer'],
+                cons: ['Rated up to 5.7 m by SC Johnson — if the nest sits higher than the can reaches, call a pro rather than climb', 'A jet stream runs off vertical surfaces, so a nest may need a second evening'],
               },
               {
                 badge: 'Best Foam Blanket',
                 name: 'Wilson WaspOut Wasp & Hornet Foam',
-                why: 'A Canadian-brand expanding foam that smothers the whole nest envelope — the best choice for visible paper nests on eaves, deck rails, and shed corners, and for pushing foam into ground-nest and void entrances.',
+                why: 'A Canadian-brand expanding foam that smothers the whole nest envelope — the best choice for visible paper nests on eaves, deck rails, and shed corners. Its record in Health Canada’s pesticide database excludes nests underground or in voids, so keep it out of holes.',
                 search: 'wilson waspout wasp hornet foam',
                 score: 8.6,
-                pros: ['Expanding foam coats the full nest', 'Excellent for burrow and void entrances', 'Canadian brand, PMRA-registered line'],
+                pros: ['Expanding foam coats the full nest', 'Labelled for exposed nests', 'Canadian brand, PCP 31899'],
                 cons: ['Shorter throw than jet formulas', 'Budget-priced but uses product fast'],
               },
               {
@@ -228,7 +228,7 @@ export default function BestWaspNestSprayCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Typical eave, deck, or shed nest?</strong> The <em>Best Overall</em> Raid foam does everything well and is the one can to own. <strong>Big exposed paper nest or a burrow entrance?</strong> The <em>Best Foam Blanket</em> WaspOut&rsquo;s expanding foam smothers it most completely. <strong>Nest two storeys up?</strong> Reach for the longest published throw among Canadian-registered cans &mdash; SC Johnson rates Raid Wasp &amp; Hornet Bug Killer 7 at up to 5.7 m &mdash; and if you cannot reach it safely from the ground at all, that is a job for a licensed pro, not a taller ladder. Whichever you buy, check for the PCP number on the label before checkout.
+                <strong>Typical eave, deck, or shed nest?</strong> The <em>Best Overall</em> Raid jet spray does everything well and is the one can to own. <strong>Big exposed paper nest?</strong> The <em>Best Foam Blanket</em> WaspOut&rsquo;s expanding foam smothers it most completely; its record excludes nests underground or in voids, so keep it out of holes. <strong>Nest two storeys up?</strong> Reach for the longest published throw among Canadian-registered cans &mdash; SC Johnson rates Raid Wasp &amp; Hornet Bug Killer 7 at up to 5.7 m &mdash; and if you cannot reach it safely from the ground at all, that is a job for a licensed pro, not a taller ladder. Whichever you buy, check for the PCP number on the label before checkout.
               </>
             }
           />
@@ -420,7 +420,7 @@ export default function BestWaspNestSprayCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet foam →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Raid Wasp &amp; Hornet jet spray →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="wilson waspout wasp hornet foam">Wilson WaspOut foam →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="">Ortho wasp aerosol →</BuyLink>
           </div>
@@ -432,7 +432,7 @@ export default function BestWaspNestSprayCanadaPage() {
           <p><strong>Wilson&rsquo;s WaspOut foam</strong> takes the same idea further with a heavier expanding foam that can smother an entire exposed paper nest &mdash; the classic grey football under a deck rail or soffit. Keep it out of holes, though: Health Canada&rsquo;s database lists its use sites (PCP 31899) with the exclusion &ldquo;nests located underground or in voids&rdquo;, which rules out a ground-nest burrow or a gap behind siding. If your nest is a visible envelope rather than open comb, WaspOut&rsquo;s foam coverage is the most complete of the picks.</p>
           <p><strong>Straight-stream formulas</strong> trade the blanket for a narrow, pointed jet, and here it matters a great deal which can you are actually holding. Ortho sells <em>Wasp B Gon MAX Wasp Killer Spray</em> in Canada &mdash; Health Canada PCP 33723, registered to Scotts Canada Ltd. &mdash; while the 20-foot <em>Ortho Home Defense Hornet &amp; Wasp Killer 7</em> that fills American search results is EPA-registered and appears nowhere in the Health Canada pesticide label database. Among cans you can legally buy here the longest published throw belongs to Raid Wasp &amp; Hornet Bug Killer 7, which SC Johnson rates at up to 5.7 m; Scotts Canada rates the Wasp B Gon MAX foam at 2 to 2.5 m (6 to 8 feet). The trade-off with any stream is real: it runs off vertical surfaces, so a jet-treated nest more often needs a second application the next evening.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Check Raid Wasp &amp; Hornet foam on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="raid wasp hornet killer">Check Raid Wasp &amp; Hornet jet spray on Amazon.ca →</BuyLink>
           </div>
 
           <h2>How to Spray a Wasp Nest Safely (The Full Technique)</h2>

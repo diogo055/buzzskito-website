@@ -135,7 +135,7 @@ export default function BestPatioHeaterCanadaPage() {
                 search: 'propane patio heater 48000 btu tower',
                 score: 9.0,
                 featured: true,
-                pros: ['Warms a 9–12 ft circle, not just one chair', 'Goes anywhere — no outlet needed', 'Cheapest way to buy a lot of heat'],
+                pros: ['Warms a group seated close around it, not just one chair', 'Goes anywhere — no outlet needed', 'Cheapest way to buy a lot of heat'],
                 cons: ['Poor in wind; can cut out in gusts', 'Tank swaps, and nowhere legal to store it indoors'],
               },
               {
@@ -210,7 +210,7 @@ export default function BestPatioHeaterCanadaPage() {
               </thead>
               <tbody>
                 {[
-                  { type: 'Propane tower (mushroom top)', out: '46,000–50,000 BTU', zone: '~9–12 ft circle', cost: '~$2.50–$4.00/hr', best: 'Open decks, groups, no wiring', search: 'propane patio heater 48000 btu tower' },
+                  { type: 'Propane tower (mushroom top)', out: '46,000–50,000 BTU', zone: 'A group seated close around it', cost: '~$2.50–$4.00/hr', best: 'Open decks, groups, no wiring', search: 'propane patio heater 48000 btu tower' },
                   { type: 'Pyramid glass-tube propane', out: '~40,000–48,000 BTU', zone: 'Tighter than a tower', cost: '~$2.50–$4.00/hr', best: 'Looks first, coverage second', search: 'pyramid glass tube patio heater propane' },
                   { type: 'Wall-mount electric infrared', out: '1,500 W (~5,100 BTU)', zone: 'Directed cone, ~6–8 ft', cost: '~12–25¢/hr', best: 'Covered porches, balconies', search: 'electric infrared patio heater wall mount' },
                   { type: 'Ceiling-mount electric infrared', out: '1,500–2,400 W', zone: 'Even over a table below', cost: '~12–40¢/hr', best: 'Pergolas, outdoor dining rooms', search: 'ceiling mount infrared patio heater 1500w' },
