@@ -1,0 +1,516 @@
+{
+ "_about": "Google Trends, US, past 12 months (weekly), Oct 26, 2026. Each topic compared with an anchor in groups of five through the Trends explore/multiline endpoints in the owner's browser; volume = ratio x anchor. Anchors: brown recluse 383,000/mo (saved Ahrefs; Keyword Planner 100K-1M); black widow spider = 0.4229 x brown recluse (~162,000); bed bug eggs = 0.1149 x black widow (~18,600). Trends counts every search containing the words, so these are cluster volumes, comparable with each other; checks against saved Ahrefs: black widow 162K vs 176K, bed bug eggs 18.6K vs 19K, mealybugs 29K vs 31K, bot flies 34K vs 29K. winterFactor = Nov-Jan average / 12-month average.",
+ "anchors": {
+  "brown recluse": 383000,
+  "black widow spider": 161970,
+  "bed bug eggs": 18610
+ },
+ "values": {
+  "huntsman-spiders": {
+   "term": "huntsman spider",
+   "usMonthly": 80900,
+   "winterFactor": 0.91
+  },
+  "copperheads": {
+   "term": "copperhead snake",
+   "usMonthly": 75900,
+   "winterFactor": 0.34
+  },
+  "black-widow-spiders": {
+   "term": "black widow spider",
+   "usMonthly": 162100,
+   "winterFactor": 0.6
+  },
+  "maggots": {
+   "term": "maggots",
+   "usMonthly": 268700,
+   "winterFactor": 0.5
+  },
+  "yellow-jackets": {
+   "term": "yellow jacket wasp",
+   "usMonthly": 41200,
+   "winterFactor": 0.26,
+   "note": "measured as \"yellow jacket wasp\" to avoid the TV show and clothing; true pest demand is somewhat higher"
+  },
+  "rat-snakes": {
+   "term": "rat snake",
+   "usMonthly": 126400,
+   "winterFactor": 0.56
+  },
+  "garter-snakes": {
+   "term": "garter snake",
+   "usMonthly": 87100,
+   "winterFactor": 0.46
+  },
+  "june-bugs": {
+   "term": "june bug",
+   "usMonthly": 113900,
+   "winterFactor": 0.35
+  },
+  "sand-fleas": {
+   "term": "sand fleas",
+   "usMonthly": 46700,
+   "winterFactor": 0.57
+  },
+  "cicadas": {
+   "term": "cicada",
+   "usMonthly": 302100,
+   "winterFactor": 0.41
+  },
+  "deer-fly-vs-horse-fly": {
+   "term": "horse fly",
+   "usMonthly": 101000,
+   "winterFactor": 0.38
+  },
+  "wasp-nest-identification": {
+   "term": "wasp nest",
+   "usMonthly": 137300,
+   "winterFactor": 0.35
+  },
+  "black-widow-bite": {
+   "term": "black widow bite",
+   "usMonthly": 52800,
+   "winterFactor": 0.6
+  },
+  "stick-bugs": {
+   "term": "stick bug",
+   "usMonthly": 72200,
+   "winterFactor": 0.77
+  },
+  "no-see-ums": {
+   "term": "no see ums",
+   "usMonthly": 40000,
+   "winterFactor": 0.56
+  },
+  "tarantula-hawks": {
+   "term": "tarantula hawk",
+   "usMonthly": 39100,
+   "winterFactor": 0.56
+  },
+  "lovebugs": {
+   "term": "lovebugs",
+   "usMonthly": 28100,
+   "winterFactor": 0.19
+  },
+  "mayflies": {
+   "term": "mayflies",
+   "usMonthly": 27000,
+   "winterFactor": 0.31
+  },
+  "thrips": {
+   "term": "thrips",
+   "usMonthly": 62200,
+   "winterFactor": 0.57
+  },
+  "spotted-lanternfly": {
+   "term": "spotted lanternfly",
+   "usMonthly": 78700,
+   "winterFactor": 0.33
+  },
+  "dust-mites": {
+   "term": "dust mites",
+   "usMonthly": 120900,
+   "winterFactor": 0.94
+  },
+  "hobo-spiders": {
+   "term": "hobo spider",
+   "usMonthly": 27700,
+   "winterFactor": 0.44
+  },
+  "cicada-killers": {
+   "term": "cicada killer",
+   "usMonthly": 47200,
+   "winterFactor": 0.15
+  },
+  "japanese-beetles": {
+   "term": "japanese beetle",
+   "usMonthly": 63900,
+   "winterFactor": 0.68
+  },
+  "wasp-vs-hornet": {
+   "term": "wasp vs hornet",
+   "usMonthly": 24400,
+   "winterFactor": 0.39
+  },
+  "bee-sting-vs-wasp-sting": {
+   "term": "bee sting vs wasp sting",
+   "usMonthly": 2900,
+   "winterFactor": 0.19
+  },
+  "fire-ant-stings": {
+   "term": "fire ant bite",
+   "usMonthly": 18300,
+   "winterFactor": 0.38
+  },
+  "lice-eggs": {
+   "term": "lice eggs",
+   "usMonthly": 58600,
+   "winterFactor": 1.01
+  },
+  "mole-crickets": {
+   "term": "mole crickets",
+   "usMonthly": 6200,
+   "winterFactor": 0.56
+  },
+  "hammerhead-worms": {
+   "term": "hammerhead worm",
+   "usMonthly": 19000,
+   "winterFactor": 0.58
+  },
+  "woodlouse-spiders": {
+   "term": "woodlouse spider",
+   "usMonthly": 10700,
+   "winterFactor": 0.46
+  },
+  "body-lice": {
+   "term": "body lice",
+   "usMonthly": 27800,
+   "winterFactor": 0.83
+  },
+  "mealybugs": {
+   "term": "mealybugs",
+   "usMonthly": 29200,
+   "winterFactor": 0.82
+  },
+  "bot-flies": {
+   "term": "bot fly",
+   "usMonthly": 34300,
+   "winterFactor": 0.89
+  },
+  "kissing-bug-bites": {
+   "term": "kissing bug bite",
+   "usMonthly": 10100,
+   "winterFactor": 0.71
+  },
+  "mite-bites": {
+   "term": "mite bites",
+   "usMonthly": 23300,
+   "winterFactor": 0.78
+  },
+  "tiny-red-bugs": {
+   "term": "tiny red bugs",
+   "usMonthly": 23700,
+   "winterFactor": 0.23
+  },
+  "snake-poop": {
+   "term": "snake poop",
+   "usMonthly": 17400,
+   "winterFactor": 0.83
+  },
+  "grass-spiders": {
+   "term": "grass spider",
+   "usMonthly": 28300,
+   "winterFactor": 0.4
+  },
+  "spider-mites": {
+   "term": "spider mites",
+   "usMonthly": 77600,
+   "winterFactor": 0.61
+  },
+  "fleas-on-humans": {
+   "term": "fleas on humans",
+   "usMonthly": 29900,
+   "winterFactor": 0.79
+  },
+  "rabbit-poop": {
+   "term": "rabbit poop",
+   "usMonthly": 31600,
+   "winterFactor": 0.92
+  },
+  "blister-beetles": {
+   "term": "blister beetle",
+   "usMonthly": 13200,
+   "winterFactor": 0.5
+  },
+  "bugs-in-kitchen": {
+   "term": "bugs in kitchen",
+   "usMonthly": 12000,
+   "winterFactor": 0.66
+  },
+  "what-do-lice-look-like": {
+   "term": "what do lice look like",
+   "usMonthly": 19800,
+   "winterFactor": 0.88
+  },
+  "crab-spiders": {
+   "term": "crab spider",
+   "usMonthly": 90200,
+   "winterFactor": 0.81,
+   "note": "Trends mixes in \"spider crab\" (the sea animal); use the saved Ahrefs volume instead"
+  },
+  "velvet-ants": {
+   "term": "velvet ant",
+   "usMonthly": 25800,
+   "winterFactor": 0.41
+  },
+  "stinging-caterpillars": {
+   "term": "stinging caterpillar",
+   "usMonthly": 1900,
+   "winterFactor": 0.13
+  },
+  "bald-faced-hornets": {
+   "term": "bald faced hornet",
+   "usMonthly": 24300,
+   "winterFactor": 0.21
+  },
+  "wood-roaches": {
+   "term": "wood roach",
+   "usMonthly": 21100,
+   "winterFactor": 0.45
+  },
+  "bird-mites": {
+   "term": "bird mites",
+   "usMonthly": 19200,
+   "winterFactor": 0.4
+  },
+  "phorid-flies": {
+   "term": "phorid flies",
+   "usMonthly": 12100,
+   "winterFactor": 0.5
+  },
+  "copperhead-look-alikes": {
+   "term": "baby copperhead",
+   "usMonthly": 18600,
+   "winterFactor": 0.34
+  },
+  "how-long-do-mosquito-bites-last": {
+   "term": "how long do mosquito bites last",
+   "usMonthly": 3400,
+   "winterFactor": 0
+  },
+  "possum-poop": {
+   "term": "possum poop",
+   "usMonthly": 5500,
+   "winterFactor": 0.69
+  },
+  "snow-fleas": {
+   "term": "snow fleas",
+   "usMonthly": 5300,
+   "winterFactor": 1.74
+  },
+  "fly-bites": {
+   "term": "fly bites",
+   "usMonthly": 27600,
+   "winterFactor": 0.3
+  },
+  "bark-scorpions": {
+   "term": "bark scorpion",
+   "usMonthly": 16100,
+   "winterFactor": 0.62
+  },
+  "sweat-bees": {
+   "term": "sweat bees",
+   "usMonthly": 28000,
+   "winterFactor": 0.12
+  },
+  "european-hornets": {
+   "term": "european hornet",
+   "usMonthly": 13900,
+   "winterFactor": 0.26
+  },
+  "lawn-grubs": {
+   "term": "grubs in lawn",
+   "usMonthly": 12000,
+   "winterFactor": 0.24
+  },
+  "drain-flies-vs-fruit-flies": {
+   "term": "drain flies vs fruit flies",
+   "usMonthly": 2800,
+   "winterFactor": 0.52
+  },
+  "gnat-bites": {
+   "term": "gnat bites",
+   "usMonthly": 8300,
+   "winterFactor": 0.29
+  },
+  "bat-bugs": {
+   "term": "bat bugs",
+   "usMonthly": 10600,
+   "winterFactor": 0.63
+  },
+  "false-widow-spiders": {
+   "term": "false widow spider",
+   "usMonthly": 9500,
+   "winterFactor": 0.58
+  },
+  "tiny-white-bugs": {
+   "term": "tiny white bugs",
+   "usMonthly": 16200,
+   "winterFactor": 0.53
+  },
+  "skunk-smell-in-house": {
+   "term": "skunk smell in house",
+   "usMonthly": 9700,
+   "winterFactor": 0.64
+  },
+  "baby-rats": {
+   "term": "baby rats",
+   "usMonthly": 19500,
+   "winterFactor": 0.87
+  },
+  "stink-bug-eggs": {
+   "term": "stink bug eggs",
+   "usMonthly": 4200,
+   "winterFactor": 0.97
+  },
+  "scorpion-stings": {
+   "term": "scorpion sting",
+   "usMonthly": 20900,
+   "winterFactor": 0.67
+  },
+  "baby-snakes": {
+   "term": "baby snakes",
+   "usMonthly": 36300,
+   "winterFactor": 0.63
+  },
+  "brown-widow-spiders": {
+   "term": "brown widow spider",
+   "usMonthly": 34400,
+   "winterFactor": 0.59
+  },
+  "black-flies": {
+   "term": "black flies",
+   "usMonthly": 74500,
+   "winterFactor": 0.58,
+   "note": "includes small black flies indoors, not only biting black flies"
+  },
+  "squash-bugs": {
+   "term": "squash bugs",
+   "usMonthly": 27500,
+   "winterFactor": 0.18
+  },
+  "western-conifer-seed-bugs": {
+   "term": "western conifer seed bug",
+   "usMonthly": 5100,
+   "winterFactor": 0.98
+  },
+  "scale-insects": {
+   "term": "scale insects",
+   "usMonthly": 9100,
+   "winterFactor": 0.68
+  },
+  "rat-nest": {
+   "term": "rat nest",
+   "usMonthly": 8000,
+   "winterFactor": 0.77
+  },
+  "southern-house-spider": {
+   "term": "southern house spider",
+   "usMonthly": 4500,
+   "winterFactor": 0.42
+  },
+  "chiggers": {
+   "term": "chiggers",
+   "usMonthly": 165500,
+   "winterFactor": 0.33,
+   "note": "includes \"chigger bites\", which belongs to the existing /blog/chigger-bites page; the new page owns the identification part"
+  },
+  "ground-bees": {
+   "term": "ground bees",
+   "usMonthly": 42800,
+   "winterFactor": 0.19
+  },
+  "nits-vs-dandruff": {
+   "term": "nits vs dandruff",
+   "usMonthly": 500,
+   "winterFactor": 1.77
+  },
+  "tomato-hornworms": {
+   "term": "tomato hornworm",
+   "usMonthly": 12500,
+   "winterFactor": 0.25
+  },
+  "bug-bites-that-blister": {
+   "term": "bug bites that blister",
+   "usMonthly": 900,
+   "winterFactor": 0
+  },
+  "fishing-spiders": {
+   "term": "fishing spider",
+   "usMonthly": 30100,
+   "winterFactor": 0.51
+  },
+  "baby-silverfish": {
+   "term": "baby silverfish",
+   "usMonthly": 3200,
+   "winterFactor": 0.59
+  },
+  "pharaoh-ants": {
+   "term": "pharaoh ants",
+   "usMonthly": 6600,
+   "winterFactor": 0.44
+  },
+  "harvestmen": {
+   "term": "harvestman",
+   "usMonthly": 11500,
+   "winterFactor": 0.75
+  },
+  "bugs-in-basement": {
+   "term": "bugs in basement",
+   "usMonthly": 3800,
+   "winterFactor": 0.26
+  },
+  "crickets-in-house": {
+   "term": "crickets in house",
+   "usMonthly": 13400,
+   "winterFactor": 0.66
+  },
+  "spider-beetles": {
+   "term": "spider beetles",
+   "usMonthly": 5300,
+   "winterFactor": 0.49
+  },
+  "odorous-house-ants": {
+   "term": "odorous house ants",
+   "usMonthly": 3800,
+   "winterFactor": 0.18
+  },
+  "cricket-poop": {
+   "term": "cricket poop",
+   "usMonthly": 900,
+   "winterFactor": 0.54
+  },
+  "crazy-ants": {
+   "term": "crazy ants",
+   "usMonthly": 9700,
+   "winterFactor": 0.63
+  },
+  "pavement-ants": {
+   "term": "pavement ants",
+   "usMonthly": 5900,
+   "winterFactor": 0.23
+  },
+  "mosquito-eggs": {
+   "term": "mosquito eggs",
+   "usMonthly": 9500,
+   "winterFactor": 0.45
+  },
+  "groundhogs": {
+   "term": "groundhog hole",
+   "usMonthly": 4200,
+   "winterFactor": 0.2
+  },
+  "bugs-in-carpet": {
+   "term": "bugs in carpet",
+   "usMonthly": 17200,
+   "winterFactor": 0.6
+  },
+  "bugs-that-look-like-stink-bugs": {
+   "term": "bugs that look like stink bugs",
+   "usMonthly": 500,
+   "winterFactor": 0.38
+  },
+  "brown-recluse": {
+   "term": "brown recluse",
+   "usMonthly": 383000,
+   "winterFactor": 0.54,
+   "note": "anchor"
+  },
+  "bed-bug-eggs": {
+   "term": "bed bug eggs",
+   "usMonthly": 18600,
+   "winterFactor": 0.92,
+   "note": "anchor"
+  }
+ }
+}
