@@ -1,0 +1,2376 @@
+{
+ "_about": "Top 100 bite, identification and droppings pages to build, 10 a day for 10 days from Oct 27, 2026 (owner, Oct 26). Demand from saved Ahrefs US volumes (before the Oct 25 cancellation) and Search Console. Score = demand x type weight (bites 1.3, sorters 1.25, look-alikes/life stages/droppings 1.2, species 0.9, X vs Y 0.8) x difficulty (KD<=10 1.0, <=30 0.8, <=50 0.6, more 0.35); garden pests and medical bite searches x0.6. Days 1-6: winter and year-round pages (they earn impressions now); days 7-10: summer pages (they age through winter for the May-August peak). Every page still goes through beat-the-top-3 research, the photo-ID writer brief, an independent fact-check and real PD/CC0/CC BY photos. Overlaps lists live pages to link to and not to cannibalize.",
+ "generated": "2026-10-26",
+ "pages": [
+  {
+   "slug": "huntsman-spiders",
+   "keyword": "huntsman spider",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 160000,
+   "clusterVolume": 160000,
+   "kd": 10,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/house-spiders"
+   ],
+   "variants": [
+    "huntsman spider florida",
+    "huntsman spider in us",
+    "huntsman spider bite",
+    "huntsman spider size"
+   ],
+   "score": 144000,
+   "evidence": "Ahrefs US 160,000, KD 10",
+   "rank": 3,
+   "day": 1,
+   "winterFactor": 0.83
+  },
+  {
+   "slug": "brown-recluse",
+   "keyword": "brown recluse",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 383000,
+   "clusterVolume": 383000,
+   "kd": 31,
+   "gscImpr90d": null,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/brown-recluse-look-alikes",
+    "/blog/brown-recluse-bite"
+   ],
+   "variants": [
+    "what does a brown recluse look like",
+    "brown recluse range",
+    "brown recluse spider",
+    "are there brown recluse in <state>"
+   ],
+   "score": 206820,
+   "evidence": "Ahrefs US 383,000, KD 31",
+   "rank": 1,
+   "day": 1,
+   "winterFactor": 0.5
+  },
+  {
+   "slug": "copperheads",
+   "keyword": "copperhead",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 122000,
+   "clusterVolume": 122000,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "copperhead snake",
+    "copperhead bite",
+    "where do copperheads live"
+   ],
+   "score": 109800,
+   "evidence": "Ahrefs US 122,000, KD 0",
+   "rank": 4,
+   "day": 1,
+   "winterFactor": 0.67
+  },
+  {
+   "slug": "bee-sting-vs-wasp-sting",
+   "keyword": "bee sting vs wasp sting",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 2000,
+   "clusterVolume": 111400,
+   "kd": 4,
+   "gscImpr90d": 22,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/learn/bug-bites"
+   ],
+   "variants": [
+    "bee sting",
+    "wasp sting",
+    "yellow jacket sting",
+    "what does a wasp sting look like"
+   ],
+   "score": 144820,
+   "evidence": "Ahrefs US 111,400, KD 4",
+   "rank": 2,
+   "day": 1,
+   "winterFactor": 0.41
+  },
+  {
+   "slug": "black-widow-spiders",
+   "keyword": "black widow spider",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 176000,
+   "clusterVolume": 176000,
+   "kd": 32,
+   "gscImpr90d": 5,
+   "status": "planned 2026-12-14",
+   "overlaps": [],
+   "variants": [
+    "black widow spider male",
+    "black widow look alike",
+    "northern black widow"
+   ],
+   "score": 95040,
+   "evidence": "Ahrefs US 176,000, KD 32",
+   "rank": 5,
+   "day": 1,
+   "winterFactor": 0.6
+  },
+  {
+   "slug": "maggots",
+   "keyword": "maggots",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 95000,
+   "clusterVolume": 122400,
+   "kd": 21,
+   "gscImpr90d": 108,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/mosquito-larvae-identification"
+   ],
+   "variants": [
+    "where do maggots come from",
+    "maggots in house",
+    "maggots in trash can",
+    "maggots on floor"
+   ],
+   "score": 88128,
+   "evidence": "Ahrefs US 122,400, KD 21",
+   "rank": 6,
+   "day": 1,
+   "winterFactor": 0.49
+  },
+  {
+   "slug": "lice-eggs",
+   "keyword": "what do lice eggs look like",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "year-round",
+   "usVolume": 6900,
+   "clusterVolume": 35900,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "lice eggs",
+    "nits",
+    "what do nits look like"
+   ],
+   "score": 43080,
+   "evidence": "Ahrefs US 35,900, KD 0",
+   "rank": 19,
+   "day": 1,
+   "winterFactor": 0.95
+  },
+  {
+   "slug": "yellow-jackets",
+   "keyword": "yellow jacket",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 74000,
+   "clusterVolume": 90000,
+   "kd": 26,
+   "gscImpr90d": 525,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-ground-wasps-canada",
+    "/blog/best-yellow-jacket-trap-canada"
+   ],
+   "variants": [
+    "yellow jacket wasp",
+    "yellow jacket nest",
+    "yellow jackets in the ground"
+   ],
+   "score": 64800,
+   "evidence": "Ahrefs US 90,000, KD 26",
+   "rank": 11,
+   "day": 1,
+   "winterFactor": 0.62
+  },
+  {
+   "slug": "rat-snakes",
+   "keyword": "rat snake",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 71000,
+   "clusterVolume": 71000,
+   "kd": 4,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "black rat snake",
+    "rat snake vs copperhead",
+    "are rat snakes venomous"
+   ],
+   "score": 63900,
+   "evidence": "Ahrefs US 71,000, KD 4",
+   "rank": 12,
+   "day": 1,
+   "winterFactor": 0.6
+  },
+  {
+   "slug": "garter-snakes",
+   "keyword": "garter snake",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 100000,
+   "clusterVolume": 100000,
+   "kd": 12,
+   "gscImpr90d": 1,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "garter snakes",
+    "are garter snakes poisonous",
+    "baby garter snake",
+    "garter snake bite"
+   ],
+   "score": 72000,
+   "evidence": "Ahrefs US 100,000, KD 12",
+   "rank": 8,
+   "day": 1,
+   "winterFactor": 0.52
+  },
+  {
+   "slug": "june-bugs",
+   "keyword": "june bug",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 98000,
+   "clusterVolume": 98000,
+   "kd": 12,
+   "gscImpr90d": 80,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/june-bugs-ontario"
+   ],
+   "variants": [
+    "june bugs",
+    "green june bug",
+    "are june bugs dangerous",
+    "june bug vs japanese beetle"
+   ],
+   "score": 70560,
+   "evidence": "Ahrefs US 98,000, KD 12",
+   "rank": 9,
+   "day": 2,
+   "winterFactor": 0.48
+  },
+  {
+   "slug": "sand-fleas",
+   "keyword": "sand fleas",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 64000,
+   "clusterVolume": 81000,
+   "kd": 4,
+   "gscImpr90d": 4,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/no-see-um-bites"
+   ],
+   "variants": [
+    "sand flea bites",
+    "sand fly bites",
+    "beach bugs that bite"
+   ],
+   "score": 72900,
+   "evidence": "Ahrefs US 81,000, KD 4",
+   "rank": 7,
+   "day": 2,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "cicadas",
+   "keyword": "cicada",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 166000,
+   "clusterVolume": 171600,
+   "kd": 51,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/what-eats-ticks-and-mosquitoes"
+   ],
+   "variants": [
+    "cicadas",
+    "what do cicadas eat",
+    "cicada vs locust",
+    "cicada season"
+   ],
+   "score": 54054,
+   "evidence": "Ahrefs US 171,600, KD 51",
+   "rank": 14,
+   "day": 2,
+   "winterFactor": 0.6
+  },
+  {
+   "slug": "deer-fly-vs-horse-fly",
+   "keyword": "horse fly",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 73000,
+   "clusterVolume": 94000,
+   "kd": 20,
+   "gscImpr90d": 5394,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/deer-flies-horse-flies-ontario",
+    "/blog/horse-fly-and-deer-fly-bite-treatment"
+   ],
+   "variants": [
+    "horse flies",
+    "horse fly bite",
+    "deer fly vs horse fly",
+    "how to get rid of horse flies"
+   ],
+   "score": 67680,
+   "evidence": "Ahrefs US 94,000, KD 20",
+   "rank": 10,
+   "day": 2,
+   "winterFactor": 0.44
+  },
+  {
+   "slug": "wasp-nest-identification",
+   "keyword": "wasp nest",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 45000,
+   "clusterVolume": 82400,
+   "kd": null,
+   "gscImpr90d": 3637,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-wasps-canada",
+    "/blog/how-to-get-rid-of-ground-wasps-canada"
+   ],
+   "variants": [
+    "what does a wasp nest look like",
+    "hornet nest",
+    "yellow jacket nest",
+    "wasp nest vs hornet nest"
+   ],
+   "score": 63036,
+   "evidence": "Ahrefs US 82,400",
+   "rank": 13,
+   "day": 2,
+   "winterFactor": 0.4
+  },
+  {
+   "slug": "black-widow-bite",
+   "keyword": "black widow bite",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 63350,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 11,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/what-does-a-spider-bite-look-like"
+   ],
+   "variants": [
+    "black widow bite symptoms",
+    "black widow bite pictures",
+    "black widow bite treatment"
+   ],
+   "score": 42001,
+   "evidence": "Ahrefs US 63,350",
+   "rank": 21,
+   "day": 2,
+   "winterFactor": 0.59
+  },
+  {
+   "slug": "stick-bugs",
+   "keyword": "stick bug",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 54000,
+   "clusterVolume": 56200,
+   "kd": 2,
+   "gscImpr90d": 2,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "walking stick",
+    "stick insect",
+    "what do stick bugs eat",
+    "are stick bugs poisonous"
+   ],
+   "score": 50580,
+   "evidence": "Ahrefs US 56,200, KD 2",
+   "rank": 16,
+   "day": 2,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "fire-ant-stings",
+   "keyword": "fire ant bite",
+   "type": "Bites & stings",
+   "season": "year-round",
+   "usVolume": 19000,
+   "clusterVolume": 19000,
+   "kd": 7,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/red-ants",
+    "/blog/do-ants-bite"
+   ],
+   "variants": [
+    "fire ant sting",
+    "fire ant bites pictures",
+    "fire ant bite treatment"
+   ],
+   "score": 24700,
+   "evidence": "Ahrefs US 19,000, KD 7",
+   "rank": 30,
+   "day": 2,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "no-see-ums",
+   "keyword": "no see ums",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 42000,
+   "clusterVolume": 42000,
+   "kd": 7,
+   "gscImpr90d": 12018,
+   "status": "planned 2026-12-07",
+   "overlaps": [
+    "/blog/no-see-ums-biting-midges-ontario",
+    "/blog/no-see-um-bites"
+   ],
+   "variants": [
+    "noseeums",
+    "biting midges",
+    "no see ums in house"
+   ],
+   "score": 37800,
+   "evidence": "Ahrefs US 42,000, KD 7",
+   "rank": 22,
+   "day": 2,
+   "winterFactor": 0.56
+  },
+  {
+   "slug": "tarantula-hawks",
+   "keyword": "tarantula hawk",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 49000,
+   "clusterVolume": 49000,
+   "kd": 6,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "tarantula hawk wasp",
+    "tarantula hawk sting"
+   ],
+   "score": 44100,
+   "evidence": "Ahrefs US 49,000, KD 6",
+   "rank": 17,
+   "day": 2,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "lovebugs",
+   "keyword": "love bugs",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 57000,
+   "clusterVolume": 57000,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "lovebug season",
+    "love bugs florida",
+    "love bugs on cars"
+   ],
+   "score": 43605,
+   "evidence": "Ahrefs US 57,000",
+   "rank": 18,
+   "day": 3,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "mayflies",
+   "keyword": "mayflies",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 47000,
+   "clusterVolume": 47000,
+   "kd": 10,
+   "gscImpr90d": 7,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "fish flies",
+    "mayfly swarm",
+    "mayfly season"
+   ],
+   "score": 42300,
+   "evidence": "Ahrefs US 47,000, KD 10",
+   "rank": 20,
+   "day": 3,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "thrips",
+   "keyword": "thrips",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 55000,
+   "clusterVolume": 55000,
+   "kd": 22,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/houseplant-bugs"
+   ],
+   "variants": [
+    "thrips on plants",
+    "how to get rid of thrips",
+    "thrips on houseplants",
+    "thrips bites"
+   ],
+   "score": 23760,
+   "evidence": "Ahrefs US 55,000, KD 22",
+   "rank": 31,
+   "day": 3,
+   "winterFactor": 0.68
+  },
+  {
+   "slug": "spotted-lanternfly",
+   "keyword": "spotted lanternfly",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 99000,
+   "clusterVolume": 99000,
+   "kd": 50,
+   "gscImpr90d": 5,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "spotted lanternfly nymph",
+    "spotted lanternfly eggs",
+    "spotted lanternfly map"
+   ],
+   "score": 53460,
+   "evidence": "Ahrefs US 99,000, KD 50",
+   "rank": 15,
+   "day": 3,
+   "winterFactor": 0.3
+  },
+  {
+   "slug": "dust-mites",
+   "keyword": "dust mites",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 90000,
+   "clusterVolume": 90000,
+   "kd": 71,
+   "gscImpr90d": 23,
+   "status": "taxonomy, unscheduled",
+   "overlaps": [
+    "/blog/best-air-purifier-for-dust-mites-canada"
+   ],
+   "variants": [
+    "dust mite bites",
+    "dust mites in bed",
+    "dust mites vs bed bugs"
+   ],
+   "score": 17010,
+   "evidence": "Ahrefs US 90,000, KD 71",
+   "rank": 38,
+   "day": 3,
+   "winterFactor": 0.93
+  },
+  {
+   "slug": "stinging-caterpillars",
+   "keyword": "fuzzy caterpillar",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 9100,
+   "clusterVolume": 36350,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/learn/bug-bites"
+   ],
+   "variants": [
+    "stinging caterpillars",
+    "puss caterpillar",
+    "is this fuzzy caterpillar poisonous",
+    "woolly bear caterpillar"
+   ],
+   "score": 32715,
+   "evidence": "Ahrefs US 36,350, KD 0",
+   "rank": 25,
+   "day": 3,
+   "winterFactor": 0.48
+  },
+  {
+   "slug": "bed-bug-eggs",
+   "keyword": "bed bug eggs",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "year-round",
+   "usVolume": 19000,
+   "clusterVolume": 19000,
+   "kd": 17,
+   "gscImpr90d": 67,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/what-do-bed-bugs-look-like",
+    "/blog/how-to-kill-bed-bug-eggs-canada"
+   ],
+   "variants": [
+    "what do bed bug eggs look like",
+    "bed bugs eggs",
+    "bed bug eggs on mattress",
+    "bed bug egg shells"
+   ],
+   "score": 18240,
+   "evidence": "Ahrefs US 19,000, KD 17",
+   "rank": 37,
+   "day": 3,
+   "winterFactor": 0.83
+  },
+  {
+   "slug": "mole-crickets",
+   "keyword": "mole crickets",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 26425,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "planned 2027-01-04",
+   "overlaps": [
+    "/blog/lawn-pest-control"
+   ],
+   "variants": [
+    "mole cricket damage",
+    "mole cricket holes",
+    "mole cricket sound"
+   ],
+   "score": 20215,
+   "evidence": "Ahrefs US 26,425",
+   "rank": 33,
+   "day": 3,
+   "winterFactor": 0.74
+  },
+  {
+   "slug": "hammerhead-worms",
+   "keyword": "hammerhead worm",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 28000,
+   "clusterVolume": 28000,
+   "kd": 7,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "hammerhead worms",
+    "hammerhead flatworm",
+    "are hammerhead worms poisonous",
+    "how to kill hammerhead worms"
+   ],
+   "score": 25200,
+   "evidence": "Ahrefs US 28,000, KD 7",
+   "rank": 29,
+   "day": 3,
+   "winterFactor": 0.59
+  },
+  {
+   "slug": "hobo-spiders",
+   "keyword": "hobo spider",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 44000,
+   "clusterVolume": 44000,
+   "kd": 13,
+   "gscImpr90d": 3,
+   "status": "planned 2026-12-21",
+   "overlaps": [
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "variants": [
+    "hobo spider bite",
+    "hobo spider vs wolf spider",
+    "hobo spider vs brown recluse"
+   ],
+   "score": 31680,
+   "evidence": "Ahrefs US 44,000, KD 13",
+   "rank": 26,
+   "day": 3,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "fleas-on-humans",
+   "keyword": "fleas on humans",
+   "type": "Droppings & signs",
+   "season": "year-round",
+   "usVolume": 4800,
+   "clusterVolume": 13100,
+   "kd": 8,
+   "gscImpr90d": 39,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/what-do-fleas-look-like",
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/flea-bites-on-humans"
+   ],
+   "variants": [
+    "can fleas live on humans",
+    "do fleas live on humans",
+    "fleas in hair",
+    "black fleas on humans"
+   ],
+   "score": 15720,
+   "evidence": "Ahrefs US 13,100, KD 8",
+   "rank": 43,
+   "day": 4,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "woodlouse-spiders",
+   "keyword": "woodlouse spider",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 17000,
+   "clusterVolume": 17000,
+   "kd": 1,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-21",
+   "overlaps": [],
+   "variants": [
+    "woodlouse spider bite",
+    "woodlouse spider vs brown recluse",
+    "woodlouse hunter"
+   ],
+   "score": 15300,
+   "evidence": "Ahrefs US 17,000, KD 1",
+   "rank": 46,
+   "day": 4,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "body-lice",
+   "keyword": "body lice",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 33250,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "body lice vs bed bugs",
+    "body lice pictures"
+   ],
+   "score": 15262,
+   "evidence": "Ahrefs US 33,250",
+   "rank": 47,
+   "day": 4,
+   "winterFactor": 0.89
+  },
+  {
+   "slug": "lawn-grubs",
+   "keyword": "grubs in lawn",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 7200,
+   "clusterVolume": 34900,
+   "kd": 3,
+   "gscImpr90d": 2,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/lawn-pest-control",
+    "/blog/holes-in-yard"
+   ],
+   "variants": [
+    "grubs",
+    "grub worms",
+    "lawn grubs",
+    "grub damage"
+   ],
+   "score": 18846,
+   "evidence": "Ahrefs US 34,900, KD 3",
+   "rank": 36,
+   "day": 4,
+   "winterFactor": 0.7
+  },
+  {
+   "slug": "mealybugs",
+   "keyword": "mealybugs",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 31000,
+   "clusterVolume": 31000,
+   "kd": 1,
+   "gscImpr90d": 1,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/houseplant-bugs"
+   ],
+   "variants": [
+    "mealybug",
+    "mealy bugs",
+    "mealybugs on plants",
+    "how to get rid of mealybugs"
+   ],
+   "score": 16740,
+   "evidence": "Ahrefs US 31,000, KD 1",
+   "rank": 41,
+   "day": 4,
+   "winterFactor": 0.76
+  },
+  {
+   "slug": "bot-flies",
+   "keyword": "bot fly",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 29000,
+   "clusterVolume": 29000,
+   "kd": 5,
+   "gscImpr90d": 5,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "botfly larva",
+    "bot fly on dog",
+    "bot fly in human"
+   ],
+   "score": 26100,
+   "evidence": "Ahrefs US 29,000, KD 5",
+   "rank": 28,
+   "day": 4,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "snake-poop",
+   "keyword": "snake poop",
+   "type": "Droppings & signs",
+   "season": "winter",
+   "usVolume": 11000,
+   "clusterVolume": 11000,
+   "kd": 1,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/animal-droppings"
+   ],
+   "variants": [
+    "what does snake poop look like",
+    "snake droppings",
+    "snake poop vs lizard poop"
+   ],
+   "score": 13200,
+   "evidence": "Ahrefs US 11,000, KD 1",
+   "rank": 51,
+   "day": 4,
+   "winterFactor": 0.85
+  },
+  {
+   "slug": "grass-spiders",
+   "keyword": "grass spider",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 25000,
+   "clusterVolume": 25000,
+   "kd": 1,
+   "gscImpr90d": 5,
+   "status": "planned 2026-12-21",
+   "overlaps": [
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "variants": [
+    "funnel weaver spider",
+    "grass spider vs wolf spider",
+    "grass spider bite"
+   ],
+   "score": 22500,
+   "evidence": "Ahrefs US 25,000, KD 1",
+   "rank": 32,
+   "day": 4,
+   "winterFactor": 0.49
+  },
+  {
+   "slug": "spider-mites",
+   "keyword": "spider mites",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 36000,
+   "clusterVolume": 36000,
+   "kd": 15,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/red-ticks-and-clover-mites"
+   ],
+   "variants": [
+    "spider mites on plants",
+    "spider mites on houseplants",
+    "spider mites treatment"
+   ],
+   "score": 15552,
+   "evidence": "Ahrefs US 36,000, KD 15",
+   "rank": 44,
+   "day": 4,
+   "winterFactor": 0.67
+  },
+  {
+   "slug": "wasp-vs-hornet",
+   "keyword": "wasp vs hornet",
+   "type": "Identification: X vs Y",
+   "season": "summer",
+   "usVolume": 14000,
+   "clusterVolume": 42200,
+   "kd": null,
+   "gscImpr90d": 23,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-wasps-canada"
+   ],
+   "variants": [
+    "bee vs wasp",
+    "hornet vs yellow jacket",
+    "wasp vs yellow jacket",
+    "types of wasps"
+   ],
+   "score": 28696,
+   "evidence": "Ahrefs US 42,200",
+   "rank": 27,
+   "day": 4,
+   "winterFactor": 0.36
+  },
+  {
+   "slug": "rabbit-poop",
+   "keyword": "rabbit poop",
+   "type": "Droppings & signs",
+   "season": "year-round",
+   "usVolume": 9400,
+   "clusterVolume": 9400,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/animal-droppings"
+   ],
+   "variants": [
+    "rabbit droppings",
+    "what does rabbit poop look like",
+    "rabbit poop in yard"
+   ],
+   "score": 11280,
+   "evidence": "Ahrefs US 9,400, KD 0",
+   "rank": 56,
+   "day": 5,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "blister-beetles",
+   "keyword": "blister beetle",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 15225,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "blister beetle bite",
+    "blister beetle rash",
+    "blister beetle in hay"
+   ],
+   "score": 16824,
+   "evidence": "Ahrefs US 15,225",
+   "rank": 40,
+   "day": 5,
+   "winterFactor": 0.59
+  },
+  {
+   "slug": "bugs-in-kitchen",
+   "keyword": "bugs in kitchen",
+   "type": "Identification: what is this bug",
+   "season": "year-round",
+   "usVolume": 12775,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 8,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/pantry-pests",
+    "/blog/tiny-brown-bugs"
+   ],
+   "variants": [
+    "tiny bugs in kitchen",
+    "little bugs in kitchen",
+    "bugs in kitchen cabinets"
+   ],
+   "score": 13573,
+   "evidence": "Ahrefs US 12,775",
+   "rank": 50,
+   "day": 5,
+   "winterFactor": 0.7
+  },
+  {
+   "slug": "what-do-lice-look-like",
+   "keyword": "what do lice look like",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 16000,
+   "clusterVolume": 16000,
+   "kd": 38,
+   "gscImpr90d": 5,
+   "status": "not planned (research files)",
+   "overlaps": [],
+   "variants": [
+    "head lice pictures",
+    "what does lice look like",
+    "what does head lice look like"
+   ],
+   "score": 8640,
+   "evidence": "Ahrefs US 16,000, KD 38",
+   "rank": 59,
+   "day": 5,
+   "winterFactor": 0.99
+  },
+  {
+   "slug": "crab-spiders",
+   "keyword": "crab spider",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 21000,
+   "clusterVolume": 21000,
+   "kd": 7,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/house-spiders"
+   ],
+   "variants": [
+    "crab spiders",
+    "white crab spider",
+    "goldenrod crab spider",
+    "flower crab spider"
+   ],
+   "score": 18900,
+   "evidence": "Ahrefs US 21,000, KD 7",
+   "rank": 34,
+   "day": 5,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "cicada-killers",
+   "keyword": "cicada killer",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 47000,
+   "clusterVolume": 47000,
+   "kd": 15,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-ground-wasps-canada"
+   ],
+   "variants": [
+    "cicada killer wasp",
+    "cicada killer sting",
+    "cicada killer holes"
+   ],
+   "score": 33840,
+   "evidence": "Ahrefs US 47,000, KD 15",
+   "rank": 24,
+   "day": 5,
+   "winterFactor": 0.25
+  },
+  {
+   "slug": "velvet-ants",
+   "keyword": "velvet ant",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 21000,
+   "clusterVolume": 21000,
+   "kd": 3,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "cow killer",
+    "velvet ant sting"
+   ],
+   "score": 18900,
+   "evidence": "Ahrefs US 21,000, KD 3",
+   "rank": 35,
+   "day": 5,
+   "winterFactor": 0.44
+  },
+  {
+   "slug": "japanese-beetles",
+   "keyword": "japanese beetle",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 49000,
+   "clusterVolume": 49000,
+   "kd": 43,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/june-bugs-ontario"
+   ],
+   "variants": [
+    "japanese beetle traps",
+    "japanese beetle grub",
+    "japanese beetle vs june bug"
+   ],
+   "score": 15876,
+   "evidence": "Ahrefs US 49,000, KD 43",
+   "rank": 42,
+   "day": 5,
+   "winterFactor": 0.49
+  },
+  {
+   "slug": "bald-faced-hornets",
+   "keyword": "bald faced hornet",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 39000,
+   "clusterVolume": 39000,
+   "kd": 1,
+   "gscImpr90d": 3,
+   "status": "planned 2026-12-14",
+   "overlaps": [],
+   "variants": [
+    "bald faced hornet nest",
+    "bald faced hornet sting",
+    "bald faced hornet vs yellow jacket"
+   ],
+   "score": 35100,
+   "evidence": "Ahrefs US 39,000, KD 1",
+   "rank": 23,
+   "day": 5,
+   "winterFactor": 0.22
+  },
+  {
+   "slug": "wood-roaches",
+   "keyword": "wood roach",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 17000,
+   "clusterVolume": 17000,
+   "kd": 0,
+   "gscImpr90d": 28,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/learn/cockroaches",
+    "/blog/bugs-that-look-like-cockroaches"
+   ],
+   "variants": [
+    "wood roaches",
+    "wood cockroach",
+    "wood roach vs cockroach",
+    "wood roach vs german cockroach"
+   ],
+   "score": 15300,
+   "evidence": "Ahrefs US 17,000, KD 0",
+   "rank": 45,
+   "day": 5,
+   "winterFactor": 0.49
+  },
+  {
+   "slug": "bird-mites",
+   "keyword": "bird mites",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 13000,
+   "clusterVolume": 13000,
+   "kd": 7,
+   "gscImpr90d": null,
+   "status": "planned 2027-02-01",
+   "overlaps": [],
+   "variants": [
+    "bird mites on humans",
+    "bird mite bites",
+    "bird mites in house"
+   ],
+   "score": 16900,
+   "evidence": "Ahrefs US 13,000, KD 7",
+   "rank": 39,
+   "day": 6,
+   "winterFactor": 0.44
+  },
+  {
+   "slug": "phorid-flies",
+   "keyword": "phorid flies",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 8800,
+   "clusterVolume": 8800,
+   "kd": 3,
+   "gscImpr90d": 2,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/flies-in-house",
+    "/blog/how-to-get-rid-of-gnats"
+   ],
+   "variants": [
+    "phorid fly",
+    "humpback flies",
+    "coffin flies",
+    "phorid flies vs fruit flies"
+   ],
+   "score": 7920,
+   "evidence": "Ahrefs US 8,800, KD 3",
+   "rank": 62,
+   "day": 6,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "copperhead-look-alikes",
+   "keyword": "baby copperhead",
+   "type": "Identification: X vs Y",
+   "season": "summer",
+   "usVolume": 15000,
+   "clusterVolume": 18700,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "planned 2027-02-01",
+   "overlaps": [],
+   "variants": [
+    "snakes that look like copperheads",
+    "copperhead vs corn snake",
+    "copperhead vs rat snake",
+    "water moccasin vs water snake"
+   ],
+   "score": 14960,
+   "evidence": "Ahrefs US 18,700, KD 0",
+   "rank": 49,
+   "day": 6,
+   "winterFactor": 0.46
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": 35701,
+   "slug": "how-long-do-mosquito-bites-last",
+   "keyword": "how long do mosquito bites last",
+   "type": "Bites & stings",
+   "season": "summer",
+   "evidence": "Search Console: 35,701 impressions in 90 days (plus \"mosquito bite healing stages\" 784), shown on the general itch page at about position 7",
+   "score": 15000,
+   "overlaps": [
+    "/blog/why-do-mosquito-bites-itch",
+    "/blog/mosquito-bite-treatment-relief"
+   ],
+   "rank": 48,
+   "day": 6,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "possum-poop",
+   "keyword": "possum poop",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 9400,
+   "clusterVolume": 9400,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "planned 2026-10-20",
+   "overlaps": [
+    "/blog/animal-droppings",
+    "/blog/raccoon-poop"
+   ],
+   "variants": [
+    "opossum poop",
+    "possum droppings",
+    "possum poop vs raccoon poop",
+    "is possum poop dangerous"
+   ],
+   "score": 8460,
+   "evidence": "Ahrefs US 9,400, KD 0",
+   "rank": 60,
+   "day": 6,
+   "winterFactor": 0.78
+  },
+  {
+   "slug": "snow-fleas",
+   "keyword": "snow fleas",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 8200,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/springtails"
+   ],
+   "variants": [
+    "snow flea",
+    "springtails on snow",
+    "snow flea infestation",
+    "black specks on snow"
+   ],
+   "score": 6273,
+   "evidence": "Ahrefs US 8,200",
+   "rank": 70,
+   "day": 6,
+   "winterFactor": 1
+  },
+  {
+   "slug": "bark-scorpions",
+   "keyword": "bark scorpion",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 9400,
+   "clusterVolume": 9400,
+   "kd": 17,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "arizona bark scorpion",
+    "striped bark scorpion",
+    "bark scorpion sting"
+   ],
+   "score": 6768,
+   "evidence": "Ahrefs US 9,400, KD 17",
+   "rank": 68,
+   "day": 6,
+   "winterFactor": 0.86
+  },
+  {
+   "slug": "sweat-bees",
+   "keyword": "sweat bees",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 14000,
+   "clusterVolume": 14000,
+   "kd": 4,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "sweat bee sting",
+    "sweat bees vs hoverflies",
+    "sweat bees in pool"
+   ],
+   "score": 12600,
+   "evidence": "Ahrefs US 14,000, KD 4",
+   "rank": 53,
+   "day": 6,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "european-hornets",
+   "keyword": "european hornet",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 17000,
+   "clusterVolume": 17000,
+   "kd": 18,
+   "gscImpr90d": 11,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "european hornet nest",
+    "european hornet vs cicada killer",
+    "european hornet sting"
+   ],
+   "score": 12240,
+   "evidence": "Ahrefs US 17,000, KD 18",
+   "rank": 54,
+   "day": 6,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "drain-flies-vs-fruit-flies",
+   "keyword": "drain flies vs fruit flies",
+   "type": "Identification: X vs Y",
+   "season": "year-round",
+   "usVolume": 6100,
+   "clusterVolume": 8400,
+   "kd": null,
+   "gscImpr90d": 2,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-gnats",
+    "/blog/how-to-get-rid-of-drain-flies-canada"
+   ],
+   "variants": [
+    "fruit fly vs drain fly",
+    "drain fly vs fruit fly",
+    "drain flies vs gnats",
+    "fungus gnats vs drain flies"
+   ],
+   "score": 5712,
+   "evidence": "Ahrefs US 8,400",
+   "rank": 73,
+   "day": 6,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "gnat-bites",
+   "keyword": "gnat bites",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 11550,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 20,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/no-see-um-bites"
+   ],
+   "variants": [
+    "biting gnats",
+    "gnat bites on humans",
+    "buffalo gnat bites"
+   ],
+   "score": 12763,
+   "evidence": "Ahrefs US 11,550",
+   "rank": 52,
+   "day": 7,
+   "winterFactor": 0.39
+  },
+  {
+   "slug": "bat-bugs",
+   "keyword": "bat bugs",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 7600,
+   "clusterVolume": 7600,
+   "kd": 2,
+   "gscImpr90d": 18,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/bugs-that-look-like-bed-bugs",
+    "/blog/bugs-that-look-like-bed-bugs-canada",
+    "/blog/bugs-that-look-like-ticks"
+   ],
+   "variants": [
+    "bat bug vs bed bug",
+    "swallow bugs",
+    "bat bug bites"
+   ],
+   "score": 6840,
+   "evidence": "Ahrefs US 7,600, KD 2",
+   "rank": 67,
+   "day": 7,
+   "winterFactor": 0.72
+  },
+  {
+   "slug": "false-widow-spiders",
+   "keyword": "false widow spider",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 5800,
+   "clusterVolume": 5800,
+   "kd": 7,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-21",
+   "overlaps": [],
+   "variants": [
+    "steatoda",
+    "false widow vs black widow",
+    "false widow bite"
+   ],
+   "score": 5220,
+   "evidence": "Ahrefs US 5,800, KD 7",
+   "rank": 75,
+   "day": 7,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "tiny-white-bugs",
+   "keyword": "tiny white bugs",
+   "type": "Identification: what is this bug",
+   "season": "summer",
+   "usVolume": 3300,
+   "clusterVolume": 5900,
+   "kd": 0,
+   "gscImpr90d": 3,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/booklice",
+    "/blog/houseplant-bugs",
+    "/blog/tiny-black-bugs"
+   ],
+   "variants": [
+    "tiny white bugs in house",
+    "white bugs",
+    "tiny white bugs in bathroom",
+    "tiny white bugs on plants"
+   ],
+   "score": 7375,
+   "evidence": "Ahrefs US 5,900, KD 0",
+   "rank": 63,
+   "day": 7,
+   "winterFactor": 0.58
+  },
+  {
+   "slug": "skunk-smell-in-house",
+   "keyword": "skunk smell in house",
+   "type": "Droppings & signs",
+   "season": "winter",
+   "usVolume": 3700,
+   "clusterVolume": 4150,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/raccoon-and-skunk-proofing-under-a-deck-canada"
+   ],
+   "variants": [
+    "house smells like skunk",
+    "how to get skunk smell out of house",
+    "skunk smell in house at night",
+    "skunk under house"
+   ],
+   "score": 4980,
+   "evidence": "Ahrefs US 4,150, KD 0",
+   "rank": 78,
+   "day": 7,
+   "winterFactor": 0.84
+  },
+  {
+   "slug": "baby-rats",
+   "keyword": "baby rats",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "year-round",
+   "usVolume": 4200,
+   "clusterVolume": 4200,
+   "kd": 1,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/baby-mice",
+    "/blog/rat-vs-mouse"
+   ],
+   "variants": [
+    "baby rat",
+    "what do baby rats look like",
+    "baby rat vs baby mouse",
+    "baby rats in house"
+   ],
+   "score": 5040,
+   "evidence": "Ahrefs US 4,200, KD 1",
+   "rank": 77,
+   "day": 7,
+   "winterFactor": 0.82
+  },
+  {
+   "slug": "stink-bug-eggs",
+   "keyword": "stink bug eggs",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "summer",
+   "usVolume": 9000,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "variants": [
+    "what do stink bug eggs look like",
+    "stink bug nymphs",
+    "baby stink bugs",
+    "stink bug nymph"
+   ],
+   "score": 9180,
+   "evidence": "Ahrefs US 9,000",
+   "rank": 57,
+   "day": 7,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "scorpion-stings",
+   "keyword": "scorpion sting",
+   "type": "Bites & stings",
+   "season": "year-round",
+   "usVolume": 8800,
+   "clusterVolume": 8800,
+   "kd": 17,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-14",
+   "overlaps": [
+    "/blog/camel-spiders"
+   ],
+   "variants": [
+    "scorpion sting symptoms",
+    "scorpion sting treatment",
+    "scorpion sting in dogs"
+   ],
+   "score": 5491,
+   "evidence": "Ahrefs US 8,800, KD 17",
+   "rank": 74,
+   "day": 7,
+   "winterFactor": 0.75
+  },
+  {
+   "slug": "baby-snakes",
+   "keyword": "baby snakes",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "year-round",
+   "usVolume": 4900,
+   "clusterVolume": 4900,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/animal-droppings",
+    "/blog/holes-in-yard"
+   ],
+   "variants": [
+    "baby rattlesnake",
+    "baby rat snake",
+    "baby garter snake",
+    "baby snake identification"
+   ],
+   "score": 5880,
+   "evidence": "Ahrefs US 4,900, KD 0",
+   "rank": 72,
+   "day": 7,
+   "winterFactor": 0.69
+  },
+  {
+   "slug": "brown-widow-spiders",
+   "keyword": "brown widow spider",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 10000,
+   "clusterVolume": 10000,
+   "kd": 1,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-21",
+   "overlaps": [],
+   "variants": [
+    "brown widow vs black widow",
+    "brown widow egg sac",
+    "brown widow bite"
+   ],
+   "score": 9000,
+   "evidence": "Ahrefs US 10,000, KD 1",
+   "rank": 58,
+   "day": 7,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "black-flies",
+   "keyword": "black flies",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 6800,
+   "clusterVolume": 6800,
+   "kd": 8,
+   "gscImpr90d": 1531,
+   "status": "planned 2026-12-07",
+   "overlaps": [
+    "/blog/black-flies-ontario-when-they-come-out",
+    "/blog/black-flies-mississauga-toronto-gta-2026"
+   ],
+   "variants": [
+    "buffalo gnats",
+    "black fly bites",
+    "black fly season"
+   ],
+   "score": 6120,
+   "evidence": "Ahrefs US 6,800, KD 8",
+   "rank": 71,
+   "day": 8,
+   "winterFactor": 0.63
+  },
+  {
+   "slug": "squash-bugs",
+   "keyword": "squash bugs",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 15000,
+   "clusterVolume": 15000,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/learn/natural-garden-pest-control"
+   ],
+   "variants": [
+    "squash bug",
+    "squash bug eggs",
+    "how to get rid of squash bugs"
+   ],
+   "score": 8100,
+   "evidence": "Ahrefs US 15,000, KD 0",
+   "rank": 61,
+   "day": 8,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "western-conifer-seed-bugs",
+   "keyword": "western conifer seed bug",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 5950,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 1,
+   "status": "planned 2026-12-28",
+   "overlaps": [],
+   "variants": [
+    "western conifer seed bug vs kissing bug",
+    "leaf footed bug in house",
+    "conifer seed bug bite"
+   ],
+   "score": 4552,
+   "evidence": "Ahrefs US 5,950",
+   "rank": 82,
+   "day": 8,
+   "winterFactor": 0.8
+  },
+  {
+   "slug": "bugs-in-hair",
+   "keyword": "bugs in hair not lice",
+   "type": "Identification: look-alikes",
+   "season": "year-round",
+   "usVolume": 700,
+   "clusterVolume": 3700,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/what-do-fleas-look-like"
+   ],
+   "variants": [
+    "bugs in hair",
+    "black bugs in hair not lice",
+    "bugs that look like lice"
+   ],
+   "score": 4440,
+   "evidence": "Ahrefs US 3,700, KD 0",
+   "rank": 83,
+   "day": 8,
+   "winterFactor": 0.82
+  },
+  {
+   "slug": "scale-insects",
+   "keyword": "scale insects",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 9100,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/houseplant-bugs"
+   ],
+   "variants": [
+    "scale on plants",
+    "scale bugs",
+    "how to get rid of scale on plants"
+   ],
+   "score": 4177,
+   "evidence": "Ahrefs US 9,100",
+   "rank": 85,
+   "day": 8,
+   "winterFactor": 0.87
+  },
+  {
+   "slug": "rat-nest",
+   "keyword": "rat nest",
+   "type": "Droppings & signs",
+   "season": "winter",
+   "usVolume": 3500,
+   "clusterVolume": 3500,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/rat-droppings",
+    "/blog/animals-in-attic"
+   ],
+   "variants": [
+    "what does a rat nest look like",
+    "where do rats nest",
+    "rat nest in yard",
+    "rat nest in attic"
+   ],
+   "score": 4200,
+   "evidence": "Ahrefs US 3,500, KD 0",
+   "rank": 84,
+   "day": 8,
+   "winterFactor": 0.85
+  },
+  {
+   "slug": "southern-house-spider",
+   "keyword": "southern house spider",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 4900,
+   "clusterVolume": 4900,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/house-spiders",
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "variants": [
+    "southern house spider vs brown recluse",
+    "crevice weaver spider"
+   ],
+   "score": 3749,
+   "evidence": "Ahrefs US 4,900",
+   "rank": 87,
+   "day": 8,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "chiggers",
+   "keyword": "what do chiggers look like",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 7400,
+   "clusterVolume": 10200,
+   "kd": 11,
+   "gscImpr90d": 5860,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/chigger-bites"
+   ],
+   "variants": [
+    "how big are chiggers",
+    "chigger larvae in skin",
+    "where do chiggers live",
+    "what does a chigger look like"
+   ],
+   "score": 7344,
+   "evidence": "Ahrefs US 10,200, KD 11",
+   "rank": 64,
+   "day": 8,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "ground-bees",
+   "keyword": "ground bees",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 13000,
+   "clusterVolume": 13000,
+   "kd": 0,
+   "gscImpr90d": 23,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-ground-wasps-canada"
+   ],
+   "variants": [
+    "mining bees",
+    "ground bees vs yellow jackets",
+    "ground bee holes"
+   ],
+   "score": 11700,
+   "evidence": "Ahrefs US 13,000, KD 0",
+   "rank": 55,
+   "day": 8,
+   "winterFactor": 0.28
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "nits-vs-dandruff",
+   "keyword": "nits vs dandruff",
+   "type": "Identification: X vs Y",
+   "season": "winter",
+   "evidence": "Ahrefs US 2,300, KD 0",
+   "score": 1840,
+   "overlaps": [],
+   "rank": 93,
+   "day": 8,
+   "winterFactor": 1.77
+  },
+  {
+   "slug": "tomato-hornworms",
+   "keyword": "tomato hornworm",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 13000,
+   "clusterVolume": 13000,
+   "kd": 8,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/learn/natural-garden-pest-control"
+   ],
+   "variants": [
+    "hornworm",
+    "tomato hornworms",
+    "tobacco hornworm"
+   ],
+   "score": 7020,
+   "evidence": "Ahrefs US 13,000, KD 8",
+   "rank": 65,
+   "day": 9,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "bug-bites-that-blister",
+   "keyword": "bug bites that blister",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 6200,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 42,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/learn/bug-bites"
+   ],
+   "variants": [
+    "bites that blister",
+    "blister bug bite",
+    "insect bite blister"
+   ],
+   "score": 6851,
+   "evidence": "Ahrefs US 6,200",
+   "rank": 66,
+   "day": 9,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "mouse-nest",
+   "keyword": "what does a mouse nest look like",
+   "type": "Identification: species",
+   "season": "winter",
+   "usVolume": 600,
+   "clusterVolume": 4000,
+   "kd": 0,
+   "gscImpr90d": 13,
+   "status": "planned 2027-01-04",
+   "overlaps": [
+    "/blog/baby-mice",
+    "/blog/mice-removal"
+   ],
+   "variants": [
+    "mouse nest",
+    "mouse nest in car",
+    "rat nest vs mouse nest",
+    "mouse nest in wall"
+   ],
+   "score": 3600,
+   "evidence": "Ahrefs US 4,000, KD 0",
+   "rank": 88,
+   "day": 9,
+   "winterFactor": 0.85
+  },
+  {
+   "slug": "crickets-in-house",
+   "keyword": "crickets in house",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 1600,
+   "clusterVolume": 5500,
+   "kd": 9,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/camel-crickets"
+   ],
+   "variants": [
+    "house cricket",
+    "how to get rid of crickets",
+    "field crickets"
+   ],
+   "score": 4950,
+   "evidence": "Ahrefs US 5,500, KD 9",
+   "rank": 79,
+   "day": 9,
+   "winterFactor": 0.55
+  },
+  {
+   "slug": "fishing-spiders",
+   "keyword": "fishing spider",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 4800,
+   "clusterVolume": 5800,
+   "kd": 6,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-21",
+   "overlaps": [],
+   "variants": [
+    "dock spider",
+    "fishing spider bite",
+    "fishing spider vs wolf spider"
+   ],
+   "score": 5220,
+   "evidence": "Ahrefs US 5,800, KD 6",
+   "rank": 76,
+   "day": 9,
+   "winterFactor": 0.5
+  },
+  {
+   "slug": "baby-silverfish",
+   "keyword": "baby silverfish",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "year-round",
+   "usVolume": 2800,
+   "clusterVolume": 2800,
+   "kd": null,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "variants": [
+    "silverfish eggs",
+    "silverfish larvae",
+    "what do baby silverfish look like"
+   ],
+   "score": 2856,
+   "evidence": "Ahrefs US 2,800",
+   "rank": 89,
+   "day": 9,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "pharaoh-ants",
+   "keyword": "pharaoh ants",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 6800,
+   "clusterVolume": 7150,
+   "kd": 0,
+   "gscImpr90d": 239,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/learn/ants",
+    "/blog/tiny-ants"
+   ],
+   "variants": [
+    "pharaoh ant",
+    "pharaoh ant bait",
+    "do pharaoh ants bite",
+    "pharaoh ants in house"
+   ],
+   "score": 6435,
+   "evidence": "Ahrefs US 7,150, KD 0",
+   "rank": 69,
+   "day": 9,
+   "winterFactor": 0.36
+  },
+  {
+   "slug": "harvestmen",
+   "keyword": "harvestman",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 5300,
+   "clusterVolume": 5300,
+   "kd": 4,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/daddy-long-legs"
+   ],
+   "variants": [
+    "harvestmen",
+    "harvestman spider",
+    "are harvestmen spiders",
+    "harvestman vs daddy long legs"
+   ],
+   "score": 4770,
+   "evidence": "Ahrefs US 5,300, KD 4",
+   "rank": 80,
+   "day": 9,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "bugs-in-basement",
+   "keyword": "bugs in basement",
+   "type": "Identification: what is this bug",
+   "season": "summer",
+   "usVolume": 4375,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 5,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/camel-crickets",
+    "/blog/house-centipedes"
+   ],
+   "variants": [
+    "basement bugs",
+    "bugs in basement identification",
+    "spiders in basement"
+   ],
+   "score": 4648,
+   "evidence": "Ahrefs US 4,375",
+   "rank": 81,
+   "day": 9,
+   "winterFactor": 0.41
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": 2090,
+   "slug": "spider-beetles",
+   "keyword": "spider beetles",
+   "type": "Identification: look-alikes",
+   "season": "year-round",
+   "evidence": "Search Console: \"beetle that looks like a tick\" 1,513 impressions + spider beetle 577 in 90 days; Ahrefs US 740",
+   "score": 1400,
+   "overlaps": [
+    "/blog/bugs-that-look-like-ticks"
+   ],
+   "rank": 95,
+   "day": 9,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "odorous-house-ants",
+   "keyword": "odorous house ants",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 2700,
+   "clusterVolume": 2700,
+   "kd": 13,
+   "gscImpr90d": null,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/sugar-ants",
+    "/blog/how-to-get-rid-of-ants-in-the-house"
+   ],
+   "variants": [
+    "odorous house ant",
+    "ants that smell like coconut",
+    "odorous house ants vs sugar ants"
+   ],
+   "score": 1944,
+   "evidence": "Ahrefs US 2,700, KD 13",
+   "rank": 92,
+   "day": 10,
+   "winterFactor": 0.64
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "cricket-poop",
+   "keyword": "cricket poop",
+   "type": "Droppings & signs",
+   "season": "year-round",
+   "evidence": "Ahrefs US 1,100 (cluster)",
+   "score": 1320,
+   "overlaps": [
+    "/blog/camel-crickets",
+    "/blog/animal-droppings"
+   ],
+   "rank": 96,
+   "day": 10,
+   "winterFactor": 0.9
+  },
+  {
+   "slug": "crazy-ants",
+   "keyword": "crazy ants",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 2700,
+   "clusterVolume": 2700,
+   "kd": 6,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/tiny-ants"
+   ],
+   "variants": [
+    "tawny crazy ant",
+    "rasberry crazy ant",
+    "crazy ants vs fire ants"
+   ],
+   "score": 2430,
+   "evidence": "Ahrefs US 2,700, KD 6",
+   "rank": 91,
+   "day": 10,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "pavement-ants",
+   "keyword": "pavement ants",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 3500,
+   "clusterVolume": 3500,
+   "kd": 12,
+   "gscImpr90d": 32,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/learn/ants",
+    "/blog/black-ants"
+   ],
+   "variants": [
+    "pavement ant",
+    "pavement ants in house",
+    "pavement ant bite",
+    "pavement ant swarm"
+   ],
+   "score": 2520,
+   "evidence": "Ahrefs US 3,500, KD 12",
+   "rank": 90,
+   "day": 10,
+   "winterFactor": 0.38
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": 584,
+   "slug": "mosquito-eggs",
+   "keyword": "what do mosquito eggs look like",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "summer",
+   "evidence": "Search Console: 584 impressions in 90 days at position 6.5 on the larvae page, no page of its own",
+   "score": 1500,
+   "overlaps": [
+    "/blog/mosquito-larvae-identification"
+   ],
+   "rank": 94,
+   "day": 10,
+   "winterFactor": 0.45
+  },
+  {
+   "slug": "groundhogs",
+   "keyword": "groundhog",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 5300,
+   "clusterVolume": null,
+   "kd": null,
+   "gscImpr90d": 6,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/holes-in-yard"
+   ],
+   "variants": [
+    "marmot vs groundhog",
+    "how to get rid of groundhogs",
+    "groundhog hole",
+    "woodchuck"
+   ],
+   "score": 4055,
+   "evidence": "Ahrefs US 5,300",
+   "rank": 86,
+   "day": 10,
+   "winterFactor": 0.14
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": 37,
+   "slug": "bugs-in-carpet",
+   "keyword": "bugs in carpet",
+   "type": "Identification: what is this bug",
+   "season": "year-round",
+   "evidence": "Ahrefs US 450, KD 4; Search Console 37 impressions in 90 days",
+   "score": 520,
+   "overlaps": [
+    "/blog/signs-of-carpet-beetles",
+    "/blog/carpet-beetle-larvae"
+   ],
+   "rank": 99,
+   "day": 10,
+   "winterFactor": 0.79
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "bugs-that-look-like-stink-bugs",
+   "keyword": "bugs that look like stink bugs",
+   "type": "Identification: look-alikes",
+   "season": "winter",
+   "evidence": "Ahrefs US 1,300, KD 7",
+   "score": 1250,
+   "overlaps": [],
+   "rank": 97,
+   "day": 10,
+   "winterFactor": 0.22
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "bugs-that-look-like-ants",
+   "keyword": "bugs that look like ants",
+   "type": "Identification: look-alikes",
+   "season": "summer",
+   "evidence": "Ahrefs US 300, KD 0",
+   "score": 360,
+   "overlaps": [
+    "/blog/flying-ants-vs-termites"
+   ],
+   "rank": 100,
+   "day": 10,
+   "winterFactor": 0.45
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "bugs-that-look-like-bees",
+   "keyword": "bugs that look like bees",
+   "type": "Identification: look-alikes",
+   "season": "summer",
+   "evidence": "Ahrefs US 450 (cluster), KD 5",
+   "score": 540,
+   "overlaps": [],
+   "rank": 98,
+   "day": 10,
+   "winterFactor": 0.15
+  }
+ ]
+}

@@ -100,3 +100,57 @@ of a new pull.
     7. index.
   - **Allowance:** about 89% of the weekly Claude allowance is used. Wave 2 starts right after the reset (Oct 27 06:00 UTC).
   - **Also running:** a text-fix agent for the Amazon pages' article text (FIX-LOG.md "Page text (Oct 25)"). Build + push after it finishes.
+- **Oct 25, ~18:20 UTC: wave 1 LIVE (`ee92b02f`), 5 pages.** The pages are carpet-beetle-rash, pseudoscorpions,
+  possum-vs-opossum, how-long-do-rats-live and deer-poop.
+  - **Fact-checks:** each page was checked independently, verdict publish-after-my-fixes. Claims checked per
+    page: 192, 177, 176, 164 and 181, with 4 to 12 corrections each. The single-source figures are now credited
+    to their source.
+  - **Links in:** each new page has one, from booklice, animal-droppings and rat-droppings; the records are amended.
+  - **amazon.com picks:** one per page.
+  - **Not yet:** voles, which waits for a public-domain or CC0 vole photo.
+  - **Indexing:** requested for deer-poop on Oct 25. The daily quota then ran out. Request the other four on
+    Oct 26: possum-vs-opossum, how-long-do-rats-live, pseudoscorpions and carpet-beetle-rash. All five are
+    in the sitemap and linked from indexed guides, and the Oct 20-22 pages were indexed within 1-4 days without
+    a request.
+    - **Oct 26:** deer-poop is indexed, within a day of the request. 23 of the 27 pages released Oct 22-25 are
+      indexed (URL Inspection API). The four remaining are the wave 1 pages, still "unknown to Google". Search
+      Console answered "Something went wrong" twice on Request indexing, so retry Oct 27.
+    - **Oct 24-25 vs the same days a week earlier:** 647 clicks (+42%) and 100,445 impressions (+41%). Oct 25
+      reached 52,598 impressions, the first day over 50K. The 7-day average for Oct 19-25 was 43,794 a day; the
+      checkpoint for the week of Oct 26 is 46,000.
+  - **Next:** wave 2 starts after the Oct 27 06:00 UTC allowance reset. Draw topics from GSC gaps plus Google
+    suggestions and People Also Ask, about 50 pages a week.
+  - **Topic rule (Oct 26, from the AI-answer research).** Prefer searches where the reader has to see, choose or
+    do something: photo ID, look-alikes, products, step-by-step fixes. Put one-fact questions that an AI Overview
+    answers in a sentence at the back of the queue.
+    - **One-fact question, Oct 24-25:** "how many ants are in the world" got 1,773 impressions and 2 clicks.
+    - **Visual searches, same days:** "what do fleas look like" got 13 clicks from 2,224 impressions, and
+      "tiny brown bugs" 13 from 831.
+    - **Page types (Oct 26, Search Console, Sep 28 to Oct 25; scratchpad `traffic_by_type.py`).** Clicks per
+      established page per month, as the median:
+
+      | Page type | Median clicks a month | Pages with 30+ clicks a month |
+      |---|---|---|
+      | Bites and stings (17 pages) | 45 | 59% |
+      | Identification (10 pages) | 33 | 60% |
+      | Products | 5 | 14% |
+      | Remedies | 5 | 19% |
+      | Questions | 4 | 15% |
+      | Other single-topic pages | 1 | 8% |
+
+      - **October launches, clicks a day per page:** bites 0.43, droppings and signs 0.29, identification 0.21,
+        species pages and state pages 0.14, remedies 0.07.
+      - **The remaining plan is weighted the wrong way.** Of the 222 planned pages not yet live, 97 are species
+        pages and 81 are state/province pages. Only 13 are bites, 8 identification and 2 droppings.
+      - **Wave 2 mix:** mostly bites and stings, identification ("what is this bug", look-alikes, "bugs in my
+        ___") and droppings and signs, with new topics found from GSC, Google suggestions and People Also Ask.
+        Species pages only where the species has big identification demand (brown recluse, black widow).
+        State pages stay in January.
+    - **Oct 26: top 100 list ready (owner).** Build and push 10 a day for 10 days from Oct 27.
+      - Files: `research/top100-2026-10-26.{json,md}`.
+      - Mix: 65 species-ID, 20 identification, 9 bites and stings, 6 droppings and signs.
+      - Demand: about 3.47M US searches a month across the head terms.
+      - Release order: biggest winter demand first.
+    - **Where the clicks come from (visible queries, Sep 28 to Oct 25):**
+      - Position 1.5 or better, where AI Overview citations are counted: 5% of clicks, at 1.3% CTR.
+      - Positions 5-10: 54% of clicks.
