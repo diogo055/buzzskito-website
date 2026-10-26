@@ -23,7 +23,7 @@
    ],
    "score": 144000,
    "evidence": "Ahrefs US 160,000, KD 10",
-   "rank": 3,
+   "rank": 2,
    "day": 1,
    "winterFactor": 0.83
   },
@@ -72,34 +72,9 @@
    ],
    "score": 109800,
    "evidence": "Ahrefs US 122,000, KD 0",
-   "rank": 4,
+   "rank": 3,
    "day": 1,
    "winterFactor": 0.67
-  },
-  {
-   "slug": "bee-sting-vs-wasp-sting",
-   "keyword": "bee sting vs wasp sting",
-   "type": "Bites & stings",
-   "season": "summer",
-   "usVolume": 2000,
-   "clusterVolume": 111400,
-   "kd": 4,
-   "gscImpr90d": 22,
-   "status": "planned 2027-02-01",
-   "overlaps": [
-    "/learn/bug-bites"
-   ],
-   "variants": [
-    "bee sting",
-    "wasp sting",
-    "yellow jacket sting",
-    "what does a wasp sting look like"
-   ],
-   "score": 144820,
-   "evidence": "Ahrefs US 111,400, KD 4",
-   "rank": 2,
-   "day": 1,
-   "winterFactor": 0.41
   },
   {
    "slug": "black-widow-spiders",
@@ -119,7 +94,7 @@
    ],
    "score": 95040,
    "evidence": "Ahrefs US 176,000, KD 32",
-   "rank": 5,
+   "rank": 4,
    "day": 1,
    "winterFactor": 0.6
   },
@@ -144,31 +119,9 @@
    ],
    "score": 88128,
    "evidence": "Ahrefs US 122,400, KD 21",
-   "rank": 6,
+   "rank": 5,
    "day": 1,
    "winterFactor": 0.49
-  },
-  {
-   "slug": "lice-eggs",
-   "keyword": "what do lice eggs look like",
-   "type": "Identification: eggs, babies, larvae",
-   "season": "year-round",
-   "usVolume": 6900,
-   "clusterVolume": 35900,
-   "kd": 0,
-   "gscImpr90d": null,
-   "status": "not planned (research files)",
-   "overlaps": [],
-   "variants": [
-    "lice eggs",
-    "nits",
-    "what do nits look like"
-   ],
-   "score": 43080,
-   "evidence": "Ahrefs US 35,900, KD 0",
-   "rank": 19,
-   "day": 1,
-   "winterFactor": 0.95
   },
   {
    "slug": "yellow-jackets",
@@ -191,7 +144,7 @@
    ],
    "score": 64800,
    "evidence": "Ahrefs US 90,000, KD 26",
-   "rank": 11,
+   "rank": 10,
    "day": 1,
    "winterFactor": 0.62
   },
@@ -213,7 +166,7 @@
    ],
    "score": 63900,
    "evidence": "Ahrefs US 71,000, KD 4",
-   "rank": 12,
+   "rank": 11,
    "day": 1,
    "winterFactor": 0.6
   },
@@ -236,7 +189,7 @@
    ],
    "score": 72000,
    "evidence": "Ahrefs US 100,000, KD 12",
-   "rank": 8,
+   "rank": 7,
    "day": 1,
    "winterFactor": 0.52
   },
@@ -261,8 +214,8 @@
    ],
    "score": 70560,
    "evidence": "Ahrefs US 98,000, KD 12",
-   "rank": 9,
-   "day": 2,
+   "rank": 8,
+   "day": 1,
    "winterFactor": 0.48
   },
   {
@@ -285,8 +238,8 @@
    ],
    "score": 72900,
    "evidence": "Ahrefs US 81,000, KD 4",
-   "rank": 7,
-   "day": 2,
+   "rank": 6,
+   "day": 1,
    "winterFactor": 0.45
   },
   {
@@ -310,7 +263,7 @@
    ],
    "score": 54054,
    "evidence": "Ahrefs US 171,600, KD 51",
-   "rank": 14,
+   "rank": 13,
    "day": 2,
    "winterFactor": 0.6
   },
@@ -336,7 +289,7 @@
    ],
    "score": 67680,
    "evidence": "Ahrefs US 94,000, KD 20",
-   "rank": 10,
+   "rank": 9,
    "day": 2,
    "winterFactor": 0.44
   },
@@ -362,7 +315,7 @@
    ],
    "score": 63036,
    "evidence": "Ahrefs US 82,400",
-   "rank": 13,
+   "rank": 12,
    "day": 2,
    "winterFactor": 0.4
   },
@@ -386,7 +339,7 @@
    ],
    "score": 42001,
    "evidence": "Ahrefs US 63,350",
-   "rank": 21,
+   "rank": 19,
    "day": 2,
    "winterFactor": 0.59
   },
@@ -409,7 +362,7 @@
    ],
    "score": 50580,
    "evidence": "Ahrefs US 56,200, KD 2",
-   "rank": 16,
+   "rank": 15,
    "day": 2,
    "winterFactor": 0.45
   },
@@ -434,7 +387,7 @@
    ],
    "score": 24700,
    "evidence": "Ahrefs US 19,000, KD 7",
-   "rank": 30,
+   "rank": 26,
    "day": 2,
    "winterFactor": 0.9
   },
@@ -459,7 +412,7 @@
    ],
    "score": 37800,
    "evidence": "Ahrefs US 42,000, KD 7",
-   "rank": 22,
+   "rank": 20,
    "day": 2,
    "winterFactor": 0.56
   },
@@ -480,7 +433,7 @@
    ],
    "score": 44100,
    "evidence": "Ahrefs US 49,000, KD 6",
-   "rank": 17,
+   "rank": 16,
    "day": 2,
    "winterFactor": 0.45
   },
@@ -502,8 +455,8 @@
    ],
    "score": 43605,
    "evidence": "Ahrefs US 57,000",
-   "rank": 18,
-   "day": 3,
+   "rank": 17,
+   "day": 2,
    "winterFactor": 0.45
   },
   {
@@ -524,8 +477,8 @@
    ],
    "score": 42300,
    "evidence": "Ahrefs US 47,000, KD 10",
-   "rank": 20,
-   "day": 3,
+   "rank": 18,
+   "day": 2,
    "winterFactor": 0.45
   },
   {
@@ -549,7 +502,7 @@
    ],
    "score": 23760,
    "evidence": "Ahrefs US 55,000, KD 22",
-   "rank": 31,
+   "rank": 27,
    "day": 3,
    "winterFactor": 0.68
   },
@@ -571,7 +524,7 @@
    ],
    "score": 53460,
    "evidence": "Ahrefs US 99,000, KD 50",
-   "rank": 15,
+   "rank": 14,
    "day": 3,
    "winterFactor": 0.3
   },
@@ -595,34 +548,31 @@
    ],
    "score": 17010,
    "evidence": "Ahrefs US 90,000, KD 71",
-   "rank": 38,
+   "rank": 34,
    "day": 3,
    "winterFactor": 0.93
   },
   {
-   "slug": "stinging-caterpillars",
-   "keyword": "fuzzy caterpillar",
-   "type": "Identification: species",
-   "season": "summer",
-   "usVolume": 9100,
-   "clusterVolume": 36350,
+   "slug": "lice-eggs",
+   "keyword": "what do lice eggs look like",
+   "type": "Identification: eggs, babies, larvae",
+   "season": "year-round",
+   "usVolume": 6900,
+   "clusterVolume": 35900,
    "kd": 0,
    "gscImpr90d": null,
-   "status": "planned 2027-02-01",
-   "overlaps": [
-    "/learn/bug-bites"
-   ],
+   "status": "not planned (research files)",
+   "overlaps": [],
    "variants": [
-    "stinging caterpillars",
-    "puss caterpillar",
-    "is this fuzzy caterpillar poisonous",
-    "woolly bear caterpillar"
+    "lice eggs",
+    "nits",
+    "what do nits look like"
    ],
-   "score": 32715,
-   "evidence": "Ahrefs US 36,350, KD 0",
-   "rank": 25,
+   "score": 16560,
+   "evidence": "Ahrefs US 13,800, KD 0",
+   "rank": 38,
    "day": 3,
-   "winterFactor": 0.48
+   "winterFactor": 0.95
   },
   {
    "slug": "bed-bug-eggs",
@@ -646,7 +596,7 @@
    ],
    "score": 18240,
    "evidence": "Ahrefs US 19,000, KD 17",
-   "rank": 37,
+   "rank": 33,
    "day": 3,
    "winterFactor": 0.83
   },
@@ -670,7 +620,7 @@
    ],
    "score": 20215,
    "evidence": "Ahrefs US 26,425",
-   "rank": 33,
+   "rank": 29,
    "day": 3,
    "winterFactor": 0.74
   },
@@ -693,7 +643,7 @@
    ],
    "score": 25200,
    "evidence": "Ahrefs US 28,000, KD 7",
-   "rank": 29,
+   "rank": 25,
    "day": 3,
    "winterFactor": 0.59
   },
@@ -717,36 +667,9 @@
    ],
    "score": 31680,
    "evidence": "Ahrefs US 44,000, KD 13",
-   "rank": 26,
+   "rank": 23,
    "day": 3,
    "winterFactor": 0.45
-  },
-  {
-   "slug": "fleas-on-humans",
-   "keyword": "fleas on humans",
-   "type": "Droppings & signs",
-   "season": "year-round",
-   "usVolume": 4800,
-   "clusterVolume": 13100,
-   "kd": 8,
-   "gscImpr90d": 39,
-   "status": "not planned (research files)",
-   "overlaps": [
-    "/blog/what-do-fleas-look-like",
-    "/blog/how-to-get-rid-of-fleas",
-    "/blog/flea-bites-on-humans"
-   ],
-   "variants": [
-    "can fleas live on humans",
-    "do fleas live on humans",
-    "fleas in hair",
-    "black fleas on humans"
-   ],
-   "score": 15720,
-   "evidence": "Ahrefs US 13,100, KD 8",
-   "rank": 43,
-   "day": 4,
-   "winterFactor": 0.9
   },
   {
    "slug": "woodlouse-spiders",
@@ -766,8 +689,8 @@
    ],
    "score": 15300,
    "evidence": "Ahrefs US 17,000, KD 1",
-   "rank": 46,
-   "day": 4,
+   "rank": 43,
+   "day": 3,
    "winterFactor": 0.9
   },
   {
@@ -787,35 +710,9 @@
    ],
    "score": 15262,
    "evidence": "Ahrefs US 33,250",
-   "rank": 47,
-   "day": 4,
+   "rank": 44,
+   "day": 3,
    "winterFactor": 0.89
-  },
-  {
-   "slug": "lawn-grubs",
-   "keyword": "grubs in lawn",
-   "type": "Identification: species",
-   "season": "year-round",
-   "usVolume": 7200,
-   "clusterVolume": 34900,
-   "kd": 3,
-   "gscImpr90d": 2,
-   "status": "not planned (research files)",
-   "overlaps": [
-    "/blog/lawn-pest-control",
-    "/blog/holes-in-yard"
-   ],
-   "variants": [
-    "grubs",
-    "grub worms",
-    "lawn grubs",
-    "grub damage"
-   ],
-   "score": 18846,
-   "evidence": "Ahrefs US 34,900, KD 3",
-   "rank": 36,
-   "day": 4,
-   "winterFactor": 0.7
   },
   {
    "slug": "mealybugs",
@@ -838,7 +735,7 @@
    ],
    "score": 16740,
    "evidence": "Ahrefs US 31,000, KD 1",
-   "rank": 41,
+   "rank": 37,
    "day": 4,
    "winterFactor": 0.76
   },
@@ -860,9 +757,70 @@
    ],
    "score": 26100,
    "evidence": "Ahrefs US 29,000, KD 5",
-   "rank": 28,
+   "rank": 24,
    "day": 4,
    "winterFactor": 0.45
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "planned 2026-12-14",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "kissing-bug-bites",
+   "keyword": "kissing bug bite",
+   "type": "Bites & stings",
+   "season": "year-round",
+   "evidence": "Keyword Planner US 10K-100K (\"kissing bug bite\")",
+   "score": 13000,
+   "overlaps": [
+    "/blog/kissing-bug-look-alikes"
+   ],
+   "rank": 49,
+   "day": 4,
+   "winterFactor": 0.9
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "mite-bites",
+   "keyword": "mite bites",
+   "type": "Bites & stings",
+   "season": "year-round",
+   "evidence": "Keyword Planner US 10K-100K (\"mites bite\"; also \"dust mite bites\" 10K-100K)",
+   "score": 13000,
+   "overlaps": [
+    "/blog/chigger-bites"
+   ],
+   "rank": 50,
+   "day": 4,
+   "winterFactor": 0.9
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "tiny-red-bugs",
+   "keyword": "tiny red bugs",
+   "type": "Identification: what is this bug",
+   "season": "year-round",
+   "evidence": "Keyword Planner US 10K-100K (\"very small red bugs\"); Search Console \"small red tick\" 4,176 impressions in 90 days",
+   "score": 12500,
+   "overlaps": [
+    "/blog/red-ticks-and-clover-mites",
+    "/blog/red-ants"
+   ],
+   "rank": 54,
+   "day": 4,
+   "winterFactor": 0.9
   },
   {
    "slug": "snake-poop",
@@ -884,7 +842,7 @@
    ],
    "score": 13200,
    "evidence": "Ahrefs US 11,000, KD 1",
-   "rank": 51,
+   "rank": 48,
    "day": 4,
    "winterFactor": 0.85
   },
@@ -908,7 +866,7 @@
    ],
    "score": 22500,
    "evidence": "Ahrefs US 25,000, KD 1",
-   "rank": 32,
+   "rank": 28,
    "day": 4,
    "winterFactor": 0.49
   },
@@ -932,34 +890,36 @@
    ],
    "score": 15552,
    "evidence": "Ahrefs US 36,000, KD 15",
-   "rank": 44,
+   "rank": 41,
    "day": 4,
    "winterFactor": 0.67
   },
   {
-   "slug": "wasp-vs-hornet",
-   "keyword": "wasp vs hornet",
-   "type": "Identification: X vs Y",
-   "season": "summer",
-   "usVolume": 14000,
-   "clusterVolume": 42200,
-   "kd": null,
-   "gscImpr90d": 23,
-   "status": "planned 2027-02-01",
+   "slug": "fleas-on-humans",
+   "keyword": "fleas on humans",
+   "type": "Droppings & signs",
+   "season": "year-round",
+   "usVolume": 4800,
+   "clusterVolume": 13100,
+   "kd": 8,
+   "gscImpr90d": 39,
+   "status": "not planned (research files)",
    "overlaps": [
-    "/blog/how-to-get-rid-of-wasps-canada"
+    "/blog/what-do-fleas-look-like",
+    "/blog/how-to-get-rid-of-fleas",
+    "/blog/flea-bites-on-humans"
    ],
    "variants": [
-    "bee vs wasp",
-    "hornet vs yellow jacket",
-    "wasp vs yellow jacket",
-    "types of wasps"
+    "can fleas live on humans",
+    "do fleas live on humans",
+    "fleas in hair",
+    "black fleas on humans"
    ],
-   "score": 28696,
-   "evidence": "Ahrefs US 42,200",
-   "rank": 27,
+   "score": 11520,
+   "evidence": "Ahrefs US 9,600, KD 8",
+   "rank": 57,
    "day": 4,
-   "winterFactor": 0.36
+   "winterFactor": 0.9
   },
   {
    "slug": "rabbit-poop",
@@ -981,8 +941,8 @@
    ],
    "score": 11280,
    "evidence": "Ahrefs US 9,400, KD 0",
-   "rank": 56,
-   "day": 5,
+   "rank": 58,
+   "day": 4,
    "winterFactor": 0.9
   },
   {
@@ -1003,7 +963,7 @@
    ],
    "score": 16824,
    "evidence": "Ahrefs US 15,225",
-   "rank": 40,
+   "rank": 36,
    "day": 5,
    "winterFactor": 0.59
   },
@@ -1028,7 +988,7 @@
    ],
    "score": 13573,
    "evidence": "Ahrefs US 12,775",
-   "rank": 50,
+   "rank": 47,
    "day": 5,
    "winterFactor": 0.7
   },
@@ -1050,7 +1010,7 @@
    ],
    "score": 8640,
    "evidence": "Ahrefs US 16,000, KD 38",
-   "rank": 59,
+   "rank": 61,
    "day": 5,
    "winterFactor": 0.99
   },
@@ -1075,7 +1035,7 @@
    ],
    "score": 18900,
    "evidence": "Ahrefs US 21,000, KD 7",
-   "rank": 34,
+   "rank": 31,
    "day": 5,
    "winterFactor": 0.45
   },
@@ -1099,7 +1059,7 @@
    ],
    "score": 33840,
    "evidence": "Ahrefs US 47,000, KD 15",
-   "rank": 24,
+   "rank": 22,
    "day": 5,
    "winterFactor": 0.25
   },
@@ -1120,9 +1080,34 @@
    ],
    "score": 18900,
    "evidence": "Ahrefs US 21,000, KD 3",
-   "rank": 35,
+   "rank": 32,
    "day": 5,
    "winterFactor": 0.44
+  },
+  {
+   "slug": "stinging-caterpillars",
+   "keyword": "fuzzy caterpillar",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 9100,
+   "clusterVolume": 36350,
+   "kd": 0,
+   "gscImpr90d": null,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/learn/bug-bites"
+   ],
+   "variants": [
+    "stinging caterpillars",
+    "puss caterpillar",
+    "is this fuzzy caterpillar poisonous",
+    "woolly bear caterpillar"
+   ],
+   "score": 16380,
+   "evidence": "Ahrefs US 18,200, KD 0",
+   "rank": 39,
+   "day": 5,
+   "winterFactor": 0.48
   },
   {
    "slug": "japanese-beetles",
@@ -1144,7 +1129,7 @@
    ],
    "score": 15876,
    "evidence": "Ahrefs US 49,000, KD 43",
-   "rank": 42,
+   "rank": 40,
    "day": 5,
    "winterFactor": 0.49
   },
@@ -1166,7 +1151,7 @@
    ],
    "score": 35100,
    "evidence": "Ahrefs US 39,000, KD 1",
-   "rank": 23,
+   "rank": 21,
    "day": 5,
    "winterFactor": 0.22
   },
@@ -1192,7 +1177,7 @@
    ],
    "score": 15300,
    "evidence": "Ahrefs US 17,000, KD 0",
-   "rank": 45,
+   "rank": 42,
    "day": 5,
    "winterFactor": 0.49
   },
@@ -1214,7 +1199,7 @@
    ],
    "score": 16900,
    "evidence": "Ahrefs US 13,000, KD 7",
-   "rank": 39,
+   "rank": 35,
    "day": 6,
    "winterFactor": 0.44
   },
@@ -1240,7 +1225,7 @@
    ],
    "score": 7920,
    "evidence": "Ahrefs US 8,800, KD 3",
-   "rank": 62,
+   "rank": 64,
    "day": 6,
    "winterFactor": 0.9
   },
@@ -1263,9 +1248,34 @@
    ],
    "score": 14960,
    "evidence": "Ahrefs US 18,700, KD 0",
-   "rank": 49,
+   "rank": 46,
    "day": 6,
    "winterFactor": 0.46
+  },
+  {
+   "slug": "wasp-vs-hornet",
+   "keyword": "wasp vs hornet",
+   "type": "Identification: X vs Y",
+   "season": "summer",
+   "usVolume": 14000,
+   "clusterVolume": 42200,
+   "kd": null,
+   "gscImpr90d": 23,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/blog/how-to-get-rid-of-wasps-canada"
+   ],
+   "variants": [
+    "bee vs wasp",
+    "hornet vs yellow jacket",
+    "wasp vs yellow jacket",
+    "types of wasps"
+   ],
+   "score": 19040,
+   "evidence": "Ahrefs US 28,000",
+   "rank": 30,
+   "day": 6,
+   "winterFactor": 0.36
   },
   {
    "usVolume": null,
@@ -1284,7 +1294,7 @@
     "/blog/why-do-mosquito-bites-itch",
     "/blog/mosquito-bite-treatment-relief"
    ],
-   "rank": 48,
+   "rank": 45,
    "day": 6,
    "winterFactor": 0.45
   },
@@ -1310,7 +1320,7 @@
    ],
    "score": 8460,
    "evidence": "Ahrefs US 9,400, KD 0",
-   "rank": 60,
+   "rank": 62,
    "day": 6,
    "winterFactor": 0.78
   },
@@ -1335,9 +1345,30 @@
    ],
    "score": 6273,
    "evidence": "Ahrefs US 8,200",
-   "rank": 70,
+   "rank": 73,
    "day": 6,
    "winterFactor": 1
+  },
+  {
+   "usVolume": null,
+   "clusterVolume": null,
+   "kd": null,
+   "status": "new (Search Console / research gap)",
+   "variants": [],
+   "gscImpr90d": null,
+   "slug": "fly-bites",
+   "keyword": "fly bites",
+   "type": "Bites & stings",
+   "season": "summer",
+   "evidence": "Keyword Planner US 10K-100K (\"fly bite\", \"biting fly bites\"); Search Console deer/horse fly bite searches ~13K impressions in 90 days",
+   "score": 13000,
+   "overlaps": [
+    "/blog/horse-fly-and-deer-fly-bite-treatment",
+    "/blog/deer-flies-horse-flies-ontario"
+   ],
+   "rank": 51,
+   "day": 6,
+   "winterFactor": 0.45
   },
   {
    "slug": "bark-scorpions",
@@ -1357,7 +1388,7 @@
    ],
    "score": 6768,
    "evidence": "Ahrefs US 9,400, KD 17",
-   "rank": 68,
+   "rank": 71,
    "day": 6,
    "winterFactor": 0.86
   },
@@ -1401,9 +1432,35 @@
    ],
    "score": 12240,
    "evidence": "Ahrefs US 17,000, KD 18",
-   "rank": 54,
-   "day": 6,
+   "rank": 55,
+   "day": 7,
    "winterFactor": 0.45
+  },
+  {
+   "slug": "lawn-grubs",
+   "keyword": "grubs in lawn",
+   "type": "Identification: species",
+   "season": "year-round",
+   "usVolume": 7200,
+   "clusterVolume": 34900,
+   "kd": 3,
+   "gscImpr90d": 2,
+   "status": "not planned (research files)",
+   "overlaps": [
+    "/blog/lawn-pest-control",
+    "/blog/holes-in-yard"
+   ],
+   "variants": [
+    "grubs",
+    "grub worms",
+    "lawn grubs",
+    "grub damage"
+   ],
+   "score": 7776,
+   "evidence": "Ahrefs US 14,400, KD 3",
+   "rank": 65,
+   "day": 7,
+   "winterFactor": 0.7
   },
   {
    "slug": "drain-flies-vs-fruit-flies",
@@ -1427,8 +1484,8 @@
    ],
    "score": 5712,
    "evidence": "Ahrefs US 8,400",
-   "rank": 73,
-   "day": 6,
+   "rank": 76,
+   "day": 7,
    "winterFactor": 0.9
   },
   {
@@ -1477,7 +1534,7 @@
    ],
    "score": 6840,
    "evidence": "Ahrefs US 7,600, KD 2",
-   "rank": 67,
+   "rank": 70,
    "day": 7,
    "winterFactor": 0.72
   },
@@ -1499,7 +1556,7 @@
    ],
    "score": 5220,
    "evidence": "Ahrefs US 5,800, KD 7",
-   "rank": 75,
+   "rank": 78,
    "day": 7,
    "winterFactor": 0.9
   },
@@ -1526,7 +1583,7 @@
    ],
    "score": 7375,
    "evidence": "Ahrefs US 5,900, KD 0",
-   "rank": 63,
+   "rank": 66,
    "day": 7,
    "winterFactor": 0.58
   },
@@ -1551,7 +1608,7 @@
    ],
    "score": 4980,
    "evidence": "Ahrefs US 4,150, KD 0",
-   "rank": 78,
+   "rank": 82,
    "day": 7,
    "winterFactor": 0.84
   },
@@ -1577,7 +1634,7 @@
    ],
    "score": 5040,
    "evidence": "Ahrefs US 4,200, KD 1",
-   "rank": 77,
+   "rank": 81,
    "day": 7,
    "winterFactor": 0.82
   },
@@ -1602,7 +1659,7 @@
    ],
    "score": 9180,
    "evidence": "Ahrefs US 9,000",
-   "rank": 57,
+   "rank": 59,
    "day": 7,
    "winterFactor": 0.45
   },
@@ -1626,8 +1683,8 @@
    ],
    "score": 5491,
    "evidence": "Ahrefs US 8,800, KD 17",
-   "rank": 74,
-   "day": 7,
+   "rank": 77,
+   "day": 8,
    "winterFactor": 0.75
   },
   {
@@ -1652,8 +1709,8 @@
    ],
    "score": 5880,
    "evidence": "Ahrefs US 4,900, KD 0",
-   "rank": 72,
-   "day": 7,
+   "rank": 75,
+   "day": 8,
    "winterFactor": 0.69
   },
   {
@@ -1674,8 +1731,8 @@
    ],
    "score": 9000,
    "evidence": "Ahrefs US 10,000, KD 1",
-   "rank": 58,
-   "day": 7,
+   "rank": 60,
+   "day": 8,
    "winterFactor": 0.45
   },
   {
@@ -1699,7 +1756,7 @@
    ],
    "score": 6120,
    "evidence": "Ahrefs US 6,800, KD 8",
-   "rank": 71,
+   "rank": 74,
    "day": 8,
    "winterFactor": 0.63
   },
@@ -1723,7 +1780,7 @@
    ],
    "score": 8100,
    "evidence": "Ahrefs US 15,000, KD 0",
-   "rank": 61,
+   "rank": 63,
    "day": 8,
    "winterFactor": 0.45
   },
@@ -1745,33 +1802,9 @@
    ],
    "score": 4552,
    "evidence": "Ahrefs US 5,950",
-   "rank": 82,
+   "rank": 85,
    "day": 8,
    "winterFactor": 0.8
-  },
-  {
-   "slug": "bugs-in-hair",
-   "keyword": "bugs in hair not lice",
-   "type": "Identification: look-alikes",
-   "season": "year-round",
-   "usVolume": 700,
-   "clusterVolume": 3700,
-   "kd": 0,
-   "gscImpr90d": null,
-   "status": "not planned (research files)",
-   "overlaps": [
-    "/blog/what-do-fleas-look-like"
-   ],
-   "variants": [
-    "bugs in hair",
-    "black bugs in hair not lice",
-    "bugs that look like lice"
-   ],
-   "score": 4440,
-   "evidence": "Ahrefs US 3,700, KD 0",
-   "rank": 83,
-   "day": 8,
-   "winterFactor": 0.82
   },
   {
    "slug": "scale-insects",
@@ -1793,7 +1826,7 @@
    ],
    "score": 4177,
    "evidence": "Ahrefs US 9,100",
-   "rank": 85,
+   "rank": 87,
    "day": 8,
    "winterFactor": 0.87
   },
@@ -1819,7 +1852,7 @@
    ],
    "score": 4200,
    "evidence": "Ahrefs US 3,500, KD 0",
-   "rank": 84,
+   "rank": 86,
    "day": 8,
    "winterFactor": 0.85
   },
@@ -1843,7 +1876,7 @@
    ],
    "score": 3749,
    "evidence": "Ahrefs US 4,900",
-   "rank": 87,
+   "rank": 89,
    "day": 8,
    "winterFactor": 0.9
   },
@@ -1868,7 +1901,7 @@
    ],
    "score": 7344,
    "evidence": "Ahrefs US 10,200, KD 11",
-   "rank": 64,
+   "rank": 67,
    "day": 8,
    "winterFactor": 0.45
   },
@@ -1892,8 +1925,8 @@
    ],
    "score": 11700,
    "evidence": "Ahrefs US 13,000, KD 0",
-   "rank": 55,
-   "day": 8,
+   "rank": 56,
+   "day": 9,
    "winterFactor": 0.28
   },
   {
@@ -1910,8 +1943,8 @@
    "evidence": "Ahrefs US 2,300, KD 0",
    "score": 1840,
    "overlaps": [],
-   "rank": 93,
-   "day": 8,
+   "rank": 95,
+   "day": 9,
    "winterFactor": 1.77
   },
   {
@@ -1934,7 +1967,7 @@
    ],
    "score": 7020,
    "evidence": "Ahrefs US 13,000, KD 8",
-   "rank": 65,
+   "rank": 68,
    "day": 9,
    "winterFactor": 0.45
   },
@@ -1958,59 +1991,9 @@
    ],
    "score": 6851,
    "evidence": "Ahrefs US 6,200",
-   "rank": 66,
+   "rank": 69,
    "day": 9,
    "winterFactor": 0.45
-  },
-  {
-   "slug": "mouse-nest",
-   "keyword": "what does a mouse nest look like",
-   "type": "Identification: species",
-   "season": "winter",
-   "usVolume": 600,
-   "clusterVolume": 4000,
-   "kd": 0,
-   "gscImpr90d": 13,
-   "status": "planned 2027-01-04",
-   "overlaps": [
-    "/blog/baby-mice",
-    "/blog/mice-removal"
-   ],
-   "variants": [
-    "mouse nest",
-    "mouse nest in car",
-    "rat nest vs mouse nest",
-    "mouse nest in wall"
-   ],
-   "score": 3600,
-   "evidence": "Ahrefs US 4,000, KD 0",
-   "rank": 88,
-   "day": 9,
-   "winterFactor": 0.85
-  },
-  {
-   "slug": "crickets-in-house",
-   "keyword": "crickets in house",
-   "type": "Identification: species",
-   "season": "summer",
-   "usVolume": 1600,
-   "clusterVolume": 5500,
-   "kd": 9,
-   "gscImpr90d": null,
-   "status": "planned 2026-12-28",
-   "overlaps": [
-    "/blog/camel-crickets"
-   ],
-   "variants": [
-    "house cricket",
-    "how to get rid of crickets",
-    "field crickets"
-   ],
-   "score": 4950,
-   "evidence": "Ahrefs US 5,500, KD 9",
-   "rank": 79,
-   "day": 9,
-   "winterFactor": 0.55
   },
   {
    "slug": "fishing-spiders",
@@ -2030,7 +2013,7 @@
    ],
    "score": 5220,
    "evidence": "Ahrefs US 5,800, KD 6",
-   "rank": 76,
+   "rank": 79,
    "day": 9,
    "winterFactor": 0.5
   },
@@ -2054,7 +2037,7 @@
    ],
    "score": 2856,
    "evidence": "Ahrefs US 2,800",
-   "rank": 89,
+   "rank": 91,
    "day": 9,
    "winterFactor": 0.9
   },
@@ -2080,7 +2063,7 @@
    ],
    "score": 6435,
    "evidence": "Ahrefs US 7,150, KD 0",
-   "rank": 69,
+   "rank": 72,
    "day": 9,
    "winterFactor": 0.36
   },
@@ -2105,9 +2088,34 @@
    ],
    "score": 4770,
    "evidence": "Ahrefs US 5,300, KD 4",
-   "rank": 80,
+   "rank": 83,
    "day": 9,
    "winterFactor": 0.45
+  },
+  {
+   "slug": "bee-sting-vs-wasp-sting",
+   "keyword": "bee sting vs wasp sting",
+   "type": "Bites & stings",
+   "season": "summer",
+   "usVolume": 2000,
+   "clusterVolume": 111400,
+   "kd": 4,
+   "gscImpr90d": 22,
+   "status": "planned 2027-02-01",
+   "overlaps": [
+    "/learn/bug-bites"
+   ],
+   "variants": [
+    "bee sting",
+    "wasp sting",
+    "yellow jacket sting",
+    "what does a wasp sting look like"
+   ],
+   "score": 5200,
+   "evidence": "Ahrefs US 4,000, KD 4",
+   "rank": 80,
+   "day": 9,
+   "winterFactor": 0.41
   },
   {
    "slug": "bugs-in-basement",
@@ -2130,9 +2138,33 @@
    ],
    "score": 4648,
    "evidence": "Ahrefs US 4,375",
-   "rank": 81,
+   "rank": 84,
    "day": 9,
    "winterFactor": 0.41
+  },
+  {
+   "slug": "crickets-in-house",
+   "keyword": "crickets in house",
+   "type": "Identification: species",
+   "season": "summer",
+   "usVolume": 1600,
+   "clusterVolume": 5500,
+   "kd": 9,
+   "gscImpr90d": null,
+   "status": "planned 2026-12-28",
+   "overlaps": [
+    "/blog/camel-crickets"
+   ],
+   "variants": [
+    "house cricket",
+    "how to get rid of crickets",
+    "field crickets"
+   ],
+   "score": 2880,
+   "evidence": "Ahrefs US 3,200, KD 9",
+   "rank": 90,
+   "day": 10,
+   "winterFactor": 0.55
   },
   {
    "usVolume": null,
@@ -2150,8 +2182,8 @@
    "overlaps": [
     "/blog/bugs-that-look-like-ticks"
    ],
-   "rank": 95,
-   "day": 9,
+   "rank": 97,
+   "day": 10,
    "winterFactor": 0.9
   },
   {
@@ -2175,7 +2207,7 @@
    ],
    "score": 1944,
    "evidence": "Ahrefs US 2,700, KD 13",
-   "rank": 92,
+   "rank": 94,
    "day": 10,
    "winterFactor": 0.64
   },
@@ -2196,7 +2228,7 @@
     "/blog/camel-crickets",
     "/blog/animal-droppings"
    ],
-   "rank": 96,
+   "rank": 98,
    "day": 10,
    "winterFactor": 0.9
   },
@@ -2220,7 +2252,7 @@
    ],
    "score": 2430,
    "evidence": "Ahrefs US 2,700, KD 6",
-   "rank": 91,
+   "rank": 93,
    "day": 10,
    "winterFactor": 0.45
   },
@@ -2246,7 +2278,7 @@
    ],
    "score": 2520,
    "evidence": "Ahrefs US 3,500, KD 12",
-   "rank": 90,
+   "rank": 92,
    "day": 10,
    "winterFactor": 0.38
   },
@@ -2266,7 +2298,7 @@
    "overlaps": [
     "/blog/mosquito-larvae-identification"
    ],
-   "rank": 94,
+   "rank": 96,
    "day": 10,
    "winterFactor": 0.45
   },
@@ -2291,7 +2323,7 @@
    ],
    "score": 4055,
    "evidence": "Ahrefs US 5,300",
-   "rank": 86,
+   "rank": 88,
    "day": 10,
    "winterFactor": 0.14
   },
@@ -2312,7 +2344,7 @@
     "/blog/signs-of-carpet-beetles",
     "/blog/carpet-beetle-larvae"
    ],
-   "rank": 99,
+   "rank": 100,
    "day": 10,
    "winterFactor": 0.79
   },
@@ -2330,47 +2362,9 @@
    "evidence": "Ahrefs US 1,300, KD 7",
    "score": 1250,
    "overlaps": [],
-   "rank": 97,
+   "rank": 99,
    "day": 10,
    "winterFactor": 0.22
-  },
-  {
-   "usVolume": null,
-   "clusterVolume": null,
-   "kd": null,
-   "status": "new (Search Console / research gap)",
-   "variants": [],
-   "gscImpr90d": null,
-   "slug": "bugs-that-look-like-ants",
-   "keyword": "bugs that look like ants",
-   "type": "Identification: look-alikes",
-   "season": "summer",
-   "evidence": "Ahrefs US 300, KD 0",
-   "score": 360,
-   "overlaps": [
-    "/blog/flying-ants-vs-termites"
-   ],
-   "rank": 100,
-   "day": 10,
-   "winterFactor": 0.45
-  },
-  {
-   "usVolume": null,
-   "clusterVolume": null,
-   "kd": null,
-   "status": "new (Search Console / research gap)",
-   "variants": [],
-   "gscImpr90d": null,
-   "slug": "bugs-that-look-like-bees",
-   "keyword": "bugs that look like bees",
-   "type": "Identification: look-alikes",
-   "season": "summer",
-   "evidence": "Ahrefs US 450 (cluster), KD 5",
-   "score": 540,
-   "overlaps": [],
-   "rank": 98,
-   "day": 10,
-   "winterFactor": 0.15
   }
  ]
 }
