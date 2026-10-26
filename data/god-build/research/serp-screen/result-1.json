@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "brown-recluse",
+    "query": "brown recluse",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "earth.com", "tier": "B"},
+      {"domain": "livescience.com", "tier": "B"},
+      {"domain": "ufhealth.org", "tier": "A"},
+      {"domain": "canr.msu.edu", "tier": "A"}
+    ],
+    "winnability": 1,
+    "takes": "Wikipedia, UF Health, MSU Extension and two science publishers: page one possible with ID photos, look-alikes and a range map; top 3 unlikely without strong links",
+    "note": "UF Health listed twice (same page), counted once; Missouri Dept of Conservation is #7."
+  },
+  {
+    "slug": "rat-snakes",
+    "query": "rat snake",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "vedantu.com", "tier": "B"},
+      {"domain": "earth.com", "tier": "B"},
+      {"domain": "en.banglapedia.org", "tier": "B"}
+    ],
+    "winnability": 1,
+    "takes": "two Wikipedia articles plus big reference sites: top 3 unlikely; a US black rat snake ID page with look-alikes could reach page one",
+    "note": "Results lean to the Asian Oriental rat snake; Britannica #6, NC Wildlife (state agency) #7."
+  },
+  {
+    "slug": "cicadas",
+    "query": "cicada",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "webmd.com", "tier": "A"},
+      {"domain": "vocabulary.com", "tier": "B"},
+      {"domain": "desertusa.com", "tier": "C"},
+      {"domain": "drishtiias.com", "tier": "B"}
+    ],
+    "winnability": 1.75,
+    "takes": "Wikipedia, WebMD and dictionaries hold the head term: top 3 unlikely; long-tail angles (brood maps, cicada vs cicada killer) are the realistic play",
+    "note": "wikipedia.com and a vocabulary.com CDN copy were mirrors of listed results, counted once. Dictionaries are tiered B throughout this file."
+  },
+  {
+    "slug": "garter-snakes",
+    "query": "garter snake",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "vedantu.com", "tier": "B"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "nps.gov", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia (2 articles), Britannica and the National Park Service: top 3 out of reach; page one only with a niche angle",
+    "note": "Two different Wikipedia articles (garter snake, eastern garter snake), both counted."
+  },
+  {
+    "slug": "bot-flies",
+    "query": "bot fly",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "blogs.oregonstate.edu", "tier": "A"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "pestsense.cahnrs.wsu.edu", "tier": "A"},
+      {"domain": "livestockvetento.tamu.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "all five are Wikipedia, Britannica or university pages: top 3 out of reach",
+    "note": "WSU Extension page listed twice, counted once."
+  },
+  {
+    "slug": "dust-mites",
+    "query": "dust mites",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "sheppardsoftware.com", "tier": "C"},
+      {"domain": "rememberthefilter.com", "tier": "C"},
+      {"domain": "columbiadoctors.org", "tier": "A"},
+      {"domain": "uofmhealthwest.org", "tier": "A"}
+    ],
+    "winnability": 5,
+    "takes": "Wikipedia and two university health systems, with small sites at #2-3: top 3 possible with a magnified-photo ID page plus allergy-control steps citing health sources, and a few links",
+    "note": "Allergy intent; HealthLinkBC and UMaine Extension follow at #6-7."
+  },
+  {
+    "slug": "no-see-ums",
+    "query": "no see ums",
+    "top5": [],
+    "winnability": null,
+    "takes": "unknown: no real page one came back; check Google by hand before deciding",
+    "note": "NOT SCORED. All 9 results were auto-generated spam on hijacked subdomains (e.g. status.penumbra.zone, docs.thebrandindustry.com, munki.ckcs.net). Counting them as small sites would give a meaningless 10."
+  },
+  {
+    "slug": "snake-poop",
+    "query": "snake poop",
+    "top5": [
+      {"domain": "reptile.guide", "tier": "C"},
+      {"domain": "blogs.ucl.ac.uk", "tier": "A"},
+      {"domain": "critterstop.com", "tier": "C"},
+      {"domain": "lacocinadegisele.com", "tier": "C"}
+    ],
+    "winnability": 8,
+    "takes": "weak page one (reptile-care blog, a UCL blog tag page, a wildlife-removal blog): a photo ID page (snake vs lizard vs bird droppings, white urate cap, size scale) should reach top 3 without links",
+    "note": "5 of 9 results were spam on hijacked subdomains (coastalread.it.com, dr-xm.saas.infor.com, doapi.flashtelecom.es, api-reach.leaselab.com.au) and were skipped, leaving only 4 real results. Counting the spam gives the same 8."
+  },
+  {
+    "slug": "spotted-lanternfly",
+    "query": "spotted lanternfly",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "inaturalist.org", "tier": "B"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "agriculture.vic.gov.au", "tier": "A"},
+      {"domain": "dpi.nsw.gov.au", "tier": "A"}
+    ],
+    "winnability": 1,
+    "takes": "Wikipedia, iNaturalist, a dictionary and government agencies on a news-driven term: top 3 unlikely",
+    "note": "Two Australian biosecurity pages in the top 5; Washington State, NPS and Wisconsin Extension at #7-10. Merriam-Webster listed twice, counted once."
+  },
+  {
+    "slug": "tiny-white-bugs",
+    "query": "tiny white bugs",
+    "top5": [
+      {"domain": "bobvila.com", "tier": "B"},
+      {"domain": "terminix.com", "tier": "B"},
+      {"domain": "forums.botanicalgarden.ubc.ca", "tier": "C"},
+      {"domain": "hawxpestcontrol.com", "tier": "C"},
+      {"domain": "leafyplace.com", "tier": "C"}
+    ],
+    "winnability": 9,
+    "takes": "Bob Vila and Terminix, then a forum and small pest sites: top 3 reachable with a photo ID grid sorted by where they turn up (mites, springtails, mealybugs, booklice, whiteflies)",
+    "note": "2 spam pages (aptraining.csc.com, jenkins-tpp.blackboard.com) skipped; the UBC forum thread (listed twice) counted once. Counting the spam gives the same 9."
+  },
+  {
+    "slug": "hammerhead-worms",
+    "query": "hammerhead worm",
+    "top5": [
+      {"domain": "invasivespeciesinfo.gov", "tier": "A"},
+      {"domain": "soil.evs.buffalo.edu", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "brant.ca", "tier": "A"},
+      {"domain": "extension.illinois.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "all government and university pages: top 3 out of reach",
+    "note": "National Geographic, Georgia Dept of Agriculture, Auburn and NC State fill #6-9."
+  },
+  {
+    "slug": "fire-ant-stings",
+    "query": "fire ant bite",
+    "top5": [
+      {"domain": "apollohospitals.com", "tier": "A"},
+      {"domain": "uclahealth.org", "tier": "A"},
+      {"domain": "westernexterminator.com", "tier": "B"},
+      {"domain": "keepkidshealthy.com", "tier": "C"},
+      {"domain": "orkin.com", "tier": "B"}
+    ],
+    "winnability": 0.75,
+    "takes": "medical; hospital pages (Apollo, UCLA Health) plus Orkin and Western Exterminator: page one hard, top 3 unlikely",
+    "note": "Medical (-1). Two copies of one spam text (face.meei.harvard.edu, sa.sothebysinstitute.com) skipped; Apollo and UCLA Health each listed twice, counted once."
+  },
+  {
+    "slug": "crab-spiders",
+    "query": "crab spider",
+    "top5": [
+      {"domain": "entnemdept.ufl.edu", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "soil.evs.buffalo.edu", "tier": "A"},
+      {"domain": "es.tmparksfoundation.org", "tier": "C"},
+      {"domain": "merriam-webster.com", "tier": "B"}
+    ],
+    "winnability": 0.25,
+    "takes": "three university/Wikipedia pages on top: top 3 out of reach; page one possible with a photo ID page",
+    "note": "Missouri Dept of Conservation at #6; Merriam-Webster listed twice, counted once."
+  },
+  {
+    "slug": "harvestmen",
+    "query": "harvestman",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "woodlandtrust.org.uk", "tier": "A"},
+      {"domain": "dictionary.com", "tier": "B"},
+      {"domain": "inhf.org", "tier": "C"},
+      {"domain": "newworldencyclopedia.org", "tier": "B"}
+    ],
+    "winnability": 1.75,
+    "takes": "Wikipedia, UK charities and a dictionary: top 3 unlikely; US readers mostly say 'daddy long legs', so screen that wording instead",
+    "note": "Ambiguous (the arachnid vs a farm worker) and UK-heavy; the Wikipedia hit is the phylogeny article. UK conservation charities tiered A, like the National Wildlife Federation."
+  },
+  {
+    "slug": "rat-nest",
+    "query": "rat nest",
+    "top5": [
+      {"domain": "rentokil.co.uk", "tier": "B"},
+      {"domain": "skedaddlewildlife.com", "tier": "C"},
+      {"domain": "terminix.com", "tier": "B"},
+      {"domain": "colonialpest.com", "tier": "C"},
+      {"domain": "crittercontrol.com", "tier": "B"}
+    ],
+    "winnability": 7.25,
+    "takes": "Rentokil, Terminix and Critter Control plus two regional firms: top 3 reachable with real nest photos (Norway vs roof rat, burrow vs attic nest) and a signs checklist; a few links help",
+    "note": "Rentokil (AMP copy), Terminix (old and new URL) and Colonial Pest each listed twice, counted once."
+  },
+  {
+    "slug": "snow-fleas",
+    "query": "snow fleas",
+    "top5": [
+      {"domain": "entomology.umn.edu", "tier": "A"},
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "soil.evs.buffalo.edu", "tier": "A"},
+      {"domain": "canr.msu.edu", "tier": "A"},
+      {"domain": "discoverwildlife.com", "tier": "B"}
+    ],
+    "winnability": 0,
+    "takes": "university entomology, extension and Healthline: top 3 out of reach",
+    "note": "Winter-seasonal query."
+  },
+  {
+    "slug": "crazy-ants",
+    "query": "crazy ants",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "thedailygarden.us", "tier": "C"},
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "mypmp.net", "tier": "C"}
+    ],
+    "winnability": 5.75,
+    "takes": "Wikipedia, a dictionary and Orkin, with small sites at #3 and #5: top 3 possible with a species ID page (tawny vs longhorn vs yellow crazy ant: photos, range, tells) and a few links",
+    "note": "The name covers several species; the Wikipedia hit is the longhorn crazy ant."
+  },
+  {
+    "slug": "false-widow-spiders",
+    "query": "false widow spider",
+    "top5": [
+      {"domain": "wildlifetrusts.org", "tier": "A"},
+      {"domain": "britishspiders.org.uk", "tier": "C"},
+      {"domain": "nhm.ac.uk", "tier": "A"},
+      {"domain": "itv.com", "tier": "B"},
+      {"domain": "sciencefocus.com", "tier": "B"}
+    ],
+    "winnability": 3.5,
+    "takes": "UK page one (Wildlife Trusts, Natural History Museum, UK media): top 3 unlikely; screen the US wording 'false black widow' instead",
+    "note": "UK-centric results (the noble false widow is a UK news story). Wildlife Trusts tiered A, like the National Wildlife Federation."
+  },
+  {
+    "slug": "stink-bug-eggs",
+    "query": "stink bug eggs",
+    "top5": [
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "ncbi.nlm.nih.gov", "tier": "A"},
+      {"domain": "ncbi.nlm.nih.gov", "tier": "A"},
+      {"domain": "extension.uconn.edu", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Orkin, two NIH research papers, UConn Extension and Wikipedia: top 3 unlikely; page one possible with an egg-mass photo comparison (pest vs predatory stink bug)",
+    "note": "Two separate NCBI papers counted as two results; counting one lets PestWorld in and still scores 0.25. Orkin's second URL (#9) is the same page."
+  },
+  {
+    "slug": "sweat-bees",
+    "query": "sweat bees",
+    "top5": [
+      {"domain": "bestbees.com", "tier": "C"},
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "gardenia.net", "tier": "C"},
+      {"domain": "northernwoodlands.org", "tier": "C"},
+      {"domain": "webmd.com", "tier": "A"}
+    ],
+    "winnability": 8,
+    "takes": "small sites at #1, #3 and #4, Orkin #2, WebMD #5: top 3 reachable with a photo ID page (metallic green vs dark species), sting facts and look-alikes",
+    "note": "Britannica #6, Merriam-Webster #7."
+  },
+  {
+    "slug": "mole-crickets",
+    "query": "mole crickets",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "ask.ifas.ufl.edu", "tier": "A"},
+      {"domain": "ento.csiro.au", "tier": "A"},
+      {"domain": "entnemdept.ufl.edu", "tier": "A"},
+      {"domain": "webmd.com", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia, UF/IFAS (2 pages), CSIRO and WebMD: top 3 out of reach",
+    "note": "Lawn-pest intent; Envu (turf products) at #6."
+  },
+  {
+    "slug": "baby-silverfish",
+    "query": "baby silverfish",
+    "top5": [
+      {"domain": "drkilligans.com", "tier": "C"},
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "westernpest.com", "tier": "B"},
+      {"domain": "brainbound.blog", "tier": "C"},
+      {"domain": "enviroliteracy.org", "tier": "C"}
+    ],
+    "winnability": 8,
+    "takes": "a small brand blog at #1, Orkin and Western Pest next, thin blogs after: top 3 reachable with a size-scale photo page (nymph vs adult vs firebrat vs booklice)",
+    "note": "Orkin and Western Pest each listed twice (old and new URL), counted once; counting Orkin's second URL gives 7.25."
+  },
+  {
+    "slug": "bugs-in-basement",
+    "query": "bugs in basement",
+    "top5": [
+      {"domain": "terminix.com", "tier": "B"},
+      {"domain": "olshanfoundation.com", "tier": "C"},
+      {"domain": "hunker.com", "tier": "B"},
+      {"domain": "pestworld.org", "tier": "B"},
+      {"domain": "critterstop.com", "tier": "C"}
+    ],
+    "winnability": 7.25,
+    "takes": "Terminix, Hunker and PestWorld plus a foundation-repair firm: top 3 reachable with a photo ID list of basement bugs tied to the moisture fixes; a few links help",
+    "note": "Olshan Foundation and Critter Stop each listed twice (a ?p= copy), counted once; counting both Olshan pages gives 8."
+  },
+  {
+    "slug": "groundhogs",
+    "query": "groundhog hole",
+    "top5": [
+      {"domain": "dev-cms.terminix.com", "tier": "B"},
+      {"domain": "bobvila.com", "tier": "B"},
+      {"domain": "crittercontrol.com", "tier": "B"},
+      {"domain": "post-journal.com", "tier": "C"}
+    ],
+    "winnability": 5.5,
+    "takes": "Terminix, Bob Vila and Critter Control, then a local paper: top 3 possible with real hole photos and a hole-size comparison (groundhog vs skunk vs chipmunk vs rat) plus a few links",
+    "note": "4 spam pages (cloud.binaryage.com, services.flexco.com, tv.fpabramo.org.br, elearning.midasuser.com) and an auto-generated link page (groundhog.onrender.com) skipped, leaving 4 real results. Counting the spam as small sites gives 8.75."
+  },
+  {
+    "slug": "stinging-caterpillars",
+    "query": "stinging caterpillar",
+    "top5": [
+      {"domain": "indianapublicmedia.org", "tier": "C"},
+      {"domain": "entomology.mgcafe.uky.edu", "tier": "A"},
+      {"domain": "hgic.clemson.edu", "tier": "A"},
+      {"domain": "gardeningsolutions.ifas.ufl.edu", "tier": "A"},
+      {"domain": "forsyth.cc", "tier": "A"}
+    ],
+    "winnability": 2,
+    "takes": "public radio at #1, then four extension pages: page one possible with a photo ID gallery of US stinging species, top 3 unlikely",
+    "note": "Not scored as medical (an ID query), though readers also want sting first aid."
+  },
+  {
+    "slug": "tarantulas",
+    "query": "tarantula",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "encyclopedia.pub", "tier": "B"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "kolibri.teacherinabox.org.au", "tier": "C"}
+    ],
+    "winnability": 1,
+    "takes": "encyclopedias own it (Wikipedia twice, one a Marvel Comics page, plus Britannica): top 3 out of reach; only long-tail angles are realistic",
+    "note": "Pet-keeping intent not represented. A Wikipedia mirror and a second encyclopedia.pub revision page collapsed; encyclopedia.pub (MDPI) tiered B."
+  },
+  {
+    "slug": "stable-flies",
+    "query": "stable fly",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "sanbi.org", "tier": "A"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "dictionary.dogonews.com", "tier": "C"}
+    ],
+    "winnability": 0.25,
+    "takes": "Wikipedia, SANBI (South African government institute), Britannica and dictionaries: top 3 out of reach",
+    "note": "Livestock intent; Merck Veterinary Manual at #8. Wikipedia and Merriam-Webster mirrors collapsed."
+  },
+  {
+    "slug": "rat-mites",
+    "query": "rat mites",
+    "top5": [
+      {"domain": "petmd.com", "tier": "B"},
+      {"domain": "ncbi.nlm.nih.gov", "tier": "A"},
+      {"domain": "pestsense.cahnrs.wsu.edu", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "PetMD, NIH, WSU Extension and two Wikipedia articles: top 3 out of reach",
+    "note": "Two intents: mites on pet rats (PetMD) vs tropical rat mites biting people (WSU, Wikipedia)."
+  }
+]

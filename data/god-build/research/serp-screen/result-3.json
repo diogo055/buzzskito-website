@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "lice-eggs",
+    "query": "lice eggs",
+    "top5": [
+      {"domain": "texasinsects.tamu.edu", "tier": "A"},
+      {"domain": "liceclinicsofamerica.com", "tier": "C"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "image-ppubs.uspto.gov", "tier": "A"},
+      {"domain": "healthline.com", "tier": "A"}
+    ],
+    "winnability": 2,
+    "takes": "Texas A&M, Wikipedia and Healthline hold it: page one possible with life-size nit photos (nits vs dandruff, live vs hatched), top 3 unlikely",
+    "note": "Collapsed a duplicate Texas A&M URL and skipped 1 spam page. #4 is a USPTO patent PDF (A by domain, an engine artifact). Health topic, not scored as medical (no bite or sting)."
+  },
+  {
+    "slug": "stick-bugs",
+    "query": "stick bug",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "webmd.com", "tier": "A"},
+      {"domain": "ecoshieldpest.com", "tier": "C"},
+      {"domain": "smithsonianmag.com", "tier": "A"},
+      {"domain": "tpwmagazine.com", "tier": "A"}
+    ],
+    "winnability": 2,
+    "takes": "Wikipedia, WebMD, Smithsonian and Texas Parks & Wildlife crowd it, but a pest-company page holds #3: page one possible with US species photo-ID + harmless facts; top 3 needs links",
+    "note": "Collapsed a duplicate EcoShield URL and skipped 1 spam page. tpwmagazine.com counted as a state agency (Texas Parks & Wildlife). National Geographic is next."
+  },
+  {
+    "slug": "wasp-nest-identification",
+    "query": "wasp nest",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "nbcenvironment.co.uk", "tier": "C"}
+    ],
+    "winnability": 8,
+    "takes": "LOW CONFIDENCE: only Wikipedia and a UK pest firm came back. A nest-ID photo page (paper wasp vs yellowjacket vs hornet) may be open, but re-screen page one before building",
+    "note": "7 of 9 results were spam or parasite pages plus a video-game wiki (all skipped), so positions 3-5 are unknown and the score is an upper bound."
+  },
+  {
+    "slug": "fleas-on-humans",
+    "query": "fleas on humans",
+    "top5": [
+      {"domain": "petmd.com", "tier": "B"},
+      {"domain": "ebsco.com", "tier": "B"}
+    ],
+    "winnability": 6,
+    "takes": "LOW CONFIDENCE: only PetMD and EBSCO came back. A page on whether fleas live on people, bite photos and where they come from may reach page one, but re-screen first",
+    "note": "7 of 9 results were spam or parasite pages (skipped), so the score is an upper bound. Scored as medical (bites on people); without that it would be 7."
+  },
+  {
+    "slug": "sand-fleas",
+    "query": "sand fleas",
+    "top5": [
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "itchpet.com", "tier": "C"},
+      {"domain": "ebsco.com", "tier": "B"}
+    ],
+    "winnability": 8,
+    "takes": "LOW CONFIDENCE: a dictionary, EBSCO and a pet-brand blog came back. A page sorting beach hoppers from chigoe fleas (photos, bites, US beaches) may be open, but re-screen first",
+    "note": "5 of 9 results were spam or parasite pages (skipped) and a duplicate Merriam-Webster entry was collapsed, so the score is an upper bound. Dictionaries counted as B (thin entries on big domains)."
+  },
+  {
+    "slug": "spider-mites",
+    "query": "spider mites",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "bugsforbugs.com.au", "tier": "C"},
+      {"domain": "daylilies.org", "tier": "C"},
+      {"domain": "apps.web.maine.gov", "tier": "A"},
+      {"domain": "ipm.ucanr.edu", "tier": "A"}
+    ],
+    "winnability": 5,
+    "takes": "Wikipedia and UC IPM/Maine hold the ends, small biocontrol and society pages sit #2-3: page one realistic with webbing and stippling photos + spider mite vs clover mite; top 3 needs a few links",
+    "note": "Collapsed 3 duplicate URLs (2 Wikipedia aliases, 1 daylilies.org). Plant pest, off the core home-pest audience. EBSCO is next."
+  },
+  {
+    "slug": "tarantula-hawks",
+    "query": "tarantula hawk",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "nps.gov", "tier": "A"},
+      {"domain": "nps.gov", "tier": "A"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "hatchmag.com", "tier": "C"}
+    ],
+    "winnability": 0.25,
+    "takes": "owned by Wikipedia and two National Park Service pages: page one possible with sting-pain facts, look-alikes and a range map; top 3 unlikely",
+    "note": "Two distinct nps.gov pages counted separately; duplicate Merriam-Webster URL collapsed. BBC Wildlife (discoverwildlife.com) is #6."
+  },
+  {
+    "slug": "thrips",
+    "query": "thrips",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "mrec.ifas.ufl.edu", "tier": "A"},
+      {"domain": "ncipmhort.cfans.umn.edu", "tier": "A"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "encyclopedia.com", "tier": "B"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia, two extension pages and Britannica: not winnable for the head term; long-tail only",
+    "note": "Skipped a Wikipedia mirror (encycloreader.org) and an EPFL concept page generated from Wikipedia. Plant pest, off the core audience."
+  },
+  {
+    "slug": "mealybugs",
+    "query": "mealybugs",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "ncipmhort.cfans.umn.edu", "tier": "A"},
+      {"domain": "webmd.com", "tier": "A"},
+      {"domain": "mrec.ifas.ufl.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "all-authority page one (Wikipedia x2, U of Minnesota, WebMD, UF/IFAS): not winnable for the head term",
+    "note": "Two distinct Wikipedia pages (Mealybug, Pseudococcus viburni) counted separately. Houseplant pest, off the core audience."
+  },
+  {
+    "slug": "grass-spiders",
+    "query": "grass spider",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "mdc.mo.gov", "tier": "A"},
+      {"domain": "pestworld.org", "tier": "B"},
+      {"domain": "lawnlove.com", "tier": "B"},
+      {"domain": "westernexterminator.com", "tier": "B"}
+    ],
+    "winnability": 1,
+    "takes": "Wikipedia, Missouri Conservation and PestWorld: page one possible with photo-ID (grass vs wolf vs hobo spider) + funnel-web photos; top 3 needs links",
+    "note": "Lawn Love counted as B (large lawn-care content site); Western Exterminator is Rentokil (B). Duplicate Lawn Love and Merriam-Webster URLs collapsed."
+  },
+  {
+    "slug": "what-do-lice-look-like",
+    "query": "what do lice look like",
+    "top5": [
+      {"domain": "sciencetrends.com", "tier": "C"},
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "licedoctors.com", "tier": "C"},
+      {"domain": "drgreene.com", "tier": "C"},
+      {"domain": "todaysparent.com", "tier": "B"}
+    ],
+    "winnability": 7.25,
+    "takes": "Healthline at #2 among small blogs and a lice clinic: a life-size photo page (adult, nymph, nit vs dandruff) can reach top 3 with a few links",
+    "note": "Skipped 4 spam pages. Medium confidence: health topic, so Google US may lean more on medical sites (Harvard Health is #6 here). Not scored as medical (no bite or sting)."
+  },
+  {
+    "slug": "scorpion-stings",
+    "query": "scorpion sting",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "encyclopedia.pub", "tier": "B"},
+      {"domain": "kidshealth.org", "tier": "A"},
+      {"domain": "apollohospitals.com", "tier": "A"},
+      {"domain": "commonspirit.org", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "owned by Wikipedia and hospital/children's-health sites on a medical query: top 3 not realistic, page one unlikely",
+    "note": "Scored as medical. Hospitals and health systems counted as A; encyclopedia.pub (MDPI) as B. Collapsed duplicate KidsHealth and Apollo URLs. Orkin is next (#6)."
+  },
+  {
+    "slug": "crickets-in-house",
+    "query": "crickets in house",
+    "top5": [
+      {"domain": "thebugmaster.com", "tier": "C"},
+      {"domain": "tomsguide.com", "tier": "B"},
+      {"domain": "hgic.clemson.edu", "tier": "A"},
+      {"domain": "knockoutpest.com", "tier": "C"},
+      {"domain": "bobvila.com", "tier": "B"}
+    ],
+    "winnability": 5.75,
+    "takes": "mixed page one (two pest companies, Tom's Guide, Clemson, Bob Vila): a why-they-come-in + house/field/camel cricket ID page can reach page one; top 3 needs some links",
+    "note": "Skipped a parasite page on rcflood.gov at #1. UMD Extension and Terminix are next."
+  },
+  {
+    "slug": "mayflies",
+    "query": "mayflies",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "newworldencyclopedia.org", "tier": "B"},
+      {"domain": "thecanadianencyclopedia.ca", "tier": "B"},
+      {"domain": "entnemdept.ufl.edu", "tier": "A"},
+      {"domain": "mdc.mo.gov", "tier": "A"}
+    ],
+    "winnability": 1,
+    "takes": "encyclopedic page one (Wikipedia, two encyclopedias, UF, Missouri Conservation): page one possible with a swarm + harmless angle, top 3 unlikely",
+    "note": "Collapsed duplicate Canadian Encyclopedia URLs (incl. its French domain) and Missouri Conservation. Encyclopedias counted as B."
+  },
+  {
+    "slug": "blister-beetles",
+    "query": "blister beetle",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "acis.cals.arizona.edu", "tier": "A"},
+      {"domain": "sbcsentinel.com", "tier": "C"},
+      {"domain": "merriam-webster.com", "tier": "B"}
+    ],
+    "winnability": 0.25,
+    "takes": "Wikipedia, Britannica and U of Arizona hold 1-3: page one possible with skin-blister photos, look-alikes and the hay/livestock warning; top 3 unlikely",
+    "note": "Skipped a USF clip-art keyword page. Not scored as medical: this page one is about the insect, not treatment (a 'blister beetle burn' query would be)."
+  },
+  {
+    "slug": "bat-bugs",
+    "query": "bat bugs",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "webmd.com", "tier": "A"},
+      {"domain": "orkincanada.ca", "tier": "B"},
+      {"domain": "catseyepest.com", "tier": "C"},
+      {"domain": "skedaddlewildlife.com", "tier": "C"}
+    ],
+    "winnability": 2.5,
+    "takes": "Wikipedia, WebMD and Orkin, then pest and wildlife firms at #4-5: page one realistic with a bat bug vs bed bug photo-ID; top 3 needs links",
+    "note": "Skipped a Wikipedia mirror; collapsed duplicate Orkin and Skedaddle URLs. orkin.com is next."
+  },
+  {
+    "slug": "cicada-killers",
+    "query": "cicada killer",
+    "top5": [
+      {"domain": "arthropod.uark.edu", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "clemson.edu", "tier": "A"},
+      {"domain": "dictionary.com", "tier": "B"},
+      {"domain": "merriam-webster.com", "tier": "B"}
+    ],
+    "winnability": 0,
+    "takes": "Arkansas, Wikipedia and Clemson hold 1-3 and extension pages fill 6-9 (K-State x2, Purdue, UMD): not winnable in 12 months",
+    "note": "Dictionaries at #4-5 counted as B."
+  },
+  {
+    "slug": "woodlouse-spiders",
+    "query": "woodlouse spider",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "inaturalist.org", "tier": "B"},
+      {"domain": "woodlandtrust.org.uk", "tier": "B"},
+      {"domain": "pestweb.com", "tier": "C"},
+      {"domain": "inaturalist.org", "tier": "B"}
+    ],
+    "winnability": 3.25,
+    "takes": "Wikipedia, iNaturalist and Woodland Trust (UK): page one possible with US photo-ID, bite facts and woodlouse spider vs brown recluse; top 3 needs links",
+    "note": "iNaturalist counted as B; two distinct iNaturalist guide pages counted separately (collapsed, USU Extension takes #5 and the score is 2.5). PestWorld is also on page one."
+  },
+  {
+    "slug": "western-conifer-seed-bugs",
+    "query": "western conifer seed bug",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "canr.msu.edu", "tier": "A"},
+      {"domain": "uwm.edu", "tier": "A"},
+      {"domain": "rhs.org.uk", "tier": "B"},
+      {"domain": "extension.usu.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia plus four university pages: not winnable for the head term",
+    "note": "Penn State and Iowa State Extension are next."
+  },
+  {
+    "slug": "squash-bugs",
+    "query": "squash bugs",
+    "top5": [
+      {"domain": "ipm.ucanr.edu", "tier": "A"},
+      {"domain": "mdc.mo.gov", "tier": "A"},
+      {"domain": "vegento.russell.wisc.edu", "tier": "A"},
+      {"domain": "extension.usu.edu", "tier": "A"},
+      {"domain": "arthropod.uark.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "five extension and state pages: not winnable; garden pest outside the core audience",
+    "note": "Bonnie Plants and Almanac sit at #7 and #9."
+  },
+  {
+    "slug": "pharaoh-ants",
+    "query": "pharaoh ants",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "bolton.gov.uk", "tier": "A"},
+      {"domain": "domyown.com", "tier": "B"},
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "oxford.gov.uk", "tier": "A"}
+    ],
+    "winnability": 0.25,
+    "takes": "Wikipedia, government pest pages and DoMyOwn/Orkin: page one possible with a bait-only control angle (sprays split colonies); top 3 unlikely",
+    "note": "The UK council pages (#2, #5) may be an engine artifact for a US search. DoMyOwn counted as B (large pest-product retailer)."
+  },
+  {
+    "slug": "lawn-grubs",
+    "query": "grubs in lawn",
+    "top5": [
+      {"domain": "missouribotanicalgarden.org", "tier": "A"},
+      {"domain": "ontario.ca", "tier": "A"},
+      {"domain": "leafyplace.com", "tier": "C"},
+      {"domain": "tomsguide.com", "tier": "B"},
+      {"domain": "extension.umd.edu", "tier": "A"}
+    ],
+    "winnability": 2.75,
+    "takes": "Missouri Botanical Garden and government/extension pages, Leafy Place at #3: page one possible with grub ID photos, damage signs and treatment timing; top 3 needs links",
+    "note": "Missouri Botanical Garden counted as A (research institution); ontario.ca may be an engine artifact on a US search. Scotts and LawnStarter (B) are next. Lawn care rather than core pest."
+  },
+  {
+    "slug": "pavement-ants",
+    "query": "pavement ants",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "pestworldforkids.org", "tier": "B"},
+      {"domain": "yardandgarden.extension.iastate.edu", "tier": "A"},
+      {"domain": "extension.psu.edu", "tier": "A"},
+      {"domain": "content.ces.ncsu.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia plus three extension pages: not winnable for the head term",
+    "note": "pestworldforkids.org is NPMA (B). Small pest companies appear only from #6."
+  },
+  {
+    "slug": "cricket-poop",
+    "query": "cricket poop",
+    "top5": [
+      {"domain": "a-z-animals.com", "tier": "B"},
+      {"domain": "arachnoboards.com", "tier": "C"},
+      {"domain": "backyardchickens.com", "tier": "C"},
+      {"domain": "thebts.co.uk", "tier": "C"},
+      {"domain": "bulwarkpestcontrol.com", "tier": "C"}
+    ],
+    "winnability": 10,
+    "takes": "weak page one (A-Z Animals, three forums, a pest company): a photo page of cricket droppings vs eggs vs mouse and roach droppings can take top 3 with few or no links",
+    "note": "Skipped Wikipedia's cricket-the-sport page, a research author profile and a journal tag page. The forums are pet keepers (feeder crickets), so intent is split. Formula gave 10.5, clamped to 10."
+  },
+  {
+    "slug": "how-long-do-mosquito-bites-last",
+    "query": "how long do mosquito bites last",
+    "top5": [
+      {"domain": "malaysia.news.yahoo.com", "tier": "B"},
+      {"domain": "moshield.com", "tier": "C"},
+      {"domain": "gardengatemagazine.com", "tier": "C"},
+      {"domain": "off.com", "tier": "B"},
+      {"domain": "biologyinsights.com", "tier": "C"}
+    ],
+    "winnability": 7.75,
+    "takes": "no authority site in this sample (Yahoo, OFF!, small blogs): a day-by-day timeline with photos, when-to-see-a-doctor signs and sources can reach top 3",
+    "note": "Scored as medical. No health publisher appeared, which is unusual for a medical query, so treat the score as an upper bound. Terminix is #7."
+  },
+  {
+    "slug": "ground-beetles",
+    "query": "ground beetle",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "web.stanford.edu", "tier": "A"},
+      {"domain": "soil.evs.buffalo.edu", "tier": "A"},
+      {"domain": "mdc.mo.gov", "tier": "A"},
+      {"domain": "britannica.com", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia, Missouri Conservation and Britannica plus two thin .edu pages: page one possible with a harmless/beneficial ID page, top 3 unlikely",
+    "note": "#2-3 are a personal page and a course wiki on .edu domains (A by domain). Collapsed duplicate Stanford, Britannica and Wikipedia URLs."
+  },
+  {
+    "slug": "itch-mites",
+    "query": "itch mites",
+    "top5": [
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "agric.wa.gov.au", "tier": "A"},
+      {"domain": "dictionary.com", "tier": "B"},
+      {"domain": "idph.illinois.gov", "tier": "A"},
+      {"domain": "bettertermite.com", "tier": "C"}
+    ],
+    "winnability": 1.5,
+    "takes": "dictionaries and two government pages, bettertermite.com (a comparable) at #5: page one plausible with oak leaf itch mite bite photos and sources; top 3 needs links",
+    "note": "Scored as medical (itchy bites). Skipped a dictionary scraper and collapsed duplicate dictionary URLs; the Western Australia sheep-mite page looks like an engine artifact. Dictionaries counted as B."
+  },
+  {
+    "slug": "bugs-in-bed",
+    "query": "bugs in bed that are not bed bugs",
+    "top5": [
+      {"domain": "ask2.extension.org", "tier": "A"},
+      {"domain": "a-z-animals.com", "tier": "B"},
+      {"domain": "drkilligans.com", "tier": "C"},
+      {"domain": "biologyinsights.com", "tier": "C"},
+      {"domain": "terminix.com", "tier": "B"}
+    ],
+    "winnability": 5.75,
+    "takes": "thin #1 (one Ask Extension answer), A-Z Animals, Terminix and small blogs: a look-alike photo grid (carpet beetles, bat bugs, fleas, booklice, spider beetles) can reach top 3 with modest links",
+    "note": "Skipped 2 spam pages. Ask Extension Q&A answers (#1, #7) counted as A by domain, not as a forum."
+  }
+]

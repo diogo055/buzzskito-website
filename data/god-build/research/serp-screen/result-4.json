@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "huntsman-spiders",
+    "query": "huntsman spider",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "australianmuseum.net.au", "tier": "A"},
+      {"domain": "reptilepark.com.au", "tier": "C"},
+      {"domain": "terminix.com", "tier": "B"}
+    ],
+    "winnability": 1.75,
+    "takes": "Wikipedia + Australian Museum own it; page one possible with a US angle (FL/TX/CA range, brown recluse look-alike), top 3 unlikely",
+    "note": "Intent skews Australian. Second Wikipedia page and duplicate Merriam-Webster entry counted once. Wild South Florida and Discover Wildlife (BBC) next."
+  },
+  {
+    "slug": "chiggers",
+    "query": "chiggers",
+    "top5": [
+      {"domain": "wonderopolis.org", "tier": "B"},
+      {"domain": "ask.ifas.ufl.edu", "tier": "A"},
+      {"domain": "ph.health.mil", "tier": "A"},
+      {"domain": "pmc.ncbi.nlm.nih.gov", "tier": "A"},
+      {"domain": "travis-tx.tamu.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Owned by UF/Texas A&M extension, NIH and Army public health: page one possible with bite photos + habitat/season guide, top 3 unlikely",
+    "note": "Iowa State, Clemson and a children's hospital (KidsHealth) next: the whole page is authority."
+  },
+  {
+    "slug": "rabbit-poop",
+    "query": "rabbit poop",
+    "top5": [
+      {"domain": "chewy.com", "tier": "B"},
+      {"domain": "open.lib.umn.edu", "tier": "A"},
+      {"domain": "bunnylady.com", "tier": "C"}
+    ],
+    "winnability": 6.5,
+    "takes": "Pet-health SERP (Chewy, UMN, Bunny Lady); a yard-ID page (rabbit vs deer, squirrel, rat droppings) must also cover pet basics; top 3 plausible with a few links",
+    "note": "MEDIUM CONFIDENCE: 4 of 9 results were scraper spam (excluded), only 3 real domains. Page-one intent is pet rabbit health (pellets vs cecotropes), not wild-rabbit droppings in the yard."
+  },
+  {
+    "slug": "deer-fly-vs-horse-fly",
+    "query": "horse fly",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "britannica.com", "tier": "A"},
+      {"domain": "etc.usf.edu", "tier": "A"},
+      {"domain": "vedantu.com", "tier": "B"},
+      {"domain": "news.ncsu.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia/Britannica/.edu own the head term: top 3 unlikely; aim the comparison page at 'deer fly vs horse fly' instead",
+    "note": "Slug is a comparison page but the screened query is the head term. etc.usf.edu is a clipart page, tiered A by domain. UMaine, Kentucky and Texas A&M extension next."
+  },
+  {
+    "slug": "copperheads",
+    "query": "copperhead snake",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "worldatlas.com", "tier": "B"},
+      {"domain": "livescience.com", "tier": "B"},
+      {"domain": "nationalgeographic.com", "tier": "A"},
+      {"domain": "nationalzoo.si.edu", "tier": "A"}
+    ],
+    "winnability": 1.0,
+    "takes": "Owned by Wikipedia/NatGeo/Smithsonian: page one possible with photo-ID vs look-alikes + range map, top 3 unlikely",
+    "note": "A fiction-wiki result (worldanvil.com) excluded as off-topic. Britannica Kids next."
+  },
+  {
+    "slug": "baby-rats",
+    "query": "baby rats",
+    "top5": [
+      {"domain": "critterstop.com", "tier": "C"}
+    ],
+    "winnability": 10,
+    "takes": "If the real SERP is this thin: an age-by-age photo guide (pinkies to juveniles), baby rat vs baby mouse and nest signs should reach top 3",
+    "note": "LOW CONFIDENCE: 8 of 9 results were scraper spam on hijacked sites (excluded); the score rests on one real result. Re-check before building."
+  },
+  {
+    "slug": "brown-widow-spiders",
+    "query": "brown widow spider",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "hgic.clemson.edu", "tier": "A"},
+      {"domain": "cisr.ucr.edu", "tier": "A"},
+      {"domain": "purcorpest.com", "tier": "C"},
+      {"domain": "clarkpest.com", "tier": "C"}
+    ],
+    "winnability": 1.0,
+    "takes": "Wikipedia + Clemson + UC Riverside hold top 3; pest blogs at 4-5 mean page one is reachable with egg-sac/hourglass photo-ID vs black widow + US range map",
+    "note": "Duplicate Clemson and UC Riverside pages counted once. UF/IFAS next."
+  },
+  {
+    "slug": "japanese-beetles",
+    "query": "japanese beetle",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "inaturalist.org", "tier": "C"},
+      {"domain": "earth.com", "tier": "B"},
+      {"domain": "dimensions.com", "tier": "C"},
+      {"domain": "homegarden.cahnr.uconn.edu", "tier": "A"}
+    ],
+    "winnability": 5.0,
+    "takes": "Wikipedia leads, rest beatable; photo-ID vs look-alikes (false Japanese beetle, rose chafer, June bug) + grub life cycle + trap facts; top 3 needs a few links",
+    "note": "iNaturalist tiered C (community site, like BugGuide); as B the score is 2.5. A Wikipedia-derived page (graphsearch.epfl.ch) and iNaturalist sister sites skipped. Encyclopedia.com next."
+  },
+  {
+    "slug": "bugs-in-carpet",
+    "query": "bugs in carpet",
+    "top5": [
+      {"domain": "hawxpestcontrol.com", "tier": "C"},
+      {"domain": "hunker.com", "tier": "B"},
+      {"domain": "lajaunies.com", "tier": "C"},
+      {"domain": "americanpest.net", "tier": "C"},
+      {"domain": "missouri.bugoutservice.com", "tier": "C"}
+    ],
+    "winnability": 9.5,
+    "takes": "Weak SERP (regional pest blogs + Hunker); a photo-ID page (carpet beetle larvae, bed bugs, fleas, mites, springtails) with look-alikes should reach top 3 with few links",
+    "note": "Page-one intent splits between bed bugs in carpet and carpet beetles. 1 spam result excluded."
+  },
+  {
+    "slug": "bird-mites",
+    "query": "bird mites",
+    "top5": [
+      {"domain": "pestsense.cahnrs.wsu.edu", "tier": "A"},
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "critterguard.org", "tier": "C"},
+      {"domain": "yardandgarden.extension.iastate.edu", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "WSU + Healthline + Wikipedia own top 3; page one possible with bite photos, a nest-source checklist and bird mites vs bed bugs; top 3 unlikely",
+    "note": "Scored as medical (Healthline's bites/symptoms page at #2). Two AI Q&A pages on bigbird.alibaba.com excluded as an off-topic content farm. The Wikipedia result is 'Scaly foot' (a mite disease of birds). Terminix next."
+  },
+  {
+    "slug": "fly-bites",
+    "query": "fly bites",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "westernexterminator.com", "tier": "B"},
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "terminix.com", "tier": "B"},
+      {"domain": "dph.illinois.gov", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Healthline + state health + Rentokil/Terminix: top 3 unlikely; a 'which fly bit me' photo guide (horse, deer, black, stable fly, biting midges) could reach page one",
+    "note": "Wikipedia #1 is 'Fly biting' (a dog behaviour), an intent mismatch; without it the score is 0.75. Western Exterminator tiered B (Rentokil brand). Orkin, Medical News Today and Washington DOH next."
+  },
+  {
+    "slug": "wood-roaches",
+    "query": "wood roach",
+    "top5": [
+      {"domain": "arthropod.uark.edu", "tier": "A"},
+      {"domain": "buildeazy.com", "tier": "C"},
+      {"domain": "mlbs.virginia.edu", "tier": "A"},
+      {"domain": "domyown.com", "tier": "B"},
+      {"domain": "terminix.com", "tier": "B"}
+    ],
+    "winnability": 3.5,
+    "takes": "Two thin university pages + DoMyOwn/Terminix; photo-ID (woods roach vs American/German, male vs female) + why they wander indoors could reach page one; top 3 needs links",
+    "note": "Iowa State extension and PestWeb next."
+  },
+  {
+    "slug": "kissing-bug-bites",
+    "query": "kissing bug bite",
+    "top5": [
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "webmd.com", "tier": "A"},
+      {"domain": "ubiehealth.com", "tier": "C"},
+      {"domain": "sandiegocounty.gov", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Healthline/WebMD/Orkin + county and Texas A&M: medical YMYL, top 3 unlikely; page one possible with bite photos, kissing bug look-alikes and Chagas facts",
+    "note": "2 spam results excluded (one on a hijacked calpoly.edu subdomain). kissingbug.tamu.edu next."
+  },
+  {
+    "slug": "skunk-smell-in-house",
+    "query": "skunk smell in house",
+    "top5": [
+      {"domain": "critterstop.com", "tier": "C"}
+    ],
+    "winnability": 10,
+    "takes": "If the real SERP is this thin: a cause checklist (skunk under the deck, sprayed pet, gas leak, sewer gas) + odor-removal steps should reach top 3",
+    "note": "LOW CONFIDENCE: 8 of 9 results were scraper spam (incl. hijacked rcflood.gov and umb.edu pages, excluded); the score rests on one real result. Re-check before building."
+  },
+  {
+    "slug": "bark-scorpions",
+    "query": "bark scorpion",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "nps.gov", "tier": "A"},
+      {"domain": "mdc.mo.gov", "tier": "A"},
+      {"domain": "desertmuseum.org", "tier": "A"}
+    ],
+    "winnability": 0,
+    "takes": "Wikipedia/NPS/Missouri Conservation/Desert Museum: top 3 unlikely; page one possible with Arizona vs striped bark scorpion ID, UV photos and sting care",
+    "note": "Duplicate Wikipedia, NPS and Merriam-Webster results (incl. word.com, which mirrors its medical dictionary) counted once. Desert Museum tiered A as a museum, like the Smithsonian. Rentokil next."
+  },
+  {
+    "slug": "tiny-red-bugs",
+    "query": "tiny red bugs",
+    "top5": [
+      {"domain": "bobvila.com", "tier": "B"},
+      {"domain": "leafyplace.com", "tier": "C"}
+    ],
+    "winnability": 9.5,
+    "takes": "Beat Bob Vila + Leafy Place with a photo-ID page (clover mites, chiggers, spider mites, red velvet mites, boxelder nymphs) + size scale; top 3 likely",
+    "note": "LOW CONFIDENCE: 7 of 9 results were spam on hijacked sites (incl. upenn.edu and utn.edu.ar subdomains, excluded); only 2 real results."
+  },
+  {
+    "slug": "copperhead-look-alikes",
+    "query": "baby copperhead",
+    "top5": [],
+    "winnability": 10,
+    "takes": "Unscreened: re-run before deciding; the 'copperhead snake' SERP (Wikipedia, NatGeo, Smithsonian; score 1.0) suggests authorities may hold this too",
+    "note": "UNSCREENED: all 9 results were scraper spam on hijacked sites, so 10 is the formula applied to an empty page, not evidence."
+  },
+  {
+    "slug": "mosquito-eggs",
+    "query": "mosquito eggs",
+    "top5": [
+      {"domain": "experts.arizona.edu", "tier": "A"},
+      {"domain": "nwhouston.mosquitojoe.com", "tier": "B"},
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "mosquito.org", "tier": "B"},
+      {"domain": "cdc.gov", "tier": "A"}
+    ],
+    "winnability": 0.25,
+    "takes": "CDC/Wikipedia/university + Mosquito Joe and AMCA: top 3 unlikely; page one possible with real photos of egg rafts vs Aedes eggs and where to find and dump them",
+    "note": "AMCA (mosquito.org) tiered B like NPMA; Mosquito Joe B as a national franchise (two of its franchise pages counted once). Elanco next."
+  },
+  {
+    "slug": "possum-poop",
+    "query": "possum poop",
+    "top5": [
+      {"domain": "rogue-scholar.org", "tier": "C"},
+      {"domain": "critterstop.com", "tier": "C"},
+      {"domain": "a-z-animals.com", "tier": "B"}
+    ],
+    "winnability": 9.5,
+    "takes": "Weak SERP (blog archive, Critter Stop, A-Z Animals); a photo-ID page of opossum scat vs raccoon, dog and rat droppings + latrine spots + safe cleanup should reach top 3",
+    "note": "MEDIUM CONFIDENCE: 6 of 9 results were spam or off-topic content farms (incl. a hijacked ne.gov subdomain, excluded); only 3 real results."
+  },
+  {
+    "slug": "gnat-bites",
+    "query": "gnat bites",
+    "top5": [
+      {"domain": "sciencetrends.com", "tier": "C"},
+      {"domain": "orkin.com", "tier": "B"},
+      {"domain": "wyndly.com", "tier": "C"},
+      {"domain": "trulynolen.com", "tier": "B"},
+      {"domain": "healthline.com", "tier": "A"}
+    ],
+    "winnability": 6.25,
+    "takes": "Mixed SERP (Science Trends, Orkin, allergy blog; Healthline at #5); bite photos + which gnats bite (no-see-ums, black flies) + care steps could reach top 3 with a few links",
+    "note": "Truly Nolen tiered B (national pest brand); as C the score is 7.0. KidsHealth and Western Pest (Rentokil) next; 1 spam result excluded."
+  },
+  {
+    "slug": "european-hornets",
+    "query": "european hornet",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "ebsco.com", "tier": "B"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "extension.psu.edu", "tier": "A"},
+      {"domain": "hgic.clemson.edu", "tier": "A"}
+    ],
+    "winnability": 1.0,
+    "takes": "Wikipedia + Penn State/Clemson extension: page one possible with European hornet vs cicada killer/yellowjacket/Asian giant hornet photo-ID, top 3 unlikely",
+    "note": "A Wikipedia mirror (mirror2.polsri.ac.id) excluded. Missouri Conservation next."
+  },
+  {
+    "slug": "southern-house-spider",
+    "query": "southern house spider",
+    "top5": [
+      {"domain": "jungledragon.com", "tier": "C"},
+      {"domain": "orkin.com", "tier": "B"}
+    ],
+    "winnability": 9.5,
+    "takes": "If the SERP is this thin: photo-ID vs brown recluse (males), web and retreat photos + US range should reach top 3",
+    "note": "LOW CONFIDENCE: 7 of 9 results were scraper spam (excluded); only a photo community and Orkin were real."
+  },
+  {
+    "slug": "bee-sting-vs-wasp-sting",
+    "query": "bee sting vs wasp sting",
+    "top5": [
+      {"domain": "ecopestgroup.com.au", "tier": "C"},
+      {"domain": "afcurgentcare.com", "tier": "C"},
+      {"domain": "boards.straightdope.com", "tier": "C"},
+      {"domain": "reconnectwithnature.org", "tier": "A"},
+      {"domain": "unitypoint.org", "tier": "A"}
+    ],
+    "winnability": 8.0,
+    "takes": "Weak SERP (small pest firm, urgent-care blog, forum; county + hospital pages at 4-5); a side-by-side page (stinger photos, reaction timeline, first aid, allergy red flags) should reach top 3",
+    "note": "AFC Urgent Care tiered C (clinic-franchise blog); as B the score is 6.5. reconnectwithnature.org is a county forest preserve district (government, A); UnityPoint is a hospital system (A). Scored as medical. 2 spam results excluded."
+  },
+  {
+    "slug": "odorous-house-ants",
+    "query": "odorous house ants",
+    "top5": [
+      {"domain": "extension.usu.edu", "tier": "A"},
+      {"domain": "extension.psu.edu", "tier": "A"},
+      {"domain": "yardandgarden.extension.iastate.edu", "tier": "A"},
+      {"domain": "cales.arizona.edu", "tier": "A"},
+      {"domain": "terro.com", "tier": "B"}
+    ],
+    "winnability": 0,
+    "takes": "Extension wall (USU, Penn State, Iowa State, Arizona): top 3 unlikely; page one possible with photo-ID vs pavement/Argentine ants + a bait guide, needs links",
+    "note": "Orkin, Bulwark and eXtension next."
+  },
+  {
+    "slug": "bug-bites-that-blister",
+    "query": "bug bites that blister",
+    "top5": [
+      {"domain": "acibademinternational.com", "tier": "A"},
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "skinsight.com", "tier": "B"},
+      {"domain": "livingwithbugs.com", "tier": "C"},
+      {"domain": "ubiehealth.com", "tier": "C"}
+    ],
+    "winnability": 1.5,
+    "takes": "Hospital health library + Healthline + Skinsight lead: medical, top 3 unlikely; page one possible with a photo grid of blistering culprits (chiggers, fire ants, blister beetles, fleas) + see-a-doctor signs",
+    "note": "Acibadem (hospital group) tiered A, Skinsight (physician-reviewed reference) B; with Skinsight as C the score is 4.0. Scored as medical. 2 spam results excluded."
+  },
+  {
+    "slug": "leaf-footed-bugs",
+    "query": "leaf footed bug",
+    "top5": [
+      {"domain": "en.wikipedia.org", "tier": "A"},
+      {"domain": "huntfish.mdc.mo.gov", "tier": "A"},
+      {"domain": "merriam-webster.com", "tier": "B"},
+      {"domain": "terminix.com", "tier": "B"},
+      {"domain": "entnemdept.ufl.edu", "tier": "A"}
+    ],
+    "winnability": 0.25,
+    "takes": "Wikipedia + Missouri Conservation + UF: top 3 unlikely; page one possible with look-alike photos (kissing bug, western conifer seed bug, squash bug) + garden damage",
+    "note": "HGTV and UConn extension next."
+  },
+  {
+    "slug": "dust-mite-bites",
+    "query": "dust mite bites",
+    "top5": [
+      {"domain": "healthline.com", "tier": "A"},
+      {"domain": "doctronic.ai", "tier": "C"},
+      {"domain": "medicalnewstoday.com", "tier": "A"},
+      {"domain": "aprilaire.com", "tier": "B"},
+      {"domain": "acibademinternational.com", "tier": "A"}
+    ],
+    "winnability": 1.75,
+    "takes": "Healthline + MNT own the 'dust mites don't bite' answer; page one possible with a what's-really-biting-you photo guide (bed bugs, bird mites, fleas, scabies), top 3 unlikely",
+    "note": "Aprilaire tiered B (national brand, like Terro). Scored as medical. 2 spam results excluded."
+  }
+]

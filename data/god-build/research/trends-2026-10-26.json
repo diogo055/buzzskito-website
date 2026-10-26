@@ -511,6 +511,74 @@
    "usMonthly": 18600,
    "winterFactor": 0.92,
    "note": "anchor"
+  },
+  "tarantulas": {
+   "term": "tarantula",
+   "usMonthly": 401400,
+   "winterFactor": 0.86,
+   "reserve": true,
+   "note": "mostly pet tarantula searches; the pest-identification share is smaller"
+  },
+  "bugs-in-bathroom": {
+   "term": "bugs in bathroom",
+   "usMonthly": 15200,
+   "winterFactor": 0.54,
+   "reserve": true
+  },
+  "ground-beetles": {
+   "term": "ground beetle",
+   "usMonthly": 16400,
+   "winterFactor": 0.48,
+   "reserve": true
+  },
+  "leaf-footed-bugs": {
+   "term": "leaf footed bug",
+   "usMonthly": 11500,
+   "winterFactor": 0.52,
+   "reserve": true
+  },
+  "stable-flies": {
+   "term": "stable fly",
+   "usMonthly": 10700,
+   "winterFactor": 0.5,
+   "reserve": true
+  },
+  "winter-tick": {
+   "term": "winter tick",
+   "usMonthly": 9300,
+   "winterFactor": 1.25,
+   "reserve": true
+  },
+  "itch-mites": {
+   "term": "itch mites",
+   "usMonthly": 7000,
+   "winterFactor": 0.83,
+   "reserve": true
+  },
+  "dust-mite-bites": {
+   "term": "dust mite bites",
+   "usMonthly": 7000,
+   "winterFactor": 0.98,
+   "reserve": true
+  },
+  "rat-mites": {
+   "term": "rat mites",
+   "usMonthly": 3300,
+   "winterFactor": 0.77,
+   "reserve": true
+  },
+  "carpenter-bee-vs-bumble-bee": {
+   "term": "carpenter bee vs bumble bee",
+   "usMonthly": 3200,
+   "winterFactor": 0.08,
+   "reserve": true
+  },
+  "bugs-in-bed": {
+   "term": "bugs in bed",
+   "usMonthly": 203900,
+   "winterFactor": 0.72,
+   "reserve": true,
+   "note": "Trends counts every \"bed bugs\" search here; true demand for bugs-in-bed-that-are-not-bed-bugs is far smaller"
   }
  }
 }
