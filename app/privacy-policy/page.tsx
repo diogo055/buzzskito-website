@@ -4,6 +4,7 @@ import { buildMetadata } from '@/lib/seo'
 import { BUSINESS } from '@/lib/constants'
 import { MEDIAVINE_PRIVACY_HTML } from '@/lib/mediavine-privacy'
 import { PUSH_ENABLED } from '@/lib/push'
+import { PHOTO_ID_ENABLED } from '@/lib/photo-id'
 
 export const metadata: Metadata = buildMetadata({
   title: 'Privacy Policy',
@@ -40,6 +41,13 @@ export default function PrivacyPolicyPage() {
           <>
             <h2>Browser Notifications</h2>
             <p>On our articles we may ask whether you would like a browser notification when we publish a new guide. Nothing is sent unless you say yes and then allow notifications in your browser. If you do, your browser creates an anonymous notification subscription, which is stored by our notification provider, OneSignal, together with technical details such as your browser type, language, time zone and IP address. We do not ask for your name or email address for this, and we use the subscription only to send those notifications. You can turn notifications off at any time in your browser&apos;s site settings.</p>
+          </>
+        )}
+        {/* Shown only while the photo bug identifier is switched on (lib/photo-id.ts). */}
+        {PHOTO_ID_ENABLED && (
+          <>
+            <h2>Photo Bug Identifier</h2>
+            <p>If you upload a photo to our bug identifier, the photo is sent to Anthropic, the company that makes the Claude AI model, which looks at it and describes the most likely pest. BuzzSkito does not store your photo, and we do not ask for your name or email address to use the tool. Anthropic handles the photo under its own privacy policy and commercial terms. To limit how often the tool is used, our server briefly keeps a count of photos sent from your internet address that day, and your browser keeps the same count. Please do not upload photos of people.</p>
           </>
         )}
         <h2>Advertising</h2>

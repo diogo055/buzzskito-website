@@ -4,6 +4,9 @@ import { buildMetadata, breadcrumbSchema } from '@/lib/seo'
 import data from '@/lib/article-index.json'
 import BugQuiz, { type QuizLink, type QuizResultView } from '@/components/BugQuiz'
 import { QUESTIONS, QUIZ_PATH, RESULTS, type ResultId } from '@/lib/bug-quiz'
+import PhotoBugIdentifier from '@/components/PhotoBugIdentifier'
+import { PHOTO_ID_ENABLED } from '@/lib/photo-id'
+import { RED_FLAGS } from '@/lib/bite-quiz'
 
 /**
  * "What bug is this?" — a five-question pest identifier (retention brief, phase 6, Oct 2026).
@@ -14,10 +17,16 @@ import { QUESTIONS, QUIZ_PATH, RESULTS, type ResultId } from '@/lib/bug-quiz'
  * components/AdNavigationGuard.tsx turns those clicks into full page loads on its own.
  *
  * The questions carry no photographs yet: see the note at the top of lib/bug-quiz.ts.
+ *
+ * Photo check (Oct 28, 2026): while lib/photo-id.ts is switched on (the owner's Anthropic key is in
+ * Vercel), a photo uploader sits above the questions and the title and introduction say so. With
+ * the switch off the page is exactly the five-question quiz.
  */
 
-const TITLE = 'What Bug Is This? 5-Question Pest Identifier'
-const DESCRIPTION = 'Answer five quick questions about where you found it, its size, how it moves and what it left behind. Get the most likely pest, how to confirm it, and the guides to read next.'
+const TITLE = PHOTO_ID_ENABLED ? 'What Bug Is This? Photo & Quiz Bug Identifier' : 'What Bug Is This? 5-Question Pest Identifier'
+const DESCRIPTION = PHOTO_ID_ENABLED
+  ? 'Upload a photo of the bug, its droppings or its nest, or answer five quick questions. Get the most likely pest, how to confirm it, and the guides to read next.'
+  : 'Answer five quick questions about where you found it, its size, how it moves and what it left behind. Get the most likely pest, how to confirm it, and the guides to read next.'
 
 export const metadata: Metadata = buildMetadata({ title: TITLE, description: DESCRIPTION, canonical: QUIZ_PATH })
 
@@ -53,12 +62,20 @@ export default function WhatBugIsThisPage() {
             <span className="text-white">What Bug Is This?</span>
           </nav>
           <h1 className="mb-4 text-4xl font-extrabold leading-tight sm:text-5xl">What Bug Is This?</h1>
-          <p className="max-w-3xl text-xl text-brand-100">{QUESTIONS.length} quick questions about where you found it, how big it is, how it moves and what it left behind. You get the most likely pest, how to confirm it, and the guides to read next.</p>
+          <p className="max-w-3xl text-xl text-brand-100">
+            {PHOTO_ID_ENABLED ? `Upload a photo, or answer ${QUESTIONS.length} quick questions about where you found it, how big it is, how it moves and what it left behind.` : `${QUESTIONS.length} quick questions about where you found it, how big it is, how it moves and what it left behind.`} You get the most likely pest, how to confirm it, and the guides to read next.
+          </p>
         </div>
       </section>
 
       <div className="bg-brand-50 px-4 py-8 sm:py-12">
         <div className="mx-auto max-w-4xl">
+          {PHOTO_ID_ENABLED && (
+            <>
+              <PhotoBugIdentifier redFlags={RED_FLAGS} />
+              <h2 id="questions" className="mb-4 mt-10 scroll-mt-32 text-2xl font-extrabold text-brand-900">No photo? Answer {QUESTIONS.length} quick questions</h2>
+            </>
+          )}
           <BugQuiz results={VIEWS} />
           <p className="mt-4 text-xs leading-relaxed text-gray-600">
             How this works: your answers are scored against the usual traits of {named.length} common household pests, taken from the identification guides on this site. It cannot see your bug, so treat the result as a place to start and confirm it with the guides. Nothing you answer is stored with your name or sent to anyone.

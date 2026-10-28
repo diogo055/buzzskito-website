@@ -198,6 +198,14 @@
 - **Linked from:** 17 bite pages (bite identifier) and the main tick and spider articles and guides.
 - **No Amazon box yet.** check:amazon allows amazon.com only on US guides. A pick box on the tools needs that guard widened first.
 
+## Photo bug identifier on /tools/what-bug-is-this (built Oct 28, 2026, OFF until the key is set)
+- **Owner:** "I love the tool... make sure money-wise it's not too expensive." Demand: "what bug is this" ~34.5K US searches/month, "bug identifier" 14.3K (Trends, Oct 28); "bug identifier app" only ~1.1K.
+- **Switch:** `ANTHROPIC_API_KEY` in Vercel (a SECRET: the owner creates and pastes it himself; never handle the value). `lib/photo-id.ts` treats anything not starting with `sk-ant-` as off. The page and the privacy paragraph read the switch at BUILD time, so a redeploy is needed after the key is added. With it off the page is exactly the old quiz and `/api/identify-bug` answers 503.
+- **How:** `components/PhotoBugIdentifier.tsx` shrinks the photo to 1,568 px JPEG in the browser; `app/api/identify-bug/route.ts` sends it to Claude Haiku 5.5 (`claude-haiku-5-5`, forced tool call `report_identification`) with a list of ~490 of our pages to pick "read next" links from (local, state and city pages left out); every field is checked before it is shown. Bites are never identified from a photo (sends the reader to the bite identifier + the red-flag box from `lib/bite-quiz.ts`).
+- **Cost:** ~US$0.0009 per photo (Haiku 5.5: $0.10 / $0.50 per million tokens), under $1 per 1,000. Hard ceiling = the owner's prepaid Console credit with auto-reload OFF. Limits: 10 photos per visitor per day (browser + best-effort per address on the server), one at a time, same-site requests only, ~1.1 MB max. Nothing stored.
+- **GA4:** `photo_id` (`outcome` = result | error | limit, `subject`, `top`, `confidence`); result links count as `recirculation_click` with `location` = `photo_id_result`.
+- **When it goes on:** test live with a real public-domain bug photo, then move the page's sitemap date to the day it went on (the title and intro change with the switch).
+
 ## Speed of the article template (measured Oct 12, 2026)
 - **Live, simulated mid-range phone on slow 4G, median of 3:** LCP 3.17 to 3.19 s, first paint 1.72 to 1.79 s, blocking time 442 to 616 ms, CLS 0.000, score 77 to 81. The LCP element is the H1 (text, no image). With real throttling LCP is about 2.5 to 2.8 s; unthrottled 0.3 to 0.5 s.
 - **Nothing was changed, on evidence:** blocking every third-party script leaves LCP at 3.22 s (and takes blocking time to about 5 ms); the two display fonts cost 0.14 s; with all site JavaScript removed LCP is still 2.4 to 2.7 s; Google Analytics as a low-priority async tag gave no LCP gain in 12 throttled runs and was reverted. Do not retry that one.
