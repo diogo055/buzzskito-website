@@ -6,7 +6,8 @@
     "does-lysol-kill-bed-bugs": "No container is named; the only product the page endorses is a registered bed bug pesticide, unsafe as a search.",
     "zombie-ants": "Page never mentions a magnifier; its own check is photos with a coin for scale. It recommends nothing to buy.",
     "black-widow-bite": "Emergency and medical page (call 911 or Poison Control); nothing to buy belongs on it.",
-    "wasp-nest-identification": "The page recommends nothing a search could safely find (no removal products by design)."
+    "wasp-nest-identification": "The page recommends nothing a search could safely find (no removal products by design).",
+    "stick-bugs": "The page recommends nothing to buy: walkingsticks need no control, and the safety advice is to rinse eyes and call Poison Control."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1190,6 +1191,12 @@
       "name": "Fine-toothed flea comb",
       "search": "flea comb for dogs and cats",
       "basis": "Lead photo caption: 'Texas A&M says the fine teeth of a flea comb remove adult fleas from fur.'"
+    },
+    "lice-eggs": {
+      "label": "To comb out nits",
+      "name": "Metal nit comb",
+      "search": "metal nit comb",
+      "basis": "Combing step: comb every 2 to 3 days for 2 to 3 weeks after each treatment (CDC); 'MedlinePlus and UC IPM say metal combs with very fine teeth work better than plastic ones.'"
     }
   }
 }

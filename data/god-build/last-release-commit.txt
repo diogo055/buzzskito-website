@@ -1,10 +1,4 @@
-release: 8 scheduled page(s) go live (2026-10-28)
+release: 2 scheduled page(s) go live (2026-10-28)
 
-- /blog/black-widow-bite
-- /blog/black-widow-spiders
-- /blog/wasp-nest-identification
-- /blog/spider-mites
-- /blog/maggots
-- /blog/dust-mites
-- /blog/rabbit-poop
-- /blog/fleas-on-humans
+- /blog/lice-eggs
+- /blog/stick-bugs

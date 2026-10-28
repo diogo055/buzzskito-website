@@ -143,6 +143,8 @@ export const US_GUIDE_ADJACENT_ROUTES = new Set<string>([
   "/blog/carpet-beetle-larvae",
   "/blog/weevils",
   "/blog/jerusalem-crickets",
+  "/blog/lice-eggs",
+  "/blog/stick-bugs",
   "/blog/fleas-on-humans",
   "/learn/bug-bites",
   "/blog/animals-in-attic",

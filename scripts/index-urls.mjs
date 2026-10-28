@@ -242,6 +242,8 @@ const URLS = [
   `${SITE_URL}/blog/carpet-beetle-larvae`,
   `${SITE_URL}/blog/weevils`,
   `${SITE_URL}/blog/jerusalem-crickets`,
+  `${SITE_URL}/blog/lice-eggs`,
+  `${SITE_URL}/blog/stick-bugs`,
   `${SITE_URL}/blog/fleas-on-humans`,
   `${SITE_URL}/blog/animals-in-attic`,
   `${SITE_URL}/blog/holes-in-yard`,

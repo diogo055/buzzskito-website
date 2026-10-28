@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-425 images across 173 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+430 images across 175 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -815,6 +815,17 @@
 ## /blog/jerusalem-crickets
 
 - A Jerusalem cricket beside a ruler marked in inches, seen from above and from the side to show the head and jaws at life size, in a US yard or garage; identified by an extension service, museum or expert; public domain or CC0
+
+## /blog/lice-eggs
+
+- A few nits on hairs close to the scalp behind a child's ear, at life size beside a ruler marked in inches, identified by a health agency or university; public domain or CC0, so it could become the page's lead photo
+- A hatched (empty) nit shell and a live, unhatched nit on the same hair, labeled as such by the source, under a hand lens or at life size beside a ruler marked in inches; public domain or CC0
+- Nits, not a louse, caught in the teeth of a metal nit comb after combing a child's hair, at life size beside a ruler marked in inches; public domain or CC0
+
+## /blog/stick-bugs
+
+- A northern two-striped walkingstick (Anisomorpha ferruginea), ideally a mating pair, on the ground, a porch or a house wall in fall in the central or southeastern US, identified by an extension service or entomologist; public domain or CC0
+- Northern walkingstick eggs (hard, round, seed-like, about 1/8 inch) on leaf litter or on a white card beside a ruler marked in inches, identified by an extension service or entomologist; public domain or CC0
 
 ## /blog/fleas-on-humans
 

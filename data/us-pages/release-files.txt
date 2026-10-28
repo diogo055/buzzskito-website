@@ -565,6 +565,12 @@ app/blog/weevils/page.tsx
 content/guides/jerusalem-crickets.json
 data/us-pages/checked/jerusalem-crickets.json
 app/blog/jerusalem-crickets/page.tsx
+content/guides/lice-eggs.json
+data/us-pages/checked/lice-eggs.json
+app/blog/lice-eggs/page.tsx
+content/guides/stick-bugs.json
+data/us-pages/checked/stick-bugs.json
+app/blog/stick-bugs/page.tsx
 content/guides/fleas-on-humans.json
 data/us-pages/checked/fleas-on-humans.json
 app/blog/fleas-on-humans/page.tsx

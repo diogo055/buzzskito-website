@@ -3894,6 +3894,20 @@
    ],
    "bar": true
   },
+  "/blog/lice-eggs": {
+   "next": "/blog/fleas-on-humans",
+   "related": [
+    "/blog/booklice",
+    "/blog/carpet-beetle-larvae",
+    "/blog/carpet-beetle-rash"
+   ],
+   "cards": [
+    "/blog/what-do-termites-look-like",
+    "/blog/flea-eggs",
+    "/blog/moths-in-house"
+   ],
+   "bar": true
+  },
   "/blog/lone-star-tick-alpha-gal-canada": {
    "next": "/blog/alpha-gal-syndrome",
    "related": [
@@ -5354,6 +5368,20 @@
     "/blog/fall-mouse-proofing-checklist",
     "/blog/how-to-get-rid-of-rats-canada",
     "/blog/peppermint-oil-for-mice"
+   ],
+   "bar": true
+  },
+  "/blog/stick-bugs": {
+   "next": "/blog/wheel-bugs",
+   "related": [
+    "/blog/camel-crickets",
+    "/blog/weevils",
+    "/blog/tiny-brown-bugs"
+   ],
+   "cards": [
+    "/blog/millipedes",
+    "/blog/what-do-fleas-look-like",
+    "/blog/flea-dirt"
    ],
    "bar": true
   },

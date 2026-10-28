@@ -2,14 +2,14 @@
  "generated": "2026-10-28",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 213,
+  "newPagesBuilt": 215,
   "hubPages": 4,
-  "guides": 198,
+  "guides": 200,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 217,
-  "internalLinksInNewPages": 2843
+  "notBuilt": 226,
+  "internalLinksInNewPages": 2864
  },
  "pages": [
   {
@@ -117,7 +117,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Homemade Ant Killer: 4 Recipes, Exact Ratios",
-   "wordCount": 3555,
+   "wordCount": 3559,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 6,
@@ -133,7 +133,7 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "How to Mouse-Proof Your House: Fall Checklist",
-   "wordCount": 3421,
+   "wordCount": 3425,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 4,
@@ -1640,7 +1640,7 @@
    "wordCount": 1743,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1720,7 +1720,7 @@
    "wordCount": 2957,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1950,6 +1950,38 @@
   },
   {
    "rank": null,
+   "keyword": "lice eggs",
+   "us_volume": null,
+   "url": "/blog/lice-eggs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Lice Eggs (Nits): What They Look Like (Photos)",
+   "wordCount": 2240,
+   "faqs": 10,
+   "sources": 15,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "stick bug",
+   "us_volume": null,
+   "url": "/blog/stick-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Stick Bugs (Walkingsticks): Are They Harmful?",
+   "wordCount": 2255,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 0,
+   "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "fleas on humans",
    "us_volume": null,
    "url": "/blog/fleas-on-humans",
@@ -1960,7 +1992,7 @@
    "wordCount": 2075,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -1976,7 +2008,7 @@
    "wordCount": 3991,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 45,
    "status": "built"
   },
@@ -2133,11 +2165,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "Pet-Safe Pest Control: Remedy-by-Remedy Risks",
-   "wordCount": 4530,
+   "wordCount": 4566,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 12,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -3759,15 +3791,78 @@
   },
   {
    "rank": null,
-   "keyword": "lice eggs",
-   "url": "/blog/lice-eggs",
+   "keyword": "baby snakes",
+   "url": "/blog/baby-snakes",
    "action": "new",
    "status": "not built"
   },
   {
    "rank": null,
-   "keyword": "stick bug",
-   "url": "/blog/stick-bugs",
+   "keyword": "mite bites",
+   "url": "/blog/mite-bites",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "baby rats",
+   "url": "/blog/baby-rats",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bug eggs",
+   "url": "/blog/bed-bug-eggs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "snake poop",
+   "url": "/blog/snake-poop",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do lice look like",
+   "url": "/blog/what-do-lice-look-like",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in carpet",
+   "url": "/blog/bugs-in-carpet",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "tiny white bugs",
+   "url": "/blog/tiny-white-bugs",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "rat nest",
+   "url": "/blog/rat-nest",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in bathroom",
+   "url": "/blog/bugs-in-bathroom",
+   "action": "new",
+   "status": "not built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in kitchen",
+   "url": "/blog/bugs-in-kitchen",
    "action": "new",
    "status": "not built"
   },
@@ -3894,7 +3989,7 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
-   "wordCount": 2806,
+   "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 12,
@@ -3974,7 +4069,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Borax for Ants: Why a Weak Bait Works Best",
-   "wordCount": 3799,
+   "wordCount": 3803,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 12,
@@ -3990,11 +4085,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "What Do Ants Eat? Sugar, Protein and Grease",
-   "wordCount": 2300,
+   "wordCount": 2334,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 15,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4246,7 +4341,7 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "How Long Do Mice Live? About a Year in the Wild",
-   "wordCount": 1663,
+   "wordCount": 1668,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 5,
@@ -4412,7 +4507,7 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Mice Poison: Types, EPA Rules and Pet Risks",
-   "wordCount": 3934,
+   "wordCount": 3939,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 12,
@@ -4494,11 +4589,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Mice Traps: CDC Advises Snap Traps, Not Glue",
-   "wordCount": 3222,
+   "wordCount": 3262,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 27,
-   "outboundInternalLinks": 15,
+   "outboundInternalLinks": 16,
    "status": "built"
   },
   {
@@ -4510,11 +4605,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Army Ants: Nomads With No Nest, and the Myths",
-   "wordCount": 2891,
+   "wordCount": 2927,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 5,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4526,11 +4621,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Honeypot Ants: Living Pantries of the Desert",
-   "wordCount": 3062,
+   "wordCount": 3093,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 5,
-   "outboundInternalLinks": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4712,11 +4807,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Do Carpenter Ants Bite? Yes, and What to Do",
-   "wordCount": 2410,
+   "wordCount": 2445,
    "faqs": 6,
    "sources": 5,
    "inboundFromNewPages": 9,
-   "outboundInternalLinks": 9,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -4746,11 +4841,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Tiny Ants: Identify Them by Color, Size, Smell",
-   "wordCount": 2483,
+   "wordCount": 2516,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 13,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4932,11 +5027,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Black Bed Bugs: Brown Bugs, Black Droppings",
-   "wordCount": 2240,
+   "wordCount": 2294,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 8,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4950,7 +5045,7 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Seed Ticks (Baby Ticks): Remove Dozens at Once",
-   "wordCount": 2806,
+   "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 12,
@@ -5054,11 +5149,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Bullet Ants: The Sting That Tops the Pain Scale",
-   "wordCount": 2370,
+   "wordCount": 2401,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 5,
-   "outboundInternalLinks": 11,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -5108,7 +5203,7 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Baby Mice: Pup Stages and What a Nest Means",
-   "wordCount": 2287,
+   "wordCount": 2293,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 11,
@@ -5124,11 +5219,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Does Lysol Kill Bed Bugs? What the Label Says",
-   "wordCount": 2520,
+   "wordCount": 2577,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 5,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {

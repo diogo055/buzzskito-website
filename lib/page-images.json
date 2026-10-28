@@ -51,6 +51,13 @@
   "/guides/photos/grass-spider.webp",
   "/guides/photos/lone-star-tick-female.webp"
  ],
+ "/blog/are-ticks-dangerous-ontario": [
+  "/guides/photos/american-dog-tick-on-grass.webp",
+  "/guides/photos/blacklegged-tick-questing-stick.webp",
+  "/guides/photos/lone-star-tick-on-grass.webp",
+  "/guides/photos/tick-check-sock-boot.webp",
+  "/guides/photos/tick-dropped-into-bottle.webp"
+ ],
  "/blog/army-ants": [
   "/guides/photos/army-ant-bivouac.webp",
   "/guides/photos/driver-ant-dorylus-uganda.webp",
@@ -248,6 +255,13 @@
  ],
  "/blog/black-ants": [
   "/guides/photos/carpenter-ant-on-fingers.webp"
+ ],
+ "/blog/black-bed-bugs": [
+  "/guides/photos/bed-bug-dark-on-pale-fabric.webp",
+  "/guides/photos/bed-bug-feces-bed-corner.webp",
+  "/guides/photos/bed-bug-nymph-after-blood-meal.webp",
+  "/guides/photos/bed-bug-nymph-scale-bar-cdc.webp",
+  "/guides/photos/black-carpet-beetle.webp"
  ],
  "/blog/black-flies-ontario-when-they-come-out": [
   "/guides/photos/black-fly.webp"
@@ -532,6 +546,12 @@
   "/guides/photos/german-cockroach-frass-cabinet.webp",
   "/guides/photos/silverfish.webp"
  ],
+ "/blog/diatomaceous-earth-for-bed-bugs": [
+  "/guides/photos/bed-bug-on-hand-bpca.webp",
+  "/guides/photos/bed-bugs-hotel-headboard.webp",
+  "/guides/photos/diatomaceous-earth-microscope.webp",
+  "/guides/photos/diatomaceous-earth-powder.webp"
+ ],
  "/blog/do-ants-bite": [
   "/guides/photos/bed-bug-bites-forearm.webp",
   "/guides/photos/brown-recluse-bite-early.webp",
@@ -566,6 +586,12 @@
   "/guides/photos/mouse-droppings-ruler.webp",
   "/guides/photos/webbing-clothes-moth.webp"
  ],
+ "/blog/do-ticks-die-in-the-washing-machine": [
+  "/guides/photos/blacklegged-tick-on-camouflage-clothing.webp",
+  "/guides/photos/blacklegged-tick-on-clothing-seam.webp",
+  "/guides/photos/blacklegged-tick-questing-grass.webp",
+  "/guides/photos/lone-star-tick-on-white-sneaker.webp"
+ ],
  "/blog/do-tiki-torches-repel-mosquitoes": [
   "/guides/photos/aedes-aegypti-female-and-male.webp",
   "/guides/photos/aedes-albopictus-biting.webp",
@@ -577,6 +603,19 @@
   "/guides/photos/bed-bug-nymph.webp",
   "/guides/photos/bed-bug-on-skin-cdc.webp",
   "/guides/photos/bed-bug-signs.webp"
+ ],
+ "/blog/does-lysol-kill-bed-bugs": [
+  "/guides/photos/bed-bug-on-skin-macro.webp",
+  "/guides/photos/bed-bugs-eggs-under-bag-strap.webp",
+  "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp",
+  "/guides/photos/lysol-all-purpose-cleaner-bottle.webp"
+ ],
+ "/blog/doktor-doom-canada-guide": [
+  "/guides/photos/argentine-ants-trail-wall.webp",
+  "/guides/photos/bed-bug-fecal-stains-mattress.webp",
+  "/guides/photos/bed-bugs-male-female-cdc.webp",
+  "/guides/photos/german-cockroach-frass-cabinet.webp",
+  "/guides/photos/yellowjacket-ground-nest.webp"
  ],
  "/blog/dupray-steamer-review-canada": [
   "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
@@ -914,6 +953,19 @@
   "/guides/photos/western-conifer-seed-bug.webp",
   "/guides/photos/wheel-bug.webp"
  ],
+ "/blog/lice-eggs": [
+  "/guides/photos/booklouse-printed-paper.webp",
+  "/guides/photos/cat-flea-on-fingertip.webp",
+  "/guides/photos/dandruff-flakes.webp",
+  "/guides/photos/flea-egg-and-larva.webp",
+  "/guides/photos/hair-cast.webp",
+  "/guides/photos/head-lice-nits-heavy-infestation.webp",
+  "/guides/photos/head-lice-nits-on-hair-life-size.webp",
+  "/guides/photos/head-lice-nits-on-hair.webp",
+  "/guides/photos/head-louse-adult-and-egg-scale.webp",
+  "/guides/photos/head-louse-hatching-from-nit.webp",
+  "/guides/photos/head-louse-nit-eyespots-and-nymph.webp"
+ ],
  "/blog/maggots": [
   "/guides/photos/carpet-beetle-larva-hallway-wall.webp",
   "/guides/photos/carpet-beetle-larva-wood-floor.webp",
@@ -1220,6 +1272,14 @@
   "/guides/photos/roof-rat-rafters.webp",
   "/guides/photos/roof-rat.webp"
  ],
+ "/blog/seed-ticks": [
+  "/guides/photos/blacklegged-tick-laying-eggs.webp",
+  "/guides/photos/gulf-coast-tick-life-stages.webp",
+  "/guides/photos/lone-star-tick-nymph-fingernail.webp",
+  "/guides/photos/seed-tick-larvae-fingertip.webp",
+  "/guides/photos/seed-ticks-massed-on-sock.webp",
+  "/guides/photos/seed-ticks-on-red-tape.webp"
+ ],
  "/blog/shrews": [
   "/guides/photos/house-mouse.webp",
   "/guides/photos/meadow-vole-runways.webp",
@@ -1352,6 +1412,17 @@
   "/guides/photos/mouse-droppings-wood.webp",
   "/guides/photos/rodent-droppings-drawer.webp"
  ],
+ "/blog/stick-bugs": [
+  "/guides/photos/chinese-mantis.webp",
+  "/guides/photos/crane-fly.webp",
+  "/guides/photos/giant-walkingstick-wall.webp",
+  "/guides/photos/northern-walkingstick-house-trim.webp",
+  "/guides/photos/northern-walkingstick-nymph-railing.webp",
+  "/guides/photos/northern-walkingstick-porch-railing.webp",
+  "/guides/photos/northern-walkingsticks-tree-trunk.webp",
+  "/guides/photos/thread-legged-assassin-bug.webp",
+  "/guides/photos/two-striped-walkingstick-pair.webp"
+ ],
  "/blog/termite-damage": [
   "/guides/photos/carpenter-ant-winged-queen.webp",
   "/guides/photos/carpenter-bee-female.webp",
@@ -1383,6 +1454,12 @@
  "/blog/tick-bites-that-wont-heal-when-to-worry": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/erythema-migrans-rash.webp"
+ ],
+ "/blog/tick-head-stuck-in-skin": [
+  "/guides/photos/american-dog-tick-mouthparts-sem.webp",
+  "/guides/photos/erythema-migrans-bullseye-arm.webp",
+  "/guides/photos/lone-star-tick-removal-tweezers-elbow.webp",
+  "/guides/photos/tick-removal-tweezers-forearm.webp"
  ],
  "/blog/tick-removal-tool-guide": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
