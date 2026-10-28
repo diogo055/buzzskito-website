@@ -6,6 +6,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -75,6 +77,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('lone-star-tick-removal-tweezers-elbow'),
 })
 
 const AMZ_TAG = tagForSlug('tick-head-stuck-in-skin')
@@ -82,7 +85,7 @@ const AMZ_TAG = tagForSlug('tick-head-stuck-in-skin')
 export default function TickHeadStuckInSkinPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'What to do when a tick head or mouthparts stay stuck in your skin — Ontario guide with PHAC/CDC guidance.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'What to do when a tick head or mouthparts stay stuck in your skin — Ontario guide with PHAC/CDC guidance.', slug: SLUG, datePublished: DATE, image: shareImage('lone-star-tick-removal-tweezers-elbow') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Head Stuck in Skin', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -128,6 +131,11 @@ export default function TickHeadStuckInSkinPage() {
 
         <h2>Tick head stuck in skin: what it actually is</h2>
         <p>If part of a tick stayed behind after you pulled it off, take a breath — this is common and rarely serious. The first thing to understand is that a tick doesn&rsquo;t really have a &ldquo;head&rdquo; the way you&rsquo;re picturing. What anchors into your skin is a cluster of <strong>mouthparts</strong>, dominated by a barbed feeding tube called the <em>hypostome</em>. Those backward-facing barbs are exactly why a fragment snaps off and stays put when a tick is pulled too fast or grabbed by the body.</p>
+        <Photo
+          id="lone-star-tick-removal-tweezers-elbow"
+          alt="Fine-tipped tweezers gripping a reddish-brown female lone star tick right where it is attached to the skin of a person's elbow"
+          caption="Fine-tipped tweezers gripping a female lone star tick at the skin of a person's elbow (CDC photo). What anchors a tick is its mouthparts, so the grip goes as close to the skin as possible."
+        />
         <p>Crucially, that leftover speck is <strong>not a living tick and it is not still feeding</strong>. Once the tick&rsquo;s body is gone, the mouthpart is just inert foreign material — think of it as a very small splinter, not an active threat.</p>
 
         <AffiliateDisclosure />
@@ -160,6 +168,11 @@ export default function TickHeadStuckInSkinPage() {
           <li>If it lifts out, great. If it&rsquo;s buried and won&rsquo;t come with gentle pressure, <strong>stop and leave it</strong> — per CDC guidance, let the skin heal rather than gouging.</li>
           <li>Disinfect again, and note the date so you can watch the site over the next few weeks.</li>
         </ol>
+        <Photo
+          id="tick-removal-tweezers-forearm"
+          alt="A hand holding fine-tipped tweezers against a person's forearm, gripping a small tick at the skin and pulling it straight away"
+          caption="Fine-tipped tweezers pulling a tick away from the skin of an arm with steady, even pressure (CDC photo). The same grip, at the skin and straight up, is the one gentle attempt to make on a leftover fragment."
+        />
         <p>What you should <em>never</em> do: dig with a needle or pin, cut the skin, apply a hot match, smother it in petroleum jelly or nail polish, or squeeze the area. These old &ldquo;tricks&rdquo; don&rsquo;t help and can push contaminants deeper or raise infection risk. For the full step-by-step on removing an attached tick the right way — before it ever breaks — see our <Link href="/blog/how-to-remove-tick-safely">guide to removing a tick safely</Link>.</p>
 
         <h2>Tick mouthparts left behind: leave it or dig it out?</h2>
@@ -216,7 +229,13 @@ export default function TickHeadStuckInSkinPage() {
           <li><strong>Local skin infection at the site.</strong> In the first few days, watch for spreading redness, warmth, swelling, tenderness, or pus. That&rsquo;s a treatable wound infection — see a clinician or walk-in clinic.</li>
           <li><strong>Signs of a tick-borne illness, over 3–30 days.</strong> Regardless of the mouthpart, any tick bite can carry disease risk. Per Public Health Ontario and the CDC, watch for an expanding red or bull&rsquo;s-eye rash (erythema migrans), fever, chills, headache, muscle or joint aches, or unusual fatigue. If any appear, contact a healthcare provider promptly.</li>
         </ul>
+        <Photo
+          id="erythema-migrans-bullseye-arm"
+          alt="Expanding red bull's-eye rash with a darker centre and an outer red ring on the back of a woman's upper arm"
+          caption="Erythema migrans, the expanding bull's-eye rash of Lyme disease, at the site of a tick bite on a woman's upper arm in Maryland (CDC photo). Watch for a rash like this in the 3 to 30 days after any tick bite."
+        />
         <p>Will a leftover mouthpart give you Lyme disease? On its own, that&rsquo;s very unlikely — the <em>Borrelia</em> bacteria live in the tick&rsquo;s midgut and salivary glands, which are part of the body you already removed. Your actual Lyme risk is driven mainly by <strong>how long the whole tick was attached</strong> before removal. In Ontario, Public Health Ontario notes that transmission risk from a blacklegged tick rises significantly after 24–36 hours of attachment, so tell your provider how long it was on and, if you saved the tick, bring it. For the wider picture on symptoms and timelines, see our <Link href="/blog/tick-bite-symptoms-what-to-do-ontario">tick bite symptoms guide for Ontario</Link>.</p>
+        <p>If you saved the tick, our <Link href="/tools/tick-identifier">tick identifier</Link> asks six quick questions about its size, legs and markings, where you found it, where you picked it up and the season, then shows the most likely ticks with a real photo of each, which is useful to have when you tell your provider what bit you.</p>
 
         <div className="not-prose bg-red-50 border-l-4 border-red-400 rounded-r-xl px-5 py-4 my-8">
           <p className="text-sm font-bold text-red-800 mb-1">See a doctor promptly if you notice&hellip;</p>
@@ -234,6 +253,11 @@ export default function TickHeadStuckInSkinPage() {
 
         <h2>Why the head breaks off — and how to stop it next time</h2>
         <p>Nine times out of ten, a broken-off mouthpart comes down to <strong>technique</strong>. Those hypostome barbs anchor the tick firmly, so twisting, jerking, or grabbing the swollen body tends to snap the mouthparts off and leave them in the skin. The fix is simple: grip right where the mouthparts enter the skin, and pull <strong>straight up, slow and steady</strong> — no twisting.</p>
+        <Photo
+          id="american-dog-tick-mouthparts-sem"
+          alt="Scanning electron microscope image of a tick's mouthparts: a feeding tube covered in rows of tiny pointed teeth beside a hairy palp"
+          caption="The mouthparts of an American dog tick, magnified 779 times by a scanning electron microscope (CDC). Up close, rows of tiny teeth cover the feeding tube: the barbs that anchor a tick in the skin."
+        />
         <p>Tools matter too. A purpose-built tick remover — a fine-tipped tweezer or a notched &ldquo;tick key&rdquo; style tool — slides under the mouthparts and levers the whole tick out intact far more reliably than fingers or blunt household tweezers. Keeping one in your first-aid kit, car, and dog-walking bag means you&rsquo;re never tempted to yank a tick out by hand. Our <Link href="/blog/tick-removal-tool-guide">tick removal tool guide</Link> compares the main types and how to use each.</p>
 
         <p className="not-prose text-sm text-gray-600 mb-2">Keep a proper remover on hand so the whole tick comes out in one piece:</p>

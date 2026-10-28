@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -82,6 +84,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bugs-male-female-cdc'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -89,7 +92,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function DoktorDoomCanadaGuidePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An independent Canadian buyer’s guide to the Doktor Doom range: what the brand is, product-by-product job mapping across bed bugs, crawling insects, wasps and diatomaceous earth, what a PCP registration number does and does not guarantee, the provincial rules on cosmetic lawn and garden use, and the three jobs the brand is the wrong tool for.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An independent Canadian buyer’s guide to the Doktor Doom range: what the brand is, product-by-product job mapping across bed bugs, crawling insects, wasps and diatomaceous earth, what a PCP registration number does and does not guarantee, the provincial rules on cosmetic lawn and garden use, and the three jobs the brand is the wrong tool for.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bugs-male-female-cdc') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Doktor Doom Canada — Product Guide', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -379,20 +382,41 @@ export default function DoktorDoomCanadaGuidePage() {
           <p><strong>What it gets you.</strong> Legality: the product may lawfully be sold and used in Canada, which an imported can may not. A Canadian label: the pests, use sites, application rates, re-entry intervals for people and pets, and safety directions were reviewed against Canadian requirements. And traceability: a registered product is a known, published formulation, not an unlabelled bottle from a marketplace seller with a photograph of the front only.</p>
           <p><strong>What it does not get you.</strong> Any promise that it works on your problem. Registration is a regulatory clearance, not a performance rating &mdash; a fully registered can is often the wrong tool, and the most common way people waste money on pest control in Canada is buying a perfectly legal product for a job it cannot do. The whole point of the job-mapping table above is that <em>legal</em> and <em>correct</em> are separate questions.</p>
           <p>The second thing the number does not tell you is anything about resistance. Consumer insecticides in this category lean heavily on pyrethrin and pyrethroid chemistry, and resistance to that family is widespread in bed bug and cockroach populations. A resistant insect can walk across a fully registered residual and carry on. This is not a knock on one brand &mdash; it applies across the domestic-class shelf, and it is the single strongest argument for building any plan around mechanisms insects cannot adapt to: heat, desiccant dusts, physical exclusion, traps, and vacuuming.</p>
+          <Photo
+            id="bed-bugs-male-female-cdc"
+            alt="Two bed bugs from above on a pale background, a reddish-brown male on the left and a darker, rounder female on the right, labelled with sex symbols"
+            caption="A male (left) and a female bed bug, labelled on this CDC photograph. Resistance to pyrethrin and pyrethroid chemistry is widespread in bed bug populations, so a registered can is a legal choice, not a guaranteed kill."
+          />
 
           <h2>The Three Jobs This Brand Is Wrong For</h2>
           <p>Any guide that recommends a range for everything is not a guide, it is a catalogue. Three household jobs come up constantly and a can is the wrong answer to all of them.</p>
+          <p>Matching a label to a pest starts with knowing the pest. If you are not sure what you have, our <Link href="/tools/what-bug-is-this">pest identifier quiz</Link> asks five quick questions about where you found it, its size, how it moves, what it looks like and the signs around it, then shows the most likely pest, how to confirm it and the guides to read next.</p>
           <p><strong>Ants.</strong> Spraying a trail is the classic self-defeating move. It kills the foragers you can see &mdash; a tiny share of the colony &mdash; leaves the queen and the brood untouched, and with some species the disturbance encourages a colony to fragment into satellite nests, which turns one problem into several. Ant control works through <em>bait</em>: a slow-acting toxicant that a forager carries home and shares through the colony. Wiping the trail before you bait is the other common mistake, because the trail is the delivery route. Our <Link href="/blog/how-to-get-rid-of-ants-canada">Canadian ant guide</Link> covers the baiting order, and <Link href="/blog/best-ant-killer">the ant killer comparison</Link> covers which bait format for which species.</p>
+          <Photo
+            id="argentine-ants-trail-wall"
+            alt="A thin trail of small brown ants running along the base of a textured white wall"
+            caption="Argentine ants in a trail along a white wall (iNaturalist photo, University of California, Riverside). Spraying a trail kills the foragers you can see; a bait is carried home along the same route to the colony."
+          />
           <p>In practical terms that means the thing to put in the basket for an ant problem is a bait station or a liquid bait, not an aerosol &mdash; a sealed station for a kitchen with children or pets, a gel or liquid where you can place it out of reach. Buy enough to put several along the trail rather than one by the door, leave them alone for a fortnight even when the trail looks busier at first, and check the label for the species it names.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="ant bait stations indoor">Check ant bait stations on Amazon.ca &rarr;</BuyLink>
           </div>
           <p><strong>Cockroaches.</strong> Same logic, more emphatically. Modern cockroach control is gel bait placed into harbourage in many small dots, and spraying a residual near bait placements can drive roaches away from the bait you just paid for. A can has three legitimate roles &mdash; a flushing agent, a crack-and-crevice treatment away from bait, and killing the individual you can see &mdash; and none of them clears an infestation. See <Link href="/blog/best-cockroach-spray-canada">the three jobs worth buying a cockroach can for</Link>.</p>
+          <Photo
+            id="german-cockroach-frass-cabinet"
+            alt="Ragged hole in the back wall of a white kitchen cabinet, surrounded by small dead cockroaches and dark specks of droppings"
+            caption="A hole in the back of a kitchen cabinet with dead cockroaches and droppings around it; the photographer identified them as German cockroaches. Harbourage like this is where gel bait goes, in many small dots."
+          />
           <p>So the purchase for a roach problem is a syringe of gel bait and, ideally, a pack of monitors to tell you where to put it. Many small dots inside the harbourage &mdash; hinge voids, behind the kick plate, the underside of a shelf edge &mdash; beat one large bead in the open, because a roach has to find the bait before it can carry it back. Keep the spray away from every placement.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="cockroach gel bait syringe">Check cockroach gel bait on Amazon.ca &rarr;</BuyLink>
           </div>
           <p><strong>Bed bug eggs.</strong> Covered in the FAQ but worth repeating because it causes more failed treatments than anything else: a bed bug egg is cemented to fabric and shelled, and liquid contact sprays penetrate it poorly. This is why a job looks finished and then rebounds about a fortnight later &mdash; the eggs hatched into a room whose residue had already faded. Heat kills eggs on the surfaces it touches; a desiccant dust in the harbourage is still lethal at the moment of hatch. Sprays fill the contact-kill role around those two. The full sequencing is in <Link href="/blog/how-to-kill-bed-bug-eggs-canada">how to kill bed bug eggs in Canada</Link>.</p>
+          <Photo
+            id="bed-bug-fecal-stains-mattress"
+            alt="Edge of a mattress blackened with thick bed bug fecal stains and dotted with small white bed bug eggs"
+            caption="A mattress from a large infestation, with thick black fecal stains and white bed bug eggs, as described by the New York State IPM Program at Cornell University. The eggs are cemented to fabric, and liquid sprays penetrate them poorly."
+          />
           <p>There is a fourth, broader one. No product in this range fixes a building condition &mdash; a downspout dumping at the foundation, a gap under a garage door, a chronically damp basement, standing water in a yard. A very large share of the aerosol sold in Canada is bought for pests that were really reporting a maintenance problem, and the pests come back on schedule until the condition changes.</p>
 
           <h2>What Not to Buy in This Aisle</h2>
@@ -429,6 +453,11 @@ export default function DoktorDoomCanadaGuidePage() {
           <h2>When to Stop Buying Cans</h2>
           <p>Serial buying is the failure mode this whole page exists to prevent. Three cans of the same chemistry is not a plan, it is the same treatment three times &mdash; and it is how people end up spending more than a professional treatment would have cost.</p>
           <p>Stop and reconsider when: you have applied a product correctly, at the right time of day, in the right place, twice, and the population has not moved; when the pest is in a wall void, a ceiling, or underground where nothing you can buy will reach it; when the pest is a wasp nest in a wall or in the ground, or anyone in the household is sting-allergic; when you are treating a rental, where in most Canadian jurisdictions pest treatment is the landlord&rsquo;s responsibility and unit-by-unit DIY does not hold in a multi-unit building; or when the real problem is water, drainage or a gap, in which case the right trade is a contractor rather than an exterminator. Our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what to expect from a quote so you can judge whether the next can or the phone call is the better spend.</p>
+          <Photo
+            id="yellowjacket-ground-nest"
+            alt="Yellowjackets gathered at the entrance hole of an underground nest among small stones and dry grass"
+            caption="Western yellowjackets at the entrance of a ground nest (iNaturalist photo). A wasp nest in the ground or in a wall is one of the places nothing you can buy will reach."
+          />
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

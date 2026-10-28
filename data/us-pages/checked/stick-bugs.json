@@ -1,0 +1,10 @@
+{
+ "id": "stick-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "57bdc17b4f37bb228b6f5b99fe5e35b6b339dc697b185138f874c7a1f4e3f9c1",
+ "claimsChecked": 290,
+ "claimsCorrected": 11,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-28"
+}

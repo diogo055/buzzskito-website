@@ -1,5 +1,300 @@
 {
- "_readme": "Scout notes for the seventeenth photo batch (Oct 28, 2026): Google Images wave 2, eight bed bug and tick pages (does-lysol-kill-bed-bugs, black-bed-bugs, seed-ticks, diatomaceous-earth-for-bed-bugs, doktor-doom-canada-guide, do-ticks-die-in-the-washing-machine, tick-head-stuck-in-skin, are-ticks-dangerous-ontario). In progress: the candidates follow.",
- "candidates": [],
- "gaps": []
+ "_readme": "Scout notes for the seventeenth photo batch (Oct 28, 2026): Google Images wave 2, eight bed bug and tick pages (does-lysol-kill-bed-bugs, black-bed-bugs, seed-ticks, diatomaceous-earth-for-bed-bugs, doktor-doom-canada-guide, do-ticks-die-in-the-washing-machine, tick-head-stuck-in-skin, are-ticks-dangerous-ontario), chosen for what those searches want to see: the bug up close or beside a scale, where people find it (skin, fabric, clothing, a sneaker, grass), life stages and look-alikes, and signs (fecal stains, eggs). Same format as batches 7 to 16: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. 29 photos were added, with no script change beyond the 29 PHOTOS rows and their comment: 16 public domain (CDC PHIL 28393, 31571, 2279, 9874, 28379, 28378, 28364, 14473, 28371, 28370, 28369, 31556, 31565, 28365, 12703 and 15247; the 2023 and 2025 tick photos are the CDC Division of Vector-Borne Diseases series by Lauren Bishop), 3 CC0 (2 research-grade iNaturalist bed bug records, 1 Wikimedia Commons upload), 6 CC BY (3 iNaturalist seed tick photos, 3 Commons) and 4 CC BY-SA (Commons). Every image was looked at before choosing and again after conversion to WebP, and shows what its subject line says. The ledger change is additive: 590 records before this batch's run, 619 after, none changed or lost. npm run check:photos passes (619 on record). Captions on the three US guides are written in US spelling and inches-first; the five hand-written pages are Canadian and keep Canadian spelling. LEADS (all public domain or CC0): does-lysol-kill-bed-bugs bed-bug-on-skin-macro; black-bed-bugs bed-bug-dark-on-pale-fabric; seed-ticks gulf-coast-tick-life-stages (already on record, PHIL 10879: the only public-domain or CC0 photo with a clear tick larva and a scale); diatomaceous-earth-for-bed-bugs diatomaceous-earth-powder; doktor-doom-canada-guide bed-bugs-male-female-cdc (no free photo of the brand's products exists, so the lead shows the pest its flagship can is for); tick-head-stuck-in-skin lone-star-tick-removal-tweezers-elbow; do-ticks-die-in-the-washing-machine blacklegged-tick-on-camouflage-clothing; are-ticks-dangerous-ontario blacklegged-tick-questing-stick. Reused from the ledger: black-carpet-beetle, gulf-coast-tick-life-stages, blacklegged-tick-laying-eggs, bed-bugs-hotel-headboard, argentine-ants-trail-wall, german-cockroach-frass-cabinet, bed-bug-fecal-stains-mattress, yellowjacket-ground-nest. Searches, refused candidates and what is still missing are in 'gaps'. Apart from the eight pages, the ledger, the script and this file, nothing was edited.",
+ "candidates": [
+  {
+   "id": "bed-bug-on-skin-macro",
+   "forPages": ["does-lysol-kill-bed-bugs", "what-do-bed-bugs-look-like", "bed-bug-bites"],
+   "confidence": "high (research grade: observer and a second identifier agree on Cimex lectularius)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 298104023 by dmitry_semigradsky, Minsk, Belarus, July 15, 2025, CC0; no description; identified Cimex lectularius by the observer and muck_creature (research grade).",
+   "caveats": "Sharp close-up from above of a single reddish-brown bed bug on finger-ridged skin; banded abdomen, head, antennae and legs clear. No life stage is annotated: do not call it an adult. Nothing shows it biting.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "bed-bug-dark-on-pale-fabric",
+   "forPages": ["black-bed-bugs", "bugs-that-look-like-bed-bugs"],
+   "confidence": "high (research grade: three agreeing identifications, including roland_lupoli)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 204269007 by evie_lazz, McAllen, Texas, March 28, 2024, CC0; description only a frowning face; annotated adult, alive; identified Cimex lectularius by the observer, luck and roland_lupoli.",
+   "caveats": "A phone photo, slightly soft: a bed bug on pale, finely woven fabric whose abdomen reads almost black, with dark reddish-brown head and legs. That near-black look is the point for the black-bed-bugs lead, but the caption must keep the sources' color (reddish brown to mahogany) and must not say the bug has just fed or is digesting. The fabric is not identified as bedding.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "bed-bug-nymph-scale-bar-cdc",
+   "forPages": ["black-bed-bugs", "baby-bed-bugs-nymphs", "what-do-bed-bugs-look-like"],
+   "confidence": "certain (CDC-DPDx specimen photo)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 12703, CDC/ CDC-DPDx; Blaine Mathison, 2010, public domain: 'This image depicts a dorsal view of a nymphal, Cimex lectularius bed bug... Nymphs look like smaller, paler versions of the adults.'",
+   "caveats": "Pale honey-colored nymph from above on a pink background with a 1 mm scale bar printed on the photo; a dark mass shows inside the abdomen, which CDC does not explain: do not caption it as digested blood. The original is small (600x600). On US guides give the bar as 1 mm with an inch equivalent (the validator rejects metric sizes without inches in captions).",
+   "note": "Credit: CDC/ CDC-DPDx; Blaine Mathison (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 600x600."
+  },
+  {
+   "id": "bed-bug-nymph-after-blood-meal",
+   "forPages": ["black-bed-bugs", "baby-bed-bugs-nymphs", "bed-bug-bites"],
+   "confidence": "high (titled by a university IPM program)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bed bug nymph after a blood meal (9789549934).jpg', from the NY State IPM Program at Cornell University Flickr stream, CC BY 2.0 (FlickreviewR passed); the title is the program's description. Filed under Hemiptera on hands.",
+   "caveats": "Pale nymph on skin with a swollen, bright red abdomen; NYSIPM 'IPM' logo watermark at lower left. Older small-camera image (2008), soft at full size. CC BY, so not a lead.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "bed-bug-feces-bed-corner",
+   "forPages": ["black-bed-bugs", "bed-bug-poop", "signs-of-bed-bugs-checklist"],
+   "confidence": "medium (the photographer's identification; no bugs in frame)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'BedBugFeces.jpg' by Hadifn, 2013, CC BY-SA 3.0, own work: 'Bed Bug feces stain on a corner of a bed'.",
+   "caveats": "The corner where a pale particleboard panel meets a wooden rail, dotted with small black spots and smears. No bug, shed skin or egg is visible, so the identification rests on the photographer: say 'in the photographer's description'.",
+   "note": "Credit: Hadifn, CC BY-SA 3.0, via Wikimedia Commons. Size: 1200x799."
+  },
+  {
+   "id": "bed-bugs-male-female-cdc",
+   "forPages": ["doktor-doom-canada-guide", "black-bed-bugs", "what-do-bed-bugs-look-like"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 15247, CDC, undated, public domain: 'This photograph depicted a dorsal view of two bedbugs, Cimex lectularius. A male on the left, and a female on the right. Note the male's slightly pointed distal abdomen, where in females, it is rounded. Lengthwise, females are slightly larger than males.'",
+   "caveats": "Older photo with 'Cimex lectularius' and sex symbols printed on it and a row of dark blue blocks along the bottom (CDC does not say they are a scale: do not read a size from them). The female looks almost black. CDC says nothing about feeding.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "bed-bugs-eggs-under-bag-strap",
+   "forPages": ["does-lysol-kill-bed-bugs", "where-do-bed-bugs-hide", "bed-bug-eggs"],
+   "confidence": "medium (the photographer's identification)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bed Bug Infestation.jpg' by Ventriloquist, 2016, CC BY-SA 4.0, own work: 'Bed bugs and their eggs. They live and reproduce in hidden areas, such as, under the straps of an unused bag.'",
+   "caveats": "The padded underside of a bag's straps lying on grass, with small reddish-brown bugs, pale eggs and debris packed along the seams. The bugs are small at web size. Outdoors only because the bag was carried out to be photographed (our reading); caption it as a hidden spot in a bag, not as an outdoor find.",
+   "note": "Credit: Ventriloquist, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "bed-bugs-mating-eggs-fabric-fold",
+   "forPages": ["does-lysol-kill-bed-bugs", "bed-bug-eggs", "how-to-kill-bed-bug-eggs-canada"],
+   "confidence": "medium (the photographer's identification)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bed bugs having sex and their eggs.jpg' by OH-BugMan, 2016, CC BY-SA 4.0, own work: 'I caught two bed bugs having sex. Bed bug eggs are right above them.'",
+   "caveats": "Two reddish-brown bugs, one on top of the other, in a fold of dark fabric or vinyl, with a few small white eggs stuck just above them. Keep the caption plain (mating, eggs above); no location given.",
+   "note": "Credit: OH-BugMan, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x675."
+  },
+  {
+   "id": "lysol-all-purpose-cleaner-bottle",
+   "forPages": ["does-lysol-kill-bed-bugs"],
+   "confidence": "certain (the product label is legible)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Lysol - All Purpose Cleaner (51012787263).jpg' by ajay_suresh (Flickr), March 6, 2021, CC BY 2.0 (FlickreviewR passed); tags: disinfectant, home cleaning, product photography, all purpose cleaner, household cleaner, lysol, spray.",
+   "caveats": "Studio product photo of a yellow 32 fl oz trigger bottle, Lemon Breeze scent; the front reads Kills germs for a deep clean and Kills 99.9% of viruses & bacteria. It is NOT the aerosol Lysol Disinfectant Spray (EPA Reg. No. 777-99) whose label the page reviews: caption it as another product sold under the Lysol name, and do not use it to illustrate that label or any insect claim. A brand product photo: use it only where the page discusses the brand.",
+   "note": "Credit: ajay_suresh, CC BY 2.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "diatomaceous-earth-powder",
+   "forPages": ["diatomaceous-earth-for-bed-bugs", "diatomaceous-earth-canada-buyers-guide", "best-bed-bug-powder-canada"],
+   "confidence": "medium (the photographer's description; a white powder cannot be identified by eye)",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons 'Diatomaceous Earth.jpg' by SprocketRocket, 2013, CC0, own work: 'A sample of food-grade diatomaceous Earth'.",
+   "caveats": "A heap of fine white powder on a dark surface. Food grade by the photographer's word: on Canadian pages say so and add that only PCP-registered DE is legal on bed bugs; never caption it as a registered product or as pool-grade DE. Lead-eligible as what DE looks like, on the strength of the description.",
+   "note": "Credit: SprocketRocket, CC0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "diatomaceous-earth-microscope",
+   "forPages": ["diatomaceous-earth-for-bed-bugs", "diatomaceous-earth-canada-buyers-guide"],
+   "confidence": "high (a scientist's microscope image; English Wikipedia featured picture)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Diatomaceous Earth BrightField.jpg' by Zephyris (Richard Wheeler), 2010, CC BY-SA 3.0: diatomaceous earth under bright field illumination on a light microscope, 'made up of the cell walls/shells of single cell diatoms... biogenic silica... a mixture of centric (radially symmetric) and pennate (bilaterally symmetric) diatoms.'",
+   "caveats": "Gray field of broken, glassy fragments, round and elongated. No scale bar and no magnification stated: give no size. The source does not say whether the sample is food grade, pool grade or a registered product.",
+   "note": "Credit: Zephyris, CC BY-SA 3.0, via Wikimedia Commons. Size: 1200x728."
+  },
+  {
+   "id": "bed-bug-on-hand-bpca",
+   "forPages": ["diatomaceous-earth-for-bed-bugs", "what-do-bed-bugs-look-like"],
+   "confidence": "high (a pest control trade association's photo, titled bed bugs)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Pests - Bed Bugs - scale on hand.jpg' from the British Pest Control Association Flickr stream, CC BY 2.0: 'Bed Bugs - scale on hand'.",
+   "caveats": "One reddish-brown bed bug on the skin between thumb and fingers, for scale; background soft. No life stage stated.",
+   "note": "Credit: British Pest Control Association, CC BY 2.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "lone-star-tick-removal-tweezers-elbow",
+   "forPages": ["tick-head-stuck-in-skin", "how-to-remove-tick-safely", "tick-removal-tool-guide"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28393, CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult female lone star tick, Amblyomma americanum, that was on a person's elbow being removed with fine-tipped tweezers.'",
+   "caveats": "Close-up of fine-tipped tweezer points at the skin in the crook of an elbow, gripping a reddish tick with a white spot; a fingertip blurred in the foreground. A posed demonstration (the 2023 series stages live ticks on people), not a clinical case. Not graphic; still keep it below the first screen on skin pages.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "tick-removal-tweezers-forearm",
+   "forPages": ["tick-head-stuck-in-skin", "how-to-remove-tick-safely"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 31571, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2025, public domain: 'This person is removing a tick from their arm using a fine-tipped tweezers to pull the tick away from the skin with steady, even pressure.'",
+   "caveats": "White-background demonstration: a hand holds dark fine-tipped tweezers against a forearm, the tick small at the tip. CDC does not name the species here. Sister frames 31552, 31553 and 31570 show the grasp.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "american-dog-tick-mouthparts-sem",
+   "forPages": ["tick-head-stuck-in-skin", "are-ticks-arachnids-or-insects"],
+   "confidence": "certain (CDC scanning electron micrograph)",
+   "leadEligible": false,
+   "sourceDescription": "CDC PHIL 2279, CDC/ Janice Haney Carr, 2002, public domain: 'Under a magnification of 779X, this scanning electron microscopic (SEM) image depicts an enlarged view of mouth parts of an American dog tick, Dermacentor variabilis.'",
+   "caveats": "Gray SEM with CDC's magnification and 20 micrometer scale strip burned in at the bottom left. Shows a toothed feeding tube beside hairy appendages; CDC says only 'mouth parts', so name the hypostome and its barbs only as the page itself does. A micrograph, not a where-found photo; not lead material (not a natural view).",
+   "note": "Credit: CDC/ Janice Haney Carr; photo: Janice Haney Carr (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x804."
+  },
+  {
+   "id": "erythema-migrans-bullseye-arm",
+   "forPages": ["tick-head-stuck-in-skin", "tick-bite-symptoms-what-to-do-ontario", "lyme-disease-symptoms-guide"],
+   "confidence": "certain (CDC)",
+   "leadEligible": false,
+   "sourceDescription": "CDC PHIL 9874, CDC/ James Gathany, 2007, public domain: 'the pathognomonic erythematous rash in the pattern of a bull's-eye, referred to as erythema migrans. The rash manifested at the site of a tick bite, on this Maryland woman's posterior upper arm, signifying a case of Lyme disease'.",
+   "caveats": "Another frame of the case already on record as erythema-migrans-rash (PHIL 9875, on 37 pages): this frame shows the clearest outer ring. A rash photo: below the first screen, never a share image on a page that is not about the rash. Do not imply every Lyme rash looks like this.",
+   "note": "Credit: CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x1785."
+  },
+  {
+   "id": "blacklegged-tick-on-camouflage-clothing",
+   "forPages": ["do-ticks-die-in-the-washing-machine", "permethrin-canada-yard-clothing-spray", "how-to-do-a-tick-check"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28379, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult female blacklegged tick, Ixodes scapularis, that was crawling on camouflage clothing.'",
+   "caveats": "The tick is small against busy leaf-pattern camouflage and is circled in red on the original photo; mention the circle so readers know it is not ours. Sister frame 28380 is the same tick in a wider view.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "blacklegged-tick-on-clothing-seam",
+   "forPages": ["do-ticks-die-in-the-washing-machine", "how-to-do-a-tick-check"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28378, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult male blacklegged tick, Ixodes scapularis, that was crawling on the seam of camouflage clothing.'",
+   "caveats": "Dark male tick on a seam of brown and orange camouflage twill, circled in red on the original.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "lone-star-tick-on-white-sneaker",
+   "forPages": ["do-ticks-die-in-the-washing-machine", "how-to-do-a-tick-check", "lone-star-tick"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28364, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult female lone star tick, Amblyomma americanum, that was crawling on a white sneaker.'",
+   "caveats": "Small reddish tick on the side of a white leather sneaker near the laces; no red circle. Sister frames: 28362 (black shoe, circled), 28363 (ankle above a sneaker).",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "blacklegged-tick-questing-grass",
+   "forPages": ["do-ticks-die-in-the-washing-machine", "how-to-keep-ticks-out-of-yard-ontario", "deer-tick"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 14473, CDC, undated, public domain: 'a left lateral view of a deer tick, or blacklegged tick, Ixodes scapularis, as it was questing on a blade of grass.'",
+   "caveats": "Side view of the tick at the tip of a green blade against a pale background; no sex or life stage stated (it looks like an adult female to us, but say only blacklegged tick).",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x794."
+  },
+  {
+   "id": "blacklegged-tick-questing-stick",
+   "forPages": ["are-ticks-dangerous-ontario", "deer-tick", "ticks-that-carry-lyme-disease"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28371, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult female blacklegged tick, Ixodes scapularis, that was questing on a stick.'",
+   "caveats": "Crisp dorsal view on a bare twig against a blurred yellow background: dark shield, red-orange body, dark legs. Staged outdoors; no place given.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "american-dog-tick-on-grass",
+   "forPages": ["are-ticks-dangerous-ontario", "american-dog-tick", "what-ticks-look-like-ontario"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28370, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult female American dog tick, Dermacentor variabilis, that was crawling on a blade of grass.'",
+   "caveats": "Oblique view on a broad green blade; the pale shield behind the head is clear. A fresh alternative to american-dog-tick-female (PHIL 170, on 47 pages).",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "lone-star-tick-on-grass",
+   "forPages": ["are-ticks-dangerous-ontario", "lone-star-tick", "alpha-gal-syndrome"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28369, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2023, public domain: 'This image depicts an adult female lone star tick, Amblyomma americanum, that was crawling on a blade of grass.'",
+   "caveats": "Dorsal view on a green blade: round reddish-brown body, one white spot, banded legs. A fresh alternative to lone-star-tick-female (PHIL 8683, on 38 pages).",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "tick-check-sock-boot",
+   "forPages": ["are-ticks-dangerous-ontario", "how-to-do-a-tick-check", "do-ticks-die-in-the-washing-machine"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 31556, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2025, public domain: 'This image shows a person doing a tick check, folding down their sock to reveal a female Ixodes scapularis tick attached to their leg.'",
+   "caveats": "White background; hands fold a gray sock down above a brown hiking boot and a small dark tick sits on the lower leg. Sister frames 31557 (same), 31561 and 31562 (sneaker, ankle).",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "tick-dropped-into-bottle",
+   "forPages": ["are-ticks-dangerous-ontario", "how-to-remove-tick-safely", "tick-bite-what-to-do"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 31565, CDC/ DVBD Rickettsial Zoonoses Branch, photo Lauren Bishop, 2025, public domain: 'Here, a person uses tweezers to drop a female Ixodes scapularis tick into a bottle before screwing on the lid... Placing a tick in a sealed container is one way to dispose of a tick.'",
+   "caveats": "White background; dark tweezers over an orange plastic bottle (a pill-type vial) held open; the tick is small at the tweezer tips. CDC presents it as disposal; the Ontario page uses it for saving the tick, which is the same sealed-container step.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x800."
+  },
+  {
+   "id": "lone-star-tick-nymph-fingernail",
+   "forPages": ["seed-ticks", "lone-star-tick", "tick-life-cycle"],
+   "confidence": "certain (CDC)",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28365, CDC/ DVBD Rickettsial Zoonoses Branch, 2023, public domain (no photographer named): 'This image depicts a lone star tick, Amblyomma americanum, nymph, that was crawling on a person's fingernail.'",
+   "caveats": "Small reddish nymph at the tip of a fingernail against a gray background: life size against a nail. Legs are visible but not countable at web size: do not claim to show eight legs.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch (CDC Public Health Image Library, phil.cdc.gov). Size: 1200x799."
+  },
+  {
+   "id": "seed-ticks-massed-on-sock",
+   "forPages": ["seed-ticks", "lone-star-tick", "tick-life-cycle"],
+   "confidence": "high (research grade; the observer titled the observation larval tick bomb and odhentomologist agreed on Amblyomma americanum)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 313403754 by annegp (Anne Parker), Hughlett Point trail, Kilmarnock, Virginia, September 12, 2025, CC BY; description 'Larval tick bomb'; identified Amblyomma americanum by the observer and odhentomologist.",
+   "caveats": "Hundreds of tiny reddish-brown larvae scattered over white knit fabric (a sock, by our reading; the record does not say). A where-found photo. CC BY, so not a lead.",
+   "note": "Credit: (c) Anne Parker, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "seed-ticks-on-red-tape",
+   "forPages": ["seed-ticks", "how-to-do-a-tick-check"],
+   "confidence": "high (same research-grade larval observation)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 313403754 by annegp (Anne Parker), Kilmarnock, Virginia, September 12, 2025, CC BY; second photo of the 'Larval tick bomb' observation.",
+   "caveats": "A strip of red tape lying on white knit fabric, dotted with dozens of tiny ticks; two or three larger ticks among them may be nymphs, so the caption says tiny lone star ticks rather than all larvae. The observer does not say how the tape was used: the caption pairs it with the page's own tape advice (University of Rhode Island), not with a claim about this observer's method. It does not fully satisfy the page's media placeholder (duct tape against a pant leg, fingertip for scale), which stays.",
+   "note": "Credit: (c) Anne Parker, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "seed-tick-larvae-fingertip",
+   "forPages": ["seed-ticks", "tick-life-cycle"],
+   "confidence": "medium-high (needs ID on iNaturalist; the identifier rpadilla_ named Amblyomma americanum and wrote that these are tiny, freshly hatched, six-legged larvae; the other two identifications stop at Ixodida)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 308626827 by alex_abair (Alex Abair), Luray, Virginia, August 24, 2025, CC BY; the observer describes thousands of ticks on his pants; rpadilla_ commented: 'Yes, these are tiny larvae, freshly hatched and searching for their first blood meal. At this stage they have only six legs.'",
+   "caveats": "Two tiny brown ticks on the ridged pad of a fingertip: life size. Caption the stage and species as the identifier's, not as fact beyond that.",
+   "note": "Credit: (c) Alex Abair, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "does-lysol-kill-bed-bugs",
+   "why": "Placed: bed-bug-on-skin-macro (lead), lysol-all-purpose-cleaner-bottle, bed-bugs-eggs-under-bag-strap, bed-bugs-mating-eggs-fabric-fold; tool link to /tools/what-bug-is-this. Still missing (both media placeholders stay): the back panel of an aerosol Lysol Disinfectant Spray can with the EPA Reg. No. legible, and a disinfectant label beside a bed bug insecticide label. Searched Commons 'Lysol', 'Lysol disinfectant spray': refused 'A can of Glade next to a can of Lysol.jpg' (CC BY-SA 4.0; the Lysol can is a Power Foam bathroom cleaner, half out of frame), 'Lysolshelf.jpg' (store shelf, no label detail), 'Lysol Wipes Cannister (33951951521).jpg' (litter by a pond) and the 1920s advertisements."
+  },
+  {
+   "slug": "black-bed-bugs",
+   "why": "Placed: bed-bug-dark-on-pale-fabric (lead), bed-bug-nymph-scale-bar-cdc, bed-bug-nymph-after-blood-meal, bed-bug-feces-bed-corner, black-carpet-beetle (on record); tool link to /tools/what-bug-is-this. Still missing (placeholders stay): unfed, just-fed and darkened adults side by side with a dime; a mattress seam and tag with fecal spots, shed skins and a penny; a scaled comparison of bed bug, black carpet beetle, larva, flea and cockroach nymph. Searched CDC PHIL 'Cimex' (45) and 'bedbug' (41): PHIL 9817 to 9822 (Harvard, Dr. Gary Alpert; the feeding-nymph series) are marked copyright protected, and Commons' 'Bed bug nymph, Cimex lectularius.jpg' and 'Bed bug, Cimex lectularius.jpg' copy two of them under a wrong public-domain tag: refused. The PHIL SEMs 11717 to 11744 were left (not what a reader sees). Commons category Cimex lectularius (169 files) read: NYS IPM 'Infested Mattress (11555683455)' (curbside mattress with black staining), 'Infested Mattress (11555718324)' (seam with eggs), 'Bed Bug Evidence (11555819853 / 11555820626)' (spotting behind a picture and at a wall-ceiling corner) and 'Bed Bug Evidence on Headboard (11555720024)' are good, with the program's own descriptions on Flickr, but their Commons description is only a watermark template, so the script would record CSS text as sourceDescription; left for a run that can record the Flickr text. 'Bed bug with hunger bubbles dsws.JPG' (CC0) is backlit from below and small (638x759): left. 'Bedbugs1.jpg' and 'Bedbug with eggs.jpg' are under 600 px. iNaturalist Cimex lectularius CC0 research grade (15 records) read; the two best were taken."
+  },
+  {
+   "slug": "seed-ticks",
+   "why": "Placed: gulf-coast-tick-life-stages (lead, on record), seed-ticks-massed-on-sock, seed-tick-larvae-fingertip, lone-star-tick-nymph-fingernail, blacklegged-tick-laying-eggs (on record), seed-ticks-on-red-tape. Still missing (placeholders stay): a public-domain or CC0 photo of seed ticks on skin or at the sock line with a dime; a labeled larva, nymph and adult comparison; seed tick bites. No PD or CC0 larva photo with a confident identification exists in PHIL ('tick larva', 'larval tick', 'seed tick', 'Amblyomma americanum' searched; 10879 is the only one) or Commons (the NIH BioArt larvae and 'Blacklegged Tick Ixodes scapularis.png' are drawings: refused). iNaturalist Ixodidae, US, descriptions 'seed tick', 'larva', 'larvae', 'larval', 'hundreds', 'swarm' read: refused 328671239 (CC0, called a larva by the observer but an identifier says adult male), 53672721 (CC0, 'seed tick' but an identifier says nymph), 311829408 (CC0 scope shots, Ixodidae only), 312076121 (CC0, a hand covered in tape over dozens of ticks; the observer's identification only and she calls them nymphs; a usable second choice for the tape step) and 132738821 (CC BY-SA, 200 larvae, photos less clear). PHIL 8677 (engorged lone star female on eggs) shows few eggs; PHIL 8678/8679 carry a CDC egg count (2,000 to 2,500) that differs from the page's 3,000 or more, so the on-record blacklegged-tick-laying-eggs was used."
+  },
+  {
+   "slug": "diatomaceous-earth-for-bed-bugs",
+   "why": "Placed: diatomaceous-earth-powder (lead), diatomaceous-earth-microscope, bed-bug-on-hand-bpca, bed-bugs-hotel-headboard (on record); tool link to /tools/what-bug-is-this. Still missing: a bulb duster puffing a film into a crack, an interceptor cup under a bed leg, a certified mattress encasement. Commons searches 'ClimbUp interceptor', 'bed bug monitor trap', 'mattress encasement', 'bed bug mattress cover', 'insecticide dust applicator' and 'bulb duster' found nothing usable. 'SEM of diatomaceous earth.jpg' (CC BY-SA 4.0) and Curtis Clark's pool-filter DE micrographs (CC BY-SA 2.5) were left as less clear than the bright-field image."
+  },
+  {
+   "slug": "doktor-doom-canada-guide",
+   "why": "Placed: bed-bugs-male-female-cdc (lead), argentine-ants-trail-wall, german-cockroach-frass-cabinet, bed-bug-fecal-stains-mattress, yellowjacket-ground-nest (all four on record); tool link to /tools/what-bug-is-this. No openly licensed photo of a Doktor Doom product exists on Commons, iNaturalist or PHIL, so the page shows the pests each job concerns, never a can."
+  },
+  {
+   "slug": "tick-head-stuck-in-skin",
+   "why": "Placed: lone-star-tick-removal-tweezers-elbow (lead), tick-removal-tweezers-forearm, american-dog-tick-mouthparts-sem, erythema-migrans-bullseye-arm; tool link to /tools/tick-identifier. Still missing: a photo of mouthparts actually left in skin after a removal (no PHIL, Commons or open iNaturalist record found). PHIL 31568 (a blacklegged tick on a fingertip with mouthparts open, per CDC) was looked at: at web width the tick is a few pixels and the mouthparts cannot be seen, so it cannot carry the caption; not added. PHIL 9962 to 9978 (Carr SEMs of ticks from a cat) were left as hard to read. brown-dog-ticks-dog-ear (on record) was considered for the dog section and left: a heavy, bloody infestation, not a stuck mouthpart."
+  },
+  {
+   "slug": "do-ticks-die-in-the-washing-machine",
+   "why": "Placed: blacklegged-tick-on-camouflage-clothing (lead), blacklegged-tick-on-clothing-seam, lone-star-tick-on-white-sneaker, blacklegged-tick-questing-grass; tool link to /tools/tick-identifier. No photo of ticks in a washer or dryer drum exists in any of the three sources. The CDC 2023 series also has lone star ticks on camouflage (28357 to 28361) and a black shoe (28362) for later pages."
+  },
+  {
+   "slug": "are-ticks-dangerous-ontario",
+   "why": "Placed: blacklegged-tick-questing-stick (lead), american-dog-tick-on-grass, lone-star-tick-on-grass, tick-check-sock-boot, tick-dropped-into-bottle; tool link to /tools/tick-identifier. A localInfo page: every quote prompt untouched. CDC series photos left for later pages: 28366 (tick behind a knee), 28372 to 28377 (American dog tick on a hairline, toes, a watch band), 28381 (blacklegged nymph near an elbow), 28385 (tick in an underarm), 28387 to 28389 (brown dog ticks on people), 28390 to 28392 (Asian longhorned ticks on skin), 31550 to 31572 (removal, tape and bottle disposal, tick checks), 14470, 14471 and 14474 (more erythema migrans views)."
+  }
+ ]
 }

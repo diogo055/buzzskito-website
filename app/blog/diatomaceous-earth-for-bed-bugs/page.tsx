@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import SpecialistDisclosure from '@/components/SpecialistDisclosure'
@@ -70,6 +72,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('diatomaceous-earth-powder'),
 })
 
 const AMZ_TAG = tagForSlug('diatomaceous-earth-for-bed-bugs')
@@ -77,7 +80,7 @@ const AMZ_TAG = tagForSlug('diatomaceous-earth-for-bed-bugs')
 export default function DiatomaceousEarthForBedBugsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to using diatomaceous earth against bed bugs — real efficacy, the application map, and which DE is actually PMRA-legal.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to using diatomaceous earth against bed bugs — real efficacy, the application map, and which DE is actually PMRA-legal.', slug: SLUG, datePublished: DATE, image: shareImage('diatomaceous-earth-powder') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Diatomaceous Earth for Bed Bugs', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -171,13 +174,28 @@ export default function DiatomaceousEarthForBedBugsPage() {
           />
 
           <h2>Does Diatomaceous Earth Actually Kill Bed Bugs?</h2>
+          <Photo
+            id="diatomaceous-earth-powder"
+            alt="A heap of fine, white diatomaceous earth powder on a dark surface"
+            caption="Food-grade diatomaceous earth, as its photographer describes the sample: a fine white powder. In Canada, only DE registered as a pesticide, with a PCP number on the label, is legal to use on bed bugs."
+          />
           <p>Yes &mdash; mechanically, and on a timescale of days rather than seconds. Diatomaceous earth is a powder milled from fossilized diatom shells; under magnification each particle is a jagged, porous fragment. When a bed bug crawls through a thin film of it, those particles scratch and absorb the waxy layer that seals moisture inside the insect&rsquo;s exoskeleton. Stripped of that waterproofing, the bug dehydrates and dies &mdash; no poison involved, just death by drying out. The waxy cuticle that DE abrades is the same layer left behind at every moult, so a dusted room often turns up empty casings before it turns up bodies &mdash; <Link href="/blog/bed-bug-shells-casings-shed-skins-canada" className="text-brand-700 underline">what a bed bug shell actually tells you</Link> explains how to read them.</p>
+          <Photo
+            id="diatomaceous-earth-microscope"
+            alt="Light-microscope view of diatomaceous earth: hundreds of broken, glassy fragments of round and needle-shaped diatom shells on a pale background"
+            caption="Diatomaceous earth under a light microscope: the broken silica shells of single-celled diatoms, round and elongated. These are the jagged, porous fragments that scratch and absorb a bed bug's waxy outer layer."
+          />
           <p>That mechanism is the source of both DE&rsquo;s biggest strength and its biggest weakness. The strength: because the kill is physical, a bed bug cannot develop biochemical resistance to it the way it has to pyrethroids. The weakness: desiccation is slow, and only happens to bugs that pick up enough dust and stay alive long enough to dry out.</p>
           <p><strong>The lab-versus-field gap is the whole story.</strong> In controlled tests, DE applied as a clean, dry, thin layer kills a high proportion of bed bugs forced to walk across it. In real bedrooms &mdash; where dust gets disturbed, humidity varies, and bugs hide in places you never treated &mdash; the same product performs far more modestly. Both facts are true at once: genuinely effective in the exact conditions of a lab, genuinely insufficient as a lone treatment in the messy conditions of a home.</p>
 
           <NextUp path="/blog/diatomaceous-earth-for-bed-bugs" />
           <h2>How Long Does Diatomaceous Earth Take to Kill Bed Bugs?</h2>
           <p>Roughly 4 to 10 days of exposure in lab conditions, and frequently longer in practice. This is the number that trips people up: they expect a bug to hit the powder and drop, then conclude it doesn&rsquo;t work when bugs are still around the next morning. A bed bug has to accumulate dust on its body and then lose enough water over subsequent days to die.</p>
+          <Photo
+            id="bed-bug-on-hand-bpca"
+            alt="A single reddish-brown bed bug on the skin between a person's thumb and fingers"
+            caption="A bed bug on a hand, photographed by the British Pest Control Association for scale. A bug this size has to pick up enough dust and then dry out, which took about 4 to 10 days in lab tests."
+          />
           <p>Because of that lag, DE functions as constant background pressure rather than a quick knockdown, grinding a population down as bugs repeatedly cross treated runways over weeks. That only helps if the infestation isn&rsquo;t breeding faster than the dust is killing &mdash; which is exactly why DE needs faster-acting partners like steam and a registered spray doing the heavy lifting up front.</p>
 
           <h2>Where Do You Apply Diatomaceous Earth for Bed Bugs?</h2>
@@ -190,6 +208,11 @@ export default function DiatomaceousEarthForBedBugsPage() {
             <li><strong>Under and behind furniture.</strong> Nightstand joints, dresser undersides, and the backs of built-ins near the bed.</li>
             <li><strong>Around bed legs and under interceptor cups.</strong> A light film beneath each leg backs up your interceptor traps.</li>
           </ul>
+          <Photo
+            id="bed-bugs-hotel-headboard"
+            alt="Crevice where a dark wooden headboard meets fabric, coated with white pesticide dust, with a pale dust-covered bed bug at the bottom of the gap"
+            caption="A bed bug coated in pesticide dust in a crevice of a hotel headboard after a treatment, photographed by the New York State IPM Program at Cornell University; the bug is the pale shape low in the gap. Dust works only where bugs have to walk through it."
+          />
           <p><strong>The rule that matters more than location:</strong> a thin, barely-visible film only. A white line or a pile of powder is too much &mdash; bed bugs sense heavy dust and detour around it, so over-application lowers your kill rate. Tap any visible mound down into a haze.</p>
 
           <RelatedLinks path="/blog/diatomaceous-earth-for-bed-bugs" />
@@ -229,6 +252,7 @@ export default function DiatomaceousEarthForBedBugsPage() {
           <p>DE is not the only dust in the category, and the differences between desiccants are bigger than the packaging suggests &mdash; speed of kill, how heavy a film you need to lay down, and how long the deposit keeps working all vary. We put the options side by side in <Link href="/blog/best-bed-bug-powder-canada">a straight comparison of the bed-bug dusts sold here</Link>, and there is a dedicated profile of <Link href="/blog/cimexa-bed-bug-review-canada">the silica-gel dust American advice keeps pointing Canadians toward</Link> if you want to understand what the US recommendations are actually built on.</p>
           <p>On the spray side of that stack, the one product worth singling out is the botanical exception: <Link href="/blog/ecoraider-bed-bug-spray-review-canada">a geraniol-based spray with independent university testing behind it</Link>, which kills eggs on direct contact rather than only the bugs it wets. What is not worth your money in any version is the bug bomb &mdash; <Link href="/blog/best-bed-bug-fogger-canada">the fogger verdict, in full</Link> explains why a settling mist never reaches the cracks a dust can sit in for months.</p>
           <p>Before any of it, confirm you&rsquo;re actually dealing with bed bugs and map where they&rsquo;re hiding &mdash; our walkthrough on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs in Canada</Link> shows the evidence to look for. And if you&rsquo;re weighing a full DIY stack against hiring a pro, the <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down what professional bed bug work actually runs.</p>
+          <p>If you are not sure the bug you found is a bed bug at all, our <Link href="/tools/what-bug-is-this">pest identifier quiz</Link> asks five quick questions about where you found it, its size, how it moves, what it looks like and the signs around it, then shows the most likely pest, how to confirm it and the guides to read next.</p>
           <p>For the wider picture on diatomaceous earth beyond bed bugs &mdash; grades, garden and crawling-insect uses, and how to buy it &mdash; see our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth Canada buyer&rsquo;s guide</Link>.</p>
           <p>Dusting is one step of seven, and it only pays off if the other six happen around it. <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">The full Canadian eradication sequence, in order</Link> puts confirmation, isolation, encasement, heat and dusting in the sequence that works, and <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">the five-tool basket for doing it without hiring anyone</Link> is the version for readers who intend to run the whole thing themselves.</p>
 

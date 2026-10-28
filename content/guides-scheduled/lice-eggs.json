@@ -1,0 +1,208 @@
+{
+  "slug": "lice-eggs",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "lice eggs",
+  "alsoTargets": [
+    "nits",
+    "what do lice eggs look like",
+    "what do nits look like",
+    "nits vs dandruff",
+    "dead nits vs live nits",
+    "lice eggs in hair",
+    "how to get rid of lice eggs"
+  ],
+  "metaTitle": "Lice Eggs (Nits): What They Look Like (Photos)",
+  "metaDescription": "Lice eggs (nits) are tiny ovals about 1/32 inch long, glued to hairs near the scalp. Photos, nits vs dandruff, live vs hatched, and how to remove them.",
+  "h1": "Lice Eggs: What Nits Look Like, Nits vs Dandruff, and Live vs Hatched",
+  "dek": "Nits are tiny oval eggs glued to single hairs near the scalp. Real photos up close and at about life size, how to tell them from dandruff and hair casts, live nits from hatched ones, and CDC's steps for removing them.",
+  "breadcrumb": "Lice Eggs (Nits)",
+  "excerpt": "What lice eggs (nits) look like on hair, how to tell them from dandruff and hair casts, live nits from hatched ones, and how to remove them.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Lice eggs, called nits, are tiny oval eggs about 1/32 inch long, glued to single hairs close to the scalp, and unlike dandruff they stick fast when you try to flick them off.** Live nits usually sit within 1/4 inch of the scalp, and [CDC](https://www.cdc.gov/lice/about/head-lice.html) says to look behind the ears and near the back of the neck.",
+    "bullets": [
+      "[CDC's DPDx parasite reference](https://www.cdc.gov/dpdx/pediculosis/index.html) gives a nit's size as 0.8 by 0.3 mm (about 1/32 inch long) and its color as usually yellow to white, and says nits are hard to see.",
+      "Nits attached more than 1/4 inch from the base of the hair are almost always hatched or dead, CDC says; if those are all you find, with no live lice, the case is probably old and needs no treatment.",
+      "Eggs hatch in about a week (6 to 9 days), and the empty shell stays glued to the hair, according to CDC.",
+      "Sand, dirt, lint and dandruff all comb out easily, while nits seem cemented to the hair, says the [American Academy of Dermatology](https://www.aad.org/public/diseases/a-z/head-lice-treatment).",
+      "The best proof of an active case is a live nymph or adult louse on the scalp or hair; CDC warns that misdiagnosis is common."
+    ]
+  },
+  "facts": {
+    "title": "Lice eggs or something else? Quick ID",
+    "head": ["What you found", "What it looks like", "Where it sits", "Does it come off?"],
+    "rows": [
+      ["Live (unhatched) nit", "Oval egg about 1/32 inch long; yellow to white, or tan to brown, and may blend in with the hair", "Glued to a single hair, usually within 1/4 inch of the scalp", "No: cemented in place; a nit comb pulls it off"],
+      ["Hatched (empty) nit", "Empty shell, lighter than a live egg: white, clear or dull yellow", "Still glued to the hair, farther from the scalp than live eggs", "No: it stays glued until it is combed out"],
+      ["Dandruff", "Flakes shed from the scalp", "Loose on the scalp and among the hairs", "Yes: combs out or flicks off easily"],
+      ["Hair cast", "Whitish tube or sleeve of dead hair tissue", "Wrapped around the hair shaft", "Yes: slides easily along the hair"],
+      ["Hair spray, sand, dirt or lint", "Droplets, grains or fibers", "On or between the hairs", "Yes: combs out or washes off"],
+      ["Head louse (nymph or adult)", "Tan to grayish-white insect with six clawed legs; adults 2 to 3 mm (about 1/10 inch), the size of a sesame seed", "On the scalp and hair; moves quickly and avoids light", "Crawls away; a fine-toothed comb helps find it"]
+    ],
+    "caption": "Sizes and colors from CDC (DPDx and About Head Lice), UC IPM, the AAP and AAD; look-alikes from AAD, UC IPM, Mayo Clinic, MedlinePlus and a 2020 dermatology case report on hair casts. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What do lice eggs look like?" },
+    { "type": "p", "text": "Lice eggs, or nits, look like tiny oval seeds stuck to the hair. CDC's DPDx, its reference for identifying parasites in the laboratory, describes them as oval, usually yellow to white and 0.8 by 0.3 mm (about 1/32 inch long), hard to see and often mistaken for dandruff or hair spray droplets. The female louse cements each egg to the base of a hair, nearest the scalp, so it is difficult to remove." },
+    { "type": "figure", "src": "/guides/photos/head-lice-nits-on-hair.webp", "width": 1200, "height": 817, "alt": "Three oval louse eggs magnified on hair shafts against a pale background, each glued at one end to the side of a hair, the left one dark inside", "caption": "Three head louse eggs (nits) glued to human hair shafts, magnified, in a CDC photograph; CDC says they are at different stages of development. Each egg is fixed at one end to the side of a hair, not wrapped around it.", "license": "public-domain", "credit": "CDC/ Dr. Dennis Juranek (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26390" },
+    { "type": "p", "text": "Without magnification, a nit is a speck. The [American Academy of Pediatrics](https://www.healthychildren.org/English/health-issues/conditions/from-insects-animals/Pages/Signs-of-Lice.aspx) (AAP) compares one to a knot in thread and describes nits as small white or yellow-brown specks firmly attached to the hair near the scalp. [UC IPM's head lice guide](https://ipm.ucanr.edu/home-and-landscape/head-lice/), from the University of California, gives the same 1/32-inch length and notes that on light-colored hair, nits are camouflaged by the hair's own pigment." },
+    { "type": "figure", "src": "/guides/photos/head-lice-nits-on-hair-life-size.webp", "width": 608, "height": 648, "alt": "Brown hair seen without magnification, with many small pale specks stuck to individual hairs and skin at the lower left", "caption": "Head louse nits on brown hair, photographed without a microscope: each small pale speck is stuck to a single hair. This is roughly how nits look to the naked eye.", "license": "CC-BY-SA-3.0", "credit": "KostaMumcuoglu at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fig._5._Louse_nits.jpg" },
+    { "type": "p", "text": "A nit is far smaller than the louse it becomes. [CDC's head lice overview](https://www.cdc.gov/lice/about/head-lice.html) puts adult lice at 2 to 3 mm (about 1/10 inch), the size of a sesame seed, and DPDx says the nymphs that hatch are about the size of a pinhead. An adult female can lay about six eggs a day, CDC says." },
+    { "type": "figure", "src": "/guides/photos/head-louse-adult-and-egg-scale.webp", "width": 1200, "height": 768, "alt": "Magnified adult head louse with six clawed legs on a microscope slide, beside a much smaller oval egg glued along a single hair", "caption": "An adult head louse beside an egg glued to a single hair, from a human host, on a prepared microscope slide. The egg is cemented along one side of the hair.", "license": "CC-BY-SA-3.0", "credit": "Doc. RNDr. Josef Reischig, CSc., CC BY-SA 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Head_louse_(251_27)_Adult_and_egg,_from_a_human_host.jpg" },
+
+    { "type": "h2", "text": "Where on the head do you find nits?" },
+    { "type": "p", "text": "Close to the scalp, most often behind the ears and near the back of the neck, where CDC, the American Academy of Dermatology (AAD) and the AAP all say to look. [MedlinePlus](https://medlineplus.gov/ency/article/000840.htm), the National Library of Medicine's health site, calls the top of the neck and the ears the most common places for eggs, and [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/head-lice/symptoms-causes/syc-20356180) says the female louse attaches each egg less than 1/8 inch (3 mm) from the scalp." },
+    { "type": "checklist", "title": "How to check a head for nits", "items": [
+      "**Light and parting.** In a brightly lit room, part the hair down to the scalp one small section at a time (AAP, MedlinePlus).",
+      "**Start behind the ears.** Then check the hairline at the back of the neck (CDC, AAD).",
+      "**Comb and magnify.** A fine-toothed louse comb and a magnifying lens can help, CDC says; UC IPM calls wet combing the best way to inspect a head.",
+      "**Test each speck.** Dandruff, sand, dirt and lint flick or comb away; a nit does not (AAD, UC IPM).",
+      "**Watch for movement.** A live louse is the best proof of an active case (CDC), but lice move quickly and avoid light (Mayo Clinic)."
+    ] },
+    { "type": "figure", "src": "/guides/photos/head-lice-nits-heavy-infestation.webp", "width": 1200, "height": 722, "alt": "Dark hair seen from above, crowded with thousands of small tan and whitish oval specks stuck along the hair shafts", "caption": "Dark hair crowded with small oval specks along the shafts, which the photographer describes as a head infested with lice. This is an extreme case: a check may turn up only a few nits, and CDC calls them hard to see.", "license": "CC0-1.0", "credit": "Aditya Suseno, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Head_Infested_With_Louse.jpg" },
+    { "type": "media", "needed": "A few nits on hairs close to the scalp behind a child's ear, at life size beside a ruler marked in inches, identified by a health agency or university; public domain or CC0, so it could become the page's lead photo" },
+
+    { "type": "h2", "text": "How can you tell live nits from hatched or dead ones?" },
+    { "type": "p", "text": "Measure their distance from the scalp. CDC says nits attached more than 1/4 inch from the base of the hair are almost always hatched or dead, DPDx says live, or viable, eggs are usually within 6 mm (about 1/4 inch) of the scalp, and UC IPM gives the same rule. An egg needs the warmth close to the scalp: CDC says nits usually die within a week if they are not kept at that temperature." },
+    { "type": "p", "text": "Distance works because the shell stays put. After the young louse leaves, the empty shell turns a more visible dull yellow and remains attached to the hair, DPDx says, so the oldest nits sit farthest out. Mayo Clinic notes that empty nits are lighter, farther from the scalp and may be easier to see than live eggs, especially on darker hair." },
+    { "type": "figure", "src": "/guides/photos/head-louse-nit-eyespots-and-nymph.webp", "width": 1200, "height": 790, "alt": "Magnified unhatched louse egg on a hair shaft with two tiny red eyespots visible inside it, and a pale young louse with clawed legs at the right", "caption": "An unhatched head louse egg on a hair shaft (left), with the red eyespots of the developing louse visible through the shell, beside a nymph, in a CDC photomicrograph.", "license": "public-domain", "credit": "CDC/ Dr. Dennis Juranek (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=19066" },
+    { "type": "p", "text": "Color is a weaker clue, and the sources describe it differently. AAD calls nits yellow, brown or tan and says a hatched egg looks clear; UC IPM says developing eggs are dark and turn white after hatching; DPDx says an empty shell turns dull yellow. AAD, UC IPM and Mayo Clinic agree that an empty shell looks lighter than a developing egg, but CDC's advice on who to treat goes by distance from the scalp." },
+    { "type": "figure", "src": "/guides/photos/head-louse-hatching-from-nit.webp", "width": 1200, "height": 819, "alt": "Side view of a young louse climbing head first out of its egg, which is glued to a hair shaft, lit golden against a black background", "caption": "A head louse nymph emerging from its egg on a hair shaft, in a CDC photograph. CDC says the empty shell stays attached to the hair after hatching.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=5267" },
+    { "type": "media", "needed": "A hatched (empty) nit shell and a live, unhatched nit on the same hair, labeled as such by the source, under a hand lens or at life size beside a ruler marked in inches; public domain or CC0" },
+
+    { "type": "h2", "text": "How long do lice eggs take to hatch?" },
+    { "type": "p", "text": "About a week. CDC gives 6 to 9 days, and says the young lice, called nymphs, become adults about 7 days after that. Other sources give slightly longer ranges: 7 to 10 days under normal conditions (UC IPM) and 7 to 12 days depending on the temperature (AAP)." },
+    { "type": "table", "head": ["Stage", "How long it lasts", "Size"], "rows": [
+      ["Egg (nit)", "Hatches in about a week (6 to 9 days)", "About 0.8 mm (1/32 inch) long"],
+      ["Nymph", "Becomes an adult about 7 days after hatching, after three molts", "About the size of a pinhead"],
+      ["Adult", "Lives about 30 days on a head; dies within 2 days off one", "2 to 3 mm (about 1/10 inch), the size of a sesame seed"]
+    ], "caption": "From CDC's head lice overview and DPDx." },
+    { "type": "p", "text": "That timing is why many lice medicines need a second round. [CDC's treatment steps](https://www.cdc.gov/lice/treatment/index.html) say that medicines that kill lice but not their eggs should be used again about a week after the first treatment, 7 to 9 days depending on the drug." },
+
+    { "type": "h2", "text": "Nits vs dandruff: how can you tell them apart?" },
+    { "type": "p", "text": "Try to move the speck: dandruff comes away, a nit stays put. MedlinePlus notes that nits can look like dandruff flakes but stay in place instead of flaking off; AAD says dandruff, sand, dirt and lint comb out easily while nits seem cemented to the hair; and UC IPM says other particles can be flicked or washed off." },
+    { "type": "figure", "src": "/guides/photos/dandruff-flakes.webp", "width": 1200, "height": 1011, "alt": "Four translucent, irregular, flat flakes of dead skin on black fabric, seen close up", "caption": "Flakes of dead skin, as in dandruff, on dark fabric. Flakes like these sit loose and comb out easily, while a nit stays cemented to its hair.", "license": "CC-BY-SA-3.0", "credit": "Wouter Hagens, CC BY-SA 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huidschilfers_A.jpg" },
+    { "type": "p", "text": "Flaky, itchy scalp skin neither proves nor rules out lice. [AAD's page on treatment that fails](https://www.aad.org/public/diseases/a-z/head-lice-fails) warns that an allergy or irritated skin can cause itchy red bumps and flakes on a child's scalp, and that parents, and even medical professionals, sometimes mistake another condition for head lice." },
+    { "type": "h3", "text": "Hair casts" },
+    { "type": "p", "text": "A hair cast is a whitish sleeve around the hair shaft that is frequently misdiagnosed as head lice, according to a [2020 dermatology case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC7588169/). The report gives the tell: a hair cast, or pseudonit, moves easily along the hair, while a nit stays fixed. Mayo Clinic lists these beads of dead hair tissue among the things easily mistaken for nits." },
+    { "type": "figure", "src": "/guides/photos/hair-cast.webp", "width": 1200, "height": 790, "alt": "Magnified dark hair shaft with a pale, ragged sleeve of tissue wrapped around it", "caption": "A hair cast (peripilar keratin cast) on a human hair, magnified in a CDC photograph; CDC notes that an inexperienced observer could mistake one for a nit. It wraps around the shaft instead of sitting on one side.", "license": "public-domain", "credit": "CDC/ Dr. Dennis Juranek (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=17460" },
+    { "type": "h3", "text": "Hair spray, scabs and other specks" },
+    { "type": "p", "text": "Mayo Clinic's list of nit look-alikes also includes hair spray droplets and other hair products, scabs, dirt, hair changes from a fungal infection and other small insects in the hair. When you cannot tell what a speck is, CDC says to see your healthcare provider." },
+
+    { "type": "h2", "text": "What else gets mistaken for lice or nits?" },
+    { "type": "p", "text": "Other pests and eggs get mixed up with head lice too:" },
+    { "type": "ul", "items": [
+      "**Booklice.** Not the lice that live on people: [Penn State Extension](https://extension.psu.edu/booklice) says booklice do not bite and do not affect human or animal health. They live in humid, dark places among paper and books.",
+      "**Flea eggs.** About a nit's size: [UC IPM's flea guide](https://ipm.ucanr.edu/home-and-landscape/fleas/) describes cat flea eggs as pearly white, oval and about 1/32 inch long, but smooth, so they fall off the pet onto bedding and carpet instead of sticking to a hair.",
+      "**Fleas.** UC IPM says the cat flea attacks dogs and cats and will also bite people; fleas jump onto their hosts, while head lice crawl and cannot hop or fly, CDC says. [Fleas on humans](/blog/fleas-on-humans) explains whether fleas can live on people.",
+      "**Body lice.** DPDx says body lice live and lay their eggs on clothing.",
+      "**Ticks.** Something with legs fixed to the skin of the scalp may be a tick: [CDC's tick bite prevention page](https://www.cdc.gov/ticks/prevention/index.html) lists in and around the hair and ears among the places to check a child after time outdoors. See [how to check the scalp and hairline for ticks](/blog/how-to-do-a-tick-check).",
+      "**Itchy skin with no lice.** Other causes include scabies, which [scabies vs bed bug bites](/blog/scabies-vs-bed-bugs) compares with bed bugs; [the photo guide to bug bites](/learn/bug-bites) covers the common biters, and [the full library of pest guides](/learn) covers other household pests."
+    ] },
+    { "type": "confused", "title": "Also mistaken for lice or nits", "items": [
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse-printed-paper", "note": "Lives in damp, dark rooms among paper and books, and does not bite", "alt": "Tiny pale booklouse on printed paper beside a printed letter" },
+      { "href": "/blog/flea-eggs", "name": "Flea egg", "photo": "flea-egg-and-larva", "note": "Pearly white and about 1/32 inch, but smooth: falls off pets onto bedding and carpet", "alt": "Magnified pearly oval flea egg beside a pale, segmented, newly hatched flea larva" },
+      { "href": "/blog/fleas-on-humans", "name": "Cat flea", "photo": "cat-flea-on-fingertip", "note": "A jumping pet parasite that also bites people; head lice only crawl", "alt": "Reddish-brown cat flea on the pink skin of a fingertip" }
+    ] },
+
+    { "type": "h2", "text": "What does finding nits mean?" },
+    { "type": "p", "text": "It depends on where they are and whether you also find live lice. CDC calls a live nymph or adult louse the best way to diagnose head lice, and [its guidance on caring for someone with lice](https://www.cdc.gov/lice/caring-head/index.html) says to treat anyone with crawling lice or with nits within 1/4 inch of the scalp. Nits farther out with no live lice probably mean an old infestation that does not need treatment, CDC says; UC IPM adds that nits alone are not a reliable sign of an active one." },
+    { "type": "p", "text": "The AAP advises using lice medicine only when it is certain a child has living lice; if you are not sure, CDC says to see your healthcare provider. CDC also recommends checking everyone in the household every 2 to 3 days, and notes that nits may stay in the hair after a successful treatment has killed the crawling lice." },
+
+    { "type": "h2", "text": "How do you get rid of lice eggs?" },
+    { "type": "p", "text": "Treat the lice with a lice medicine used exactly as its label directs, then comb out the nits. CDC says some over-the-counter and prescription medicines kill both lice and eggs, while others kill only lice and need a second treatment; ask your doctor, pharmacist or health department which product they recommend. CDC's steps, in order:" },
+    { "type": "ol", "items": [
+      "**Confirm it first.** Treat only an active infestation, and treat everyone who has one, plus anyone sharing their bed, at the same time.",
+      "**Follow the label.** Note how long to leave the medicine on and how to rinse it out. Skip conditioner and combination shampoo-conditioners beforehand, and do not rewash the hair for 1 to 2 days after.",
+      "**Check 8 to 12 hours later.** A few lice still moving slowly need no second dose; if you find no dead lice, or the lice seem as active as before, talk to a healthcare provider before treating again.",
+      "**Comb out the nits.** Use a nit comb (CDC says flea combs for cats and dogs also work) every 2 to 3 days for 2 to 3 weeks after each treatment. MedlinePlus and UC IPM say metal combs with very fine teeth work better than plastic ones.",
+      "**Retreat on schedule.** If the medicine does not kill eggs, treat again 7 to 9 days later, depending on the drug; after one that does, retreat only if live lice turn up several days later."
+    ] },
+    { "type": "p", "text": "Combing helps but is not a cure on its own: the AAP says combing every 2 to 3 days for 2 to 3 weeks after each treatment may help remove nits, but that the comb-out method usually does not get rid of head lice by itself." },
+    { "type": "media", "needed": "Nits, not a louse, caught in the teeth of a metal nit comb after combing a child's hair, at life size beside a ruler marked in inches; public domain or CC0" },
+    { "type": "p", "text": "What not to do, according to CDC, the AAP and AAD:" },
+    { "type": "ul", "items": [
+      "**No gasoline or kerosene.** The AAP says never to use dangerous products like these, or medicines made for animals.",
+      "**No sprays or fogs.** CDC says fumigant sprays and fogs can be toxic if inhaled or absorbed through the skin.",
+      "**No doubling up.** [CDC's clinical guidance](https://www.cdc.gov/lice/hcp/clinical-care/index.html) warns that lice medicines are insecticides that can be dangerous if misused or overused: no extra amounts or two medicines at once unless a doctor or pharmacist says so, and no more than 2 or 3 rounds of a medicine that is not working.",
+      "**No kitchen cures.** CDC has no scientific evidence that mayonnaise, olive oil, margarine, butter or similar substances work, and AAD says none has been found effective."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "See a healthcare provider if symptoms continue after home treatment or the skin turns red and tender, which MedlinePlus says can signal infection, and before retreating if lice seem as active as before 8 to 12 hours after treatment (CDC). Check with a provider before treating a young child (CDC, AAP), and if you are pregnant or breastfeeding, ask a doctor or pharmacist which product to use: CDC lists lice medicines not to use then. Not sure it is lice? AAD says a dermatologist can tell." },
+
+    { "type": "h2", "text": "Do you need to clean the house after finding nits?" },
+    { "type": "p", "text": "Only a little: CDC says extra cleaning measures are usually not necessary. Lice die within two days if they fall off a person and cannot feed, nits usually die within a week away from the warmth near the scalp, and CDC calls the risk of getting lice from a louse on a rug, carpet or furniture very small. Its steps:" },
+    { "type": "ul", "items": [
+      "Machine wash and dry clothes, bedding and other items the person used in the 2 days before treatment, in hot water (130°F) and on high heat.",
+      "Seal anything you cannot wash or dry-clean in a plastic bag for 2 weeks.",
+      "Soak combs and brushes in water of at least 130°F for 5 to 10 minutes.",
+      "Vacuum the floor and furniture, especially where the person sat or lay."
+    ] },
+
+    { "type": "h2", "text": "Can a child go to school with nits?" },
+    { "type": "p", "text": "Yes, in the view of CDC and the AAP. CDC says students with head lice do not need to be sent home early: they can be treated at home and return after beginning treatment. The AAP and the National Association of School Nurses discourage no-nit policies, which keep a child with any nits out of school, and say no child should miss school because of head lice; UC IPM adds that such policies have no biological basis." },
+    { "type": "p", "text": "Schools still set their own rules, though: MedlinePlus notes that many places do not allow children with lice back until the lice have been completely treated, so check your school's policy." },
+    { "type": "callout", "tone": "tip", "title": "Keep a sample", "text": "Photograph a speck on its hair beside a ruler marked in inches, or tape the hair to white paper and look under a magnifying lens: a nit is a small oval glued to the hair, while a flake or grain comes away. Still unsure? CDC advises seeing your healthcare provider, and AAD says a dermatologist can confirm head lice." }
+  ],
+  "faqs": [
+    {
+      "question": "Can you see lice eggs with the naked eye?",
+      "answer": "Yes, but they are small and easy to miss. CDC's DPDx reference gives a nit's size as 0.8 by 0.3 mm, about 1/32 inch long, and calls nits hard to see; the American Academy of Pediatrics compares one to a knot in thread. Mayo Clinic says empty nits may be easier to see than live ones, especially on darker hair. Part the hair in small sections under a bright light, look closely behind the ears and at the back of the neck, and use a magnifying lens, which CDC says can help."
+    },
+    {
+      "question": "What color are lice eggs?",
+      "answer": "Usually yellow to white, according to CDC, though the American Academy of Dermatology describes them as yellow, brown or tan, and UC IPM notes that on light-colored hair they are camouflaged by the hair's own pigment. The color changes after hatching: AAD says a hatched egg looks clear, UC IPM says white, and CDC says the empty shell turns a more visible dull yellow. Because the descriptions differ, distance is a better guide: CDC says nits more than 1/4 inch from the scalp are almost always hatched or dead."
+    },
+    {
+      "question": "Why do I keep finding lice eggs but no lice?",
+      "answer": "Often because the nits are old. CDC says nits attached more than 1/4 inch from the base of the hair are almost always hatched or dead, and that if those are all you find, with no live lice, the infestation is probably old and does not need treatment. Empty shells stay glued to the hair after hatching, so they can remain after the lice are gone. Live lice are also hard to spot, because they move quickly and avoid light, Mayo Clinic says. Nits within 1/4 inch of the scalp count as an active case in CDC's guidance, and if you are unsure, CDC says to see a healthcare provider."
+    },
+    {
+      "question": "Do dead nits fall out on their own?",
+      "answer": "Not quickly. Nits are held to the hair by a cementlike substance that makes them difficult to remove, and CDC says the shell stays attached to the hair after the louse hatches, so empty shells remain on the hair after the lice are gone. Mayo Clinic notes that empty nits are the ones found farther from the scalp. A fine-toothed metal nit comb removes them; CDC advises checking and combing every 2 to 3 days for 2 to 3 weeks after each treatment, and notes that nits may stay in the hair after a treatment that has killed the crawling lice."
+    },
+    {
+      "question": "Can lice eggs hatch on a pillow or in bedding?",
+      "answer": "It is unlikely. Nits need the warmth close to the scalp: CDC says they usually die within a week if they are not kept at that temperature, and adult lice die within two days if they fall off a person and cannot feed. CDC calls the risk of getting lice from a louse on a rug, carpet or furniture very small. To be safe, it advises machine washing and drying bedding, clothes and other items the person used in the two days before treatment, in hot water (130°F) and on high heat."
+    },
+    {
+      "question": "How often should you wash hair when someone has lice?",
+      "answer": "Washing does not remove nits: UC IPM says a nit sticks to the hair while other particles can be washed off, and CDC says lice can survive under water for several hours and that chlorine levels in pool water do not kill them. What matters is timing around treatment. CDC says not to use conditioner or a combination shampoo and conditioner before applying lice medicine, and not to rewash the hair for 1 to 2 days after removing it. Follow the product label for anything more specific, and comb out nits every 2 to 3 days for 2 to 3 weeks."
+    },
+    {
+      "question": "Should everyone in the house be checked for nits?",
+      "answer": "Yes. Once you find crawling lice or nits, CDC advises examining all household members for head lice every 2 to 3 days, and the American Academy of Pediatrics says all household members and close contacts should be checked. CDC recommends treating everyone who has an active infestation, along with anyone they share a bed with, at the same time. Only people with live lice, or with nits within 1/4 inch of the scalp, need treatment under CDC's guidance."
+    },
+    {
+      "question": "Can you get lice eggs from a dog or cat?",
+      "answer": "No. CDC says animals do not get or spread head lice, Mayo Clinic says household pets such as dogs and cats do not spread them, and UC IPM says head lice cannot live on family pets. Head lice spread mainly through head-to-head contact with someone who has them, CDC says. Pets do carry fleas, which UC IPM says attack dogs and cats and will also bite people, but flea eggs are smooth and fall off the animal instead of being glued to hair the way nits are."
+    },
+    {
+      "question": "Are lice eggs a sign of dirty hair?",
+      "answer": "No. CDC says getting head lice is not related to the cleanliness of you or your environment, and the American Academy of Pediatrics says it does not matter whether the hair is clean or dirty. Head lice spread mainly through direct head-to-head contact with someone who has them, and less often through shared items such as combs, brushes, hats or towels. They crawl and cannot hop or fly, CDC says, and UC IPM adds that head lice do not transmit disease-causing pathogens or indicate poor hygiene."
+    },
+    {
+      "question": "Do home remedies like mayonnaise or olive oil kill lice eggs?",
+      "answer": "There is no good evidence that they do. CDC says it has no scientific evidence that suffocating head lice with mayonnaise, olive oil, margarine, butter or similar substances is an effective treatment, and the American Academy of Dermatology says none of these has been found to be effective. The American Academy of Pediatrics warns never to use dangerous products such as gasoline or kerosene, or medicines made for animals. Over-the-counter and prescription lice medicines, used exactly as the label directs and followed by nit combing, are the treatments CDC describes."
+    }
+  ],
+  "sources": [
+    { "title": "About Head Lice", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lice/about/head-lice.html" },
+    { "title": "Treatment of Head Lice", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lice/treatment/index.html" },
+    { "title": "Providing Care for Individuals with Head Lice", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lice/caring-head/index.html" },
+    { "title": "Clinical Care of Head Lice", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/lice/hcp/clinical-care/index.html" },
+    { "title": "DPDx: Pediculosis", "publisher": "Centers for Disease Control and Prevention, Division of Parasitic Diseases and Malaria", "url": "https://www.cdc.gov/dpdx/pediculosis/index.html" },
+    { "title": "Preventing Tick Bites", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/ticks/prevention/index.html" },
+    { "title": "Head lice: Diagnosis and treatment", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/head-lice-treatment" },
+    { "title": "How to get rid of head lice when treatment fails", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/head-lice-fails" },
+    { "title": "Head Lice: What Parents Need to Know (Dawn Nolt, MD, MPH, FAAP)", "publisher": "American Academy of Pediatrics, HealthyChildren.org", "url": "https://www.healthychildren.org/English/health-issues/conditions/from-insects-animals/Pages/Signs-of-Lice.aspx" },
+    { "title": "Head lice (MedlinePlus Medical Encyclopedia)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/ency/article/000840.htm" },
+    { "title": "Head lice: Symptoms and causes", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/head-lice/symptoms-causes/syc-20356180" },
+    { "title": "Pest Notes: Head Lice (UC ANR Publication 7446)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/head-lice/" },
+    { "title": "Pseudonits or Hair Casts (Lukoviek, Malvehy, Puig and Podlipnik, Dermatology Practical & Conceptual, 2020)", "publisher": "PubMed Central, US National Library of Medicine", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7588169/" },
+    { "title": "Booklice (updated July 23, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/booklice" },
+    { "title": "Pest Notes: Fleas (UC ANR Publication 7419)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fleas/" }
+  ],
+  "disclaimer": "health"
+}

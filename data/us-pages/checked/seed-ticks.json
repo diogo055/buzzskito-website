@@ -2,7 +2,7 @@
  "id": "seed-ticks",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "43fc92113cbd64e49189f652795bf3e74198a97dc8556f3a2892a8a738dbc132",
+ "sha": "8666ef3b91bb6dacacafedff608397fffb36c34c2ee43480fec0bb913fc8902b",
  "claimsChecked": 94,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 10,
@@ -16,6 +16,11 @@
    "on": "2026-10-23",
    "note": "link to /tools/tick-identifier added in section What do seed ticks look like? (one new paragraph at the end of Could it be something other than ticks?)",
    "previousSha": "03bd4a7726ca2321462379440894353654efb1f75d61b160b7325004fad7796b"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026, Google Images wave 2): 6 ledger photos added as figure blocks: gulf-coast-tick-life-stages (public domain, CDC PHIL 10879; lead and share image), seed-ticks-massed-on-sock and seed-ticks-on-red-tape (CC BY 4.0, iNaturalist obs 313403754, research grade lone star tick larvae), seed-tick-larvae-fingertip (CC BY 4.0, iNaturalist obs 308626827; larvae and species named by an identifier's comment), lone-star-tick-nymph-fingernail (public domain, CDC PHIL 28365), blacklegged-tick-laying-eggs (public domain, CDC PHIL 22182). Captions restate the records and facts already on the page (Illinois Extension, University of Rhode Island). The four media placeholders stay. No other text, dates, FAQs or sources changed.",
+   "previousSha": "43fc92113cbd64e49189f652795bf3e74198a97dc8556f3a2892a8a738dbc132"
   }
  ]
 }

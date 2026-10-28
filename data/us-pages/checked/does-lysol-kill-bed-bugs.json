@@ -2,9 +2,16 @@
  "id": "does-lysol-kill-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "41d2c8b780bd1715f3128efd75cb4f858db8927ae60973365bc27b14b3a4ef57",
+ "sha": "d46ff2f7cc82f8ed8706f8f9ede620b8e312430ac3d6b4a6319812df1702b60f",
  "claimsChecked": 70,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026, Google Images wave 2): 4 ledger photos added as figure blocks: bed-bug-on-skin-macro (CC0, iNaturalist obs 298104023, research grade; lead and share image), lysol-all-purpose-cleaner-bottle (CC BY 2.0, ajay_suresh via Commons; captioned as a different Lysol product from the aerosol whose label the page reviews), bed-bugs-eggs-under-bag-strap (CC BY-SA 4.0, Commons, photographer's description), bed-bugs-mating-eggs-fabric-fold (CC BY-SA 4.0, Commons, photographer's description). Captions restate the records and facts already on the page (Rutgers, the EPA-accepted label). One new closing paragraph links /tools/what-bug-is-this. No other text, dates, FAQs or sources changed.",
+   "previousSha": "41d2c8b780bd1715f3128efd75cb4f858db8927ae60973365bc27b14b3a4ef57"
+  }
+ ]
 }

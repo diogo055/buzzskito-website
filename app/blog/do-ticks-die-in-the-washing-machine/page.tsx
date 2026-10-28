@@ -5,6 +5,8 @@ import BuyLink from '@/components/BuyLink'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -68,6 +70,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('blacklegged-tick-on-camouflage-clothing'),
 })
 
 const AMZ_TAG = tagForSlug('do-ticks-die-in-the-washing-machine')
@@ -75,7 +78,7 @@ const AMZ_TAG = tagForSlug('do-ticks-die-in-the-washing-machine')
 export default function DoTicksDieInTheWashingMachinePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Whether washing and drying clothes kills ticks, the temperatures that work, and a post-hike laundry protocol for Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Whether washing and drying clothes kills ticks, the temperatures that work, and a post-hike laundry protocol for Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-on-camouflage-clothing') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Do Ticks Die in the Washing Machine?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -161,6 +164,11 @@ export default function DoTicksDieInTheWashingMachinePage() {
 
           <h2>Do ticks die in the wash?</h2>
           <p><strong>Usually not.</strong> Ticks are remarkably tolerant of water and laundry detergent, so a normal wash cycle &mdash; cold or warm &mdash; frequently leaves them alive and able to crawl out afterward. In a widely cited 2016 experiment published in the <em>Journal of Medical Entomology</em>, researchers put blacklegged (deer) ticks on clothing and ran them through household laundry machines. Ticks survived cold water completely, and only water heated to <strong>54&deg;C (130&deg;F) or above killed all of them</strong>.</p>
+          <Photo
+            id="blacklegged-tick-on-camouflage-clothing"
+            alt="Camouflage-print fabric with a small adult female blacklegged tick crawling on it, circled in red"
+            caption="An adult female blacklegged (deer) tick crawling on camouflage clothing, circled in red on the CDC photo. Blacklegged ticks are the species the 2016 laundry study tested, and the one that spreads Lyme disease."
+          />
           <p>That number is the catch. Most Canadian and U.S. water heaters are deliberately set to around 49&deg;C (120&deg;F) to prevent scald injuries, which is a few crucial degrees below the tick-kill threshold. So even when you select the &ldquo;hot&rdquo; wash, the water arriving in the drum is often not hot enough to guarantee a kill. If your only tool were the washing machine, you would be gambling with a species that spreads Lyme disease.</p>
 
           <NextUp path="/blog/do-ticks-die-in-the-washing-machine" />
@@ -191,6 +199,11 @@ export default function DoTicksDieInTheWashingMachinePage() {
             <li><strong>If you must wash first (very dirty clothes),</strong> then still run a full high-heat dry cycle afterward &mdash; and expect to add roughly 50&ndash;60 minutes because the fabric starts out wet.</li>
             <li><strong>Check the machine and basket.</strong> Wipe down the drum and don&rsquo;t leave worn outdoor clothing waiting overnight where a survivor could wander off.</li>
           </ol>
+          <Photo
+            id="blacklegged-tick-on-clothing-seam"
+            alt="Close-up of a camouflage clothing seam with a small dark adult male blacklegged tick crawling along it, circled in red"
+            caption="An adult male blacklegged tick crawling along a seam of camouflage clothing (CDC photo; the red circle is on the original). A tick on worn clothes can crawl off in the hamper, so go from your body to the dryer, not to the floor."
+          />
           <p>Fewer ticks board in the first place if the ankle layer is treated. Consumer permethrin sprays are not registered for sale in Canada, so the route here is factory-treated socks and pants, the format Canada permits for ages 16 and over. <BuyLink tag={AMZ_TAG} search="permethrin treated socks">Check price on Amazon.ca &rarr;</BuyLink></p>
 
           <h2>Your Post-Hike Clothing Protocol (In Order)</h2>
@@ -202,7 +215,13 @@ export default function DoTicksDieInTheWashingMachinePage() {
             <li><strong>While the dryer runs:</strong> shower and do a full-body <Link href="/blog/how-to-do-a-tick-check">tick check</Link>, feeling for a bump the size of a poppy seed in warm, hidden folds.</li>
             <li><strong>Don&rsquo;t forget gear and pets:</strong> backpacks, blankets, and the dog all carry ticks that later crawl onto people.</li>
           </ol>
+          <Photo
+            id="lone-star-tick-on-white-sneaker"
+            alt="White leather sneaker with a small reddish-brown adult female lone star tick crawling on its side near the laces"
+            caption="An adult female lone star tick crawling on a white sneaker (CDC photo). Step one above, a quick visual sweep of your lower legs before you leave the trail, is meant to catch hitchhikers like this one."
+          />
           <p>The reason the same-day routine matters so much is timing. In Ontario, a blacklegged tick generally has to stay attached for roughly <strong>24 to 36 hours</strong> before it can transmit the bacteria behind Lyme disease, so catching one on your clothing &mdash; before it ever attaches &mdash; removes the risk entirely. If you want the full picture of how long these ticks stay alive and how they hang on, see our guide on <Link href="/blog/how-long-do-ticks-live">how long ticks live</Link>.</p>
+          <p>Found one on your clothes and not sure what it is? Our <Link href="/tools/tick-identifier">tick identifier</Link> asks six quick questions about its size, legs and markings, where you found it, where you picked it up and the season, then shows the most likely ticks with a real photo of each, or tells you when it is probably not a tick.</p>
 
           <h3>Keep a removal tool where step four happens</h3>
           <AffiliateDisclosure />
@@ -210,6 +229,11 @@ export default function DoTicksDieInTheWashingMachinePage() {
 
           <h2>Stop Ticks Before They Reach the Laundry</h2>
           <p>Killing ticks in the dryer is a good last line of defence, but the fewer that climb onto you in the first place, the less you have to worry about. Most ticks that end up on clothing came from the yard&rsquo;s own edges &mdash; long grass, leaf litter, wood piles, and shaded borders where ticks quest for a host. Clearing those harbourage zones and treating the perimeter dramatically cuts how many ticks you carry indoors. Our guide on <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">how to keep ticks out of your yard in Ontario</Link> walks through the landscaping and barrier-spray steps that make the biggest difference.</p>
+          <Photo
+            id="blacklegged-tick-questing-grass"
+            alt="Side view of a blacklegged tick at the tip of a green grass blade, its legs reaching out"
+            caption="A blacklegged (deer) tick questing on a blade of grass (CDC photo). Long grass, leaf litter, wood piles and shaded borders at the yard's edges are where ticks quest for a host."
+          />
 
           <h2>The Bottom Line</h2>
           <p>Do ticks die in the washing machine? Usually no &mdash; not unless the water tops 54&deg;C (130&deg;F), which most home systems never reach. Do they die in the dryer? Yes, when you use <strong>high heat</strong>, because dry air desiccates them. The simple rule that follows from the research: <strong>dry your worn clothes on high heat for at least 10 minutes first, then wash.</strong> Pair that with a same-day body check and a tick-managed yard, and you have covered the three places a tick can get you &mdash; the yard, your body, and your laundry.</p>

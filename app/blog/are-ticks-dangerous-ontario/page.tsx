@@ -7,6 +7,8 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { TICK_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -29,6 +31,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  image: shareImage('blacklegged-tick-questing-stick'),
 })
 
 const FAQS = [
@@ -89,7 +92,7 @@ const AMZ_TAG = tagForSlug('are-ticks-dangerous-ontario')
 export default function AreTicksDangerousPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, image: shareImage('blacklegged-tick-questing-stick') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Are Ticks Dangerous Ontario', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
@@ -160,6 +163,11 @@ export default function AreTicksDangerousPage() {
         <p>Ontario is home to several tick species, but they carry very different levels of risk:</p>
 
         <h3>Blacklegged Tick (<em>Ixodes scapularis</em>) — Highest Risk</h3>
+        <Photo
+          id="blacklegged-tick-questing-stick"
+          alt="Adult female blacklegged tick on a bare twig, its reddish-orange body, dark shield and dark legs sharp against a blurred yellow background"
+          caption="An adult female blacklegged (deer) tick questing on a stick (CDC photo). This is the tick behind Lyme disease in Ontario, now established across the GTA."
+        />
         <p>The blacklegged tick (also called the deer tick) is the most medically significant tick in Ontario. It carries:</p>
         <ul>
           <li><strong>Lyme disease</strong> (<em>Borrelia burgdorferi</em>) — the most common tick-borne disease in Ontario</li>
@@ -173,11 +181,22 @@ export default function AreTicksDangerousPage() {
 
         <h3>American Dog Tick (<em>Dermacentor variabilis</em>) — Lower Risk</h3>
         <p>The American dog tick is the most commonly encountered tick species in Ontario. It is larger and more visible than the blacklegged tick. While it can theoretically transmit Rocky Mountain Spotted Fever and tularemia, these diseases are extremely rare in Ontario. The primary concern with dog ticks is nuisance biting and the potential for allergic reactions at the bite site.</p>
+        <Photo
+          id="american-dog-tick-on-grass"
+          alt="Adult female American dog tick crawling on a green leaf blade, its brown body marked with a pale cream patch behind the head"
+          caption="An adult female American dog tick crawling on a blade of grass (CDC photo). It is the tick Ontarians meet most often, and it is larger and easier to see than the blacklegged tick."
+        />
 
         <h3>Lone Star Tick (<em>Amblyomma americanum</em>) — Emerging</h3>
         <p>The lone star tick is occasionally found in Southern Ontario, likely transported by migratory birds from the eastern United States. It is associated with alpha-gal syndrome (a red meat allergy triggered by tick saliva), ehrlichiosis, and STARI. The lone star tick is not yet considered established in Ontario, but detections are increasing.</p>
+        <Photo
+          id="lone-star-tick-on-grass"
+          alt="Adult female lone star tick on a green grass blade: a round reddish-brown body with a single white spot in the middle of its back"
+          caption="An adult female lone star tick on a blade of grass, the white spot on her back plain to see (CDC photo). It turns up occasionally in Southern Ontario, but it is not yet considered established here."
+        />
         <p>See: <Link href="/blog/what-ticks-look-like-ontario" className="text-brand-700 hover:underline">How to Identify Ticks in Ontario</Link></p>
         <p>One thing worth ruling out before you worry: the bright scarlet specks that swarm sunny windowsills, brick walls, and patio stone in spring and fall are almost always clover mites, not ticks. They are roughly 0.75 mm &mdash; smaller than a pinhead &mdash; feed only on plant sap, and do not bite people or pets, and the size-and-setting test that separates them from a real tick is set out in our guide to <Link href="/blog/red-ticks-and-clover-mites" className="text-brand-700 hover:underline">red ticks and tiny red bugs</Link>.</p>
+        <p>Still not sure which tick you found, or whether it is a tick at all? Our <Link href="/tools/tick-identifier" className="text-brand-700 hover:underline">tick identifier</Link> asks six quick questions about its size, legs and markings, where you found it, where you picked it up and the season, then shows the most likely ticks with a real photo of each, or tells you when it is probably not a tick.</p>
 
         <h2>How Common Is Tick-Borne Disease in the GTA?</h2>
         <p>Lyme disease is a reportable disease in Ontario, meaning every confirmed case must be reported to public health authorities. The numbers tell a clear story of escalating risk:</p>
@@ -250,6 +269,11 @@ export default function AreTicksDangerousPage() {
           <li>Do full-body tick checks within 2 hours of outdoor activity</li>
           <li>Shower promptly after being outdoors</li>
         </ul>
+        <Photo
+          id="tick-check-sock-boot"
+          alt="A person folding down a grey sock above a brown hiking boot to reveal a small blacklegged tick attached to the lower leg"
+          caption="A tick check: folding down a sock above a hiking boot shows a female blacklegged tick attached to the leg (CDC photo). Ticks climb from the ground up, so socks, ankles, boot tops and the lower leg come first."
+        />
         <p className="not-prose text-gray-700">Repellent is the line on that list people most often apply to the wrong half of themselves. Mosquitoes arrive from the air, so arms and neck get the attention &mdash; but ticks climb from the ground up, which makes socks, ankles, boot tops, and the lower leg the part that actually matters. Public health guidance for wooded and grassy areas points to 20&ndash;30% DEET or an icaridin formulation, applied according to the label and reapplied as the label directs rather than by feel. <BuyLink tag={AMZ_TAG} search="icaridin insect repellent">compare icaridin and DEET repellents on Amazon.ca &rarr;</BuyLink></p>
 
         <p className="not-prose text-gray-700">Repellent covers skin; the other half of that list is what you are wearing, because a tick climbs the outside of a trouser leg long before it reaches skin. Tucking trousers into socks closes the gap it climbs through, and light colours make a poppy-seed-sized nymph visible against the fabric while it is still walking rather than after it has attached. For treated fabric, the format sold to Canadian consumers is factory pre-treated permethrin clothing, intended for ages 16 and over &mdash; Health Canada has not approved a consumer spray-on clothing treatment here, and our <Link href="/blog/permethrin-canada-yard-clothing-spray" className="text-brand-700 underline">permethrin in Canada guide</Link> sets out why. <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check price on Amazon.ca &rarr;</BuyLink></p>
@@ -264,6 +288,11 @@ export default function AreTicksDangerousPage() {
           <li>Monitor for symptoms for 30 days — especially a bull&apos;s-eye rash, fever, or joint pain</li>
           <li>Consult your doctor if any symptoms develop</li>
         </ul>
+        <Photo
+          id="tick-dropped-into-bottle"
+          alt="Tweezers dropping a small tick into a small orange plastic bottle held open in the other hand"
+          caption="Tweezers dropping a female blacklegged tick into a small bottle before the lid goes on (CDC photo). Save the tick in a sealed container for identification, and note the date and where you were."
+        />
         <p>Often there is no tick to find &mdash; just a mark noticed a day later &mdash; and the 24-hour removal window and 30-day symptom watch above only apply if it was a tick that made it. The quickest tell is behaviour rather than appearance: a mosquito welt rises within minutes and itches immediately, while a tick bite is usually painless at the time and the tick stays attached instead of flying off. Our side-by-side on <Link href="/blog/tick-bite-vs-mosquito-bite" className="text-brand-700 hover:underline">telling a tick bite from a mosquito bite</Link> covers both, including how the bite site looks once the tick is off.</p>
         <p>See: <Link href="/blog/how-to-remove-tick-safely" className="text-brand-700 hover:underline">How to Remove a Tick Safely</Link> | <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms &amp; What to Do</Link> | <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 hover:underline">Best Tick-Removal Tools Compared</Link></p>
         <p className="not-prose text-gray-700">A dedicated tick-removal tool grips the head close to the skin more reliably than household tweezers, reducing the chance of leaving mouthparts behind. See how the options compare in our <Link href="/blog/tick-removal-tool-guide" className="text-brand-700 underline">tick-removal tool guide</Link>, or <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check tick-removal tools on Amazon.ca →</BuyLink></p>

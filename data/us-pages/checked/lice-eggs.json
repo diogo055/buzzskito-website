@@ -1,0 +1,10 @@
+{
+ "id": "lice-eggs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1e5e3696039b21ce4a4507258c342a48104485902c438c102eb66a557958c9a6",
+ "claimsChecked": 290,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-28"
+}

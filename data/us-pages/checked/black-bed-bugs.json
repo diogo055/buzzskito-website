@@ -2,7 +2,7 @@
  "id": "black-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5f5f96c8f2165469e1432b62517c2e21100249372642a7f148e7afc8c309ef6b",
+ "sha": "24157938a2bffac1dc939ce8bd5215e852ceba721fe1b8cad8cca79f09f9fecc",
  "claimsChecked": 60,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 10,
@@ -12,6 +12,11 @@
    "on": "2026-10-21",
    "note": "link-in 2026-10-21: two sentences added: /blog/tiny-black-bugs in 'Why can a bed bug look black?', /blog/signs-of-carpet-beetles in 'Which small black bugs are mistaken for bed bugs?' (no new facts)",
    "previousSha": "3e41f354d5c461ca789e9d65ffb47e75c59bd891fcf424b87bcb83d031eeddda"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026, Google Images wave 2): 5 ledger photos added as figure blocks: bed-bug-dark-on-pale-fabric (CC0, iNaturalist obs 204269007, research grade; lead and share image, captioned as looking almost black in the photo with the sources' reddish-brown description), bed-bug-nymph-scale-bar-cdc (public domain, CDC PHIL 12703), bed-bug-nymph-after-blood-meal (CC BY 2.0, NYS IPM Program at Cornell via Commons), bed-bug-feces-bed-corner (CC BY-SA 3.0, Commons, photographer's description), black-carpet-beetle (CC0, iNaturalist obs 369801950). Captions restate the records and facts already on the page (Virginia Tech, CDC, University of California). One new closing paragraph links /tools/what-bug-is-this. No other text, dates, FAQs or sources changed.",
+   "previousSha": "5f5f96c8f2165469e1432b62517c2e21100249372642a7f148e7afc8c309ef6b"
   }
  ]
 }
