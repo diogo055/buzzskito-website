@@ -4,7 +4,9 @@
     "_why": "US guides deliberately left without a pick after the independent check (Oct 20, 2026): the page recommends nothing a search could safely find.",
     "bullet-ants": "The page recommends nothing to buy and never mentions a light; the headlamp support was a stretch.",
     "does-lysol-kill-bed-bugs": "No container is named; the only product the page endorses is a registered bed bug pesticide, unsafe as a search.",
-    "zombie-ants": "Page never mentions a magnifier; its own check is photos with a coin for scale. It recommends nothing to buy."
+    "zombie-ants": "Page never mentions a magnifier; its own check is photos with a coin for scale. It recommends nothing to buy.",
+    "black-widow-bite": "Emergency and medical page (call 911 or Poison Control); nothing to buy belongs on it.",
+    "wasp-nest-identification": "The page recommends nothing a search could safely find (no removal products by design)."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1152,6 +1154,42 @@
       "name": "Disposable gloves",
       "search": "disposable gloves",
       "basis": "\"keep deer droppings off food, remove them with gloves or a tool and wash your hands afterward\" (the CDC E. coli and Salmonella sentence). The page names gloves; nothing else to buy."
+    },
+    "maggots": {
+      "label": "To keep flies out of garbage",
+      "name": "Outdoor trash can with a tight-fitting lid",
+      "search": "outdoor trash can with lid",
+      "basis": "Prevention list: 'Use a tight-fitting lid and keep the can as far from the house as you can' (UC IPM / UMN steps on the page)."
+    },
+    "dust-mites": {
+      "label": "One part of a several-step plan",
+      "name": "Zippered dust mite mattress encasement",
+      "search": "dust mite mattress encasement zippered",
+      "basis": "The page cites the NIH guideline: for people sensitive to dust mites, mite-proof pillow and mattress covers along with a HEPA vacuum, because one strategy alone often does not improve asthma. Label says it is one step of several."
+    },
+    "black-widow-spiders": {
+      "label": "For clearing clutter and firewood",
+      "name": "Heavy-duty work gloves",
+      "search": "heavy duty work gloves",
+      "basis": "'Wear gloves. UC IPM advises gloves when clearing clutter in garages and storage areas, Clemson for firewood' (prevention list)."
+    },
+    "rabbit-poop": {
+      "label": "For picking up droppings",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'So pick droppings up with a shovel or a gloved hand ... and wash your hands' plus Wildlife Illinois' rubber gloves for handling a dead rabbit."
+    },
+    "spider-mites": {
+      "label": "To see the mites",
+      "name": "10x hand lens magnifier",
+      "search": "10x hand lens magnifier",
+      "basis": "'Through a 10X hand lens, UC IPM says, you can see an oval body with eight legs' (identification section)."
+    },
+    "fleas-on-humans": {
+      "label": "To check your pet for fleas",
+      "name": "Fine-toothed flea comb",
+      "search": "flea comb for dogs and cats",
+      "basis": "Lead photo caption: 'Texas A&M says the fine teeth of a flea comb remove adult fleas from fur.'"
     }
   }
 }

@@ -175,6 +175,29 @@
   "/guides/photos/wolf-spider.webp",
   "/guides/photos/yellow-garden-spider.webp"
  ],
+ "/blog/black-widow-bite": [
+  "/guides/photos/black-widow.webp",
+  "/guides/photos/brown-recluse-bite-early.webp",
+  "/guides/photos/brown-widow-spider.webp",
+  "/guides/photos/false-black-widow.webp",
+  "/guides/photos/northern-black-widow-egg-sac.webp",
+  "/guides/photos/western-black-widow-egg-sacs.webp",
+  "/guides/photos/western-black-widow.webp"
+ ],
+ "/blog/black-widow-spiders": [
+  "/guides/photos/black-widow.webp",
+  "/guides/photos/bold-jumping-spider.webp",
+  "/guides/photos/brown-widow-hourglass.webp",
+  "/guides/photos/brown-widow-spider.webp",
+  "/guides/photos/common-house-spider.webp",
+  "/guides/photos/false-black-widow.webp",
+  "/guides/photos/johnson-jumping-spider.webp",
+  "/guides/photos/northern-black-widow-egg-sac.webp",
+  "/guides/photos/northern-black-widow.webp",
+  "/guides/photos/red-widow.webp",
+  "/guides/photos/western-black-widow-egg-sacs.webp",
+  "/guides/photos/western-black-widow.webp"
+ ],
  "/blog/blacklegged-deer-tick-ontario": [
   "/guides/photos/blacklegged-tick-female.webp",
   "/guides/photos/blacklegged-tick-nymph-fingernail.webp",
@@ -438,6 +461,17 @@
   "/guides/photos/bed-bug-on-skin-cdc.webp",
   "/guides/photos/bed-bug-signs.webp"
  ],
+ "/blog/dust-mites": [
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/booklouse-notebook-pen-tip.webp",
+  "/guides/photos/booklouse.webp",
+  "/guides/photos/chigger-and-pinhead.webp",
+  "/guides/photos/house-dust-mite-macro.webp",
+  "/guides/photos/house-dust-mite.webp",
+  "/guides/photos/northern-fowl-mites.webp",
+  "/guides/photos/scabies-mite.webp"
+ ],
  "/blog/fall-mouse-proofing-checklist": [
   "/guides/bz-guide-03-mouse-proofing.webp"
  ],
@@ -465,6 +499,16 @@
   "/guides/photos/flea-dirt.webp",
   "/guides/photos/flea-egg-and-larva.webp",
   "/guides/photos/flea-larva-and-adult.webp"
+ ],
+ "/blog/fleas-on-humans": [
+  "/guides/photos/bed-bug-on-skin-cdc.webp",
+  "/guides/photos/cat-flea-on-fingertip.webp",
+  "/guides/photos/cat-flea-scale-bar.webp",
+  "/guides/photos/flea-bites-ankles-cdc.webp",
+  "/guides/photos/flea-dirt-on-dog.webp",
+  "/guides/photos/flea-on-comb.webp",
+  "/guides/photos/northern-fowl-mites.webp",
+  "/guides/photos/scabies-mite.webp"
  ],
  "/blog/flies-in-house": [
   "/guides/photos/cluster-fly.webp",
@@ -727,6 +771,20 @@
   "/guides/photos/western-conifer-seed-bug.webp",
   "/guides/photos/wheel-bug.webp"
  ],
+ "/blog/maggots": [
+  "/guides/photos/carpet-beetle-larva-hallway-wall.webp",
+  "/guides/photos/carpet-beetle-larva-wood-floor.webp",
+  "/guides/photos/drain-fly-larva.webp",
+  "/guides/photos/fly-maggot.webp",
+  "/guides/photos/fly-pupa.webp",
+  "/guides/photos/fruit-fly.webp",
+  "/guides/photos/fungus-gnat.webp",
+  "/guides/photos/green-bottle-fly.webp",
+  "/guides/photos/house-fly-eggs.webp",
+  "/guides/photos/house-fly-emerging.webp",
+  "/guides/photos/indian-meal-moth-larva.webp",
+  "/guides/photos/indian-meal-moth-larvae-peanuts.webp"
+ ],
  "/blog/male-vs-female-mosquito": [
   "/guides/photos/aedes-aegypti-female.webp",
   "/guides/photos/aedes-aegypti-male.webp",
@@ -927,6 +985,17 @@
   "/guides/photos/house-pseudoscorpion.webp",
   "/guides/photos/striped-bark-scorpion.webp"
  ],
+ "/blog/rabbit-poop": [
+  "/guides/photos/cottontail-droppings.webp",
+  "/guides/photos/deer-droppings-snow.webp",
+  "/guides/photos/eastern-gray-squirrel.webp",
+  "/guides/photos/gray-squirrel-droppings-ledge.webp",
+  "/guides/photos/mouse-droppings-ruler.webp",
+  "/guides/photos/mouse-droppings-wood.webp",
+  "/guides/photos/norway-rat-droppings-cornell.webp",
+  "/guides/photos/raccoon-scat-lawn-ruler.webp",
+  "/guides/photos/rat-droppings-thumb.webp"
+ ],
  "/blog/raccoon-poop": [
   "/guides/photos/bat-droppings-siding.webp",
   "/guides/photos/coyote-scat-ruler.webp",
@@ -1041,6 +1110,16 @@
   "/guides/photos/wolf-spider-egg-sac.webp",
   "/guides/photos/yellow-garden-spider-egg-sac.webp",
   "/guides/photos/yellow-garden-spider-with-egg-sac.webp"
+ ],
+ "/blog/spider-mites": [
+  "/guides/photos/clover-mite.webp",
+  "/guides/photos/grass-spider-sheet-web.webp",
+  "/guides/photos/greenhouse-whitefly.webp",
+  "/guides/photos/melon-aphid-colony.webp",
+  "/guides/photos/spider-mite-webbing.webp",
+  "/guides/photos/springtail.webp",
+  "/guides/photos/twospotted-spider-mite.webp",
+  "/guides/photos/western-flower-thrips.webp"
  ],
  "/blog/spiders-in-california": [
   "/guides/photos/brown-widow-egg-sacs.webp",
@@ -1478,6 +1557,22 @@
   "/guides/photos/hobo-spider.webp",
   "/guides/photos/northern-black-widow.webp",
   "/guides/photos/western-black-widow.webp"
+ ],
+ "/blog/wasp-nest-identification": [
+  "/guides/photos/bald-faced-hornet-nest.webp",
+  "/guides/photos/bald-faced-hornet.webp",
+  "/guides/photos/cicada-killer-burrow.webp",
+  "/guides/photos/cicada-killer.webp",
+  "/guides/photos/eastern-yellowjacket-live.webp",
+  "/guides/photos/european-hornet-nest.webp",
+  "/guides/photos/honey-bee-swarm.webp",
+  "/guides/photos/mining-bee-burrow.webp",
+  "/guides/photos/mud-dauber-nest-garage-wall.webp",
+  "/guides/photos/organ-pipe-mud-dauber-nest.webp",
+  "/guides/photos/paper-wasp-nest-eave-corner.webp",
+  "/guides/photos/paper-wasp-nest-house-siding.webp",
+  "/guides/photos/yellowjacket-ground-nest.webp",
+  "/guides/photos/yellowjacket-paper-nest.webp"
  ],
  "/blog/water-bugs-vs-cockroaches": [
   "/guides/photos/american-cockroach.webp",

@@ -1553,6 +1553,34 @@
    ],
    "bar": true
   },
+  "/blog/black-widow-bite": {
+   "next": "/blog/black-widow-spiders",
+   "related": [
+    "/blog/spiders-in-florida",
+    "/blog/brown-recluse-bite",
+    "/blog/black-spiders"
+   ],
+   "cards": [
+    "/blog/orb-weaver-spiders",
+    "/blog/venomous-spiders",
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "bar": true
+  },
+  "/blog/black-widow-spiders": {
+   "next": "/blog/black-spiders",
+   "related": [
+    "/blog/black-widow-bite",
+    "/blog/spiders-in-florida",
+    "/blog/house-spiders"
+   ],
+   "cards": [
+    "/blog/daddy-long-legs",
+    "/blog/spider-egg-sacs",
+    "/blog/yellow-sac-spiders"
+   ],
+   "bar": true
+  },
   "/blog/blacklegged-deer-tick-ontario": {
    "next": "/blog/what-ticks-look-like-ontario",
    "related": [
@@ -2485,6 +2513,20 @@
     "/blog/best-bed-bug-fogger-canada"
    ]
   },
+  "/blog/dust-mites": {
+   "next": "/blog/best-air-purifier-for-dust-mites-canada",
+   "related": [
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/best-silverfish-traps"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-boxelder-bugs-canada",
+    "/blog/how-to-get-rid-of-stink-bugs-canada",
+    "/blog/best-earwig-killer-canada"
+   ],
+   "bar": true
+  },
   "/blog/dynatrap-canada-review": {
    "next": "/blog/mosquito-magnet-vs-dynatrap-canada",
    "related": [
@@ -2642,6 +2684,20 @@
     "/blog/bugs-in-house-in-winter",
     "/blog/tiny-black-bugs",
     "/blog/what-do-fleas-look-like"
+   ],
+   "bar": true
+  },
+  "/blog/fleas-on-humans": {
+   "next": "/blog/what-do-fleas-look-like",
+   "related": [
+    "/blog/millipedes",
+    "/blog/flea-dirt",
+    "/blog/pill-bugs"
+   ],
+   "cards": [
+    "/blog/tiny-black-bugs",
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/how-to-get-rid-of-silverfish"
    ],
    "bar": true
   },
@@ -3917,6 +3973,20 @@
     "/blog/tick-prevention-caledon-halton-hills"
    ]
   },
+  "/blog/maggots": {
+   "next": "/blog/black-flies-ontario-when-they-come-out",
+   "related": [
+    "/blog/flies-in-house",
+    "/blog/how-to-get-rid-of-gnats",
+    "/blog/chigger-bites"
+   ],
+   "cards": [
+    "/blog/black-flies-mississauga-toronto-gta-2026",
+    "/blog/electric-fly-swatter",
+    "/blog/how-to-get-rid-of-fruit-flies"
+   ],
+   "bar": true
+  },
   "/blog/male-vs-female-mosquito": {
    "next": "/blog/how-many-times-can-a-mosquito-bite-you",
    "related": [
@@ -4864,6 +4934,20 @@
    ],
    "bar": true
   },
+  "/blog/rabbit-poop": {
+   "next": "/blog/deer-poop",
+   "related": [
+    "/blog/raccoon-poop",
+    "/blog/bat-poop",
+    "/blog/animal-droppings"
+   ],
+   "cards": [
+    "/blog/best-raccoon-live-trap-canada",
+    "/blog/possum-vs-opossum",
+    "/blog/squirrel-poop"
+   ],
+   "bar": true
+  },
   "/blog/raccoon-and-skunk-proofing-under-a-deck-canada": {
    "next": "/blog/raccoon-deterrent",
    "related": [
@@ -5145,6 +5229,20 @@
     "/blog/spiders-in-florida",
     "/blog/brown-recluse-bite",
     "/blog/spiders-in-california"
+   ],
+   "bar": true
+  },
+  "/blog/spider-mites": {
+   "next": "/blog/houseplant-bugs",
+   "related": [
+    "/learn/how-to-get-rid-of-fungus-gnats",
+    "/learn/natural-garden-pest-control",
+    "/learn/whitefly-identification-control"
+   ],
+   "cards": [
+    "/learn/aphid-control-guide",
+    "/blog/best-deer-fence-for-gardens-canada",
+    "/blog/how-to-stop-deer-eating-cedars-ontario"
    ],
    "bar": true
   },
@@ -6253,6 +6351,20 @@
     "/blog/best-yellow-jacket-trap-canada",
     "/blog/how-to-get-rid-of-ground-wasps-canada"
    ]
+  },
+  "/blog/wasp-nest-identification": {
+   "next": "/blog/paper-wasps",
+   "related": [
+    "/blog/mud-daubers",
+    "/blog/best-wasp-nest-spray-canada",
+    "/blog/how-to-get-rid-of-wasps-canada"
+   ],
+   "cards": [
+    "/blog/wasp-dust-canada",
+    "/blog/best-wasp-trap",
+    "/blog/how-to-get-rid-of-ground-wasps-canada"
+   ],
+   "bar": true
   },
   "/blog/water-bugs-vs-cockroaches": {
    "next": "/blog/bugs-that-look-like-cockroaches",

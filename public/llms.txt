@@ -450,7 +450,9 @@ Source-cited identification and how-to guides written for readers in the United 
 
 ### Spiders and scorpions
 - Venomous Spiders in the US: The Few That Matter, State by State: https://buzzskito.ca/blog/venomous-spiders
+- Black Widow Bite: Symptom Timeline, Treatment and When It Is an Emergency: https://buzzskito.ca/blog/black-widow-bite
 - Brown Recluse Bite: Pictures, Stages, Symptoms and When to Get Care: https://buzzskito.ca/blog/brown-recluse-bite
+- Black Widow Spiders: How to Identify Them, Where They Live and Look-Alikes: https://buzzskito.ca/blog/black-widow-spiders
 - Cellar Spiders (Daddy Long Legs): Do They Bite, and How to Tell a Harvestman: https://buzzskito.ca/blog/daddy-long-legs
 - Joro Spiders: How to Identify Them, Where They've Spread, Are They Dangerous?: https://buzzskito.ca/blog/joro-spiders
 - Wolf Spiders: Identification, Bites and the Babies on Their Backs: https://buzzskito.ca/blog/wolf-spiders
@@ -468,12 +470,17 @@ Source-cited identification and how-to guides written for readers in the United 
 - Black Spider With White Spots? How to Identify Black Spiders by Markings: https://buzzskito.ca/blog/black-spiders
 
 ### Wasps, hornets and bees
+- Wasp Nest Identification: Which Wasp, Hornet or Bee Built It: https://buzzskito.ca/blog/wasp-nest-identification
 - Paper Wasps: How to Identify Them, Their Umbrella Nests and the Sting: https://buzzskito.ca/blog/paper-wasps
 - Mud Daubers: How to Identify Them and Their Mud Nests, and Do They Sting?: https://buzzskito.ca/blog/mud-daubers
 
 ### Flies and gnats
 - Why Are There So Many Flies in My House? Find the Fly, Then the Source: https://buzzskito.ca/blog/flies-in-house
 - How to Get Rid of Gnats: Identify the Gnat First, Then Fix Its Source: https://buzzskito.ca/blog/how-to-get-rid-of-gnats
+- Maggots: What They Are, Where They Come From and How to Get Rid of Them: https://buzzskito.ca/blog/maggots
+
+### Mites and chiggers
+- Dust Mites: What They Look Like, Where They Live and How to Reduce Them: https://buzzskito.ca/blog/dust-mites
 
 ### Household bugs
 - What Do Fleas Look Like? Adult Fleas Up Close, on Pets and People: https://buzzskito.ca/blog/what-do-fleas-look-like
@@ -508,6 +515,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Carpet Beetle Larvae: What They Look Like, Where They Hide and What They Eat: https://buzzskito.ca/blog/carpet-beetle-larvae
 - Weevils: How to Identify Rice, Grain and House Weevils and Get Rid of Them: https://buzzskito.ca/blog/weevils
 - Jerusalem Crickets (Potato Bugs): What They Are and Do They Bite?: https://buzzskito.ca/blog/jerusalem-crickets
+- Fleas on Humans: Can Fleas Live on People, and Where Do They Come From?: https://buzzskito.ca/blog/fleas-on-humans
 
 ### Bug bites and stings
 - Bug Bite Identification: Pictures and Clues to What Bit You: https://buzzskito.ca/learn/bug-bites
@@ -521,6 +529,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Squirrel Poop: What Squirrel Droppings Look Like, Next to Rat and Mouse Poop: https://buzzskito.ca/blog/squirrel-poop
 - Possum vs Opossum: Are They the Same Animal, and How Do You Tell?: https://buzzskito.ca/blog/possum-vs-opossum
 - Deer Poop: What Deer Droppings Look Like, and Is It Dangerous?: https://buzzskito.ca/blog/deer-poop
+- Rabbit Poop: What Rabbit Droppings Look Like, in the Yard and From a Pet Rabbit: https://buzzskito.ca/blog/rabbit-poop
 
 ### Hiring and DIY pest control
 - How Much Is Pest Control? Typical US Prices by Visit, Plan and Pest: https://buzzskito.ca/blog/how-much-is-pest-control
@@ -531,6 +540,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Pet-Safe Pest Control: What Is Lower-Risk for Cats and Dogs: https://buzzskito.ca/learn/pet-safe-pest-control
 
 ### Garden and houseplant pests
+- Spider Mites: How to Spot the Webbing and Stippling, and What Works: https://buzzskito.ca/blog/spider-mites
 - Bugs on Houseplants: Which Pest Is on Your Plant, and What to Do: https://buzzskito.ca/blog/houseplant-bugs
 - Natural Garden Pest Control: A Season-by-Season Guide: https://buzzskito.ca/learn/natural-garden-pest-control
 - How to Get Rid of Fungus Gnats: The Full Kill Chain: https://buzzskito.ca/learn/how-to-get-rid-of-fungus-gnats
