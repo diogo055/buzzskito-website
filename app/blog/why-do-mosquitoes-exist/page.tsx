@@ -4,6 +4,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'why-do-mosquitoes-exist'
 const DATE = '2026-07-15'
@@ -63,12 +65,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('culex-quinquefasciatus-male'),
 })
 
 export default function WhyDoMosquitoesExistPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A balanced, science-based answer to why mosquitoes exist — their ecological purpose, pollination role, the extinction debate, and their status as the deadliest animal.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A balanced, science-based answer to why mosquitoes exist — their ecological purpose, pollination role, the extinction debate, and their status as the deadliest animal.', slug: SLUG, datePublished: DATE, image: shareImage('culex-quinquefasciatus-male') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Why Do Mosquitoes Exist?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -141,10 +144,20 @@ export default function WhyDoMosquitoesExistPage() {
           <h2>Why do mosquitoes exist?</h2>
           <p>Mosquitoes exist for the same reason ants, beetles, and moths exist: evolution found a working design and ran with it. The family Culicidae is around 100 million years old, meaning mosquitoes were buzzing around dinosaurs long before humans arrived. They did not evolve to bother us — we simply became one more warm-blooded host among many.</p>
           <p>Their success comes from a clever two-part life cycle. The larvae live in still water and filter-feed on algae, bacteria, and organic debris; the adults fly, mate, and drink flower nectar. Because standing water and flowers are both abundant almost everywhere on Earth, mosquitoes have colonised every continent except Antarctica. Blood-feeding by females is a later refinement layered on top: it supplies the concentrated protein needed to produce a batch of eggs. In other words, biting is a reproductive strategy, not the reason mosquitoes exist.</p>
+          <Photo
+            id="culex-quinquefasciatus-male"
+            alt="Male southern house mosquito with bushy, feathery antennae resting on a pale pink flower petal"
+            caption="A male southern house mosquito, Culex quinquefasciatus, resting on a flower. Adults of both sexes drink nectar, and males like this one never bite."
+          />
 
           <NextUp path="/blog/why-do-mosquitoes-exist" />
           <h2>Why did mosquitoes evolve to drink blood?</h2>
           <p>Blood is not food in the way nectar is — it is an ingredient. A female mosquito needs a burst of protein and iron to build eggs, and blood is the richest, fastest source available. So she splits her diet: sugar from flowers keeps her flying day to day, and an occasional blood meal funds each new clutch of eggs. A single blood meal can support dozens to a few hundred eggs, which is why one well-fed female can seed a surprising number of larvae.</p>
+          <Photo
+            id="aedes-albopictus-blood-fed"
+            alt="Black-and-white Asian tiger mosquito on a person's finger, its abdomen swollen and red with the blood it has taken"
+            caption="An Asian tiger mosquito, Aedes albopictus, on a person's finger, its abdomen red and filled with blood. Only females take blood, and a single meal can support dozens to a few hundred eggs."
+          />
           <p>This is also why blood-feeding evolved only in females and only in some lineages. Males never developed the piercing mouthparts because they never need the protein — they simply mate and feed on nectar. From an evolutionary standpoint, biting is an efficient shortcut to reproduction, which is exactly why natural selection kept it. It is unfortunate for us that human blood happens to suit many species, but nothing about the trait was aimed at people.</p>
 
           <h2>What is the purpose of mosquitoes?</h2>
@@ -168,6 +181,11 @@ export default function WhyDoMosquitoesExistPage() {
           </table>
 
           <p>The nutrient-cycling role is worth pausing on, because it is the one people underestimate most. Mosquito larvae grow up in water by eating microscopic organic matter, then emerge as flying adults that disperse, get eaten, and die on land. That single transition physically relocates nitrogen and phosphorus from ponds and marshes into terrestrial food webs. In temperate regions the effect is modest, but in the Arctic — where mosquitoes hatch in clouds dense enough to be visible from a distance — that pulse of biomass is a meaningful seasonal transfer of energy from tundra pools up into the birds, and it arrives precisely when migratory species are nesting.</p>
+          <Photo
+            id="anopheles-larvae"
+            alt="Four mosquito larvae lying flat side by side just under the water surface, seen from above"
+            caption="Four larvae of the common malaria mosquito, Anopheles quadrimaculatus, lying flat at the water surface. Mosquito larvae filter-feed on algae, bacteria and organic debris in still water, then emerge as flying adults."
+          />
 
           <h2>Are mosquitoes useful — what are they good for?</h2>
           <p>Yes, mosquitoes are genuinely useful, but it is easy to overstate the case in either direction. On the positive side, their larvae are a reliable food source in wetlands, adults help pollinate certain plants, and they feed a variety of predators. The strongest example of ecological weight is the Arctic tundra: mosquitoes hatch there in staggering seasonal swarms and become an important food source for migratory birds. Their sheer numbers can even nudge caribou herds toward windy, exposed ground to escape the biting, which changes where the animals graze and trample.</p>
@@ -176,6 +194,11 @@ export default function WhyDoMosquitoesExistPage() {
           <h2>Do mosquitoes pollinate?</h2>
           <p>Yes — and this surprises most people. Nectar, not blood, is the primary fuel for adult mosquitoes. Both males and females visit flowers to drink sugar, and as they move between blooms they carry pollen with them. The clearest documented case is the blunt-leaved bog orchid, <em>Platanthera obtusata</em>, which relies heavily on mosquitoes for pollination in northern habitats. Mosquitoes are best described as minor, opportunistic pollinators: real, but nowhere near the importance of bees, hoverflies, moths, or butterflies.</p>
           <p>One persistent myth deserves correction. You may have read that mosquitoes pollinate cocoa and therefore &ldquo;give us chocolate.&rdquo; They do not. Cacao is pollinated by tiny biting midges in the family Ceratopogonidae — mainly the genus <em>Forcipomyia</em> — which are a completely different insect that people confuse with mosquitoes because both are small biting flies. Eliminating mosquitoes would not endanger the world&rsquo;s chocolate supply.</p>
+          <Photo
+            id="biting-midge-culicoides"
+            alt="Magnified biting midge with a speckled brown body and mottled wings, seen through a microscope"
+            caption="A biting midge of the genus Culicoides, magnified. Biting midges are a different insect from mosquitoes, though both are small biting flies, and the midges that pollinate cacao are mainly of the genus Forcipomyia."
+          />
 
           <RelatedLinks path="/blog/why-do-mosquitoes-exist" />
           <h2>What would happen if mosquitoes went extinct?</h2>
@@ -189,6 +212,11 @@ export default function WhyDoMosquitoesExistPage() {
 
           <h2>If they&rsquo;re so useful, why are mosquitoes the deadliest animal?</h2>
           <p>Because ecological usefulness and human danger are two separate facts about the same insect. A small subset of mosquitoes transmits diseases that kill an extraordinary number of people. The World Health Organization attributes hundreds of thousands of human deaths every year to mosquito-borne illness — malaria accounts for the largest share, alongside dengue, Zika, yellow fever, chikungunya, and West Nile virus. That toll makes mosquitoes the animal responsible for the most human deaths annually, well ahead of snakes, dogs, or any large predator.</p>
+          <Photo
+            id="anopheles-gambiae-feeding"
+            alt="Long-legged Anopheles gambiae mosquito standing on a person's skin with its mouthparts lowered to feed, against a blue background"
+            caption="An Anopheles gambiae mosquito beginning a blood meal on a person's skin. The CDC calls this species a known malaria vector, and malaria accounts for the largest share of mosquito-borne deaths."
+          />
           <p>In Canada the picture is far less severe but not zero. The main mosquito-borne concern in Ontario is West Nile virus, spread chiefly by <em>Culex</em> mosquitoes and tracked each summer by Public Health Ontario and the Public Health Agency of Canada (PHAC). Most people infected have no symptoms, but a small fraction develop serious neurological illness, which is why local health units monitor mosquito pools and issue advisories during peak season. We break the global comparison down further in <Link href="/deadliest-animal-in-canada">the deadliest animal in Canada</Link>.</p>
           <p className="not-prose text-sm text-gray-600 bg-brand-50 border-l-4 border-brand-300 p-4 rounded-r-lg my-6">This article is general educational information, not medical advice. If you have questions about mosquito-borne illness or symptoms after being bitten, contact a healthcare provider or your local public health unit; in an emergency, call 911.</p>
 

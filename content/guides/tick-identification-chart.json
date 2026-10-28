@@ -75,6 +75,17 @@
       "text": "An unfed female blacklegged (deer) tick and an adult lone star tick are both about 1/8 inch long, and an adult American dog tick is about twice that, almost 1/4 inch. The [Connecticut Agricultural Experiment Station's Tick Management Handbook](https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf) measures them at 3 to 3.7 mm, about 3 to 4 mm and almost 6.4 mm, and rounds the first figure down to about 1/10 inch. Male blacklegged ticks are smaller, 2 to 2.7 mm, so the deer tick is the smallest of the three, as the one-page guide shows, though only slightly smaller than a lone star tick. The guide's seed labels need one correction, explained under the table."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+      "width": 1200,
+      "height": 799,
+      "alt": "Adult female blacklegged tick with a reddish body and dark legs beside a far smaller nymph on the tip of a person's index finger",
+      "caption": "Two blacklegged (deer) ticks on a fingertip in a CDC photo: an adult female on the left and a nymph on the right. The nymph is the stage CDC compares to a poppy seed.",
+      "license": "public-domain",
+      "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28383"
+    },
+    {
       "type": "table",
       "head": [
         "Life stage",
@@ -145,6 +156,17 @@
     {
       "type": "p",
       "text": "The handbook adds that the shield behind the head does not change in size as a dog tick feeds, so on a swollen tick it is still the place to read the markings."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/tick-unfed-vs-engorged.webp",
+      "width": 1200,
+      "height": 790,
+      "alt": "Two Ixodes ticks from above, labeled male and female: a small dark brown male beside a much larger, pale, swollen female with a small reddish shield behind her head",
+      "caption": "A male Ixodes tick (left) beside an engorged female (right) in a CDC photo. Her abdomen has swollen with blood, while the small reddish shield behind her head is still easy to see.",
+      "license": "public-domain",
+      "credit": "CDC/ Margaret A. Parsons; photo: Dr. George Anastos; Dept. of Zoology; Univ. of Maryland (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=23451"
     },
     {
       "type": "h2",
@@ -233,6 +255,17 @@
       "text": "An unfed female blacklegged tick has a reddish body with a dark brown shield just behind the mouthparts and no white markings, and at about 1/8 inch (3 to 3.7 mm) she is roughly half the length of a dog tick. The male is smaller still, 0.08 to 0.11 inch (2 to 2.7 mm), and completely dark brown, so the reddish body on the one-page guide describes the female. Blacklegged tick and deer tick are two names for the same species, *Ixodes scapularis*."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/blacklegged-tick-female.webp",
+      "width": 1200,
+      "height": 775,
+      "alt": "Female blacklegged deer tick from above on a green leaf blade: a reddish-orange body, a dark brown shield behind the head and eight dark legs",
+      "caption": "A female blacklegged (deer) tick, Ixodes scapularis, from above in a CDC photo: a reddish body, a dark brown shield and no white markings.",
+      "license": "public-domain",
+      "credit": "CDC/ Michael L. Levin, PhD; photo: Jim Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1669"
+    },
+    {
       "type": "p",
       "text": "This is the tick that matters for Lyme disease. CDC lists six illnesses for it, all named in the chart above, and the one-page guide shows two of them, Lyme disease and anaplasmosis. CDC puts the greatest risk of a bite in spring, summer and fall, and notes that adults can be out looking for a host any time winter temperatures are above freezing. A separate guide shows [each life stage of the ticks that carry Lyme disease](/blog/ticks-that-carry-lyme-disease)."
     },
@@ -249,6 +282,17 @@
       "text": "An American dog tick is the big one: reddish brown, almost 1/4 inch (6.4 mm) long, with silvery-gray or whitish markings on its back. Published research places it in the southern portions of Ontario and still spreading, not across the whole province. On the female the pattern sits on the shield behind the head, and on the male it extends over the entire back. The mouthparts are short. The Connecticut handbook separates it from a blacklegged tick by its larger size and those white markings, which stay visible on a blood-fed tick. Only the adults feed on people and their pets."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/american-dog-tick-female.webp",
+      "width": 1200,
+      "height": 816,
+      "alt": "Female American dog tick from above on a green leaf: a reddish-brown body with a whitish, mottled shield behind the head and pale-banded legs",
+      "caption": "A female American dog tick, Dermacentor variabilis, found in a park near Atlanta, Georgia, in a CDC photo. On the female, the whitish pattern sits on the shield behind the head.",
+      "license": "public-domain",
+      "credit": "CDC/DVBID/ Gary O. Maupin; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170"
+    },
+    {
       "type": "p",
       "text": "CDC lists Rocky Mountain spotted fever and tularemia for this tick and puts the highest risk of a bite in spring and summer. The graphic's note that spotted fever is rare in Ontario fits what is on record. According to [a study of American dog ticks in Ontario by Public Health Ontario researchers](https://www.nature.com/articles/s41598-022-15009-9), the disease is not reportable to public health officials in the province, so there is no official count, and the only documented case acquired there was one described in 1978 near Ottawa. The same paper calls tularemia rare, with six cases reported in Ontario from 2005 through 2019."
     },
@@ -263,6 +307,28 @@
     {
       "type": "p",
       "text": "The white dot marks an adult female lone star tick, as the one-page guide says, and the species has been found in southern Ontario without being listed as established there. CDC uses the dot as the distinguishing mark, and the Connecticut handbook places it at the end of her shield. The male is marked differently, with faint white markings at the edge of the body. Adults are reddish brown and about 1/8 inch (3 to 4 mm) long, with long mouthparts."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-female.webp",
+      "width": 1200,
+      "height": 1661,
+      "alt": "Female lone star tick from above on a green leaf: a reddish-brown body with one pale white spot in the middle of its back and long mouthparts at the front",
+      "caption": "A female lone star tick, Amblyomma americanum, in a CDC photo. The single white spot at the end of her shield is the mark CDC uses to tell the species apart.",
+      "license": "public-domain",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/lone-star-tick-male.webp",
+      "width": 1200,
+      "height": 981,
+      "alt": "Male lone star tick from above on a black background: a reddish-brown body with faint pale streaks along its edges and no central white spot",
+      "caption": "A male lone star tick in a CDC photo. He has no single white spot; his white markings are faint and sit at the edge of the body.",
+      "license": "public-domain",
+      "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8685"
     },
     {
       "type": "p",

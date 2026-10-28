@@ -11,6 +11,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'smells-mosquitoes-hate'
 const DATE = '2026-07-12'
@@ -60,6 +62,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('lemongrass-plant'),
 })
 
 const AMZ_TAG = tagForSlug('smells-mosquitoes-hate')
@@ -67,7 +70,7 @@ const AMZ_TAG = tagForSlug('smells-mosquitoes-hate')
 export default function SmellsMosquitoesHatePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The scents mosquitoes dislike, how well each one actually repels, and how long the effect lasts.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'The scents mosquitoes dislike, how well each one actually repels, and how long the effect lasts.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('lemongrass-plant') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Smells Mosquitoes Hate', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -165,13 +168,33 @@ export default function SmellsMosquitoesHatePage() {
           <h2>Why Certain Smells Bother Mosquitoes</h2>
           <p>A female mosquito finds you by following a plume of cues: the carbon dioxide you exhale, the lactic acid and ammonia in your sweat, your body heat, and even the specific bacteria on your skin. Strong aromatic plant oils work by <strong>masking</strong> those signals. When the air around you is thick with citronella or lemongrass, the mosquito&rsquo;s sensors have a harder time locking onto the human-scent trail, so fewer of them land.</p>
           <p>That is the honest mechanism — and it explains the honest limitation. Masking only works while the scent is strong and the air is still. The moment the oil evaporates or a breeze scatters the plume, your CO₂ and sweat cues come right back through, and the mosquitoes follow them. This is why a citronella candle protects only the small cone of scented air immediately around it, and why the numbers in the table above are measured in minutes, not hours.</p>
+          <Photo
+            id="lemongrass-plant"
+            alt="Clump of lemongrass with long, narrow, arching green leaves growing among other garden plants"
+            caption="Lemongrass, Cymbopogon citratus, growing in San Blas, Mexico. Lemongrass and citronella are close botanical cousins, and their oils work by masking the scent trail a mosquito follows."
+          />
 
           <NextUp path="/blog/smells-mosquitoes-hate" />
           <h2>The Six Scents, Ranked by How Much They Actually Help</h2>
           <p><strong>Oil of lemon eucalyptus (OLE)</strong> is the clear standout and the only one that competes with conventional repellents. Its refined active, PMD, is sold in PCP-registered repellents and delivers roughly 2–5 hours of protection at a 30% concentration — comparable to a lower-strength DEET product. Note it is a true skin repellent, not just a scent, and Health Canada advises against use on children under three.</p>
+          <Photo
+            id="lemon-eucalyptus-leaves"
+            alt="Long, narrow, bright green leaves hanging from the slender stems of a lemon-scented gum"
+            caption="Juvenile leaves of the lemon-scented gum, or lemon eucalyptus, Corymbia citriodora, in Perth, Western Australia. Oil of lemon eucalyptus repellents are not the same product as ordinary eucalyptus essential oil."
+          />
           <p><strong>Citronella and lemongrass</strong> are close botanical cousins and behave alike: a real but short deterrent effect, best delivered as diffused patio scent. Several candles spaced closely together beat a single candle, because you are trying to flood a whole seating area with scent rather than one spot.</p>
           <p>Because the protected area is a cone of scented air rather than a field, a patio usually needs three or four candles spaced around the seating area rather than one lone candle on the table. <BuyLink tag={AMZ_TAG} search="citronella candles outdoor">Check citronella candle sets on Amazon.ca &rarr;</BuyLink></p>
           <p><strong>Peppermint</strong> gives a brisk, brief masking effect when freshly crushed or diffused, but it evaporates quickly. <strong>Lavender</strong> is the weakest of the group — lovely to have on the patio, but you should not count on it to keep mosquitoes off. And <strong>garlic</strong>, despite generations of folklore, has repeatedly failed in controlled testing: eating it does nothing measurable, and rubbing it on skin mostly just irritates you.</p>
+          <Photo
+            id="peppermint-flowering"
+            alt="Peppermint stems with dark reddish stalks, toothed green leaves and spikes of pale purple flowers"
+            caption="Peppermint, Mentha × piperita, in flower in Mono, Ontario. Freshly crushed leaves give a brisk masking effect that evaporates quickly."
+          />
+          <Photo
+            id="lavender-flowers"
+            alt="Spikes of purple lavender flowers on thin grey-green stems in front of a red brick wall"
+            caption="English lavender, Lavandula angustifolia, in flower beside a brick wall in England. Lovely to have on the patio, but the weakest of the common repellent scents."
+          />
 
           <h2>Scents Mosquitoes LOVE — What to Avoid</h2>
           <p>It is just as useful to know what draws mosquitoes in. They are attracted to carbon dioxide, the lactic acid and ammonia in sweat, body heat, and — importantly — <strong>floral and fruity fragrances</strong>. A sweet perfume, a scented lotion, or a fragranced body spray can make you noticeably more appealing to a hungry mosquito. On summer evenings in the GTA, skip the perfume, choose unscented sunscreen, and wear light-coloured, loose clothing, since mosquitoes also home in on dark fabric and heat.</p>
@@ -180,6 +203,11 @@ export default function SmellsMosquitoesHatePage() {
 
           <h2>The Honest Truth: Scents Are the Weakest Layer</h2>
           <p>If you take one thing from this guide, make it this: <strong>smells reduce mosquito pressure, but they are far weaker than a registered repellent or a treated yard.</strong> The Aedes and Culex mosquitoes common in Ontario are persistent, and a determined female will push through a fading scent plume to reach the CO₂ and warmth of a host. Scents are a pleasant, low-effort complement — never the main defence when mosquito pressure is high.</p>
+          <Photo
+            id="culex-pipiens"
+            alt="Brown northern house mosquito with long, thin legs resting on a beige mesh surface"
+            caption="A mosquito its photographer identifies as a northern house mosquito, Culex pipiens, in Ontario. Culex and Aedes mosquitoes are persistent, and a determined female will push through a fading scent plume."
+          />
           <p>Here is how the layers stack up, weakest to strongest:</p>
           <ol>
             <li><strong>Scented candles and oils</strong> (citronella, lemongrass, peppermint) — mild, minutes-long, small area.</li>

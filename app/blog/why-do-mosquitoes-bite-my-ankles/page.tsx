@@ -10,6 +10,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'why-do-mosquitoes-bite-my-ankles'
 const DATE = '2026-07-16'
@@ -66,6 +68,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('aedes-albopictus-biting-lower-leg'),
 })
 
 const AMZ_TAG = tagForSlug('why-do-mosquitoes-bite-my-ankles')
@@ -73,7 +76,7 @@ const AMZ_TAG = tagForSlug('why-do-mosquitoes-bite-my-ankles')
 export default function WhyMosquitoesBiteAnklesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Why mosquitoes bite ankles and feet — ground-level CO2 pooling, foot bacteria, the Limburger-cheese study, and how to stop the bites.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Why mosquitoes bite ankles and feet — ground-level CO2 pooling, foot bacteria, the Limburger-cheese study, and how to stop the bites.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-albopictus-biting-lower-leg') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Why Do Mosquitoes Bite My Ankles?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -170,6 +173,11 @@ export default function WhyMosquitoesBiteAnklesPage() {
           />
           <p>Mosquitoes bite your ankles because they sit at ground level, exactly where a mosquito&rsquo;s strongest tracking cues collect. The carbon dioxide you exhale is about 1.5 times denser than air, so instead of rising it sinks and pools low, forming an invisible scent trail near the ground. Add the concentrated odour of foot-and-ankle bacteria, and your lower legs become the loudest &ldquo;human host&rdquo; signal on your whole body.</p>
           <p>Behaviour reinforces the physics. Many of the mosquitoes you meet in a GTA backyard &mdash; particularly the daytime <em>Aedes</em> species &mdash; are low fliers that naturally hunt close to the ground. They intercept that pooled CO&#8322; and follow it straight to your ankles. Because your ankles are usually bare below shorts, hard to see, and awkward to swat, the mosquito gets an uninterrupted meal before you even register it is there. It is the same host-detection system described in our guide to <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link> &mdash; just concentrated at the lowest, most exposed part of your body.</p>
+          <Photo
+            id="aedes-albopictus-biting-lower-leg"
+            alt="Asian tiger mosquito, black with white-banded legs, on the pale, hairy skin of a person's lower leg"
+            caption="An Asian tiger mosquito, Aedes albopictus, on the photographer's lower leg in Savannah, Georgia, which the observer says it bit. Low-flying, day-biting Aedes like this one preferentially attack the lower legs, ankles and feet."
+          />
 
           <NextUp path="/blog/why-do-mosquitoes-bite-my-ankles" />
           <h2>Why do mosquitoes bite feet?</h2>
@@ -186,6 +194,11 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <p>Ankles take a disproportionate share of bites because three separate factors stack on the same small patch of skin. First, <strong>ground-level CO&#8322; pooling</strong> puts the mosquito&rsquo;s primary long-range cue right at ankle height. Second, <strong>foot-and-ankle bacterial odour</strong> is one of the strongest chemical signals your body produces. Third, <strong>exposure and low visibility</strong> mean your ankles are both easy to reach and easy to feed on unnoticed.</p>
           <p>No other part of your body lines up all three at once. Your face is close to your exhaled CO&#8322; and body heat, but it is in your field of view and quick to defend. Your torso is usually covered. Your ankles, by contrast, are bare, at ground level, bacteria-rich, and out of sight below your eyeline &mdash; a perfect storm. This is also why the same person often gets hammered on the ankles year after year: personal skin chemistry and bacteria are largely fixed, which we cover in <Link href="/blog/why-mosquitoes-bite-some-people-more">why mosquitoes bite some people more than others</Link>.</p>
           <p>It also shapes what the damage looks like. Ankle bites tend to arrive as a tight patch of three or four rather than one tidy welt, because a female knocked off mid-meal relands a centimetre or two away and probes again &mdash; same insect, several marks. That is <Link href="/blog/how-many-times-can-a-mosquito-bite-you">why one mosquito can leave a whole cluster of bites</Link>.</p>
+          <Photo
+            id="mosquito-bites-ankle"
+            alt="Pale ankle and lower leg dotted with dozens of small red mosquito bites, some raised and some scratched"
+            caption="Mosquito bites on the ankle of a human foot, in the photographer's description. A female knocked off mid-meal relands a centimetre or two away and probes again, so one mosquito can leave several marks."
+          />
 
           <RelatedLinks path="/blog/why-do-mosquitoes-bite-my-ankles" />
           <h2>How to stop ankle bites</h2>
@@ -204,6 +217,16 @@ export default function WhyMosquitoesBiteAnklesPage() {
           <h2>A quick word on bites and health</h2>
           <p>In Ontario, the vast majority of mosquito bites &mdash; including the itchy ankle clusters &mdash; are harmless nuisances that heal on their own. The main mosquito-borne concern locally is West Nile virus, which Public Health Ontario and the Public Health Agency of Canada (PHAC) monitor each season, though the risk of illness from any single bite is low. Ankle and foot bites can get irritated because socks and shoes rub them, and scratching can break the skin and invite a secondary infection. Keep bites clean, resist scratching, and if you notice spreading redness, worsening pain, fever, or feel unwell after being bitten, contact a healthcare provider. This article is general information, not medical advice.</p>
           <p>If you are not sure mosquitoes are behind the bites on your ankles, our <Link href="/tools/bug-bite-identifier">interactive bite identifier</Link> asks six quick questions about where you were, when the bites appeared and the pattern they make, then shows the most likely biters with real photos, how to confirm each one and the signs that mean you should see a healthcare provider.</p>
+          <Photo
+            id="biting-midge-bites-ankles"
+            alt="A man's lower legs with white socks rolled down over his shoes, the ankles dotted with small red bite bumps"
+            caption="Biting midge (no-see-um) bites on a man's ankles, revealed when he rolled down his socks (CDC; the case was in Costa Rica). Not every patch of ankle bites comes from mosquitoes."
+          />
+          <Photo
+            id="flea-bites-ankles-cdc"
+            alt="Black-and-white photo of a woman's lower legs and ankles covered in dozens of small dark bite spots"
+            caption="Flea bites attributed to the cat flea, Ctenocephalides felis: dozens of small dark spots around a woman's ankles and lower legs (CDC photograph, 1963). If you are not sure which insect made your ankle bites, the bite identifier above compares the likely biters."
+          />
 
           <h2>The bottom line</h2>
           <p>Your ankles and feet are not unlucky &mdash; they are the ideal target. Ground-level CO&#8322; pooling, dense foot-bacteria odour that literally shares a scent family with Limburger cheese, low-flying <em>Aedes</em> species, and bare, hard-to-watch skin all converge on the same few centimetres. You cannot change the physics of CO&#8322; or your foot microbiome, but you can cover up below the knee, use a registered repellent, wash before dusk, and thin out the mosquito population in your yard. Do those four things and the ankle-bite hotspot cools right down.</p>

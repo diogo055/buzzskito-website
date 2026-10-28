@@ -10,6 +10,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'can-mosquitoes-bite-through-clothes'
 const DATE = '2026-07-16'
@@ -78,6 +80,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('mosquito-on-jeans'),
 })
 
 const AMZ_TAG = tagForSlug('can-mosquitoes-bite-through-clothes')
@@ -85,7 +88,7 @@ const AMZ_TAG = tagForSlug('can-mosquitoes-bite-through-clothes')
 export default function CanMosquitoesBiteThroughClothesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Which fabrics mosquitoes can and cannot bite through, and how to stop bites through clothing — a Canadian guide.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Which fabrics mosquitoes can and cannot bite through, and how to stop bites through clothing — a Canadian guide.', slug: SLUG, datePublished: DATE, image: shareImage('mosquito-on-jeans') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Can Mosquitoes Bite Through Clothes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -130,6 +133,11 @@ export default function CanMosquitoesBiteThroughClothesPage() {
           <p><strong>Yes — a mosquito can bite through clothing any time the fabric is thin enough and tight enough for its proboscis to reach your skin.</strong> The mouthpart a female mosquito uses to feed extends roughly 2 mm (about 0.08 in) once it starts probing, so the rule is simple: if less than about 2 mm of material stands between the mosquito and your skin, you can be bitten.</p>
           <p>Two variables decide it — <strong>thickness</strong> and <strong>fit</strong>. Thin fabric pressed flat against the skin gives the proboscis a direct, unobstructed target. Thick fabric, or fabric that hangs loose with an air gap, moves your skin out of reach. That is the whole mechanism, and it explains every everyday case: why a thin T-shirt fails you but a denim jacket does not, why leggings are a mosquito buffet but loose linen pants are not.</p>
           <p>Weave matters as a third factor. A loosely woven fabric has visible gaps between threads that the needle-thin proboscis can slip through even when the material is thick. A dense, tight weave leaves no such gaps. So the ideal bite-proof garment is <em>thick, tightly woven, and loose-fitting</em> — and the worst is <em>thin, stretchy, and skin-tight</em>.</p>
+          <Photo
+            id="mosquito-on-jeans"
+            alt="Orange-brown mosquito with long, banded legs standing on the woven blue and white threads of denim jeans"
+            caption="A woodland pool mosquito, Aedes canadensis, standing on blue denim jeans in Columbus, Ohio. Denim is thick and woven in a dense twill, which is why jeans are one of the more bite-resistant everyday garments."
+          />
 
           <h2>Can mosquitoes bite through leggings, jeans, and socks?</h2>
           <p><strong>Leggings: yes, easily. Jeans: rarely. Socks: it depends on thickness.</strong> These three garments are the most-asked-about because they sit against high-target areas — legs, ankles — and they land at opposite ends of the bite-risk scale.</p>
@@ -172,6 +180,11 @@ export default function CanMosquitoesBiteThroughClothesPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500">Bite risk assumes the garment is worn normally in mosquito-active conditions. Any thin fabric becomes higher-risk when pulled taut against the skin (e.g. across a seated knee).</p>
+          <Photo
+            id="gallinipper-biting-through-pants"
+            alt="Large mosquito with long dark-and-pale legs standing on tan twill trouser fabric in low sunlight"
+            caption="A gallinipper, Psorophora ciliata, on a pant leg that the photographer says it was biting through (Butler County, Ohio). Any thin fabric becomes higher-risk when it is pulled taut against the skin."
+          />
 
           <p>Colour is a minor add-on factor. Studies find mosquitoes are drawn to darker, higher-contrast colours (black, navy, dark red) more than to light neutrals (white, beige, khaki, light grey). It is nowhere near as important as thickness and fit, but light-coloured loose clothing stacks a small advantage on top — and it makes ticks far easier to spot, which matters on Ontario trails.</p>
 
@@ -201,11 +214,21 @@ export default function CanMosquitoesBiteThroughClothesPage() {
             cons={['Costs more than an untreated shirt', 'Keep wet permethrin away from cats until fully dry']}
           />
           <p>For the fully-covered approach, a <Link href="/blog/bug-protective-clothing-canada">bug-protective clothing setup</Link> (treated shirt, pants, and a mesh bug jacket or head net) removes bare skin from the equation almost entirely. In serious mosquito habitat — cottage country, near wetlands — a <Link href="/blog/mosquito-net">mosquito net</Link> over a sleeping area or gazebo adds a physical barrier that no fabric-biting mosquito can cross.</p>
+          <Photo
+            id="mosquito-on-vest"
+            alt="Brown mosquito with white-banded legs standing on grey, finely textured vest fabric"
+            caption="An eastern saltmarsh mosquito, Aedes sollicitans, on the photographer's vest in Savannah, Georgia; the observer says it could not bite through. Thickness and fit decide whether a bite gets through, far more than colour does."
+          />
 
           <NextUp path="/blog/can-mosquitoes-bite-through-clothes" />
           <h2>Why fabric choice only goes so far</h2>
           <p>Dressing well cuts your bites significantly, but it does not shrink the mosquito population around you — and in a heavily infested yard, mosquitoes simply hunt for the gaps: your ankles, wrists, neck, and the spots where thin fabric pulls tight. If you are constantly reaching for long sleeves in your own backyard on a July evening in the GTA, the real problem is the number of mosquitoes breeding nearby, not your wardrobe.</p>
           <p>Mosquitoes in Ontario also matter for health reasons, not just comfort. The Public Health Agency of Canada (PHAC) and local public-health units track <em>Culex</em> mosquitoes as the primary vector for West Nile virus, which is present across southern Ontario in summer. Most bites are harmless nuisance bites, and this article is general information rather than medical advice — but reducing how often you are bitten is a reasonable precaution, and covering skin is one of the standard measures public-health agencies recommend.</p>
+          <Photo
+            id="culex-tarsalis-female"
+            alt="Brown Culex mosquito with long legs resting on dark knitted fabric, a small white arrowhead pointing to the pale band on its proboscis"
+            caption="A female western encephalitis mosquito, Culex tarsalis, resting on a piece of fabric (CDC, 2005); the arrowhead marks the pale band on her proboscis. Culex is the genus public-health agencies track as the main West Nile virus vector."
+          />
 
           <h2>The bottom line</h2>
           <p>Can mosquitoes bite through clothes? Yes — through thin, tight fabric like leggings, thin tees, and thin socks, because their ~2 mm proboscis reaches skin. No — through loose or thick weaves like denim, canvas, and loose long-sleeves, where the fabric or the air gap puts your skin out of reach. The best clothing defence is loose, tightly woven, long, and (for heavy exposure) permethrin-treated. And when the bites keep coming no matter what you wear, the durable answer is knocking down the mosquito population in your yard rather than armouring yourself against it.</p>

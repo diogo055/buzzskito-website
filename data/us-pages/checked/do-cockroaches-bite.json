@@ -2,9 +2,16 @@
  "id": "do-cockroaches-bite",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4c2d8c9b60487f551e77dcfabcdf404ef15c8cd27b6bd1657c68b1e25d0713b4",
+ "sha": "0f365cfeb05322dcf64534c45f7f70f7625c511529dcc9d8cdd5bdc64f10a723",
  "claimsChecked": 70,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026): 6 ledger photos added as figure blocks: german-cockroach (public domain, CDC PHIL 26932; lead and share image), american-cockroach (CC0, Insects Unlocked via Commons), cockroach-damaged-book (public domain, CDC PHIL 26945), bed-bug-bites-back (CC0, Commons; cause kept as the photographer's attribution), german-cockroach-nymphs (public domain, CDC PHIL 26933), bed-bug-adult-ruler (public domain, CDC PHIL 12704); plus one sentence linking the reader tool /tools/bug-bite-identifier. Captions restate the ledger records and facts already on the page (University of Florida, Roth and Willis, University of Kentucky). No other text, dates, FAQs or sources changed.",
+   "previousSha": "4c2d8c9b60487f551e77dcfabcdf404ef15c8cd27b6bd1657c68b1e25d0713b4"
+  }
+ ]
 }

@@ -2,9 +2,16 @@
  "id": "how-many-ants-are-in-the-world",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0fae998ac174fae2006f31efed90cf69d4a6ad8687260a7b77043c0f8c577979",
+ "sha": "6f2e4ecf8c900fabd2f445730dce7ea7917de0302dfe736aec45fd8e78bee23e",
  "claimsChecked": 96,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 photo upgrade: 5 figures added (thatching-ant-mound, NPS public domain via Wikimedia Commons, new to the ledger, lead; argentine-ants-bait-trap, public domain via Wikimedia Commons, new; fire-ant-mound, carpenter-ant-winged-queen and carpenter-ant-on-fingers, CC0, already in the ledger) plus one sentence linking /tools/what-bug-is-this. Captions restate facts already on the page (scaled-up field counts, Tennessee colony size, brood and reproductive castes left out, no per-home count, large black ants near wood). Both media placeholders kept; no date moved.",
+   "previousSha": "0fae998ac174fae2006f31efed90cf69d4a6ad8687260a7b77043c0f8c577979"
+  }
+ ]
 }

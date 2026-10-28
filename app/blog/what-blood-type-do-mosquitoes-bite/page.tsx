@@ -8,6 +8,8 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'what-blood-type-do-mosquitoes-bite'
 const AMZ_TAG = tagForSlug(SLUG)
@@ -108,12 +110,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('aedes-albopictus-biting-leg'),
 })
 
 export default function WhatBloodTypeDoMosquitoesBitePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Evidence-based 2026 guide to whether mosquitoes prefer certain blood types, and what actually drives who gets bitten.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Evidence-based 2026 guide to whether mosquitoes prefer certain blood types, and what actually drives who gets bitten.', slug: SLUG, datePublished: DATE, image: shareImage('aedes-albopictus-biting-leg') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Blood Type Do Mosquitoes Bite?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -156,6 +159,11 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <h2>What blood type do mosquitoes bite most?</h2>
           <p>If you ask a mosquito, the answer is basically: &ldquo;whichever of you smells and breathes the most like a meal.&rdquo; Blood type barely enters into it. The popular belief is that <strong>Type O</strong> is the mosquito magnet, and there is a sliver of research behind that idea &mdash; but it is a much smaller and shakier sliver than the internet suggests.</p>
           <p>The most-cited evidence is a 2004 laboratory study by Shirai and colleagues in Japan. Using the Asian tiger mosquito (<em>Aedes albopictus</em>), researchers reported that mosquitoes landed on Type O volunteers about 83% of the time, compared with roughly 46% for Type A, with Type B and AB in between. That is a real, published result. But it involved fewer than 100 people, tested one mosquito species under short controlled conditions, and has not been convincingly reproduced at scale. No large review of mosquito attraction ranks blood type among the strong, reliable drivers.</p>
+          <Photo
+            id="aedes-albopictus-biting-leg"
+            alt="Asian tiger mosquito, black with white-banded legs, on the pink, hairy skin of a person's leg"
+            caption="An Asian tiger mosquito, Aedes albopictus, on the photographer's leg in Savannah, Georgia, which the observer says it bit. This is the species the 2004 Shirai blood-type study used."
+          />
           <p>So the accurate, non-clickbait answer: mosquitoes <em>may</em> land on Type O a little more, but if you are the one being devoured at a GTA backyard barbecue, your blood type is almost never the reason. Read on for what is.</p>
 
           <h2>Do mosquitoes like certain blood types at all?</h2>
@@ -197,6 +205,11 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
 
           <h3>The 2019 &ldquo;American Journal of Entomology&rdquo; study is indexed nowhere reputable</h3>
           <p>The other citation you will see repeated &mdash; on blood-bank blogs, pest-control blogs and general-science round-ups alike &mdash; is a 2019 paper in the <em>American Journal of Entomology</em> 3(2):43&ndash;48, reporting that <em>Aedes aegypti</em> chose the group O feeder most often. The paper is real. But the journal is published by Science Publishing Group, a publisher long and widely flagged as predatory, and it is indexed in <strong>neither PubMed/MEDLINE nor the Clarivate Web of Science Master Journal List</strong> under either of its ISSNs. It never cleared the quality bar that would let anyone lean on it &mdash; which has not stopped half the internet from doing exactly that.</p>
+          <Photo
+            id="aedes-aegypti-female"
+            alt="Female yellow fever mosquito, dark with white markings and white-banded legs, standing on a bright green surface"
+            caption="A female yellow fever mosquito, Aedes aegypti, resting (CDC). This is the species the unindexed 2019 paper tested."
+          />
 
           <h3>How the three studies actually grade out</h3>
           <table className="not-prose w-full text-sm border-collapse border border-navy-100 rounded-lg overflow-hidden my-5">
@@ -307,6 +320,12 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
           <p>Because of what you emit, not what you are made of. Roughly one in five people is markedly more attractive to mosquitoes, driven by carbon dioxide output, skin temperature and the specific bacteria living on your skin. Genetics shapes that scent strongly &mdash; which is why bite-magnet status runs in families and stays stable year after year.</p>
           <p>The best evidence for the genetic half comes from a <strong>twin study published in <em>PLOS ONE</em> in 2015</strong> by researchers at the London School of Hygiene &amp; Tropical Medicine. Identical twins, who share their DNA, were far more alike in how attractive they were to mosquitoes than fraternal twins were. The authors estimated that roughly <strong>67% of the variation in attractiveness to mosquitoes is heritable</strong> &mdash; a similar degree of genetic influence to traits like height. That single number dwarfs anything the entire blood-type literature has produced.</p>
           <p>The mechanism sits on your skin, not in your veins. Skin bacteria break sweat down into <strong>lactic acid, ammonia and carboxylic acids</strong>, and that blend is what a mosquito tracks at close range. A Rockefeller University study published in <em>Cell</em> in 2022 found that people who attract the most mosquitoes carry markedly higher levels of skin carboxylic acids, and that the signature is <strong>strikingly stable over years</strong>. Mosquito magnets stay mosquito magnets. That persistence is exactly why &ldquo;I have always been the one who gets eaten alive&rdquo; is such a common complaint &mdash; and it is a skin-chemistry story, not an ABO story.</p>
+          <Photo
+            id="mosquito-bites-forearm"
+            alt="Several swollen, pink mosquito bites merging into one raised patch on the inner forearm"
+            caption="Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024). Who collects the most bites comes down to carbon dioxide output, skin temperature and skin bacteria, not blood type."
+          />
+          <p>If you are not sure mosquitoes made the bites you are counting, our <Link href="/tools/bug-bite-identifier">bug bite identifier</Link> asks six quick questions and shows the most likely biters with real photos.</p>
 
           <h2>Do mosquitoes like fat or skinny people?</h2>
           <p>Body size matters, but not as a judgement about weight. Larger bodies exhale more carbon dioxide and give off more heat and moisture, and those are the signals mosquitoes actually track &mdash; so bigger adults get bitten more than small children on average. Height, muscle mass, recent exercise and pregnancy all raise the same signals.</p>
@@ -383,6 +402,11 @@ export default function WhatBloodTypeDoMosquitoesBitePage() {
 
           <p>Two consequences fall straight out of that table, and neither appears anywhere else on this topic.</p>
           <p><strong>First: nobody has ever tested the mosquito that bites most North Americans.</strong> Every blood-type experiment in the literature used <em>Aedes</em> or <em>Anopheles</em>. The dominant biter across most of the United States and all of southern Ontario is <em>Culex</em> &mdash; the genus that actually carries West Nile &mdash; and it has never been put through a blood-type preference experiment at all. Any confident sentence about &ldquo;mosquitoes and blood type&rdquo; is really a sentence about two genera out of thousands of species.</p>
+          <Photo
+            id="culex-pipiens"
+            alt="Brown northern house mosquito with long, thin legs resting on a beige mesh surface"
+            caption="A mosquito its photographer identifies as a northern house mosquito, Culex pipiens, in Ontario. Culex, the genus that carries West Nile, has never been put through a blood-type preference experiment."
+          />
           <p><strong>Second: timing advice has to be regional.</strong> Dawn and dusk is the right window for <em>Culex</em>, which is why it is the standard line in Ontario and across the northern United States, and it stands. But <em>Aedes aegypti</em> and <em>Aedes albopictus</em> bite hard in broad daylight. If you are in Florida, Texas, Arizona or southern California, treat midday and mid-afternoon as bite time too and wear repellent through the day, not just at the edges of it.</p>
 
           <p>Daytime biting changes what you actually reach for, and this is where a skin repellent stops being the whole answer. Nobody reapplies a spray every few hours across a full working Saturday in the yard, which is why the people dealing with <em>Aedes</em> pressure tend to end up with a zone device on the table instead: a heat-activated repeller warms a treated mat to hold a defined area around where you are sitting, with nothing going on your skin. It needs calm air and the mats are a consumable, so it is a patio-and-picnic-table tool rather than a yard-wide one. <BuyLink tag={AMZ_TAG} search="patio mosquito repeller device">Check patio zone repellers on Amazon &rarr;</BuyLink></p>

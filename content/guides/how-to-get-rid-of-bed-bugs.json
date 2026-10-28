@@ -83,6 +83,17 @@
       "text": "Bed bugs are eliminated by combining several methods and repeating them until monitoring shows none are left; no single spray, powder or gadget does it alone. The [EPA's do-it-yourself bed bug guide](https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control) lays the job out in six steps, from identifying the pest to evaluating the results, and adds that you may have to go through them more than once to kill all the bugs and their eggs."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Bed bugs of several sizes and many tiny white eggs packed along the seam where dark fabric meets brown upholstery on a bed",
+      "caption": "Bed bugs and their white eggs along a seam of a bed, as the photographer describes them. The EPA says you may have to go through its steps more than once to kill all the bugs and their eggs.",
+      "license": "public-domain",
+      "credit": "Charlysays, Public domain, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugs.jpg"
+    },
+    {
       "type": "p",
       "text": "Rutgers University entomologists reach the same conclusion in [their fact sheet on bed bug methods that work and methods that waste money](https://njaes.rutgers.edu/fs1251/): the most effective route is integrated pest management, meaning monitoring, several treatment methods used together, follow-up checks and re-treatment until the bugs are gone. For biology, bites and prevention, use [the complete bed bug reference](/learn/bed-bugs)."
     },
@@ -136,12 +147,38 @@
       "text": "Catch one of the insects and have it identified before you spend time or money on treatment. The EPA advises collecting a sample to show an extension agent or other insect expert, and notes that extension agents identify pests at no cost. An adult bed bug is about 3/16 inch long, reddish-brown, oval and flat, according to the [University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636), and a separate guide shows [what bed bugs look like at every life stage](/blog/what-do-bed-bugs-look-like)."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/bed-bug-adult-ruler.webp",
+      "width": 864,
+      "height": 915,
+      "alt": "Reddish-brown adult bed bug seen from above, its flat oval body beside a millimeter scale",
+      "caption": "An adult bed bug, Cimex lectularius, beside a millimeter ruler, photographed by the CDC. Kentucky describes adults as about 3/16 inch long, reddish-brown, oval and flat.",
+      "license": "public-domain",
+      "credit": "CDC/ CDC-DPDx; Blaine Mathison (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12704"
+    },
+    {
       "type": "p",
       "text": "Identification matters because bed bugs are sometimes mistaken for ticks, cockroaches and carpet beetles, the Kentucky fact sheet notes, and because bat bugs and bird bugs look similar but need a different fix: treating the roost or nest and excluding the wild hosts. Compare your specimen against [the insects most often mistaken for bed bugs](/blog/bugs-that-look-like-bed-bugs)."
     },
     {
       "type": "p",
+      "text": "If you are not sure what you caught, the five-question [pest identifier quiz](/tools/what-bug-is-this) suggests what it is and links the guides that confirm it."
+    },
+    {
+      "type": "p",
       "text": "Bites alone do not confirm bed bugs. The same fact sheet says confirmation requires finding the bugs or their signs, such as dark fecal spotting, shed skins and eggs where the bugs hide. If bites started your search, see [what bed bug bites look like and how much reactions vary](/blog/bed-bug-bites), and compare marks on your bedding with [a guide to what bed bug fecal stains look like](/blog/bed-bug-stains-poop-droppings-canada)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Edge of a wooden bed frame slat speckled with black ink-like dots, densest along the joint where bed bugs hid",
+      "caption": "Black fecal spots on a wooden bed frame near where bed bugs hid, photographed and described by the New York State IPM Program at Cornell University. Dark spotting like this, shed skins and eggs are the signs that confirm bed bugs.",
+      "license": "CC-BY-2.0",
+      "credit": "NY State IPM Program at Cornell University, CC BY 2.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_Bug_Evidence.jpg"
     },
     {
       "type": "p",
@@ -233,6 +270,17 @@
       "text": "A vacuum quickly removes live and dead bed bugs and shed skins, but it does not finish the job. Rutgers cautions that eggs, and bugs wedged in cracks, may not come out, and Kentucky notes that bed bugs can survive being sucked up. Scrape the wand slowly along seams, folds, tufts and zippers. Both universities suggest fitting a knee-high stocking to the end of the vacuum tube, held with a rubber band, so the catch can be tied off and discarded in a sealed bag."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/bed-bug-cast-skin.webp",
+      "width": 1200,
+      "height": 803,
+      "alt": "Pale, see-through shed insect skin with empty leg casings, magnified beside a millimeter scale",
+      "caption": "A shed skin that the photographer identifies as a bed bug's, magnified beside a millimeter scale. A vacuum quickly removes live and dead bed bugs and shed skins, but it can miss eggs and bugs wedged in cracks.",
+      "license": "CC-BY-SA-3.0",
+      "credit": "Louis-Marie Poissant, CC BY-SA 3.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cimex_lectularius,_exuvie9.JPG"
+    },
+    {
       "type": "h3",
       "text": "Heat chambers, hot cars and freezers"
     },
@@ -309,6 +357,17 @@
     {
       "type": "p",
       "text": "Three rules come with them. Use only a dust that is registered by the EPA as a pesticide and labeled for bed bugs; the agency says pool-grade and food-grade diatomaceous earth should not be used because they pose a greater inhalation risk. Apply it only into cracks and crevices, the use the EPA limits desiccants to. And give it time: the EPA says desiccants may take several months to work. A separate article looks at [whether diatomaceous earth works on bed bugs](/blog/diatomaceous-earth-for-bed-bugs)."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/bed-bugs-hotel-headboard.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "White pesticide dust packed into the crevice where a dark wooden headboard meets gray fabric, with a dust-coated bed bug in the gap",
+      "caption": "A bed bug coated in pesticide dust in a crevice of a hotel headboard after a treatment, photographed by the New York State IPM Program at Cornell University. The EPA limits desiccant dusts to cracks and crevices like this one.",
+      "license": "CC-BY-2.0",
+      "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bed_Bugs_Treated_on_a_Hotel_Headboard_(11555818913).jpg"
     },
     {
       "type": "h3",

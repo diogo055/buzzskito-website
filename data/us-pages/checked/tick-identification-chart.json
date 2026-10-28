@@ -2,7 +2,7 @@
  "id": "tick-identification-chart",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1c25980b06315c2058cdbe6a37ca93c712cffa9db032076e6fbb44fd3de8c71d",
+ "sha": "ef609d4f6cf410e6549d1c24db4ef62b13e504d699e9084e7dbc7b3c44bbc283",
  "claimsChecked": 90,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 8,
@@ -12,6 +12,11 @@
    "on": "2026-10-23",
    "note": "link to /tools/tick-identifier added in section What should you do with a tick you have removed, and how do you get it identified? (one new paragraph after the photo identification line)",
    "previousSha": "a4c7a08a996f1fd58ca1d014d7bdfe11bcc0db54eb528e7d4705b7cf7a3b78e7"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 6 real photos added as figure blocks from the photo ledger (all CDC PHIL, public domain): blacklegged-tick-adult-nymph-fingertip after the actual-size paragraph, tick-unfed-vs-engorged in the fed-tick section, blacklegged-tick-female, american-dog-tick-female, lone-star-tick-female and lone-star-tick-male in the species sections. Captions restate the photo records and facts already on the page (CDC, Connecticut handbook); both media placeholders kept; no fact or date changed. The /tools/tick-identifier link was already on the page.",
+   "previousSha": "1c25980b06315c2058cdbe6a37ca93c712cffa9db032076e6fbb44fd3de8c71d"
   }
  ]
 }

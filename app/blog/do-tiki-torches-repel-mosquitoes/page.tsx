@@ -12,6 +12,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
@@ -69,6 +71,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('aedes-albopictus-biting'),
 })
 
 const AMZ_TAG = tagForSlug('do-tiki-torches-repel-mosquitoes')
@@ -76,7 +79,7 @@ const AMZ_TAG = tagForSlug('do-tiki-torches-repel-mosquitoes')
 export default function DoTikiTorchesRepelMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An evidence-based 2026 review of whether tiki torches and citronella torches actually repel mosquitoes in Canadian backyards, and what works better.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'An evidence-based 2026 review of whether tiki torches and citronella torches actually repel mosquitoes in Canadian backyards, and what works better.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-albopictus-biting') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Do Tiki Torches Repel Mosquitoes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -159,11 +162,21 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
 
           <h2>Do Tiki Torches Keep Mosquitoes Away?</h2>
           <p>Mostly no. A standard tiki torch filled with ordinary lamp oil does essentially nothing to mosquitoes — the flame, the flicker, and the light are not repellents, and mosquitoes do not navigate by light the way moths do. Fill the torch with <strong>citronella</strong> fuel and you get a small, genuine effect: the oil releases a lemony aroma that masks the carbon dioxide and body scent mosquitoes hunt by. But that protective plume is thin, it sits mostly in a bubble under about a metre wide, and any breeze blows it away.</p>
+          <Photo
+            id="aedes-albopictus-biting"
+            alt="Black-and-white striped Asian tiger mosquito with its long proboscis pushed into a person's skin, side view"
+            caption="An Asian tiger mosquito, Aedes albopictus, pushing her proboscis into the skin of the photographer she landed on. Female mosquitoes find you by the carbon dioxide and body scent that citronella tries to mask."
+          />
           <p>So the honest answer is that a citronella torch can shave a few bites off the person standing right beside the flame in dead-still air, and a plain oil torch does nothing at all. Neither one clears a patio, and neither reduces the mosquito population in your yard. The reason people keep buying them is that they look wonderful at dusk — which is a fine reason to own tiki torches, as long as you do not mistake them for mosquito control.</p>
 
           <NextUp path="/blog/do-tiki-torches-repel-mosquitoes" />
           <h2>Do Citronella Torches Work?</h2>
           <p>Citronella torches work exactly like <Link href="/blog/citronella-candles-canada-do-they-work">citronella candles</Link> — same active oil, same mechanism, same fatal weakness. Female mosquitoes (the only ones that bite) find you by following a trail of CO₂ from your breath plus body heat, lactic acid, and skin scent. Citronella oil masks those cues; it does not kill mosquitoes and it does not push them away the way DEET does. It just makes you a little harder to detect, and only where the scent is thick enough.</p>
+          <Photo
+            id="aedes-aegypti-female-and-male"
+            alt="Female yellow fever mosquito at lower left and a male with feathery antennae at upper right, seen through white netting"
+            caption="Yellow fever mosquitoes, Aedes aegypti: a female (left) and a male (right). Only the female bites, so she is the one a citronella torch has to keep off you."
+          />
           <p><strong>What the research shows:</strong> controlled still-air testing (published in the Journal of the American Mosquito Control Association) has measured roughly 40–50% fewer bites for someone seated directly beside a citronella source. That is real but modest, and it is measured in the best-case laboratory-style condition — no wind, sitting right next to it. Move citronella out into an open backyard and several field studies have found little to no statistically significant protection, because the plume simply does not stay put. A torch is actually worse off than a candle here: the flame usually sits at the edge of the patio, farther from where you sit, so its already-tiny protective zone is even less likely to reach you.</p>
           <p>For context, a DEET or picaridin skin repellent routinely delivers 90%+ protection for several hours. A citronella torch is not remotely in the same league — it is a mild, short-range, still-air-only tool.</p>
 
@@ -174,8 +187,18 @@ export default function DoTikiTorchesRepelMosquitoesPage() {
 
           <h2>Are Tiki Torches Effective Against Mosquitoes?</h2>
           <p>Not for anything larger than the air right beside the flame. The core problem is range. For citronella to work, the scent has to physically fill the space between you and an approaching mosquito, at a high enough concentration, at the exact moment it comes in. A torch releases only a thin ribbon of oil vapour, so that concentration is only high enough in a bubble under roughly a metre — and it is easily swept away by even a 1–2 km/h breeze. The instant you lean back, walk to the barbecue, or the wind shifts, the mosquitoes are back on you.</p>
+          <Photo
+            id="mosquito-bites-forearm"
+            alt="Several swollen red mosquito bites merged into one raised patch on the inside of a forearm"
+            caption="Several swollen mosquito bites fusing together on a forearm, photographed by the CDC. A citronella torch only cuts bites within about a metre of the flame, and only in still air."
+          />
           <p>That is also why lining a patio with torches does not solve the problem. Each torch protects only its own little pocket, so four torches around a 3-metre patio still leave the table and everyone sitting in the middle fully exposed. And because torches do nothing about the shaded shrubs, long grass, and damp corners where mosquitoes actually breed and rest during the day, they cannot lower the number of mosquitoes coming into your yard in the first place.</p>
           <p>Those damp corners are where a torch has nothing to offer and a few dollars actually buys something. Any container holding water for more than a week &mdash; a rain barrel, a birdbath, a plant saucer, a blocked eavestrough &mdash; is a nursery, and a BTI larvicide tablet dropped into it kills the larvae there before any of them reach your patio as adults. Follow the label for which water types each format is cleared for. <BuyLink tag={AMZ_TAG} search="mosquito dunks bti">Check BTI mosquito dunks on Amazon.ca &rarr;</BuyLink></p>
+          <Photo
+            id="culex-larvae"
+            alt="Four southern house mosquito larvae lined up from smallest to largest, showing the four stages of larval growth"
+            caption="Southern house mosquito larvae, Culex quinquefasciatus, at their four stages of growth. Any container that holds water for more than a week can raise them, and a torch does nothing about that."
+          />
 
           <RelatedLinks path="/blog/do-tiki-torches-repel-mosquitoes" />
           <h2>Tiki Torches vs What Actually Works: A Real Comparison</h2>

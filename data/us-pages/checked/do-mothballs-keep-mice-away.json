@@ -2,9 +2,16 @@
  "id": "do-mothballs-keep-mice-away",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3652152411814b192358223ecae6e3d0b8f9a0e1ad2acc1cd3c835d7835be5f4",
+ "sha": "fc1d32453168ddb86bd06d4a951381af4362abe37ea2897d13d2bb9e6fb38bca",
  "claimsChecked": 92,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026): 5 photos added as figure blocks: mothballs (public domain, Wikimedia Commons File:Mothballs.jpg, added to the ledger Oct 28; lead and share image; caption names no chemical because the source does not), webbing-clothes-moth (CC0, iNaturalist obs 140528256), clothes-moth-eggs-wool (CC BY 3.0, CSIRO via Commons; no species named), house-mouse-vs-young-rat (public domain, CDC PHIL 26271), mouse-droppings-ruler (CC BY-SA 4.0, Wikimedia Commons). Captions restate the ledger records and facts already on the page (NPIC, Oregon State). No other text, dates, FAQs or sources changed.",
+   "previousSha": "3652152411814b192358223ecae6e3d0b8f9a0e1ad2acc1cd3c835d7835be5f4"
+  }
+ ]
 }

@@ -7,6 +7,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -60,6 +62,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('lone-star-tick-female'),
 })
 
 const AMZ_TAG = tagForSlug('are-ticks-arachnids-or-insects')
@@ -67,7 +70,7 @@ const AMZ_TAG = tagForSlug('are-ticks-arachnids-or-insects')
 export default function AreTicksArachnidsOrInsectsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Are ticks arachnids or insects? Why ticks have eight legs and belong to the class Arachnida.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Are ticks arachnids or insects? Why ticks have eight legs and belong to the class Arachnida.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('lone-star-tick-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Are Ticks Arachnids or Insects?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -153,16 +156,41 @@ export default function AreTicksArachnidsOrInsectsPage() {
           <p>The comparison goes deeper than leg count. An insect body is built in three obvious sections — head, thorax, and abdomen — and typically carries a pair of antennae and one or two pairs of wings. A tick has none of that. Its body is a single fused oval with no separate head, no antennae probing the air, and no wings folded on its back. What looks like a &ldquo;head&rdquo; on a tick is actually just its mouthparts (the capitulum), used to anchor and feed. Take away the wings, the antennae, and the segmented body, add two more legs, and you are unmistakably looking at an arachnid.</p>
 
           <p>Counting legs on a nymph the size of a poppy seed is a job for a magnifier, not the naked eye &mdash; a pocket 10x loupe settles arachnid-or-insect in seconds and doubles as a tick-check tool. <BuyLink tag={AMZ_TAG} search="pocket magnifier 10x loupe">Check price on Amazon.ca &rarr;</BuyLink></p>
+          <Photo
+            id="lone-star-tick-female"
+            alt="Female lone star tick from above on a green leaf: eight jointed legs, no antennae, one oval reddish-brown body with a single white spot, and mouthparts at the front"
+            caption="A female lone star tick seen from above (CDC photo). Count the legs: eight, with no antennae, no wings and only the mouthparts where a head would be."
+          />
 
           <NextUp path="/blog/are-ticks-arachnids-or-insects" />
           <h2>Ticks Are Really Just Big Mites (Subclass Acari)</h2>
           <p>Here is the part that surprises most people: a tick&rsquo;s closest relatives are not spiders but <strong>mites</strong>. Ticks and mites together make up the subclass <strong>Acari</strong> within the arachnids. Ticks are simply the largest, blood-specialised members of that group — think of a tick as a mite that evolved to feed on the blood of mammals, birds, and reptiles. That is why a swollen, engorged tick looks nothing like a spider: it is behaving like the parasitic mite it fundamentally is.</p>
+          <Photo
+            id="engorged-blacklegged-tick"
+            alt="Engorged female blacklegged tick seen from the side: a smooth, swollen, tan-brown body with small dark legs and mouthparts at the front"
+            caption="An engorged female blacklegged (deer) tick, side view (CDC photo). Swollen with blood, it looks nothing like a spider."
+          />
           <p>Spiders (order <strong>Araneae</strong>) are cousins one branch over on the same arachnid family tree. They share the eight legs and the wingless, antenna-free body, but spiders spin silk, have a two-part body, and hunt or trap prey. Ticks do none of that. So the accurate way to say it: ticks are arachnids, ticks are acarines (mites and ticks), and ticks are related to spiders — but they are not spiders themselves.</p>
+          <Photo
+            id="grass-spider"
+            alt="Grass spider seen from above: eight long, hairy legs and a body in two clear parts, a striped front section and an oval striped abdomen"
+            caption="A grass spider, genus Agelenopsis, seen from above. Like a tick it has eight legs and no antennae, but its body comes in two parts."
+          />
           <p>If you are not sure the bug you found is a tick at all, our <Link href="/tools/tick-identifier">&ldquo;What kind of tick is this?&rdquo; quiz</Link> asks six quick questions about its legs and body, its size and markings, where you found it, where you picked it up and the season, then shows the most likely ticks with a real photo of each, or tells you when it is probably not a tick.</p>
 
           <h2>What About Seed Ticks With Six Legs?</h2>
           <p>There is exactly one honest exception to the &ldquo;eight legs&rdquo; rule, and it is worth knowing because it trips people up. When a tick first hatches from the egg, it is a <strong>larva</strong> — often called a <strong>seed tick</strong> — and at that stage it has only six legs. After its first blood meal it moults into a nymph and grows a fourth pair, reaching the full eight legs it keeps for the rest of its life as a nymph and adult.</p>
+          <Photo
+            id="blacklegged-tick-life-stages"
+            alt="Blacklegged tick life stages on a blue-green background: a large adult with a red-orange body, a smaller dark nymph and a tiny pale larva"
+            caption="Blacklegged tick adult, nymph and larva (CDC photo). The tiny larva, the seed tick, has six legs; the nymph and adult have eight."
+          />
           <p>So a six-legged seed tick is not evidence that ticks are insects — it is just an immature arachnid that has not finished developing. Because seed ticks are barely the size of a poppy seed and cluster in large numbers, they are easy to mistake for tiny insects or specks of dirt. If you want to tell them apart from actual insects and other look-alikes, our guide to <Link href="/blog/bugs-that-look-like-ticks">bugs that look like ticks</Link> walks through the differences with the features to check.</p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="Flat, oval, reddish-brown adult bed bug seen from above beside a scale marked in millimetres, its short legs and two antennae visible"
+            caption="An adult bed bug beside a millimetre scale (CDC photo). It is an insect: six legs and a pair of antennae, where a tick has eight legs and none."
+          />
 
           <RelatedLinks path="/blog/are-ticks-arachnids-or-insects" />
           <h2>Why the Arachnid vs Insect Distinction Actually Matters</h2>

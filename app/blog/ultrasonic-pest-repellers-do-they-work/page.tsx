@@ -14,6 +14,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'ultrasonic-pest-repellers-do-they-work'
 const DATE = '2026-07-16'
@@ -71,6 +73,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('house-mouse'),
 })
 
 const AMZ_TAG = tagForSlug('ultrasonic-pest-repellers-do-they-work')
@@ -78,7 +81,7 @@ const AMZ_TAG = tagForSlug('ultrasonic-pest-repellers-do-they-work')
 export default function UltrasonicPestRepellersPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian evidence review of ultrasonic pest repellers: FTC enforcement history, habituation research, the Canadian regulatory gap, and proven alternatives.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian evidence review of ultrasonic pest repellers: FTC enforcement history, habituation research, the Canadian regulatory gap, and proven alternatives.', slug: SLUG, datePublished: DATE, image: shareImage('house-mouse') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Ultrasonic Pest Repellers — Do They Work?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -122,6 +125,11 @@ export default function UltrasonicPestRepellersPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>Do Ultrasonic Pest Repellers Actually Work?</h2>
           <p>No. Across roughly four decades of laboratory and field testing, no controlled study has shown a consumer ultrasonic device preventing or eliminating a rodent or insect infestation — and that is the standard the packaging implies when it promises to &ldquo;drive pests out.&rdquo; The consistent finding is a brief behavioural startle in the first days after a device is switched on, followed by complete habituation: the animals learn the sound carries no consequence and carry on feeding, travelling, and breeding. With the ultrasonic plug-in off the table, the practical question is what remains &mdash; we work through <Link href="/blog/mouse-repellent-canada" className="text-brand-700 underline">every mouse repellent sold in Canada and the evidence behind each one</Link>, including the peppermint-oil and moth-ball claims.</p>
+          <Photo
+            id="house-mouse"
+            alt="Brown house mouse with large ears and a long, thin tail on a dusty floor beside a wall"
+            caption="A house mouse, Mus musculus, in Marfa, Texas. Around a new ultrasonic unit, mice show a brief startle, then habituate and carry on feeding, travelling and breeding."
+          />
           <p>This page is the evidence file: the regulatory actions, the university research, and the physics. Ultrasonic repellers are among the best-selling pest products on Amazon.ca — often outselling the traps that actually work — which is why there are deliberately no ultrasonic devices linked anywhere on this page.</p>
           <AffiliateDisclosure />
           <p className="not-prose text-sm text-gray-600 mb-1">If you came here to buy something that works, the short version: the Victor M250S electronic mouse trap is what we point to instead of a plug-in (full reasoning further down).</p>
@@ -139,6 +147,11 @@ export default function UltrasonicPestRepellersPage() {
             <li><strong>No elimination study exists.</strong> The claim that matters to a homeowner — &ldquo;this will end my infestation&rdquo; — has never been demonstrated in a peer-reviewed controlled study for any plug-in ultrasonic device, for any pest.</li>
           </ul>
           <p>Habituation is not a design flaw one brand could fix — it is how nervous systems work. A stimulus that repeatedly costs an animal nothing gets filtered out, and mice living among compressor hums, furnace fans, and footsteps are exceptionally good at ignoring meaningless noise.</p>
+          <Photo
+            id="house-mouse-on-stove"
+            alt="Grey-brown house mouse with big round ears peeking up from the coil of an electric stove burner"
+            caption="A house mouse on a kitchen stovetop burner in Washington, DC. Mice that live among compressor hums, furnace fans and footsteps are very good at ignoring meaningless noise."
+          />
 
           <h2>What Has the FTC Done About Ultrasonic Repeller Claims?</h2>
           <p>Quite a lot — the US Federal Trade Commission has been formally challenging this product category for a quarter century. In May 2001, FTC staff sent warning letters to <strong>more than 60 manufacturers and retailers</strong> of ultrasonic pest-control devices, putting the entire industry on notice that repellency and elimination claims must be supported by competent and reliable scientific evidence.</p>
@@ -158,6 +171,11 @@ export default function UltrasonicPestRepellersPage() {
             <li><strong>Intensity collapses with distance.</strong> Even in open line-of-sight, the sound level a few metres from the emitter is a fraction of what the spec sheet implies.</li>
           </ul>
           <p>Put together: a plug-in projects a cone of sound into the open middle of a room — the space rodents cross least — while the wall-void highways they actually use stay silent. The animal that hears it clearly is your dog.</p>
+          <Photo
+            id="mouse-droppings-wood"
+            alt="Small, dark, rice-shaped mouse droppings scattered across a light wooden surface"
+            caption="Mouse droppings scattered on a wooden surface (National Park Service photograph). Judge any device by evidence such as fresh droppings, gnaw marks and trap catches, not by sightings."
+          />
 
           <h2>Are There Narrow Cases Where They Might Briefly Help?</h2>
           <p>Honesty cuts both ways, so here is the complete list of situations where the evidence allows a limited maybe — none of which justifies buying one:</p>
@@ -166,6 +184,11 @@ export default function UltrasonicPestRepellersPage() {
             <li><strong>Crickets, specifically.</strong> The one insect group with a measurable lab response. If your entire problem is crickets in an open basement, an ultrasonic unit might reduce chirping near the device. It still won&rsquo;t remove them from the structure.</li>
             <li><strong>Small enclosed empty spaces.</strong> Some owners run a unit in a parked RV or vehicle cab over winter — tiny, line-of-sight, food-free. Evidence is anecdotal; steel wool in the intake gaps does the real work.</li>
           </ul>
+          <Photo
+            id="house-cricket"
+            alt="Light brown house cricket with dark markings, long antennae and spiny hind legs on a shiny metal surface"
+            caption="A house cricket, Acheta domesticus, in Indio, California. Crickets are the one insect group with a measurable lab response to ultrasonic devices, and even then a unit will not remove them from the structure."
+          />
           <p>The common thread: the ultrasonic device is always a free rider on measures that work on their own — never the effective ingredient.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The steel wool in that last example is the part actually worth buying — packed into any gap of 6 mm or more, it is a barrier rodents cannot chew through:</p>
           <div className="not-prose mb-6">
@@ -187,6 +210,12 @@ export default function UltrasonicPestRepellersPage() {
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check the Victor electronic trap on Amazon.ca →</BuyLink>
           </div>
           <p>Scale the same logic to your actual pest: rats need rat-rated hardware (see the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link> — mouse traps physically cannot kill rats), persistent exterior pressure can justify a PMRA-registered tamper-resistant station (covered in the <Link href="/blog/mouse-bait-station-canada">mouse bait station guide</Link>, with the legal landscape in <Link href="/blog/rat-poison-canada-what-is-legal">what rat poison is legal in Canada</Link>), and the full playbooks live in <Link href="/blog/how-to-get-rid-of-mice-canada">how to get rid of mice in Canada</Link> and <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">keeping mice out over winter</Link>. If the problem outgrows DIY, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> shows what professional rodent work runs.</p>
+          <Photo
+            id="house-mouse-vs-young-rat"
+            alt="Greyscale photo of a slim house mouse lying above a stockier young Norway rat, each labelled with its name"
+            caption="A house mouse (top) beside a 2-week-old Norway rat (bottom), names printed on the photo (CDC). Even a young rat has a blunter head, smaller ears and larger feet, and rats need rat-rated traps."
+          />
+          <p>Not sure which pest you are dealing with? Our <Link href="/tools/what-bug-is-this">pest identifier quiz</Link> asks five quick questions and points you to the right guide.</p>
 
           <h2>Ultrasonic Repellers vs Methods That Work: How Do They Compare?</h2>
           <p>One table, whole decision: every row below the first has controlled evidence and a measurable outcome; the first row has neither.</p>

@@ -2,9 +2,16 @@
  "id": "what-do-mice-eat",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c433da297f7e3f2aa6e5131cc7f61f19b8ea171b8f98319096263b53ade9f1ee",
+ "sha": "a9de27d5f8854e39c62d3469ed5c5dd2fe3d54521d6109cd4ccb96acd426af10",
  "claimsChecked": 78,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 5 real photos added as figure blocks: house-mouse-bird-feeder-tray (new to the ledger: iNaturalist research grade, CC0; lead), north-american-deer-mouse (CDC PHIL, public domain), house-mouse-on-stove (CC BY 4.0), mouse-droppings-ruler (CC BY-SA 4.0) and mouse-gnawed-chair-seat (new to the ledger: NPS Conserve O Gram 3/12 Figure 12, public domain). Captions restate the photo records and facts already on the page (Timm, UC IPM, Nebraska Extension); both media placeholders kept; no fact or date changed.",
+   "previousSha": "c433da297f7e3f2aa6e5131cc7f61f19b8ea171b8f98319096263b53ade9f1ee"
+  }
+ ]
 }

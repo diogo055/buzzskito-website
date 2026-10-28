@@ -2,9 +2,16 @@
  "id": "alaska-mosquitoes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "df91dbd643dde9762601e2856a7607ad066dce4f837361d5fd5f67da34a4ec5c",
+ "sha": "f1cccc5f5fe16cc95d1c51ed6edc7645d357aa7a65732f2bd2b35e1b2a99b687",
  "claimsChecked": 78,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 5 real photos added as figure blocks, all new to the ledger: mosquito-swarm-alaska-tundra (USFWS via Wikimedia Commons, public domain; lead), aedes-excrucians-alaska, snow-mosquito-fingers and mosquitoes-on-trousers-north-slope (iNaturalist research grade, CC BY 4.0) and snow-mosquito-closeup (iNaturalist research grade, CC0); plus one sentence linking /tools/bug-bite-identifier in the other-biting-insects section. Captions restate the photo records and facts already on the page (Alaska DEC, NPS); media placeholders kept; no fact or date changed.",
+   "previousSha": "df91dbd643dde9762601e2856a7607ad066dce4f837361d5fd5f67da34a4ec5c"
+  }
+ ]
 }

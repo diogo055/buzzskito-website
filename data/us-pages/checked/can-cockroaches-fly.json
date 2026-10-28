@@ -2,7 +2,7 @@
  "id": "can-cockroaches-fly",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c2d873d6fd96034e2c01855649bc6e859c4d1d8d265f884e44ff423353752d6c",
+ "sha": "b5c22c5ef6806825e77b64d2bdc6d91cf9c94a4ab67900cfd5cdd0934bd55c59",
  "claimsChecked": 99,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 11,
@@ -17,6 +17,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026 link-in (cockroaches): one sentence added at the end of 'Oriental cockroach: cannot fly' linking /blog/oriental-cockroaches; no fact changed.",
    "previousSha": "cea22dcdb6604db15546db54e4452249a97b2076a95f859a9ef4b214fec4bed2"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 6 real photos added as figure blocks: american-cockroach (CC0, lead), smokybrown-cockroach (CC0), asian-cockroach-on-leaf (USDA ARS, public domain), wood-cockroach-male (new to the ledger: iNaturalist research grade, CC0), brown-banded-cockroach-male-female (CDC PHIL, public domain) and oriental-cockroach-garage-floor (CC BY 4.0); plus one sentence linking /tools/what-bug-is-this at the end of the identification section. Captions restate the photo records and facts already on the page (Clemson, UC IPM, UF, Penn State, Texas A&M); both media placeholders kept; no fact or date changed.",
+   "previousSha": "c2d873d6fd96034e2c01855649bc6e859c4d1d8d265f884e44ff423353752d6c"
   }
  ]
 }

@@ -11,6 +11,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'no-see-ums-biting-midges-ontario'
 const DATE = '2026-07-12'
@@ -60,6 +62,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('biting-midge-culicoides'),
 })
 
 const AMZ_TAG = tagForSlug('no-see-ums-biting-midges-ontario')
@@ -67,7 +70,7 @@ const AMZ_TAG = tagForSlug('no-see-ums-biting-midges-ontario')
 export default function NoSeeUmsBitingMidgesOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'No-see-ums and biting midges in Ontario — bites, screens, and yard control.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'No-see-ums and biting midges in Ontario — bites, screens, and yard control.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('biting-midge-culicoides') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'No-See-Ums & Biting Midges', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -148,7 +151,17 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
 
           <h2>What No-See-Ums Actually Are</h2>
           <p>Despite the name, no-see-ums are not mysterious. They are <strong>biting midges</strong> — tiny two-winged flies in the family <em>Ceratopogonidae</em>, most often the genus <em>Culicoides</em>. In Ontario you might also hear them called punkies, sand flies, or moose flies. At just 1 to 3 mm long, an adult is roughly a quarter the size of a mosquito, which is exactly why you feel the bite before you ever spot the culprit.</p>
+          <Photo
+            id="biting-midge-culicoides"
+            alt="Magnified biting midge with a speckled brown body and spotted wings, seen through the round field of a microscope"
+            caption="A biting midge (no-see-um), genus Culicoides, under a microscope. At 1 to 3 mm long, an adult is roughly a quarter the size of a mosquito, which is why you feel the bite before you see the insect."
+          />
           <p>As with mosquitoes, only the <strong>female</strong> bites. She needs a blood meal to develop her eggs, and she finds you using the same cues a mosquito does — the carbon dioxide in your breath, body heat, and skin odours. Males feed on nectar and don&rsquo;t bite at all. The larvae develop in consistently moist places: the muddy margins of ponds and marshes, soggy leaf litter, wet compost, damp mulch, tree holes, and saturated lawn edges. Anywhere the ground stays wet is potential no-see-um habitat.</p>
+          <Photo
+            id="biting-midge-on-skin"
+            alt="Tiny dark midge with spotted wings standing on pale human skin among fine hairs"
+            caption="A biting midge on human skin (CSIRO photograph). Only the female bites: she needs a blood meal to develop her eggs and finds you by your breath, body heat and skin odours."
+          />
 
           <h2>Why Regular Screens Don&rsquo;t Stop Them</h2>
           <p>This is the single most frustrating thing about biting midges: your windows can be shut, your porch screened in, and they still get to you. Standard insect screening is woven with mesh openings of roughly <strong>1.1 to 1.5 mm</strong> — plenty fine for houseflies and mosquitoes, but a wide-open door for a 1 mm midge. They simply fly through the holes.</p>
@@ -183,6 +196,11 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             <li><strong>Proximity to water and stillness.</strong> Because they are feeble fliers, midges concentrate where the air is calm near their wet breeding grounds — lakeshores, ponds, marshes, ravines, drainage ditches, and cottage country. The moment a breeze picks up, they largely disappear.</li>
           </ul>
           <p>This is why the cottage dock at sunset can be miserable while a windy afternoon at the same spot is bite-free, and why the nuisance often overlaps with early-summer <Link href="/blog/black-flies-ontario-when-they-come-out">black fly season</Link>. Suburban GTA yards near creeks, storm ponds, and low wet corners get their share too, not just cottages.</p>
+          <Photo
+            id="black-fly"
+            alt="Small, humpbacked black fly with clear wings resting on a pale wooden surface"
+            caption="A male black fly, Simulium sp. In Ontario the no-see-um nuisance often overlaps with early-summer black fly season."
+          />
 
           <h2>Preventing No-See-Um Bites</h2>
           <p>Because midges are so small and feed in clusters, a layered defence works far better than any single trick:</p>
@@ -214,6 +232,11 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
           <h2>Treating Bites You Already Have</h2>
           <p>No-see-um bites itch out of proportion to their size, and scratching only invites infection. To calm them: wash the area with soap and water, apply a cold compress to reduce swelling, and use an over-the-counter antihistamine or a hydrocortisone/anti-itch cream to control the reaction. Keep fingernails off the welts. If a bite becomes very swollen, spreads, oozes, or shows signs of infection, contact a healthcare provider — some people react strongly to midge saliva.</p>
           <p>If you are still not certain the welts you are treating came from a midge at all, our closer look at <Link href="/blog/no-see-um-bites">what no-see-um bites look like and how long they last</Link> follows a bite through its stages — the burning pinprick, the red dot hours later, the hard welt still itching days on — which is the detail that usually settles the question, since the insect itself is long gone by the time you look.</p>
+          <Photo
+            id="biting-midge-bites-ankles"
+            alt="A man's lower legs with white socks rolled down over his shoes, the ankles dotted with small red bite bumps"
+            caption="Biting midge (no-see-um) bites on a man's ankles, revealed when he rolled down his socks (CDC; the case was in Costa Rica). The bites often come in clusters on the ankles, wrists and hairline."
+          />
           <p>And if those stages do not match what you see, our <Link href="/tools/bug-bite-identifier">&ldquo;What bit me?&rdquo; tool</Link> asks six quick questions about where you were, when you noticed the bites, the pattern and whether you felt them, then shows the most likely biters with real photos, how to confirm each one and the signs that mean you should see a healthcare provider.</p>
 
           <h2>Reducing No-See-Ums Around Your Yard</h2>

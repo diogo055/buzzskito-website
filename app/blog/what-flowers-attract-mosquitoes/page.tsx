@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
@@ -60,12 +62,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('culex-quinquefasciatus-male'),
 })
 
 export default function WhatFlowersAttractMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, image: shareImage('culex-quinquefasciatus-male') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Flowers & Plants Attract Mosquitoes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -105,6 +108,11 @@ export default function WhatFlowersAttractMosquitoesPage() {
         <h2>Do flowers attract mosquitoes?</h2>
         <p>Not in the way most people mean. A female mosquito hunting for a blood meal locates you by carbon dioxide from your breath, your body heat, moisture, and hundreds of skin-odour compounds &mdash; not by the colour or scent of your flowers. So a rose bed does not draw biting mosquitoes toward it the way it draws bees.</p>
         <p>There is one genuine connection, though, and it is worth understanding. <strong>Both male and female mosquitoes feed on flower nectar</strong> &mdash; sugar is their primary energy source, and males feed on nothing else. Females only take blood to develop eggs; the rest of the time they, too, run on nectar. So a garden filled with abundant, easy-access nectar can help <em>sustain</em> the adult mosquito population already living in and around your yard. It is a supporting factor, not a magnet. Removing the flowers would not fix a mosquito problem, and no one should tear out a pollinator garden over it. But it explains why lush, heavily-planted yards often feel buggier than sparse ones: the plantings feed and shelter the adults, and usually hold the water that breeds them too.</p>
+        <Photo
+          id="culex-quinquefasciatus-male"
+          alt="Male southern house mosquito with bushy, feathery antennae and long legs resting on a pale pink flower petal"
+          caption="A male southern house mosquito, Culex quinquefasciatus, resting on a flower (CDC photo). Males feed only on nectar; females drink it too and take blood only to develop eggs."
+        />
 
         <NextUp path="/blog/what-flowers-attract-mosquitoes" />
         <h2>What flowers and plants attract mosquitoes the most?</h2>
@@ -135,6 +143,11 @@ export default function WhatFlowersAttractMosquitoesPage() {
 
         <h3>2. Nectar-heavy plantings (they feed the adults)</h3>
         <p>Large sweeps of nectar-rich flowers, flowering ivy, and dense perennial borders provide the sugar meals that keep adult mosquitoes alive between bites. This is a genuine but secondary effect &mdash; it supports a population, it does not create one. You do not need to remove nectar plants. Just be aware that a heavily-planted yard gives adults more to feed on, so pairing it with good water control and barrier treatment matters more.</p>
+        <Photo
+          id="aedes-albopictus-goldenrod"
+          alt="Black-and-white striped Asian tiger mosquito hanging beneath bright yellow goldenrod flowers, its banded legs dangling"
+          caption="A female Asian tiger mosquito, Aedes albopictus, on sweet goldenrod flowers in Ohio; the observer says it appeared to be feeding on nectar. Nectar is the sugar meal that keeps adult mosquitoes alive between bites."
+        />
 
         <h3>3. Dense foliage (it shelters them by day)</h3>
         <p>Mosquitoes are weak fliers that cannot tolerate direct midday sun. They spend most of the day <em>resting</em> in cool, shaded, humid, still air &mdash; and dense plantings provide exactly that. Thick hostas and ferns, ivy, tall ornamental grasses, and untrimmed hedges are prime daytime refuges. The plant species barely matters; the structural density does. This is the same reason people wrongly blame cedars &mdash; the shade and trapped moisture of a dense hedge, not the tree, is the draw. We break that down in <Link href="/blog/do-cedar-trees-attract-mosquitoes" className="text-brand-700 underline">do cedar trees attract mosquitoes?</Link></p>
@@ -146,6 +159,11 @@ export default function WhatFlowersAttractMosquitoesPage() {
         <RelatedLinks path="/blog/what-flowers-attract-mosquitoes" />
         <h2>Do water gardens attract mosquitoes?</h2>
         <p>Yes &mdash; a still, unmanaged water garden is one of the strongest mosquito magnets you can install. Female mosquitoes lay their eggs directly on the surface of calm water, and in the warm water of a summer pond, larvae can complete development in as little as a week. Floating plants make it worse: water lettuce and water hyacinth block surface circulation and give larvae a canopy to hide under, out of reach of any fish.</p>
+        <Photo
+          id="culex-egg-raft"
+          alt="Close-up of a Culex mosquito egg raft: dozens of tiny brown eggs packed upright side by side in an oval mass"
+          caption="A Culex egg raft laid by a female southern house mosquito (CDC photo). Female mosquitoes lay their eggs directly on the surface of calm water."
+        />
         <p>The good news is that a water garden is easy to convert from a breeder into a non-issue. You do not have to drain it. You have to make the water unwelcome to larvae:</p>
         <ul>
           <li><strong>Add movement.</strong> A pump, fountain, bubbler, or waterfall keeps the surface disturbed. Mosquitoes need still water to lay eggs; moving water almost never breeds them.</li>
@@ -156,6 +174,11 @@ export default function WhatFlowersAttractMosquitoesPage() {
 
         <h2>Does standing water in plants attract mosquitoes?</h2>
         <p>This is the single most important sentence in this article: <strong>it is not the plant that attracts mosquitoes, it is the water the plant holds.</strong> Mosquitoes need astonishingly little of it. A bromeliad&rsquo;s central cup, a potted-plant saucer, the fold of an elephant-ear leaf, a bird bath, or a low spot in a garden bed that stays wet after rain &mdash; each can produce dozens of biting adults from a volume you would not think twice about.</p>
+        <Photo
+          id="culex-larvae"
+          alt="Four southern house mosquito larvae of increasing size, each with a dark head, a bristly body and a breathing tube at the tail, against a pale blue background"
+          caption="Southern house mosquito larvae at the four stages of growth they pass through in water (CDC photo). A bottle-cap of standing water and 7 to 12 warm days are all a mosquito needs to go from egg to biting adult."
+        />
         <p>Public Health Ontario and the Public Health Agency of Canada (PHAC) both identify standing water in containers and plantings as a primary breeding source for <em>Culex</em> mosquitoes, the group responsible for spreading West Nile virus in the province. Their guidance is consistent and simple: eliminate or refresh standing water on a regular cycle so larvae never have time to mature. Because the egg-to-adult cycle runs about 7 to 12 days in Ontario summer temperatures, a <strong>refresh-or-empty cycle of every 3 to 5 days</strong> breaks the cycle reliably.</p>
 
         <div className="not-prose my-6 overflow-x-auto">

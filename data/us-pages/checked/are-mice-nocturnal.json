@@ -2,7 +2,7 @@
  "id": "are-mice-nocturnal",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "985fec24f8b8eb00aab640490dbd2452bf24c1ec795edd182bc772dc9084e1dd",
+ "sha": "86cf60ef9198dff189a779af57aa63cc9542e32a334cfd0cc09af5e4e9da4fd0",
  "claimsChecked": 62,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 5,
@@ -12,6 +12,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added in 'What noises do mice make at night, and where do you hear them?' after the timing paragraph, linking the new /blog/animals-in-attic; no fact changed.",
    "previousSha": "f376289d5d85f1b063d9618f582816551faca0a4d4ea538cdddc74a71e3a1568"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 5 real photos added as figure blocks: mouse-nest-desk-drawer (new to the ledger: NPS Conserve O Gram 3/12 Figure 9, public domain; lead), deer-mouse (USFWS, public domain), house-mouse (CC0), house-mouse-vs-young-rat (CDC PHIL, public domain) and mouse-droppings-wood (NPS, public domain); plus one sentence linking /tools/what-bug-is-this in the night-noises section. Captions restate the photo records and facts already on the page (UC IPM, Nebraska Extension, the Timm handbook chapter); media placeholders kept; no fact or date changed.",
+   "previousSha": "985fec24f8b8eb00aab640490dbd2452bf24c1ec795edd182bc772dc9084e1dd"
   }
  ]
 }

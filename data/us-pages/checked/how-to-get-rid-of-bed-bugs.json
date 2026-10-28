@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "41db48a1cd52a209b35433cc25647edb4b4c067582e16b90ef2253892f445950",
+ "sha": "85cd39df01547944f06b8d20c66516eed8fe653a03ca92e9d686ddc5a35e1242",
  "claimsChecked": 146,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 15,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026): 5 ledger photos added as figure blocks: bed-bugs-eggs-mattress-seam (public domain, Wikimedia Commons File:Bedbugs.jpg; lead and share image), bed-bug-adult-ruler (public domain, CDC PHIL 12704), bed-bug-fecal-spots-bed-frame (CC BY 2.0, NYS IPM Program at Cornell via Commons), bed-bug-cast-skin (CC BY-SA 3.0, Wikimedia Commons), bed-bugs-hotel-headboard (CC BY 2.0, NYS IPM Program at Cornell via Commons); plus one sentence linking the reader tool /tools/what-bug-is-this. Captions restate the ledger records and facts already on the page (EPA, University of Kentucky, Rutgers). No other text, dates, FAQs or sources changed.",
+   "previousSha": "41db48a1cd52a209b35433cc25647edb4b4c067582e16b90ef2253892f445950"
+  }
+ ]
 }

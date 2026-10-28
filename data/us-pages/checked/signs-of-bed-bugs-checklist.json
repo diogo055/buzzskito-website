@@ -2,7 +2,7 @@
  "id": "signs-of-bed-bugs-checklist",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0ca9c7832610638bf12387759075689c8efb93e2e8f553bf5166d60ae0277040",
+ "sha": "df5553b6a82a758e58c435aacc4fc14e3f9959dd10d676d5635de38bc3061d53",
  "claimsChecked": 106,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -17,6 +17,11 @@
    "on": "2026-10-21",
    "note": "link-in 2026-10-21: two sentences added: /blog/signs-of-carpet-beetles in '4. Live bugs' after the Confused with line, /blog/bed-bug-bites-but-no-bed-bugs in 'How many signs mean you have bed bugs?' (no new facts)",
    "previousSha": "6714bd8d9d35d7f69d1a6a2213ed5d53cc7b58e4b12da5d8406d657d6e0026d3"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 photo upgrade: 6 ledger figures added (bed-bugs-eggs-mattress-seam, public domain, lead; bed-bug-fecal-spots-bed-frame and bed-bug-fecal-stains-mattress, NYS IPM at Cornell, CC BY 2.0; bed-bug-cast-skin, CC BY-SA 3.0; bed-bug-adult-ruler, CDC PHIL public domain; bed-bug-bites-wrist-row, CC BY-SA 3.0) plus one sentence linking /tools/bug-bite-identifier. Captions restate EPA, CDC and University of Kentucky facts already on the page. All three media placeholders kept; no date moved.",
+   "previousSha": "0ca9c7832610638bf12387759075689c8efb93e2e8f553bf5166d60ae0277040"
   }
  ]
 }

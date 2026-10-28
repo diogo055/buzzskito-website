@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
@@ -75,6 +77,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('eastern-pondhawk'),
 })
 
 const AMZ_TAG = tagForSlug('what-eats-ticks-and-mosquitoes')
@@ -82,7 +85,7 @@ const AMZ_TAG = tagForSlug('what-eats-ticks-and-mosquitoes')
 export default function WhatEatsTicksAndMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'What eats mosquitoes and ticks, and how effective each predator really is for yard control.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'What eats mosquitoes and ticks, and how effective each predator really is for yard control.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('eastern-pondhawk') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Eats Ticks and Mosquitoes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -196,6 +199,11 @@ export default function WhatEatsTicksAndMosquitoesPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <h2>What Eats Mosquitoes?</h2>
           <p>Mosquitoes sit near the bottom of the food chain, so plenty of animals eat them — in both their aquatic larval stage and as flying adults. The problem is scale. A single female mosquito (the biters are always females) can lay 100 to 300 eggs at a time and produce several generations a summer. Predators simply cannot keep up with that math in a small yard, which is why &ldquo;nature will handle it&rdquo; rarely holds up on a real patio in July.</p>
+          <Photo
+            id="eastern-pondhawk"
+            alt="Green eastern pondhawk dragonfly resting with its clear wings spread flat on wood chips"
+            caption="An eastern pondhawk dragonfly resting on wood chips at a national wildlife refuge in Missouri. Dragonflies head the list below: the adults catch mosquitoes in flight, and their nymphs eat mosquito larvae underwater."
+          />
           <p>Here are the mosquito eaters that matter most, from most useful to most overhyped:</p>
           <ul>
             <li><strong>Dragonflies and damselflies</strong> — the genuine champions. Their aquatic nymphs devour mosquito larvae underwater, and the adults hawk mosquitoes out of the air (an adult dragonfly is nicknamed the &ldquo;mosquito hawk&rdquo; for good reason). You cannot buy or release them, but a clean pond or rain garden attracts them.</li>
@@ -205,11 +213,26 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>Bats</strong> — often marketed as a mosquito solution, but wild-diet studies consistently show mosquitoes are only a small fraction of what bats eat. They prefer bigger, higher-calorie moths and beetles. Bats are wonderful to support; just do not expect a bat house to clear your yard.</li>
             <li><strong>Purple martins and swallows</strong> — the same story. Purple martins are famous for &ldquo;eating 2,000 mosquitoes a day,&rdquo; a claim traced back to a misused study. Research on their actual diet finds mosquitoes are a tiny part of it.</li>
           </ul>
+          <Photo
+            id="dragonfly-nymph"
+            alt="Green dragonfly nymph with large eyes, six thin legs and small wing pads, seen from above on a white background"
+            caption="A dragonfly nymph, the aquatic larva, photographed by the US Fish and Wildlife Service at a fish hatchery in South Dakota. Nymphs like this one devour mosquito larvae underwater."
+          />
           <p>Worth flagging one case of mistaken identity, because the nickname causes it: the long-legged insect most Ontarians see bouncing off a porch light is a crane fly, not a dragonfly, and it eats no mosquitoes at any life stage. <Link href="/blog/mosquito-hawk-explained">Our mosquito hawk explainer</Link> untangles which insect the name actually refers to.</p>
+          <Photo
+            id="crane-fly"
+            alt="Crane fly with a slender dark body and very long thin legs resting against a gray textured wall"
+            caption="A crane fly (genus Tipula), which its photographer identifies as the giant crane fly. This is the long-legged insect seen bouncing off porch lights, and it eats no mosquitoes at any life stage."
+          />
 
           <NextUp path="/blog/what-eats-ticks-and-mosquitoes" />
           <h2>What Eats Ticks?</h2>
           <p>Ticks have fewer natural enemies than mosquitoes, partly because they spend most of their lives hidden in leaf litter and grass rather than flying around. The animals that do eat them tend to be ground foragers and grooming mammals.</p>
+          <Photo
+            id="virginia-opossum"
+            alt="Virginia opossum with gray fur, a white face and a pink nose walking through dry grass in daylight"
+            caption="A Virginia opossum out in daylight. Opossums groom off and eat some ticks, but a 2021 study found essentially no ticks in wild opossum stomachs."
+          />
           <ul>
             <li><strong>Guinea fowl</strong> — the most effective tick predator you can actually keep. A flock patrols lawns and field edges eating ticks and insects, and many rural owners swear by them. The trade-offs are real: they are extremely loud, they wander, they need acreage plus predator-proof housing, and they only clear ticks where they choose to walk — not the damp shaded borders ticks love most.</li>
             <li><strong>Chickens and ducks</strong> — eat ticks and, near water, mosquito larvae and pupae. Helpful in the areas they forage, but you would not want them foraging on your entertaining patio.</li>
@@ -237,6 +260,11 @@ export default function WhatEatsTicksAndMosquitoesPage() {
             <li><strong>The most-hyped predators eat the fewest bugs.</strong> Bats and purple martins — the two animals most often sold as mosquito control — are exactly the ones the science shows eat very few mosquitoes.</li>
             <li><strong>Coverage is spotty.</strong> Guinea fowl skip the shaded borders, fish only work in standing water, and opossums patrol wherever they please, not where you sit.</li>
           </ol>
+          <Photo
+            id="big-brown-bat"
+            alt="Big brown bat with reddish-brown fur hanging head-down against a white-painted wooden wall"
+            caption="A big brown bat clinging to a white-painted wooden surface in Minnesota. Bats are often sold as mosquito control, but they prefer bigger moths and beetles, so mosquitoes are only a small share of their diet."
+          />
           <p>Encouraging predators is still worthwhile — it is good for biodiversity and it trims the baseline. But treat it as one layer, not the whole plan.</p>
 
           <h2>What Actually Works: A Layered Plan</h2>

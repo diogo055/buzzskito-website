@@ -7,6 +7,8 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import Figure from '@/components/Figure'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -60,6 +62,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('deer-fly'),
 })
 
 const AMZ_TAG = tagForSlug('deer-flies-horse-flies-ontario')
@@ -67,7 +70,7 @@ const AMZ_TAG = tagForSlug('deer-flies-horse-flies-ontario')
 export default function DeerFliesHorseFliesOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to identify, treat, and control deer flies and horse flies in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to identify, treat, and control deer flies and horse flies in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('deer-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Deer Flies vs Horse Flies', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -177,13 +180,33 @@ export default function DeerFliesHorseFliesOntarioPage() {
           />
           <p>If a fast, tenacious fly has ever ruined a lakeside hike or a canoe portage, it was almost certainly a deer fly or a horse fly. Both belong to the family <strong>Tabanidae</strong> — the group entomologists literally call &ldquo;horse flies and deer flies.&rdquo; They share the same basic biology: only the females bite, because they need a protein-rich blood meal to develop their eggs. The males are harmless flower visitors, feeding on nectar and pollen and never touching you.</p>
           <p>The quickest way to tell them apart is <strong>size and eyes</strong>. A deer fly is roughly the size of a housefly, has clear wings crossed by dark bands or smudges, and carries dazzling green-and-gold patterned eyes. A horse fly is a heavyweight — up to three centimetres — with a thick body, mostly clear wings, and huge solid dark eyes. Deer flies circle your head; horse flies tend to plant themselves on your back or legs and bite before you notice.</p>
+          <Photo
+            id="deer-fly"
+            alt="Female deer fly from above: a yellow-and-black striped body, green and gold patterned eyes and clear wings crossed by dark brown bands"
+            caption="A female deer fly, Chrysops lateralis, collected beside a pond in Massachusetts where it had been feeding on people and dogs (CDC photo). Look for the dark bands across clear wings and the patterned eyes."
+          />
+          <Photo
+            id="horse-fly"
+            alt="Female horse fly from above: a large, stout, dark grey fly with big dark eyes and clear, smoky wings without bands"
+            caption="A female horse fly, Tabanus stygius, collected at the same Massachusetts pond (CDC photo). CDC calls this species a very large, dark fly; note the big, solid dark eyes and the wings without bold bands."
+          />
 
           <NextUp path="/blog/deer-flies-horse-flies-ontario" />
           <h2>Why the Bite Hurts So Much</h2>
           <p>A mosquito is a delicate surgeon — it slides a thin stylet into your skin so gently you often do not feel it. Tabanids are the opposite. The female&rsquo;s mouthparts work like tiny <strong>scissors and a sponge</strong>: she slices the skin open, then laps up the blood that pools in the wound. That cutting action is exactly why a deer fly or horse fly bite delivers a sharp, immediate sting, frequently bleeds, and leaves a raised, itchy welt that can last for days.</p>
+          <Photo
+            id="deer-fly-on-fingertip"
+            alt="Small deer fly with dark-banded wings and green eyes resting on a person's fingertip, with fern fronds blurred behind it"
+            caption="A deer fly, Chrysops excitans, on a fingertip in Garden River, Ontario, for size: roughly as big as a housefly."
+          />
           <p>The good news for Ontarians is that these flies are <strong>not major disease carriers here</strong> the way mosquitoes (West Nile) and blacklegged ticks (Lyme) are. Horse flies can mechanically move some livestock pathogens, and North America records rare cases of tularemia spread by deer flies, but for the average person the real cost is the pain of the bite and the occasional infection or allergic reaction from scratching it.</p>
 
           <h2>Why Deer Flies Dive-Bomb Your Head</h2>
+          <Photo
+            id="deer-fly-eyes-closeup"
+            alt="Side view of a deer fly on a fingertip, its large eyes patterned in yellow-green with dark purple zigzag markings"
+            caption="A female deer fly, Chrysops aestuans, on a fingertip in Ottawa, showing the patterned eyes that set deer flies apart from horse flies."
+          />
           <p>The maddening head-circling behaviour is not random. Deer flies home in on the <strong>tallest, warmest, darkest, moving</strong> part of a target — and when you are walking, that is your head. They track the carbon dioxide in your breath, your body heat, your motion, and dark colours, then orbit the crown of your body waiting for a chance to land. This is precisely why a sticky patch worn on top of a hat works: the flies commit to the highest point and stick fast. It is also why runners and hikers on humid trails get swarmed while people sitting still in the shade are bothered less.</p>
 
           <aside aria-label="Deer fly traps" className="not-prose my-8 rounded-2xl border-2 border-amber-300 bg-gradient-to-br from-amber-50 to-white p-6 sm:p-7 shadow-sm">
@@ -209,6 +232,7 @@ export default function DeerFliesHorseFliesOntarioPage() {
           </ol>
           <p>Most bites settle within a few days. Because the wound is a genuine cut rather than a pinprick, keeping it clean matters more than it does with a mosquito bite.</p>
           <p>If the bite itself is what brought you here, our companion piece on <Link href="/blog/horse-fly-and-deer-fly-bite-treatment">how to treat a horse fly or deer fly bite</Link> goes further &mdash; a remedy-by-remedy relief table, the two-to-four-day itch window, and the specific signs that mean infection rather than normal healing.</p>
+          <p>Not sure a deer fly or horse fly was behind the bite? Our <Link href="/tools/bug-bite-identifier">bug bite identifier</Link> asks six quick questions and compares your answers with 11 common biters, horse flies and deer flies among them.</p>
 
           <h2>Yard and Personal Control That Actually Helps</h2>
           <p>No single tactic clears biting flies, but stacking several makes a real difference around an Ontario home:</p>

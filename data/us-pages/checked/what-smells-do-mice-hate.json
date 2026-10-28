@@ -2,9 +2,16 @@
  "id": "what-smells-do-mice-hate",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "222136a0d600602e9266aeb19e7eae7a08891622a32a478df96f927f578832e3",
+ "sha": "12f1f38834158418e7da1da28d1e726cc49383cf927ee903f69455a3e7e374da",
  "claimsChecked": 60,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026): 4 ledger photos added as figure blocks: house-mouse (CC0, iNaturalist obs 261877585; lead and share image), house-mouse-on-stove (CC BY 4.0, iNaturalist obs 300314476), mouse-droppings-wood (public domain, NPS Conserve O Gram 3/12), house-mouse-live-trap (CC0, Wikimedia Commons). Captions restate the ledger records and facts already on the page (UC IPM). No other text, dates, FAQs or sources changed.",
+   "previousSha": "222136a0d600602e9266aeb19e7eae7a08891622a32a478df96f927f578832e3"
+  }
+ ]
 }

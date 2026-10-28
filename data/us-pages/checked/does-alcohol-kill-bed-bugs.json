@@ -2,9 +2,16 @@
  "id": "does-alcohol-kill-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "173769df2b7eb6c74d3ecf3eeb732af0de2edc3cd3238401e0bc3b4ce13d6280",
+ "sha": "7bb9aa498046e3fc249c09af99e6de56bda50b9e5e2a8a4cd4bf3d59a0a3546a",
  "claimsChecked": 58,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 8,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026): 4 ledger photos added as figure blocks: bed-bug-on-skin-cdc (public domain, CDC PHIL 6283; lead and share image), bed-bug-fecal-stains-mattress (CC BY 2.0, NYS IPM Program at Cornell via Commons; captioned as a large infestation), bed-bug-signs (CC BY 4.0, iNaturalist obs 9978781), bed-bug-nymph (CC0, iNaturalist obs 325824918). Captions restate the ledger records and facts already on the page (University of Kentucky). No other text, dates, FAQs or sources changed.",
+   "previousSha": "173769df2b7eb6c74d3ecf3eeb732af0de2edc3cd3238401e0bc3b4ce13d6280"
+  }
+ ]
 }
