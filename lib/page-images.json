@@ -1,4 +1,11 @@
 {
+ "/blog/alaska-mosquitoes": [
+  "/guides/photos/aedes-excrucians-alaska.webp",
+  "/guides/photos/mosquito-swarm-alaska-tundra.webp",
+  "/guides/photos/mosquitoes-on-trousers-north-slope.webp",
+  "/guides/photos/snow-mosquito-closeup.webp",
+  "/guides/photos/snow-mosquito-fingers.webp"
+ ],
  "/blog/animal-droppings": [
   "/guides/photos/anole-droppings-fence.webp",
   "/guides/photos/bat-droppings-bat-box-ruler.webp",
@@ -29,6 +36,20 @@
   "/guides/photos/roof-rat-rafters.webp",
   "/guides/photos/roof-rat.webp",
   "/guides/photos/virginia-opossum.webp"
+ ],
+ "/blog/are-mice-nocturnal": [
+  "/guides/photos/deer-mouse.webp",
+  "/guides/photos/house-mouse-vs-young-rat.webp",
+  "/guides/photos/house-mouse.webp",
+  "/guides/photos/mouse-droppings-wood.webp",
+  "/guides/photos/mouse-nest-desk-drawer.webp"
+ ],
+ "/blog/are-ticks-arachnids-or-insects": [
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/blacklegged-tick-life-stages.webp",
+  "/guides/photos/engorged-blacklegged-tick.webp",
+  "/guides/photos/grass-spider.webp",
+  "/guides/photos/lone-star-tick-female.webp"
  ],
  "/blog/asian-lady-beetles": [
   "/guides/photos/asian-lady-beetle-aggregation.webp",
@@ -268,10 +289,24 @@
   "/guides/photos/texas-brown-tarantula.webp",
   "/guides/photos/wolf-spider-eyes.webp"
  ],
+ "/blog/can-cockroaches-fly": [
+  "/guides/photos/american-cockroach.webp",
+  "/guides/photos/asian-cockroach-on-leaf.webp",
+  "/guides/photos/brown-banded-cockroach-male-female.webp",
+  "/guides/photos/oriental-cockroach-garage-floor.webp",
+  "/guides/photos/smokybrown-cockroach.webp",
+  "/guides/photos/wood-cockroach-male.webp"
+ ],
  "/blog/can-mice-climb-walls": [
   "/guides/photos/deer-mouse.webp",
   "/guides/photos/house-mouse-on-stove.webp",
   "/guides/photos/roof-rat-rafters.webp"
+ ],
+ "/blog/can-mosquitoes-bite-through-clothes": [
+  "/guides/photos/culex-tarsalis-female.webp",
+  "/guides/photos/gallinipper-biting-through-pants.webp",
+  "/guides/photos/mosquito-on-jeans.webp",
+  "/guides/photos/mosquito-on-vest.webp"
  ],
  "/blog/can-ticks-fly-jump-swim": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp"
@@ -342,7 +377,11 @@
   "/guides/photos/harvestman.webp"
  ],
  "/blog/deer-flies-horse-flies-ontario": [
-  "/diagrams/horse-fly-vs-deer-fly.svg"
+  "/diagrams/horse-fly-vs-deer-fly.svg",
+  "/guides/photos/deer-fly-eyes-closeup.webp",
+  "/guides/photos/deer-fly-on-fingertip.webp",
+  "/guides/photos/deer-fly.webp",
+  "/guides/photos/horse-fly.webp"
  ],
  "/blog/deer-poop": [
   "/guides/photos/cottontail-droppings.webp",
@@ -371,6 +410,33 @@
  ],
  "/blog/do-carpenter-ants-bite": [
   "/guides/photos/carpenter-ant-on-fingers.webp"
+ ],
+ "/blog/do-cockroaches-bite": [
+  "/guides/photos/american-cockroach.webp",
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/bed-bug-bites-back.webp",
+  "/guides/photos/cockroach-damaged-book.webp",
+  "/guides/photos/german-cockroach-nymphs.webp",
+  "/guides/photos/german-cockroach.webp"
+ ],
+ "/blog/do-mothballs-keep-mice-away": [
+  "/guides/photos/clothes-moth-eggs-wool.webp",
+  "/guides/photos/house-mouse-vs-young-rat.webp",
+  "/guides/photos/mothballs.webp",
+  "/guides/photos/mouse-droppings-ruler.webp",
+  "/guides/photos/webbing-clothes-moth.webp"
+ ],
+ "/blog/do-tiki-torches-repel-mosquitoes": [
+  "/guides/photos/aedes-aegypti-female-and-male.webp",
+  "/guides/photos/aedes-albopictus-biting.webp",
+  "/guides/photos/culex-larvae.webp",
+  "/guides/photos/mosquito-bites-forearm.webp"
+ ],
+ "/blog/does-alcohol-kill-bed-bugs": [
+  "/guides/photos/bed-bug-fecal-stains-mattress.webp",
+  "/guides/photos/bed-bug-nymph.webp",
+  "/guides/photos/bed-bug-on-skin-cdc.webp",
+  "/guides/photos/bed-bug-signs.webp"
  ],
  "/blog/fall-mouse-proofing-checklist": [
   "/guides/bz-guide-03-mouse-proofing.webp"
@@ -486,10 +552,24 @@
   "/guides/photos/brown-dog-tick-male.webp",
   "/guides/photos/tick-unfed-vs-engorged.webp"
  ],
+ "/blog/how-many-ants-are-in-the-world": [
+  "/guides/photos/argentine-ants-bait-trap.webp",
+  "/guides/photos/carpenter-ant-on-fingers.webp",
+  "/guides/photos/carpenter-ant-winged-queen.webp",
+  "/guides/photos/fire-ant-mound.webp",
+  "/guides/photos/thatching-ant-mound.webp"
+ ],
  "/blog/how-many-times-can-a-mosquito-bite-you": [
   "/diagrams/mosquito-bite-mechanism.svg",
   "/guides/photos/aedes-aegypti-female-and-male.webp",
   "/guides/photos/mosquito-bites-forearm.webp"
+ ],
+ "/blog/how-to-get-rid-of-bed-bugs": [
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/bed-bug-cast-skin.webp",
+  "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/bed-bugs-hotel-headboard.webp"
  ],
  "/blog/how-to-get-rid-of-boxelder-bugs-canada": [
   "/guides/photos/boxelder-bug.webp",
@@ -758,6 +838,12 @@
   "/guides/photos/biting-midge-on-skin.webp",
   "/guides/photos/mosquito-bite-welts.webp"
  ],
+ "/blog/no-see-ums-biting-midges-ontario": [
+  "/guides/photos/biting-midge-bites-ankles.webp",
+  "/guides/photos/biting-midge-culicoides.webp",
+  "/guides/photos/biting-midge-on-skin.webp",
+  "/guides/photos/black-fly.webp"
+ ],
  "/blog/orb-weaver-spiders": [
   "/guides/photos/bold-jumping-spider.webp",
   "/guides/photos/common-house-spider.webp",
@@ -902,7 +988,13 @@
   "/guides/photos/shrew-yard-lawn.webp"
  ],
  "/blog/signs-of-bed-bugs-checklist": [
-  "/guides/bz-guide-02-bedbug-signs.webp"
+  "/guides/bz-guide-02-bedbug-signs.webp",
+  "/guides/photos/bed-bug-adult-ruler.webp",
+  "/guides/photos/bed-bug-bites-wrist-row.webp",
+  "/guides/photos/bed-bug-cast-skin.webp",
+  "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+  "/guides/photos/bed-bug-fecal-stains-mattress.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp"
  ],
  "/blog/signs-of-carpet-beetles": [
   "/guides/photos/bed-bug-adult-ruler.webp",
@@ -932,6 +1024,13 @@
   "/guides/photos/mouse-droppings-wood.webp",
   "/guides/photos/oriental-cockroach-garage-floor.webp",
   "/guides/photos/white-american-cockroach-shed-skin.webp"
+ ],
+ "/blog/smells-mosquitoes-hate": [
+  "/guides/photos/culex-pipiens.webp",
+  "/guides/photos/lavender-flowers.webp",
+  "/guides/photos/lemon-eucalyptus-leaves.webp",
+  "/guides/photos/lemongrass-plant.webp",
+  "/guides/photos/peppermint-flowering.webp"
  ],
  "/blog/spider-egg-sacs": [
   "/guides/photos/brown-widow-egg-sacs.webp",
@@ -1363,6 +1462,13 @@
   "/guides/photos/lone-star-tick-female.webp",
   "/guides/photos/rocky-mountain-wood-tick-female.webp"
  ],
+ "/blog/ultrasonic-pest-repellers-do-they-work": [
+  "/guides/photos/house-cricket.webp",
+  "/guides/photos/house-mouse-on-stove.webp",
+  "/guides/photos/house-mouse-vs-young-rat.webp",
+  "/guides/photos/house-mouse.webp",
+  "/guides/photos/mouse-droppings-wood.webp"
+ ],
  "/blog/venomous-spiders": [
   "/guides/photos/black-widow.webp",
   "/guides/photos/brown-recluse.webp",
@@ -1400,6 +1506,12 @@
   "/guides/photos/sawtoothed-grain-beetle.webp",
   "/guides/photos/spider-beetle.webp"
  ],
+ "/blog/what-blood-type-do-mosquitoes-bite": [
+  "/guides/photos/aedes-aegypti-female.webp",
+  "/guides/photos/aedes-albopictus-biting-leg.webp",
+  "/guides/photos/culex-pipiens.webp",
+  "/guides/photos/mosquito-bites-forearm.webp"
+ ],
  "/blog/what-colors-attract-mosquitoes": [
   "/guides/photos/aedes-aegypti-female.webp"
  ],
@@ -1431,6 +1543,13 @@
   "/guides/photos/cat-flea.webp",
   "/guides/photos/flea-dirt.webp",
   "/guides/photos/oriental-rat-flea.webp"
+ ],
+ "/blog/what-do-mice-eat": [
+  "/guides/photos/house-mouse-bird-feeder-tray.webp",
+  "/guides/photos/house-mouse-on-stove.webp",
+  "/guides/photos/mouse-droppings-ruler.webp",
+  "/guides/photos/mouse-gnawed-chair-seat.webp",
+  "/guides/photos/north-american-deer-mouse.webp"
  ],
  "/blog/what-do-termites-look-like": [
   "/guides/photos/carpenter-ant-frass.webp",
@@ -1473,9 +1592,28 @@
   "/guides/photos/brown-dog-ticks-dog-ear.webp",
   "/guides/photos/tick-on-cat.webp"
  ],
+ "/blog/what-eats-ticks-and-mosquitoes": [
+  "/guides/photos/big-brown-bat.webp",
+  "/guides/photos/crane-fly.webp",
+  "/guides/photos/dragonfly-nymph.webp",
+  "/guides/photos/eastern-pondhawk.webp",
+  "/guides/photos/virginia-opossum.webp"
+ ],
+ "/blog/what-flowers-attract-mosquitoes": [
+  "/guides/photos/aedes-albopictus-goldenrod.webp",
+  "/guides/photos/culex-egg-raft.webp",
+  "/guides/photos/culex-larvae.webp",
+  "/guides/photos/culex-quinquefasciatus-male.webp"
+ ],
  "/blog/what-kills-bed-bugs-instantly-canada": [
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/bed-bug-nymph.webp"
+ ],
+ "/blog/what-smells-do-mice-hate": [
+  "/guides/photos/house-mouse-live-trap.webp",
+  "/guides/photos/house-mouse-on-stove.webp",
+  "/guides/photos/house-mouse.webp",
+  "/guides/photos/mouse-droppings-wood.webp"
  ],
  "/blog/what-temperature-kills-mosquitoes": [
   "/diagrams/mosquito-temperature-scale-fahrenheit.svg",
@@ -1528,7 +1666,18 @@
   "/guides/photos/skeeter-syndrome-leg.webp"
  ],
  "/blog/why-do-mosquitoes-bite-my-ankles": [
-  "/diagrams/mosquito-bite-mechanism.svg"
+  "/diagrams/mosquito-bite-mechanism.svg",
+  "/guides/photos/aedes-albopictus-biting-lower-leg.webp",
+  "/guides/photos/biting-midge-bites-ankles.webp",
+  "/guides/photos/flea-bites-ankles-cdc.webp",
+  "/guides/photos/mosquito-bites-ankle.webp"
+ ],
+ "/blog/why-do-mosquitoes-exist": [
+  "/guides/photos/aedes-albopictus-blood-fed.webp",
+  "/guides/photos/anopheles-gambiae-feeding.webp",
+  "/guides/photos/anopheles-larvae.webp",
+  "/guides/photos/biting-midge-culicoides.webp",
+  "/guides/photos/culex-quinquefasciatus-male.webp"
  ],
  "/blog/wolf-spiders": [
   "/guides/photos/carolina-wolf-spider.webp",
@@ -1582,7 +1731,13 @@
   "/guides/bz-guide-05-pet-safe.webp"
  ],
  "/learn/tick-identification-chart": [
-  "/guides/bz-guide-04-tick-chart.webp"
+  "/guides/bz-guide-04-tick-chart.webp",
+  "/guides/photos/american-dog-tick-female.webp",
+  "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
+  "/guides/photos/blacklegged-tick-female.webp",
+  "/guides/photos/lone-star-tick-female.webp",
+  "/guides/photos/lone-star-tick-male.webp",
+  "/guides/photos/tick-unfed-vs-engorged.webp"
  ],
  "/learn/ticks-by-province": [
   "/guides/photos/american-dog-tick-female.webp",
