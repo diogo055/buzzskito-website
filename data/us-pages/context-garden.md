@@ -18,7 +18,7 @@
 
 - `/blog/japanese-beetles` — **japanese beetle** (also: japanese beetle traps; japanese beetle grub; japanese beetle vs june bug). Popillia japonica in the US and Canada (including the Vancouver and Ontario situations): identification, skeletonized leaves, why traps can attract more beetles, hand-picking, and the grub stage.
 
-- `/blog/spider-mites` — **spider mites** (also: spider mites on plants; spider mites on houseplants; spider mites treatment). Two-spotted spider mites on houseplants, tomatoes and roses: the paper tap test, hot dry weather outbreaks, water sprays, insecticidal soap and oils, and predatory mites.
+- `/blog/spider-mites` — **spider mites** (also: spider mites on plants; what do spider mites look like; how to get rid of spider mites; spider mite webbing; spider mite damage; spider mites treatment; two spotted spider mite). The two-spotted spider mite and its relatives on houseplants, tomatoes, roses, beans, evergreens and other plants, indoors and out: what spider mites look like (tiny eight-legged specks, often with two dark spots; sizes only from UC IPM or a university), the signs (pale stippling or speckling on leaves, yellowing and bronzing, fine webbing over leaves and stems), the white-paper tap test (as UC IPM or an extension service describes it), why outbreaks follow hot, dry, dusty conditions and broad-spectrum insecticide sprays that kill their predators (UC IPM), houseplants in dry indoor heat in winter (the winter angle, only as a source says), what to do (isolate the plant, rinse the leaves with water, insecticidal soap or horticultural oil used as the label says with the plant-safety and pollinator cautions UC IPM gives, predatory mites; no miticide advice beyond a source; no product claims), and spider mites vs look-alikes (clover mites on walls, aphids, thrips and the other tiny red bugs people find). Quick-ID facts table under the quick answer. Links: /blog/houseplant-bugs (mustLink; it keeps "spider mites on houseplants" and the houseplant sorter), /learn/natural-garden-pest-control (parent, mustLink), /learn/aphid-control-guide, /learn/whitefly-identification-control. Not linked: the frozen /blog/red-ticks-and-clover-mites (until after Oct 30); amazon.ca product pages. Keep the page general (houseplants and garden plants); do not target grow-room searches. No quote prompt.
 
 - `/blog/mole-crickets` — **mole crickets** (also: mole cricket damage; mole cricket holes; mole cricket sound). Tawny, southern and short-winged mole crickets in the Southeast: the soap flush test, tunnelling damage, the June-July nymph treatment window, and biological control.
 
@@ -445,6 +445,11 @@
 - `/blog/how-long-do-rats-live` — how long do rats live
 - `/blog/deer-poop` — deer poop
 - `/blog/voles` — vole
+- `/blog/lice-eggs` — lice eggs
+- `/blog/dust-mites` — dust mites
+- `/blog/stick-bugs` — stick bug
+- `/blog/rabbit-poop` — rabbit poop
+- `/blog/fleas-on-humans` — fleas on humans
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

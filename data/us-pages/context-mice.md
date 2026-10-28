@@ -466,6 +466,11 @@
 - `/blog/jerusalem-crickets` — jerusalem cricket
 - `/blog/possum-vs-opossum` — possum vs opossum
 - `/blog/deer-poop` — deer poop
+- `/blog/lice-eggs` — lice eggs
+- `/blog/dust-mites` — dust mites
+- `/blog/stick-bugs` — stick bug
+- `/blog/rabbit-poop` — rabbit poop
+- `/blog/fleas-on-humans` — fleas on humans
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

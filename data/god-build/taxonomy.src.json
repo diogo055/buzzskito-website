@@ -5937,10 +5937,13 @@
    "alsoTargets": [
     "black widow bite symptoms",
     "black widow bite pictures",
-    "black widow bite treatment"
+    "black widow bite treatment",
+    "what does a black widow bite look like",
+    "black widow bite timeline",
+    "are black widow bites deadly"
    ],
    "demand": {
-    "summary": "Search Console, 90 days to 2026-10-12: 22 impressions (18 US) across 14 queries, average position 4.2; Google autocomplete returns 10 suggestions for \"black widow bite\" (demand exists; volume unsized)",
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 7 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"black widow bite\" about 52,800 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.6 (Nov-Jan average over the 12-month average); saved Ahrefs family 63,350 (data/god-build/research/top100-2026-10-26.json). Page one (WebSearch screen, Oct 26; unreliable, re-check at build): WikEM, NIH NCBI (StatPearls), a Substack post, University of Michigan Health and PeaceHealth; Columbia and UF Health next: YMYL, page one possible, top 3 unlikely. Search Console, 90 days to 2026-10-26 (query contains \"widow\"): about 25 impressions of black widow bite questions, all on the frozen /blog/what-does-a-spider-bite-look-like at positions 1-23 (\"what does a black widow spider bite look like after 24 hours\" 6 at 2.5). Earlier evidence (Oct 14): Search Console, 90 days to 2026-10-12: 22 impressions (18 US) across 14 queries, average position 4.2; Google autocomplete returns 10 suggestions for \"black widow bite\" (demand exists; volume unsized)",
     "searchConsole": {
      "impressions90d": 22,
      "usImpressions90d": 18,
@@ -5994,13 +5997,118 @@
      ],
      "count": 10
     },
-    "ahrefsUS": null
+    "ahrefsUS": null,
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 7,
+     "day": 1,
+     "query": "black widow bite",
+     "type": "Bites & stings",
+     "trendsTerm": "black widow bite",
+     "usSearchesMonthly": 52800,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.6,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": null,
+     "top5": [
+      {
+       "domain": "wikem.org",
+       "tier": "B"
+      },
+      {
+       "domain": "ncbi.nlm.nih.gov",
+       "tier": "A"
+      },
+      {
+       "domain": "moderndiscontent.substack.com",
+       "tier": "C"
+      },
+      {
+       "domain": "uofmhealth.org",
+       "tier": "A"
+      },
+      {
+       "domain": "peacehealth.org",
+       "tier": "B"
+      }
+     ],
+     "takes": "YMYL, owned by NIH + university health systems: page one possible with bite photos + symptom timeline + ER signs, top 3 unlikely",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. Medical -1 applied. 2 spam pages skipped; the +1 comes from a Substack post at #3. Columbia and UF Health (both A) follow.",
+     "statusBefore": "planned 2026-12-14"
+    },
+    "searchConsoleOct26": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'widow', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "impressions90d": 25,
+     "topQueries": [
+      {
+       "query": "what does a black widow spider bite look like after 24 hours",
+       "impressions": 6,
+       "position": 2.5,
+       "page": "/blog/what-does-a-spider-bite-look-like"
+      },
+      {
+       "query": "black widow spider bite symptoms",
+       "impressions": 2,
+       "position": 3,
+       "page": "/blog/what-does-a-spider-bite-look-like"
+      },
+      {
+       "query": "how long does a black widow bite last",
+       "impressions": 2,
+       "position": 3,
+       "page": "/blog/what-does-a-spider-bite-look-like"
+      },
+      {
+       "query": "what does a black widow bite look like",
+       "impressions": 2,
+       "position": 3,
+       "page": "/blog/what-does-a-spider-bite-look-like"
+      }
+     ],
+     "note": "Small numbers at good positions on a general spider-bite page, which is frozen to Oct 30."
+    }
    },
    "collisions": [
     {
      "path": "/blog/what-does-a-spider-bite-look-like",
-     "overlap": "section",
-     "resolution": "trim + link"
+     "overlap": "Canadian TSX article with a black widow section; gets the black widow bite questions (about 25 impressions in 90 days at 1-23)",
+     "resolution": "frozen until after the Oct 29-30 read (gsc-review-2026-10-18.md, Appendix C): neither edited nor linked at release; after the read its black widow section can be trimmed to a summary plus a link here (the Oct 14 \"trim + link\"), the owner's call"
+    },
+    {
+     "path": "/blog/mosquito-bite-vs-spider-bite",
+     "overlap": "Canadian TSX comparison",
+     "resolution": "frozen to Oct 30: not linked"
+    },
+    {
+     "path": "/blog/brown-recluse-bite",
+     "overlap": "live sibling (same template, the other medically important US spider)",
+     "resolution": "no shared target; link both ways"
+    },
+    {
+     "path": "/blog/venomous-spiders",
+     "overlap": "live; h2 \"What should you do if a widow or recluse bites you?\"",
+     "resolution": "keeps the short version; it already links here"
+    },
+    {
+     "path": "/learn/bug-bites",
+     "overlap": "live bites hub; \"Could it be a spider bite?\" and a spider row in its table",
+     "resolution": "keeps the sorter; it already links here; this page links it back (mustLink)"
+    },
+    {
+     "path": "/blog/black-widow-spiders (same day)",
+     "overlap": "the spider itself",
+     "resolution": "identification there, the bite here; link both ways (mustLink)"
+    },
+    {
+     "path": "spider-bites (planned 2026-12-07)",
+     "overlap": "Ontario and Canada spider bites (\"spider bites ontario\")",
+     "resolution": "no shared target"
+    },
+    {
+     "path": "/blog/black-spiders and /blog/spiders-in-florida",
+     "overlap": "live; mention widow bites and already link here",
+     "resolution": "no change"
     }
    ],
    "resolution": "new page",
@@ -6012,16 +6120,18 @@
     "name": "Spiders"
    },
    "mustLink": [
-    "/learn/spiders"
+    "/learn/spiders",
+    "/learn/bug-bites",
+    "/blog/black-widow-spiders"
    ],
-   "scope": "Latrodectism: the small bite mark, cramping and sweating hours later, who is at higher risk, emergency care and antivenom basics, pets.",
+   "scope": "Latrodectism for the reader who thinks a black widow bit them: what the bite looks like (often a pinprick with slight redness and swelling, sometimes two tiny marks: MedlinePlus), the symptom timeline as a table (pain spreading from the bite within about an hour, then muscle cramps and stiffness in the belly, back or chest, sweating, nausea, headache, raised blood pressure, usually easing over a few days: times and symptoms only as MedlinePlus or NIH's NCBI Bookshelf (StatPearls) give them), who is at higher risk (young children, older adults, people with heart disease, pregnancy: only as those sources say), what to do right away (MedlinePlus first aid: wash with soap and water, a cool cloth or wrapped ice, keep the bitten limb still, get care; Poison Help 1-800-222-1222 as MedlinePlus gives it), a \"when to get medical care\" warning callout (any suspected black widow bite in a child, pregnancy, trouble breathing, severe pain or cramping, chest pain: call 911 or go to the emergency department, as the sources say), what doctors may do (pain medicine, muscle relaxants, antivenom in some cases: only as MedlinePlus or StatPearls describe; no doses and no home remedies), how rare deaths are (only a sourced statement), pets in one line from a veterinary school or AVMA source only, and how to avoid bites (gloves for woodpiles and stored items, shake out shoes and gloves left outdoors: CDC NIOSH). Links: /blog/black-widow-spiders (same day, mustLink) for identification, /blog/brown-recluse-bite (sibling), /learn/bug-bites (mustLink), /tools/bug-bite-identifier. Health claims only from CDC, NIH/MedlinePlus (and NIH's NCBI Bookshelf), AAD or medical schools; no treatment advice beyond what they say. Not linked: the frozen /blog/what-does-a-spider-bite-look-like and /blog/mosquito-bite-vs-spider-bite. No quote prompt and no product that treats the bite.",
    "flags": [
     "health"
    ],
    "minWords": 1300,
-   "photos": "being-sourced (bites)",
+   "photos": "in hand: lead black-widow (public domain: the spider with its red hourglass; shareable), northern-black-widow (CC0), western-black-widow (CC BY 4.0). Needed: a black widow bite photo under an allowed licence (CDC PHIL first, then Wikimedia Commons); none is on record. If none turns up, say plainly that no bite photo is shown (the bite is often hard to see) and lead with the spider and the symptom timeline table.",
    "dataAssets": null,
-   "notes": null,
+   "notes": "Brought forward 2026-10-28 from 2026-12-14 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 7: Trends about 52,800 searches a month, winter factor 0.6; YMYL, page one owned by NIH and university health systems: aim for page one, not the top 3). Medical topic: health claims only from CDC, NIH/MedlinePlus, AAD or medical schools; a \"when to get medical care\" callout; no treatment advice beyond what those sources say. Changes: alsoTargets add the look, timeline and \"deadly\" variants; mustLink adds /learn/bug-bites (the live bites hub, which already links /blog/black-widow-bite) and /blog/black-widow-spiders (same day); the Oct 14 \"trim + link\" on /blog/what-does-a-spider-bite-look-like waits until that page's freeze ends. releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: /learn/bug-bites, /blog/venomous-spiders, /blog/black-spiders and /blog/spiders-in-florida already link it. The writer does the beat-the-top-3 research into data/god-build/research/top3/black-widow-bite.md. Writer notes: session scratchpad plan-drafts-top100/day1/black-widow-bite.md.",
    "wave": 2,
    "suggestedWeek": "2026-12-14",
    "releaseOrder": 48,
@@ -6377,16 +6487,21 @@
    "family": "spider-id",
    "pageType": "entity-id",
    "audience": "na",
-   "title": "Black Widow Spiders: Identification, Range and Look-Alikes",
-   "metaTitle": "Black Widow Spiders: ID, Range, Look-Alikes",
+   "title": "Black Widow Spiders: How to Identify Them, Where They Live and Look-Alikes",
+   "metaTitle": "Black Widow Spider: ID, Range and Look-Alikes",
    "keyword": "black widow spider",
    "alsoTargets": [
+    "black widow spiders",
+    "what does a black widow look like",
     "black widow spider male",
+    "where do black widows live",
     "black widow look alike",
-    "northern black widow"
+    "southern black widow",
+    "northern black widow",
+    "western black widow"
    ],
    "demand": {
-    "summary": "Search Console, 90 days to 2026-10-12: 7 impressions (6 US) across 7 queries, average position 4.1; Google shows /blog/best-spider-spray-canada and /blog/bugs-that-look-like-ticks; Google autocomplete returns 10 suggestions for \"black widow spider\" (demand exists; volume unsized)",
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 4 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"black widow spider\" about 162,100 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.6 (Nov-Jan average over the 12-month average); it is the Trends anchor itself (0.4229 of brown recluse); saved Ahrefs: 176,000, KD 32. Page one (WebSearch screen, Oct 26): an EPFL-hosted copy of Wikipedia, Wikipedia, animalcorner.co.uk, Vedantu and Encyclopedia.com; Missouri Department of Conservation and UF Health next; winnability 3.5: page one possible, top 3 needs links. Search Console, 90 days to 2026-10-26 (query contains \"widow\"): about 70 impressions over 49 query-page rows, spread over live guides that mention black widows: state and range questions on /blog/venomous-spiders (positions 7-13), white-spot questions on /blog/black-spiders (1-13), egg sac questions on /blog/spider-egg-sacs (9-16), and the bite questions on the frozen /blog/what-does-a-spider-bite-look-like. Earlier evidence (Oct 14): Search Console, 90 days to 2026-10-12: 7 impressions (6 US) across 7 queries, average position 4.1; Google shows /blog/best-spider-spray-canada and /blog/bugs-that-look-like-ticks; Google autocomplete returns 10 suggestions for \"black widow spider\" (demand exists; volume unsized)",
     "searchConsole": {
      "impressions90d": 7,
      "usImpressions90d": 6,
@@ -6449,9 +6564,111 @@
      ],
      "count": 10
     },
-    "ahrefsUS": null
+    "ahrefsUS": null,
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 4,
+     "day": 1,
+     "query": "black widow spider",
+     "type": "Identification: species",
+     "trendsTerm": "black widow spider",
+     "usSearchesMonthly": 162100,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.6,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": 3.5,
+     "kd": 32,
+     "top5": [
+      {
+       "domain": "dlab.epfl.ch",
+       "tier": "A"
+      },
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "animalcorner.co.uk",
+       "tier": "C"
+      },
+      {
+       "domain": "vedantu.com",
+       "tier": "B"
+      },
+      {
+       "domain": "encyclopedia.com",
+       "tier": "B"
+      }
+     ],
+     "takes": "Wikipedia (+ a mirror) own the head term: page one possible with photo-ID of the US widows + false/brown widow look-alikes + range map, top 3 needs links",
+     "serpNote": "#1 is an EPFL-hosted copy of Wikipedia, counted A. Missouri Dept of Conservation and UF Health (both A) follow at #6-7.",
+     "statusBefore": "planned 2026-12-14"
+    },
+    "searchConsoleOct26": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'widow', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "impressions90d": 70,
+     "shownOn": [
+      {
+       "path": "/blog/venomous-spiders",
+       "queries": "what states have black widow spiders (2 at 11), are black widows in every state (2 at 9.5), does new york have black widows (2 at 12.5), which us states have black widows (2 at 8), black widow spider (1 at 2)"
+      },
+      {
+       "path": "/blog/black-spiders",
+       "queries": "do black widows have white spots (3 at 1), does a black widow have a white spot on its back (3 at 8.7), black widow spider with white spots (2 at 1)"
+      },
+      {
+       "path": "/blog/spider-egg-sacs",
+       "queries": "black widow egg sac vs other spiders (2 at 9), how many spiders are in a black widow egg sac (2 at 13.5)"
+      },
+      {
+       "path": "/blog/what-does-a-spider-bite-look-like",
+       "queries": "about 25 impressions of black widow bite questions (frozen page; see black-widow-bite)"
+      }
+     ]
+    }
    },
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/venomous-spiders",
+     "overlap": "live sorter (\"venomous spiders in the us\", \"venomous spiders by state\"); an h2 \"How do you recognize a black widow?\" and the state table; the black widow range questions land there (positions 7-13)",
+     "resolution": "keeps the by-state sorter; this page owns the species and \"where do black widows live\"; its black widow section already links here"
+    },
+    {
+     "path": "/blog/black-spiders",
+     "overlap": "live; owns \"black spider with white spots\"; its \"Is it a black widow?\" check gets the white-spot widow questions (positions 1-13)",
+     "resolution": "keeps the white-spot searches; this page covers males and juveniles with white or red marks without targeting them and links black-spiders; it already links here"
+    },
+    {
+     "path": "/blog/spider-egg-sacs",
+     "overlap": "live; h2 \"What does a black widow egg sac look like?\" and the egg sac questions",
+     "resolution": "keeps \"black widow egg sac\"; this page gives egg sacs one short section and links it; it already links here"
+    },
+    {
+     "path": "/blog/house-spiders and /blog/spiders-in-california, /blog/spiders-in-florida, /blog/spiders-in-texas",
+     "overlap": "live; each has a short \"is it a black widow?\" or widows section",
+     "resolution": "keep their sections; link where it helps; spiders-in-california and spiders-in-texas already link here (spiders-in-florida links black-widow-bite)"
+    },
+    {
+     "path": "/blog/black-widow-bite (same day)",
+     "overlap": "every bite search",
+     "resolution": "black-widow-bite owns symptoms and care; this page gives the venom and bites one paragraph and links it (mustLink, both ways)"
+    },
+    {
+     "path": "false-widow-spiders and brown-widow-spiders (planned 2026-12-21)",
+     "overlap": "\"false widow vs black widow\" and \"brown widow vs black widow\"",
+     "resolution": "those pages keep the comparisons; this page's look-alike table and cards link them (plain words until Dec 21)"
+    },
+    {
+     "path": "frozen pages",
+     "overlap": "/blog/what-does-a-spider-bite-look-like, /blog/mosquito-bite-vs-spider-bite and /blog/bugs-that-look-like-ticks mention black widows",
+     "resolution": "not linked: frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)"
+    },
+    {
+     "path": "/blog/best-spider-spray-canada and /blog/how-to-get-rid-of-spiders-in-house-canada",
+     "overlap": "amazon.ca product page and Canadian control page",
+     "resolution": "not linked; the US control page how-to-get-rid-of-spiders (planned Dec 21) may be linked when live"
+    }
+   ],
    "resolution": "new page",
    "pairWith": null,
    "priority": 2,
@@ -6461,16 +6678,18 @@
     "name": "Spiders"
    },
    "mustLink": [
-    "/learn/spiders"
+    "/learn/spiders",
+    "/blog/black-widow-bite"
    ],
-   "scope": "Southern, northern and western black widows: the hourglass and its variations, males and juveniles, where each lives (including southern Canada), webs and egg sacs, and the false widows and brown widows people mistake for them.",
+   "scope": "Photo-ID page for the head search \"black widow spider\" (Wikipedia and a mirror own the definition; page one comes from real photos, the US widows side by side and a range section): what a black widow looks like (shiny black female, round abdomen, red hourglass underneath; sizes only from a university or state agency), the three US black widows (southern, northern, western) and how their markings differ, plus the red widow of central and south Florida and the brown widow (introduced), males and juveniles (smaller, with red, white or orange marks: UC IPM and the Missouri Department of Conservation, as /blog/black-spiders already cites), where black widows live (a range map only if a university, museum or state agency gives state-level ranges; otherwise a regional table; southern Canada for the northern black widow at the sources' strength), where people meet them (woodpiles, garages, sheds, outdoor furniture, meter boxes) and their tangled cobweb, egg sacs in one short section (/blog/spider-egg-sacs keeps \"black widow egg sac\"), are black widows dangerous (venom and bites in one paragraph at CDC NIOSH or MedlinePlus strength, linking /blog/black-widow-bite for symptoms and care), and look-alikes (false widow, brown widow, common house spider, red-and-black jumping spiders: a quick-ID table and confused-with cards). Quick-ID facts table under the quick answer. Links: /blog/black-widow-bite (mustLink), /blog/venomous-spiders, /blog/black-spiders, /blog/spider-egg-sacs, /blog/house-spiders, /tools/spider-identifier, the planned /blog/false-widow-spiders and /blog/brown-widow-spiders. Not linked: the frozen /blog/what-does-a-spider-bite-look-like, /blog/mosquito-bite-vs-spider-bite and /blog/bugs-that-look-like-ticks; amazon.ca product pages. No quote prompt.",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
    "minWords": 1400,
-   "photos": "being-sourced",
+   "photos": "in hand: lead black-widow (public domain: southern black widow with the red hourglass; shareable), northern-black-widow (CC0), western-black-widow (CC BY 4.0), northern-black-widow-egg-sac (CC0), western-black-widow-egg-sacs (CC0), red-widow (CC0). Cards: brown-widow-spider (CC0), brown-widow-hourglass (public domain), false-black-widow (CC0), common-house-spider (CC0). Needed: a male black widow, a juvenile, and a web in a where-found spot (woodpile, garage corner, under outdoor furniture). Writable now.",
    "dataAssets": null,
-   "notes": null,
+   "notes": "Brought forward 2026-10-28 from 2026-12-14 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 4: Trends about 162,100 searches a month, winter factor 0.6; winnability 3.5). Changes: title and metaTitle refreshed; alsoTargets expanded (the three US species, males, range); flags add health; mustLink adds /blog/black-widow-bite (same day); collisions written (the Oct 14 entry had none; nine live guides now link /blog/black-widow-spiders). releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: nine live guides already link it (venomous-spiders, black-spiders, spider-egg-sacs, mud-daubers, daddy-long-legs, jumping-spiders, orb-weaver-spiders, spiders-in-california and spiders-in-texas). The writer does the beat-the-top-3 research into data/god-build/research/top3/black-widow-spiders.md. Writer notes: session scratchpad plan-drafts-top100/day1/black-widow-spiders.md.",
    "wave": 2,
    "suggestedWeek": "2026-12-14",
    "releaseOrder": 52,
@@ -9455,15 +9674,15 @@
    "keyword": "wasp nest",
    "alsoTargets": [
     "what does a wasp nest look like",
+    "wasp nest identification",
     "hornet nest",
-    "yellow jacket nest",
     "wasp nest vs hornet nest",
-    "bald faced hornet nest",
-    "wasp nest in ground",
-    "types of wasp nests"
+    "types of wasp nests",
+    "old wasp nest",
+    "do wasps reuse nests"
    ],
    "demand": {
-    "summary": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16: hornet nest + yellow jacket nest + what does a wasp nest look like + wasp nest x0.5 = 0.917 of \"stink bug\" (Nov-Mar 0.32, May-Aug 1.82 of the yearly average); Ahrefs Keywords Explorer, US, 2026-10-16: wasp nest 56,000; hornet nest 20,000; yellow jacket nest 16,000; what does a wasp nest look like 1,400; yellow jackets in ground 350 (family 93,750); target \"wasp nest\" 56,000, KD 5, traffic potential 4,500, parent topic \"wasp nest\"; demand used: Trends 0.917 and Ahrefs 0.536 agree within 3x: Trends used; Search Console, 90 days to 2026-10-12: Only product queries (wasp nest spray, killer) on the Canadian product pages; they do not count; Google page 1, gl=us, \"wasp nest\", 2026-10-16: bestbees.com, mosquitojoe.com, Moxie, Viking Pest, buzzaboutbees.net, MSU extension (also \"hornet nest\": Gurney's, Orkin, American Pest, Pestmaster, YouTube, House Digest nest-ID list, Merriam-Webster); read: bee and pest-company blogs: beatable; model estimate, not a measurement: 30.7 clicks a month Nov-Mar (12.3-92.2), 209.3 May-Aug (83.7-628), confidence high; evidence from data/god-build/next-wave-research.json (build order 24). Earlier evidence (taxonomy, 2026-10-14): Search Console, 90 days to 2026-10-12: 11 impressions (0 US) across 7 queries, average position 3.9; Google shows /blog/how-to-get-rid-of-ground-wasps-canada and /blog/best-wasp-nest-spray-canada; Google autocomplete returns 20 suggestions for \"what does a wasp nest look like\", \"wasp nest\" (demand exists; volume unsized)",
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 6 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"wasp nest\" about 137,300 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.35 (Nov-Jan average over the 12-month average) (a summer search: about 48,000 a month this winter); saved Ahrefs (Oct 16): \"wasp nest\" 56,000, KD 5. Page one (WebSearch screen, Oct 26; low confidence: only Wikipedia and a UK pest firm came back, 7 of 9 results were spam, positions 3-5 unknown, so re-read Google before writing). Search Console, 90 days to 2026-10-26 (query contains \"nest\"): our Canadian pages own the removal and ground-nest family (/blog/how-to-get-rid-of-ground-wasps-canada: \"wasp nest in ground\" 608 impressions at 7.5 with 10 clicks, \"ground wasp nest\" 597 at 7.6, \"underground wasp nest killer\" 403 at 6.0 with 18 clicks; /blog/best-wasp-nest-spray-canada: \"wasp nest spray\" 1,257 at 8.3; /blog/how-to-get-rid-of-wasps-canada: \"wasp nest removal\" 741 at 24.4); the head \"wasp nest\" shows only 39 times at 24.5, and identification searches are tiny (\"ground wasp nest pictures\" 6 at 2.0, \"is it safe to remove a wasp nest in winter\" 3 at 2.7, \"hornet nest vs wasp nest\" 1 at 3). Earlier evidence (Oct 16): Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16: hornet nest + yellow jacket nest + what does a wasp nest look like + wasp nest x0.5 = 0.917 of \"stink bug\" (Nov-Mar 0.32, May-Aug 1.82 of the yearly average); Ahrefs Keywords Explorer, US, 2026-10-16: wasp nest 56,000; hornet nest 20,000; yellow jacket nest 16,000; what does a wasp nest look like 1,400; yellow jackets in ground 350 (family 93,750); target \"wasp nest\" 56,000, KD 5, traffic potential 4,500, parent topic \"wasp nest\"; demand used: Trends 0.917 and Ahrefs 0.536 agree within 3x: Trends used; Search Console, 90 days to 2026-10-12: Only product queries (wasp nest spray, killer) on the Canadian product pages; they do not count; Google page 1, gl=us, \"wasp nest\", 2026-10-16: bestbees.com, mosquitojoe.com, Moxie, Viking Pest, buzzaboutbees.net, MSU extension (also \"hornet nest\": Gurney's, Orkin, American Pest, Pestmaster, YouTube, House Digest nest-ID list, Merriam-Webster); read: bee and pest-company blogs: beatable; model estimate, not a measurement: 30.7 clicks a month Nov-Mar (12.3-92.2), 209.3 May-Aug (83.7-628), confidence high; evidence from data/god-build/next-wave-research.json (build order 24). Earlier evidence (taxonomy, 2026-10-14): Search Console, 90 days to 2026-10-12: 11 impressions (0 US) across 7 queries, average position 3.9; Google shows /blog/how-to-get-rid-of-ground-wasps-canada and /blog/best-wasp-nest-spray-canada; Google autocomplete returns 20 suggestions for \"what does a wasp nest look like\", \"wasp nest\" (demand exists; volume unsized)",
     "searchConsole": {
      "impressions90d": 11,
      "usImpressions90d": 0,
@@ -9594,38 +9813,133 @@
      "confidenceWhy": "results page read on Google; Trends and Ahrefs agree",
      "timing": "jan-feb",
      "timingWhy": "summer earner: build in Jan-Feb so it is indexed and aged by May"
+    },
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 6,
+     "day": 1,
+     "query": "wasp nest",
+     "type": "Identification: species",
+     "trendsTerm": "wasp nest",
+     "usSearchesMonthly": 137300,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.35,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": null,
+     "top5": [
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "nbcenvironment.co.uk",
+       "tier": "C"
+      }
+     ],
+     "takes": "LOW CONFIDENCE: only Wikipedia and a UK pest firm came back. A nest-ID photo page (paper wasp vs yellowjacket vs hornet) may be open, but re-screen page one before building",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. 7 of 9 results were spam or parasite pages plus a video-game wiki (all skipped), so positions 3-5 are unknown and the score is an upper bound.",
+     "statusBefore": "planned 2027-02-01"
+    },
+    "searchConsoleOct26": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'nest'; single query dimension for the head term, query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "topQueries": [
+      {
+       "query": "wasp nest spray",
+       "impressions": 1257,
+       "position": 8.3,
+       "page": "/blog/best-wasp-nest-spray-canada"
+      },
+      {
+       "query": "wasp nest removal",
+       "impressions": 741,
+       "position": 24.4,
+       "page": "/blog/how-to-get-rid-of-wasps-canada"
+      },
+      {
+       "query": "wasp nest in ground",
+       "impressions": 608,
+       "position": 7.5,
+       "clicks": 10,
+       "page": "/blog/how-to-get-rid-of-ground-wasps-canada"
+      },
+      {
+       "query": "ground wasp nest",
+       "impressions": 597,
+       "position": 7.6,
+       "page": "/blog/how-to-get-rid-of-ground-wasps-canada"
+      },
+      {
+       "query": "underground wasp nest killer",
+       "impressions": 403,
+       "position": 6,
+       "clicks": 18,
+       "page": "/blog/how-to-get-rid-of-ground-wasps-canada"
+      },
+      {
+       "query": "wasp nest",
+       "impressions": 39,
+       "position": 24.5
+      },
+      {
+       "query": "mud dauber nest",
+       "impressions": 12,
+       "position": 9.8
+      },
+      {
+       "query": "is it safe to remove a wasp nest in winter",
+       "impressions": 3,
+       "position": 2.7
+      }
+     ],
+     "note": "The Canadian removal, ground-nest and product pages keep those searches; this page targets none of them."
     }
    },
    "collisions": [
     {
-     "path": "/blog/how-to-get-rid-of-wasps-canada",
-     "overlap": "\"find the nest\" section",
-     "resolution": "link"
-    },
-    {
      "path": "/blog/how-to-get-rid-of-ground-wasps-canada",
-     "overlap": "ground nests",
-     "resolution": "link"
+     "overlap": "Canadian TSX page holding the ground-nest family (\"wasp nest in ground\" 608 impressions at 7.5 with 10 clicks, \"ground wasp nest\" 597 at 7.6, \"underground wasp nest killer\" 403 at 6.0 with 18 clicks)",
+     "resolution": "keeps every ground-nest and removal search (\"wasp nest in ground\" dropped from this page's targets on Oct 28); this page's ground-nest row and card link it once"
     },
     {
-     "path": "wasp-vs-hornet (new)",
-     "overlap": "the insects",
-     "resolution": "link both ways; this page is the nests"
+     "path": "/blog/how-to-get-rid-of-wasps-canada",
+     "overlap": "\"wasp nest removal\" (741 impressions at 24.4) and a \"find the nest\" section",
+     "resolution": "keeps removal; link once from the \"what to do\" line"
     },
     {
-     "path": "how-to-get-rid-of-ground-wasps (new)",
-     "overlap": "ground nests, control (US edition, planned)",
-     "resolution": "control there, identification here; link both ways"
-    },
-    {
-     "path": "paper-wasps (new, 2026-10-24)",
+     "path": "/blog/paper-wasps (live 2026-10-23)",
      "overlap": "\"paper wasp nest\", the open umbrella comb",
-     "resolution": "paper-wasps owns \"paper wasp nest\"; this page's paper wasp row and card link it"
+     "resolution": "paper-wasps owns \"paper wasp nest\"; this page's paper wasp row and card link it (mustLink); it already links here"
     },
     {
-     "path": "mud-daubers (new, 2026-10-24)",
+     "path": "/blog/mud-daubers (live 2026-10-23)",
      "overlap": "\"mud dauber nest\", the mud tubes and cells",
-     "resolution": "mud-daubers owns \"mud dauber nest\"; this page's mud dauber row and card link it"
+     "resolution": "mud-daubers owns \"mud dauber nest\"; this page's mud dauber row and card link it (mustLink); it already links here"
+    },
+    {
+     "path": "yellow-jackets and bald-faced-hornets (planned 2026-12-14), european-hornets and yellow-legged-hornet (planned 2026-12-28)",
+     "overlap": "\"yellow jacket nest\", \"bald faced hornet nest\", \"european hornet nest\", \"yellow legged hornet nest\"",
+     "resolution": "the species pages own their nest searches (\"yellow jacket nest\" and \"bald faced hornet nest\" dropped from this page's targets on Oct 28, as paper-wasps and mud-daubers took theirs on Oct 23); rows and cards link them (plain words until live)"
+    },
+    {
+     "path": "cicada-killers (planned 2026-12-14) and ground-bees (planned 2026-12-28)",
+     "overlap": "\"cicada killer holes\", \"ground bee holes\"",
+     "resolution": "look-alike holes in one row each, linked (plain words until live)"
+    },
+    {
+     "path": "how-to-get-rid-of-wasps and how-to-get-rid-of-ground-wasps (US editions, planned 2026-12-14); wasp-vs-hornet (planned 2027-02-01)",
+     "overlap": "control, and the insects themselves",
+     "resolution": "control there, identification here; wasp-vs-hornet is the insects, this page is the nests; link both ways"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-carpenter-bees-canada",
+     "overlap": "carpenter bee holes in wood",
+     "resolution": "one look-alike row, linked"
+    },
+    {
+     "path": "amazon.ca product pages",
+     "overlap": "/blog/best-wasp-nest-spray-canada (\"wasp nest spray\" 1,257 impressions at 8.3), /blog/best-wasp-killer-canada, /blog/wasp-dust-canada, /blog/best-yellow-jacket-trap-canada, /blog/best-wasp-trap-canada",
+     "resolution": "keep every product search; not linked from this US page"
     }
    ],
    "resolution": "new page",
@@ -9637,16 +9951,19 @@
     "name": "Wasps and Bees"
    },
    "mustLink": [
-    "/learn/wasps-and-bees"
+    "/learn/wasps-and-bees",
+    "/blog/paper-wasps",
+    "/blog/mud-daubers"
    ],
-   "scope": "Re-aimed at \"wasp nest\": a photo sorter by nest, because which insect built it decides how dangerous it is: open paper combs (paper wasps), gray paper footballs (bald-faced hornets), holes in the ground (yellowjackets), mud tubes (mud daubers) and wax combs (honey bees), plus nests in wall voids; size by month, which nests are active and when a nest is safe to leave. Identification only: many \"wasp nest\" searches are about removal, which /blog/how-to-get-rid-of-wasps-canada and /blog/how-to-get-rid-of-ground-wasps-canada cover (link both, and the US editions once they are live). wasp-vs-hornet (new) is the insects: link both ways. Photos on record: bald-faced hornet nest, mud dauber on nest, cicada killer burrow, paper wasps, eastern yellowjacket, carpenter bee hole, mining bee burrow; a paper wasp comb and a yellowjacket ground entrance are still needed.",
+   "scope": "Photo sorter for the head search \"wasp nest\": which insect built it decides how dangerous it is. Rows and cards by nest type: an open umbrella-shaped paper comb under eaves (paper wasps: /blog/paper-wasps owns \"paper wasp nest\"), a gray paper ball or \"football\" in a tree, shrub or under an overhang (bald-faced hornets: bald-faced-hornets owns its nest search), a hole in the ground or a nest hidden in a wall void (yellowjackets: yellow-jackets owns \"yellow jacket nest\"; /blog/how-to-get-rid-of-ground-wasps-canada keeps \"wasp nest in ground\"), a nest in a hollow tree or wall (European hornets), mud tubes and cells (mud daubers: /blog/mud-daubers owns \"mud dauber nest\"), wax comb in a cavity or a hanging swarm (honey bees: call a beekeeper only as an extension or state agency says), and look-alike holes (cicada killer burrows, mining bee and other ground bee holes, carpenter bee holes in wood). Nest size through the season and the colony year (a new nest each spring, the colony dies off in fall and an old paper nest is not reused: only at an extension source's strength) answer the fall and winter searches: is the old nest still active, and is it safe to take down now? Safety at extension or CDC NIOSH strength: leave an active nest alone; stings and allergy in one short paragraph linking /learn/bug-bites. Identification only: control belongs to /blog/how-to-get-rid-of-wasps-canada and the US editions how-to-get-rid-of-wasps and how-to-get-rid-of-ground-wasps (planned Dec 14): link them, write no removal method. Quick-ID facts table under the quick answer (nest, material, where, size, insect, how risky). Not linked: amazon.ca product pages. No quote prompt.",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 1200,
-   "photos": "in-hand (partial; need a paper wasp comb and a yellowjacket ground entrance)",
+   "minWords": 1300,
+   "photos": "in hand: lead bald-faced-hornet-nest (public domain; shareable), paper-wasp-nest (CC0), paper-wasp-nest-eave-corner and paper-wasp-nest-house-siding (CC BY 4.0), yellowjacket-ground-nest (CC0), yellowjacket-paper-nest (CC BY 4.0: a nest in a storage box lid beside a tape measure), european-hornet-nest (CC0), mud-dauber-nest-garage-wall and mud-dauber-nest-house-overhang (CC BY 4.0), organ-pipe-mud-dauber-nest (CC BY 2.0), blue-mud-dauber-on-nest (CC0), cicada-killer-burrow (public domain), mining-bee-burrow (CC BY 4.0), carpenter-bee-nest-hole (CC0), honey-bee-swarm (CC0). The paper wasp comb and yellowjacket ground entrance the Oct 16 entry lacked are on record. Optional: an old gray nest in a bare tree in winter. Writable now.",
    "dataAssets": null,
-   "notes": "Promoted 2026-10-16 by data/god-build/next-wave-research.json (build order 24; summer earner, written in January-February: releaseOn 2027-02-01); re-aimed at \"wasp nest\" (was \"what does a wasp nest look like\"); that entry is the page's spec (target query, variants, format, overlap decision, photos). The research names it /blog/wasp-nests; the planned slug is kept. Oct 23, 2026 (volume-20): \"paper wasp nest\" and \"mud dauber nest\" moved to the species pages paper-wasps and mud-daubers (both dated 2026-10-24); this page keeps the nest-type sorter and links them.",
+   "notes": "Brought forward 2026-10-28 from 2027-02-01 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 6: Trends about 137,300 searches a month, winter factor 0.35; the page-one screen is low confidence, so re-read Google before writing). Changes: alsoTargets drop \"yellow jacket nest\" and \"bald faced hornet nest\" (yellow-jackets and bald-faced-hornets, both planned Dec 14, claim them, as paper-wasps and mud-daubers took their nest searches on Oct 23) and \"wasp nest in ground\" (our /blog/how-to-get-rid-of-ground-wasps-canada holds it: 608 impressions at 7.5 and 10 clicks in 90 days); add \"wasp nest identification\", \"old wasp nest\" and \"do wasps reuse nests\" (the fall and winter angle); flags add health; minWords 1200 to 1300; mustLink /blog/paper-wasps and /blog/mud-daubers. releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: /blog/paper-wasps and /blog/mud-daubers already link it. The writer does the beat-the-top-3 research into data/god-build/research/top3/wasp-nest-identification.md. Writer notes: session scratchpad plan-drafts-top100/day1/wasp-nest-identification.md. Earlier: Promoted 2026-10-16 by data/god-build/next-wave-research.json (build order 24; summer earner, written in January-February: releaseOn 2027-02-01); re-aimed at \"wasp nest\" (was \"what does a wasp nest look like\"); that entry is the page's spec (target query, variants, format, overlap decision, photos). The research names it /blog/wasp-nests; the planned slug is kept. Oct 23, 2026 (volume-20): \"paper wasp nest\" and \"mud dauber nest\" moved to the species pages paper-wasps and mud-daubers (both dated 2026-10-24); this page keeps the nest-type sorter and links them.",
    "wave": 2,
    "suggestedWeek": "2026-12-14",
    "releaseOrder": 75,
@@ -12662,16 +12979,20 @@
    "family": "mites",
    "pageType": "entity-id",
    "audience": "na",
-   "title": "Dust Mites: Do They Bite? What They Are and How to Cut Them Down",
-   "metaTitle": "Dust Mites: Do They Bite? Allergy Facts",
+   "title": "Dust Mites: What They Look Like, Where They Live and How to Reduce Them",
+   "metaTitle": "Dust Mites: What They Are and How to Reduce Them",
    "keyword": "dust mites",
    "alsoTargets": [
-    "dust mite bites",
+    "what do dust mites look like",
     "dust mites in bed",
+    "dust mite allergy",
+    "dust mite allergy symptoms",
+    "how to get rid of dust mites",
+    "where do dust mites live",
     "dust mites vs bed bugs"
    ],
    "demand": {
-    "summary": "Search Console, 90 days to 2026-10-12: 24 impressions (0 US) across 14 queries, average position 5.4; Google shows /blog/best-air-purifier-for-dust-mites-canada and /blog/best-natural-bed-bug-spray-canada; Google autocomplete returns 10 suggestions for \"dust mites\" (demand exists; volume unsized)",
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 3 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"dust mites\" about 120,900 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.94 (Nov-Jan average over the 12-month average): year-round; saved Ahrefs: \"dust mites\" 90,000, KD 71. Page one (WebSearch screen, Oct 26): Wikipedia, sheppardsoftware.com and rememberthefilter.com (small sites at #2-3), ColumbiaDoctors and University of Michigan Health-West; HealthLinkBC and UMaine Extension next; winnability 5, allergy intent. Search Console, 90 days to 2026-10-26 (query contains \"mite\"): product searches only, all on amazon.ca product pages (largest: \"air purifier for dust mites\" 60 impressions at 8.9 and \"best air purifier for dust mites\" 53 at 6.3 on /blog/best-air-purifier-for-dust-mites-canada); no informational dust mite search lands anywhere. Earlier evidence (Oct 14): Search Console, 90 days to 2026-10-12: 24 impressions (0 US) across 14 queries, average position 5.4; Google shows /blog/best-air-purifier-for-dust-mites-canada and /blog/best-natural-bed-bug-spray-canada; Google autocomplete returns 10 suggestions for \"dust mites\" (demand exists; volume unsized)",
     "searchConsole": {
      "impressions90d": 24,
      "usImpressions90d": 0,
@@ -12738,19 +13059,130 @@
      ],
      "count": 10
     },
-    "ahrefsUS": null
+    "ahrefsUS": null,
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 3,
+     "day": 1,
+     "query": "dust mites",
+     "type": "Identification: species",
+     "trendsTerm": "dust mites",
+     "usSearchesMonthly": 120900,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.94,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": 5,
+     "kd": 71,
+     "top5": [
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "sheppardsoftware.com",
+       "tier": "C"
+      },
+      {
+       "domain": "rememberthefilter.com",
+       "tier": "C"
+      },
+      {
+       "domain": "columbiadoctors.org",
+       "tier": "A"
+      },
+      {
+       "domain": "uofmhealthwest.org",
+       "tier": "A"
+      }
+     ],
+     "takes": "Wikipedia and two university health systems, with small sites at #2-3: top 3 possible with a magnified-photo ID page plus allergy-control steps citing health sources, and a few links",
+     "serpNote": "Allergy intent; HealthLinkBC and UMaine Extension follow at #6-7.",
+     "statusBefore": "taxonomy, unscheduled"
+    },
+    "searchConsoleOct26": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'mite', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "topQueries": [
+      {
+       "query": "air purifier for dust mites",
+       "impressions": 60,
+       "position": 8.9,
+       "page": "/blog/best-air-purifier-for-dust-mites-canada"
+      },
+      {
+       "query": "best air purifier for dust mites",
+       "impressions": 53,
+       "position": 6.3,
+       "page": "/blog/best-air-purifier-for-dust-mites-canada"
+      },
+      {
+       "query": "dust mite spray canadian tire",
+       "impressions": 39,
+       "position": 9.5,
+       "page": "/blog/best-natural-bed-bug-spray-canada"
+      },
+      {
+       "query": "steam cleaner for dust mites",
+       "impressions": 19,
+       "position": 8,
+       "page": "/blog/best-steam-cleaner-for-pest-control-canada"
+      },
+      {
+       "query": "best steam cleaner for dust mites",
+       "impressions": 11,
+       "position": 1.8,
+       "clicks": 2,
+       "page": "/blog/best-steam-cleaner-for-pest-control-canada"
+      }
+     ],
+     "note": "Every dust mite query we see is a product search on an amazon.ca page (the retailer-named one is never a target). Nothing for \"dust mites\", \"what do dust mites look like\" or \"dust mite bites\"."
+    }
    },
    "collisions": [
     {
      "path": "/blog/best-air-purifier-for-dust-mites-canada",
-     "overlap": "Canadian product page (affiliate)",
-     "resolution": "different intent; link"
+     "overlap": "amazon.ca product page; holds the product searches (\"air purifier for dust mites\" 60 impressions at 8.9, \"best air purifier for dust mites\" 53 at 6.3)",
+     "resolution": "keeps every product search; different intent; not linked from this US page (one page, one store); this page makes no air purifier claim"
+    },
+    {
+     "path": "/blog/best-steam-cleaner-for-pest-control-canada and /blog/best-hepa-vacuum-for-allergies-canada",
+     "overlap": "amazon.ca product pages (\"steam cleaner for dust mites\", \"best vacuum for dust mites\")",
+     "resolution": "keep their product searches; not linked"
+    },
+    {
+     "path": "/blog/bed-bug-bites-but-no-bed-bugs",
+     "overlap": "live; names mites among the things that bite at night",
+     "resolution": "keeps the bites sorter; this page says dust mites do not bite and links it; its mites paragraph is a link-in candidate"
+    },
+    {
+     "path": "/blog/pseudoscorpions",
+     "overlap": "live Oct 25; the book scorpion preys on booklice and dust mites (Mississippi State, MDC)",
+     "resolution": "no shared target; that sentence is the best link-in"
+    },
+    {
+     "path": "/blog/booklice and /blog/carpet-beetle-rash",
+     "overlap": "live; tiny pale bugs in damp rooms, and the itchy bumps people blame on dust mites",
+     "resolution": "no shared targets; look-alike card (booklice) and one line on itchy bumps (carpet-beetle-rash), both linked"
+    },
+    {
+     "path": "dust-mite-bites (god list day 4, reserve, not in the plan yet)",
+     "overlap": "\"dust mite bites\" (about 7,000 a month, Trends)",
+     "resolution": "that page will own \"dust mite bites\"; this page answers \"do dust mites bite?\" in one short section and links it once it exists (if it is never built, add \"do dust mites bite\" back here)"
+    },
+    {
+     "path": "scabies-vs-bed-bugs (planned 2026-12-14), bird-mites (planned 2027-02-01), rat-mites (planned 2026-12-21)",
+     "overlap": "mites that do bite people",
+     "resolution": "cards or one line each, linked (plain words until they are live)"
+    },
+    {
+     "path": "frozen and read pages",
+     "overlap": "/blog/bugs-that-look-like-bed-bugs-canada, /blog/what-kills-bed-bugs-instantly-canada, /blog/how-to-get-rid-of-carpet-beetles-canada, /blog/chigger-bites and /blog/red-ticks-and-clover-mites mention mites or dust mites; /blog/bed-bug-bites",
+     "resolution": "not linked: frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C); bed-bug-bites is read Nov 3-10"
     }
    ],
    "resolution": "new page",
    "pairWith": null,
    "priority": 3,
-   "gate": "dropped (next-wave-research, Oct 16, 2026): for now; KD 71, Wikipedia and health publishers, myth format",
+   "gate": null,
    "parent": {
     "href": "/learn/mites",
     "name": "Mites"
@@ -12758,18 +13190,18 @@
    "mustLink": [
     "/learn/mites"
    ],
-   "scope": "Microscopic mites that do not bite: the allergy they cause, humidity thresholds, encasements and washing temperatures from allergy guidance, and what the itchy bumps really are.",
+   "scope": "Re-aimed 2026-10-28 from the Oct 14 myth format (\"Do they bite?\") to the god list's ID-plus-allergy page: what dust mites are (microscopic relatives of spiders and ticks that feed on shed skin flakes; too small to see without magnification: size only from a source), the micrograph photos, where they live (mattresses, pillows, bedding, upholstered furniture, carpets) and why humidity matters, dust mite allergy (the allergen is in their droppings and body fragments; symptoms such as sneezing, a runny or stuffy nose, itchy eyes and asthma flares only as NIEHS, MedlinePlus or a medical school say; diagnosis by a clinician), how to reduce them (encase the mattress and pillows, wash bedding weekly in hot water at the temperature NIEHS gives, keep indoor humidity below the level NIEHS gives, vacuum with a HEPA-filter vacuum, cut clutter and carpet in the bedroom: every step at NIEHS, MedlinePlus or medical-school strength; no air purifier, spray or product claims), do dust mites bite (one short section: they do not; the itchy bumps people blame on them have other causes: link /blog/bed-bug-bites-but-no-bed-bugs and /blog/carpet-beetle-rash), dust mites vs bed bugs (a short table: size, visible or not, bites or not; /blog/what-do-bed-bugs-look-like for bed bugs), and a \"when to get medical care\" warning callout (allergy or asthma symptoms that do not improve, wheezing or trouble breathing: medical sources only). Quick-ID facts table under the quick answer. Confused-with cards: bed bug (/blog/what-do-bed-bugs-look-like), booklouse (/blog/booklice), bird and rat mites (planned: shown without a link until live). Health claims only from CDC, NIH (NIEHS, MedlinePlus, NCBI Bookshelf) or medical schools; biology may also come from a university extension. No amazon.ca product page linked; no product advice beyond the one generic pick. No quote prompt.",
    "flags": [
     "health",
     "id"
    ],
-   "minWords": 1000,
-   "photos": "being-sourced (mites)",
+   "minWords": 1300,
+   "photos": "in hand: lead house-dust-mite (public domain, FDA scanning electron micrograph; shareable), house-dust-mite-macro (CC BY-SA 2.0). Cards: bed-bug-adult-ruler (public domain), booklouse (public domain). Optional: a micrograph with a scale bar; a mattress or pillow encasement in use (a real photo under an allowed licence). Writable now.",
    "dataAssets": null,
-   "notes": null,
+   "notes": "Un-gated 2026-10-28 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 3: Trends about 120,900 searches a month, year-round, winter factor 0.94; winnability 5). The Oct 16 gate (\"dropped (next-wave-research, Oct 16, 2026): for now; KD 71, Wikipedia and health publishers, myth format\") is lifted by the owner's order, and the myth format gives way to the god list's ID-plus-allergy format. releaseOrder 105 to 230 so that un-gating it does not shift the computed dates of the pages after it (the camel-crickets precedent). Title, metaTitle and alsoTargets re-aimed; \"dust mite bites\" left to the god list's reserve page dust-mite-bites (day 4); minWords 1000 to 1300; collisions refreshed. Medical topic: health claims only from CDC, NIH/MedlinePlus, AAD or medical schools; a \"when to get medical care\" callout; no treatment advice beyond what those sources say. Parent /learn/mites (deferred: goes out under /learn). releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: none yet; the link-in step adds one from /blog/pseudoscorpions (the book scorpion eats booklice and dust mites) or /blog/bed-bug-bites-but-no-bed-bugs (its mites paragraph). The writer does the beat-the-top-3 research into data/god-build/research/top3/dust-mites.md. Writer notes: session scratchpad plan-drafts-top100/day1/dust-mites.md.",
    "wave": 3,
    "suggestedWeek": "2026-12-21",
-   "releaseOrder": 105,
+   "releaseOrder": 230,
    "evidenceScore": 55
   },
   {
@@ -18507,11 +18939,15 @@
    "keyword": "spider mites",
    "alsoTargets": [
     "spider mites on plants",
-    "spider mites on houseplants",
-    "spider mites treatment"
+    "what do spider mites look like",
+    "how to get rid of spider mites",
+    "spider mite webbing",
+    "spider mite damage",
+    "spider mites treatment",
+    "two spotted spider mite"
    ],
    "demand": {
-    "summary": "Search Console, 90 days to 2026-10-12: 2 impressions (2 US) across 2 queries, average position 17.5; Google shows /blog/doktor-doom-sleep-tight-review-canada; Google autocomplete returns 10 suggestions for \"spider mites\" (demand exists; volume unsized)",
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 9 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"spider mites\" about 77,600 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.61 (Nov-Jan average over the 12-month average); saved Ahrefs: \"spider mites\" 36,000, KD 15. Page one (WebSearch screen, Oct 26): Wikipedia, bugsforbugs.com.au and daylilies.org (small biocontrol and society pages at #2-3), Maine's state site and UC IPM; EBSCO next; winnability 5 (the god list weights garden pests x0.75; much of the demand is cannabis growers, per next-wave-research). Search Console, 90 days to 2026-10-26 (query contains \"mite\"): three stray impressions (\"spider mite bomb\" on /blog/best-flea-bomb-canada, \"doktor doom spider mite knockout\" on /blog/doktor-doom-sleep-tight-review-canada, \"what do spider mite bites look like\" at 32 on the frozen /blog/what-does-a-spider-bite-look-like); \"tiny white mites on indoor plants\" 1 at 24 on /blog/houseplant-bugs. Earlier evidence (Oct 14): Search Console, 90 days to 2026-10-12: 2 impressions (2 US) across 2 queries, average position 17.5; Google shows /blog/doktor-doom-sleep-tight-review-canada; Google autocomplete returns 10 suggestions for \"spider mites\" (demand exists; volume unsized)",
     "searchConsole": {
      "impressions90d": 2,
      "usImpressions90d": 2,
@@ -18558,13 +18994,77 @@
      ],
      "count": 10
     },
-    "ahrefsUS": null
+    "ahrefsUS": null,
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 9,
+     "day": 1,
+     "query": "spider mites",
+     "type": "Identification: species",
+     "trendsTerm": "spider mites",
+     "usSearchesMonthly": 77600,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.61,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": 5,
+     "kd": 15,
+     "top5": [
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "bugsforbugs.com.au",
+       "tier": "C"
+      },
+      {
+       "domain": "daylilies.org",
+       "tier": "C"
+      },
+      {
+       "domain": "apps.web.maine.gov",
+       "tier": "A"
+      },
+      {
+       "domain": "ipm.ucanr.edu",
+       "tier": "A"
+      }
+     ],
+     "takes": "Wikipedia and UC IPM/Maine hold the ends, small biocontrol and society pages sit #2-3: page one realistic with webbing and stippling photos + spider mite vs clover mite; top 3 needs a few links",
+     "serpNote": "Collapsed 3 duplicate URLs (2 Wikipedia aliases, 1 daylilies.org). Plant pest, off the core home-pest audience. EBSCO is next.",
+     "statusBefore": "planned 2026-12-28"
+    }
    },
    "collisions": [
     {
+     "path": "/blog/houseplant-bugs (live 2026-10-20)",
+     "overlap": "houseplant sorter; lists \"spider mites on houseplants\" as a side target and its h2 \"What is the fine webbing on my plant?\" already links /blog/spider-mites",
+     "resolution": "keeps the sorter and \"spider mites on houseplants\" (dropped from this page's targets on Oct 28); this page owns \"spider mites\" and covers houseplants in one section that links back (mustLink)"
+    },
+    {
      "path": "/blog/red-ticks-and-clover-mites",
-     "overlap": "\"Clover Mites vs Red Spider Mites\" section",
-     "resolution": "link"
+     "overlap": "Canadian TSX; its \"Clover Mites vs Red Spider Mites\" section and every clover mite search",
+     "resolution": "keeps clover mites; frozen until after the Oct 29-30 read (gsc-review-2026-10-18.md, Appendix C), so not linked at release; the clover mite card shows without a link and the link can be added after Oct 30"
+    },
+    {
+     "path": "/learn/aphid-control-guide and /learn/whitefly-identification-control",
+     "overlap": "live garden guides; the aphid guide's ID table has a spider mite row",
+     "resolution": "no shared targets; link both for the other sap-feeders"
+    },
+    {
+     "path": "/learn/natural-garden-pest-control",
+     "overlap": "live hub (parent)",
+     "resolution": "mustLink; no shared target"
+    },
+    {
+     "path": "tiny-red-bugs (god list day 4, not in the plan yet), thrips and mealybugs (god list day 8)",
+     "overlap": "red specks and other houseplant pests",
+     "resolution": "no shared targets; link once they exist"
+    },
+    {
+     "path": "/blog/doktor-doom-sleep-tight-review-canada and /blog/best-flea-bomb-canada",
+     "overlap": "amazon.ca product pages with stray spider mite impressions",
+     "resolution": "not linked"
     }
    ],
    "resolution": "new page",
@@ -18576,17 +19076,18 @@
     "name": "Garden Pest Control"
    },
    "mustLink": [
-    "/learn/natural-garden-pest-control"
+    "/learn/natural-garden-pest-control",
+    "/blog/houseplant-bugs"
    ],
-   "scope": "Two-spotted spider mites on houseplants, tomatoes and roses: the paper tap test, hot dry weather outbreaks, water sprays, insecticidal soap and oils, and predatory mites.",
+   "scope": "The two-spotted spider mite and its relatives on houseplants, tomatoes, roses, beans, evergreens and other plants, indoors and out: what spider mites look like (tiny eight-legged specks, often with two dark spots; sizes only from UC IPM or a university), the signs (pale stippling or speckling on leaves, yellowing and bronzing, fine webbing over leaves and stems), the white-paper tap test (as UC IPM or an extension service describes it), why outbreaks follow hot, dry, dusty conditions and broad-spectrum insecticide sprays that kill their predators (UC IPM), houseplants in dry indoor heat in winter (the winter angle, only as a source says), what to do (isolate the plant, rinse the leaves with water, insecticidal soap or horticultural oil used as the label says with the plant-safety and pollinator cautions UC IPM gives, predatory mites; no miticide advice beyond a source; no product claims), and spider mites vs look-alikes (clover mites on walls, aphids, thrips and the other tiny red bugs people find). Quick-ID facts table under the quick answer. Links: /blog/houseplant-bugs (mustLink; it keeps \"spider mites on houseplants\" and the houseplant sorter), /learn/natural-garden-pest-control (parent, mustLink), /learn/aphid-control-guide, /learn/whitefly-identification-control. Not linked: the frozen /blog/red-ticks-and-clover-mites (until after Oct 30); amazon.ca product pages. Keep the page general (houseplants and garden plants); do not target grow-room searches. No quote prompt.",
    "flags": [
     "id",
     "pesticide"
    ],
-   "minWords": 1100,
-   "photos": "needed",
+   "minWords": 1200,
+   "photos": "in hand: lead spider-mite-webbing (CC0: two-spotted spider mite colony webbing on a plant; shareable), twospotted-spider-mite (CC BY-SA 2.0), clover-mite (CC BY-SA 4.0, for the look-alike card). Needed: stippled leaf damage on a houseplant or tomato leaf, and mites on a leaf underside with a scale. Writable now with the lead and the two records.",
    "dataAssets": null,
-   "notes": null,
+   "notes": "Brought forward 2026-10-28 from 2026-12-28 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 9: Trends about 77,600 searches a month, winter factor 0.61; winnability 5). Changes: alsoTargets drop \"spider mites on houseplants\" (claimed by /blog/houseplant-bugs, live Oct 20, whose webbing section already links here) and add the look, webbing, damage and how-to variants; minWords 1100 to 1200; mustLink /blog/houseplant-bugs; the Oct 14 \"link\" to /blog/red-ticks-and-clover-mites waits until that page's freeze ends after Oct 30. releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: /blog/houseplant-bugs already links it. The writer does the beat-the-top-3 research into data/god-build/research/top3/spider-mites.md. Writer notes: session scratchpad plan-drafts-top100/day1/spider-mites.md.",
    "wave": 4,
    "suggestedWeek": "2026-12-28",
    "releaseOrder": 153,
@@ -23914,10 +24415,12 @@
     "maggots in house",
     "maggots in trash can",
     "maggots on floor",
+    "what do maggots look like",
+    "how to get rid of maggots",
     "fly larvae"
    ],
    "demand": {
-    "summary": "Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16: maggots in trash can + maggots in house + maggots x0.5 = 1.055 of \"stink bug\" (Nov-Mar 0.28, May-Aug 1.97 of the yearly average); Ahrefs Keywords Explorer, US, 2026-10-16: maggots 95,000; where do maggots come from 10,000; maggots in trash can 5,000; maggots in house 1,400; fly larvae x0.5 11,000 (family 116,900); target \"maggots\" 95,000, KD 17, traffic potential 23,000, parent topic \"maggots\"; demand used: Trends 1.055 and Ahrefs 0.668 agree within 3x: Trends used; Search Console, 90 days to 2026-10-12: Only \"mosquito maggots\" (95 impressions, lands on mosquito larvae); Google page 1, gl=us, \"maggots in house\", 2026-10-16: Reddit, diypestcontrol.com, WebMD, JC Ehrlich, Cat's Eye Pest, Quora; head term \"maggots\": Wikipedia, Britannica, WebMD, diypestcontrol.com, Reddit (no knowledge panel); read: situational searches are weak; the head term has Wikipedia and Britannica first but beatable results below; model estimate, not a measurement: 9.4 clicks a month Nov-Mar (3.8-28.3), 81.3 May-Aug (32.5-243.9), confidence high; evidence from data/god-build/next-wave-research.json (build order 28)",
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 1 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"maggots\" about 268,700 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.5 (Nov-Jan average over the 12-month average), so about 134,000 a month this winter; saved Ahrefs: \"maggots\" 95,000, family 122,400, KD 21 in the god list (17 in the Oct 16 pull). Page one (WebSearch screen, Oct 26; unreliable, re-check at build): Wikipedia twice, two dictionaries and New World Encyclopedia hold the definition; WebMD is next. Search Console, 90 days to 2026-10-26 (query contains \"maggot\"): about 107 impressions, 87 of them \"mosquito maggots\" at 7.9 on /blog/mosquito-larvae-identification; no page of ours answers maggots. Earlier evidence (Oct 16): Google Trends, United States, weekly, 2024-10-01 to 2026-10-10, pulled 2026-10-16: maggots in trash can + maggots in house + maggots x0.5 = 1.055 of \"stink bug\" (Nov-Mar 0.28, May-Aug 1.97 of the yearly average); Ahrefs Keywords Explorer, US, 2026-10-16: maggots 95,000; where do maggots come from 10,000; maggots in trash can 5,000; maggots in house 1,400; fly larvae x0.5 11,000 (family 116,900); target \"maggots\" 95,000, KD 17, traffic potential 23,000, parent topic \"maggots\"; demand used: Trends 1.055 and Ahrefs 0.668 agree within 3x: Trends used; Search Console, 90 days to 2026-10-12: Only \"mosquito maggots\" (95 impressions, lands on mosquito larvae); Google page 1, gl=us, \"maggots in house\", 2026-10-16: Reddit, diypestcontrol.com, WebMD, JC Ehrlich, Cat's Eye Pest, Quora; head term \"maggots\": Wikipedia, Britannica, WebMD, diypestcontrol.com, Reddit (no knowledge panel); read: situational searches are weak; the head term has Wikipedia and Britannica first but beatable results below; model estimate, not a measurement: 9.4 clicks a month Nov-Mar (3.8-28.3), 81.3 May-Aug (32.5-243.9), confidence high; evidence from data/god-build/next-wave-research.json (build order 28)",
     "searchConsole": {
      "window": "90 days to 2026-10-12",
      "summary": "Only \"mosquito maggots\" (95 impressions, lands on mosquito larvae)."
@@ -23990,18 +24493,120 @@
      "confidenceWhy": "results page read on Google; Trends and Ahrefs agree",
      "timing": "jan-feb",
      "timingWhy": "summer earner: build in Jan-Feb so it is indexed and aged by May"
+    },
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 1,
+     "day": 1,
+     "query": "maggots",
+     "type": "Identification: species",
+     "trendsTerm": "maggots",
+     "usSearchesMonthly": 268700,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.5,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": 21,
+     "top5": [
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "dictionary.wordup.com.tw",
+       "tier": "C"
+      },
+      {
+       "domain": "dictionary.com",
+       "tier": "B"
+      },
+      {
+       "domain": "newworldencyclopedia.org",
+       "tier": "B"
+      }
+     ],
+     "takes": "Wikipedia x2 + dictionaries hold the definition intent: page one possible with a maggots-in-trash/house photo-ID + fly-source fixes, top 3 needs links",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. Skipped a duplicate, a wikipedia.com mirror and a spam page. The #3 C is a Taiwanese dictionary (likely an index artifact); skipping it too gives 0.25. WebMD (A) is next at #6.",
+     "statusBefore": "planned 2027-02-01"
+    },
+    "searchConsoleOct26": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'maggot', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "impressions90d": 107,
+     "topQueries": [
+      {
+       "query": "mosquito maggots",
+       "impressions": 87,
+       "position": 7.9,
+       "page": "/blog/mosquito-larvae-identification"
+      },
+      {
+       "query": "carpet maggots photo",
+       "impressions": 4,
+       "position": 6,
+       "page": "/blog/carpet-beetle-larvae"
+      },
+      {
+       "query": "mosquito maggot",
+       "impressions": 3,
+       "position": 2.7,
+       "page": "/blog/mosquito-larvae-identification"
+      },
+      {
+       "query": "what do maggots look like",
+       "impressions": 2,
+       "position": 2,
+       "page": "/blog/mosquito-larvae-identification"
+      },
+      {
+       "query": "water maggots",
+       "impressions": 2,
+       "position": 1,
+       "page": "/learn/mosquito-life-cycle"
+      },
+      {
+       "query": "brown maggots",
+       "impressions": 2,
+       "position": 32,
+       "page": "/blog/tiny-brown-bugs"
+      }
+     ],
+     "note": "One-offs: \"maggots in plant pot\" on /blog/how-to-get-rid-of-fungus-gnats-houseplants, \"moth maggots in house\" on /blog/moths-in-house, fruit fly maggot searches on the two fruit fly pages."
     }
    },
    "collisions": [
     {
-     "path": "/blog/mosquito-larvae-identification",
-     "overlap": "\"mosquito maggots\" and \"worms\" queries",
-     "resolution": "link; a different insect"
+     "path": "/blog/flies-in-house",
+     "overlap": "live Oct 20 fly sorter (\"why are there so many flies in my house\"); its h2 \"Where do the maggots in my house come from?\" is a short maggot section, and it already links /blog/maggots",
+     "resolution": "keeps the adult-fly sorter and its short maggot summary; this page owns every maggot search; link back once for the adult flies (mustLink)"
     },
     {
-     "path": "flies-in-house (new)",
-     "overlap": "the adult flies",
-     "resolution": "link both ways"
+     "path": "/blog/mosquito-larvae-identification",
+     "overlap": "Canadian TSX article: \"mosquito maggots\" (87 impressions at 7.9 in 90 days), \"maggots in water\" and \"what do maggots look like\" (2 at 2.0)",
+     "resolution": "keeps the mosquito-larva searches; frozen until after the Oct 29-30 read (data/god-build/gsc-review-2026-10-18.md, Appendix C), so not linked at release; this page says in one line that wrigglers in standing water are mosquito larvae; the link can be added after Oct 30"
+    },
+    {
+     "path": "/blog/carpet-beetle-larvae",
+     "overlap": "live; \"carpet maggots photo\" (4 impressions at 6) lands there",
+     "resolution": "keeps carpet beetle larvae; a look-alike card links it"
+    },
+    {
+     "path": "/blog/fruit-flies and /blog/how-to-get-rid-of-drain-flies (US editions, planned 2026-10-31)",
+     "overlap": "fruit fly and drain fly larvae (\"drain fly larvae\" and \"small black worms in bathroom\" are drain-flies targets)",
+     "resolution": "no shared target; look-alike rows link them (plain words until Oct 31); the Canadian /blog/how-to-get-rid-of-fruit-flies and /blog/how-to-get-rid-of-drain-flies-canada are frozen to Oct 30 and not linked"
+    },
+    {
+     "path": "/blog/pantry-pests, /blog/moths-in-house and /learn/how-to-get-rid-of-fungus-gnats",
+     "overlap": "live; moth larvae (\"worms\" in flour or rice) and fungus gnat larvae in houseplant soil",
+     "resolution": "no shared targets; look-alike cards and rows link them"
+    },
+    {
+     "path": "bot-flies (planned 2026-12-28)",
+     "overlap": "\"bot fly in human\" (larvae in skin)",
+     "resolution": "bot-flies keeps it; this page gives maggots in people or pets (myiasis) one or two sentences at CDC or MedlinePlus strength and links bot-flies (plain words until it is live)"
     }
    ],
    "resolution": "new page",
@@ -24012,15 +24617,18 @@
     "href": "/learn",
     "name": "Learning Centre"
    },
-   "mustLink": [],
-   "scope": "Photo-led page on maggots (fly larvae) for the \"where did these come from\" search: what maggots are and where they come from (a fly laid eggs on food, garbage or a dead animal), maggots in the trash can, on the floor and in the kitchen, how to clean them up and stop the next batch, and how to tell maggots from other small \"worms\" found indoors. Link flies-in-house (new) both ways for the adult flies and /blog/mosquito-larvae-identification for \"mosquito maggots\" (a different insect). Photos: none on record; blow fly larva or maggot photos (public domain or CC0) are needed before writing.",
-   "flags": [
-    "id"
+   "mustLink": [
+    "/blog/flies-in-house"
    ],
-   "minWords": 1100,
-   "photos": "needed (none on record: blow fly larvae or maggots, public domain or CC0)",
+   "scope": "Photo-led page for the head search \"maggots\" (Wikipedia and dictionaries hold the definition, so lead with what the reader is looking at): what maggots are (fly larvae, mostly house flies, blow flies and flesh flies: legless, no distinct head, cream-white; sizes only from an extension source), where they come from (a fly laid eggs on garbage, food, pet waste or a dead animal; how fast eggs hatch and maggots grow only at an extension source's numbers), a life-cycle row (egg, maggot, pupa, fly: the CDC PHIL set on record), maggots in the trash can, in the kitchen, on the floor or along a wall, including in winter (maggots indoors usually mean an animal has died in a wall, attic or crawl space: Texas A&M AgriLife, as /blog/flies-in-house already cites), how to clean them up and stop the next batch (bag and seal, wash the bin, find and remove the source: sanitation steps at extension strength; no insecticide advice beyond a label or an extension source), are maggots dangerous (food with maggots and myiasis only at CDC, FDA, USDA or MedlinePlus strength), and what else gets called maggots (a look-alike table and confused-with cards: fruit fly and drain fly larvae, fungus gnat larvae, pantry moth larvae, carpet beetle larvae, mealworms, and mosquito larvae in water). Quick-ID facts table under the quick answer (size, color, where found, what it means). Links: /blog/flies-in-house (mustLink, the adult flies), /blog/carpet-beetle-larvae, /blog/pantry-pests, /learn/how-to-get-rid-of-fungus-gnats, the planned /blog/fruit-flies and /blog/how-to-get-rid-of-drain-flies (Oct 31) and /blog/bot-flies. Not linked: the frozen /blog/mosquito-larvae-identification, /blog/how-to-get-rid-of-fruit-flies, /blog/how-to-get-rid-of-drain-flies-canada and /blog/how-to-get-rid-of-cluster-flies-canada; amazon.ca product pages. No quote prompt.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "photos": "in hand: lead fly-maggot (public domain, CDC PHIL; shareable); life-cycle row house-fly-eggs, fly-pupa and house-fly-emerging (public domain, CDC PHIL 25570-25574: see data/god-build/photo-notes-batch6.json; PHIL names the eggs and the emerging fly as house fly, not the maggot or the pupa); house-fly (public domain), green-bottle-fly (CC0), flesh-fly (CC BY 4.0). Cards: drain-fly-larva (CC BY 4.0), carpet-beetle-larva-hallway-wall (CC0), indian-meal-moth-larva (public domain), fungus-gnat (CC BY 2.0). Needed: maggots where people find them (a trash can or bin lid, a kitchen or garage floor: at least one), and a close-up of a blow fly larva if the lead's species stays unnamed. Writable now with the lead and the life-cycle row.",
    "dataAssets": null,
-   "notes": "Added 2026-10-16 from data/god-build/next-wave-research.json (build order 28; summer earner, written in January-February: releaseOn 2027-02-01); that entry is the page's spec (target query, variants, format, overlap decision, photos).",
+   "notes": "Brought forward 2026-10-28 from 2027-02-01 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, data/god-build/research/god-list-2026-10-26.json, rank 1: Trends about 268,700 searches a month, winter factor 0.5; owner's order Oct 26: 10 new pages a day for 10 days from Oct 27). Changes: alsoTargets add \"what do maggots look like\" and \"how to get rid of maggots\"; flags add health; minWords 1100 to 1200; mustLink /blog/flies-in-house; collisions refreshed (flies-in-house went live Oct 20 and already links here; mosquito-larvae-identification is frozen to Oct 30); photos are now on record (the CDC PHIL fly set, batch 6). releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: /blog/flies-in-house already links /blog/maggots. The writer does the beat-the-top-3 research into data/god-build/research/top3/maggots.md. Writer notes: session scratchpad plan-drafts-top100/day1/maggots.md. Earlier: Added 2026-10-16 from data/god-build/next-wave-research.json (build order 28; summer earner, written in January-February: releaseOn 2027-02-01); that entry is the page's spec (target query, variants, format, overlap decision, photos).",
    "wave": 5,
    "suggestedWeek": "2027-01-04",
    "releaseOrder": 199,
@@ -27421,6 +28029,623 @@
    "wave": 2,
    "suggestedWeek": "2026-10-26",
    "releaseOrder": 228,
+   "evidenceScore": null
+  },
+  {
+   "slug": "lice-eggs",
+   "path": "/blog/lice-eggs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "guideCluster": "pest-control",
+   "family": "lice",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Lice Eggs: What Nits Look Like, Nits vs Dandruff, and Live vs Hatched",
+   "metaTitle": "Lice Eggs (Nits): What They Look Like (Photos)",
+   "keyword": "lice eggs",
+   "alsoTargets": [
+    "nits",
+    "what do lice eggs look like",
+    "what do nits look like",
+    "nits vs dandruff",
+    "dead nits vs live nits",
+    "lice eggs in hair",
+    "how to get rid of lice eggs"
+   ],
+   "demand": {
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 2 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"lice eggs\" about 58,600 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 1.01 (Nov-Jan average over the 12-month average): flat all year; saved Ahrefs: \"lice eggs\" 6,900, family 13,800, KD 0 (data/god-build/research/top100-2026-10-26.json). \"nits vs dandruff\" (about 500 a month, Trends) was dropped from the god list as too small and is a side target here. Page one (WebSearch screen, Oct 26; unreliable, re-check at build): Texas A&M AgriLife (two URLs), liceclinicsofamerica.com, Wikipedia, a USPTO patent PDF (an engine artifact) and Healthline: health topic, page one possible with life-size nit photos, top 3 unlikely. Search Console, 90 days to 2026-10-26 (query contains \"lice\"): no head lice, nit or lice-egg search; the \"lice\" rows are booklice (about 50 impressions on /blog/booklice) and stray \"is this lice?\" impressions on two frozen pages. Not in the plan before Oct 28 (research files only).",
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 2,
+     "day": 1,
+     "query": "lice eggs",
+     "type": "Identification: eggs, babies, larvae",
+     "trendsTerm": "lice eggs",
+     "usSearchesMonthly": 58600,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 1.01,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": 0,
+     "top5": [
+      {
+       "domain": "texasinsects.tamu.edu",
+       "tier": "A"
+      },
+      {
+       "domain": "liceclinicsofamerica.com",
+       "tier": "C"
+      },
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "image-ppubs.uspto.gov",
+       "tier": "A"
+      },
+      {
+       "domain": "healthline.com",
+       "tier": "A"
+      }
+     ],
+     "takes": "Texas A&M, Wikipedia and Healthline hold it: page one possible with life-size nit photos (nits vs dandruff, live vs hatched), top 3 unlikely",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. Collapsed a duplicate Texas A&M URL and skipped 1 spam page. #4 is a USPTO patent PDF (A by domain, an engine artifact). Health topic, not scored as medical (no bite or sting).",
+     "statusBefore": "not planned (research files)"
+    },
+    "searchConsole": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'lice', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "impressions90d": 0,
+     "note": "No head lice, nit or lice-egg query. The \"lice\" rows are booklice (about 50 impressions on /blog/booklice), \"license\" matches, and \"is this lice?\" (1 each) on the frozen /blog/bugs-that-look-like-ticks and /blog/tick-vs-bed-bug."
+    },
+    "searchConsoleRegex": "lice eggs?|nits?( |$)|head lice",
+    "ahrefsUS": {
+     "source": "saved Ahrefs US (pulled before the Oct 25 cancellation), via data/god-build/research/top100-2026-10-26.json",
+     "target": {
+      "keyword": "lice eggs",
+      "volume": 6900,
+      "kd": 0
+     },
+     "familyVolume": 13800
+    },
+    "resultsPage": {
+     "read": "WebSearch screen (US) for the god list on 2026-10-26, not Google itself: the writer's beat-the-top-3 step reads Google",
+     "results": "texasinsects.tamu.edu (2), liceclinicsofamerica.com, en.wikipedia.org, image-ppubs.uspto.gov (patent PDF), healthline.com",
+     "assessment": "university extension, a lice-clinic chain, Wikipedia and Healthline; nobody shows nits life-size next to dandruff and hatched shells with CDC and AAD sources"
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/booklice",
+     "overlap": "live Oct 23; \"book lice\" are psocids, not lice, and readers mix the names up; the \"lice\" impressions we have land there",
+     "resolution": "keeps every booklice search; this page says in one line that booklice are not lice and do not live on people, and links it once"
+    },
+    {
+     "path": "/blog/flea-eggs",
+     "overlap": "live; owns \"flea eggs vs dandruff\" (white specks on pets and bedding)",
+     "resolution": "no shared target (flea eggs fall off pets; nits are glued to hair); one look-alike line links it"
+    },
+    {
+     "path": "/blog/bed-bug-bites-but-no-bed-bugs",
+     "overlap": "live; h3 \"Kissing bugs, lice, ticks and spiders\" names lice among other causes of itching",
+     "resolution": "keeps the night-bites sorter; its lice paragraph is the best link-in"
+    },
+    {
+     "path": "/learn/bug-bites",
+     "overlap": "live hub; \"Which other bugs bite people?\"",
+     "resolution": "second link-in candidate; this page links the hub once"
+    },
+    {
+     "path": "/blog/fleas-on-humans (new, same day)",
+     "overlap": "parasites on people",
+     "resolution": "fleas do not live on people, head lice do: link both ways"
+    },
+    {
+     "path": "what-do-lice-look-like (god list day 2, not in the plan yet)",
+     "overlap": "adult and nymph head lice (\"what do lice look like\", about 19,800 a month, Trends)",
+     "resolution": "that page will own adult lice; this page owns eggs and nits, shows one adult louse beside nits for scale, and links it once it exists"
+    },
+    {
+     "path": "body-lice (god list day 7, not in the plan yet)",
+     "overlap": "body lice lay eggs in clothing seams, not on hair",
+     "resolution": "one line here at CDC strength; that page keeps body lice"
+    },
+    {
+     "path": "scabies-vs-bed-bugs (planned 2026-12-14)",
+     "overlap": "another itchy-skin parasite",
+     "resolution": "one look-alike line, linked (plain words until it is live)"
+    },
+    {
+     "path": "frozen and read pages",
+     "overlap": "/blog/flea-bites-on-humans, /blog/tick-vs-bed-bug and /blog/bugs-that-look-like-ticks mention lice in passing; /blog/bugs-that-look-like-bed-bugs-canada and /blog/bed-bug-shells-casings-shed-skins-canada sit nearby; /blog/bed-bug-bites",
+     "resolution": "not linked: frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C); bed-bug-bites is read Nov 3-10"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "scope": "The reader has found something in a child's hair and wants to know whether it is lice. Lead with life-size photos: what lice eggs (nits) look like (tiny oval eggs, yellowish to white, glued at an angle to the hair shaft close to the scalp: sizes and colors only as CDC gives them), where they turn up (behind the ears and at the nape of the neck: CDC), live vs hatched or dead nits (nits more than 1/4 inch from the scalp are almost always hatched or dead: CDC), how long they take to hatch (CDC), nits vs dandruff, hair casts, hair-spray droplets and scabs (a nit is glued on and slides off only with a fingernail or a nit comb; flakes brush away: as CDC, AAD or MedlinePlus say), what finding nits means (an active case needs live lice or nits close to the scalp: CDC), how to remove nits (combing with a fine-toothed nit comb and when to recheck, only as CDC, AAD or MedlinePlus describe; name no brand; no home remedy the sources do not support; repeat CDC's warnings, such as never using kerosene or gasoline), whether nits fall onto bedding or furniture (CDC on lice and nits off the head), and a \"when to get medical care\" warning callout (treatment that fails, red or tender skin that may be infected, pregnancy, nursing or a very young child before treating: MedlinePlus, CDC, AAD). Quick-ID facts table under the quick answer (live nit, hatched shell, dandruff, hair cast: color, shape, where on the hair, does it slide off). Confused-with cards: dandruff (no page), flea eggs (/blog/flea-eggs), booklice (/blog/booklice), adult head louse (what-do-lice-look-like: no link until it exists). Health claims only from CDC, NIH/MedlinePlus, AAD or medical schools; biology may also come from CDC DPDx or a university entomology source, but every health statement needs a medical source. No product advice beyond the generic pick. No quote prompt.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "photos": "none on record. Needed before writing: a public-domain or CC0 lead showing nits glued to hair (CDC PHIL holds head louse and nit images; check PHIL first, then Wikimedia Commons), an adult head louse beside nits for scale, and hatched (empty) shells next to viable eggs if a source image exists; dandruff or hair-cast comparisons only under an allowed licence. The first figure must be public domain or CC0; if no lead turns up, the page waits and the next page on the list moves up.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-28 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, data/god-build/research/god-list-2026-10-26.json, rank 2: Trends about 58,600 searches a month, winter factor 1.01; owner's order Oct 26: 10 new pages a day for 10 days from Oct 27). Not in the plan before (research files only). Medical topic: health claims only from CDC, NIH/MedlinePlus, AAD or medical schools; a \"when to get medical care\" callout; no treatment advice beyond what those sources say. Cluster household (the flea and booklice pages sit there, so the Keep reading cards fit); family lice (what-do-lice-look-like, day 2, and body-lice, day 7, will join it). Parent /learn (no lice hub). releaseOn 2026-10-28 in data/god-build/release-overrides.json; written only once a public-domain or CC0 nit photo is on record. Inbound link at release: /blog/fleas-on-humans (same day) is asked to link it; the link-in step adds one from /blog/bed-bug-bites-but-no-bed-bugs (lice paragraph) or /learn/bug-bites. The amazon.com pick goes in lib/amazon-us-picks.json only after release. The writer does the beat-the-top-3 research into data/god-build/research/top3/lice-eggs.md. Writer notes: session scratchpad plan-drafts-top100/day1/lice-eggs.md.",
+   "wave": 2,
+   "suggestedWeek": "2026-10-26",
+   "releaseOrder": 229,
+   "evidenceScore": null
+  },
+  {
+   "slug": "stick-bugs",
+   "path": "/blog/stick-bugs",
+   "section": "blog",
+   "role": "page",
+   "cluster": "household",
+   "guideCluster": "pest-control",
+   "family": "household",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Stick Bugs (Walkingsticks): How to Identify Them, and Are They Harmful?",
+   "metaTitle": "Stick Bugs (Walkingsticks): Are They Harmful?",
+   "keyword": "stick bug",
+   "alsoTargets": [
+    "stick bugs",
+    "walking stick bug",
+    "walkingstick",
+    "stick insect",
+    "are stick bugs poisonous",
+    "do stick bugs bite",
+    "what do stick bugs eat",
+    "two striped walkingstick"
+   ],
+   "demand": {
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 5 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"stick bug\" about 72,200 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.77 (Nov-Jan average over the 12-month average); saved Ahrefs: \"stick bug\" 54,000, family 56,200, KD 2 (data/god-build/research/top100-2026-10-26.json). Page one (WebSearch screen, Oct 26; unreliable, re-check at build): Wikipedia, WebMD, ecoshieldpest.com (a pest company at #3), Smithsonian Magazine and Texas Parks & Wildlife magazine; National Geographic next: page one possible with US species photo-ID and the harmless-or-not facts. Search Console, 90 days to 2026-10-26 (query contains \"stick\"): one stray impression (\"walking stick bug\" at 2 on /blog/black-flies-ontario-when-they-come-out); every other \"stick\" query is sticky traps or stickers. No page on the site mentions stick insects. Not in the plan before Oct 28 (research files only).",
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 5,
+     "day": 1,
+     "query": "stick bug",
+     "type": "Identification: species",
+     "trendsTerm": "stick bug",
+     "usSearchesMonthly": 72200,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.77,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": 2,
+     "top5": [
+      {
+       "domain": "en.wikipedia.org",
+       "tier": "A"
+      },
+      {
+       "domain": "webmd.com",
+       "tier": "A"
+      },
+      {
+       "domain": "ecoshieldpest.com",
+       "tier": "C"
+      },
+      {
+       "domain": "smithsonianmag.com",
+       "tier": "A"
+      },
+      {
+       "domain": "tpwmagazine.com",
+       "tier": "A"
+      }
+     ],
+     "takes": "Wikipedia, WebMD, Smithsonian and Texas Parks & Wildlife crowd it, but a pest-company page holds #3: page one possible with US species photo-ID + harmless facts; top 3 needs links",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. Collapsed a duplicate EcoShield URL and skipped 1 spam page. tpwmagazine.com counted as a state agency (Texas Parks & Wildlife). National Geographic is next.",
+     "statusBefore": "not planned (research files)"
+    },
+    "searchConsole": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'stick', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "impressions90d": 1,
+     "topQueries": [
+      {
+       "query": "walking stick bug",
+       "impressions": 1,
+       "position": 2,
+       "page": "/blog/black-flies-ontario-when-they-come-out"
+      }
+     ]
+    },
+    "searchConsoleRegex": "stick ?bugs?|walking ?sticks?|stick insects?|phasmid",
+    "ahrefsUS": {
+     "source": "saved Ahrefs US (pulled before the Oct 25 cancellation), via data/god-build/research/top100-2026-10-26.json",
+     "target": {
+      "keyword": "stick bug",
+      "volume": 54000,
+      "kd": 2
+     },
+     "familyVolume": 56200
+    },
+    "resultsPage": {
+     "read": "WebSearch screen (US) for the god list on 2026-10-26, not Google itself: the writer's beat-the-top-3 step reads Google",
+     "results": "en.wikipedia.org, webmd.com, ecoshieldpest.com, smithsonianmag.com, tpwmagazine.com",
+     "assessment": "encyclopedia, a health site, a pest company, a magazine and a state wildlife agency's magazine: no page shows the common US species side by side with real photos and sourced answers on bites and the two-striped walkingstick's spray"
+    }
+   },
+   "collisions": [
+    {
+     "path": "none on the site",
+     "overlap": "no live, scheduled or planned page covers stick insects (grep of content/guides, app/blog, lib and the plans on 2026-10-28; Search Console: one stray impression)",
+     "resolution": "no shared target; the release job needs one link in from a live guide before it lets the page out (see notes)"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [],
+   "scope": "Species ID page for \"stick bug\" (US walkingsticks, order Phasmida): what a stick bug is and how to recognize one (a long, thin, twig-like body, long legs and antennae, green, brown or gray; most US species wingless; sizes only from a university or state agency), the common US species side by side (the northern walkingstick of the eastern US and southern Canada, the two-striped walkingstick of the Southeast, and the giant walkingstick, at the sources' strength), where people find them (on trees and shrubs, and on house walls, decks and screens in late summer and fall: only as a source says), the life cycle (eggs dropped to the ground to overwinter, nymphs in spring, adults late summer to fall: the winter angle is where they go), are stick bugs dangerous (no venom and no bite to people as the sources say; the two-striped walkingstick sprays a defensive fluid that can hurt eyes, of people and pets: UF/IFAS EENY-314, NC State and the Missouri Department of Conservation; first aid for the eyes only as a medical source or poison control says), what they eat and whether they harm trees (leaves of oaks and other trees; outbreaks only as the USDA Forest Service or a university says), can you keep one (native species only as an extension source says; non-native pet stick insects only as USDA APHIS says), and look-alikes (praying mantids, thread-legged assassin bugs, crane flies: a short table and cards; /blog/wheel-bugs for the assassin bug family). Quick-ID facts table under the quick answer. Sources: UF/IFAS Featured Creatures (EENY-314, twostriped walkingstick), Texas A&M Field Guide to Common Texas Insects (walkingsticks), NC State Extension, Missouri Department of Conservation, Penn State Extension, USDA Forest Service, USDA APHIS. No quote prompt.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "photos": "none on record. Needed before writing: a public-domain or CC0 lead of a northern walkingstick (Diapheromera femorata) where people find one (a tree trunk, a deck rail, a house wall), a two-striped walkingstick pair (Anisomorpha buprestoides), and a giant walkingstick or a nymph if records exist (iNaturalist CC0 observations, USFWS or NPS public domain, Wikimedia Commons). Look-alike cards: a praying mantis (no record yet) and the wheel bug already on record for /blog/wheel-bugs. The first figure must be public domain or CC0; if no lead turns up, the page waits and the next page on the list moves up.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-28 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 5: Trends about 72,200 searches a month, winter factor 0.77; owner's order Oct 26). Not in the plan before (research files only). Cluster household and parent /learn (no hub fits; june-bugs, lovebugs and mayflies sit in the same family). releaseOn 2026-10-28 in data/god-build/release-overrides.json; written only once a public-domain or CC0 walkingstick photo is on record. Inbound link at release: none, and no live guide mentions stick insects, so the release job (scripts/release-scheduled.mjs: one link in from another guide) holds the page until one links it. Closest live host for the link-in step: /blog/wheel-bugs (another large, slow insect found on trees and walls in late summer and fall) with a sentence that only says what this page covers; if that reads forced, the page waits for a natural host. The amazon.com pick, if any, goes in lib/amazon-us-picks.json only after release. The writer does the beat-the-top-3 research into data/god-build/research/top3/stick-bugs.md. Writer notes: session scratchpad plan-drafts-top100/day1/stick-bugs.md.",
+   "wave": 2,
+   "suggestedWeek": "2026-10-26",
+   "releaseOrder": 231,
+   "evidenceScore": null
+  },
+  {
+   "slug": "rabbit-poop",
+   "path": "/blog/rabbit-poop",
+   "section": "blog",
+   "role": "page",
+   "cluster": "wildlife",
+   "guideCluster": "pest-control",
+   "family": "droppings",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Rabbit Poop: What Rabbit Droppings Look Like, in the Yard and From a Pet Rabbit",
+   "metaTitle": "Rabbit Poop: What Rabbit Droppings Look Like",
+   "keyword": "rabbit poop",
+   "alsoTargets": [
+    "rabbit droppings",
+    "what does rabbit poop look like",
+    "rabbit poop in yard",
+    "is rabbit poop dangerous",
+    "rabbit poop vs rat poop",
+    "healthy rabbit poop",
+    "rabbit cecotropes"
+   ],
+   "demand": {
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 8 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"rabbit poop\" about 31,600 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.92 (Nov-Jan average over the 12-month average): year-round; saved Ahrefs: \"rabbit poop\" 9,400, KD 0 (data/god-build/research/top100-2026-10-26.json). Page one (WebSearch screen, Oct 26; medium confidence: 4 of 9 results were scraper spam): Chewy, the University of Minnesota open textbook and bunnylady.com: the intent on page one is pet-rabbit health (normal pellets vs cecotropes), not wild-rabbit droppings in a yard, so the page serves both. Search Console, 90 days to 2026-10-26 (query contains \"rabbit\"): \"rabbit poop\" 1 impression at 3 and \"rabbit poop vs deer poop images vs rat\" 1 at 6, both on /blog/animal-droppings. The droppings family went live Oct 20-25.",
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 8,
+     "day": 1,
+     "query": "rabbit poop",
+     "type": "Droppings & signs",
+     "trendsTerm": "rabbit poop",
+     "usSearchesMonthly": 31600,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.92,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": 0,
+     "top5": [
+      {
+       "domain": "chewy.com",
+       "tier": "B"
+      },
+      {
+       "domain": "open.lib.umn.edu",
+       "tier": "A"
+      },
+      {
+       "domain": "bunnylady.com",
+       "tier": "C"
+      }
+     ],
+     "takes": "Pet-health SERP (Chewy, UMN, Bunny Lady); a yard-ID page (rabbit vs deer, squirrel, rat droppings) must also cover pet basics; top 3 plausible with a few links",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. MEDIUM CONFIDENCE: 4 of 9 results were scraper spam (excluded), only 3 real domains. Page-one intent is pet rabbit health (pellets vs cecotropes), not wild-rabbit droppings in the yard.",
+     "statusBefore": "not planned (research files)"
+    },
+    "searchConsole": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'rabbit', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "impressions90d": 2,
+     "topQueries": [
+      {
+       "query": "rabbit poop",
+       "impressions": 1,
+       "position": 3,
+       "page": "/blog/animal-droppings"
+      },
+      {
+       "query": "rabbit poop vs deer poop images vs rat",
+       "impressions": 1,
+       "position": 6,
+       "page": "/blog/animal-droppings"
+      }
+     ]
+    },
+    "searchConsoleRegex": "rabbit (poop|dropping|pellet|scat|manure)|bunny poop|cecotrope",
+    "ahrefsUS": {
+     "source": "saved Ahrefs US (pulled before the Oct 25 cancellation), via data/god-build/research/top100-2026-10-26.json",
+     "target": {
+      "keyword": "rabbit poop",
+      "volume": 9400,
+      "kd": 0
+     }
+    },
+    "resultsPage": {
+     "read": "WebSearch screen (US) for the god list on 2026-10-26, not Google itself: the writer's beat-the-top-3 step reads Google",
+     "results": "chewy.com, open.lib.umn.edu, bunnylady.com (plus scraper spam)",
+     "assessment": "pet-health pages; nobody answers the yard question (rabbit or deer, rat, squirrel) with sourced sizes and real photos, and nobody covers both the yard and the pet rabbit"
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/animal-droppings",
+     "overlap": "live Oct 20 sorter (\"animal poop identification\"); a rabbit row (\"deer and rabbits leave pellets\") and the only rabbit impressions we have",
+     "resolution": "keeps the chart and every \"what animal poop is this\" search; its rabbit row is the best link-in; this page links the chart for other animals (mustLink)"
+    },
+    {
+     "path": "/blog/deer-poop",
+     "overlap": "live Oct 25; owns \"deer poop vs rabbit poop\" (its own h2) and shows a rabbit card without a link",
+     "resolution": "keeps the deer-or-rabbit comparison; this page gives deer one row and links it (mustLink); the rabbit card and the comparison section are the second link-in"
+    },
+    {
+     "path": "/blog/rat-droppings, /blog/mouse-poop, /blog/squirrel-poop and /blog/raccoon-poop",
+     "overlap": "droppings family siblings",
+     "resolution": "cards and rows link them; no shared targets (rat-droppings keeps rat vs mouse and rat vs squirrel, squirrel-poop keeps squirrel vs rat, mouse and bat)"
+    },
+    {
+     "path": "tularemia (planned 2026-12-21)",
+     "overlap": "\"rabbit fever\"",
+     "resolution": "tularemia keeps it; this page says only what CDC says about rabbits and tularemia (handling sick or dead animals, not droppings) and links it (plain words until it is live)"
+    },
+    {
+     "path": "possum-poop (planned 2026-10-20, blocked on a photo)",
+     "overlap": "droppings family",
+     "resolution": "no shared target; link once it is live"
+    },
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "Canadian mouse droppings page (animal-droppings links it)",
+     "resolution": "frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C): not linked; link /blog/mouse-poop instead"
+    },
+    {
+     "path": "/blog/best-deer-fence-for-gardens-canada and /blog/raccoon-deterrent",
+     "overlap": "amazon.ca pages about keeping animals out of yards",
+     "resolution": "not linked"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "mustLink": [
+    "/blog/deer-poop",
+    "/blog/animal-droppings"
+   ],
+   "scope": "For the person looking at small round pellets on a lawn or in a litter box. Wild rabbits first (cottontails across most of the US and southern Canada, jackrabbits in the West, at the sources' strength): what rabbit poop looks like (round, slightly flattened, pea-sized pellets of chewed plant fiber, usually in small groups where rabbits feed or rest; sizes in inches only from UC IPM, ICWDM or a state wildlife agency), where you find it (lawns, under shrubs, beside gardens, and on snow beside bark-chewed shrubs in winter, with the rabbit damage signs ICWDM or UC IPM describe), rabbit vs deer in one row with a link (/blog/deer-poop owns that comparison), rabbit vs rat, mouse and squirrel droppings (a shape-and-size table: round vs spindle-shaped), fresh vs old (only as a source says), is rabbit poop dangerous (to people: gloves and handwashing as health agencies advise for animal droppings; tularemia only as CDC says, which is about handling sick or dead animals; dogs that eat rabbit droppings only from a veterinary school or AVMA source), and rabbit droppings in the garden (as manure only if an extension source says so, with the food-safety caution it gives for manure on edible crops; no fertilizer claims beyond it). Then pet rabbits, which page one serves today: normal fecal pellets vs cecotropes (the soft droppings rabbits eat: Merck or MSD Veterinary Manual, a veterinary school such as UF's College of Veterinary Medicine), and when droppings mean a vet visit (fewer, smaller or no pellets, or diarrhea: veterinary sources only; a short warning callout, no diagnosis). Quick-ID facts table under the quick answer. Cards: deer (/blog/deer-poop), rat (/blog/rat-droppings), mouse (/blog/mouse-poop), squirrel (/blog/squirrel-poop), raccoon (/blog/raccoon-poop). Sources: ICWDM (rabbits; rabbit damage identification), UC IPM Pest Notes (rabbits), Missouri Department of Conservation (eastern cottontail), CDC (tularemia, handwashing), Merck or MSD Veterinary Manual, UF College of Veterinary Medicine. Not linked: the frozen /blog/what-does-mouse-poop-look-like-canada; amazon.ca pages. No quote prompt.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "photos": "in hand: lead cottontail-droppings (CC0: droppings identified as eastern cottontail by seven iNaturalist users; shareable). Cards: deer-droppings-snow (public domain, NPS), rat-droppings-thumb (CC0), gray-squirrel-droppings-ledge (CC BY 4.0), raccoon-scat-lawn-ruler (CC0), and the mouse droppings record used on /blog/mouse-poop. Needed: pellets beside a ruler or coin, an eastern cottontail (USFWS or NPS public domain) for a card or the yard section, droppings on snow beside a chewed shrub (winter), and a pet rabbit's pellets (cecotropes only if a trustworthy record exists; the USFWS pygmy rabbit droppings photo was rejected in batch 7 as too small to stand for a cottontail). Writable now with the lead and the cards.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-28 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 8: Trends about 31,600 searches a month, winter factor 0.92; owner's order Oct 26). Droppings family (the owner's Priority #1 family, Oct 19); copy the format of data/god-build/research/droppings-top3.md for the top-3 notes. Not in the plan before (research files only; the deer-poop entry said a future rabbit page keeps \"rabbit poop\"). Parent /learn, like the other droppings pages; mustLink /blog/deer-poop and /blog/animal-droppings. releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: none yet; the link-in step adds one from /blog/animal-droppings (rabbit row) or /blog/deer-poop (its rabbit card and the deer vs rabbit section). The amazon.com pick goes in lib/amazon-us-picks.json only after release. The writer does the beat-the-top-3 research into data/god-build/research/top3/rabbit-poop.md. Writer notes: session scratchpad plan-drafts-top100/day1/rabbit-poop.md.",
+   "wave": 2,
+   "suggestedWeek": "2026-10-26",
+   "releaseOrder": 232,
+   "evidenceScore": null
+  },
+  {
+   "slug": "fleas-on-humans",
+   "path": "/blog/fleas-on-humans",
+   "section": "blog",
+   "role": "page",
+   "cluster": "fleas",
+   "guideCluster": "pest-control",
+   "family": "fleas",
+   "pageType": "entity-id",
+   "audience": "na",
+   "title": "Fleas on Humans: Can Fleas Live on People, and Where Do They Come From?",
+   "metaTitle": "Fleas on Humans: Can Fleas Live on People?",
+   "keyword": "fleas on humans",
+   "alsoTargets": [
+    "can fleas live on humans",
+    "can humans get fleas",
+    "do fleas bite humans",
+    "can fleas live in human hair",
+    "signs of fleas on humans",
+    "human flea",
+    "fleas on human skin"
+   ],
+   "demand": {
+    "summary": "God list (data/god-build/research/god-list-2026-10-26.json, rank 10 of 100, day 1): Google Trends, US, 12 months to 2026-10-26 (data/god-build/research/trends-2026-10-26.json), \"fleas on humans\" about 29,900 searches a month (a cluster volume: Trends counts every search containing the words; calibrated to brown recluse = 383,000), winter factor 0.79 (Nov-Jan average over the 12-month average); saved Ahrefs: \"fleas on humans\" 4,800, family 9,600, KD 8 (data/god-build/research/top100-2026-10-26.json). Page one (WebSearch screen, Oct 26; low confidence, 7 of 9 results spam): PetMD and EBSCO. Planner WebSearch, Oct 28: \"fleas on humans\" returned PetMD, Elanco, Chewy, J.C. Ehrlich (\"do fleas bite humans\"), pestnet, Ecoguard and Terminix among spam, and \"can fleas live on humans\" returned Healthline, Elanco and PetMD: the page-one intent is whether fleas live on and bite people, not bite photos. Search Console, 90 days to 2026-10-26 (query contains \"fleas on\", and \"flea\" with \"human\" or \"people\"): the family lands on the Canadian /blog/flea-bites-on-humans (frozen) at poor positions (\"do fleas bite humans\" 57 impressions at 17.8, \"black fleas on humans\" 42 at 17.3, \"signs of fleas on humans\" 29 at 12.3, \"fleas on humans\" 21 at 26.0, \"fleas on human skin\" 18 at 14.7, \"how small are fleas on humans\" 16 at 14.5), while its bite searches rank about 10-11 (\"flea bites on humans\" 593 at 11.4). Not in the plan before Oct 28 (research files only).",
+    "godList": {
+     "source": "data/god-build/research/god-list-2026-10-26.json (THE FINAL GOD LIST, owner Oct 26, 2026) and data/god-build/research/trends-2026-10-26.json",
+     "rank": 10,
+     "day": 1,
+     "query": "fleas on humans",
+     "type": "Droppings & signs",
+     "trendsTerm": "fleas on humans",
+     "usSearchesMonthly": 29900,
+     "volumeNote": "Google Trends, US, past 12 months to 2026-10-26, calibrated to brown recluse = 383,000 a month; a cluster volume (Trends counts every search containing the words), comparable between topics, not an exact-phrase volume",
+     "winterFactor": 0.79,
+     "winterNote": "Nov-Jan average / 12-month average",
+     "winnability": null,
+     "kd": 8,
+     "top5": [
+      {
+       "domain": "petmd.com",
+       "tier": "B"
+      },
+      {
+       "domain": "ebsco.com",
+       "tier": "B"
+      }
+     ],
+     "takes": "LOW CONFIDENCE: only PetMD and EBSCO came back. A page on whether fleas live on people, bite photos and where they come from may reach page one, but re-screen first",
+     "serpNote": "page-one screen unreliable (spam/empty results): re-check at build. 7 of 9 results were spam or parasite pages (skipped), so the score is an upper bound. Scored as medical (bites on people); without that it would be 7.",
+     "statusBefore": "not planned (research files)"
+    },
+    "searchConsole": {
+     "window": "90 days 2026-07-29 to 2026-10-26 (query contains 'fleas on', and 'flea' with 'human' or 'people', query x page, dataState all; pulled 2026-10-28 by the top-100 day-1 planner: use it for which page Google shows, not for totals)",
+     "topQueries": [
+      {
+       "query": "do fleas bite humans",
+       "impressions": 57,
+       "position": 17.8,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "black fleas on humans",
+       "impressions": 42,
+       "position": 17.3,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "signs of fleas on humans",
+       "impressions": 29,
+       "position": 12.3,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "fleas on humans",
+       "impressions": 21,
+       "position": 26,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "fleas on human skin",
+       "impressions": 18,
+       "position": 14.7,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "how small are fleas on humans",
+       "impressions": 16,
+       "position": 14.5,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "can fleas bite humans",
+       "impressions": 13,
+       "position": 19.8,
+       "page": "/blog/flea-bites-on-humans"
+      },
+      {
+       "query": "flea bites on humans",
+       "impressions": 593,
+       "position": 11.4,
+       "page": "/blog/flea-bites-on-humans"
+      }
+     ],
+     "note": "The bite searches (last row) belong to /blog/flea-bites-on-humans (Canada) and /blog/flea-bites (US, Oct 31); the rest are this page's family, today landing on a bites page at 12-26."
+    },
+    "searchConsoleRegex": "fleas? (on|live on|in) (humans?|people|human hair|skin)|humans? (get|carry) fleas|human flea|do fleas bite (humans|people)",
+    "ahrefsUS": {
+     "source": "saved Ahrefs US (pulled before the Oct 25 cancellation), via data/god-build/research/top100-2026-10-26.json",
+     "target": {
+      "keyword": "fleas on humans",
+      "volume": 4800,
+      "kd": 8
+     },
+     "familyVolume": 9600
+    },
+    "resultsPage": {
+     "read": "WebSearch screen (US) for the god list on 2026-10-26 plus the planner's WebSearch on 2026-10-28, not Google itself: the writer's beat-the-top-3 step reads Google",
+     "results": "petmd.com, ebsco.com (screen); petmd.com, elanco.com, chewy.com, jcehrlich.com, pestnet.com, ecoguardpestmanagement.com, terminix.com, healthline.com (Oct 28)",
+     "assessment": "pet brands, pest companies and Healthline answer \"can fleas live on humans\"; none pairs CDC and extension sources with real photos of fleas on people and the human flea"
+    }
+   },
+   "collisions": [
+    {
+     "path": "/blog/flea-bites-on-humans",
+     "overlap": "Canadian TSX article (\"What Do Flea Bites Look Like on Humans? Photos\"): holds \"flea bites on humans\" (593 impressions at 11.4 in 90 days) and collects the \"fleas on humans\" family at 12-26",
+     "resolution": "keeps every flea-bite search for Canadian readers; this page does not target bite appearance and gives bites two or three sentences; frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C): not linked at release"
+    },
+    {
+     "path": "/blog/flea-bites (US edition, planned 2026-10-31)",
+     "overlap": "owns \"flea bites\" and \"flea bites on humans\" for US readers",
+     "resolution": "this page's bite paragraph links it (plain words until Oct 31); no bite gallery here"
+    },
+    {
+     "path": "/blog/what-do-fleas-look-like",
+     "overlap": "live; owns \"what do fleas look like on humans\" (h2 \"What do fleas look like on people?\", which already says cat fleas do not normally live on people)",
+     "resolution": "keeps the look-up searches; this page links it for appearance (mustLink); that sentence is the best link-in"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-fleas",
+     "overlap": "live; owns \"how to get rid of fleas on humans\" (h2)",
+     "resolution": "keeps removal; this page's what-to-do section is short and links it (mustLink); its humans section is the second link-in"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-fleas, /blog/flea-dirt and /blog/flea-eggs",
+     "overlap": "live flea family",
+     "resolution": "no shared targets; linked where the reader is unsure it is fleas or finds specks"
+    },
+    {
+     "path": "/blog/lice-eggs (new, same day)",
+     "overlap": "parasites on people",
+     "resolution": "head lice do live on people, fleas do not: link both ways"
+    },
+    {
+     "path": "sand-fleas (planned 2026-12-28), murine-typhus (planned 2026-12-21), bird-mites (planned 2027-02-01), rat-mites (planned 2026-12-21)",
+     "overlap": "the chigoe flea that burrows into skin, flea-borne typhus, and the mites people mistake for fleas on their skin",
+     "resolution": "one line each at CDC strength, linked (plain words until they are live)"
+    },
+    {
+     "path": "frozen, read and product pages",
+     "overlap": "/blog/chigger-bites, /blog/no-see-um-bites and /blog/bugs-that-look-like-bed-bugs-canada (frozen to Oct 30); /blog/bed-bug-bites (read Nov 3-10); amazon.ca pages (/blog/best-flea-spray-for-home-canada, /blog/best-flea-bomb-canada, /blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada, /blog/wondercide-canada-review)",
+     "resolution": "not linked"
+    }
+   ],
+   "resolution": "new page",
+   "pairWith": null,
+   "priority": 2,
+   "gate": null,
+   "parent": {
+    "href": "/learn/fleas",
+    "name": "Fleas"
+   },
+   "mustLink": [
+    "/learn/fleas",
+    "/blog/what-do-fleas-look-like",
+    "/blog/how-to-get-rid-of-fleas"
+   ],
+   "scope": "Re-aimed from the god list's \"bite photos and where they come from\", because three of our pages own the neighboring searches: this page answers what people mean by \"fleas on humans\", can fleas live on people? Lead with the answer as CDC and the extension sources give it: the cat flea, the usual flea on US dogs and cats, bites people but does not live or breed on them (why: it needs an animal host to reproduce; fur vs human hair only at the sources' strength); the human flea (Pulex irritans: UF/IFAS EENY-798, CDC DPDx); whether fleas live in human hair; how fleas get on you (pets, a home where pets lived, wildlife and stray animals, fleas carried on clothing: CDC or extension); signs that fleas are biting you (bites usually on ankles and lower legs, fleas jumping onto white socks, flea dirt where pets sleep: two or three sentences, linking /blog/flea-bites for the bites and /blog/what-do-fleas-look-like for the insect); why fleas bite one person and not another (only if a source says it); fleas in a house with no pets (link /blog/how-to-get-rid-of-fleas); flea-borne diseases in one short paragraph at CDC strength (flea-borne typhus, plague in the western US, Bartonella or cat scratch disease); what to do (treat pets and the home, linking /blog/how-to-get-rid-of-fleas; personal repellents only as CDC says); and a \"when to get medical care\" warning callout (bites that look infected, a spreading rash, fever after flea bites, signs of an allergic reaction: CDC, MedlinePlus or AAD). Mites and other bugs felt on the skin in one line (bird and rat mites, planned) and the chigoe flea in one line (sand-fleas, planned). Quick-ID facts table under the quick answer (flea, head louse, bed bug, bird mite: lives on people? where it bites, how to confirm). Health claims only from CDC, NIH/MedlinePlus, AAD or medical schools; biology may also come from UC IPM, Texas A&M or UF/IFAS. No quote prompt.",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "photos": "in hand: lead flea-on-comb (public domain, CDC 2024: a flea on a fine-toothed comb held in a hand; shareable); cat-flea-on-fingertip (CC BY 4.0: a cat flea on a person's fingertip; below the lead), cat-flea-scale-bar (public domain), flea-bites-ankles-cdc (public domain; one bite figure at most, the gallery belongs to /blog/flea-bites), flea-dirt-on-dog (public domain), oriental-rat-flea (public domain). Optional: a human flea (Pulex irritans) image from CDC PHIL. Writable now.",
+   "dataAssets": null,
+   "notes": "Added 2026-10-28 for day 1 of the owner's top-100 build (THE FINAL GOD LIST, rank 10: Trends about 29,900 searches a month, winter factor 0.79; owner's order Oct 26). Not in the plan before (research files only). Partial collision, not the same search: the Canadian /blog/flea-bites-on-humans (frozen) already collects the \"fleas on humans\" family at positions 12-26, and three US pages own the neighbors (what-do-fleas-look-like: \"what do fleas look like on humans\"; how-to-get-rid-of-fleas: \"how to get rid of fleas on humans\"; flea-bites, Oct 31: \"flea bites on humans\"). Re-aimed at \"can fleas live on people?\", which is what page one answers for \"fleas on humans\" (WebSearch, Oct 28); slug and target stay. If the writer's Google read shows page one for \"fleas on humans\" is bite-photo pages, stop and ask: the owner then decides between holding the page and folding it into /blog/flea-bites. Medical topic: health claims only from CDC, NIH/MedlinePlus, AAD or medical schools; a \"when to get medical care\" callout; no treatment advice beyond what those sources say. Parent /learn/fleas (deferred: goes out under /learn); mustLink /blog/what-do-fleas-look-like and /blog/how-to-get-rid-of-fleas. releaseOn 2026-10-28 in data/god-build/release-overrides.json. Inbound link at release: none yet; the link-in step adds one from /blog/what-do-fleas-look-like (\"Cat fleas do not normally live on people\") or /blog/how-to-get-rid-of-fleas (humans section); /blog/lice-eggs (same day) is asked to link it. The amazon.com pick goes in lib/amazon-us-picks.json only after release. The writer does the beat-the-top-3 research into data/god-build/research/top3/fleas-on-humans.md. Writer notes: session scratchpad plan-drafts-top100/day1/fleas-on-humans.md.",
+   "wave": 2,
+   "suggestedWeek": "2026-10-26",
+   "releaseOrder": 233,
    "evidenceScore": null
   }
  ],
