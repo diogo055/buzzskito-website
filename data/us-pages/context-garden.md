@@ -16,7 +16,7 @@
 
 - `/blog/leaf-footed-bugs` — **leaf footed bug** (also: leaf footed bug nymph; leaf footed bug tomato damage; leaf footed bug vs assassin bug). Leptoglossus in southern and western gardens: nymphs and adults, fruit damage on tomatoes, pomegranates and citrus, hand removal, and how they differ from kissing and assassin bugs.
 
-- `/blog/japanese-beetles` — **japanese beetle** (also: japanese beetle traps; japanese beetle grub; japanese beetle vs june bug). Popillia japonica in the US and Canada (including the Vancouver and Ontario situations): identification, skeletonized leaves, why traps can attract more beetles, hand-picking, and the grub stage.
+- `/blog/japanese-beetles` — **japanese beetle** (also: japanese beetles; what do japanese beetles look like; japanese beetle vs june bug; japanese beetle damage; japanese beetle traps; japanese beetle grub; japanese beetle life cycle; false japanese beetle). Photo-ID page for "japanese beetle" (Wikipedia, iNaturalist and UConn hold page one). US-first, Canada in one line: what a Japanese beetle looks like (about 7/16 inch, metallic green head and thorax, copper-brown wing covers, a row of white hair tufts along each side: University of Kentucky ENTFACT-451; sizes only from a university or USDA), where it lives in the US (most states east of the Mississippi and spreading west; the western states' quarantines and USDA's program only at USDA APHIS strength), when adults are active (emerging in June, peaking for 4 to 6 weeks from late June, each adult living about 30 to 45 days: UK ENTFACT-451) and the plants they favor (an extension list: roses, lindens, grapes, raspberries and others), the damage (skeletonized leaves, chewed flowers and fruit), the life cycle (eggs in turf in midsummer, grubs feeding on roots into fall, overwintering in the soil, pupating in spring), the grub in one section (lawn damage and milky spore only as Purdue and /blog/lawn-pest-control give them; link lawn-pest-control and lawn-grubs), do Japanese beetle traps work? (University of Kentucky research: traps attract far more beetles than they catch, so plants near traps and along the flight path can be damaged more, and traps probably do more harm than good in most landscapes; say only what the sources say about placement), what to do (hand-picking into soapy water, netting or row covers on small plants, and insecticides only by the type an extension source names, with the label's bee and pollinator warnings: pesticide flag), and Japanese beetle vs June bug and the other look-alikes (green June beetle, false Japanese beetle, rose chafer, six-spotted tiger beetle, dogbane beetle: a quick-ID table and cards). Quick-ID facts table under the quick answer. Links: /learn/natural-garden-pest-control (mustLink), /blog/june-bugs (mustLink, same day), /blog/lawn-pest-control. Not linked: the frozen /blog/bugs-that-look-like-ticks; /blog/june-bugs-ontario (link the US edition). No quote prompt.
 
 - `/blog/spider-mites` — **spider mites** (also: spider mites on plants; what do spider mites look like; how to get rid of spider mites; spider mite webbing; spider mite damage; spider mites treatment; two spotted spider mite). The two-spotted spider mite and its relatives on houseplants, tomatoes, roses, beans, evergreens and other plants, indoors and out: what spider mites look like (tiny eight-legged specks, often with two dark spots; sizes only from UC IPM or a university), the signs (pale stippling or speckling on leaves, yellowing and bronzing, fine webbing over leaves and stems), the white-paper tap test (as UC IPM or an extension service describes it), why outbreaks follow hot, dry, dusty conditions and broad-spectrum insecticide sprays that kill their predators (UC IPM), houseplants in dry indoor heat in winter (the winter angle, only as a source says), what to do (isolate the plant, rinse the leaves with water, insecticidal soap or horticultural oil used as the label says with the plant-safety and pollinator cautions UC IPM gives, predatory mites; no miticide advice beyond a source; no product claims), and spider mites vs look-alikes (clover mites on walls, aphids, thrips and the other tiny red bugs people find). Quick-ID facts table under the quick answer. Links: /blog/houseplant-bugs (mustLink; it keeps "spider mites on houseplants" and the houseplant sorter), /learn/natural-garden-pest-control (parent, mustLink), /learn/aphid-control-guide, /learn/whitefly-identification-control. Not linked: the frozen /blog/red-ticks-and-clover-mites (until after Oct 30); amazon.ca product pages. Keep the page general (houseplants and garden plants); do not target grow-room searches. No quote prompt.
 
@@ -450,6 +450,17 @@
 - `/blog/stick-bugs` — stick bug
 - `/blog/rabbit-poop` — rabbit poop
 - `/blog/fleas-on-humans` — fleas on humans
+- `/blog/baby-snakes` — baby snakes
+- `/blog/mite-bites` — mite bites
+- `/blog/baby-rats` — baby rats
+- `/blog/bed-bug-eggs` — bed bug eggs
+- `/blog/snake-poop` — snake poop
+- `/blog/what-do-lice-look-like` — what do lice look like
+- `/blog/bugs-in-carpet` — bugs in carpet
+- `/blog/tiny-white-bugs` — tiny white bugs
+- `/blog/rat-nest` — rat nest
+- `/blog/bugs-in-bathroom` — bugs in bathroom
+- `/blog/bugs-in-kitchen` — bugs in kitchen
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

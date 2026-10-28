@@ -46,7 +46,7 @@
 
 - `/learn/ant-killer-recipes` — **homemade ant killer**. Three or four homemade ant killer recipes, each taken from a university extension or other authoritative source and given with EXACT measurements in US kitchen units: a borax and sugar liquid bait, a borax protein or grease bait for ants that ignore sugar, a vinegar and water trail-breaker for cleanup, and soapy water as a contact spray if a source supports it. Use one recipe block per recipe. For every recipe state what it does and does not do, how long it takes, and a pet and child safety tier with the reason. Explain how to make a simple bait station that keeps bait away from pets and children, why a weak borax bait beats a strong one, and when homemade bait fails. End with a printable recipe card. Never say the recipes were tested by BuzzSkito: say which source publishes each one.
 
-- `/blog/fire-ant-stings` — **fire ant bite** (also: fire ant sting; fire ant bites pictures; fire ant bite treatment). The sting sequence, the sterile pustule a day later (do not pop it), pictures by day, home care, infection, anaphylaxis signs and the people at higher risk.
+- `/blog/fire-ant-stings` — **fire ant bite** (also: fire ant bites; fire ant sting; fire ant bites pictures; fire ant bite treatment; fire ant bite blister; fire ant bite pustule; how long do fire ant bites last; fire ant bite allergic reaction). Bite page for "fire ant bite" (the searchers' word; the injury is a sting, and the ant grips with its jaws while it stings: say so once, at the sources' strength). Medical topic: CDC strength only. Lead with CDC NIOSH: a burning sting and red bumps that develop into white, fluid-filled pustules within a day or two (quote CDC). Pictures by stage from the CDC PHIL set (fresh welts, pustules with a red halo, several stings in groups because fire ants swarm when a mound is disturbed), how long they last and how they heal (only as a medical source says), do not pop the pustules and the signs of infection (Cleveland Clinic, Mayo Clinic, AAD or MedlinePlus), home care only as CDC NIOSH gives it (rub the ants off briskly; antihistamines following the package directions) and as those medical sources add (washing, cool compresses; a cream only if a named medical source says so; no doses). A "When to get emergency care" warning callout with CDC NIOSH's list (severe chest pain, nausea, severe sweating, loss of breath, serious swelling, slurred speech), anaphylaxis signs and allergist referral only as AAAAI or a medical school describes them (venom immunotherapy only at AAAAI's strength). Who is at higher risk (only as a source says), pets in one line from a veterinary school. Where fire ants live (CDC NIOSH: mostly the Southeast, with limited distribution in New Mexico, Arizona and California; a map only from USDA APHIS's imported fire ant quarantine) and how to avoid stings (CDC NIOSH). Quick-ID facts table: a fire ant sting vs mosquito, flea, chigger, bed bug and spider bites (feel, look, pattern, timing). Fire ant identification and mound control stay on /blog/red-ants (mustLink), ant bites in general on /blog/do-ants-bite. Health claims only from CDC (NIOSH), NIH/MedlinePlus, AAD, AAAAI, Mayo Clinic or Cleveland Clinic, never stronger than CDC; Texas A&M AgriLife's fire ant program for ant biology. No quote prompt and no product that treats the sting.
 
 - `/blog/crazy-ants` — **crazy ants** (also: tawny crazy ant; rasberry crazy ant; crazy ants vs fire ants). Longhorn and tawny (rasberry) crazy ants in the Gulf states: erratic movement, huge outdoor populations, short-circuits in electrical boxes, why baits work poorly, and how they displace fire ants.
 
@@ -465,6 +465,17 @@
 - `/blog/stick-bugs` — stick bug
 - `/blog/rabbit-poop` — rabbit poop
 - `/blog/fleas-on-humans` — fleas on humans
+- `/blog/baby-snakes` — baby snakes
+- `/blog/mite-bites` — mite bites
+- `/blog/baby-rats` — baby rats
+- `/blog/bed-bug-eggs` — bed bug eggs
+- `/blog/snake-poop` — snake poop
+- `/blog/what-do-lice-look-like` — what do lice look like
+- `/blog/bugs-in-carpet` — bugs in carpet
+- `/blog/tiny-white-bugs` — tiny white bugs
+- `/blog/rat-nest` — rat nest
+- `/blog/bugs-in-bathroom` — bugs in bathroom
+- `/blog/bugs-in-kitchen` — bugs in kitchen
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

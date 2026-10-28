@@ -456,6 +456,17 @@
 - `/blog/stick-bugs` — stick bug
 - `/blog/rabbit-poop` — rabbit poop
 - `/blog/fleas-on-humans` — fleas on humans
+- `/blog/baby-snakes` — baby snakes
+- `/blog/mite-bites` — mite bites
+- `/blog/baby-rats` — baby rats
+- `/blog/bed-bug-eggs` — bed bug eggs
+- `/blog/snake-poop` — snake poop
+- `/blog/what-do-lice-look-like` — what do lice look like
+- `/blog/bugs-in-carpet` — bugs in carpet
+- `/blog/tiny-white-bugs` — tiny white bugs
+- `/blog/rat-nest` — rat nest
+- `/blog/bugs-in-bathroom` — bugs in bathroom
+- `/blog/bugs-in-kitchen` — bugs in kitchen
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
