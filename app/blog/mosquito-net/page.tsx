@@ -13,6 +13,8 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-net'
 const DATE = '2026-07-12'
@@ -58,6 +60,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('cone-mosquito-net-double-bed'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-net-canada')
@@ -65,7 +68,7 @@ const AMZ_TAG = tagForSlug('mosquito-net-canada')
 export default function MosquitoNetCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A use-case buyer’s guide to mosquito nets in Canada — bed, head, hammock, stroller, and patio nets with 2026 pricing.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A use-case buyer’s guide to mosquito nets in Canada — bed, head, hammock, stroller, and patio nets with 2026 pricing.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('cone-mosquito-net-double-bed') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Net Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -236,14 +239,30 @@ export default function MosquitoNetCanadaPage() {
           <NextUp path="/blog/mosquito-net" />
           <h2>Bed canopy vs pop-up bed net</h2>
           <p>For a permanent bedroom, a <strong>rectangular four-corner canopy net</strong> is the best sleep experience: it hangs from four points (or a ceiling hook plus a frame) and gives you vertical walls, so the mesh stays well off your face and body. Avoid the pretty single-point cone canopies for anything bigger than a single bed &mdash; a cone tapers inward and leaves the corners of a queen or king exposed, and wherever your shoulder or knee touches the mesh, a mosquito can bite through it. A good rectangular canopy runs $30&ndash;$70 in Canada. If the mosquitoes are getting in through a door rather than reaching the bed from indoors, the cheaper fix is upstream &mdash; <Link href="/blog/best-magnetic-screen-door-canada" className="text-brand-700 underline">a magnetic screen door</Link> stops them entering in the first place.</p>
+          <Photo
+            id="cone-mosquito-net-double-bed"
+            alt="White cone-shaped mosquito net hung from the ceiling over a double bed with two pillows in a wooden-walled bungalow"
+            caption="A cone-shaped mosquito net hung from the ceiling over a double bed in a bungalow in Kep, Cambodia. A cone tapers inward toward the top, which is why a rectangular four-corner net is the better choice for a queen or king bed."
+          />
           <p>If you rent, travel, or sleep at a cottage where you cannot drill a ceiling hook, buy a <strong>free-standing pop-up bed net</strong> instead. It has its own spring frame, sets up in seconds, seals underneath so nothing crawls in, and folds flat into a disc for storage. Expect $35&ndash;$80. It is also the friendliest option for a child&rsquo;s bed &mdash; no hardware, no drape to pull down. For a <strong>crib</strong>, skip both and buy a fitted dome crib net ($20&ndash;$45) sized to the crib so there are no loose edges a baby can pull in.</p>
           <p>A net is the guaranteed answer for the mosquito that has already found your bedroom, but it is not the only one &mdash; a fan aimed across the bed works on the same weak-flier physics for a fraction of the setup, and the insect still got in through a torn screen or hatched from water sitting somewhere in the house. Our walkthrough of <Link href="/blog/how-to-get-rid-of-mosquitoes-in-the-house">how to hunt down a mosquito in a bedroom</Link> covers finding it, killing it, and closing the route it used.</p>
+          <p>Not sure a mosquito is what is biting you at night? Our <Link href="/tools/bug-bite-identifier">bug bite identifier</Link> asks six quick questions and shows the most likely biters, each with a real photo.</p>
 
           <h2>Head nets and net hats: the best $12 you can spend</h2>
           <p>A <strong>head net</strong> &mdash; a fine-mesh hood worn over a wide-brim hat &mdash; is the single most cost-effective piece of insect protection in existence. For $8&ndash;$20 it keeps mosquitoes, black flies, and no-see-ums off your face and neck completely, which is exactly where bugs are most maddening. Buy one with a built-in brim ring or pair it with a stiff-brim hat so the mesh is held away from your skin; a net that sags onto your cheek lets bugs bite through it. For black-fly season in the Canadian Shield, choose no-see-um mesh and a model that cinches below the shoulders so nothing sneaks up from your collar. Every camper, angler, gardener, and cottage-dweller in Ontario should own one.</p>
+          <Photo
+            id="head-net-over-cap-alaska"
+            alt="Smiling woman in glasses wearing a fine dark mesh head net over a National Park Service cap, with green tundra and a hillside behind her"
+            caption="A mosquito net worn over the head and a cap in Noatak National Preserve, Alaska (National Park Service photo, July 2016). Pair a head net with a stiff brim so the mesh is held away from your skin."
+          />
 
           <h2>Hammock nets and stroller nets</h2>
           <p>A <strong>hammock net</strong> has to run the <em>full length</em> of the hammock and seal or zip underneath. Short &ldquo;cap&rdquo; nets that only cover your upper body are a waste of money &mdash; mosquitoes simply come at your feet and your back where the fabric presses against you. The best designs use a ridge line to suspend the mesh well off your body so nothing can bite through. Budget $30&ndash;$90 depending on length and mesh grade.</p>
+          <Photo
+            id="hammock-mosquito-net-bc"
+            alt="Man in a camping hammock lifting the fine mosquito netting stretched over it to look out, at a forest campsite"
+            caption="A camper looking out from under the mosquito netting of a hammock at a campsite in Bowron Lake Provincial Park, British Columbia. A hammock net has to run the full length of the hammock and seal underneath."
+          />
           <p>A <strong>stroller net</strong> is a small universal mesh cover with an elastic edge that stretches over the whole bassinet or seat. It is the go-to way to protect a baby too young for repellent &mdash; no chemicals, just a physical barrier. At $10&ndash;$25 it is cheap insurance for stroller walks at dawn and dusk. Make sure it fully encloses the opening with no gap at the handle end, and never leave a sleeping infant unattended under any cover.</p>
 
           <RelatedLinks path="/blog/mosquito-net" />
@@ -262,6 +281,11 @@ export default function MosquitoNetCanadaPage() {
             <li><strong>It fails if it is not sealed.</strong> An untucked bed net, a stroller net with a gap, or a hammock net with an open zip is an open door.</li>
             <li><strong>Skin against mesh gets bitten.</strong> Keep the mesh taut and off your body &mdash; a mosquito will happily probe through fabric pressed to your arm.</li>
           </ul>
+          <Photo
+            id="mosquito-net-mesh-closeup"
+            alt="Close-up of mosquito netting with rows of small hexagonal holes against a dark background"
+            caption="Close-up of mosquito net mesh with hexagonal openings. The size of the holes is the one spec that matters: look for at least 156 holes per square inch, and keep the mesh taut and off your skin."
+          />
 
           <h2>Net vs repellent vs barrier spray</h2>
           <div className="not-prose overflow-x-auto">

@@ -2,9 +2,16 @@
  "id": "are-mosquitoes-attracted-to-light",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f48d0f754df7f7001cb75f307890345b873ec47b13da629c1747d573f0783098",
+ "sha": "bf9ff2dab408f83fc05569e81ae6e0bcf4590875cf17aaeec1a5d3a6b8cfc5a8",
  "claimsChecked": 38,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 4,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026, Google Images wave 2): 5 ledger photos added as figure blocks: aedes-vexans-uv-light (CC0, iNaturalist obs 389869754; lead and share image), aedes-aegypti-female (public domain, CDC PHIL 26042), cattail-mosquito-porch-light (CC BY 4.0, iNaturalist obs 172620098), bug-zapper-roof-eave (CC BY-SA 3.0, Wikimedia Commons), cdc-light-trap-navy-new-orleans (public domain, U.S. Navy photo via Wikimedia Commons). One sentence linking the bug bite identifier (/tools/bug-bite-identifier) added at the end of the body. Captions restate the ledger records and facts already on the page (Nature Communications, AMCA, CDC). No other text, dates, FAQs or sources changed.",
+   "previousSha": "f48d0f754df7f7001cb75f307890345b873ec47b13da629c1747d573f0783098"
+  }
+ ]
 }

@@ -12,6 +12,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const POST = MOSQUITO_BLOGS.supporting[1]
 const UPDATED = '2026-07-12'
@@ -24,6 +26,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: POST.date,
   modifiedTime: '2026-07-12',
+  image: shareImage('fogging-for-mosquitoes-navy'),
 })
 
 const FAQS = [
@@ -82,7 +85,7 @@ const AMZ_TAG = tagForSlug('how-long-does-mosquito-spray-last')
 export default function MosquitoSprayLastPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: '2026-07-12' })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, dateModified: '2026-07-12', image: shareImage('fogging-for-mosquitoes-navy') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How Long Does Mosquito Spray Last', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`, '2026-07-12')) }} />
@@ -159,12 +162,27 @@ export default function MosquitoSprayLastPage() {
         <h2>How Professional Spray Differs From DIY Options</h2>
         <p>BuzzSkito&rsquo;s residual treatment is a licensed application according to label directions, aimed at the vegetation surfaces where mosquitoes rest, and it dries onto those leaves. That residual is renewed on your plan&rsquo;s schedule &mdash; every 2 weeks on the Standard plan, monthly on Basic &mdash; rather than left to fade. Consumer products are labelled for homeowner use, and each label sets its own application rate and re-application interval. Fogging works differently again: a thermal or ULV fogger kills the mosquitoes flying at the moment of application and leaves essentially no residual behind, so the yard is open again within hours — our guide to <Link href="/blog/mosquito-fogger-canada" className="text-brand-700 hover:underline">mosquito fogging</Link> covers when that short-term knockdown is still worth doing. For a full side-by-side breakdown, see our guide on <Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. professional mosquito control</Link>.</p>
         <p>If what you actually want is that few-hours knockdown before a specific evening &mdash; a backyard party, a graduation, a Saturday barbecue &mdash; the fogger is the tool built for it, and it is a different purchase from a sprayer. One Canadian caveat decides what you can put in it: the fogging concentrate has to carry a Canadian PCP registration number on the label, and the US-market concentrates are EPA-registered only, so buy the insecticide here rather than importing it with the machine. <BuyLink tag={AMZ_TAG} search="backyard mosquito fogger">Check backyard foggers on Amazon.ca &rarr;</BuyLink></p>
+        <Photo
+          id="fogging-for-mosquitoes-navy"
+          alt="Navy officer in desert camouflage, goggles and a respirator spraying a cloud of white fog from a handheld fogger beside a concrete slab"
+          caption="A Navy preventive medicine officer sprays for mosquitoes with a handheld fogger at Camp Buehring, Kuwait, in April 2010 (U.S. Navy photo). Fogging kills the mosquitoes flying at the moment of application and leaves essentially no residual behind."
+        />
         <p>If you do apply your own registered concentrate between visits, the equipment decides how even the coverage actually is — and evenness is what buys you duration. The target is the underside of shaded leaves and the shrub line rather than the open lawn, and a one-litre trigger bottle holds neither the pressure nor the volume to wet that much foliage consistently, so you end up with patchy cover that thins out days before the rest. Perimeter and shrub work is done with a pump or backpack sprayer, at the rate and re-application interval printed on your product label. <BuyLink tag={AMZ_TAG} search="backpack pump sprayer">Check backpack sprayers on Amazon.ca &rarr;</BuyLink></p>
         <p>Check what you are allowed to put in it first. A homeowner in Ontario may only apply a product whose label carries a Pest Control Products (PCP) registration number <em>and</em> reads DOMESTIC class &mdash; Commercial and Restricted class products require an Ontario exterminator licence, which is the licence a professional company holds. Ontario&rsquo;s cosmetic pesticides ban (O. Reg. 63/09 under the Pesticides Act) prohibits many lawn-and-garden pesticide uses outright, with specific pathways for health-protection uses. Our <Link href="/blog/backpack-sprayer-canada" className="text-brand-700 hover:underline">Canadian backpack sprayer guide</Link> walks through the rules and the models, and the <Link href="/blog/field-king-backpack-sprayer-review-canada" className="text-brand-700 hover:underline">Field King review</Link> covers the one most homeowners end up with.</p>
 
         <h2>Does Spraying for Mosquitoes Actually Work?</h2>
         <p>Yes — with an important clarification. Barrier spray works by reducing the adult mosquitoes resting on your property, not by removing the source. Mosquitoes breed in standing water — ravines, ditches, neighbours' yards — and fly to your property looking for a place to rest and feed. When they land on treated vegetation, the residual insecticide kills them.</p>
+        <Photo
+          id="aedes-resting-under-leaf"
+          alt="Mosquito with black-and-white banded legs resting on the underside of a sunlit green leaf, seen from below"
+          caption="A mosquito, identified on iNaturalist as a female Aedes, resting on the underside of a leaf in New South Wales, Australia. Barrier spray dries onto the leaves where mosquitoes rest, and the residual kills them when they land."
+        />
         <p>This is why the barrier is renewed on a schedule (every 2 weeks on the Standard plan, monthly on Basic, weekly on Exclusive): you're maintaining an ongoing barrier against a continuous source, not making a one-time fix. The barrier also only ever deals with the mosquitoes that reach your yard, so any standing water you do control — rain barrels, clogged gutters, plant saucers — is worth treating with a BTI larvicide such as granular <Link href="/blog/mosquito-bits-canada-vs-dunks" className="text-brand-700 hover:underline">BTI mosquito bits</Link>, which kill the larvae before they ever emerge as adults. Homeowners near Toronto's ravines, Mississauga's Credit River, or any natural watercourse will see the most dramatic results because their mosquito pressure is highest and the treated barrier makes the biggest difference.</p>
+        <Photo
+          id="mosquito-larvae-water-trough"
+          alt="A dozen mosquito larvae, thin bodies with dark rounded ends, in greenish water seen from above"
+          caption="Mosquito larvae in a cattle water trough in California, identified on iNaturalist as the cold weather mosquito, Culiseta incidens. A BTI larvicide kills larvae like these before they ever emerge as adults."
+        />
         <p>Gutters are the standing water most people never look at. A blocked run holds a shallow film of warm water for days after a storm, which is exactly the nursery Culex wants, and it sits directly above the yard you just paid to have treated. Clearing them each spring and autumn is the fix; a mesh or micro-screen guard over the trough is what stops them filling with leaf litter again by August. <BuyLink tag={AMZ_TAG} search="gutter guard mesh">Check gutter guards on Amazon.ca &rarr;</BuyLink></p>
 
         <RelatedLinks path="/blog/how-long-does-mosquito-spray-last" />
@@ -182,6 +200,11 @@ export default function MosquitoSprayLastPage() {
         <h3>Vegetation Density</h3>
         <p>Dense shrubs and thick plant canopy require more product to achieve thorough coverage. Properties with heavy landscaping may need more frequent treatments to maintain effective protection through the vegetation.</p>
         <p>There is a homeowner-side lever here that costs nothing per visit: thinning the densest cover. Mosquitoes spend the day resting inside shaded, still, humid foliage, so an overgrown cedar run or a shrub bed that has closed in on itself is both more resting habitat and harder for any spray to penetrate to the leaf undersides. Opening those beds up with a trim in late spring means less habitat and better coverage on every treatment that follows. <BuyLink tag={AMZ_TAG} search="cordless hedge trimmer">Check hedge trimmers on Amazon.ca &rarr;</BuyLink></p>
+        <Photo
+          id="cedar-hedge-foliage-london-ontario"
+          alt="Dense, overlapping sprays of green cedar foliage filling the frame, with dark gaps into the hedge's interior"
+          caption="Dense foliage of a cedar hedge in London, Ontario, identified by the observer as eastern white cedar. Mosquitoes rest inside shaded, still, humid foliage like this, and dense cover is harder for any spray to reach."
+        />
 
         <h3>Mosquito Pressure from Neighbouring Properties</h3>
         <p>If adjacent properties have significant mosquito breeding or have dense untreated vegetation, you may experience more pressure at your property boundaries. This is normal — barrier spray is most effective when applied comprehensively, including property perimeters.</p>

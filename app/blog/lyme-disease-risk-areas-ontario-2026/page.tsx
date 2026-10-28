@@ -10,6 +10,8 @@ import StickyBuyBar from '@/components/StickyBuyBar'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const POST = {
   title: 'Lyme Disease Risk Areas Ontario 2026',
@@ -29,6 +31,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${POST.slug}`,
   type: 'article',
   publishedTime: POST.date,
+  image: shareImage('blacklegged-tick-female-point-pelee'),
 })
 
 const FAQS = [
@@ -67,7 +70,7 @@ const FAQS = [
 export default function LymeRiskAreas2026Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, description: POST.excerpt, slug: POST.slug, datePublished: POST.date, image: shareImage('blacklegged-tick-female-point-pelee') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Lyme Disease Risk Areas Ontario 2026', url: `/blog/${POST.slug}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
@@ -142,6 +145,11 @@ export default function LymeRiskAreas2026Page() {
 
         <h2>Ontario Lyme Disease Risk: 2026 Overview</h2>
         <p>Lyme disease continues to be one of the fastest-growing infectious diseases in Canada, and 2026 marks another year of geographic expansion. The Public Health Agency of Canada and Ontario Public Health have documented a sustained northward migration of blacklegged tick (<em>Ixodes scapularis</em>) populations, driven by warming winters and expanding deer and rodent habitats. The result: more Ontario communities now fall within confirmed Lyme disease risk zones than at any previous point on record.</p>
+        <Photo
+          id="blacklegged-tick-female-point-pelee"
+          alt="Adult female blacklegged tick with a red-orange body, a dark shield behind the head and eight dark legs, on a textured grey surface"
+          caption="An adult female blacklegged tick, Ixodes scapularis, which the observer found on their leg after a walk in Point Pelee National Park, Ontario (as recorded on iNaturalist). Blacklegged ticks can transmit Borrelia burgdorferi, the bacterium that causes Lyme disease."
+        />
         <p>For GTA homeowners, the message is straightforward — Lyme disease risk is no longer confined to provincial parks or rural properties. Urban ravines, suburban conservation areas, and backyard gardens throughout Southern Ontario now harbour established blacklegged tick populations capable of transmitting <em>Borrelia burgdorferi</em>, the bacterium that causes Lyme disease.</p>
 
         <NextUp path="/blog/lyme-disease-risk-areas-ontario-2026" />
@@ -161,12 +169,22 @@ export default function LymeRiskAreas2026Page() {
 
         <h3>Hamilton and Niagara Escarpment</h3>
         <p>Hamilton has consistently ranked among the highest-risk municipalities in Ontario for Lyme disease. Dundas Valley, Cootes Paradise, the Bruce Trail corridor, and Royal Botanical Gardens are established blacklegged tick zones. The escarpment microclimate — sheltered, moist forest floor with abundant white-footed mice — creates ideal conditions for year-round tick survival.</p>
+        <Photo
+          id="blacklegged-tick-fingernail-cootes-paradise"
+          alt="Tiny dark tick on the fingernail of a soil-dusted hand, smaller than the width of the nail"
+          caption="A blacklegged tick, Ixodes scapularis, on a fingernail, found at Cootes Paradise in Hamilton (identification confirmed on iNaturalist). Cootes Paradise is one of the established blacklegged tick zones named in this section."
+        />
         <p>The escarpment shelf carries the same conditions east across the city, where Stoney Creek runs from the Fifty Point shoreline up to the brow with the Red Hill ravine between. We rank that stretch area by area in <Link href="/blog/mosquito-tick-control-stoney-creek" className="text-brand-700 hover:underline">the Stoney Creek mosquito and tick guide</Link>.</p>
         <p>West of the harbour the same escarpment conditions run through Dundas Valley and the Ancaster woodlots &mdash; that corridor is covered neighbourhood by neighbourhood in <Link href="/blog/tick-control-ancaster-dundas-hamilton" className="text-brand-700 hover:underline">our Ancaster, Dundas and Hamilton tick control guide</Link>.</p>
         <p>See: <Link href="/hamilton-tick-spray" className="text-brand-700 hover:underline">Hamilton tick control</Link></p>
 
         <h3>Oakville and Burlington</h3>
         <p>Bronte Creek Provincial Park, Sixteen Mile Creek, Sheldon Creek, and the Lake Ontario shoreline trail systems are confirmed risk zones. Burlington&apos;s proximity to the RBG and Escarpment trails further elevates risk. Halton Region public health actively monitors tick populations and reports positive findings each season.</p>
+        <Photo
+          id="blacklegged-tick-garden-glove"
+          alt="Small reddish-brown tick with dark legs on the knit palm of a grey and teal gardening glove"
+          caption="A blacklegged tick, Ixodes scapularis, on a gardening glove in Burlington (identification confirmed on iNaturalist). Halton Region public health monitors tick populations and reports positive findings each season."
+        />
         <p>Across both Peel and Halton the case mix has shifted from travel-acquired infections toward locally acquired ones. Our breakdown of <Link href="/blog/lyme-disease-cases-mississauga-oakville-2026" className="text-brand-700 hover:underline">Lyme case trends in Mississauga and Oakville</Link> walks through that shift and explains what reported counts leave out.</p>
         <p>For a neighbourhood-level view of which Halton streets sit closest to those creek and escarpment corridors, see our <Link href="/blog/tick-hot-spots-oakville-burlington-2026" className="text-brand-700 underline">Oakville and Burlington tick hot spots for 2026</Link>.</p>
         <p>Risk also moves with the calendar in each town: <Link href="/blog/tick-season-oakville-when-are-ticks-active" className="text-brand-700 underline">tick season in Oakville</Link> tracks the nymph peak through the Sixteen Mile and Bronte Creek corridors, while <Link href="/blog/tick-season-burlington-when-are-ticks-active" className="text-brand-700 underline">tick season in Burlington</Link> covers the escarpment edge and the RBG lands month by month.</p>
@@ -199,6 +217,11 @@ export default function LymeRiskAreas2026Page() {
           <li><strong>White-tailed deer expansion:</strong> Deer are the primary hosts for adult blacklegged ticks. Growing deer populations across Southern Ontario provide the blood meals ticks need to reproduce</li>
           <li><strong>Suburbanization:</strong> New housing developments at the urban-rural interface create habitat where humans, deer, rodents, and ticks overlap</li>
         </ul>
+        <Photo
+          id="white-tailed-deer-yard-ontario"
+          alt="Young white-tailed deer standing on a sunlit lawn at the edge of leafy woods, looking toward the camera"
+          caption="A young white-tailed deer in a neighbour's yard in Ontario, as the observer describes it. Deer are the primary hosts for adult blacklegged ticks, and growing deer populations provide the blood meals ticks need to reproduce."
+        />
 
         <h2>Public Health Surveillance: How Risk Areas Are Determined</h2>
         <p>Ontario determines Lyme disease risk areas through several surveillance methods:</p>
@@ -208,6 +231,11 @@ export default function LymeRiskAreas2026Page() {
           <li><strong>Human case reporting:</strong> Lyme disease is a reportable disease in Ontario — confirmed cases are mapped geographically to identify emerging risk zones</li>
           <li><strong>Rodent surveillance:</strong> White-footed mouse populations are sampled to measure <em>Borrelia burgdorferi</em> infection rates in the tick host reservoir</li>
         </ul>
+        <Photo
+          id="tick-drag-cloth-woodland"
+          alt="Soldier walking through sunlit woodland, dragging a white cloth across the low vegetation"
+          caption="An Army entomologist drags a white cloth through woodland vegetation to collect ticks, in Latvia in June 2026 (U.S. Navy photo). Public health teams use the same tick dragging method in parks, trails and conservation areas to measure tick density."
+        />
         <p>An area is classified as &quot;established risk&quot; when blacklegged ticks are found in consecutive years through active surveillance and at least one tick tests positive for Lyme disease bacteria.</p>
         <p>That threshold is deliberately low, which is why a risk-area map says nothing about how many ticks in it are actually infected. For the testing rates behind the map, see <Link href="/blog/what-percentage-of-ticks-carry-lyme-ontario" className="text-brand-700 underline">what percentage of Ontario ticks carry Lyme</Link>.</p>
 
@@ -240,6 +268,11 @@ export default function LymeRiskAreas2026Page() {
 
         <h3>4. Know the Symptoms</h3>
         <p>Early Lyme disease symptoms include an expanding bull&apos;s-eye rash (erythema migrans), fever, fatigue, headache, and muscle or joint pain. Not everyone develops the rash. If you have had a tick bite and develop any of these symptoms within 3 to 30 days, see a doctor promptly. Early antibiotic treatment is highly effective.</p>
+        <Photo
+          id="erythema-migrans-rash-trunk"
+          alt="Large, oval, blotchy pink-red rash on the side of a woman's torso below the armpit"
+          caption="Erythema migrans, the expanding rash of Lyme disease, on the side of the trunk of a woman in her 20s, in the photographer's description. Not everyone develops the rash; see a doctor promptly if symptoms follow a tick bite within 3 to 30 days."
+        />
         <p>See: <Link href="/blog/tick-bite-symptoms-what-to-do-ontario" className="text-brand-700 hover:underline">Tick Bite Symptoms & What to Do in Ontario</Link></p>
         <p>The practical companion to knowing the symptoms is owning the tool before the night you need it. Grasp an attached tick with a fine-tipped tool as close to the skin as possible and lift straight up with steady pressure &mdash; no twisting, no squeezing the body, nothing smeared over it. Household tweezers have a blunt, wide tip that grips the body rather than the mouthparts, which is exactly the wrong end on a nymph the size of a poppy seed, and the nymphs are the stage most of this page is about. Keep the tool in the first-aid kit, and keep a small screw-top vial with it so the tick can be bagged and dated.</p>
         <p className="not-prose"><BuyLink tag={AMZ_TAG} search="tick removal tool fine tip tweezers">Check price on Amazon.ca &rarr;</BuyLink></p>

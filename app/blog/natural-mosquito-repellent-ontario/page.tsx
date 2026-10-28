@@ -12,6 +12,8 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'natural-mosquito-repellent-ontario'
 const DATE = '2026-04-26'
@@ -83,6 +85,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('lemon-scented-gum-tree'),
 })
 
 const AMZ_TAG = tagForSlug('natural-mosquito-repellent-ontario')
@@ -90,7 +93,7 @@ const AMZ_TAG = tagForSlug('natural-mosquito-repellent-ontario')
 export default function NaturalMosquitoRepellentPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Evidence-based guide to natural mosquito repellents for Ontario homeowners.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Evidence-based guide to natural mosquito repellents for Ontario homeowners.', slug: SLUG, datePublished: DATE, image: shareImage('lemon-scented-gum-tree') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Natural Mosquito Repellent', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -189,6 +192,11 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Citronella oil</strong> — real but brief. Complete protection lasts only about 20&ndash;60 minutes, so plan on frequent re-application for anything longer than a short outing.</li>
             <li><strong>Neem oil</strong> — mild and inconsistent in field trials; a usable pinch-hitter, but not dependable for a full evening outside.</li>
           </ol>
+          <Photo
+            id="lemon-scented-gum-tree"
+            alt="Tall lemon-scented gum tree with a smooth, pale grey trunk rising into a thin canopy against a blue sky"
+            caption="A lemon-scented gum, Corymbia citriodora, also known as Eucalyptus citriodora, in Queensland, Australia. Oil of lemon eucalyptus is refined from this tree, and its active molecule is PMD."
+          />
 
           <h3>Natural Active Efficacy — % Protection &amp; Hours</h3>
           <div className="not-prose my-6 overflow-x-auto">
@@ -263,6 +271,11 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Bracelets and wristbands</strong> — protect a few centimetres around the wrist, useless for full body.</li>
           </ul>
           <p>Two of those wearables are worth a longer answer, because the one-line dismissal above hides a real distinction. Bracelets vent their oil into the air immediately around the band, which is exactly why <Link href="/blog/mosquito-repellent-bracelets-canada">mosquito repellent bracelets leave your ankles, neck, and far arm unprotected</Link>. Clip-on stickers and patches share that short range, but they answer a question this page otherwise leaves open: Health Canada advises against DEET on infants under six months, and the lemon-eucalyptus pick above is not for children under three, so <Link href="/blog/mosquito-repellent-stickers-patches-canada">repellent stickers and patches for babies too young for skin repellents</Link> go on the stroller or clothing instead of the skin — a supplement to mosquito netting, not a replacement for it.</p>
+          <Photo
+            id="citronella-candle-burning"
+            alt="Close-up of a citronella candle flame and wick burning in a metal pail, with garden greenery blurred behind"
+            caption="A citronella candle burning in its metal pail. Citronella candles work only directly downwind, within about 1 metre, which is why they sit in the third tier above."
+          />
 
           <h2>Natural Repellents Compared — And Where to Buy</h2>
           <p>Every pick below is stocked in Canada and evidence-ranked above. Prices change constantly, so the buttons go straight to the live Amazon.ca listing (US visitors are auto-routed to Amazon.com). For the full rundown of every repellent type — including DEET and picaridin concentrations — see our <Link href="/blog/mosquito-repellent-guide-ontario-2026">2026 Ontario mosquito repellent guide</Link>.</p>
@@ -308,6 +321,11 @@ export default function NaturalMosquitoRepellentPage() {
 
           <h2>The Underrated Tool: Mosquito Dunks (BTI)</h2>
           <p>This is the most powerful natural mosquito control tool most Ontario homeowners overlook. <strong>Bacillus thuringiensis israelensis (BTI)</strong> is a soil bacterium that produces a toxin lethal to mosquito and black fly larvae — and aimed at those larvae specifically rather than acting as a broad-spectrum insecticide.</p>
+          <Photo
+            id="mosquito-larva-close-up-trough"
+            alt="Close-up of a single mosquito larva in greenish water, its long segmented body fringed with bristles"
+            caption="A mosquito larva, identified on iNaturalist as the cold weather mosquito, Culiseta incidens, in water from a cattle trough in California. BTI's toxin is lethal to mosquito larvae like this one."
+          />
           <p>BTI is sold as:</p>
           <ul>
             <li><strong>Mosquito Dunks</strong> — donut-shaped, drop one in any water that can&rsquo;t be drained. Each dunk lasts 30 days.</li>
@@ -322,6 +340,11 @@ export default function NaturalMosquitoRepellentPage() {
           <RelatedLinks path="/blog/natural-mosquito-repellent-ontario" />
           <h2>The Honest Truth About Plants</h2>
           <p>Lavender, basil, citronella grass, and bee balm contain real mosquito-repellent oils — but plants release these oils only when the leaves are crushed or brushed. A planted lavender bush at the corner of your patio is mostly decorative. To get the actual repellent benefit, you would need to physically crush leaves and rub them around — at which point a small bottle of OLE-based spray is more practical.</p>
+          <Photo
+            id="scarlet-bee-balm-ontario"
+            alt="Bright red, spiky flower head of scarlet bee balm on a leafy green stem in a sunny field"
+            caption="Scarlet bee balm, Monarda didyma, in flower in Walton, Ontario. Bee balm contains real mosquito-repellent oils, but the plant releases them only when the leaves are crushed or brushed."
+          />
           <p>For Ontario-hardy mosquito-repellent plants worth growing for their <em>combination</em> of mild repellency and aesthetic value, see our <Link href="/blog/mosquito-repellent-plants-ontario">Mosquito Repellent Plants Ontario guide</Link>.</p>
 
           <h2>Best Essential Oils for Mosquitoes — Per-Oil Breakdown</h2>
@@ -386,6 +409,11 @@ export default function NaturalMosquitoRepellentPage() {
             <li><strong>Use:</strong> shake before every application and re-apply every 30–60 minutes.</li>
           </ol>
           <p><strong>Two honest caveats.</strong> First, the &ldquo;oil of lemon eucalyptus&rdquo; essential oil sold for DIY blends is <em>not</em> the same as the refined PMD in registered products like Off Botanicals — the raw oil is weaker and untested for safety, so don&rsquo;t treat your homemade spray as equivalent. Second, patch-test on your forearm first, and never use raw essential-oil sprays on infants under three or on broken skin. If you want dependable, all-day protection without DEET, a store-bought <Link href="/blog/picaridin-vs-deet">picaridin</Link> product is the more reliable, longer-lasting choice.</p>
+          <Photo
+            id="peppermint-flowering"
+            alt="Peppermint stems with dark reddish stalks, toothed green leaves and spikes of pale purple flowers"
+            caption="Peppermint, Mentha × piperita, in flower in Mono, Ontario. Peppermint oil repels mosquitoes only weakly, for about 15 to 30 minutes, so a blend that leans on it needs re-applying often."
+          />
 
           <h2>The Strategy That Actually Works in Ontario</h2>
           <p>For a typical Ontario backyard, layer four natural strategies:</p>

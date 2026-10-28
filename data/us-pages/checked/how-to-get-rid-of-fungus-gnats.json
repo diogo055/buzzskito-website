@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-fungus-gnats",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7c33398fc3b41b7146e8aa149088f2d01e6a12bafc756709bdafa83445663486",
+ "sha": "6072e567369fb0b93d85b5581b6d9a792e9dbd3781f268e5b167b0786d3913ae",
  "claimsChecked": 119,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 7,
@@ -12,6 +12,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the 'wrong fly' paragraph in 'What if the fungus gnats keep coming back?' linking the new /blog/how-to-get-rid-of-gnats; no fact changed.",
    "previousSha": "91f031896bf455b6227aff392e83e456e0a7705388835e89d14f7174fdcc29af"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Photo upgrade (Oct 28, 2026, Google Images wave 2): 5 ledger photos added as figure blocks: fungus-gnat-kitchen-counter (CC0, iNaturalist obs 145802877; first figure, the hero infographic stays the share image), fungus-gnat-penny-scale (CC0, iNaturalist obs 330554465), fungus-gnat-larvae-procession (CC0, iNaturalist obs 384024878), fungus-gnat-yellow-sticky-trap (CC BY 4.0, iNaturalist obs 404646444), drain-fly-bathroom-wall (CC0, iNaturalist obs 57179699). One sentence linking the pest identifier quiz (/tools/what-bug-is-this) added after the wrong-fly paragraph. Captions restate the ledger records and facts already on the page (Texas A&M, Colorado State, Wisconsin). Both media placeholders stay. No other text, dates, FAQs or sources changed.",
+   "previousSha": "7c33398fc3b41b7146e8aa149088f2d01e6a12bafc756709bdafa83445663486"
   }
  ]
 }

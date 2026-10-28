@@ -11,6 +11,8 @@ import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'do-cedar-trees-attract-mosquitoes'
 const DATE = '2026-04-26'
@@ -68,6 +70,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('thuja-hedge-residential-lane'),
 })
 
 const AMZ_TAG = tagForSlug('do-cedar-trees-attract-mosquitoes')
@@ -75,7 +78,7 @@ const AMZ_TAG = tagForSlug('do-cedar-trees-attract-mosquitoes')
 export default function CedarTreesMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('thuja-hedge-residential-lane') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Do Cedar Trees Attract Mosquitoes?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -119,6 +122,11 @@ export default function CedarTreesMosquitoesPage() {
         <h2>Why People Think Cedars Attract Mosquitoes</h2>
         <p>This belief is widespread among GTA homeowners, and it almost always traces back to the same observation: &quot;Whenever I walk past my cedar hedge, I get swarmed by mosquitoes.&quot; That observation is real. The conclusion drawn from it — that the cedar is somehow attracting mosquitoes — is wrong, but the experience is not.</p>
         <p>What is actually happening is more subtle and more useful to understand. Mosquitoes do not behave the way most people imagine. They are not actively flying around looking for prey for most of the day. They are <strong>resting</strong> — and your cedar hedge is one of the best resting environments on your property.</p>
+        <Photo
+          id="thuja-hedge-residential-lane"
+          alt="Tall, dense clipped cedar hedge running along a narrow residential lane beside a house and a parked car"
+          caption="A tall, dense Thuja hedge along a residential lane in Germany, filed on Wikimedia Commons as eastern white cedar, Thuja occidentalis. The cedar does not draw mosquitoes in; the shade and still air inside a hedge like this is where they rest by day."
+        />
 
         <h2>The Real Science: Cedar Oil Repels Insects</h2>
         <p>Cedar wood (eastern white cedar, <em>Thuja occidentalis</em>, the species most commonly used for hedges across the GTA) contains aromatic compounds including thujone, thujaplicins, and cedrol. These compounds are well-documented insect deterrents — which is why cedar chests and cedar closets have been used for centuries to protect wool and fabric from moths and other insects.</p>
@@ -136,12 +144,22 @@ export default function CedarTreesMosquitoesPage() {
         </ul>
         <p>A dense, untrimmed cedar hedge meets every one of these requirements. The interior of a 2-metre cedar hedge can be 5–8°C cooler than the open lawn on a hot summer afternoon, with substantially higher humidity and almost no air movement. From a mosquito&apos;s perspective, that is a five-star hotel.</p>
         <p>This is also why mosquitoes seem to swarm out of cedar hedges when you brush past them. They are not attracted to you walking by — they were already there, sheltering from the heat, and your movement disturbed the canopy. The same thing happens with dense yew hedges, juniper screens, and tightly-branched boxwood — but cedars are by far the most common privacy hedge in GTA yards, so they get blamed disproportionately.</p>
+        <Photo
+          id="mosquitoes-resting-under-leaf"
+          alt="Several slender mosquitoes with banded legs hanging from the underside of a small, pale green leaf"
+          caption="Several mosquitoes, identified on iNaturalist as Armigeres subalbatus, resting under a small leaf in Sai Kung, Hong Kong. Mosquitoes spend most of their adult lives resting, not flying, and they need shade, humidity and still air to do it."
+        />
 
         <h2>Cedar Hedge vs Cedar Tree: A Critical Distinction</h2>
         <p>Not all cedars create resting habitat. The structural density and pruning matters enormously.</p>
 
         <h3>A specimen cedar tree on a lawn</h3>
         <p>A single cedar tree growing in open lawn — pyramidal in form, with daylight reaching most of the canopy and good air circulation around the trunk — provides almost no useful resting habitat for mosquitoes. The interior is too exposed, too dry, and too breezy. These trees do not increase mosquito pressure.</p>
+        <Photo
+          id="white-cedar-tree-in-lawn"
+          alt="Single eastern white cedar with drooping sprays of flat foliage and clusters of brown seed cones, standing in an open lawn"
+          caption="An eastern white cedar, Thuja occidentalis, standing alone in an open lawn in Fonthill, Ontario. A single tree with daylight and air reaching most of the canopy provides almost no useful resting habitat for mosquitoes."
+        />
 
         <h3>A trimmed cedar hedge with open structure</h3>
         <p>A well-maintained cedar hedge that has been pruned to keep the interior open, with dead inner branches removed and good vertical air circulation, provides only modest resting habitat. Mosquitoes will use the outer foliage but not in heavy concentrations.</p>
@@ -207,6 +225,11 @@ export default function CedarTreesMosquitoesPage() {
           <li><strong>Marigolds</strong> — long believed to repel insects, modest evidence</li>
           <li><strong>Rosemary</strong> — aromatic, mild repellent</li>
         </ul>
+        <Photo
+          id="lemongrass-plant"
+          alt="Clump of lemongrass with long, narrow, arching green leaves growing among other garden plants"
+          caption="Lemongrass, Cymbopogon citratus, growing in San Blas, Mexico. It shares its active compound with citronella grass, and like it releases that oil when the leaves are crushed, brushed or warmed in direct sunlight."
+        />
         <p>These plants are worth growing — they look good, smell good, and contribute marginally to a less-attractive yard. But they will not solve a mosquito problem on their own. The realistic role for mosquito-repelling plants is around outdoor seating areas, where you can brush against the leaves and release the oils, combined with broader barrier spray treatment on the rest of the yard.</p>
         <p className="not-prose text-gray-700">If you want to try them, the two worth the bed space are the ones sharing the same active compound &mdash; citronella grass and lemongrass &mdash; and they should go in pots you can drag right up against the seating, where a sleeve or a hand will actually brush the leaves. Planted in a bed three metres away they are ornamental and nothing more, which is why so many people conclude the plants &ldquo;do not work&rdquo;. <BuyLink tag={AMZ_TAG} search="citronella plant">Check citronella and lemongrass plants on Amazon.ca &rarr;</BuyLink></p>
 

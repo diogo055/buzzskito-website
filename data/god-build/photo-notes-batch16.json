@@ -1,5 +1,413 @@
 {
- "_readme": "Scout notes for the sixteenth photo batch (Oct 28, 2026): Google Images wave 2, eight mosquito, tick and gnat pages (are-mosquitoes-attracted-to-light, mosquito-net, natural-mosquito-repellent-ontario, mosquito-bite-treatment-relief, how-long-does-mosquito-spray-last, do-cedar-trees-attract-mosquitoes, lyme-disease-risk-areas-ontario-2026, learn/how-to-get-rid-of-fungus-gnats). In progress: the candidates follow.",
- "candidates": [],
- "gaps": []
+ "_readme": "Scout notes for the sixteenth photo batch (Oct 28, 2026): Google Images wave 2, eight mosquito, tick and gnat pages (are-mosquitoes-attracted-to-light, mosquito-net, natural-mosquito-repellent-ontario, mosquito-bite-treatment-relief, how-long-does-mosquito-spray-last, do-cedar-trees-attract-mosquitoes, lyme-disease-risk-areas-ontario-2026, learn/how-to-get-rid-of-fungus-gnats). Same format as batches 7 to 15: what each photo’s source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence in the identification, whether it can lead a page (leadEligible: public domain or CC0 AND a confident identification of the page’s main subject), and caveats. Licence, credit and size of record are in photos.json and repeated in note. 34 photos were added: 16 CC0 iNaturalist records, 3 CC0 Wikimedia Commons files, 6 public domain (2 CDC PHIL, 3 U.S. Navy, 1 NPS, via PHIL and Commons), 2 CC BY iNaturalist, 1 CC BY 2.0 Commons, 5 CC BY-SA Commons and 1 CC BY-SA iNaturalist; 33 are placed, white-cedar-dense-foliage is on record only. Every image was looked at before choosing and the WebP conversions were spot-checked. Captions restate the record and at most one fact the page already states. Searches, refusals and what is still missing are in gaps.",
+ "candidates": [
+  {
+   "id": "aedes-vexans-uv-light",
+   "forPages": [
+    "are-mosquitoes-attracted-to-light"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 389869754 by Ken Kneidel, Charlotte, North Carolina, August 7, 2026, CC0. Description: 'came to UV light at night'. Research grade: Aedes vexans (observer, supported by a second identifier). Annotated adult, alive.",
+   "caveats": "One adult resting on pale gray fabric (the sheet under the observer’s UV light, by our reading; the light is not in the frame). It shows that this mosquito came to a UV light, not how strongly light draws mosquitoes, which the page says is weakly: the caption pairs it with the page’s own quick answer. Sex not annotated. Small original (1173 x 801). CC0: the lead and share image for are-mosquitoes-attracted-to-light.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1173x801."
+  },
+  {
+   "id": "cattail-mosquito-porch-light",
+   "forPages": [
+    "are-mosquitoes-attracted-to-light"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 172620098 by Randy A Nonenmacher, Shepard Settlement, Onondaga County, New York, July 11, 2023, CC BY. Description: 'Under front porch light.' Research grade (observer; supported by Leeanne C. Garrett, MPH-VPH, 36,000+ identifications). Annotated adult, male, alive.",
+   "caveats": "Sharp view from above showing the bushy antennae of a male. That males do not bite is not stated on the light page, so the caption leaves it out. The porch light is not in the frame; the place is the observer’s word. Coquillettidia perturbans is not one of the page’s three lab species, so the caption presents it only as a mosquito at a porch light, beside the page’s statement that no reviewed source compared lit and unlit porches.",
+   "note": "Credit: (c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1160x1712."
+  },
+  {
+   "id": "bug-zapper-roof-eave",
+   "forPages": [
+    "are-mosquitoes-attracted-to-light"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bug zapper.JPG' by ZooFari at English Wikipedia, uploaded May 26, 2008, CC BY-SA 3.0 (GFDL migration). Description: 'A bug zapper'.",
+   "caveats": "A hanging electric bug zapper (a white tube behind a dark grid) under a white roof eave, a shrub with small yellow flowers behind. No place given and no insects visible: the caption gives the Notre Dame catch figures as the page’s, not as anything this unit caught. No brand visible.",
+   "note": "Credit: ZooFari at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x900."
+  },
+  {
+   "id": "cdc-light-trap-navy-new-orleans",
+   "forPages": [
+    "are-mosquitoes-attracted-to-light"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons, U.S. Navy photo 050910-N-2653P-132, public domain (PD US Navy). Description: Naval Air Station Joint Reserve Base New Orleans, Sept. 10, 2005: Preventive Medicine Technician Hospital Corpsman 1st Class Jonathan Wells, Forward Deployable Preventive Medicine Unit East, removes a light trap provided by the CDC from a tent city area; the unit was assisting the CDC and the Louisiana Department of Public Health against vector-borne disease.",
+   "caveats": "The trap hangs from a branch: a lid over a lamp, a white mesh bag and a collection cup. The source does not mention dry ice or carbon dioxide, so the caption gives the CDC’s dry-ice tip as the page’s text, not as what the photo shows. Public domain, but a trap is not the light page’s main subject, so not its lead.",
+   "note": "Credit: U.S. Navy photo, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x774."
+  },
+  {
+   "id": "cone-mosquito-net-double-bed",
+   "forPages": [
+    "mosquito-net"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons 'Bungalow at Bird of Paradise.jpg' by Mx. Granger, January 27, 2020, CC0. Description: 'Interior of a bungalow at Bird of Paradise Bungalows, Kep, Cambodia.' Filed under Mosquito nets.",
+   "caveats": "A white cone (single-point) net hung from the ceiling over a double bed with two pillows; the net is not tucked in at the foot. The caption uses the page’s own point that a cone tapers inward and suits a single bed better than a queen or king, not a claim about this net’s mesh. CC0: the lead and share image for mosquito-net.",
+   "note": "Credit: Mx. Granger, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "mosquito-net-mesh-closeup",
+   "forPages": [
+    "mosquito-net"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Hexagon mosquito net 1.jpg' by Gustamons, November 27, 2022, CC0. Description: 'Hexagon mosquito net 1'.",
+   "caveats": "A dark close-up of net mesh with hexagonal holes. No scale object, so no hole count or hole size can be read from it: the caption gives the 156-holes figure as the page’s advice. CC0, but a mesh close-up makes a poor share card.",
+   "note": "Credit: Gustamons, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "head-net-over-cap-alaska",
+   "forPages": [
+    "mosquito-net"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons (from NPGallery), NPS Photo, Noatak National Preserve, Alaska, July 14, 2016, public domain. Description: 'Woman wears a mosquito net over her head'.",
+   "caveats": "A head net worn over a National Park Service cap; the mesh hangs close to the face in places. The source does not name her: neither do we. Public domain, but a head net is a secondary subject on mosquito-net.",
+   "note": "Credit: NPS Photo, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x900."
+  },
+  {
+   "id": "hammock-mosquito-net-bc",
+   "forPages": [
+    "mosquito-net"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Man peeking out of a hammock in Bowron Lake Provincial Park campsite 6 (DSCF2208).jpg' by Bubblenymph, Trougnouf (Benoit Brummer), July 12, 2018, CC BY-SA 4.0. Filed under Mosquito nets and People in hammocks.",
+   "caveats": "The netting is lifted by the man’s hand; whether it runs the full length or zips underneath cannot be seen, so the caption gives that as the page’s advice, not a description of this net. British Columbia, so a Canadian setting for a Canadian page.",
+   "note": "Credit: Bubblenymph, Trougnouf (Benoit Brummer), CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x801."
+  },
+  {
+   "id": "lemon-scented-gum-tree",
+   "forPages": [
+    "natural-mosquito-repellent-ontario"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 87813350 by Nick Swanson, Queensland, Australia, July 19, 2021, CC0. Research grade: Corymbia citriodora (observer; supported by a second identifier).",
+   "caveats": "Looking up a tall, smooth, pale trunk into the canopy; the leaves are small at this distance. Corymbia citriodora is the current name of the Eucalyptus citriodora the page names (iNaturalist treats the older name as a synonym), so the caption gives both. 444 KB at the script’s lowest quality. CC0: the lead and share image for natural-mosquito-repellent-ontario.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "scarlet-bee-balm-ontario",
+   "forPages": [
+    "natural-mosquito-repellent-ontario"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 380053092 by Chris Lee, Walton, Ontario, July 10, 2026, CC0. Research grade (observer; supported by a second identifier).",
+   "caveats": "One red flower head on a leafy stem in a sunny field; wild or planted is not recorded. Bee balm is named on the page as a plant with mild repellent oils.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1594."
+  },
+  {
+   "id": "citronella-candle-burning",
+   "forPages": [
+    "natural-mosquito-repellent-ontario"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Citronella Candle Wick Flame.jpg' by Tony Webster (Flickr, June 26, 2013), CC BY 2.0. Description: 'Citronella candle'.",
+   "caveats": "Close-up of the flame and wick in a metal pail candle. That it is citronella is the photographer’s description: no label is visible, so the subject line says so. No brand shown.",
+   "note": "Credit: Tony Webster, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x1600."
+  },
+  {
+   "id": "mosquito-larva-close-up-trough",
+   "forPages": [
+    "natural-mosquito-repellent-ontario"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 207485486 by Irene (aparrot1), Toro County Park, Salinas, California, April 15, 2024, CC0. Description: many mosquito larvae floating in a cattle water trough, which wiggled down to the bottom when startled. Research grade: Culiseta incidens (observer, citing Field Guide to California Insects; supported). Annotated life stage larva.",
+   "caveats": "Close-up of one larva in greenish water. A western species, used only to show a larva; the caption names it as identified on iNaturalist. Which end is the head is not stated in the alt text. Same observation as mosquito-larvae-water-trough.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1105."
+  },
+  {
+   "id": "mosquito-bite-welt-quarter",
+   "forPages": [
+    "mosquito-bite-treatment-relief"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 28626, CDC Division of Vector-Borne Diseases, Rickettsial Zoonoses Branch; photo Lauren Bishop; 2024; public domain. CDC's caption: 'This photograph shows a close view of a person’s left ventral forearm, highlighting a mosquito bite reaction. A U.S. quarter was placed for scale.'",
+   "caveats": "One raised, reddened welt beside a quarter on the inside of a forearm. CDC does not give the age of the bite or the mosquito species. Public domain: the lead and share image for mosquito-bite-treatment-relief.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x799."
+  },
+  {
+   "id": "mosquito-bites-forearm-quarter",
+   "forPages": [
+    "mosquito-bite-treatment-relief"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC PHIL 28625, same series and credit, 2024, public domain. CDC's caption: 'This photograph shows a close view of a person’s right ventral forearm, highlighting multiple mosquito bite reactions. A U.S. quarter was placed for scale.'",
+   "caveats": "Several raised welts on darker skin with little visible redness: useful because most bite photos show pale skin. CDC does not call the reactions normal or severe; the caption pairs the photo with the page’s own timeline and warning signs.",
+   "note": "Credit: CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x799."
+  },
+  {
+   "id": "mosquito-bites-scratched-leg",
+   "forPages": [
+    "mosquito-bite-treatment-relief"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Mosquito bites leg.jpg' by Renzoy16, April 23, 2013, CC BY-SA 3.0. Description: 'An image of my leg with several mosquito bites. I kept scratching it, and that is why the bites are big and so reddish. Mosquitoes are prevalent in tropical countries like the Valencia, Bukidnon, Philippines, where I currently live.'",
+   "caveats": "That mosquitoes made the bites, and that scratching made them bigger, are the photographer’s account; the caption attributes both. Several round red bites on a lower leg above the ankle.",
+   "note": "Credit: Renzoy16, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x1600."
+  },
+  {
+   "id": "severe-mosquito-bite-reaction-leg",
+   "forPages": [
+    "mosquito-bite-treatment-relief"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Severe mosquito bite reaction.jpeg' by Nurse90, August 27, 2020, CC BY-SA 4.0 (GFDL migration). Description: 'Circumscribed erythema related to severe mosquito bite allergic reaction.' Credit line: 'Took a photo of my own leg after being bitten by a mosquito.'",
+   "caveats": "A large, faint red patch on a leg with a finger pointing to it. The diagnosis is the uploader’s own (the user name suggests a nurse; not verified), and the source does not say skeeter syndrome: the caption says the photographer describes it as a severe allergic reaction, under the page’s skeeter syndrome paragraph.",
+   "note": "Credit: Nurse90, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "fogging-for-mosquitoes-navy",
+   "forPages": [
+    "how-long-does-mosquito-spray-last"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons, U.S. Navy photo 100414-N-2495K-001, Camp Buehring, Kuwait, April 14, 2010, public domain. Description: 'Lt. Michael Fisher, assigned to Forward Deployable Preventative Medicine Unit-North, sprays for mosquitoes in Camp Buehring Kuwait. The numbers of mosquitoes have decreased by half since aggressive mosquito control measures were put in place in early April.'",
+   "caveats": "A handheld fogger putting out a white fog beside a concrete slab. The source says he sprays for mosquitoes; it does not say thermal or ULV or name the product, so the caption says handheld fogger. The decrease by half is the Navy’s claim and is not used. Public domain: the lead and share image for how-long-does-mosquito-spray-last.",
+   "note": "Credit: U.S. Navy photo, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x900."
+  },
+  {
+   "id": "aedes-resting-under-leaf",
+   "forPages": [
+    "how-long-does-mosquito-spray-last"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 254781725 by bughntr, Gordon Hutton Park, Woonona, New South Wales, Australia, December 11, 2024, CC BY-SA. Description: 'on underside of leaf'. Identifications: Culicidae (observer), Aedes (a second identifier), Culicidae (supporting); annotated female.",
+   "caveats": "Backlit through the leaf from below; banded legs. Genus only, and an Australian record: the caption says identified on iNaturalist as a female Aedes and uses the page’s point that barrier spray dries onto the leaves where mosquitoes rest.",
+   "note": "Credit: (c) bughntr, some rights reserved (CC BY-SA), via iNaturalist. Licence: CC-BY-SA-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "mosquito-larvae-water-trough",
+   "forPages": [
+    "how-long-does-mosquito-spray-last"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 207485486 (as mosquito-larva-close-up-trough), photo 367011240, CC0. Research grade: Culiseta incidens; annotated larva.",
+   "caveats": "About a dozen larvae seen from above in greenish trough water. A western species shown only as larvae in standing water, beside the page’s BTI sentence.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "cedar-hedge-foliage-london-ontario",
+   "forPages": [
+    "how-long-does-mosquito-spray-last"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 129053639 by kristinpiston, Trafalgar St, London, Ontario, August 1, 2022, CC0. Description: 'Hedge'. Casual grade (cultivated); Thuja occidentalis by the observer only.",
+   "caveats": "Frame-filling foliage of a hedge with dark gaps into the interior. The species is the observer’s identification and the caption says so. 448 KB at the script’s lowest quality (fine foliage texture).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "thuja-hedge-residential-lane",
+   "forPages": [
+    "do-cedar-trees-attract-mosquitoes"
+   ],
+   "confidence": "medium",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons 'N.-Listernohl Thuja.jpg' by Bluemel1, June 21, 2020, CC0. Description: 'Thuja-Hecke' (Thuja hedge). Filed under Thuja occidentalis (hedges).",
+   "caveats": "A tall, clipped hedge along a residential lane in Neu-Listernohl, Germany, beside a house and a parked car. The species rests on the uploader’s Commons category, and the caption says filed on Commons as Thuja occidentalis. It shows the subject the page is about (a dense cedar hedge), so it leads: CC0, the share image for do-cedar-trees-attract-mosquitoes.",
+   "note": "Credit: Bluemel1, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "white-cedar-tree-in-lawn",
+   "forPages": [
+    "do-cedar-trees-attract-mosquitoes"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 33729602 by S Brian Treelife, Fonthill, Ontario, September 30, 2019, CC0. Casual grade (cultivated); Thuja occidentalis agreed by three identifiers.",
+   "caveats": "A single tree with many brown seed cones, standing on a mown lawn; the trunk and lower canopy are in frame, not the whole tree. Matches the page’s specimen-tree case.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "white-cedar-dense-foliage",
+   "forPages": [
+    "do-cedar-trees-attract-mosquitoes"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 128837756 by kristinpiston, Kennedy Pl, London, Ontario, July 31, 2022, CC0. Casual grade (cultivated); Thuja occidentalis agreed by two identifiers.",
+   "caveats": "Dense outer foliage, frame-filling. On record but not placed: at 541 KB (lowest quality) it was the heaviest of the batch, and the cedar page’s lead already shows a dense hedge. Available for a later hedge or arborvitae page.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "mosquitoes-resting-under-leaf",
+   "forPages": [
+    "do-cedar-trees-attract-mosquitoes"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 243305900 by Agnes Trekker, Sai Kung, Hong Kong, September 22, 2024, CC0. Description: 'At first only 2 resting at the leaf @ picture#2, then many more joining in a few seconds @ picture #3&4'. Research grade: Armigeres subalbatus.",
+   "caveats": "Several mosquitoes hanging under a small, hairy leaf. Not a cedar and not a North American species: the caption names them and says only that mosquitoes spend most of their adult lives resting, as the page states.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1124x2048."
+  },
+  {
+   "id": "blacklegged-tick-female-point-pelee",
+   "forPages": [
+    "lyme-disease-risk-areas-ontario-2026"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 286921383 by Drew Baxter, Point Pelee National Park, Ontario, June 4, 2025, CC0. Description: 'I noticed this tick on my leg after a walk along the seasonal footpath between The Dunes and Northwest Beach. Females can be identified by their partial shield, oval, dark and inornate.' Research grade (observer; supported by a second identifier). Annotated adult, female, alive.",
+   "caveats": "Photographed on a gray textured surface after the observer found it on their leg, not on skin: the caption says where it was found, the alt text describes the surface. CC0: the lead and share image for lyme-disease-risk-areas-ontario-2026.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "blacklegged-tick-fingernail-cootes-paradise",
+   "forPages": [
+    "lyme-disease-risk-areas-ontario-2026"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 97562167 by Brittany Killingbeck, Cootes Paradise, Hamilton, Ontario, October 7, 2021, CC0. Research grade (observer; supported by Dr Ben Cull, a tick researcher account).",
+   "caveats": "A tiny tick on a soil-dusted fingernail. Life stage not annotated, so the caption does not call it a nymph. Cootes Paradise is named on the page as an established blacklegged tick zone.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "blacklegged-tick-garden-glove",
+   "forPages": [
+    "lyme-disease-risk-areas-ontario-2026"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 252629903 by Brittany Killingbeck, Burlington, Ontario, November 22, 2024, CC0. Research grade (observer; supported by a second identifier).",
+   "caveats": "On the palm of a knit gardening glove. Life stage and sex not annotated: none stated.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "white-tailed-deer-yard-ontario",
+   "forPages": [
+    "lyme-disease-risk-areas-ontario-2026"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 163374675 by robinlanark, Ontario (place obscured to the province), May 23, 2023, CC0. Description: 'A still from a video plus some photos. This young deer approached me in a neighbour's yard but would only get so close. It finally moved away without showing any alarm.' Research grade.",
+   "caveats": "The exact place is not public: say Ontario only. Young deer and neighbour’s yard are the observer’s words.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "tick-drag-cloth-woodland",
+   "forPages": [
+    "lyme-disease-risk-areas-ontario-2026"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons, U.S. Navy photo by Chief Petty Officer Justin Stumberg (DVIDS 9729894), public domain. Description: U.S. Army Maj. Joseph Margotta, an entomologist assigned to the Walter Reed Army Institute of Research, uses a tick drag cloth to collect tick samples during BALTOPS 2026 in Liepaja, Latvia (description dated June 5, 2026; EXIF June 3).",
+   "caveats": "Shows the method, in Latvia, not Ontario: the caption ties it to the page only through the page’s own description of public health tick dragging. 11.6 MB original.",
+   "note": "Credit: U.S. Navy 22NCR by Chief Petty Officer Justin Stumberg, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x800."
+  },
+  {
+   "id": "erythema-migrans-rash-trunk",
+   "forPages": [
+    "lyme-disease-risk-areas-ontario-2026"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Erythemamigrans.jpg' by Warfieldian, July 4, 2010, CC BY-SA 3.0 (GFDL migration). Description: 'Photograph of pathognomonic erythema chronicum migrans rash of Lyme's Disease on the trunk of young woman in her 20s'.",
+   "caveats": "The diagnosis is the uploader’s: the caption says in the photographer’s description. A large blotchy oval rather than a classic bull’s-eye. Chosen over the CDC photo erythema-migrans-rash, already on 37 pages. Placed low, under Know the Symptoms.",
+   "note": "Credit: Warfieldian, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x1764."
+  },
+  {
+   "id": "fungus-gnat-kitchen-counter",
+   "forPages": [
+    "how-to-get-rid-of-fungus-gnats"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 145802877 by Steve Wells, Moscow, Idaho, January 3, 2023, CC0. Description: 'On kitchen counter. 3 mm'. Needs ID at family Sciaridae, agreed by three identifiers.",
+   "caveats": "Photographed from above on a blue background (a dish, by our reading), so a specimen view, not a where-found photo, despite the kitchen origin. Genus unknown: the caption says dark-winged fungus gnat (family Sciaridae). The 3 mm is the observer’s measure and fits the page’s 1/16 to 1/8 inch. CC0; the guide’s hero infographic stays its share image.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x995."
+  },
+  {
+   "id": "fungus-gnat-penny-scale",
+   "forPages": [
+    "how-to-get-rid-of-fungus-gnats"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 330554465 by Jayse Todd, Oregon, December 12, 2025, CC0. Description: 'In my house, drawn to fruit, tea bags, and potted plants. Very small, penny for scale. More active at night.' Community taxon Sciaridae (observer and a second identifier).",
+   "caveats": "The gnat is tiny and soft beside the penny: a life-size view, not an identification photo. Small original (846 x 844).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 846x844."
+  },
+  {
+   "id": "fungus-gnat-larvae-procession",
+   "forPages": [
+    "how-to-get-rid-of-fungus-gnats"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 384024878 by Branislav Tej, Terňa, Slovakia, July 22, 2026, CC0. Description: 'Procession of fungus gnat larvae'. Sciaridae agreed by two identifiers (one a dipterist account).",
+   "caveats": "Outdoors on soil, not in a pot: the caption says so. The procession behaviour is not on the page, so the caption describes only the look (pale, wormlike, black head), which the page states.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "fungus-gnat-yellow-sticky-trap",
+   "forPages": [
+    "how-to-get-rid-of-fungus-gnats"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 404646444 by Mel Whiting, Lincoln, New Zealand, September 30, 2026, CC BY. Description: 'Living in potting mix, now being trapped'. Sciaridae (a second identifier; the observer agrees); annotated adult. Identifier comment: symptomatic of overwatering damage, rather than causative.",
+   "caveats": "One gnat on a yellow sticky trap, a fingertip at the top. It does not show a card on a stake in a pot, so the guide’s media placeholder for that photo stays.",
+   "note": "Credit: (c) Mel Whiting, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "are-mosquitoes-attracted-to-light",
+   "why": "Placed: aedes-vexans-uv-light (CC0 lead), aedes-aegypti-female (on record), cattail-mosquito-porch-light, bug-zapper-roof-eave, cdc-light-trap-navy-new-orleans. Not found under an allowed licence: a yellow bug light bulb on a porch; insects massed at a porch light with a confident identification. The diagram media placeholder stays (a diagram, not a photo). Refused or passed over: CDC-LightTrap 200.jpg (200 px), Bug Zapper 1911.JPG (prototype for flies), Zanzariera elettrica con lampada.jpg (CC0, an indoor commercial unit, weaker than the outdoor zapper), the Psorophora and Aedes porch-light records of one Texas observer (needs ID or a weaker photo than the Coquillettidia)."
+  },
+  {
+   "slug": "mosquito-net",
+   "why": "Placed: cone-mosquito-net-double-bed (CC0 lead), head-net-over-cap-alaska, hammock-mosquito-net-bc, mosquito-net-mesh-closeup; plus one bug bite identifier sentence. Still wanted: a rectangular four-corner canopy net, a pop-up (self-standing) bed net, a crib dome net, a stroller net, a pop-up screen house. Refused: Javanbedcanopy.JPG (public domain, but it carries a company web-address watermark); Bedroom with mosquito netting, San Francisco Plantation House, Louisiana, 2021.jpg (Carol M. Highsmith, public domain, canopy bed and crib netting, but the original is 199.5 MB); Hexagon mosquito net 2.jpg (CC0, a near duplicate of 1); malaria bed-net distribution photos (people, mostly children, off-topic for a buyer’s guide); Wellcome and archive drawings."
+  },
+  {
+   "slug": "natural-mosquito-repellent-ontario",
+   "why": "Placed: lemon-scented-gum-tree (CC0 lead), citronella-candle-burning, mosquito-larva-close-up-trough, scarlet-bee-balm-ontario, peppermint-flowering (on record). Page is localInfo: photos only, no tool link. Not found: a citronella grass (Cymbopogon nardus or winterianus) photo with a confident identification (the CC0 ones are needs-ID, Brazil and South Africa); lemon eucalyptus leaves or flowers at research grade under CC0 (the Hawaii branch-in-hand, obs 251966566, is needs-ID). Passed over: Citronella Kerzen.jpg (branded tealight packaging)."
+  },
+  {
+   "slug": "mosquito-bite-treatment-relief",
+   "why": "Placed: mosquito-bite-welt-quarter (public-domain lead), mosquito-bites-scratched-leg, mosquito-bites-forearm-quarter, severe-mosquito-bite-reaction-leg, mosquito-bites-ankle (on record). The page already links the bite identifier. Still wanted: a cold compress or ice pack on a bite; an infected bite from a confident medical source. The rest of the CDC 2024 series (PHIL 28627-28634, 28639-28640) is public domain and on file at the source for later bite pages. Refused: Mosquito feeding on human hand -2010May29- Moscow Oblast.jpeg (public domain, the mosquito is too small in the frame)."
+  },
+  {
+   "slug": "how-long-does-mosquito-spray-last",
+   "why": "Placed: fogging-for-mosquitoes-navy (public-domain lead), aedes-resting-under-leaf, mosquito-larvae-water-trough, cedar-hedge-foliage-london-ontario. Still wanted: a technician applying barrier spray to shrubs with a backpack sprayer, and a clogged roof gutter holding water. Refused: Ida clogged gutter Essex 01.jpg (a street storm drain, not a roof gutter); New Orleans Mosquito Control Truck 1981.jpg (public domain ULV truck, a second fogging photo would repeat the lead); the CMDR Donald Thurston DoD photo (spraying into a drain hole)."
+  },
+  {
+   "slug": "do-cedar-trees-attract-mosquitoes",
+   "why": "Placed: thuja-hedge-residential-lane (CC0 lead), mosquitoes-resting-under-leaf, white-cedar-tree-in-lawn, lemongrass-plant (on record). Still wanted: the shaded interior of a dense cedar hedge with dead inner branches and needle litter at the base; a mosquito on cedar foliage (none found under an allowed licence). On record, not placed: white-cedar-dense-foliage (541 KB). Alternatives: the Emerald Green Arborvitae hedge series by Famartin on Commons (CC BY-SA 4.0, Virginia), Cedar Hedge 4238 (CC BY 2.0, Stirling, Ontario)."
+  },
+  {
+   "slug": "lyme-disease-risk-areas-ontario-2026",
+   "why": "Placed: blacklegged-tick-female-point-pelee (CC0 lead), blacklegged-tick-fingernail-cootes-paradise, blacklegged-tick-garden-glove, white-tailed-deer-yard-ontario, tick-drag-cloth-woodland, erythema-migrans-rash-trunk. Page is localInfo: photos only, no tool link, every quote prompt unchanged. Still wanted: a blacklegged tick questing on vegetation in a GTA ravine. Other CC0 research-grade Ontario blacklegged tick records seen (Palgrave, Norfolk County, Hamilton arboretum) are spares for later tick pages."
+  },
+  {
+   "slug": "how-to-get-rid-of-fungus-gnats",
+   "why": "Placed: fungus-gnat-kitchen-counter (CC0, first figure; the hero infographic stays the share image), fungus-gnat-penny-scale, fungus-gnat-larvae-procession, fungus-gnat-yellow-sticky-trap, drain-fly-bathroom-wall (on record); plus one pest identifier quiz sentence. Both media placeholders stay: no allowed photo shows a yellow card on a stake in a pot, or a fungus gnat, fruit fly and drain fly at the same scale. Still wanted: fungus gnat larvae in potting mix or on a potato slice. Passed over: Bradysia amoena obs 34020041 (CC0, research grade, potted-plant compost, but soft; the other frames are microscope views), the Ithaca indoor plant-box records (observer-only identification)."
+  }
+ ]
 }

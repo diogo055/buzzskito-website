@@ -12,6 +12,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
@@ -81,6 +83,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('mosquito-bite-welt-quarter'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-bite-treatment-relief')
@@ -88,7 +91,7 @@ const AMZ_TAG = tagForSlug('mosquito-bite-treatment-relief')
 export default function MosquitoBiteTreatmentReliefPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to treat a mosquito bite and stop the itch fast, what works vs myths, and when a bite needs a doctor.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to treat a mosquito bite and stop the itch fast, what works vs myths, and when a bite needs a doctor.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('mosquito-bite-welt-quarter') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Bite Treatment', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -175,6 +178,11 @@ export default function MosquitoBiteTreatmentReliefPage() {
 
           <h2>Why Mosquito Bites Itch</h2>
           <p>The itch is an allergic reaction, not the puncture. When a female mosquito feeds, she injects a little saliva loaded with anticoagulant proteins so your blood keeps flowing while she drinks. Your immune system flags those proteins as foreign and releases <strong>histamine</strong>, which dilates local blood vessels and irritates nearby nerves. The result is the familiar red, raised, itchy welt. Because histamine drives the whole reaction, the treatments that calm histamine &mdash; antihistamines and hydrocortisone &mdash; work far better than anything aimed at the tiny bite wound itself. It also explains why people react so differently: sensitivity to mosquito saliva varies a lot, and your reaction can change over a season as your body is exposed more. That mechanism is shared, which is precisely why the two get confused &mdash; <Link href="/blog/bed-bug-bites-vs-mosquito-bites" className="text-brand-700 underline">telling a bed bug bite from a mosquito bite</Link> relies on the pattern and the room rather than on the welt itself.</p>
+          <Photo
+            id="mosquito-bite-welt-quarter"
+            alt="Raised, reddened mosquito bite welt on the inside of a forearm beside a U.S. quarter for scale"
+            caption="A mosquito bite reaction on a forearm beside a U.S. quarter for scale (CDC photograph, 2024). The red, raised welt is the histamine reaction to proteins in the mosquito's saliva, not the puncture itself."
+          />
 
           <h2>Fast Relief, Step by Step</h2>
           <p>When a bite flares up, work through these in order. You will usually feel better within the first two steps.</p>
@@ -206,11 +214,26 @@ export default function MosquitoBiteTreatmentReliefPage() {
           <h2>What Actually Works vs Common Myths</h2>
           <p>Plenty of internet remedies get passed around every summer. Here is the honest split. <strong>Cold, hydrocortisone, and antihistamines</strong> are the workhorses with the best support. <strong>Calamine, baking-soda paste, and after-bite ammonia sticks</strong> help to a mild-to-moderate degree. Brief <strong>heat</strong> &mdash; a warm (not scalding) compress or a purpose-made heat pen around 50&deg;C &mdash; relieves itch for some people, likely by breaking down the irritant proteins; use it carefully to avoid burns.</p>
           <p>The remedies that do <em>not</em> hold up: <strong>toothpaste, spit, and vinegar-soaked folk cures</strong> rarely do more than distract you, and toothpaste can irritate broken skin. The single worst thing you can do is <strong>scratch</strong>. It feels great for a second and then releases more histamine, spreads the reaction, and &mdash; most importantly &mdash; can break the skin and let bacteria in, which is how a harmless itchy bump turns into an infected one.</p>
+          <Photo
+            id="mosquito-bites-scratched-leg"
+            alt="Hairy lower leg with several round red mosquito bites, some with a small dark scratch mark in the centre"
+            caption="Mosquito bites on a lower leg that the photographer says grew big and reddish because they kept scratching them (Philippines). Scratching releases more histamine, spreads the reaction and can break the skin."
+          />
 
           <h2>Signs of an Infected Bite or a Bad Reaction</h2>
           <p>A normal mosquito bite is worst on day one or two and steadily improves. Two things should change your plan: signs of <strong>infection</strong>, and signs of an <strong>allergic reaction</strong>.</p>
+          <Photo
+            id="mosquito-bites-forearm-quarter"
+            alt="Several raised mosquito bite welts on the inside of a dark-skinned forearm beside a U.S. quarter for scale"
+            caption="Several mosquito bite reactions on a forearm beside a U.S. quarter for scale (CDC photograph, 2024). A normal bite is worst on day one or two and steadily improves; spreading redness, pus or fever are the signs of an infected bite."
+          />
           <p><strong>Infected bite (often from scratching):</strong> instead of fading, the bite gets worse &mdash; redness spreads outward, the skin feels warm and increasingly painful, and you may see pus, yellow crusting, or red streaks trailing away from the site. Fever or tender, swollen glands can go with it. Spreading redness with streaking can signal <strong>cellulitis</strong>, a skin infection that usually needs antibiotics, so do not wait it out.</p>
           <p><strong>Skeeter syndrome (a bite allergy):</strong> some people, especially young children and those new to an area, react to mosquito saliva with a large, hot, firm, red swelling that can be several centimetres across, sometimes with blistering or a low fever, appearing within hours. It looks alarming and is easy to confuse with infection, but it is an allergic reaction, not bacteria. Cold, oral antihistamines, and hydrocortisone are the mainstays; severe or recurring cases should see a doctor.</p>
+          <Photo
+            id="severe-mosquito-bite-reaction-leg"
+            alt="Large, faint red patch of skin on a leg, with a finger pointing to it"
+            caption="A large red patch on a leg that the photographer, who photographed their own leg, describes as a severe allergic reaction to a mosquito bite. A big allergic swelling is easy to confuse with infection; severe or recurring cases should see a doctor."
+          />
 
           <RelatedLinks path="/blog/mosquito-bite-treatment-relief" />
           <h2>When to See a Doctor</h2>
@@ -227,6 +250,11 @@ export default function MosquitoBiteTreatmentReliefPage() {
           <h2>Treating Mosquito Bites on Kids</h2>
           <p>Children get bitten more, react more strongly, and scratch more &mdash; a recipe for infected bites. Keep treatment simple: wash the bite, apply a cold compress, and use age-appropriate anti-itch options like 1% hydrocortisone or calamine on the skin. A children&rsquo;s oral antihistamine can help with widespread itching, but check the dose with a pharmacist or doctor first. The most useful move is mechanical: <strong>trim nails and cover the bite with a bandage</strong> so scratching cannot break the skin. Kids are the group most prone to skeeter-syndrome swellings, so a big hot lump is usually an allergy rather than an emergency &mdash; but watch for spreading redness, pus, or fever and get it checked if those appear.</p>
           <p>If most of the bites you are treating sit below the knee, that is not coincidence &mdash; socks and closed shoes are one of the cheapest interventions available, and we explain the ground-level physics behind it in <Link href="/blog/why-do-mosquitoes-bite-my-ankles">why mosquitoes bite ankles and feet</Link>.</p>
+          <Photo
+            id="mosquito-bites-ankle"
+            alt="Pale ankle and lower leg dotted with dozens of small red mosquito bites, some raised and some scratched"
+            caption="Mosquito bites on the ankle of a human foot, in the photographer's description. Socks and closed shoes are one of the cheapest ways to cut down on bites below the knee."
+          />
 
           <h2>Stop the Bites at the Source</h2>
           <p>Every bite you treat started with a mosquito that was resting somewhere in your yard &mdash; in tall grass, under shrubs, in the shade of the fence line. You can keep antihistamines on hand, but the real fix is fewer mosquitoes. Dump standing water weekly (even a bottle cap breeds them), keep grass trimmed, and consider a barrier treatment that kills the adults where they hide. <Link href="/mosquito-control">BuzzSkito&rsquo;s professional barrier spray</Link> targets those resting zones, and the residual is renewed on your plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic), so bite-and-scratch season is a lot shorter.</p>
