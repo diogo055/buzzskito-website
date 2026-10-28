@@ -2,7 +2,7 @@
  "id": "what-do-fleas-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d19b6e8b72d2489256bd5a1620a98ad36254100ce73aa0102b53f39c6a3d4032",
+ "sha": "4c8f46347a810b089255c85f7a5b7b879b33c5f8e89eb3e3551c31a29a7f87a9",
  "claimsChecked": 116,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 4,
@@ -22,6 +22,11 @@
    "on": "2026-10-23",
    "note": "photos: cat-flea-on-fingertip (batch 12, Oct 23)",
    "previousSha": "a6e1142350987d1e3b9fbcc51ed52c0e76672f9e5d68b8d80efc3cd298dc82bf"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28: one sentence links the new fleas-on-humans guide after the human flea line; no fact changed",
+   "previousSha": "d19b6e8b72d2489256bd5a1620a98ad36254100ce73aa0102b53f39c6a3d4032"
   }
  ]
 }

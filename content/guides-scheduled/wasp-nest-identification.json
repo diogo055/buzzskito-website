@@ -1,0 +1,210 @@
+{
+  "slug": "wasp-nest-identification",
+  "kind": "spoke",
+  "cluster": "wasps",
+  "keyword": "wasp nest",
+  "alsoTargets": [
+    "what does a wasp nest look like",
+    "wasp nest identification",
+    "hornet nest",
+    "wasp nest vs hornet nest",
+    "types of wasp nests",
+    "old wasp nest",
+    "do wasps reuse nests"
+  ],
+  "metaTitle": "Wasp Nest Identification: Which Insect? (Photos)",
+  "metaDescription": "An open paper comb is paper wasps, a gray ball hornets, a busy hole yellowjackets, mud tubes mud daubers. Photos, sizes, risk and old nests in winter.",
+  "h1": "Wasp Nest Identification: Which Wasp, Hornet or Bee Built It",
+  "dek": "Which insect built a nest decides how risky it is. Real photos of each common type, from open paper combs and gray hornet balls to ground holes, mud tubes and bee swarms, and how to tell an old, empty nest from an active one.",
+  "breadcrumb": "Wasp Nest Identification",
+  "excerpt": "Identify a wasp nest by what it is made of and where it is: paper combs, gray hornet balls, ground holes, mud tubes and bee nests, with photos, sizes and what old nests mean.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Check what the nest is made of and whether you can see its cells: an open paper comb is a paper wasp nest, a closed gray paper ball or a hole with wasps streaming in and out means hornets or yellowjackets, and tubes or lumps of mud mean mud daubers.** Wax comb means honey bees. [Purdue Extension](https://www.extension.entm.purdue.edu/publications/E-253/E-253.pdf) adds the safety test: many insects busy at one entrance mean a colony that defends its nest.",
+    "bullets": [
+      "Paper wasp nests rarely grow larger than an outstretched hand and hold 15 to 200 wasps, says [UC IPM](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/).",
+      "A large yellowjacket nest is usually about the size of a basketball, and so is a bald-faced hornet's, according to [Missouri Extension](https://extension.missouri.edu/publications/g7391).",
+      "A black-and-yellow mud dauber's nest is about the size of a fist, and solitary wasps such as mud daubers do not defend their nests, Purdue says.",
+      "Ground-nesting bee holes are about 1/4 inch across ([Clemson Extension](https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/)), and a carpenter bee's hole in bare wood is a near-perfect circle about 1/2 inch across ([Missouri Extension](https://extension.missouri.edu/publications/g7424)).",
+      "In much of the country wasp colonies die off in late autumn and old nests are not reused, says the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef620), while honey bees keep the same nest year after year (Missouri Extension)."
+    ]
+  },
+  "facts": {
+    "title": "Wasp nest or look-alike? Quick ID",
+    "head": ["Builder", "What you see", "Where", "Size", "Defends the nest?"],
+    "rows": [
+      ["[Paper wasps](/blog/paper-wasps)", "One open comb of paper cells hanging from a stalk; no cover", "Under eaves, porches and branches; in attics", "Rarely bigger than an outstretched hand; 15 to 200 wasps", "Yes, but much less defensive than yellowjackets"],
+      ["[Yellowjackets](/blog/yellow-jackets)", "Usually just a hole with wasps flying in and out; layered comb inside a paper envelope", "In the ground, often an old rodent burrow; wall voids, attics, behind siding", "Large nests about basketball size; up to 5,000 workers in late summer", "Yes, aggressively and as a group"],
+      ["[Bald-faced hornets](/blog/bald-faced-hornets)", "Closed gray paper ball, pear- or football-shaped, entrance hole at the bottom", "Hanging in trees and shrubs, often high; sometimes on buildings", "About basketball size; several hundred workers by late summer", "Yes, at the nest; docile away from it"],
+      ["[European hornets](/blog/european-hornets)", "Paper comb in a brown envelope, hidden inside a cavity", "Hollow trees, sometimes wall voids; up to 30 feet up", "Most hold 200 to 400 workers at the mid-September peak", "Missouri Extension calls it not very aggressive"],
+      ["[Mud daubers](/blog/mud-daubers)", "Tubes or lumps of dried mud; no paper", "Walls, eaves, rafters and roof overhangs", "Black-and-yellow mud dauber nest about fist size", "No; they very rarely sting"],
+      ["Honey bees", "Wax comb filled with honey, hidden in a cavity; a swarm is a temporary cluster in the open", "Hollow trees, occasionally wall voids", "A wall colony can hold tens of thousands of bees and over 100 pounds of honey", "Yes, in defense of the nest; swarms are usually not aggressive"],
+      ["[Cicada killers](/blog/cicada-killers)", "Hole in bare soil with a mound of dirt, often with a groove leading in", "Lawns and other open ground, often many together", "Wasp can top 1 1/2 inches; tunnels 4 feet or more", "No; only females sting, and only if handled roughly"],
+      ["[Ground-nesting bees](/blog/ground-bees)", "Small holes, with or without a little soil piled around; one bee per burrow", "Warm, sunny, dry spots in the yard, in spring", "Holes about 1/4 inch across", "No; they are not aggressive"],
+      ["[Carpenter bees](/blog/how-to-get-rid-of-carpenter-bees-canada)", "Near-perfect round hole in bare wood, with stains near the opening", "Porch ceilings, railings, trim, fence posts; softwoods", "Hole about 1/2 inch across", "Rarely; males cannot sting"]
+    ],
+    "caption": "All linked on this page: UC IPM, Missouri Extension, Kentucky, Penn State and MDC for the wasps and hornets; Purdue for mud daubers; Penn State and the Texas Apiary Inspection Service for honey bees; MDC, Clemson and Missouri Extension for the holes."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a wasp nest look like?" },
+    { "type": "p", "text": "A **wasp nest** is usually made of paper: [UC IPM's guide to yellowjackets and other social wasps](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) says the wasps make it from wood fibers mixed with saliva. Its shape tells you who built it. Paper wasps leave the comb open, with the cells showing; yellowjackets and hornets wrap theirs in a paper envelope, hidden in a hole or hanging in the open as a closed ball. Mud means mud daubers, and wax comb means honey bees." },
+    { "type": "figure", "src": "/guides/photos/bald-faced-hornet-nest.webp", "width": 1200, "height": 800, "alt": "Large gray paper hornet nest with swirled layers hanging among green leaves and small fruit, with a round entrance hole in its lower half and a few black wasps on it", "caption": "A bald-faced hornet nest hanging among leafy branches in St. Louis County, Minnesota, in a U.S. Fish and Wildlife Service photo. Look for the gray, swirled paper envelope and the entrance hole low on the nest.", "license": "public-domain", "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bald-faced_hornet_nest_(54699528523).jpg" },
+    { "type": "p", "text": "Two checks sort almost any nest: the material (paper, mud or wax) and the traffic. [Purdue Extension's guide to mud daubers](https://www.extension.entm.purdue.edu/publications/E-253/E-253.pdf) explains that social wasps live in large colonies around an elaborate nest, so many are active at the entrance, while a solitary wasp's nest or burrow typically holds one insect, which does not defend it and very rarely stings." },
+
+    { "type": "h2", "text": "Is it a paper wasp nest?" },
+    { "type": "p", "text": "It is if you can see the cells. UC IPM describes the paper wasp nest as an open umbrella hanging from a single stalk, its cells visible from underneath, in sheltered spots such as under eaves, in attics or under branches and vines. [Missouri Extension's guide to bees and wasps](https://extension.missouri.edu/publications/g7391) calls it a single, unprotected comb on the eaves or porches of buildings." },
+    { "type": "figure", "src": "/guides/photos/paper-wasp-nest-eave-corner.webp", "width": 1200, "height": 800, "alt": "Five black-and-yellow paper wasps on a round, open comb of gray paper cells attached in the corner where a white wall meets the underside of a roof overhang", "caption": "European paper wasps on their open comb in the corner under the roof overhang of a house in Saratoga, California. Nothing covers the cells.", "license": "CC-BY-4.0", "credit": "(c) bungelina, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/227695136" },
+    { "type": "p", "text": "Paper wasp nests stay small. UC IPM says they rarely grow larger than an outstretched hand and hold 15 to 200 wasps, and [Penn State Extension's guide to social bees and wasps](https://extension.psu.edu/common-social-bees-and-wasps-of-pennsylvania-behavior-lifecycle-and-management) says most colonies have only a few dozen adults. UC IPM calls paper wasps much less defensive than yellowjackets, though a nest over a doorway or another busy spot can still be a problem. [The paper wasp guide](/blog/paper-wasps) covers the species, the sting and the nest through the year." },
+
+    { "type": "h2", "text": "What does a hornet nest look like?" },
+    { "type": "p", "text": "A large, gray paper ball hanging in a tree or shrub is the classic hornet nest, built by the bald-faced hornet. The [University of Kentucky's guide to wasps, hornets and yellowjackets](https://entomology.mgcafe.uky.edu/ef620) likens it to a bloated football, Missouri Extension calls it pear-shaped and about basketball size, and UC IPM says the entrance is normally a hole at the bottom. Inside, layers of comb sit within an outer envelope, as in a yellowjacket nest, says the [Missouri Department of Conservation's bald-faced hornet page](https://mdc.mo.gov/discover-nature/field-guide/bald-faced-hornet)." },
+    { "type": "p", "text": "The bald-faced hornet (*Dolichovespula maculata*, per MDC), a mostly black wasp with white or ivory markings, is one of the aerial-nesting yellowjackets UC IPM describes. MDC says its nests are usually high in trees or in shrubs, only occasionally on buildings, and hold several hundred workers by late summer. [The bald-faced hornet guide](/blog/bald-faced-hornets) covers the hornet itself." },
+    { "type": "h3", "text": "European hornet nests" },
+    { "type": "p", "text": "The European hornet hides its nest. [Penn State Extension's European hornet page](https://extension.psu.edu/european-hornet) says it builds inside a hollow in a large, standing tree and sometimes in a house's wall voids, up to 30 feet up, and that nests peak in mid-September, when most hold 200 to 400 workers. Missouri Extension describes a brown envelope of coarse wood fibers around the comb." },
+    { "type": "figure", "src": "/guides/photos/european-hornet-nest.webp", "width": 1200, "height": 800, "alt": "Several large hornets with reddish-brown and yellow-banded bodies crawling around the rim of a dark hollow in a gray tree trunk", "caption": "European hornets at the opening of the tree hollow where they nest, in Mason Neck, Virginia, in October 2026. The paper nest is out of sight inside.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/408334988" },
+    { "type": "p", "text": "Hornets are wasps (Penn State counts both hornets among the social wasps), so a hornet nest is one kind of wasp nest. [How to tell a wasp from a hornet](/blog/wasp-vs-hornet) compares the insects, and [the European hornet guide](/blog/european-hornets) covers that species." },
+    { "type": "p", "text": "Two invasive hornets are worth knowing. The [Georgia Department of Agriculture](https://agr.georgia.gov/yellow-legged-hornet) says the yellow-legged hornet builds egg-shaped paper nests, often in trees: tennis-ball-size starter nests on porches in early spring, then late-summer nests high in trees that can be larger than a basketball. It asks the public to report suspected sightings, with a photo if one can be taken safely; the first live one in the open United States was confirmed near Savannah in August 2023." },
+    { "type": "p", "text": "The northern giant hornet, which nested in alder tree cavities in Washington State, was declared eradicated from the United States in December 2024 by the [Washington State Department of Agriculture and USDA](https://agr.wa.gov/about-wsda/news-and-media-relations/news-releases?article=41658). See [the yellow-legged hornet guide](/blog/yellow-legged-hornet) and [the northern giant hornet guide](/blog/northern-giant-hornet)." },
+
+    { "type": "h2", "text": "Is it a hole in the ground or a gap in a wall?" },
+    { "type": "p", "text": "Wasps streaming in and out of a hole in the ground or a gap in a wall most often mean yellowjackets. The [Missouri Department of Conservation's yellowjacket page](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps) says that entrance hole is all most people ever see of the nest, that Missouri's native species usually start underground in a cavity such as a rodent burrow, and that the German yellowjacket usually nests in the spaces between walls of buildings. Kentucky adds stone walls, crawlspaces, attics and the space behind siding." },
+    { "type": "figure", "src": "/guides/photos/yellowjacket-ground-nest.webp", "width": 1200, "height": 1200, "alt": "Half a dozen black-and-yellow wasps at a dark opening between gray rocks in dry, crumbly soil and dead grass", "caption": "Western yellowjackets at their ground nest beside a trail in Santa Clara County, California. Many wasps at one hole is the colony sign Purdue describes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/63309210" },
+    { "type": "p", "text": "Underground, the nest is paper. Missouri Extension describes multilayered combs surrounded by a paper shell, usually about basketball size when large, with up to 5,000 workers in late summer, and says an underground nest may have more than one entrance. UC IPM notes that the comb can sit quite a distance from the visible hole." },
+    { "type": "p", "text": "Do not plug the hole. Kentucky warns that sealing the spot where wasps go in and out of a wall may make them chew their way inward and come out indoors, and Penn State says never to seal wasps inside a wall or the ground. See [dealing with wasps that nest in the ground](/blog/how-to-get-rid-of-ground-wasps-canada) and [the yellowjacket guide](/blog/yellow-jackets)." },
+    { "type": "p", "text": "Fuzzy bees at a hole in the ground are more likely bumble bees: [Penn State's guide to bees and wasps nesting near homes](https://pollinators.psu.edu/assets/uploads/documents/Five-Step-Decision-Support-Nesting-Bees-and-Wasps-Near-Homes.pdf) says bees are hairy and wasps usually smooth, and its social bees guide says bumble bees usually nest in underground cavities such as abandoned rodent holes and rarely conflict with people. [Carpenter bees and bumble bees compared](/blog/carpenter-bee-vs-bumble-bee) shows both." },
+
+    { "type": "h2", "text": "Is it a mud nest?" },
+    { "type": "p", "text": "Dried mud means mud daubers, solitary wasps that rarely sting. Purdue describes three kinds: the black-and-yellow mud dauber plasters a row of mud cells into a smooth nest about the size of a fist, the organ-pipe mud dauber builds tubes like organ pipes on walls and other smooth surfaces, and the blue mud dauber moves into old black-and-yellow nests instead of building its own. Look on roof overhangs, eaves, rafters and building walls, Purdue says." },
+    { "type": "figure", "src": "/guides/photos/mud-dauber-nest-garage-wall.webp", "width": 1200, "height": 800, "alt": "Slender black wasp with yellow legs and a thread-thin waist standing on a rounded brown mud nest with a round opening at one end, on a white wall", "caption": "A black-and-yellow mud dauber on its mud nest on the back wall of a garage in Onondaga County, New York. The nest is dried mud, not paper.", "license": "CC-BY-4.0", "credit": "(c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/28591120" },
+    { "type": "p", "text": "Mud daubers do not aggressively defend their nests and very rarely sting, and then only if mishandled, Purdue says; Missouri Extension says they usually sting only when pinned against the skin. [The mud dauber guide](/blog/mud-daubers) shows each nest type and how to tell an occupied nest from an empty one." },
+
+    { "type": "h2", "text": "Is it a bee nest instead of a wasp nest?" },
+    { "type": "p", "text": "Wax instead of paper means bees. Honey bees fill an enclosed space such as a hollow tree, or occasionally a wall void, with comb and honey: Penn State says a colony inside a wall can hold more than 100 pounds of honey and tens of thousands of bees, and the [Texas Apiary Inspection Service](https://research.entomology.tamu.edu/wp-content/uploads/sites/29/2018/03/Bee-Removal-FAQ.pdf) calls that comb wax comb. Missouri Extension says a honey bee colony occupies the same nest from year to year and lives through the winter inside it." },
+    { "type": "media", "needed": "Honey bee wax comb exposed in a wall void or hollow tree during a removal in the US, showing pale wax cells filled with honey, so readers can compare it with gray paper wasp comb; public domain or CC0" },
+    { "type": "p", "text": "A ball of bees hanging in the open is a swarm, not a nest. Penn State's guide to nesting bees and wasps says honey bee colonies swarm in spring and early summer, when about half the colony leaves and clusters while scouts search for a new cavity. Swarms are usually not aggressive and move to their new nest within two days, it says." },
+    { "type": "figure", "src": "/guides/photos/honey-bee-swarm.webp", "width": 1200, "height": 900, "alt": "Dense cluster of hundreds of honey bees covering a patch of chain-link fence in front of a white sign", "caption": "A swarm of western honey bees resting on a chain-link fence in Tustin, California. The observer recorded that nearly all of the bees had left about 8 hours later.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/128011193" },
+    { "type": "p", "text": "For honey bees, call a beekeeper. Missouri Extension says police departments and extension offices can direct you to local beekeepers, some of whom capture and remove swarms. The Texas Apiary Inspection Service says not to remove a hive yourself, spray chemicals into it or seal bees inside a structure." },
+
+    { "type": "h2", "text": "What else leaves holes that look like a wasp nest?" },
+    { "type": "p", "text": "Holes with one insect coming and going at each are usually the work of solitary bees and wasps, which rarely sting. Three kinds are common." },
+    { "type": "h3", "text": "Cicada killer burrows" },
+    { "type": "p", "text": "The eastern cicada killer, a wasp that can top 1 1/2 inches, digs burrows in lawns and other open ground, often many together, says the [Missouri Department of Conservation's cicada killer page](https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer). A mound of dug-out soil marks each entrance, often with a shallow groove leading in, and one nest can have tunnels 4 feet or more long. Only females sting, and only if handled roughly, MDC says, and the dirt piles usually disappear with the first rain (Missouri Extension)." },
+    { "type": "figure", "src": "/guides/photos/cicada-killer-burrow.webp", "width": 1200, "height": 800, "alt": "Large wasp with an orange head and legs, amber wings and a dark body standing on a mound of loose dark soil, with grass behind it", "caption": "An eastern cicada killer dragging its prey over a mound of soil in Big Stone National Wildlife Refuge, Minnesota, in a U.S. Fish and Wildlife Service photo.", "license": "public-domain", "credit": "USFWS Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphecius_speciosus,_Vorderansicht.jpg" },
+    { "type": "h3", "text": "Ground-nesting bee holes" },
+    { "type": "p", "text": "Smaller holes, about 1/4 inch across, in warm, sunny, dry spots in the yard in spring are probably ground-nesting bees, says [Clemson Extension](https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/). Each female digs her own burrow, the holes may or may not have soil piled around them, and the bees do not defend their nests; the adults are active for only a few weeks. See [ground bees](/blog/ground-bees) and [sweat bees](/blog/sweat-bees), which Missouri Extension says also nest in soil." },
+    { "type": "p", "text": "An ant-like insect on the same sunny ground may be a velvet ant, a wasp whose females are wingless. The [Missouri Department of Conservation's velvet ant page](https://mdc.mo.gov/discover-nature/field-guide/velvet-ants) says they lay eggs in the nest cells of host bees and wasps and that the sting is excruciating if one is held or stepped on barefoot. See [velvet ants](/blog/velvet-ants)." },
+    { "type": "h3", "text": "Carpenter bee holes" },
+    { "type": "p", "text": "A round hole in bare wood belongs to a carpenter bee. [Missouri Extension's carpenter bee guide](https://extension.missouri.edu/publications/g7424) describes a near-perfect circle about 1/2 inch across, with a tunnel that runs a few inches in and then turns to follow the wood, mostly in softwood porch ceilings, railings, trim and fence posts, with stains near the opening. Males cannot sting, and females are usually not aggressive but can sting if handled. [The carpenter bee guide](/blog/how-to-get-rid-of-carpenter-bees-canada) covers control." },
+    { "type": "confused", "title": "Which insect built it?", "items": [
+      { "href": "/blog/paper-wasps", "name": "Paper wasp", "photo": "paper-wasp-nest-house-siding", "note": "Open comb of paper cells on one stalk with no cover; rarely bigger than a hand", "alt": "A dozen reddish-brown and yellow paper wasps on a gray comb of open paper cells on white house siding" },
+      { "href": "/blog/yellow-jackets", "name": "Yellowjacket", "photo": "eastern-yellowjacket-live", "note": "Many wasps streaming in and out of one hole in the ground or a wall", "alt": "Black-and-yellow banded yellowjacket wasp standing on white cloth" },
+      { "href": "/blog/bald-faced-hornets", "name": "Bald-faced hornet", "photo": "bald-faced-hornet", "note": "Black and white wasp; gray paper ball about basketball size, often high in a tree", "alt": "Black wasp with ivory-white markings on its face, body and abdomen tip, standing on a pale, netted surface" },
+      { "href": "/blog/mud-daubers", "name": "Mud dauber", "photo": "organ-pipe-mud-dauber-nest", "note": "Tubes or lumps of dried mud; the wasps do not defend them", "alt": "Several tan mud tubes side by side on a gray concrete wall, a few with small round holes" },
+      { "href": "/blog/cicada-killers", "name": "Cicada killer", "photo": "cicada-killer", "note": "One big wasp per lawn burrow, each with a mound of soil; rarely stings", "alt": "Large wasp with orange legs and a black-and-yellow abdomen gripping a gray cicada in green grass" },
+      { "href": "/blog/ground-bees", "name": "Ground-nesting bee", "photo": "mining-bee-burrow", "note": "Holes about 1/4 inch across in sunny, dry ground; one bee per hole, rarely stings", "alt": "Small round hole in a crumbly mound of brown soil surrounded by grass, moss and clover" }
+    ] },
+
+    { "type": "h2", "text": "How big do wasp nests get, and when?" },
+    { "type": "p", "text": "A nest starts small each spring and grows all summer. Penn State's guide to nesting bees and wasps says a single queen that hibernated through the winter starts the colony and rears the first workers, which then join in nest building as the colony grows; that is why most people do not notice a colony until late summer or fall. By then, a large yellowjacket nest is usually about basketball size with up to 5,000 workers (Missouri Extension), and UC IPM puts yellowjacket colonies at 1,500 to 15,000 wasps, depending on the species." },
+    { "type": "p", "text": "Defense grows with the nest. UC IPM says defensive behavior increases as colonies get larger while food gets scarcer, and Missouri Extension says yellowjackets are most aggressive in late summer and fall." },
+    { "type": "p", "text": "In warm places a colony can outlast the winter. UC IPM says that in very mild winters, or in coastal California south of San Francisco, some yellowjacket colonies survive for several years and grow quite large, and [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2016/southern-yellowjackets-vol-2-no-32) says that in the southern part of Mississippi a small share of southern yellowjacket nests sometimes survive the winter and become quite large." },
+
+    { "type": "h2", "text": "Is an old wasp nest still active?" },
+    { "type": "p", "text": "In fall and winter, usually not. MDC says a yellowjacket colony dies once hard frosts and freezes arrive in fall, and Penn State says wasp colonies in Pennsylvania die completely after the first hard frost, leaving only mated queens, which usually spend the winter away from the old nest. Kentucky says that in states with cold winters the paper of an abandoned nest falls apart over the winter." },
+    { "type": "figure", "src": "/guides/photos/yellowjacket-paper-nest.webp", "width": 1200, "height": 1004, "alt": "Round, empty paper nest covered in swirled tan, gray and white bands, about 7 inches across, on a dark blue backdrop beside a yellow tape measure", "caption": "An empty yellowjacket nest about 7 inches across, found in a storage box lid in Lake Forest Park, Washington; the finder guessed it was from the year before or older. The outside is its paper envelope.", "license": "CC-BY-4.0", "credit": "(c) John Brew, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/80793300" },
+    { "type": "p", "text": "To check a nest, watch it from a distance: UC IPM says wasps flying directly in and out of a single spot are probably going to and from their nest. A paper nest with no traffic after hard frosts fits the dead colony MDC and Penn State describe. There are three exceptions:" },
+    { "type": "ul", "items": [
+      "**Honey bees.** The colony lives through the winter inside its nest (Missouri Extension), so wax comb in a wall or a tree is not necessarily abandoned in January.",
+      "**Warm regions.** Some yellowjacket colonies survive the winter in very mild climates, as UC IPM and Mississippi State report.",
+      "**Mud nests.** Mud daubers overwinter as larvae in their mud tubes (Missouri Extension) and do not turn into adults until spring (Purdue), so an old-looking mud nest can still hold live young."
+    ] },
+    { "type": "media", "needed": "An old, empty bald-faced hornet or yellowjacket nest hanging in a bare tree in winter, photographed from the ground in a US yard with the torn gray envelope visible; public domain or CC0" },
+
+    { "type": "h2", "text": "Do wasps reuse old nests?" },
+    { "type": "p", "text": "Generally not. Kentucky says abandoned nests are not reused and soon fall apart, Missouri Extension says old yellowjacket nests are not reused, and MDC says they are usually not used again. Each spring a queen that spent the winter, usually elsewhere, starts a new colony, Penn State says. Three other nest builders do reuse:" },
+    { "type": "ul", "items": [
+      "**Honey bees** keep the same nest from year to year (Missouri Extension), and old comb can draw a new colony, so the Texas Apiary Inspection Service says all the wax comb should come out when a colony is removed from a building.",
+      "**Blue mud daubers** move into the abandoned nests of black-and-yellow mud daubers (Purdue).",
+      "**Carpenter bees** reuse existing tunnels in wood or bore new ones (Missouri Extension)."
+    ] },
+
+    { "type": "h2", "text": "How dangerous is a wasp nest?" },
+    { "type": "p", "text": "That depends on the builder. Yellowjackets and hornets defend their nests as a group: MDC says yellowjackets can chase and sting an intruder who stumbles onto a nest, people and pets included, and Kentucky says hornet nests may hold hundreds of wasps that are extremely aggressive when disturbed. Paper wasps are much less defensive (UC IPM), and mud daubers, cicada killers, ground-nesting bees and carpenter bees rarely sting at all. UC IPM's advice is simple: do not disturb nests." },
+    { "type": "p", "text": "A sting can be an emergency for someone allergic to venom. [CDC's NIOSH page on insects at work](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says venom allergy can cause anaphylaxis, a potentially life-threatening reaction that needs immediate emergency care, and that people with a history of severe reactions should carry an epinephrine auto-injector. If several stinging insects attack at once, NIOSH says to run and get indoors or into shade. See [the bug bite and sting guide](/learn/bug-bites) for sting reactions and when to see a doctor, and [bee stings and wasp stings compared](/blog/bee-sting-vs-wasp-sting) for the difference." },
+
+    { "type": "h2", "text": "What should you do once you know who built it?" },
+    { "type": "p", "text": "First decide whether the nest is a problem at all. Penn State's guide to nesting bees and wasps suggests leaving them in peace if they are not damaging the building or acting aggressively toward the household, and Kentucky suggests doing nothing about a nest away from frequently used areas. Late in the season, Penn State adds, waiting for the first frost settles a conflict with wasps." },
+    { "type": "ul", "items": [
+      "**Hornets, or a nest in a wall or up a ladder:** Kentucky says calling a professional is usually prudent when a nest is hard to reach and often best for hornets.",
+      "**Honey bees:** call a beekeeper, and never seal them into a wall (Penn State).",
+      "**Allergic or sensitive to stings:** Penn State says such people should never carry out do-it-yourself measures.",
+      "**A possible yellow-legged hornet nest in Georgia:** report it to the Georgia Department of Agriculture."
+    ] },
+    { "type": "p", "text": "Control methods are in [the guide to getting rid of wasps](/blog/how-to-get-rid-of-wasps), [the guide to ground-nesting wasps](/blog/how-to-get-rid-of-ground-wasps) and [a wasp nest removal guide written for Canada](/blog/how-to-get-rid-of-wasps-canada)." },
+    { "type": "callout", "tone": "tip", "title": "Photograph it from a distance", "text": "Take a zoomed-in photo from where you stand, with something of known size such as a door or window in the frame, and note what the nest is made of, where it is and how many insects use the entrance. Your state's cooperative extension office can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "How can you tell if a wasp nest is active?",
+      "answer": "Watch it from a safe distance. UC IPM says wasps flying directly in and out of one spot are probably going to and from their nest, and the Missouri Department of Conservation says the entrance hole with yellowjackets coming and going is usually all you see of a ground nest. In a cold-winter area, a paper nest with no traffic after hard frosts belongs to a colony that has died. Honey bees are the exception: their colony stays alive inside the nest all winter."
+    },
+    {
+      "question": "Do wasps reuse old nests?",
+      "answer": "Generally not. The University of Kentucky says abandoned nests are not reused and soon fall apart, Missouri Extension says old yellowjacket nests are not reused, and the Missouri Department of Conservation says they are usually not used again. Penn State says each spring a queen that spent the winter, usually elsewhere, starts a new colony. Some other nest builders do reuse: honey bees keep the same nest year to year, blue mud daubers move into old mud dauber nests, and carpenter bees reuse tunnels in wood."
+    },
+    {
+      "question": "Is it safe to remove a wasp nest in winter?",
+      "answer": "In a cold-winter area an old paper nest is usually empty by then. The Missouri Department of Conservation says a yellowjacket colony dies once hard frosts arrive, and Penn State says only mated queens survive the winter, mostly away from the old nest. Kentucky says abandoned nests are not reused and fall apart over the winter, so an empty one can simply be left. Wax comb is different, because a honey bee colony lives through the winter, and in very mild climates some yellowjacket colonies survive too. For anything still active, Kentucky and Penn State point to a professional for nests in walls or out of reach, and Missouri Extension to a beekeeper for honey bees."
+    },
+    {
+      "question": "What is the difference between a wasp nest and a hornet nest?",
+      "answer": "A hornet nest is one kind of wasp nest, since hornets are wasps. A large, gray paper ball hanging in a tree or shrub, with its entrance hole at the bottom, is the bald-faced hornet's nest, about the size of a basketball according to Missouri Extension. European hornets hide their nests in hollow trees and wall voids. Paper wasps build a small open comb with no cover, and yellowjackets usually nest in the ground or inside walls, so all you see is a busy hole."
+    },
+    {
+      "question": "How do you tell a wasp nest from a beehive?",
+      "answer": "Look at the material and where it is. Paper wasps, yellowjackets and hornets build with paper made from wood fibers, and mud daubers with mud. Honey bees fill a hollow tree or a wall void with wax comb and honey, and Penn State says a colony in a wall can hold tens of thousands of bees. A ball of bees hanging in the open is a swarm rather than a hive; Penn State says swarms are usually not aggressive and move on within two days."
+    },
+    {
+      "question": "What does the start of a wasp nest look like?",
+      "answer": "Small, and tended by a single queen. Penn State says a queen that hibernated through the winter starts each colony in spring and rears the first workers, which then join in building as the colony grows, so a spring nest is far smaller than the same nest in late summer. In Georgia, the state Department of Agriculture says yellow-legged hornet queens build starter nests about the size of a tennis ball on porches and other sheltered spots in early spring, and it asks people to report suspected yellow-legged hornets."
+    },
+    {
+      "question": "How big can a wasp nest get?",
+      "answer": "It depends on the builder. UC IPM says paper wasp nests rarely grow larger than an outstretched hand. Missouri Extension says a large yellowjacket nest is usually about basketball size, with up to 5,000 workers in late summer, and that the bald-faced hornet's nest is about basketball size too. In very mild winters or in coastal California south of San Francisco, UC IPM says, some yellowjacket colonies survive for several years and grow quite large, and Mississippi State says a small share of southern yellowjacket nests in the south of that state sometimes survive the winter and become quite large."
+    },
+    {
+      "question": "Will a wasp nest go away on its own?",
+      "answer": "The wasps will, in much of the country. Penn State says that in Pennsylvania wasp colonies die completely after the first hard frost, and that near the end of the season simply waiting for it will settle a conflict. Kentucky says abandoned nests are not reused and soon fall apart, though the Missouri Department of Conservation suggests looking for old bald-faced hornet nests in trees in winter, after the leaves drop. Honey bee colonies do not die out in winter, and in mild climates some yellowjacket colonies survive it."
+    },
+    {
+      "question": "When are wasp nests most active?",
+      "answer": "From midsummer until the first frosts for yellowjackets, says the Missouri Department of Conservation, which adds that a colony can contain 5,000 workers by September. UC IPM says defensive behavior increases through the season as colonies grow and food becomes scarce, and Missouri Extension says yellowjackets are most aggressive in late summer and fall. European hornet nests peak in mid-September, according to Penn State. Spring nests are small because the queen is still raising the first workers on her own."
+    },
+    {
+      "question": "Are wasp nests dangerous?",
+      "answer": "Some are. Yellowjackets and hornets defend their nests as a group, and the Missouri Department of Conservation says yellowjackets can chase and sting an intruder who stumbles onto a nest, including people and pets. Paper wasps are much less defensive, UC IPM says, and mud daubers, cicada killers and ground-nesting bees rarely sting at all. For anyone allergic to venom, a sting can cause anaphylaxis, which CDC's NIOSH says needs immediate emergency care. UC IPM's advice is not to disturb nests."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Yellowjackets and Other Social Wasps (UC ANR Publication 7450; E. C. Mussen and M. K. Rust, updated March 2012)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" },
+    { "title": "ENTFACT-620: Controlling Wasps, Hornets, and Yellowjackets (Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef620" },
+    { "title": "Bees and Wasps (G7391; Tamra Reall, reviewed April 2019)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7391" },
+    { "title": "Carpenter Bees (G7424; Richard Houseman and Darryl Sanders, reviewed September 2026)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7424" },
+    { "title": "Common Social Bees and Wasps of Pennsylvania: Behavior, Lifecycle, and Management (Kate Anton, Christina Grozinger and Natalie Boyle, updated February 4, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/common-social-bees-and-wasps-of-pennsylvania-behavior-lifecycle-and-management" },
+    { "title": "Five-Step Decision Support: Nesting Bees and Wasps Near Homes (ART-7018; Kate Anton, Christina Grozinger and Natalie Boyle, 2022)", "publisher": "Penn State Extension and Penn State Center for Pollinator Research", "url": "https://pollinators.psu.edu/assets/uploads/documents/Five-Step-Decision-Support-Nesting-Bees-and-Wasps-Near-Homes.pdf" },
+    { "title": "European Hornet (updated July 19, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/european-hornet" },
+    { "title": "Bald-Faced Hornet (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bald-faced-hornet" },
+    { "title": "Yellowjackets (Vespula Wasps) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps" },
+    { "title": "Eastern Cicada-Killer (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer" },
+    { "title": "Velvet Ants (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/velvet-ants" },
+    { "title": "Mud Daubers (E-253-W; Timothy J. Gibb, April 2018)", "publisher": "Purdue University Extension, Department of Entomology", "url": "https://www.extension.entm.purdue.edu/publications/E-253/E-253.pdf" },
+    { "title": "Spring Has Sprung and So Have The (Ground-Nesting) Bees (Vicky Bertagnolli, April 7, 2025)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/" },
+    { "title": "Southern Yellowjackets (Bug's Eye View, Vol. 2, No. 32; Blake Layton, 2016)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2016/southern-yellowjackets-vol-2-no-32" },
+    { "title": "Honey Bee Removal Informational Document (2018)", "publisher": "Texas Apiary Inspection Service, Texas A&M AgriLife Research", "url": "https://research.entomology.tamu.edu/wp-content/uploads/sites/29/2018/03/Bee-Removal-FAQ.pdf" },
+    { "title": "Yellow-Legged Hornet", "publisher": "Georgia Department of Agriculture", "url": "https://agr.georgia.gov/yellow-legged-hornet" },
+    { "title": "WSDA, USDA announce eradication of northern giant hornet from the United States (December 18, 2024)", "publisher": "Washington State Department of Agriculture", "url": "https://agr.wa.gov/about-wsda/news-and-media-relations/news-releases?article=41658" },
+    { "title": "Insects and Scorpions at Work (reviewed September 28, 2026)", "publisher": "CDC National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" }
+  ],
+  "disclaimer": "health"
+}

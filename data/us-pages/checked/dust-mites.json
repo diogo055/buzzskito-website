@@ -1,0 +1,10 @@
+{
+ "id": "dust-mites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7db1ec892bb609a7261a930f1b71e4c5cc88e6f29b987a490d434d9067b498bb",
+ "claimsChecked": 270,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-28"
+}

@@ -1,0 +1,10 @@
+{
+ "id": "maggots",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b66c999bc199bdde4792f9b77877046723d7c21eda73fb1d64fdc35a8bbdd642",
+ "claimsChecked": 231,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-28"
+}

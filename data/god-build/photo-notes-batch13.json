@@ -1,0 +1,218 @@
+{
+ "_readme": "Scout notes for the thirteenth photo batch (Oct 28, 2026): photos for two top-100 day-1 pages, lice-eggs and stick-bugs (planner notes: scratchpad plan-drafts-top100/day1/lice-eggs.md and stick-bugs.md, 'Photos' sections). Neither page could be written until the ledger held a public-domain or CC0 lead; both now do. Same format as batches 7 to 12: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; slugs as in plan.src.json), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. 18 photos were added, with no script change beyond the 18 PHOTOS rows and their comment: 4 public domain (CDC PHIL 26390, 5267, 19066, 17460), 11 CC0 (8 iNaturalist research-grade walkingstick, mantis and assassin bug records, 1 iNaturalist louse record, 2 Wikimedia Commons uploads) and 3 CC BY-SA 3.0 (Wikimedia Commons). Every image was looked at large before choosing (the two lice photos from the head at 100% crops) and again after conversion to WebP, and shows what its subject line says. The ledger change is additive: 509 records before (HEAD ec52a803), 527 after, none changed or lost; the script re-sorted the ledger by file as it always does, which moves the 30 Google Images wave-1 records that commit had appended out of order. npm run check:photos passes (527 on record). Sizes: northern-walkingsticks-tree-trunk stays at 327 KB at the script's lowest quality (bark texture); head-lice-nits-on-hair-life-size is small (608 x 648, the whole original). LEADS. lice-eggs: head-lice-nits-on-hair (CDC PHIL 26390, public domain): three nits glued to human hair shafts, magnified; it is the only public-domain or CC0 nit photo with a confident identification, so the page leads with the close-up, not a life-size view (WRITER_BRIEF_PHOTO_ID prefers life size first: the life-size views are head-lice-nits-on-hair-life-size, CC BY-SA, and head-lice-nits-heavy-infestation, CC0 but the photographer's identification only; put them right after the lead). stick-bugs: northern-walkingstick-porch-railing (iNaturalist 393515996, CC0, research grade): a female northern walkingstick on a black railing against a house's white siding. Alternative CC0 leads: northern-walkingstick-house-trim and northern-walkingsticks-tree-trunk. WHERE PEOPLE FIND IT. lice-eggs: head-lice-nits-on-hair-life-size and head-lice-nits-heavy-infestation (nits on hair on a head), head-louse-on-lice-comb (a louse on a comb); the PHIL photomicrographs and the slide are specimen views and do not count toward the two. stick-bugs: porch railing, house trim, tree trunk, nymph on a railing, giant walkingstick on a building wall. Look-alike cards new in this batch: adult head louse (head-louse-adult-male; the planner's card with no link until a what-do-lice-look-like page exists), hair cast, dandruff, Chinese mantis, thread-legged assassin bug. Cards already on record: wheel-bug and wheel-bug-* (assassin bugs), crane-fly, booklouse-*, flea-egg-and-larva and flea-dirt (flea eggs), scabies-mite. Write captions from these notes and the records together, in US spelling and US units; species, life stage and sex only where the notes say the record states them. Searches, refused candidates, alternatives and what is still missing are in 'gaps'. No page, plan or lib file was edited in this batch.",
+ "candidates": [
+  {
+   "id": "head-lice-nits-on-hair",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 26390, content provider CDC/Dr. Dennis Juranek, 1979, public domain. CDC's caption: 'This image shows three eggs (nits) of the head louse, Pediculus humanus var. capitis, attached to human hair shafts and representing different stages of development.' Identification by CDC.",
+   "caveats": "Magnified photomicrograph on a pale background: three oval nits, each glued at one end to a hair shaft (two hairs), with the cap (operculum) end visible; the left nit holds a dark, well-developed embryo. No scale bar and no stated magnification, so no size can be read from it: give the size from CDC's text (adults are 2 to 3 mm; CDC DPDx for the nit). CDC does not say which stage each nit is at or that any has hatched: do not label one as hatched or dead. A photomicrograph, so it does not count as a 'where people find it' photo. Public domain: the lead and share image for lice-eggs.",
+   "note": "Credit: CDC/ Dr. Dennis Juranek (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "head-lice-nits-heavy-infestation",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Head Infested With Louse.jpg', own work by Aditya Suseno (user Suseno, a general photographer from Indonesia), April 5, 2014, Samsung Galaxy S III Mini, CC0. The description is only the title, 'Head Infested With Louse'; category Head lice infestation; used on the Ukrainian Wikipedia article on pediculosis. No location given.",
+   "caveats": "Dark hair seen from above, crowded with thousands of small oval specks stuck along the shafts, tan to whitish, close to the scalp and farther out. At 100% crops the specks are oval bodies attached along the hairs, which fits a very heavy load of nits, but the phone image is too soft to show a cap or the glue sheath, and the identification is the photographer's alone (no expert, no lice shown): say 'a head of hair crowded with nits, as the photographer describes it'. An extreme case, not what a typical case looks like: say so in the caption so a reader with a few nits is not misled. The pale specks far from the scalp cannot be called hatched or dead from this photo. Faint orange fabric at top right. CC0, but with medium confidence it is not lead-eligible: place it after the lead as the life-size view.",
+   "note": "Credit: Aditya Suseno, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x722."
+  },
+  {
+   "id": "head-lice-nits-on-hair-life-size",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Fig. 5. Louse nits.jpg', uploaded to English Wikipedia on November 18, 2007 by the user KostaMumcuoglu and transferred to Commons; description 'Head louse nits on human hair'; CC BY-SA 3.0 (GFDL migration). The same account uploaded 'Fig. 1. Male of head louse.jpg' and 'Fig.4.Louse bites.jpg' (credited 'Kosta Y. Mumcuoglu'), a numbered figure set for the head louse article; Kosta Y. Mumcuoglu is the name of a medical entomologist who has published on head lice, but we could not confirm who runs the account.",
+   "caveats": "Brown hair seen without a microscope, with many small pale specks stuck to individual hairs: what a parent sees when checking. Pink skin at the lower left (by our reading the ear; do not state it). No scale object, so 'about life size' is the honest description, not a measured size. Small: 608 x 648 (the whole original). CC BY-SA: credit 'KostaMumcuoglu at English Wikipedia'; it cannot be the share image.",
+   "note": "Credit: KostaMumcuoglu at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 608x648."
+  },
+  {
+   "id": "head-louse-hatching-from-nit",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 5267, content provider CDC, 1976, public domain. CDC's caption: 'This image was captured, as a head louse, Pediculus humanus var. capitis, was emerging from its egg, also referred to as a nit. After the louse hatches, the egg shell takes on a more visible, dull yellow coloration, and remains attached to the hair shaft. The nymph looks like an adult head louse, but is about the size of a pinhead, maturing after three molts, transforming into an adult in about 7 days after hatching.'",
+   "caveats": "Side view against a black background with warm lighting: the nymph's head and front legs are out of the egg, which is glued to the hair shaft below. The colors come from the lighting, so do not describe nit color from this photo. The caption's facts are CDC's (1976); CDC's current head lice page also says nymphs take about seven days to mature, but cite the current page, not the 1976 caption. The best image here for 'live nit vs hatched shell'. Public domain.",
+   "note": "Credit: CDC (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x819."
+  },
+  {
+   "id": "head-louse-nit-eyespots-and-nymph",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 19066, content provider CDC/Dr. Dennis Juranek, 1979, public domain. CDC's caption: 'This photomicrograph depicts an unhatched egg, or nit, of a head louse, Pediculus humanus var. capitis, still attached to a human hair shaft on the left, and on the right an immature organism, otherwise referred to as a nymph. You are able to see the red-colored eyespots of the louse embryo developing inside the egg.'",
+   "caveats": "Photomicrograph: the nit at upper left on a hair shaft, red eyespots visible through the shell; a nymph at right, cut off by the frame edge. CDC does not say the nymph hatched from that egg: say 'beside a nymph', not 'its nymph'. The eyespots are the visible sign of a developing (live) egg in CDC's words; for 'live vs dead nits' advice use CDC's text (the 1/4 inch rule), not this photo alone. No scale bar. Public domain.",
+   "note": "Credit: CDC/ Dr. Dennis Juranek (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "head-louse-adult-and-egg-scale",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Head louse (251 27) Adult and egg, from a human host.jpg', by Doc. RNDr. Josef Reischig, CSc. (a Czech parasitologist and microscopist), from the 384 pictures his heirs donated under CC BY-SA 3.0 through Wikimedia Czech Republic's GLAM initiative. Title only; no date or place.",
+   "caveats": "Microscope slide: an adult head louse (cleared, mounted) beside an egg glued to a single hair, with a 0.5 mm scale bar printed at lower left. The planner's 'adult head louse beside nits for scale'. The record does not give the louse's sex. A prepared specimen, so it does not count as a 'where people find it' photo. CC BY-SA: credit 'Doc. RNDr. Josef Reischig, CSc.'.",
+   "note": "Credit: Doc. RNDr. Josef Reischig, CSc., CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x768."
+  },
+  {
+   "id": "head-louse-on-lice-comb",
+   "forPages": [
+    "lice-eggs",
+    "fleas-on-humans"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 189348171, Bogotá, Colombia, October 29, 2023, by Andrew J. Crawford (crawfordaj; about 3,300 observations). Observer's note: 'Head lice.' Identified as Pediculus humanus by the observer and Carrie Seltzer (about 45,000 identifications). Photo 2 of 3; CC0.",
+   "caveats": "A single louse (adult or late nymph; no life stage recorded) on the teeth of a pale, fine-toothed lice comb; soft focus. The record names the species, Pediculus humanus, not the head louse subspecies: say 'a louse' or, following the observer's note, 'head louse'. The place name is a hospital: print only 'Bogotá, Colombia'. Shows a louse, not nits; useful beside CDC's advice on combing. CC0, but not the page's subject, so not a lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1286."
+  },
+  {
+   "id": "head-louse-adult-male",
+   "forPages": [
+    "lice-eggs",
+    "fleas-on-humans",
+    "booklice"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Pou de tête mâle adulte.jpg', own work by Elegant Visvesvaraya, July 20, 2024, CC0. Description (French): 'Pou de tête mâle adulte capturé vivant après le passage d'un peigne à pou' (adult male head louse caught alive after a pass with a lice comb). No place given.",
+   "caveats": "A clear, live-looking louse on a white surface, dorsal view: the six clawed legs and segmented abdomen are sharp. That it is a head louse, adult and male is the photographer's account (the louse came off a comb through someone's hair); the shape is plainly Pediculus. Say 'an adult head louse' and give sex only as the photographer's. No scale: give the size from CDC (2 to 3 mm, about a sesame seed). For the planner's adult-louse card (no link until a what-do-lice-look-like page exists). CC0, but the page is about eggs, so not a lead there.",
+   "note": "Credit: Elegant Visvesvaraya, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "hair-cast",
+   "forPages": [
+    "lice-eggs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "CDC Public Health Image Library 17460, content provider CDC/Dr. Dennis Juranek, 1979, public domain. CDC's caption: 'This photomicrograph reveals ultrastructural morphology exhibited by what is known as a human hair cast, also called a peripilar keratin cast, which to the inexperienced observer, could be mistaken for a louse egg, or nit.'",
+   "caveats": "Photomicrograph: a pale, ragged sleeve around a dark hair shaft, unlike a nit glued at one end to one side. That a hair cast slides along the hair while a nit does not is not in this caption: cite a medical source (AAD, CDC or a medical school) for it. No scale bar. Card or comparison photo for 'nits vs hair casts'.",
+   "note": "Credit: CDC/ Dr. Dennis Juranek (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x790."
+  },
+  {
+   "id": "dandruff-flakes",
+   "forPages": [
+    "lice-eggs",
+    "flea-eggs"
+   ],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Huidschilfers A.jpg' (Dutch: skin flakes), own work by Wouter Hagens, Nikon D70, CC BY-SA 3.0. Description: 'Flakes of dead skin cells'; categories Dandruff and Human skin. No date or place.",
+   "caveats": "Four translucent, irregular, flat flakes on black fabric, close-up, no scale. The source calls them flakes of dead skin cells and files them under dandruff; it does not say they came from a scalp: caption 'flakes of dead skin, as in dandruff'. Good for the 'nits vs dandruff' card (loose, flat, irregular vs oval and glued). Refused for the same card: 'Excessive dandruff.jpg' and 'Dandruff with Hair.jpg' (see gaps). CC BY-SA: credit Wouter Hagens.",
+   "note": "Credit: Wouter Hagens, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x1011."
+  },
+  {
+   "id": "northern-walkingstick-porch-railing",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 393515996, Pawling, New York, August 22, 2026, by ctlqh (about 1,070 observations). No note. Identified as Diapheromera femorata by the observer and Christina Rollo (about 39,000 identifications), who also annotated it female. Photo 1 of 1; CC0.",
+   "caveats": "A brown walkingstick with green-tinged legs and long antennae on a black railing (a porch or step railing by our reading) set against white house siding, beside a green louvered shutter; sticks and leaf litter on the floor below; sharp. Female is an identifier's annotation, not the observer's: 'female' may be stated. No scale object. Print only 'Pawling, New York' (the record names the road). CC0 and confidently identified: the lead and share image for stick-bugs.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "northern-walkingstick-house-trim",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 184272129, Dennis, New Jersey, September 20, 2023, by Samuel Paul Galick (sgalick; about 38,000 observations, many of walkingsticks around houses in Cape May County). No note. Identified as Diapheromera femorata by the observer and Pablo Valero (about 21,000 identifications). Photo 1 of 1; CC0.",
+   "caveats": "The whole insect, sharp, on white wood-grain vinyl trim with siding behind, lit by a flash at night: legs spread, antennae laid forward together, dark bands on the middle and hind legs. 'House' is our reading of the trim and siding (the record has no note): say 'on the trim of a house'. Slender with banded legs, which looks like a male, but nobody annotated the sex: don't state it, or cite a source for 'males have banded legs' and keep it general. No scale object. CC0: an alternative lead with a white background.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "northern-walkingsticks-tree-trunk",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 313404557, Maryland (location obscured to the state), September 11, 2025, by Caitlin Domon (octocaiti; about 3,600 observations). Identified as Diapheromera femorata by the observer and Adrienne van den Beemt (mmmmbugs; about 970,000 identifications); the observer annotated it adult, male, alive. Photo 3 of 3; CC0. Her second observation the same day, 313404663 (research grade, same two identifiers), is annotated adult female.",
+   "caveats": "Two walkingsticks on the furrowed, lichen-spotted bark of a tree trunk, a hand resting on the trunk for size (no face). The lower, brown, slender one with banded legs is this record's male; the upper, grayer one with a thicker, segmented abdomen is, by our reading, the female the observer recorded separately that day. Say 'two northern walkingsticks, by the observer's records a male (lower) and a female' or simply 'two northern walkingsticks'. Shows how well they blend into bark and their size against a hand; do not read a length off the hand. 327 KB (bark texture). CC0: an alternative lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "northern-walkingstick-nymph-railing",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 123524804, Westminster, Vermont, June 26, 2022, by Jill DeVito, PhD (jilldevito; about 8,000 observations). No note. The observer identified it only as an insect; Марина Горбунова-Ëлкина (about 323,000 identifications) as Verophasmatodea; Brandon Woo (about 355,000) and Christina Rollo (about 39,000) as Diapheromera femorata. Christina Rollo annotated the life stage as nymph. Photo 1 of 3; CC0.",
+   "caveats": "A slender, pale green walkingstick on the flat top of a black metal railing (a deck or porch railing by our reading), garden greenery and a brick path blurred behind; sharp. Nymph is an identifier's annotation: 'nymph' may be stated; a June date fits the spring-and-summer nymph season, but cite a source for the life cycle. Species of a nymph from a photo rests on the two experienced identifiers. No scale object. CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "two-striped-walkingstick-pair",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 235277433, Fort Walton Beach, Florida, August 11, 2024, by lightbed (about 2,500 observations). No note. Identified as Anisomorpha buprestoides (southern two-striped walkingstick) by the observer and j_appleget (about 264,000 identifications). Photo 1 of 1; CC0.",
+   "caveats": "Side view on pale sand with pine needles: a smaller walkingstick riding on the back of a larger one, both dark with pale stripes along the body; sharp. Nobody annotated sex or mating: say 'a smaller one riding on a larger one' and cite UF/IFAS EENY-314 for 'the small male rides on the larger female'. Name it the southern two-striped walkingstick (A. buprestoides, the Southeast); the MDC and NC State sources the planner lists describe the northern two-striped walkingstick, A. ferruginea, a different species. CC0, confidently identified, but the page is about stick bugs in general and the northern walkingstick leads, so not the lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x727."
+  },
+  {
+   "id": "giant-walkingstick-wall",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 234682577, Medina, Texas, August 9, 2024, by AlexandraU (alexandraup; about 1,100 observations). No note. Identified as Megaphasma denticrus (giant walkingstick) by the observer and Gary Rogers (about 92,000 identifications). Photo 1 of 1 (1280 x 960 original); CC0.",
+   "caveats": "A bright green walkingstick with orange-brown joints along brown trim on a yellow-painted wall (a building, by our reading; a screw cap is visible in the wall); sharp. No sex or life stage recorded; no scale object: give the size and range from a source (the giant walkingstick is the longest insect in the US by most extension accounts: cite one). CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "chinese-mantis",
+   "forPages": [
+    "stick-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 95750410, Montgomery County, Maryland, September 21, 2021, by Allen Browne (allenbrowne). Observer's note: 'Praying Mantis - Tenodera sinensis.' Identified as Tenodera sinensis by the observer and seth (finkleforkbingbong; about 61,000 identifications); annotated adult and alive by the observer. Photo 1 of 3; CC0.",
+   "caveats": "A brown Chinese mantis with a green edge to the wings, on goldenrod among yellow flowers; triangular head and folded grasping front legs clear; sharp. For the 'praying mantis' look-alike card the planner asked for. The Chinese mantis is not native to North America: cite a source before saying so. CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "thread-legged-assassin-bug",
+   "forPages": [
+    "stick-bugs",
+    "wheel-bugs"
+   ],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 330170005, Sinaloa, Mexico, December 9, 2025, by Sinaloa Silvestre (mar_y_sierra_silvestre; about 75,000 observations). No note. Identified as Emesaya brevipennis by the observer and Marco Polo Amarillas Vargas (about 30,000 identifications). Photo 1 of 3; CC0.",
+   "caveats": "A thread-thin, stick-shaped brown bug on a grass leaf with its grasping, mantis-like front legs held up and very long thin middle and hind legs; sharp. Photographed in Mexico: the species also occurs across much of the US, but cite a source for its range. For the look-alike card (the tell: grasping front legs and a body far thinner and smaller than a walkingstick's; give sizes from a source). A US alternative is in gaps. CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "lice-eggs",
+   "why": "Now on file: lead head-lice-nits-on-hair (PD), life-size views head-lice-nits-on-hair-life-size (CC BY-SA) and head-lice-nits-heavy-infestation (CC0, photographer's identification), head-louse-hatching-from-nit and head-louse-nit-eyespots-and-nymph (PD), head-louse-adult-and-egg-scale (CC BY-SA, 0.5 mm bar), head-louse-on-lice-comb (CC0), cards head-louse-adult-male (CC0), hair-cast (PD) and dandruff-flakes (CC BY-SA). Searched: CDC PHIL quick search 'Pediculus' (93 images, every detail page read), 'louse' (187), 'lice', 'head lice' (2) and 'pediculosis' (4), plus the neighbors of 17460, 19063-19067 and 26389-26390; Wikimedia Commons categories Pediculus humanus capitis (all files), Head lice infestation, Phthiraptera eggs, Pediculus humanus, Pediculosis, Lice combs, Dandruff and Seborrhoeic dermatitis, and searches in English, German, French, Spanish, Portuguese and Indonesian; iNaturalist Pediculus humanus, all 147 openly licensed observations (every CC0 one opened) plus the egg annotation and 'nit', 'egg' and 'comb' text searches. Refused: PHIL 17328, 17329, 5268, 5269 and 5270 (Reed & Carnrick, marked copyright protected), 5256 and 5289 (WHO, copyright protected), 5266 (copyright protected illustration); PHIL drawings 3401, 6814-6832 and 26366; PHIL 1499 (1999, an EIS officer checking a patient's hair: public domain but the TIFF is about 450 KB and no nits show) and 7199 (1976 Zaire, scalp shaved during an exam: misleading context); Commons 'Head louse on human hair.jpg' and 'Pediculus humanus capitis - Kopflaus 20070323.jpg' (CC0, blurred), the Korinna series (CC BY 4.0, phone through a microscope, unclear), 'Tetű egyedfejlődése.jpg' (a photographed drawing), 'Diferencia entre piojos y liendres.jpg' (taken from a commercial website), '1001 Pediculosis Eczema.jpg' and '1002 Pediculosis Capitis.jpg' (CC BY 4.0 claimed as own work, but they look like scans of printed atlas plates, with a border and halftone: provenance doubtful), the Riehl and Zumbusch plates (Licence Ouverte, not an allowed licence, and painted), 'Father looking for lice on his son's head.jpg' (CC BY-SA 4.0: no nits visible, a child in hardship), 'Excessive dandruff.jpg' (CC BY-SA 3.0, taken at a school lice check, but the flakes barely show) and 'Dandruff with Hair.jpg' (noisy); iNaturalist 403943011 (Scranton, Pennsylvania, CC0: blurred, and the observer only thinks the last photos are eggs), 345754080 (needs ID, lice from laundry: body-louse context) and 273908423 (Raleigh, North Carolina, CC BY, 'Nits glued to hairs, zoomed in': a screen capture with on-screen text in the top-left corner that the script cannot crop). Alternatives worth keeping: iNaturalist 72073886 (Tawa, New Zealand, CC BY: nits on hairs taken from a child's head, on white paper), 25287909 (Alameda, California, CC BY: louse and nit on one hair, 640 x 480), 333757765 (Austria, CC BY: nit under a microscope); Commons 'Peatäi muna (ting).jpg' (CC BY 4.0, a striking nit on a hair against black), 'Head louse egg.jpg' (CC BY-SA 3.0, a nit beside a match head, 800 x 533), 'Human head louse egg.jpg' (CC BY-SA 2.0, Gilles San Martin: an egg killed by a treatment, for 'dead nits'), 'Liendre adherida a pelo.jpg' (CC BY-SA 4.0, nit with embryo under a microscope); PHIL 378 and 379 (PD: nits with eyespots; 379 'nymph about to emerge, cap missing'), 19065 (PD, unhatched egg), 19067 and 377 (PD, adult female head louse) and 19064 (PD, a nymph's cast skin). Still missing: a public-domain or CC0 photo of a few nits near the scalp at life size with a confident identification; a hatched (empty) shell beside a viable egg where the source says which is which; nits (not a louse) on a comb."
+  },
+  {
+   "slug": "stick-bugs",
+   "why": "Now on file: lead northern-walkingstick-porch-railing (CC0), northern-walkingstick-house-trim and northern-walkingsticks-tree-trunk (CC0, alternative leads), northern-walkingstick-nymph-railing (CC0), two-striped-walkingstick-pair (CC0), giant-walkingstick-wall (CC0), cards chinese-mantis (CC0) and thread-legged-assassin-bug (CC0); wheel-bug and crane-fly were already on record. Searched US government sources first: Commons searches for USFWS, NPS, USDA Forest Service and NARA walkingstick photos; all research-grade CC0 iNaturalist records of Diapheromera femorata (257, every one viewed), Anisomorpha buprestoides (118), Megaphasma denticrus (48) and Emesaya brevipennis (20, plus 20 CC BY), and the 80 most-faved CC0 Chinese, European and Carolina mantis records; Commons categories Diapheromera femorata, Anisomorpha buprestoides and Megaphasma denticrus. Not used, public domain: 'Northern Walkingstick (48935527027).jpg' and '(48934793828).jpg' (USFWS Midwest, Grayson Smith, 2018: one on a rock face at night with soft focus, one among grass stems; neither on a tree trunk, deck or house, so the CC0 porch photo leads instead; both remain good public-domain extras), 'Giant Walkingstick (15195585451).jpg' (USFWS, Bruce Hallman, Neosho National Fish Hatchery, Missouri: on a hand, 1062 x 968; the identification is an agency caption we could not check against the insect, so the research-grade CC0 record was used), 'Camouflage at Sunset (21872186389).jpg' (NPS Shenandoah: a silhouette, filed as unidentified), the NARA 1974 Kansas walking stick (unidentified), 'Walkingstick.jpg' (no author or source) and 'Diapheromera femorata.JPG' (the insect barely visible in a planter). Alternatives worth keeping: CC0 Commons 'Mating Northern Walkingsticks.jpg' (a pair on a tree trunk, Koffler Scientific Reserve, Ontario; the uploader's identification); iNaturalist CC0 157742982 (obs 95046237, Amston, Connecticut: a stout female on white-painted wood above lattice, landscape), 429749278 (obs 241153604, Cape May Court House, New Jersey: on a white porch post with a patio behind), 573223394 (obs 316998471, Chambersburg, Pennsylvania, on vinyl siding), 314280532 (obs 180423258, Rome, Georgia, a pale one on deck boards), 685365869 (obs 374937806, Mountain Home, Texas: a giant walkingstick beside a hand), 285847477 (obs 165152660, Gainesville, Florida: a two-striped pair on green-painted wood), 158996192's alternative 589045822 (obs 325348737, a green Chinese mantis on house siding; the record names a street address and one identifier called it tricky), and 375538081 (obs 212506278, San Luis Obispo, California: a thread-legged assassin bug on a metal railing, the observer wrote 'stick-bug shaped assassin bug', front legs not clear). Still missing: a northern two-striped walkingstick (Anisomorpha ferruginea) where people find one (Commons has CC0 Insects Unlocked specimen shots only), and any photo showing the defensive spray."
+  }
+ ]
+}

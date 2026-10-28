@@ -2,7 +2,7 @@
  "id": "bed-bug-bites-but-no-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "99edfb5037b9c40a6eed5b5ccd0613165a8b0d501b87c858e31a2efee354c9d7",
+ "sha": "80f05c80e21bf53f2e9a37ca43170cd2c5b7b639f772d8735d1e25f6c40ec22e",
  "claimsChecked": 462,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 11,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "photos: bed-bug-bites-back-physician (batch 12, Oct 23)",
    "previousSha": "4a50dc67f544e37f7598e39dad80535d63d38c12536d9b6f895893eae4cb667e"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28: one sentence links the new dust mites guide (/blog/dust-mites) after Kentucky's dust-mite line; no fact changed",
+   "previousSha": "99edfb5037b9c40a6eed5b5ccd0613165a8b0d501b87c858e31a2efee354c9d7"
   }
  ]
 }

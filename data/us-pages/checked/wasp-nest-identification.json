@@ -1,0 +1,10 @@
+{
+ "id": "wasp-nest-identification",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "77ebb9420f2ae6e80128a86830f570507fd58420fb77e7ae015fcd185ec6754c",
+ "claimsChecked": 290,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-28"
+}

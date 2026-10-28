@@ -1,0 +1,204 @@
+{
+  "slug": "maggots",
+  "kind": "spoke",
+  "cluster": "flies",
+  "keyword": "maggots",
+  "alsoTargets": [
+    "where do maggots come from",
+    "maggots in house",
+    "maggots in trash can",
+    "maggots on floor",
+    "what do maggots look like",
+    "how to get rid of maggots",
+    "fly larvae"
+  ],
+  "metaTitle": "Maggots: Where They Come From (Photos)",
+  "metaDescription": "Maggots are fly larvae from eggs laid on garbage, spoiled food, pet waste or a dead animal. Photos of every stage, look-alikes and how to get rid of them.",
+  "h1": "Maggots: What They Are, Where They Come From and How to Get Rid of Them",
+  "dek": "Maggots hatch within a day of a fly laying eggs on garbage, spoiled food, pet waste or a dead animal. Real photos of each stage, the larvae mistaken for them, where they come from room by room, and extension steps to clear them.",
+  "breadcrumb": "Maggots",
+  "excerpt": "What maggots look like, where they come from in a trash can, a kitchen or on the floor, how fast they become flies, the look-alikes, and how to get rid of them.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Maggots are fly larvae: cream-white, legless and wormlike, pointed at the head end with no head capsule and blunt at the rear, hatched from eggs flies lay on garbage, spoiled food, pet waste or a dead animal.** A larva with legs, a dark head or bristles is something else. Blow fly and flesh fly maggots crawling inside a home usually mean an animal died somewhere in the structure, says [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/).",
+    "bullets": [
+      "House fly eggs are yellowish-white ovals about 0.04 inch (1 mm) long, laid up to 100 in a cluster, says [Virginia Cooperative Extension](https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-137/ENTO-416.pdf), and they hatch in 8 to 20 hours, according to [University of Missouri Extension](https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pro/UrbanEntomology/House_fly_info.pdf).",
+      "Grown maggots are about 0.4 inch long for house flies and 0.4 to 0.8 inch for blow flies, depending on the species, according to Virginia Cooperative Extension's house fly and [blow fly fact sheets](https://vtechworks.lib.vt.edu/items/30a6cd6f-5b17-41d6-8210-b231ed5b808f).",
+      "Blow fly maggots often reach full size two or three days after hatching, and new adult flies may emerge in as little as 7 to 14 days, says [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies).",
+      "Full-grown maggots leave their food to find a dry place to pupate (house fly maggots often travel up to 50 feet a day, Missouri Extension says), and Texas A&M says those are the maggots people usually find in homes.",
+      "[UC IPM](https://ipm.ucanr.edu/home-and-landscape/flies/) says garbage that sits for more than a week is likely to produce blow flies, and Virginia Cooperative Extension says boiling water kills maggots in garbage cans."
+    ]
+  },
+  "facts": {
+    "title": "Maggots or something else? Quick ID",
+    "head": ["What you found", "Size", "The tell", "Where you find it"],
+    "rows": [
+      ["House fly maggot", "About 0.4 inch grown", "Yellowish-white and legless; pointed head, blunt rear", "Garbage, manure, spoiled food"],
+      ["Blow fly maggot", "0.4 to 0.8 inch grown", "Creamy white and legless; looks like a house fly maggot", "Meat scraps in garbage, dog droppings, a dead animal"],
+      ["Drain fly larva", "Up to 3/8 inch", "Brown, sometimes darker at the ends or banded; legless", "Slimy film in sink, tub and floor drains"],
+      ["Fungus gnat larva", "About 1/4 inch", "White and slender with a shiny black head", "Damp potting soil"],
+      ["Indian meal moth larva", "About 1/2 inch", "White with a greenish or pinkish tint; has legs; spins silk", "Flour, rice, nuts, dried fruit; wanders far to pupate"],
+      ["Carpet beetle larva", "Up to 5/16 inch", "Fuzzy or hairy; striped brown, or tan to almost black", "Dark, hidden spots near wool, fur, lint or hair"],
+      ["Mealworm", "Up to 1 1/4 inches", "Smooth, cylindrical and golden-yellow", "Old or moldy grain, oats or seeds; dark, damp spots"],
+      ["Soldier fly larva", "About 1 inch", "Flattened, tough-skinned, gray to dark brown; legless", "Worm bins, spoiled grain, a dead animal in an attic or chimney"],
+      ["Mosquito larva", "Under 1/4 to over 1/2 inch", "Wriggles; hangs below the water surface to breathe", "Standing water: gutters, old tires, flowerpots"]
+    ],
+    "caption": "Maggots: Virginia Cooperative Extension, Texas A&M, UC IPM, UMN and NC State. Drain fly, fungus gnat and soldier fly larvae: Texas A&M. Moth and carpet beetle larvae: UC IPM. Mealworms: Utah State. Mosquito larvae: Missouri Department of Conservation."
+  },
+  "body": [
+    { "type": "h2", "text": "What do maggots look like?" },
+    { "type": "p", "text": "Maggots are pale, legless, wormlike larvae, pointed at the head end and broad and blunt at the rear. [Virginia Cooperative Extension's house fly fact sheet](https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-137/ENTO-416.pdf) describes house fly maggots as yellowish-white with a tapered head and no head capsule, ringed with bands of tiny spines that help them move through their food, and says a grown one measures about 0.4 inch (10 mm). [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) describes blow fly maggots as creamy white and legless, and blow fly and flesh fly maggots as cylindrical, tapering to a pointed head." },
+    { "type": "figure", "src": "/guides/photos/fly-maggot.webp", "width": 1200, "height": 817, "alt": "Pale cream, legless fly maggot on crumbly brown material, narrow and pointed at its left end and broad and blunt at its right end", "caption": "A fly maggot in a CDC photograph; CDC does not name the species. The narrow, pointed end is the head and the broad, blunt end is the rear.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25572" },
+    { "type": "p", "text": "Size depends on the fly and the maggot's age. Virginia Cooperative Extension's [blow fly fact sheet](https://vtechworks.lib.vt.edu/items/30a6cd6f-5b17-41d6-8210-b231ed5b808f) gives 0.4 to 0.8 inch (10 to 20 mm) for grown blow fly maggots, depending on the species, and [UC IPM's Pest Notes on flies](https://ipm.ucanr.edu/home-and-landscape/flies/) says maggots pass through three larval stages, getting bigger at each one. UC IPM adds that blow fly and house fly maggots look and behave so much alike that they are hard to tell apart without training. Where you found them says more about their source than the maggots themselves do." },
+
+    { "type": "h2", "text": "Where do maggots come from?" },
+    { "type": "p", "text": "Maggots hatch from eggs that flies lay on moist, decaying material, so finding them means a fly found something to breed in. [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies) says house flies lay batches of 75 to 100 small white eggs, usually in garbage but also in manure and decaying vegetation, and that blow flies lay theirs on garbage with meat scraps, on dead animals, in animal wounds and on feces-caked hair of pets. UC IPM adds lawn clippings, decaying produce and contaminated soil." },
+    { "type": "figure", "src": "/guides/photos/house-fly-eggs.webp", "width": 1200, "height": 801, "alt": "Sepia close-up of a heap of white, elongated house fly eggs shaped like grains of rice, packed tightly together", "caption": "House fly eggs in a CDC photograph. Virginia Cooperative Extension describes them as yellowish-white ovals about 0.04 inch (1 mm) long, laid up to 100 in a cluster.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25571" },
+    { "type": "p", "text": "The eggs hatch fast: in 8 to 20 hours for house flies, according to [University of Missouri Extension's house fly fact sheet](https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pro/UrbanEntomology/House_fly_info.pdf), and in about 24 hours for blow flies, according to [NC State Extension's blow fly guide](https://content.ces.ncsu.edu/blow-fly-biology-management). That is how maggots can appear within a day on garbage or food that looked clean the day before. Texas A&M adds that blow flies and flesh flies occasionally come indoors to lay eggs on a decaying carcass." },
+
+    { "type": "h2", "text": "How fast do maggots turn into flies?" },
+    { "type": "p", "text": "In summer heat, in as little as a week. UC IPM says house flies and blow flies can go from egg to adult in as little as 7 days under ideal conditions. Cold slows every stage: Texas A&M says a house fly needs about 45 days to complete its life cycle at 60°F, against 7 days at 95°F." },
+    { "type": "table", "head": ["Stage", "How long", "What it looks like"], "rows": [
+      ["Egg", "8 to 20 hours to hatch (house fly); about 24 hours (blow fly)", "White oval about 0.04 inch long, in clusters"],
+      ["Maggot", "3 to 7 days (house fly); about a week (blow fly)", "Pale and legless; three larval stages"],
+      ["Pupa", "3 days to 4 weeks, by temperature (house fly); about 8 days (blow fly)", "Hard, dark brown oval case"],
+      ["Adult fly", "Lives up to 3 weeks (house fly)", "Pushes out through the end of the case"]
+    ], "caption": "House fly: University of Missouri Extension and Texas A&M. Blow fly: NC State Extension. Descriptions: Virginia Cooperative Extension, UMN and UC IPM." },
+    { "type": "p", "text": "A maggot that has finished feeding leaves its food for a drier spot to pupate, UC IPM says, and Missouri Extension says mature house fly larvae often travel up to 50 feet a day to reach a cool, dry place. Texas A&M says the maggots people find in homes are usually at this stage, and that left alone they pupate in a crack or other protected spot." },
+    { "type": "figure", "src": "/guides/photos/fly-pupa.webp", "width": 1200, "height": 817, "alt": "Smooth, dark reddish-brown oval fly pupal case lying on crumbly brown material", "caption": "A fly pupa in a CDC photograph; CDC does not name the species. UC IPM says the maggot's last skin hardens into this case and the adult fly develops inside it.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25573" },
+    { "type": "figure", "src": "/guides/photos/house-fly-emerging.webp", "width": 1200, "height": 817, "alt": "House fly pushing its head, with a large reddish-brown eye, out of the split front end of its dark reddish-brown pupal case", "caption": "A house fly coming out of its pupal case, in a CDC photograph. UC IPM says the new adult pops off the end of the case and emerges.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25574" },
+
+    { "type": "h2", "text": "What else looks like maggots?" },
+    { "type": "p", "text": "Several other larvae get called maggots. Most give themselves away with legs, a dark head, bristles or where they turn up:" },
+    { "type": "ul", "items": [
+      "**Fuzzy, banded larvae on floors, in closets or under furniture** are carpet beetle larvae, which [UC IPM's carpet beetle guide](https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/) says look like fuzzy or hairy maggots; [the carpet beetle larvae guide](/blog/carpet-beetle-larvae) has more photos.",
+      "**Pale caterpillars with legs, leaving silk in flour, rice, nuts or dried fruit** are Indian meal moth larvae, about 1/2 inch long, says [UC IPM's pantry pest guide](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/). They wander far from the food to pupate, so they turn up in other rooms; [the guide to bugs in flour and rice](/blog/pantry-pests) covers them.",
+      "**Slender white larvae with shiny black heads in houseplant soil** are fungus gnat larvae, about 1/4 inch long (Texas A&M); see [the fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats) or [the houseplant fungus gnat guide](/blog/how-to-get-rid-of-fungus-gnats-houseplants).",
+      "**Brown, banded larvae up to 3/8 inch in a sink or shower drain** are drain fly larvae (Texas A&M). UMN says boiling water and bleach do not work on them and advises scrubbing out the drain's slimy film; [the drain fly guide](/blog/how-to-get-rid-of-drain-flies) has the steps.",
+      "**Smooth, golden-yellow larvae up to 1 1/4 inches in old grain or seeds** are mealworms, beetle larvae that [Utah State University Extension](https://extension.usu.edu/planthealth/ipm/notes_nuisance/dark-yellow-mealworms.php) says favor dark, damp, undisturbed places.",
+      "**Flat, gray to dark brown larvae about 1 inch long in a worm bin or spoiled grain** are soldier fly larvae, which Texas A&M describes as tough-skinned and not harmful.",
+      "**Wriggling larvae in standing water** are mosquito larvae, which the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/mosquito-larvae) says hang just below the surface to breathe."
+    ] },
+    { "type": "figure", "src": "/guides/photos/carpet-beetle-larva-wood-floor.webp", "width": 1200, "height": 800, "alt": "Pale larva with brown bands and short bristly hairs on a reddish wood-grain floor inside a house", "caption": "A carpet beetle larva (genus Anthrenus) on a wood floor inside a house in Pennsylvania. Its bristles and brown bands set it apart from a smooth, pale maggot.", "license": "CC-BY-4.0", "credit": "(c) Bill Keim, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/2612934" },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-larvae-peanuts.webp", "width": 1200, "height": 1600, "alt": "Clear plastic bag of red-skinned peanuts with small pale larvae and powdery debris scattered among the nuts", "caption": "Indian meal moth larvae among their droppings in a bag of peanuts in Pennsylvania. Moth larvae have legs and spin silk; maggots are legless.", "license": "CC-BY-4.0", "credit": "(c) cigazze, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/179429749" },
+    { "type": "confused", "items": [
+      { "href": "/blog/carpet-beetle-larvae", "name": "Carpet beetle larva", "photo": "carpet-beetle-larva-hallway-wall", "note": "Fuzzy, banded and bristly; hides in dark spots near wool, fur or lint", "alt": "Banded carpet beetle larva covered in long bristles, with tufts of hair at its rear, on a white wall" },
+      { "href": "/blog/pantry-pests", "name": "Indian meal moth larva", "photo": "indian-meal-moth-larva", "note": "About 1/2 inch with legs; leaves silk in flour, rice, nuts and dried fruit", "alt": "Pale pinkish caterpillar with a brown head crawling among cereal flakes" },
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly larva", "photo": "drain-fly-larva", "note": "Brown and banded, up to 3/8 inch; lives in the slimy film inside drains", "alt": "Segmented gray-brown drain fly larva with fine hairs and a dark breathing tube at one end" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat", "note": "Larvae about 1/4 inch, white with a shiny black head, in damp potting soil", "alt": "Slender dark fungus gnat with long antennae and clear wings resting on wood" },
+      { "href": "/blog/fruit-flies", "name": "Fruit fly", "photo": "fruit-fly", "note": "About 1/8 inch with reddish eyes; breeds in fermenting fruit and vegetables", "alt": "Tan fruit fly with bright red eyes and a dark-tipped abdomen, seen from the side" }
+    ] },
+
+    { "type": "h2", "text": "Why are there maggots in my trash can?" },
+    { "type": "p", "text": "Because flies laid eggs on food waste in it and the garbage sat long enough for them to hatch and grow. UMN says blow flies lay eggs on garbage that contains meat scraps, Virginia Cooperative Extension says house fly maggots turn up in garbage cans left uncovered and not emptied regularly, and UC IPM says garbage that sits for more than a week is likely to produce adult blow flies. Residue counts too: Texas A&M advises checking under can liners and washing out organic residue with soap and water." },
+    { "type": "media", "needed": "Maggots in a household trash can or on the underside of its lid, photographed where found beside a ruler marked in inches (public domain or CC0, so it could lead the page)" },
+    { "type": "p", "text": "To clear the can, bag and tie the garbage, then treat the bin. Virginia Cooperative Extension says boiling water kills maggots in garbage cans, and NC State suggests a bleach rinse to kill leftover eggs, larvae and pupae if flies keep showing up; use bleach only as its label directs. Then wash the can with soap and water, as UC IPM advises, and let it dry: Texas A&M says flies cannot breed without moisture." },
+    { "type": "h3", "text": "Keep maggots out of the can" },
+    { "type": "ul", "items": [
+      "**Set the can out weekly,** even when it is not full (UC IPM).",
+      "**Seal food and pet waste in bags** before it goes into the can (UC IPM), and tie bags tightly to hold in odors (UMN).",
+      "**Use a tight-fitting lid** and keep the can as far from the house as you can (UMN).",
+      "**Wash the can** regularly with soap and water (UC IPM)."
+    ] },
+
+    { "type": "h2", "text": "Why are there maggots in my kitchen?" },
+    { "type": "p", "text": "Kitchen maggots are feeding on food or residue that stayed moist long enough for flies to lay eggs on it. Virginia Cooperative Extension names improperly stored food as one place people find house fly maggots, and [Purdue Extension's filth fly guide](https://www.extension.entm.purdue.edu/publications/E-234/E-234.pdf) lists overlooked boxes of vegetables and trash cans among the places to inspect. Texas A&M's checklist adds spilled or spoiled food on floors and in pantries, the floor under and around the refrigerator, and refrigerator and icemaker condensate trays." },
+    { "type": "p", "text": "Throw out any food with maggots in it, clean the spot and empty the kitchen trash. If the larvae are tiny and in fermenting fruit, they are probably fruit fly larvae, which Texas A&M says breed in almost any fermenting fruit or vegetable; [the fruit fly guide](/blog/fruit-flies) covers them. Larvae in the sink drain, or in flour and other dry food, are the drain fly and pantry moth look-alikes above." },
+
+    { "type": "h2", "text": "Why are there maggots on my floor or coming from the ceiling?" },
+    { "type": "p", "text": "Maggots crawling across a floor, especially below a wall or ceiling, have usually finished feeding, often on an animal that died out of sight. Texas A&M says blow fly and flesh fly maggots in a home usually mean a bird, squirrel, rat or similar animal has died somewhere in the structure, and Virginia Cooperative Extension's blow fly fact sheet says they have often fed on a mouse or bird that died in a wall void or chimney without the homeowner knowing. UMN says the maggots can pass through gaps in a wall or ceiling and drop to the floor." },
+    { "type": "figure", "src": "/guides/photos/green-bottle-fly.webp", "width": 1200, "height": 1018, "alt": "Shiny metallic green blow fly with large red eyes on a pale, rough wall, seen from above beside a small printed scale bar", "caption": "A common green bottle fly (Lucilia sericata), one of the blow flies, beside the photographer's 1 mm scale bar (about 1/25 inch). Blow flies lay eggs on dead animals and meat scraps.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/9915028" },
+    { "type": "p", "text": "Purdue Extension points to two sources that are easy to miss: dead rodents in wall voids or ceilings, and rodent traps or glue boards that have not been checked. It also lists attics and crawl spaces as places to look for dead birds and rodents." },
+    { "type": "media", "needed": "Maggots crawling on a hard floor below a wall or baseboard inside a house, photographed where found beside a coin or a ruler marked in inches (public domain or CC0)" },
+    { "type": "p", "text": "Sweep or vacuum the maggots up and throw them out, then check the walls and attic for a dead animal: that is the only control [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/blow-and-flesh-flies) says flesh fly maggots need. The outbreak ends once the food is gone. UMN says that can take up to a week for an animal the size of a squirrel, and Texas A&M says adult flies usually appear 1 to 2 weeks after the maggots and may keep emerging for 1 to 3 weeks." },
+    { "type": "p", "text": "If you can reach the animal, remove it; [the guide to flies in the house](/blog/flies-in-house) gives CDC's cleanup steps for a dead rodent and sorts the adult flies that follow. Then close the way in, since Texas A&M says blow flies and flesh flies indoors point to a home poorly sealed against wildlife. [The guide to animals in the attic](/blog/animals-in-attic) helps work out what got in." },
+
+    { "type": "h2", "text": "Why do I have maggots in the house in winter?" },
+    { "type": "p", "text": "Because flies found something decaying indoors to breed in. [SDSU Extension](https://extension.sdstate.edu/fall-household-pests) says house flies reproduce on decaying organic matter, so a breeding population can stay active inside all winter, and it calls taking out the trash regularly and cleaning drains the best way to handle a small one. Maggots below a wall or ceiling in winter usually point to a dead animal, as they do in summer." },
+    { "type": "p", "text": "Slow flies at sunny windows in fall and winter are a different case. SDSU says cluster flies spend the winter indoors but do not reproduce there, so they leave no maggots in the house; [the cluster fly guide](/blog/cluster-flies-in-house-canada) explains where they come from and how to keep them out." },
+
+    { "type": "h2", "text": "Why are there maggots in dog poop, compost or the yard?" },
+    { "type": "p", "text": "Because blow flies and house flies breed in animal waste and other rotting matter outdoors. NC State Extension says blow flies can quickly lay hundreds of eggs on dog droppings and advises picking up pet waste as soon as possible and throwing it away in a closed bag. UMN lists animal manure, rotting mulch, lawn clippings and dead birds and animals as things to clear from the yard, and suggests covering compost piles with black plastic sheeting." },
+    { "type": "p", "text": "Check pets as well. UMN says blow flies may lay eggs on feces-caked hair on pets, and maggots in an animal's fur or in a wound are a job for a veterinarian." },
+
+    { "type": "h2", "text": "Are maggots dangerous?" },
+    { "type": "p", "text": "Usually not in themselves; the flies they turn into are the bigger concern. Iowa State University Extension calls the maggots that leave a dead animal unsavory but harmless. Virginia Cooperative Extension says adult house flies can carry the organisms behind dysentery, salmonella and other foodborne illnesses from filth to food." },
+    { "type": "p", "text": "Throw out food that maggots have been in. The [FDA's food defect action levels](https://www.fda.gov/food/current-good-manufacturing-practices-cgmps-food-and-dietary-supplements/food-defect-levels-handbook) set maximum numbers of fly eggs and maggots for some processed foods, such as canned tomatoes and tomato juice, and FDA says the levels cover natural or unavoidable defects that present no health hazard. Food that maggots were living in at home is another matter: it has spoiled, and flies have walked on it." },
+    { "type": "p", "text": "Maggots can also infest living tissue, a condition called myiasis. [CDC](https://www.cdc.gov/myiasis/about/index.html) says myiasis is not common in the United States, that most people diagnosed here were infected while traveling in tropical areas, and that untreated or open wounds raise the risk; larvae that grow under the skin are covered in [the bot fly guide](/blog/bot-flies)." },
+    { "type": "callout", "tone": "warning", "title": "When to see a doctor or veterinarian", "text": "See a healthcare provider if you think you have maggots in a wound or under your skin, as CDC advises for myiasis, and a veterinarian for maggots in a pet's fur or wound. After eating spoiled food, [CDC's food poisoning guidance](https://www.cdc.gov/food-safety/signs-symptoms/index.html) says to seek care for bloody diarrhea, diarrhea lasting more than 3 days, a fever over 102°F, vomiting so often you cannot keep liquids down, or signs of dehydration." },
+
+    { "type": "h2", "text": "How do you get rid of maggots for good?" },
+    { "type": "p", "text": "Remove what they are feeding on; the maggots themselves are the easy part. UC IPM says pesticides are not needed or recommended in most home situations, and Texas A&M says that once the places flies breed are cleaned up or eliminated, you should not need insecticides." },
+    { "type": "ol", "items": [
+      "**Find the source:** the trash, spoiled food, pet waste, a compost or worm bin, or, below a wall or ceiling, a dead animal or a forgotten rodent trap.",
+      "**Remove the maggots.** Sweep or vacuum them up (Iowa State); in a garbage can, use boiling water (Virginia Cooperative Extension).",
+      "**Clean and dry the spot.** Wash cans with soap and water (UC IPM) and check under liners and around the refrigerator (Texas A&M).",
+      "**Cut off the next batch.** Seal garbage and pet waste in bags, use lidded cans set out weekly (UC IPM, UMN), and keep 14- to 16-mesh screens on doors and windows (UMN).",
+      "**Close the way in.** After a dead-animal outbreak, seal openings animals could use (Texas A&M) and swat the adult flies that follow."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Seal one larva in a small jar or zip-top bag, photograph it beside a ruler marked in inches, and note where you found it and whether it has legs or a dark head. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between fly larvae and maggots?",
+      "answer": "Maggot is the everyday name for the larvae of flies such as house flies, blow flies and flesh flies: pale, legless and wormlike, tapering to a pointed head. Texas A&M AgriLife Extension describes blow fly and flesh fly larvae this way and notes that they are sometimes referred to as maggots. Other flies have larvae that look quite different: Texas A&M describes fungus gnat larvae as slender and white with shiny black heads, and drain fly larvae as brown and sometimes banded, living in drains."
+    },
+    {
+      "question": "What do house fly eggs look like?",
+      "answer": "House fly eggs are tiny, yellowish-white ovals about 0.04 inch (1 mm) long, laid up to 100 at a time in a cluster on a food source, according to Virginia Cooperative Extension. University of Minnesota Extension describes batches of 75 to 100 small white eggs, usually laid in garbage but also in manure and decaying vegetation. They hatch quickly: University of Missouri Extension says house fly eggs hatch in 8 to 20 hours, so white specks on food waste can be maggots by the next day."
+    },
+    {
+      "question": "How long does it take for maggots to form in garbage?",
+      "answer": "About a day or less after a fly lays its eggs. University of Missouri Extension says house fly eggs hatch in 8 to 20 hours, and NC State Extension says blow fly eggs hatch in about 24 hours. The maggots then grow fast: University of Minnesota Extension says blow fly maggots often reach full size two or three days after hatching. UC IPM advises setting garbage out at least once a week, even when the can is not full, because garbage that sits longer is likely to produce blow flies."
+    },
+    {
+      "question": "Do maggots turn into flies?",
+      "answer": "Yes. When a maggot finishes feeding, it crawls off to find a dry place and becomes a pupa, which University of Minnesota Extension describes as an immobile stage inside a hard, dark brown shell. UC IPM says the adult fly develops inside that case and pops off its end to emerge. In warm weather the whole cycle from egg to adult can take as little as 7 days, UC IPM says, while Texas A&M AgriLife Extension gives about 45 days for a house fly at 60°F."
+    },
+    {
+      "question": "How long do maggots live?",
+      "answer": "Usually a few days to about a week as maggots, longer in cool weather. University of Missouri Extension says house fly larvae finish growing in 3 to 7 days, and NC State Extension says blow fly maggots spend roughly a week as larvae before they pupate. Iowa State University Extension says maggots feed on a dead animal for 5 to 10 days before leaving it. For house flies, the pupal stage that follows lasts anywhere from 3 days to 4 weeks, depending on temperature, Missouri Extension adds."
+    },
+    {
+      "question": "Why do maggots keep coming back in my trash can?",
+      "answer": "Because flies keep finding food waste or residue in it, and garbage that sits long enough lets each new batch hatch and grow. UC IPM says garbage left more than a week is likely to produce blow flies, and advises sealing food and pet waste in plastic bags, setting the can out weekly even when it is not full, and washing it with soap and water. Texas A&M AgriLife Extension adds checking under can liners for residue, and University of Minnesota Extension advises tight-fitting lids."
+    },
+    {
+      "question": "Does bleach kill maggots?",
+      "answer": "NC State Extension suggests rinsing garbage bins with bleach to kill remaining fly eggs, larvae and pupae when flies keep showing up, and Virginia Cooperative Extension says maggots in garbage cans can be killed cheaply with boiling water; use bleach only as its label directs. Neither works on drain fly larvae in sink drains: University of Minnesota Extension says boiling water, bleach and chemical drain cleaners are not effective there and advises scrubbing out the slimy film. Maggots crawling indoors can be swept or vacuumed up, Iowa State University Extension says."
+    },
+    {
+      "question": "How do I get rid of maggots if I can't find the source?",
+      "answer": "Sweep or vacuum them up and throw them away, then look above and around the spot. Texas A&M AgriLife Extension says maggots in a home have usually finished feeding and are looking for a place to pupate, and that blow fly and flesh fly maggots there usually mean a bird, squirrel, rat or similar animal died somewhere in the structure. Purdue Extension adds rodent traps and glue boards that are not checked regularly, and attics and crawl spaces. If the animal is out of reach, University of Minnesota Extension says the problem ends once the food is used up."
+    },
+    {
+      "question": "Are maggots in the house dangerous?",
+      "answer": "Usually not in themselves. Iowa State University Extension calls the maggots that crawl away from a dead animal unsavory but harmless. The bigger concern is food: Virginia Cooperative Extension says adult house flies can carry the organisms behind dysentery, salmonella and other foodborne illnesses from filth to food, so throw out anything maggots were in. An infestation of living tissue by maggots, called myiasis, is not common in the United States, CDC says; see a healthcare provider if you think you have it."
+    },
+    {
+      "question": "What happens if you eat food with maggots in it?",
+      "answer": "Throw out food you find maggots in: it has spoiled, and flies have been on it. FDA's food defect action levels set maximum numbers of fly eggs and maggots for some processed foods, such as canned tomatoes and tomato juice, and FDA says the levels cover natural or unavoidable defects that present no health hazard. If you feel sick after eating spoiled food, CDC says to seek medical care for bloody diarrhea, diarrhea lasting more than 3 days, a fever over 102°F, vomiting that keeps you from holding down liquids, or signs of dehydration."
+    }
+  ],
+  "sources": [
+    { "title": "Indoor Flies and Their Control (ENTO-050)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Pest Notes: Flies (Publication 7457)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/flies/" },
+    { "title": "Flies", "publisher": "University of Minnesota Extension (J. Hahn and V. Cervenka, reviewed 2024)", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/flies" },
+    { "title": "House Fly (ENTO-137NP, revised January 2021)", "publisher": "Virginia Cooperative Extension, Virginia Tech (T. A. Dellinger and E. Day)", "url": "https://aaec.vt.edu/content/dam/pubs_ext_vt_edu/ENTO/ENTO-137/ENTO-416.pdf" },
+    { "title": "Blow Flies (ENTO-134NP, 2015)", "publisher": "Virginia Cooperative Extension, Virginia Tech (T. A. Dellinger and E. Day), via VTechWorks", "url": "https://vtechworks.lib.vt.edu/items/30a6cd6f-5b17-41d6-8210-b231ed5b808f" },
+    { "title": "House Fly (Urban Entomology Fact Sheet)", "publisher": "University of Missouri Extension (R. M. Houseman)", "url": "https://extension.missouri.edu/media/wysiwyg/Extensiondata/Pro/UrbanEntomology/House_fly_info.pdf" },
+    { "title": "Blow and Flesh Flies", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/blow-and-flesh-flies" },
+    { "title": "Blow Fly Biology & Management (2024)", "publisher": "NC State Extension (E. Bailey and C. Hayes)", "url": "https://content.ces.ncsu.edu/blow-fly-biology-management" },
+    { "title": "Filth Flies: House, Blow, Bottle, Soldier and Flesh Flies (E-234-W, 2018)", "publisher": "Purdue University Extension (L. J. Mason)", "url": "https://www.extension.entm.purdue.edu/publications/E-234/E-234.pdf" },
+    { "title": "Fall Household Pests", "publisher": "SDSU Extension, South Dakota State University", "url": "https://extension.sdstate.edu/fall-household-pests" },
+    { "title": "About Myiasis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/myiasis/about/index.html" },
+    { "title": "Food Poisoning Symptoms", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html" },
+    { "title": "Food Defect Levels Handbook", "publisher": "US Food and Drug Administration", "url": "https://www.fda.gov/food/current-good-manufacturing-practices-cgmps-food-and-dietary-supplements/food-defect-levels-handbook" },
+    { "title": "Pest Notes: Pantry Pests", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Pest Notes: Carpet Beetles", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/carpet-beetles/" },
+    { "title": "Dark/Yellow Mealworms", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/dark-yellow-mealworms.php" },
+    { "title": "Mosquito Larvae (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/mosquito-larvae" }
+  ],
+  "disclaimer": "health"
+}

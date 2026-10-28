@@ -1,0 +1,208 @@
+{
+  "slug": "dust-mites",
+  "kind": "spoke",
+  "cluster": "mites",
+  "keyword": "dust mites",
+  "alsoTargets": [
+    "what do dust mites look like",
+    "dust mites in bed",
+    "dust mite allergy",
+    "dust mite allergy symptoms",
+    "how to get rid of dust mites",
+    "where do dust mites live",
+    "dust mites vs bed bugs"
+  ],
+  "metaTitle": "Dust Mites: What They Are and How to Reduce Them",
+  "metaDescription": "Dust mites are too small to see and do not bite; their allergens trigger sneezing and asthma. Magnified photos, look-alikes and the steps that cut them.",
+  "h1": "Dust Mites: What They Look Like, Where They Live and How to Reduce Them",
+  "dek": "Dust mites are too small to see and do not bite; the trouble is allergy. Magnified photos, how to tell them from bed bugs and biting mites, the symptoms, and the steps that cut them, at the strength NIH and allergists give.",
+  "breadcrumb": "Dust Mites",
+  "excerpt": "What dust mites look like magnified, where they live, the allergy symptoms they cause, how they differ from bed bugs and biting mites, and how to reduce them.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**If you can see the bug, or it bites, it is not a dust mite: dust mites are too small to see without a microscope and cannot bite.** They are tiny relatives of ticks and spiders that eat shed skin flakes in mattresses, pillows, bedding, furniture and carpets, and their allergens can set off sneezing, a stuffy nose and asthma, as [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/dust-mites/symptoms-causes/syc-20352173) explains.",
+    "bullets": [
+      "Adults are at most about 1/50 inch long (0.2 to 0.5 mm), with oval, creamy white bodies and eight legs, according to the [AAAAI and ACAAI practice parameter](https://pmc.ncbi.nlm.nih.gov/articles/PMC5156485/) and the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef646).",
+      "Every home has dust mites, the [EPA](https://www.epa.gov/asthma/asthma-triggers-gain-control) says, and they feed on skin flakes in mattresses, pillows, carpets, upholstered furniture and stuffed toys.",
+      "They cannot bite or sting; their allergen is in the mites themselves, alive or dead, and especially in their droppings, according to Kentucky entomologists.",
+      "Allergy symptoms are like hay fever (sneezing, a runny or stuffy nose, itchy or watery eyes) and are likely to be worse while sleeping or cleaning, Mayo Clinic says.",
+      "[NIEHS](https://www.niehs.nih.gov/health/topics/agents/allergens/dustmites) advises keeping humidity at or below 50%, encasing the mattress and pillows, and washing bedding weekly in 130 to 140°F water.",
+      "For people with asthma who are allergic to dust mites, the [NIH's 2020 asthma guideline update](https://www.nhlbi.nih.gov/health-topics/asthma-management-guidelines-2020-updates/faqs) recommends several steps together, because one alone often does not help."
+    ]
+  },
+  "facts": {
+    "title": "Is it dust mites? Quick ID",
+    "head": ["Suspect", "Size", "Where you find it", "Bites people?"],
+    "rows": [
+      ["House dust mite", "Up to about 1/50 inch (0.2 to 0.5 mm); too small to see", "Deep in mattresses, pillows, bedding, upholstered furniture and carpets", "No; the harm is allergy"],
+      ["Bed bug", "Adults 3/16 to 1/4 inch (5 to 7 mm), apple-seed size", "Seams, tags and piping of mattresses and box springs; bed frame cracks", "Yes, at night; feeds on blood"],
+      ["Booklouse", "About 1/25 to 1/12 inch (1 to 2 mm); tan and wingless", "Humid, damp, dark spots where mold grows", "No"],
+      ["Bird mite (northern fowl mite)", "About the size of a period; visible", "Near recently used or abandoned bird nests in gutters, on porches or in barns", "Yes; may move indoors after the birds leave a nest"],
+      ["Tropical rat mite", "About 0.03 inch; gray, turning yellow to dark red after feeding", "Used or abandoned rat nests; seeks new hosts after the rats are removed", "Yes; severe itching"],
+      ["Chigger", "Larvae about 1/100 inch (0.25 mm); hard to see", "Damp outdoor areas with overgrown vegetation", "Yes; often near the ankles, waistline and armpits"],
+      ["Scabies mite", "Microscopic", "In the upper layer of human skin", "Burrows rather than bites; intense itching and a pimple-like rash"]
+    ],
+    "caption": "Dust mites: the AAAAI/ACAAI practice parameter, the University of Kentucky, Mayo Clinic and NIEHS. Bed bugs: EPA and CDC. Booklice: Penn State Extension. Biting mites: the University of Kentucky and CDC. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are dust mites?" },
+    { "type": "p", "text": "Dust mites are tiny relatives of ticks and spiders that live in house dust and eat the flakes of skin people shed. [Mayo Clinic's guide to dust mite allergy](https://www.mayoclinic.org/diseases-conditions/dust-mites/symptoms-causes/syc-20352173) says they are too small to see without a microscope, and [University of Kentucky entomologists](https://entomology.mgcafe.uky.edu/ef646) say they are not parasites and cannot bite or sting. What they do is cause allergy: the [National Institute of Environmental Health Sciences](https://www.niehs.nih.gov/health/topics/agents/allergens/dustmites) (NIEHS) calls them a big source of allergens that can worsen allergies and asthma." },
+    { "type": "figure", "src": "/guides/photos/house-dust-mite.webp", "width": 500, "height": 384, "alt": "Black-and-white scanning electron micrograph of a house dust mite, a rounded body covered in fine ridges standing on jointed legs, with a scale bar in the lower right corner", "caption": "A house dust mite under a scanning electron microscope, in a public domain image from the US Food and Drug Administration, which names it only as a North American house dust mite. The scale bar at lower right is labeled 50 micrometers, about 1/500 inch.", "license": "public-domain", "credit": "Employee of US Government, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_Dust_Mite.jpg" },
+    { "type": "p", "text": "Like ticks, dust mites are eight-legged arachnids, explains the [practice parameter on dust mites](https://pmc.ncbi.nlm.nih.gov/articles/PMC5156485/) that a joint task force of the American Academy of Allergy, Asthma & Immunology (AAAAI) and the American College of Allergy, Asthma and Immunology (ACAAI) published for doctors in 2013. Two of the most common species are *Dermatophagoides pteronyssinus* and *D. farinae*, and NIEHS notes that the skin flakes they eat come from pets as well as people." },
+
+    { "type": "h2", "text": "What do dust mites look like?" },
+    { "type": "p", "text": "Magnified, an adult dust mite is an oval, creamy to translucent white body on eight legs, with hairs on its legs and body. Even a large adult is only about 1/50 inch long: the practice parameter gives adults as 0.2 to 0.4 mm and Kentucky as about 0.5 mm, and the young are smaller still. Kentucky says they are generally visible only with a microscope, the practice parameter calls adults barely visible to the naked eye, and the [EPA's asthma triggers page](https://www.epa.gov/asthma/asthma-triggers-gain-control) calls them too small to see." },
+    { "type": "figure", "src": "/guides/photos/house-dust-mite-macro.webp", "width": 1200, "height": 803, "alt": "Color close-up of a house dust mite, a pale cream-white oval body with long thin hairs trailing behind it and short pinkish jointed legs, on a dark background", "caption": "A European house dust mite, Dermatophagoides pteronyssinus, in a color photograph taken under magnification by Gilles San Martin. Its pale body and long hairs match how the University of Kentucky describes the mites: clear to cream colored, with hairy legs and bodies.", "license": "CC-BY-SA-2.0", "credit": "Gilles San Martin from Namur, Belgium, CC BY-SA 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_dust_mite_(Dermatophagoides_pteronyssinus).jpg" },
+    { "type": "p", "text": "So a speck you can see crawling on a sheet, a book or a windowsill is not a dust mite but something else; the bed bug and booklouse sections below show how to tell them apart. What dust mites leave behind is allergen, which Kentucky says is carried in the mites themselves, alive or dead, and especially in their droppings." },
+    { "type": "media", "needed": "Live house dust mites among skin flakes and fibers in dust vacuumed from a US mattress, under a stereo microscope with a scale bar marked in inches, to show them where they actually live" },
+
+    { "type": "h2", "text": "Where do dust mites live?" },
+    { "type": "p", "text": "Dust mites live in the soft, dusty places where people sleep and sit. NIEHS lists mattresses, bedding, upholstered furniture, carpets and curtains, and the EPA adds pillows, clothes and stuffed toys. Every home has them, the EPA says, and the practice parameter reports detectable dust mite allergen in 84% of US homes." },
+    { "type": "p", "text": "Beds come first. Kentucky says the mites are most numerous in beds, overstuffed sofas and chairs and the carpet beside them, where people and pets shed the most skin, and that these spots stay more humid because people sweat and breathe out water vapor where they sleep and lounge. The practice parameter calls mattresses, box springs and pillows major sources of mites and their allergen, and says the mites live deep inside pillows, mattresses and carpets. Kentucky adds that thousands of mites in a single gram of house dust is not unusual." },
+
+    { "type": "h2", "text": "Why does humidity matter to dust mites?" },
+    { "type": "p", "text": "Dust mites do not drink. The practice parameter explains that they take in water vapor from humid air and lose water as the air dries, and that their survival and breeding fall off once relative humidity drops below about 50%. Kentucky puts their ideal at about 75 to 80°F and 70 to 80% relative humidity and says they cannot survive well below 50%." },
+    { "type": "p", "text": "Climate and season follow from that. Arid areas and high elevations generally cannot support dust mites indoors, the practice parameter says, and in US homes mite allergen tends to rise with summer humidity, peak in autumn and stay high into winter before falling in late winter and spring. It is also why [the AAAAI's page on humidifiers](https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/humidifiers-and-indoor-allergies) warns that adding moisture to the air with a humidifier makes an ideal home for dust mites." },
+
+    { "type": "h2", "text": "What are the symptoms of a dust mite allergy?" },
+    { "type": "p", "text": "They look like hay fever, and in people with asthma they can include asthma symptoms. Mayo Clinic lists:" },
+    { "type": "ul", "items": [
+      "**Nose, eyes and throat.** Sneezing; a runny or stuffy nose; itchy, red or watery eyes; an itchy nose, roof of the mouth or throat; postnasal drip; and cough.",
+      "**Face.** Facial pressure and pain, and swollen, discolored skin under the eyes; in a child, frequent upward rubbing of the nose.",
+      "**With asthma.** Trouble breathing, chest tightness or pain, a whistling or wheezing sound when breathing out, and trouble sleeping because of shortness of breath, coughing or wheezing."
+    ] },
+    { "type": "p", "text": "Symptoms are likely to be worse while sleeping or cleaning, Mayo says, because that is when the allergen is more likely to be in the air. The practice parameter adds that very little mite allergen floats in the air of an undisturbed room: it rises when dust is stirred up and then settles again. Symptoms that last all year are called perennial allergic rhinitis, according to [the AAAAI's page on indoor allergens](https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/indoor-allergens-ttr), and [MedlinePlus's asthma page](https://medlineplus.gov/ency/article/000141.htm) lists dust mites among common asthma triggers." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "Symptoms that last longer than a week may be an allergy rather than a cold, Mayo Clinic says; call a healthcare professional for severe symptoms such as a badly stuffed-up nose, wheezing or trouble sleeping, and seek emergency care for wheezing or shortness of breath that gets worse quickly, or for shortness of breath with little activity. If you have asthma, MedlinePlus says to contact your provider right away when symptoms get worse or do not improve with treatment, and to go to the emergency room or call emergency services right away for signs such as severe shortness of breath at rest, bluish lips or face, or drowsiness or confusion." },
+
+    { "type": "h2", "text": "How do you know if you have dust mites?" },
+    { "type": "p", "text": "Assume you do: the EPA says every home has them, and since they are too small to see, looking at a mattress will not tell you anything. The useful question is whether you are allergic to them. NIEHS says people who suspect a dust mite allergy can see their doctor and get tested, and [MedlinePlus](https://medlineplus.gov/ency/article/000813.htm) says skin testing is the most common allergy test, with blood tests, called IgE RAST tests, for people who cannot have skin tests." },
+    { "type": "p", "text": "Mite allergen in dust can be measured too. As a weak recommendation, the practice parameter suggests measuring it in settled dust after changes have been made, for homes where a mite-allergic person still has symptoms despite reasonable efforts." },
+
+    { "type": "h2", "text": "How do you get rid of dust mites?" },
+    { "type": "p", "text": "You cannot get rid of them entirely: NIEHS says that no matter how clean a home is, dust mites cannot be completely eliminated, but their numbers can be reduced. The steps matter for people who are allergic. The 2020 update to the national asthma guidelines from the NIH's [National Heart, Lung, and Blood Institute](https://www.nhlbi.nih.gov/health-topics/asthma-management-guidelines-2020-updates/faqs) (NHLBI) recommends several strategies together for people with asthma who are sensitive to dust mites, such as mite-proof pillow and mattress covers along with a HEPA vacuum, because one strategy alone often does not improve asthma. It does not recommend these steps for people who are not allergic to indoor allergens." },
+    { "type": "p", "text": "Start in the bedroom, where the AAAAI says it is essential to cut mite levels because so much time is spent there. These are the steps NIEHS, MedlinePlus and the allergy groups give:" },
+    { "type": "ol", "items": [
+      "**Encase the mattress, box spring and pillows.** NIEHS and [MedlinePlus's guide to asthma triggers](https://medlineplus.gov/ency/patientinstructions/000064.htm) both advise dust-proof, mite-proof covers, and the AAAAI says they can be allergen-proof fabric or airtight plastic with zippers.",
+      "**Wash bedding every week in hot water.** NIEHS and MedlinePlus give 130 to 140°F, which NIEHS says kills dust mites, and the AAAAI adds drying in a hot dryer. Water that hot can scald, so the practice parameter advises keeping a home's hot water below 120°F and says high temperatures are not needed for weekly washing to cut mite numbers and allergen. Weekly is the point every source agrees on.",
+      "**Keep indoor humidity at or below 50%.** NIEHS suggests a dehumidifier or air conditioner to hold it there; the AAAAI suggests 40 to 50% and a hygrometer to check it, and the practice parameter 35 to 50%.",
+      "**Vacuum weekly with a HEPA filter** or a double-layered microfilter bag, and dust with a damp cloth, never a dry one, as NIEHS and MedlinePlus advise. Vacuuming lifts allergen-laden dust but does not remove all live mites, the practice parameter notes, and NIEHS suggests a mask while vacuuming and staying out of the room for 20 minutes afterward while the dust settles.",
+      "**Cut back on fabric in the bedroom.** NIEHS and MedlinePlus suggest replacing wall-to-wall carpet with bare or hard floors and removing upholstered furniture and cloth curtains where you can; MedlinePlus adds pull-down shades in place of blinds and drapes, and closets kept clean with the doors closed. Evidence for carpet removal on its own is thin: the NHLBI's expert panel found too little to support it as a single step.",
+      "**Wash or freeze what you cannot encase.** The EPA suggests stuffed toys that can be washed in hot water and dried completely, and MedlinePlus says to keep them off beds. NIEHS says bedding that cannot be washed can be frozen overnight and suggests synthetic bedding in place of wool or feathers."
+    ] },
+    { "type": "media", "needed": "A zippered, allergen-impermeable encasement fitted over a mattress and a pillow in a bedroom, with the zipper closure visible; public domain or Creative Commons" },
+    { "type": "h3", "text": "What kills dust mites?" },
+    { "type": "p", "text": "Heat, cold and dry air. NIEHS says the 130 to 140°F wash kills them and that bedding that cannot be washed can be frozen overnight, and the practice parameter notes that most mites killed in a wash actually drown. It adds that heating, freezing and drying out should kill mites in theory, but controlled trials have not been done to show a health benefit. Killing mites does not remove the allergen either: Kentucky says it stays in the mites alive or dead, which is why the washing and vacuuming steps matter." },
+
+    { "type": "h2", "text": "Do dust mites bite?" },
+    { "type": "p", "text": "No. Kentucky's entomologists say house dust mites are not parasites and cannot bite or sting people, and the practice parameter describes them eating skin scales, fungi, yeasts and bacteria in dust. Bite-like bumps come from something else: a biting insect, a mite that does bite, or no bug at all. The University of California's [guide to itching and infestation](https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/) notes that in some cases the discomfort is not caused by insects, mites or spiders, and says the first person to contact is your family doctor." },
+    { "type": "p", "text": "Dust mite allergy can still affect the skin: Mayo Clinic says an ongoing dust mite allergy can cause a flare-up of eczema, dry and itchy skin. For bumps that appear overnight, [bites with no sign of bed bugs](/blog/bed-bug-bites-but-no-bed-bugs) goes through the other things that bite at night, [carpet beetle rash](/blog/carpet-beetle-rash) covers a rash that is not a bite, and [the bug bite identifier](/tools/bug-bite-identifier) suggests likely biters from six questions." },
+    { "type": "h3", "text": "Which mites do bite people?" },
+    { "type": "p", "text": "Several other mites do, and each comes from a different place:" },
+    { "type": "ul", "items": [
+      "**Bird mites.** Northern fowl mites and chicken mites can come indoors from recently used or abandoned bird nests in gutters, on porches or in barns, looking for new hosts once the birds have left, according to Kentucky's guide to [parasitic mites of humans](https://entomology.mgcafe.uky.edu/ef637). The northern fowl mite is visible, about the size of a period. See [the bird mite guide](/blog/bird-mites).",
+      "**Rat mites.** The tropical rat mite lives in rat nests, bites people and causes severe itching, and may go looking for new hosts after the rats are gone, Kentucky says; it is about 0.03 inch long, gray, and yellow to dark red after feeding. See [the rat mite guide](/blog/rat-mites).",
+      "**Chiggers.** Chigger larvae, about 1/100 inch (0.25 mm) and hard to see, attach to skin in damp, overgrown outdoor areas, and the bites often land near the ankles, waistline and armpits, Kentucky says. See [how to get rid of chiggers](/blog/how-to-get-rid-of-chiggers).",
+      "**Itch mites.** In a 2004 Kansas outbreak, [CDC's report on the outbreak](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5438a3.htm) linked an extremely itchy rash, mostly on the limbs, face and neck, to a microscopic itch mite living in leaf galls on pin oak trees; most rashes began in late summer, and few people saw or felt a bite. See [the guide to oak itch mites](/blog/itch-mites).",
+      "**Scabies mites.** The human itch mite burrows into the upper layer of the skin and causes intense itching and a pimple-like rash; it spreads mainly through prolonged skin-to-skin contact, and [CDC's scabies page](https://www.cdc.gov/scabies/about/index.html) advises medical attention if you suspect it. See [scabies vs bed bugs](/blog/scabies-vs-bed-bugs)."
+    ] },
+
+    { "type": "h2", "text": "Is it dust mites or bed bugs?" },
+    { "type": "p", "text": "If you can see it, it is not a dust mite. Adult bed bugs are about the size of an apple seed, 3/16 to 1/4 inch long, with a flat, oval brown body, says the [EPA's bed bug life cycle page](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle), and [the CDC's bed bug page](https://www.cdc.gov/bed-bugs/about/index.html) says they hide by day on or around the bed and bite people at night to feed on blood. Dust mites eat skin flakes and cannot bite." },
+    { "type": "table", "head": ["Feature", "Dust mite", "Bed bug"], "rows": [
+      ["Size", "Up to about 1/50 inch (0.2 to 0.5 mm)", "Adults 3/16 to 1/4 inch (5 to 7 mm)"],
+      ["Can you see it?", "No, not without a microscope", "Yes; young ones are smaller and translucent or whitish-yellow"],
+      ["Where it lives", "Deep inside mattresses, pillows, bedding, upholstered furniture and carpets", "Hides by day near the seams, tags and piping of mattresses and box springs and in bed frame cracks"],
+      ["What it eats", "Skin flakes", "Blood, at night"],
+      ["Bites people?", "No", "Yes"],
+      ["What you can find", "Nothing visible; allergen in the dust", "Rusty or reddish stains, dark spots of droppings, tiny eggs, pale yellow shed skins, live bugs"]
+    ], "caption": "Dust mites: the AAAAI/ACAAI practice parameter, the University of Kentucky, Mayo Clinic and NIEHS. Bed bugs: EPA and CDC." },
+    { "type": "figure", "src": "/guides/photos/bed-bugs-eggs-mattress-seam.webp", "width": 1200, "height": 900, "alt": "Reddish-brown and pale bed bugs of several sizes crowded along a fabric seam on a bed, with dozens of small white eggs and pale shed skins around them", "caption": "Bed bugs of several sizes and many white eggs along a seam of a bed, as the photographer described them; where it was taken is not recorded. Bed bugs and their eggs can be seen without magnification, which dust mites cannot.", "license": "public-domain", "credit": "Charlysays, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugs.jpg" },
+    { "type": "p", "text": "Young bed bugs are smaller and paler, and the EPA lists the five nymph stages from about 1/16 inch (1.5 mm) up. [What baby bed bugs look like](/blog/baby-bed-bugs-nymphs) shows each stage and [what bed bugs look like](/blog/what-do-bed-bugs-look-like) the adults. The [EPA's guide to finding bed bugs](https://www.epa.gov/bedbugs/how-find-bed-bugs) lists the signs: rusty or reddish stains from crushed bugs, dark spots of droppings, tiny eggs and eggshells, pale yellow shed skins and live bugs, near the seams, tags and piping of the mattress and box spring. [How to check a mattress for bed bugs](/blog/how-to-check-for-bed-bugs-canada) walks through an inspection." },
+
+    { "type": "h2", "text": "What are the tiny bugs you can actually see?" },
+    { "type": "p", "text": "A tiny pale bug crawling in a humid room may be a booklouse. [Penn State Extension](https://extension.psu.edu/booklice) describes booklice as soft, wingless insects about 1/25 to 1/12 inch long (1 to 2 mm), light to dark tan, that live in humid, damp, dark places and feed on mold. They do not bite and do not affect human health, Penn State says, and keeping relative humidity below 50% stops both the mold and the booklice, the same target that works against dust mites." },
+    { "type": "figure", "src": "/guides/photos/booklouse-notebook-pen-tip.webp", "width": 1200, "height": 1599, "alt": "A tiny pale brown oval speck, a booklouse, on cream notebook paper next to the silver tip of a pen, with handwriting above and below it", "caption": "A booklouse beside the tip of a pen on a handwritten page in London, identified on iNaturalist to the genus Liposcelis by the observer and a second identifier. It is tiny but visible, which a dust mite is not.", "license": "CC-BY-4.0", "credit": "(c) Marco Zaccaria Di Fraia, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/405233758" },
+    { "type": "p", "text": "[The booklice guide](/blog/booklice) covers them in full. For anything else you can see, [the five-question pest identifier](/tools/what-bug-is-this) asks where you found it, how big it is and how it moves." },
+    { "type": "confused", "items": [
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-adult-ruler", "note": "Visible: apple-seed size, flat and oval; hides near the bed and feeds on blood at night", "alt": "Reddish-brown, oval adult bed bug seen from above beside a printed millimeter scale" },
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse", "note": "Tan, wingless and visible; lives in damp, moldy spots and does not bite", "alt": "Magnified booklouse, a wingless, pale brown insect with a large head and long thin antennae" },
+      { "href": "/blog/bird-mites", "name": "Bird mite", "photo": "northern-fowl-mites", "note": "Visible, about the size of a period; may come indoors from a nest after the birds leave", "alt": "Magnified northern fowl mite, a pale oval mite with dark markings, on green fabric fibers" },
+      { "href": "/blog/scabies-vs-bed-bugs", "name": "Scabies mite", "photo": "scabies-mite", "note": "Burrows into skin, causing intense itching and a pimple-like rash", "alt": "Round, translucent human itch mite under a microscope, seen from below, with short legs, the back ones ending in long bristles" },
+      { "href": "/blog/how-to-get-rid-of-chiggers", "name": "Chigger", "photo": "chigger-and-pinhead", "note": "Larvae bite outdoors in damp, overgrown areas, often at the ankles and waistline", "alt": "Head of a pin with a labeled adult chigger and a much smaller larval chigger, a white speck, on its surface" }
+    ] },
+
+    { "type": "h2", "text": "What should you do next?" },
+    { "type": "p", "text": "Go by what you noticed:" },
+    { "type": "ul", "items": [
+      "**Sneezing, a stuffy nose or asthma that is worse in bed or while cleaning:** start the bedroom steps above and ask your doctor about allergy testing, which NIEHS suggests for anyone who suspects a dust mite allergy.",
+      "**Itchy bites:** dust mites do not bite; check the bed for the bed bug signs above, read about the mites that do bite, and, as UC IPM advises, start with your family doctor.",
+      "**A tiny bug you can see:** it is not a dust mite, so identify it before you treat anything."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Put a bug you can see in a sealed jar or photograph it beside a ruler marked in inches, and note where and when you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if I have dust mites?",
+      "answer": "Assume you do. The EPA says every home has dust mites, and because they are too small to see, looking will not tell you anything. What matters is whether they make you sick. Mayo Clinic lists sneezing, a runny or stuffy nose and itchy, watery eyes among the symptoms of dust mite allergy, likely to be worse while sleeping or cleaning. NIEHS says anyone who suspects the allergy can see a doctor and get tested, and MedlinePlus says skin testing is the most common method."
+    },
+    {
+      "question": "Can you see dust mites?",
+      "answer": "Barely, if at all, without magnification. Even a large adult is only about 1/50 inch long: 0.2 to 0.4 mm by the allergists' practice parameter, which calls them barely visible to the naked eye, and about 0.5 mm by the University of Kentucky's figure, with a creamy to translucent white body. Mayo Clinic says they are too small to see without a microscope. A speck you can see crawling on a sheet, a book or a windowsill is something else, such as a bed bug, a booklouse or a bird mite."
+    },
+    {
+      "question": "Do dust mites live in pillows?",
+      "answer": "Yes. The AAAAI and ACAAI practice parameter calls mattresses, box springs and pillows major sources of mites and their allergen, and says the mites live deep inside pillows, mattresses and carpets. NIEHS and MedlinePlus both advise encasing pillows as well as the mattress in dust-proof or mite-proof covers, and MedlinePlus says to wash bedding and pillows once a week in hot water. NIEHS also suggests synthetic bedding in place of wool or feathers."
+    },
+    {
+      "question": "Are dust mites harmful?",
+      "answer": "Not directly. The University of Kentucky says house dust mites are not parasites and cannot bite or sting. The harm is allergy: NIEHS calls them a big source of allergens that can worsen allergies and asthma, and Mayo Clinic says an ongoing dust mite allergy can lead to sinus infections, eczema flare-ups or severe asthma attacks. For people with asthma who are not allergic to indoor allergens, the NIH's 2020 asthma guideline update does not recommend allergen-reduction steps."
+    },
+    {
+      "question": "What kills dust mites immediately?",
+      "answer": "The health agencies cited here do not describe an instant method. NIEHS says washing bedding and blankets in 130 to 140°F water kills dust mites, and that bedding that cannot be washed can be frozen overnight. The allergists' practice parameter, which advises keeping home hot water below 120°F to avoid scalding, says most mites killed in a wash drown, and that heating, freezing and drying should kill mites in theory, though controlled trials have not been done to show a health benefit. Dead mites still carry allergen, Kentucky notes, so removing the dust matters too."
+    },
+    {
+      "question": "Do dust mites go away?",
+      "answer": "Not on their own, and not completely. NIEHS says that no matter how clean a home is, dust mites cannot be completely eliminated, though their numbers can be reduced. Dry air works against them: the practice parameter says their survival and breeding fall once relative humidity drops below about 50%, and that arid areas and high elevations generally cannot support them indoors. In US homes, it says, mite allergen tends to peak in autumn and fall during late winter and spring."
+    },
+    {
+      "question": "How can you test your bed for dust mites?",
+      "answer": "You cannot check a bed by eye, because dust mites are too small to see, and the EPA says every home has them. What can be measured is their allergen in dust: the AAAAI and ACAAI practice parameter suggests testing settled dust after changes have been made, for homes where a mite-allergic person still has symptoms. Whether you are allergic is a question for a doctor, who can test with a skin test or, when that is not possible, a blood test, MedlinePlus says."
+    },
+    {
+      "question": "How long do dust mites live?",
+      "answer": "About one to two months as adults. The University of Kentucky says adults live about 1 to 2 months, females lay about 50 eggs, and development from egg to adult takes about a month when temperature and humidity suit them. The allergists' practice parameter gives adults 4 to 6 weeks and 50 to 80 eggs per female. Humidity decides how well they do: Kentucky says they cannot survive well when relative humidity is below 50%."
+    },
+    {
+      "question": "Can dust mites live on your skin?",
+      "answer": "House dust mites do not live on people. The University of Kentucky says they are not parasites; they live in dust, eating skin flakes that have already fallen off, deep inside pillows, mattresses and carpets, according to the allergists' practice parameter, which notes that live mites have been found on the skin of some children with eczema (atopic dermatitis). One mite that does live in human skin is the scabies mite, which the CDC says burrows into the upper layer of the skin and causes intense itching and a pimple-like rash. The CDC advises medical attention if you suspect scabies."
+    },
+    {
+      "question": "What are the symptoms of dust mites in bed?",
+      "answer": "Dust mites cause symptoms through allergy, so they matter for people who are allergic to them. Mayo Clinic says dust mite allergy symptoms are likely to be worse while sleeping or cleaning, when the allergens are more likely to be in the air, and include sneezing, a runny or stuffy nose, itchy or watery eyes, postnasal drip and cough. People who also have asthma may wheeze, feel chest tightness and lose sleep to coughing or shortness of breath."
+    }
+  ],
+  "sources": [
+    { "title": "Dust mite allergy: Symptoms and causes (Mayo Clinic Staff, September 12, 2025)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/dust-mites/symptoms-causes/syc-20352173" },
+    { "title": "Dust Mites and Cockroaches (last reviewed March 6, 2026)", "publisher": "National Institute of Environmental Health Sciences, National Institutes of Health", "url": "https://www.niehs.nih.gov/health/topics/agents/allergens/dustmites" },
+    { "title": "House Dust Mites (ENTFACT-646; S. Principato, M. Potter and Z. DeVries, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef646" },
+    { "title": "Parasitic Mites of Humans (ENTFACT-637; A. Lopina, Z. DeVries and H. Tiffin, revised May 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef637" },
+    { "title": "Environmental assessment and exposure control of dust mites: a practice parameter (Portnoy J. and others, Annals of Allergy, Asthma & Immunology, 2013)", "publisher": "Joint Task Force on Practice Parameters of the AAAAI and ACAAI, via PubMed Central (US National Library of Medicine)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5156485/" },
+    { "title": "Asthma Triggers: Gain Control (updated July 6, 2026)", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/asthma/asthma-triggers-gain-control" },
+    { "title": "Indoor Allergens", "publisher": "American Academy of Allergy, Asthma & Immunology", "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/indoor-allergens-ttr" },
+    { "title": "Humidifiers and Indoor Allergies", "publisher": "American Academy of Allergy, Asthma & Immunology", "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/humidifiers-and-indoor-allergies" },
+    { "title": "Stay away from asthma triggers (reviewed January 14, 2026)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/ency/patientinstructions/000064.htm" },
+    { "title": "Allergic rhinitis (reviewed January 20, 2026)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/ency/article/000813.htm" },
+    { "title": "Asthma (reviewed January 1, 2025)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/ency/article/000141.htm" },
+    { "title": "2020 Focused Updates to the Asthma Management Guidelines: Frequently Asked Questions", "publisher": "National Heart, Lung, and Blood Institute, National Institutes of Health", "url": "https://www.nhlbi.nih.gov/health-topics/asthma-management-guidelines-2020-updates/faqs" },
+    { "title": "Bed Bugs Appearance and Life Cycle (updated January 6, 2026)", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "How to Find Bed Bugs (updated September 8, 2026)", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/how-find-bed-bugs" },
+    { "title": "About Bed Bugs (April 26, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "About Scabies (September 9, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/about/index.html" },
+    { "title": "Booklice (S. Jacobs; revised by M. Skvarla, updated July 23, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/booklice" },
+    { "title": "Pest Notes: Itching and Infestation: What's Attacking Me? (UC ANR Publication 7443, updated September 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/" },
+    { "title": "Outbreak of Pruritic Rashes Associated with Mites, Kansas, 2004 (Morbidity and Mortality Weekly Report)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5438a3.htm" }
+  ],
+  "disclaimer": "health"
+}

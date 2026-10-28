@@ -1,0 +1,10 @@
+{
+ "id": "rabbit-poop",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "bac870783a9c5fe40c093ad382dd5a73243b87d8f5e248a9270c5cb4935f50c3",
+ "claimsChecked": 245,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-28"
+}

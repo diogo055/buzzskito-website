@@ -1,0 +1,189 @@
+{
+  "slug": "rabbit-poop",
+  "kind": "spoke",
+  "cluster": "wildlife",
+  "keyword": "rabbit poop",
+  "alsoTargets": [
+    "rabbit droppings",
+    "what does rabbit poop look like",
+    "rabbit poop in yard",
+    "is rabbit poop dangerous",
+    "rabbit poop vs rat poop",
+    "healthy rabbit poop",
+    "rabbit cecotropes"
+  ],
+  "metaTitle": "Rabbit Poop: What Rabbit Droppings Look Like",
+  "metaDescription": "Rabbit poop is round, rough pellets about 1/4 inch across. Photos, rabbit vs rat, squirrel and deer droppings, tularemia, dogs, and pet rabbit poop.",
+  "h1": "Rabbit Poop: What Rabbit Droppings Look Like, in the Yard and From a Pet Rabbit",
+  "dek": "Wild cottontails leave round, rough pellets about 1/4 inch across where they feed. A real photo, a quick-ID table against deer, squirrel, rat and mouse droppings, CDC on tularemia, and what pet rabbit poop should look like.",
+  "breadcrumb": "Rabbit Poop",
+  "excerpt": "What rabbit droppings look like in a yard or a litter box, how to tell them from rat, mouse, squirrel and deer droppings, what cecotropes are, and whether rabbit poop is dangerous.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Rabbit poop is round: small, rough balls of plant material about the size of a pea, close to 1/4 inch across for a cottontail, while rat, mouse, squirrel and deer droppings are oval or cylindrical.** Sizes are from [UC IPM](https://ipm.ucanr.edu/home-and-landscape/rabbits/) and [UF/IFAS Extension](https://ask.ifas.ufl.edu/publication/UW369); the shape usually settles it.",
+    "bullets": [
+      "UC IPM describes coarse, circular pellets found scattered over an area: closer to 1/4 inch across for cottontails and up to 1/2 inch for jackrabbits.",
+      "The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/eastern-cottontail-cottontail-rabbit) likens cottontail droppings to dark brown peas, often seen in piles, and [ICWDM](https://icwdm.org/species/other-mammals/rabbits/) calls them bunches of round balls.",
+      "Deer pellets are larger, 1/2 to 1 inch long, by [Wildlife Illinois](https://wildlifeillinois.org/discover-animal-signs/white-tailed-deer-scat/), and rodent droppings are cylinders: 3/4 to 1 inch long for a Norway rat and 1/8 to 1/4 inch for a mouse, by [Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior).",
+      "[CDC](https://www.cdc.gov/healthy-pets/about/wildlife.html) advises washing your hands after contact with wild animals or their poop, and its [tularemia precautions](https://www.cdc.gov/tularemia/prevention/index.html) center on ticks, deer flies and handling wild animals, especially rabbits.",
+      "Pet rabbits also pass soft droppings called cecotropes and eat them; [Merck's veterinary manual](https://www.merckvetmanual.com/all-other-pets/rabbits/illness-of-rabbits) says to contact a vet right away for diarrhea or no droppings for more than 12 hours."
+    ]
+  },
+  "facts": {
+    "title": "Rabbit poop or something else? Quick ID",
+    "head": ["Droppings", "Shape and size", "The tell"],
+    "rows": [
+      ["Cottontail rabbit", "Round, rough pellets close to 1/4 inch across; dark brown", "Round, not oblong; in bunches or scattered where rabbits feed"],
+      ["Jackrabbit (a hare)", "Round, coarse pellets up to 1/2 inch across", "Up to twice as wide as a cottontail's; open country"],
+      ["White-tailed deer", "Dark, oval or cylindrical pellets 1/2 to 1 inch long", "Larger and longer than a rabbit's; usually in piles"],
+      ["Gray squirrel", "Oval pellets about 5/16 to 3/8 inch long; brown to reddish", "Oblong, not round; placed at random"],
+      ["Norway rat", "Cylinders 3/4 to 1 inch long; typically black", "Long, with pointed to rounded ends; a roof rat's about 1/2 inch"],
+      ["House mouse", "1/8 to 1/4 inch long; black", "Pointed at one end; scattered in high-traffic areas"],
+      ["Raccoon", "Tubes 2 to 3 inches long, 1/2 inch wide", "Often piled in latrines on roofs, in attics and in sandboxes"]
+    ],
+    "caption": "Sizes and shapes from UC IPM, ICWDM, the Missouri Department of Conservation, Wildlife Illinois (Illinois DNR), UF/IFAS and Cornell IPM, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does rabbit poop look like?" },
+    { "type": "p", "text": "Rabbit poop looks like small, round, dark balls about the size of a pea, rough on the surface and made of plant material. [UC IPM's Pest Notes on rabbits](https://ipm.ucanr.edu/home-and-landscape/rabbits/) describe coarse, circular pellets whose size roughly follows the size of the animal: up to 1/2 inch across for jackrabbits and closer to 1/4 inch for cottontails. [Wildlife Illinois](https://wildlifeillinois.org/identify-wildlife/eastern-cottontail/), the Illinois Department of Natural Resources' wildlife site, calls eastern cottontail droppings small, dark and spherical, less than 1/2 inch in diameter, and the [Missouri Department of Conservation's field guide](https://mdc.mo.gov/discover-nature/field-guide/eastern-cottontail-cottontail-rabbit) says they resemble dark brown peas." },
+    { "type": "figure", "src": "/guides/photos/cottontail-droppings.webp", "width": 1200, "height": 1594, "alt": "A small heap of round, dark rabbit pellets with a rough, fibrous surface among pine needles, dead leaves and green grass blades", "caption": "Round droppings in pine litter and grass in Gardendale, Alabama, identified on iNaturalist as eastern cottontail droppings by seven users. Note the round shape and the rough surface.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/128615485" },
+    { "type": "p", "text": "How the pellets lie varies, so go by shape rather than pattern. The Missouri guide says cottontail droppings are often seen in piles, the [rabbit page of the Internet Center for Wildlife Damage Management (ICWDM)](https://icwdm.org/species/other-mammals/rabbits/) calls them bunches of round balls, and UC IPM describes pellets scattered over an area. [UF/IFAS Extension's guide to wildlife damage in yards](https://ask.ifas.ufl.edu/publication/UW369) gives the shape test: rounded, pea-sized, rough pellets are likely rabbit, slightly larger, smoother ovals likely deer, and smaller ovals could be squirrel." },
+    { "type": "p", "text": "ICWDM counts nine cottontail species in the United States, with the desert and mountain cottontails the most common in the western states." },
+    { "type": "media", "needed": "Eastern cottontail pellets on a lawn beside a ruler marked in inches or a US quarter, identified by a wildlife agency, extension service or expert tracker; public domain or CC0 so it can lead the page" },
+
+    { "type": "h2", "text": "Where do you find rabbit droppings in a yard?" },
+    { "type": "p", "text": "Where rabbits feed, close to cover. [ICWDM's droppings key](https://icwdm.org/identification/inspection/brown-or-black-droppings/) says rabbit droppings are usually found where the animals are feeding, and [its guide to rabbit damage](https://icwdm.org/species/other-mammals/rabbits/rabbit-damage-identification/) treats distinctive round droppings right beside damaged plants as a sign of rabbits. Wildlife Illinois says that in towns, cottontails are common in grassy areas with brush piles, groups of ornamental shrubs, groundcover or tall grass nearby to hide in, and that they typically avoid short grass with no cover close by." },
+    { "type": "p", "text": "UC IPM says California's desert cottontails and brush rabbits favor dense cover such as brushy areas, rock or debris piles and the space beneath a raised shed. Wildlife Illinois says a cottontail spends its life in a small area, typically 10 acres or less, and usually feeds after dark in winter and around sunrise and sunset the rest of the year." },
+    { "type": "p", "text": "Fresh droppings are usually moist and shiny, while older ones tend to be dry, dull and grayish, UF/IFAS says, so a moist, shiny pellet points to a recent visit." },
+    { "type": "h3", "text": "Check the plants and the ground nearby" },
+    { "type": "p", "text": "The plants usually confirm it. UC IPM says rabbits make a characteristic diagonal, 45° cut when they clip woody twigs, buds and flower heads, and UF/IFAS says they usually clip seedlings and leaves within 15 inches of the ground. Deer have no upper front teeth, so they twist and pull and leave a ragged break; UC IPM says damage to woody plants above about 2 feet, beyond a rabbit's reach unless snow lifts it, points to deer." },
+    { "type": "p", "text": "Tracks help in snow or soft soil. The Missouri guide describes cottontail tracks in clusters of four, with round front prints about 1 inch long and oblong hind prints about 3 1/2 inches long, and Wildlife Illinois notes that the hind prints land in front of the front ones." },
+    { "type": "media", "needed": "An eastern cottontail feeding on a lawn or at the edge of a garden bed, from USFWS, NPS or another public domain or CC0 source with a confirmed identification" },
+
+    { "type": "h2", "text": "What does rabbit poop look like in winter?" },
+    { "type": "p", "text": "Browner, woodier and sometimes bigger. ICWDM's droppings key shows winter rabbit droppings turned brown by all the bark the rabbits ate during a snowy winter, with a woody look; the pellets in its photo had swelled with water in the snow to about the size of a dime. ICWDM's rabbit page adds that winter droppings tend to be full of fibrous plant remains, and the Missouri guide says that under heavy snow, cottontails live on the buds, twigs, bark and sprouts of shrubs, vines and trees." },
+    { "type": "p", "text": "So look at the shrubs beside the droppings. ICWDM's damage guide describes gnawing on older woody growth and clean, angled clipping of young stems, says young plants are clipped off up to 2 inches above the height of the snow, and warns that trees and shrubs can be completely girdled. Smooth, thin bark on young trees is the usual target; thick, rough bark often discourages gnawing. Fruit trees, maples, willow, rose and dogwood are on its list, and Wildlife Illinois adds apple and cherry bark and blackberries." },
+    { "type": "p", "text": "Bark chewed right at the base could be [voles](/blog/voles) as well. [Wildlife Illinois' guide to damaged trees and shrubs](https://wildlifeillinois.org/solve-wildlife-problems/damage-to-trees-shrubs/) says voles, like rabbits, eat small twigs and bark close to the base of a tree, though they cannot scrape off much bark at one time, and often turn to shrub bark in winter, when food under the snow is harder to find; rabbits, it adds, climb snowdrifts to feed higher." },
+    { "type": "p", "text": "One more winter clue: the Missouri guide says cottontail urine on snow can be orange or reddish and may be mistaken for blood." },
+    { "type": "media", "needed": "Cottontail droppings on snow at the base of a shrub with gnawed bark and stems clipped at an angle, in winter, identified by a wildlife agency, extension service or expert tracker; public domain or CC0" },
+
+    { "type": "h2", "text": "Rabbit poop vs rat poop: how do you tell them apart?" },
+    { "type": "p", "text": "By shape: rabbit pellets are round, rat droppings are long cylinders. [Cornell IPM's guide to mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) describes rodent droppings as cylindrical, with pointed to rounded ends, and typically black, and gives Norway rat droppings as 3/4 to 1 inch long and roof rat droppings as about 1/2 inch, against a cottontail pellet's 1/4 inch or so across in UC IPM's figures." },
+    { "type": "figure", "src": "/guides/photos/norway-rat-droppings-cornell.webp", "width": 1200, "height": 900, "alt": "A loose group of dark, elongated rat droppings with blunt and tapered ends, some of them curved, on a white background", "caption": "Norway rat droppings photographed and identified by the New York State IPM Program at Cornell University. They are long and cylindrical, not round like a rabbit's pellets.", "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons", "license": "CC-BY-2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Norway_Rat_Droppings_(9421750331).jpg" },
+    { "type": "p", "text": "Mouse droppings are smaller still. ICWDM's droppings key describes house mouse droppings as black, pointed on one end, about 1/4 inch long and scattered in high-traffic areas, and UF/IFAS says pellets the size of rice grains could be from rats, mice, chipmunks or bats. [The rat droppings guide](/blog/rat-droppings) and [the mouse poop guide](/blog/mouse-poop) show both, and [the guide to bat poop](/blog/bat-poop) covers the bat droppings UF/IFAS mentions." },
+    { "type": "figure", "src": "/guides/photos/mouse-droppings-wood.webp", "width": 800, "height": 600, "alt": "Small, dark, rice-shaped mouse droppings scattered across a light wooden surface", "caption": "Mouse droppings scattered on a wooden surface, in a National Park Service photograph. Cornell IPM gives mouse droppings as 1/8 to 1/4 inch long: thin pellets, not round balls.", "credit": "NPS Photo (U.S. National Park Service, nps.gov)", "license": "public-domain", "sourceUrl": "https://www.nps.gov/articles/000/conserve-o-gram-3-12-identifying-mouse-and-rat-damage-in-museum-collections.htm" },
+
+    { "type": "h2", "text": "What else looks like rabbit poop?" },
+    { "type": "p", "text": "In a yard: squirrel, deer and jackrabbit pellets, and the tube-shaped droppings of larger animals." },
+    { "type": "h3", "text": "Squirrel droppings" },
+    { "type": "p", "text": "Squirrel droppings are oval, not round. UF/IFAS says smaller oval pellets could be from squirrels, and the Missouri Department of Conservation's guide to reading droppings, [The Scat Detective](https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective), lists gray squirrel droppings as about 5/16 to 3/8 inch (8 to 10 millimeters) long, brown to reddish and placed at random. [The squirrel poop guide](/blog/squirrel-poop) has more photos." },
+    { "type": "figure", "src": "/guides/photos/gray-squirrel-droppings-ledge.webp", "width": 1200, "height": 1600, "alt": "Several dark, oval to bean-shaped squirrel droppings, two stuck together, on a pebbly concrete ledge below a black railing", "caption": "Eastern gray squirrel droppings on a concrete ledge by a railing; the photographer saw the squirrel leave them. They are oblong, where a rabbit's pellets are round.", "credit": "(c) Andrew Sebastian, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/106432462" },
+    { "type": "h3", "text": "Deer pellets" },
+    { "type": "p", "text": "Bigger, longer pellets in a pile are a deer's. [Wildlife Illinois' guide to deer droppings](https://wildlifeillinois.org/discover-animal-signs/white-tailed-deer-scat/) describes piles of dark, cylindrical pellets 1/2 to 1 inch long, similar to rabbit pellets but larger. [The deer poop guide](/blog/deer-poop) sets the two side by side, with photos." },
+    { "type": "h3", "text": "Jackrabbit pellets" },
+    { "type": "p", "text": "Jackrabbits are hares, generally larger than cottontails with longer ears, ICWDM notes, and UC IPM gives their pellets as up to 1/2 inch across. Writing for California, UC IPM says they keep to open or semi-open ground rather than dense brush, and also live around the fringes of towns and on golf courses, parks and farmland." },
+    { "type": "h3", "text": "Tube-shaped droppings" },
+    { "type": "p", "text": "Droppings shaped like tubes, not pellets, come from bigger animals. ICWDM's droppings key gives raccoon droppings as 2 to 3 inches long and 1/2 inch wide, often piled in latrines on roofs, in attics, in sandboxes or in open areas; [the raccoon poop guide](/blog/raccoon-poop) shows them. For [possum droppings](/blog/possum-poop), coyote scat and the rest, see [the animal poop identification chart](/blog/animal-droppings)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/deer-poop", "name": "Deer poop", "photo": "deer-droppings-snow", "note": "Oval pellets 1/2 to 1 inch long, larger than a rabbit's and usually in piles", "alt": "Dark, oval deer pellets in a loose cluster on clean snow" },
+      { "href": "/blog/rat-droppings", "name": "Rat droppings", "photo": "rat-droppings-thumb", "note": "Cylinders 1/2 to 1 inch long with pointed to rounded ends, not round balls", "alt": "Dark, thick, oblong rat droppings on moss beside a person's thumb for size" },
+      { "href": "/blog/mouse-poop", "name": "Mouse poop", "photo": "mouse-droppings-ruler", "note": "Only 1/8 to 1/4 inch long and pointed at one end", "alt": "A few small, dark mouse droppings beside two coins and a ruler" },
+      { "href": "/blog/squirrel-poop", "name": "Gray squirrel", "photo": "eastern-gray-squirrel", "note": "Its droppings are oval, about 5/16 to 3/8 inch long, and placed at random", "alt": "Eastern gray squirrel sitting up in short green grass" },
+      { "href": "/blog/raccoon-poop", "name": "Raccoon poop", "photo": "raccoon-scat-lawn-ruler", "note": "Tubes 2 to 3 inches long, often piled in latrines", "alt": "Dark, tubular droppings from several deposits on a lawn beside an L-shaped ruler, identified by the observer as raccoon scat" }
+    ] },
+
+    { "type": "h2", "text": "Is rabbit poop dangerous?" },
+    { "type": "p", "text": "It can carry germs, so wash your hands after any contact. [CDC's page on wildlife](https://www.cdc.gov/healthy-pets/about/wildlife.html) says wild animals can carry germs harmful to people and pets even when they look healthy, and advises washing your hands with soap and running water after contact with wild animals or their poop. [CDC's guide to hygiene around animals](https://www.cdc.gov/hygiene/about/hygiene-practices-around-animals.html) adds that children under 5, adults 65 and older and people with weakened immune systems are more likely to get sick from diseases animals spread." },
+    { "type": "p", "text": "So pick droppings up with a shovel or a gloved hand, keep them out of the vegetable garden and wash your hands afterward. Wildlife Illinois says rabbits are not a public health concern, though they can carry tularemia." },
+    { "type": "h3", "text": "Tularemia, or rabbit fever" },
+    { "type": "p", "text": "Droppings are not on CDC's list of the ways people catch [tularemia](/blog/tularemia), often called rabbit fever. [CDC's tularemia overview](https://www.cdc.gov/tularemia/about/index.html) says rabbits, hares and rodents are especially susceptible and often die in large numbers during outbreaks, and that people can become infected in several ways, including tick and deer fly bites, skin contact with infected animals, contaminated water, contaminated aerosols or farm and landscaping dust, and work exposure. Cases have been reported in every state except Hawaii; the disease can be life-threatening, but most infections can be treated successfully with antibiotics, CDC says." },
+    { "type": "p", "text": "[CDC's prevention advice](https://www.cdc.gov/tularemia/prevention/index.html): use an EPA-registered insect repellent, cover up against ticks and deer flies, remove attached ticks promptly, do not drink untreated surface water, and do not mow over sick or dead animals. If you hunt, trap or skin animals, wear gloves when handling them, especially rabbits, and cook game meat thoroughly. Wildlife Illinois likewise advises rubber gloves for handling a dead rabbit and a thorough wash with warm, soapy water afterward. For ticks themselves, see [a 10-step plan against ticks](/learn/how-to-combat-ticks) and [the guide to diseases ticks carry](/blog/tick-borne-diseases-ontario-complete-list)." },
+    { "type": "h3", "text": "If your dog eats rabbit poop" },
+    { "type": "p", "text": "The rabbit's own coccidia do not infect dogs, but the habit is still worth stopping. [Cornell University's College of Veterinary Medicine](https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/coccidia-dogs) says that when dogs eat another animal's feces, such as a rabbit's, Eimeria coccidia can show up on a fecal test, but dogs are not hosts for those species. Dogs catch their own coccidia from contaminated feces or prey; healthy adults rarely get diarrhea from it, Cornell says, but puppies are commonly affected." },
+    { "type": "p", "text": "Call your veterinarian if a dog shows the signs Cornell lists, such as diarrhea, bloody stool, lethargy, vomiting or a poor appetite; dogs that are ill need a specific medicine. CDC's wildlife page advises keeping pets leashed outside unfenced areas and not letting them eat wildlife." },
+
+    { "type": "h2", "text": "What should you do about rabbit droppings in a vegetable garden?" },
+    { "type": "p", "text": "Keep them off food you will eat raw. [SDSU Extension's guide to garden food safety](https://extension.sdstate.edu/garden-food-safety) says the droppings of rabbits, deer and other wildlife that visit a garden are raw manure that can transmit pathogens to humans, the same as pets' droppings, and that regular visitors should be fenced out. It advises against using any manure in a garden unless it is at least six months old or has been carefully heat composted." },
+    { "type": "p", "text": "If you find piles of droppings during the growing season, the guide says to remove them carefully and mark the spot, and to grow nothing there that year that you will eat raw: use it for sweet corn, potatoes, winter squash, pumpkins or other well-cooked vegetables, or for flowers. Wash your hands before harvesting produce that will be eaten raw, it adds." },
+
+    { "type": "h2", "text": "How do you keep rabbits out of a garden?" },
+    { "type": "p", "text": "With a fence of small-mesh wire. UC IPM recommends poultry netting with mesh no larger than 1 inch, so young rabbits cannot slip through, 48 inches tall with the bottom buried at least 6 to 10 inches, and notes that cottontails won't jump a 2-foot fence. Wildlife Illinois suggests bending the bottom 6 inches of wire outward before burying it, and a fence tall enough that rabbits cannot cross it on snow." },
+    { "type": "p", "text": "For young trees and shrubs, Wildlife Illinois suggests cylinders of 1/4-inch wire mesh that reach at least a foot above the expected snow depth, set far enough from the plant to let it grow. It also suggests clearing brush piles, weed patches and stone piles and keeping grass short, to take away the cover rabbits use." },
+    { "type": "p", "text": "Check your state's rules before trapping. ICWDM says rabbits are game animals in most states, protected outside legal hunting seasons, though some states make exceptions for property owners whose land rabbits are damaging." },
+
+    { "type": "h2", "text": "What about a pet rabbit's droppings?" },
+    { "type": "p", "text": "Most should be small, dry pellets. [The Merck Veterinary Manual's guide to rabbit diet](https://www.merckvetmanual.com/all-other-pets/rabbits/diet-for-rabbits) says most droppings are small, dry pellets, and that rabbits also produce soft droppings called cecotropes, usually early in the morning, and eat them, gaining important protein, vitamins and other nutrients. It recommends unlimited high-quality grass hay, about 85 to 90 percent of the diet, and says high fiber supports digestion and lowers the risk of intestinal disease." },
+    { "type": "h3", "text": "What are cecotropes?" },
+    { "type": "p", "text": "Cecotropes are the soft droppings a rabbit eats on purpose, and wild rabbits make them too. Wildlife Illinois explains that a cottontail eats its food quickly, then moves to a sheltered area where it passes soft pellets and eats them, finishing its digestion somewhere better protected from predators." },
+    { "type": "media", "needed": "A pet rabbit's normal fecal pellets and a cluster of cecotropes side by side beside a ruler marked in inches, photographed or identified by a veterinarian or veterinary school" },
+    { "type": "callout", "tone": "warning", "title": "When a pet rabbit's droppings mean a vet visit", "text": "[Merck's veterinary manual](https://www.merckvetmanual.com/all-other-pets/rabbits/illness-of-rabbits) lists diarrhea, or no droppings for more than 12 hours, among the signs of illness in rabbits, with loss of appetite and weight, grinding teeth and a hunched posture, and says to contact your vet right away, since rabbits often hide illness. [Its page on digestive disorders](https://www.merckvetmanual.com/all-other-pets/rabbits/digestive-disorders-of-rabbits) advises prompt care for a rabbit that stops eating or passes fewer droppings, warning that gastrointestinal stasis can become life-threatening if not treated." },
+    { "type": "p", "text": "Treat the litter box like any pet's waste: CDC's guide to hygiene around animals advises washing your hands thoroughly with soap and water after cleaning up after pets." },
+    { "type": "callout", "tone": "tip", "title": "Not sure whose droppings they are?", "text": "Photograph a few pellets beside a ruler marked in inches or a coin without touching them, note whether they are round or oblong and where you found them, and check nearby plants for clean, angled cuts. Your state's cooperative extension office can help identify them." }
+  ],
+  "faqs": [
+    {
+      "question": "How big is rabbit poop?",
+      "answer": "A cottontail's pellets are close to 1/4 inch across and a jackrabbit's up to 1/2 inch, according to UC IPM, which says pellet size roughly follows the size of the animal. Wildlife Illinois puts eastern cottontail droppings at under 1/2 inch in diameter, and the Missouri Department of Conservation compares them to dark brown peas. In winter, ICWDM shows pellets that had swelled with water in the snow to about the size of a dime."
+    },
+    {
+      "question": "Do rabbits poop in the same spot?",
+      "answer": "Often the droppings collect where rabbits feed. The Missouri Department of Conservation says cottontail droppings are often seen in piles, and ICWDM calls them bunches of round balls, usually found where rabbits are feeding. UC IPM, though, describes pellets scattered over an area, so a scatter across a lawn can be a rabbit's too. Going by shape is more reliable than going by pattern: round pellets point to a rabbit."
+    },
+    {
+      "question": "What should you do if you touch rabbit poop?",
+      "answer": "Wash your hands with soap and running water. CDC advises washing after any contact with wild animals or their poop, and after time outdoors, and says adults should supervise young children's handwashing. Wild animals can carry germs that are harmful to people even when they look healthy, CDC says, and children under 5, adults 65 and older and people with weakened immune systems are more likely to get sick from them."
+    },
+    {
+      "question": "Can you get tularemia from rabbit poop?",
+      "answer": "Droppings are not on CDC's list of the ways people catch tularemia, or rabbit fever. CDC names tick and deer fly bites, skin contact with infected animals, drinking contaminated water, breathing contaminated aerosols or farm and landscaping dust, and exposure at work. Its advice is to wear gloves when handling animals you hunt, trap or skin, especially rabbits, not to mow over sick or dead animals, to use insect repellent and to remove attached ticks promptly. CDC says most infections can be treated successfully with antibiotics."
+    },
+    {
+      "question": "Is rabbit poop bad for dogs?",
+      "answer": "The rabbit's own coccidia do not infect dogs. Cornell University's College of Veterinary Medicine says Eimeria coccidia from eating another animal's feces, such as a rabbit's, can show up on a dog's fecal test, but dogs are not hosts for those species. Dogs catch their own kind of coccidia from contaminated feces or prey, and puppies are the ones commonly affected. Call your veterinarian if a dog has diarrhea, vomiting, lethargy or a poor appetite, and keep dogs from eating wildlife, as CDC advises."
+    },
+    {
+      "question": "Is rabbit poop good fertilizer?",
+      "answer": "Treat it as raw manure. SDSU Extension says the droppings of rabbits and other wildlife in a garden are raw manure that can transmit pathogens to humans, and that the same is true of pets. It advises against using any manure in a garden unless it is at least six months old or has been carefully heat composted, and against growing anything eaten raw where piles of droppings turn up that season. Wash your hands before harvesting produce that will be eaten raw."
+    },
+    {
+      "question": "Why do rabbits eat their own poop?",
+      "answer": "The droppings they eat are cecotropes, a soft kind that carries nutrients. The Merck Veterinary Manual says rabbits produce these soft droppings, usually early in the morning, and eat them, gaining important protein, vitamins and other nutrients. Wild rabbits do it too: Wildlife Illinois explains that a cottontail eats its food quickly, then moves to a sheltered area where it passes soft pellets and eats them, finishing its digestion somewhere better protected from predators."
+    },
+    {
+      "question": "What does healthy rabbit poop look like?",
+      "answer": "Small, dry pellets: the Merck Veterinary Manual says most of a rabbit's droppings take that form, while the soft cecotropes it makes, usually early in the morning, are eaten. Merck lists diarrhea, or no droppings for more than 12 hours, among the signs of illness that call for contacting a vet right away, and advises prompt care for a rabbit passing fewer droppings. It recommends unlimited grass hay, about 85 to 90 percent of the diet, for good digestion."
+    },
+    {
+      "question": "Does rabbit poop in my yard mean a rabbit lives there?",
+      "answer": "It usually means a rabbit feeds there, and its home range is small. Wildlife Illinois says a cottontail spends its life in a fairly small area, typically 10 acres or less, resting in shelters of grass or weeds under cover. If you find a nest, a shallow hollow lined with grass and the mother's fur, leave it alone: Wildlife Illinois says she visits only twice a day and has not abandoned the young, and advises keeping cats and dogs away and mowing with care."
+    },
+    {
+      "question": "Is it legal to trap rabbits in your yard?",
+      "answer": "It depends on your state. ICWDM says rabbits are classified as game animals in most states and protected except during legal hunting seasons, though some states let property owners trap or shoot rabbits that are damaging their land outside the season, and it advises checking with state and local authorities first. Fencing avoids the question: UC IPM recommends poultry netting with mesh no larger than 1 inch, buried at least 6 to 10 inches."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Rabbits (UC ANR Publication 7447; R. A. Baldwin, updated August 2022)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rabbits/" },
+    { "title": "Rabbits (from Prevention and Control of Wildlife Damage; Scott R. Craven)", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/other-mammals/rabbits/" },
+    { "title": "Rabbit Damage Identification", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/other-mammals/rabbits/rabbit-damage-identification/" },
+    { "title": "Brown or Black Droppings", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/identification/inspection/brown-or-black-droppings/" },
+    { "title": "Eastern Cottontail (field guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/eastern-cottontail-cottontail-rabbit" },
+    { "title": "The Scat Detective (Tom Meister, Missouri Conservationist, September 2021)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/magazines/missouri-conservationist/2021-09/scat-detective" },
+    { "title": "Eastern Cottontail Rabbit", "publisher": "Wildlife Illinois (authorized by the Illinois Department of Natural Resources)", "url": "https://wildlifeillinois.org/identify-wildlife/eastern-cottontail/", "kind": "government" },
+    { "title": "White-tailed Deer Scat", "publisher": "Wildlife Illinois (authorized by the Illinois Department of Natural Resources)", "url": "https://wildlifeillinois.org/discover-animal-signs/white-tailed-deer-scat/", "kind": "government" },
+    { "title": "Damage to Trees and Shrubs", "publisher": "Wildlife Illinois (authorized by the Illinois Department of Natural Resources)", "url": "https://wildlifeillinois.org/solve-wildlife-problems/damage-to-trees-shrubs/", "kind": "government" },
+    { "title": "How to Identify the Wildlife Species Responsible for Damage in Your Yard (WEC324/UW369; H. K. Ober and A. Kane)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/UW369" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "About Tularemia (updated August 27, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/tularemia/about/index.html" },
+    { "title": "Preventing Tularemia (September 9, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/tularemia/prevention/index.html" },
+    { "title": "Wildlife (Healthy Pets, Healthy People; June 15, 2026)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/about/wildlife.html" },
+    { "title": "Hygiene Practices Around Animals (January 31, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hygiene/about/hygiene-practices-around-animals.html" },
+    { "title": "Garden Food Safety (Rhoda Burrows, updated October 23, 2023)", "publisher": "South Dakota State University Extension", "url": "https://extension.sdstate.edu/garden-food-safety" },
+    { "title": "Coccidia in dogs", "publisher": "Cornell University College of Veterinary Medicine, Riney Canine Health Center", "url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/coccidia-dogs" },
+    { "title": "Diet for Rabbits (Laurie Hess, DVM; reviewed July 2026)", "publisher": "Merck Veterinary Manual, pet owner version", "url": "https://www.merckvetmanual.com/all-other-pets/rabbits/diet-for-rabbits" },
+    { "title": "Illness of Rabbits (Laurie Hess, DVM; reviewed July 2026)", "publisher": "Merck Veterinary Manual, pet owner version", "url": "https://www.merckvetmanual.com/all-other-pets/rabbits/illness-of-rabbits" },
+    { "title": "Digestive Disorders of Rabbits (Laurie Hess, DVM; reviewed July 2026)", "publisher": "Merck Veterinary Manual, pet owner version", "url": "https://www.merckvetmanual.com/all-other-pets/rabbits/digestive-disorders-of-rabbits" }
+  ],
+  "disclaimer": "health"
+}

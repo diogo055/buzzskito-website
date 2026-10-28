@@ -1,0 +1,205 @@
+{
+  "slug": "black-widow-spiders",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "black widow spider",
+  "alsoTargets": [
+    "black widow spiders",
+    "what does a black widow look like",
+    "black widow spider male",
+    "where do black widows live",
+    "black widow look alike",
+    "southern black widow",
+    "northern black widow",
+    "western black widow"
+  ],
+  "metaTitle": "Black Widow Spider: ID, Range and Look-Alikes",
+  "metaDescription": "A black widow is shiny black with a red hourglass under a round abdomen. Photos of the 3 US species and look-alikes; males, young and where they live.",
+  "h1": "Black Widow Spiders: How to Identify Them, Where They Live and Look-Alikes",
+  "dek": "Real photos of the southern, northern and western black widows and Florida's red widow. The males and young that look nothing like the females, where each one lives, their tangled webs and the spiders mistaken for them.",
+  "breadcrumb": "Black Widow Spiders",
+  "excerpt": "How to identify a black widow spider: the hourglass, the three US species, males and young, where they live and hide, their webs, and the look-alikes.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A black widow is a shiny black spider with a big, round abdomen and a red or orange hourglass on its underside, often hanging upside down in a messy, tangled web close to the ground.** That is the adult female [UC IPM describes](https://ipm.ucanr.edu/home-and-landscape/spiders/); males, young widows and each of the three US species vary the pattern.",
+    "bullets": [
+      "Adult females measure about 3/8 to 1/2 inch long without their legs, by the figures of the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/black-widow-spiders) and UC IPM; males are less than half that size.",
+      "The southern black widow has a complete hourglass, the northern a broken one with red spots down the back, and the western, the only black widow in the western US, one that varies in shape, per MDC and [UC IPM's widow Pest Note](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/).",
+      "Males and young widows are much smaller and often more colorful, with red and white markings, says [Clemson Cooperative Extension](https://hgic.clemson.edu/factsheet/widow-spiders/).",
+      "Black widows live throughout North America, most commonly in the South and West, says [CDC](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html), and turn up around woodpiles, sheds, garages and meter boxes.",
+      "The venom is a neurotoxin, and [MedlinePlus](https://medlineplus.gov/ency/article/002858.htm) says to seek medical help right away after a bite; death in a healthy person is very rare."
+    ]
+  },
+  "facts": {
+    "title": "Black widow or look-alike? Quick ID",
+    "head": ["Spider", "Body length", "What to look for", "Where you find it"],
+    "rows": [
+      ["Southern black widow, female", "About 5/16 to 1/2 inch (8 to 13 mm)", "Shiny black; complete red hourglass underneath; often a red spot above the spinnerets", "Woodpiles, stumps, rodent holes, dark corners of garages and barns"],
+      ["Northern black widow, female", "Just under 1/2 inch", "Hourglass broken in two; usually a row of red spots down the back", "Open woods; north Florida to southeastern Canada"],
+      ["Western black widow, female", "About 1/2 inch (13 mm)", "Jet black; red hourglass that varies in shape and is rarely missing", "Holes, crevices and clutter around homes; by garage doors and vents"],
+      ["Black widow male", "Less than half the female's size", "Long legs, pale stripes, faint red or white spots on top", "Usually seen visiting a female's web"],
+      ["Young black widow", "Grows with each molt", "Tan or olive-gray with white stripes and black dots, darkening as it grows", "Spreads out from the egg sac in spring"],
+      ["Red widow, female", "Florida's widows: 5/16 to 5/8 inch (8 to 15 mm)", "Reddish-orange head, thorax and legs; black abdomen; no full hourglass", "Sand pine scrub in central and southern Florida"],
+      ["Brown widow, female", "About 3/8 inch (10 mm)", "Mottled tan, brown or gray; orange hourglass; knobby egg sacs", "Patio furniture, chain-link fences, clutter; the Southeast and Southern California"],
+      ["False black widow", "About 3/8 inch (10 mm)", "Round like a widow, but chocolate brown and never red underneath", "Indoors in cupboards and under appliances, especially on the Pacific Coast"],
+      ["Common house spider", "About 3/16 to 1/4 inch (5 to 6 mm)", "Dirty-white to brown abdomen with gray chevrons; yellow legs ringed in dark", "Corners of walls and windows; damp basements and crawl spaces"],
+      ["Johnson's jumping spider", "1/4 to 1/2 inch", "Female black with red on top of the abdomen, not underneath", "On plants or the ground, hunting by day without a web"],
+      ["Bold jumping spider", "Females 1/4 to 3/4 inch", "Fuzzy and black, with white, orange or red spots on top", "Siding, fences, tree trunks and plants; builds no web"]
+    ],
+    "caption": "Widows: MDC, UC IPM, UF/IFAS Extension, Penn State, Utah State, Clemson and FDACS. Look-alikes: UC IPM, Penn State and MDC. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a black widow spider look like?" },
+    { "type": "p", "text": "An adult female black widow is glossy black, with a large, round abdomen and a red or orange hourglass on its underside. [UC IPM's Pest Note on spiders](https://ipm.ucanr.edu/home-and-landscape/spiders/) describes that shiny black body and the slender black legs. Because the hourglass is underneath, it often does not show from above: the [Missouri Department of Conservation's field guide](https://mdc.mo.gov/discover-nature/field-guide/black-widow-spiders) (MDC) says markings on the top of the abdomen are only sometimes present." },
+    { "type": "figure", "src": "/guides/photos/black-widow.webp", "width": 1200, "height": 807, "alt": "Glossy black female spider hanging upside down from a twig, a bright red hourglass mark on the underside of her round abdomen", "caption": "A female southern black widow spinning her web on a branch, in a CDC photograph. The red hourglass under her round abdomen is the mark to look for.", "license": "public-domain", "credit": "CDC/ Paula Smith; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9854" },
+    { "type": "p", "text": "Females measure about 3/8 to 1/2 inch long, not counting the legs. MDC gives about 3/8 inch, and UC IPM's [Pest Note on widow spiders and their relatives](https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/) about 1/2 inch (13 mm) for the western black widow. With legs extended, [Penn State Extension](https://extension.psu.edu/southern-black-widow-spider) measures the southern black widow at 25 to 35 mm, about 1 to 1 3/8 inches across." },
+    { "type": "p", "text": "The hourglass itself varies. UC IPM says it differs in shape from one western black widow to the next and on rare occasions is missing, and that a very well-fed female, her abdomen stretched, can look brownish or plum-colored. Black widows belong to the cobweb spider family, Theridiidae, MDC notes, and several of the look-alikes further down are relatives." },
+
+    { "type": "h2", "text": "How do you tell the southern, northern and western black widows apart?" },
+    { "type": "p", "text": "Look at the hourglass, the marks on the back and where you live. The United States has three black widows: the southern (*Latrodectus mactans*) and the northern (*Latrodectus variolus*), both described by MDC, and the western (*Latrodectus hesperus*), the only black widow in the western states, UC IPM says. Florida adds a red widow, one of four widows the [Florida Department of Agriculture and Consumer Services](https://www.fdacs.gov/Consumer-Resources/Health-and-Safety/Venomous-Spiders-in-Florida) (FDACS) lists for the state." },
+    { "type": "p", "text": "On the southern black widow, MDC says, the two halves of the hourglass are joined. [UF/IFAS Extension in Leon County, Florida](https://blogs.ifas.ufl.edu/leonco/2014/10/31/black-widow/) adds a red spot just behind and above the spinnerets, at the tip of the abdomen, and gives her length as about 1/2 inch without legs." },
+    { "type": "figure", "src": "/guides/photos/northern-black-widow.webp", "width": 1200, "height": 1134, "alt": "Glossy black spider with two red marks on its round abdomen, seen through clear plastic against a blue sky and green trees", "caption": "A female northern black widow that the observer found under steps in Sister Bay, Wisconsin. MDC says this species has a broken hourglass and usually a row of red spots down the back.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/314473590" },
+    { "type": "p", "text": "The northern black widow is the one most likely to show red on top. MDC describes her hourglass as broken in two, usually with a row of red spots down the back and sometimes diagonal whitish marks on the sides, and Clemson says red or orange spots and white markings can appear on top. UF/IFAS Extension puts her at just under 1/2 inch without legs." },
+    { "type": "figure", "src": "/guides/photos/western-black-widow.webp", "width": 1200, "height": 1200, "alt": "Shiny black spider with long, thin legs hanging in a tangled web against a pale gray surface, an orange-red hourglass on its belly", "caption": "A female western black widow in her web in Berkeley, California, where the observer saw many widows building webs in road barriers and fences. On this species the hourglass varies in shape, UC IPM says.", "license": "CC-BY-4.0", "credit": "(c) Ken-ichi Ueda, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/193" },
+    { "type": "p", "text": "The western black widow is shiny jet black over her body and legs, UC IPM says, and as the only black widow species in the western states she needs no sorting by her marks there. The one other widow UC IPM lists for California is the introduced brown widow, covered with the look-alikes below." },
+    { "type": "h3", "text": "Florida's red widow" },
+    { "type": "p", "text": "The red widow (*Latrodectus bishopi*) is a Florida spider. UF/IFAS Extension describes a reddish-orange head, thorax and legs above a black abdomen, usually with one or two small marks instead of an hourglass. It is uncommon and lives mainly in the sand pine habitats of central and southern Florida, from Marion to Martin County, with webs low to the ground in and around palmettos, rosemary and scrub oaks." },
+    { "type": "figure", "src": "/guides/photos/red-widow.webp", "width": 1200, "height": 1600, "alt": "Spider with reddish-orange legs and front body and a glossy black abdomen marked with red spots ringed in yellow, resting on a person's finger", "caption": "A female red widow photographed on a person's finger in Jonathan Dickinson State Park, Florida. Widows should not be handled; look for the reddish-orange legs, head and thorax.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/220037947" },
+
+    { "type": "h2", "text": "What do male and young black widows look like?" },
+    { "type": "p", "text": "Smaller and striped. MDC says males are less than half the female's size, usually with faint red or white spots on top of the abdomen. UC IPM says a mature male keeps a juvenile pattern, a stripe down the abdomen and diagonal stripes on each side, on legs sometimes almost as long as a female's, and [Utah State University Extension](https://extension.usu.edu/planthealth/ipm/notes_nuisance/black-widow) describes males as pale brown with white markings. Males do not build webs to catch prey, MDC adds; they are usually seen visiting a female in hers." },
+    { "type": "media", "needed": "Adult male black widow from above beside a ruler marked in inches, showing the small body, long legs and the pale stripes and red or white spots on the abdomen; identified by an expert; public domain or CC0" },
+    { "type": "p", "text": "Young widows change color as they grow. UC IPM says newly hatched spiderlings have tan legs and a tan front body with a mostly white abdomen marked with a few black spots. The abdomen then turns olive-gray or tan with white stripes and black dots, females darken toward black with each molt, and the hourglass starts as a whitish shield that turns yellow, then orange-red. Clemson describes black widow spiderlings as orange, brown and white." },
+    { "type": "media", "needed": "Juvenile black widow in its web showing the tan or olive-gray abdomen with white stripes and black dots, ideally beside a ruler marked in inches, identified to species by an expert" },
+    { "type": "p", "text": "A small, shiny spider with a round abdomen and white or red marks may therefore be a young or male widow; [the guide to black spiders with white spots](/blog/black-spiders) sorts those from look-alike jumping spiders. Almost all medically important black widow bites come from adult females, UC IPM says, but treat any spider with widow markings as a widow and leave it alone." },
+
+    { "type": "h2", "text": "Where do black widows live?" },
+    { "type": "p", "text": "Across North America, most commonly in the South and West, says [CDC's guidance on venomous spiders at work](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html); [MedlinePlus](https://medlineplus.gov/ency/article/002858.htm), from the National Library of Medicine, also puts them mostly in the South and West. None of the agency or university sources here maps each species state by state, so the table gives each widow's range as they describe it." },
+    { "type": "table", "head": ["Widow", "Where it lives", "Local notes"], "rows": [
+      ["Southern black widow", "New York south to Florida, west to Texas, Oklahoma and Kansas", "Statewide in Missouri (MDC) and South Carolina (Clemson); also in Pennsylvania (Penn State)"],
+      ["Northern black widow", "North Florida to southeastern Canada", "Open woods in Missouri (MDC); mainly the Piedmont and Upstate of South Carolina (Clemson)"],
+      ["Western black widow", "British Columbia and Alberta to Mexico, east to the western Great Plains", "The only black widow in the western US; common in urban Colorado, central and eastern Washington and populated California (UC IPM)"],
+      ["Red widow", "Central and southern Florida", "Mainly sand pine habitats, Marion to Martin County (UF/IFAS Extension)"],
+      ["Brown widow (introduced)", "Florida to Georgia and South Carolina; seen in Alabama, Mississippi and Texas; established in Southern California", "Statewide in South Carolina, densest on the coast (Clemson)"]
+    ], "caption": "Ranges: UF/IFAS Extension Leon County and UC IPM. Local notes: MDC, Clemson, Penn State and UC IPM." },
+    { "type": "p", "text": "Range edges can shift. In a 2018 [PLOS ONE study](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201094) of museum specimens and citizen-science sightings, the northernmost northern black widow record from 1990 to 2016 lay 94 km (58 miles) north of the northernmost from 1960 to 1989, both in Canada, though the authors could not confirm a shift statistically. Penn State notes that brown and red widows occasionally reach Pennsylvania on potted plants from southern Florida." },
+    { "type": "p", "text": "To see which widows share your state with the recluse spiders, use [the guide to venomous spiders by state](/blog/venomous-spiders). State guides cover the widows among [spiders in California](/blog/spiders-in-california), [Texas spiders](/blog/spiders-in-texas) and [Florida's spiders](/blog/spiders-in-florida)." },
+
+    { "type": "h2", "text": "Where do people find black widows around the house?" },
+    { "type": "p", "text": "In low, dark, undisturbed spots just outside the living space. CDC names woodpiles, eaves, fences and debris piles; MedlinePlus adds barns, sheds, stone walls and porch furniture; and FDACS says widows turn up most often in outbuildings, water meter holes, nursery containers and under anything left undisturbed for a long time, such as a barbecue grill, a slide or a sandbox." },
+    { "type": "ul", "items": [
+      "**Garages and sheds.** UC IPM says garage widows build by doors, near vents and wherever insects pass; Penn State names the dark corners of barns and garages.",
+      "**Woodpiles, rocks and foundations.** Utah State lists foundations, rock piles, woodpiles and outbuildings; Penn State adds stumps and empty rodent holes.",
+      "**Meter and irrigation boxes.** Utah State names water meter and irrigation boxes, and Clemson names utility and irrigation boxes, empty containers, crawl spaces and basements.",
+      "**Yard furniture and toys.** UC IPM advises checking molded plastic toys and playhouses, picnic tables, trash can grips, lawn chairs and plant pots with curled lips.",
+      "**Near outdoor lights.** Utah State finds them around exterior lighting, which UC IPM says draws the insects that attract spiders."
+    ] },
+    { "type": "figure", "src": "/guides/photos/northern-black-widow-egg-sac.webp", "width": 1200, "height": 1600, "alt": "Black widow with a small red spot on top of its round abdomen standing on a gray stone block in front of a round tan egg sac, web strands behind", "caption": "A female northern black widow on a stone or concrete block in Maryland, in front of her round, tan egg sac, with a red mark on top of her abdomen. Clemson describes northern black widow sacs as round and tan to grayish.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/292913939" },
+    { "type": "p", "text": "Inside the living space they are uncommon: UC IPM says black widows can turn up in homes but typically nest outside, in holes, crevices and clutter, because a home rarely holds enough insects to feed them. Bites come from contact. FDACS says most now happen when a widow is trapped against skin, as someone reaches under an object where one hides or puts on clothing, gloves or shoes with a spider inside." },
+    { "type": "figure", "src": "/guides/photos/western-black-widow-egg-sacs.webp", "width": 1200, "height": 1200, "alt": "Glossy black widow hanging upside down beside two cream-colored egg sacs in a dusty corner, a red hourglass showing under its abdomen", "caption": "An adult western black widow hanging beside two papery egg sacs in a corner in Riverside, California, its red hourglass showing. UC IPM describes this species' sacs as teardrop-shaped, with a very tough covering.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/309876963" },
+    { "type": "media", "needed": "A black widow's tangled web where homeowners meet it, with the spider visible: in a woodpile, a garage corner by the door, inside a water meter box or under outdoor furniture" },
+
+    { "type": "h2", "text": "What does a black widow web look like?" },
+    { "type": "p", "text": "A messy, three-dimensional tangle, not a neat web of circles. FDACS describes a tangled web, often with a cone-shaped tent of dense silk in a corner where the spider hides by day. MDC calls it irregular and rather tangled, with a tiny funnel to retreat into, and its silk sticky and distinctively strong, and UC IPM says the web is usually within 3 feet of the ground." },
+    { "type": "p", "text": "Black widows hunt at night: FDACS calls widows nocturnal, Utah State says they hide by day, and Clemson says widows often hang upside down in the web. MDC says their prey includes flying and climbing insects caught in the web, and that they have been known to kill small lizards and small snakes." },
+    { "type": "p", "text": "A tangled cobweb alone does not prove a widow. UC IPM says the common house spider builds one in the corners of rooms and windows and the marbled cellar spider leaves messy cobwebs; see [house spider identification](/blog/house-spiders) and [the guide to cellar spiders](/blog/daddy-long-legs). A web spun in concentric circles, UC IPM says, belongs to an orb weaver, and [orb weaver identification](/blog/orb-weaver-spiders) shows them." },
+    { "type": "h3", "text": "Egg sacs in the web" },
+    { "type": "p", "text": "Round or teardrop-shaped sacs in the tangle are egg sacs. Clemson describes southern and northern black widow sacs as round and tan to grayish, with a single small point, and UC IPM the western's as yellowish, teardrop-shaped and very tough. Penn State says a southern female may make up to nine, each about 1/2 inch across with 200 to 800 eggs. [The guide to spider egg sacs](/blog/spider-egg-sacs) compares them with other spiders' sacs." },
+
+    { "type": "h2", "text": "Which spiders look like black widows?" },
+    { "type": "p", "text": "Mostly other cobweb spiders and a few jumping spiders. MDC's list of spiders similar to the black widow includes the common house spider, the bold jumper, several orb weavers and the [brown recluse](/blog/brown-recluse), and UC IPM adds the false widows. Check the underside, the color and the web together, and if you are still unsure, treat the spider as a widow." },
+    { "type": "h3", "text": "False black widow" },
+    { "type": "p", "text": "The false black widow (*Steatoda grossa*) is the usual indoor mix-up. UC IPM says it is not a true widow but belongs to the same family; it is about 3/8 inch (10 mm) long, chocolate brown and never red underneath, and it thrives indoors in bathrooms, cupboards and under appliances, especially in homes along the Pacific Coast. Its bite may cause burning pain and minor swelling, like a yellowjacket sting, UC IPM says. [The false widow guide](/blog/false-widow-spiders) covers it and its relatives." },
+    { "type": "h3", "text": "Brown widow" },
+    { "type": "p", "text": "The brown widow (*Latrodectus geometricus*) is a true widow, but tan rather than black. UC IPM describes mature females as about 3/8 inch (10 mm) and mottled tan, brown and gray, though individuals range from almost white to nearly black, and Clemson says the hourglass is usually orange or red-orange. The egg sac gives it away: UC IPM likens its knobby surface to a large pollen grain, while Clemson describes a black widow's sac as having a single small point." },
+    { "type": "figure", "src": "/guides/photos/brown-widow-hourglass.webp", "width": 1200, "height": 1822, "alt": "Underside of a tan-brown spider with banded legs hanging in its web, a bright orange hourglass on its round abdomen", "caption": "The underside of a female brown widow in her web, showing the orange hourglass, in a CDC photograph. Clemson says the brown widow's hourglass is usually orange or red-orange.", "license": "public-domain", "credit": "Dr. H.W. Levi; photo: H. Campbell (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=20850" },
+    { "type": "p", "text": "UC IPM finds brown widows outdoors in clutter, on chain-link fences and under plastic patio furniture, and rarely in homes or garages. Its venom is at least as potent as a black widow's, but the spider likely injects less and its bites are generally much milder, though UC IPM records one severe US case that needed hospital care. [The brown widow guide](/blog/brown-widow-spiders) covers it in full." },
+    { "type": "h3", "text": "Common house spider" },
+    { "type": "p", "text": "The common house spider (*Parasteatoda tepidariorum*) shares the round abdomen and tangled web but is smaller and drab. [Penn State Extension's common house spider page](https://extension.psu.edu/common-house-spider) gives females as 5 to 6 mm (about 3/16 to 1/4 inch), with a dirty-white to brown abdomen marked with gray chevrons and yellow legs ringed with dark bands, building webs in the corners of walls and windows. Penn State does not regard it as medically important and says it does not often bite people." },
+    { "type": "h3", "text": "Red-and-black jumping spiders" },
+    { "type": "p", "text": "Jumping spiders with red on their backs cause the other common scare. UC IPM describes Johnson's jumping spider as a red-and-black species 1/4 to 1/2 inch long, the females black with red on top of the abdomen; it may bite if disturbed, but the bites are usually not serious. MDC says the [bold jumper](https://mdc.mo.gov/discover-nature/field-guide/bold-jumper) is fuzzy and usually black with white spots that can be orange or red, jumps long distances and builds no web. A widow's hourglass is underneath, and a widow hangs in a tangled web; [the jumping spider guide](/blog/jumping-spiders) shows both jumpers." },
+    { "type": "confused", "items": [
+      { "href": "/blog/false-widow-spiders", "name": "False black widow", "photo": "false-black-widow", "note": "Same round shape, but chocolate brown and never red underneath; often indoors", "alt": "Dark reddish-brown false black widow with a glossy, round abdomen on bark" },
+      { "href": "/blog/brown-widow-spiders", "name": "Brown widow", "photo": "brown-widow-spider", "note": "Mottled tan to gray, with an orange hourglass and knobby, pointed egg sacs", "alt": "Brown widow with a mottled cream-and-tan abdomen and banded legs in its web" },
+      { "href": "/blog/house-spiders", "name": "Common house spider", "photo": "common-house-spider", "note": "Smaller and drab: dirty-white to brown abdomen, yellow legs ringed in dark", "alt": "Common house spider with a speckled gray-brown round abdomen and banded legs" },
+      { "href": "/blog/jumping-spiders", "name": "Johnson's jumping spider", "photo": "johnson-jumping-spider", "note": "Red on top of the abdomen, not underneath; hunts by day without a web", "alt": "Black jumping spider with a red-orange abdomen marked in black, on a grass blade" },
+      { "href": "/blog/black-spiders", "name": "Bold jumping spider", "photo": "bold-jumping-spider", "note": "Fuzzy, with white, orange or red spots on top; jumps and builds no web", "alt": "Fuzzy black bold jumping spider with green iridescent jaws on a leaf" }
+    ] },
+
+    { "type": "h2", "text": "Are black widows dangerous?" },
+    { "type": "p", "text": "Their bite can be, but bites are uncommon. CDC says black widow venom is a neurotoxin that causes pain at the bite, which then spreads to the chest, abdomen or whole body. UC IPM calls bites quite rare, even where the spiders are very common, and MDC says black widows are timid and usually flee but will bite if provoked. MedlinePlus says to seek medical help right away and calls death in a healthy person very rare, though young children, very ill people and older people may not survive a bite. In [a review of over 15,000 black widow exposures reported to US poison centers](https://www.poison.org/articles/black-widow-spiders), Poison Control reports no deaths and hospital admission in about 10 percent. [The black widow bite guide](/blog/black-widow-bite) covers symptoms and care." },
+    { "type": "callout", "tone": "warning", "title": "If a black widow bites", "text": "MedlinePlus says black widow bites are very toxic: seek medical help right away, and call your local emergency number or the Poison Help line at 1-800-222-1222. CDC advises washing the bite with soap and water and identifying the spider only if it is safe to do so; Clemson suggests photographing it rather than trying to catch it." },
+
+    { "type": "h2", "text": "What should you do if you find a black widow?" },
+    { "type": "p", "text": "Do not touch it, and make the spot less inviting. Even after a bite, CDC advises identifying the spider only if you can do so safely, and Clemson suggests photographing it rather than trying to collect it, which could lead to another bite. Then work through these steps from CDC, UC IPM, Clemson and Utah State:" },
+    { "type": "ul", "items": [
+      "**Wear gloves.** UC IPM advises gloves when clearing clutter in garages and storage areas, Clemson for firewood and utility boxes, and CDC gloves, long sleeves and long pants for moving stacked materials.",
+      "**Shake things out.** CDC advises shaking out clothing, shoes, towels and equipment before use and storing outdoor gear in tightly closed plastic bags.",
+      "**Clear hiding places.** UC IPM calls cutting back clutter, woodpiles and heavy ground cover essential, and Utah State adds sealing exterior cracks.",
+      "**Vacuum webs and egg sacs.** Clemson suggests vacuuming the spiders and egg sacs carefully, then sealing the bag in plastic for an outdoor trash bin.",
+      "**Keep at it.** UC IPM says insecticides do not provide long-term control and new spiderlings keep arriving."
+    ] },
+    { "type": "p", "text": "[Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) covers sealing gaps and vacuuming, and [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) covers control. Not sure it is a widow? The [spider identifier](/tools/spider-identifier) asks where you found it and about its web, size and markings, then suggests matches with real photos, and [more pest identification guides](/learn) cover other household bugs." },
+    { "type": "callout", "tone": "tip", "title": "Get it identified safely", "text": "Photograph the spider from above and, if you can see it, from the side to show the underside, with a ruler marked in inches laid nearby, without touching the spider or its web. Your state's cooperative extension office can help identify it from the photos." }
+  ],
+  "faqs": [
+    {
+      "question": "Do all black widows have a red hourglass?",
+      "answer": "Not all of them, and not always a complete one. The Missouri Department of Conservation says the southern black widow's hourglass is joined in the middle while the northern black widow's is broken in two, and UC IPM says the western black widow's hourglass varies in shape and is on rare occasions missing. Florida's red widow usually has one or two small marks instead, according to UF/IFAS Extension. Males and young widows carry stripes and spots rather than the adult female's pattern, so a missing hourglass does not rule out a widow."
+    },
+    {
+      "question": "What does a male black widow look like?",
+      "answer": "A male black widow is much smaller than the female and looks more like a young widow. The Missouri Department of Conservation says males are less than half the female's size, usually with faint red or white spots on top of the abdomen, and Utah State University Extension describes them as pale brown with white markings. UC IPM says a mature male keeps a stripe down the abdomen and diagonal stripes on each side, on long legs. Males are usually seen only when visiting a female in her web."
+    },
+    {
+      "question": "How big is a black widow spider?",
+      "answer": "An adult female's body is about 3/8 to 1/2 inch long, not counting the legs. The Missouri Department of Conservation gives about 3/8 inch, and UC IPM about 1/2 inch for the western black widow. With its legs spread, Penn State Extension measures the southern black widow at 25 to 35 mm, about 1 to 1 3/8 inches. Males are far smaller: less than half the female's size, the Missouri Department of Conservation says, and 4 to 6 mm, about 1/4 inch or less, by Penn State's figures."
+    },
+    {
+      "question": "Are there black widows in every state?",
+      "answer": "Black widows are widespread, but none of the sources on this page lists every state. CDC says they live throughout North America and are most common in the southern and western United States. UF/IFAS Extension says the southern black widow ranges from New York to Florida and west to Texas, Oklahoma and Kansas, and the northern from north Florida into southeastern Canada, while UC IPM says the western black widow is the only species in the western states. Treat any shiny black spider with red markings as a possible widow wherever you live."
+    },
+    {
+      "question": "Do black widows live in houses?",
+      "answer": "Usually not in the living space. UC IPM says black widows can be found in homes but typically nest outside, in holes, crevices and clutter around the house, and that most homes hold too few insects to feed them. Garages, sheds, barns, crawl spaces and basements are more likely spots, according to UC IPM, Clemson Cooperative Extension and the Florida Department of Agriculture. A shiny, dark spider with a round abdomen in a cupboard or under an appliance is more likely a false black widow, which UC IPM says thrives indoors and is never red underneath."
+    },
+    {
+      "question": "What does a black widow web look like?",
+      "answer": "A black widow web is an irregular, three-dimensional tangle, not a round web spun in circles. The Florida Department of Agriculture describes a tangled web, often with a cone-shaped retreat of dense silk in a corner where the spider hides during the day, and the Missouri Department of Conservation calls the silk sticky and distinctively strong. UC IPM says the web is usually within 3 feet of the ground. Clemson Cooperative Extension says widows often hang upside down in their webs."
+    },
+    {
+      "question": "What spider looks like a black widow but isn't?",
+      "answer": "The false black widow is the most common mix-up: UC IPM describes the same round abdomen, but chocolate brown and never red underneath, and says it often lives indoors. The common house spider is smaller and drab, with a dirty-white to brown abdomen, according to Penn State Extension. Johnson's jumping spider and the bold jumper can be black with red on top, but they hunt without a web. The brown widow is a true widow, tan to gray with an orange hourglass, so treat it with the same care."
+    },
+    {
+      "question": "Are black widow spiders aggressive?",
+      "answer": "No. The Missouri Department of Conservation describes black widows as timid spiders that usually flee when disturbed but will bite if provoked, and the Florida Department of Agriculture says widows bite only in self-defense when they accidentally contact people. Most bites now happen when a spider is pressed against skin, as someone reaches under an object where one is hiding or puts on clothing, gloves or shoes with a spider inside, the department says. UC IPM calls bites quite rare, even where the spiders are very common."
+    },
+    {
+      "question": "Why are they called black widows?",
+      "answer": "Because the female often eats the male, according to the Missouri Department of Conservation, which says the male is often killed and eaten by the female right after mating, the habit that gave these spiders their common name. By that sacrifice, the department adds, the male in effect helps feed his future offspring. Males are much smaller than females and do not build webs to catch prey; they are usually seen only when they visit a female in her web."
+    },
+    {
+      "question": "Do black widows die in the winter?",
+      "answer": "In cold climates the adults do. The Missouri Department of Conservation says adult black widows are killed by the first freezes, while the egg sacs survive the winter and the young emerge in spring. Where winters are mild, adults last longer: Clemson Cooperative Extension says adults of all three widow species in South Carolina can be found year-round. Penn State Extension adds that the female guards her eggs during the summer months, when most widow bites occur."
+    }
+  ],
+  "sources": [
+    { "title": "Widow Spiders and Their Relatives (Pest Notes Publication 74149)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/widow-spiders-and-their-relatives/" },
+    { "title": "Pest Notes: Spiders (UC ANR Publication 7442)", "publisher": "University of California Statewide IPM Program (R. S. Vetter, UC Riverside)", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Black Widow Spiders", "publisher": "Missouri Department of Conservation, Field Guide", "url": "https://mdc.mo.gov/discover-nature/field-guide/black-widow-spiders" },
+    { "title": "Bold Jumper", "publisher": "Missouri Department of Conservation, Field Guide", "url": "https://mdc.mo.gov/discover-nature/field-guide/bold-jumper" },
+    { "title": "Venomous Spiders at Work", "publisher": "Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Black widow spider (Medical Encyclopedia)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/ency/article/002858.htm" },
+    { "title": "How dangerous is a black widow spider bite?", "publisher": "Poison Control, National Capital Poison Center", "url": "https://www.poison.org/articles/black-widow-spiders" },
+    { "title": "Widow Spiders in South Carolina (HGIC 2518)", "publisher": "Clemson Cooperative Extension, Home and Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/widow-spiders/" },
+    { "title": "Southern Black Widow Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/southern-black-widow-spider" },
+    { "title": "Common House Spider", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/common-house-spider" },
+    { "title": "Black Widow Spider (Utah Pests Urban Pest Guide)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/black-widow" },
+    { "title": "Venomous Spiders in Florida", "publisher": "Florida Department of Agriculture and Consumer Services", "url": "https://www.fdacs.gov/Consumer-Resources/Health-and-Safety/Venomous-Spiders-in-Florida" },
+    { "title": "Black Widow (2014, updated 2021)", "publisher": "UF/IFAS Extension Leon County, University of Florida", "url": "https://blogs.ifas.ufl.edu/leonco/2014/10/31/black-widow/" },
+    { "title": "Predicting the distribution of poorly-documented species, Northern black widow (Latrodectus variolus) and Black purse-web spider (Sphodros niger), using museum specimens and citizen science data (2018)", "publisher": "PLOS ONE (Y. Wang, N. Casajus, C. Buddle, D. Berteaux and M. Larrivée)", "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201094" }
+  ],
+  "disclaimer": "health"
+}

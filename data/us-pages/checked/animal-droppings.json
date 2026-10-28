@@ -2,7 +2,7 @@
  "id": "animal-droppings",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "92d8ae44d4e636c4791bb8449025d3a5f21cc5e629864f22363e1ae77f9a5b7d",
+ "sha": "accffddf4a1f5fbc21243fd704b68412bdf38c281ac5bfa881ed3fb15ed592d0",
  "claimsChecked": 223,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 6,
@@ -22,6 +22,11 @@
    "on": "2026-10-25",
    "note": "Oct 25: two navigation links added (/blog/deer-poop after the WSU pellet sentence, /blog/possum-vs-opossum after the possum poop link); no new claims",
    "previousSha": "632cde54bfa83d1f5557b525d627b55116882d431870ce973e0eb2a8a697e544"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28: one sentence links the new rabbit poop guide after the rabbit vs deer line (WSU); no fact changed",
+   "previousSha": "92d8ae44d4e636c4791bb8449025d3a5f21cc5e629864f22363e1ae77f9a5b7d"
   }
  ]
 }

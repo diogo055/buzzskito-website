@@ -1,0 +1,10 @@
+{
+ "id": "black-widow-bite",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "bf771b5ed21ab636ddb291f61f08c30f3d24c68dc692344002a5c09b6f9f8f7a",
+ "claimsChecked": 290,
+ "claimsCorrected": 1,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-28"
+}

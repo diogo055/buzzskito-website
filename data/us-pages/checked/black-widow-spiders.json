@@ -1,0 +1,10 @@
+{
+ "id": "black-widow-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3fd866cd4d7248d879fc8fd7de9923999f8804a0c62bb0771c2bfe7e34485ba8",
+ "claimsChecked": 290,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-28"
+}

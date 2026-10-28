@@ -1,0 +1,355 @@
+{
+ "_readme": "Scout notes for the fourteenth photo batch (Oct 28, 2026): Google Images wave 2, eight ant pages (army-ants, bullet-ants, honeypot-ants, what-do-ants-eat, borax-for-ants, tiny-ants, do-carpenter-ants-bite, learn/ant-killer-recipes). Chosen for what image searchers want to see: the ant up close or beside a scale (pen tip, coin, scale bar, ruler, fingertips, lined paper), where people meet it (kitchen counters, a dirty plate, a kitchen window, a house floor, a parking lot, a tree branch, a nest dug up beside a balcony), castes (repletes, a winged male, a queen, big-headed majors) and signs and food (trails, bait, sugar water, honey, peanut butter, sausage, aphids, seeds, a fungus garden, a board the ants hollowed out). Same format as batches 7 to 12: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages; learn/<slug> for the Learning Centre), confidence in the identification, whether it can be a page's lead/share image (leadEligible: true only for public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. 36 photos were added with no script change beyond the 36 PHOTOS rows (and two subject lines corrected the same day, before any page used them): 1 public domain, 15 CC0, 9 CC BY 4.0, 3 CC BY 2.0, 1 CC BY 2.5, 1 CC BY 3.0, 3 CC BY-SA 2.0, 1 CC BY-SA 3.0, 2 CC BY-SA 4.0 (counted from photos.json). Identifications: every iNaturalist photo is research grade with at least one identifier besides the observer (named below); the Commons photos rest on their uploader or on the photo's own published caption (Alex Wild and Insects Unlocked for Eciton and Atta, the Oakland and Cincinnati zoo exhibits for the honeypot ants), and the ones that rest on an uploader alone say so in caveats and captions. Every image was looked at on a contact sheet before choosing and again after conversion, and shows what its subject line says. The ledger change is additive (527 records before this batch's run, 563 after, none lost; a second run changed only this batch's two corrected subject lines). The Insects Unlocked fungus-garden photo had its black caption strip cropped (bottom 9%, measured at 8.4%). No page or lib file was edited in this batch besides the eight ant guides.",
+ "candidates": [
+  {
+   "id": "eciton-burchellii-army-ants",
+   "forPages": ["army-ants"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons 'Eciton burchellii army ants.jpg', own work by Alex Wild (myrmecologist and insect photographer), dated 2009-04-06, CC0, description 'Eciton burchellii army ants'. Category Eciton burchellii.",
+   "caveats": "Dark workers of several sizes and one much larger ant with a pale head and long curved jaws on pinkish soil. The record does not name castes or a place: say workers of different sizes, not soldier, and give no location. Small file (800 x 600).",
+   "note": "Credit: Alex Wild, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 800x600."
+  },
+  {
+   "id": "army-ant-bivouac",
+   "forPages": ["army-ants"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Bivouac of army ants (9372570529).jpg' from Pavel Kirillov's Flickr, Costa Rica, 2013-07-04, description 'Bivouac of army ants'. Category Unidentified ant nests.",
+   "caveats": "A dense mass of reddish-brown ants in the forest. The species is not recorded: do not call it Eciton burchellii; the page's bivouac facts can be attributed to Animal Diversity Web for that species only. Does not satisfy the page's media placeholder (an Eciton bivouac with a raid column), which stays.",
+   "note": "Credit: Pavel Kirillov from St.Petersburg, Russia, CC BY-SA 2.0, via Wikimedia Commons. Licence: CC-BY-SA-2.0. Size: 1200x1807 (365 KB, over the script's size target at its lowest quality)."
+  },
+  {
+   "id": "driver-ant-dorylus-uganda",
+   "forPages": ["army-ants"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Army Ant (Dorylus sp.) (8537302562).jpg' from Bernard Dupont's Flickr, Mabira Forest, Uganda, 2008-09-25. Category Unidentified Dorylus.",
+   "caveats": "Close-up of a dark ant with long sickle-shaped jaws. Identified only to genus by the photographer: say a driver ant of the genus Dorylus, not a species, and not soldier.",
+   "note": "Credit: Bernard DUPONT from FRANCE, CC BY-SA 2.0, via Wikimedia Commons. Licence: CC-BY-SA-2.0. Size: 1200x900."
+  },
+  {
+   "id": "neivamyrmex-workers-parking-lot",
+   "forPages": ["army-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 184963505, Santa Cruz County, Arizona, 2023-09-22, by Jake Nitta (froggy143; about 38,000 identifications). Observer's note: 'A very large emigration trail through the parking lot.' Neivamyrmex nigrescens, agreed by didobola (about 154,000 identifications), arman_ (about 204,000) and arthropodantics. Photo 1 of 2.",
+   "caveats": "Several reddish-brown workers close up on gravelly pavement. The parking lot and emigration trail are the observer's words. No scale object.",
+   "note": "Credit: (c) Jake Nitta, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "neivamyrmex-male-blacklight",
+   "forPages": ["army-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 180666122, Maricopa County, Arizona, 2023-08-27, by Jake Nitta (froggy143). Observer's note: 'Attracted to a blacklight.' Neivamyrmex swainsonii, agreed by didobola and arthropodantics; annotated Sex = Male.",
+   "caveats": "A hairy orange-brown winged male held between fingertips on a black background. Not N. nigrescens: the page's Tennessee male facts are general (winged, wasp-like, drawn to lights), so caption it as another native army ant.",
+   "note": "Credit: (c) Jake Nitta, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "eciton-raid-wasp-larvae",
+   "forPages": ["army-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Flickr - ggallice - Spoils of the raid.jpg' from Geoff Gallice's Flickr, 2011-10-05: 'Army ants (Formicidae: Eciton burchellii) with larvae of a raided wasp nest, La Selva Biological Station, Heredia, Costa Rica.' Category Eciton burchellii.",
+   "caveats": "A column of black-and-orange workers carrying white larvae on bare soil. The larvae are wasp larvae by the photographer's caption. No antbird: the page's raid placeholder (swarm front with an antbird) stays.",
+   "note": "Credit: Geoff Gallice from Gainesville, FL, USA, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x800."
+  },
+  {
+   "id": "bullet-ant-on-leaf",
+   "forPages": ["bullet-ants"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 98828052, Eloy Alfaro, Ecuador, 2021-09-24, by Philipp Hoenle (myrmecophil; about 7,600 identifications). Paraponera clavata, agreed by flinntaylor (about 31,000), frizzledg and mettcollsuss (Emmett Collins-Sussman, about 528,000). Photo 1 of 3.",
+   "caveats": "One ant on a leaf, side view, jaws visible, dark background. No caste or sex recorded: say bullet ant, not worker.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "bullet-ants-coin-scale",
+   "forPages": ["bullet-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Paraponera scaled.png', own work by Smartse, 2009-07-30: 'three individuals of Paraponera clavata (Bullet ant) photographed in the Barro Colorado Nature Monument, Panama. A scale bar is provided which is 2cm long and the coin in the photograph is a British two pence coin.' Categories Paraponera; Images of insects with coins to indicate scale.",
+   "caveats": "Three ants on a fallen leaf and red soil with the white scale bar and the coin. Identification rests on the uploader (a biologist working on Barro Colorado; the species is distinctive). Give the bar as about 3/4 inch (2 cm) on US pages. Does not satisfy the page's ruler placeholder (side view beside an inch ruler), which stays.",
+   "note": "Credit: Smartse, CC BY-SA 3.0, via Wikimedia Commons. Licence: CC-BY-SA-3.0. Size: 1200x829."
+  },
+  {
+   "id": "bullet-ant-glove-satere-mawe",
+   "forPages": ["bullet-ants"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Luva com formigas tucandeiras para ritual de passagem do povo Sateré-Mawé AM.jpg', own work by Joelma Monteiro de Carvalho, 2013-04-14 (Wiki Loves Earth Brazil upload): 'Glove with tucandeira ants for the passage ritual of the Sateré-Mawé people, Amazonas.' Categories Paraponera clavata; Ritual da tucandeira; Indigenous basketry of Brazil.",
+   "caveats": "A woven glove covered with bullet ants; no people in the frame. The glove's material is not stated: do not say palm leaf. The ants' identity and the ritual are the photographer's description; the page's ritual facts come from the Smithsonian report. Other ritual photos showing participants were left out on purpose.",
+   "note": "Credit: Joelma Monteiro de Carvalho, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x900."
+  },
+  {
+   "id": "bullet-ant-nest-dug-up",
+   "forPages": ["bullet-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 100845472, Quinindé, Ecuador, 2021-10-17, by Philipp Hoenle (myrmecophil). Observer's note: 'I dug out and moved a complete nest that was too close to our balcony.' Paraponera clavata, agreed by 12 other identifiers including froggy143, arman_, mettcollsuss and flinntaylor. Photo 1 of 5.",
+   "caveats": "Dozens of ants crowded over soil with pale brood (cocoons and larvae) among them. Where the nest was is the observer's account. The page's colony size (200 to 3,000 workers) is Dyer's figure for La Selva, not a count of this nest.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "bullet-ants-on-branch",
+   "forPages": ["bullet-ants"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 67779564, Sarapiquí, Heredia, Costa Rica, 2017-04-20, by laiet17. Paraponera clavata, agreed by ponerinecat (Grant Wang, about 59,000), mettcollsuss and flinntaylor. Photo 1 of 1.",
+   "caveats": "Two ants on a bark-covered branch; a blurred person (skin and hair, not identifiable) fills the background. No scale.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "honeypot-ant-repletes-oakland-zoo",
+   "forPages": ["honeypot-ants"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons 'Closeup on honeypot ants (Myrmecocystus mimicus) at Oakland Zoo.jpg' by Derrick Coetzee (User:Dcoetzee), 2013-10-27, CC0: 'Showing three large repletes. Detailed crop of File:Honeypot ants (Myrmecocystus mimicus) at Oakland Zoo.jpg.' Species as labeled by the zoo exhibit.",
+   "caveats": "Three amber repletes among ordinary workers in a zoo display nest. Say at the Oakland Zoo; this is not a wild nest. The uncropped original is also CC0 if a wider view is ever needed (do not use both on one page).",
+   "note": "Credit: Derrick Coetzee (User:Dcoetzee), CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1133x818."
+  },
+  {
+   "id": "honeypot-ant-repletes-hanging",
+   "forPages": ["honeypot-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'HoneyAnt.jpg', photo by Greg Hume (Greg5030), 2006-09-17: 'Myrmecocystus ants storing nectar to prevent colony famine. Taken at the Cincinnati Zoo.'",
+   "caveats": "A row of repletes hanging from a nest-chamber ceiling with red-and-black workers below, in a zoo exhibit. Genus only. Insectexpert's 'Honeypot Ant.jpg' (CC BY-SA 4.0) is the same scene and was not taken.",
+   "note": "Credit: Photo by Greg Hume (Greg5030), CC BY 2.5, via Wikimedia Commons. Licence: CC-BY-2.5. Size: 1200x900."
+  },
+  {
+   "id": "honeypot-ant-workers-arizona",
+   "forPages": ["honeypot-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 84624805, Cochise County, Arizona, 2021-06-23, by Jake Nitta (froggy143). Observer's note: 'Impressively large for Myrmecocystus and workers could vary a lot in size. A nest entrance was not found.' Myrmecocystus mexicanus, agreed by didobola, arthropodantics, raycoants and eliarizona. Photo 1 of 8.",
+   "caveats": "A slender orange worker on dry ground and plant litter, in the wild. The workers are the observer's word; no repletes in the frame.",
+   "note": "Credit: (c) Jake Nitta, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "honeypot-ant-nest-entrance-utah",
+   "forPages": ["honeypot-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 107565020 at 40.536, -109.544 (northeastern Utah), 2021-05-15, by Toby (tobiashays). Observer's note: 'Nest in sand at base of sandstone cliff base, in Artemisia basin.' Myrmecocystus testaceus, identified by nickant (Nicholas Ridout), didobola and the observer; genus confirmed by mettcollsuss. Photo 1 of 3.",
+   "caveats": "Pale orange workers around a round hole in fine sand. M. testaceus, not M. mexicanus: the page's crater measurements are Conway's for M. mexicanus in Colorado, so attribute them that way. Artemisia basin = sagebrush. No scale; the page's placeholder asking for a quarter beside an entrance stays.",
+   "note": "Credit: (c) Toby, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "carpenter-ants-sausage-bait",
+   "forPages": ["what-do-ants-eat"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 85487456, Shepherd, Texas, 2021-07-03, by aray637. Observer's note: 'Used Jimmy Dean sausage as bait.' Camponotus pennsylvanicus, agreed by aaron567 (Aaron Stoll, about 119,000 identifications). Photo 1 of 3.",
+   "caveats": "Large black ants climbing over a piece of sausage on sandy ground. Do not name the brand. The same observer's fire ant and Pheidole sausage-bait observations exist (CC0) but are blurrier.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "thief-ants-dirty-plate",
+   "forPages": ["what-do-ants-eat"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 402477450, Menomonee Falls, Wisconsin, 2026-09-20, by Marj H. (mhoefs68). Observer's note: 'Found these tiny ants on some dirty dishes on my kitchen counter (to my horror). The smallest ants I've ever seen. Marching in distinct straight lines like stair steps.' Solenopsis molesta, agreed by insectobserver123 (about 48,000), mettcollsuss and aprothero (Anthony Prothero, about 28,000). Photo 3 of 3.",
+   "caveats": "A white plate with food residue scattered with tiny ants, seen from above; the observer's shoes show at the bottom edge (not identifying). Used on what-do-ants-eat; tiny-ants uses photo 2 of the same observation (thief-ants-counter-pen-tip).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "southern-fire-ants-bait-card",
+   "forPages": ["what-do-ants-eat"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 135300522, Los Angeles County, California, 2022-09-16, by Kimball Garrett (kgarrett). Observer's note: 'at baited card; ID in field by Brian Brown (NHMLAC Entomology Curator).' Solenopsis xyloni, agreed by kade_0721. Photo 1 of 1.",
+   "caveats": "Small reddish ants crowded around the edge of a bait on a white card. What the bait was is not stated: say bait, not meat or tuna. Southern fire ant is the page's UC table name for this species.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 958x641."
+  },
+  {
+   "id": "odorous-house-ants-aphids",
+   "forPages": ["what-do-ants-eat"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Odorous House Ants - Tapinoma sessile and Aphids, Merrimac Farm Wildlife Management Area, Aden, Virginia, September 22, 2015 (53511901666).jpg' from Judy Gallagher's Flickr. Categories Tapinoma sessile; Ants cultivating aphids; Unidentified Aphidoidea.",
+   "caveats": "Small dark ants among pale aphids on a leaf. Identification rests on the photographer (an experienced naturalist photographer whose Flickr names are usually species level). The aphid species is not identified.",
+   "note": "Credit: Judy Gallagher, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x800."
+  },
+  {
+   "id": "harvester-ants-trimming-seed",
+   "forPages": ["what-do-ants-eat"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Florida harvester ant teamwork! (Pogonomyrmex badius) (6502194585).jpg' from Bob Peterson's Flickr (North Palm Beach, Florida), 2011-12-08: 'These Florida harvester ant minor workers have found a tasty and nutritious seed to add to their granary and are working together to trim the pappus bristles off for better transport & storage.'",
+   "caveats": "Red ants on white sand working on a bristled seed. The trimming and the granary are the photographer's account; no place is given for this photo. A small 'Bob P' signature sits in the bottom-left corner. The page's harvester facts are University of Nevada, Reno Extension's.",
+   "note": "Credit: Bob Peterson from North Palm Beach, Florida, Planet Earth!, CC BY-SA 2.0, via Wikimedia Commons. Licence: CC-BY-SA-2.0. Size: 1024x1024."
+  },
+  {
+   "id": "leafcutter-ant-fungus-garden",
+   "forPages": ["what-do-ants-eat"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons 'Atta texana (23319353392).jpg', Insects Unlocked (University of Texas at Austin), 2015-11-30, CC0: 'A rare peak inside the garden of a leafcutter ant colony reveals the queen (center-left), brood, and an extensive matrix of fungal hyphae that form both the nest structure and the insects' exclusive diet. Public domain image by Alex Wild, for the University of Texas Insects Unlocked project.' The photo's own caption strip (cropped off) read: Atta texana, Texas leafcutter ant colony; laboratory culture at the University of Texas Insect Collection; collected from Brackenridge Field Laboratory, Austin, Texas.",
+   "caveats": "Bottom 9% cropped to remove the black caption strip (measured 8.4%). A laboratory colony, not a wild nest: say so.",
+   "note": "Credit: Insects Unlocked, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x794. Edited: bottom 9% cropped (caption strip)."
+  },
+  {
+   "id": "thief-ants-counter-pen-tip",
+   "forPages": ["tiny-ants"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "Same observation as thief-ants-dirty-plate (iNaturalist 402477450, Menomonee Falls, Wisconsin; Solenopsis molesta, research grade, four identifiers). Photo 2 of 3.",
+   "caveats": "Dozens of tiny reddish-brown ants on a speckled kitchen countertop beside a ballpoint pen tip, the scale reference. The dirty dishes are the observer's account.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "odorous-house-ant-kitchen-counter",
+   "forPages": ["tiny-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 153045434, Onondaga County, New York, 2023-03-31, by Randy A Nonenmacher (nonenmac). Observer's note: 'On kitchen counter near sink. About 4 mm. long.' Tapinoma sessile, agreed by mettcollsuss and arman_. Photo 1 of 4.",
+   "caveats": "One dark ant close up on a white counter. The 4 mm is the observer's estimate: not used in captions (the page gives its own sizes).",
+   "note": "Credit: (c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x728."
+  },
+  {
+   "id": "ghost-ants-lined-paper",
+   "forPages": ["tiny-ants"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 18435629, Holualoa, Hawaii, 2018-11-16, by Steve Wells (swells). Observer's note: 'Small ants (1.5 mm) that like sugar. They were all over a knife that I left out with orange marmalade on it.' Tapinoma melanocephalum, agreed by James K. Wetterer (jimw3, ant ecologist), Miguel Vasquez Bolanos (hormiguel), peterslingsby, bdagley and monte_tudor-long. Photo 1 of 2.",
+   "caveats": "One ghost ant on lined notebook paper (the blue line gives a rough scale). The knife and marmalade are not in this frame: say the observer found the ants there. Soft focus, small file.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1109."
+  },
+  {
+   "id": "pavement-ant-chip-crumb",
+   "forPages": ["tiny-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 39631535, Sanpete County, Utah, 2020-03-06, by lchaney. Observer's note: 'Ant in my house trying to take away a chip crumb.' Tetramorium immigrans, agreed by peterslingsby (Peter Slingsby, about 117,000 identifications); annotated adult.",
+   "caveats": "One dark ant with a yellow chip crumb on a wood surface (floor or furniture, not stated) inside a house. The page notes that newer references call the North American pavement ant Tetramorium immigrans.",
+   "note": "Credit: (c) lchaney, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "pharaoh-ant-sugar-crystal",
+   "forPages": ["tiny-ants"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Monomorium pharaonis worker with sugar crystal.jpg', own work by Julian.szulc, 2011-05-22: 'Pharaon ant with single crystal of sugar.' Category Monomorium pharaonis.",
+   "caveats": "A pale yellowish ant beside a large sugar crystal, magnified, blurred yellow background. Identification rests on the uploader; the color and two-node waist fit the species. No place given. The original file is small for its pixel size (116 KB): fine at page width.",
+   "note": "Credit: Julian.szulc, CC BY 3.0, via Wikimedia Commons. Licence: CC-BY-3.0. Size: 1200x800."
+  },
+  {
+   "id": "argentine-ants-gel-bait",
+   "forPages": ["borax-for-ants"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Linepithema humile - Argentine ant.jpg', own work by R1bonpnk, 2023-12-29, CC0: 'A few Argentine Ants I took while testing the capabilities of a new lens. They were slowed due to the gel-like poison they were standing in (they invaded the house).'",
+   "caveats": "Several brown ants close up in a clear gel. The species and the gel being an ant poison both rest on the uploader: caption as ants the photographer identifies as Argentine ants. The gel's active ingredient is unknown: never call it borax. Not used as a lead for that reason.",
+   "note": "Credit: R1bonpnk, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "pavement-ant-honey-drop",
+   "forPages": ["borax-for-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 42894982, California, 2020-04-22, by Anne Parsons (truthseqr). Observer's note: 'I put a drop of honey and a drop of peanut butter on a sheet of white paper and waited... Only one ant came to try out the honey. The other ants didn't seem to be very interested at all in the treats I set out for them.' Tetramorium immigrans, agreed by merav (Merav Vonshak), ponerinecat and peterslingsby. Photo 2 of 5.",
+   "caveats": "A drop of honey on white paper with one tiny ant beside it and one at the drop's edge; the peanut butter is not in this frame. Used as an honest picture of ants passing up a sweet sample, which is what the page's sugar-or-protein test checks.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "argentine-ants-trail-wall",
+   "forPages": ["borax-for-ants"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 116756872, University of California, Riverside, 2022-05-12, by chloeevon. Observer's note: 'Trail of ants found on wall.' Linepithema humile, identified by Matthew Prebus (mprebus, an ant systematist), egordon88 (about 271,000) and something5067; the observer had put Myrmicinae.",
+   "caveats": "A thin trail of small brown ants along the edge of a textured white wall below a fallen leaf; outdoors on campus. No scale.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "argentine-ants-trail-wood",
+   "forPages": ["learn/ant-killer-recipes"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 179475324, California, 2023-08-16, by Daniel Das (danieldas; about 144,000 identifications). Observer's note: 'Ant highway. They're invading the house again.' Linepithema humile, agreed by sachin__ and didobola. Photo 1 of 2.",
+   "caveats": "A busy trail along weathered gray boards with a leaf in the corner; outdoors, the house invasion is the observer's account. ant-killer-recipes' share image stays its hero infographic; this is its first photo.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "pavement-ants-sugar-water",
+   "forPages": ["learn/ant-killer-recipes"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 351861306, Flanders, New Jersey, 2026-04-21, by Sinead Tuttle-Lerner (gwt2102; about 63,000 observations). Observer's note: 'on paper towel with sugar water.' Tetramorium immigrans, agreed by noahofloxli (Noah Gunn-Russell). Photo 2 of 16.",
+   "caveats": "Dozens of dark ants on a crumpled paper towel over leaf litter, outdoors. Plain sugar water, no borax: never caption it as a bait with poison.",
+   "note": "Credit: (c) Sinead Tuttle-Lerner, some rights reserved (CC BY), via iNaturalist (the record keeps the accented name). Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "pheidole-ants-peanut-butter",
+   "forPages": ["learn/ant-killer-recipes"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 394317948, Dona Ana County, New Mexico, 2026-08-20, by Emmett Collins-Sussman (mettcollsuss; about 528,000 identifications). Observer's note: 'peanut butter bait.' Pheidole rugulosa, agreed by jordi_dlp, pookao and lucahakase. Photo 1 of 4.",
+   "caveats": "Small black ants and larger reddish ants with very big heads at smears of peanut butter on rocky ground. The castes are not annotated: describe sizes, not majors and minors. Not a household species: the caption ties it only to peanut butter as the greasy bait option.",
+   "note": "Credit: (c) Emmett Collins-Sussman, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "odorous-house-ants-kitchen-window",
+   "forPages": ["learn/ant-killer-recipes"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 245677524, Hamilton, Ohio, 2024-10-04, by Mary Spilman (maryspilman). Observer's note: 'Coming in through a corner of the kitchen window.' Tapinoma sessile, agreed by mettcollsuss. Photo 1 of 2.",
+   "caveats": "Dozens of small dark ants spread across a beige textured surface by the window. Photo 2 of the observation shows two retail bait packages on a counter and was not taken.",
+   "note": "Credit: (c) Mary Spilman, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "carpenter-ant-side-view",
+   "forPages": ["do-carpenter-ants-bite"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Eastern Black Carpenter Ant - Camponotus pennsylvanicus, Leesylvania State Park, Woodbridge, Virginia - 25127646135.jpg' from Judy Gallagher's Flickr, 2015-04-19. Category Camponotus pennsylvanicus.",
+   "caveats": "A wingless black ant with reddish legs on gray weathered wood, side-on enough to show the rounded back and the single waist node. Identification rests on the photographer. No scale: the page's penny placeholder stays.",
+   "note": "Credit: Judy Gallagher, CC BY 2.0, via Wikimedia Commons. Licence: CC-BY-2.0. Size: 1200x800."
+  },
+  {
+   "id": "carpenter-ant-beside-ruler",
+   "forPages": ["do-carpenter-ants-bite"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Camponotus pennsylvanicus.jpg', public domain (PD-user), transferred from en.wikipedia, original uploader Muero, 2007: 'Dead Camponotus pennsylvanicus shown next to ruler for size.' A later editor asked whether the ruler is in cm or inches.",
+   "caveats": "A dead, curled black ant beside a metal ruler; the visible scale marks (16, 32, 1) look like inch fractions, but the record does not say, so captions say only a ruler. Identification rests on the uploader: caption it as an ant its photographer identified as a black carpenter ant, shown for size. Public domain, but not lead-eligible for that reason.",
+   "note": "Credit: Original uploader was Muero at en.wikipedia, Public domain, via Wikimedia Commons (the record keeps the accented name). Licence: public-domain. Size: 1200x1077."
+  },
+  {
+   "id": "carpenter-ant-damaged-board",
+   "forPages": ["do-carpenter-ants-bite"],
+   "confidence": "medium",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'CarpenterAntDamage board.jpg', own work by Nwbeeson, 2015-08-03: 'This structural board was destroyed by carpenter ants. They left the dense late wood of each growth ring intact, to use as galleries.' Category Camponotus wood nests.",
+   "caveats": "A board hollowed into parallel tunnels with thin walls of late wood standing. That carpenter ants did it is the photographer's account: caption it that way. No ants in the frame. The same uploader's 'Carpenter Ant Damage.JPG' is a closer view of the same board.",
+   "note": "Credit: Nwbeeson, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x1316."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "honeypot-ants",
+   "why": "No openly licensed photo of an Australian honeypot ant (Camponotus inflatus) or of repletes in a wild nest. iNaturalist's 16 C. inflatus observations are all NonCommercial, NoDerivatives or all rights reserved (including a Tanami excavation with about 60 repletes); Commons has only AntWeb specimen shots of the species. The page's Australia section and its night-forager and quarter-for-scale placeholders stay without photos."
+  },
+  {
+   "slug": "army-ants",
+   "why": "Still missing, so the placeholders stay: an Eciton burchellii bivouac identified to species with a raid column, a swarm front with an antbird, and a side-view Neivamyrmex worker with a scale bar. Considered and not used: Mehmet Karatay's 'Safari ants tunnel.jpg' (CC BY-SA 3.0, Dorylus on Mount Kenya; a good alternative to the Uganda driver ant), 'Army ant warriors - Gabon.jpg' (unidentified Formicidae), aparrot1's CC0 Dorylus nigricans on a teaspoon in Angola (busy frame; the habitat photo shows people bathing)."
+  },
+  {
+   "slug": "bullet-ants",
+   "why": "No CC0 or public-domain worker photo beside an inch ruler (the side-view placeholder stays; the coin-and-scale-bar photo is CC BY-SA). Not used: the Museum fur Naturkunde Zoosphere CC0 series and Andrew Quitmeyer's CC0 photo (both show winged reproductives, not workers), Bernard Dupont's Campeche, Mexico photo (outside the range the page states), and Joelma Monteiro de Carvalho's other ritual photos that show people. The range map placeholder is a map, not a photo."
+  },
+  {
+   "slug": "tiny-ants",
+   "why": "No usable openly licensed photo of the little black ant (Monomorium minimum) indoors: iNaturalist now files the eastern little black ant partly under Monomorium carbonarium, which would clash with the page's name, and Yann Kemper's CC0 photo shows the ant tiny on a flower. No Argentine ant indoors at a usable size, and nothing for the side-by-side pharaoh and thief ant antenna placeholder (needs a microscope shot). Forest and Kim Starr's odorous house ant bait-card photos are CC BY 3.0 US, which the script's licence table does not accept."
+  },
+  {
+   "slug": "borax-for-ants and learn/ant-killer-recipes",
+   "why": "No openly licensed photo of a homemade enclosed bait station, of a prefilled liquid bait station against a baseboard, or of borax or boric acid powder as sold (Commons has only mineral borax crystals, which would mislead). 'Mierenlokdoos Ant Bait.JPG' (CC BY-SA 3.0) shows a retail brand label and was not used. The placeholders stay."
+  },
+  {
+   "slug": "do-carpenter-ants-bite",
+   "why": "Still missing: a side view of a worker beside a US penny (the Leesylvania side view has no scale; the ruler photo is a curled dead specimen identified by its uploader) and a frass pile on a basement floor beside a ruler. Both placeholders stay."
+  }
+ ]
+}

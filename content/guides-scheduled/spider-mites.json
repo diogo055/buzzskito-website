@@ -1,0 +1,191 @@
+{
+  "slug": "spider-mites",
+  "kind": "spoke",
+  "cluster": "garden",
+  "keyword": "spider mites",
+  "alsoTargets": [
+    "spider mites on plants",
+    "what do spider mites look like",
+    "how to get rid of spider mites",
+    "spider mite webbing",
+    "spider mite damage",
+    "spider mites treatment",
+    "two spotted spider mite"
+  ],
+  "metaTitle": "Spider Mites on Plants: Signs and Control",
+  "metaDescription": "Spider mites are specks under 1/20 inch that stipple leaves with pale dots and spin fine webbing. Photos, a white-paper test, look-alikes and what works.",
+  "h1": "Spider Mites: How to Spot the Webbing and Stippling, and What Works",
+  "dek": "Spider mites are eight-legged specks about the size of a period that speckle leaves pale and wrap them in silk. Real photos, the white-paper test, why heat and dust set off outbreaks, the look-alikes and what works.",
+  "breadcrumb": "Spider Mites",
+  "excerpt": "How to spot spider mites by their stippling and webbing, confirm them with a white-paper tap test, tell them from look-alikes and control them on houseplants and garden plants.",
+  "datePublished": "2026-10-28",
+  "parent": { "href": "/learn/natural-garden-pest-control", "name": "Garden Pest Control" },
+  "disclaimer": "pesticide",
+  "quickAnswer": {
+    "lead": "**Pale stippling on the leaves, fine webbing underneath and specks that walk when you tap a leaf over white paper mean spider mites: tiny eight-legged relatives of spiders that suck the contents out of leaf cells.** [UC IPM](https://ipm.ucanr.edu/home-and-landscape/spider-mites/) calls the webbing an easy way to tell them from other mites and from aphids and thrips.",
+    "bullets": [
+      "Adult females, the largest stage, are less than 1/20 inch long, with eight legs, an oval body and usually a large dark blotch on each side (UC IPM); [UConn](https://homegarden.cahnr.uconn.edu/factsheets/spider-mites/) puts twospotted spider mites at about 1/50 inch.",
+      "The damage usually shows before the mites do: a stippling of light dots that can turn bronze, then yellowish or reddish before the leaves drop, according to UC IPM.",
+      "Hot, dusty weather, thirsty plants and broad-spectrum insecticides that kill the mites' predators set off outbreaks (UC IPM), and [Colorado State](https://extension.colostate.edu/topic-areas/insects/spider-mites-5-507/) says dry conditions favor all spider mites.",
+      "Winter is when many people first notice them on houseplants, says [Iowa State](https://yardandgarden.extension.iastate.edu/article/2007/12-5/SpiderMites.html), because dry indoor air and weaker plants seem to favor the mites.",
+      "Start with water: isolate the plant and rinse the leaf undersides; if you spray, UC IPM prefers insecticidal soap or oil, never on water-stressed plants or above 90°F."
+    ]
+  },
+  "facts": {
+    "title": "Spider mites and look-alikes: quick ID",
+    "head": ["Pest", "Size", "What you notice", "The tell"],
+    "rows": [
+      ["Twospotted spider mite", "About 1/50 inch; adult females under 1/20 inch", "Pale stippling on the leaves, then fine webbing on the undersides", "Eight legs, oval body, a dark spot on each side; walks on white paper"],
+      ["Spruce spider mite", "About 1/50 inch", "Needles on spruce, juniper and other conifers browning, low and inside the tree first", "A cool-season mite, active in spring and fall and quiet in summer heat"],
+      ["Clover mite", "About 1/32 inch (0.75 mm)", "Red or greenish specks massing on sunny windowsills and walls", "First pair of legs much longer than the rest; does not breed indoors"],
+      ["Aphid", "1/16 to 1/8 inch", "Pear-shaped insects in colonies; sticky honeydew", "Usually two tubes (cornicles) at the rear end; no webbing"],
+      ["Thrips", "Most under 1/20 inch", "Silvering or stippling dotted with black, varnish-like specks", "Slender, with fringed wings; no webbing"],
+      ["Predatory mite (helpful)", "About a spider mite's size", "Mites running fast among the pests", "Teardrop-shaped, with longer legs; eats spider mites"]
+    ],
+    "caption": "Spider mites: UC IPM, UConn, Colorado State and UMD Extension. Clover mites: Penn State. Aphids: Clemson and UC IPM. Thrips: UC IPM. Predatory mites: UC IPM and UConn. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are spider mites?" },
+    { "type": "p", "text": "Spider mites are tiny plant-feeding arachnids that live in colonies, mostly on the undersides of leaves, and suck the contents out of leaf cells, according to [UC IPM's Pest Notes on spider mites](https://ipm.ucanr.edu/home-and-landscape/spider-mites/). A single colony can hold hundreds of mites, and UC IPM lists fruit trees, vegetables, berries, vines, houseplants and ornamentals among the plants they attack." },
+    { "type": "figure", "src": "/guides/photos/spider-mite-webbing.webp", "width": 1200, "height": 800, "alt": "Dense, shiny silk webbing wrapped like a sleeve around the needle-like, spiny shoots of a shrub, with a few small holes in the silk", "caption": "Webbing identified on iNaturalist as the work of a twospotted spider mite colony, wrapped around a plant's spiny shoots in France. UC IPM says webbing this dense comes with high numbers of mites.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/29244553" },
+    { "type": "p", "text": "The one most people meet is the twospotted spider mite (UConn writes two-spotted), *Tetranychus urticae*, which [Colorado State University Extension](https://extension.colostate.edu/topic-areas/insects/spider-mites-5-507/) calls the most important spider mite in gardens and on houseplants alike. UC IPM says it cannot be reliably told apart in the field from the Pacific and strawberry spider mites, and that this hardly matters, because their damage, biology and management are virtually the same. Evergreens host other species, notably the spruce spider mite." },
+    { "type": "p", "text": "Despite the name, spider mites are neither spiders nor insects. [UConn's Home & Garden Education Center](https://homegarden.cahnr.uconn.edu/factsheets/spider-mites/) notes that adult and nymph mites have eight legs, the newly hatched larvae six, and that mites have no antennae or wings; ticks belong to the same group, as [why ticks count as arachnids, not insects](/blog/are-ticks-arachnids-or-insects) explains. The National Pesticide Information Center (NPIC) groups spider mites with the mites that feed on plant sap, and the common biting mites on [its page about mites](https://www.npic.orst.edu/pest/mites.html) are others, such as chiggers, bird mites and rodent mites." },
+
+    { "type": "h2", "text": "What do spider mites look like?" },
+    { "type": "p", "text": "To the naked eye, a spider mite is a tiny moving dot; [Washington State University's spider mite fact sheet](https://pestsense.cahnrs.wsu.edu/fact-sheet/spider-mites/) puts it at about the size of a period. Through a 10X hand lens, UC IPM says, you can see an oval body with eight legs, two red eyespots near the head and, on most females, a large dark blotch on each side. Adult females, the largest stage, are less than 1/20 inch long; UConn gives about 1/50 inch for twospotted spider mites." },
+    { "type": "figure", "src": "/guides/photos/twospotted-spider-mite.webp", "width": 1200, "height": 803, "alt": "Magnified deep-red spider mite with pale, bristly legs and long white hairs, standing on a green leaf with a fine silk thread above it", "caption": "A female of the red form of the twospotted spider mite on a bean leaf, photographed through a microscope with two silk threads. The photographer gives its body length as about 0.5 mm, roughly 1/50 inch.", "license": "CC-BY-SA-2.0", "credit": "Gilles San Martin, CC BY-SA 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetranychus_urticae_with_silk_threads.jpg" },
+    { "type": "p", "text": "Color varies with the species and the season. UConn describes twospotted spider mites as green to yellow with two dark spots on the back, and WSU as straw-colored, often with two dark blotches. Colorado State says most spider mites change color as winter approaches, often turning more red or orange, which may be why they are sometimes called red spiders." },
+    { "type": "h3", "text": "Eggs, young and shed skins" },
+    { "type": "p", "text": "UC IPM describes the eggs as spherical and translucent, like tiny droplets, turning cream-colored before they hatch, and UConn says twospotted eggs are pearl-like and attached to leaf undersides or stems. The young look like small adults. The [University of Maryland Extension's guide to mites](https://extension.umd.edu/resource/mites-home-gardens) adds that the skins mites shed as they grow show up as white, grainy specks in the webbing or on damaged leaves, sometimes more noticeable than the mites." },
+    { "type": "media", "needed": "Close-up of twospotted spider mites, round eggs and white shed skins on the underside of a leaf, photographed through a 10X hand lens beside a ruler marked in inches, so readers see the colony at the size they will meet it" },
+
+    { "type": "h2", "text": "What does spider mite damage look like?" },
+    { "type": "p", "text": "It starts as stippling: tiny pale dots on the leaves where mites feeding underneath have emptied the cells. UC IPM says the leaves sometimes take on a bronze color, then turn yellowish or reddish and drop off. WSU says middle-aged leaves usually show it first, and [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/article/2007/12-5/SpiderMites.html) describes houseplants speckled with tiny yellowish-green spots that turn greenish-yellow, then tan or brown, in heavy infestations." },
+    { "type": "p", "text": "The damage usually shows before the mites do, UC IPM says, and [Clemson's Home & Garden Information Center](https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/) warns that unchecked mites leave a houseplant bronzed or yellowed and can kill it. UMD notes that yellowing from a nutrient deficiency can be mistaken for stippling, so look for the mites, webbing or shed skins too." },
+    { "type": "media", "needed": "Upper side of a tomato or houseplant leaf covered in fine pale stippling from spider mite feeding, beside a ruler marked in inches, with an undamaged leaf of the same plant next to it for comparison" },
+    { "type": "h3", "text": "On vegetables, roses and evergreens" },
+    { "type": "p", "text": "UMD lists beans, tomatoes and cucurbits such as cucumbers, squash and melons among the vegetables prone to mite outbreaks. UC IPM says spider mites damage bean and sugar pea pods directly, that leaf loss can cut yields and sunburn squash and melons, and that they are important pests of field-grown roses. On conifers, UConn says the spruce spider mite attacks older needles first, low and inside the tree, and UMD warns that the browning can pass for normal seasonal needle drop." },
+    { "type": "h3", "text": "Is it spider mite webbing or a spider web?" },
+    { "type": "p", "text": "Look at who is on it. UMD says spider mite webbing, wrapped around leaves, buds and stems, is denser and crawls with many mites, while a spider rarely shares its web, is larger than a mite and does not damage plants. Colorado State adds that cottonwood fluff is often mistaken for mite webbing too." },
+
+    { "type": "h2", "text": "How do you check a plant for spider mites?" },
+    { "type": "p", "text": "Use the white-paper test, which UC IPM, UMD and UConn all describe:" },
+    { "type": "ol", "items": [
+      "**Pick a damaged spot.** Choose stippled foliage and check the undersides of young leaves and along the main vein, common feeding areas by UMD's account.",
+      "**Hold plain white paper underneath.** UConn uses white cardboard under a shrub or tree branch.",
+      "**Tap the foliage sharply.** Mites knocked onto the paper show up as moving specks, UMD says; UC IPM notes that once disturbed they move around rapidly.",
+      "**Look closer with a 10X hand lens,** which UC IPM says shows the mites easily, and check the leaf undersides for eggs and webbing.",
+      "**Sort friend from foe.** Mites of about the same size that are more teardrop-shaped, with longer legs, and run faster are probably predatory mites, which eat spider mites (UC IPM, UConn).",
+      "**Check weekly** while mites are active, as UConn advises, and make sure live mites are still there before you treat: UC IPM says they are sometimes gone by the time the damage shows, and plants often recover."
+    ] },
+    { "type": "media", "needed": "A sheet of white paper held under a stippled leaf just after tapping it, with tiny spider mites scattered across the paper, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "Why do spider mites suddenly take over?" },
+    { "type": "p", "text": "Because they breed fast in heat. UC IPM says spider mites are commonly numerous from June through September and, with favorable temperatures and food, can complete a generation in less than a week; Colorado State says a mated female may lay about a dozen eggs a day for a couple of weeks. UMD puts a new generation every one to two weeks, especially between about 70 and 85°F, and UConn gives 15 to 30 days from egg to adult." },
+    { "type": "p", "text": "Dry, dusty conditions help. UC IPM says mites usually appear first on plants beside dusty roads or at garden edges, and that water-stressed plants are highly susceptible. Colorado State explains the dry-air link: low humidity lets spider mites evaporate the excess water they excrete, so they feed more, while most of their natural enemies need more humid conditions, and drought-stressed plants can become more nutritious to them." },
+    { "type": "p", "text": "Some sprays make things worse. UC IPM says broad-spectrum insecticides such as some organophosphates and pyrethroids frequently set off mite outbreaks by killing the mites' natural enemies, that carbaryl made spider mites reproduce faster in laboratory tests, and that sprays applied in hot weather can set off outbreaks within a few days. Colorado State adds that soil applications of the systemic insecticide imidacloprid have contributed to some outbreaks." },
+    { "type": "p", "text": "They travel easily, too. WSU says spider mites move between plants by leaf contact, by walking and by drifting on strands of webbing, and arrive on new plants, on plants brought in for the winter and through open screens in summer; UC IPM says females also ride the wind." },
+
+    { "type": "h2", "text": "Why do spider mites show up indoors in winter?" },
+    { "type": "p", "text": "Because heated homes are warm and dry. Iowa State says winter is when many people start to notice spider mites on houseplants, as dry indoor air and reduced plant vigor seem to favor them, and WSU says they thrive in the warm, dry conditions found in most homes. Clemson finds them more of a problem on houseplants kept indoors all year, especially palms and English ivy, and UMD's list of commonly affected indoor plants adds philodendrons, African violets, begonias, orchids, citrus and herbs." },
+    { "type": "p", "text": "Indoor plants are harder to clear. Colorado State calls houseplant control particularly frustrating, with generally no biological controls and few effective sprays beyond soaps and oils, and advises treating every susceptible plant at once. WSU suggests pebble trays or daily misting to raise the humidity around pots, without overwatering, and UMD notes that underwatered plants tolerate mite feeding less well." },
+    { "type": "p", "text": "Not every pest on an indoor plant is a mite: [the houseplant bug guide](/blog/houseplant-bugs) sorts mealybugs, scale, thrips, whiteflies and the rest by the sign each one leaves, and [a guide to fungus gnats in houseplants](/blog/how-to-get-rid-of-fungus-gnats-houseplants) covers another common indoor pest." },
+
+    { "type": "h2", "text": "What else looks like spider mites?" },
+    { "type": "p", "text": "Check for webbing first: UC IPM says it is an easy way to tell spider mites from other mites and from small insects such as aphids and thrips. These are the usual mix-ups." },
+    { "type": "h3", "text": "Clover mites" },
+    { "type": "p", "text": "Red specks crowding a sunny windowsill or wall are more likely clover mites, which Colorado State says commonly come indoors in fall and spring. [Penn State Extension](https://extension.psu.edu/clover-mites) gives them as 0.75 mm long (about 1/32 inch), reddish or greenish, with a greatly lengthened first pair of legs. They do not attack people, do not reproduce indoors and die there within a few days, so a strong vacuum is all Penn State recommends inside." },
+    { "type": "figure", "src": "/guides/photos/clover-mite.webp", "width": 1200, "height": 900, "alt": "Reddish-brown clover mite with eight long, thin, pale legs on a white surface, seen under a digital microscope", "caption": "A clover mite under a digital microscope. Penn State's tell for the species is a first pair of legs much longer than the rest.", "license": "CC-BY-SA-4.0", "credit": "PerAsperaAdInferos, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clover_mite_(Bryobia_praetiosa)_viewed_with_digital_microscope.jpg" },
+    { "type": "h3", "text": "Thrips" },
+    { "type": "p", "text": "Thrips stipple leaves much as mites do, but without webbing. [UC IPM's thrips guide](https://ipm.ucanr.edu/home-and-landscape/thrips/) describes slender insects, most under 1/20 inch long, with fringed wings, whose feeding leaves stippling or silvering dotted with black, varnish-like specks of excrement, and it warns that mites stipple foliage too, so find the insects themselves. Clemson suggests blowing lightly into flowers and leaves to make thrips move." },
+    { "type": "figure", "src": "/guides/photos/western-flower-thrips.webp", "width": 1200, "height": 800, "alt": "Slender orange-yellow thrips with dark eyes and narrow, fringed wings folded along its back, on coarse white woven cloth", "caption": "An adult western flower thrips on white cloth, slender and with fringed wings where a spider mite is oval. UC IPM notes that this species also eats spider mite eggs and larvae, but damages plants when no mites are present.", "license": "CC-BY-4.0", "credit": "(c) Trevor Van Loon, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/261203486" },
+    { "type": "h3", "text": "Aphids, springtails and whiteflies" },
+    { "type": "p", "text": "Aphids are larger insects, 1/16 to 1/8 inch long by Clemson's measure and pear-shaped, and [UC IPM's aphid guide](https://ipm.ucanr.edu/home-and-landscape/aphids/) says most have a pair of tubes called cornicles sticking out of the rear end, a feature no other insect has. They leave sticky honeydew rather than webbing; [the aphid control guide](/learn/aphid-control-guide) covers them." },
+    { "type": "p", "text": "UMD lists globular springtails among mite look-alikes: rounded, usually slightly larger than mites and with prominent antennae, they jump, live mostly in damp soil and do not damage plants. Tiny, powdery white insects that look like little moths are whiteflies, about 1/16 to 1/10 inch long, Clemson says; [the whitefly guide](/learn/whitefly-identification-control) explains how to confirm them." },
+    { "type": "h3", "text": "Predatory mites: leave these alone" },
+    { "type": "p", "text": "Some mites on an infested plant may be eating the others. UC IPM describes predatory mites as about the same size as spider mites but more teardrop-shaped, with longer legs, and more active, and its list of other important predators includes sixspotted thrips, the spider mite destroyer lady beetle (*Stethorus*), minute pirate bugs, bigeyed bugs and lacewing larvae." },
+    { "type": "confused", "items": [
+      { "href": "/learn/aphid-control-guide", "name": "Aphid", "photo": "melon-aphid-colony", "note": "Pear-shaped insect 1/16 to 1/8 inch, usually with two tubes at the rear; leaves honeydew, not webbing", "alt": "Colony of yellow-green and dark green aphids of mixed sizes on the pale underside of a leaf, beside a printed scale bar" },
+      { "href": "/learn/whitefly-identification-control", "name": "Whitefly", "photo": "greenhouse-whitefly", "note": "Powdery white insect that looks like a tiny moth, about 1/16 to 1/10 inch long", "alt": "Magnified top view of an adult greenhouse whitefly with broad, powdery white wings on a leaf" },
+      { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "Has antennae and can jump; lives mostly in damp soil and does not damage plants", "alt": "Pale springtail with dark bands across its body and long antennae on a green leaf, beside a printed scale bar" },
+      { "href": "/blog/grass-spiders", "name": "Grass spider web", "photo": "grass-spider-sheet-web", "note": "Usually one spider per web, larger than a mite; mite webbing is denser and crawls with tiny specks", "alt": "Striped grass spider sitting on a flat sheet web covered in dew drops" }
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of spider mites?" },
+    { "type": "p", "text": "Start with water and spray only if live mites are still there, the gentle-first order of [the season-by-season natural garden pest control guide](/learn/natural-garden-pest-control):" },
+    { "type": "ol", "items": [
+      "**Confirm the mites** with the white-paper test; UC IPM says to be sure mites are present before treating.",
+      "**Isolate the plant.** Clemson says to keep an infested houseplant apart until the pest is completely controlled, which can take several weeks, and WSU quarantines infested plants because mites spread by leaf contact and on strands of silk.",
+      "**Rinse the leaves.** Hose sturdy garden plants with a forceful spray that reaches the leaf undersides; UC IPM suggests spraying or misting the undersides at least once a day while plants are infested. Rinse houseplants in the shower or sink with lukewarm water at least weekly, a plastic bag around the pot (WSU), and wipe larger leaves with a soft, damp cloth (Colorado State).",
+      "**Cut back or discard.** UMD says heavily stippled leaves will not recover and badly infested plants are often best cut back or thrown out; Iowa State finds a small, heavily infested plant usually easier to discard than to rescue.",
+      "**Fix the conditions.** Water during dry spells, rinse dust off leaves near bare soil or dirt roads, and go easy on nitrogen fertilizer, which UMD says promotes the tender growth mites favor.",
+      "**If you spray, use soap or oil.** UC IPM prefers insecticidal soap or insecticidal oil, either horticultural oil or a plant oil such as neem, canola or cottonseed, covering the leaf undersides and repeated as needed; Clemson says weekly sprays for several weeks are often necessary.",
+      "**Let predators work.** UMD says there is no need to buy predators for outdoor plants: using fewer pesticides and growing a variety of flowering plants keeps the local ones around. Released predatory mites need about one predator per 10 spider mites, UC IPM says, and starve or leave without prey."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "Before you spray soap or oil", "text": "UC IPM says not to use soaps or oils on water-stressed plants or above 90°F, and to test them on part of the plant several days first; Clemson says injury can take 48 hours or more to show. Clemson's list of houseplants too sensitive for insecticidal soap includes ornamental ivy, begonias and certain palms, though palms and English ivy are the houseplants it says mites trouble most. Never substitute dish detergent: Iowa State and UMD both advise against household soaps and detergents." },
+    { "type": "p", "text": "Read the label before you buy: UMD says it must state that the product controls or suppresses mites and must cover your kind of plant and where it grows, and WSU advises against chemical controls on herbs or salad greens grown indoors. Colorado State rates horticultural oil at the summer-oil rate perhaps the most effective miticide for home use and insecticidal soap only marginally effective against twospotted spider mites, and because most miticides do not kill eggs, it says a repeat application about 10 to 14 days later is usually needed. UC IPM adds that sulfur can burn cucurbits and must not be used above 90°F or within 30 days of an oil spray." },
+    { "type": "h3", "text": "Protecting bees, children and pets" },
+    { "type": "p", "text": "Most insecticides can hurt bees and butterflies, says [NPIC's pollinator protection page](https://npic.orst.edu/envir/pollinator.html). Do not spray while pollinators are active: spray in the evening, after bees have returned to their hives, so the residue dries overnight, and never spray flowers directly. UMD warns that a systemic miticide may harm pollinators if the treated plant blooms soon afterward." },
+    { "type": "p", "text": "[NPIC's fact sheet on insecticidal soap salts](https://npic.orst.edu/factsheets/psfagen.pdf) rates them very low in toxicity if swallowed, but says they can irritate the skin and eyes, may burn plants with hairy leaves and are highly toxic to aquatic invertebrates, so never apply them to water. NPIC's pages on [pesticides and children](https://npic.orst.edu/health/child.html) and [pesticide use around pets](https://npic.orst.edu/health/pets.html) say to keep both out of treated areas until the spray has dried, and to move pet bowls, toys and bedding out first." },
+    { "type": "callout", "tone": "tip", "title": "Save a sample", "text": "Tap a few mites onto white paper or tape a damaged leaf to a card, photograph both beside a ruler marked in inches, and note the plant and where it grows. Your state's cooperative extension office can use those details to help identify the mite." }
+  ],
+  "faqs": [
+    {
+      "question": "What are the first signs of spider mites?",
+      "answer": "Usually the damage, not the mites. UC IPM says you will typically notice stippled or yellowing leaves before you see the mites: a speckling of tiny pale dots where they have fed on the cells. Washington State University says middle-aged leaves show it first, and that silk webbing appears on the undersides of leaves and between leaves and stems. To confirm, tap a damaged leaf over white paper and watch for specks that move."
+    },
+    {
+      "question": "Are spider mites harmful?",
+      "answer": "To plants, they can be. UC IPM says a few mites are usually no concern, but very high numbers can cut squash and melon yields, damage bean and sugar pea pods and kill annual plants, and Clemson says unchecked mites can kill a houseplant. Healthy plants usually tolerate low numbers, Washington State University notes. Spider mites feed on plants, and none of the sources on this page lists them among the mites that bite people."
+    },
+    {
+      "question": "Can spider mites spread to humans?",
+      "answer": "The National Pesticide Information Center notes that mites in general can crawl onto people or animals, but it groups spider mites with the plant-feeding mites that eat plant sap, and its list of common biting mites names varroa mites of honeybees, chiggers, bird mites and rodent mites, not spider mites. What spider mites do spread to is other plants: Washington State University says they move by leaf contact, by walking and by drifting on strands of webbing."
+    },
+    {
+      "question": "Does dish soap kill spider mites?",
+      "answer": "Extension services advise against using it. Iowa State no longer recommends ordinary dishwashing detergent in place of commercial insecticidal soap, because concentrated detergents and those with grease cutters can harm plants, and the University of Maryland Extension says not to use home remedies such as household soap or detergent. Insecticidal soap sold as a pesticide is different: UC IPM lists it among the preferred sprays for spider mites, used as the label directs, on well-watered plants and below 90°F."
+    },
+    {
+      "question": "What kills spider mites instantly on indoor plants?",
+      "answer": "One treatment rarely clears them, because eggs and missed mites keep the colony going. A thorough rinse in the shower or sink knocks many off at once, and insecticidal soap or horticultural oil kills the mites it touches, but UC IPM says the leaf undersides must be covered and repeat applications may be needed. Clemson says spraying once a week for several weeks is often necessary, and Colorado State advises repeating houseplant treatments every one to two weeks while mites persist."
+    },
+    {
+      "question": "Is it possible to get rid of spider mites?",
+      "answer": "Yes, though it usually takes several rounds. Washington State University says rinsing plants thoroughly at least weekly may be enough for light to moderate infestations, and Clemson says insecticidal soap sprays often need repeating weekly for several weeks. The University of Maryland Extension says heavily infested plants are often best cut back or discarded, which is simpler and usually cheaper than treatment. Outdoors, UC IPM says, mite numbers may drop sharply in late summer as predators catch up and the weather cools."
+    },
+    {
+      "question": "What time of year do spider mites come out?",
+      "answer": "It depends on the mite and where the plant lives. UC IPM says twospotted and related spider mites breed fastest in hot weather and are commonly numerous from June through September. In colder areas, it adds, they spend the winter outdoors as red or orange mated females under rough bark and in ground litter, and start feeding and laying eggs again when warm weather returns. The spruce spider mite on conifers is a cool-season mite, most active in spring and fall, according to UConn. Indoors, mites can be year-round plant pests, the University of Maryland Extension says, and Iowa State notes that winter is when many people first notice them on houseplants."
+    },
+    {
+      "question": "What is the natural enemy of spider mites?",
+      "answer": "Predatory mites are among the most important. UC IPM names the western predatory mite and Phytoseiulus species, along with sixspotted thrips, the spider mite destroyer lady beetle, minute pirate bugs, bigeyed bugs and lacewing larvae. Predatory mites look like spider mites but are more teardrop-shaped, with longer legs, and more active. Broad-spectrum insecticides kill these predators and often set off spider mite outbreaks, which is why UC IPM advises avoiding them and keeping dust down."
+    },
+    {
+      "question": "How fast do spider mites multiply?",
+      "answer": "Very fast in warm weather. UC IPM says a generation can be completed in less than a week when temperature and food are favorable, and Colorado State says a mated female may lay about a dozen eggs a day for a couple of weeks. The University of Maryland Extension puts a new generation every one to two weeks, especially between about 70 and 85°F, and UConn gives 15 to 30 days from egg to adult. Generations overlap, so mites of all stages are often found together."
+    },
+    {
+      "question": "What do spider mites hate?",
+      "answer": "Water, humidity and their predators. Colorado State says dry conditions greatly favor spider mites and that a forceful jet of water removes and kills many of them while washing off the dust that hampers their predators. The University of Maryland Extension says high humidity may discourage some species on indoor plants, and Washington State University suggests pebble trays or daily misting around houseplants, without overwatering. UC IPM adds that mite numbers may fall when the weather turns cooler and after rain."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Spider Mites (UC ANR Publication 7405)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spider-mites/" },
+    { "title": "Mites in Home Gardens (updated March 13, 2026)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/mites-home-gardens" },
+    { "title": "Spider Mites (revised 2016)", "publisher": "UConn Home & Garden Education Center, University of Connecticut", "url": "https://homegarden.cahnr.uconn.edu/factsheets/spider-mites/" },
+    { "title": "Spider Mites (Fact Sheet 5.507)", "publisher": "Colorado State University Extension (W.S. Cranshaw and D.C. Sclar)", "url": "https://extension.colostate.edu/topic-areas/insects/spider-mites-5-507/" },
+    { "title": "Spider Mites on Houseplants (December 5, 2007)", "publisher": "Iowa State University Extension and Outreach (Donald Lewis)", "url": "https://yardandgarden.extension.iastate.edu/article/2007/12-5/SpiderMites.html" },
+    { "title": "Spider Mites (Pestsense fact sheet)", "publisher": "Washington State University, Pesticide Resources and Education Program", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/spider-mites/" },
+    { "title": "Common Houseplant Insects & Related Pests (HGIC 2252)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/common-houseplant-insects-related-pests/" },
+    { "title": "Clover Mites", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/clover-mites" },
+    { "title": "Pest Notes: Thrips (UC ANR Publication 7429)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/thrips/" },
+    { "title": "Pest Notes: Aphids (UC ANR Publication 7404)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/aphids/" },
+    { "title": "Pollinator Protection", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://npic.orst.edu/envir/pollinator.html" },
+    { "title": "Potassium Salts of Fatty Acids (General Fact Sheet, reviewed 2001)", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://npic.orst.edu/factsheets/psfagen.pdf" },
+    { "title": "Mites", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://www.npic.orst.edu/pest/mites.html" },
+    { "title": "Pesticides and Children", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://npic.orst.edu/health/child.html" },
+    { "title": "Pesticide Use Around Pets", "publisher": "National Pesticide Information Center, Oregon State University", "url": "https://npic.orst.edu/health/pets.html" }
+  ]
+}
