@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-upholstery-steam-cleaner-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Upholstery Steam Cleaner Canada — Extractors, Vapour Steamers, and the Tag That Decides Which One You Need'
-const META_TITLE = 'Best Upholstery Steam Cleaner Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Best Upholstery Steam Cleaner Canada'; top queries, Jul 28-Oct 25 (all countries): best steam cleaner for couch 72 at 7.5, best upholstery steam cleaner 69 at 5.9, steam cleaner for upholstery 39 at 9.7, best couch steam cleaner 27 at 7.3, best furniture steam cleaner 11 at 8.9 (4 clicks).
+const META_TITLE = 'Best Steam Cleaner for Couch & Upholstery Canada'
 
 const FAQS = [
   {
@@ -54,11 +57,19 @@ const FAQS = [
     question: 'How long does upholstery take to dry after cleaning?',
     answer: 'A properly extracted couch should be dry to the touch in a few hours and fully dry within about a day, and if yours is taking dramatically longer you used too much solution or did not extract enough. Ambient conditions decide the rest: a GTA basement sitting at 60–65% relative humidity in July will hold moisture in a cushion far longer than a dry, moving-air room upstairs. Speed drying up deliberately — open windows, put a fan across the piece rather than pointed at one spot, stand cushions on edge so both faces are exposed, and run a dehumidifier if you are downstairs. Slow drying is what produces musty smells and wicking marks.',
   },
+  {
+    question: 'Can you steam clean a couch?',
+    answer: 'Yes, if the cleaning code on its tag allows water. W means water-based cleaning is fine and WS or SW means water or solvent, so a portable heated extractor or a dry-vapour steamer can be used. S means solvent only and X means vacuum only, so neither machine belongs on those fabrics. Test a hidden patch first, use as little solution as the job needs, take several dry passes, and dry the couch fast: a fan across it, cushions on edge, and a dehumidifier if you are in a basement.',
+  },
+  {
+    question: 'Can I use a garment steamer on my couch?',
+    answer: 'Not as a cleaner. A handheld garment steamer puts out wet, lower-temperature steam made for creases in clothing: it wets the fabric and removes nothing, which is the recipe for the rings and browning described on this page. For a couch, use a portable heated extractor to take soil out, or a dry-vapour steamer with an upholstery tool if you want heat with very little moisture. Check the tag first: X-coded fabric takes neither, and S-coded fabric should not get water or steam.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Extractor or vapour steamer? Picking an upholstery cleaner in Canada: the W/S/X code on your couch tag, why suction beats heat, and damp-basement drying.',
+  description: 'The best steam cleaner for a couch is usually a portable heated extractor that pulls the dirt out; when a vapour steamer fits, and the tag code to check.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +94,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
             <span className="text-white">Best Upholstery Steam Cleaner</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Almost everyone shopping for an &ldquo;upholstery steam cleaner&rdquo; actually wants an <em>extractor</em> &mdash; a machine that pulls the dirt back out. Here is the difference, the four-letter code under your cushion that decides what you are allowed to use, and how to clean a couch without leaving it damp in a GTA basement.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best steam cleaner for a couch is usually not a steamer at all: it is a portable heated extractor, a spot and upholstery cleaner that sprays warm solution in and vacuums the dirty water back out. Choose a dry-vapour steamer only to refresh fabric or reach seams without soaking it, and read the cleaning code under the cushion first.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -96,7 +107,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best upholstery cleaner for most Canadian homes is a <strong>portable heated extractor</strong> &mdash; a Bissell-class spot and upholstery machine that sprays warm solution in and vacuums the dirty water straight back out, roughly the <strong>$200&ndash;$400 CAD</strong> range. A <strong>dry-vapour steamer</strong> is a different tool: it sanitises and reaches seams with heat but has <strong>no suction</strong>, so the soil it loosens stays in the cushion. Check the <strong>W / S / WS / X code</strong> under your cushion before either machine touches the fabric.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best upholstery cleaner for most Canadian homes is a <strong>portable heated extractor</strong> &mdash; a Bissell-class spot and upholstery machine that sprays warm solution in and vacuums the dirty water straight back out. A <strong>dry-vapour steamer</strong> is a different tool: it sanitises and reaches seams with heat but has <strong>no suction</strong>, so the soil it loosens stays in the cushion. Check the <strong>W / S / WS / X code</strong> under your cushion before either machine touches the fabric.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Stains and embedded grime → extractor.</strong> Refresh, odour, seams, dust mites → vapour steamer.</li>
               <li><strong>W</strong> = water-based cleaning OK. <strong>S</strong> = solvent only. <strong>WS</strong> = either. <strong>X</strong> = vacuum only, nothing wet, ever.</li>
@@ -223,7 +234,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Extractors and steamers are appliances, not pesticides &mdash; no PMRA registration applies and none of them carry a pest-control claim. Any effect on dust mites is heat and physical removal, not a treatment.
+            Extractors and steamers are appliances, not pesticides &mdash; no PMRA registration applies and none of them carry a pest-control claim. Any effect on dust mites is heat and physical removal, not a treatment. On heat: BISSELL Canada&rsquo;s <a href="https://www.bissell.com/en-ca/product/bissell%C2%AE-little-green%C2%AE-proheat%C2%AE-portable-carpet-cleaner-2513E.html" target="_blank" rel="noopener noreferrer" className="underline">Little Green ProHeat page</a> says its HeatWave models keep poured-in warm water from cooling and do not heat cold water, so fill them from the hot tap (checked October 28, 2026).
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -265,10 +276,45 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
           </ul>
           <p>If the tag is missing, faded, or the piece is second-hand with no history, test before you commit: a hidden patch on the back or underside, the mildest thing you plan to use, blotted dry, then look at it in daylight an hour later for colour transfer onto the cloth, a ring, or any change in texture. Wool and other natural fibres deserve extra caution with hot water, which can shrink them and can encourage dye migration. Five minutes of testing costs nothing; a permanent tide line across a sofa arm costs a sofa.</p>
 
+          <QuickIdTable
+            title="Which couch cleaner the tag allows"
+            head={['Code on the tag', 'What it means', 'What to use', 'Watch out for']}
+            rows={[
+              ['W', 'Water-based cleaners are fine', 'A portable heated extractor, or a dry-vapour steamer for a refresh', 'Over-wetting: rings, browning and musty smells'],
+              ['S', 'Solvent-based cleaners only; water can damage it or leave rings', 'A dry-cleaning solvent product, used sparingly, or a professional', 'No extractor and no steam'],
+              ['WS or SW', 'Water or solvent cleaners are both acceptable', 'Either machine, after testing a hidden patch', 'Natural fibres such as wool can shrink in hot water'],
+              ['X', 'No liquid of any kind', 'Vacuum and brush only; American Leather says to hire a professional for anything more', 'Any water, solvent or steam'],
+              ['No tag', 'Unknown', 'The mildest method on a hidden patch, checked in daylight an hour later', 'Colour on the cloth, a ring or a change in texture'],
+            ]}
+            caption={<>Codes as American Leather defines them in its <a href="https://www.americanleather.com/resource-center/explaining-fabric-cleaning-codes/" target="_blank" rel="noopener noreferrer" className="underline">guide to fabric cleaning codes</a> (the tag is usually under the cushions or at the base), checked October 28, 2026; the machines and cautions restate this page&rsquo;s own sections.</>}
+          />
+
           <h2>The Specs That Matter &mdash; and the One on the Box That Does Not</h2>
           <p>Suction is the specification that decides your results, because upholstery cleaning is a game of getting back out most of what you put in. Manufacturers do not always publish a comparable figure, so use proxies: how firmly the tool seals against fabric, how well the head is shaped for a curved arm or a car seat, and how much water is left in the piece after a couple of dry passes. A machine that leaves a couch nearly dry has done its job; a machine that leaves it soggy has moved your problem to tomorrow.</p>
           <p>Heat is genuinely useful and genuinely oversold. Most consumer heated extractors maintain the temperature of the water you pour in rather than heating cold water to any serious degree, which is why the practical instruction is to fill the tank from the hot tap and let the heater hold it there. Warm solution cuts greasy soil and dissolves salt much better than cold does. But if you are choosing between a heated machine with mediocre suction and a plainer one that extracts strongly, take the suction. You can pour in hot water. You cannot add a vacuum motor.</p>
           <p>After that: hose length decides whether you can do a full car interior without carrying the machine, tank size decides how often you stop, and weight decides whether you actually use the thing. Tool design matters more than people expect &mdash; a narrow tool that seals on a curved surface beats a wide one that only touches at the edges, which is why an attachment kit is such a cheap upgrade. Ignore a big PSI number on the pump: pressure pushes water in, suction brings it back.</p>
+
+          <h2 id="situation">Which Couch Cleaner for Your Situation?</h2>
+          <ul>
+            <li><strong>A stain you can point at, or a pet accident:</strong> a portable heated extractor, filled from the hot tap.</li>
+            <li><strong>Wall-to-wall carpet or carpeted stairs as well:</strong> a full-size deep cleaner with an upholstery tool.</li>
+            <li><strong>A tired, smelly couch, or someone who reacts to dust:</strong> a dry-vapour steamer in slow passes, then a sealed-HEPA vacuum.</li>
+            <li><strong>Road salt in the car:</strong> a compact spot cleaner with a long hose, on a day mild enough to leave the doors open.</li>
+            <li><strong>A mattress:</strong> spots only, far less solution than on a sofa, extra dry passes and a fan.</li>
+            <li><strong>Something living in the couch:</strong> not an upholstery cleaner; see the <Link href="/blog/best-bed-bug-steamer-canada">bed bug steamer guide</Link>.</li>
+          </ul>
+
+          <h2>Couch Steam Cleaner Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>The code on your tag:</strong> W, S, WS or X decides whether any wet machine is allowed at all.</li>
+            <li><strong>Suction first:</strong> how firmly the tool seals on fabric, and how dry the piece is after a couple of passes.</li>
+            <li><strong>Heat second:</strong> a heated model mostly keeps hot tap water warm, so never trade suction for a heater.</li>
+            <li><strong>Hose length:</strong> enough for a whole car interior or a staircase; BISSELL lists 4.5 ft on its Little Green ProHeat, for scale.</li>
+            <li><strong>Tank size:</strong> small tanks mean frequent refills on a big sectional.</li>
+            <li><strong>A narrow upholstery tool</strong> that seals on curved arms, car seats and stairs, or plan on a tool kit.</li>
+            <li><strong>Weight and storage:</strong> a machine you will actually carry out of the closet.</li>
+            <li><strong>Parts in Canada:</strong> replacement tanks, filters and tools without a cross-border order.</li>
+          </ol>
 
           <RelatedLinks path="/blog/best-upholstery-steam-cleaner-canada" />
           <h2>Over-Wetting Is the Failure Mode</h2>
@@ -280,6 +326,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
 
           <h2>Mattresses, Car Seats and Stairs: Three Different Problems</h2>
           <p>A <strong>mattress</strong> is the piece to be most careful with, because you cannot dry the middle of it. Foam and fibre hold water far below where any vacuum tool reaches, and a core that stays damp for a day or two is an odour and mould risk you will not see until it is established. Work spots rather than the whole surface, use noticeably less solution than you would on a sofa, run extra dry passes, and put a fan on it. For general refreshing and reducing dust mites in the top layer, low-moisture vapour steam followed by a thorough pass with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> is the better routine, and a zippered <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement</Link> does more for the long-term condition of a mattress than any amount of cleaning.</p>
+          <Photo id="house-dust-mite" alt="House dust mite seen under a scanning electron microscope" caption="A North American house dust mite under a scanning electron microscope (US government image). Dust mites live in the top layer of mattresses and couches, the layer that slow, low-moisture steam heats." />
           <p>A <strong>car interior</strong> is where a portable extractor is most obviously worth its money, and in Ontario the season for it is late winter. Road salt tracked in through January and February recrystallises around the carpet fibres, and vacuuming barely touches it &mdash; you can hear it crunching but it will not lift. Warm water redissolves the salt and the extractor pulls the brine out. Vacuum thoroughly first, work in small overlapping sections, extract hard, and do it on a day mild enough to leave the doors open, because a car closed up damp will smell for a week.</p>
           <p><strong>Stairs</strong> are the case that argues for a full-size machine: carpeted stairs are awkward, soil heavily, and eat tank capacity, so the long hose and larger tanks of an upright genuinely help. If your home is hardwood throughout and the stairs are bare, that argument disappears and a portable is the smarter buy.</p>
 
@@ -290,6 +337,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
 
           <h2>If the Reason Is a Pest Rather Than a Stain</h2>
           <p>One honest caveat to close on, because it changes the machine. Everything above assumes you are cleaning. If you are looking at upholstery because something is living in it, an extractor is the wrong tool entirely &mdash; it removes soil, not insects. Dry-vapour steam is what matters there, but it needs the right class of machine and the right technique: a proper boiler unit, a narrow tool, and a slow, deliberate pass along every seam, fold and tuft rather than a sweep across a surface.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). Seams, folds and tufts are where the slow steam pass has to go; an extractor removes soil, not insects." />
           <p>That is a genuinely different guide, and we have written it: the <Link href="/blog/best-bed-bug-steamer-canada">best bed bug steamers in Canada</Link> covers which units hold usable temperature at the tip, and <Link href="/blog/best-steam-cleaner-for-pest-control-canada">steam cleaners for pest control</Link> covers the wider category including dust mites and fleas. If you are in the GTA and it is your <em>yard</em> rather than your furniture that is the problem, that part we handle ourselves.</p>
 
           <h2>Frequently Asked Questions</h2>

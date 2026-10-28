@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-deer-fence-for-gardens-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Deer Fence for Gardens in Canada 2026 — 7 ft Netting, Posts, and the Install That Actually Holds'
-const META_TITLE = 'Best Deer Fence for Gardens in Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Best Deer Fence for Gardens in Canada'; top queries, Jul 28-Oct 25 (all countries): deer fence canada 288 at 8.1, deer fence 212 at 22.3, deer fencing 89 at 24.0, deer fence for garden 38 at 15.6, deer fencing canada 35 at 10.5 (2 clicks).
+const META_TITLE = 'Deer Fence Canada: How Tall & the Best Netting'
 
 const FAQS = [
   {
@@ -54,11 +57,19 @@ const FAQS = [
     question: 'Does fencing deer out reduce ticks in my yard?',
     answer: 'It helps, and it is a real reason to fence rather than a marketing angle. Adult blacklegged ticks feed and mate on white-tailed deer, so deer moving through a property every night are the delivery mechanism that drops engorged females into your landscape beds and lawn edges. Excluding deer from the part of the yard your family actually uses removes one of the main ways ticks arrive. What it does not do is clear the ticks already established in the leaf litter, the wood line, and the shaded lawn-to-brush transition zone — those persist for years on their own, carried around by mice, chipmunks and birds that walk straight under any deer fence. So treat a deer fence as one layer. Clearing leaf litter, keeping a hard edge between lawn and brush, and treating the transition zone is the other layer.',
   },
+  {
+    question: 'Does a deer fence have to be 8 feet tall?',
+    answer: 'Eight feet is the height the sources give. Ontario\'s agriculture ministry specifies 96 inches for a white-tailed deer fence (written for deer farms, the strictest case), and the UVM Extension Master Gardener Program says garden deer fences "must be at least 8 feet high to be effective," because deer can usually jump up to eight feet. Seven feet holds in many gardens, and an extension answer for an Oregon gardener calls a single 7-foot fence workable. Build to 8 ft where winter browse matters, where snow settles against the fence, or where deer have already cleared a lower one. A slanted or double fence can be lower.',
+  },
+  {
+    question: 'Is an electric fence enough to keep deer out?',
+    answer: 'Not on its own as a perimeter, by Ontario\'s agriculture ministry, which says (for deer farms) that electric fence should not be used exclusively for the perimeter fence "since it creates a psychological barrier only, not a physical barrier." In a garden, multi-wire electric fencing can work on an orchard or plot you check every week, but grounding suffers in frozen soil, and winter is when browse pressure peaks. For a cedar hedge, fruit trees or a garden you need protected through the winter, a physical fence at full height is the dependable answer and electric wire is the add-on.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Deer fencing for Canadian gardens: why 7 ft is the number, poly netting vs metal, post spacing, ground staking, and the autumn install window.',
+  description: 'Deer fence in Canada: how tall it must be (Ontario gives 8 ft for white-tailed deer), the best poly netting, posts and spacing, staking the bottom, by-laws.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +94,7 @@ export default function BestDeerFenceForGardensCanadaPage() {
             <span className="text-white">Best Deer Fence for Gardens</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A deer fence is one of the few wildlife purchases that either works completely or does nothing at all &mdash; and the line between the two is about twelve inches of height and a properly staked bottom edge. Here is how to size it, what specification actually matters, and why the fence goes up in October rather than May.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best deer fence for a Canadian garden is UV-stabilised black poly deer netting at least 7&nbsp;ft tall, and 8&nbsp;ft where you can: 96 inches is the height Ontario&rsquo;s agriculture ministry gives for a white-tailed deer fence, and UVM Extension says garden deer fences must be at least 8 feet. Hang it on posts with a tensioned top line and pin the bottom every 3&ndash;5&nbsp;ft, because deer push under before they jump. Where a by-law caps the height, a slanted or double fence works lower.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -189,12 +200,31 @@ export default function BestDeerFenceForGardensCanadaPage() {
           <h2>Why 7 ft Is the Number (and the Three Times It Is Not)</h2>
           <p>A healthy white-tailed deer clears a six-foot fence from a standstill. Not a determined deer, not a spooked deer &mdash; an ordinary one, in the course of a normal night. Six-foot netting is sold in volume because six feet is the height people expect a fence to be, and it is the most expensive mistake in this category: it costs nearly what seven-foot netting costs, takes exactly the same weekend to install, and does not work. If your budget only reaches six feet of a premium product, buy seven feet of a cheaper one.</p>
           <p>Eight feet is genuinely better where you can get it, for one Canadian reason that most guides written for milder climates never mention: <strong>snow raises the ground</strong>. Two feet of settled snowpack against a seven-foot fence leaves a five-foot obstacle, and it does so in the exact months when browse pressure is worst and a deer has the strongest reason to try. If the thing you are protecting is a cedar hedge, a young orchard, or shrubs that matter in winter, build to eight.</p>
+          <Photo
+            id="deer-droppings-snow"
+            alt="Deer droppings, small pellets, on snow"
+            caption="Deer droppings on snow at Big Meadows, Shenandoah National Park (National Park Service photograph). Fresh pellets on snow mean deer are moving through in winter, the season when browse pressure is worst and settled snow makes any fence shorter."
+          />
           <p>Three situations legitimately allow less height:</p>
           <ul>
             <li><strong>A small enclosed plot.</strong> Deer are reluctant to jump into a confined space where they cannot see a landing and an exit. Around a compact vegetable garden &mdash; call it under four hundred square feet &mdash; five to six feet often holds, because the constraint is psychological rather than athletic. Around an open yard, the same five feet is a stepping stone.</li>
             <li><strong>A slanted fence.</strong> A single fence leaned outward at roughly forty-five degrees presents a wide obstacle rather than a tall one, and deer judge it poorly. Five to six feet of vertical height is enough when the lean gives you several feet of horizontal depth.</li>
             <li><strong>A double-row fence.</strong> Two parallel fences of five feet, set three to five feet apart, exploit the same weakness. Deer will not commit to a jump they cannot see themselves clearing and landing beyond. This is also the standard workaround when a municipal by-law caps your fence height.</li>
           </ul>
+
+          <QuickIdTable
+            title="How tall a deer fence needs to be: what the sources say"
+            head={['Fence design', 'Height or layout', 'Source']}
+            rows={[
+              ['Single vertical fence', '96 in. (8 ft) for white-tailed deer', 'Ontario Ministry of Agriculture, Food and Agribusiness'],
+              ['Single garden fence', 'At least 8 ft; deer can usually jump up to 8 ft', 'UVM Extension Master Gardener Program, 2024'],
+              ['Single garden fence', 'A single 7 ft fence works; 7 ft with mesh at the bottom preferred to a double fence', 'Ask Extension answer for an Oregon gardener, 2023'],
+              ['Slanted fence', '6 ft tall, leaned at 45 degrees, 4 ft wide', 'UVM Extension Master Gardener Program'],
+              ['Double fence', 'Two 4 ft fences 4 ft apart (UVM), or two 5 ft fences 4–5 ft apart (Oregon answer)', 'Both extension answers'],
+              ['Electric wire alone', 'Not for a perimeter on its own: a psychological barrier only, not a physical one', 'Ontario Ministry of Agriculture, Food and Agribusiness'],
+            ]}
+            caption={<>Sources, checked October 28, 2026: Ontario&rsquo;s <a href="https://www.ontario.ca/page/fencing-deer-and-elk" target="_blank" rel="noopener noreferrer" className="underline">Fencing for deer and elk</a> (written for deer farms, which keep deer in, so it is the strictest case); UVM Extension Master Gardener answer on <a href="https://ask.extension.org/kb/faq.php?id=864531" target="_blank" rel="noopener noreferrer" className="underline">garden deer fences</a> (April 2024); Ask Extension answer on <a href="https://ask.extension.org/kb/faq.php?id=851579" target="_blank" rel="noopener noreferrer" className="underline">double deer fences</a> (September 2023), which notes Oregon State has not researched fence designs.</>}
+          />
 
           <h2>Deer Barrier Options Compared</h2>
           <p>Here is the honest comparison, with a live Amazon.ca availability check for the options worth buying.</p>
@@ -265,6 +295,18 @@ export default function BestDeerFenceForGardensCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="7 ft deer fence netting 100 ft roll">Check 7 ft deer netting on Amazon.ca →</BuyLink>
           </div>
 
+          <h3>Deer Fence Buyer&rsquo;s Checklist</h3>
+          <ul>
+            <li><strong>Height:</strong> 7&nbsp;ft at the least, 8&nbsp;ft where winter browse or drifting snow matters (Ontario&rsquo;s figure for white-tailed deer is 96&nbsp;in.).</li>
+            <li><strong>UV-stabilised black polypropylene:</strong> if the listing does not say UV-treated or UV-stabilised, assume it is not.</li>
+            <li><strong>Breaking strength:</strong> a light grade for a seasonal vegetable enclosure, a heavier grade for a permanent perimeter that takes snow load.</li>
+            <li><strong>Mesh:</strong> about 2&nbsp;in. stops deer; add a 2&nbsp;ft band of smaller mesh along the bottom if rabbits or groundhogs are also on the list.</li>
+            <li><strong>Posts:</strong> fence height plus 18&ndash;24&nbsp;in. of burial (8.5&ndash;9&nbsp;ft posts for 7&nbsp;ft netting), set every 10&ndash;12&nbsp;ft.</li>
+            <li><strong>Top line and ties:</strong> a tensioned rope or coated cable, and UV-rated black cable ties at every post.</li>
+            <li><strong>Bottom staples:</strong> heavy landscape staples or anchor pins, one every 3&ndash;5&nbsp;ft along the whole run.</li>
+            <li><strong>Your by-law:</strong> check the municipal fence height cap before you order.</li>
+          </ul>
+
           <h2>Posts, Spacing and the Top Line</h2>
           <p>The single most common install error after height is treating the netting as if it were the fence. It is not. The netting is a skin; the posts and the top line are the structure, and the mesh carries almost no load of its own.</p>
           <p>Set line posts <strong>ten to twelve feet apart</strong>, closer on corners, gates and any run crossing a slope. Beyond about fifteen feet the mesh bellies between posts, and a belly is just a lower fence with extra steps. Buy posts long enough that after driving <strong>eighteen to twenty-four inches</strong> into the ground you still have your full height above grade &mdash; for a seven-foot fence that means eight and a half to nine feet of post. Sandy or soft ground wants more depth; the spring thaw is when under-driven posts lean and take a whole run with them.</p>
@@ -305,6 +347,11 @@ export default function BestDeerFenceForGardensCanadaPage() {
 
           <h2>Deer, Ticks and Why We Care About This at All</h2>
           <p>We are a mosquito and tick company, so the reason deer are on our radar is not the hostas. Adult blacklegged ticks feed and mate on white-tailed deer, and a deer that walks a property every night is a delivery system dropping engorged females into the beds and lawn edges. Excluding deer from the part of the yard your family uses removes one of the main ways ticks arrive on the property in the first place.</p>
+          <Photo
+            id="blacklegged-tick-female"
+            alt="An adult female blacklegged (deer) tick, seen from above"
+            caption="An adult female blacklegged (deer) tick, Ixodes scapularis (CDC photograph). Adult blacklegged ticks feed and mate on white-tailed deer, which is how deer walking a yard at night drop them into its beds and lawn edges."
+          />
           <p>The honest limit is that it does not clear what is already there. Ticks established in leaf litter and along the lawn-to-brush transition persist on their own, carried by mice, chipmunks and birds that walk straight under any deer fence. So a deer fence is one layer. Clearing leaf litter, keeping a hard edge between lawn and brush, and treating that transition zone is the other &mdash; our guide to <Link href="/blog/how-to-keep-ticks-out-of-yard-ontario">keeping ticks out of an Ontario yard</Link> covers the landscaping side, and the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged deer tick in Ontario</Link> explains why the deer connection matters at all. For properties in the GTA, our tick program runs five applications across the May-to-September season, targeted at that transition zone rather than the open lawn.</p>
 
           <h2>Deer Fencing — Key Facts</h2>

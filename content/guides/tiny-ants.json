@@ -37,6 +37,7 @@
   "body": [
     { "type": "h2", "text": "How do you identify a tiny ant?" },
     { "type": "p", "text": "Work through five checks in order: color, size, the waist, the smell of one crushed worker, and where the trail runs. No single check settles it, because sources give slightly different sizes and two of the species smell alike, but together they narrow a small house ant to one of seven candidates. Several of them answer to [the nickname sugar ants](/blog/sugar-ants), and [the complete ant reference](/learn/ants) covers how colonies work and which species matter for a building." },
+    { "type": "figure", "src": "/guides/photos/thief-ants-counter-pen-tip.webp", "width": 1200, "height": 1600, "alt": "Dozens of tiny reddish-brown thief ants on a speckled kitchen countertop beside the tip of a ballpoint pen", "caption": "Thief ants, *Solenopsis molesta*, on a kitchen counter in Menomonee Falls, Wisconsin, beside a pen tip for scale; the observer found them on dirty dishes. At 1/32 to 1/20 inch, thief ants are the smallest ants in this key.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/402477450" },
     { "type": "ol", "items": [
       "**Color.** A light yellow, honey or tan ant points to a pharaoh or thief ant, a dark head and thorax with a milky white abdomen and legs points to a ghost ant, and brown to black leaves the odorous house, Argentine, little black and pavement ants.",
       "**Size.** Lay a ruler marked in sixteenths of an inch beside the trail. Thief ants run 1/32 to 1/20 inch, pharaoh and ghost ants about 1/16 inch, and the dark species about 1/10 to 3/16 inch.",
@@ -62,7 +63,9 @@
 
     { "type": "h2", "text": "What does a crushed tiny ant smell like?" },
     { "type": "p", "text": "Only three of the seven have a smell the sources describe, and two of those smell alike. Ohio State says odorous house ants smell like rotten coconuts when crushed, and the University of California lists a very strong odor for the species. The Florida profile of the Argentine ant describes a musty odor, and it says crushing a living worker is the best way to separate an Argentine ant from an odorous house ant without a microscope." },
+    { "type": "figure", "src": "/guides/photos/odorous-house-ant-kitchen-counter.webp", "width": 1200, "height": 728, "alt": "Close-up of a single dark brown to black odorous house ant on a white kitchen countertop", "caption": "An odorous house ant, *Tapinoma sessile*, on a kitchen counter near the sink in Onondaga County, New York. It is dark brown to black all over, which separates it from the two-toned ghost ant.", "license": "CC-BY-4.0", "credit": "(c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/153045434" },
     { "type": "p", "text": "The ghost ant complicates the test. The Florida ghost ant profile says crushed workers give off an odor similar to rotten coconuts as well, so a coconut smell alone does not prove an odorous house ant. Color settles that pair: the same profile notes that the odorous house ant is entirely dark brown to black, while the ghost ant has pale legs and a pale abdomen." },
+    { "type": "figure", "src": "/guides/photos/ghost-ants-lined-paper.webp", "width": 1200, "height": 1109, "alt": "A tiny ghost ant on lined paper, with a dark head and thorax and a pale, almost see-through abdomen and legs", "caption": "A ghost ant, *Tapinoma melanocephalum*, on lined paper in Holualoa, Hawaii, one of the ants the observer found on a knife left out with orange marmalade. The dark head and thorax with a pale abdomen and legs is the ghost ant's tell.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/18435629" },
     { "type": "p", "text": "The sources cited on this page describe no distinctive smell for pharaoh, thief, little black or pavement ants. That is not proof that the odor is absent, so treat a missing smell as neutral rather than as a clue." },
 
     { "type": "h2", "text": "Where does the trail run, and what does that suggest?" },
@@ -76,6 +79,7 @@
       "**Shallow mounds in soil or debris, or wall voids.** These are the odorous house ant sites in the University of California table.",
       "**Soil, rotted wood or house woodwork.** Ohio State lists woodwork, masonry, soil and rotted wood for the little black ant."
     ] },
+    { "type": "figure", "src": "/guides/photos/pavement-ant-chip-crumb.webp", "width": 1200, "height": 900, "alt": "A small dark pavement ant pulling a yellow chip crumb across a wood surface inside a house", "caption": "A pavement ant, *Tetramorium immigrans*, trying to carry off a chip crumb inside a house in Sanpete County, Utah. Ohio State lists pavement ant nests under stones, in pavement cracks and along curb edges.", "license": "CC-BY-4.0", "credit": "(c) lchaney, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/39631535" },
 
     { "type": "h2", "text": "How do you tell the look-alike pairs apart?" },
     { "type": "p", "text": "Four pairs cause most of the mix-ups, and each has a separator that does not depend on size." },
@@ -85,6 +89,7 @@
       "**Argentine ant or odorous house ant.** Both are brown ants with one node. Crushing a worker separates them, since the Argentine ant smells musty. Under a strong lens the Florida profile notes that the odorous house ant has a flattened node, while the Argentine ant has an erect one.",
       "**Pavement ant or little black ant.** Both are dark and have two nodes. Ohio State describes the pavement ant as hairy and sluggish, with a pair of short spines at the rear of the thorax and a head and thorax furrowed by parallel grooves. Its entry on the little black ant describes a slender, shiny black worker and mentions neither spines nor grooves."
     ] },
+    { "type": "figure", "src": "/guides/photos/pharaoh-ant-sugar-crystal.webp", "width": 1200, "height": 800, "alt": "A pale yellowish-brown pharaoh ant beside a large clear crystal of sugar, magnified", "caption": "A pharaoh ant, *Monomorium pharaonis*, worker beside a single crystal of sugar. Ohio State says pharaoh ants take jellies, honey, corn syrup and soft drinks as well as greases, while thief ants do not seem to feed on sweets.", "license": "CC-BY-3.0", "credit": "Julian.szulc, CC BY 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monomorium_pharaonis_worker_with_sugar_crystal.jpg" },
     { "type": "media", "needed": "Side-by-side macro photo of a pharaoh ant and a thief ant on a white card, with the antennae in focus and labels showing 12 segments with a 3-segment club on the pharaoh ant and 10 segments with a 2-segment club on the thief ant" },
 
     { "type": "h2", "text": "Why does the species change which bait works?" },
@@ -104,6 +109,7 @@
 
     { "type": "h2", "text": "Is that tiny insect an ant at all?" },
     { "type": "p", "text": "Check the waist and the antennae. Ohio State describes an ant's body as pinched in at the waist in a figure-8 shape, with elbowed antennae, while termites have no waist constriction and straight, bead-like antennae. If the insect has wings, the same fact sheet says an ant's forewings are much larger than its hindwings, while a termite's wings are equal in size and shape. A winged insect is a swarmer rather than a worker, and [the comparison of flying ants and termites](/blog/flying-ants-vs-termites) walks through the differences." },
+    { "type": "p", "text": "Still not sure it is an ant? [The five-question pest identifier](/tools/what-bug-is-this) asks where you found it, its size and how it moves, and names the most likely pest." },
     { "type": "p", "text": "If the ant is larger than anything in the table, it is outside this key. Ohio State gives carpenter ant workers as about 1/4 inch for the smaller workers and 1/2 inch for the larger ones, well above the dark species here. [A guide to black ants around US homes](/blog/black-ants) sorts the small dark species from the big ones, and a separate page covers [how to find a carpenter ant nest](/blog/carpenter-ants-canada)." },
 
     { "type": "h2", "text": "What should you do once you know the species?" },

@@ -2,9 +2,16 @@
  "id": "how-long-do-mice-live",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e2756f00c4da1079692f957b34d3792847680be51d06b159cf46aa53721cd625",
+ "sha": "003a87fce69de53c3b28e1127a8798af4285e4c67d7b8c8a26e932d12b41c5ea",
  "claimsChecked": 52,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 5 real photos added as figure blocks, all new to the ledger (photo-notes-batch15): house-mouse-jar-rim (iNaturalist, CC0; lead), spotted-owl-with-mouse (NPS photo via Commons, public domain), pet-mouse-two-years-old (Commons, CC BY-SA 3.0), newborn-house-mice-coin (Commons, CC BY-SA 4.0) and house-mouse-droppings-wall-corner (NY State IPM Program at Cornell, CC BY 2.0). Captions restate the photo records and facts already on the page (UC IPM, Merck); media placeholder kept; no fact or date changed.",
+   "previousSha": "e2756f00c4da1079692f957b34d3792847680be51d06b159cf46aa53721cd625"
+  }
+ ]
 }

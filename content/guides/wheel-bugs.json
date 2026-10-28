@@ -93,7 +93,8 @@
       { "href": "/blog/kissing-bug-look-alikes", "name": "Kissing bug", "photo": "eastern-kissing-bug", "note": "Straight beak, stick-like head and often a striped body edge; feeds on blood at night", "alt": "Dark eastern kissing bug seen from above, with pale bands along the edge of its body, beside a size bar and a small US range map" },
       { "href": "/blog/leaf-footed-bugs", "name": "Leaf-footed bug", "photo": "leaf-footed-bug", "note": "Leaf-like enlargements on the hind legs; a plant feeder that does not bite", "alt": "Dark brown eastern leaf-footed bug with a pale band across its wings and flattened, leaf-like hind legs, on a sunflower head" },
       { "href": "/blog/western-conifer-seed-bugs", "name": "Western conifer seed bug", "photo": "western-conifer-seed-bug", "note": "About 3/4 inch, buzzes loudly in flight and comes indoors in fall", "alt": "Reddish brown western conifer seed bug with long antennae and legs on a black computer keyboard" },
-      { "href": "/blog/how-to-get-rid-of-boxelder-bugs", "name": "Boxelder bug", "photo": "boxelder-bug", "note": "Smaller than most kissing bugs, with red eyes and no banded edge; does not bite", "alt": "Black boxelder bug with orange stripes and red eyes on a twig with small yellow flowers" }
+      { "href": "/blog/how-to-get-rid-of-boxelder-bugs", "name": "Boxelder bug", "photo": "boxelder-bug", "note": "Smaller than most kissing bugs, with red eyes and no banded edge; does not bite", "alt": "Black boxelder bug with orange stripes and red eyes on a twig with small yellow flowers" },
+      { "href": "/blog/stick-bugs", "name": "Walkingstick", "photo": "northern-walkingstick-porch-railing", "note": "Twig-shaped body and six long legs of equal length; it eats leaves", "alt": "Brown northern walkingstick, long and twig-thin, resting on a black porch railing beside white house siding" }
     ] },
 
     { "type": "h2", "text": "Are assassin bugs good for the garden?" },

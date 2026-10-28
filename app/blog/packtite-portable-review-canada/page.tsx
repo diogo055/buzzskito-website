@@ -14,12 +14,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'packtite-portable-review-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'PackTite Portable Review Canada 2026 — Is the Small Folding Bed-Bug Heater Worth It?'
-const META_TITLE = 'PackTite Portable Review Canada 2026 — Worth It?'
+// TITLE NOTE (Oct 28, 2026): was 'PackTite Portable Review Canada 2026 — Worth It?'; top queries, 90 days to Oct 28: packtite 75 at 3.6 (2 clicks), packtite bed bug heater 30 at 5.9, packtite canada 21 at 2.3, pack tite 5 at 4.8 (1 click), packtite heater 5, packtite closet 4 (the PackTite Closet review owns it), packtite 2 bed bug killing heat 3 (150 impressions, 3 clicks).
+const META_TITLE = 'PackTite Canada: Portable Bed Bug Heater Review'
 
 const FAQS = [
   {
@@ -70,15 +74,20 @@ const FAQS = [
     question: 'Is the PackTite Portable big enough to treat a suitcase?',
     answer: 'Usually not a full hard-shell suitcase, no — the Portable is sized for the contents of a suitcase and smaller items rather than a large piece of luggage itself. If treating luggage is your main goal, look specifically at larger luggage-scale heat bags built for that purpose, or plan to empty a suitcase and run the soft contents in batches. Overstuffing a small chamber to force a large item in is counterproductive: it insulates the core, prevents even heat penetration, and can leave survivors. Match the item to the chamber size, or step up to a larger unit if bulky luggage is the recurring problem you need to solve.',
   },
+  {
+    question: 'Were PackTite heaters ever recalled?',
+    answer: 'Yes, an early batch. On December 10, 2013 the US Consumer Product Safety Commission announced a recall of about 9,000 PackTite heating units sold with the original PackTite bed bug treatment systems from October 2009 through January 2013, because the heaters could overheat, melt and cause a fire. PackTite had three complaints, one in which the items being treated were singed, and no injuries. Owners were told to stop using the recalled heaters and get a free replacement from PackTite. If you are offered a second-hand PackTite, ask how old it is, and contact PackTite before using a unit from those years.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'An independent Canadian review of the PackTite Portable folding bed-bug heat chamber: what temperature it reaches, what fits, what not to load, the stock-availability caveat, and how it compares to ZappBug and ThermalStrike heat bags. Updated 2026.',
+  description: 'PackTite in Canada: the small bed bug heater, listed today as the PackTite 2, holds a load at 120°F for an hour. What fits, Canadian stock, the 2013 recall.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-adult-ruler'),
 })
 
 const AMZ_TAG = tagForSlug('packtite-portable-review-canada')
@@ -86,7 +95,7 @@ const AMZ_TAG = tagForSlug('packtite-portable-review-canada')
 export default function PackTitePortableReviewCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of the PackTite Portable folding bed-bug heat chamber — kill temperature, what fits, safety, stock availability, and how it compares to ZappBug and ThermalStrike heat bags.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of the PackTite Portable folding bed-bug heat chamber — kill temperature, what fits, safety, stock availability, and how it compares to ZappBug and ThermalStrike heat bags.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-adult-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'PackTite Portable Review Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -99,7 +108,7 @@ export default function PackTitePortableReviewCanadaPage() {
             <span className="text-white">PackTite Portable Review Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The PackTite Portable is the small, folding heat chamber built to kill bed bugs on the items you cannot wash or tumble-dry &mdash; shoes, books, bags, and travel gear. Here is what it actually does, what fits, the Canadian stock caveat, and how it stacks up against ZappBug and ThermalStrike.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The PackTite Portable is worth it for one job: killing bed bugs and their eggs on things you cannot wash or tumble-dry, such as shoes, books, bags and travel gear. US pest-supply stores now list PackTite&rsquo;s smaller unit as the PackTite 2, whose listing says to hold the centre of the load at 120&deg;F (49&deg;C) for an hour. It will not treat a mattress, and Canadian stock comes and goes, so ZappBug and ThermalStrike bags are the stand-ins.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,7 +123,7 @@ export default function PackTitePortableReviewCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The <strong>PackTite Portable</strong> is a small, folding heat chamber that brings its interior to roughly <strong>120&ndash;140&deg;F (49&ndash;60&deg;C)</strong> &mdash; hot enough to kill bed bugs and their eggs at every life stage &mdash; on items you cannot launder, like shoes, books, bags, and travel gear. It is genuinely good at that narrow job and folds flat to store. The two caveats: the chamber is <strong>small</strong> (no mattresses, no full suitcases), and Canadian stock is <strong>intermittent</strong>, so check current amazon.ca availability and know that ZappBug and ThermalStrike heat bags fill the same role.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Reaches a sustained <strong>120&ndash;140&deg;F</strong> internal temperature &mdash; lethal to bed bugs and their heat-resistant eggs.</li>
+              <li>Reaches a sustained <strong>120&ndash;140&deg;F</strong> internal temperature &mdash; lethal to bed bugs and their heat-resistant eggs. The PackTite 2 listing says to hold the <strong>centre of the load at 120&deg;F for one hour</strong>, with the included thermometer in the middle.</li>
               <li>Built for <strong>non-launderable items</strong>: shoes, books, backpacks, stuffed toys, soft goods, travel gear.</li>
               <li>Folds flat for storage &mdash; the reason travellers and apartment dwellers pick it over a rigid oven.</li>
               <li><strong>Do not load</strong> electronics, batteries, aerosols, candles, or anything that melts near 140&deg;F.</li>
@@ -209,6 +218,20 @@ export default function PackTitePortableReviewCanadaPage() {
           <h2>What the PackTite Portable Actually Is</h2>
           <p>The PackTite Portable is a soft-sided, folding heat chamber &mdash; think of a reinforced fabric bag with a heating element and a fan &mdash; designed to do one thing well: bring the items you place inside it up to a temperature that kills bed bugs and their eggs, then hold it there. It is the small, packable member of a family of heat-treatment tools that runs all the way up to closet- and room-scale units. Where the big chambers process wardrobes and furniture, the Portable is aimed squarely at the belongings a washing machine and dryer cannot help you with: shoes, books, backpacks, purses, stuffed animals, folded soft goods, and travel gear.</p>
           <p>That narrow focus is the whole point. A dryer already kills bed bugs on anything you can safely tumble-dry, so the reason a heat chamber exists at all is for the objects a dryer would destroy. The PackTite Portable earns its place by treating those objects chemically-free, in one unattended cycle, at a temperature that reaches every life stage including the eggs that sprays so often miss. And because it folds flat, it stores in a closet and travels in a car trunk &mdash; which is precisely why apartment dwellers and frequent travellers reach for it over a rigid box.</p>
+          <p>A note on names before you shop. US pest-supply stores now list PackTite&rsquo;s range as two products, the PackTite 2 and the larger PackTite Closet. The PackTite 2 listing gives its size as 36 x 19 x 24 inches, includes a thermometer that goes in the centre of the load, and says to bring the items to 120&deg;F and hold that temperature for one hour, without letting them touch the outer sides, the power cord, the top flap or the zipper.</p>
+
+          <QuickIdTable
+            title="Which heat tool for which item"
+            head={['Tool', 'Best for', 'Heat and time', 'Limits']}
+            rows={[
+              ['Clothes dryer', 'Washable clothes and bedding; small non-washable and dry-clean-only items', 'Hot dryer for 30 minutes or more (Health Canada)', 'Anything a hot tumble would damage'],
+              ['PackTite 2 / Portable', 'Shoes, books, bags, soft goods and travel gear a dryer would ruin', 'Centre of the load at 120°F (49°C), held one hour (PackTite 2 listing); included thermometer', 'Small chamber; items must not touch the sides, cord, top flap or zipper; do not overfill'],
+              ['PackTite Closet, ZappBug, ThermalStrike', 'Bigger loads: hanging clothes, luggage', 'Same rule: verify the temperature at the centre of the load', 'Bulkier to store than a small bag'],
+              ['Steamer', 'Mattress seams, bed frames, baseboards', 'Steam leaves the machine at 100°C or more; bed bugs die at 50°C (Health Canada)', 'Kills only what the steam reaches'],
+              ['Whole-room heat', 'A whole room or home', 'Room-scale heat treatment', 'Health Canada: heat treatments should be left to the professionals'],
+            ]}
+            caption={<>From Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Bedbugs: how do I get rid of them?</a> and the PackTite 2 specifications on a US pest-supply store&rsquo;s listing (<a href="https://www.solutionsstores.com/packtite-2-bed-bug-killing-heat-system" target="_blank" rel="noopener noreferrer" className="underline">Solutions Stores</a>), read October 28, 2026.</>}
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the PackTite Portable and its closest stand-ins:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -220,6 +243,8 @@ export default function PackTitePortableReviewCanadaPage() {
           <NextUp path="/blog/packtite-portable-review-canada" />
           <h2>The Temperature Story: Why Heat Kills What Sprays Cannot</h2>
           <p>Bed bugs are remarkably resilient to chemicals &mdash; resistance to common pyrethroid insecticides is now widespread &mdash; but they have no defence against heat. Sustained temperatures above roughly <strong>118&deg;F (48&deg;C)</strong> kill bed bugs, and critically, the same heat range kills the eggs, which are the hardest stage to reach with any spray because of their protective shell and the way females cement them into cracks. The PackTite Portable is built to bring its interior to about <strong>120&ndash;140&deg;F (49&ndash;60&deg;C)</strong>, comfortably inside the lethal window with margin to spare.</p>
+          <Photo id="bed-bug-adult-ruler" alt="Adult bed bug beside a millimetre ruler" caption="An adult bed bug, Cimex lectularius, beside a millimetre ruler (CDC); adults average about 5 mm long. A heat cycle has to reach every life stage, eggs included, at the centre of the load." />
+          <p>University of Minnesota Extension puts the lethal point for bed bugs and their eggs at 118&deg;F (48&deg;C) held for 90 minutes, or 122&deg;F (50&deg;C) for an immediate kill, and Health Canada uses the same 50&deg;C figure. The PackTite 2 listing&rsquo;s rule is to bring the centre of the load to 120&deg;F and hold it there for an hour.</p>
           <p>The word to hold onto is <em>sustained</em>. It is not the peak reading on the thermometer that does the killing &mdash; it is holding a lethal temperature long enough for the heat to soak all the way to the core of whatever you loaded. A single shoe reaches temperature quickly; a tightly packed stack of books can hold a cool pocket at its centre for a long time, and a cool pocket is exactly where a bug survives to re-infest you. That is why the chamber ships with a thermometer and why the correct technique is to verify the <em>centre</em> of the load has reached target, not just the air in the bag.</p>
 
           <h2>What You Can (and Cannot) Put Inside</h2>
@@ -231,6 +256,7 @@ export default function PackTitePortableReviewCanadaPage() {
             <li><strong>Stuffed animals, blankets, and soft goods</strong> &mdash; especially delicate items you would not tumble-dry.</li>
             <li><strong>Folded clothing, hats, and travel gear</strong> &mdash; loosely packed so heat can circulate.</li>
           </ul>
+          <Photo id="bed-bug-nymph" alt="Bed bug nymph on fabric" caption="A bed bug nymph on fabric. The cycle has to reach every life stage, nymphs and eggs included, which is why soft goods go in loosely packed." />
           <p>Keep these out, without exception, because the same heat that kills bed bugs will warp, melt, or destroy them:</p>
           <ul>
             <li><strong>Electronics of any kind</strong> &mdash; laptops, phones, tablets, chargers, anything with an LCD.</li>
@@ -261,9 +287,23 @@ export default function PackTitePortableReviewCanadaPage() {
           </ul>
           <p>Read that as a spending map: buy the right <em>size</em> and a genuinely reliable kill temperature first, treat the thermometer as non-negotiable, and pay for folding portability only if your life actually needs it. The way to overspend is to buy far more chamber than your real load requires; the way to underspend is to buy a bargain bag that cannot hold heat and leaves you re-treating.</p>
 
+          <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Buyer&rsquo;s checklist for a PackTite or any heat bag</p>
+            <ul className="space-y-1.5 text-sm text-gray-800 list-disc pl-5">
+              <li><strong>Size against your real load.</strong> The PackTite 2 listing gives 36 x 19 x 24 inches; measure your largest item against that, and remember a mattress will never fit.</li>
+              <li><strong>A thermometer for the centre of the load,</strong> not just an air reading. The PackTite 2 includes one.</li>
+              <li><strong>The kill rule:</strong> 120&deg;F at the centre of the load, held for an hour (PackTite 2 listing).</li>
+              <li><strong>Loading space:</strong> items must not touch the sides, the power cord, the top flap or the zipper, so pack loosely.</li>
+              <li><strong>A hard, heat-tolerant spot</strong> to run it, away from anything flammable, and nothing heat-sensitive inside (see the list above).</li>
+              <li><strong>Buying second-hand?</strong> Heaters sold with the original PackTite systems from October 2009 to January 2013 were recalled in the US over a fire hazard (CPSC); contact PackTite before using one.</li>
+              <li><strong>A dryer first</strong> for anything washable: Health Canada says a hot dryer for 30 minutes or more.</li>
+            </ul>
+          </div>
+
           <h2>Where a Heat Bag Fits in the Whole Plan</h2>
           <p>The most important thing to understand about any heat chamber, the PackTite Portable included, is what it does <em>not</em> do. It treats items, not rooms. It will flawlessly sanitize the belongings you place inside it, but it does nothing about the bed bugs living in your mattress seams, box spring, headboard, bed frame, baseboards, and furniture. Used alone, without addressing the environment, it cannot end an infestation &mdash; it can only stop your treated items from re-seeding a room you cleared some other way.</p>
           <p>So slot it into a workflow. Heat-treat your contained items in the chamber, then handle the bedroom itself with the tools built for surfaces: a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> to kill bugs and eggs in seams and folds with penetrating heat, a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to physically remove what you can reach, <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the bed legs to monitor whether the numbers are actually dropping, and, where appropriate, a PMRA-registered residual product. If you are travelling, the single highest-value use of the Portable is preventive: run your suitcase contents through a cycle in the entryway before they ever reach the bedroom, because catching a hitchhiker in your bag is vastly easier than clearing an established infestation later. For the full sequence, our <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY bed-bug heat-treatment guide</Link> and our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">complete Canadian bed-bug removal guide</Link> lay it out step by step.</p>
+          <Photo id="bed-bug-hotel-bedding" alt="Bed bug on white woven hotel bedding" caption="A bed bug on white woven fabric that the observer photographed at a hotel (bedding, by our reading). Running suitcase contents through a cycle before they reach the bedroom is the preventive use of a heat bag." />
 
           <h2>The Bottom Line</h2>
           <p>The PackTite Portable is a good tool for a specific job. It reaches and holds a temperature that kills bed bugs and their heat-resistant eggs, it treats the non-launderable items a dryer cannot, and it folds away when you are done &mdash; a genuinely useful combination for apartment living and for travellers who want to sanitize a suitcase&rsquo;s contents on the way in the door. Its honest limits are capacity and Canadian availability: it will never treat a mattress or a full suitcase, and you may find it out of stock or import-marked-up when you go to buy. In that case a ZappBug or, for larger loads, a ThermalStrike does the identical job. Buy the PackTite Portable when it is available at a fair price and your problem is contained items &mdash; and remember that whatever chamber you choose, it is one station in a plan, not the whole plan.</p>

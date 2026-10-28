@@ -1,5 +1,270 @@
 {
- "_readme": "Scout notes for the fifteenth photo batch (Oct 28, 2026): Google Images wave 2, six mouse and pet pages (mice-traps, how-long-do-mice-live, baby-mice, fall-mouse-proofing-checklist, mice-poison, learn/pet-safe-pest-control). In progress: the candidates follow.",
- "candidates": [],
- "gaps": []
+ "_readme": "Scout notes for the fifteenth photo batch (Oct 28, 2026): Google Images wave 2, six mouse and pet pages (mice-traps, how-long-do-mice-live, baby-mice, fall-mouse-proofing-checklist, mice-poison, learn/pet-safe-pest-control), chosen for what those searches want to see: the mouse up close and at life stages, signs, trap types in use, bait stations, and the pests the pet-safe page covers. Same format as batches 7 to 14: for each photo, what its source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence, whether it can be a page's lead/share image (leadEligible: public domain or CC0 AND a confident identification of what the page is about), and caveats. The licence, credit and size of record are in photos.json. 27 photos were added with no script change beyond the 27 PHOTOS rows: 7 public domain (all via Wikimedia Commons, one an NPS photo), 3 CC0 (iNaturalist), 4 CC BY 2.0 (three New York State IPM Program photos and one Flickr photo, via Commons), 2 CC BY 4.0 (iNaturalist), 1 CC BY-SA 2.0, 4 CC BY-SA 3.0 and 6 CC BY-SA 4.0. Every iNaturalist photo is research grade with at least one identifier besides the observer. To keep the shared ledger safe while other agents were writing it, the script was run in a scratch copy of the repo (same script, same PHOTOS rows, so every credit and licence was still read from the source page), the 27 files were copied into public/guides/photos/ and the records it wrote were appended to photos.json with the Edit tool (26, then house-mice-garden-shed-litter); a run of the script by another agent in between re-sorted the ledger and kept the first 26, and all 27 are on record at the end. All 27 images were looked at before choosing and again after conversion, and show what their subject lines say. Photos placed per page (new ledger ids in brackets): mice-traps 6 (6), how-long-do-mice-live 5 (5), baby-mice 6 (5, plus house-mouse-vs-young-rat), fall-mouse-proofing-checklist 4 (4), mice-poison 5 (5), learn/pet-safe-pest-control 6 (2, plus argentine-ants-bait-trap, flea-on-comb, tick-on-cat and mothballs). Leads (public domain or CC0): mice-traps mouse-snap-trap-wooden; how-long-do-mice-live house-mouse-jar-rim; baby-mice baby-mice-day-old; mice-poison rodent-bait-station-wall; fall-mouse-proofing-checklist and pet-safe-pest-control keep their hero infographic as the share image, and their first photo is still CC0 or public domain (house-mouse-got-into-house-bucket, argentine-ants-bait-trap).",
+ "candidates": [
+  {
+   "id": "mouse-snap-trap-wooden",
+   "forPages": ["mice-traps", "how-to-get-rid-of-mice-humanely", "learn/mice"],
+   "confidence": "certain (a product photo)",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons File:Victor-Mousetrap.jpg by Evan-Amos (PD-self, 2010): 'A Victor brand mousetrap. This is unset and still has its trap bar stapled down. Though the cheese-shaped trap lever is slightly different, it remains relatively unchanged from mouse traps decades ago.'",
+   "caveats": "A wooden Victor mouse snap trap on white, with a large yellow plastic trigger shaped like cheese; unset, bar stapled down as sold. The brand is printed on the wood; captions need not name it. Widely reused on the web (it illustrates the Wikipedia mousetrap article), so it may not rank on its own in image search, but it is the cleanest public-domain picture of the trap the CDC recommends.",
+   "note": "Credit: Evan-Amos, Public domain, via Wikimedia Commons. Size: 1200x758."
+  },
+  {
+   "id": "plastic-snap-trap-house-mouse-ruler",
+   "forPages": ["mice-traps"],
+   "confidence": "high for a snap trap; house mouse on the photographer's identification",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Schlagfalle-Kunststoff-Maus.jpg by Sebastian Benner (PD-self, 2008): 'Schlagfalle aus Kunststoff mit Hausmaus' (plastic snap trap with house mouse).",
+   "caveats": "A gray plastic snap trap clamped on a brown mouse's head, a yellow folding ruler in centimeters below. No blood, but it is a dead animal: kept out of lead position. Public domain, so it could lead, but a trap without a catch is the kinder first image.",
+   "note": "Credit: Sebastian Benner, Public domain, via Wikimedia Commons. Size: 1200x743."
+  },
+  {
+   "id": "rat-trap-vs-mouse-trap-size",
+   "forPages": ["mice-traps", "rat-vs-mouse", "how-to-get-rid-of-rats-canada"],
+   "confidence": "certain (printed RAT TRAP on the larger one)",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons File:Rattrap and mousetrap.JPG by Capt. Phoebus (PD-self, 2009): 'Rattrap and mousetrap'.",
+   "caveats": "A Victor rat trap above a Victor mouse trap on gray, showing the size difference the page's Size matters paragraph is about.",
+   "note": "Credit: Capt. Phœbus (talk), Public domain, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "electronic-mouse-trap-against-wall",
+   "forPages": ["mice-traps", "victor-electronic-mouse-trap-review-canada"],
+   "confidence": "high for an electronic rodent trap (Victor branding visible)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Piège à souris électrique..jpg by Netslider90 (CC BY-SA 4.0, 2016): 'Piège à souris électrique Victor' (Victor electric mouse trap).",
+   "caveats": "A black tunnel-shaped electronic trap on a concrete floor against a wall; it may be the larger rat-size model, so the caption gives the photographer's words (electric mouse trap). No public-domain or CC0 photo of an electronic trap was found; File:Victor electronic mousetrap.jpeg (CC BY 2.0) shows only the opened battery compartment.",
+   "note": "Credit: Netslider90, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x675."
+  },
+  {
+   "id": "cage-trap-two-mice",
+   "forPages": ["mice-traps", "how-to-get-rid-of-mice-humanely"],
+   "confidence": "high for mice in a cage trap; species not given",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Mousetrap2mice.jpg (PD-self, uploaded 2006 by Redecke): 'Mouse trap. Wow, two mice are trapped at the same time ! I Used salami.'",
+   "caveats": "Two live mice in a small wire cage trap with a wooden base and a drop door. The uploader's credit line is Commons' machine text (no machine-readable author), kept as recorded. Say mice, not house mice.",
+   "note": "Credit: No machine-readable author provided. Redecke~commonswiki assumed (based on copyright claims)., Public domain, via Wikimedia Commons. Size: 1200x894."
+  },
+  {
+   "id": "snap-traps-set-against-wall",
+   "forPages": ["mice-traps", "fall-mouse-proofing-checklist", "learn/pet-safe-pest-control"],
+   "confidence": "certain for snap traps; photo by an IPM program",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Setting a Trap (10069468985).jpg, from the NY State IPM Program at Cornell University Flickr stream (CC BY 2.0): 'Photo by Matt Frye, NYSIPM'.",
+   "caveats": "Two Victor wooden snap traps with yellow plastic triggers, bait on the triggers, set side by side on a white ledge with the trigger ends toward a fabric-covered wall; a torn gap and a few droppings at the back of the ledge. NYSIPM watermark (IPM) in the middle. Commons files it under rat traps, but the traps are the mouse-size model: the caption says only snap traps.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "snap-trap-by-mouse-hole",
+   "forPages": ["fall-mouse-proofing-checklist", "mice-traps", "mice-in-walls"],
+   "confidence": "high for the scene; species not given",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Mouse in trap Norway 2016-10-26 hole 01.jpg by Wolfmann (CC BY-SA 4.0): 'Mouse in trap by mousehole in old house in Norway October 2016'.",
+   "caveats": "A wooden snap trap set at a ragged hole at the foot of a red wall on a wood floor, a gray-brown mouse caught in it (no blood visible). Say mouse, not house mouse. A dead animal, so never a lead. The sister file hole 02 shows the same scene; the close-up File:Mouse in trap Norway 2016-10-26 close.jpg was refused (looks bloody).",
+   "note": "Credit: Wolfmann, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x1014."
+  },
+  {
+   "id": "baby-mice-day-old",
+   "forPages": ["baby-mice", "how-long-do-mice-live"],
+   "confidence": "high that these are newborn mice; age and species rest on the uploader and Commons' category",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons File:Day-old mice.JPG by John Bessa at en.wikipedia (PD-user, 2010): 'Day-old mice'. Filed in Category:Mus musculus (juvenile).",
+   "caveats": "Two pink, hairless pups with closed dark eyes curled together on white paper. The uploader gives no species: say mice (the caption calls them mice their photographer describes as a day old). 813 px wide, the largest public-domain newborn photo found.",
+   "note": "Credit: John Bessa at en.wikipedia, Public domain, via Wikimedia Commons. Size: 813x769."
+  },
+  {
+   "id": "baby-mice-10-days-old",
+   "forPages": ["baby-mice"],
+   "confidence": "high (a dated series by one photographer, species named)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Mus musculus 04 10th day.jpg by Gerbil (CC BY-SA 4.0, uploaded 2024): 'House mouse (Mus musculus domesticus), 10 days old / 1 Pfennig'. One of a series: 01 newborn (45 minutes), 02 day 2, 07 day 4, 03 day 5, 04 day 10, 05 day 14, 06 day 17.",
+   "caveats": "Two furred pups with closed eyes beside a German 1-pfennig coin; a scanned slide with a blue cast. The day-5 photo was not used: it shows dark pigment and fuzz a day before the Jackson Laboratory chart on the page puts the first fuzz, which would confuse readers. The day-14 photo (eyes just open) is a spare.",
+   "note": "Credit: Gerbil, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x895."
+  },
+  {
+   "id": "young-house-mouse-17-days-old",
+   "forPages": ["baby-mice"],
+   "confidence": "high (same series)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Mus musculus 06 17th day.jpg by Gerbil (CC BY-SA 4.0): 'House mouse (Mus musculus domesticus), 17 days old / 1 Pfennig'.",
+   "caveats": "A fully furred young mouse with open eyes beside the same coin, a fingertip blurred behind it. Scanned slide, warm cast.",
+   "note": "Credit: Gerbil, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x803."
+  },
+  {
+   "id": "baby-mice-nest-rags-plastic",
+   "forPages": ["baby-mice", "mice-in-walls", "learn/mice"],
+   "confidence": "medium-high: house mouse on the photographer's word; the pups are clearly newborn mice",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Hausmauswurf Im Nest.jpg by MaikS76 (CC BY-SA 3.0, 2014): 'Wurf einer Hausmaus in einem Nest gebaut aus Putzlappen und Plastiktüte' (litter of a house mouse in a nest built from cleaning rags and a plastic bag). Filed under Pet mice on Commons, so it may have been a captive female; the description does not say.",
+   "caveats": "Pink, hairless pups in a nest of torn rags and shredded plastic: exactly what ADW's built from rags, paper or other soft material describes. Say the photographer describes it as a house mouse litter.",
+   "note": "Credit: MaikS76, CC BY-SA 3.0, via Wikimedia Commons. Size: 1200x675."
+  },
+  {
+   "id": "newborn-house-mice-coin",
+   "forPages": ["how-long-do-mice-live", "baby-mice"],
+   "confidence": "high (same series as baby-mice-10-days-old)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Mus musculus 01 Newborn.jpg by Gerbil (CC BY-SA 4.0): 'Newborn house mouse (Mus musculus domesticus), 45 minutes old / 1 Pfennig'.",
+   "caveats": "Two pink, hairless newborns with closed eyes on a German 1-pfennig coin. Used on how-long-do-mice-live so that baby-mice keeps its public-domain day-old lead and the two pages do not share a photo.",
+   "note": "Credit: Gerbil, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x934."
+  },
+  {
+   "id": "house-mouse-jar-rim",
+   "forPages": ["how-long-do-mice-live", "learn/mice", "types-of-mice"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 248456409, Neftekamsk, Bashkortostan, Russia, 2024-10-19, by Rustam Safargaliev (rustamtut). Observer's note (Russian and English): he caught the mouse at his house and released it in a forest with many bird feeders so it would have food in winter. Three Mus musculus identifications (the observer, evsam, albinail). Photo 3 of 4; the photo's own licence is CC0.",
+   "caveats": "A gray-brown house mouse on the rim of a glass jar among dry leaves, sharp. The jar's label is in Russian; no need to name the place in a caption.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1200."
+  },
+  {
+   "id": "spotted-owl-with-mouse",
+   "forPages": ["how-long-do-mice-live", "mice-poison"],
+   "confidence": "certain for the owl (a tagged study bird); the prey is a mouse per NPS",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Female Spotted Owl (14619135593).jpg from the Mount Rainier National Park Flickr stream (PD US NPS): 'A female spotted owl carries a mouse in her beak. She will most likely take the mouse to her offspring. NPS photo by Emily Brouwer'.",
+   "caveats": "Spotted owl with a pale mouse in its beak on a branch in forest; a colored leg band shows. NPS does not name the mouse species. Public domain, but not a lead: the page is about the mouse, not the owl.",
+   "note": "Credit: Mount Rainier National Park from Ashford, WA, United States, Public domain, via Wikimedia Commons. Size: 1200x800."
+  },
+  {
+   "id": "pet-mouse-two-years-old",
+   "forPages": ["how-long-do-mice-live"],
+   "confidence": "high (a pet; age on the owner-photographer's word)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Pet mouse drinking.jpg by Tiia Monto (CC BY-SA 3.0, 2012, Finland): 'A pet mouse drinking. It's two years old small sized female.'",
+   "caveats": "A small dark gray pet mouse standing to drink from a bottle spout over wood shavings. The two-year age is the photographer's statement: caption it that way.",
+   "note": "Credit: Tiia Monto, CC BY-SA 3.0, via Wikimedia Commons. Size: 1200x1440."
+  },
+  {
+   "id": "house-mouse-droppings-wall-corner",
+   "forPages": ["how-long-do-mice-live", "mouse-poop", "mice-traps"],
+   "confidence": "high (titled House Mouse Droppings by an IPM program)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:House Mouse Droppings (10069590893).jpg from the NY State IPM Program at Cornell University Flickr stream (CC BY 2.0): 'Photo by Matt Frye, NYSIPM'. Filed under Mus musculus.",
+   "caveats": "Dozens of droppings on a worn floor covering in a corner at the base of a wall, a loose plastic sheet behind. NYSIPM watermark.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "house-mouse-got-into-house-bucket",
+   "forPages": ["fall-mouse-proofing-checklist", "how-to-keep-mice-out-of-your-house-winter", "how-to-get-rid-of-mice-humanely"],
+   "confidence": "high (research grade; a passing Peromyscus suggestion was withdrawn by both identifiers)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 329133630, San Luis Obispo, California, 2025-11-27, by Emily Langdon-Lassagne (ethologist): 'Got into the house, captured in humane bucket trap and re-released in the woods just down the hill.' Current identifications Mus musculus by the observer and binzer; both had briefly suggested Peromyscus gambelii and withdrew it. Photo 1 of 4; CC0.",
+   "caveats": "A house mouse sitting in a white bucket beside a peanut half and its droppings. It was caught in a live trap, which the CDC advises against: captions describe, never recommend. Late November date suits the page's fall section.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "white-footed-mouse-bird-seed-basement",
+   "forPages": ["fall-mouse-proofing-checklist", "what-do-mice-eat", "field-mice"],
+   "confidence": "high",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 257765564, West Haven, Connecticut, 2024-10-20, by Kristof Zyskowski: 'residing in a container with bird seed in house basement'. Identified Peromyscus leucopus by the observer and eikenella. Photo 1 of 3.",
+   "caveats": "A white-footed mouse among striped sunflower seeds in a container. Not a house mouse: say white-footed mouse. CC BY.",
+   "note": "Credit: (c) Kristof Zyskowski, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "copper-wool-wire-gaps",
+   "forPages": ["fall-mouse-proofing-checklist", "steel-wool-for-mice", "can-mice-climb-walls"],
+   "confidence": "certain (an IPM program's own caption)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Rodent Exclusion (10069529336).jpg from the NY State IPM Program at Cornell University Flickr stream (CC BY 2.0): 'Copper wool is a better temporary exclusion device than steel wool, which can rust away. A permanent solution is to repair the gap around these wire penetrations using concrete patch. Photo by Matt Frye, NYSIPM'. Filed under Rat control.",
+   "caveats": "Copper wool tufts packed around wires entering a stucco wall, a black conduit in front; NYSIPM watermark. The program's advice (copper better than steel; concrete patch is the permanent fix) is theirs, not the page's: captions keep to temporary plug plus the page's Nebraska line.",
+   "note": "Credit: NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "rodent-bait-station-wall",
+   "forPages": ["mice-poison", "rat-poison-canada-what-is-legal", "mouse-bait-station-canada"],
+   "confidence": "certain (label reads stacja deratyzacyjna, nie dotykac)",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons File:Deratyzacja1pl.jpg by Aung (PD-self, 2008): 'Pojemnik do wykładania zatrutej karmy dla gryzoni - deratyzacja' (container for laying out poisoned bait for rodents - deratization).",
+   "caveats": "A long black lidded bait station on paving stones against a building wall, red label in Polish: STACJA DERATYZACYJNA NR [blank] NIE DOTYKAC! (deratization station no. __, do not touch!). A professional station in Poland, not a US consumer product: captions must not imply it is one. The only public-domain or CC0 bait station photo found that shows the station in use.",
+   "note": "Credit: Aung, Public domain, via Wikimedia Commons. Size: 1200x1807."
+  },
+  {
+   "id": "tamper-resistant-bait-station",
+   "forPages": ["mice-poison", "mouse-bait-station-canada"],
+   "confidence": "certain (embossed text)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Bell Rodent Bait Station.JPG by BrokenSphere (CC BY-SA 3.0, 2010): 'A Bell Rodent Bait Station.'",
+   "caveats": "A gray Protecta LP station on pavement against a wall, embossed Tamper-resistant Bell Rodent Bait Station and DO NOT TOUCH / NO TOCAR, with a pest control company's sticker. Brand names are visible; captions do not need them.",
+   "note": "Credit: BrokenSphere, CC BY-SA 3.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "bait-station-block-bait-loading",
+   "forPages": ["mice-poison", "mouse-bait-station-canada"],
+   "confidence": "certain",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Rodent bait box with bait.jpg by Jamie Samuels (CC BY-SA 4.0, 2018; camera location in the UK): 'Rodent bait being placed within a bait box.'",
+   "caveats": "A gloved hand placing red block baits on rods inside an opened black bait box against a brick wall: what the page's media placeholder asks for (an opened station with block bait on its rod), but without the closed station and plain surface it describes, so the placeholder stays. The active ingredient is not stated: say rodent bait.",
+   "note": "Credit: Jamie Samuels, CC BY-SA 4.0, via Wikimedia Commons. Size: 1200x900."
+  },
+  {
+   "id": "cat-carrying-mouse",
+   "forPages": ["mice-poison", "learn/pet-safe-pest-control"],
+   "confidence": "certain for a cat with a mouse; mouse species not given",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Cat running with mouse in mouth.jpg by Stig Nygaard (CC BY 2.0, 2015): 'A tricolor patterned black tortoiseshell mackerel tabby and white cat running on a lawn with a caught mouse in it's mouth. Photographed in Gribskov, Hovedstaden, Denmark.'",
+   "caveats": "Panned action shot, sharp on the cat's head and the mouse. Illustrates secondary poisoning (a pet eating a rodent) without implying this mouse was poisoned.",
+   "note": "Credit: Stig Nygaard, CC BY 2.0, via Wikimedia Commons. Size: 1200x800."
+  },
+  {
+   "id": "red-tailed-hawk-with-mouse",
+   "forPages": ["mice-poison", "rat-poison-canada-what-is-legal"],
+   "confidence": "high (photographer's identification, filed under Buteo jamaicensis with prey)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Nisqually 2012 03 25 0573 (6926170344).jpg by Harvey Barrison (CC BY-SA 2.0): 'Red-tailed Hawk (Buteo jamaicensis) with Mouse.' Category: Accipitriformes of Nisqually National Wildlife Refuge; Buteo jamaicensis with prey.",
+   "caveats": "A hawk standing in tall grass facing the camera, prey in its beak. Refused instead: File:Red-tailed Hawk (52315180830).jpg (CC BY 2.0, a sharper flight shot), because Commons files it under Buteo swainsoni although its title says red-tailed hawk.",
+   "note": "Credit: Harvey Barrison from Massapequa, NY, USA, CC BY-SA 2.0, via Wikimedia Commons. Size: 1200x1200."
+  },
+  {
+   "id": "black-cat-with-mouse",
+   "forPages": ["learn/pet-safe-pest-control", "mice-poison"],
+   "confidence": "certain for a cat with a mouse; species not given",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons File:Cat with mouse.jpg by Yintan (CC BY-SA 3.0, 2012): 'My cat Zen with a mouse.'",
+   "caveats": "A black, green-eyed cat holding a gray mouse in its mouth on pale ground. Used on the pet-safe page so it does not repeat mice-poison's cat.",
+   "note": "Credit: Yintan, CC BY-SA 3.0, via Wikimedia Commons. Size: 990x661."
+  },
+  {
+   "id": "garden-snail-chewed-leaf",
+   "forPages": ["learn/pet-safe-pest-control"],
+   "confidence": "high",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist research-grade observation 230311609, Marrowstone, Washington, 2024-07-18, by Giselle Blythe (giselle9): 'Found what's eating the polygonatum.' Three Cornu aspersum identifications (the observer, mathijs_zonneveld, gural-sverlova). CC0.",
+   "caveats": "A garden snail on a Solomon's seal leaf full of long chewed holes: the pest that slug and snail baits target, shown with its damage. Slugs were considered (iNaturalist 346264880, a milky slug in a school garden, CC0) but one photo was enough for the section.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1069x1069."
+  },
+  {
+   "id": "house-mice-garden-shed-litter",
+   "forPages": ["baby-mice"],
+   "confidence": "high for house mice; that they are young comes from the observer's litter note",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist research-grade observation 65335202, Bebington, Wirral, England, 2020-11-13, by Roy Lowry (rkl): 'Litter raised in garden shed. Numbers dwindling due to neighbourhood cat and a fox.' Identified Mus musculus by the observer and dbilton.",
+   "caveats": "Two small brown house mice on a damp concrete floor by an orange container, one holding a grass blade. No life stage annotated: say from a litter the observer says was raised in his garden shed, not juveniles. CC BY.",
+   "note": "Credit: (c) Roy Lowry, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "fall-mouse-proofing-checklist",
+   "why": "No usable photo of the entry points themselves (a gap around a pipe, daylight under an exterior door, a dryer vent with its flap, a foundation crack, the siding-to-foundation joint, a mouse in a 1/4-inch hole). Searched: Commons categories Mouse holes, Mouse burrows, Mice damage, Steel wool and searches for rodent proofing, door sweep, gap under door, dryer vent, pipe penetration, hardware cloth, weep holes; iNaturalist house mouse and Peromyscus descriptions mentioning hole, gap, wall, vent, pipe, door, siding, climbing, attic. The NPS Rodent Exclusion Manual has exactly these photos credited NPS Photo, but it is a PDF, which the script's nps() source cannot read; the NPS Conserve O Gram 2/8 figure of a trap set perpendicular to a wall is only 172 x 156 px. The CDC's old Seal Up pages had photos but no PHIL id was found for them. Refused: a 1910s Bureau of Biological Survey photo of men sealing a foundation against rats (public domain, but rats and no caption on Commons). The media placeholder for the copper mesh and caulk close-up stays."
+  },
+  {
+   "slug": "mice-poison",
+   "why": "No photo of a US consumer bait station or of a consumer package's label with the active ingredient and First Aid box (the page's two remaining media placeholders). Every bait station photo on Commons is a professional station or a European product; File:Köderbox für Mäuse-1454.jpg (CC BY-SA 4.0) is a German mouse bait box with brodifacoum, which the EPA no longer allows in US consumer products, so it was left out to avoid confusion. Refused: File:Poisoned alba delicatula 1 - Christopher Watson.jpg (a barn owl the photographer thinks was possibly poisoned: speculation) and the 1972 NARA photo of poisoned grain dyed blue (field bait, decades old)."
+  },
+  {
+   "slug": "baby-mice",
+   "why": "No public-domain or CC0 row of the same litter at day 1, 6 and 10 beside a US coin (the media placeholder). The Gerbil series (CC BY-SA 4.0) covers the ages beside a German pfennig, so the placeholder stays. Refused: iNaturalist 39349619 (CC0 pinkie, but every photo carries a date stamp and harsh flashlight), File:Newborn mice (238281824).jpg (blurry, albino mice in a zoo), File:Babymouse.jpg (CC BY-SA 3.0, a one-day-old pup in a hand, a duplicate of the public-domain day-old lead), the Bangladesh litter photo (the pups may be rats), and every photo of mice on glue boards."
+  },
+  {
+   "slug": "learn/pet-safe-pest-control",
+   "why": "No photo for the snap-trap media placeholder (a trap set behind a refrigerator or inside a cabinet a pet cannot reach) or for the flea and tick spot-on boxes. Two set snap traps on a doormat by a door (File:Two mouse traps.jpg) were refused: a doormat is the kind of spot a pet reaches. No dog-and-mosquito photo was looked for once six photos were placed."
+  },
+  {
+   "slug": "mice-traps",
+   "why": "No public-domain or CC0 glue-board photo without a stuck animal, and the ones with mice (File:Mice in Sticky Trap (17258577795).jpg from NYS IPM, CC BY 2.0; two CC0 Spanish photos) were left out as distressing; the page has six photos without one. The side-by-side wooden and plastic traps with a US quarter (media placeholder) and the floor-plan diagram stay as placeholders."
+  }
+ ]
 }

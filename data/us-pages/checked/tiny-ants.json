@@ -2,9 +2,16 @@
  "id": "tiny-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1e15ea3e554bc2421e694c5a61f23618313e24505552da968fb5eb19c2eacf1d",
+ "sha": "8753c571303b744ac51fae1bf21db8450cac0cd95d831b89d4a9bdcd926b07f6",
  "claimsChecked": 78,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 5 real photos added as figure blocks next to the text they illustrate (CC0 lead thief-ants-counter-pen-tip; odorous-house-ant-kitchen-counter, ghost-ants-lined-paper, pavement-ant-chip-crumb, pharaoh-ant-sugar-crystal). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (Ohio State, University of Florida). One sentence linking /tools/what-bug-is-this in the is-it-an-ant section. No other text changed; dates unchanged.",
+   "previousSha": "1e15ea3e554bc2421e694c5a61f23618313e24505552da968fb5eb19c2eacf1d"
+  }
+ ]
 }

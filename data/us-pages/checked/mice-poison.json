@@ -2,9 +2,16 @@
  "id": "mice-poison",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6ebef102afc9bc8ac7e77b5f2e7e6b60938a93ca518b26df8c78548e3f050de2",
+ "sha": "78efc7d45edab8d9ff3f0277ecb0aef965091bb0a2556edc07aa1946f430a2d0",
  "claimsChecked": 140,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 5 real photos added as figure blocks, all new to the ledger (photo-notes-batch15): rodent-bait-station-wall (Commons, public domain; lead), tamper-resistant-bait-station (Commons, CC BY-SA 3.0), bait-station-block-bait-loading (Commons, CC BY-SA 4.0), cat-carrying-mouse (Commons, CC BY 2.0) and red-tailed-hawk-with-mouse (Commons, CC BY-SA 2.0). Captions restate the photo records and facts already on the page (EPA, NPIC, Cornell); media placeholders kept; no fact or date changed.",
+   "previousSha": "6ebef102afc9bc8ac7e77b5f2e7e6b60938a93ca518b26df8c78548e3f050de2"
+  }
+ ]
 }

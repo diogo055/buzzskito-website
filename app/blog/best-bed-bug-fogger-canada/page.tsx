@@ -14,17 +14,20 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-bed-bug-fogger-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
-const TITLE = 'Best Bed Bug Fogger in Canada — PMRA-Registered Picks, and Whether Foggers Actually Work'
-const META_TITLE = 'Best Bed Bug Fogger Canada: Do They Work?'
+const UPDATED = '2026-10-28'
+const TITLE = 'Bed Bug Foggers and Bug Bombs in Canada — Why They Were Cancelled, and What Works Instead'
+// TITLE NOTE (Oct 28, 2026): was 'Best Bed Bug Fogger Canada: Do They Work?'; top queries: bug bomb canada 359, bed bug bomb 99, bed bug bombs 93, bug bombs canada 72, indoor bug fogger canada 10 (7 clicks). Health Canada's registry lists every domestic total-release fogger as historical (RVD2023-06: last sale 2024-03-02, last use 2024-09-02). Kept off 'flea bomb': best-flea-bomb-canada owns it.
+const META_TITLE = 'Bed Bug Bombs in Canada: Off Shelves Since 2024'
 
 const FAQS = [
   {
     question: 'What is the best bed bug fogger in Canada in 2026?',
-    answer: 'Among total-release foggers legally sold in Canada, the best pick is a PMRA-registered pyrethrin fogger from an established Canadian brand such as Doktor Doom, used only as a flushing and knockdown tool for exposed insects in an open room. Konk total-release foggers are the best pick for large open spaces where you want fast aerosol coverage. But be clear-eyed: no fogger, on its own, gets rid of bed bugs. The mist settles on surfaces and never reaches the cracks, seams, and voids where bed bugs actually hide, and most modern bed-bug populations are resistant to the pyrethroid and pyrethrin chemistry foggers use. Treat a fogger as one minor step inside a real plan built on heat, steam, residual crack-and-crevice sprays, and dusts — never as the solution.',
+    answer: 'There is no longer one you can legally buy for home use. Health Canada cancelled domestic total-release foggers in its re-evaluation of pyrethrins (RVD2023-06), and its registry now lists the Doktor Doom and Konk consumer foggers as historical, with a last retail sale on March 2, 2024 and a last date of use of September 2, 2024. Little was lost: an Ohio State University study found three popular foggers had little, if any, effect on field-collected bed bugs, because the mist never reaches the seams, cracks and voids where they hide, and most populations resist the chemistry. Spend the money on heat, steam, a registered crack-and-crevice spray and dust.',
   },
   {
     question: 'Do bed bug foggers and bug bombs actually work?',
@@ -32,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'Are bed bug foggers even legal to buy in Canada?',
-    answer: 'Only PMRA-registered products are legal to sell and use in Canada. Every pesticide sold here must carry a Pest Control Products (PCP) registration number from Health Canada\'s Pest Management Regulatory Agency, printed on the label. Canadian brands like Doktor Doom and Konk make total-release foggers that carry a PCP number. The catch for shoppers is grey-market imports: many popular US "bed bug bomb" brands (for example Hot Shot bed-bug foggers) are formulated and registered for the American market and are not registered for sale in Canada, so buying them across the border or from a third-party reseller can mean using an unregistered product. Always look for the PCP registration number on the can before you buy or use any fogger.',
+    answer: 'Not for home use any more. Every pesticide sold in Canada must be registered under the Pest Control Products Act and carry a registration number on its label. Health Canada’s 2023 re-evaluation of pyrethrins cancelled “Domestic-class pressurized product application using total release foggers (including lock-valve mechanism)” because health risks or value were not shown to be acceptable. The consumer foggers on its cancellation list, including Doktor Doom’s and Konk’s, had a last date of sale of March 2, 2024 and a last date of use of September 2, 2024, and the registry lists no domestic total-release fogger today. US "bed bug bomb" brands such as Hot Shot bed-bug foggers are not registered here either.',
   },
   {
     question: 'Why can\'t a fogger reach the bed bugs?',
@@ -44,11 +47,11 @@ const FAQS = [
   },
   {
     question: 'Is a total-release fogger dangerous to use indoors?',
-    answer: 'It has real safety requirements that people routinely ignore. Total-release foggers discharge their entire contents at once and are flammable — every year fires and even explosions are caused by people setting off too many cans in a space with a pilot light, stove, or other ignition source still on. You must extinguish all open flames and pilot lights, unplug and switch off anything that sparks, cover food and dishes, remove pets and people (and fish tanks), leave for the labelled time, and ventilate thoroughly before re-entering. Using more cans than the label specifies for the room size is both dangerous and illegal. Read and follow the PMRA-registered label exactly — it is the legal instructions, not a suggestion.',
+    answer: 'It has real safety requirements that people routinely ignore. Total-release foggers discharge their entire contents at once and are flammable — every year fires and even explosions are caused by people setting off too many cans in a space with a pilot light, stove, or other ignition source still on. You must extinguish all open flames and pilot lights, unplug and switch off anything that sparks, cover food and dishes, remove pets and people (and fish tanks), leave for the labelled time, and ventilate thoroughly before re-entering. Using more cans than the label specifies for the room size is both dangerous and illegal. In Canada the question is now settled for home use: Health Canada cancelled domestic total-release foggers, and the last date to use one was September 2, 2024.',
   },
   {
     question: 'How many foggers do I need for a room?',
-    answer: 'Exactly the number the label tells you for that room\'s size — no more. Every PMRA-registered fogger states the square footage or cubic footage a single can treats, and using more than the label directs is unsafe and against the law. The common and dangerous mistake is thinking that if one can is good, three is better; overloading a space with aerosol raises the flammability risk sharply. But there is a deeper point here: adding cans does not fix the fundamental problem that the mist cannot reach the harbourage. You cannot brute-force a fogger into working against bed bugs by using more of it. Follow the label rate, and put the rest of your effort into heat, steam, residual sprays, and dusts that actually reach the bugs.',
+    answer: 'In Canada, none: domestic total-release foggers were cancelled, with a last date of use of September 2, 2024. When they were registered, each label stated the square footage or cubic footage a single can treats, and using more than the label directed was unsafe and against the law. The common and dangerous mistake is thinking that if one can is good, three is better; overloading a space with aerosol raises the flammability risk sharply. But there is a deeper point here: adding cans does not fix the fundamental problem that the mist cannot reach the harbourage. You cannot brute-force a fogger into working against bed bugs by using more of it. Put your effort into heat, steam, residual sprays, and dusts that actually reach the bugs.',
   },
   {
     question: 'Can a fogger make my bed bug problem worse?',
@@ -60,25 +63,34 @@ const FAQS = [
   },
   {
     question: 'Should I fog before or after other bed bug treatments?',
-    answer: 'Honestly, in most plans you should skip the fogger entirely and put that effort elsewhere. If you still choose to use one, treat it as an early, minor flushing step in an open room before you do the treatments that matter — heat, steam, targeted residual spray into cracks, and desiccant dust in voids — never as the finishing move. Fogging after you have laid down a residual can also disturb and degrade that deposit. The sequence that works is prep and declutter, encase the mattress and box spring, vacuum, steam the seams, apply residual product and dust into harbourage, set interceptor traps, and monitor for weeks. A fogger does not earn a place in that sequence for most people.',
+    answer: 'Neither, in Canada: domestic total-release foggers are no longer registered (the last date of use was September 2, 2024), and the plan works without one. Put that effort into the treatments that matter — heat, steam, targeted residual spray into cracks, and desiccant dust in voids. A fog was never a finishing move anyway, and fogging over a residual could disturb and degrade that deposit. The sequence that works is prep and declutter, encase the mattress and box spring, vacuum, steam the seams, apply residual product and dust into harbourage, set interceptor traps, and monitor for weeks. A fogger does not earn a place in that sequence for most people.',
   },
   {
     question: 'Where can I buy a PMRA-registered bed bug fogger in Canada?',
-    answer: 'Total-release foggers from Canadian-registered brands such as Doktor Doom and Konk are stocked seasonally at Canadian Tire, Home Hardware, Home Depot Canada, many independent hardware stores, and on Amazon.ca, which carries the widest year-round selection. Wherever you buy, confirm the PCP registration number is on the can, and be wary of third-party listings shipping US-market "bed bug bombs" that are not registered for Canada. Buy the fogger only if you understand its narrow role; the money is usually far better spent on a steamer, a heater, a residual spray, and a desiccant dust that actually reach and kill the bugs.',
+    answer: 'You can’t any more. Health Canada cancelled domestic total-release foggers, and its registry lists the Doktor Doom and Konk consumer foggers as historical, with a last retail sale on March 2, 2024 and a last date of use of September 2, 2024. A listing that still offers one is old stock or an import, and third-party listings shipping US-market "bed bug bombs" are not registered for Canada either. The money is far better spent on a steamer, a heater, a registered residual spray, and a desiccant dust that actually reach the bugs.',
   },
   {
     question: 'If foggers barely work, what should I spend my money on instead?',
     answer: 'Spend it on tools that reach harbourage and are not defeated by resistance. In rough priority: a bed-bug steamer for on-contact kill of bugs and eggs in seams; a heater or heat chamber to treat portable items and whole rooms with lethal heat; mattress and box-spring encasements to trap and starve what is inside the bed; a PMRA-registered residual crack-and-crevice spray injected into cracks; an inert desiccant dust for wall voids and under baseboards; and interceptor traps to monitor and protect the bed. That kit costs more than a can of fog but it is the difference between actually clearing an infestation and spending weeks fogging while the population quietly grows.',
   },
+  {
+    question: 'Are bug bombs banned in Canada?',
+    answer: 'For home use, in effect yes, although Health Canada’s word is cancelled. Its 2023 re-evaluation of pyrethrins cancelled domestic total-release foggers “since health risks or value were not shown to be acceptable”: existing stock could be sold until March 2, 2024 and used until September 2, 2024, and the registry lists no domestic total-release fogger now. Some commercial-class fumigators are still registered for licensed applicators; one of them, Konk 403 Total Release Fumigator (Reg. No. 27678), does not list bed bugs among its pests.',
+  },
+  {
+    question: 'Do bed bug bombs work in an apartment?',
+    answer: 'No. In the Ohio State University study (Jones and Bryant, 2012), three popular foggers had little, if any, effect on field-collected bed bugs, and even a susceptible lab strain was unaffected under a thin layer of cloth. In an apartment, bugs disturbed by a fog can also move through shared walls into the next unit. And in Canada, domestic bug bombs are no longer registered at all. Tell your landlord or building manager in writing, and protect the bed with an encasement, interceptors and heat.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The PMRA-registered foggers sold in Canada, why a fog never reaches bed bugs hiding in seams and cracks, and the heat-and-residual plan that works instead.',
+  description: 'Bug bombs for bed bugs: Health Canada cancelled domestic total-release foggers (last sale March 2, 2024). Why a fog never reached bed bugs, and what works now.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bugs-eggs-mattress-seam'),
 })
 
 const AMZ_TAG = tagForSlug('best-bed-bug-fogger-canada')
@@ -86,7 +98,7 @@ const AMZ_TAG = tagForSlug('best-bed-bug-fogger-canada')
 export default function BestBedBugFoggerCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to bed-bug total-release foggers — which are PMRA-registered, why foggers cannot reach the harbourage, resistance, safety, and the heat-plus-residual plan that works instead.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed-bug total-release foggers — Health Canada’s cancellation of domestic foggers (last sale March 2, 2024), why foggers cannot reach the harbourage, resistance, safety, and the heat-plus-residual plan that works instead.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bugs-eggs-mattress-seam') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Bed Bug Fogger Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -99,7 +111,7 @@ export default function BestBedBugFoggerCanadaPage() {
             <span className="text-white">Best Bed Bug Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Total-release foggers and &ldquo;bug bombs&rdquo; are the most-searched and least-effective bed-bug product in Canada. Here is which ones are actually PMRA-registered, why the mist never reaches the bugs, the safety rules that matter, and the heat-plus-residual plan that works instead.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">No bug bomb is registered for home use in Canada any more. Health Canada cancelled domestic total-release foggers in its 2023 pyrethrins decision: the last date of sale was March 2, 2024 and the last date of use September 2, 2024. They never worked well on bed bugs anyway, because the mist settles on open surfaces and misses the seams and cracks where the bugs hide. Heat, steam, a registered crack-and-crevice spray and dust do the job instead.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,13 +124,13 @@ export default function BestBedBugFoggerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed bug fogger in Canada is a <strong>PMRA-registered pyrethrin total-release fogger</strong> from an established Canadian brand like <strong>Doktor Doom</strong> or <strong>Konk</strong> &mdash; but only used as a minor flushing tool for exposed insects. No fogger clears an infestation: the mist settles on surfaces and never reaches the seams, cracks, and voids where bed bugs hide, and most bed-bug populations are resistant to the chemistry foggers use. Put your money and effort into heat, steam, residual crack-and-crevice sprays, and desiccant dusts, which actually reach and kill the bugs.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">There is <strong>no registered bed bug fogger for home use in Canada</strong> any more. Health Canada&rsquo;s 2023 re-evaluation of pyrethrins cancelled &ldquo;Domestic-class pressurized product application using total release foggers&rdquo;, and the consumer <strong>Doktor Doom</strong> and <strong>Konk</strong> foggers were among the products cancelled, with a last date of sale of March 2, 2024 and a last date of use of September 2, 2024. Foggers were a poor bed bug tool before that: the mist settles on surfaces and never reaches the seams, cracks, and voids where bed bugs hide, and many bed-bug populations resist the chemistry foggers used. Put your money and effort into heat, steam, a registered crack-and-crevice spray, and dust, which actually reach the bugs.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Only foggers carrying a Health Canada <strong>PCP registration number</strong> are legal here &mdash; many US &ldquo;bed bug bombs&rdquo; are grey-market and not registered for Canada.</li>
+              <li>Every pesticide sold in Canada needs a Health Canada <strong>PCP registration number</strong>; no total-release fogger has one for home use now, and US &ldquo;bed bug bombs&rdquo; shipped here are not registered either.</li>
               <li>University research found total-release foggers had little to no effect on bed bugs, which shelter deep in harbourage the mist cannot penetrate.</li>
               <li>Most bed-bug populations are resistant to the pyrethroid/pyrethrin actives foggers rely on.</li>
               <li>Foggers can make things worse &mdash; flushing scatters bugs into adjacent rooms and sub-lethal dosing breeds resistance.</li>
-              <li>Foggers are flammable: extinguish pilot lights, never use more cans than the label states.</li>
+              <li>Got an old can? The last date of use was September 2, 2024; ask your municipality&rsquo;s household hazardous waste program how to get rid of it.</li>
               <li>What actually works: <strong>steam, heat, residual sprays into cracks, and dusts in voids</strong> &mdash; none defeated by where bugs hide.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
@@ -190,7 +202,7 @@ export default function BestBedBugFoggerCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Total-release fogger<br /><span className="font-normal text-xs text-gray-500">Doktor Doom, Konk</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Total-release fogger<br /><span className="font-normal text-xs text-gray-500">cancelled for home use in Canada (2024)</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; mist settles on surfaces</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Yes</strong> &mdash; pyrethrin actives</td>
                   <td className="px-4 py-3 text-gray-700">Flushing a few exposed insects</td>
@@ -228,7 +240,7 @@ export default function BestBedBugFoggerCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Every pesticide legally sold in Canada &mdash; foggers, sprays, and dusts alike &mdash; must carry a Health Canada PCP (Pest Control Products) registration number on the label. Devices like steamers and heaters are not pesticides and need no registration. Grey-market US &ldquo;bed bug bombs&rdquo; are frequently not registered for Canada.
+            Every pesticide legally sold in Canada &mdash; foggers, sprays, and dusts alike &mdash; must carry a Health Canada PCP (Pest Control Products) registration number on the label. Devices like steamers and heaters are not pesticides and need no registration. No total-release fogger is registered for home use in Canada since Health Canada&rsquo;s 2023 pyrethrins decision took effect, and US &ldquo;bed bug bombs&rdquo; are not registered here either.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -243,10 +255,10 @@ export default function BestBedBugFoggerCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Bed Bug Fogger in Canada?</h2>
-          <p>If you have landed here typing &ldquo;best bed bug fogger,&rdquo; the most useful thing we can tell you is uncomfortable: the honest best fogger is the one you spend the least on, because a fogger is close to the least effective way to fight bed bugs. Among the total-release products actually legal to buy in Canada, a <strong>PMRA-registered pyrethrin fogger from Doktor Doom or Konk</strong> is the sensible pick if you insist on fogging &mdash; they carry a Health Canada registration number, they are widely stocked, and they do their narrow job of misting exposed surfaces. But every one of them shares the same two fatal flaws for this pest, and no brand escapes them.</p>
+          <p>If you have landed here typing &ldquo;best bed bug fogger&rdquo; or &ldquo;bug bomb Canada,&rdquo; the most useful thing we can tell you is that there is no longer a legal one to buy for home use. Health Canada&rsquo;s re-evaluation of pyrethrins, published March 2, 2023, cancelled domestic total-release foggers &ldquo;since health risks or value were not shown to be acceptable&rdquo;; the <strong>Doktor Doom and Konk consumer foggers</strong> that used to fill this aisle had a last date of sale of March 2, 2024 and a last date of use of September 2, 2024. And every one of them shared the same two fatal flaws against this pest, which no brand escaped.</p>
           <p>Those two flaws are simple. First, the mist cannot reach where bed bugs live. Second, the insecticide the mist carries is chemistry most bed bugs have already evolved to survive. Understanding both is the difference between wasting weeks and actually clearing an infestation, so the rest of this guide walks through them and then lays out the plan that works.</p>
 
-          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability &mdash; the PMRA-registered foggers, and the tools that actually work:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the products this page discusses (look for a PCP registration number on any pesticide before you buy it):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="konk total release fogger">Konk fogger →</BuyLink>
@@ -255,17 +267,80 @@ export default function BestBedBugFoggerCanadaPage() {
           </div>
 
           <NextUp path="/blog/best-bed-bug-fogger-canada" />
+          <h2>Bug Bombs in Canada: What Health Canada Cancelled</h2>
+          <p>Here is what happened to the foggers Canadians used to buy, from Health Canada&rsquo;s pesticide registry and its re-evaluation decision on pyrethrins (RVD2023-06). The decision cancelled &ldquo;Domestic-class pressurized product application using total release foggers (including lock-valve mechanism)&rdquo; and &ldquo;Domestic handler applications using handheld and stationary foggers&rdquo;.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Product (registration)</th>
+                  <th className="px-4 py-3 text-left">Active ingredients</th>
+                  <th className="px-4 py-3 text-left">Status in the registry</th>
+                  <th className="px-4 py-3 text-left">Last retail sale</th>
+                  <th className="px-4 py-3 text-left">Last legal use</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Doktor Doom Total Release Fogger II<br /><span className="font-normal text-xs text-gray-500">Reg. No. 33939, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 0.40%, piperonyl butoxide 2.00%</td>
+                  <td className="px-4 py-3 text-gray-700">Historical; cancelled in RVD2023-06</td>
+                  <td className="px-4 py-3 text-gray-700">March 2, 2024</td>
+                  <td className="px-4 py-3 text-gray-700">September 2, 2024</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Go Green Doktor Doom Total Release Fogger<br /><span className="font-normal text-xs text-gray-500">Reg. No. 28912, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 0.4%, piperonyl butoxide 2.0%</td>
+                  <td className="px-4 py-3 text-gray-700">Historical; cancelled in RVD2023-06</td>
+                  <td className="px-4 py-3 text-gray-700">March 2, 2024</td>
+                  <td className="px-4 py-3 text-gray-700">September 2, 2024</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Konk Complete Release Fogger<br /><span className="font-normal text-xs text-gray-500">Reg. No. 32676, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 0.40%, piperonyl butoxide 2.00%</td>
+                  <td className="px-4 py-3 text-gray-700">Historical; cancelled in RVD2023-06</td>
+                  <td className="px-4 py-3 text-gray-700">March 2, 2024</td>
+                  <td className="px-4 py-3 text-gray-700">September 2, 2024</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Knockdown Total Release Fumigator-Water Based<br /><span className="font-normal text-xs text-gray-500">Reg. No. 34692, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 0.40%, piperonyl butoxide 2.0%</td>
+                  <td className="px-4 py-3 text-gray-700">Historical; cancelled in RVD2023-06</td>
+                  <td className="px-4 py-3 text-gray-700">March 2, 2024</td>
+                  <td className="px-4 py-3 text-gray-700">September 2, 2024</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Raid Fumigator Fumigating Fogger<br /><span className="font-normal text-xs text-gray-500">Reg. No. 25167, domestic</span></td>
+                  <td className="px-4 py-3 text-gray-700">Permethrin 12.6%</td>
+                  <td className="px-4 py-3 text-gray-700">Historical</td>
+                  <td className="px-4 py-3 text-gray-700">August 26, 2021</td>
+                  <td className="px-4 py-3 text-gray-700">Registration expired August 26, 2022</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Konk 403 Total Release Fumigator<br /><span className="font-normal text-xs text-gray-500">Reg. No. 27678, commercial</span></td>
+                  <td className="px-4 py-3 text-gray-700">Pyrethrins 0.40%, piperonyl butoxide 2.00%</td>
+                  <td className="px-4 py-3 text-gray-700">Still registered, for licensed applicators; bed bugs are not among its listed pests</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: Health Canada, <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2023/pyrethrins.html" target="_blank" rel="noopener" className="underline">Re-evaluation Decision RVD2023-06, Pyrethrins</a> (March 2, 2023) and its factsheet <a href="https://www.canada.ca/en/health-canada/services/publications/product-safety/changes-registration-pyrethrins-pesticides-non-agricultural-uses.html" target="_blank" rel="noopener" className="underline">Changes to the registration of pyrethrins pesticides</a> (last date of sale March 2, 2024 and of use September 2, 2024 for the cancelled domestic products); Health Canada Pesticide Label Search and Pesticide Registry, read October 28, 2026. Searching the registry for registered domestic products named fogger, total release, fumigator or bomb found only outdoor products: patio and yard foggers and a wasp spray.</p>
+
           <h2>Why Foggers Cannot Reach Bed Bugs</h2>
           <p>Bed bugs are experts at hiding, and that single fact is what defeats every fogger. During the day they retreat into the tightest, most protected spaces they can find: the piping and seams along the edge of a mattress, the folds and staples of a box spring, the cracks and screw holes of a wooden bed frame, behind loose baseboards and wallpaper, inside electrical outlet boxes, and deep in the joints of nightstands and dressers. They emerge only briefly to feed, then vanish back into harbourage. The eggs, meanwhile, are cemented in place inside those same crevices and never move at all.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs packed along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed, as the photographer describes them. This is where a colony lives, and where a fogger's mist never reaches." />
           <p>A total-release fogger works by discharging its entire contents into the open air of a room. The aerosol drifts through the space and then, being heavier than air, settles downward onto exposed horizontal surfaces &mdash; the top of the mattress, the middle of the floor, the flat surfaces of furniture. Crucially, it never pushes <em>into</em> a crack under pressure the way a directed spray straw does. So the droplets coat the surfaces the bugs are not on, and leave the sheltered voids the bugs actually occupy completely untreated. A landmark Ohio State University study put three popular foggers to the test against bed bugs and found little to no effect, precisely because of this geometry. You can empty a dozen cans and the colony inside the mattress seam will barely notice.</p>
+          <Photo id="bed-bugs-hotel-headboard" alt="A bed bug coated in white pesticide dust inside a crevice of a hotel headboard" caption="A bed bug coated in pesticide dust in a crevice of a hotel headboard after a treatment, photographed by the New York State IPM Program at Cornell University. Dust and directed sprays go into the crevice; a fogger's mist settles on the surfaces around it." />
 
           <h2>The Resistance Problem</h2>
           <p>Even the unlucky bugs caught in the open often survive, and this is the second failure. The active ingredients in consumer foggers are almost always pyrethrins or synthetic pyrethroids. Bed bugs have made a global comeback over the last two decades in large part because populations have developed widespread genetic resistance to exactly this class of chemistry &mdash; through mutations that desensitize their nervous system and through enhanced enzymes that break the insecticide down before it can act. Studies sampling wild bed-bug populations routinely find high levels of pyrethroid resistance.</p>
           <p>The practical upshot is grim for the fogger buyer: you are delivering a resisted chemical, by a method that misses the target, at a dose that is often sub-lethal by the time it settles. And sub-lethal exposure is worse than useless &mdash; it is the exact selection pressure that breeds still-tougher survivors. This is why heat-based tools matter so much: a bed bug cannot evolve resistance to being cooked. A <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> or a <Link href="/blog/bed-bug-heater-canada">heater</Link> kills by physics, not chemistry, so resistance is irrelevant.</p>
 
           <h2>The PMRA-Registered vs Grey-Market Trap</h2>
-          <p>If you are going to buy a fogger anyway, the one rule you must not break is legality. In Canada every pesticide &mdash; including every fogger, spray, and dust &mdash; must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) and carry a Pest Control Products (PCP) registration number printed on the label. That number is your proof the product was assessed for use in Canadian homes. Canadian brands such as Doktor Doom and Konk make total-release foggers that carry a PCP number and are legal to buy and use here. Doktor Doom is the most widely stocked PMRA-registered option in this aisle, and <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">the full Doktor Doom line-up explained</Link> shows where each can genuinely belongs.</p>
-          <p>The trap is the grey market. Many of the most heavily advertised American &ldquo;bed bug bombs&rdquo; &mdash; the names you see all over US-focused search results &mdash; are formulated and registered for the American market and are <strong>not registered for sale in Canada</strong>. When they appear on cross-border listings or third-party marketplace sellers shipping into Canada, buying and using them means applying an unregistered pesticide in your home, which is not legal and carries no Canadian safety assessment. Before you buy any fogger, find the PCP number on the can. No number, no purchase. This is the single compliance point that separates a legal Canadian fogger from a border-hopped US product that happens to look identical.</p>
+          <p>The one rule you must not break is legality. In Canada every pesticide &mdash; including every fogger, spray, and dust &mdash; must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA) and carry a Pest Control Products (PCP) registration number printed on the label. That number is your proof the product was assessed for use in Canadian homes. For total-release foggers the home-use list is now empty: the re-evaluation cancelled the domestic Doktor Doom and Konk foggers along with the rest of the category. Doktor Doom still has registered bed bug sprays, and <Link href="/blog/doktor-doom-canada-guide" className="text-brand-700 underline">the full Doktor Doom line-up explained</Link> shows where each can genuinely belongs.</p>
+          <p>The trap is the grey market. Many of the most heavily advertised American &ldquo;bed bug bombs&rdquo; &mdash; the names you see all over US-focused search results &mdash; are formulated and registered for the American market and are <strong>not registered for sale in Canada</strong>. When they appear on cross-border listings or third-party marketplace sellers shipping into Canada, buying and using them means applying an unregistered pesticide in your home, which is not legal and carries no Canadian safety assessment. Before you buy any pesticide, find the PCP number on the can. No number, no purchase. For bug bombs the answer is now the same whatever the listing says: no domestic total-release fogger has a Canadian registration, so none is one you can legally use at home.</p>
 
           <RelatedLinks path="/blog/best-bed-bug-fogger-canada" />
           <h2>How a Fogger Can Make Things Worse</h2>
@@ -274,7 +349,7 @@ export default function BestBedBugFoggerCanadaPage() {
 
           <h2>Fogger Safety: Flammability and Label Limits</h2>
           <p>The one thing foggers are genuinely potent at is starting fires, and this deserves real respect. A total-release fogger discharges its entire pressurized, solvent-carried contents at once, filling a room with a flammable aerosol. Every year across North America there are house fires and even explosions caused by someone setting off cans in a space where a pilot light, stove burner, water-heater flame, or other ignition source was still running. Overloading a room with more cans than the label allows &mdash; the classic &ldquo;more must be better&rdquo; mistake &mdash; multiplies the risk.</p>
-          <p>If you use one, follow the PMRA-registered label as the legal instruction set it is: extinguish every open flame and pilot light, switch off and unplug anything that could spark, remove all people and pets (cover or remove fish tanks entirely), cover food and food-contact surfaces, use only the number of cans the label specifies for the room&rsquo;s size, leave for the full labelled period, and ventilate thoroughly before re-entering. Never exceed the label rate &mdash; it is both dangerous and illegal. The safety math alone is a strong argument for skipping the fog and using non-flammable, targeted tools instead.</p>
+          <p>If you still have a can from before the cancellation, do not set it off: the last date of use was September 2, 2024. Fogging was never casual even when it was allowed: every open flame and pilot light out, anything that could spark switched off and unplugged, all people and pets out (fish tanks covered or removed), food and food-contact surfaces covered, only the number of cans the label specified for the room&rsquo;s size, the full waiting period, and thorough ventilation before re-entering. The safety math alone was a strong argument for skipping the fog and using non-flammable, targeted tools instead.</p>
 
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>Because bed-bug tools span a wide price range, it is worth being blunt about where a dollar does the most work. If you rank the options by cost-per-real-result, the fogger sits at the bottom, and the money is far better allocated up the list. Prioritise your spending in roughly this order:</p>
@@ -284,13 +359,24 @@ export default function BestBedBugFoggerCanadaPage() {
             <li><strong>A residual crack-and-crevice spray (a useful chemical step).</strong> A directed, PMRA-registered residual injected into cracks keeps working for weeks &mdash; the chemical tool that actually earns its place, unlike a fog.</li>
             <li><strong>A desiccant dust (cheap, long-lasting).</strong> Diatomaceous earth or a silica dust blown into wall voids and along baseboards kills mechanically over time and is immune to resistance.</li>
             <li><strong>Interceptor traps (monitoring).</strong> Under each bed leg, so you can actually measure whether numbers are falling week over week.</li>
-            <li><strong>A fogger (last, and optional).</strong> At most a minor flushing add-on for exposed insects in an open room &mdash; and honestly, most plans are better without one.</li>
+            <li><strong>A fogger (off the list).</strong> Not an option for home use in Canada since the 2024 cancellation, and the least useful item here before that.</li>
           </ul>
           <p>Read that as a spending map. Almost anything on the list buys more real progress per dollar than a case of foggers. If your entire budget is one purchase, buy the steamer, not the bomb.</p>
 
+          <h2>Buyer&rsquo;s Checklist: What to Buy Instead of a Bug Bomb</h2>
+          <ul>
+            <li><strong>A PCP number on every pesticide.</strong> &ldquo;Reg. No. ____ P.C.P. Act&rdquo; on the label; no total-release fogger for home use has one now.</li>
+            <li><strong>Bed bugs listed on the label, with the use sites you need.</strong> Labels differ: Doktor Doom Pro Max (Reg. No. 34126), for example, says for bed bugs &ldquo;DO NOT apply to the mattress, headboard, footboard or furniture&rdquo; and directs you to cracks and crevices, baseboards and the floor beneath the bed.</li>
+            <li><strong>A steamer for mattress seams and folds,</strong> where bed bugs and their eggs sit.</li>
+            <li><strong>Mattress and box-spring encasements</strong> so whatever is inside the bed stays there.</li>
+            <li><strong>A registered dust labelled for bed bugs</strong> for wall voids and along baseboards; check the PCP number on the bag.</li>
+            <li><strong>Interceptor traps under each bed leg</strong> so you can see whether the numbers are falling.</li>
+            <li><strong>In an apartment, the landlord first.</strong> Bed bugs move between units, so report it in writing before you treat on your own.</li>
+          </ul>
+
           <h2>Is a Fogger Ever Worth Buying?</h2>
-          <p>There is a narrow, honest case for a single PMRA-registered fogger, and it is worth stating plainly so this guide is not just a wall of &ldquo;don&rsquo;t.&rdquo; If you have a large open room, you want a quick supplemental knockdown of visibly exposed insects <em>as one early step</em> inside a proper plan, and you will follow the label to the letter, a Doktor Doom or Konk total-release aerosol can play that minor flushing role. It is legal, it is cheap, and used correctly it is not harmful. That is the whole of the case.</p>
-          <p>What it can never be is the plan itself. The way people get burned &mdash; sometimes literally &mdash; is buying a stack of foggers, treating them as the cure, and discovering weeks later that the population has grown and scattered. So if you buy one, buy one, use it as a flush, and put the real money into heat, encasements, targeted residuals, dust, and monitoring. If the infestation is established or you are in a multi-unit building where it can spread through shared walls, our <Link href="/blog/bed-bug-control-canada-hub">bed-bug control hub</Link> maps out the full containment-first approach, and the <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> compares the devices that actually reach the bugs.</p>
+          <p>Not in Canada any more, for home use. There used to be a narrow case for a single registered fogger: a large open room, a quick knockdown of visibly exposed insects <em>as one early step</em> inside a proper plan, and the label followed to the letter. Health Canada closed it. The domestic Doktor Doom and Konk total-release foggers were cancelled in the 2023 pyrethrins decision, and the last date to use one was September 2, 2024.</p>
+          <p>What a fog never was is the plan itself. The way people got burned &mdash; sometimes literally &mdash; was buying a stack of foggers, treating them as the cure, and discovering weeks later that the population had grown and scattered. Put the money into heat, encasements, targeted residuals, dust, and monitoring. If the infestation is established or you are in a multi-unit building where it can spread through shared walls, our <Link href="/blog/bed-bug-control-canada-hub">bed-bug control hub</Link> maps out the full containment-first approach, and the <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> compares the devices that actually reach the bugs.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

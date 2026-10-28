@@ -13,15 +13,18 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 // The page's own address. It was renamed from best-ant-killer-canada on Sep 3, 2026
 // (next.config.mjs redirects the old address here). Until Oct 11 this still held the old name,
 // so the canonical, og:url and structured data pointed at an address that redirects back here.
 const SLUG = 'best-ant-killer'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-28'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Ant Killer in Canada 2026 — What Actually Kills the Colony'
-const META_TITLE = 'Best Ant Killer Canada 2026: Bait vs Spray'
+// TITLE NOTE (Oct 28, 2026): was 'Best Ant Killer Canada 2026: Bait vs Spray'; top queries (Jul 28-Oct 25): ant bait 68 (pos 10.3), advance carpenter ant bait canada 19, best outdoor ant killer 8 (1 click), best ant poison 7 (1 click), ant bait gel 4. 'Ant bait' added because it is this page's own top search; 'ant traps' and 'best ant traps' stay with /blog/best-ant-traps-canada.
+const META_TITLE = 'Best Ant Killer Canada: Ant Bait vs Spray (2026)'
 
 const FAQS = [
   {
@@ -72,11 +75,23 @@ const FAQS = [
     question: 'When should I stop buying ant products and call an exterminator?',
     answer: 'When the evidence points at the building rather than the kitchen. Call a licensed professional if you are dealing with carpenter ants and coarse frass or hollow-sounding wood, pharaoh ants (baiting them wrongly makes them multiply, and they are a genuine concern in multi-unit and healthcare settings), ants appearing indoors in mid-winter, a shared wall in a condo or apartment where the nest is not on your side, or six or more weeks of correct baiting with no decline. A professional can use non-repellent actives and placements not sold to households. Our Canadian pest control cost guide gives typical ranges so you can sanity-check a quote — a general ant job is usually a modest number next to a season of repurchased sprays that never worked.',
   },
+  {
+    question: 'What is the best outdoor ant killer?',
+    answer: 'For a nest outside, a weatherproof bait stake pushed into the soil at the nest openings, along the foundation and under the deck, like the Best for Outdoors pick, rather than a perimeter spray. The stake treats the colony where it lives, and the foragers carry the bait home. Health Canada also lists two non-chemical options for an outdoor nest: pour boiling water and detergent down the nest to temporarily reduce the colony, or flood it repeatedly with a garden hose to push the ants farther from the house. Outdoor products also come under provincial rules, so buy them in your own province and follow the label.',
+  },
+  {
+    question: 'Is an ant bait gel better than a liquid bait station?',
+    answer: 'Neither is better everywhere; they do different jobs. Both are baits that foragers carry home to the nest. An enclosed station sits on an open trail and makes the bait harder for small hands and paws to reach, though Health Canada still says to keep stations out of reach of children and pets. A gel is a crack-and-crevice format: a pinhead dab reaches a cabinet seam, a hinge or a pipe collar where no station fits, but exposed gel is not child-resistant. Many of the gels marketed hardest online are sold on US labels, so check any gel, Advion included, for a Canadian PCP registration number and the DOMESTIC class before you buy. For a kitchen trail, start with stations.',
+  },
+  {
+    question: 'Can I buy Advance carpenter ant bait in Canada?',
+    answer: 'Not under that name. Health Canada’s pesticide registry export of October 2026 lists no ant bait called Advance. It does list domestic-class baits whose labels name carpenter ants, such as Raid Max Liquid Ant Baits and Ortho Ant B Gon Max Ant & Roach Killer Gel, while the granular carpenter ant bait it lists (Avert) is commercial class, and Health Canada says commercial class products are not available to the general public for use in and around the home. Whatever the brand, check the pack for Reg. No. 00000 P.C.P. Act and DOMESTIC; a US EPA number alone is not a Canadian registration. For carpenter ants, finding the nest and the moisture matters more than the bait.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best ant killer in Canada 2026: why bait beats every contact spray, indoor vs outdoor vs perimeter picks, and the PCP number to check before you buy.',
+  description: 'Best ant killer in Canada: a slow liquid ant bait set on the trail, not a spray. Every type compared with Health Canada’s advice, plus outdoor picks.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -103,7 +118,7 @@ export default function BestAntKillerCanadaPage() {
             <span className="text-white">Best Ant Killer Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Most products sold as &ldquo;ant killer&rdquo; kill the handful of ants you can see and leave the nest untouched. Here is the honest split &mdash; indoor bait, outdoor bait, perimeter barrier, and the narrow case where instant knockdown is genuinely the right call.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the best ant killer in Canada is a slow-acting liquid ant bait, like the TERRO Liquid Ant Baits picked below, set right on the trail. Foragers carry it home and share it, so it reaches the queen. Keep a spray for one spot you need clear right now, then bait: a spray kills only the ants it touches, and the nest keeps making more.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -343,6 +358,7 @@ export default function BestAntKillerCanadaPage() {
             <li><strong>A trail is crossing a food-prep surface right now.</strong> Clear that specific surface, wash it with soap and water, and put the bait station on the trail once it dries &mdash; ideally an arm&rsquo;s length back along the route, on the ant side of the counter.</li>
             <li><strong>A defined, contained cluster.</strong> Ants pouring out of a single appliance gap during a dinner party is a moment, not a strategy. Treat the moment.</li>
           </ul>
+          <Photo id="carpenter-ant-winged-queen" alt="Winged black carpenter ant queen with long, smoky wings folded over her body, on a green leaf" caption="A winged queen of the eastern black carpenter ant, Camponotus pennsylvanicus, on a leaf (Waltham, Massachusetts). Winged ants indoors are reproductives from a nest: knock them down if you must, then find where they came from, because that nest still needs baiting." />
           <p>The rules that keep a knockdown from wrecking the real job: use a <strong>short-residual</strong> product rather than a long-residual barrier formulation, treat only the spot rather than banding the room, wash treated surfaces afterward, and get bait down within a day. And check the label &mdash; the active ingredient tells you which category you are actually holding. Pyrethrin-based sprays break down quickly in light and air; synthetic pyrethroid barrier products are designed to persist for weeks, which is exactly what you do not want on ground your bait needs.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="doktor doom house and garden insect spray">Check short-residual contact sprays on Amazon.ca →</BuyLink>
@@ -356,6 +372,22 @@ export default function BestAntKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="terro outdoor liquid ant bait stakes">Check outdoor bait stakes on Amazon.ca →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="Every kind of ant killer: what Health Canada says"
+            head={['Ant killer', 'What Health Canada says', 'Use it when']}
+            rows={[
+              ['Bait stations (liquid or solid)', '“Ants gather food and bring it back to the nest to feed ant colony members.” Baiting is “a highly effective way of getting rid of nests.”', 'First, for almost every trail: on the trail, out of reach of children and pets'],
+              ['Two baits at once', '“Two different baits at the same time will give better results.”', 'The colony walks past the sweet bait: add a protein station beside it'],
+              ['Sprays indoors', '“Do not use chemical sprays to kill ants while using a bait system, or the bait system will not work.” Spraying indoors where trails are seen may cut off an indoor nest’s food and water and cause the colony to split.', 'One spot you need clear now; wash it, then bait'],
+              ['Barrier treatment (baseboards, door and window frames)', 'A chemical barrier there can keep ants that nest outdoors from foraging inside.', 'Rarely: the residue repels ants from your bait, so never alongside a bait system; read the label and provincial rules'],
+              ['Dusts in a wall void', '“Nests located indoors in wall voids can be treated with dusts that can be puffed into the area.”', 'You know which void the nest is in'],
+              ['Diatomaceous earth', '“Diatomaceous earth will remain active as long as it is kept dry.”', 'Dry voids and sill plates, away from the bait route'],
+              ['Boiling water and detergent', 'Poured down the nest, it can “temporarily reduce the population of a colony.”', 'An outdoor nest you can see; it does not finish the colony'],
+              ['Any product', '“Always look for a Pest Control Products (PCP) number on the label” and “Follow all label directions and warnings carefully.”', 'Every time you buy'],
+            ]}
+            caption={<>Quoted and summarized from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a> (page details 2017-06-19), read October 28, 2026. The third column is this guide&rsquo;s advice.</>}
+          />
+
           <h2>When Your Bait Gets Ignored: the Sugar/Protein Switch</h2>
           <p>A common failure mode with bait is some version of &ldquo;I put the bait down and they walked right past it.&rdquo; The usual cause is menu, not product failure. Colony appetite shifts through the season with what the brood needs: carbohydrate-heavy when workers are fuelling foraging, protein- and lipid-heavy when there are larvae to raise. A sugar bait during a protein phase is an untouched tray.</p>
           <p>The fix is not to switch &mdash; it is to <strong>run both</strong>. Place a protein/grease station beside the liquid one on the same trail and let the colony choose. Within a day you will see which one they are working, and that also tells you which format to keep stocked for the rest of the season. Other common causes worth ruling out: bait placed off the trail, spray residue nearby causing refusal, too few stations for the traffic volume, and competing food &mdash; a bowl of pet kibble or a sticky spill three feet away out-competes any bait station ever made.</p>
@@ -368,6 +400,18 @@ export default function BestAntKillerCanadaPage() {
           <p>Search &ldquo;best ant killer&rdquo; and most of what you will read is American. That matters here more than in almost any other product category, because pesticides are regulated nationally and a product that is perfectly legal in Ohio may have no legal standing in Ontario at all. Under the Pest Control Products Act, any pesticide sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and must carry a Canadian registration number on the label, printed in the form <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>, alongside a class designation.</p>
           <p>Two things follow from that. First, the ten-second habit: before buying any gel, concentrate or imported aerosol from a marketplace listing, look for that PCP number on the physical label. You cannot tell from a product photo, a US EPA registration number is not a substitute, and if there is no Canadian number there are no Canadian label directions to follow or rely on. Second, the class matters &mdash; a DOMESTIC designation is for household use, while professional-grade products often carry a COMMERCIAL designation that is not intended for unlicensed homeowners. Several of the potent ant gels that dominate American forum recommendations land Canadian buyers in exactly this grey zone; we walked through the same trap in detail on the <Link href="/blog/advion-cockroach-gel-bait">cockroach gel version of this problem</Link> and again in our <Link href="/blog/rat-poison-canada-what-is-legal">guide to what rodenticides are actually legal here</Link>.</p>
           <p>The encouraging part: you are not giving anything up. A shelf-legal Canadian liquid bait station is not a compromise version of the good stuff &mdash; borax bait works on the same colony-transfer principle that makes professional products effective, and for a pavement-ant trail in a Mississauga kitchen it is genuinely the right tool.</p>
+
+          <h2>Ant Killer Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Bait, not spray, as the first purchase.</strong> Health Canada calls baiting a highly effective way of getting rid of nests and says not to spray while a bait system is working.</li>
+            <li><strong>&ldquo;Reg. No. &hellip; P.C.P. Act&rdquo; on the pack.</strong> Health Canada says that number is how you recognize a product registered for use in Canada, and that checking matters most on online platforms selling for third-party vendors (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html" target="_blank" rel="noopener noreferrer">Buying pest control products online</a>).</li>
+            <li><strong>DOMESTIC class.</strong> Health Canada: domestic class products are for personal use in and around the home; commercial class products are not available to the general public for that use (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management/frequently-asked-questions.html" target="_blank" rel="noopener noreferrer">pesticide FAQ</a>).</li>
+            <li><strong>The right product for where the nest is:</strong> enclosed stations for an indoor trail, weatherproof stakes for a nest outside.</li>
+            <li><strong>Both menus ready:</strong> a sweet liquid bait first, and a protein bait for a colony that ignores it.</li>
+            <li><strong>If you also buy a spray,</strong> a short-residual one for a single spot, washed off before the bait goes down.</li>
+            <li><strong>Diatomaceous earth only with a PCP number</strong> on the label, never a bag sold only as a feed additive.</li>
+            <li><strong>Not on the list:</strong> ultrasonic repellers, ant chalk, and vinegar or cinnamon as the control method.</li>
+          </ol>
 
           <h2>What Not to Buy</h2>
           <p>Said plainly, because refusing to recommend things is the only reason to trust the rest of the page:</p>
@@ -391,6 +435,7 @@ export default function BestAntKillerCanadaPage() {
             <li><strong>Shared-wall buildings.</strong> In a condo, apartment or townhouse, the nest may be on the other side of a wall you do not control. Treating your unit alone is a treadmill; this is a building-management conversation.</li>
             <li><strong>Six or more weeks of correct baiting with no decline.</strong> At that point you are missing something structural, and a professional can use non-repellent actives and placements that are not sold to households.</li>
           </ul>
+          <Photo id="carpenter-ant-frass" alt="Black carpenter ant beside a heap of coarse, orange-brown wood shavings on weathered bark" caption="A carpenter ant, Camponotus modoc, beside a heap of frass (coarse wood shavings) on western redcedar bark (Sequim, Washington). Large black ants plus coarse, sawdust-like frass point to galleries in wood: a nest to find, not a trail to spray." />
           <p>Professionals price general ant work modestly &mdash; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> lays out typical ranges so you can sanity-check a quote. Weighed against a summer of repurchased sprays that never touched the nest, one correct visit is frequently the cheaper path.</p>
 
           <h2>Frequently Asked Questions</h2>

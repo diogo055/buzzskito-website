@@ -2,7 +2,7 @@
  "id": "do-carpenter-ants-bite",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2652c831e93bb459e7697f50c5b7e5f59c1adc6c37a1c14e36e03ed72f9bd7c9",
+ "sha": "0cc2bcfa439fc5895ffab2557c9136e128580123ad0024ff084207bd4d1b478b",
  "claimsChecked": 64,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 6,
@@ -12,6 +12,11 @@
    "on": "2026-10-23",
    "note": "photos: carpenter-ant-on-fingers (batch 12, Oct 23)",
    "previousSha": "521a0f1aa817e4fbeec7ba70812391332a900383dd6d196f9a9f1c13e3715c1b"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 5 real photos added as figure blocks next to the text they illustrate (carpenter-ant-side-view, carpenter-ant-beside-ruler, carpenter-ant-damaged-board, carpenter-ant-frass, carpenter-ant-winged-queen; the CC0 lead carpenter-ant-on-fingers is unchanged). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (UC IPM, Penn State, University of Maryland Extension). One sentence linking /tools/what-bug-is-this in the identification section. No other text changed; dates unchanged.",
+   "previousSha": "2652c831e93bb459e7697f50c5b7e5f59c1adc6c37a1c14e36e03ed72f9bd7c9"
   }
  ]
 }

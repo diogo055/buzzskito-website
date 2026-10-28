@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-ulv-cold-fogger-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best ULV Cold Fogger Canada 2026 — Electric Cold Foggers for Disinfectant & Pest Control Compared'
-const META_TITLE = 'Best ULV Cold Fogger Canada 2026: Micron Sizes'
+// TITLE NOTE (Oct 28, 2026): was 'Best ULV Cold Fogger Canada 2026: Micron Sizes'; top queries, Jul 28-Oct 25 (all countries): ulv cold fogger 24 at 5.0, cold fogger 22 at 5.8, ulv fogger machine 13 at 7.8, cold fogger machine 12 at 9.2, cold fog machine 6 at 6.5, best disinfectant fogger machine 5 at 5.8 (3 clicks).
+const META_TITLE = 'Best ULV Cold Fogger Canada: What You Can Fog'
 
 const FAQS = [
   {
@@ -28,7 +31,7 @@ const FAQS = [
   },
   {
     question: 'What is the difference between a ULV cold fogger and a thermal fogger?',
-    answer: 'A ULV (ultra-low-volume) cold fogger uses a high-pressure air stream and a nozzle to mechanically shear liquid into tiny droplets — no heat involved — so it can disperse water-based disinfectants, sanitizers, mould treatments, and water-carried pest solutions safely indoors. A thermal fogger heats an oil-based carrier into a dense visible smoke; it produces a much thicker cloud that is excellent for outdoor knockdown and penetrating dense vegetation, but the heat and the visible fog make it a poor fit for indoor disinfecting. In short: cold foggers are the indoor, water-based, low-odour tool; thermal foggers are the outdoor, oil-based, high-visibility tool. Our companion guide to the best thermal fogger in Canada covers the other side of that choice.',
+    answer: 'A ULV (ultra-low-volume) cold fogger uses a high-pressure air stream and a nozzle to mechanically shear liquid into tiny droplets — no heat involved — so it can disperse water-based disinfectants, sanitizers, mould treatments, and water-carried pest solutions indoors. A thermal fogger heats an oil-based carrier into a dense visible smoke; it produces a much thicker cloud that is excellent for outdoor knockdown and penetrating dense vegetation, but the heat and the visible fog make it a poor fit for indoor disinfecting. In short: cold foggers are the indoor, water-based, low-odour tool; thermal foggers are the outdoor, oil-based, high-visibility tool. Our companion guide to the best thermal fogger in Canada covers the other side of that choice.',
   },
   {
     question: 'What micron size do I need for a ULV cold fogger?',
@@ -56,7 +59,7 @@ const FAQS = [
   },
   {
     question: 'Is a ULV cold fogger safe to use indoors?',
-    answer: 'Yes, when used correctly with an appropriate solution, which is the whole reason cold foggers exist — they disperse water-based products without the heat, smoke, or oil carrier of a thermal fogger. That said, indoor fogging still demands basic precautions: follow the label for ventilation and re-entry time, wear the eye and respiratory protection the product specifies, remove people and pets from the space during application and until the label-stated dwell time has passed, and never fog around open flames or unprotected electronics. The device is safe; safety comes from matching the right authorized solution to the right micron setting and respecting the product label.',
+    answer: 'It is the indoor tool of the two fogger families, because it disperses water-based products without the heat, smoke, or oil carrier of a thermal fogger. Indoor fogging still demands basic precautions: follow the label for ventilation and re-entry time, wear the eye and respiratory protection the product specifies, remove people and pets from the space during application and until the label-stated dwell time has passed, and never fog around open flames or unprotected electronics. The machine is only a delivery device: what you may do with it, and how, comes from the label of the authorized solution you put in it and the micron setting that label suits.',
   },
   {
     question: 'How do I clean and maintain a ULV cold fogger?',
@@ -70,11 +73,19 @@ const FAQS = [
     question: 'Where can I buy a ULV cold fogger in Canada?',
     answer: 'The widest year-round selection is on Amazon.ca, where the PetraTools, Hudson-style commercial, and compact VonHaus-class units are all listed with Canadian shipping. Janitorial and restoration suppliers stock commercial ULV machines, and some home-improvement and equipment retailers carry seasonal models. Wherever you buy the machine, buy the solution separately from a Canadian source so you know it carries the right DIN (for disinfectants) or PMRA/PCP number (for pest products) — the machine is easy to source legally, but it is the solution that has to be Canadian-registered, and that is where grey-market US products get people into trouble.',
   },
+  {
+    question: 'Is a cold fogger the same as a ULV fogger?',
+    answer: 'In everyday use, yes. ULV (ultra-low volume) describes how little liquid the machine puts out and how fine the droplets are, and ULV fogging is also called cold fogging because the machine breaks the liquid up with a fast air stream and a nozzle instead of heat. What separates one cold fogger from another is the droplet range and the flow control, so look for the figure the maker prints: IGEBA says its Nebulo keeps 70% of droplets under 20 microns at any flow setting, and PetraTools lists 5–50 microns, adjustable, for its electric backpack ULV fogger. A thermal fogger is the other family: it heats an oil-based carrier into a visible smoke.',
+  },
+  {
+    question: 'What is the best disinfectant fogger machine?',
+    answer: 'For a room or a basement, the same machine as this page\'s top pick: a corded electric ULV cold fogger with an adjustable flow valve and a tank of a gallon or more. The liquid matters more than the machine. In Canada a disinfectant carries a Health Canada DIN, and its label decides how it may be applied, so fog only a product whose label gives fogging directions. The US EPA puts it plainly: unless a product label specifically includes directions for fogging, EPA does not recommend that method, because it has not evaluated a product\'s safety and efficacy for methods the label does not address.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best ULV cold foggers in Canada for 2026: electric vs commercial vs compact, why micron adjustability matters, what solutions are legal to fog under PMRA and Health Canada rules, and our PetraTools, Hudson, and VonHaus-class picks.',
+  description: 'Best ULV cold fogger in Canada: an adjustable corded electric unit. Makers\' droplet specs, and what Health Canada\'s register lets a homeowner put in one.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +110,7 @@ export default function BestUlvColdFoggerCanadaPage() {
             <span className="text-white">Best ULV Cold Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A ULV cold fogger is the indoor, water-based tool for disinfecting, deodorizing, and applying legal pest solutions as a fine mist &mdash; here is why micron adjustability and tank size decide the machine, what you can legally fog in Canada, and our electric, commercial, and compact picks.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best ULV cold fogger for most Canadian buyers is a corded electric machine with an adjustable flow valve and a tank of a gallon or more: IGEBA, for example, says its Nebulo keeps 70% of droplets under 20 microns at any flow setting. Buy one for disinfectant, deodorizer and other water-based jobs whose product label allows fogging. For insects, know one thing first: every insecticide in Health Canada&rsquo;s register named for ULV or fogging-solution use is commercial or restricted class, not a homeowner product.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,7 +125,7 @@ export default function BestUlvColdFoggerCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best ULV cold fogger in Canada is an <strong>adjustable corded electric unit</strong> with a real micron dial and a 1&ndash;2 gallon tank &mdash; a PetraTools-class machine &mdash; because the droplet size and flow actually adjust across the fine-mist disinfecting and coarse surface-treatment ranges, and the tank is big enough for a whole basement or duct run. Choose a rugged Hudson-style commercial ULV if you fog daily and want a rebuildable machine, or a compact VonHaus-class unit for a single room or vehicle. A cold fogger is a delivery device &mdash; in Canada, whatever you fog must be a Health-Canada-authorized disinfectant (DIN) or a PMRA-registered pest product whose label permits fogging.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Cold (ULV) = no heat, water-based, low-odour, indoor-safe; thermal = heat, oil-based, visible smoke, outdoor.</li>
+              <li>Cold (ULV) = no heat, water-based, low-odour, the indoor tool; thermal = heat, oil-based, visible smoke, outdoor.</li>
               <li>Micron adjustability is the spec that matters most &mdash; ~5&ndash;15&micro;m for airborne disinfecting, ~30&ndash;50&micro;m for surface wetting.</li>
               <li>Corded gives unlimited runtime and the finest, strongest mist; cordless trades power for mobility.</li>
               <li>The machine is legal to own &mdash; it is the <em>solution</em> that must carry a Canadian DIN or PMRA/PCP number.</li>
@@ -258,8 +269,21 @@ export default function BestUlvColdFoggerCanadaPage() {
 
           <NextUp path="/blog/best-ulv-cold-fogger-canada" />
           <h2>Cold Fogger vs Thermal Fogger: Which One Do You Actually Need?</h2>
-          <p>This is the first fork in the road, and getting it wrong means buying the wrong tool entirely. A <strong>ULV cold fogger</strong> uses a high-pressure air stream and a nozzle to mechanically shear liquid into ultra-fine droplets &mdash; no heat is involved. Because there is no heat and no oil carrier, it can disperse <em>water-based</em> disinfectants, sanitizers, deodorizers, and water-carried pest solutions safely indoors, with low odour and no visible smoke. That makes it the right choice for disinfecting rooms, treating ductwork, deodorizing vehicles, and applying legal water-based pest products inside a home or business.</p>
+          <p>This is the first fork in the road, and getting it wrong means buying the wrong tool entirely. A <strong>ULV cold fogger</strong> uses a high-pressure air stream and a nozzle to mechanically shear liquid into ultra-fine droplets &mdash; no heat is involved. Because there is no heat and no oil carrier, it can disperse <em>water-based</em> disinfectants, sanitizers, deodorizers, and water-carried pest solutions indoors, with low odour and no visible smoke. That makes it the right choice for disinfecting rooms, treating ductwork, deodorizing vehicles, and applying legal water-based pest products inside a home or business.</p>
           <p>A <strong>thermal fogger</strong>, by contrast, heats an oil-based carrier into a dense, visible cloud. That thick fog is superb for outdoor knockdown &mdash; penetrating shrubs, tree lines, and dense vegetation where mosquitoes and other flying insects rest &mdash; but the heat and the oil make it a poor and often unsafe fit for indoor disinfecting. If your job is outdoor, vegetation-heavy, and about visible coverage, you want thermal; our <Link href="/blog/best-thermal-fogger-canada">best thermal fogger in Canada</Link> guide covers that side, and the <Link href="/blog/longray-thermal-fogger-review-canada">Longray thermal fogger review</Link> and <Link href="/blog/black-flag-electric-fogger-review-canada">Black Flag electric fogger review</Link> dig into specific machines. If your job is indoor, water-based, and about even, low-odour coverage, you want cold ULV &mdash; and that is what this guide is about.</p>
+
+          <h2>ULV and Mosquitoes: Why Canadian Mosquito Fogging Is a Professional Job</h2>
+          <p>Outdoors, ULV is how mosquito-control programs treat adult mosquitoes. The US EPA describes ULV sprayers as dispensing &ldquo;very fine aerosol droplets that stay aloft and kill flying mosquitoes on contact,&rdquo; typically at &ldquo;less than 3 ounces per acre.&rdquo; The catch for a Canadian homeowner is the liquid. In Health Canada&rsquo;s pesticide register, the insecticides named for this work are commercial class: Pyrocide Fogging Formula 7067 for ULV Mosquito Adulticiding (PCP 13378), for example, and the two malathion ULV concentrates (PCP 9337 and 25638), which also carry restricted uses. No current domestic-class product is named for ULV use. So a cold fogger bought for the backyard is, in practice, a machine for water-based and disinfectant jobs; for mosquitoes, the homeowner products and the steps in our <Link href="/blog/mosquito-fogger-canada">mosquito fogger guide</Link> are the legal route.</p>
+          <Photo
+            id="anopheles-quadrimaculatus"
+            alt="An adult mosquito resting on a leaf"
+            caption="A common malaria mosquito, Anopheles quadrimaculatus, resting on a leaf (CDC photograph). Adult mosquitoes rest in vegetation like this by day, which is where any fog has to reach them."
+          />
+          <Photo
+            id="culex-pipiens"
+            alt="A northern house mosquito, Culex pipiens, resting on a surface"
+            caption="A northern house mosquito, Culex pipiens, photographed in Ontario. The insecticides in Health Canada’s register named for ULV treatment of adult mosquitoes are commercial class, for professional use."
+          />
 
           <h2>Micron Size: The Spec That Decides Everything</h2>
           <p>If you remember one number from this guide, make it droplet size &mdash; measured in microns. A ULV machine&rsquo;s whole value is its control over how finely it atomizes, and the right setting depends entirely on the job:</p>
@@ -276,6 +300,29 @@ export default function BestUlvColdFoggerCanadaPage() {
             <li><strong>For pest control:</strong> use a product carrying a <strong>PMRA registration</strong> &mdash; a PCP number &mdash; whose label specifically permits space-spray or fogging application at the concentration you are using. Applying a pesticide in a way its label does not authorize is illegal, even if the product itself is registered.</li>
           </ul>
           <p>The trap is the grey market. A great many US-sold fogger concentrates &mdash; pyrethrin space sprays, disinfectant concentrates, and &ldquo;fogger-ready&rdquo; pest products &mdash; are <em>not</em> registered in Canada, and importing or applying them here is against the law regardless of how easy they are to order. Buy your machine wherever is convenient, but buy your solution from a Canadian source so you can verify the DIN or PCP number and read a Canadian label. This is the single most important compliance point on the whole page: the fogger will happily atomize an illegal product just as well as a legal one, so the responsibility for legality sits entirely with what you choose to pour in.</p>
+
+          <QuickIdTable
+            title="What you can put in a cold fogger in Canada, on the record"
+            head={['What you pour in', 'Examples on the record', 'Class or rule', 'What it means for you']}
+            rows={[
+              ['Insecticide made for ULV machines', 'Pyrocide Fogging Formula 7067 for ULV Mosquito Adulticiding (PCP 13378); PRO Professional 110 and 3610 Ultra-Low Volume Insecticide (PCP 15330, 11540)', 'Commercial class', 'Professional products. No current domestic (homeowner) product in the register is named for ULV or fogging-solution use'],
+              ['Malathion ULV concentrate', 'Fyfanon ULV (PCP 9337); Malathion 95 ULV (PCP 25638)', 'Commercial, with restricted uses', 'Mosquito and farm programs, not home use'],
+              ['Homeowner products called foggers', 'Muskol Patio & Deck Fogger (PCP 22808.03); Fight Back Patio & Yard Fogger (PCP 32481); Mosquito Shield Backyard Bug Control Outdoor Fogger (PCP 22808.01)', 'Domestic class, outdoor sites', 'Patio and yard products in their own packaging; none is named for use in a ULV machine'],
+              ['Disinfectant or sanitizer', 'Any product with a Health Canada DIN', 'The label directions govern', 'Fog only a product whose label gives fogging directions. The US EPA does not recommend fogging a disinfectant whose label lacks them'],
+              ['Water, deodorizer and other non-flammable liquids', '—', 'The fogger maker’s manual', 'IGEBA says never to fog flammable or combustible fluids through its Nebulo; check your own machine’s list'],
+            ]}
+            caption={<>Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a>, searched by product name on October 28, 2026 (current products named ULV, fogging or fogger); US EPA, <a href="https://www.epa.gov/coronavirus/can-i-use-fogging-fumigation-or-electrostatic-spraying-or-drones-help-control-covid-19" target="_blank" rel="noopener noreferrer" className="underline">on fogging and electrostatic spraying of disinfectants</a>; IGEBA Nebulo notes from <a href="https://nixalite.com/product/igeba-nebulo-series-ulv-cold-foggers" target="_blank" rel="noopener noreferrer" className="underline">Nixalite</a>, its North American distributor. A name search finds products by name only, so read the label of any product you consider.</>}
+          />
+
+          <h3>Before You Buy a Cold Fogger: Checklist</h3>
+          <ul>
+            <li><strong>A printed droplet range.</strong> Good makers state one: IGEBA says its Nebulo keeps 70% of droplets under 20 microns at any flow setting, and PetraTools lists 5&ndash;50 microns, adjustable, for its electric backpack ULV fogger. No figure means no way to match the machine to the job.</li>
+            <li><strong>A flow valve you can turn.</strong> Adjustable output is what lets one machine do a fine airborne mist and coarser surface work.</li>
+            <li><strong>A tank sized to your space.</strong> About a gallon or more for a basement or a duct run; a small tank suits one room or a car.</li>
+            <li><strong>The maker&rsquo;s list of liquids.</strong> Read what the manual allows before you buy anything to pour in; IGEBA, for one, rules out flammable and combustible fluids.</li>
+            <li><strong>A legal liquid for your job.</strong> A disinfectant whose label gives fogging directions, or, for insects, a licensed operator: the register&rsquo;s ULV insecticides are commercial class.</li>
+            <li><strong>Corded or battery.</strong> Corded for long runs and the finest mist; battery for short jobs away from an outlet.</li>
+          </ul>
 
           <RelatedLinks path="/blog/best-ulv-cold-fogger-canada" />
           <h2>How to Choose: What You Are Actually Paying For</h2>

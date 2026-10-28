@@ -14,12 +14,16 @@ import { PROMISES } from '@/lib/constants'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'mosquito-magnet-canada'
 const DATE = '2026-05-01'
-const UPDATED = '2026-05-01'
+const UPDATED = '2026-10-28'
 const TITLE = 'Mosquito Magnet Canada 2026 — Where to Buy + Do They Actually Work?'
-const META_TITLE = 'Mosquito Magnet Canada 2026: Where to Buy It'
+// TITLE NOTE (Oct 28, 2026): was 'Mosquito Magnet Canada 2026: Where to Buy It' (the year goes stale before next season); top queries, Jul 28-Oct 25 (all countries): mosquito magnet 523 at 10.8, mosquito magnet canada 454 at 7.2, mosquito magnet patriot plus 298 at 10.3, mosquito magnet parts canada 33 at 8.2, mosquito magnet patriot plus canada 30 at 5.9, mosquito magnet executive 18 at 11.7 (28 clicks).
+const META_TITLE = 'Mosquito Magnet Canada: Patriot Plus & Executive'
 
 const FAQS = [
   {
@@ -114,14 +118,27 @@ const FAQS = [
     question: 'What does the Mosquito Magnet warranty cover?',
     answer: 'Both current models carry a 1-year limited manufacturer warranty against defects in materials and workmanship. It does not cover consumables — propane, attractant cartridges or nets — nor damage from running the trap without the correct fuel, freeze damage, or wear on the catalytic converter, which is treated as a replaceable service part rather than a defect. Register the unit at purchase and keep the receipt: ignition faults are the most common failure and they often surface in the second season, just after the warranty lapses.',
   },
+  {
+    question: 'What is the Mosquito Magnet Patriot Plus model number in Canada?',
+    answer: 'Woodstream Canada lists the Patriot Plus as model MM4202B. The same page’s product details also show MM4200B, the number used in the United States, so match the number on the box or listing to your country before you order parts. The Patriot Plus plugs in with a 50-foot power cord, covers up to 1 acre and carries a 1-year limited warranty, and according to Woodstream Canada it does not include the Octenol attractant, which is sold separately.',
+  },
+  {
+    question: 'Where can I buy Mosquito Magnet parts in Canada?',
+    answer: 'Woodstream, the maker, sells Mosquito Magnet traps and Octenol refills on its Canadian site and says many of its products are also sold by other local and online retailers, naming Amazon. Order parts by model number, not by name: the Patriot Plus net is MM4200NETN and the Executive net is MM3300NETN, and Mosquito Magnet gives both a 21-day interval: empty or replace the Patriot Plus net, replace the Executive net. The Octenol attractant sold in Canada shows PMRA registration PCP Reg. No. 28440 and fits Mosquito Magnet traps only; Woodstream points DynaTrap owners to a different sachet.',
+  },
+  {
+    question: 'Is the Mosquito Magnet Executive cordless?',
+    answer: 'Yes. Woodstream Canada lists the Executive (model MM3302B) as a cordless trap that runs on a rechargeable nickel metal hydride battery, with a charger included, and says one charge lasts the entire season. It covers up to 1 acre, rolls on wheels, ships with one bottle of Octenol attractant and has a 1-year limited warranty; the 20 lb propane tank is not included. Going cordless is the reason to pay more for it, since the Patriot Plus needs an outlet within reach of its 50-foot cord.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Where to buy Mosquito Magnet in Canada (Costco, Amazon.ca, Cabela\'s, Lee Valley pricing), how propane CO₂ traps work, Patriot vs Executive vs Independence comparison, and whether they\'re worth it vs professional barrier spray. Updated 2026.',
+  description: 'Mosquito Magnet in Canada: Patriot Plus (MM4202B, 50-ft cord) vs the cordless Executive, parts, Octenol refills, where to buy and when it pays off.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('culex-tarsalis-female'),
 })
 
 const AMZ_TAG = tagForSlug('mosquito-magnet-canada')
@@ -129,7 +146,7 @@ const AMZ_TAG = tagForSlug('mosquito-magnet-canada')
 export default function MosquitoMagnetCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to Mosquito Magnet propane CO₂ traps in Canada.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Comprehensive 2026 guide to Mosquito Magnet propane CO₂ traps in Canada.', slug: SLUG, datePublished: DATE, image: shareImage('culex-tarsalis-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mosquito Magnet Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -142,7 +159,7 @@ export default function MosquitoMagnetCanadaPage() {
             <span className="text-white">Mosquito Magnet Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Pricing across Canadian retailers, how propane CO₂ traps actually work, Patriot vs Executive comparison, and whether they beat professional yard barrier spray for GTA properties.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">For most Canadian buyers the Mosquito Magnet to get is the Patriot Plus (model MM4202B in Canada): it plugs in on a 50-foot cord and covers up to an acre. Choose the cordless Executive only if there is no outlet near the right spot. Either way, a trap pays off on isolated acreage and cottages, not on a typical suburban lot.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -280,9 +297,9 @@ export default function MosquitoMagnetCanadaPage() {
                   ['Propane consumption', '~1 tank per 21 days'],
                   ['Attractant cartridge', 'Octenol or Lurex · 21 days each'],
                   ['Annual operating cost', '$400–$600 (Canada)'],
-                  ['Models stocked in Canada', 'Patriot Plus, Independence, Executive, Pioneer'],
+                  ['Models registered in Canada', 'Patriot Plus and Executive (the Independence registration is cancelled)'],
                   ['Best application', 'Cottages, rural acreage, chronic problem lots'],
-                  ['Health Canada status', 'Not a pesticide — no PCP registration needed'],
+                  ['Health Canada status', 'Registered pest control products: Patriot Plus PCP 32375 and Executive PCP 29944 (devices), Octenol attractant PCP 28440'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -292,6 +309,33 @@ export default function MosquitoMagnetCanadaPage() {
               </tbody>
             </table>
           </div>
+
+          <QuickIdTable
+            title="Mosquito Magnet in Canada: Patriot Plus vs Executive"
+            head={['Spec', 'Patriot Plus', 'Executive']}
+            rows={[
+              ['Canadian model number', 'MM4202B', 'MM3302B'],
+              ['Health Canada registration', 'PCP 32375 (device)', 'PCP 29944 (device)'],
+              ['Power', 'Plugs in: 50-foot power cord', 'Cordless: rechargeable NiMH battery and charger; one charge lasts the season (Woodstream)'],
+              ['Coverage', 'Up to 1 acre', 'Up to 1 acre'],
+              ['Octenol attractant in the box', 'No, sold separately', 'Yes, one bottle'],
+              ['Propane', '20 lb tank; Woodstream recommends changing it every 18 to 21 days', '20 lb tank, not included; fuel-saving modes stretch it by up to 40%'],
+              ['Net part number', 'MM4200NETN, empty or replace every 21 days', 'MM3300NETN, replace every 21 days'],
+              ['Maker’s results timeline', 'First results in 7 to 10 days, larger drops in about 4 weeks', 'Noticeable in 7 to 10 days, a significant reduction after 4 weeks'],
+              ['Warranty', '1-year limited', '1-year limited'],
+            ]}
+            caption={<>From Woodstream Canada&rsquo;s <a href="https://www.woodstreambrands.ca/mosquito-magnet-patriotplus-trap-ca-mm4202" target="_blank" rel="noopener noreferrer" className="underline">Patriot Plus</a> and <a href="https://www.woodstreambrands.ca/mosquito-magnet-executive-mosquito-trap-mm3302" target="_blank" rel="noopener noreferrer" className="underline">Executive</a> pages, Mosquito Magnet&rsquo;s <a href="https://www.mosquitomagnet.com/mosquito-magnet-patriot-plus-net-mm4200netn" target="_blank" rel="noopener noreferrer" className="underline">Patriot Plus net</a> page and Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32375" target="_blank" rel="noopener noreferrer" className="underline">pesticide registry</a>, checked October 28, 2026. The results timeline is the maker&rsquo;s claim; the field trials further down this page are the independent view.</>}
+          />
+
+          <h2 className="text-xl font-extrabold text-brand-900 mt-8 mb-4">Which Mosquito Magnet for Your Situation?</h2>
+          <ul className="space-y-2 text-sm text-gray-700 list-disc pl-5">
+            <li><strong>An acre or more, rural or cottage, with an outdoor outlet within 50 feet of a shady spot:</strong> the Patriot Plus.</li>
+            <li><strong>No outlet anywhere near the right spot</strong> (a cottage, cabin or hunting camp): the cordless Executive.</li>
+            <li><strong>A suburban lot under about a quarter-acre:</strong> skip the trap, because most of its capture radius sits on your neighbours&rsquo; land. BTI in standing water, an area repellent on the patio and a barrier treatment do more.</li>
+            <li><strong>You already own one:</strong> Octenol refills (PCP Reg. No. 28440), the net that matches your model number, and a full 20 lb propane tank about every three weeks.</li>
+            <li><strong>Your main worry is West Nile virus:</strong> the trap is weakest against the <em>Culex</em> mosquitoes that carry it (see the species section below), so repellent and draining standing water come first.</li>
+            <li><strong>Ticks:</strong> no CO₂ trap catches them.</li>
+          </ul>
         </div>
       </section>
 
@@ -322,12 +366,12 @@ export default function MosquitoMagnetCanadaPage() {
               <tbody>
                 {[
                   ['Model number (US)', 'MM4200B', 'MM3300B'],
-                  ['Model number (Canada)', 'MM4200', 'MM3302'],
+                  ['Model number (Canada)', 'MM4202B', 'MM3302B'],
                   ['US list price', 'US$505.99', 'US$972.99'],
                   ['Common US sale price', 'US$399.99', 'Rarely discounted'],
                   ['Power source', 'A/C mains — 50 ft cord', 'Rechargeable battery — cordless'],
                   ['Coverage', 'Up to 1 acre', 'Up to 1 acre'],
-                  ['Net size', 'Small (MM3100NET class)', 'Large (MM3300NET)'],
+                  ['Net (part number)', 'MM4200NETN', 'MM3300NETN'],
                   ['Mobility', 'Carry handle', 'Wheeled base'],
                   ['Warranty', '1 year limited', '1 year limited'],
                   ['In the box', 'Trap, small net, Octenol attractant', 'Trap, large net, Octenol attractant'],
@@ -342,7 +386,7 @@ export default function MosquitoMagnetCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            US prices are manufacturer list and typical retail as of 2026 and move with promotions. <strong>Note the country split on the Executive:</strong> it is MM3300B in the United States and MM3302 in Canada. These are the same machine &mdash; neither number is a typo, so do not &ldquo;correct&rdquo; one to the other when cross-checking a listing or ordering parts.
+            US prices are manufacturer list and typical retail as of 2026 and move with promotions. <strong>Note the country split on the model numbers:</strong> the Executive is MM3300B in the United States and MM3302B in Canada, and the Patriot Plus is MM4200B in the United States and MM4202B in Canada. These are the same machines &mdash; neither number is a typo, so do not &ldquo;correct&rdquo; one to the other when cross-checking a listing or ordering parts.
           </p>
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-7 mb-3">Where to buy in the United States</h3>
@@ -350,7 +394,7 @@ export default function MosquitoMagnetCanadaPage() {
             The US retail path is wider than the Canadian one. Home Depot and Lowe&rsquo;s both carry the Patriot Plus in store and online, with Home Depot listing it under MM4200B; Walmart, Tractor Supply and Ace stock it seasonally; Amazon.com carries the range through the manufacturer&rsquo;s brand storefront. Specialist sellers such as themosquitostore.com and mosquito-trap-depot.com carry the Executive and the harder-to-find replacement parts more consistently than the big boxes do. Buying direct from mosquitomagnet.com is usually the surest route to the Executive and to model-specific nets.
           </p>
           <p className="text-sm text-gray-700 leading-relaxed mb-3">
-            Match parts to your model number rather than to the model name &mdash; nets are sold as MM3300NET (Executive) and MM3100NET (Patriot class), and ordering by name alone is the most common way US buyers end up with a net that does not seat properly.
+            Match parts to your model number rather than to the model name &mdash; nets are sold as MM3300NETN (Executive) and MM4200NETN (Patriot Plus), and ordering by name alone is the most common way US buyers end up with a net that does not seat properly.
           </p>
           <p className="text-xs text-gray-500 mb-6">
             A note on the buy buttons on this page: they read <em>Amazon.ca</em> because this guide is published by a Canadian mosquito control company and Amazon.ca is our affiliate storefront. US readers can search the same product names on Amazon.com or use the US retailers listed above.
@@ -364,7 +408,7 @@ export default function MosquitoMagnetCanadaPage() {
                   ['Current US models', 'Two: Patriot Plus MM4200B, Executive MM3300B'],
                   ['EPA status of the trap', 'Pesticide device — exempt from FIFRA §3 registration, but subject to 40 CFR 152.500 and made in an EPA-registered establishment'],
                   ['EPA status of the attractant', 'Registered pesticide product — EPA Reg. No. 72563-5 (Woodstream Corporation)'],
-                  ['Canadian counterpart', 'Health Canada / PMRA — not a pesticide, no PCP number required'],
+                  ['Canadian counterpart', 'Health Canada / PMRA — the traps are registered devices (Patriot Plus PCP 32375, Executive PCP 29944) and the Octenol attractant is PCP 28440'],
                   ['Warranty', '1 year limited, both models'],
                   ['Northern US season', 'Early May – September (start when water warms)'],
                   ['Gulf South season', 'February – November'],
@@ -407,11 +451,12 @@ export default function MosquitoMagnetCanadaPage() {
           </div>
           <h2>How Mosquito Magnets Actually Work</h2>
           <p>Mosquito Magnets burn propane in a catalytic converter to produce CO₂, heat, and moisture — the three primary cues a female mosquito uses to locate a blood meal. The exhaust plume drifts downwind, attracting mosquitoes from up to 100 metres away. As mosquitoes approach the device, a vacuum fan sucks them into a fine mesh net where they dehydrate and die within hours.</p>
+          <Photo id="culex-tarsalis-female" alt="Female Culex tarsalis mosquito resting on fabric" caption="A female western encephalitis mosquito, Culex tarsalis, resting on fabric (CDC photograph). Only females bite, so they are what a CO₂ trap draws in; this species is one the AMCA field comparison further down found the Mosquito Magnet catching few of." />
           <p>Adding an Octenol or Lurex attractant cartridge enhances the realism of the cues — these are synthetic versions of human skin compounds that further attract mosquitoes. The cartridges last about 21 days and need replacement throughout the season.</p>
           <p><strong>Critical understanding:</strong> Mosquito Magnets kill female mosquitoes one at a time, but each female you kill prevents the laying of 100–300 eggs. The compound effect builds over 4–8 weeks, though how far it lowers biting depends on how isolated your property is. The device doesn&rsquo;t help you tonight — any benefit shows up weeks from now.</p>
 
           <h3>Attractant &amp; Replacement Parts</h3>
-          <p>Budget for consumables from day one: an Octenol (or Lurex) attractant cartridge lasts about 21 days, so a full May–September season burns through 6–7 cartridges. The fine mesh capture net should also be swapped once or twice a season — a torn or clogged net quietly cuts the trap&rsquo;s capture rate long before you notice. Canadian stock of both runs thin by mid-July, so most owners grab multi-packs in spring rather than scrambling in peak season.</p>
+          <p>Budget for consumables from day one: an Octenol (or Lurex) attractant cartridge lasts about 21 days, so a full May–September season burns through 6–7 cartridges. Mosquito Magnet also gives the capture net a 21-day interval (empty or replace it on the Patriot Plus, replace it on the Executive) — a torn or clogged net quietly cuts the trap&rsquo;s capture rate long before you notice. Canadian stock of both runs thin by mid-July, so most owners grab multi-packs in spring rather than scrambling in peak season.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="mosquito magnet octenol attractant">Octenol attractant refills →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="mosquito magnet replacement net">Replacement nets →</BuyLink>
@@ -426,7 +471,7 @@ export default function MosquitoMagnetCanadaPage() {
             <li><strong>Rural acreage</strong> — properties bordering wetlands, swamps, or water features</li>
             <li><strong>Properties where you spend the entire summer</strong> — long-term investment pays off</li>
             <li><strong>Lots with no immediate neighbours</strong> — your trap doesn&rsquo;t get overwhelmed by neighbouring breeding sources</li>
-            <li><strong>Settings where you want nothing sprayed</strong> — the trap sprays nothing on the yard (though its octenol attractant cartridge is itself a registered pesticide product in the US)</li>
+            <li><strong>Settings where you want nothing sprayed</strong> — the trap sprays nothing on the yard (though its octenol attractant cartridge is itself a registered pesticide product, in the US and in Canada, where it carries PCP Reg. No. 28440)</li>
           </ul>
 
           <h2>When Mosquito Magnet Is the Wrong Tool</h2>
@@ -439,6 +484,18 @@ export default function MosquitoMagnetCanadaPage() {
             <li><strong>Households not committed to 24/7 operation</strong> — turning it off resets the population</li>
           </ul>
           <p>The same-day gap has its own tool: <Link href="/blog/mosquito-fogger-canada">mosquito foggers</Link> knock down the adult mosquitoes already in a yard within minutes, but leave almost no residual behind, so new ones drift back in from neighbouring properties within a day or two. That is the opposite trade-off to a Magnet, which does nothing for tonight and a lot by August.</p>
+
+          <h2>Mosquito Magnet Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>The Canadian model on the listing:</strong> MM4202B for the Patriot Plus or MM3302B for the Executive, each with its own PCP number on the box (32375 and 29944).</li>
+            <li><strong>Power at the spot:</strong> an outdoor outlet within the Patriot Plus&rsquo;s 50-foot cord, or the cordless Executive.</li>
+            <li><strong>Propane for the season:</strong> a 20 lb tank, which Woodstream says to change every 18 to 21 days, from May to September.</li>
+            <li><strong>Octenol attractant:</strong> the Patriot Plus does not include it; the Canadian refills carry PCP Reg. No. 28440.</li>
+            <li><strong>A spare net with the right part number:</strong> MM4200NETN for the Patriot Plus (emptied or replaced every 21 days) or MM3300NETN for the Executive (replaced every 21 days).</li>
+            <li><strong>The spot:</strong> shade, 9 to 12 metres (30 to 40 ft) from where people sit, between the house and the breeding area, as Woodstream advises.</li>
+            <li><strong>A start date:</strong> early May, before the first generation emerges, then run it without breaks.</li>
+            <li><strong>The receipt:</strong> both models carry a 1-year limited warranty, and ignition faults often show up in the second season.</li>
+          </ol>
 
           <h2>Mosquito Magnet vs Other Solutions for GTA Properties</h2>
           <div className="not-prose overflow-x-auto my-4">
@@ -469,6 +526,7 @@ export default function MosquitoMagnetCanadaPage() {
           <p className="not-prose text-[15px] leading-relaxed text-gray-900 font-medium border-l-4 border-emerald-400 bg-emerald-50 pl-4 py-3 rounded-r-lg my-4">It catches mosquitoes reliably. Whether that means fewer bites depends on how isolated your property is. Two 2006 field trials in the <em>Journal of the American Mosquito Control Association</em> found no meaningful drop in biting pressure; a third found real reductions at one trap per acre on an isolated island. Density and neighbours decide it.</p>
           <p>This is the question the whole category turns on, and it deserves named sources rather than marketing numbers. Here is what the published work actually says.</p>
           <p><strong>Collier et al. (2006) and Henderson et al. (2006)</strong>, both in the <em>Journal of the American Mosquito Control Association</em>, evaluated CO₂-based traps including the Mosquito Magnet and could not demonstrate any meaningful reduction in biting pressure attributable to the devices. The traps caught mosquitoes; the people in the treated areas were not measurably less bitten.</p>
+          <Photo id="mosquito-bites-forearm" alt="Several swollen mosquito bites fusing together on a forearm" caption="Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024). Bites, not the catch in the net, are what the Collier and Henderson trials measured." />
           <p><strong>Kline (2006)</strong> is the counterweight, and it is genuinely favourable to the product. Working on an isolated Florida island, Kline found that CO₂ traps deployed at roughly <strong>one trap per acre</strong> did produce real population reductions. The critical variables were density of coverage and isolation — no neighbouring properties were reseeding the population between trap lines.</p>
           <p>The <strong>American Mosquito Control Association</strong>, the US professional body, takes the position that acre-wide control claims for single consumer traps are overstated, and warns that a trap can draw more mosquitoes into an area than it is capable of catching. It also notes the practical figures behind the plume: a propane unit releases CO₂ at roughly 350 ml/min, a compressed cylinder around 500 ml/min, with octenol emitted at about 0.5 mg/hour.</p>
           <p><strong>University of Wisconsin&ndash;Madison</strong> extension entomologists reached the blunt version of the same conclusion in their consumer evaluations: the traps they assessed provided no protection from mosquito bites for the people using them.</p>
@@ -490,7 +548,7 @@ export default function MosquitoMagnetCanadaPage() {
               <tbody>
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Propane tank</strong></td><td className="px-3 py-2">~21 days of continuous running</td><td className="px-3 py-2">Trap silently stops producing CO₂ and becomes an ornament</td></tr>
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Attractant cartridge</strong></td><td className="px-3 py-2">21 days</td><td className="px-3 py-2">Catch rate drops sharply; CO₂ alone is far less selective</td></tr>
-                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Capture net</strong></td><td className="px-3 py-2">Empty monthly · replace 1&ndash;2× per season</td><td className="px-3 py-2">A clogged net kills airflow and capture rate long before you notice</td></tr>
+                <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Capture net</strong></td><td className="px-3 py-2">Every 21 days: empty or replace (Patriot Plus), replace (Executive), per Mosquito Magnet</td><td className="px-3 py-2">A clogged net kills airflow and capture rate long before you notice</td></tr>
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Catalytic converter</strong></td><td className="px-3 py-2">Every 2&ndash;3 seasons, or on ignition failure</td><td className="px-3 py-2">The most common cause of a trap that will not stay lit</td></tr>
                 <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Off-season storage</strong></td><td className="px-3 py-2">End of season</td><td className="px-3 py-2">Store indoors, net empty and dry, propane disconnected and stored outside</td></tr>
               </tbody>
@@ -556,9 +614,11 @@ export default function MosquitoMagnetCanadaPage() {
           <h2>US Mosquito Species: Where the Trap Wins and Where It Misses</h2>
           <p>This is the part of the buying decision that no US retailer page covers, and it should probably decide the purchase. <strong>The Mosquito Magnet is not equally effective against all mosquitoes, and it is weakest against the ones that matter most for disease.</strong></p>
           <p>The <strong>American Mosquito Control Association</strong> reports a Salt Lake City field comparison in which the Mosquito Magnet caught <em>enormous</em> numbers of <em>Ochlerotatus sierrensis</em>, the western treehole mosquito, but <strong>few <em>Culex pipiens</em>, <em>Culex tarsalis</em> or <em>Ochlerotatus dorsalis</em></strong>. That is a striking split, because <em>Culex pipiens</em> and <em>Culex tarsalis</em> are the primary West Nile virus vectors in the United States. The trap can be filling its net nightly while barely touching the species carrying the disease.</p>
+          <Photo id="culex-pipiens" alt="Northern house mosquito, Culex pipiens, photographed in Ontario" caption="A northern house mosquito, Culex pipiens, photographed in Ontario. It is one of the main West Nile carriers, and the AMCA’s Salt Lake City comparison found the Mosquito Magnet catching few of them." />
           <p><strong>The 2026 context makes this concrete.</strong> The United States is in its most severe West Nile season in more than two decades — CDC ArboNET reporting has this year running well ahead of recent years, with Arizona alone accounting for more cases than the next two states combined, and case counts spread across roughly two dozen states. <em>Culex</em> populations and West Nile transmission peak in <strong>late August and September</strong>, which is precisely when most people are searching for a mosquito trap. Anyone buying primarily to reduce West Nile risk should understand that this device is, by the AMCA&rsquo;s own field data, weakest against the exact mosquito driving that risk. For disease risk specifically, the CDC&rsquo;s guidance remains repellent use, long sleeves at dawn and dusk, and eliminating standing water.</p>
           <p>The other major US gap is the <em>Aedes</em> group. <strong><em>Aedes aegypti</em></strong> and <strong><em>Aedes albopictus</em></strong> — the yellow fever and Asian tiger mosquitoes — dominate much of the Southeast and are expanding north, with the CDC publishing potential-range maps for both. They are <strong>container breeders that bite during the day</strong>, often from below and at close range, and they typically live and die within a few hundred feet of where they hatched. An overnight CO₂ interception trap positioned across the yard is a structurally poor match for them. Against <em>Aedes</em>, container discipline — the birdbath, the plant saucer, the clogged gutter, the toy left out in the rain — beats any trap on the market.</p>
           <p>Where the trap genuinely earns its money in the United States is against the large floodwater and woodland species that make rural acreage unusable: the <em>Aedes vexans</em> and <em>Psorophora</em> group in the Midwest and South, and the treehole species the AMCA data shows it catching so effectively. On a lakeside property in Minnesota or Wisconsin after a wet spring, that is exactly the problem you have.</p>
+          <Photo id="aedes-vexans" alt="Inland floodwater mosquito, Aedes vexans, close-up" caption="An inland floodwater mosquito, Aedes vexans (Rock Creek Park, Washington, DC). Floodwater species like this one are where this page says a propane trap earns its money: rural acreage after a wet spring." />
 
           <h2>What a Mosquito Magnet Costs to Run in the United States</h2>
           <p>The operating costs quoted earlier in this guide are Canadian, and they are roughly <strong>three times too high for a US reader</strong> on the propane line. Correcting that materially improves the case for the trap in the United States, so it is worth setting out properly.</p>
@@ -583,7 +643,7 @@ export default function MosquitoMagnetCanadaPage() {
           <p>Corrected for US prices, the year-one arithmetic on a Patriot Plus bought on sale at $399.99 with a northern season of consumables lands around <strong>$755&ndash;$875</strong>, not the $850&ndash;$1,100 the Canadian table shows. That is a meaningfully better proposition, and it is one reason the trap competes more credibly against professional service in the United States than it does in Ontario.</p>
 
           <h2>EPA vs Health Canada: How the Trap Is Regulated in Each Country</h2>
-          <p>The Key Facts table above records the Canadian position: Health Canada and the PMRA do not treat the trap as a pesticide, so it needs no PCP registration number. The US framing is different, more specific, and worth understanding if you are cross-checking a listing.</p>
+          <p>The Key Facts table above records the Canadian position, which is the stricter one: devices sold to attract or destroy flying insects fall under Schedule 1 of the Pest Control Products Regulations, and Health Canada&rsquo;s pesticide registry lists the Patriot Plus (PCP 32375) and the Executive (PCP 29944) as registered devices and the Octenol attractant as PCP Reg. No. 28440. The US framing is different, more specific, and worth understanding if you are cross-checking a listing.</p>
           <p><strong>In the United States, the trap itself is a &ldquo;pesticide device&rdquo; under FIFRA.</strong> Because it kills pests by physical means — vacuum and desiccation — rather than through a chemical active ingredient, it is exempt from product registration under FIFRA §3. It is <em>not</em> unregulated, however: it remains subject to <strong>40 CFR 152.500</strong>, and it must be produced in an EPA-registered establishment carrying an <strong>EPA Establishment Number</strong>. That number appears on the packaging and identifies the facility, not the product.</p>
           <p><strong>The attractant is regulated quite differently.</strong> Because octenol is a chemical lure with a pesticidal purpose, it is a fully registered pesticide product. Mosquito Magnet R-Octenol Biting Insect Attractant carries <strong>EPA Registration No. 72563-5</strong>, registered to <strong>Woodstream Corporation</strong>, and is listed in the EPA&rsquo;s Pesticide Product Label System. So the machine is a device and the cartridge you feed it is a pesticide — a distinction that catches out plenty of buyers who assume the whole system is either registered or exempt.</p>
           <p>A practical consequence: an <strong>EPA Establishment Number is not an EPA approval or an efficacy endorsement</strong>. EPA does not review pesticide devices for whether they work. If a listing implies EPA registration means the trap is proven effective, that is a misreading of what the number signifies — and the field studies covered above are the better guide to efficacy.</p>
@@ -629,7 +689,7 @@ export default function MosquitoMagnetCanadaPage() {
 
           <h2>The Honest Verdict</h2>
           <p>Pulling the research, the costs and the reliability picture together, here is the plain summary this product deserves.</p>
-          <p><strong>What it does well.</strong> It genuinely attracts and kills host-seeking female mosquitoes using the only mechanism with solid evidence behind it. On isolated acreage, run continuously from early season at adequate density, it can measurably reduce the local population — that is the Kline (2006) finding and it is real. It sprays nothing on your yard (the octenol cartridge is the only registered pesticide in the system), which matters to some buyers more than anything else on this page. And it is quiet, unobtrusive and needs attention roughly every three weeks rather than daily.</p>
+          <p><strong>What it does well.</strong> It genuinely attracts and kills host-seeking female mosquitoes using the only mechanism with solid evidence behind it. On isolated acreage, run continuously from early season at adequate density, it can measurably reduce the local population — that is the Kline (2006) finding and it is real. It sprays nothing on your yard (the octenol cartridge is the only chemical pesticide in the system), which matters to some buyers more than anything else on this page. And it is quiet, unobtrusive and needs attention roughly every three weeks rather than daily.</p>
           <p><strong>What disappoints people.</strong> Three things, consistently. <em>Reliability</em> — a one-year warranty on a $400&ndash;$970 appliance, with ignition and catalytic converter failures commonly reported in the second and third seasons, and the University of Wisconsin&ndash;Madison evaluation finding all three of its test units non-functional inside a year. <em>Running cost</em> — the consumables are not a footnote; at $355&ndash;$475 a northern US season, buyers who budgeted only for the machine feel misled by year two. <em>Expectation mismatch</em> — people buy it in July expecting relief in August and get neither, because nobody told them the effect is generational and the timeline is weeks.</p>
           <p><strong>Environmental note.</strong> The trap burns propane continuously for the whole season. Today&rsquo;s Homeowner has benchmarked the resulting CO₂ output at roughly 8% of a typical car&rsquo;s annual emissions — small in absolute terms, but not nothing, and worth weighing if the nothing-sprayed argument is what attracted you to the device in the first place.</p>
           <p><strong>Who should buy it.</strong> Owners of isolated rural acreage or lakefront property, with a mosquito problem severe enough to make the yard unusable, who will run it continuously for a full season and accept the consumable cost. That is a real group of people, and for them this is the best consumer device available.</p>

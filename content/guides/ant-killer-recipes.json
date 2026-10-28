@@ -75,6 +75,17 @@
       "text": "Only one of the four recipes on the one-page guide can reach a colony, and only when it is mixed far weaker than the guide shows. A weak borax or boric acid bait works because workers drink it and carry it home. The vinegar mix and the soap spray deal with the trail and the ants in front of you, and the baking soda mix has no extension or government recipe behind it."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/argentine-ants-trail-wood.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "A busy trail of small brown Argentine ants running along the grooves of weathered gray wooden boards",
+      "caption": "Argentine ants, *Linepithema humile*, on a trail along weathered boards in California; the observer says they were invading the house again. Vinegar and soap deal with the trail in front of you; only a bait that workers carry home reaches the nest.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/179475324"
+    },
+    {
       "type": "table",
       "head": [
         "Recipe",
@@ -168,6 +179,17 @@
       "text": "The spoon measure is for boric acid powder. The University of California says the bait can be made with boric acid or borax (sodium tetraborate decahydrate), but its worked example uses boric acid, as does the Texas A&M recipe below, and neither converts one powder to the other. If laundry borax is what you have, do not add extra to compensate. A separate guide explains [how the two differ and the research behind low-dose baits](/blog/borax-for-ants)."
     },
     {
+      "type": "figure",
+      "src": "/guides/photos/pavement-ants-sugar-water.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Dozens of dark brown pavement ants crowding over a crumpled white paper towel wet with sugar water",
+      "caption": "Pavement ants, *Tetramorium immigrans*, crowding onto a paper towel wet with sugar water in Flanders, New Jersey. A weak borax bait works on the same pull: workers drink the sweet liquid and carry it home.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Sinéad Tuttle-Lerner, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/351861306"
+    },
+    {
       "type": "h3",
       "text": "Why does a weak borax bait beat a strong one?"
     },
@@ -206,6 +228,17 @@
         "children": "The same rule covers small children. Use straw pieces or a taped, labeled container, and store the batch away from food."
       },
       "source": "[Texas A&M AgriLife Extension, Managing Household Ant Pests (B-6183)](https://extensionentomology.tamu.edu/wp-content/uploads/2017/09/Ants_household_B6183.pdf)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/pheidole-ants-peanut-butter.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Small black ants and larger reddish ants with very big heads feeding on smears of peanut butter on rocky ground",
+      "caption": "*Pheidole rugulosa* ants, some with very large heads, feeding at a peanut butter bait in Doña Ana County, New Mexico. Peanut butter is the greasy option in the Texas A&M bait for ants that pass up sugar.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Emmett Collins-Sussman, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/394317948"
     },
     {
       "type": "h3",
@@ -281,6 +314,17 @@
         "children": "The center also notes that a home remedy often has no label and may have no first aid directions. Mark the bottle, store it out of reach, and keep the spray out of eyes."
       },
       "source": "[University of Nebraska-Lincoln, Backyard Farmer](https://byf.unl.edu/ants/)"
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/odorous-house-ants-kitchen-window.webp",
+      "width": 1200,
+      "height": 1600,
+      "alt": "Dozens of small dark odorous house ants spread across a beige surface by a kitchen window",
+      "caption": "Odorous house ants, *Tapinoma sessile*, coming in through a corner of a kitchen window in Hamilton, Ohio. The 1:1 vinegar and water wipe removes the scent trail they follow and deters ants, and that is all it is published to do.",
+      "license": "CC-BY-4.0",
+      "credit": "(c) Mary Spilman, some rights reserved (CC BY), via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/245677524"
     },
     {
       "type": "p",

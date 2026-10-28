@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-whole-house-dehumidifier-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Whole House Dehumidifier Canada 2026 — Ducted Units, Sizing & When a Portable Is Still the Right Answer'
-const META_TITLE = 'Best Whole House Dehumidifier Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Best Whole House Dehumidifier Canada'; top queries, Jul 28-Oct 25 (all countries): best whole house dehumidifier 39 at 8.7, best dehumidifier canada 21 at 6.6, whole home dehumidifier 18 at 33.1, best dehumidifier 6 at 17.8 (3 clicks).
+const META_TITLE = 'Best Whole House Dehumidifier Canada & Sizing'
 
 const FAQS = [
   {
@@ -32,7 +35,7 @@ const FAQS = [
   },
   {
     question: 'What size whole house dehumidifier do I need?',
-    answer: 'Size by conditioned floor area and by how much moisture the house actually generates, and check the test condition attached to any capacity figure before comparing two units. As a working guide, a 70 pint-per-day class unit suits most homes in the 2,000 to 3,000 sq ft range with normal occupancy; step up to 90 to 95 pints per day for a larger home, a house with a high internal moisture load, or a finished basement plus two floors above it. Being slightly oversized is not a fault here: the unit reaches its humidity setpoint sooner and then rests, which uses less energy than a small unit grinding continuously and never getting there. The genuinely important part of sizing is not the pint number at all but the ducting configuration, because a correctly sized unit plumbed into the wrong place will dry one zone and ignore the rest.',
+    answer: 'Size by conditioned floor area and by how much moisture the house actually generates, and check the test condition attached to any capacity figure before comparing two units. As a working guide, use the maker’s coverage rating: Aprilaire rates its 70-pint E070 for whole houses up to 2,200 sq ft and its 100-pint E100 for whole houses up to 5,500 sq ft, so a 70 pint-per-day class unit suits most homes up to about 2,200 sq ft with normal occupancy; step up to the 90 to 100 pint class for a larger home, a house with a high internal moisture load, or a finished basement plus two floors above it. Being slightly oversized is not a fault here: the unit reaches its humidity setpoint sooner and then rests, which uses less energy than a small unit grinding continuously and never getting there. The genuinely important part of sizing is not the pint number at all but the ducting configuration, because a correctly sized unit plumbed into the wrong place will dry one zone and ignore the rest.',
   },
   {
     question: 'How is a whole-house dehumidifier installed?',
@@ -54,11 +57,19 @@ const FAQS = [
     question: 'Do I run a whole-house dehumidifier in winter?',
     answer: 'Almost never in Canada, and this is one of the reasons the payback case here is weaker than it is in the American southeast. Cold outdoor air holds very little water, so once the heating season starts, indoor humidity usually falls on its own — often far enough that many Canadian homes run a humidifier rather than a dehumidifier from December through March. The ducted unit is a May-through-September appliance for most of the country, with the shoulder months at each end doing a fair share of the work because that is when the air conditioning is off but the outdoor air is still damp. If you are seeing condensation on the inside of your windows in January, that is the opposite problem and a dehumidifier is not the fix: look at ventilation rates and at whatever humidifier setting is running on the furnace.',
   },
+  {
+    question: 'How big a house does a 70-pint whole house dehumidifier cover?',
+    answer: 'Use the maker’s own rating rather than a rule of thumb. Aprilaire rates its 70-pint E070 for whole houses up to 2,200 sq ft and its 100-pint E100 for whole houses up to 5,500 sq ft. A house near the top of a unit’s range, or one with a damp basement, high occupancy or a pool room, should go up a size, because a slightly oversized unit reaches its setpoint and rests. Compare pint figures between brands only at the same test condition.',
+  },
+  {
+    question: 'What is the best dehumidifier to connect to an HVAC system?',
+    answer: 'A ducted whole-home unit installed on the return side: it draws air from the HVAC return and discharges dried air into the supply plenum, so the ductwork carries it to every room. Aprilaire’s E070 and E100 ship with duct collars for this, 8-inch on the E070 and 10-inch on the E100. Before install day, ask whether the unit can run without the furnace blower, how its control ties into the thermostat, and where the condensate will drain.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Ducted whole-house dehumidifiers in Canada: how to size one, the three install configurations, drainage, and when a portable is still the right answer.',
+  description: 'Best whole house dehumidifier in Canada: a ducted Aprilaire-class unit sized to the house (70-pint E070 to 2,200 sq ft), but only if every floor reads damp.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +94,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
             <span className="text-white">Best Whole House Dehumidifier Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">One ducted appliance instead of a portable in every room &mdash; but only if the damp is genuinely house-wide. Here is how to size a whole-home dehumidifier, the three ways it gets installed, and the measurement that tells you whether you need one at all.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best whole house dehumidifier is a ducted unit such as an Aprilaire, sized by the maker&rsquo;s rating: the 70-pint E070 is rated for houses up to 2,200 sq ft and the 100-pint E100 up to 5,500. Buy one only if every floor reads high on a hygrometer; if just the basement is damp, a portable with a drain hose does the job.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -96,11 +107,11 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best whole house dehumidifier for a Canadian home is a <strong>ducted Aprilaire E-series unit in the 70&ndash;95 pint-per-day class</strong>, installed on the HVAC return so dried air distributes through the ductwork you already have, running on its own control rather than waiting for the air conditioner. Budget roughly the <strong>$2,000&ndash;$3,000 CAD</strong> range for the appliance plus an HVAC contractor for the install. Before you commit: <strong>measure the humidity floor by floor</strong>. If only the basement reads high, you have a basement problem, and a portable with a drain hose fixes it for a fraction of the money. A ducted unit is the right answer only when the whole house is damp.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best whole house dehumidifier for a Canadian home is a <strong>ducted Aprilaire E-series unit in the 70&ndash;95 pint-per-day class</strong>, installed on the HVAC return so dried air distributes through the ductwork you already have, running on its own control rather than waiting for the air conditioner, with an HVAC contractor for the install. Before you commit: <strong>measure the humidity floor by floor</strong>. If only the basement reads high, you have a basement problem, and a portable with a drain hose fixes it for a fraction of the money. A ducted unit is the right answer only when the whole house is damp.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Measure first.</strong> One hygrometer, a few humid days, one reading per floor &mdash; that is the whole diagnostic.</li>
               <li><strong>An AC is not a dehumidifier.</strong> It only dries air while it is cooling, so an oversized or short-cycling AC leaves a house cold and clammy.</li>
-              <li><strong>Size 70 PPD</strong> for most 2,000&ndash;3,000 sq ft homes; <strong>90&ndash;95 PPD</strong> for larger, wetter, or three-level houses.</li>
+              <li><strong>Size by the maker&rsquo;s rating:</strong> Aprilaire rates its 70-pint E070 for whole houses up to 2,200 sq ft and its 100-pint E100 up to 5,500; go up a class for wetter or three-level houses.</li>
               <li><strong>Three install configurations</strong> &mdash; return-side, dedicated duct from the problem zone, or free-standing with ducted discharge.</li>
               <li><strong>An HRV does not dehumidify.</strong> In July it brings humid outdoor air <em>in</em>. Ventilation and dehumidification are different jobs.</li>
               <li><strong>Never drain the condensate outdoors in Ontario</strong> &mdash; it freezes. Gravity to a floor drain or sump, or a condensate pump.</li>
@@ -232,6 +243,18 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           <p>The best whole house dehumidifier for a Canadian home is a ducted Aprilaire E-series unit in the 70 to 95 pint-per-day class, installed on the HVAC return so that dried air distributes through the ductwork the house already has, and running on its own humidity control rather than waiting for the air conditioner to be cooling. Budget roughly the $2,000 to $3,000 CAD range for the appliance and an HVAC contractor visit for the installation.</p>
           <p>That is the answer to the question as asked. The more useful answer is that most Canadian homes do not need one, and the way to find out which category you are in costs about the price of dinner: put a hygrometer on each floor for a week of humid weather and read the numbers.</p>
 
+          <QuickIdTable
+            title="Whole house dehumidifier options compared"
+            head={['Option', 'Capacity and coverage', 'Best for', 'Limits']}
+            rows={[
+              ['Aprilaire E070 (ducted)', 'Up to 70 pints a day; whole houses up to 2,200 sq ft; 8-inch inlet and outlet duct collars and 10 ft of drain tubing in the box (Aprilaire)', 'A typical house where every floor reads damp', 'Contractor install; ask for the test condition behind the pint figure'],
+              ['Aprilaire E100 (ducted)', 'Up to 100 pints a day; whole houses up to 5,500 sq ft; 10-inch duct collars; ENERGY STAR Most Efficient 2025 (Aprilaire)', 'Larger, three-level or wetter houses', 'A bigger cabinet for the mechanical room; drain hose not included'],
+              ['Portable with a drain hose', 'One zone, drained to a floor drain', 'Damp confined to the basement, the most common Canadian result', 'Dries one zone only, and is audible in a finished basement'],
+              ['HRV or ERV', 'Ventilation, not drying', 'Fresh air in a tight house', 'On a humid July day it brings moisture in'],
+            ]}
+            caption={<>Aprilaire figures from its <a href="https://shop.aprilaire.com/products/aprilaire-e070-70-pint-dehumidifier" target="_blank" rel="noopener noreferrer" className="underline">E070</a> and <a href="https://shop.aprilaire.com/products/aprilaire-e100-100-pint-dehumidifier" target="_blank" rel="noopener noreferrer" className="underline">E100</a> product pages, checked October 28, 2026; the portable and HRV rows restate this page&rsquo;s own sections.</>}
+          />
+
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="aprilaire whole house dehumidifier ducted">Ducted whole-home &rarr;</BuyLink>
@@ -269,11 +292,34 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           <p>Dehumidifier capacity is quoted in pints of water removed per day, but that figure is only meaningful alongside the test condition that produced it. Manufacturers do not all publish at the same condition, and a unit measured in hot saturated air will always post a larger number than the same unit measured under a cooler standard test. Before you compare two machines, find the condition printed beside each capacity claim. If one is missing it, treat the comparison as unreliable.</p>
           <p>With that caveat, a working guide for Canadian homes:</p>
           <ul>
-            <li><strong>70 pints per day class:</strong> most homes in the 2,000 to 3,000 sq ft range with normal occupancy and a typical basement. This is the volume seller and it is the right answer for the majority.</li>
+            <li><strong>70 pints per day class:</strong> most homes up to about 2,200 sq ft, the coverage Aprilaire gives its 70-pint E070, with normal occupancy and a typical basement. This is the volume seller and it is the right answer for the majority.</li>
             <li><strong>90 to 95 pints per day:</strong> a larger footprint, three occupied levels, high occupancy, an indoor pool or hot tub room, or a house that also has a persistently damp basement contributing to the load.</li>
             <li><strong>Slightly oversized is fine.</strong> A larger unit reaches the setpoint and rests. A unit one size short runs continuously through July, never gets there, and you pay for the shortfall in both comfort and electricity.</li>
           </ul>
           <p>Set the control to hold somewhere around 45 to 50% relative humidity through the cooling season. That is comfortably below the roughly 60% threshold where mould becomes viable and below the level at which dust mite populations sustain themselves, and it is low enough to feel obviously better without over-drying the house.</p>
+          <Photo id="house-dust-mite" alt="House dust mite seen under a scanning electron microscope" caption="A North American house dust mite under a scanning electron microscope (US government image). The 45 to 50% setpoint above sits below the level at which, this page explains, dust mite populations sustain themselves." />
+
+          <h2 id="situation">Which Dehumidifier Setup for Your House?</h2>
+          <ul>
+            <li><strong>Basement at 62&ndash;68%, upstairs around 50%:</strong> a portable with a drain hose to a floor drain, in the basement.</li>
+            <li><strong>Every floor above 55% with the air conditioning running:</strong> a ducted whole-home unit sized to the house, the 70-pint class up to about 2,200 sq ft and the 90&ndash;100 pint class above that.</li>
+            <li><strong>Cold and clammy at the same time:</strong> suspect an oversized or short-cycling air conditioner; a dehumidifier on its own control fixes the feel for far less than a new AC.</li>
+            <li><strong>A tight new build with an HRV:</strong> ask about a ducted dehumidifier with a ventilation mode that dries incoming outdoor air.</li>
+            <li><strong>A crawl space rather than a basement:</strong> a different appliance; see the <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space dehumidifier guide</Link>.</li>
+            <li><strong>Condensation inside the windows in January:</strong> the opposite problem; look at ventilation and the furnace humidifier setting.</li>
+          </ul>
+
+          <h2>Whole House Dehumidifier Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A week of readings:</strong> a hygrometer on each floor in humid weather, with the air conditioning on and off.</li>
+            <li><strong>The maker&rsquo;s coverage rating:</strong> Aprilaire rates its E070 for whole houses up to 2,200 sq ft and its E100 up to 5,500.</li>
+            <li><strong>The test condition beside the pint figure,</strong> before you compare two brands.</li>
+            <li><strong>Duct collar size:</strong> 8-inch on the E070 and 10-inch on the E100, to match your installer&rsquo;s plan.</li>
+            <li><strong>A drain route:</strong> gravity to a floor drain, sump or standpipe, or a condensate pump, never outdoors in Ontario; the E100 does not include a drain hose.</li>
+            <li><strong>Independent control:</strong> whether it can run without the furnace blower, and how it ties into the thermostat.</li>
+            <li><strong>A dedicated circuit,</strong> and in many Ontario municipalities a permit: this is licensed-trade work.</li>
+            <li><strong>A setpoint plan:</strong> 45&ndash;50% relative humidity through the cooling season.</li>
+          </ol>
 
           <h2>The HRV Confusion, and the Canadian Seasonal Reality</h2>
           <p>A heat recovery ventilator is not a dehumidifier, and in a Canadian summer it can work against you. An HRV exhausts stale indoor air and brings in fresh outdoor air while recovering heat between the two streams, which is genuinely necessary in a tightly built modern house. But on a humid July day the outdoor air it is bringing in is wetter than the indoor air it is removing, so running it can raise indoor humidity. An ERV transfers some moisture as well as heat and softens that effect, but it remains a ventilation appliance. Ventilation and dehumidification are separate jobs requiring separate equipment, and some ducted dehumidifiers include a ventilation mode that dries incoming outdoor air before it enters the house &mdash; the configuration worth asking about if you have a tight new build.</p>
@@ -284,6 +330,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           <p>On price bands, expect roughly <strong>$2,000 to $3,000 CAD</strong> for a ducted appliance before installation, plus the contractor&rsquo;s time and materials. A capable portable sits in roughly the <strong>$250 to $450</strong> range, a plenum or duct-collar kit in the <strong>$150 to $400</strong> range, and a condensate pump in the <strong>$60 to $150</strong> range. Those bands move with stock and season, which is why we link to a live search rather than quote a figure.</p>
           <p>And the cases where you should not buy one at all, stated plainly. If the damp is confined to the basement, buy a portable. If the problem is a steamy bathroom or a laundry room, the fix is an exhaust fan that actually vents outdoors at an adequate rate, not a dehumidifier for the whole house. If you have a crawl space rather than a basement, that is a different appliance entirely and our <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space dehumidifier guide</Link> covers it. If there is visible mould already growing, humidity control stops it spreading but the existing growth still has to be remediated &mdash; see our <Link href="/blog/best-dehumidifier-for-mold-canada">mould-control guide</Link> for the thresholds. And if the real issue is water entering the building, no dehumidifier of any size will outrun a leak.</p>
           <p>The upside worth naming: holding a house below 50% relative humidity does more than make July bearable. Dust mites cannot sustain their populations in that range, mould loses the conditions it needs, and the damp-seeking insects that drift toward a clammy basement find it much less hospitable &mdash; the same logic behind our <Link href="/blog/best-large-capacity-dehumidifier-canada">large-capacity dehumidifier</Link> and <Link href="/blog/best-air-purifier-for-dust-mites-canada">dust mite air purifier</Link> guides.</p>
+          <Photo id="silverfish" alt="Common silverfish photographed in London, Ontario" caption="A common silverfish, Lepisma saccharinum, photographed in London, Ontario. The damp-seeking insects that drift toward a clammy basement find a house held below 50% relative humidity much less hospitable." />
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

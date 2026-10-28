@@ -2,7 +2,7 @@
  "id": "bullet-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a7b9289d59668828d39a1219b8d94cc91e6ec74edb8a31ae9c226275d36ee13c",
+ "sha": "d4e7a5c5b51803445e3247515afccbb8307a432785d5390f7392701a8fa2c087",
  "claimsChecked": 69,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 10,
@@ -12,6 +12,11 @@
    "on": "2026-10-21",
    "note": "link-in 2026-10-21: one sentence linking /blog/how-many-ants-are-in-the-world added in 'How does a bullet ant colony live?' (no new facts)",
    "previousSha": "aa9cad344acb97c05b4c67adbd818edb53d519592db3a6c9a9c795f643e580cb"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 5 real photos added as figure blocks next to the text they illustrate (CC0 lead bullet-ant-on-leaf; bullet-ants-coin-scale, bullet-ant-glove-satere-mawe, bullet-ant-nest-dug-up, bullet-ants-on-branch). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (Nature Communications 2023, Smithsonian 2014, Dyer 2002). One sentence linking /tools/what-bug-is-this in the range section. No other text changed; dates unchanged.",
+   "previousSha": "a7b9289d59668828d39a1219b8d94cc91e6ec74edb8a31ae9c226275d36ee13c"
   }
  ]
 }

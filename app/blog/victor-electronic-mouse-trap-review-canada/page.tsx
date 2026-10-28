@@ -14,29 +14,32 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'victor-electronic-mouse-trap-review-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-07-16'
+const UPDATED = '2026-10-28'
 const TITLE = 'Victor Electronic Mouse Trap Review (Canada 2026) — Is the M250S Worth It?'
-const META_TITLE = 'Victor M250S Mouse Trap Review Canada 2026'
+// TITLE NOTE (Oct 28, 2026): was 'Victor M250S Mouse Trap Review Canada 2026'; top queries, 90 days to Oct 28: victor electronic mouse trap reviews 99 at 9.2, victor m250s 31 at 6.4, victor m250s electronic mouse trap 21 at 8.4, victor electronic mouse trap review 14 at 8.3 (1 click), victor electronic mouse trap 11 at 4.5, electronic mouse trap reviews 10 at 8.8, victor mouse trap review 10 at 7.4, victor electronic mouse trap () reviews 10 (305 impressions, 3 clicks).
+const META_TITLE = 'Victor M250S Electronic Mouse Trap Review Canada'
 
 const FAQS = [
   {
     question: 'Does the Victor electronic mouse trap actually work?',
-    answer: 'Yes. The Victor M250S is one of the most consistently effective consumer mouse traps sold in Canada. A mouse enters the baited tunnel, steps on two metal plates that complete a circuit, and receives a high-voltage shock that Victor rates as killing in seconds with a claimed 100% kill rate for mice that fully enter the chamber. Real-world failure points are almost always user error: dead batteries, greasy plates that need wiping, bait placed at the entrance instead of the back wall, or the trap placed in open floor space instead of tight against a wall where mice actually travel.',
+    answer: 'Yes. The Victor M250S is one of the most consistently effective consumer mouse traps sold in Canada. A mouse enters the baited tunnel, steps on two metal plates that complete a circuit, and receives a high-voltage shock that Victor says kills quickly, with a claimed 100% kill rate when the trap is used as directed with fully charged batteries. Real-world failure points are almost always user error: dead batteries, greasy plates that need wiping, bait placed at the entrance instead of the back wall, or the trap placed in open floor space instead of tight against a wall where mice actually travel.',
   },
   {
     question: 'How many mice will the Victor M250S kill on one set of batteries?',
-    answer: 'Victor rates the M250S at up to 100 kills per set of 4 AA batteries. In practice, cold rooms (garages, unheated basements in a Canadian winter) drain alkaline batteries faster, so expect somewhat fewer in cold locations. Since a typical house infestation involves a handful to a few dozen mice, one set of batteries usually lasts an entire season or more. The trap has a low-battery indicator, and lithium AAs hold up better than alkalines below freezing.',
+    answer: 'Victor does not publish a kill count per set of batteries on its current product page. It lists four AA batteries (not included), one mouse per setting, and a red light that flashes every 10 seconds when the batteries run low, and it says not to use rechargeable batteries. In practice, cold rooms (garages, unheated basements in a Canadian winter) drain alkaline batteries faster, and lithium AAs hold up better than alkalines below freezing. Since a typical house infestation involves a handful to a few dozen mice, watch the red light rather than counting kills.',
   },
   {
     question: 'Is the Victor electronic mouse trap humane?',
-    answer: 'By the standards applied to rodent control, yes — it is one of the more humane lethal options. The high-voltage shock causes unconsciousness and death in seconds, and the enclosed kill chamber means the mouse cannot be maimed and escape wounded, which is the main humaneness failure of snap traps (misfires) and the entire problem with glue boards (slow death over hours or days). If your priority is minimizing suffering while still removing mice, an electronic kill trap or a well-placed quality snap trap are the two defensible choices; glue traps are the least humane common option.',
+    answer: 'By the standards applied to rodent control, yes — it is one of the more humane lethal options. The high-voltage shock kills quickly, and the enclosed kill chamber means the mouse cannot be maimed and escape wounded, which is the main humaneness failure of snap traps (misfires) and the entire problem with glue boards (slow death over hours or days). If your priority is minimizing suffering while still removing mice, an electronic kill trap or a well-placed quality snap trap are the two defensible choices; glue traps are the least humane common option.',
   },
   {
     question: 'What is the difference between the Victor M250S and the M1 Smart-Kill?',
-    answer: 'The kill mechanism is essentially the same — baited tunnel, electrified plates, high-voltage shock, roughly 100 kills per battery set. The M1 Smart-Kill adds Wi-Fi: it connects to your home network and sends a notification to the Victor app on your phone when it makes a kill, so you never have to physically check the trap. That matters for cottages, rental properties, crawl spaces, and attics you rarely visit. For a kitchen or main-floor infestation you walk past daily, the cheaper M250S does the same job and its blinking green kill light is all the notification you need.',
+    answer: 'The kill mechanism is essentially the same — baited tunnel, electrified plates, high-voltage shock. The M1 Smart-Kill adds Wi-Fi (2.4 GHz networks only, Victor says): it connects to your home network and sends a notification to the Victor app on your phone when it makes a kill, so you never have to physically check the trap. That matters for cottages, rental properties, crawl spaces, and attics you rarely visit. For a kitchen or main-floor infestation you walk past daily, the cheaper M250S does the same job and its blinking green kill light is all the notification you need.',
   },
   {
     question: 'What is the best bait for the Victor electronic mouse trap?',
@@ -64,20 +67,25 @@ const FAQS = [
   },
   {
     question: 'Is an electronic trap better than mouse poison in Canada?',
-    answer: 'For most Canadian households, yes. The strongest consumer rodenticides pushed by US websites — second-generation anticoagulants like brodifacoum and bromadiolone — are not sold as domestic-class products in Canada; Health Canada restricts them to commercial pest-control use because of secondary poisoning risk to pets, owls, hawks, and foxes. The main PMRA-registered consumer option is a bromethalin disposable bait station (sold under the Tomcat brand). Poison also means mice frequently die inside walls and smell for weeks, whereas a trap gives you a confirmed, retrievable kill. Traps first; a legal bait station only as a supplement for inaccessible areas.',
+    answer: 'For most Canadian households, yes. The strongest consumer rodenticides pushed by US websites — second-generation anticoagulants like brodifacoum and bromadiolone — are not sold as domestic-class products in Canada; Health Canada restricts them to commercial pest-control use because of secondary poisoning risk to pets, owls, hawks, and foxes. Domestic baits are limited to other actives, such as bromethalin (Tomcat is one brand) and first-generation anticoagulants like diphacinone; our legal-rodenticides guide lists them. Poison also means mice frequently die inside walls and smell for weeks, whereas a trap gives you a confirmed, retrievable kill. Traps first; a legal bait station only as a supplement for inaccessible areas.',
   },
   {
     question: 'How long does the Victor M250S last?',
-    answer: 'Owners commonly report 3–5+ years of service from the M250S with basic care: keep it dry, wipe the kill plates clean every few kills, remove batteries during long storage, and refresh bait regularly. There are no moving parts to wear out — the failure modes are corroded battery contacts (from leaking alkalines left in storage) and moisture damage. At a typical Canadian street price in the $35–$55 range, even a three-year service life works out to pennies per kill versus continuously repurchasing disposable options.',
+    answer: 'Victor does not publish a service life, but the trap is reusable and has no moving parts to wear out. Basic care is what keeps it working: keep it dry (Victor rates it for indoor use only), wipe the kill plates clean every few kills, remove batteries during long storage, and refresh bait regularly. The failure modes are corroded battery contacts (from leaking alkalines left in storage) and moisture damage; Victor\'s own advice for a dirty chamber is hydrogen peroxide and an old toothbrush, and a wire brush used carefully on corrosion.',
+  },
+  {
+    question: 'Can you use rechargeable batteries in a Victor electronic mouse trap?',
+    answer: 'No. Victor says not to use rechargeable batteries in any of its electronic traps. The mouse trap takes four AA batteries, which are not included, and Victor\'s 100% kill-rate claim is made for a trap used as directed with fully charged batteries. Fresh alkaline cells are the default; in a cold garage or cottage, lithium AAs hold their charge better. A red light flashing every 10 seconds means it is time to change them.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Honest Canadian review of the Victor M250S electronic mouse trap: 100 kills per battery set, no-touch disposal, humaneness vs snap traps, and the Wi-Fi M1 Smart-Kill upgrade.',
+  description: 'Does the Victor M250S electronic mouse trap work? High-voltage shock, a green light for a week, 4 AA batteries, no-touch disposal, indoors only.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('house-mouse'),
 })
 
 const AMZ_TAG = tagForSlug('victor-electronic-mouse-trap-review-canada')
@@ -85,7 +93,7 @@ const AMZ_TAG = tagForSlug('victor-electronic-mouse-trap-review-canada')
 export default function VictorElectronicMouseTrapReviewPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of the Victor M250S electronic mouse trap and the Wi-Fi M1 Smart-Kill upgrade.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of the Victor M250S electronic mouse trap and the Wi-Fi M1 Smart-Kill upgrade.', slug: SLUG, datePublished: DATE, image: shareImage('house-mouse') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Victor Electronic Mouse Trap Review', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -98,7 +106,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
             <span className="text-white">Victor Electronic Mouse Trap Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The kill-chamber trap that dominates Canadian hardware aisles, reviewed honestly — how it works, how humane it really is, what 100 kills per battery set means in practice, and when a $2 snap trap is still the smarter buy.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Yes, the Victor electronic mouse trap works when it is set right: the mouse walks into a closed tunnel and is killed by a high-voltage shock, and a green light flashes for up to a week so you can tip it into the garbage without touching or seeing it. It is for indoors only, holds one mouse per setting and runs on 4 AA batteries; Victor&rsquo;s current listing calls it the M250B. A cheap snap trap is still the smarter buy for a big infestation.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,11 +120,11 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              The Victor M250S electronic mouse trap is the best no-touch mouse trap you can buy in Canada — it kills in seconds inside an enclosed chamber, delivers up to 100 kills per set of 4 AA batteries, and lets you empty it into the garbage without touching or seeing the mouse. Upgrade to the Wi-Fi M1 Smart-Kill only if the trap will sit somewhere you rarely check.
+              The Victor M250S electronic mouse trap is the best no-touch mouse trap you can buy in Canada — it kills quickly with a high-voltage shock inside an enclosed chamber, runs on 4 AA batteries, and lets you empty it into the garbage without touching or seeing the mouse. Upgrade to the Wi-Fi M1 Smart-Kill only if the trap will sit somewhere you rarely check.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>The Victor M250S is rated for up to 100 kills per set of 4 AA batteries — typically a full season or more on one set.</li>
-              <li>The high-voltage shock kills in seconds inside an enclosed kill chamber; the circuit cuts automatically when the lid opens.</li>
+              <li>Victor lists one mouse per setting and 4 AA batteries (not rechargeables); it gives no kill count per battery set, and a flashing red light means the batteries are low.</li>
+              <li>The high-voltage shock kills quickly inside an enclosed kill chamber; the circuit cuts automatically when the lid opens.</li>
               <li>A blinking green LED signals a kill for up to 7 days, so you never open an empty trap or miss a full one.</li>
               <li>Electronic traps are devices, not pesticides — no PMRA registration is required, and they are legal in every Canadian province.</li>
               <li>The Wi-Fi M1 Smart-Kill adds phone notifications via the Victor app — worth it for cottages, attics, and crawl spaces, not for a kitchen.</li>
@@ -135,17 +143,17 @@ export default function VictorElectronicMouseTrapReviewPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
+                  ['Model names', 'M250S on many retail listings; Victor\'s current page lists it as the M250B (product CM250B)'],
                   ['Mechanism', 'Baited tunnel → mouse bridges two metal plates → high-voltage shock'],
-                  ['Kill speed', 'Seconds — Victor claims a 100% kill rate for mice fully entering the chamber'],
-                  ['Kills per battery set', 'Up to 100 (4 AA batteries, not included)'],
-                  ['Kill indicator', 'Green LED blinks for up to 7 days after a catch'],
+                  ['Kill speed', 'Victor: "Quickly kills mice with a humane, high-voltage shock"; claims a 100% kill rate used as directed with fully charged batteries'],
+                  ['Batteries and kills', '4 AA batteries, not included, not rechargeable; one mouse per setting; Victor gives no kill count per battery set'],
+                  ['Kill indicator', 'Green light flashes every 10 seconds for up to a week after a catch; red flashes mean low batteries'],
                   ['Disposal', 'No-touch, no-see — tip the chamber over a garbage bag'],
-                  ['Safety', 'Circuit deactivates when lid opens; enclosed plates away from fingers and paws'],
+                  ['Safety', 'Kill-Switch cuts power when the lid opens; with the lid closed, bevelled columns keep children and pets from reaching the plates'],
                   ['Target pest', 'House mice and deer mice only — NOT rats'],
-                  ['Placement', 'Indoors and dry spaces only (basement, garage, kitchen, cottage)'],
+                  ['Placement', 'Indoors only (Victor): basement, garage, kitchen, cottage, kept dry'],
                   ['Regulatory status in Canada', 'Non-pesticide device — no PMRA registration required, legal in all provinces'],
-                  ['Wi-Fi version', 'Victor M1 Smart-Kill — app notification on every kill'],
-                  ['Typical Canadian street price', '$35–$55 (M250S) · $60–$90 (M1 Smart-Kill)'],
+                  ['Wi-Fi version', 'Victor M1 Smart-Kill — app notification on every catch; needs 2.4 GHz Wi-Fi'],
                   ['Best application', 'Squeamish households, kids/pets homes, anyone done with snap-trap disposal'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -156,6 +164,7 @@ export default function VictorElectronicMouseTrapReviewPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-2 text-xs text-gray-500">From Victor&rsquo;s <a href="https://www.victorpest.com/victor-electronic-mouse-trap-cm250b" target="_blank" rel="noopener noreferrer" className="underline">electronic mouse trap page</a> and its M1 Smart-Kill FAQ, read October 28, 2026; regulatory status from the Pest Control Products Regulations (devices outside Schedule 1 need no registration).</p>
         </div>
       </section>
 
@@ -179,16 +188,17 @@ export default function VictorElectronicMouseTrapReviewPage() {
           />
 
           <h2>How Does the Victor M250S Actually Work?</h2>
-          <p>The M250S is a battery-powered kill chamber: a mouse follows the bait scent into a dark tunnel, steps across two metal plates that complete a circuit, and receives a high-voltage shock that kills it in seconds. That is the whole trick — and it is a genuinely good trick, because it fixes the two failure modes of every other consumer trap at once.</p>
+          <p>The M250S is a battery-powered kill chamber: a mouse follows the bait scent into a dark tunnel, steps across two metal plates that complete a circuit, and receives a high-voltage shock that Victor says kills it quickly. That is the whole trick — and it is a genuinely good trick, because it fixes the two failure modes of every other consumer trap at once.</p>
+          <Photo id="house-mouse" alt="House mouse, side view" caption="A house mouse, Mus musculus. The M250S is sized for house mice and deer mice; it is not made for rats." />
           <p>First, the enclosed tunnel means the kill geometry is always correct. A snap trap only kills cleanly when the mouse approaches from the right angle; the M250S doesn&rsquo;t care how the mouse approaches, because it has to walk onto both plates to reach the bait cup at the back wall. Second, Victor&rsquo;s circuit detects the mouse and sustains the shock long enough that stunned-but-alive escapes — the classic snap-trap and zapper-gadget problem — essentially don&rsquo;t happen when the plates are clean and the batteries are healthy.</p>
           <p>When a kill happens, a green LED on top starts blinking and keeps blinking for up to 7 days. You hold the trap over a garbage bag, tip it, and the mouse slides out. You never touch it, and — the part squeamish owners care about most — you never have to see it. Opening the lid to re-bait automatically cuts power to the plates.</p>
           <NextUp path="/blog/victor-electronic-mouse-trap-review-canada" />
           <p>Honest limitations: it is strictly an indoor/dry-location trap (moisture kills the electronics), it needs its plates wiped clean every few kills or the circuit gets unreliable, and it is mouse-sized only. If you are dealing with something bigger, that is a job for the rat-scale hardware in our <Link href="/blog/best-rat-trap-canada">best rat trap Canada guide</Link>.</p>
 
           <h2>Is the Victor Electronic Mouse Trap Humane?</h2>
-          <p>Measured against the realistic alternatives, yes — the enclosed kill chamber is one of the two most humane lethal options available to Canadian homeowners. The shock renders the mouse unconscious and dead within seconds, and because the kill happens inside a chamber the mouse fully entered, there is no partial strike. Compare the field of options honestly:</p>
+          <p>Measured against the realistic alternatives, yes — the enclosed kill chamber is one of the two most humane lethal options available to Canadian homeowners. The shock kills quickly, and because the kill happens inside a chamber the mouse fully entered, there is no partial strike. Compare the field of options honestly:</p>
           <ul>
-            <li><strong>Electronic kill chamber (M250S/M1):</strong> death in seconds, no maiming, no escapes when maintained. The consistency is the humane feature.</li>
+            <li><strong>Electronic kill chamber (M250S/M1):</strong> a quick high-voltage kill inside a closed chamber; Victor claims a 100% kill rate when the trap is used as directed with fully charged batteries. The consistency is the humane feature.</li>
             <li><strong>Quality snap traps:</strong> also fast <em>when they strike correctly</em> — but misfires happen, and a misfire means a maimed mouse dragging a trap. Placement skill matters enormously.</li>
             <li><strong>Glue boards:</strong> the least humane common product — mice die of exhaustion, dehydration, or suffocation over hours to days. We don&rsquo;t recommend them, full stop.</li>
             <li><strong>Anticoagulant poisons:</strong> death over several days from internal bleeding, usually somewhere you can&rsquo;t retrieve the body — plus secondary poisoning risk to owls, hawks, foxes, and pets.</li>
@@ -197,17 +207,18 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <p>So the humaneness case for the M250S is not marketing fluff. If you have decided the mice must die — and in a Canadian house in winter, that is usually the honest decision — the electronic chamber is the option that makes a fast, clean kill the <em>default outcome</em> rather than the best-case one.</p>
 
           <h2>How Far Does One Set of Batteries Go?</h2>
-          <p>Victor rates the M250S at up to 100 kills per set of 4 AA batteries, and that number holds up as a season-scale figure. A typical household infestation is a handful to a couple dozen mice; even a bad fall invasion rarely approaches triple digits. In practice you will change batteries because of time and temperature, not kill count — alkaline cells self-drain faster in an unheated garage or cottage in winter, so use lithium AAs in cold locations. A blinking red light (as opposed to the green kill light) means the batteries are low.</p>
+          <p>Victor&rsquo;s current page lists four AA batteries (not included) and one mouse per setting, and it does not give a kill count per set of batteries, so treat any number you see on a retail listing with care. A typical household infestation is a handful to a couple dozen mice. In practice you will change batteries because of time and temperature — alkaline cells self-drain faster in an unheated garage or cottage in winter, so use lithium AAs in cold locations, and never rechargeables, which Victor says not to use. A red light flashing every 10 seconds (as opposed to the green kill light) means the batteries are low.</p>
           <p>Two maintenance habits keep the kill rate at 100%: wipe the metal plates with a dry paper towel every few kills, because grease and debris insulate the circuit; and refresh the bait — a pea-sized smear of peanut butter on the back bait cup — every week or two so it keeps releasing scent.</p>
 
           <h2>M250S vs M1 Smart-Kill: Which One Should You Buy?</h2>
-          <p>Buy the M250S unless the trap will live somewhere you don&rsquo;t. The M1 Smart-Kill uses the same chamber-and-shock design with the same roughly 100-kills-per-set economics, but adds Wi-Fi: it joins your home network and pings the Victor app on your phone the moment it kills. That is not a gimmick in three specific situations:</p>
+          <p>Buy the M250S unless the trap will live somewhere you don&rsquo;t. The M1 Smart-Kill uses the same chamber-and-shock design but adds Wi-Fi: it joins your home network and pings the Victor app on your phone the moment it kills. That is not a gimmick in three specific situations:</p>
           <ul>
             <li><strong>Cottages and seasonal properties</strong> — you learn about the catch in February instead of discovering it in May.</li>
             <li><strong>Attics and crawl spaces</strong> — places you genuinely will not check weekly, where a forgotten carcass becomes a smell problem.</li>
             <li><strong>Rental or multi-unit properties</strong> — remote confirmation without scheduling a visit.</li>
           </ul>
           <p>For a kitchen, pantry, or main-floor problem you walk past daily, the blinking green light on the M250S is all the notification you need, and the price difference buys you a second M250S — and two traps in two locations beats one connected trap almost every time. One caveat on the M1: it needs 2.4&nbsp;GHz Wi-Fi coverage wherever it sits, and a concrete-walled cottage basement is exactly where signal dies.</p>
+          <Photo id="house-mouse-on-stove" alt="House mouse on a kitchen stovetop burner" caption="A house mouse on a kitchen stovetop burner (Washington, DC). A kitchen you walk through every day is where the plain M250S and its green light are enough." />
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor m1 smart kill mouse trap">Check M1 Smart-Kill availability →</BuyLink>
           </div>
@@ -228,10 +239,10 @@ export default function VictorElectronicMouseTrapReviewPage() {
               </thead>
               <tbody>
                 {[
-                  ['Victor M250S (electronic)', 'Seconds · no maiming, no escapes', '~100 kills/battery set · years of service', 'No-touch, no-see tip-out', 'Squeamish households · kids & pets homes'],
-                  ['Victor M1 Smart-Kill (Wi-Fi)', 'Seconds · same chamber design', '~100 kills/battery set + app alerts', 'No-touch, no-see tip-out', 'Cottages · attics · rarely-checked spots'],
+                  ['Victor M250S (electronic)', 'Quick high-voltage shock · closed chamber, no partial strike', 'Reusable · one mouse per setting · 4 AA batteries', 'No-touch, no-see tip-out', 'Squeamish households · kids & pets homes'],
+                  ['Victor M1 Smart-Kill (Wi-Fi)', 'Quick shock · same chamber design', 'Reusable · app alert on each catch (2.4 GHz Wi-Fi)', 'No-touch, no-see tip-out', 'Cottages · attics · rarely-checked spots'],
                   ['Classic wood/plastic snap trap', 'Fast when placed well · misfires maim', 'Reusable but often tossed with the mouse', 'Hands-on — you see and handle it', 'Budget deployments · high trap counts'],
-                  ['Bromethalin bait station (Tomcat)', 'Hours to days · dies out of sight', 'Disposable single station', 'Carcass often unrecoverable in walls', 'Inaccessible voids · supplement only'],
+                  ['Bromethalin bait station (Tomcat)', 'Two or more days after feeding (Canadian label) · dies out of sight', 'Disposable single station', 'Carcass often unrecoverable in walls', 'Inaccessible voids · supplement only'],
                   ['Glue boards', 'Hours to days · least humane option', 'Single use', 'Live mouse on a board — grim', 'Not recommended'],
                 ].map(([name, speed, reuse, disposal, best]) => (
                   <tr key={name} className="border-b border-navy-50 last:border-0">
@@ -249,8 +260,9 @@ export default function VictorElectronicMouseTrapReviewPage() {
 
           <h2>What About Poison? What Is Actually Legal in Canada</h2>
           <p>This is where Canadian buyers get led astray by US content. American review sites routinely recommend second-generation anticoagulant rodenticides — brodifacoum, bromadiolone, difethialone — as the &ldquo;strongest&rdquo; consumer option. <strong>Those products are not sold as domestic-class in Canada.</strong> Health Canada&rsquo;s PMRA restricts second-generation anticoagulants to commercial pest-control use, largely because a single feed can load a mouse with enough toxin to poison the owl, hawk, fox, or family dog that eats it afterwards. Ordering them cross-border or picking them up from a US Walmart is importing an unregistered pesticide — we won&rsquo;t recommend it, and you shouldn&rsquo;t risk it.</p>
-          <p>What a Canadian homeowner can legally buy is narrow and specific: the main PMRA-registered consumer rodenticide is <strong>bromethalin</strong> in pre-loaded, tamper-resistant disposable bait stations, sold under the Tomcat brand. Bromethalin is a neurotoxin, not an anticoagulant — no multi-day bleeding, but also genuinely dangerous to pets if they chew into a station, which is exactly why domestic-class rules require the tamper-resistant housing. Our <Link href="/blog/rat-poison-canada-what-is-legal">what rodenticides are actually legal in Canada</Link> guide covers the full regulatory picture, and the <Link href="/blog/mouse-bait-station-canada">mouse bait station guide</Link> covers deploying them properly.</p>
+          <p>What a Canadian homeowner can legally buy is narrower: domestic-class baits only. One PMRA-registered consumer option is <strong>bromethalin</strong> in pre-loaded bait stations, sold under brands such as Tomcat; first-generation anticoagulants such as diphacinone and, since June 2026, cholecalciferol baits are registered for domestic use too. Bromethalin is a neurotoxin, not an anticoagulant — no multi-day bleeding, but also genuinely dangerous to pets if they chew into a station, which is why the station matters as much as the bait. Our <Link href="/blog/rat-poison-canada-what-is-legal">what rodenticides are actually legal in Canada</Link> guide covers the full regulatory picture, and the <Link href="/blog/mouse-bait-station-canada">mouse bait station guide</Link> covers deploying them properly.</p>
           <p>Our position for houses: traps first, poison only as a supplement for voids you physically cannot trap. A trap gives you a confirmed, retrievable kill; poison frequently gives you a smell inside a wall cavity and an unquantifiable risk to wildlife. One health note, kept appropriately hedged: Health Canada advises against sweeping or vacuuming dry rodent droppings (deer mice in Canada can carry hantavirus) — wear gloves, wet droppings down with diluted disinfectant, and wipe. See Health Canada&rsquo;s rodent-cleanup guidance for the full protocol.</p>
+          <Photo id="deer-mouse" alt="Deer mouse photographed after being spooked from a bird house" caption="A deer mouse, photographed by the US Fish and Wildlife Service after it was spooked from a bird house in Minnesota. Deer mice in Canada can carry hantavirus, which is why droppings get wetted with disinfectant rather than swept." />
 
           <h2>Where Should You Place It for Fast Results?</h2>
           <p>Placement decides success more than the trap does. Mice are wall-huggers with poor eyesight — they travel the same few centimetres of baseboard every night and rarely cross open floor.</p>
@@ -260,10 +272,24 @@ export default function VictorElectronicMouseTrapReviewPage() {
             <li><strong>First 48 hours tell you everything.</strong> Mice are curious about new objects (unlike rats). No kill in 2–3 nights means wrong location — move it, don&rsquo;t wait it out.</li>
             <li><strong>Run more than one trap</strong> if you are seeing droppings in more than one room. One trap per active room is the minimum that ends infestations quickly.</li>
           </ul>
-          <p>And remember the trap is treatment, not cure. Mice enter through gaps as small as 6&nbsp;mm — the width of a dime — and every mouse you kill can be replaced from outside until the entry points are sealed. Our <Link href="/blog/how-to-get-rid-of-mice-canada">step-by-step guide to getting rid of mice in Canada</Link> covers the full trap-and-seal sequence, and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> covers the fall exclusion work that stops the annual October invasion in the first place. If the problem has outgrown DIY entirely, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down what professional rodent work runs.</p>
+          <Photo id="mouse-droppings-wood" alt="Mouse droppings scattered on a wooden surface" caption="Mouse droppings scattered on a wooden surface (US National Park Service photograph). Droppings like these mark a runway: set the trap tight against the wall beside them." />
+          <p>And remember the trap is treatment, not cure. Mice can fit through a hole the width of a pencil, 6&nbsp;mm (1/4 inch) across, the US CDC says, and every mouse you kill can be replaced from outside until the entry points are sealed. Our <Link href="/blog/how-to-get-rid-of-mice-canada">step-by-step guide to getting rid of mice in Canada</Link> covers the full trap-and-seal sequence, and the <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> covers the fall exclusion work that stops the annual October invasion in the first place. If the problem has outgrown DIY entirely, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> breaks down what professional rodent work runs.</p>
+
+          <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Buyer&rsquo;s checklist for an electronic mouse trap</p>
+            <ul className="space-y-1.5 text-sm text-gray-800 list-disc pl-5">
+              <li><strong>Mice, not rats:</strong> droppings longer than about 12 mm or heavy movement in the walls mean a rat-size trap.</li>
+              <li><strong>An indoor, dry spot:</strong> Victor rates its electronic mouse trap for indoor use only.</li>
+              <li><strong>Four fresh AA batteries,</strong> not rechargeables (Victor); lithium in a cold garage or cottage.</li>
+              <li><strong>One trap per active room,</strong> tight against the wall on a runway.</li>
+              <li><strong>A pea-sized dab of bait</strong> in the cup at the back, so the mouse has to walk onto both plates.</li>
+              <li><strong>The Wi-Fi M1 only where you rarely look,</strong> and only if 2.4 GHz Wi-Fi reaches the spot.</li>
+              <li><strong>A plan to seal the gaps:</strong> anything a pencil fits through lets the next mouse in.</li>
+            </ul>
+          </div>
 
           <h2>Verdict: Is the Victor M250S Worth It in Canada?</h2>
-          <p><strong>Yes — it is the best no-touch mouse trap sold in Canada, and the right first trap for most households.</strong> It makes a fast, clean kill the default outcome, it costs pennies per kill over a multi-year service life, and it removes the single biggest reason people procrastinate on a mouse problem: not wanting to deal with the body. Add the M1 Smart-Kill for locations you rarely visit; add cheap snap traps for saturation during a heavy infestation; skip glue boards and grey-market poisons entirely.</p>
+          <p><strong>Yes — it is the best no-touch mouse trap sold in Canada, and the right first trap for most households.</strong> It makes a fast, clean kill the default outcome, it is reusable, and it removes the single biggest reason people procrastinate on a mouse problem: not wanting to deal with the body. Add the M1 Smart-Kill for locations you rarely visit; add cheap snap traps for saturation during a heavy infestation; skip glue boards and grey-market poisons entirely.</p>
           <div className="not-prose my-4 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap m250s">Check Victor M250S price on Amazon.ca →</BuyLink>
           </div>

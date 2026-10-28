@@ -13,11 +13,13 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
 
 const SLUG = 'co2-mosquito-trap-canada'
 const DATE = '2026-07-14'
-const UPDATED = '2026-07-14'
+const UPDATED = '2026-10-28'
 const TITLE = 'CO2 Mosquito Traps in Canada 2026: Biogents vs Propane Traps (No Tank Required)'
+// TITLE NOTE (Oct 28, 2026): kept as is (46 characters, already leads with the top query); top queries: co2 mosquito trap 293, biogents mosquito trap canada 62, biogents mosquito trap 53, mosquito co2 trap 44, c02 mosquito trap 39 (25 clicks across the top 15 queries). The Biogents brand head term belongs to biogents-bg-mosquitaire-mosquito-trap-canada; propane to propane-mosquito-trap-canada.
 const META_TITLE = 'CO2 Mosquito Traps Canada: Biogents vs Propane'
 
 const FAQS = [
@@ -27,7 +29,7 @@ const FAQS = [
   },
   {
     question: 'Do Biogents mosquito traps actually work, and are they what researchers use?',
-    answer: 'Yes. Biogents is the brand mosquito scientists genuinely deploy. The BG-Sentinel trap (the professional research model) is the standard surveillance tool used in published studies and by public-health surveillance programs worldwide to monitor Aedes and Culex populations. The consumer versions — BG-Home and BG-Mosquitaire — use the same patented airflow design and the same BG-Lure (an artificial-skin attractant) that made the research trap effective. That research pedigree is why we point homeowners to Biogents over generic \'CO2 mosquito killer\' units on Amazon.ca: the capture data behind the design is real, not marketing. No backyard trap eliminates 100% of mosquitoes, but a properly placed Biogents unit meaningfully reduces the biting females in its zone over a few weeks of continuous running.',
+    answer: 'Yes. Biogents is the brand mosquito scientists genuinely deploy. The BG-Sentinel trap (the professional research model) is the standard surveillance tool used in published studies and by public-health surveillance programs worldwide to monitor Aedes and Culex populations. The consumer versions — BG-Home and BG-Mosquitaire — use the same patented airflow design, and their BG-Sweetscent lure uses the same formulation as the research BG-Lure (an artificial-skin attractant), according to Biogents. That research pedigree is why we point homeowners to Biogents over generic \'CO2 mosquito killer\' units on Amazon.ca: the capture data behind the design is real, not marketing. But catching mosquitoes is not the same as preventing bites: University of Wisconsin–Madison researchers report that traps bought by individual homeowners usually do not reduce biting in the yard. Also note that we found no Biogents product in Health Canada’s pesticide registry.',
   },
   {
     question: 'Biogents vs Mosquito Magnet — which CO2 trap is better?',
@@ -51,7 +53,7 @@ const FAQS = [
   },
   {
     question: 'Are CO2 mosquito traps regulated by Health Canada or the PMRA?',
-    answer: 'A trap that works purely by physical capture — CO2 plume, a scent lure, a fan, and a net — is a device, not a pesticide, so it does not require a PMRA (Health Canada Pest Management Regulatory Agency) pest control product registration the way a spray does. However, if a trap uses an insecticidal surface or treated net (some BG-GAT configurations do), the treated component may fall under pesticide rules and should carry a PCP registration number. The lures themselves are scent attractants rather than insecticides. None of this changes the practical takeaway: traps are legal to buy and run across Ontario, and unlike a spray they add no residual pesticide to your yard surfaces.',
+    answer: 'Yes. Schedule 1 of the federal Pest Control Products Regulations lists “Devices that are manufactured, represented or sold as a means to attract or destroy flying insects, or to attract and destroy them” among the devices that stay under the Pest Control Products Act, and the exemption for unregistered flying-insect devices applies only to devices certified to the CSA standard for high-voltage insect killers (bug zappers). Health Canada’s registry lists mosquito traps such as Mosquito Magnet Executive (Reg. No. 29944) and Mosquito Magnet Patriot Plus (Reg. No. 32375), and octenol lures such as Mosquito Magnet Octenol Mosquito Attractant (Reg. No. 28440). We found no Biogents trap or lure in it (October 28, 2026). Look for “Reg. No. … P.C.P. Act” on the box. Unlike a spray, a trap adds no residual pesticide to your yard.',
   },
   {
     question: 'CO2 trap vs professional barrier spray — which should a GTA homeowner choose?',
@@ -61,11 +63,19 @@ const FAQS = [
     question: 'Can a CO2 mosquito trap catch ticks too?',
     answer: 'No. Ticks do not fly and are not drawn to a CO2 plume the way host-seeking mosquitoes are — they quest by climbing vegetation and waiting for a host to brush past. A flying-insect suction trap simply never intercepts them. If ticks are your concern (and in the GTA, blacklegged/deer ticks carrying Lyme are a rising problem), you need a ground-level solution: a permethrin-based yard perimeter treatment, tick tubes, keeping grass short, and a professional tick program. BuzzSkito runs a dedicated tick barrier program at $597/season standalone or $497/season bundled with a mosquito plan. Do not expect any mosquito trap — CO2, propane, or UV — to reduce your tick load.',
   },
+  {
+    question: 'Do CO2 mosquito traps actually work?',
+    answer: 'They catch mosquitoes; whether they stop bites is another matter. University of Wisconsin–Madison researchers write that studies confirm these traps catch mosquitoes, but that studies comparing yards with and without traps indicate traps bought by individual homeowners usually do not reduce human biting: Mosquito Magnets catch thousands of mosquitoes without changing biting rates in the yard. The exception they cite is an isolated Florida island with one dominant mosquito species, which was dramatically protected with Mosquito Magnets at one per acre. Treat a trap as one layer, with dumping standing water and repellent, not the whole plan.',
+  },
+  {
+    question: 'Is the Biogents mosquito trap registered in Canada?',
+    answer: 'We found no Biogents trap or lure in Health Canada’s pesticide registry when we searched it on October 28, 2026, by product and by registrant. That matters because the Pest Control Products Regulations keep devices that attract or destroy flying insects under the Pest Control Products Act. The propane Mosquito Magnet Executive (Reg. No. 29944) and Patriot Plus (Reg. No. 32375) are registered, as are several octenol lures. Whatever trap you buy, look for “Reg. No. … P.C.P. Act” on the box.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'CO2 mosquito traps in Canada, explained by GTA pros: how Biogents research-grade traps compare to propane traps like Mosquito Magnet, why the BG-GAT is genius, sugar-yeast vs propane vs electric CO2, cost-per-season math, and where to buy on Amazon.ca. Updated July 2026.',
+  description: 'CO2 mosquito traps in Canada: Biogents vs propane Mosquito Magnet, how each makes CO2, what research found about bites, and which traps are registered here.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -89,7 +99,7 @@ export default function Co2MosquitoTrapCanadaPage() {
             <span className="text-white">CO2 Mosquito Traps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The trap brand mosquito researchers actually deploy, why electric &amp; lure beats a propane tank for most GTA backyards, and the low-tech BG-GAT that quietly wipes out egg-laying tiger mosquitoes.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">A CO2 mosquito trap lures host-seeking female mosquitoes with carbon dioxide and a skin-scent lure, then a fan pulls them into a net. Propane traps such as Mosquito Magnet make their own CO2 and suit large lots; Biogents electric traps run on a lure with an optional CO2 cylinder, sized for a suburban yard. In Canada these traps are regulated devices, so look for a registration number before you buy, and expect a fuller net more than fewer bites.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,6 +122,8 @@ export default function Co2MosquitoTrapCanadaPage() {
               <li>Running an electric Biogents on the lure alone costs about $60&ndash;$120/season, versus $350&ndash;$550/season for a propane trap&rsquo;s fuel and cartridges.</li>
               <li>The passive BG-GAT uses zero power and kills egg-laying females &mdash; one gravid female cancels the 100&ndash;300 eggs she was about to lay.</li>
               <li>No CO2 mosquito trap catches ticks, because ticks do not fly to a CO2 plume.</li>
+              <li>In Canada, devices sold to attract or destroy flying insects fall under the Pest Control Products Act: Health Canada&rsquo;s registry lists Mosquito Magnet Executive (Reg. No. 29944) and Patriot Plus (Reg. No. 32375), and we found no Biogents product in it.</li>
+              <li>University of Wisconsin&ndash;Madison researchers report that traps bought by individual homeowners usually do not reduce biting, even when, like the Mosquito Magnet, they catch thousands of mosquitoes.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -247,6 +259,7 @@ export default function Co2MosquitoTrapCanadaPage() {
 
           <h2>Why CO2 is the master mosquito cue</h2>
           <p>Every mosquito trap is trying to win the same race your own body enters every time you step outside: the competition to be the most obvious host. A host-seeking female locks onto a plume of carbon dioxide from up to 10 metres away, then closes the gap using body heat and the smell of your skin. We wrote a whole breakdown of that hunt in <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link> — but the short version is that CO2 is the long-range beacon. That is exactly why a CO2 mosquito trap can out-compete you: it pumps out a bigger, more convincing plume than a single person, and it never swats.</p>
+          <Photo id="mosquito-bites-forearm" alt="Several swollen mosquito bites fusing together on a forearm" caption="Several swollen mosquito bites fusing together on a forearm (CDC photograph, 2024). Every bite comes from a host-seeking female, the mosquito a CO2 trap is built to draw in." />
           <p>The device follows a simple loop. Release CO2 and a skin-scent lure, let the plume drift downwind, and when a female flies upwind to investigate, a suction fan pulls her into a catch bag where she dehydrates within hours. The differences between traps come down to one question: <strong>how do you generate the CO2?</strong> Answer that, and you have basically chosen your trap.</p>
 
           <NextUp path="/blog/co2-mosquito-trap-canada" />
@@ -262,12 +275,68 @@ export default function Co2MosquitoTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="biogents bg-lure refill">Check BG-Lure refills on Amazon.ca →</BuyLink>
           </div>
 
+          <h2>CO2 Traps Compared: Lures, Registration and What the Research Found</h2>
+          <p>Two things decide a Canadian purchase that the shop pages skip: whether the trap and its lure are registered here, and what the trap can honestly do. Every cell below comes from the maker, Health Canada&rsquo;s registry or a university source, named under the table.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Trap</th>
+                  <th className="px-4 py-3 text-left">How it attracts</th>
+                  <th className="px-4 py-3 text-left">In Health Canada&rsquo;s registry?</th>
+                  <th className="px-4 py-3 text-left">Best for</th>
+                  <th className="px-4 py-3 text-left">Limits</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Propane trap<br /><span className="font-normal text-xs text-gray-500">Mosquito Magnet Patriot Plus, Executive</span></td>
+                  <td className="px-4 py-3 text-gray-700">Burns propane for a CO2 plume; octenol cartridge as an added lure</td>
+                  <td className="px-4 py-3 text-gray-700">Yes: Patriot Plus Reg. No. 32375, Executive Reg. No. 29944; Mosquito Magnet Octenol Mosquito Attractant Reg. No. 28440</td>
+                  <td className="px-4 py-3 text-gray-700">Large lots and cottage properties</td>
+                  <td className="px-4 py-3 text-gray-700">Propane and cartridges to buy all season. UW&ndash;Madison: Mosquito Magnets catch thousands of mosquitoes without changing biting rates in the yard, and all 3 of theirs had stopped working by the end of the first year</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Biogents BG-Mosquitaire<br /><span className="font-normal text-xs text-gray-500">electric, outdoor</span></td>
+                  <td className="px-4 py-3 text-gray-700">Fan plus BG-Sweetscent lure; optional CO2 from a cylinder through the BG-Booster</td>
+                  <td className="px-4 py-3 text-gray-700">No Biogents product found (searched by product and registrant)</td>
+                  <td className="px-4 py-3 text-gray-700">A suburban yard with an outlet</td>
+                  <td className="px-4 py-3 text-gray-700">Biogents says BG-Sweetscent lasts up to 2 months; it uses the same formulation as the research BG-Lure</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Biogents BG-Home<br /><span className="font-normal text-xs text-gray-500">electric, indoor</span></td>
+                  <td className="px-4 py-3 text-gray-700">Fan, warmth and BG-Sweetscent</td>
+                  <td className="px-4 py-3 text-gray-700">No Biogents product found</td>
+                  <td className="px-4 py-3 text-gray-700">Indoors; Biogents also lists covered patios, garages and screened porches</td>
+                  <td className="px-4 py-3 text-gray-700">Biogents: &ldquo;designed to be placed indoors in your apartment or house&rdquo;</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Biogents BG-GAT</td>
+                  <td className="px-4 py-3 text-gray-700">Water and egg-laying cues; females land on a sticky card. Biogents: it works &ldquo;without power, insecticides, or carbon dioxide&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">No Biogents product found</td>
+                  <td className="px-4 py-3 text-gray-700">Egg-laying tiger mosquitoes, off-grid yards</td>
+                  <td className="px-4 py-3 text-gray-700">Biogents: it &ldquo;does not attract mosquitoes looking for a blood meal&rdquo; and works best when it is the only breeding site</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">UV traps sold as CO2 traps<br /><span className="font-normal text-xs text-gray-500">titanium dioxide type</span></td>
+                  <td className="px-4 py-3 text-gray-700">UV light on a coated insert, marketed as making CO2</td>
+                  <td className="px-4 py-3 text-gray-700">No Dynatrap product found</td>
+                  <td className="px-4 py-3 text-gray-700">&mdash;</td>
+                  <td className="px-4 py-3 text-gray-700">UW&ndash;Madison measured no CO2 from the Dynatrap (unpublished results)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: Health Canada Pesticide Label Search, searched October 28, 2026; Pest Control Products Regulations, Schedule 1 (devices that attract or destroy flying insects stay under the Act); Biogents product pages for the BG-Home, BG-GAT and BG-Sweetscent; University of Wisconsin&ndash;Madison, <a href="https://mosquitosite.russell.wisc.edu/preventing-mosquito-bites/carbon-dioxide-baited-mosquito-traps" target="_blank" rel="noopener" className="underline">Carbon dioxide baited mosquito traps</a>, citing Kline (2006), Journal of the American Mosquito Control Association 22:490&ndash;496.</p>
+
           <h2>Why Biogents is the trap researchers actually use</h2>
           <p>This is the part that separates Biogents from the wall of generic &lsquo;electric CO2 mosquito killer&rsquo; boxes on Amazon.ca. The company&rsquo;s BG-Sentinel trap — the professional model behind the consumer BG-Home and BG-Mosquitaire — is a standard tool in academic mosquito surveillance. When public-health researchers need to count how many <em>Aedes</em> or <em>Culex</em> mosquitoes are in an area, the BG-Sentinel is one of the traps they set. The patented airflow and the BG-Lure were refined against real capture data, not a marketing brief.</p>
+          <Photo id="culex-pipiens" alt="Northern house mosquito, Culex pipiens, photographed in Ontario" caption="A northern house mosquito, Culex pipiens, photographed in Ontario. Culex is one of the two groups researchers set BG-Sentinel traps to count." />
           <p>For a homeowner that pedigree matters in a concrete way: the consumer traps inherit the same airflow geometry and the same lure chemistry that earned the research trap its reputation. As GTA operators, we would rather point a customer to a design with peer-reviewed capture data behind it than to a no-name unit whose only evidence is a five-star review and a stock photo. No backyard trap is a silver bullet — but if you are going to buy one, buy the one with the science.</p>
 
           <h2>The BG-GAT: the quiet genius of the lineup</h2>
           <p>The single most interesting trap Biogents makes needs no power and no CO2 at all. The <strong>BG-GAT (Gravid Aedes Trap)</strong> hunts a very specific, very valuable target: the <em>gravid</em> female — a mosquito that has already bitten someone, is now carrying eggs, and is prowling for a place to lay them. You fill the GAT with water and a grass-infusion lure so it smells like the perfect breeding puddle. She enters through a funnel to lay, hits a sticky or insecticidal surface, and never comes back out.</p>
+          <Photo id="aedes-albopictus-eggs" alt="Elongated eggs laid by an Asian tiger mosquito on paper" caption="Eggs laid by a female Asian tiger mosquito, on paper (CDC photograph). The BG-GAT is built to catch the female before she lays a batch like this." />
           <p>Why does that matter more than catching random flyers? Because you are removing the exact insects about to seed the next generation. Kill one gravid female and you cancel the 100–300 eggs she was about to lay. GATs are deployed in clusters — three or more around a property — and they are ideal for the situations where a plug-in trap is a pain: cottages, off-grid yards, dense garden beds. They are also aimed squarely at <em>Aedes</em> — the aggressive, daytime-biting container mosquitoes that shrug off dusk-focused tactics. For a cottage owner who wants set-and-forget control with no electricity, a GAT cluster is genuinely clever.</p>
           <div className="not-prose my-6">
             <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">Check BG-GAT kits on Amazon.ca</BuyLink>
@@ -295,6 +364,16 @@ export default function Co2MosquitoTrapCanadaPage() {
             <li><strong>Out of strong wind</strong> — a stiff breeze shreds the CO2 plume. Tuck the trap into a sheltered pocket of the yard.</li>
             <li><strong>Run it continuously</strong> — traps are a population tool. Switching them off for a week lets the numbers rebound. Set it and leave it from May to September.</li>
             <li><strong>Deploy GATs in clusters</strong> — one GAT is a data point; three or more around the yard perimeter is a control strategy.</li>
+          </ul>
+
+          <h2>Buyer&rsquo;s Checklist for a CO2 Mosquito Trap in Canada</h2>
+          <ul>
+            <li><strong>Look for &ldquo;Reg. No. ____ P.C.P. Act&rdquo;</strong> on the trap and on any lure. Traps that attract flying insects stay under the Pest Control Products Act, and octenol lures are registered products too.</li>
+            <li><strong>Match the CO2 source to the property.</strong> Propane for a large lot or cottage; an electric lure trap, with or without a CO2 cylinder, for a suburban yard with an outlet.</li>
+            <li><strong>Count the refills before you buy:</strong> propane and octenol cartridges for a propane trap, a scent lure about every 2 months for a Biogents trap, cylinders if you add CO2.</li>
+            <li><strong>Plan the spot:</strong> 3&ndash;10 m from where you sit, in shade, out of the wind, and switched on for the whole season.</li>
+            <li><strong>Empty the standing water first.</strong> Biogents says its egg-laying trap works best when it is the only breeding site in the yard.</li>
+            <li><strong>Judge it by bites, not by the bag.</strong> A full catch net does not prove fewer bites; university studies of homeowner traps found biting usually did not drop.</li>
           </ul>
 
           <h2>Traps vs professional barrier spray: use both</h2>

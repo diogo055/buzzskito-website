@@ -2,9 +2,16 @@
  "id": "ant-killer-recipes",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f82a4af65efccbf85ac5e06a9471c832e57303df67bd27f0d18151a48a1b0a11",
+ "sha": "54afbae984aa2ba17c520dcadcbaabd222851f5ec2bb1e0b8e31e7d4bf1e207f",
  "claimsChecked": 100,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 4 real photos added as figure blocks next to the text they illustrate (CC0 first photo argentine-ants-trail-wood; pavement-ants-sugar-water, pheidole-ants-peanut-butter, odorous-house-ants-kitchen-window); the share image stays the hero infographic. Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (UC IPM, Texas A&M, Nebraska). No other text changed; dates unchanged.",
+   "previousSha": "f82a4af65efccbf85ac5e06a9471c832e57303df67bd27f0d18151a48a1b0a11"
+  }
+ ]
 }

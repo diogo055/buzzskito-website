@@ -2,9 +2,16 @@
  "id": "pet-safe-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "87bee0b36e76437f9e572446f9fa0e58aee85dead5779db78f890d50af2efdf1",
+ "sha": "f9c7a906fe44a552d71459f5c645fdea0bb42e95efe8f29c92ae501f5ace19d0",
  "claimsChecked": 96,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 6 real photos added as figure blocks: argentine-ants-bait-trap, flea-on-comb and mothballs (public domain, already on record), tick-on-cat (CC BY-SA 4.0, already on record), black-cat-with-mouse (Commons, CC BY-SA 3.0) and garden-snail-chewed-leaf (iNaturalist, CC0), the last two new to the ledger (photo-notes-batch15); plus one sentence linking /tools/what-bug-is-this at the end of the first section. The hero infographic stays the share image. Captions restate the photo records and facts already on the page (the ASPCA review, FDA, Merck, NPIC, Pet Poison Helpline); media placeholders kept; no fact or date changed.",
+   "previousSha": "87bee0b36e76437f9e572446f9fa0e58aee85dead5779db78f890d50af2efdf1"
+  }
+ ]
 }

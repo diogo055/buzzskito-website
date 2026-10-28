@@ -14,12 +14,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'dupray-steamer-review-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Dupray Steamer Review Canada 2026 — Is the Dupray Neat Worth It for Bed Bugs & Deep Cleaning?'
-const META_TITLE = 'Dupray Steamer Review: Bed Bugs, Canada 2026'
+// TITLE NOTE (Oct 28, 2026): was 'Dupray Steamer Review: Bed Bugs, Canada 2026'; top queries, 90 days to Oct 28: best steam cleaner for bed bugs canada 67 at 6.3 (the bed bug steamer page owns it), dupray neat steam cleaner bed bugs 47 at 7.7, dupray neat steam cleaner for bed bugs 40 at 7.4, dupray reviews 28 at 9.6, dupray steam cleaner review 22 at 10.0, dupray steam cleaner 16 at 6.9, dupray steam cleaner reviews 14 at 8.4, dupray neat steam cleaner recall 2 at 4.0 (364 impressions, 11 clicks).
+const META_TITLE = 'Dupray Neat Review Canada: Bed Bugs + Recall'
 
 const FAQS = [
   {
@@ -32,11 +36,11 @@ const FAQS = [
   },
   {
     question: 'What temperature does the Dupray Neat reach?',
-    answer: 'Dupray markets the Neat as producing high-temperature dry vapour from a pressurized stainless-steel boiler — the water is heated well past the boiling point and released as low-moisture steam. The exact figure depends on where you measure: the boiler runs hotter than the steam that actually reaches the surface, and the temperature at the fabric drops with distance and nozzle. What matters for bed bugs is that the steam leaving the tip is hot enough, and applied slowly enough, to raise the surface temperature into the lethal range and hold it there. That is why technique — a slow pass, tip close to the fabric, the right attachment — matters as much as the boiler spec on the box. Always confirm current specs on the listing before buying.',
+    answer: 'Dupray lists the Neat\'s steam at up to 135 °C (275 °F) and 50 psi (3.5 bar), from a pressurized boiler. That is the temperature at the machine; the temperature at the fabric drops with distance and nozzle. Health Canada says bed bugs die at 50 °C, and University of Minnesota Extension aims for 71 to 82 °C (160 to 180 °F) at the surface being steamed. What matters for bed bugs is that the steam leaving the tip is hot enough, and applied slowly enough, to raise the surface temperature into the lethal range and hold it there. That is why technique — a slow pass, tip close to the fabric, the right attachment — matters as much as the boiler spec on the box.',
   },
   {
     question: 'How long does the Dupray Neat run on one tank?',
-    answer: 'A long continuous run time is one of the Neat’s headline advantages over cheap handhelds, which is the single biggest practical difference when you are treating a whole bed. Flash-heat handheld steamers give you a few minutes before they sputter and need a refill-and-reheat cycle; a boiler unit like the Neat holds a larger tank and delivers steam continuously for a long stretch, so you can work an entire mattress and frame without constant interruptions. Check the current listing for the exact run-time and tank-capacity figures, since Dupray updates its lineup — but the category difference is real: boiler steamers run far longer per fill than pod-style handhelds.',
+    answer: 'Dupray lists up to 50 minutes of cleaning per full boiler, which holds 1.6 L (54 oz), after an 8-minute heat-up. That long run is one of the Neat’s headline advantages over cheap handhelds, which is the single biggest practical difference when you are treating a whole bed. Flash-heat handheld steamers give you a few minutes before they sputter and need a refill-and-reheat cycle; a boiler unit like the Neat delivers steam for a long stretch, so you can work an entire mattress and frame without constant interruptions. For scale, University of Minnesota Extension recommends a commercial steamer holding at least 4 L (1 gallon) for bed bug work, so plan on refilling during a whole-room job.',
   },
   {
     question: 'Does steaming actually kill bed bug eggs?',
@@ -60,7 +64,7 @@ const FAQS = [
   },
   {
     question: 'How do I actually steam a bed for bed bugs — the technique?',
-    answer: 'Vacuum first with a crevice tool to physically remove live insects and loose debris, then steam the same ground. Fit a concentrated nozzle or a cloth-covered wide tool, keep the tip within a couple of centimetres of the fabric, and move slowly — roughly a slow crawl of a few centimetres per second — so the heat actually penetrates the seam. Work every mattress seam and piping top and bottom, box-spring edges and staples, bed-frame joints and bolt holes, headboard cracks, and the baseboards around the bed. Do not soak: dry vapour should leave surfaces warm and lightly damp, not wet. Then place interceptor traps under the bed legs to monitor whether the numbers are dropping.',
+    answer: 'Health Canada\'s order is steam first, then vacuum: the steam flushes out of hiding the bed bugs it does not kill, and a crevice tool then lifts them along with loose debris. Fit a concentrated nozzle or a cloth-covered wide tool, keep the tip within a couple of centimetres of the fabric, and move slowly — roughly a slow crawl of a few centimetres per second — so the heat actually penetrates the seam. Work every mattress seam and piping top and bottom, box-spring edges and staples, bed-frame joints and bolt holes, headboard cracks, and the baseboards around the bed. Do not soak: dry vapour should leave surfaces warm and lightly damp, not wet. Then place interceptor traps under the bed legs to monitor whether the numbers are dropping.',
   },
   {
     question: 'Is a steamer better than a bed-bug heater or heat chamber?',
@@ -70,15 +74,20 @@ const FAQS = [
     question: 'Should I buy a Dupray Neat or just call a professional?',
     answer: 'It depends on the size of the problem and your appetite for the work. For a caught-early, single-room bed-bug scare, a disciplined DIY protocol — vacuum, steam, encase, monitor with interceptors — genuinely knocks a population down, and a Neat is a reusable appliance you keep afterward. For a widespread or long-established infestation across multiple rooms, professional treatment reaches wall voids and structural harbourage that no consumer steamer can, and trying to DIY it alone often just prolongs the problem. A sensible middle path is to steam and monitor while getting a professional quote. Our Canadian pest-control cost guide lays out what that professional work typically runs so you can weigh it.',
   },
+  {
+    question: 'Was the Dupray Neat steam cleaner recalled?',
+    answer: 'Yes. Health Canada and the US CPSC recalled the Dupray Neat (model DUP020WNA) on February 26, 2026, over a burn hazard: if the boiler is overfilled and badly corroded and the boiler cap also fails, the boiler can rupture. Only units with batch/date codes 0118-01 through 0425-05 are affected; the code is on a sticker under the base, and codes 0525-XX and later are not affected. Health Canada says to stop using an affected unit and contact Dupray for a free replacement boiler cap (1-800-881-8482 or recall@dupray.com).',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'An independent Canadian review of the Dupray Neat steam cleaner: does the Canadian-made dry-vapour steamer earn its price for bed bugs and chemical-free deep cleaning? Temperature, run time, technique, honest downsides, and how it compares. Updated 2026.',
+  description: 'Dupray Neat for bed bugs: steam up to 135°C, 50 psi, a 1.6 L boiler. Units coded 0118-01 to 0425-05 were recalled in Feb 2026; how to check yours.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bugs-eggs-mattress-seam'),
 })
 
 const AMZ_TAG = tagForSlug('dupray-steamer-review-canada')
@@ -86,7 +95,7 @@ const AMZ_TAG = tagForSlug('dupray-steamer-review-canada')
 export default function DupraySteamerReviewCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of the Dupray Neat steam cleaner for bed-bug remediation and chemical-free deep cleaning — dry-vapour temperature, continuous run time, technique, honest trade-offs, and where it fits in a pest plan.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian review of the Dupray Neat steam cleaner for bed-bug remediation and chemical-free deep cleaning — dry-vapour temperature, continuous run time, technique, honest trade-offs, and where it fits in a pest plan.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bugs-eggs-mattress-seam') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Dupray Steamer Review Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -99,7 +108,7 @@ export default function DupraySteamerReviewCanadaPage() {
             <span className="text-white">Dupray Steamer Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The Dupray Neat is a Canadian-made, boiler-driven dry-vapour steamer that keeps turning up in bed-bug and deep-cleaning searches. Here is our honest, independent take &mdash; what the heat and run time actually buy you, the technique that makes it work, the real downsides, and where it fits in a plan.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Yes, the Dupray Neat gets hot enough for bed bugs: Montreal-based Dupray lists steam up to 135&nbsp;&deg;C (275&nbsp;&deg;F) at 50&nbsp;psi from a 1.6&nbsp;L boiler, and Health Canada says bed bugs die at 50&nbsp;&deg;C. Two caveats first: Neats with batch codes 0118-01 to 0425-05 were recalled on February 26, 2026 over a boiler-rupture burn hazard, and steam only kills what the nozzle reaches.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,14 +121,14 @@ export default function DupraySteamerReviewCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The <strong>Dupray Neat</strong> is a genuinely capable, Canadian-made <strong>dry-vapour steam cleaner</strong> and one of the better consumer-grade options in Canada for bed-bug work &mdash; because heat is one of the few things that kills bed bugs <em>and</em> their glued-down eggs, and a boiler-driven unit delivers hot, low-moisture steam over a long continuous run. It is not an impulse buy: it is a deliberate treatment-and-deep-cleaning appliance that earns its price if you will reuse it, and it must be paired with a vacuum and monitoring &mdash; steam only reaches the surfaces the nozzle touches.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The <strong>Dupray Neat</strong> is a genuinely capable <strong>dry-vapour steam cleaner</strong> from Montreal-based Dupray and one of the better consumer-grade options in Canada for bed-bug work &mdash; because heat is one of the few things that kills bed bugs <em>and</em> their glued-down eggs, and a boiler-driven unit delivers hot, low-moisture steam over a long continuous run. It is not an impulse buy: it is a deliberate treatment-and-deep-cleaning appliance that earns its price if you will reuse it, and it must be paired with a vacuum and monitoring &mdash; steam only reaches the surfaces the nozzle touches. Check the batch code on the sticker under the base before you use one: codes 0118-01 to 0425-05 are under a February 2026 recall.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Canadian brand with reliable Amazon.ca stock &mdash; local warranty, correct plug, no grey-market import.</li>
-              <li>Dry vapour = high heat, low moisture: kills bugs and eggs without soaking the mattress.</li>
-              <li>Boiler design gives a long continuous run &mdash; treat a whole bed without constant refill-and-reheat.</li>
+              <li>Dry vapour = high heat, low moisture: up to 135&nbsp;&deg;C (275&nbsp;&deg;F) at the machine, against a 50&nbsp;&deg;C kill point for bed bugs (Health Canada).</li>
+              <li>Up to 50 minutes of steam per 1.6&nbsp;L fill, after an 8-minute heat-up (Dupray) &mdash; treat a whole bed without constant refill-and-reheat.</li>
               <li>Technique is everything: slow passes, tip close to the fabric, work every seam and joint.</li>
               <li>Doubles as a chemical-free deep cleaner for grout, floors, ovens, and upholstery &mdash; that reuse justifies the spend.</li>
-              <li>One tool in a plan &mdash; vacuum first, steam second, then monitor with interceptor traps.</li>
+              <li>One tool in a plan &mdash; steam first, vacuum second (Health Canada&rsquo;s order), then monitor with interceptor traps.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
@@ -208,7 +217,7 @@ export default function DupraySteamerReviewCanadaPage() {
           <div className="not-prose bg-red-50 border-2 border-red-300 rounded-xl p-5 my-6">
             <p className="text-xs font-extrabold uppercase tracking-wider text-red-700 mb-2">Safety recall &mdash; stop using this machine</p>
             <p className="text-gray-800 text-[15px] leading-relaxed">
-              Health Canada and the US CPSC recalled the <strong>Dupray Neat Steam Cleaner</strong> on 26 February 2026 over a <strong>burn hazard</strong>. If the boiler is overfilled or corroded and the pressure-release cap also fails, the boiler can rupture. As of 20 January 2026 Dupray had logged <strong>15 boiler ruptures and four injuries</strong>, including burns, lacerations and a broken wrist, plus seven reports of property damage. Roughly <strong>97,000 units were sold in Canada</strong> and 651,000 in the United States.
+              Health Canada and the US CPSC recalled the <strong>Dupray Neat Steam Cleaner</strong> on 26 February 2026 over a <strong>burn hazard</strong>. If the boiler is overfilled and corroded and the pressure-release cap also fails, the boiler can rupture. As of 20 January 2026 Dupray had logged <strong>15 boiler ruptures and four injuries</strong>, including burns, lacerations and a broken wrist, plus seven reports of property damage. Roughly <strong>97,000 units were sold in Canada</strong> and 651,000 in the United States.
             </p>
             <p className="text-gray-800 text-[15px] leading-relaxed mt-2">
               Affected units are model <strong>DUP020WNA</strong> with batch codes <strong>0118-01 through 0425-05</strong>, printed on the sticker at the base in MMYY-XX format. Codes 0525-XX and later are not affected. Health Canada&rsquo;s guidance is to <strong>stop using it immediately</strong> and contact Dupray for a free replacement boiler cap.
@@ -230,6 +239,21 @@ export default function DupraySteamerReviewCanadaPage() {
           <p>The Dupray Neat is worth it for a specific kind of buyer: someone who wants a genuinely effective, chemical-free tool for a bed-bug scare <em>and</em> a serious deep-cleaning appliance they will keep using afterward. It is not worth it for someone who wants to occasionally de-wrinkle a shirt, and it is not a substitute for a full professional treatment when an infestation has spread through the walls of a home. Within that band, though, it is one of the more credible steam cleaners a Canadian household can buy &mdash; and the fact that Dupray is a Canadian company, with reliable Amazon.ca stock, a correct plug, and reachable warranty support, removes a whole layer of friction that plagues the grey-market steamers cluttering US-focused buyer guides.</p>
           <p>What follows is our independent take: why the steamer category matters for pest work at all, the two specs that actually separate a good steamer from a useless one, the technique that determines whether steaming works, the honest downsides, and how to decide whether the Neat is the right level of machine for you or overkill.</p>
 
+          <QuickIdTable
+            title="Dupray Neat specs against the bed bug guidance"
+            head={['Spec', 'Dupray Neat (maker\'s figures)', 'What the bed bug guidance says']}
+            rows={[
+              ['Steam temperature', 'Up to 135 °C (275 °F) at the machine', 'Bed bugs die at 50 °C (Health Canada); University of Minnesota Extension aims for 71 to 82 °C (160 to 180 °F) at the surface being steamed'],
+              ['Pressure', '50 psi (3.5 bar)', 'University of Minnesota Extension: use a floor or upholstery attachment, not a pinpoint nozzle, which can blow bed bugs away'],
+              ['Boiler and steam time', '1.6 L (54 oz); up to 50 minutes per full boiler; 8-minute heat-up', 'University of Minnesota Extension recommends a commercial steamer holding at least 4 L (1 gallon) for bed bugs, so plan refills'],
+              ['Moisture', 'Dry steam', 'Health Canada: dry or low-vapour steamers are better because they leave less moisture; avoid excess moisture, which could lead to mould'],
+              ['Power, hose, cord, weight', '1500 W; 2 m hose; 5 m cord; 4 kg', '—'],
+              ['Warranty', '2-year limited warranty; lifetime warranty on the boiler (Dupray FAQ)', '—'],
+              ['Recall', 'Model DUP020WNA, batch codes 0118-01 to 0425-05, recalled February 26, 2026', 'Codes 0525-XX and later are not affected; affected owners get a free replacement boiler cap (Health Canada)'],
+            ]}
+            caption={<>Specs from <a href="https://dupray.com/en-ca/products/neat-steam-cleaner" target="_blank" rel="noopener noreferrer" className="underline">Dupray&rsquo;s Neat page</a> (read October 28, 2026). Guidance from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">bed bug page</a> and University of Minnesota Extension; recall from Health Canada&rsquo;s <a href="https://recalls-rappels.canada.ca/en/alert-recall/dupray-neat-steam-cleaner-recalled-due-burn-hazard" target="_blank" rel="noopener noreferrer" className="underline">notice of February 26, 2026</a>.</>}
+          />
+
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability and configuration:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner">Dupray Neat →</BuyLink>
@@ -240,23 +264,25 @@ export default function DupraySteamerReviewCanadaPage() {
           <NextUp path="/blog/dupray-steamer-review-canada" />
           <h2>Why a Steamer Belongs in a Bed-Bug Kit</h2>
           <p>The reason steam matters comes down to a biological fact that trips up most DIY attempts: bed-bug eggs are the hard part. A female cements her eggs to fabric with a coating that ordinary suction cannot break, so even a thorough vacuuming lifts the adults and nymphs while leaving a mattress studded with viable eggs that hatch days later and restart the cycle. Chemical sprays struggle here too, because eggs are relatively resistant and because bugs have widespread resistance to common insecticides. Heat is the honest answer &mdash; sufficiently hot temperatures kill bed bugs at every life stage, eggs included, and they do it by physics rather than chemistry, so there is no resistance to develop and no residue to worry about.</p>
-          <p>That is what a dry-vapour steamer delivers: a stream of very hot, low-moisture steam you can drive into the exact seams, folds, and joints where bugs and eggs hide. It reaches into fabric where a vacuum nozzle only skims, and it does so without soaking the mattress the way a wet garment steamer would. In a non-chemical protocol, the sequence is vacuum first to physically remove the live insects, then steam to kill the eggs and hidden bugs the vacuum could not lift &mdash; a combination covered in depth in our <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer guide</Link> and our <Link href="/blog/best-steam-cleaner-for-pest-control-canada">best steam cleaner for pest control</Link> roundup. The Dupray Neat is one specific, well-regarded machine within that dry-vapour category.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed, as the photographer describes the picture. Seams like this are where the nozzle has to move slowly, because a vacuum leaves cemented eggs behind." />
+          <p>That is what a dry-vapour steamer delivers: a stream of very hot, low-moisture steam you can drive into the exact seams, folds, and joints where bugs and eggs hide. It reaches into fabric where a vacuum nozzle only skims, and it does so without soaking the mattress the way a wet garment steamer would. In Health Canada&rsquo;s order, steam comes first, killing the bugs and eggs it reaches and flushing the rest out of hiding, and the vacuum follows to lift what the steam drove out &mdash; a combination covered in depth in our <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer guide</Link> and our <Link href="/blog/best-steam-cleaner-for-pest-control-canada">best steam cleaner for pest control</Link> roundup. The Dupray Neat is one specific, well-regarded machine within that dry-vapour category.</p>
 
           <h2>The Two Specs That Actually Matter: Heat and Run Time</h2>
           <p>Ignore most of the marketing bullet points and focus on two things, because they are what separate a steamer that works for pests from one that just makes fabric damp.</p>
-          <p><strong>Temperature at the tip.</strong> Dupray builds the Neat around a pressurized stainless-steel boiler that heats water well past boiling and releases it as high-temperature dry vapour. The number on the box is the boiler temperature; what matters to a bed bug is the temperature at the fabric, which is always lower and drops with distance and the wrong nozzle. This is why a hot boiler is necessary but not sufficient &mdash; you need the heat <em>and</em> the technique to deliver it. A machine that runs hot gives you the headroom to do that; a lukewarm handheld does not, no matter how carefully you work.</p>
-          <p><strong>Continuous run time.</strong> This is the spec that most changes the day-to-day experience, and it is where the Neat pulls decisively ahead of cheap handhelds. Flash-heat pod steamers give you a few minutes of steam and then sputter into a refill-and-reheat cycle, which turns treating a single mattress into a stop-start ordeal that tempts you to rush &mdash; and rushing is fatal to results. The Neat&rsquo;s larger boiler delivers steam continuously long enough to work an entire mattress, box spring, and frame in one uninterrupted pass. Confirm the current tank-capacity and run-time figures on the live listing before you buy, since Dupray revises its lineup, but the category advantage is structural: boiler steamers simply run far longer per fill than pod handhelds.</p>
+          <p><strong>Temperature at the tip.</strong> Dupray builds the Neat around a pressurized stainless-steel boiler that heats water well past boiling and releases it as high-temperature dry vapour; Dupray lists up to 135&nbsp;&deg;C (275&nbsp;&deg;F) at 50&nbsp;psi. The number on the box is the machine&rsquo;s temperature; what matters to a bed bug is the temperature at the fabric, which is always lower and drops with distance and the wrong nozzle. This is why a hot boiler is necessary but not sufficient &mdash; you need the heat <em>and</em> the technique to deliver it. A machine that runs hot gives you the headroom to do that; a lukewarm handheld does not, no matter how carefully you work.</p>
+          <p><strong>Continuous run time.</strong> This is the spec that most changes the day-to-day experience, and it is where the Neat pulls decisively ahead of cheap handhelds. Flash-heat pod steamers give you a few minutes of steam and then sputter into a refill-and-reheat cycle, which turns treating a single mattress into a stop-start ordeal that tempts you to rush &mdash; and rushing is fatal to results. The Neat&rsquo;s larger boiler delivers steam continuously long enough to work an entire mattress, box spring, and frame in one uninterrupted pass: Dupray lists up to 50 minutes per full 1.6&nbsp;L boiler. The category advantage is structural: boiler steamers simply run far longer per fill than pod handhelds. For a whole room, though, University of Minnesota Extension recommends a commercial steamer holding at least 4&nbsp;L (1 gallon), so expect to stop and refill the Neat.</p>
 
           <h2>The Technique That Makes or Breaks It</h2>
           <p>Here is the part no spec sheet tells you: the best steamer in Canada will fail if you wave it around. Steam kills by transferring heat into the fabric, and heat transfer needs contact time. Get the technique right and a good steamer is genuinely effective; get it wrong and you have an expensive fabric-dampener.</p>
           <ul>
-            <li><strong>Vacuum first.</strong> Run a crevice tool along every seam and edge to physically remove live insects and loose debris before you steam &mdash; our <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum guide</Link> covers this step.</li>
+            <li><strong>Steam first, then vacuum.</strong> Health Canada puts steam before the vacuum, because steam flushes out of hiding the bed bugs it does not kill. Then run a crevice tool along every seam and edge to remove them and loose debris &mdash; our <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum guide</Link> covers this step.</li>
             <li><strong>Go slowly &mdash; really slowly.</strong> Move the nozzle at roughly a slow crawl, a few centimetres per second, so the heat penetrates the seam rather than skating over it. This is the single most common thing people get wrong.</li>
             <li><strong>Keep the tip close.</strong> Hold the nozzle within a couple of centimetres of the fabric so the steam is still hot when it arrives; heat bleeds off fast with distance.</li>
             <li><strong>Use the right attachment.</strong> A concentrated nozzle for seams and joints; a cloth-covered wide tool for broad mattress surfaces so you do not blast bugs off into the air.</li>
             <li><strong>Hit every harbourage.</strong> Mattress seams and piping top and bottom, box-spring edges and staples, bed-frame joints and bolt holes, headboard cracks, and the baseboards around the bed.</li>
             <li><strong>Do not soak.</strong> Dry vapour should leave surfaces warm and lightly damp, not wet. If fabric is getting soaked you are moving too slowly or the moisture setting is wrong.</li>
           </ul>
+          <Photo id="bed-bug-fecal-spots-bed-frame" alt="Black bed bug fecal spots on a wooden bed frame" caption="Bed bug fecal spots: black stains on a wooden bed frame near where bed bugs hid, photographed and described by the New York State IPM Program at Cornell University. Frame joints and cracks need the same slow pass as the mattress seams." />
           <p>Finish by placing <Link href="/blog/best-pest-control-equipment-canada">the rest of the kit</Link> to work &mdash; interceptor traps under the bed legs let you monitor, week over week, whether the numbers are actually falling. Steam gives you the kill; monitoring tells you whether it worked.</p>
 
           <RelatedLinks path="/blog/dupray-steamer-review-canada" />
@@ -273,6 +299,18 @@ export default function DupraySteamerReviewCanadaPage() {
             <li><strong>You only want to freshen fabric and clothes.</strong> A steamer in this class is overkill; a garment steamer does that job for a fraction of the cost. Do not buy a pest-grade boiler for laundry.</li>
           </ul>
           <p>The way to overspend is to buy far more steamer than your use justifies; the way to underspend is to buy a lukewarm handheld for a real infestation and then wonder why the bugs came back. The Neat is the right answer for the large middle group who want real capability plus lasting household utility. If your situation is big enough that DIY feels like it is losing, our <Link href="/pest-control-cost-canada">Canadian pest-control cost guide</Link> lays out what professional bed-bug work runs so you can weigh the two paths.</p>
+
+          <div className="not-prose my-6 rounded-xl border border-emerald-200 bg-emerald-50 p-5">
+            <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Buyer&rsquo;s checklist for a bed bug steamer</p>
+            <ul className="space-y-1.5 text-sm text-gray-800 list-disc pl-5">
+              <li><strong>Batch code first.</strong> On a Neat, read the sticker under the base: 0118-01 to 0425-05 means stop and claim Dupray&rsquo;s free replacement boiler cap (1-800-881-8482 or recall@dupray.com); 0525-XX and later are not affected.</li>
+              <li><strong>Do not overfill the boiler.</strong> Health Canada says the boiler can rupture when it is overfilled and badly corroded and its cap also fails.</li>
+              <li><strong>Dry steam, not a garment steamer.</strong> Health Canada prefers dry or low-vapour steamers because they leave less moisture behind.</li>
+              <li><strong>Enough water for the job.</strong> The Neat holds 1.6&nbsp;L; University of Minnesota Extension recommends at least 4&nbsp;L for bed bug work, so a whole room means refills.</li>
+              <li><strong>A floor or upholstery attachment, not a pinpoint nozzle:</strong> University of Minnesota Extension says pinpoint nozzles can blow bed bugs away.</li>
+              <li><strong>The rest of the kit:</strong> a vacuum for after the steam, <Link href="/blog/bed-bug-mattress-encasement-canada" className="underline">encasements</Link> and <Link href="/blog/bed-bug-interceptor-traps-canada" className="underline">interceptor traps</Link> to see whether it worked.</li>
+            </ul>
+          </div>
 
           <h2>Buy Canadian: The Warranty and Compliance Angle</h2>
           <p>The two machines Canadians most often cross-shop against the Neat sit on either side of that line, and both have their own write-up: <Link href="/blog/mcculloch-mc1275-steamer-review-canada">the McCulloch MC1275, a capable value boiler with US-market import friction</Link>, and <Link href="/blog/vapamore-mr100-steamer-review-canada">the Vapamore MR-100 Primo and its stainless pressurised boiler</Link>. Before spending on any of them, it is worth settling the prior question &mdash; <Link href="/blog/steamer-vs-heater-for-bed-bugs-canada">whether a steamer or a heat chamber is the right first purchase</Link> comes down to whether your problem is the bed or the belongings.</p>

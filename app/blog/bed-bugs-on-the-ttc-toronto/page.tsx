@@ -12,15 +12,19 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'bed-bugs-on-the-ttc-toronto'
 const DATE = '2026-07-30'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-28'
 // Transit-anxiety intent, answered with mechanism rather than incident counts.
 // We deliberately do NOT publish a per-ride risk figure — no credible one exists,
 // and inventing one is exactly the failure mode this site was cleaned up for.
 const TITLE = 'Bed Bugs on the TTC — What a Toronto Commuter Should Actually Worry About, and the Routine at the Door That Matters'
-const META_TITLE = 'Bed Bugs on the TTC: A Toronto Rider’s Guide'
+// TITLE NOTE (Oct 28, 2026): was 'Bed Bugs on the TTC: A Toronto Rider’s Guide'; top queries, Jul 28-Oct 25 (all countries): ttc bed bugs 216 at 5.8, bed bugs ttc 125 at 5.4, ttc bedbugs 105 at 5.6, bed bugs on ttc 70 at 5.6, bedbugs on ttc 37 at 6.1 (11 clicks on these five).
+const META_TITLE = 'TTC Bed Bugs: Sightings, Real Risk & What to Do'
 
 const FAQS = [
   {
@@ -37,7 +41,7 @@ const FAQS = [
   },
   {
     question: 'Should I spray my clothes or my backpack before commuting?',
-    answer: 'No. There is no consumer product that reliably keeps bed bugs off a person, and treating clothing you are wearing with an insecticide is both ineffective for this purpose and an off-label use of products whose Canadian labels do not authorise it. Permethrin clothing treatments sold in Canada are registered for other biting pests — ticks and mosquitoes — and are not a bed bug measure; using them as one is exactly the label violation to avoid. If you have genuine occupational exposure, the right approach is a wipeable hard-shell bag, a change of clothes that goes straight into a hot dryer, and a monitored bed at home — not a daily chemical routine on your own body.',
+    answer: 'No. There is no consumer product that reliably keeps bed bugs off a person, and treating clothing you are wearing with an insecticide is both ineffective for this purpose and an off-label use of products whose Canadian labels do not authorise it. In Canada, the permethrin clothing registered for consumers is factory-treated clothing (No Fly Zone, PCP 32757), for mosquitoes and ticks, and the Public Health Agency of Canada says permethrin liquids and sprays for consumers to treat their own clothing are not approved for use in Canada. None of it is a bed bug measure. If you have genuine occupational exposure, the right approach is a wipeable hard-shell bag, a change of clothes that goes straight into a hot dryer, and a monitored bed at home — not a daily chemical routine on your own body.',
   },
   {
     question: 'Does a hard-shell backpack really help?',
@@ -67,15 +71,24 @@ const FAQS = [
     question: 'What is the biggest bed bug risk in Toronto, if not the subway?',
     answer: 'Housing — specifically multi-unit housing, where an infestation in one suite can reach others through shared walls, service penetrations, plumbing chases and hallways, and where the outcome depends on a building-wide response rather than on any one tenant’s diligence. That is why the highest-value things a Toronto resident can do have nothing to do with transit: report evidence to a landlord in writing as soon as you find it and keep the record; never bring home a mattress, box spring or upholstered furniture from a curb; encase your mattress and box spring; and keep interceptors under the bed legs permanently so an introduction is found in week one. Those four habits outrank every commuting precaution combined.',
   },
+  {
+    question: 'Have bed bugs been found on the TTC?',
+    answer: 'Yes, occasionally. A Royal Ontario Museum entomologist confirmed that the insect in a July 2025 video from a Line 1 (Yonge-University) seat was a bed bug, and a rider photographed one on a Line 1 seat in March 2019. Not every viral clip holds up: the ROM\'s entomology curator judged an October 2023 Line 1 video more likely a head louse, and the TTC and the curator identified the bugs in a November 2023 video from a 501 Queen streetcar as lady beetles. The TTC says bed bugs are not common on its vehicles, which are cleaned every night.',
+  },
+  {
+    question: 'How do I report bed bugs on the TTC?',
+    answer: 'Report it to TTC customer service or through the SafeTTC app, so the vehicle can be taken out of service and cleaned; that is how the TTC asked riders to report it in July 2025. Note the line, the direction and the time, and keep any photo. Toronto Public Health is not the place: it says bed bugs are generally not a health hazard and are not reportable to public health, and it does not investigate bed bug complaints in public settings. Then check your bag and coat before you get home and put your clothes in a hot dryer.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Bed bugs on the TTC: why transit is a far poorer route than your own bedroom, what to do if you see one on a seat, and the door routine that works.',
+  description: 'Bed bugs on the TTC: the sightings from 2019 to 2025, what the TTC and ROM entomologists said, how to report one, and why your bedroom is the bigger risk.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bug-adult-ruler'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -83,7 +96,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BedBugsOnTheTTCTorontoPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bugs and Toronto transit: why a subway car is poor bed bug habitat, how transfer actually works, what to do if you see one on a seat, the ranked list of real introduction routes into a Toronto home, the entryway routine, occupational exposure, and what not to buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to bed bugs and Toronto transit: why a subway car is poor bed bug habitat, how transfer actually works, what to do if you see one on a seat, the ranked list of real introduction routes into a Toronto home, the entryway routine, occupational exposure, and what not to buy.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bug-adult-ruler') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Bed Bugs on the TTC', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -96,7 +109,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
             <span className="text-white">Bed Bugs on the TTC</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A subway seat is a poor place to be a bed bug and an excellent place to be frightened of one. Here is the mechanism, the honest ranking of how bed bugs actually get into Toronto homes, and the short list of things worth doing &mdash; almost none of which happen on the train.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Yes, bed bugs do turn up on TTC seats now and then: a Royal Ontario Museum entomologist confirmed the insect in a July 2025 Line 1 video was a bed bug. The TTC says they are not common, cleans vehicles nightly, and takes a reported vehicle out of service to be cleaned. If you see one, report it through TTC customer service or the SafeTTC app, and put your clothes in a hot dryer when you get home. For most Toronto households the bigger risk is still the bedroom, not the subway.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -132,6 +145,43 @@ export default function BedBugsOnTheTTCTorontoPage() {
           </div>
 
           <SpecialistDisclosure pest="bed bugs" />
+        </div>
+      </section>
+
+      <section className="bg-white px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">On the Record</p>
+          <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Bed Bugs on the TTC: What Has Actually Been Reported</h2>
+          <p className="text-sm text-gray-700 mb-2 leading-relaxed">
+            Every so often a video of a bug on a TTC seat goes viral. Here is what the reported sightings turned out to be, and what the TTC and the Royal Ontario Museum&rsquo;s entomologists said about them. Two of the four were most likely not bed bugs at all.
+          </p>
+          <QuickIdTable
+            title="TTC bed bug sightings and what they turned out to be"
+            head={['When', 'Where', 'What it was', 'What the TTC said']}
+            rows={[
+              ['March 2019', 'Line 1 subway seat (photo)', 'A bed bug, as reported', 'A train gets a deep clean when a complaint is filed (TTC Customer Service)'],
+              ['October 2023', 'Line 1 subway, cloth seat (TikTok video)', 'Probably a head louse, not a bed bug, said Douglas Currie, the ROM’s entomology curator', '“Vehicles are cleaned every night, but from time to time we do learn of bedbugs getting onto the system”'],
+              ['November 2023', '501 Queen streetcar, fabric seats (TikTok video)', 'Lady beetles (ladybugs), said the TTC after checking with two entomologists, and the ROM’s Currie', 'A vehicle is fumigated when a bed bug report comes in (TTC Customer Service)'],
+              ['July 21, 2025', 'Line 1 Yonge-University (Reddit video)', 'A bed bug, said Antonia Guidotti of the ROM’s entomology department', '“While not common on the TTC, this is something public transit agencies around the world must deal with” (spokesperson Stuart Green)'],
+            ]}
+            caption={<>Sources: The Weather Network, March 1, 2019 (citing blogTO); NOW Toronto, <a href="https://nowtoronto.com/news/video-of-possible-bed-bug-on-ttc-subway-has-torontonians-calling-for-plastic-seats/" target="_blank" rel="noopener noreferrer" className="underline">October 17, 2023</a> and <a href="https://nowtoronto.com/news/stay-calm-video-of-alleged-bed-bugs-on-the-ttc-is-not-true-expert-says/" target="_blank" rel="noopener noreferrer" className="underline">November 14, 2023</a>; <a href="https://www.blogto.com/city/2023/11/video-bed-bugs-ttc-seat-viral/" target="_blank" rel="noopener noreferrer" className="underline">blogTO</a>, November 14, 2023; CityNews, July 22, 2025. No one publishes a count of bed bug reports on TTC vehicles.</>}
+          />
+          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">How to report a bed bug on the TTC</h3>
+          <p className="text-sm text-gray-700 mb-3 leading-relaxed">
+            The TTC asks riders to report it to TTC customer service or through the SafeTTC app, so the vehicle can be taken out of service and cleaned (Stuart Green, July 2025). Note the line, the direction and the time, and keep your photo. Toronto Public Health is not the place to report it: it told CityNews that bed bugs are generally not a health hazard, are not reportable to public health, and that it does not investigate bed bug complaints in public settings. The ROM&rsquo;s Douglas Currie put the risk plainly in 2023: &ldquo;I don&rsquo;t think riders should expect to see bed bugs on the TTC.&rdquo;
+          </p>
+          <Photo
+            id="bed-bug-adult-ruler"
+            alt="An adult bed bug beside a millimetre ruler: a flat, oval insect about 5 mm long"
+            caption="An adult bed bug, Cimex lectularius, beside a millimetre ruler (CDC). Adults average about 5 mm long, flat and oval, roughly the size of an apple seed: the size to compare against anything you see on a seat."
+          />
+          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">After a scare: buy this, skip that</h3>
+          <ul className="list-disc pl-5 space-y-1.5 text-sm text-gray-700">
+            <li><strong>Nothing on the way home.</strong> A hot dryer does the work: Health Canada says to put small non-washable and dry-clean-only items &ldquo;in a hot dryer for 30 minutes or more.&rdquo;</li>
+            <li><strong>Want an answer, not reassurance?</strong> Interceptor cups under each bed leg, read nightly for two weeks.</li>
+            <li><strong>Renting in a multi-unit building?</strong> Add zippered mattress and box spring encasements, and report any evidence to the landlord in writing.</li>
+            <li><strong>Skip:</strong> personal &ldquo;bed bug repellent&rdquo; sprays, ultrasonic plug-ins, foggers, and permethrin sprays for clothing, which the Public Health Agency of Canada says are not approved for consumers here (the consumer option registered here is factory-treated clothing, for mosquitoes and ticks).</li>
+          </ul>
         </div>
       </section>
 
@@ -274,6 +324,12 @@ export default function BedBugsOnTheTTCTorontoPage() {
                   <td className="px-4 py-3 text-gray-700">Hard shell and a domed back; the most common bed bug misidentification</td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Lady beetle (ladybug)</td>
+                  <td className="px-4 py-3 text-gray-700">Rounded dome, often orange or red with black spots</td>
+                  <td className="px-4 py-3 text-gray-700">Moves quickly on raised legs; can fly</td>
+                  <td className="px-4 py-3 text-gray-700">What the TTC and the ROM&rsquo;s curator said was in the November 2023 streetcar video; lady beetles shelter in buildings in the fall</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Cockroach nymph</td>
                   <td className="px-4 py-3 text-gray-700">Longer than wide, glossy, with long trailing antennae</td>
                   <td className="px-4 py-3 text-gray-700">Fast, darting, runs for a crack immediately</td>
@@ -291,6 +347,18 @@ export default function BedBugsOnTheTTCTorontoPage() {
           <p className="text-xs text-gray-500 mt-3">
             If you get a photograph, keep it. Pest professionals and public-health units can identify from a clear image or a taped specimen far more reliably than from a description, and it costs nothing to ask before you spend anything.
           </p>
+          <div className="grid gap-4 sm:grid-cols-2 mt-4">
+            <Photo
+              id="asian-lady-beetle"
+              alt="An Asian lady beetle, a small domed beetle"
+              caption="An Asian lady beetle, Harmonia axyridis (New Jersey). Lady beetles move fast on raised legs and shelter in buildings in the fall, which is how the bugs in a November 2023 streetcar video were identified as lady beetles, not bed bugs."
+            />
+            <Photo
+              id="carpet-beetle"
+              alt="A varied carpet beetle adult, a small rounded mottled beetle, beside a 1 mm scale bar"
+              caption="A varied carpet beetle adult, Anthrenus verbasci, beside a 1 mm scale bar. A hard, rounded, mottled shell is the tell: this is a common bed bug look-alike."
+            />
+          </div>
         </div>
       </section>
 
@@ -311,7 +379,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
                   ['The one purchase that answers the question', 'Interceptor traps under the bed legs, two weeks minimum'],
                   ['Best permanent insurance', 'Bed-bug-rated mattress and box spring encasements'],
                   ['Do not do', 'Spray yourself, your coat, or your worn clothing — ineffective and off-label'],
-                  ['Permethrin clothing sprays', 'Registered in Canada for ticks and mosquitoes — not a bed bug measure'],
+                  ['Permethrin clothing sprays', 'Not approved in Canada for consumers to treat their own clothing (Public Health Agency of Canada); the registered consumer option is factory-treated clothing, for mosquitoes and ticks — not a bed bug measure'],
                   ['Highest actual risk in Toronto', 'Multi-unit housing, second-hand upholstered furniture, and sleeping away from home'],
                   ['Renting', 'Report evidence to the landlord in writing before spending your own money; keep the record'],
                   ['Health risk', 'Not known to transmit disease; the real costs are sleep, money and stress'],
@@ -379,7 +447,7 @@ export default function BedBugsOnTheTTCTorontoPage() {
           <p>This is the section that keeps the most money in your pocket:</p>
           <ul>
             <li><strong>Personal &ldquo;bed bug repellent&rdquo; sprays.</strong> There is no consumer product that reliably keeps bed bugs off a person, and applying an insecticide to clothing you are wearing is both useless for this and outside what the label authorises.</li>
-            <li><strong>Permethrin clothing treatment, used for bed bugs.</strong> The permethrin gear-and-clothing sprays sold in Canada are registered for ticks and mosquitoes &mdash; genuinely useful products for those pests, which is why we cover them in our <Link href="/blog/permethrin-canada-yard-clothing-spray">Canadian permethrin guide</Link> &mdash; but repurposing them as a bed bug measure is an off-label use with no established benefit.</li>
+            <li><strong>Permethrin clothing treatment, used for bed bugs.</strong> The Public Health Agency of Canada says permethrin liquids and sprays for consumers to treat their own clothing are not approved for use in Canada; what is registered for consumers is factory-treated clothing, for mosquitoes and ticks, which our <Link href="/blog/permethrin-canada-yard-clothing-spray">Canadian permethrin guide</Link> covers. None of it is a bed bug measure, and there is no established benefit in using it as one.</li>
             <li><strong>Ultrasonic plug-in repellers.</strong> No credible evidence for any household pest; the full argument is in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic repeller review</Link>.</li>
             <li><strong>&ldquo;Bed bug proof&rdquo; clothing and bag liners.</strong> Marketing built on an insect that does not cling to people in the first place.</li>
             <li><strong>Foggers and bug bombs, prophylactically.</strong> Treating a home for an infestation you have not confirmed is money spent on residue. Confirm first &mdash; and our <Link href="/blog/do-bed-bug-sprays-actually-work">honest look at what sprays do</Link> explains why aerosols under-perform even when the problem is real.</li>

@@ -612,7 +612,8 @@ const PHOTOS = [
   // fifteenth batch (Oct 28): Google Images wave 2, six mouse and pet pages. mice-traps: a wooden snap trap (the public-domain
   // lead), a plastic snap trap with its catch beside a ruler, a rat trap beside a mouse trap, an electronic trap against a wall, a
   // cage trap with two mice and two snap traps set against a wall. baby-mice: day-old pups (the public-domain lead), pups at 10
-  // and 17 days beside a coin and a litter in a nest of rags. how-long-do-mice-live: a wild house mouse (the CC0 lead), newborns
+  // and 17 days beside a coin, a litter in a nest of rags and two mice from a litter raised in a garden shed (the last row).
+  // how-long-do-mice-live: a wild house mouse (the CC0 lead), newborns
   // on a coin, a spotted owl carrying a mouse, a two-year-old pet mouse and droppings at a wall. fall-mouse-proofing-checklist: a
   // house mouse that got indoors in late November (CC0), a white-footed mouse in a basement, copper wool around wires and a trap
   // at a mouse hole. mice-poison: two bait stations against walls (the public-domain lead), bait being loaded, a cat and a
@@ -645,6 +646,43 @@ const PHOTOS = [
   ['black-cat-with-mouse', 'Black cat holding a mouse in its mouth (the photographer’s own cat)', { commons: 'Cat with mouse.jpg' }],
   ['garden-snail-chewed-leaf', 'Garden snail, Cornu aspersum, on a chewed Solomon’s seal (Polygonatum) leaf; the observer found it was what had been eating the plant (Marrowstone, Washington)', { inat: { obs: 230311609, photo: 408924403 } }],
   ['house-mice-garden-shed-litter', 'Two house mice, Mus musculus, out by an orange container from a litter the observer says was raised in his garden shed (Bebington, Wirral, England)', { inat: { obs: 65335202, photo: 105138383 } }],
+  // seventeenth batch (Oct 28): Google Images wave 2, eight bed bug and tick pages. does-lysol-kill-bed-bugs: a bed bug on skin
+  // (the CC0 lead), a Lysol cleaner bottle, bed bugs and eggs under a bag strap, a mating pair with eggs. black-bed-bugs: a bed bug
+  // that looks almost black on pale fabric (the CC0 lead), a nymph with a 1 mm bar, a nymph after a blood meal, fecal stains on a
+  // bed corner. seed-ticks: lone star tick larvae massed on a sock, on red tape and on a fingertip, a nymph on a fingernail.
+  // diatomaceous-earth-for-bed-bugs: food-grade DE powder (the CC0 lead), DE under a light microscope, a bed bug on a hand.
+  // doktor-doom-canada-guide: a male and a female bed bug (the public-domain lead). The CDC 2023-2025 tick series (Lauren Bishop):
+  // ticks on clothing, a sneaker, grass and a stick, tweezer removal, a sock-line tick check, a tick dropped into a bottle; plus an
+  // SEM of tick mouthparts and a bull's-eye rash. Who identified each photo, what was refused and why: data/god-build/photo-notes-batch17.json
+  ['bed-bug-dark-on-pale-fabric', 'Bed bug, Cimex lectularius, on pale fabric, its body looking almost black in the photo (McAllen, Texas; research grade on iNaturalist)', { inat: { obs: 204269007, photo: 361034213 } }],
+  ['bed-bug-on-skin-macro', 'Bed bug, Cimex lectularius, on human skin, close-up from above (Minsk, Belarus; research grade on iNaturalist)', { inat: { obs: 298104023, photo: 536934245 } }],
+  ['bed-bug-nymph-scale-bar-cdc', 'Bed bug, Cimex lectularius, nymph from above beside a 1 mm scale bar (CDC photograph; CDC notes that nymphs look like smaller, paler versions of the adults)', { phil: 12703 }],
+  ['bed-bug-nymph-after-blood-meal', 'Bed bug nymph after a blood meal, its abdomen bright red, on skin (New York State IPM Program at Cornell University photograph and title)', { commons: 'Bed bug nymph after a blood meal (9789549934).jpg' }],
+  ['bed-bug-feces-bed-corner', 'Bed bug fecal stains on a corner of a bed (the photographer’s description)', { commons: 'BedBugFeces.jpg' }],
+  ['bed-bugs-male-female-cdc', 'Bed bugs, Cimex lectularius: a male (left) and a female (right) from above, labeled on the photo (CDC photograph)', { phil: 15247 }],
+  ['bed-bugs-eggs-under-bag-strap', 'Bed bugs and their eggs in a hidden spot under the straps of an unused bag (the photographer’s description)', { commons: 'Bed Bug Infestation.jpg' }],
+  ['bed-bugs-mating-eggs-fabric-fold', 'Two bed bugs mating in a fold of dark fabric, with bed bug eggs just above them (the photographer’s description)', { commons: 'Bed bugs having sex and their eggs.jpg' }],
+  ['lysol-all-purpose-cleaner-bottle', 'Lysol All Purpose Cleaner, Lemon Breeze scent, in a 32 fl oz trigger spray bottle (product photograph)', { commons: 'Lysol - All Purpose Cleaner (51012787263).jpg' }],
+  ['diatomaceous-earth-powder', 'A sample of food-grade diatomaceous earth: a pile of fine white powder on a dark surface (the photographer’s description)', { commons: 'Diatomaceous Earth.jpg' }],
+  ['diatomaceous-earth-microscope', 'Diatomaceous earth under a light microscope (bright field): the broken silica shells of single-celled diatoms, round and elongated', { commons: 'Diatomaceous Earth BrightField.jpg' }],
+  ['bed-bug-on-hand-bpca', 'Bed bug on a person’s hand, for scale (British Pest Control Association photograph)', { commons: 'Pests - Bed Bugs - scale on hand.jpg' }],
+  ['lone-star-tick-removal-tweezers-elbow', 'Adult female lone star tick, Amblyomma americanum, on a person’s elbow being removed with fine-tipped tweezers (CDC photograph)', { phil: 28393 }],
+  ['tick-removal-tweezers-forearm', 'A tick being removed from a person’s arm with fine-tipped tweezers, pulled away from the skin with steady, even pressure (CDC photograph)', { phil: 31571 }],
+  ['american-dog-tick-mouthparts-sem', 'Mouthparts of an American dog tick, Dermacentor variabilis, under a scanning electron microscope at 779x (CDC photograph)', { phil: 2279 }],
+  ['erythema-migrans-bullseye-arm', 'Erythema migrans, the bull’s-eye rash of Lyme disease, at the site of a tick bite on a woman’s upper arm (Maryland; CDC photograph, another view of the case in erythema-migrans-rash)', { phil: 9874 }],
+  ['blacklegged-tick-on-camouflage-clothing', 'Adult female blacklegged tick, Ixodes scapularis, crawling on camouflage clothing, circled in red on the photo (CDC photograph)', { phil: 28379 }],
+  ['blacklegged-tick-on-clothing-seam', 'Adult male blacklegged tick, Ixodes scapularis, crawling on the seam of camouflage clothing, circled in red on the photo (CDC photograph)', { phil: 28378 }],
+  ['lone-star-tick-on-white-sneaker', 'Adult female lone star tick, Amblyomma americanum, crawling on a white sneaker (CDC photograph)', { phil: 28364 }],
+  ['blacklegged-tick-questing-grass', 'Blacklegged (deer) tick, Ixodes scapularis, questing on a blade of grass, side view (CDC photograph)', { phil: 14473 }],
+  ['blacklegged-tick-questing-stick', 'Adult female blacklegged tick, Ixodes scapularis, questing on a stick (CDC photograph)', { phil: 28371 }],
+  ['american-dog-tick-on-grass', 'Adult female American dog tick, Dermacentor variabilis, crawling on a blade of grass (CDC photograph)', { phil: 28370 }],
+  ['lone-star-tick-on-grass', 'Adult female lone star tick, Amblyomma americanum, crawling on a blade of grass (CDC photograph)', { phil: 28369 }],
+  ['tick-check-sock-boot', 'Tick check: a sock folded down above a hiking boot shows a female blacklegged tick, Ixodes scapularis, attached to the leg (CDC photograph)', { phil: 31556 }],
+  ['tick-dropped-into-bottle', 'Tweezers dropping a female blacklegged tick, Ixodes scapularis, into a small bottle before the lid goes on, one way to dispose of a tick (CDC photograph)', { phil: 31565 }],
+  ['lone-star-tick-nymph-fingernail', 'Lone star tick, Amblyomma americanum, nymph crawling on a person’s fingernail (CDC photograph)', { phil: 28365 }],
+  ['seed-ticks-massed-on-sock', 'Hundreds of lone star tick larvae (seed ticks), Amblyomma americanum, massed on white knit fabric (a sock, by our reading), from an observation its maker titled a larval tick bomb (Kilmarnock, Virginia; research grade)', { inat: { obs: 313403754, photo: 565958595 } }],
+  ['seed-ticks-on-red-tape', 'Strip of red tape dotted with dozens of tiny lone star ticks, Amblyomma americanum, on white knit fabric, from the same larval tick swarm (Kilmarnock, Virginia; research grade)', { inat: { obs: 313403754, photo: 565958701 } }],
+  ['seed-tick-larvae-fingertip', 'Two tiny ticks on a fingertip from a swarm on the observer’s pants; an identifier on iNaturalist named them freshly hatched, six-legged lone star tick larvae (Luray, Virginia)', { inat: { obs: 308626827, photo: 556821548 } }],
 ]
 
 const UA = { 'User-Agent': 'BuzzSkitoSiteBuilder/1.0 (photo credits recorded; support@buzzskito.ca)' }

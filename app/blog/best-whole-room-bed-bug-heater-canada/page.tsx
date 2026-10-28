@@ -14,21 +14,25 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-whole-room-bed-bug-heater-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Whole-Room Bed Bug Heater Canada 2026 — DIY Heat Treatment Equipment Compared'
-const META_TITLE = 'Best Whole-Room Bed Bug Heater Canada 2026'
+// TITLE NOTE (Oct 28, 2026): was 'Best Whole-Room Bed Bug Heater Canada 2026'; top queries, Jul 28-Oct 25 (all countries): bed bug heaters 18 at 49.1, bed bug heaters for sale 16 at 39.2, bed bug heater canada 11 at 29.5 (the sibling /blog/bed-bug-heater-canada owns that head term), bed bug heat treatment equipment 4 at 23.2, best bed bug heater 1 at 6.0 (2 clicks).
+const META_TITLE = 'Whole-Room Bed Bug Heaters Canada: DIY Equipment'
 
 const FAQS = [
   {
     question: 'What is the best whole-room bed bug heat treatment equipment in Canada?',
-    answer: 'For a Canadian homeowner treating a full bedroom without hiring a pro, the best whole-room bed bug heater is a purpose-built portable heat system — a large collapsible heat enclosure like the ZappBug Room for the furniture and belongings, or a dedicated forced-air bed-bug heater such as a Nuventa portable unit paired with a good thermometer to raise ambient room air to a lethal, sustained temperature. Neither is a plug-in-and-walk-away gadget. Whole-room heat only works when every part of the space — mattress core, wall voids near baseboards, the backs of drawers — holds above roughly 48–50°C (118–122°F) long enough to kill eggs, and that demands real airflow, monitoring, and patience. If any cold pocket survives, the bugs move into it and you have simply herded them, not killed them.',
+    answer: 'For a Canadian homeowner treating a full bedroom without hiring a pro, the best whole-room bed bug heater is a purpose-built portable heat system — a large collapsible heat enclosure like the ZappBug Room for the furniture and belongings, or a dedicated forced-air portable bed-bug heater paired with a good thermometer to raise ambient room air to a lethal, sustained temperature. Neither is a plug-in-and-walk-away gadget. Whole-room heat only works when every part of the space — mattress core, wall voids near baseboards, the backs of drawers — holds above roughly 48–50°C (118–122°F) long enough to kill eggs, and that demands real airflow, monitoring, and patience. If any cold pocket survives, the bugs move into it and you have simply herded them, not killed them.',
   },
   {
     question: 'What temperature kills bed bugs and their eggs?',
-    answer: 'Bed bugs die quickly at about 45°C (113°F), but their eggs are tougher and are the reason amateur heat jobs fail. The industry target is to hold every surface and hidden void at roughly 48–50°C (118–122°F) or higher for a sustained period — often 60 to 90 minutes of true dwell time at temperature, not just the moment the air hits that number. The critical, counter-intuitive point is that air temperature is not object temperature: a mattress core, a stack of books, or the wood inside a bed frame lags far behind the room air and needs a long soak to catch up. This is why a cheap space heater that reads 50°C on its own dial routinely leaves live eggs deep inside furniture.',
+    answer: 'Heat kills every stage, but more slowly than most people assume. In Kells and Goblirsch’s 2011 study, adult bed bugs needed about 95 minutes at 45°C (113°F) and eggs survived 7 hours there, which is why amateur heat jobs fail. The study’s minimum for a whole room is 48°C (118°F) held for 71.5 minutes, or heating until 50°C (122°F) is reached everywhere bed bugs may hide. The industry target is to hold every surface and hidden void at roughly 48–50°C (118–122°F) or higher for a sustained period — often 60 to 90 minutes of true dwell time at temperature, not just the moment the air hits that number. The critical, counter-intuitive point is that air temperature is not object temperature: a mattress core, a stack of books, or the wood inside a bed frame lags far behind the room air and needs a long soak to catch up. This is why a cheap space heater that reads 50°C on its own dial routinely leaves live eggs deep inside furniture.',
   },
   {
     question: 'Do whole-room DIY bed bug heaters actually work?',
@@ -43,8 +47,8 @@ const FAQS = [
     answer: 'As a rough guide, a single consumer-grade portable bed-bug heater in the common wattage range is realistic for a small-to-medium bedroom — think a well-sealed room up to roughly 150–200 square feet with an eight-foot ceiling. Beyond that, or in a room with poor insulation, an exterior corner, or a concrete floor pulling heat away, one unit struggles to raise and hold the whole volume at a lethal temperature. Larger or leaky rooms need either two heaters, a much higher-output unit, or the enclosure approach where you treat the furniture inside a heat box rather than fighting the room. Always size to the coldest, hardest-to-heat corner, not to the average — the job is only done when the worst spot is above temperature.',
   },
   {
-    question: 'What is the difference between the ZappBug Room and a portable heater like the Nuventa?',
-    answer: 'They solve the job two different ways. The ZappBug Room is a large collapsible heat enclosure — effectively a room-sized heat box you build in the middle of the space and load with furniture, a mattress, and belongings; its own reflective walls trap and even out the heat so items inside reach temperature reliably. A portable forced-air heater such as a Nuventa unit instead heats the ambient air of the actual room and, with enough airflow, drives that heat into the structure and furnishings in place. The enclosure is more forgiving because the container does the work; the ambient-heater route treats things you cannot move but is far more sensitive to room insulation, air leaks, and cold spots. Many serious DIYers own both: the enclosure for movable items, the heater for the fixed structure.',
+    question: 'What is the difference between the ZappBug Room and a portable bed bug heater?',
+    answer: 'They solve the job two different ways. The ZappBug Room is a large collapsible heat enclosure — effectively a room-sized heat box you build in the middle of the space and load with furniture, a mattress, and belongings; its own reflective walls trap and even out the heat so items inside reach temperature reliably. A portable forced-air bed bug heater instead heats the ambient air of the actual room and, with enough airflow, drives that heat into the structure and furnishings in place. The enclosure is more forgiving because the container does the work; the ambient-heater route treats things you cannot move but is far more sensitive to room insulation, air leaks, and cold spots. Many serious DIYers own both: the enclosure for movable items, the heater for the fixed structure.',
   },
   {
     question: 'Are US 240-volt bed bug heaters a good buy in Canada?',
@@ -70,15 +74,24 @@ const FAQS = [
     question: 'Is whole-room DIY heat cheaper than hiring a professional?',
     answer: 'On equipment cost alone, yes — buying a portable heater or an enclosure is a fraction of a professional whole-home thermal remediation, which is one of the priciest treatments in pest control. But the honest comparison includes the risk of failure: a botched DIY heat job that leaves surviving eggs means weeks of re-infestation, repeated attempts, and often paying a professional anyway. DIY heat makes the most sense for a single, contained room where you can move belongings, seal the space reasonably well, monitor carefully, and accept that you may need a second pass. For a whole apartment, a badly infested multi-room home, or a situation where you cannot risk a miss, the professional cost buys the equipment power and monitoring rigour that a single consumer unit cannot match.',
   },
+  {
+    question: 'What equipment do you need for a bed bug heat treatment?',
+    answer: 'For one room: a heat source matched to the job (a room-size enclosure such as the ZappBug Room for furniture and belongings, or a forced-air bed bug heater for the structure), fans to push hot air into cracks and corners, and remote thermometer probes in the coldest, densest spots such as the mattress core and the baseboards. The target from Kells and Goblirsch’s 2011 study is 48°C held for at least 71.5 minutes, or 50°C reached everywhere bed bugs may hide. Add interceptor traps and a labelled residual dust for the weeks after.',
+  },
+  {
+    question: 'How many circuits does a whole-room bed bug heater need?',
+    answer: 'Count them before you buy. ZappBug lists its room-size enclosure, the ZappBug Room, as needing 4 circuits, and every high-draw heater should run on its own circuit rather than sharing a breaker with another heater. Check your breaker panel for that many separate circuits within reach of the room. Use only heaters with a Canadian certification mark (cCSAus or cULus) that plug into standard 120 V outlets, and never leave them running unattended.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best whole-room DIY bed bug heat treatment equipment in Canada: portable heaters (Nuventa), room-scale heat enclosures (ZappBug Room), how to size to the room, the lethal temperature and dwell time, safety, and why grey-market US 240V units are not the pick. Updated 2026.',
+  description: 'Whole-room bed bug heaters for Canadian homes: room-size enclosure or forced-air heater, the 48°C-for-71.5-minute target, circuits, probes and safety.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bugs-eggs-mattress-seam'),
 })
 
 const AMZ_TAG = tagForSlug('best-whole-room-bed-bug-heater-canada')
@@ -86,7 +99,7 @@ const AMZ_TAG = tagForSlug('best-whole-room-bed-bug-heater-canada')
 export default function BestWholeRoomBedBugHeaterCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to whole-room DIY bed bug heat treatment equipment — portable heaters, room-scale heat enclosures, lethal temperature and dwell time, room sizing, safety, and the grey-market 240V trap.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buyer’s guide to whole-room DIY bed bug heat treatment equipment — portable heaters, room-scale heat enclosures, lethal temperature and dwell time, room sizing, safety, and the grey-market 240V trap.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bugs-eggs-mattress-seam') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Whole-Room Bed Bug Heater Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -99,7 +112,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
             <span className="text-white">Best Whole-Room Bed Bug Heater Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Whole-room DIY heat is the heaviest knockdown blow a homeowner can land on bed bugs &mdash; here is the equipment that actually reaches a lethal, sustained temperature across a real bedroom, how to size it to your room and cold spots, and why a grey-market US 240V unit is the wrong buy in Canada.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">For a whole room, the most reliable DIY heat equipment is a room-size enclosure such as the ZappBug Room for furniture and belongings, plus remote thermometers; use a forced-air heater only for bugs in the walls and baseboards. The measured target is 48&deg;C held for at least 71.5 minutes, or 50&deg;C reached in every hiding place.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,9 +125,9 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best whole-room bed bug heat treatment equipment in Canada is a <strong>purpose-built portable heat system</strong>: a room-scale collapsible enclosure like the <strong>ZappBug Room</strong> for furniture and belongings, or a dedicated forced-air <strong>portable bed-bug heater</strong> (such as a Nuventa unit) paired with remote thermometers to drive the actual room to temperature. The rule that decides success: every hidden spot &mdash; mattress core, wall-baseboard junction, back of a drawer &mdash; must hold above roughly <strong>48&ndash;50&deg;C (118&ndash;122&deg;F)</strong> for a sustained dwell, or the eggs in the cold pocket survive.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best whole-room bed bug heat treatment equipment in Canada is a <strong>purpose-built portable heat system</strong>: a room-scale collapsible enclosure like the <strong>ZappBug Room</strong> for furniture and belongings, or a dedicated forced-air <strong>portable bed-bug heater</strong> paired with remote thermometers to drive the actual room to temperature. The rule that decides success: every hidden spot &mdash; mattress core, wall-baseboard junction, back of a drawer &mdash; must hold above roughly <strong>48&ndash;50&deg;C (118&ndash;122&deg;F)</strong> for a sustained dwell, or the eggs in the cold pocket survive.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Bed bugs die near 45&deg;C, but their <strong>eggs</strong> need ~48&ndash;50&deg;C held for 60&ndash;90 minutes of true dwell &mdash; air temperature is not object temperature.</li>
+              <li>At 45&deg;C adult bed bugs needed about 95 minutes and <strong>eggs</strong> survived 7 hours (Kells &amp; Goblirsch, 2011); the study&rsquo;s whole-room minimum is 48&deg;C held for 71.5 minutes, or 50&deg;C reached everywhere they hide &mdash; and air temperature is not object temperature.</li>
               <li>An <strong>enclosure</strong> (ZappBug Room) is more forgiving &mdash; its walls contain the heat; an <strong>ambient heater</strong> treats what you cannot move but fights the room&rsquo;s insulation and leaks.</li>
               <li>Size to the <strong>coldest corner</strong>, not the average &mdash; one consumer unit suits a well-sealed small-to-medium room, not a whole apartment.</li>
               <li>Grey-market <strong>US 240V</strong> heaters are the wrong buy: 120V incompatibility, breaker limits, no Canadian electrical certification, no local warranty.</li>
@@ -206,7 +219,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room large heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Portable room heater<br /><span className="font-normal text-xs text-gray-500">Nuventa-style forced air</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Portable room heater<br /><span className="font-normal text-xs text-gray-500">forced-air heater</span></td>
                   <td className="px-4 py-3 text-gray-700">Ambient room air, fixed structure, immovable furniture</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; if the room is sealed and small</td>
                   <td className="px-4 py-3 text-gray-700">Cold spots; insulation and leaks; sizing limits</td>
@@ -245,8 +258,20 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Whole-Room Bed Bug Heat Equipment in Canada?</h2>
-          <p>The best whole-room bed bug heat equipment for a Canadian home is a <strong>purpose-built portable heat system</strong> matched to the room you are treating &mdash; either a room-scale collapsible enclosure like the ZappBug Room that you load with furniture and belongings, or a dedicated forced-air portable heater such as a Nuventa unit that raises the ambient air of the room itself. Which one is &ldquo;best&rdquo; is not a fixed answer; it depends entirely on where the bugs are living. If they are in things you can move or fold, the enclosure wins because its walls do the containment for you. If they are dug into baseboards, wall voids, or a heavy bed you cannot take apart, you need a heater that treats the fixed structure in place.</p>
+          <p>The best whole-room bed bug heat equipment for a Canadian home is a <strong>purpose-built portable heat system</strong> matched to the room you are treating &mdash; either a room-scale collapsible enclosure like the ZappBug Room that you load with furniture and belongings, or a dedicated forced-air portable heater that raises the ambient air of the room itself. Which one is &ldquo;best&rdquo; is not a fixed answer; it depends entirely on where the bugs are living. If they are in things you can move or fold, the enclosure wins because its walls do the containment for you. If they are dug into baseboards, wall voids, or a heavy bed you cannot take apart, you need a heater that treats the fixed structure in place.</p>
           <p>What both approaches share is the one thing that actually decides whether the treatment works: <strong>every hidden spot in the room has to reach and hold a lethal temperature</strong>. Bed bugs are killed by heat, but their eggs are stubborn, and eggs buried in a mattress core or tucked into a cold corner are exactly where amateur heat jobs leave survivors. The rest of this guide is about how to buy and run equipment that actually gets the cold spots hot &mdash; because that, not the wattage on the box, is where the money is won or lost.</p>
+
+          <QuickIdTable
+            title="Bed bug heat equipment compared: how each works, who it suits, its limits"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Room-size enclosure (ZappBug Room)', 'A fold-out heated enclosure you load with furniture and belongings; ZappBug lists it at 111 x 57.5 x 80 inches and 3 to 8 hours per treatment', 'Mattresses, couches, tables, chairs, clothes, books and files you can move', 'ZappBug lists 4 circuits needed, and it treats only what fits inside, not baseboards or walls'],
+              ['Forced-air portable room heater', 'Heats the room air while fans push the heat into the structure and fixed furniture', 'Bugs in baseboards, the wall-floor junction or a bed you cannot take apart', 'Cold spots at outside walls and slab floors; one consumer unit suits a small, well-sealed room'],
+              ['Portable heat chamber', 'A smaller heated box for bagged belongings', 'Clothes, luggage, bedding and books', 'Cannot treat furniture or the room itself'],
+              ['Remote thermometers and high-CFM fans', 'Probes report the coldest spot; fans move hot air into cracks', 'Every heat job, whatever the heater', 'Not a treatment on their own'],
+            ]}
+            caption={<>ZappBug Room size, treatment time and circuits from ZappBug&rsquo;s <a href="https://zappbug.com/products/zappbug-room" target="_blank" rel="noopener noreferrer" className="underline">product page</a>, checked October 28, 2026; the target temperatures on this page are from Kells and Goblirsch, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4553552/" target="_blank" rel="noopener noreferrer" className="underline">Insects 2(3):412&ndash;422 (2011)</a>. The other cells restate this page&rsquo;s own sections.</>}
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main heat-equipment types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -258,13 +283,15 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
 
           <NextUp path="/blog/best-whole-room-bed-bug-heater-canada" />
           <h2>The Physics You Cannot Cheat: Temperature and Dwell Time</h2>
-          <p>Everything about whole-room heat comes down to two numbers and one distinction. Bed bugs themselves die fairly quickly at around <strong>45&deg;C (113&deg;F)</strong>. Their eggs are the problem: to reliably kill eggs you want every surface and hidden void to hold at roughly <strong>48&ndash;50&deg;C (118&ndash;122&deg;F) or higher for a sustained dwell</strong> &mdash; commonly 60 to 90 minutes at temperature, not merely the instant the air touches that number.</p>
+          <p>Everything about whole-room heat comes down to two numbers and one distinction. Bed bugs are slower to die than most people assume: in Kells and Goblirsch&rsquo;s 2011 study under commercial heat-treatment conditions, adults needed about 95 minutes at <strong>45&deg;C (113&deg;F)</strong>, and eggs survived 7 hours at that temperature. Their eggs are the problem: the study&rsquo;s minimum for a whole room is every surface and hidden void held at <strong>48&deg;C (118&deg;F) for 71.5 minutes</strong>, or heating until <strong>50&deg;C (122&deg;F)</strong> is reached everywhere bed bugs may hide &mdash; not merely the instant the air touches that number.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). Eggs are the hardest stage to kill with heat, and eggs tucked into seams and dense furniture are where the heat arrives last." />
           <p>The distinction that trips up almost every DIYer is that <strong>air temperature is not object temperature</strong>. Your heater can push the room air to 50&deg;C in an hour, but the core of a thick mattress, the wood inside a bed frame, and the centre of a stack of books lag far behind and take a long soak to catch up. Call the job done when the air reads hot and you have cooked the surface while leaving live eggs an inch deep in the foam. This single misunderstanding &mdash; treating the air reading as if it were the whole-object reading &mdash; is the most common reason a heat treatment &ldquo;fails&rdquo; and the bugs are back a week later. The equipment that succeeds is the equipment that lets you monitor the coldest, densest spot and keep heating until <em>it</em> is above temperature.</p>
 
           <h2>Enclosure vs Ambient Heater: Two Ways to Win</h2>
           <p>The room-scale enclosure and the portable ambient heater represent two genuinely different strategies, and understanding the trade-off is how you buy the right one.</p>
           <p>The <strong>enclosure</strong> &mdash; the ZappBug Room being the room-scale example &mdash; is a large collapsible heat box you assemble in the middle of the space and pack with your mattress, furniture, and belongings. Its reflective walls trap the heat and even it out, so the interior reaches temperature far more predictably than an open room ever could. You are no longer fighting the building; you have built a small, insulated environment you fully control. The limitation is equally clear: it only treats what you can fit inside. Bugs living in the baseboards, the wall, or a bolted-down platform bed are outside the box and untouched.</p>
-          <p>The <strong>ambient heater</strong> &mdash; a Nuventa-style forced-air unit &mdash; heats the actual room air and, with enough airflow, pushes that heat into the structure and the furniture in place. This is the tool for an infestation that has moved into the fabric of the room. Its weakness is the mirror image of the enclosure&rsquo;s strength: it has to overcome the room itself, and an uninsulated exterior wall, a cold concrete slab, or heat leaking out around a door can leave a cold pocket the heater never conquers. Many serious DIYers end up owning both &mdash; the enclosure for everything movable, the heater for the fixed structure &mdash; because together they close the gaps each one leaves alone.</p>
+          <p>The <strong>ambient heater</strong> &mdash; a forced-air unit sold for bed bugs &mdash; heats the actual room air and, with enough airflow, pushes that heat into the structure and the furniture in place. This is the tool for an infestation that has moved into the fabric of the room. Its weakness is the mirror image of the enclosure&rsquo;s strength: it has to overcome the room itself, and an uninsulated exterior wall, a cold concrete slab, or heat leaking out around a door can leave a cold pocket the heater never conquers. Many serious DIYers end up owning both &mdash; the enclosure for everything movable, the heater for the fixed structure &mdash; because together they close the gaps each one leaves alone.</p>
+          <Photo id="bed-bug-fecal-spots-bed-frame" alt="Black bed bug fecal spots on a wooden bed frame" caption="Black bed bug fecal spots on a wooden bed frame near where the bugs hid, photographed by the New York State IPM Program at Cornell University. The wood inside a frame like this lags far behind the room air, so it needs its own probe." />
 
           <h2>How to Size the Equipment to Your Room</h2>
           <p>This is the high-ticket decision, so get it right before you spend. Sizing a bed-bug heater is not about matching the average room; it is about beating the <strong>hardest-to-heat corner</strong>. Walk the room and find the spots that will fight you: an exterior wall, a north-facing corner, a concrete floor, a window that leaks, the dense core of the mattress and any heavy furniture. Those are the places that decide whether the job succeeds.</p>
@@ -281,6 +308,28 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
           </ul>
           <p>Read that as a spending map: put your dollars into output, containment or airflow, and monitoring, and treat everything else as secondary. The way to overspend is to import a huge commercial machine you cannot safely run in a home; the way to under-spend is to skip the thermometers and fly blind on the one measurement that determines success.</p>
 
+          <h2 id="situation">Which Heat Equipment for Your Situation?</h2>
+          <ul>
+            <li><strong>Bugs only in clothes, luggage and clutter:</strong> a portable heat chamber; no room heater needed.</li>
+            <li><strong>Bugs in a mattress, couch or furniture you can move:</strong> a room-size enclosure such as the ZappBug Room, with probes in the densest items.</li>
+            <li><strong>Bugs in baseboards, the wall-floor junction or a bed you cannot move:</strong> a forced-air heater with fans and remote thermometers, in a small, well-sealed room.</li>
+            <li><strong>A whole apartment, or bugs spreading through shared walls:</strong> professional thermal remediation.</li>
+            <li><strong>Too few circuits near the room:</strong> never gang heaters onto one breaker; scale down to an enclosure or call a professional.</li>
+            <li><strong>Nobody can stay to supervise for hours:</strong> do not run heat at all.</li>
+          </ul>
+
+          <h2>Bed Bug Heater Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Circuits:</strong> one per high-draw unit; ZappBug lists 4 for the Room.</li>
+            <li><strong>A Canadian certification mark</strong> (cCSAus or cULus) and a standard 120 V plug.</li>
+            <li><strong>Tip-over and over-temperature cutoffs.</strong></li>
+            <li><strong>Remote thermometer probes</strong> for the mattress core, the baseboards and the coldest corner.</li>
+            <li><strong>High-CFM fans,</strong> so the heat does not bank at the ceiling.</li>
+            <li><strong>The target:</strong> 48&deg;C held for at least 71.5 minutes, or 50&deg;C reached everywhere bed bugs may hide (Kells &amp; Goblirsch, 2011).</li>
+            <li><strong>A removal list:</strong> aerosols, lighters, candles, medications, houseplants and anything pressurised or flammable out of the room first.</li>
+            <li><strong>Follow-up:</strong> interceptor traps under the bed legs and a labelled residual for the weeks after.</li>
+          </ol>
+
           <RelatedLinks path="/blog/best-whole-room-bed-bug-heater-canada" />
           <h2>Why Grey-Market US 240V Heaters Are the Wrong Buy</h2>
           <p>A search for bed-bug heaters surfaces a lot of high-output US commercial units, and some look tempting on their power figures. Be careful. Many are designed for <strong>240-volt or dedicated commercial circuits</strong>, and importing one grey-market into a Canadian home creates a stack of real problems: it may be incompatible with standard 120V outlets, it can exceed the breaker and circuit limits of an ordinary residential room, it typically carries <strong>no Canadian electrical certification</strong> (no cCSAus or cULus mark), and its warranty and support often do not extend to Canada at all.</p>
@@ -293,6 +342,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
           <h2>Heat Is a Knockdown, Not a Whole Plan</h2>
           <p>The biggest strategic mistake with heat is treating it as a one-and-done. Heat has a genuine superpower &mdash; it kills all life stages, eggs included, in a single session &mdash; but it has a matching weakness: it leaves <strong>no residual</strong>. The moment the room cools, there is nothing left to kill a bug that walked into a wall void, rode out the treatment in an adjacent room, or hitchhikes back in on a bag next week. A single survivor or re-introduction restarts the whole problem.</p>
           <p>Serious plans therefore pair the heat knockdown with a residual follow-through. Apply a labelled Canadian desiccant such as a <Link href="/blog/cimexa-bed-bug-review-canada">silica-gel dust</Link> into wall voids, cracks, and the bed frame, or lay down a <Link href="/blog/best-natural-bed-bug-spray-canada">registered bed-bug spray</Link> around the perimeter, so anything that survived or wanders in over the following weeks meets a lethal surface. Then set <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the bed legs to monitor whether the numbers are truly at zero. For the full sequence &mdash; heat, residual, monitor, repeat &mdash; our <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY bed-bug heat treatment guide</Link> and the broader <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> walkthrough lay out the whole plan step by step.</p>
+          <Photo id="bed-bugs-hotel-headboard" alt="Bed bug coated in pesticide dust in a crevice of a hotel headboard" caption="A bed bug coated in pesticide dust in a crevice of a hotel headboard after a treatment, photographed by the New York State IPM Program at Cornell University. Heat leaves no residual, which is why a labelled dust in cracks and voids is the follow-through." />
 
           <h2>When to Stop DIY and Call a Professional</h2>
           <p>DIY whole-room heat makes the most sense for a <strong>single, contained room</strong> where you can move belongings, seal the space reasonably well, monitor the cold spots carefully, and accept that you might need a second pass. Within those bounds, a homeowner with the right equipment and real patience can genuinely eradicate an infestation.</p>

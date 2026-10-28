@@ -2,7 +2,7 @@
  "id": "mice-traps",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5c5e70d4a04f2b0394b3e21b0981e2fea45109d2e3bd52543aa9ab25c7fb6958",
+ "sha": "668e56859f1c26ae79a22da9f73a06d45b5beba53150e3eddfea33a8fe9aa96f",
  "claimsChecked": 78,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -12,6 +12,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the 'Size matters' paragraph in 'How do snap traps work, and which one should you buy?' linking the new /blog/mouse-poop; no fact changed.",
    "previousSha": "1fe3270b6eae4480a095a9373aa8061e3aef3bfede9db7a26fd480376fd6c53e"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 6 real photos added as figure blocks, all new to the ledger (photo-notes-batch15): mouse-snap-trap-wooden (Commons, public domain; lead), plastic-snap-trap-house-mouse-ruler (Commons, public domain), rat-trap-vs-mouse-trap-size (Commons, public domain), electronic-mouse-trap-against-wall (Commons, CC BY-SA 4.0), cage-trap-two-mice (Commons, public domain) and snap-traps-set-against-wall (NY State IPM Program at Cornell, CC BY 2.0); plus one sentence linking /tools/what-bug-is-this after the mouse poop paragraph in the snap trap section. Captions restate the photo records and facts already on the page (CDC, UC IPM); media placeholders kept; no fact or date changed.",
+   "previousSha": "5c5e70d4a04f2b0394b3e21b0981e2fea45109d2e3bd52543aa9ab25c7fb6958"
   }
  ]
 }

@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-cordless-fogger-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Cordless Fogger Canada 2026 — Battery ULV Foggers, No Cord, Compared'
-const META_TITLE = 'Best Cordless Fogger Canada 2026: Battery ULV'
+// TITLE NOTE (Oct 28, 2026): was 'Best Cordless Fogger Canada 2026: Battery ULV'; top queries (Jul 28-Oct 25): cordless fogger 16 (pos 6.3, 1 click), battery fogger 10, battery powered fogger 10, battery fogger machine 3, battery operated fogger 3. 'Battery' joins 'cordless' because the battery searches add up to more than the cordless one.
+const META_TITLE = 'Best Cordless Battery Fogger Canada (2026)'
 
 const FAQS = [
   {
@@ -40,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'What can I legally fog with a cordless fogger in Canada?',
-    answer: 'The fogger itself is just an appliance — it needs no registration. What matters legally is the liquid you put through it. In Canada, any pest-control product must carry a PMRA (Pest Management Regulatory Agency) registration number, and any hard-surface disinfectant must carry a Health Canada DIN (Drug Identification Number) or NPN. It is your responsibility to use only products whose Canadian label permits fogging or ULV application and to follow that label. This is where a lot of grey-market trouble starts: many popular US mosquito and disinfectant concentrates sold alongside foggers are not PMRA-registered for use in Canada, so importing and applying them here is not compliant no matter how good the fogger is. Match the machine to a Canadian-registered solution and read the label for approved application methods.',
+    answer: 'The fogger itself is just an appliance — it needs no registration. What matters legally is the liquid you put through it. In Canada, any pest-control product must carry a PMRA (Pest Management Regulatory Agency) registration number, and any hard-surface disinfectant must carry a Health Canada DIN (Drug Identification Number), an 8-digit number printed after the letters DIN on the label. It is your responsibility to use only products whose Canadian label permits fogging or ULV application and to follow that label. This is where a lot of grey-market trouble starts: many popular US mosquito and disinfectant concentrates sold alongside foggers are not PMRA-registered for use in Canada, so importing and applying them here is not compliant no matter how good the fogger is. Match the machine to a Canadian-registered solution and read the label for approved application methods.',
   },
   {
     question: 'Are cordless foggers good for mosquitoes?',
@@ -68,13 +71,21 @@ const FAQS = [
   },
   {
     question: 'Where can I buy a cordless fogger in Canada?',
-    answer: 'Battery ULV foggers are stocked on Amazon.ca (widest year-round selection of Hudson, PetraTools, and handheld cordless units), through agricultural and janitorial-supply retailers, and at some pest-control and greenhouse suppliers. Amazon.ca is usually the easiest place to compare cordless models, batteries, and replacement nozzles side by side and to check current Canadian availability and shipping. As with any battery product, confirm the charger is rated for Canadian outlets and that replacement batteries and nozzles are available before you commit, since a cordless fogger is only as good as your ability to keep it charged and running.',
+    answer: 'Battery ULV foggers are stocked on Amazon.ca (a wide year-round selection of handheld and backpack battery units), through agricultural and janitorial-supply retailers, and at some pest-control and greenhouse suppliers. Amazon.ca is usually the easiest place to compare cordless models, batteries, and replacement nozzles side by side and to check current Canadian availability and shipping. As with any battery product, confirm the charger is rated for Canadian outlets and that replacement batteries and nozzles are available before you commit, since a cordless fogger is only as good as your ability to keep it charged and running.',
+  },
+  {
+    question: 'Is a battery fogger the same as a battery-operated fog machine?',
+    answer: 'No. The battery fog or smoke machines sold for parties, stages and photography make a visible haze for effect. A battery ULV fogger is a sprayer that breaks a pest control product or a disinfectant into fine droplets, and what goes in it is governed by that product’s label. They are different machines: never put a pesticide or disinfectant into a party fog machine, and never use an insect fogger to make a haze. This guide covers foggers for pests and disinfection only.',
+  },
+  {
+    question: 'Will a fogger get rid of mosquito larvae?',
+    answer: 'No. The US EPA says ULV sprayers put out very fine droplets that stay aloft and kill flying mosquitoes on contact; that is adults, not the larvae in water. Health Canada says mosquitoes lay their eggs in still or standing water, that the eggs hatch into larvae in one or two days, and that the fix is to remove standing water or, where you cannot, to use a mosquito larvicide with a PCP number on the label. A fogger treats the adults you have tonight; emptying and changing water stops the next batch.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best cordless (battery) ULV foggers in Canada for 2026: Hudson cordless vs PetraTools battery backpack vs handheld, runtime and droplet size, how to choose by coverage, the PMRA/DIN rule on what you can legally fog, and where to buy. Updated 2026.',
+  description: 'Best cordless fogger in Canada: a battery ULV cold fogger sized to the job. What fogging can and cannot do, and the PCP and DIN rule for what you spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +110,7 @@ export default function BestCordlessFoggerCanadaPage() {
             <span className="text-white">Best Cordless Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A cordless fogger&rsquo;s whole job is to walk a treatment through a yard, barn, or warehouse with no outlet and no cord &mdash; here is how battery ULV foggers actually differ, how to size the battery to your coverage, and our Hudson-cordless, PetraTools-backpack, handheld, and budget picks.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the best cordless fogger is a battery-powered ULV cold fogger: a handheld unit for a garage, coop or small yard, or a battery backpack for acreage and big floors. The machine needs no registration, but whatever you fog must carry a Canadian PCP registration number (or a DIN, for a disinfectant) and a label that allows fogging. Looking for a party fog machine? That is a different product.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -230,7 +241,7 @@ export default function BestCordlessFoggerCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            A fogger is a device, not a pesticide &mdash; the machine needs no PMRA registration. What it dispenses does: in Canada the solution must carry a PMRA registration number (pest products) or a Health Canada DIN/NPN (disinfectants), and its label must permit fogging.
+            A fogger is a device, not a pesticide &mdash; the machine needs no PMRA registration. What it dispenses does: in Canada the solution must carry a PMRA registration number (pest products) or a Health Canada DIN (disinfectants), and its label must permit fogging.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -269,6 +280,24 @@ export default function BestCordlessFoggerCanadaPage() {
           <p>Droplet size is the single most useful thing to understand about a ULV fogger, because it is what separates a fogger from an ordinary sprayer and it determines whether your treatment does what you want. Smaller droplets &mdash; around 5 to 20 microns &mdash; stay suspended in the air and disperse to fill a space, which is exactly what you want for disinfecting a room or spreading a fine aerosol. Larger droplets &mdash; roughly 30 to 50 microns &mdash; are heavier and land on surfaces and vegetation rather than floating away, which is what you want when the goal is depositing a residual where it needs to stay.</p>
           <p>A good ULV fogger lets you adjust the flow rate or nozzle to shift droplet size for the task, so the same machine can do airborne coverage one day and surface deposition the next. Match the micron to the mission: smaller for suspended, airborne, disinfecting work; larger for landing a residual on a leaf or a wall. And always defer to the label of whatever Canadian-registered product you are applying, because many specify an approved droplet range and application method that you are legally required to follow.</p>
 
+          <h2>Fogging Mosquitoes: What a Cordless Fogger Can and Cannot Do</h2>
+          <p>Mosquitoes are the job most backyard foggers are bought for, so it is worth being exact about what fog reaches. The droplets hit flying adults; they do nothing to the next generation growing in standing water.</p>
+          <Photo id="culex-quinquefasciatus-female" alt="Female southern house mosquito at rest on a pale surface against a bright yellow background" caption="A female southern house mosquito, Culex quinquefasciatus, at rest (CDC photograph). The US EPA says ULV sprayers put out very fine droplets that stay aloft and kill flying mosquitoes on contact: adults like this one." />
+          <QuickIdTable
+            title="What a cordless fogger can and cannot do"
+            head={['Job', 'What the agency says', 'What it means for your fogger']}
+            rows={[
+              ['Flying adult mosquitoes', 'US EPA: ULV sprayers dispense very fine aerosol droplets that stay aloft and kill flying mosquitoes on contact', 'The fogger’s real job, with a product whose Canadian label allows ULV or fogging use'],
+              ['Larvae in standing water', 'Health Canada: mosquitoes lay eggs in still or standing water, and the eggs hatch into larvae in 1 or 2 days', 'Not a fogger job: empty or change the water'],
+              ['Water you cannot drain', 'Health Canada: use a mosquito larvicide with a PCP number on the label', 'A larvicide in the water, not fog in the air'],
+              ['When mosquitoes are out', 'Health Canada: they tend to be more active between dusk and dawn; in most of Canada they are common from May to September', 'Follow the product label for when and where to apply'],
+              ['Disinfecting surfaces', 'Health Canada: a hard-surface disinfectant shows an 8-digit number after the letters DIN on its label', 'Only a disinfectant whose label allows fogging'],
+              ['Any pest product', 'Health Canada: read the label and follow all directions; look for the PCP number', 'No PCP number, nothing goes in the tank'],
+            ]}
+            caption={<>From the US EPA&rsquo;s <a href="https://www.epa.gov/mosquitocontrol/controlling-adult-mosquitoes" target="_blank" rel="noopener noreferrer" className="underline">Pesticides Used To Control Adult Mosquitoes</a> page (updated September 29, 2026), Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/mosquitoes.html" target="_blank" rel="noopener noreferrer" className="underline">mosquitoes</a> page (2024-09-11) and its <a href="https://www.canada.ca/en/health-canada/services/drugs-health-products/biocides/guidance/labelling-requirements/principal-display-panel.html" target="_blank" rel="noopener noreferrer" className="underline">biocide labelling guidance</a> (2025-05-28), read October 28, 2026.</>}
+          />
+          <Photo id="culex-larvae" alt="Four mosquito larvae of increasing size, from first to fourth stage, against a pale blue background" caption="Larvae of the southern house mosquito, Culex quinquefasciatus, at four stages of growth (CDC photograph). Larvae develop in standing water, where fog does not reach them: Health Canada’s fix is to remove the water, or use a larvicide with a PCP number." />
+
           <RelatedLinks path="/blog/best-cordless-fogger-canada" />
           <h2>How to Choose: Sizing a Cordless Fogger to Your Coverage</h2>
           <p>These machines span a wide price range, and the way to avoid both overspending and under-buying is to size the fogger honestly to the area you actually treat and how often. Work through it in this order:</p>
@@ -281,8 +310,20 @@ export default function BestCordlessFoggerCanadaPage() {
           </ul>
           <p>Read that as a spending map: put your money into the right form factor and enough battery, make sure droplet control and Canadian parts support are there, and pay the cordless premium only for the mobility your actual jobs demand. A battery backpack is a superb tool for the person walking a barn every week and an overweight, overpriced mistake for the person fogging a single garage twice a season.</p>
 
+          <h2>Cordless Fogger Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Form factor for your area:</strong> handheld for a room, garage, coop or small yard; battery backpack for acreage, barns and big floors.</li>
+            <li><strong>The battery spec in the maker&rsquo;s own words:</strong> runtime per charge, charge time, and whether the pack comes out so a spare can go in.</li>
+            <li><strong>A charger rated for Canadian outlets</strong>, and replacement nozzles, filters and batteries you can actually get here.</li>
+            <li><strong>Adjustable flow or droplet size</strong>, so one machine can do fine airborne mist and heavier surface droplets.</li>
+            <li><strong>Where the manual says you may use it:</strong> indoors, outdoors, or both.</li>
+            <li><strong>Something legal to put in it:</strong> a pest product with a Canadian PCP registration number, or a disinfectant with a DIN, whose label allows fogging or ULV application.</li>
+            <li><strong>The protective gear that product&rsquo;s label asks for</strong>, bought with the fogger, not after.</li>
+            <li><strong>Clean water to flush it</strong> after every use.</li>
+          </ol>
+
           <h2>The PMRA and DIN Rule: The Machine Is Legal, the Chemistry Is on You</h2>
-          <p>This is the part that trips people up, and it is the most important thing on the page. A cordless fogger is an <em>appliance</em> &mdash; it carries no pesticide registration and needs none. But the moment you put a liquid through it, Canadian regulation applies to that liquid. Any pest-control product must carry a <strong>PMRA (Pest Management Regulatory Agency) registration number</strong>, and any hard-surface disinfectant must carry a <strong>Health Canada DIN or NPN</strong>. It is your responsibility to use only products whose Canadian label permits fogging or ULV application, and to apply them exactly as that label directs.</p>
+          <p>This is the part that trips people up, and it is the most important thing on the page. A cordless fogger is an <em>appliance</em> &mdash; it carries no pesticide registration and needs none. But the moment you put a liquid through it, Canadian regulation applies to that liquid. Any pest-control product must carry a <strong>PMRA (Pest Management Regulatory Agency) registration number</strong>, and any hard-surface disinfectant must carry a <strong>Health Canada DIN</strong>, the 8-digit number printed after the letters &ldquo;DIN&rdquo; on the label. It is your responsibility to use only products whose Canadian label permits fogging or ULV application, and to apply them exactly as that label directs.</p>
           <p>Where this goes wrong is the grey market. A great many foggers on US marketplaces are bundled or cross-sold with pesticide and disinfectant concentrates that are simply not PMRA-registered for use in Canada &mdash; importing and applying those here is not compliant, no matter how legitimate the machine is. The clean approach is to treat the two purchases separately: buy the hardware wherever gives you the best cordless unit and Canadian parts support, and source your solution from a Canadian-registered product, verifying the registration number on the PMRA or Health Canada database if you are unsure. The fogger being legal does not make the chemical legal. Our <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> lays out this device-versus-chemistry distinction across every fogger, sprayer, and applicator we cover.</p>
 
           <h2>Maintenance: Flush After Every Use or the Fogger Dies Young</h2>

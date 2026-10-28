@@ -13,16 +13,20 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-silverfish-traps'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-28'
 // This page is deliberately the EQUIPMENT half of the silverfish pair: which trap
 // type, how many, where each goes, and what you re-buy. The biology, the humidity
 // mechanism and the full elimination protocol live on how-to-get-rid-of-silverfish-canada.
 // SERP title trimmed to 41 chars so it survives Google's cap once " | BuzzSkito" is appended.
 const TITLE = 'Silverfish Traps in Canada — Which Type to Buy, How Many, and Where Each One Goes'
-const META_TITLE = 'Silverfish Traps Canada: Which Type to Buy'
+// TITLE NOTE (Oct 28, 2026): was 'Silverfish Traps Canada: Which Type to Buy'; top queries, Jul 28-Oct 25 (all countries): silverfish traps 591 at 8.5, dekko silverfish paks canada 99 at 6.3 (7 clicks), best silverfish traps 31 at 4.6, silver fish trap 28 at 8.4, best traps for silverfish 10 at 4.7, dekko silverfish packs canada 10 at 5.6 (10 clicks on these six).
+const META_TITLE = 'Silverfish Traps Canada: Best Type & Dekko Paks'
 
 const FAQS = [
   {
@@ -55,7 +59,7 @@ const FAQS = [
   },
   {
     question: 'Are Dekko Silverfish Paks legal to buy in Canada?',
-    answer: 'Check the label before you buy, because the answer is not automatic. Dekko Silverfish Paks — the boric-acid paper packets that dominate American silverfish advice — are a US EPA-registered product. Under Canada’s Pest Control Products Act, any insecticide sold or used in Canada must be registered with Health Canada’s PMRA and carry a Canadian PCP registration number on its label. Marketplace listings routinely cross-list US-registered products to Canadian buyers without that number, and the label, not the listing, is the test: no PCP number means the product is not labelled for legal sale and use here, and you have no Canadian directions standing behind how you use it. Note that a bait packet is an insecticide, while a glue board is a device — which is why traps carry no such requirement at all.',
+    answer: 'No, not as a registered Canadian product. Health Canada\'s pesticide product database (searched October 28, 2026) has no product named Dekko, and no current homeowner-class boric acid product in it lists silverfish. Dekko Silverfish Paks — the boric-acid paper packets that dominate American silverfish advice — are registered with the US EPA (Reg. No. 70313-1). Under Canada’s Pest Control Products Act, any insecticide sold or used in Canada must be registered with Health Canada’s PMRA and carry a Canadian PCP registration number on its label. Marketplace listings routinely cross-list US-registered products to Canadian buyers without that number, and the label, not the listing, is the test: no PCP number means the product is not labelled for legal sale and use here, and you have no Canadian directions standing behind how you use it. Note that a bait packet is an insecticide, while a glue board is a device — which is why traps carry no such requirement at all.',
   },
   {
     question: 'Do silverfish traps need PMRA registration in Canada?',
@@ -69,15 +73,20 @@ const FAQS = [
     question: 'How do I know when I can stop buying traps?',
     answer: 'Four consecutive weeks of empty boards in the rooms that were previously catching, with your humidity holding at 45–50%, is a defensible all-clear. That combination matters: empty boards alone can just mean your adhesive died, which is why you replace boards on schedule and confirm with a hygrometer reading rather than trusting a quiet trap. If catches drop sharply and then rebound six or eight weeks later, you almost certainly have a humid pocket you have not found — a crawl space, a cold room, a sweating pipe, a bathroom with a weak exhaust fan — and the rebound is a new generation, not the old one. At that point the next purchase is a hygrometer for the room you have not measured, not another pack of boards.',
   },
+  {
+    question: 'What can I use instead of Dekko Silverfish Paks in Canada?',
+    answer: 'Traps first, then dry air. Flat glue boards along the baseboards and the tape-wrapped glass jar trap do the catching; Health Canada says silverfish "can be easily trapped in small glass containers (like baby food jars)." A dehumidifier does the ending, because Health Canada says silverfish prefer 75 to 95% relative humidity. If you want a chemical layer in cracks and voids, choose a product with a Canadian PCP number whose label names silverfish; about 190 current homeowner products in Health Canada\'s database do, including diatomaceous earth dusts such as Insect Stop Silverfish & Cockroach Killer (PCP 25597). You are not missing much: UC IPM says baits are not very successful against silverfish.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Which silverfish trap to buy in Canada: flat glue boards vs covered stations vs the free jar trap, how many you need, where each goes, and when to replace.',
+  description: 'Best silverfish traps in Canada: plain glue boards along baseboards, the free jar trap, how many to buy, and why Dekko Silverfish Paks are not registered here.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('silverfish'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -85,7 +94,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function BestSilverfishTrapsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian equipment guide to silverfish traps: which of the five trap types to buy, how many to start with, room-by-room placement, replacement cadence, why adhesive fails in damp basements, PMRA/PCP status of traps versus baits, and the common ways people overspend.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian equipment guide to silverfish traps: which of the five trap types to buy, how many to start with, room-by-room placement, replacement cadence, why adhesive fails in damp basements, PMRA/PCP status of traps versus baits, and the common ways people overspend.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('silverfish') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Silverfish Traps Canada — Which to Buy', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -98,7 +107,7 @@ export default function BestSilverfishTrapsCanadaPage() {
             <span className="text-white">Silverfish Traps — Which to Buy</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The equipment decision, not the strategy: five trap types compared on the specs that matter, the right starting quantity, a room-by-room placement map, and how long adhesive actually survives in a Canadian basement.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best silverfish trap is a multi-pack of plain flat insect glue boards, laid tight against the baseboards of your dampest rooms: silverfish have no proven lure, so placement does the work. Use the free tape-wrapped jar trap to confirm what you have, and a dehumidifier to end it. Dekko Silverfish Paks, the American favourite, are not registered in Canada: Health Canada&rsquo;s pesticide database lists no Dekko product.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -358,8 +367,27 @@ export default function BestSilverfishTrapsCanadaPage() {
 
           <h2>Which Silverfish Trap Should You Actually Buy?</h2>
           <p>A plain flat insect glue board, bought in a multi-pack, laid tight against the baseboards of your dampest, darkest rooms. That is the whole answer, and the reason it is so unglamorous is worth understanding before you spend money on something fancier.</p>
+          <Photo
+            id="silverfish"
+            alt="A common silverfish, a wingless, three-tailed silvery insect"
+            caption="A common silverfish, Lepisma saccharinum, photographed in London, Ontario. Health Canada puts full-grown silverfish at just over 1 cm long, covered with shiny silver scales."
+          />
           <p>Most successful insect traps work because of chemistry. A yellowjacket trap works because heptyl butyrate smells like food to a yellowjacket from metres away; a pantry moth trap works because a synthetic sex pheromone pulls males in from across a kitchen. Silverfish traps have nothing comparable. There is no consumer silverfish lure with credible evidence behind it, which means a silverfish trap has exactly one working mechanism: a sticky surface, sitting in a place a silverfish was going to walk anyway.</p>
           <p>Once you accept that, the shopping decision collapses into two variables &mdash; how much adhesive area you get, and how many boards you can afford to place. A product with &ldquo;silverfish&rdquo; printed on the box and a premium price attached is selling you a word, not a mechanism. Buy general insect glue boards, buy enough of them to cover every candidate room at once, and spend the money you saved on the thing that actually ends the problem.</p>
+
+          <QuickIdTable
+            title="Silverfish traps and baits: what the sources say"
+            head={['Option', 'How it works', 'What the source says', 'In Canada']}
+            rows={[
+              ['Flat glue boards', 'An adhesive sheet laid where silverfish walk', 'UC IPM: place sticky traps or jars “in corners and along edges where foraging is likely”. Catchmaster: its glue stays effective up to a year, less if the board gets dusty', 'A device for crawling insects; the page’s legality note explains why no PCP number applies'],
+              ['Covered glue station', 'The same adhesive inside a housing', 'Our advice, not a study: the housing shelters the glue from dust and keeps it away from pets and small hands', 'A device'],
+              ['Tape-wrapped glass jar', 'They climb the tape, drop in and cannot climb the glass', 'Health Canada: they “can be easily trapped in small glass containers (like baby food jars)”. UC IPM: they “can’t climb back up the slick sides”', 'Free'],
+              ['Boric acid bait packs (Dekko Silverfish Paks)', 'A boric acid bait in paper packs', 'US EPA Reg. No. 70313-1. UC IPM: “Baits aren’t very successful” against silverfish, because they tend not to feed on them', 'No Dekko product in Health Canada’s database; no current homeowner boric acid product lists silverfish'],
+              ['Registered dust or spray', 'Kills on contact or as a residue in cracks', 'Health Canada: look for a PCP number and make sure the label names the pest', 'About 190 current homeowner products list silverfish, e.g. Insect Stop Silverfish & Cockroach Killer (diatomaceous earth, PCP 25597)'],
+              ['Dehumidifier', 'Dries the air below what silverfish need', 'Health Canada: silverfish prefer 75 to 95% relative humidity; “dehumidify areas of excess moisture”', 'An appliance'],
+            ]}
+            caption={<>Sources, checked October 28, 2026: UC IPM, <a href="https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: Silverfish and Firebrats</a>; Health Canada, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/silverfish-firebrats.html" target="_blank" rel="noopener noreferrer" className="underline">Silverfish and firebrats</a>; Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a> (name search for Dekko on October 28, 2026; products listing silverfish counted in its October 3, 2026 export); Catchmaster&rsquo;s <a href="https://www.catchmaster.com/collections/silverfish" target="_blank" rel="noopener noreferrer" className="underline">silverfish trap page</a>; the US EPA label file for Dekko Silverfish Paks.</>}
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -386,6 +414,11 @@ export default function BestSilverfishTrapsCanadaPage() {
             <li><strong>Number every board and draw a map.</strong> Twenty seconds with a marker converts a pile of sticky rectangles into data. Board 4 catching six a week and board 7 catching none is the single most actionable thing you will learn all month.</li>
             <li><strong>Keep them out of pet and toddler traffic.</strong> Open adhesive is unpleasant to remove from fur and skin, and a glue board can catch a mouse &mdash; a messy and inhumane outcome nobody wants. Use covered stations where anything with fur roams.</li>
           </ul>
+          <Photo
+            id="gray-silverfish"
+            alt="A gray silverfish beside white-painted trim"
+            caption="A gray silverfish (long-tailed silverfish), Ctenolepisma longicaudatum, beside white-painted trim (Austin, Texas). Silverfish travel along edges like this at night, which is why a board pressed into the wall-floor junction catches them and one in open floor does not."
+          />
           <p>A pinch of bait is optional and mildly helpful: silverfish eat starch and cellulose, so a few rolled oats, a dusting of flour, or a corner of dry bread on the board gives a passer-by a reason to stop. Do not expect it to pull insects across a room. Placement beats bait, every time.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack silverfish">Check glue board multi-packs on Amazon.ca &rarr;</BuyLink>
@@ -417,7 +450,7 @@ export default function BestSilverfishTrapsCanadaPage() {
 
           <h2>Boric-Acid Bait Packets and the Canadian Legality Question</h2>
           <p>Search silverfish advice in English and you will hit American recommendations for boric-acid bait packets, usually Dekko Silverfish Paks: small paper packets tucked into closets and bookshelves that silverfish feed on. They are genuinely popular in the US, and the mechanism targets what silverfish already do.</p>
-          <p>Two things change north of the border. First, a bait packet is not a trap &mdash; it is an insecticide, which puts it in an entirely different regulatory category. Under Canada&rsquo;s Pest Control Products Act, any insecticide sold or used in Canada must be registered with Health Canada&rsquo;s PMRA and carry a Canadian PCP registration number on its label. Dekko Paks are a US EPA-registered product. Marketplace listings cross-list US-registered pest products to Canadian buyers constantly, so the check that matters is the label, not the listing: if there is no PCP number, the product is not labelled for legal sale and use here, and there are no Canadian directions standing behind how you use it.</p>
+          <p>Two things change north of the border. First, a bait packet is not a trap &mdash; it is an insecticide, which puts it in an entirely different regulatory category. Under Canada&rsquo;s Pest Control Products Act, any insecticide sold or used in Canada must be registered with Health Canada&rsquo;s PMRA and carry a Canadian PCP registration number on its label. Dekko Paks are a US EPA-registered product (Reg. No. 70313-1), and Health Canada&rsquo;s pesticide database, searched October 28, 2026, lists no Dekko product at all; nor does any current homeowner-class boric acid product in it list silverfish. Marketplace listings cross-list US-registered pest products to Canadian buyers constantly, so the check that matters is the label, not the listing: if there is no PCP number, the product is not labelled for legal sale and use here, and there are no Canadian directions standing behind how you use it.</p>
           <p>Second, you do not need it. Glue boards do the intercepting, a dehumidifier does the eliminating, and if you want a chemical layer for cracks and voids, insecticidal diatomaceous earth with a PCP number on the label covers that ground legally &mdash; our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link> covers grade selection (never pool-grade) and application technique. A packet quietly killing some silverfish in a closet was never going to beat air they cannot breed in.</p>
 
           <h2>Four Ways People Overspend on Silverfish Traps</h2>

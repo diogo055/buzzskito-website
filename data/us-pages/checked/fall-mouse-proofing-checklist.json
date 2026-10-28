@@ -2,9 +2,16 @@
  "id": "fall-mouse-proofing-checklist",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6116043cc906517db6ebb777d1d5225981d44b562df6a999d9301c5b0e2d5581",
+ "sha": "03d31c6f8a0275ca1eed6d46a4af0f7e5fadd425c5fa7bcf589ed570bd895cf8",
  "claimsChecked": 95,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 4 real photos added as figure blocks, all new to the ledger (photo-notes-batch15): house-mouse-got-into-house-bucket (iNaturalist, CC0), copper-wool-wire-gaps (NY State IPM Program at Cornell, CC BY 2.0), white-footed-mouse-bird-seed-basement (iNaturalist, CC BY 4.0) and snap-trap-by-mouse-hole (Commons, CC BY-SA 4.0); the hero infographic stays the share image. Captions restate the photo records and facts already on the page (UC IPM, CDC, Nebraska); media placeholder kept; no fact or date changed.",
+   "previousSha": "6116043cc906517db6ebb777d1d5225981d44b562df6a999d9301c5b0e2d5581"
+  }
+ ]
 }

@@ -14,21 +14,25 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-wasps-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'How to Get Rid of Wasps in Canada — Identify, Treat, Prevent (2026)'
-const META_TITLE = 'Get Rid of Wasps Canada: ID 3 Types, Find Nest'
+// TITLE NOTE (Oct 28, 2026): was 'Get Rid of Wasps Canada: ID 3 Types, Find Nest'; top queries, Jul 28-Oct 25 (all countries): wasp nest removal 727 at 24.9, delta dust 173 at 3.0, delta dust canada 147 at 3.9, wasp powder canada 108 at 5.8, when do wasps die off in canada 82 at 7.5 (25 clicks on the top 15). The dust searches belong to /blog/wasp-dust-canada (wasp-cluster.md); this page keeps how to get rid of wasps and wasp nest removal.
+const META_TITLE = 'How to Get Rid of Wasps in Canada: Nest Removal'
 
 const FAQS = [
   {
     question: 'How do I get rid of wasps in Canada?',
-    answer: 'Work in this order: identify the species (paper wasp, yellowjacket, or bald-faced hornet — each nests differently), locate the actual nest by watching flight lines at dawn or dusk, then match the treatment to the nest. Small, exposed paper wasp nests under 10 cm can be treated DIY at night with a PMRA-registered foaming wasp spray. Ground yellowjacket nests are treatable but riskier. Aerial bald-faced hornet nests and any nest inside a wall void, soffit, or attic should go to a licensed local exterminator. Alongside nest treatment, run baited traps like the RESCUE! WHY trap 6+ metres from your seating area, and in fall seal the entry gaps that let next spring’s queens in.',
+    answer: 'Work in this order: identify the species (paper wasp, yellowjacket, or bald-faced hornet — each nests differently), locate the actual nest by watching flight lines at dawn or dusk, then match the treatment to the nest. Small, exposed paper wasp nests under 10 cm can be treated DIY at night with a PMRA-registered foaming wasp spray. Ground yellowjacket nests are riskier, and many Canadian wasp cans exclude nests underground, so use one only if its label covers the nest. Aerial bald-faced hornet nests and any nest inside a wall void, soffit, or attic should go to a licensed local exterminator. Alongside nest treatment, run baited traps like the RESCUE! WHY trap 6+ metres from your seating area, and in fall seal the entry gaps that let next spring’s queens in.',
   },
   {
     question: 'What is the difference between a wasp, a yellowjacket, and a hornet in Canada?',
-    answer: 'They are all wasps — the names describe groups. Paper wasps (Polistes species) are slender with long dangling legs and build small, open, umbrella-shaped combs where you can see the cells. Yellowjackets (Vespula species) are stockier, boldly yellow-and-black, and build enclosed paper nests underground, in wall voids, or in dense shrubs — colonies can reach several thousand workers by late August. The bald-faced hornet is technically an aerial yellowjacket: black and ivory-white, building the classic grey football-shaped nest hanging in a tree or under an eave. True Old World hornets are not established in Canada — the northern giant hornet was declared eradicated from BC in late 2024.',
+    answer: 'They are all wasps — the names describe groups. Paper wasps (Polistes species) are slender with long dangling legs and build small, open, umbrella-shaped combs where you can see the cells. Yellowjackets (Vespula species) are stockier, boldly yellow-and-black, and build enclosed paper nests underground, in wall voids, or in dense shrubs — colonies can reach several thousand workers by late August. The bald-faced hornet is technically an aerial yellowjacket: black and ivory-white, building the classic grey football-shaped nest hanging in a tree or under an eave. Of the true hornets, only the European hornet is established in Canada, in the woodlands of southern Ontario and Quebec. The northern giant hornet was last found in B.C. in 2021, and in December 2024 B.C.\'s agriculture ministry said the province remains "Northern Giant Hornet-free".',
   },
   {
     question: 'When is it safe to remove a wasp nest myself?',
@@ -44,7 +48,7 @@ const FAQS = [
   },
   {
     question: 'What wasp sprays are legal in Canada?',
-    answer: 'Look for a Pest Control Products (PCP) registration number on the can — that is the marker of a Health Canada / PMRA-registered domestic-class product. Legitimate Canadian options include Raid Max Wasp & Hornet Killer, Ortho Wasp B Gon MAX, Wilson WaspOut, and KONK aerosols, all of which throw a 2–4 metre jet or foam. What you should not use: US-label products that cross the border through marketplace sellers — US Spectracide formulations, professional Wasp-Freeze aerosols, carbaryl (Sevin) dust, and deltamethrin dusts like Delta Dust are either not registered for Canadian residential use or restricted to licensed commercial applicators here. No PCP number on the label means it is not legal to use in Canada.',
+    answer: 'Look for a Pest Control Products (PCP) registration number on the can — that is the marker of a Health Canada / PMRA-registered product — then read where its label lets you use it. Current domestic-class wasp cans in Health Canada\'s pesticide database include Raid Wasp & Hornet Bug Killer 7 (PCP 29776, a jet S.C. Johnson rates at up to 5.7 m), Raid Max Wasp & Hornet Foam Bug Killer 2 (30746, a foam rated at up to 3 m), Ortho Wasp B Gon MAX spray and foam (33723, 33724), Wilson WASP OUT (31899, 33973) and KONK Hornet & Wasp (31112, 32618). Many of these labels exclude nests underground or in voids. What you should not use: Spectracide and Wasp-Freeze, which have no Canadian registration; carbaryl (Sevin) dust, which has no current domestic registration; and Delta Dust, whose only current Canadian registration (DeltaDust Powder, 33495) is restricted class for black-tailed prairie dog burrows, not wasps. No PCP number on the label means it is not legal to use in Canada.',
   },
   {
     question: 'How do I find a wasp nest in my yard?',
@@ -66,15 +70,20 @@ const FAQS = [
     question: 'What should I do if I am allergic to wasp stings?',
     answer: 'Do not attempt any DIY nest treatment — full stop. A person with a known systemic sting allergy should not be the one holding the spray can, even for a small paper wasp nest, because a defensive response of just two or three stings can trigger anaphylaxis. Hire a local licensed exterminator for any nest on the property, keep your epinephrine auto-injector current and accessible outdoors, and consider asking an allergist about venom immunotherapy, which is highly effective for yellowjacket and hornet sensitivity. Yellowjackets can sting repeatedly (they do not lose their stinger), which makes multiple stings the norm rather than the exception in a defensive attack.',
   },
+  {
+    question: 'Can I take down a wasp nest in late fall or winter?',
+    answer: 'Usually yes, once the colony is dead. Every wasp colony in Canada dies with the first hard frosts, and the City of Calgary notes that "Wasps never re-use an old nest," so an empty paper nest found in late fall, winter or early spring can be knocked down and thrown out. Check first: watch the entrance for a few minutes on a mild afternoon, and if wasps still come and go, leave it until after the frosts or treat it at dusk with a registered can whose label covers that nest. Clearing old nests makes new spring construction easy to spot, and sealing gaps in the fall keeps next year\'s queens from wintering in your walls.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The complete Canadian wasp playbook: identify paper wasps vs yellowjackets vs bald-faced hornets, find the nest, know when DIY is safe vs when to hire, night treatment rules, trap strategy, and PMRA-legal sprays. Updated 2026.',
+  description: 'How to get rid of wasps in Canada: name the wasp, find the nest, treat a small exposed nest at dusk with a registered can, hire out wall and hornet nests.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('paper-wasp-nest'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-wasps-canada')
@@ -82,7 +91,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-wasps-canada')
 export default function HowToGetRidOfWaspsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to wasp control: species identification, nest location, DIY vs professional treatment, night treatment rules, trap strategy, and PMRA-legal product context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to wasp control: species identification, nest location, DIY vs professional treatment, night treatment rules, trap strategy, and PMRA-legal product context.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('paper-wasp-nest') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Wasps Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -95,7 +104,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
             <span className="text-white">How to Get Rid of Wasps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The full Canadian playbook: identify which wasp you actually have, find the nest, know when DIY is safe and when to hire an exterminator, treat at night the right way, and set traps where they help instead of hurt.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">To get rid of wasps in Canada, work out which wasp it is and where the nest is first. A small exposed nest under an eave can be treated at dusk or after dark with a wasp can that carries a PCP number and whose label covers that kind of nest. Nests in a wall, soffit or attic, big grey hornet nests overhead, and any nest near someone with a sting allergy are jobs for a licensed exterminator. A nest found in late fall is weeks from dying, and wasps never reuse an old nest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -145,8 +154,23 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           <h2>Step 1: Identify Which Wasp You Actually Have</h2>
           <p>Every wasp problem in Canada comes down to one of three insects, and the correct treatment is different for each — which is why identification comes before anything else. Misread a ground yellowjacket colony as &ldquo;a few wasps near the flower bed&rdquo; and you can walk a lawn mower straight over a nest of two thousand defenders.</p>
           <p><strong>Paper wasps</strong> (Polistes species) are the slender ones with long legs that dangle in flight. Their nest is the small, open, umbrella-shaped comb — you can see the hexagonal cells from below — tucked under eaves, deck railings, mailboxes, and play structures. Colonies stay small, usually 15 to 200 wasps, and paper wasps are the least aggressive of the three: away from the nest they almost never sting.</p>
+          <Photo
+            id="paper-wasp-nest"
+            alt="Paper wasps on an open paper comb nest with its hexagonal cells visible"
+            caption="Paper wasps, Polistes apachus, on their open-comb nest (Texas). This is the paper wasp pattern: a small umbrella of paper with the cells open to view, hung under eaves, railings and play structures."
+          />
           <p><strong>Yellowjackets</strong> (Vespula species — the German and common yellowjacket in the east, with the western yellowjacket on the prairies and in BC) are stockier, boldly yellow-and-black, and fly with legs tucked. They build <em>enclosed</em> paper nests you usually cannot see: underground in old rodent burrows, inside wall voids and soffits, or buried in dense hedges. Colonies explode through summer and can hold 1,000 to 4,000 workers by late August — which is also when yellowjackets switch to scavenging your BBQ, garbage, and pop cans. These are Canada&rsquo;s late-summer patio menace, and the ground-nesting variety gets its own dedicated playbook in our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>.</p>
-          <p><strong>Bald-faced hornets</strong> (Dolichovespula maculata) are not true hornets at all — they are aerial yellowjackets, black with ivory-white face markings. They build the iconic grey, football-shaped paper nest hanging from a tree branch, shrub, or eave, growing to basketball size by August with 100 to 400 workers inside. They defend a roughly 2-metre radius around the nest fiercely, and they can spray venom at the eyes of a perceived attacker. One reassurance for anxious searchers: the northern giant hornet (the so-called &ldquo;murder hornet&rdquo;) was declared eradicated from British Columbia in December 2024 and is not established anywhere in Canada.</p>
+          <Photo
+            id="yellowjacket-ground-nest"
+            alt="Western yellowjackets at the entrance hole of a ground nest"
+            caption="Western yellowjackets, Vespula pensylvanica, at the entrance of a ground nest. A steady stream of wasps in and out of one hole in the lawn is how a hidden yellowjacket nest gives itself away."
+          />
+          <p><strong>Bald-faced hornets</strong> (Dolichovespula maculata) are not true hornets at all — they are aerial yellowjackets, black with ivory-white face markings. They build the iconic grey, football-shaped paper nest hanging from a tree branch, shrub, or eave, growing to basketball size by August with 100 to 400 workers inside. They defend a roughly 2-metre radius around the nest fiercely, and they can spray venom at the eyes of a perceived attacker. One reassurance for anxious searchers: the northern giant hornet (the so-called &ldquo;murder hornet&rdquo;) was last found in B.C. in the Fraser Valley in 2021, and in December 2024, when Washington State declared it eradicated from the U.S., B.C.&rsquo;s agriculture ministry said the province remains &ldquo;Northern Giant Hornet-free.&rdquo; The one true hornet established in Canada is the European hornet, which lives in the woodlands of southern Ontario and Quebec.</p>
+          <Photo
+            id="bald-faced-hornet-nest"
+            alt="A grey, football-shaped paper hornet nest hanging in a shrub"
+            caption="A bald-faced hornet nest, the grey paper football, in a shrub (U.S. Fish and Wildlife Service). By August a nest like this holds 100 to 400 workers; above head height, it is a job for a licensed exterminator."
+          />
 
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
             <table className="min-w-[560px] w-full text-sm">
@@ -195,7 +219,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
               <tbody>
                 {[
                   { s: 'Exposed paper wasp comb, smaller than a softball, head height or below', v: 'DIY at night', w: 'Small colony, open target, easy retreat path' },
-                  { s: 'Ground yellowjacket nest with a single visible entrance', v: 'DIY possible — with caution', w: 'Treatable at night, but colonies are large; see the ground wasp guide' },
+                  { s: 'Ground yellowjacket nest with a single visible entrance', v: 'Label first', w: 'Many Canadian wasp cans exclude nests underground; use one only if its label covers the nest, or the City of Calgary’s clear-bowl method, or a pro; see the ground wasp guide' },
                   { s: 'Grey football (bald-faced hornet) nest, any size above head height', v: 'Hire a local exterminator', w: 'Hundreds of fast defenders, ladder work, venom-spraying species' },
                   { s: 'Nest inside a wall void, soffit, or attic', v: 'Hire — always', w: 'Aerosols cannot reach the nest body; sealing drives wasps indoors' },
                   { s: 'Anyone in the household has a sting allergy', v: 'Hire — no exceptions', w: 'Two or three defensive stings can mean anaphylaxis' },
@@ -258,7 +282,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Foaming wasp &amp; hornet spray</td>
                   <td className="px-4 py-3 text-gray-700">Night treatment of small exposed nests (PCP-registered cans only)</td>
-                  <td className="px-4 py-3 text-gray-700">Direct nest treatment, 2–4 m jet</td>
+                  <td className="px-4 py-3 text-gray-700">Direct nest treatment; reach as rated on the can (Raid Max foam: up to 3 m)</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="wasp hornet killer foam spray" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
@@ -274,12 +298,39 @@ export default function HowToGetRidOfWaspsCanadaPage() {
           <RelatedLinks path="/blog/how-to-get-rid-of-wasps-canada" />
           <h2>The PMRA Line: What Is Legal in Canada (and What Is Not)</h2>
           <p>This is where Canadian and American advice diverge sharply, and where a lot of imported internet wisdom goes wrong. In Canada, any pesticide sold for home use must carry a <strong>Pest Control Products (PCP) registration number</strong> from Health Canada&rsquo;s PMRA on the label. Flip the can over; if there is no PCP number, it is not legal to sell or use here.</p>
-          <p>The registered domestic-class options — Raid Max Wasp &amp; Hornet Killer, Ortho Wasp B Gon MAX, Wilson WaspOut, KONK — are all pyrethroid jet or foam aerosols that do the job on exposed nests. What keeps showing up in US forums and grey-market marketplace listings, and does <em>not</em> belong in a Canadian garage:</p>
+          <p>The registered domestic-class options — Raid Wasp &amp; Hornet Bug Killer 7 and Raid Max Wasp &amp; Hornet Foam Bug Killer 2, Ortho Wasp B Gon MAX, Wilson WASP OUT, KONK — are all pyrethroid jet or foam aerosols that do the job on exposed nests; many of their labels exclude nests underground or in voids (table below). What keeps showing up in US forums and grey-market marketplace listings, and does <em>not</em> belong in a Canadian garage:</p>
           <ul>
-            <li><strong>Sevin (carbaryl) dust</strong> — the classic US forum answer for ground nests. Residential carbaryl uses of this kind are not registered in Canada; the US-label dust is a grey-market import here.</li>
-            <li><strong>Delta Dust and other deltamethrin dusts</strong> — the product professionals inject into wall voids. Commercial class in Canada: legal for licensed applicators, not for homeowners, which is precisely why void nests are a hire-a-pro job.</li>
-            <li><strong>US-label Spectracide and professional Wasp-Freeze aerosols</strong> — formulations and concentrations that were never put through Canadian registration. The same brand name on a US can does not make it the Canadian product.</li>
+            <li><strong>Sevin (carbaryl) dust</strong> — the classic US forum answer for ground nests. No domestic carbaryl product is currently registered in Canada; the US-label dust is a grey-market import here.</li>
+            <li><strong>Delta Dust</strong> — the US professionals&rsquo; wall-void dust. Its only current Canadian registration, DeltaDust Powder (PCP 33495), is restricted class and covers black-tailed prairie dog burrows, for fleas; it is not registered for wasps, for homeowners or for professionals. Canadian technicians use registered commercial dusts instead, such as Drione Insecticide Dust (PCP 15255), whose record names wasp nests &mdash; which is precisely why void nests are a hire-a-pro job. Every dust question is answered in our <Link href="/blog/wasp-dust-canada">wasp dust guide</Link>.</li>
+            <li><strong>US-label Spectracide and professional Wasp-Freeze aerosols</strong> — formulations and concentrations that were never put through Canadian registration; neither name appears in Health Canada&rsquo;s pesticide database. The same brand name on a US can does not make it the Canadian product.</li>
             <li><strong>Gasoline down a ground nest</strong> — the oldest and worst folk remedy: illegal, a groundwater contaminant, and a genuine fire risk. It needs saying because it still gets recommended every August.</li>
+          </ul>
+
+          <QuickIdTable
+            title="Wasp products Canadians ask about, on Health Canada’s record"
+            head={['Product (PCP number)', 'Class', 'What the record and the maker say']}
+            rows={[
+              ['Raid Wasp & Hornet Bug Killer 7 (29776)', 'Domestic', 'A jet S.C. Johnson rates at up to 5.7 m, for nests in trees or attached to buildings; wait 48 hours before removing the nest'],
+              ['Raid Max Wasp & Hornet Foam Bug Killer 2 (30746)', 'Domestic', 'A foam rated at up to 3 m; its directions say it is not for nests underground or in voids; some cans were recalled in 2025 for leaking'],
+              ['Wilson WASP OUT Jet Foam (31899)', 'Domestic', 'Exposed nests; the record excludes nests located underground or in voids'],
+              ['Ortho Wasp B Gon MAX spray and foam (33723, 33724)', 'Domestic', 'The record excludes nests located underground or in voids'],
+              ['KONK Hornet & Wasp Killer; KONK Hornet & Wasp Jet Spray II (31112, 32618)', 'Domestic', 'Hornet, wasp and yellowjacket nests among the listed sites; read the directions on the can'],
+              ['RESCUE yellowjacket trap lures (35529, 35530, 35531)', 'Domestic', 'Heptyl butyrate lures for yellowjackets, for outdoor living areas'],
+              ['Drione Insecticide Dust (15255)', 'Commercial', 'Lists wasp nests among its sites: the dust a licensed technician can use in a wall void'],
+              ['DeltaDust Powder (33495)', 'Restricted', 'Black-tailed prairie dog burrows only, for fleas: not a wasp product in Canada'],
+              ['Sevin (carbaryl) dust, Spectracide, Wasp-Freeze', '—', 'No current domestic carbaryl product; no record at all for Spectracide or Wasp-Freeze'],
+            ]}
+            caption={<>Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a>, records read October 23 and 28, 2026 (the underground-or-void exclusions are recorded on the products&rsquo; use sites); S.C. Johnson&rsquo;s Canadian Raid product pages (raid.ca); Health Canada&rsquo;s <a href="https://recalls-rappels.canada.ca/en/alert-recall/update-raidr-outdoor-ant-nest-destroyer-2-and-raid-maxr-wasp-hornet-foam-bug-killer-2" target="_blank" rel="noopener noreferrer" className="underline">recall notice</a> for Raid Max Wasp &amp; Hornet Foam Bug Killer 2. The label on the can you hold is the final word.</>}
+          />
+
+          <h3>Before You Buy a Wasp Can: Checklist</h3>
+          <ul>
+            <li><strong>A PCP number on the label.</strong> No number, not legal to use in Canada.</li>
+            <li><strong>Your kind of nest on the label.</strong> Exposed nests under eaves are covered; many Canadian labels exclude nests underground or in voids.</li>
+            <li><strong>Enough reach.</strong> S.C. Johnson rates its Raid 7 jet at up to 5.7 m and its Raid Max foam at up to 3 m. Stand where the label says, never directly under the nest.</li>
+            <li><strong>The timing in the directions.</strong> The Raid directions recommend spraying after nightfall, or at sunrise or sunset, when wasps are least active.</li>
+            <li><strong>The wait before removal.</strong> Raid 7: wait 48 hours before removing the nest. Raid Max foam: watch for 24 hours and treat again only if needed.</li>
+            <li><strong>The right person on the can.</strong> Nobody with a known sting allergy treats a nest, whatever its size.</li>
           </ul>
           <p>None of this is bureaucratic trivia. Dust formulations in untrained hands drift; unregistered concentrations have no Canadian label directions for re-entry times or setbacks. The registered foam cans are genuinely effective on every nest a homeowner should be treating anyway — the nests they cannot handle are the ones you should not be handling either.</p>
 

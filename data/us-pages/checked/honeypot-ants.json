@@ -2,9 +2,16 @@
  "id": "honeypot-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2c9465d79ce49745e1b4d7a344091f56a1ddfc0fa6b686bee40201bc58b4f5a9",
+ "sha": "c48d663739075aa51fc2101c432e7fb347c15187eeb8442b318346f24cd8a3e9",
  "claimsChecked": 96,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 4 real photos added as figure blocks next to the text they illustrate (CC0 lead honeypot-ant-repletes-oakland-zoo; honeypot-ant-repletes-hanging, honeypot-ant-workers-arizona, honeypot-ant-nest-entrance-utah). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus Conway's facts already on the page. One sentence linking /tools/what-bug-is-this after the household-ant paragraph. No other text changed; dates unchanged.",
+   "previousSha": "2c9465d79ce49745e1b4d7a344091f56a1ddfc0fa6b686bee40201bc58b4f5a9"
+  }
+ ]
 }

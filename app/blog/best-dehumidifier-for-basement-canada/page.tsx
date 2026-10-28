@@ -14,17 +14,20 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-dehumidifier-for-basement-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Dehumidifier for a Basement in Canada 2026 — Sizing, Drainage & the Pest Angle'
-const META_TITLE = 'Best Basement Dehumidifier Canada: 50% RH Target'
+// TITLE NOTE (Oct 28, 2026): was 'Best Basement Dehumidifier Canada: 50% RH Target'; top queries (Jul 28-Oct 25): best dehumidifier for basement canada 859 (pos 7.4, 14 clicks), dehumidifier for basement 235, best basement dehumidifier 2026 101, best basement dehumidifier canada 88 (4 clicks). Exact words of the top search first; 'what size' stays with /blog/what-size-dehumidifier-do-i-need-canada and 'best dehumidifier canada' with the mould and large-capacity pages.
+const META_TITLE = 'Best Dehumidifier for Basement Canada (2026)'
 
 const FAQS = [
   {
     question: 'What is the best dehumidifier for a Canadian basement in 2026?',
-    answer: 'For most Canadian basements, the best overall dehumidifier is an Energy Star–certified ~50-pint compressor unit like the hOmeLabs 50-pint. It pulls enough moisture from a damp 1,500–2,500 sq ft basement to hold humidity in the 30–50% range, has a continuous-drain port so you never empty a bucket, and runs efficiently enough that the electricity cost is manageable over a long Canadian humid season. For a large, wet, or finished basement over ~2,500 sq ft, step up to a high-capacity Frigidaire; for the lowest running cost and noise choose an Energy Star Midea Cube; and for a small utility room a compact Waykar-class unit is enough. Anything holding relative humidity above roughly 50% is what lets silverfish, cockroaches, dust mites, and mould thrive — which is why a right-sized dehumidifier is a genuine root-cause pest tool, not just a comfort appliance.',
+    answer: 'For most Canadian basements, the best overall dehumidifier is a ~50-pint compressor unit like the hOmeLabs 50-pint (check the exact model number on Natural Resources Canada’s ENERGY STAR list if efficiency matters to you). It pulls enough moisture from a damp 1,500–2,500 sq ft basement to hold humidity in the 30–50% range, has a continuous-drain port so you never empty a bucket, and runs efficiently enough that the electricity cost is manageable over a long Canadian humid season. For a large, wet, or finished basement over ~2,500 sq ft, step up to a high-capacity Frigidaire; for the lowest running cost and noise choose an Energy Star Midea Cube; and for a small utility room a compact Waykar-class unit is enough. Anything holding relative humidity above roughly 50% is what lets silverfish, cockroaches, dust mites, and mould thrive — which is why a right-sized dehumidifier is a genuine root-cause pest tool, not just a comfort appliance.',
   },
   {
     question: 'What size dehumidifier do I need for my basement?',
@@ -48,7 +51,7 @@ const FAQS = [
   },
   {
     question: 'Will a dehumidifier get rid of silverfish and cockroaches on its own?',
-    answer: 'It removes the conditions they depend on, which is the single most durable thing you can do — but on its own it will not clear an established infestation. Silverfish and cockroaches are humidity-seeking; drop a basement from a clammy 65% RH to a steady 45% and you make it a hostile place to breed, and populations decline over weeks as the environment stops supporting them. To actually knock down insects already present, pair the dehumidifier with targeted control: a food-grade diatomaceous earth perimeter, gel baits for cockroaches, and sealing gaps. See our guides on getting rid of silverfish, getting rid of cockroaches, and using diatomaceous earth for the step-by-step. The dehumidifier is the foundation; the treatments are the cleanup.',
+    answer: 'It removes the conditions they depend on, which is the single most durable thing you can do — but on its own it will not clear an established infestation. Silverfish and cockroaches are humidity-seeking; drop a basement from a clammy 65% RH to a steady 45% and you make it a hostile place to breed, and populations decline over weeks as the environment stops supporting them. To actually knock down insects already present, pair the dehumidifier with targeted control: an insecticidal diatomaceous earth with a PCP registration number on the label, gel baits for cockroaches, and sealing gaps. See our guides on getting rid of silverfish, getting rid of cockroaches, and using diatomaceous earth for the step-by-step. The dehumidifier is the foundation; the treatments are the cleanup.',
   },
   {
     question: 'Are the cheap mini (Peltier / thermoelectric) dehumidifiers any good?',
@@ -70,11 +73,23 @@ const FAQS = [
     question: 'How do I keep a basement dehumidifier working for years?',
     answer: 'Clean the air filter every few weeks in heavy use (a clogged filter starves airflow and drops output), wipe the coils periodically, and flush the drain hose so it does not clog with dust and biofilm. Give it the recommended clearance for airflow, and do not run a compressor unit in temperatures well below its rated minimum — forcing it to fight constant frost shortens its life. At season’s end, empty and dry the bucket, run the fan-only mode briefly if it has one to dry the interior, and store it upright. Treated this way, a good compressor dehumidifier commonly lasts several seasons of Canadian use, which is what makes the higher up-front spend on an efficient, well-built unit pay off versus replacing a cheap one every year or two.',
   },
+  {
+    question: 'What size dehumidifier do I need for a 1,500 sq ft basement?',
+    answer: 'A 1,500 sq ft basement falls in the under-2,000 sq ft column of ENERGY STAR’s sizing chart: about 20 to 30 pints a day if it is slightly to moderately damp (a musty smell, 50–75% humidity), 25 to 40 pints if it is very damp with damp spots on the walls or floor, and 30 to 50 pints if the walls or floor sweat or there is seepage. Natural Resources Canada gives the same kind of ranges in litres (two pints is about one litre) and says it is better to oversize than undersize, so a damp 1,500 sq ft basement suits a 35- to 50-pint unit.',
+  },
+  {
+    question: 'Should I use two dehumidifiers in a large basement?',
+    answer: 'Only when one unit cannot reach the whole space. In an open basement, one correctly sized unit with its humidistat set to 45–50% is simpler to run than two small ones, and ENERGY STAR and Natural Resources Canada both say oversizing beats undersizing. Two units make sense when the basement is split into closed rooms that do not share air, or when it is well over 2,000 sq ft and wet: size each unit for its own area from the ENERGY STAR chart, give each one a drain hose, and check each area with a hygrometer. For a whole-home system, NRCan says to hire a professional to size and install it.',
+  },
+  {
+    question: 'What is the best cheap dehumidifier for a basement?',
+    answer: 'The cheapest dehumidifier that can actually dry a basement is a small compressor unit like the Best Budget pick, not a thermoelectric (Peltier) mini, which removes only a few hundred millilitres a day. ENERGY STAR’s chart puts a slightly to moderately damp space under 2,000 sq ft at 20 to 30 pints a day; anything larger or wetter needs more capacity. Natural Resources Canada says an ENERGY STAR certified dehumidifier uses nearly 15% less energy on average than a standard model, so a certified unit can cost less to run over a long humid season.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best basement dehumidifiers in Canada for 2026, chosen as a root-cause pest tool. Pint sizing vs sq ft, continuous-drain vs bucket, compressor vs desiccant for cold basements, and the 30–50% RH target that starves silverfish, cockroaches, dust mites, and mould.',
+  description: 'Best dehumidifier for a Canadian basement: a 50-pint unit with a humidistat and drain hose, sized by ENERGY STAR and NRCan charts, set to 45–50%.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +114,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
             <span className="text-white">Best Dehumidifier for a Basement Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A dehumidifier is one of the few appliances that doubles as a pest tool. Silverfish, cockroaches, dust mites, and mould all need damp air &mdash; hold your basement at 30&ndash;50% humidity and you starve the lot. Here is how to size, drain, and choose one for a Canadian basement.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for most Canadian basements, buy a 50-pint compressor dehumidifier with a humidistat and a drain-hose port, like the hOmeLabs 50-pint picked below, and set it to 45&ndash;50% humidity. A large or wet basement needs more capacity or a built-in pump; below 18&deg;C, Natural Resources Canada says to consider a model made for low temperatures. A dry basement is also a poor home for silverfish, house centipedes and mould.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,7 +127,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best basement dehumidifier for most Canadian homes is an Energy Star ~50-pint compressor unit like the hOmeLabs 50-pint &mdash; enough capacity to hold a damp 1,500&ndash;2,500 sq ft basement in the 30&ndash;50% humidity range, with a continuous-drain port so you never empty a bucket. Size up for a large or wet basement, choose a Midea Cube for the lowest running cost and noise, and pick a compact unit only for a small utility room. Keeping humidity below 50% is what actually starves silverfish, cockroaches, dust mites, and mould.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best basement dehumidifier for most Canadian homes is a ~50-pint compressor unit like the hOmeLabs 50-pint &mdash; enough capacity to hold a damp 1,500&ndash;2,500 sq ft basement in the 30&ndash;50% humidity range, with a continuous-drain port so you never empty a bucket. Size up for a large or wet basement, choose a Midea Cube for the lowest running cost and noise, and pick a compact unit only for a small utility room. Keeping humidity below 50% is what actually starves silverfish, cockroaches, dust mites, and mould.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Target 30&ndash;50% relative humidity &mdash; dust mites can&rsquo;t sustain populations below ~50% RH and most mould needs sustained damp above ~60%.</li>
               <li>Size by area and wetness: ~20&ndash;30 pint for a small damp space, 30&ndash;35 for a moderate one, 45&ndash;50 for a large or wet basement.</li>
@@ -186,6 +201,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <h2>Why a Dehumidifier Is a Pest Tool, Not Just a Comfort Appliance</h2>
           <p>Most buying guides treat a basement dehumidifier as a comfort purchase &mdash; less clammy air, no musty smell. That is true, but it undersells what the machine actually does. Humidity is the master variable behind four problems Canadian homeowners routinely report in basements, and all four collapse when you take the moisture away.</p>
           <p><strong>Dust mites</strong> do not drink; they absorb water vapour directly from the air through their bodies, so they physically cannot sustain a population below roughly 50% relative humidity. <strong>Silverfish</strong> and <strong>cockroaches</strong> are both strongly humidity-seeking insects that congregate wherever the air is dampest &mdash; the reason you find them in the bathroom, under the sink, and in the basement rather than the dry living room. And <strong>mould</strong> needs sustained humidity above about 60&ndash;70% (or an actively damp surface) to colonize. Hold a basement steadily at 45% RH and you are not just more comfortable; you have removed the environmental foundation all four depend on &mdash; along with the damp-loving crowd that trades on it, from <Link href="/blog/how-to-get-rid-of-earwigs-canada">earwigs pushing in from the mulch line</Link> to the <Link href="/blog/how-to-get-rid-of-centipedes-canada">house centipedes that only stay where prey is plentiful</Link>.</p>
+          <Photo id="silverfish" alt="Common silverfish, a grey segmented insect with long antennae and three tail bristles, on a pale surface" caption="A common silverfish, Lepisma saccharinum, photographed in London, Ontario. Health Canada says silverfish favour damp, cool spots at 75 to 95% relative humidity, and basements are one of the places it lists." />
           <p>That is the honest case for spending real money here. A right-sized dehumidifier is the closest thing to a root-cause fix for a chronically damp, buggy basement &mdash; it does not chase individual insects, it changes the terms of the space so the insects stop wanting to live there. This guide chooses units on that basis: whether they can hold a Canadian basement below 50% RH, reliably, all season, without you babysitting a bucket.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
@@ -197,7 +213,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
 
           <NextUp path="/blog/best-dehumidifier-for-basement-canada" />
           <h2>How to Size a Basement Dehumidifier (Pints vs Square Feet)</h2>
-          <p>Sizing is the decision that makes or breaks the purchase, and it is where most people go wrong &mdash; usually by buying too small to save money, then wondering why the unit runs non-stop and the basement is still damp. Dehumidifier capacity is rated in <strong>pints of water removed per day</strong>. Note that the rating scale changed: under the current U.S. Department of Energy test method (adopted 2019), the same physical machine is now labelled with a lower pint number than it was under the old standard, because the new test runs at a cooler, more realistic temperature. So a modern &ldquo;50-pint&rdquo; unit is roughly as capable as an old &ldquo;70-pint&rdquo; one &mdash; do not compare an old spec sheet to a new one.</p>
+          <p>Sizing is the decision that makes or breaks the purchase, and it is where most people go wrong &mdash; usually by buying too small to save money, then wondering why the unit runs non-stop and the basement is still damp. Dehumidifier capacity is rated in <strong>pints of water removed per day</strong>. Note that the rating scale changed: under the U.S. Department of Energy test method that took effect in June 2019, portable units are tested at 65&deg;F (about 18&deg;C) instead of 80&deg;F, which ENERGY STAR says better reflects a basement, so the same physical machine now carries a lower pint number. ENERGY STAR&rsquo;s conversion table puts an old 70-pint portable at about 40&ndash;45 pints on the new scale and an old 50-pint at about 30, so a modern 50-pint unit is a big machine &mdash; do not compare an old spec sheet to a new one.</p>
           <p>Here is a practical sizing table for Canadian basements under the current rating method. &ldquo;Damp&rdquo; means it feels humid; &ldquo;wet&rdquo; means you can see moisture, smell must, or find condensation on cold surfaces:</p>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6 overflow-x-auto">
             <table className="min-w-[560px] w-full text-sm">
@@ -229,6 +245,16 @@ export default function BestDehumidifierForBasementCanadaPage() {
             </table>
           </div>
           <p><strong>The golden rule: round up, never down.</strong> An oversized dehumidifier reaches your target humidity quickly and then cycles off, using little power while it idles. An undersized one runs continuously, never quite reaches target, wears out its compressor faster, and costs <em>more</em> in electricity while achieving <em>less</em>. There is one extra reason to add headroom in Canada: compressor units lose output in the cold, and basements run cool &mdash; so the pint number on the box is a best case you will rarely see in a 16&deg;C basement.</p>
+          <QuickIdTable
+            title="How much capacity: what ENERGY STAR and Natural Resources Canada say"
+            head={['Your basement without a dehumidifier', 'Under about 2,000 sq ft (185 m²)', 'Over about 2,000 sq ft']}
+            rows={[
+              ['Slightly to moderately damp: feels damp, musty smell (50–75% humidity)', '20–30 pints a day (NRCan: 10–15 L)', '30+ pints (NRCan: more than 15 L)'],
+              ['Very damp: always feels and smells damp, damp spots on walls or floor (75–90%)', '25–40 pints (NRCan: 11–20 L)', '40+ pints (NRCan: more than 20 L)'],
+              ['Wet: walls or floor sweat, seepage, laundry drying (90–100%)', '30–50 pints (NRCan: 15–25 L)', '50+ pints (NRCan: more than 25 L)'],
+            ]}
+            caption={<>Pints from ENERGY STAR&rsquo;s <a href="https://www.energystar.gov/products/dehumidifiers" target="_blank" rel="noopener noreferrer" className="underline">dehumidifier sizing chart</a> for portable units; litres from Natural Resources Canada&rsquo;s <a href="https://natural-resources.canada.ca/energy-efficiency/energy-star/products/list-certified-products/dehumidifiers" target="_blank" rel="noopener noreferrer" className="underline">ENERGY STAR dehumidifiers</a> page (modified 2025-07-23), which notes that two pints equal about one litre. Both say it is better to oversize than undersize. Read October 28, 2026.</>}
+          />
 
           <h2>Continuous Drain vs Bucket: Don&rsquo;t Buy a Machine You&rsquo;ll Turn Off</h2>
           <p>A 50-pint unit in a genuinely damp basement can fill its internal bucket in well under a day. Every time that bucket fills, the machine <strong>shuts off</strong> and humidity climbs back up until you notice and empty it &mdash; which, realistically, is not several times a day. Bucket-only operation quietly defeats the entire purpose. For a basement, you want <strong>continuous drainage</strong>, and there are two ways to get it:</p>
@@ -255,6 +281,28 @@ export default function BestDehumidifierForBasementCanadaPage() {
           </ul>
           <p>Put together, that is why the <em>Best Overall</em> and <em>Best for a Large / Wet Basement</em> picks cost what they do &mdash; and why they are usually cheaper over five years than replacing an undersized bargain unit repeatedly while the basement stays damp.</p>
 
+          <h2>Which Dehumidifier for Your Basement</h2>
+          <ul>
+            <li><strong>Open, heated basement with a floor drain or sump below the unit:</strong> a 50-pint compressor unit on a gravity hose &mdash; the <em>Best Overall</em> pick, or the <em>Best Energy-Efficient &amp; Quiet</em> Midea Cube if the basement is a living space.</li>
+            <li><strong>No drain lower than the unit</strong> (the water has to go up to a laundry sink or a window): a model with a built-in condensate pump, such as a pump-equipped trim of the <em>Best for a Large / Wet Basement</em> Frigidaire, or an add-on pump.</li>
+            <li><strong>Very damp or wet, or more than about 2,000 sq ft:</strong> read the capacity off the ENERGY STAR chart above and round up; ENERGY STAR and Natural Resources Canada both say it is better to oversize than undersize.</li>
+            <li><strong>One small utility or laundry room:</strong> the <em>Best Budget</em> compact compressor unit &mdash; not a thermoelectric mini.</li>
+            <li><strong>Colder than 18&deg;C</strong> (an unheated cellar or cold room): Natural Resources Canada says to consider a product meant for lower temperatures, and ENERGY STAR warns that frost can form on the coils below 65&deg;F. Our <Link href="/blog/best-dehumidifier-for-cold-garage-canada">cold garage dehumidifier guide</Link> covers the low-temperature options, and the <Link href="/blog/best-crawl-space-dehumidifier-canada">crawl space dehumidifier guide</Link> covers sealed crawl spaces.</li>
+            <li><strong>Water coming in</strong> (a leak, seepage after rain, a damp patch that keeps coming back): fix that first. Health Canada says to repair water leaks as soon as you notice them and to fix the underlying cause of mould (water damage, too much humidity or not enough ventilation).</li>
+            <li><strong>Silverfish, house centipedes or pill bugs already living there:</strong> the dehumidifier takes away the damp they favour; the Health Canada table further down shows what else it advises for each.</li>
+          </ul>
+
+          <h2>Basement Dehumidifier Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Capacity from the chart, rounded up.</strong> Measure the basement, judge how damp it is with no dehumidifier running, and read the pints off the ENERGY STAR chart above.</li>
+            <li><strong>A humidistat you can set to a number.</strong> Natural Resources Canada says every ENERGY STAR dehumidifier has one, and it cycles the unit on and off to hold the level you choose.</li>
+            <li><strong>ENERGY STAR, checked by model number.</strong> NRCan says a certified dehumidifier uses nearly 15% less energy on average than a standard model, and to choose the highest integrated energy factor (IEF). Look up the exact model number on <a href="https://natural-resources.canada.ca/energy-efficiency/energy-star/products/list-certified-products/dehumidifiers" target="_blank" rel="noopener noreferrer">NRCan&rsquo;s certified-product list</a>: a brand with certified models does not mean every model in its range is certified.</li>
+            <li><strong>A drain-hose fitting, or a pump.</strong> NRCan notes that some units have a fitting for a hose to a floor drain or sump; if the drain is higher than the unit, you need a built-in or add-on pump. Keep the hose away from electrical cords, as NRCan advises.</li>
+            <li><strong>A temperature range that suits the basement.</strong> Below 18&deg;C, NRCan says to consider a product meant for lower temperatures; the lowest operating temperature is in the maker&rsquo;s manual.</li>
+            <li><strong>A filter you can reach.</strong> NRCan says to clean the unit regularly, especially the filters.</li>
+            <li><strong>A separate hygrometer.</strong> Health Canada calls it an inexpensive tool available at most hardware stores. Use it to confirm the basement really holds 30&ndash;50%.</li>
+          </ol>
+
           <h2>The Honest Cheaper Alternative: When a Mini Dehumidifier Is Fine (and When It&rsquo;s a Waste)</h2>
           <p>Search &ldquo;dehumidifier&rdquo; and you will find small, quiet, inexpensive boxes with a little water tank for a fraction of the price of the units above. It is worth understanding exactly what these are, because for the wrong job they are a false economy.</p>
           <p>Almost all of these cheap minis are <strong>thermoelectric (Peltier)</strong> units. Instead of a refrigerant compressor, they use a small electronic cooling chip. They are quiet and cheap, but they remove only a <em>few hundred millilitres</em> of water per day &mdash; compare that to the several litres a day a 50-pint compressor unit pulls. In a small enclosed space &mdash; a closet, a gun safe, a small bathroom, an RV, a single musty cupboard &mdash; a Peltier mini genuinely helps. In a 1,500+ sq ft basement it is bailing a boat with a teaspoon: it will run forever, barely move the humidity, and never get you below the 50% line where pests stop breeding.</p>
@@ -275,9 +323,24 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <ul>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to get rid of silverfish in Canada</Link> &mdash; silverfish are the classic humidity pest; drying the space is half the cure.</li>
             <li><Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to get rid of cockroaches in Canada</Link> &mdash; gel baits plus a dry environment is the durable combination.</li>
-            <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous earth Canada buyer&rsquo;s guide</Link> &mdash; a food-grade DE perimeter works best precisely because a dehumidifier keeps it dry (damp DE stops working).</li>
+            <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous earth Canada buyer&rsquo;s guide</Link> &mdash; a DE perimeter (a product with a PCP registration number on the label, not a bag sold only as a feed additive) works best precisely because a dehumidifier keeps it dry (damp DE stops working).</li>
           </ul>
-          <p>The pairing matters: diatomaceous earth is a desiccant dust that loses its edge when it gets damp, so a dehumidified basement is exactly where it performs. Dry air plus a DE perimeter plus baits is a far more permanent fix than any spray on its own.</p>
+          <p>The pairing matters: diatomaceous earth is a desiccant dust that loses its edge when it gets damp, so a dehumidified basement is exactly where it performs. Health Canada puts it plainly: &ldquo;Diatomaceous earth will remain active as long as it is kept dry.&rdquo; Dry air plus a DE perimeter plus baits is a far more permanent fix than any spray on its own.</p>
+          <QuickIdTable
+            title="Basement pests and damp: what Health Canada says"
+            head={['Pest', 'Where Health Canada says it turns up', 'What Health Canada advises']}
+            rows={[
+              ['Silverfish', 'Damp, cool spots, preferring 75–95% relative humidity; often in basements, bathrooms and wall voids', '“Ventilate bathrooms and dehumidify areas of excess moisture”; wrap or insulate pipes that have too much moisture'],
+              ['Cockroaches', 'Drawn by the warm, damp conditions of kitchens, bathrooms, basements and plumbing areas', '“Ventilate bathrooms and dehumidify moist areas to reduce sources of water”; repair leaky faucets and pipes'],
+              ['House centipedes', 'Invade houses if the sub-floor, drains, basement or bathroom areas are overly damp', '“Indoors, use a dehumidifier or a small electric fan to dry out damp areas in the basement”'],
+              ['Sowbugs, pill bugs and millipedes', 'Need moist conditions; a persistent indoor infestation may indicate a serious moisture problem', 'Dry out damp areas as above, and make sure the ground slopes away from the house'],
+              ['Mould', 'Kitchens, bathrooms and basements are common problem areas', 'Keep relative humidity between 30% and 50%; repair water leaks and fix damp spots right away'],
+            ]}
+            caption={<>From Health Canada&rsquo;s pest control tips on <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/silverfish-firebrats.html" target="_blank" rel="noopener noreferrer" className="underline">silverfish and firebrats</a>, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/cockroaches.html" target="_blank" rel="noopener noreferrer" className="underline">cockroaches</a> and <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/centipedes-millipedes-sowbugs-pillbugs.html" target="_blank" rel="noopener noreferrer" className="underline">centipedes, millipedes, sowbugs and pillbugs</a>, and its <a href="https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/reduce-humidity-moisture-mould.html" target="_blank" rel="noopener noreferrer" className="underline">mould</a> page, read October 28, 2026. For any pest product, Health Canada says to look for a PCP number on the label.</>}
+          />
+          <p>Two of the damp-loving pests from that table, as people usually find them: on a wall, and on the floor. For both, Health Canada&rsquo;s advice includes drying out the damp areas of the basement.</p>
+          <Photo id="house-centipede-on-wall" alt="House centipede with very long legs and long antennae on a cracked, cream-painted wall" caption="A house centipede, Scutigera coleoptrata, on a wall (Sandusky, Ohio). Health Canada says house centipedes invade houses when the sub-floor, drains, basement or bathroom areas are overly damp." />
+          <Photo id="pill-bug-rolled-kitchen-floor" alt="Pill bug rolled into a tight grey ball on a speckled kitchen floor" caption="A pill bug (common pill woodlouse), Armadillidium vulgare, rolled into a ball on a kitchen floor in Greater Vancouver, British Columbia. Health Canada says a persistent indoor infestation of sowbugs, pill bugs or millipedes may point to a serious moisture problem." />
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

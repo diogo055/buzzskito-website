@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'vapamore-mr100-steamer-review-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
-const TITLE = 'Vapamore MR-100 Primo Review Canada 2026 — The Dry-Steam Workhorse for Bed Bugs, Tested'
-const META_TITLE = 'Vapamore MR-100 Review Canada: Bed Bug Steam'
+const UPDATED = '2026-10-28'
+const TITLE = 'Vapamore MR-100 Primo Review Canada 2026 — The Dry-Steam Workhorse for Bed Bugs'
+// TITLE NOTE (Oct 28, 2026): was 'Vapamore MR-100 Review Canada: Bed Bug Steam'; top queries, Jul 28-Oct 25 (all countries): vapamore mr-100 primo 86 at 7.2, vapamore mr-100 29 at 6.3, vapamore 15 at 6.9, vapamore mr 100 primo 6 at 8.0, mr-100 primo 5 at 6.4 (6 clicks). The H1 lost ", Tested": this site does not test products.
+const META_TITLE = 'Vapamore MR-100 Primo Canada: Specs & Bed Bugs'
 
 const FAQS = [
   {
@@ -32,15 +35,15 @@ const FAQS = [
   },
   {
     question: 'How long does the Vapamore MR-100 run on one tank?',
-    answer: 'The MR-100 holds a large boiler-fill tank and, once it reaches pressure, most owners report roughly an hour or more of continuous steaming per fill depending on how hard you run the trigger. For a single bedroom that is usually enough to do the mattress, box spring, bed frame, and baseboards in one session. The trade-off of a pressurised boiler design is that you cannot simply top it up mid-run the way you can with a continuous-fill machine — you steam until the tank empties, then depressurise and cool before refilling. Plan your work so you finish a zone before the tank runs low, and let it fully depressurise before you open the cap.',
+    answer: 'Vapamore lists 50–60 minutes of steam per tank for the MR-100, from a 1.6-litre stainless steel boiler; how long you actually get depends on how hard you run the trigger. For a single bedroom that is usually enough to do the mattress, box spring, bed frame, and baseboards in one session. The trade-off of a pressurised boiler design is that you cannot simply top it up mid-run the way you can with a continuous-fill machine — you steam until the tank empties, then depressurise and cool before refilling. Plan your work so you finish a zone before the tank runs low, and let it fully depressurise before you open the cap.',
   },
   {
     question: 'How hot does the Vapamore MR-100 get?',
-    answer: 'Vapamore rates the MR-100 boiler in the region of 210–290°F (roughly 100–143°C) at the boiler, though the temperature at the nozzle tip and, crucially, at the fabric surface is always lower than the boiler figure and drops the further the tip sits from the surface. That is why the number on the box is less important than technique: hold the concentrator or brush close, move it slowly — think one to two centimetres per second — and let the heat dwell. Done that way the surface comfortably passes the ~60°C lethal threshold for bed bugs and eggs. Wave it around quickly from several inches away and even a very hot boiler will not kill anything.',
+    answer: 'Vapamore rates the MR-100 at 210–220°F (about 99–104°C) of steam at up to 50 psi, though the temperature at the nozzle tip and, crucially, at the fabric surface is always lower than the boiler figure and drops the further the tip sits from the surface. Health Canada sets the bar well below that: "Bedbugs die at 50°C and steam cleaners generally emit steam at a temperature of at least 100°C." That is why the number on the box is less important than technique: hold the concentrator or brush close, move it slowly — think one to two centimetres per second — and let the heat dwell. Done that way the surface comfortably passes the ~60°C lethal threshold for bed bugs and eggs. Wave it around quickly from several inches away and even a very hot boiler will not kill anything.',
   },
   {
     question: 'MR-100 vs Dupray Neat — which is better for bed bugs?',
-    answer: 'They are both strong dry-vapour steamers and the honest answer is that either will do the job with good technique. The Dupray Neat is prized for a very well-sealed all-metal build and long boiler life; the Vapamore MR-100 is prized for its accessory kit, its continuous popularity with hands-on operators, and Vapamore\'s lifetime-warranty reputation. The MR-100 ships with a generous set of nozzles and brushes out of the box, which matters for bed-bug work because the concentrator and small brush are what deliver heat into seams. If you want the widest accessory set in the box and a well-supported warranty, the MR-100 is the pick; if a slightly more premium sealed body is your priority, look at the Neat. See our dedicated Dupray review and our head-to-head steamer comparison to go deeper.',
+    answer: 'They are both strong dry-vapour steamers and the honest answer is that either will do the job with good technique. On the makers\' own spec pages they are close: both have a stainless steel boiler of about 1.6 litres, 50 psi and 1500 W. Dupray rates the Neat\'s steam at up to 135°C (275°F) produced inside the boiler, up to 50 minutes a tank and 9 lb, with a plastic body, a 17-piece kit, a 2-year limited warranty and a lifetime warranty on the boiler; Vapamore rates the MR-100 at 210–220°F steam, 50–60 minutes a tank and 10.5 lb, with a lifetime warranty. The MR-100 ships with a generous set of nozzles and brushes out of the box, which matters for bed-bug work because the concentrator and small brush are what deliver heat into seams. If you want the widest accessory set in the box, the MR-100 is the pick; if a lighter machine with a hotter rated boiler appeals more, look at the Neat, and check its batch code against Dupray\'s February 2026 safety-cap recall. See our dedicated Dupray review and our head-to-head steamer comparison to go deeper.',
   },
   {
     question: 'Can the MR-100 kill bed bug eggs, not just adults?',
@@ -70,11 +73,19 @@ const FAQS = [
     question: 'Does steaming alone get rid of bed bugs, or do I need more?',
     answer: 'Steaming alone rarely eradicates an established infestation, because steam only kills what it directly touches and bed bugs hide in voids the plume cannot reach. Steam is the frontline killing tool for everything you can see and access — seams, tufts, frame joints, baseboards — but it needs partners: mattress and box-spring encasements to trap and starve what survives, interceptor traps under the legs to monitor whether numbers are falling, and for a heavy or spreading problem, a whole-room heat treatment or heat chamber for items you can bag. Think of the MR-100 as the most important single tool in a kit, not the whole kit.',
   },
+  {
+    question: 'How long does the Vapamore MR-100 Primo take to heat up?',
+    answer: 'About 11 minutes, by Vapamore\'s own spec sheet. Wait for the green light, which Vapamore\'s manual says means the unit is fully heated and ready, before the first pass, and aim the first burst at a towel to catch any water (University of Minnesota Extension\'s tip); fabric should end up damp, not wet. Once it is up to pressure, Vapamore lists 50–60 minutes of steam per 1.6-litre tank. When the tank runs low, switch off, let the machine depressurise and cool, then refill. The MR-100 has a single boiler, not a separate continuous-fill reservoir, so a big job means planning one cool-down break.',
+  },
+  {
+    question: 'What comes in the box with the Vapamore MR-100 Primo?',
+    answer: 'Vapamore\'s accessory list includes a floor cleaning head, a triangle corner brush, two extension tubes, the steam gun and hose, a carpet slider, a microfibre floor pad, a detail accessory adapter, a jet nozzle tool, a detail scraper tool, a nylon grout brush, medium and large nylon brushes, a brass metal brush, a clothes and fabric tool with a cotton cover, a smooth-surface squeegee, a water-level dipstick, a measuring cup, a fill funnel, a storage bag and a spare O-ring set. For bed bugs, University of Minnesota Extension advises against a pinpoint nozzle, which can blow bed bugs away, and suggests a floor or upholstery attachment; here, that is the floor head or the fabric tool. The machine runs on 120 V, with an 18-foot cord and a 6-foot steam hose.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Hands-on Canadian review of the Vapamore MR-100 Primo dry-steam cleaner for bed bugs: how hot it really gets, dry vs wet steam, run time, the accessories that matter, MR-100 vs Dupray Neat, and whether the price is worth it. Updated 2026.',
+  description: 'Vapamore MR-100 Primo specs from Vapamore (1.6 L boiler, 210–220°F, 50–60 min a tank), how to steam bed bugs with it, and how it compares with the Dupray Neat.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +110,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
             <span className="text-white">Vapamore MR-100 Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The Vapamore MR-100 Primo is the dry-vapour steamer you see in hands-on pest kits again and again. Here is how hot it really gets at the fabric, why &ldquo;dry&rdquo; steam kills bed bugs where wet steam scatters them, and whether the price earns its place in a Canadian DIY plan.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The Vapamore MR-100 Primo is a corded dry-vapour steam cleaner with a 1.6-litre stainless steel boiler that Vapamore rates at 210&ndash;220&deg;F steam, 50&nbsp;psi and 50&ndash;60 minutes a tank. Health Canada says bed bugs die at 50&deg;C, so it has heat to spare: what decides the result is a slow pass over every seam. It suits a Canadian household ready to do that work itself, alongside encasements and interceptor traps.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -116,7 +127,7 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>&ldquo;Dry&rdquo; steam (~5% moisture) kills without soaking the mattress &mdash; and without blowing bugs off the surface the way wet, spitting steam does.</li>
               <li>Boiler heat is only half of it &mdash; a <strong>slow pass</strong> (1&ndash;2&nbsp;cm/sec) with the concentrator is what actually kills; waving it fast from inches away does nothing.</li>
-              <li>Roughly an hour-plus of steaming per boiler fill &mdash; enough for one bedroom &mdash; but you cannot top up mid-run on a pressurised boiler.</li>
+              <li>Vapamore lists 50&ndash;60 minutes of steam per 1.6&nbsp;L fill &mdash; enough for one bedroom &mdash; but you cannot top up mid-run on a pressurised boiler.</li>
               <li>The concentrator and detail brush are the bed-bug tools; the wide floor head spreads and cools the plume below lethal.</li>
               <li>Steam only kills what it touches &mdash; it is the frontline tool in a kit, not a whole eradication plan on its own.</li>
             </ul>
@@ -178,8 +189,8 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dupray Neat<br /><span className="font-normal text-xs text-gray-500">premium sealed body</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; all-metal, long boiler life</td>
-                  <td className="px-4 py-3 text-gray-700">Buyers who want the most sealed, durable build</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Strong</strong> &mdash; stainless boiler, lifetime boiler warranty</td>
+                  <td className="px-4 py-3 text-gray-700">Buyers who want a lighter machine (9&nbsp;lb, per Dupray)</td>
                   <td className="px-4 py-3 text-gray-700">Smaller stock kit than the MR-100</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dupray neat steam cleaner" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
@@ -219,6 +230,34 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
           <p>The Vapamore MR-100 Primo is a corded, canister-style <strong>dry-vapour steam cleaner</strong> built around a stainless-steel boiler, and it has spent years as a quiet favourite of hands-on operators fighting bed bugs. It is not a specialised &ldquo;bed-bug machine&rdquo; &mdash; it is a general dry-steam cleaner &mdash; but the qualities that make a good dry-steam cleaner are exactly the qualities that kill bed bugs: a boiler that holds real pressure, a plume that is genuinely low-moisture, and a set of narrow nozzles that can drive heat into a mattress seam. Buy it if you have an active or suspected bed-bug problem and you are committed to doing the hands-on work of steaming every harbourage yourself. Skip it if you want a set-and-forget solution &mdash; no steamer is that.</p>
           <p>What follows is an honest, technique-first review: how hot it actually gets where it matters, why the &ldquo;dry&rdquo; in dry steam is the whole point, how long it runs, which accessories do the killing, and how it stacks up against the Dupray Neat that shoppers always cross-reference. If you want the broader landscape first, our <Link href="/blog/best-bed-bug-steamer-canada">best bed-bug steamer roundup</Link> compares the whole category; this page is the deep dive on the MR-100 specifically.</p>
 
+          <QuickIdTable
+            title="Vapamore MR-100 Primo specs, beside the Dupray Neat"
+            head={['Spec', 'Vapamore MR-100 Primo', 'Dupray Neat']}
+            rows={[
+              ['Boiler', '1.6 L, stainless steel', '1.6 L (54 oz), stainless steel, in a plastic body'],
+              ['Steam temperature', '210–220°F (about 99–104°C)', 'Up to 275°F (135°C), produced inside the boiler'],
+              ['Pressure', '50 psi (3.5 bar) maximum', '50 psi (3.5 bar)'],
+              ['Heat-up time', '11 minutes', '8 minutes'],
+              ['Steam per tank', '50–60 minutes', 'Up to 50 minutes'],
+              ['Refilling', 'One boiler; no separate continuous-fill tank on Vapamore’s spec list', 'The boiler must cool before refilling'],
+              ['Power and reach', '1500 W, 120 V; 18 ft cord, 6 ft steam hose', '1500 W, 120 V; 16 ft cord, 6 ft 6 in hose'],
+              ['Weight', '10.5 lb', '9 lb'],
+              ['Nozzles and brushes in the box', 'Floor head, fabric tool, triangle corner brush, jet nozzle tool, brass and nylon brushes', '17-piece kit with a floor tool, triangle tool, steam lance, and brass and nylon brushes'],
+              ['Warranty', 'Lifetime warranty', '2-year limited warranty; lifetime warranty on the boiler'],
+              ['Safety notice', '—', 'Voluntary recall, February 2026: batch codes 0118-01 to 0425-05 (model DUP020WNA) get a free replacement safety cap'],
+            ]}
+            caption={<>From the makers&rsquo; own pages, checked October 28, 2026: Vapamore&rsquo;s <a href="https://www.vapamore.com/pages/mr-100-primo-steam-cleaning-system" target="_blank" rel="noopener noreferrer" className="underline">MR-100 Primo</a> specifications and Dupray&rsquo;s <a href="https://dupray.com/en-ca/products/neat-steam-cleaner" target="_blank" rel="noopener noreferrer" className="underline">Neat</a> specifications and FAQ. The two makers do not state their steam temperatures the same way, so read those two cells as each maker&rsquo;s own figure. For scale: &ldquo;Bedbugs die at 50&deg;C&rdquo; (<a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Health Canada</a>).</>}
+          />
+
+          <h3>Before You Buy: A Five-Point Check</h3>
+          <ul>
+            <li><strong>Your outlet:</strong> the MR-100 is a 1500&nbsp;W, 120&nbsp;V, 60&nbsp;Hz machine with an 18&nbsp;ft cord, so it runs from an ordinary Canadian household outlet.</li>
+            <li><strong>The right attachment:</strong> University of Minnesota Extension suggests a floor or upholstery attachment rather than a pinpoint nozzle, which can blow bed bugs away; Vapamore&rsquo;s accessory list includes a floor head and a fabric tool, so there is nothing extra to buy.</li>
+            <li><strong>Tank versus job:</strong> 50&ndash;60 minutes of steam per fill covers about one bedroom. A second room means a cool-down and a refill in between.</li>
+            <li><strong>Patience at the start:</strong> about 11 minutes to heat; wait for the green ready light, then aim the first burst at a towel to catch any water.</li>
+            <li><strong>The rest of the kit:</strong> steam only kills what it reaches, so budget for a <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement</Link> and <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> alongside it. Health Canada also says to steam first and vacuum after, &ldquo;as the steam will flush any bedbugs not killed out of hiding.&rdquo;</li>
+          </ul>
+
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the MR-100 and the steamers people cross-shop:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="vapamore mr-100 primo steam cleaner">Vapamore MR-100 Primo →</BuyLink>
@@ -228,15 +267,20 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
 
           <NextUp path="/blog/vapamore-mr100-steamer-review-canada" />
           <h2>Heat at the Fabric Is the Only Number That Matters</h2>
-          <p>Every steamer marketing sheet leads with a boiler temperature &mdash; Vapamore rates the MR-100 boiler in the region of 210&ndash;290&deg;F (roughly 100&ndash;143&deg;C). It is a genuinely hot boiler, but that figure is not the number that kills bed bugs. The number that kills bed bugs is the temperature at the <em>fabric surface</em>, and that is always lower than the boiler reading and drops fast the further the nozzle sits from the surface. Bed bugs and their eggs die at roughly <strong>60&deg;C / 140&deg;F</strong> on contact, so the whole game is delivering enough of the boiler&rsquo;s heat to the surface, and holding it there long enough, to clear that threshold.</p>
+          <p>Every steamer marketing sheet leads with a boiler temperature &mdash; Vapamore rates the MR-100&rsquo;s steam at 210&ndash;220&deg;F (about 99&ndash;104&deg;C) at up to 50&nbsp;psi. It is genuinely hot steam, but that figure is not the number that kills bed bugs. The number that kills bed bugs is the temperature at the <em>fabric surface</em>, and that is always lower than the boiler reading and drops fast the further the nozzle sits from the surface. Bed bugs and their eggs die at roughly <strong>60&deg;C / 140&deg;F</strong> on contact, so the whole game is delivering enough of the boiler&rsquo;s heat to the surface, and holding it there long enough, to clear that threshold. Health Canada&rsquo;s own figure is lower still: &ldquo;Bedbugs die at 50&deg;C and steam cleaners generally emit steam at a temperature of at least 100&deg;C.&rdquo;</p>
           <p>The MR-100 has more than enough boiler heat to do this. What it cannot do is compensate for bad technique. Hold the concentrator two or three centimetres from a mattress seam and creep it along at one to two centimetres per second, and the surface easily passes 60&deg;C and the bugs and eggs in that seam die. Wave the same nozzle six inches away at a brisk pace and the surface never gets close &mdash; the steam cools and disperses in the air gap before it lands. This is the single most important thing to internalise: <strong>the machine supplies heat, but you supply the kill</strong>, through proximity and a slow pass.</p>
+          <Photo
+            id="bed-bugs-eggs-mattress-seam"
+            alt="Bed bugs and their small white eggs on a bed"
+            caption="Bed bugs with their white eggs on a bed, as the photographer describes it. Eggs are cemented into seams and folds like these, which is why the steam has to creep along every seam rather than sweep across it."
+          />
 
           <h2>Why &ldquo;Dry&rdquo; Steam Is the Feature You Are Actually Buying</h2>
           <p>&ldquo;Dry vapour&rdquo; steam is low-moisture steam, often cited at around 5% water content, produced when a pressurised boiler superheats the vapour until most of the liquid has flashed off. It sounds like a marketing distinction; it is actually the difference between a steamer that kills bed bugs and one that spreads them. Here is why it matters on two fronts.</p>
           <p>First, <strong>scatter</strong>. A wet, low-pressure steamer that spits droplets does not just deliver heat &mdash; it delivers <em>force</em>, and that force can physically blow live bed bugs and loose eggs off a surface and into the surrounding room before the heat kills them. You end up redistributing the infestation. A genuinely dry plume, like the MR-100 delivers once it is at pressure, carries heat without the blasting water that scatters. Second, <strong>moisture</strong>. Wet steam soaks a mattress, and a saturated mattress is slow to dry and can grow mildew. The MR-100&rsquo;s dry steam leaves fabric lightly damp and sleepable the same day. The one caveat: even a good machine spits if you start before it is fully pressurised, so <strong>wait for full pressure</strong> before the first pass.</p>
 
           <h2>Run Time, Refilling, and the Pressurised-Boiler Trade-off</h2>
-          <p>The MR-100 uses a large boiler-fill tank, and most owners get roughly an hour or more of continuous steaming per fill, depending on how hard the trigger is worked. For a single bedroom, that is usually enough to steam the mattress top and bottom, the box spring, the frame joints, the headboard, and the baseboards in one session. That is a real advantage over small handhelds that run dry in minutes.</p>
+          <p>The MR-100 uses a 1.6-litre stainless steel boiler, and Vapamore lists 50&ndash;60 minutes of steam per tank, depending on how hard the trigger is worked. For a single bedroom, that is usually enough to steam the mattress top and bottom, the box spring, the frame joints, the headboard, and the baseboards in one session. That is a real advantage over small handhelds that run dry in minutes.</p>
           <p>The trade-off of a pressurised-boiler design is that you cannot top it up on the fly. A continuous-fill machine lets you pour water into a separate reservoir while it runs; a boiler machine like the MR-100 must be <em>depressurised and cooled</em> before you open the cap to refill. In practice that means planning your work so you finish a zone before the tank runs low, and building in a cool-down break if you need a second fill for a large room. It is a minor operational quirk, not a flaw &mdash; but it is worth knowing before you start so a mid-mattress run-dry does not catch you out. Never force the cap on a hot, pressurised boiler; let it release fully first.</p>
 
           <h2>The Accessories That Do the Killing (and the Ones That Do Not)</h2>
@@ -258,11 +302,16 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
             <li><strong>Finish with the baseboards and carpet edge</strong> around the bed, the junction where wall meets floor being a primary travel route.</li>
             <li><strong>Repeat weekly</strong> for several weeks. Steam kills on contact but does not leave a residual, so re-treating catches anything that hatched or emerged from a void between sessions.</li>
           </ol>
+          <Photo
+            id="bed-bug-fecal-spots-bed-frame"
+            alt="Black bed bug fecal stains on a wooden bed frame"
+            caption="Black bed bug fecal spots on a wooden bed frame, left near where the bugs hid (New York State IPM Program at Cornell University). Stains like these mark the joints and cracks to give the slowest pass."
+          />
           <p>Pair every session with a <Link href="/blog/bed-bug-mattress-encasement-canada">zippered mattress and box-spring encasement</Link> to trap and starve anything the steam missed inside, and <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under each bed leg so you can actually see, week over week, whether the count is dropping. For the full home-wide protocol, our guide on <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">how to get rid of bed bugs in Canada</Link> puts the steamer in context with everything else.</p>
 
           <h2>MR-100 vs Dupray Neat vs McCulloch: The Honest Cross-Shop</h2>
           <p>Three machines come up over and over when people research the MR-100, and it is worth being straight about where each lands.</p>
-          <p>The <strong>Dupray Neat</strong> is the machine most cross-shopped against the MR-100, and both are legitimately good. The Neat is prized for a very well-sealed all-metal body and long boiler life; the MR-100 is prized for a fuller accessory kit in the box, a long track record with hands-on operators, and Vapamore&rsquo;s warranty support. Neither is a wrong answer for bed bugs. If you want the widest set of nozzles and brushes out of the box, lean MR-100; if a slightly more premium sealed body is your priority, look at the Neat. Our <Link href="/blog/dupray-steamer-review-canada">Dupray steamer review</Link> and our <Link href="/blog/dupray-vs-mcculloch-steamer-canada">Dupray vs McCulloch head-to-head</Link> go deeper on those two.</p>
+          <p>The <strong>Dupray Neat</strong> is the machine most cross-shopped against the MR-100, and both are legitimately good. The Neat pairs a stainless steel boiler with a plastic body, and Dupray backs it with a 2-year limited warranty plus a lifetime warranty on the boiler; the MR-100 is prized for a fuller accessory kit in the box, a long track record with hands-on operators, and Vapamore&rsquo;s lifetime warranty. Neither is a wrong answer for bed bugs. If you want the widest set of nozzles and brushes out of the box, lean MR-100; if a lighter machine matters more (Dupray lists 9&nbsp;lb against Vapamore&rsquo;s 10.5&nbsp;lb), look at the Neat. The spec table near the top of this article puts the two side by side. Our <Link href="/blog/dupray-steamer-review-canada">Dupray steamer review</Link> and our <Link href="/blog/dupray-vs-mcculloch-steamer-canada">Dupray vs McCulloch head-to-head</Link> go deeper on those two.</p>
           <p>The <strong>McCulloch MC1275</strong> is the value option: a big accessory set at a lower price, but with wetter steam that is more prone to spitting, which for bed bugs specifically is a real disadvantage &mdash; it is a capable general cleaner first and a bed-bug tool second. And the <strong>cheap handheld steamers</strong> that flood the marketplace are the ones to avoid for an actual infestation: most cannot hold pressure, spit water, and scatter bugs. They are fine for a single suspected bug or a precautionary once-over, not for a real problem.</p>
 
           <h2>How to Choose a Bed-Bug Steamer: What You Are Actually Paying For</h2>

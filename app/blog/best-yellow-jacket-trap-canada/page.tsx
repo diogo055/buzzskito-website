@@ -15,12 +15,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'best-yellow-jacket-trap-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Yellow Jacket Traps in Canada — And the Lure Mistake That Leaves Ontario Traps Empty'
-const META_TITLE = 'Best Yellow Jacket Traps & Bait in Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Best Yellow Jacket Traps & Bait in Canada'; top queries, Jul 28-Oct 25 (all countries): yellow jacket trap 1,494 at 10.6, yellow jacket traps 434 at 9.7, yellowjacket trap 317 at 9.9, best yellow jacket trap 195 at 6.8, yellow jacket traps that work 77 at 7.3, yellow jacket bait 43 at 6.6 (17 clicks).
+const META_TITLE = 'Yellow Jacket Traps & Bait That Work in Canada'
 
 const FAQS = [
   {
@@ -65,7 +69,7 @@ const FAQS = [
   },
   {
     question: 'Can I use US-bought yellow jacket sprays or poison baits in Canada?',
-    answer: 'Legally, no — and practically, you should not want to. Pesticides sold in Canada must be registered with Health Canada\'s PMRA and carry a PCP number on the label; US-labelled products like Spectracide Wasp & Hornet Killer or the toxicant-laced yellow jacket bait stations sold on US websites are grey-market here, with no Canadian label directions and, for poison baits, real risk to birds, pets, and pollinators that share the bait. Traps sidestep the whole issue: they are devices, not pesticides, so they need no PCP registration — every trap in this guide is fully legal in every province.',
+    answer: 'Legally, no — and practically, you should not want to. Pesticides sold in Canada must be registered with Health Canada\'s PMRA and carry a PCP number on the label; US-labelled products like Spectracide Wasp & Hornet Killer or the toxicant-laced yellow jacket bait stations sold on US websites are grey-market here, with no Canadian label directions and, for poison baits, real risk to birds, pets, and pollinators that share the bait. Traps do not sidestep the rule: a lure counts as a pest control product too, and Health Canada’s registry lists RESCUE!’s heptyl butyrate trap, cartridge and tube (PCP 35529, 35530 and 35531, first registered in December 2025), so look for a PCP number on any baited trap or refill.',
   },
   {
     question: 'How many yellow jacket traps do I need?',
@@ -75,15 +79,24 @@ const FAQS = [
     question: 'Are yellow jacket traps reusable?',
     answer: 'The good ones are. The RESCUE! Reusable Yellowjacket Trap body lasts for years — you replace only the attractant cartridge every few weeks during the season. Disposable bag traps are single-use by design: hang, fill, bin. Bottle-style and glass traps are indefinitely reusable but depend on you supplying and refreshing the bait weekly. Over a full Canadian season, a reusable trap plus cartridges usually works out cheaper than repeatedly buying disposables, and it is the better choice for anyone trapping every year.',
   },
+  {
+    question: 'What attractant is in a yellow jacket trap?',
+    answer: 'Most commercial yellowjacket traps use a chemical lure rather than food. Health Canada’s registry lists three heptyl butyrate products from RESCUE!’s maker, first registered in December 2025: the Disposable Yellowjacket Trap W, the Yellowjacket Trap Cartridge and the Yellowjacket Trap Tube. Heptyl butyrate is the lure western species respond to, and RESCUE! says its nationwide reusable trap uses a lure similar to its Western formula, while its Eastern formula disposable is designed for the species more common east of the Rockies. A bottle trap uses whatever bait you add: protein until July, sugar from August.',
+  },
+  {
+    question: 'How long does a RESCUE! yellow jacket trap last?',
+    answer: 'The reusable trap body lasts for years; the lure is what runs out. RESCUE! says the lure in its reusable trap lasts about 2 to 4 weeks depending on conditions, and it sells a 4-week liquid refill and a 10-week cartridge refill. The disposable bag works until its liquid dries out or it fills with insects, which RESCUE! puts at 2 to 4 weeks for most traps; heat and sun shorten that. Replace a full or dried-out bag while yellowjackets are still flying.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Four yellow jacket traps ranked for Canadian yards, the East vs West lure mix-up on RESCUE! disposables, protein-vs-sugar bait timing, and where to hang them.',
+  description: 'Yellow jacket traps that work in Canada: the RESCUE! reusable or the right-formula bag, hung 6+ m from the patio, with protein bait early and sugar late.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('eastern-yellowjacket-live'),
 })
 
 const AMZ_TAG = tagForSlug('best-yellow-jacket-trap-canada')
@@ -91,7 +104,7 @@ const AMZ_TAG = tagForSlug('best-yellow-jacket-trap-canada')
 export default function BestYellowJacketTrapCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of yellow jacket traps — reusable attractant, multi-species, disposable, and refillable bottle traps — with the East vs West attractant SKU warning, seasonal bait science, and placement rules.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian comparison of yellow jacket traps — reusable attractant, multi-species, disposable, and refillable bottle traps — with the East vs West attractant SKU warning, seasonal bait science, and placement rules.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('eastern-yellowjacket-live') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Yellow Jacket Trap Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -104,7 +117,7 @@ export default function BestYellowJacketTrapCanadaPage() {
             <span className="text-white">Best Yellow Jacket Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Reusable attractant traps, multi-species traps, disposables, and DIY-baited bottles compared for the August&ndash;September aggression peak &mdash; plus the &ldquo;West of the Rockies&rdquo; attractant mistake that leaves Ontario traps hanging empty.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The yellow jacket traps that work are lure traps such as the RESCUE! reusable, hung 6 metres or more from where you sit, along the edge of the yard. If you bait a bottle trap yourself, use protein until July and sugar from August. A trap thins the foragers around your patio; it never removes the nest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -124,7 +137,7 @@ export default function BestYellowJacketTrapCanadaPage() {
               <li>Most Ontario yellow jacket colonies nest underground or in wall voids, and reach 1,000&ndash;4,000+ workers by the late-August aggression peak.</li>
               <li>Placement rule: 6 metres (20 ft) or more from seating areas, along the perimeter, sunny, 1&ndash;2 m off the ground.</li>
               <li>Traps intercept foragers and cut patio pressure; no trap kills the colony &mdash; an active nest is a separate treatment job.</li>
-              <li>Traps are devices, not pesticides &mdash; no PMRA registration needed, unlike grey-market US sprays and poison baits.</li>
+              <li>Baited traps are pest control products in Canada: Health Canada&rsquo;s registry lists RESCUE!&rsquo;s heptyl butyrate trap, cartridge and tube (PCP 35529&ndash;35531, first registered in December 2025), so look for a PCP number on any trap or refill, as you would on a spray.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
             <div className="mt-4">
@@ -191,6 +204,18 @@ export default function BestYellowJacketTrapCanadaPage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
+          <QuickIdTable
+            title="Yellow jacket traps compared: how each works, who it suits, its limits"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['RESCUE! reusable trap', 'A lure inside draws yellowjackets in; RESCUE! says the lure lasts about 2 to 4 weeks, with 4-week liquid and 10-week cartridge refills', 'Trapping every year, from spring queens to autumn workers', 'Yellowjackets only: RESCUE! says it will not catch hornets or paper wasps, and its one nationwide lure is similar to the Western formula'],
+              ['RESCUE! disposable bag', 'Add water to activate the powdered lure; it works until the liquid dries out or the bag is full, usually 2 to 4 weeks (RESCUE!)', 'A cottage, an event weekend or a rural fence line, with nothing to empty', 'Single use; sold in East and West formulas, and Health Canada’s December 2025 registration names the West (W) bag'],
+              ['RESCUE! W·H·Y Trap', 'A dual-chamber trap with attractants for yellow jackets, paper wasps and bald-faced hornets', 'Mixed wasp trouble when you cannot tell which wasp it is', 'More attractant parts to keep up; see the full W·H·Y Trap review'],
+              ['Bottle trap you bait yourself', 'Your own bait: protein from May to July, sugar from August', 'Hands-on owners who will refresh the bait every 2 to 3 days', 'Sweet bait draws honey bees unless you add vinegar, and the catch is only as good as the bait'],
+            ]}
+            caption={<>Checked October 28, 2026: RESCUE!&rsquo;s <a href="https://www.rescue.com/products/traps/reusable-yellowjacket-trap/" target="_blank" rel="noopener noreferrer" className="underline">reusable</a> and <a href="https://www.rescue.com/products/traps/disposable-yellowjacket-trap/" target="_blank" rel="noopener noreferrer" className="underline">disposable</a> trap pages and its <a href="https://www.rescue.com/latest-buzz/outdoor-pests/disposable-yellowjacket-trap-east-or-west/" target="_blank" rel="noopener noreferrer" className="underline">East or West</a> article; Health Canada&rsquo;s registration decision <a href="https://publications.gc.ca/site/eng/9.958298/publication.html" target="_blank" rel="noopener noreferrer" className="underline">RD2025-10</a> (12 December 2025). The W·H·Y and bottle-trap rows restate this page&rsquo;s own sections.</>}
+          />
+
           <h2>The SKU Mistake That Leaves Ontario Traps Empty</h2>
           <p>Start with the single most useful thing in this guide, because almost nobody selling yellow jacket traps in Canada mentions it: <strong>RESCUE! makes two different attractant formulas for its DISPOSABLE traps, and the wrong one barely works east of the Rockies.</strong> (The reusable trap has no regional versions &mdash; RESCUE! sells it nationwide with a single lure that the company itself describes as similar to the Western formula.)</p>
           <p>The trap sold as <strong>YJTD-W</strong> &mdash; the &ldquo;W&rdquo; stands for <em>West of the Rockies</em> &mdash; is built around heptyl butyrate, a lure that western yellowjacket species respond to powerfully. The problem: the species doing the damage in Ontario, Quebec, and the Maritimes are the <em>eastern yellowjacket</em>, the <em>German yellowjacket</em>, and the <em>common yellowjacket</em> &mdash; and they respond poorly to heptyl butyrate. RESCUE! knows this, which is why the company sells a separate East formulation of the DISPOSABLE trap, with a different attractant blend, for everywhere else in North America. Note that this regional split applies to the disposable only — the reusable trap has no East version.</p>
@@ -200,7 +225,9 @@ export default function BestYellowJacketTrapCanadaPage() {
 
           <h2>Know Your Enemy: Why Yellow Jackets Are a Different Problem</h2>
           <p>Yellow jackets are not the wasps building the little umbrella combs under your eaves &mdash; those are paper wasps, comparatively docile and covered in our <Link href="/blog/best-wasp-trap">general wasp trap guide</Link>. Yellow jackets are stockier, faster, brighter, and far more aggressive, and in southern Ontario most of their colonies are <strong>nests you cannot see</strong>: underground in abandoned rodent burrows, or inside wall voids, sheds, and retaining walls. You find them the hard way &mdash; running a lawnmower over the entrance hole, or watching a steady stream of traffic in and out of a gap in the patio stones.</p>
+          <Photo id="eastern-yellowjacket-live" alt="Eastern yellowjacket, a black and yellow wasp, resting on fabric" caption="An eastern yellowjacket, Vespula maculifrons, on fabric (Leominster, Massachusetts). It is one of the three yellowjackets this page says dominate Ontario, Quebec and the Maritimes." />
           <p>The colony math explains the calendar. A single overwintered queen starts a nest alone in May. Through June and July the colony grows quietly &mdash; a few dozen, then a few hundred workers &mdash; and mostly ignores you, because it is busy hunting insects. By late August a mature colony holds <strong>1,000 to 4,000+ workers</strong>, larval production is winding down, and the workforce is food-stressed, defensive, and scavenging hard for sugar. That is the August&ndash;September aggression peak: the same yard that was fine in July suddenly has yellow jackets mobbing every pop can, and stings spike accordingly. Every colony dies with the hard frosts; only the season&rsquo;s newly mated queens overwinter to start next year&rsquo;s cycle.</p>
+          <Photo id="yellowjacket-paper-nest" alt="Yellowjacket paper nest built inside the lid of a storage box, beside a tape measure" caption="A yellowjacket paper nest built inside the lid of a storage box, with a tape measure for scale (Lake Forest Park, Washington). Nests hidden in sheds and voids are the ones you find the hard way." />
           <p>Trapping strategy falls straight out of that biology, in three rules: match the bait to the colony&rsquo;s current appetite, place traps to intercept foragers away from you, and be honest that a trap thins the workforce without touching the nest.</p>
 
           <h2>How the Four Trap Styles Compare</h2>
@@ -218,7 +245,7 @@ export default function BestYellowJacketTrapCanadaPage() {
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Reusable Yellowjacket<br /><span className="font-normal text-xs text-gray-500">one nationwide attractant</span></td>
-                  <td className="px-4 py-3 text-gray-700">Species-matched cartridge, weeks per refill; bee-safe</td>
+                  <td className="px-4 py-3 text-gray-700">One nationwide lure, which RESCUE! says is similar to its Western formula; about 2&ndash;4 weeks per lure</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; body lasts years</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best overall on durability and cost per season</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap" block>Check price on Amazon.ca →</BuyLink></td>
@@ -247,7 +274,7 @@ export default function BestYellowJacketTrapCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600">All four are mechanical devices, not pesticides &mdash; none require PMRA registration, so all are legal in every province. Retail pricing runs from pocket change for a disposable bag to a modest one-time spend for the reusable bodies, with attractant refills the only recurring cost.</p>
+          <p className="text-sm text-gray-600">In Canada a trap sold to attract flying insects, and the lure inside it, fall under the Pest Control Products Act: Health Canada&rsquo;s registry lists RESCUE!&rsquo;s heptyl butyrate disposable (W), cartridge and tube (PCP 35529&ndash;35531, first registered in December 2025), so check any trap or refill for a PCP number. Disposable bags are the cheapest way to start and the reusable bodies a one-time spend, with lure refills the only recurring cost.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -255,6 +282,26 @@ export default function BestYellowJacketTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket">RESCUE! WHY Trap →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Disposable bag traps →</BuyLink>
           </div>
+
+          <h2 id="situation">Which Yellow Jacket Trap for Your Situation?</h2>
+          <ul>
+            <li><strong>Yellow jackets at the patio table in August and September:</strong> two to four traps along the edge of the yard, 6 metres (20 ft) or more from seating, on the side they arrive from. RESCUE! says to hang its traps at least 20 feet from patios, decks and play areas, on trees, fence lines or the edge of the yard.</li>
+            <li><strong>You want fewer nests next year:</strong> hang one trap in spring. RESCUE! says to start when days reach about 13&deg;C (55&deg;F), because early traps catch queens before they build nests.</li>
+            <li><strong>A cottage, a rural property or one event weekend:</strong> disposable bags you hang, fill and throw out full.</li>
+            <li><strong>You cannot tell which wasp is the problem:</strong> the W·H·Y Trap, which also covers paper wasps and hornets; RESCUE! says its yellowjacket traps do not.</li>
+            <li><strong>Honey bees or a hive nearby:</strong> a commercial yellowjacket lure rather than sweet bait, and a splash of vinegar in any sugar bait you mix yourself.</li>
+            <li><strong>A steady stream of yellow jackets into one hole:</strong> that is a nest, and no trap will remove it; the <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link> covers what does.</li>
+          </ul>
+
+          <h2>Yellow Jacket Trap Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>The formula.</strong> On a RESCUE! disposable, read the box for East or West of the Rockies. The reusable comes in one nationwide version.</li>
+            <li><strong>A PCP number.</strong> Look for it on any baited trap or refill. Health Canada&rsquo;s December 2025 registration covers RESCUE!&rsquo;s heptyl butyrate disposable (W), cartridge and tube (PCP 35529&ndash;35531); check an East-formula bag for its own number.</li>
+            <li><strong>Refills for the whole season.</strong> At 2 to 4 weeks per lure, May to September takes several; RESCUE! also sells a 10-week cartridge.</li>
+            <li><strong>Enough traps.</strong> Two to four for a suburban lot, or one every 15 metres or so of exposed edge on a rural property.</li>
+            <li><strong>Somewhere to hang them.</strong> A tree, fence or shepherd&rsquo;s hook at least 6 metres from where people sit, sunny, 1 to 2 metres up.</li>
+            <li><strong>A plan for emptying.</strong> RESCUE! says to make sure every trapped yellowjacket is dead before you handle the trap: bag it and freeze it overnight.</li>
+          </ol>
 
           <h2>Yellow Jacket Trapping — Key Facts</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
@@ -271,8 +318,8 @@ export default function BestYellowJacketTrapCanadaPage() {
                   ['Spring queen trapping', 'Late April–May; each queen caught is a colony prevented'],
                   ['What traps cannot do', 'Kill the nest — trapping thins foragers only'],
                   ['Typical nest sites in Ontario', 'Underground burrows, wall voids, sheds, retaining walls'],
-                  ['Bee safety', 'Commercial attractants are bee-safe; DIY sweet bait is not (add vinegar)'],
-                  ['PMRA status', 'Traps are devices — no pesticide registration required'],
+                  ['Honey bees', 'RESCUE! says its reusable trap is designed to prevent accidental capture of honey bees; DIY sweet bait draws them in (add vinegar)'],
+                  ['PMRA status', 'Lures are pest control products: RESCUE!’s heptyl butyrate trap, cartridge and tube are registered (PCP 35529–35531); look for the number'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -306,10 +353,11 @@ export default function BestYellowJacketTrapCanadaPage() {
           <h2>Honest Expectations: What a Trap-Out Actually Achieves</h2>
           <p>Here is the part the packaging glosses over. A well-placed, well-baited trap line will intercept hundreds of foragers a week at peak season, and the difference at your patio table is real &mdash; less bullying, fewer close encounters, a usable deck in September. What it will not do is eliminate a colony. The queen sits underground laying hundreds of eggs a week, the colony re-staffs faster than a trap skims it, and researchers who study mass-trapping programs consistently describe trapping as <em>suppression</em>, not control.</p>
           <p>So use traps for what they are: pressure management around the spaces you use. If you have located an <strong>active nest</strong> &mdash; a steady in-and-out stream at one hole in the lawn, a gap in the patio stones, or a vent &mdash; that is a different job with different tools and real sting risk, especially for ground nests, which can hold thousands of defenders you cannot see. Our guide to <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">getting rid of ground wasps</Link> walks through nest treatment step by step, our <Link href="/blog/best-wasp-nest-spray-canada">wasp nest spray guide</Link> covers the PMRA-registered products that are actually sold here, and if the nest is in a wall void or anywhere near an entrance, <Link href="/pest-control-cost-canada">professional wasp nest removal</Link> is genuinely the right call &mdash; it is one of the cheaper pro jobs in pest control.</p>
+          <Photo id="yellowjacket-ground-nest" alt="Western yellowjackets at the entrance hole of a ground nest" caption="Western yellowjackets, Vespula pensylvanica, at the entrance of a ground nest. A steady stream in and out of one hole like this is a nest: a trap will not remove it." />
 
           <h2>The Grey-Market Trap (the Other Kind of Trap)</h2>
           <p>Late-summer desperation sends a lot of Canadians to US websites, and it is worth being blunt about what comes back. US-labelled sprays like Spectracide Wasp &amp; Hornet Killer, and especially the <strong>toxicant-laced yellow jacket bait stations</strong> marketed on American sites, are not PMRA-registered &mdash; they carry no Pest Control Products number, no Canadian label directions, and importing them for use here is illegal under the Pest Control Products Act. Poison baits are the worst of the bunch: a toxicant that yellow jackets carry off is also available to birds, pets, and beneficial insects, with no Canadian label safeguards.</p>
-          <p>The tidy irony of this category is that you do not need any of it. Traps are devices, not pesticides &mdash; they need no registration, every product in this guide is fully legal in all ten provinces, and for the nest-treatment jobs where you genuinely need a pesticide, Canada has proper PMRA-registered foams and dusts, covered in our <Link href="/blog/best-wasp-nest-spray-canada">nest spray guide</Link>. Buy the Canadian-labelled version, always.</p>
+          <p>The tidy irony of this category is that you do not need any of it. A trap with a registered lure does the patio job without spraying anything &mdash; RESCUE!&rsquo;s heptyl butyrate trap, cartridge and tube carry PCP numbers 35529, 35530 and 35531 &mdash; and for the nest-treatment jobs where you genuinely need a pesticide, Canada has proper PMRA-registered foams and dusts, covered in our <Link href="/blog/best-wasp-nest-spray-canada">nest spray guide</Link>. Buy the Canadian-labelled version, always.</p>
 
           <h2>The Season Playbook for a GTA Backyard</h2>
           <ol>

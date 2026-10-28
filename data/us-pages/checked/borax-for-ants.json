@@ -2,7 +2,7 @@
  "id": "borax-for-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "13afdd91abc95e5a6fe4f4733d40e34d362f3c07262e9608b750f43752b8bd58",
+ "sha": "c2b4025dd21d3ad3eb54cb28a80caaed5ac298d54fa1bba6e99b458025873496",
  "claimsChecked": 130,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 8,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/learn/ant-killer-recipes"
+ ],
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 4 real photos added as figure blocks next to the text they illustrate (public-domain lead argentine-ants-bait-trap; argentine-ants-gel-bait, pavement-ant-honey-drop, argentine-ants-trail-wall). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (UC IPM, Iowa State). No other text changed; dates unchanged.",
+   "previousSha": "13afdd91abc95e5a6fe4f4733d40e34d362f3c07262e9608b750f43752b8bd58"
+  }
  ]
 }

@@ -2,9 +2,16 @@
  "id": "baby-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "066bb5bff45f35cd6bfbafb357812a3d22e12a78832eeb4786e8d7759e1bfc0f",
+ "sha": "e3eaa56ca88f887473275e6c4fd6808eb22ed8f66bd3ebcec87dad9f7bd5168e",
  "claimsChecked": 78,
  "claimsCorrected": 2,
  "claimsRemovedOrSoftened": 4,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28, 2026 Google Images pass: 6 real photos added as figure blocks: baby-mice-day-old (Commons, public domain; lead), baby-mice-10-days-old and young-house-mouse-17-days-old (Commons, CC BY-SA 4.0), house-mice-garden-shed-litter (iNaturalist, CC BY 4.0) and baby-mice-nest-rags-plastic (Commons, CC BY-SA 3.0), all new to the ledger (photo-notes-batch15), and house-mouse-vs-young-rat (CDC PHIL, public domain, already on record). Captions restate the photo records and facts already on the page (Animal Diversity Web, the Jackson Laboratory chart, UC IPM, the Arkansas bulletin); the three media placeholders kept; no fact or date changed.",
+   "previousSha": "066bb5bff45f35cd6bfbafb357812a3d22e12a78832eeb4786e8d7759e1bfc0f"
+  }
+ ]
 }

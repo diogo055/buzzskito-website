@@ -44,6 +44,7 @@
 
     { "type": "h2", "text": "Why is fall the time to mouse-proof?" },
     { "type": "p", "text": "Fall is when mice move indoors. UC IPM says that where house mice live outdoors, they frequently enter homes in autumn when nighttime temperatures become colder. Winter does not clear them out afterward: [the University of Nebraska's rodent-proof construction guide](https://extensionpubs.unl.edu/publication/g1530/html/view) notes that house mice can survive and reproduce at temperatures down to 24°F (about -4°C) when they have adequate food and nesting material." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-got-into-house-bucket.webp", "width": 1200, "height": 1600, "alt": "Brown house mouse with a pale belly sitting in a white plastic bucket beside a peanut and scattered droppings", "caption": "A house mouse that got into a house in California in late November, caught alive in a bucket before the observer released it. UC IPM says house mice living outdoors frequently enter homes in autumn, when nighttime temperatures become colder.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/329133630" },
     { "type": "p", "text": "Sealing first also makes the rest last: the Nebraska guide calls rodent-proof construction the first and most important step, and reports that rodents reinvade through unsecured openings after a control program. Aim to finish the outdoor work in early fall, before nights turn cold." },
 
     { "type": "h2", "text": "What are the 7 entry points, and how do you seal each one?" },
@@ -67,6 +68,7 @@
     { "type": "p", "text": "Check the flashing around the chimney as well, though none of these sources gives a chimney-specific repair. Leave gaps you cannot reach safely to a roofer or a pest professional." },
     { "type": "h3", "text": "7. Cable and wire holes" },
     { "type": "p", "text": "Treat every wire hole like a small pipe hole. The CDC's outdoor list includes the holes for electrical, plumbing, cable and gas lines, and the Nebraska guide says to seal gaps where pipes, wires or similar objects enter a building with gnaw-resistant materials. Check the air conditioner lines, the cable or satellite entry, the electrical service and any hole left by equipment that has been removed. Mice travel along wires and cables, so a hole high on a wall counts as much as one near the ground." },
+    { "type": "figure", "src": "/guides/photos/copper-wool-wire-gaps.webp", "width": 1200, "height": 900, "alt": "Tufts of copper wool stuffed into the holes where several wires enter a stucco wall, a dark conduit pipe in front", "caption": "Copper wool packed into the gaps around wires where they pass through a wall, a temporary plug, in a New York State IPM Program photo from Cornell University. The Nebraska guide names copper or stainless steel wool for openings under 3/4 inch.", "license": "CC-BY-2.0", "credit": "NY State IPM Program at Cornell University from New York, USA, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rodent_Exclusion_(10069529336).jpg" },
     { "type": "checklist", "title": "Check indoors too: the CDC's inside list", "items": [
       "**Kitchen.** Inside, under and behind the cabinets, and behind appliances.",
       "**Closets.** Floor areas, especially the corners.",
@@ -76,6 +78,7 @@
       "**Top and bottom of the house.** Inside the attic, and in the basement or crawl space.",
       "**Edges.** Around the fireplace, windows and doors, and along the joint between the floor and the wall."
     ] },
+    { "type": "figure", "src": "/guides/photos/white-footed-mouse-bird-seed-basement.webp", "width": 1200, "height": 800, "alt": "Brown white-footed mouse with large dark eyes sitting in a container full of striped sunflower seeds", "caption": "A white-footed mouse in a container of bird seed in a house basement in Connecticut in October, as the observer describes it. The CDC's inside list includes the basement or crawl space.", "license": "CC-BY-4.0", "credit": "(c) Kristof Zyskowski, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/257765564" },
 
     { "type": "h2", "text": "What is the 1/4-inch rule?" },
     { "type": "p", "text": "The 1/4-inch rule says that any gap a pencil slides into is big enough for a mouse. The CDC states it almost word for word: mice can fit through a hole the width of a pencil, 1/4 inch or 6 mm in diameter. The university sources land in the same place with slightly different wording." },
@@ -109,6 +112,7 @@
 
     { "type": "h2", "text": "Trap placement: where do traps go for mice already inside?" },
     { "type": "p", "text": "Set snap traps against walls where you have seen droppings or gnawing, with the baited end touching the wall. [The CDC's trapping guidance](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) says to place the trap so it forms a T with the wall, because rodents prefer to run next to walls and other objects, and UC IPM says to place traps close to walls so mice pass directly over the trigger. Run traps while you seal." },
+    { "type": "figure", "src": "/guides/photos/snap-trap-by-mouse-hole.webp", "width": 1200, "height": 1014, "alt": "Wooden snap trap set at the foot of a red-painted wall beside a ragged mouse hole, with a gray-brown mouse caught in it", "caption": "A snap trap set at a mouse hole at the foot of a wall in an old house in Norway, with the mouse it caught, as the photographer describes it. Set traps against walls where you have seen droppings or gnawing, because rodents prefer to run next to walls, the CDC says.", "license": "CC-BY-SA-4.0", "credit": "Wolfmann, CC BY-SA 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mouse_in_trap_Norway_2016-10-26_hole_01.jpg" },
     { "type": "ul", "items": [
       "**Where.** Behind the stove and refrigerator, in the back of cabinets and drawers, and in attics, basements and crawl spaces (CDC).",
       "**How many.** No more than about 10 feet apart where mice are active, because house mice seldom venture more than 30 feet from the nest; pairs set 1 to 2 inches apart can catch more of the mice that jump over obstacles (UC IPM).",

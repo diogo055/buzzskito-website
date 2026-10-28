@@ -2,9 +2,16 @@
  "id": "army-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b24660f11d3be4f2db826a2c86ed354e471ebab39b688eebbffaa0d0e00fe47e",
+ "sha": "ad19d8cbe90a5ab562eb1880f13ce34d2b3372221a257fc7270c4d533aae20f0",
  "claimsChecked": 118,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Google Images wave 2 (Oct 28, 2026): 6 real photos added as figure blocks next to the text they illustrate (CC0 lead eciton-burchellii-army-ants; army-ant-bivouac, driver-ant-dorylus-uganda, neivamyrmex-workers-parking-lot, neivamyrmex-male-blacklight, eciton-raid-wasp-larvae). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (Animal Diversity Web, Frontiers in Zoology 2011, University of Tennessee Extension). One sentence linking /tools/what-bug-is-this after the household-ant paragraph. No other text changed; dates unchanged.",
+   "previousSha": "b24660f11d3be4f2db826a2c86ed354e471ebab39b688eebbffaa0d0e00fe47e"
+  }
+ ]
 }

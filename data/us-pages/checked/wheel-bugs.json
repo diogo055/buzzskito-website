@@ -2,7 +2,7 @@
  "id": "wheel-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9b239331b5847668a872fbdbfa992ada2cdbed2b8850e05f7bc9d5531135a569",
+ "sha": "a2f4c8ee6779cd0e3664ec933a8a3db0c12111d4030e0f9b1b4c9b5ee2bf2c83",
  "claimsChecked": 210,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 11,
@@ -11,5 +11,17 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28: one look-alike card (Walkingstick) links the new /blog/stick-bugs guide; note from that page's sourced test and MDC; no other change",
+   "previousSha": "9b239331b5847668a872fbdbfa992ada2cdbed2b8850e05f7bc9d5531135a569"
+  },
+  {
+   "on": "2026-10-28",
+   "note": "Oct 28: re-recorded after restoring the file's own formatting; content = one Walkingstick look-alike card linking /blog/stick-bugs",
+   "previousSha": "49606458e5947e948440f0fccd92b34066573195fb19ecba869c248550404ebd"
+  }
+ ]
 }

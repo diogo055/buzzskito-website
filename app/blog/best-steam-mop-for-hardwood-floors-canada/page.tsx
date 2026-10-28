@@ -17,14 +17,15 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'best-steam-mop-for-hardwood-floors-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Steam Mop for Hardwood Floors Canada — Adjustable Steam, Sealed Floors, and the Winter Gap Problem'
-const META_TITLE = 'Best Steam Mop for Hardwood Floors Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Best Steam Mop for Hardwood Floors Canada'; top queries: best steam mop canada 374, best steam mop for hardwood floors 212, best hard floor steamer 7, best hardwood floor steamer 7, best floor steam cleaner canada 6 (6 clicks). Leads with 'best steam mop canada', which no sibling page targets.
+const META_TITLE = 'Best Steam Mop Canada 2026: For Hardwood & Tile'
 
 const FAQS = [
   {
     question: 'What is the best steam mop for hardwood floors in Canada?',
-    answer: 'The best steam mop for hardwood is one with genuinely adjustable steam output and a large, absorbent microfibre pad — a Bissell PowerFresh-class mop for most homes, or a Dupray Bliss-class unit if you want a Canadian brand with easy warranty and parts access. Adjustability is the whole point: hardwood should be cleaned on the lowest setting, where the mop lays down barely enough moisture to lift soil and the floor is dry within seconds. A single-setting mop that only knows how to dump maximum steam is the wrong tool for wood, no matter what the box says. Expect roughly the $100–$250 CAD range for a good adjustable mop, and buy a pad multipack with it.',
+    answer: 'The best steam mop for hardwood is one with genuinely adjustable steam output and a large, absorbent microfibre pad — a Bissell PowerFresh-class mop for most homes, or a Dupray steam cleaner if you want a Canadian brand with easy warranty and parts access. Adjustability is the whole point: hardwood should be cleaned on the lowest setting, where the mop lays down barely enough moisture to lift soil and the floor is dry within seconds. A single-setting mop that only knows how to dump maximum steam is the wrong tool for wood, no matter what the box says. Expect roughly the $100–$250 CAD range for a good adjustable mop, and buy a pad multipack with it.',
   },
   {
     question: 'Can you use a steam mop on hardwood floors without damaging them?',
@@ -54,11 +55,19 @@ const FAQS = [
     question: 'Do you actually need a steam mop for hardwood, or is a regular mop enough?',
     answer: 'For hardwood alone, honestly, a $30–$50 flat microfibre spray mop and a neutral hardwood cleaner does the job, and it does it with zero risk to the finish. Steam earns its money elsewhere in the house: sealed tile and grout, vinyl, entryway floors that see salt and mud, and any situation where you want heat instead of chemicals — pets, crawling toddlers, someone with a sensitivity. If your home is mostly wood, buy the cheap mop and put the difference somewhere useful. If you have a big tiled kitchen, a mudroom, or a basement floor as well, the steam mop pays for itself and the wood is simply the surface you treat most gently.',
   },
+  {
+    question: 'What is the best hardwood floor steamer: a steam mop or a canister steam cleaner?',
+    answer: 'For routine floor cleaning, an upright steam mop with an adjustable setting is the easier tool: it lays down a thin, even amount of steam under a wide pad, and Bissell’s PowerFresh guide marks its Low setting for delicate floors. A canister steam cleaner with a floor tool, such as Dupray’s, earns its place on grout, upholstery and other surfaces. Both makers say the same about wood: sealed floors only, test a hidden spot first, and keep the head moving. Dupray adds: “Do NOT steam clean unsealed or oiled hardwood floors.”',
+  },
+  {
+    question: 'What is the best steam mop in Canada for tile, laminate and hardwood?',
+    answer: 'An adjustable mop, because one machine can then run high on tile and low on wood. Bissell’s PowerFresh guide lists ceramic tile, vinyl, laminate, marble, stone and sealed hardwood as floors it is designed for, and says it is not for unsealed wood. Laminate is the one to check first: many laminate makers forbid steam, and the floor maker’s care guide, not the mop box, decides what your warranty covers. Buy a pad multipack with it and use distilled or demineralized water, as Bissell recommends.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How to pick a steam mop that will not wreck your hardwood: why adjustable steam matters, the sealed-floor test, and when a cheap microfibre mop wins.',
+  description: 'The best steam mop in Canada for hardwood is an adjustable one used on low, on sealed floors only. What Bissell, Dupray and a Canadian floor maker say about steam.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +92,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
             <span className="text-white">Best Steam Mop for Hardwood</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Steam does not damage hardwood &mdash; moisture getting <em>past the finish</em> damages hardwood. Here is the ten-minute test that tells you whether your floor can take a steam mop at all, why adjustable output is the only feature worth paying for, and the Ontario winter timing problem nobody mentions.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best steam mop for hardwood floors in Canada is an adjustable-steam mop such as the Bissell PowerFresh, run on its lowest setting and only on sealed wood: Bissell&rsquo;s own manual says the mop &ldquo;is not for use on unsealed wood floors.&rdquo; It is the right buy for a home with tile or vinyl as well as wood. If your floor&rsquo;s maker advises against steam, as Canadian hardwood maker Mirage does for its floors, use a flat microfibre mop instead.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -96,7 +105,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best steam mop for hardwood floors in Canada is an <strong>adjustable-output microfibre mop</strong> &mdash; a Bissell PowerFresh-class unit for most homes, or a Dupray Bliss-class mop if you want a Canadian brand for warranty and parts. Use it <strong>only on a sealed floor with an intact finish</strong>, on the <strong>lowest steam setting</strong>, with the head always moving. Adjustability is the feature you are actually buying: a mop that only knows maximum steam is the wrong tool for wood.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best steam mop for hardwood floors in Canada is an <strong>adjustable-output microfibre mop</strong> &mdash; a Bissell PowerFresh-class unit for most homes, or a Dupray steam cleaner if you want a Canadian brand for warranty and parts. Use it <strong>only on a sealed floor with an intact finish</strong>, on the <strong>lowest steam setting</strong>, with the head always moving. Adjustability is the feature you are actually buying: a mop that only knows maximum steam is the wrong tool for wood.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Test the floor first:</strong> a few drops of water that bead and wipe away clean means a sealed film finish. Water that soaks in or leaves a ring means no steam, ever.</li>
               <li><strong>Check the flooring warranty</strong> &mdash; several hardwood, engineered and laminate makers exclude steam outright, and their document beats any mop&rsquo;s marketing.</li>
@@ -238,7 +247,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Steam Mop for Hardwood Floors in Canada?</h2>
-          <p>The best steam mop for hardwood is an adjustable-output microfibre mop &mdash; a Bissell PowerFresh-class unit for most Canadian homes, or a Dupray Bliss-class machine if you want a domestic brand behind the warranty &mdash; used on its lowest setting, on a floor with an intact film finish, with the head always moving. That is the entire recommendation. Everything below is why each of those conditions is doing real work, and what happens when one of them is missing.</p>
+          <p>The best steam mop for hardwood is an adjustable-output microfibre mop &mdash; a Bissell PowerFresh-class unit for most Canadian homes, or a Dupray steam cleaner if you want a domestic brand behind the warranty &mdash; used on its lowest setting, on a floor with an intact film finish, with the head always moving. That is the entire recommendation. Everything below is why each of those conditions is doing real work, and what happens when one of them is missing.</p>
           <p>The framing most buyers arrive with is wrong in a way that matters. People ask &ldquo;is steam bad for hardwood?&rdquo; as though steam were a chemical. It is not &mdash; it is hot water in a form that is very good at finding small gaps. On a floor with an intact polyurethane finish, that water lands on a sealed film, loosens the soil, and is lifted straight back off by the pad a second later; the wood underneath never meets it. On a worn traffic lane, a waxed or oiled surface, or open seams between boards, the same water goes <em>into</em> the wood, and swollen fibre, cupped boards and a clouded finish all follow from that one distinction. Your job when shopping is not to find the gentlest mop. It is to find out which floor you own.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
@@ -254,6 +263,42 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           <p>Take a glass of water into the room and put three or four drops on the floor somewhere a rug or a chair normally covers. Wait ten minutes, then wipe. If the drops beaded up, sat there, and left nothing behind, you have an intact film finish and a steam mop is on the table. If they soaked in, darkened the wood, or left a dull ring where they sat, the finish is worn through, or the floor is oiled or waxed rather than sealed &mdash; and no steam mop, on any setting, belongs on it.</p>
           <p>Do it in three or four places, not one, because floors do not wear evenly. The strip in front of the kitchen sink, the hallway from the side door, the pivot at the bottom of the stairs &mdash; these wear through years before the middle of a dining room does, and they are exactly where you will be mopping most. Treat the worst result as the answer for the whole floor.</p>
           <p>Then spend five more minutes on the warranty. Find the flooring brand and product line &mdash; a leftover box in the basement, the builder&rsquo;s documents, the invoice &mdash; and search its care document for the word <em>steam</em>. A meaningful number of hardwood, engineered-wood and laminate manufacturers exclude steam cleaning explicitly, and if yours does, that is the end of the discussion regardless of what any mop&rsquo;s packaging says about being wood-safe. The flooring maker is the party who has to honour a claim; the mop maker is not.</p>
+
+          <h2>What the Mop Maker, a Steamer Maker and a Floor Maker Say About Steam on Wood</h2>
+          <p>Here is how the instructions line up, quoted from each company&rsquo;s own documents. They agree on sealed floors, a test patch and a moving head; they disagree on whether steam belongs on wood at all, and the floor maker&rsquo;s word is the one your warranty follows.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[680px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Source</th>
+                  <th className="px-4 py-3 text-left">Floors it covers</th>
+                  <th className="px-4 py-3 text-left">On wood</th>
+                  <th className="px-4 py-3 text-left">What it tells you to do</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Bissell PowerFresh 1940 series user guide<br /><span className="font-normal text-xs text-gray-500">steam mop maker</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;ceramic tile, vinyl, laminate, marble, stone and sealed hard wood floors&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;not for use on unsealed wood floors&rdquo;; &ldquo;Exercise extreme care when using your steam mop on hardwood floors&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Sweep or vacuum first; &ldquo;test in an inconspicuous area and check the care instructions from your flooring manufacturer&rdquo;; Low setting for &ldquo;delicate floors&rdquo;; &ldquo;move the unit continuously&rdquo;; distilled or demineralized water</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Dupray FAQ<br /><span className="font-normal text-xs text-gray-500">steam cleaner maker, Montreal</span></td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;steam cleaners work on sealed hardwood floors&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Do NOT steam clean unsealed or oiled hardwood floors.&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;always check with the manufacturer for the cleaning instructions and always test a small, hidden area first and keep the tool moving&rdquo;; distilled water to prevent mineral build-up</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Mirage hardwood care FAQ<br /><span className="font-normal text-xs text-gray-500">Canadian hardwood floor maker</span></td>
+                  <td className="px-4 py-3 text-gray-700">Its own hardwood floors</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Steam cleaners are not recommended for cleaning Mirage floors.&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">The reason it gives: &ldquo;Since planks are installed individually, moisture can build up between them&rdquo;</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: BISSELL PowerFresh 1940 Series user guide (Canadian edition, bissell.ca); Dupray, Frequently Asked Questions (dupray.com/en-ca); Mirage, Caring for hardwood floors FAQ (miragefloors.com/en-ca); all read October 28, 2026. The mop maker lists laminate; many laminate makers forbid steam, so the floor&rsquo;s own care guide decides.</p>
 
           <h2>Adjustable Steam Output Is the Feature You Are Actually Buying</h2>
           <p>Steam mops differ far less than the shelf suggests. They all boil water in a small tank, push it through a plate, and press a microfibre pad against the floor. What genuinely separates them for wood is whether you can turn the output down. A single-setting mop delivers one flow rate, tuned for tile and sealed vinyl, and on hardwood that means more water than the pad can pick back up &mdash; so the floor stays visibly damp behind you for ten or fifteen seconds. That is the window in which moisture finds a seam or a scratch. A mop with a real low setting lays down so little that the floor looks dry almost immediately behind the head. Same machine, same floor, completely different risk.</p>
@@ -279,6 +324,17 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           <p>If your home is essentially all hardwood, buy the flat microfibre spray mop for thirty or forty dollars and stop reading. For routine dust, pet hair and light soil on a sealed floor, it cleans about as well as steam does, it carries no risk whatsoever to the finish, there is no cord to drag around, and it stores in a closet. Nobody selling steam mops wants that paragraph in a buying guide, but it is true, and a hundred and fifty dollars kept is a hundred and fifty dollars kept.</p>
           <p>Where a steam mop genuinely earns its price is a mixed house. A big tiled kitchen, a mudroom that takes the winter, sealed vinyl in a basement, a bathroom floor and grout &mdash; those are the surfaces where heat does something a damp mop cannot, lifting greasy soil and cleaning without leaving a chemical residue behind for a crawling toddler or a dog. In that house the hardwood is simply the surface you treat most gently, on the low setting, and the mop pays for itself on everything else. Buy for the tile; use it carefully on the wood.</p>
           <p>What you should not do is buy a mop <em>because</em> of the hardwood. That is backwards, and it leads people to expensive machines used timidly on the one surface that least needs them. Decide based on the rest of your floors, then apply the sealed-floor rules to the wood.</p>
+
+          <h2>Buyer&rsquo;s Checklist for a Hardwood Steam Mop</h2>
+          <ul>
+            <li><strong>Your floor passes the water-drop test</strong> in the worn spots, not just the middle of the room.</li>
+            <li><strong>Your floor maker&rsquo;s care guide allows steam.</strong> Some, such as Mirage, say steam cleaners are not recommended; that settles it.</li>
+            <li><strong>A real low setting.</strong> Bissell&rsquo;s PowerFresh guide labels Low for &ldquo;delicate floors&rdquo;; a single-setting mop has nothing to turn down.</li>
+            <li><strong>A pad multipack that fits your exact model,</strong> stocked in Canada.</li>
+            <li><strong>Distilled or demineralized water,</strong> which both Bissell and Dupray recommend over tap water.</li>
+            <li><strong>A Canadian warranty and parts,</strong> and a plug that fits without an adapter.</li>
+            <li><strong>Mostly hardwood and nothing else?</strong> Buy the flat microfibre mop instead and keep the difference.</li>
+          </ul>
 
           <h2>Where to Buy, and What to Check Before You Do</h2>
           <p>Steam mops are stocked broadly in Canada &mdash; Canadian Tire, Home Depot, Rona, Walmart and Amazon.ca all carry the mainstream lines, and Dupray, a Canadian company headquartered in the Montreal area, has consistent domestic availability with local warranty support and the right plug in the box. That last point is worth more than it sounds: a good deal on a US-market unit stops being one the first time you need a part, and cross-border returns on a bulky appliance are miserable.</p>

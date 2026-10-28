@@ -13,12 +13,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-ant-traps-canada'
 const DATE = '2026-07-28'
-const UPDATED = '2026-07-28'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Ant Traps in Canada 2026 — Bait Stations vs Glue Traps, and What Actually Kills the Colony'
-const META_TITLE = 'Best Ant Traps Canada 2026: Bait Stations'
+// TITLE NOTE (Oct 28, 2026): was 'Best Ant Traps Canada 2026: Bait Stations'; top queries (Jul 28-Oct 25): ant traps 591 (pos 15.0, 1 click), best ant traps 433 (8.0, 2 clicks), protein ant bait 44, best ant bait 36, carpenter ant bait canada 25. 'ant bait' and 'best ant killer' stay with /blog/best-ant-killer.
+const META_TITLE = 'Best Ant Traps Canada: Baits That Kill the Nest'
 
 const FAQS = [
   {
@@ -73,11 +76,23 @@ const FAQS = [
     question: 'When are ant traps the wrong purchase?',
     answer: 'Three situations. Large black ants plus coarse sawdust-like frass and hollow-sounding wood means carpenter ants, which is a moisture-and-structure diagnosis with an insect attached — bait may be part of the job, but finding the leak is the job. Tiny pale ants in an apartment or condo means pharaoh ants, which bud through wall voids and wiring chases, so treating one unit relocates the problem and the building needs coordinated treatment. And stinging reddish ants in a damp GTA garden are likely European fire ants, which are genuinely hard to eradicate and usually a multi-season professional commitment. In all three, a pack of traps is money spent on the wrong problem.',
   },
+  {
+    question: 'What is a protein ant bait, and when do I need one?',
+    answer: 'A protein (or grease) ant bait carries a slow-acting active ingredient in a protein or fat base instead of sugar. Colonies switch between carbohydrate and protein depending on whether they are fuelling workers or raising brood, so a colony in a protein phase walks straight past a sweet liquid station. When that happens, set a solid protein station beside the liquid one and let the ants choose: Health Canada says two different baits at the same time give better results. Buy it where you can read the pack and see a Canadian PCP registration number.',
+  },
+  {
+    question: 'What is the best carpenter ant bait in Canada?',
+    answer: 'No trap fixes carpenter ants on its own. Health Canada says carpenter ants can cause structural damage as they destroy wood to make room for their nests, and that piles of sawdust may mean you have them, so finding the nest and the moisture that softened the wood is the real job, often with a professional. If you bait as part of it, pick a bait whose Canadian label names carpenter ants: Health Canada’s registry (October 2026) lists domestic-class examples such as Raid Max Liquid Ant Baits and Ortho Ant B Gon Max Ant & Roach Killer Gel, while TERRO’s liquid stations are labelled for common sweet-eating ants. Outdoor and granular products also come under provincial rules.',
+  },
+  {
+    question: 'Are ant traps on Amazon the same as the ones in Canadian stores?',
+    answer: 'Not always. A listing can show a pack labelled for the United States, and you cannot always tell from a photo. Health Canada says a pest control product registered for use in Canada carries its registration number on the label (Reg. No. 00000 P.C.P. Act), that checking is especially important on online platforms that sell products from third-party vendors, and that it is a violation of the Pest Control Products Act to buy and use unregistered pesticides. Look for the number in the listing photos, check it again on the pack when it arrives, and return anything without one.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best ant traps in Canada 2026: liquid bait stations beat glue boards because the colony carries the bait to the queen. Placement, pet safety, PCP rules.',
+  description: 'The best ant traps in Canada are liquid bait stations set on the trail, not glue boards. Health Canada’s baiting rules, protein baits and carpenter ants.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -102,7 +117,7 @@ export default function BestAntTrapsCanadaPage() {
             <span className="text-white">Best Ant Traps Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Much of what is sold as an &ldquo;ant trap&rdquo; cannot end an ant problem, because it was never designed to reach the nest. Here is the difference between the two categories, which one to buy in Canada, and where to put it.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the best ant trap in Canada is an enclosed liquid bait station, like the TERRO-style stations picked below. Set four to six of them right on the ant trail. Foragers carry the slow-acting bait home to the nest, so expect more ants for a few days and do not spray. Glue-board &ldquo;ant traps&rdquo; only catch the ants you can see.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -361,6 +376,22 @@ export default function BestAntTrapsCanadaPage() {
           <p><strong>Solid and protein discs cover the other half of the menu.</strong> Colonies shift their nutritional demand through the season: heavy on sugar when workers are fuelling themselves, heavier on protein and fat when there is brood to raise. A colony in a protein phase will march straight past a sweet station, and homeowners read that as &ldquo;the bait does not work.&rdquo; The standard approach is to offer both and let the ants vote &mdash; put a liquid station and a solid station a hand&rsquo;s width apart on the trail and see which draws traffic within a day. That one trick often explains bait that looked like it was being refused.</p>
           <p><strong>Gel is the precision instrument.</strong> A syringe places a pinhead dab exactly where ants travel and where no plastic housing can sit: the seam behind a cabinet hinge, the gap where the water line enters the wall, the crack at the base of a door frame. Two cautions. First, more is not better &mdash; over-applying gel reduces uptake and leaves a mess. Second, the Canadian regulatory catch: many gels sold to Canadian buyers through online marketplaces are US-market product labelled under US EPA registration, with no Canadian directions behind their use. We walk through that exact situation for the cockroach equivalent in our <Link href="/blog/advion-cockroach-gel-bait">Advion gel Canada guide</Link>, and the reasoning transfers directly to ant gels. That caveat is also why this page describes the gel format but does not link one: buy it somewhere you can turn the pack over and find &ldquo;Reg. No. XXXXX P.C.P. Act&rdquo; before you pay.</p>
 
+          <QuickIdTable
+            title="Which ant is it? The trap that fits"
+            head={['Ant', 'How to recognize it', 'The trap that fits']}
+            rows={[
+              ['Pavement ant', 'Small dark ants; little volcano-shaped piles of sand at cracks in a driveway, walkway or patio slab', 'Liquid bait stations on the indoor trail; outdoor bait stakes at the slab cracks, bought in your own province'],
+              ['Odorous house ant', 'Small dark ants trailing across a kitchen; a multi-queen species that buds into new nests when sprayed', 'Liquid sugar bait stations, four to six on the trail, and no spray'],
+              ['Pharaoh ant', 'Tiny, pale amber ants that live indoors, often in apartments and condos', 'Coordinated baiting across the building; in a rental, report it to the landlord in writing'],
+              ['Carpenter ant', 'Large black ants, roughly 6–13 mm; coarse, sawdust-like frass; hollow-sounding wood', 'Find the nest and the moisture first; bait can be part of the job, often with a professional'],
+              ['European fire ant', 'Reddish, roughly 4–5 mm; stings repeatedly when a nest in damp soil or mulch is disturbed', 'Usually a multi-season professional job, not a pack of traps'],
+              ['Any ant that walks past sweet bait', 'The colony is feeding on protein and grease, often while it raises brood', 'A solid protein station beside the liquid one, so the ants can choose'],
+            ]}
+            caption={<>Recognition notes from this page. Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a> lists carpenter, little black, odorous house, thief and pharaoh ants among the species that invade Canadian homes, says piles of sawdust may mean carpenter ants, and says two different baits at the same time give better results. Read October 28, 2026.</>}
+          />
+          <Photo id="carpenter-ant-on-fingers" alt="Shiny black carpenter ant walking across a person's fingers" caption="An eastern black carpenter ant, Camponotus pennsylvanicus, on a person’s fingers (Blount County, Alabama). Large black ants plus coarse, sawdust-like frass mean carpenter ants, where finding the nest and the moisture is the job, not a pack of traps." />
+          <Photo id="european-fire-ant-worker" alt="Reddish-brown European fire ant worker standing on a twig among leaf litter" caption="A European fire ant worker, Myrmica rubra (photographed in the Czech Republic). These reddish ants of roughly 4 to 5 mm sting repeatedly when a nest in damp soil or mulch is disturbed, and in GTA gardens they are usually a multi-season professional job." />
+
           <h2>Indoor Placement: Where Ant Traps Actually Go</h2>
           <p>Placement decides more outcomes than product choice does. Ants forage along fixed, narrow corridors, so a station set on the far side of the kitchen is a piece of plastic furniture.</p>
           <ul>
@@ -373,6 +404,20 @@ export default function BestAntTrapsCanadaPage() {
             <li><strong>Clean everything else aggressively.</strong> Crumbs, grease film on the stove hood, an unwashed pet bowl and a sticky recycling bin are competing offers. Your bait needs to be the most attractive thing in the room.</li>
             <li><strong>Refresh on a schedule.</strong> Check placements every few days and swap anything drained or crusted; during a heavy surge liquid stations empty fast.</li>
           </ul>
+          <QuickIdTable
+            title="Ant baiting: what Health Canada says"
+            head={['Rule', 'Health Canada’s words', 'What it means for your traps']}
+            rows={[
+              ['Placement', '“Place bait stations directly in the path of foraging ants, but out of the reach of children and pets.”', 'Beside the live trail, inside a cabinet or behind an appliance, not in an open corner'],
+              ['Number', '“Use plenty of bait stations.”', 'Four to six placements for one kitchen trail'],
+              ['Two menus', '“Two different baits at the same time will give better results.”', 'A liquid sugar station and a solid protein station side by side'],
+              ['Time', '“Keep baits available for at least two weeks.” “Repeated bait applications may be needed.”', 'Swap stations that dry out; do not stop at the first quiet day'],
+              ['No spray', '“Do not use chemical sprays to kill ants while using a bait system, or the bait system will not work.”', 'Put the aerosol away while the stations work'],
+              ['Where trails run', 'Along baseboards, the carpet edge along walls, and the edges and inside corners of cabinets', 'Look there first when you place stations'],
+              ['The label', '“Always look for a Pest Control Products (PCP) number on the label”', 'No Reg. No. on the pack, no purchase'],
+            ]}
+            caption={<>Quoted from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a> (page details 2017-06-19), read October 28, 2026. The third column is this guide&rsquo;s advice.</>}
+          />
 
           <h2>Outdoor Traps and Stakes &mdash; and the Rules That Apply Outside</h2>
           <p>If the same trail reappears every few weeks, the nest is usually outside and the indoor stations are treating a symptom. Pavement ants nesting under a driveway, walkway or patio slab announce themselves with little volcano-shaped piles of excavated sand at the cracks; treating at that source is what ends the cycle.</p>
@@ -401,6 +446,18 @@ export default function BestAntTrapsCanadaPage() {
           <p><strong>Federal.</strong> The pesticides that may legally be sold or used in Canada are registered under the federal Pest Control Products Act, administered by Health Canada&rsquo;s PMRA, with narrow exemptions for a listed set of minimum-risk products, and a registered product carries a PCP registration number on its label. That number is your one-glance test on a shelf or in a listing photo. It is also why so much American ant advice fails Canadians: a large share of the products named in a US forum thread simply are not registered here, and the cross-border marketplace listings that appear to solve that are usually US-labelled stock. Glue boards sit outside this system entirely &mdash; no active ingredient, no registration, and no ability to end an infestation.</p>
           <p><strong>Provincial.</strong> Cosmetic-use rules narrow the outdoor selection further, as described above, and vary by province. Indoor baiting is unaffected.</p>
           <p>The practical upshot for a buyer is refreshingly simple. Buy indoor bait stations from a Canadian retailer, glance for the PCP number, and ignore every recommendation that requires importing something.</p>
+
+          <h2>Ant Trap Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A Canadian registration number on the pack:</strong> &ldquo;Reg. No. &hellip; P.C.P. Act&rdquo;. Health Canada says that is how you recognize a product registered for use in Canada, that it is a violation of the Pest Control Products Act to buy and use unregistered pesticides, and that checking matters most on online platforms selling for third-party vendors (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html" target="_blank" rel="noopener noreferrer">Buying pest control products online</a>).</li>
+            <li><strong>DOMESTIC on the label.</strong> Health Canada: domestic class products are for personal use in and around the home, while commercial class products are not available to the general public for use in and around the home (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management/frequently-asked-questions.html" target="_blank" rel="noopener noreferrer">pesticide FAQ</a>).</li>
+            <li><strong>An enclosed, child-resistant station</strong> for a kitchen, a toddler or a dog &mdash; and still placed where they cannot reach it.</li>
+            <li><strong>Liquid sugar bait first,</strong> with a solid protein station ready for a colony that ignores it.</li>
+            <li><strong>Enough stations:</strong> a multi-pack, for four to six placements on one trail.</li>
+            <li><strong>Fresh bait for at least two weeks,</strong> as Health Canada advises, swapping any station that dries out or crusts over.</li>
+            <li><strong>No glue boards, ultrasonic repellers, ant chalk or foggers</strong> for ants, and no spray near the bait.</li>
+            <li><strong>Outdoor stakes bought in your own province,</strong> because provinces may restrict or prohibit some registered products, as Health Canada notes; then follow the label.</li>
+          </ol>
 
           <h2>What Not to Buy</h2>
           <p>Being straight about this is more useful than another recommendation.</p>

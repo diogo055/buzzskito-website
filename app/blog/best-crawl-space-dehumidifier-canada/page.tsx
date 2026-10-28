@@ -14,12 +14,14 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-crawl-space-dehumidifier-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Crawl Space Dehumidifier Canada 2026 — Low-Clearance Units, Pump Drainage & the Vapour Barrier That Comes First'
-const META_TITLE = 'Best Crawl Space Dehumidifier Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Best Crawl Space Dehumidifier Canada'; top queries: crawl space dehumidifier 201, best crawl space dehumidifier 68, best dehumidifier for crawl space 18, best crawl space dehumidifier with pump 12 (+15 more 'with pump' impressions), best crawlspace dehumidifiers 12 (1 click across these five). The 'vs vapour barrier' search belongs to crawl-space-dehumidifier-vs-vapour-barrier-canada.
+const META_TITLE = 'Best Crawl Space Dehumidifier Canada (With Pump)'
 
 const FAQS = [
   {
@@ -54,11 +56,19 @@ const FAQS = [
     question: 'Should I seal my crawl space vents in Canada?',
     answer: 'Building science has moved firmly toward sealed, insulated crawl spaces over vented ones, because in a humid Canadian summer those vents are letting in exactly the moisture that then condenses on the cool surfaces inside. But this is not a decision to make from a blog post. Two things have to be checked first. If any fuel-burning appliance sits in the crawl space or draws combustion air from it, sealing the space changes its air supply, and that is a carbon monoxide question, not a comfort question. And requirements vary by municipality and by the age and construction of the house, so a building inspector or a competent contractor should sign off before vents are closed permanently. Radon is worth raising at the same visit, since a dehumidifier does nothing whatsoever for radon and the fix for that is a barrier plus sub-slab depressurization.',
   },
+  {
+    question: 'What is the best crawl space dehumidifier with a pump?',
+    answer: 'A purpose-built unit with the pump built in, such as AlorAir’s Sentinel HD55P. Its spec sheet lists gravity or pump draining, 55 pints a day at AHAM conditions (120 at saturation), a working range of 33 to 105°F (about 1 to 41°C) and automatic restart, which it calls memory starting. The standard HD55 drains by gravity only, so it needs a drain below it or a separate condensate pump. Whichever you choose, check the pump’s rated lift against the real vertical rise and horizontal run to the outlet.',
+  },
+  {
+    question: 'What is the best budget crawl space dehumidifier?',
+    answer: 'In a small, encapsulated, semi-heated crawl space with room to spare under the joists, a good portable with a continuous-drain port plus a separate condensate pump does the same physical job for a fraction of the price. What you give up is what a purpose-built unit adds: automatic restart after a power cut, a dirt-tolerant build and a published low-temperature range (the AlorAir HD55 sheet lists 33.8–104°F, about 1–40°C). In a cold, dirty, hard-to-reach crawl space, those missing features are what stop a portable working.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Crawl space dehumidifiers for Canadian homes: low-clearance sizing, pump drainage, low-temperature operation, and why the vapour barrier comes first.',
+  description: 'Best crawl space dehumidifier for Canadian homes: a low-profile unit rated for cold, drained by gravity or pump. AHAM vs saturation, and the vapour barrier first.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -83,7 +93,7 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
             <span className="text-white">Best Crawl Space Dehumidifier Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A crawl space dehumidifier is a different appliance from the one you would put in a basement &mdash; it has to fit under the joists, drain upward, survive the cold, and run for years somewhere you will almost never look. Here is how to size and drain one for a Canadian house, and the cheaper step that should always come first.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best crawl space dehumidifier for a Canadian home is a low-profile, purpose-built unit such as the AlorAir Sentinel HD55: about 34&nbsp;cm (13.3&nbsp;in) tall, rated 55 pints a day at AHAM conditions, working down to 33.8&deg;F (1&deg;C) and restarting itself after a power cut. Choose the HD55P version, which adds a built-in pump, if there is no drain below the unit. And lay a vapour barrier over any bare soil first: it may be all the crawl space needs.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -96,7 +106,7 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best crawl space dehumidifier for a Canadian home is a <strong>low-profile, purpose-built commercial unit with a built-in condensate pump and a low-temperature operating rating</strong> &mdash; an AlorAir Sentinel HD55-class machine is the reference point. It fits under the joists, has no bucket to fill, lifts water up and out where there is no floor drain, keeps running when the space is cold, and restarts itself after a power cut. Set it to hold <strong>55% relative humidity</strong>. But before you spend the money: if the crawl space still has a bare dirt floor, <strong>lay a vapour barrier first</strong> &mdash; that is a few hundred dollars of plastic against a permanent, unwinnable moisture load, and plenty of crawl spaces need nothing else.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best crawl space dehumidifier for a Canadian home is a <strong>low-profile, purpose-built commercial unit with a built-in condensate pump and a low-temperature operating rating</strong> &mdash; an AlorAir Sentinel HD55-class machine is the reference point (the HD55 drains by gravity; the HD55P adds the pump). It fits under the joists, has no bucket to fill, lifts water up and out where there is no floor drain, keeps running when the space is cold, and restarts itself after a power cut. Set it to hold <strong>55% relative humidity</strong>. But before you spend the money: if the crawl space still has a bare dirt floor, <strong>lay a vapour barrier first</strong> &mdash; that is a few hundred dollars of plastic against a permanent, unwinnable moisture load, and plenty of crawl spaces need nothing else.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li><strong>Vapour barrier first.</strong> A dehumidifier over open soil is drying the ground, and the ground never runs out.</li>
               <li><strong>Measure your clearance</strong> before anything else &mdash; a portable that will not fit under the joists is not an option at any price.</li>
@@ -270,10 +280,84 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
           </ul>
           <p>And the rule that overrides the chart: size up, not down. An oversized dehumidifier reaches your setpoint and then idles, which costs very little. An undersized one runs continuously, never reaches the setpoint, and bills you for the failure.</p>
 
+          <h2>Reading a Real Spec Sheet: AlorAir Sentinel HD55 vs HD55P</h2>
+          <p>Here is what the maker&rsquo;s own spec sheets say about the two versions of the machine most people mean by &ldquo;crawl space dehumidifier&rdquo;. The HD55P sheet shows the rating trap in one line: the same unit is 55 pints a day at AHAM conditions and 120 at saturation.</p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm my-6">
+            <table className="min-w-[640px] w-full text-sm">
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left">Spec (maker&rsquo;s sheet)</th>
+                  <th className="px-4 py-3 text-left">Sentinel HD55</th>
+                  <th className="px-4 py-3 text-left">Sentinel HD55P</th>
+                  <th className="px-4 py-3 text-left">Why it matters in a Canadian crawl space</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Capacity at AHAM (80&deg;F, 60% RH)</td>
+                  <td className="px-4 py-3 text-gray-700">55 pints/day</td>
+                  <td className="px-4 py-3 text-gray-700">55 pints/day (120 at saturation)</td>
+                  <td className="px-4 py-3 text-gray-700">Compare machines on the AHAM figure only</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Cooler-air rating</td>
+                  <td className="px-4 py-3 text-gray-700">34.53 pints/day at 60&deg;F, 60% RH (DOE)</td>
+                  <td className="px-4 py-3 text-gray-700">Not listed</td>
+                  <td className="px-4 py-3 text-gray-700">Capacity falls as the air cools, as it does under a house in spring and fall</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Working temperature</td>
+                  <td className="px-4 py-3 text-gray-700">33.8&ndash;104&deg;F (1&ndash;40&deg;C), auto defrost</td>
+                  <td className="px-4 py-3 text-gray-700">33&ndash;105&deg;F (about 1&ndash;41&deg;C), auto defrost</td>
+                  <td className="px-4 py-3 text-gray-700">The spec that separates a crawl space unit from a portable</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Drainage</td>
+                  <td className="px-4 py-3 text-gray-700">Gravity</td>
+                  <td className="px-4 py-3 text-gray-700">Gravity or built-in pump</td>
+                  <td className="px-4 py-3 text-gray-700">No drain below the unit means the HD55P or an add-on pump</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Size (L &times; W &times; H)</td>
+                  <td className="px-4 py-3 text-gray-700">19.2 &times; 12.2 &times; 13.3 in (about 49 &times; 31 &times; 34 cm); 57.3 lb</td>
+                  <td className="px-4 py-3 text-gray-700">17.64 &times; 11.69 &times; 11.85 in (about 45 &times; 30 &times; 30 cm); 44.4 lb</td>
+                  <td className="px-4 py-3 text-gray-700">Measure clearance under the joists, plus the airflow space the manual asks for</td>
+                </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Area the maker sizes it for</td>
+                  <td className="px-4 py-3 text-gray-700">Up to 1,300 sq ft</td>
+                  <td className="px-4 py-3 text-gray-700">Up to 1,500 sq ft</td>
+                  <td className="px-4 py-3 text-gray-700">A maker&rsquo;s ceiling, not a promise; size up for a damp or partly vented space</td>
+                </tr>
+                <tr className="align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Restart after a power cut</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Memory Starting&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">&ldquo;Memory Starting&rdquo;</td>
+                  <td className="px-4 py-3 text-gray-700">Nobody checks a crawl space; the unit has to come back on by itself</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="not-prose text-xs text-gray-500 mb-4">Sources: AlorAir Sentinel HD55 specification sheet (2021) and Sentinel HD55P specification sheet, read October 28, 2026. Both sheets list cETL and ENERGY STAR certification and optional remote controls and hanging kits. Specs change between production runs, so check the listing you buy from.</p>
+
           <h2>Cold, Dirt and Power Cuts — the Three Specifications That Actually Matter Here</h2>
           <p>Every refrigerant dehumidifier works by condensing moisture on a cold coil, which means all of them lose ground as the surrounding air gets colder and the coil starts to frost. Portables typically stop being useful somewhere in the low teens Celsius. Purpose-built crawl space units carry hot gas bypass defrost or an equivalent and publish a low-temperature operating range for exactly this reason. That published range is the specification to check, because an Ontario crawl space in May or October is not a warm room.</p>
           <p>The second is the environment itself. Crawl spaces are dusty, and a clogged intake filter starves airflow and collapses capacity long before anything actually breaks. Commercial units use a serviceable filter that you can pull and wash; the discipline is to actually do it once or twice a season. The third is auto-restart. Power goes out, power comes back, and a machine without auto-restart sits dead until somebody notices &mdash; which in a crawl space might be next spring, after a whole summer of unmanaged humidity. It is a trivial-sounding feature and it is the difference between a working installation and an expensive ornament.</p>
           <p>One more piece of kit is worth more than its price suggests: an inexpensive wireless hygrometer with the sensor in the crawl space and the display upstairs on a shelf. Purpose-built units offer wired remote controls that do the same job more elegantly, but the cheap wireless sensor works with any machine and it is what turns &ldquo;I assume it is fine&rdquo; into a number you glance at. You cannot manage humidity you never see.</p>
+
+          <h2>Buyer&rsquo;s Checklist: Before You Order a Crawl Space Dehumidifier</h2>
+          <ul>
+            <li><strong>Bare soil covered first.</strong> Lay and seal the vapour barrier, wait a few weeks, and measure again.</li>
+            <li><strong>Still above 60% relative humidity?</strong> Then a dehumidifier is justified.</li>
+            <li><strong>Clearance measured</strong> at the lowest point of the route in and where the unit will sit, against the unit&rsquo;s height plus the airflow space its manual asks for.</li>
+            <li><strong>Drain decided:</strong> gravity to a sump, floor drain or standpipe below the unit, or a built-in or add-on pump with enough rated lift. Never a line out through a vent.</li>
+            <li><strong>Capacity compared at AHAM conditions,</strong> not the saturation figure.</li>
+            <li><strong>A published low-temperature range and automatic defrost.</strong></li>
+            <li><strong>Automatic restart after a power cut.</strong></li>
+            <li><strong>A remote humidity readout,</strong> or a cheap wireless hygrometer with its display upstairs.</li>
+            <li><strong>A GFCI-protected receptacle</strong> close to the unit, not a long extension cord.</li>
+            <li><strong>Hanging straps or blocks</strong> so the unit does not sit on the plastic.</li>
+          </ul>
 
           <h2>Where to Buy These in Canada, and What It Costs</h2>
           <p>Portable dehumidifiers, poly vapour barrier, seam tape, and condensate pumps are all mainstream Canadian retail: Home Depot, Rona, Home Hardware and Canadian Tire between them cover the lot, and Amazon.ca stocks the same categories. Purpose-built low-profile crawl space units are a narrower market &mdash; in practice that means Amazon.ca or a specialist restoration-equipment supplier rather than a shelf you can walk up to, so plan on ordering rather than collecting.</p>
@@ -283,6 +367,8 @@ export default function BestCrawlSpaceDehumidifierCanadaPage() {
           <p>It will not stop water getting in. If your crawl space seeps after heavy rain, holds standing water, or floods, that is a grading, drainage, or sump problem, and running a dehumidifier against active water intrusion is treating the symptom while the cause keeps feeding it. Fix the water, then manage the humidity.</p>
           <p>It will not remove mould that is already growing on the joists. Humidity control stops new growth and keeps it from returning, but established colonies have to be physically remediated &mdash; and anything beyond a small patch, particularly overhead in a confined space, is a job for a remediation contractor with the right protective equipment. Our companion guide to the <Link href="/blog/best-dehumidifier-for-mold-canada">best dehumidifier for mould</Link> covers the humidity thresholds in more depth.</p>
           <p>It will do nothing at all for radon, which is a genuinely separate problem with a genuinely separate fix. And it will not, on its own, clear out the silverfish, centipedes and other damp-seeking insects that a wet crawl space attracts. What it does is remove the conditions those species depend on, which is the durable half of the job &mdash; our guides on <Link href="/blog/how-to-get-rid-of-silverfish-canada">getting rid of silverfish</Link> and <Link href="/blog/how-to-get-rid-of-centipedes-canada">getting rid of centipedes</Link> cover the cleanup half. If the damp problem is really in a full basement rather than a crawl space, start instead with our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link>, or the <Link href="/blog/best-large-capacity-dehumidifier-canada">large-capacity guide</Link> for the wettest spaces.</p>
+          <Photo id="silverfish" alt="Common silverfish, a slender silvery wingless insect, photographed in Ontario" caption="A common silverfish, photographed in London, Ontario. Damp-seeking insects like this are what a wet crawl space attracts; drying the space removes the conditions they depend on." />
+          <Photo id="house-centipede-on-wall" alt="Adult house centipede with long legs on a wall" caption="An adult house centipede on a wall (Sandusky, Ohio). Centipedes are another of the damp-seeking species a wet crawl space attracts; a dehumidifier does not clear them out on its own." />
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
