@@ -44,6 +44,13 @@
   "/guides/photos/mouse-droppings-wood.webp",
   "/guides/photos/mouse-nest-desk-drawer.webp"
  ],
+ "/blog/are-mosquitoes-attracted-to-light": [
+  "/guides/photos/aedes-aegypti-female.webp",
+  "/guides/photos/aedes-vexans-uv-light.webp",
+  "/guides/photos/bug-zapper-roof-eave.webp",
+  "/guides/photos/cattail-mosquito-porch-light.webp",
+  "/guides/photos/cdc-light-trap-navy-new-orleans.webp"
+ ],
  "/blog/are-ticks-arachnids-or-insects": [
   "/guides/photos/bed-bug-adult-ruler.webp",
   "/guides/photos/blacklegged-tick-life-stages.webp",
@@ -571,6 +578,12 @@
   "/guides/photos/carpenter-ant-side-view.webp",
   "/guides/photos/carpenter-ant-winged-queen.webp"
  ],
+ "/blog/do-cedar-trees-attract-mosquitoes": [
+  "/guides/photos/lemongrass-plant.webp",
+  "/guides/photos/mosquitoes-resting-under-leaf.webp",
+  "/guides/photos/thuja-hedge-residential-lane.webp",
+  "/guides/photos/white-cedar-tree-in-lawn.webp"
+ ],
  "/blog/do-cockroaches-bite": [
   "/guides/photos/american-cockroach.webp",
   "/guides/photos/bed-bug-adult-ruler.webp",
@@ -773,6 +786,12 @@
   "/guides/photos/brown-dog-tick-male.webp",
   "/guides/photos/tick-unfed-vs-engorged.webp"
  ],
+ "/blog/how-long-does-mosquito-spray-last": [
+  "/guides/photos/aedes-resting-under-leaf.webp",
+  "/guides/photos/cedar-hedge-foliage-london-ontario.webp",
+  "/guides/photos/fogging-for-mosquitoes-navy.webp",
+  "/guides/photos/mosquito-larvae-water-trough.webp"
+ ],
  "/blog/how-many-ants-are-in-the-world": [
   "/guides/photos/argentine-ants-bait-trap.webp",
   "/guides/photos/carpenter-ant-on-fingers.webp",
@@ -966,6 +985,14 @@
   "/guides/photos/head-louse-hatching-from-nit.webp",
   "/guides/photos/head-louse-nit-eyespots-and-nymph.webp"
  ],
+ "/blog/lyme-disease-risk-areas-ontario-2026": [
+  "/guides/photos/blacklegged-tick-female-point-pelee.webp",
+  "/guides/photos/blacklegged-tick-fingernail-cootes-paradise.webp",
+  "/guides/photos/blacklegged-tick-garden-glove.webp",
+  "/guides/photos/erythema-migrans-rash-trunk.webp",
+  "/guides/photos/tick-drag-cloth-woodland.webp",
+  "/guides/photos/white-tailed-deer-yard-ontario.webp"
+ ],
  "/blog/maggots": [
   "/guides/photos/carpet-beetle-larva-hallway-wall.webp",
   "/guides/photos/carpet-beetle-larva-wood-floor.webp",
@@ -1022,6 +1049,13 @@
   "/guides/photos/house-centipede.webp",
   "/guides/photos/pill-bug.webp"
  ],
+ "/blog/mosquito-bite-treatment-relief": [
+  "/guides/photos/mosquito-bite-welt-quarter.webp",
+  "/guides/photos/mosquito-bites-ankle.webp",
+  "/guides/photos/mosquito-bites-forearm-quarter.webp",
+  "/guides/photos/mosquito-bites-scratched-leg.webp",
+  "/guides/photos/severe-mosquito-bite-reaction-leg.webp"
+ ],
  "/blog/mosquito-bite-vs-spider-bite": [
   "/guides/photos/aedes-aegypti-female.webp",
   "/guides/photos/brown-recluse-bite-necrosis.webp",
@@ -1046,6 +1080,12 @@
   "/guides/photos/culex-pipiens.webp",
   "/guides/photos/culex-tarsalis-female.webp",
   "/guides/photos/mosquito-bites-forearm.webp"
+ ],
+ "/blog/mosquito-net": [
+  "/guides/photos/cone-mosquito-net-double-bed.webp",
+  "/guides/photos/hammock-mosquito-net-bc.webp",
+  "/guides/photos/head-net-over-cap-alaska.webp",
+  "/guides/photos/mosquito-net-mesh-closeup.webp"
  ],
  "/blog/mosquito-season-gta-when-does-it-start": [
   "/guides/photos/aedes-vexans.webp",
@@ -1105,6 +1145,13 @@
   "/guides/photos/mud-dauber-nest-house-overhang.webp",
   "/guides/photos/organ-pipe-mud-dauber-nest.webp",
   "/guides/photos/paper-wasp-nest.webp"
+ ],
+ "/blog/natural-mosquito-repellent-ontario": [
+  "/guides/photos/citronella-candle-burning.webp",
+  "/guides/photos/lemon-scented-gum-tree.webp",
+  "/guides/photos/mosquito-larva-close-up-trough.webp",
+  "/guides/photos/peppermint-flowering.webp",
+  "/guides/photos/scarlet-bee-balm-ontario.webp"
  ],
  "/blog/no-see-um-bites": [
   "/diagrams/bite-pattern-comparison.svg",
@@ -2106,7 +2153,12 @@
   "/guides/photos/yellowjacket-sting-swelling.webp"
  ],
  "/learn/how-to-get-rid-of-fungus-gnats": [
-  "/guides/bz-guide-07-fungus-gnats.webp"
+  "/guides/bz-guide-07-fungus-gnats.webp",
+  "/guides/photos/drain-fly-bathroom-wall.webp",
+  "/guides/photos/fungus-gnat-kitchen-counter.webp",
+  "/guides/photos/fungus-gnat-larvae-procession.webp",
+  "/guides/photos/fungus-gnat-penny-scale.webp",
+  "/guides/photos/fungus-gnat-yellow-sticky-trap.webp"
  ],
  "/learn/natural-garden-pest-control": [
   "/guides/bz-guide-09-garden-master.webp"
