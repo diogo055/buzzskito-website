@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-405 images across 165 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+425 images across 173 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -517,10 +517,20 @@
 - Adult female red widow (Latrodectus bishopi) photographed in central Florida, side or top view showing the red legs, public domain or CC0
 - Macro photo of a brown recluse's head from above or the front, sharp enough to show the six eyes in three separated pairs, public domain or CC0
 
+## /blog/black-widow-bite
+
+- A black widow bite on the skin in its first hours, from a case where the spider was seen biting and was identified, showing the redness, swelling and any puncture marks, with the timing stated by a clinical or government source; public domain or CC0, no identifiable face
+
 ## /blog/brown-recluse-bite
 
 - Photo of a MRSA skin abscess (a red, swollen, pus-filled bump on skin), public domain from CDC's Public Health Image Library or CC0, for comparison with the recluse bite photos lower on the page; no identifiable face
 - Clinical photo of a verified brown recluse bite in the United States (spider seen biting and identified) in its first 24 to 72 hours, with the timing documented by a clinical or government source; public domain or CC0, no identifiable face
+
+## /blog/black-widow-spiders
+
+- Adult male black widow from above beside a ruler marked in inches, showing the small body, long legs and the pale stripes and red or white spots on the abdomen; identified by an expert; public domain or CC0
+- Juvenile black widow in its web showing the tan or olive-gray abdomen with white stripes and black dots, ideally beside a ruler marked in inches, identified to species by an expert
+- A black widow's tangled web where homeowners meet it, with the spider visible: in a woodpile, a garage corner by the door, inside a water meter box or under outdoor furniture
 
 ## /blog/daddy-long-legs
 
@@ -606,6 +616,11 @@
 
 - A male red-legged purseweb spider (shiny black body, bright reddish-orange legs) walking on the ground in early summer beside a ruler marked in inches, and a second photo of a purseweb silk tube against the base of a tree
 
+## /blog/wasp-nest-identification
+
+- Honey bee wax comb exposed in a wall void or hollow tree during a removal in the US, showing pale wax cells filled with honey, so readers can compare it with gray paper wasp comb; public domain or CC0
+- An old, empty bald-faced hornet or yellowjacket nest hanging in a bare tree in winter, photographed from the ground in a US yard with the torn gray envelope visible; public domain or CC0
+
 ## /blog/paper-wasps
 
 - A red paper wasp (Polistes carolina or P. rubiginosus) on its nest under a house eave or porch ceiling in the eastern US, identified by an extension service, museum or expert; public domain or CC0
@@ -623,6 +638,16 @@
 ## /blog/how-to-get-rid-of-gnats
 
 - Photo of fungus gnats indoors as a homeowner sees them: adults on the surface of houseplant potting soil or caught on a yellow sticky card, ideally with larvae on the underside of a raw potato slice, with a ruler or coin for scale (public domain or CC0).
+
+## /blog/maggots
+
+- Maggots in a household trash can or on the underside of its lid, photographed where found beside a ruler marked in inches (public domain or CC0, so it could lead the page)
+- Maggots crawling on a hard floor below a wall or baseboard inside a house, photographed where found beside a coin or a ruler marked in inches (public domain or CC0)
+
+## /blog/dust-mites
+
+- Live house dust mites among skin flakes and fibers in dust vacuumed from a US mattress, under a stereo microscope with a scale bar marked in inches, to show them where they actually live
+- A zippered, allergen-impermeable encasement fitted over a mattress and a pillow in a bedroom, with the zipper closure visible; public domain or Creative Commons
 
 ## /blog/what-do-fleas-look-like
 
@@ -791,6 +816,12 @@
 
 - A Jerusalem cricket beside a ruler marked in inches, seen from above and from the side to show the head and jaws at life size, in a US yard or garage; identified by an extension service, museum or expert; public domain or CC0
 
+## /blog/fleas-on-humans
+
+- A human flea, Pulex irritans, magnified in side view to show its rounded head and the missing combs, ideally beside a cat flea at the same scale; public domain or CC0 (CDC PHIL has candidates)
+- An adult head louse beside nits attached to hairs near the scalp, with a ruler marked in inches for scale; public domain or CC0 (CDC PHIL), to set beside the flea photos
+- Adult fleas on a white sock pulled up to the knee after a walk through a pet's resting area, with a ruler marked in inches for scale
+
 ## /learn/bug-bites
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
@@ -840,6 +871,13 @@
 
 - Fresh white-tailed deer pellets on a lawn or garden bed beside a ruler marked in inches, identified by a wildlife agency, extension service or expert; public domain or CC0
 - A soft summer clump of white-tailed deer droppings with the pellet shapes still visible, on grass, identified by a wildlife agency or expert; public domain or CC0
+
+## /blog/rabbit-poop
+
+- Eastern cottontail pellets on a lawn beside a ruler marked in inches or a US quarter, identified by a wildlife agency, extension service or expert tracker; public domain or CC0 so it can lead the page
+- An eastern cottontail feeding on a lawn or at the edge of a garden bed, from USFWS, NPS or another public domain or CC0 source with a confirmed identification
+- Cottontail droppings on snow at the base of a shrub with gnawed bark and stems clipped at an angle, in winter, identified by a wildlife agency, extension service or expert tracker; public domain or CC0
+- A pet rabbit's normal fecal pellets and a cluster of cecotropes side by side beside a ruler marked in inches, photographed or identified by a veterinarian or veterinary school
 
 ## /blog/diy-pest-control
 
@@ -893,6 +931,12 @@
 - Side-by-side photo of weeds in a paving crack: on the left, seedlings with 2 to 5 leaves (the stage a vinegar spray controls); on the right, an established dandelion rosette that will regrow from its root after spraying
 - Photo of a ruler pushed into fresh wood chip mulch in a shrub bed, reading 4 inches, with the mulch visibly tapered down to almost nothing where it meets the shrub's trunk
 - Photo of a freshly pulled dandelion with its full taproot intact lying beside a fishtail weeder on a lawn, with visibly damp soil in the hole
+
+## /blog/spider-mites
+
+- Close-up of twospotted spider mites, round eggs and white shed skins on the underside of a leaf, photographed through a 10X hand lens beside a ruler marked in inches, so readers see the colony at the size they will meet it
+- Upper side of a tomato or houseplant leaf covered in fine pale stippling from spider mite feeding, beside a ruler marked in inches, with an undamaged leaf of the same plant next to it for comparison
+- A sheet of white paper held under a stippled leaf just after tapping it, with tiny spider mites scattered across the paper, beside a ruler marked in inches
 
 ## /blog/houseplant-bugs
 

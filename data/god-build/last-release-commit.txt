@@ -1,7 +1,10 @@
-release: 5 scheduled page(s) go live (2026-10-25)
+release: 8 scheduled page(s) go live (2026-10-28)
 
-- /blog/carpet-beetle-rash
-- /blog/pseudoscorpions
-- /blog/possum-vs-opossum
-- /blog/how-long-do-rats-live
-- /blog/deer-poop
+- /blog/black-widow-bite
+- /blog/black-widow-spiders
+- /blog/wasp-nest-identification
+- /blog/spider-mites
+- /blog/maggots
+- /blog/dust-mites
+- /blog/rabbit-poop
+- /blog/fleas-on-humans

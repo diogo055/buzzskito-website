@@ -147,7 +147,9 @@ https://buzzskito.ca/blog/ticks-in-alabama
 https://buzzskito.ca/blog/ticks-in-mississippi
 https://buzzskito.ca/blog/ticks-in-south-carolina
 https://buzzskito.ca/blog/venomous-spiders
+https://buzzskito.ca/blog/black-widow-bite
 https://buzzskito.ca/blog/brown-recluse-bite
+https://buzzskito.ca/blog/black-widow-spiders
 https://buzzskito.ca/blog/daddy-long-legs
 https://buzzskito.ca/blog/joro-spiders
 https://buzzskito.ca/blog/wolf-spiders
@@ -163,10 +165,13 @@ https://buzzskito.ca/blog/spiders-in-texas
 https://buzzskito.ca/blog/pseudoscorpions
 https://buzzskito.ca/blog/spider-egg-sacs
 https://buzzskito.ca/blog/black-spiders
+https://buzzskito.ca/blog/wasp-nest-identification
 https://buzzskito.ca/blog/paper-wasps
 https://buzzskito.ca/blog/mud-daubers
 https://buzzskito.ca/blog/flies-in-house
 https://buzzskito.ca/blog/how-to-get-rid-of-gnats
+https://buzzskito.ca/blog/maggots
+https://buzzskito.ca/blog/dust-mites
 https://buzzskito.ca/blog/what-do-fleas-look-like
 https://buzzskito.ca/blog/how-to-get-rid-of-fleas
 https://buzzskito.ca/blog/carpet-beetle-rash
@@ -199,6 +204,7 @@ https://buzzskito.ca/blog/camel-crickets
 https://buzzskito.ca/blog/carpet-beetle-larvae
 https://buzzskito.ca/blog/weevils
 https://buzzskito.ca/blog/jerusalem-crickets
+https://buzzskito.ca/blog/fleas-on-humans
 https://buzzskito.ca/blog/animals-in-attic
 https://buzzskito.ca/blog/holes-in-yard
 https://buzzskito.ca/blog/animal-droppings
@@ -207,4 +213,6 @@ https://buzzskito.ca/blog/bat-poop
 https://buzzskito.ca/blog/squirrel-poop
 https://buzzskito.ca/blog/possum-vs-opossum
 https://buzzskito.ca/blog/deer-poop
+https://buzzskito.ca/blog/rabbit-poop
+https://buzzskito.ca/blog/spider-mites
 https://buzzskito.ca/blog/houseplant-bugs
