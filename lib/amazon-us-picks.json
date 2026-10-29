@@ -7,7 +7,9 @@
     "zombie-ants": "Page never mentions a magnifier; its own check is photos with a coin for scale. It recommends nothing to buy.",
     "black-widow-bite": "Emergency and medical page (call 911 or Poison Control); nothing to buy belongs on it.",
     "wasp-nest-identification": "The page recommends nothing a search could safely find (no removal products by design).",
-    "stick-bugs": "The page recommends nothing to buy: walkingsticks need no control, and the safety advice is to rinse eyes and call Poison Control."
+    "stick-bugs": "The page recommends nothing to buy: walkingsticks need no control, and the safety advice is to rinse eyes and call Poison Control.",
+    "fire-ant-stings": "Medical and emergency page (sting care, pustule stages, anaphylaxis signs, 911 and epinephrine in the quick answer and body); by rule no pick, and its home care is creams and antihistamines.",
+    "kissing-bug-bites": "Medical page (bite reactions, 911 for anaphylaxis in the quick answer, Chagas testing); by rule no pick. Its sister page kissing-bug-look-alikes already carries the specimen-jar pick."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1197,6 +1199,102 @@
       "name": "Metal nit comb",
       "search": "metal nit comb",
       "basis": "Combing step: comb every 2 to 3 days for 2 to 3 weeks after each treatment (CDC); 'MedlinePlus and UC IPM say metal combs with very fine teeth work better than plastic ones.'"
+    },
+    "no-see-ums": {
+      "label": "For porches and patios at dusk",
+      "name": "Outdoor patio fan",
+      "search": "outdoor patio fan",
+      "basis": "Quick answer: 'Moving air works against them: UF/IFAS says little feeding happens in a slight breeze, and CDC suggests fans to blow biting midges away outdoors.' 'How do you keep no-see-ums from biting?': 'Keep the air moving. UF/IFAS says more air movement on porches, patios and picnic areas keeps biting flies away but may not give complete protection, and CDC suggests fans to blow biting midges away outdoors.' 'What should you do about no-see-ums?': 'Outdoors near water at dusk: time your outings, sit in moving air or run a fan, and use a repellent whose label lists biting flies or midges.' Not a repellent (the page's callout says DEET may not cut midge bites enough for everyone) and not a yard spray (NC State: only temporarily effective)."
+    },
+    "sand-fleas": {
+      "label": "For biting flies at the beach",
+      "name": "DEET insect repellent",
+      "search": "deet insect repellent biting flies",
+      "basis": "'How can you avoid bites at the beach?': 'Use a repellent made for biting flies. The CDC Yellow Book says EPA-registered repellents labeled for flies, biting flies and no-see-ums repel biting midges ... UF/IFAS says DEET-based repellents are the main ones used against biting midges, and that most repellents work less well on biting flies than on mosquitoes, so they need reapplying more often; follow the label.' FAQ 'What repels sand fleas?' repeats it and says repellent is for the insects that bite at the beach, since beach hoppers and mole crabs do not. DEET is the type the page names as the main one; a label listing biting flies, used as the label directs. No bite cream or antihistamine (treatment)."
+    },
+    "june-bugs": {
+      "label": "To keep figeaters out of compost",
+      "name": "Window screen mesh roll",
+      "search": "window screen mesh roll",
+      "basis": "'What should you do about June bugs?': 'In compost. Texas A&M says grubs in compost, mulch or raised beds are likely beneficial decomposers; to keep figeaters from breeding there, UC Davis says to cover compost, mulch and manure piles with screen.' The page's clearest buyable step: for porch-light beetles it advises doing nothing, and for lawns it says to count grubs before treating and names no product. No yellow bug light (no source on the page) and no insecticide (UC IPM recommends none for figeaters). If this is judged too narrow (figeaters are Southwest and California), the fallback is a ruler from its tip 'Photograph the beetle or grub beside a ruler marked in inches'."
+    },
+    "japanese-beetles": {
+      "label": "To cover roses and prized plants",
+      "name": "Fine mesh insect netting",
+      "search": "fine mesh insect netting",
+      "basis": "'How do you get rid of Japanese beetles?', step 2: 'Cover your best plants. UK says roses and other valued plants can be protected with cheesecloth or fine netting during peak beetle activity.' Not a Japanese beetle trap: the page says UK research found traps attract many more beetles than they catch, that in most landscapes traps probably do more harm than good, and that Purdue does not recommend them. No insecticide picked: the page puts hand-picking and barriers first and warns about bees."
+    },
+    "mite-bites": {
+      "label": "For chiggers in grass and weeds",
+      "name": "DEET insect repellent (7 to 30%)",
+      "search": "30% deet insect repellent",
+      "basis": "'How do you keep mites from biting again?': 'Chiggers: IDPH calls repellents with 7 to 30 percent DEET the first line of defense and advises a hot, soapy bath or shower right after visiting natural areas. StatPearls suggests tucking pant hems into socks or boots and calls DEET and permethrin effective deterrents; Kentucky notes that some repellents are made for clothing. Follow the label.' Prevention only: no anti-itch cream, corticosteroid or antihistamine (treatment). Chiggers only: the page says DEET gives mixed results against oak leaf itch mites, and bird and rodent mites need the host removed. Treated as an identification page (which mite bit you); its emergency signs are in a closing callout, not the quick answer."
+    },
+    "bed-bug-eggs": {
+      "label": "To spot eggs in mattress seams",
+      "name": "Lighted magnifying glass",
+      "search": "lighted magnifying glass",
+      "basis": "'How big are bed bug eggs, and can you see them?': 'Finding them takes light and a lens. Kentucky says the whitish eggs are hard to see without magnification, especially on light-colored materials, and calls a flashlight useful in dim areas, so work along pale mattress fabric slowly with a flashlight and a magnifying glass.' FAQ 1: 'UC IPM says seeing them requires a hand magnifying lens'. A lighted lens is the page's light and lens in one. No spray picked: the page says sprays are the weak link against eggs."
+    },
+    "what-do-lice-look-like": {
+      "label": "To check wet hair for lice",
+      "name": "Fine-toothed lice comb",
+      "search": "fine tooth lice comb",
+      "basis": "Checklist 'How to check for live lice': 'Wet the hair and comb. Work section by section from the scalp outward with a fine-toothed or lice comb, as AAD describes.' Photo caption: 'CDC says a fine-toothed louse comb may help find lice, which are hard to see in the hair.' 'What should you do if you find lice?': CDC's steps include removing nits and lice 'with a nit comb every 2 to 3 days for 2 to 3 weeks after each treatment'. A tool, not a treatment: no lice medicine picked (the page says to treat by the label and to check with a provider before treating a young child)."
+    },
+    "baby-rats": {
+      "label": "To trap the adult rats",
+      "name": "Rat snap traps",
+      "search": "rat snap traps",
+      "basis": "'How do you deal with a litter of rats safely?': 'Trap the adults. CDC's trapping guide recommends snap traps made for rats, set with the baited end against the wall where you have seen droppings or nesting material, and says not to use glue or live traps, which can scare rodents into urinating.' FAQ 1: 'set snap traps made for rats along the walls'. Snap traps made for rats only: never glue or live traps, and no poison (the page keeps poison bait stations for infestations that persist). The page says to leave the pups untouched and that young rats often will not trigger a rat snap trap."
+    },
+    "bugs-in-carpet": {
+      "label": "For rug edges and baseboards",
+      "name": "HEPA vacuum cleaner",
+      "search": "hepa vacuum cleaner",
+      "basis": "'What should you do once you know what it is?': 'Vacuuming helps against most of these bugs'; carpet beetle larvae: 'Vacuum often along rug edges, under furniture and at baseboards, and empty the bag promptly' (UC IPM); fleas: 'UC IPM says vacuuming kills larvae in the carpet and picks up adults'; dust mites: 'Vacuum with a HEPA filter or a double-layered microfilter bag and keep humidity at or below 50%, two of the NIEHS steps'. HEPA is the vacuum type the page names. No insecticide picked: UC IPM says insecticides may not be needed for carpet beetles once food is removed."
+    },
+    "tiny-white-bugs": {
+      "label": "To bring humidity below 50%",
+      "name": "Dehumidifier",
+      "search": "dehumidifier",
+      "basis": "'What should you do once you know what it is?': 'Take away the damp or the food first'; 'Booklice and mold mites. Dry the room. Penn State says relative humidity below 50% prevents mold growth and booklouse development, with a dehumidifier if needed, and that leaky pipes and roofs should be fixed'. FAQ 'Are tiny white bugs a sign of mold?': 'Keeping relative humidity below 50%, as Penn State advises for booklice, works against the mold and the bugs together.' No insecticide picked: FAQ 10 says spraying is usually not a first step."
+    },
+    "rat-nest": {
+      "label": "For nest cleanup",
+      "name": "Disposable gloves",
+      "search": "disposable gloves",
+      "basis": "'How do you clean up a rat nest safely?', CDC's steps: 'Put on rubber or plastic gloves.', then soak the nest with disinfectant or a fresh bleach mix and double-bag it. FAQ 'What happens if you disturb a rat nest?': 'Wear rubber or plastic gloves, and soak a nest with disinfectant before you move it.' The page says never to sweep or vacuum a nest."
+    },
+    "hobo-spiders": {
+      "label": "To catch wandering males",
+      "name": "Spider sticky traps",
+      "search": "spider sticky traps",
+      "basis": "'How do you keep hobo spiders out of the house?': 'Seal the gaps, clear the clutter and catch the wanderers on sticky traps.' 'Trap the wanderers. Set sticky spider traps by doors, along walls, behind furniture and near window wells from midsummer to the first freezing days of fall, out of reach of pets and young children (UC IPM).' 'WSU says commercial spider traps work well on wandering spiders such as hobo spiders'. FAQ 'Do sticky traps catch hobo spiders?': 'Yes, especially the wandering males.' No spray: WSU says spraying spiders like these outdoors is not usually advised."
+    },
+    "bugs-in-bathroom": {
+      "label": "To scrub drains where drain flies breed",
+      "name": "Stiff drain cleaning brush",
+      "search": "stiff drain cleaning brush",
+      "basis": "Drain flies lead the page: 'UC IPM's drain fly guide says bathroom drains are the most common place they breed in homes.' 'What should you do once you know what it is?': 'Drain and phorid flies: scrub the drain and trap with a stiff brush; Texas A&M says insecticides alone rarely solve indoor fly problems.' Drain fly section: 'scrub the film out of the pipe and trap with a stiff brush, as Texas A&M advises; UC IPM calls pouring boiling water or bleach down the drain a common misconception'. FAQ 7: 'scrubbing the drain film out with a stiff brush is the fix'. A brush only, no drain chemical. Alternative with page support: a dehumidifier (springtails, silverfish, centipedes), which FAQ 9 says does not fix drain flies."
+    },
+    "bugs-in-kitchen": {
+      "label": "To store dry food sealed",
+      "name": "Airtight food storage containers",
+      "search": "airtight food storage containers",
+      "basis": "'How do you get rid of bugs in the kitchen?': 'Pantry pests. Throw out infested food, vacuum and wash the shelves, and store dry food in containers with tight lids, not plastic bags.'; silverfish and springtails: 'keep dry food in tight containers'. FAQ 'How do I keep bugs out of my kitchen?': UMN advises 'storing it in tightly closed glass, metal or heavy plastic containers'. Never an insecticide: UC IPM does not recommend insecticides for pantry pests and warns that spraying on or near food may cause more harm than the insects."
+    },
+    "crickets-in-house": {
+      "label": "To catch crickets indoors",
+      "name": "Cockroach-type sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "Quick answer: 'Extension services put sealing gaps, fewer or yellow outdoor lights, vacuuming and sticky traps ahead of any insecticide.' 'How do you find a cricket chirping in the house at night?': 'Maryland suggests the vacuum or, if the cricket is out of reach, sticky traps of the kind sold for cockroaches set near where it sings; WSU suggests glue boards in room corners.' 'How do you get rid of crickets in the house?': 'Set sticky traps near entry points (Clemson), near where crickets sing (Maryland) or in room corners (WSU). Missouri and Minnesota say they work especially well on camel crickets.' No insecticide or cricket bait picked: the page puts them after these steps."
+    },
+    "wasp-vs-hornet": {
+      "label": "To check it from a safe distance",
+      "name": "Compact binoculars",
+      "search": "compact binoculars",
+      "basis": "The page names no product but tells readers to watch from a distance: 'Which one do I have?': 'Match the insect's size, color, nest and behavior against this table of eight insects that get called wasps, hornets or bees, then run the checks below it from a safe distance.'; checklist 'Sort it from a safe distance' (ivory-white face, reddish-brown front, yellow legs, the nest); tip: 'Photograph the insect from a distance'. Nests sit high: bald-faced hornets 'in trees as high as 60 feet or more', European hornets 'up to 30 feet up' (Penn State). No spray, trap or removal product: the page says the answer is often nothing, and Clemson advises against removing a yellow-legged hornet nest yourself."
     }
   }
 }
