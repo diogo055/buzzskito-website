@@ -114,7 +114,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards, the best mosquito repellent device is a <AmazonLink search="thermacell patio shield" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Thermacell zone repeller</AmazonLink> ($35&ndash;$229) &mdash; it creates a 6-metre (about 20-foot) repellent zone around your patio in roughly 15 minutes, with no smoke or spray. For thinning a whole large lot, a propane CO&#8322; trap is the strongest killing device but takes 6&ndash;8 weeks.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For most Canadian backyards, the best mosquito repellent device is a <AmazonLink search="thermacell patio shield" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Thermacell zone repeller</AmazonLink> &mdash; the Patio Shield&rsquo;s Canadian label (Reg. No. 31998) gives a repellent zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect, with no smoke or spray. For thinning a whole large lot, a propane CO&#8322; trap is the strongest killing device but takes 6&ndash;8 weeks.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>A Thermacell zone repeller ($35&ndash;$229) protects a 4.5-metre (15-foot) zone on the butane Patio Shield models and 6 metres (20 feet) on the larger metofluthrin Zone models, and starts working in roughly 15 to 30 minutes, by model.</li>
               <li>A propane CO&#8322; trap (Mosquito Magnet) covers up to about 1 acre and costs $400&ndash;$1,300, thinning the population over 6&ndash;8 weeks.</li>
@@ -169,7 +169,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap)</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap) <span className="font-normal text-xs text-gray-500">not registered in Canada</span></td>
                   <td className="px-4 py-3 text-gray-700">Killer machine (weak)</td>
                   <td className="px-4 py-3 text-gray-700">300 sq ft – 1 acre</td>
                   <td className="px-4 py-3 text-gray-700">Supplemental insect catch</td>
@@ -214,26 +214,26 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Thermacell Zone Repeller (E-Series / Patio Shield)',
-                why: 'Creates a bite-free 6-metre bubble around your patio in about 15 minutes — no smoke, no spray, no flame. Testing shows 70–95% fewer bites inside the zone, and it is the cheapest device that genuinely works.',
+                why: 'The Patio Shield’s Canadian label (Reg. No. 31998) says it repels and kills mosquitoes and reduces bites up to 4.5 metres (15 feet) from the unit, for up to four hours per mat, and to allow 30 minutes for it to take effect — no smoke, no spray, no flame. It is the cheapest device that genuinely works.',
                 search: 'thermacell patio shield',
                 score: 9.1,
                 featured: true,
-                pros: ['Works in ~15 minutes', 'No smoke, spray, or flame', 'Cheapest device that actually works'],
+                pros: ['Label zone up to 4.5 m (15 ft)', 'No smoke, spray, or flame', 'Cheapest device that actually works'],
                 cons: ['Protects a zone, not the whole yard', 'Needs refill mats and fuel'],
               },
               {
                 badge: 'Best for Large Lots',
                 name: 'Mosquito Magnet (propane CO₂ trap)',
-                why: 'The only device category with strong independent evidence of actually reducing mosquito numbers — 70–90% over 6–8 weeks within about a 1-acre radius by mimicking a breathing human.',
+                why: 'The only device category with strong independent evidence of actually reducing mosquito numbers, by mimicking a breathing human. Woodstream Canada rates the Patriot Plus (Reg. No. 32375) at up to 1 acre and says results come in 7 to 10 days, with the big drops in about four weeks.',
                 search: 'mosquito magnet patriot plus',
                 score: 8.4,
                 pros: ['Genuinely thins the population', 'Covers up to ~1 acre', 'Targets biting females'],
-                cons: ['Premium up-front cost plus propane', 'Takes 6–8 weeks — nothing tonight'],
+                cons: ['Premium up-front cost plus propane', 'Works over weeks — nothing tonight'],
               },
               {
                 badge: 'Best Supplemental',
-                name: 'DynaTrap UV + Fan Trap',
-                why: 'Quiet, chemical-free, and satisfying to empty — but only about 5% of the catch is mosquitoes, so treat it as a bonus flying-insect catcher rather than your primary plan.',
+                name: 'DynaTrap UV + Fan Trap (not registered in Canada)',
+                why: 'Quiet, chemical-free, and satisfying to empty — but only about 5% of the catch is mosquitoes, so treat it as a bonus flying-insect catcher rather than your primary plan. No DynaTrap model is in Health Canada’s register, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',
                 search: 'dynatrap insect trap',
                 score: 7.1,
                 pros: ['Quiet and chemical-free', 'Catches lots of flying insects', 'Low maintenance'],
@@ -242,7 +242,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
               {
                 badge: 'Best Pre-Event',
                 name: 'Propane / Electric Fogger',
-                why: 'Knocks down adult mosquitoes in an area within minutes — useful for clearing a yard an hour before a party, but the effect is short-lived with no lasting residual.',
+                why: 'Knocks down adult mosquitoes in an area within minutes — useful for clearing a yard an hour before a party, but the effect is short-lived with no lasting residual. In Canada the liquid is the catch: the propane-fogger insecticides in Health Canada’s registry (Black Flag Fog 28121, Wilson Mosquito Fogging 17201) are cancelled, so check any fogging liquid for a current Reg. No. before you buy the machine.',
                 search: 'propane mosquito fogger',
                 score: 6.9,
                 pros: ['Fast knockdown in minutes', 'Good pre-party reset'],
@@ -251,7 +251,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Just want to stop bites on the patio tonight?</strong> The <em>Best Overall</em> Thermacell is the pick. <strong>Rural acreage or a cottage near water?</strong> The <em>Best for Large Lots</em> propane trap earns its keep over the season. <strong>Hosting an event this weekend?</strong> A <em>Best Pre-Event</em> fogger buys a few hours — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Just want to stop bites on the patio tonight?</strong> The <em>Best Overall</em> Thermacell is the pick. <strong>Rural acreage or a cottage near water?</strong> The <em>Best for Large Lots</em> propane trap earns its keep over the season. <strong>Hosting an event this weekend?</strong> A <em>Best Pre-Event</em> fogger buys a few hours, if you can find a fogging liquid with a current Canadian Reg. No. for it — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -320,7 +320,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="thermacell patio shield">Thermacell on Amazon.ca →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="mosquito magnet patriot plus">Propane CO₂ trap →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV trap (not registered in Canada) →</BuyLink>
           </div>
 
           <h2 id="ranked">The 5 Mosquito Repellent Devices, Ranked</h2>
@@ -353,7 +353,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           <p>UV traps use an ultraviolet light to attract flying insects and a fan to suck them into a basket. They are quiet, use no insecticide, and are satisfying to empty — but peer-reviewed testing (University of Florida; Notre Dame) finds mosquitoes make up only about 5% of the catch; the rest is moths, beetles, and midges. An octenol booster cartridge nudges the mosquito share up a little, not enough to rival a propane trap.</p>
           <p>Priced $79–$330 plus $90–$150 a season in bulbs and cartridges, a UV trap is a fine <em>supplemental</em> gadget on a cottage deck, but it should never be your primary mosquito plan.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check UV trap price on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check UV trap price on Amazon.ca (no DynaTrap is registered in Canada) →</BuyLink>
           </div>
           <p>If you already own one, the one upgrade worth buying is the octenol lure. Octenol is a component of human and animal breath, and adding a cartridge to a UV trap shifts the catch a little further toward biting flies and mosquitoes instead of moths — it will not turn the unit into a propane trap, but it is a few dollars against a trap you have already paid for. Cartridges are consumable and typically need replacing through the season.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -368,7 +368,7 @@ export default function BestMosquitoRepellentDeviceCanadaPage() {
           </div>
           <p>The machine is only half the purchase, and the half people forget at the till. A fogger runs on a separate fogging insecticide sold by the can, the machine and the liquid have to be matched (a thermal propane unit and an electric ULV unit do not take the same thing), and the label on the can is what tells you where it may be used and how long people and pets stay off the area. Buy the liquid at the same time as the machine, or the machine sits in the garage on the night you wanted it.</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito fogging insecticide">Check fogging insecticide on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="mosquito fogging insecticide">Check fogging insecticide on Amazon.ca (look for a current Canadian Reg. No.) →</BuyLink>
           </div>
 
           <h3>5. Bug zappers — worst for mosquitoes</h3>

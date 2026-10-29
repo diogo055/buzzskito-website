@@ -192,8 +192,8 @@ export default function DynaTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />
-      <TopBox tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />
+      <StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />
+      <TopBox tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -291,49 +291,49 @@ export default function DynaTrapCanadaPage() {
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
-            label="Best DynaTrap if mosquitoes are the goal"
-            name="DynaTrap DT3050 (1 acre + mosquito attractant fan)"
-            blurb="If you are buying a DynaTrap in spite of everything above, buy the one built for the job. The DT3050 is the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan on top of the UV lamp. That is the feature worth paying for — not the coverage rating, which changes how much yard the trap draws from but not the species mix it pulls in."
-            search="dynatrap dt3050"
-            score={7.0}
-            pros={['The only DynaTrap with a mosquito-attractant fan', 'Full-acre coverage — suits cottage lots and open properties', 'No chemicals — safe around kids and pets']}
-            cons={['Still a UV trap: no CO₂, the cue mosquitoes actually hunt by', 'Does nothing for ticks', 'Ongoing bulb + Atrakta cartridge costs']}
+            label="If mosquitoes are the goal"
+            name="Thermacell heated area repeller (look for a Canadian Reg. No.)"
+            blurb="If the complaint is “we get bitten on the deck,” this review’s answer is a heated area repeller, not a DynaTrap. DynaTrap’s FAQ lists no DT3050 and describes no model with a mosquito-attractant fan, and no DynaTrap model or Atrakta lure is in Health Canada’s registry. Thermacell’s Patio Shield carries Reg. No. 31998; its label gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect."
+            search="thermacell mosquito repeller refill"
+            score={9.1}
+            pros={['Protects the seating area where you get bitten', 'Registered in Canada (Patio Shield 31998)', 'No spray on skin']}
+            cons={['Works best in still air', 'Nothing for anyone outside the zone', 'Refill mats and fuel are the running cost']}
           />
           <AwardRow tag={AMZ_TAG}
-            heading="How It Compares — DT3050 vs DT2030 vs DT1050"
+            heading="How It Compares — DT2030 vs DT1050, and the Pick for Bites"
             awards={[
               {
-                badge: 'Best for Mosquitoes',
-                name: 'DynaTrap DT3050 (1 acre + attractant fan)',
-                why: 'The model this review recommends if mosquitoes are the goal: the only Canadian unit with a dedicated mosquito-attractant fan on top of the UV lamp — the one spec that shifts the species mix at all. $249–$329.',
-                search: 'dynatrap dt3050',
-                score: 7.0,
+                badge: 'Best for Bites on the Deck',
+                name: 'Thermacell Heated Area Repeller (look for a Canadian Reg. No.)',
+                why: 'DynaTrap’s FAQ lists no DT3050 and describes no model with a mosquito-attractant fan, so for bites on the deck this review’s pick is a heated area repeller: the label of Thermacell’s Patio Shield (Reg. No. 31998) gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect.',
+                search: 'thermacell mosquito repeller refill',
+                score: 9.1,
                 featured: true,
-                pros: ['Only DynaTrap with a mosquito-attractant fan', 'Full-acre coverage for cottage lots', 'No chemicals — safe around kids and pets'],
-                cons: ['Still no CO₂ — buyers who want real mosquito reduction need a propane trap or barrier spray', 'Does nothing for ticks'],
+                pros: ['Protects the seating area where you get bitten', 'Registered in Canada (Patio Shield 31998)', 'No spray on skin'],
+                cons: ['Works best in still air', 'Does nothing for ticks'],
               },
               {
                 badge: 'Most Popular for Cottages',
                 name: 'DynaTrap DT2030 (1 acre)',
-                why: 'The most popular full-acre unit at $199–$279, and usually the best Costco spring-sale deal. Same UV-plus-fan mechanism as every model without the attractant fan.',
+                why: 'The most popular full-acre unit. Same UV-plus-fan mechanism as the other models. No DynaTrap model is in Health Canada’s registry, so check the box for a Reg. No.',
                 search: 'dynatrap dt2030',
                 score: 6.8,
-                pros: ['Best spring-sale pricing at Costco ($179–$229)', 'Full-acre coverage for about $50 less than the DT3050', 'Right scale for open cottage properties'],
-                cons: ['No attractant fan — mosquito-focused buyers should pay up for the DT3050', 'Full-acre rating is wasted on a standard suburban yard'],
+                pros: ['Full-acre coverage rating', 'Right scale for open cottage properties'],
+                cons: ['Mostly moths and beetles, like every UV model', 'Full-acre rating is wasted on a standard suburban yard'],
               },
               {
                 badge: 'Right Size for GTA Backyards',
                 name: 'DynaTrap DT1050 (½ acre)',
-                why: 'The cheapest sensible size at $149–$199 — the half-acre rating comfortably covers a typical GTA backyard for roughly $100–$130 less than the DT3050.',
+                why: 'The cheapest sensible size — the half-acre rating comfortably covers a typical GTA backyard. No DynaTrap model is in Health Canada’s registry, so check the box for a Reg. No.',
                 search: 'dynatrap dt1050',
                 score: 6.7,
-                pros: ['Saves $100–$130 versus the DT3050', 'Half-acre rating suits lots under ~10,000 sq ft', 'Same quiet, chemical-free operation'],
+                pros: ['Half-acre rating suits lots under ~10,000 sq ft', 'Same quiet, chemical-free operation'],
                 cons: ['Catches the same mostly-moths-and-beetles mix as every UV model', 'Cottage lots and very open properties should size up'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Buying specifically for mosquitoes?</strong> The DT3050 is the only model with the attractant fan &mdash; and even then, treat it as a supplement: a UV trap without CO₂ never beats a <Link href="/blog/propane-mosquito-trap-canada">propane trap</Link> or a <Link href="/mosquito-control">whole-yard barrier spray</Link> at mosquito reduction. <strong>Moths and beetles off a cottage deck?</strong> The DT2030 is the workhorse, cheapest at Costco in spring. <strong>Standard suburban backyard?</strong> The DT1050 does the same job for less. Whichever you buy, budget for Atrakta cartridges and a fresh UV bulb each season.
+                <strong>Buying specifically for mosquitoes?</strong> Skip the DynaTrap: for bites on the deck the pick is the <em>Best for Bites on the Deck</em> heated area repeller (look for a Canadian Reg. No.), and a UV trap without CO₂ never beats a <Link href="/blog/propane-mosquito-trap-canada">propane trap</Link> or a <Link href="/mosquito-control">whole-yard barrier spray</Link> at mosquito reduction. <strong>Moths and beetles off a cottage deck?</strong> The DT2030 is the workhorse. <strong>Standard suburban backyard?</strong> The DT1050 does the same job for less. No DynaTrap model or Atrakta lure is in Health Canada&rsquo;s registry, so check the box for a Reg. No.; on fluorescent models, budget for a fresh UV bulb each season.
               </>
             }
           />
@@ -424,10 +424,10 @@ export default function DynaTrapCanadaPage() {
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
-          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices (DT3050 attractant-fan model, DT2030/DT1100 full-acre, DT1050 half-acre) and Atrakta refills:</p>
+          <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian listings (the DT2030/DT1100 full-acre and DT1050 half-acre models are in the table below), a patio repeller for bites, and Atrakta refills:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="dynatrap dt3050">Check DT3050 price on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refill cartridges →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller refill">For bites: a patio repeller instead (look for the Reg. No.) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refills (not registered in Canada) →</BuyLink>
           </div>
 
           <h2 id="models">DynaTrap Models Compared: DT3050 vs DT2030 vs DT1050</h2>
@@ -445,11 +445,11 @@ export default function DynaTrapCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 bg-amber-50/60">
-                  <td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(+ attractant fan)</span></td>
-                  <td className="px-4 py-3 text-gray-700">1 acre (full)</td>
-                  <td className="px-4 py-3 text-gray-700"><strong>Best DynaTrap for mosquitoes</strong> — only model with an attractant fan</td>
-                  <td className="px-4 py-3 font-mono text-gray-800">$249 – $329</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt3050" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(not in DynaTrap&rsquo;s model list)</span></td>
+                  <td className="px-4 py-3 text-gray-700">Not listed by DynaTrap</td>
+                  <td className="px-4 py-3 text-gray-700">DynaTrap&rsquo;s FAQ lists no DT3050 and no attractant-fan model; for bites on the deck, see the patio repeller</td>
+                  <td className="px-4 py-3 font-mono text-gray-800">&mdash;</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller refill" block>Patio repeller instead (look for the Reg. No.) →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">DT2030 <span className="font-normal text-xs text-gray-500">(1 acre · 3-way)</span></td>
@@ -482,7 +482,7 @@ export default function DynaTrapCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p className="not-prose text-sm text-gray-600 mb-6">Catching too few mosquitoes? The octenol <strong>Atrakta</strong> cartridge (60-day refill) is the lure that nudges the mosquito catch upward — budget a couple per season. <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Check Atrakta refill price →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6">Catching too few mosquitoes? The <strong>Atrakta</strong> lure (about 8 weeks each, DynaTrap says) is the add-on DynaTrap sells for mosquitoes; like every DynaTrap product, it has no Canadian registration. <BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Check Atrakta refill price →</BuyLink></p>
 
           <h3>DT1050 vs DT1100: which should you buy?</h3>
           <p>They are the same trap mechanically — UV light plus a suction fan. The only real difference is coverage and price: the <strong>DT1050</strong> is rated for a <strong>half acre</strong> (plenty for a standard Mississauga or Brampton backyard), while the <strong>DT1100</strong> covers a <strong>full acre</strong> for larger rural and cottage lots. If your yard is under roughly 10,000 sq ft, the DT1050 saves you $30–$60 with no downside. Size up to the DT1100 or DT2030 only if you genuinely have an acre or a very open, breezy property. Neither model catches meaningfully more mosquitoes than the other.</p>
@@ -799,7 +799,7 @@ export default function DynaTrapCanadaPage() {
           </div>
           <p className="not-prose text-xs text-gray-500 mb-6">BuzzSkito is a Canadian service business and our affiliate links point to Amazon.ca. US readers should buy from a US retailer above; the US retailer list is provided for accuracy, not as a referral.</p>
           <p>One item is worth buying regardless of which country you are in and which model you own: the <strong>Atrakta lure</strong>. It is DynaTrap&rsquo;s universal add-on — a sealed octenol cartridge that works across the range and lasts roughly eight weeks (about 60 days) per lure. Octenol is a synthetic stand-in for compounds in human breath and sweat. It genuinely nudges the mosquito share of the catch upward. It does not transform a UV trap into a CO₂ trap, and no lure can, but it is the single accessory that changes the outcome at all — which is why it, and not any particular model number, is the honest upgrade recommendation on this page.</p>
-          <p className="not-prose text-sm text-gray-600 mb-6"><BuyLink tag={AMZ_TAG} search="dynatrap atrakta mosquito lure">Compare Atrakta lure refills on Amazon.ca →</BuyLink></p>
+          <p className="not-prose text-sm text-gray-600 mb-6"><BuyLink tag={AMZ_TAG} search="dynatrap atrakta mosquito lure">Compare Atrakta lure refills on Amazon.ca (no Canadian registration found) →</BuyLink></p>
 
           <h2 id="bulb-replacement">DynaTrap Bulb Replacement: LED Models vs Legacy Fluorescent</h2>
           <p><strong>This depends entirely on which generation you own, and most guidance online gets it wrong by treating the whole range as one product.</strong> The current US outdoor line is LED. The older line is fluorescent. Only one of those two has a bulb you buy.</p>

@@ -130,7 +130,7 @@ export default function BestYellowJacketTrapCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best yellow jacket trap in Canada is the <AmazonLink search="rescue reusable yellowjacket trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">RESCUE! Reusable Yellowjacket Trap</AmazonLink> for durability and cost per season &mdash; though RESCUE! sells it nationwide with one lure it describes as similar to the Western formula. If matching the lure to Ontario species matters more to you, buy the EAST-formula disposable (YJTD-E) and avoid the YJTD-W &ldquo;West of the Rockies&rdquo; SKU, whose heptyl butyrate lure barely works on the eastern, German, and common yellowjackets that dominate here. Hang traps 6+ metres from your patio, and expect them to thin foragers, not eliminate a nest.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best yellow jacket trap in Canada is the <AmazonLink search="rescue reusable yellowjacket trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">RESCUE! Reusable Yellowjacket Trap</AmazonLink> for durability and cost per season &mdash; though RESCUE! sells it nationwide with one lure it describes as similar to the Western formula. RESCUE! also makes an East-formula disposable (YJTD-E) for the species more common east of the Rockies, but Health Canada&rsquo;s registry lists only the W bag (PCP 35529), RESCUE!&rsquo;s western formula, so check the PCP number on any bag you buy. Hang traps 6+ metres from your patio, and expect them to thin foragers, not eliminate a nest.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>RESCUE! sells East and West attractant formulas on its DISPOSABLE traps &mdash; eastern Canada needs the East (YJTD-E) version. The reusable trap has no regional variants.</li>
               <li>Yellow jackets want protein (meat, insects) in May&ndash;July and switch to sugar in August&ndash;September &mdash; match refillable trap bait to the month.</li>
@@ -156,35 +156,35 @@ export default function BestYellowJacketTrapCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'RESCUE! Reusable Yellowjacket Trap',
-                why: 'The durable pick: weeks of catch per cartridge, a body that lasts years, and it does not lure honey bees. Note the chemistry honestly though — RESCUE! sells the reusable nationwide with a single lure, and by the company\'s own account it is similar to the Western Formula used in the disposable. If species-matched chemistry matters more to you than reusability, the East-formula disposable below is the better Ontario buy.',
+                why: 'The durable pick: weeks of catch per cartridge, a body that lasts years, and RESCUE! says it won’t trap beneficial honeybees. Note the chemistry honestly though — RESCUE! sells the reusable nationwide with a single lure, and by the company\'s own account it is similar to the Western Formula used in the disposable. Health Canada’s registry lists its cartridge and tube lures (PCP 35530, 35531); we found no Canadian registration for RESCUE!’s East-formula disposable.',
                 search: 'rescue reusable yellowjacket trap',
                 score: 9.0,
                 featured: true,
-                pros: ['Reusable body — replace only cartridges', 'Does not attract honey bees', 'Catches for weeks per cartridge'],
+                pros: ['Reusable body — replace only cartridges', 'RESCUE!: won’t trap honeybees', 'Catches for weeks per cartridge'],
                 cons: ['One nationwide lure, similar to the Western disposable formula', 'Targets yellow jackets only, not paper wasps'],
               },
               {
                 badge: 'Best Multi-Species',
                 name: 'RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)',
-                why: 'One trap, three targets: a dual-chamber design with attractants that pull yellow jackets, paper wasps, and bald-faced hornets together. The right pick when you cannot tell what is bullying the patio.',
+                why: 'One trap, three targets: a dual-chamber design with attractants that pull yellow jackets, paper wasps, and bald-faced hornets together. Not registered in Canada: we found no W·H·Y Trap in Health Canada’s pesticide registry, and a lure trap sold to attract wasps falls under the Pest Control Products Act, so check for a PCP number before you buy one.',
                 search: 'rescue why trap wasp hornet yellow jacket',
                 score: 8.5,
-                pros: ['Covers all three stinging-wasp groups', 'Season-long with attractant refills', 'Well-proven design in Canada'],
-                cons: ['Costs more up front than a single-species trap', 'More attractant components to maintain'],
+                pros: ['Covers all three stinging-wasp groups', 'Season-long with attractant refills'],
+                cons: ['No Canadian registration found', 'Costs more up front than a single-species trap', 'More attractant components to maintain'],
               },
               {
                 badge: 'Best Disposable',
-                name: 'RESCUE! Disposable Yellowjacket Trap — East formula (YJTD-E)',
-                why: 'A pre-baited bag you hang, fill with water, and throw out full. Zero maintenance and modest cost — ideal for a single event weekend or for ringing a rural property without tending cartridges.',
+                name: 'RESCUE! Disposable Yellowjacket Trap W (PCP 35529)',
+                why: 'A pre-baited bag you hang, fill with water, and throw out full. Zero maintenance and modest cost — ideal for a single event weekend or for ringing a rural property without tending cartridges. The registered bag in Canada is the W (PCP 35529), RESCUE!’s western formula; we found no Canadian registration for the East formula (YJTD-E), so check the PCP number on the bag.',
                 search: 'rescue disposable yellowjacket trap',
                 score: 8.0,
                 pros: ['No maintenance, no touching the catch', 'Cheap enough to deploy several at once', 'Great for cottages and events'],
-                cons: ['Single-use — pricier over a full season', 'Must check the label says East, not West of the Rockies'],
+                cons: ['Single-use — pricier over a full season', 'The registered W bag is RESCUE!’s western formula'],
               },
               {
                 badge: 'Best Refillable / DIY Bait',
                 name: 'Hanging Bottle-Style Wasp Trap (bait-it-yourself)',
-                why: 'A reusable bottle or glass trap you bait yourself — the only style that lets you run the protein-early, sugar-late seasonal switch precisely. Works only as hard as you do at refreshing bait.',
+                why: 'A reusable bottle or glass trap you bait yourself — the only style that lets you run the protein-early, sugar-late seasonal switch precisely. Works only as hard as you do at refreshing bait. A trap sold to attract wasps falls under the Pest Control Products Act in Canada, so check the listing for a PCP number.',
                 search: 'hanging wasp trap reusable bottle',
                 score: 7.0,
                 pros: ['Full control of protein vs sugar bait', 'Indefinitely reusable, budget-friendly', 'No proprietary refills to buy'],
@@ -193,7 +193,7 @@ export default function BestYellowJacketTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Classic late-summer yellow jacket pressure in the GTA?</strong> The <em>Best Overall</em> RESCUE! reusable is the default buy on durability &mdash; or take the <em>Best Disposable</em> East-formula bag if you want the lure blended for eastern species. <strong>Mixed wasp trouble &mdash; paper wasps on the eaves plus yellow jackets at the table?</strong> Go <em>Best Multi-Species</em> with the WHY Trap (our <Link href="/blog/rescue-why-trap-review-canada">full WHY Trap review</Link> covers it in depth). <strong>One long weekend or a cottage you visit monthly?</strong> Hang a few <em>Best Disposable</em> bags and bin them full. <strong>Enjoy tinkering?</strong> A <em>Refillable bottle trap</em> plus the seasonal bait switch below out-catches lazy cartridge use &mdash; but only if you keep the bait fresh.
+                <strong>Classic late-summer yellow jacket pressure in the GTA?</strong> The <em>Best Overall</em> RESCUE! reusable is the default buy on durability; its cartridge and tube lures are in Health Canada&rsquo;s registry. <strong>Mixed wasp trouble &mdash; paper wasps on the eaves plus yellow jackets at the table?</strong> The <em>Best Multi-Species</em> WHY Trap covers all three, but we found no Canadian registration for it, so check for a PCP number first (our <Link href="/blog/rescue-why-trap-review-canada">full WHY Trap review</Link> covers it in depth). <strong>One long weekend or a cottage you visit monthly?</strong> Hang a few <em>Best Disposable</em> bags and bin them full; the registered one is the W (PCP 35529). <strong>Enjoy tinkering?</strong> A <em>Refillable bottle trap</em> plus the seasonal bait switch below out-catches lazy cartridge use &mdash; but only if you keep the bait fresh, and check its listing for a PCP number.
               </>
             }
           />
@@ -251,7 +251,7 @@ export default function BestYellowJacketTrapCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap<br /><span className="font-normal text-xs text-gray-500">wasps + hornets + yellowjackets</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap<br /><span className="font-normal text-xs text-gray-500">wasps + hornets + yellowjackets; no Canadian registration found</span></td>
                   <td className="px-4 py-3 text-gray-700">Multi-attractant, dual chamber</td>
                   <td className="px-4 py-3 text-gray-700">Yes &mdash; with refill kits</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Mixed pressure when you can&rsquo;t ID the wasp</td>
@@ -279,7 +279,7 @@ export default function BestYellowJacketTrapCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="rescue reusable yellowjacket trap">RESCUE! reusable trap →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket">RESCUE! WHY Trap →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="rescue why trap wasp hornet yellow jacket">RESCUE! WHY Trap (no Canadian registration found) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rescue disposable yellowjacket trap">Disposable bag traps →</BuyLink>
           </div>
 

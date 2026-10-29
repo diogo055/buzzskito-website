@@ -154,7 +154,7 @@ export default function BestRaccoonProofRoofVentCoversCanadaPage() {
                 why: 'The eave is where most raccoons actually enter, and vented soffit panels are designed to lift out. Purpose-made mesh guards and gable screens fasten the panel line shut without closing off the intake air your roof needs to move heat and moisture out.',
                 search: 'soffit vent cover metal mesh gable',
                 score: 8.3,
-                pros: ['Addresses the entry point most people miss', 'Keeps soffit intake airflow intact', 'Also excludes squirrels, birds, and wasps'],
+                pros: ['Addresses the entry point most people miss', 'Keeps soffit intake airflow intact', 'Also excludes squirrels and birds'],
                 cons: ['Fiddly work overhead from a ladder', 'Panels often need re-screwing at the same time'],
               },
               {

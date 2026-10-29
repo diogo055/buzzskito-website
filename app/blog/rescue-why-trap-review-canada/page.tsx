@@ -116,8 +116,8 @@ export default function RescueWhyTrapReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />
-      <TopBox tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! Disposable Yellowjacket Trap W (PCP 35529)" search="rescue disposable yellowjacket trap" label="Registered pick: yellowjackets only" />
+      <TopBox tag={AMZ_TAG} name="RESCUE! Disposable Yellowjacket Trap W (PCP 35529)" search="rescue disposable yellowjacket trap" label="Registered pick: yellowjackets only" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -141,24 +141,24 @@ export default function RescueWhyTrapReviewCanadaPage() {
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
-            label="Our Verdict"
-            name="RESCUE! WHY Trap (Wasp, Hornet & Yellowjacket)"
-            blurb="The broadest-spectrum reusable wasp trap you can buy in Canada. The two-chamber design is genuinely clever engineering, not marketing — separate scent systems for the high-flying paper wasps and hornets versus the low-approaching yellowjackets. Reusable for years, insecticide-free, and stocked with Canadian-labelled refills at every big-box store. Score docked for the recurring attractant cost and for what every lure trap shares: it thins foragers, it cannot kill a colony."
-            search="rescue why trap wasp hornet yellowjacket"
+            label="Registered Alternative (Yellowjackets)"
+            name="RESCUE! Disposable Yellowjacket Trap W (PCP 35529)"
+            blurb="Health Canada’s registry shows no W·H·Y product, so this is the RESCUE! trap we can point Canadian readers to: Sterling International’s Disposable Yellowjacket Trap W, which the registry lists as PCP 35529 (domestic, first registered December 11, 2025) for yellowjackets in outdoor living areas. It comes pre-baited: add water to activate the lure, hang it at least 20 feet (6 m) from patios, decks and play spaces, and throw it out when it is full or dry, usually after 2 to 4 weeks, RESCUE! says. It is for yellowjackets, not paper wasps or hornets, and like every lure trap it thins foragers without killing the colony. Check the package for PCP 35529."
+            search="rescue disposable yellowjacket trap"
             cta="Check price on Amazon.ca"
-            score={8.6}
+            score={7.4}
             pros={[
-              'Catches all 3 groups — paper wasps, hornets, yellowjackets (19 species)',
-              'Two-chamber design targets each group with its own attractant',
-              'No insecticide, no zapper — and formulated to avoid honey bees',
-              'Reusable season after season; catches spring queens before nests form',
-              'Canadian-labelled trap and refills at Canadian Tire, Home Depot, Amazon.ca',
+              'Canadian registration: PCP 35529, domestic, for yellowjackets',
+              'Pre-baited: add water to activate the lure (RESCUE!)',
+              'No chamber to empty: dispose of it when full or dry',
+              'Lasts about 2 to 4 weeks, RESCUE! says',
+              'Targets the major North American yellowjacket species (RESCUE!)',
             ]}
             cons={[
-              'Attractant refills are a recurring cost on a ~2-week cadence',
+              'Single-use: a new trap every 2 to 4 weeks adds up over a season',
               'Does not kill the colony — foragers only',
               'Needs thoughtful placement well away from seating areas',
-              'Emptying a chamber of dead wasps is not for the squeamish',
+              'Yellowjackets only: RESCUE! says it does not target wasps or hornets',
             ]}
           />
         </div>

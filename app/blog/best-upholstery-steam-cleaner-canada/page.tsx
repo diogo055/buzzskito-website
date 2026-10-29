@@ -158,7 +158,7 @@ export default function BestUpholsterySteamCleanerCanadaPage() {
               {
                 badge: 'Best Add-On',
                 name: 'Upholstery Tool, Brush and Nozzle Kit',
-                why: 'The tool at the end of the hose decides how well a machine seals against fabric, and the stock one is rarely the best fit for stairs, car seats or tufted arms. A proper narrow tool and a stiff-but-safe brush lift results more than a bigger motor does.',
+                why: 'The tool at the end of the hose decides how well a machine seals against fabric, and the stock one is rarely the best fit for stairs, car seats or tufted arms. A proper narrow tool and a firm brush that suits the fabric lift results more than a bigger motor does.',
                 search: 'upholstery cleaning tool attachment brush kit',
                 score: 8.4,
                 pros: ['Better seal means better extraction', 'Narrow tools reach car seats and stairs', 'Inexpensive relative to the gain'],

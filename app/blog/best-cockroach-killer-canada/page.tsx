@@ -121,8 +121,8 @@ export default function BestCockroachKillerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (12-pack)" search="combat roach killing bait stations" label="Best cockroach killer" />
-      <TopBox tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (12-pack)" search="combat roach killing bait stations" label="Best cockroach killer" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (look for Reg. No. 25735)" search="boric acid roach bait" label="Best cockroach killer" />
+      <TopBox tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (look for Reg. No. 25735)" search="boric acid roach bait" label="Best cockroach killer" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -150,22 +150,22 @@ export default function BestCockroachKillerCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Combat Roach Killing Bait Stations (large 12-pack)',
-                why: 'The mainstream domestic-class bait station in Canada and the closest legal cousin of a professional gel program: a slow-acting food bait in a child-resistant enclosure that foragers carry back to the colony. Buy more packs than feels reasonable — placement density is what separates a bait program from a bait gesture.',
-                search: 'combat roach killing bait stations',
+                name: 'Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)',
+                why: 'A registered domestic-class bait station (Reg. No. 25735, boric acid 2.0%): slow-acting bait in child-resistant stations that foragers carry back to the colony. The label says to place at least 10 in the kitchen and 2 in each bathroom, and to replace all of them every 4 weeks while the problem persists. The search below also shows other boric acid baits, so look for Reg. No. 25735 on the box. Buy more packs than feels reasonable — placement density is what separates a bait program from a bait gesture.',
+                search: 'boric acid roach bait',
                 score: 9.2,
                 featured: true,
-                pros: ['Colony-transfer mechanism, not one-roach-at-a-time', 'Enclosed — safe around kids and pets when placed per label', 'No residue, no odour, no scattered survivors'],
+                pros: ['Colony-transfer mechanism, not one-roach-at-a-time', 'Child-resistant stations, still placed out of reach of children and pets (label)', 'No residue, no odour, no scattered survivors'],
                 cons: ['Slower than the spray your instincts want', 'A single pack is rarely enough placements for a real kitchen'],
               },
               {
                 badge: 'Best for Bait Rotation',
-                name: 'Raid Max Roach Bait Stations',
-                why: 'The other mainstream station line on Canadian shelves, with a different bait formulation — which is exactly what you want if feeding on the first line stalls mid-campaign. Bait aversion is a real, documented German-roach behaviour; rotating the bait beats buying more of the same.',
-                search: 'raid max roach bait stations',
+                name: 'Boric Acid Roach Paste (e.g. Homeowners DIY Roach Bait, Reg. No. 30293)',
+                why: 'For rotation, use a registered bait in a different formulation: Raid Max roach baits, once the usual rotation pick, are no longer registered in Canada (Health Canada lists Raid Max Roach Bait and Raid Double Control Roach Baits as historical, last retail sale September 25, 2025). A boric acid paste such as Homeowners DIY Roach Bait (Reg. No. 30293) goes into the cracks a station cannot reach; its label allows crack-and-crevice use only. For a different active, PIC Roach Control System trays (Reg. No. 20471) use propoxur. Bait aversion is a real, documented German-roach behaviour; rotating the bait beats buying more of the same.',
+                search: 'boric acid roach bait',
                 score: 8.7,
-                pros: ['Different bait matrix for aversion insurance', 'Same enclosed, kid-resistant format', 'Widely stocked at Canadian grocery and hardware stores'],
-                cons: ['Buy it as the rotation, not the reason to skip Combat', 'Same density rule applies — one pack under-places a kitchen'],
+                pros: ['A different bait formulation for aversion insurance', 'Registered for cockroaches (Reg. No. 30293)', 'Reaches the cracks a station cannot'],
+                cons: ['Buy it as the rotation, not instead of the stations', 'Label: crack-and-crevice use only'],
               },
               {
                 badge: 'Best Budget Add-On',
@@ -188,7 +188,7 @@ export default function BestCockroachKillerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Small striped roaches in the kitchen or bathroom?</strong> That is a German cockroach infestation: buy the <em>Best Overall</em> Combat stations at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> Raid Max stations rather than doubling down on the same bait. <strong>Big dark roaches in the basement?</strong> Read the German-vs-American section first &mdash; you likely need drain work and exclusion, not more bait. <strong>In an apartment, or still catching roaches nightly at week three?</strong> That is professional territory, and in an Ontario rental it is your landlord&rsquo;s bill, not yours.
+                <strong>Small striped roaches in the kitchen or bathroom?</strong> That is a German cockroach infestation: buy the <em>Best Overall</em> Raid boric acid stations (Reg. No. 25735) at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> paste, or to PIC Roach Control System trays (Reg. No. 20471), which use a different active, rather than doubling down on the same bait. <strong>Big dark roaches in the basement?</strong> Read the German-vs-American section first &mdash; you likely need drain work and exclusion, not more bait. <strong>In an apartment, or still catching roaches nightly at week three?</strong> That is professional territory, and in an Ontario rental it is your landlord&rsquo;s bill, not yours.
               </>
             }
           />
@@ -206,8 +206,8 @@ export default function BestCockroachKillerCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat bait stations &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="raid max roach bait stations">Raid Max stations &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Raid boric acid stations (Reg. No. 25735) &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Boric acid paste (Reg. No. 30293) &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Boric acid bait &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cockroach glue traps monitor">Glue monitors &rarr;</BuyLink>
           </div>

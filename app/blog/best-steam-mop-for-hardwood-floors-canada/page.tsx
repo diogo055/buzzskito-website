@@ -137,12 +137,12 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
               },
               {
                 badge: 'Best Canadian Brand',
-                name: 'Dupray Bliss-class Steam Mop',
-                why: 'Dupray is a Canadian steam-cleaning company headquartered in the Montreal area, which in practice means domestic stock, a warranty you can actually claim, and the right plug in the box. A tidier, better-built machine for people who keep appliances a decade.',
-                search: 'dupray bliss steam mop',
+                name: 'Dupray Canister Steam Cleaner with a Floor Tool',
+                why: 'Dupray is a Canadian steam-cleaning company headquartered in the Montreal area, which in practice means domestic stock, a warranty you can actually claim, and the right plug in the box. It makes no steam mop: it sells canister steam cleaners (Neat, Neat Plus, Tosca, Hill Injection) that take a floor tool, and its FAQ says “Do NOT steam clean unsealed or oiled hardwood floors.” This search shows canister steamers from several brands, so look for the Dupray name; on a Neat, check the batch code against Health Canada’s February 2026 recall (0118-01 to 0425-05).',
+                search: 'canister steam cleaner floor tool',
                 score: 8.6,
-                pros: ['Canadian company, local warranty and parts', 'Solid build for long service life', 'Straightforward controls'],
-                cons: ['Costs more than the mass-market mops', 'Fewer accessory options than a canister steamer'],
+                pros: ['Canadian company, local warranty and parts', 'Takes a floor tool for sealed floors', 'Also does grout, upholstery and other surfaces'],
+                cons: ['Costs more than the mass-market mops', 'Heavy, and easy to over-treat a soft finish'],
               },
               {
                 badge: 'Best Value',
@@ -174,7 +174,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Sealed hardwood plus a tiled kitchen or mudroom?</strong> The <em>Best Overall</em> adjustable mop is the right default &mdash; low setting on the wood, full steam on the tile. <strong>Want a machine that lasts and a warranty you can reach?</strong> The <em>Best Canadian Brand</em> Dupray-class unit. <strong>Tight budget?</strong> The <em>Best Value</em> two-setting mop, so long as it genuinely has a low mode. <strong>Whatever you buy</strong>, add the <em>pad multipack</em> &mdash; it does more for your results than spending another hundred dollars on the mop. <strong>Laminate, waxed, oiled, or a warranty that says no steam?</strong> The <em>Non-Steam Alternative</em> flat microfibre mop, and you are not missing much.
+                <strong>Sealed hardwood plus a tiled kitchen or mudroom?</strong> The <em>Best Overall</em> adjustable mop is the right default &mdash; low setting on the wood, full steam on the tile. <strong>Want a machine that lasts and a warranty you can reach?</strong> The <em>Best Canadian Brand</em> pick, a Dupray canister steam cleaner with its floor tool (Dupray makes no steam mop). <strong>Tight budget?</strong> The <em>Best Value</em> two-setting mop, so long as it genuinely has a low mode. <strong>Whatever you buy</strong>, add the <em>pad multipack</em> &mdash; it does more for your results than spending another hundred dollars on the mop. <strong>Laminate, waxed, oiled, or a warranty that says no steam?</strong> The <em>Non-Steam Alternative</em> flat microfibre mop, and you are not missing much.
               </>
             }
           />
@@ -253,7 +253,7 @@ export default function BestSteamMopForHardwoodFloorsCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bissell powerfresh steam mop hardwood">Adjustable mop (best overall) →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="dupray bliss steam mop">Dupray Bliss-class →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="canister steam cleaner floor tool">Canister steamer with floor tool →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="steam mop microfibre replacement pads multipack">Pad multipack →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="microfiber flat spray mop hardwood floor">Non-steam alternative →</BuyLink>
           </div>

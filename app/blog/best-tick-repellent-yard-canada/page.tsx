@@ -103,8 +103,8 @@ export default function BestTickRepellentYardPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Best DIY pick" />
-      <TopBox tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Best DIY pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Not registered in Canada" />
+      <TopBox tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Not registered in Canada" />
 
       <article className="py-12 px-4 bg-white">
         <div className="max-w-3xl mx-auto prose-brand">
@@ -124,8 +124,8 @@ export default function BestTickRepellentYardPage() {
           </div>
           <p className="not-prose text-sm text-gray-600 mb-1">What Canadians buy most for yard-scale tick pressure, plus the personal-wear layer (nothing replaces a professional barrier spray, but these help):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check yard tick sprays on Amazon.ca →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Insect Shield permethrin-treated clothing →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check Wondercide yard spray (no Canadian registration) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Insect Shield clothing (no Canadian registration; No Fly Zone, PCP 32757, is registered) →</BuyLink>
           </div>
           <p className="lead text-xl text-gray-700 leading-relaxed mb-6">Personal tick repellents on your skin protect <em>you</em>. Yard-scale tick repellents protect your <em>property</em> — and that&rsquo;s a different problem with different solutions. Here&rsquo;s what works in Canadian yards in 2026.</p>
 
@@ -133,46 +133,46 @@ export default function BestTickRepellentYardPage() {
             heading="Our Picks — Best DIY Yard Tick Repellents in Canada"
             awards={[
               {
-                badge: 'Best Overall DIY',
+                badge: 'Cedar Oil (Not Registered in Canada)',
                 name: 'Wondercide Cedar-Oil Yard Spray',
-                why: 'The leading natural yard spray. Cedar oil has documented contact repellency against ticks, but it evaporates much faster than a synthetic residual, so it holds only if you re-apply every 2 weeks. The strongest DIY layer to stack on top of the free habitat fixes.',
+                why: 'The best-known natural yard spray, but it has no Canadian registration: no cedar-oil pesticide is registered in Canada, and Health Canada says it is a violation of the Pest Control Products Act to buy and use unregistered pesticides. In lab tests cedarwood oil repels tick nymphs, but the effect fades within hours, and we found no published yard field trial.',
                 search: 'wondercide tick yard spray',
                 score: 8.3,
                 featured: true,
-                pros: ['Real, research-backed cedar-oil repellency', 'Follow the label on when kids and pets can return', 'Hose-end coverage of lawn edges'],
-                cons: ['Re-apply every 2 weeks', 'Weaker than professional barrier spray'],
+                pros: ['Lab repellency against tick nymphs (USDA study)', 'Hose-end coverage of lawn edges'],
+                cons: ['No Canadian registration', 'Lab repellency fades within hours'],
               },
               {
-                badge: 'Best Granular',
+                badge: 'Granular (None Registered in Canada)',
                 name: 'Permethrin-Based Granular Pesticide',
-                why: 'Granules carry the residual down into the leaf-litter and lawn-edge zones ticks quest from, where a surface spray never lands — the strongest DIY control if you nail even coverage.',
+                why: 'Granules carry an insecticide down into the leaf-litter and lawn-edge zones ticks quest from, but no permethrin granules, and no home-use granular product with ticks on its label, are registered in Canada (Health Canada’s registry, October 2026). The registered home options are sprays, such as Doktor Doom Tick Killer Plus+ (PCP 34405), and permethrin tick tubes; Connecticut’s tick handbook also found liquids usually give somewhat better control than granules.',
                 search: 'permethrin granules yard tick',
                 score: 7.6,
-                pros: ['Longest-holding residual of the DIY yard options', 'Lasts 4–6 weeks per application', 'Wide retailer availability'],
-                cons: ['Hard to spread evenly without gear', 'Synthetic pesticide handling care'],
+                pros: ['Spreads into leaf litter with a fertilizer spreader'],
+                cons: ['None registered for home use in Canada', 'Hard to spread evenly without gear'],
               },
               {
-                badge: 'Best Natural Alternative',
+                badge: 'Cedarcide (Not Registered in Canada)',
                 name: 'Cedarcide Cedar-Oil Yard Spray',
-                why: 'The other leading evidence-backed cedar-oil option. Same natural approach as Wondercide with mild-but-real repellency at recommended concentrations — a solid pick if you prefer their formula.',
+                why: 'The other best-known cedar-oil option, with the same problem: no Canadian registration, and we found no published yard field trial. Cedarcide’s own directions for its yard spray: apply twice, two weeks apart, then monthly.',
                 search: 'cedarcide tick yard spray',
                 score: 7.2,
-                pros: ['Natural cedar-oil formula', 'Safe around kids and pets', 'Good for seating-area perimeters'],
-                cons: ['Bi-weekly reapplication all season', 'Consumer concentrations run low'],
+                pros: ['Natural cedar-oil formula', 'Good for seating-area perimeters'],
+                cons: ['No Canadian registration', 'Maker: twice two weeks apart, then monthly', 'Consumer concentrations run low'],
               },
               {
-                badge: 'Best for Personal Wear',
+                badge: 'Personal Wear (Not Registered in Canada)',
                 name: 'Insect Shield Permethrin-Treated Clothing',
-                why: 'Not a yard treatment — factory-treated garments that kill ticks on contact with the fabric. In Canada this is the route to take: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing, so buy the treatment already in the garment rather than applying it yourself. The best add-on for anyone working, hiking, or gardening in a tick zone.',
+                why: 'Not a yard treatment — factory-treated garments that kill ticks on contact with the fabric. Factory treatment is the Canadian route, since the Public Health Agency of Canada says permethrin liquids and sprays for consumers to treat their own clothing are not approved, but Insect Shield has no record in Health Canada’s registry: the factory-treated clothing registered here is No Fly Zone (PCP 32757). Check the garment for a PCP number.',
                 search: 'insect shield permethrin treated clothing',
                 score: 8.0,
                 pros: ['Kills ticks on contact with the treated fabric', 'Factory treatment lasts up to 70 wash cycles', 'Nothing to mix, spray, or re-apply yourself'],
-                cons: ['Clothing only — not a skin repellent', 'Does not treat the yard itself'],
+                cons: ['No Canadian registration record (No Fly Zone, 32757, is registered)', 'Clothing only — not a skin repellent'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option holds the longest residual of the DIY choices, provided you spread it evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> factory permethrin-treated Insect Shield clothing &mdash; Health Canada doesn&rsquo;t approve permethrin sprays for consumers to treat their own clothing, so in Canada buy the treatment already in the garment. But for placing a longer-lasting residual precisely where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
+                <strong>Going fully natural?</strong> No cedar-oil yard spray, including the Wondercide and Cedarcide picks, is registered in Canada; the registered natural option is a garlic-juice repellent (PCP 32049), alongside the habitat work. <strong>Want a do-it-yourself pesticide?</strong> No permethrin granules are registered here; a registered permethrin yard spray such as Doktor Doom Tick Killer Plus+ (PCP 34405), used as its label says, is the home option. <strong>Spending real time in the yard or on trails?</strong> Factory-treated clothing is the Canadian route, since consumer permethrin sprays for clothing are not approved, but Insect Shield has no registration record here; No Fly Zone (PCP 32757) is the registered line. But for placing a longer-lasting residual precisely where ticks actually live, nothing DIY matches <Link href="/tick-control">professional barrier spray</Link>.
               </>
             }
           />

@@ -110,8 +110,8 @@ export default function HowToGetRidOfWaspsCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" asin="B00BPTN6YC" search="rescue why trap" label="Best all-round trap" />
-      <TopBox tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" asin="B00BPTN6YC" search="rescue why trap" label="Best all-round trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="RESCUE! Yellowjacket Trap (look for PCP 35529–35531)" search="rescue yellowjacket trap" label="Top trap pick: yellowjackets" />
+      <TopBox tag={AMZ_TAG} name="RESCUE! Yellowjacket Trap (look for PCP 35529–35531)" search="rescue yellowjacket trap" label="Top trap pick: yellowjackets" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -136,13 +136,13 @@ export default function HowToGetRidOfWaspsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
             label="Our Top Trap Pick"
-            name="RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)"
-            blurb="The one trap that covers all three wasp groups Canadians actually deal with. Its dual-chamber design and multi-attractant lure catch paper wasps, bald-faced hornets, and yellowjackets in a single unit, each lure refill runs about two weeks, and it is reusable season after season. Hang it 6+ metres from your patio starting in mid-April to intercept spring queens. Reasonably priced for a multi-season tool — full teardown in our dedicated review below."
-            asin="B00BPTN6YC"
-            search="rescue why trap"
+            name="RESCUE! Yellowjacket Trap (Yellowjackets Only)"
+            blurb="The trap pick whose lures are in Health Canada’s registry, which lists RESCUE!’s heptyl butyrate W disposable (PCP 35529), cartridge (35530) and tube (35531) but no W·H·Y Trap. It catches yellowjackets only: RESCUE! says it won’t catch hornets or paper wasps. The lure lasts about 2 to 4 weeks, with 4-week liquid and 10-week cartridge refills sold separately. Hang it 6+ metres from your patio, starting in spring to intercept queens, and check the PCP number on the box."
+            cta="Check price on Amazon.ca"
+            search="rescue yellowjacket trap"
             score={8.7}
-            pros={['Catches all three wasp groups, not just yellowjackets', 'Reusable for years; only the lure is consumable', 'Spring deployment intercepts colony-founding queens']}
-            cons={['Manages foragers — it will not eliminate an established nest', 'Lure refills are an ongoing small cost']}
+            pros={['Health Canada lists its cartridge and tube lures (PCP 35530, 35531)', 'Reusable for years; only the lure is consumable', 'Spring deployment intercepts colony-founding queens']}
+            cons={['Yellowjackets only: no paper wasps or hornets (RESCUE!)', 'Manages foragers — it will not eliminate an established nest']}
           />
         </div>
       </section>
@@ -269,10 +269,10 @@ export default function HowToGetRidOfWaspsCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">RESCUE! WHY Trap<br /><span className="font-normal text-xs text-gray-500">no Canadian registration found</span></td>
                   <td className="px-4 py-3 text-gray-700">All-season, all-species interception; reusable for years</td>
                   <td className="px-4 py-3 text-gray-700">Paper wasps, yellowjackets, bald-faced hornets</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue yellowjacket trap" block>RESCUE! Yellowjacket Trap instead →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Yellowjacket Trap</td>

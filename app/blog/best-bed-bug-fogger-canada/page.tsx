@@ -117,8 +117,8 @@ export default function BestBedBugFoggerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
-      <TopBox tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />
+      <StickyBuyBar tag={AMZ_TAG} name="Dry-vapour bed bug steamer" search="bed bug steamer" label="Instead of a fogger" />
+      <TopBox tag={AMZ_TAG} name="Dry-vapour bed bug steamer" search="bed bug steamer" label="Instead of a fogger" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -142,40 +142,40 @@ export default function BestBedBugFoggerCanadaPage() {
       <section className="bg-white px-4 py-6">
         <div className="max-w-5xl mx-auto">
           <AwardRow tag={AMZ_TAG}
-            heading="Our Picks — PMRA-Registered Foggers in Canada (Used Correctly)"
+            heading="Our Picks — What to Buy Instead of a Bed Bug Fogger in Canada"
             awards={[
               {
-                badge: 'Best PMRA Fogger',
-                name: 'Doktor Doom Total-Release Fogger (pyrethrin)',
-                why: 'An established Canadian brand carrying a Health Canada PCP registration number, so it is legal to use here. As a flushing and knockdown aerosol for exposed insects in an open room it does its narrow job — but like every fogger, it cannot reach the harbourage where bed bugs actually live.',
-                search: 'doktor doom total release fogger',
+                badge: 'Instead of a Fogger: Steam',
+                name: 'Dry-Vapour Bed Bug Steamer',
+                why: 'Health Canada cancelled domestic total-release foggers, the Doktor Doom and Konk cans among them, with a last date of use of September 2, 2024. Steam does what a fog never did: a dry-vapour steamer drives heat into mattress seams, folds and cracks and kills bed bugs and their eggs on contact, and as a device rather than a pesticide it needs no PCP number.',
+                search: 'bed bug steamer',
                 score: 7.4,
                 featured: true,
-                pros: ['PMRA-registered — legal in Canada', 'Trusted Canadian brand', 'Fine for flushing exposed insects in the open'],
-                cons: ['Cannot reach cracks, seams, or voids', 'Resistance blunts pyrethrin chemistry', 'Not a standalone bed-bug solution'],
+                pros: ['Reaches seams and folds a fog cannot', 'Kills bugs and eggs on contact', 'Heat, so resistance does not blunt it'],
+                cons: ['Kills only what the steam touches', 'Slow, seam-by-seam work', 'Not a standalone bed-bug solution'],
               },
               {
-                badge: 'Best for Large Rooms',
-                name: 'Konk Total-Release Fogger',
-                why: 'A widely stocked Canadian-registered total-release aerosol for large open spaces where fast, hands-off coverage of exposed surfaces is the goal. Same fundamental limits apply — treat it as a supplemental flush, never the treatment.',
-                search: 'konk total release fogger',
+                badge: 'Instead of a Fogger: Dust',
+                name: 'Safer’s Ant & Crawling Insect Killer DE (look for Reg. No. 32278)',
+                why: 'An inert desiccant dust for the cracks, joints and voids a fog never reaches. Health Canada’s registry lists Safer’s Ant & Crawling Insect Killer (Reg. No. 32278), a diatomaceous earth squeeze bottle whose label says, for bed bugs, to disassemble beds and dust frames, joints, mattresses, tufts and seams, floors and baseboards. The search below can also show US Safer Home bags and the cancelled Safer’s Bedbug and Flea Killer, so look for Reg. No. 32278.',
+                search: 'safers insect killing diatomaceous earth',
                 score: 7.0,
-                pros: ['PMRA-registered', 'Good open-area aerosol coverage', 'Easy to source seasonally'],
-                cons: ['Untargeted — lands where it drifts', 'Misses harbourage entirely', 'Flammable; strict label limits'],
+                pros: ['Bed bugs on the registered label (Reg. No. 32278)', 'Physical action, so resistance does not blunt it', 'Reaches cracks, joints and voids'],
+                cons: ['Label: do not use as a space spray; avoid breathing dust', 'Search results can include other Safer’s bags; check the number'],
               },
               {
                 badge: 'Better Chemical Step',
                 name: 'Doktor Doom Pro Max Residual Spray',
-                why: 'If you are set on a chemical step, a directed residual spray injected into seams, cracks, and screw holes does what a fog cannot — it puts product exactly where bugs shelter and keeps killing for weeks, whereas a fog only settles on exposed surfaces. Pro Max is a PMRA-registered permethrin residual for baseboards, bed legs, frames, and furniture perimeters; it is not for mattresses or bedding, so read the label use sites before you spray. This is where fogger money is better spent.',
+                why: 'If you are set on a chemical step, a directed crack-and-crevice spray does what a fog cannot: it puts product where bugs shelter, whereas a fog only settles on exposed surfaces. Pro Max (Reg. No. 34126) is a permethrin trigger spray; for bed bugs its label says to apply it to cracks and crevices in walls, floors and ceilings, along and behind baseboards and moulding, and to the walls behind and floors beneath furniture such as the bed and nightstand, but not to the mattress, headboard, footboard or furniture. This is where fogger money is better spent.',
                 search: 'doktor doom pro max',
                 score: 8.3,
-                pros: ['Targets harbourage directly', 'Weeks of residual activity', 'PMRA-registered — the PCP number is on the can'],
-                cons: ['Still limited by resistance', 'Not for mattresses or bedding', 'Requires careful, directed application'],
+                pros: ['Targets harbourage directly', 'Long-lasting residual out of sunlight (label)', 'PMRA-registered — Reg. No. 34126 on the label'],
+                cons: ['Still limited by resistance', 'Label: not on the mattress, headboard, footboard or furniture', 'Requires careful, directed application'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Determined to fog an open room?</strong> Use the <em>Best PMRA Fogger</em> from Doktor Doom, strictly to the label, as a minor flush only. <strong>Large open space?</strong> The <em>Best for Large Rooms</em> Konk aerosol covers more ground. <strong>Want a chemical step that actually helps?</strong> Spend on the <em>Better Chemical Step</em> residual spray instead. <strong>And do not buy a US-market &ldquo;bed bug bomb&rdquo; at all</strong> &mdash; the heavily advertised American cans are not PMRA-registered for Canada, so there is nothing here to link you to; see <Link href="/blog/bed-bug-spray-canada">what is actually registered and sold here</Link>. The real fix lives in <Link href="/blog/best-bed-bug-steamer-canada">steam</Link> and <Link href="/blog/bed-bug-heater-canada">heat</Link>, not fog.
+                <strong>Were you about to fog?</strong> Domestic total-release foggers are cancelled in Canada (the last date of use was September 2, 2024), so steam the seams and folds with the <em>Instead of a Fogger: Steam</em> pick and dust cracks and voids with the <em>Instead of a Fogger: Dust</em> pick, checking the bottle for Reg. No. 32278. <strong>Want a chemical step that actually helps?</strong> Spend on the <em>Better Chemical Step</em> spray, used only where its label allows. <strong>And do not buy a US-market &ldquo;bed bug bomb&rdquo; at all</strong> &mdash; the heavily advertised American cans are not PMRA-registered for Canada, so there is nothing here to link you to; see <Link href="/blog/bed-bug-spray-canada">what is actually registered and sold here</Link>. The real fix lives in <Link href="/blog/best-bed-bug-steamer-canada">steam</Link> and <Link href="/blog/bed-bug-heater-canada">heat</Link>, not fog.
               </>
             }
           />
@@ -206,7 +206,7 @@ export default function BestBedBugFoggerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">No</strong> &mdash; mist settles on surfaces</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Yes</strong> &mdash; pyrethrin actives</td>
                   <td className="px-4 py-3 text-gray-700">Flushing a few exposed insects</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom total release fogger" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom pro max" block>Registered spray instead →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Steam<br /><span className="font-normal text-xs text-gray-500">dry-vapour steamer</span></td>
@@ -260,8 +260,8 @@ export default function BestBedBugFoggerCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the products this page discusses (look for a PCP registration number on any pesticide before you buy it):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="konk total release fogger">Konk fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom pro max">Doktor Doom Pro Max, not a fogger →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">DE dust (look for Reg. No. 32278) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug steamer">Bed-bug steamer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="doktor doom pro max">Doktor Doom Pro Max residual →</BuyLink>
           </div>

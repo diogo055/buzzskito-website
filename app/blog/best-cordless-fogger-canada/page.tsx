@@ -145,9 +145,9 @@ export default function BestCordlessFoggerCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Hudson-Style Cordless ULV Fogger',
-                why: 'A cordless ULV cold fogger from a maker like Hudson hits the sweet spot: a fine adjustable mist, no cord to trail, and enough runtime for a yard, garage, coop, or crawlspace on a single charge. Balanced weight and a proven design make it the default first cordless fogger for most Canadian buyers.',
-                search: 'hudson cordless ulv fogger',
+                name: 'Cordless Battery ULV Fogger',
+                why: 'A battery-powered cordless ULV cold fogger hits the sweet spot: a fine adjustable mist, no cord to trail, and enough runtime for a yard, garage, coop, or crawlspace on a single charge. Balanced weight and a proven design make it the default first cordless fogger for most Canadian buyers.',
+                search: 'cordless battery ulv fogger',
                 score: 8.9,
                 featured: true,
                 pros: ['Cordless mobility for real-world jobs', 'Adjustable droplet size', 'Handles water-based solutions and disinfectants'],
@@ -183,7 +183,7 @@ export default function BestCordlessFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want one do-it-all cordless fogger?</strong> The <em>Best Overall</em> Hudson-style ULV unit covers the widest range of Canadian jobs. <strong>Treating acreage, a barn, or a big commercial floor?</strong> The <em>Best Backpack</em> carries the tank and battery to finish in one pass. <strong>Just a room, a coop, or a vehicle?</strong> The lighter <em>Best Handheld</em> is easier to grab and store. <strong>Occasional light-duty disinfecting on a budget?</strong> The <em>Best Budget</em> unit gives you cordless convenience without the commercial price. Whichever you pick, pair it only with a <Link href="/blog/best-pest-control-equipment-canada">PMRA-registered or DIN-labelled solution</Link>.
+                <strong>Want one do-it-all cordless fogger?</strong> The <em>Best Overall</em> cordless battery ULV unit covers the widest range of Canadian jobs. <strong>Treating acreage, a barn, or a big commercial floor?</strong> The <em>Best Backpack</em> carries the tank and battery to finish in one pass. <strong>Just a room, a coop, or a vehicle?</strong> The lighter <em>Best Handheld</em> is easier to grab and store. <strong>Occasional light-duty disinfecting on a budget?</strong> The <em>Best Budget</em> unit gives you cordless convenience without the commercial price. Whichever you pick, pair it only with a <Link href="/blog/best-pest-control-equipment-canada">PMRA-registered or DIN-labelled solution</Link>.
               </>
             }
           />
@@ -210,11 +210,11 @@ export default function BestCordlessFoggerCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Cordless ULV (Hudson-style)<br /><span className="font-normal text-xs text-gray-500">handheld / shoulder</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Cordless battery ULV<br /><span className="font-normal text-xs text-gray-500">handheld / shoulder</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Balanced</strong> &mdash; mid tank, integrated battery</td>
                   <td className="px-4 py-3 text-gray-700">Do-it-all: yard, garage, coop, crawlspace</td>
                   <td className="px-4 py-3 text-gray-700">Runtime capped by built-in battery</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hudson cordless ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Battery backpack (PetraTools-style)<br /><span className="font-normal text-xs text-gray-500">large capacity</span></td>
@@ -261,7 +261,7 @@ export default function BestCordlessFoggerCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="hudson cordless ulv fogger">Cordless ULV (Hudson-style) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger">Cordless battery ULV →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="petratools battery backpack fogger">Battery backpack →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cordless handheld ulv fogger">Cordless handheld →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="rechargeable cordless disinfectant fogger">Budget battery fogger →</BuyLink>

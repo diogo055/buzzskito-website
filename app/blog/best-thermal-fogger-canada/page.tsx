@@ -156,16 +156,16 @@ export default function BestThermalFoggerCanadaPage() {
               {
                 badge: 'Best for Homeowners',
                 name: 'Black Flag Propane Insect Fogger',
-                why: 'The plug-and-play choice: screw on a propane cartridge, let it warm up, and fog a suburban yard before an evening event. Light, affordable, and simple — the easiest way to get a real thermal fog without buying pro gear.',
+                why: 'The plug-and-play machine: screw on a propane cartridge, let it warm up, and it makes a real thermal fog without pro gear. In Canada the liquid is the catch: no current homeowner insecticide is labelled for a thermal fogger, the Canadian Black Flag Fog Insecticide (Reg. No. 28121) was cancelled in 2017, and the Black Flag Formula 2 that Fountainhead’s manuals name has no Canadian registration.',
                 search: 'black flag propane fogger',
                 score: 8.1,
-                pros: ['Cheap and genuinely simple to run', 'Light and cordless — no fuel mixing', 'Great for occasional pre-event fogging'],
-                cons: ['Ongoing propane cartridge cost', 'Smaller tank, less canopy reach'],
+                pros: ['Cheap and genuinely simple to run', 'Light and cordless — no fuel mixing'],
+                cons: ['No current Canadian homeowner liquid labelled for it', 'Ongoing propane cartridge cost', 'Smaller tank, less canopy reach'],
               },
               {
                 badge: 'Best Electric (No Propane)',
                 name: 'Electric Thermal Fogger',
-                why: 'A corded electric heating element instead of propane means no cartridges to buy and steady, consistent fog output. A sensible middle ground for a homeowner who fogs often near a power source and wants to skip disposable fuel.',
+                why: 'A corded electric heating element instead of propane means no cartridges to buy and steady, consistent fog output. A sensible middle ground for a homeowner who fogs often near a power source and wants to skip disposable fuel. The Fountainhead electric fogger’s manual names Black Flag Formula 2, Cutter or Repel fogging insecticide, and none of them is registered in Canada; check any liquid for a current Reg. No. and a label that names your machine.',
                 search: 'electric thermal fogger',
                 score: 7.6,
                 pros: ['No propane — plug in and fog', 'Consistent, controllable output', 'Lower running cost than cartridges'],
@@ -183,7 +183,7 @@ export default function BestThermalFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Acreage, a cottage, or frequent fogging across a treed lot?</strong> The <em>Best Overall</em> Longray pulse-jet earns its price in fog quality and low per-acre cost. <strong>Normal suburban yard, occasional pre-party knockdown?</strong> The <em>Best for Homeowners</em> Black Flag propane fogger is all you need. <strong>Fog often near an outlet and hate buying cartridges?</strong> Go <em>Electric</em>. <strong>Testing the waters on a small lot?</strong> The <em>Best Budget</em> handheld does the job &mdash; but for whole-yard coverage that also targets ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>, applied across the yard and renewed on a schedule.
+                <strong>Acreage, a cottage, or frequent fogging across a treed lot?</strong> The <em>Best Overall</em> Longray pulse-jet earns its price in fog quality and low per-acre cost. <strong>Normal suburban yard?</strong> The <em>Best for Homeowners</em> Black Flag propane fogger is the simplest machine, but no current Canadian homeowner liquid is labelled for a thermal fogger, so settle the liquid first; the simplest legal fog for a homeowner is a registered aerosol patio fogger can. <strong>Fog often near an outlet and hate buying cartridges?</strong> Go <em>Electric</em>, with the same liquid caveat. <strong>Testing the waters on a small lot?</strong> The <em>Best Budget</em> handheld does the job &mdash; but for whole-yard coverage that also targets ticks, look at <Link href="/mosquito-control">professional barrier spray</Link>, applied across the yard and renewed on a schedule.
               </>
             }
           />

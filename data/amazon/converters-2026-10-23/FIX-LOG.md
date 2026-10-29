@@ -1759,3 +1759,1783 @@ approved" in the new text; prices on the lines being edited were removed.
   - natural bed bug spray: EcoRaider or Proof as the pick;
   - mattress spray: "mattress-safe";
   - CimeXa review and Crossfire review: CimeXa as registered.
+
+## Tier 2-3 box fixes: bed bug, fly, wasp, wildlife and dehumidifier pages (Oct 29, 2026)
+
+Fixed Oct 29, 2026 under the FIXBOX brief (owner, Oct 29: "Yes, fix the false product box claims"), following FIX-BRIEF.md. The list of problems is the "Box (owner)" findings for these 15 pages in TIER3-CHECK.md (lines 24-35 and 44-46) and the box flags in TIER3-LOG.md (lines 3-8, 21-26 and 30-32); none of the 15 pages is in TIER2-CHECK.md or TIER2-LOG.md. Every flag was re-checked against its primary source on Oct 29 before editing (sources in the key below). All files are `app/blog/<slug>/page.tsx`. **88 lines changed on 12 pages** (83 affiliate lines, 5 table-cell text lines marked B-text); 3 pages needed no change. Lines were replaced, never inserted or deleted, so each line number is the same before and after.
+
+**Checks after editing** (against `git show HEAD:<file>`, read-only; no other git, no build):
+- Line counts unchanged on all 15 pages.
+- Counts of `<BuyLink`, `<AwardRow`, `<AwardCard`, `<StickyBuyBar`, `<AmazonLink`, `<TopPick`, `<TopBox`, `search=`, `search:`, `asin=`, `asin:` and `tag=` identical on all 15; the sequence of `tag` values identical; every TopBox still mirrors its StickyBuyBar.
+- `search` values changed only on the approved swaps below, each to a term already live on the same page or a sibling (S-terms). No `asin` changed.
+- `npx tsc --noEmit` clean. A scan of every added line found no "safe", "non-toxic", "Health Canada approved/registered", testing claim, price or rating added.
+
+**Evidence key** (each entry cites these codes):
+
+- `T3C`: the TIER3-CHECK.md row for the page (box items quoted in each entry); `T3L`: the TIER3-LOG.md row for the page.
+- `R-api`: Health Canada's pesticide registry API, queried Oct 29, 2026 (https://pest-control.canada.ca/pesticide-registry-api/api/search/product, product name contains): HARRIS 0 rows; ECORAIDER 0; ECOVENGER 0; CIMEXA 0; SILICIDE 0; KATCHY 0; W.H.Y and W·H·Y 0; TRAPSTIK 0; MOSQUITO BITS 0; TERRO 13 rows, all ant products or cancelled, none a fruit fly product. Registrant STERLING: no W·H·Y product.
+- `R-31110`: registry 31110 KONK BED BUG KILLER: Full Registration, Current, DOMESTIC, expiry 2027-12-31, Acuity Holdings; pests include BED BUGS. Label 2023-3451 (Dec 21, 2023), fetched with WebFetch from the registry (https://pest-control.canada.ca/pesticide-registry-api/api/pdf/inline/en/444691994): "Pyrethrins 0.50%", "Piperonyl Butoxide 5.00%", "BED BUGS: Spray mattress lightly, particularly around seams and tufts. Take beds apart and spray the frames, springs and all joints", "Tufts and/or seams (mattresses and upholstered furniture only)", "Insects must be contacted to be killed", "Treatment must only be repeated after 7 days if pest problem persists or reoccurs", "DANGER EXTREMELY FLAMMABLE EXPLOSIVE", "DO NOT allow people or pets or livestock to enter treated areas until sprays have settled and dried", address "ACUITY HOLDINGS, INC. 11627 - 178 STREET EDMONTON AB". The label has no "Made in" line and no egg claim.
+- `R-32561`: registry 32561 DOKTOR DOOM BE GREEN PREMIUM FOOD GRADE DIATOMACEOUS EARTH: Full Registration, Current, DOMESTIC, expiry 2026-12-31; pest list includes BED BUGS (https://pest-control.canada.ca/pesticide-registry-api/api/search/product-pest/32561). No silica-gel dust is domestic: T3C row for the DIY page (15255, 24259 commercial).
+- `R-35529`: registry 35529 DISPOSABLE YELLOWJACKET TRAP W: Full Registration, DOMESTIC, first registered 2025-12-11, expiry 2030-12-31, heptyl butyrate, Sterling International; pest YELLOWJACKET; site OUTDOOR LIVING AREAS.
+- `R-34819`: registry 34819 FRUIT FLY TRAP[S]: Full Registration, Current, DOMESTIC, Sterling International, acetic acid; pest FRUIT FLIES.
+- `R-bti`: the domestic Bti products 27374, 28888 and 34631 list only MOSQUITO / MOSQUITO LARVAE (product-pest API, Oct 29).
+- `R-light`: registry 35296 STEM FLYING INSECT LIGHT TRAP: product type DEVICE, DOMESTIC, current (first registered 2024-09-13); T3C Katchy row (35297, 36005, 36155 also registered).
+- `M-ts`: ThermalStrike Ranger page, re-read Oct 29 (https://thermalstrike.com/thermalstrike-ranger/): "a compact, hard working unit", "Just Load Items Directly In The Ranger", "When expanded, easily fits carry-on and most checked luggage with room to spare", "Folds down to the size of a briefcase for storage", Amazon.ca link B07NBVSRG8; Ranger manual Ver 2023R1 as verified in T3C (29 in., closed bags, four poles and a floor, bedding and books allowed, 2/4/8 h, 120°F for 30 min at the core).
+- `M-zb`: ZappBug comparison page, re-read Oct 29 (https://zappbug.com/pages/compare-zappbug-products): ZappBug Heater (1 heater, 37.5 x 23 x 23 in), Oven 2 (2), Room (4); no product called "ZappBug Original".
+- `U-uf`: University of Florida release, July 7, 2009 (https://archive.news.ufl.edu/articles/2009/07/uf-researchers-turn-up-the-heat-on-bedbugs-with-new-low-tech-treatment-method.html): "Homeowners should not attempt to build their own heat treatment chambers, the UF researchers said, warning that it could lead to fires."
+- `M-rff`: RESCUE! Fruit Fly Trap page, read Oct 29 (https://www.rescue.com/products/traps/fruit-fly-trap/): food-based lure and colour; flies "enter through funnel-shaped holes, get trapped inside the liquid and drown"; 30-day supply, reusable with refills; "won't catch fungus gnats or drain flies"; indoor use.
+- `M-ryj`: RESCUE! Disposable Yellowjacket Trap page, read Oct 29 (https://www.rescue.com/products/traps/disposable-yellowjacket-trap/): pre-baited, "Simply add water to activate the powdered lure pouch"; "most traps will last between 2 - 4 weeks"; dispose of it when full or dry; "does not target wasps or hornets"; hang it "at least 20 feet away from human activity areas (patios, decks, play spaces)"; "all of the major species of yellowjackets found in North America"; model YJTD.
+- `U-isu`: Iowa State University Extension, Cluster Fly (Sept 12, 2016; https://yardandgarden.extension.iastate.edu/encyclopedia/cluster-fly): "Therefore, flypaper, fly strips and bug zappers are of no value." The page names no window or light trap.
+- `M-hh`: Woodstream Canada, Havahart Medium 1-Door Animal Trap, read Oct 29 (https://www.woodstreambrands.ca/havahart-medium-1-door-animal-trap): model 1078, 24 x 7 x 7 in, "Best used for rabbits, skunks, and squirrels", no groundhogs. Havahart's groundhog guide (32-42 in traps) and the Large 1079 groundhog listing as verified in T3C (https://www.havahart.com/how-to-trap-groundhogs).
+- `B-safe`: FIX-BRIEF ("remove ... every other 'safe'"; no "safe" or "non-toxic"); the checkers also cleared banned words from any changed line (T3C ThermalStrike row).
+- `B-swap`: FIX-BRIEF item 2: point the box at the registered alternative the same page (or a sibling) already recommends, reusing its existing search term; element type, position, tag and count kept. Scores on swapped cards are the sibling's own score for that product.
+- `B-text`: a table cell (no affiliate element) changed only because the swap beside it would otherwise make it false.
+- `S-terms`: swapped-in search terms, each already live: 'konk bed bug killer aerosol' (konk-bed-bug-killer-review-canada L123, L124, L151, L185, L289, L337; its TopPick score 7.4; its ASIN not copied); 'doktor doom diatomaceous earth' (best-bed-bug-powder-canada L163, L227, L268, card score 8.3; also cimexa- and crossfire-review swaps of Oct 25); 'rescue fruit fly trap' (best-fruit-fly-trap-canada L630); 'rescue disposable yellowjacket trap' (rescue-why-trap-review-canada L280 itself; best-wasp-trap L176, 'Best Budget' card score 7.4).
+
+### harris-bed-bug-killer-review-canada (9 lines, swap)
+
+- **L123, L124** (T3C, T3L, R-api, R-31110, B-swap, S-terms). StickyBuyBar/TopBox sold "Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)": no Harris product is in the registry and Harris's range has no Toughest product (T3C). Swapped to the registered can this page itself names for the bed (hero, FAQs 6, 10, situation list): KONK Bed Bug Killer, PCP 31110.
+  - L123 before: `<StickyBuyBar tag={AMZ_TAG} name="Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)" search="harris bed bug killer" label="Our verdict: 6.9/10 — conditional" />`
+  - L123 after: `<StickyBuyBar tag={AMZ_TAG} name="KONK Bed Bug Killer aerosol (PCP 31110)" search="konk bed bug killer aerosol" label="Registered alternative in Canada" />`
+  - L124 before: `<TopBox tag={AMZ_TAG} name="Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)" search="harris bed bug killer" label="Our verdict: 6.9/10 — conditional" />`
+  - L124 after: `<TopBox tag={AMZ_TAG} name="KONK Bed Bug Killer aerosol (PCP 31110)" search="konk bed bug killer aerosol" label="Registered alternative in Canada" />`
+
+- **L148, L149, L150, L151, L153, L154, L155** (same evidence). TopPick said "only the specific PMRA-registered SKU sold through Canadian retail is legal here", pro "A Canadian-registered SKU can be a legitimate, label-legal purchase", con "Legality is per-SKU". Swapped to KONK as "What to Buy Instead in Canada", text from label 31110; score 7.4 is the KONK review's own score; cta unchanged.
+  - L148 before: `label="Our Verdict — Conditional"`
+  - L148 after: `label="What to Buy Instead in Canada"`
+  - L149 before: `name="Harris Toughest Bed Bug Killer — a known-name contact spray with two big caveats"`
+  - L149 after: `name="KONK Bed Bug Killer (PCP 31110) — the registered can for the bed"`
+  - L150 before: `blurb="Harris is the brand nearly every Canadian searching for a bed bug spray eventually clicks on, and the Toughest liquid does the narrow thing a contact insecticide does: it kills the bed bugs it directly, thoroughly wets. That is genuinely useful for spot knockdown on bugs you can see and reach. But it is a pyrethroid, and the resistance now widespread in North American bed bug populations means the dried residual — the weeks-long protection the label implies — is exactly the part resistant bugs walk across and survive. It also cannot touch eggs sealed in seams or bugs hidden in voids. And before you buy at all, the legality question decides everything: only the specific PMRA-registered SKU sold through Canadian retail is legal here; a US listing that happens to ship is not. Buy it, if you buy it, as one Canadian-registered contact tool inside a layered plan — and lean on heat and desiccants for the durable kill."`
+  - L150 after: `blurb="No Harris product is in Health Canada’s pesticide registry, so no Harris bottle has a PCP number; this is the can we point Canadian readers to instead. KONK Bed Bug Killer is a domestic-class pyrethrin aerosol (pyrethrins 0.50% with piperonyl butoxide 5.00%) whose label carries Reg. No. 31110. For bed bugs the label says to spray the mattress lightly, particularly around seams and tufts, and to take beds apart and spray the frames, springs and all joints, with a repeat only after 7 days if the problem persists. Insects must be contacted to be killed, so it is a spot tool, not a residual, and the label makes no egg claim: use heat for the eggs and a diatomaceous earth dust with a PCP number for the voids."`
+  - L151 before: `search="harris bed bug killer"`
+  - L151 after: `search="konk bed bug killer aerosol"`
+  - L153 before: `score={6.9}`
+  - L153 after: `score={7.4}`
+  - L154 before: `pros={['Kills bed bugs it directly and thoroughly wets — real contact knockdown', 'Widely known, easy-to-recognise brand with several product formats', 'Useful as a spot tool for visible bugs inside a bigger plan', 'A Canadian-registered SKU can be a legitimate, label-legal purchase']}`
+  - L154 after: `pros={['Domestic-class registration (PCP 31110), current', 'Label covers mattress seams and tufts, frames, springs and joints', 'Pyrethrins with piperonyl butoxide, not a synthetic pyrethroid', 'A Canadian label to follow, from Acuity Holdings, Edmonton']}`
+  - L155 before: `cons={['Pyrethroid chemistry — undercut by the resistance common in local bed bugs', 'Residual is the weakest link; resistant bugs survive the dried film', 'Useless against eggs cemented in seams and bugs hidden in voids', 'Legality is per-SKU — a US listing that ships is not automatically legal to import', 'Not a stand-alone fix; needs heat, encasements, monitoring, and a dust to matter']}`
+  - L155 after: `cons={['Kills only the bugs it contacts: no residual claimed (label)', 'No egg claim on the label: heat is the answer for eggs', 'EPA: some bed bug populations resist pyrethrins and pyrethroids', 'DANGER: extremely flammable, explosive aerosol (label)', 'Not a stand-alone fix; needs heat, encasements, monitoring, and a dust to matter']}`
+
+### konk-bed-bug-killer-review-canada (4 lines)
+
+- **L150** (T3C, T3L, R-31110). TopPick blurb "registered, Canadian-made": the label gives only Acuity's Edmonton address and no "Made in" line. The same line's "pyrethrin/pyrethroid chemistry" is the cons claim below (label: pyrethrins + PBO).
+  - L150 before: `blurb="Konk is the aerosol to reach for when your priority is a registered, Canadian-made product you can actually buy off a shelf rather than smuggle across the border. As a contact insecticide it does its core job well: spray a bed bug you can see and it goes down fast. What holds the score back is nothing unique to Konk and everything about the category — it is pyrethrin/pyrethroid chemistry, so the resistant bugs you don't hit directly may shrug it off, it won't reliably kill eggs cemented in seams, and a surface spray can't reach the harbourage where an infestation actually lives. Bought and used for what it is — legal knockdown and spot treatment inside a layered plan — it is a sound, honest pick. Bought as a one-can cure for an established infestation, it will disappoint, as every consumer spray does."`
+  - L150 after: `blurb="Konk is the aerosol to reach for when your priority is a registered product (PCP 31110) you can actually buy off a Canadian shelf rather than smuggle across the border. As a contact insecticide it does its core job well: spray a bed bug you can see and it goes down fast. What holds the score back is nothing unique to Konk and everything about the category — it is pyrethrins with piperonyl butoxide, and EPA says some bed bug populations resist pyrethrins and pyrethroids, so the resistant bugs you don't hit directly may shrug it off, it won't reliably kill eggs cemented in seams, and a surface spray can't reach the harbourage where an infestation actually lives. Bought and used for what it is — legal knockdown and spot treatment inside a layered plan — it is a sound, honest pick. Bought as a one-can cure for an established infestation, it will disappoint, as every consumer spray does."`
+
+- **L155** (T3C, R-31110, B-safe). Pros "PMRA-registered and Canadian-made" and "defined safe-use directions" (banned word).
+  - L155 before: `pros={['PMRA-registered and Canadian-made — fully legal retail purchase', 'Fast, effective contact knockdown on bugs you spray directly', 'Widely available at Canadian stores — no grey-market importing', 'A reviewed label with defined safe-use directions to follow']}`
+  - L155 after: `pros={['PMRA-registered (PCP 31110, domestic) — a legal retail purchase', 'Fast, effective contact knockdown on bugs you spray directly', 'Widely available at Canadian stores — no grey-market importing', 'A reviewed Canadian label with clear directions to follow']}`
+
+- **L156** (T3C, R-31110). Cons "Pyrethroid chemistry" (label: pyrethrins + piperonyl butoxide) and "Short residual" (label: insects must be contacted to be killed).
+  - L156 before: `cons={['Pyrethroid chemistry — resistant bugs you miss may survive', 'Does not reliably kill eggs (heat is the answer there)', 'Short residual and no reach into deep harbourage', 'A knockdown layer only — never a standalone cure for an infestation']}`
+  - L156 after: `cons={['Pyrethrins + piperonyl butoxide — resistant bugs you miss may survive', 'Does not reliably kill eggs (heat is the answer there)', 'No residual (label: insects must be contacted to be killed) and no reach into deep harbourage', 'A knockdown layer only — never a standalone cure for an infestation']}`
+
+- **L199** (T3C, T3L, R-api, B-swap, S-terms). EcoRaider row BuyLink: EcoRaider has no registration. Pointed at the registered pick on this page (KONK, label 31110), as the Oct 25 natural-spray fix did ("Registered pick instead"); the row text already says EcoRaider is not registered.
+  - L199 before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca &rarr;</BuyLink></td>`
+  - L199 after: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Registered pick instead &rarr;</BuyLink></td>`
+
+### how-to-get-rid-of-bed-bugs-in-couch-canada (12 lines, swap)
+
+- **L153** (T3C, T3L, B-safe). Card 1 pro "safe over a sitting surface".
+  - L153 before: `pros: ['Kills bugs and eggs on contact', 'Reaches deep into fabric seams', 'Chemical-free — safe over a sitting surface once dry'],`
+  - L153 after: `pros: ['Kills bugs and eggs on contact', 'Reaches deep into fabric seams', 'Chemical-free — no pesticide on the fabric you sit on'],`
+
+- **L157-162** (T3C, T3L, R-api, R-31110, B-swap, S-terms). Card 2 "EcoRaider PMRA-Registered Residual Spray", why "the Canadian PCP registration and its labelling for use around living spaces", pros "PMRA/PCP-registered for Canada", "labelled for living areas": all false (no EcoRaider by name or registrant). Swapped to KONK Bed Bug Killer, which this page names for couches (FAQ 4 and the label table: its tuft and seam treatment is defined for mattresses and upholstered furniture). Badge was "Residual Layer"; KONK is contact only (label). Score 7.4 is the KONK review's; cons unchanged (still true).
+  - L157 before: `badge: 'Residual Layer',`
+  - L157 after: `badge: 'Seam & Tuft Spray',`
+  - L158 before: `name: 'EcoRaider PMRA-Registered Residual Spray',`
+  - L158 after: `name: 'KONK Bed Bug Killer (PCP 31110)',`
+  - L159 before: `why: 'A botanical, lower-toxicity residual that keeps killing for a couple of weeks after the steam pass, driven into the cracks and seams heat could not reach. Choose it for the Canadian PCP registration and its labelling for use around living spaces rather than raw knockdown power.',`
+  - L159 after: `why: 'A domestic-class pyrethrin aerosol whose Canadian label defines its tuft and seam treatment for mattresses and upholstered furniture: use it on the seams, tufts and cracks the steam could not reach. Insects must be contacted to be killed, so it leaves no lasting barrier, and its label says to keep people and pets out until sprays have settled and dried. EcoRaider, often suggested for couches, has no Canadian registration.',`
+  - L160 before: `search: 'ecoraider bed bug spray',`
+  - L160 after: `search: 'konk bed bug killer aerosol',`
+  - L161 before: `score: 8.6,`
+  - L161 after: `score: 7.4,`
+  - L162 before: `pros: ['Residual keeps working for weeks', 'Lower-toxicity, labelled for living areas', 'PMRA/PCP-registered for Canada'],`
+  - L162 after: `pros: ['Domestic-class registration (PCP 31110)', 'Label defines tuft and seam treatment for upholstered furniture', 'Kills the bugs it contacts'],`
+
+- **L176, L177** (T3C, R-32561 note). Card 4 "Silica / Diatomaceous-Earth Powder": no silica dust is registered for home use (Drione 15255 and Protect-It 24259 are commercial). Name and why now say DE with a PCP number; search unchanged (generic DE, not an unregistered product).
+  - L176 before: `name: 'Silica / Diatomaceous-Earth Powder',`
+  - L176 after: `name: 'Diatomaceous-Earth Dust (with a PCP number)',`
+  - L177 before: `why: 'A barely-visible dust into the frame joints, staple lines, and deep voids the steam and spray never touch. Bugs crawling through it dry out and die over days. A patient, long-lasting mechanical backstop — apply a film, never a pile.',`
+  - L177 after: `why: 'A barely-visible dust into the frame joints, staple lines, and deep voids the steam and spray never touch. Bugs crawling through it dry out and die over days. A patient, long-lasting mechanical backstop — apply a film, never a pile. Choose a diatomaceous earth dust whose label shows a PCP number and lists bed bugs: no silica dust is registered for home use in Canada.',`
+
+- **L186** (same evidence as card 2). whichToBuy sent readers to "the Residual Layer EcoRaider spray".
+  - L186 before: `<strong>Buying one thing first?</strong> Start with the <em>Core Tool</em> steamer &mdash; nothing else kills the eggs, and heat is what actually clears a couch. <strong>Adding a residual so bugs keep dying between passes?</strong> Pair it with the <em>Residual Layer</em> EcoRaider spray. <strong>Worried it will come back?</strong> The <em>Containment</em> encasement seals the spots you can&rsquo;t treat. <strong>Chasing survivors in the frame voids?</strong> Dust the joints with the <em>Crack Finisher</em> powder. The full couch kit is all four working together, not any one alone.`
+  - L186 after: `<strong>Buying one thing first?</strong> Start with the <em>Core Tool</em> steamer &mdash; nothing else kills the eggs, and heat is what actually clears a couch. <strong>Want a spray for the seams the steam missed?</strong> Add the <em>Seam &amp; Tuft Spray</em>, KONK Bed Bug Killer (PCP 31110); it kills only the bugs it contacts. <strong>Worried it will come back?</strong> The <em>Containment</em> encasement seals the spots you can&rsquo;t treat. <strong>Chasing survivors in the frame voids?</strong> Dust the joints with the <em>Crack Finisher</em> powder. The full couch kit is all four working together, not any one alone.`
+
+- **L227, L277** (same evidence as card 2). The EcoRaider table and body BuyLinks follow the swap.
+  - L227 before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>`
+  - L227 after: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Check price on Amazon.ca →</BuyLink></td>`
+  - L277 before: `<BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray">EcoRaider spray →</BuyLink>`
+  - L277 after: `<BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol">KONK Bed Bug Killer →</BuyLink>`
+
+### best-bed-bug-box-spring-encasement-canada (1 line)
+
+- **L190** (T3L, B-safe). The upgrader's note: whichToBuy "safe default". T3C found no wrong claim; only the banned word was replaced.
+  - L190 before: `<strong>Active bed-bug problem and want the safe default?</strong> The <em>Best Overall</em> SureGuard box-spring encasement gets the seal, the zipper, and the fabric right. <strong>Want documented, certified testing and the heaviest fabric?</strong> The <em>Best Premium</em> SafeRest. <strong>Encasing several beds or a rental?</strong> The <em>Best Value</em> Utopia keeps the per-unit cost down without dropping to an open-bottom cover. <strong>One low-pressure bed on a tight budget?</strong> The <em>Best Budget</em> cover works &mdash; just confirm it is truly six-sided before you buy.`
+  - L190 after: `<strong>Active bed-bug problem and want the dependable default?</strong> The <em>Best Overall</em> SureGuard box-spring encasement gets the seal, the zipper, and the fabric right. <strong>Want documented, certified testing and the heaviest fabric?</strong> The <em>Best Premium</em> SafeRest. <strong>Encasing several beds or a rental?</strong> The <em>Best Value</em> Utopia keeps the per-unit cost down without dropping to an open-bottom cover. <strong>One low-pressure bed on a tight budget?</strong> The <em>Best Budget</em> cover works &mdash; just confirm it is truly six-sided before you buy.`
+
+### thermalstrike-ranger-review-canada (6 lines)
+
+- **L123, L124** (T3C, T3L, M-ts). StickyBuyBar/TopBox name "heated bed bug suitcase": the Ranger is a folding heater a closed bag goes into. Search unchanged (see Left unchanged).
+  - L123 before: `<StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />`
+  - L123 after: `<StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />`
+  - L124 before: `<TopBox tag={AMZ_TAG} name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />`
+  - L124 after: `<TopBox tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />`
+
+- **L149, L150** (T3C, T3L, M-ts). TopPick name and blurb "A hard-shell rolling suitcase with a heating element engineered into its walls. You travel with it like any carry-on" and "no-setup" replaced with the maker's description.
+  - L149 before: `name="ThermalStrike Ranger — heated bed bug suitcase"`
+  - L149 after: `name="ThermalStrike Ranger — folding bed bug heater for luggage"`
+  - L150 before: `blurb="A hard-shell rolling suitcase with a heating element engineered into its walls. You travel with it like any carry-on, then plug it in when you get home and let the sealed interior climb past the temperature at which bed bug adults, nymphs, and eggs all die — sterilizing the belongings in the exact bag they rode home in, before you ever unzip it in your bedroom. The appeal is that prevention becomes a no-setup habit rather than a chore, which is exactly what keeps frequent travellers consistent. Priced well below what a single bed bug introduction costs to eradicate."`
+  - L150 after: `blurb="Not a suitcase: a collapsible six-sided heater you set up at home with four poles and a plastic floor. Your closed carry-on or checked bag, up to 29 inches with its contents, goes inside, and the 2, 4 or 8-hour timer runs until the core of the load passes the temperature at which bed bug adults, nymphs, and eggs all die (ThermalStrike recommends 120°F, 49°C, for 30 minutes at the core) — sterilizing the belongings in the exact bag they rode home in, before you ever unzip it in your bedroom. The appeal is that prevention becomes a simple habit rather than a chore, which is exactly what keeps frequent travellers consistent; it folds to briefcase size between trips. Priced well below what a single bed bug introduction costs to eradicate."`
+
+- **L154, L155** (T3C, M-ts). Pros "Heater built into the suitcase" and "Zero-setup"; cons "not for bedding, boxes" (the manual allows bedding and books) and "Premium over a plain suitcase" (same false premise).
+  - L154 before: `pros={['Heater built into the suitcase — treats belongings in the bag they travelled in, no separate chamber', 'Kills every life stage including eggs; heat has no resistance problem', 'Zero-setup prevention turns post-trip decontamination into a habit', 'Pesticide-free physical method — nothing to register, nothing grey-market', 'Ideal for frequent flyers, hotel/hostel/short-term-rental stays, and students moving between homes']}`
+  - L154 after: `pros={['Takes the closed bag with its contents (manual) — treats belongings in the bag they travelled in, no unpacking first', 'Kills every life stage including eggs; heat has no resistance problem', 'Four poles and a floor to set up, and it folds to briefcase size, so post-trip decontamination becomes a habit', 'Pesticide-free physical method — nothing to register, nothing grey-market', 'Ideal for frequent flyers, hotel/hostel/short-term-rental stays, and students moving between homes']}`
+  - L155 before: `cons={['Single-suitcase capacity — not for bedding, boxes, or whole-home remediation', 'Dense loads need patience: the packed core is the last thing to reach egg-kill temperature', 'Small US manufacturer — Canadian stock and model names can fluctuate', 'Premium over a plain suitcase; the maths favours frequent, higher-risk travel']}`
+  - L155 after: `cons={['One suitcase-sized load at a time (bedding and books allowed) — not for furniture or whole-home remediation', 'Dense loads need patience: the packed core is the last thing to reach egg-kill temperature', 'Small US manufacturer — Canadian stock and model names can fluctuate', 'A device to buy on top of your luggage; the maths favours frequent, higher-risk travel']}`
+
+### best-bed-bug-heat-chamber-canada (6 lines)
+
+- **L152, L153** (T3C, T3L, M-zb). Card 1 "ZappBug Original" and "built-in heaters": ZappBug sells the Heater (one heater), Oven 2 and Room. Search and ASIN unchanged.
+  - L152 before: `name: 'ZappBug Original (portable heat chamber)',`
+  - L152 after: `name: 'ZappBug Heater (portable heat chamber)',`
+  - L153 before: `why: 'The default choice for household bed-bug work: a collapsible insulated cube with built-in heaters and a probe thermometer that holds luggage, clothing, shoes, and books past the 48°C kill line for eggs and adults alike. Big enough for most jobs, small enough to store.',`
+  - L153 after: `why: 'The default choice for household bed-bug work: a collapsible insulated box (37.5 x 23 x 23 in) with one heater and a probe thermometer that holds luggage, clothing, shoes, and books past the 48°C kill line for eggs and adults alike. ZappBug sells it as the ZappBug Heater; it has no model called the Original. Big enough for most jobs, small enough to store.',`
+
+- **L164, L191, L282** (same evidence). The same false model name in card 2's why, whichToBuy and the BuyLink button text.
+  - L164 before: `why: 'The larger unit for the loads the Original cannot swallow — a small armchair, stacked dining chairs, big totes, or a whole family’s clothing in one cycle. The right pick if you routinely need to heat furniture or clear big loads in fewer runs.',`
+  - L164 after: `why: 'The larger unit for the loads the Heater cannot swallow — a small armchair, stacked dining chairs, big totes, or a whole family’s clothing in one cycle. The right pick if you routinely need to heat furniture or clear big loads in fewer runs.',`
+  - L191 before: `<strong>Treating clothing, luggage, shoes, and books?</strong> The <em>Best Overall</em> ZappBug Original covers the majority of household jobs. <strong>Need to heat a chair or big loads?</strong> Step up to the <em>Best for Furniture</em> ZappBug Room. <strong>A traveller who just wants to zap a suitcase?</strong> The <em>Best for Travel</em> Thermal Strike Ranger is the focused tool. <strong>One-off job on a tight budget and willing to watch a thermometer?</strong> A carefully built <em>DIY</em> chamber can work &mdash; but a purpose-built unit removes the fire and cold-pocket risk for a reason.`
+  - L191 after: `<strong>Treating clothing, luggage, shoes, and books?</strong> The <em>Best Overall</em> ZappBug Heater covers the majority of household jobs. <strong>Need to heat a chair or big loads?</strong> Step up to the <em>Best for Furniture</em> ZappBug Room. <strong>A traveller who just wants to zap a suitcase?</strong> The <em>Best for Travel</em> Thermal Strike Ranger is the focused tool. <strong>One-off job on a tight budget?</strong> The University of Florida researchers who built a <em>DIY</em> chamber told homeowners not to build their own, warning that it could lead to fires, so a purpose-built unit is the better buy.`
+  - L282 before: `<BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Original →</BuyLink>`
+  - L282 after: `<BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Heater →</BuyLink>`
+
+- **L182** (T3C, T3L, U-uf, B-safe). Card 4 DIY chamber "only safe and effective if ...": banned word, and the UF researchers who built one told homeowners not to (fire). Pick and badge kept; the box now says so. The whichToBuy line (L191) carries the same correction and drops "removes the fire and cold-pocket risk".
+  - L182 before: `why: 'For a single small job on a tight budget: an insulated tote or garment bag warmed by a small ceramic heater and — critically — monitored with a real probe thermometer. Cheapest route, but only safe and effective if you watch the temperature and never leave a heater unattended.',`
+  - L182 after: `why: 'For a single small job on a tight budget: an insulated tote or garment bag warmed by a small ceramic heater and — critically — monitored with a real probe thermometer. Cheapest route, but the University of Florida researchers who built one told homeowners not to build their own heat treatment chambers, warning that it could lead to fires; never leave a heater unattended.',`
+
+### how-to-get-rid-of-bed-bugs-canada (10 lines, swap)
+
+- **L183-187** (T3C, T3L, R-api, R-32561, B-swap, S-terms). Card 4 "Silica Desiccant Dust (e.g. CimeXa)", search 'cimexa silica bed bug dust': CimeXa 0 rows. Swapped to a registered DE dust, the class this page recommends (Step 6, FAQ: diatomaceous earth with a PCP number); Doktor Doom Be Green is the DE its sibling powder guide recommends. Score 8.3 is the powder guide's. "Keeps killing for months" replaced with the page's own "keeps working while it stays dry".
+  - L183 before: `name: 'Silica Desiccant Dust (e.g. CimeXa)',`
+  - L183 after: `name: 'Diatomaceous Earth Dust with a PCP Number (e.g. Doktor Doom Be Green, PCP 32561)',`
+  - L184 before: `why: 'A thin film of silica in wall voids, outlet gaps, and behind baseboards keeps killing for months — bugs that walk across it dehydrate and die. The residual backbone that outlasts any liquid spray.',`
+  - L184 after: `why: 'A thin film of a registered diatomaceous earth dust in wall voids, outlet gaps, and behind baseboards keeps working while it stays dry — bugs that walk across it dry out and die. Doktor Doom Be Green (PCP 32561, domestic class) lists bed bugs on its label; CimeXa, the silica dust US guides favour, is not in Health Canada’s registry.',`
+  - L185 before: `search: 'cimexa silica bed bug dust',`
+  - L185 after: `search: 'doktor doom diatomaceous earth',`
+  - L186 before: `score: 8.5,`
+  - L186 after: `score: 8.3,`
+  - L187 before: `pros: ['Keeps killing for months', 'Reaches voids you cannot heat', 'A little covers a lot'],`
+  - L187 after: `pros: ['Domestic-class registration with bed bugs on the label', 'Reaches voids you cannot heat', 'A little covers a lot'],`
+
+- **L193** (same evidence). whichToBuy "silica dust".
+  - L193 before: `<strong>Just found bed bugs and don&rsquo;t know where to start?</strong> Buy the <em>Protect the Bed</em> encasements and <em>Monitor &amp; Isolate</em> interceptors first &mdash; together they stop the bites within a day and tell you if you&rsquo;re winning. <strong>Ready to actually kill them?</strong> Add the <em>Kill the Eggs</em> heat tools; a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> for seams plus a <Link href="/blog/zappbug-heater-review-canada">box heater</Link> for belongings covers most homes. <strong>Want the killing to keep going while you sleep?</strong> Lay down the <em>Finish the Stragglers</em> silica dust in the voids. Do all four and you have a real plan, not a hopeful one.`
+  - L193 after: `<strong>Just found bed bugs and don&rsquo;t know where to start?</strong> Buy the <em>Protect the Bed</em> encasements and <em>Monitor &amp; Isolate</em> interceptors first &mdash; together they stop the bites within a day and tell you if you&rsquo;re winning. <strong>Ready to actually kill them?</strong> Add the <em>Kill the Eggs</em> heat tools; a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> for seams plus a <Link href="/blog/zappbug-heater-review-canada">box heater</Link> for belongings covers most homes. <strong>Want the killing to keep going while you sleep?</strong> Lay down the <em>Finish the Stragglers</em> diatomaceous earth dust in the voids. Do all four and you have a real plan, not a hopeful one.`
+
+- **L250, L251, L252** (same evidence; L250 B-text). Plan-table row "Silica desiccant (CimeXa)" + BuyLink.
+  - L250 before: `<td className="px-4 py-3 text-gray-700">Thin silica film in walls, outlets, baseboards</td>`
+  - L250 after: `<td className="px-4 py-3 text-gray-700">Thin dust film in walls, outlets, baseboards</td>`
+  - L251 before: `<td className="px-4 py-3 text-gray-700">Silica desiccant (CimeXa)</td>`
+  - L251 after: `<td className="px-4 py-3 text-gray-700">Diatomaceous earth dust with a PCP number</td>`
+  - L252 before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust" block>Check price on Amazon.ca →</BuyLink></td>`
+  - L252 after: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>`
+
+- **L306** (same evidence). "Silica dust" button.
+  - L306 before: `<BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust">Silica dust →</BuyLink>`
+  - L306 after: `<BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">DE dust (PCP 32561) →</BuyLink>`
+
+### how-to-get-rid-of-bed-bugs-yourself-diy-canada (8 lines, swap)
+
+- **L164-167** (T3C, T3L, R-api, R-32561, B-swap, S-terms). Card 2 "Silica / Diatomaceous-Earth Desiccant Dust", why "silica-gel or food-grade DE" (EPA: pool or food grade DE should not be used, https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control; no domestic silica dust), search 'silica bed bug desiccant dust'. Swapped to a registered DE dust as on the sibling plan page; score 8.3 is the powder guide's.
+  - L164 before: `name: 'Silica / Diatomaceous-Earth Desiccant Dust',`
+  - L164 after: `name: 'Diatomaceous-Earth Dust with a PCP Number (e.g. Doktor Doom Be Green, PCP 32561)',`
+  - L165 before: `why: 'The lasting kill layer. A fine film of silica-gel or food-grade DE in cracks, voids, and under baseboards abrades the insect shell so anything crossing it dehydrates over days. This is what keeps working long after you put the steamer away.',`
+  - L165 after: `why: 'The lasting kill layer. A fine film of a diatomaceous earth dust whose label shows a PCP number and lists bed bugs, such as Doktor Doom Be Green (PCP 32561), in cracks, voids, and under baseboards abrades the insect shell so anything crossing it dehydrates over days. No silica-gel dust is registered for home use in Canada. This is what keeps working long after you put the steamer away.',`
+  - L166 before: `search: 'silica bed bug desiccant dust',`
+  - L166 after: `search: 'doktor doom diatomaceous earth',`
+  - L167 before: `score: 8.7,`
+  - L167 after: `score: 8.3,`
+
+- **L201** (T3C). whichToBuy link text "CimeXa silica dust"; the link target is unchanged.
+  - L201 before: `<strong>Buy all five &mdash; that is the point.</strong> This is not a &ldquo;pick one&rdquo; list; each tool covers a gap the others leave. If budget forces a phased purchase, start with the <em>Steamer</em> and <em>Interceptor Traps</em> (kill + measure), add <em>Encasements</em> next to lock down the bed, then layer in the <em>Desiccant Dust</em> for residual and the <em>Sealed-HEPA Vacuum</em> for fast removal. For the deep dives, see our dedicated guides on <Link href="/blog/best-bed-bug-steamer-canada">steamers</Link>, <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa silica dust</Link>, <Link href="/blog/bed-bug-mattress-encasement-canada">encasements</Link>, and <Link href="/blog/bed-bug-interceptor-traps-canada">interceptors</Link>.`
+  - L201 after: `<strong>Buy all five &mdash; that is the point.</strong> This is not a &ldquo;pick one&rdquo; list; each tool covers a gap the others leave. If budget forces a phased purchase, start with the <em>Steamer</em> and <em>Interceptor Traps</em> (kill + measure), add <em>Encasements</em> next to lock down the bed, then layer in the <em>Desiccant Dust</em> for residual and the <em>Sealed-HEPA Vacuum</em> for fast removal. For the deep dives, see our dedicated guides on <Link href="/blog/best-bed-bug-steamer-canada">steamers</Link>, <Link href="/blog/cimexa-bed-bug-review-canada">desiccant dusts</Link>, <Link href="/blog/bed-bug-mattress-encasement-canada">encasements</Link>, and <Link href="/blog/bed-bug-interceptor-traps-canada">interceptors</Link>.`
+
+- **L235, L239** (same evidence; L235 B-text). Table row label "silica or DE" + BuyLink.
+  - L235 before: `<td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">silica or DE</span></td>`
+  - L235 after: `<td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">DE with a PCP number</span></td>`
+  - L239 before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust" block>Check price on Amazon.ca →</BuyLink></td>`
+  - L239 after: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>`
+
+- **L302** (same evidence). Button.
+  - L302 before: `<BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust">Desiccant dust →</BuyLink>`
+  - L302 after: `<BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Desiccant dust (PCP 32561) →</BuyLink>`
+
+### katchy-indoor-insect-trap-review-canada (5 lines, swap + reword)
+
+- **L153** (T3C, T3L, B-safe). TopPick pro "No insecticide: safe around kids, pets, and food prep".
+  - L153 before: `pros={['Excellent catch rates on fungus gnats and fruit flies', 'Completely silent — no zapper crack at 2 a.m.', 'No insecticide: safe around kids, pets, and food prep', 'Glue boards are cheap and generic boards fit']}`
+  - L153 after: `pros={['Excellent catch rates on fungus gnats and fruit flies', 'Completely silent — no zapper crack at 2 a.m.', 'No insecticide: a UV light, a fan and a glue board', 'Glue boards are cheap and generic boards fit']}`
+
+- **L218, L219, L223** (T3C, T3L, R-api, R-34819, M-rff, B-swap, S-terms; L218-219 B-text). TERRO Fruit Fly Trap row + BuyLink: no TERRO fruit fly product is registered. Swapped to the registered vinegar-lure trap this page names (QuickIdTable: RESCUE! Fruit Fly Trap, PCP 34819); the row's TERRO-only cells (name, apple-shaped bowl) follow it. "Fruit flies specifically", "Gnats, drain flies, everything else" and "Lure refills roughly monthly" are still true for RESCUE! (M-rff) and were kept.
+  - L218 before: `<td className="px-4 py-3 font-bold text-brand-800">TERRO Fruit Fly Trap</td>`
+  - L218 after: `<td className="px-4 py-3 font-bold text-brand-800">RESCUE! Fruit Fly Trap (PCP 34819)</td>`
+  - L219 before: `<td className="px-4 py-3 text-gray-700">Food-grade vinegar lure in an apple-shaped bowl</td>`
+  - L219 after: `<td className="px-4 py-3 text-gray-700">Food-based liquid lure; flies enter funnel-shaped holes and drown (RESCUE!)</td>`
+  - L223 before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>`
+  - L223 after: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>`
+
+- **L287** (T3C, T3L, R-api, R-bti). The paragraph holding the 'mosquito bits bti granules' BuyLink told readers to treat houseplant soil: Mosquito Bits has no registration and no home-use Bti lists fungus gnats, so there is no registered alternative for this use (Dunks are mosquito-only). Reworded honestly per the brief; search unchanged.
+  - L287 before: `<p>The format that suits houseplant soil is the granular one &mdash; sprinkled over the surface and watered in, or steeped in the watering can so the BTI goes down with every watering. Check the label for the use sites and rate it is registered for, and keep treating across a few consecutive waterings so each new hatch of larvae meets it. <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Check BTI granules on Amazon.ca &rarr;</BuyLink></p>`
+  - L287 after: `<p>Granular BTI such as Mosquito Bits is often suggested for houseplant soil, but in Canada it is not a registered fix for fungus gnats: Mosquito Bits does not appear in Health Canada&rsquo;s registry, and none of the home-use BTI products on it lists fungus gnats (searched October 28, 2026). Check the PCP number and the pests on the label of any product you buy, and use it only as that label directs; for houseplants, UC IPM&rsquo;s advice is to let the soil surface dry between waterings. <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">BTI granules (not registered in Canada; check the PCP number) &rarr;</BuyLink></p>`
+
+### rescue-why-trap-review-canada (14 lines, swap)
+
+- **L119, L120** (T3C, T3L, R-api, R-35529, M-ryj, B-swap, S-terms). StickyBuyBar/TopBox "Our verdict: buy it" for the W·H·Y Trap, which has no registration record (lures are pest control products, PCPA s. 2). Swapped to the registered RESCUE! trap this page recommends (situation list: "a heptyl butyrate yellowjacket trap with a PCP number"; QuickIdTable; compliance section), reusing this page's own term (L280).
+  - L119 before: `<StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />`
+  - L119 after: `<StickyBuyBar tag={AMZ_TAG} name="RESCUE! Disposable Yellowjacket Trap W (PCP 35529)" search="rescue disposable yellowjacket trap" label="Registered pick: yellowjackets only" />`
+  - L120 before: `<TopBox tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" search="rescue why trap wasp hornet yellowjacket" label="Our verdict: buy it" />`
+  - L120 after: `<TopBox tag={AMZ_TAG} name="RESCUE! Disposable Yellowjacket Trap W (PCP 35529)" search="rescue disposable yellowjacket trap" label="Registered pick: yellowjackets only" />`
+
+- **L144, L145, L146, L147, L149, L151, L152, L153, L154, L155, L158, L161** (same evidence). TopPick (8.6) for the unregistered W·H·Y; blurb "stocked with Canadian-labelled refills at every big-box store" and pro "Canadian-labelled trap and refills at Canadian Tire, Home Depot, Amazon.ca" (unverified, T3C). Swapped to the Disposable Yellowjacket Trap W; text from the registry and RESCUE!'s page; score 7.4 is best-wasp-trap's score for this trap; cons 2-3 kept (still true).
+  - L144 before: `label="Our Verdict"`
+  - L144 after: `label="Registered Alternative (Yellowjackets)"`
+  - L145 before: `name="RESCUE! WHY Trap (Wasp, Hornet & Yellowjacket)"`
+  - L145 after: `name="RESCUE! Disposable Yellowjacket Trap W (PCP 35529)"`
+  - L146 before: `blurb="The broadest-spectrum reusable wasp trap you can buy in Canada. The two-chamber design is genuinely clever engineering, not marketing — separate scent systems for the high-flying paper wasps and hornets versus the low-approaching yellowjackets. Reusable for years, insecticide-free, and stocked with Canadian-labelled refills at every big-box store. Score docked for the recurring attractant cost and for what every lure trap shares: it thins foragers, it cannot kill a colony."`
+  - L146 after: `blurb="Health Canada’s registry shows no W·H·Y product, so this is the RESCUE! trap we can point Canadian readers to: Sterling International’s Disposable Yellowjacket Trap W, which the registry lists as PCP 35529 (domestic, first registered December 11, 2025) for yellowjackets in outdoor living areas. It comes pre-baited: add water to activate the lure, hang it at least 20 feet (6 m) from patios, decks and play spaces, and throw it out when it is full or dry, usually after 2 to 4 weeks, RESCUE! says. It is for yellowjackets, not paper wasps or hornets, and like every lure trap it thins foragers without killing the colony. Check the package for PCP 35529."`
+  - L147 before: `search="rescue why trap wasp hornet yellowjacket"`
+  - L147 after: `search="rescue disposable yellowjacket trap"`
+  - L149 before: `score={8.6}`
+  - L149 after: `score={7.4}`
+  - L151 before: `'Catches all 3 groups — paper wasps, hornets, yellowjackets (19 species)',`
+  - L151 after: `'Canadian registration: PCP 35529, domestic, for yellowjackets',`
+  - L152 before: `'Two-chamber design targets each group with its own attractant',`
+  - L152 after: `'Pre-baited: add water to activate the lure (RESCUE!)',`
+  - L153 before: `'No insecticide, no zapper — and formulated to avoid honey bees',`
+  - L153 after: `'No chamber to empty: dispose of it when full or dry',`
+  - L154 before: `'Reusable season after season; catches spring queens before nests form',`
+  - L154 after: `'Lasts about 2 to 4 weeks, RESCUE! says',`
+  - L155 before: `'Canadian-labelled trap and refills at Canadian Tire, Home Depot, Amazon.ca',`
+  - L155 after: `'Targets the major North American yellowjacket species (RESCUE!)',`
+  - L158 before: `'Attractant refills are a recurring cost on a ~2-week cadence',`
+  - L158 after: `'Single-use: a new trap every 2 to 4 weeks adds up over a season',`
+  - L161 before: `'Emptying a chamber of dead wasps is not for the squeamish',`
+  - L161 after: `'Yellowjackets only: RESCUE! says it does not target wasps or hornets',`
+
+### cluster-flies-in-house-canada (6 lines, fit)
+
+- **L113, L114, L141, L143** (T3C fit, U-isu). StickyBuyBar/TopBox/AwardRow sold clear window fly traps as the "Best indoor fix" beside Iowa State's "flypaper, fly strips and bug zappers are of no value". Pick kept (FIX-BRIEF item 3); labels and why now call it an add-on to the vacuum, which Health Canada's archived PMRA pest note advises (cited on the page).
+  - L113 before: `<StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Best indoor fix" />`
+  - L113 after: `<StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Window add-on to the vacuum" />`
+  - L114 before: `<TopBox tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Best indoor fix" />`
+  - L114 after: `<TopBox tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Window add-on to the vacuum" />`
+  - L141 before: `badge: 'Best Indoor Fix',`
+  - L141 after: `badge: 'Window Add-On',`
+  - L143 before: `why: 'Transparent sticky panels that mount in the lower corner of the glass — exactly where cluster flies spend their indoor lives. They catch around the clock through the fall emergence and the warm-day winter wake-ups, without pesticide, odour, or anything visible from the curb. The single best-matched product to how this insect actually behaves.',`
+  - L143 after: `why: 'Transparent sticky panels that mount in the lower corner of the glass — exactly where cluster flies spend their indoor lives. They catch around the clock through the fall emergence and the warm-day winter wake-ups, without pesticide, odour, or anything visible from the curb. They catch only the flies that reach that window, though, and Iowa State calls flypaper, fly strips and bug zappers of no value against cluster flies, so treat them as an add-on to the vacuum, not the fix.',`
+
+- **L153** (T3C, R-light). The Plug-In UV Light Trap card did not mention a PCP number although indoor light traps are registered devices.
+  - L153 before: `why: 'For rooms or attics where flies keep appearing over weeks, a plug-in UV trap with a hidden glue board runs unattended and quietly empties the airspace. On winter-sunny days when a warm attic wakes hundreds, it is the difference between managing the problem and chasing it fly by fly.',`
+  - L153 after: `why: 'For rooms or attics where flies keep appearing over weeks, a plug-in UV trap with a hidden glue board runs unattended and quietly empties the airspace. On winter-sunny days when a warm attic wakes hundreds, it is the difference between managing the problem and chasing it fly by fly. Health Canada registers indoor light traps as devices, so check the box for a PCP number.',`
+
+- **L180** (same evidence). whichToBuy: badge names and both points above; "for under fifty dollars" dropped from the edited line (brief: no prices).
+  - L180 before: `<strong>Flies at the windows right now?</strong> The <em>Best Indoor Fix</em> window traps plus the <em>Best Cleanup Tool</em> handheld vacuum handle the visible problem for under fifty dollars. <strong>Steady emergence in one room or the attic?</strong> Add the <em>Best for Heavy Emergence</em> light trap and let it run. <strong>Want this to stop happening?</strong> The <em>Best Prevention Buy</em> caulk is the only item on this row that changes next year &mdash; walk the sunny walls with it in July or early August, before the flies stage. Order matters more than product here: trap and vacuum now, seal in summer, and never the reverse.`
+  - L180 after: `<strong>Flies at the windows right now?</strong> The <em>Best Cleanup Tool</em> handheld vacuum handles the visible problem, as Health Canada&rsquo;s archived pest note advises, and the <em>Window Add-On</em> traps catch stragglers at the glass; Iowa State calls flypaper and fly strips of no value against cluster flies, so do not count on them alone. <strong>Steady emergence in one room or the attic?</strong> Add the <em>Best for Heavy Emergence</em> light trap and let it run; check its box for a PCP number. <strong>Want this to stop happening?</strong> The <em>Best Prevention Buy</em> caulk is the only item on this row that changes next year &mdash; walk the sunny walls with it in July or early August, before the flies stage. Order matters more than product here: trap and vacuum now, seal in summer, and never the reverse.`
+
+### best-live-animal-trap-canada (7 lines)
+
+- **L158, L160, L164** (T3C, T3L, M-hh). AwardRow "Best for Groundhogs" on the Medium 1078 with pro "Right size for groundhogs and skunks": Havahart lists 1078 for rabbits, skunks and squirrels and its 32-42 in traps for groundhogs. Wording fix (the product exists, so no swap; search unchanged).
+  - L158 before: `badge: 'Best for Groundhogs',`
+  - L158 after: `badge: 'Best Mid-Size (Rabbits, Squirrels)',`
+  - L160 before: `why: 'The single most defensible DIY case: a groundhog under a shed you can legally release within 1 km on your own property. Sturdy single-door build resists a strong digger, and a solid rear panel keeps bait secure.',`
+  - L160 after: `why: 'Havahart lists its 24-inch medium single-door (1078) for rabbits, skunks and squirrels; for a groundhog it lists its 32-inch-and-up traps, so use the large trap there. Set it only for an animal you can legally release within 1 km, outside denning season. Sturdy single-door build, and a solid rear panel keeps bait secure.',`
+  - L164 before: `pros: ['Right size for groundhogs and skunks', 'Rigid steel resists strong animals', 'Simple, injury-free release'],`
+  - L164 after: `pros: ['Havahart lists it for rabbits, skunks and squirrels', 'Rigid steel resists strong animals', 'Simple, injury-free release'],`
+
+- **L188, L197** (same evidence). whichToBuy sent groundhogs to the medium; it now sends them to the existing "For Larger Animals" card, whose why now gives Havahart's groundhog listing for the Large 1079 (the hero, FAQ 6 and size table already say so). "safety" in the edited L188 replaced (B-safe).
+  - L188 before: `why: 'Built for raccoon-sized animals and feral cats. Listed here for completeness — but for raccoons and skunks specifically we recommend a licensed wildlife-control operator over any DIY trap, for legal, safety, and welfare reasons.',`
+  - L188 after: `why: 'Built for raccoon-sized animals and feral cats, and Havahart lists its 32-inch large single-door (1079) for groundhogs too, so this is the size for a groundhog under the shed. For raccoons and skunks specifically we recommend a licensed wildlife-control operator over any DIY trap, for legal, rabies-risk, and welfare reasons.',`
+  - L197 before: `<strong>Groundhog under your shed?</strong> The <em>Best for Groundhogs</em> medium single-door is the one common case where DIY trapping is defensible — check bylaws and avoid denning season. <strong>Squirrel or chipmunk?</strong> The <em>Best for Small Rodents</em> trap fits, but a homing squirrel released within 1 km often returns, so pair it with sealing the entry point. <strong>Skittish animal or feral cat?</strong> The <em>Highest Catch Rate</em> two-door earns its keep. <strong>Raccoon or skunk?</strong> Don’t — call a licensed operator. Start every case with the <Link href="/blog/raccoon-deterrent">deterrence-first plan</Link>.`
+  - L197 after: `<strong>Groundhog under your shed?</strong> It is the one common case where DIY trapping is defensible, and Havahart lists its 32-inch-and-up traps for groundhogs, so use the <em>For Larger Animals</em> large single-door — check bylaws and avoid denning season. <strong>Rabbit?</strong> The <em>Best Mid-Size</em> medium single-door is the size Havahart lists for rabbits, skunks and squirrels. <strong>Squirrel or chipmunk?</strong> The <em>Best for Small Rodents</em> trap fits, but a homing squirrel released within 1 km often returns, so pair it with sealing the entry point. <strong>Skittish animal or feral cat?</strong> The <em>Highest Catch Rate</em> two-door earns its keep. <strong>Raccoon or skunk?</strong> Don’t — call a licensed operator. Start every case with the <Link href="/blog/raccoon-deterrent">deterrence-first plan</Link>.`
+
+- **L238, L278** (same evidence). BuyLink "Medium 1-door (groundhogs)" and size-table row "Medium ... Groundhogs, large squirrels, skunks".
+  - L238 before: `<BuyLink tag={AMZ_TAG} search="havahart live animal trap medium">Medium 1-door (groundhogs) →</BuyLink>`
+  - L238 after: `<BuyLink tag={AMZ_TAG} search="havahart live animal trap medium">Medium 1-door (rabbits, squirrels) →</BuyLink>`
+  - L278 before: `{ size: 'Medium', pick: 'Havahart medium 1-door', target: 'Groundhogs, large squirrels, skunks', doors: '1', search: 'havahart live animal trap medium' },`
+  - L278 after: `{ size: 'Medium', pick: 'Havahart medium 1-door', target: 'Rabbits, skunks, squirrels (Havahart)', doors: '1', search: 'havahart live animal trap medium' },`
+
+### Left unchanged, with the reason
+
+- **do-bed-bug-sprays-actually-work, raccoon-and-skunk-proofing-under-a-deck-canada, best-large-capacity-dehumidifier-canada:** no box problem in T3C or T3L (steamer picks; "Box: none wrong"; "no box issue").
+- **ThermalStrike search term** 'thermalstrike ranger heated suitcase bed bug' (6 elements: L123, L124, L151, L184, L280, L307): the brief allows `search` changes only for an approved swap, and the product is right. The maker's own Amazon.ca listing is ASIN B07NBVSRG8 if the owner wants the boxes pinned to it.
+- **Heat chamber search** 'zappbug original bed bug heater' (L155, L222, L282) kept for the same reason (card 1 also carries ASIN B00F6EV306). Page text still says "ZappBug Original" (L130, L135, the L201 H2, table cell L218, L264; the hero bridges it). Card 3 and its table row and button (L172-177, L232-236, L284) still call the Thermal Strike Ranger a "heated bag" used "on the road", which the Ranger manual contradicts; not flagged for this page by T3C or T3L, so left for the owner.
+- **CimeXa buttons not in the flag lists:** Harris L191, L277, L329 and KONK L206, L290 (search 'cimexa insecticide dust'; CimeXa 0 rows in R-api). Same problem as the Oct 25 D-four fixes; for the owner or the next pass. The Harris BuyLinks L184 and L276 still open Harris; the text beside both says no Harris product has a PCP number (not flagged).
+- **Katchy:** the Katchy pick itself has no registry record while indoor light traps are registered devices (the page text says so; not in the box list). The 8.3/10 editorial score on an untested product (T3C) is the owner's call. Page text still names TERRO: the L193 H2 and the L236 decision paragraph ("Start with the budget-priced TERRO lure").
+- **RESCUE! W·H·Y:** the body BuyLinks L206, L207 (refills), L266 and L341 still open the W·H·Y Trap; they were not in the box list, and the page text (Quick Answer, comparison table, compliance section, FAQs) says no W·H·Y product is in the registry. The hero, Quick Answer and verdict still recommend the W·H·Y with a PCP check. Owner's call.
+- **Live trap:** the StickyBuyBar/TopBox (Medium 1078, "For legal on-site release") carry no false wording; whether the top pick should be the Large 1079 for the groundhog case is the owner's call. The two-door "squirrels" flag (card 3, table L280) was not confirmed by T3C (Havahart still lists a Small 2-Door 1025 for squirrels), so it is unchanged.
+- **Cluster flies:** card 1 pro "No pesticide — fine in bedrooms and kitchens" (an implied safety line, not flagged).
+- **Couch:** card 4 keeps the generic search 'diatomaceous earth bed bugs' (only "Silica" was flagged).
+
+Lines changed in this section: 88 (83 affiliate lines, 5 B-text table cells); none inserted, none deleted.
+
+## Tier 2 box fixes, Oct 29: TTC, deer fence, silverfish, DE, Dupray, PackTite, picaridin, Victor, Wondercide, ant killer, ant traps, fly light, cordless fogger, basement dehumidifier
+
+Agent run of Oct 29, 2026, under FIX-BRIEF.md (owner, Oct 29: "Yes, fix the false product box claims"). The problems come from the "Box claims for the owner" rows for these 14 pages in TIER2-CHECK.md and the box flags in TIER2-LOG.md (TIER3-CHECK.md and TIER3-LOG.md have no rows for them). Each was re-checked against its primary source on Oct 29 before editing. All files are `app/blog/<slug>/page.tsx`.
+
+**69 lines on 12 pages**, replaced one for one (no line added or removed, so each line number holds before and after).
+
+**Checks after editing**, against copies taken before editing (identical to HEAD):
+- Each page keeps its line count and its count of `<BuyLink`, `<AwardRow`, `<AwardCard`, `<StickyBuyBar`, `<AmazonLink`, `<TopPick` and `<TopBox`.
+- Every `tag` is unchanged, and no `asin` changed.
+- The only `search` changes are the three approved swaps on best-cordless-fogger-canada, to a term already on that page.
+- Each TopBox still matches its StickyBuyBar.
+- `npx tsc --noEmit`: no errors.
+- No git, no build.
+
+### bed-bugs-on-the-ttc-toronto (5 lines)
+- Reworded to the label (wording fix, no swap: Doktor Doom Travel Pro is registered; only its use site was wrong). TIER2-CHECK, Checker C row "AwardRow card 4, 279-285; whichToBuy 289".
+- Evidence for every line unless noted: Health Canada registry, live API read Oct 29: 32254 DOKTOR DOOM TRAVEL PRO BED BUG KILLER, DOMESTIC, current, sites BED, INDOOR, MATTRESSES, pests BED BUGS (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32254). Label 32254 as read Oct 25 (FIX-LOG evidence T-32254): "DO NOT treat bed linens. DO NOT treat clothing."; "Treat mattresses, box springs, bed frames, and headboards"; luggage not mentioned. The bag advice repeats the page's own L427 ("Wipe the bag down ... If it is fabric, and it can take a dryer cycle, give it one").
+
+- **L280** (AwardRow card 4 name)
+  - Before: `name: 'PMRA-Registered Travel-Size Bed Bug Spray (for bags, not people)',`
+  - After: `name: 'PMRA-Registered Travel-Size Bed Bug Spray (for beds and mattresses, not bags)',`
+- **L281** (AwardRow card 4 why)
+  - Before: `...ters, home care, moving or cleaning and your bag is repeatedly in real harbourage, a small Canadian-registered aerosol used on the outside seams and zipper channels of a bag has a defensible role. Confirm a PCP registration number on...`
+  - After: `...ters, home care, moving or cleaning and are repeatedly in real harbourage, a small Canadian-registered aerosol has a defensible role, but on a bed or mattress, not a bag: Doktor Doom Travel Pro (PCP 32254) lists beds and mattresses as its use sites, and bags and luggage are not on its label. A work bag gets wiped down and, if it can take it, a hot dryer cycle. Confirm a PCP registration number on...` (changed part only; the rest of the line is unchanged)
+- **L283** (AwardRow card 4 pros)
+  - Before: `pros: ['A registered Canadian option rather than a grey-market US import', 'Small enough to keep in a work bag', 'Treats the item, which is what actually travels'],`
+  - After: `pros: ['A registered Canadian option rather than a grey-market US import', 'Small enough to keep in a work bag', 'Listed use sites: beds and mattresses (PCP 32254)'],`
+- **L284** (AwardRow card 4 cons)
+  - Before: `cons: ['Wrong purchase for an ordinary commuter — a dryer cycle beats it', 'Never for skin, worn clothing or bedding — check the use sites on the label'],`
+  - After: `cons: ['Wrong purchase for an ordinary commuter — a dryer cycle beats it', 'Not for bags or luggage, and never for skin, worn clothing or bedding — check the use sites on the label'],`
+- **L289** (AwardRow whichToBuy)
+  - Before: `...ional Exposure</em> spray earn its place &mdash; our <Link href="/blog/best-bed-bug-spray-for-travel-canada">Canadian travel spray guide</Link> covers what is registered here and how to use it on a bag.`
+  - After: `...ional Exposure</em> spray earn its place, and only on a bed or mattress, the use sites on its label &mdash; our <Link href="/blog/best-bed-bug-spray-for-travel-canada">Canadian travel spray guide</Link> covers what is registered here and why heat, not a spray, is the answer for a bag.` (changed part only; the rest of the line is unchanged)
+
+### diatomaceous-earth-canada-buyers-guide (5 lines)
+- Wording fixes. Safer's kept (registered, PCP 32278), with a PCP check because the search may open a US or a cancelled bag. TIER2-CHECK, Checker C rows for this page.
+- Evidence for every line unless noted: Registry, live API read Oct 29: 32278 SAFER'S ANT & CRAWLING INSECT KILLER, DOMESTIC, current (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32278); 32665 KNOCK DOWN DUST DIATOMACEOUS EARTH, DOMESTIC, current (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32665); 30832 SAFER'S BEDBUG AND FLEA KILLER, Cancelled, 2024-11-12 (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=30832). TIER2-CHECK: Home Hardware listing for Safer's 200 g; "most widely stocked" unsourced; US Safer Home bags carry EPA numbers.
+
+- **L116** (StickyBuyBar name)
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers insect killing diatomaceous earth" label="Our top pick" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Safer's Ant & Crawling Insect Killer DE (check for PCP 32278)" search="safers insect killing diatomaceous earth" label="Our top pick" />`
+- **L117** (TopBox name (mirrors the StickyBuyBar))
+  - Before: `<TopBox tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers insect killing diatomaceous earth" label="Our top pick" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Safer's Ant & Crawling Insect Killer DE (check for PCP 32278)" search="safers insect killing diatomaceous earth" label="Our top pick" />`
+- **L149** (AwardRow Best Overall why)
+  - Before: `why: 'The most widely stocked PMRA-registered domestic-class DE in Canada. Its label legally covers indoor crawling-insect use, so you get tested directions instead of internet folklore.',`
+  - After: `why: 'A PMRA-registered domestic-class DE, Safer’s Ant & Crawling Insect Killer (PCP 32278), stocked by Canadian chains such as Home Hardware. Its label legally covers indoor crawling-insect use, so you get label directions instead of internet folklore. Check the bag for PCP 32278: a US-market Safer Home bag carries an EPA number instead, and Safer’s Bedbug and Flea Killer (PCP 30832) was cancelled in 2024.',`
+- **L159** (AwardRow Best Value why)
+  - Before: `why: 'The same amorphous-silica, same registration, often at a budget-friendly price. A correct buy whenever Safer’s is out of stock.',`
+  - After: `why: 'The same amorphous silica under its own registration (Knock Down Dust Diatomaceous Earth, PCP 32665), often at a budget-friendly price. A correct buy whenever Safer’s is out of stock.',`
+  - Evidence: Knock Down has its own registration, 32665, not Safer's 32278 (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=32665).
+- **L186** (AwardRow whichToBuy)
+  - Before: `<strong>Want the safe default?</strong> The <em>Best Overall</em> Safer&rsquo;s is the easiest registered DE to find. <strong>Watching the budget?</strong>...`
+  - After: `<strong>Want the easy default?</strong> The <em>Best Overall</em> Safer&rsquo;s is a registered DE stocked by Canadian chains; check the bag for PCP 32278. <strong>Watching the budget?</strong>...` (changed part only; the rest of the line is unchanged)
+  - Evidence: "safe" is banned (TIER2-CHECK: DIR2016-01); "the easiest registered DE to find" is the same unsourced claim as "most widely stocked"; PCP check as above.
+
+### dupray-steamer-review-canada (4 lines)
+- Wording fixes. The Neat is kept (a steamer needs no registration, and the owner's Sep 2 decision kept the search links, per data/god-build/research/top3/dupray-steamer-review-canada.md); the boxes now carry the recall check. TIER2-CHECK, Checker C rows for this page. Score 9.1 left.
+- Evidence for every line unless noted: Health Canada recall notice, read Oct 29 (https://recalls-rappels.canada.ca/en/alert-recall/dupray-neat-steam-cleaner-recalled-due-burn-hazard): importer Dupray Industries Inc., Montreal; manufacturer NVision Electrical Appliance Co. Ltd.; "Manufactured in China"; model DUP020WNA, "batch/date numbers 0118-01 through 0425-05"; recall date 2026-02-26. Dupray recall page (https://www.dupray.com/recall): the numbers "are printed on the rating label located at the bottom of your Neat Steam Cleaner".
+
+- **L117** (StickyBuyBar name)
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Reviewed here" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Dupray Neat steam cleaner: check the batch code (2026 recall)" search="dupray neat steam cleaner" label="Reviewed here" />`
+- **L118** (TopBox name (mirrors the StickyBuyBar))
+  - Before: `<TopBox tag={AMZ_TAG} name="Dupray Neat steam cleaner" search="dupray neat steam cleaner" label="Reviewed here" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Dupray Neat steam cleaner: check the batch code (2026 recall)" search="dupray neat steam cleaner" label="Reviewed here" />`
+- **L144** (TopPick blurb)
+  - Before: `blurb="A Canadian-made, boiler-driven dry-vapour steamer that hits the two specs pest work actua...`
+  - After: `blurb="A boiler-driven dry-vapour steamer from Montreal-based Dupray (made in China, says Health Canada’s recall notice) that hits the two specs pest work actua...` (changed part only; the rest of the line is unchanged)
+- **L149** (TopPick cons (item added at the front))
+  - Before: `cons={['Premium price vs impulse-buy handhelds', 'Corded and needs a few minutes to build pressure', 'Only treats surfaces the nozzle can reach']}`
+  - After: `cons={['Batch codes 0118-01 to 0425-05 recalled Feb 26, 2026: check the label under the base', 'Premium price vs impulse-buy handhelds', 'Corded and needs a few minutes to build pressure', 'Only treats surfaces the nozzle can reach']}`
+
+### packtite-portable-review-canada (6 lines)
+- Wording fixes to the current model and its listing; search unchanged. TIER2-CHECK, Checker C row "StickyBuyBar 117, TopBox 118, TopPick 141-151".
+- Evidence for every line unless noted: Solutions Stores PackTite 2 listing, read Oct 29 (https://www.solutionsstores.com/packtite-2-bed-bug-killing-heat-system): "Packtite 2 Bed Bug Killing Heat System"; "Kills all bedbug life in the heat range of 120-150 degrees F"; "reaches 120 degrees F and holds that temperature for 1 hour"; "can be used to treat luggage, backpacks and other carrying cases"; "Dimensions: 36" L x 19" W x 24" H". Thermometer in the centre of the load: same listing, per TIER2-CHECK.
+
+- **L117** (StickyBuyBar name)
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="PackTite 2 portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />`
+- **L118** (TopBox name (mirrors the StickyBuyBar))
+  - Before: `<TopBox tag={AMZ_TAG} name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />`
+  - After: `<TopBox tag={AMZ_TAG} name="PackTite 2 portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />`
+- **L143** (TopPick name)
+  - Before: `name="PackTite Portable (folding bed-bug heat chamber)"`
+  - After: `name="PackTite 2 (folding bed-bug heat chamber)"`
+- **L144** (TopPick blurb)
+  - Before: `...rb="A proven, folding heat chamber that reaches a sustained 120–140°F to kill bed bugs and eggs on non-launderable items — shoes, books, bags, and travel gear. It packs flat, runs a chemical-free cycle, and does its narrow job well. Marked down only for its small capacity (no mattresses or full suitcases) and intermittent Canadian stock. If...`
+  - After: `...rb="A proven, folding heat chamber that kills bed bugs and eggs on non-launderable items — shoes, books, bags, luggage and travel gear; its listing gives a 120–150°F kill range and says to hold the centre of the load at 120°F for an hour. It packs flat, runs a chemical-free cycle, and does its narrow job well. Marked down only for its size (36 x 19 x 24 in, so no mattresses) and intermittent Canadian stock. If...` (changed part only; the rest of the line is unchanged)
+- **L147** (TopPick pros (first item))
+  - Before: `pros={['Sustained 120–140°F kills every life stage, eggs included', 'Folds flat — ideal for travel and sm...`
+  - After: `pros={['Kills every life stage, eggs included: 120–150°F, centre of the load held at 120°F for 1 hour (PackTite 2 listing)', 'Folds flat — ideal for travel and sm...` (changed part only; the rest of the line is unchanged)
+- **L148** (TopPick cons (first item))
+  - Before: `cons={['Small chamber — no mattresses, duvets, or full suitcases', 'Canadian stock is intermittent and import pricing swings', 'Dense loads need long cycles; must verify core temperature', 'Not for electronics, batteries, aerosols, or heat-sensitive items']}`
+  - After: `cons={['Small chamber (36 x 19 x 24 in) — no mattresses or duvets', 'Canadian stock is intermittent and import pricing swings', 'Dense loads need long cycles; must verify core temperature', 'Not for electronics, batteries, aerosols, or heat-sensitive items']}`
+
+### picaridin-vs-deet (8 lines)
+- Wording fixes; searches unchanged. The OFF! card is relabelled, not swapped: no OFF! icaridin search term exists on this page, and Natrapel and Sawyer already have their own cards. TIER2-CHECK, Checker C rows for this page.
+- Evidence for every line unless noted: Registry, live API read Oct 29: 30155 OFF! DEEP WOODS INSECT REPELLENT 9 and 33575 OFF! DEEP WOODS INSECT REPELLENT 10 (icaridin 20%, DOMESTIC, current; https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=30155, https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=33575); 33032 SAWYER ICARIDIN INSECT REPELLENT PUMP SPRAY and 33177 SAWYER ICARIDIN INSECT REPELLENT PRESSURIZED SPRAY-BOV (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=33032, https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=33177), the only current Sawyer registrations in the Oct 23 extract; 34244 NATRAPEL ICARIDIN and 34555 NATRAPEL ICARIDIN SPRAY (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=34244, https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=34555). No product name in the extract combines OFF! and DEFENSE. Canadian Paediatric Society (https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/insect_repellents, cited on the page): icaridin up to 20% about 5-7 h, DEET up to 30% 5-8 h, both protect against ticks.
+
+- **L117** (StickyBuyBar name)
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Deep Woods / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />`
+- **L118** (TopBox name (mirrors the StickyBuyBar))
+  - Before: `<TopBox tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Deep Woods / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />`
+- **L137** (TopPick name)
+  - Before: `name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"`
+  - After: `name="Picaridin 20% (Natrapel, OFF! Deep Woods 9 or 10, or Sawyer)"`
+- **L138** (TopPick blurb)
+  - Before: `...blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and won’t damage...`
+  - After: `...blurb="The winner for most Canadians — it repels ticks and protects against mosquitoes for about 5–7 hours at up to 20% (the Canadian Paediatric Society gives DEET at up to 30% about 5–8 hours), and it is non-greasy, odourless, and won’t damage...` (changed part only; the rest of the line is unchanged)
+- **L272** (Natrapel card text (card BuyLink L273))
+  - Before: `<p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Outdoor-store favourite &mdash; pump or continuous spray, travel-friendly, stocked at MEC and Atmosphere.</p>`
+  - After: `<p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Outdoor-store favourite &mdash; pump or continuous spray, travel-friendly, stocked at MEC. Check the bottle for PCP 34244 or 34555.</p>`
+  - Evidence: MEC search, read Oct 29 (https://www.mec.ca/en/search?q=natrapel): one Natrapel product, "Insect Repellent Pump Spray 37ml". atmosphere.ca, read Oct 29 (https://www.atmosphere.ca/): "Atmosphere Consolidation Notice" and "We have consolidated our operations under our parent company, Sport Chek". PCP numbers as above.
+- **L276** (OFF! card name (card BuyLink L278))
+  - Before: `<p className="font-extrabold text-brand-900">OFF! Defense Picaridin</p>`
+  - After: `<p className="font-extrabold text-brand-900">OFF! Deep Woods 9 or 10 (icaridin)</p>`
+- **L277** (OFF! card text)
+  - Before: `...text-sm text-gray-600 mt-1 mb-3 flex-1">Most-stocked pharmacy pick &mdash; lotion or spray, budget-friendly, easy to find at Shoppers and Canadian Tire.</p>`
+  - After: `...text-sm text-gray-600 mt-1 mb-3 flex-1">No OFF! product called Defense is registered in Canada; S.&nbsp;C. Johnson&rsquo;s 20% icaridin repellents here are OFF! Deep Woods Insect Repellent 9 (PCP 30155) and 10 (33575). Check the bottle for one of those numbers: a US OFF! bottle carries an EPA number instead.</p>` (changed part only; the rest of the line is unchanged)
+- **L282** (Sawyer card text (card BuyLink L283))
+  - Before: `...text-sm text-gray-600 mt-1 mb-3 flex-1">Long-lasting lotion loved by hikers and travellers &mdash; one application covers a full day outdoors.</p>`
+  - After: `...text-sm text-gray-600 mt-1 mb-3 flex-1">Pump or pressurized spray loved by hikers and travellers: Canada&rsquo;s two Sawyer registrations are both 20% icaridin sprays (PCP 33032 and 33177), and no Sawyer lotion is registered here. About 5&ndash;7 hours against mosquitoes (Canadian Paediatric Society).</p>` (changed part only; the rest of the line is unchanged)
+
+### victor-electronic-mouse-trap-review-canada (2 lines)
+- Wording fixes to the maker page (same fix as best-mouse-trap-canada on Oct 25). TIER2-CHECK, Checker C row "TopPick blurb 183, pros 186".
+- Evidence for every line unless noted: Victor CM250B page, read Oct 29 (https://www.victorpest.com/victor-electronic-mouse-trap-cm250b): "Quickly kills mice with a humane, high-voltage shock"; "Kills Per Setting: 1"; no kills-per-battery figure; 4 AA batteries (not included); low battery: red light flashes every 10 seconds.
+
+- **L183** (TopPick blurb)
+  - Before: `...n Canada: an enclosed kill chamber that shocks in seconds, delivers up to 100 kills per set of 4 AA batteries, and empties into the ga...`
+  - After: `...n Canada: an enclosed kill chamber that quickly kills with a high-voltage shock, takes one mouse per setting on 4 AA batteries, and empties into the ga...` (changed part only; the rest of the line is unchanged)
+- **L186** (TopPick pros (third item))
+  - Before: `pros={['No-touch, no-see disposal', 'Fast, consistent kill inside an enclosed chamber', 'Up to 100 kills per battery set — a full season or more', 'Kid- and pet-resistant; circuit cuts when the lid opens']}`
+  - After: `pros={['No-touch, no-see disposal', 'Fast, consistent kill inside an enclosed chamber', 'Runs on 4 AA batteries; a red light flags when they run low', 'Kid- and pet-resistant; circuit cuts when the lid opens']}`
+
+### wondercide-canada-review (9 lines)
+- Relabelled, not swapped: no Wondercide product is registered, and no registered flea or tick product has a search term on this page (its other terms are Wondercide lines, a consumer permethrin clothing spray, a flea comb and a tick tool). Searches unchanged. TIER2-CHECK, Checker C rows for this page. Score 7.6 left.
+- Evidence for every line unless noted: Registry: no product or registrant named Wondercide (TIER2-CHECK, live API Oct 28; Oct 23 extract: 0 rows). Health Canada, as quoted on the page (L270): "If the product label does not have a PCP registration number, do not buy or use it", and unregistered pesticides' "safety and effectiveness have not been reviewed by Health Canada". The page's own verdict (L342) sends pets to a vet-recommended or registered product.
+
+- **L102** (StickyBuyBar label)
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Best for pets" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />`
+- **L103** (TopBox label (mirrors the StickyBuyBar))
+  - Before: `<TopBox tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Best for pets" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Wondercide Flea & Tick Spray (cedarwood + lemongrass)" search="wondercide flea and tick spray" label="Reviewed here · not registered in Canada" />`
+- **L110** (Quick Answer line holding a BuyLink)
+  - Before: `...<strong>Available but limited, and worth it mainly for pets and personal use &mdash; not as your only yard tick solution.</strong> Wondercide is a US natural brand built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), and in Canada it is sold mostly through third-party sellers on <BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray">Amazon.ca</BuyLink> rather than big-box retail, at a premium over US pricing. The cedar-oil formula genuinely kills and repels ticks, fleas, and mosquitoes on contact...`
+  - After: `...<strong>Available but limited, not registered in Canada, and not your only yard tick solution.</strong> Wondercide is a US natural brand built on cedarwood oil (plus lemongrass and sesame oil in the pet sprays), and in Canada it is sold mostly through third-party sellers on <BuyLink tag={AMZ_TAG} search="wondercide flea and tick spray">Amazon.ca</BuyLink> rather than big-box retail, at a premium over US pricing. The cedar-oil formula is sold to kill and repel ticks, fleas, and mosquitoes on contact...` (changed part only; the rest of the line is unchanged)
+- **L129** (TopPick label)
+  - Before: `label="Our Top Pick"`
+  - After: `label="Reviewed Here — Not Registered in Canada"`
+- **L131** (TopPick blurb)
+  - Before: `blurb="Where Wondercide genuinely shines: a gentle, ready-to-use cedar-oil spray for the dog, the cat's bedding, and indoor surfaces. It kills and repels fleas and ticks on contact, and it is the line Wondercide fans actually love. Just treat it as a knockdown for the pet and the person — not a set-and-forget yard barrier."`
+  - After: `blurb="The Wondercide product most buyers come for: a ready-to-use cedar-oil spray sold for the dog, the cat's bedding and indoor surfaces as a contact flea and tick spray. It is not registered in Canada: Health Canada's registry lists no Wondercide product, and Health Canada says not to buy or use a pesticide whose label has no PCP registration number. For the pet itself, ask your vet or use a registered product labelled for that species."`
+- **L134** (TopPick pros)
+  - Before: `pros={['Cedar-oil formula made for pets, bedding, and furniture', 'Genuinely kills & repels fleas and ticks on contact', 'Ready-to-use — great for spot-treating the dog, bedding, and couch']}`
+  - After: `pros={['Cedar-oil formula sold for pets, bedding, and furniture', 'Sold as a contact flea and tick spray', 'Ready-to-use bottle']}`
+- **L135** (TopPick cons)
+  - Before: `cons={['Essential oils break down within days — needs frequent reapplication', 'Not a long-residual yard barrier; overwhelmed under heavy pressure']}`
+  - After: `cons={['Not registered in Canada: no PCP number on the label', 'Essential oils break down within days — needs frequent reapplication', 'Not a long-residual yard barrier; overwhelmed under heavy pressure']}`
+- **L262** (Paragraph holding a BuyLink)
+  - Before: `...yard? The <strong>Concentrate</strong> is cheaper per gallon than the ready-to-spray bottles, but remember you will re-mix and re-apply often thro...`
+  - After: `...yard? The <strong>Concentrate</strong> mixes multiple gallons, but like every Wondercide product it has no Canadian registration, and you will re-mix and re-apply often thro...` (changed part only; the rest of the line is unchanged)
+  - Evidence: The per-gallon price comparison is unverified (TIER2-CHECK), and the page itself says "We do not quote prices" (FAQ). "Mixes multiple gallons" is the page's own table cell (L249). Registration as above.
+- **L269** (Paragraph holding a BuyLink)
+  - Before: `...5(b) list. The practical result is that Wondercide yard products are not registered Canadian pesticides, and you buy them as imported goods thr...`
+  - After: `...5(b) list. The practical result is that no Wondercide product, pet or yard, is a registered Canadian pesticide, and you buy them as imported goods thr...` (changed part only; the rest of the line is unchanged)
+  - Evidence: No Wondercide product of any kind is registered (registry as above; the page's own L270 says so); the old line implied only the yard products were unregistered.
+
+### best-ant-killer (14 lines)
+- Combat reworded, not swapped: no registered protein or grease bait has a search term on this page or a sibling (grep of app/: the ant bait terms are TERRO liquid, TERRO stakes, Combat, borax stations, a generic gel and a Raid spray). Doktor Doom House & Garden is registered, so it is reworded to its active ingredient. Searches unchanged. TIER2-CHECK, ant-killer checker rows for this page.
+- Evidence for every line unless noted: Registry, live API read Oct 29: 26467 COMBAT ANT KILLING SYSTEM, Cancelled, expiry 2006-05-31, Historical (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=26467); the Oct 23 extract has no other Combat ant product. 26140 DOKTOR DOOM HOUSE & GARDEN INSECTICIDE SPRAY, DOMESTIC, current, PERMETHRIN 0.25%, pests include ANTS, sites include INDOOR and OUTDOOR (https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=26140).
+
+- **L174** (AwardRow Best for Grease Feeders name)
+  - Before: `name: 'Combat Ant Killing Bait Stations (solid protein bait)',`
+  - After: `name: 'Combat Ant Killing Bait Stations (solid protein bait; not registered in Canada)',`
+- **L175** (AwardRow Best for Grease Feeders why)
+  - Before: `...it is often what unlocks the job. Combat is an enclosed solid-bait line stocked by Canadian hardware and grocery retailers, sold here with Canadian label directions and a PCP registration number on the pack.',`
+  - After: `...it is often what unlocks the job. Combat’s ant bait is not registered in Canada: its registration (Combat Ant Killing System, PCP 26467) was cancelled in 2006, so a Combat pack on sale here has no Canadian label. For the protein station, buy one whose pack shows a Canadian PCP number and the DOMESTIC class.',` (changed part only; the rest of the line is unchanged)
+- **L177** (AwardRow Best for Grease Feeders pros)
+  - Before: `pros: ['Addresses a common "bait is not working" case', 'Runs alongside liquid bait — not instead of it', 'Same enclosed-station safety format, sold on Canadian shelves'],`
+  - After: `pros: ['Addresses a common "bait is not working" case', 'Runs alongside liquid bait — not instead of it', 'Enclosed station format'],`
+- **L178** (AwardRow Best for Grease Feeders cons)
+  - Before: `cons: ['Useless if the colony is currently sugar-feeding', 'Slower uptake than liquid for most Canadian house ants', 'Marketplace listings can mix Canadian and US packs — buy the one showing a PCP number'],`
+  - After: `cons: ['Useless if the colony is currently sugar-feeding', 'Slower uptake than liquid for most Canadian house ants', 'Not registered in Canada (PCP 26467 cancelled in 2006): buy a protein bait whose pack shows a PCP number'],`
+- **L182** (AwardRow Best Emergency Knockdown name)
+  - Before: `name: 'Short-Residual Contact Spray (Doktor Doom House & Garden)',`
+  - After: `name: 'Contact Spray (Doktor Doom House & Garden, permethrin)',`
+- **L183** (AwardRow Best Emergency Knockdown why)
+  - Before: `...den aerosol is a domestic-class product sold here under a Canadian PCP registration number — a pyrethrin-type knockdown rather than the long-residual pyrethroid barrier that sabotages baiting. That distinction is the whole reason this is the spray on the list. Treat the one spot, wash it, then bait...`
+  - After: `...den aerosol is a domestic-class product registered in Canada (PCP 26140). Its active is permethrin (0.25%), a synthetic pyrethroid rather than a short-lived pyrethrin, so it belongs on the one spot only, never on the trail your bait needs. Treat the one spot, wash it, then bait...` (changed part only; the rest of the line is unchanged)
+- **L185** (AwardRow Best Emergency Knockdown pros)
+  - Before: `pros: ['Genuine seconds-fast knockdown for a contained situation', 'Pyrethrin-based aerosols break down fast in light and air', 'Canadian brand, domestic class, PCP number on the can'],`
+  - After: `pros: ['Genuine seconds-fast knockdown for a contained situation', 'Ants are on its registration, indoors and out (PCP 26140)', 'Canadian brand, domestic class, PCP number on the can'],`
+- **L186** (AwardRow Best Emergency Knockdown cons)
+  - Before: `cons: ['Kills only what it wets — the nest is untouched', 'Overuse causes bait refusal and, in some species, budding', 'Short residual by design — it prevents nothing, so bait still has to follow'],`
+  - After: `cons: ['Kills only what it wets — the nest is untouched', 'Overuse causes bait refusal and, in some species, budding', 'A pyrethroid (permethrin), not a short-residual pyrethrin — spray one spot, wash it, and bait still has to follow'],`
+- **L207** (AwardRow whichToBuy)
+  - Before: `...</strong> The colony is on protein: run the <em>Best for Grease Feeders</em> station beside it rather than switching. <strong>Need something gone in the nex...`
+  - After: `...</strong> The colony is on protein: run a protein bait station whose pack shows a Canadian PCP number beside it rather than switching (the <em>Best for Grease Feeders</em> Combat pick no longer has one). <strong>Need something gone in the nex...` (changed part only; the rest of the line is unchanged)
+- **L241** (Table row product cell (row of the Combat BuyLink, L245))
+  - Before: `<td className="px-4 py-3 font-bold text-brand-800">Protein / grease bait<br /><span className="font-normal text-xs text-gray-500">Combat Ant Killing Bait Stations</span></td>`
+  - After: `<td className="px-4 py-3 font-bold text-brand-800">Protein / grease bait<br /><span className="font-normal text-xs text-gray-500">Combat Ant Killing Bait Stations; not registered in Canada</span></td>`
+- **L262** (Table row product cell (row of the Doktor Doom BuyLink, L266))
+  - Before: `<td className="px-4 py-3 font-bold text-brand-800">Contact aerosol<br /><span className="font-normal text-xs text-gray-500">Short-residual knockdown</span></td>`
+  - After: `<td className="px-4 py-3 font-bold text-brand-800">Contact aerosol<br /><span className="font-normal text-xs text-gray-500">Spot knockdown</span></td>`
+- **L345** (BuyLink text)
+  - Before: `<BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Combat protein bait stations →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Combat protein bait stations (not registered in Canada) →</BuyLink>`
+- **L364** (BuyLink text)
+  - Before: `<BuyLink tag={AMZ_TAG} search="doktor doom house and garden insect spray">Check short-residual contact sprays on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="doktor doom house and garden insect spray">Check Doktor Doom House &amp; Garden (permethrin) on Amazon.ca →</BuyLink>`
+- **L395** (BuyLink text)
+  - Before: `<BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Check Combat protein bait stations on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Check Combat protein bait stations on Amazon.ca (not registered in Canada) →</BuyLink>`
+
+### best-ant-traps-canada (2 lines)
+- Wording fix. The checker's "unverified" child-resistant claim was re-verified against TERRO's own page. TIER2-CHECK row "AwardRow Best Overall 156-160".
+- Evidence for every line unless noted: TERRO Liquid Ant Baits (T300) page, read Oct 29 (https://www.terro.com/terro-liquid-ant-baits-t300): usage note "Place bait in areas inaccessible to children and pets"; no child-resistant statement. Health Canada ants page (cited on the page): bait stations out of the reach of children and pets.
+
+- **L157** (AwardRow Best Overall why)
+  - Before: `...cting borax-family active, held inside a child-resistant plastic housing you set directly on the...`
+  - After: `...cting borax-family active, held inside an enclosed plastic housing you set directly on the...` (changed part only; the rest of the line is unchanged)
+- **L160** (AwardRow Best Overall pros (third item))
+  - Before: `...refer', 'Enclosed housing suits kitchens, homes with kids and pets', 'Among the least expensive products i...`
+  - After: `...refer', 'Enclosed housing suits kitchens (TERRO says to place it where children and pets cannot reach)', 'Among the least expensive products i...` (changed part only; the rest of the line is unchanged)
+
+### best-commercial-fly-light-trap-canada (2 lines)
+- Wording fixes. TIER2-CHECK row "AwardRow Best Overall 149". Editorial scores left.
+- Evidence for every line unless noted: BASF news release of Oct 1, 2020, read Oct 29 (https://www.basf.com/us/en/media/news-releases/2020/10/basf-divests-its-global-vector-light-fly-trap-portfolio-to-ap-g-.html): "BASF announced the divestiture of its entire global Vector® insect light fly trap business to AP&G, Co., Inc."; AP&G: "We are thrilled to add the Vector brand to the Catchmaster® portfolio." The release does not mention Rentokil.
+
+- **L149** (AwardRow Best Overall why)
+  - Before: `why: 'A Rentokil professional brand built around food-safety auditing: shatterproof lamps, high glue-board su...`
+  - After: `why: 'A professional fly-light line built around food-safety auditing, part of AP&G’s Catchmaster portfolio since BASF divested its Vector business in October 2020: shatterproof lamps, high glue-board su...` (changed part only; the rest of the line is unchanged)
+- **L153** (AwardRow Best Overall pros (first item))
+  - Before: `pros: ['Shatterproof lamp — food-safe compliant', 'High glue-board catch surface', 'Recognized by auditors and inspectors'],`
+  - After: `pros: ['Shatterproof lamp', 'High glue-board catch surface', 'Recognized by auditors and inspectors'],`
+  - Evidence: TIER2-CHECK flags "food-safe compliant" (pros): an unsourced compliance claim in "safe" wording. Shatterproof lamps are on the Vector 30 listing the checker read.
+
+### best-cordless-fogger-canada (7 lines)
+- Approved swap (the product does not exist): every "hudson cordless ulv fogger" element now uses "cordless battery ulv fogger", the term this page already uses for its Best overall pick (StickyBuyBar L119, TopBox L120). Element types, positions, tags and counts unchanged. TIER2-CHECK row "AwardRow Best Overall 148-151; BuyLinks 217, 264". Editorial scores left.
+- Evidence for every line unless noted: H.D. Hudson catalogue, read Oct 29 (https://www.hdhudson.com/product-category/commercial-products/ pages 1-2 and https://www.hdhudson.com/product-category/residential-products/ pages 1-2): sprayers, hoses and spray guns; the only atomizer is the Hudson 2 Gallon Atomizer (#99598), which TIER2-CHECK found "Operates on 110 AC Power". Site search "fogger": "No products were found"; "cordless": none; "battery": only a dual-power inflator.
+
+- **L148** (AwardRow Best Overall name)
+  - Before: `name: 'Hudson-Style Cordless ULV Fogger',`
+  - After: `name: 'Cordless Battery ULV Fogger',`
+- **L149** (AwardRow Best Overall why)
+  - Before: `why: 'A cordless ULV cold fogger from a maker like Hudson hits the sweet spot: a fine adjustable...`
+  - After: `why: 'A battery-powered cordless ULV cold fogger hits the sweet spot: a fine adjustable...` (changed part only; the rest of the line is unchanged)
+- **L150** (AwardRow Best Overall search (swap))
+  - Before: `search: 'hudson cordless ulv fogger',`
+  - After: `search: 'cordless battery ulv fogger',`
+- **L186** (AwardRow whichToBuy)
+  - Before: `...ger?</strong> The <em>Best Overall</em> Hudson-style ULV unit covers the widest range of Can...`
+  - After: `...ger?</strong> The <em>Best Overall</em> cordless battery ULV unit covers the widest range of Can...` (changed part only; the rest of the line is unchanged)
+- **L213** (Table row product cell (row of the swapped BuyLink, L217))
+  - Before: `<td className="px-4 py-3 font-bold text-brand-800">Cordless ULV (Hudson-style)<br /><span className="font-normal text-xs text-gray-500">handheld / shoulder</span></td>`
+  - After: `<td className="px-4 py-3 font-bold text-brand-800">Cordless battery ULV<br /><span className="font-normal text-xs text-gray-500">handheld / shoulder</span></td>`
+- **L217** (Table BuyLink search (swap))
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="hudson cordless ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger" block>Check price on Amazon.ca →</BuyLink></td>`
+- **L264** (BuyLink search and text (swap))
+  - Before: `<BuyLink tag={AMZ_TAG} search="hudson cordless ulv fogger">Cordless ULV (Hudson-style) →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger">Cordless battery ULV →</BuyLink>`
+
+### best-dehumidifier-for-basement-canada (5 lines)
+- Wording fix ("Energy Star" removed); the pick and its search are kept (an appliance; the product exists). TIER2-CHECK row "StickyBuyBar 123, TopBox 124, AwardRow Best Overall 152-157".
+- Evidence for every line unless noted: ENERGY STAR certified dehumidifiers dataset (Version 6.0), queried Oct 29 (https://data.energystar.gov/resource/mgiu-hu4z.json): hOmeLabs HME0088 (24.48 pints/day) and HME0089 (32.46) are partner Aterian's only models; no 50-pint hOmeLabs. Midea MAD50S1QWT-A (the Midea Cube, 49.67 pints/day) is listed for the United States and Canada.
+
+- **L123** (StickyBuyBar name)
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="hOmeLabs 50-Pint Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />`
+- **L124** (TopBox name (mirrors the StickyBuyBar))
+  - Before: `<TopBox tag={AMZ_TAG} name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />`
+  - After: `<TopBox tag={AMZ_TAG} name="hOmeLabs 50-Pint Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />`
+- **L152** (AwardRow Best Overall name)
+  - Before: `name: 'hOmeLabs 50-Pint Energy Star Dehumidifier',`
+  - After: `name: 'hOmeLabs 50-Pint Dehumidifier',`
+- **L153** (AwardRow Best Overall why)
+  - Before: `...hold 45–50% RH, a continuous-drain port, auto-defrost for cool basements, and Energy Star efficiency so the season-long running cost stays reasonable.',`
+  - After: `...hold 45–50% RH, a continuous-drain port and auto-defrost for cool basements. It is not on ENERGY STAR’s certified list, which names only two smaller hOmeLabs models; for a certified 50-pint unit, see the Midea Cube.',` (changed part only; the rest of the line is unchanged)
+- **L157** (AwardRow Best Overall pros (third item))
+  - Before: `pros: ['Right capacity for most basements', 'Continuous gravity-drain hose port', 'Auto-defrost + Energy Star efficiency'],`
+  - After: `pros: ['Right capacity for most basements', 'Continuous gravity-drain hose port', 'Auto-defrost for cool basements'],`
+
+### Left unchanged, with the reason
+
+**No wrong box claim found:**
+- **best-deer-fence-for-gardens-canada:** TIER2-CHECK: ok. Fit note for the owner: the Best Overall box is 7 ft netting ("Seven feet clears the jump threshold"; pro "Clears the 6 ft jump threshold"). Ontario's fencing page gives 96 in. and UVM Extension "at least 8 feet"; the Oregon Ask Extension answer accepts 7 ft.
+- **best-silverfish-traps:** TIER2-CHECK: ok. Seen but not in the findings: the AwardRow pro "Safer around pets and toddlers than an open board" (L233).
+
+**Not in the findings, left for the owner:**
+- **Editorial scores on units we have not tested.** Fly light 9.1-7.9, cordless fogger 8.9-7.0, Dupray 9.1, Victor 8.9, PackTite 8.4, picaridin 9.0, Wondercide 7.6. They are not a false claim in the checks; removing them is the owner's call.
+- **best-commercial-fly-light-trap-canada:** "food-safe" also appears in card 4's pros (L180, "Food-safe glue-board capture") and in two table cells (L222, L229). Only card 1's "food-safe compliant" was in the findings.
+- **best-dehumidifier-for-basement-canada:** whichToBuy L190 says "the safe default" (an appliance, not a pesticide).
+- **wondercide-canada-review:** L339 BuyLink "Check permethrin clothing and gear treatments" (search "permethrin clothing spray"). PHAC says permethrin liquids and sprays for consumers to treat their own clothing are not approved for use in Canada (the source the TTC checker used).
+- **victor-electronic-mouse-trap-review-canada:** the boxes still say "Victor M250S"; Victor's page now lists the CM250B (M250B).
+- **packtite-portable-review-canada:** the BuyLink text at L238 ("PackTite Portable →") and the table row at L173 still say "PackTite Portable"; only the StickyBuyBar, TopBox and TopPick were in the findings.
+
+**Kept on purpose:**
+- **picaridin-vs-deet:** the OFF! card keeps its search ("off defense picaridin insect repellent"), because no OFF! icaridin term is on the page; the card now names the registered products and their PCP numbers. "Odourless" (TopPick blurb and pros) was not in these findings; OWNER-DECISIONS B recorded that Natrapel's maker lists a fragrance (for the Ontario repellent guide's box).
+- **packtite-portable-review-canada:** TopPick pro "Chemical-free; no PMRA-registration question" kept. TIER2-CHECK lists it as an open question, not a finding (PCP Regulations Schedule 1 item 1 names garment bags and cabinets sold to protect clothing or fabrics from pests).
+- **best-ant-killer:** the DE card (L190-193) uses the Safer's search the DE checker flagged. That card already says to buy by name with a PCP number, and it was not flagged on this page.
+
+**Page text, not affiliate lines** (outside this brief):
+- **best-cordless-fogger-canada:** still says "Hudson-style" in the Quick Answer (L126), the body (L259), FAQ 1 and the BlogPosting description (L100).
+- **packtite-portable-review-canada:** the title still says "PackTite Portable". The suitcase FAQ says "Usually not a full hard-shell suitcase", while the PackTite 2 listing says it treats luggage.
+- **best-ant-killer:** the knockdown paragraph (L362) still recommends a short-residual product. The button under it now names the permethrin pick.
+- **dupray-steamer-review-canada:** the recall box (L233) says "We have removed our direct product link to this machine", while the boxes keep the search links (the owner's Sep 2 decision).
+
+Lines changed in this section: 69 (all affiliate lines or cells in a row that holds a BuyLink); none inserted, none deleted.
+
+## Tier 2 pages: box fixes, Oct 29, 2026 (15 pages)
+
+Fixed under the Oct 29 brief (owner: "Yes, fix the false product box claims"), following FIX-BRIEF.md. The verified problems are the "Box claims for the owner" rows for these pages in TIER2-CHECK.md (Checkers B and C), plus the upgraders’ box flags in TIER2-LOG.md, each re-checked against its primary source on Oct 29. TIER3-CHECK.md and TIER3-LOG.md have no box rows for these 15 pages. All files are `app/blog/<slug>/page.tsx`. **109 lines changed on 13 pages**; 2 pages unchanged. Lines were replaced one for one (none inserted, none deleted), so every line number holds before and after. Where a long line changed only in part, "…" marks unchanged text left out of the Before/After quote.
+
+**Checks after editing** (against copies taken before editing and `git show HEAD:<file>`; no git write, no build):
+- Line counts unchanged on all 15 pages; the only changed lines are the ones listed below.
+- Counts of `<BuyLink`, `<AwardRow`, `<AwardCard`, `<StickyBuyBar`, `<AmazonLink`, `<TopPick`, `<TopBox` equal HEAD on all 15 pages; every `tag` unchanged; `search=`/`search:` counts unchanged.
+- `asin=` unchanged except how-to-get-rid-of-wasps-canada (3 to 0): the W·H·Y ASIN came off the three swapped elements (code A-asin).
+- Every swapped-in search term was already on the same page, except best-ulv-cold-fogger-canada, which uses its sibling’s live term (code B-swap-sib).
+- `npx tsc --noEmit`: no errors.
+- No price, rating or testing claim added; no "safe" left in a changed line; Canadian spelling.
+
+**Evidence key** (registry lookups on Oct 29, 2026 used Health Canada’s registry API, e.g. https://pest-control.canada.ca/pesticide-registry-api/api/search/product/25735; labels were fetched with WebFetch and read from the saved file):
+- `B-swap`: FIX-BRIEF item 2 / Oct 29 brief: box pointed at the registered (or registration-free device) alternative the same page already recommends, reusing that product’s existing search term; element type, position, tag and element count kept.
+- `B-swap-sib`: as B-swap, but the term is the sibling page’s (FIX-BRIEF: "the same page (or its sibling page)"): `corded electric ulv fogger disinfectant`, live on app/blog/thermal-vs-ulv-fogger-canada/page.tsx L166 (card "Best Corded ULV: Corded Electric ULV Fogger"). This page has no term for a corded adjustable ULV. Easy to revert if the coordinator reads the rule as same-page only.
+- `B-reword`: no registered alternative for that job on the page, so the box is reworded honestly and its link is unchanged.
+- `B-safe`: FIX-BRIEF banned claims ("safe").
+- `B-fit`: FIX-BRIEF item 3: keep the pick, make the box text honest.
+- `B-text`: a text cell (no affiliate element) changed only because the swap or reword beside it would otherwise leave it false.
+- `A-asin`: `asin="B00BPTN6YC"` (the W·H·Y Trap) removed so the swapped links follow the swapped-in search; no ASIN for the RESCUE! Yellowjacket Trap exists anywhere on the site. In the TopPick, L141 now carries `cta="Check price on Amazon.ca"` (the component’s default) instead of the ASIN, so no line was deleted.
+- `C2-roach`: TIER2-CHECK, Checker B, best-cockroach-killer-canada rows. Registry: 26519 COMBAT ROACH KILLING SYSTEM Cancelled, expiry 2006-05-31; 26645 RAID MAX ROACH BAIT and 27731 RAID DOUBLE CONTROL ROACH BAITS Cancelled, 2025-09-25; 25735 RAID ANT ROACH & EARWIG GEL BAITS Full Registration, DOMESTIC, boric acid, current; 30293 HOMEOWNERS DIY ROACH BAIT current, boric acid; 20471 PIC ROACH CONTROL SYSTEM current, propoxur. Label facts are the page’s own label table (Raid 25735 label 2017-1008: "CONTAINS 12 CHILD RESISTANT BAITS", "Apply/use only in areas inaccessible to children and pets", at least 10 baits in the kitchen and 2 per bathroom, replace every 4 weeks; Nisus 30293: crack-and-crevice only). https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=25735
+- `C2-tick`: TIER2-CHECK, Checker B, tick-removal-tool-guide rows: the vet claim is unsourced (PHAC and CDC describe fine-point tweezers); only human study, Akin Belli 2016: card 3/40 intact vs tweezers 33/40; Duscher 2012 (7/108 vs 20/108, lasso) and Zenner 2006 (forceps), all in the ILCOR review already cited on the page: https://costr.ilcor.org/document/methods-of-tick-removal-first-aid-systematic-review
+- `C2-co2`: TIER2-CHECK, Checker B, co2-mosquito-trap-canada rows: no Biogents product in the registry; PCP Regulations s. 3(1)(a) and Schedule 1 item 2 keep flying-insect attracting devices under the Act (https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/page-10.html); home traps use BG-Sweetscent, not BG-Lure (https://research-shop.biogents.com/products/bg-sweetscent). Oct 29: registry search PROD_NAME_E or REGT_NAME contains BIOGENTS = 0 rows; 32375 MOSQUITO MAGNET PATRIOT PLUS Full Registration, DOMESTIC, current. Woodstream Canada (https://www.woodstreambrands.ca/store/mosquito-magnet-trap): "50-foot power cord", "Protects about 1 acre", Octenol "sold separately", 20 lb tank changed every 18 to 21 days, results in 7 to 10 days. UW–Madison (already cited on the page): homeowner traps usually do not reduce biting.
+- `C2-fog`: TIER2-CHECK, Checker B, best-bed-bug-fogger-canada rows. Oct 29: 33939, 28912 (Doktor Doom) and 32676 (Konk) total-release foggers Cancelled, expiry 2024-09-02 (RVD2023-06); 34126 DOKTOR DOOM PRO MAX current; label 34126 (2025-1185, https://pest-control.canada.ca/pesticide-registry-api/api/pdf/inline/en/444695186): "Apply this product with the attached trigger sprayer"; "TO KILL BED BUGS: DO NOT apply to the mattress, headboard, footboard or furniture. Apply to inside building surfaces including, cracks and crevices in the walls, floors and ceilings; along and behind baseboards and molding; and localized areas of walls behind and floors beneath furniture (e.g., bed and nightstand)"; "When protected from the sun, permethrin will provide residual/long lasting activity". 32278 SAFER'S ANT & CRAWLING INSECT KILLER Full Registration, DOMESTIC, current, pests include BEDBUGS; label 32278 (2025-1883, https://pest-control.canada.ca/pesticide-registry-api/api/pdf/inline/en/444695778): squeeze bottle; "BEDBUGS: Disassemble beds and dust frames, joints, mattresses, tufts and seams, floors and baseboards"; "Avoid breathing dust. Do not use as a space spray." 30832 SAFER'S BEDBUG AND FLEA KILLER Cancelled 2024-11-12. Steamer facts are the page’s own steam row and FAQs; PCP Regulations Schedule 1 names no steamer.
+- `C2-mop`: TIER2-CHECK, Checker B row: no Dupray Bliss product. Oct 29, https://dupray.com/en-ca: steam cleaners Neat, Neat Plus, Tosca, Hill Injection; Stellar PRO floor washer; no Bliss and no steam mop. Dupray FAQ quote already on the page (checker: exact). Neat recall batch codes 0118-01 to 0425-05 (Health Canada RA-81643, Feb 26, 2026; TIER2-CHECK, Checker C, dupray-steamer-review-canada).
+- `C2-vent`: TIER2-CHECK, Checker B row: UF/IFAS bee-proofing closes openings with 1/8-inch hardware cloth or insect screen, so vent mesh does not stop wasps (https://ask.ifas.ufl.edu/publication/IN741).
+- `C2-uph`: TIER2-CHECK, Checker B, "Also noted": "stiff-but-safe brush" uses "safe".
+- `C2-heat`: TIER2-CHECK, Checker B rows: no Nuventa brand (closest Nuvenco, maker of PackTite); ZappBug Room "Circuits Needed: 4". Oct 29, https://zappbug.com/products/zappbug-room: "Needs 4 separate circuits"; "Plug each thermal unit (about 1,500 watts) into an outlet on a different circuit rated 15 amps or more".
+- `C2-yj`: TIER2-CHECK, Checker B, best-yellow-jacket-trap-canada rows. Oct 29 registry: REGT_NAME contains STERLING = 23 rows; the current DOMESTIC yellowjacket products are 35529 DISPOSABLE YELLOWJACKET TRAP W, 35530 YELLOWJACKET TRAP CARTRIDGE and 35531 YELLOWJACKET TRAP TUBE (heptyl butyrate, first registered 2025-12-11); no W·H·Y, WHY or East-formula product; PROD_NAME_E contains "W.H.Y" = 0. RESCUE! East or West (https://www.rescue.com/latest-buzz/outdoor-pests/disposable-yellowjacket-trap-east-or-west/): Eastern Formula "designed to attract species that are more prevalent in eastern and central regions"; Western Formula "designed around yellowjacket species commonly found in western regions". DIY bottle traps: PCP Regulations Schedule 1 item 2.
+- `U-yj`: TIER2-LOG upgrader flag ("does not lure honey bees"), re-checked Oct 29 on https://www.rescue.com/products/traps/reusable-yellowjacket-trap/: "Won't trap beneficial honeybees"; "designed to target yellowjackets and prevent accidental capture of beneficial honeybees" (capture, not attraction).
+- `C2-mm` / `U-mm`: TIER2-CHECK, Checker B rows and the TIER2-LOG flag. Oct 29, https://www.woodstreambrands.ca/executive-canada-trap (MM3302B): "cordless", "rechargeable Nickel Metal Hydride Battery", "4 fuel saving modes", features that "can extend the life of accessories and propane up to 40%", "heavy duty construction with reinforced base for added durability"; nothing on attractant delivery. So "longer cartridge life" (flagged by the upgrader) is supported and kept. Page’s own advice: hero L162 and Best Overall cons L255 ("Skip it on lots under 0.25 acres").
+- `C2-vap` / `U-vap`: TIER2-CHECK, Checker C rows and the TIER2-LOG flag. Oct 29, https://www.vapamore.com/pages/mr-100-primo-steam-cleaning-system: "Steam Time: 50-60 Min"; accessories include Floor Cleaning Head, Clothes / Fabric Tool, Jet Nozzle Tool, Nylon Grout Brush, Nylon Brush Medium and Large, Brass Metal Brush; no "concentrator" and no "detail brush". UMN (quoted in TIER2-CHECK): "Do not use a pinpoint steam nozzle; use a nozzle that distributes steam at lower pressures, such as a floor or upholstery attachment. Pinpoint nozzles can blow the bed bugs away".
+- `C2-ulv`: TIER2-CHECK, Checker C row and the TIER2-LOG flag: PetraTools’ only ULV fogger is a lithium-ion battery backpack (3+ gallon tank). Oct 29, https://petratools.com/collections/foggers: "Sorry, there are no products in this collection."
+- `C2-wasp`: TIER2-CHECK, Checker C row: no W·H·Y product in the registry; Sterling International’s current products are 35529–35531 (re-checked Oct 29, as C2-yj). RESCUE! facts in the new TopPick text are from the reusable trap page (as U-yj): won’t catch hornets or paper wasps; initial lure lasts 2 to 4 weeks; 4-week liquid and 10-week cartridge refills.
+
+### best-cockroach-killer-canada (14 lines)
+
+- **L124** (StickyBuyBar; C2-roach, B-swap). Combat (26519, cancelled 2006) swapped to the page’s registered station, Raid 25735, on the page’s own boric acid bait search.
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (12-pack)" search="combat roach killing bait stations" label="Best cockroach killer" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (look for Reg. No. 25735)" search="boric acid roach bait" label="Best cockroach killer" />`
+- **L125** (TopBox (mirrors the StickyBuyBar); C2-roach, B-swap).
+  - Before: `<TopBox tag={AMZ_TAG} name="Combat Roach Killing Bait Stations (12-pack)" search="combat roach killing bait stations" label="Best cockroach killer" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (look for Reg. No. 25735)" search="boric acid roach bait" label="Best cockroach killer" />`
+- **L153** (AwardRow Best Overall; C2-roach, B-swap). Name, why and search moved to Raid 25735 with its label rates; "mainstream domestic-class bait station in Canada" removed.
+  - Before: `name: 'Combat Roach Killing Bait Stations (large 12-pack)',`
+  - After: `name: 'Raid Ant Roach & Earwig Gel Baits (Reg. No. 25735)',`
+- **L154** (AwardRow Best Overall; C2-roach, B-swap). Same evidence as the entry above.
+  - Before: `why: 'The mainstream domestic-class bait station in Canada and the closest legal cousin of a professional gel program: a slow-acting food bait in a child-resistant enclosure that foragers carry back to the colony. Buy more packs than feels reasonable — …`
+  - After: `why: 'A registered domestic-class bait station (Reg. No. 25735, boric acid 2.0%): slow-acting bait in child-resistant stations that foragers carry back to the colony. The label says to place at least 10 in the kitchen and 2 in each bathroom, and to replace all of them every 4 weeks while the problem persists. The search below also shows other boric acid baits, so look for Reg. No. 25735 on the box. Buy more packs than feels reasonable — …`
+- **L155** (AwardRow Best Overall; C2-roach, B-swap). Same evidence as the entry above.
+  - Before: `search: 'combat roach killing bait stations',`
+  - After: `search: 'boric acid roach bait',`
+- **L158** (AwardRow Best Overall pros; C2-roach, B-safe). "safe around kids and pets" replaced by the label’s placement rule.
+  - Before: `… ['Colony-transfer mechanism, not one-roach-at-a-time', 'Enclosed — safe around kids and pets when placed per label', 'No residue, no odour, no scattered survivors'],`
+  - After: `… ['Colony-transfer mechanism, not one-roach-at-a-time', 'Child-resistant stations, still placed out of reach of children and pets (label)', 'No residue, no odour, no scattered survivors'],`
+- **L163** (AwardRow Best for Bait Rotation; C2-roach, B-swap). Raid Max (26645/27731, cancelled 2025) swapped to the page’s registered boric acid paste (Nisus 30293) on the same search; PIC 20471 named in text only (no search term for it on this page or a sibling). "on Canadian shelves" and "Widely stocked" removed.
+  - Before: `name: 'Raid Max Roach Bait Stations',`
+  - After: `name: 'Boric Acid Roach Paste (e.g. Homeowners DIY Roach Bait, Reg. No. 30293)',`
+- **L164** (AwardRow Best for Bait Rotation; C2-roach, B-swap). Same evidence as the entry above.
+  - Before: `why: 'The other mainstream station line on Canadian shelves, with a different bait formulation — which is exactly what you want if feeding on the first line stalls mid-campaign. Bait aversion is a real, documented German-roach …`
+  - After: `why: 'For rotation, use a registered bait in a different formulation: Raid Max roach baits, once the usual rotation pick, are no longer registered in Canada (Health Canada lists Raid Max Roach Bait and Raid Double Control Roach Baits as historical, last retail sale September 25, 2025). A boric acid paste such as Homeowners DIY Roach Bait (Reg. No. 30293) goes into the cracks a station cannot reach; its label allows crack-and-crevice use only. For a different active, PIC Roach Control System trays (Reg. No. 20471) use propoxur. Bait aversion is a real, documented German-roach …`
+- **L165** (AwardRow Best for Bait Rotation; C2-roach, B-swap). Same evidence as the entry above.
+  - Before: `search: 'raid max roach bait stations',`
+  - After: `search: 'boric acid roach bait',`
+- **L167** (AwardRow Best for Bait Rotation; C2-roach, B-swap). Same evidence as the entry above.
+  - Before: `pros: ['Different bait matrix for aversion insurance', 'Same enclosed, kid-resistant format', 'Widely stocked at Canadian grocery and hardware stores'],`
+  - After: `pros: ['A different bait formulation for aversion insurance', 'Registered for cockroaches (Reg. No. 30293)', 'Reaches the cracks a station cannot'],`
+- **L168** (AwardRow Best for Bait Rotation; C2-roach, B-swap). Same evidence as the entry above.
+  - Before: `cons: ['Buy it as the rotation, not the reason to skip Combat', 'Same density rule applies — one pack under-places a kitchen'],`
+  - After: `cons: ['Buy it as the rotation, not instead of the stations', 'Label: crack-and-crevice use only'],`
+- **L191** (AwardRow whichToBuy; C2-roach). Same two picks, renamed to match the swapped cards.
+  - Before: `… infestation: buy the <em>Best Overall</em> Combat stations at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> Raid Max stations rather than doubling down on the same bait. …`
+  - After: `… infestation: buy the <em>Best Overall</em> Raid boric acid stations (Reg. No. 25735) at full density plus the <em>Best Diagnostic</em> glue monitors the same day, and add the <em>Best Budget Add-On</em> boric acid bait for the gaps the stations miss. <strong>Feeding stalls after a strong start?</strong> Rotate to the <em>Best for Bait Rotation</em> paste, or to PIC Roach Control System trays (Reg. No. 20471), which use a different active, rather than doubling down on the same bait. …`
+- **L209** (BuyLink; C2-roach, B-swap).
+  - Before: `<BuyLink tag={AMZ_TAG} search="combat roach killing bait stations">Combat bait stations &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="boric acid roach bait">Raid boric acid stations (Reg. No. 25735) &rarr;</BuyLink>`
+- **L210** (BuyLink; C2-roach, B-swap).
+  - Before: `<BuyLink tag={AMZ_TAG} search="raid max roach bait stations">Raid Max stations &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="boric acid roach bait">Boric acid paste (Reg. No. 30293) &rarr;</BuyLink>`
+
+### tick-removal-tool-guide (4 lines)
+
+- **L137** (AwardRow Best Overall why; C2-tick). Unsourced "the standard tool most veterinarians recommend" replaced by the Duscher (2012) result already cited on the page.
+  - Before: `… twists it free without squeezing the body — the standard tool most veterinarians recommend, and budget-friendly.',`
+  - After: `… twists it free without squeezing the body. In a randomized trial on pets it left 7 of 108 ticks with damaged mouthparts, against 20 of 108 for a lasso-style remover (Duscher, 2012), and it is budget-friendly.',`
+- **L157** (AwardRow Best Backup (fit item); C2-tick, B-fit). Pick kept; box now gives the one human study (card 3/40 intact vs tweezers 33/40).
+  - Before: `… hand when you find a tick away from home.',`
+  - After: `… hand when you find a tick away from home. Keep it as a backup only: in the one study on people, a card-type remover pulled out 3 of 40 ticks intact, against 33 of 40 for tweezers (Akin Belli, 2016).',`
+- **L161** (AwardRow Best Backup (fit item); C2-tick, B-fit). Same evidence as the entry above.
+  - Before: `cons: ['Awkward on very small nymphs', 'Needs a flat skin surface'],`
+  - After: `cons: ['Far fewer ticks out intact than tweezers in a study on people', 'Awkward on very small nymphs; needs a flat skin surface'],`
+- **L184** (AwardRow whichToBuy; C2-tick). Same "vet-standard" claim in the same box.
+  - Before: `… household?</strong> The <em>Best Overall</em> Tick Twister is the vet-standard pick. <strong>First time removing a tick?</strong> …`
+  - After: `… household?</strong> The <em>Best Overall</em> Tick Twister left fewer damaged mouthparts than a lasso tool or forceps in the pet trials. <strong>First time removing a tick?</strong> …`
+
+### co2-mosquito-trap-canada (19 lines)
+
+- **L108** (StickyBuyBar; C2-co2, B-swap). Biogents (no Canadian registration) swapped to the page’s registered trap, Patriot Plus 32375, on its existing search.
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO2 trap, Reg. No. 32375)" search="mosquito magnet patriot plus" label="Registered CO2 trap" />`
+- **L109** (TopBox (mirrors the StickyBuyBar); C2-co2, B-swap).
+  - Before: `<TopBox tag={AMZ_TAG} name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO2 trap, Reg. No. 32375)" search="mosquito magnet patriot plus" label="Registered CO2 trap" />`
+- **L116** (Quick Answer line carrying the AmazonLink; C2-co2, B-swap).
+  - Before: `For most GTA backyards, an electric <strong>Biogents</strong> trap (BG-Home or <AmazonLink search="biogents mosquitaire mosquito trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">BG-Mosquitaire</AmazonLink>) is the best CO2 mosquito trap because it runs on a wall plug and a chemical lure with no propane tank, and it uses the same research-grade design mosquito scientists deploy. Propane traps like Mosquito Magnet cover larger acreage but require a mandatory 20 lb tank.`
+  - After: `In Canada, buy a CO2 mosquito trap with a registration number: the propane <AmazonLink search="mosquito magnet patriot plus" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Magnet Patriot Plus</AmazonLink> (Reg. No. 32375) is in Health Canada&rsquo;s registry, plugs in on a 50-foot cord and protects about 1 acre, but it needs a 20 lb propane tank. Electric <strong>Biogents</strong> traps (BG-Home, BG-Mosquitaire) run on a wall plug and a lure with no tank and use a research-grade design, but we found no Biogents product in Health Canada&rsquo;s registry.`
+- **L130** (BuyLink (Quick Answer button); C2-co2, B-swap).
+  - Before: `<BuyLink search="biogents mosquitaire mosquito trap" tag={AMZ_TAG} block className="sm:w-auto …`
+  - After: `<BuyLink search="mosquito magnet patriot plus" tag={AMZ_TAG} block className="sm:w-auto …`
+- **L143** (AwardRow Best Overall; C2-co2, B-swap). Also removes "BG-Lure" (home traps use BG-Sweetscent).
+  - Before: `name: 'Biogents BG-Mosquitaire (electric CO₂)',`
+  - After: `name: 'Mosquito Magnet Patriot Plus (Reg. No. 32375)',`
+- **L144** (AwardRow Best Overall; C2-co2, B-swap). Same evidence as the entry above.
+  - Before: `why: 'Research-grade airflow and the BG-Lure catch host-seeking females on a wall plug alone — no propane tank, with an optional CO₂ boost for heavy-pressure yards.',`
+  - After: `why: 'The CO₂ trap with a Canadian registration: Health Canada’s registry lists the Patriot Plus (Reg. No. 32375). It burns propane from a 20 lb tank for its CO₂ plume, plugs in on a 50-foot cord and protects about 1 acre, with octenol attractant sold separately (Woodstream Canada). University of Wisconsin–Madison researchers report that homeowner traps usually do not reduce biting in the yard, so treat it as one layer, with dumping standing water and repellent.',`
+- **L145** (AwardRow Best Overall; C2-co2, B-swap). Same evidence as the entry above.
+  - Before: `search: 'biogents mosquitaire mosquito trap',`
+  - After: `search: 'mosquito magnet patriot plus',`
+- **L148** (AwardRow Best Overall; C2-co2, B-swap). Same evidence as the entry above.
+  - Before: `pros: ['No tank — runs on a plug + lure', 'Research-grade capture design', 'Low running cost'],`
+  - After: `pros: ['In Health Canada’s registry (Reg. No. 32375)', 'Protects about 1 acre (Woodstream Canada)', 'Plugs in on a 50-foot cord'],`
+- **L149** (AwardRow Best Overall; C2-co2, B-swap). Same evidence as the entry above.
+  - Before: `cons: ['Covers a zone, not full acreage', 'Works over weeks, not same-day'],`
+  - After: `cons: ['A 20 lb propane tank to change every 18–21 days', 'Works over weeks, not same-day'],`
+- **L154** (AwardRow Best for Patios (BG-Home); C2-co2, B-reword). No registered indoor or patio trap on the page: reworded honestly, link unchanged; "BG-Lure" corrected to BG-Sweetscent.
+  - Before: `why: 'A very quiet plug-in unit sized for an indoor room or covered patio, using the same BG-Lure chemistry — ideal for tiger-mosquito hotspots close to where you sit.',`
+  - After: `why: 'A very quiet plug-in unit that Biogents designs for indoors, with covered patios also on its list, using the BG-Sweetscent lure. Not registered in Canada: we found no Biogents product in Health Canada’s pesticide registry (October 28, 2026), so check for a PCP number on any trap you buy.',`
+- **L158** (AwardRow Best for Patios (BG-Home); C2-co2, B-reword). Same evidence as the entry above.
+  - Before: `cons: ['Smaller coverage zone', 'Needs lure refills'],`
+  - After: `cons: ['No Canadian registration found', 'Smaller coverage zone; needs lure refills'],`
+- **L163** (AwardRow Best Passive (BG-GAT); C2-co2, B-reword). No registered passive trap on the page: reworded honestly, link unchanged.
+  - Before: `… three or more for set-and-forget control.',`
+  - After: `… three or more for set-and-forget control. Not registered in Canada: we found no Biogents product in Health Canada’s pesticide registry (October 28, 2026), so check for a PCP number on any trap you buy.',`
+- **L167** (AwardRow Best Passive (BG-GAT); C2-co2, B-reword). Same evidence as the entry above.
+  - Before: `cons: ['Best deployed in clusters', 'Targets Aedes specifically'],`
+  - After: `cons: ['No Canadian registration found', 'Targets Aedes specifically; best in clusters'],`
+- **L181** (AwardRow whichToBuy; C2-co2).
+  - Before: `<strong>Normal suburban backyard?</strong> The <em>Best Overall</em> BG-Mosquitaire skips the tank and wins on running cost. <strong>Patio or indoor hotspot?</strong> The <em>Best for Patios</em> BG-Home is quiet and compact. <strong>Cottage or off-grid?</strong> A cluster of <em>Best Passive</em> BG-GATs needs no power. <strong>1+ acre rural lot?</strong> The …`
+  - After: `<strong>Want a CO2 trap you can buy and use in Canada?</strong> The <em>Best Overall</em> Patriot Plus is in Health Canada&rsquo;s registry (Reg. No. 32375). <strong>Patio, indoor hotspot or off-grid cottage?</strong> The <em>Best for Patios</em> BG-Home and the <em>Best Passive</em> BG-GAT are not: we found no Biogents product in the registry, so check for a PCP number before you buy either. <strong>1+ acre rural lot?</strong> The …`
+- **L255** (BuyLink (Biogents product); C2-co2, B-reword). Link unchanged; button text now says no Canadian registration was found.
+  - Before: `… search="biogents bg-home mosquito trap">Check price on Amazon.ca</BuyLink>`
+  - After: `… search="biogents bg-home mosquito trap">BG-Home (no Canadian registration found)</BuyLink>`
+- **L256** (BuyLink (Biogents product); C2-co2, B-reword). Same evidence as the entry above.
+  - Before: `… search="biogents gat trap kit">BG-GAT trap kit →</BuyLink>`
+  - After: `… search="biogents gat trap kit">BG-GAT trap kit (no Canadian registration found) →</BuyLink>`
+- **L257** (BuyLink (Biogents product); C2-co2, B-reword). Same evidence as the entry above.
+  - Before: `<BuyLink tag={AMZ_TAG} search="biogents bg booster co2">CO2 booster →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="biogents bg booster co2">Biogents CO2 booster (no Canadian registration found) →</BuyLink>`
+- **L275** (BuyLink (lure refill); C2-co2, B-reword). "BG-Lure" corrected to BG-Sweetscent; link unchanged.
+  - Before: `… search="biogents bg-lure refill">Check BG-Lure refills on Amazon.ca →</BuyLink>`
+  - After: `… search="biogents bg-lure refill">Check BG-Sweetscent lures on Amazon.ca (no Canadian registration found) →</BuyLink>`
+- **L342** (BuyLink (Biogents product); C2-co2, B-reword). Same evidence as the entry above.
+  - Before: `… trap kit">Check BG-GAT kits on Amazon.ca</BuyLink>`
+  - After: `… trap kit">Check BG-GAT kits on Amazon.ca (no Canadian registration found)</BuyLink>`
+
+### best-bed-bug-fogger-canada (22 lines)
+
+- **L120** (StickyBuyBar; C2-fog, B-swap). Cancelled Doktor Doom fogger (33939/28912) swapped to the page’s first alternative, the steamer, on its existing search (a device: no PCP number needed).
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Dry-vapour bed bug steamer" search="bed bug steamer" label="Instead of a fogger" />`
+- **L121** (TopBox (mirrors the StickyBuyBar); C2-fog, B-swap).
+  - Before: `<TopBox tag={AMZ_TAG} name="PMRA-registered total-release fogger (Doktor Doom)" search="doktor doom total release fogger" label="If you must fog" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Dry-vapour bed bug steamer" search="bed bug steamer" label="Instead of a fogger" />`
+- **L145** (AwardRow heading; C2-fog). "PMRA-Registered Foggers in Canada" is false since 2024.
+  - Before: `heading="Our Picks — PMRA-Registered Foggers in Canada (Used Correctly)"`
+  - After: `heading="Our Picks — What to Buy Instead of a Bed Bug Fogger in Canada"`
+- **L148** (AwardRow card 1 (was Doktor Doom fogger); C2-fog, B-swap). Swapped to the steamer (page search "bed bug steamer"); "legal to use here" and "PMRA-registered" removed.
+  - Before: `badge: 'Best PMRA Fogger',`
+  - After: `badge: 'Instead of a Fogger: Steam',`
+- **L149** (AwardRow card 1 (was Doktor Doom fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `name: 'Doktor Doom Total-Release Fogger (pyrethrin)',`
+  - After: `name: 'Dry-Vapour Bed Bug Steamer',`
+- **L150** (AwardRow card 1 (was Doktor Doom fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `why: 'An established Canadian brand carrying a Health Canada PCP registration number, so it is legal to use here. As a flushing and knockdown aerosol for exposed insects in an open room it does its narrow job — but like every fogger, it cannot reach the harbourage where bed bugs actually live.',`
+  - After: `why: 'Health Canada cancelled domestic total-release foggers, the Doktor Doom and Konk cans among them, with a last date of use of September 2, 2024. Steam does what a fog never did: a dry-vapour steamer drives heat into mattress seams, folds and cracks and kills bed bugs and their eggs on contact, and as a device rather than a pesticide it needs no PCP number.',`
+- **L151** (AwardRow card 1 (was Doktor Doom fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `search: 'doktor doom total release fogger',`
+  - After: `search: 'bed bug steamer',`
+- **L154** (AwardRow card 1 (was Doktor Doom fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `pros: ['PMRA-registered — legal in Canada', 'Trusted Canadian brand', 'Fine for flushing exposed insects in the open'],`
+  - After: `pros: ['Reaches seams and folds a fog cannot', 'Kills bugs and eggs on contact', 'Heat, so resistance does not blunt it'],`
+- **L155** (AwardRow card 1 (was Doktor Doom fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `cons: ['Cannot reach cracks, seams, or voids', 'Resistance blunts pyrethrin chemistry', 'Not a standalone bed-bug solution'],`
+  - After: `cons: ['Kills only what the steam touches', 'Slow, seam-by-seam work', 'Not a standalone bed-bug solution'],`
+- **L158** (AwardRow card 2 (was Konk fogger); C2-fog, B-swap). Swapped to the registered DE the page already sells (Safer’s 32278, page search "safers insect killing diatomaceous earth"); "Canadian-registered" removed. Box tells readers to look for 32278 because that search can surface other bags (TIER2-CHECK, DE page).
+  - Before: `badge: 'Best for Large Rooms',`
+  - After: `badge: 'Instead of a Fogger: Dust',`
+- **L159** (AwardRow card 2 (was Konk fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `name: 'Konk Total-Release Fogger',`
+  - After: `name: 'Safer’s Ant & Crawling Insect Killer DE (look for Reg. No. 32278)',`
+- **L160** (AwardRow card 2 (was Konk fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `why: 'A widely stocked Canadian-registered total-release aerosol for large open spaces where fast, hands-off coverage of exposed surfaces is the goal. Same fundamental limits apply — treat it as a supplemental flush, never the treatment.',`
+  - After: `why: 'An inert desiccant dust for the cracks, joints and voids a fog never reaches. Health Canada’s registry lists Safer’s Ant & Crawling Insect Killer (Reg. No. 32278), a diatomaceous earth squeeze bottle whose label says, for bed bugs, to disassemble beds and dust frames, joints, mattresses, tufts and seams, floors and baseboards. The search below can also show US Safer Home bags and the cancelled Safer’s Bedbug and Flea Killer, so look for Reg. No. 32278.',`
+- **L161** (AwardRow card 2 (was Konk fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `search: 'konk total release fogger',`
+  - After: `search: 'safers insect killing diatomaceous earth',`
+- **L163** (AwardRow card 2 (was Konk fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `pros: ['PMRA-registered', 'Good open-area aerosol coverage', 'Easy to source seasonally'],`
+  - After: `pros: ['Bed bugs on the registered label (Reg. No. 32278)', 'Physical action, so resistance does not blunt it', 'Reaches cracks, joints and voids'],`
+- **L164** (AwardRow card 2 (was Konk fogger); C2-fog, B-swap). Same evidence as the entry above.
+  - Before: `cons: ['Untargeted — lands where it drifts', 'Misses harbourage entirely', 'Flammable; strict label limits'],`
+  - After: `cons: ['Label: do not use as a space spray; avoid breathing dust', 'Search results can include other Safer’s bags; check the number'],`
+- **L169** (AwardRow card 3 (Pro Max); C2-fog). Use sites now match label 34126; "can" corrected to the label’s trigger sprayer; "weeks of residual" replaced by the label’s out-of-sunlight residual wording.
+  - Before: `why: 'If you are set on a chemical step, a directed residual spray injected into seams, cracks, and screw holes does what a fog cannot — it puts product exactly where bugs shelter and keeps killing for weeks, whereas a fog only settles on exposed surfaces. Pro Max is a PMRA-registered permethrin residual for baseboards, bed legs, frames, and furniture perimeters; it is not for mattresses or bedding, so read the label use sites before you spray. This is where fogger money is better spent.',`
+  - After: `why: 'If you are set on a chemical step, a directed crack-and-crevice spray does what a fog cannot: it puts product where bugs shelter, whereas a fog only settles on exposed surfaces. Pro Max (Reg. No. 34126) is a permethrin trigger spray; for bed bugs its label says to apply it to cracks and crevices in walls, floors and ceilings, along and behind baseboards and moulding, and to the walls behind and floors beneath furniture such as the bed and nightstand, but not to the mattress, headboard, footboard or furniture. This is where fogger money is better spent.',`
+- **L172** (AwardRow card 3 (Pro Max); C2-fog). Same evidence as the entry above.
+  - Before: `pros: ['Targets harbourage directly', 'Weeks of residual activity', 'PMRA-registered — the PCP number is on the can'],`
+  - After: `pros: ['Targets harbourage directly', 'Long-lasting residual out of sunlight (label)', 'PMRA-registered — Reg. No. 34126 on the label'],`
+- **L173** (AwardRow card 3 (Pro Max); C2-fog). Same evidence as the entry above.
+  - Before: `cons: ['Still limited by resistance', 'Not for mattresses or bedding', 'Requires careful, directed application'],`
+  - After: `cons: ['Still limited by resistance', 'Label: not on the mattress, headboard, footboard or furniture', 'Requires careful, directed application'],`
+- **L178** (AwardRow whichToBuy; C2-fog). "Use the Best PMRA Fogger" removed.
+  - Before: `<strong>Determined to fog an open room?</strong> Use the <em>Best PMRA Fogger</em> from Doktor Doom, strictly to the label, as a minor flush only. <strong>Large open space?</strong> The <em>Best for Large Rooms</em> Konk aerosol covers more ground. <strong>Want a chemical step that actually helps?</strong> Spend on the <em>Better Chemical Step</em> residual spray instead. <strong>And do not buy a US-market &ldquo;bed …`
+  - After: `<strong>Were you about to fog?</strong> Domestic total-release foggers are cancelled in Canada (the last date of use was September 2, 2024), so steam the seams and folds with the <em>Instead of a Fogger: Steam</em> pick and dust cracks and voids with the <em>Instead of a Fogger: Dust</em> pick, checking the bottle for Reg. No. 32278. <strong>Want a chemical step that actually helps?</strong> Spend on the <em>Better Chemical Step</em> spray, used only where its label allows. <strong>And do not buy a US-market &ldquo;bed …`
+- **L209** (BuyLink (fogger row of the comparison table); C2-fog, B-swap). Swapped to the page’s registered spray, Pro Max 34126.
+  - Before: `… py-3"><BuyLink tag={AMZ_TAG} search="doktor doom total release fogger" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `… py-3"><BuyLink tag={AMZ_TAG} search="doktor doom pro max" block>Registered spray instead →</BuyLink></td>`
+- **L263** (BuyLink; C2-fog, B-swap). Doktor Doom fogger swapped to Doktor Doom Pro Max (page search).
+  - Before: `<BuyLink tag={AMZ_TAG} search="doktor doom total release fogger">Doktor Doom fogger →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="doktor doom pro max">Doktor Doom Pro Max, not a fogger →</BuyLink>`
+- **L264** (BuyLink; C2-fog, B-swap). Konk fogger swapped to the page’s DE (Reg. No. 32278).
+  - Before: `<BuyLink tag={AMZ_TAG} search="konk total release fogger">Konk fogger →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth">DE dust (look for Reg. No. 32278) →</BuyLink>`
+
+### best-steam-mop-for-hardwood-floors-canada (7 lines)
+
+- **L140** (AwardRow Best Canadian Brand; C2-mop, B-swap). No "Dupray Bliss" exists: swapped to the page’s own canister-steamer search ("canister steam cleaner floor tool", L222), the kind of Dupray machine the page text recommends.
+  - Before: `name: 'Dupray Bliss-class Steam Mop',`
+  - After: `name: 'Dupray Canister Steam Cleaner with a Floor Tool',`
+- **L141** (AwardRow Best Canadian Brand; C2-mop, B-swap). Same evidence as the entry above.
+  - Before: `… actually claim, and the right plug in the box. A tidier, better-built machine for people who keep appliances a decade.',`
+  - After: `… actually claim, and the right plug in the box. It makes no steam mop: it sells canister steam cleaners (Neat, Neat Plus, Tosca, Hill Injection) that take a floor tool, and its FAQ says “Do NOT steam clean unsealed or oiled hardwood floors.” This search shows canister steamers from several brands, so look for the Dupray name; on a Neat, check the batch code against Health Canada’s February 2026 recall (0118-01 to 0425-05).',`
+- **L142** (AwardRow Best Canadian Brand; C2-mop, B-swap). Same evidence as the entry above.
+  - Before: `search: 'dupray bliss steam mop',`
+  - After: `search: 'canister steam cleaner floor tool',`
+- **L144** (AwardRow Best Canadian Brand; C2-mop, B-swap). Same evidence as the entry above.
+  - Before: `pros: ['Canadian company, local warranty and parts', 'Solid build for long service life', 'Straightforward controls'],`
+  - After: `pros: ['Canadian company, local warranty and parts', 'Takes a floor tool for sealed floors', 'Also does grout, upholstery and other surfaces'],`
+- **L145** (AwardRow Best Canadian Brand; C2-mop, B-swap). Same evidence as the entry above.
+  - Before: `cons: ['Costs more than the mass-market mops', 'Fewer accessory options than a canister steamer'],`
+  - After: `cons: ['Costs more than the mass-market mops', 'Heavy, and easy to over-treat a soft finish'],`
+- **L177** (AwardRow whichToBuy; C2-mop).
+  - Before: `… reach?</strong> The <em>Best Canadian Brand</em> Dupray-class unit. <strong>Tight budget?</strong> The <em>Best …`
+  - After: `… reach?</strong> The <em>Best Canadian Brand</em> pick, a Dupray canister steam cleaner with its floor tool (Dupray makes no steam mop). <strong>Tight budget?</strong> The <em>Best …`
+- **L256** (BuyLink; C2-mop, B-swap).
+  - Before: `<BuyLink tag={AMZ_TAG} search="dupray bliss steam mop">Dupray Bliss-class →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="canister steam cleaner floor tool">Canister steamer with floor tool →</BuyLink>`
+
+### best-crawl-space-dehumidifier-canada (0 lines)
+
+- No change: TIER2-CHECK found no wrong box claim and TIER2-LOG has no box flag for this page.
+
+### best-raccoon-proof-roof-vent-covers-canada (1 line)
+
+- **L157** (AwardRow Best for Soffits & Gables pros; C2-vent). Wasps removed.
+  - Before: `… airflow intact', 'Also excludes squirrels, birds, and wasps'],`
+  - After: `… airflow intact', 'Also excludes squirrels and birds'],`
+
+### best-upholstery-steam-cleaner-canada (1 line)
+
+- **L161** (AwardRow Best Add-On why; C2-uph, B-safe). "stiff-but-safe" removed.
+  - Before: `… tufted arms. A proper narrow tool and a stiff-but-safe brush lift results more than a bigger motor does.',`
+  - After: `… tufted arms. A proper narrow tool and a firm brush that suits the fabric lift results more than a bigger motor does.',`
+
+### best-whole-house-dehumidifier-canada (0 lines)
+
+- No change: TIER2-CHECK found no wrong box claim and TIER2-LOG has no box flag for this page. The unsourced CAD price bands the upgrader left for the owner (FAQ 1, AwardRow whichToBuy, "Where to Buy") are not a box-claim finding and were left alone.
+
+### best-whole-room-bed-bug-heater-canada (5 lines)
+
+- **L155** (AwardRow Best Overall pros; C2-heat). "Runs on a standard Canadian outlet" vs ZappBug’s 4 separate circuits.
+  - Before: `… mattresses, furniture, and belongings together', 'Runs on a standard Canadian outlet'],`
+  - After: `… mattresses, furniture, and belongings together', 'Plugs into household outlets; ZappBug says it needs 4 separate circuits'],`
+- **L160** (AwardRow Best Portable Room Heater; C2-heat, B-swap). No "Nuventa" brand exists: swapped to the page’s own certified-heater search (L240, "See certified units").
+  - Before: `name: 'Forced-Air Portable Bed-Bug Heater (Nuventa-style)',`
+  - After: `name: 'Forced-Air Portable Bed-Bug Heater (120V, certified)',`
+- **L162** (AwardRow Best Portable Room Heater; C2-heat, B-swap). Same evidence as the entry above.
+  - Before: `search: 'nuventa portable bed bug heater',`
+  - After: `search: 'portable bed bug heater 120v certified',`
+- **L226** (BuyLink (comparison table); C2-heat, B-swap).
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable bed bug heater 120v certified" block>Check price on Amazon.ca →</BuyLink></td>`
+- **L279** (BuyLink; C2-heat, B-swap).
+  - Before: `<BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater">Portable room heater →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="portable bed bug heater 120v certified">Portable room heater →</BuyLink>`
+
+### best-yellow-jacket-trap-canada (13 lines)
+
+- **L133** (Quick Answer line carrying the AmazonLink; C2-yj). Same unregistered East-formula recommendation as the Best Disposable box; "barely works" (not in RESCUE!’s wording) dropped.
+  - Before: `… describes as similar to the Western formula. If matching the lure to Ontario species matters more to you, buy the EAST-formula disposable (YJTD-E) and avoid the YJTD-W &ldquo;West of the Rockies&rdquo; SKU, whose heptyl butyrate lure barely works on the eastern, German, and common yellowjackets that dominate here. Hang traps 6+ metres from your patio, and …`
+  - After: `… describes as similar to the Western formula. RESCUE! also makes an East-formula disposable (YJTD-E) for the species more common east of the Rockies, but Health Canada&rsquo;s registry lists only the W bag (PCP 35529), RESCUE!&rsquo;s western formula, so check the PCP number on any bag you buy. Hang traps 6+ metres from your patio, and …`
+- **L159** (AwardRow Best Overall why; C2-yj, U-yj). "does not lure honey bees" -> RESCUE!’s "won’t trap"; East-formula recommendation replaced by the registry facts.
+  - Before: `… cartridge, a body that lasts years, and it does not lure honey bees. Note the chemistry honestly though — RESCUE! sells the reusable nationwide with a single lure, and by the company\'s own account it is similar to the Western Formula used in the disposable. If species-matched chemistry matters more to you than reusability, the East-formula disposable below is the better Ontario buy.',`
+  - After: `… cartridge, a body that lasts years, and RESCUE! says it won’t trap beneficial honeybees. Note the chemistry honestly though — RESCUE! sells the reusable nationwide with a single lure, and by the company\'s own account it is similar to the Western Formula used in the disposable. Health Canada’s registry lists its cartridge and tube lures (PCP 35530, 35531); we found no Canadian registration for RESCUE!’s East-formula disposable.',`
+- **L163** (AwardRow Best Overall pros; U-yj).
+  - Before: `pros: ['Reusable body — replace only cartridges', 'Does not attract honey bees', 'Catches for weeks per cartridge'],`
+  - After: `pros: ['Reusable body — replace only cartridges', 'RESCUE!: won’t trap honeybees', 'Catches for weeks per cartridge'],`
+- **L169** (AwardRow Best Multi-Species (W·H·Y); C2-yj, B-reword). No registered multi-species trap on the page: reworded honestly, link unchanged; "Well-proven design in Canada" removed.
+  - Before: `… wasps, and bald-faced hornets together. The right pick when you cannot tell what is bullying the patio.',`
+  - After: `… wasps, and bald-faced hornets together. Not registered in Canada: we found no W·H·Y Trap in Health Canada’s pesticide registry, and a lure trap sold to attract wasps falls under the Pest Control Products Act, so check for a PCP number before you buy one.',`
+- **L172** (AwardRow Best Multi-Species (W·H·Y); C2-yj, B-reword). Same evidence as the entry above.
+  - Before: `… groups', 'Season-long with attractant refills', 'Well-proven design in Canada'],`
+  - After: `… groups', 'Season-long with attractant refills'],`
+- **L173** (AwardRow Best Multi-Species (W·H·Y); C2-yj, B-reword). Same evidence as the entry above.
+  - Before: `cons: ['Costs more up front than a single-species …`
+  - After: `cons: ['No Canadian registration found', 'Costs more up front than a single-species …`
+- **L177** (AwardRow Best Disposable; C2-yj, B-reword). Same search (it covers both bags); box now names the registered W bag, 35529, and says no East registration was found.
+  - Before: `name: 'RESCUE! Disposable Yellowjacket Trap — East formula (YJTD-E)',`
+  - After: `name: 'RESCUE! Disposable Yellowjacket Trap W (PCP 35529)',`
+- **L178** (AwardRow Best Disposable; C2-yj, B-reword). Same evidence as the entry above.
+  - Before: `… rural property without tending cartridges.',`
+  - After: `… rural property without tending cartridges. The registered bag in Canada is the W (PCP 35529), RESCUE!’s western formula; we found no Canadian registration for the East formula (YJTD-E), so check the PCP number on the bag.',`
+- **L182** (AwardRow Best Disposable; C2-yj, B-reword). Same evidence as the entry above.
+  - Before: `cons: ['Single-use — pricier over a full season', 'Must check the label says East, not West of the Rockies'],`
+  - After: `cons: ['Single-use — pricier over a full season', 'The registered W bag is RESCUE!’s western formula'],`
+- **L187** (AwardRow Best Refillable / DIY Bait; C2-yj, B-reword). Schedule 1 item 2 note added; link unchanged.
+  - Before: `… only as hard as you do at refreshing bait.',`
+  - After: `… only as hard as you do at refreshing bait. A trap sold to attract wasps falls under the Pest Control Products Act in Canada, so check the listing for a PCP number.',`
+- **L196** (AwardRow whichToBuy; C2-yj).
+  - Before: `… reusable is the default buy on durability &mdash; or take the <em>Best Disposable</em> East-formula bag if you want the lure blended for eastern species. <strong>Mixed wasp trouble &mdash; paper wasps on the eaves plus yellow jackets at the table?</strong> Go <em>Best Multi-Species</em> with the WHY Trap (our <Link href="/blog/rescue-why-trap-review-canada">full WHY Trap review</Link> covers it in depth). <strong>One long weekend or a cottage you visit monthly?</strong> Hang a few <em>Best Disposable</em> bags and bin them full. <strong>Enjoy tinkering?</strong> A <em>Refillable bottle trap</em> plus the seasonal bait switch below out-catches lazy cartridge use &mdash; but only if you keep the bait fresh.`
+  - After: `… reusable is the default buy on durability; its cartridge and tube lures are in Health Canada&rsquo;s registry. <strong>Mixed wasp trouble &mdash; paper wasps on the eaves plus yellow jackets at the table?</strong> The <em>Best Multi-Species</em> WHY Trap covers all three, but we found no Canadian registration for it, so check for a PCP number first (our <Link href="/blog/rescue-why-trap-review-canada">full WHY Trap review</Link> covers it in depth). <strong>One long weekend or a cottage you visit monthly?</strong> Hang a few <em>Best Disposable</em> bags and bin them full; the registered one is the W (PCP 35529). <strong>Enjoy tinkering?</strong> A <em>Refillable bottle trap</em> plus the seasonal bait switch below out-catches lazy cartridge use &mdash; but only if you keep the bait fresh, and check its listing for a PCP number.`
+- **L254** (Table row label beside the W·H·Y BuyLink (text cell); C2-yj, B-text).
+  - Before: `… text-gray-500">wasps + hornets + yellowjackets</span></td>`
+  - After: `… text-gray-500">wasps + hornets + yellowjackets; no Canadian registration found</span></td>`
+- **L282** (BuyLink (W·H·Y); C2-yj, B-reword). Link unchanged; button text now says no Canadian registration was found.
+  - Before: `… wasp hornet yellow jacket">RESCUE! WHY Trap →</BuyLink>`
+  - After: `… wasp hornet yellow jacket">RESCUE! WHY Trap (no Canadian registration found) →</BuyLink>`
+
+### mosquito-magnet-canada (3 lines)
+
+- **L249** (AwardRow Best Overall why (fit item); C2-mm). "sufficient for most GTA suburban backyards" contradicted the page’s own advice (hero L162, cons L255).
+  - Before: `why: 'Treats up to 1 acre and is sufficient for most GTA suburban backyards — the same propane CO₂ engine as the models costing twice as much, at the entry price in the lineup.',`
+  - After: `why: 'Treats up to 1 acre — the same propane CO₂ engine as the models costing twice as much, at the entry price in the lineup. It pays off on acreage and cottage lots; on a typical suburban lot under about a quarter-acre, barrier spray protects the yard faster.',`
+- **L260** (AwardRow Executive why; C2-mm, U-mm). "improved attractant delivery" removed; the rest now matches Woodstream Canada’s Executive page.
+  - Before: `why: 'The top consumer model — improved attractant delivery, longer cartridge life, and tougher construction built for multi-season cottage …`
+  - After: `why: 'The top consumer model — cordless on a rechargeable battery, with fuel-saving modes that Woodstream says extend accessory and propane life by up to 40%, and heavy-duty construction built for multi-season cottage …`
+- **L277** (AwardRow whichToBuy; C2-mm). Same suburban claim in the same box.
+  - Before: `<strong>Typical suburban backyard, committed to 24/7 operation?</strong> The <em>Best Overall</em> Patriot Plus is all the trap most properties can use. <strong>Cottage, rural acreage, or chronic …`
+  - After: `<strong>A lot of a quarter-acre or more, committed to 24/7 operation?</strong> The <em>Best Overall</em> Patriot Plus is all the trap most such properties can use; on a typical suburban lot, barrier spray protects the yard faster. <strong>Cottage, rural acreage, or chronic …`
+
+### vapamore-mr100-steamer-review-canada (3 lines)
+
+- **L145** (TopPick blurb; C2-vap). "the concentrator and detail brush" do not exist on Vapamore’s list; UMN advises against pinpoint nozzles.
+  - Before: `… soaking the bed, and a full accessory kit with the concentrator and detail brush that actually drive heat into seams. It is priced in the sensible middle of …`
+  - After: `… soaking the bed, and a full accessory kit (floor head, fabric tool, jet nozzle and brushes); for bed bugs, University of Minnesota Extension suggests a floor or upholstery attachment rather than a pinpoint nozzle, which can blow the bugs away. It is priced in the sensible middle of …`
+- **L150** (TopPick pros; C2-vap).
+  - Before: `'Full accessory kit in the box (concentrator + detail brushes)',`
+  - After: `'Full accessory kit in the box (floor head, fabric tool, jet nozzle, brushes)',`
+- **L151** (TopPick pros; C2-vap, U-vap). "Hour-plus" vs Vapamore’s 50–60 min.
+  - Before: `'Hour-plus run time per fill — enough for one bedroom',`
+  - After: `'50–60 minutes of steam per fill (Vapamore) — enough for one bedroom',`
+
+### best-ulv-cold-fogger-canada (7 lines)
+
+- **L119** (StickyBuyBar; C2-ulv, B-swap-sib). PetraTools makes no corded 1–2 gallon ULV (its only ULV is a battery backpack; its fogger collection is empty).
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Adjustable corded electric ULV cold fogger" search="corded electric ulv fogger disinfectant" label="Best overall" />`
+- **L120** (TopBox (mirrors the StickyBuyBar); C2-ulv, B-swap-sib).
+  - Before: `<TopBox tag={AMZ_TAG} name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Adjustable corded electric ULV cold fogger" search="corded electric ulv fogger disinfectant" label="Best overall" />`
+- **L148** (AwardRow Best Overall; C2-ulv, B-swap-sib). Brand removed from the name; the class description (corded, flow dial, 1–2 gallon tank) is unchanged.
+  - Before: `name: 'PetraTools-Class Adjustable Electric ULV',`
+  - After: `name: 'Adjustable Corded Electric ULV Fogger',`
+- **L150** (AwardRow Best Overall; C2-ulv, B-swap-sib). Same evidence as the entry above.
+  - Before: `search: 'petratools ulv cold fogger electric',`
+  - After: `search: 'corded electric ulv fogger disinfectant',`
+- **L213** (Table row label beside the swapped BuyLink (text cell); C2-ulv, B-text).
+  - Before: `… className="font-normal text-xs text-gray-500">PetraTools-class</span></td>`
+  - After: `… className="font-normal text-xs text-gray-500">corded, with a flow dial</span></td>`
+- **L217** (BuyLink; C2-ulv, B-swap-sib).
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded electric ulv fogger disinfectant" block>Check price on Amazon.ca →</BuyLink></td>`
+- **L264** (BuyLink; C2-ulv, B-swap-sib).
+  - Before: `<BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric">Adjustable electric ULV →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="corded electric ulv fogger disinfectant">Adjustable electric ULV →</BuyLink>`
+
+### how-to-get-rid-of-wasps-canada (10 lines)
+
+- **L113** (StickyBuyBar; C2-wasp, B-swap, A-asin). W·H·Y (no Canadian registration) swapped to the page’s RESCUE! Yellowjacket Trap row (search "rescue yellowjacket trap", L281).
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" asin="B00BPTN6YC" search="rescue why trap" label="Best all-round trap" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="RESCUE! Yellowjacket Trap (look for PCP 35529–35531)" search="rescue yellowjacket trap" label="Top trap pick: yellowjackets" />`
+- **L114** (TopBox (mirrors the StickyBuyBar); C2-wasp, B-swap, A-asin).
+  - Before: `<TopBox tag={AMZ_TAG} name="RESCUE! WHY Trap (wasps, hornets & yellowjackets)" asin="B00BPTN6YC" search="rescue why trap" label="Best all-round trap" />`
+  - After: `<TopBox tag={AMZ_TAG} name="RESCUE! Yellowjacket Trap (look for PCP 35529–35531)" search="rescue yellowjacket trap" label="Top trap pick: yellowjackets" />`
+- **L139** (TopPick; C2-wasp, B-swap, A-asin). Blurb, pros and cons now describe the yellowjacket trap from RESCUE!’s page and the registry; score 8.7 and label kept.
+  - Before: `name="RESCUE! WHY Trap (Wasps, Hornets & Yellowjackets)"`
+  - After: `name="RESCUE! Yellowjacket Trap (Yellowjackets Only)"`
+- **L140** (TopPick; C2-wasp, B-swap, A-asin). Same evidence as the entry above.
+  - Before: `blurb="The one trap that covers all three wasp groups Canadians actually deal with. Its dual-chamber design and multi-attractant lure catch paper wasps, bald-faced hornets, and yellowjackets in a single unit, each lure refill runs about two weeks, and it is reusable season after season. Hang it 6+ metres from your patio starting in mid-April to intercept spring queens. Reasonably priced for a multi-season tool — full teardown in our dedicated review below."`
+  - After: `blurb="The trap pick whose lures are in Health Canada’s registry, which lists RESCUE!’s heptyl butyrate W disposable (PCP 35529), cartridge (35530) and tube (35531) but no W·H·Y Trap. It catches yellowjackets only: RESCUE! says it won’t catch hornets or paper wasps. The lure lasts about 2 to 4 weeks, with 4-week liquid and 10-week cartridge refills sold separately. Hang it 6+ metres from your patio, starting in spring to intercept queens, and check the PCP number on the box."`
+- **L141** (TopPick; C2-wasp, B-swap, A-asin). Same evidence as the entry above.
+  - Before: `asin="B00BPTN6YC"`
+  - After: `cta="Check price on Amazon.ca"`
+- **L142** (TopPick; C2-wasp, B-swap, A-asin). Same evidence as the entry above.
+  - Before: `search="rescue why trap"`
+  - After: `search="rescue yellowjacket trap"`
+- **L144** (TopPick; C2-wasp, B-swap, A-asin). Same evidence as the entry above.
+  - Before: `pros={['Catches all three wasp groups, not just yellowjackets', 'Reusable for years; only the lure is …`
+  - After: `pros={['Health Canada lists its cartridge and tube lures (PCP 35530, 35531)', 'Reusable for years; only the lure is …`
+- **L145** (TopPick; C2-wasp, B-swap, A-asin). Same evidence as the entry above.
+  - Before: `cons={['Manages foragers — it will not eliminate an established nest', 'Lure refills are an ongoing small cost']}`
+  - After: `cons={['Yellowjackets only: no paper wasps or hornets (RESCUE!)', 'Manages foragers — it will not eliminate an established nest']}`
+- **L272** (Table row label beside the swapped BuyLink (text cell); C2-wasp, B-text).
+  - Before: `… font-bold text-brand-800">RESCUE! WHY Trap</td>`
+  - After: `… font-bold text-brand-800">RESCUE! WHY Trap<br /><span className="font-normal text-xs text-gray-500">no Canadian registration found</span></td>`
+- **L275** (BuyLink (W·H·Y row); C2-wasp, B-swap).
+  - Before: `… py-3"><BuyLink tag={AMZ_TAG} search="rescue why trap" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `… py-3"><BuyLink tag={AMZ_TAG} search="rescue yellowjacket trap" block>RESCUE! Yellowjacket Trap instead →</BuyLink></td>`
+
+### Left unchanged, for the owner (tier 2 pages)
+
+- **Text lines (no affiliate element) that still recommend a product the boxes no longer sell as registered:** co2-mosquito-trap-canada (hero, Quick Answer bullets, FAQs and body still favour Biogents; L119 bullet says "BG-Lure"); best-yellow-jacket-trap-canada (L32 FAQ, L135 bullet and the SKU section still tell Ontario readers to buy the East bag); how-to-get-rid-of-wasps-canada (Quick Answer L120, FAQs L31 and L47 and body L258 still recommend the W·H·Y Trap); best-ulv-cold-fogger-canada (FAQ L30 and L74 still name PetraTools); vapamore-mr100-steamer-review-canada (Quick Answer L126, L129, L131 still say "concentrator", as TIER2-CHECK already noted).
+- **Editorial scores on untested units** (Vapamore TopPick 8.9, and every AwardRow score): no rating was added or changed; the owner decides whether scores stay.
+- **Prices** already in boxes or beside them were not touched (steam mop AwardRow and FAQs, whole-house whichToBuy, Mosquito Magnet tables and Quick Answer): they are owner items in TIER2-LOG, not box-claim findings.
+- **best-crawl-space-dehumidifier-canada and best-whole-house-dehumidifier-canada:** no change (see their sections above).
+- **Duplicates the swaps created** (each one honest, none a new product): the cockroach page now has three boxes on the boric acid bait search, the CO2 page two Patriot Plus cards (Best Overall and Best for Acreage), and the fogger page two Pro Max buttons in one row.
+
+## Tier 2 and 3 box fixes: mosquito devices, repellents, foggers, zappers, ants and yard ticks (Oct 29, 2026)
+
+Box fixes of Oct 29, 2026 under FIXBOX.md (owner: "Yes, fix the false product box claims"), following FIX-BRIEF.md. The verified problems are the "Box (owner)" items in TIER3-CHECK.md (lines 7-18, 41-43) and the box flags in TIER3-LOG.md (lines 9-29), each re-checked against its primary source on Oct 29. None of these 15 pages is in TIER2-CHECK.md or TIER2-LOG.md. **202 lines changed on 13 pages**, all `app/blog/<slug>/page.tsx`. Lines were replaced one for one (none added or removed), so each line number is the same before and after. Long lines are shown as exact excerpts around the change (… marks a cut).
+
+**Checks** (script against `git show HEAD:<file>`, line endings normalized; no git writes, no build):
+- Line counts unchanged on all 15 pages.
+- Counts of `<BuyLink`, `<AwardRow`, `<AwardCard`, `<StickyBuyBar`, `<AmazonLink`, `<TopPick`, `<TopBox`, `asin=`/`asin:`, `search=`/`search:`, `tag=`/`tag:` and `AMZ_TAG` identical to HEAD on all 15.
+- Every tag and ASIN unchanged. Every changed `search` value is a term already on the same page (listed per page below).
+- No "safe", "non-toxic", "PMRA-registered", "Health Canada approved", testing claim or price in any changed line.
+- `npx tsc --noEmit`: no errors.
+
+**Evidence key** (each entry cites these codes):
+
+- `R-ext`: Health Canada's registry product extract, downloaded Oct 29, 2026 (https://pest-control.canada.ca/pesticide-registry-api/api/extract/product; newest first registration 2026-10-28; product pages at https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=<Reg. No.>).
+  - 0 rows (any field): BIOGENTS, MOSQUITAIRE, DYNATRAP, ATRAKTA, IN2CARE, WONDERCIDE, CEDARCIDE, INSECT SHIELD, MOSQUITO BITS; no current BLACK FLAG or CUTTER product; no current citronella, cedar-oil or soybean-oil repellent active.
+  - Mosquito traps: MOSQUITO MAGNET PRO 28441 Cancelled (expiry 2024-11-12); PATRIOT PLUS 32375 and EXECUTIVE 29944 (DEVICE), SKEETERVAC SV-15 28452 and SV-3100C 31703, MK12 GUARDIAN 28460 current, DOMESTIC.
+  - Fogging: BLACK FLAG FOG INSECTICIDE 28121 and WILSON MOSQUITO FOGGING INSECTICIDE 17201 Cancelled (2017-10-31); current fogging products are aerosol cans (22808.03, 22808.01, 32481) or commercial.
+  - BTI: MOSQUITO DUNKS 28888 current DOMESTIC (sites include rain barrels, ornamental ponds, flower planters); pyriproxyfen lists mosquitoes only on dog spot-ons.
+  - Repellents: NATRAPEL ICARIDIN 34244, PIACTIVE KIDS 31457 and PIACTIVE LOTION 33411 (icaridin 20%), SAWYER 33032 (pump) and 33177 (pressurized), OFF! FAMILYCARE LOTION FOR KIDS 21299 (DEET 7.5%, ticks among its pests), OFF! BOTANICALS 34594 and 34008 (PMD); THERMACELL PATIO SHIELD 31998 and refills 35066 (allethrin), 33291 (prallethrin), Zone 33274, 34261, 34262 (metofluthrin).
+  - Permethrin clothing: NO FLY ZONE 32757 (DOMESTIC, apparel); the 0.5% clothing treatments 27930 and 31726 are COMMERCIAL (military uniforms, mosquito netting).
+  - Ants: COMBAT ANT KILLING SYSTEM 26467 Cancelled (2006-05-31); WILSON ANTOUT 28793 and KNOCK DOWN ECO ANT KILLER BAIT 31203 current DOMESTIC, pests include GREASE EATING ANTS; 12 current DOMESTIC products name CARPENTER ANTS (7 spinosad, 5 disodium octaborate, no borax or boric acid), among them RAID MAX LIQUID ANT BAITS 33831 and ORTHO ANT B GON MAX ANT & ROACH KILLER GEL 32560; TERRO 30897 lists "ANTS (COMMON SWEET-EATING ANTS)".
+  - Ticks: DOKTOR DOOM TICK KILLER PLUS+ 34405 and MOSQUITO BARRIER 32049 (garlic) current DOMESTIC.
+- `L-31998`: Thermacell Patio Shield label 2024-1463 (2024-05-24), fetched with WebFetch: https://pest-control.canada.ca/pesticide-registry-api/api/pdf/inline/en/444693314 . "area up to 4.5 metres from the product (as large as an average-size deck or patio) for up to four hours"; "Effect is not immediate. For best results, allow 30 minutes for product to take effect."; "minimal air movement".
+- `L-28888`: Mosquito Dunks label 2023-3665 (2023-07-28), fetched with WebFetch: https://pest-control.canada.ca/pesticide-registry-api/api/pdf/inline/en/444690607 . "one (1) Mosquito Dunk for up to 6 sq. metres water surface, regardless of depth"; "Allow a minimum of 48 hours for control"; "reapply at 30 day intervals if mosquito larvae are detected"; "DO NOT apply this product to any water that is designed to flow beyond your property limits".
+- `W-mm`: Woodstream Canada, Patriot Plus MM4202B, read Oct 29: https://www.woodstreambrands.ca/patriot-plus-mm-trap-canada-mm4202b . "Coverage area up to 1 acre"; "Trap works immediately, with results in 7 to 10 days"; "huge drops in the mosquito population should occur in about four weeks"; tank "every 18-21 days"; no percentage reduction. 50-foot cord as verified in TIER2-CHECK.md (mosquito-magnet-canada line).
+- `B-bg`: Biogents, read Oct 29: https://us-shop.biogents.com/products/bg-mosquitaire ("BG-Sweetscent ... Each sachet lasts up to two months"; box: "1x BG-Sweetscent lure (2 months)"; "We include the regulator, tubing, and nozzle; you just add the tank"; CO2 "broadens the catch to nearly every species") and https://research-shop.biogents.com/products/bg-sweetscent ("The BG-Sweetscent odor uses the same formulation as the BG-Lure").
+- `P-kito`: PARA'KITO, read Oct 29: https://us.parakito.com/products/mosquito-repellent-sport-band-with-2-refills . "Made in France"; "up to 15 days per refill"; not EPA-registered.
+- `N-2017`: Rodriguez et al. 2017, J Insect Sci 17(1):24: https://academic.oup.com/jinsectscience/article/17/1/24/3058025 . Bracelets tested: Mosquitavert, Mosquito-NO!, Invisaband (geraniol 30%). "None of the bracelets we tested caused any significant reduction in mosquito attraction."
+- `HC-rep`: Health Canada, Personal insect repellents (page details 2021-06-02): https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html . Wristbands among products that "do not protect well"; no "most effective" statement for DEET or icaridin; icaridin "should not be used on infants younger than 6 months old"; PMD/OLE "should not be used on children younger than 3 years old"; soybean oil "no age restrictions".
+- `HC-buy`: Health Canada, Buying pest control products online (2023-12-15): https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html . "It's a violation of the Pest Control Products Act to buy and use unregistered pesticides."
+- `PCPR`: Pest Control Products Regulations, Schedule 1 item 2 (devices sold to attract or destroy flying insects) and Schedule 2: https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/page-10.html , as cited on the pages and in TIER3-CHECK.md.
+- `CPS-CAT`: Canadian Paediatric Society handout (July 2023): https://caringforkids.cps.ca/handouts/safety-and-injury-prevention/insect_repellents , and CATMAT 2012: https://pmc.ncbi.nlm.nih.gov/articles/PMC6802427/ , as verified in TIER3-CHECK.md lines 10-11 and TIER2-CHECK.md (picaridin-vs-deet): icaridin up to 20% about 5-7 h; PMD up to 2 h; soybean up to 3.5 h; adults DEET 20-30% or icaridin 20%; 20% icaridin first choice 6 months to 12 years.
+- `FH-man`: Fountainhead manuals No. 161856 (Burgess propane) and No. 180557 (electric), as verified in TIER3-CHECK.md lines 13-14: Formula 2 only (Burgess); Formula 2, Cutter or Repel (electric); electric preheat 2-3 minutes, no ready light.
+- `DT-faq`: DynaTrap FAQ, read Oct 29: https://www.dynatrap.com/faq . Models named: DT1000, DT1000-12V, DT1700, DT1775, DT2000XL, DT2000XLP, DT3019, DT3039; no DT3050 and no separate attractant-fan model; Atrakta "Each lure will last approximately 8 weeks", "designed to mimic the natural body odors of humans" (no ingredients listed). A web search for "DT3050" DynaTrap (Oct 29) found no such model.
+- `LR`: Longray does make pulse-jet thermal foggers: Home Depot US lists the Longray Pulsejet Thermal Fogger TS35AE3 (https://www.homedepot.com/p/Longray-Pulsejet-Thermal-Fogger-Sprayer-3rd-Gen-1-6-Gal-TS35AE3/331534392), the Compact Pulsejet TS34 and the TS35N; Shenzhen Longray lists the TS-35A(E) handheld thermal fogger. The flag "no Longray thermal model verified" did not hold.
+- `ZAP`: PALONE solar zappers are listed with 4,500 V grids and 5.5-10 W panels (e.g. https://www.desertcart.ma/products/537933075-palone-solar-powerful-fly-zapper-7-5w-solar-panel-fly); PIC solar lanterns are listed at 600 V (e.g. https://www.landmsupply.com/pic-solar-barn-lantern-bug-zapper-flickering-flame). No source for a 3-5 m kill radius or for "stuns more than it kills" (TIER3-CHECK.md line 17).
+- `CED`: Cedarcide, read Oct 29: https://cedarcide.com/products/pco-choice . "For your first application each year, apply twice two weeks apart. Then just monthly after that." Wondercide's own pages returned 403 on Oct 29; retailer copy gives up to four weeks per application, so the box's "every 2 weeks" could not be confirmed and was removed.
+- `PHAC`: Public Health Agency of Canada, Permethrin-treated clothing: https://www.canada.ca/en/public-health/services/publications/diseases-conditions/permethrin-treated-clothing.html (consumer liquids or sprays to treat one's own clothing are not approved), as verified in TIER2-CHECK.md (TTC line).
+- `CAES`: Connecticut Agricultural Experiment Station, Tick Management Handbook: https://portal.ct.gov/-/media/caes/documents/publications/bulletins/b1010pdf (liquids give somewhat better control than granules; fertilizer spreader), as verified in TIER3-CHECK.md line 43.
+- `USDA`: Flor-Weiler et al. 2022 (USDA ARS): cedarwood oil repellency against tick nymphs decreased over time, as cited on the page and verified in TIER3-CHECK.md line 43.
+- `B-swap`: FIXBOX brief swap rule: the box now points at the registered alternative the same page recommends, reusing a search term already on that page (named in the page note); element type, position and tag kept.
+- `B-safe`: banned "safe" wording (FIXBOX brief; DIR2016-01).
+- `B-text`: a line with no affiliate element, changed only because the fixed box next to it would otherwise be wrong.
+- `N-price`: no-prices rule: prices on lines being edited were removed.
+
+### best-mosquito-repellent-device-canada (13 lines)
+
+Wording fixes; DynaTrap relabelled, not swapped (no registered UV light trap has a search term on this page; the registered devices that do, Thermacell and Mosquito Magnet, already hold their own cards); fogger card and liquid button reworded (no current insecticide is registered for a propane fogger, and the registered aerosol foggers have no search term here). Flags: TIER3-CHECK.md line 7, TIER3-LOG.md line 15.
+
+- **L117** Quick Answer (holds the AmazonLink): "6-metre (about 20-foot) repellent zone ... in roughly 15 minutes" replaced by the Patio Shield label; price range removed. L-31998, N-price
+  - Before: `…d-900">Thermacell zone repeller</AmazonLink> ($35&ndash;$229) &mdash; it creates a 6-metre (about 20-foot) repellent zone around your patio in roughly 15 minutes, with no smoke or spray. For thinning a whol…`
+  - After: `…d-900">Thermacell zone repeller</AmazonLink> &mdash; the Patio Shield&rsquo;s Canadian label (Reg. No. 31998) gives a repellent zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect, with no smoke or spray. For thinning a whol…`
+- **L172** Table row label cell (no affiliate element; the row's BuyLink at L177 sells DynaTrap). R-ext, PCPR
+  - Before: `<td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap)</td>`
+  - After: `<td className="px-4 py-3 font-bold text-brand-800">UV + fan trap (DynaTrap) <span className="font-normal text-xs text-gray-500">not registered in Canada</span></td>`
+- **L217** Best Overall why: "bite-free 6-metre bubble ... about 15 minutes" and "Testing shows 70–95% fewer bites" (unsourced testing claim) replaced by the label. L-31998
+  - Before: `why: 'Creates a bite-free 6-metre bubble around your patio in about 15 minutes — no smoke, no spray, no flame. Testing shows 70–95% fewer bites inside the zone, and it is the cheapest device that genuinely works…`
+  - After: `why: 'The Patio Shield’s Canadian label (Reg. No. 31998) says it repels and kills mosquitoes and reduces bites up to 4.5 metres (15 feet) from the unit, for up to four hours per mat, and to allow 30 minutes for it to take effect — no smoke, no spray, no flame. It is the cheapest device that genuinely works…`
+- **L221** Best Overall pro "Works in ~15 minutes". L-31998
+  - Before: `pros: ['Works in ~15 minutes', 'No smoke, spray, or flame', 'Cheapest device that actually works'],`
+  - After: `pros: ['Label zone up to 4.5 m (15 ft)', 'No smoke, spray, or flame', 'Cheapest device that actually works'],`
+- **L227** Best for Large Lots why: "70–90% over 6–8 weeks" (unsourced) replaced by the maker's figures. W-mm, R-ext
+  - Before: `…vidence of actually reducing mosquito numbers — 70–90% over 6–8 weeks within about a 1-acre radius by mimicking a breathing human.',`
+  - After: `…vidence of actually reducing mosquito numbers, by mimicking a breathing human. Woodstream Canada rates the Patriot Plus (Reg. No. 32375) at up to 1 acre and says results come in 7 to 10 days, with the big drops in about four weeks.',`
+- **L231** Same card, con "Takes 6–8 weeks" (same unsourced figure). W-mm
+  - Before: `cons: ['Premium up-front cost plus propane', 'Takes 6–8 weeks — nothing tonight'],`
+  - After: `cons: ['Premium up-front cost plus propane', 'Works over weeks — nothing tonight'],`
+- **L235** DynaTrap card name. R-ext, PCPR
+  - Before: `name: 'DynaTrap UV + Fan Trap',`
+  - After: `name: 'DynaTrap UV + Fan Trap (not registered in Canada)',`
+- **L236** DynaTrap card why. R-ext, PCPR
+  - Before: `…insect catcher rather than your primary plan.',`
+  - After: `…insect catcher rather than your primary plan. No DynaTrap model is in Health Canada’s register, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',`
+- **L245** Fogger card why: no current liquid for a propane fogger. R-ext
+  - Before: `…fect is short-lived with no lasting residual.',`
+  - After: `…fect is short-lived with no lasting residual. In Canada the liquid is the catch: the propane-fogger insecticides in Health Canada’s registry (Black Flag Fog 28121, Wilson Mosquito Fogging 17201) are cancelled, so check any fogging liquid for a current Reg. No. before you buy the machine.',`
+- **L254** whichToBuy: the fogger "buys a few hours" only with a registered liquid. R-ext
+  - Before: `…m>Best Pre-Event</em> fogger buys a few hours — but for same-day, whole-yard relief that a…`
+  - After: `…m>Best Pre-Event</em> fogger buys a few hours, if you can find a fogging liquid with a current Canadian Reg. No. for it — but for same-day, whole-yard relief that a…`
+- **L323** DynaTrap button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV trap →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="dynatrap insect trap">UV trap (not registered in Canada) →</BuyLink>`
+- **L356** DynaTrap button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check UV trap price on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="dynatrap insect trap">Check UV trap price on Amazon.ca (no DynaTrap is registered in Canada) →</BuyLink>`
+- **L371** Fogging-insecticide button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="mosquito fogging insecticide">Check fogging insecticide on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="mosquito fogging insecticide">Check fogging insecticide on Amazon.ca (look for a current Canadian Reg. No.) →</BuyLink>`
+
+### biogents-bg-mosquitaire-mosquito-trap-canada (31 lines)
+
+Swap: the page's top pick (StickyBuyBar, TopBox, AwardRow card 1, body button L274) now points at the registered alternative the page itself names for "a trap with a Canadian registration number" (L259: Patriot Plus 32375, Executive 29944), reusing this page's own search `mosquito magnet propane mosquito trap` (L222). Score 8.6 is mosquito-magnet-canada's score for the Patriot Plus. Reworded, not swapped: the CO2 version (its registered alternative already holds card 1 in this row), the comparison-table rows L214-215 (all rows share one button text at L229, which cannot say "instead"), the lures, the BG-GAT and the BG-Home (no registered lure, passive trap or indoor trap has a search term on this page). Flags: TIER3-CHECK.md line 8, TIER3-LOG.md line 16.
+
+- **L106** StickyBuyBar swapped. B-swap, R-ext, W-mm
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire mosquito trap" search="biogents bg-mosquitaire mosquito trap" label="The version most people should buy" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet propane trap (look for Reg. No. 32375 or 29944)" search="mosquito magnet propane mosquito trap" label="Registered alternative" />`
+- **L107** TopBox swapped (mirrors the StickyBuyBar). B-swap, R-ext, W-mm
+  - Before: `<TopBox tag={AMZ_TAG} name="Biogents BG-Mosquitaire mosquito trap" search="biogents bg-mosquitaire mosquito trap" label="The version most people should buy" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Mosquito Magnet propane trap (look for Reg. No. 32375 or 29944)" search="mosquito magnet propane mosquito trap" label="Registered alternative" />`
+- **L131** AwardRow heading, to match the swapped card. B-swap
+  - Before: `heading="Our Picks — Biogents Traps &amp; Consumables in Canada"`
+  - After: `heading="Our Picks — Biogents Traps &amp; Consumables, and a Registered Alternative"`
+- **L134** Card 1 badge. B-swap
+  - Before: `badge: 'Best Overall',`
+  - After: `badge: 'Registered Alternative',`
+- **L135** Card 1 name. B-swap, R-ext
+  - Before: `name: 'Biogents BG-Mosquitaire (lure-only)',`
+  - After: `name: 'Mosquito Magnet Propane Trap (Patriot Plus, Reg. No. 32375)',`
+- **L136** Card 1 why (was "the BG-Lure" and the lure-only trap). B-swap, R-ext, W-mm
+  - Before: `why: 'The version most Canadian homeowners should actually buy. Mains power, a fan, the BG-Lure, and a catch bag — no cylinder, no tank, no combustion. Same airflow design as the BG-Sentinel research trap, in a housing meant to live in a garden rather than a field study.',`
+  - After: `why: 'No Biogents trap or lure is in Health Canada’s registry, so this is the trap we point Canadian buyers to instead: a propane CO₂ trap registered here as a device, the Patriot Plus (Reg. No. 32375) or the Executive (29944). Woodstream Canada rates the Patriot Plus at up to 1 acre; it runs on a 20 lb propane tank changed every 18 to 21 days and plugs into an outlet within its 50-foot cord.',`
+- **L137** Card 1 search. B-swap
+  - Before: `search: 'biogents bg-mosquitaire mosquito trap',`
+  - After: `search: 'mosquito magnet propane mosquito trap',`
+- **L138** Card 1 score (sibling page's score for this product). B-swap
+  - Before: `score: 9.1,`
+  - After: `score: 8.6,`
+- **L140** Card 1 pros. R-ext, W-mm
+  - Before: `pros: ['No propane tank or CO2 cylinder', 'Research-grade design lineage', 'Very low season running cost'],`
+  - After: `pros: ['Registered device in Canada (32375; Executive 29944)', 'Up to 1 acre (Woodstream Canada)', 'Results in 7 to 10 days, the maker says'],`
+- **L141** Card 1 cons. W-mm
+  - Before: `cons: ['Needs a continuous outdoor outlet', 'Works over weeks, not overnight'],`
+  - After: `cons: ['A 20 lb propane tank every 18 to 21 days', 'Works over weeks, not overnight'],`
+- **L145** Card 2 name. R-ext, PCPR
+  - Before: `name: 'Biogents BG-Mosquitaire CO2',`
+  - After: `name: 'Biogents BG-Mosquitaire CO2 (not registered in Canada)',`
+- **L146** Card 2 why: registration added; regulator. B-bg, R-ext, PCPR
+  - Before: `why: 'The same trap with a carbon-dioxide plume added, which extends its pull against species that home in on exhaled breath rather than skin scent. Worth it on a property that genuinely backs onto a ravine, pond or wetland — and only after lure-only has proven insufficient.',`
+  - After: `why: 'The BG-Mosquitaire with a carbon-dioxide plume added, which Biogents says broadens the catch to nearly every species. Biogents includes the regulator, tubing and nozzle; you add the CO2 tank. No Biogents product is in Health Canada’s registry, and a device sold to attract or destroy flying insects needs a Reg. No. (Pest Control Products Regulations, Schedule 1), so check the box for one.',`
+- **L150** Card 2 con "Needs a cylinder plus a regulator" (Biogents includes the regulator). B-bg
+  - Before: `cons: ['Needs a cylinder plus a regulator', 'Ongoing refill cost and a tank to store'],`
+  - After: `cons: ['Needs a CO2 tank you source locally (Biogents includes the regulator)', 'Ongoing refill cost and a tank to store'],`
+- **L153** Card 3 badge "Best Running Cost" (the BG-Lure is not the trap's lure). B-bg
+  - Before: `badge: 'Best Running Cost',`
+  - After: `badge: 'Check the Lure First',`
+- **L155** Card 3 why: "a lure for months ... a multipack covers an Ontario season". B-bg, R-ext
+  - Before: `why: 'The consumable that keeps the trap honest. Biogents rates a lure for months rather than weeks, so a multipack covers an Ontario season with a spare. Buying one with the trap is the single best thing you can do to avoid a dead trap in the middle of July.',`
+  - After: `why: 'Check which lure your trap takes before you order: Biogents ships the BG-Mosquitaire with a BG-Sweetscent sachet, not a BG-Lure cartridge, and says BG-Sweetscent uses the same formulation as the BG-Lure. No Biogents lure is in Health Canada’s registry, so check the pack for a Reg. No.',`
+- **L158** Card 3 pro "One season, one or two cartridges". B-bg
+  - Before: `pros: ['One season, one or two cartridges', 'Scent lure, no insecticide in the trap'],`
+  - After: `pros: ['Same skin-scent formulation as BG-Sweetscent (Biogents)', 'Scent lure, no insecticide in the trap'],`
+- **L159** Card 3 cons. B-bg
+  - Before: `cons: ['Store sealed and cool or it degrades early'],`
+  - After: `cons: ['Not the lure Biogents ships with the BG-Mosquitaire', 'Store sealed and cool or it degrades early'],`
+- **L162** Card 4 badge "Best Add-On Lure" (BG-Sweetscent is the main lure). B-bg
+  - Before: `badge: 'Best Add-On Lure',`
+  - After: `badge: 'The Lure It Runs On',`
+- **L164** Card 4 why: "alongside the BG-Lure", "Short-lived by design". B-bg, R-ext
+  - Before: `why: 'A complementary attractant designed to be used alongside the BG-Lure rather than instead of it. Short-lived by design, so treat it as a boost during peak weeks — June and July in the GTA — rather than a season-long consumable.',`
+  - After: `why: 'The BG-Mosquitaire’s own lure: Biogents ships the trap with one BG-Sweetscent sachet and says each lasts up to two months, so a May-to-September Ontario season takes about three. No Biogents lure is in Health Canada’s registry, so check the pack for a Reg. No.',`
+- **L167** Card 4 pros. B-bg
+  - Before: `pros: ['Stacks with the standard lure', 'Cheap way to lift peak-season catch'],`
+  - After: `pros: ['The lure that ships with the BG-Mosquitaire', 'Up to two months per sachet (Biogents)'],`
+- **L168** Card 4 cons "Shorter life than the BG-Lure", "Not a substitute for the main lure". B-bg, R-ext
+  - Before: `cons: ['Shorter life than the BG-Lure', 'Not a substitute for the main lure'],`
+  - After: `cons: ['About three sachets for May to September', 'No Biogents lure in Health Canada’s registry'],`
+- **L177** Card 5 (BG-GAT) con added. R-ext, PCPR
+  - Before: `cons: ['Needs several units to matter', 'Targets container-breeding Aedes specifically'],`
+  - After: `cons: ['Needs several units to matter', 'Targets container-breeding Aedes specifically', 'Not registered in Canada (no Biogents product in the registry)'],`
+- **L186** Card 6 (BG-Home) con added. R-ext, PCPR
+  - Before: `cons: ['Solves an indoor problem, not a yard problem'],`
+  - After: `cons: ['Solves an indoor problem, not a yard problem', 'Not registered in Canada (no Biogents product in the registry)'],`
+- **L191** whichToBuy: swapped pick, BG-Sweetscent, regulator included. B-swap, B-bg, R-ext
+  - Before: `<strong>Suburban GTA backyard with real, all-season pressure?</strong> The <em>Best Overall</em> lure-only BG-Mosquitaire, plus a <em>Best Running Cost</em> lure multipack in the same order. <strong>Backing onto a ravine, pond or wetland, and lure-only was not enough last year?</strong> Step up to <em>Best for Heavy Pressure</em> and budget for the cylinder and regulator too. <strong>Cottage, dock, or nowhere to plug i…`
+  - After: `<strong>Want a trap with a Canadian registration?</strong> The <em>Registered Alternative</em> propane trap: look for Reg. No. 32375 (Patriot Plus) or 29944 (Executive) on the box. <strong>Set on the lure-only BG-Mosquitaire anyway?</strong> No Biogents trap or lure is in Health Canada&rsquo;s registry, so weigh that first; the trap runs on <em>BG-Sweetscent</em>, about three sachets a season. <strong>Backing onto a ravine, pond or wetland, and lure-only was not enough last year?</strong> The <em>Best for Heavy Pressure</em> CO2 version needs a CO2 tank too; Biogents includes the regulator. <strong>Cottage, dock, or nowhere to plug i…`
+- **L214** Table row 1 (one line; its button is the shared L229): "BG-Lure cartridges" and registration. B-bg, R-ext
+  - Before: `… lure + convection-style airflow', feed: 'BG-Lure cartridges, wall power', best: 'Suburban yards with chronic pressure', search: 'biogents bg-mosquitaire mosquito …`
+  - After: `… lure + convection-style airflow', feed: 'BG-Sweetscent lure, wall power', best: 'Suburban yards with chronic pressure; no Canadian registration found', search: 'biogents bg-mosquitaire mosquito …`
+- **L215** Table row 2: registration. R-ext
+  - Before: `…best: 'Ravine, pond and wetland-adjacent lots', search: 'biogents bg-mosquitaire co2 mosqu…`
+  - After: `…best: 'Ravine, pond and wetland-adjacent lots; no Canadian registration found', search: 'biogents bg-mosquitaire co2 mosqu…`
+- **L216** Table row 3: "Required for the CO2 version". B-bg
+  - Before: `…the trap', feed: 'One-time purchase', best: 'Required for the CO2 version', search: 'co2 regulator pressur…`
+  - After: `…the trap', feed: 'One-time purchase', best: 'Biogents includes one with its CO2 version', search: 'co2 regulator pressur…`
+- **L274** Body button for the lure-only trap swapped, as its card was. B-swap, R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="biogents bg-mosquitaire mosquito trap">Check the BG-Mosquitaire on Amazon.ca &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="mosquito magnet propane mosquito trap">A propane trap instead (look for Reg. No. 32375 or 29944; no Biogents trap is registered) &rarr;</BuyLink>`
+- **L275** BG-Lure button. B-bg
+  - Before: `<BuyLink tag={AMZ_TAG} search="biogents bg-lure replacement cartridge">Check BG-Lure cartridges &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="biogents bg-lure replacement cartridge">Check BG-Lure cartridges (the BG-Mosquitaire ships with BG-Sweetscent) &rarr;</BuyLink>`
+- **L293** CO2-version button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="biogents bg-mosquitaire co2 mosquito trap">Check the CO2 version &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="biogents bg-mosquitaire co2 mosquito trap">Check the CO2 version (no Canadian registration found) &rarr;</BuyLink>`
+- **L357** BG-Sweetscent button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="biogents bg-sweetscent lure">Check BG-Sweetscent &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="biogents bg-sweetscent lure">Check BG-Sweetscent (no Canadian registration found) &rarr;</BuyLink>`
+
+### best-professional-mosquito-trap-canada (19 lines)
+
+Swaps. Mosquito Magnet Pro (28441, cancelled) -> the registered propane CO2 traps this page names (L111, L284-288, L350), reusing the page's own search `propane co2 mosquito trap` (card 3, L166). In2Care (no In2Care product and no pyriproxyfen mosquito larvicide registered) -> the registered BTI this page names for the larval job (Mosquito Dunks 28888, L293, L302, L335), reusing the page's own search `bti mosquito dunks granules` (L396); score 8.8 is mosquito-dunks-canada-guide's score for Mosquito Dunks. DynaTrap button reworded (no registered UV trap has a search term here). Flags: TIER3-CHECK.md line 9, TIER3-LOG.md line 17.
+
+- **L117** StickyBuyBar swapped. B-swap, R-ext
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Registered propane CO₂ trap (look for Reg. No. 32375, 29944, 28452, 31703 or 28460)" search="propane co2 mosquito trap" label="Best registered pro trap" />`
+- **L118** TopBox swapped. B-swap, R-ext
+  - Before: `<TopBox tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Registered propane CO₂ trap (look for Reg. No. 32375, 29944, 28452, 31703 or 28460)" search="propane co2 mosquito trap" label="Best registered pro trap" />`
+- **L145** Card 1 name. B-swap, R-ext
+  - Before: `name: 'Mosquito Magnet Pro (commercial propane CO₂)',`
+  - After: `name: 'Registered Propane CO₂ Trap (Patriot Plus, Executive or SkeeterVac)',`
+- **L146** Card 1 why: cancelled Pro and the current numbers. R-ext
+  - Before: `…uous seasonal running across roughly an acre.',`
+  - After: `…uous seasonal running across roughly an acre. The Mosquito Magnet Pro’s Canadian registration (28441) is cancelled, so buy a model whose box shows a current Reg. No.: Patriot Plus 32375, Executive 29944, SkeeterVac SV-15 28452 or SV-3100C 31703.',`
+- **L147** Card 1 search. B-swap
+  - Before: `search: 'mosquito magnet pro commercial trap',`
+  - After: `search: 'propane co2 mosquito trap',`
+- **L154** Card 2 badge. B-swap
+  - Before: `badge: 'Best Life-Cycle System',`
+  - After: `badge: 'Best Larval Control (Registered)',`
+- **L155** Card 2 name. B-swap, R-ext
+  - Before: `name: 'In2Care Larvicide Autodissemination Station',`
+  - After: `name: 'Mosquito Dunks BTI Larvicide (Reg. No. 28888)',`
+- **L156** Card 2 why: "A licensed-operator, PMRA-regulated program" replaced. R-ext, L-28888
+  - Before: `why: 'A different weapon entirely: females contaminate themselves on treated gauze, then carry a larvicide to every water source they visit — sabotaging cryptic breeding sites you could never find. A licensed-operator, PMRA-regulated program, not a consumer purchase.',`
+  - After: `why: 'The In2Care larvicide station has no Canadian registration: Health Canada’s registry lists no In2Care product and no pyriproxyfen product labelled for mosquito larvae, so no one may use it here. The larval half of a Canadian program is a registered BTI product in the water you can reach. The Mosquito Dunks label: one dunk for up to 6 square metres of water surface, regardless of depth; allow at least 48 hours; reapply at 30-day intervals if larvae are detected.',`
+- **L157** Card 2 search. B-swap
+  - Before: `search: 'mosquito larvicide station',`
+  - After: `search: 'bti mosquito dunks granules',`
+- **L158** Card 2 score (sibling page's score for Mosquito Dunks). B-swap
+  - Before: `score: 8.5,`
+  - After: `score: 8.8,`
+- **L159** Card 2 pros. R-ext, L-28888
+  - Before: `pros: ['Reaches hidden breeding sites you cannot', 'Attacks larvae, not just adults', 'Grid-placed to cover a whole zone'],`
+  - After: `pros: ['Registered for home use (Reg. No. 28888)', 'Kills larvae before they become biting adults', 'Label sites include rain barrels, ornamental ponds and planters'],`
+- **L160** Card 2 cons "Regulated pesticide — licensed operators only" replaced. L-28888, R-ext
+  - Before: `cons: ['Regulated pesticide — licensed operators only', 'Priced and serviced as a seasonal program'],`
+  - After: `cons: ['Only treats the water you find and dose', 'Not for water that flows off your property (label); Mosquito Bits granules have no Canadian registration'],`
+- **L183** whichToBuy: "In2Care ... through a licensed operator" replaced. R-ext, L-28888
+  - Before: `…ding sites you can’t find or reach?</strong> The <em>Best Life-Cycle System</em> (In2Care) is the autodissemination answer &mdash; through a licensed operator. <strong>Estate-size lot?</strong> Plan a <e…`
+  - After: `…ding sites you can’t find or reach?</strong> In2Care has no Canadian registration, so it is not an option here; dose the water you can reach with the <em>Best Larval Control</em> BTI (Mosquito Dunks, Reg. No. 28888) and let a barrier spray cover the rest. <strong>Estate-size lot?</strong> Plan a <e…`
+- **L210** Table row label cell (no affiliate element): "Mosquito Magnet Pro" -> the registered models, to match the swapped button at L214. B-text, R-ext
+  - Before: `…lassName="font-normal text-xs text-gray-500">Mosquito Magnet Pro</span></td>`
+  - After: `…lassName="font-normal text-xs text-gray-500">Registered models: Patriot Plus, Executive, SkeeterVac</span></td>`
+- **L214** Table row button swapped. B-swap
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane co2 mosquito trap" block>Check price on Amazon.ca →</BuyLink></td>`
+- **L221** Table row button (In2Care row, which already says "Not registered in Canada") swapped. B-swap, L-28888
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito larvicide station" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bti mosquito dunks granules" block>BTI instead (look for Reg. No. 28888) →</BuyLink></td>`
+- **L235** DynaTrap button. R-ext
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca (no DynaTrap is registered) →</BuyLink></td>`
+- **L316** Body button swapped. B-swap
+  - Before: `<BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap">Commercial propane trap →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="propane co2 mosquito trap">Propane trap (check for a current Reg. No.) →</BuyLink>`
+- **L317** Body button swapped. B-swap, L-28888
+  - Before: `<BuyLink tag={AMZ_TAG} search="mosquito larvicide station">Larvicide station →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="bti mosquito dunks granules">BTI larvicide instead (look for Reg. No. 28888) →</BuyLink>`
+
+### mosquito-repellent-bracelets-canada (32 lines)
+
+Swaps, product by product. PARA'KITO elements (StickyBuyBar, TopBox, card 1, L282, L305) -> the registered recommendation this page makes instead of a band (hero L96, L268, L389): a 20% icaridin repellent, reusing the page's own search `icaridin insect repellent` (L389); score 9.0 is picaridin-vs-deet's score for its 20% icaridin pick. Invisaband elements (card 4, L326; Invisaband failed the NMSU test) -> a heated area repeller, this page's answer for an evening on the deck (L270, L380), reusing the page's own search `thermacell mosquito repeller` (L380); score 9.1 is best-mosquito-repellent-device-canada's Thermacell score. Reworded, not swapped: citronella disposables and Mosquito Guard (both registered alternatives already hold a card in this row), and the PARA'KITO refill line (a refill for a band already owned). Flags: TIER3-CHECK.md line 10, TIER3-LOG.md line 18.
+
+- **L102** StickyBuyBar swapped (was PARA'KITO). B-swap, R-ext, HC-rep
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="PARA'KITO refillable repellent band" search="parakito mosquito bracelet" label="Best-value band" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="20% icaridin repellent (look for a Canadian Reg. No.)" search="icaridin insect repellent" label="What works instead" />`
+- **L103** TopBox swapped. B-swap, R-ext, HC-rep
+  - Before: `<TopBox tag={AMZ_TAG} name="PARA'KITO refillable repellent band" search="parakito mosquito bracelet" label="Best-value band" />`
+  - After: `<TopBox tag={AMZ_TAG} name="20% icaridin repellent (look for a Canadian Reg. No.)" search="icaridin insect repellent" label="What works instead" />`
+- **L126** AwardRow heading, to match the swapped cards. B-swap
+  - Before: `heading="Our Picks — Best Mosquito Repellent Bracelets in Canada"`
+  - After: `heading="Our Picks — Mosquito Bracelets, and What Works Instead"`
+- **L129** Card 1 badge. B-swap
+  - Before: `badge: 'Best Overall',`
+  - After: `badge: 'What Works Instead',`
+- **L130** Card 1 name. B-swap
+  - Before: `name: 'PARA’KITO Refillable Band',`
+  - After: `name: '20% Icaridin Repellent (look for a Canadian Reg. No.)',`
+- **L131** Card 1 why (was "Swiss-made"; PARA'KITO: "Made in France"). B-swap, R-ext, HC-rep, CPS-CAT
+  - Before: `why: 'The one band worth buying: Swiss-made with replaceable essential-oil pellets, so it lasts a full season instead of a weekend. Still only protects the skin right next to it — but it is the best-value pick in a weak category.',`
+  - After: `why: 'No repellent bracelet is in Health Canada’s registry, and Health Canada lists repellent wristbands among products that do not protect well, so this is what we point readers to instead: an icaridin repellent on exposed skin. The Canadian Paediatric Society gives icaridin up to 20% about 5 to 7 hours against mosquitoes, and CATMAT names 20% icaridin its first choice for children 6 months to 12 years. Examples on the register: Natrapel Icaridin (34244) and PiActive Kids (31457).',`
+- **L132** Card 1 search. B-swap
+  - Before: `search: 'parakito mosquito bracelet',`
+  - After: `search: 'icaridin insect repellent',`
+- **L133** Card 1 score (sibling page's score). B-swap
+  - Before: `score: 7.4,`
+  - After: `score: 9.0,`
+- **L135** Card 1 pros. R-ext, CPS-CAT
+  - Before: `pros: ['Refillable — season-long value', 'DEET-free · popular with parents', 'Sturdier than disposables'],`
+  - After: `pros: ['Covers all the skin you apply it to', 'Registered examples: Natrapel 34244, PiActive Kids 31457', 'CATMAT’s first choice for ages 6 months to 12 years'],`
+- **L136** Card 1 cons. HC-rep
+  - Before: `cons: ['Only protects near the band', 'Refill pellets add cost'],`
+  - After: `cons: ['Something to apply, not something to wear', 'Not for infants under 6 months (Health Canada)'],`
+- **L140** Card 2 name. R-ext
+  - Before: `name: 'Citronella Disposable (10-pk)',`
+  - After: `name: 'Citronella Disposable (10-pk; not registered in Canada)',`
+- **L141** Card 2 why: registration. R-ext, HC-rep
+  - Before: `… scent fades within a day or two of real use.',`
+  - After: `… scent fades within a day or two of real use. No current Canadian product has citronella oil as its active ingredient, and no bracelet is in Health Canada’s registry.',`
+- **L148** Card 3 badge "Best for Kids" (unregistered band). R-ext
+  - Before: `badge: 'Best for Kids',`
+  - After: `badge: 'Kids’ Band (Not Registered)',`
+- **L150** Card 3 why: registration and CATMAT. R-ext, CPS-CAT
+  - Before: `…topical repellent whose label covers children.',`
+  - After: `…topical repellent whose label covers children: no bracelet is in Health Canada’s registry, and for a child CATMAT’s first choice is 20% icaridin from 6 months.',`
+- **L157** Card 4 badge. B-swap
+  - Before: `badge: 'Best for Parties',`
+  - After: `badge: 'Best for a Backyard Gathering',`
+- **L158** Card 4 name. B-swap
+  - Before: `name: 'Invisaband Bulk Pack',`
+  - After: `name: 'Thermacell Heated Area Repeller (look for a Canadian Reg. No.)',`
+- **L159** Card 4 why (Invisaband failed the test). N-2017, L-31998
+  - Before: `why: 'Bulk citronella bands for camping trips and backyard gatherings where you want to hand one to everyone. Same limited-radius principle as the rest.',`
+  - After: `why: 'Invisaband was one of the three bracelets in the 2017 New Mexico State University test, and none of them reduced mosquito attraction. For a group on a deck, a heated area repeller protects the seating instead: Thermacell’s Patio Shield label (Reg. No. 31998) gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect.',`
+- **L160** Card 4 search. B-swap
+  - Before: `search: 'invisaband citronella bracelet',`
+  - After: `search: 'thermacell mosquito repeller',`
+- **L161** Card 4 score (sibling page's score). B-swap
+  - Before: `score: 6.8,`
+  - After: `score: 9.1,`
+- **L162** Card 4 pros. L-31998, R-ext
+  - Before: `pros: ['Bulk quantities', 'Handy for groups', 'Cheap'],`
+  - After: `pros: ['Protects the seating area, not one wrist', 'No spray on skin', 'Registered in Canada (Patio Shield 31998)'],`
+- **L163** Card 4 cons (page L380: works best on a still evening; nothing outside the zone). L-31998
+  - Before: `cons: ['Disposable only', 'Weak beyond the band'],`
+  - After: `cons: ['Works best in still air', 'Nothing for anyone outside the zone'],`
+- **L168** whichToBuy, to match the swapped and reworded cards. B-swap, N-2017, R-ext
+  - Before: `<strong>Using a band all season?</strong> The <em>Best Overall</em> refillable PARA’KITO is the only one worth reusing. <strong>Handing them out at a party?</strong> Grab the <em>Best Budget</em> or <em>Best for Parties</em> multipacks. <strong>For a child?</strong> A <em>Best for Kids</em> DEET-free band is a fine extra layer — but for a backyard evening with fewer bites, a pro…`
+  - After: `<strong>Want protection that works?</strong> The <em>What Works Instead</em> pick is a 20% icaridin repellent with a Canadian Reg. No., on exposed skin. <strong>Hosting people on the deck?</strong> The <em>Backyard Gathering</em> heated area repeller protects the seating; a band does not. <strong>Still want a band?</strong> No bracelet is registered in Canada and none of the three in the NMSU test reduced mosquito attraction, so treat a <em>Best Budget</em> multipack or a <em>Kids’ Band</em> as an extra at most, on top of a registered repellent. For a backyard evening with fewer bites, a pro…`
+- **L282** Body button swapped. B-swap
+  - Before: `<BuyLink tag={AMZ_TAG} search="parakito mosquito bracelet">Check refillable band price on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="icaridin insect repellent">Icaridin repellent instead (look for the Reg. No.) →</BuyLink>`
+- **L283** Citronella button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet">Citronella band multipacks →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="citronella mosquito bracelet">Citronella band multipacks (not registered in Canada) →</BuyLink>`
+- **L305** Table row button (PARA'KITO row) swapped. B-swap
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="parakito mosquito band" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="icaridin insect repellent" block>Icaridin instead (look for the Reg. No.) →</BuyLink></td>`
+- **L308** Table row label cell (no affiliate element; its button is L312). R-ext
+  - Before: `…me="font-normal text-xs text-gray-500">(10-pk)</span></td>`
+  - After: `…me="font-normal text-xs text-gray-500">(10-pk; not registered in Canada)</span></td>`
+- **L315** Table row label cell (no affiliate element; its button is L319). R-ext
+  - Before: `<td className="px-4 py-3 font-bold text-brand-800">Mosquito Guard Bands</td>`
+  - After: `<td className="px-4 py-3 font-bold text-brand-800">Mosquito Guard Bands <span className="font-normal text-xs text-gray-500">(not registered in Canada)</span></td>`
+- **L326** Table row button (Invisaband row) swapped. B-swap
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="invisaband citronella bracelet" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller" block>Area repeller instead (look for the Reg. No.) →</BuyLink></td>`
+- **L331** Refill line (holds the BuyLink): "roughly 7–15 days" -> maker's "up to 15 days"; registration. P-kito, R-ext
+  - Before: `… text-gray-600 mb-6">Buying a refillable band? Grab a pack of replacement pellets at the same time — each lasts roughly 7–15 days, so a few packs cover a full May–September season. <BuyLink tag={AMZ_TAG} search="parakito r…`
+  - After: `… text-gray-600 mb-6">Buying a refillable band anyway? PARA&rsquo;KITO says each pellet lasts up to 15 days, so a few packs cover a full May–September season; like the band, the refills have no Canadian registration. <BuyLink tag={AMZ_TAG} search="parakito r…`
+- **L380** Thermacell line (holds the BuyLink): "(metofluthrin or prallethrin)" -> the Canadian registrations' actives. R-ext
+  - Before: `…a mat that disperses a pyrethroid repellent (metofluthrin or prallethrin) across a defined zone around the seating, s…`
+  - After: `…a mat that disperses a pyrethroid repellent (allethrin or prallethrin on the butane models, metofluthrin on the rechargeable Zone models, by their Canadian registrations) across a defined zone around the seating, s…`
+- **L389** Icaridin line (holds the BuyLink): "Health Canada describes DEET and icaridin as the most effective" (not on Health Canada's page) -> CATMAT. HC-rep, CPS-CAT
+  - Before: `…people skip, having already bought the band. Health Canada describes DEET and icaridin as the most effective personal insect repellents available in Canada &mdash; icaridin being the Canadian name for…`
+  - After: `…people skip, having already bought the band. Canada&rsquo;s travel-medicine committee, CATMAT, recommends DEET at 20&ndash;30% or icaridin at 20% for adults and names 20% icaridin its first choice for children 6 months to 12 years &mdash; icaridin being the Canadian name for…`
+- **L406** Permethrin button: the 0.5% clothing sprays on the register are commercial class. R-ext
+  - Before: `…in clothing spray">Check permethrin clothing and gear treatments on Amazon.ca &rarr;</BuyLink></p>`
+  - After: `…in clothing spray">Check permethrin clothing sprays on Amazon.ca (the 0.5% sprays on Canada&rsquo;s register are commercial class) &rarr;</BuyLink></p>`
+
+### best-bug-spray-for-kids-canada (20 lines)
+
+Swaps. Sawyer lotion (no Sawyer lotion registered: 33032 pump, 33177 pressurized) -> PiActive Insect Repellent Lotion 33411, the registered icaridin lotion in this page's own registry table (L261), reusing the page's own search `piactive icaridin repellent` (L141, L319); score 8.7 is this page's PiActive score. Bite Blocker (no soybean-oil repellent registered) -> OFF! FamilyCare Lotion for use on Kids 21299, in the page's registry table (L263), reusing the page's own search `off familycare deet` (L290); score kept. Wording: Natrapel "Health Canada's preferred pick" -> CATMAT; PiActive "approved for kids" and "safety tier" removed; OFF! Botanicals "4–6 hour" -> CPS up to 2 h. Flags: TIER3-CHECK.md line 11, TIER3-LOG.md line 19.
+
+- **L130** Card 1 why: "Health Canada's preferred pick" (Health Canada names none). CPS-CAT, R-ext, HC-rep
+  - Before: `why: 'Health Canada’s preferred pick for children over 6 months — icaridin 20% covers mosquitoes and ticks for up to 12 hours, is nearly odourless, and won’t cloud sunglasses or soften strolle…`
+  - After: `why: '20% icaridin is CATMAT’s first choice for children 6 months to 12 years, and Natrapel’s label (Reg. No. 34244) claims up to 12 hours against mosquitoes and ticks — it is nearly odourless and won’t cloud sunglasses or soften strolle…`
+- **L140** Card 2 why: "approved for kids 6 months and up" and "at the same safety tier". B-safe, R-ext, HC-rep
+  - Before: `why: 'A widely stocked Canadian icaridin 20% at the same safety tier as Natrapel — approved for kids 6 months and up, with up to 7 hours of mosquito and tick protection per application.',`
+  - After: `why: 'A widely stocked Canadian icaridin 20% with the same active as Natrapel, giving up to 7 hours of mosquito and tick protection per application. PiActive Kids is registered here (Reg. No. 31457); Health Canada says icaridin should not be used on infants under 6 months.',`
+- **L147** Card 3 badge "Best Long-Lasting Lotion". B-swap
+  - Before: `badge: 'Best Long-Lasting Lotion',`
+  - After: `badge: 'Best Lotion',`
+- **L148** Card 3 name. B-swap, R-ext
+  - Before: `name: 'Sawyer Picaridin 20% Lotion',`
+  - After: `name: 'PiActive Insect Repellent Lotion (icaridin 20%, Reg. No. 33411)',`
+- **L149** Card 3 why: "up to 12 hours" (not on a Canadian label). R-ext, CPS-CAT
+  - Before: `why: 'A lotion format that’s easy to rub on squirming kids without overspray, giving up to 12 hours of icaridin coverage for hikes and cottage days.',`
+  - After: `why: 'No Sawyer lotion is registered in Canada (Sawyer’s Canadian registrations are a pump spray, 33032, and a pressurized spray, 33177), so the lotion pick is PiActive’s registered icaridin lotion (Reg. No. 33411). A lotion is easy to rub on squirming kids without overspray; the Canadian Paediatric Society gives icaridin up to 20% about 5 to 7 hours against mosquitoes.',`
+- **L150** Card 3 search. B-swap
+  - Before: `search: 'sawyer picaridin lotion',`
+  - After: `search: 'piactive icaridin repellent',`
+- **L151** Card 3 score (this page's PiActive score). B-swap
+  - Before: `score: 8.5,`
+  - After: `score: 8.7,`
+- **L152** Card 3 pros "Up to 12 h coverage". R-ext, CPS-CAT
+  - Before: `pros: ['Up to 12 h coverage', 'Lotion = no aerosol overspray', 'Good for face-adjacent application by parents'],`
+  - After: `pros: ['Registered icaridin 20% lotion (33411)', 'Lotion = no aerosol overspray', 'About 5 to 7 h against mosquitoes (CPS)'],`
+- **L158** Card 4 why: "solid 4–6 hour protection". CPS-CAT, HC-rep
+  - Before: `why: 'The strongest plant-derived choice for families who want a botanical repellent — solid 4–6 hour protection, but note the Health Canada label caps it at 3 years and up.',`
+  - After: `why: 'The registered plant-derived choice for families who want a botanical repellent — the Canadian Paediatric Society gives PMD up to 2 hours against mosquitoes, and Health Canada says not to use it on children under 3.',`
+- **L161** Card 4 pro "4–6 h protection". CPS-CAT, R-ext
+  - Before: `pros: ['Plant-derived (PMD)', '4–6 h protection', 'DEET-free'],`
+  - After: `pros: ['Plant-derived (PMD)', 'Registered (spray 34594, lotion 34008)', 'DEET-free'],`
+- **L166** Card 5 name. B-swap, R-ext
+  - Before: `name: 'Bite Blocker Soybean-Oil Repellent',`
+  - After: `name: 'OFF! FamilyCare Lotion for use on Kids (DEET 7.5%, Reg. No. 21299)',`
+- **L167** Card 5 why: "about 2 hours" (CPS: up to 3.5 h) and no registration. R-ext, CPS-CAT, label 21299 as verified in TIER3-CHECK.md line 11
+  - Before: `why: 'The gentlest option for younger toddlers over 6 months — soybean-oil based and low-irritation, though it wears off in about 2 hours so you’ll reapply often.',`
+  - After: `why: 'Bite Blocker and other soybean-oil repellents have no current Canadian registration, so the toddler pick is a registered low-DEET lotion. Its label: not on infants under 6 months; from 6 months to 2 years no more than once a day and not for daily use; from 2 to 12 years up to 3 times a day; reapply after 3 hours if necessary.',`
+- **L168** Card 5 search. B-swap
+  - Before: `search: 'bite blocker soybean repellent',`
+  - After: `search: 'off familycare deet',`
+- **L170** Card 5 pros. R-ext
+  - Before: `pros: ['Gentle for young toddlers', 'Soybean-oil base', 'DEET-free'],`
+  - After: `pros: ['Labelled for children from 6 months', 'Low DEET (7.5%)', 'Ticks are on the label'],`
+- **L171** Card 5 cons (label 21299, TIER3-CHECK.md line 11). R-ext
+  - Before: `cons: ['Only ~2 h protection', 'Frequent reapplication', 'Weak on ticks'],`
+  - After: `cons: ['Under 2: once a day at most, not daily (label)', 'Reapply after 3 hours if necessary (label)'],`
+- **L176** whichToBuy: "Best Long-Lasting Lotion". B-swap
+  - Before: `…on for younger kids?</strong> The <em>Best Long-Lasting Lotion</em> avoids aerosol overspray. <strong>Want a pla…`
+  - After: `…on for younger kids?</strong> The <em>Best Lotion</em>, PiActive&rsquo;s registered icaridin lotion (Reg. No. 33411), avoids aerosol overspray. <strong>Want a pla…`
+- **L322** Table row label cell (no affiliate element). R-ext
+  - Before: `…e="font-normal text-xs text-gray-500">(lotion)</span></td>`
+  - After: `…e="font-normal text-xs text-gray-500">(lotion; not registered in Canada)</span></td>`
+- **L325** Table row cell "Up to 12 h" (no Canadian label). R-ext
+  - Before: `<td className="px-4 py-3 text-gray-700">Up to 12 h</td>`
+  - After: `<td className="px-4 py-3 text-gray-700">No Canadian label</td>`
+- **L326** Table row button swapped. B-swap
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sawyer picaridin lotion" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="piactive icaridin repellent" block>Registered lotion instead (Reg. No. 33411) →</BuyLink></td>`
+- **L347** Table row button (Bite Blocker row, which already says "not registered in Canada") swapped. B-swap
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bite blocker soybean repellent" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare deet" block>Registered kids’ lotion instead (Reg. No. 21299) →</BuyLink></td>`
+
+### best-thermal-fogger-canada (5 lines)
+
+Reworded: Black Flag propane and electric cards and the whichToBuy (no current homeowner liquid labelled for a thermal fogger; the registered aerosol foggers have no search term here). Longray boxes left: see LR. Flags: TIER3-CHECK.md line 13, TIER3-LOG.md line 9.
+
+- **L159** Card 2 why: "fog a suburban yard before an evening event". R-ext, FH-man
+  - Before: `why: 'The plug-and-play choice: screw on a propane cartridge, let it warm up, and fog a suburban yard before an evening event. Light, affordable, and simple — the easiest way to get a real thermal fog without buying pro gear.',`
+  - After: `why: 'The plug-and-play machine: screw on a propane cartridge, let it warm up, and it makes a real thermal fog without pro gear. In Canada the liquid is the catch: no current homeowner insecticide is labelled for a thermal fogger, the Canadian Black Flag Fog Insecticide (Reg. No. 28121) was cancelled in 2017, and the Black Flag Formula 2 that Fountainhead’s manuals name has no Canadian registration.',`
+- **L162** Card 2 pro "Great for occasional pre-event fogging". R-ext
+  - Before: `pros: ['Cheap and genuinely simple to run', 'Light and cordless — no fuel mixing', 'Great for occasional pre-event fogging'],`
+  - After: `pros: ['Cheap and genuinely simple to run', 'Light and cordless — no fuel mixing'],`
+- **L163** Card 2 cons: liquid. R-ext
+  - Before: `cons: ['Ongoing propane cartridge cost', 'Smaller tank, less canopy reach'],`
+  - After: `cons: ['No current Canadian homeowner liquid labelled for it', 'Ongoing propane cartridge cost', 'Smaller tank, less canopy reach'],`
+- **L168** Card 3 why: the electric manual's liquids. FH-man, R-ext
+  - Before: `…wer source and wants to skip disposable fuel.',`
+  - After: `…wer source and wants to skip disposable fuel. The Fountainhead electric fogger’s manual names Black Flag Formula 2, Cutter or Repel fogging insecticide, and none of them is registered in Canada; check any liquid for a current Reg. No. and a label that names your machine.',`
+- **L186** whichToBuy: "is all you need". R-ext
+  - Before: `…w per-acre cost. <strong>Normal suburban yard, occasional pre-party knockdown?</strong> The <em>Best for Homeowners</em> Black Flag propane fogger is all you need. <strong>Fog often near an outlet and hate buying cartridges?</strong> Go <em>Electric</em>. <strong>Testing the waters on a small lot?<…`
+  - After: `…w per-acre cost. <strong>Normal suburban yard?</strong> The <em>Best for Homeowners</em> Black Flag propane fogger is the simplest machine, but no current Canadian homeowner liquid is labelled for a thermal fogger, so settle the liquid first; the simplest legal fog for a homeowner is a registered aerosol patio fogger can. <strong>Fog often near an outlet and hate buying cartridges?</strong> Go <em>Electric</em>, with the same liquid caveat. <strong>Testing the waters on a small lot?<…`
+
+### propane-vs-electric-fogger-canada (7 lines)
+
+Reworded (no current Canadian homeowner liquid for these machines; no registered liquid has a search term here). Flags: TIER3-CHECK.md line 14, TIER3-LOG.md line 10.
+
+- **L118** StickyBuyBar label. R-ext, FH-man
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall machine; settle the liquid first" />`
+- **L119** TopBox label. R-ext, FH-man
+  - Before: `<TopBox tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall machine; settle the liquid first" />`
+- **L218** Card 1 why: liquid. FH-man, R-ext
+  - Before: `…he dense thermal fog knocks down adults fast.',`
+  - After: `…he dense thermal fog knocks down adults fast. In Canada, though, the only liquid its manual allows, Black Flag Fogging Insecticide Formula 2, has no Canadian registration, and we found no current homeowner liquid labelled for a thermal fogger.',`
+- **L228** Card 2 why: "wait for the ready light" (manual 180557: no ready light; preheat 2–3 min). FH-man, R-ext
+  - Before: `… fogging and the easiest to learn — plug in, wait for the ready light, pull the trigger. No propane to seat or ignite. Perfect if your treatable area is small and within an extension cord of a GFCI outlet.',`
+  - After: `… fogging and the easiest to learn — plug in, let it preheat for 2 to 3 minutes (the manual’s figure), pull the trigger. No propane to seat or ignite. It suits a small treatable area within an extension cord of a GFCI outlet, but the liquids its manual names (Black Flag Formula 2, Cutter or Repel fogging insecticide) have no Canadian registration.',`
+- **L231** Card 2 pro "Fast warm-up". FH-man
+  - Before: `pros: ['Lowest up-front cost', 'No fuel — just plug in', 'Fast warm-up, easy for beginners'],`
+  - After: `pros: ['Lowest up-front cost', 'No fuel — just plug in', 'Easy for beginners; preheats in 2 to 3 minutes'],`
+- **L246** whichToBuy: liquid. R-ext
+  - Before: `…<em>Best Overall</em> propane Burgess is the fogger to buy. <strong>Small yard by the house on a budget?</strong> The <em>Best Budget</em> Black Flag electric does the same job for less. <strong>Want a residual barrier that reache…`
+  - After: `…<em>Best Overall</em> propane Burgess is the machine to buy, once you have a liquid with a current Canadian Reg. No. for it (we found none for these foggers). <strong>Small yard by the house on a budget?</strong> The <em>Best Budget</em> Black Flag electric does the same job for less, with the same liquid problem. <strong>Want a residual barrier that reache…`
+- **L356** TopPick blurb: "load only a PMRA-registered fog solution" (none current for these machines). FH-man, R-ext
+  - Before: `…ou pocket the savings. Whichever you choose, load only a PMRA-registered fog solution."`
+  - After: `…ou pocket the savings. Whichever you choose, settle the liquid first: the manuals name Black Flag Formula 2, Cutter or Repel fogging insecticide, none of which is registered in Canada, and we found no current homeowner liquid labelled for a thermal fogger."`
+
+### thermal-vs-ulv-fogger-canada (5 lines)
+
+Banned "safe" wording removed. Flags: TIER3-CHECK.md line 15, TIER3-LOG.md line 11.
+
+- **L146** Card 1 why "safely". B-safe
+  - Before: `…one fogger that does the widest range of jobs safely, this is it.',`
+  - After: `…one fogger that does the widest range of jobs, this is it.',`
+- **L150** Card 1 pro "Indoor-safe cold operation". B-safe
+  - Before: `pros: ['Indoor-safe cold operation', 'Adjustable droplet size', 'Cordless — walk the whole property'],`
+  - After: `pros: ['Cold operation: no flame or heated coil', 'Adjustable droplet size', 'Cordless — walk the whole property'],`
+- **L183** whichToBuy "safely", "indoor-safe". B-safe
+  - Before: `…rong>Want one machine that does the most jobs safely?</strong> The <em>Best All-Round</em> cordless ULV is the default buy &mdash; indoor-safe, adjustable, and mobile. <strong>Fogging ac…`
+  - After: `…rong>Want one machine that does the most jobs?</strong> The <em>Best All-Round</em> cordless ULV is the default buy &mdash; cold-running with no flame, adjustable, and mobile. <strong>Fogging ac…`
+- **L327** TopPick blurb "runs cold and safe indoors". B-safe
+  - Before: `…V cold fogger is the one to own. It runs cold and safe indoors, uses water-based products, lets you dial dr…`
+  - After: `…V cold fogger is the one to own. It runs cold, with no flame or heated coil (so it can work indoors where a product’s label allows), uses water-based products, lets you dial dr…`
+- **L330** TopPick pro "Indoor-safe". B-safe
+  - Before: `pros={['Indoor-safe cold operation on water-based products', 'Adjustable droplet size for many jobs', '…`
+  - After: `pros={['Cold operation on water-based products, no flame', 'Adjustable droplet size for many jobs', '…`
+
+### best-solar-bug-zapper-canada (5 lines)
+
+Unsourced kill-radius and grid-performance claims removed. Voltages kept, attributed to listings (ZAP), so the StickyBuyBar/TopBox name and the L249/L345 buttons are unchanged. Flags: TIER3-CHECK.md line 17, TIER3-LOG.md line 13.
+
+- **L141** Card 1 why: "strong enough to finish large moths", "Realistic 3–5 m kill radius". ZAP
+  - Before: `why: 'The all-round pick: a 4,500V grid strong enough to finish large moths, a ~7.5W panel, and — the part that matters in Canada — a USB-C backup port that rescues cloudy weeks. Realistic 3–5 m kill radius.',`
+  - After: `why: 'The all-round pick: a grid listed at 4,500V, a ~7.5W panel, and — the part that matters in Canada — a USB-C backup port that rescues cloudy weeks. Treat any kill radius or coverage figure as the seller’s claim, not a measured zone.',`
+- **L145** Card 1 pro "4,500V grid actually kills large moths". ZAP
+  - Before: `pros: ['USB-C backup for cloudy stretches', '4,500V grid actually kills large moths', 'Stake, hang, or tabletop mounting'],`
+  - After: `pros: ['USB-C backup for cloudy stretches', 'Grid listed at 4,500V', 'Stake, hang, or tabletop mounting'],`
+- **L146** Card 1 con "3–5 m radius". ZAP
+  - Before: `cons: ['3–5 m radius, not the "2,100 sq ft" claimed', 'Near-useless on the mosquitoes that bite'],`
+  - After: `cons: ['"2,100 sq ft" coverage is the seller’s claim', 'Near-useless on the mosquitoes that bite'],`
+- **L160** Card 3 why: "A weaker 600V grid means it stuns more than it kills". ZAP
+  - Before: `…fect LED ambiance mode with a zapper built in. A weaker 600V grid means it stuns more than it kills, but it earns its spot as patio decor first.',`
+  - After: `…fect LED ambiance mode with a zapper built in, on a grid retailers list at 600V. It earns its spot as patio decor first.',`
+- **L164** Card 3 con "600V grid only stuns big moths". ZAP
+  - Before: `cons: ['600V grid only stuns big moths', 'Half-acre attraction claim is marketing'],`
+  - After: `cons: ['A decor light first, a zapper second', 'Half-acre attraction claim is marketing'],`
+
+### dynatrap-canada-review (33 lines)
+
+Swap for the DT3050 (not in DynaTrap's model list; no DT3050 found anywhere; the page's own note says the search returns bulbs and glue cards): its TopPick, AwardRow card 1, button L429 and table row now point at the registered answer this page gives for bites on the deck (L680-686, "buy the Thermacell"), reusing the page's own search `thermacell mosquito repeller refill` (L686); score 9.1 is best-mosquito-repellent-device-canada's Thermacell score. Reworded: the StickyBuyBar/TopBox label (no registered trap for the DynaTrap's own job has a search term here), cards 2-3 (DT3050 comparisons and prices), whichToBuy and the Atrakta lines. Flags: TIER3-CHECK.md line 18, TIER3-LOG.md line 14.
+
+- **L195** StickyBuyBar label. R-ext, PCPR
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />`
+- **L196** TopBox label. R-ext, PCPR
+  - Before: `<TopBox tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="See DynaTrap models sold in Canada" />`
+  - After: `<TopBox tag={AMZ_TAG} name="DynaTrap UV + fan insect trap" search="dynatrap insect trap" label="No DynaTrap model is registered in Canada" />`
+- **L294** TopPick label "Best DynaTrap if mosquitoes are the goal". B-swap, DT-faq
+  - Before: `label="Best DynaTrap if mosquitoes are the goal"`
+  - After: `label="If mosquitoes are the goal"`
+- **L295** TopPick name "DynaTrap DT3050 (1 acre + mosquito attractant fan)". B-swap, DT-faq
+  - Before: `name="DynaTrap DT3050 (1 acre + mosquito attractant fan)"`
+  - After: `name="Thermacell heated area repeller (look for a Canadian Reg. No.)"`
+- **L296** TopPick blurb "the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan". B-swap, DT-faq, R-ext, L-31998
+  - Before: `blurb="If you are buying a DynaTrap in spite of everything above, buy the one built for the job. The DT3050 is the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan on top of the UV lamp. That is the feature worth paying for — not the coverage rating, which changes how much yard the trap draws from but not the species mix it pulls in."`
+  - After: `blurb="If the complaint is “we get bitten on the deck,” this review’s answer is a heated area repeller, not a DynaTrap. DynaTrap’s FAQ lists no DT3050 and describes no model with a mosquito-attractant fan, and no DynaTrap model or Atrakta lure is in Health Canada’s registry. Thermacell’s Patio Shield carries Reg. No. 31998; its label gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect."`
+- **L297** TopPick search. B-swap
+  - Before: `search="dynatrap dt3050"`
+  - After: `search="thermacell mosquito repeller refill"`
+- **L298** TopPick score (sibling page's Thermacell score). B-swap
+  - Before: `score={7.0}`
+  - After: `score={9.1}`
+- **L299** TopPick pros "The only DynaTrap with a mosquito-attractant fan", "No chemicals — safe around kids and pets". B-safe, DT-faq, R-ext
+  - Before: `pros={['The only DynaTrap with a mosquito-attractant fan', 'Full-acre coverage — suits cottage lots and open properties', 'No chemicals — safe around kids and pets']}`
+  - After: `pros={['Protects the seating area where you get bitten', 'Registered in Canada (Patio Shield 31998)', 'No spray on skin']}`
+- **L300** TopPick cons. L-31998
+  - Before: `cons={['Still a UV trap: no CO₂, the cue mosquitoes actually hunt by', 'Does nothing for ticks', 'Ongoing bulb + Atrakta cartridge costs']}`
+  - After: `cons={['Works best in still air', 'Nothing for anyone outside the zone', 'Refill mats and fuel are the running cost']}`
+- **L303** AwardRow heading "DT3050 vs DT2030 vs DT1050". B-swap, DT-faq
+  - Before: `heading="How It Compares — DT3050 vs DT2030 vs DT1050"`
+  - After: `heading="How It Compares — DT2030 vs DT1050, and the Pick for Bites"`
+- **L306** Card 1 badge. B-swap
+  - Before: `badge: 'Best for Mosquitoes',`
+  - After: `badge: 'Best for Bites on the Deck',`
+- **L307** Card 1 name. B-swap
+  - Before: `name: 'DynaTrap DT3050 (1 acre + attractant fan)',`
+  - After: `name: 'Thermacell Heated Area Repeller (look for a Canadian Reg. No.)',`
+- **L308** Card 1 why "the only Canadian unit with a dedicated mosquito-attractant fan"; price removed. DT-faq, L-31998, N-price
+  - Before: `why: 'The model this review recommends if mosquitoes are the goal: the only Canadian unit with a dedicated mosquito-attractant fan on top of the UV lamp — the one spec that shifts the species mix at all. $249–$329.',`
+  - After: `why: 'DynaTrap’s FAQ lists no DT3050 and describes no model with a mosquito-attractant fan, so for bites on the deck this review’s pick is a heated area repeller: the label of Thermacell’s Patio Shield (Reg. No. 31998) gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect.',`
+- **L309** Card 1 search. B-swap
+  - Before: `search: 'dynatrap dt3050',`
+  - After: `search: 'thermacell mosquito repeller refill',`
+- **L310** Card 1 score. B-swap
+  - Before: `score: 7.0,`
+  - After: `score: 9.1,`
+- **L312** Card 1 pros (same "only ... attractant fan" and "safe" pros as the TopPick). B-safe, DT-faq, R-ext
+  - Before: `pros: ['Only DynaTrap with a mosquito-attractant fan', 'Full-acre coverage for cottage lots', 'No chemicals — safe around kids and pets'],`
+  - After: `pros: ['Protects the seating area where you get bitten', 'Registered in Canada (Patio Shield 31998)', 'No spray on skin'],`
+- **L313** Card 1 cons. L-31998
+  - Before: `cons: ['Still no CO₂ — buyers who want real mosquito reduction need a propane trap or barrier spray', 'Does nothing for ticks'],`
+  - After: `cons: ['Works best in still air', 'Does nothing for ticks'],`
+- **L318** Card 2 why "every model without the attractant fan"; prices removed. DT-faq, R-ext, N-price
+  - Before: `why: 'The most popular full-acre unit at $199–$279, and usually the best Costco spring-sale deal. Same UV-plus-fan mechanism as every model without the attractant fan.',`
+  - After: `why: 'The most popular full-acre unit. Same UV-plus-fan mechanism as the other models. No DynaTrap model is in Health Canada’s registry, so check the box for a Reg. No.',`
+- **L321** Card 2 pros: DT3050 comparison and prices removed. DT-faq, N-price
+  - Before: `pros: ['Best spring-sale pricing at Costco ($179–$229)', 'Full-acre coverage for about $50 less than the DT3050', 'Right scale for open cottage properties'],`
+  - After: `pros: ['Full-acre coverage rating', 'Right scale for open cottage properties'],`
+- **L322** Card 2 con "should pay up for the DT3050". DT-faq
+  - Before: `cons: ['No attractant fan — mosquito-focused buyers should pay up for the DT3050', 'Full-acre rating is wasted on a standard suburban yard'],`
+  - After: `cons: ['Mostly moths and beetles, like every UV model', 'Full-acre rating is wasted on a standard suburban yard'],`
+- **L327** Card 3 why: DT3050 comparison and prices removed. DT-faq, R-ext, N-price
+  - Before: `why: 'The cheapest sensible size at $149–$199 — the half-acre rating comfortably covers a typical GTA backyard for roughly $100–$130 less than the DT3050.',`
+  - After: `why: 'The cheapest sensible size — the half-acre rating comfortably covers a typical GTA backyard. No DynaTrap model is in Health Canada’s registry, so check the box for a Reg. No.',`
+- **L330** Card 3 pro "Saves $100–$130 versus the DT3050". DT-faq, N-price
+  - Before: `pros: ['Saves $100–$130 versus the DT3050', 'Half-acre rating suits lots under ~10,000 sq ft', 'Same quiet, chemical-free operation'],`
+  - After: `pros: ['Half-acre rating suits lots under ~10,000 sq ft', 'Same quiet, chemical-free operation'],`
+- **L336** whichToBuy: "The DT3050 is the only model with the attractant fan"; "cheapest at Costco"; Atrakta. DT-faq, R-ext, N-price
+  - Before: `…Buying specifically for mosquitoes?</strong> The DT3050 is the only model with the attractant fan &mdash; and even then, treat it as a supplement: a UV trap without CO₂ never beats a <Link href="/blog/propane-mosquito-trap-canada">propane trap</Link> or a <Link href="/mosquito-control">whole-yard barrier spray</Link> at mosquito reduction. <strong>Moths and beetles off a cottage deck?</strong> The DT2030 is the workhorse, cheapest at Costco in spring. <strong>Standard suburban backyard?</strong> The DT1050 does the same job for less. Whichever you buy, budget for Atrakta cartridges and a fresh UV bulb each season.`
+  - After: `…Buying specifically for mosquitoes?</strong> Skip the DynaTrap: for bites on the deck the pick is the <em>Best for Bites on the Deck</em> heated area repeller (look for a Canadian Reg. No.), and a UV trap without CO₂ never beats a <Link href="/blog/propane-mosquito-trap-canada">propane trap</Link> or a <Link href="/mosquito-control">whole-yard barrier spray</Link> at mosquito reduction. <strong>Moths and beetles off a cottage deck?</strong> The DT2030 is the workhorse. <strong>Standard suburban backyard?</strong> The DT1050 does the same job for less. No DynaTrap model or Atrakta lure is in Health Canada&rsquo;s registry, so check the box for a Reg. No.; on fluorescent models, budget for a fresh UV bulb each season.`
+- **L427** Lead-in to the buttons below (no affiliate element): "DT3050 attractant-fan model". B-text, DT-faq
+  - Before: `…text-gray-600 mb-1">Compare current Canadian prices (DT3050 attractant-fan model, DT2030/DT1100 full-acre, DT1050 half-acre) and Atrakta refills:</p>`
+  - After: `…text-gray-600 mb-1">Compare current Canadian listings (the DT2030/DT1100 full-acre and DT1050 half-acre models are in the table below), a patio repeller for bites, and Atrakta refills:</p>`
+- **L429** Body button swapped (was "Check DT3050 price"). B-swap
+  - Before: `<BuyLink tag={AMZ_TAG} search="dynatrap dt3050">Check DT3050 price on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller refill">For bites: a patio repeller instead (look for the Reg. No.) →</BuyLink>`
+- **L430** Atrakta button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refill cartridges →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="dynatrap atrakta refill">Atrakta refills (not registered in Canada) →</BuyLink>`
+- **L448** Table row label cell (no affiliate element). B-text, DT-faq
+  - Before: `<td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(+ attractant fan)</span></td>`
+  - After: `<td className="px-4 py-3 font-bold text-brand-800">DT3050 <span className="font-normal text-xs text-gray-500">(not in DynaTrap&rsquo;s model list)</span></td>`
+- **L449** Table row cell. B-text, DT-faq
+  - Before: `<td className="px-4 py-3 text-gray-700">1 acre (full)</td>`
+  - After: `<td className="px-4 py-3 text-gray-700">Not listed by DynaTrap</td>`
+- **L450** Table row cell "only model with an attractant fan". DT-faq
+  - Before: `<td className="px-4 py-3 text-gray-700"><strong>Best DynaTrap for mosquitoes</strong> — only model with an attractant fan</td>`
+  - After: `<td className="px-4 py-3 text-gray-700">DynaTrap&rsquo;s FAQ lists no DT3050 and no attractant-fan model; for bites on the deck, see the patio repeller</td>`
+- **L451** Table row price cell. N-price
+  - Before: `<td className="px-4 py-3 font-mono text-gray-800">$249 – $329</td>`
+  - After: `<td className="px-4 py-3 font-mono text-gray-800">&mdash;</td>`
+- **L452** Table row button swapped. B-swap
+  - Before: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap dt3050" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `<td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="thermacell mosquito repeller refill" block>Patio repeller instead (look for the Reg. No.) →</BuyLink></td>`
+- **L485** Atrakta line (holds the BuyLink): "octenol ... (60-day refill)" -> maker's "about 8 weeks"; registration. DT-faq, R-ext
+  - Before: `…y-600 mb-6">Catching too few mosquitoes? The octenol <strong>Atrakta</strong> cartridge (60-day refill) is the lure that nudges the mosquito catch upward — budget a couple per season. <BuyLink tag={AMZ_TAG} search="dynatrap a…`
+  - After: `…y-600 mb-6">Catching too few mosquitoes? The <strong>Atrakta</strong> lure (about 8 weeks each, DynaTrap says) is the add-on DynaTrap sells for mosquitoes; like every DynaTrap product, it has no Canadian registration. <BuyLink tag={AMZ_TAG} search="dynatrap a…`
+- **L802** Atrakta button. R-ext
+  - Before: `…e">Compare Atrakta lure refills on Amazon.ca →</BuyLink></p>`
+  - After: `…e">Compare Atrakta lure refills on Amazon.ca (no Canadian registration found) →</BuyLink></p>`
+
+### how-to-get-rid-of-ants-canada (6 lines)
+
+Reworded, not swapped: the only Combat ant registration (26467) was cancelled in 2006, and no registered solid or grease-ant bait has a search term on this page (its terms are the TERRO liquid, which holds card 1, a generic gel, a DE duster and sealant). Flags: TIER3-CHECK.md line 41, TIER3-LOG.md line 27.
+
+- **L179** Card name "(Combat-style, domestic-class)". R-ext
+  - Before: `name: 'Enclosed Solid / Protein Ant Bait Stations (Combat-style, domestic-class)',`
+  - After: `name: 'Enclosed Solid / Protein Ant Bait Stations (check for a current PCP number)',`
+- **L180** Card why: cancellation and registered grease-ant baits. R-ext
+  - Before: `…k or behind the stove without making a mess. As with any pesticide in Canada, confirm the Pest Control Products (PCP) registration number on the label — especially from online marketplaces that mix Canadian and US stock.',`
+  - After: `…k or behind the stove without making a mess. The only Combat ant system ever registered in Canada (Reg. No. 26467) was cancelled in 2006, so a Combat box has no current Canadian registration; current home-use ant baits whose registrations list grease-eating ants include Wilson AntOut Ant Bait (28793) and Knock Down Eco Ant Killer Bait (31203). Confirm the PCP number on the label before you buy.',`
+- **L183** Card con. R-ext
+  - Before: `…er uptake than liquid for most house ants', 'Marketplace listings can mix Canadian and US-labelled stock — check for a PCP number'],`
+  - After: `…er uptake than liquid for most house ants', 'Combat’s Canadian registration (26467) was cancelled in 2006 — check for a current PCP number'],`
+- **L204** whichToBuy. R-ext
+  - Before: `…m>Best for Grease Feeders</em> solid stations; colonies swing between carbohydrate and pro…`
+  - After: `…m>Best for Grease Feeders</em> solid stations, with a current PCP number on the label (Combat&rsquo;s Canadian registration was cancelled in 2006); colonies swing between carbohydrate and pro…`
+- **L304** Table row button. R-ext
+  - Before: `…ombat ant killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>`
+  - After: `…ombat ant killing bait stations" block>Check listings (Combat has no current Canadian registration) →</BuyLink></td>`
+- **L394** Body button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Protein bait stations →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Protein bait stations (Combat: no current Canadian registration) →</BuyLink>`
+
+### carpenter-ants-canada (6 lines)
+
+Reworded, not swapped: no current home-use borax or boric acid bait names carpenter ants, and the registered carpenter-ant baits this page names (Raid Max 33831, Ortho gel 32560) have no search term on this page. Flags: TIER3-CHECK.md line 42, TIER3-LOG.md line 28.
+
+- **L175** Card badge "Best Colony Killer". R-ext
+  - Before: `badge: 'Best Colony Killer',`
+  - After: `badge: 'Colony Bait (Check the Label)',`
+- **L177** Card why: "The widely stocked domestic-class option ... confirm ... that carpenter ants are listed". R-ext
+  - Before: `…uth-to-mouth, which is exactly the weakness sugar-based borax baits exploit — a forager drinks, walks home, and feeds the colony including brood. The widely stocked domestic-class option in Canada; confirm a PCP registration number on the label and that carpenter ants are listed.',`
+  - After: `…uth-to-mouth, which is exactly the weakness slow liquid baits exploit — a forager drinks, walks home, and feeds the colony including brood. But no current home-use borax or boric acid bait in Canada names carpenter ants on its label (TERRO’s Canadian labels name common sweet-eating ants); the registered baits that do are spinosad liquids such as Raid Max Liquid Ant Baits (PCP 33831) and borate gels such as Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560). Buy one whose label names carpenter ants.',`
+- **L180** Card con added. R-ext
+  - Before: `cons: ['Acceptance is seasonal and fussy — some weeks…`
+  - After: `cons: ['No current home-use borax label names carpenter ants', 'Acceptance is seasonal and fussy — some weeks…`
+- **L201** whichToBuy. R-ext
+  - Before: `…ail located, nest still hidden?</strong> Run the <em>Best Colony Killer</em> liquid baits on that trail and let the ants carry the treatment to the …`
+  - After: `…ail located, nest still hidden?</strong> Run a liquid bait whose label names carpenter ants on that trail (no current home-use borax bait does; see the <em>Colony Bait</em> card) and let the ants carry the treatment to the …`
+- **L303** Body button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="liquid ant bait stations borax">Liquid borax baits &rarr;</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="liquid ant bait stations borax">Liquid borax baits (labels don&rsquo;t name carpenter ants) &rarr;</BuyLink>`
+- **L394** Body button. R-ext
+  - Before: `…liquid ant bait stations borax">Check liquid borax ant baits on Amazon.ca &rarr;</BuyLink>`
+  - After: `…liquid ant bait stations borax">Check liquid ant baits on Amazon.ca (borax labels don&rsquo;t name carpenter ants; check yours does) &rarr;</BuyLink>`
+
+### best-tick-repellent-yard-canada (20 lines)
+
+Reworded, not swapped: every pick is unregistered, and none of the registered yard products this page names (Doktor Doom Tick Killer Plus+ 34405, Safer's Trounce 28680, Mosquito Barrier 32049, No Fly Zone 32757) has a search term on this page. BuzzSkito service lines, the 5-spray season and $597/$497 are untouched. Flags: TIER3-CHECK.md line 43, TIER3-LOG.md line 29.
+
+- **L106** StickyBuyBar label "Best DIY pick". R-ext, HC-buy
+  - Before: `<StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Best DIY pick" />`
+  - After: `<StickyBuyBar tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Not registered in Canada" />`
+- **L107** TopBox label. R-ext, HC-buy
+  - Before: `<TopBox tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Best DIY pick" />`
+  - After: `<TopBox tag={AMZ_TAG} name="Wondercide Cedar-Oil Yard Spray" search="wondercide tick yard spray" label="Not registered in Canada" />`
+- **L127** Wondercide button. R-ext
+  - Before: `<BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check yard tick sprays on Amazon.ca →</BuyLink>`
+  - After: `<BuyLink tag={AMZ_TAG} search="wondercide tick yard spray">Check Wondercide yard spray (no Canadian registration) →</BuyLink>`
+- **L128** Insect Shield button. R-ext
+  - Before: `…d permethrin treated clothing">Insect Shield permethrin-treated clothing →</BuyLink>`
+  - After: `…d permethrin treated clothing">Insect Shield clothing (no Canadian registration; No Fly Zone, PCP 32757, is registered) →</BuyLink>`
+- **L136** Card 1 badge "Best Overall DIY". R-ext
+  - Before: `badge: 'Best Overall DIY',`
+  - After: `badge: 'Cedar Oil (Not Registered in Canada)',`
+- **L138** Card 1 why: registration; "re-apply every 2 weeks" (unverifiable) removed. R-ext, HC-buy, USDA, CED
+  - Before: `why: 'The leading natural yard spray. Cedar oil has documented contact repellency against ticks, but it evaporates much faster than a synthetic residual, so it holds only if you re-apply every 2 weeks. The strongest DIY layer to stack on top of the free habitat fixes.',`
+  - After: `why: 'The best-known natural yard spray, but it has no Canadian registration: no cedar-oil pesticide is registered in Canada, and Health Canada says it is a violation of the Pest Control Products Act to buy and use unregistered pesticides. In lab tests cedarwood oil repels tick nymphs, but the effect fades within hours, and we found no published yard field trial.',`
+- **L142** Card 1 pros. USDA
+  - Before: `pros: ['Real, research-backed cedar-oil repellency', 'Follow the label on when kids and pets can return', 'Hose-end coverage of lawn edges'],`
+  - After: `pros: ['Lab repellency against tick nymphs (USDA study)', 'Hose-end coverage of lawn edges'],`
+- **L143** Card 1 cons "Re-apply every 2 weeks". CED, USDA
+  - Before: `cons: ['Re-apply every 2 weeks', 'Weaker than professional barrier spray'],`
+  - After: `cons: ['No Canadian registration', 'Lab repellency fades within hours'],`
+- **L146** Card 2 badge "Best Granular". R-ext
+  - Before: `badge: 'Best Granular',`
+  - After: `badge: 'Granular (None Registered in Canada)',`
+- **L148** Card 2 why: none registered. R-ext, CAES
+  - Before: `why: 'Granules carry the residual down into the leaf-litter and lawn-edge zones ticks quest from, where a surface spray never lands — the strongest DIY control if you nail even coverage.',`
+  - After: `why: 'Granules carry an insecticide down into the leaf-litter and lawn-edge zones ticks quest from, but no permethrin granules, and no home-use granular product with ticks on its label, are registered in Canada (Health Canada’s registry, October 2026). The registered home options are sprays, such as Doktor Doom Tick Killer Plus+ (PCP 34405), and permethrin tick tubes; Connecticut’s tick handbook also found liquids usually give somewhat better control than granules.',`
+- **L151** Card 2 pros "Lasts 4–6 weeks", "Wide retailer availability" (unsupported). CAES
+  - Before: `pros: ['Longest-holding residual of the DIY yard options', 'Lasts 4–6 weeks per application', 'Wide retailer availability'],`
+  - After: `pros: ['Spreads into leaf litter with a fertilizer spreader'],`
+- **L152** Card 2 cons. R-ext
+  - Before: `cons: ['Hard to spread evenly without gear', 'Synthetic pesticide handling care'],`
+  - After: `cons: ['None registered for home use in Canada', 'Hard to spread evenly without gear'],`
+- **L155** Card 3 badge. R-ext
+  - Before: `badge: 'Best Natural Alternative',`
+  - After: `badge: 'Cedarcide (Not Registered in Canada)',`
+- **L157** Card 3 why "evidence-backed ... mild-but-real repellency". R-ext, CED
+  - Before: `why: 'The other leading evidence-backed cedar-oil option. Same natural approach as Wondercide with mild-but-real repellency at recommended concentrations — a solid pick if you prefer their formula.',`
+  - After: `why: 'The other best-known cedar-oil option, with the same problem: no Canadian registration, and we found no published yard field trial. Cedarcide’s own directions for its yard spray: apply twice, two weeks apart, then monthly.',`
+- **L160** Card 3 pro "Safe around kids and pets". B-safe
+  - Before: `pros: ['Natural cedar-oil formula', 'Safe around kids and pets', 'Good for seating-area perimeters'],`
+  - After: `pros: ['Natural cedar-oil formula', 'Good for seating-area perimeters'],`
+- **L161** Card 3 con "Bi-weekly reapplication all season" (maker: twice, then monthly). CED, R-ext
+  - Before: `cons: ['Bi-weekly reapplication all season', 'Consumer concentrations run low'],`
+  - After: `cons: ['No Canadian registration', 'Maker: twice two weeks apart, then monthly', 'Consumer concentrations run low'],`
+- **L164** Card 4 badge. R-ext
+  - Before: `badge: 'Best for Personal Wear',`
+  - After: `badge: 'Personal Wear (Not Registered in Canada)',`
+- **L166** Card 4 why: Insect Shield has no registry record. R-ext, PHAC
+  - Before: `… that kill ticks on contact with the fabric. In Canada this is the route to take: Health Canada does not approve permethrin liquids and sprays for consumers to treat their own clothing, so buy the treatment already in the garment rather than applying it yourself. The best add-on for anyone working, hiking, or gardening in a tick zone.',`
+  - After: `… that kill ticks on contact with the fabric. Factory treatment is the Canadian route, since the Public Health Agency of Canada says permethrin liquids and sprays for consumers to treat their own clothing are not approved, but Insect Shield has no record in Health Canada’s registry: the factory-treated clothing registered here is No Fly Zone (PCP 32757). Check the garment for a PCP number.',`
+- **L170** Card 4 cons. R-ext
+  - Before: `cons: ['Clothing only — not a skin repellent', 'Does not treat the yard itself'],`
+  - After: `cons: ['No Canadian registration record (No Fly Zone, 32757, is registered)', 'Clothing only — not a skin repellent'],`
+- **L175** whichToBuy: Wondercide "bi-weekly", granular "longest residual", Insect Shield. R-ext, CED, PHAC
+  - Before: `<strong>Going fully natural?</strong> The <em>Best Overall DIY</em> Wondercide cedar-oil spray is the strongest layer — plan on bi-weekly application. <strong>Want maximum DIY knockdown?</strong> The <em>Best Granular</em> permethrin option holds the longest residual of the DIY choices, provided you spread it evenly. <strong>Spending real time in the yard or on trails?</strong> Add the <em>Best for Personal Wear</em> factory permethrin-treated Insect Shield clothing &mdash; Health Canada doesn&rsquo;t approve permethrin sprays for consumers to treat their own clothing, so in Canada buy the treatment already in the garment. But for placing a longer-lasting residual p…`
+  - After: `<strong>Going fully natural?</strong> No cedar-oil yard spray, including the Wondercide and Cedarcide picks, is registered in Canada; the registered natural option is a garlic-juice repellent (PCP 32049), alongside the habitat work. <strong>Want a do-it-yourself pesticide?</strong> No permethrin granules are registered here; a registered permethrin yard spray such as Doktor Doom Tick Killer Plus+ (PCP 34405), used as its label says, is the home option. <strong>Spending real time in the yard or on trails?</strong> Factory-treated clothing is the Canadian route, since consumer permethrin sprays for clothing are not approved, but Insect Shield has no registration record here; No Fly Zone (PCP 32757) is the registered line. But for placing a longer-lasting residual p…`
+
+### Left unchanged, with the reason (this section's pages)
+
+- **pergola-mosquito-curtains-canada** and **bug-zappers-canada-do-they-work**: no box claim found by the checker (TIER3-CHECK.md lines 12 and 16) or the upgrader (TIER3-LOG.md lines 12 and 20). 0 lines each. Editorial scores on untested units are not a false claim and were left.
+- **best-thermal-fogger-canada, Longray boxes** (StickyBuyBar/TopBox L117-118, card 1 L147-154, buttons L135, L217, L305): Longray pulse-jet thermal foggers exist (`LR`), so the flag did not hold. The editorial scores were left.
+- **best-solar-bug-zapper-canada**: StickyBuyBar/TopBox "4,500V" and buttons L249, L345 kept (listings give 4,500 V, `ZAP`). whichToBuy L178 calls the dual-charge unit "the safe buy" (a figure of speech, not in the checker's list); the owner may prefer "dependable buy".
+- **thermal-vs-ulv-fogger-canada, card 2 con L160** "Propane + oil-based carrier logistics": Longray pulse-jets run on petrol (the TS-35A(E) is listed with a petrol engine), not propane. Not in the checker's list, so not changed: owner's call.
+- **Unregistered products still linked, honestly labelled**, because no registered alternative for that job has a search term on the page and the brief bars new terms: DynaTrap boxes (device page, professional page, DynaTrap review StickyBuyBar/TopBox and model rows), the Biogents CO2 version, lures, BG-GAT, BG-Home and table rows, the citronella and Mosquito Guard bands, PARA'KITO refills, the Combat ant stations, the borax carpenter-ant baits, the Atrakta lures, and every pick on best-tick-repellent-yard-canada. Each would need a new search term for a registered product (for example Wilson AntOut 28793, Raid Max Liquid Ant Baits 33831, Doktor Doom Tick Killer Plus+ 34405, No Fly Zone 32757): owner's call.
+- **Page text, not boxes** (left for a text pass): best-mosquito-repellent-device-canada key-facts row L272 ("Thermacell (~15 min)"), the "6–8 weeks" in FAQs, bullets and body, and L369 ("Buy the liquid at the same time as the machine"); the bracelets page L389 still calls icaridin "odourless" (the Oct 25 pass removed "Odourless" from a Natrapel box because the maker lists a fragrance); best-bug-spray-for-kids-canada card 1 keeps "nearly odourless" (not flagged); best-tick-repellent-yard-canada L125 lead-in says the linked products "help".
+- **Prices** were removed only on the lines edited here; the rest are left for the owner, as the upgraders noted.
+
+Lines changed in this section: 202 (best-mosquito-repellent-device-canada 13, biogents-bg-mosquitaire-mosquito-trap-canada 31, best-professional-mosquito-trap-canada 19, mosquito-repellent-bracelets-canada 32, best-bug-spray-for-kids-canada 20, best-thermal-fogger-canada 5, propane-vs-electric-fogger-canada 7, thermal-vs-ulv-fogger-canada 5, best-solar-bug-zapper-canada 5, dynatrap-canada-review 33, how-to-get-rid-of-ants-canada 6, carpenter-ants-canada 6, best-tick-repellent-yard-canada 20).
+

@@ -180,17 +180,17 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
               },
               {
                 badge: 'Finish the Stragglers',
-                name: 'Silica Desiccant Dust (e.g. CimeXa)',
-                why: 'A thin film of silica in wall voids, outlet gaps, and behind baseboards keeps killing for months — bugs that walk across it dehydrate and die. The residual backbone that outlasts any liquid spray.',
-                search: 'cimexa silica bed bug dust',
-                score: 8.5,
-                pros: ['Keeps killing for months', 'Reaches voids you cannot heat', 'A little covers a lot'],
+                name: 'Diatomaceous Earth Dust with a PCP Number (e.g. Doktor Doom Be Green, PCP 32561)',
+                why: 'A thin film of a registered diatomaceous earth dust in wall voids, outlet gaps, and behind baseboards keeps working while it stays dry — bugs that walk across it dry out and die. Doktor Doom Be Green (PCP 32561, domestic class) lists bed bugs on its label; CimeXa, the silica dust US guides favour, is not in Health Canada’s registry.',
+                search: 'doktor doom diatomaceous earth',
+                score: 8.3,
+                pros: ['Domestic-class registration with bed bugs on the label', 'Reaches voids you cannot heat', 'A little covers a lot'],
                 cons: ['Apply a light film only, never a pile', 'Wear a mask when dusting'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Just found bed bugs and don&rsquo;t know where to start?</strong> Buy the <em>Protect the Bed</em> encasements and <em>Monitor &amp; Isolate</em> interceptors first &mdash; together they stop the bites within a day and tell you if you&rsquo;re winning. <strong>Ready to actually kill them?</strong> Add the <em>Kill the Eggs</em> heat tools; a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> for seams plus a <Link href="/blog/zappbug-heater-review-canada">box heater</Link> for belongings covers most homes. <strong>Want the killing to keep going while you sleep?</strong> Lay down the <em>Finish the Stragglers</em> silica dust in the voids. Do all four and you have a real plan, not a hopeful one.
+                <strong>Just found bed bugs and don&rsquo;t know where to start?</strong> Buy the <em>Protect the Bed</em> encasements and <em>Monitor &amp; Isolate</em> interceptors first &mdash; together they stop the bites within a day and tell you if you&rsquo;re winning. <strong>Ready to actually kill them?</strong> Add the <em>Kill the Eggs</em> heat tools; a <Link href="/blog/best-bed-bug-steamer-canada">steamer</Link> for seams plus a <Link href="/blog/zappbug-heater-review-canada">box heater</Link> for belongings covers most homes. <strong>Want the killing to keep going while you sleep?</strong> Lay down the <em>Finish the Stragglers</em> diatomaceous earth dust in the voids. Do all four and you have a real plan, not a hopeful one.
               </>
             }
           />
@@ -247,9 +247,9 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">6. Dust the voids</td>
-                  <td className="px-4 py-3 text-gray-700">Thin silica film in walls, outlets, baseboards</td>
-                  <td className="px-4 py-3 text-gray-700">Silica desiccant (CimeXa)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700">Thin dust film in walls, outlets, baseboards</td>
+                  <td className="px-4 py-3 text-gray-700">Diatomaceous earth dust with a PCP number</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">7. Monitor to zero</td>
@@ -303,7 +303,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="bed bug mattress encasement zippered">Encasements →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptor traps →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Steamer →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="cimexa silica bed bug dust">Silica dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">DE dust (PCP 32561) →</BuyLink>
           </div>
 
           <NextUp path="/blog/how-to-get-rid-of-bed-bugs-canada" />

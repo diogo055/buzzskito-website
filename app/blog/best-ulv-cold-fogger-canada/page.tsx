@@ -116,8 +116,8 @@ export default function BestUlvColdFoggerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="PetraTools-class adjustable electric ULV cold fogger" search="petratools ulv cold fogger electric" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="Adjustable corded electric ULV cold fogger" search="corded electric ulv fogger disinfectant" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="Adjustable corded electric ULV cold fogger" search="corded electric ulv fogger disinfectant" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -145,9 +145,9 @@ export default function BestUlvColdFoggerCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'PetraTools-Class Adjustable Electric ULV',
+                name: 'Adjustable Corded Electric ULV Fogger',
                 why: 'A corded electric ULV with a real flow/micron dial and a 1–2 gallon tank is the strongest all-rounder: fine enough for airborne disinfecting, coarse enough for surface work, and large enough to fog a whole basement or duct run without a refill. The adjustability is what stretches one machine across every job.',
-                search: 'petratools ulv cold fogger electric',
+                search: 'corded electric ulv fogger disinfectant',
                 score: 9.1,
                 featured: true,
                 pros: ['Adjustable micron and flow rate', '1–2 gallon tank for big jobs', 'Unlimited corded runtime'],
@@ -210,11 +210,11 @@ export default function BestUlvColdFoggerCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Adjustable electric ULV<br /><span className="font-normal text-xs text-gray-500">PetraTools-class</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Adjustable electric ULV<br /><span className="font-normal text-xs text-gray-500">corded, with a flow dial</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; corded, 1&ndash;2 gal tank</td>
                   <td className="px-4 py-3 text-gray-700">Whole rooms, basements, ducts; both fine mist and surface work</td>
                   <td className="px-4 py-3 text-gray-700">Tethered to an outlet; bulkier</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded electric ulv fogger disinfectant" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Commercial ULV<br /><span className="font-normal text-xs text-gray-500">Hudson-style</span></td>
@@ -261,7 +261,7 @@ export default function BestUlvColdFoggerCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="petratools ulv cold fogger electric">Adjustable electric ULV →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="corded electric ulv fogger disinfectant">Adjustable electric ULV →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="hudson commercial ulv fogger">Commercial ULV →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="vonhaus electric ulv fogger">Compact fogger →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cordless battery ulv fogger">Cordless ULV →</BuyLink>

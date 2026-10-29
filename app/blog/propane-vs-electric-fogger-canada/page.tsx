@@ -115,8 +115,8 @@ export default function PropaneVsElectricFoggerCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
-      <TopBox tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall fogger" />
+      <StickyBuyBar tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall machine; settle the liquid first" />
+      <TopBox tag={AMZ_TAG} name="Burgess propane thermal fogger" search="burgess propane insect fogger" label="Best overall machine; settle the liquid first" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -215,7 +215,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
               {
                 badge: 'Best Overall Fogger',
                 name: 'Burgess Propane Thermal Fogger',
-                why: 'Cordless portability is the whole point of a fogger, and propane delivers it — walk the full perimeter of a big lot, treat a treeline, or fog a cottage shoreline with nothing plugged in. The dense thermal fog knocks down adults fast.',
+                why: 'Cordless portability is the whole point of a fogger, and propane delivers it — walk the full perimeter of a big lot, treat a treeline, or fog a cottage shoreline with nothing plugged in. The dense thermal fog knocks down adults fast. In Canada, though, the only liquid its manual allows, Black Flag Fogging Insecticide Formula 2, has no Canadian registration, and we found no current homeowner liquid labelled for a thermal fogger.',
                 search: 'burgess propane insect fogger',
                 score: 8.7,
                 featured: true,
@@ -225,10 +225,10 @@ export default function PropaneVsElectricFoggerCanadaPage() {
               {
                 badge: 'Best Budget / Small Yards',
                 name: 'Black Flag Electric Thermal Fogger',
-                why: 'The cheapest way into fogging and the easiest to learn — plug in, wait for the ready light, pull the trigger. No propane to seat or ignite. Perfect if your treatable area is small and within an extension cord of a GFCI outlet.',
+                why: 'The cheapest way into fogging and the easiest to learn — plug in, let it preheat for 2 to 3 minutes (the manual’s figure), pull the trigger. No propane to seat or ignite. It suits a small treatable area within an extension cord of a GFCI outlet, but the liquids its manual names (Black Flag Formula 2, Cutter or Repel fogging insecticide) have no Canadian registration.',
                 search: 'black flag electric insect fogger',
                 score: 7.6,
-                pros: ['Lowest up-front cost', 'No fuel — just plug in', 'Fast warm-up, easy for beginners'],
+                pros: ['Lowest up-front cost', 'No fuel — just plug in', 'Easy for beginners; preheats in 2 to 3 minutes'],
                 cons: ['Tethered to a cord and outlet', 'Reach limited to cord length'],
               },
               {
@@ -243,7 +243,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Big, remote, or awkward lot?</strong> The <em>Best Overall</em> propane Burgess is the fogger to buy. <strong>Small yard by the house on a budget?</strong> The <em>Best Budget</em> Black Flag electric does the same job for less. <strong>Want a residual barrier that reaches ticks too?</strong> A <Link href="/blog/backpack-sprayer-canada">sprayer</Link> beats both foggers &mdash; or skip the DIY entirely and let <Link href="/mosquito-control">professional barrier spray</Link> handle the whole yard, mosquitoes and ticks.
+                <strong>Big, remote, or awkward lot?</strong> The <em>Best Overall</em> propane Burgess is the machine to buy, once you have a liquid with a current Canadian Reg. No. for it (we found none for these foggers). <strong>Small yard by the house on a budget?</strong> The <em>Best Budget</em> Black Flag electric does the same job for less, with the same liquid problem. <strong>Want a residual barrier that reaches ticks too?</strong> A <Link href="/blog/backpack-sprayer-canada">sprayer</Link> beats both foggers &mdash; or skip the DIY entirely and let <Link href="/mosquito-control">professional barrier spray</Link> handle the whole yard, mosquitoes and ticks.
               </>
             }
           />
@@ -353,7 +353,7 @@ export default function PropaneVsElectricFoggerCanadaPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Winner: Propane vs Electric"
             name="Burgess Propane Thermal Fogger"
-            blurb="For most Canadian yards, propane takes the head-to-head. Both machines fog identically, so the tiebreaker is reach — and going cordless lets you treat the whole property, treeline included, instead of only as far as an extension cord stretches. Buy electric instead only if your treatable area is small and sits right next to a GFCI outlet, where the tether never matters and you pocket the savings. Whichever you choose, load only a PMRA-registered fog solution."
+            blurb="For most Canadian yards, propane takes the head-to-head. Both machines fog identically, so the tiebreaker is reach — and going cordless lets you treat the whole property, treeline included, instead of only as far as an extension cord stretches. Buy electric instead only if your treatable area is small and sits right next to a GFCI outlet, where the tether never matters and you pocket the savings. Whichever you choose, settle the liquid first: the manuals name Black Flag Formula 2, Cutter or Repel fogging insecticide, none of which is registered in Canada, and we found no current homeowner liquid labelled for a thermal fogger."
             search="burgess propane insect fogger"
             score={8.7}
             pros={['Cordless — reaches the whole property', 'Same dense knockdown fog as electric', 'Best fit for large or remote GTA lots']}

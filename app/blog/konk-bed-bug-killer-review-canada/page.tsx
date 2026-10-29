@@ -147,13 +147,13 @@ export default function KonkBedBugKillerReviewCanadaPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Verdict"
             name="Konk Bed Bug Killer — the Canadian-legal contact aerosol"
-            blurb="Konk is the aerosol to reach for when your priority is a registered, Canadian-made product you can actually buy off a shelf rather than smuggle across the border. As a contact insecticide it does its core job well: spray a bed bug you can see and it goes down fast. What holds the score back is nothing unique to Konk and everything about the category — it is pyrethrin/pyrethroid chemistry, so the resistant bugs you don't hit directly may shrug it off, it won't reliably kill eggs cemented in seams, and a surface spray can't reach the harbourage where an infestation actually lives. Bought and used for what it is — legal knockdown and spot treatment inside a layered plan — it is a sound, honest pick. Bought as a one-can cure for an established infestation, it will disappoint, as every consumer spray does."
+            blurb="Konk is the aerosol to reach for when your priority is a registered product (PCP 31110) you can actually buy off a Canadian shelf rather than smuggle across the border. As a contact insecticide it does its core job well: spray a bed bug you can see and it goes down fast. What holds the score back is nothing unique to Konk and everything about the category — it is pyrethrins with piperonyl butoxide, and EPA says some bed bug populations resist pyrethrins and pyrethroids, so the resistant bugs you don't hit directly may shrug it off, it won't reliably kill eggs cemented in seams, and a surface spray can't reach the harbourage where an infestation actually lives. Bought and used for what it is — legal knockdown and spot treatment inside a layered plan — it is a sound, honest pick. Bought as a one-can cure for an established infestation, it will disappoint, as every consumer spray does."
             search="konk bed bug killer aerosol"
             asin="B07CGRLRNV"
             cta="Check price on Amazon.ca"
             score={7.4}
-            pros={['PMRA-registered and Canadian-made — fully legal retail purchase', 'Fast, effective contact knockdown on bugs you spray directly', 'Widely available at Canadian stores — no grey-market importing', 'A reviewed label with defined safe-use directions to follow']}
-            cons={['Pyrethroid chemistry — resistant bugs you miss may survive', 'Does not reliably kill eggs (heat is the answer there)', 'Short residual and no reach into deep harbourage', 'A knockdown layer only — never a standalone cure for an infestation']}
+            pros={['PMRA-registered (PCP 31110, domestic) — a legal retail purchase', 'Fast, effective contact knockdown on bugs you spray directly', 'Widely available at Canadian stores — no grey-market importing', 'A reviewed Canadian label with clear directions to follow']}
+            cons={['Pyrethrins + piperonyl butoxide — resistant bugs you miss may survive', 'Does not reliably kill eggs (heat is the answer there)', 'No residual (label: insects must be contacted to be killed) and no reach into deep harbourage', 'A knockdown layer only — never a standalone cure for an infestation']}
           />
         </div>
       </section>
@@ -196,7 +196,7 @@ export default function KonkBedBugKillerReviewCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Botanical &mdash; geraniol/cedar-type actives</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">No pyrethroid</strong> &mdash; appeals to chem-avoiders; residual &amp; cost trade-offs</td>
                   <td className="px-4 py-3 text-gray-700">Not in Health Canada&rsquo;s registry; no geraniol bed bug spray is registered</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Registered pick instead &rarr;</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">CimeXa / diatomaceous earth</span></td>

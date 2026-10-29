@@ -120,8 +120,8 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)" search="harris bed bug killer" label="Our verdict: 6.9/10 — conditional" />
-      <TopBox tag={AMZ_TAG} name="Harris Toughest Bed Bug Killer (verify Canadian-registered SKU)" search="harris bed bug killer" label="Our verdict: 6.9/10 — conditional" />
+      <StickyBuyBar tag={AMZ_TAG} name="KONK Bed Bug Killer aerosol (PCP 31110)" search="konk bed bug killer aerosol" label="Registered alternative in Canada" />
+      <TopBox tag={AMZ_TAG} name="KONK Bed Bug Killer aerosol (PCP 31110)" search="konk bed bug killer aerosol" label="Registered alternative in Canada" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -145,14 +145,14 @@ export default function HarrisBedBugKillerReviewCanadaPage() {
       <section className="bg-white px-4 py-2">
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
-            label="Our Verdict — Conditional"
-            name="Harris Toughest Bed Bug Killer — a known-name contact spray with two big caveats"
-            blurb="Harris is the brand nearly every Canadian searching for a bed bug spray eventually clicks on, and the Toughest liquid does the narrow thing a contact insecticide does: it kills the bed bugs it directly, thoroughly wets. That is genuinely useful for spot knockdown on bugs you can see and reach. But it is a pyrethroid, and the resistance now widespread in North American bed bug populations means the dried residual — the weeks-long protection the label implies — is exactly the part resistant bugs walk across and survive. It also cannot touch eggs sealed in seams or bugs hidden in voids. And before you buy at all, the legality question decides everything: only the specific PMRA-registered SKU sold through Canadian retail is legal here; a US listing that happens to ship is not. Buy it, if you buy it, as one Canadian-registered contact tool inside a layered plan — and lean on heat and desiccants for the durable kill."
-            search="harris bed bug killer"
+            label="What to Buy Instead in Canada"
+            name="KONK Bed Bug Killer (PCP 31110) — the registered can for the bed"
+            blurb="No Harris product is in Health Canada’s pesticide registry, so no Harris bottle has a PCP number; this is the can we point Canadian readers to instead. KONK Bed Bug Killer is a domestic-class pyrethrin aerosol (pyrethrins 0.50% with piperonyl butoxide 5.00%) whose label carries Reg. No. 31110. For bed bugs the label says to spray the mattress lightly, particularly around seams and tufts, and to take beds apart and spray the frames, springs and all joints, with a repeat only after 7 days if the problem persists. Insects must be contacted to be killed, so it is a spot tool, not a residual, and the label makes no egg claim: use heat for the eggs and a diatomaceous earth dust with a PCP number for the voids."
+            search="konk bed bug killer aerosol"
             cta="Check Canadian availability on Amazon.ca"
-            score={6.9}
-            pros={['Kills bed bugs it directly and thoroughly wets — real contact knockdown', 'Widely known, easy-to-recognise brand with several product formats', 'Useful as a spot tool for visible bugs inside a bigger plan', 'A Canadian-registered SKU can be a legitimate, label-legal purchase']}
-            cons={['Pyrethroid chemistry — undercut by the resistance common in local bed bugs', 'Residual is the weakest link; resistant bugs survive the dried film', 'Useless against eggs cemented in seams and bugs hidden in voids', 'Legality is per-SKU — a US listing that ships is not automatically legal to import', 'Not a stand-alone fix; needs heat, encasements, monitoring, and a dust to matter']}
+            score={7.4}
+            pros={['Domestic-class registration (PCP 31110), current', 'Label covers mattress seams and tufts, frames, springs and joints', 'Pyrethrins with piperonyl butoxide, not a synthetic pyrethroid', 'A Canadian label to follow, from Acuity Holdings, Edmonton']}
+            cons={['Kills only the bugs it contacts: no residual claimed (label)', 'No egg claim on the label: heat is the answer for eggs', 'EPA: some bed bug populations resist pyrethrins and pyrethroids', 'DANGER: extremely flammable, explosive aerosol (label)', 'Not a stand-alone fix; needs heat, encasements, monitoring, and a dust to matter']}
           />
         </div>
       </section>

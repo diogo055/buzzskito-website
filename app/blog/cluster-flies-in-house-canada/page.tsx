@@ -110,8 +110,8 @@ export default function ClusterFliesInHouseCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Best indoor fix" />
-      <TopBox tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Best indoor fix" />
+      <StickyBuyBar tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Window add-on to the vacuum" />
+      <TopBox tag={AMZ_TAG} name="Clear window fly traps" search="window fly traps clear sticky" label="Window add-on to the vacuum" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -138,9 +138,9 @@ export default function ClusterFliesInHouseCanadaPage() {
             heading="Our Picks — The Cluster Fly Toolkit"
             awards={[
               {
-                badge: 'Best Indoor Fix',
+                badge: 'Window Add-On',
                 name: 'Clear Window Fly Traps (corner-mount sticky panels)',
-                why: 'Transparent sticky panels that mount in the lower corner of the glass — exactly where cluster flies spend their indoor lives. They catch around the clock through the fall emergence and the warm-day winter wake-ups, without pesticide, odour, or anything visible from the curb. The single best-matched product to how this insect actually behaves.',
+                why: 'Transparent sticky panels that mount in the lower corner of the glass — exactly where cluster flies spend their indoor lives. They catch around the clock through the fall emergence and the warm-day winter wake-ups, without pesticide, odour, or anything visible from the curb. They catch only the flies that reach that window, though, and Iowa State calls flypaper, fly strips and bug zappers of no value against cluster flies, so treat them as an add-on to the vacuum, not the fix.',
                 search: 'window fly traps clear sticky',
                 score: 9.0,
                 featured: true,
@@ -150,7 +150,7 @@ export default function ClusterFliesInHouseCanadaPage() {
               {
                 badge: 'Best for Heavy Emergence',
                 name: 'Plug-In UV Light Trap (indoor sticky-card type)',
-                why: 'For rooms or attics where flies keep appearing over weeks, a plug-in UV trap with a hidden glue board runs unattended and quietly empties the airspace. On winter-sunny days when a warm attic wakes hundreds, it is the difference between managing the problem and chasing it fly by fly.',
+                why: 'For rooms or attics where flies keep appearing over weeks, a plug-in UV trap with a hidden glue board runs unattended and quietly empties the airspace. On winter-sunny days when a warm attic wakes hundreds, it is the difference between managing the problem and chasing it fly by fly. Health Canada registers indoor light traps as devices, so check the box for a PCP number.',
                 search: 'indoor fly light trap plug in uv',
                 score: 8.5,
                 pros: ['Continuous unattended catch', 'Glue board hides the evidence — no zapper mess', 'Doubles on fruit flies and fungus gnats'],
@@ -177,7 +177,7 @@ export default function ClusterFliesInHouseCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Flies at the windows right now?</strong> The <em>Best Indoor Fix</em> window traps plus the <em>Best Cleanup Tool</em> handheld vacuum handle the visible problem for under fifty dollars. <strong>Steady emergence in one room or the attic?</strong> Add the <em>Best for Heavy Emergence</em> light trap and let it run. <strong>Want this to stop happening?</strong> The <em>Best Prevention Buy</em> caulk is the only item on this row that changes next year &mdash; walk the sunny walls with it in July or early August, before the flies stage. Order matters more than product here: trap and vacuum now, seal in summer, and never the reverse.
+                <strong>Flies at the windows right now?</strong> The <em>Best Cleanup Tool</em> handheld vacuum handles the visible problem, as Health Canada&rsquo;s archived pest note advises, and the <em>Window Add-On</em> traps catch stragglers at the glass; Iowa State calls flypaper and fly strips of no value against cluster flies, so do not count on them alone. <strong>Steady emergence in one room or the attic?</strong> Add the <em>Best for Heavy Emergence</em> light trap and let it run; check its box for a PCP number. <strong>Want this to stop happening?</strong> The <em>Best Prevention Buy</em> caulk is the only item on this row that changes next year &mdash; walk the sunny walls with it in July or early August, before the flies stage. Order matters more than product here: trap and vacuum now, seal in summer, and never the reverse.
               </>
             }
           />

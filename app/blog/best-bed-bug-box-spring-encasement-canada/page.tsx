@@ -187,7 +187,7 @@ export default function BestBedBugBoxSpringEncasementCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Active bed-bug problem and want the safe default?</strong> The <em>Best Overall</em> SureGuard box-spring encasement gets the seal, the zipper, and the fabric right. <strong>Want documented, certified testing and the heaviest fabric?</strong> The <em>Best Premium</em> SafeRest. <strong>Encasing several beds or a rental?</strong> The <em>Best Value</em> Utopia keeps the per-unit cost down without dropping to an open-bottom cover. <strong>One low-pressure bed on a tight budget?</strong> The <em>Best Budget</em> cover works &mdash; just confirm it is truly six-sided before you buy.
+                <strong>Active bed-bug problem and want the dependable default?</strong> The <em>Best Overall</em> SureGuard box-spring encasement gets the seal, the zipper, and the fabric right. <strong>Want documented, certified testing and the heaviest fabric?</strong> The <em>Best Premium</em> SafeRest. <strong>Encasing several beds or a rental?</strong> The <em>Best Value</em> Utopia keeps the per-unit cost down without dropping to an open-bottom cover. <strong>One low-pressure bed on a tight budget?</strong> The <em>Best Budget</em> cover works &mdash; just confirm it is truly six-sided before you buy.
               </>
             }
           />

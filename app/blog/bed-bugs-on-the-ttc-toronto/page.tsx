@@ -277,16 +277,16 @@ export default function BedBugsOnTheTTCTorontoPage() {
               },
               {
                 badge: 'Only for Real Occupational Exposure',
-                name: 'PMRA-Registered Travel-Size Bed Bug Spray (for bags, not people)',
-                why: 'Gated deliberately. Most commuters should not buy this. If you work in shelters, home care, moving or cleaning and your bag is repeatedly in real harbourage, a small Canadian-registered aerosol used on the outside seams and zipper channels of a bag has a defensible role. Confirm a PCP registration number on the Canadian label, and never apply it to clothing you wear or to bedding — that is not what the label authorises.',
+                name: 'PMRA-Registered Travel-Size Bed Bug Spray (for beds and mattresses, not bags)',
+                why: 'Gated deliberately. Most commuters should not buy this. If you work in shelters, home care, moving or cleaning and are repeatedly in real harbourage, a small Canadian-registered aerosol has a defensible role, but on a bed or mattress, not a bag: Doktor Doom Travel Pro (PCP 32254) lists beds and mattresses as its use sites, and bags and luggage are not on its label. A work bag gets wiped down and, if it can take it, a hot dryer cycle. Confirm a PCP registration number on the Canadian label, and never apply it to clothing you wear or to bedding — that is not what the label authorises.',
                 search: 'doktor doom travel pro bed bug spray',
-                pros: ['A registered Canadian option rather than a grey-market US import', 'Small enough to keep in a work bag', 'Treats the item, which is what actually travels'],
-                cons: ['Wrong purchase for an ordinary commuter — a dryer cycle beats it', 'Never for skin, worn clothing or bedding — check the use sites on the label'],
+                pros: ['A registered Canadian option rather than a grey-market US import', 'Small enough to keep in a work bag', 'Listed use sites: beds and mattresses (PCP 32254)'],
+                cons: ['Wrong purchase for an ordinary commuter — a dryer cycle beats it', 'Not for bags or luggage, and never for skin, worn clothing or bedding — check the use sites on the label'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>Had a scare and want to stop worrying?</strong> Buy only the <em>Only Real Answer</em> interceptors, run them two weeks, and let the result end the conversation. <strong>Live in a Toronto apartment or condo?</strong> Add the <em>Best Standing Insurance</em> encasements and leave the interceptors in permanently &mdash; in multi-unit housing the introduction you need to catch is the one you did not cause. <strong>Building a habit rather than buying a cure?</strong> The <em>Best for the Door Routine</em> bin is the cheapest thing here and the most likely to change behaviour. <strong>Exposed at work every shift?</strong> Only then does the <em>Occupational Exposure</em> spray earn its place &mdash; our <Link href="/blog/best-bed-bug-spray-for-travel-canada">Canadian travel spray guide</Link> covers what is registered here and how to use it on a bag.
+                <strong>Had a scare and want to stop worrying?</strong> Buy only the <em>Only Real Answer</em> interceptors, run them two weeks, and let the result end the conversation. <strong>Live in a Toronto apartment or condo?</strong> Add the <em>Best Standing Insurance</em> encasements and leave the interceptors in permanently &mdash; in multi-unit housing the introduction you need to catch is the one you did not cause. <strong>Building a habit rather than buying a cure?</strong> The <em>Best for the Door Routine</em> bin is the cheapest thing here and the most likely to change behaviour. <strong>Exposed at work every shift?</strong> Only then does the <em>Occupational Exposure</em> spray earn its place, and only on a bed or mattress, the use sites on its label &mdash; our <Link href="/blog/best-bed-bug-spray-for-travel-canada">Canadian travel spray guide</Link> covers what is registered here and why heat, not a spray, is the answer for a bag.
               </>
             }
           />

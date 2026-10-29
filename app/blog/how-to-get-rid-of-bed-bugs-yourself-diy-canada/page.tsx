@@ -161,10 +161,10 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
               },
               {
                 badge: 'Weeks Of Residual',
-                name: 'Silica / Diatomaceous-Earth Desiccant Dust',
-                why: 'The lasting kill layer. A fine film of silica-gel or food-grade DE in cracks, voids, and under baseboards abrades the insect shell so anything crossing it dehydrates over days. This is what keeps working long after you put the steamer away.',
-                search: 'silica bed bug desiccant dust',
-                score: 8.7,
+                name: 'Diatomaceous-Earth Dust with a PCP Number (e.g. Doktor Doom Be Green, PCP 32561)',
+                why: 'The lasting kill layer. A fine film of a diatomaceous earth dust whose label shows a PCP number and lists bed bugs, such as Doktor Doom Be Green (PCP 32561), in cracks, voids, and under baseboards abrades the insect shell so anything crossing it dehydrates over days. No silica-gel dust is registered for home use in Canada. This is what keeps working long after you put the steamer away.',
+                search: 'doktor doom diatomaceous earth',
+                score: 8.3,
                 pros: ['Long-lasting residual kill', 'No resistance — physical mode of action', 'Cheap to cover a whole room'],
                 cons: ['Must be a thin film, not a pile', 'Stops working if it gets damp'],
               },
@@ -198,7 +198,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Buy all five &mdash; that is the point.</strong> This is not a &ldquo;pick one&rdquo; list; each tool covers a gap the others leave. If budget forces a phased purchase, start with the <em>Steamer</em> and <em>Interceptor Traps</em> (kill + measure), add <em>Encasements</em> next to lock down the bed, then layer in the <em>Desiccant Dust</em> for residual and the <em>Sealed-HEPA Vacuum</em> for fast removal. For the deep dives, see our dedicated guides on <Link href="/blog/best-bed-bug-steamer-canada">steamers</Link>, <Link href="/blog/cimexa-bed-bug-review-canada">CimeXa silica dust</Link>, <Link href="/blog/bed-bug-mattress-encasement-canada">encasements</Link>, and <Link href="/blog/bed-bug-interceptor-traps-canada">interceptors</Link>.
+                <strong>Buy all five &mdash; that is the point.</strong> This is not a &ldquo;pick one&rdquo; list; each tool covers a gap the others leave. If budget forces a phased purchase, start with the <em>Steamer</em> and <em>Interceptor Traps</em> (kill + measure), add <em>Encasements</em> next to lock down the bed, then layer in the <em>Desiccant Dust</em> for residual and the <em>Sealed-HEPA Vacuum</em> for fast removal. For the deep dives, see our dedicated guides on <Link href="/blog/best-bed-bug-steamer-canada">steamers</Link>, <Link href="/blog/cimexa-bed-bug-review-canada">desiccant dusts</Link>, <Link href="/blog/bed-bug-mattress-encasement-canada">encasements</Link>, and <Link href="/blog/bed-bug-interceptor-traps-canada">interceptors</Link>.
               </>
             }
           />
@@ -232,11 +232,11 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">silica or DE</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Desiccant dust<br /><span className="font-normal text-xs text-gray-500">DE with a PCP number</span></td>
                   <td className="px-4 py-3 text-gray-700">Residual kill in cracks &amp; voids for weeks</td>
                   <td className="px-4 py-3 text-gray-700">Indirectly &mdash; dries out nymphs</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Yes</strong> &mdash; weeks, if kept dry</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA vacuum<br /><span className="font-normal text-xs text-gray-500">physical removal</span></td>
@@ -299,7 +299,7 @@ export default function GetRidOfBedBugsYourselfDiyCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core basket:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Steamer →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="silica bed bug desiccant dust">Desiccant dust →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="doktor doom diatomaceous earth">Desiccant dust (PCP 32561) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug proof mattress encasement certified">Encasements →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps">Interceptors →</BuyLink>
           </div>

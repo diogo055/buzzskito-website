@@ -142,13 +142,13 @@ export default function VapamoreMR100SteamerReviewCanadaPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best Dry-Steam Workhorse for DIY Bed-Bug Work"
             name="Vapamore MR-100 Primo Dry-Vapour Steam Cleaner"
-            blurb="The MR-100 earns its long-standing reputation: a durable stainless boiler that holds pressure, a genuinely dry plume that kills on contact without soaking the bed, and a full accessory kit with the concentrator and detail brush that actually drive heat into seams. It is priced in the sensible middle of the category — well under a whole-room heater — and doubles as a household steam cleaner for years afterward. Its limit is the limit of every steamer: it only kills what the plume touches, so it belongs in a plan alongside encasements and monitoring, not on its own."
+            blurb="The MR-100 earns its long-standing reputation: a durable stainless boiler that holds pressure, a genuinely dry plume that kills on contact without soaking the bed, and a full accessory kit (floor head, fabric tool, jet nozzle and brushes); for bed bugs, University of Minnesota Extension suggests a floor or upholstery attachment rather than a pinpoint nozzle, which can blow the bugs away. It is priced in the sensible middle of the category — well under a whole-room heater — and doubles as a household steam cleaner for years afterward. Its limit is the limit of every steamer: it only kills what the plume touches, so it belongs in a plan alongside encasements and monitoring, not on its own."
             search="vapamore mr-100 primo steam cleaner"
             score={8.9}
             pros={[
               'Stainless boiler holds real pressure — steady, genuinely dry steam',
-              'Full accessory kit in the box (concentrator + detail brushes)',
-              'Hour-plus run time per fill — enough for one bedroom',
+              'Full accessory kit in the box (floor head, fabric tool, jet nozzle, brushes)',
+              '50–60 minutes of steam per fill (Vapamore) — enough for one bedroom',
               'Reusable as a whole-home steam cleaner for years',
               'Strong Vapamore warranty reputation',
             ]}

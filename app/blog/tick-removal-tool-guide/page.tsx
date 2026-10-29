@@ -134,7 +134,7 @@ export default function TickRemovalToolGuidePage() {
               {
                 badge: 'Best Overall',
                 name: 'Tick Twister / O’Tom Tick Twister',
-                why: 'The hooked notch slides under the tick and twists it free without squeezing the body — the standard tool most veterinarians recommend, and budget-friendly.',
+                why: 'The hooked notch slides under the tick and twists it free without squeezing the body. In a randomized trial on pets it left 7 of 108 ticks with damaged mouthparts, against 20 of 108 for a lasso-style remover (Duscher, 2012), and it is budget-friendly.',
                 asin: 'B0D4DTM25H',
                 search: 'otom tick twister',
                 score: 9.1,
@@ -154,11 +154,11 @@ export default function TickRemovalToolGuidePage() {
               {
                 badge: 'Best Backup',
                 name: 'Wallet Tick Removal Card',
-                why: 'A credit-card-sized notch that lives in a wallet, glovebox, or hiking pack — the cheapest way to always have a tool on hand when you find a tick away from home.',
+                why: 'A credit-card-sized notch that lives in a wallet, glovebox, or hiking pack — the cheapest way to always have a tool on hand when you find a tick away from home. Keep it as a backup only: in the one study on people, a card-type remover pulled out 3 of 40 ticks intact, against 33 of 40 for tweezers (Akin Belli, 2016).',
                 search: 'tick removal card',
                 score: 7.6,
                 pros: ['Cheapest option', 'Fits in any wallet', 'No moving parts'],
-                cons: ['Awkward on very small nymphs', 'Needs a flat skin surface'],
+                cons: ['Far fewer ticks out intact than tweezers in a study on people', 'Awkward on very small nymphs; needs a flat skin surface'],
               },
               {
                 badge: 'Best Kit',
@@ -181,7 +181,7 @@ export default function TickRemovalToolGuidePage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want one tool for the whole household?</strong> The <em>Best Overall</em> Tick Twister is the vet-standard pick. <strong>First time removing a tick?</strong> The <em>Best for Beginners</em> TickKey is nearly impossible to misuse. <strong>Dog owner or ravine-adjacent yard?</strong> The <em>Best Kit</em> bundles everything with a storage vial. But the fewer ticks in the yard to begin with, the less often you need any of them — <Link href="/tick-control">professional yard tick control</Link> treats the leaf litter and shaded edges where they wait.
+                <strong>Want one tool for the whole household?</strong> The <em>Best Overall</em> Tick Twister left fewer damaged mouthparts than a lasso tool or forceps in the pet trials. <strong>First time removing a tick?</strong> The <em>Best for Beginners</em> TickKey is nearly impossible to misuse. <strong>Dog owner or ravine-adjacent yard?</strong> The <em>Best Kit</em> bundles everything with a storage vial. But the fewer ticks in the yard to begin with, the less often you need any of them — <Link href="/tick-control">professional yard tick control</Link> treats the leaf litter and shaded edges where they wait.
               </>
             }
           />

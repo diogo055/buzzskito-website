@@ -114,8 +114,8 @@ export default function PicaridinVsDeetPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
-      <TopBox tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Defense / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Deep Woods / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
+      <TopBox tag={AMZ_TAG} name="Picaridin 20% insect repellent (Natrapel / OFF! Deep Woods / Sawyer)" search="natrapel picaridin insect repellent" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -134,8 +134,8 @@ export default function PicaridinVsDeetPage() {
           </div>
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
-            name="Picaridin 20% (Natrapel, OFF! Defense, or Sawyer)"
-            blurb="The winner for most Canadians — the same 5–8 hour mosquito and 8-hour tick protection as DEET 30%, but non-greasy, odourless, and won’t damage plastics, sunglasses, or synthetic clothing."
+            name="Picaridin 20% (Natrapel, OFF! Deep Woods 9 or 10, or Sawyer)"
+            blurb="The winner for most Canadians — it repels ticks and protects against mosquitoes for about 5–7 hours at up to 20% (the Canadian Paediatric Society gives DEET at up to 30% about 5–8 hours), and it is non-greasy, odourless, and won’t damage plastics, sunglasses, or synthetic clothing."
             search="natrapel picaridin insect repellent"
             score={9.0}
             pros={['Matches DEET protection at 20%', 'Non-greasy, odourless, dries fast', 'Won’t damage plastics, sunglasses, or synthetic fabrics', 'Labelled for children from 6 months']}
@@ -269,17 +269,17 @@ export default function PicaridinVsDeetPage() {
           <div className="not-prose grid gap-4 sm:grid-cols-3 my-6">
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
               <p className="font-extrabold text-brand-900">Natrapel 20% Picaridin</p>
-              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Outdoor-store favourite &mdash; pump or continuous spray, travel-friendly, stocked at MEC and Atmosphere.</p>
+              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Outdoor-store favourite &mdash; pump or continuous spray, travel-friendly, stocked at MEC. Check the bottle for PCP 34244 or 34555.</p>
               <BuyLink tag={AMZ_TAG} search="natrapel picaridin 20 percent">Check price on Amazon.ca →</BuyLink>
             </div>
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
-              <p className="font-extrabold text-brand-900">OFF! Defense Picaridin</p>
-              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Most-stocked pharmacy pick &mdash; lotion or spray, budget-friendly, easy to find at Shoppers and Canadian Tire.</p>
+              <p className="font-extrabold text-brand-900">OFF! Deep Woods 9 or 10 (icaridin)</p>
+              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">No OFF! product called Defense is registered in Canada; S.&nbsp;C. Johnson&rsquo;s 20% icaridin repellents here are OFF! Deep Woods Insect Repellent 9 (PCP 30155) and 10 (33575). Check the bottle for one of those numbers: a US OFF! bottle carries an EPA number instead.</p>
               <BuyLink tag={AMZ_TAG} search="off defense picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
             </div>
             <div className="rounded-xl border border-navy-100 bg-white p-4 shadow-sm flex flex-col">
               <p className="font-extrabold text-brand-900">Sawyer Picaridin</p>
-              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Long-lasting lotion loved by hikers and travellers &mdash; one application covers a full day outdoors.</p>
+              <p className="text-sm text-gray-600 mt-1 mb-3 flex-1">Pump or pressurized spray loved by hikers and travellers: Canada&rsquo;s two Sawyer registrations are both 20% icaridin sprays (PCP 33032 and 33177), and no Sawyer lotion is registered here. About 5&ndash;7 hours against mosquitoes (Canadian Paediatric Society).</p>
               <BuyLink tag={AMZ_TAG} search="sawyer picaridin insect repellent">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>

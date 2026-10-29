@@ -149,8 +149,8 @@ export default function BestBedBugHeatChamberCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'ZappBug Original (portable heat chamber)',
-                why: 'The default choice for household bed-bug work: a collapsible insulated cube with built-in heaters and a probe thermometer that holds luggage, clothing, shoes, and books past the 48°C kill line for eggs and adults alike. Big enough for most jobs, small enough to store.',
+                name: 'ZappBug Heater (portable heat chamber)',
+                why: 'The default choice for household bed-bug work: a collapsible insulated box (37.5 x 23 x 23 in) with one heater and a probe thermometer that holds luggage, clothing, shoes, and books past the 48°C kill line for eggs and adults alike. ZappBug sells it as the ZappBug Heater; it has no model called the Original. Big enough for most jobs, small enough to store.',
                 asin: 'B00F6EV306',
                 search: 'zappbug original bed bug heater',
                 score: 9.1,
@@ -161,7 +161,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
               {
                 badge: 'Best for Furniture',
                 name: 'ZappBug Room (large heat chamber)',
-                why: 'The larger unit for the loads the Original cannot swallow — a small armchair, stacked dining chairs, big totes, or a whole family’s clothing in one cycle. The right pick if you routinely need to heat furniture or clear big loads in fewer runs.',
+                why: 'The larger unit for the loads the Heater cannot swallow — a small armchair, stacked dining chairs, big totes, or a whole family’s clothing in one cycle. The right pick if you routinely need to heat furniture or clear big loads in fewer runs.',
                 search: 'zappbug room bed bug heater',
                 score: 8.6,
                 pros: ['Fits small furniture and large loads', 'Fewer cycles for big jobs', 'Same sustained-heat, thermometer-verified design'],
@@ -179,7 +179,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
               {
                 badge: 'Best Budget / DIY',
                 name: 'DIY Heat Chamber (insulated tote + heater + thermometer)',
-                why: 'For a single small job on a tight budget: an insulated tote or garment bag warmed by a small ceramic heater and — critically — monitored with a real probe thermometer. Cheapest route, but only safe and effective if you watch the temperature and never leave a heater unattended.',
+                why: 'For a single small job on a tight budget: an insulated tote or garment bag warmed by a small ceramic heater and — critically — monitored with a real probe thermometer. Cheapest route, but the University of Florida researchers who built one told homeowners not to build their own heat treatment chambers, warning that it could lead to fires; never leave a heater unattended.',
                 search: 'portable bed bug heater unit',
                 score: 6.9,
                 pros: ['Lowest cost for a one-off', 'Uses gear you may already own', 'Works if you truly monitor the temperature'],
@@ -188,7 +188,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Treating clothing, luggage, shoes, and books?</strong> The <em>Best Overall</em> ZappBug Original covers the majority of household jobs. <strong>Need to heat a chair or big loads?</strong> Step up to the <em>Best for Furniture</em> ZappBug Room. <strong>A traveller who just wants to zap a suitcase?</strong> The <em>Best for Travel</em> Thermal Strike Ranger is the focused tool. <strong>One-off job on a tight budget and willing to watch a thermometer?</strong> A carefully built <em>DIY</em> chamber can work &mdash; but a purpose-built unit removes the fire and cold-pocket risk for a reason.
+                <strong>Treating clothing, luggage, shoes, and books?</strong> The <em>Best Overall</em> ZappBug Heater covers the majority of household jobs. <strong>Need to heat a chair or big loads?</strong> Step up to the <em>Best for Furniture</em> ZappBug Room. <strong>A traveller who just wants to zap a suitcase?</strong> The <em>Best for Travel</em> Thermal Strike Ranger is the focused tool. <strong>One-off job on a tight budget?</strong> The University of Florida researchers who built a <em>DIY</em> chamber told homeowners not to build their own, warning that it could lead to fires, so a purpose-built unit is the better buy.
               </>
             }
           />
@@ -279,7 +279,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Original →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Heater →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater">ZappBug Room →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="thermal strike ranger bed bug heater bag">Thermal Strike bag →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="portable bed bug heater unit">Portable heater unit →</BuyLink>

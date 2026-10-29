@@ -246,7 +246,7 @@ export default function MosquitoMagnetCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Mosquito Magnet Patriot Plus',
-                why: 'Treats up to 1 acre and is sufficient for most GTA suburban backyards — the same propane CO₂ engine as the models costing twice as much, at the entry price in the lineup.',
+                why: 'Treats up to 1 acre — the same propane CO₂ engine as the models costing twice as much, at the entry price in the lineup. It pays off on acreage and cottage lots; on a typical suburban lot under about a quarter-acre, barrier spray protects the yard faster.',
                 asin: 'B07QJY2NL1',
                 search: 'mosquito magnet patriot plus',
                 score: 8.6,
@@ -257,7 +257,7 @@ export default function MosquitoMagnetCanadaPage() {
               {
                 badge: 'Best for Cottages & Acreage',
                 name: 'Mosquito Magnet Executive',
-                why: 'The top consumer model — improved attractant delivery, longer cartridge life, and tougher construction built for multi-season cottage and rural duty.',
+                why: 'The top consumer model — cordless on a rechargeable battery, with fuel-saving modes that Woodstream says extend accessory and propane life by up to 40%, and heavy-duty construction built for multi-season cottage and rural duty.',
                 search: 'mosquito magnet executive',
                 score: 8.3,
                 pros: ['Built to survive multi-season cottage use', 'Longer cartridge life means fewer mid-season maintenance trips'],
@@ -274,7 +274,7 @@ export default function MosquitoMagnetCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Typical suburban backyard, committed to 24/7 operation?</strong> The <em>Best Overall</em> Patriot Plus is all the trap most properties can use. <strong>Cottage, rural acreage, or chronic pressure near wetlands?</strong> The <em>Executive</em> earns its premium in durability and longer cartridge life. <strong>Already running a Magnet?</strong> Buy <em>attractant refills</em> in spring, before mid-July thins the shelves. And remember what no trap on this page does: protect tonight&rsquo;s BBQ or touch ticks &mdash; every Magnet needs 4&ndash;8 weeks to work, while <Link href="/mosquito-control">professional barrier spray</Link> covers mosquitoes and ticks the same day.
+                <strong>A lot of a quarter-acre or more, committed to 24/7 operation?</strong> The <em>Best Overall</em> Patriot Plus is all the trap most such properties can use; on a typical suburban lot, barrier spray protects the yard faster. <strong>Cottage, rural acreage, or chronic pressure near wetlands?</strong> The <em>Executive</em> earns its premium in durability and longer cartridge life. <strong>Already running a Magnet?</strong> Buy <em>attractant refills</em> in spring, before mid-July thins the shelves. And remember what no trap on this page does: protect tonight&rsquo;s BBQ or touch ticks &mdash; every Magnet needs 4&ndash;8 weeks to work, while <Link href="/mosquito-control">professional barrier spray</Link> covers mosquitoes and ticks the same day.
               </>
             }
           />

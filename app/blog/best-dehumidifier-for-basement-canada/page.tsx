@@ -120,8 +120,8 @@ export default function BestDehumidifierForBasementCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
-      <TopBox tag={AMZ_TAG} name="hOmeLabs 50-Pint Energy Star Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
+      <StickyBuyBar tag={AMZ_TAG} name="hOmeLabs 50-Pint Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
+      <TopBox tag={AMZ_TAG} name="hOmeLabs 50-Pint Dehumidifier" search="homelabs 50 pint dehumidifier" label="Best overall" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -149,12 +149,12 @@ export default function BestDehumidifierForBasementCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'hOmeLabs 50-Pint Energy Star Dehumidifier',
-                why: 'The default right answer for a typical 1,500–2,500 sq ft Canadian basement: enough capacity to hold 45–50% RH, a continuous-drain port, auto-defrost for cool basements, and Energy Star efficiency so the season-long running cost stays reasonable.',
+                name: 'hOmeLabs 50-Pint Dehumidifier',
+                why: 'The default right answer for a typical 1,500–2,500 sq ft Canadian basement: enough capacity to hold 45–50% RH, a continuous-drain port and auto-defrost for cool basements. It is not on ENERGY STAR’s certified list, which names only two smaller hOmeLabs models; for a certified 50-pint unit, see the Midea Cube.',
                 search: 'homelabs 50 pint dehumidifier',
                 score: 9.2,
                 featured: true,
-                pros: ['Right capacity for most basements', 'Continuous gravity-drain hose port', 'Auto-defrost + Energy Star efficiency'],
+                pros: ['Right capacity for most basements', 'Continuous gravity-drain hose port', 'Auto-defrost for cool basements'],
                 cons: ['No built-in pump (gravity drain only)', 'Compressor noise is audible in a finished room'],
               },
               {

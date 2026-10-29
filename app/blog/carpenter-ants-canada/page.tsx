@@ -172,12 +172,12 @@ export default function CarpenterAntsCanadaPage() {
                 cons: ['Diagnoses, does not kill — you still need bait or dust', 'Readings need interpreting against a known-dry area on the same material'],
               },
               {
-                badge: 'Best Colony Killer',
+                badge: 'Colony Bait (Check the Label)',
                 name: 'Liquid Borax Ant Bait Stations',
-                why: 'Carpenter ants are liquid feeders that share food mouth-to-mouth, which is exactly the weakness sugar-based borax baits exploit — a forager drinks, walks home, and feeds the colony including brood. The widely stocked domestic-class option in Canada; confirm a PCP registration number on the label and that carpenter ants are listed.',
+                why: 'Carpenter ants are liquid feeders that share food mouth-to-mouth, which is exactly the weakness slow liquid baits exploit — a forager drinks, walks home, and feeds the colony including brood. But no current home-use borax or boric acid bait in Canada names carpenter ants on its label (TERRO’s Canadian labels name common sweet-eating ants); the registered baits that do are spinosad liquids such as Raid Max Liquid Ant Baits (PCP 33831) and borate gels such as Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560). Buy one whose label names carpenter ants.',
                 search: 'liquid ant bait stations borax',
                 pros: ['Reaches the queen and brood you can never see', 'Slow-acting by design — the forager survives the walk home', 'Cheap enough to run six or eight placements along one trail'],
-                cons: ['Acceptance is seasonal and fussy — some weeks they ignore sugar entirely', 'Ruined by any spray residue nearby', 'Takes weeks, and traffic spikes first before it falls'],
+                cons: ['No current home-use borax label names carpenter ants', 'Acceptance is seasonal and fussy — some weeks they ignore sugar entirely', 'Ruined by any spray residue nearby', 'Takes weeks, and traffic spikes first before it falls'],
               },
               {
                 badge: 'Best Void Treatment',
@@ -198,7 +198,7 @@ export default function CarpenterAntsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Found frass but no idea where it is coming from?</strong> The <em>Best Overall</em> moisture meter and the <em>Best Night Inspection</em> headlamp are the two purchases that actually move the job forward, because they answer the only question that matters &mdash; where is the nest. <strong>Trail located, nest still hidden?</strong> Run the <em>Best Colony Killer</em> liquid baits on that trail and let the ants carry the treatment to the nest for you. <strong>Nest located in a void you can reach?</strong> Add the <em>Best Void Treatment</em> duster &mdash; application technique is in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>. <strong>Winter sightings, swarmers indoors, or frass from a ceiling?</strong> Buy nothing. That is a licensed-operator job, and the reasons are in the last section of this page.
+                <strong>Found frass but no idea where it is coming from?</strong> The <em>Best Overall</em> moisture meter and the <em>Best Night Inspection</em> headlamp are the two purchases that actually move the job forward, because they answer the only question that matters &mdash; where is the nest. <strong>Trail located, nest still hidden?</strong> Run a liquid bait whose label names carpenter ants on that trail (no current home-use borax bait does; see the <em>Colony Bait</em> card) and let the ants carry the treatment to the nest for you. <strong>Nest located in a void you can reach?</strong> Add the <em>Best Void Treatment</em> duster &mdash; application technique is in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>. <strong>Winter sightings, swarmers indoors, or frass from a ceiling?</strong> Buy nothing. That is a licensed-operator job, and the reasons are in the last section of this page.
               </>
             }
           />
@@ -300,7 +300,7 @@ export default function CarpenterAntsCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the diagnostic kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="pinless wood moisture meter">Moisture meter &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="liquid ant bait stations borax">Liquid borax baits &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="liquid ant bait stations borax">Liquid borax baits (labels don&rsquo;t name carpenter ants) &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">DE + duster &rarr;</BuyLink>
           </div>
 
@@ -391,7 +391,7 @@ export default function CarpenterAntsCanadaPage() {
           </ul>
           <p>Product selection matters less here than nest-finding does, but if you want the shelf sorted before you spend anything, we compared the Canadian options &mdash; liquid borax stations, protein baits, gels and perimeter products &mdash; in our guide to <Link href="/blog/best-ant-killer">the ant killers that reach the queen in Canada</Link>. For the enclosed-station formats specifically, including which are safe to leave down around pets and kids, see <Link href="/blog/best-ant-traps-canada">bait stations versus glue traps for Canadian homes</Link>.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="liquid ant bait stations borax">Check liquid borax ant baits on Amazon.ca &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="liquid ant bait stations borax">Check liquid ant baits on Amazon.ca (borax labels don&rsquo;t name carpenter ants; check yours does) &rarr;</BuyLink>
           </div>
 
           <h2>Dusting a Void — Once You Actually Know Where the Nest Is</h2>

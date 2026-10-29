@@ -146,11 +146,11 @@ export default function BestCommercialFlyLightTrapCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Vector Encapsulation Insect Light Trap',
-                why: 'A Rentokil professional brand built around food-safety auditing: shatterproof lamps, high glue-board surface area, and the recognizable unit an inspector expects. If your kitchen is inspected — and in Ontario every food premises is — this is the unit that answers the question before it is asked.',
+                why: 'A professional fly-light line built around food-safety auditing, part of AP&G’s Catchmaster portfolio since BASF divested its Vector business in October 2020: shatterproof lamps, high glue-board surface area, and the recognizable unit an inspector expects. If your kitchen is inspected — and in Ontario every food premises is — this is the unit that answers the question before it is asked.',
                 search: 'vector insect light trap glue board',
                 score: 9.1,
                 featured: true,
-                pros: ['Shatterproof lamp — food-safe compliant', 'High glue-board catch surface', 'Recognized by auditors and inspectors'],
+                pros: ['Shatterproof lamp', 'High glue-board catch surface', 'Recognized by auditors and inspectors'],
                 cons: ['Premium price', 'May use proprietary boards/lamps'],
               },
               {

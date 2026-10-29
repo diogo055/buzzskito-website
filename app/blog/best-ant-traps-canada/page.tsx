@@ -154,10 +154,10 @@ export default function BestAntTrapsCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Enclosed Liquid Ant Bait Stations (TERRO-style, domestic class)',
-                why: 'The format that reaches the queen instead of the trail. Sweet liquid with a slow-acting borax-family active, held inside a child-resistant plastic housing you set directly on the marching line. Widely stocked by Canadian hardware, grocery and big-box retailers, and sold in multi-packs because coverage is what actually matters. Check the pack for a Canadian PCP registration number.',
+                why: 'The format that reaches the queen instead of the trail. Sweet liquid with a slow-acting borax-family active, held inside an enclosed plastic housing you set directly on the marching line. Widely stocked by Canadian hardware, grocery and big-box retailers, and sold in multi-packs because coverage is what actually matters. Check the pack for a Canadian PCP registration number.',
                 search: 'terro liquid ant baits',
                 featured: true,
-                pros: ['Reaches the colony by trophallaxis — the only outcome that counts', 'Liquid is the format pavement and odorous house ants prefer', 'Enclosed housing suits kitchens, homes with kids and pets', 'Among the least expensive products in the pest aisle'],
+                pros: ['Reaches the colony by trophallaxis — the only outcome that counts', 'Liquid is the format pavement and odorous house ants prefer', 'Enclosed housing suits kitchens (TERRO says to place it where children and pets cannot reach)', 'Among the least expensive products in the pest aisle'],
                 cons: ['Ants get worse before better — the recruitment surge scares people into spraying', 'Bait dries out; stations need swapping every few weeks in use', 'Useless against carpenter ants nesting in damp structural wood'],
               },
             ]}

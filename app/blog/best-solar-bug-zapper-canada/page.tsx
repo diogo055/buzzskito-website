@@ -138,12 +138,12 @@ export default function BestSolarBugZapperCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: '4,500V dual-charge solar zapper (PALONE-class)',
-                why: 'The all-round pick: a 4,500V grid strong enough to finish large moths, a ~7.5W panel, and — the part that matters in Canada — a USB-C backup port that rescues cloudy weeks. Realistic 3–5 m kill radius.',
+                why: 'The all-round pick: a grid listed at 4,500V, a ~7.5W panel, and — the part that matters in Canada — a USB-C backup port that rescues cloudy weeks. Treat any kill radius or coverage figure as the seller’s claim, not a measured zone.',
                 search: 'PALONE solar bug zapper 4500V USB-C',
                 score: 8.0,
                 featured: true,
-                pros: ['USB-C backup for cloudy stretches', '4,500V grid actually kills large moths', 'Stake, hang, or tabletop mounting'],
-                cons: ['3–5 m radius, not the "2,100 sq ft" claimed', 'Near-useless on the mosquitoes that bite'],
+                pros: ['USB-C backup for cloudy stretches', 'Grid listed at 4,500V', 'Stake, hang, or tabletop mounting'],
+                cons: ['"2,100 sq ft" coverage is the seller’s claim', 'Near-useless on the mosquitoes that bite'],
               },
               {
                 badge: 'Best for Docks & Shade',
@@ -157,11 +157,11 @@ export default function BestSolarBugZapperCanadaPage() {
               {
                 badge: 'Best for Ambiance',
                 name: 'PIC solar flame-effect lantern zapper',
-                why: 'The prettiest of the bunch — a flame-effect LED ambiance mode with a zapper built in. A weaker 600V grid means it stuns more than it kills, but it earns its spot as patio decor first.',
+                why: 'The prettiest of the bunch — a flame-effect LED ambiance mode with a zapper built in, on a grid retailers list at 600V. It earns its spot as patio decor first.',
                 search: 'PIC solar bug zapper lantern',
                 score: 7.0,
                 pros: ['Genuine patio ambiance', 'Weatherproof and cordless', 'Fun flame-effect glow'],
-                cons: ['600V grid only stuns big moths', 'Half-acre attraction claim is marketing'],
+                cons: ['A decor light first, a zapper second', 'Half-acre attraction claim is marketing'],
               },
               {
                 badge: 'Best Budget',

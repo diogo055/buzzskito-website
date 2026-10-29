@@ -120,8 +120,8 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
-      <TopBox tag={AMZ_TAG} name="ThermalStrike Ranger heated bed bug suitcase" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
+      <TopBox tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -146,13 +146,13 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
             label="Our Verdict"
-            name="ThermalStrike Ranger — heated bed bug suitcase"
-            blurb="A hard-shell rolling suitcase with a heating element engineered into its walls. You travel with it like any carry-on, then plug it in when you get home and let the sealed interior climb past the temperature at which bed bug adults, nymphs, and eggs all die — sterilizing the belongings in the exact bag they rode home in, before you ever unzip it in your bedroom. The appeal is that prevention becomes a no-setup habit rather than a chore, which is exactly what keeps frequent travellers consistent. Priced well below what a single bed bug introduction costs to eradicate."
+            name="ThermalStrike Ranger — folding bed bug heater for luggage"
+            blurb="Not a suitcase: a collapsible six-sided heater you set up at home with four poles and a plastic floor. Your closed carry-on or checked bag, up to 29 inches with its contents, goes inside, and the 2, 4 or 8-hour timer runs until the core of the load passes the temperature at which bed bug adults, nymphs, and eggs all die (ThermalStrike recommends 120°F, 49°C, for 30 minutes at the core) — sterilizing the belongings in the exact bag they rode home in, before you ever unzip it in your bedroom. The appeal is that prevention becomes a simple habit rather than a chore, which is exactly what keeps frequent travellers consistent; it folds to briefcase size between trips. Priced well below what a single bed bug introduction costs to eradicate."
             search="thermalstrike ranger heated suitcase bed bug"
             cta="Check price on Amazon.ca"
             score={8.2}
-            pros={['Heater built into the suitcase — treats belongings in the bag they travelled in, no separate chamber', 'Kills every life stage including eggs; heat has no resistance problem', 'Zero-setup prevention turns post-trip decontamination into a habit', 'Pesticide-free physical method — nothing to register, nothing grey-market', 'Ideal for frequent flyers, hotel/hostel/short-term-rental stays, and students moving between homes']}
-            cons={['Single-suitcase capacity — not for bedding, boxes, or whole-home remediation', 'Dense loads need patience: the packed core is the last thing to reach egg-kill temperature', 'Small US manufacturer — Canadian stock and model names can fluctuate', 'Premium over a plain suitcase; the maths favours frequent, higher-risk travel']}
+            pros={['Takes the closed bag with its contents (manual) — treats belongings in the bag they travelled in, no unpacking first', 'Kills every life stage including eggs; heat has no resistance problem', 'Four poles and a floor to set up, and it folds to briefcase size, so post-trip decontamination becomes a habit', 'Pesticide-free physical method — nothing to register, nothing grey-market', 'Ideal for frequent flyers, hotel/hostel/short-term-rental stays, and students moving between homes']}
+            cons={['One suitcase-sized load at a time (bedding and books allowed) — not for furniture or whole-home remediation', 'Dense loads need patience: the packed core is the last thing to reach egg-kill temperature', 'Small US manufacturer — Canadian stock and model names can fluctuate', 'A device to buy on top of your luggage; the maths favours frequent, higher-risk travel']}
           />
         </div>
       </section>

@@ -180,10 +180,10 @@ export default function VictorElectronicMouseTrapReviewPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Top Pick"
             name="Victor M250S Electronic Mouse Trap"
-            blurb="The best no-touch mouse trap sold in Canada: an enclosed kill chamber that shocks in seconds, delivers up to 100 kills per set of 4 AA batteries, and empties into the garbage without you ever touching or seeing the mouse. A blinking green LED confirms a kill for up to 7 days, and it is a legal, non-pesticide device in every province."
+            blurb="The best no-touch mouse trap sold in Canada: an enclosed kill chamber that quickly kills with a high-voltage shock, takes one mouse per setting on 4 AA batteries, and empties into the garbage without you ever touching or seeing the mouse. A blinking green LED confirms a kill for up to 7 days, and it is a legal, non-pesticide device in every province."
             search="victor electronic mouse trap m250s"
             score={8.9}
-            pros={['No-touch, no-see disposal', 'Fast, consistent kill inside an enclosed chamber', 'Up to 100 kills per battery set — a full season or more', 'Kid- and pet-resistant; circuit cuts when the lid opens']}
+            pros={['No-touch, no-see disposal', 'Fast, consistent kill inside an enclosed chamber', 'Runs on 4 AA batteries; a red light flags when they run low', 'Kid- and pet-resistant; circuit cuts when the lid opens']}
             cons={['Indoor/dry locations only', 'Plates need wiping every few kills', 'Mouse-sized only — will not kill rats']}
           />
 

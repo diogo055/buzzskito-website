@@ -127,7 +127,7 @@ export default function BestBugSprayForKidsCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Natrapel Icaridin 20% (spray/wipes)',
-                why: 'Health Canada’s preferred pick for children over 6 months — icaridin 20% covers mosquitoes and ticks for up to 12 hours, is nearly odourless, and won’t cloud sunglasses or soften stroller plastics the way DEET can.',
+                why: '20% icaridin is CATMAT’s first choice for children 6 months to 12 years, and Natrapel’s label (Reg. No. 34244) claims up to 12 hours against mosquitoes and ticks — it is nearly odourless and won’t cloud sunglasses or soften stroller plastics the way DEET can.',
                 search: 'natrapel icaridin 20%',
                 score: 9.3,
                 featured: true,
@@ -137,43 +137,43 @@ export default function BestBugSprayForKidsCanadaPage() {
               {
                 badge: 'Best Canadian Brand',
                 name: 'PiActive Icaridin 20%',
-                why: 'A widely stocked Canadian icaridin 20% at the same safety tier as Natrapel — approved for kids 6 months and up, with up to 7 hours of mosquito and tick protection per application.',
+                why: 'A widely stocked Canadian icaridin 20% with the same active as Natrapel, giving up to 7 hours of mosquito and tick protection per application. PiActive Kids is registered here (Reg. No. 31457); Health Canada says icaridin should not be used on infants under 6 months.',
                 search: 'piactive icaridin repellent',
                 score: 8.7,
                 pros: ['Same icaridin 20% active', 'Easy to find in Canada', 'Light, non-greasy feel'],
                 cons: ['Shorter protection window than some', 'Reapply for long days out'],
               },
               {
-                badge: 'Best Long-Lasting Lotion',
-                name: 'Sawyer Picaridin 20% Lotion',
-                why: 'A lotion format that’s easy to rub on squirming kids without overspray, giving up to 12 hours of icaridin coverage for hikes and cottage days.',
-                search: 'sawyer picaridin lotion',
-                score: 8.5,
-                pros: ['Up to 12 h coverage', 'Lotion = no aerosol overspray', 'Good for face-adjacent application by parents'],
+                badge: 'Best Lotion',
+                name: 'PiActive Insect Repellent Lotion (icaridin 20%, Reg. No. 33411)',
+                why: 'No Sawyer lotion is registered in Canada (Sawyer’s Canadian registrations are a pump spray, 33032, and a pressurized spray, 33177), so the lotion pick is PiActive’s registered icaridin lotion (Reg. No. 33411). A lotion is easy to rub on squirming kids without overspray; the Canadian Paediatric Society gives icaridin up to 20% about 5 to 7 hours against mosquitoes.',
+                search: 'piactive icaridin repellent',
+                score: 8.7,
+                pros: ['Registered icaridin 20% lotion (33411)', 'Lotion = no aerosol overspray', 'About 5 to 7 h against mosquitoes (CPS)'],
                 cons: ['Slower to apply than a spray', 'Lotion can feel heavier'],
               },
               {
                 badge: 'Best DEET-Free Plant Option',
                 name: 'OFF! Botanicals (Oil of Lemon Eucalyptus / PMD)',
-                why: 'The strongest plant-derived choice for families who want a botanical repellent — solid 4–6 hour protection, but note the Health Canada label caps it at 3 years and up.',
+                why: 'The registered plant-derived choice for families who want a botanical repellent — the Canadian Paediatric Society gives PMD up to 2 hours against mosquitoes, and Health Canada says not to use it on children under 3.',
                 search: 'off botanicals repellent',
                 score: 7.3,
-                pros: ['Plant-derived (PMD)', '4–6 h protection', 'DEET-free'],
+                pros: ['Plant-derived (PMD)', 'Registered (spray 34594, lotion 34008)', 'DEET-free'],
                 cons: ['Not for children under 3', 'Weaker against ticks'],
               },
               {
                 badge: 'Best for Toddlers',
-                name: 'Bite Blocker Soybean-Oil Repellent',
-                why: 'The gentlest option for younger toddlers over 6 months — soybean-oil based and low-irritation, though it wears off in about 2 hours so you’ll reapply often.',
-                search: 'bite blocker soybean repellent',
+                name: 'OFF! FamilyCare Lotion for use on Kids (DEET 7.5%, Reg. No. 21299)',
+                why: 'Bite Blocker and other soybean-oil repellents have no current Canadian registration, so the toddler pick is a registered low-DEET lotion. Its label: not on infants under 6 months; from 6 months to 2 years no more than once a day and not for daily use; from 2 to 12 years up to 3 times a day; reapply after 3 hours if necessary.',
+                search: 'off familycare deet',
                 score: 6.9,
-                pros: ['Gentle for young toddlers', 'Soybean-oil base', 'DEET-free'],
-                cons: ['Only ~2 h protection', 'Frequent reapplication', 'Weak on ticks'],
+                pros: ['Labelled for children from 6 months', 'Low DEET (7.5%)', 'Ticks are on the label'],
+                cons: ['Under 2: once a day at most, not daily (label)', 'Reapply after 3 hours if necessary (label)'],
               },
             ]}
             whichToBuy={
               <>
-                <strong>One bottle for the whole family?</strong> The <em>Best Overall</em> icaridin 20% spray is the easiest choice labelled for anyone 6 months and up. <strong>Prefer a lotion for younger kids?</strong> The <em>Best Long-Lasting Lotion</em> avoids aerosol overspray. <strong>Want a plant-based option?</strong> The <em>Best DEET-Free</em> PMD spray works for ages 3+. And to cut the bites at the source so you reach for spray far less, a whole-yard <Link href="/mosquito-control">professional barrier spray</Link> keeps mosquitoes and ticks off the property in the first place.
+                <strong>One bottle for the whole family?</strong> The <em>Best Overall</em> icaridin 20% spray is the easiest choice labelled for anyone 6 months and up. <strong>Prefer a lotion for younger kids?</strong> The <em>Best Lotion</em>, PiActive&rsquo;s registered icaridin lotion (Reg. No. 33411), avoids aerosol overspray. <strong>Want a plant-based option?</strong> The <em>Best DEET-Free</em> PMD spray works for ages 3+. And to cut the bites at the source so you reach for spray far less, a whole-yard <Link href="/mosquito-control">professional barrier spray</Link> keeps mosquitoes and ticks off the property in the first place.
               </>
             }
           />
@@ -319,11 +319,11 @@ export default function BestBugSprayForKidsCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="piactive icaridin repellent" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">Sawyer Picaridin <span className="font-normal text-xs text-gray-500">(lotion)</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Sawyer Picaridin <span className="font-normal text-xs text-gray-500">(lotion; not registered in Canada)</span></td>
                   <td className="px-4 py-3 text-gray-700">Icaridin 20%</td>
                   <td className="px-4 py-3 text-gray-700">6 months+</td>
-                  <td className="px-4 py-3 text-gray-700">Up to 12 h</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="sawyer picaridin lotion" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700">No Canadian label</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="piactive icaridin repellent" block>Registered lotion instead (Reg. No. 33411) →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">OFF! FamilyCare <span className="font-normal text-xs text-gray-500">(low DEET)</span></td>
@@ -344,7 +344,7 @@ export default function BestBugSprayForKidsCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Soybean oil 2%</td>
                   <td className="px-4 py-3 text-gray-700">No age limit (Health Canada); not registered in Canada</td>
                   <td className="px-4 py-3 text-gray-700">Up to 3½ h (CPS)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bite blocker soybean repellent" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="off familycare deet" block>Registered kids’ lotion instead (Reg. No. 21299) →</BuyLink></td>
                 </tr>
               </tbody>
             </table>

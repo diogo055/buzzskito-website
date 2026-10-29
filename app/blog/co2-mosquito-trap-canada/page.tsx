@@ -105,15 +105,15 @@ export default function Co2MosquitoTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />
-      <TopBox tag={AMZ_TAG} name="Biogents BG-Mosquitaire (electric CO2 mosquito trap)" search="biogents mosquitaire mosquito trap" label="Best CO2 trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO2 trap, Reg. No. 32375)" search="mosquito magnet patriot plus" label="Registered CO2 trap" />
+      <TopBox tag={AMZ_TAG} name="Mosquito Magnet Patriot Plus (propane CO2 trap, Reg. No. 32375)" search="mosquito magnet patriot plus" label="Registered CO2 trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              For most GTA backyards, an electric <strong>Biogents</strong> trap (BG-Home or <AmazonLink search="biogents mosquitaire mosquito trap" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">BG-Mosquitaire</AmazonLink>) is the best CO2 mosquito trap because it runs on a wall plug and a chemical lure with no propane tank, and it uses the same research-grade design mosquito scientists deploy. Propane traps like Mosquito Magnet cover larger acreage but require a mandatory 20 lb tank.
+              In Canada, buy a CO2 mosquito trap with a registration number: the propane <AmazonLink search="mosquito magnet patriot plus" tag={AMZ_TAG} className="font-bold underline decoration-emerald-500 underline-offset-2 hover:text-emerald-900">Mosquito Magnet Patriot Plus</AmazonLink> (Reg. No. 32375) is in Health Canada&rsquo;s registry, plugs in on a 50-foot cord and protects about 1 acre, but it needs a 20 lb propane tank. Electric <strong>Biogents</strong> traps (BG-Home, BG-Mosquitaire) run on a wall plug and a lure with no tank and use a research-grade design, but we found no Biogents product in Health Canada&rsquo;s registry.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Electric Biogents traps (BG-Home, BG-Mosquitaire) run on a wall plug and the BG-Lure &mdash; no propane tank required.</li>
@@ -127,7 +127,7 @@ export default function Co2MosquitoTrapCanadaPage() {
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
-              <BuyLink search="biogents mosquitaire mosquito trap" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
+              <BuyLink search="mosquito magnet patriot plus" tag={AMZ_TAG} block className="sm:w-auto sm:min-h-0 sm:inline-flex sm:rounded-full sm:px-4 sm:py-2">Check price on Amazon.ca →</BuyLink>
             </div>
           </div>
         </div>
@@ -140,31 +140,31 @@ export default function Co2MosquitoTrapCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall',
-                name: 'Biogents BG-Mosquitaire (electric CO₂)',
-                why: 'Research-grade airflow and the BG-Lure catch host-seeking females on a wall plug alone — no propane tank, with an optional CO₂ boost for heavy-pressure yards.',
-                search: 'biogents mosquitaire mosquito trap',
+                name: 'Mosquito Magnet Patriot Plus (Reg. No. 32375)',
+                why: 'The CO₂ trap with a Canadian registration: Health Canada’s registry lists the Patriot Plus (Reg. No. 32375). It burns propane from a 20 lb tank for its CO₂ plume, plugs in on a 50-foot cord and protects about 1 acre, with octenol attractant sold separately (Woodstream Canada). University of Wisconsin–Madison researchers report that homeowner traps usually do not reduce biting in the yard, so treat it as one layer, with dumping standing water and repellent.',
+                search: 'mosquito magnet patriot plus',
                 score: 9.0,
                 featured: true,
-                pros: ['No tank — runs on a plug + lure', 'Research-grade capture design', 'Low running cost'],
-                cons: ['Covers a zone, not full acreage', 'Works over weeks, not same-day'],
+                pros: ['In Health Canada’s registry (Reg. No. 32375)', 'Protects about 1 acre (Woodstream Canada)', 'Plugs in on a 50-foot cord'],
+                cons: ['A 20 lb propane tank to change every 18–21 days', 'Works over weeks, not same-day'],
               },
               {
                 badge: 'Best for Patios',
                 name: 'Biogents BG-Home',
-                why: 'A very quiet plug-in unit sized for an indoor room or covered patio, using the same BG-Lure chemistry — ideal for tiger-mosquito hotspots close to where you sit.',
+                why: 'A very quiet plug-in unit that Biogents designs for indoors, with covered patios also on its list, using the BG-Sweetscent lure. Not registered in Canada: we found no Biogents product in Health Canada’s pesticide registry (October 28, 2026), so check for a PCP number on any trap you buy.',
                 search: 'biogents bg-home mosquito trap',
                 score: 8.4,
                 pros: ['Very quiet fan', 'Great for patios & indoors', 'No tank required'],
-                cons: ['Smaller coverage zone', 'Needs lure refills'],
+                cons: ['No Canadian registration found', 'Smaller coverage zone; needs lure refills'],
               },
               {
                 badge: 'Best Passive',
                 name: 'Biogents BG-GAT (Gravid Aedes Trap)',
-                why: 'Zero power, zero CO₂ — it kills egg-laying Aedes females before they seed the next generation. Deploy in clusters of three or more for set-and-forget control.',
+                why: 'Zero power, zero CO₂ — it kills egg-laying Aedes females before they seed the next generation. Deploy in clusters of three or more for set-and-forget control. Not registered in Canada: we found no Biogents product in Health Canada’s pesticide registry (October 28, 2026), so check for a PCP number on any trap you buy.',
                 search: 'biogents gat trap kit',
                 score: 8.2,
                 pros: ['No power or CO₂ needed', 'Kills egg-laying females', 'Perfect for cottages & off-grid'],
-                cons: ['Best deployed in clusters', 'Targets Aedes specifically'],
+                cons: ['No Canadian registration found', 'Targets Aedes specifically; best in clusters'],
               },
               {
                 badge: 'Best for Acreage',
@@ -178,7 +178,7 @@ export default function Co2MosquitoTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Normal suburban backyard?</strong> The <em>Best Overall</em> BG-Mosquitaire skips the tank and wins on running cost. <strong>Patio or indoor hotspot?</strong> The <em>Best for Patios</em> BG-Home is quiet and compact. <strong>Cottage or off-grid?</strong> A cluster of <em>Best Passive</em> BG-GATs needs no power. <strong>1+ acre rural lot?</strong> The <em>Best for Acreage</em> propane trap earns its reach — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Want a CO2 trap you can buy and use in Canada?</strong> The <em>Best Overall</em> Patriot Plus is in Health Canada&rsquo;s registry (Reg. No. 32375). <strong>Patio, indoor hotspot or off-grid cottage?</strong> The <em>Best for Patios</em> BG-Home and the <em>Best Passive</em> BG-GAT are not: we found no Biogents product in the registry, so check for a PCP number before you buy either. <strong>1+ acre rural lot?</strong> The <em>Best for Acreage</em> propane trap earns its reach — but for same-day, whole-yard relief that also kills ticks, nothing beats <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -252,9 +252,9 @@ export default function Co2MosquitoTrapCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian models and prices on Amazon.ca:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="biogents bg-home mosquito trap">Check price on Amazon.ca</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">BG-GAT trap kit →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="biogents bg booster co2">CO2 booster →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents bg-home mosquito trap">BG-Home (no Canadian registration found)</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">BG-GAT trap kit (no Canadian registration found) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents bg booster co2">Biogents CO2 booster (no Canadian registration found) →</BuyLink>
           </div>
 
           <h2>Why CO2 is the master mosquito cue</h2>
@@ -272,7 +272,7 @@ export default function Co2MosquitoTrapCanadaPage() {
           <p>Here is the &lsquo;no tank required&rsquo; answer people are searching for. Biogents traps run on a wall plug and the BG-Lure — an artificial-skin attractant that reproduces the fatty acids, lactic acid, and ammonia your skin gives off. The fan and lure alone catch mosquitoes with <em>zero</em> CO2. You can optionally clip on the BG-Booster to add a compressed-CO2 cylinder or a managed sugar-yeast generator for heavy-pressure yards, but it is a boost, not a requirement. No combustion, no fuel runs, no tank storage — just a plug and a lure you replace every few months.</p>
           <p className="not-prose text-sm text-gray-600 mb-2">The lure is the part that runs out mid-season, and an expired cartridge is the most common reason a working trap stops catching. Buy the refill with the trap so you are not waiting on shipping in July.</p>
           <div className="not-prose mb-6">
-            <BuyLink tag={AMZ_TAG} search="biogents bg-lure refill">Check BG-Lure refills on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents bg-lure refill">Check BG-Sweetscent lures on Amazon.ca (no Canadian registration found) →</BuyLink>
           </div>
 
           <h2>CO2 Traps Compared: Lures, Registration and What the Research Found</h2>
@@ -339,7 +339,7 @@ export default function Co2MosquitoTrapCanadaPage() {
           <Photo id="aedes-albopictus-eggs" alt="Elongated eggs laid by an Asian tiger mosquito on paper" caption="Eggs laid by a female Asian tiger mosquito, on paper (CDC photograph). The BG-GAT is built to catch the female before she lays a batch like this." />
           <p>Why does that matter more than catching random flyers? Because you are removing the exact insects about to seed the next generation. Kill one gravid female and you cancel the 100–300 eggs she was about to lay. GATs are deployed in clusters — three or more around a property — and they are ideal for the situations where a plug-in trap is a pain: cottages, off-grid yards, dense garden beds. They are also aimed squarely at <em>Aedes</em> — the aggressive, daytime-biting container mosquitoes that shrug off dusk-focused tactics. For a cottage owner who wants set-and-forget control with no electricity, a GAT cluster is genuinely clever.</p>
           <div className="not-prose my-6">
-            <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">Check BG-GAT kits on Amazon.ca</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="biogents gat trap kit">Check BG-GAT kits on Amazon.ca (no Canadian registration found)</BuyLink>
           </div>
 
           <RelatedLinks path="/blog/co2-mosquito-trap-canada" />

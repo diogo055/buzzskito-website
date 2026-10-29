@@ -150,16 +150,16 @@ export default function BedBugsInCouchCanadaPage() {
                 search: 'bed bug steamer dry vapour',
                 score: 9.2,
                 featured: true,
-                pros: ['Kills bugs and eggs on contact', 'Reaches deep into fabric seams', 'Chemical-free — safe over a sitting surface once dry'],
+                pros: ['Kills bugs and eggs on contact', 'Reaches deep into fabric seams', 'Chemical-free — no pesticide on the fabric you sit on'],
                 cons: ['Must move slowly or it misses survivors', 'Higher up-front cost than spray alone'],
               },
               {
-                badge: 'Residual Layer',
-                name: 'EcoRaider PMRA-Registered Residual Spray',
-                why: 'A botanical, lower-toxicity residual that keeps killing for a couple of weeks after the steam pass, driven into the cracks and seams heat could not reach. Choose it for the Canadian PCP registration and its labelling for use around living spaces rather than raw knockdown power.',
-                search: 'ecoraider bed bug spray',
-                score: 8.6,
-                pros: ['Residual keeps working for weeks', 'Lower-toxicity, labelled for living areas', 'PMRA/PCP-registered for Canada'],
+                badge: 'Seam & Tuft Spray',
+                name: 'KONK Bed Bug Killer (PCP 31110)',
+                why: 'A domestic-class pyrethrin aerosol whose Canadian label defines its tuft and seam treatment for mattresses and upholstered furniture: use it on the seams, tufts and cracks the steam could not reach. Insects must be contacted to be killed, so it leaves no lasting barrier, and its label says to keep people and pets out until sprays have settled and dried. EcoRaider, often suggested for couches, has no Canadian registration.',
+                search: 'konk bed bug killer aerosol',
+                score: 7.4,
+                pros: ['Domestic-class registration (PCP 31110)', 'Label defines tuft and seam treatment for upholstered furniture', 'Kills the bugs it contacts'],
                 cons: ['Not a stand-alone fix — needs the steam step', 'Spray into cracks, not over sitting surfaces'],
               },
               {
@@ -173,8 +173,8 @@ export default function BedBugsInCouchCanadaPage() {
               },
               {
                 badge: 'Crack Finisher',
-                name: 'Silica / Diatomaceous-Earth Powder',
-                why: 'A barely-visible dust into the frame joints, staple lines, and deep voids the steam and spray never touch. Bugs crawling through it dry out and die over days. A patient, long-lasting mechanical backstop — apply a film, never a pile.',
+                name: 'Diatomaceous-Earth Dust (with a PCP number)',
+                why: 'A barely-visible dust into the frame joints, staple lines, and deep voids the steam and spray never touch. Bugs crawling through it dry out and die over days. A patient, long-lasting mechanical backstop — apply a film, never a pile. Choose a diatomaceous earth dust whose label shows a PCP number and lists bed bugs: no silica dust is registered for home use in Canada.',
                 search: 'diatomaceous earth bed bugs',
                 score: 7.4,
                 pros: ['Long-lasting mechanical kill', 'Reaches voids nothing else does', 'Very low cost'],
@@ -183,7 +183,7 @@ export default function BedBugsInCouchCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Buying one thing first?</strong> Start with the <em>Core Tool</em> steamer &mdash; nothing else kills the eggs, and heat is what actually clears a couch. <strong>Adding a residual so bugs keep dying between passes?</strong> Pair it with the <em>Residual Layer</em> EcoRaider spray. <strong>Worried it will come back?</strong> The <em>Containment</em> encasement seals the spots you can&rsquo;t treat. <strong>Chasing survivors in the frame voids?</strong> Dust the joints with the <em>Crack Finisher</em> powder. The full couch kit is all four working together, not any one alone.
+                <strong>Buying one thing first?</strong> Start with the <em>Core Tool</em> steamer &mdash; nothing else kills the eggs, and heat is what actually clears a couch. <strong>Want a spray for the seams the steam missed?</strong> Add the <em>Seam &amp; Tuft Spray</em>, KONK Bed Bug Killer (PCP 31110); it kills only the bugs it contacts. <strong>Worried it will come back?</strong> The <em>Containment</em> encasement seals the spots you can&rsquo;t treat. <strong>Chasing survivors in the frame voids?</strong> Dust the joints with the <em>Crack Finisher</em> powder. The full couch kit is all four working together, not any one alone.
               </>
             }
           />
@@ -224,7 +224,7 @@ export default function BedBugsInCouchCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">3. Spray<br /><span className="font-normal text-xs text-gray-500">label must name upholstery</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Contact kill</strong> in the tufts, seams and cracks the steam missed; the couch-labelled cans are contact sprays</td>
                   <td className="px-4 py-3 text-gray-700">Sealed voids; foam cores; won&rsquo;t kill all eggs</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">4. Encase<br /><span className="font-normal text-xs text-gray-500">zippered cover</span></td>
@@ -274,7 +274,7 @@ export default function BedBugsInCouchCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core couch-kit tools:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Dry-vapour steamer →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="ecoraider bed bug spray">EcoRaider spray →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="konk bed bug killer aerosol">KONK Bed Bug Killer →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bed bug cushion encasement zippered">Cushion encasement →</BuyLink>
           </div>
 

@@ -143,11 +143,11 @@ export default function ThermalVsUlvFoggerCanadaPage() {
               {
                 badge: 'Best All-Round',
                 name: 'PetraTools Cordless ULV Cold Fogger',
-                why: 'The most versatile machine to own: it runs cold on water-based products, adjusts droplet size at the nozzle, and moves between indoor disinfection, greenhouses, and light outdoor work on battery power. For buyers who want one fogger that does the widest range of jobs safely, this is it.',
+                why: 'The most versatile machine to own: it runs cold on water-based products, adjusts droplet size at the nozzle, and moves between indoor disinfection, greenhouses, and light outdoor work on battery power. For buyers who want one fogger that does the widest range of jobs, this is it.',
                 search: 'petratools ulv cordless fogger',
                 score: 8.9,
                 featured: true,
-                pros: ['Indoor-safe cold operation', 'Adjustable droplet size', 'Cordless — walk the whole property'],
+                pros: ['Cold operation: no flame or heated coil', 'Adjustable droplet size', 'Cordless — walk the whole property'],
                 cons: ['Less outdoor reach than thermal', 'Battery runtime to manage'],
               },
               {
@@ -180,7 +180,7 @@ export default function ThermalVsUlvFoggerCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want one machine that does the most jobs safely?</strong> The <em>Best All-Round</em> cordless ULV is the default buy &mdash; indoor-safe, adjustable, and mobile. <strong>Fogging acreage, dense vegetation, or barns?</strong> The <em>Best Outdoor Penetration</em> Longray thermal is the specialist that nothing else replaces. <strong>Long stationary indoor sessions?</strong> The <em>Best Corded ULV</em> never stops for a battery. <strong>Occasional small-space use on a budget?</strong> The <em>Best Value Entry</em> handheld ULV covers it.
+                <strong>Want one machine that does the most jobs?</strong> The <em>Best All-Round</em> cordless ULV is the default buy &mdash; cold-running with no flame, adjustable, and mobile. <strong>Fogging acreage, dense vegetation, or barns?</strong> The <em>Best Outdoor Penetration</em> Longray thermal is the specialist that nothing else replaces. <strong>Long stationary indoor sessions?</strong> The <em>Best Corded ULV</em> never stops for a battery. <strong>Occasional small-space use on a budget?</strong> The <em>Best Value Entry</em> handheld ULV covers it.
               </>
             }
           />
@@ -324,10 +324,10 @@ export default function ThermalVsUlvFoggerCanadaPage() {
           <TopPick tag={AMZ_TAG}
             label="Overall Pick for Most Buyers"
             name="PetraTools-style Cordless ULV Cold Fogger"
-            blurb="For the widest range of jobs with the fewest compromises, a cordless ULV cold fogger is the one to own. It runs cold and safe indoors, uses water-based products, lets you dial droplet size from a fine disinfecting mist to a wetter surface coat, and goes cordless so you can cover a whole property. It gives up outdoor penetration to a thermal fogger — but unless large-area vegetation is your specific problem, its versatility wins. Buy a Longray-style thermal fogger as a second, specialist machine only when acreage and dense foliage demand it."
+            blurb="For the widest range of jobs with the fewest compromises, a cordless ULV cold fogger is the one to own. It runs cold, with no flame or heated coil (so it can work indoors where a product’s label allows), uses water-based products, lets you dial droplet size from a fine disinfecting mist to a wetter surface coat, and goes cordless so you can cover a whole property. It gives up outdoor penetration to a thermal fogger — but unless large-area vegetation is your specific problem, its versatility wins. Buy a Longray-style thermal fogger as a second, specialist machine only when acreage and dense foliage demand it."
             search="petratools ulv cordless fogger"
             score={8.9}
-            pros={['Indoor-safe cold operation on water-based products', 'Adjustable droplet size for many jobs', 'Cordless mobility across a whole property', 'Broad price range from entry to professional']}
+            pros={['Cold operation on water-based products, no flame', 'Adjustable droplet size for many jobs', 'Cordless mobility across a whole property', 'Broad price range from entry to professional']}
             cons={['Less outdoor reach and penetration than thermal', 'Battery runtime to plan around']}
           />
 

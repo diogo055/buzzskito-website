@@ -155,13 +155,13 @@ export default function BestLiveAnimalTrapCanadaPage() {
             heading="Trap Sizes Compared — For Legal, On-Site Release Only"
             awards={[
               {
-                badge: 'Best for Groundhogs',
+                badge: 'Best Mid-Size (Rabbits, Squirrels)',
                 name: 'Havahart Medium 1-Door Live Cage Trap',
-                why: 'The single most defensible DIY case: a groundhog under a shed you can legally release within 1 km on your own property. Sturdy single-door build resists a strong digger, and a solid rear panel keeps bait secure.',
+                why: 'Havahart lists its 24-inch medium single-door (1078) for rabbits, skunks and squirrels; for a groundhog it lists its 32-inch-and-up traps, so use the large trap there. Set it only for an animal you can legally release within 1 km, outside denning season. Sturdy single-door build, and a solid rear panel keeps bait secure.',
                 search: 'havahart live animal trap medium',
                 score: 8.6,
                 featured: true,
-                pros: ['Right size for groundhogs and skunks', 'Rigid steel resists strong animals', 'Simple, injury-free release'],
+                pros: ['Havahart lists it for rabbits, skunks and squirrels', 'Rigid steel resists strong animals', 'Simple, injury-free release'],
                 cons: ['Check municipal bylaws before use', 'Only humane outside denning season'],
               },
               {
@@ -185,7 +185,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
               {
                 badge: 'For Larger Animals',
                 name: 'Havahart Large 1-Door Live Cage Trap',
-                why: 'Built for raccoon-sized animals and feral cats. Listed here for completeness — but for raccoons and skunks specifically we recommend a licensed wildlife-control operator over any DIY trap, for legal, safety, and welfare reasons.',
+                why: 'Built for raccoon-sized animals and feral cats, and Havahart lists its 32-inch large single-door (1079) for groundhogs too, so this is the size for a groundhog under the shed. For raccoons and skunks specifically we recommend a licensed wildlife-control operator over any DIY trap, for legal, rabies-risk, and welfare reasons.',
                 search: 'havahart large live animal trap',
                 score: 7.2,
                 pros: ['Handles raccoon-sized animals', 'Strong frame and door', 'Reusable for years'],
@@ -194,7 +194,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Groundhog under your shed?</strong> The <em>Best for Groundhogs</em> medium single-door is the one common case where DIY trapping is defensible — check bylaws and avoid denning season. <strong>Squirrel or chipmunk?</strong> The <em>Best for Small Rodents</em> trap fits, but a homing squirrel released within 1 km often returns, so pair it with sealing the entry point. <strong>Skittish animal or feral cat?</strong> The <em>Highest Catch Rate</em> two-door earns its keep. <strong>Raccoon or skunk?</strong> Don’t — call a licensed operator. Start every case with the <Link href="/blog/raccoon-deterrent">deterrence-first plan</Link>.
+                <strong>Groundhog under your shed?</strong> It is the one common case where DIY trapping is defensible, and Havahart lists its 32-inch-and-up traps for groundhogs, so use the <em>For Larger Animals</em> large single-door — check bylaws and avoid denning season. <strong>Rabbit?</strong> The <em>Best Mid-Size</em> medium single-door is the size Havahart lists for rabbits, skunks and squirrels. <strong>Squirrel or chipmunk?</strong> The <em>Best for Small Rodents</em> trap fits, but a homing squirrel released within 1 km often returns, so pair it with sealing the entry point. <strong>Skittish animal or feral cat?</strong> The <em>Highest Catch Rate</em> two-door earns its keep. <strong>Raccoon or skunk?</strong> Don’t — call a licensed operator. Start every case with the <Link href="/blog/raccoon-deterrent">deterrence-first plan</Link>.
               </>
             }
           />
@@ -235,7 +235,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four trap sizes (for legal, on-site release only):</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="havahart live animal trap medium">Medium 1-door (groundhogs) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="havahart live animal trap medium">Medium 1-door (rabbits, squirrels) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="havahart small live animal trap">Small 1-door (squirrels/rats) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="havahart two door live trap">Two-door (skittish species) →</BuyLink>
           </div>
@@ -275,7 +275,7 @@ export default function BestLiveAnimalTrapCanadaPage() {
               <tbody>
                 {[
                   { size: 'Small', pick: 'Havahart small 1-door', target: 'Squirrels, chipmunks, rats, weasels', doors: '1', search: 'havahart small live animal trap' },
-                  { size: 'Medium', pick: 'Havahart medium 1-door', target: 'Groundhogs, large squirrels, skunks', doors: '1', search: 'havahart live animal trap medium' },
+                  { size: 'Medium', pick: 'Havahart medium 1-door', target: 'Rabbits, skunks, squirrels (Havahart)', doors: '1', search: 'havahart live animal trap medium' },
                   { size: 'Large', pick: 'Havahart large 1-door', target: 'Raccoons, groundhogs, feral cats', doors: '1', search: 'havahart large live animal trap' },
                   { size: 'Two-door', pick: 'Havahart two-door', target: 'Skittish squirrels, feral cats', doors: '2', search: 'havahart two door live trap' },
                 ].map(({ size, pick, target, doors, search }) => (

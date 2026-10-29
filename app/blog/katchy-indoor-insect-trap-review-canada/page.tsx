@@ -150,7 +150,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
             blurb="The best-built indoor gnat and fruit fly trap sold in Canada. Silent, insecticide-free, and genuinely effective when run overnight in a dark room near the source — as long as you accept that house flies and mosquitoes were never really on the menu."
             search="katchy indoor insect trap"
             score={8.3}
-            pros={['Excellent catch rates on fungus gnats and fruit flies', 'Completely silent — no zapper crack at 2 a.m.', 'No insecticide: safe around kids, pets, and food prep', 'Glue boards are cheap and generic boards fit']}
+            pros={['Excellent catch rates on fungus gnats and fruit flies', 'Completely silent — no zapper crack at 2 a.m.', 'No insecticide: a UV light, a fan and a glue board', 'Glue boards are cheap and generic boards fit']}
             cons={['Weak against house flies and mosquitoes — be honest with yourself about your pest', 'Only performs in a dark room; competing light kills the catch rate', 'Recurring glue-board cost over the seasons']}
           />
         </div>
@@ -215,12 +215,12 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="katchy indoor insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">TERRO Fruit Fly Trap</td>
-                  <td className="px-4 py-3 text-gray-700">Food-grade vinegar lure in an apple-shaped bowl</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">RESCUE! Fruit Fly Trap (PCP 34819)</td>
+                  <td className="px-4 py-3 text-gray-700">Food-based liquid lure; flies enter funnel-shaped holes and drown (RESCUE!)</td>
                   <td className="px-4 py-3 text-gray-700">Fruit flies specifically</td>
                   <td className="px-4 py-3 text-gray-700">Gnats, drain flies, everything else</td>
                   <td className="px-4 py-3 text-gray-700">Lure refills roughly monthly</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="terro fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="rescue fruit fly trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Indoor bug zapper</td>
@@ -284,7 +284,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
           <h2>Kill the Source, or the Trap Never Wins</h2>
           <p>A trap — any trap — only mops up adults. Fungus gnats breed in the top layer of moist potting soil, and fruit flies breed in fermenting material: the over-ripe banana, the drain gunk, the forgotten potato in the pantry. While the breeding site keeps producing, the Katchy is running a treadmill.</p>
           <p>For fungus gnats, the source fix is drying out the top few centimetres of soil between waterings; UC IPM&rsquo;s advice is to let the surface of container soil dry between waterings. BTI, a naturally occurring bacterium, is toxic only to fly larvae and gives temporary control, UC IPM says, but in Canada the home-use BTI products on Health Canada&rsquo;s registry, such as Mosquito Dunks (PCP 28888), are registered for mosquito larvae in standing water, and none lists fungus gnats (searched October 28, 2026). Our <Link href="/blog/mosquito-bits-canada-vs-dunks">Mosquito Bits vs Dunks comparison</Link> and the <Link href="/blog/mosquito-dunks-canada-guide">full BTI dunks guide</Link> cover the product family. The Katchy catches the adults; dry soil ends the production line.</p>
-          <p>The format that suits houseplant soil is the granular one &mdash; sprinkled over the surface and watered in, or steeped in the watering can so the BTI goes down with every watering. Check the label for the use sites and rate it is registered for, and keep treating across a few consecutive waterings so each new hatch of larvae meets it. <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">Check BTI granules on Amazon.ca &rarr;</BuyLink></p>
+          <p>Granular BTI such as Mosquito Bits is often suggested for houseplant soil, but in Canada it is not a registered fix for fungus gnats: Mosquito Bits does not appear in Health Canada&rsquo;s registry, and none of the home-use BTI products on it lists fungus gnats (searched October 28, 2026). Check the PCP number and the pests on the label of any product you buy, and use it only as that label directs; for houseplants, UC IPM&rsquo;s advice is to let the soil surface dry between waterings. <BuyLink tag={AMZ_TAG} search="mosquito bits bti granules">BTI granules (not registered in Canada; check the PCP number) &rarr;</BuyLink></p>
           <p>For fruit flies, the fix is sanitation: fruit into the fridge, compost caddy emptied and rinsed, drains cleaned, recycling bin rinsed. The step-by-step lives in our <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit fly elimination guide</Link>. And if what you are fighting turns out to be bigger than a small-fly problem — persistent flies from an unknown dead-animal source, or a structural issue — our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what professional help runs so you can decide when DIY has hit its limit.</p>
           <Photo id="fruit-fly-banana-peel" alt="A fruit fly about 2.5 mm long on a banana in a kitchen waste container" caption="A fruit fly of the Drosophila melanogaster group, about 2.5 mm long, on a banana in a kitchen waste container (Auckland, New Zealand). Over-ripe fruit and food waste are where the next generation starts." />
           <p>Drains are the sanitation step most people skip, because the breeding film sits out of sight on the pipe wall rather than in the sink they just wiped. A thick foaming drain gel clings there long enough to break that film down, which a rinse of hot water cannot do &mdash; and it is usually the reason drain flies reappear a week after the counter is spotless. <BuyLink tag={AMZ_TAG} search="foaming drain cleaner gel">Check foaming drain gels on Amazon.ca &rarr;</BuyLink></p>

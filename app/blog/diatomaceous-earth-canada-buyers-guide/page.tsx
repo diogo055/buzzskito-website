@@ -113,8 +113,8 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers insect killing diatomaceous earth" label="Our top pick" />
-      <TopBox tag={AMZ_TAG} name="Safer's Diatomaceous Earth insect killer" search="safers insect killing diatomaceous earth" label="Our top pick" />
+      <StickyBuyBar tag={AMZ_TAG} name="Safer's Ant & Crawling Insect Killer DE (check for PCP 32278)" search="safers insect killing diatomaceous earth" label="Our top pick" />
+      <TopBox tag={AMZ_TAG} name="Safer's Ant & Crawling Insect Killer DE (check for PCP 32278)" search="safers insect killing diatomaceous earth" label="Our top pick" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -146,7 +146,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
               {
                 badge: 'Best Overall',
                 name: 'Safer’s Diatomaceous Earth',
-                why: 'The most widely stocked PMRA-registered domestic-class DE in Canada. Its label legally covers indoor crawling-insect use, so you get tested directions instead of internet folklore.',
+                why: 'A PMRA-registered domestic-class DE, Safer’s Ant & Crawling Insect Killer (PCP 32278), stocked by Canadian chains such as Home Hardware. Its label legally covers indoor crawling-insect use, so you get label directions instead of internet folklore. Check the bag for PCP 32278: a US-market Safer Home bag carries an EPA number instead, and Safer’s Bedbug and Flea Killer (PCP 30832) was cancelled in 2024.',
                 search: 'safers insect killing diatomaceous earth',
                 score: 9.0,
                 featured: true,
@@ -156,7 +156,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
               {
                 badge: 'Best Value',
                 name: 'Knock Down Diatomaceous Earth',
-                why: 'The same amorphous-silica, same registration, often at a budget-friendly price. A correct buy whenever Safer’s is out of stock.',
+                why: 'The same amorphous silica under its own registration (Knock Down Dust Diatomaceous Earth, PCP 32665), often at a budget-friendly price. A correct buy whenever Safer’s is out of stock.',
                 search: 'knock down diatomaceous earth',
                 score: 8.4,
                 pros: ['PMRA-registered, domestic class', 'Budget-friendly', 'Identical mechanism to Safer’s'],
@@ -183,7 +183,7 @@ export default function DiatomaceousEarthCanadaBuyersGuidePage() {
             ]}
             whichToBuy={
               <>
-                <strong>Want the safe default?</strong> The <em>Best Overall</em> Safer&rsquo;s is the easiest registered DE to find. <strong>Watching the budget?</strong> The <em>Best Value</em> Knock Down is the same silica for less. <strong>Prefer a Canadian brand?</strong> Doktor Doom Be Green covers the same indoor uses. Whichever you pick, add the <em>Essential Add-On</em> duster &mdash; a barely-visible film is what kills, and you cannot achieve one straight from the bag.
+                <strong>Want the easy default?</strong> The <em>Best Overall</em> Safer&rsquo;s is a registered DE stocked by Canadian chains; check the bag for PCP 32278. <strong>Watching the budget?</strong> The <em>Best Value</em> Knock Down is the same silica for less. <strong>Prefer a Canadian brand?</strong> Doktor Doom Be Green covers the same indoor uses. Whichever you pick, add the <em>Essential Add-On</em> duster &mdash; a barely-visible film is what kills, and you cannot achieve one straight from the bag.
               </>
             }
           />

@@ -114,8 +114,8 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />
-      <TopBox tag={AMZ_TAG} name="Mosquito Magnet Pro (commercial propane CO₂ trap)" search="mosquito magnet pro commercial trap" label="Best pro trap" />
+      <StickyBuyBar tag={AMZ_TAG} name="Registered propane CO₂ trap (look for Reg. No. 32375, 29944, 28452, 31703 or 28460)" search="propane co2 mosquito trap" label="Best registered pro trap" />
+      <TopBox tag={AMZ_TAG} name="Registered propane CO₂ trap (look for Reg. No. 32375, 29944, 28452, 31703 or 28460)" search="propane co2 mosquito trap" label="Best registered pro trap" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -142,22 +142,22 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             awards={[
               {
                 badge: 'Best Overall Pro Trap',
-                name: 'Mosquito Magnet Pro (commercial propane CO₂)',
-                why: 'The professional-grade adult-trapping machine: catalytic propane burn makes real CO₂, heat, and moisture, so it draws and kills egg-laying females rather than harmless moths. Built for continuous seasonal running across roughly an acre.',
-                search: 'mosquito magnet pro commercial trap',
+                name: 'Registered Propane CO₂ Trap (Patriot Plus, Executive or SkeeterVac)',
+                why: 'The professional-grade adult-trapping machine: catalytic propane burn makes real CO₂, heat, and moisture, so it draws and kills egg-laying females rather than harmless moths. Built for continuous seasonal running across roughly an acre. The Mosquito Magnet Pro’s Canadian registration (28441) is cancelled, so buy a model whose box shows a current Reg. No.: Patriot Plus 32375, Executive 29944, SkeeterVac SV-15 28452 or SV-3100C 31703.',
+                search: 'propane co2 mosquito trap',
                 score: 9.1,
                 featured: true,
                 pros: ['Generates real CO₂ — mosquito-weighted catch', 'Property-scale population knockdown over weeks', 'Homeowner-operable, no pesticide licensing'],
                 cons: ['Premium up-front and ongoing propane + attractant cost', 'Needs correct placement and continuous running'],
               },
               {
-                badge: 'Best Life-Cycle System',
-                name: 'In2Care Larvicide Autodissemination Station',
-                why: 'A different weapon entirely: females contaminate themselves on treated gauze, then carry a larvicide to every water source they visit — sabotaging cryptic breeding sites you could never find. A licensed-operator, PMRA-regulated program, not a consumer purchase.',
-                search: 'mosquito larvicide station',
-                score: 8.5,
-                pros: ['Reaches hidden breeding sites you cannot', 'Attacks larvae, not just adults', 'Grid-placed to cover a whole zone'],
-                cons: ['Regulated pesticide — licensed operators only', 'Priced and serviced as a seasonal program'],
+                badge: 'Best Larval Control (Registered)',
+                name: 'Mosquito Dunks BTI Larvicide (Reg. No. 28888)',
+                why: 'The In2Care larvicide station has no Canadian registration: Health Canada’s registry lists no In2Care product and no pyriproxyfen product labelled for mosquito larvae, so no one may use it here. The larval half of a Canadian program is a registered BTI product in the water you can reach. The Mosquito Dunks label: one dunk for up to 6 square metres of water surface, regardless of depth; allow at least 48 hours; reapply at 30-day intervals if larvae are detected.',
+                search: 'bti mosquito dunks granules',
+                score: 8.8,
+                pros: ['Registered for home use (Reg. No. 28888)', 'Kills larvae before they become biting adults', 'Label sites include rain barrels, ornamental ponds and planters'],
+                cons: ['Only treats the water you find and dose', 'Not for water that flows off your property (label); Mosquito Bits granules have no Canadian registration'],
               },
               {
                 badge: 'Best For Estate Lots',
@@ -180,7 +180,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Rural acreage or a cottage with an on-site breeding source?</strong> The <em>Best Overall Pro Trap</em> is the machine to run all season. <strong>Chronic problem from breeding sites you can’t find or reach?</strong> The <em>Best Life-Cycle System</em> (In2Care) is the autodissemination answer &mdash; through a licensed operator. <strong>Estate-size lot?</strong> Plan a <em>multi-unit array</em>, not one bigger box. <strong>Mid-size yard wanting a supplement?</strong> The <em>prosumer CO₂ lure</em> trap. For whole-yard treatment that also targets ticks where they wait, the answer is <Link href="/mosquito-control">professional barrier spray</Link>.
+                <strong>Rural acreage or a cottage with an on-site breeding source?</strong> The <em>Best Overall Pro Trap</em> is the machine to run all season. <strong>Chronic problem from breeding sites you can’t find or reach?</strong> In2Care has no Canadian registration, so it is not an option here; dose the water you can reach with the <em>Best Larval Control</em> BTI (Mosquito Dunks, Reg. No. 28888) and let a barrier spray cover the rest. <strong>Estate-size lot?</strong> Plan a <em>multi-unit array</em>, not one bigger box. <strong>Mid-size yard wanting a supplement?</strong> The <em>prosumer CO₂ lure</em> trap. For whole-yard treatment that also targets ticks where they wait, the answer is <Link href="/mosquito-control">professional barrier spray</Link>.
               </>
             }
           />
@@ -207,18 +207,18 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">Commercial propane CO₂<br /><span className="font-normal text-xs text-gray-500">Mosquito Magnet Pro</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Commercial propane CO₂<br /><span className="font-normal text-xs text-gray-500">Registered models: Patriot Plus, Executive, SkeeterVac</span></td>
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture; vacuums in females</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">~1 acre</strong> per unit</td>
                   <td className="px-4 py-3 text-gray-700">Registered device: Patriot Plus 32375, Executive 29944 (the Pro, 28441, is cancelled)</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="propane co2 mosquito trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Larvicide station<br /><span className="font-normal text-xs text-gray-500">In2Care autodissemination</span></td>
                   <td className="px-4 py-3 text-gray-700">Female picks up larvicide on treated gauze, spreads it to breeding water</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Grid</strong> — zone-wide</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Not registered in Canada</strong> — no In2Care product in Health Canada&rsquo;s registry</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito larvicide station" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="bti mosquito dunks granules" block>BTI instead (look for Reg. No. 28888) →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Prosumer CO₂ lure<br /><span className="font-normal text-xs text-gray-500">CO₂ + octenol trap</span></td>
@@ -232,7 +232,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">UV light draws insects; fan or grid kills them (no CO₂)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> for mosquitoes</td>
                   <td className="px-4 py-3 text-gray-700">Needs a Reg. No. unless a CSA-certified high-voltage zapper; ~5% of catch is mosquitoes</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca (no DynaTrap is registered) →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
@@ -313,8 +313,8 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the professional systems:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap">Commercial propane trap →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="mosquito larvicide station">Larvicide station →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="propane co2 mosquito trap">Propane trap (check for a current Reg. No.) →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="bti mosquito dunks granules">BTI larvicide instead (look for Reg. No. 28888) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="co2 octenol mosquito lure trap">Prosumer CO₂ lure →</BuyLink>
           </div>
 

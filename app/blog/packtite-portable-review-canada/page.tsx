@@ -114,8 +114,8 @@ export default function PackTitePortableReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
-      <TopBox tag={AMZ_TAG} name="PackTite Portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
+      <StickyBuyBar tag={AMZ_TAG} name="PackTite 2 portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
+      <TopBox tag={AMZ_TAG} name="PackTite 2 portable bed-bug heater" search="packtite portable bed bug heater" label="Best for small items & travel" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -140,12 +140,12 @@ export default function PackTitePortableReviewCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best for Small Items & Travel"
-            name="PackTite Portable (folding bed-bug heat chamber)"
-            blurb="A proven, folding heat chamber that reaches a sustained 120–140°F to kill bed bugs and eggs on non-launderable items — shoes, books, bags, and travel gear. It packs flat, runs a chemical-free cycle, and does its narrow job well. Marked down only for its small capacity (no mattresses or full suitcases) and intermittent Canadian stock. If it is available at a fair price and your problem is contained items rather than furniture, it is a sound buy."
+            name="PackTite 2 (folding bed-bug heat chamber)"
+            blurb="A proven, folding heat chamber that kills bed bugs and eggs on non-launderable items — shoes, books, bags, luggage and travel gear; its listing gives a 120–150°F kill range and says to hold the centre of the load at 120°F for an hour. It packs flat, runs a chemical-free cycle, and does its narrow job well. Marked down only for its size (36 x 19 x 24 in, so no mattresses) and intermittent Canadian stock. If it is available at a fair price and your problem is contained items rather than furniture, it is a sound buy."
             search="packtite portable bed bug heater"
             score={8.4}
-            pros={['Sustained 120–140°F kills every life stage, eggs included', 'Folds flat — ideal for travel and small apartments', 'Chemical-free; no PMRA-registration question', 'Great for shoes, books, bags, and soft goods a dryer would ruin']}
-            cons={['Small chamber — no mattresses, duvets, or full suitcases', 'Canadian stock is intermittent and import pricing swings', 'Dense loads need long cycles; must verify core temperature', 'Not for electronics, batteries, aerosols, or heat-sensitive items']}
+            pros={['Kills every life stage, eggs included: 120–150°F, centre of the load held at 120°F for 1 hour (PackTite 2 listing)', 'Folds flat — ideal for travel and small apartments', 'Chemical-free; no PMRA-registration question', 'Great for shoes, books, bags, and soft goods a dryer would ruin']}
+            cons={['Small chamber (36 x 19 x 24 in) — no mattresses or duvets', 'Canadian stock is intermittent and import pricing swings', 'Dense loads need long cycles; must verify core temperature', 'Not for electronics, batteries, aerosols, or heat-sensitive items']}
           />
         </div>
       </section>
