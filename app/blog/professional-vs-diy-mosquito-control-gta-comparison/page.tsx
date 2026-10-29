@@ -181,7 +181,7 @@ export default function ProfessionalVsDIYPage() {
           <li><strong>Standard season (10 sprays, bi-weekly May-September):</strong> $994. Most popular. A treatment every 2 weeks through the mosquito-active window. Best fit for most GTA suburban properties.</li>
           <li><strong>Exclusive season (20+ sprays, weekly May-September):</strong> $2,049. Weekly treatment for high-pressure properties. Best fit for large lots, ravine-adjacent properties, frequent outdoor entertaining.</li>
         </ul>
-        <p>Lot size scaling applies for properties above 10,000 sq ft. For a full cost breakdown including the underlying economics, see our <Link href="/mosquito-control-cost" className="text-brand-700 underline">mosquito control cost page</Link> and the related <Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 underline">Ontario cost guide</Link>.</p>
+        <p>Lot size scaling applies for properties above 10,000 sq ft. For a full cost breakdown including the underlying economics, see our <Link href="/mosquito-control-cost" className="text-brand-700 underline">mosquito control cost page</Link> and the related <Link href="/mosquito-control-cost" className="text-brand-700 underline">Ontario cost guide</Link>.</p>
 
         <h2>The cost math — head-to-head</h2>
         <p>A diligent DIY mosquito program for a GTA backyard, including everything a serious homeowner would use:</p>
@@ -274,7 +274,7 @@ export default function ProfessionalVsDIYPage() {
 
         <h2>Related guides</h2>
         <ul>
-          <li><Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 underline">Mosquito Control Cost Ontario 2026</Link></li>
+          <li><Link href="/mosquito-control-cost" className="text-brand-700 underline">Mosquito Control Cost Ontario 2026</Link></li>
           <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 underline">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 underline">When Does Mosquito Season Start in the GTA?</Link></li>
           <li><Link href="/blog/west-nile-virus-ontario-2026" className="text-brand-700 underline">West Nile Virus Ontario 2026</Link></li>

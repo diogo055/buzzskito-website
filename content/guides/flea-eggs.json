@@ -70,6 +70,7 @@
     { "type": "h2", "text": "How do you tell flea eggs from dandruff, flea dirt and sand?" },
     { "type": "p", "text": "Check the shape and color, then wet anything dark. Flea eggs are smooth white ovals that match one another, flea dirt is dark and irregular and dissolves reddish-brown when wet, and dandruff is skin: [the Merck Veterinary Manual's entry on seborrhea](https://www.merckvetmanual.com/integumentary-system/seborrhea/seborrhea-in-animals) describes dandruff as scaling of the skin, so a flake is a scrap of shed skin rather than an egg-shaped grain." },
     { "type": "p", "text": "Dandruff and fleas are not either-or. For a scaly pet that itches a lot, the Merck manual lists itchy parasite problems such as fleas among the causes a veterinarian should consider, and it includes flea combing among the tests." },
+    { "type": "p", "text": "If the white specks are on a person's hair rather than a pet, see [the guide to lice eggs](/blog/lice-eggs), which sets nits beside dandruff." },
     { "type": "table", "head": ["What you found", "Color and shape", "Size", "Where it turns up", "Telltale sign"], "rows": [
       ["Flea eggs", "Pearly white, smooth, matching ovals", "About 1/50 inch (0.5 mm)", "Pet bedding, carpet, resting spots", "Fall easily out of fur"],
       ["Flea dirt", "Black to dark brown, irregular, like ground pepper", "Very small specks", "Pet fur and bedding", "Dissolves reddish-brown on a wet paper towel"],

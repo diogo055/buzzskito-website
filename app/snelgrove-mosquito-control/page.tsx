@@ -106,6 +106,7 @@ export default function SnelgroveMosquitoPage() {
 
           <h2>Part of Our Brampton &amp; Caledon Mosquito Control Network</h2>
           <p>We serve all of Snelgrove and surrounding areas. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> and <Link href="/caledon-mosquito-control" className="text-brand-700 hover:underline">Caledon mosquito control</Link> pages for broader coverage details.</p>
+          <p>Nearby, we also treat yards in <Link href="/heart-lake-mosquito-control" className="text-brand-700 hover:underline">Heart Lake</Link> and <Link href="/fletcher-meadows-mosquito-control" className="text-brand-700 hover:underline">Fletcher&apos;s Meadow</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

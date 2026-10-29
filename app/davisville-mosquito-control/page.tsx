@@ -106,6 +106,7 @@ export default function DavisvilleMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Davisville Village and surrounding neighbourhoods. See our <Link href="/leaside-mosquito-control" className="text-brand-700 hover:underline">Leaside mosquito control</Link> page, or our page for <Link href="/lawrence-park-mosquito-control" className="text-brand-700 hover:underline">Lawrence Park</Link>.</p>
+          <p>See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage. On the far side of Mount Pleasant Cemetery, we also treat yards in <Link href="/moore-park-mosquito-control" className="text-brand-700 hover:underline">Moore Park</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

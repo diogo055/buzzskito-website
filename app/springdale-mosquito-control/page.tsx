@@ -106,6 +106,7 @@ export default function SpringdaleMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Springdale and north Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage, or our <Link href="/castlemore-mosquito-control" className="text-brand-700 hover:underline">Castlemore</Link> and <Link href="/fletcher-meadows-mosquito-control" className="text-brand-700 hover:underline">Fletcher's Meadows</Link> pages for adjacent neighbourhood coverage.</p>
+          <p>Just south, we also treat yards in <Link href="/bramalea-mosquito-control" className="text-brand-700 hover:underline">Bramalea</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

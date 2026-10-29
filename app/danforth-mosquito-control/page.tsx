@@ -106,6 +106,7 @@ export default function DanforthMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of the Danforth and surrounding areas. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our pages for <Link href="/east-york-mosquito-control" className="text-brand-700 hover:underline">East York</Link> and <Link href="/riverdale-mosquito-control" className="text-brand-700 hover:underline">Riverdale</Link>.</p>
+          <p>South of the Danforth, we also treat yards in <Link href="/leslieville-mosquito-control" className="text-brand-700 hover:underline">Leslieville</Link>.</p>
 
 
           <CityPriceCard city="Danforth" service="mosquito" location="price_card_mid" />

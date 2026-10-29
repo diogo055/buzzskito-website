@@ -2,7 +2,7 @@
  "id": "what-do-ticks-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "710aefc4eabb5c16a1f578cd4668e70cc09bf53711033ae86f5a743d85cbde52",
+ "sha": "fbe3c6b429c2b98eaf7208e1abc1dae4537e0066f712a48005d1501959b7c28c",
  "claimsChecked": 73,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 6,
@@ -16,6 +16,11 @@
    "on": "2026-10-23",
    "note": "link to /tools/tick-identifier added in section How do you tell the common US ticks apart? (one new paragraph after the tick identification chart line)",
    "previousSha": "d519210f2580c3c93e6ccc1011398c5fd23dabb741d3ff94f885e31cefaeba0f"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/pseudoscorpions; no fact changed",
+   "previousSha": "710aefc4eabb5c16a1f578cd4668e70cc09bf53711033ae86f5a743d85cbde52"
   }
  ]
 }

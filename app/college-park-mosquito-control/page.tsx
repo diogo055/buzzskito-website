@@ -106,6 +106,7 @@ export default function CollegeParkMosquitoPage() {
 
           <h2>Part of Our Oakville Mosquito Control Network</h2>
           <p>We serve all of College Park and surrounding Oakville. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control</Link> page for city-wide coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/falgarwood-mosquito-control" className="text-brand-700 hover:underline">Falgarwood</Link> and <Link href="/river-oaks-mosquito-control" className="text-brand-700 hover:underline">River Oaks</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

@@ -200,6 +200,7 @@ export default function HowToGetRidOfWaspsCanadaPage() {
               </tbody>
             </table>
           </div>
+          <p>For any other kind of nest, from mud tubes to bee swarms, our <Link href="/blog/wasp-nest-identification">wasp nest identification guide</Link> has photos of each and shows how to tell an old, empty nest from an active one.</p>
 
           <h2>Step 2: Find the Nest (Follow the Flight Lines)</h2>
           <p>Killing foragers on the patio does nothing — a colony replaces them within hours. Control means finding the nest, and the technique is the same one exterminators use: <strong>flight-line tracking</strong>. In early morning or late afternoon, stand still where you see wasp traffic and watch for insects flying in a straight, purposeful line rather than meandering between flowers. Foragers commute directly to and from the nest. Follow the line — you may need to reposition two or three times — until you find a spot where wasps enter and exit every few seconds: a hole in the lawn, a gap under the siding, a soffit corner, or a visible grey paper structure in a shrub.</p>

@@ -106,6 +106,7 @@ export default function CastlemoreMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Castlemore and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage, or our <Link href="/heart-lake-mosquito-control" className="text-brand-700 hover:underline">Heart Lake</Link> and <Link href="/springdale-mosquito-control" className="text-brand-700 hover:underline">Springdale</Link> pages for adjacent neighbourhood coverage.</p>
+          <p>We also treat yards in <Link href="/sandalwood-mosquito-control" className="text-brand-700 hover:underline">Sandalwood</Link>, which also borders Claireville Conservation Area.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

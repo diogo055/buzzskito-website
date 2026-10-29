@@ -105,6 +105,7 @@ export default function MooreParkMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Moore Park and surrounding neighbourhoods. See our <Link href="/rosedale-mosquito-control" className="text-brand-700 hover:underline">Rosedale mosquito control</Link> page, or our page for <Link href="/leaside-mosquito-control" className="text-brand-700 hover:underline">Leaside</Link>.</p>
+          <p>See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage. Nearby, we also treat yards in <Link href="/summerhill-mosquito-control" className="text-brand-700 hover:underline">Summerhill</Link> and, on the far side of Mount Pleasant Cemetery, <Link href="/davisville-mosquito-control" className="text-brand-700 hover:underline">Davisville Village</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

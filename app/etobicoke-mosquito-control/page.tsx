@@ -145,6 +145,7 @@ export default function EtobicokeMosquitoPage() {
               <span key={name} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{name}</span>
             ))}
           </div>
+          <p>Just across the Humber River from Etobicoke, we also offer <Link href="/baby-point-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Baby Point</Link>, where the ravine wraps around the neighbourhood on three sides.</p>
 
           <h2>Our Etobicoke Mosquito Treatment Process</h2>
           <ul>

@@ -2,7 +2,7 @@
  "id": "how-long-do-mice-live",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "003a87fce69de53c3b28e1127a8798af4285e4c67d7b8c8a26e932d12b41c5ea",
+ "sha": "c8589039b2630adf8baa01d7b9226bea464e4e1604f6328b8f0123651c53280a",
  "claimsChecked": 52,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 3,
@@ -12,6 +12,11 @@
    "on": "2026-10-28",
    "note": "Oct 28, 2026 Google Images pass: 5 real photos added as figure blocks, all new to the ledger (photo-notes-batch15): house-mouse-jar-rim (iNaturalist, CC0; lead), spotted-owl-with-mouse (NPS photo via Commons, public domain), pet-mouse-two-years-old (Commons, CC BY-SA 3.0), newborn-house-mice-coin (Commons, CC BY-SA 4.0) and house-mouse-droppings-wall-corner (NY State IPM Program at Cornell, CC BY 2.0). Captions restate the photo records and facts already on the page (UC IPM, Merck); media placeholder kept; no fact or date changed.",
    "previousSha": "e2756f00c4da1079692f957b34d3792847680be51d06b159cf46aa53721cd625"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/how-long-do-rats-live; no fact changed",
+   "previousSha": "003a87fce69de53c3b28e1127a8798af4285e4c67d7b8c8a26e932d12b41c5ea"
   }
  ]
 }

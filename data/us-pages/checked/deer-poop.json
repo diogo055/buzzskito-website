@@ -2,7 +2,7 @@
  "id": "deer-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3675975210fb9fb1d239118b2b9c0837a01cd0880640a1516ef0b9339b9813b3",
+ "sha": "bb4c7a6cfff54e3e51874dcca5bcfe212bbae15660d5331170f16a4047af76a6",
  "claimsChecked": 181,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -11,5 +11,12 @@
   "on": "2026-10-25",
   "scheduledFor": "2026-10-25",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/rabbit-poop; no fact changed",
+   "previousSha": "3675975210fb9fb1d239118b2b9c0837a01cd0880640a1516ef0b9339b9813b3"
+  }
+ ]
 }

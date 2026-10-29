@@ -106,6 +106,7 @@ export default function SandalwoodMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Sandalwood and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/castlemore-mosquito-control" className="text-brand-700 hover:underline">Castlemore</Link>, which also borders Claireville, and <Link href="/springdale-mosquito-control" className="text-brand-700 hover:underline">Springdale</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

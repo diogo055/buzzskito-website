@@ -107,6 +107,7 @@ export default function DundasMosquitoPage() {
 
           <h2>Part of Our Hamilton Mosquito Control Network</h2>
           <p>We serve all of Dundas and surrounding Hamilton. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control</Link> page for city-wide coverage, or our <Link href="/ancaster-mosquito-control" className="text-brand-700 hover:underline">Ancaster</Link> page for adjacent neighbourhood coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/flamborough-mosquito-control" className="text-brand-700 hover:underline">Flamborough</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

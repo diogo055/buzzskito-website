@@ -2,7 +2,7 @@
  "id": "pillar-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "5f8d0e45c10729d486bb8ea33474ca78d7053b3589d042e6c34f3945d67ab58b",
+ "sha": "95baa2d0e23a7da1ea5e366e69c77f1878eb07a58d570a1f170e4321c56227b2",
  "claimsChecked": 208,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 5,
@@ -26,6 +26,11 @@
    "on": "2026-10-21",
    "note": "Oct 21, 2026: one sentence added after the rat and animal droppings paragraph in 'What are the signs of a mouse infestation?' linking the new /blog/mouse-urine; no fact changed.",
    "previousSha": "8536afc2b00be4e7d82e51244bcbfa5298d519103b441a7ab436c92696e8c85d"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: two internal links, to /blog/shrews and /blog/how-long-do-rats-live; no fact changed",
+   "previousSha": "5f8d0e45c10729d486bb8ea33474ca78d7053b3589d042e6c34f3945d67ab58b"
   }
  ]
 }

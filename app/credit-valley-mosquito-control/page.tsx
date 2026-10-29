@@ -106,6 +106,7 @@ export default function CreditValleyMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Credit Valley and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/mount-pleasant-mosquito-control" className="text-brand-700 hover:underline">Mount Pleasant</Link> and <Link href="/bram-west-mosquito-control" className="text-brand-700 hover:underline">Bram West</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

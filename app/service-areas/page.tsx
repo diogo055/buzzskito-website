@@ -18,6 +18,103 @@ export const metadata: Metadata = buildMetadata({
 const PRIMARY = CITIES.slice(0, 6)
 const EXTENDED = CITIES.slice(6)
 
+// Neighbourhood service pages, grouped by city. Bolton is not repeated here: it is already in Quick Links.
+const NEIGHBOURHOOD_PAGES: { city: string; neighbourhoods: { name: string; href: string }[] }[] = [
+  {
+    city: 'Toronto',
+    neighbourhoods: [
+      { name: 'The Annex', href: '/the-annex-mosquito-control' },
+      { name: 'Baby Point', href: '/baby-point-mosquito-control' },
+      { name: 'The Beaches', href: '/the-beaches-mosquito-control' },
+      { name: 'the Bridle Path', href: '/bridle-path-mosquito-control' },
+      { name: 'Casa Loma', href: '/casa-loma-mosquito-control' },
+      { name: 'the Danforth', href: '/danforth-mosquito-control' },
+      { name: 'Davisville Village', href: '/davisville-mosquito-control' },
+      { name: 'Don Mills', href: '/don-mills-mosquito-control' },
+      { name: 'East York', href: '/east-york-mosquito-control' },
+      { name: 'Forest Hill', href: '/forest-hill-mosquito-control' },
+      { name: 'High Park', href: '/high-park-mosquito-control' },
+      { name: 'The Kingsway', href: '/the-kingsway-mosquito-control' },
+      { name: 'Lawrence Park', href: '/lawrence-park-mosquito-control' },
+      { name: 'Leaside', href: '/leaside-mosquito-control' },
+      { name: 'Leslieville', href: '/leslieville-mosquito-control' },
+      { name: 'Moore Park', href: '/moore-park-mosquito-control' },
+      { name: 'Riverdale', href: '/riverdale-mosquito-control' },
+      { name: 'Rosedale', href: '/rosedale-mosquito-control' },
+      { name: 'Summerhill', href: '/summerhill-mosquito-control' },
+      { name: 'Sunnybrook', href: '/sunnybrook-mosquito-control' },
+      { name: 'Willowdale', href: '/willowdale-mosquito-control' },
+      { name: 'York Mills', href: '/york-mills-mosquito-control' },
+    ],
+  },
+  {
+    city: 'Brampton',
+    neighbourhoods: [
+      { name: 'Bram West', href: '/bram-west-mosquito-control' },
+      { name: 'Bramalea', href: '/bramalea-mosquito-control' },
+      { name: 'Castlemore', href: '/castlemore-mosquito-control' },
+      { name: 'Credit Valley', href: '/credit-valley-mosquito-control' },
+      { name: "Fletcher's Meadow", href: '/fletcher-meadows-mosquito-control' },
+      { name: 'Heart Lake', href: '/heart-lake-mosquito-control' },
+      { name: 'Mount Pleasant', href: '/mount-pleasant-mosquito-control' },
+      { name: 'Sandalwood', href: '/sandalwood-mosquito-control' },
+      { name: 'Snelgrove', href: '/snelgrove-mosquito-control' },
+      { name: 'Springdale', href: '/springdale-mosquito-control' },
+    ],
+  },
+  {
+    city: 'Oakville',
+    neighbourhoods: [
+      { name: 'Bronte', href: '/bronte-mosquito-control' },
+      { name: 'Clearview', href: '/clearview-mosquito-control' },
+      { name: 'College Park', href: '/college-park-mosquito-control' },
+      { name: 'Eastlake', href: '/eastlake-mosquito-control' },
+      { name: 'Falgarwood', href: '/falgarwood-mosquito-control' },
+      { name: 'Glen Abbey', href: '/glen-abbey-mosquito-control' },
+      { name: 'Joshua Creek', href: '/joshua-creek-mosquito-control' },
+      { name: 'North Oakville', href: '/north-oakville-mosquito-control' },
+      { name: 'Old Oakville', href: '/old-oakville-mosquito-control' },
+      { name: 'River Oaks', href: '/river-oaks-mosquito-control' },
+      { name: 'West Oak Trails', href: '/west-oak-trails-mosquito-control' },
+    ],
+  },
+  {
+    city: 'Burlington',
+    neighbourhoods: [
+      { name: 'Aldershot', href: '/aldershot-mosquito-control' },
+      { name: 'Alton Village', href: '/alton-village-mosquito-control' },
+      { name: 'Millcroft', href: '/millcroft-mosquito-control' },
+      { name: 'Palmer', href: '/palmer-mosquito-control' },
+      { name: 'Roseland', href: '/roseland-mosquito-control' },
+      { name: 'The Orchard', href: '/orchard-mosquito-control' },
+      { name: 'Tyandaga', href: '/tyandaga-mosquito-control' },
+    ],
+  },
+  {
+    city: 'Hamilton',
+    neighbourhoods: [
+      { name: 'Ancaster', href: '/ancaster-mosquito-control' },
+      { name: 'Dundas', href: '/dundas-mosquito-control' },
+      { name: 'Flamborough', href: '/flamborough-mosquito-control' },
+      { name: 'Stoney Creek', href: '/stoney-creek-mosquito-control' },
+      { name: 'Waterdown', href: '/waterdown-mosquito-control' },
+    ],
+  },
+  {
+    city: 'Caledon',
+    neighbourhoods: [
+      { name: 'Caledon East', href: '/caledon-east-mosquito-control' },
+    ],
+  },
+  {
+    city: 'Durham Region',
+    neighbourhoods: [
+      { name: 'Ajax', href: '/ajax-mosquito-control' },
+      { name: 'Pickering', href: '/pickering-mosquito-control' },
+    ],
+  },
+]
+
 export default function ServiceAreasPage() {
   return (
     <>
@@ -118,6 +215,32 @@ export default function ServiceAreasPage() {
         <CityPriceCard city="GTA" service="mosquito" />
       </div>
 
+      {/* Neighbourhood pages */}
+      <section aria-labelledby="neighbourhood-pages" className="py-16 px-4 bg-brand-50">
+        <div className="max-w-6xl mx-auto">
+          <p className="kicker mb-3 text-center">Neighbourhoods</p>
+          <h2 id="neighbourhood-pages" className="h2-display text-brand-950 mb-3 text-center">Neighbourhoods We Serve</h2>
+          <p className="text-center text-gray-500 mb-10 max-w-xl mx-auto">Many GTA neighbourhoods have their own page, covering the local creeks, ravines and parks that drive mosquito pressure there.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {NEIGHBOURHOOD_PAGES.map(({ city, neighbourhoods }) => {
+              const wide = neighbourhoods.length > 12
+              return (
+                <div key={city} className={`bg-white border border-gray-200 rounded-2xl p-6${wide ? ' sm:col-span-2 lg:col-span-3' : ''}`}>
+                  <h3 className="font-extrabold text-brand-900 text-lg mb-3">{city}</h3>
+                  <ul className={`text-sm${wide ? ' sm:columns-2 lg:columns-3 gap-x-8' : ''}`}>
+                    {neighbourhoods.map(({ name, href }) => (
+                      <li key={href} className="mb-1.5 break-inside-avoid">
+                        <Link href={href} className="text-brand-700 hover:underline">{`Mosquito control in ${name}`}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* All city quick links */}
       <section aria-labelledby="all-links" className="py-12 px-4 bg-white">
         <div className="max-w-4xl mx-auto">
@@ -149,11 +272,13 @@ export default function ServiceAreasPage() {
                 <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">Mosquito Control Hub</Link></li>
                 <li><Link href="/tick-control" className="text-brand-700 hover:underline">Tick Control Hub</Link></li>
                 <li><Link href="/mosquito-control-ontario" className="text-brand-700 hover:underline">Ontario Coverage Hub</Link></li>
+                <li><Link href="/tick-control-ontario" className="text-brand-700 hover:underline">Ontario Tick Control Hub</Link></li>
                 <li><Link href="/york-region-mosquito-control" className="text-brand-700 hover:underline">York Region Hub</Link></li>
                 <li><Link href="/kleinburg-mosquito-control" className="text-brand-700 hover:underline">Kleinburg Mosquito Control</Link></li>
                 <li><Link href="/bolton-mosquito-control" className="text-brand-700 hover:underline">Bolton Mosquito Control</Link></li>
                 <li><Link href="/golf-course-mosquito-control" className="text-brand-700 hover:underline">Golf Course Mosquito Control</Link></li>
                 <li><Link href="/restaurant-patio-mosquito-control" className="text-brand-700 hover:underline">Restaurant Patio Mosquito Control</Link></li>
+                <li><Link href="/buzzskito-2026-gta-mosquito-tick-report" className="text-brand-700 hover:underline">2026 GTA Mosquito &amp; Tick Report</Link></li>
                 <li><Link href="/free-yard-assessment" className="text-brand-700 hover:underline">Get a Free Quote</Link></li>
                 <li><Link href="/frequently-asked-question" className="text-brand-700 hover:underline">FAQ</Link></li>
                 <li><Link href="/blog" className="text-brand-700 hover:underline">Pest Control Blog</Link></li>

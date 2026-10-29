@@ -127,7 +127,7 @@ export default function BedBugTreatmentCostCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong>This page is bed bugs only</strong> &mdash; what moves a bed bug quote specifically, and the DIY-versus-professional fork.
               <br className="hidden sm:block" />
-              <strong className="block mt-2">For every other pest</strong> &mdash; ants, mice, rats, wasps, cockroaches, spiders, and the national and GTA single-visit averages with their sources &mdash; use our <Link href="/pest-control-cost-canada" className="text-emerald-700 underline font-semibold">Canadian pest control cost guide</Link>. Mosquito and tick programme pricing, which is the one category we quote from our own book, lives on <Link href="/blog/mosquito-control-cost-ontario" className="text-emerald-700 underline font-semibold">mosquito control cost</Link> and <Link href="/blog/how-much-does-tick-treatment-cost-ontario" className="text-emerald-700 underline font-semibold">tick treatment cost</Link>.
+              <strong className="block mt-2">For every other pest</strong> &mdash; ants, mice, rats, wasps, cockroaches, spiders, and the national and GTA single-visit averages with their sources &mdash; use our <Link href="/pest-control-cost-canada" className="text-emerald-700 underline font-semibold">Canadian pest control cost guide</Link>. Mosquito and tick programme pricing, which is the one category we quote from our own book, lives on <Link href="/mosquito-control-cost" className="text-emerald-700 underline font-semibold">mosquito control cost</Link> and <Link href="/blog/how-much-does-tick-treatment-cost-ontario" className="text-emerald-700 underline font-semibold">tick treatment cost</Link>.
             </p>
           </div>
 
@@ -391,6 +391,7 @@ export default function BedBugTreatmentCostCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="climbup bed bug interceptor">Check interceptor traps on Amazon.ca &rarr;</BuyLink>
           </div>
+          <p>Landlords stocking a whole building can start with our <Link href="/blog/bed-bug-equipment-kit-for-landlords-canada">bed bug equipment kit for landlords</Link>, which separates what scales per unit from what you buy once.</p>
 
           <h2>When DIY Genuinely Costs Less &mdash; and the Four Times It Costs More</h2>
           <p>We sell nothing but honesty on this one, because the wrong call here is the most expensive decision in the whole category.</p>

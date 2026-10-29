@@ -136,6 +136,7 @@ export default function MosquitoControlOntarioPage() {
             ))}
           </div>
           <p>Also serving <Link href="/york-region-mosquito-control" className="text-brand-700 hover:underline">all York Region communities</Link> including Kleinburg, Nobleton, and Schomberg. See our <Link href="/service-areas" className="text-brand-700 hover:underline">full service areas page</Link> for the complete list, or see the <Link href="/tick-control-ontario" className="text-amber-700 hover:underline">Ontario tick control hub</Link>.</p>
+          <p>East of Toronto, we also serve Durham Region: see <Link href="/pickering-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Pickering</Link> and <Link href="/ajax-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Ajax</Link>.</p>
 
           <h2>What&apos;s Included in Every Ontario Treatment</h2>
           <ul>

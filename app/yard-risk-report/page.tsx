@@ -151,6 +151,7 @@ export default function YardRiskReportPage() {
             <li><Link href="/mosquito-control" className="text-brand-700 underline">BuzzSkito Mosquito Control Service</Link></li>
             <li><Link href="/tick-control" className="text-brand-700 underline">BuzzSkito Tick Control Service</Link></li>
             <li><Link href="/reviews" className="text-brand-700 underline">All 150+ BuzzSkito Customer Reviews</Link></li>
+            <li><Link href="/am-i-a-mosquito-magnet" className="text-brand-700 underline">Am I a Mosquito Magnet? — Why Mosquitoes Bite Some People More</Link></li>
           </ul>
         </div>
       </section>

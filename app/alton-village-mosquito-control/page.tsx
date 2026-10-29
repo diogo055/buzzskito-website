@@ -106,6 +106,7 @@ export default function AltonVillageMosquitoPage() {
 
           <h2>Part of Our Burlington Mosquito Control Network</h2>
           <p>We serve all of Alton Village and surrounding Burlington. See our <Link href="/burlington-mosquito-spray" className="text-brand-700 hover:underline">Burlington mosquito control</Link> page for city-wide coverage, or our pages for <Link href="/aldershot-mosquito-control" className="text-brand-700 hover:underline">Aldershot</Link> and <Link href="/roseland-mosquito-control" className="text-brand-700 hover:underline">Roseland</Link>.</p>
+          <p>Nearby, we also treat yards in <Link href="/orchard-mosquito-control" className="text-brand-700 hover:underline">The Orchard</Link> and <Link href="/millcroft-mosquito-control" className="text-brand-700 hover:underline">Millcroft</Link>.</p>
 
 
         </div>

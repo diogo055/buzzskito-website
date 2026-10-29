@@ -105,6 +105,7 @@ export default function MountPleasantMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Mount Pleasant and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/fletcher-meadows-mosquito-control" className="text-brand-700 hover:underline">Fletcher&apos;s Meadow</Link> and <Link href="/credit-valley-mosquito-control" className="text-brand-700 hover:underline">Credit Valley</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

@@ -209,6 +209,18 @@ export default function CommercialMosquitoPage() {
               <p className="font-extrabold text-brand-900 mb-1">→ Pool &amp; Backyard Properties</p>
               <p className="text-sm text-gray-700">Barrier spray around pool areas, water-feature larvicide treatment, entertaining-area protection.</p>
             </Link>
+            <Link href="/golf-course-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Golf Courses &amp; Country Clubs</p>
+              <p className="text-sm text-gray-700">Tee boxes, cart path edges, clubhouse surrounds, treatments scheduled around tee times.</p>
+            </Link>
+            <Link href="/restaurant-patio-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Restaurant Patios</p>
+              <p className="text-sm text-gray-700">Patio-season schedules, treatments before operating hours, documentation for health and insurance records.</p>
+            </Link>
+            <Link href="/wedding-mosquito-control" className="block rounded-xl border border-brand-100 bg-brand-50 p-5 hover:border-amber-400 transition">
+              <p className="font-extrabold text-brand-900 mb-1">→ Weddings &amp; Outdoor Events</p>
+              <p className="text-sm text-gray-700">Pre-event barrier spray for weddings, garden parties and outdoor events.</p>
+            </Link>
           </div>
         </div>
       </section>

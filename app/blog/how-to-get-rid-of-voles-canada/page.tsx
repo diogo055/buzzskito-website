@@ -180,6 +180,7 @@ export default function HowToGetRidOfVolesCanadaPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-4 text-sm text-gray-700 leading-relaxed">For a closer look at the shrew, our <Link href="/blog/shrews" className="text-brand-700 underline">shrew identification guide</Link> has photos, sets shrews beside mice and voles and covers what a shrew in the house means.</p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong className="text-amber-900">One more look-alike, on the bark itself.</strong> Rabbits and voles both chew young trees in winter, and the marks tell you which. A rabbit clips twigs and small stems with a clean, angled cut and browses at whatever height the snowpack lets it reach. A vole gnaws the bark surface in irregular patches of small tooth marks running in every direction, concentrated at ground level or just above the old snow line. Clean angled cuts high up mean you need a rabbit guard; scraped, patchy bark at the base means voles, and the guard needs to start below the soil.

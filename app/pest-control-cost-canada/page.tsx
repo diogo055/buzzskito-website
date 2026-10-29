@@ -402,7 +402,7 @@ export default function PestControlCostCanadaPage() {
               <p className="text-[11px] mt-4 italic opacity-80">Single treatment From $99 for a standard residential lot under 10,000 sq ft; seasonal plans scale by lot size and frequency. Tick bundle saves $100 versus standalone. All prices plus HST.</p>
               <div className="mt-5 flex flex-col gap-2 text-sm font-bold">
                 <Link href="/mosquito-control-pricing" className="underline hover:opacity-80">→ See full mosquito control pricing</Link>
-                <Link href="/blog/mosquito-control-cost-ontario" className="underline hover:opacity-80">→ Mosquito control cost in Ontario (guide)</Link>
+                <Link href="/mosquito-control-cost" className="underline hover:opacity-80">→ Mosquito control cost in Ontario (guide)</Link>
               </div>
             </div>
           </div>
@@ -535,7 +535,7 @@ export default function PestControlCostCanadaPage() {
               <p className="font-extrabold text-brand-900">Mosquito Control Pricing</p>
               <p className="text-xs text-gray-600 mt-0.5">BuzzSkito&rsquo;s mosquito plans, frequencies, and what each tier includes.</p>
             </Link>
-            <Link href="/blog/mosquito-control-cost-ontario" className="rounded-xl bg-gray-50 p-4 border border-gray-200 hover:border-brand-500 transition block">
+            <Link href="/mosquito-control-cost" className="rounded-xl bg-gray-50 p-4 border border-gray-200 hover:border-brand-500 transition block">
               <p className="font-extrabold text-brand-900">How Much Does Mosquito Control Cost in Ontario?</p>
               <p className="text-xs text-gray-600 mt-0.5">2026 Ontario pricing guide — one-time spray, seasonal packages, and yard size.</p>
             </Link>

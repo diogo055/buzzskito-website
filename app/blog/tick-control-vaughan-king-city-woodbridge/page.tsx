@@ -107,6 +107,7 @@ export default function VaughanKingCityTickControlPage() {
           <li><strong>Sonoma Heights</strong> — near Humber River tributary ravines</li>
           <li><strong>Kleinburg</strong> — rural character with extensive wooded property edges</li>
         </ul>
+        <p>For mosquitoes, our guide to <Link href="/blog/mosquito-control-vaughan-york-region" className="text-brand-700 underline">mosquito control in Vaughan and York Region</Link> covers which Vaughan neighbourhoods see the worst mosquito activity and what the season looks like there.</p>
 
         <h2>Woodbridge: High-Risk Properties</h2>
         <p>Woodbridge sits in the Humber River valley itself — one of the most continuous wildlife corridors in the GTA. Deer movement along this corridor brings tick-carrying hosts directly through residential back gardens. East Woodbridge properties backing onto the valley, and homes adjacent to Kortright Centre for Conservation, face consistent tick exposure throughout the season.</p>

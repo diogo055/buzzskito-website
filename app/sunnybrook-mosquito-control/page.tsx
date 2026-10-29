@@ -106,6 +106,7 @@ export default function SunnybrookMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Sunnybrook and surrounding neighbourhoods. See our <Link href="/bridle-path-mosquito-control" className="text-brand-700 hover:underline">Bridle Path mosquito control</Link> page, or our page for <Link href="/don-mills-mosquito-control" className="text-brand-700 hover:underline">Don Mills</Link>.</p>
+          <p>See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

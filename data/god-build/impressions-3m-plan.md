@@ -118,6 +118,19 @@ of a new pull.
     - **Oct 24-25 vs the same days a week earlier:** 647 clicks (+42%) and 100,445 impressions (+41%). Oct 25
       reached 52,598 impressions, the first day over 50K. The 7-day average for Oct 19-25 was 43,794 a day; the
       checkpoint for the week of Oct 26 is 46,000.
+- **Oct 28 scan (week of Oct 26 checkpoint: 46,000 a day).**
+  - **Last 7 days (Oct 21-27):** a 7-day average of 47,781 impressions a day. ON TRACK.
+  - **Oct 26-27:**
+    - clicks 727, record days of 359 and 368, +37% week on week;
+    - impressions 104K;
+    - position 7.4;
+    - US clicks +72%, Canada +19%.
+  - **Google Images** jumped to 48-65 clicks a day, about 35K image impressions a day, after the image sitemap.
+  - **GA4** reconnected: sessions +39%, US +82%, Canada flat; Amazon clicks flat at 83.
+  - **Wave 1 indexing:** possum-vs-opossum, how-long-do-rats-live, carpet-beetle-rash and pseudoscorpions were still
+    not indexed, so indexing was requested again on Oct 28 and accepted this time. deer-poop is indexed.
+  - **Top-100 build:** day 1 started Oct 28, two days late. The planner is running from
+    `research/god-list-2026-10-26.json`.
   - **Next:** wave 2 starts after the Oct 27 06:00 UTC allowance reset. Draw topics from GSC gaps plus Google
     suggestions and People Also Ask, about 50 pages a week.
   - **Topic rule (Oct 26, from the AI-answer research).** Prefer searches where the reader has to see, choose or

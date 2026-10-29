@@ -106,6 +106,7 @@ export default function RiverdaleMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Riverdale and surrounding areas. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our page for <Link href="/leslieville-mosquito-control" className="text-brand-700 hover:underline">Leslieville</Link>.</p>
+          <p>Nearby, we also treat yards along <Link href="/danforth-mosquito-control" className="text-brand-700 hover:underline">the Danforth</Link> and in <Link href="/east-york-mosquito-control" className="text-brand-700 hover:underline">East York</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

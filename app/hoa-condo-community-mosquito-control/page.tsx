@@ -204,6 +204,7 @@ export default function HOACondoMosquitoControlPage() {
               </div>
             ))}
           </div>
+          <p className="text-sm text-gray-700 mt-6">Managing rental homes across several addresses rather than one community? See our <Link href="/property-manager-mosquito-tick-control" className="text-brand-700 underline">property management portfolio program</Link>.</p>
         </div>
       </section>
 

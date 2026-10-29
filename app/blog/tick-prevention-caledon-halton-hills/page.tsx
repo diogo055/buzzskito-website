@@ -114,6 +114,7 @@ export default function TickPreventionCaledonPage() {
           <li><strong>Limehouse Conservation Area surroundings:</strong> The limestone karst landscape and cedar forests around Limehouse support tick populations throughout the active season.</li>
           <li><strong>Norval and Silver Creek:</strong> The Silver Creek valley running through Norval has documented tick activity. Adjacent residential properties need treatment from late April onward.</li>
         </ul>
+        <p>For mosquitoes in Georgetown and neighbouring Milton, our guide to <Link href="/blog/mosquito-control-milton-georgetown" className="text-brand-700 underline">mosquito control in Milton and Georgetown</Link> covers the Credit River valley and the new-build subdivisions next to conservation land.</p>
 
         <h2>The Alton Village Situation: New-Build Meets Escarpment Edge</h2>
         <p>Halton Hills&rsquo; newer Acton-area developments and the Alton Village community in north Burlington (on the Halton Hills boundary) sit at the escarpment edge. These are cases where new residential construction has been built directly adjacent to natural areas. Homeowners here face an unusual combination: the tick risk of a rural escarpment location with the property-care expectations of a suburban neighbourhood. Professional treatment is especially important when natural areas abut manicured lawns.</p>

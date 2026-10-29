@@ -106,6 +106,7 @@ export default function BridlePathMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of the Bridle Path and surrounding neighbourhoods. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page, or our page for <Link href="/don-mills-mosquito-control" className="text-brand-700 hover:underline">Don Mills</Link>.</p>
+          <p>Next door, we also treat yards in <Link href="/sunnybrook-mosquito-control" className="text-brand-700 hover:underline">Sunnybrook</Link>, which shares the same parkland.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

@@ -92,6 +92,9 @@ export default function FAQPage() {
             <Link href="/service-areas" className="text-brand-700 underline">Service Areas</Link> ·{' '}
             <Link href="/blog" className="text-brand-700 underline">Guides & Blog</Link>
           </p>
+          <p className="mt-3">
+            Want the detail behind these answers? Read <Link href="/how-it-works" className="text-brand-700 underline">how mosquito and tick control works</Link>, step by step, or look up a term in our <Link href="/mosquito-tick-control-glossary" className="text-brand-700 underline">mosquito and tick control glossary</Link>.
+          </p>
         </div>
       </section>
 

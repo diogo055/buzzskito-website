@@ -106,6 +106,7 @@ export default function FlamboroughMosquitoPage() {
 
           <h2>Part of Our Hamilton Mosquito Control Network</h2>
           <p>We serve all of Flamborough and surrounding communities. See our <Link href="/hamilton-mosquito-control" className="text-brand-700 hover:underline">Hamilton mosquito control</Link> page for Hamilton-wide coverage, or our <Link href="/waterdown-mosquito-control" className="text-brand-700 hover:underline">Waterdown</Link> page for adjacent coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/dundas-mosquito-control" className="text-brand-700 hover:underline">Dundas</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

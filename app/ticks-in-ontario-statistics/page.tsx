@@ -678,6 +678,14 @@ According to BuzzSkito&rsquo;s analysis of Northwestern Health Unit and City of 
               <p className="text-sm font-extrabold text-brand-900">Professional Tick Control</p>
               <p className="text-xs text-gray-600 mt-1">How BuzzSkito&rsquo;s tick barrier spray treats the edges of GTA yards where ticks wait.</p>
             </Link>
+            <Link href="/tick-control-ontario" className="block rounded-2xl bg-white border-2 border-gray-200 hover:border-amber-300 p-5 shadow-sm transition-colors">
+              <p className="text-sm font-extrabold text-brand-900">Tick Control Across Ontario</p>
+              <p className="text-xs text-gray-600 mt-1">Our five-treatment tick season, May through September, city by city across the GTA.</p>
+            </Link>
+            <Link href="/lyme-disease-risk-calculator" className="block rounded-2xl bg-white border-2 border-gray-200 hover:border-amber-300 p-5 shadow-sm transition-colors">
+              <p className="text-sm font-extrabold text-brand-900">Lyme Disease Risk Calculator</p>
+              <p className="text-xs text-gray-600 mt-1">A free 60-second household exposure score, with a prevention checklist.</p>
+            </Link>
           </div>
         </div>
       </section>

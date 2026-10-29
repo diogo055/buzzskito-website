@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import TypicalPrices from '@/components/TypicalPrices'
@@ -155,6 +156,7 @@ export default function HowItWorksPage() {
               </div>
             </div>
           </div>
+          <p className="mt-6 text-sm text-gray-600">Unfamiliar with a term like barrier spray, larvicide or BTI? Our <Link href="/mosquito-tick-control-glossary" className="text-brand-700 font-semibold hover:underline">mosquito and tick control glossary</Link> explains them in plain English.</p>
         </div>
       </section>
 

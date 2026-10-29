@@ -154,6 +154,7 @@ export default function GolfCourseMosquitoControlPage() {
             <li><Link href="/commercial-mosquito-control" className="text-brand-700 hover:underline">Commercial Mosquito Control</Link> &mdash; full commercial program overview</li>
             <li><Link href="/tick-control" className="text-brand-700 hover:underline">Tick Control</Link> &mdash; details on tick treatment for large properties</li>
             <li><Link href="/wedding-mosquito-control" className="text-brand-700 hover:underline">Event Mosquito Control</Link> &mdash; one-time treatments for tournaments and events</li>
+            <li><Link href="/restaurant-patio-mosquito-control" className="text-brand-700 hover:underline">Restaurant Patio Mosquito Control</Link> &mdash; treatment schedules for clubhouse patios and outdoor dining</li>
             <li><Link href="/service-areas" className="text-brand-700 hover:underline">Service Areas</Link> &mdash; all 19+ GTA cities we serve</li>
           </ul>
         </div>

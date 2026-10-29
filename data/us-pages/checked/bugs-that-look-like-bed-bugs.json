@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "50b8d26067aff29f1cc8356d27e7f966d8811cc4e720649c23efdec9fadf7927",
+ "sha": "bdb658a9d05f89105939e20ef209764862cb6cd30b90935e5f62a84d7058e66b",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -32,6 +32,11 @@
    "on": "2026-10-21",
    "note": "link-in 2026-10-21: three sentences added: /blog/signs-of-carpet-beetles in 'How do carpet beetles and their larvae differ from bed bugs?', /blog/bugs-that-look-like-fleas in the Fleas subsection, /blog/bed-bug-bites-but-no-bed-bugs in 'Can you identify the bug from the bites?' (no new facts)",
    "previousSha": "5fa0d25e3f4a870a1c6250a7bc090a9b28b84408bfc72a7fe3eb36f700e6acca"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/lice-eggs; no fact changed",
+   "previousSha": "50b8d26067aff29f1cc8356d27e7f966d8811cc4e720649c23efdec9fadf7927"
   }
  ]
 }

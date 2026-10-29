@@ -190,7 +190,7 @@ export default function BlackFliesMississaugaTorontoGTAPage() {
           <li><strong>Consumer hose-end yard sprays (Cutter, Repel, OFF! Yard).</strong> Active ingredient evaporates within hours; no residual; minimal effect on flying insects that arrive after application. These products are formulated more for marketing than for results.</li>
           <li><strong>Bti mosquito dunks in standing water.</strong> Effective against mosquito larvae. Useless against black flies — black flies breed in flowing water, where the dunks wash away.</li>
         </ul>
-        <p>For a fuller picture of yard control economics, see our breakdown of <Link href="/blog/mosquito-control-cost-ontario" className="text-brand-700 underline">mosquito control cost in Ontario</Link>.</p>
+        <p>For a fuller picture of yard control economics, see our breakdown of <Link href="/mosquito-control-cost" className="text-brand-700 underline">mosquito control cost in Ontario</Link>.</p>
 
         <h2>When the wave ends</h2>
         <p>In most GTA years, black fly pressure crashes by the third week of June as stream water temperatures climb past the larval comfort zone. By Canada Day, the worst is over. Mosquitoes take over as the dominant biting insect through July and August — which is why our seasonal programs are designed to keep coverage active through the full transition. The <Link href="/blog/mosquito-season-gta-when-does-it-start" className="text-brand-700 underline">GTA mosquito season timeline</Link> covers what comes next.</p>

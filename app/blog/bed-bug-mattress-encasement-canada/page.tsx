@@ -247,6 +247,7 @@ export default function BedBugMattressEncasementCanadaPage() {
             <li><strong>Dust-mite allergies too:</strong> Health Canada advises encasing pillows and mattresses in dust-mite-impermeable covers, so check that the listing says it blocks dust mites as well as bed bugs.</li>
             <li><strong>The box spring:</strong> always encase it too. The University of Minnesota Extension lists the seams and edges under a box spring as very common hiding places; <Link href="/blog/best-bed-bug-box-spring-encasement-canada">box spring covers compared</Link>.</li>
           </ul>
+          <p>If dust-mite allergy is the reason, our <Link href="/blog/dust-mites">guide to dust mites</Link> covers the other steps that cut them, with magnified photos.</p>
 
           <h2>SafeRest — the Containment-Grade Pick</h2>
           <p>SafeRest has been the default answer in the encasement category for over a decade, and the reasons are specific rather than reputational. The zipper is a micro-tooth design — the teeth are small enough that a 1 mm first-instar nymph can&rsquo;t squeeze between them — and the end of the zipper track is secured so the pull can&rsquo;t drift open a few teeth in normal use. That end-stop detail sounds trivial; it&rsquo;s actually the single most common failure point in the category, covered in the next section. The fabric is a cotton-terry surface over a waterproof membrane, which also makes it a legitimate spill and allergen barrier, and the brand publishes independent lab-test claims for bed bug escape and bite-through.</p>

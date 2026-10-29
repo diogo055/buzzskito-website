@@ -214,6 +214,7 @@ export default function GTAMosquitoPressureMapPage() {
             <li><strong>Neighbouring property water features</strong> (a neighbour&rsquo;s pond affects you)</li>
           </ul>
           <p className="text-gray-700 mb-4">For an actual property-level score, the <Link href="/yard-risk-report" className="text-brand-700 underline font-semibold">free 60-second yard risk assessment</Link> calculates your specific 1-100 score based on your address, lot, features, and family situation.</p>
+          <p className="text-gray-700 mb-4">Pressure is only half of it: in the same yard, mosquitoes bite some people far more than others. The free <Link href="/am-i-a-mosquito-magnet" className="text-brand-700 underline">Am I a Mosquito Magnet? test</Link> explains why.</p>
 
           <h2 className="text-2xl font-extrabold text-brand-900 mt-10 mb-3">Sources &amp; methodology</h2>
           <ul className="text-gray-700 mb-4 space-y-1 text-sm">
@@ -223,6 +224,7 @@ export default function GTAMosquitoPressureMapPage() {
             <li><a href="https://www.etick.ca/" target="_blank" rel="noopener noreferrer" className="text-brand-700 underline">eTick.ca — citizen-science tick identification (Bishop&rsquo;s University)</a></li>
             <li>200+ BuzzSkito property assessments across the 19 GTA cities (proprietary data, May 2024 – May 2026)</li>
           </ul>
+          <p className="text-gray-700 mb-4 text-sm">For our own field observations city by city, see the <Link href="/buzzskito-2026-gta-mosquito-tick-report" className="text-brand-700 underline">2026 GTA Mosquito &amp; Tick Report</Link>.</p>
           <p className="text-xs text-gray-500 mt-4">This map is updated annually before the start of each mosquito season. Last updated May 2026 for the 2026 season. Pressure scores are advisory only — for medical concerns about Lyme disease or West Nile virus, contact your local public health unit.</p>
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-8 mb-2">Related public health resources</h3>

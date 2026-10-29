@@ -2,7 +2,7 @@
  "id": "flea-eggs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d36d02ce013e070532cad306657a23417cfd348a2ca4ce881afc4645da20cb33",
+ "sha": "4d538d00ae200271c51b94c49288e5d0cb5d4555a61536b0acffa8c9d2347caf",
  "claimsChecked": 281,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 7,
@@ -17,6 +17,11 @@
    "on": "2026-10-22",
    "note": "link to /blog/flea-dirt added after the flea dirt paragraph (Oct 22 link-in)",
    "previousSha": "f18f026a556a0f59912dd519e10be86456e979820be1b54678e3a7397db6b8fd"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/lice-eggs; no fact changed",
+   "previousSha": "d36d02ce013e070532cad306657a23417cfd348a2ca4ce881afc4645da20cb33"
   }
  ]
 }

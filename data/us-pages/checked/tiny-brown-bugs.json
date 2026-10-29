@@ -2,7 +2,7 @@
  "id": "tiny-brown-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6cd3a9509cc1d309be9e81fb60b47a7d819bfe369dad211443bba890cc6e9eb9",
+ "sha": "a23fb966c9bb2b888f9bae660c09171e5716e8fa6e0e3b22bb0da57fbbdfccff",
  "claimsChecked": 240,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/pseudoscorpions; no fact changed",
+   "previousSha": "6cd3a9509cc1d309be9e81fb60b47a7d819bfe369dad211443bba890cc6e9eb9"
+  }
+ ]
 }

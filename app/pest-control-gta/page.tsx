@@ -322,6 +322,7 @@ export default function PestControlGTAPage() {
             <li><Link href="/commercial-mosquito-control" className="text-brand-700 hover:underline">→ Commercial Pest Control</Link></li>
             <li><Link href="/free-yard-assessment" className="text-brand-700 hover:underline">→ Get a Free Yard Quote</Link></li>
             <li><Link href="/service-areas" className="text-brand-700 hover:underline">→ Full Service Areas List</Link></li>
+            <li><Link href="/buzzskito-2026-gta-mosquito-tick-report" className="text-brand-700 hover:underline">→ 2026 GTA Mosquito &amp; Tick Report (our field data)</Link></li>
           </ul>
         </div>
       </section>

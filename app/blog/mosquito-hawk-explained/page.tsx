@@ -355,6 +355,7 @@ export default function MosquitoHawkPage() {
             </table>
           </div>
           <p className="text-sm text-gray-600">The &ldquo;daddy long legs is the most venomous spider but its fangs are too short&rdquo; story is false for all three animals. Harvestmen have no venom glands at all, cellar spider venom is not medically significant to people, and crane flies have neither venom nor fangs.</p>
+          <p>A twig-thin insect on six long legs with no wings at all is something else again: our <Link href="/blog/stick-bugs" className="text-brand-700 underline">stick bug guide</Link> has photos of the walkingsticks people find on trees, railings and house walls.</p>
           <ConfusedWith
             title="Often mistaken for a mosquito hawk"
             items={[

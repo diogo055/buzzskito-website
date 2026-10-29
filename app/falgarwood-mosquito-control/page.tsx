@@ -106,6 +106,7 @@ export default function FalgarwoodMosquitoPage() {
 
           <h2>Part of Our Oakville Mosquito Control Network</h2>
           <p>We serve all of Falgarwood and surrounding Oakville. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control</Link> page for city-wide coverage, or our <Link href="/glen-abbey-mosquito-control" className="text-brand-700 hover:underline">Glen Abbey</Link> neighbourhood page for adjacent coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/college-park-mosquito-control" className="text-brand-700 hover:underline">College Park</Link> and <Link href="/river-oaks-mosquito-control" className="text-brand-700 hover:underline">River Oaks</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

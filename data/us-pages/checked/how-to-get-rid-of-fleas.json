@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2d338a2c1e3e02146b9dd0a242fa4e23e3335c75e291776428b34838bd38c3ec",
+ "sha": "444335c80426e9f9252a1a88f2d29431afa9e86e43310ea53ae5f8de0c3592cc",
  "claimsChecked": 195,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 2,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "photos: cat-flea-on-fingertip (batch 12, Oct 23)",
    "previousSha": "d2be3e9de07d10b80fc9aed607474dab0b655bd4a07b3d626dc5a909497a4c29"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/fleas-on-humans; no fact changed",
+   "previousSha": "2d338a2c1e3e02146b9dd0a242fa4e23e3335c75e291776428b34838bd38c3ec"
   }
  ]
 }

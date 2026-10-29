@@ -335,7 +335,7 @@ export default function MosquitoTrapRunningCostCanadaPage() {
             <li><Link href="/blog/co2-mosquito-trap-canada">CO2 Mosquito Traps Explained for Canadian Yards</Link></li>
             <li><Link href="/blog/best-mosquito-trap">The Best Mosquito Traps in Canada, Ranked</Link></li>
             <li><Link href="/blog/bug-zappers-canada-do-they-work">Do Bug Zappers Actually Work in Canada?</Link></li>
-            <li><Link href="/blog/mosquito-control-cost-ontario">What Mosquito Control Costs in Ontario</Link></li>
+            <li><Link href="/mosquito-control-cost">What Mosquito Control Costs in Ontario</Link></li>
             <li><Link href="/mosquito-control">BuzzSkito Professional Mosquito Control Service</Link></li>
           </ul>
         </div>

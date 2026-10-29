@@ -106,6 +106,7 @@ export default function CasaLomaMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Casa Loma and surrounding areas. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our page for <Link href="/the-annex-mosquito-control" className="text-brand-700 hover:underline">The Annex</Link>.</p>
+          <p>Nearby, we also treat yards in <Link href="/forest-hill-mosquito-control" className="text-brand-700 hover:underline">Forest Hill</Link> and <Link href="/summerhill-mosquito-control" className="text-brand-700 hover:underline">Summerhill</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

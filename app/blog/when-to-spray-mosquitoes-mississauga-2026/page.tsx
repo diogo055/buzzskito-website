@@ -133,6 +133,7 @@ export default function WhenToSprayMississaugaPage() {
 
         <h3>Lower-pressure zones: Malton, central apartment corridors, Square One</h3>
         <p>Single-property mosquito pressure here is lower than the rest of the city, mostly because Culex pipiens flight range is short and these zones lack adjacent breeding habitat. Basic Season monthly treatment is often sufficient. Single-treatment spraying before specific outdoor events can also be a reasonable strategy here, where it generally isn\'t in higher-pressure zones.</p>
+        <p>How far ahead to book a pre-event spray, and which events benefit most, is covered in our guide to <Link href="/blog/outdoor-event-mosquito-control-gta" className="text-brand-700 underline">outdoor event mosquito control in the GTA</Link>.</p>
 
         <h2>Which package fits which property profile</h2>
         <h3>Basic Season — $549 — 5 monthly sprays</h3>

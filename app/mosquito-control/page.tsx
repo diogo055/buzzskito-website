@@ -224,6 +224,37 @@ export default function MosquitoControlPage() {
         </div>
       </section>
 
+      {/* Who we serve — property types with their own service page */}
+      <section aria-labelledby="who-we-serve" className="py-14 px-4 bg-brand-50">
+        <div className="max-w-5xl mx-auto">
+          <p className="kicker mb-3 text-center">Who We Serve</p>
+          <h2 id="who-we-serve" className="h2-display text-brand-900 mb-4 text-center">Mosquito Control for Every Kind of Property</h2>
+          <p className="text-center text-gray-500 mb-8 max-w-xl mx-auto">Most of our customers are homeowners, but some properties need their own plan. Each page below explains how we treat that kind of property.</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/estate-property-mosquito-control', title: 'Estate & acreage properties', desc: '1-10 acre lots, with multi-zone application around ponds, treelines and outdoor living areas.' },
+              { href: '/pool-backyard-mosquito-control', title: 'Pools & backyards', desc: 'Barrier spray around pool areas and entertaining spaces, kept off the pool water.' },
+              { href: '/hoa-condo-community-mosquito-control', title: 'HOA & condo communities', desc: 'Common areas and retention ponds under one board contract, with resident notices.' },
+              { href: '/property-manager-mosquito-tick-control', title: 'Property managers', desc: 'One point of contact and consolidated invoicing across a rental portfolio.' },
+              { href: '/daycare-camp-mosquito-tick-control', title: 'Daycares, camps & schools', desc: 'Treatments scheduled outside operating hours, with parent notification templates.' },
+              { href: '/golf-course-mosquito-control', title: 'Golf courses', desc: 'Tee boxes, cart paths and clubhouse surrounds, treated around tee times.' },
+              { href: '/restaurant-patio-mosquito-control', title: 'Restaurant patios', desc: 'Patio-season treatment schedules, timed before your operating hours.' },
+              { href: '/wedding-mosquito-control', title: 'Weddings & events', desc: 'A treatment timed ahead of a backyard wedding, garden party or outdoor event.' },
+              { href: '/commercial-mosquito-control', title: 'Commercial properties', desc: 'Programs for businesses, event venues and managed properties across the GTA.' },
+            ].map(({ href, title, desc }) => (
+              <Link
+                key={href}
+                href={href}
+                className="block bg-white border border-brand-200 rounded-xl p-5 hover:border-brand-700 transition-colors"
+              >
+                <h3 className="font-extrabold text-brand-900 mb-1">{title}</h3>
+                <p className="text-sm text-gray-600">{desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Blog links */}
       <section aria-labelledby="related-guides" className="py-14 px-4 bg-gray-50">
         <div className="max-w-5xl mx-auto">
@@ -260,6 +291,9 @@ export default function MosquitoControlPage() {
           </div>
           <p className="text-center mt-6 text-sm text-gray-500">
             More questions? See our <Link href="/frequently-asked-question" className="text-brand-700 underline">full FAQ</Link>, the <Link href="/mosquito-spray-safety" className="text-brand-700 underline">spray safety guide</Link>, or call <a href={BUSINESS.phoneHref} className="text-brand-700 underline">{BUSINESS.phone}</a>.
+          </p>
+          <p className="text-center mt-3 text-sm text-gray-500">
+            New to barrier spray? See <Link href="/how-it-works" className="text-brand-700 underline">how a treatment works, step by step</Link>, look up a term in our <Link href="/mosquito-tick-control-glossary" className="text-brand-700 underline">mosquito and tick control glossary</Link>, or find out why mosquitoes pick some people over others with the free <Link href="/am-i-a-mosquito-magnet" className="text-brand-700 underline">mosquito magnet test</Link>.
           </p>
         </div>
       </section>

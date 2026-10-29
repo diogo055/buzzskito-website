@@ -332,6 +332,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
             <li><strong>Control humidity.</strong> Dust mites can&rsquo;t survive below roughly 50% relative humidity. In a damp home or basement, a right-sized dehumidifier attacks the population at the source &mdash; see our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link> for sizing.</li>
           </ol>
           <p>Add weekly hot-water bedding washes (55C or hotter) and you are hitting dust mites from every angle: filtering what&rsquo;s airborne, sealing what&rsquo;s in the bed, and drying out the environment they need. That combination outperforms any single purchase &mdash; and it is why the &ldquo;best air purifier&rdquo; question is really the first third of a bigger answer. If you&rsquo;re budgeting the whole plan, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> puts the numbers in context.</p>
+          <p>For the mites themselves, our <Link href="/blog/dust-mites">dust mite guide</Link> has magnified photos, the allergy symptoms and how to tell dust mites from bed bugs.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

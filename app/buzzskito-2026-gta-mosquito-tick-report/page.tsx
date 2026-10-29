@@ -296,6 +296,7 @@ export default function MosquitoIndexPage() {
           <li><Link href="/blog/lyme-disease-risk-areas-ontario-2026">Lyme Disease Risk Areas Ontario 2026</Link></li>
           <li><Link href="/blog/mosquito-season-gta-when-does-it-start">When Does Mosquito Season Start in the GTA?</Link></li>
           <li><Link href="/reviews">BuzzSkito Reviews — 150+ Five-Star Google Reviews</Link></li>
+          <li><Link href="/mosquito-tick-control-glossary">Mosquito & Tick Control Glossary — Species, Active Ingredients and Treatment Terms</Link></li>
         </ul>
       </article>
 

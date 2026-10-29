@@ -171,6 +171,7 @@ export default function RestaurantPatioMosquitoControlPage() {
           <ul>
             <li><Link href="/commercial-mosquito-control" className="text-brand-700 hover:underline">Commercial Mosquito Control</Link> &mdash; full commercial program details</li>
             <li><Link href="/wedding-mosquito-control" className="text-brand-700 hover:underline">Event Mosquito Control</Link> &mdash; one-time treatments for special events on your patio</li>
+            <li><Link href="/golf-course-mosquito-control" className="text-brand-700 hover:underline">Golf Course Mosquito Control</Link> &mdash; clubhouse patios, tee boxes and cart paths</li>
             <li><Link href="/mosquito-control-pricing" className="text-brand-700 hover:underline">Pricing</Link> &mdash; transparent 2026 pricing information</li>
           </ul>
         </div>

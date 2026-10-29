@@ -167,6 +167,7 @@ export default function MosquitoSeasonPage() {
         <h2>Month-by-Month Mosquito Activity in the GTA</h2>
         <h3>April (Late): Season Begins</h3>
         <p>The first mosquitoes of the season emerge. Activity is low and limited to warm, sheltered areas. Homeowners near the Credit River, Humber River, or other waterways may notice the first mosquitoes earlier than others.</p>
+        <p>For Toronto in particular, our <Link href="/blog/when-does-mosquito-season-start-toronto-2026" className="text-brand-700 hover:underline">Toronto mosquito season guide</Link> explains how Lake Ontario and the city&rsquo;s ravines shift when mosquitoes arrive and when they leave.</p>
 
         <h3>May: Rapid Population Growth</h3>
         <p>Mosquito populations grow quickly through May as temperatures warm and rainfall provides fresh breeding water. <strong>This is the ideal time to book your first treatment</strong> — acting before populations peak gives maximum protection.</p>

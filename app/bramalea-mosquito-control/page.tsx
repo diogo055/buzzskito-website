@@ -106,6 +106,7 @@ export default function BramaleaMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Bramalea and surrounding Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage.</p>
+          <p>North of Bramalea, we also treat yards in <Link href="/springdale-mosquito-control" className="text-brand-700 hover:underline">Springdale</Link> and <Link href="/sandalwood-mosquito-control" className="text-brand-700 hover:underline">Sandalwood</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

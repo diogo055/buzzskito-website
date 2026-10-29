@@ -106,6 +106,7 @@ export default function LawrenceParkMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Lawrence Park and surrounding neighbourhoods. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page, or our page for <Link href="/rosedale-mosquito-control" className="text-brand-700 hover:underline">Rosedale</Link>.</p>
+          <p>Nearby, we also treat yards in <Link href="/sunnybrook-mosquito-control" className="text-brand-700 hover:underline">Sunnybrook</Link> and the <Link href="/bridle-path-mosquito-control" className="text-brand-700 hover:underline">Bridle Path</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

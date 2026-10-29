@@ -106,6 +106,7 @@ export default function HighParkMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of the High Park area and surrounding neighbourhoods. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our pages for <Link href="/the-kingsway-mosquito-control" className="text-brand-700 hover:underline">The Kingsway</Link> and <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke</Link>.</p>
+          <p>Up the Humber, we also treat yards in <Link href="/baby-point-mosquito-control" className="text-brand-700 hover:underline">Baby Point</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

@@ -112,6 +112,9 @@ export default function TickControlPage() {
               Learn more in our <Link href="/blog/ultimate-tick-control-guide-ontario" className="text-brand-700 underline hover:text-brand-500">Ultimate Tick Control Guide for Ontario Homeowners</Link> or read about{' '}
               <Link href="/blog/lyme-disease-tick-prevention-ontario" className="text-brand-700 underline hover:text-brand-500">Lyme disease prevention in Ontario</Link>.
             </p>
+            <p>
+              Not sure how exposed your household is? The free <Link href="/lyme-disease-risk-calculator" className="text-brand-700 underline hover:text-brand-500">Lyme disease risk calculator</Link> gives you a 60-second exposure score and a prevention checklist, and our <Link href="/how-it-works" className="text-brand-700 underline hover:text-brand-500">how it works page</Link> walks through a treatment visit step by step.
+            </p>
           </div>
         </div>
       </section>
@@ -212,6 +215,9 @@ export default function TickControlPage() {
           </div>
           <p className="mt-4 text-sm text-gray-500">
             See all 19 cities on our <Link href="/service-areas" className="text-brand-700 underline">full service areas page</Link>, or view the <Link href="/tick-control-ontario" className="text-amber-700 underline">Ontario tick control overview</Link>.
+          </p>
+          <p className="mt-3 text-sm text-gray-500">
+            We also treat ticks on larger and shared properties: <Link href="/estate-property-mosquito-control" className="text-amber-700 underline">estate and acreage properties</Link>, <Link href="/daycare-camp-mosquito-tick-control" className="text-amber-700 underline">daycares, camps and schools</Link>, <Link href="/hoa-condo-community-mosquito-control" className="text-amber-700 underline">HOA and condo communities</Link>, <Link href="/property-manager-mosquito-tick-control" className="text-amber-700 underline">property management portfolios</Link> and <Link href="/golf-course-mosquito-control" className="text-amber-700 underline">golf courses</Link>.
           </p>
         </div>
       </section>

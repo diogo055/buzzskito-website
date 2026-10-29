@@ -37,6 +37,12 @@ const NEIGHBOURHOODS: { name: string; href?: string }[] = [
   { name: 'Davisville', href: '/davisville-mosquito-control' },
   { name: 'Summerhill', href: '/summerhill-mosquito-control' },
   { name: 'Sunnybrook', href: '/sunnybrook-mosquito-control' },
+  { name: 'The Annex', href: '/the-annex-mosquito-control' },
+  { name: 'Casa Loma', href: '/casa-loma-mosquito-control' },
+  { name: 'Moore Park', href: '/moore-park-mosquito-control' },
+  { name: 'Riverdale', href: '/riverdale-mosquito-control' },
+  { name: 'Bridle Path', href: '/bridle-path-mosquito-control' },
+  { name: 'The Kingsway', href: '/the-kingsway-mosquito-control' },
 ]
 
 const FAQS = [

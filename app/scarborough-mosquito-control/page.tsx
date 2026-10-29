@@ -131,6 +131,7 @@ export default function ScarboroughMosquitoPage() {
             {NEIGHBOURHOODS.map((n) => <span key={n} className="text-sm bg-brand-50 border border-brand-200 text-brand-700 px-3 py-1.5 rounded-full">{n}</span>)}
           </div>
           <p>Pressure is not evenly distributed across these communities. Rouge and Malvern sit against the park boundary, Highland Creek and Guildwood sit against the creek valley, and Cliffside sits in the bluff microclimate — these are the highest-pressure addresses in Scarborough, and they generally do best on the bi-weekly Standard plan. Neighbourhoods set back from the valleys and the shoreline, such as Agincourt, are usually comfortable on the monthly Basic plan.</p>
+          <p>Across the Rouge River to the east, we also treat yards in Durham Region. See our pages for <Link href="/pickering-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Pickering</Link> and <Link href="/ajax-mosquito-control" className="text-brand-700 hover:underline">mosquito control in Ajax</Link>.</p>
 
           <h2>Our Scarborough Mosquito Treatment Process</h2>
           <ul>

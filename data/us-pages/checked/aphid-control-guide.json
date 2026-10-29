@@ -2,9 +2,16 @@
  "id": "aphid-control-guide",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3634ecbe8c38d9705631c3245eb69613d5e93c871fef3343185756f472da3453",
+ "sha": "f1ea884604506319d53750cac95b970c1d502e8513163d366a65f287633c4ac6",
  "claimsChecked": 140,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 7,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/spider-mites; no fact changed",
+   "previousSha": "3634ecbe8c38d9705631c3245eb69613d5e93c871fef3343185756f472da3453"
+  }
+ ]
 }

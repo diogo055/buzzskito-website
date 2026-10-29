@@ -2,7 +2,7 @@
  "id": "carpet-beetle-larvae",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "56d93308ceb04281be2be388dd047ace2aa33f665f11ef0d95310d1829f9287e",
+ "sha": "7aaf05ca71b5354a8a00c3cdbd45716ce7c87aa3394aa3d1cf6b5fc93645622d",
  "claimsChecked": 410,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 0,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "layout fix: hallway-wall photo moved out of the hiding-places list to just after it; validate passes (orchestrator, Oct 23)",
    "previousSha": "08082aa21d2e59640b10c8ccf3b4958143c1a5c0bbc0a15cedba57d0db6e47a5"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/maggots (a look-alike card, ledger photo fly-maggot, note taken from that page's sourced description); no fact changed",
+   "previousSha": "56d93308ceb04281be2be388dd047ace2aa33f665f11ef0d95310d1829f9287e"
   }
  ],
  "released": {

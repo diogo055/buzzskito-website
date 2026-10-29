@@ -109,6 +109,7 @@ export default function ForestHillMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We also serve all surrounding neighbourhoods. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage details, or our <Link href="/rosedale-mosquito-control" className="text-brand-700 hover:underline">Rosedale</Link> and <Link href="/leaside-mosquito-control" className="text-brand-700 hover:underline">Leaside</Link> pages for adjacent neighbourhood coverage.</p>
+          <p>South of St. Clair Avenue, we also treat yards in <Link href="/casa-loma-mosquito-control" className="text-brand-700 hover:underline">Casa Loma</Link> and <Link href="/the-annex-mosquito-control" className="text-brand-700 hover:underline">The Annex</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

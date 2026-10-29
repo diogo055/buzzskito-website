@@ -106,6 +106,7 @@ export default function BabyPointMosquitoPage() {
 
           <h2>Part of Our Etobicoke Mosquito Control Network</h2>
           <p>We serve all of Baby Point and surrounding west Toronto. See our <Link href="/etobicoke-mosquito-control" className="text-brand-700 hover:underline">Etobicoke mosquito control</Link> page for area-wide coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/the-kingsway-mosquito-control" className="text-brand-700 hover:underline">The Kingsway</Link>, across the Humber, and in <Link href="/high-park-mosquito-control" className="text-brand-700 hover:underline">High Park</Link>. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage.</p>
 
 
         </div>

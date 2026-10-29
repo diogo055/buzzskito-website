@@ -106,6 +106,7 @@ export default function BramWestMosquitoPage() {
 
           <h2>Part of Our Brampton &amp; Mississauga Mosquito Control Network</h2>
           <p>We serve all of Bram West and surrounding areas. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage, or our <Link href="/mississauga-mosquito-control" className="text-brand-700 hover:underline">Mississauga mosquito control</Link> page for coverage across the Credit River.</p>
+          <p>Elsewhere in west Brampton, we also treat yards in <Link href="/credit-valley-mosquito-control" className="text-brand-700 hover:underline">Credit Valley</Link>.</p>
 
 
         </div>

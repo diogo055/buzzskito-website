@@ -106,6 +106,7 @@ export default function ClearviewMosquitoPage() {
 
           <h2>Part of Our Oakville Mosquito Control Network</h2>
           <p>We serve all of Clearview and surrounding Oakville. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control</Link> page for city-wide coverage, or our <Link href="/bronte-mosquito-control" className="text-brand-700 hover:underline">Bronte</Link> neighbourhood page for adjacent coverage.</p>
+          <p>Elsewhere in Oakville, we also treat yards in <Link href="/eastlake-mosquito-control" className="text-brand-700 hover:underline">Eastlake</Link> and <Link href="/old-oakville-mosquito-control" className="text-brand-700 hover:underline">Old Oakville</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

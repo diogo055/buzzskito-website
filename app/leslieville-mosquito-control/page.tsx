@@ -106,6 +106,7 @@ export default function LeslievilleMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Leslieville and surrounding areas. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our pages for <Link href="/riverdale-mosquito-control" className="text-brand-700 hover:underline">Riverdale</Link> and <Link href="/the-beaches-mosquito-control" className="text-brand-700 hover:underline">The Beaches</Link>.</p>
+          <p>Just to the north, we also treat yards along <Link href="/danforth-mosquito-control" className="text-brand-700 hover:underline">the Danforth</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

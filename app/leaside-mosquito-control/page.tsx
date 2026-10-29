@@ -106,6 +106,7 @@ export default function LeasideMosquitoPage() {
 
           <h2>Part of Our Toronto Mosquito Control Network</h2>
           <p>We serve all of Leaside and surrounding areas. See our <Link href="/toronto-mosquito-control" className="text-brand-700 hover:underline">Toronto mosquito control</Link> page for city-wide coverage, or our <Link href="/rosedale-mosquito-control" className="text-brand-700 hover:underline">Rosedale</Link>, <Link href="/east-york-mosquito-control" className="text-brand-700 hover:underline">East York</Link>, and <Link href="/don-mills-mosquito-control" className="text-brand-700 hover:underline">Don Mills</Link> pages for adjacent neighbourhood coverage.</p>
+          <p>West of Bayview Avenue, we also treat yards in <Link href="/davisville-mosquito-control" className="text-brand-700 hover:underline">Davisville Village</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

@@ -2,7 +2,7 @@
  "id": "squirrel-poop",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "95c1bc8c175ab757abcbe5e1a1f9e80fb32394249d867b84f6a7c50dccd60835",
+ "sha": "c2fdbcb84398e2690efd82d1aa0e6c3da45cde80ae67984c1f53a4b3c9e1ea7a",
  "claimsChecked": 376,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 22,
@@ -11,5 +11,12 @@
   "on": "2026-10-21",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: two internal links, to /blog/rabbit-poop and /blog/deer-poop; no fact changed",
+   "previousSha": "95c1bc8c175ab757abcbe5e1a1f9e80fb32394249d867b84f6a7c50dccd60835"
+  }
+ ]
 }

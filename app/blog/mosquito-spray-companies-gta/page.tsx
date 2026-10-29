@@ -162,7 +162,7 @@ export default function MosquitoSprayCompaniesPage() {
           <li><Link href="/blog/mosquito-vs-diy-vs-professional-control" className="text-brand-700 hover:underline">DIY vs. Professional Mosquito Control: What Actually Works</Link></li>
           <li><Link href="/blog/how-long-does-mosquito-spray-last" className="text-brand-700 hover:underline">How Long Does Mosquito Spray Last?</Link></li>
           <li><Link href="/blog/is-mosquito-spray-safe-kids-pets" className="text-brand-700 hover:underline">Is Mosquito Spray Safe for Kids and Pets?</Link></li>
-          <li><Link href="/mosquito-control-near-me" className="text-brand-700 hover:underline">Mosquito &amp; Tick Control Near Me — GTA Service Areas</Link></li>
+          <li><Link href="/mosquito-control" className="text-brand-700 hover:underline">Mosquito &amp; Tick Control Near Me — GTA Service Areas</Link></li>
         </ul>
       </article>
 

@@ -106,6 +106,7 @@ export default function TyandagaMosquitoPage() {
 
           <h2>Part of Our Burlington Mosquito Control Network</h2>
           <p>We serve all of Tyandaga and surrounding Burlington. See our <Link href="/burlington-mosquito-spray" className="text-brand-700 hover:underline">Burlington mosquito spray</Link> page for city-wide coverage, or our pages for <Link href="/alton-village-mosquito-control" className="text-brand-700 hover:underline">Alton Village</Link> and <Link href="/roseland-mosquito-control" className="text-brand-700 hover:underline">Roseland</Link>.</p>
+          <p>Nearby, we also treat yards in <Link href="/palmer-mosquito-control" className="text-brand-700 hover:underline">Palmer</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

@@ -106,6 +106,7 @@ export default function JoshuaCreekMosquitoPage() {
 
           <h2>Part of Our Oakville Mosquito Control Network</h2>
           <p>We serve all of Joshua Creek and surrounding Oakville. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control</Link> page for city-wide coverage.</p>
+          <p>Elsewhere in Oakville, we also treat yards in <Link href="/eastlake-mosquito-control" className="text-brand-700 hover:underline">Eastlake</Link> and <Link href="/clearview-mosquito-control" className="text-brand-700 hover:underline">Clearview</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

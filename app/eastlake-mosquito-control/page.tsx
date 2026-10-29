@@ -106,6 +106,7 @@ export default function EastlakeMosquitoPage() {
 
           <h2>Part of Our Oakville Mosquito Control Network</h2>
           <p>We serve all of Eastlake and surrounding Oakville. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control</Link> page for city-wide coverage, or our <Link href="/joshua-creek-mosquito-control" className="text-brand-700 hover:underline">Joshua Creek</Link> neighbourhood page for adjacent coverage.</p>
+          <p>Elsewhere in Oakville, we also treat yards in <Link href="/clearview-mosquito-control" className="text-brand-700 hover:underline">Clearview</Link> and <Link href="/old-oakville-mosquito-control" className="text-brand-700 hover:underline">Old Oakville</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

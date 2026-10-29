@@ -106,6 +106,7 @@ export default function RiverOaksMosquitoPage() {
 
           <h2>Part of Our Oakville Mosquito Control Network</h2>
           <p>We serve all of River Oaks and surrounding Oakville. See our <Link href="/oakville-mosquito-control" className="text-brand-700 hover:underline">Oakville mosquito control</Link> page for city-wide coverage.</p>
+          <p>Nearby, we also treat yards in <Link href="/college-park-mosquito-control" className="text-brand-700 hover:underline">College Park</Link> and <Link href="/falgarwood-mosquito-control" className="text-brand-700 hover:underline">Falgarwood</Link>.</p>
 
 
           <h2>Pricing — Treatments from $99</h2>

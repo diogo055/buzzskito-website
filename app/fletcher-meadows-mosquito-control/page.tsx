@@ -106,6 +106,7 @@ export default function FletcherMeadowsMosquitoPage() {
 
           <h2>Part of Our Brampton Mosquito Control Network</h2>
           <p>We serve all of Fletcher's Meadows and surrounding northwest Brampton. See our <Link href="/brampton-mosquito-control" className="text-brand-700 hover:underline">Brampton mosquito control</Link> page for city-wide coverage, or our <Link href="/springdale-mosquito-control" className="text-brand-700 hover:underline">Springdale</Link> and <Link href="/heart-lake-mosquito-control" className="text-brand-700 hover:underline">Heart Lake</Link> pages for adjacent neighbourhood coverage.</p>
+          <p>Elsewhere in north Brampton, we also treat yards in <Link href="/mount-pleasant-mosquito-control" className="text-brand-700 hover:underline">Mount Pleasant</Link> and <Link href="/snelgrove-mosquito-control" className="text-brand-700 hover:underline">Snelgrove</Link>.</p>
 
 
           <CityPriceCard city={NEIGHBOURHOOD} service="mosquito" location="price_card_mid" />

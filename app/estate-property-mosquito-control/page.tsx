@@ -142,6 +142,7 @@ export default function EstatePropertyMosquitoControlPage() {
               <p className="text-sm text-gray-700">Lake Ontario humidity extends the mosquito season 1-2 weeks longer than inland properties. Lakefront and lake-adjacent estate properties typically need extended fall treatments through late September.</p>
             </div>
           </div>
+          <p className="text-sm text-gray-700">Several of these communities have their own local page: <Link href="/caledon-east-mosquito-control" className="text-brand-700 underline">mosquito control in Caledon East</Link>, <Link href="/bolton-mosquito-control" className="text-brand-700 underline">Bolton</Link>, <Link href="/kleinburg-mosquito-control" className="text-brand-700 underline">Kleinburg</Link> and <Link href="/king-city-mosquito-control" className="text-brand-700 underline">King City</Link>. For a standard-size lot with a pool, see our <Link href="/pool-backyard-mosquito-control" className="text-brand-700 underline">pool and backyard mosquito control</Link> page.</p>
         </div>
       </section>
 
