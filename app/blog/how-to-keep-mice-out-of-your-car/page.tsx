@@ -19,7 +19,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-keep-mice-out-of-your-car'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 const TITLE = 'How to Keep Mice Out of Your Car — Protect the Engine Bay, Wiring & Cabin'
 const META_TITLE = 'How to Keep Mice Out of Your Car in Canada'
 
@@ -324,6 +324,11 @@ export default function HowToKeepMiceOutOfYourCarPage() {
             alt="A few small, dark house mouse droppings on orange paper beside a centimetre ruler and two coins"
             caption="House mouse droppings found in a kitchen and near a computer keyboard, shown beside a centimetre ruler in Utrecht, the Netherlands; the identification is the photographer's. On the engine cover, the battery tray or the corners of the bay, look for dark grains like these, 3 to 6 mm long."
           />
+          <Photo
+            id="mouse-tracks-car-engine-cover"
+            alt="Small rodent footprints in the dust on a dark plastic cover in a car's engine bay, with a tuft of nest material in front"
+            caption="Footprints in the dust on a plastic cover in the engine bay of a car its owner had not driven for a few weeks, with a tuft of the nest found with them, in San Diego; two iNaturalist identifiers put them at deer mice, genus Peromyscus. Look along the edges mice travel for prints like these."
+          />
           <p>From the driver&rsquo;s seat, the later-stage tells are a check-engine light or a misfire after the car has been sitting, a dusty, musty, or ammonia smell from the vents when the fan first runs (mice love the HVAC intake and cabin-air filter), scratching sounds after you park, and — in the endgame — a car that simply will not start. If you are already at droppings-plus-nest, skip ahead to the trapping section: deterrents do not evict tenants.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the three picks:</p>
@@ -341,6 +346,11 @@ export default function HowToKeepMiceOutOfYourCarPage() {
             <li><strong>Starve the site.</strong> No wrappers, crumbs, or snacks in the cabin; no dog food, bird seed, or grass seed stored in the trunk or anywhere near the parking spot. Bird feeders and compost bins within a few metres of a parked car are mouse commissaries — move one or the other.</li>
             <li><strong>Cut the cover.</strong> Trim grass and weeds around a stored vehicle, pull the woodpile away, and leave a strip of open ground mice must cross. For long storage, some owners leave the hood propped open in a secure garage — it feels wrong, but it destroys the dark-cavity appeal that makes an engine bay a nest site.</li>
           </ul>
+          <Photo
+            id="mouse-nest-under-car-hood"
+            alt="A ball of fibrous mouse nest material packed in beside the engine of a car with its hood open"
+            caption="A nest packed in beside the engine of a car its owner had not driven for a few weeks, in San Diego; two iNaturalist identifiers put it at deer mice, genus Peromyscus. A car that sits unmoved is the biggest single risk factor, and a hot, vibrating, moving engine bay is uninhabitable."
+          />
 
           <h2>Layer 2: Capsaicin Rodent Tape — the Fix Honda Made Famous</h2>
           <p>When wire-chewing complaints piled up in the 2010s, Honda&rsquo;s parts network began selling a roll of harness tape laced with capsaicin — the compound that gives chili peppers their heat — and the &ldquo;Honda rodent tape&rdquo; story went viral precisely because it was an automaker quietly acknowledging the problem. The idea is elegant: instead of trying to make the whole car smell bad (which fades) or sound bad (which mice tune out), you make the wire itself punishing to bite. A mouse that gnaws through the wrap gets a strong irritant response at the exact moment and place of the crime, and in most reported experience it moves on to literally anything else.</p>
@@ -360,6 +370,11 @@ export default function HowToKeepMiceOutOfYourCarPage() {
           <h2>Layer 4: The Trap Line — Non-Negotiable for Stored Vehicles</h2>
           <p>Everything above deters. Traps are the only layer that reduces the number of mice, and for a vehicle in a garage they are the backbone of the defence. The good news is that trapping <em>around</em> a car is easier than trapping a whole house, because mouse behaviour funnels beautifully: mice run wall lines, not open floor, so a mouse heading for your car almost always travels the garage perimeter first and approaches across open concrete only for the final metre.</p>
           <p>Set classic wood snap traps with the trigger end touching the baseboard every 2&ndash;3 metres along the garage walls, doubling up in the corners nearest each wheel, with a pea-sized smear of peanut butter pressed into each trigger. Six traps is a sensible minimum around a stored vehicle; set them all on night one, since a fresh trap line usually takes its biggest catch in the first night or two, before the survivors turn cautious. If activity is clearly inside the cabin, add a trap on a floor mat overnight — and leave yourself a note on the steering wheel so it is gone before you drive. The full placement science, bait notes, and the electronic no-touch option are in our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link>; if the droppings you are finding are over a centimetre long, you have a bigger tenant, and the <Link href="/blog/how-to-get-rid-of-rats-canada">rat playbook</Link> is the right page instead.</p>
+          <Photo
+            id="snap-traps-set-against-wall"
+            alt="Two snap traps with yellow plastic triggers set side by side on a ledge, trigger ends toward the wall"
+            caption="Two snap traps with yellow plastic triggers set side by side on a ledge, their baited trigger ends toward the wall (New York State IPM Program at Cornell University). Around a parked car, set them along the garage walls the same way, with the trigger end touching the baseboard."
+          />
           <p>When mice are most active, and what that means for setting a trap line and checking it, is covered in our North American guide to <Link href="/blog/are-mice-nocturnal">whether mice are nocturnal</Link>.</p>
           <p>After the traps go quiet — 7 to 10 nights with no catches and no fresh droppings — clean before you deter. Wear disposable gloves, wet droppings and nest material with disinfectant before wiping (never dry-sweep or vacuum them; dust from rodent droppings can carry pathogens), double-bag the debris, and replace the cabin-air filter, which doubles as both nest site and pathogen reservoir. Then apply the tape and strobe layers to keep the vacancy permanent.</p>
           <p className="not-prose text-gray-700">The cabin-air filter is the part of that cleanup people put off, and it is the one that keeps the smell. It sits in a housing reachable from the fresh-air intake, which is precisely why mice nest in it, and a filter that has held a nest is both the source of the musty draught from the vents and a reservoir you cannot disinfect &mdash; it gets replaced, not cleaned. On most vehicles it is a glovebox-drop job of ten minutes with no tools; look up the filter by your year, make and model rather than by size.</p>

@@ -19,7 +19,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-cluster-flies-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 const TITLE = 'How to Get Rid of Cluster Flies in Canada (2026) — The Farmhouse & Cottage Guide'
 // TITLE NOTE (Oct 16, 2026): was 'Cluster Flies Canada 2026: The Farmhouse Fix'; top queries: cluster flies 123, cluster flies ontario 59, cluster fly control 43.
 const META_TITLE = 'Cluster Flies in Canada: Photos and Fixes'
@@ -269,9 +269,19 @@ export default function ClusterFliesCanadaPage() {
           <h2>The Lifecycle: Earthworm Parasites, Not Kitchen Pests</h2>
           <p>Cluster flies (genus <em>Pollenia</em>) have one of the more surprising life histories of any pest you will meet indoors. The adult females lay their eggs in soil cracks outdoors in spring and summer. When the larvae hatch, they seek out earthworms and burrow in &mdash; they are internal <strong>parasites of earthworms</strong>, developing inside the host before emerging to pupate in the soil. A new generation of adults emerges through the warm months.</p>
           <p>This matters enormously for control, because it means there is <strong>nothing in your house for cluster flies to breed in</strong>. They cannot complete their lifecycle indoors; there are no earthworms in your drywall. Every cluster fly you see inside over winter is an adult that entered in the fall to hibernate &mdash; not the offspring of flies breeding in a wall. So the entire &ldquo;find the breeding source and clean it&rdquo; playbook that works on house flies and <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit flies</Link> is useless here. There is no indoor source to find. This is genuinely good news: it means once you seal the house and remove the overwintering adults, the indoor problem is finished until the next fall arrival from outside.</p>
+          <Photo
+            id="house-fly"
+            alt="House fly seen close up from above, with dark stripes on its back, large reddish eyes and clear wings"
+            caption="An adult house fly, Musca domestica, seen close up from above. House flies breed in garbage and manure and are fixed with sanitation; cluster flies breed only outdoors, in earthworms, so sanitation does nothing for them."
+          />
 
           <h2>Why They Mass on Your Sunny South Wall in Fall</h2>
           <p>As the new adults face the end of the season, their instinct is to find a warm, protected place to overwinter as dormant adults &mdash; a behaviour biologists call overwintering aggregation, and it is the whole reason these flies are a household pest at all. In late August and September, as the first cool nights arrive, cluster flies orient toward <strong>heat</strong>. And nothing radiates heat like the south- and west-facing wall of a building catching the low autumn sun.</p>
+          <Photo
+            id="cluster-fly-sunlit-wall"
+            alt="Cluster fly seen from above on a pale, sunlit wall, casting a sharp shadow"
+            caption="A cluster fly (genus Pollenia) on a sunlit wall, where the observer saw a couple of other flies sunning themselves on a February day of 14 °C, or 57 °F (Warrensburg, Missouri). Cluster flies orient to heat, which is why they gather on the sunniest walls."
+          />
           <p>Stand on the sunny side of a farmhouse on a crisp, bright October afternoon and you can watch them: dozens of flies basking on the warm siding, then working their way into gaps around window frames, under fascia and soffits, through cracks in old clapboard, and into attic and wall voids to settle in for the winter. This is why the problem is so lopsided &mdash; the shaded north wall stays quiet while the sunny wall crawls. If your fly problem is concentrated at south- or west-facing windows, that is not a coincidence; it is telling you precisely which walls to prioritize when you seal. Cluster flies are not the only insect reading that wall as a winter hotel &mdash; if the basking crowd is red-and-black rather than grey and slow, you are looking at <Link href="/blog/how-to-get-rid-of-boxelder-bugs-canada">boxelder bugs doing the same thing on the same siding</Link>, and one sealing pass handles both.</p>
           <Photo
             id="boxelder-bug"
@@ -282,6 +292,11 @@ export default function ClusterFliesCanadaPage() {
           <h2>Why They Come Back to Life on Every Warm Winter Day</h2>
           <p>Here is the part that drives homeowners to despair: you vacuum up a windowsill full of flies in January, feel victorious, and two warm days later there are just as many. You have not failed &mdash; you are simply seeing the flaw in vacuuming as a strategy.</p>
           <p>The flies that entered in fall are hibernating <em>inside the structure</em>, dormant in the wall voids and attic. When a mild, sunny day &mdash; a February thaw, a bright March afternoon &mdash; warms those cavities, some of the flies rouse and become active. Groggy and drawn to light and heat, they move <em>inward</em>, toward the warm living space and its bright windows, which is where you find them. Each warm spell wakes a new batch while the rest sleep on. So the flies keep &ldquo;coming back&rdquo; all winter not because new ones are getting in, but because the ones already inside are waking in waves. This is exactly why trapping and vacuuming manage the problem but never end it &mdash; and why sealing, done at the right time, is the only thing that shrinks the reservoir.</p>
+          <Photo
+            id="cluster-fly-window-sill"
+            alt="Cluster fly standing on a window sill, side view: a dark grey, bristly body, large reddish-brown eyes and folded wings"
+            caption="A cluster fly (genus Pollenia) on a window sill in January, about 8 mm long by the observer's estimate (Moscow, Idaho). Flies that wake on a warm winter day head for light and warmth, which is why they turn up at the windows."
+          />
           <p>If some of the insects at the glass are not cluster flies, our photo guide to <Link href="/blog/bugs-in-house-in-winter">winter bugs in the house</Link> identifies the other common ones, with the clue that sets each apart.</p>
 
           <h2>Sealing and the Attic: the Only Strategy That Reduces Next Year</h2>
@@ -298,6 +313,11 @@ export default function ClusterFliesCanadaPage() {
           <RelatedLinks path="/blog/how-to-get-rid-of-cluster-flies-canada" />
           <h2>Window Traps: the Money Tool for Living-Space Flies</h2>
           <p>For the flies that make it into your rooms, the most practical tool exploits their one predictable behaviour: <strong>a waking cluster fly goes to the light.</strong> Put a catch device where the light is and you intercept them there.</p>
+          <Photo
+            id="cluster-fly-window-glass"
+            alt="Close-up of a cluster fly on window glass, seen from above: golden hairs on the thorax and rainbow-sheened wings"
+            caption="A cluster fly (genus Pollenia) on the outside of a window pane at an air temperature of 3 °C (Logy Bay, Newfoundland and Labrador). Waking cluster flies go to the light, which is why they end up on window glass."
+          />
           <p>The simplest version is a <strong>clear window fly trap</strong> &mdash; a transparent sticky film or strip you apply to the sunniest windowpane. The flies gather at that window as they rouse, land on the glass, and stick. Because the film is nearly invisible, it does the job without the eyesore of a hanging strip, and you peel it off and replace it when it fills. The refills are the recurring cost through the winter, which is exactly what you would expect from a symptom-management tool. If you would rather not see sticky film on the glass, a <strong>UV light-glue trap</strong> of the kind we cover in our <Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy indoor insect trap review</Link> works in a room where flies collect &mdash; it draws them to a UV light and a concealed glue card. Neither trap touches the flies sleeping in the voids, so think of them as living-space management that pairs with sealing, not a replacement for it.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="window fly trap clear sticky">Check window fly traps on Amazon.ca →</BuyLink>

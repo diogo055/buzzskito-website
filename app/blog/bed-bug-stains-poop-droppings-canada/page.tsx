@@ -19,7 +19,7 @@ import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'bed-bug-stains-poop-droppings-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 // The EVIDENCE half of the bed-bug cluster: "I found a mark — is this a bed bug?"
 // The five-sign inspection protocol (how to search a hotel room, used furniture,
 // a new apartment) stays on how-to-check-for-bed-bugs-canada. This page only does
@@ -400,7 +400,17 @@ export default function BedBugStainsCanadaPage() {
             caption="An adult bed bug, Cimex lectularius, seen from above beside a millimetre scale: oval, flat and about 5 mm long, the average for an adult. A live bug like this within a few centimetres of the staining is what turns strong evidence into certainty."
           />
           <p>On an absorbent surface &mdash; a cotton sheet, the fabric piping around a mattress, the gauze under a box spring, an upholstered headboard &mdash; the droplet spreads into the weave before it dries. That is why bed bug spots look <em>bled</em>: soft, feathered edges, exactly like touching the fabric with the tip of a felt marker. On a non-absorbent surface &mdash; a lacquered bed frame, a metal slat, painted baseboard trim, the plastic of an outlet cover &mdash; there is nowhere for the liquid to go, so it dries on top as a small, slightly raised, faintly glossy black speck. Run a fingernail across one and you can feel it. Same insect, same material, two completely different-looking marks, which is why a photo you found online may not match what is in front of you.</p>
+          <Photo
+            id="bed-bug-fecal-spots-bed-frame"
+            alt="Bed bug fecal spots on a wooden bed frame: clusters of small black dots along the edge of a slat and the board below it"
+            caption="Bed bug fecal spots: black stains on a wooden bed frame near where bed bugs hid, as photographed and described by the New York State IPM Program at Cornell University. Look for clusters of pen-tip black dots like these in frame joints and screw holes, not single dots on open fabric."
+          />
           <p>The colour is the giveaway and the reason the swab test works. The material is haem-derived, so when you rehydrate it, it releases the rusty reddish-brown that gives every bed bug guide its identical piece of advice: <strong>dab a damp white cloth or wet cotton swab on the edge of the mark.</strong> Bed bug faeces smear reddish-brown into white cotton. Cockroach frass, which is dry and solid, does not smear. Mould has texture and no discrete dots. Ink smears its own colour. Dried blood is redder and flakes off rather than bleeding out. Test the edge rather than the centre, so you keep an intact example if a professional needs to look at it later.</p>
+          <Photo
+            id="german-cockroach-frass-cabinet"
+            alt="Inside of a white kitchen cabinet with a ragged hole in the back wall and dark specks of cockroach droppings on the walls and shelf"
+            caption="Specks of cockroach droppings (frass) and dead cockroaches around a hole in the back wall of a kitchen cabinet; the photographer identified the roaches as German cockroaches. Cockroach droppings are dry, pepper-like specks found in kitchens and bathrooms, and they do not smear on a damp swab."
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">If the evidence checks out, this is the short list worth checking:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -420,11 +430,21 @@ export default function BedBugStainsCanadaPage() {
             <li><strong>The bed frame</strong>: joints, bolt holes, screw holes, the inside faces of slat rails, and the underside of any wooden ledge.</li>
             <li><strong>Outward from the bed</strong>, once the above is done: the baseboard directly behind the head of the bed, the seam where carpet meets wall, the underside of a bedside table, the seams and skirt of an upholstered chair within a few metres, and the edge of a wall outlet plate.</li>
           </ul>
+          <Photo
+            id="bed-bug-feces-bed-corner"
+            alt="Small black spots and smears where a pale particleboard panel meets a wooden rail at the corner of a bed"
+            caption="Bed bug fecal stains on a corner of a bed, in the photographer's description. Give corners and joints extra time with the flashlight, because bed bugs leave their droppings where they rest."
+          />
           <p>Sheet staining tends to come later than seam staining, because it requires a population large enough that bugs are resting on bedding rather than only in cracks. If your sheets are marked and the seams are not, look harder at the seams &mdash; it is far more likely you missed it than that the insects reversed their behaviour.</p>
 
           <h2>What the Pattern Tells You (and What It Cannot)</h2>
           <p>Two honest statements, in tension with each other. Staining is the best free diagnostic in this entire subject, and it will not tell you how many bugs you have.</p>
           <p>What it does tell you is <em>where</em> and roughly <em>how long</em>. Spotting confined to one corner of a mattress seam, with a clean box spring and a clean frame, is the pattern of something recent and localised &mdash; typically a single introduction that has not yet expanded. Spotting that appears on the box spring gauze, the back of the headboard, the frame joints, and the baseboard behind the bed describes a population that has outgrown its first harbourage and colonised the room. That distinction is genuinely useful, because it changes the scope of what has to be treated: the first case may be resolved around the bed, and the second is a whole-room job where a professional heat treatment is often the cheaper route once you count what a long DIY campaign actually costs in time, repeat purchases, and failed attempts.</p>
+          <Photo
+            id="bed-bug-fecal-stains-mattress"
+            alt="Edge of a mattress blackened with thick bed bug fecal stains, with white bed bug eggs scattered among them"
+            caption="A mattress from a large bed bug infestation: thick black fecal stains with white bed bug eggs among them, as described by the New York State IPM Program at Cornell University. Staining this heavy marks a long-running infestation, but no stain pattern can tell you how many bugs there are."
+          />
           <p>What no stain pattern gives you is a count, an age in weeks, or a prediction. Be sceptical of any source &mdash; or any quote &mdash; that converts a photograph of spotting into a number. If you want a real measurement rather than an estimate, that is exactly what interceptor traps under the bed legs provide, over the following fortnight, for a small amount of money.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="bed bug interceptor traps climbup">Check interceptor traps on Amazon.ca &rarr;</BuyLink>
@@ -438,7 +458,13 @@ export default function BedBugStainsCanadaPage() {
             caption="A bed bug nymph, Cimex lectularius, on fabric. Nymphs moult on the way to adulthood, so look in the same few centimetres for the empty, translucent shells they leave behind."
           />
           <p>To match a shell, an egg or a live bug against each life stage, <Link href="/blog/what-do-bed-bugs-look-like">what a bed bug looks like at each stage</Link> gives the size, shape and colour of the egg, every nymph stage and the adult before and after a meal.</p>
+          <Photo
+            id="bed-bugs-eggs-mattress-seam"
+            alt="Bed bugs and many small white eggs along a seam where dark fabric meets brown upholstery on a bed"
+            caption="Bed bugs and their white eggs along a seam of a bed, in the photographer's description. The eggs are about a millimetre long and glued into seam folds, so search the seams near any staining with a light held at a low, raking angle."
+          />
           <p>And one thing that is <em>not</em> evidence, no matter how convincing it feels: bites. Skin reactions to bed bug bites vary enormously between people, several other insects produce a similar-looking mark, and some people show no reaction at all &mdash; so a bite pattern can neither confirm nor rule out an infestation. Our guide to <Link href="/blog/bed-bug-bites">what bed bug bites look like</Link> covers why, and <Link href="/blog/tick-vs-bed-bug">tick vs bed bug</Link> handles the other insect that most often gets blamed. If you have bites and no physical evidence anywhere, the honest position is that you do not know yet &mdash; and interceptors, not a spray, are what resolve it. Our guide to <Link href="/blog/bed-bug-bites-but-no-bed-bugs">bites with no sign of bed bugs</Link> goes through what else bites at night, from fleas and chiggers to bird mites.</p>
+          <p>If you are not sure bed bugs made the marks at all, our <Link href="/tools/what-bug-is-this">pest identifier quiz</Link> asks five quick questions about where you found it, its size, how it moves, what it looks like and the signs around it, from dark spots on a mattress to pepper-like specks in a cupboard, then shows the most likely pest, how to confirm it and the guides to read next.</p>
 
           <RelatedLinks path="/blog/bed-bug-stains-poop-droppings-canada" />
           <h2>Do Not Clean It Yet</h2>

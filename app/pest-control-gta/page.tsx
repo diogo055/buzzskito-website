@@ -285,22 +285,24 @@ export default function PestControlGTAPage() {
           <h2 className="text-xl sm:text-2xl font-extrabold text-brand-900 mb-3">Best Mosquito Control Companies — by City</h2>
           <p className="text-gray-600 mb-5 text-sm">Honest 2026 comparisons of mosquito control providers in each GTA city. Pricing, reviews, contract terms.</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+            {/* The city comparisons were merged into each city's mosquito page in Aug 2026
+                (301s in next.config), so link the final pages directly. */}
             {[
-              ['GTA Master', 'gta'],
-              ['Mississauga', 'mississauga'],
-              ['Toronto', 'toronto'],
-              ['Brampton', 'brampton'],
-              ['Oakville', 'oakville'],
-              ['Vaughan', 'vaughan'],
-              ['Hamilton', 'hamilton'],
-              ['Burlington', 'burlington'],
-              ['Markham', 'markham'],
-              ['Richmond Hill', 'richmond-hill'],
-              ['North York', 'north-york'],
-              ['Etobicoke', 'etobicoke'],
-              ['Scarborough', 'scarborough'],
-            ].map(([name, slug]) => (
-              <Link key={slug} href={`/best-mosquito-control-companies-${slug}`} className="text-sm text-brand-700 hover:underline px-2 py-1">
+              ['GTA Master', '/best-mosquito-control-companies-gta'],
+              ['Mississauga', '/mississauga-mosquito-control'],
+              ['Toronto', '/toronto-mosquito-control'],
+              ['Brampton', '/brampton-mosquito-control'],
+              ['Oakville', '/oakville-mosquito-control'],
+              ['Vaughan', '/vaughan-mosquito-control'],
+              ['Hamilton', '/hamilton-mosquito-control'],
+              ['Burlington', '/burlington-mosquito-spray'],
+              ['Markham', '/markham-mosquito-control'],
+              ['Richmond Hill', '/richmond-hill-mosquito-control'],
+              ['North York', '/north-york-mosquito-control'],
+              ['Etobicoke', '/etobicoke-mosquito-control'],
+              ['Scarborough', '/scarborough-mosquito-control'],
+            ].map(([name, href]) => (
+              <Link key={href} href={href} className="text-sm text-brand-700 hover:underline px-2 py-1">
                 Best in {name} →
               </Link>
             ))}

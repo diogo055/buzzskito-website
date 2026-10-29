@@ -18,7 +18,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'what-kills-bed-bugs-instantly-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 // The SPEED axis, deliberately. Not a spray-efficacy page (that is
 // do-bed-bug-sprays-actually-work), not a product shelf (bed-bug-spray-canada),
 // not a protocol (how-to-get-rid-of-bed-bugs-canada). This page answers exactly
@@ -383,6 +383,11 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
             <li><strong>Move slowly.</strong> Roughly a few centimetres per second. Heat needs dwell time to move through fabric and reach an egg glued inside a seam. A quick pass warms the surface and leaves the target untouched, which is the single most common way this tool disappoints people.</li>
             <li><strong>Use low airflow, with a cloth over the tip.</strong> A high-pressure jet does not kill a bed bug &mdash; it launches it. You want hot vapour delivered gently onto the surface, not a blast that scatters bugs and eggs into the rest of the room.</li>
           </ul>
+          <Photo
+            id="bed-bugs-eggs-mattress-seam"
+            alt="Bed bugs of several sizes and their small white eggs packed along the seam of a bed"
+            caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). Eggs glued into a seam like this are why the steamer has to move slowly: heat needs dwell time to get through the fabric and reach them."
+          />
           <p>Where to steam, in order: mattress piping and seams around the entire perimeter; the box spring, including the frame and the gauze underneath; the headboard, especially the back face and any bracket; every joint, bolt hole and slat rail on the frame; then the carpet edge and baseboard along the wall behind the bed. Let everything dry properly afterwards &mdash; you are adding moisture to a bedroom, and a damp mattress has its own problems. Our <Link href="/blog/best-bed-bug-steamer-canada">Canadian bed bug steamer guide</Link> covers what separates a machine that does this well from one that merely gets hot, and <Link href="/blog/steamer-vs-heater-for-bed-bugs-canada">steamer vs heater</Link> explains when a chamber is the better buy.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="bed bug steamer dry vapour">Check dry-vapour steamers on Amazon.ca &rarr;</BuyLink>
@@ -392,11 +397,21 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
           <p>Steam is fast and blind. Heat applied to an enclosed volume is slower and total, and that difference is worth understanding because it is where certainty comes from.</p>
           <p>The cheapest version is already in your house. A dryer run on high heat kills bed bugs at every life stage on anything that goes in it, and you can skip the wash entirely if the items are clean &mdash; it is the sustained heat doing the work, not the water. The University of Kentucky&rsquo;s <a href="https://entomology.ca.uky.edu/ef636" className="text-emerald-700 underline">entomology fact sheet on bed bugs</a> puts the requirement at 10 to 20 minutes at medium-to-high heat; a full 30-minute cycle on high is the margin worth taking, because a packed drum heats unevenly. Clothing, bedding, curtains, soft toys, shoes that tolerate it, the fabric bag you are worried about. This is genuinely the best-value action in the entire subject, and it costs a load of laundry.</p>
           <p>For what will not fit or will not survive a tumble, a heated chamber does the same thing in an insulated box: hold the contents in the 120&ndash;130&deg;F (roughly 49&ndash;54&deg;C) band that the same fact sheet describes professional heat treatments using, and hold it there long enough for the <em>core</em> of the contents to get there &mdash; hours rather than minutes for anything packed, padded or bulky &mdash; so the heat soaks through folds, seams and stuffing until every egg inside is cooked. Suitcases, backpacks, books, small upholstered items, boxes of belongings. And at the top end, a professional whole-room heat treatment applies the same principle to an entire bedroom &mdash; which is why it clears in a day what a DIY campaign attempts over weeks, and why it is often the cheaper option once the infestation is beyond one bed. Our guides to <Link href="/blog/bed-bug-heater-canada">bed bug heaters</Link>, <Link href="/blog/best-bed-bug-heat-chamber-canada">heat chambers</Link> and <Link href="/blog/bed-bug-heat-treatment-diy-canada">DIY heat treatment</Link> go through the equipment; the temperature logic is identical at every scale. Why an egg is the hardest thing in the room to kill, and what that means for timing your second and third pass, belongs to <Link href="/blog/how-to-kill-bed-bug-eggs-canada">how to kill bed bug eggs</Link> &mdash; this page is only concerned with how fast each method gets there.</p>
+          <Photo
+            id="bed-bugs-eggs-under-bag-strap"
+            alt="Bed bugs and their eggs hidden along the seams under the shoulder straps of a backpack"
+            caption="Bed bugs and their eggs in a hidden spot under the straps of an unused bag (the photographer's description). A heated chamber treats a bag like this whole, straps, seams and folds included, instead of one surface at a time."
+          />
 
           <p>The mirror image of a chamber is a freezer, and it belongs here only so you know how slow it is. The EPA&rsquo;s guidance is to seal the item in a bag and leave it in a freezer set to 0&deg;F &mdash; about &minus;18&deg;C &mdash; for at least three days, and the item itself has to reach that temperature all the way through, so give anything bulky longer than the minimum. A standalone chest freezer holds that setting; a self-defrosting fridge-freezer cycles warmer and is not dependable. Cold is genuinely useful for heat-sensitive things you can spare for most of a week, and it is the wrong tool for anything urgent. Putting something outside on a cold Canadian night does not work &mdash; temperatures swing, and brief cold is not lethal.</p>
 
           <h2>Contact Sprays: Fast, Legal, and Narrower Than You Think</h2>
           <p>A PMRA-registered contact spray kills the bugs it thoroughly wets, usually in seconds to minutes. That is real and it is worth owning for exactly that purpose &mdash; the bug on the sheet at two in the morning, before it disappears into a seam you will never find.</p>
+          <Photo
+            id="bed-bug-hotel-bedding"
+            alt="A single bed bug crawling on white woven fabric"
+            caption="A bed bug on white woven fabric, photographed by the observer at a hotel in the Tacoma area of Washington. A bug out in the open like this is what a contact spray is for; the ones already in the seams are out of its reach."
+          />
           <p>Two limits keep it from being the answer to your question. The first is coverage, which we have already been through: exposed bugs are a small fraction of a population. The second is resistance. Insecticide resistance in bed bug populations is well documented &mdash; the University of Kentucky&rsquo;s <a href="https://entomology.ca.uky.edu/ef636" className="text-emerald-700 underline">bed bug fact sheet</a> describes bed bugs as increasingly resistant to pesticides, in the way some bacteria have become resistant to antibiotics &mdash; and in practice it means a bug can be sprayed thoroughly, survive, and continue about its business. That is a genuinely dispiriting experience if you were counting on the can, and it is the reason no serious protocol rests on a spray alone.</p>
           <p>On legality, Canadian and American advice split hard here, and it matters because the products American guides name most confidently are frequently not available to you. The rule is short: the Canadian label must carry a <strong>PCP registration number</strong>, must list bed bugs as a target pest, and must list the surface you intend to treat as a use site. A marketplace listing shipping a US-labelled professional product into Canada is an unregistered pesticide here rather than an upgrade.</p>
           <p>The registered domestic-class cans you can actually buy here are a short list &mdash; <strong>Doktor Doom Sleep Tight</strong> is the one most commonly stocked and one of the few labelled for direct application to a mattress and box spring, with <strong>Knock Down Bed Bug Killer</strong> and <strong>Konk</strong> as registered stock-out substitutes rather than upgrades. Read whichever label you end up with, because Canadian formulations get revised. Our <Link href="/blog/bed-bug-spray-canada">guide to bed bug sprays sold in Canada</Link> goes through the full shelf, and <Link href="/blog/do-bed-bug-sprays-actually-work">do bed bug sprays actually work</Link> is the fuller argument about what they can and cannot deliver.</p>
@@ -434,6 +449,11 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
             <li><strong>Hot dryer for everything washable</strong>, 30 minutes minimum on high.</li>
             <li><strong>Repeat on the schedule your monitors dictate</strong>, not on a hunch. Eggs hatching over the following weeks are the reason a single perfect treatment is not enough, and the interceptor catch is what tells you when you are done.</li>
           </ol>
+          <Photo
+            id="bed-bug-fecal-spots-bed-frame"
+            alt="Black bed bug fecal spots scattered along the edges of a wooden bed frame"
+            caption="Black bed bug fecal spots on a wooden bed frame near where bed bugs hid, photographed and described by the New York State IPM Program at Cornell University. Marks like these are part of confirming it properly before you treat."
+          />
           <p>The full version of that plan, with timings and the room-by-room order, is our <Link href="/blog/how-to-get-rid-of-bed-bugs-canada">complete Canadian bed bug protocol</Link>, and the tool-by-tool breakdown lives in the <Link href="/blog/bed-bug-control-canada-hub">bed bug control hub</Link>.</p>
 
           <h2>When Paying Someone Is Genuinely the Fast Option</h2>
@@ -538,6 +558,7 @@ export default function WhatKillsBedBugsInstantlyCanadaPage() {
             alt="Bed bug nymph on white fabric: a small, amber-colored oval insect with six legs"
             caption="A bed bug nymph, Cimex lectularius, on fabric. Age and feeding change a bed bug’s color, so compare what you killed against every life stage, not only the adult."
           />
+          <p>If what you found still matches none of these, our <Link href="/tools/what-bug-is-this">pest identifier quiz</Link> asks five quick questions about where you found it, its size, how it moves, what it looks like and the signs around it, then shows the most likely pest, how to confirm it and the guides to read next.</p>
           <p>Because every instant method is blind, the next job is finding what it missed. <Link href="/blog/where-do-bed-bugs-hide">Where bed bugs hide in a bedroom</Link> ranks the hiding places by distance from the sleeper and walks through an inspection, and <Link href="/blog/bed-bugs-on-mattress">what bed bug signs on a mattress look like</Link> covers the seams, the spots and what to do with a mattress that has them.</p>
           <p>Two household shortcuts have their own pages because they are the ones people reach for when a product is not at hand: <Link href="/blog/does-alcohol-kill-bed-bugs">does rubbing alcohol kill bed bugs</Link> goes through the contact-kill evidence and the fire risk, and <Link href="/blog/does-lysol-kill-bed-bugs">whether Lysol kills bed bugs</Link> explains why a disinfectant is not an insecticide. When you are ready for the whole sequence, <Link href="/blog/how-to-get-rid-of-bed-bugs">how to get rid of bed bugs step by step</Link> lays out the integrated plan the EPA describes, written for US readers, from confirming the problem to the last follow-up check.</p>
 

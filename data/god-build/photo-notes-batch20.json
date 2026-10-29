@@ -1,0 +1,48 @@
+{
+ "_readme": "Scout notes for the twentieth photo batch (Oct 29, 2026): the frozen-page upgrades, pages 11-20 of Appendix C of data/god-build/gsc-review-2026-10-18.md. Same format as batches 7 to 19: what each photo's source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence in the identification, whether it can lead a page (leadEligible: public domain or CC0 AND a confident identification of the page's main subject), and caveats. Licence, credit and size of record are in photos.json and repeated in note. 3 photos were added, all iNaturalist, all genus Pollenia (cluster flies), for how-to-get-rid-of-cluster-flies-canada, whose only cluster fly photo showed one on a flower: 2 CC0 and 1 CC BY. Every image was opened before choosing; one had a camera date stamp in the bottom-right corner, removed with the script's cropBottom (bottom 12%; checked: no digits left, the fly untouched). Searches, refusals and what is still missing are in gaps.",
+ "candidates": [
+  {
+   "id": "cluster-fly-sunlit-wall",
+   "forPages": [
+    "how-to-get-rid-of-cluster-flies-canada"
+   ],
+   "confidence": "high at genus (research grade: Pollenia by the observer and by stephenluk and edanko, the second a Pollenia specialist who notes the photos do not allow a species; annotated adult, alive)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 198733950 by florawhite, Warrensburg, Missouri, February 8, 2024, CC BY: 'A couple different flies were sunning themselves near this one on the sunlit walls. 57F'. Five photos of the same fly on a pale, textured exterior wall; photo 350335422 used.",
+   "caveats": "A whole cluster fly from above on a sunlit wall, casting a sharp shadow: the basking the page describes on warm south walls. The source says February, a mild day, not fall: do not caption it as fall arrival; say it was sunning itself on a sunlit wall. Genus only, no species. CC BY, so never the lead or share image.",
+   "note": "Credit: (c) florawhite, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "cluster-fly-window-sill",
+   "forPages": [
+    "how-to-get-rid-of-cluster-flies-canada"
+   ],
+   "confidence": "high at genus (research grade: Pollenia by the observer swells, by dannymarshall and by edanko)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 104877491 by swells (Steve Wells), Moscow, Idaho, January 13, 2022, CC0: 'On window sill. ~ 8 mm'. Three photos of the same live fly on a pale painted sill; photo 175833757 used (side view).",
+   "caveats": "A sharp side view of a cluster fly standing on a window sill: the dark grey, bristly body, folded wings and long dark legs. The camera printed the date (2022/01/13) in the bottom-right corner; cropBottom 0.12 removed it. The source does not say whether the sill was inside or outside: do not say indoors. Size (about 8 mm) is the observer's estimate. Genus only. CC0 and confidently identified, so it could lead a cluster fly page.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x867 after the crop."
+  },
+  {
+   "id": "cluster-fly-window-glass",
+   "forPages": [
+    "how-to-get-rid-of-cluster-flies-canada"
+   ],
+   "confidence": "medium-high at genus (Pollenia by the observer, who has few identifications, and by carnifex, a frequent identifier of calyptrate flies; a species identification, P. pediculata, was withdrawn; needs ID, not research grade)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 342257126 by logybayer (Mardon Erbland), Logy Bay-Middle Cove-Outer Cove, Newfoundland and Labrador, March 9, 2026, CC0: '7 mm nose to wingtips. Found on the outside of a glass window. Air temperature 3°C.' Annotated adult, male, alive. Four photos; photo 623228711 used.",
+   "caveats": "A close top view of a cluster fly on window glass, the dark background showing through the pane: the golden, crinkly hairs on the thorax and the iridescent wings are clear. On the outside of the window, per the source: do not caption it as indoors. Genus only; leave the sex out. Not research grade, so it should not lead a page even though it is CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1016."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "how-to-get-rid-of-cluster-flies-canada",
+   "why": "Found: cluster flies on a sunlit wall, a window sill and window glass (above). NOT FOUND under an allowed licence: a mass of cluster flies on siding, a windowsill or in an attic, the scene the page describes. iNaturalist Pollenia (taxon 133825), photo licences CC0, CC BY and CC BY-SA, descriptions searched for window, windows, house, attic, indoors, inside, wall, siding, sill, hundreds, cluster, swarm, garage, dead, sunroom, porch, aggregation, overwinter, hibernat, many, dozens, infest, glass, pane, curtain, ceiling and light. Refused: 318011997 (CC0, research grade, Fergus County, Montana, 'thousands clustering in my garage', but all eight photos are close-ups of one fly on white paper, one blurred beside a ruler of unknown units), 197985945 (CC0, 'on side of house', but the photos are specimen shots on white), 196129682 (CC BY, 'indoors in some number, dead and alive', but the photos are macro shots of one dead fly), 249568852 (CC BY, Quebec City, 'dead on windowsill', a pinned specimen), 146848851 (CC BY, Prince Edward Island, 'indoors', photographed on a metallic mesh), 193549686 (CC BY, 'found on a window in a home', photographed on white), 33973584 (CC BY, Berlin, Vermont, 'on interior window sill', usable but dim and close to cluster-fly-window-sill, kept as the fallback for an indoor sill). Seen in results, not opened: 253665512 (CC BY, Swanzey, New Hampshire, found clustered with several other flies inside frozen wood) and 207391679 (CC BY, Levis, Quebec, many flies waking in early spring on rhododendron leaves, needs ID)."
+  },
+  {
+   "slug": "bed-bug-stains-poop-droppings-canada",
+   "why": "PD/CC0 lead still needed: bed bug fecal spots (the gap recorded in batch 7 stands). The page now carries the three fecal-stain photos already on record (all CC BY or CC BY-SA), so its first photo and share image stay bed-bug-adult-ruler (public domain). Searched again: iNaturalist Cimex lectularius (taxon 69658), CC0, CC BY and CC BY-SA photos, descriptions for feces, fecal, faecal, poop, droppings, stain, stains, spots, excrement, frass, mattress, seam, box spring, frame, bed, infestation, sign, signs, evidence, dots and black (nothing with stains; the 'bed' hits are bugs on bedding or skin); Wikimedia Commons for bed bug feces, bedbug excrement, bed bug fecal, bed bug stains, Cimex lectularius feces, Bettwanzen Kot, bed bug mattress, punaise de lit, bed bug evidence and bed bug infestation: every stain photo is CC BY 2.0 (NY State IPM Program at Cornell University: 'Bed Bug Evidence', 'Infested Mattress', 'Bed Bug Evidence (11555820626)', 'Bed Bug Evidence (11555819853)', 'Bed Bug Evidence on Headboard (11555720024)') or CC BY-SA 3.0 ('BedBugFeces.jpg'). The NY State IPM headboard photo was not added (CC BY, so it could not lead either)."
+  }
+ ]
+}

@@ -2776,6 +2776,49 @@
    "sha256Original": "b0c452864502824b5073e2b8235cc86f2fd3544fcb6db8aff8d0638396a8d1a6"
   },
   {
+   "file": "/guides/photos/cluster-fly-sunlit-wall.webp",
+   "subject": "Cluster fly, genus Pollenia, adult, on a sunlit wall where the observer saw a couple of other flies sunning themselves on a 57 °F February day (Warrensburg, Missouri; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/198733950",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/350335422/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) florawhite, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 73904,
+   "sourceDescription": "Pollenia",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "7b2916f5c6e464bed0a9d02284decd03bcd65dba864cd8197c48b83f081a5b19"
+  },
+  {
+   "file": "/guides/photos/cluster-fly-window-glass.webp",
+   "subject": "Cluster fly, genus Pollenia, adult, on the outside of a glass window at an air temperature of 3 °C, about 7 mm from head to wingtips by the observer’s measure (Logy Bay, Newfoundland and Labrador; genus agreed by two identifiers on iNaturalist, not research grade)",
+   "sourceUrl": "https://www.inaturalist.org/observations/342257126",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/623228711/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1016,
+   "bytes": 56278,
+   "sourceDescription": "Pollenia",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "491bc7ca5027e9fe500e535f6a32c74eeefcd20bb840c34362e47acf0f133d33"
+  },
+  {
+   "file": "/guides/photos/cluster-fly-window-sill.webp",
+   "subject": "Cluster fly, genus Pollenia, on a window sill in January, about 8 mm long by the observer’s estimate (Moscow, Idaho; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/104877491",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/175833757/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "edited": "bottom 12% cropped (caption strip)",
+   "width": 1200,
+   "height": 867,
+   "bytes": 43800,
+   "sourceDescription": "Pollenia",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "a6e510f6518d8939efc04a560627a2ae13b0313e3dabbad40817560d703a6e30"
+  },
+  {
    "file": "/guides/photos/cluster-fly.webp",
    "subject": "Cluster fly, Pollenia sp. (Vermont)",
    "sourceUrl": "https://www.inaturalist.org/observations/160151367",
@@ -6476,6 +6519,20 @@
    "sha256Original": "338a9b3b283fb069e9326230db2a7ee020562dfd1e69cea037af5d73543c5b68"
   },
   {
+   "file": "/guides/photos/mouse-nest-under-car-hood.webp",
+   "subject": "Nest of fibrous material packed in beside the engine under the hood of a car that had not been driven for a few weeks (the observer’s description); identified on iNaturalist as deer mice, genus Peromyscus, by two identifiers, not research grade (San Diego, California)",
+   "sourceUrl": "https://www.inaturalist.org/observations/24446964",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/37801160/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Millie Basden, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 713,
+   "bytes": 70026,
+   "sourceDescription": "Peromyscus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "5bf30cab2343a1fedfc2ea16a90a46743e02a6c306463084588fb2fe810cf6fd"
+  },
+  {
    "file": "/guides/photos/mouse-snap-trap-wooden.webp",
    "subject": "Wooden mouse snap trap (Victor brand) with a large cheese-shaped plastic trigger, unset, its trap bar still stapled down as sold (product photo on a white background)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victor-Mousetrap.jpg",
@@ -6488,6 +6545,20 @@
    "sourceDescription": "A Victor brand mousetrap. This is unset and still has its trap bar stapled down. Though the cheese-shaped trap lever is slightly different, it remains relatively unchanged from mouse traps decades ago.",
    "downloadedOn": "2026-10-28",
    "sha256Original": "0610fe8bf222cb1b091ae1931fec66c03b7fbd3ccff8c9a0ab20fea2fa9d5968"
+  },
+  {
+   "file": "/guides/photos/mouse-tracks-car-engine-cover.webp",
+   "subject": "Rodent footprints in the dust on a plastic cover in the engine bay, with nest material in front of them, under the hood of a car that had not been driven for a few weeks (the observer’s description); identified on iNaturalist as deer mice, genus Peromyscus, by two identifiers, not research grade (San Diego, California; same observation as mouse-nest-under-car-hood)",
+   "sourceUrl": "https://www.inaturalist.org/observations/24446964",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/37801102/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Millie Basden, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 738,
+   "bytes": 39232,
+   "sourceDescription": "Peromyscus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "8a4bc377650cb341e9a4cadd5eff703d5ac46a5c3c514cb338b68dd2ed854e3d"
   },
   {
    "file": "/guides/photos/mouse-urine-uv-light.webp",

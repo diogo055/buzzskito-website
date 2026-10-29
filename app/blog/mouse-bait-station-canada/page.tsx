@@ -19,7 +19,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-bait-station-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 const TITLE = 'Mouse Bait Stations Canada 2026 — What\'s Actually Legal (PMRA Guide)'
 
 const FAQS = [
@@ -81,7 +81,8 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
-  image: shareImage('house-mouse'),
+  modifiedTime: UPDATED,
+  image: shareImage('rodent-bait-station-wall'),
 })
 
 const AMZ_TAG = tagForSlug('mouse-bait-station-canada')
@@ -89,7 +90,7 @@ const AMZ_TAG = tagForSlug('mouse-bait-station-canada')
 export default function MouseBaitStationCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to consumer-legal mouse bait stations under PMRA rules — what you can buy, what you can\'t, and when traps are the better tool.', slug: SLUG, datePublished: DATE, image: shareImage('house-mouse') })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to consumer-legal mouse bait stations under PMRA rules — what you can buy, what you can\'t, and when traps are the better tool.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('rodent-bait-station-wall') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Mouse Bait Stations Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -150,6 +151,11 @@ export default function MouseBaitStationCanadaPage() {
 
           <h2>What Is a Mouse Bait Station, and How Does It Work?</h2>
           <p>A mouse bait station is a sealed, tamper-resistant plastic housing with a poisoned bait block locked inside — a mouse can enter through a small opening and feed, but a child&rsquo;s fingers or a dog&rsquo;s jaws cannot reach the bait. In Canada, the station is not an optional accessory: since 2013, it is the only legal way a consumer rodenticide can be sold.</p>
+          <Photo
+            id="rodent-bait-station-wall"
+            alt="Long, lidded plastic rodent bait station set on paving stones flush against the wall of a building, with a red warning label"
+            caption="A rodent bait station, a lidded plastic box for poisoned bait, set on paving stones against the wall of a building; its red label, in Polish, reads deratization station, do not touch. A station is built so a mouse can enter through a small opening and feed while a child's fingers or a dog's jaws cannot reach the bait."
+          />
           <p>The mouse enters, feeds on the block, leaves, and dies later — usually back near the nest. That last detail matters more than most marketing admits. Unlike a trap, a bait station gives you no confirmed kill and no carcass recovery. What it gives you instead is continuous, unattended control in places you cannot or will not check daily. Understanding that trade-off is the entire decision.</p>
 
           <NextUp path="/blog/mouse-bait-station-canada" />
@@ -161,6 +167,11 @@ export default function MouseBaitStationCanadaPage() {
             <li><strong>Consumer actives are limited</strong> to first-generation anticoagulants (warfarin, chlorophacinone, diphacinone) and the acute neurotoxin bromethalin.</li>
             <li><strong>Every legal product carries a PMRA registration number</strong> on the label under the Pest Control Products Act. No registration number means the product cannot legally be sold or used in Canada, full stop.</li>
           </ul>
+          <Photo
+            id="bait-station-block-bait-loading"
+            alt="Gloved hand placing pink blocks of rodent bait onto metal rods inside an opened bait box beside a brick wall"
+            caption="A gloved hand placing blocks of rodent bait on the rods inside an opened bait box set against a brick wall (the photographer's description). Loose blocks loaded into a refillable station like this are commercial-class only in Canada; consumer bait comes pre-loaded inside a tamper-resistant station."
+          />
           <p>The reasoning was straightforward: second-generation anticoagulants kill in a single feeding but persist in the rodent&rsquo;s body for weeks, so every poisoned mouse becomes a toxic meal for owls, hawks, foxes, and outdoor cats. Canadian wildlife studies kept finding these compounds in dead raptors. The 2013 rules pushed the highest-risk chemistry back behind a professional licence.</p>
 
           <h2>Which Mouse Bait Station Should Canadians Buy?</h2>
@@ -212,10 +223,20 @@ export default function MouseBaitStationCanadaPage() {
             <li><strong>Heavy infestations, alongside trapping.</strong> When you are catching multiple mice per night, stations add a second layer of continuous control while traps handle the confirmed kills in living areas.</li>
           </ul>
           <p>In every other case — the two mice in the kitchen, the scratching under the sink — start with our <Link href="/blog/best-mouse-trap-canada">best mouse trap picks for Canada</Link> instead. And if it turns out you are dealing with something larger than a mouse, the equation changes again: see our <Link href="/blog/best-rat-trap-canada">rat trap guide</Link>, because rats are warier of both new stations and new traps.</p>
+          <Photo
+            id="snap-trap-by-mouse-hole"
+            alt="Wooden snap trap holding the mouse it caught, set at a mouse hole at the foot of a red-painted wall"
+            caption="A snap trap set at a mouse hole at the foot of a wall in an old house in Norway, holding the mouse it caught. A trap gives you the confirmed, recoverable kill that a bait station cannot, which is why it is the first tool for the two mice in the kitchen."
+          />
 
           <h2>What About Secondary Poisoning? (The Honest Part)</h2>
           <p>Bromethalin carries a lower secondary-poisoning risk than second-generation anticoagulants — it does not bioaccumulate in the liver the way brodifacoum does, and the mouse eats a small absolute dose. Lower is not zero. A dog or cat that eats a bromethalin-poisoned mouse can still be harmed, symptoms can lag by hours to days, and — worth repeating — there is no antidote to reach for at the emergency vet.</p>
           <p>This is the core reason our guides recommend traps as the default tool inside Canadian homes. A snap trap&rsquo;s worst-case scenario is a snapped finger; a poison&rsquo;s worst-case scenario involves your pet, a neighbour&rsquo;s cat, or the owl that hunts your backyard. We recommend the Tomcat disposable station without hesitation for the garage, the shed, the crawl space, and the cottage closing — and we recommend you think twice before deploying any poison in a home with animals that hunt or scavenge.</p>
+          <Photo
+            id="spotted-owl-with-mouse"
+            alt="Spotted owl perched on a branch with a mouse held in her beak"
+            caption="A female spotted owl carrying a mouse in her beak, most likely to take it to her young (National Park Service photo, Mount Rainier National Park). A poisoned mouse becomes a meal for an owl, hawk, fox or outdoor cat, which is how secondary poisoning happens."
+          />
           <p>There is also a practical honesty point: poisoned mice die where they choose, and they often choose the wall void. One to three weeks of dead-mouse odour in a finished living space is a real cost that no product label mentions.</p>
 
           <h2>How Do You Place Bait Stations for Best Results?</h2>

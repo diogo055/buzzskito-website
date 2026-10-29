@@ -201,6 +201,12 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/raccoon-and-skunk-proofing-under-a-deck-canada': '2026-10-28T12:00:00.000Z',
   '/blog/best-large-capacity-dehumidifier-canada': '2026-10-28T12:00:00.000Z',
   '/blog/best-live-animal-trap-canada': '2026-10-28T12:00:00.000Z',
+  '/blog/how-to-keep-mice-out-of-your-car': '2026-10-29T12:00:00.000Z',
+  '/blog/mouse-bait-station-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/mouse-repellent-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/what-kills-bed-bugs-instantly-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-cluster-flies-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/bed-bug-stains-poop-droppings-canada': '2026-10-29T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

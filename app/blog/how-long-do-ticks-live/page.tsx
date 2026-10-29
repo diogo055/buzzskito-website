@@ -238,6 +238,7 @@ export default function HowLongDoTicksLivePage() {
             alt="Adult male brown dog tick seen from above beside a 1 mm scale bar"
             caption="An adult male brown dog tick, Rhipicephalus sanguineus, collected from a dog at a veterinary clinic in Flagstaff, Arizona; the scale bar marks 1 mm. A repeat tick problem tied to a dog is the sign to raise this species with a veterinarian or licensed pest professional."
           />
+          <p>If you found a tick indoors and cannot tell whether it is a brown dog tick or one of the outdoor species, our <Link href="/tools/tick-identifier">tick identifier</Link> asks six quick questions, including where you found it, and shows the most likely ticks with a real photo of each.</p>
 
           <AffiliateDisclosure />
           <div className="not-prose my-6 rounded-xl border border-amber-200 bg-amber-50/60 p-5">

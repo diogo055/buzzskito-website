@@ -1,0 +1,33 @@
+{
+ "_readme": "Scout notes for the nineteenth photo batch (Oct 29, 2026): the frozen-page upgrades the owner asked for on Oct 29, pages 21-29 of Appendix C in data/god-build/gsc-review-2026-10-18.md. Same format as batches 7 to 18: what each photo's source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence in the identification, whether it can lead a page (leadEligible: public domain or CC0 AND a confident identification of the page's main subject), and caveats. Licence, credit and size of record are in photos.json and repeated in note. 2 photos were added, both CC BY iNaturalist photos from one observation, for /blog/how-to-keep-mice-out-of-your-car, which had no photo of a car at all. Every other photo used on pages 21-29 was already on record. Both images were opened before choosing and both WebP conversions were checked. Searches, refusals and what is still missing are in gaps.",
+ "candidates": [
+  {
+   "id": "mouse-nest-under-car-hood",
+   "forPages": [
+    "how-to-keep-mice-out-of-your-car"
+   ],
+   "confidence": "medium (the observation is at genus level and not research grade: the observer put Rodentia, beartracker and jim_carretta both put Peromyscus. The nest and the footprints are plainly a small rodent's; which mouse is not settled)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 24446964 by milliebasden (Millie Basden), Tierrasanta, San Diego, California, May 2, 2019; photo 37801160 is CC BY. Description: 'nest and tracks found under hood of car that wasn't driven for a few weeks'. Identified Rodentia by the observer, Peromyscus by beartracker and jim_carretta. Needs ID.",
+   "caveats": "A ball of fibrous nest material packed in beside the engine, against a black plastic housing, with the car's hood open: the nest where the reader of the car page will actually find one. The source does not say what the fibre is or which part of the engine bay this is: do not call it an air filter, insulation or any named part. CC BY, so never a lead or share image (the page's public-domain lead, deer-mouse-nest, stays first). Say deer mice only as the identification on iNaturalist, not as fact, and keep the observer's 'not driven for a few weeks' as the observer's.",
+   "note": "Credit: (c) Millie Basden, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x713."
+  },
+  {
+   "id": "mouse-tracks-car-engine-cover",
+   "forPages": [
+    "how-to-keep-mice-out-of-your-car"
+   ],
+   "confidence": "medium (same observation and the same identifications as mouse-nest-under-car-hood: two identifiers put Peromyscus, the observer Rodentia; not research grade)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 24446964 by milliebasden (Millie Basden), Tierrasanta, San Diego, California, May 2, 2019; photo 37801102 is CC BY. Same description and identifications as mouse-nest-under-car-hood.",
+   "caveats": "Four clear small-rodent footprints in the dust on a dark plastic cover in the engine bay (a sticker on it reads timing belt replacement), with a tuft of the nest material in the foreground: the page's 'paw prints in dust' sign as an owner sees it. Call it a plastic cover in the engine bay, not the air-filter box. CC BY, never a lead.",
+   "note": "Credit: (c) Millie Basden, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x738."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "how-to-keep-mice-out-of-your-car",
+   "why": "Searched Wikimedia Commons (mouse nest engine, mouse nest car, rodent damage wiring car, chewed wires, mouse air filter, Marderschaden; bitmap files only) and iNaturalist observation descriptions under Rodentia with an allowed photo licence (engine, under the hood, engine bay, air filter, in my car, truck). Commons had nothing usable. iNaturalist had the observation used above plus: 172959482 (engine wires chewed twice in four days, Bengaluru, Rodentia only: the chewed spot is not clear in the photo and the droppings photo does not look like a mouse's), 326108281 (a mouse nest in an air filter cover on Prince Edward Island, on an unidentified machine, not clearly a car), 98032698 (footprints on a Chevy Volt engine cover, Myomorpha by the observer only), and several woodrat (Neotoma) nests and a dead woodrat in engine bays, which are not mice. NOT FOUND under an allowed licence: a clear close-up of mouse-chewed car wiring with a mouse identification, and a nest inside a cabin-air filter. A public-domain or CC0 engine-bay photo would make a better lead than deer-mouse-nest."
+  }
+ ]
+}

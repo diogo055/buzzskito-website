@@ -19,7 +19,7 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-repellent-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 // The "does a repellent work" DECISION page — the missing destination for the
 // repellent-shaped queries currently dead-ending on
 // /blog/ultrasonic-pest-repellers-do-they-work. Deliberately NOT a second
@@ -376,6 +376,11 @@ export default function MouseRepellentCanadaPage() {
             alt="House mouse seen from the side, with a plain brown coat and a long, almost hairless tail"
             caption="A house mouse, Mus musculus, seen from the side (Marfa, Texas). Look at the head: the skull is the only rigid part of a mouse, which is why a gap of about 6 mm, the width of a pencil, is enough to let one in."
           />
+          <Photo
+            id="copper-wool-wire-gaps"
+            alt="Copper wool packed into the gaps around cables where they pass through a masonry wall"
+            caption="Copper wool packed into the gaps around wires where they pass through a wall, as a temporary rodent block (New York State IPM Program at Cornell University). Pack metal fibre tight into gaps like these and cap it with sealant: mice chew through foam, but not through packed metal fibre."
+          />
           <p><strong>2. Set a real trap line, all at once.</strong> House mice are inquisitive rather than trap-shy, which is why the first night is normally the biggest catch of the whole job and why setting two traps and waiting is the classic failure. Buy far more than feels reasonable and place them at close intervals along walls, trigger end against the baseboard, in the runways that droppings and grease marks reveal. Bait sparingly with something sticky rather than piling it on. Models, triggers and the electronic-versus-snap question are compared in <Link href="/blog/best-mouse-trap-canada">the best mouse trap guide</Link>, and if you would rather use enclosed bait, read the <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> first &mdash; a poisoned mouse dying inside a wall is a genuinely bad outcome.</p>
           <Photo
             id="house-mouse-live-trap"
@@ -383,10 +388,20 @@ export default function MouseRepellentCanadaPage() {
             caption="A mouse its photographer identified as a house mouse, Mus musculus, in the live-catch trap that caught it in Ottawa, Ontario. House mice are inquisitive rather than trap-shy, which is why a trap line usually takes its biggest catch on the first night."
           />
           <p><strong>3. Remove the reason to stay.</strong> Decant pantry staples, pet food and birdseed into hard containers, deal with the bird feeder if it is next to the house, and cut the clutter that provides nesting cover in a garage or basement. This is the slowest lever and the one that decides whether next autumn is a repeat.</p>
+          <Photo
+            id="white-footed-mouse-bird-seed-basement"
+            alt="White-footed mouse with large dark eyes sitting in a container of sunflower bird seed"
+            caption="A white-footed mouse, Peromyscus leucopus, in a container of bird seed in a house basement in October (West Haven, Connecticut). Decanting birdseed, pet food and pantry staples into hard containers takes away a reason to stay."
+          />
 
           <h2>The Timing Nobody Uses</h2>
           <p>Interest in mouse products climbs steeply through the autumn and peaks well after the useful window has closed. The animals that establish inside a house do so as night temperatures drop &mdash; through September and October in southern Ontario &mdash; and the population you are fighting in January is descended from that move.</p>
           <p>That makes late August and September the highest-value weeks of the year for this work, and it is the single scheduling change that separates a household that fights mice every winter from one that does not. Seal before the push, not after it. If you are reading this in November with droppings already under the sink, the order changes: trap first so you are not sealing animals inside, then close the openings once the catch rate falls to zero, and keep sentinel traps down for a week of quiet before you call it finished. Our <Link href="/blog/how-to-keep-mice-out-of-your-house-winter">winter mouse-proofing guide</Link> covers that reversed sequence.</p>
+          <Photo
+            id="snap-traps-set-against-wall"
+            alt="Two snap traps with yellow plastic triggers set side by side on a ledge, trigger ends toward the wall"
+            caption="Two snap traps with yellow plastic triggers set side by side on a ledge, their baited trigger ends toward the wall (New York State IPM Program at Cornell University). With droppings already under the sink, trap first so you are not sealing mice inside, then close the openings once the catch rate falls to zero."
+          />
 
           <h2>When a Professional Is the Cheaper Option</h2>
           <p>DIY exclusion and trapping handle the great majority of Canadian house-mouse problems for the price of a hardware run. Four situations genuinely justify paying someone, and in three of them the DIY route ends up more expensive:</p>
