@@ -18,7 +18,9 @@ const SLUG = 'do-fire-pits-repel-mosquitoes-canada'
 const DATE = '2026-08-22'
 const UPDATED = '2026-08-22'
 const TITLE = 'Do Fire Pits Keep Mosquitoes Away? The Honest Canadian Answer'
-const META_TITLE = 'Do Fire Pits Keep Mosquitoes Away in Canada?'
+// GEO TITLE TEST (Oct 29 2026, data/god-build/geo-title-test-2026-10-29.md): back to the
+// pre-Sep-17 title without the place word. Do not change it before the Nov 20 read.
+const META_TITLE = 'Do Fire Pits Keep Mosquitoes Away?'
 
 const FAQS = [
   {

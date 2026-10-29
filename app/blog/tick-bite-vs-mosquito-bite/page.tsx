@@ -29,7 +29,9 @@ export const metadata: Metadata = buildMetadata({
   // monitoring by Toronto Public Health and Peel, and a full GTA tick-habitat
   // section), and 'Lyme' is the fear the searcher actually arrives with. 46 chars;
   // renders at 58 with the '%s | BuzzSkito' template in app/layout.tsx.
-  title: 'Tick Bite vs Mosquito Bite: Ontario Lyme Signs',
+  // GEO TITLE TEST (Oct 29 2026, data/god-build/geo-title-test-2026-10-29.md): back to the
+  // pre-Sep-17 title without the place word. Do not change it before the Nov 20 read.
+  title: 'Tick Bite vs Mosquito Bite: Ticks Stay Attached',
   description:
     'Mosquitoes bite and fly off; a tick stays attached and painless. How to tell which bite you have, remove a tick safely, and spot the Lyme bull’s-eye rash.',
   canonical: `/blog/${SLUG}`,

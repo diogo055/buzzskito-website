@@ -26,7 +26,9 @@ const UPDATED = '2026-10-20'
 // The Canada token is honest here rather than welded on: tell 4 IS the Canadian
 // calendar — fresh welts in a Toronto January are not mosquito bites.
 const TITLE = 'Bed Bug Bites vs Mosquito Bites — Five Tells That Separate Them, and What to Do About Each'
-const META_TITLE = 'Bed Bug Bites vs Mosquito Bites in Canada'
+// GEO TITLE TEST (Oct 29 2026, data/god-build/geo-title-test-2026-10-29.md): back to the
+// pre-Sep-17 title without the place word. Do not change it before the Nov 20 read.
+const META_TITLE = 'Bed Bug Bites vs Mosquito Bites: 5 Tells'
 
 const FAQS = [
   {

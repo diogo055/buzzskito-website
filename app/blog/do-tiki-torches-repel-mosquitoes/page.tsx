@@ -19,7 +19,9 @@ const SLUG = 'do-tiki-torches-repel-mosquitoes'
 const DATE = '2026-07-16'
 const UPDATED = '2026-07-16'
 const TITLE = 'Do Tiki Torches Repel Mosquitoes? The Honest 2026 Answer'
-const META_TITLE = 'Do Tiki Torches Repel Mosquitoes? Canada 2026'
+// GEO TITLE TEST (Oct 29 2026, data/god-build/geo-title-test-2026-10-29.md): back to the
+// pre-Sep-17 title without the place word. Do not change it before the Nov 20 read.
+const META_TITLE = 'Do Tiki Torches Repel Mosquitoes? 2026 Verdict'
 
 const FAQS = [
   {

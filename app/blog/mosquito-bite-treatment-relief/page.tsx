@@ -19,7 +19,9 @@ const SLUG = 'mosquito-bite-treatment-relief'
 const DATE = '2026-07-13'
 const UPDATED = '2026-07-13'
 const TITLE = 'Mosquito Bite Treatment: How to Stop the Itch Fast'
-const META_TITLE = 'Mosquito Bite Treatment Canada: Stop Itch Fast'
+// GEO TITLE TEST (Oct 29 2026, data/god-build/geo-title-test-2026-10-29.md): back to the
+// pre-Sep-17 title without the place word. Do not change it before the Nov 20 read.
+const META_TITLE = 'Mosquito Bite Treatment: Stop the Itch Fast'
 
 const FAQS = [
   {

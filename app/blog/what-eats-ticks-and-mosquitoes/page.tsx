@@ -17,7 +17,9 @@ const SLUG = 'what-eats-ticks-and-mosquitoes'
 const DATE = '2026-07-12'
 const UPDATED = '2026-07-12'
 const TITLE = 'What Eats Ticks and Mosquitoes? Predators Ranked (Ontario)'
-const META_TITLE = 'What Eats Ticks and Mosquitoes? Ontario Guide'
+// GEO TITLE TEST (Oct 29 2026, data/god-build/geo-title-test-2026-10-29.md): back to the
+// pre-Sep-17 title without the place word. Do not change it before the Nov 20 read.
+const META_TITLE = 'What Eats Ticks and Mosquitoes? Predators Ranked'
 
 const FAQS = [
   {
