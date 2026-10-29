@@ -2,9 +2,14 @@
  "id": "hobo-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b6a84278a43bd6e9e92fed049a5d22b17c817c2ff19d537210238fa70e65e487",
+ "sha": "0911ac87919764e45580fe62968c7c35daa197bb12fa13ba37ee14134921e600",
  "claimsChecked": 269,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 5,
- "checkedOn": "2026-10-29"
+ "checkedOn": "2026-10-29",
+ "released": {
+  "on": "2026-10-28",
+  "scheduledFor": "2026-10-28",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

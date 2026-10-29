@@ -2,9 +2,14 @@
  "id": "what-do-lice-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "39df17cb6e243debad139f80a48a7de2b0edd4cadb4d909ce1b6a8e88d27d4ef",
+ "sha": "7efaa0271406e298910639246953ca6ef2ace3903566bb6a32e5317bf4bc88f1",
  "claimsChecked": 300,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 3,
- "checkedOn": "2026-10-29"
+ "checkedOn": "2026-10-29",
+ "released": {
+  "on": "2026-10-28",
+  "scheduledFor": "2026-10-28",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

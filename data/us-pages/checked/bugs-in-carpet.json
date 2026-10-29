@@ -2,9 +2,14 @@
  "id": "bugs-in-carpet",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8a3e75732957cca47f32e570823c43502fa762fa07ce306005f926f87eb4fef7",
+ "sha": "d1fc68b32e0e72ca417f11358c55cc6f57c56f50083f57c9a1d15df73b73fd7d",
  "claimsChecked": 330,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-29"
+ "checkedOn": "2026-10-29",
+ "released": {
+  "on": "2026-10-28",
+  "scheduledFor": "2026-10-28",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

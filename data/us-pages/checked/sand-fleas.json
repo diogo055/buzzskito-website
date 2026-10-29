@@ -2,9 +2,14 @@
  "id": "sand-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ded69e934d35444510aabab66e3511ee568724bee28231c0fe1d688d2f62230c",
+ "sha": "3e1934c3992f7ff31075dd02e904ad159e8b3f7209498018d7dfba96df3c71e6",
  "claimsChecked": 230,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-10-29"
+ "checkedOn": "2026-10-29",
+ "released": {
+  "on": "2026-10-28",
+  "scheduledFor": "2026-10-28",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

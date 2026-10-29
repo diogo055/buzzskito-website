@@ -322,6 +322,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Bed Bug Poop: What Bed Bug Droppings and Stains Look Like: https://buzzskito.ca/blog/bed-bug-poop
 - No Signs of Bed Bugs but You Have Bites? What Else Bites at Night: https://buzzskito.ca/blog/bed-bug-bites-but-no-bed-bugs
 - Bed Bugs in Hotels: How to Check Your Room and Avoid Bringing Them Home: https://buzzskito.ca/blog/bed-bugs-in-hotels
+- Bed Bug Eggs: What They Look Like, Where They Are Laid and When They Hatch: https://buzzskito.ca/blog/bed-bug-eggs
 
 ### Ants
 - Sugar Ants: What They Really Are and How to Get Rid of Them: https://buzzskito.ca/blog/sugar-ants
@@ -344,6 +345,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Bullet Ants: Where They Live, How Much the Sting Hurts and How Long It Lasts: https://buzzskito.ca/blog/bullet-ants
 - Honeypot Ants: The Workers That Store Food in Their Bodies: https://buzzskito.ca/blog/honeypot-ants
 - Zombie Ants: How the Fungus Takes Over Carpenter Ants: https://buzzskito.ca/blog/zombie-ants
+- Fire Ant Bites: Pictures, Pustule Stages, Treatment and Allergy Signs: https://buzzskito.ca/blog/fire-ant-stings
 - Homemade Ant Killer: 4 Recipes With Exact Ratios: https://buzzskito.ca/learn/ant-killer-recipes
 
 ### Mice
@@ -375,6 +377,8 @@ Source-cited identification and how-to guides written for readers in the United 
 - Mice in Walls: Scratching Sounds, Signs and How to Get Them Out: https://buzzskito.ca/blog/mice-in-walls
 - Shrews: How to Tell a Shrew From a Mouse or Vole, and Are They Dangerous?: https://buzzskito.ca/blog/shrews
 - How Long Do Rats Live? Wild Rats, Pet Rats and How Fast They Breed: https://buzzskito.ca/blog/how-long-do-rats-live
+- Baby Rats: What They Look Like Week by Week, and What a Litter Means: https://buzzskito.ca/blog/baby-rats
+- Rat Nest: What a Rat's Nest Looks Like and Where Rats Nest: https://buzzskito.ca/blog/rat-nest
 
 ### Cockroaches
 - German Cockroaches: Identification, Habits and the Control Plan That Works: https://buzzskito.ca/blog/german-cockroaches
@@ -462,6 +466,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Orb Weaver Spiders: Garden Spiders, Banana Spiders and Their Big Round Webs: https://buzzskito.ca/blog/orb-weaver-spiders
 - Spiders in Florida: Identifying the Common Species and the Widows: https://buzzskito.ca/blog/spiders-in-florida
 - Jumping Spiders: How to Identify Them, Common Species and Do They Bite?: https://buzzskito.ca/blog/jumping-spiders
+- Hobo Spiders: How to Identify Them, Where They Live and the Bite Myth: https://buzzskito.ca/blog/hobo-spiders
 - Yellow Sac Spiders: The Pale White Spider in the House, and Its Bite: https://buzzskito.ca/blog/yellow-sac-spiders
 - Camel Spiders (Sun Spiders): What They Are, How Big They Get, Bites and Myths: https://buzzskito.ca/blog/camel-spiders
 - Spiders in Texas: Common Species, Recluses, Tarantulas and Which Bite: https://buzzskito.ca/blog/spiders-in-texas
@@ -473,14 +478,18 @@ Source-cited identification and how-to guides written for readers in the United 
 - Wasp Nest Identification: Which Wasp, Hornet or Bee Built It: https://buzzskito.ca/blog/wasp-nest-identification
 - Paper Wasps: How to Identify Them, Their Umbrella Nests and the Sting: https://buzzskito.ca/blog/paper-wasps
 - Mud Daubers: How to Identify Them and Their Mud Nests, and Do They Sting?: https://buzzskito.ca/blog/mud-daubers
+- Wasp vs Hornet: How to Tell Them Apart, Plus Yellow Jackets and Bees (Photos): https://buzzskito.ca/blog/wasp-vs-hornet
 
 ### Flies and gnats
+- No-See-Ums: What They Are, Where They Live and How to Keep Them Out: https://buzzskito.ca/blog/no-see-ums
+- Sand Fleas: What They Are, Do They Bite, and What Is Biting You at the Beach: https://buzzskito.ca/blog/sand-fleas
 - Why Are There So Many Flies in My House? Find the Fly, Then the Source: https://buzzskito.ca/blog/flies-in-house
 - How to Get Rid of Gnats: Identify the Gnat First, Then Fix Its Source: https://buzzskito.ca/blog/how-to-get-rid-of-gnats
 - Maggots: What They Are, Where They Come From and How to Get Rid of Them: https://buzzskito.ca/blog/maggots
 
 ### Mites and chiggers
 - Dust Mites: What They Look Like, Where They Live and How to Reduce Them: https://buzzskito.ca/blog/dust-mites
+- Mite Bites: What They Look Like and Which Mite Bit You: https://buzzskito.ca/blog/mite-bites
 
 ### Household bugs
 - What Do Fleas Look Like? Adult Fleas Up Close, on Pets and People: https://buzzskito.ca/blog/what-do-fleas-look-like
@@ -492,12 +501,15 @@ Source-cited identification and how-to guides written for readers in the United 
 - How to Get Rid of Stink Bugs: Remove Them Without Crushing, Then Seal: https://buzzskito.ca/blog/how-to-get-rid-of-stink-bugs
 - Millipedes in the House: Why They Come In and How to Keep Them Out: https://buzzskito.ca/blog/millipedes
 - Asian Lady Beetle vs Ladybug: How to Tell Them Apart, Bites and Fall Swarms: https://buzzskito.ca/blog/asian-lady-beetles
+- Kissing Bug Bites: What They Look Like, Symptoms and the Real Chagas Risk: https://buzzskito.ca/blog/kissing-bug-bites
 - Bugs That Look Like Kissing Bugs: Wheel Bugs, Seed Bugs, Boxelders and More: https://buzzskito.ca/blog/kissing-bug-look-alikes
+- June Bugs: What They Are, Whether They Bite, and the Grubs in Your Lawn: https://buzzskito.ca/blog/june-bugs
 - How to Get Rid of Earwigs: Traps, Moisture and the Ear Myth: https://buzzskito.ca/blog/how-to-get-rid-of-earwigs
 - Bugs in Flour and Rice: How to Identify the Pantry Pests: https://buzzskito.ca/blog/pantry-pests
 - Assassin Bugs and Wheel Bugs: How to Identify Them, and How Bad Is the Bite?: https://buzzskito.ca/blog/wheel-bugs
 - Booklice (Psocids): The Tiny Pale Bugs in Damp Rooms, Books and Pantries: https://buzzskito.ca/blog/booklice
 - Roly Poly Bugs (Pill Bugs and Sow Bugs): What They Are and Why They Come Inside: https://buzzskito.ca/blog/pill-bugs
+- Crickets in the House: Why They Get In, Which Kind and How to Get Them Out: https://buzzskito.ca/blog/crickets-in-house
 - Tiny Black Bugs in the House: What They Are, by Where You Found Them: https://buzzskito.ca/blog/tiny-black-bugs
 - What Do Flea Eggs Look Like? Eggs, Larvae and Flea Dirt Compared: https://buzzskito.ca/blog/flea-eggs
 - Bugs in the House in Winter: What They Are and Why They Came Inside: https://buzzskito.ca/blog/bugs-in-house-in-winter
@@ -518,6 +530,11 @@ Source-cited identification and how-to guides written for readers in the United 
 - Lice Eggs: What Nits Look Like, Nits vs Dandruff, and Live vs Hatched: https://buzzskito.ca/blog/lice-eggs
 - Stick Bugs (Walkingsticks): How to Identify Them, and Are They Harmful?: https://buzzskito.ca/blog/stick-bugs
 - Fleas on Humans: Can Fleas Live on People, and Where Do They Come From?: https://buzzskito.ca/blog/fleas-on-humans
+- What Do Lice Look Like? Photos of Head Lice, Baby Lice and Look-Alikes: https://buzzskito.ca/blog/what-do-lice-look-like
+- Bugs in Carpet: What They Are and How to Tell Them Apart (Photos): https://buzzskito.ca/blog/bugs-in-carpet
+- Tiny White Bugs in the House: What They Are, by Where You Found Them: https://buzzskito.ca/blog/tiny-white-bugs
+- Bugs in the Bathroom: What They Are and Why They Are There (Photos): https://buzzskito.ca/blog/bugs-in-bathroom
+- Bugs in the Kitchen: What They Are and Where They Come From: https://buzzskito.ca/blog/bugs-in-kitchen
 
 ### Bug bites and stings
 - Bug Bite Identification: Pictures and Clues to What Bit You: https://buzzskito.ca/learn/bug-bites
@@ -542,6 +559,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Pet-Safe Pest Control: What Is Lower-Risk for Cats and Dogs: https://buzzskito.ca/learn/pet-safe-pest-control
 
 ### Garden and houseplant pests
+- Japanese Beetles: How to Identify Them, the Damage They Do, and Do Traps Work?: https://buzzskito.ca/blog/japanese-beetles
 - Spider Mites: How to Spot the Webbing and Stippling, and What Works: https://buzzskito.ca/blog/spider-mites
 - Bugs on Houseplants: Which Pest Is on Your Plant, and What to Do: https://buzzskito.ca/blog/houseplant-bugs
 - Natural Garden Pest Control: A Season-by-Season Guide: https://buzzskito.ca/learn/natural-garden-pest-control

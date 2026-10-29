@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-28",
+ "generated": "2026-10-29",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 215,
+  "newPagesBuilt": 233,
   "hubPages": 4,
-  "guides": 200,
+  "guides": 218,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 226,
-  "internalLinksInNewPages": 2864
+  "notBuilt": 208,
+  "internalLinksInNewPages": 3153
  },
  "pages": [
   {
@@ -24,7 +24,7 @@
    "wordCount": 5506,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 21,
    "status": "built"
   },
@@ -40,7 +40,7 @@
    "wordCount": 3402,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -56,7 +56,7 @@
    "wordCount": 1993,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -72,7 +72,7 @@
    "wordCount": 2414,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 33,
    "status": "built"
   },
@@ -88,8 +88,24 @@
    "wordCount": 2388,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bed bug eggs",
+   "us_volume": null,
+   "url": "/blog/bed-bug-eggs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "bed-bugs",
+   "title": "Bed Bug Eggs: What They Look Like (Photos)",
+   "wordCount": 2134,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -126,6 +142,22 @@
   },
   {
    "rank": null,
+   "keyword": "fire ant bite",
+   "us_volume": null,
+   "url": "/blog/fire-ant-stings",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ants",
+   "title": "Fire Ant Bites: Pictures, Pustules, Treatment",
+   "wordCount": 2279,
+   "faqs": 10,
+   "sources": 16,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "how to mouse proof your house",
    "us_volume": null,
    "url": "/blog/fall-mouse-proofing-checklist",
@@ -149,11 +181,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Rat vs Mouse: How to Tell Them Apart (Photos)",
-   "wordCount": 2379,
+   "wordCount": 2401,
    "faqs": 5,
    "sources": 11,
-   "inboundFromNewPages": 7,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -165,11 +197,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Roof Rat vs Norway Rat: How to Tell (Photos)",
-   "wordCount": 2288,
+   "wordCount": 2308,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 6,
-   "outboundInternalLinks": 6,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 7,
    "status": "built"
   },
   {
@@ -184,7 +216,7 @@
    "wordCount": 2214,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -232,7 +264,7 @@
    "wordCount": 2457,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 25,
    "status": "built"
   },
@@ -248,7 +280,7 @@
    "wordCount": 2238,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -264,8 +296,40 @@
    "wordCount": 1676,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "baby rats",
+   "us_volume": null,
+   "url": "/blog/baby-rats",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Baby Rats: What They Look Like (Photos)",
+   "wordCount": 2337,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "rat nest",
+   "us_volume": null,
+   "url": "/blog/rat-nest",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Rat Nest: What It Looks Like, Where to Find It",
+   "wordCount": 2142,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -280,7 +344,7 @@
    "wordCount": 5381,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 21,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 25,
    "status": "built"
   },
@@ -328,7 +392,7 @@
    "wordCount": 1771,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 18,
    "status": "built"
   },
@@ -344,7 +408,7 @@
    "wordCount": 3111,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -360,7 +424,7 @@
    "wordCount": 2371,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -376,7 +440,7 @@
    "wordCount": 2203,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -392,7 +456,7 @@
    "wordCount": 1755,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1032,7 +1096,7 @@
    "wordCount": 3238,
    "faqs": 6,
    "sources": 18,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1096,7 +1160,7 @@
    "wordCount": 2359,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1128,7 +1192,7 @@
    "wordCount": 2801,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1144,7 +1208,7 @@
    "wordCount": 2760,
    "faqs": 5,
    "sources": 16,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1160,7 +1224,7 @@
    "wordCount": 3488,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -1176,7 +1240,7 @@
    "wordCount": 3265,
    "faqs": 6,
    "sources": 19,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1226,6 +1290,22 @@
    "sources": 18,
    "inboundFromNewPages": 8,
    "outboundInternalLinks": 14,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "hobo spider",
+   "us_volume": null,
+   "url": "/blog/hobo-spiders",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "spiders",
+   "title": "Hobo Spider: ID, Range and the Bite Myth",
+   "wordCount": 2361,
+   "faqs": 10,
+   "sources": 16,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -1304,7 +1384,7 @@
    "wordCount": 2268,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -1336,7 +1416,7 @@
    "wordCount": 2546,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1352,7 +1432,7 @@
    "wordCount": 2330,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1368,8 +1448,56 @@
    "wordCount": 1771,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "wasp vs hornet",
+   "us_volume": null,
+   "url": "/blog/wasp-vs-hornet",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wasps",
+   "title": "Wasp vs Hornet: How to Tell Them Apart (Photos)",
+   "wordCount": 2760,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "no see ums",
+   "us_volume": null,
+   "url": "/blog/no-see-ums",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "No-See-Ums: What They Are and How to Stop Them",
+   "wordCount": 2513,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "sand fleas",
+   "us_volume": null,
+   "url": "/blog/sand-fleas",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "Sand Fleas: What They Are and Do They Bite?",
+   "wordCount": 2137,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -1384,7 +1512,7 @@
    "wordCount": 2554,
    "faqs": 10,
    "sources": 6,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1400,7 +1528,7 @@
    "wordCount": 2423,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1432,8 +1560,24 @@
    "wordCount": 2596,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 13,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "mite bites",
+   "us_volume": null,
+   "url": "/blog/mite-bites",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mites",
+   "title": "Mite Bites: What They Look Like (Photos)",
+   "wordCount": 2665,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1448,7 +1592,7 @@
    "wordCount": 2320,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1464,7 +1608,7 @@
    "wordCount": 3181,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1480,7 +1624,7 @@
    "wordCount": 2079,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1496,7 +1640,7 @@
    "wordCount": 2890,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1512,7 +1656,7 @@
    "wordCount": 2472,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1528,7 +1672,7 @@
    "wordCount": 2963,
    "faqs": 6,
    "sources": 12,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1544,7 +1688,7 @@
    "wordCount": 2879,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1560,7 +1704,7 @@
    "wordCount": 1886,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -1576,8 +1720,24 @@
    "wordCount": 2384,
    "faqs": 6,
    "sources": 13,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "kissing bug bite",
+   "us_volume": null,
+   "url": "/blog/kissing-bug-bites",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Kissing Bug Bite: Symptoms and the Chagas Risk",
+   "wordCount": 2239,
+   "faqs": 9,
+   "sources": 16,
+   "inboundFromNewPages": 3,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -1592,8 +1752,24 @@
    "wordCount": 2366,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 11,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "june bug",
+   "us_volume": null,
+   "url": "/blog/june-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "June Bugs: What They Are and Are They Harmful?",
+   "wordCount": 2482,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -1608,7 +1784,7 @@
    "wordCount": 2172,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -1621,11 +1797,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Bugs in Flour or Rice? Pantry Pest ID (Photos)",
-   "wordCount": 2675,
+   "wordCount": 2691,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1640,7 +1816,7 @@
    "wordCount": 1743,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -1653,11 +1829,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Booklice: Tiny Pale Bugs in Books and Pantries",
-   "wordCount": 1759,
+   "wordCount": 1789,
    "faqs": 10,
    "sources": 12,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 10,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -1672,8 +1848,24 @@
    "wordCount": 2092,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 7,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "crickets in house",
+   "us_volume": null,
+   "url": "/blog/crickets-in-house",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Crickets in the House: Why and How to Stop Them",
+   "wordCount": 2272,
+   "faqs": 10,
+   "sources": 13,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 8,
    "status": "built"
   },
   {
@@ -1685,11 +1877,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Tiny Black Bugs in the House? ID Them (Photos)",
-   "wordCount": 2789,
+   "wordCount": 2815,
    "faqs": 6,
    "sources": 15,
-   "inboundFromNewPages": 13,
-   "outboundInternalLinks": 21,
+   "inboundFromNewPages": 17,
+   "outboundInternalLinks": 22,
    "status": "built"
   },
   {
@@ -1704,7 +1896,7 @@
    "wordCount": 2059,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 9,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1720,7 +1912,7 @@
    "wordCount": 2957,
    "faqs": 5,
    "sources": 15,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 21,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1736,7 +1928,7 @@
    "wordCount": 2601,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -1749,11 +1941,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Springtails in the House: Photos, Causes, Fixes",
-   "wordCount": 2255,
+   "wordCount": 2270,
    "faqs": 10,
    "sources": 13,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 8,
+   "inboundFromNewPages": 9,
+   "outboundInternalLinks": 9,
    "status": "built"
   },
   {
@@ -1768,7 +1960,7 @@
    "wordCount": 2921,
    "faqs": 10,
    "sources": 9,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1781,11 +1973,11 @@
    "kind": "spoke",
    "cluster": "household",
    "title": "Beetles in the House? Identify Them (Photos)",
-   "wordCount": 2591,
+   "wordCount": 2603,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -1800,7 +1992,7 @@
    "wordCount": 2220,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -1816,7 +2008,7 @@
    "wordCount": 2487,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 8,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 24,
    "status": "built"
   },
@@ -1832,7 +2024,7 @@
    "wordCount": 2360,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -1864,7 +2056,7 @@
    "wordCount": 2184,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1880,7 +2072,7 @@
    "wordCount": 2191,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1896,7 +2088,7 @@
    "wordCount": 2230,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1912,7 +2104,7 @@
    "wordCount": 2294,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -1928,7 +2120,7 @@
    "wordCount": 2647,
    "faqs": 10,
    "sources": 16,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1944,7 +2136,7 @@
    "wordCount": 1857,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -1960,7 +2152,7 @@
    "wordCount": 2240,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 5,
    "status": "built"
   },
@@ -1992,8 +2184,88 @@
    "wordCount": 2075,
    "faqs": 9,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 18,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "what do lice look like",
+   "us_volume": null,
+   "url": "/blog/what-do-lice-look-like",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "What Do Lice Look Like? Size and Color (Photos)",
+   "wordCount": 2320,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in carpet",
+   "us_volume": null,
+   "url": "/blog/bugs-in-carpet",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs in Carpet? Identify Them (Photos)",
+   "wordCount": 2563,
+   "faqs": 9,
+   "sources": 18,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 29,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "tiny white bugs",
+   "us_volume": null,
+   "url": "/blog/tiny-white-bugs",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Tiny White Bugs in the House? ID Them (Photos)",
+   "wordCount": 2505,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 26,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in bathroom",
+   "us_volume": null,
+   "url": "/blog/bugs-in-bathroom",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs in the Bathroom? Identify Them (Photos)",
+   "wordCount": 2498,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 29,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "bugs in kitchen",
+   "us_volume": null,
+   "url": "/blog/bugs-in-kitchen",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Bugs in the Kitchen? Identify Them (Photos)",
+   "wordCount": 2444,
+   "faqs": 8,
+   "sources": 17,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 25,
    "status": "built"
   },
   {
@@ -2005,11 +2277,11 @@
    "kind": "spoke",
    "cluster": "bites",
    "title": "Bug Bite Identification: What Bit You? (Photos)",
-   "wordCount": 3991,
+   "wordCount": 4024,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 18,
-   "outboundInternalLinks": 45,
+   "inboundFromNewPages": 27,
+   "outboundInternalLinks": 46,
    "status": "built"
   },
   {
@@ -2024,7 +2296,7 @@
    "wordCount": 2134,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2040,7 +2312,7 @@
    "wordCount": 1880,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2184,7 +2456,7 @@
    "wordCount": 5109,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -2197,11 +2469,11 @@
    "kind": "spoke",
    "cluster": "garden",
    "title": "How to Get Rid of Fungus Gnats: The 5-Step Plan",
-   "wordCount": 3601,
+   "wordCount": 3631,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 11,
-   "outboundInternalLinks": 9,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -2216,7 +2488,7 @@
    "wordCount": 4813,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -2232,7 +2504,7 @@
    "wordCount": 5266,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 7,
    "status": "built"
   },
@@ -2254,6 +2526,22 @@
   },
   {
    "rank": null,
+   "keyword": "japanese beetle",
+   "us_volume": null,
+   "url": "/blog/japanese-beetles",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "Japanese Beetle: ID, Damage and Do Traps Work?",
+   "wordCount": 2465,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "spider mites",
    "us_volume": null,
    "url": "/blog/spider-mites",
@@ -2264,7 +2552,7 @@
    "wordCount": 2436,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 1,
+   "inboundFromNewPages": 2,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -2280,7 +2568,7 @@
    "wordCount": 2590,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2902,13 +3190,6 @@
   },
   {
    "rank": null,
-   "keyword": "no see ums",
-   "url": "/blog/no-see-ums",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "spider identification",
    "url": "/learn/spiders",
    "action": "new",
@@ -3259,20 +3540,6 @@
   },
   {
    "rank": null,
-   "keyword": "fire ant bite",
-   "url": "/blog/fire-ant-stings",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "kissing bug bite",
-   "url": "/blog/kissing-bug-bites",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "scorpion sting",
    "url": "/blog/scorpion-stings",
    "action": "new",
@@ -3420,13 +3687,6 @@
   },
   {
    "rank": null,
-   "keyword": "hobo spider",
-   "url": "/blog/hobo-spiders",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "fishing spider",
    "url": "/blog/fishing-spiders",
    "action": "new",
@@ -3497,13 +3757,6 @@
   },
   {
    "rank": null,
-   "keyword": "june bug",
-   "url": "/blog/june-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "how to get rid of cluster flies",
    "url": "/blog/how-to-get-rid-of-cluster-flies",
    "action": "new",
@@ -3534,13 +3787,6 @@
    "rank": null,
    "keyword": "greenhead fly",
    "url": "/blog/greenhead-flies",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "sand fleas",
-   "url": "/blog/sand-fleas",
    "action": "new",
    "status": "not built"
   },
@@ -3583,13 +3829,6 @@
    "rank": null,
    "keyword": "leaf footed bug",
    "url": "/blog/leaf-footed-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "japanese beetle",
-   "url": "/blog/japanese-beetles",
    "action": "new",
    "status": "not built"
   },
@@ -3707,13 +3946,6 @@
   },
   {
    "rank": null,
-   "keyword": "crickets in house",
-   "url": "/blog/crickets-in-house",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "chagas disease",
    "url": "/blog/chagas-disease",
    "action": "new",
@@ -3744,13 +3976,6 @@
    "rank": null,
    "keyword": "baby copperhead",
    "url": "/blog/copperhead-look-alikes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "wasp vs hornet",
-   "url": "/blog/wasp-vs-hornet",
    "action": "new",
    "status": "not built"
   },
@@ -3798,71 +4023,8 @@
   },
   {
    "rank": null,
-   "keyword": "mite bites",
-   "url": "/blog/mite-bites",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "baby rats",
-   "url": "/blog/baby-rats",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bed bug eggs",
-   "url": "/blog/bed-bug-eggs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "snake poop",
    "url": "/blog/snake-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "what do lice look like",
-   "url": "/blog/what-do-lice-look-like",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bugs in carpet",
-   "url": "/blog/bugs-in-carpet",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "tiny white bugs",
-   "url": "/blog/tiny-white-bugs",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "rat nest",
-   "url": "/blog/rat-nest",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bugs in bathroom",
-   "url": "/blog/bugs-in-bathroom",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "bugs in kitchen",
-   "url": "/blog/bugs-in-kitchen",
    "action": "new",
    "status": "not built"
   },
@@ -3886,7 +4048,7 @@
    "wordCount": 3658,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -3899,11 +4061,11 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "What Do Bed Bugs Look Like? Actual Size + Photos",
-   "wordCount": 2502,
+   "wordCount": 2530,
    "faqs": 9,
    "sources": 7,
-   "inboundFromNewPages": 23,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 28,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -4008,7 +4170,7 @@
    "wordCount": 3320,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4040,7 +4202,7 @@
    "wordCount": 2553,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -4056,7 +4218,7 @@
    "wordCount": 5317,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 36,
+   "inboundFromNewPages": 39,
    "outboundInternalLinks": 39,
    "status": "built"
   },
@@ -4148,7 +4310,7 @@
    "wordCount": 3183,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 20,
+   "inboundFromNewPages": 22,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -4264,7 +4426,7 @@
    "wordCount": 2601,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -4362,7 +4524,7 @@
    "wordCount": 3658,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -4378,7 +4540,7 @@
    "wordCount": 2398,
    "faqs": 9,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -4426,7 +4588,7 @@
    "wordCount": 2742,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 22,
+   "inboundFromNewPages": 24,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -4528,7 +4690,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -4560,7 +4722,7 @@
    "wordCount": 3056,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 19,
+   "inboundFromNewPages": 20,
    "outboundInternalLinks": 14,
    "status": "built"
   },
@@ -4573,11 +4735,11 @@
    "kind": "spoke",
    "cluster": "pest-control",
    "title": "Lawn Pest Control: Confirm the Pest First",
-   "wordCount": 3533,
+   "wordCount": 3565,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 16,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 17,
    "status": "built"
   },
   {
@@ -4844,7 +5006,7 @@
    "wordCount": 2516,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4902,7 +5064,7 @@
    "wordCount": 3298,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4915,11 +5077,11 @@
    "kind": "spoke",
    "cluster": "mosquitoes",
    "title": "Are Mosquitoes Attracted to Light? Not Much",
-   "wordCount": 1850,
+   "wordCount": 1886,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 4,
-   "outboundInternalLinks": 9,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -4998,7 +5160,7 @@
    "wordCount": 3380,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5014,7 +5176,7 @@
    "wordCount": 3099,
    "faqs": 6,
    "sources": 5,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5064,7 +5226,7 @@
    "wordCount": 3218,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5206,7 +5368,7 @@
    "wordCount": 2293,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5248,7 +5410,7 @@
    "wordCount": 3052,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5264,7 +5426,7 @@
    "wordCount": 2821,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -5338,7 +5500,7 @@
    "wordCount": 2727,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5354,7 +5516,7 @@
    "wordCount": 2995,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 13,
+   "inboundFromNewPages": 14,
    "outboundInternalLinks": 12,
    "status": "built"
   }

@@ -2,9 +2,14 @@
  "id": "wasp-vs-hornet",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b5074fb3691ea91123a7cb6e28e03784eef7d0d16ce14fe787fbf302ef0ee4bd",
+ "sha": "84fb49f27d85a76aa9853634832ecd65046d7f29ba760f451c6175dbf78523e5",
  "claimsChecked": 330,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-29"
+ "checkedOn": "2026-10-29",
+ "released": {
+  "on": "2026-10-28",
+  "scheduledFor": "2026-10-28",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

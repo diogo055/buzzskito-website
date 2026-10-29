@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-430 images across 175 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+479 images across 193 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -76,6 +76,11 @@
 
 - A hotel bed checked at the pillow end: pillows, blanket and sheet folded back at one corner, a flashlight beam on the mattress seam, piping and tag, in a US hotel room; public domain or CC0, from CDC PHIL, EPA or an extension service
 - A suitcase standing on a metal hotel luggage rack, the rack's straps lifted to show the frame underneath, with the bed in the background; public domain or CC0, from CDC PHIL, EPA or an extension service
+
+## /blog/bed-bug-eggs
+
+- Bed bug eggs magnified beside a ruler marked in inches, some with the eye spot showing and at least one hatched, empty shell among them, identified by an entomologist or extension service; public domain or CC0 so it could lead the page
+- Hatched bed bug eggshells beside unhatched eggs with visible eye spots, each labeled by the source, magnified beside a ruler marked in inches; public domain or CC0
 
 ## /learn/ants
 
@@ -195,6 +200,12 @@
 ## /learn/ant-killer-recipes
 
 - Step-by-step photo of a homemade enclosed ant bait station: a small lidded plastic tub with three small holes punched low in the side, a soaked cotton ball visible inside, the lid taped and hand-labeled with the contents and date, set against a baseboard beside an ant trail
+
+## /blog/fire-ant-stings
+
+- Fire ant stings on darker skin at the pustule stage, from a clinical or government source that states the timing (public domain or CC0); every fire ant sting photo on record shows light skin
+- Fire ants swarming up a shoe, boot or hand after a mound was disturbed, from USDA ARS or another public-domain source that names the species, showing how many ants climb on at once
+- USDA APHIS imported fire ant quarantine map (public domain) showing the states and counties under federal quarantine, with the date of the map
 
 ## /learn/mice
 
@@ -348,6 +359,16 @@
 ## /blog/how-long-do-rats-live
 
 - Rat pups in a nest, or a juvenile Norway rat where people find one (a garage, shed or yard), identified by an extension service, wildlife agency or museum; public domain or CC0
+
+## /blog/baby-rats
+
+- Pink, hairless newborn rat pups with their eyes closed, in the wild nest where they were found (a burrow, wall void, attic or yard debris pile), with no hands in the frame and a coin or ruler for scale; identified by an extension service, museum or wildlife agency; public domain or CC0 so it could lead the page
+- A rat nest with live pups in place where it was found (a burrow by a foundation, a wall void or an attic), with no hands in the frame and a ruler or coin for scale, with an identification by an extension service, museum or wildlife agency; public domain or CC0
+
+## /blog/rat-nest
+
+- A real rat nest of shredded paper, insulation or fabric found in a US attic, wall void or garage, photographed beside a ruler marked in inches with the rat droppings next to it; or CDC PHIL 26634 (a female Norway rat with her pups in her burrow, public domain) if it shows the nest material
+- A pack rat (woodrat) stick house or midden in the western US, such as a dusky-footed woodrat house or a white-throated woodrat midden at the base of a cactus, from the National Park Service (public domain), with something in the frame for scale
 
 ## /learn/cockroaches
 
@@ -585,6 +606,11 @@
 - A jumping spider where a homeowner meets it: on an indoor windowsill or window frame, a sunny house wall, a deck rail or a car mirror, in the US or Canada; identified to species by an extension service, museum or expert; public domain or CC0
 - Jumping spider spiderlings, or a female jumping spider guarding a flattened white egg sac in a silk retreat on a leaf, under bark or in a crevice on a building, with a ruler marked in inches for scale; identified by an extension service, museum or expert; public domain or CC0
 
+## /blog/hobo-spiders
+
+- Underside (sternum) of a hobo spider beside the underside of a giant house spider or barn funnel weaver, showing the single pale center stripe against three or four pairs of pale side spots, identified by an arachnologist; public domain or CC0
+- Hobo spider on a basement floor, in a window well or on a woodpile, ideally beside a ruler marked in inches, with a research-grade or expert identification; public domain or CC0 so it could replace the lead
+
 ## /blog/yellow-sac-spiders
 
 - Agrarian sac spider, Cheiracanthium inclusum, adult, on a wall or a plant and ideally beside a ruler marked in inches, identified by an extension service or university; public domain or CC0 (every yellow sac spider photo on record shows C. mildei or an unnamed Cheiracanthium)
@@ -631,6 +657,23 @@
 - An adult organ-pipe mud dauber (Trypoxylon politum) at its tube nest on a house wall, porch ceiling or garage in the US, identified by an extension service, museum or expert; public domain or CC0
 - A black-and-yellow mud dauber nest broken open to show the paralyzed spiders packed in its cells, beside a ruler marked in inches, identified by an extension service or expert; public domain or CC0
 
+## /blog/wasp-vs-hornet
+
+- A European hornet and a yellowjacket side by side beside a ruler marked in inches, so readers can see the size difference at a glance; both identified to species by an expert or extension service; public domain or CC0
+- A bald-faced hornet on a flower or at its nest in a US yard, identified by an expert or extension service; public domain or CC0, so it could lead a page (the photo on record is CC BY 2.0)
+- A European hornet at a porch light or lit window at night in the US, photographed from indoors or a safe distance and identified to species by an expert or extension service; public domain or CC0
+
+## /blog/no-see-ums
+
+- A biting midge (Culicoides) resting on human skin or on a window screen beside a ruler marked in inches, identified to genus by an entomologist or extension service; public domain or CC0 so it could replace the microscope view as the lead photo
+- A US salt marsh or mangrove shoreline at dusk, the breeding habitat of coastal no-see-ums, from the National Park Service or US Fish and Wildlife Service (public domain), ideally on the Atlantic or Gulf coast
+- A biting midge photographed beside standard 16 x 16 window screen mesh at the same magnification, to show that it fits through the openings; public domain, CC0 or CC BY, from a university or government source
+
+## /blog/sand-fleas
+
+- Beach hoppers under a clump of washed-up seaweed at the high-tide line on a US Atlantic or Gulf Coast beach, with a coin or ruler for scale, identified by an expert or as a research-grade observation; public domain or CC0
+- A chigoe flea lesion (tungiasis) on a foot: a white ring with a dark center between the toes or at the heel, from CDC PHIL or another public domain medical source, shown small and low on the page
+
 ## /blog/flies-in-house
 
 - Photo of several house flies or blow flies on the inside of a kitchen or living-room window, as a homeowner sees them, with a ruler or coin for scale (public domain or CC0, so it could lead the page).
@@ -648,6 +691,11 @@
 
 - Live house dust mites among skin flakes and fibers in dust vacuumed from a US mattress, under a stereo microscope with a scale bar marked in inches, to show them where they actually live
 - A zippered, allergen-impermeable encasement fitted over a mattress and a pillow in a bedroom, with the zipper closure visible; public domain or Creative Commons
+
+## /blog/mite-bites
+
+- A tropical rat mite (Ornithonyssus bacoti) beside a ruler marked in inches, identified by an entomologist, and the bites it left on a person's skin; CDC PHIL or a CC BY case report
+- Oak leaf itch mite bites on a person's neck or shoulders after time under pin oaks, from a case where the mite was identified, with the timing stated; public domain or CC0, no identifiable face
 
 ## /blog/what-do-fleas-look-like
 
@@ -698,9 +746,22 @@
 - Photo of an Asian lady beetle larva and a pupa on a leaf beside a ruler marked in inches, showing the larva's dark body with orange markings and branched spines and the orange pupa with its black spots
 - Top-down photo of a seven-spotted lady beetle beside a ruler marked in inches, showing the white spot on either side of the head and the 7 black spots on its wing covers
 
+## /blog/kissing-bug-bites
+
+- A kissing bug bite on skin, from a case where the bug was caught and identified by an expert, showing the welt or swelling, with its age stated by a medical or government source; public domain or CC0, not on the face and with no face anywhere in the photo
+- A live adult kissing bug where people find one, such as on a porch, an outside wall by a door or near a pet bed, ideally beside a ruler or coin, identified by an expert; public domain or CC0
+
 ## /blog/kissing-bug-look-alikes
 
 - Side views of a kissing bug and a wheel bug on a white background beside a ruler marked in inches, sharp enough to show the kissing bug's straight beak and the wheel bug's curved beak and crest
+
+## /blog/june-bugs
+
+- A figeater beetle (Cotinis mutabilis) on a fig or other ripe fruit in a California or Arizona yard, identified by an extension service or entomologist, or research grade on iNaturalist; public domain or CC0
+- A ten-lined June beetle (Polyphylla decemlineata) showing the stripes on its wing covers and a male's fan-like antennae, at a porch light or on a wall in a western state, beside a ruler marked in inches; public domain or CC0
+- May or June beetles (Phyllophaga) gathered at a porch light or clinging to a window screen at night, ideally with a coin or ruler for scale, identified to genus; public domain or CC0
+- A true white grub (Phyllophaga) beside a ruler marked in inches, with a close view of the two parallel rows of spines under the tip of the abdomen, identified by an extension service or entomologist; public domain or CC0
+- Lawn turf peeled back like a carpet over grub-damaged soil, with white grubs visible in the root zone; a USDA or university photo (public domain) or iNaturalist CC0
 
 ## /blog/how-to-get-rid-of-earwigs
 
@@ -720,6 +781,12 @@
 ## /blog/pill-bugs
 
 - A sow bug (genus Porcellio or Oniscus) seen from above beside a pill bug and a ruler marked in inches, showing the two tail-like uropods at the sow bug's rear; identified by an extension service, museum or expert; public domain or CC0
+
+## /blog/crickets-in-house
+
+- An adult house cricket (Acheta domesticus) with its wings, seen from above on a kitchen or basement floor or a baseboard beside a ruler marked in inches, identified by an extension service or entomologist; public domain or CC0 so it could lead the page
+- A field cricket (genus Gryllus) indoors, on a basement, garage or kitchen floor beside a ruler marked in inches or a US quarter, identified by an extension service or entomologist; public domain or CC0
+- A striped ground cricket (genus Nemobius or Allonemobius) beside a ruler marked in inches or a US dime, ideally at a doorway or under an outdoor light, identified by an extension service or entomologist; public domain or CC0
 
 ## /blog/tiny-black-bugs
 
@@ -833,6 +900,37 @@
 - An adult head louse beside nits attached to hairs near the scalp, with a ruler marked in inches for scale; public domain or CC0 (CDC PHIL), to set beside the flea photos
 - Adult fleas on a white sock pulled up to the knee after a walk through a pet's resting area, with a ruler marked in inches for scale
 
+## /blog/what-do-lice-look-like
+
+- A magnified adult female head louse seen from above, identified by CDC or a university (CDC PHIL 19067 or 377, public domain), to set beside the lead photo of a male
+- An adult head louse and a nymph beside a US coin or a ruler marked in inches, at about life size, identified by a health agency or university; public domain or CC0, to show their real size
+- A head louse nymph next to an adult on a comb or hair, identified by CDC or a university (CDC PHIL 26389, public domain), to show the size difference at a glance
+- An adult head louse crawling in a child's hair close to the scalp, at about life size, identified by a health agency or university or as a research-grade observation (for example iNaturalist 25287909, CC BY), to show what a parent sees during a check
+- A body louse, magnified, identified by CDC (CDC PHIL 5461 or 9202 to 9207, public domain), beside the head louse photos for comparison
+- A pubic (crab) louse, magnified, identified by CDC (CDC PHIL 25577 or 32265, public domain), to show its short, crab-like shape beside a head louse
+
+## /blog/bugs-in-carpet
+
+- Carpet beetle larvae and their brown, bristly shed skins at the edge of a wool rug or wall-to-wall carpet in a home, beside a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0 so it could lead the page
+- Flea dirt among carpet fibers where a pet sleeps, with a few specks turned red on a wet white paper towel beside them and a ruler marked in inches, identified by a veterinarian, extension service or CDC; public domain or CC0
+- Bed bugs with their eggs and dark fecal spots along the edge of wall-to-wall carpet at a baseboard behind a bed, beside a ruler marked in inches, photographed by an extension service, university or health department; public domain or CC0
+- A grazed or bare patch in a wool rug in a home, with clothes moth webbing or carpet beetle shed skins on it, beside a ruler marked in inches, identified by an extension service or museum; public domain or CC0
+
+## /blog/tiny-white-bugs
+
+- Grain or flour mites (Acarus or Tyrophagus) massed on flour, cereal or dry pet food so they look like moving pale dust, beside a ruler marked in inches; USDA or another public domain source, or iNaturalist CC0, identified by an expert
+- Booklice on a windowsill or white springtails in a white bathtub in a US home, beside a ruler marked in inches, identified by an extension service or expert; public domain or CC0 so it could lead the page
+
+## /blog/bugs-in-bathroom
+
+- Springtails on the white surface of a bathtub, shower pan or sink beside the drain, photographed where found next to a ruler marked in inches (public domain or CC0)
+- A silverfish trapped in a white bathtub or sink, photographed where found beside a ruler marked in inches (public domain or CC0)
+
+## /blog/bugs-in-kitchen
+
+- Public domain or CC0 photo of small pantry beetles (flour beetles or sawtoothed grain beetles) in an open bag or container of flour or cereal in a home kitchen, beside a ruler marked in inches
+- Public domain or CC0 photo of a German cockroach or a silverfish where people find it in a kitchen, on a counter, a floor or the shelf of the cabinet under the sink, beside a ruler marked in inches
+
 ## /learn/bug-bites
 
 - Close-up photo of a blacklegged tick nymph attached to human skin, showing the small red bump around the bite, beside a ruler marked in inches
@@ -942,6 +1040,11 @@
 - Side-by-side photo of weeds in a paving crack: on the left, seedlings with 2 to 5 leaves (the stage a vinegar spray controls); on the right, an established dandelion rosette that will regrow from its root after spraying
 - Photo of a ruler pushed into fresh wood chip mulch in a shrub bed, reading 4 inches, with the mulch visibly tapered down to almost nothing where it meets the shrub's trunk
 - Photo of a freshly pulled dandelion with its full taproot intact lying beside a fishtail weeder on a lawn, with visibly damp soil in the hole
+
+## /blog/japanese-beetles
+
+- A Japanese beetle from the side or from above beside a ruler marked in inches, showing the row of white hair tufts along the side of the body; public domain or CC0
+- Several Japanese beetles feeding together on a rose bloom or on grape or linden leaves in a US garden, with skeletonized leaves in view, identified by an extension service or on iNaturalist; public domain or CC0
 
 ## /blog/spider-mites
 

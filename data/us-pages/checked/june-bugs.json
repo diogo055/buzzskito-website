@@ -2,9 +2,14 @@
  "id": "june-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d464b8287bca70dca301544c84ba220f3262251dd7b7c16ad6dc3f55a9f99cf5",
+ "sha": "56ca9790c805a433dfb006a793e6a54cad5bfd74cd4860d65688ee8c739357f8",
  "claimsChecked": 370,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 11,
- "checkedOn": "2026-10-29"
+ "checkedOn": "2026-10-29",
+ "released": {
+  "on": "2026-10-28",
+  "scheduledFor": "2026-10-28",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

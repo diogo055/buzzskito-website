@@ -1,4 +1,20 @@
-release: 2 scheduled page(s) go live (2026-10-28)
+release: 18 scheduled page(s) go live (2026-10-28)
 
-- /blog/lice-eggs
-- /blog/stick-bugs
+- /blog/no-see-ums
+- /blog/fire-ant-stings
+- /blog/kissing-bug-bites
+- /blog/hobo-spiders
+- /blog/june-bugs
+- /blog/sand-fleas
+- /blog/japanese-beetles
+- /blog/crickets-in-house
+- /blog/wasp-vs-hornet
+- /blog/mite-bites
+- /blog/baby-rats
+- /blog/bed-bug-eggs
+- /blog/what-do-lice-look-like
+- /blog/bugs-in-carpet
+- /blog/tiny-white-bugs
+- /blog/rat-nest
+- /blog/bugs-in-bathroom
+- /blog/bugs-in-kitchen
