@@ -1,0 +1,10 @@
+{
+ "id": "mite-bites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1469f9c44a93839a0101c0cb9f8f9634b90683c92c7eb24d1fcbd34f99a86863",
+ "claimsChecked": 240,
+ "claimsCorrected": 18,
+ "claimsRemovedOrSoftened": 17,
+ "checkedOn": "2026-10-29"
+}

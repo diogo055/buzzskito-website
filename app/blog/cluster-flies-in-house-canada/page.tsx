@@ -14,12 +14,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'cluster-flies-in-house-canada'
 const DATE = '2026-08-31'
-const UPDATED = '2026-08-31'
+const UPDATED = '2026-10-28'
 const TITLE = 'Cluster Flies in the House — Why Big Sluggish Flies Appear at Canadian Windows Every Fall (2026)'
-const META_TITLE = 'Cluster Flies in the House Canada — Why They Appear in Fall'
+// TITLE NOTE (Oct 28, 2026): was 'Cluster Flies in the House Canada — Why They Appear in Fall' (58, over the 48 limit); top queries, Jul 28-Oct 25 (all countries): cluster flies 71 at 17.3 (1 click), cluster fly 61 at 11.9, cluster fly control 40 at 26.2, cluster flies ontario 35 at 10.8, cluster flies life cycle 3 at 5.7, cluster flies house 2, cluster flies in august 1, cluster flies in my house 1. Sibling /blog/how-to-get-rid-of-cluster-flies-canada ('Cluster Flies in Canada: Photos and Fixes') keeps how-to-get-rid-of and spray searches.
+const META_TITLE = 'Cluster Flies in the House Canada: Why in Fall'
 
 const FAQS = [
   {
@@ -62,15 +66,24 @@ const FAQS = [
     question: 'When do cluster fly numbers justify calling a professional?',
     answer: 'Scale and access decide it. Dozens of flies over a season — the standard suburban experience — is vacuum-and-trap territory, not a service call. The professional cases are the chronic heavy houses: a farmhouse, cottage, or rural property where hundreds to thousands emerge every year, where the attic hums on warm February days, or where dead-fly accumulations in the attic are drawing larder beetles. A licensed pest control firm can treat the attic and dust wall voids where the aggregation actually lives, and time an exterior treatment to the late-August staging period — both beyond DIY reach. Worth knowing before you call: BuzzSkito treats mosquitoes and ticks only, so cluster fly work means a general pest control company, and the best value season to book exterior work is mid-to-late summer, not the winter day the attic wakes up.',
   },
+  {
+    question: 'What is the cluster fly life cycle?',
+    answer: 'It runs outdoors, in the soil. Females lay eggs in cracks in the soil of lawns and open areas, and the larvae live as parasites in earthworms before pupating in the ground. Penn State counts three to four or more generations a season in Pennsylvania, and Iowa State says three generations a summer, with the last one moving into buildings from mid to late September. The adults that get in overwinter in walls and attics, and they do not breed indoors.',
+  },
+  {
+    question: 'Why are there cluster flies in my house in August?',
+    answer: 'Late summer is when they start looking for winter shelter. Iowa State says cluster flies gather on the warm sides of buildings in late summer and slip in through cracks under the eaves, around windows and in the siding as the evenings cool, with the last generation moving in from mid to late September. Flies at your windows in August are early arrivals, and their numbers will only fall because they cannot breed indoors. It is also the signal to finish sealing the sunny walls.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Cluster flies in Ontario houses: why big sluggish flies appear at windows in fall and on warm winter days, why they cannot breed indoors, why the same houses get hit yearly, and the sealing deadline that decides it.',
+  description: 'Cluster flies in the house: why big, slow flies appear at Canadian windows in fall and winter, why they can’t breed indoors, what works now and when to seal.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('cluster-fly'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -78,7 +91,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function ClusterFliesInHouseCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Why cluster flies appear at Canadian windows every fall and again on warm winter days — the earthworm-parasite life cycle that means they never breed indoors, the sun-warmed-wall reason the same houses get hit yearly, the vacuum-and-trap plan for flies already inside, and the pre-late-August sealing deadline.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Why cluster flies appear at Canadian windows every fall and again on warm winter days — the earthworm-parasite life cycle that means they never breed indoors, the sun-warmed-wall reason the same houses get hit yearly, the vacuum-and-trap plan for flies already inside, and the pre-late-August sealing deadline.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('cluster-fly') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Cluster Flies in the House', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -91,7 +104,7 @@ export default function ClusterFliesInHouseCanadaPage() {
             <span className="text-white">Cluster Flies in the House</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Big, slow flies bumping the same window every October &mdash; and again on the first warm day of February. They are cluster flies, they cannot breed in your house, and the fight is won or lost at the caulking gun in August, not the fly swatter in November.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The big, slow flies at your windows in fall and on sunny winter days are cluster flies. They grew up in lawn soil as parasites of earthworms and cannot breed indoors, so their numbers only go down. Vacuum them and use a clear window trap (the pick below) now, and seal the sunny walls before late summer so next year&rsquo;s flies stay out.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -180,8 +193,22 @@ export default function ClusterFliesInHouseCanadaPage() {
           <p>That one fact reorganizes the whole problem. A house fly problem is a sanitation problem; a fruit fly problem is a source-removal problem; a cluster fly problem is a <strong>building-envelope problem with a nuisance tail</strong>. You manage the tail with a vacuum and some window traps, and you fix the problem with a caulking gun &mdash; in summer, for reasons of timing that this page will keep returning to, because the timing is the part everyone gets wrong.</p>
 
           <NextUp path="/blog/cluster-flies-in-house-canada" />
+          <QuickIdTable
+            title="Cluster fly control, compared: what works, when, and the limits"
+            head={['Method', 'How it works', 'When', 'Limits']}
+            rows={[
+              ['Vacuum', 'Lifts the slow flies off the glass and the sill', 'Whenever they appear', 'Health Canada’s pest note: vacuum them up and dispose of the bag; it does nothing about the walls'],
+              ['Clear window trap', 'An adhesive panel where the flies gather', 'Fall and warm winter days', 'Catches only the flies that reach that window; Iowa State calls flypaper, fly strips and bug zappers of no value against cluster flies'],
+              ['Light trap', 'Light draws flies onto a glue board', 'Steady emergence in an attic or a dark room', 'Competes with window light; look for a PCP number on the box'],
+              ['Sealing and screens', 'Close the gaps on the sunny walls; fit the screens', 'Summer, before they gather: Iowa State says they cluster on warm walls in late summer and the last generation moves in from mid to late September', 'Too late once they are inside; slow work'],
+              ['Exterior insecticide', 'A labelled residual on the outside walls', 'Penn State: in the autumn, just before the flies congregate, by a licensed pest control operator', 'Iowa State does not advise it for most homeowners'],
+              ['Indoor spray or fogger', 'Kills the flies it touches', 'Not recommended', 'Penn State: it is not advisable to use an insecticide within structures'],
+            ]}
+            caption={<>From Health Canada&rsquo;s archived PMRA pest note <a href="https://bac-lac.wayback.archive-it.org/web/20061027204353/http:/www.pmra-arla.gc.ca/english/consum/clusterflies-e.html" target="_blank" rel="noopener noreferrer" className="underline">Effective Control of Cluster Flies</a> (2004); Penn State Extension, <a href="https://extension.psu.edu/cluster-flies" target="_blank" rel="noopener noreferrer" className="underline">Cluster Flies</a> (Steve Jacobs); and Iowa State University Extension, <a href="https://yardandgarden.extension.iastate.edu/encyclopedia/cluster-fly" target="_blank" rel="noopener noreferrer" className="underline">Cluster Fly</a> (2016). The light-trap note reflects Health Canada&rsquo;s registration of indoor light traps as devices.</>}
+          />
           <h2>What You Are Looking At: The Two-Second ID</h2>
           <p>Cluster flies are slightly bigger than house flies, dark grey and nondescript at a glance &mdash; but three features settle it. The thorax carries short, crinkled <strong>golden hairs</strong> that catch the light; the <strong>wings overlap</strong> at rest like closed scissors, where a house fly holds them apart; and above all there is the <strong>behaviour</strong>: cluster flies are slow, heavy, clumsy fliers that bump against window glass, buzz in loud circles when disturbed, and drop to the sill exhausted. If you can catch it with a cup on the first try, it is probably a cluster fly.</p>
+          <Photo id="cluster-fly" alt="A cluster fly, genus Pollenia, seen from above" caption="A cluster fly (genus Pollenia), photographed in Vermont. Look for the short golden hairs on the thorax and the wings folded over each other at rest." />
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
             <table className="w-full min-w-[680px] text-sm">
               <thead className="bg-brand-800 text-white">
@@ -211,6 +238,7 @@ export default function ClusterFliesInHouseCanadaPage() {
             </table>
           </div>
           <p>If the table points you elsewhere: fast kitchen flies in July are the territory of our <Link href="/blog/how-to-get-rid-of-fruit-flies">fruit fly guide</Link>, and small mothy flies rising from sink drains belong to the <Link href="/blog/how-to-get-rid-of-drain-flies-canada">drain fly guide</Link>. Both of those are breeding indoors, which is exactly what the cluster fly never does.</p>
+          <Photo id="house-fly" alt="A house fly seen close up from above" caption="A house fly (Musca domestica) in a close view from above, from the CDC. A house fly holds its wings apart at rest and moves fast, where a cluster fly is sluggish and folds its wings over each other." />
 
           <h2>Why They Appear in Fall — and Again on Warm Winter Days</h2>
           <p>Cluster flies spend the summer outdoors doing unremarkable fly things: sipping nectar and laying eggs in the soil of every lawn in Ontario. The story that involves your house begins with the first cool nights of late August. Adults of the year&rsquo;s final generation stop breeding and start looking for somewhere to spend the winter &mdash; and what they want is a dry, sheltered void that will stay above lethal cold: the space behind siding, the gap under fascia boards, attic insulation, the voids inside a frame wall. They stage on the warmest exterior wall in the afternoon sun, walk upward, and follow warm air leaking out of the building through whatever gap presents itself. By Thanksgiving, entry is over and the season&rsquo;s population is aboard.</p>
@@ -240,9 +268,33 @@ export default function ClusterFliesInHouseCanadaPage() {
           <h2>The Sealing Deadline: Before Late August, or Not This Year</h2>
           <p>Here is the paragraph to read twice, because the timing rule is counterintuitive and it decides whether your effort helps or backfires. <strong>Exterior sealing works only before the flies enter &mdash; and entry starts in late August.</strong> Caulk the sunny walls in July and the autumn staging finds a closed building: the flies mill on the warm wall, fail to find a gap, and move on to a better-provisioned house. Caulk those same walls in October and you have sealed this winter&rsquo;s population <em>inside</em> your walls &mdash; and closed the exits they would otherwise have used to leave in spring, redirecting every warm-day wandering inward toward the light leaks of your living space. October caulking, the most popular month for it, converts a window nuisance into a wall problem.</p>
           <p>So the calendar is: <strong>July to mid-August &mdash; seal the exterior.</strong> Walk the south and west walls with silicone and backer rod and close the classics: where siding meets fascia and soffit, around window and door frames, at gas, cable, AC, and dryer penetrations, under sill plates, and behind the top course of siding where it meets the eave. Repair window screens and make sure attic vents are screened with fine mesh &mdash; intact louvre screens matter more here than almost any caulk bead, because warm attic air pouring out of a gable vent is the loudest &ldquo;vacancy&rdquo; sign a September fly can read. <strong>September onward &mdash; traps and vacuum indoors, caulking gun down until spring.</strong> The same envelope work, incidentally, is the fix for every fall invader that uses the sun-warmed-wall playbook &mdash; lady beetles, western conifer seed bugs, <Link href="/blog/how-to-get-rid-of-boxelder-bugs-canada">boxelder bugs</Link> &mdash; and it is the same sealing sequence our <Link href="/blog/how-to-get-rid-of-spiders-in-house-canada">fall spider plan</Link> runs at ground level. One August afternoon covers all of them.</p>
+          <Photo id="asian-lady-beetle-aggregation" alt="Asian lady beetles gathered on a door frame" caption="Asian lady beetles gathered on a door frame, photographed in Buenos Aires province, Argentina. Lady beetles use the same sun-warmed-wall route into houses, so the same summer sealing keeps them out too." />
+
+          <h2 id="situation">Which Cluster Fly Fix for Your Situation?</h2>
+          <ul>
+            <li><strong>A few flies at one window:</strong> the vacuum and a clear window trap in the lower corner of the glass.</li>
+            <li><strong>Flies on every warm winter day, from the attic:</strong> a light trap in the attic, and caulk the inside escape cracks around pot lights, outlets and window trim.</li>
+            <li><strong>Hundreds every year, next to fields or a big lawn:</strong> a licensed pest control operator for an exterior treatment in late summer or autumn, before the flies gather.</li>
+            <li><strong>Larder beetles turning up:</strong> clear out the dead flies; Health Canada&rsquo;s archived pest note says dead cluster flies may attract them.</li>
+            <li><strong>It is July or early August:</strong> seal the sunny walls now.</li>
+            <li><strong>It is October or later:</strong> leave the outside caulking until next summer; vacuum and trap indoors.</li>
+          </ul>
+
+          <h2>Cluster Fly Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Clear window traps</strong> for the worst windows, sized for the lower corner of the glass.</li>
+            <li><strong>A vacuum with a hose</strong> for the glass, the sills and the light fixtures.</li>
+            <li><strong>Exterior-grade silicone caulk and foam backer rod</strong> for the deep joints on the sunny walls.</li>
+            <li><strong>Weatherstripping</strong> for windows and doors, as Health Canada&rsquo;s pest note advises.</li>
+            <li><strong>Window screens that fit,</strong> and fine mesh over attic and gable vents.</li>
+            <li><strong>A light trap only for a dark attic or room,</strong> with a PCP number on the box.</li>
+            <li><strong>If you use an insecticide, a label that lists cluster flies;</strong> Penn State advises against using one indoors.</li>
+            <li><strong>A calendar note for July:</strong> the outside sealing has to be done before late summer.</li>
+          </ol>
 
           <h2>When the Attic Justifies a Professional</h2>
           <p>Scale changes the answer. The standard suburban dose &mdash; dozens of flies across a fall &mdash; never needs a service call. The chronic heavy house is different: rural properties, farmhouses, and cottages beside open turf can accumulate <strong>hundreds to thousands</strong> in an attic, audible as a hum on warm February days. At that scale, three things move it beyond DIY. The aggregation lives in insulation and voids you cannot treat or even reach; dead-fly accumulation starts attracting <strong>larder beetles</strong>, a dermestid that infests attics in its own right and is a genuinely worse tenant than the flies; and the fix that works &mdash; attic treatment, void dusting, and exterior wall applications timed to the late-August staging &mdash; involves licensed products and equipment. A general pest control firm handles all of that; book the exterior work for mid-to-late summer, not the winter day the attic wakes up. (BuzzSkito treats mosquitoes and ticks only &mdash; this one is genuinely not our lane, which is exactly why you are getting the unsold version of the answer.) If you want a fuller action plan for the heavy-infestation case, our <Link href="/blog/how-to-get-rid-of-cluster-flies-canada">farmhouse and cottage cluster fly guide</Link> goes deeper on the removal side; for the steady trickle in a suburban room, the <Link href="/blog/best-indoor-fly-mosquito-trap-canada">indoor fly trap comparison</Link> covers the trap options in detail.</p>
+          <Photo id="larder-beetle" alt="A larder beetle, Dermestes lardarius, seen from above" caption="A larder beetle (Dermestes lardarius) seen from above, photographed in Butler County, Pennsylvania. Dead cluster flies piling up in an attic can draw larder beetles, which is one reason to clear them out." />
 
           <h2>Cluster Flies — The Facts That Decide the Plan</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">

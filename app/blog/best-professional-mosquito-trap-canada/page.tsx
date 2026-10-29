@@ -12,21 +12,24 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-professional-mosquito-trap-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Professional Mosquito Trap Canada 2026 — Propane CO₂ Systems vs Larvicide Stations'
-const META_TITLE = 'Best Professional Mosquito Trap Canada 2026'
+// TITLE NOTE (Oct 28, 2026): was 'Best Professional Mosquito Trap Canada 2026' (the year goes stale before next season); top queries, Jul 28-Oct 25 (all countries): best mosquito trap 45 at 10.2, best mosquito traps 25 at 12.2, best propane mosquito trap 15 at 5.4, commercial mosquito trap 10 at 6.8, best mosquito catcher 7 at 12.7, commercial mosquito killer 7 at 10.0 (7 clicks in the top 15). 'best mosquito trap' belongs to best-mosquito-trap and propane traps to propane-mosquito-trap-canada, so this page takes the commercial searches; the Biogents brand stays with biogents-bg-mosquitaire-mosquito-trap-canada.
+const META_TITLE = 'Commercial Mosquito Traps Canada: Best Pro Picks'
 
 const FAQS = [
   {
     question: 'What is the best professional mosquito trap in Canada in 2026?',
-    answer: 'For genuine, property-scale mosquito reduction the best professional system in Canada is a commercial propane CO₂ trap in the Mosquito Magnet Pro class. It catalytically burns propane to make real CO₂, heat, and moisture — the exact host cues an egg-laying female hunts — and runs continuously to intercept females before they breed, delivering measurable population knockdown over 4–8 weeks across roughly an acre. Larvicide-dosing stations like In2Care take a different, complementary approach: instead of catching adults they use mosquitoes as delivery vehicles to spread a larvicide back to the water where they breed. Both are professional-grade and both are slow-burn, whole-season tools — neither treats the foliage where adult mosquitoes rest the way a barrier spray does.',
+    answer: 'For genuine, property-scale mosquito reduction the best professional-grade system you can run in Canada is a propane CO₂ trap on Health Canada’s register, such as the Mosquito Magnet Patriot Plus (Reg. No. 32375) or Executive (Reg. No. 29944); the older Mosquito Magnet Pro’s Canadian registration is listed as cancelled. It catalytically burns propane to make real CO₂, heat, and moisture — the exact host cues an egg-laying female hunts — and runs continuously to intercept females before they breed, delivering measurable population knockdown over 4–8 weeks across roughly an acre. Larvicide-dosing stations like In2Care take a different, complementary approach: instead of catching adults they use mosquitoes as delivery vehicles to spread a larvicide back to the water where they breed, but In2Care has no Canadian registration. Both are slow-burn, whole-season tools — neither treats the foliage where adult mosquitoes rest the way a barrier spray does.',
   },
   {
     question: 'What is the difference between a Mosquito Magnet Pro and an In2Care station?',
-    answer: 'They attack opposite ends of the mosquito life cycle. A Mosquito Magnet Pro is an adult-trapping machine: it lures host-seeking females in with real CO₂, heat, and moisture and vacuums them into a net, thinning the breeding population you can catch. An In2Care station is an autodissemination device: a female lands on a treated gauze inside the station, picks up a larvicide (pyriproxyfen) and a fungus on her legs, then carries that larvicide to every water source she visits — poisoning larvae in cryptic breeding sites you could never find or reach, and shortening her own life. Traps remove the adults you catch; stations sabotage the breeding sites you cannot see. Serious programs often run both.',
+    answer: 'They attack opposite ends of the mosquito life cycle. A Mosquito Magnet Pro is an adult-trapping machine: it lures host-seeking females in with real CO₂, heat, and moisture and vacuums them into a net, thinning the breeding population you can catch. An In2Care station is an autodissemination device: a female lands on a treated gauze inside the station, picks up a larvicide (pyriproxyfen) and a fungus on her legs, then carries that larvicide to every water source she visits — poisoning larvae in cryptic breeding sites you could never find or reach, and shortening her own life. Traps remove the adults you catch; stations sabotage the breeding sites you cannot see. Serious programs in the United States, where the In2Care refills are EPA-registered, often run both; in Canada In2Care has no registration.',
   },
   {
     question: 'Do professional propane mosquito traps actually work?',
@@ -34,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'Is In2Care legal and available in Canada?',
-    answer: 'In2Care is a professional autodissemination system that relies on a larvicide active ingredient (pyriproxyfen). Because it disperses a pesticide, the product and its use in Canada fall under Health Canada PMRA regulation, and it is positioned as a tool for licensed mosquito-control and public-health operators rather than a consumer plug-and-play purchase. Do not buy grey-market US larvicide refills and run them here on the assumption that a US label transfers — it does not, and unregistered pesticide use is a compliance problem. If you want the autodissemination approach, work through a licensed operator. By contrast, a propane trap is a device, not a pesticide, so it carries none of that registration friction.',
+    answer: 'Not at the moment. In2Care is a professional autodissemination system that relies on a larvicide active ingredient (pyriproxyfen), and Health Canada’s pesticide registry lists no In2Care product and no pyriproxyfen product labelled for mosquito larvae (searched October 28, 2026). In the United States its refills are registered with the EPA (Reg. Nos. 91720-1 and 91720-2), but a US registration does not transfer: the Pest Control Products Act bars importing or using an unregistered pest control product, so do not buy US refills and run them here, and a licensed operator cannot use it either. Propane traps are regulated too: the Mosquito Magnet Patriot Plus (Reg. No. 32375) and Executive (Reg. No. 29944) are registered devices.',
   },
   {
     question: 'How much do professional mosquito trapping systems cost to run?',
@@ -54,7 +57,7 @@ const FAQS = [
   },
   {
     question: 'Can I run a professional mosquito trap myself, or do I need an operator?',
-    answer: 'A propane CO₂ trap is homeowner-operable — you buy it, connect a propane tank and attractant, place it correctly, and maintain it. It is a device, so there is no licensing barrier; the work is logistics and consistency. An autodissemination larvicide station is different: because it disperses a regulated pesticide, it is designed for licensed operators who can source registered refills and follow label requirements. So the practical split is: DIY the trap if you want an adult-catching machine you control, and engage a professional program if you want the larvicide-station approach — or, for most GTA yards, skip both and have a licensed barrier-spray service handle the whole property.',
+    answer: 'A propane CO₂ trap is homeowner-operable — you buy it, connect a propane tank and attractant, place it correctly, and maintain it. The registered models (Patriot Plus, Reg. No. 32375; Executive, Reg. No. 29944) are domestic-class devices, so there is no licensing barrier; the work is logistics and consistency. An autodissemination larvicide station is different: In2Care has no Canadian registration, so it is not available for use here, by homeowners or by licensed operators. So the practical split in Canada is: DIY a registered trap if you want an adult-catching machine you control — or, for most GTA yards, have a licensed barrier-spray service handle the whole property.',
   },
   {
     question: 'Will a professional trap protect my yard for a party this weekend?',
@@ -66,13 +69,21 @@ const FAQS = [
   },
   {
     question: 'What is the smartest professional-grade setup for a large GTA property?',
-    answer: 'Stack the tools by life-cycle stage rather than betting everything on one machine. Kill larvae at the source with BTI in every water feature and low spot; suppress the breeding adult population with a correctly placed, continuously run propane CO₂ trap (or an operator-run larvicide-station program on a bigger acreage); and get whole-yard residual coverage — including ticks — from a professional barrier spray, renewed on a seasonal schedule. Add a Thermacell on the patio for instant personal relief. The trap is the long-game population tool; the spray is what treats the adults resting in your yard. On most GTA lots the spray is the anchor and the trap is the supplement, not the other way round.',
+    answer: 'Stack the tools by life-cycle stage rather than betting everything on one machine. Kill larvae at the source with BTI in every water feature and low spot; suppress the breeding adult population with a correctly placed, continuously run, registered propane CO₂ trap (In2Care-style larvicide stations are not registered in Canada); and get whole-yard residual coverage — including ticks — from a professional barrier spray, renewed on a seasonal schedule. Add a Thermacell on the patio for instant personal relief. The trap is the long-game population tool; the spray is what treats the adults resting in your yard. On most GTA lots the spray is the anchor and the trap is the supplement, not the other way round.',
+  },
+  {
+    question: 'Which commercial mosquito traps are registered in Canada?',
+    answer: 'On October 28, 2026, Health Canada’s pesticide registry listed five current outdoor mosquito traps, all propane models in the domestic class: the Mosquito Magnet Patriot Plus (Reg. No. 32375) and Executive (29944), the SkeeterVac SV-15 (28452) and SV-3100C (31703), and the MK12 Guardian Mosquito Trap (28460). Older Mosquito Magnet models, including the Pro (28441) and Pro Plus (28442), are listed as cancelled, and the registry has no Biogents, DynaTrap or In2Care product. Octenol lures carry their own numbers, such as 28440. Look for “Reg. No. … P.C.P. Act” on the box before you buy.',
+  },
+  {
+    question: 'Can I buy an In2Care mosquito trap on Amazon in Canada?',
+    answer: 'You may find a listing, but Health Canada’s pesticide registry lists no In2Care product and no pyriproxyfen product labelled for mosquito larvae (searched October 28, 2026). The Pest Control Products Act bars importing or using an unregistered pest control product, and Health Canada says to buy only pesticides registered for use in Canada, including online. The In2Care refills are registered with the US EPA (Reg. Nos. 91720-1 and 91720-2), which does not carry over to Canada. For larvae here, a registered BTI product such as Mosquito Dunks (Reg. No. 28888) treats the standing water you can reach.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best professional-grade mosquito trapping systems in Canada for 2026: commercial propane CO₂ traps (Mosquito Magnet Pro class) vs larvicide autodissemination stations (In2Care) — how they work, sizing, running cost, placement, and where a barrier spray still wins.',
+  description: 'Commercial mosquito traps in Canada: which propane CO₂ traps are registered, sizing, placement and running costs, and why In2Care is not an option here.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -97,7 +108,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             <span className="text-white">Best Professional Mosquito Trap Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Pro-grade propane CO₂ trapping systems and larvicide autodissemination stations, compared for Canadian acreage and estate-size yards &mdash; how each attacks the mosquito life cycle, real coverage and running cost, correct placement, and why a trap works by attrition over weeks while a barrier spray treats the foliage where adult mosquitoes rest.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">In Canada the professional-grade trap you can buy and run yourself is a propane CO&#8322; trap on Health Canada&rsquo;s register: the Mosquito Magnet Patriot Plus (Reg. No. 32375) or Executive (29944), or a SkeeterVac (SV-15, 28452; SV-3100C, 31703). It suits rural acreage, cottages and estate lots with a breeding source nearby, run from May and judged over weeks. Two names in this category need a warning: the Mosquito Magnet Pro&rsquo;s Canadian registration is listed as cancelled, and the In2Care larvicide station has no Canadian registration at all.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -110,12 +121,12 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best professional mosquito trap in Canada is a <strong>commercial propane CO&#8322; system</strong> in the Mosquito Magnet Pro class &mdash; it burns propane to make real CO&#8322;, heat, and moisture, the cues egg-laying females hunt, and knocks the breeding population down over 4&ndash;8 weeks across roughly an acre. <strong>Larvicide autodissemination stations</strong> (In2Care) work the opposite end of the life cycle, using mosquitoes to spread a larvicide back to their own breeding water &mdash; powerful, but a licensed, PMRA-regulated tool, not a consumer box. Both are slow-burn seasonal systems; neither treats the foliage where adult mosquitoes rest the way a barrier spray does.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best professional mosquito trap you can run in Canada is a <strong>registered propane CO&#8322; trap</strong> such as the Mosquito Magnet Patriot Plus or Executive &mdash; it burns propane to make real CO&#8322;, heat, and moisture, the cues egg-laying females hunt, and knocks the breeding population down over 4&ndash;8 weeks across roughly an acre. <strong>Larvicide autodissemination stations</strong> (In2Care) work the opposite end of the life cycle, using mosquitoes to spread a larvicide back to their own breeding water &mdash; but Health Canada&rsquo;s registry lists no In2Care product, so the station is not an option here. Both are slow-burn seasonal systems; neither treats the foliage where adult mosquitoes rest the way a barrier spray does.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Propane CO&#8322; traps catch adult females; larvicide stations poison the larvae in breeding sites you cannot see.</li>
               <li>A single commercial propane trap influences roughly an acre &mdash; big, complex lots need multiple units.</li>
               <li>Results are cumulative over 4&ndash;8 weeks of <em>continuous</em> running; switching a trap off lets numbers rebound.</li>
-              <li>In2Care disperses a regulated pesticide, so it is a licensed-operator tool under Health Canada PMRA &mdash; not a grey-market US refill you run yourself.</li>
+              <li>In2Care has no Canadian registration (Health Canada registry, October 28, 2026), so it is not available for use here, by homeowners or licensed operators; its refills are EPA-registered in the United States.</li>
               <li>No trap or station controls ticks or treats the foliage where adult mosquitoes rest &mdash; a barrier spray does both.</li>
               <li>On most GTA lots the spray is the anchor and a pro trap is the supplement, not the reverse.</li>
             </ul>
@@ -199,35 +210,35 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Commercial propane CO₂<br /><span className="font-normal text-xs text-gray-500">Mosquito Magnet Pro</span></td>
                   <td className="px-4 py-3 text-gray-700">Burns propane → real CO₂ + heat + moisture; vacuums in females</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">~1 acre</strong> per unit</td>
-                  <td className="px-4 py-3 text-gray-700">Device — no pesticide registration</td>
+                  <td className="px-4 py-3 text-gray-700">Registered device: Patriot Plus 32375, Executive 29944 (the Pro, 28441, is cancelled)</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito magnet pro commercial trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Larvicide station<br /><span className="font-normal text-xs text-gray-500">In2Care autodissemination</span></td>
                   <td className="px-4 py-3 text-gray-700">Female picks up larvicide on treated gauze, spreads it to breeding water</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Grid</strong> — zone-wide</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">PMRA-regulated</strong> — licensed operators</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Not registered in Canada</strong> — no In2Care product in Health Canada&rsquo;s registry</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="mosquito larvicide station" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Prosumer CO₂ lure<br /><span className="font-normal text-xs text-gray-500">CO₂ + octenol trap</span></td>
                   <td className="px-4 py-3 text-gray-700">CO₂ source + octenol lure mimics a host; fan suction</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> — supplemental</td>
-                  <td className="px-4 py-3 text-gray-700">Device — no pesticide registration</td>
+                  <td className="px-4 py-3 text-gray-700">Needs a Canadian Reg. No. (a Schedule 1 device); octenol lures are registered separately, e.g. 28440</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="co2 octenol mosquito lure trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">UV + fan<br /><span className="font-normal text-xs text-gray-500">DynaTrap, zappers</span></td>
                   <td className="px-4 py-3 text-gray-700">UV light draws insects; fan or grid kills them (no CO₂)</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Weak</strong> for mosquitoes</td>
-                  <td className="px-4 py-3 text-gray-700">Device — but ~5% of catch is mosquitoes</td>
+                  <td className="px-4 py-3 text-gray-700">Needs a Reg. No. unless a CSA-certified high-voltage zapper; ~5% of catch is mosquitoes</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="dynatrap insect trap" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Availability varies across Amazon.ca, commercial pest-supply distributors, and licensed operators. Propane traps are devices you can buy and run yourself; larvicide stations disperse a regulated pesticide and are sold to licensed mosquito-control programs, not as consumer refills.
+            Availability varies across Amazon.ca, commercial pest-supply distributors, and licensed operators. Registered propane traps are domestic-class devices you can buy and run yourself; the In2Care larvicide station has no Canadian registration, so it is not sold for use here.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -245,15 +256,15 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
               <tbody>
                 {[
                   ['Best adult-trapping system', 'Commercial propane CO₂ trap (real CO₂ draws females)'],
-                  ['Best life-cycle system', 'Larvicide autodissemination station (In2Care)'],
+                  ['Best life-cycle system', 'Larvicide autodissemination station (In2Care), not registered in Canada'],
                   ['Coverage per propane unit', 'Roughly 1 acre in good conditions'],
                   ['Time to real results', '4–8 weeks of continuous running'],
                   ['Estate-lot approach', 'Multiple perimeter-placed units, not one bigger box'],
                   ['Tick effectiveness', 'None — ticks do not fly to any trap or station'],
                   ['Effect on a specific evening', 'None — suppression builds over weeks'],
                   ['Running cost driver', 'Propane + attractant (traps); larvicide refills (stations)'],
-                  ['DIY-friendly', 'Propane trap yes; larvicide station no (licensed operator)'],
-                  ['Health Canada status', 'Traps are devices; larvicide stations are PMRA-regulated'],
+                  ['DIY-friendly', 'Registered propane trap yes; In2Care is not registered in Canada'],
+                  ['Health Canada status', 'Traps are regulated devices: Patriot Plus 32375 and Executive 29944 registered, Mosquito Magnet Pro 28441 cancelled; no In2Care registration'],
                   ['Best supplement', 'Prosumer CO₂ / octenol lure trap'],
                   ['Whole-yard mosquitoes + ticks', 'Professional barrier spray'],
                 ].map(([k, v]) => (
@@ -265,6 +276,34 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
               </tbody>
             </table>
           </div>
+
+          <QuickIdTable
+            title="Mosquito Traps on Health Canada’s Register (October 28, 2026)"
+            head={['Trap or system', 'Reg. No.', 'Status', 'What it is']}
+            rows={[
+              ['Mosquito Magnet Patriot Plus', '32375', 'Registered, domestic class', 'Propane CO₂ trap'],
+              ['Mosquito Magnet Executive', '29944', 'Registered, domestic class', 'Propane CO₂ trap'],
+              ['SkeeterVac SV-15', '28452', 'Registered, domestic class', 'Propane trap (Mr. Bar-B-Q Products)'],
+              ['SkeeterVac SV-3100C', '31703', 'Registered, domestic class', 'Propane trap (Mr. Bar-B-Q Products)'],
+              ['MK12 Guardian Mosquito Trap', '28460', 'Registered, domestic class', 'Propane trap (Koolatron)'],
+              ['Mosquito Magnet Pro and Pro Plus', '28441 and 28442', 'Cancelled (expiry Nov 12, 2024)', 'Older propane models: check the model number on any listing'],
+              ['Octenol lures', '28440 (Mosquito Magnet), 28451 (SkeeterVac), 28456 (Flowtron), 29217 and 30002 (Bite Shield)', 'Registered', 'Attractant cartridges, each with its own number'],
+              ['In2Care Mosquito Station', 'None', 'Not registered; no pyriproxyfen product labelled for mosquito larvae', 'Larvicide autodissemination; its refills are EPA-registered in the US (91720-1, 91720-2)'],
+              ['Biogents BG-Mosquitaire, DynaTrap', 'None', 'No product in the registry', 'Fan traps (skin-scent lure or UV light)'],
+              ['BTI larvicide for standing water', '28888 (Mosquito Dunks)', 'Registered, domestic class', 'Kills larvae in water you can reach'],
+            ]}
+            caption={<>From Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide registry</a> (product, registrant and label searches, October 28, 2026) and the US EPA&rsquo;s <a href="https://www3.epa.gov/pesticides/chem_search/ppls/091720-00002-20240725.pdf" target="_blank" rel="noopener noreferrer" className="underline">In2Mix-R label record</a>. Registration is not a promise of fewer bites: Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">insect repellent page</a> lists odour-baited mosquito traps among products that do not protect well against biting insects.</>}
+          />
+
+          <h2 className="text-xl font-extrabold text-brand-900 mt-8 mb-4">Which Professional Setup for Your Property?</h2>
+          <ul className="space-y-2 text-sm text-gray-700 list-disc pl-5">
+            <li><strong>Rural acreage or a cottage with a breeding source:</strong> one registered propane trap for roughly every acre, run continuously from May, 10&ndash;12 metres from where people sit.</li>
+            <li><strong>An estate lot over an acre:</strong> several registered units around the perimeter, each covering its own sector.</li>
+            <li><strong>Breeding water you can reach:</strong> a registered BTI larvicide such as Mosquito Dunks (Reg. No. 28888), re-dosed on the label&rsquo;s schedule.</li>
+            <li><strong>Breeding sites you cannot find:</strong> In2Care is not an option in Canada; a barrier treatment on the foliage where adults rest covers what a trap misses.</li>
+            <li><strong>A wedding or party this weekend:</strong> no trap works that fast, so book a barrier spray ahead of the event.</li>
+            <li><strong>Ticks:</strong> no trap or station controls them.</li>
+          </ul>
         </div>
       </section>
 
@@ -283,15 +322,17 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
           <p>The word &ldquo;professional&rdquo; gets slapped on a lot of boxes, so let us be precise about what actually separates a pro-grade mosquito system from the $60 gadget on the big-box end-cap. A professional system does one of two things that consumer traps do not: it either <strong>generates real carbon dioxide</strong> to draw and kill egg-laying females at property scale, or it <strong>weaponises the mosquitoes themselves</strong> to carry a larvicide back into breeding water you can never find. Everything else &mdash; UV lights, zappers, sonic gadgets &mdash; is either a supplemental catcher or outright theatre. The two philosophies on this page attack opposite ends of the mosquito life cycle, and the smartest programs use both.</p>
           <p>The reason this distinction matters so much is that mosquitoes are a <em>population</em> problem, not an individual-bug problem. Killing the ten mosquitoes currently on your deck changes nothing if a hundred more hatch from a hidden pool this week. A professional system is judged by whether it bends the population curve over the season, not by how full the catch bag looks after one night. Keep that lens as you read: the goal is fewer mosquitoes bred and fewer females surviving to bite, cumulatively, over weeks.</p>
 
-          <h2>Top Pick: Commercial Propane CO₂ Traps (Mosquito Magnet Pro class)</h2>
+          <h2>Top Pick: Commercial Propane CO₂ Traps (Registered in Canada)</h2>
           <p>If you want a machine you can buy, own, and run yourself that measurably reduces the biting population on a large property, a commercial propane CO₂ trap is the pick. The mechanism is what earns the &ldquo;pro&rdquo; label: the trap catalytically burns propane to produce a plume of <strong>real CO₂, heat, and moisture</strong> &mdash; the precise combination of cues a host-seeking female tracks when she is hunting for a blood meal. She follows the plume in, and a fan vacuums her into a retention net where she dehydrates and dies. Because it is <em>females</em> being intercepted &mdash; the ones that would otherwise lay the next generation &mdash; the effect compounds week over week as fewer eggs get laid.</p>
-          <p>The Mosquito Magnet Pro class of machine is built for exactly this continuous, all-season duty. Run correctly, these traps produce genuine population knockdown over roughly 4&ndash;8 weeks within about an acre. The honest catch is cost and commitment: the machine is a premium purchase, and then every season you feed it propane and attractant cartridges, and clean the net so airflow stays strong. It rewards a property with an on-site breeding source and an owner willing to run it 24/7. If you want the full model-by-model detail and buying notes, our <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link> covers the consumer line, and the professional units share the same core physics at higher output. Crucially, a propane trap is a <strong>device</strong>, not a pesticide &mdash; so it carries no Health Canada registration friction at all.</p>
+          <Photo id="aedes-albopictus-blood-fed" alt="Asian tiger mosquito on a finger, its abdomen red with blood" caption="An Asian tiger mosquito, Aedes albopictus, on the photographer’s finger, its abdomen red with the blood it has taken (CDC photograph). Blood-seeking mosquitoes are what a propane trap’s plume of CO₂, heat and moisture is built to draw in." />
+          <p>A commercial-grade propane trap is built for exactly this continuous, all-season duty. Run correctly, these traps produce genuine population knockdown over roughly 4&ndash;8 weeks within about an acre. The honest catch is cost and commitment: the machine is a premium purchase, and then every season you feed it propane and attractant cartridges, and clean the net so airflow stays strong. It rewards a property with an on-site breeding source and an owner willing to run it 24/7. If you want the full model-by-model detail and buying notes, our <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet Canada guide</Link> covers the consumer line, and the professional units share the same core physics at higher output. In Canada a propane trap is still a regulated <strong>device</strong>: Health Canada&rsquo;s registry lists the Mosquito Magnet Patriot Plus (Reg. No. 32375) and Executive (29944) as registered and the Mosquito Magnet Pro (28441) as cancelled, so check the number on the box.</p>
           <p><strong>Best for:</strong> rural acreage, cottages, and estate lots with standing water or wetland edges nearby, where the multi-week investment genuinely pays off.</p>
 
           <NextUp path="/blog/best-professional-mosquito-trap-canada" />
           <h2>The Other Philosophy: Larvicide Autodissemination Stations (In2Care)</h2>
           <p>The second professional approach does not try to catch adults at all &mdash; it turns the mosquitoes into unwitting couriers. An In2Care-style station is a small container holding a treated gauze. A female enters looking to lay eggs, contacts the gauze, and leaves carrying two things on her legs: a <strong>larvicide (pyriproxyfen)</strong> and, in the full system, an entomopathogenic fungus. She then visits multiple water sources to distribute her eggs &mdash; and at every one she contaminates the water with the larvicide, killing the larvae developing there. She is also shortened in life by the fungus. In effect, the mosquitoes do your breeding-site treatment for you, reaching the cryptic, tiny, hidden pools of water &mdash; bottle caps, tarp folds, clogged gutters, tree holes &mdash; that no human survey ever finds.</p>
-          <p>This is a genuinely powerful, research-backed strategy, and for chronic infestations driven by uncontrollable breeding sites it can outperform adult trapping. But there is a hard regulatory reality in Canada: because the station disperses a <strong>registered pesticide active ingredient</strong>, its use falls under Health Canada&rsquo;s PMRA, and it is positioned as a tool for <em>licensed</em> mosquito-control and public-health operators, not a consumer plug-and-play box. Do not import grey-market US larvicide refills and run them here on the assumption a US label transfers &mdash; it does not, and unregistered pesticide use is a compliance problem you do not want. If the autodissemination approach fits your property, engage a licensed operator who can source registered product and follow the label. That is the difference between the two picks in one sentence: <em>the propane trap is a device you run; the larvicide station is a pesticide program you commission.</em></p>
+          <Photo id="culex-larvae" alt="Mosquito larvae hanging in water at four stages of development" caption="Southern house mosquito larvae, Culex quinquefasciatus, in water, at the four stages of larval development (CDC photograph). Larvae like these are what a larvicide targets in the water where females lay their eggs." />
+          <p>This is a genuinely powerful, research-backed strategy, and for chronic infestations driven by uncontrollable breeding sites it can outperform adult trapping. But there is a hard regulatory reality in Canada: Health Canada&rsquo;s pesticide registry lists <strong>no In2Care product</strong>, and no pyriproxyfen product labelled for mosquito larvae (searched October 28, 2026). In the United States the refills are registered with the EPA (Reg. Nos. 91720-1 and 91720-2); that does not carry over. Do not import US larvicide refills and run them here on the assumption a US label transfers &mdash; it does not, and the Pest Control Products Act bars using an unregistered pest control product. In Canada the larval half of the job goes to a registered BTI product such as Mosquito Dunks (Reg. No. 28888), in the water you can reach. That is the difference between the two picks in one sentence: <em>in Canada the propane trap is a registered device you can run; the larvicide station is not available here.</em></p>
 
           <h2>How to Choose: Sizing, Placement, and What You Are Paying For</h2>
           <p>Professional systems fail far more often from bad sizing and placement than from bad hardware. Before you spend, work through these decisions honestly &mdash; they determine whether the machine earns its cost or becomes an expensive lawn ornament.</p>
@@ -300,9 +341,21 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
             <li><strong>Place it as an interceptor.</strong> Put the trap <em>between</em> the mosquitoes&rsquo; breeding and resting zones (shrubs, tall grass, standing water, shaded wood edges) and the patio you want to protect, 10&ndash;12 metres from where people sit, in shade, slightly downwind. Placed wrong &mdash; say, right on the deck &mdash; it pulls females across you on their way in.</li>
             <li><strong>Commit to continuous running.</strong> The population-suppression effect is cumulative and takes 4&ndash;8 weeks. Switching the trap off between weekends resets the clock and lets numbers rebound. If you will not run it continuously, buy a spray instead.</li>
             <li><strong>Budget the running cost, not just the sticker.</strong> Propane, attractant cartridges, and net replacements are the real annual number for a trap; refill service is the real number for a station. An under-fed system is not a professional system.</li>
-            <li><strong>Match the philosophy to the problem.</strong> Visible adults arriving from a known nearby source &rarr; adult trap. A chronic problem from breeding sites you cannot locate &rarr; larvicide station via an operator. A mixed suburban lot re-seeded by neighbours &rarr; honestly, a barrier spray.</li>
+            <li><strong>Match the philosophy to the problem.</strong> Visible adults arriving from a known nearby source &rarr; adult trap. A chronic problem from breeding sites you cannot locate &rarr; in Canada, registered BTI wherever you can reach the water plus a barrier spray, since In2Care is not registered here. A mixed suburban lot re-seeded by neighbours &rarr; honestly, a barrier spray.</li>
           </ul>
           <p>What you are paying a premium for, in short, is <strong>real CO₂ generation and sustained output</strong> (on the trap side) or <strong>reach into invisible breeding sites</strong> (on the station side). Those are the two things a cheap UV gadget cannot fake. You are <em>not</em> paying for a magic force field &mdash; no professional system clears the air on demand.</p>
+
+          <h2>Professional Mosquito Trap Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A current Reg. No. on the box:</strong> Patriot Plus 32375, Executive 29944, SkeeterVac SV-15 28452 or SV-3100C 31703, MK12 Guardian 28460.</li>
+            <li><strong>Not a cancelled model:</strong> Health Canada&rsquo;s registry lists the Mosquito Magnet Pro (28441), Pro Plus (28442), Liberty (28444), Liberty Plus (28443), Defender (28445), Patriot (29945) and Independence (29943) as cancelled.</li>
+            <li><strong>An attractant with its own number:</strong> octenol lures such as 28440 (Mosquito Magnet) or 28451 (SkeeterVac).</li>
+            <li><strong>Propane for the season:</strong> a full tank on hand and a plan for refills through September.</li>
+            <li><strong>Power at the spot,</strong> if your model plugs in.</li>
+            <li><strong>A placement plan:</strong> between the breeding area and the patio, in shade, 10&ndash;12 metres from where people sit.</li>
+            <li><strong>A start date:</strong> early May, then continuous running with the net kept clean.</li>
+            <li><strong>Realistic expectations:</strong> Health Canada lists odour-baited traps among products that do not protect well against bites, so keep repellent for evenings outside.</li>
+          </ol>
 
           <RelatedLinks path="/blog/best-professional-mosquito-trap-canada" />
           <h2>Why These Beat a DynaTrap or Bug Zapper</h2>
@@ -334,7 +387,7 @@ export default function BestProfessionalMosquitoTrapCanadaPage() {
           <p>If you own the kind of property where professional mosquito hardware makes sense, do not bet everything on one machine. Stack the tools by life-cycle stage:</p>
           <ol>
             <li><strong>Kill larvae at the source</strong> with BTI in every water feature, low spot, and container &mdash; the cheapest, most effective intervention there is.</li>
-            <li><strong>Suppress the breeding adults</strong> with a correctly placed, continuously run propane CO₂ trap, or an operator-run larvicide-station program on bigger acreage.</li>
+            <li><strong>Suppress the breeding adults</strong> with a correctly placed, continuously run, registered propane CO₂ trap (In2Care-style larvicide stations are not registered in Canada).</li>
             <li><strong>Get whole-yard residual coverage &mdash; including ticks &mdash;</strong> from a <Link href="/mosquito-control">professional barrier spray</Link>, renewed on a seasonal schedule. This is the step that treats the adults resting in your yard.</li>
             <li><strong>Add a Thermacell on the patio</strong> for an instant personal repellent bubble while you sit outside.</li>
           </ol>

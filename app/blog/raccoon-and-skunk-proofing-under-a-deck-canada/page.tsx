@@ -14,12 +14,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'raccoon-and-skunk-proofing-under-a-deck-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Raccoon & Skunk Proofing Under a Deck in Canada — The L-Footing Trench That Actually Keeps Them Out'
-const META_TITLE = 'Raccoon & Skunk Proofing Under a Deck'
+// TITLE NOTE (Oct 28, 2026): was 'Raccoon & Skunk Proofing Under a Deck'; top queries (Jul 28-Oct 25): raccoon proof wire mesh 7 (pos 11.3), how to get rid of raccoons under deck 6 (20.3), do raccoons live under decks 1, how to keep animals out from under your deck 1. 'raccoon repellent' stays with /blog/raccoon-deterrent, 'raccoon trap' with /blog/best-raccoon-live-trap-canada.
+const META_TITLE = 'How to Get Rid of Raccoons & Skunks Under a Deck'
 
 const FAQS = [
   {
@@ -40,7 +44,7 @@ const FAQS = [
   },
   {
     question: 'Can I trap the raccoon or skunk and move it somewhere else?',
-    answer: 'No — not legally in Ontario, and it would not solve the problem anyway. Under the Fish and Wildlife Conservation Act a captured wild animal may only be released within one kilometre of the capture site, and generally within 24 hours. Driving a raccoon or skunk to a conservation area is an offence that can carry provincial charges and fines, and the rule exists because long-distance relocation spreads rabies and distemper between animal populations. Play it forward and trapping collapses on its own terms: an animal released at the legal maximum distance is back within a night or two, and the den under your deck is still open and still attractive. A trapped animal in spring is very likely a nursing mother whose young then starve out of reach. Exclusion is not the humane alternative to trapping — it is the only version that works.',
+    answer: 'No — not legally in Ontario, and it would not solve the problem anyway. Ontario’s rule is to release a captured wild animal within 24 hours and within one kilometre of where it was caught, on private land only with the owner’s permission; a sick, injured or orphaned animal goes to an authorized wildlife rehabilitator. Driving a raccoon or skunk to a conservation area is an offence that can carry provincial charges and fines, and Ontario says the rules help prevent the spread of diseases, ensure wildlife are treated humanely and keep animals within their home ranges. Play it forward and trapping collapses on its own terms: Ontario points out that relocating an animal will not always solve the problem, because whatever attracted it is likely still there, and the den under your deck is still open and still attractive. Trapping in spring or summer can also leave starving young behind, as the City of Toronto warns. Exclusion is not the humane alternative to trapping — it is the only version that works.',
   },
   {
     question: 'What if I cannot dig a trench — tree roots, concrete or a patio?',
@@ -54,15 +58,28 @@ const FAQS = [
     question: 'How do I get rid of the skunk smell under a deck?',
     answer: 'Ventilation and time do most of it, and the fix that matters is removing the reason a skunk is there. Musk lingers in soil and on wood for weeks, and no spray reaches under a deck properly. Once the space is verifiably empty and screened, the smell fades on its own as the soil dries and airs. If the odour is intense because an animal actually sprayed under there, the soil directly beneath is the source — where you can reach it, remove and replace the top few centimetres. Enzyme-based odour neutralisers made for pet accidents help on wood and concrete surfaces you can physically reach. What does not work is masking agents, and what will bring the smell straight back is leaving the entry open. Seal it and the problem stops renewing itself.',
   },
+  {
+    question: 'Do raccoons live under decks?',
+    answer: 'Yes. The City of Toronto says raccoons like to hide under decks and other structures, and the space under a deck gives them a dry roof and a hidden entrance close to food. A mother may also raise her young there: Hinterland Who’s Who puts the peak of raccoon births in May and says the young stay in the maternity den for about eight weeks. Look for torn lattice or skirting, a worn entrance and droppings, and never close the opening until flour or paper checks show it is empty.',
+  },
+  {
+    question: 'How do I stop raccoons from pooping on my deck?',
+    answer: 'A raccoon that keeps using the same spot has made a latrine. Clean it the CDC’s way: disposable gloves, an N95 respirator if the area is enclosed, a light mist of water so you do not stir up dust, the droppings removed to be burned, buried or sent to a landfill, and the deck treated with boiling water, because heat kills the roundworm eggs. Then remove what draws the raccoon: close the space under the deck, latch the green bin and bring pet food in at night. Our raccoon poop guide shows how to confirm it is a raccoon latrine.',
+  },
+  {
+    question: 'What wire mesh is raccoon proof?',
+    answer: 'Galvanised hardware cloth. The Internet Center for Wildlife Damage Management recommends quality 1/4- or 1/2-inch hardware cloth for decks and porches and says galvanized is best, and the City of Toronto’s instructions call for galvanized heavy wire screening. Chicken wire and plastic or wood lattice are not barriers: raccoons tear them. Half-inch mesh also keeps rats and chipmunks out, but a mouse passes through it, so use quarter-inch where mice are the problem, and bend the bottom into an L underground so nothing can dig under it.',
+  },
 ];
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How to raccoon- and skunk-proof under a deck or shed in Canada: the L-footing hardware cloth trench, the vacancy check, and the denning-season rule.',
+  description: 'How to get rid of raccoons and skunks under a deck for good: check it is empty, then an L-shaped footing of galvanised hardware cloth, in autumn. Ontario rules.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('raccoon-on-chimney'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -70,7 +87,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to permanently excluding raccoons and skunks from under a deck, shed or porch — the L-footing hardware cloth method, the vacancy check that prevents a wildlife disaster, the autumn denning-season window, and Ontario relocation law.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian guide to permanently excluding raccoons and skunks from under a deck, shed or porch — the L-footing hardware cloth method, the vacancy check that prevents a wildlife disaster, the autumn denning-season window, and Ontario relocation law.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('raccoon-on-chimney') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Raccoon & Skunk Proofing Under a Deck', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -83,7 +100,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
             <span className="text-white">Raccoon &amp; Skunk Proofing Under a Deck</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Denning season under decks, sheds and porches runs autumn into spring, and no repellent survives it. The permanent fix is a trench, a roll of galvanised mesh, and one bend in the wire that most people leave out &mdash; plus a vacancy check you must not skip.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> to get rid of raccoons or skunks under a deck for good, make sure the space is empty, then close it with half-inch galvanised hardware cloth that runs down and bends outward underground in an L, the roll picked below. The City of Toronto gives 20 to 30 cm down and 20 to 30 cm out. Do it in autumn, after the young have left the den, as Ontario advises.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -101,7 +118,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
               <li><strong>Half-inch galvanised hardware cloth</strong>, 19-gauge or heavier. Chicken wire tears; lattice alone is decoration.</li>
               <li>The <strong>outward L-footing</strong> is what makes it permanent. Surface-stapled mesh is defeated in one night.</li>
               <li><strong>Confirm vacancy before you close it</strong>: flour tracks, the newspaper test, a trail camera if you want certainty.</li>
-              <li>Raccoon kits arrive March&ndash;May and cannot leave the den on their own for 8&ndash;10 weeks; skunk kits arrive around May. Do not seal in spring.</li>
+              <li>Raccoon births peak in May and the young stay in the den about eight weeks; skunk kits are born in early May and stay with the mother until autumn. Do not seal in spring or early summer.</li>
               <li>No trench possible? A <strong>surface apron</strong> of mesh pinned flat and covered works just as well.</li>
               <li>Ontario law caps relocation of captured wildlife at <strong>1 km</strong> &mdash; trapping does not solve an open den anyway.</li>
               <li>Budget roughly <strong>$150&ndash;$250</strong> in materials for a typical suburban deck &mdash; against a $40 repellent that lasts a week.</li>
@@ -179,6 +196,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
 
           <h2>Why Under Your Deck Is Prime Real Estate</h2>
           <p>A deck, shed, porch or set of concrete steps offers a wild animal the three things a den site needs: a dry roof, a defensible entrance, and total concealment from anything larger. It is warmer than open ground in winter, shaded in summer, and it sits inside a suburban food landscape of green bins, pet bowls, bird seed and grub-rich lawn. From a raccoon or skunk&rsquo;s perspective it is not a compromise. It is better than anything available in the ravine.</p>
+          <Photo id="raccoon-on-chimney" alt="Raccoon standing on top of a house chimney at night" caption="A raccoon on top of a house chimney at night (Chapel Hill, North Carolina). Raccoons climb and use our buildings as den sites, and the dry, hidden space under a deck is one of the best on offer." />
           <p>That is why repellents lose this fight. You are not competing against indifference; you are competing against the best den site for several hundred metres. Scent granules, lights, ultrasonic devices and one-off harassment can move an animal for a few nights, but the void stays open and the next animal &mdash; or the same one &mdash; moves back in. The only intervention that ends it is closing the space, and closing it in a way that survives digging.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">The material that closes the space is half-inch galvanised hardware cloth — the one purchase this whole job depends on:</p>
           <div className="not-prose mb-6">
@@ -193,11 +211,27 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
             <li><strong>Raccoon.</strong> A larger, rougher opening, frequently made by tearing or levering existing lattice rather than digging &mdash; raccoons have hands and use them. Look for torn plastic lattice, bent skirting, greasy rub marks on the entry edges, and scat. Raccoons also climb, so a deck entry may be over a joist rather than under the skirt.</li>
             <li><strong>Both, at different times.</strong> Common. A void that suited a skunk in March suits a raccoon in October. This is another argument for sealing the whole perimeter rather than the one hole you found.</li>
           </ul>
-          <p>Two health notes worth taking seriously before you crawl anywhere. Ontario has been suppressing a raccoon-strain rabies outbreak in the Hamilton area since 2015, and both raccoons and skunks are rabies vector species &mdash; any animal active and fearless in daylight, staggering or circling should be reported to local animal services rather than approached. And raccoon latrines, which often sit on flat deck surfaces or in a corner of the void, can carry roundworm eggs that are hazardous if ingested. Clean latrine sites with boiling water, gloves and a mask &mdash; never a dry sweep or a shop vac.</p>
+          <p>Two health notes worth taking seriously before you crawl anywhere. Raccoon-strain rabies reached the Hamilton area in 2015; Ontario says it eliminated it from southern Ontario in 2023 and still baits around recent cases, and raccoons and skunks remain two of the animals that spread rabies most often in Ontario &mdash; any animal active and fearless in daylight, staggering or circling should be reported to local animal services or Ontario&rsquo;s rabies line (1-888-574-6656) rather than approached. And raccoon latrines, which often sit on flat deck surfaces or in a corner of the void, can carry roundworm eggs that are hazardous if ingested. Clean them the CDC&rsquo;s way: disposable gloves, an N95 respirator in a confined space, a light mist of water so you do not stir up dust, the droppings removed to be burned, buried or sent to a landfill, and the deck surface treated with boiling water or a propane torch.</p>
+          <Photo id="raccoon-latrine-deck" alt="Pile of dark raccoon droppings built up on the boards of a backyard deck" caption="A raccoon latrine: droppings that built up over a few months on a backyard deck (Richmond, California). Clean a spot like this with the CDC steps above, then close off whatever drew the raccoon to the deck." />
+
+          <QuickIdTable
+            title="Keeping animals out from under a deck: what the authorities say"
+            head={['Method', 'How it works', 'Best for', 'Limits, with the source']}
+            rows={[
+              ['Hardware cloth L-footing', 'Mesh runs down from the deck frame, then bends outward underground', 'A permanent fix once the space is empty', 'City of Toronto: at least 20 to 30 cm straight down and 20 to 30 cm angled 90 degrees outwards; ICWDM: 1/4- or 1/2-inch hardware cloth, galvanized is best'],
+              ['Shallow footing or apron', 'Mesh a few inches down, then out flat under soil or gravel', 'Roots, pavers or a pad where you cannot trench', 'ICWDM: 3 to 4 inches below the ground, then out at least 12 inches'],
+              ['One-way door', 'Lets the animal out and stops it getting back in', 'An occupied space outside the baby season', 'City of Toronto: not on a skunk den between April and September unless the babies are mobile'],
+              ['Light, noise and smell', 'Makes the den unpleasant so the animal moves to a backup site', 'An animal still in residence', 'City of Mississauga: bright light, a loud radio and cider-vinegar rags near the den for three days and nights'],
+              ['Gravel at the base', 'Discourages digging and nesting', 'A deck or shed that has not been dug under yet', 'Ontario: place gravel around the base of the building'],
+              ['Live trap and release', 'Removes one animal', 'Rarely the answer under a deck', 'Ontario: release within 24 hours and within 1 km; City of Toronto: trapping may leave starving young behind'],
+            ]}
+            caption={<>Sources: City of Toronto, <a href="https://www.toronto.ca/community-people/animals-pets/wildlife-in-the-city/skunks/" target="_blank" rel="noopener noreferrer" className="underline">skunks</a> and <a href="https://www.toronto.ca/community-people/animals-pets/wildlife-in-the-city/wildlife-trapping/" target="_blank" rel="noopener noreferrer" className="underline">wildlife trapping</a>; ICWDM, <a href="https://icwdm.org/decks-and-porches/" target="_blank" rel="noopener noreferrer" className="underline">decks and porches</a>; City of Mississauga, <a href="https://www.mississauga.ca/services-and-programs/animals-and-pets/wildlife-in-mississauga/raccoons/" target="_blank" rel="noopener noreferrer" className="underline">raccoons</a>; Ontario, <a href="https://www.ontario.ca/page/preventing-and-managing-conflicts-small-animals" target="_blank" rel="noopener noreferrer" className="underline">preventing and managing conflicts with small animals</a> (updated January 19, 2026) and <a href="https://www.ontario.ca/page/harass-capture-or-kill-wild-animal-damaging-private-property" target="_blank" rel="noopener noreferrer" className="underline">harass, capture or kill a wild animal</a> (updated December 15, 2025). Read October 28, 2026.</>}
+          />
+
 
           <h2>The Denning Calendar That Decides Your Timing</h2>
           <p>This is the section to read before you buy anything, because getting the timing wrong turns a good job into a wildlife disaster and a smell you cannot reach.</p>
-          <p>Raccoon litters arrive in Ontario from March through May, and the kits cannot leave the den on their own for roughly eight to ten weeks &mdash; they are walking well before that, but not following the mother out.</p>
+          <p>Raccoon births peak in May (Hinterland Who&rsquo;s Who records them from March to as late as September), and the young stay in the maternity den for about eight weeks; Ontario says a mother and young in a chimney leave after eight to ten weeks &mdash; the kits are walking well before that, but not following the mother out.</p>
           <p>Skunks mate in late winter with kits arriving around May, mobile and following the mother by mid-to-late summer. Seal a den with immobile young inside and you have separated a mother from her litter: she will tear at the structure for days trying to get back in, and the young die out of reach under your deck.</p>
           <div className="not-prose my-6 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -205,6 +239,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
             </p>
           </div>
           <p>That leaves <strong>late August to late October</strong> as the clean window in southern Ontario, and it is a genuinely narrow one because the other end is the ground freezing. You cannot trench frozen soil, and by November animals are settling in for winter. This is why deck-proofing is an autumn job in Canada &mdash; the same autumn that most people are thinking about anything except their deck skirt.</p>
+          <p>The authorities put the sealing window a little later, and with a condition. The City of Toronto says a one-way door should not be used on a skunk den between April and September unless the babies are mobile, and to check that raccoons have moved out &ldquo;especially between March and July when there may be babies&rdquo;; Ontario advises removing small animals in autumn, when the young have left the den. In a late-August job, use the flour and paper checks below to confirm the young are out and moving before the last panel goes on.</p>
 
           <h2>Confirm It Is Empty — Three Checks, Three Nights</h2>
           <p>Do not rely on silence. Both species sleep through the day, and a quiet afternoon proves nothing. Run these together over two or three nights before the trench goes in:</p>
@@ -214,6 +249,16 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
             <li><strong>A trail camera.</strong> If you want certainty rather than inference, two nights of footage removes all doubt for far less than the cost of getting this wrong.</li>
           </ol>
           <p>If something is still home and it is outside the young-in-den window, harass it out first: a bright work light left on under the deck, a radio on a talk station, rags with a strong but legal scent near the entrance for three or four nights. Most animals have backup dens and will move. Then install a <strong>one-way door</strong> over the main entrance &mdash; a device the animal can push out through but not re-enter &mdash; and leave it up for several days before the final panel goes on. The one-way door is the backstop that catches the animal your flour test missed.</p>
+
+          <h2>Which Fix for Your Situation</h2>
+          <ul>
+            <li><strong>The space is empty and it is autumn:</strong> close it now with the L-footing below; the City of Toronto&rsquo;s 20 to 30 cm down and out is the measure.</li>
+            <li><strong>Something still lives there, outside the baby season:</strong> three days and nights of light, radio and smell (Mississauga&rsquo;s method), then a one-way door, then the final panel.</li>
+            <li><strong>It is spring or early summer and there may be young:</strong> wait, or hire a licensed wildlife control company that can remove the young by hand; do not seal.</li>
+            <li><strong>Concrete, pavers or tree roots at the edge:</strong> the no-dig apron below.</li>
+            <li><strong>Raccoon droppings piling up on the deck:</strong> a latrine. Clean it the CDC&rsquo;s way and use our <Link href="/blog/raccoon-poop">raccoon poop guide</Link> to confirm it.</li>
+            <li><strong>An animal that looks sick, staggers or is fearless in daylight:</strong> keep away and call animal services or Ontario&rsquo;s rabies line, 1-888-574-6656.</li>
+          </ul>
 
           <h2>The L-Footing: The One Bend That Makes It Permanent</h2>
           <p>Here is the detail that separates a fix from a fortnight. Raccoons and skunks do not tunnel from a distance &mdash; they dig <em>down</em> at the point where they are blocked. So a barrier that only goes to ground level gets undermined immediately, while a barrier that turns outward underground defeats the actual digging behaviour.</p>
@@ -243,6 +288,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
           <p>Buy properly on three things and ignore the rest.</p>
           <p><strong>Galvanisation.</strong> Buried mesh sits in wet, road-salted, freeze-thaw soil for years and rusts through at the soil line first &mdash; which is exactly where the strength has to be. Uncoated or lightly coated mesh is a false economy on a job you do not want to repeat.</p>
           <p><strong>Gauge.</strong> Nineteen-gauge is the working minimum; sixteen-gauge is noticeably stiffer, easier to hold in a trench, and worth the difference on a long perimeter. Half-inch aperture is the right call because it also keeps rats and chipmunks out of the same void &mdash; the animals that move in after you have excluded the big ones. Be clear about its limit: a mouse fits through a half-inch opening. Quarter-inch hardware cloth is the mouse specification, so use that on vents, weep gaps and anywhere mice are the actual problem.</p>
+          <Photo id="chipmunk-burrow" alt="Small round burrow entrance of an eastern chipmunk in a grassy yard" caption="The burrow entrance of an eastern chipmunk in a grassy yard (Blount County, Alabama). Half-inch hardware cloth also keeps chipmunks and rats out of the void you have just closed; mice need quarter-inch." />
           <p><strong>Fasteners.</strong> Galvanised staples or exterior screws with fender washers. Ordinary screws pull through mesh; ordinary staples rust out.</p>
           <p>Where money is wasted: on lattice as a barrier, on chicken wire in any role, and on repellents purchased in parallel with this job. Once the perimeter is closed, the repellent has nothing to do. If you want a deterrent working on the yard generally rather than the structure, a <Link href="/blog/motion-activated-sprinkler-canada">motion-activated sprinkler</Link> on the approach route is the only category with a real track record &mdash; and our full <Link href="/blog/raccoon-deterrent">raccoon deterrent tier list</Link> is blunt about which of the rest are decoration.</p>
           <div className="not-prose my-4">
@@ -250,12 +296,24 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
           </div>
 
           <h2>Ontario Law: Why Trapping Is Not the Shortcut</h2>
-          <p>Before anyone borrows a live trap, the rule that shapes every wildlife decision in this province: under the <strong>Fish and Wildlife Conservation Act</strong>, a captured wild animal may only be released within <strong>one kilometre</strong> of where it was caught, generally within 24 hours. Trapping a raccoon in Mississauga and releasing it in a conservation area is an offence that can carry provincial charges and fines, and the rule exists because long-distance relocation spreads rabies and distemper between animal populations.</p>
-          <p>Work the logic through and trapping fails on its own terms even ignoring the law. An animal released at the legal maximum distance walks home within a night or two, and the den under your deck is still open, still dry, still the best site around. A trapped animal in spring is very likely a nursing mother whose young then starve out of reach. Exclusion is not the gentler alternative to trapping &mdash; it is the only version that actually ends the problem. If you do want the detail on legal humane trapping and where it genuinely fits, our <Link href="/blog/best-raccoon-live-trap-canada">raccoon live trap guide</Link> and <Link href="/blog/best-live-animal-trap-canada">live animal trap sizing guide</Link> cover it honestly, including the relocation limits.</p>
+          <p>Before anyone borrows a live trap, the rule that shapes every wildlife decision in this province: under the <strong>Fish and Wildlife Conservation Act</strong> and its hunting regulation, a captured wild animal must be released <strong>within 24 hours</strong> and, in Ontario&rsquo;s guidance, <strong>within one kilometre</strong> of where it was caught, on private land only with the owner&rsquo;s permission; a sick, injured or orphaned animal goes to an authorized wildlife rehabilitator. Trapping a raccoon in Mississauga and releasing it in a conservation area is an offence that can carry provincial charges and fines of up to $25,000, and Ontario says the rules help prevent the spread of diseases, ensure wildlife are treated humanely and keep animals within their home ranges.</p>
+          <p>Work the logic through and trapping fails on its own terms even ignoring the law. Ontario itself says relocating an animal will not always solve the problem, because whatever attracted it is likely still present, and the den under your deck is still open, still dry, still the best site around. In spring and summer, as the City of Toronto warns, trapping may also leave starving young behind. Exclusion is not the gentler alternative to trapping &mdash; it is the only version that actually ends the problem. If you do want the detail on legal humane trapping and where it genuinely fits, our <Link href="/blog/best-raccoon-live-trap-canada">raccoon live trap guide</Link> and <Link href="/blog/best-live-animal-trap-canada">live animal trap sizing guide</Link> cover it honestly, including the relocation limits.</p>
 
           <h2>Finish the Job: Everything Else That Is Open</h2>
           <p>A closed deck perimeter pushes the animal to the next best site on your property, so it is worth spending the leftover mesh on the obvious ones the same weekend. Shed skirts and porch voids get the identical treatment. Window wells, dryer and soffit vents, and gaps under stairs all take offcuts of the same half-inch cloth. If rodents are also in the picture &mdash; and after you close a deck void they frequently are &mdash; our <Link href="/blog/rodent-exclusion-kit-canada">rodent exclusion kit guide</Link> covers the smaller-aperture side of the same discipline.</p>
           <p>Then remove the reason they were shopping your address in the first place: strap or latch the green bin, freeze meat scraps until collection morning, bring pet bowls in at dusk, and pick up spilled bird seed. A sealed structure plus a property that pays out nothing is what gets you dropped from the nightly route entirely. And if the job is bigger than a deck &mdash; an attic entry, a roofline vent, anything involving a ladder and a possible maternity den &mdash; hand it to a licensed wildlife control company; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what that work should run so you can spot a padded quote.</p>
+
+          <h2>Deck-Proofing Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Galvanised hardware cloth, half-inch,</strong> the aperture and finish ICWDM recommends (1/4 or 1/2 inch, &ldquo;Galvanized is best&rdquo;); quarter-inch where mice are the problem.</li>
+            <li><strong>Enough width for the L:</strong> the face of the skirt plus 20 to 30 cm down and 20 to 30 cm out (City of Toronto), with 10&ndash;15 cm overlaps at the seams.</li>
+            <li><strong>Galvanised staples, or exterior screws with fender washers.</strong></li>
+            <li><strong>Heavy landscape staples</strong> if you are building an apron.</li>
+            <li><strong>Aviation snips and cut-resistant gloves</strong> for the cut wire ends.</li>
+            <li><strong>A one-way door,</strong> only outside the baby season (Toronto: not on a skunk den from April to September unless the babies are mobile).</li>
+            <li><strong>Flour or crumpled paper for the vacancy check;</strong> Toronto closes the hole once it has been undisturbed for three to five days.</li>
+            <li><strong>Disposable gloves and an N95 respirator</strong> for any latrine cleanup (CDC).</li>
+          </ol>
 
           <h2>Deck Exclusion — Key Facts</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6 overflow-x-auto">
@@ -270,7 +328,7 @@ export default function RaccoonAndSkunkProofingUnderADeckCanadaPage() {
                   ['Seam overlap', '10–15 cm, wired together with hog rings'],
                   ['Vacancy check', 'Flour tracks + newspaper stuffing test, 3 nights'],
                   ['Backstop', 'One-way door left up several days before final sealing'],
-                  ['Do NOT seal', 'March to late July — immobile young in the den'],
+                  ['Do NOT seal', 'March to late July — immobile young in the den; skunk young stay with the mother until autumn'],
                   ['Clean window (Ontario)', 'Late August to late October, before ground freeze'],
                   ['Relocation law', 'Max 1 km from capture site — longer moves are illegal'],
                   ['Health cautions', 'Rabies vector species; raccoon latrine roundworm'],

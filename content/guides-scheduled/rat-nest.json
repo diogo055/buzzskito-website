@@ -1,0 +1,208 @@
+{
+  "slug": "rat-nest",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "rat nest",
+  "alsoTargets": [
+    "rats nest",
+    "what does a rat nest look like",
+    "where do rats nest",
+    "rat nest in yard",
+    "rat nest in attic",
+    "rat burrow",
+    "how many rats live in a nest",
+    "pack rat nest"
+  ],
+  "metaTitle": "Rat Nest: What It Looks Like, Where to Find It",
+  "metaDescription": "A rat nest is a loose wad of shredded paper, insulation, cloth or leaves near food. Where each rat nests, signs it is in use, and CDC's cleanup steps.",
+  "h1": "Rat Nest: What a Rat's Nest Looks Like and Where Rats Nest",
+  "dek": "A rat nest is a loose wad of shredded paper, insulation, cloth or leaves hidden near food. Where Norway rats, roof rats and pack rats nest, the signs that point to rats, whether it is in use, and CDC's cleanup steps.",
+  "breadcrumb": "Rat Nest",
+  "excerpt": "What a rat nest looks like, where Norway rats, roof rats and pack rats build one, the signs that point to rats, whether it is in use, and how to clean it up safely.",
+  "datePublished": "2026-10-30",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**A rat nest is a loose, messy wad of shredded paper, insulation, cloth or leaves hidden in a burrow, wall, attic or clutter near food; droppings 1/2 inch long or more beside it point to rats, not mice.** Norway rats nest low, often in burrows, and roof rats nest up high. Never sweep or vacuum a nest: [CDC](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) says to soak it with disinfectant first.",
+    "bullets": [
+      "[UC IPM](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) says Norway rats may line nests with leaves, shredded paper, cloth or other fibrous material and burrow along foundations and under woodpiles, while roof rats usually nest above ground or in attics, wall and ceiling voids and cabinets.",
+      "Active Norway rat burrow holes are 2 to 3 inches wide, clean of debris, with rat hairs around the entrance, according to [ICWDM](https://icwdm.org/species/rodents/norway-rats/).",
+      "[Cornell IPM](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior) gives droppings of 3/4 to 1 inch for Norway rats, about 1/2 inch for roof rats and 1/8 to 1/4 inch for mice.",
+      "Fresh droppings are dark and soft and fresh rub marks black, soft and greasy, says [CDC's rodent survey manual](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf), so fresh signs suggest the nest is in use.",
+      "Pack rats build stick houses instead: dusky-footed woodrat houses are commonly 3 to 5 feet across and as tall, says the [California Department of Food and Agriculture](https://www.cdfa.ca.gov/plant/IPC/vertebrates/docs/vpcrac/handbook/woodratpart4peter.pdf)."
+    ]
+  },
+  "facts": {
+    "title": "Rat nest or something else? Quick ID",
+    "head": ["Nest maker", "What the nest is like", "Where you find it", "Signs nearby"],
+    "rows": [
+      ["Norway rat", "Leaves, shredded paper, cloth or other fiber, usually in a burrow; active holes 2 to 3 inches wide", "Along foundations, under woodpiles and rubbish, in gardens; indoors, basements and ground floors", "Droppings 3/4 to 1 inch; greasy rub marks; runways; rat hairs at burrow entrances"],
+      ["Roof rat", "Shredded insulation, paper or other soft material, usually above ground", "Trees, shrubs, ivy and palms; attics, wall and ceiling voids, cabinets", "Droppings about 1/2 inch; noises overhead at night; rats on wires or fences at dusk"],
+      ["Pack rat (woodrat)", "A house of sticks, rocks, cans, dried manure or cactus; dusky-footed woodrat houses often 3 to 5 feet across", "Trees, bushes, cliffs, rock crevices and cactus patches; sometimes cabins and parked vehicles", "Hoarded shiny objects; white-throated woodrats live alone unless a female has young"],
+      ["House mouse", "Finely shredded paper or other fiber", "Sheltered spots: behind boxes, in drawers, garages and woodpiles; seldom more than 30 feet away from food", "Droppings 1/8 to 1/4 inch; musky odor"],
+      ["Deer mouse", "Grass stems, twigs, leaves and roots; may be lined with fur, feathers or shredded cloth", "Tree hollows, stumps, under rocks and logs; cabins and empty buildings", "Food stored near the nest; signs much like a house mouse's"],
+      ["Tree squirrel", "A ball of twigs, leaves and shredded bark", "High in a tree or in a tree cavity; attics, through gaps or broken vent screens", "Active by day, most in early morning and late afternoon"]
+    ],
+    "caption": "Rats from UC IPM, ICWDM, NC State, CDC and NYC Health; droppings from Cornell IPM; pack rats from CDFA and the National Park Service; mice and squirrels from UC IPM's house mouse, deer mouse and tree squirrel Pest Notes."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a rat nest look like?" },
+    { "type": "p", "text": "A rat nest is a loose, untidy mass of shredded soft material in a warm, hidden spot near food. [NC State Extension's guide to structure-invading rats](https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats) says rats often nest in warm cavities and voids close to food, using chewed paper and insulation, boxes, fabric or any other material that suits them, and sometimes in open containers or spaces people rarely disturb. [UC IPM's Pest Notes on rats](https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/) say Norway rat nests may be lined with leaves, shredded paper, cloth or other fibrous material." },
+    { "type": "figure", "src": "/guides/photos/norway-rat-burrows.webp", "width": 1200, "height": 1600, "alt": "Several dark burrow openings in mossy soil around the base of a small street tree, a few feet from a building's concrete wall", "caption": "Burrow entrances identified on iNaturalist as Norway rat burrows, at the base of a street tree beside a building in Seattle; no rat is in the photo. Norway rats often nest underground, so openings like these may be all you see.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/114324321" },
+    { "type": "p", "text": "Size is not a good test: none of the extension or health sources cited here gives a standard size for a rat nest. You may never see the nest itself, since a Norway rat's often sits inside a burrow and a roof rat's in a wall, ceiling or tree. What you find first is usually a burrow opening, or the droppings, rub marks and gnawing around it." },
+    { "type": "media", "needed": "A real rat nest of shredded paper, insulation or fabric found in a US attic, wall void or garage, photographed beside a ruler marked in inches with the rat droppings next to it; or CDC PHIL 26634 (a female Norway rat with her pups in her burrow, public domain) if it shows the nest material" },
+
+    { "type": "h2", "text": "Where do rats nest?" },
+    { "type": "p", "text": "It depends on the rat: Norway rats nest low, usually in burrows; roof rats nest high; and pack rats, or woodrats, build houses of sticks. [Roof rats vs Norway rats](/blog/roof-rat-vs-norway-rat) shows how to tell the two house rats apart." },
+    { "type": "h3", "text": "Norway rats: burrows at ground level" },
+    { "type": "p", "text": "Norway rats prefer to burrow in soil but will use voids near a food source, says [Cornell IPM's guide to mouse and rat biology](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior). UC IPM finds their burrows along building foundations, beneath rubbish or woodpiles and around gardens, and says one can extend beneath a house with several open entrances; its drawing shows an entrance, a nest and an escape hole. Indoors they usually live in basements and on ground floors." },
+    { "type": "h3", "text": "Roof rats: up in trees, vines and attics" },
+    { "type": "p", "text": "Roof rats are agile climbers that usually nest above ground in shrubs, trees or dense vegetation such as ivy, UC IPM says, though they sometimes burrow. [CDC's manual for urban rodent surveys](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf) says they prefer to nest in trees, bushes and attics, and counts ivy, honeysuckle, vines and palm trees as shelter for rodents. Indoors, UC IPM says, they nest in attics, wall and ceiling voids and cabinets." },
+    { "type": "figure", "src": "/guides/photos/roof-rat-rafters.webp", "width": 1200, "height": 817, "alt": "Gray-brown roof rat with large ears on a wooden beam among the rafters of a building, eating from a small round dish, its long thin tail hanging below", "caption": "A roof rat among the rafters of a building, eating bait from a small dish, in a CDC photograph. UC IPM says roof rats typically nest in high, enclosed spaces such as attics.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25123" },
+    { "type": "p", "text": "Attic noise at night fits rats, which UC IPM says are mostly active after dark, while [UC IPM's tree squirrel guide](https://ipm.ucanr.edu/home-and-landscape/tree-squirrels/) says tree squirrels are active by day. [The guide to animals in the attic](/blog/animals-in-attic) sorts attic sounds by time of day." },
+    { "type": "h3", "text": "Pack rats: stick houses in wild land" },
+    { "type": "p", "text": "Pack rats, or woodrats, build something else entirely. The [California Department of Food and Agriculture's woodrat chapter](https://www.cdfa.ca.gov/plant/IPC/vertebrates/docs/vpcrac/handbook/woodratpart4peter.pdf) describes a ball-shaped or conical house of sticks, rocks, tin cans, dried manure or cactus, in a tree or bush, on a cliff, in a rock crevice or cactus patch, or around a stump or log, with several entrances and chambers. Dusky-footed woodrat houses are commonly 3 to 5 feet across and as tall, it says, and other species' houses are slightly smaller." },
+    { "type": "p", "text": "In Arizona, the [National Park Service](https://www.nps.gov/orpi/learn/nature/packrat.htm) describes white-throated woodrat middens of sticks, cactus parts, animal waste and trash at the base of cactus or among boulders, over a nest just underground. CDFA says woodrats also move into cabins and parked vehicles, and tells them from Norway rats by their soft, fine fur and large ears." },
+    { "type": "p", "text": "Rodent nests can also hold kissing bugs: [CDC](https://www.cdc.gov/chagas/spreads/index.html) lists rodent nests and animal burrows among the outdoor places triatomine bugs, also known as kissing bugs, can live, and says the bugs are typically found in the southern United States; infected bugs can spread Chagas disease. See [how to recognize a kissing bug](/blog/kissing-bug-look-alikes)." },
+    { "type": "media", "needed": "A pack rat (woodrat) stick house or midden in the western US, such as a dusky-footed woodrat house or a white-throated woodrat midden at the base of a cactus, from the National Park Service (public domain), with something in the frame for scale" },
+
+    { "type": "h2", "text": "Where do rats nest inside a house?" },
+    { "type": "p", "text": "Wherever it is warm, hidden and close to food. The places the sources name:" },
+    { "type": "ul", "items": [
+      "**Attic.** UC IPM puts roof rat nests in attics, and NC State's guide pictures one in an open attic space.",
+      "**Walls and ceilings.** UC IPM says rats may shred the insulation in walls and ceilings for their nests, and NC State pictures a nest in a wall void. For smaller animals, see [mice in the walls](/blog/mice-in-walls).",
+      "**Kitchen.** UC IPM lists cabinets, and [CDC's trapping guide](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) suggests traps behind the stove and refrigerator.",
+      "**Basement and crawlspace.** UC IPM says Norway rats indoors usually live in basements and on ground floors, and NC State pictures a rat runway through a crawlspace, with footprints in the dust.",
+      "**Garage.** UC IPM lists nests behind boxes, in drawers, in cluttered garages and in firewood stacks.",
+      "**Car engines.** UC IPM says rats gnaw engine wires; CDC's cleanup steps for vehicles are below."
+    ] },
+
+    { "type": "h2", "text": "What does a rat burrow look like?" },
+    { "type": "p", "text": "A rat burrow is a hole in soil 2 to 3 inches wide, sometimes one of several. [ICWDM's Norway rat page](https://icwdm.org/species/rodents/norway-rats/) gives active burrow holes as 2 to 3 inches wide and finds runs and burrows next to walls and buildings, along fences and under bushes and debris. [Clemson Extension's guide to holes in the lawn](https://hgic.clemson.edu/factsheet/holes-in-the-lawn/) puts rat tunnel entrances at up to 3 inches, near shrubbery or woodpiles, and UC IPM adds burrows under compost piles and garbage cans and among garden plants." },
+    { "type": "p", "text": "Similar holes: Clemson describes chipmunk holes as about 2 inches, typically with no loose soil at the opening, usually near stumps, buildings, brush or log piles, and vole holes as 1 to 1 1/2 inches; [the guide to holes in the yard](/blog/holes-in-yard) sorts them. [UC IPM's yellowjacket guide](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) says yellowjackets commonly nest in rodent burrows, so check for wasps before you lean in." },
+    { "type": "p", "text": "A burrow in use has a clean entrance: ICWDM says active holes are free of debris with rat hairs around them, and CDC's survey manual says active entrances have no cobwebs or other blockages. [NYC Health](https://www.nyc.gov/site/doh/health/health-topics/rats-tenants-property-owners.page) advises collapsing earthen burrows with a shovel, says covering an entrance with wood, cinder blocks or rocks will not keep rats out, and says never to put broken glass or chemicals into a burrow." },
+
+    { "type": "h2", "text": "How can you tell a rat made the nest?" },
+    { "type": "p", "text": "By the signs around it, since a wad of shredded material could also be a mouse's or a squirrel's." },
+    { "type": "checklist", "title": "Signs that point to rats", "items": [
+      "**Droppings 1/2 inch or longer.** Cornell IPM gives 3/4 to 1 inch for Norway rats and about 1/2 inch for roof rats; mouse droppings are 1/8 to 1/4 inch. See [the guide to rat droppings](/blog/rat-droppings).",
+      "**Greasy rub marks.** Dark, oily smudges along walls, pipes and fences, from the oil in rats' fur (NC State).",
+      "**Gnaw marks about 1/6 inch wide.** A mouse's are about 1/12 inch, UC IPM says.",
+      "**Runways and tracks.** Worn paths in grass (NYC Health), and footprints and tail marks in dust or mud (ICWDM).",
+      "**Burrows.** Holes 2 to 3 inches wide by foundations, fences, woodpiles or compost.",
+      "**Noises at night.** Scratching and rustling from rats moving, feeding and nesting (NC State).",
+      "**A musty smell.** NC State links it to urine in heavy infestations."
+    ] },
+    { "type": "figure", "src": "/guides/photos/rat-droppings-thumb.webp", "width": 1200, "height": 900, "alt": "Dark, thick, oblong droppings with rounded ends lying on green and rust-colored moss, with a person's thumb at the bottom of the frame for size", "caption": "Droppings identified on iNaturalist, from the droppings alone, as Norway rat droppings, on moss in Alaska's Aleutian Islands, beside a thumb for size. Thick droppings 1/2 inch or longer point to rats rather than mice.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/394894114" },
+    { "type": "figure", "src": "/guides/photos/rat-gnawed-sack.webp", "width": 1200, "height": 923, "alt": "Sepia close-up of a burlap sack with a ragged hole gnawed through it, corn kernels with chewed ends and other seeds spilling onto the cloth", "caption": "A burlap sack of seed grain gnawed open by rats at an Atlanta mill in 1946, in a historic CDC photograph. CDC's survey manual says a freshly gnawed surface is usually light in color.", "license": "public-domain", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28593" },
+    { "type": "p", "text": "Only mouse-sized droppings? Then it is more likely a mouse nest: [UC IPM's house mouse guide](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) says house mice build nests of finely shredded paper or other fiber and seldom go more than 30 feet from them. See [what a mouse nest looks like](/blog/mouse-nest), [rat vs mouse](/blog/rat-vs-mouse) and [the complete guide to mice](/learn/mice)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/mouse-nest", "name": "Mouse nest", "photo": "mouse-nest-desk-drawer", "note": "Finely shredded paper or fiber, with droppings 1/8 to 1/4 inch", "alt": "Brown mouse looking up from a nest of shredded white padding in the corner of an old wooden desk drawer" },
+      { "href": "/blog/deer-mice", "name": "Deer mouse nest", "photo": "deer-mouse-nest", "note": "Grass and twigs, sometimes lined with fur, feathers or cloth; often in empty cabins", "alt": "Deer mouse with big dark eyes peering out from torn cream-colored fabric, woven green cloth and white feathers" },
+      { "href": "/blog/holes-in-yard", "name": "Chipmunk burrow", "photo": "chipmunk-burrow", "note": "About 2 inches across, typically with no loose soil; often by a stump or log pile", "alt": "Round, dark burrow opening in a lawn of grass and clover with no soil piled around it" },
+      { "href": "/blog/wasp-nest-identification", "name": "Yellowjacket ground nest", "photo": "yellowjacket-ground-nest", "note": "Wasps flying in and out of one hole, often a rodent burrow", "alt": "Several black-and-yellow wasps at a dark opening between gray rocks in dry soil and dead grass" },
+      { "href": "/blog/animals-in-attic", "name": "Tree squirrel", "photo": "eastern-gray-squirrel", "note": "A ball of twigs, leaves and bark high in a tree; active by day", "alt": "Eastern gray squirrel sitting upright in green grass, with a pale belly and a bushy tail" }
+    ] },
+
+    { "type": "h2", "text": "Is the rat nest still in use?" },
+    { "type": "p", "text": "Fresh signs suggest rats are using it now. [CDC's survey manual](https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf) says fresh droppings are dark and soft and old ones hard, or gray and brittle; fresh rub marks are black, soft and greasy; a freshly gnawed surface is usually light in color; and urine may be wet and glossy or a dried stain that a black light can help show. ICWDM adds that fresh shavings of wood, insulation or other material mean rats are active." },
+    { "type": "p", "text": "To test it, ICWDM suggests a patch of flour in a runway overnight to see whether rodents cross it. CDC's trapping guide says a week with no rodents caught and no new signs means the rats are gone." },
+
+    { "type": "h2", "text": "How many rats live in a nest?" },
+    { "type": "p", "text": "None of the government or university sources cited here gives a count of rats per nest, so be wary of any single number. They give breeding rates instead: UC IPM says the average female Norway rat has 4 to 6 litters a year and can wean 20 or more young annually, and roof rats average 3 to 5 litters, with up to 8 young in each. Pack rats differ: the National Park Service says white-throated woodrats live alone unless the female has young." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-vs-young-rat.webp", "width": 1200, "height": 795, "alt": "Sepia photo of a house mouse lying beside a larger 2-week-old Norway rat on a wooden board, each labeled with its name", "caption": "A house mouse (top) and a 2-week-old Norway rat (bottom), names printed on the photo, in a CDC photograph. CDC points to the young rat's coarser hair, smaller ears, blunter head and tail and proportionally larger feet.", "license": "public-domain", "credit": "CDC/ Bayard F. Bjornson (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26271" },
+    { "type": "p", "text": "Young in the nest mean a female is breeding there. Wear gloves: [CDC's rat-bite fever page](https://www.cdc.gov/rat-bite-fever/about/index.html) says the infection spreads through bites, scratches and contact with a rodent's saliva or pee. [The guide to baby rats](/blog/baby-rats) shows how young rats look as they grow." },
+
+    { "type": "h2", "text": "Is a rat nest dangerous?" },
+    { "type": "p", "text": "It can be. [CDC's hantavirus overview](https://www.cdc.gov/hantavirus/about/index.html) says people get hantavirus from contact with rodents such as rats and mice, especially their urine, droppings and saliva, and [UC IPM's deer mouse guide](https://ipm.ucanr.edu/home-and-landscape/deer-mouse/) says people can be exposed by breathing contaminated dust after disturbing or cleaning rodent droppings or nests." },
+    { "type": "ul", "items": [
+      "**Hantavirus.** CDC says the most common hantavirus behind hantavirus pulmonary syndrome in the United States is spread by the deer mouse ([how to recognize one](/blog/deer-mice)). Norway rats carry Seoul virus, which [CDC](https://www.cdc.gov/hantavirus/hcp/animals/index.html) says has been found in wild and pet rats in the United States; infected rats show no signs and shed it in urine, feces and saliva.",
+      "**Leptospirosis.** It spreads through the urine of infected animals, rodents among them, and the bacteria can survive in water or soil for weeks to months, [CDC](https://www.cdc.gov/leptospirosis/about/index.html) says.",
+      "**Rat-bite fever.** It spreads through scratches, bites, a rodent's saliva or pee, and contaminated materials such as rat bedding, CDC says, and carriers look healthy.",
+      "**Food poisoning and more.** UC IPM lists foodborne illnesses (salmonella, E. coli, campylobacter), typhus, leptospirosis and rat-bite fever as the most common diseases rats transmit."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to see a healthcare provider", "text": "If you suspect hantavirus disease, CDC says to see a physician immediately and mention the rodent exposure; with rat-bite fever symptoms after recent rodent contact, to see a provider immediately; and if you may have leptospirosis, to see a healthcare provider." },
+
+    { "type": "h2", "text": "How do you clean up a rat nest safely?" },
+    { "type": "p", "text": "Soak it, bag it twice and never sweep or vacuum it: [CDC's cleanup steps](https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html) say sweeping or vacuuming nesting material, urine or droppings can put tiny droplets containing viruses into the air. CDC's steps for a nest:" },
+    { "type": "ol", "items": [
+      "Open doors and windows and leave the space to air out for 30 minutes.",
+      "Put on rubber or plastic gloves.",
+      "Spray the nest and the area around it with a household disinfectant, or a fresh mix of 1.5 cups of household bleach in 1 gallon of water, and let it soak for 5 minutes or as the label directs.",
+      "Bag the nesting material with any dead rodent and used traps, knot the bag, then knot it inside a second bag.",
+      "Throw it in a covered garbage can that is emptied regularly, or ask your state health department about other options.",
+      "Wash your gloved hands, take the gloves off, then wash your hands with soap and warm water."
+    ] },
+    { "type": "p", "text": "CDC also says to mop or sponge floors, countertops, cabinets and drawers with disinfectant. For heavy infestations CDC adds coveralls, boots or shoe covers, goggles and a respirator with HEPA filters, and says to contact a professional exterminator if rodents have reached heating or cooling ducts. In a car, air it out for 20 minutes with the hood, doors and trunk open, disconnect the battery before inspecting the engine, and if nesting material is in the air intake, remove it and the air filter." },
+
+    { "type": "h2", "text": "What should you do after finding a rat nest?" },
+    { "type": "p", "text": "Rat control usually has three parts, UC IPM says: sanitation, exclusion and population control. For the last, [CDC's guide to trapping rodents](https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html) recommends traditional snap traps, not glue traps or live traps, which can scare rodents into urinating and raise your chance of getting sick, and suggests leaving rat traps baited but unset at first so the rats get used to them." },
+    { "type": "p", "text": "UC IPM calls exclusion the most successful and longest-lasting strategy around buildings: seal every hole larger than 1/4 inch. Its sanitation steps include storing firewood, lumber and boxes off the ground and thinning or removing climbing ivy, star jasmine and honeysuckle. Remove old nests too, since UC IPM says roof rats return to nest sites left in place." },
+    { "type": "p", "text": "[How to get rid of rats](/blog/how-to-get-rid-of-rats-canada) walks through trapping and exclusion in order, [sealing a house against rodents](/blog/how-to-keep-mice-out-of-your-house-winter) covers the gaps to close, and [how long rats live](/blog/how-long-do-rats-live) covers the rats themselves." },
+    { "type": "callout", "tone": "tip", "title": "Photograph it before you touch it", "text": "Photograph the nest, any droppings beside a ruler marked in inches and any burrow openings without touching them, and note where you found them and when you hear noises. Your state's cooperative extension office or a pest professional can use those details to help identify the animal." }
+  ],
+  "faqs": [
+    {
+      "question": "Should you destroy a rat's nest?",
+      "answer": "Yes, but carefully, and never dry. UC IPM says roof rats return to nest sites that are not removed during cleanup. CDC's way is to air the space out for 30 minutes, wear rubber or plastic gloves, soak the nest and the area around it with disinfectant or a mix of 1.5 cups of bleach per gallon of water for 5 minutes or as the label directs, then double-bag it. Trap the rats too: CDC says a week with no rodents caught and no new signs means they are gone. Outdoors, NYC Health advises collapsing earthen burrows with a shovel."
+    },
+    {
+      "question": "How do you know if you have a rat nest?",
+      "answer": "Look for the signs rats leave near it, since the nest itself is often hidden in a burrow, wall, attic or clutter. NYC Health lists moist, dark droppings, gnaw marks, greasy rub marks along walls, worn paths in grass and burrows in earthen areas. UC IPM adds noises from the attic or drop ceilings and rats running along utility lines or fence tops at dusk. Droppings 1/2 inch long or more point to rats; Cornell IPM gives mouse droppings as 1/8 to 1/4 inch."
+    },
+    {
+      "question": "What happens if you disturb a rat nest?",
+      "answer": "The main risk is breathing what is in it. UC IPM says people can be exposed to hantavirus by breathing contaminated dust after disturbing or cleaning rodent droppings or nests, and CDC says rodent diseases spread to people mainly when they breathe contaminated air, which is why it says never to sweep or vacuum nesting material. CDC also says rat-bite fever spreads through bites and scratches. Wear rubber or plastic gloves, and soak a nest with disinfectant before you move it."
+    },
+    {
+      "question": "What are rat nests made of?",
+      "answer": "Whatever soft material is at hand. NC State Extension says rats build nests from chewed paper and insulation, boxes, fabrics or any other appealing material they find around the home, and UC IPM says Norway rat nests may be lined with leaves, shredded paper, cloth or other fibrous material. UC IPM also notes that rats may shred the insulation in walls and ceilings for their nests. Pack rats are different: they build houses of sticks, rocks, cans, dried manure or cactus, according to California's Department of Food and Agriculture."
+    },
+    {
+      "question": "How big is a rat nest?",
+      "answer": "There is no standard size: none of the extension or health agency sources cited on this page gives one for Norway or roof rat nests. What they do give is the size of the way in. ICWDM says active Norway rat burrow holes are 2 to 3 inches wide, and Clemson Extension says rat tunnel entrances run as large as 3 inches. Pack rats are the exception, with stick houses that California's Department of Food and Agriculture says are commonly 3 to 5 feet across and as tall for the dusky-footed woodrat."
+    },
+    {
+      "question": "Do rats return to the same nest?",
+      "answer": "Roof rats do. UC IPM says roof rats have very strong nest site affinity and will return to a nest site that is not removed during sanitation, so take old nests out when you clean up. Norway rats habitually use the same routes, ICWDM says. For burrows in the yard, NYC Health advises collapsing them with a shovel and warns that covering an entrance with wood, cinder blocks or rocks will not keep rats out."
+    },
+    {
+      "question": "Can rats nest in a car engine?",
+      "answer": "Yes. CDC's cleanup steps for vehicles cover nesting material found in the air intake, UC IPM says rats gnaw the insulation on engine wires in cars, and California's Department of Food and Agriculture says pack rats may move into parked vehicles and gnaw wires. CDC says to open the hood, doors and trunk for 20 minutes, check the air intake and filter before starting the engine, disconnect the battery before inspecting the engine compartment, and, if nesting material is in the air intake, remove both it and the air filter. Do not vacuum the area until it has been disinfected."
+    },
+    {
+      "question": "What does a pack rat nest look like?",
+      "answer": "A big pile rather than a hidden wad. California's Department of Food and Agriculture describes a ball-shaped or conical house of sticks, rocks, tin cans, dried manure or cactus, built in a tree or bush, on a cliff, in a rock crevice or cactus patch, or around a stump or log, commonly 3 to 5 feet across and as tall for dusky-footed woodrats. The National Park Service describes white-throated woodrat middens in Arizona made of sticks, cactus parts, animal waste and trash, over a nest underground."
+    },
+    {
+      "question": "Where do rats nest outside?",
+      "answer": "Low for Norway rats, higher up for roof rats. UC IPM finds Norway rat burrows along building foundations, beneath rubbish or woodpiles, around gardens and under compost piles and garbage cans, and lists rat nests in firewood stacks. Roof rats usually nest above ground in shrubs, trees and dense vegetation such as ivy, and CDC's rodent survey manual adds vines and palm trees as rodent shelter. Clemson Extension says rat tunnel entrances can be near shrubbery or woodpiles and as large as 3 inches across."
+    },
+    {
+      "question": "Do rats nest in attics?",
+      "answer": "Roof rats often do. UC IPM says roof rats nest indoors in enclosed, elevated spaces such as attics, wall voids, ceiling voids and cabinets, and CDC's rodent survey manual says they prefer to nest in trees, bushes and the attics of homes and outbuildings. UC IPM lists noises from the attic or drop ceilings among the signs of rats. Squirrels use attics too, but UC IPM says tree squirrels are active by day, while rats are mostly active at night."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Rats (UC ANR Publication 74106)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/rats/pest-notes/" },
+    { "title": "Norway Rats", "publisher": "Internet Center for Wildlife Damage Management (ICWDM)", "url": "https://icwdm.org/species/rodents/norway-rats/" },
+    { "title": "Surveillance and Management of Common Structure-Invading Rats (2024)", "publisher": "NC State Extension, North Carolina State University", "url": "https://content.ces.ncsu.edu/surveillance-and-management-of-common-structure-invading-rats" },
+    { "title": "Mouse and Rat Biology and Behavior", "publisher": "Cornell Integrated Pest Management (Cornell IPM), Cornell University", "url": "https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/rodents/mouse-and-rat-biology-and-behavior" },
+    { "title": "Holes in the Lawn (HGIC 2364)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/holes-in-the-lawn/" },
+    { "title": "Integrated Pest Management: Conducting Urban Rodent Surveys (2006)", "publisher": "Centers for Disease Control and Prevention", "url": "https://stacks.cdc.gov/view/cdc/6865/cdc_6865_DS1.pdf" },
+    { "title": "How to Clean Up After Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html" },
+    { "title": "How to Trap Up to Remove Rodents", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Veterinary Guidance for Testing for Seoul Virus in Pet Rats", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/hcp/animals/index.html" },
+    { "title": "About Leptospirosis", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/leptospirosis/about/index.html" },
+    { "title": "About Rat Bite Fever (RBF)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rat-bite-fever/about/index.html" },
+    { "title": "How Chagas Disease Spreads", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/chagas/spreads/index.html" },
+    { "title": "Rats: Information for Tenants and Property Owners", "publisher": "New York City Department of Health and Mental Hygiene", "url": "https://www.nyc.gov/site/doh/health/health-topics/rats-tenants-property-owners.page" },
+    { "title": "Wood Rat (Vertebrate Pest Control Handbook)", "publisher": "California Department of Food and Agriculture", "url": "https://www.cdfa.ca.gov/plant/IPC/vertebrates/docs/vpcrac/handbook/woodratpart4peter.pdf" },
+    { "title": "Packrat (Organ Pipe Cactus National Monument)", "publisher": "U.S. National Park Service", "url": "https://www.nps.gov/orpi/learn/nature/packrat.htm" },
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Deer Mouse (Pest Notes, Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/deer-mouse/" },
+    { "title": "Pest Notes: Tree Squirrels (UC ANR Publication 74122)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/tree-squirrels/" },
+    { "title": "Yellowjackets and Other Social Wasps (Pest Notes, Publication 7450)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" }
+  ],
+  "disclaimer": "health"
+}

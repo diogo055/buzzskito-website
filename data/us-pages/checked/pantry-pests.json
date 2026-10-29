@@ -2,7 +2,7 @@
  "id": "pantry-pests",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4277292b6319aa0482a2c667480ff37bc877642afecf3b2586b3dfc3ccec54c0",
+ "sha": "5cc3fdda0ddf3234209bebeec08066177258fb747f4db72a66cacff75a669876",
  "claimsChecked": 290,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 1,
@@ -27,6 +27,16 @@
    "on": "2026-10-23",
    "note": "alsoTargets: removed 'weevils in rice' (now owned by /blog/weevils, 2026-10-24); one link-in sentence to /blog/weevils added at the end of the rice weevil section (no new facts; no date change) (volume-20, Oct 23)",
    "previousSha": "70ef6c810d0067d4537785a959e5fb605001221e149e38e97a938eaeb880c702"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/bugs-in-kitchen (new page); no fact changed",
+   "previousSha": "4277292b6319aa0482a2c667480ff37bc877642afecf3b2586b3dfc3ccec54c0"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: the new /blog/bugs-in-kitchen link sentence shortened (keeps the page under the length warning); no fact changed",
+   "previousSha": "fa8f01557b4dbee3cec4b3f2e1f899f412d93201408b1752d009a7133d64ed16"
   }
  ]
 }

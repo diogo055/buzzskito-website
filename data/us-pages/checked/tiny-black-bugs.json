@@ -2,7 +2,7 @@
  "id": "tiny-black-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "f473cad392ffe81b880d56d3df83a2ddb56d901a2c53479860e6079e04b8d8f5",
+ "sha": "6e52ce91f70d5adc0d82a63c2e9ca8f9e66818fc143dd7dfd039a51eb06a9dd4",
  "claimsChecked": 241,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -32,6 +32,11 @@
    "on": "2026-10-23",
    "note": "link-in: /blog/weevils (volume-20, Oct 23)",
    "previousSha": "472821d272f03b8fac4098efc6dbf59c431f12e3c5065ad6bbe1e75916265d90"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/bugs-in-carpet (new page); no fact changed",
+   "previousSha": "f473cad392ffe81b880d56d3df83a2ddb56d901a2c53479860e6079e04b8d8f5"
   }
  ]
 }

@@ -14,17 +14,20 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-bed-bug-heat-chamber-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Bed Bug Heat Chamber Canada 2026 — ZappBug vs Thermal Strike vs DIY'
-const META_TITLE = 'Best Bed Bug Heat Chamber Canada: ZappBug 2026'
+// TITLE NOTE (Oct 28, 2026): was 'Best Bed Bug Heat Chamber Canada: ZappBug 2026'; top queries, Jul 28-Oct 25 (all countries): heat chamber 20 at 6.0, heat chamber bed bugs 10 at 8.8, bed bug heat chamber 9 at 9.2, bed bug heating chamber 6 at 12.3, bed bug heat bag 5 at 9.0, portable bed bug heat chamber 5 at 9.2, hot box for bed bugs 4 + hot box for killing bed bugs 3 (0 clicks); bed bug heater canada (10 at 11.9) left to /blog/bed-bug-heater-canada.
+const META_TITLE = 'Best Bed Bug Heat Chamber Canada: Hot Box & Bag'
 
 const FAQS = [
   {
     question: 'What is the best bed bug heat chamber in Canada?',
-    answer: 'For most Canadian households the best bed-bug heat chamber is a purpose-built portable unit like the ZappBug Original or ZappBug Room — a collapsible insulated box with built-in heaters and a probe thermometer that holds the whole load above the lethal 48°C (118°F) threshold long enough to kill every life stage, eggs included. Choose the Original for luggage, shoes, books, and small bins of clothing; step up to the ZappBug Room for chairs, small dressers, and larger loads. A heated travel bag such as the Thermal Strike Ranger is the best pick if you mainly need to decontaminate a suitcase on the road, and a carefully built DIY chamber can work for a one-off job if — and only if — you monitor the internal temperature with a real thermometer. A heat chamber treats items you can put inside it; it does not treat the room, the mattress, or the bed frame, so it is one tool in a plan, never the whole plan.',
+    answer: 'For most Canadian households the best bed-bug heat chamber is a purpose-built portable unit like the ZappBug Original or ZappBug Room — a collapsible insulated box with built-in heaters and a probe thermometer that holds the whole load above the lethal 48°C (118°F) threshold long enough to kill every life stage, eggs included. Choose the Original for luggage, shoes, books, and small bins of clothing; step up to the ZappBug Room for chairs, small dressers, and larger loads. A heated travel bag such as the Thermal Strike Ranger is the best pick if you mainly need to decontaminate a suitcase on the road, and a carefully built DIY chamber can work for a one-off job if — and only if — you monitor the internal temperature with a real thermometer. A heat chamber treats items you can put inside it; it does not treat the room, the bed frame, or a mattress left on the bed, so it is one tool in a plan, never the whole plan.',
   },
   {
     question: 'What temperature kills bed bugs and their eggs?',
@@ -36,7 +39,7 @@ const FAQS = [
   },
   {
     question: 'ZappBug Original vs ZappBug Room — which size do I need?',
-    answer: 'Pick by what you need to fit inside. The ZappBug Original is the smaller cube — ideal for suitcases, backpacks, shoes, books, stacks of folded clothing, and bins of toys or linens, which covers the majority of household bed-bug jobs. The ZappBug Room is the larger unit and swallows the things the Original cannot: a small armchair, a couple of stacked dining chairs, larger totes, or a full family\'s worth of clothing in one cycle. If you are treating mostly clothing and travel gear, the Original is enough and cheaper to run. If you routinely need to heat furniture or want to clear big loads in fewer cycles, the Room pays for itself in time. Neither treats the mattress or the bed itself — for those you need in-place heat or steam, not a chamber.',
+    answer: 'Pick by what you need to fit inside. The ZappBug Original is the smaller cube — ideal for suitcases, backpacks, shoes, books, stacks of folded clothing, and bins of toys or linens, which covers the majority of household bed-bug jobs. The ZappBug Room is the larger unit and swallows the things the Original cannot: a small armchair, a couple of stacked dining chairs, larger totes, or a full family\'s worth of clothing in one cycle. If you are treating mostly clothing and travel gear, the Original is enough and cheaper to run. If you routinely need to heat furniture or want to clear big loads in fewer cycles, the Room pays for itself in time. The Original (ZappBug’s smallest unit, sold as the ZappBug Heater) cannot take a mattress; ZappBug says the Room can, up to a California king, once you carry it in. Neither treats a bed frame or the room itself — for those you need in-place heat or steam.',
   },
   {
     question: 'Can I build a DIY bed bug heat chamber?',
@@ -70,11 +73,23 @@ const FAQS = [
     question: 'Should I combine a heat chamber with a steamer or vacuum?',
     answer: 'Yes — the chamber, the steamer, and the vacuum divide the job cleanly between them. Use the heat chamber for everything portable: luggage, clothing, shoes, books, toys, and small soft goods all go in and come out egg-free. Use a steamer for the things you cannot fit in a chamber but can treat in place — mattress seams, the bed frame, headboard cracks, baseboards, and upholstered furniture — where sustained steam heat kills bugs and eggs on contact. Use a sealed-HEPA vacuum first to physically remove live adults, nymphs, and debris from seams and edges before you steam. Together they cover portable items, in-place surfaces, and physical removal — three distinct parts of a bed-bug plan that no single device handles alone.',
   },
+  {
+    question: 'What is a hot box for bed bugs?',
+    answer: 'A hot box is another name for a portable bed bug heat chamber: an insulated, collapsible box with a built-in heater and a temperature probe. ZappBug, for example, lists its smallest unit at 120–145°F (49–63°C) inside with typical treatments of 3 to 6 hours, and tells you to put the wireless probe in the deepest part of the load and not to overstuff it. The target is the eggs: Kells and Goblirsch (2011) found they need 71.5 minutes at 48°C, and the University of Minnesota says bed bugs and eggs die immediately at 50°C, once that heat reaches everywhere they hide.',
+  },
+  {
+    question: 'Can you put a mattress in a bed bug heat chamber?',
+    answer: 'Only in a room-size unit. ZappBug says its largest model, the ZappBug Room (111 x 57.5 x 80 inches), takes mattresses up to a California king, plus couches, tables and chairs, with treatments of 3 to 8 hours, and it lists 4 circuits needed. Its smaller Heater and Oven 2 are sized for clothes, bedding, books, luggage and small furniture, not mattresses. If the mattress cannot be moved, steam the seams and tufts, then seal it in a bed bug encasement.',
+  },
+  {
+    question: 'How hot does a bed bug heat chamber get?',
+    answer: 'ZappBug lists 120–145°F (49–63°C) for its Heater, 120–150°F for the Oven 2 and 120–155°F for the Room, and its guide recommends holding items at 120°F (49°C) for one hour. Health Canada says bedbugs die at 50°C. What counts is the temperature at the coldest, densest item, so read the probe, not the heater dial: Kells and Goblirsch (2011) found eggs survived 7 hours at 45°C but died within 71.5 minutes at 48°C.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best portable bed-bug heat chambers in Canada: ZappBug Original vs ZappBug Room vs Thermal Strike travel bags vs a DIY build — the lethal temperature science, sizing, safety, what a chamber can and cannot treat, and our picks. Updated 2026.',
+  description: 'Bed bug heat chambers (hot boxes) for Canadian homes: ZappBug Heater vs Room vs heat bags vs DIY, the 48°C egg target, what fits inside and what no chamber treats.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +114,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
             <span className="text-white">Best Bed Bug Heat Chamber Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A portable heat chamber is the one consumer tool that reliably kills bed bugs <em>and their eggs</em> in the things you can carry &mdash; here is the lethal-temperature science, how ZappBug, Thermal Strike, and a DIY build compare, how to size one, and exactly what a chamber can and cannot treat.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">For most Canadian homes the best bed bug heat chamber is a purpose-built, probe-monitored box like the ZappBug Heater (the &ldquo;Original&rdquo; below) for clothes, shoes, books and luggage; step up to the ZappBug Room only for couches or mattresses you can carry. A chamber treats only what fits inside it, and the eggs die once the coldest item holds 48&deg;C for 71.5 minutes or reaches 50&deg;C.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,7 +127,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed-bug heat chamber in Canada is a purpose-built portable unit like the <strong>ZappBug Original</strong> (luggage, clothing, shoes, books) or the larger <strong>ZappBug Room</strong> (chairs, small furniture, big loads): both hold the whole load above the lethal <strong>48&deg;C / 118&deg;F</strong> threshold long enough to kill every life stage, eggs included. A heated travel bag like the Thermal Strike Ranger is best for suitcases on the road; a DIY box works for a one-off job only if you monitor the internal temperature. A chamber treats what fits inside &mdash; it does not treat the room, the mattress, or the frame.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best bed-bug heat chamber in Canada is a purpose-built portable unit like the <strong>ZappBug Original</strong> (luggage, clothing, shoes, books) or the larger <strong>ZappBug Room</strong> (chairs, small furniture, big loads): both hold the whole load above the lethal <strong>48&deg;C / 118&deg;F</strong> threshold long enough to kill every life stage, eggs included. A heated travel bag like the Thermal Strike Ranger is best for suitcases on the road; a DIY box works for a one-off job only if you monitor the internal temperature. A chamber treats what fits inside &mdash; it does not treat the room, the bed frame, or a mattress left on the bed.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Bed bugs and their eggs die when the whole item is held at <strong>48&ndash;50&deg;C for 60&ndash;90+ minutes</strong> &mdash; sustained heat, not a brief spike.</li>
               <li>Heat kills eggs that sprays and vacuums leave behind, with no residue and no resistance.</li>
@@ -182,7 +197,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Heat Chamber Types Compared · Updated July 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Heat Chamber Types Compared · Updated October 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">ZappBug Original vs Room vs Travel Bag vs DIY — What Each Is For</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             All four reach the lethal 48&deg;C threshold, but they differ in what they can hold and how much you trust the temperature. Here is the honest breakdown, with a live Amazon.ca availability check per type.
@@ -209,8 +224,8 @@ export default function BestBedBugHeatChamberCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">ZappBug Room<br /><span className="font-normal text-xs text-gray-500">large chamber</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Furniture</strong> &mdash; chairs, big loads, family laundry</td>
-                  <td className="px-4 py-3 text-gray-700">Small armchair, stacked chairs, large totes</td>
-                  <td className="px-4 py-3 text-gray-700">Larger footprint; still not for mattresses</td>
+                  <td className="px-4 py-3 text-gray-700">Couches, tables, chairs, mattresses up to a California king (ZappBug)</td>
+                  <td className="px-4 py-3 text-gray-700">111 x 57.5 x 80 in footprint; ZappBug lists 4 circuits needed</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="zappbug room bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
@@ -249,6 +264,19 @@ export default function BestBedBugHeatChamberCanadaPage() {
           <p>A purpose-built portable heat chamber &mdash; the ZappBug Original for most households, the ZappBug Room when you need to fit furniture &mdash; is the best bed-bug heat chamber you can buy in Canada. The reason is narrow and important: of all the anti-bed-bug tools a consumer can own, a heat chamber is one of the very few that reliably kills the <em>eggs</em>, and it does so for every item you can carry to it, with no residue and nothing left to hatch. A steamer does the same on surfaces you can reach; a vacuum removes what you can see; a chamber quietly decontaminates the belongings &mdash; the luggage, clothing, shoes, books, and toys &mdash; that would otherwise sit bagged in a corner making you nervous for weeks.</p>
           <p>The distinction that separates a chamber that works from one that wastes an afternoon is not the wattage or the brand on the box &mdash; it is whether the <em>coldest point in the load</em> actually crosses the lethal temperature and stays there. That single idea drives everything below, from why the built-in thermometer matters more than anything else, to why you should unfold a bulky coat before you close the lid.</p>
 
+          <QuickIdTable
+            title="Bed bug heat chambers compared: how each works, what fits, the limits"
+            head={['Type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['ZappBug Heater (the Original)', 'One heater, 120 V; ZappBug lists 120–145°F (49–63°C) inside and 3–6 hours a load, with a wireless probe for the deepest item', 'Clothes, bedding, shoes, books, toys, luggage', 'No furniture or mattresses; ZappBug says not to overstuff it and to run it in a room above 70°F (21°C)'],
+              ['ZappBug Oven 2', 'Two heaters, 120 V; 120–150°F (49–66°C); 39.5 x 39.5 x 28 inches', 'Small furniture plus everything the Heater takes', 'Mattresses are not on ZappBug’s list for it'],
+              ['ZappBug Room', 'Four heaters, 120 V; 120–155°F (49–68°C); 111 x 57.5 x 80 inches; 3–8 hours', 'Couches, tables, chairs and mattresses up to a California king', 'ZappBug lists 4 circuits needed, and you carry the furniture in'],
+              ['Heated luggage unit (Thermal Strike)', 'Heats a suitcase and its contents', 'Luggage after a trip', 'Suitcase-sized loads only'],
+              ['DIY box (space heater + insulation + probe)', 'A heater warms an insulated box while a probe reads the core', 'A one-off small load, if at all', 'The University of Florida entomologists who built one told homeowners not to, because it could lead to fires'],
+            ]}
+            caption={<>ZappBug sizes, heaters, temperatures and treatment times from ZappBug&rsquo;s <a href="https://zappbug.com/pages/compare-zappbug-products" target="_blank" rel="noopener noreferrer" className="underline">product comparison</a>, <a href="https://zappbug.com/pages/zappbug-heater-guide" target="_blank" rel="noopener noreferrer" className="underline">Heater guide</a> and <a href="https://zappbug.com/products/zappbug-room" target="_blank" rel="noopener noreferrer" className="underline">Room page</a>, checked October 28, 2026; the DIY warning from the <a href="https://archive.news.ufl.edu/articles/2009/07/uf-researchers-turn-up-the-heat-on-bedbugs-with-new-low-tech-treatment-method.html" target="_blank" rel="noopener noreferrer" className="underline">University of Florida (July 7, 2009)</a>; the egg target from Kells and Goblirsch, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4553552/" target="_blank" rel="noopener noreferrer" className="underline">Insects 2(3):412&ndash;422 (2011)</a>. The luggage row restates this page&rsquo;s own section. No unit was tested.</>}
+          />
+
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug original bed bug heater">ZappBug Original →</BuyLink>
@@ -260,6 +288,7 @@ export default function BestBedBugHeatChamberCanadaPage() {
           <NextUp path="/blog/best-bed-bug-heat-chamber-canada" />
           <h2>The Science: Why 48&deg;C Is the Number That Matters</h2>
           <p>Bed bugs are killed by heat, but only heat that is both high enough and held long enough. The lethal threshold is around <strong>48&deg;C (118&deg;F)</strong>: adults and nymphs die within minutes once their body temperature reaches it, while the eggs &mdash; sturdier, shielded by their coating &mdash; need sustained exposure, which is why the working target is holding the entire item at <strong>48&ndash;50&deg;C for 60 to 90 minutes or more</strong>. Go too low and you merely stress the bugs; hit the temperature only at the surface and you kill nothing that has retreated to the cooler core.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). Eggs are the stage that needs the longest heat, and a folded seam like this is where heat arrives last." />
           <p>That word &mdash; sustained &mdash; is the whole game. A duffel bag whose outer fabric hits 50&deg;C while the centre of a folded blanket inside is still sitting at 35&deg;C has not been treated; the bugs simply migrate to the cool middle and survive. A real heat chamber circulates warm air and holds temperature so that even the most insulated, slowest-heating point in the load crosses the lethal line and stays across it. This is also precisely why heat succeeds where sprays fail on eggs: contact insecticides struggle to penetrate the egg\'s protective coating, but heat denatures the proteins inside regardless of the shell, killing the developing insect along with the adults and nymphs in one pass.</p>
 
           <h2>Why the Thermometer Is the Most Important Feature</h2>
@@ -270,23 +299,48 @@ export default function BestBedBugHeatChamberCanadaPage() {
           <p>These units are a real investment, so it is worth matching the size to the job rather than over- or under-buying. Work through it in this order:</p>
           <ul>
             <li><strong>Start from what you need to fit inside.</strong> Mostly clothing, luggage, shoes, and books? The <strong>ZappBug Original</strong> handles the majority of household jobs and costs less to buy and run. Need to heat a small armchair, stacked chairs, or clear a whole family\'s laundry in one go? Step up to the <strong>ZappBug Room</strong>.</li>
-            <li><strong>Be honest that it will not fit the bed.</strong> Neither common size treats a mattress or box spring in place. If the mattress is the problem, you need in-place heat or steam, not a chamber &mdash; do not buy a bigger unit expecting it to swallow the bed.</li>
+            <li><strong>Be honest about the bed.</strong> The Original will not take a mattress. ZappBug says the Room will, up to a California king, but only once you carry the mattress inside, and it lists 4 circuits needed. A mattress you cannot move needs in-place steam and an encasement, and no chamber treats the bed frame or the walls.</li>
             <li><strong>Buy the thermometer-verified design (pay for this).</strong> The built-in probe is what turns a hot box into a treatment. It is the one feature you cannot fake with a cheaper heater.</li>
             <li><strong>Match it to Canadian power (non-negotiable).</strong> Choose a unit rated for 120V household current and, ideally, one carrying a recognised safety certification. A voltage mismatch on a grey-market US listing is where fire and failure both live.</li>
             <li><strong>Weigh cycles-per-job against footprint.</strong> A larger chamber clears big loads in fewer multi-hour runs but takes more storage space. If your jobs are small and occasional, the Original\'s smaller footprint is the better trade.</li>
           </ul>
           <p>Read that as a spending map: put your money into a correctly rated, thermometer-verified unit sized to the loads you actually have, and do not pay for capacity you will never fill.</p>
           <p>ZappBug is not the only line worth shortlisting. PackTite builds a different shape of chamber &mdash; a tall hanging design that suits coats, linens and bulky clothing rather than mixed loads &mdash; and we reviewed both sizes: <Link href="/blog/packtite-closet-review-canada">the large-capacity Closet</Link> and <Link href="/blog/packtite-portable-review-canada">the folding Portable for shoes, books and bags</Link>. If you are torn between the two brands&rsquo; flagship units, <Link href="/blog/packtite-vs-zappbug-canada">the Closet against the ZappBug Room, spec by spec</Link> is the direct comparison, and <Link href="/blog/zappbug-oven-2-review-canada">the twin-heater Oven 2 write-up</Link> covers the middle size along with its two-circuit power requirement.</p>
-          <p>For a traveller who would rather not own a chamber at all, there is a fourth shape: <Link href="/blog/thermalstrike-ranger-review-canada">a suitcase with the heating elements built into its walls</Link>, which treats its own contents at the front door.</p>
+          <p>For a traveller who mainly needs to treat luggage, there is a fourth shape: <Link href="/blog/thermalstrike-ranger-review-canada">a folding heater that a closed suitcase goes into</Link>, which treats the bag at the front door.</p>
+          <Photo id="bed-bug-hotel-bedding" alt="A bed bug on white woven fabric photographed at a hotel" caption="A bed bug on white woven fabric that the observer photographed at a hotel near Tacoma, Washington. Bugs picked up on a trip ride home in luggage, which is the load a heated luggage unit is sized for." />
+
+          <h2 id="situation">Which Heat Chamber for Your Situation?</h2>
+          <ul>
+            <li><strong>Only clothes and bedding:</strong> a hot dryer first. Health Canada says to put small non-washable and dry-clean-only items in a hot dryer for 30 minutes or more.</li>
+            <li><strong>Shoes, books, toys and luggage:</strong> the Original-size chamber, with the probe buried in the densest item.</li>
+            <li><strong>A chair or other small furniture:</strong> the Oven 2, ZappBug&rsquo;s middle size.</li>
+            <li><strong>A couch, or a mattress you can carry:</strong> the Room, if you have 4 circuits near where it will stand.</li>
+            <li><strong>A suitcase after every trip:</strong> a heated luggage unit.</li>
+            <li><strong>Bugs in the bed frame, baseboards or walls:</strong> no chamber reaches them. Use steam and interceptor traps, and the licensed professional Health Canada strongly recommends.</li>
+          </ul>
+
+          <h2>Bed Bug Heat Chamber Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Interior size</strong> that fits your biggest item without stuffing it.</li>
+            <li><strong>A probe thermometer</strong> you can bury in the densest item; ZappBug&rsquo;s guide says the deepest part of the load.</li>
+            <li><strong>A top temperature above 50&deg;C,</strong> the point at which Health Canada says bedbugs die.</li>
+            <li><strong>Power:</strong> a standard 120 V plug, and enough circuits (ZappBug lists 4 for the Room).</li>
+            <li><strong>A tip-over shut-off;</strong> ZappBug&rsquo;s Heater cuts power if it is knocked over.</li>
+            <li><strong>Room to run it:</strong> ZappBug asks for a room above 70&deg;F (21&deg;C), an insulator under the unit on a hard floor, and a clear air intake.</li>
+            <li><strong>A removal list:</strong> aerosols, lighters, candles, crayons and anything else that melts stay out.</li>
+            <li><strong>A plan for the room:</strong> steam, interceptor traps and an encasement for everything a chamber cannot hold.</li>
+          </ol>
 
           <h2>The DIY Heat Chamber: When It Makes Sense (and When It Bites)</h2>
           <p>For a single, small, one-off job on a tight budget, a DIY chamber can genuinely save money &mdash; but it comes with real risk that a purpose-built unit engineers away. The usual builds are an insulated storage tote or a zippered garment bag fed warm air by a small ceramic space heater, or a foil-lined box, run until the interior holds 48&ndash;50&deg;C. Done carefully it works. Done blind it either fails to kill the eggs or, worse, overheats into melted belongings or a fire.</p>
+          <p>Weigh that against what the people who built one said. The University of Florida entomologists who made a low-cost chamber from oil-filled space heaters, fans and foam insulation board in 2009 still told homeowners not to build their own, warning that it could lead to fires. Health Canada&rsquo;s advice is that heat treatments should be left to the professionals, with a hot dryer for small items.</p>
           <p>If you go this route, the rules are not optional: use a proper probe thermometer placed at the coldest, most insulated point in the load and read it, not the heater\'s dial; never leave a space heater running unattended; keep the heating element well clear of the fabric it is warming; and pull out anything with batteries, aerosols, or a low melting point first. The honest summary is that a DIY chamber trades money for risk and attention &mdash; a ZappBug costs more up front and buys back the even heat, the controlled temperature, and the verified kill. For anyone facing a recurring problem or heating anything they cannot afford to lose, that trade favours the purpose-built unit.</p>
 
           <RelatedLinks path="/blog/best-bed-bug-heat-chamber-canada" />
           <h2>What a Heat Chamber Can and Cannot Treat</h2>
           <p>The chamber\'s superpower and its limit are the same fact: it heats what you put inside it, and only that. Inside its capacity it is superb &mdash; luggage, clothing, shoes, books, toys, linens, and small soft furnishings come out completely decontaminated, eggs and all. That covers a huge share of the anxiety in a bed-bug situation, because it clears the mountain of belongings you would otherwise have to bag, seal, and distrust for months.</p>
           <p>What it cannot do is reach the infestation where it actually lives. A portable chamber does not heat a mattress or box spring in place, a bed frame or headboard, large furniture beyond its capacity, or &mdash; the crucial one &mdash; the cracks, baseboards, outlet boxes, wall voids, and carpet edges where bed bugs harbour between meals. It also cannot stop a neighbouring unit from re-seeding your room. For the surfaces it cannot hold, a <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> applies lethal heat in place; for the room and the structure you need whole-room heat, steam, and interceptor monitoring together. Think of the chamber as the belongings-decontamination station in a larger plan, never the plan itself.</p>
+          <Photo id="bed-bug-fecal-spots-bed-frame" alt="Black bed bug fecal spots on a wooden bed frame" caption="Black bed bug fecal spots on a wooden bed frame near where the bugs hid, photographed by the New York State IPM Program at Cornell University. A frame like this stays in the bedroom, so it needs steam or whole-room heat, not a chamber." />
 
           <h2>Chamber vs Professional Whole-Room Heat</h2>
           <p>There is a rung between a portable chamber and a professional crew, and it is worth knowing it exists before you assume the only options are a box or a four-figure invoice: room-scale collapsible enclosures and forced-air portable heaters, run with remote probes. <Link href="/blog/best-whole-room-bed-bug-heater-canada">The whole-room heat equipment guide</Link> covers what Canadians can actually buy at that scale and why grey-market 240V US units are the wrong purchase. The method itself &mdash; dwell times, the core-temperature rule, and what heat can damage &mdash; is in <Link href="/blog/bed-bug-heat-treatment-diy-canada">our DIY heat-treatment walkthrough</Link>, and if you are still weighing heat against a chemical program, <Link href="/blog/heat-vs-chemical-bed-bug-treatment-canada">the head-to-head comparison</Link> settles which belongs in the primary role.</p>

@@ -1,0 +1,211 @@
+{
+ "_readme": "Scout notes for the eighteenth photo batch (Oct 28, 2026): the owner’s top-100 build, three new pages that could not be written without a public-domain or CC0 lead photo (baby-rats, snake-poop, hobo-spiders). Same format as batches 7 to 17: what each photo’s source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence in the identification, whether it can lead a page (leadEligible: public domain or CC0 AND a confident identification of the page’s main subject), and caveats. Licence, credit and size of record are in photos.json and repeated in note. 17 photos were added: 11 CC0 iNaturalist records, 1 CC0 Wikimedia Commons file, 1 public domain CDC PHIL photo, 4 CC BY iNaturalist and 1 CC BY-SA Commons file. Result: baby-rats and hobo-spiders now have a CC0 lead; snake-poop does NOT (no public-domain or CC0 snake dropping with a documented identification exists in any source the photo script reads), so that page waits. Every image was opened before choosing and every WebP conversion was checked. Two Rosford photos had the photographer’s date, place and copyright line printed in the bottom-left corner; the script’s cropBottom removed the bottom 6% (checked: no text left, the droppings untouched) and the credit line keeps his copyright notice. Searches, refusals and what is still missing are in gaps.",
+ "candidates": [
+  {
+   "id": "baby-norway-rat-furred-eyes-closed",
+   "forPages": [
+    "baby-rats"
+   ],
+   "confidence": "medium-high (research grade: two identifiers agree on Rattus norvegicus, though each has fewer than 100 identifications; the observer put Chordata. By our reading the pup’s size in an adult palm, its large feet, rounded ears and long, thick, scaly tail fit a rat pup, not a mouse, vole or muskrat kit)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 394967043 by sapien (Michael), Southampton Township, Burlington County, New Jersey, August 27, 2026, CC0. No description. Identified Rattus norvegicus by thecuriouslion and runbymice (Mouse); the observer’s own identification stops at Chordata. Research grade. Annotated juvenile, male, alive. Six photos, all of the same pup in a hand.",
+   "caveats": "THE LEAD for baby-rats. A single furred pup, eyes still closed, curled in a bare palm: whiskers, a rounded ear and the dark tail clear. The source gives no age and no place where it was found: give an age only from the page’s own sources (fur and eye-opening by day only as ICWDM, a university or a veterinary source states them), and do not say where it was found. The bare-hand handling conflicts with the page’s advice not to handle wild rats: the caption must not present handling as fine (pair it with the page’s own do-not-handle line). Male is annotated but irrelevant: leave it out. If a no-hands lead is wanted, norway-rat-2-weeks-old-ruler is the public-domain fallback.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x904."
+  },
+  {
+   "id": "baby-rats-litter-yard-debris-nest",
+   "forPages": [
+    "baby-rats"
+   ],
+   "confidence": "medium (that these are rat pups: high by our reading of size, long scaly tails and large feet, and the litter of about six fits ICWDM’s 6-12; the species is only the observer’s presumption from the habitat; no second identification)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 166364673 by feroxara (Raven Dandridge, about 19,600 identifications), Derrick St, West Columbia, South Carolina, June 8, 2023, CC0. Description: 'Species presumed based on habitat, under a large pile of debris in a suburban area. Nest exposed in the midst of doing yardwork. Young returned to nest after I realized no wildlife rehab centers around took rats.' Identified Rattus norvegicus by the observer only (needs ID). Seven photos of the litter and single pups in a hand.",
+   "caveats": "A litter of about six dark gray, furred pups with closed eyes heaped in one palm, a garden hose and plastic yard debris behind: the closest thing on record to baby rats where people find them. Not a lead: the species rests on the observer alone and the record is needs ID. Caption it as rat pups the observer found in a nest under a yard debris pile, identified by the observer as Norway rats; never as confirmed Norway rats. Bare-hand handling again: same caution as the lead. The observer’s remark about rehab centers is not a source: say anything about wildlife rehabilitators only as a state wildlife agency does.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1157."
+  },
+  {
+   "id": "norway-rat-2-weeks-old-ruler",
+   "forPages": [
+    "baby-rats",
+    "how-long-do-rats-live",
+    "rat-vs-mouse"
+   ],
+   "confidence": "high (CDC identification and age)",
+   "leadEligible": true,
+   "sourceDescription": "CDC Public Health Image Library 26272, public domain, content provider CDC/ Bayard F. Bjornson. CDC’s description: a left lateral view of a 2-week-old Norway rat (Rattus norvegicus) positioned adjacent and parallel to a ruler, demonstrating an approximate length of 5.25 inches; note the animal’s proportionally large ears and feet, as well as its blunt snout and tail. Found by probing PHIL ids next to PHIL 26271 (already on record as house-mouse-vs-young-rat).",
+   "caveats": "A brown, furred young rat lying on its belly beside a wooden ruler on a white background, eyes closed; a thin black frame around the scan. Very likely the same animal as house-mouse-vs-young-rat, whose animals look like specimens (batch 4): CDC does not say alive or dead, so never call it alive. Lead-eligible by licence and identification, but the planner asked for live baby rats, so it is the fallback lead and the anchor of the age row (2 weeks old, about 5 1/4 inches: CDC’s words, not a reading of the ruler, whose marks are hard to read). Specimen-style, not a where-found photo. Fits the young rat vs mouse row too (rat-vs-mouse already uses PHIL 26271).",
+   "note": "Credit: CDC/ Bayard F. Bjornson (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x817."
+  },
+  {
+   "id": "young-roof-rat-paver-walkway",
+   "forPages": [
+    "baby-rats",
+    "roof-rat-vs-norway-rat"
+   ],
+   "confidence": "high (research grade: identified Rattus rattus by pelagicvole (Lex Orr, about 16,000 identifications), the observer agreeing)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 368459374 by kadenlikesmilk (Kaden Stebbins), Museum Park, Miami, Florida, June 4, 2026, CC0. No description. Identified Rattus rattus by pelagicvole, supported by the observer. Research grade. Annotated juvenile.",
+   "caveats": "A small, weaned young rat with big ears and a long thin tail, alive, on a gray paver walkway with fallen leaves: the juvenile-outdoors photo the planner asked for the age row. Not the lead (an older juvenile, not a nest-age baby). No scale in the frame: give no size from it. The heaviest file in the batch after the shed skin (395 KB, paver texture).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "young-norway-rats-live-trap",
+   "forPages": [
+    "baby-rats"
+   ],
+   "confidence": "high (research grade: the observer Mirko Schoenitz, about 110,000 identifications, with cholzapfel and otofrog)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 58897792 by schoenitz (Mirko Schoenitz), New Jersey, September 6, 2020, CC0. Description: 'caught 10 over 2 nights'. Identified Rattus norvegicus by the observer, cholzapfel and otofrog. Research grade. Annotated juvenile, alive.",
+   "caveats": "Two young brown rats inside a black wire live trap on pavement, straw in the trap. Good for what a litter near the house means (the observer caught 10 in two nights), at the page’s sources’ strength only. The trap is a live (cage) trap: the page’s method is trapping adults as the extension sources describe (UC IPM: snap traps; small young rats may not set one off), so do not caption this trap as the recommended tool. No town given.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x863."
+  },
+  {
+   "id": "hobo-spider-dorsal-quarter",
+   "forPages": [
+    "hobo-spiders"
+   ],
+   "confidence": "high (research grade: Paolo Soldani, about 936,000 identifications, supports the observer’s Eratigena agrestis)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 393237985 by angrae (Angela Trnka), S Vivian Way, Lakewood, Colorado, August 20, 2026, CC0. Description: 'See US quarter coin for size comparison - relatively large spider. Found in an outdoor tote, then released after ID.' Identified Eratigena agrestis by the observer, supported by paolosol (Paolo Soldani). Research grade. Six photos, all CC0.",
+   "caveats": "THE LEAD for hobo-spiders. A brown spider from above on teal plastic: the herringbone chevrons on the abdomen and legs without bands are clear, the edge of a US quarter at the left. Lakewood is inside UC IPM’s range (Colorado). Caption as identified on iNaturalist: UC IPM says a reliable identification needs an arachnologist to examine the reproductive structures. Photo 720754556 of the same observation shows the whole quarter beside the spider (CC0, not added: the spider is small in that frame). Say an outdoor storage tote, not a house.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "hobo-spider-juvenile-bathtub",
+   "forPages": [
+    "hobo-spiders"
+   ],
+   "confidence": "high (identification supported by Rod Crawford, user arachnologus, the Burke Museum’s arachnologist; chuuuuung_has_left_inat also Eratigena agrestis; research grade)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 296552224 by swells (Steve Wells), Moscow, Idaho, July 9, 2025, CC0. Description: 'In bathtub'. Identified Eratigena agrestis by chuuuuung_has_left_inat and arachnologus (Rod Crawford); the observer’s identification stops at Eratigena. Research grade. Annotated juvenile, alive.",
+   "caveats": "A pale juvenile from above against the white tub, brightly lit in the center, the camera’s orange date stamp 07/09/2025 printed in the lower right. Where people find it: yes (a bathtub). The best-confirmed identification in the set, but a juvenile with a date stamp, so not the lead. Do not call it an adult or give its size. Moscow, Idaho lies within the range UC IPM describes (the Pacific Northwest east to Montana).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1168."
+  },
+  {
+   "id": "hobo-spider-door-corner",
+   "forPages": [
+    "hobo-spiders"
+   ],
+   "confidence": "medium-high (research grade: the observer and chuuuuung_has_left_inat, about 226,000 identifications, account since deactivated)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 184904478 by camrynjb, Missoula County, Montana, September 25, 2023, CC0. Description: 'No web anywhere in sight. Quarter-sized, just chilling on the bottom corner of a door.' Identified Eratigena agrestis by chuuuuung_has_left_inat and the observer. Research grade.",
+   "caveats": "A dark brown spider low on a white door beside the threshold; abdomen pattern dim, legs plain. Where people find it: yes. The record does not say whether the door was inside or outside the house: say only the bottom corner of a door. Quarter-sized is the observer’s description, not a measurement. Eligible by licence and identification, but the pattern is too dim for the lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "hobo-spider-house-foundation",
+   "forPages": [
+    "hobo-spiders"
+   ],
+   "confidence": "high (research grade: Jeremy Hussell, about 174,000 identifications, supports the observer)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 137477202 by darylnolan (Daryl Nolan), Prince George, British Columbia, September 17, 2022, CC0. Description: 'Found on house foundation behind a gas grill.' Identified Eratigena agrestis by the observer, supported by jeremyhussell (Jeremy Hussell). Research grade.",
+   "caveats": "A tawny spider side-on on rough gray concrete, the chevron pattern on the abdomen visible, legs plain. Where people find it: yes (a house foundation). Canadian place: the page is for US readers, so leave the place out of the caption. Smaller original (1101 px square).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1101x1101."
+  },
+  {
+   "id": "hobo-spider-funnel-web-particle-board",
+   "forPages": [
+    "hobo-spiders"
+   ],
+   "confidence": "high (research grade: the observer is Rebecca Ray, tigerbb, about 137,000 identifications; chuuuuung_has_left_inat agrees)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 84516618 by tigerbb (Rebecca Ray), Glendale, Salt Lake City, Utah, June 25, 2021; the photo is CC BY (the observation record itself is CC BY-NC; the photo’s own licence governs the photo). Description: 'I can always count on healthy hobos to make homes behind an old piece of particle board in my backyard.' Identified Eratigena agrestis by the observer and chuuuuung_has_left_inat. Research grade. Annotated male.",
+   "caveats": "A male hobo spider inside its dense sheet of silk running back into a funnel retreat, behind a weathered board: the planner’s also-wanted web where people find it (backyard debris rather than a woodpile or window well, which were not found under an allowed licence). CC BY, so never a lead or share image. That hobo spiders always nest there is the observer’s remark, not a source.",
+   "note": "Credit: (c) Rebecca Ray, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x758."
+  },
+  {
+   "id": "barn-funnel-weaver-indoor-wall",
+   "forPages": [
+    "hobo-spiders",
+    "house-spiders"
+   ],
+   "confidence": "medium-high (research grade: chuuuuung_has_left_inat and the observer, Austin Pursley)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 107562040 by autrpy (Austin Pursley), Virginia, July 7, 2021, CC0. Description: 'Indoors'. Identified Tegenaria domestica by chuuuuung_has_left_inat, supported by the observer. Research grade.",
+   "caveats": "The look-alike card photo the hobo-spiders notes ask for and the ledger lacked: a barn funnel weaver on a plain white indoor wall, its legs banded light and dark, abdomen spotted. Banded legs against the hobo spider’s plain legs is the card’s tell, but write it only as the page’s sources give it. /blog/house-spiders has h3s on the barn funnel weaver and no photo of it: this one fits there too. Small, clean file (16 KB).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "western-diamondback-defecating-dropping",
+   "forPages": [
+    "snake-poop"
+   ],
+   "confidence": "high (the observer photographed the snake defecating; species research grade with viperidae4ever, about 310,000 identifications, and valkyrie1227)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 184799533 by johnrosford (John Rosford), Hidalgo County, Texas, September 10, 2022; photos CC BY (the observation record is CC0). Description: 'Defecating. Photo 1: Not sure what the white projections just inside the cloaca are. Photo 5: Knife is 9.9cm long and 2.8cm wide near the center.' Identified Crotalus atrox by the observer, viperidae4ever and valkyrie1227. Research grade. Annotated adult, alive. This is photo 2 of 5.",
+   "caveats": "The rattlesnake’s raised tail with the vent open and, below it on dead grass and pine needles, the fresh dropping: dark brown feces with pale yellow-green urates (not white: caption the colors seen). The documented link between a snake and its dropping. Wild, not where homeowners find one. Bottom 6% cropped to remove the photographer’s printed date, place and copyright line (recorded in edited); our credit line keeps his copyright notice. CC BY: never a lead. A venomous snake: no caption that suggests getting close.",
+   "note": "Credit: (c) John Rosford, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1016x1504. Edited: bottom 6% cropped (caption strip)."
+  },
+  {
+   "id": "rattlesnake-dropping-knife-scale",
+   "forPages": [
+    "snake-poop"
+   ],
+   "confidence": "high (same observation: the observer photographed the snake defecating)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 184799533 (as above), photo 5 of 5, CC BY: the dropping beside the knife the observer describes as 9.9 cm long and 2.8 cm wide near the center.",
+   "caveats": "Close view of the same fresh dropping, several dark brown pieces with pale yellow-green urates, beside a folding knife: the size reference the droppings rules want (a knife, not a coin or ruler; about 3.9 inches long, 1.1 inches wide by the observer’s measure). Same 6% crop, checked clean.",
+   "note": "Credit: (c) John Rosford, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1326. Edited: bottom 6% cropped (caption strip)."
+  },
+  {
+   "id": "timber-rattlesnake-den-scat-hand",
+   "forPages": [
+    "snake-poop"
+   ],
+   "confidence": "medium (research grade, but identified from the setting: found at a timber rattlesnake den with snakes nearby; nobody saw a snake leave it)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 295448829 by courtharding (Court Harding), Pennsylvania, July 5, 2025, CC BY. Description: 'Found at a timber rattlesnake den where snakes were still present (maybe 20 ft away). Seemed fresh.' Identified Crotalus horridus by the observer, supported by spencero0 (Spencer Ort). Research grade. Annotated scat.",
+   "caveats": "Black, twisted dropping with a chalky white urate on a mossy rock among leaves, fingers beside it for size: the classic dark-plus-white look the page describes. Caption it as a dropping found at a timber rattlesnake den, recorded on iNaturalist as timber rattlesnake scat, not as proven. Wild, not a building.",
+   "note": "Credit: (c) Court Harding, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1599."
+  },
+  {
+   "id": "boa-constrictor-droppings-sample",
+   "forPages": [
+    "snake-poop"
+   ],
+   "confidence": "high that these are the droppings of a boa constrictor, as the museum labeled them (the source of the sample rests on the museum)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Boa Constrictor Faeces - National Poo Museum Sample.jpg' by PooMuseum, June 7, 2019, CC BY-SA 4.0. Description: 'Sample of Boa Constrictor faeces awaiting drying and preservation in clear resin at The National Poo Museum.' Categories: Boa constrictor, National Poo Museum, Reptile feces.",
+   "caveats": "Large, tubular, hair-covered pieces and one chalky urate lump in a clear plastic tub with a card reading Boa Constrictor: for the pet-snake section. A captive snake’s droppings, not where people find them. That the hair comes from prey is our reading: say it only if a source does. No place stated: do not add one.",
+   "note": "Credit: PooMuseum, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x802."
+  },
+  {
+   "id": "rat-snake-shed-skin-attic",
+   "forPages": [
+    "snake-poop",
+    "baby-snakes"
+   ],
+   "confidence": "high that this is a snake’s shed skin found in an attic (the observer’s words); medium-high for the species (two identifiers named Pantherophis alleghaniensis from the skin after first suggesting P. spiloides)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 338301921 by swords (about 54,000 identifications), Elton, West Virginia, February 11, 2026, CC0. Description: 'Found in attic'. Identified Pantherophis alleghaniensis by billmcgtenn (Bill McGighan, about 132,000 identifications), supported by batrachosepsdiabolicus; the observer’s identification stops at Serpentes. Research grade. Annotated molt. Photo 1 of 3; photo 3 shows the same skin across the attic joists beside the finder’s boots.",
+   "caveats": "The planner’s also-wanted shed skin in a building: a long scaly skin lying on loose-fill attic insulation, pink fiberglass batts behind, a hand at one end for size. Supports the other signs of a snake in a building (ICWDM: skins in attics and crawl spaces). Caption it as a snake’s shed skin found in an attic, a ratsnake as identified on iNaturalist. Heavy file (495 KB, narrow 921 x 2048): place it low or small.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 921x2048."
+  },
+  {
+   "id": "barn-swallow-droppings-concrete",
+   "forPages": [
+    "snake-poop"
+   ],
+   "confidence": "medium-high that these are bird droppings (white urate caps, nest straw and a feather around them); the species rests on the uploader",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons 'Hirundo rustica rustica feces.jpg' by Aschroet, July 16, 2016, CC0. Description: 'Hirundo rustica rustica feces'. Categories: Bird feces, Hirundo rustica rustica. No place given (H. r. rustica is the Eurasian subspecies, so not a US photo).",
+   "caveats": "The bird card snake-poop needs and the ledger lacked: a heap of small dark droppings capped with cream-white urates on a concrete floor, straw and a small feather around them, by our reading under a nest. Caption it as bird droppings, a pile the photographer identifies as barn swallow droppings; do not say garage or barn (not stated) and give no place. The tells against snake droppings must come from the page’s sources (UGA Extension, USFWS).",
+   "note": "Credit: Aschroet, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 1200x900."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "baby-rats",
+   "why": "Lead: baby-norway-rat-furred-eyes-closed (CC0, research grade, a live furred pup with closed eyes, held in a hand). Fallback lead without hands: norway-rat-2-weeks-old-ruler (public domain, CDC-identified, probably a specimen). Supporting: baby-rats-litter-yard-debris-nest (where found: yes, observer-only ID), young-roof-rat-paver-walkway (yes), young-norway-rats-live-trap (yes), norway-rat-2-weeks-old-ruler (no). Cards need nothing new (baby mice, Norway and roof rat, droppings, shrews and voles are on record). NOT FOUND under an allowed licence: pink newborn pups in a wild nest with a documented identification, and a nest photo at all (the planned rat-nest page will need one). Searched iNaturalist (Rattus annotated juvenile, 20 CC0; descriptions for nest, babies, pups, litter, newborn, young, family; captive and domestic rats: no CC0 litters), Wikimedia Commons (Rattus (juvenile), Pet rats (juvenile), Rattus norvegicus tracks and signs; searches in English, German, French, Italian) and CDC PHIL ids around 26271 and 25123. Refused: iNaturalist 385862784 (pink newborn in a plastic shopping bag, blurred, needs ID), the dead juveniles 232502304, 26939123, 112611731, 62076148 and 118368636 (dying); Commons 'Three baby rats piled up in their bed.jpg' (CC0, 7-week-old pet rats in a pet bed), 'Rats young.jpg' (public domain but 554 px, pet rats), the CC BY-SA pet and lab pup series ('Rat 7dagen.jpg' and others, 400-700 px), 'RAT BABIES IN HOLE PREPARED BY THEIR MOM 2.jpg' (CC BY-SA, Pakistan, species not given). Seen in search results but not opened (CC BY or CC BY-SA, so supporting at most): 'Wanderrratte mit Jungen (Zoo Dresden).jpg' (young brown rats in a nest at a zoo), iNaturalist 49895688 and 50104063 (Durham, Connecticut, mother and babies, CC BY-SA, research grade), 17480831 (Portland, Oregon, juveniles from a compost-bin nest, CC BY, needs ID)."
+  },
+  {
+   "slug": "snake-poop",
+   "why": "NO LEAD: the page waits. No public-domain or CC0 photo of a snake dropping with a documented identification exists in any source the photo script reads (CDC PHIL, Wikimedia Commons, iNaturalist, NPS figures). iNaturalist: 263 snake observations annotated scat, only 24 with allowed photos and 3 CC0, all refused: 113709899 (Italy, a dead whip snake; the scat is barely visible), 406707914 (India, two yellow urate lumps only, needs ID), 376953521 (Shelby, Wisconsin, dark droppings with a white urate on gravel but the observer asks 'Snake feces?', needs ID, so a bird cannot be ruled out). Description searches (poop, scat, feces, droppings, urates, musk, defecating and others) found no CC0 dropping; Squamata and Reptilia scat in CC0 are lizards and tortoises. Commons: searches in several languages and the Reptile feces category hold only a crocodile, a bearded dragon and the boa sample. NPS and USGS pages found no snake scat figure (the script cannot read USGS anyway). PHIL search is not reachable server-side. Supporting on record for when a lead turns up: western-diamondback-defecating-dropping, rattlesnake-dropping-knife-scale, timber-rattlesnake-den-scat-hand, boa-constrictor-droppings-sample (all CC BY or CC BY-SA, none where homeowners find one: no snake dropping in a garage, attic or deck exists under an allowed licence); extra: rat-snake-shed-skin-attic (CC0, in a building); card: barn-swallow-droppings-concrete (CC0, bird); lizard, mouse, rat and bat cards were already on record. Passed over: 394722702 (Brandon, Florida, a young racer indoors that pooped in a bucket, but the photos show the snake, not the dropping), 329148288 (San Mateo County, California, gray hair-filled scat with shed remnants under a board, CC BY, needs ID; its companion 329148289 has a dissenting Mammalia ID), the Botswana 'Faeces and droppings of Snakes' Commons files (not opened; the identification rests on the uploader). Ways to unlock, owner’s call: a CC0 photo the owner takes of a documented snake dropping, or asking John Rosford on iNaturalist to relicense his photos to CC0 (we contacted nobody)."
+  },
+  {
+   "slug": "hobo-spiders",
+   "why": "Lead: hobo-spider-dorsal-quarter (CC0, research grade, chevrons and plain legs, quarter edge). Supporting: hobo-spider-juvenile-bathtub (where found: yes, Rod Crawford), hobo-spider-door-corner (yes), hobo-spider-house-foundation (yes), hobo-spider-funnel-web-particle-board (yes, backyard web, CC BY). Card added: barn-funnel-weaver-indoor-wall (CC0); giant house spider, grass spider, wolf spider and brown recluse cards were already on record. Of the seven CC0 observations the planner listed, refused: 182624051 (Davenport, Washington; confirmed by Rod Crawford but both photos blurred, on wood), 193646617 (silhouette on a wall), 178902835 (camouflaged in a log), 183883532 (out of focus); 306653421 and 302130578 (Colorado, CC0) and 184566217 (British Columbia, CC0, sharp chevrons on its web in a rotting log, Paolo Soldani) are good and remain at the source if more are wanted. Also good at the source: 51543415 (Salt Lake City, sharp female at her retreat under a slab, CC BY, Rebecca Ray), 60224919 (Moscow, Idaho, under a brick, about 18 mm by the observer, CC0, date stamps), 7389941 (Olympia, Washington, on a wall, CC0 photos). NOT FOUND under an allowed licence: a hobo spider or web in a window well, basement or woodpile (187751652 is dead on a basement carpet in Alberta, CC BY, passed over). Of 2,603 research-grade hobo spider observations only 191 have photos under an allowed licence."
+  }
+ ]
+}

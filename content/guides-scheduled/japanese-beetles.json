@@ -1,0 +1,205 @@
+{
+  "slug": "japanese-beetles",
+  "kind": "spoke",
+  "cluster": "garden",
+  "keyword": "japanese beetle",
+  "alsoTargets": [
+    "japanese beetles",
+    "what do japanese beetles look like",
+    "japanese beetle vs june bug",
+    "japanese beetle damage",
+    "japanese beetle traps",
+    "japanese beetle grub",
+    "japanese beetle life cycle",
+    "false japanese beetle"
+  ],
+  "metaTitle": "Japanese Beetle: ID, Damage and Do Traps Work?",
+  "metaDescription": "A Japanese beetle is a metallic green and copper scarab with white tufts along its sides. Photos, damage, grubs, look-alikes and why traps can backfire.",
+  "h1": "Japanese Beetles: How to Identify Them, the Damage They Do, and Do Traps Work?",
+  "dek": "Real photos of the beetle, its grub and the leaves it skeletonizes, a quick-ID table of seven look-alikes from the green June beetle to the Asian lady beetle, and what extension research says about traps.",
+  "breadcrumb": "Japanese Beetles",
+  "excerpt": "How to identify a Japanese beetle by its white side tufts, tell it from June bugs and other look-alikes, read its damage and life cycle, and why traps can make things worse.",
+  "datePublished": "2026-10-29",
+  "parent": { "href": "/learn/natural-garden-pest-control", "name": "Garden Pest Control" },
+  "quickAnswer": {
+    "lead": "**A Japanese beetle is a scarab about 7/16 to 1/2 inch long with a metallic green head and thorax, copper-brown wing covers and a row of white hair tufts along each side: check for the tufts, which the look-alike false Japanese beetle lacks.** Adults chew leaves to lace from June into August, and the C-shaped white grubs feed on grass roots.",
+    "bullets": [
+      "The [University of Kentucky's fact sheet](https://entomology.mgcafe.uky.edu/ef451) gives adults as 7/16 inch long and [Purdue Extension](https://extension.entm.purdue.edu/publications/E-75.pdf) as about 1/2 inch; [Utah State University](https://extension.usu.edu/pests/research/japanese-beetle.php) counts six white tufts along each side of the body.",
+      "Adults emerge in June, are most active over 4 to 6 weeks from late June, and each lives about 30 to 45 days, the University of Kentucky says.",
+      "They feed on more than 300 ornamental and agricultural plants, according to [USDA APHIS](https://www.aphis.usda.gov/plant-pests-diseases/japanese-beetle).",
+      "University of Kentucky research found that Japanese beetle traps attract many more beetles than they catch, so susceptible plants near a trap can suffer more damage than with no trap at all.",
+      "The grubs are about 1 inch long when fully grown and spend about 10 months of the year in the soil, says [USDA's homeowner handbook](https://www.aphis.usda.gov/sites/default/files/JBhandbook.pdf)."
+    ]
+  },
+  "facts": {
+    "title": "Japanese beetle or look-alike? Quick ID",
+    "head": ["Beetle", "Length", "How to tell", "When and where"],
+    "rows": [
+      ["Japanese beetle", "7/16 to 1/2 inch", "Metallic green head and thorax, copper-brown wing covers, white hair tufts along each side", "By day, June into August, often in groups on roses, grapes and lindens in the sun"],
+      ["Green June beetle", "3/4 to 1 inch", "Velvety green with yellow-orange edges; shiny green or gold underneath", "By day, July and August; ripening fruit and flights over grassy areas"],
+      ["May/June beetle (June bug)", "1/2 to 1 inch", "Usually brown, rusty or black, without spots or stripes", "At night, around porch lights on late-spring evenings"],
+      ["False Japanese beetle", "3/8 to 7/16 inch", "Dull copper-brown wing covers that can look black; no white tufts", "Sandy soils, often on light-colored flowers, late June to late July"],
+      ["Rose chafer", "1/3 to 7/16 inch", "Slender, tan to pale green, with spiny reddish-brown or orange legs", "Sandy soils; roses, peonies and grapes, late May through June"],
+      ["Six-spotted tiger beetle", "About 1/2 inch", "Bright metallic green with up to 8 white spots on the wing-cover edges", "Woodland trails and dirt roads, May into July; hunts other insects"],
+      ["Dogbane beetle", "About 5/16 to 3/8 inch", "Iridescent blue-green with a copper tinge; elongated oval", "On dogbane and milkweed in fields and prairies"],
+      ["Asian lady beetle", "About 1/4 inch", "Oval and domed; tan, orange or red, often black-spotted, usually with a dark M or W behind the head", "Preys on aphids; swarms to buildings September to November"]
+    ],
+    "caption": "Japanese beetle: University of Kentucky and Purdue. Green June beetle: Kansas State. May/June beetle: Missouri Department of Conservation. False Japanese beetle, rose chafer, tiger beetle: University of Minnesota. Dogbane beetle: Illinois DNR and Kentucky. Asian lady beetle: Kentucky and Cornell."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a Japanese beetle look like?" },
+    { "type": "p", "text": "A Japanese beetle is a shiny scarab beetle with a metallic green head and thorax and copper-brown wing covers. The [University of Kentucky](https://entomology.mgcafe.uky.edu/ef451) (UK) fact sheet gives adults as 7/16 inch long, with a row of white hair tufts projecting from under the wing covers on each side. [Utah State University Extension](https://extension.usu.edu/pests/research/japanese-beetle.php) counts six tufts along each side, the last pair on the final segment of the abdomen." },
+    { "type": "figure", "src": "/guides/photos/japanese-beetle.webp", "width": 1200, "height": 962, "alt": "Japanese beetle seen from the front on a white background, with a shiny metallic green head and thorax, spiny legs and ridged copper-brown wing covers", "caption": "A Japanese beetle from Radford, Virginia, photographed against white in July 2016. Note the metallic green head and thorax and the copper-brown wing covers.", "license": "CC0-1.0", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_beetle_(Scarabaeidae,_Popillia_japonica)_(28401309315).jpg" },
+    { "type": "p", "text": "**The white tufts are the test.** [University of Minnesota Extension](https://apps.extension.umn.edu/garden/diagnose/insect/garden/beetles/medium/fjapbeetle.html) (UMN) describes a look-alike, the false Japanese beetle, at 3/8 to 7/16 inch with a dull metallic green head and thorax and dull copper-brown wing covers, but no white tufts along the sides. Purdue gives Japanese beetle adults as about 1/2 inch, and USDA's homeowner handbook says males are usually slightly smaller than females. A green beetle 3/4 to 1 inch long is more likely a green June beetle." },
+    { "type": "media", "needed": "A Japanese beetle from the side or from above beside a ruler marked in inches, showing the row of white hair tufts along the side of the body; public domain or CC0" },
+
+    { "type": "h2", "text": "Japanese beetle vs June bug: how do you tell them apart?" },
+    { "type": "p", "text": "By size, color and time of day. Two kinds of beetle commonly go by June bug: brown May and June beetles and the green June beetle. A Japanese beetle is smaller than a green June beetle and no bigger than the smallest May beetles, and unlike the brown ones, it feeds by day." },
+    { "type": "table", "head": ["Feature", "Japanese beetle", "Green June beetle", "May/June beetle"], "rows": [
+      ["Length", "7/16 to 1/2 inch", "3/4 to 1 inch", "1/2 to 1 inch"],
+      ["Color", "Metallic green and copper-brown, with white tufts along each side", "Velvety green with yellow-orange edges; metallic green or gold underneath", "Usually brown, rusty or black, without spots or stripes"],
+      ["Active", "By day, June into August", "By day, July and August", "At night in late spring; drawn to lights"],
+      ["Adults eat", "Leaves, flowers and fruit", "Ripening fruit and corn tassels", "Plant leaves and flowers"],
+      ["Grubs", "About 10 months a year in the soil", "Eat roots, including grass roots", "1 to 4 years underground, by species"]
+    ], "caption": "Japanese beetle: Kentucky and Purdue. Green June beetle: Kansas State and MDC. May/June beetle: MDC." },
+    { "type": "figure", "src": "/guides/photos/green-june-beetle.webp", "width": 1200, "height": 798, "alt": "Green June beetle seen from the side on a person's fingertip, its dull green back edged in tan and its legs a shiny metallic green", "caption": "A green June beetle on a fingertip in Radford, Virginia, in July 2016. Green June beetles are 3/4 to 1 inch long, bigger than a Japanese beetle.", "license": "CC0-1.0", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_June_Beetle_(Scarabaeidae,_Cotinis_nitida)_(28314207122).jpg" },
+    { "type": "p", "text": "The green June beetle, *Cotinis nitida*, is the first look-alike the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/japanese-beetle) (MDC) lists for the Japanese beetle, though [Kansas State University](https://www.k-state.edu/news/kansasbugs/articles/2022/08/green-june-beetle-adult-2.html) says the two really do not look alike. K-State describes adults 3/4 to 1 inch long that fly by day in July and August, often in large numbers over grassy areas, and feed on ripening fruit and corn tassels. [MDC's green June beetle guide](https://mdc.mo.gov/discover-nature/field-guide/green-june-beetle) adds that they buzz loudly in flight, like a bumblebee." },
+    { "type": "p", "text": "May and June beetles, genus *Phyllophaga*, are the brown June bugs. [MDC's May beetle guide](https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs) describes them as 1/2 to 1 inch long, usually brown, rusty or black without spots or stripes, and attracted to lights at night, flying clumsily around porch lights on late-spring evenings. Their grubs live underground for 1 to 4 years, by species. [The June bug guide](/blog/june-bugs) covers both kinds." },
+
+    { "type": "h2", "text": "What else looks like a Japanese beetle?" },
+    { "type": "p", "text": "Several shiny or green beetles. MDC's list also takes in tiger beetles, leaf beetles, other scarabs, ground beetles, the emerald ash borer and even stink bugs, covered in [the stink bug guide](/blog/how-to-get-rid-of-stink-bugs) and its [Canadian edition](/blog/how-to-get-rid-of-stink-bugs-canada) for readers in Canada." },
+    { "type": "h3", "text": "False Japanese beetle" },
+    { "type": "p", "text": "Check the sides. UMN says the false Japanese beetle, *Strigoderma arboricola*, has dull copper-brown wing covers that can look black and no white tufts along the sides of the abdomen. It is found where soils are sandy, is drawn to white or light-colored flowers, and is active from late June or early July until about late July." },
+    { "type": "h3", "text": "Rose chafer" },
+    { "type": "p", "text": "[UMN's rose chafer page](https://apps.extension.umn.edu/garden/diagnose/insect/garden/beetles/medium/rosechafer.html) describes a slender beetle 1/3 to 7/16 inch long, tan to pale green, with spiny reddish-brown or orange legs. It turns up in sandy-soil areas from late May through June, a little ahead of the Japanese beetle, on roses, peonies, dahlias, grapes and raspberries." },
+    { "type": "h3", "text": "Six-spotted tiger beetle" },
+    { "type": "p", "text": "[UMN's tiger beetle page](https://apps.extension.umn.edu/garden/diagnose/insect/general-curiosity-insects/beetles/medium/sixspotted-tiger-beetle.html) describes the six-spotted tiger beetle as about 1/2 inch long and bright metallic green, with up to 8 white spots along the wing-cover edges. It hunts other insects on woodland trails and dirt roads from May into July and is sometimes mistaken for the emerald ash borer." },
+    { "type": "h3", "text": "Dogbane beetle" },
+    { "type": "p", "text": "The [Illinois Department of Natural Resources](https://dnr.illinois.gov/education/wildaboutpages/wildaboutinvertebrates/wildaboutbeetles/waidogbanebeetle.html) describes the dogbane beetle as iridescent blue-green with a copper tinge, living on dogbane and milkweed in prairies, fields and other open places, and the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef709) gives its length as about 5/16 to 3/8 inch (8 to 10 mm). The plant it sits on is a clue." },
+    { "type": "h3", "text": "Asian lady beetle (the Japanese lady beetle)" },
+    { "type": "p", "text": "The names cause a mix-up. [Cornell University](https://biocontrol.entomology.cornell.edu/predators/Harmonia.php) notes that the multicolored Asian lady beetle is also called the Japanese lady beetle, because Japan was the source of beetles released in the southeastern US. It is a ladybug that preys on aphids, Cornell says, and the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef416) describes it as about 1/4 inch long, tan to orange or red, often black-spotted, usually with a dark M or W behind the head. [The Asian lady beetle guide](/blog/asian-lady-beetles) covers it." },
+    { "type": "confused", "items": [
+      { "href": "/blog/june-bugs", "name": "May/June beetle", "photo": "may-june-beetle", "note": "1/2 to 1 inch, usually plain brown, rusty or black; flies to porch lights on late-spring nights", "alt": "Reddish-brown May or June beetle with a smooth, rounded back resting on a person's fingertip outdoors" },
+      { "href": "/blog/asian-lady-beetles", "name": "Asian lady beetle", "photo": "asian-lady-beetle", "note": "About 1/4 inch, oval and orange to red; also called the Japanese lady beetle", "alt": "Orange, dome-shaped Asian lady beetle without spots on gray concrete, with black marks on the pale plate behind its head" }
+    ] },
+
+    { "type": "h2", "text": "What does Japanese beetle damage look like?" },
+    { "type": "p", "text": "Leaves eaten down to a lace of veins. MDC calls Japanese beetles skeletonizers that eat only the soft parts of a leaf, leaving a lacy network of veins, and says they often feed in groups of up to 25 near the tops of plants in the sun. UK adds that group feeding does the severe damage and that badly injured trees look scorched by fire." },
+    { "type": "figure", "src": "/guides/photos/japanese-beetle-leaf-damage.webp", "width": 1200, "height": 900, "alt": "Rose leaves beaded with water drops and riddled with small holes between the veins, the worst-hit leaflet reduced to a lacy, brown-edged skeleton", "caption": "Rose leaves that the photographer says Japanese beetles skeletonized, with the tissue between the veins eaten away.", "license": "CC-BY-SA-3.0", "credit": "User:SB_Johnny, CC BY-SA 3.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_beetle_damage_to_a_rose_leaf.JPG" },
+    { "type": "p", "text": "Flowers and fruit suffer too: UK says the beetles devour leaves, flowers and overripe or wounded fruit, and MDC says feeding on the tassels and silks of young corn can prevent pollination. Odors from damaged leaves seem to draw more beetles in, UK says. In a lawn, the sign is dying grass, covered in the grub section." },
+
+    { "type": "h2", "text": "When do Japanese beetles come out?" },
+    { "type": "p", "text": "In early summer. UK says adults emerge and begin feeding in June, are most active over a 4 to 6 week period beginning in late June, then gradually die off, each living about 30 to 45 days. Purdue gives mid-June through August as the main season, and USDA's handbook says adults generally emerge between early June and late August, varying by area." },
+    { "type": "p", "text": "They feed by day. UK says the beetles are most active on warm, sunny days, prefer plants in direct sunlight and usually feed in groups, starting at the top of a plant and working down." },
+    { "type": "media", "needed": "Several Japanese beetles feeding together on a rose bloom or on grape or linden leaves in a US garden, with skeletonized leaves in view, identified by an extension service or on iNaturalist; public domain or CC0" },
+
+    { "type": "h2", "text": "What plants do Japanese beetles eat?" },
+    { "type": "p", "text": "More than 300 kinds, says the [USDA Animal and Plant Health Inspection Service](https://www.aphis.usda.gov/plant-pests-diseases/japanese-beetle) (APHIS), and Purdue puts it above 400. UK names roses, grapes, lindens, sassafras, Norway and Japanese maples and purple-leaf plum among the plants especially prone to damage, and Purdue adds smartweed, soybeans, corn silks, flowering crabapple and overripe fruit." },
+    { "type": "p", "text": "Some plants are seldom touched. APHIS names red maple, boxwood, hosta and begonia as resistant, and [Purdue Extension's guide](https://extension.entm.purdue.edu/publications/E-75.pdf) says most evergreen ornamentals, from fir and juniper to yew, arborvitae, spruce and pine, are not attacked. USDA's handbook adds that diseased and poorly nourished plants are especially susceptible." },
+
+    { "type": "h2", "text": "Where do Japanese beetles live in the US?" },
+    { "type": "p", "text": "Across most of the eastern and central states. APHIS says the beetle, native to Japan and first discovered in the US in New Jersey in 1916, has spread through most of the eastern and central United States and infests parts of states west of the Mississippi River. UK traces its range north to Ontario and Minnesota, west to Iowa, Missouri and Arkansas, and south to Georgia and Alabama." },
+    { "type": "p", "text": "APHIS regulates air cargo to keep hitchhiking adult beetles from reaching Western states, regulates airports in quarantined states, and notes that people spread the beetle unknowingly by moving infested plants, sod or soil. In Utah, which declared an emergency over new finds in 2020, [Utah State University](https://extension.usu.edu/pests/research/japanese-beetle.php) asked residents who suspect a Japanese beetle to contact its plant pest diagnostic lab rather than treat for it. APHIS asks people who see the beetle or its damage to report it to their state plant regulatory official." },
+
+    { "type": "h2", "text": "What is the Japanese beetle life cycle?" },
+    { "type": "p", "text": "One generation a year, mostly underground. [USDA's homeowner handbook](https://www.aphis.usda.gov/sites/default/files/JBhandbook.pdf) says the female burrows about 3 inches into the ground, usually in turf, and lays a few eggs at a time until she has laid 40 to 60." },
+    { "type": "table", "head": ["Stage", "When", "What happens"], "rows": [
+      ["Egg", "Mostly mid-July to early September", "Laid in the soil of lawns and other turf"],
+      ["Grub", "Midsummer to late spring", "Feeds on roots; spends the winter 4 to 8 inches down; about 1 inch long when grown"],
+      ["Pupa", "Late spring", "The adult emerges about 2 weeks later"],
+      ["Adult", "June into August", "Feeds for about 30 to 45 days; females lay eggs in turf"]
+    ], "caption": "USDA's homeowner handbook, the University of Kentucky and Utah State University." },
+    { "type": "p", "text": "Moist, healthy turf draws the egg layers: UK says irrigated lawns and golf courses often have high grub populations, especially in otherwise dry summers, and Utah State says females prefer vigorous turf and avoid stressed lawns." },
+
+    { "type": "h2", "text": "What does a Japanese beetle grub look like?" },
+    { "type": "p", "text": "Utah State describes a creamy white, C-shaped grub about 1 inch long when grown, and Purdue adds a light brown head and says grubs are in the soil from mid-July to the following June. [Colorado State University](https://agsci.colostate.edu/agbio/ipm-pests/japanese-beetle/) says other lawn grubs, such as masked chafers and May/June beetles, look much the same, but the Japanese beetle grub is slightly smaller when full grown and its pattern of hairs on the abdomen, the rastral pattern, forms a distinctive V." },
+    { "type": "figure", "src": "/guides/photos/japanese-beetle-grub.webp", "width": 1200, "height": 900, "alt": "Creamy white grub curled in a C shape in a hollow of dark soil, with an orange-brown head, three pairs of pale legs and short bristly hairs", "caption": "A Japanese beetle grub in soil in Massachusetts, photographed in March and identified on iNaturalist. Note the C shape and the brown head.", "license": "CC-BY-4.0", "credit": "(c) Betsy Lambert, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/109403640" },
+    { "type": "p", "text": "Grubs, not adults, damage lawns: UK says that as they chew off grass roots, the grass is less able to take up enough water to withstand hot, dry weather, and large dead patches develop. Purdue says raccoons, skunks, armadillos and turkeys routinely dig for white grubs, and Utah State adds birds and badgers; [the guide to holes in the yard](/blog/holes-in-yard) tells the diggers apart." },
+    { "type": "p", "text": "Count before you treat. Purdue says insecticide is generally not needed at 5 or fewer grubs per square foot, and USDA's handbook says to consider treating areas with more than 10. [The lawn pest control guide](/blog/lawn-pest-control) explains how to sample and when each kind of grub treatment fits." },
+    { "type": "p", "text": "Milky spore is slow and partial. USDA's handbook says the disease builds up in turf over 2 to 4 years and works best community-wide, and Purdue says commercial milky spore products act only on Japanese beetle grubs and have not proven very effective. Both describe a parasitic nematode, *Heterorhabditis bacteriophora*, as a commercially available biological control." },
+    { "type": "p", "text": "Treating the lawn will not save your roses: UK says beetles are drawn to favored plants from a considerable distance, so controlling white grubs in the lawn will not protect landscape plants from adult feeding." },
+
+    { "type": "h2", "text": "Do Japanese beetle traps work?" },
+    { "type": "p", "text": "They catch plenty of beetles but usually do not protect plants. Traps pair a lure that mimics virgin females with a sweet food lure, and UK says they can draw in thousands of beetles a day, but its research found they attract many more beetles than they catch. Susceptible plants along the flight path and near traps are then likely to suffer much more damage than with no traps at all, and UK concludes that in most landscapes, traps probably do more harm than good." },
+    { "type": "p", "text": "Purdue does not recommend traps for beetle management for the same reason, and Colorado State says they can capture many adults but have never been shown to reduce damage to nearby plants. USDA's handbook is more favorable, calling trapping an easy, inexpensive way to reduce beetle numbers and egg laying, but says that even under favorable conditions a trap catches only about 75 percent of the beetles that approach it." },
+    { "type": "p", "text": "If you use one, keep it far from what you are protecting: UK says well away from gardens and landscape plants, Purdue says not in or near susceptible plants, and USDA says at the borders of your property, adding that traps work best spread over a whole community. Utah State says mass trapping can reduce small, localized populations, with traps near attractive plants of lower value, such as an old or overgrown rose planting." },
+    { "type": "p", "text": "Traps can also serve as a gauge: USDA's handbook says a trap that fills in one day while adults are flying probably means a Japanese beetle problem, and one barely filled after a week probably means you need not be concerned." },
+
+    { "type": "h2", "text": "How do you get rid of Japanese beetles?" },
+    { "type": "p", "text": "By hand and with barriers first, and spray only if the damage warrants it. USDA's handbook says there is no quick fix for an established population, and that you do not have to eliminate the beetle to protect your trees, plants and lawn." },
+    { "type": "ol", "items": [
+      "**Pick them off early.** UK says shaking beetles into a bucket of soapy water early in the morning, when they are sluggish, kills them and can protect small plantings.",
+      "**Cover your best plants.** UK says roses and other valued plants can be protected with cheesecloth or fine netting during peak beetle activity.",
+      "**Clear away overripe fruit.** USDA's handbook says prematurely ripening or diseased fruit attracts beetles; remove it from the trees and the ground.",
+      "**Plant what they seldom eat,** such as the red maple, boxwood, hosta and begonia APHIS names or the evergreens Purdue says are not attacked.",
+      "**Skip the kitchen sprays.** UK says insecticidal soap, extracts of garlic, hot pepper or orange peel, and companion planting are generally ineffective.",
+      "**Work with the neighbors.** USDA's handbook suggests a neighborhood program and notes that beetles caught in your yard may have come from several hundred yards away."
+    ] },
+    { "type": "p", "text": "If spraying is warranted, choose a product registered for the plant and follow its label, which is the law. UK says pyrethroids, such as bifenthrin, cyfluthrin, deltamethrin, lambda-cyhalothrin, esfenvalerate and permethrin, generally protect foliage for 2 to 3 weeks and carbaryl for 1 to 2 weeks, while neem products and pyrethrins in canola oil deter feeding for about 3 to 4 days, so treatments may need repeating. On food crops, observe the label's waiting period before harvest, UK says." },
+    { "type": "callout", "tone": "warning", "title": "Protect the bees", "text": "Read and follow the label's directions for bees and other pollinators. UK advises against spraying in windy conditions or when bees are foraging, and Purdue says soil applications of insecticides on flowering trees should wait until the petals have fallen." },
+    { "type": "p", "text": "[The natural garden pest control guide](/learn/natural-garden-pest-control) fits these steps into a season-by-season plan, and [more pest identification guides](/learn) cover the rest of the yard, from [spider mites](/blog/spider-mites) and [leaf-footed bugs](/blog/leaf-footed-bugs) to the [spotted lanternfly](/blog/spotted-lanternfly) and [mole crickets](/blog/mole-crickets)." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph the beetle beside a ruler marked in inches, check its sides for white tufts, and note the plant and the date. Your state's cooperative extension office can help identify it, and APHIS asks that sightings be reported to your state plant regulatory official." }
+  ],
+  "faqs": [
+    {
+      "question": "Do Japanese beetle traps attract more beetles?",
+      "answer": "Yes. Research at the University of Kentucky found that Japanese beetle traps attract many more beetles than they actually catch, so susceptible plants along the flight path and near a trap are likely to suffer more damage than if no trap were used. UK concludes that in most landscapes traps probably do more harm than good, and Purdue Extension does not recommend them for beetle management. USDA's homeowner handbook says that even under favorable conditions a trap catches only about 75 percent of the beetles that approach it. If you use one, set it at the edge of your property, well away from plants you want to protect."
+    },
+    {
+      "question": "Is a green June bug a Japanese beetle?",
+      "answer": "No. The green June beetle is a different and larger scarab. Kansas State University describes adults 3/4 to 1 inch long, velvety green with yellow-orange edges on the wing covers and shiny metallic green or gold underneath, flying by day in July and August and feeding on ripening fruit and corn tassels. A Japanese beetle is about 7/16 to 1/2 inch long, with a metallic green head and thorax, copper-brown wing covers and a row of white hair tufts along each side, and it skeletonizes leaves."
+    },
+    {
+      "question": "Is a Japanese beetle a ladybug?",
+      "answer": "No. A Japanese beetle is a scarab beetle, as USDA APHIS and the Missouri Department of Conservation both describe it. The ladybug sometimes called the Japanese lady beetle is the multicolored Asian lady beetle, Cornell University notes, named for Japan, the source of beetles released in the southeastern United States. The University of Kentucky describes it as oval, convex and about 1/4 inch long, tan to orange or red, often with black spots and usually a dark M- or W-shaped mark behind the head. Cornell says it preys on aphids and other soft-bodied insects."
+    },
+    {
+      "question": "How long do Japanese beetles last in the summer?",
+      "answer": "The University of Kentucky says adults emerge in June, are most active over a 4 to 6 week period beginning in late June, and then gradually die off, with each beetle living about 30 to 45 days. Purdue Extension gives mid-June through August as the main adult season. USDA's homeowner handbook says adults generally emerge between early June and late August, depending on the area, and suggests asking your local extension office about the flight period where you live."
+    },
+    {
+      "question": "What kills Japanese beetles naturally?",
+      "answer": "Hand-picking is one of the simplest methods: the University of Kentucky says shaking the beetles into a bucket of soapy water early in the morning, when they are sluggish, kills them and can protect small plantings. Natural enemies help too. USDA's homeowner handbook describes two parasites brought from Asia and established in parts of the Northeast: a small wasp, Tiphia vernalis, that attacks the grubs, and a fly, Istocheta aldrichi, whose maggot kills adult beetles. UK says extracts of garlic, hot pepper or orange peel are generally ineffective."
+    },
+    {
+      "question": "Does milky spore get rid of Japanese beetles?",
+      "answer": "Not quickly, and not on its own. Milky spore is a bacterial disease of Japanese beetle grubs. USDA's homeowner handbook says it builds up in turf slowly, over 2 to 4 years, as infected grubs die and release spores, and that it works best in community-wide programs. Purdue Extension says commercial milky spore products are active only against Japanese beetle grubs and have not proven very effective. It also does nothing about adults flying in from elsewhere, since the University of Kentucky says lawn grub control will not protect plants from adult feeding."
+    },
+    {
+      "question": "Should I treat my lawn for grubs to stop Japanese beetles?",
+      "answer": "Not to protect your plants. The University of Kentucky says beetles are drawn to favored plants from a considerable distance, so controlling white grubs in your lawn will not protect landscape plants from adult feeding. For the lawn itself, Purdue Extension says insecticide is generally not needed when soil sampling finds 5 or fewer grubs per square foot, and USDA's homeowner handbook says to consider treating areas with more than 10 per square foot. Dig a few samples in late summer before deciding."
+    },
+    {
+      "question": "What attracts Japanese beetles to my yard?",
+      "answer": "Their favorite plants, sunshine and other beetles. The University of Kentucky lists roses, grapes, lindens, sassafras and Norway and Japanese maples among the plants especially prone to damage, and says beetles prefer plants in direct sunlight on warm days. Odors from beetle-damaged leaves seem to draw more beetles in, UK adds, and USDA's homeowner handbook says prematurely ripening or diseased fruit attracts them. Females looking to lay eggs favor moist, grassy areas, so irrigated lawns often have high grub numbers, UK says."
+    },
+    {
+      "question": "What eats Japanese beetles?",
+      "answer": "Several animals and insects. Purdue Extension says raccoons, skunks, armadillos and turkeys routinely dig up lawns to eat white grubs, and Utah State University adds birds and badgers. The Missouri Department of Conservation says scoliid wasps hunt Japanese beetle grubs. USDA's homeowner handbook describes two parasites imported from Asia: the wasp Tiphia vernalis, which lays its egg on a grub, and the fly Istocheta aldrichi, which lays its eggs on adult beetles. In its native Japan, the handbook says, natural enemies keep the beetle in check."
+    },
+    {
+      "question": "Where did Japanese beetles come from?",
+      "answer": "From Japan. USDA's homeowner handbook says the Japanese beetle was first found in the United States in a nursery in southern New Jersey in 1916, and Utah State University says it likely arrived in shipments of ornamental plants. Without its natural enemies, it spread through most of the eastern and central states, and APHIS says it also infests parts of states west of the Mississippi River. APHIS now regulates air cargo and airports to keep hitchhiking beetles from reaching Western states."
+    }
+  ],
+  "sources": [
+    { "title": "Japanese Beetles in the Urban Landscape (ENTFACT-451; D. A. Potter, M. F. Potter and L. H. Townsend; revised March 2026)", "publisher": "University of Kentucky, Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef451" },
+    { "title": "Japanese Beetle (last modified September 26, 2025)", "publisher": "USDA Animal and Plant Health Inspection Service", "url": "https://www.aphis.usda.gov/plant-pests-diseases/japanese-beetle" },
+    { "title": "Managing the Japanese Beetle: A Homeowner's Handbook (APHIS 81-25-003, August 2015)", "publisher": "USDA Animal and Plant Health Inspection Service", "url": "https://www.aphis.usda.gov/sites/default/files/JBhandbook.pdf" },
+    { "title": "Japanese Beetles in the Urban Landscape (E-75-W; D. Richmond and C. S. Sadof, July 2018)", "publisher": "Purdue University Extension, Department of Entomology", "url": "https://extension.entm.purdue.edu/publications/E-75.pdf" },
+    { "title": "Japanese Beetle (Utah Pests fact sheet; L. Spears and others, June 2020)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/pests/research/japanese-beetle.php" },
+    { "title": "Japanese beetle in ornamentals", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://agsci.colostate.edu/agbio/ipm-pests/japanese-beetle/" },
+    { "title": "Japanese Beetle (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/japanese-beetle" },
+    { "title": "Green June Beetle Adult (Raymond Cloyd, August 4, 2022)", "publisher": "Kansas State University, Kansas Bugs", "url": "https://www.k-state.edu/news/kansasbugs/articles/2022/08/green-june-beetle-adult-2.html" },
+    { "title": "Green June Beetle (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/green-june-beetle" },
+    { "title": "May Beetles (June Bugs) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs" },
+    { "title": "False Japanese beetle (What insect is this?)", "publisher": "University of Minnesota Extension", "url": "https://apps.extension.umn.edu/garden/diagnose/insect/garden/beetles/medium/fjapbeetle.html" },
+    { "title": "Rose chafer (What insect is this?)", "publisher": "University of Minnesota Extension", "url": "https://apps.extension.umn.edu/garden/diagnose/insect/garden/beetles/medium/rosechafer.html" },
+    { "title": "Six-spotted tiger beetle (What insect is this?)", "publisher": "University of Minnesota Extension", "url": "https://apps.extension.umn.edu/garden/diagnose/insect/general-curiosity-insects/beetles/medium/sixspotted-tiger-beetle.html" },
+    { "title": "Dogbane Beetle (Wild About Illinois Beetles)", "publisher": "Illinois Department of Natural Resources", "url": "https://dnr.illinois.gov/education/wildaboutpages/wildaboutinvertebrates/wildaboutbeetles/waidogbanebeetle.html" },
+    { "title": "Dogbane Beetle: Feeding on Toxic Plants Provides Benefits to Survive (ENTFACT-709; A. Falcon-Brindis and R. T. Villanueva, April 2023)", "publisher": "University of Kentucky, Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef709" },
+    { "title": "Asian Lady Beetle Infestation of Structures (ENTFACT-416; M. F. Potter, R. Bessin and L. Townsend; revised March 2026)", "publisher": "University of Kentucky, Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef416" },
+    { "title": "Harmonia axyridis, Multicolored Asian Lady Beetle (Biological Control: A Guide to Natural Enemies in North America)", "publisher": "Cornell University, College of Agriculture and Life Sciences", "url": "https://biocontrol.entomology.cornell.edu/predators/Harmonia.php" }
+  ],
+  "disclaimer": "pesticide"
+}

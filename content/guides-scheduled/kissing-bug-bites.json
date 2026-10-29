@@ -1,0 +1,182 @@
+{
+  "slug": "kissing-bug-bites",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "kissing bug bite",
+  "alsoTargets": [
+    "kissing bug bites",
+    "kissing bug bite symptoms",
+    "what does a kissing bug bite look like",
+    "kissing bug bite pictures",
+    "kissing bug bite treatment",
+    "can you get chagas from a kissing bug bite",
+    "kissing bug bite allergic reaction",
+    "kissing bug bite on face"
+  ],
+  "metaTitle": "Kissing Bug Bite: Symptoms and the Chagas Risk",
+  "metaDescription": "A kissing bug bite is usually painless and has no typical look. What a reaction can look like, when to get care, and why US Chagas risk is low.",
+  "h1": "Kissing Bug Bites: What They Look Like, Symptoms and the Real Chagas Risk",
+  "dek": "What a kissing bug bite can and cannot tell you, the allergic reactions that matter most, when to get medical care and why the Chagas risk is low in the US, from CDC, Texas A&M and university extension experts.",
+  "breadcrumb": "Kissing Bug Bites",
+  "excerpt": "Kissing bug bites are usually painless and have no typical look. What a reaction can look like, when to get care, and the real Chagas risk in the US.",
+  "datePublished": "2026-10-30",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A kissing bug bite is usually painless and has no typical look, so you usually cannot tell from the bite alone what bit you; the bug itself is the clue.** Reactions run from nothing to itchy, swollen welts or, in some people, a severe allergic reaction. The Chagas parasite is in the bug's droppings, not its bite, and [a CDC report](https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a5.htm) calls the US infection risk low.",
+    "bullets": [
+      "Most people report that kissing bug bites do not hurt, and reactions range from unnoticeable to anaphylactic shock, says [Texas A&M's Kissing Bug program](https://kissingbug.tamu.edu/faq/).",
+      "Bites usually happen at night and may be single or grouped on the face, neck, arms or legs, according to [the University of Arizona](https://extension.arizona.edu/pubs/what-you-should-know-about-kissing-bugs).",
+      "The University of Arizona calls a severe allergic reaction the biggest health risk kissing bugs pose; [Mayo Clinic](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) says to call 911 for signs such as trouble breathing or a swelling face or throat.",
+      "[CDC](https://www.cdc.gov/chagas/about/index.html) says Chagas disease spreads mainly through the bugs' droppings and lists a swollen eyelid, Romaña's sign, as a sign of acute Chagas, not of the bite.",
+      "Adult kissing bugs are about 1/2 to 1 inch long, with a narrow head and, on most kinds, an orange or red striped band around the edge of the body, Texas A&M says."
+    ]
+  },
+  "facts": {
+    "title": "Kissing bug bite or something else? Quick ID",
+    "head": ["Biter", "First sign", "What you may see", "When and where"],
+    "rows": [
+      ["Kissing bug", "Usually none: most people do not feel the bite", "No typical look: nothing, or itchy, swollen welts, single or grouped; sometimes a severe allergic reaction", "At night; face, neck, arms or legs, or any skin it can reach"],
+      ["Bed bug", "Usually none: marks appear 1 to several days later, sometimes up to 14", "Slightly swollen, red, itchy marks, random or in a straight line", "At night, during sleep; face, neck, arms, hands or other skin"],
+      ["Mosquito", "An itchy, inflamed bump within a few minutes", "A bump; sometimes a painful, hive-like spot within 24 hours, or small blisters", "Day or night; often skin not covered by clothing"],
+      ["Flea", "Small, itchy, discolored bumps", "Bumps in a line or cluster, sometimes with a ring around them", "Mostly feet, ankles and calves; rarely above the knee unless you sit or lie down a lot"],
+      ["Spider", "Itching, redness, swelling or pain in varying amounts", "Often blamed with no proof; most spiders' fangs cannot get through adult skin", "Only when a spider is squeezed, lain on or provoked"]
+    ],
+    "caption": "From Texas A&M's Kissing Bug program, the University of Arizona, CDC, Mayo Clinic, Cleveland Clinic and UC IPM, each linked on this page. Reactions vary from person to person."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a kissing bug bite look like?" },
+    { "type": "p", "text": "Often like nothing at all. [Texas A&M's Kissing Bug program](https://kissingbug.tamu.edu/faq/) says most people report that the bites do not hurt, that reactions vary as with mosquito bites, from almost none to severe, and that you usually cannot tell what bit you by looking at a bite." },
+    { "type": "figure", "src": "/guides/photos/eastern-kissing-bug.webp", "width": 1200, "height": 1826, "alt": "Sepia CDC photo of an eastern kissing bug seen from above, a long, narrow-headed bug with pale bands along the edge of its body, beside a size bar and a small US range map", "caption": "The eastern kissing bug, *Triatoma sanguisuga*, in a CDC photo with its size and estimated US range printed beside it. No bite photo is shown here: the sources describe no typical look.", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14935" },
+    { "type": "p", "text": "[The University of Arizona's extension guide to kissing bugs](https://extension.arizona.edu/pubs/what-you-should-know-about-kissing-bugs) says bites are painless at first because the bug's saliva contains an anesthetic, but may soon itch, swell and raise a welt that can last several days; the irritation may last one to two weeks, longer or worse in sensitive people." },
+    { "type": "p", "text": "The same guide says these bites can be confused with mosquito or bed bug bites because the reactions can look similar; both are shown further down." },
+    { "type": "media", "needed": "A kissing bug bite on skin, from a case where the bug was caught and identified by an expert, showing the welt or swelling, with its age stated by a medical or government source; public domain or CC0, not on the face and with no face anywhere in the photo" },
+
+    { "type": "h2", "text": "Do kissing bug bites hurt, and where do they bite?" },
+    { "type": "p", "text": "Usually not, which is how the bugs feed unnoticed at night. Texas A&M says kissing bugs have very thin mouthparts, so their bites usually do not hurt, and [CDC's page on how Chagas disease spreads](https://www.cdc.gov/chagas/spreads/index.html) says the bugs hide in walls and roofs by day and come out at night to feed on blood." },
+    { "type": "p", "text": "They bite whatever skin they can reach. The University of Arizona says kissing bugs often bite sleeping people around the mouth or on the face, and that bites may be single or grouped on the face, neck, arms, legs and sometimes the chest. Texas A&M says the name comes from an old belief that the bugs mostly bite around the mouth or eyes; in fact they can bite anywhere on the body they can reach." },
+    { "type": "p", "text": "In [a 2019 CDC report](https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a5.htm), an eastern kissing bug bit a Delaware girl on the face as she watched television in her bedroom in the late evening. The bug tested negative for the Chagas parasite, and she had no ill effects." },
+    { "type": "p", "text": "Bites follow the season: the University of Arizona says adults are met most often from May through July, when they fly toward lights around homes, and [UC IPM's Pest Note on conenose bugs](https://ipm.ucanr.edu/home-and-landscape/conenose-bugs/) says the bites usually happen in late spring to early summer." },
+
+    { "type": "h2", "text": "Can you get Chagas disease from a kissing bug bite?" },
+    { "type": "p", "text": "Not from the bite itself. Texas A&M says the Chagas parasite is not in the kissing bug's saliva or bite but in its feces, and UC IPM agrees that the bite does not transmit it. CDC says infected bugs can pass the parasite in their droppings after feeding, and infection can follow if someone unknowingly scratches or rubs those droppings into a bite wound, the eyes or the mouth." },
+    { "type": "figure", "src": "/guides/photos/trypanosoma-cruzi.webp", "width": 1200, "height": 815, "alt": "Pink-stained blood smear under a microscope showing several thin, wavy, ribbon-shaped parasites, each with a dark spot in its body", "caption": "*Trypanosoma cruzi*, the parasite that causes Chagas disease, in a blood smear under a microscope (CDC photograph). An infected kissing bug passes it in its droppings, not its saliva.", "credit": "CDC/ Myron G. Schultz, DVM, MD, DCMT (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=545" },
+    { "type": "p", "text": "In the United States the chance of infection is low. [CDC's overview of Chagas disease](https://www.cdc.gov/chagas/about/index.html) says the disease is present in the US but not regularly spread here by the bugs, and the 2019 CDC report called the likelihood of infection from contact with a kissing bug here low, even when the bug is infected; only a few such cases have been documented in the country." },
+    { "type": "p", "text": "An infected bug does not mean an infected person. Texas A&M says its lab has found about half of kissing bugs infected, yet the [Texas Department of State Health Services](https://www.dshs.texas.gov/idcu/health/zoonosis/Triatominae) notes that exposure to an infected bug does not mean the parasite was passed on, and that people exposed to an infected bug should discuss Chagas testing options with their medical provider. The University of Arizona says a bite generally does not call for a Chagas test; see a healthcare provider if symptoms develop. [The guide to Chagas disease](/blog/chagas-disease) covers the illness itself." },
+
+    { "type": "h2", "text": "What is Romaña's sign?" },
+    { "type": "p", "text": "It is a swollen eyelid, which CDC lists as a sign of acute Chagas disease, not of the bite. CDC says it usually comes from accidentally rubbing the bug's droppings into an eye or into a bite near the eye. The acute phase falls in the first weeks or months after infection; its symptoms are often mild or absent and, besides eyelid swelling, can include fever, tiredness, body aches, headache, rash, loss of appetite, diarrhea and vomiting." },
+    { "type": "p", "text": "A swollen eyelid can also be an allergic reaction. [Mayo Clinic's first aid for insect bites](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) lists swelling of the lips, face, eyelids or throat among the signs of a reaction that suggests anaphylaxis, and says to call 911 even if only one or two appear. A swollen eyelid or a fever in the weeks or months after a possible bite is a different matter: talk with a healthcare provider and mention the bug." },
+    { "type": "p", "text": "Most infected people do not develop serious problems: CDC says about 20 to 30% develop serious heart or digestive problems during the chronic phase, which can last many years. Only a healthcare provider can diagnose Chagas disease, CDC says; lab tests use a small blood sample, and antiparasitic treatment works best when started early." },
+
+    { "type": "h2", "text": "Can you be allergic to kissing bug bites?" },
+    { "type": "p", "text": "Yes, and in the US that is the bigger worry. [A 2010 paper in the journal Clinical Infectious Diseases](https://pubmed.ncbi.nlm.nih.gov/20462351/) called anaphylactic reactions to kissing bug bites the major concern about kissing bugs in the United States, causing frequent emergency department visits, especially in the Southwest. Texas A&M says *Triatoma protracta*, the common kissing bug in Arizona and California, may be more likely to cause severe reactions." },
+    { "type": "p", "text": "Sensitivity can build with repeat bites. The University of Arizona says some people develop a severe or life-threatening allergy after multiple bites, and Colorado State says an allergic reaction to the bug's saliva may occur in some people bitten more than once. UC IPM cites research finding that about 7% of people tested where conenose bugs are common could develop serious immediate reactions, including anaphylactic shock, and advises anyone who suspects such an allergy to see a physician or allergist." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "Call 911 right away for signs of a severe allergic reaction after a bite, even just one or two of these: trouble breathing; swelling of the lips, face, eyelids or throat; dizziness, fainting or unconsciousness; a weak, rapid pulse; hives; or nausea, vomiting or diarrhea. See a healthcare provider if the bite keeps swelling, looks infected or you feel unwell, or if a fever or swollen eyelid follows a possible bite; only a provider can diagnose Chagas disease, with a blood test." },
+
+    { "type": "h2", "text": "What else could have bitten you?" },
+    { "type": "p", "text": "Other biters leave similar marks, so the place, the timing and any bug you found tell you more than the welt." },
+    { "type": "p", "text": "**Bed bugs** also bite unfelt at night. [CDC's bed bug page](https://www.cdc.gov/bed-bugs/about/index.html) says they inject a fluid that keeps people from feeling the bite, that marks take one to several days to appear, sometimes 14, and that they may be random or in a straight line on the face, neck, arms, hands or other body parts. CDC describes the bugs as reddish brown, wingless and 1 to 7 mm (up to about 1/4 inch) long. See [what bed bugs look like](/blog/what-do-bed-bugs-look-like), [how to check a bed for them](/blog/how-to-check-for-bed-bugs-canada) and [bites with no bed bugs in sight](/blog/bed-bug-bites-but-no-bed-bugs)." },
+    { "type": "figure", "src": "/guides/photos/bed-bug-bites-back-physician.webp", "width": 1200, "height": 1248, "alt": "Scattered red, raised welts, some in small groups, across a person's upper back and shoulders", "caption": "Bed bug bites on a person's back (photo: James Heilman, MD). CDC says bed bug bites look similar to mosquito or flea bites.", "credit": "James Heilman, MD, CC BY-SA 3.0, via Wikimedia Commons", "license": "CC-BY-SA-3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugb2.JPG" },
+    { "type": "p", "text": "**Mosquitoes** bite day or night, often on skin that clothing leaves uncovered. [Mayo Clinic](https://www.mayoclinic.org/diseases-conditions/mosquito-bites/symptoms-causes/syc-20375310) says an itchy, inflamed bump forms a few minutes after the bite, sometimes followed within 24 hours by a painful spot that looks like a hive." },
+    { "type": "figure", "src": "/guides/photos/mosquito-bite-welt-quarter.webp", "width": 1200, "height": 799, "alt": "A single raised, reddened welt on the inside of a forearm beside a U.S. quarter for scale", "caption": "A mosquito bite reaction on a forearm next to a U.S. quarter, in a 2024 CDC photograph.", "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28626" },
+    { "type": "p", "text": "**Fleas** usually bite low. [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/21718-flea-bites) says flea bites are small, itchy bumps, sometimes with a ring around them, in a line or a cluster, mostly on the feet, ankles and calves and rarely above the knee unless you spend a lot of time sitting or lying down, and that they last only a few days. [Flea bites](/blog/flea-bites) have their own guide." },
+    { "type": "p", "text": "**Spiders** take more blame than they deserve. [UC IPM's spider guide](https://ipm.ucanr.edu/home-and-landscape/spiders/) says spiders are often blamed for skin lesions with no proof, bite only when squeezed, lain on or provoked, and mostly have fangs too small to get through an adult's skin; it lists the kissing bug among the biters mistaken for spiders." },
+    { "type": "p", "text": "**Wheel bugs and other assassin bugs** that feed on insects can bite when handled, and it hurts at once. [Texas A&M AgriLife's identification guide](https://citybugs.tamu.edu/2015/12/01/kissing-bug-identification-requires-closer-look/) says the wheel bug has a painful bite if handled, and [Colorado State University Extension](https://extension.colostate.edu/resource/conenose-bugs-kissing-bugs-and-insects-of-similar-appearance-in-colorado) says the masked hunter, which it calls the only assassin bug commonly found indoors in Colorado, can cause immediate pain that soon subsides, unlike a kissing bug's painless night bite. [Assassin bugs and wheel bugs](/blog/wheel-bugs) covers those bites." },
+    { "type": "p", "text": "Still not sure? The [bug bite identification chart](/learn/bug-bites) compares bites by pattern, place and timing, and the [bug bite identifier](/tools/bug-bite-identifier) asks six questions about yours and suggests likely matches." },
+
+    { "type": "h2", "text": "Is the bug you found a kissing bug?" },
+    { "type": "p", "text": "Check the whole shape, not just the colors. [Texas A&M AgriLife Extension](https://citybugs.tamu.edu/2015/12/01/kissing-bug-identification-requires-closer-look/) describes a pear-shaped, dark brown to black bug, often with reddish to cream stripes along the edges of the abdomen, a narrow, stick-like head that tapers forward with eyes bulging from its sides, a stout, straight beak and thin legs without spines. Only an insect with all of these features is likely to be a kissing bug, it says." },
+    { "type": "figure", "src": "/guides/photos/three-texas-kissing-bugs.webp", "width": 1200, "height": 1174, "alt": "Three dark kissing bugs side by side on white, each with a long, narrow head, thin legs and orange or reddish bands along the edge of the body", "caption": "Three US kissing bugs, from left: *Triatoma protracta*, *T. gerstaeckeri* and *T. sanguisuga*, which the photo's authors call the most common species in the western US, in Texas and in the eastern US.", "credit": "Curtis-Robles et al., CC BY 4.0, via Wikimedia Commons", "license": "CC-BY-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Three_species_of_kissing_bugs.PNG" },
+    { "type": "p", "text": "Texas A&M's Kissing Bug program puts adults at about 1/2 to 1 inch long and says most have a striped band of orange or red around the edge of the body, though *Triatoma protracta* of the Southwest may have a single light brown band or none. It counts 11 US species recorded in 29 states, with the most species and finds in Texas, New Mexico and Arizona." },
+    { "type": "p", "text": "Where you find it matters too. CDC says that outdoors the bugs can live beneath porches, between rocks, in wood, brush and rock piles, in rodent nests and burrows, in dog houses and kennels and in chicken coops. They rarely infest US homes, but finding them indoors, especially young wingless ones, may mean an infestation, often near where pets sleep, where rodents live or around beds." },
+    { "type": "media", "needed": "A live adult kissing bug where people find one, such as on a porch, an outside wall by a door or near a pet bed, ideally beside a ruler or coin, identified by an expert; public domain or CC0" },
+    { "type": "p", "text": "Plenty of other bugs pass for kissing bugs, and [bugs that look like kissing bugs](/blog/kissing-bug-look-alikes) goes through them with photos. Two do not bite at all: Colorado State says the western conifer seed bug, often mistaken for a kissing bug, is usually found indoors from September through November and cannot bite people, and Texas A&M says leaf-footed bugs, with swollen or flattened hind legs, do not bite and rarely come indoors. For stink bugs, see [a guide to getting stink bugs out of a house](/blog/how-to-get-rid-of-stink-bugs-canada)." },
+    { "type": "confused", "title": "Which of these bugs bite?", "items": [
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-adult-ruler", "note": "Flat, wingless and reddish brown, up to about 1/4 inch; bites unfelt at night", "alt": "Adult bed bug seen from above, a flat, oval, reddish-brown bug beside a ruler marked in millimeters" },
+      { "href": "/blog/wheel-bugs", "name": "Masked hunter", "photo": "masked-hunter", "note": "An assassin bug commonly found indoors; if handled it can bite, with immediate pain that soon fades", "alt": "Adult masked hunter, a slender dark assassin bug with thin antennae and long legs, on gray weathered wood" },
+      { "href": "/blog/western-conifer-seed-bugs", "name": "Western conifer seed bug", "photo": "western-conifer-seed-bug", "note": "Often mistaken for a kissing bug indoors from September to November; it cannot bite people", "alt": "Reddish-brown western conifer seed bug with long legs and antennae on a black computer keyboard" },
+      { "href": "/blog/leaf-footed-bugs", "name": "Leaf-footed bug", "photo": "leaf-footed-bug", "note": "Swollen or flattened hind legs; Texas A&M says it does not bite and rarely comes indoors", "alt": "Dark brown eastern leaf-footed bug with flattened, leaf-like hind legs on a green sunflower head" }
+    ] },
+
+    { "type": "h2", "text": "How do you treat a kissing bug bite?" },
+    { "type": "p", "text": "Clean it, watch it and, if you can without touching it, keep the bug. The University of Arizona says to wash the bite with soap and water and that severe reactions need medical treatment. For a mild reaction, Mayo Clinic's first aid adds a cloth dampened with cold water or filled with ice for 10 to 20 minutes, and says to see a healthcare professional if the swelling gets worse, the bite looks infected or you do not feel well." },
+    { "type": "p", "text": "Then find out what bit you: the University of Arizona says bites cannot be identified without the insect, and Texas A&M says its lab can usually identify a bug from a photo." },
+    { "type": "checklist", "title": "Keeping a suspected kissing bug for identification", "items": [
+      "Do not touch it bare-handed: Texas A&M says the parasite may be in its droppings and on its body.",
+      "Pick it up with a glove or small plastic bag and seal it in a bag, vial or small container.",
+      "Freeze it for a few hours to kill it and preserve its DNA for testing.",
+      "Note the date, time of day, indoors or outdoors, and any possible bites on people or pets.",
+      "Consider wiping the spot where it was found with a bleach solution."
+    ] },
+    { "type": "p", "text": "Texas residents can have a bug tested for free. The Texas Department of State Health Services tests kissing bugs implicated in a human exposure, asks for a photo by email before shipping and wants no alcohol or other preservatives in the container. If you have read elsewhere to put the bug in rubbing alcohol, ask the lab first." },
+
+    { "type": "h2", "text": "How do you keep kissing bugs from biting you at home?" },
+    { "type": "p", "text": "Keep them out of the house and away from beds and pets. [CDC's prevention page](https://www.cdc.gov/chagas/prevention/index.html) recommends these steps:" },
+    { "type": "ul", "items": [
+      "Seal cracks and gaps around windows, walls, roofs and doors, and close off entrances to attics and crawl spaces.",
+      "Put screens on doors and windows and mend any holes or tears.",
+      "Clear wood, brush and rock piles from near the house, and keep yard lights away from it, since lights can attract the bugs.",
+      "Have pets sleep indoors, especially at night.",
+      "Clean your home and your pets' resting spots regularly, and watch for bugs."
+    ] },
+    { "type": "p", "text": "CDC says no insecticides are approved specifically for kissing bugs in the US, advises talking with a pest control expert before using one and notes that roach traps do not work on them. For people already sensitized to bites, the University of Arizona calls a bed net tucked under the mattress the best barrier, and Texas A&M suggests turning off outside lights at night when it is safe, since the bugs fly toward lights." },
+    { "type": "callout", "tone": "tip", "title": "Photograph the bug, not just the bite", "text": "A clear photo of the bug tells more than a photo of the welt. Shoot it from above and from the side beside a ruler marked in inches, and send it to your state's cooperative extension office or to Texas A&M's Kissing Bug program." }
+  ],
+  "faqs": [
+    {
+      "question": "What happens if a kissing bug bites you?",
+      "answer": "Often nothing you notice. Texas A&M's Kissing Bug program says most people report no pain and that reactions range from unnoticeable to anaphylactic shock. The University of Arizona says a bite may itch, swell and raise a welt that can last several days, and that the irritation may last one to two weeks. The Chagas parasite is in the bug's droppings, not its bite, and a 2019 CDC report called the US infection risk low. Signs of a severe allergic reaction call for 911."
+    },
+    {
+      "question": "How likely is it to get Chagas from a kissing bug?",
+      "answer": "Unlikely in the United States. A 2019 CDC report said the likelihood of infection from contact with a kissing bug in the US is low, even when the bug is infected, and that only a few cases from contact with the bugs have been documented in the country. CDC says the disease is present in the US but not regularly spread here by the bugs. The parasite has to reach a bite wound or other cut, the eyes or the mouth through the bug's droppings."
+    },
+    {
+      "question": "Should you get tested for Chagas after a kissing bug bite?",
+      "answer": "Usually not. The University of Arizona's extension guide says that, in general, finding a kissing bug at home or being bitten by one does not call for a test for the Chagas parasite, and that you should see a healthcare provider if symptoms develop. Texas health officials say anyone exposed to a bug infected with the parasite should discuss testing options with their medical provider. CDC says only a healthcare provider can diagnose Chagas disease and that lab tests use a small blood sample. A fever or a swollen eyelid after a possible bite is worth raising with a provider."
+    },
+    {
+      "question": "Is there a cure for a kissing bug bite?",
+      "answer": "The bite itself usually needs only home care: the University of Arizona says to clean it with soap and water, and that severe reactions need medical treatment. Call 911 for signs of a severe allergic reaction. Chagas disease is a separate question. CDC says antiparasitic treatment can kill the parasite and works best when started early, but only a healthcare provider can diagnose the disease, and a 2019 CDC report called the US infection risk from kissing bugs low."
+    },
+    {
+      "question": "How long does a kissing bug bite last?",
+      "answer": "Days to a couple of weeks, when it shows at all. The University of Arizona says a bite may raise a welt that can last several days and that the itching and tenderness may last one to two weeks, with more severe or longer reactions in sensitive people. Texas A&M says some people have almost no reaction. Mayo Clinic says to see a healthcare professional if the swelling gets worse, the bite looks infected or you do not feel well."
+    },
+    {
+      "question": "Can you die from a kissing bug bite?",
+      "answer": "The bite itself is not the main danger; a severe allergic reaction is. The University of Arizona says anaphylaxis may occur after repeated bites and may be life threatening, and advises calling 911 for symptoms of a severe allergic reaction. Chagas disease, which comes from the bug's droppings rather than the bite, can cause serious heart problems, including sudden death, in some of the 20 to 30% of infected people who develop serious problems, CDC says, but US infection risk is low."
+    },
+    {
+      "question": "Do kissing bugs live in your bed?",
+      "answer": "They can hide near beds, though they feed and move on rather than staying on a person; Texas A&M says they do not attach like ticks. CDC says kissing bugs found indoors are often near where pets sleep, where rodents are, or around beds, especially under or near mattresses or nightstands, but that they rarely infest US homes. The University of Arizona says that between mattresses is a favorite hiding place and that fed bugs often turn up in bedding near the bed."
+    },
+    {
+      "question": "Why is it called a kissing bug?",
+      "answer": "Because of where people thought it bites. Texas A&M's Kissing Bug program says the name comes from an old belief that the bugs mostly bite around the mouth or eyes, and that in fact they can bite anywhere on the body they can reach. The University of Arizona says they often bite people while they sleep, often around the mouth or on the face. They are also called conenose bugs and triatomine bugs."
+    },
+    {
+      "question": "What time of year do kissing bugs bite?",
+      "answer": "Mostly in the warmer months, and at night. The University of Arizona says adults are met most often from May through July, when they fly toward lights around homes, that they feed mainly at night, and that adults live into mid- to late autumn while the young spend the winter as nymphs. UC IPM says conenose bug bites usually happen in late spring to early summer. CDC says the bugs hide by day and come out to feed at night."
+    }
+  ],
+  "sources": [
+    { "title": "Frequently Asked Questions (Kissing Bugs & Chagas Disease)", "publisher": "Texas A&M University Kissing Bug Program", "url": "https://kissingbug.tamu.edu/faq/" },
+    { "title": "What You Should Know About Kissing Bugs (AZ1992, revised September 2025)", "publisher": "University of Arizona Cooperative Extension", "url": "https://extension.arizona.edu/pubs/what-you-should-know-about-kissing-bugs" },
+    { "title": "Pest Notes: Conenose Bugs (UC ANR Publication 7455, updated July 2013)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/conenose-bugs/" },
+    { "title": "About Chagas Disease", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/chagas/about/index.html" },
+    { "title": "How Chagas Disease Spreads", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/chagas/spreads/index.html" },
+    { "title": "Preventing Chagas Disease", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/chagas/prevention/index.html" },
+    { "title": "Notes from the Field: Identification of a Triatoma sanguisuga 'Kissing Bug', Delaware, 2018 (MMWR 68(15):359, April 19, 2019)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a5.htm" },
+    { "title": "'Kissing bugs': potential disease vectors and cause of anaphylaxis (Klotz et al., Clinical Infectious Diseases, 2010)", "publisher": "PubMed record, U.S. National Library of Medicine", "url": "https://pubmed.ncbi.nlm.nih.gov/20462351/" },
+    { "title": "Insect bites and stings: First aid (April 10, 2024)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593" },
+    { "title": "Mosquito bites: Symptoms and causes", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/diseases-conditions/mosquito-bites/symptoms-causes/syc-20375310" },
+    { "title": "About Bed Bugs", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "Flea Bites", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/21718-flea-bites" },
+    { "title": "Pest Notes: Spiders (UC ANR Publication 7442, updated October 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/spiders/" },
+    { "title": "Conenose Bugs ('Kissing Bugs') and Insects of Similar Appearance in Colorado (W. S. Cranshaw)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/conenose-bugs-kissing-bugs-and-insects-of-similar-appearance-in-colorado" },
+    { "title": "Kissing bug identification requires closer look (Insects in the City, December 1, 2015)", "publisher": "Texas A&M AgriLife Extension", "url": "https://citybugs.tamu.edu/2015/12/01/kissing-bug-identification-requires-closer-look/" },
+    { "title": "Triatomine Submission and Testing", "publisher": "Texas Department of State Health Services", "url": "https://www.dshs.texas.gov/idcu/health/zoonosis/Triatominae" }
+  ],
+  "disclaimer": "health"
+}

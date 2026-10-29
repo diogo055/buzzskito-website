@@ -1,0 +1,229 @@
+{
+  "slug": "mite-bites",
+  "kind": "spoke",
+  "cluster": "mites",
+  "keyword": "mite bites",
+  "alsoTargets": [
+    "mite bites on humans",
+    "what do mite bites look like",
+    "mite bite",
+    "mites that bite humans",
+    "types of mite bites",
+    "mite bites treatment",
+    "mite bites pictures"
+  ],
+  "metaTitle": "Mite Bites: What They Look Like (Photos)",
+  "metaDescription": "Mite bites are small, very itchy red bumps. Photos of chigger, bird mite, itch mite and scabies bites, where each mite comes from and when to see a doctor.",
+  "h1": "Mite Bites: What They Look Like and Which Mite Bit You",
+  "dek": "Mite bites look much alike, so where you picked them up is the best clue. Real photos of chigger, bird mite, straw itch mite and scabies bites, a table to sort the mites, the ones that do not bite, and when to see a doctor.",
+  "breadcrumb": "Mite Bites",
+  "excerpt": "What mite bites look like, how to tell chigger, bird mite, rodent mite, itch mite and scabies bites apart, which mites do not bite, and when to see a doctor.",
+  "datePublished": "2026-10-29",
+  "parent": { "href": "/learn/bug-bites", "name": "Bug Bites" },
+  "quickAnswer": {
+    "lead": "**Mite bites are small, very itchy red bumps, and the bites alone rarely show which mite made them, so start with where you picked them up: grass and weeds point to chiggers, an empty bird nest or trapped rodents to bird or rodent mites, oaks or hay to itch mites, and a night itch between the fingers to scabies.** Dust mites do not bite.",
+    "bullets": [
+      "Chigger larvae are about 1/100 inch (0.25 mm) long and hard to see, and they commonly bite at the ankles, waistline, armpits and other spots where clothing fits tightly, says the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef637).",
+      "Bird and rodent mites may bite people when their hosts die or abandon their nests, according to the [Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/mites-affecting-humans.html), which also says clover mites do not bite.",
+      "In a 2004 Kansas rash outbreak likely caused by oak leaf itch mites, the rash showed up most often on the neck and arms, [CDC reported](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5438a3.htm), and it says the itch typically starts 10 to 16 hours after contact.",
+      "Scabies mites live in the skin; [CDC](https://www.cdc.gov/scabies/signs-symptoms/index.html) lists intense itching, often worse at night, and a pimple-like rash, and says to contact a healthcare provider if you suspect it.",
+      "Chigger itch is worst for the first 24 to 48 hours and can last up to two weeks, says [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/23267-chigger-bites).",
+      "[University of Kentucky entomologists](https://entomology.mgcafe.uky.edu/ef649) say house dust mites do not cause itching or bite-like reactions; their harm is allergy."
+    ]
+  },
+  "facts": {
+    "title": "Which mite bit you? Quick ID",
+    "head": ["Mite", "Where you picked it up", "Where the bites show up", "Can you see it?"],
+    "rows": [
+      ["Chigger", "Grass, weeds and damp, overgrown ground, mostly in summer and early fall", "Ankles, waistline, armpits, backs of the knees and other spots where clothing fits tightly", "Barely: larvae are about 1/100 inch (0.25 mm)"],
+      ["Oak leaf itch mite", "Under pin oaks and other oaks with leaf galls, in late summer and fall", "Neck, arms, shoulders, upper torso and face", "No: about 1/125 inch (0.2 mm)"],
+      ["Straw itch mite", "Hay, straw, grain or seeds you handled or sat on", "Trunk and arms, especially where bales were gripped", "No: nearly microscopic"],
+      ["Bird mites", "A nest on or in the house after the birds leave, most often in spring and summer", "Usually in the rooms near the nest", "Yes: specks about the size of a period"],
+      ["Rat and mouse mites", "Rodent nests after the rodents die, are trapped or leave, most often in fall and winter", "Usually in the rooms near the nest", "Yes: specks about the size of a period"],
+      ["Scabies mite", "Prolonged skin-to-skin contact with someone who has scabies", "Between the fingers; folds of the wrist, elbow, knee and armpit; waist and buttocks; itch worse at night", "No: microscopic"],
+      ["Dust mite", "Mattresses, pillows and upholstered furniture", "None: it does not bite; the harm is allergy", "No: too small to see"],
+      ["Clover mite", "Comes indoors in large numbers, in fall or late winter to early spring", "None: it does not bite", "Yes: tiny and reddish"]
+    ],
+    "caption": "Chiggers: Kentucky, Cleveland Clinic and StatPearls. Itch mites: CDC, Penn State, NC State, IDPH and Kentucky. Bird and rodent mites: Kentucky, Texas A&M and IDPH. Scabies: CDC. Dust mites: IDPH and Kentucky. Clover mites: IDPH and Texas A&M. All are linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What do mite bites look like?" },
+    { "type": "p", "text": "Most are small red bumps or pimples that itch, often intensely. [MedlinePlus](https://medlineplus.gov/ency/article/001333.htm) describes chigger bites as red, pimple-like bumps or hives with severe itching, the [Illinois Department of Public Health](https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/mites-affecting-humans.html) (IDPH) says itch mite bites leave itchy red marks that can resemble a rash, and the [University of Kentucky's fact sheet on parasitic mites](https://entomology.mgcafe.uky.edu/ef637) describes hardened, raised chigger bumps that can itch for a week or more." },
+    { "type": "figure", "src": "/guides/photos/chigger-bites-ruler.webp", "width": 1200, "height": 780, "alt": "Three small, raised red welts on a hairy arm beside a paper ruler printed with inch and metric scales", "caption": "Three chigger bites on a patient's arm about 10 days after the bites, in a CDC photograph; each red welt measured about 1/8 inch (3 to 4 mm) across, CDC says.", "credit": "CDC/ M.A. Parsons (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12069" },
+    { "type": "p", "text": "The bite alone rarely shows which mite made it. The University of Kentucky's [guide to mystery bites](https://entomology.mgcafe.uky.edu/ef649) says even physicians find bug bites difficult to diagnose, and the University of California's [guide to unexplained itching](https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/) (UC IPM) says confirming a mite as the cause takes a specimen identified by a trained entomologist. Doctors go by the story: MedlinePlus says a provider can usually diagnose chigger bites from the rash and recent time outdoors." },
+
+    { "type": "h2", "text": "Which mite bit you? Start with where you had been" },
+    { "type": "p", "text": "Usually the place tells you, because each biting mite lives somewhere different:" },
+    { "type": "ul", "items": [
+      "**Tall grass, weeds or woods, with bites at the sock line, waistband or armpits:** chiggers.",
+      "**Under oak trees or raking oak leaves in late summer or fall, with bites on the neck, face, shoulders or arms:** oak leaf itch mites.",
+      "**Hay, straw, grain or seeds you handled or sat on, with bites on the trunk and arms:** straw itch mites.",
+      "**Indoors, in rooms near a nest in the eaves, attic or chimney, after the birds left:** bird mites.",
+      "**Indoors, after mice or rats were trapped, poisoned or shut out:** rat or mouse mites.",
+      "**Close, prolonged skin-to-skin contact with another person, and an itch that is worst at night, between the fingers or at the wrists:** scabies.",
+      "**Bites in bed and none of the above:** check for bed bugs and fleas before blaming mites."
+    ] },
+    { "type": "p", "text": "The [bug bite identification chart](/learn/bug-bites) compares mite bites with every other common bite, and the [bug bite identifier](/tools/bug-bite-identifier) asks six questions about yours and names the likely biters." },
+
+    { "type": "h2", "text": "Chiggers: after grass, weeds or woods" },
+    { "type": "p", "text": "Clusters of very itchy red bumps, often in a line where clothing fits tightly. [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/23267-chigger-bites) describes a speckled line of red spots or pimples along waistbands, bra lines and sock lines, and on the ankles, lower legs, backs of the knees, waist and groin; [StatPearls](https://www.ncbi.nlm.nih.gov/books/NBK538528/), a clinical reference on NIH's NCBI Bookshelf, adds lines along underwear seams and above socks or shoes." },
+    { "type": "p", "text": "Chiggers are mite larvae, about 1/100 inch (0.25 mm) and difficult to see, Kentucky says. They do not burrow or suck blood: IDPH says they cut into the skin, inject saliva that digests it and feed on the liquefied skin, for several days if not brushed off. StatPearls says the bump that forms around the mite only makes it look as if it has burrowed." },
+    { "type": "p", "text": "People pick them up in damp, overgrown vegetation, grassy fields, woods and gardens, Kentucky and Cleveland Clinic say, mostly in summer and early fall, according to StatPearls. Kentucky notes that no diseases are currently associated with chiggers in the United States; [CDC's Yellow Book](https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rickettsial-diseases.html) says chiggers spread scrub typhus in Asia, the Pacific and a few other regions." },
+    { "type": "p", "text": "[Getting rid of chiggers in a yard](/blog/how-to-get-rid-of-chiggers) and [where chiggers live in each state](/learn/chiggers-by-state) have their own guides." },
+
+    { "type": "h2", "text": "Bird mites: after a nest on the house empties" },
+    { "type": "p", "text": "Small, itchy red bumps that turn up indoors, usually in the rooms nearest a nest. [Texas A&M AgriLife Extension's guide to biting mites](https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3009/) says bird and rodent mites do not hop or fly but can crawl several yards from a nest, so bites are usually limited to certain rooms; unlike bed bugs, they do not hitchhike on people or belongings. Bird problems are most common in spring and summer, it says." },
+    { "type": "figure", "src": "/guides/photos/bird-mite-bites.webp", "width": 1200, "height": 977, "alt": "A person's arm dotted with many small pink-red bumps, shown in two panels, with black arrowheads pointing to some of the bumps", "caption": "Tropical fowl mite bites on a person's arm, in two panels from a published study; the arrows mark some of the bumps. Texas A&M lists this bird mite among those that bite people indoors.", "credit": "Bassini-Silva, Ricardo; Jacinavicius, Fernando de Castro; Hernandes, Fabio Akashi; Ochoa, Ronald; Bauchan, Gary R.; Dowling, Ashley P. G.; Barros-Battesti, Darci Moraes, CC BY 4.0, via Wikimedia Commons", "license": "CC-BY-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ornithonyssus_bursa_bites.jpg" },
+    { "type": "p", "text": "The northern fowl mite is visible, about as small as a printed period, Kentucky says, and comes from recently used or abandoned nests near homes, backyard flocks and pet birds; it cannot reproduce without birds. The chicken mite, red to black and about 0.04 inch long, readily bites at night. [The bird mite guide](/blog/bird-mites) goes further." },
+
+    { "type": "h2", "text": "Rat and mouse mites: after rodents are removed" },
+    { "type": "p", "text": "Itchy, sometimes painful bumps or a rash, turning up indoors after rodents die or leave and their mites look for a new host. IDPH says the tropical rat mite's bite is painful and itchy and the house mouse mite's may cause a rash around it, and Kentucky says rat mites can become a serious problem while rodents are being eliminated, causing irritation and sometimes painful dermatitis that may last 2 to 3 days. Texas A&M says rodent problems are most frequent in fall and winter." },
+    { "type": "p", "text": "The tropical rat mite is about 0.03 inch long, gray before feeding and yellow to dark red after, and lives mainly on Norway rats, Kentucky says. IDPH adds the house mouse mite, which favors warm spots near pipes and furnaces, and the spiny rat mite, which is active at night." },
+    { "type": "p", "text": "The house mouse mite also spreads rickettsialpox, which CDC's Yellow Book says circulates in cities in several countries, the United States among them; outbreaks mostly follow contact with infected rodents and their mites, especially when the rodents die off or are exterminated. [The rat mite guide](/blog/rat-mites) covers these mites, and [the guide to mice](/learn/mice) covers removing the rodents; without that, Kentucky says, mite control is likely only temporary." },
+    { "type": "media", "needed": "A tropical rat mite (Ornithonyssus bacoti) beside a ruler marked in inches, identified by an entomologist, and the bites it left on a person's skin; CDC PHIL or a CC BY case report" },
+
+    { "type": "h2", "text": "Itch mites: under oak trees or in hay and straw" },
+    { "type": "p", "text": "Bites from itch mites, which normally prey on insects and bite people who touch the places those insects live. IDPH says these mites cannot be seen and their bites are not felt but leave itchy red marks that can resemble a rash, and that they cannot live on people, do not survive indoors and are not known to spread disease." },
+    { "type": "h3", "text": "Under oak trees in late summer and fall" },
+    { "type": "p", "text": "Oak leaf itch mites develop in galls along the leaf edges of pin oaks and other red oaks, [Penn State Extension](https://extension.psu.edu/oak-leaf-itch-mite) says, and CDC describes them preying on the gall-making midge larvae. About 1/125 inch (0.2 mm) long and nearly invisible, they can fall from trees in large numbers in late summer and fall and ride the wind, even through window screens. Most bites happen to people gardening, especially while raking pin oak leaves." },
+    { "type": "p", "text": "In [a 2004 outbreak in Kansas](https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5438a3.htm) that affected an estimated 54% of Crawford County's residents, CDC found the rash most often on the neck and arms, and also on the shoulders, upper torso and face. Itching typically begins 10 to 16 hours after contact, CDC notes; few people recalled a bite, and 38 of the 65 who said how long it lasted reported it gone within 1 to 7 days." },
+    { "type": "media", "needed": "Oak leaf itch mite bites on a person's neck or shoulders after time under pin oaks, from a case where the mite was identified, with the timing stated; public domain or CC0, no identifiable face" },
+    { "type": "h3", "text": "In hay, straw and grain" },
+    { "type": "p", "text": "Straw itch mites live in stored grain, dried beans and peas, wheat straw and hay. [NC State Extension](https://entomology.ces.ncsu.edu/news/itch-mite-problems/) says their bites appear on the trunk and arms, especially where people grip bales, often in fall, when bales are used for decorations and hayrides; the mites live deep inside the bales, not just on the surface." },
+    { "type": "figure", "src": "/guides/photos/straw-itch-mite-bites.webp", "width": 1200, "height": 790, "alt": "Close view of pale skin on a person's back with three small, raised pink bumps, each with a tiny darker spot at its center", "caption": "Inflamed straw itch mite bites on a patient's back in DeKalb County, Georgia, in June 1962, photographed 48 hours after treatment began, in a CDC image; CDC names the mite *Pyemotes ventricosus*.", "credit": "CDC/ Harold George Scott, PhD (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27349" },
+    { "type": "p", "text": "[The itch mite guide](/blog/itch-mites) covers both mites in more depth." },
+
+    { "type": "h2", "text": "Could it be scabies?" },
+    { "type": "p", "text": "It could be if the itch is worst at night and the rash sits between the fingers or in skin folds. Scabies comes from the [microscopic human itch mite](https://www.cdc.gov/scabies/about/index.html), which lives in the skin, where females make tiny burrows. [CDC's scabies symptoms page](https://www.cdc.gov/scabies/signs-symptoms/index.html) lists intense itching, often worse at night, and a pimple-like rash between the fingers, in the folds of the wrist, elbow, knee and armpit, and on the waist, buttocks and shoulder blades; in infants and young children, on the head, face, neck, palms and soles. The burrows look like tiny raised, crooked lines, grayish-white or skin-colored." },
+    { "type": "figure", "src": "/guides/photos/scabies-rash-hand.webp", "width": 1200, "height": 799, "alt": "Close view of the skin between two fingers with several small, raised pinkish bumps of a scabies rash", "caption": "A pimple-like scabies rash in the webbing between an adult's fingers, caused by the human itch mite, in a CDC photograph; between the fingers is one of the places CDC lists.", "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)", "license": "public-domain", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=4801" },
+    { "type": "p", "text": "Unlike other mite bites, it spreads between people, mostly through direct, prolonged skin-to-skin contact with household members or sexual partners and less often through shared clothing, towels or bedding, says [CDC's page on how scabies spreads](https://www.cdc.gov/scabies/causes/index.html). It is also slow: symptoms can take 3 to 6 weeks to appear the first time, but 1 to 4 days after a repeat infestation." },
+    { "type": "p", "text": "It needs a healthcare provider, not pest control. CDC says to contact a provider if you suspect scabies, and its [scabies treatment page](https://www.cdc.gov/scabies/treatment/index.html) says a provider can prescribe a cream, lotion or pill, that nonprescription products have not been tested and approved to treat it, and that insecticide sprays and fumigants should not be used. [How scabies differs from bed bug bites](/blog/scabies-vs-bed-bugs) is covered separately." },
+
+    { "type": "h2", "text": "Which mites do not bite people?" },
+    { "type": "p", "text": "Dust mites, clover mites and spider mites. Kentucky's mystery-bite guide says house dust mites do not cause itching or bite-like reactions; their effect is allergy, from sneezing to asthma, and IDPH says they do not live on people. [What dust mites are and the allergy they cause](/blog/dust-mites) has its own guide." },
+    { "type": "p", "text": "Clover mites, tiny reddish mites by Texas A&M's description, come indoors in large numbers, in fall or late winter to early spring, but IDPH says they do not bite or cause health problems. Spider mites feed on plants: the [National Pesticide Information Center](https://www.npic.orst.edu/pest/mites.html) (NPIC) groups them with the plant-damaging mites, and its list of mites that may bite people names chiggers, bird mites and rodent mites." },
+
+    { "type": "h2", "text": "What else can look like mite bites?" },
+    { "type": "p", "text": "Other insect bites, and itching with no bug at all. The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) (AAD) names mites, fleas, bed bugs and ticks among the bugs that commonly bite or sting people in the United States. The usual mix-ups:" },
+    { "type": "ul", "items": [
+      "**Bed bugs** are visible: the [EPA](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) says adults are about the size of an apple seed, 3/16 to 1/4 inch long, and flat, oval and brown when unfed. [Bites with no sign of bed bugs](/blog/bed-bug-bites-but-no-bed-bugs) covers the other things that bite at night, and [how bed bug bites differ from mosquito bites](/blog/bed-bug-bites-vs-mosquito-bites) compares those two.",
+      "**Fleas** jump, and [Cleveland Clinic's flea bite page](https://my.clevelandclinic.org/health/diseases/21718-flea-bites) says their bites land mostly on the feet, calves and ankles, rarely above the knee unless you sit or lie down a lot, as small bumps in a line or cluster that last a few days; see [fleas that bite people](/blog/fleas-on-humans).",
+      "**Ticks:** the AAD lists a red, donut-shaped rash that develops after a tick bite among its reasons to go to the emergency room; [what a tick bite looks like](/blog/what-does-a-tick-bite-look-like) shows what to check for.",
+      "**Itching or a rash with no bite:** Kentucky names fibers from paper, fabric and insulation, static and dry winter skin, and UC IPM many medical conditions and medicines; [carpet beetle rash](/blog/carpet-beetle-rash) has its own guide."
+    ] },
+    { "type": "confused", "title": "Mites that bite, and what gets mistaken for them", "items": [
+      { "href": "/blog/how-to-get-rid-of-chiggers", "name": "Chigger", "photo": "chigger-and-pinhead", "note": "Larvae about 1/100 inch; bites where clothing fits tightly, after grass or weeds", "alt": "Pinhead seen up close with a labeled adult chigger and a far smaller larval chigger, a white speck, on its surface" },
+      { "href": "/blog/bird-mites", "name": "Bird mite", "photo": "northern-fowl-mites", "note": "Period-size speck; bites indoors near a nest the birds have left", "alt": "Magnified northern fowl mite, a pale oval mite with dark brown markings, on green fabric fibers" },
+      { "href": "/blog/itch-mites", "name": "Straw itch mite", "photo": "straw-itch-mites", "note": "Nearly invisible; bites after handling hay, straw or grain", "alt": "Microscope view of two pale straw itch mites with long legs beside the dark, swollen round abdomen of a female" },
+      { "href": "/blog/scabies-vs-bed-bugs", "name": "Scabies mite", "photo": "scabies-mite", "note": "Lives in the skin; the itch is worst at night, often between the fingers", "alt": "Microscope view of a round, translucent human itch mite from below, with short legs and long bristles" },
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-adult-ruler", "note": "Visible, about the size of an apple seed; flat and oval when unfed", "alt": "Reddish-brown, oval adult bed bug seen from above beside a scale marked in millimeters" },
+      { "href": "/blog/fleas-on-humans", "name": "Cat flea", "photo": "cat-flea-scale-bar", "note": "Jumps; bites mostly on the feet, ankles and calves", "alt": "Side view of a magnified cat flea with long, bristly hind legs, under a scale bar" }
+    ] },
+
+    { "type": "h2", "text": "How long do mite bites last?" },
+    { "type": "p", "text": "Usually a few days to two weeks, depending on the mite. Scabies needs treatment, and CDC says its itch can continue for weeks afterward." },
+    { "type": "table", "head": ["Mite", "When the itch starts", "How long it lasts"], "rows": [
+      ["Chigger", "Usually several hours after they attach (MedlinePlus)", "Worst for 24 to 48 hours; can last up to 2 weeks (Cleveland Clinic, StatPearls)"],
+      ["Oak leaf itch mite", "Usually 10 to 16 hours after contact (CDC)", "1 to 7 days for 38 of 65 who reported it in the 2004 Kansas outbreak (CDC)"],
+      ["Tropical rat mite", "Not stated in these sources", "Irritation, sometimes painful, that may last 2 to 3 days (Kentucky)"],
+      ["Scabies mite", "3 to 6 weeks the first time; 1 to 4 days after a repeat infestation (CDC)", "Needs treatment; itching can last several weeks after it (CDC)"]
+    ], "caption": "Sources: Cleveland Clinic, MedlinePlus, StatPearls, CDC and the University of Kentucky, each linked on this page." },
+
+    { "type": "h2", "text": "How do you find out which mite is biting you?" },
+    { "type": "p", "text": "Catch one if you can, and take the evidence to people who can tell. UC IPM says a specimen identified by a trained entomologist confirms the cause, and that the first person to contact about the itching is your family doctor or primary care provider." },
+    { "type": "ol", "items": [
+      "**Note where and when** the bites happen, in which rooms, and what changed: a nest removed, rodents trapped, a day in tall weeds, hay or oak leaves.",
+      "**Set sticky traps** where the bites happen, as Texas A&M and Kentucky suggest; Kentucky says they are not always reliable.",
+      "**Collect mites before anyone treats,** lifting them with an artist's brush or a tissue dipped in rubbing alcohol into a small vial of alcohol (Texas A&M) or a crush-proof container (Kentucky).",
+      "**Skip the tape test:** Kentucky says tape pressed on the skin seldom reveals the cause.",
+      "**Show your doctor the bites:** UC IPM says physicians can send samples to experts, and Kentucky says dermatologists can readily diagnose scabies."
+    ] },
+    { "type": "p", "text": "A specimen helps beyond the diagnosis: Texas A&M says many pest control companies will not treat a home without proof of a pest." },
+
+    { "type": "h2", "text": "How do you treat mite bites?" },
+    { "type": "p", "text": "Most mite bites are treated for the itch until they fade; scabies is the exception and needs a prescription. StatPearls says chigger treatment is usually limited to oral antihistamines, cold compresses and corticosteroid creams, and MedlinePlus names antihistamines and corticosteroid creams or lotions. For the Kansas itch mite outbreak, CDC suggested calamine lotion, an oral antihistamine or a nonprescription hydrocortisone product." },
+    { "type": "ul", "items": [
+      "**Wash, then soothe:** Kentucky suggests a soapy bath and anti-itch creams on chigger welts; follow each product's label.",
+      "**Try not to scratch:** Kentucky and Penn State warn it can lead to infection, and MedlinePlus says antibiotics are needed only if one develops.",
+      "**Do not smother the bites:** StatPearls advises against covering them with nail polish, petroleum jelly or cream, and Cleveland Clinic says chiggers do not burrow, so they need no removing.",
+      "**Leave scabies to a provider:** CDC says it takes prescription medicine, not a household spray."
+    ] },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "Contact a healthcare provider if you suspect scabies (CDC); if the itching is very bad or the bites get worse or do not improve with treatment (MedlinePlus, on chigger bites); or if chigger bites are scratched open, itch beyond two weeks, or the skin around one swells or leaks pus, which Cleveland Clinic says may mean infection. The AAD says to see a board-certified dermatologist right away for fever, body aches or feeling tired all the time after a bug bite, and to go to the emergency room immediately for trouble breathing, a throat that feels like it is closing, swollen lips, tongue or face, chest pain, a racing heartbeat lasting more than a few minutes, dizziness, vomiting, a headache, or a fever with a red or black, spotty rash that spreads." },
+
+    { "type": "h2", "text": "How do you keep mites from biting again?" },
+    { "type": "p", "text": "Remove the source. Each mite has its own fix:" },
+    { "type": "ul", "items": [
+      "**Chiggers:** IDPH calls repellents with 7 to 30 percent DEET the first line of defense and advises a hot, soapy bath or shower right after visiting natural areas. StatPearls suggests tucking pant hems into socks or boots and calls DEET and permethrin effective deterrents; Kentucky notes that some repellents are made for clothing. Follow the label.",
+      "**Oak leaf itch mites:** limit time under infested oaks, then wash your clothes and shower, Penn State advises; CDC also suggested gloves for handling fallen leaves. Penn State says DEET gives mixed results and tree sprays cannot reach the mites in the galls.",
+      "**Straw itch mites:** NC State suggests repellent on clothing and arms when handling bales, and a plastic tarp over bales before anyone sits on them.",
+      "**Bird and rodent mites:** remove the host first, Texas A&M says: seal entry holes (a mouse fits through a dime-sized hole, a rat a quarter-sized one), screen chimneys, and wear long sleeves, gloves and a tight dust mask to remove old nests.",
+      "**Scabies:** CDC says to tell anyone you had skin-to-skin contact with in the past two months, and to wash bedding, clothing and towels in hot water and dry them hot, or seal unwashable items in a plastic bag for at least 72 hours."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph the bites beside a ruler marked in inches each day, and seal any mite you catch in a crush-proof container, noting where and when you found it. Your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Can mites live on humans?",
+      "answer": "Most biting mites cannot. The Illinois Department of Public Health says itch mites cannot live on people, and the University of Kentucky says bird and rodent mites bite people but cannot reproduce on them. Chiggers attach only to feed: Illinois says one that is not brushed off feeds for several days. The exception is the scabies mite, which CDC says lives in the skin and spreads from person to person through prolonged skin-to-skin contact. Suspected scabies needs a healthcare provider."
+    },
+    {
+      "question": "Why do mite bites itch so much?",
+      "answer": "Because the skin reacts to what the mite leaves behind. The Illinois Department of Public Health says chiggers inject saliva that digests skin cells and then feed on the liquefied skin, and the University of Kentucky says the reaction leaves hardened, raised bumps that can itch for a week or more. CDC says scabies itching and rash come from the body's allergic-type reaction to the mites, their eggs and their feces, which is why the itch can continue for weeks after treatment kills the mites."
+    },
+    {
+      "question": "Can you see the mites that bite you?",
+      "answer": "Some of them, barely. The University of Kentucky says the northern fowl mite, a bird mite, is about as small as a printed period, and Texas A&M says rat mites are about that size too. Chigger larvae are about 1/100 inch and difficult to see, Kentucky says, and Penn State calls the oak leaf itch mite, about 1/125 inch, nearly invisible. The Illinois Department of Public Health says itch mites cannot be seen, and CDC calls the scabies mite microscopic."
+    },
+    {
+      "question": "Are mite bites dangerous?",
+      "answer": "Usually not, though scratching can lead to a skin infection, the University of Kentucky and Penn State warn. Kentucky says no diseases are currently associated with chiggers in the United States, and the Illinois Department of Public Health says itch mites are not known to spread disease. CDC says the house mouse mite spreads rickettsialpox, which circulates in some US cities. Scabies needs medical treatment, and the American Academy of Dermatology says to see a dermatologist right away for fever or body aches after a bug bite."
+    },
+    {
+      "question": "Are mite bites contagious?",
+      "answer": "Only scabies passes from person to person. CDC says it spreads mainly through direct, prolonged skin-to-skin contact, such as between household members and sexual partners, and less often through shared clothing, towels or bedding. Chiggers, bird and rodent mites and itch mites come from places, not people: they bite when you visit their habitat or their hosts leave a nest. The Illinois Department of Public Health says itch mites cannot live on people, and the University of Kentucky says bird and rodent mites cannot reproduce on them."
+    },
+    {
+      "question": "How do you know if you have mites in your house?",
+      "answer": "Look for a source and set traps. Texas A&M says bird and rodent mites stay near their hosts' nests, so bites are usually limited to certain rooms, and it suggests sticky traps in the rooms where the bites happen. The University of Kentucky describes these mites as dark, slow-moving specks about the size of a period that cannot jump or fly. Tiny reddish mites that come indoors in large numbers in fall or early spring may be clover mites, which the Illinois Department of Public Health says do not bite."
+    },
+    {
+      "question": "What kills mites on human skin?",
+      "answer": "For most mite bites, nothing needs killing. Cleveland Clinic says chiggers do not burrow, so no treatment is needed to remove them; bird, rodent and itch mites do not live on people. The Illinois Department of Public Health advises a hot, soapy bath or shower right after visiting places where chiggers live. Scabies mites do live in the skin, and CDC says a healthcare provider can prescribe a cream, lotion or pill to kill them; nonprescription products have not been tested and approved to treat scabies."
+    },
+    {
+      "question": "Do mite bites go away on their own?",
+      "answer": "Most do. Cleveland Clinic says chigger itching is worst for the first 24 to 48 hours and can last up to two weeks, and StatPearls says it usually lasts a few days. In a 2004 Kansas outbreak linked to oak leaf itch mites, 38 of the 65 people who reported how long their rash lasted said it cleared within a week, CDC found. The University of Kentucky says rat mite irritation may last 2 to 3 days. Scabies is different: it needs prescription treatment, and the itch can continue for weeks afterward."
+    },
+    {
+      "question": "What is the difference between mite bites and bed bug bites?",
+      "answer": "The bug and the place. Bed bugs are visible: the EPA says adults are about the size of an apple seed, 3/16 to 1/4 inch long. Biting mites are far smaller, and each bites in its own setting: chiggers outdoors where clothing fits tightly, bird and rodent mites in rooms near a nest. Texas A&M says those mites, unlike bed bugs, do not hitchhike on people or belongings. Since the bites themselves look alike, look for the insect, a nest or other signs."
+    },
+    {
+      "question": "How do you get rid of mites in your house?",
+      "answer": "Identify the mite, then remove its source. Texas A&M says bird and rodent mites cannot be controlled until their host is removed: seal the openings rodents and birds use, remove old nests while wearing gloves, long sleeves and a tight dust mask, and treat pesticides only as a supplement. The University of Kentucky says that without removing the rodents, mite control is likely only temporary. Scabies needs a healthcare provider rather than pest control, and CDC advises against insecticide sprays and fumigants for it."
+    }
+  ],
+  "sources": [
+    { "title": "Parasitic Mites of Humans (ENTFACT-637; A. Lopina, Z. DeVries and H. Tiffin, revised May 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef637" },
+    { "title": "Mystery Bites: Insect and Non-Insect Causes (ENTFACT-649; M. F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef649" },
+    { "title": "Mites Affecting Humans", "publisher": "Illinois Department of Public Health, Division of Environmental Health", "url": "https://dph.illinois.gov/topics-services/environmental-health-protection/structural-pest-control/mites-affecting-humans.html" },
+    { "title": "Biting Mites (M. Merchant and P. Teel)", "publisher": "Texas A&M AgriLife Extension Service, Insects in the City", "url": "https://citybugs.tamu.edu/factsheets/biting-stinging/others/ent-3009/" },
+    { "title": "Pest Notes: Itching and Infestation: What's Attacking Me? (UC ANR Publication 7443, updated September 2020)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/itching-and-infestation-whats-attacking-me/" },
+    { "title": "Chigger Bites (last updated June 7, 2022)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/23267-chigger-bites" },
+    { "title": "Chiggers (Medical Encyclopedia, reviewed October 9, 2024)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/001333.htm" },
+    { "title": "Chigger Bites and Trombiculiasis (L. Alexander, R. J. Chen and C. J. Buckley; StatPearls, last updated February 25, 2024)", "publisher": "NCBI Bookshelf, U.S. National Library of Medicine, National Institutes of Health", "url": "https://www.ncbi.nlm.nih.gov/books/NBK538528/" },
+    { "title": "Outbreak of Pruritic Rashes Associated with Mites, Kansas, 2004 (Morbidity and Mortality Weekly Report)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5438a3.htm" },
+    { "title": "Oak Leaf Itch Mite (S. Jacobs)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/oak-leaf-itch-mite" },
+    { "title": "Itch Mite Problems (M. Waldvogel, October 4, 2015)", "publisher": "NC State Extension, Department of Entomology and Plant Pathology", "url": "https://entomology.ces.ncsu.edu/news/itch-mite-problems/" },
+    { "title": "Symptoms of Scabies (January 12, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/signs-symptoms/index.html" },
+    { "title": "About Scabies (September 9, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/about/index.html" },
+    { "title": "How Scabies Spreads (February 23, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/causes/index.html" },
+    { "title": "Treatment of Scabies (January 12, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/scabies/treatment/index.html" },
+    { "title": "Rickettsial Diseases (CDC Yellow Book 2026; D. W. McCormick and W. L. Nicholson)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/rickettsial-diseases.html" },
+    { "title": "Bug bites and stings: When to see a dermatologist", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist" },
+    { "title": "Mites (last updated July 21, 2026)", "publisher": "National Pesticide Information Center (Oregon State University and U.S. EPA)", "url": "https://www.npic.orst.edu/pest/mites.html" },
+    { "title": "Bed Bugs Appearance and Life Cycle (updated January 6, 2026)", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "Flea Bites (last updated August 31, 2021)", "publisher": "Cleveland Clinic", "url": "https://my.clevelandclinic.org/health/diseases/21718-flea-bites" }
+  ],
+  "disclaimer": "health"
+}

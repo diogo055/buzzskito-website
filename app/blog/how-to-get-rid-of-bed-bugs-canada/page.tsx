@@ -15,12 +15,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-bed-bugs-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'How to Get Rid of Bed Bugs in Canada 2026 — The Complete Step-by-Step Plan'
-const META_TITLE = 'How to Get Rid of Bed Bugs Canada: 7 Steps'
+// TITLE NOTE (Oct 28, 2026): was 'How to Get Rid of Bed Bugs Canada: 7 Steps'; top queries, Jul 28-Oct 25 (all countries): ontario bed bug treatments 5 at 19.2, bed bug pest control 1 at 25.0, diy canada 1 at 4.0 (0 clicks). Canadian edition of the regional pair: '/blog/how-to-get-rid-of-bed-bugs' (US guide, 'How to Get Rid of Bed Bugs: The EPA 6-Step Plan') keeps the US searches; DIY-kit searches stay with /blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada.
+const META_TITLE = 'How to Get Rid of Bed Bugs in Canada: 7 Steps'
 
 const FAQS = [
   {
@@ -33,7 +37,7 @@ const FAQS = [
   },
   {
     question: 'What actually kills bed bugs and their eggs?',
-    answer: 'Heat is the most reliable killer of both bed bugs and their eggs. Sustained temperatures around 50 C (122 F) held for long enough kill all life stages, which is why a dryer on high heat, a steamer producing dry vapour above 100 C, and a dedicated heat chamber or whole-room heater are the backbone of any real plan. Freezing works too but is slow — items need days at around minus 18 C. Among products you spray or dust, a silica-based desiccant like CimeXa reliably kills bugs that walk across it over hours to days and keeps working for months, and diatomaceous earth works on the same principle more slowly. Most contact sprays kill the bugs they directly soak but leave the eggs untouched, which is the single biggest reason spray-only attempts fail. The winning combination is heat for the eggs and hidden bugs, plus a long-lasting desiccant dust in the voids for the stragglers.',
+    answer: 'Heat is the most reliable killer of both bed bugs and their eggs. Sustained temperatures around 50 C (122 F) held for long enough kill all life stages, which is why a dryer on high heat, a steamer producing dry vapour above 100 C, and a dedicated heat chamber or whole-room heater are the backbone of any real plan. Freezing works too but is slow — Health Canada gives 4 days of consistent cold at minus 19 C, and says even that may not kill all of them. Among products you dust, the desiccant dusts on Health Canada’s registry for home use against bed bugs are diatomaceous earth products such as Wilson Bed Bug Out dust (PCP 26679) and the Ortho Bed Bug B Gon Diatom aerosol (PCP 32674); they kill bugs that walk across them over days and keep working while they stay dry. CimeXa, the silica-gel dust US guides favour, does not appear in the registry. Most contact sprays kill the bugs they directly soak but leave the eggs untouched, which is the single biggest reason spray-only attempts fail. The winning combination is heat for the eggs and hidden bugs, plus a long-lasting desiccant dust in the voids for the stragglers.',
   },
   {
     question: 'How long does it take to get rid of bed bugs?',
@@ -61,7 +65,7 @@ const FAQS = [
   },
   {
     question: 'Are the bed bug products sold in Canada different from US ones?',
-    answer: 'Yes, and it matters. Pest-control products sold legally in Canada must be registered with Health Canada under the Pest Control Products Act and carry a PCP registration number. Many popular US bed bug sprays, dusts, and concentrates you will see on American forums or US Amazon are not registered here and are technically not legal to import or use in Canada, and some contain active ingredients Canada has restricted. The practical upshot: stick to products available on Amazon.ca and Canadian retailers, prefer devices and desiccants (heaters, steamers, encasements, interceptors, and silica dust) that sidestep the registration question or are clearly registered, and be skeptical of any grey-market US concentrate promising a miracle. Devices like heaters and steamers are appliances, not pesticides, so they carry no registration friction at all.',
+    answer: 'Yes, and it matters. Pest-control products sold legally in Canada must be registered with Health Canada under the Pest Control Products Act and carry a PCP registration number. Many popular US bed bug sprays, dusts, and concentrates you will see on American forums or US Amazon are not registered here and are technically not legal to import or use in Canada, and some contain active ingredients Canada has restricted. The practical upshot: check every spray or dust for a PCP number on the label, whichever store or website sells it; lean on devices (heaters, steamers, encasements and interceptors) that sidestep the registration question; and be skeptical of any grey-market US concentrate promising a miracle. Devices like heaters and steamers are appliances, not pesticides, so they carry no registration friction at all.',
   },
   {
     question: 'How do I get rid of bed bugs in an apartment or condo?',
@@ -71,15 +75,28 @@ const FAQS = [
     question: 'How do I keep bed bugs from coming back?',
     answer: 'Prevention is mostly about interception and vigilance. Keep the mattress and box spring encased for at least a year — the recommended lifespan of a quality encasement — and leave interceptor traps under the bed legs permanently so you get early warning of any new arrival. Inspect luggage, and ideally run it through a box heater, after any hotel stay or travel. Be cautious with second-hand furniture and never take mattresses or upholstered items off the curb. When you travel, keep your suitcase off the floor and away from the bed, and check the mattress seams of any bed you sleep in. Bed bugs are almost always brought in from outside, so the household that inspects luggage and keeps interceptors in place is the household that catches the next one at bug number one instead of bug number five hundred.',
   },
+  {
+    question: 'What bed bug treatments are available in Ontario?',
+    answer: 'The same ones as across Canada. Health Canada strongly recommends a licensed pest control operator and says heat treatments should be left to the professionals. For your own work, the tools are a hot dryer (30 minutes or more for small items), a dry or low-vapour steamer, mattress and box spring encasements, interceptor traps, and only dusts or sprays whose label shows a PCP number. If you rent, Health Canada says to tell your landlord right away, and a public health officer can help.',
+  },
+  {
+    question: 'Should I call bed bug pest control or treat it myself?',
+    answer: 'Health Canada strongly recommends hiring a licensed professional pest control operator if you have bedbugs. Treating it yourself can work for a single room caught early, if you run the whole plan for several weeks; the EPA notes you may have to repeat the steps more than once to kill all the bugs and their eggs. Call a professional when the bugs are in several rooms or a shared building, or when you are still being bitten after a month of the plan.',
+  },
+  {
+    question: 'Which DIY bed bug products are legal in Canada?',
+    answer: 'Any spray or dust whose label shows a PCP registration number and lists bed bugs, used only on the sites the label names. Health Canada’s registry lists home-use bed bug sprays such as Doktor Doom Sleep Tight Bed Bug Killer II (PCP 29339) and KONK Bed Bug Killer (PCP 31110), and diatomaceous earth products such as Wilson Bed Bug Out dust (PCP 26679) and the Ortho Bed Bug B Gon Diatom aerosol (PCP 32674). Heaters, steamers, encasements and interceptor traps need no number. CimeXa does not appear in the registry.',
+  },
 ]
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
-  description: 'The complete step-by-step plan to get rid of bed bugs in Canada: confirm, isolate the bed, encase, intercept, heat-treat the eggs, dust the voids, and monitor to zero. DIY vs professional, what actually kills eggs, and the PMRA-legal Canadian toolkit. Updated 2026.',
+  description: 'How to get rid of bed bugs in Canada: Health Canada’s advice, then 7 steps (encase, intercept, dryer, steam, labelled dust) and which products carry a PCP number.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('bed-bugs-eggs-mattress-seam'),
 }), '/blog/how-to-get-rid-of-bed-bugs-canada')
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-canada')
@@ -87,7 +104,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-bed-bugs-canada')
 export default function HowToGetRidOfBedBugsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A complete Canadian step-by-step plan for eliminating bed bugs — confirm, isolate, encase, intercept, heat-treat the eggs, dust the voids, and monitor to zero, with DIY-vs-professional guidance and the PMRA-legal toolkit.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A complete Canadian step-by-step plan for eliminating bed bugs — confirm, isolate, encase, intercept, heat-treat the eggs, dust the voids, and monitor to zero, with DIY-vs-professional guidance and the PMRA-legal toolkit.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('bed-bugs-eggs-mattress-seam') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Bed Bugs in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -100,7 +117,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
             <span className="text-white">How to Get Rid of Bed Bugs in Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A calm, complete plan you can actually follow &mdash; confirm the infestation, isolate the bed, encase and intercept, kill the eggs with heat, dust the voids, and monitor your way to zero. Plus honest DIY-vs-professional guidance and the PMRA-legal Canadian toolkit.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Health Canada&rsquo;s first advice is to hire a licensed pest control operator. If you treat bed bugs yourself, run a plan rather than a product: confirm them, isolate the bed with interceptor traps and a mattress encasement (the &ldquo;Start here&rdquo; pick below), put small items in a hot dryer for 30 minutes or more, steam the seams, use only dusts or sprays whose label shows a PCP number, and check the traps weekly until they stay empty.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -113,14 +130,14 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of bed bugs in Canada, run a coordinated plan rather than a single product: <strong>confirm and map the infestation, isolate and encase the bed, put interceptor traps under every leg, kill the eggs and hidden bugs with heat</strong> (dryer, steamer, and a box or whole-room heater), then dust the wall voids and baseboards with a long-lasting silica desiccant. Repeat the active steps weekly for three to four weeks &mdash; because eggs keep hatching &mdash; and use the interceptors to monitor your way to zero. Heat kills the eggs that sprays and foggers cannot.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of bed bugs in Canada, run a coordinated plan rather than a single product: <strong>confirm and map the infestation, isolate and encase the bed, put interceptor traps under every leg, kill the eggs and hidden bugs with heat</strong> (dryer, steamer, and a box or whole-room heater), then dust the wall voids and baseboards with a desiccant dust whose label shows a PCP number. Repeat the active steps weekly for three to four weeks &mdash; because eggs keep hatching &mdash; and use the interceptors to monitor your way to zero. Heat kills the eggs that sprays and foggers cannot.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>There is no one-shot cure &mdash; foggers and sprays alone fail because they do not kill the eggs.</li>
               <li>Heat is the reliable egg-killer: dryer on high, a steamer for seams, and a box or whole-room heater for items and furniture.</li>
               <li>Encase the mattress and box spring; put interceptor traps under every bed and furniture leg.</li>
-              <li>Dust wall voids, outlets, and baseboards with a silica desiccant that keeps killing for months.</li>
+              <li>Dust wall voids, outlets, and baseboards with a desiccant dust labelled for bed bugs (in Canada the home-use ones are diatomaceous earth); it keeps working while it stays dry.</li>
               <li>Repeat weekly for 3&ndash;4 weeks and don&rsquo;t declare victory until 2&ndash;3 weeks with no bites and clean traps.</li>
-              <li>Stick to PMRA-legal, Health-Canada-registered products &mdash; skip grey-market US concentrates.</li>
+              <li>Buy only sprays and dusts whose label shows a PCP registration number, as Health Canada advises &mdash; skip grey-market US concentrates.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
@@ -182,7 +199,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
 
       <section className="bg-gradient-to-br from-emerald-50 to-white border-b border-emerald-200 py-10 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">The Plan at a Glance · Updated July 2026</p>
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">The Plan at a Glance · Updated October 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">The Seven Steps, and What Each One Needs</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Every successful bed-bug elimination follows the same arc. Here is the whole plan in one table, with a live Amazon.ca availability check on the tool each step depends on.
@@ -262,7 +279,24 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
 
           <h2>Why Getting Rid of Bed Bugs Takes a Plan, Not a Product</h2>
           <p>The reason bed bugs have a reputation for being impossible to beat is not that they are indestructible &mdash; it is that people fight them the wrong way. They buy a can of spray or a fogger, treat the mattress, feel a few days of relief as the visible bugs die, and then get bitten again a week later when the eggs hatch. The bugs were never the hard part; the <em>eggs</em> are. Female bed bugs cement their eggs into fabric seams, screw holes, and cracks with a glue-like coating, and those eggs shrug off nearly every spray, fog, and powder on the market. Only sustained heat reliably kills them. So a plan that ignores the eggs is a plan that fails on a two-week delay, every time. Finding a translucent 1&ndash;2 mm insect rather than an adult changes the reading of the situation as well: <Link href="/blog/baby-bed-bugs-nymphs" className="text-brand-700 underline">a nymph means the bugs are breeding on site</Link>, not merely hitchhiking in.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). The eggs are why a single spray fails: they sit in seams like this one and hatch after the visible bugs are gone." />
           <p>The good news is that a proper plan is not complicated &mdash; it is just several simple things done together and repeated. This guide is the map. It is deliberately a cornerstone: each step below has a dedicated deep-dive guide, and you should follow those links when you reach the step that applies to you. Read this once to understand the whole shape of the fight, then work the steps in order.</p>
+
+          <QuickIdTable
+            title="Bed bug treatments for Canadian homes, on the record"
+            head={['Treatment', 'How it works', 'What the source says', 'Limits']}
+            rows={[
+              ['Licensed pest control operator', 'Professional heat or pesticides', 'Health Canada strongly recommends hiring one if you have bedbugs', 'You still prepare the room and keep monitoring'],
+              ['Hot dryer', 'Heat through the load', 'Health Canada: small non-washable and dry-clean-only items in a hot dryer for 30 minutes or more', 'Only what fits in a dryer'],
+              ['Steamer', 'Steam at the surface', 'Health Canada: steam cleaners generally emit at least 100°C; dry or low-vapour steamers leave less moisture', 'Kills only where the nozzle passes'],
+              ['Freezing', 'Cold through the load', 'Health Canada: 4 days of consistent cold at -19°C, and it may not kill all of them', 'Needs a freezer that holds -19°C'],
+              ['Encasement and interceptor traps', 'Seal the mattress and box spring; catch bugs at the bed legs', 'EPA: buy covers that seal mattresses and box springs; check and clean interceptors every week', 'They protect and monitor; they do not reach bugs in the walls'],
+              ['Desiccant dust with a PCP number', 'Dries out bugs that cross it', 'Registry: home-use dusts that list bed bugs are diatomaceous earth, e.g. Wilson Bed Bug Out dust (PCP 26679); Ortho Bed Bug B Gon Diatom (PCP 32674) is a diatomaceous earth aerosol', 'Keep it dry; CimeXa is not in the registry'],
+              ['Bed bug spray with a PCP number', 'Kills the bugs it contacts', 'Health Canada: pesticides registered for bed frames are not meant for mattresses or box springs', 'Use it only on the sites its label lists'],
+              ['Ozone generator or fogger', 'Gas or mist in the room', 'Health Canada: do not use ozone generators; EPA: a fogger should not be your only method', 'Not a plan'],
+            ]}
+            caption={<>From Health Canada, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Bedbugs: how do I get rid of them?</a>; the EPA, <a href="https://www.epa.gov/bedbugs/do-it-yourself-bed-bug-control" target="_blank" rel="noopener noreferrer" className="underline">Do-it-yourself bed bug control</a> (updated August 10, 2026); and Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide product registry</a>, searched October 28, 2026.</>}
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">The four tools every Canadian bed-bug plan is built on — check current availability:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -276,6 +310,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
           <h2>Step 1: Confirm It&rsquo;s Bed Bugs and Map Where They Hide</h2>
           <p>Before you spend a dollar, confirm what you are dealing with. Bed bug bites are easy to mistake for flea bites, mosquito bites, or a skin reaction, and the treatment for each is completely different. The bites themselves are not a reliable diagnosis &mdash; you need to find the bugs or their evidence. Look for live bugs (flat, rusty-brown, apple-seed sized adults), pale sticky eggs in the seams, dark ink-dot fecal spots along the mattress piping and box-spring edge, and shed skins. Our guides on <Link href="/blog/how-to-check-for-bed-bugs-canada">how to check for bed bugs</Link> and on <Link href="/blog/bed-bug-bites">what bed bug bites look like</Link> walk through the identification in detail, and a <Link href="/blog/best-bed-bug-detector-canada">bed bug detector or monitor</Link> can confirm a low-level infestation you cannot see.</p>
           <p>Once confirmed, map the harbourage. Bed bugs cluster within a few metres of where you sleep. Check the mattress seams and tufts, the box spring (peel back the dust cover), the bed frame joints and bolt holes, the headboard and any cracks in it, the nightstand, the baseboards nearest the bed, and the seam where carpet meets wall. Knowing where they are turns the rest of the plan from guesswork into targeting.</p>
+          <Photo id="bed-bug-fecal-spots-bed-frame" alt="Black bed bug fecal spots on a wooden bed frame" caption="Black bed bug fecal spots on a wooden bed frame near where the bugs hid, photographed by the New York State IPM Program at Cornell University. Spots like these mark a harbourage to steam and to check again each week." />
 
           <h2>Step 2: Isolate the Bed So the Bites Stop Tonight</h2>
           <p>You do not have to wait weeks for relief. You can stop the bites almost immediately by turning the bed into an island the bugs cannot reach. Pull the bed a few centimetres away from the wall and away from the nightstand. Make sure no blankets, skirts, or bedding touch the floor &mdash; anything that bridges the bed to the ground is a highway. Then put a <Link href="/blog/bed-bug-interceptor-traps-canada">bed bug interceptor trap</Link> under every leg of the bed. The bug tries to climb the leg, slides into the slick-walled pit, and cannot get out.</p>
@@ -283,6 +318,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
 
           <h2>Step 3: Encase the Mattress and Box Spring</h2>
           <p>The mattress and box spring are prime harbourage, full of exactly the seams and folds bed bugs love. Rather than throw them out &mdash; which rarely helps and risks spreading the infestation &mdash; seal them. A quality <Link href="/blog/bed-bug-mattress-encasement-canada">bed bug mattress encasement</Link> is a zippered, bite-proof cover that does three things at once: it traps any bugs and eggs already inside where they will eventually starve and die, it blocks new bugs from moving in, and it eliminates hundreds of hiding seams by giving you one smooth surface. Encase both the mattress and the box spring, and leave the encasements on for at least a year, which is roughly how long trapped bugs can survive without feeding. This single step is the highest impact-per-dollar move in the whole plan.</p>
+          <Photo id="bed-bug-fecal-stains-mattress" alt="Mattress with thick black bed bug fecal stains and white bed bug eggs" caption="A mattress from a large bed bug infestation, with thick black fecal stains and white eggs, as described by the New York State IPM Program at Cornell University. An encasement seals in whatever is still living in seams like these." />
 
           <h2>Step 4: Launder and Heat-Treat Everything You Can</h2>
           <p>Heat is your primary weapon, and the first heat tool costs nothing: your clothes dryer. Strip all bedding, clothing from the affected room, curtains, and soft items, bag them at the source so you do not spread bugs on the way, and run everything through the dryer on high heat for 30 to 40 minutes. The heat kills every life stage including the eggs. Washing first is optional; it is the <em>dryer</em> heat that does the killing, so even dry-clean-only items that tolerate a no-heat wash can often take a dryer cycle &mdash; check the label.</p>
@@ -292,7 +328,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
           <p>A heater treats things you can put <em>inside</em> it. A steamer treats everything you cannot &mdash; the mattress seams (before you encase), the box-spring edge, the bed-frame joints, headboard cracks, baseboards, and the carpet edge around the bed. A <Link href="/blog/best-bed-bug-steamer-canada">dry-vapour steamer</Link> produces heat above 100 C and drives it directly into the folds and voids where bugs and eggs hide, killing on contact. Move the steamer head <em>slowly</em> &mdash; a few centimetres every several seconds &mdash; so the heat penetrates rather than skimming. Fast passes are the most common reason steam &ldquo;misses.&rdquo; Our steamer roundups, including the <Link href="/blog/dupray-steamer-review-canada">Dupray</Link> and <Link href="/blog/vapamore-mr100-steamer-review-canada">Vapamore MR-100</Link> reviews and the <Link href="/blog/dupray-vs-mcculloch-steamer-canada">Dupray vs McCulloch comparison</Link>, cover which machines deliver the dry, high-temperature vapour this job needs.</p>
 
           <h2>Step 6: Dust the Voids with a Long-Lasting Desiccant</h2>
-          <p>Heat and steam kill what you can reach today, but bed bugs also hide in wall voids, behind outlet plates, under baseboards, and inside furniture where neither heat nor steam reaches easily. That is the job of a residual desiccant. A <Link href="/blog/cimexa-bed-bug-review-canada">silica-based dust like CimeXa</Link> laid down as a thin, almost invisible film keeps killing for months &mdash; any bug that crosses it dehydrates and dies. Apply it lightly: a visible pile of dust actually repels bugs and they walk around it, whereas a barely-there film they cannot detect is what works. Target the cracks, outlet gaps, baseboard edges, and voids around the bed. <Link href="/blog/diatomaceous-earth-for-bed-bugs">Diatomaceous earth</Link> works on the same drying principle more slowly and is the natural alternative, and if you prefer to avoid dusts entirely our guides on <Link href="/blog/best-natural-bed-bug-spray-canada">natural bed bug sprays</Link> and on <Link href="/blog/do-bed-bug-sprays-actually-work">whether sprays actually work</Link> set honest expectations for what liquids can and cannot do.</p>
+          <p>Heat and steam kill what you can reach today, but bed bugs also hide in wall voids, behind outlet plates, under baseboards, and inside furniture where neither heat nor steam reaches easily. That is the job of a residual desiccant dust, laid down as a thin film so that any bug that crosses it dries out and dies. In Canada, the dusts on Health Canada&rsquo;s registry for home use against bed bugs are <Link href="/blog/diatomaceous-earth-for-bed-bugs">diatomaceous earth</Link> products such as Wilson Bed Bug Out dust (PCP 26679) and the Ortho Bed Bug B Gon Diatom aerosol (PCP 32674); the <Link href="/blog/cimexa-bed-bug-review-canada">silica-gel dust CimeXa</Link> that US guides favour does not appear in the registry (searched October 28, 2026). Apply it lightly: a visible pile of dust actually repels bugs and they walk around it, whereas a barely-there film they cannot detect is what works. Target the cracks, outlet gaps, baseboard edges, and voids around the bed, staying within the sites the label lists, and if you prefer to avoid dusts entirely our guides on <Link href="/blog/best-natural-bed-bug-spray-canada">natural bed bug sprays</Link> and on <Link href="/blog/do-bed-bug-sprays-actually-work">whether sprays actually work</Link> set honest expectations for what liquids can and cannot do.</p>
 
           <h2>Step 7: Monitor Your Way to Zero</h2>
           <p>This is the step people skip, and skipping it is why infestations &ldquo;come back.&rdquo; They did not come back &mdash; they were never fully gone, because the plan was run once instead of repeated. Bed-bug eggs hatch over one to two weeks, so survivors keep emerging after your first treatment. Repeat the active steps &mdash; steam, re-launder any re-exposed items, refresh the dust &mdash; on a weekly cadence for at least three to four weeks, and check your interceptor traps every time. When the catch reaches zero and stays there, keep monitoring for another two to three weeks of clean traps and no bites before you call it. Only then is it truly over. Leave the encasements and interceptors in place long after, as your permanent early-warning system.</p>
@@ -304,7 +340,7 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
             <li><strong>Encasements and interceptors first (cheap, essential).</strong> These are the lowest-cost, highest-impact items and they deliver the fastest relief. Buy them on day one no matter what else you do.</li>
             <li><strong>A steamer second (mid-cost, does the killing you can&rsquo;t heat).</strong> This is the tool that reaches the seams and cracks. A capable dry-vapour machine is worth paying for; the cheapest handheld steamers often lack the sustained temperature and dry output to kill reliably.</li>
             <li><strong>An enclosed heater third (higher-cost, scales to the problem).</strong> A box or garment heater handles belongings; a whole-room heater is the DIY equivalent of a professional treatment for a heavy infestation. Match the heater size to your infestation &mdash; a suitcase problem does not need a room heater, and a whole-bedroom problem is not solved by a small box.</li>
-            <li><strong>Silica dust throughout (cheap, long-lasting).</strong> A single container lasts through the whole fight and beyond. Inexpensive and worth having in every plan.</li>
+            <li><strong>A diatomaceous earth dust with a PCP number throughout (cheap, long-lasting).</strong> A single container lasts through the whole fight and beyond. Inexpensive and worth having in every plan.</li>
             <li><strong>Detectors and monitors (optional, useful for low-level or apartment cases).</strong> Helpful when you suspect bugs but cannot find them, or want early warning after travel. Not essential to the kill, but valuable for confirmation and monitoring.</li>
           </ul>
           <p>The way people overspend is buying a big whole-room heater for a problem a steamer and dryer would have handled; the way people underspend is skipping the heat entirely and hoping a spray does it &mdash; which lands them back at bug number one a fortnight later. Buy the encasements and interceptors always, buy the heat appropriate to your infestation, and dust the voids. That is the whole budget.</p>
@@ -313,8 +349,30 @@ export default function HowToGetRidOfBedBugsCanadaPage() {
           <p>You can do this yourself, and for a single-room infestation caught early, DIY has a genuinely high success rate when you follow the plan with discipline. Our <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">DIY bed-bug guide</Link> and the guide on <Link href="/blog/how-to-kill-bed-bug-eggs-canada">killing bed bug eggs</Link> go step by step through doing it without a professional. Choose DIY when the infestation is contained, you can find the harbourage, and you have the time and patience for several weeks of methodical work.</p>
           <p>Call a professional when the infestation has spread across multiple rooms, when you are in an <Link href="/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada">apartment or condo</Link> where shared walls let neighbours re-seed your unit, when physical limitations make deep cleaning and heat treatment impractical, or when you have run the full plan correctly for a month and are still being bitten. A professional whole-home heat treatment kills every bug and egg in a single day because heat reaches everywhere at once &mdash; something DIY approximates but rarely matches. There is no shame in escalating; bed bugs are one of the hardest household pests to clear, and knowing when to bring in help is part of a good plan, not a failure of one.</p>
 
+          <h2 id="situation">Which Plan for Your Situation?</h2>
+          <ul>
+            <li><strong>One bedroom, caught early, and you can work weekly:</strong> the seven steps above, starting with the encasements and interceptor traps.</li>
+            <li><strong>You rent:</strong> Health Canada says to tell your landlord right away, and a public health officer can help.</li>
+            <li><strong>Several rooms, or bites after a month of the plan:</strong> a licensed pest control operator, which Health Canada strongly recommends for any infestation.</li>
+            <li><strong>Clothes, bedding and stuffed toys:</strong> a hot dryer for 30 minutes or more.</li>
+            <li><strong>Shoes, books and luggage:</strong> a heat chamber, or a sealed bag in a freezer that holds -19&deg;C for 4 days.</li>
+            <li><strong>Bugs in the walls and baseboards:</strong> a labelled dust in the cracks, or the professional.</li>
+          </ul>
+
+          <h2>Canadian Bed Bug Product Checklist</h2>
+          <ol>
+            <li><strong>A PCP number</strong> on every spray or dust; Health Canada says not to buy or use one without it.</li>
+            <li><strong>Bed bugs and your site on the label:</strong> a product registered for bed frames is not for mattresses or box springs.</li>
+            <li><strong>Encasements for the mattress and the box spring,</strong> with zippers that close fully.</li>
+            <li><strong>An interceptor under every bed leg,</strong> checked and cleaned every week (EPA).</li>
+            <li><strong>A dry or low-vapour steamer,</strong> which leaves less moisture behind (Health Canada).</li>
+            <li><strong>The right vacuum:</strong> Health Canada calls handheld, cloth-bag and fabric-hose vacuums not a good idea for this job.</li>
+            <li><strong>No ozone generator,</strong> and no fogger as the main tool.</li>
+            <li><strong>No homemade pesticides</strong> (Health Canada).</li>
+          </ol>
+
           <h2>A Note on Canadian Products and the Law</h2>
-          <p>Products you spray or dust to kill pests are regulated in Canada under the <em>Pest Control Products Act</em> and must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA), carrying a PCP registration number. Many US bed-bug sprays, concentrates, and dusts promoted on American forums are <strong>not</strong> registered for sale or use in Canada, and importing or using them is not legal here &mdash; some contain actives Canada has restricted. Stick to products listed on Amazon.ca and Canadian retailers, and lean on the parts of this plan that sidestep the question entirely: heaters, steamers, encasements, and interceptors are <em>devices</em>, not pesticides, so they carry no registration friction at all. That is another reason the heat-first approach is the right one for Canadian homes &mdash; it is both the most effective and the most straightforwardly legal.</p>
+          <p>Products you spray or dust to kill pests are regulated in Canada under the <em>Pest Control Products Act</em> and must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency (PMRA), carrying a PCP registration number. Many US bed-bug sprays, concentrates, and dusts promoted on American forums are <strong>not</strong> registered for sale or use in Canada, and importing or using them is not legal here &mdash; some contain actives Canada has restricted. Check the label of every spray or dust for that PCP number, whichever store or website sells it &mdash; Health Canada&rsquo;s advice is that if the label does not have one, do not buy or use it &mdash; and lean on the parts of this plan that sidestep the question entirely: heaters, steamers, encasements, and interceptors are <em>devices</em>, not pesticides, so they carry no registration friction at all. That is another reason the heat-first approach is the right one for Canadian homes &mdash; it is both the most effective and the most straightforwardly legal.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

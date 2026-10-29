@@ -12,12 +12,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'pergola-mosquito-curtains-canada'
 const DATE = '2026-08-22'
-const UPDATED = '2026-08-22'
+const UPDATED = '2026-10-28'
 const TITLE = 'Pergola Mosquito Curtains in Canada: Mesh, Tracks & Sizing'
-const META_TITLE = 'Pergola Mosquito Curtains in Canada'
+// TITLE NOTE (Oct 28, 2026): was 'Pergola Mosquito Curtains in Canada'; top queries, Jul 28-Oct 25 (all countries): mosquito curtains canada 44 at 8.5, mosquito curtains 22 at 10.8, custom mosquito netting canada 8 at 8.5, mosquito curtains for pergola 3 at 7.0, pergola mosquito netting 3 at 15.7 (3 clicks). Fixed patio screening stays with mosquito-screens-patio-canada, enclosed structures with best-gazebo-with-mosquito-net-canada and best-screen-tent-canada.
+const META_TITLE = 'Mosquito Curtains Canada: Pergola Mesh & Tracks'
 
 const FAQS = [
   {
@@ -52,14 +55,27 @@ const FAQS = [
     question: 'Are mosquito curtains cheaper than screening in a pergola?',
     answer: 'Considerably. A hanging curtain system on a standard pergola generally lands in the $150 to $600 range depending on mesh quality, whether you use track or rod, and how many bays you close. Having a pergola permanently screened by a contractor with fixed frames and a motorized or fixed screen system is a different order of money and usually a permit-free but structural job. Curtains also come down, which matters in Canada: you get the open pergola you paid for in September and October, and the mesh is not sitting outside all winter. The honest limitation is that curtains never seal as tightly as fixed screening, so expect to find the occasional mosquito inside.',
   },
+  {
+    question: 'Can I get custom mosquito netting for a pergola in Canada?',
+    answer: 'Yes, from two directions. Ready-made curtain and net sets are sold in common pergola sizes such as 10 × 10 ft and 10 × 13 ft, which suit a standard kit pergola. For an odd-sized or custom-built frame, specialty makers cut panels to your measurements: Mosquito Curtains, a US company, makes them in mosquito, no-see-um and shade mesh and fixes them with under-mounted tracking or side-mounted Velcro; it ships to Canada from Atlanta, and its shipping page quotes about 3 days’ transit to Ontario with GST/HST and brokerage charged at checkout. Either way, measure every bay separately, because pergolas built on a deck are often not square.',
+  },
+  {
+    question: 'Do weighted mosquito curtains work better?',
+    answer: 'Yes, and the weight is the cheapest upgrade in the system. A chain sewn into the hem, or a drapery weight chain threaded through it, keeps each panel hanging plumb instead of billowing, so the bottom edge stays on the deck and the seams stay closed. A panel that lifts in a breeze leaves a gap along the floor and pulls its magnetic seam apart. If your existing curtains blow around, add hem weights before you buy new panels.',
+  },
+  {
+    question: 'How do you hang mosquito netting on a pergola without drilling?',
+    answer: 'Use a tensioned stainless steel cable between the posts, with clip rings running on it, which is the low-impact option for an aluminium or composite pergola. It is less rigid than a track: cable stretches under load and the panels sit lower in the middle, so pull it tight and weight the hems. Custom panel makers also offer side-mounted Velcro. A rod needs two brackets per bay, and a ceiling track is screwed to the underside of the beams.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Pergola mosquito curtains for Canadian yards: mesh size, ceiling track vs rod, no-see-um mesh for GTA waterfront lots, sizing, and winter storage.',
+  description: 'Mosquito curtains for a pergola in Canada: which mesh stops mosquitoes, black flies and no-see-ums, track vs rod, panel counts, sealing gaps and winter storage.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  modifiedTime: UPDATED,
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -80,7 +96,7 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
             <span className="text-white">Pergola Mosquito Curtains Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A pergola is the worst mosquito structure in a Canadian backyard &mdash; overhead cover with four open sides. Hanging mesh curtains fix that for a fraction of what screening it in costs, if you get the mesh, the mounting and the hem right.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The mosquito curtain setup that works on a Canadian pergola is mesh panels hung from a ceiling-mounted track under the beams, two panels per bay, with magnetic strips down the meeting seams, a weighted hem, and a canopy on top if the roof is open slats. It suits a pergola you use most summer evenings, for a fraction of what screening it in costs. Standard insect mesh stops mosquitoes; on shoreline and marsh-side lots, add finer no-see-um mesh, because most biting midges pass through standard screen.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -215,6 +231,28 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
           <p className="text-xs text-gray-500 mt-3">
             A full four-bay system generally lands in the $150&ndash;$600 range in Canada depending on mesh quality and whether you fit track or a rod. Outdoor curtain stock is seasonal at big-box retailers &mdash; use the links for what is actually listed today rather than budgeting from last spring.
           </p>
+
+          <QuickIdTable
+            title="Which Mesh Stops Which Biter"
+            head={['Biter', 'When and where it bites', 'Which mesh stops it']}
+            rows={[
+              ['Mosquitoes', 'Any time of day, most active at dawn and dusk (Health Canada)', 'Standard insect mesh; an 18 × 16 aluminum insect screen has openings of about 1.13 × 1.31 mm'],
+              ['Black flies', 'Daylight hours in spring (Health Canada)', 'Neither source gives a mesh size; by the supplier’s rule, an opening smaller than the fly, so go finer if they get through'],
+              ['Biting midges (no-see-ums)', 'Shoreline, marsh and creek-side yards on still evenings', 'Finer mesh: a wire-cloth supplier says most biting midges pass through 18 × 16 or 16 × 16 screen; its 20 × 20 screen opens to 1.04 mm and its 30 × 30 to about 0.69 mm'],
+              ['Ticks', 'Trail edges, wooded areas and tall grass (Health Canada)', 'No mesh: ticks climb up from the grass, so curtains do nothing for them'],
+            ]}
+            caption={<>Biting times from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/about-pesticides/insect-repellents.html" target="_blank" rel="noopener noreferrer" className="underline">Personal insect repellents</a> page; mesh openings and the midge statement from a wire-cloth supplier&rsquo;s spec pages for <a href="https://www.wovenwire.com/screendata/Insect-Screen/18x16-mesh-0.011-bright-aluminum-insect-screen.htm" target="_blank" rel="noopener noreferrer" className="underline">18 &times; 16 insect screen</a> and <a href="https://wovenwire.com/reference/no-see-ums-small-opening-insect-screen.htm" target="_blank" rel="noopener noreferrer" className="underline">small-opening no-see-um screen</a>, checked October 28, 2026. Its rule of thumb: choose an opening slightly smaller than the pest you want to keep out.</>}
+          />
+
+          <h2 className="text-xl font-extrabold text-brand-900 mt-8 mb-4">Which Curtain Setup for Your Situation?</h2>
+          <ul className="space-y-2 text-sm text-gray-700 list-disc pl-5">
+            <li><strong>Inland GTA yard, mosquitoes only:</strong> standard mosquito mesh on a ceiling track, two panels per bay.</li>
+            <li><strong>Lake Ontario shoreline, a marsh or a slow creek:</strong> no-see-um mesh, finer than standard 18 &times; 16 screen, and a fan for the airflow you lose.</li>
+            <li><strong>Open-slat roof:</strong> a canopy or UV-rated shade cloth over the rafters at the same time as the curtains.</li>
+            <li><strong>An aluminium or composite pergola you cannot drill:</strong> a tensioned stainless cable with clip rings.</li>
+            <li><strong>One windy bay, or a rental:</strong> a heavy-duty rod with a centre support, or a pop-up screen house.</li>
+            <li><strong>Ticks in the grass:</strong> curtains do nothing for them; the yard edge needs its own treatment.</li>
+          </ul>
         </div>
       </section>
 
@@ -235,7 +273,9 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
           <NextUp path="/blog/pergola-mosquito-curtains-canada" />
           <h2>The Specification That Actually Matters: Mesh Opening</h2>
           <p>Everything else on the product page is noise next to the size of the holes. Standard mosquito mesh runs around 1.2 mm, and that is a hard barrier to every mosquito species in Ontario &mdash; the <em>Culex</em> that carry West Nile, the floodwater <em>Aedes</em> that explode three days after a heavy rain, all of them. It also stops black flies, which matters if your pergola is at a cottage rather than in Mississauga.</p>
+          <Photo id="black-fly" alt="Male black fly, Simulium species, close-up" caption="A male black fly, Simulium sp. Health Canada notes black flies are active in daylight hours in spring, so a cottage pergola needs its curtains closed by day, not only at dusk." />
           <p>No-see-ums are the exception, and they are the reason we flag mesh at all. Biting midges are under a millimetre across and will pass through standard mesh as if it were not there. If your property is on the Lake Ontario shoreline &mdash; Port Credit, Bronte, the Burlington waterfront, Humber Bay &mdash; or backs onto a marsh or a slow creek, you want no-see-um mesh at roughly half the opening size. If you are not sure whether that is your problem, our guide to <Link href="/blog/no-see-ums-biting-midges-ontario">no-see-ums and biting midges in Ontario</Link> covers how to tell the bites apart.</p>
+          <Photo id="biting-midge-on-skin" alt="Biting midge, a no-see-um, on human skin" caption="A biting midge on human skin (CSIRO photograph); the source notes biting midges are a common nuisance around marine environments. Insects this small are why shoreline and marsh-side pergolas need no-see-um mesh." />
           <p><strong>Do not default to the finer mesh.</strong> Halving the opening roughly halves the airflow, and a pergola enclosed in no-see-um mesh on a 30&nbsp;&deg;C July evening with 80% humidity is a stuffy room. Inland GTA yards are almost always better served by standard mesh that breathes.</p>
 
           <h2>Track vs Rod: The Mounting Decision</h2>
@@ -263,6 +303,8 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
             <li><strong>Bays are rarely identical.</strong> Measure all four. Pergolas built on a deck are frequently not square, and a rectangular one has two long bays and two short.</li>
             <li><strong>Check the deck edge.</strong> If the pergola sits on a raised deck, the panels need to reach the deck surface, not the ground &mdash; but then anything under the deck edge is outside the enclosure anyway.</li>
           </ul>
+
+          <Photo id="biting-midge-bites-ankles" alt="Biting midge bites on a man's ankles" caption="Bites from small biting flies, also called biting midges or no-see-ums, on a man’s ankles (CDC photograph). Bites like these under a curtained pergola mean the mesh is too coarse or a hem is lifting off the deck." />
 
           <h2>The Roof Problem Nobody Mentions</h2>
           <p>Here is the thing that will undo an otherwise perfect install: a traditional pergola has a slatted, open-rafter roof. You can hang flawless mesh on all four sides and still get bitten, because the insects are coming in over the beam line rather than through it.</p>
@@ -316,6 +358,18 @@ export default function PergolaMosquitoCurtainsCanadaPage() {
           <p>Do that and a decent set of panels gives you several seasons. Leave them up year-round and you will be buying mesh again next spring, which is a bad trade on a $300 set.</p>
           <p>The container matters more than it sounds. A sealed bin keeps mice out of folded mesh over the winter, which a garbage bag on a garage shelf does not &mdash; a nest chewed into a panel in February is the most annoying way to discover in May that you need new curtains. Label it with the bay each panel came off and next spring&rsquo;s re-hang takes minutes instead of an afternoon of trial and error.</p>
           <div className="not-prose my-4"><BuyLink tag={AMZ_TAG} search="large storage bin with lid">Check sealed storage bins on Amazon.ca &rarr;</BuyLink></div>
+
+          <h2>Pergola Mosquito Curtain Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A stated mesh on the listing,</strong> not just &ldquo;outdoor curtain&rdquo;; finer than standard 18 &times; 16 screen if biting midges are part of your problem.</li>
+            <li><strong>Panel count:</strong> two per bay, so eight for a four-post pergola.</li>
+            <li><strong>Width:</strong> at least 1.5 times each bay opening across the pair.</li>
+            <li><strong>Length:</strong> from the underside of the beam to the deck, plus an inch or two.</li>
+            <li><strong>Mounting:</strong> a track and glides sized to each bay with outdoor-rated fixings, or a rod with a centre bracket over about 6 ft.</li>
+            <li><strong>Seals:</strong> magnetic strips for every walk-through seam, in a rust-resistant casing.</li>
+            <li><strong>Hem weights</strong> or a weight chain for every panel.</li>
+            <li><strong>The roof and the winter:</strong> a canopy or shade cloth for an open-slat top, and a sealed bin to store the panels from October.</li>
+          </ol>
 
           <h2>Where to Buy in Canada</h2>
           <p>Amazon.ca is the practical answer for most of this system, because it lists the whole kit year-round and it is the only channel that reliably carries the small parts &mdash; no-see-um mesh by the panel, ceiling track and glides, magnetic closure strips, hem weight chain &mdash; as separate items rather than as whatever a big-box store decided to stock this season.</p>

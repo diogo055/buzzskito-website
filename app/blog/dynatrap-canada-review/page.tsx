@@ -13,21 +13,24 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'dynatrap-canada-review'
 const DATE = '2026-05-01'
-const UPDATED = '2026-07-30'
+const UPDATED = '2026-10-28'
 const TITLE = 'DynaTrap Review: What It Really Catches, Which Model to Buy, and What Works Instead in Canada'
-const META_TITLE = 'DynaTrap Review: What It Really Catches'
+// TITLE NOTE (Oct 28, 2026): was 'DynaTrap Review: What It Really Catches'; top queries (Jul 28-Oct 25): dynatrap 2,296 (pos 10.4), dynatrap reviews 1,315 (pos 7.9, 9 clicks), dynatrap mosquito trap 785, does dynatrap work 202, dynatrap canada 169, does dynatrap work for mosquitoes 120 (4 clicks). 'Best mosquito trap' stays with /blog/best-mosquito-trap.
+const META_TITLE = 'DynaTrap Reviews: Does It Work on Mosquitoes?'
 
 const FAQS = [
   {
     question: 'Are DynaTraps any good?',
-    answer: 'As general flying-insect catchers, yes — a DynaTrap reliably pulls moths, beetles, midges, and mayflies out of the air around a deck or dock, quietly and without chemicals. As mosquito control, no. Independent trap research from the University of Florida (Day 2002) and Notre Dame (2017) puts mosquitoes under 5% of a UV trap\'s catch, with 80–95% being non-biting species. So the honest answer depends on what you are buying it for: good value as a nuisance-insect catcher for cottage decks, poor value as the mosquito solution it is marketed as, and useless against ticks, which do not fly and are not drawn to UV light.',
+    answer: 'As general flying-insect catchers, yes — a DynaTrap reliably pulls moths, beetles, midges, and mayflies out of the air around a deck or dock, quietly and without chemicals. As mosquito control, no. The published counts come from UV bug zappers, which rely on the same light cue: mosquitoes were 4.1% and 6.4% of the daily catch in two University of Notre Dame yard studies reported by the American Mosquito Control Association, and only eight of some 10,000 insects one zapper killed in a 1997 University of Florida test. So the honest answer depends on what you are buying it for: good value as a nuisance-insect catcher for cottage decks, poor value as the mosquito solution it is marketed as, and useless against ticks, which do not fly and are not drawn to UV light.',
   },
   {
     question: 'Which DynaTrap is best for mosquitoes?',
-    answer: 'The DT3050 ($249–$329) is the best DynaTrap for mosquito-specific use because it is the only model in the Canadian lineup that adds a dedicated mosquito-attractant fan on top of the UV lamp. Coverage rating is not the deciding factor — a bigger 1-acre unit draws insects from more yard but catches the same species mix. That said, even the DT3050 emits no CO₂, the cue biting female mosquitoes actually hunt by, so it remains a supplement rather than a mosquito-control plan. If your budget is the constraint and nuisance insects are the real problem, the half-acre DT1050 ($149–$199) is the right size for a typical GTA backyard.',
+    answer: 'No model has a separate mosquito feature in DynaTrap’s own FAQ, and its model list there has no DT3050 (checked October 28, 2026), so go by the model number on the box. What DynaTrap sells for mosquitoes is the Atrakta lure, which its FAQ says lasts about 8 weeks and is “designed to mimic the natural body odors of humans”; no Atrakta product appears in Health Canada’s registry, where attractant lures are pest control products. Coverage rating is not the deciding factor — a bigger 1-acre unit draws insects from more yard but catches the same species mix. If nuisance insects are the real problem, the half-acre size suits a typical GTA backyard.',
   },
   {
     question: 'Where to buy DynaTrap in Canada?',
@@ -39,11 +42,11 @@ const FAQS = [
   },
   {
     question: 'Do DynaTraps actually work for mosquitoes?',
-    answer: 'This is contested. DynaTrap markets the devices as mosquito traps using UV light + CO₂-mimicking fan suction. Independent research from the University of Florida (Day 2002) and Notre Dame (2017) found that UV-based traps catch overwhelmingly non-biting insects — moths, beetles, midges, and other flying insects make up 80–95% of trap catches. Mosquito catches are typically under 5% of total. Adding the Atrakta cartridge (which contains octenol) modestly improves mosquito attractiveness but DynaTraps remain significantly less effective for mosquitoes than CO₂-burning propane traps (Mosquito Magnet, BG-Mosquitaire). For a Canadian backyard, expect modest mosquito reduction at best.',
+    answer: 'This is contested. DynaTrap markets the devices as mosquito traps using UV light + CO₂-mimicking fan suction. The independent counts come from UV bug zappers, which use the same light cue, and they find overwhelmingly non-biting insects: mosquitoes were 4.1% and 6.4% of the daily catch in two University of Notre Dame yard studies (reported by the American Mosquito Control Association), and eight of some 10,000 insects in a 1997 University of Florida one-night test. Adding the Atrakta cartridge (which contains octenol) modestly improves mosquito attractiveness but DynaTraps remain significantly less effective for mosquitoes than CO₂-producing propane traps such as Mosquito Magnet. For a Canadian backyard, expect modest mosquito reduction at best.',
   },
   {
     question: 'DynaTrap vs Mosquito Magnet — which is better?',
-    answer: 'Mosquito Magnet ($400–$1,300, propane-powered, generates real CO₂) is significantly more effective at catching mosquitoes — independent testing shows it can meaningfully thin local populations over 6–8 weeks. DynaTrap ($80–$330, UV light + small fan, optional octenol cartridge) catches mostly non-biting insects with limited mosquito impact. If your goal is mosquito reduction specifically, Mosquito Magnet is the proven option despite higher cost. If you want a lower-cost device that catches some flying insects (and you don\'t mind that most aren\'t mosquitoes), DynaTrap is acceptable but should not be your primary mosquito-control strategy.',
+    answer: 'Mosquito Magnet (propane-powered, generates real CO₂, and a registered device in Canada) is aimed at the cue host-seeking mosquitoes actually follow, though the American Mosquito Control Association cautions against putting too much faith in traps as your sole means of control. DynaTrap (UV light + small fan, optional Atrakta lure) catches mostly non-biting insects with limited mosquito impact. If your goal is mosquito reduction specifically, Mosquito Magnet is the better-aimed option despite higher cost. If you want a lower-cost device that catches some flying insects (and you don\'t mind that most aren\'t mosquitoes), DynaTrap is acceptable but should not be your primary mosquito-control strategy.',
   },
   {
     question: 'Is DynaTrap safe for kids, pets, and pollinators?',
@@ -51,11 +54,11 @@ const FAQS = [
   },
   {
     question: 'How long do DynaTrap UV bulbs last?',
-    answer: 'DynaTrap UV bulbs are rated for ~3,000 hours of continuous operation, which works out to approximately 4 months of 24/7 use during the May–September Canadian outdoor season. The bulbs lose UV intensity gradually — by month 4 they\'re putting out about 50% of original UV output, which significantly reduces insect attraction. Replace bulbs at the start of each new season. Replacement bulbs cost $15–$25 each at Canadian Tire or direct from DynaTrap.',
+    answer: 'DynaTrap’s own FAQ says bulb life “varies depending on the model” and gives a simple test: hold a piece of paper near the bulb, and a soft blue glow means it is working. It also lists which bulb fits which trap: 32050 for the DT2000XL, 41050 for most half-acre traps, 43050 for the DT1700 series and 21050 for the Flylight, and says traps with the same coverage area mostly take the same bulb. Because a dimming bulb attracts fewer insects, replacing it at the start of each season is a sensible habit on a fluorescent unit. LED units, covered further down, are a different case.',
   },
   {
     question: 'Where should I place a DynaTrap in my yard?',
-    answer: 'DynaTrap recommends placement 10–12 metres (30–40 feet) from your seating area, in a shaded location during the day, near vegetation where mosquitoes rest, and at least 1 metre off the ground. The device should be on continuously (24/7) for best results — mosquitoes are most active at dawn and dusk, so turning it off when you\'re inside reduces effectiveness. Avoid placing directly under trees that drop leaves or sap (clogs the fan), in direct rain (most models are weather-resistant but extreme exposure shortens lifespan), or in areas with strong nighttime artificial light (competes with the UV).',
+    answer: 'DynaTrap’s FAQ says to place the trap 20–40 feet (about 6–12 metres) from your outdoor activity area and three to six feet (about 1–2 metres) off the ground; this page also suggests a shaded spot during the day, near vegetation where mosquitoes rest. The device should be on continuously (24/7) for best results — mosquitoes are most active at dawn and dusk, so turning it off when you\'re inside reduces effectiveness. Avoid placing directly under trees that drop leaves or sap (clogs the fan), in direct rain (most models are weather-resistant but extreme exposure shortens lifespan), or in areas with strong nighttime artificial light (competes with the UV).',
   },
   {
     question: 'How often do I need to clean a DynaTrap?',
@@ -83,7 +86,7 @@ const FAQS = [
   },
   {
     question: 'How does a DynaTrap work?',
-    answer: 'A DynaTrap works in two stages: a UV fluorescent bulb glows to attract flying insects, and a quiet fan then vacuums them down into a retaining basket where they dehydrate. Premium models add an Atrakta cartridge that releases octenol, a scent that mimics human breath to draw a few more mosquitoes. Critically, a DynaTrap produces no CO₂ — the main cue biting female mosquitoes hunt by — so it catches mostly moths, beetles, and midges rather than mosquitoes.',
+    answer: 'A DynaTrap works in two stages: a UV fluorescent bulb glows to attract flying insects, and a quiet fan then vacuums them down into a retaining basket where they dehydrate. Premium models add an Atrakta cartridge that releases octenol, a scent that mimics human breath to draw a few more mosquitoes. Critically, DynaTrap gives no figure for the carbon dioxide it says the trap creates — CO₂ is the main cue biting female mosquitoes hunt by — and it catches mostly moths, beetles, and midges rather than mosquitoes.',
   },
   {
     question: 'Does a DynaTrap work during the day?',
@@ -91,7 +94,7 @@ const FAQS = [
   },
   {
     question: 'Is a DynaTrap worth it?',
-    answer: 'It depends on your goal. As a mosquito solution, a DynaTrap is not worth it for most Canadian backyards — independent studies show roughly 95% of its catch is non-biting moths and beetles, with mosquitoes under 5%. As a general flying-insect catcher for a cottage deck, it can be worth the $80–$330 if you know what to expect. For real mosquito relief, professional barrier spray or a CO₂ propane trap delivers far more per dollar.',
+    answer: 'It depends on your goal. As a mosquito solution, a DynaTrap is not worth it for most Canadian backyards — the published counts for UV-attraction devices put mosquitoes at a small share of the catch (4.1% and 6.4% in two Notre Dame zapper studies), and Reviewed.com’s 14-day DynaTrap test concluded “No, this does not effectively reduce outdoor pests.” As a general flying-insect catcher for a cottage deck, it can be worth it if you know what to expect. For real mosquito relief, professional barrier spray or a CO₂ propane trap delivers far more per dollar.',
   },
   {
     question: 'Why does a DynaTrap have to be 20 feet away?',
@@ -115,7 +118,7 @@ const FAQS = [
   },
   {
     question: 'Does a DynaTrap really produce CO₂?',
-    answer: 'DynaTrap markets a three-way system: UV light, a fan, and a titanium-dioxide (TiO₂) coated surface described as photocatalytically releasing a trace of carbon dioxide to mimic human breath. Testing at the University of Wisconsin detected no CO₂ coming off that surface. That finding is the crux of this review: CO₂ is the primary cue a biting female mosquito hunts by, and even if a trace were present it would be dwarfed by an actual person breathing 20 feet away. Treat the third way as marketing language rather than a working mechanism — the light and the fan are the two ingredients that are real.',
+    answer: 'DynaTrap markets a three-way system: UV light, a fan, and a titanium-dioxide (TiO₂) coated surface described as photocatalytically releasing a trace of carbon dioxide to mimic human breath. DynaTrap’s FAQ says the trap “mimics all of these factors with its creation of carbon dioxide” but gives no amount, and the only measurement cited online, a University of Wisconsin test reported by MosquitoReviews.com, reportedly detected none; we could not find the original report, so treat that result as unconfirmed. Either way, CO₂ is the primary cue a biting female mosquito hunts by, and even if a trace were present it would be dwarfed by an actual person breathing 20 feet away. Treat the third way as marketing language rather than a working mechanism — the light and the fan are the two ingredients that are real.',
   },
   {
     question: 'Do DynaTrap LED models need bulb replacement?',
@@ -144,13 +147,21 @@ const FAQS = [
   // source: https://www.dynatrap.com/faq and https://www.dynatrap.com/how-it-works
   {
     question: 'What is a DynaTrap?',
-    answer: 'A DynaTrap is a UV-plus-fan insect trap made by Dynamic Solutions Worldwide: a lamp generates UV rays to attract flying insects, a fan draws them into the trap and a damper keeps them in the catch basket, where they dehydrate. The Canadian-market range runs from the small DT150 to the full-acre DT3050, no model uses an insecticide, and the manufacturer\'s own FAQ says to place the trap 20–40 feet from your outdoor activity area, three to six feet off the ground, and leave it on 24 hours a day except during cleaning.',
+    answer: 'A DynaTrap is a UV-plus-fan insect trap made by Dynamic Solutions Worldwide: a lamp generates UV rays to attract flying insects, a fan draws them into the trap and a damper keeps them in the catch basket, where they dehydrate. The Canadian-market range runs from the small DT150 to full-acre units, no model uses an insecticide, and the manufacturer\'s own FAQ says to place the trap 20–40 feet from your outdoor activity area, three to six feet off the ground, and leave it on 24 hours a day except during cleaning.',
+  },
+  {
+    question: 'Is DynaTrap registered in Canada?',
+    answer: 'We could not find it. Under the Pest Control Products Regulations, a device sold to attract or destroy flying insects is a pest control product (Schedule 1, item 2), and the exemption from registration in Schedule 2 is written for CSA-certified high-voltage insect killers, whose outdoor label must say “This device does not control blackflies, mosquitoes or other biting flies.” Health Canada’s registry, searched October 28, 2026, lists no DynaTrap model and no Atrakta lure, while it does list comparable devices such as the Zevo Flying Insect Trap (Reg. No. 36155) and Mosquito Magnet Patriot Plus (32375). Before buying, ask the seller for the Canadian registration number.',
+  },
+  {
+    question: 'How long does a DynaTrap take to work?',
+    answer: 'DynaTrap’s own FAQ says its traps “reach maximum effectiveness after 6-8 weeks when the insect life cycle is broken”, and that the trap should run 24 hours a day, seven days a week, except during cleaning. That timeline is the maker’s claim, not a measured result. The hands-on tests point the other way for bites: Reviewed.com ran a DT1050 for 14 days, about 10 feet from the seats, and the tester was still bitten within about five minutes of sitting down.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'A DynaTrap review built on independent trap studies and third-party hands-on tests: what it really catches, which model to buy, and what works better in Canada.',
+  description: 'Does DynaTrap work? Mostly moths, few mosquitoes. The Reviewed.com and Bob Vila tests, DynaTrap’s own placement rules, and what Health Canada’s registry shows.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -175,7 +186,7 @@ export default function DynaTrapCanadaPage() {
             <span className="text-white">Do DynaTraps Work?</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Short answer: they work as flying-insect catchers, and only marginally as mosquito traps. Here is what the independent research found, what a DynaTrap actually pulls out of a Canadian backyard, and what to buy instead if mosquitoes are the problem.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> DynaTrap reviews split the way the research does. The basket fills with moths and other night fliers; mosquitoes are a small share, and Reviewed.com&rsquo;s 14-day test concluded &ldquo;No, this does not effectively reduce outdoor pests.&rdquo; If you want one for a deck anyway, the half-acre size suits a typical lot, hung 20&ndash;40 feet from where you sit and 3&ndash;6 feet up (DynaTrap&rsquo;s FAQ). In Canada, note that no DynaTrap model or Atrakta lure appears in Health Canada&rsquo;s pest control registry.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -189,14 +200,14 @@ export default function DynaTrapCanadaPage() {
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">
-              <strong>Yes as a flying-insect catcher, barely as a mosquito trap.</strong> Independent studies find 80–95% of what a UV-plus-fan trap catches is non-biting moths, beetles, and midges, with mosquitoes under 5%. If mosquitoes are your goal and you still want a DynaTrap, the DT3050 ($249–$329) is the only model with a dedicated mosquito-attractant fan; the half-acre DT1050 ($149–$199) is the cheaper right-size pick if you mostly want moths and beetles off the deck. For actual mosquito reduction in a GTA yard, a professional barrier spray or a CO₂ propane trap delivers far more per dollar.
+              <strong>Yes as a flying-insect catcher, barely as a mosquito trap.</strong> The published counts for devices that lure with UV light put mosquitoes at a small share of the catch (4.1% and 6.4% of the daily catch in two University of Notre Dame zapper studies, reported by the American Mosquito Control Association), and the hands-on DynaTrap tests found the same: mostly moths, and bites continuing. If you mostly want moths and beetles off the deck, the half-acre DT1050 is the right-size pick for a typical GTA backyard. For actual mosquito reduction in a GTA yard, a professional barrier spray or a CO₂ propane trap is better aimed.
             </p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Independent University of Florida and Notre Dame studies find mosquitoes are under 5% of a UV trap&rsquo;s catch — 80–95% is moths, beetles, and midges.</li>
-              <li>A DynaTrap produces no CO₂, the main cue biting female mosquitoes hunt by; the Atrakta octenol cartridge only helps modestly.</li>
-              <li>The half-acre DT1050 ($149–$199) suits a typical GTA backyard; the 1-acre DT2030 ($199–$279) is for cottage lots.</li>
-              <li>UV bulbs are rated ~3,000 hours (about 4 months of 24/7 use) and drop to ~50% output by month 4 — replace each season.</li>
-              <li>First-year cost for a DT2030 with cartridges and bulbs runs about $290–$380.</li>
+              <li>Two University of Notre Dame zapper studies (AMCA): mosquitoes were 4.1% and 6.4% of the daily catch; a DynaTrap draws insects with the same UV cue.</li>
+              <li>DynaTrap says the trap creates carbon dioxide but gives no amount; the only test cited online reportedly found none, and we could not find its original report.</li>
+              <li>The half-acre DT1050 suits a typical GTA backyard; the 1-acre DT2030 is for cottage lots.</li>
+              <li>DynaTrap&rsquo;s FAQ: run it 24 hours a day, 20&ndash;40 feet from people and 3&ndash;6 feet up; bulb life varies by model; each Atrakta lure lasts about 8 weeks.</li>
+              <li>In Canada, no DynaTrap model or Atrakta lure appears in Health Canada&rsquo;s registry (October 28, 2026), though comparable light traps and mosquito traps are registered as devices.</li>
               <li><strong>Availability note (checked September 2026):</strong> Amazon.ca currently lists only the DT1130-CA (half acre) and a quarter-acre portable &mdash; searching the DT3050 there returns replacement bulbs and glue cards, not the trap. For the DT3050 or DT2030, check Canadian Tire, Home Depot or Costco rather than Amazon.</li>
               <li>DynaTraps do nothing for ticks, which do not fly to UV light.</li>
             </ul>
@@ -221,12 +232,12 @@ export default function DynaTrapCanadaPage() {
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Do DynaTrap mosquito traps work?</h3>
           <p className="text-[15px] text-gray-700 leading-relaxed mb-4">
-            Only marginally, and the reason is built into the physics. Biting female mosquitoes hunt by <strong>CO₂, body heat, lactic acid, and skin scent</strong> — not by light. A DynaTrap emits no CO₂ at all. Its UV lamp is a powerful cue for moths (which navigate by light), beetles, midges, and mayflies, and a weak one for the insect you actually bought it for. Independent trap research from the University of Florida (Day, 2002) and Notre Dame (2017) consistently found mosquitoes making up under 5% of a UV trap&rsquo;s catch, with 80–95% being non-biting species. The Atrakta cartridge adds octenol, a synthetic stand-in for human breath, which nudges the mosquito share upward — but it does not close the gap with a <Link href="/blog/propane-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">propane trap that burns real CO₂</Link>.
+            Only marginally, and the reason is built into the physics. Biting female mosquitoes hunt by <strong>CO₂, body heat, lactic acid, and skin scent</strong> — not by light. DynaTrap says the trap creates carbon dioxide but gives no amount (more on that below). Its UV lamp is a powerful cue for moths (which navigate by light), beetles, midges, and mayflies, and a weak one for the insect you actually bought it for. The independent counts for UV-attraction devices are bug zapper studies: two University of Notre Dame yard studies, reported by the American Mosquito Control Association, found mosquitoes were 4.1% and 6.4% of the daily catch, and a 1997 University of Florida one-night test found eight mosquitoes among some 10,000 insects one zapper killed. The Atrakta cartridge adds octenol, a synthetic stand-in for human breath, which nudges the mosquito share upward — but it does not close the gap with a <Link href="/blog/propane-mosquito-trap-canada" className="text-emerald-700 underline font-semibold">propane trap that burns real CO₂</Link>.
           </p>
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Are DynaTraps any good?</h3>
           <p className="text-[15px] text-gray-700 leading-relaxed mb-3">
-            Judged as the product it actually is, rather than the product it is advertised as, a DynaTrap is a decent general flying-insect catcher. Judged as mosquito control, it is a poor use of $150–$330. The honest split:
+            Judged as the product it actually is, rather than the product it is advertised as, a DynaTrap is a decent general flying-insect catcher. Judged as mosquito control, it is a poor use of money. The honest split:
           </p>
           <div className="grid gap-4 sm:grid-cols-2 mb-4">
             <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-4">
@@ -246,6 +257,29 @@ export default function DynaTrapCanadaPage() {
               </ul>
             </div>
           </div>
+
+          <QuickIdTable
+            title="DynaTrap and the alternatives, on the record"
+            head={['Device', 'How it works (source)', 'What the evidence says', 'Canadian status']}
+            rows={[
+              ['DynaTrap (UV light and fan)', 'A UV light draws insects and a fan pulls them into a basket; DynaTrap says it also creates carbon dioxide, without giving an amount (DynaTrap FAQ)', 'Reviewed.com, 14 days: “No, this does not effectively reduce outdoor pests”; Bob Vila’s tester: mostly moths, some honey bees', 'No DynaTrap model in Health Canada’s registry (October 28, 2026)'],
+              ['Atrakta lure', 'A sachet “designed to mimic the natural body odors of humans”, about 8 weeks each (DynaTrap FAQ)', 'DynaTrap says it can increase the number of insects attracted', 'No Atrakta product in the registry; registered octenol lures include Flowtron (28456), Mosquito Magnet (28440) and PIC (35935)'],
+              ['UV bug zapper (grid)', 'A UV light draws insects onto a high-voltage grid', 'Mosquitoes 4.1% and 6.4% of the daily catch; no significant difference in yard mosquito numbers (AMCA)', 'Sold unregistered only if CSA-certified and labelled “This device does not control blackflies, mosquitoes or other biting flies”'],
+              ['Registered plug-in light trap', 'Light draws flying insects onto the trap', 'Built for flies and gnats indoors', 'Registered devices, e.g. Zevo Flying Insect Trap (36155), STEM (35296), PIC (35911)'],
+              ['Propane CO₂ trap', 'A propane burner gives off carbon dioxide, the cue host-seeking mosquitoes follow', 'AMCA: “Please be cautioned against putting too much faith in traps as your sole means of control”', 'Registered devices, e.g. Mosquito Magnet Patriot Plus (32375), SkeeterVac SV-15 (28452)'],
+              ['Area repellent (Thermacell)', 'Releases a repellent around a seating area', 'Protects a zone; removes nothing', 'Registered, e.g. Thermacell Mosquito Area Repellent II Lantern (33199)'],
+            ]}
+            caption={<>From DynaTrap&rsquo;s <a href="https://www.dynatrap.com/faq" target="_blank" rel="noopener noreferrer" className="underline">FAQ</a> (read October 28, 2026); Reviewed.com&rsquo;s <a href="https://reviewed.com/home-outdoors/content/dynatrap-mosquito-and-insect-trap-review" target="_blank" rel="noopener noreferrer" className="underline">DynaTrap review</a> (updated May 3, 2024); Bob Vila&rsquo;s <a href="https://www.bobvila.com/articles/dynatrap-insect-trap-review/" target="_blank" rel="noopener noreferrer" className="underline">DynaTrap test</a> (July 31, 2023); the AMCA <a href="https://www.mosquito.org/faqs/" target="_blank" rel="noopener noreferrer" className="underline">FAQ</a>; the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/page-11.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Regulations</a>, Schedules 1 and 2; and Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a>, searched October 28, 2026. BuzzSkito has not tested these devices.</>}
+          />
+
+          <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Which one for your situation</h3>
+          <ul className="text-[15px] text-gray-700 leading-relaxed mb-4 list-disc pl-5 space-y-1.5">
+            <li><strong>Moths and midges around a cottage deck or dock light:</strong> a UV trap like a DynaTrap does that job; hang it 20&ndash;40 feet from where you sit, 3&ndash;6 feet up, and run it around the clock, as DynaTrap&rsquo;s FAQ says.</li>
+            <li><strong>Bites on the deck tonight:</strong> a registered area repellent for the seating area, or a registered skin repellent, not a trap.</li>
+            <li><strong>Fewer mosquitoes across the yard:</strong> empty standing water, then a licensed treatment of the vegetation where they rest.</li>
+            <li><strong>Flies in the house:</strong> a registered plug-in light trap.</li>
+            <li><strong>Ticks:</strong> no trap of any kind; ticks do not fly.</li>
+          </ul>
 
           <h3 className="text-lg font-extrabold text-brand-900 mt-6 mb-2">Does a DynaTrap really work for mosquitoes in a Canadian backyard?</h3>
           <p className="text-[15px] text-gray-700 leading-relaxed mb-4">
@@ -349,7 +383,7 @@ export default function DynaTrapCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-rose-50 border-l-4 border-rose-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-rose-900">⚠️ Independent research finds DynaTraps catch mostly non-biting insects.</strong> University studies show 80–95% of catches are moths, beetles, and other flying insects — not mosquitoes. If mosquito-specific reduction is your goal, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> ($99/treatment) or <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> are far more effective. DynaTrap can supplement other strategies but shouldn&rsquo;t be your primary mosquito control.
+              <strong className="text-rose-900">⚠️ Independent research finds UV traps catch mostly non-biting insects.</strong> In two University of Notre Dame zapper studies reported by the AMCA, mosquitoes were 4.1% and 6.4% of the daily catch; the rest were moths, beetles, and other flying insects. If mosquito-specific reduction is your goal, <Link href="/mosquito-control" className="text-emerald-700 underline font-semibold">professional barrier spray</Link> ($99/treatment) or <Link href="/blog/mosquito-magnet-canada">Mosquito Magnet</Link> are far more effective. DynaTrap can supplement other strategies but shouldn&rsquo;t be your primary mosquito control.
             </p>
           </div>
         </div>
@@ -363,14 +397,15 @@ export default function DynaTrapCanadaPage() {
               <tbody>
                 {[
                   ['Mechanism', 'UV light attracts insects → fan vacuums into catch basket'],
-                  ['Adds CO₂?', 'No (cartridge adds octenol scent only)'],
-                  ['Mosquito catch percentage', '~5% of total catch (UF & Notre Dame studies)'],
-                  ['Non-target catch', 'Moths, beetles, midges (~80–95% of catches)'],
+                  ['Adds CO₂?', 'DynaTrap says yes but gives no amount; the one test cited online reportedly found none'],
+                  ['Mosquito catch percentage', '4.1% and 6.4% of the daily catch in two Notre Dame zapper studies (AMCA); no DynaTrap-specific count found'],
+                  ['Non-target catch', 'Moths, beetles, midges (the bulk of the catch)'],
                   ['Coverage', '300 sq ft – 1 acre depending on model'],
-                  ['Power', 'Plug-in 110V (most models) · LED runtime ~3,000 hours'],
+                  ['Power', 'Plug-in 110V (most models); DynaTrap says bulb life varies by model'],
                   ['Tick effectiveness', 'None — ticks don\'t fly to UV'],
                   ['Annual operating cost', '$90–$150 (cartridges + bulbs)'],
-                  ['Models in Canada', 'DT150, DT1050, DT2030, DT3050'],
+                  ['Models in Canada', 'DT150, DT1050, DT2030; check the box, since DynaTrap’s own FAQ model list has no DT3050'],
+                  ['Health Canada registry', 'No DynaTrap model or Atrakta lure listed (searched October 28, 2026)'],
                   ['Price range', '$79 (DT150) – $499 (commercial)'],
                   ['Pollinator impact', 'Negative — kills moths, beetles indiscriminately'],
                   ['Best application', 'Cottage decks, supplemental flying-insect catch'],
@@ -396,7 +431,7 @@ export default function DynaTrapCanadaPage() {
           </div>
 
           <h2 id="models">DynaTrap Models Compared: DT3050 vs DT2030 vs DT1050</h2>
-          <p>Two numbers matter, and most buyers only look at one of them. <strong>Coverage</strong> tells you how much yard the trap draws from — the DT1050 is a half-acre unit sized for a typical GTA backyard, while the DT1100, DT2030, and DT3050 are full-acre units for large lots and cottage properties. But coverage does not change the species mix. The only spec that shifts the mosquito share at all is the <strong>attractant fan</strong>, and the DT3050 is the sole Canadian model that has one. The table below is ordered by mosquito suitability rather than price:</p>
+          <p>Two numbers matter, and most buyers only look at one of them. <strong>Coverage</strong> tells you how much yard the trap draws from — the DT1050 is a half-acre unit sized for a typical GTA backyard, while the DT1100, DT2030, and DT3050 are full-acre units for large lots and cottage properties. But coverage does not change the species mix. The one add-on DynaTrap itself sells for mosquitoes is the <strong>Atrakta lure</strong> (about 8 weeks per lure, its FAQ says); its FAQ describes no model with a separate attractant fan and lists no DT3050 (checked October 28, 2026), so confirm the model number on the box before you buy. The table below is ordered by mosquito suitability rather than price:</p>
           <div className="not-prose my-6 overflow-x-auto rounded-xl border border-navy-100 shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
               <thead className="bg-brand-800 text-white">
@@ -485,7 +520,7 @@ export default function DynaTrapCanadaPage() {
               </tbody>
             </table>
           </div>
-          <p>Two honest notes before you size up. First, the 1-acre rating assumes open, unobstructed air — fences, hedges, and buildings shrink real-world coverage, so a heavily treed lot behaves more like a half-acre one. Second, <strong>bigger coverage does not mean a better mosquito catch</strong>: the XL units pull in more insects in total, but the species mix is the same ~5% mosquitoes / 95% moths-and-beetles that every UV trap produces. Buy the XL because your property is genuinely large, not because you expect it to fix a mosquito problem the DT1050 couldn&rsquo;t. Bulb cadence is identical across the range — swap the UV lamp at the start of every season, since output falls to about half by month four.</p>
+          <p>Two honest notes before you size up. First, the 1-acre rating assumes open, unobstructed air — fences, hedges, and buildings shrink real-world coverage, so a heavily treed lot behaves more like a half-acre one. Second, <strong>bigger coverage does not mean a better mosquito catch</strong>: the XL units pull in more insects in total, but the species mix is the same mostly-moths-and-beetles catch that every UV trap produces. Buy the XL because your property is genuinely large, not because you expect it to fix a mosquito problem the DT1050 couldn&rsquo;t. On fluorescent units, swapping the UV lamp at the start of every season is the sensible habit; DynaTrap&rsquo;s FAQ says bulb life varies by model and suggests holding a piece of paper near the bulb: a soft blue glow means it is working.</p>
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices on the 1-acre models:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="dynatrap dt2030 1 acre">Check DT2030 (1-acre) price on Amazon.ca →</BuyLink>
@@ -494,25 +529,25 @@ export default function DynaTrapCanadaPage() {
 
           <div className="not-prose my-6 rounded-xl bg-emerald-50 border-l-4 border-emerald-500 p-5">
             <p className="text-sm font-extrabold text-emerald-900 mb-1">Do DynaTraps actually work? The honest answer.</p>
-            <p className="text-sm text-gray-800 leading-relaxed">Yes — as <em>flying-insect</em> catchers. As <em>mosquito</em> traps, only marginally. Peer-reviewed testing (University of Florida; Notre Dame) puts mosquitoes at roughly 5% of what a UV trap catches — the other 95% is moths, beetles, and midges. The Atrakta cartridge helps a little; it does not close the gap with CO₂ propane traps. For real mosquito relief in a GTA yard, pair a trap with <Link href="/mosquito-control">professional barrier spray</Link> — whole-yard, re-applied through the season, with tick treatment available as an add-on; ticks are something no DynaTrap touches.</p>
+            <p className="text-sm text-gray-800 leading-relaxed">Yes — as <em>flying-insect</em> catchers. As <em>mosquito</em> traps, only marginally. Published counts for UV-attraction devices (two University of Notre Dame zapper studies, reported by the AMCA) put mosquitoes at 4.1% and 6.4% of the daily catch — the rest is moths, beetles, and midges. The Atrakta cartridge helps a little; it does not close the gap with CO₂ propane traps. For real mosquito relief in a GTA yard, pair a trap with <Link href="/mosquito-control">professional barrier spray</Link> — whole-yard, re-applied through the season, with tick treatment available as an add-on; ticks are something no DynaTrap touches.</p>
           </div>
 
           <h2 id="what-is-a-dynatrap">What Is a DynaTrap?</h2>
           {/* source: https://www.dynatrap.com/how-it-works */}
-          <p><strong>A DynaTrap is a UV-plus-fan insect trap made by Dynamic Solutions Worldwide: a lamp generates UV rays to attract flying insects, a fan draws them into the trap and a damper keeps them in the catch basket, where they dehydrate.</strong> The Canadian-market range runs from the small DT150 up through the half-acre DT1050 and the full-acre DT1100, DT2030 and DT3050, and the brand also sells indoor units such as the Flylight. No model uses an insecticide No model uses an insecticide &mdash; the Atraktamdash; the Atrakta cartridge on the premium units adds octenol scent only.</p>
+          <p><strong>A DynaTrap is a UV-plus-fan insect trap made by Dynamic Solutions Worldwide: a lamp generates UV rays to attract flying insects, a fan draws them into the trap and a damper keeps them in the catch basket, where they dehydrate.</strong> The Canadian-market range runs from the small DT150 up through the half-acre DT1050 and the full-acre DT1100, DT2030 and DT3050, and the brand also sells indoor units such as the Flylight. No model uses an insecticide &mdash; the Atrakta lure, an optional add-on, is a scent sachet that DynaTrap says is &ldquo;designed to mimic the natural body odors of humans&rdquo;.</p>
           {/* source: https://www.dynatrap.com/faq */}
           <p>DynaTrap markets the devices as mosquito traps, and its own FAQ sets the operating rules: place the trap 20&ndash;40 feet from your outdoor activity area, three to six feet off the ground, and leave it on 24 hours a day except during cleaning. DynaTrap reviews from hands-on testers and owners, summarised further down, land on the same split this page does: the basket fills with moths, gnats, midges and beetles, and mosquitoes are a single-digit share of the catch. BuzzSkito has not lab-tested a DynaTrap; this review is built on independent trap studies, third-party hands-on tests and the manufacturer&rsquo;s own operating guidance. For insects inside the house rather than in the yard, see our guide to the <Link href="/blog/best-indoor-fly-mosquito-trap-canada">best indoor fly and mosquito traps in Canada</Link>.</p>
 
           <h2>How the DynaTrap Mosquito Trap Works (and Why That Matters)</h2>
           <p>DynaTrap uses two ingredients: a UV light to attract insects, and a small fan to suck them into a catch basket where they dehydrate. The premium models add an Atrakta cartridge that releases octenol — a synthetic version of human breath/sweat compounds.</p>
           <p>The problem is fundamental: UV light attracts MANY species of flying insects, but most mosquitoes are <strong>not</strong> primarily UV-attracted. Female mosquitoes (the ones that bite) hunt for blood meals using CO₂, body heat, lactic acid, and skin scent — not light. UV light primarily attracts moths (which use it for navigation), beetles, midges, mayflies, and other phototactic species.</p>
-          <p>This is why University of Florida and Notre Dame studies consistently find DynaTrap-style devices catching 5% mosquitoes and 95% &ldquo;everything else.&rdquo; The Atrakta octenol cartridge modestly improves mosquito catch, but it&rsquo;s still well below <Link href="/blog/co2-mosquito-trap-canada">CO₂-generating</Link> <Link href="/blog/propane-mosquito-trap-canada">propane traps</Link>. A newer category skips the lure problem altogether: <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito zappers</Link> detect and shoot individual mosquitoes rather than trying to attract them, which trades the poor catch ratio for a range and line-of-sight limit instead.</p>
+          <p>This is why the bug zapper counts that use the same UV cue find so few mosquitoes: 4.1% and 6.4% of the daily catch in the two University of Notre Dame studies the AMCA reports, and eight of some 10,000 insects in a 1997 University of Florida one-night test. We found no published count for a DynaTrap fan trap itself. DynaTrap says adding the Atrakta lure can increase the number of insects attracted, but it&rsquo;s still well below <Link href="/blog/co2-mosquito-trap-canada">CO₂-generating</Link> <Link href="/blog/propane-mosquito-trap-canada">propane traps</Link>. A newer category skips the lure problem altogether: <Link href="/blog/laser-mosquito-killer-photon-matrix-review">laser mosquito zappers</Link> detect and shoot individual mosquitoes rather than trying to attract them, which trades the poor catch ratio for a range and line-of-sight limit instead.</p>
           <p>How mosquitoes actually find people, and what lab and field research says about light and bug zappers, is laid out in <Link href="/blog/are-mosquitoes-attracted-to-light">how mosquitoes respond to light</Link>.</p>
 
           <h2 id="three-way-co2-claim">The &ldquo;3-Way&rdquo; CO₂ Claim: What DynaTrap Says, and What Testing Found</h2>
-          <p>Everything above says a DynaTrap emits no CO₂. It is worth stating plainly what the manufacturer actually claims, because the claim is more specific than &ldquo;UV and a fan&rdquo; and deserves to be answered on its own terms rather than ignored.</p>
+          <p>Everything above treats a DynaTrap as a light-and-fan trap. It is worth stating plainly what the manufacturer actually claims, because the claim is more specific than &ldquo;UV and a fan&rdquo; and deserves to be answered on its own terms rather than ignored.</p>
           <p>DynaTrap markets the outdoor units as a <strong>three-way</strong> system. Way one is the UV lamp. Way two is the whisper-quiet fan. Way three is a <strong>titanium-dioxide (TiO₂) coated surface</strong>, described as photocatalytically releasing a trace amount of carbon dioxide to mimic human breath. Retailer listings and hands-on reviews repeat this third mechanism almost word for word, which is why so many buyers arrive believing the unit does produce CO₂.</p>
-          <p><strong>Testing at the University of Wisconsin detected no CO₂ coming off that photocatalytic surface.</strong> That is the single most important sentence for anyone weighing this purchase. Even setting the measurement aside, the arithmetic does not work: a resting adult exhales carbon dioxide continuously and in quantities orders of magnitude beyond anything a coated plastic panel could photocatalyse, so a person sitting 20 feet away would out-signal the trap regardless. The light is real. The fan is real. The third way is the part that does not survive measurement — and it is the only one of the three that would have mattered to a biting female mosquito.</p>
+          <p><strong>DynaTrap&rsquo;s own FAQ says the trap &ldquo;mimics all of these factors with its creation of carbon dioxide&rdquo;, but gives no amount.</strong> The only measurement cited online is a University of Wisconsin test, reported by MosquitoReviews.com, that reportedly detected no CO₂ from that photocatalytic surface; we could not find the original report, so treat that result as unconfirmed. Even setting the measurement aside, the arithmetic does not work: a resting adult exhales carbon dioxide continuously and in quantities orders of magnitude beyond anything a coated plastic panel could photocatalyse, so a person sitting 20 feet away would out-signal the trap regardless. The light is real. The fan is real. The third way is the part nobody has shown to work — and it is the only one of the three that would have mattered to a biting female mosquito.</p>
           <p>This is not a reason to think the device is fraudulent. It is a reason to buy it for what it demonstrably does — vacuum phototactic flying insects out of the air — rather than for the mechanism printed on the box.</p>
 
           <h2 id="does-dynatrap-actually-work">Does DynaTrap Actually Work? What Independent Hands-On Testers Reported</h2>
@@ -551,9 +586,14 @@ export default function DynaTrapCanadaPage() {
             </table>
           </div>
           <p>Read the two published tests together and a useful nuance appears. Bob Vila scored the unit well <em>as a machine</em> — it is quiet, it builds a full basket, it does what a fan and a lamp can do. Reviewed reached the opposite verdict because it asked a different question: did the number of bites go down? Both can be true at once, and both are consistent with the university trap research. The device works; the marketing category is wrong.</p>
+          <Photo
+            id="honey-bee-on-flower"
+            alt="A western honey bee on a white flower"
+            caption="A western honey bee, Apis mellifera, on a white flower (Gurnee, Illinois). Bob Vila’s tester found honey bees caught and dead in the DynaTrap’s basket, alongside mostly moths."
+          />
 
           <h3>What the US agencies and university studies say</h3>
-          <p>The Canadian-facing sections above cite the University of Florida (Day, 2002) and Notre Dame work in general terms. For US readers, the <strong>American Mosquito Control Association (AMCA)</strong> — the primary US professional body — publishes the same conclusion in harder numbers:</p>
+          <p>The Canadian-facing sections above cite the University of Florida (1997) and Notre Dame work in general terms. For US readers, the <strong>American Mosquito Control Association (AMCA)</strong> — the primary US professional body — publishes the same conclusion in harder numbers:</p>
           <ul>
             <li><strong>4.1% and 6.4%.</strong> Two University of Notre Dame studies found mosquitoes made up only those shares of the daily catch across an entire season.</li>
             <li><strong>0.13%.</strong> The share of insects killed that were female mosquitoes — the only ones that bite.</li>
@@ -585,6 +625,16 @@ export default function DynaTrapCanadaPage() {
           <p><strong>Yes.</strong> DynaTrap is built for continuous 24/7 operation, and the unit only lowers local flying-insect numbers if it is running through the dawn and dusk windows when the American Mosquito Control Association notes most species are most active. Switching it on only when you step outside draws insects to you at the worst possible moment.</p>
           <p>The mechanism is cumulative, not instant. A trap that has been running for three weeks has removed three weeks of emerging adults from the immediate area; a trap switched on at 7pm has removed nothing and is, for the first hour, a net attractant. That is the single most common self-inflicted failure with this product category.</p>
           <p>Two practical notes. First, running costs are small — the current LED line draws less than the older fluorescent generation, and even continuous operation is a low-single-digit dollar figure per month in most US markets. Second, continuous operation is what drives the maintenance cadence: empty the basket every one to two weeks in peak season (every two to three weeks on the larger units, which have bigger baskets), because a packed basket reduces airflow and a reduced airflow reduces catch. If you are in a region where the unit runs nine months rather than five, scale the cleaning and lure budget accordingly.</p>
+
+          <h3>DynaTrap Buyer&rsquo;s Checklist</h3>
+          <ol>
+            <li><strong>The model number on the box.</strong> DynaTrap&rsquo;s FAQ names models such as the DT2000XL, DT2000XLP, DT1775 and the DT1700 series; it lists no DT3050.</li>
+            <li><strong>Which bulb it takes.</strong> 32050 for the DT2000XL, 41050 for most half-acre traps, 43050 for the DT1700 series, 21050 for the Flylight (DynaTrap FAQ); LED units are covered below.</li>
+            <li><strong>A spot 20&ndash;40 feet from where you sit and 3&ndash;6 feet up,</strong> as DynaTrap specifies, with an outdoor-rated cord to reach it.</li>
+            <li><strong>Round-the-clock running and patience.</strong> DynaTrap says to leave it on 24 hours a day and that its traps reach maximum effectiveness after 6&ndash;8 weeks.</li>
+            <li><strong>The lure question.</strong> Each Atrakta lure lasts about 8 weeks, DynaTrap says, but no Atrakta product appears in Health Canada&rsquo;s registry; check any lure for a PCP number.</li>
+            <li><strong>The Canadian registration.</strong> Ask the seller for the PCP number; we found no DynaTrap model in Health Canada&rsquo;s registry on October 28, 2026.</li>
+          </ol>
 
           <h2 id="costco-owner-opinion">What Are People Saying About the DynaTrap Insect Trap at Costco?</h2>
           <p><strong>Owner threads land in roughly the same place.</strong> Reddit, Houzz, Facebook groups and retailer review tabs consistently report a basket that fills fast — mostly moths, gnats and midges — and mosquito counts that disappoint. Buyers who wanted a general flying-insect catcher are usually happy; buyers who wanted fewer bites usually are not.</p>
@@ -814,6 +864,11 @@ export default function DynaTrapCanadaPage() {
             </table>
           </div>
           <p>Read the first row again, because it is the sharpest version of everything on this page. <strong>The mosquito that carries the most common mosquito-borne disease in the continental United States is the one a light trap is worst at catching.</strong> Culex hunts by carbon dioxide and body odour in the dark; a device whose sole long-range signal is ultraviolet light is bidding in a currency Culex does not spend. The trap will still fill with moths. It is not selecting for the genus that matters.</p>
+          <Photo
+            id="culex-quinquefasciatus-female"
+            alt="A female southern house mosquito at rest"
+            caption="A female southern house mosquito, Culex quinquefasciatus, at rest (CDC photograph). Culex mosquitoes spread West Nile virus, the most common mosquito-borne disease in the continental United States, according to the CDC."
+          />
           <p>The practical consequence: if your reason for buying is disease risk rather than nuisance, a UV trap is not the tool. Source reduction (eliminating standing water, since Culex breeds readily in containers and catch basins), personal repellent use, and a residual treatment of the resting vegetation are the interventions that act on the actual vector. In Canada the same logic applies with a narrower species list; in the US it applies with a longer one and a longer season.</p>
           <p className="not-prose text-sm text-gray-600 mb-2">Source reduction has a product attached to it for the water you cannot tip out &mdash; rain barrels, ornamental ponds, a blocked catch basin, the low corner that holds water for a week after rain. Bti larvicide treats those directly and is the cheapest intervention on this page by a wide margin.</p>
           <div className="not-prose mb-6">
@@ -858,7 +913,7 @@ export default function DynaTrapCanadaPage() {
           <p>This is a US-only regulatory point, and it explains something that confuses a lot of buyers: how a device can be sold nationwide as a mosquito trap without anyone having verified that it reduces mosquito bites.</p>
           <p>Under <strong>FIFRA</strong> (the Federal Insecticide, Fungicide, and Rodenticide Act), the EPA draws a line between a <em>pesticide</em> and a <em>pesticide device</em>. A pesticide contains an active ingredient and must be registered with the EPA before sale, which means submitting efficacy and safety data for review. A <strong>device</strong> kills or traps pests by physical or mechanical means — light, suction, electrocution, sound — and contains no active ingredient. Devices are <strong>exempt from EPA product registration</strong>.</p>
           <p>Exempt does not mean unregulated. A device must be produced in an EPA-registered establishment, must bear an EPA establishment number, and the manufacturer must hold data supporting any efficacy claims it makes. Device labelling is also restricted in a specific and revealing way: an exempt device may not link a pest to a particular disease. A label may say it controls mosquitoes; it may not say it controls mosquitoes that transmit West Nile virus.</p>
-          <p>What is absent from that list is any <strong>pre-market EPA review of whether the thing works</strong>. There is no agency sign-off on the efficacy claim. Nobody at the EPA ran a trial. That is not a scandal — it is how the statute is written, and it applies equally to every bug zapper, ultrasonic repeller and suction trap on the US market. But it does mean that a phrase like &ldquo;EPA registered establishment&rdquo; on a box is a statement about the <em>factory</em>, not an endorsement of the product, and it is why the university and AMCA data cited above is the evidence that actually matters. In Canada, a device like this similarly falls outside the Pest Control Products Act registration stream that governs registered insecticides — which is why the registered products we apply professionally, which carry PCP numbers, and a UV trap are not in the same regulatory category at all.</p>
+          <p>What is absent from that list is any <strong>pre-market EPA review of whether the thing works</strong>. There is no agency sign-off on the efficacy claim. Nobody at the EPA ran a trial. That is not a scandal — it is how the statute is written, and it applies equally to every bug zapper, ultrasonic repeller and suction trap on the US market. But it does mean that a phrase like &ldquo;EPA registered establishment&rdquo; on a box is a statement about the <em>factory</em>, not an endorsement of the product, and it is why the university and AMCA data cited above is the evidence that actually matters. Canada is stricter. Under the Pest Control Products Regulations, a device sold to attract or destroy flying insects is a pest control product (Schedule 1, item 2), and the exemption from registration that Schedule 2 offers such devices is written for CSA-certified high-voltage insect killers, with an outdoor label that must say the device does not control mosquitoes (items 5 and 6). Canada registers comparable devices: the Zevo Flying Insect Trap (Reg. No. 36155), the STEM Flying Insect Light Trap (35296), Mosquito Magnet Patriot Plus (32375). Health Canada&rsquo;s registry, searched October 28, 2026, lists no DynaTrap model and no Atrakta lure. And a Schedule 1 device is excluded from Health Canada&rsquo;s personal-import exemption, so ordering one from a US store does not get around the rule.</p>
 
           <h2 id="us-ticks">Ticks in the United States: The Gap No DynaTrap Touches</h2>
           <p>The tick point is made in Canadian terms above. It lands harder with the US numbers, so here they are.</p>

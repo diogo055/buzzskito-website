@@ -1,0 +1,194 @@
+{
+  "slug": "crickets-in-house",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "crickets in house",
+  "alsoTargets": [
+    "crickets in the house",
+    "why are there crickets in my house",
+    "cricket in house at night",
+    "house cricket",
+    "field cricket",
+    "how to get rid of crickets in the house",
+    "cricket chirping in house",
+    "do crickets bite"
+  ],
+  "metaTitle": "Crickets in the House: Why and How to Stop Them",
+  "metaDescription": "Most crickets in a house wandered in from outside in fall. Photos of house, field and camel crickets, why they chirp, do they bite and how to stop them.",
+  "h1": "Crickets in the House: Why They Get In, Which Kind and How to Get Them Out",
+  "dek": "Real photos of the crickets that turn up indoors, a quick-ID table, why they come in each fall, how to find the one chirping at night, whether they bite, and the extension steps that keep them out.",
+  "breadcrumb": "Crickets in the House",
+  "excerpt": "Why crickets get into houses in late summer and fall, how to tell house, field and camel crickets apart, finding the chirper, bites, damage and how to get them out.",
+  "datePublished": "2026-10-30",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most crickets in a house wandered in from outside in late summer or fall, drawn by lights and warmth as nights cool; black field crickets usually die indoors by early winter, while a light yellowish-brown cricket with three dark bands on its head is a house cricket, which can live and breed inside.** [University of Maryland Extension](https://extension.umd.edu/resource/crickets) says most pest crickets come in from outdoors.",
+    "bullets": [
+      "House crickets are 3/4 to 1 inch long and field crickets 1/2 to 1 1/4 inches, according to [University of Missouri Extension](https://extension.missouri.edu/publications/g7366), which also lists ground, camel and mole crickets among the crickets that invade homes.",
+      "Only adult males chirp, by rubbing their wings together, says [Clemson Extension](https://hgic.clemson.edu/factsheet/house-and-field-crickets/); Missouri Extension says wingless camel crickets cannot chirp at all.",
+      "Field crickets don't sting or bite, says a [Texas A&M AgriLife Extension](https://stories.tamu.edu/news/2024/09/25/why-crickets-swarm-in-the-fall/) specialist, though indoors they can chew fabrics, especially ones soiled by sweat or food.",
+      "Extension services put sealing gaps, fewer or yellow outdoor lights, vacuuming and sticky traps ahead of any insecticide."
+    ]
+  },
+  "facts": {
+    "title": "Which cricket is it? Quick ID",
+    "head": ["Insect", "Size", "How to tell", "Where you find it"],
+    "rows": [
+      ["House cricket", "3/4 to 1 inch", "Light yellowish brown with three dark bands across the head; wings flat over the back; males chirp", "Warm spots such as kitchens and near water heaters, furnaces and fireplaces; can live indoors year-round"],
+      ["Field cricket", "1/2 to 1 1/4 inches", "Robust and usually black, some brown; males chirp", "Lower floors and basements, mostly in fall; drawn to lights"],
+      ["Ground cricket", "0.3 to 0.5 inch", "Small, dark reddish brown to black; males chirp higher and shriller than field crickets", "Can invade in large numbers where lights and warm buildings draw them"],
+      ["Camel cricket", "1/2 to 1 1/2 inches", "Humped back, no wings, very long antennae and hind legs; never chirps", "Damp basements and crawl spaces; not drawn to lights"],
+      ["Jerusalem cricket", "Up to about 2 inches", "Bald, round head, fat black-ringed abdomen and no wings", "Lives in soil; out mostly at night, often after rain or heavy watering"],
+      ["Mole cricket", "About 1 1/2 inches (northern species)", "Light brown, with short, shovel-like front legs for digging; a poor jumper", "Tunnels under lawns; may wander in when its tunnels flood"],
+      ["Oriental cockroach (not a cricket)", "About 1 1/4 inches", "Flat and dark brown to black, with a plate hiding the head from above; short wings", "Basements, crawl spaces and other cool, wet spots near the ground"]
+    ],
+    "caption": "Crickets: University of Maryland, Missouri, Clemson, UF/IFAS and Minnesota Extension. Jerusalem cricket: UC IPM. Oriental cockroach: Texas A&M AgriLife Extension. Each source is linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "Why are there crickets in my house?" },
+    { "type": "p", "text": "Because they wandered in from outside, mostly in late summer and fall. [University of Minnesota Extension](https://extension.umn.edu/nuisance-insects/crickets) says crickets are common outdoors and can accidentally get into homes, especially at that time of year, and [UF/IFAS Extension's cricket guide](https://ask.ifas.ufl.edu/publication/IG146) says most problems start in fall, as evenings cool and crickets look to buildings for warmth and shelter." },
+    { "type": "figure", "src": "/guides/photos/fall-field-cricket.webp", "width": 1200, "height": 1600, "alt": "Shiny black field cricket with its wings folded over its back, long antennae and spiny hind legs, resting on an open palm outdoors", "caption": "A fall field cricket on an open hand, which gives a sense of its size.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/60757654" },
+    { "type": "p", "text": "Three things draw them to a house:" },
+    { "type": "ul", "items": [
+      "**Lights.** [University of Missouri Extension](https://extension.missouri.edu/publications/g7366) says field and house crickets are strongly attracted to lights at night. A [Texas A&M AgriLife Extension specialist](https://stories.tamu.edu/news/2024/09/25/why-crickets-swarm-in-the-fall/) ties the field cricket swarms seen every late summer and fall to buildings lit from dusk to dawn, and says the crowds typically last four to six weeks.",
+      "**Warmth.** [A Kansas State University extension entomologist](https://www.k-state.edu/news/kansasbugs/articles/2015/08/uninvited-guests-crickets.html) says field crickets become adults as cool fall weather arrives and move toward buildings whose walls soak up the sun's heat, then slip in through any crack or opening.",
+      "**Moisture and cover.** [Clemson Extension](https://hgic.clemson.edu/factsheet/house-and-field-crickets/) says many crickets are drawn to places where moisture stays high and steady, and that outdoors house and field crickets shelter in mulch, tall grass, weeds and piles of rock, brick and wood."
+    ] },
+    { "type": "p", "text": "Most get in through poorly fitted doors and cracks in doors, windows, foundations or siding, Missouri says. If you keep reptiles or fish with live bait, the cricket may be an escapee: [UF/IFAS's house cricket profile](https://ask.ifas.ufl.edu/publication/IN220) says house crickets are sold as pet food and fish bait. Crickets are not the only fall arrivals, either; [the bugs that come indoors for the winter](/blog/bugs-in-house-in-winter) have their own guide." },
+
+    { "type": "h2", "text": "Which cricket is in my house?" },
+    { "type": "p", "text": "Usually a field, house or camel cricket, the three kinds that [University of Maryland Extension](https://extension.umd.edu/resource/crickets) says most home-invading crickets belong to. Missouri adds ground crickets and the odd mole cricket. The table above sorts them." },
+    { "type": "h3", "text": "House cricket" },
+    { "type": "p", "text": "A house cricket is light yellowish brown with three darker bands across its head and 3/4 to 1 inch long as an adult, Missouri says. Clemson describes adults holding their wings flat over their backs, slender antennae longer than the body and large hind legs for jumping, and says the young look like small adults without wings. UF/IFAS says the species is probably native to southwestern Asia." },
+    { "type": "figure", "src": "/guides/photos/house-cricket.webp", "width": 1200, "height": 1600, "alt": "Mottled tan house cricket seen from above on a shiny gray surface, with dark bands across its head, long antennae and spiny hind legs", "caption": "A house cricket in Indio, California, with the dark bands across its head. No wings cover its back; young crickets have none, and the record does not give its age.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/200201607" },
+    { "type": "media", "needed": "An adult house cricket (Acheta domesticus) with its wings, seen from above on a kitchen or basement floor or a baseboard beside a ruler marked in inches, identified by an extension service or entomologist; public domain or CC0 so it could lead the page" },
+    { "type": "h3", "text": "Field cricket" },
+    { "type": "p", "text": "A black cricket in the house is most likely a field cricket: Maryland describes robust black crickets 1/2 to 1 1/4 inches long, found mostly on lower floors and in basements, and Clemson notes that some are brown. Both sexes carry a pair of long feelers at the tail end, Clemson says, and K-State notes that the female also has a prominent egg-laying tube, the ovipositor, about another 3/4 inch long." },
+    { "type": "media", "needed": "A field cricket (genus Gryllus) indoors, on a basement, garage or kitchen floor beside a ruler marked in inches or a US quarter, identified by an extension service or entomologist; public domain or CC0" },
+    { "type": "h3", "text": "Ground cricket" },
+    { "type": "p", "text": "A cricket under half an inch may be a ground cricket. Missouri Extension describes ground crickets (*Nemobius fasciatus* and possibly related species) as dark reddish brown to black and 0.3 to 0.5 inch long. Lights and the warmth of buildings can bring these outdoor crickets inside in large numbers, their small size helps them get in, and the male's chirp is shriller and higher-pitched than a field cricket's." },
+    { "type": "media", "needed": "A striped ground cricket (genus Nemobius or Allonemobius) beside a ruler marked in inches or a US dime, ideally at a doorway or under an outdoor light, identified by an extension service or entomologist; public domain or CC0" },
+    { "type": "h3", "text": "Humpbacked and silent in the basement" },
+    { "type": "p", "text": "A humpbacked, wingless cricket in a damp basement is a camel cricket. Maryland Extension describes extremely long antennae and hind legs and a light tan to dark brown body, and says its taste for dark, moist places almost always keeps it in damp basements and crawl spaces. Missouri says it cannot chirp, having no wings, and is not attracted to lights. [The camel cricket guide](/blog/camel-crickets) covers them in depth." },
+    { "type": "figure", "src": "/guides/photos/camel-cricket-baseboard.webp", "width": 1200, "height": 1890, "alt": "Mottled brown camel cricket with a humped body, long banded legs and two very long antennae climbing a white-painted baseboard above a wood floor", "caption": "A greenhouse camel cricket on a baseboard indoors in Silver Spring, Maryland: humped and wingless, with antennae longer than its body.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/292512847" },
+    { "type": "h3", "text": "Burrowers from the soil" },
+    { "type": "p", "text": "Two burrowing insects called crickets are worth ruling out. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/jerusalem-cricket) describes the Jerusalem cricket as wingless and up to about 2 inches long, with a bald, round, almost human-looking head and a fat orange abdomen ringed in black; it lives underground and comes up mostly at night, often after heavy watering or rain. [The Jerusalem cricket guide](/blog/jerusalem-crickets) covers it." },
+    { "type": "figure", "src": "/guides/photos/jerusalem-cricket-house-floor.webp", "width": 1200, "height": 1600, "alt": "Jerusalem cricket with a glossy orange-brown head, pale legs and a black-and-cream ringed abdomen on a gray floor, one long spiny hind leg stretched out", "caption": "A Jerusalem cricket (genus Ammopelmatus) on the floor inside a house in California.", "license": "CC-BY-4.0", "credit": "(c) Roger Raiche, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/189365590" },
+    { "type": "p", "text": "Mole crickets tunnel under lawns. Missouri describes the northern mole cricket as light brown and about 1 1/2 inches long, with short, shovel-like front legs for digging. It jumps poorly and flies weakly but takes to the air when its tunnels flood, which is when it may walk into a home, where it is not known to damage anything. [Mole crickets](/blog/mole-crickets) get their own guide." },
+    { "type": "h3", "text": "Cricket or cockroach?" },
+    { "type": "p", "text": "A black field cricket can pass for a cockroach at a glance. [Texas A&M AgriLife Extension](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) says cockroaches have flat bodies with the head hidden under a plate, long, thin antennae and long, spiny legs for running fast, and that the dark Oriental cockroach, about 1 1/4 inches long, favors basements, crawl spaces and wet areas. A cricket's giveaway is its large jumping hind legs; [bugs that look like cockroaches](/blog/bugs-that-look-like-cockroaches) runs the full check." },
+    { "type": "checklist", "title": "Check the cricket in a jar", "items": [
+      "**Color and head.** Light yellowish brown with three dark head bands: house cricket. Black, sometimes brown: field cricket.",
+      "**Wings and back.** Wings folded flat over the back: house or field cricket (their young have none yet). No wings and a humped back: camel cricket.",
+      "**Size against a ruler.** Under 1/2 inch: may be a ground cricket. Up to about 2 inches with a bald, round head: Jerusalem cricket.",
+      "**Legs and body.** Shovel-like front legs: mole cricket. A flat body with the head hidden under a plate: cockroach.",
+      "**Where you found it.** Humped and silent in a damp basement: camel cricket. Near an outdoor light or door in late summer or fall: field or ground cricket. By the furnace or water heater in winter: house cricket."
+    ] },
+    { "type": "confused", "items": [
+      { "href": "/blog/camel-crickets", "name": "Camel cricket", "photo": "camel-cricket", "note": "Humped back and no wings; never chirps and is not drawn to lights", "alt": "Side view of a pale, brown-mottled camel cricket on black, with an arched back, banded hind legs and long antennae" },
+      { "href": "/blog/jerusalem-crickets", "name": "Jerusalem cricket", "photo": "jerusalem-cricket-wood-floor", "note": "Up to about 2 inches, with a bald, round head, a black-ringed abdomen and no wings", "alt": "Jerusalem cricket with a shiny brown head, spiny legs and a black-and-white banded abdomen on a honey-colored wood floor" },
+      { "href": "/blog/mole-crickets", "name": "Mole cricket", "photo": "southern-mole-cricket", "note": "Short, shovel-like front legs for digging; lives in tunnels under lawns", "alt": "Brown mole cricket seen from the side on pavement, with a large rounded shield behind the head and short digging front legs" },
+      { "href": "/blog/oriental-cockroaches", "name": "Oriental cockroach", "photo": "oriental-cockroach-garage-floor", "note": "Flat and dark, about 1 1/4 inches, with a plate hiding its head from above and short wings", "alt": "Shiny black-brown Oriental cockroach with short wing pads on a gray concrete garage floor beside a dry leaf" }
+    ] },
+
+    { "type": "h2", "text": "Can crickets live in your house all winter?" },
+    { "type": "p", "text": "House crickets can, and so can camel crickets; field crickets that wander in usually do not last. Missouri Extension says crickets invade homes by accident and only rarely reproduce there, but that all life stages of the house cricket can live in buildings year-round. Clemson says house crickets can spend their whole lives indoors, in warm places with enough moisture and food, and lay many eggs there. UF/IFAS says the species completes its life cycle in two to three months at 80 to 90°F and gets through northern winters in and around buildings." },
+    { "type": "p", "text": "Camel crickets come in during fall to pass the winter, often in basements and crawl spaces, Missouri says, and Maryland says they may reproduce indoors. Field crickets are a passing problem: K-State says they spend the winter as eggs in the soil, Clemson says they are less likely to build up indoors because that is where they lay their eggs, and Minnesota says crickets that get into buildings usually lay no eggs there and die by autumn or early winter." },
+    { "type": "p", "text": "Where you live matters too. [Washington State University](https://pestsense.cahnrs.wsu.edu/fact-sheet/crickets/) calls the house cricket the most common home-invading cricket in its area, while K-State expects Kansas homes to get field crickets instead, since escaped house crickets survive there only minimally, around heated buildings. UF/IFAS says wild house crickets persist only in the eastern US, outside peninsular Florida, and in southern California." },
+
+    { "type": "h2", "text": "How do you find a cricket chirping in the house at night?" },
+    { "type": "p", "text": "Follow the song to a sheltered hiding place, and remember that only adult males sing. Clemson says the male rubs his wings together to attract females, and sometimes as an alarm when disturbed. Maryland Extension says he scrapes a sharp edge at the base of one front wing along a file-like ridge under the other." },
+    { "type": "ul", "items": [
+      "**House crickets** favor warm spots; in winter, Clemson says, they are often near fireplaces, kitchens, water heaters and furnaces.",
+      "**Field crickets** usually stay on lower floors and in basements, Maryland says.",
+      "**Any cricket** may hide behind baseboards, under stairs, in closets, garages and attics, or in storage areas full of clutter, according to UF/IFAS."
+    ] },
+    { "type": "p", "text": "Once you have the spot, Maryland suggests the vacuum or, if the cricket is out of reach, sticky traps of the kind sold for cockroaches set near where it sings; WSU suggests glue boards in room corners. If a steady chirp is the only sign and no cricket ever turns up, WSU suggests checking battery-powered smoke, fire and carbon monoxide alarms for a low battery." },
+    { "type": "p", "text": "The song also tracks the temperature. Maryland Extension says crickets sing faster as it warms, and that counting chirps for 15 seconds and adding 40 gives a rough temperature in degrees Fahrenheit; Missouri Extension gives the same rule, known as Dolbear's law, for the snowy tree cricket outdoors." },
+
+    { "type": "h2", "text": "Do crickets bite?" },
+    { "type": "p", "text": "House and field crickets are harmless to people. A Texas A&M AgriLife Extension specialist says the crickets in fall swarms don't sting or bite and are mainly just annoying, and [University of Maine Cooperative Extension](https://extension.umaine.edu/home-and-garden-ipm/fact-sheets/common-name-listing/crickets/) says crickets are harmless to people despite their powerful jaws." },
+    { "type": "p", "text": "Their jaws go to work on fabrics instead. The bigger Jerusalem cricket belongs to a separate family, and [whether a Jerusalem cricket bites](/blog/jerusalem-crickets) has its own answer. For bites you cannot explain, the [bug bite identifier](/tools/bug-bite-identifier) walks through the usual suspects." },
+
+    { "type": "h2", "text": "Can crickets damage clothes and other things?" },
+    { "type": "p", "text": "They can, though rarely enough to notice. Crickets have chewing mouthparts, and Clemson says that indoors they can feed on fabrics, leather and fur, picking at cotton, silk and wool and leaving roughened patches. Maryland lists wool, silk, nylon, rayon, cotton, linen, furs and rubber, and says fabric soiled with body oils, sweat or food is much more likely to be chewed; WSU adds paper." },
+    { "type": "p", "text": "Numbers matter: Maryland says that unless dozens of crickets are in the home, the damage usually goes unnoticed, and K-State says crickets are not true fabric pests, though they can leave holes and stains on light-colored curtains and sheers. Camel crickets sometimes feed on paper products, Minnesota says, and WSU notes that crickets can cause odor problems when many die." },
+
+    { "type": "h2", "text": "How do you get rid of crickets in the house?" },
+    { "type": "p", "text": "Close the way in, make the house and yard less inviting, then remove the ones inside; the extension services cited here put all of this ahead of insecticide." },
+    { "type": "ol", "items": [
+      "**Seal the gaps.** Maryland says doors should fit tightly, with weatherstripping and thresholds repaired or replaced, and calls for caulk, screening or insulating foam around basement window frames, dryer vents and pipe and wire openings, and screens on crawl space vents. K-State adds garage doors, soffits, air conditioner lines, outdoor faucets and siding. The same repairs also [keep spiders out of a house](/blog/how-to-keep-spiders-out-of-your-house).",
+      "**Change the outdoor lights.** Maryland suggests drapes on brightly lit windows, fewer outdoor lights in cricket season and a yellow bug light where a porch light is needed. Missouri and Minnesota say yellow lights draw fewer insects than white, neon or mercury vapor lights, and UF/IFAS suggests sodium vapor or yellow incandescent bulbs. Lights do not draw camel crickets, Missouri notes.",
+      "**Clear the ground by the house.** Maryland says to remove piles of leaves, bricks or lumber by the foundation, store firewood away from it, trim groundcovers back at least 18 inches and mow regularly; crickets gather under garbage cans, so raise them on bricks or a concrete pad. Clemson adds keeping heavy mulch away from the foundation.",
+      "**Dry out damp rooms** with a fan or dehumidifier, which Minnesota says works especially well against camel crickets, and clear the boxes, papers and clutter where crickets hide.",
+      "**Set sticky traps** near entry points (Clemson), near where crickets sing (Maryland) or in room corners (WSU). Missouri and Minnesota say they work especially well on camel crickets.",
+      "**Vacuum them up.** Maryland Extension calls the vacuum one of the most effective and least toxic ways to remove crickets indoors; Clemson says to throw the bag away outside, and Missouri says to remove dead crickets so they do not feed ants or beetles.",
+      "**Protect stored clothes.** WSU suggests bagging or boxing garments not in use and cleaning soiled fabrics before storing them."
+    ] },
+    { "type": "p", "text": "Ultrasonic plug-in devices are not among these extension recommendations; [what testing has found on ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work) is covered separately. Expect a few crickets anyway: K-State's entomologist writes that his own well-sealed home still has untended gaps and that he expects fall visitors." },
+
+    { "type": "h2", "text": "Should you spray insecticide for crickets?" },
+    { "type": "p", "text": "Only after the steps above, with a product labeled for crickets and for the place you treat, as Missouri and Clemson advise. UF/IFAS reserves insecticides for when exclusion and sanitation cannot stop damage soon enough, and Clemson limits indoor use to large infestations, applied to cracks and crevices around doors and windows. Missouri calls cricket baits particularly effective indoors, keeps other indoor products to cracks and crevices where the label allows, and calls spraying the air or large open surfaces mostly ineffective." },
+    { "type": "p", "text": "Extension services differ on the rest. Missouri and K-State describe insecticide bands around the outside of the house; WSU does not recommend outdoor applications for crickets, Minnesota says pesticides are generally not effective or necessary indoors, and Maryland justifies outdoor baits or perimeter sprays only in extreme situations, while repairs are under way. UF/IFAS says baits used indoors must go where children and pets cannot reach them." },
+    { "type": "p", "text": "Read the label first: the [EPA](https://www.epa.gov/pesticide-labels/introduction-pesticide-labels) notes that pesticide labels are legally enforceable and that using a product in a way its labeling does not allow violates federal law. Missouri adds that most over-the-counter insecticides for use in and around homes are pyrethrins or pyrethroids, that treatments are temporary, and that a pest management professional is an option if crickets keep coming." },
+    { "type": "callout", "tone": "tip", "title": "Not sure which cricket you have?", "text": "Trap it in a clear jar or on a sticky trap, photograph it beside a ruler marked in inches, and note where you found it and whether it chirped. Your state's cooperative extension office can confirm the identification." }
+  ],
+  "faqs": [
+    {
+      "question": "Why do I suddenly have crickets in my house?",
+      "answer": "Usually because the season turned. University of Missouri Extension says field crickets invade homes most often in fall, as nights get cooler, and are attracted to lights at night. A Texas A&M AgriLife Extension specialist says field cricket swarms happen every late summer and fall to some degree, that one area may see huge numbers one year and few the next, and that bright, all-night lighting gathers them around buildings, where poorly sealed doors and windows let them in. The swarms typically last four to six weeks."
+    },
+    {
+      "question": "Should you kill house crickets?",
+      "answer": "You do not have to, but many people want them out. UF/IFAS says house crickets generally do no harm, and University of Minnesota Extension calls crickets a nuisance rather than a serious pest. Indoors, though, they chirp at night and can chew fabrics, and Clemson Extension says house crickets can live and lay many eggs inside buildings. University of Maryland Extension calls the vacuum one of the most effective and least toxic ways to remove crickets indoors, and Missouri Extension says to remove dead ones so they do not feed ants or beetles."
+    },
+    {
+      "question": "How long can a cricket live in your house?",
+      "answer": "It depends on the kind. Field crickets are outdoor insects that spend the winter as eggs in the soil, and University of Minnesota Extension says crickets that get into buildings normally die by autumn or early winter. House crickets can live indoors year-round, according to University of Missouri Extension, and UF/IFAS says they complete their life cycle in two to three months at 80 to 90°F. Washington State University says house crickets can survive a long time indoors."
+    },
+    {
+      "question": "Is it bad to have crickets in your house?",
+      "answer": "Mostly it is a nuisance. University of Minnesota Extension says crickets are not considered a serious pest in homes and usually cause no major damage, and a Texas A&M AgriLife Extension specialist says field crickets don't sting or bite. The drawbacks are the chirping, chewing on fabrics, especially items soiled by sweat or food, and the smell when many die. University of Maryland Extension says that unless dozens are in the home, fabric damage usually goes unnoticed, and that steps to keep crickets out also keep out other occasional invaders."
+    },
+    {
+      "question": "Do crickets lay eggs in your house?",
+      "answer": "House crickets can, but most crickets that come indoors do not. Clemson Extension says house crickets can spend their whole lives inside buildings and lay many eggs there, and University of Missouri Extension says all their life stages can live in buildings year-round. Field crickets lay their eggs in soil, and University of Minnesota Extension says crickets that get into buildings usually lay no eggs inside and die by autumn or early winter. University of Maryland Extension adds that camel crickets may reproduce indoors."
+    },
+    {
+      "question": "What attracts crickets in the house?",
+      "answer": "Light, warmth and shelter. University of Missouri Extension says field and house crickets are strongly attracted to lights at night, and a Kansas State University entomologist says field crickets move toward the heat of sun-warmed buildings in fall. Clemson Extension says many crickets are drawn to places where moisture stays high and steady, and that mulch, tall grass, weeds and piles of rock, brick or wood near your home give house and field crickets cover. Camel crickets are the exception on lights: Missouri says lights do not attract them."
+    },
+    {
+      "question": "Where do crickets hide in a house?",
+      "answer": "In warm, dark, sheltered places. UF/IFAS Extension lists spots behind baseboards, under stairs, in closets, garages and attics, and storage areas with clutter. Clemson Extension says house crickets in winter often turn up near fireplaces, kitchens, water heaters and furnaces, and University of Maryland Extension says field crickets usually stay on lower floors and in basements, while camel crickets keep to damp basements and crawl spaces. Sticky traps set near the spot where a cricket sings, as Maryland suggests, can catch one you cannot reach."
+    },
+    {
+      "question": "How do I get a cricket to stop chirping at night?",
+      "answer": "Catch the male doing the singing, since only adult male crickets chirp, Clemson Extension says. University of Maryland Extension suggests a vacuum if you can reach the cricket and, if you cannot, sticky traps of the kind sold for cockroaches placed near where it sings. Washington State University suggests glue boards in the corners of rooms. If a steady chirp is the only sign and you never see a cricket, WSU suggests checking battery-powered smoke, fire and carbon monoxide alarms for a low battery."
+    },
+    {
+      "question": "What does it mean if a cricket is in your house?",
+      "answer": "In practical terms, a cricket found a way in, usually drawn by lights or warmth in late summer or fall. The extension sources here say nothing about luck or folklore, though Clemson Extension notes that in some Asian countries crickets are kept in small cages at home and prized for their cheerful songs. University of Maryland Extension says a cricket chirping indoors signals the need for some minor home repairs, such as doors that fit tightly and weatherstripping and thresholds that are adjusted, repaired or replaced."
+    },
+    {
+      "question": "What kills crickets in the house?",
+      "answer": "A vacuum and sticky traps handle most indoor crickets: University of Maryland Extension calls the vacuum one of the most effective and least toxic ways to remove them. University of Missouri Extension says cricket baits are particularly effective indoors and that other insecticides belong only in cracks and crevices where the label allows, while University of Minnesota Extension says pesticides are generally not effective or necessary indoors. Whatever you use, the EPA says pesticide labels are legally enforceable, and using a product in a way its labeling does not allow violates federal law."
+    }
+  ],
+  "sources": [
+    { "title": "House and Field Crickets (HGIC 2425; P. A. Zungoli and E. P. Benson)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/house-and-field-crickets/" },
+    { "title": "Crickets (updated March 1, 2023; based on EL 50 by N. L. Breisch and B. L. Thorne)", "publisher": "University of Maryland Extension, Home and Garden Information Center", "url": "https://extension.umd.edu/resource/crickets" },
+    { "title": "House-Invading Crickets (G7366; Emily Althoff, reviewed August 2025)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7366" },
+    { "title": "Crickets (ENY-230/IG146; P. Koehler, R. Pereira and B. Bayer)", "publisher": "University of Florida, UF/IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IG146" },
+    { "title": "House Cricket, Acheta domesticus (Linnaeus) (EENY-063/IN220; Thomas J. Walker)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN220" },
+    { "title": "Crickets (reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/nuisance-insects/crickets" },
+    { "title": "Crickets (PestSense fact sheet, reviewed December 15, 2025)", "publisher": "Washington State University", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/crickets/" },
+    { "title": "Uninvited Guests: Crickets (Bob Bauernfeind, August 14, 2015)", "publisher": "Kansas State University Extension Entomology", "url": "https://www.k-state.edu/news/kansasbugs/articles/2015/08/uninvited-guests-crickets.html" },
+    { "title": "Why Crickets Swarm In The Fall (Adam Russell, September 25, 2024)", "publisher": "Texas A&M AgriLife, Texas A&M Stories", "url": "https://stories.tamu.edu/news/2024/09/25/why-crickets-swarm-in-the-fall/" },
+    { "title": "Crickets (Home and Garden IPM fact sheet)", "publisher": "University of Maine Cooperative Extension", "url": "https://extension.umaine.edu/home-and-garden-ipm/fact-sheets/common-name-listing/crickets/" },
+    { "title": "Jerusalem Cricket (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/jerusalem-cricket" },
+    { "title": "Cockroach Biology and Management (ENTO-PU-121; W. Brown, M. E. Merchant and K. Siders, December 2017)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/" },
+    { "title": "Introduction to Pesticide Labels", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/pesticide-labels/introduction-pesticide-labels" }
+  ],
+  "disclaimer": "pesticide"
+}

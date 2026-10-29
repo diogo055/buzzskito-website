@@ -1,0 +1,10 @@
+{
+ "id": "no-see-ums",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d5b62501f5a0f7c05e6f2f089ffa8a295c20e1e9b817f352eb1b3bcb222d5609",
+ "claimsChecked": 303,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-29"
+}

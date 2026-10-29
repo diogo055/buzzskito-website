@@ -1,0 +1,10 @@
+{
+ "id": "rat-nest",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d2c8191be0d5151f13961976519e5a14f55cc64ae8f0e953df58119ad078183f",
+ "claimsChecked": 286,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 20,
+ "checkedOn": "2026-10-29"
+}

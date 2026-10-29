@@ -14,25 +14,28 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-large-capacity-dehumidifier-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best 70-Pint (Large-Capacity) Dehumidifier Canada 2026 — Big & Wet Basements, Drain-Pump Picks'
-const META_TITLE = 'Best 70-Pint Dehumidifier Canada: Drain Pumps'
+// TITLE NOTE (Oct 28, 2026): was 'Best 70-Pint Dehumidifier Canada: Drain Pumps'; top queries (Jul 28-Oct 25): best dehumidifier canada 957 (pos 6.9, 7 clicks; the assigned main query of /blog/best-dehumidifier-for-mold-canada), best 70 pint dehumidifier 10 (2.9, 1 click), best large capacity dehumidifier 10 (8.6, 1 click), 50 pint vs 70 pint dehumidifier 5. Basement queries stay with /blog/best-dehumidifier-for-basement-canada.
+const META_TITLE = 'Best 70-Pint Dehumidifier Canada: 50 vs 70 Pint'
 
 const FAQS = [
   {
     question: 'What is the best 70-pint dehumidifier in Canada for 2026?',
-    answer: 'For most large or wet Canadian basements, the best high-capacity pick is an Energy Star compressor unit in the top capacity tier — a Midea Cube-class or Frigidaire high-efficiency model — run with continuous drainage. One important thing to understand first: the DOE changed the test method in 2019, so the units that used to be sold as "70-pint" are now rated around 50-pint on the label even though the hardware is the same top-tier size. That is why searching "70 pint" and "50 pint" turns up overlapping products. Whichever label it carries, you want the largest compressor class, an auto-defrost coil for cold Canadian basements, and — if your drain is above the unit — a built-in pump so it can push water up and out without you ever emptying a bucket. A right-sized high-capacity unit that holds relative humidity at 45–50% is also a genuine pest tool: it denies silverfish, cockroaches, dust mites, and mould the damp they depend on.',
+    answer: 'For most large or wet Canadian basements, the best high-capacity pick is an Energy Star compressor unit in the top capacity tier — a Midea Cube-class or Frigidaire high-efficiency model — run with continuous drainage. One important thing to understand first: the DOE changed the test method in June 2019 (portable units are now tested at 65°F instead of 80°F), so the same machine now posts a lower number; ENERGY STAR’s rough table puts an old 70-pint portable at about 40–45 pints on the new test, and the big units sold today carry 50 on the label. That is why searching "70 pint" and "50 pint" turns up overlapping products. Whichever label it carries, you want the largest compressor class, an auto-defrost coil for cold Canadian basements, and — if your drain is above the unit — a built-in pump so it can push water up and out without you ever emptying a bucket. A right-sized high-capacity unit that holds relative humidity at 45–50% is also a genuine pest tool: it denies silverfish, cockroaches, dust mites, and mould the damp they depend on.',
   },
   {
     question: 'Why are old "70-pint" dehumidifiers now labelled 50-pint?',
-    answer: 'Because the U.S. Department of Energy changed how capacity is measured. Before 2019, dehumidifiers were rated at 80°F and 60% relative humidity, which produced numbers like 70 and 90 pints per day. The current test runs at a cooler, more realistic 65°F, and water condenses more slowly at that temperature, so the same physical machine now posts a lower number — roughly 50 pints instead of 70. Nothing about the hardware shrank. This is the single most confusing thing about shopping for a large-capacity unit today: a "50-pint" 2026 model is, in real terms, the old "70-pint" flagship. When you compare listings, ignore the headline pint number and look at the physical size, the coverage area in square feet, and whether it is in the manufacturer\'s top tier.',
+    answer: 'Because the U.S. Department of Energy changed how capacity is measured. Before June 2019, portable dehumidifiers were rated at 80°F and 60% relative humidity, which produced numbers like 70 and 90 pints per day. The current test runs at a cooler, more realistic 65°F, and there is less water to remove in cooler air, so the same physical machine now posts a lower number: ENERGY STAR’s rough table gives about 40–45 pints for an old 70-pint portable and about 30 for an old 50-pint, and says the change for specific models will vary. Nothing about the hardware shrank. By that table, a unit rated 50 pints today sits between an old 70-pint and an old 90-pint. When you compare listings, compare like with like, and look at the physical size, the coverage area in square feet, and whether it is in the manufacturer\'s top tier.',
   },
   {
     question: 'What size dehumidifier do I need for a large or wet basement?',
-    answer: 'For a large basement (roughly 2,500 sq ft and up), a genuinely wet basement of any size (visible damp patches, pooling, a strong musty smell, condensation on the walls), or a whole-lower-level moisture problem, you want the top compressor tier — the modern ~50-pint (old 70-pint) class, often marketed as covering 3,000–4,500 sq ft. Buy up, not down: an oversized unit reaches your target humidity quickly and then cycles off, while an undersized one runs flat-out around the clock, never catches up, and burns more electricity doing less. Cold Canadian basements also cut a compressor\'s real-world output below its rating, so headroom matters even more here than in a warmer climate.',
+    answer: 'For a large basement (over 2,000 sq ft, where ENERGY STAR’s chart calls for 40+ pints a day if it is very damp and 50+ if it is wet), a genuinely wet basement of any size (visible damp patches, pooling, a strong musty smell, condensation on the walls), or a whole-lower-level moisture problem, you want the top portable class — today’s 50-pint units, which Midea Canada rates for rooms up to 4,500 sq ft. Buy up, not down: an oversized unit reaches your target humidity quickly and then cycles off, while an undersized one runs flat-out around the clock, never catches up, and burns more electricity doing less. Cold Canadian basements also cut a compressor\'s real-world output below its rating, so headroom matters even more here than in a warmer climate.',
   },
   {
     question: 'Do I really need a built-in drain pump?',
@@ -40,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Compressor or desiccant for a cold Canadian basement?',
-    answer: 'For a normally heated or semi-heated basement, buy a compressor (refrigerant) unit: it is far more energy-efficient at room temperature and it is the only type that comes in the large capacities a big basement needs. Its weakness is cold — compressor efficiency drops and the coil can frost below about 18°C, though modern units have auto-defrost that keeps them working down to roughly 5°C. A desiccant dehumidifier keeps working in genuinely cold spaces (an unheated cellar, a cold crawlspace, a garage, a cottage shut for the season) because it does not rely on a cold coil, but it draws more power and comes in smaller capacities. For a typical finished Canadian basement, choose a high-capacity compressor with auto-defrost; reserve desiccant for spaces that stay near or below 10°C.',
+    answer: 'For a normally heated or semi-heated basement, buy a compressor (refrigerant) unit: it is far more energy-efficient at room temperature and it is the only type that comes in the large capacities a big basement needs. Its weakness is cold — compressor efficiency drops and the coil can frost below about 18°C (65°F, ENERGY STAR), though automatic defrost and a low-temperature rating help: Frigidaire says its 50-pint models are designed to operate down to 41°F (5°C). A desiccant dehumidifier keeps working in genuinely cold spaces (an unheated cellar, a cold crawlspace, a garage, a cottage shut for the season) because it does not rely on a cold coil, but it draws more power and comes in smaller capacities. For a typical finished Canadian basement, choose a high-capacity compressor with auto-defrost; reserve desiccant for spaces that stay near or below 10°C.',
   },
   {
     question: 'What humidity level should I set a basement dehumidifier to?',
@@ -66,11 +69,19 @@ const FAQS = [
     question: 'Is a more expensive high-capacity dehumidifier worth it over a cheap one?',
     answer: 'For a large or chronically wet basement, usually yes — but spend on the right things. The premium worth paying buys genuine capacity (a top-tier compressor that actually keeps up), Energy Star efficiency (real savings on an always-on machine over a long season), auto-defrost (so it keeps working in a cold Canadian basement), and either a built-in pump or reliable gravity drainage (so it runs hands-free). A cheap undersized unit in a big wet basement is a false economy: it runs constantly, never wins, and costs more in electricity while controlling less moisture. Where you can save is on smart-app connectivity and cosmetic features that do nothing for moisture removal. Buy the capacity, the efficiency rating, the defrost, and the drainage; skip the gimmicks.',
   },
+  {
+    question: 'Is a 50-pint dehumidifier the same as a 70-pint?',
+    answer: 'Not exactly. The two numbers come from different tests: ratings since June 2019 use 65°F air, older ones 80°F, and cooler air gives up less water. ENERGY STAR’s rough conversion puts an old 70-pint portable at about 40–45 pints on today’s test and an old 50-pint at about 30, adding that the actual change varies by model. So a unit rated 50 pints today is at least as big as an old 70-pint one, and it is the class this guide is about, like the Midea Cube 50-pint, which Midea Canada rates for rooms up to 4,500 sq ft.',
+  },
+  {
+    question: 'What is the best 70-pint dehumidifier for a basement?',
+    answer: 'On today’s test, look for a 50-pint unit: an ENERGY STAR compressor model with automatic defrost and continuous drainage, like the Midea Cube 50-pint picked above, which Midea Canada rates for rooms up to 4,500 sq ft and drains through an included hose. If your only drain is above the unit, choose a model with a built-in pump, such as Frigidaire’s 50-pint pump model, which pushes water up into a sink or out of a window. Then check the exact model number on Natural Resources Canada’s ENERGY STAR list.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best large-capacity (70-pint / modern 50-pint) dehumidifiers for big and wet Canadian basements in 2026: why the pint rating changed, sizing, auto-defrost for cold basements, built-in drain pumps, the pest and mould angle, and our Midea, Frigidaire, and value picks.',
+  description: 'Best 70-pint dehumidifier in Canada: what the old rating means on today’s test (ENERGY STAR), sizing, auto-defrost and pump models, from the makers’ specs.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -95,7 +106,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             <span className="text-white">Best Large-Capacity Dehumidifier Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The top-tier compressor units for big, wet Canadian basements &mdash; why the &ldquo;70-pint&rdquo; label became &ldquo;50-pint,&rdquo; how to size for a large or damp space, why auto-defrost and a built-in drain pump matter here, and our Midea, Frigidaire, and value picks.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> &ldquo;70 pints&rdquo; is a rating from the test used before June 2019; ENERGY STAR&rsquo;s rough table puts an old 70-pint portable at about 40&ndash;45 pints today, so the big portables now on sale carry 50 on the label. Our pick, the Midea Cube 50-pint, is for a large or wet basement with a drain below the unit: Midea Canada rates it for rooms up to 4,500 sq ft, with automatic defrost and no pump. No low drain? Choose a built-in pump model.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -108,11 +119,11 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best large-capacity dehumidifier for a big or wet Canadian basement is a <strong>top-tier Energy Star compressor unit</strong> &mdash; a Midea Cube-class or Frigidaire high-efficiency model &mdash; run with continuous drainage. Note the labels: units once sold as &ldquo;70-pint&rdquo; are now rated around &ldquo;50-pint&rdquo; after a 2019 test-method change, but the hardware is the same flagship size. Choose one with <strong>auto-defrost</strong> for cold basements and a <strong>built-in pump</strong> if your drain sits above the unit. Held at 45&ndash;50% humidity it also denies silverfish, roaches, dust mites, and mould the damp they need.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best large-capacity dehumidifier for a big or wet Canadian basement is a <strong>top-tier Energy Star compressor unit</strong> &mdash; a Midea Cube-class or Frigidaire high-efficiency model &mdash; run with continuous drainage. Note the labels: the 2019 test change lowered every rating (ENERGY STAR puts an old 70-pint portable at about 40&ndash;45 pints today), so the big units on shelves now say 50 pints. Choose one with <strong>auto-defrost</strong> for cold basements and a <strong>built-in pump</strong> if your drain sits above the unit. Held at 45&ndash;50% humidity it also denies silverfish, roaches, dust mites, and mould the damp they need.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>&ldquo;70-pint&rdquo; and modern &ldquo;50-pint&rdquo; usually mean the <em>same physical</em> top-tier machine &mdash; the 2019 DOE test just rescaled the number.</li>
+              <li>Old &ldquo;70-pint&rdquo; and today&rsquo;s &ldquo;50-pint&rdquo; units are the same top portable class; by ENERGY STAR&rsquo;s rough table an old 70-pint unit would rate about 40&ndash;45 pints on today&rsquo;s test.</li>
               <li>For a large (2,500 sq ft+) or genuinely wet basement, buy the top compressor tier &mdash; buy up, never down.</li>
-              <li>Auto-defrost keeps a compressor working in a cold Canadian basement down to roughly 5&deg;C.</li>
+              <li>Below 18&deg;C (65&deg;F) frost can form on the coils (ENERGY STAR); look for automatic defrost and a low-temperature rating such as Frigidaire&rsquo;s 41&deg;F (5&deg;C).</li>
               <li>A built-in pump is what lets the unit push water <em>up</em> to a sink or window when there is no lower drain.</li>
               <li>Set the humidistat to 45&ndash;50% RH &mdash; that ceiling starves dust mites, silverfish, roaches, and mould at once.</li>
               <li>On an always-on machine, Energy Star certification is where the real running-cost savings live.</li>
@@ -206,7 +217,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Energy Star flagship<br /><span className="font-normal text-xs text-gray-500">Cube-class compressor</span></td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; continuous drain, auto-defrost to ~5&deg;C</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; continuous drain, automatic defrost (Midea lists no minimum temperature)</td>
                   <td className="px-4 py-3 text-gray-700">Large or wet basements, all-season running</td>
                   <td className="px-4 py-3 text-gray-700">Higher up-front cost; needs a drain route</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="midea cube 50 pint dehumidifier" block>Check price on Amazon.ca →</BuyLink></td>
@@ -240,7 +251,7 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Ignore the headline pint number.</strong> A 2026 &ldquo;50-pint&rdquo; unit is the old &ldquo;70-pint&rdquo; flagship after the 2019 test change &mdash; compare physical size and coverage area, not the label. And a dehumidifier only manages moisture; pair it with an <Link href="/blog/best-air-purifier-for-dust-mites-canada" className="text-emerald-700 underline font-semibold">air purifier for dust mites</Link> and a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" className="text-emerald-700 underline font-semibold">sealed-HEPA vacuum</Link> for a genuinely healthy lower level.
+              <strong className="text-amber-900">⚠️ Ignore the headline pint number.</strong> Ratings from before and after the 2019 test change are not comparable: ENERGY STAR&rsquo;s rough table puts an old &ldquo;70-pint&rdquo; portable at about 40&ndash;45 pints today, so a 2026 &ldquo;50-pint&rdquo; unit is in the old 70-pint class &mdash; compare physical size and coverage area, not the label. And a dehumidifier only manages moisture; pair it with an <Link href="/blog/best-air-purifier-for-dust-mites-canada" className="text-emerald-700 underline font-semibold">air purifier for dust mites</Link> and a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" className="text-emerald-700 underline font-semibold">sealed-HEPA vacuum</Link> for a genuinely healthy lower level.
             </p>
           </div>
         </div>
@@ -264,21 +275,37 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
 
           <NextUp path="/blog/best-large-capacity-dehumidifier-canada" />
           <h2>The &ldquo;70-Pint&rdquo; Confusion, Solved</h2>
-          <p>The most confusing thing about shopping for a big dehumidifier in 2026 is that the number on the box changed without the machine changing. Before 2019, the U.S. Department of Energy rated dehumidifiers at a warm 80&deg;F and 60% relative humidity, and the flagship units came out at 70 or even 90 pints per day. The current test runs at a cooler, more honest 65&deg;F. Water condenses more slowly at that temperature, so the exact same physical unit now posts a lower number &mdash; roughly 50 pints where it used to say 70.</p>
+          <p>The most confusing thing about shopping for a big dehumidifier in 2026 is that the number on the box changed without the machine changing. Before 2019, the U.S. Department of Energy rated dehumidifiers at a warm 80&deg;F and 60% relative humidity, and the flagship units came out at 70 or even 90 pints per day. The current test runs at a cooler, more honest 65&deg;F. Water condenses more slowly at that temperature, so the exact same physical unit now posts a lower number. ENERGY STAR&rsquo;s rough table puts an old 70-pint portable at about 40&ndash;45 pints and an old 50-pint at about 30, and notes that the actual change for specific models will vary.</p>
           <p>Nothing shrank. The compressor, the coil, and the extraction hardware are the same flagship size. This is why a search for &ldquo;70 pint&rdquo; and a search for &ldquo;50 pint&rdquo; surface heavily overlapping products, and why you should <strong>stop treating the pint number as the deciding spec</strong>. Instead, compare the physical dimensions, the manufacturer&rsquo;s stated coverage in square feet, and whether the unit sits in the brand&rsquo;s top capacity tier. If a listing quotes a big square-footage coverage and it is the largest model in the line, it is the &ldquo;70-pint&rdquo; class you are looking for &mdash; whatever the sticker says.</p>
+
+          <QuickIdTable
+            title="Old pint ratings and today’s, per ENERGY STAR"
+            head={['Portable unit rated (through 2019)', 'About this on today’s test (2020 on)']}
+            rows={[
+              ['30 pints a day', '20'],
+              ['40 pints a day', '25'],
+              ['50 pints a day', '30'],
+              ['55 pints a day', '30–35'],
+              ['60 pints a day', '35'],
+              ['70 pints a day', '40–45'],
+              ['90 pints a day', '55'],
+            ]}
+            caption={<>ENERGY STAR, <a href="https://www.energystar.gov/products/dehumidifier_testing_and_capacity" target="_blank" rel="noopener noreferrer" className="underline">Dehumidifier Testing and Capacity</a>: &ldquo;a rough correlation between the old capacity rating and the new capacity rating&rdquo;; portable units are now tested at 65&deg;F rather than 80&deg;F, and the actual change for specific models will vary. Read October 28, 2026.</>}
+          />
+
 
           <h2>How to Size for a Large or Wet Basement</h2>
           <p>Sizing is where most people go wrong, and the error almost always runs in the same direction: buying too small. The temptation is understandable &mdash; a smaller unit is cheaper and lighter &mdash; but in a big or damp basement an undersized dehumidifier is the worst of both worlds. It runs continuously, never reaches your target humidity, and costs <em>more</em> in electricity than a larger unit that reaches the setpoint and cycles off. Buy up, not down.</p>
-          <p>The rules of thumb, under the current test method:</p>
+          <p>The rules of thumb, from ENERGY STAR&rsquo;s sizing chart under the current test method (it adds that it is better to oversize than undersize):</p>
           <ul>
-            <li><strong>Top compressor tier (modern ~50-pint / old 70-pint):</strong> a large basement from roughly 2,500 sq ft up, or <em>any</em> basement that is genuinely wet &mdash; visible damp patches, pooling, condensation on the walls, a strong musty smell. This is the class this guide is about.</li>
-            <li><strong>Mid tier (~30&ndash;35-pint):</strong> a moderately damp basement of 1,500&ndash;2,500 sq ft. Covered in our companion <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link>.</li>
-            <li><strong>Small (~20-pint):</strong> a small, slightly damp utility room under about 1,500 sq ft.</li>
+            <li><strong>Top portable class (today&rsquo;s 50-pint units):</strong> ENERGY STAR&rsquo;s chart calls for 50+ pints a day in a wet space (90&ndash;100% humidity) over 2,000 sq ft, and 30&ndash;50 in a wet space under 2,000 sq ft &mdash; visible damp patches, pooling, condensation on the walls, a strong musty smell. This is the class this guide is about.</li>
+            <li><strong>Mid class (30&ndash;40 pints):</strong> ENERGY STAR: 30+ for a slightly to moderately damp space over 2,000 sq ft, and 25&ndash;40 for a very damp one under 2,000 sq ft. Covered in our companion <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link>.</li>
+            <li><strong>Small (20&ndash;30 pints):</strong> ENERGY STAR: a slightly to moderately damp space (50&ndash;75% humidity) under 2,000 sq ft.</li>
           </ul>
           <p>Two Canadian-specific adjustments push you toward more capacity, not less. First, cold cuts a compressor&rsquo;s real output below its warm-weather rating, so a basement that hovers at 15&ndash;18&deg;C will get less than the label promises &mdash; headroom covers that gap. Second, if you are drying a genuinely wet space rather than merely a stuffy one, always size up a tier: the difference between keeping up and falling permanently behind is exactly the margin an oversized unit provides.</p>
 
           <h2>Why Auto-Defrost Is Non-Negotiable Here</h2>
-          <p>A compressor dehumidifier pulls water out of the air by condensing it on a cold coil &mdash; the same principle as an air conditioner. In a cool Canadian basement, that coil can drop below freezing and grow a layer of frost, which chokes airflow and eventually stops the unit from extracting anything. <strong>Auto-defrost</strong> is the feature that solves this: the unit periodically pauses compression and melts the frost off the coil, then resumes. Good modern units keep working down to roughly 5&deg;C thanks to auto-defrost, where an older or cheaper unit without it would frost over and quit in the same basement.</p>
+          <p>A compressor dehumidifier pulls water out of the air by condensing it on a cold coil &mdash; the same principle as an air conditioner. In a cool Canadian basement, that coil can drop below freezing and grow a layer of frost, which chokes airflow and eventually stops the unit from extracting anything. <strong>Auto-defrost</strong> is the feature that solves this: the unit periodically pauses compression and melts the frost off the coil, then resumes. Makers rate their units for this: Frigidaire says its 50-pint models are designed to operate at low temperatures down to 41&deg;F (5&deg;C), and Midea lists automatic defrost control on its 50-pint Cube, where an older or cheaper unit without it would frost over and quit in the same basement.</p>
           <p>For a Canadian buyer this is not an optional luxury &mdash; it is the difference between a dehumidifier that works in your actual basement temperature and one that does not. Confirm auto-defrost is present before you buy, especially on value units where it is sometimes the corner that got cut. If your space is colder still &mdash; an unheated crawlspace or a cellar near freezing &mdash; no amount of auto-defrost saves a compressor, and you should move to a desiccant unit instead.</p>
 
           <h2>Drainage: Gravity, Pump, and the Basement Problem</h2>
@@ -286,9 +313,23 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
           <p><strong>Gravity drainage</strong> is the simple case: run the included hose to a floor drain, sump pit, or standpipe that sits <em>lower</em> than the unit&rsquo;s outlet, and water flows out on its own with no moving parts. If you have a floor drain or sump below the machine, this is all you need, and you can skip a pump entirely.</p>
           <p><strong>A built-in pump</strong> is the answer to the very common basement problem where there is nowhere lower to send the water &mdash; the only drain is a laundry sink up on the wall, or a window well, or a drain across the room. A pump pushes condensate <em>up</em> and out through a thin hose, letting the unit run truly hands-free where gravity alone would leave you emptying a bucket. If your basement has no low drain, the pump is not a luxury; it is what makes continuous operation possible at all. You can also add an external condensate pump to a non-pump unit, but an integrated pump is tidier and one less thing to set up.</p>
 
+          <QuickIdTable
+            title="Large dehumidifiers compared, from the makers’ pages"
+            head={['Unit', 'Capacity and coverage', 'Drainage', 'Cold basements', 'Best for']}
+            rows={[
+              ['Midea Cube 50-pint (MAD50S1QWT-A)', '50 pints a day; Midea Canada: room size up to 4,500 sq ft', 'Continuous draining through the included drain hose; no built-in pump', 'Automatic defrost control; no minimum temperature listed', 'A large basement with a floor drain or sump below the unit'],
+              ['Frigidaire 50-pint with built-in pump (FHDP5033Y1)', '50 pints a day; coverage not stated on Frigidaire Canada’s page', 'Built-in pump that discharges upward into a sink or out of a window; 1.9-gallon bucket', 'Designed to operate at low temperatures down to 41°F (5°C)', 'A basement whose only drain is above the unit'],
+              ['Frigidaire 50-pint (FHDD5033Y1)', '50 pints a day; coverage not stated', 'Continuous drain option; 1.9-gallon bucket', 'Designed to operate at low temperatures down to 41°F (5°C)', 'A basement with a low drain that runs cool'],
+              ['Any compressor unit below 18°C', 'Less water to remove in cooler air', 'As the unit allows', 'ENERGY STAR: frost can form on the coils below 65°F; NRCan: below 18°C, consider a product meant for lower temperatures', 'An unheated cellar or crawlspace: see the desiccant pick above'],
+            ]}
+            caption={<>Sources: Midea Canada, <a href="https://www.midea.com/ca/air-care/dehumidifiers/cube-smart-dehumidifier10.mad50s1qwt-a" target="_blank" rel="noopener noreferrer" className="underline">50 Pint Cube MAD50S1QWT-A</a>; Frigidaire Canada, <a href="https://www.frigidaire.ca/Home-Comfort/Dehumidifiers/FHDP5033Y1/" target="_blank" rel="noopener noreferrer" className="underline">FHDP5033Y1</a> and <a href="https://www.frigidaire.ca/Home-Comfort/Dehumidifiers/FHDD5033Y1/" target="_blank" rel="noopener noreferrer" className="underline">FHDD5033Y1</a>; ENERGY STAR, <a href="https://www.energystar.gov/products/dehumidifiers" target="_blank" rel="noopener noreferrer" className="underline">dehumidifiers</a>; Natural Resources Canada, <a href="https://natural-resources.canada.ca/energy-efficiency/energy-star/products/list-certified-products/dehumidifiers" target="_blank" rel="noopener noreferrer" className="underline">ENERGY STAR dehumidifiers</a> (modified 2025-07-23). The makers list all three units as ENERGY STAR certified. Specifications only: BuzzSkito has not tested these units. Read October 28, 2026.</>}
+          />
+
           <RelatedLinks path="/blog/best-large-capacity-dehumidifier-canada" />
           <h2>The Moisture-and-Pest Connection</h2>
           <p>A dehumidifier earns a place in a pest-control conversation because moisture is the single environmental lever that governs a whole category of basement pests. Silverfish, cockroaches, and centipedes are all humidity-seekers: they congregate in damp, still air and struggle to reproduce once it dries out. Dust mites &mdash; one of the biggest indoor allergen sources &mdash; cannot sustain their populations below about 50% relative humidity because they absorb water directly from the air rather than drinking it. Mould, which draws its own pests and degrades the air you breathe, needs sustained damp to colonize.</p>
+          <Photo id="silverfish" alt="Common silverfish, a slender silvery insect with long antennae and tail bristles" caption="A common silverfish, Lepisma saccharinum (London, Ontario). Silverfish are humidity-seekers that gather in damp basements and struggle to breed once the air is dry." />
+          <Photo id="house-centipede-on-wall" alt="House centipede with long striped legs on a pale wall" caption="A house centipede, Scutigera coleoptrata, on a wall (Sandusky, Ohio). House centipedes are another humidity-seeker of damp lower levels, which a dehumidifier held at 45–50% makes less inviting." />
           <p>Drying a large basement to a steady 45&ndash;50% RH does not poison anything &mdash; it simply removes the conditions those pests depend on, which is a slower but far more durable kind of control than any spray. This is why the capacity question matters for pests specifically: an undersized unit that can never pull a big wet basement below 60% leaves the door open to exactly the infestations you were trying to prevent, while a right-sized flagship that holds 45&ndash;50% closes it. Pair the dehumidifier with a <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum</Link> to remove what is already there and an <Link href="/blog/best-air-purifier-for-dust-mites-canada">air purifier for dust-mite allergen</Link>, and you have addressed the root cause rather than chasing symptoms. Our dedicated <Link href="/blog/best-dehumidifier-for-mold-canada">dehumidifier for mould guide</Link> goes deeper on the humidity thresholds mould specifically needs.</p>
 
           <h2>Running Cost and Efficiency on an Always-On Machine</h2>
@@ -306,6 +347,28 @@ export default function BestLargeCapacityDehumidifierCanadaPage() {
             <li><strong>Smart-app connectivity and cosmetics (skip if budget is tight).</strong> Pleasant, but they do nothing for moisture removal. Buy these only after the essentials above are covered.</li>
           </ul>
           <p>Read that as a spending map: put your dollars into capacity, defrost, efficiency, and drainage, and treat the rest as optional. A value compressor unit can be an excellent choice for a big-but-not-soaked basement &mdash; it simply asks you to accept lower efficiency and gravity-only drainage in exchange for a lower price, which is a fair trade for the right space.</p>
+
+          <h2>Which Large Dehumidifier for Your Basement</h2>
+          <ul>
+            <li><strong>Big open basement with a floor drain or sump below the unit:</strong> a 50-pint ENERGY STAR unit on a drain hose, like the Midea Cube picked above.</li>
+            <li><strong>The only drain is a laundry sink or a window:</strong> a built-in pump model; Frigidaire&rsquo;s pushes water up into a sink or out of a window.</li>
+            <li><strong>The basement sits below 18&deg;C:</strong> a unit rated for low temperatures (Frigidaire: down to 41&deg;F), or a product made for lower temperatures, as Natural Resources Canada advises.</li>
+            <li><strong>Replacing an old 70-pint unit:</strong> ENERGY STAR says the smaller capacity on a new model may still meet your needs, because the test changed, not the machine.</li>
+            <li><strong>Wet and over 2,000 sq ft, or split into closed rooms:</strong> 50+ pints for the main space (ENERGY STAR) and a second unit for rooms that do not share air.</li>
+            <li><strong>Mould on walls or in corners:</strong> see our <Link href="/blog/best-dehumidifier-for-mold-canada">dehumidifier for mould guide</Link>, which covers Health Canada&rsquo;s mould steps.</li>
+          </ul>
+
+          <h2>Large Dehumidifier Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A capacity rated on today&rsquo;s test.</strong> Pints from 2019 and later are not comparable with older ones (ENERGY STAR).</li>
+            <li><strong>Sized from ENERGY STAR&rsquo;s chart, rounded up:</strong> &ldquo;it&rsquo;s better to oversize than undersize.&rdquo;</li>
+            <li><strong>The exact model on Natural Resources Canada&rsquo;s ENERGY STAR list;</strong> NRCan says certified units use nearly 15% less energy on average.</li>
+            <li><strong>A humidistat you can set to 45&ndash;50%;</strong> NRCan says every ENERGY STAR dehumidifier has one.</li>
+            <li><strong>The right drain:</strong> a hose to a lower drain, or a built-in pump.</li>
+            <li><strong>Automatic defrost and a low-temperature rating</strong> for a basement under 18&deg;C.</li>
+            <li><strong>A maker&rsquo;s coverage figure that fits your basement</strong> (Midea: up to 4,500 sq ft for its 50-pint Cube).</li>
+            <li><strong>A Canadian electrical certification mark and a warranty you can claim here.</strong></li>
+          </ol>
 
           <h2>Is the Expensive Flagship Worth It, or Will a Cheaper Unit Do?</h2>
           <p>It depends on how wet your basement really is. For a big basement that is merely stuffy and slightly damp, a value high-capacity compressor with gravity drainage will hold 45&ndash;50% competently, and the flagship premium is genuinely optional &mdash; you can save the money. But for a <strong>chronically wet basement</strong>, a space you are running all season, or a lower level where you are fighting an active pest or mould problem tied to humidity, the flagship earns its cost. The three things you pay up for &mdash; genuine sustained capacity, Energy Star efficiency, and reliable auto-defrost &mdash; are exactly the three things a cheap unit fakes or omits, and a small unit grinding away in a big wet basement is a false economy that costs more to run while controlling less.</p>

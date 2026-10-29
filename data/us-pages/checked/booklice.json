@@ -2,7 +2,7 @@
  "id": "booklice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ed2652d95611d0422f65760657296a3318a984b8099fa35347e09e78123e43df",
+ "sha": "e5d766d02272153153efefd29a8be08bc678093bf79905a5c622cc33f0b65816",
  "claimsChecked": 190,
  "claimsCorrected": 15,
  "claimsRemovedOrSoftened": 12,
@@ -17,6 +17,16 @@
    "on": "2026-10-25",
    "note": "Oct 25: added a 'commonly confused' card linking /blog/pseudoscorpions (note restates the checked Missouri Department of Conservation description on that page: pincers like a scorpion's, rounded rear with no stinger); no other change",
    "previousSha": "364ebc96a17cc4ef5ac839f16a4a3d850d0bf864f3110cc1ac604c653c5cfeca"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/tiny-white-bugs (new page); no fact changed",
+   "previousSha": "ed2652d95611d0422f65760657296a3318a984b8099fa35347e09e78123e43df"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: wording of the new /blog/tiny-white-bugs link sentence tightened (it said photos of each one); no fact changed",
+   "previousSha": "5dd01c6444fd4d17f3f2bf790ff246d63f1d5d0536d53e86a6ae59008e627fce"
   }
  ]
 }

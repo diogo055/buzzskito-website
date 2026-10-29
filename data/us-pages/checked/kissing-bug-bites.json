@@ -1,0 +1,10 @@
+{
+ "id": "kissing-bug-bites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "27b51cfff59f41d861d2927ab83e1496775c238a50bd0276b12f254135b11c95",
+ "claimsChecked": 139,
+ "claimsCorrected": 12,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-29"
+}

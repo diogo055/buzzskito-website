@@ -1,0 +1,10 @@
+{
+ "id": "bugs-in-carpet",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "8a3e75732957cca47f32e570823c43502fa762fa07ce306005f926f87eb4fef7",
+ "claimsChecked": 330,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-29"
+}

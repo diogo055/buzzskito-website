@@ -1,0 +1,10 @@
+{
+ "id": "japanese-beetles",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a5d087a0fd35b132304c0d527a0c9ed56338be1b213fedf7c04d9fa2c4e4a231",
+ "claimsChecked": 338,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-29"
+}

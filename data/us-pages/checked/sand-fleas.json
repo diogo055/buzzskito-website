@@ -1,0 +1,10 @@
+{
+ "id": "sand-fleas",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ded69e934d35444510aabab66e3511ee568724bee28231c0fe1d688d2f62230c",
+ "claimsChecked": 230,
+ "claimsCorrected": 14,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-10-29"
+}

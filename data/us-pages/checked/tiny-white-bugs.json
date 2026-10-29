@@ -1,0 +1,10 @@
+{
+ "id": "tiny-white-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "ffedc5ce9b89cd55808bd4758c3778197e51ed55fdf7066268b4a6be79da6b5d",
+ "claimsChecked": 330,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-29"
+}

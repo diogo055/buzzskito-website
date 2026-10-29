@@ -1,0 +1,229 @@
+{
+  "slug": "bugs-in-bathroom",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "bugs in bathroom",
+  "alsoTargets": [
+    "bathroom bugs",
+    "small bugs in bathroom",
+    "tiny bugs in bathroom",
+    "bugs in shower",
+    "bugs in bathtub",
+    "bugs in bathroom sink",
+    "why are there bugs in my bathroom",
+    "bugs in bathroom at night"
+  ],
+  "metaTitle": "Bugs in the Bathroom? Identify Them (Photos)",
+  "metaDescription": "Bugs in a bathroom are mostly moisture lovers: drain flies, springtails, silverfish, house centipedes and cockroaches. Sort yours by where you saw it.",
+  "h1": "Bugs in the Bathroom: What They Are and Why They Are There (Photos)",
+  "dek": "Where you saw the bug, in the drain, on the floor, up by the ceiling or under the sink, narrows it to a few suspects. Real photos, sizes in inches and the fix for each, from extension and government guides.",
+  "breadcrumb": "Bugs in the Bathroom",
+  "excerpt": "Drain fly, springtail, silverfish, house centipede or cockroach? Sort the bugs in your bathroom by where you found them, with photos, sizes and the fix for each.",
+  "datePublished": "2026-10-30",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Most bugs in a bathroom are there for the moisture, and where you saw one sorts it: fuzzy flies by a drain are drain flies, jumping specks at the tub are springtails, a silvery crawler with three tails is a silverfish, and a fast runner with 15 pairs of long legs is a house centipede.** Cockroaches, booklice, ants and spiders turn up too.",
+    "bullets": [
+      "Drain flies are about 1/8 inch long, fuzzy and moth-like, and [UC IPM's drain fly guide](https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/) says bathroom drains are the most common place they breed in homes.",
+      "Springtails are pinhead-sized jumpers that gather where water collects, such as tubs, drains and sinks, and [Colorado State University Extension](https://extension.colostate.edu/resource/springtails/) says they cannot bite.",
+      "Silverfish are about 1/2 inch long, sometimes 3/4 inch, with three tail-like appendages, and [UC IPM's silverfish guide](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/) says one that falls into a tub cannot climb the slippery sides.",
+      "House centipedes grow up to 1 1/2 inches long with 15 pairs of long legs, and [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/house-centipede) says they do not come up through drain pipes.",
+      "German cockroaches, about 1/2 inch with two dark stripes behind the head, prefer kitchens and bathrooms, says [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/).",
+      "[EPA](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) advises running the bathroom fan or opening a window when you shower and keeping indoor humidity below 60 percent, ideally 30 to 50."
+    ]
+  },
+  "facts": {
+    "title": "Bathroom bugs: quick ID",
+    "head": ["Bug", "Size and look", "Where in the bathroom", "Crawls, jumps or flies", "Bites or harm"],
+    "rows": [
+      ["Drain fly", "1/16 to 1/5 inch; gray, fuzzy, moth-like", "Sink, tub and shower drains", "Flies a few feet at a time", "Does not bite"],
+      ["Springtail", "About 1/25 to 1/12 inch (1 to 2 mm); white to black", "Tubs, sinks and drains, where water collects", "Jumps", "Cannot bite"],
+      ["Silverfish", "About 1/2 inch, up to 3/4 inch; silvery, three tails", "Trapped in the tub or sink; cracks by day", "Runs fast; no wings", "Does not bite; damages paper"],
+      ["House centipede", "Up to 1 1/2 inches; 15 pairs of long, banded legs", "Damp floors and walls; trapped in the tub", "Runs fast", "Could bite; considered harmless"],
+      ["German cockroach", "About 1/2 inch; light brown, two dark stripes behind the head", "Warm, humid cracks near water", "Crawls; hides by day", "Allergen source; may carry germs"],
+      ["American or Oriental cockroach", "1 1/4 to 2 inches; reddish brown (American) or almost black (Oriental)", "Tub, sink or floor drain; ground floor", "Crawls; Oriental moves slowly", "Allergen source; Americans can carry food-poisoning bacteria"],
+      ["Booklouse", "Usually under 1/16 inch; soft, pale to light brown", "Damp, moldy surfaces in humid rooms", "Crawls; most indoor kinds wingless", "Does not bite"],
+      ["Cellar spider", "Body up to about 1/4 inch; very long, thin legs", "Ceiling corners, in loose, messy webs", "Hangs upside down in its web", "Harmless"],
+      ["Fungus gnat", "1/16 to 1/8 inch; dark, like a small mosquito", "Near a potted plant or the window", "Flies weakly", "Does not bite"],
+      ["Earwig", "About 3/4 inch; reddish brown, pincers at the tail", "Dark, damp hiding spots; out at night", "Crawls", "Can bite if trapped in clothing; not harmful"],
+      ["Pill bug", "Up to about 3/4 inch; oval, rolls into a ball", "Floor of a ground-level bathroom", "Crawls", "Does not bite or sting"],
+      ["Millipede", "1/2 inch or longer; brownish, many short legs, curls up", "Floor, after very wet or dry spells outside", "Crawls", "Does not bite; some ooze an irritating liquid"]
+    ],
+    "caption": "Sizes and habits from UC IPM, Texas A&M AgriLife, Penn State, Colorado State, Iowa State, the University of Florida, Virginia Tech, the Missouri Department of Conservation and the University of Kentucky, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the bugs in my bathroom?" },
+    { "type": "p", "text": "Most bathroom bugs need moisture: drain flies breed in the drains, springtails gather where water collects, silverfish and booklice need damp air, house centipedes hunt small insects, and German cockroaches favor kitchens and bathrooms. UC IPM names bathroom drains as the most common place drain flies breed in homes, [Penn State Extension](https://extension.psu.edu/springtails) says indoor springtail problems are more common in bathrooms and basements, and [Virginia Tech](https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html) lists bathrooms among the places silverfish are commonly seen." },
+    { "type": "figure", "src": "/guides/photos/drain-fly-bathroom-wall.webp", "width": 1099, "height": 906, "alt": "Fuzzy gray drain fly with broad, iridescent, leaf-shaped wings held flat, resting on a textured white bathroom wall", "caption": "A drain fly (Clogmia albipunctata), also called a moth fly, on a bathroom wall in California. Look for the fuzzy body and broad, hairy wings.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/57179699" },
+    { "type": "p", "text": "The sections below go by where you saw the bug: the drain and tub, the floor and walls, the ceiling and window, under the sink, and at night. To sort by color instead, see the guides to [tiny black bugs in the house](/blog/tiny-black-bugs), [tiny brown bugs](/blog/tiny-brown-bugs) and [tiny white bugs](/blog/tiny-white-bugs); for other rooms, see [bugs in the kitchen](/blog/bugs-in-kitchen) and [bugs in carpet](/blog/bugs-in-carpet)." },
+
+    { "type": "h2", "text": "How do you tell which bathroom bug you have?" },
+    { "type": "p", "text": "Trap it under a clear jar or on clear tape and run these checks. A magnifying glass helps, since many of these insects are 1/8 inch long or smaller." },
+    { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
+      "**Does it fly?** Fuzzy and moth-like: a drain fly. Dark and delicate, like a small mosquito: a fungus gnat. Humpbacked, running and stopping before it takes off: a phorid fly.",
+      "**Does it jump?** A pinhead-sized speck that springs away near the tub or sink is a springtail.",
+      "**Three long tails?** A slender, wingless insect tapering to three tail-like appendages is a silverfish, or its mottled relative, the firebrat.",
+      "**Lots of legs?** Fifteen pairs of long, banded legs: a house centipede. Many short legs on a brownish body that curls up: a millipede. Seven pairs, and it rolls into a ball: a pill bug.",
+      "**Brown to black, 1/2 inch or longer?** Check the cockroach rows in the table above.",
+      "**Tiny, soft and pale, and it does not jump?** Probably a booklouse.",
+      "**Very long, thin legs, in a loose web up high?** A cellar spider.",
+      "**How big is it?** Lay it beside a ruler marked in inches and find its row in the table."
+    ] },
+
+    { "type": "h2", "text": "What are the bugs in the bathroom sink, tub or shower drain?" },
+    { "type": "p", "text": "Small flies around a drain, and larvae inside it, are often drain flies, sometimes phorid flies, and tiny jumpers around the tub are springtails. A silverfish or house centipede in a dry tub fell in, while a cockroach may have come up through damaged plumbing." },
+    { "type": "h3", "text": "Drain flies" },
+    { "type": "figure", "src": "/guides/photos/drain-flies-sink.webp", "width": 1200, "height": 1200, "alt": "Three small, dark, fuzzy-winged drain flies on the white porcelain of a bathroom sink, with the chrome drain strainer in the lower corner", "caption": "Three drain flies (Clogmia albipunctata) on the porcelain of a bathroom sink in New York, beside the drain.", "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/28811964" },
+    { "type": "p", "text": "A drain fly looks like a tiny fuzzy moth. [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) gives adults as 1/16 to 1/5 inch long, grayish and densely hairy, usually flying only a few feet at a time, and UC IPM's drain fly guide says they rest with their wings held roof-like over the back and do not bite people. They breed in the slimy film inside sink and shower drains. Texas A&M describes the larvae as brown, sometimes banded and up to 3/8 inch long, and UC IPM notes a breathing tube at one end." },
+    { "type": "figure", "src": "/guides/photos/drain-fly-larva.webp", "width": 1200, "height": 855, "alt": "Segmented gray-brown drain fly larva with fine hairs along its body and a dark breathing tube at one end, on a white background", "caption": "A drain fly larva (Clogmia albipunctata) that the photographer found in a sink, shown on white. Look for the breathing tube at one end.", "credit": "(c) carnifex, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/29101450" },
+    { "type": "p", "text": "To find the breeding drain, UC IPM suggests turning a cup coated inside with petroleum jelly or vegetable oil upside down over each drain for 24 hours. Then scrub the film out of the pipe and trap with a stiff brush, as Texas A&M advises; UC IPM calls pouring boiling water or bleach down the drain a common misconception that gives at best short-term control. [Step-by-step drain fly control](/blog/how-to-get-rid-of-drain-flies) has the details." },
+    { "type": "h3", "text": "Phorid flies" },
+    { "type": "p", "text": "A phorid fly is about 1/8 inch long and humpbacked, and Texas A&M notes that it often runs and stops repeatedly before taking off. Its larvae live in moist, decaying matter such as drain pipes, garbage and broken disposals, and Texas A&M says sewer leaks under a building can cause severe indoor infestations. [How to get rid of gnats](/blog/how-to-get-rid-of-gnats) compares the small flies side by side." },
+    { "type": "h3", "text": "Springtails" },
+    { "type": "figure", "src": "/guides/photos/springtails-under-houseplant.webp", "width": 1200, "height": 800, "alt": "About ten small, slender white springtails scattered over a speckled blue and tan surface beside a crumb of soil", "caption": "White soil springtails (subfamily Onychiurinae) found indoors under a potted houseplant in Wisconsin. Most that get into homes are about 1/25 to 1/12 inch long.", "credit": "(c) Cole Wolf, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/354557747" },
+    { "type": "p", "text": "Springtails are the jumpers. Colorado State University Extension describes them as pinhead-sized and mostly gray or purplish, springing away with a forked structure folded under the body, and says that indoors they gather where water collects, such as bathrooms, drains, tubs and sinks. Penn State says most kinds that get into homes are about 1/25 to 1/12 inch (1 to 2 mm) long and white to black. They cannot bite, and their migrations usually last less than a week, Colorado State says. [The springtail guide](/blog/springtails) covers them room by room." },
+    { "type": "media", "needed": "Springtails on the white surface of a bathtub, shower pan or sink beside the drain, photographed where found next to a ruler marked in inches (public domain or CC0)" },
+    { "type": "h3", "text": "Silverfish, centipedes and cockroaches in the tub" },
+    { "type": "p", "text": "A larger bug in a dry tub usually fell in. UC IPM's silverfish guide says silverfish cannot crawl up through a drain but cannot climb the slippery sides once they fall in, and Virginia Tech says homeowners may not know they have silverfish until one turns up trapped in the bathtub or sink. Iowa State says house centipedes do not come up through drain pipes either, though Penn State lists floor drains without a water trap among their hiding places." },
+    { "type": "media", "needed": "A silverfish trapped in a white bathtub or sink, photographed where found beside a ruler marked in inches (public domain or CC0)" },
+    { "type": "p", "text": "Cockroaches are the exception. UC IPM's cockroach guide says Oriental cockroaches may be found trapped in sinks or tubs after falling in or after climbing up through damaged drain pipes, and that American cockroaches sometimes wander up from sewers where pipes are damaged or drain traps are faulty. See [whether cockroaches really come up through drains](/blog/where-do-cockroaches-come-from), [the Oriental cockroach guide](/blog/oriental-cockroaches) and [how a true water bug differs from a cockroach](/blog/water-bugs-vs-cockroaches)." },
+
+    { "type": "h2", "text": "What are the bugs on the bathroom floor, walls and baseboards?" },
+    { "type": "p", "text": "Silverfish and house centipedes are the common crawlers here. Booklice turn up on damp, moldy surfaces, ants come in for water, and pill bugs, millipedes and earwigs wander into ground-floor bathrooms from outside." },
+    { "type": "h3", "text": "Silverfish" },
+    { "type": "figure", "src": "/guides/photos/gray-silverfish.webp", "width": 1200, "height": 891, "alt": "Gray silverfish seen from above beside white-painted trim, its scaly, tapering body fringed with bristles and its long antennae reaching forward", "caption": "A gray silverfish (Ctenolepisma longicaudatum), also called the long-tailed silverfish, beside white-painted trim in Texas.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/109156875" },
+    { "type": "p", "text": "UC IPM describes the silverfish as slender, wingless and shiny silver or pearl gray, about 1/2 inch long and sometimes 3/4 inch, with two long antennae and three tail-like appendages. It hides by day and, at higher temperatures, needs relative humidity above 75%. The [University of Florida](https://ask.ifas.ufl.edu/publication/IG094) notes that in bathrooms, cornstarch-based cosmetics can feed it, and Virginia Tech says silverfish do not bite, sting or transmit diseases. [How to get rid of silverfish](/blog/how-to-get-rid-of-silverfish) starts with the humidity." },
+    { "type": "h3", "text": "House centipedes" },
+    { "type": "figure", "src": "/guides/photos/house-centipede-on-wall.webp", "width": 1200, "height": 850, "alt": "House centipede on a pale painted wall, its striped body ringed by long, banded legs and two very long antennae", "caption": "An adult house centipede (Scutigera coleoptrata) on a painted wall in Ohio, showing the long, banded legs and very long antennae.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/331736980" },
+    { "type": "p", "text": "Iowa State describes the house centipede as up to 1 1/2 inches long with 15 pairs of long, banded legs, says centipedes favor damp parts of basements, closets and bathrooms, and calls the house centipede harmless to people, though technically it could bite. [UC IPM's centipede and millipede guide](https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/) says it runs rapidly, comes out at night to hunt, and is beneficial because it catches flies, cockroaches and other small household pests. More in [the house centipede guide](/blog/house-centipedes)." },
+    { "type": "h3", "text": "Booklice" },
+    { "type": "p", "text": "Booklice are tiny, soft and pale: usually under 1/16 inch and translucent white to light brown, the University of Florida says, with most indoor kinds wingless. [Penn State Extension's booklouse page](https://extension.psu.edu/booklice) says they feed on mold and fungi in humid, damp places, so they signal high moisture, and that they do not bite. [The booklice guide](/blog/booklice) shows them up close." },
+    { "type": "h3", "text": "Ants" },
+    { "type": "p", "text": "[UC IPM's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants come indoors for food and water, describes odorous house ants as 1/8 inch and dark brown to shiny black, nesting in wall voids or around water pipes, and advises fixing leaky faucets. Large, dark ants deserve a closer look: [Penn State Extension's carpenter ant page](https://extension.psu.edu/carpenter-ants) gives workers as 1/4 to 1/2 inch and tells homeowners to check wood kept wet by leaking bathtubs or showers, though a worker indoors does not necessarily mean a nest is inside. [The guide to tiny house ants](/blog/tiny-ants) sorts the small species." },
+    { "type": "h3", "text": "Pill bugs, millipedes and earwigs" },
+    { "type": "p", "text": "These wander in from outdoors. The [University of Kentucky](https://entomology.mgcafe.uky.edu/ef439) says pill bugs, rarely over 3/4 inch, move into ground-level floors looking for water, rarely survive indoors without high moisture, and do not bite or sting. UC IPM says stray millipedes usually die quickly indoors and do not bite, though some ooze an irritating liquid. [UC IPM's earwig guide](https://ipm.ucanr.edu/home-and-landscape/earwigs/) describes earwigs as about 3/4 inch and reddish brown, with pincers at the tail, coming in when it is too dry, hot or cold outside; they can bite if trapped in clothing but are not harmful." },
+    { "type": "p", "text": "See the guides to [pill bugs](/blog/pill-bugs), [millipedes](/blog/millipedes) and [getting rid of earwigs](/blog/how-to-get-rid-of-earwigs), or [an earlier earwig guide written for Canadian homes](/blog/how-to-get-rid-of-earwigs-canada)." },
+
+    { "type": "h2", "text": "What are the bugs on the bathroom ceiling, light or window?" },
+    { "type": "p", "text": "Up high, expect drain flies resting on the walls, cellar spiders in loose webs in the corners, and fungus gnats at the window. For a fuzzy fly on the wall, UC IPM advises inspecting every drain in any room where you find the adults." },
+    { "type": "h3", "text": "Cellar spiders" },
+    { "type": "figure", "src": "/guides/photos/cellar-spider-bathroom-corner.webp", "width": 1200, "height": 1200, "alt": "Cellar spider with a small oval body and very long, thin legs resting where a white bathroom surface meets dark wood trim, with wisps of web at the joint", "caption": "A Manuel's cellar spider (Pholcus manueli) in a corner of an upstairs bathroom in Virginia, where a white surface meets wood trim.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/325836179" },
+    { "type": "p", "text": "The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/cellar-spiders) describes cellar spiders as having bodies usually no more than about 1/4 inch long on extremely long, thin legs, hanging upside down in messy webs in corners along the ceiling, and calls them harmless. [The cellar spider guide](/blog/daddy-long-legs) explains why they are called daddy long legs." },
+    { "type": "h3", "text": "Fungus gnats" },
+    { "type": "p", "text": "[UC IPM's fungus gnat guide](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) describes dark, delicate flies 1/16 to 1/8 inch long that look like small mosquitoes, are drawn to light and may first be noticed at windows, and do not bite people. Texas A&M says they most often come from houseplant potting soil, especially in winter. See [the houseplant bug guide](/blog/houseplant-bugs) or [a guide to fungus gnats in houseplants](/blog/how-to-get-rid-of-fungus-gnats-houseplants)." },
+
+    { "type": "h2", "text": "What bugs hide under the bathroom sink?" },
+    { "type": "p", "text": "Check for German cockroaches first. UC IPM says they prefer kitchens and bathrooms, in warm, humid spots near food, water and dark hiding places, and describes them as about 1/2 inch long and light brown, with two dark stripes on the shield behind the head. Ants nesting near water pipes and silverfish also take to a damp cabinet." },
+    { "type": "p", "text": "UC IPM calls sticky traps the best way to detect and monitor cockroaches. [The German cockroach guide](/blog/german-cockroaches) covers control, and [signs of cockroaches](/blog/signs-of-cockroaches) shows what else to look for. If a leak has soaked the cabinet, [EPA's mold and moisture guide](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) says to dry water-damaged materials within 24 to 48 hours." },
+
+    { "type": "h2", "text": "Which bathroom bugs come out at night?" },
+    { "type": "p", "text": "Mainly cockroaches, silverfish, house centipedes and earwigs. UC IPM says almost all cockroaches are nocturnal, that silverfish are nocturnal and hide during the day, that house centipedes hunt at night and that earwigs feed most actively at night, and [Penn State Extension's house centipede page](https://extension.psu.edu/house-centipedes) agrees on the centipedes." },
+    { "type": "figure", "src": "/guides/photos/cockroach-molting-bathroom.webp", "width": 1200, "height": 833, "alt": "Cockroach on a white surface pulling its pale cream new body free of its old reddish-brown skin, the old skin still around the tip of the abdomen", "caption": "A cockroach, species not identified, molting in a building's bathroom in Louisiana: its pale new body is pulling free of the old reddish-brown skin.", "credit": "abbeyprivate, Public domain, via Wikimedia Commons", "license": "public-domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Molting_Cockroach_-_An_%22Alien%22_being_born_in_the_3rd_floor_east_bathroom!.jpg" },
+    { "type": "p", "text": "A white cockroach has just molted: UC IPM says cockroaches are white right after molting and darken within hours, and [the white cockroach guide](/blog/white-cockroach) explains what one means. One roach at night is not necessarily an infestation, since UC IPM treats an established population differently from a stray or two. [The step-by-step plan for getting rid of cockroaches](/blog/how-to-get-rid-of-cockroaches) and [the complete guide to cockroaches](/learn/cockroaches) go further." },
+    { "type": "confused", "title": "The usual bathroom suspects", "items": [
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly", "photo": "drain-fly", "note": "Fuzzy and moth-like, about 1/8 inch; breeds in the slimy film inside drains", "alt": "Fuzzy grayish-brown drain fly resting on a white wall with its broad, hairy wings spread flat" },
+      { "href": "/blog/springtails", "name": "Springtail", "photo": "springtail", "note": "Pinhead-sized jumper that gathers around tubs, sinks and drains", "alt": "Pale springtail with dark bands across its body and long antennae on a green leaf, beside a scale bar of 1 mm (about 1/25 inch)" },
+      { "href": "/blog/how-to-get-rid-of-silverfish", "name": "Silverfish", "photo": "silverfish", "note": "Carrot-shaped and wingless, about 1/2 inch, with three long tail-like appendages", "alt": "Dark gray, scaly silverfish on a pale surface, with long antennae in front and three long tail filaments behind" },
+      { "href": "/blog/house-centipedes", "name": "House centipede", "photo": "house-centipede", "note": "Up to 1 1/2 inches with 15 pairs of long, banded legs; runs fast", "alt": "House centipede seen from above on a textured wall under blue light, its long, banded legs fanned out on both sides" },
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse", "note": "Usually under 1/16 inch, soft, pale to light brown; feeds on mold in humid rooms", "alt": "Magnified booklouse seen from above, with a soft, segmented brown body, a wide head and two very long, thin antennae" },
+      { "href": "/blog/german-cockroaches", "name": "German cockroach", "photo": "german-cockroach-adult", "note": "About 1/2 inch and light brown, with two dark stripes behind the head", "alt": "Light brown German cockroach seen from above on a white surface, with two dark stripes behind the head and very long antennae" }
+    ] },
+
+    { "type": "h2", "text": "Why are there bugs in my bathroom?" },
+    { "type": "p", "text": "Mostly water. Bathrooms offer damp air, drips and leaks, the slimy film inside drains, and gaps around pipes; UC IPM and the University of Florida say silverfish and firebrats travel along pipelines from one room or floor to another. Weather drives others in: springtails during long droughts or soaking rains (Penn State), earwigs when it is too dry, hot or cold, and ants away from heat or flooding (UC IPM). House centipedes go where insects are, and fungus gnats are drawn to light." },
+    { "type": "p", "text": "The fix is the one EPA gives for mold: run the fan or open the window when you shower, fix plumbing leaks quickly, and keep indoor humidity below 60 percent, ideally 30 to 50; EPA notes that a small humidity meter can measure it. UC IPM and the University of Florida add sealing the gaps around pipes." },
+
+    { "type": "h2", "text": "Do bathroom bugs bite or make you sick?" },
+    { "type": "p", "text": "Most do not bite; the last column of the table at the top gives each one. Cockroaches are the health concern: UC IPM says indoor cockroach infestations are important sources of allergens and have been identified as risk factors for asthma in children, and that American cockroaches can carry bacteria that cause food poisoning. It adds that drain flies have the potential to carry pathogens from where they breed, a concern mainly where sterility matters. See [whether cockroaches bite people](/blog/do-cockroaches-bite)." },
+
+    { "type": "h2", "text": "When do bugs in the bathroom mean a bigger problem?" },
+    { "type": "p", "text": "Repeat sightings and large numbers do. Watch for these:" },
+    { "type": "ul", "items": [
+      "**Drain flies that return after cleaning, or swarm.** UC IPM says very large numbers probably mean a breeding site bigger than a few indoor drains, and that if none are breeding in the drains, pipes in crawl spaces, wall voids and under slabs may need checking for breaks or leaks.",
+      "**Swarms of phorid flies.** Texas A&M links severe indoor infestations to sewer leaks under a building.",
+      "**Cockroaches again and again.** UC IPM separates an established population from a stray or two; sticky traps show which you have.",
+      "**Large, dark ants.** Penn State ties carpenter ants to wood kept wet by leaking tubs and showers.",
+      "**Pill bugs over and over.** The University of Kentucky says frequent indoor sightings can signal a moisture problem or a gap at a seal, window or door.",
+      "**Many house centipedes.** Penn State says frequent sightings may mean the insects they eat are plentiful."
+    ] },
+
+    { "type": "h2", "text": "What should you do once you know what it is?" },
+    { "type": "p", "text": "Take away the water and whatever the bug lives on; the extension sources put that ahead of any spray." },
+    { "type": "ul", "items": [
+      "**Drain and phorid flies:** scrub the drain and trap with a stiff brush; Texas A&M says insecticides alone rarely solve indoor fly problems. See [the drain fly guide](/blog/how-to-get-rid-of-drain-flies).",
+      "**Springtails:** fix leaks, keep the bathroom well ventilated and run a dehumidifier; Colorado State calls insecticides of questionable value. See [how to deal with springtails](/blog/springtails).",
+      "**Silverfish:** repair drips, patch gaps around pipes, dehumidify and set sticky traps (UC IPM); see [silverfish control, step by step](/blog/how-to-get-rid-of-silverfish).",
+      "**Booklice:** bring humidity below 50% and fix the water problem; Penn State says pesticides are not normally needed.",
+      "**House centipedes:** dry and clean their damp hiding spots (Iowa State) and run a dehumidifier (Penn State).",
+      "**Cockroaches:** seal cracks, monitor with sticky traps and, if needed, use baits rather than sprays (UC IPM); [the cockroach control plan](/blog/how-to-get-rid-of-cockroaches) puts the steps in order.",
+      "**Ants:** find where they come in and seal it with caulk; UC IPM says spraying indoors will not stop more ants. [Getting rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house) covers baits.",
+      "**Pill bugs, millipedes and earwigs:** sweep or vacuum them up, seal gaps at doors and windows, and clear leaves and mulch away from the foundation (University of Kentucky, UC IPM).",
+      "**Fungus gnats:** let the potting mix dry between waterings and use yellow sticky traps (UC IPM).",
+      "**Cellar spiders:** harmless; [the cellar spider guide](/blog/daddy-long-legs) covers clearing their webs."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Seal the bug in a small jar or press it onto clear tape, photograph it beside a ruler marked in inches, and note where in the bathroom you found it. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Why do I keep getting bugs in my bathroom?",
+      "answer": "Usually because the bathroom keeps giving them water. Drain flies breed in the slimy film inside sink and shower drains, UC IPM says, and boiling water or bleach gives at best short-term control, so the film has to be scrubbed out. Silverfish need high humidity, springtails and booklice thrive where it is damp and moldy, and the University of Kentucky says pill bugs that keep turning up can signal a moisture problem or a gap at a door or window. Fixing leaks, running the fan when you shower and keeping indoor humidity below 60 percent, as EPA advises, cuts the moisture that draws them."
+    },
+    {
+      "question": "What kind of bugs can live in shower drains?",
+      "answer": "Drain flies are the best-known ones. UC IPM says their larvae develop in the slimy organic matter coating sink and shower drains and that bathroom drains are the most common breeding sites in homes. Texas A&M AgriLife Extension describes the larvae as brown, sometimes banded and up to 3/8 inch long, and says phorid fly larvae can live in drain pipes too. Springtails gather around drains and tubs where water collects, Colorado State says, while a silverfish or house centipede in the shower fell in rather than coming from the drain."
+    },
+    {
+      "question": "Can bugs crawl up through the bathroom drain?",
+      "answer": "Silverfish and house centipedes do not, but cockroaches sometimes can. UC IPM says silverfish cannot crawl up through a drain, and Iowa State University Extension says house centipedes do not come up through drain pipes; both end up stuck in tubs and sinks after falling in. UC IPM says Oriental cockroaches may climb up through damaged drain pipes and that American cockroaches sometimes move from sewers onto the ground floor of buildings, especially where pipes are damaged or drain traps are faulty, so damaged pipes and faulty drain traps are worth fixing."
+    },
+    {
+      "question": "What are the tiny bugs in my bathroom that don't have wings?",
+      "answer": "Often springtails or booklice. Colorado State University Extension says springtails are pinhead-sized, gather where water collects around tubs, drains and sinks, and jump using a forked structure folded under the body; the jumping and their small size have earned them the nickname jumping dirt. The University of Florida describes booklice as usually under 1/16 inch, soft and pale, with most indoor kinds wingless, and Penn State Extension says they feed on mold in humid places. Young silverfish are wingless too and look like small adults. None of the three bites people, and lowering the humidity is the main fix for all of them."
+    },
+    {
+      "question": "Should I be worried if I have silverfish in my bathroom?",
+      "answer": "Not for your health. Virginia Tech says silverfish are harmless to people and do not bite, sting or transmit diseases, though they can contaminate food and damage paper and fabric. They are a sign of moisture: UC IPM says they need relative humidity above 75% at higher temperatures and recommends repairing leaks and drips, patching gaps around pipes and running a dehumidifier in closed spaces. A silverfish in the tub fell in; UC IPM says they cannot crawl up through a drain or climb back out over the slippery sides."
+    },
+    {
+      "question": "Why are there bugs in my bathroom at night?",
+      "answer": "Many bathroom bugs are nocturnal. UC IPM says almost all cockroaches are nocturnal, that silverfish are nocturnal and hide during the day, that house centipedes hunt at night, and that earwigs feed most actively at night. Virginia Tech adds that silverfish avoid light and run swiftly. One cockroach seen at night does not prove an infestation, but UC IPM calls sticky traps the best way to detect and monitor cockroaches, so set a few to find out how many there are and where they are coming from."
+    },
+    {
+      "question": "What kills bathroom bugs?",
+      "answer": "For most bathroom bugs, the extension sources favor drying and cleaning over spraying. UC IPM calls pouring boiling water or bleach down a drain a common misconception for drain flies, and Texas A&M says insecticides alone rarely solve an indoor fly problem, so scrubbing the drain film out with a stiff brush is the fix. Colorado State calls insecticides of questionable value against springtails, and Penn State says booklice do not normally need pesticides. For cockroaches and ants, UC IPM prefers baits to sprays. If you use any pesticide, follow its label exactly."
+    },
+    {
+      "question": "How do I stop bugs from coming into my bathroom?",
+      "answer": "Cut off the water, then close the gaps. EPA advises running the bathroom fan or opening a window when you shower, fixing plumbing leaks as soon as possible and keeping indoor humidity below 60 percent, ideally 30 to 50 percent. UC IPM suggests patching holes around pipes and conduits, and the University of Florida suggests sealing cracks around plumbing, wall molding and windowsills. Keep drains scrubbed so drain flies have nowhere to breed. Outside, the University of Kentucky advises clearing leaves, mulch and rotting wood away from the foundation."
+    },
+    {
+      "question": "Will a dehumidifier get rid of bathroom bugs?",
+      "answer": "It helps most with the bugs that need damp air. Penn State Extension calls lowering the humidity with air conditioning or dehumidifiers the best way to manage springtails at home, says bringing humidity below 50% prevents booklice from developing, and recommends dehumidifiers against house centipedes. UC IPM says dehumidifiers in closed spaces can help discourage silverfish. Drain flies breed in the wet film inside drains, which drying the air does not remove, so the drain still needs scrubbing, and cockroaches need traps, sealing and, if needed, baits."
+    },
+    {
+      "question": "Are bathroom bugs dangerous?",
+      "answer": "Most are not. UC IPM, Colorado State, Penn State and Virginia Tech say drain flies, fungus gnats, springtails, booklice and silverfish do not bite people, and Iowa State considers house centipedes harmless even though they technically could bite. Cockroaches are the exception: UC IPM says indoor infestations are important sources of allergens and have been identified as risk factors for asthma in children, and that some species can carry disease-causing organisms. Contact a healthcare provider about any rash, bite or breathing problem that worries you."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
+    { "title": "Pest Notes: Moth or Drain Flies", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/" },
+    { "title": "Pest Notes: Cockroaches (UC ANR Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Pest Notes: Centipedes and Millipedes", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/centipedes-and-millipedes/" },
+    { "title": "Pest Notes: Earwigs", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/earwigs/" },
+    { "title": "Pest Notes: Fungus Gnats", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" },
+    { "title": "Pest Notes: Ants", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "Indoor Flies and Their Control (ENTO-050)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Springtails", "publisher": "Penn State Extension (S. Jacobs)", "url": "https://extension.psu.edu/springtails" },
+    { "title": "Springtails (Fact Sheet 5.602)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/springtails/" },
+    { "title": "House Centipede", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/house-centipede" },
+    { "title": "House Centipedes", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/house-centipedes" },
+    { "title": "Booklice", "publisher": "Penn State Extension (M. J. Skvarla, revised July 2024)", "url": "https://extension.psu.edu/booklice" },
+    { "title": "Booklice and Silverfish (ENY-225/IG094)", "publisher": "University of Florida IFAS Extension (F. Oi, P. Koehler, D. Branscome and B. Bayer)", "url": "https://ask.ifas.ufl.edu/publication/IG094" },
+    { "title": "Silverfish and Firebrats (ENTO-24)", "publisher": "Virginia Cooperative Extension, Virginia Tech", "url": "https://www.pubs.ext.vt.edu/ENTO/ENTO-24/ENTO-24.html" },
+    { "title": "Cellar Spiders (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/cellar-spiders" },
+    { "title": "Carpenter Ants", "publisher": "Penn State Extension (S. Jacobs)", "url": "https://extension.psu.edu/carpenter-ants" },
+    { "title": "Sowbugs and Pillbugs (ENTFACT-439)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef439" },
+    { "title": "A Brief Guide to Mold, Moisture and Your Home", "publisher": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home" }
+  ]
+}

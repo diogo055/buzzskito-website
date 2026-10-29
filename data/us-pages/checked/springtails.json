@@ -2,7 +2,7 @@
  "id": "springtails",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "e6078768acc6cce2db8d2e03d4415619e736aac62e7adb654b3b5cb637e3a599",
+ "sha": "ce5bc06475dfa2fb032c6d5a4f7a9c407922ce9e2e22b2d12e534b87b7923092",
  "claimsChecked": 290,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 5,
@@ -11,5 +11,12 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/bugs-in-bathroom (new page); no fact changed",
+   "previousSha": "e6078768acc6cce2db8d2e03d4415619e736aac62e7adb654b3b5cb637e3a599"
+  }
+ ]
 }

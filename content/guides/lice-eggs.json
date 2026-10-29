@@ -104,7 +104,8 @@
     { "type": "confused", "title": "Also mistaken for lice or nits", "items": [
       { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse-printed-paper", "note": "Lives in damp, dark rooms among paper and books, and does not bite", "alt": "Tiny pale booklouse on printed paper beside a printed letter" },
       { "href": "/blog/flea-eggs", "name": "Flea egg", "photo": "flea-egg-and-larva", "note": "Pearly white and about 1/32 inch, but smooth: falls off pets onto bedding and carpet", "alt": "Magnified pearly oval flea egg beside a pale, segmented, newly hatched flea larva" },
-      { "href": "/blog/fleas-on-humans", "name": "Cat flea", "photo": "cat-flea-on-fingertip", "note": "A jumping pet parasite that also bites people; head lice only crawl", "alt": "Reddish-brown cat flea on the pink skin of a fingertip" }
+      { "href": "/blog/fleas-on-humans", "name": "Cat flea", "photo": "cat-flea-on-fingertip", "note": "A jumping pet parasite that also bites people; head lice only crawl", "alt": "Reddish-brown cat flea on the pink skin of a fingertip" },
+      { "href": "/blog/what-do-lice-look-like", "name": "Adult head louse", "photo": "head-louse-adult-male", "note": "Six legs and about the size of a sesame seed; it crawls, while a nit stays glued to one hair", "alt": "Pale tan, wingless head louse seen from above on a white surface, with six clawed legs" }
     ] },
 
     { "type": "h2", "text": "What does finding nits mean?" },

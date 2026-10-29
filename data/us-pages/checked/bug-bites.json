@@ -2,7 +2,7 @@
  "id": "bug-bites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7f6122816c0064a497f18325bf99206a5526198bf6471da0d01b8958d7cc5eeb",
+ "sha": "431f8e01c946b127f4d9fe15c2d30a8967218bd6825ec76d310bde89de2767e7",
  "claimsChecked": 322,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -27,6 +27,11 @@
    "on": "2026-10-23",
    "note": "photos: bed-bug-bites-wrist-row, flea-bites-ankles-cdc, fire-ant-stings-lower-legs (batch 12, Oct 23)",
    "previousSha": "d2c4490110206b040006d660b608e0cbe80ae5e33fbb5a1f43cbbd8757a778f9"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/mite-bites (new page); no fact changed",
+   "previousSha": "7f6122816c0064a497f18325bf99206a5526198bf6471da0d01b8958d7cc5eeb"
   }
  ]
 }

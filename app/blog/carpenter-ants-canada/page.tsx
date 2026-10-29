@@ -12,12 +12,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'carpenter-ants-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-28'
 const TITLE = 'Carpenter Ants in Canada — Find the Nest, or You Are Just Killing Ants'
-const META_TITLE = 'Carpenter Ants in Canada: Treatment That Works'
+// TITLE NOTE (Oct 28, 2026): was 'Carpenter Ants in Canada: Treatment That Works'; top queries (Jul 28-Oct 25): carpenter ant bait 27 (pos 17.6, 1 click), carpenter ant killer canada 13 (7.5, 1 click), best carpenter ant killer canada 4 (6.2, 1 click), does raid kill carpenter ants 2 (1 click). The 'best carpenter ant bait in Canada' answer stays with /blog/best-ant-traps-canada.
+const META_TITLE = 'Carpenter Ant Killer Canada: Find the Nest First'
 
 const FAQS = [
   {
@@ -46,7 +50,7 @@ const FAQS = [
   },
   {
     question: 'What bait actually works on carpenter ants in Canada?',
-    answer: 'Sugar-based liquid baits are the right format, because carpenter ants are liquid feeders that live on aphid honeydew outdoors and share food mouth-to-mouth throughout the colony. Borax and boric acid liquid ant baits — the Terro-style liquid stations stocked at Canadian Tire, Home Depot Canada and Rona — are the widely available domestic-class option; check that the label carries a PCP registration number and lists carpenter ants. Two rules decide whether it works. Do not spray anywhere near the bait, because you need those foragers alive and walking home. And do not concentrate the mixture to make it stronger — a fast kill leaves a dead ant on the counter instead of a poisoned queen. Expect ant traffic to increase for the first few days as workers recruit to the bait; that is the mechanism working, not failing.',
+    answer: 'Sugar-based liquid baits are the right format, because carpenter ants are liquid feeders that live on aphid honeydew outdoors and share food mouth-to-mouth throughout the colony. Read the pest list before you buy: in Health Canada’s registry (October 2026) the home-use baits whose labels name carpenter ants are spinosad liquid baits such as Raid Max Liquid Ant Baits (PCP 33831) and borate gels and liquids such as Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560), while the Terro-style liquid stations stocked at Canadian Tire, Home Depot Canada and Rona are labelled for common sweet-eating ants. Check that the label carries a PCP registration number and lists carpenter ants. Two rules decide whether it works. Do not spray anywhere near the bait, because you need those foragers alive and walking home. And do not concentrate the mixture to make it stronger — a fast kill leaves a dead ant on the counter instead of a poisoned queen. Expect ant traffic to increase for the first few days as workers recruit to the bait; that is the mechanism working, not failing.',
   },
   {
     question: 'Where do carpenter ants nest inside a house?',
@@ -84,15 +88,28 @@ const FAQS = [
     question: 'What can US homeowners buy to kill carpenter ants?',
     answer: 'Extension services name three kinds of product: slow-acting baits labeled for carpenter ants, dusts containing borates or desiccants such as diatomaceous earth, and pyrethroid sprays such as permethrin or cyfluthrin applied directly into a nest you have located. Check for an EPA registration number, and remember that the label decides where and how a product may be used. University of California and University of Kentucky sources describe fipronil sprays as very effective, but say only licensed applicators can apply them.',
   },
+  {
+    question: 'Does Raid kill carpenter ants?',
+    answer: 'A Raid spray kills the ants it hits, but that is not what ends carpenter ants. Of the current Raid products registered in Canada with ants on the label, only one names carpenter ants: Raid Max Liquid Ant Baits (PCP 33831), a spinosad bait labelled for indoor rooms such as kitchens, basements and attics. The Raid sprays list ants in general, and Health Canada says not to use chemical sprays while a bait system is working. Put the bait on the trail, leave it for at least two weeks, and keep looking for the nest.',
+  },
+  {
+    question: 'What is the best carpenter ant killer in Canada?',
+    answer: 'The one that reaches the nest. For a homeowner that means a slow bait whose Canadian label names carpenter ants, set on the trail, or a dust with a PCP number puffed into a void once you have found the nest. Health Canada’s registry (October 2026) lists twelve home-use products that name carpenter ants, all spinosad or borate baits and gels, among them Raid Max Liquid Ant Baits (PCP 33831), the Neudorff and Family Matters bait stations, and Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560). Ants active indoors in winter, or frass falling from a ceiling, are a job for a licensed operator.',
+  },
+  {
+    question: 'Do ant traps work for carpenter ants?',
+    answer: 'Bait stations can, if the label names carpenter ants and the station sits on the trail the ants actually use. Glue traps do not: they catch the few ants that cross them and say nothing about where the nest is. Health Canada says piles of sawdust may mean you have carpenter ants, and that they damage homes as they destroy wood to make room for their nests, so a station is one part of a job whose real work is finding the nest and the moisture behind it.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Carpenter ants in Canada: telling them from termites, why a winter sighting means a nest inside, why spraying the trail fails, and when to call a pro.',
+  description: 'Carpenter ant killer in Canada: find the nest, then use a bait whose label names carpenter ants. What Health Canada’s registry lists, and when to call a pro.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('carpenter-ant-on-fingers'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -100,7 +117,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function CarpenterAntsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian carpenter ant guide: carpenter ant vs termite vs pavement ant ID, frass, winter indoor sightings, parent vs satellite colonies, moisture as root cause, why repellent sprays fail, liquid baiting, void dusts, and an honest call-a-pro threshold.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian carpenter ant guide: carpenter ant vs termite vs pavement ant ID, frass, winter indoor sightings, parent vs satellite colonies, moisture as root cause, why repellent sprays fail, liquid baiting, void dusts, and an honest call-a-pro threshold.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('carpenter-ant-on-fingers') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Carpenter Ants in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -113,7 +130,7 @@ export default function CarpenterAntsCanadaPage() {
             <span className="text-white">Carpenter Ants</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The ant problem in Ontario with structural consequences, because carpenter ants excavate wood instead of eating your crumbs. Here is how to tell them from termites, why a winter sighting means the nest is inside your walls, and why the spray can is the wrong tool.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> no spray ends carpenter ants; the colony dies when you find the nest. Our pick, a pinless moisture meter, is for anyone with frass and no nest yet, because carpenter ants nest in wood that has been wet. Then set a slow bait whose Canadian label names carpenter ants, such as Raid Max Liquid Ant Baits (PCP 33831), on their night trail, or dust the void once you know where it is.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -131,7 +148,7 @@ export default function CarpenterAntsCanadaPage() {
               <li>Frass is the diagnostic: dry, coarse shavings with legs and wing fragments in it, in a cone under a slit-like opening.</li>
               <li>Carpenter ants do not eat wood &mdash; they excavate wood that is already damp, so a leak or rot is the real problem.</li>
               <li>Parent colony (queen, wet wood, often outdoors) plus satellite colonies (dry wood, inside your walls) is why the problem keeps returning.</li>
-              <li>Liquid borax baits work; granular baits and repellent sprays mostly do not. Never spray near a bait placement.</li>
+              <li>Slow liquid baits whose Canadian label names carpenter ants work; granular baits and repellent sprays mostly do not. Never spray near a bait placement.</li>
               <li>Winged ants indoors, frass from a ceiling, a rustle inside a wall, or any suspicion of termites &mdash; that is the call-a-pro line.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
@@ -290,18 +307,22 @@ export default function CarpenterAntsCanadaPage() {
           <NextUp path="/blog/carpenter-ants-canada" />
           <h2>Confirm It Is a Carpenter Ant — and Not a Termite</h2>
           <p>Carpenter ants (<em>Camponotus</em> species) are among the largest ants found in Ontario, and the two usually identified here are an all-black species and one with a rusty red-brown midsection. Get one under decent light and check three things. The <strong>waist</strong> is sharply pinched, wasp-like, with a single node. The <strong>antennae</strong> are elbowed &mdash; a short first segment, then a distinct bend. And viewed from the side, the <strong>back is a single smooth arch</strong>, not a bumpy or notched profile like most other ants.</p>
+          <Photo id="carpenter-ant-on-fingers" alt="Large shiny black carpenter ant walking across a person's fingers" caption="An eastern black carpenter ant, Camponotus pennsylvanicus, on a person’s hand (Blount County, Alabama); the observer says it walked on the hand and then bit. Check for the pinched waist and the one smooth arch of the back described above." />
           <p>One more tell that surprises people: <strong>size varies within a single colony</strong>. Carpenter ant workers are polymorphic, so a trail can contain small ants around 6 mm walking beside majors well over a centimetre. If you have ants of noticeably different sizes on one trail, that is a carpenter ant signature, not two species meeting.</p>
           <p>The comparison that actually matters is with termites, because the response is different and the cost of getting it wrong runs one direction. A termite has <strong>no waist</strong> &mdash; it is straight-sided from head to abdomen. Its antennae are <strong>straight and beaded</strong>, not elbowed. Termite workers are soft and creamy-white, which is why the old name was &ldquo;white ants.&rdquo; And in swarming season, the wings settle it instantly: a carpenter ant&rsquo;s front pair of wings is clearly longer than the back pair, while all four termite wings are the same length and shed off in tidy piles on a windowsill.</p>
           <p>The damage signatures diverge just as cleanly. Carpenter ants keep their galleries <em>immaculate</em> &mdash; smooth, sanded-looking chambers with all the debris pushed outside. Subterranean termites do the opposite: they pack galleries with soil, and they build mud shelter tubes up foundation walls and joists because they must stay in contact with moist ground. And no, termites are not somebody else&rsquo;s problem in Canada: the eastern subterranean termite is established in documented pockets of southern Ontario, including parts of Toronto and several southwestern Ontario municipalities, some of which run their own termite programs and maintain rules about moving untreated wood or soil out of designated areas. Mud tubes, soil-packed grain, or piles of equal-length wings mean you stop, put the bait away, and get a licensed structural inspection.</p>
+          <Photo id="termite-mud-tubes" alt="Brown mud shelter tubes built by subterranean termites running up an inside wall" caption="Subterranean termite shelter tubes (mud tubes) running up an inside wall of a building (US Marine Corps photograph, Afghanistan). Tubes like these mean termites, not carpenter ants: stop and get a licensed inspection." />
 
           <h2>Frass: The Sign Worth Learning to Read</h2>
           <p>If you find frass, you are ahead of most people fighting this. Frass is the excavated material carpenter ants push out of their galleries through small slit-like openings, and it looks like coarse sawdust or fine pencil shavings &mdash; dry, fluffy, pale, and, critically, <strong>mixed with insect body parts</strong>. Legs, wing fragments, dead ant sections, and whatever else was in the void: shreds of fibreglass insulation, crumbs of rigid foam, bits of old newspaper from a 1960s wall. That inclusion is what distinguishes it from renovation dust or wood-boring beetle powder, which is fine and flour-like.</p>
+          <Photo id="carpenter-ant-frass" alt="Carpenter ant on weathered bark beside a pile of coarse reddish wood shavings" caption="A carpenter ant, Camponotus modoc, on western redcedar bark beside frass, coarse wood shavings; the observer found a heap of it at the base of the tree (Sequim, Washington). Indoors, a pile like this under a window frame or sill plate means a nest above it." />
           <p>Common places it turns up: under a basement window frame, along the top of a foundation wall where the sill plate sits, at the base of a door casing, on the treads below an attic hatch, on top of attic insulation near the soffits, on a deck board directly below the ledger where the deck meets the house, and inside a garage against the wall shared with the living space. Occasionally it drifts down from a ceiling light fixture, which is a fast escalation &mdash; that means a nest in the joist bay above.</p>
           <p>Two things to do with it. First, <strong>sweep it up and mark the date.</strong> If a fresh pile appears within a few days, the nest above it is active right now, which is the green light for treatment and the evidence a professional will want. Second, <strong>do not seal the opening.</strong> The instinct is to caulk the slit shut. Resist it: that opening is your monitor, your access point for dust, and the thing that tells you whether treatment worked. Seal it after the colony is dead, not before.</p>
 
           <h2>The Winter Rule: Ants Indoors in February Means a Nest Indoors</h2>
           <p>Overwintering biology makes an indoor February sighting genuinely diagnostic, and the check costs nothing. Carpenter ants that live outdoors in Ontario go into overwintering dormancy once the cold sets in. They cluster in the nest, they do not forage, and they do not send workers across a snow-covered yard to your kitchen. So a live carpenter ant walking your countertop in January or February did not come in from outside. <strong>It is already inside</strong> &mdash; in a wall void, a subfloor, an attic soffit, the framing behind a shower, or the boxed-in space around a chimney &mdash; kept active all winter by the warmth of the house it is living inside.</p>
           <p>The same logic applies to winged ants. Swarmers are produced by mature colonies and released to found new ones, and outdoor colonies swarm outdoors in spring. Winged carpenter ants emerging <em>inside</em> your house &mdash; typically accumulating at windows, because they fly to light &mdash; means a nest inside the structure that has been there long enough to reach reproductive maturity. In Ontario that usually shows up in late winter or spring, when the interior warmth runs ahead of the season outside.</p>
+          <Photo id="carpenter-ant-winged-queen" alt="Winged black carpenter ant queen resting on a green leaf" caption="A winged queen of the eastern black carpenter ant, Camponotus pennsylvanicus, on a leaf (Waltham, Massachusetts). Winged carpenter ants coming out inside a house mean a mature nest in the structure." />
           <p>Contrast that with the ordinary summer picture: a handful of workers appearing in the kitchen in July, mostly at night, often near a sink or a pet bowl. That could be a foraging trail from a stump at the back of the yard, and the investigation runs outward rather than inward. Same insect, entirely different job.</p>
 
           <h2>Parent Colonies, Satellite Colonies, and Why It Keeps Coming Back</h2>
@@ -334,6 +355,20 @@ export default function CarpenterAntsCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="pinless wood moisture meter">Check pinless moisture meters on Amazon.ca &rarr;</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="Carpenter ant killers sold for home use in Canada: what the labels say"
+            head={['Product type', 'How it works', 'Best for', 'Limits, from the label']}
+            rows={[
+              ['Spinosad liquid bait', 'Foragers drink it and carry it back to the colony', 'An active trail, indoors or (with an outdoor label) outside', 'Names carpenter ants: Raid Max Liquid Ant Baits (PCP 33831, indoor rooms), Neudorff Liquid Ant Bait Station (PCP 33096, indoors and outdoors), Family Matters stations (PCP 32763, 32762)'],
+              ['Borate gel or liquid', 'A slow bait (disodium octaborate) placed in cracks along the trail', 'Gaps where a station will not fit', 'Names carpenter ants: Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560), Greenway Liquid Ant Killing Bait (PCP 29344)'],
+              ['Borax liquid stations (TERRO-type)', 'A sweet borax bait shared through the colony', 'Common sweet-eating house ants', 'TERRO’s Canadian labels name common sweet-eating ants, not carpenter ants; no current home-use borax or boric acid product names them'],
+              ['Diatomaceous earth dust', 'A thin film in the void dries out the ants that cross it', 'A nest you have found in a dry void', 'Sold as an insecticide with a PCP number, such as TERRO Ant Killing Powder (PCP 31376); inert when wet, and carpenter ants choose damp wood'],
+              ['Ready-to-use spray', 'Kills the ants it wets', 'A nest opening you have actually found, used as the label directs', 'The Raid sprays list ants in general, not carpenter ants; Health Canada says not to spray while baiting'],
+              ['Licensed operator', 'Commercial-class products, void treatment and an inspection', 'Winter activity, swarmers indoors, frass from a ceiling', 'Ontario’s cosmetic pesticide ban does not apply inside buildings or to structural pest control'],
+            ]}
+            caption={<>Sources: Health Canada&rsquo;s pesticide product registry (export with registrations to October 1, 2026; twelve current home-use products name carpenter ants); Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a>; Ontario&rsquo;s <a href="https://www.ontario.ca/page/guide-pesticide-classes" target="_blank" rel="noopener noreferrer" className="underline">guide to pesticide classes</a> (updated February 1, 2024). Read October 28, 2026.</>}
+          />
+
           <h2>Why DIY Spraying Fails on Carpenter Ants</h2>
           <p>Walk into a Canadian Tire, a Home Depot Canada or a Rona and the ant section is mostly aerosols and ready-to-use trigger sprays &mdash; the Raid, Wilson, Doktor Doom and Ortho end of the shelf. The actives are typically repellent pyrethroids. On a carpenter ant problem, they fail in three specific ways, and it is worth understanding each because the same logic explains what does work.</p>
           <p><strong>They kill a rounding error.</strong> A mature colony numbers in the thousands across a parent nest and its satellites. The ants visible on your counter at any moment are a vanishingly small fraction of that, and the queen &mdash; the only individual whose death actually ends the colony &mdash; is never among them.</p>
@@ -344,7 +379,7 @@ export default function CarpenterAntsCanadaPage() {
           <RelatedLinks path="/blog/carpenter-ants-canada" />
           <h2>Baiting: The Consumer Method That Reaches the Queen</h2>
           <p>Bait is the retail option that can reach a colony you cannot see, and it works because of how carpenter ants eat. They are liquid feeders &mdash; outdoors they live substantially on honeydew from aphids &mdash; and they share food by regurgitation, passing it worker to worker and ultimately to larvae and the queen. A slow-acting toxicant in a liquid sugar bait rides that distribution network straight to the target.</p>
-          <p>What to buy, honestly: <strong>sugar-based liquid borax or boric acid ant baits</strong> &mdash; the Terro-style liquid stations that Canadian Tire, Home Depot Canada and Rona all stock in ant season. Check the label for a PCP registration number and check that carpenter ants are named. Granular baits, the ones designed to be scattered on soil, are generally a poor match: carpenter ants are not big granule foragers, and most of it just sits there.</p>
+          <p>What to buy, honestly: <strong>a slow liquid or gel ant bait whose Canadian label names carpenter ants</strong>. In Health Canada&rsquo;s registry (October 2026) that means spinosad liquid baits such as Raid Max Liquid Ant Baits (PCP 33831) or the Neudorff and Family Matters bait stations, or borate gels and liquids such as Ortho Ant B Gon Max Ant &amp; Roach Killer Gel (PCP 32560). The Terro-style liquid stations that Canadian Tire, Home Depot Canada and Rona all stock in ant season are labelled for common sweet-eating ants, not carpenter ants. Check the label for a PCP registration number and check that carpenter ants are named. Granular baits, the ones designed to be scattered on soil, are generally a poor match: carpenter ants are not big granule foragers, and most of it just sits there.</p>
           <p>Now the rules that decide whether it works:</p>
           <ul>
             <li><strong>Place on the trail, not where you saw one ant once.</strong> Bait works by interception. Put stations directly on the established travel line &mdash; along the foundation edge, on the deck rail they run, under the sink beside the pipe they follow.</li>
@@ -366,6 +401,28 @@ export default function CarpenterAntsCanadaPage() {
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="diatomaceous earth insect duster">Check DE + duster kits on Amazon.ca &rarr;</BuyLink>
           </div>
+
+          <h2>Which Carpenter Ant Killer for Your Situation</h2>
+          <ul>
+            <li><strong>Big black ants on the kitchen counter at night, no frass yet:</strong> follow the trail after dark, then set a bait whose label names carpenter ants on it and leave it alone for at least two weeks.</li>
+            <li><strong>Frass under a window or along the sill plate:</strong> the nest is above it. The moisture meter and a night inspection come before any killer.</li>
+            <li><strong>Nest found in a dry void you can reach:</strong> a thin film of insecticidal dust into the opening the ants already use.</li>
+            <li><strong>Nest in a stump or log in the yard, no trail to the house:</strong> nothing needs killing; remove or grind the stump if you want less pressure.</li>
+            <li><strong>Live ants indoors in winter, swarmers inside, or frass from a ceiling:</strong> a licensed operator, because the nest is inside the structure.</li>
+            <li><strong>Treating the outside of the house in Ontario:</strong> structural pest control sits outside the cosmetic ban; make sure the label covers the site you treat.</li>
+          </ul>
+
+          <h2>Carpenter Ant Killer Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A PCP registration number on the label.</strong> Health Canada: always look for it.</li>
+            <li><strong>Carpenter ants named in the pest list.</strong> TERRO&rsquo;s Canadian liquid baits are labelled for common sweet-eating ants; Raid Max Liquid Ant Baits (PCP 33831) and Ortho Ant B Gon Max Ant &amp; Roach Killer Gel (PCP 32560) name carpenter ants.</li>
+            <li><strong>Sites of use that match yours.</strong> Raid Max Liquid Ant Baits is labelled for indoor rooms; the Neudorff Liquid Ant Bait Station (PCP 33096) and the Family Matters stations for indoors and outdoors.</li>
+            <li><strong>A bait, not a spray, for the colony.</strong> Health Canada says not to use chemical sprays while baiting, or the bait will not work.</li>
+            <li><strong>Plenty of stations, left for at least two weeks</strong> (Health Canada).</li>
+            <li><strong>For dust, insecticidal diatomaceous earth with a PCP number,</strong> not a feed-grade bag.</li>
+            <li><strong>A moisture meter or a professional inspection</strong> before a second round of products.</li>
+            <li><strong>Nothing imported without a Canadian label.</strong></li>
+          </ol>
 
           <h2>Exclusion and Yard Work: Stop Rebuilding the Highway</h2>
           <p>None of this kills an ant today, and all of it decides whether you are doing this again in two years.</p>

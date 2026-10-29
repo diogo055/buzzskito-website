@@ -14,21 +14,24 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'rescue-why-trap-review-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'RESCUE! WHY Trap Review Canada 2026 — Does the 2-Chamber Wasp Trap Work?'
-const META_TITLE = 'RESCUE! WHY Trap Canada 2026: Honest Review'
+// TITLE NOTE (Oct 28, 2026): was 'RESCUE! WHY Trap Canada 2026: Honest Review'; top queries, Jul 28-Oct 25 (all countries): rescue why trap 43 at 8.2 (1 click), why rescue trap 6 at 8.2 (1), whytrap 2 at 8.5 (1). Not targeted: wasp trap canadian tire 693 at 6.7 (5 clicks), bee trap(s) canadian tire 87 + 85 (retailer-named, ops rule 8); best wasp trap searches stay with /blog/best-wasp-trap.
+const META_TITLE = 'RESCUE! WHY Trap Review Canada: Does It Work?'
 
 const FAQS = [
   {
     question: 'Is the RESCUE! WHY Trap worth it in Canada?',
-    answer: 'Yes, for most Canadian yards with a general wasp problem. The WHY Trap is the only mainstream reusable trap engineered to catch all three groups at once — paper Wasps, Hornets (including bald-faced), and Yellowjackets — thanks to its two-chamber design with separate attractants for each group. It is reusable season after season, uses a food-based attractant with no insecticide, and catches queens in spring before they found colonies. The honest catch: the attractant is a recurring cost on a roughly 2-week replacement cadence, and like every trap it intercepts foraging wasps without killing the colony they came from.',
+    answer: 'Yes, for most Canadian yards with a general wasp problem. The WHY Trap is the only mainstream reusable trap engineered to catch all three groups at once — paper Wasps, Hornets (including bald-faced), and Yellowjackets — thanks to its two-chamber design with separate attractants for each group. It is reusable season after season, uses scent lures with no insecticide or killing agent, and catches queens in spring before they found colonies. The honest catch: the attractant is a recurring cost on a roughly 2-week replacement cadence, and like every trap it intercepts foraging wasps without killing the colony they came from.',
   },
   {
     question: 'How does the RESCUE! WHY Trap actually work?',
-    answer: 'It uses two separate chambers with two separate attractant systems. The top chamber holds a solid attractant cartridge and is entered through openings near the top — this targets paper wasps and hornets, which forage higher and are drawn to that scent profile. The bottom chamber holds a liquid attractant mixed with water and is entered from underneath — this targets yellowjackets, which typically approach low. Insects follow the scent in, cannot navigate back out through the cone-style entries, and die naturally inside from dehydration. There is no zapper, no glue, and no insecticide anywhere in the trap.',
+    answer: 'It uses two chambers and three lures. RESCUE!’s product page says the top chamber is baited with two lures, a solid in a vial and a liquid mixed with water, and is entered through openings near the top — this targets paper wasps and hornets, which forage higher. The bottom chamber is baited with a liquid lure poured onto a cotton pad, the same lure as RESCUE!’s reusable yellowjacket trap, and is entered from underneath — this targets yellowjackets, which typically approach low. Insects follow the scent in, cannot navigate back out through the cone-style entries, and drown or die of dehydration. There is no zapper, no glue, and no insecticide anywhere in the trap.',
   },
   {
     question: 'What does WHY stand for, and what does the trap catch?',
@@ -40,7 +43,7 @@ const FAQS = [
   },
   {
     question: 'Does the RESCUE! WHY Trap kill the wasp colony or nest?',
-    answer: 'No — and no lure trap does. The WHY Trap intercepts individual foraging wasps and spring queens; it does not touch the nest itself. A mature yellowjacket colony can hold thousands of workers, and a trap catching dozens per week is skimming the surface, not draining the pool. If you have located an active nest on your property, trapping alone will not solve it — you need a nest-directed treatment (a PMRA-registered wasp spray or a professional). Where traps shine is intercepting queens in spring before nests exist, and reducing foraging pressure on your patio when the nest is somewhere you cannot find or reach.',
+    answer: 'No — and no lure trap does. The WHY Trap intercepts individual foraging wasps and spring queens; it does not touch the nest itself. A mature yellowjacket colony can hold thousands of workers, and a trap catching dozens per week is skimming the surface, not draining the pool. If you have located an active nest on your property, trapping alone will not solve it — you need a nest-directed treatment (a wasp spray whose label shows a PCP number and lists your nest type, or a professional). Where traps shine is intercepting queens in spring before nests exist, and reducing foraging pressure on your patio when the nest is somewhere you cannot find or reach.',
   },
   {
     question: 'Where should I hang the WHY Trap?',
@@ -68,13 +71,21 @@ const FAQS = [
   },
   {
     question: 'Where can I buy the RESCUE! WHY Trap in Canada?',
-    answer: 'The WHY Trap and its attractant refill kits are widely stocked in Canada — Canadian Tire, Home Depot Canada, Lowe’s/RONA, many independent garden centres, and Amazon.ca all carry them in season. The trap sells with Canadian bilingual labelling, so you are not relying on grey-market imports. One buying tip: refill kits sell out at big-box stores by mid-summer in bad wasp years, so when you buy the trap, buy two or three refill kits in the same order. The trap without attractant is just a plastic lantern.',
+    answer: 'The WHY Trap and its attractant refill kits are widely stocked in Canada — Canadian Tire, Home Depot Canada, Lowe’s/RONA, many independent garden centres, and Amazon.ca all carry them in season. Health Canada’s pesticide registry showed no W·H·Y Trap or W·H·Y attractant on October 28, 2026, though, so check the package for a PCP number. One buying tip: refill kits sell out at big-box stores by mid-summer in bad wasp years, so when you buy the trap, buy two or three refill kits in the same order. The trap without attractant is just a plastic lantern.',
+  },
+  {
+    question: 'Is the RESCUE! WHY Trap registered in Canada?',
+    answer: 'Health Canada’s pesticide registry showed no W·H·Y Trap or W·H·Y attractant when we searched on October 28, 2026. Lures count as pest control products under the Pest Control Products Act, and Sterling International’s Canadian registrations are its heptyl butyrate yellowjacket products, registered on December 11, 2025: Disposable Yellowjacket Trap W (PCP 35529), Yellowjacket Trap Cartridge (PCP 35530) and Yellowjacket Trap Tube (PCP 35531). Check the W·H·Y package for a PCP number before you buy.',
+  },
+  {
+    question: 'What attractant does the WHY Trap use?',
+    answer: 'RESCUE! says the W·H·Y Trap uses two chambers and three lures: the top chamber is baited with a solid lure in a vial and a liquid lure mixed with water, and the bottom chamber with a liquid lure on a cotton pad. Its note for pet owners names heptyl butyrate and a butanol, which it says can be strong eye irritants and mild skin irritants, so wash with clean water after contact. The included supply lasts about two weeks under normal conditions, and refill kits are sold separately.',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Hands-on Canadian review of the RESCUE! WHY Trap for wasps, hornets & yellowjackets: how the 2-chamber design works, the real 2-week refill cadence and recurring cost pattern, catch expectations, WHY vs TrapStik vs disposable traps, and the honest cons.',
+  description: 'RESCUE! WHY Trap review, Canada: how the two chambers and three lures work, 2-week refills, the 20 ft rule, what it won’t do, and the PCP-number check.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +110,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
             <span className="text-white">RESCUE! WHY Trap Review</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The only mainstream trap built to catch paper wasps, hornets, AND yellowjackets at once &mdash; how the two-chamber design works, what the refills really cost you over a season, and the one thing it will never do.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">Mostly yes: the RESCUE! W&middot;H&middot;Y Trap is a reusable two-chamber lure trap that RESCUE! says catches 5 paper wasp species, bald-faced and European hornets and 12 yellowjacket species, with lures that last about two weeks. It suits a yard with every kind of wasp and no nest you can find: hang it at least 6 metres (20 feet) from the patio and start in spring. It thins foragers; it never removes a nest.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -114,9 +125,9 @@ export default function RescueWhyTrapReviewCanadaPage() {
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
             <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The RESCUE! WHY Trap is the best all-round reusable wasp trap sold in Canada &mdash; its two-chamber design uses separate attractants to catch paper wasps and hornets up top and yellowjackets down below, with no insecticide and rare honey-bee bycatch. Know two things going in: the attractant is a recurring refill on a roughly 2-week cadence, and no lure trap &mdash; this one included &mdash; kills the colony the wasps came from.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>Two chambers, two attractants: a solid cartridge up top for paper wasps and hornets, a liquid below for yellowjackets &mdash; 19 species covered.</li>
+              <li>Two chambers, three lures (RESCUE!): a solid lure and a liquid lure up top for paper wasps and hornets, a liquid lure below for yellowjackets &mdash; 19 species covered.</li>
               <li>Attractant lasts about 2 weeks per kit; refills are a genuine recurring cost across a May&ndash;September Canadian season.</li>
-              <li>The attractant is food-based scent, not insecticide &mdash; no PMRA-registered poison involved, and it is formulated not to attract honey bees.</li>
+              <li>The lures are scents, not insecticide (RESCUE! names heptyl butyrate and a butanol), and RESCUE! says the trap will not lure honey bees &mdash; but lures still count as pest control products in Canada, and Health Canada&rsquo;s registry shows no W&middot;H&middot;Y product, so check the package for a PCP number.</li>
               <li>Hang it 6+ metres from where people sit &mdash; the trap pulls wasps toward itself, so patio-rail placement backfires.</li>
               <li>Put it out in late April or May: one overwintered queen caught in spring is an entire summer nest that never gets built.</li>
               <li>It intercepts foragers &mdash; it does not kill the nest. A located, active nest needs a nest-directed treatment instead.</li>
@@ -159,20 +170,34 @@ export default function RescueWhyTrapReviewCanadaPage() {
 
           <h2>What Is the RESCUE! WHY Trap?</h2>
           <p>The WHY Trap is a reusable lure trap from Sterling International, the Spokane-based company behind the whole RESCUE! line, and the name is the pitch: <strong>W</strong>asps, <strong>H</strong>ornets, <strong>Y</strong>ellowjackets. Most traps on the shelf are really yellowjacket traps wearing a &ldquo;wasp trap&rdquo; label &mdash; sweet bait in a bottle, which yellowjackets love and paper wasps largely ignore. The WHY Trap is the one mainstream product engineered around the fact that those three groups forage differently, fly at different heights, and respond to different scent cues.</p>
-          <p>Sterling claims coverage of 19 species across the three groups, and in a southern-Ontario yard that list maps onto exactly the insects that ruin an August dinner: German and common yellowjackets, northern paper wasps on the fence line, bald-faced hornets in the cedar hedge, and the occasional European hornet. It is sold in Canada with bilingual Canadian labelling &mdash; this is not a grey-market import you have to source from a US seller.</p>
-          <p>We have tested and researched this trap as part of our wider <Link href="/blog/best-wasp-trap">best wasp trap in Canada</Link> roundup, where it took the top all-round slot. This page is the deep-dive: how the two-chamber system actually works, what the refill economics look like over a real Canadian season, what catch numbers to expect, and where the trap honestly falls short.</p>
+          <p>Sterling claims coverage of 19 species across the three groups, and in a southern-Ontario yard that list maps onto exactly the insects that ruin an August dinner: German and common yellowjackets, northern paper wasps on the fence line, bald-faced hornets in the cedar hedge, and the occasional European hornet. Canadian Tire lists it and a separate refill kit, but Health Canada&rsquo;s pesticide registry shows no W&middot;H&middot;Y product (searched October 28, 2026) &mdash; more on that below.</p>
+          <Photo id="eastern-yellowjacket-live" alt="An eastern yellowjacket resting on fabric" caption="An eastern yellowjacket on fabric, photographed in Leominster, Massachusetts. Yellowjackets are the late-summer patio wasps; RESCUE! says the bottom chamber uses the same lure as its yellowjacket trap." />
+          <Photo id="bald-faced-hornet" alt="A bald-faced hornet, black with white markings" caption="A bald-faced hornet photographed in Herndon, Virginia. Bald-faced and European hornets are on the W·H·Y Trap's list, alongside 5 paper wasp species and 12 yellowjacket species, by RESCUE!'s count." />
+          <p>We researched this trap for our wider <Link href="/blog/best-wasp-trap">best wasp trap in Canada</Link> roundup, where it took the top all-round slot. This page is the deep-dive: how the two-chamber system actually works, what the refill economics look like over a real Canadian season, what catch numbers to expect, and where the trap honestly falls short.</p>
 
           <NextUp path="/blog/rescue-why-trap-review-canada" />
+          <QuickIdTable
+            title="The W·H·Y Trap and its alternatives, on the record"
+            head={['Option', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['RESCUE! W·H·Y Trap', 'Two chambers, three scent lures; insects get in and cannot get out (RESCUE!)', 'Paper wasps, hornets and yellowjackets together: 19 species, RESCUE! says', 'Lures last about two weeks; hang it 20 ft (6 m) from patios and known nests; no W·H·Y product in Health Canada’s registry'],
+              ['RESCUE! yellowjacket traps (heptyl butyrate)', 'A heptyl butyrate lure in a disposable bag or a refillable trap', 'Yellowjackets', 'Registered December 11, 2025 (PCP 35529, 35530, 35531) for outdoor living areas, yellowjackets only'],
+              ['RESCUE! TrapStik', 'A coloured pattern draws wasps onto an adhesive (see the table further down)', 'Paper wasps at eaves and porches', 'No TrapStik record in Health Canada’s registry'],
+              ['Nest treatment', 'A labelled wasp spray or dust at the nest, or a licensed exterminator', 'A nest you can find', 'Use only a product whose label shows a PCP number and lists your nest type'],
+            ]}
+            caption={<>Trap facts from RESCUE!&rsquo;s <a href="https://www.rescue.com/products/traps/why-trap-for-wasps-hornets-yellowjackets/" target="_blank" rel="noopener noreferrer" className="underline">W&middot;H&middot;Y Trap page</a>, checked October 28, 2026; registrations from Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide product registry</a>, searched the same day; the rules from the <a href="https://laws-lois.justice.gc.ca/eng/acts/P-9.01/page-1.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Act</a> (s. 2) and the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/page-10.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Regulations</a> (Schedule 1). No trap was tested.</>}
+          />
           <h2>How the Two-Chamber Design Works</h2>
           <p>Pick the trap up and you are holding two traps stacked into one lantern-shaped body:</p>
           <ul>
-            <li><strong>The top chamber</strong> holds a solid attractant cartridge and is entered through openings near the top of the trap. This targets <strong>paper wasps and hornets</strong>, which patrol and forage higher off the ground and key on this scent profile. Sugar-water bottle traps almost never catch these species; this chamber is the WHY Trap&rsquo;s genuine differentiator.</li>
-            <li><strong>The bottom chamber</strong> holds a liquid attractant that you mix with water, entered through cone-style openings underneath. This targets <strong>yellowjackets</strong>, which characteristically approach food low and from below &mdash; the same behaviour that has them hovering around your pop can.</li>
+            <li><strong>The top chamber</strong> is baited with two lures, a solid in a vial and a liquid mixed with water (RESCUE!&rsquo;s product page), and is entered through openings near the top of the trap. This targets <strong>paper wasps and hornets</strong>, which patrol and forage higher off the ground and key on this scent profile. Sugar-water bottle traps almost never catch these species; this chamber is the WHY Trap&rsquo;s genuine differentiator.</li>
+            <li><strong>The bottom chamber</strong> is baited with a liquid lure poured onto a cotton pad, the same lure RESCUE! uses in its reusable yellowjacket trap, and is entered through cone-style openings underneath. This targets <strong>yellowjackets</strong>, which characteristically approach food low and from below &mdash; the same behaviour that has them hovering around your pop can.</li>
           </ul>
-          <p>Once inside either chamber, the geometry does the killing: wasps fly upward toward light trying to escape, cannot re-locate the entry cones, and die of dehydration within hours to a day or two. There is no zapping, no glue, and &mdash; worth repeating for anyone with kids, dogs, or pollinator concerns &mdash; <strong>no insecticide anywhere in the product</strong>. The attractant is a food-grade scent lure, not a poison, which is also why the trap requires no pesticide registration to sell and why honey-bee bycatch is rare: the formulation is built on compounds that read as &ldquo;food&rdquo; to predatory and scavenging wasps but not to nectar-foraging bees.</p>
+          <p>Once inside either chamber, the geometry does the killing: wasps fly upward toward light trying to escape, cannot re-locate the entry cones, and drown or die of dehydration, as RESCUE! puts it. There is no zapping, no glue, and &mdash; worth repeating for anyone with kids, dogs, or pollinator concerns &mdash; <strong>no insecticide anywhere in the product</strong>. The lures are scents, not poisons, though RESCUE! warns that the heptyl butyrate and butanol in them can be strong eye irritants and mild skin irritants, and it says the trap will not lure beneficial honeybees. A lure is still a pest control product in Canada, which the compliance section below covers.</p>
+          <Photo id="honey-bee-on-flower" alt="A western honey bee on a white flower" caption="A western honey bee on a white flower, photographed in Gurnee, Illinois. RESCUE! says the W·H·Y lures will not draw honey bees; homemade sugar bait does." />
 
           <h2>The Refill Economics: What Owning One Actually Costs</h2>
-          <p>Here is the part the box art does not emphasize. The trap body is a one-time purchase in the same modest price bracket as a decent garden hand tool, and it will last you many seasons &mdash; owners routinely report five-plus years from one trap. The attractant is a different story: <strong>each kit lasts about two weeks</strong>, and a refill kit (top-chamber cartridge plus bottom-chamber liquid) is a small but genuinely recurring purchase.</p>
+          <p>Here is the part the box art does not emphasize. The trap body is a one-time purchase in the same modest price bracket as a decent garden hand tool, and it will last you many seasons &mdash; owners routinely report five-plus years from one trap. The attractant is a different story: <strong>each kit lasts about two weeks</strong>, and a refill kit (a fresh set of all three lures) is a small but genuinely recurring purchase.</p>
           <p>Run the math on a Canadian season and the pattern becomes clear. Wasp pressure in southern Ontario runs from roughly late April to mid-October &mdash; call it 20 to 24 weeks. At a two-week cadence, that is <strong>10 to 12 refill kits per season</strong> if you run the trap continuously. In practice most owners run it hard from May to June for queen season, ease off in mid-summer, then run it again hard from August to frost when yellowjacket colonies peak &mdash; which lands closer to six to eight refills. Either way, over a full season you will spend noticeably more on attractant than you spent on the trap. That is not a scandal &mdash; it is the same razor-and-blades pattern as water filters or Thermacell repellent mats &mdash; but you should walk in knowing the trap is effectively a subscription product.</p>
           <p>Two cost-control tips from the owner community: buy refills two or three kits at a time in spring (big-box stores sell through refill stock by mid-summer in bad wasp years), and in the late-August scavenging peak you can stretch the bottom chamber with simple sugar bait &mdash; with the caveats we cover in the FAQ, chiefly that DIY sugar bait forfeits the no-bees claim.</p>
 
@@ -183,7 +208,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
           </div>
 
           <h2>Setup, Placement, and the 2-Week Rhythm</h2>
-          <p>Setup takes ten minutes: snap the cartridge into the top chamber, squeeze the liquid attractant into the bottom chamber, top it up with water to the fill line, and hang. From there the trap runs on a simple rhythm &mdash; <strong>every two weeks, swap the cartridge and refresh the liquid</strong>; in hot July weather, check between changes and top up evaporated water, because a dry bottom chamber is an inert bottom chamber.</p>
+          <p>Setup is quick: going by RESCUE!&rsquo;s description, the top chamber takes the vial lure and the liquid lure mixed with water, the bottom chamber takes the liquid lure poured onto its cotton pad, and then you hang it. From there the trap runs on a simple rhythm &mdash; <strong>every two weeks, replace the lures</strong>; RESCUE! says to refresh them sooner if the trap fills up or the liquid evaporates, so in hot July weather check between changes, because a dry chamber is an inert chamber.</p>
           <p>Placement is where most one-star reviews are born, so treat these three rules as non-negotiable:</p>
           <ol>
             <li><strong>Hang it 6+ metres (20 feet) from people.</strong> The trap works by pulling wasps toward itself. On the deck rail, it is a wasp magnet at head height beside your guests. At the fence line, it is an interception station between the wasps&rsquo; approach route and your patio.</li>
@@ -195,6 +220,28 @@ export default function RescueWhyTrapReviewCanadaPage() {
           <h2>Catch Expectations: What &ldquo;Working&rdquo; Looks Like</h2>
           <p>Calibrate your expectations by season. In spring, success is boring: a handful of very large wasps &mdash; queens &mdash; over several weeks. Each one is a cancelled colony, which makes those the most valuable catches of the year even though the trap looks nearly empty. In mid-summer, expect steady but moderate catches of foraging workers. In late August and September, when yellowjacket colonies hit peak population and pivot to scavenging sugar, a well-placed WHY Trap in a bad wasp year can fill visibly in days &mdash; owners in heavy-pressure yards report chambers with dozens to hundreds of yellowjackets between refills.</p>
           <p>What a trap can never do is out-recruit a nest. A mature yellowjacket colony fields thousands of workers; a ground nest by your patio (a distinct problem &mdash; see our <Link href="/blog/how-to-get-rid-of-ground-wasps-canada">ground wasp guide</Link>) will not be trapped into surrender. Where the WHY Trap genuinely changes your summer is <em>pressure reduction</em>: fewer foragers finding your barbecue, fewer scouts recruiting nestmates to it, and &mdash; via spring queens &mdash; fewer nests founded on your property in the first place.</p>
+
+          <h2 id="situation">Which Wasp Trap for Your Situation?</h2>
+          <ul>
+            <li><strong>Wasps of every kind and no nest in sight:</strong> the W&middot;H&middot;Y Trap, once you have checked the package for a PCP number.</li>
+            <li><strong>Yellowjackets at the picnic table in late summer:</strong> a heptyl butyrate yellowjacket trap with a PCP number, 6 m from the table, and covers on food and drinks.</li>
+            <li><strong>Paper wasps under the eaves:</strong> RESCUE! says the W&middot;H&middot;Y catches more paper wasps near a house; better still, find and treat the nest.</li>
+            <li><strong>Hornets in the hedge:</strong> RESCUE! says it catches more hornets and yellowjackets near bushes and trees.</li>
+            <li><strong>A nest you can see:</strong> a nest treatment or a licensed exterminator first, then the trap for stragglers.</li>
+            <li><strong>It is April or May:</strong> hang it now; RESCUE! says early spring use increases the chance of catching emerging queens.</li>
+          </ul>
+
+          <h2>Wasp Trap Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A PCP number</strong> on the trap or lure package.</li>
+            <li><strong>The insects the lure is for:</strong> a yellowjacket-only lure is for yellowjackets.</li>
+            <li><strong>Refills you can get:</strong> the W&middot;H&middot;Y lures last about two weeks, so buy kits with the trap.</li>
+            <li><strong>A spot 6 m (20 ft) from the patio</strong> and from any known nest (RESCUE!).</li>
+            <li><strong>Something to hang it from:</strong> a branch, a fence post or a shepherd hook.</li>
+            <li><strong>Long-cuff gloves and a bucket</strong> for emptying it at dusk.</li>
+            <li><strong>A spring start</strong> for the queens.</li>
+            <li><strong>A nest plan:</strong> a trap never removes the colony.</li>
+          </ol>
 
           <RelatedLinks path="/blog/rescue-why-trap-review-canada" />
           <h2>WHY Trap vs TrapStik vs Disposable Traps</h2>
@@ -243,10 +290,11 @@ export default function RescueWhyTrapReviewCanadaPage() {
             </table>
           </div>
           <p>The decision logic: if your problem is specifically yellowjackets around late-summer food, a dedicated yellowjacket trap is a focused tool &mdash; our <Link href="/blog/best-yellow-jacket-trap-canada">best yellowjacket trap guide</Link> compares those head-to-head. If your problem is paper wasps building under the porch soffit, the TrapStik&rsquo;s visual lure is the specialist. If &mdash; like most Canadian homeowners &mdash; your problem is &ldquo;wasps, generally, and I am not sure which kind,&rdquo; the WHY Trap&rsquo;s three-group coverage is exactly why it is the default recommendation.</p>
+          <Photo id="paper-wasp-nest-eave-corner" alt="European paper wasps on an open-comb nest under the overhang of a house" caption="European paper wasps on their open-comb nest in a corner under the overhang of a house, photographed in Saratoga, California. A nest like this needs a nest treatment; a trap only catches the foragers." />
 
           <h2>The Honest Cons</h2>
           <ul>
-            <li><strong>It does not kill the colony.</strong> Worth its own bullet even though we have said it twice. A lure trap is population skimming. If you can see wasps streaming to and from one hole or soffit gap, you have a nest, and the tool for a nest is a nest-directed treatment &mdash; our <Link href="/blog/best-wasp-nest-spray-canada">wasp nest spray guide</Link> covers the PMRA-registered options and when to call a professional instead.</li>
+            <li><strong>It does not kill the colony.</strong> Worth its own bullet even though we have said it twice. A lure trap is population skimming. If you can see wasps streaming to and from one hole or soffit gap, you have a nest, and the tool for a nest is a nest-directed treatment &mdash; our <Link href="/blog/best-wasp-nest-spray-canada">wasp nest spray guide</Link> covers the options that carry a PCP number and when to call a professional instead.</li>
             <li><strong>The refills are forever.</strong> A two-week cadence, all season, every season. Budget for it or the trap becomes yard decor.</li>
             <li><strong>Emptying it is grim.</strong> Twice a month you will unscrew a chamber holding a mass of dead wasps. Do it in the evening when wasps are inactive, and check that everything inside is actually dead &mdash; a soapy-water dunk before opening removes all doubt.</li>
             <li><strong>Placement mistakes look like product failure.</strong> Hung over the picnic table, it genuinely makes your patio worse. The trap has no fix for being installed in the wrong place.</li>
@@ -254,18 +302,18 @@ export default function RescueWhyTrapReviewCanadaPage() {
           </ul>
           <p>On the emptying job specifically: the thing that turns it from grim into routine is having the right gloves by the back door rather than improvising with oven mitts twice a month. A long-cuff pair &mdash; the gauntlet style that covers the forearm, sold for rose pruning and thorny hedging &mdash; is what you want, because the exposure risk when you unscrew a chamber is a wrist, not a palm. Do it at dusk, dunk the chamber in soapy water first as above, and keep a dedicated bucket for the job. <BuyLink tag={AMZ_TAG} search="long cuff gauntlet garden gloves">check long-cuff garden gauntlets on Amazon.ca &rarr;</BuyLink></p>
 
-          <h2>The Canadian Compliance Angle: Why a No-Insecticide Trap Is the Easy Legal Win</h2>
+          <h2>The Canadian Compliance Angle: Lures Need a PCP Number Too</h2>
           <p>Wasp control is one of the categories where Canadians get burned by US-centric advice. American sites casually recommend insecticide products &mdash; US-formulation foaming jet sprays, carbaryl (Sevin) dusts for injecting into nests, permethrin-soaked homemade baits &mdash; that either do not carry a Canadian PCP registration in those concentrations or are restricted to licensed applicators here. Products like US-label Spectracide Wasp &amp; Hornet Killer or carbaryl nest dusts bought from cross-border sellers are grey-market in Canada: no PCP registration number on the can means it was never evaluated for legal sale here, and using it puts you offside federal pesticide law. They are not our pick, in any scenario.</p>
-          <p>The WHY Trap sidesteps that entire minefield. A scent lure with no killing agent is a <em>device</em>, not a pesticide &mdash; there is no PCP number to check because there is no pesticide to register. It cannot be misapplied, it cannot drift onto the neighbour&rsquo;s vegetable garden, and it is legal in every province including ones with strict cosmetic-pesticide rules. When you do need chemical control for an actual nest, buy it off a Canadian shelf with a PCP registration number on the label &mdash; the <Link href="/blog/best-wasp-nest-spray-canada">Canadian-legal nest sprays</Link> exist and work. And if the nest is inside a wall void, above a second-storey soffit, or anywhere a fall or a swarm is plausible, hiring a licensed exterminator is the sane move; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what wasp nest removal typically runs.</p>
+          <p>A lure trap is not outside that system either. The Pest Control Products Act counts a product used to attract a pest as a pest control product, and the Pest Control Products Regulations list devices sold to attract or destroy flying insects in Schedule 1. Sterling International&rsquo;s Canadian registrations, all dated December 11, 2025, are its heptyl butyrate yellowjacket products: Disposable Yellowjacket Trap W (PCP 35529), Yellowjacket Trap Cartridge (PCP 35530) and Yellowjacket Trap Tube (PCP 35531), each for outdoor living areas. Health Canada&rsquo;s registry shows no W&middot;H&middot;Y Trap or W&middot;H&middot;Y attractant (searched October 28, 2026), so check the package for a PCP number before you buy. What the trap does avoid is spraying: nothing drifts onto the neighbour&rsquo;s vegetable garden. When you do need chemical control for an actual nest, buy it off a Canadian shelf with a PCP registration number on the label &mdash; the <Link href="/blog/best-wasp-nest-spray-canada">Canadian-legal nest sprays</Link> exist and work. And if the nest is inside a wall void, above a second-storey soffit, or anywhere a fall or a swarm is plausible, hiring a licensed exterminator is the sane move; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what wasp nest removal typically runs.</p>
 
           <h2>RESCUE! WHY Trap &mdash; Key Facts</h2>
           <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto my-6">
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Made by', 'Sterling International (RESCUE! brand), sold with Canadian bilingual labels'],
+                  ['Made by', 'Sterling International (RESCUE! brand), Spokane, Washington'],
                   ['Targets', 'Paper wasps, hornets (incl. bald-faced), yellowjackets — 19 species'],
-                  ['Mechanism', 'Two chambers, two attractants; entry cones; dehydration — no insecticide'],
+                  ['Mechanism', 'Two chambers, three lures; entry cones; drowning or dehydration — no insecticide'],
                   ['Honey bee bycatch', 'Rare with official attractant (formulated to avoid bees)'],
                   ['Attractant life', 'About 2 weeks per kit; refills sold separately (recurring)'],
                   ['Season in Canada', 'Late April to first hard frost (queens in spring, peak Aug–Sep)'],
@@ -273,7 +321,7 @@ export default function RescueWhyTrapReviewCanadaPage() {
                   ['Reusable?', 'Yes — trap body lasts many seasons'],
                   ['Kills the colony?', 'No — intercepts foragers and spring queens only'],
                   ['Where to buy', 'Canadian Tire, Home Depot, Lowe’s/RONA, garden centres, Amazon.ca'],
-                  ['PMRA status', 'Device with food-based lure — no pesticide registration required'],
+                  ['PMRA status', 'No W·H·Y product in Health Canada’s registry (Oct 28, 2026); check the package for a PCP number'],
                   ['Best paired with', 'Sanitation (sealed garbage, covered drinks) + nest treatment when a nest is found'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">

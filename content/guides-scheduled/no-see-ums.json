@@ -1,0 +1,557 @@
+{
+  "slug": "no-see-ums",
+  "kind": "spoke",
+  "cluster": "flies",
+  "keyword": "no see ums",
+  "alsoTargets": [
+    "noseeums",
+    "no-see-ums",
+    "noseeum",
+    "what are no see ums",
+    "biting midges",
+    "no see ums in house",
+    "how to get rid of no see ums",
+    "no see ums vs gnats"
+  ],
+  "metaTitle": "No-See-Ums: What They Are and How to Stop Them",
+  "metaDescription": "No-see-ums are biting midges only 0.04 to 0.08 inch long that slip through ordinary screens. Photos, look-alikes, where they live and what keeps them off.",
+  "h1": "No-See-Ums: What They Are, Where They Live and How to Keep Them Out",
+  "dek": "No-see-ums are biting midges small enough to pass through window screens. Real photos, how to tell them from gnats, mosquitoes and black flies, where and when they bite in the US, and what keeps them away.",
+  "breadcrumb": "No-See-Ums",
+  "excerpt": "What no-see-ums are, how to tell them from gnats and mosquitoes, where they live in the US, the screen mesh that stops them and what keeps them from biting.",
+  "datePublished": "2026-10-29",
+  "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+  },
+  "quickAnswer": {
+    "lead": "**No-see-ums are biting midges, flies only about 0.04 to 0.08 inch long (1 to 2 mm), and their females bite, mostly around sunrise and sunset near marshes, mud and other wet ground.** If you can see a small fly clearly and it never bites, it is more likely a fungus gnat or a fruit fly.",
+    "bullets": [
+      "Adults are usually 0.04 to 0.08 inch long, and Florida's 50 or so species average about 0.06 inch, according to the [University of Florida's biting midge profile](https://ask.ifas.ufl.edu/publication/IN626).",
+      "Only females bite, and [UF/IFAS's guide to biting flies](https://ask.ifas.ufl.edu/publication/IG081) says no-see-ums are usually most active around sunrise and sunset and most abundant in summer.",
+      "Ordinary window screens do not stop them: [CDC](https://www.cdc.gov/oropouche/prevention/index.html) suggests screens with 20 x 20 mesh, and the [University of Arizona](https://extension.arizona.edu/publication/somethings-biting-me-i-cant-see-it) suggests 30 x 30 where possible.",
+      "Moving air works against them: UF/IFAS says little feeding happens in a slight breeze, and CDC suggests fans to blow biting midges away outdoors.",
+      "In the United States they are mainly a nuisance to people: [CDC](https://www.cdc.gov/oropouche/data-maps/current-year-data.html) reports no locally acquired cases of Oropouche, the virus biting midges spread in parts of the Americas."
+    ]
+  },
+  "facts": {
+    "title": "No-see-um or something else? Quick ID",
+    "head": [
+      "Insect",
+      "Size",
+      "Bites people?",
+      "Where and when"
+    ],
+    "rows": [
+      [
+        "No-see-um (biting midge)",
+        "0.04 to 0.08 inch (1 to 2 mm); barely visible",
+        "Yes, females; a stinging or burning bite",
+        "Marshes, mud and wet ground; worst around sunrise and sunset in summer"
+      ],
+      [
+        "Mosquito",
+        "About 0.16 inch (4 mm) for the southern house mosquito; long legs and a long beak",
+        "Yes, females",
+        "Breeds in standing water; the southern house mosquito bites at night"
+      ],
+      [
+        "Black fly (buffalo gnat)",
+        "Slightly less than 1/4 inch; stout and humpbacked",
+        "Yes, females, by day",
+        "Near rivers and streams; late spring and early summer"
+      ],
+      [
+        "Fungus gnat",
+        "1/16 to 1/8 inch; dark and mosquito-like",
+        "No",
+        "Indoors around houseplants and damp potting soil"
+      ],
+      [
+        "Fruit fly",
+        "About 1/8 inch; usually red eyes",
+        "No",
+        "Kitchens: overripe fruit and vegetables, spilled drinks, trash"
+      ]
+    ],
+    "caption": "No-see-ums: UF/IFAS and the University of Arizona. Mosquito: UF/IFAS and Texas A&M AgriLife. Black fly: Iowa State University and UF/IFAS. Fungus gnat: UC IPM and Texas A&M AgriLife. Fruit fly: Texas A&M AgriLife. All are linked on this page."
+  },
+  "body": [
+    {
+      "type": "h2",
+      "text": "What are no-see-ums?"
+    },
+    {
+      "type": "p",
+      "text": "No-see-ums are biting midges, tiny bloodsucking flies in the family Ceratopogonidae. The [University of Florida's profile of biting midges](https://ask.ifas.ufl.edu/publication/IN626) (UF/IFAS) says only a few genera in that family bite and the majority do not. The main biting genus, *Culicoides*, has around 1,350 species worldwide, about 170 in the United States and about 50 in Florida, and UF/IFAS calls it the most diverse and widespread genus of biting midges."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/biting-midge-culicoides.webp",
+      "width": 1200,
+      "height": 1200,
+      "alt": "Microscope view of a tiny biting midge seen from above, with a dark head, long thin antennae, a speckled brown thorax and mottled pale and dark wings",
+      "caption": "A biting midge under a microscope, identified on iNaturalist as Culicoides furens and photographed in Sinaloa, Mexico. UF/IFAS lists this species among those that breed in Florida's marshes and mangroves; its spotted wings are a key clue experts use to identify the species.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/334176083"
+    },
+    {
+      "type": "p",
+      "text": "The name fits: the [University of Arizona Cooperative Extension](https://extension.arizona.edu/publication/somethings-biting-me-i-cant-see-it) says adults are barely visible to the naked eye and often go unnoticed, and that Arizona's no-see-ums are mostly *Culicoides*. Other names include punkies, sand flies and biting gnats ([NC State Extension](https://content.ces.ncsu.edu/biting-midges-and-their-control)) and sand gnats (UF/IFAS). The beach names get them confused with [sand fleas](/blog/sand-fleas): [Cleveland Clinic](https://my.clevelandclinic.org/health/diseases/24458-sand-flea-bites) says the common kind are crustaceans, also called beach hoppers, not insects."
+    },
+    {
+      "type": "p",
+      "text": "Only the females bite. UF/IFAS says both sexes feed on nectar and that females of most species take blood to develop their eggs, much as [only female mosquitoes bite](/blog/male-vs-female-mosquito). As a group, biting midges bite amphibians, reptiles, birds and mammals, and most species studied bite mainly mammals."
+    },
+    {
+      "type": "p",
+      "text": "Like other flies, they pass through egg, larva, pupa and adult. UF/IFAS says larvae usually finish growing within two weeks, though some species' larvae can take up to a year when food is short or it is cold, and that adults of most species probably live at least a month; NC State gives adults about a month."
+    },
+    {
+      "type": "h2",
+      "text": "What do no-see-ums look like?"
+    },
+    {
+      "type": "p",
+      "text": "A no-see-um is a speck of a fly. UF/IFAS gives most adults as 0.04 to 0.08 inch (1.0 to 2.0 mm) long, and Florida's species average about 0.06 inch (1.5 mm), just under 1/16 inch. Its [guide to biting flies](https://ask.ifas.ufl.edu/publication/IG081) describes them as dark gray to black with one pair of spotted wings. Up close, the University of Arizona says, they have short, stocky bodies with a shiny thorax and can look like miniature mosquitoes."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/biting-midge-on-skin.webp",
+      "width": 1200,
+      "height": 935,
+      "alt": "A tiny dark biting midge with gray-spotted wings standing on pale human skin among fine hairs",
+      "caption": "A biting midge on a person's skin, in a CSIRO photograph that names neither the species nor where it was taken. Its dark wings with pale spots match how UF/IFAS describes most biting midges.",
+      "license": "CC-BY-3.0",
+      "credit": "division, CSIRO, CC BY 3.0, via Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_11052_Biting_midge_on_human_skin.jpg"
+    },
+    {
+      "type": "p",
+      "text": "Experts tell the species apart by those wing spots, UF/IFAS says. Without a microscope, size and timing are the clues: a fly too small to see clearly, biting bare skin around dawn or dusk near water or wet ground."
+    },
+    {
+      "type": "media",
+      "needed": "A biting midge (Culicoides) resting on human skin or on a window screen beside a ruler marked in inches, identified to genus by an entomologist or extension service; public domain or CC0 so it could replace the microscope view as the lead photo"
+    },
+    {
+      "type": "h2",
+      "text": "How do you tell no-see-ums from gnats, mosquitoes and black flies?"
+    },
+    {
+      "type": "p",
+      "text": "Ask two questions: did it bite, and could you see it clearly? A no-see-um bites and is barely visible; the gnats people usually find indoors do not bite; mosquitoes and black flies bite but are clearly bigger."
+    },
+    {
+      "type": "h3",
+      "text": "No-see-ums vs gnats"
+    },
+    {
+      "type": "p",
+      "text": "Gnat is a loose name, and the gnats people usually find indoors do not bite. The [University of California's Pest Notes on fungus gnats](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) (UC IPM) describe dark, delicate, mosquito-like flies about 1/16 to 1/8 inch long that breed in moist potting soil and organic debris and do not bite people. [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) gives fruit flies as about 1/8 inch, usually with reddish eyes, breeding in overripe or fermenting fruit and vegetables, and says they do not bite. Both are covered in [the guide to getting rid of gnats](/blog/how-to-get-rid-of-gnats), and [which gnats bite](/blog/gnat-bites) sorts out the ones that do."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/fungus-gnat-penny-scale.webp",
+      "width": 846,
+      "height": 844,
+      "alt": "A tiny gray fungus gnat on a white surface next to a copper US penny, which dwarfs it",
+      "caption": "A dark-winged fungus gnat beside a US penny in a house in Oregon, where the observer found them drawn to fruit, tea bags and potted plants. Fungus gnats run 1/16 to 1/8 inch; most no-see-ums are smaller still.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/330554465"
+    },
+    {
+      "type": "h3",
+      "text": "No-see-ums vs mosquitoes"
+    },
+    {
+      "type": "p",
+      "text": "A mosquito is bigger and built differently. Texas A&M AgriLife's [guide to mosquitoes and the diseases they transmit](https://livestockvetento.tamu.edu/files/2016/07/ENTO-040-Mosquitoes-and-diseases.pdf) describes adult mosquitoes as small, long-legged flies set apart from all other flies by long antennae, a long beak (proboscis), at least in females, and scales on the wing veins and margins. The southern house mosquito, found across the southern United States, is 3.96 to 4.25 mm (about 0.16 inch) long, says [UF/IFAS's profile of the species](https://ask.ifas.ufl.edu/publication/IN837): about two to four times a no-see-um's length."
+    },
+    {
+      "type": "p",
+      "text": "Their habits overlap. In both groups only the females take blood, and both need water or wet ground to breed. UF/IFAS describes the southern house mosquito as active at night, while no-see-ums usually peak around sunrise and sunset; [when mosquitoes are most active](/blog/when-are-mosquitoes-most-active) covers the mosquito side."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/mosquito-on-vest.webp",
+      "width": 1000,
+      "height": 765,
+      "alt": "A brown mosquito with long, white-banded legs standing on gray fabric",
+      "caption": "An eastern saltmarsh mosquito, Aedes sollicitans, on the photographer's vest in Savannah, Georgia; the observer says it could not bite through. Long legs and a long beak mark it as a mosquito.",
+      "license": "CC0-1.0",
+      "credit": "no rights reserved, via iNaturalist",
+      "sourceUrl": "https://www.inaturalist.org/observations/111483981"
+    },
+    {
+      "type": "h3",
+      "text": "No-see-ums vs black flies"
+    },
+    {
+      "type": "p",
+      "text": "Black flies, also called buffalo gnats, are stout, humpbacked and slightly less than 1/4 inch long, according to [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/black-fly), which says they breed in moving fresh water and are most common along rivers and streams in late spring and early summer. UF/IFAS says the females feed mainly in daylight and hover around the eyes, ears and nostrils. [The black fly guide](/blog/black-flies) covers them in full."
+    },
+    {
+      "type": "confused",
+      "items": [
+        {
+          "href": "/learn/how-to-get-rid-of-fungus-gnats",
+          "name": "Fungus gnat",
+          "photo": "fungus-gnat",
+          "note": "Does not bite; dark, mosquito-like, 1/16 to 1/8 inch, around houseplants and damp potting soil",
+          "alt": "Dark-winged fungus gnat with smoky wings and long antennae standing on rotting wood"
+        },
+        {
+          "href": "/blog/fruit-flies",
+          "name": "Fruit fly",
+          "photo": "fruit-fly",
+          "note": "Does not bite; about 1/8 inch, usually red-eyed, around overripe fruit, spills and trash",
+          "alt": "Tan fruit fly with bright red eyes and a dark-tipped abdomen, shown with a scale bar"
+        },
+        {
+          "href": "/blog/black-flies",
+          "name": "Black fly",
+          "photo": "black-fly",
+          "note": "Bites by day; stout, humpbacked and just under 1/4 inch, near rivers and streams",
+          "alt": "Black fly seen from the side, with a humped dark thorax, large eyes and clear wings"
+        },
+        {
+          "href": "/learn/types-of-mosquitoes",
+          "name": "Mosquito",
+          "photo": "culex-quinquefasciatus-female",
+          "note": "Bites; long legs and a long beak, about 0.16 inch for the southern house mosquito",
+          "alt": "Brown southern house mosquito with long legs and a long beak, standing on skin against a yellow background"
+        },
+        {
+          "href": "/blog/sand-fleas",
+          "name": "Sand flea (beach hopper)",
+          "photo": "beach-hopper",
+          "note": "A beach crustacean, not an insect or a fly, so it cannot be a no-see-um",
+          "alt": "Pale beach hopper with long orange-red antennae on gray beach sand"
+        }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Where do no-see-ums live in the US?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly where the ground stays wet. UF/IFAS's biting flies guide says no-see-ums breed mostly in salt marshes, with some inland species in tree holes and other fresh water, and that their larvae live in mud, sand and moist debris around ponds, springs, lakes, creeks and tree holes."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Coasts.** UF/IFAS says biting midges are often abundant, persistent pests in US coastal areas, and that Florida's coastal species breed in marshes, swamps and mangroves and can reach incredible densities. NC State says larvae live in mud, salt marshes and intertidal sand, and that storm-tossed seaweed on beaches makes ideal breeding habitat.",
+        "**Florida.** UF/IFAS says diversity is greatest in the northern half of the state, where tree-hole species live in hardwood forests; other species develop in the sunny grasslands and marshes of the south Florida interior.",
+        "**Eastern woodlands.** [UF/IFAS's profile of *Culicoides paraensis*](https://ask.ifas.ufl.edu/publication/IN1451) says this daytime biter breeds almost exclusively in wet tree holes in the United States and has been recorded in 15 eastern states, from Florida and Texas to Pennsylvania and Wisconsin.",
+        "**The Southwest.** The University of Arizona says they turn up near springs, ponds, lakes, river banks, beaches and swamps, and in towns can breed in over-irrigated mulch or sod, tree holes, construction sites, indoor plant pots and water from air conditioners.",
+        "**The West and northern Plains.** [Montana State University Extension](https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf) has collected 12 *Culicoides* species in Montana, breeding at the edges of lakes, stock ponds, marshes and overflowing water tanks, though it seldom hears of them attacking people. In California's Central Valley, the [UC Davis Bohart Museum](https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_34_noseeum.pdf) says the black valley gnat (*Leptoconops torrens*) is common on alkaline clay soils, where lawns are a common source."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "They can travel. UF/IFAS says adults of many species fly about 1.2 miles, and Montana State gives an average of 1.5 miles in search of a host; the University of Arizona says that although females may disperse a little over a mile, bites are likely to be heaviest close to where they emerge."
+    },
+    {
+      "type": "media",
+      "needed": "A US salt marsh or mangrove shoreline at dusk, the breeding habitat of coastal no-see-ums, from the National Park Service or US Fish and Wildlife Service (public domain), ideally on the Atlantic or Gulf coast"
+    },
+    {
+      "type": "h2",
+      "text": "When are no-see-ums worst?"
+    },
+    {
+      "type": "p",
+      "text": "In warm weather, around sunrise and sunset. UF/IFAS's biting flies guide says no-see-ums are usually most active around sunrise and sunset and most abundant in summer, though they may bite at any time of year; in Florida, larvae live in marshes year-round and adults are most active in June, July and August. The University of Arizona says numbers peak in summer but can stay year-round where winters are warm, and its [Backyard Gardener column on no-see-ums](https://extension.arizona.edu/sites/extension.arizona.edu/files/barnesm/No-See-Um.pdf) puts peak activity in the early mornings and evenings of mid- to late summer."
+    },
+    {
+      "type": "p",
+      "text": "Elsewhere, the season has limits. NC State says biting midges usually spend the winter as larvae, Montana State says they trouble livestock there from midsummer until the first killing frost, and the Bohart Museum says California's black valley gnat emerges in late spring, usually mid-May through June."
+    },
+    {
+      "type": "p",
+      "text": "The time of day varies with the species and the weather. UF/IFAS says most species bite at dusk, at night or in the morning, but in cold weather and in coastal areas many bite in broad daylight. Wind matters too: little feeding happens in a slight breeze. Animals with a high body temperature draw great numbers of females, UF/IFAS adds, and people doing hard labor outdoors are often severely annoyed."
+    },
+    {
+      "type": "h2",
+      "text": "How do no-see-ums get into the house?"
+    },
+    {
+      "type": "p",
+      "text": "Through ordinary screens. UF/IFAS says regular window screens do not keep biting midges out, and the University of Arizona says they pass through standard 16 x 16 and 18 x 16 mesh. What the sources advise:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Finer mesh.** CDC's page on [preventing Oropouche](https://www.cdc.gov/oropouche/prevention/index.html) says to look for 20 x 20 mesh screens to keep biting midges out, and the University of Arizona suggests 30 x 30 mesh wherever possible. UF/IFAS notes that no-see-um screen keeps them out but is not typically used for windows and doors.",
+        "**No gaps.** Repair rips and gaps, keep doors and windows shut as much as possible and do not prop doors open, the University of Arizona advises; NC State notes that midges may find gaps and tears.",
+        "**Fine netting outdoors.** Montana State says their biting led to tent screens with very fine mesh netting, and the University of Arizona suggests a hat with fine mesh netting over the face and neck."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Can they breed indoors? The University of Arizona says any spot with moist organic matter, inside or outside a building, can serve, including indoor plant pots and water from air conditioners. Tiny flies over houseplants that never bite, though, are more likely [fungus gnats breeding in the potting soil](/learn/how-to-get-rid-of-fungus-gnats), and if the biter indoors is a mosquito, [getting rid of mosquitoes in the house](/blog/how-to-get-rid-of-mosquitoes-in-the-house) takes a different approach."
+    },
+    {
+      "type": "media",
+      "needed": "A biting midge photographed beside standard 16 x 16 window screen mesh at the same magnification, to show that it fits through the openings; public domain, CC0 or CC BY, from a university or government source"
+    },
+    {
+      "type": "h2",
+      "text": "How do you keep no-see-ums from biting?"
+    },
+    {
+      "type": "p",
+      "text": "No single measure is complete, so combine them:"
+    },
+    {
+      "type": "ol",
+      "items": [
+        "**Avoid the peak hours:** sunrise, sunset and still evenings near marshes and wet ground.",
+        "**Keep the air moving.** UF/IFAS says more air movement on porches, patios and picnic areas keeps biting flies away but may not give complete protection, and CDC suggests fans to blow biting midges away outdoors.",
+        "**Use a repellent labeled for them.** CDC advises EPA-registered repellents labeled for flies, biting flies or *Culicoides*. UF/IFAS says DEET-based mosquito repellents are the main ones used against biting midges, but warns that most repellents work less well on biting flies than on mosquitoes and need reapplying more often. [CDC's page on preventing mosquito bites](https://www.cdc.gov/mosquitoes/prevention/index.html) lists the EPA-registered active ingredients (DEET, picaridin, IR3535, oil of lemon eucalyptus, para-menthane-diol and 2-undecanone) and says not to use oil of lemon eucalyptus or para-menthane-diol on children under 3; [how to keep mosquitoes away](/blog/how-to-keep-mosquitoes-away) compares them.",
+        "**Cover up.** The University of Arizona suggests light-colored long sleeves, long pants, shoes and socks, and the Bohart Museum warns that the black valley gnat can crawl under loose clothing unnoticed. [EPA's page on repellent-treated clothing](https://www.epa.gov/insect-repellents/repellent-treated-clothing) says permethrin factory-treated clothing protects only the skin it covers and only against the pests on its label; CDC says not to use permethrin products directly on skin.",
+        "**Treat citronella as an extra.** UF/IFAS says candles, coils and torches containing citronella or other biting fly deterrents will sometimes help reduce biting fly activity."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "note",
+      "title": "What to expect from a repellent",
+      "text": "UF/IFAS says studies show DEET can reduce midge bites, but the reduction may not be enough for everyone, and that plant-oil repellents sold for biting midges have not been rigorously tested. The University of Arizona's Backyard Gardener says DEET repellents seem to be only marginally effective against them."
+    },
+    {
+      "type": "h2",
+      "text": "Does spraying the yard get rid of no-see-ums?"
+    },
+    {
+      "type": "p",
+      "text": "Not for long. NC State says controlling immature biting midges is impractical in North Carolina and that sprays, fogs and mists are only temporarily effective against adults, because more adults rapidly move into the treated area after the spray dissipates. The University of Arizona says insecticides against the larvae are not a viable option because the breeding sites are hard to reach and scattered."
+    },
+    {
+      "type": "p",
+      "text": "Removing breeding sites is no sure fix either: UF/IFAS describes a California study in which removing a wastewater pond complex, thought to be one species' main breeding site, made no difference to adult numbers, and notes that cost and wetland rules may limit such changes."
+    },
+    {
+      "type": "p",
+      "text": "Some steps help. UF/IFAS says outdoor barrier treatments on vegetation and house walls, used as the label directs, can reduce numbers around a house, and a study it cites found that a bifenthrin barrier spray at the label's maximum rate reduced *Culicoides furens*. For a neighborhood-wide problem, it suggests your local mosquito control district. In watered yards, the University of Arizona says letting moist spots drain and dry kills eggs and larvae."
+    },
+    {
+      "type": "h2",
+      "text": "Do no-see-ums spread disease?"
+    },
+    {
+      "type": "p",
+      "text": "Not to people in the United States, Montana State says, although biting midges spread human diseases elsewhere; the University of Arizona calls no-see-ums primarily a nuisance whose main medical issue is allergic reactions to the bites."
+    },
+    {
+      "type": "p",
+      "text": "The one to know about is Oropouche virus. [CDC's overview of Oropouche](https://www.cdc.gov/oropouche/about/index.html) says it spreads to people mainly through the bites of infected biting midges, that some mosquitoes can spread it too, and that it has been reported in parts of South America, Central America and the Caribbean. As of October 27, 2026, CDC reports no locally acquired cases in the United States; the 108 cases in US states in 2024 and the 2 in 2025 were travel-associated."
+    },
+    {
+      "type": "p",
+      "text": "The midge that carries the virus in the Amazon region, *Culicoides paraensis*, also lives in the eastern United States, where it breeds in wet tree holes, UF/IFAS says. CDC advises anyone back from an area with Oropouche to keep preventing midge and mosquito bites for 3 weeks."
+    },
+    {
+      "type": "p",
+      "text": "Livestock and deer are another matter. UF/IFAS says *Culicoides* midges spread bluetongue and epizootic hemorrhagic disease viruses to sheep, cattle and deer, with *C. sonorensis* and *C. insignis* the confirmed US vectors, and Montana State calls epizootic hemorrhagic disease the most significant naturally occurring disease of white-tailed deer in the United States."
+    },
+    {
+      "type": "h2",
+      "text": "Are no-see-ums harmful?"
+    },
+    {
+      "type": "p",
+      "text": "Mostly they are a nuisance: a bite usually leaves a small red spot that stings and itches. UF/IFAS says reactions generally consist of a localized stinging or burning feeling with defined red areas around the bites, and that the discomfort usually lasts minutes to hours, though people who are hypersensitive may itch for two to three days; the University of Arizona describes small red welts about 1/8 inch across, or water-filled blisters, that itch intensely. [The bug bite chart](/learn/bug-bites) compares them with other bites, and [the bug bite identifier](/tools/bug-bite-identifier) suggests likely biters from six questions."
+    },
+    {
+      "type": "figure",
+      "src": "/guides/photos/biting-midge-bites-ankles.webp",
+      "width": 1200,
+      "height": 800,
+      "alt": "Lower legs of a man with rolled-down white socks, showing several red, raised bite marks around both ankles",
+      "caption": "Biting midge bites on a man's ankles: red, raised bumps above rolled-down socks, in a CDC photograph from a case in Guanacaste Province, Costa Rica.",
+      "license": "public-domain",
+      "credit": "CDC/ Margaret Parsons; photo: C. L. Hogue (CDC Public Health Image Library, phil.cdc.gov)",
+      "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=6351"
+    },
+    {
+      "type": "callout",
+      "tone": "warning",
+      "title": "When to get medical care",
+      "text": "The [American Academy of Dermatology](https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist) says most bug bites can be treated at home, and to go to the emergency room immediately after a bite or sting for signs such as difficulty breathing, a feeling that your throat is closing, or swollen lips, tongue or face."
+    },
+    {
+      "type": "h2",
+      "text": "What should you do about no-see-ums?"
+    },
+    {
+      "type": "p",
+      "text": "Match the fix to where it happens:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Outdoors near water at dusk:** time your outings, sit in moving air or run a fan, and use a repellent whose label lists biting flies or midges.",
+        "**Indoors:** repair screens and fit 20 x 20 mesh or finer where you can.",
+        "**Tiny flies indoors that never bite:** probably fungus gnats or fruit flies, which need a different fix.",
+        "**Midges across the neighborhood:** ask your local mosquito control district, as UF/IFAS suggests.",
+        "**Travel where Oropouche occurs:** follow CDC's bite prevention advice during the trip and for 3 weeks after."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Save the evidence",
+      "text": "Catch a biting fly in a small jar or on clear tape, photograph it beside a ruler marked in inches, and note where and when it bit. Your state's cooperative extension office or a pest professional can use those details to help identify it."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why are they called no-see-ums?",
+      "answer": "Because people often feel the bite before they see the biter. Adults are usually only 0.04 to 0.08 inch long, according to the University of Florida, and the University of Arizona says they are barely visible to the naked eye and often go unnoticed because of their small size. Depending on the region, the same insects are also called biting midges, punkies, sand flies, sand gnats or biting gnats."
+    },
+    {
+      "question": "Are no-see-ums the same as gnats?",
+      "answer": "No-see-ums are sometimes called biting gnats or sand gnats, but they are not the gnats most people find indoors. Fungus gnats, about 1/16 to 1/8 inch long and found around damp potting soil, do not bite people, according to UC IPM, and Texas A&M AgriLife Extension says fruit flies do not bite either. Black flies, sometimes called buffalo gnats, do bite, but they are stout, humpbacked and slightly less than 1/4 inch long."
+    },
+    {
+      "question": "What size screen mesh keeps out no-see-ums?",
+      "answer": "Finer than standard window screen. The University of Arizona says no-see-ums pass through standard 16 by 16 and 18 by 16 mesh and suggests 30 by 30 mesh wherever possible, while CDC suggests looking for screens with 20 by 20 mesh to keep biting midges out of the home. Whatever the mesh, inspect screens for rips and gaps, which NC State says midges can find, and keep doors and windows closed as much as you can."
+    },
+    {
+      "question": "Can no-see-ums live in your house?",
+      "answer": "They usually come in from outside, and they need moisture to breed. Larvae develop in wet mud, sand, marsh soil or tree holes, UF/IFAS says, but the University of Arizona notes that any spot with moist organic matter, inside or outside a building, can serve, including indoor plant pots and water from air conditioners. Tiny flies that hover over houseplants and never bite are more likely fungus gnats, which breed in damp potting soil and do not bite people."
+    },
+    {
+      "question": "When are no-see-ums the worst in Florida?",
+      "answer": "In summer. UF/IFAS says Florida's no-see-um larvae live in marshes all year, with adults most active in June, July and August, and that they are usually most active around sunrise and sunset, although they may bite at any time of year. Coastal species that breed in marshes, swamps and mangroves can reach incredible densities, the university says, and in cold weather and in coastal areas many species bite in broad daylight."
+    },
+    {
+      "question": "Are no-see-ums attracted to light?",
+      "answer": "Light traps catch enough biting midges that UF/IFAS calls them probably the most common method of studying biting midge activity. Not every species comes to them, though. Its profile of Culicoides paraensis, a species found in the eastern United States that bites mainly in the daytime, says light traps do not capture it effectively, which may be because it rarely bites at night."
+    },
+    {
+      "question": "Do no-see-ums bite at night?",
+      "answer": "Some do. UF/IFAS says most species bite during dusk, at night or in the morning, and its biting flies guide says no-see-ums are usually most active around sunrise and sunset. There are exceptions in both directions: many species bite in broad daylight during cold weather and in coastal areas, and Culicoides paraensis, found in the eastern United States, bites mainly by day, especially in the late afternoon."
+    },
+    {
+      "question": "What attracts no-see-ums to people?",
+      "answer": "Body warmth is the factor the University of Florida names: it says animals with a high body temperature attract great numbers of female no-see-ums, and that people doing hard labor outdoors are often severely annoyed by them. Still air helps them too, since little feeding happens in even a slight breeze. Only the females bite, because they need blood to develop their eggs; both sexes otherwise feed on nectar."
+    },
+    {
+      "question": "What kills no-see-ums?",
+      "answer": "Insecticide sprays can kill adult midges, as Florida studies reported by UF/IFAS show, but NC State Extension says sprays, fogs and mists are only temporarily effective because more adults rapidly move into the treated area once the spray dissipates. The University of Arizona says insecticides against the larvae are not a viable option because the breeding sites are scattered and hard to reach, though letting overwatered spots in a yard drain and dry kills eggs and larvae. Repellents such as DEET are for preventing bites, and UF/IFAS says even DEET may not cut bites enough for everyone."
+    },
+    {
+      "question": "Can you get Oropouche from no-see-ums in the US?",
+      "answer": "CDC reports no locally acquired cases of Oropouche in the United States. The 108 cases reported in US states in 2024 and the 2 in 2025 were travel-associated, and none had been reported in 2026 as of October 27. CDC says the virus spreads mainly through bites of infected biting midges, and some mosquitoes, in parts of South America, Central America and the Caribbean, and advises travelers returning from those areas to prevent midge and mosquito bites for 3 weeks."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Biting Midges, No-See-Ums, Culicoides spp. (EENY-349/IN626; N. Burkett-Cadena, V. Cooper, C. Addae, C. R. Connelly and E. Buckner)",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IN626"
+    },
+    {
+      "title": "Biting Flies (ENY-220/IG081; J. B. Pitzer, P. G. Koehler and J. W. Diclaro II)",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IG081"
+    },
+    {
+      "title": "Culicoides paraensis Goeldi, Vector of Oropouche Virus (ENY2124/IN1451; N. Burkett-Cadena)",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IN1451"
+    },
+    {
+      "title": "Southern House Mosquito, Culex quinquefasciatus Say (EENY457/IN837; S. Hill and C. R. Connelly)",
+      "publisher": "University of Florida IFAS Extension",
+      "url": "https://ask.ifas.ufl.edu/publication/IN837"
+    },
+    {
+      "title": "Something's Biting Me, but I Can't See It",
+      "publisher": "University of Arizona Cooperative Extension",
+      "url": "https://extension.arizona.edu/publication/somethings-biting-me-i-cant-see-it"
+    },
+    {
+      "title": "No-See-Um Biting Flies (Backyard Gardener #59, January 15, 2023; adapted from J. Schalau, Yavapai County)",
+      "publisher": "University of Arizona Cooperative Extension",
+      "url": "https://extension.arizona.edu/sites/extension.arizona.edu/files/barnesm/No-See-Um.pdf"
+    },
+    {
+      "title": "Biting Midges and Their Control (C. Apperson and M. Waldvogel; reviewed December 12, 2022)",
+      "publisher": "NC State Extension",
+      "url": "https://content.ces.ncsu.edu/biting-midges-and-their-control"
+    },
+    {
+      "title": "Biology and Impact of Biting Midges in Montana (MontGuide MT201205AG; M. Rolston and G. Johnson; reviewed March 2017)",
+      "publisher": "Montana State University Extension",
+      "url": "https://extension-store.montana.edu/assets/publications/montguidepdfs/mt201205ag_biology_and_impact_of_biting_midges_in_mt.pdf"
+    },
+    {
+      "title": "No-See-Ums (Information Note No. 34)",
+      "publisher": "Bohart Museum of Entomology, University of California, Davis",
+      "url": "https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_34_noseeum.pdf"
+    },
+    {
+      "title": "About Oropouche (updated September 18, 2025)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/oropouche/about/index.html"
+    },
+    {
+      "title": "Preventing Oropouche (September 18, 2025)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/oropouche/prevention/index.html"
+    },
+    {
+      "title": "Oropouche in the United States (data current as of October 27, 2026)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/oropouche/data-maps/current-year-data.html"
+    },
+    {
+      "title": "Preventing Mosquito Bites (August 28, 2024)",
+      "publisher": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/mosquitoes/prevention/index.html"
+    },
+    {
+      "title": "Repellent-Treated Clothing (updated February 26, 2026)",
+      "publisher": "US Environmental Protection Agency",
+      "url": "https://www.epa.gov/insect-repellents/repellent-treated-clothing"
+    },
+    {
+      "title": "Pest Notes: Fungus Gnats (UC ANR Publication 7448)",
+      "publisher": "University of California Statewide IPM Program",
+      "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/"
+    },
+    {
+      "title": "Indoor Flies and Their Control (M. Merchant)",
+      "publisher": "Texas A&M AgriLife Extension Service",
+      "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/"
+    },
+    {
+      "title": "Mosquitoes and the Diseases They Transmit (ENTO-040; S. L. Swiger)",
+      "publisher": "Texas A&M AgriLife Extension Service",
+      "url": "https://livestockvetento.tamu.edu/files/2016/07/ENTO-040-Mosquitoes-and-diseases.pdf"
+    },
+    {
+      "title": "Black Fly (reviewed December 2021)",
+      "publisher": "Iowa State University Extension and Outreach",
+      "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/black-fly"
+    },
+    {
+      "title": "Sand Flea Bites (last updated November 16, 2022)",
+      "publisher": "Cleveland Clinic",
+      "url": "https://my.clevelandclinic.org/health/diseases/24458-sand-flea-bites"
+    },
+    {
+      "title": "Bug Bites and Stings: When to See a Dermatologist",
+      "publisher": "American Academy of Dermatology",
+      "url": "https://www.aad.org/public/everyday-care/injured-skin/bites/bug-bites-see-dermatologist"
+    }
+  ],
+  "disclaimer": "health"
+}

@@ -12,29 +12,32 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-thermal-fogger-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Thermal Fogger Canada 2026 — Pulse-Jet vs Propane vs Electric for Mosquitoes'
-const META_TITLE = 'Best Thermal Fogger Canada 2026 for Mosquitoes'
+// TITLE NOTE (Oct 28, 2026): was 'Best Thermal Fogger Canada 2026 for Mosquitoes'; top queries (Jul 28-Oct 25): thermal fogger 77 (pos 7.5), mosquito fogger machine 21 (pos 4.1, 2 clicks), are mosquito foggers legal in canada 2 (1 click). 'Mosquito fogger' stays with /blog/mosquito-fogger-canada; the legal question is what a Canadian buyer most needs answered.
+const META_TITLE = 'Best Thermal Fogger Canada (2026): What’s Legal'
 
 const FAQS = [
   {
     question: 'What is the best thermal fogger for mosquitoes in Canada in 2026?',
-    answer: 'For serious, large-property mosquito knockdown, the best thermal fogger in Canada is a professional pulse-jet unit like the Longray family — it vaporizes fogging fluid into a dense, ultra-fine cloud that drifts deep into shrubs, tree lines, and shaded harbourage, and it runs on refillable fuel so you are not tied to disposable propane canisters. For a homeowner who wants same-evening relief before a backyard party without buying pro gear, a propane-cartridge fogger like the Black Flag propane model is the simplest plug-and-play option. Whichever machine you choose, the single most important rule in Canada is that the fogging fluid must be a PMRA-registered product with a Canadian PCP number on the label — the device is just the delivery tool.',
+    answer: 'For serious, large-property mosquito knockdown, the best thermal fogger in Canada is a professional pulse-jet unit like the Longray family — it vaporizes fogging fluid into a dense, ultra-fine cloud that drifts deep into shrubs, tree lines, and shaded harbourage, and it runs on refillable fuel so you are not tied to disposable propane canisters. For a homeowner who wants same-evening relief before a backyard party without buying pro gear, a propane-cartridge fogger like the Black Flag propane model is the simplest plug-and-play option. Whichever machine you choose, the single most important rule in Canada is that the fogging fluid must be a PMRA-registered product with a Canadian PCP number on the label — the device is just the delivery tool. Check that first: Health Canada’s registry (searched October 28, 2026) shows no current homeowner (domestic-class) product labelled for a thermal fogger, and the last one we found, Black Flag Fog Insecticide (Reg. No. 28121), was cancelled in 2017.',
   },
   {
     question: 'What is the difference between a thermal fogger and a cold ULV fogger?',
-    answer: 'A thermal fogger uses heat — a pulse-jet or propane burner — to flash-vaporize an oil-based fluid into an extremely fine, visible fog of sub-20-micron droplets that hangs in the air and drifts into dense vegetation. A cold ULV (ultra-low-volume) fogger uses air pressure or a high-speed impeller instead of heat, producing a nearly invisible mist of slightly larger, more controllable droplets with no hot barrel and no warm-up. Thermal foggers give better drift and canopy penetration outdoors and are dramatic to watch; ULV foggers are safer around heat-sensitive areas, work with water-based fluids, and are the usual choice for indoor or greenhouse fogging. We compare them in depth in our thermal-vs-ULV guide.',
+    answer: 'A thermal fogger uses heat — a pulse-jet or propane burner — to flash-vaporize an oil-based fluid into an extremely fine, visible fog of sub-20-micron droplets that hangs in the air and drifts into dense vegetation. A cold ULV (ultra-low-volume) fogger uses air pressure or a high-speed impeller instead of heat, producing a nearly invisible mist of slightly larger, more controllable droplets with no hot barrel and no warm-up. Thermal foggers give better drift and canopy penetration outdoors and are dramatic to watch; ULV foggers have no flame or hot coil, work with water-based fluids, and are the usual choice for indoor or greenhouse fogging. We compare them in depth in our thermal-vs-ULV guide.',
   },
   {
     question: 'Are thermal foggers legal in Canada?',
-    answer: 'The fogger machine itself is a device, not a pesticide, so owning and using one is legal across Canada. What is regulated is the fluid you put in it: any insecticide you fog outdoors must be registered with Health Canada’s Pest Management Regulatory Agency (PMRA) and carry a Canadian Pest Control Product (PCP) registration number on the label. Many popular US fogging concentrates are not registered here and are illegal to import or use in Canada even though the hardware is identical. Always match a legal Canadian fogging fluid to your machine, follow the label rate, and check your municipal bylaws before fogging near property lines.',
+    answer: 'The machine, yes: a handheld fogger is not one of the device types listed in Schedule 1 of the Pest Control Products Regulations, so it needs no registration. The liquid is the problem. Any insecticide you fog must be registered under the Pest Control Products Act, carry a PCP number, and have a label that allows your equipment and site. We found no current homeowner (domestic-class) product labelled for a thermal fogger in Health Canada’s registry (October 28, 2026): Black Flag Fog Insecticide (Reg. No. 28121), labelled for “any type of thermal fogging machine”, was cancelled in 2017, and the pyrethrins re-evaluation RVD2023-06 says to “Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels”. The simplest fog a homeowner can legally use is a registered aerosol patio fogger such as Muskol Patio & Deck Fogger (Reg. No. 22808.03).',
   },
   {
     question: 'Can I use US fogging insecticide in a Canadian thermal fogger?',
-    answer: 'No — and this is the most common and most expensive mistake. The fogger hardware sold in the US and Canada is often identical, so people assume the fluids are interchangeable, but they are not. A fogging concentrate is only legal to use in Canada if it carries a PMRA/PCP registration number, and many US pyrethrin and permethrin fogging solutions have never been registered here. Importing or applying an unregistered pesticide is an offence under the Pest Control Products Act. Buy the machine wherever you like, but source a Canadian-registered fogging fluid and confirm the PCP number is printed on the label before you fog.',
+    answer: 'No — and this is the most common and most expensive mistake. The fogger hardware sold in the US and Canada is often identical, so people assume the fluids are interchangeable, but they are not. A fogging concentrate is only legal to use in Canada if it carries a PMRA/PCP registration number, and many US pyrethrin and permethrin fogging solutions have never been registered here. Importing or applying an unregistered pesticide is an offence under the Pest Control Products Act, and Health Canada says “Online purchases of unregistered pesticides and their shipment to Canada are not permitted” under its personal-use exemption. Before you look for a Canadian replacement, know that we found no current homeowner product in Health Canada’s registry labelled for a thermal fogger.',
   },
   {
     question: 'How much does a good thermal fogger cost in Canada?',
@@ -50,11 +53,11 @@ const FAQS = [
   },
   {
     question: 'What fluid do you put in a thermal fogger?',
-    answer: 'Thermal foggers need an oil- or glycol-based fogging solution designed for heat vaporization — most water-based concentrates are meant for cold ULV machines, not hot barrels. For mosquito control in Canada, that means a PMRA-registered oil-based fogging insecticide (or a registered concentrate diluted in the label-specified fogging oil) carrying a Canadian PCP number. Never pour a random garden concentrate into a thermal fogger: the wrong carrier can flame, clog the barrel, or produce an unsafe fog. Match the fluid to both the machine type (thermal, not ULV) and Canadian registration before you start.',
+    answer: 'Thermal foggers need an oil- or glycol-based fogging solution designed for heat vaporization — most water-based concentrates are meant for cold ULV machines, not hot barrels. The makers name the liquid: the Burgess propane fogger is “designed to be used with Black Flag Fogging Insecticide Formula 2”, the Fountainhead electric fogger with Black Flag Formula 2, Cutter or Repel fogging insecticide, and both manuals say not to use materials designed to be mixed with water. None of those has a current Canadian registration: the Canadian Black Flag Fog Insecticide (Reg. No. 28121) was cancelled in 2017. Never pour a random garden concentrate into a thermal fogger: the wrong carrier can flame, clog the barrel, or produce an unsafe fog.',
   },
   {
     question: 'Are thermal foggers safe to use around my yard?',
-    answer: 'Used correctly they are reasonably safe, but they demand respect: the barrel and fog are hot, the fluid is oil-based and flammable during warm-up, and the fog is a fine pesticide cloud you must not breathe or let drift onto neighbours, pets, ponds, gardens, or open windows. Fog on a still, dry evening, wear eye protection and a respirator, keep people and animals out of the area until the fog settles, never fog near open flame, and always follow the PMRA-registered fluid’s label for rate, re-entry time, and buffer zones. If any of that feels like more than you want to manage, a licensed applicator handles the chemistry and liability for you.',
+    answer: 'They are outdoor-only machines that demand respect: both Fountainhead manuals (Burgess propane and the electric fogger) say never to use them indoors, the propane unit uses an open flame, the barrel and fog are hot, and the fog is a fine pesticide cloud you must not breathe or let drift onto neighbours, pets, ponds, gardens, or open windows. Fog on a still, dry evening (the Burgess manual advises against fogging when the wind is blowing harder than five miles an hour), wear eye protection and a respirator, keep people and animals out of the area until the fog has dispersed, never fog near open flame, and always follow the registered product’s label for rate, re-entry time, and buffer zones. If any of that feels like more than you want to manage, a licensed applicator handles the chemistry and liability for you.',
   },
   {
     question: 'Does thermal fogging kill ticks too?',
@@ -62,17 +65,25 @@ const FAQS = [
   },
   {
     question: 'Where can I buy a thermal fogger in Canada?',
-    answer: 'Propane homeowner foggers (Black Flag and similar) show up seasonally at Canadian Tire, Home Depot Canada, and Amazon.ca. Pulse-jet and professional units like Longray are mostly sold through pest-control supply distributors and Amazon.ca, which carries the widest year-round selection with Prime shipping. Buy the machine in spring before peak-season stock runs low. Remember that the store selling you the hardware will not always stock a Canadian-registered fogging fluid, so plan to source a PMRA-registered fogging insecticide separately and confirm the PCP number on its label.',
+    answer: 'Propane homeowner foggers (Black Flag and similar) show up seasonally at Canadian Tire, Home Depot Canada, and Amazon.ca. Pulse-jet and professional units like Longray are mostly sold through pest-control supply distributors and Amazon.ca, which carries the widest year-round selection with Prime shipping. Buy the machine in spring before peak-season stock runs low. Remember that the store selling you the hardware will not always stock a Canadian-registered fogging fluid, and we found no current homeowner insecticide in Health Canada’s registry labelled for a thermal fogger, so check the liquid before you buy the machine.',
   },
   {
     question: 'Is a thermal fogger better than professional barrier spray for a GTA backyard?',
     answer: 'They solve different problems. A thermal fogger gives you a fast, satisfying same-evening knockdown you control yourself, which is great before a specific event on acreage. Professional barrier spray covers the whole yard with a residual on the leaves where mosquitoes rest, renewed on the plan schedule (every 2 weeks on Standard, monthly on Basic), also targets ticks in their ground-level harbourage, and comes with licensing and liability handled. On a normal lot where neighbours’ properties keep re-seeding mosquitoes, that difference matters: a barrier residual is renewed on a set schedule, while a fog is a short-lived knockdown. Many acreage owners run both.',
   },
+  {
+    question: 'What is a mosquito fogger machine?',
+    answer: 'It is a sprayer that turns an insecticide into a fog of very small droplets. A thermal fogger does it with heat: in the Burgess propane fogger a trigger pump pushes the liquid through a coil heated by a propane burner, and the heat vaporizes it into fog; the electric version heats the coil from an outlet. The Fountainhead Group, which makes both Burgess and Black Flag foggers, says the fog averages 15 microns, against 50 to 125 microns for mist droplets. A cold ULV fogger does the same job with an air stream instead of heat. In Canada the machine needs no registration; the liquid does.',
+  },
+  {
+    question: 'Is there a propane fogger insecticide sold in Canada?',
+    answer: 'Not for homeowners, as far as Health Canada’s registry shows (searched October 28, 2026). Black Flag Fog Insecticide (Reg. No. 28121), a domestic product labelled for “any type of thermal fogging machine”, was cancelled in 2017, and so was Wilson Mosquito Fogging Insecticide (Reg. No. 17201). No Black Flag, Cutter or Repel fogging insecticide is currently registered, and Health Canada says online purchases of unregistered pesticides shipped to Canada are not permitted. A registered homeowner alternative is an aerosol patio fogger such as Muskol Patio & Deck Fogger (Reg. No. 22808.03), used as its label directs.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best thermal foggers for mosquitoes in Canada for 2026: pulse-jet (Longray) vs propane-cartridge (Black Flag) vs electric, how they differ from cold ULV, the PMRA-registered-fluid rule that keeps you legal, sizing, and where to buy.',
+  description: 'Best thermal fogger in Canada: propane or electric handheld for a lot, pulse-jet for acreage. The catch: no current homeowner liquid is labelled for one.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -97,7 +108,7 @@ export default function BestThermalFoggerCanadaPage() {
             <span className="text-white">Best Thermal Fogger Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">Every kind of mosquito thermal fogger sold in Canada &mdash; professional pulse-jet, propane-cartridge, and electric &mdash; compared on fog quality, canopy penetration, running cost, and the one rule that keeps you legal: a PMRA-registered fogging fluid.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> for a normal lot, a propane or electric handheld thermal fogger (Burgess, Black Flag); for acreage, a professional pulse-jet. The catch in Canada is the liquid: Health Canada&rsquo;s registry shows no current homeowner insecticide labelled for a thermal fogger, and the pyrethrins re-evaluation (RVD2023-06) says to prohibit handheld fogging equipment on domestic liquid labels. The simplest fog a homeowner can legally use is a registered aerosol patio fogger; thermal machine fogging is a licensed operator&rsquo;s job.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -110,12 +121,12 @@ export default function BestThermalFoggerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For serious mosquito knockdown on a large property, the best thermal fogger in Canada is a professional <strong>pulse-jet</strong> unit like the <Link href="/blog/longray-thermal-fogger-review-canada" className="text-emerald-700 underline">Longray</Link> &mdash; it makes a dense, ultra-fine fog that drives deep into shrubs and tree lines and runs on refillable fuel. For a homeowner who just wants same-evening relief before a party, a <strong>propane-cartridge</strong> fogger like the Black Flag is the simplest option. Either way, the fluid you fog must be a <strong>PMRA-registered</strong> product with a Canadian PCP number &mdash; the machine is only the delivery tool.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">For serious mosquito knockdown on a large property, the best thermal fogger in Canada is a professional <strong>pulse-jet</strong> unit like the <Link href="/blog/longray-thermal-fogger-review-canada" className="text-emerald-700 underline">Longray</Link> &mdash; it makes a dense, ultra-fine fog that drives deep into shrubs and tree lines and runs on refillable fuel. For a homeowner who just wants same-evening relief before a party, a <strong>propane-cartridge</strong> fogger like the Black Flag is the simplest option. Either way, the fluid you fog must be a <strong>PMRA-registered</strong> product with a Canadian PCP number &mdash; the machine is only the delivery tool &mdash; and we found no current homeowner product labelled for a thermal fogger, so read the table below before you buy.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Pulse-jet foggers (Longray) give the finest fog and best canopy penetration &mdash; best for acreage and frequent use.</li>
               <li>Propane-cartridge foggers (Black Flag) are cheap and simple &mdash; best for occasional use on a normal lot.</li>
               <li>Thermal foggers use heat to vaporize oil-based fluid; cold <Link href="/blog/best-ulv-cold-fogger-canada" className="text-emerald-700 underline">ULV foggers</Link> use pressure and water-based fluid.</li>
-              <li>The device is legal; the fluid must carry a Canadian PMRA/PCP registration number &mdash; US fogging concentrates are not legal here.</li>
+              <li>The device is legal; the fluid must carry a Canadian PCP number &mdash; US fogging concentrates are not legal here, and the last Canadian homeowner fogging insecticide we found (Black Flag Fog Insecticide, 28121) was cancelled in 2017.</li>
               <li>Fogging is a short-lived knockdown (hours to days), not a season-long residual &mdash; it barely touches ticks.</li>
               <li>Professional barrier spray treats the whole yard from $99, renews the residual on your plan&rsquo;s schedule, and targets ticks too.</li>
             </ul>
@@ -244,7 +255,7 @@ export default function BestThermalFoggerCanadaPage() {
                   ['Simplest for homeowners', 'Propane-cartridge (Black Flag) — plug-and-play'],
                   ['No-propane option', 'Electric thermal fogger (cord-limited)'],
                   ['Fluid type required', 'Oil/glycol-based fogging fluid — NOT water-based ULV fluid'],
-                  ['Legal requirement', 'Fluid must carry a PMRA / Canadian PCP registration number'],
+                  ['Legal requirement', 'Fluid must carry a Canadian PCP number and a label that allows your machine; no current homeowner product labelled for thermal foggers found (Oct 2026)'],
                   ['Residual duration', 'Short — hours to a couple of days (a knockdown, not a barrier)'],
                   ['Tick effectiveness', 'Minimal — ticks sit low; fog barely reaches harbourage'],
                   ['Coverage', 'Suburban yard (propane) up to acreage (pulse-jet)'],
@@ -270,7 +281,24 @@ export default function BestThermalFoggerCanadaPage() {
 
           <h2>What Is the Best Thermal Fogger for Mosquitoes in Canada?</h2>
           <p>A professional pulse-jet thermal fogger is the best machine you can buy for mosquito knockdown on a large Canadian property &mdash; not because it is the cheapest or the simplest, but because it does the one thing thermal fogging is uniquely good at, better than anything else: it turns fluid into an enormous cloud of sub-20-micron droplets that hangs in the air and drifts deep into the shrubs, hedgerows, and tree lines where mosquitoes rest during the day. The Longray family is the reference point here, and it is why our <Link href="/blog/longray-thermal-fogger-review-canada">full Longray review</Link> treats it as the benchmark. But &ldquo;best&rdquo; depends entirely on your property and how often you fog, which is why the propane and electric options above exist &mdash; and why, for most suburban lots, a fogger is not actually the right tool at all.</p>
+          <Photo
+            id="mosquito-swarm-alaska-tundra"
+            alt="A swarm of mosquitoes in the air over open tundra"
+            caption="Mosquitoes swarming over the tundra of the Andreafsky Wilderness, Yukon Delta National Wildlife Refuge, Alaska, July 2010 (USFWS photograph). Fog only kills the adults it touches in the air or where they rest; it does nothing to the next batch growing in standing water."
+          />
           <p>Before we get into machines, understand the distinction that governs everything: in Canada the <strong>fogger is a device and the fluid is a pesticide</strong>. The hardware is unregulated; the chemistry you run through it is tightly regulated. Get that backwards and you can spend a fortune on a legal machine and then break the law with an illegal fluid. Everything below is organized around that reality.</p>
+
+          <QuickIdTable
+            title="Thermal foggers in Canada: the machine, its liquid, and the record"
+            head={['Machine', 'How it works (maker)', 'Liquid the maker specifies', 'Status of that liquid in Canada', 'Limits']}
+            rows={[
+              ['Propane handheld (Burgess 1443)', 'A trigger pump pushes liquid through a coil heated by a propane burner; the fog averages 15 microns. About 2½ hours of fogging per 14.1 oz tall cylinder; the maker warns 16 oz lantern cylinders may flare', 'Black Flag Fogging Insecticide Formula 2 only; nothing designed to be mixed with water', 'No current Black Flag registration. The Canadian Black Flag Fog Insecticide (Reg. No. 28121, domestic, “any type of thermal fogging machine”) was cancelled in 2017', 'Outdoors only (open flame); not when wind is over 5 mph'],
+              ['Electric handheld (Fountainhead Electric Insect Fogger)', 'An electric element heats the coil; preheat 2–3 minutes; fogs about 2 minutes after unplugging', 'Black Flag Formula 2, Cutter or Repel fogging insecticide', 'None currently registered: no Black Flag or Cutter product and no Repel fogging insecticide in the registry', 'Outdoors only; 3-wire 10, 12 or 14 gauge outdoor cord'],
+              ['Professional pulse-jet or truck units', 'Commercial equipment for large areas', 'A product whose label names the machine and the site', 'Current fogging solutions are commercial class, e.g. Bugwacker Fogging Solution (22563, barns, space sprayer or ULV) and Pyrocide Fogging Formula 7067 (13378, ULV mosquito adulticiding)', 'Licensed operators, farms and mosquito programs, under their labels'],
+              ['Aerosol patio fogger can (Muskol Patio & Deck Fogger)', 'A pressurized can with a fogging nozzle; fog reaches up to 6 m', 'Its own contents (pyrethrins + piperonyl butoxide)', 'Registered, domestic class (Reg. No. 22808.03)', 'Outdoors around buildings; not when people or pets are present; repeat only after 7 days'],
+            ]}
+            caption={<>From the Burgess Propane Insect Fogger and Fountainhead Electric Insect Fogger (No. 180557) use-and-care manuals; Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">Pesticide Product Information Database</a>, searched by product name on October 28, 2026, with the approved labels for 28121, 22563 and 22808.03; and <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2023/pyrethrins.html" target="_blank" rel="noopener noreferrer" className="underline">RVD2023-06</a> (2 March 2023), which says to &ldquo;Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels&rdquo;. A name search finds products by name only, so read the label of any product you consider.</>}
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">Compare current Canadian prices across the main fogger types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -281,6 +309,11 @@ export default function BestThermalFoggerCanadaPage() {
 
           <h2>Top Pick: Pulse-Jet Foggers (Longray)</h2>
           <p>If you want a fogger that genuinely handles a large property, buy a pulse-jet unit. The pulse-jet engine is what separates professional-grade foggers from homeowner toys: it flash-heats the fogging fluid into the finest, densest fog on the market, and that fineness is exactly what lets the fog stay airborne long enough to drift into dense vegetation instead of falling straight to the ground. Combined with a large fluid tank and refillable fuel, it means you can treat an acre of treed lot in one pass and your per-use cost drops the more you fog.</p>
+          <Photo
+            id="aedes-vexans"
+            alt="An inland floodwater mosquito, Aedes vexans"
+            caption="An inland floodwater mosquito, Aedes vexans, photographed in Rock Creek Park, Washington, DC. Adults rest in shrubs and tree lines by day, which is where a fog has to drift to reach them."
+          />
           <p>The Longray line is the market reference. It is a real investment &mdash; roughly $500&ndash;$1,200 for the machine, plus fuel and PMRA-registered fluid &mdash; and it rewards a property big enough and a fogging habit frequent enough to justify it. On a cottage lot backing onto wetland, or an acreage where mosquitoes breed faster than any spot treatment can keep up, it earns its keep. Our <Link href="/blog/longray-thermal-fogger-review-canada">Longray Canada review</Link> breaks down the specific models, tank sizes, and where to source them.</p>
           <p><strong>Best for:</strong> acreage, cottages, and large treed properties where you are committed to fogging regularly through the season.</p>
 
@@ -296,7 +329,27 @@ export default function BestThermalFoggerCanadaPage() {
           <h2>The PMRA Rule: The One Thing That Keeps You Legal</h2>
           <p>This is the section that matters more than any hardware comparison. In Canada, an insecticide you apply outdoors &mdash; including anything you fog &mdash; must be registered with Health Canada&rsquo;s <strong>Pest Management Regulatory Agency (PMRA)</strong> and carry a Canadian <strong>Pest Control Product (PCP) registration number</strong> printed on its label. The fogger machine needs no registration because it is a device. The fluid absolutely does.</p>
           <p>Here is where people get burned: the fogger hardware sold in the United States and in Canada is frequently identical, so it is natural to assume the fluids are interchangeable too. They are not. Many of the most popular US fogging concentrates &mdash; various pyrethrin and permethrin fogging solutions marketed heavily to American homeowners &mdash; have <strong>never been registered in Canada</strong>, and importing or applying an unregistered pesticide is an offence under the Pest Control Products Act. Buying a Longray or a Black Flag is fine. Pouring an American fogging concentrate you ordered across the border into it is not.</p>
-          <p>The practical rule is simple: buy the machine wherever you like, then source a <strong>PMRA-registered, oil-based fogging fluid</strong> (or a registered concentrate diluted in the label-specified fogging oil) and confirm the PCP number is on the label before you fog. Note the &ldquo;oil-based&rdquo; part too &mdash; thermal foggers need an oil- or glycol-based fluid built for heat vaporization, whereas most water-based concentrates are formulated for cold <Link href="/blog/best-ulv-cold-fogger-canada">ULV foggers</Link>. Putting the wrong carrier in a hot barrel can flame, clog, or produce an unsafe fog. Match the fluid to both the machine type and Canadian registration, every time.</p>
+          <p>Here is the part most fogger guides miss: for a homeowner, that registered fluid is not on the record right now. Black Flag Fog Insecticide (Reg. No. 28121), a domestic product labelled &ldquo;for use with a manual sprayer or any type of thermal fogging machine&rdquo;, was cancelled in 2017, as was Wilson Mosquito Fogging Insecticide (17201); every product in Health Canada&rsquo;s registry named for thermal foggers is now historical; and the pyrethrins re-evaluation, <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2023/pyrethrins.html" target="_blank" rel="noopener noreferrer">RVD2023-06</a>, says to &ldquo;Prohibit the use of handheld and stationary fogging/misting equipment on liquid domestic-class labels&rdquo;. The fogging solutions that are current are commercial class, such as Bugwacker Fogging Solution (22563), labelled for barns with a space sprayer or ULV equipment. Note the &ldquo;oil-based&rdquo; part too &mdash; thermal foggers need an oil- or glycol-based fluid built for heat vaporization (the Burgess manual says &ldquo;Do not use emulsifiable concentrate or other materials designed to be mixed with water&rdquo;), whereas most water-based concentrates are formulated for cold <Link href="/blog/best-ulv-cold-fogger-canada">ULV foggers</Link>. Putting the wrong carrier in a hot barrel can flame, clog, or produce an unsafe fog.</p>
+
+          <h3>Which route fits your situation</h3>
+          <ul>
+            <li><strong>Homeowner, normal lot, mosquitoes tonight:</strong> a registered aerosol patio fogger such as Muskol Patio &amp; Deck Fogger (Reg. No. 22808.03), used as its label says: outdoors around buildings, not when people or pets are present, repeated only after 7 days. Our <Link href="/blog/mosquito-fogger-canada">mosquito fogger guide</Link> covers the cans in detail.</li>
+            <li><strong>You already own a propane or electric fogger:</strong> do not order a US fogging insecticide for it; check any liquid for a Canadian PCP number and a label that names thermal foggers. We found none current for homeowners.</li>
+            <li><strong>Acreage or a cottage with standing water:</strong> treat the water first (a larvicide with a PCP number), then a licensed treatment of the resting vegetation; a machine fog without a legal liquid is not an option.</li>
+            <li><strong>Barns and livestock buildings:</strong> the current barn fogging solution we found (Bugwacker, 22563, agricultural commercial class) is labelled for a space sprayer or ULV equipment with 15&ndash;25 micron droplets, not a thermal fogger.</li>
+            <li><strong>Licensed operator:</strong> a commercial product whose label names your equipment and site, at the label rate.</li>
+          </ul>
+
+          <h3>Before You Buy a Thermal Fogger: Checklist</h3>
+          <ol>
+            <li><strong>The liquid first.</strong> A Canadian PCP number, a label that names thermal foggers, and your site. If you cannot find one, do not buy the machine for insects.</li>
+            <li><strong>The maker&rsquo;s liquid list.</strong> Burgess allows only Black Flag Formula 2; the Fountainhead electric fogger allows Black Flag Formula 2, Cutter or Repel. None is currently registered in Canada.</li>
+            <li><strong>Outdoors only.</strong> Both manuals say never to use these foggers indoors; the propane unit has an open flame.</li>
+            <li><strong>Fuel or cord.</strong> Burgess recommends the 14.1 oz tall propane cylinder, not the shorter 16 oz lantern cylinder; the electric unit needs a 3-wire 10, 12 or 14 gauge outdoor cord.</li>
+            <li><strong>Weather.</strong> Fog at dusk with little wind; the Burgess manual advises against fogging when the wind is over 5 mph.</li>
+            <li><strong>People and pets out.</strong> The Burgess manual says not to let adults, children or pets enter until the fog has dispersed.</li>
+            <li><strong>Parts and service in Canada.</strong> Coils, nozzles and pumps wear; check you can get them here before you buy.</li>
+          </ol>
 
           <h2>How to Choose: Sizing and What You&rsquo;re Actually Paying For</h2>
           <p>Foggers span a ten-fold price range, so it is worth being clear-eyed about what the premium buys and whether your property justifies it. Work through these in order:</p>

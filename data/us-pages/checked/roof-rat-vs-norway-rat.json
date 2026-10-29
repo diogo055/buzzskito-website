@@ -2,7 +2,7 @@
  "id": "roof-rat-vs-norway-rat",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2cd24c3b634175c0cdcfee4c63253aee34b17fc9ed5110e4004fab29bbcb60cd",
+ "sha": "6b78cc2b1d7593e41526089dcdec640df037e1144a7dfd81a07a36cdcb28bd41",
  "claimsChecked": 330,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 6,
@@ -11,5 +11,12 @@
   "on": "2026-10-16",
   "scheduledFor": "2026-10-16",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/rat-nest (new page); no fact changed",
+   "previousSha": "2cd24c3b634175c0cdcfee4c63253aee34b17fc9ed5110e4004fab29bbcb60cd"
+  }
+ ]
 }

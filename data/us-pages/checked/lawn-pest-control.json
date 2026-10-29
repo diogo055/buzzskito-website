@@ -2,7 +2,7 @@
  "id": "lawn-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9080601ecbf5dea09742d3720c4e809368f3dbab433bcd4d162ceff9c0db2ce6",
+ "sha": "0eeb3b2064ac305cec6c02ce1194c34f64f73b51801ccbeb0c4b2c146db278eb",
  "claimsChecked": 82,
  "claimsCorrected": 12,
  "claimsRemovedOrSoftened": 10,
@@ -17,6 +17,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the damage table in 'How do you tell which pest is damaging your lawn?', just above 'How do you check for white grubs?', linking the new /blog/holes-in-yard; no fact changed.",
    "previousSha": "2100953b89c57065c37e27391bc1f48df76bb25add094a201f573e70900e98ab"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/japanese-beetles (new page); no fact changed",
+   "previousSha": "9080601ecbf5dea09742d3720c4e809368f3dbab433bcd4d162ceff9c0db2ce6"
   }
  ]
 }

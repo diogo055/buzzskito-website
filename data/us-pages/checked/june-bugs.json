@@ -1,0 +1,10 @@
+{
+ "id": "june-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "d464b8287bca70dca301544c84ba220f3262251dd7b7c16ad6dc3f55a9f99cf5",
+ "claimsChecked": 370,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 11,
+ "checkedOn": "2026-10-29"
+}

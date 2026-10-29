@@ -660,6 +660,34 @@
    "sha256Original": "052fb454d506d41a0cabbcc8e8de99f081bfd5b62150ac5c3056f0a637c3fef9"
   },
   {
+   "file": "/guides/photos/baby-norway-rat-furred-eyes-closed.webp",
+   "subject": "Baby Norway rat, Rattus norvegicus: a furred pup with its eyes still closed, curled in a person’s palm (Southampton Township, Burlington County, New Jersey; research grade on iNaturalist, annotated juvenile, male, alive)",
+   "sourceUrl": "https://www.inaturalist.org/observations/394967043",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/724152902/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 904,
+   "bytes": 66554,
+   "sourceDescription": "Rattus norvegicus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "f58cdba0d27df9fa7b56ce886865bb9085465f1670830b7bcdea858696e12200"
+  },
+  {
+   "file": "/guides/photos/baby-rats-litter-yard-debris-nest.webp",
+   "subject": "Litter of furred rat pups with their eyes still closed, held in a hand beside the suburban debris pile where yardwork exposed their nest; the observer identified them as Norway rats, Rattus norvegicus, from the habitat and returned them to the nest (West Columbia, South Carolina; no second identification on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/166364673",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/288091714/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1157,
+   "bytes": 125988,
+   "sourceDescription": "Rattus norvegicus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "9b44708b59bb5d0a1c2b85d6fbec6cb5f111c5588caff5011a55397d8413b316"
+  },
+  {
    "file": "/guides/photos/bait-station-block-bait-loading.webp",
    "subject": "Gloved hand placing blocks of rodent bait on the rods inside an opened bait box set against a brick wall (the photographer’s description: rodent bait being placed within a bait box)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rodent_bait_box_with_bait.jpg",
@@ -714,6 +742,34 @@
    "sourceDescription": "Arizona Bark Scorpion under blacklight",
    "downloadedOn": "2026-10-15",
    "sha256Original": "c0f47c4fa6c0991a0f5a659c4ed6e09eecbed6c7a942abcde1d4611af73f52f7"
+  },
+  {
+   "file": "/guides/photos/barn-funnel-weaver-indoor-wall.webp",
+   "subject": "Barn funnel weaver, Tegenaria domestica, on a white wall indoors, its legs banded light and dark and its abdomen spotted (Virginia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/107562040",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/180928818/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 16816,
+   "sourceDescription": "Tegenaria domestica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "4404fcc2a4098b25162eecfe48c138f410a5ac0c9c68b4b00e8fe76d1b1636da"
+  },
+  {
+   "file": "/guides/photos/barn-swallow-droppings-concrete.webp",
+   "subject": "Pile of barn swallow droppings on a concrete floor, small dark droppings capped with cream-white urates, with straw and a feather around them (the photographer’s identification: Hirundo rustica rustica, the European subspecies; no place given)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hirundo_rustica_rustica_feces.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Hirundo_rustica_rustica_feces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Aschroet, CC0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 900,
+   "bytes": 152842,
+   "sourceDescription": "Hirundo rustica rustica feces",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "9ec1a91375440f12cd00634bd798d13c6f7ef7a95427f727003f698a1e2b5043"
   },
   {
    "file": "/guides/photos/bat-droppings-bat-box-ruler.webp",
@@ -1485,6 +1541,20 @@
    "sourceDescription": "A female Chalybion californicum repurposing an old Sceliphron caementarium nest. Cheyenne, Oklahoma.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "0e9ca44c2052069309c9ba4da5d0fa91109db939cd701add139d447c0b283ecc"
+  },
+  {
+   "file": "/guides/photos/boa-constrictor-droppings-sample.webp",
+   "subject": "Boa constrictor droppings: tubular, hair-filled pieces of feces and one chalky urate lump in a plastic tub labeled Boa Constrictor, a sample awaiting drying and preservation in resin at The National Poo Museum",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boa_Constrictor_Faeces_-_National_Poo_Museum_Sample.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Boa_Constrictor_Faeces_-_National_Poo_Museum_Sample.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "PooMuseum, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 802,
+   "bytes": 174204,
+   "sourceDescription": "Sample of Boa Constrictor faeces awaiting drying and preservation in clear resin at The National Poo Museum.",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "e26b5279cb92238c1d730585505ea1715bdf65f56c1ef3653f65c0d015926c2a"
   },
   {
    "file": "/guides/photos/bold-jumping-spider-house-siding.webp",
@@ -4948,6 +5018,76 @@
    "sha256Original": "941dfca145c13f9446991b8ae4a7f39323ccca8da342a809e74aa6e85eb4e2cc"
   },
   {
+   "file": "/guides/photos/hobo-spider-door-corner.webp",
+   "subject": "Hobo spider, Eratigena agrestis, on the bottom corner of a white door, with no web in sight according to the observer (Missoula County, Montana; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/184904478",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322826239/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 102138,
+   "sourceDescription": "Eratigena agrestis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "e07e59c620cc76c44ecce4b79644fceae213d84ff8bd3e06914dad51d43af0c9"
+  },
+  {
+   "file": "/guides/photos/hobo-spider-dorsal-quarter.webp",
+   "subject": "Hobo spider, Eratigena agrestis, from above on a teal plastic tote: chevron pattern on the abdomen, legs without bands, the edge of a US quarter at left; the observer found it in an outdoor tote and released it (Lakewood, Colorado; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/393237985",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/720754552/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 56532,
+   "sourceDescription": "Eratigena agrestis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "856b49eaeb84713f2d75d16264e19d2675b5b7d3adb37bc21592663b57351455"
+  },
+  {
+   "file": "/guides/photos/hobo-spider-funnel-web-particle-board.webp",
+   "subject": "Hobo spider, Eratigena agrestis, adult male in its sheet-and-funnel web behind an old piece of particle board in the observer’s backyard, a spot the observer says hobo spiders can always be counted on to make homes in (Salt Lake City, Utah; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/84516618",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/138918826/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Rebecca Ray, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 758,
+   "bytes": 101596,
+   "sourceDescription": "Eratigena agrestis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "7436e937254a4510ef576327349f8e2b8baa3ba8b75ceda10834a44c69679a91"
+  },
+  {
+   "file": "/guides/photos/hobo-spider-house-foundation.webp",
+   "subject": "Hobo spider, Eratigena agrestis, on the concrete foundation of a house behind a gas grill, where the observer found it (Prince George, British Columbia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/137477202",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/234805806/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1101,
+   "height": 1101,
+   "bytes": 225070,
+   "sourceDescription": "Eratigena agrestis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "af9721e7bc5ecad4143d42d7cfd1b088fc43451c7b1e3bb1d09dddc8e6de935b"
+  },
+  {
+   "file": "/guides/photos/hobo-spider-juvenile-bathtub.webp",
+   "subject": "Hobo spider, Eratigena agrestis, juvenile, in a bathtub, seen from above with the camera’s date stamp in a corner; identification supported on iNaturalist by arachnologist Rod Crawford (Moscow, Idaho)",
+   "sourceUrl": "https://www.inaturalist.org/observations/296552224",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/533985160/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1168,
+   "bytes": 32618,
+   "sourceDescription": "Eratigena agrestis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "8d59ec33f6fd85685b910a0d2e54b581bebf77a93dcf249d9bfeb8cbb1efc7cc"
+  },
+  {
    "file": "/guides/photos/hobo-spider.webp",
    "subject": "Hobo spider, Eratigena agrestis (formerly Tegenaria agrestis), female",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tegenaria_agrestis_070903.jpg",
@@ -6574,6 +6714,20 @@
    "sha256Original": "69718dcb46930839fcff865b2cec19100fd901a6ae7f594e9e35a8487aa9947b"
   },
   {
+   "file": "/guides/photos/norway-rat-2-weeks-old-ruler.webp",
+   "subject": "Norway rat, Rattus norvegicus, 2 weeks old, side view beside a ruler, about 5 1/4 inches long by CDC’s measure, with proportionally large ears and feet and a blunt snout and tail (CDC photograph; very likely the same young rat as in house-mouse-vs-young-rat, whose animals look like specimens)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26272",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26272/26272.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Bayard F. Bjornson (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 817,
+   "bytes": 28212,
+   "sourceDescription": "This image depicts a left lateral view of a 2-week-old Norway rat (Rattus norvegicus) positioned adjacent and parallel to a ruler, demonstrating an approximate length of 5.25 inches. Note the animal’s proportionally large ears and feet, as well as its blunt snout and tail.",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "52d4fab7433d53b6ad2534bbda1abf09be7971568af18c4c78ca7a307ed6b702"
+  },
+  {
    "file": "/guides/photos/norway-rat-burrows.webp",
    "subject": "Burrow entrances identified on iNaturalist as Norway rat, Rattus norvegicus, in mossy soil at the base of a street tree beside a building (Seattle)",
    "sourceUrl": "https://www.inaturalist.org/observations/114324321",
@@ -7247,6 +7401,20 @@
    "sha256Original": "9802bb50930f5753bf7ac532d2664a1448d17d45ecab6ee8e71ec9a954ece0fe"
   },
   {
+   "file": "/guides/photos/rat-snake-shed-skin-attic.webp",
+   "subject": "Shed skin of a ratsnake, Pantherophis alleghaniensis (named by two identifiers on iNaturalist), lying on loose-fill insulation in an attic, a hand at one end for size (Elton, West Virginia; research grade)",
+   "sourceUrl": "https://www.inaturalist.org/observations/338301921",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/615191399/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 921,
+   "height": 2048,
+   "bytes": 506978,
+   "sourceDescription": "Pantherophis alleghaniensis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "ef88d3140a6f08ca37135c2d30de63652a88ada25554b51b002d7d4fcfb3a337"
+  },
+  {
    "file": "/guides/photos/rat-trap-vs-mouse-trap-size.webp",
    "subject": "Victor rat snap trap (top) and Victor mouse snap trap (bottom) side by side, showing the difference in size",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rattrap_and_mousetrap.JPG",
@@ -7259,6 +7427,21 @@
    "sourceDescription": "Rattrap and mousetrap",
    "downloadedOn": "2026-10-28",
    "sha256Original": "b629646e4985a709f9ee68c155e65a3a6fd1675f5d9ab22b1d2c6215c491dc92"
+  },
+  {
+   "file": "/guides/photos/rattlesnake-dropping-knife-scale.webp",
+   "subject": "Fresh dropping of a western diamondback rattlesnake, Crotalus atrox, that the observer photographed defecating: dark brown pieces with pale yellow-green urates, beside a folding knife the observer gives as 9.9 cm (about 3.9 inches) long (Hidalgo County, Texas)",
+   "sourceUrl": "https://www.inaturalist.org/observations/184799533",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322634677/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) John Rosford, some rights reserved (CC BY), via iNaturalist",
+   "edited": "bottom 6% cropped (caption strip)",
+   "width": 1200,
+   "height": 1326,
+   "bytes": 250816,
+   "sourceDescription": "Crotalus atrox",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "bd412e63fac71dd3478c86bf3615d574890a50e9401770fd265ae2a3f499efb0"
   },
   {
    "file": "/guides/photos/recluse-bite-first-days.webp",
@@ -8466,6 +8649,20 @@
    "sha256Original": "1705d55608de8f4cafc704178a9064c16bb467c8f2c2aa2acf62118455e39419"
   },
   {
+   "file": "/guides/photos/timber-rattlesnake-den-scat-hand.webp",
+   "subject": "Dark, twisted dropping with a chalky white urate, beside a hand for size, found fresh at a timber rattlesnake den with snakes about 20 feet away; recorded on iNaturalist as timber rattlesnake, Crotalus horridus, scat (Pennsylvania; research grade, identified from the setting)",
+   "sourceUrl": "https://www.inaturalist.org/observations/295448829",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/531878005/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Court Harding, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1599,
+   "bytes": 242768,
+   "sourceDescription": "Crotalus horridus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "fb3361fa0684ccc14ca0a1555ffc30082cf46856554d0deac6d865c0870d36a2"
+  },
+  {
    "file": "/guides/photos/toe-biter-pool-filter.webp",
    "subject": "Toe-biter, Belostoma lutarium, a smaller giant water bug pulled alive out of a swimming pool filter, on concrete (Nesconset, New York)",
    "sourceUrl": "https://www.inaturalist.org/observations/134635002",
@@ -8646,6 +8843,21 @@
    "sourceDescription": "Leptoglossus occidentalis",
    "downloadedOn": "2026-10-15",
    "sha256Original": "eacb50f4196b2e3f43c8b1b1750180ee89d6b783bb6019147c02c6d28f0529aa"
+  },
+  {
+   "file": "/guides/photos/western-diamondback-defecating-dropping.webp",
+   "subject": "Western diamondback rattlesnake, Crotalus atrox, with its tail raised as it defecates, its fresh dropping of dark brown feces and pale yellow-green urates on the dead grass below; the observer photographed it defecating (Hidalgo County, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/184799533",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/322634693/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) John Rosford, some rights reserved (CC BY), via iNaturalist",
+   "edited": "bottom 6% cropped (caption strip)",
+   "width": 1016,
+   "height": 1504,
+   "bytes": 146138,
+   "sourceDescription": "Crotalus atrox",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "22e8ca5e412cafa509eb4f34198df91a58624d60c094f158832d857a18019c77"
   },
   {
    "file": "/guides/photos/western-flower-thrips.webp",
@@ -9136,6 +9348,34 @@
    "sourceDescription": "House mouse (Mus musculus domesticus), 17 days old / 1 Pfennig",
    "downloadedOn": "2026-10-28",
    "sha256Original": "ca60980f8325834c7e65aa3f6c2652c4e242755150832b922bde8ddb62f521d4"
+  },
+  {
+   "file": "/guides/photos/young-norway-rats-live-trap.webp",
+   "subject": "Two young Norway rats, Rattus norvegicus, in a wire live trap; the observer caught 10 over 2 nights (New Jersey; research grade on iNaturalist, annotated juvenile, alive)",
+   "sourceUrl": "https://www.inaturalist.org/observations/58897792",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/94063505/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 863,
+   "bytes": 195596,
+   "sourceDescription": "Rattus norvegicus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "96487bef7f7d701fcbf70143003897e9bc53d777ff58cc03cf84909d52558198"
+  },
+  {
+   "file": "/guides/photos/young-roof-rat-paver-walkway.webp",
+   "subject": "Young roof rat (black rat), Rattus rattus, on a paver walkway outdoors (Museum Park, Miami, Florida; research grade on iNaturalist, annotated juvenile)",
+   "sourceUrl": "https://www.inaturalist.org/observations/368459374",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/672976802/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 404636,
+   "sourceDescription": "Rattus rattus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "b562c31452ba8fbca16b4419bd946722cf573c5b3372faa240cc067c8477268b"
   },
   {
    "file": "/guides/photos/zebra-jumping-spider-house-wall.webp",

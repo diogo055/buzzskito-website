@@ -12,17 +12,20 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-solar-bug-zapper-canada'
 const DATE = '2026-07-14'
-const UPDATED = '2026-07-14'
+const UPDATED = '2026-10-28'
 const TITLE = 'Best Solar Bug Zappers in Canada 2026 — What a $30–60 Solar Zapper Can Actually Kill'
-const META_TITLE = 'Best Solar Bug Zapper Canada 2026: What It Kills'
+// TITLE NOTE (Oct 28, 2026): was 'Best Solar Bug Zapper Canada 2026: What It Kills'; top queries (Jul 28-Oct 25): solar mosquito zapper 103 (pos 10.7), best solar mosquito repellent 34, best solar bug zapper 31 (pos 3.8), solar bug zappers 20, best solar powered bug zapper 14 (2 clicks). 'Best bug zapper canada' stays with /blog/bug-zappers-canada-do-they-work.
+const META_TITLE = 'Best Solar Bug & Mosquito Zapper Canada (2026)'
 
 const FAQS = [
   {
     question: 'Do solar bug zappers actually work?',
-    answer: 'They work for what they are: small, cordless UV lights with an electrified grid. A typical $30–60 solar zapper has a 3.5–10W solar panel, a 1,200–2,400 mAh battery, and a 600–4,500V grid — roughly one-tenth the UV output of a plug-in unit like a Flowtron. That\'s enough to zap moths, gnats, midges, and small flies within a 3–5 metre (10–16 ft) radius. It is NOT enough to meaningfully reduce mosquitoes across a yard. Peer-reviewed catch studies consistently find mosquitoes make up only 0.13–4% of what any UV zapper kills, because biting female mosquitoes hunt CO₂ and body heat, not ultraviolet light. Buy a solar zapper for cordless convenience and ambiance, not as a mosquito solution.',
+    answer: 'They work for what they are: small, cordless UV lights with an electrified grid. A typical $30–60 solar zapper has a 3.5–10W solar panel, a 1,200–2,400 mAh battery, and a 600–4,500V grid — roughly one-tenth the UV output of a plug-in unit like a Flowtron. That\'s enough to zap moths, gnats, midges, and small flies within a 3–5 metre (10–16 ft) radius. It is NOT enough to meaningfully reduce mosquitoes across a yard. Published catch counts put mosquitoes at only 0.13% to 6.4% of what a UV zapper kills (the American Mosquito Control Association’s figures), because biting female mosquitoes hunt CO₂ and body heat, not ultraviolet light. Buy a solar zapper for cordless convenience and ambiance, not as a mosquito solution.',
   },
   {
     question: 'How long does a solar bug zapper run on a full charge?',
@@ -30,7 +33,7 @@ const FAQS = [
   },
   {
     question: 'Can a solar bug zapper kill mosquitoes?',
-    answer: 'It kills the occasional mosquito that wanders into the grid, but it will not fix a mosquito problem. Decades of entomology research — University of Delaware (1996), University of Notre Dame (2017), University of Florida — show UV zappers catch 96–99% non-biting insects (moths, beetles, midges, lacewings). Female mosquitoes locate hosts by CO₂ plume, heat, and skin odour; UV light is a weak, secondary cue at best. A solar zapper\'s dimmer UV output attracts even fewer mosquitoes than a plug-in. For actual mosquito reduction in Ontario, the effective tools are professional barrier spray, BTI dunks in standing water, CO₂-baited traps, and Thermacell repellent zones.',
+    answer: 'It kills the occasional mosquito that wanders into the grid, but it will not fix a mosquito problem. Decades of entomology research show UV zappers catch overwhelmingly non-biting insects (moths, beetles, midges, lacewings): biting flies were 31 of 13,789 insects in the University of Delaware count (1996), mosquitoes were 4.1% and 6.4% of the daily catch in two University of Notre Dame yard studies reported by the American Mosquito Control Association, and only eight of some 10,000 insects one zapper killed in a one-night University of Florida test (1997) were mosquitoes. Female mosquitoes locate hosts by CO₂ plume, heat, and skin odour; UV light is a weak, secondary cue at best. A solar zapper\'s dimmer UV output attracts even fewer mosquitoes than a plug-in. For actual mosquito reduction in Ontario, the effective tools are professional barrier spray, BTI dunks in standing water, CO₂-baited traps, and Thermacell repellent zones.',
   },
   {
     question: 'Are solar bug zappers waterproof enough for Ontario weather?',
@@ -42,7 +45,7 @@ const FAQS = [
   },
   {
     question: 'Do solar bug zappers need Health Canada or PMRA approval?',
-    answer: 'No. Bug zappers — solar or plug-in — are physical devices, not pesticides, so they don\'t require a Pest Control Products (PCP) registration number from Health Canada\'s PMRA the way sprays, foggers, and repellent lotions do. That\'s also why claims on zapper packaging are essentially unregulated: a listing can say "covers 2,100 sq ft" or "eliminates mosquitoes" without proving it to any Canadian authority. Treat coverage claims as the maximum distance a moth might notice the light on a pitch-black night, not an effective control area. Electrical safety is the standard to check instead — look for cUL, cETL, or CSA marks on units that charge indoors.',
+    answer: 'Not a registration, if they meet two conditions, and that is the part listings skip. Under the Pest Control Products Regulations, a device sold to attract or destroy flying insects is a pest control product (Schedule 1, item 2). An outdoor one may be sold without registration only if it is certified by the Canadian Standards Association to CAN/CSA-C22.2 No. 189-M89, High-Voltage Insect Killers, and its label says "For Outdoor Use Only." and "This device does not control blackflies, mosquitoes or other biting flies." (Schedule 2, item 6). So look for the CSA mark and that statement; a box that promises to "eliminate mosquitoes" contradicts the statement the exemption requires. Treat coverage claims as the seller\'s, not an effective control area.',
   },
   {
     question: 'How much should I spend on a solar bug zapper in Canada?',
@@ -58,13 +61,21 @@ const FAQS = [
   },
   {
     question: 'What kills mosquitoes better than a solar bug zapper?',
-    answer: 'Almost everything designed for mosquitoes. Ranked for Ontario yards: (1) professional barrier spray — a residual on the vegetation where mosquitoes rest, renewed on the schedule of your plan (every 2 weeks on Standard, monthly on Basic), and it targets ticks too; (2) BTI dunks/bits in any standing water — kills larvae before they fly, about $30 a season; (3) a Thermacell unit on the patio — creates a 4.5m (15 ft) repellent zone, works immediately; (4) CO₂-baited traps (Mosquito Magnet class) for large rural properties — 70–90% population knockdown over 6–8 weeks. A solar zapper ranks below all of these for mosquitoes because it targets the wrong cue (UV light) with the least power of any zapper format.',
+    answer: 'Almost everything designed for mosquitoes. Ranked for Ontario yards: (1) professional barrier spray — a residual on the vegetation where mosquitoes rest, renewed on the schedule of your plan (every 2 weeks on Standard, monthly on Basic), and it targets ticks too; (2) BTI dunks/bits in any standing water — kills larvae before they fly, about $30 a season; (3) a Thermacell unit on the patio — creates a 4.5m (15 ft) repellent zone, working within about 15 to 30 minutes by model; (4) CO₂-baited traps (Mosquito Magnet class, registered devices in Canada) for large rural properties, keeping in mind the American Mosquito Control Association’s caution against relying on traps as your sole means of control. A solar zapper ranks below all of these for mosquitoes because it targets the wrong cue (UV light) with the least power of any zapper format.',
+  },
+  {
+    question: 'What is the best solar mosquito repellent?',
+    answer: 'A solar zapper is not a repellent: it kills insects that touch its grid and pushes nothing away. Devices sold to repel pests by sound, touch or electromagnetic radiation are pest control products in Canada (Pest Control Products Regulations, Schedule 1, item 3), and the ultrasonic and electronic repellers in Health Canada’s registry are all for mice and rats; we found none registered for mosquitoes (October 28, 2026). The registered mosquito repellents are skin repellents and area devices with a PCP number on the label, such as Thermacell’s area repellent lantern (Reg. No. 33199).',
+  },
+  {
+    question: 'Is there a solar mosquito trap that actually works?',
+    answer: 'Not that we could find on the record. The mosquito traps Health Canada registers as devices include Mosquito Magnet Patriot Plus (Reg. No. 32375), which runs on propane, and SkeeterVac SV-15 (28452); none we found is solar. Even for registered traps, the American Mosquito Control Association says: "Please be cautioned against putting too much faith in traps as your sole means of control." A solar zapper is a light-and-grid device, and the label an outdoor one needs in Canada says it "does not control blackflies, mosquitoes or other biting flies."',
   },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Honest 2026 guide to solar bug zappers in Canada: what $30–60 stake and lantern zappers really kill, the best models on Amazon.ca, where solar beats plug-in, and what to use for actual mosquito control.',
+  description: 'Best solar bug zapper in Canada: a dual-charge solar and USB-C unit for spots with no outlet. What solar zappers kill, what they don’t, and the Canadian label rule.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -89,7 +100,7 @@ export default function BestSolarBugZapperCanadaPage() {
             <span className="text-white">Best Solar Bug Zapper Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The honest version: weak grids, small batteries, real uses. Which solar zappers are worth buying on Amazon.ca, where they genuinely shine (docks, paths, off-grid cottages), and what to use instead for the mosquitoes that bite.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the best solar bug zapper is a dual-charge unit (a solar panel plus a USB-C port) for a spot with no outlet, such as a dock, a garden path or a campsite. It kills moths, gnats and midges near it. It does not control mosquitoes, and in Canada the label of an outdoor zapper sold without registration has to say exactly that.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -102,14 +113,14 @@ export default function BestSolarBugZapperCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best solar bug zappers in Canada are 4,500V dual-charge units (solar panel + USB-C) in the $30&ndash;$60 range &mdash; good for moths, gnats, and midges within 3&ndash;5 metres of docks, garden paths, and off-grid spots. They are too underpowered to control mosquitoes; for biting insects, use barrier spray, BTI dunks, or a CO&#8322; trap.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best solar bug zapper in Canada is a <strong>dual-charge unit</strong> (solar panel plus USB-C backup) with a stated weatherproof rating, placed where no cord reaches: a dock, a garden path, a campsite. It is good for moths, gnats, and midges close to it. It is not mosquito control; for biting insects, use barrier spray, BTI dunks, or a CO&#8322; trap.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
-              <li>The best solar zappers use dual-charge (solar + USB-C) grids around 4,500V and cost about $30&ndash;$60.</li>
-              <li>Their real kill radius is only 3&ndash;5 metres (10&ndash;16 ft), far below the &ldquo;2,100 sq ft&rdquo; listing claims.</li>
-              <li>Solar units put out roughly 0.5&ndash;3W of UV LED, versus 40&ndash;80W fluorescent tubes on plug-in zappers.</li>
-              <li>A 1,200&ndash;2,400 mAh battery gives about 3&ndash;6 hours of zapping and needs 6&ndash;8 hours of direct sun to recharge.</li>
+              <li>Dual-charge (solar + USB-C) units are the all-round pick: the USB-C port covers cloudy stretches.</li>
+              <li>Coverage figures such as &ldquo;2,100 sq ft&rdquo; are the seller&rsquo;s own claims, not a measured kill zone.</li>
+              <li>Plug-in units are stronger: Flowtron&rsquo;s run 15 to 80 W for &frac12; to 1.5 acres.</li>
+              <li>Runtime depends on the battery and the day&rsquo;s sun; check the listing&rsquo;s battery and charge-time figures.</li>
               <li>They kill moths, gnats, midges, and small flies &mdash; not the mosquitoes that bite.</li>
-              <li>Plug-in zappers run 5,500V and up, but even those catch few mosquitoes.</li>
+              <li>In Canada an outdoor zapper sold without registration must be CSA-certified and labelled &ldquo;This device does not control blackflies, mosquitoes or other biting flies.&rdquo;</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito, GTA mosquito &amp; tick control &middot; 150+ five-star Google reviews</p>
             <div className="mt-4">
@@ -178,7 +189,7 @@ export default function BestSolarBugZapperCanadaPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Typical grid voltage', '600V (lantern style) to 4,500V (dual-charge units) — plug-ins run 5,500V+'],
+                  ['Typical grid voltage', '600V (lantern style) to 4,500V (dual-charge units) on listings; voltage does not change what the light attracts'],
                   ['UV output', '~0.5–3W LED vs 40–80W fluorescent tube on plug-in zappers'],
                   ['Real kill radius', '3–5 m (10–16 ft) — ignore "2,100 sq ft" listing claims'],
                   ['Battery', '1,200–2,400 mAh · 3–6 hours zapping per full charge'],
@@ -189,7 +200,7 @@ export default function BestSolarBugZapperCanadaPage() {
                   ['Best use cases', 'Docks, garden paths, campsites, sheds, off-grid cottages'],
                   ['Season in Ontario', 'Earns its keep mid-June to late August (peak sun)'],
                   ['Price band (Canada)', 'Legitimate hardware lives at $30–60 per unit'],
-                  ['Health Canada status', 'Device, not a pesticide — no PMRA/PCP registration required'],
+                  ['Health Canada status', 'A pest control device (Regulations, Schedule 1, item 2); sold unregistered only if CSA-certified and labelled that it does not control mosquitoes (Schedule 2, item 6)'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -213,7 +224,7 @@ export default function BestSolarBugZapperCanadaPage() {
 
           <h2>What a $30–60 Solar Zapper Actually Is</h2>
           <p>Strip away the listing photos and every solar bug zapper sold in Canada is the same recipe: a small solar panel (3.5–10W), a lithium battery about the size of two phone batteries (1,200–2,400 mAh), a UV LED, and an electrified grid running somewhere between 600V and 4,500V. That hardware budget is the whole story. A plug-in zapper like the Flowtron BK-40D pushes a 40W fluorescent UV tube and a 5,500V+ grid off wall power all night long. A solar unit is trying to do the same job with roughly one-tenth the light output and a battery that empties in a few hours.</p>
-          <p>We treat yards across the GTA all season, and we see these staked in gardens everywhere from Mississauga to Markham. The honest field verdict: they pop moths, midges, and gnats reliably within a few metres, they look great doing it, and the yards that have them get bitten exactly as much as the yards that don&rsquo;t. That&rsquo;s not a scam — it&rsquo;s physics plus entomology. UV light is a weak cue for the female mosquitoes that bite, and a dim UV LED is the weakest version of that weak cue.</p>
+          <p>We treat yards across the GTA all season, and we see these staked in gardens everywhere from Mississauga to Markham. We have not tested them, and the published evidence comes from plug-in zappers. It is blunt: in the two University of Notre Dame yard studies the American Mosquito Control Association reports, there was no significant difference in mosquito numbers between yards with a zapper and yards without one. That&rsquo;s not a scam — it&rsquo;s physics plus entomology. UV light is a weak cue for the female mosquitoes that bite, and a dim UV LED is the weakest version of that weak cue.</p>
           <p>So this guide does two things: picks the solar zappers that are actually worth $30–60 for the job they <em>can</em> do, and is blunt about the job they can&rsquo;t.</p>
 
           <NextUp path="/blog/best-solar-bug-zapper-canada" />
@@ -247,6 +258,30 @@ export default function BestSolarBugZapperCanadaPage() {
             <li><strong>IPX4 or better.</strong> Ontario thunderstorms are not optional. Skip any listing that doesn&rsquo;t state an IP rating.</li>
             <li><strong>Removable collection tray.</strong> A week of moths cakes the bottom of the unit. A twist-off tray takes 10 seconds to empty; a sealed base means shaking dead insects through the grid.</li>
             <li><strong>Three mounting modes.</strong> Stake for the garden, loop for the shepherd&rsquo;s hook or branch, flat base for the dock rail. The good units include all three.</li>
+            <li><strong>The CSA mark and the Canadian label line.</strong> An outdoor zapper sold here without registration must be certified by the Canadian Standards Association to CAN/CSA-C22.2 No. 189-M89 and labelled &ldquo;This device does not control blackflies, mosquitoes or other biting flies&rdquo; (Pest Control Products Regulations, Schedule 2, item 6).</li>
+            <li><strong>A PCP number on any lure.</strong> An attractant is a pest control product in its own right; registered octenol lures include PIC Mosquito Octenol Lure (35935) and Flowtron Mosquito Attractant (28456).</li>
+          </ul>
+
+          <QuickIdTable
+            title="Solar zapper formats: what makers, sellers and testers say"
+            head={['Format', 'Example, in its source’s words', 'Best for', 'Limits']}
+            rows={[
+              ['Plug-in grid (for comparison)', 'Flowtron BK-15D, BK-40D, BK-80D: 15 W for ½ acre, 40 W for 1 acre, 80 W for 1.5 acres (Flowtron)', 'An open yard with an outlet', 'The same mosquito record as every zapper: 4.1% and 6.4% of the daily catch in the Notre Dame studies (AMCA)'],
+              ['Solar torch or lantern', 'PIC Solar Insect Killer Torch: a blue UV LED and a solar-charged battery that turns on at dusk; Bob Vila’s tester found it killed fewer insects than the plug-ins, “best suited for light insect activity”', 'Patio light and decor', 'The weakest catch among the zappers that review compared'],
+              ['Solar unit with USB backup', 'Diotem: solar panels plus USB-C charging, 3,500 V, up to 10 hours per charge, IP66 (as described by Bustle, 2021)', 'A dock, path or campsite with no outlet', 'Runtime and coverage are the seller’s figures'],
+              ['Solar unit with a scent lure', 'LITOM: 800 V, with a scented mosquito attractant to replace about every three weeks (Bustle, 2021)', 'Buyers who want a lure in the unit', 'In Canada an attractant is a pest control product in its own right; look for a PCP number (RVD2024-07)'],
+              ['Handheld racket', 'A charged mesh you swing at the insect', 'One mosquito or fly you can see', 'Not a yard device'],
+            ]}
+            caption={<>From Flowtron&rsquo;s <a href="https://flowtron.com/collections/outdoor-residential-use" target="_blank" rel="noopener noreferrer" className="underline">outdoor residential range</a>; Bob Vila, <a href="https://www.bobvila.com/reviews/best-bug-zapper/" target="_blank" rel="noopener noreferrer" className="underline">best bug zappers</a> (July 30, 2026); Bustle, <a href="https://www.bustle.com/life/best-solar-powered-bug-zappers" target="_blank" rel="noopener noreferrer" className="underline">best solar-powered bug zappers</a> (June 27, 2021); the AMCA <a href="https://www.mosquito.org/faqs/" target="_blank" rel="noopener noreferrer" className="underline">FAQ</a>; Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/decisions-updates/reevaluation-decision/2024/octenol.html" target="_blank" rel="noopener noreferrer" className="underline">RVD2024-07</a>. We do not test products; these are the sources&rsquo; own figures and findings.</>}
+          />
+
+          <h3>Which one for your situation</h3>
+          <ul>
+            <li><strong>No outlet within reach, and moths or midges are the nuisance:</strong> a dual-charge solar unit, charged by USB-C after cloudy days.</li>
+            <li><strong>The sunny spot is not where the bugs are:</strong> a detached-panel unit, panel in the sun, zapper by the water or path.</li>
+            <li><strong>You mostly want patio glow:</strong> a solar lantern or torch, accepting the smallest catch.</li>
+            <li><strong>An outlet is nearby:</strong> a plug-in unit is stronger hardware; see our <Link href="/blog/flowtron-bug-zapper-canada">Flowtron guide</Link>.</li>
+            <li><strong>Mosquitoes are biting:</strong> not a zapper of any kind; standing water, a registered repellent, or a treatment of the vegetation where they rest.</li>
           </ul>
 
           <h2>Where Solar Zappers Genuinely Make Sense</h2>
@@ -257,11 +292,21 @@ export default function BestSolarBugZapperCanadaPage() {
             <li><strong>Garden paths and back fences.</strong> Stake-light zappers double as path lighting and intercept some of the moth traffic heading toward your porch lights.</li>
             <li><strong>Camping and RV sites.</strong> Cordless, packable, and doubles as a lantern. This is the use case most of these devices were actually designed around.</li>
           </ul>
+          <Photo
+            id="mayfly-swarm"
+            alt="Thousands of mayflies glowing white against a black night sky"
+            caption="A swarm of newly emerged mayflies at night (US National Park Service photograph). Waterfront swarms like this are the light-drawn insects a dock zapper catches."
+          />
           <p>Notice what&rsquo;s not on the list: &ldquo;mosquito control for the backyard.&rdquo; If your yard has an outlet and your problem is nuisance flying insects, a plug-in unit is flatly better hardware for similar money — our <Link href="/blog/flowtron-bug-zapper-canada">Flowtron guide for Canada</Link> covers the BK-15D and BK-40D in detail. And if your problem is the insects that <em>bite</em>, no zapper of any wattage is the right tool, which brings us to the uncomfortable part.</p>
 
           <RelatedLinks path="/blog/best-solar-bug-zapper-canada" />
           <h2>The Mosquito Truth (Again, Because It Matters)</h2>
           <p>Every UV zapper — solar or plug-in — has the same blind spot: female mosquitoes don&rsquo;t hunt by ultraviolet light. They track the CO₂ you exhale, your body heat, and your skin chemistry. University of Delaware researchers famously dissected the catch of residential bug zappers and found mosquitoes made up a fraction of one percent to a few percent of insects killed; the rest were moths, beetles, midges, and beneficial insects. Follow-up work has repeated the finding for decades. We break down the full research in our honest <Link href="/blog/bug-zappers-canada-do-they-work">bug zappers guide for Canada</Link>.</p>
+          <Photo
+            id="mosquito-on-jeans"
+            alt="A woodland pool mosquito resting on blue denim jeans"
+            caption="A woodland pool mosquito, Aedes canadensis, on blue jeans (Blendon Woods Metro Park, Columbus, Ohio). Biting females find people by carbon dioxide and body heat, not ultraviolet light, which is why they pass a glowing zapper by."
+          />
           <p>A solar zapper makes this math worse, not better. Its UV LED is a fraction of the brightness of a plug-in tube, its battery quits partway through the night, and its grid is weaker. If a 40W Flowtron catches 2% mosquitoes, a 2W solar unit catches fewer in absolute numbers — while your family provides the CO₂ plume that actually recruits mosquitoes to the patio.</p>
           <p>The same logic applies to the viral high-tech alternative: laser-based devices promise mosquito-specific targeting, and we examined the claims in our <Link href="/blog/laser-mosquito-killer-photon-matrix-review">Photon Matrix laser mosquito killer review</Link>. Attraction-based devices that use CO₂ and heat — the cue mosquitoes actually follow — are the only trap category with real field results, and we ranked those in our <Link href="/blog/best-mosquito-trap">best mosquito traps in Canada</Link> guide.</p>
 
@@ -274,7 +319,7 @@ export default function BestSolarBugZapperCanadaPage() {
             <tbody>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Solar bug zapper</strong></td><td className="px-3 py-2">$30–60/unit</td><td className="px-3 py-2">Barely — moths &amp; gnats only</td><td className="px-3 py-2">No</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/flowtron-bug-zapper-canada">Plug-in zapper (Flowtron)</Link></td><td className="px-3 py-2">$80–200</td><td className="px-3 py-2">Barely — but far more insects overall</td><td className="px-3 py-2">Yes</td></tr>
-              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-mosquito-trap">CO₂ mosquito trap</Link></td><td className="px-3 py-2">$250–1,300 + consumables</td><td className="px-3 py-2">Yes — 70–90% over 6–8 weeks</td><td className="px-3 py-2">Varies</td></tr>
+              <tr className="border-t border-navy-50"><td className="px-3 py-2"><Link href="/blog/best-mosquito-trap">CO₂ mosquito trap</Link></td><td className="px-3 py-2">$250–1,300 + consumables</td><td className="px-3 py-2">Catches mosquitoes; the AMCA cautions against relying on traps alone</td><td className="px-3 py-2">Varies</td></tr>
               <tr className="border-t border-navy-50"><td className="px-3 py-2"><strong>Professional barrier spray</strong></td><td className="px-3 py-2">From $99/treatment</td><td className="px-3 py-2">Yes — residual renewed on your plan schedule, targets ticks too</td><td className="px-3 py-2">No</td></tr>
             </tbody>
           </table>

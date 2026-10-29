@@ -1,0 +1,10 @@
+{
+ "id": "wasp-vs-hornet",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b5074fb3691ea91123a7cb6e28e03784eef7d0d16ce14fe787fbf302ef0ee4bd",
+ "claimsChecked": 330,
+ "claimsCorrected": 15,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-29"
+}

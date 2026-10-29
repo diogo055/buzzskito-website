@@ -1,0 +1,10 @@
+{
+ "id": "bugs-in-kitchen",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "12ac13365e0c72e3b11e91ec7777feaac4a2b9aa02c5cc55d7d0ee669d2dc85c",
+ "claimsChecked": 330,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-29"
+}

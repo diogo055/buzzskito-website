@@ -1,0 +1,10 @@
+{
+ "id": "what-do-lice-look-like",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "39df17cb6e243debad139f80a48a7de2b0edd4cadb4d909ce1b6a8e88d27d4ef",
+ "claimsChecked": 300,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-29"
+}

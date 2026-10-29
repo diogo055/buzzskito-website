@@ -1,0 +1,10 @@
+{
+ "id": "bed-bug-eggs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "bc4c24100fed5e4c3d5ed5de872879e0b5c78ec8b48417a90339e914b4536d44",
+ "claimsChecked": 265,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 3,
+ "checkedOn": "2026-10-29"
+}

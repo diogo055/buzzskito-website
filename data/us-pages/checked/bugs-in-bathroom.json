@@ -1,0 +1,10 @@
+{
+ "id": "bugs-in-bathroom",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "250e600aa04bb7b4679f6c4283933818008d7805ecd21f571071a898dd22691f",
+ "claimsChecked": 330,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-29"
+}

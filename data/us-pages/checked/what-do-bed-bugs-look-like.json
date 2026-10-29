@@ -2,7 +2,7 @@
  "id": "what-do-bed-bugs-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8640b192a71ac62d3501c140cd4256f006f8105eac8cf59a227f724a9bc20448",
+ "sha": "ce4a52998590b9dff6121f37b64abdf7abcdaa01dd15a9bff316e767ff4575f0",
  "claimsChecked": 74,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 8,
@@ -31,6 +31,11 @@
    "on": "2026-10-23",
    "note": "photos: bed-bug-on-skin-cdc (batch 12, Oct 23)",
    "previousSha": "3075a4832919e7aea30b61c5b31ec7831b2565ee45325ecf7ed38ed6584a412e"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 28: one link to /blog/bed-bug-eggs (new page); no fact changed",
+   "previousSha": "8640b192a71ac62d3501c140cd4256f006f8105eac8cf59a227f724a9bc20448"
   }
  ]
 }

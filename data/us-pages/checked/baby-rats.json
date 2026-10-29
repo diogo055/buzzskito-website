@@ -1,0 +1,10 @@
+{
+ "id": "baby-rats",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "1e0bf8e9ef296baec88610200c80ac78e3f007a67edba6149de925036c8b7c84",
+ "claimsChecked": 312,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-29"
+}

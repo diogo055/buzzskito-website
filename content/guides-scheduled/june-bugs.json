@@ -1,0 +1,191 @@
+{
+  "slug": "june-bugs",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "june bug",
+  "alsoTargets": [
+    "june bugs",
+    "june beetle",
+    "what is a june bug",
+    "are june bugs dangerous",
+    "do june bugs bite",
+    "green june bug",
+    "green june beetle",
+    "june bug larvae"
+  ],
+  "metaTitle": "June Bugs: What They Are and Are They Harmful?",
+  "metaDescription": "June bugs are May and June beetles that crash into porch lights, plus green June beetles and figeaters. Photos, whether they bite, and their lawn grubs.",
+  "h1": "June Bugs: What They Are, Whether They Bite, and the Grubs in Your Lawn",
+  "dek": "Real photos of May beetles and green June beetles, a quick-ID table that adds figeaters and ten-lined June beetles, why they crash into lights, whether they bite, and what their white grubs do to a lawn.",
+  "breadcrumb": "June Bugs",
+  "excerpt": "What a June bug is, from the brown beetles at porch lights to green June beetles and figeaters: do they bite, why they hit screens, and their lawn grubs.",
+  "datePublished": "2026-10-29",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A June bug is a stout scarab beetle, and color and time of day tell you which one: brown to black beetles that crash into porch lights on late-spring nights are May or June beetles (*Phyllophaga*), while big metallic-green ones flying over lawns on summer days are green June beetles or, in the Southwest, figeaters.** The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs) says May beetles cannot hurt people.",
+    "bullets": [
+      "May and June beetles are 1/2 to 1 inch long, usually brown, rusty or black with no spots or stripes, with clubbed antennae, according to the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs) (MDC).",
+      "Green June beetles are 3/4 to 1 inch and velvety green, says [Texas A&M AgriLife Extension](https://citybugs.tamu.edu/2012/08/28/june-beetles-harmless-to-trees/); the figeater of the Southwest and California is 3/4 to 1 1/3 inches, according to [UC IPM](https://ipm.ucanr.edu/home-and-landscape/green-fruit-beetle).",
+      "[Ohio State](https://bygl.osu.edu/node/2667) says green June beetles cannot bite, though the sharp spurs on their legs can prick skin.",
+      "Their larvae are C-shaped white grubs, 3/4 to 1 3/4 inches long in *Phyllophaga*, that spend 1 to 4 years in the soil depending on the species, says [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN202).",
+      "The beetles at lights are mostly males, and switching lights off may not substantially reduce later grub damage, says [Texas A&M's white grub guide](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/white-grubs-in-texas-turfgrass-1-compressed.pdf)."
+    ]
+  },
+  "facts": {
+    "title": "June bug or look-alike? Quick ID",
+    "head": ["Beetle", "Size", "What it looks like", "When and where", "Adults eat"],
+    "rows": [
+      ["May or June beetle (*Phyllophaga*)", "1/2 to 1 inch", "Stout and glossy; brown, rusty or black with no spots or stripes; clubbed antennae", "Nights in late spring and early summer, at porch lights and window screens; throughout the US", "Leaves and flowers"],
+      ["Green June beetle", "3/4 to 1 inch", "Metallic or velvety green with yellowish to brown edges; loud, bumblebee-like buzz in flight", "Summer days, cruising low over lawns; eastern US from Connecticut to Florida and Kansas to Texas", "Ripe and rotting fruit, oozing sap"],
+      ["Figeater (green fruit beetle)", "3/4 to 1 1/3 inches", "Mostly metallic green with brown or tan wing-cover edges; nearly identical to the green June beetle", "Summer days, usually July to September; the Southwest and California", "Ripe soft fruit such as figs, grapes, peaches and plums"],
+      ["Ten-lined June beetle", "About 7/8 to 1 1/8 inches (22 to 28 mm)", "Ten stripes on the wing covers; males have large fan-like antennae; squeaks when disturbed", "Males at lights from June to September; the West", "Leaves of trees and other plants"],
+      ["Japanese beetle (not a June bug)", "About 1/2 inch", "Metallic green thorax, bronze wing covers, tufts of white hair on the abdomen", "From about mid-June, for about two months", "Leaves (eaten down to the veins), flowers and fruit"],
+      ["Ground beetle (not a June bug)", "Mostly 1/4 to 3/4 inch", "Black or brown and often shiny, long slender legs, often grooved wing covers; runs fast", "Many active at night and drawn to lights; hide in dark places by day", "Caterpillars, grubs, slugs and snails"]
+    ],
+    "caption": "May and June beetles: MDC, UF/IFAS and UW-Madison. Green June beetle: Texas A&M, MDC, Ohio State and the University of Arkansas. Figeater: UC IPM and UC Davis. Ten-lined June beetle: Montana State and Washington State. Japanese and ground beetles: MDC. All linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What is a June bug?" },
+    { "type": "p", "text": "A June bug is a nickname, not a species. In much of the US it means the May or June beetles of the genus *Phyllophaga*, stout brown scarabs that fly to lights on late-spring nights. The [Missouri Department of Conservation's May beetle guide](https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs) (MDC) counts more than 400 species north of Mexico and says the genus name means leaf eater." },
+    { "type": "figure", "src": "/guides/photos/may-june-beetle.webp", "width": 1200, "height": 1600, "alt": "Stout, glossy reddish-brown beetle with no spots or stripes resting on a fingertip outdoors, green grass blurred behind it", "caption": "A May or June beetle (genus Phyllophaga) on a fingertip in Huntington, Indiana, in late April: stout, glossy and reddish brown, with no spots or stripes.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/353850006" },
+    { "type": "p", "text": "Other beetles share the name: the green June beetle, a metallic-green day flier of the East and South; its look-alike, the figeater, in the Southwest and California; and the striped ten-lined June beetle of the West. Their larvae are white grubs, which [Texas A&M AgriLife Extension's guide to white grubs in Texas turfgrass](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/white-grubs-in-texas-turfgrass-1-compressed.pdf) says are sometimes called grubworms." },
+
+    { "type": "h2", "text": "What does a June bug look like?" },
+    { "type": "p", "text": "**Look for a stout, oval, glossy beetle with no spots or stripes and antennae that end in a small club.** MDC describes May beetles as usually brown, rusty or black, rather hairy underneath, 1/2 to 1 inch long, with clubbed antennae whose segments press together or fan open like a feather. [UF/IFAS Featured Creatures](https://ask.ifas.ufl.edu/publication/IN202) gives the same size and calls most adults robust, oblong and glossy." },
+    { "type": "p", "text": "MDC says the many species are difficult to tell apart. They fly at night: [UW-Madison Extension's May/June beetle article](https://hort.extension.wisc.edu/articles/mayjune-beetles/) says the adults are active after dusk in late May and early June in Wisconsin and are often seen flying near lights or heard hitting window screens on early summer evenings." },
+
+    { "type": "h2", "text": "What is a green June bug?" },
+    { "type": "p", "text": "A green June bug is usually the green June beetle, *Cotinis nitida*, a large metallic-green scarab that flies by day. Texas A&M's [Insects in the City blog](https://citybugs.tamu.edu/2012/08/28/june-beetles-harmless-to-trees/) puts adults at 3/4 inch to 1 inch, velvety green with yellowish-orange edges, and [MDC's green June beetle page](https://mdc.mo.gov/discover-nature/field-guide/green-june-beetle) says they make a loud buzz in flight, much like a bumblebee. The [University of Arkansas Arthropod Museum](https://arthropod.uark.edu/green-june-beetle/) gives its native range as the eastern US from Connecticut to Florida and Kansas to Texas." },
+    { "type": "figure", "src": "/guides/photos/green-june-beetle.webp", "width": 1200, "height": 798, "alt": "Metallic green beetle with tan-edged wing covers and thin green spiny legs standing on a fingertip against a white background, seen from the side", "caption": "A green June beetle (Cotinis nitida) on a fingertip, found at a rest stop in Radford, Virginia, in mid-July. Ohio State says the sharp spurs on its legs can prick skin.", "license": "CC0-1.0", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_June_Beetle_(Scarabaeidae,_Cotinis_nitida)_(28314207122).jpg" },
+    { "type": "p", "text": "Unlike the porch-light June bugs, it flies in daylight. The Arkansas museum says the beetles come out in early morning and are mostly done by afternoon, and [Ohio State's Buckeye Yard and Garden onLine](https://bygl.osu.edu/node/2667) describes them cruising about 2 to 3 feet above lawns, with dips and erratic turns, and says the beetles lay their eggs in turf rich in organic matter. MDC says adults emerge in June and are usually seen only in summer." },
+    { "type": "h3", "text": "Figeater beetle" },
+    { "type": "p", "text": "In the Southwest and California, a green June bug is usually the figeater, *Cotinis mutabilis*, also called the green fruit beetle, green fig beetle or western green June beetle. [UC IPM](https://ipm.ucanr.edu/home-and-landscape/green-fruit-beetle) gives adults as 3/4 to 1 1/3 inches, mostly metallic green with brown or tan along the edges of the wing covers, and says the green June beetle is virtually identical; in California, the green June beetle is reported only in the south of the state." },
+    { "type": "p", "text": "The [UC Davis Bohart Museum of Entomology](https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_73_fig_beetles.pdf) says the figeater is native to the Southwestern US, where it feeds on cactus fruit and tree sap; it has become relatively common in suburban gardens and has been found as far north as Sacramento. Adults usually emerge between July and September and, unlike most other scarabs in the region, are active by day." },
+    { "type": "media", "needed": "A figeater beetle (Cotinis mutabilis) on a fig or other ripe fruit in a California or Arizona yard, identified by an extension service or entomologist, or research grade on iNaturalist; public domain or CC0" },
+
+    { "type": "h2", "text": "Are there other kinds of June bugs?" },
+    { "type": "p", "text": "Yes. The West has a striped one: [Washington State University Extension](https://rex.libraries.wsu.edu/esploro/outputs/report/Tenlined-June-beetle--Polyphylla-decemlineata/99900502860101842) says the ten-lined June beetle, *Polyphylla decemlineata*, is named for the ten stripes on its wing covers, also goes by watermelon beetle, hissing beetle or June bug, and lives in sandy soils west of the Rocky Mountains and near their eastern slopes. [Montana State University](https://www.montana.edu/yellowstoneinsects/coleoptera/scarabaeidae/ten-lined_june_beetle.html) gives adults as 22 to 28 mm (about 7/8 to 1 1/8 inches) and says males have large, fan-like antennae and that the beetles squeak when disturbed." },
+    { "type": "media", "needed": "A ten-lined June beetle (Polyphylla decemlineata) showing the stripes on its wing covers and a male's fan-like antennae, at a porch light or on a wall in a western state, beside a ruler marked in inches; public domain or CC0" },
+    { "type": "p", "text": "Some are smaller. Texas A&M describes the adults of the main lawn grubs in Texas, a June beetle (*Phyllophaga crinita*) and the southern masked chafer, as heavy-bodied brown beetles 1/2 to 5/8 inch long, with long, spindly legs, that fly at night and come to lights." },
+
+    { "type": "h2", "text": "What else looks like a June bug?" },
+    { "type": "p", "text": "A smaller metallic beetle with a green thorax, bronze wing covers and tufts of white hair on the abdomen is a Japanese beetle: [MDC's Japanese beetle page](https://mdc.mo.gov/discover-nature/field-guide/japanese-beetle) puts it at about 1/2 inch, and UC IPM at half the size of a figeater or less. [The Japanese beetle guide](/blog/japanese-beetles) shows how to tell it from a green June beetle and what damage it does." },
+    { "type": "p", "text": "Many ground beetles come to lights at night as well. [MDC's ground beetle page](https://mdc.mo.gov/discover-nature/field-guide/ground-beetles-carabids) describes most as 1/4 to 3/4 inch, black or brown and often shiny, with lengthwise grooves on the wing covers in many species and long, slender legs for running fast. A June bug is stouter, with clubbed antennae. [Beetles in the house](/blog/beetles-in-house) covers both indoors." },
+    { "type": "p", "text": "A large reddish-brown insect at night can also be a cockroach. [Texas A&M AgriLife Extension's cockroach guide](https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/) says cockroaches have flattened bodies, a plate that hides the head from above and long, thin antennae, and that American cockroaches, 1 1/2 to 2 inches long, can fly. A beetle's hard wing covers meet in a straight line down the back, MDC notes. [Bugs that look like cockroaches](/blog/bugs-that-look-like-cockroaches) goes through the checks." },
+    { "type": "confused", "items": [
+      { "href": "/blog/japanese-beetles", "name": "Japanese beetle", "photo": "japanese-beetle", "note": "About 1/2 inch; metallic green thorax, bronze wing covers and white hair tufts on the abdomen", "alt": "Japanese beetle with a metallic green head and thorax and ridged copper-brown wing covers, on a white background" },
+      { "href": "/blog/beetles-in-house", "name": "Ground beetle", "photo": "ground-beetle", "note": "Black or brown and often shiny, long-legged and fast, often with grooved wing covers; most 1/4 to 3/4 inch", "alt": "Shiny black ground beetle with grooved wing covers and long legs, a pinned specimen beside a metric ruler" },
+      { "href": "/blog/bugs-that-look-like-cockroaches", "name": "American cockroach", "photo": "american-cockroach", "note": "Flat body, head hidden under a plate and long, thin antennae; 1 1/2 to 2 inches", "alt": "Reddish-brown American cockroach with very long, thin antennae and spiny legs, seen from above on white" }
+    ] },
+
+    { "type": "h2", "text": "Why do June bugs fly into porch lights and screens?" },
+    { "type": "p", "text": "Because they fly at night and lights draw them in. UW-Madison says the adults are attracted to lights and are clumsy fliers that often collide with windows and cling to screens, and MDC describes them flying clumsily around porch lights on late-spring evenings, crash-landing and lying on their backs waving their legs." },
+    { "type": "p", "text": "Most of the beetles at a light are males. [Texas A&M's white grub guide](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/white-grubs-in-texas-turfgrass-1-compressed.pdf) says that during mating flights, large numbers of beetles, primarily males, may come to lighted windows and other lights, while females, being less active fliers, are usually less common there. Flights tend to be bigger after significant rain or irrigation and can last several weeks." },
+    { "type": "p", "text": "Lights decide where you see the beetles, not necessarily where their grubs end up. Texas A&M says turning off outdoor lights during flights may not substantially reduce later grub damage, and that heavy grub infestations are often found where there is little or no outdoor lighting. [Purdue Extension's white grub bulletin](https://extension.entm.purdue.edu/publications/E-271/E-271.html) agrees that beetles at lights or in traps should not be used to predict grub infestations or damage." },
+    { "type": "media", "needed": "May or June beetles (Phyllophaga) gathered at a porch light or clinging to a window screen at night, ideally with a coin or ruler for scale, identified to genus; public domain or CC0" },
+
+    { "type": "h2", "text": "Do June bugs bite or sting?" },
+    { "type": "p", "text": "**No: MDC says May beetles chew plants but cannot hurt people, and Ohio State says green June beetles cannot bite.** Ohio State explains that the adults lack typical chewing mouthparts, though the sharp spurs on their legs can deliver painful skin pricks, and NC State Extension's [green June beetle guide](https://content.ces.ncsu.edu/green-june-beetle-1) calls them attractive and harmless to humans." },
+    { "type": "p", "text": "If you are trying to explain a bite, [the bug bite identifier](/tools/bug-bite-identifier) walks through the insects that do bite." },
+
+    { "type": "h2", "text": "Are June bugs harmful to plants and trees?" },
+    { "type": "p", "text": "Mostly not. May and June beetle adults eat leaves and flowers, MDC says, and UW-Madison notes they have been documented damaging the foliage of oaks and other trees, though such damage is infrequent and localized in Wisconsin. Texas A&M says Texas alone has over 100 *Phyllophaga* species, most of which do not cause significant economic damage." },
+    { "type": "p", "text": "Green June beetles and figeaters go for fruit. MDC lists ripe and rotting peaches, berries, apples and grapes; Ohio State adds oozing sap and fruit already damaged by insects such as Japanese beetles; and [Texas A&M's green June beetle publication](https://aggie-horticulture.tamu.edu/wp-content/uploads/sites/13/2020/05/Green-June-Beetle-in-Texas-EHT-101.pdf) says they open soft, ripening fruit with their serrated legs and horned head. UC IPM names ripe apricots, caneberries, figs, grapes, peaches and plums for the figeater, and UC Davis says large numbers can eat an entire fig or grape crop in a garden." },
+    { "type": "p", "text": "Green June beetles clustered on a tree trunk are drawn to sap that is already oozing. Texas A&M's Insects in the City says they gather where sap flows from causes such as bacterial flux or borers, do not cause the ooze themselves, and are mostly harmless in town unless you own a fig or peach tree. UC Davis says figeaters do not damage trees or lawns the way Japanese beetles or June beetle grubs can." },
+
+    { "type": "h2", "text": "What do June bug larvae look like?" },
+    { "type": "p", "text": "June bug larvae are white grubs: plump, C-shaped and whitish, with a brown head and three pairs of legs. UF/IFAS gives *Phyllophaga* grubs as 3/4 to 1 3/4 inches long, with the rear of the abdomen slightly enlarged and darker where soil shows through the skin; MDC gives 3/4 to 2 inches." },
+    { "type": "figure", "src": "/guides/photos/japanese-beetle-grub.webp", "width": 1200, "height": 900, "alt": "Plump, cream-white, C-shaped grub with an orange-brown head and bristly legs, curled in a hollow of dark soil", "caption": "A white grub, here a Japanese beetle larva, curled in soil in Massachusetts in March. May and June beetle grubs share the C-shaped white body, brown head and three pairs of legs, so telling them apart may take a hand lens.", "license": "CC-BY-4.0", "credit": "(c) Betsy Lambert, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/109403640" },
+    { "type": "p", "text": "Other grubs look much alike. UF/IFAS says the larvae of Japanese beetles, annual white grubs and green June beetles are often called white grubs too, and that two parallel rows of spines on the underside of the last abdominal segment mark a true *Phyllophaga* grub. Purdue calls this pattern of hairs and spines the raster, says it identifies grubs to genus or species, and notes that a hand lens or microscope may be needed; UW-Madison suggests asking your local Extension office to confirm." },
+    { "type": "p", "text": "One test needs no lens: **a grub that rolls onto its back and crawls is most likely a green June beetle or figeater grub.** Texas A&M's green June beetle publication says those larvae crawl on their backs because their small legs are not useful for walking, and calls the habit specific to green June beetle larvae. UC IPM describes the grubs of the figeater, a close relative, rolling onto their backs and pushing along with stiff hairs." },
+    { "type": "media", "needed": "A true white grub (Phyllophaga) beside a ruler marked in inches, with a close view of the two parallel rows of spines under the tip of the abdomen, identified by an extension service or entomologist; public domain or CC0" },
+
+    { "type": "h2", "text": "Are June bug grubs bad for your lawn?" },
+    { "type": "p", "text": "They can be, in numbers. [Purdue's white grub bulletin](https://extension.entm.purdue.edu/publications/E-271/E-271.html) says several *Phyllophaga* species are occasionally associated with turf damage and, because of their size, do the most harm in their second season. It describes patchy, wilting turf that may take on a blue or purple cast before thinning or dying, and sod that pulls up easily. Texas A&M says badly damaged turf can be lifted by hand or rolled up like a carpet, and that the damage is hard to tell from drought or disease." },
+    { "type": "p", "text": "Digging animals can be the first sign. Purdue says raccoons, skunks, armadillos and turkeys routinely forage for white grubs in turf, even when the grubs' own damage is not apparent, and MDC adds moles, crows and grackles. [What dug the holes in your yard](/blog/holes-in-yard) sorts the diggers by hole size and shape." },
+    { "type": "p", "text": "Green June beetle grubs harm turf another way. The Arkansas museum says they feed very little on roots and damage lawns by burrowing, and Purdue says that because of their burrowing and the small soil mounds over their burrows, unacceptable damage can occur at lower numbers than other grubs need." },
+    { "type": "p", "text": "Count before you treat. Purdue says 5 to 10 white grubs per square foot are usually needed for significant damage and that fewer than 5 rarely require treatment, and Texas A&M cites Cornell University studies suggesting that up to 70 percent of white grub lawn treatments are not necessary. [The lawn pest guide](/blog/lawn-pest-control) shows how to cut and count a square foot of sod, when to treat and which active ingredients extension services name." },
+    { "type": "p", "text": "Not every grub is a lawn pest. Texas A&M says grubs found in compost, mulch or raised beds are likely decomposers and beneficial, and green June beetle and figeater grubs feed on decaying organic matter such as compost and manure, according to the Arkansas museum and UC IPM. Not every root-eater under a lawn is a beetle grub either: [MDC's crane fly page](https://mdc.mo.gov/discover-nature/field-guide/crane-flies) says some crane fly larvae eat roots and can be lawn pests, and [what a crane fly is](/blog/mosquito-hawk-explained) explains them." },
+    { "type": "media", "needed": "Lawn turf peeled back like a carpet over grub-damaged soil, with white grubs visible in the root zone; a USDA or university photo (public domain) or iNaturalist CC0" },
+
+    { "type": "h2", "text": "How long do June bugs live?" },
+    { "type": "p", "text": "Most of a June bug's life is spent underground as a grub: 1 to 4 years depending on the species, MDC says, and usually three in the more destructive and abundant species, according to UF/IFAS. Purdue gives 2 to 3 years depending on latitude, UW-Madison says Wisconsin's species mostly take three, and Texas A&M says the main lawn-damaging grubs in Texas take one." },
+    { "type": "p", "text": "UF/IFAS describes the cycle. Adults mate in the evening, and at dawn females return to the ground to lay 15 to 20 eggs, 1 to 8 inches deep, mostly in sod near wooded areas. The eggs hatch in about three weeks; the grubs feed on roots near the surface in the warm months and move as deep as 5 feet for the winter. A full-grown grub pupates in an earthen cell, and the new adult stays in the soil until it emerges the following May or June to feed, mate and lay eggs." },
+    { "type": "p", "text": "Green June beetles and figeaters take a year: NC State says there is one generation a year in North Carolina, MDC says green June beetle grubs live underground for a year, and UC IPM says the figeater has one generation a year and spends the winter as a larva. Ten-lined June beetle grubs need two or three seasons in California and up to four at some northern sites, Washington State says." },
+
+    { "type": "h2", "text": "What should you do about June bugs?" },
+    { "type": "p", "text": "Usually nothing. MDC says May beetles cannot hurt people and that birds, bats and frogs eat the adults; Texas A&M says most of Texas's *Phyllophaga* species cause no significant economic damage and that flights may last several weeks. If you want to act, match it to where you find them:" },
+    { "type": "ul", "items": [
+      "**At lights.** The beetles there are mostly males on mating flights, and Texas A&M says turning outdoor lights off may not substantially reduce later grub damage, so treat any lawn problem separately.",
+      "**In the lawn.** Look for wilting turf that does not respond to watering and sod that lifts easily, then count grubs before treating anything, following [the lawn pest guide](/blog/lawn-pest-control).",
+      "**On fruit.** UC IPM recommends no insecticide for figeaters, and UC Davis says insecticides are ineffective against them. UC IPM advises picking fruit early, removing fallen fruit, spreading out or removing compost, clippings and manure near fruit trees, and trapping adults in a 1-gallon container of equal parts grape or peach juice and water under a wire-mesh funnel.",
+      "**In compost.** Texas A&M says grubs in compost, mulch or raised beds are likely beneficial decomposers; to keep figeaters from breeding there, UC Davis says to cover compost, mulch and manure piles with screen."
+    ] },
+    { "type": "p", "text": "For other finds around the house and yard, browse [more pest identification guides](/learn) or try [the pest identifier quiz](/tools/what-bug-is-this)." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph the beetle or grub beside a ruler marked in inches, and note the date, the time of day and where you found it; for a grub, note whether it crawls on its back. Your state's cooperative extension office can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are June bugs good or bad?",
+      "answer": "Mostly harmless, with one catch. The Missouri Department of Conservation says May beetles chew plants but cannot hurt people, and many animals eat them: birds, bats and frogs take the adults, while skunks, moles, crows and grackles dig up the grubs. The catch is the grubs, which eat roots and can damage lawns in large numbers; Purdue Extension says significant damage usually takes 5 to 10 grubs per square foot. Texas A&M adds that grubs in compost, mulch or raised beds are likely beneficial decomposers."
+    },
+    {
+      "question": "Why is it called a June bug?",
+      "answer": "For the time of year the adults appear. Purdue Extension says that, as their name implies, May and June beetle adults emerge during May and June, and the Missouri Department of Conservation describes them flying clumsily around porch lights on late-spring evenings. Strictly, a June bug is a beetle, not a bug: the department notes that entomologists usually avoid the name because bugs, in the technical sense, are a different group of insects, and that some people call mayflies June bugs."
+    },
+    {
+      "question": "What happens if a June bug bites you?",
+      "answer": "June bugs are not described as biters in the extension sources on this page. The Missouri Department of Conservation says May beetles cannot hurt people, and Ohio State University says green June beetles cannot bite because the adults lack typical chewing mouthparts. What people may feel is the legs: Ohio State says the sharp spurs on a green June beetle's legs can deliver painful skin pricks. If a bite or rash worries you, contact a healthcare provider."
+    },
+    {
+      "question": "What is another name for a June bug?",
+      "answer": "May beetle and June beetle are the usual names for the genus Phyllophaga, and their larvae are white grubs, sometimes called grubworms. Other beetles carry the June bug name too. The University of Arkansas Arthropod Museum says the eastern green June beetle is sometimes called the fig eater, and UC IPM lists green fruit beetle, green fig beetle and western green June beetle for the figeater of the Southwest. Washington State University lists watermelon beetle, hissing beetle and June bug for the ten-lined June beetle of the West."
+    },
+    {
+      "question": "Do June bugs fly into you?",
+      "answer": "They can, by accident. UW-Madison Extension calls May and June beetles clumsy fliers that often collide with windows and cling to screens, and the Missouri Department of Conservation says they walk and fly clumsily and crash-land around porch lights. Texas A&M says the beetles drawn to lights during mating flights are mostly males. Green June beetles fly by day instead, and Ohio State describes them cruising about 2 to 3 feet above lawns, with dips and erratic turns."
+    },
+    {
+      "question": "Is it safe to touch a June bug?",
+      "answer": "Generally yes. The Missouri Department of Conservation says May beetles cannot hurt people, and NC State Extension calls green June beetles attractive and harmless to humans. Mind the legs: Ohio State says green June beetles cannot bite but can prick skin with the sharp spurs on their legs. In the West, the ten-lined June beetle squeaks when disturbed, according to Montana State University, and Washington State lists hissing beetle among its common names."
+    },
+    {
+      "question": "Will June bugs go away on their own?",
+      "answer": "The adults do. Texas A&M AgriLife Extension says flight periods may last several weeks, UW-Madison Extension puts May and June beetle flights in late May and early June in Wisconsin, and UF/IFAS says that is when the adults feed, mate and lay eggs. The grubs stay in the soil for 1 to 4 years depending on the species, the Missouri Department of Conservation says, so a yard can see flights again in later years. Green June beetles and figeaters fly in summer and have one generation a year."
+    },
+    {
+      "question": "Why are there so many June bugs this year?",
+      "answer": "Some years are simply bigger. UW-Madison Extension says May and June beetle generations can overlap so that adults are present every year, but in some places one generation is notably larger, giving a large adult population every three years; UF/IFAS also describes three-year cycles. Texas A&M AgriLife Extension says flights are usually larger after significant rain or irrigation, and that green June beetle numbers tend to run in cycles, with a year or two of high numbers followed by several quiet years. Purdue cautions that beetles at lights should not be used to predict grub damage."
+    },
+    {
+      "question": "Are June bug larvae harmful?",
+      "answer": "Sometimes, to lawns. May and June beetle grubs eat roots, and Purdue Extension says white grub densities of 5 to 10 per square foot are usually needed for significant damage, while most turf tolerates up to about 5 without visible damage. Green June beetle grubs feed mostly on decaying organic matter and damage turf by burrowing, according to the University of Arkansas, and UC IPM says figeater grubs do not damage fruit or plants. Texas A&M says grubs found in compost, mulch or raised beds are likely beneficial decomposers."
+    },
+    {
+      "question": "How long do June bug larvae live?",
+      "answer": "One to four years, depending on the species. The Missouri Department of Conservation gives 1 to 4 years for May beetle grubs, and UF/IFAS says the more destructive and abundant species usually take three. Purdue Extension puts it at 2 to 3 years depending on latitude, UW-Madison says Wisconsin's species take three, with one widespread species taking two, and Texas A&M says the main lawn-damaging grubs in Texas take one. Green June beetle and figeater grubs need about a year, and Washington State says ten-lined June beetle grubs need two to four."
+    }
+  ],
+  "sources": [
+    { "title": "May Beetles (June Bugs) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/may-beetles-june-bugs" },
+    { "title": "Green June Beetle (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/green-june-beetle" },
+    { "title": "White Grubs, Phyllophaga spp. (EENY-045/IN202; H. Lane Selman)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN202" },
+    { "title": "May/June Beetles (PJ Liesch, March 2015)", "publisher": "University of Wisconsin-Madison Division of Extension, Wisconsin Horticulture", "url": "https://hort.extension.wisc.edu/articles/mayjune-beetles/" },
+    { "title": "Managing White Grubs in Turfgrass (E-271; Douglas S. Richmond, June 2023)", "publisher": "Purdue University Extension", "url": "https://extension.entm.purdue.edu/publications/E-271/E-271.html" },
+    { "title": "White Grubs in Texas Turfgrass (ENTO-PU-016; Molly Keck, Wizzie Brown and Stephen Biles, October 2024)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/white-grubs-in-texas-turfgrass-1-compressed.pdf" },
+    { "title": "Green June Beetle in the Landscape (James Baker; published January 29, 2013, revised May 6, 2023)", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/green-june-beetle-1" },
+    { "title": "Green June Beetle in Texas (EHT-101; Frances Pontasch)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://aggie-horticulture.tamu.edu/wp-content/uploads/sites/13/2020/05/Green-June-Beetle-in-Texas-EHT-101.pdf" },
+    { "title": "June beetles harmless to trees (Insects in the City, August 28, 2012)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://citybugs.tamu.edu/2012/08/28/june-beetles-harmless-to-trees/" },
+    { "title": "Big Beetles are Cruising Ohio Lawns and Offering Entertainment Value (Joe Boggs, July 10, 2026)", "publisher": "Ohio State University Extension, Buckeye Yard and Garden onLine", "url": "https://bygl.osu.edu/node/2667" },
+    { "title": "Green June beetle", "publisher": "Arthropod Museum, University of Arkansas", "url": "https://arthropod.uark.edu/green-june-beetle/" },
+    { "title": "Green Fruit Beetle (Home and Landscape)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/green-fruit-beetle" },
+    { "title": "Fig Beetles (Information Note No. 073)", "publisher": "Bohart Museum of Entomology, University of California, Davis", "url": "https://bohart.ucdavis.edu/sites/g/files/dgvnsk4616/files/media/documents/note_73_fig_beetles.pdf" },
+    { "title": "Tenlined June Beetle, Polyphylla decemlineata Say (FS272E; R. A. Rodstrom and J. J. Brown, June 2017)", "publisher": "Washington State University Extension", "url": "https://rex.libraries.wsu.edu/esploro/outputs/report/Tenlined-June-beetle--Polyphylla-decemlineata/99900502860101842" },
+    { "title": "Ten-lined June beetle (Insects of the Greater Yellowstone Ecosystem)", "publisher": "Montana State University", "url": "https://www.montana.edu/yellowstoneinsects/coleoptera/scarabaeidae/ten-lined_june_beetle.html" },
+    { "title": "Japanese Beetle (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/japanese-beetle" },
+    { "title": "Ground Beetles (Carabids) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/ground-beetles-carabids" },
+    { "title": "Cockroach Biology and Management (ENTO-PU-121; Wizzie Brown, Michael E. Merchant and Kerry Siders, December 2017)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://mytexas.ag.tamu.edu/publications/cockroach-biology-and-management/" },
+    { "title": "Large Crane Flies (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/crane-flies" }
+  ],
+  "disclaimer": "pesticide"
+}

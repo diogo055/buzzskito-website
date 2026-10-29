@@ -1,0 +1,10 @@
+{
+ "id": "hobo-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "b6a84278a43bd6e9e92fed049a5d22b17c817c2ff19d537210238fa70e65e487",
+ "claimsChecked": 269,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-29"
+}

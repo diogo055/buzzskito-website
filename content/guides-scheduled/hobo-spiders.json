@@ -1,0 +1,205 @@
+{
+  "slug": "hobo-spiders",
+  "kind": "spoke",
+  "cluster": "spiders",
+  "keyword": "hobo spider",
+  "alsoTargets": [
+    "hobo spiders",
+    "hobo spider bite",
+    "are hobo spiders dangerous",
+    "where do hobo spiders live",
+    "hobo spider vs giant house spider",
+    "hobo spider vs wolf spider",
+    "hobo spider size",
+    "hobo spider web"
+  ],
+  "metaTitle": "Hobo Spider: ID, Range and the Bite Myth",
+  "metaDescription": "A hobo spider is a brown funnel weaver with chevrons and plain legs, but only an expert can confirm one. Photos, US range, look-alikes, bite evidence.",
+  "h1": "Hobo Spiders: How to Identify Them, Where They Live and the Bite Myth",
+  "dek": "Real photos of hobo spiders where people find them, the hand-lens checks that rule one out, the states it lives in, how to tell it from a giant house spider or a wolf spider, and what research found about its bite.",
+  "breadcrumb": "Hobo Spiders",
+  "excerpt": "How to identify a hobo spider, why only an expert can confirm one, the states where it lives, the spiders mistaken for it and what research found about its bite.",
+  "datePublished": "2026-10-30",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A hobo spider is a brown funnel weaver of the Northwest and interior West, about 1/2 to 5/8 inch long, with chevrons on its abdomen and legs of one color; dark rings on the legs, two sharp dark stripes on the front body section or eyes of two sizes mean it is not one.** A photo cannot confirm one: [UC IPM](https://ipm.ucanr.edu/home-and-landscape/hobo-spider/) says that takes an arachnologist.",
+    "bullets": [
+      "[Washington State University](https://pestsense.cahnrs.wsu.edu/fact-sheet/hobo-spider/) (WSU) puts a hobo spider at 1 to 1 3/4 inches including its legs; UC IPM gives the body alone as about 1/2 to 5/8 inch.",
+      "In the US it lives from Washington and Oregon east to Idaho, Montana, Wyoming, Colorado and northern Utah, and UC IPM says it does not live in California.",
+      "Adult males wander onto basement and ground-level floors from mid-July until the first killing frost, says the [University of Idaho](https://www.uidaho.edu/extension/publications/cis-1221).",
+      "The giant house spider looks similar and is often misidentified as a hobo spider, according to WSU.",
+      "[CDC's page on venomous spiders](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) names only the black widow and the brown recluse, and WSU says recent research has not shown the hobo spider to be harmful to humans."
+    ]
+  },
+  "facts": {
+    "title": "Hobo spider or look-alike? Quick ID",
+    "head": ["Spider", "Body length", "How to tell", "Where you find it"],
+    "rows": [
+      ["Hobo spider", "About 1/2 to 5/8 inch", "Chevrons on the abdomen; legs one color, no dark rings; eight eyes of equal size", "Basement and ground-level floors, tubs and sinks; webs hidden under objects outdoors; Northwest and interior West"],
+      ["Giant house spider", "1/2 to 1 inch; legs span up to 4 inches", "Usually much larger; three or four pairs of pale spots on the underside", "Homes west of the Cascades in Washington, parts of Oregon; floors, sinks and tubs"],
+      ["Barn funnel weaver", "About 1/4 to 1/2 inch", "Light and dark bands on the legs; pale spots on the underside", "Webs in dark corners near the floor; homes across North America"],
+      ["Grass spider", "About 3/8 to 3/4 inch (females)", "Two dark bands running back from the eyes; long spinnerets at the rear", "Sheet webs on grass, weeds and ground covers; indoors in fall"],
+      ["Wolf spider", "Up to about 1 inch", "An enlarged pair of eyes at the front; hunts without a web", "On the ground outdoors; rarely enters buildings"],
+      ["Brown recluse", "About 3/8 inch", "Violin-shaped mark on the front body section; six eyes in three pairs", "Midwestern and southern states; not established in the hobo spider's range"]
+    ],
+    "caption": "Sources: UC IPM, Utah State, University of Idaho and Washington State (hobo and giant house spiders); UC IPM, Colorado State and Washington State (barn funnel weaver); Utah State and Colorado State (wolf spider); Penn State (grass spider); Penn State and CDC (brown recluse). All linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What is a hobo spider?" },
+    { "type": "p", "text": "A hobo spider is a European funnel weaver (family Agelenidae), *Eratigena agrestis*, formerly *Tegenaria agrestis*, now living in the Pacific Northwest and the interior West. The [University of California's Pest Note on the hobo spider](https://ipm.ucanr.edu/home-and-landscape/hobo-spider/) (UC IPM) says it was labeled potentially toxic in the United States in the 1980s, and that later research questioned the label." },
+    { "type": "figure", "src": "/guides/photos/hobo-spider-dorsal-quarter.webp", "width": 1200, "height": 1600, "alt": "Brown hobo spider seen from above on teal plastic, with a chevron pattern on its oval abdomen, long legs of one even brown and the edge of a coin at the left", "caption": "A hobo spider found in an outdoor storage tote in Lakewood, Colorado, identified on iNaturalist; the edge of a US quarter is at left. Note the chevrons on the abdomen and the plain legs.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/393237985" },
+    { "type": "p", "text": "UC IPM links the name hobo to the spider's presumed spread to distant cities by railway. Its other name, aggressive house spider, comes from a mistranslation of *agrestis*, which means rural or in the fields, says [Montana State University Extension](https://www.montana.edu/extension/ipm/entomology/resources/fact-sheets/hobo-spiders.html); hobo spiders are not known to be naturally aggressive." },
+
+    { "type": "h2", "text": "What does a hobo spider look like?" },
+    { "type": "p", "text": "A brown, long-legged spider with chevrons on its abdomen and legs of one even color. [Utah State University Extension](https://extension.usu.edu/planthealth/research/hobo-spiders.php) (USU) describes a brown front body section with darker markings, brown legs and an abdomen with yellow chevron markings on a gray background, a pattern that can be hard to see without a hand lens. Unlike many look-alikes, USU says, hobo spiders have no dark bands on their legs, and color alone cannot identify them." },
+    { "type": "p", "text": "The [University of Idaho's hobo spider fact sheet](https://www.uidaho.edu/extension/publications/cis-1221) describes tan-gray spiders with five or six pale, triangular loops down the abdomen and uniformly tan legs." },
+    { "type": "figure", "src": "/guides/photos/hobo-spider-house-foundation.webp", "width": 1101, "height": 1101, "alt": "Tawny hobo spider seen from the side on rough gray concrete, its oval abdomen marked with a darker chevron pattern and its long legs plain brown", "caption": "A hobo spider on a house's concrete foundation, found behind a gas grill and identified on iNaturalist, with chevrons on the abdomen and no dark bands on the legs.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/137477202" },
+    { "type": "p", "text": "USU gives mature females a body of 3/8 to 5/8 inch (9.5 to 16.5 mm) and males 9/32 to 9/16 inch (7 to 13.5 mm). Adult males also carry swollen pedipalps beside the mouth that look like boxing gloves, but the University of Idaho says many male spiders do, so that look does not identify a hobo spider." },
+
+    { "type": "h2", "text": "How can you tell for sure that it is a hobo spider?" },
+    { "type": "p", "text": "Only with a microscope, in expert hands. UC IPM says a reliable identification requires an arachnologist to examine the spider's reproductive structures, and that a hobo spider is unlikely to be identified correctly with the naked eye. [WSU's guide to identifying, and misidentifying, the hobo spider](https://s3.wp.wsu.edu/uploads/sites/2210/2015/05/PLS116_1.pdf), by Rick Vetter and Art Antonelli, calls color and size among the least reliable clues." },
+    { "type": "p", "text": "A hand lens can still rule a hobo spider out, using checks from that guide and the University of Idaho:" },
+    { "type": "checklist", "title": "It is not a hobo spider if you see", "items": [
+      "**Pale spots on the underside.** Three or four pairs of light spots along the sides of the sternum, the plate between the legs, point to a giant house spider or a barn funnel weaver; a hobo spider has one light stripe down the middle. The spots can be faint.",
+      "**Two sharp dark stripes on top of the front body section.** A hobo spider's markings there are indistinct; distinct stripes point to grass spiders and their relatives, or possibly a wolf spider.",
+      "**Dark rings on the legs.** Hobo spider legs are one color; ringed legs most often mean a barn funnel weaver or another funnel weaver.",
+      "**Eyes of two sizes.** A hobo spider has eight dark eyes of equal size in two rows (University of Idaho).",
+      "**A spider high on a wall or ceiling.** It is probably not a hobo spider: they are poor climbers, though they can climb carpet and other textured surfaces (University of Idaho)."
+    ] },
+    { "type": "media", "needed": "Underside (sternum) of a hobo spider beside the underside of a giant house spider or barn funnel weaver, showing the single pale center stripe against three or four pairs of pale side spots, identified by an arachnologist; public domain or CC0" },
+    { "type": "p", "text": "Passing every check makes a hobo spider possible, not certain: USU says it can be very difficult to separate from its relatives, even for experts. [The spider identifier](/tools/spider-identifier) can narrow down a spider you found, and your state's extension office can help confirm one." },
+
+    { "type": "h2", "text": "Hobo spider vs giant house spider: how do you tell them apart?" },
+    { "type": "p", "text": "By the underside, with size as a hint, and for certain only under a microscope. [WSU's giant house spider page](https://pestsense.cahnrs.wsu.edu/fact-sheet/giant-house-spider/) says giant house spiders are frequently mistaken for hobo spiders, the smaller males especially. The WSU guide says giant house spiders are usually much larger and carry the pale sternum spots that hobo spiders lack." },
+    { "type": "figure", "src": "/guides/photos/giant-house-spider.webp", "width": 1200, "height": 1600, "alt": "Giant house spider seen from above on speckled gray stone with blue paint flecks, a long-legged brown spider with two dark bands on its front body section and a mottled abdomen", "caption": "A giant house spider, *Eratigena duellica*, identified on iNaturalist; WSU says this species is frequently mistaken for a hobo spider.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/127929816" },
+    { "type": "p", "text": "WSU gives the giant house spider a body of 1/2 to 1 inch and a leg span of up to 4 inches on large adults, and says its color and markings vary too much to identify it by. It is common in and around homes west of the Cascades in Washington and absent east of them, and its range also includes parts of Oregon and coastal Canada. In western Washington cities, the WSU guide said in 2002, it outnumbered the hobo spider about 3 to 1." },
+    { "type": "p", "text": "Its bite is not known to pose any threat to humans, WSU says. Under a microscope, USU says, the male hobo spider's palp has two prongs, where the giant house spider's and the barn funnel weaver's have one. [The guide to common house spiders](/blog/house-spiders) covers the giant house spider and other big spiders that run across floors." },
+
+    { "type": "h2", "text": "Hobo spider vs wolf spider: what is the difference?" },
+    { "type": "p", "text": "The eyes and the web. [Colorado State University's wolf spider fact sheet](https://agsci.colostate.edu/agbio/wp-content/uploads/sites/20/2013/03/Wolf-Spiders.pdf) says wolf spiders are probably most often confused with funnel weavers, and that an enlarged pair of eyes at the front of the head and the lack of a web separate them. A hobo spider has eight eyes of equal size and catches prey in a web." },
+    { "type": "p", "text": "USU says their intimidating size causes the mix-up: wolf spiders are often larger, up to 1 inch, and build no webs. Colorado State adds that a female wolf spider carries her egg sac at the tip of her abdomen, then her young on her back, and that wolf spiders rarely enter buildings. [The wolf spider guide](/blog/wolf-spiders) shows the common US species." },
+
+    { "type": "h2", "text": "What other spiders look like a hobo spider?" },
+    { "type": "p", "text": "Mainly the barn funnel weaver and grass spiders, two more funnel weavers, and some people also suspect a brown recluse." },
+    { "type": "h3", "text": "Barn funnel weaver" },
+    { "type": "p", "text": "This is the smaller relative found in houses across North America. UC IPM gives its body as about 1/4 to 1/2 inch and says it is not considered toxic to humans. [Colorado State University's barn funnel weaver sheet](https://webdoc.agsci.colostate.edu/bspm/InsectInformation/FactSheets/BarnFunnel.pdf) notes banding on the legs, webs in dark corners near the floor and wanderers, especially adult males, trapped in sinks and tubs, and says hobo and giant house spiders grow about twice as large." },
+    { "type": "h3", "text": "Grass spiders" },
+    { "type": "p", "text": "[Penn State Extension](https://extension.psu.edu/grass-spiders) describes grass spiders, *Agelenopsis* species, with a pair of darker bands running back from the eyes and very long rear spinnerets; females measure about 3/8 to 3/4 inch (10 to 20 mm). Their sheet webs, with a funnel off to one side, sit on grass, weeds and ground covers, and people often see them indoors in fall. [The grass spider guide](/blog/grass-spiders) covers them." },
+    { "type": "h3", "text": "Brown recluse" },
+    { "type": "p", "text": "A brown recluse has a violin-shaped mark on the front body section, six eyes in three pairs and a body about 3/8 inch long, says [Penn State Extension's brown recluse page](https://extension.psu.edu/brown-recluse-spiders), which lists 16 central and southern states with established populations, none of them in the hobo spider's range. [Telling a brown recluse from its look-alikes](/blog/brown-recluse-look-alikes) covers that comparison." },
+    { "type": "confused", "items": [
+      { "href": "/blog/house-spiders", "name": "Barn funnel weaver", "photo": "barn-funnel-weaver-indoor-wall", "note": "Smaller, 1/4 to 1/2 inch, with banded legs; very common indoors", "alt": "Brown funnel weaver on a white indoor wall, its long legs banded light and dark and its abdomen spotted" },
+      { "href": "/blog/grass-spiders", "name": "Grass spider", "photo": "grass-spider", "note": "Dark bands running back from the eyes and long spinnerets; webs in grass", "alt": "Close-up of a grass spider from above, with two dark bands on its light brown front body section and a striped abdomen" },
+      { "href": "/blog/wolf-spiders", "name": "Wolf spider", "photo": "carolina-wolf-spider", "note": "An enlarged pair of front eyes and no web; often larger, up to 1 inch", "alt": "Gray, hairy Carolina wolf spider seen from above on dry soil and plant litter, its large dark front eyes visible" },
+      { "href": "/blog/brown-recluse-look-alikes", "name": "Brown recluse", "photo": "brown-recluse-female", "note": "Violin mark and six eyes in pairs; not established in the hobo spider's range", "alt": "Female brown recluse seen from above on white, a light brown spider with long thin legs and a darker mark on its front body section" }
+    ] },
+
+    { "type": "h2", "text": "Where do hobo spiders live?" },
+    { "type": "p", "text": "In the Pacific Northwest and the interior West. UC IPM gives the North American range as British Columbia east to Montana, Wyoming and Colorado and south through Oregon and northern Utah. Extension services confirm it state by state: throughout Washington (the WSU guide), statewide in Idaho (University of Idaho), long prevalent in Montana (Montana State), in many areas of Colorado (Colorado State) and throughout northern Utah (USU)." },
+    { "type": "map", "scope": "us", "title": "Where hobo spiders live in the US", "categories": [ { "key": "range", "label": "In the hobo spider's range" } ], "values": { "WA": "range", "OR": "range", "ID": "range", "MT": "range", "WY": "range", "CO": "range", "UT": "range" }, "caption": "Shaded: the range UC IPM describes. Shading does not mean it lives everywhere in a state: UC IPM gives only northern Utah. Gray means none of the sources on this page places it there, not proof it is absent.", "source": "[UC IPM's hobo spider Pest Note](https://ipm.ucanr.edu/home-and-landscape/hobo-spider/) and the extension services linked on this page" },
+    { "type": "p", "text": "UC IPM says it does not live in California, where no arachnologist has verified one; [the guide to spiders in California](/blog/spiders-in-california) covers the spiders found there. Native to Europe, it was detected in the Pacific Northwest in 1936, USU says. It was once common in Seattle, but UC IPM says the giant house spider has displaced it, and it is now less dominant." },
+
+    { "type": "h2", "text": "Where and when do people find hobo spiders?" },
+    { "type": "p", "text": "Mostly at floor level from midsummer through fall, when adult males wander in search of mates. USU says males seek females from August through October, when hobo spiders are most often found in homes, usually at ground level in the basement and often in a bathtub or sink. The University of Idaho says lone adult males run across basement and ground-level floors from mid-July until the first killing frost." },
+    { "type": "figure", "src": "/guides/photos/hobo-spider-juvenile-bathtub.webp", "width": 1200, "height": 1168, "alt": "Pale, long-legged young hobo spider seen from above against the white surface of a bathtub, lit in the center, with a date stamp in the lower right corner", "caption": "A young hobo spider in a bathtub in Moscow, Idaho. Arachnologist Rod Crawford supported the identification on iNaturalist.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/296552224" },
+    { "type": "p", "text": "Outdoors, USU lists wood and rock piles, retaining walls, tall grass and foundation cracks. Indoors, wanderers can get trapped in clothing, bedding and shoes left on the floor, USU adds, so take care picking up clothes in those months; [CDC](https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html) advises shaking out clothing, shoes and towels before use." },
+    { "type": "figure", "src": "/guides/photos/hobo-spider-door-corner.webp", "width": 1200, "height": 1600, "alt": "Dark brown, hairy hobo spider low on a white door just above the threshold, its long legs spread and its oval abdomen mottled", "caption": "A hobo spider on the bottom corner of a door in Missoula County, Montana, where the observer saw no web nearby; identified on iNaturalist.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/184904478" },
+    { "type": "media", "needed": "Hobo spider on a basement floor, in a window well or on a woodpile, ideally beside a ruler marked in inches, with a research-grade or expert identification; public domain or CC0 so it could replace the lead" },
+    { "type": "p", "text": "USU says males die after mating, mated females lay one to four egg sacs starting in September, the eggs hatch in late spring, and hobo spiders are thought to take about 2 years to become adults. [The guide to spider egg sacs](/blog/spider-egg-sacs) compares the sacs of common spiders." },
+
+    { "type": "h2", "text": "What does a hobo spider web look like?" },
+    { "type": "p", "text": "A flat sheet that narrows into a tube, usually hidden near the ground. UC IPM says hobo spiders, unlike typical funnel weavers, build webs that are almost always hidden under objects and are not noticeably funnel-like. The University of Idaho describes trampoline-like sheets of nonsticky silk with a tubular retreat, usually built outdoors around low landscape features with cracks or crevices, and WSU says the spider waits at the mouth of the funnel for struggling prey." },
+    { "type": "figure", "src": "/guides/photos/hobo-spider-funnel-web-particle-board.webp", "width": 1200, "height": 758, "alt": "Brown hobo spider inside a dense, dusty sheet of silk beneath a weathered board, the web running back into a dark retreat", "caption": "A male hobo spider in its silk sheet behind an old piece of particle board in a Salt Lake City backyard, identified on iNaturalist.", "license": "CC-BY-4.0", "credit": "(c) Rebecca Ray, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/84516618" },
+    { "type": "p", "text": "A web alone does not identify one, since other funnel-web weavers build the same kind, the University of Idaho says. WSU places hobo spider webs in dark, moist areas, often basements." },
+
+    { "type": "h2", "text": "Are hobo spiders dangerous?" },
+    { "type": "p", "text": "Not by current evidence. UC IPM says the bite of the hobo spider is not considered of medical importance, WSU says recent research has not shown it to be harmful to humans, and CDC's page on venomous spiders names only the black widow and the brown recluse. UC IPM still suggests treating it as of minor medical importance until definitive proof is in." },
+    { "type": "p", "text": "Its reputation rested on weak evidence. Reviewing it in [the Annals of Emergency Medicine in 2004](https://extension.usu.edu/planthealth/uppdl/files/ezplug/uploads/HoboSpiderDermonecroticLesions.pdf), Richard Vetter and Geoffrey Isbister traced the alarm to 1987 studies, one of which forced live hobo spiders to bite rabbits. They found only one verified hobo spider bite followed by a skin ulcer, in a woman with a history of phlebitis, and noted that pre-existing vein disease is itself a common cause of ulcers." },
+    { "type": "p", "text": "Other work agreed. A 2001 study found no necrotic wounds when venom from Pacific Northwest and European hobo spiders was injected into rabbits, UC IPM reports, and in Europe the venom is not considered toxic to humans. A [2014 study of 33 verified spider bites in Oregon](https://pubmed.ncbi.nlm.nih.gov/24726469/) found none with significant medical symptoms or dying skin; the one hobo spider bite caused pain, redness and calf-muscle twitching that resolved in 12 hours." },
+    { "type": "p", "text": "USU says hobo spiders bite in defense, causing mild pain and redness, and Colorado State calls the species harmless to humans. [The guide to venomous spiders in the US](/blog/venomous-spiders) covers the black widow and brown recluse too." },
+
+    { "type": "h2", "text": "What should you do if a hobo spider bites you?" },
+    { "type": "p", "text": "Clean it, cool it and watch it. [MedlinePlus](https://medlineplus.gov/spiderbites.html), the National Library of Medicine's health site, says most spider bites are harmless and may look like a bee sting, with redness, pain and swelling, though occasionally a bite causes an allergic reaction. Its first aid:" },
+    { "type": "ul", "items": [
+      "Wash the area well with soap and water.",
+      "Apply an ice pack or a wet compress.",
+      "Take an over-the-counter pain reliever if needed, and consider an antihistamine for severe swelling."
+    ] },
+    { "type": "p", "text": "CDC's first aid for a spider bite at work adds: stay calm, identify the spider only if that can be done safely, raise the bitten area if possible, do not try to remove venom, and notify a supervisor immediately and seek professional medical attention. WSU suggests taking the spider to an expert for identification and says you may want to seek medical attention." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "MedlinePlus says to seek medical treatment after a spider bite for small children and for adults with severe symptoms. Over the next several days, watch the bite for signs of infection, such as increasing redness, swelling or pain, as [MedlinePlus's first aid for bites and stings](https://medlineplus.gov/ency/article/000033.htm) advises." },
+    { "type": "p", "text": "Do not assume a spreading or slow-healing wound is a spider bite: Vetter and Isbister warn that misdiagnosing infections or skin cancer as spider bites delays or prevents the right treatment. If you never saw what bit you, [the bug bite identifier](/tools/bug-bite-identifier) asks six questions about a bite, and [the bug bite chart](/learn/bug-bites) compares common bites." },
+
+    { "type": "h2", "text": "How do you keep hobo spiders out of the house?" },
+    { "type": "p", "text": "Seal the gaps, clear the clutter and catch the wanderers on sticky traps. The University of Idaho's steps:" },
+    { "type": "ul", "items": [
+      "**Seal up.** Weather-strip and caulk around doors, windows and utility lines, and fill cracks in the siding and around the foundation.",
+      "**Clear the foundation.** Remove dense vines, shrubs, rocks and coarse bark mulch next to it, stack firewood away from buildings, and check firewood for spiders before bringing it in.",
+      "**Trap the wanderers.** Set sticky spider traps by doors, along walls, behind furniture and near window wells from midsummer to the first freezing days of fall, out of reach of pets and young children (UC IPM).",
+      "**Vacuum and declutter.** Vacuum corners and behind furniture, discard clutter, and from midsummer to October move beds and bedding away from walls and the floor."
+    ] },
+    { "type": "p", "text": "USU also suggests pulling the bed about 8 inches from the wall during the August to October influx. WSU says commercial spider traps work well on wandering spiders such as hobo spiders, and that spraying spiders like these outdoors is not usually advised, since pesticides are a temporary fix unless their entry is blocked." },
+    { "type": "p", "text": "[Keeping spiders out of the house](/blog/how-to-keep-spiders-out-of-your-house) goes further on sealing and traps, and [the guide to getting rid of spiders](/blog/how-to-get-rid-of-spiders) covers a bigger problem. For other spiders and pests, browse [more pest identification guides](/learn)." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph the spider beside a ruler marked in inches, then cover it with a jar, slide paper underneath and keep it whole: UC IPM says a crushed specimen may be difficult to identify. Note where and when you found it; your state's cooperative extension office can help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "How venomous is the hobo spider?",
+      "answer": "Not enough to be considered medically important, by current evidence. UC IPM says the hobo spider's bite is not considered of medical importance, though it suggests treating the spider as of minor medical importance until there is definitive proof. A 2001 study found no necrotic wounds when venom from Pacific Northwest and European hobo spiders was injected into rabbits, and in Europe its venom is not considered toxic to humans. CDC's page on venomous spiders names only the black widow and the brown recluse."
+    },
+    {
+      "question": "What happens if a hobo spider bites you?",
+      "answer": "Usually mild pain and redness. Utah State University Extension says hobo spiders bite in defense, causing mild pain and redness. In a 2014 study of 33 verified spider bites in Oregon, the one hobo spider bite caused pain, redness and twitching in the calf muscle that resolved within 12 hours. Wash the bite with soap and water and apply an ice pack or a wet compress, as MedlinePlus advises, and seek medical treatment for a small child or for severe symptoms."
+    },
+    {
+      "question": "What does a hobo spider bite look like?",
+      "answer": "Much like other minor spider bites. MedlinePlus says a spider bite may look like a bee sting, with redness, pain and swelling at the site. Hobo spider bites were once blamed for slow-healing, ulcerating wounds, but the University of Idaho says that early evidence has since been refuted, and UC IPM calls those reports erroneous. In the Annals of Emergency Medicine, Vetter and Isbister write that skin wounds of unknown cause should not be blamed on spider bites right away, since infections and skin cancer are misdiagnosed that way."
+    },
+    {
+      "question": "Does the CDC list the hobo spider as venomous?",
+      "answer": "No. CDC's page on venomous spiders, written for outdoor workers and reviewed in September 2026, names only two: the black widow and the brown recluse. Utah State University Extension likewise notes that the CDC does not list hobo spiders among venomous spider species that are toxic to humans. UC IPM says the hobo spider was labeled potentially toxic in the United States in the 1980s, that later research questioned the label, and that its bite is not considered of medical importance."
+    },
+    {
+      "question": "Are hobo spiders aggressive?",
+      "answer": "No. Montana State University Extension says hobo spiders are not known to be naturally aggressive in their native Europe or in the United States, and that the nickname aggressive house spider came from mistranslating agrestis, Latin for rural or in the fields. In the Annals of Emergency Medicine, Vetter and Isbister describe hobo spiders as reticent to bite and quick to retreat when disturbed. Utah State says they bite in defense, as when a spider hiding in clothes on the floor is grabbed by mistake."
+    },
+    {
+      "question": "Why is it called a hobo spider?",
+      "answer": "Because of how it is thought to have traveled. UC IPM links the name to the spider's presumed spread to distant cities by railway. The species, Eratigena agrestis, is native to Europe. Utah State University Extension says it was detected in the Pacific Northwest in 1936, and the University of Idaho says it was first detected in Idaho during the 1960s and is now common statewide there."
+    },
+    {
+      "question": "What attracts hobo spiders?",
+      "answer": "Mates, shelter and prey. In late summer and fall, adult males wander in search of females, which is when hobo spiders are most often found in homes, Utah State University Extension says. Outdoors they shelter in wood and rock piles, retaining walls, tall grass and foundation cracks, and indoors clutter gives them hiding places. The University of Idaho advises removing dense vines, rocks and coarse bark mulch near foundations and sealing gaps, which also helps keep out the insects spiders feed on."
+    },
+    {
+      "question": "Do sticky traps catch hobo spiders?",
+      "answer": "Yes, especially the wandering males. Washington State University says commercial spider traps are effective at trapping wandering spiders such as hobo spiders. The University of Idaho suggests placing sticky traps next to doors, along walls, behind furniture and near window wells from midsummer through the first freezing days of fall. UC IPM says traps along floorboards also give an idea of how many spiders are in the house, and that they should sit out of reach of pets and young children."
+    },
+    {
+      "question": "Is the hobo spider related to the Australian funnel-web spider?",
+      "answer": "Not closely. UC IPM says the Sydney funnel web spider of Australia is highly toxic to humans and that, because the names are similar, American funnel weaving spiders have been wrongly assumed to share that toxicity. The Australian spiders are more closely related to tarantulas than to the American funnel weavers, the family Agelenidae that includes the hobo spider, which UC IPM calls virtually harmless."
+    },
+    {
+      "question": "How big is a hobo spider?",
+      "answer": "About 1/2 to 5/8 inch long in the body, according to UC IPM, and 1 to 1 3/4 inches including the legs, according to Washington State University. Utah State University Extension gives mature females a body of 3/8 to 5/8 inch and males 9/32 to 9/16 inch. Size alone cannot identify one: the giant house spider, a common look-alike, has a body of 1/2 to 1 inch and a leg span of up to 4 inches on large adults, WSU says."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Hobo Spider (UC ANR Publication 7488; R. S. Vetter, updated November 2015)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/hobo-spider/" },
+    { "title": "Hobo spider (Pestsense fact sheet, reviewed December 2025)", "publisher": "Washington State University Extension", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/hobo-spider/" },
+    { "title": "Giant house spider (Pestsense fact sheet, reviewed April 2025)", "publisher": "Washington State University Extension", "url": "https://pestsense.cahnrs.wsu.edu/fact-sheet/giant-house-spider/" },
+    { "title": "How to identify (or misidentify) the hobo spider (Pest Leaflet Series PLS 116; Rick Vetter and Art Antonelli, 2002)", "publisher": "Washington State University Extension", "url": "https://s3.wp.wsu.edu/uploads/sites/2210/2015/05/PLS116_1.pdf" },
+    { "title": "Hobo Spider (Kate Richardson and Ryan Davis, April 2023)", "publisher": "Utah State University Extension", "url": "https://extension.usu.edu/planthealth/research/hobo-spiders.php" },
+    { "title": "Hobo Spiders in Idaho (CIS 1221; D. Gunn, E. Bechinski and S. Parkinson, published July 2016)", "publisher": "University of Idaho Extension", "url": "https://www.uidaho.edu/extension/publications/cis-1221" },
+    { "title": "Hobo Spiders (fact sheet, August 2021)", "publisher": "Montana State University Extension IPM Program", "url": "https://www.montana.edu/extension/ipm/entomology/resources/fact-sheets/hobo-spiders.html" },
+    { "title": "Barn Funnel Weaver (Colorado Arthropod of Interest)", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://webdoc.agsci.colostate.edu/bspm/InsectInformation/FactSheets/BarnFunnel.pdf" },
+    { "title": "Wolf Spiders (W. Cranshaw and F. Peairs, November 2009)", "publisher": "Colorado State University, Department of Bioagricultural Sciences and Pest Management", "url": "https://agsci.colostate.edu/agbio/wp-content/uploads/sites/20/2013/03/Wolf-Spiders.pdf" },
+    { "title": "Grass Spiders (Steve Jacobs, September 2025)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/grass-spiders" },
+    { "title": "Brown Recluse Spiders", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/brown-recluse-spiders" },
+    { "title": "Venomous Spiders at Work (reviewed September 28, 2026)", "publisher": "CDC, National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/venomous-spiders.html" },
+    { "title": "Do Hobo Spider Bites Cause Dermonecrotic Injuries? (Vetter and Isbister, Annals of Emergency Medicine 44:605-607, 2004)", "publisher": "Annals of Emergency Medicine, copy hosted by Utah State University Extension", "url": "https://extension.usu.edu/planthealth/uppdl/files/ezplug/uploads/HoboSpiderDermonecroticLesions.pdf" },
+    { "title": "Verified spider bites in Oregon (USA) with the intent to assess hobo spider venom toxicity (McKeown, Vetter and Hendrickson, Toxicon, 2014)", "publisher": "US National Library of Medicine, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/24726469/" },
+    { "title": "Spider Bites (last updated March 9, 2023)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/spiderbites.html" },
+    { "title": "Insect bites and stings (Medical Encyclopedia, reviewed October 14, 2025)", "publisher": "MedlinePlus, US National Library of Medicine", "url": "https://medlineplus.gov/ency/article/000033.htm" }
+  ],
+  "disclaimer": "health"
+}

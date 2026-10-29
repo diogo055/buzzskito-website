@@ -1,0 +1,10 @@
+{
+ "id": "crickets-in-house",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a314d3246fe3400bb49a42c2111f38014309d29342692990f7140bc45bed1054",
+ "claimsChecked": 296,
+ "claimsCorrected": 7,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-29"
+}

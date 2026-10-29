@@ -1,0 +1,214 @@
+{
+  "slug": "bugs-in-kitchen",
+  "kind": "spoke",
+  "cluster": "household",
+  "keyword": "bugs in kitchen",
+  "alsoTargets": [
+    "kitchen bugs",
+    "small bugs in kitchen",
+    "tiny bugs in kitchen",
+    "little bugs in kitchen",
+    "bugs in kitchen cabinets",
+    "bugs in kitchen sink",
+    "flying bugs in kitchen",
+    "what are these bugs in my kitchen"
+  ],
+  "metaTitle": "Bugs in the Kitchen? Identify Them (Photos)",
+  "metaDescription": "Kitchen bugs are usually ants, fruit flies, drain flies, pantry beetles, meal moths or German cockroaches. Sort yours by where you see it, with photos.",
+  "h1": "Bugs in the Kitchen: What They Are and Where They Come From",
+  "dek": "Where you see a kitchen bug, in the air, on the counter, inside dry food or under the sink at night, narrows it to a few suspects. Real photos, sizes in inches, and the tell and the fix for each, from university extension guides.",
+  "breadcrumb": "Bugs in the Kitchen",
+  "excerpt": "Ants, fruit flies, drain flies, pantry beetles, meal moths or German cockroaches? Sort the bugs in your kitchen by where you see them, with photos and sizes.",
+  "datePublished": "2026-10-30",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Bugs in a kitchen are usually ants on the counters, small flies around fruit, trash or the sink, beetles or moth caterpillars inside dry food, or German cockroaches that come out at night, and where you see the bug sorts it fastest.** Then check the tell: a thin waist means an ant, a snout a weevil, and two dark stripes behind the head a German cockroach.",
+    "bullets": [
+      "[UC IPM's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) lists odorous house, Argentine, pavement, pharaoh and thief ants at 1/32 to 3/16 inch long; carpenter ant workers are 1/4 to 1/2 inch.",
+      "Fruit flies are about 1/8 inch long with usually red eyes, and the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef621) says they breed in ripe produce, drains, garbage disposals, trash, mops and recycling bins.",
+      "Drain flies are about 1/8 inch, fuzzy and moth-like, with wings held like a roof, and breed in the slime coating drains, says [UC IPM](https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/).",
+      "Pantry beetles run about 1/10 to 3/16 inch, and [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food) says pantry pests do not bite or sting and that throwing out infested food and cleaning the cupboards is the best way to get rid of them.",
+      "German cockroaches are about 1/2 inch long and light brown with two dark stripes behind the head, and [UC IPM](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) says they favor warm, humid spots near food and water in kitchens and bathrooms."
+    ]
+  },
+  "facts": {
+    "title": "Kitchen bugs: quick ID",
+    "head": ["Bug", "Size", "Where in the kitchen", "The tell"],
+    "rows": [
+      ["Ants", "Most 1/32 to 3/16 inch; carpenter ants 1/4 to 1/2 inch", "Trails to food on counters and floors; under the sink", "Thin waist, elbowed antennae; walks in lines"],
+      ["Fruit fly", "About 1/8 inch", "Ripe fruit, trash, recycling, drains", "Usually red eyes; tan in front, black behind"],
+      ["Drain fly", "1/16 to 1/5 inch", "Sink and floor drains", "Fuzzy and moth-like; makes short hops"],
+      ["Phorid fly", "About 1/8 inch", "Drains, garbage, a broken disposal", "Humped back; runs, then flies"],
+      ["Fungus gnat", "1/16 to 1/8 inch", "Potted herbs and houseplants; windows", "Dark and delicate, with long legs"],
+      ["Indian meal moth", "Adult about 1/3 to 2/5 inch; caterpillar about 1/2 inch", "Flying around the room; caterpillars in dry food", "Coppery outer wings; silk webbing in food"],
+      ["Pantry beetles", "About 1/10 to 3/16 inch", "Flour, cereal, spices, pet food; some fly to windows", "Small, brown to reddish brown; no snout"],
+      ["Grain weevils", "Under 3/16 inch", "Whole kernels and seeds; rarely in flour", "A snout in front of the head"],
+      ["German cockroach", "About 1/2 inch", "Under the sink, behind the stove, refrigerator and dishwasher; at night", "Light brown, two dark stripes behind the head"],
+      ["Silverfish", "About 1/2 inch, up to 3/4 inch", "Cabinets, damp spots, stuck in the sink; at night", "Silvery, tapering body with three long tails"],
+      ["Springtail", "Under 1/12 inch (1 to 2 mm)", "A wet sink, drains, houseplant soil", "Pinhead-size; jumps"],
+      ["Asian lady beetle", "About 9/32 inch", "Windows and lights, from about October", "Oval and convex; black W on the white plate behind the head"]
+    ],
+    "caption": "Sizes and tells from UC IPM, University of Minnesota, University of Kentucky, Texas A&M, Colorado State and Penn State extension guides, each linked in the sections below."
+  },
+  "body": [
+    { "type": "h2", "text": "What are the bugs in my kitchen?" },
+    { "type": "p", "text": "Kitchen bugs come from a short list: ants; small flies such as fruit flies, drain flies, phorid flies and fungus gnats; beetles, weevils and meal moths in dry food; and German cockroaches, with silverfish and springtails in damp spots. Where you saw the bug narrows that list to two or three suspects, so this guide is sorted by place." },
+    { "type": "figure", "src": "/guides/photos/thief-ants-counter-pen-tip.webp", "width": 1200, "height": 1600, "alt": "Dozens of tiny reddish-brown ants scattered across a speckled kitchen countertop beside the silver tip of a ballpoint pen", "caption": "Thief ants on a speckled kitchen counter beside a pen tip, in Wisconsin; the observer found them on dirty dishes. UC IPM lists thief ants at about 1/32 inch, yellow to light brown, with a taste for greasy food.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/402477450" },
+    { "type": "p", "text": "To sort by color instead, see [tiny brown bugs](/blog/tiny-brown-bugs) or [tiny black bugs](/blog/tiny-black-bugs); for other rooms, see [bugs in the bathroom](/blog/bugs-in-bathroom) or [bugs in carpet and rugs](/blog/bugs-in-carpet)." },
+
+    { "type": "h2", "text": "How do you tell which kitchen bug you have?" },
+    { "type": "p", "text": "Trap one in a clear jar or on clear tape and look at it through a magnifying glass, since many kitchen bugs are 1/8 inch long or less." },
+    { "type": "checklist", "title": "Checks to run with the bug in a jar", "items": [
+      "**Does it fly?** Red eyes: a fruit fly. Fuzzy and moth-like: a drain fly. A humped back: a phorid fly. Long legs, near a potted plant: a fungus gnat. A small moth with coppery outer wings: an Indian meal moth.",
+      "**Does it jump?** A pinhead-size jumper at a wet sink is probably a springtail.",
+      "**Thin waist and elbowed antennae?** An ant. Note its size, its color and any strong odor when it is crushed.",
+      "**Hard shell?** A beetle. A snout means a weevil; saw-like teeth along each side behind the head, a sawtoothed grain beetle; a humped back with the head bent down, a drugstore or cigarette beetle; an oval, convex beetle with a black W behind the head, an Asian lady beetle.",
+      "**Stripes or tails?** Light brown with two dark stripes behind the head: a German cockroach. Silvery, with long antennae and three long tails: a silverfish.",
+      "**How big, and where?** Measure it against a ruler marked in inches, then find the place you saw it in the sections below."
+    ] },
+
+    { "type": "h2", "text": "What are the tiny flying bugs in my kitchen?" },
+    { "type": "p", "text": "Tiny flies in a kitchen are usually fruit flies, drain flies, phorid flies or fungus gnats, and each one points to where it breeds. A small moth is often an Indian meal moth from dry food. A larger fly may be a house fly, which Texas A&M says rarely breeds indoors but comes in through open doors and unscreened windows; see [why there are flies in the house](/blog/flies-in-house)." },
+    { "type": "h3", "text": "Fruit flies" },
+    { "type": "figure", "src": "/guides/photos/fruit-flies-lemon.webp", "width": 1200, "height": 558, "alt": "Three small fruit flies with red eyes and brown bodies on the pale, pulpy inside of an old squeezed lemon half", "caption": "Fruit flies, identified to the genus Drosophila, on an old squeezed lemon half on a kitchen table in Moscow, Russia. The red eyes are the first thing to check.", "credit": "(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/103577509" },
+    { "type": "p", "text": "Fruit flies are about 1/8 inch long, usually with red eyes, tan in front and black behind, says [the University of Kentucky's fruit fly fact sheet](https://entomology.mgcafe.uky.edu/ef621). Ripe or rotting produce draws them, but they also breed in drains, garbage disposals, empty bottles and cans, trash containers, mops and a recycling bin that is never cleaned. A female can lay about 500 eggs, egg to adult can take about a week, and they are especially common in late summer and fall. [The fruit fly guide](/blog/fruit-flies) shows how to find the source." },
+    { "type": "h3", "text": "Drain flies" },
+    { "type": "p", "text": "A drain fly looks like a tiny fuzzy moth. [UC IPM's drain fly guide](https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/) describes adults as about 1/8 inch long and often dark, with wings covered in fine hairs and held like a roof over the back, and says they make short, hopping flights, breed in the slimy film inside drains and do not bite. To find the breeding drain, UC IPM sets a cup coated inside with petroleum jelly upside down over each opening for 24 hours. See [how to get rid of drain flies](/blog/how-to-get-rid-of-drain-flies)." },
+    { "type": "h3", "text": "Phorid flies" },
+    { "type": "p", "text": "A small fly that runs in short bursts before it takes off is likely a phorid fly. [Texas A&M AgriLife Extension's guide to indoor flies](https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/) describes it as about 1/8 inch long and humpbacked, breeding in drain pipes, garbage cans, broken garbage disposals, other decaying matter and soil contaminated by a leaking sewer line. [The guide to getting rid of gnats](/blog/how-to-get-rid-of-gnats) sorts it from the other small flies." },
+    { "type": "h3", "text": "Fungus gnats" },
+    { "type": "p", "text": "Tiny dark flies around a pot of herbs or a houseplant are usually fungus gnats, which breed in moist potting soil. [UC IPM's fungus gnat guide](https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/) describes them as delicate, mosquito-like flies 1/16 to 1/8 inch long with slender legs. They often stay near the plants but are drawn to light, so they may first be noticed at a window, and they do not bite. See [the fungus gnat plan](/learn/how-to-get-rid-of-fungus-gnats)." },
+    { "type": "h3", "text": "Indian meal moths" },
+    { "type": "p", "text": "A small moth fluttering around the kitchen is often an Indian meal moth, the most common moth infesting food in homes according to [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food). [UC IPM's pantry pest guide](https://ipm.ucanr.edu/home-and-landscape/pantry-pests/) puts adults at about 1/3 to 2/5 inch long, and UMN describes the front wings as pale gray or tan near the body and coppery reddish brown beyond. UMN says moths may keep flying for up to three weeks after the infested food is thrown out; if you still see them after that, an infested source has not been found yet. [The guide to small moths in the house](/blog/moths-in-house) tells them from clothes moths." },
+
+    { "type": "h2", "text": "What are the little bugs crawling on my kitchen counter?" },
+    { "type": "p", "text": "Small insects walking in a line across a counter or around the sink are usually ants. [UC IPM's ant guide](https://ipm.ucanr.edu/home-and-landscape/ants/) says ants trail from a nest to food and come indoors for food, water and shelter, sometimes suddenly when the weather changes, and tells them from termites by their thin waist and elbowed antennae." },
+    { "type": "figure", "src": "/guides/photos/odorous-house-ant-kitchen-counter.webp", "width": 1200, "height": 728, "alt": "One dark brown to black ant with long legs and long antennae, seen from above on a pale kitchen countertop", "caption": "An odorous house ant on a kitchen counter near the sink in Onondaga County, New York. UC IPM gives the species as about 1/8 inch and dark brown to shiny black, with a strong odor when crushed.", "credit": "(c) Randy A Nonenmacher, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/153045434" },
+    { "type": "p", "text": "UC IPM's table of household ants sorts the usual kitchen species:" },
+    { "type": "ul", "items": [
+      "**Odorous house ant.** 1/8 inch, dark brown to shiny black, with a strong odor when crushed; eats sweets and may nest in wall voids or by water pipes.",
+      "**Argentine ant.** 1/8 inch and dull brown; eats sweets and nests outdoors.",
+      "**Pavement ant.** 3/16 inch and dark brown to black; eats sweets, proteins and grease.",
+      "**Pharaoh ant.** 1/16 inch and yellow to orange; nests in wall or cabinet voids.",
+      "**Thief ant.** 1/32 inch and yellow to light brown; eats greasy food.",
+      "**Carpenter ant.** Workers 1/4 to 1/2 inch, black or red and black; nests in wood."
+    ] },
+    { "type": "p", "text": "[The key to tiny house ants](/blog/tiny-ants) separates the small ones, and [the kitchen ant guide](/blog/how-to-get-rid-of-ants-in-the-kitchen) follows the trail to its entry point, cleans it and places bait away from food surfaces. Ants 1/4 inch or longer may call for [finding the carpenter ant nest](/blog/carpenter-ants-canada) in the wood, and [a general guide to ants in the house](/blog/how-to-get-rid-of-ants-canada) covers the other rooms." },
+
+    { "type": "h2", "text": "What are the bugs inside packages of dry food?" },
+    { "type": "p", "text": "Bugs living in flour, cereal, rice, pasta, spices or pet food are pantry pests, and [the pantry pest guide](/blog/pantry-pests) identifies each one food by food. The short version:" },
+    { "type": "figure", "src": "/guides/photos/indian-meal-moth-larvae-peanuts.webp", "width": 1200, "height": 1600, "alt": "Clear plastic bag of red-skinned peanuts with small pale caterpillars and powdery brown debris scattered among the nuts", "caption": "Indian meal moth caterpillars and their droppings in a bag of peanuts in Allegheny County, Pennsylvania. UC IPM says the caterpillars grow to about 1/2 inch and leave silk threads wherever they crawl.", "credit": "(c) cigazze, some rights reserved (CC BY), via iNaturalist", "license": "CC-BY-4.0", "sourceUrl": "https://www.inaturalist.org/observations/179429749" },
+    { "type": "ul", "items": [
+      "**Small brown beetles.** UMN gives the sawtoothed grain beetle as about 1/10 inch and flat, with saw-like teeth along each side behind the head; flour beetles as 3/16 inch and oval; and drugstore and cigarette beetles as 1/8 inch, with the head bent down so they look humped.",
+      "**A beetle with a snout.** A weevil. UMN says grain weevils are under 3/16 inch, develop only inside whole kernels or seeds and are rarely found in flour; see [the weevil guide](/blog/weevils).",
+      "**Caterpillars and silk.** Indian meal moth caterpillars are white with a greenish or pinkish tint, UC IPM says, and UMN says food they infest has silk webbing on its surface.",
+      "**Pale specks in damp food.** [University of Missouri Extension](https://extension.missouri.edu/publications/g7370) describes booklice as about the size of a pinhead, pale gray or yellowish white and soft-bodied, and grain mites as small, pale grayish and wingless, and says both turn up in food kept in damp conditions. See [booklice](/blog/booklice) and [tiny white bugs](/blog/tiny-white-bugs)."
+    ] },
+    { "type": "p", "text": "Grain mites often show first as a fine, dust-like layer on a shelf, a bag or the counter, which [the University of Kentucky](https://entomology.mgcafe.uky.edu/ef629) says usually means a heavily infested item is nearby." },
+    { "type": "p", "text": "Throw out food the bugs are living in: UMN calls that, with a thorough cleaning of the cupboards, the best way to get rid of them, and says pantry pests do not bite or sting. It adds that they can chew into unopened paper, thin cardboard and plastic-wrapped packages or crawl in through folds and seams, so check every package nearby. UMN also says there is no evidence that bay leaves in a cupboard prevent or get rid of them." },
+    { "type": "media", "needed": "Public domain or CC0 photo of small pantry beetles (flour beetles or sawtoothed grain beetles) in an open bag or container of flour or cereal in a home kitchen, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What are the bugs under the sink or behind the stove at night?" },
+    { "type": "p", "text": "A bug that runs for cover when the kitchen light goes on at night may well be a German cockroach, which [UC IPM's cockroach guide](https://ipm.ucanr.edu/home-and-landscape/cockroaches/) calls the most common indoor cockroach in California and perhaps worldwide. Silverfish and springtails come out in damp spots too." },
+    { "type": "h3", "text": "German cockroaches" },
+    { "type": "figure", "src": "/guides/photos/german-cockroach-adult.webp", "width": 1200, "height": 1217, "alt": "Light brown adult German cockroach seen from above on a white surface, with long antennae, spiny legs and two dark stripes on the shield behind its head", "caption": "An adult German cockroach in Charlotte, North Carolina. The two dark stripes on the shield behind its head are the mark to look for.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/398888491" },
+    { "type": "p", "text": "UC IPM describes the German cockroach as about 1/2 inch long and light brown, with two dark stripes behind the head, favoring warm, humid spots near food and water in kitchens and bathrooms and coming out at night. [The University of Kentucky's cockroach guide](https://entomology.mgcafe.uky.edu/ef614) names the cracks under sinks and behind or beneath refrigerators, dishwashers and stoves, plus toaster ovens and other appliances that give off heat. [NC State Extension](https://content.ces.ncsu.edu/biology-behavior-of-the-german-cockroach) says German cockroaches occasionally appear by day when the population is too crowded." },
+    { "type": "figure", "src": "/guides/photos/german-cockroach-frass-cabinet.webp", "width": 1200, "height": 887, "alt": "Inside of a white kitchen cabinet with a ragged hole in the back wall, small dead roaches and many dark specks and smears on the walls and shelf", "caption": "The inside of a kitchen cabinet with a hole in its back wall, dead cockroaches and specks of droppings on the walls and shelf. The photographer identified the roaches as German cockroaches.", "credit": "Downtowngal, CC BY-SA 4.0, via Wikimedia Commons", "license": "CC-BY-SA-4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cockroach_access_hole.jpg" },
+    { "type": "p", "text": "Kentucky says cockroach droppings look like specks of pepper where roaches are or have been active, and UC IPM describes German cockroach egg cases as light beige and about 1/4 inch long. UC IPM also says cockroach infestations are important sources of allergens and have been identified as risk factors for asthma in children. See [what roach droppings look like](/blog/cockroach-droppings), [the signs of cockroaches](/blog/signs-of-cockroaches) and [the German cockroach guide](/blog/german-cockroaches)." },
+    { "type": "h3", "text": "Silverfish" },
+    { "type": "figure", "src": "/guides/photos/gray-silverfish.webp", "width": 1200, "height": 891, "alt": "Gray, scaly silverfish with long antennae, pale legs and long tail bristles, seen from above beside white-painted trim on a brown surface", "caption": "A gray silverfish, also called the long-tailed silverfish, beside white-painted trim in Austin, Texas. Look for the tapering body and the long tails.", "credit": "no rights reserved, via iNaturalist", "license": "CC0-1.0", "sourceUrl": "https://www.inaturalist.org/observations/109156875" },
+    { "type": "p", "text": "Silverfish are slender, wingless and silvery, about 1/2 inch long and up to 3/4 inch, with two long antennae and three long tails, says [UC IPM's silverfish guide](https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/). They hide by day in places such as cabinets, come out at night to eat dry foods like cereal, flour and pasta, and need a lot of moisture; one that falls into a sink cannot climb the slippery sides. See [the silverfish guide](/blog/how-to-get-rid-of-silverfish)." },
+    { "type": "h3", "text": "Springtails" },
+    { "type": "p", "text": "Pinhead-size bugs that jump around a wet sink are probably springtails. [Colorado State University Extension](https://extension.colostate.edu/resource/springtails/) says they gather where moisture collects, including drains, tubs and kitchen sinks, jump with a forked structure folded under the body, and will not bite or cause significant damage; indoor migrations usually last less than a week. Most that come indoors are under 1/12 inch (1 to 2 mm) long, says [Penn State Extension](https://extension.psu.edu/springtails). See [the springtail guide](/blog/springtails)." },
+    { "type": "media", "needed": "Public domain or CC0 photo of a German cockroach or a silverfish where people find it in a kitchen, on a counter, a floor or the shelf of the cabinet under the sink, beside a ruler marked in inches" },
+
+    { "type": "h2", "text": "What are the bugs at the kitchen window?" },
+    { "type": "p", "text": "Beetles and slow flies at a kitchen window in fall, or on a sunny winter day, have often come out of the walls rather than the food. [Penn State Extension's lady beetle page](https://extension.psu.edu/multicolored-asian-lady-beetle) says that in colder areas, Asian lady beetles look for winter shelter from about the beginning of October and move into living areas drawn by warmth and light. They are oval and convex, about 9/32 inch long, with a black W on the white plate behind the head, and they occasionally bite." },
+    { "type": "p", "text": "[Penn State's cluster fly page](https://extension.psu.edu/cluster-flies) describes cluster flies as slightly larger than house flies, gathering at windows on warm winter days and flying sluggishly; they do not breed inside. [Bugs in the house in winter](/blog/bugs-in-house-in-winter) covers these seasonal invaders, and [Asian lady beetles](/blog/asian-lady-beetles) have their own guide." },
+    { "type": "p", "text": "Small brown beetles at the window can still be pantry pests: UMN says drugstore and cigarette beetles fly and can be found around windows, so check the cupboards too." },
+    { "type": "confused", "title": "Kitchen bugs that are easy to mix up", "items": [
+      { "href": "/blog/fruit-flies", "name": "Fruit fly", "photo": "fruit-fly", "note": "About 1/8 inch, usually with red eyes; breeds in ripe fruit, drains and trash", "alt": "Tan fruit fly with bright red eyes and a dark-tipped abdomen, side view beside a scale bar" },
+      { "href": "/blog/how-to-get-rid-of-drain-flies", "name": "Drain fly", "photo": "drain-flies-sink", "note": "Fuzzy and moth-like, wings held like a roof; makes short hops near drains", "alt": "Three small dark drain flies with fuzzy, moth-like wings on a white sink basin near the drain" },
+      { "href": "/learn/how-to-get-rid-of-fungus-gnats", "name": "Fungus gnat", "photo": "fungus-gnat-kitchen-counter", "note": "Dark and delicate with long legs; often near potted plants and windows", "alt": "Dark fungus gnat with a shiny black body, long thin legs and clear wings, seen from above on a blue surface" },
+      { "href": "/blog/how-to-get-rid-of-gnats", "name": "Phorid fly", "photo": "phorid-fly", "note": "Humped back; runs in short bursts before flying; drains and garbage", "alt": "Small tan phorid fly with a humped back and clear wings, side view beside a scale bar" },
+      { "href": "/blog/weevils", "name": "Grain weevil", "photo": "rice-weevil-on-rice-grain", "note": "A snout in front of the head; grows inside whole kernels, rarely in flour", "alt": "Reddish-brown rice weevil with a long snout resting on a single white grain of rice" },
+      { "href": "/blog/booklice", "name": "Booklouse", "photo": "booklouse-cereal-package", "note": "Pinhead-size and soft-bodied; found in food kept damp", "alt": "Tiny tan, soft-bodied booklouse on a pale gray surface" }
+    ] },
+
+    { "type": "h2", "text": "Why am I getting little bugs in my kitchen?" },
+    { "type": "p", "text": "Because a kitchen offers food, water and warmth, and many bugs are carried in:" },
+    { "type": "ul", "items": [
+      "**In the groceries.** UC IPM says pantry pests usually arrive in an infested package, Kentucky says German cockroaches are often brought in with grocery bags or beverage cartons, and its fruit fly sheet traces infestations to produce brought in from the garden or the store.",
+      "**In food left out.** Crumbs, spills, dirty dishes, pet food and ripening fruit feed ants, cockroaches and fruit flies; Kentucky advises against leaving dishes or pet food out overnight.",
+      "**In water.** Drain flies and phorid flies breed in drains, Texas A&M adds refrigerator and icemaker condensate trays to the places to check, and springtails and silverfish follow damp.",
+      "**Through gaps, with the weather.** UC IPM says ants may appear suddenly when the weather changes, and Penn State says sealing cracks around windows, doors, siding and pipes keeps lady beetles and cluster flies out."
+    ] },
+
+    { "type": "h2", "text": "How do you get rid of bugs in the kitchen?" },
+    { "type": "p", "text": "Take away what each bug lives on. The extension guides put cleaning, sealed storage and dry drains ahead of any spray, especially where food is prepared." },
+    { "type": "ul", "items": [
+      "**Pantry pests.** Throw out infested food, vacuum and wash the shelves, and store dry food in containers with tight lids, not plastic bags. UC IPM does not recommend insecticides for pantry pests and warns that spraying on or near food may cause more harm than the insects. For doubtful food, UMN gives 0°F in the freezer for at least four days, or 130°F in the oven for at least 30 minutes, to kill any eggs or insects.",
+      "**Ants.** Wipe the trail with soapy water, seal food away and caulk the entry; UC IPM says indoor sprays are not usually necessary. If they keep coming, [the guide to kitchen ants](/blog/how-to-get-rid-of-ants-in-the-kitchen) explains where bait goes.",
+      "**Fruit flies.** Eat, throw out or refrigerate ripe produce and clean the drains, disposal, trash and recycling; Kentucky says that unless the breeding sites are removed, the problem will continue no matter how often insecticides are applied.",
+      "**Drain and phorid flies.** Scrub the slime out of the drain with a stiff brush; UC IPM says boiling water and bleach do not remove it.",
+      "**Fungus gnats.** Let the surface of the potting soil dry between waterings and trap adults on yellow sticky traps, as UC IPM advises.",
+      "**German cockroaches.** Put food, dishes and trash away before bed and use sticky traps where floors meet walls to find them; UC IPM says baits control them better than sprays and advises against foggers, and Kentucky advises against spraying countertops. [The German cockroach plan](/blog/german-cockroaches) goes step by step.",
+      "**Silverfish and springtails.** Fix leaks, ventilate or run a dehumidifier, and keep dry food in tight containers, as UC IPM and Colorado State advise.",
+      "**Lady beetles and cluster flies.** Vacuum or swat them and seal the gaps before next fall; Penn State calls keeping them out the best control."
+    ] },
+    { "type": "callout", "tone": "tip", "title": "Save a specimen", "text": "Seal the bug in a small jar or press it onto clear tape, photograph it beside a ruler marked in inches, and note where you found it and whether it flew, crawled or jumped. Your state's cooperative extension office or a pest professional can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "How do I keep bugs out of my kitchen?",
+      "answer": "Take away their food, water and ways in. University of Minnesota Extension advises buying dry food in amounts you will use within two to four months and storing it in tightly closed glass, metal or heavy plastic containers. Wipe up crumbs and spills, and do not leave dirty dishes or pet food out overnight. Eat, throw out or refrigerate produce once it has ripened, empty the trash and recycling often, fix leaks and keep drains clean. Caulk the cracks ants use, and seal gaps around windows, doors and pipes before fall."
+    },
+    {
+      "question": "Why do I only see bugs in my kitchen at night?",
+      "answer": "Because the usual night visitors hide by day. UC IPM says almost all cockroaches are nocturnal, hiding in warm, dark, moist places during the day and coming out at night to feed, and that silverfish also hide by day and come out at night to look for food and water. NC State Extension says German cockroaches occasionally appear by day when the population is too crowded. Check under the sink and behind the stove, refrigerator and dishwasher with a flashlight, and set sticky traps where floors meet walls to see where they come from."
+    },
+    {
+      "question": "What do kitchen mites look like?",
+      "answer": "Grain mites, which infest flour and other stored grain products, are small, pale grayish, wingless and soft-bodied, according to University of Missouri Extension, and their numbers build up fast in damp conditions. The easier sign to spot is a fine, dust-like layer of mites on a shelf, a product bag or the counter: the University of Kentucky says this is often the first sign of trouble and usually means a heavily infested item is nearby. Throw out infested food, wipe and vacuum the shelves, and keep the area dry and well ventilated."
+    },
+    {
+      "question": "What are the bugs in my kitchen sink?",
+      "answer": "Small fuzzy flies resting near the drain are usually drain flies, which breed in the slimy film inside drains, and small humpbacked flies that run before they fly are phorid flies. Fruit flies breed in drains and garbage disposals too. Pinhead-size bugs that jump around a wet sink are probably springtails, and a silvery insect with three long tails stuck in the basin is a silverfish, which UC IPM says cannot climb the slippery sides. Scrub the drain with a stiff brush, since UC IPM says boiling water and bleach do not remove the film."
+    },
+    {
+      "question": "What are the tiny bugs in my kitchen cabinets?",
+      "answer": "Inside the food, they are usually pantry pests: small beetles, weevils or Indian meal moth caterpillars, which arrive in infested packages and can spread to other foods. A dust-like layer on the shelves near food can be grain mites. Specks like ground pepper and small egg cases in the corners point to cockroaches, most often German cockroaches, which hide in cracks under sinks and behind appliances and come out at night. Silverfish hide in cabinets too and eat flour, cereal and pasta. Empty the cabinet, check every package and vacuum the corners."
+    },
+    {
+      "question": "Why are there bugs in my kitchen when it is clean?",
+      "answer": "Because many kitchen bugs are carried in rather than drawn by dirt. University of Minnesota Extension says stored food is most likely to become infested in the grocery store or in the home, and that foods of any age can be infested. The University of Kentucky says German cockroaches often arrive in grocery bags and beverage cartons and fruit flies on ripening produce. UC IPM says ants may appear suddenly when the weather changes, and springtails and drain flies follow moisture. Look for the source: an old package, a drain, a leak or a gap."
+    },
+    {
+      "question": "Should I use bug spray in the kitchen?",
+      "answer": "Usually not. UC IPM does not recommend insecticides for pantry pests and warns that spraying on or near food may cause more harm than the insects, and University of Minnesota Extension says household insecticides have no effect on insects inside food packages. For ants, UC IPM says indoor sprays are not usually necessary; for cockroaches, it says baits work better than sprays and advises against foggers. Texas A&M says insecticides alone rarely solve an indoor fly problem and that the breeding site has to be found and removed first. If you use any pesticide, follow its label exactly."
+    },
+    {
+      "question": "Can kitchen bugs make you sick?",
+      "answer": "Some raise health concerns and others are mainly a nuisance. University of Minnesota Extension says pantry pests do not bite or sting people or pets but contaminate more food than they eat, so throw infested food away. The University of Kentucky says cockroaches can spread germs that cause food poisoning, and UC IPM says cockroach infestations are important sources of allergens and have been identified as risk factors for asthma in children. UC IPM adds that drain flies could carry germs from drains to food preparation areas, though neither drain flies nor adult fungus gnats bite. Talk with a healthcare provider if you have allergy or asthma symptoms you think are linked to insects in your home."
+    }
+  ],
+  "sources": [
+    { "title": "Ants (Pest Notes, Publication 7411)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/ants/" },
+    { "title": "Pest Notes: Cockroaches (UC ANR Publication 7467)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cockroaches/" },
+    { "title": "Pest Notes: Pantry Pests (Publication 7452)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/pantry-pests/" },
+    { "title": "Pest Notes: Moth or Drain Flies (UC ANR Publication 74167)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/moth-or-drain-flies/" },
+    { "title": "Pest Notes: Fungus Gnats (Publication 7448)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" },
+    { "title": "Pest Notes: Silverfish and Firebrats (UC ANR Publication 7475)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/silverfish-and-firebrats/" },
+    { "title": "Pantry pests: Insects found in stored food (reviewed 2024)", "publisher": "University of Minnesota Extension", "url": "https://extension.umn.edu/garden-and-home/home-maintenance/household-insects/pantry-pests-insects-found-in-stored-food" },
+    { "title": "Fruit Flies (ENTFACT-621)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef621" },
+    { "title": "ENTFACT-614: Cockroach Elimination in Homes and Apartments", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef614" },
+    { "title": "Grain Mites (ENTFACT-629)", "publisher": "University of Kentucky Entomology", "url": "https://entomology.mgcafe.uky.edu/ef629" },
+    { "title": "Insect Pests of Stored Products (G7370)", "publisher": "University of Missouri Extension (R. M. Houseman)", "url": "https://extension.missouri.edu/publications/g7370" },
+    { "title": "Indoor Flies and Their Control (ENTO-050)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/library/insects/indoor-flies-and-their-control/" },
+    { "title": "Springtails (Fact Sheet 5.602)", "publisher": "Colorado State University Extension", "url": "https://extension.colostate.edu/resource/springtails/" },
+    { "title": "Springtails", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/springtails" },
+    { "title": "Multicolored Asian Lady Beetle", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/multicolored-asian-lady-beetle" },
+    { "title": "Cluster Flies", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/cluster-flies" },
+    { "title": "Biology and Behavior of the German Cockroach", "publisher": "NC State Extension", "url": "https://content.ces.ncsu.edu/biology-behavior-of-the-german-cockroach" }
+  ]
+}

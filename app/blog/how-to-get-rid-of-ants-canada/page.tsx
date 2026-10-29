@@ -13,12 +13,16 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'how-to-get-rid-of-ants-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-10-08'
+const UPDATED = '2026-10-28'
 const TITLE = 'How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray in the Aisle'
-const META_TITLE = 'How to Get Rid of Ants: Bait First (US & Canada)'
+// TITLE NOTE (Oct 28, 2026): was 'How to Get Rid of Ants: Bait First (US & Canada)'; top queries (Jul 28-Oct 25): ant pest control 283 (pos 10.7, 0 clicks), ant control 125 (23.4), ant removal 25, ant poison 18. 'ant bait' and 'ant killer' stay with /blog/best-ant-killer, 'ant traps' with /blog/best-ant-traps-canada.
+const META_TITLE = 'Ant Pest Control: Get Rid of Ants (Canada & US)'
 
 const FAQS = [
   {
@@ -85,15 +89,28 @@ const FAQS = [
     question: 'Do Argentine ants, ghost ants and crazy ants need a different treatment from other house ants?',
     answer: 'Two of the three do not. Argentine ants and ghost ants live in colonies with many queens, and university extension sources describe controlling them with baits, with sweet liquid baits favored for Argentine ants, because spraying kills only the foragers. Tawny crazy ants are the exception. Texas A&M reports that their workers are not attracted to most bait products and that effective treatment products are not readily available to consumers, so it advises calling a professional pest control provider if you suspect them.',
   },
+  {
+    question: 'What ant bait works for pharaoh ants?',
+    answer: 'Pharaoh ants live inside heated buildings, and Health Canada lists them among the ants that invade Canadian homes. Its advice for house ants applies here too: bait rather than spray, because spraying indoors may encourage a colony to split into multiple new colonies. No home-use product in Health Canada’s pesticide registry (October 2026) names pharaoh ants on its label, so in an apartment or condo report them to the landlord or building manager in writing and expect building-wide treatment by a licensed professional, not a pack of stations in one unit.',
+  },
+  {
+    question: 'What is the best ant bait for pavement ants?',
+    answer: 'Pavement ants nest under slabs, driveways and walkways and take sweet liquid bait readily, so the plan is bait on the indoor trail plus bait at the crack outside. Home-use borax baits in Health Canada’s registry whose labels name pavement ants include Wilson AntOut Ant Bait (PCP 28793), Knock Down Eco Ant Killer Bait (PCP 31203) and PIC Ant Control Systems II (PCP 23422), each for indoor and outdoor use. TERRO’s Canadian liquid baits are labelled for common sweet-eating ants. Use plenty of stations and keep them out for at least two weeks.',
+  },
+  {
+    question: 'Can I use ant killer on my lawn or garden in Ontario?',
+    answer: 'Usually not on the ants in the grass. Ontario’s guidance says the cosmetic pesticide ban does not apply inside buildings, and that a product labelled only for use around the outside of a home to keep ants from getting in counts as structural pest control, which is allowed. It also says that using a pesticide to control ants in grass would be a cosmetic use and is prohibited, unless the product contains only active ingredients on the province’s Allowable List, such as borax. Other provinces set their own rules, so check yours and follow the label.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'How to get rid of ants: why bait beats spray, gel vs liquid vs granular bait, and the rule most DIY jobs break. Covers US and Canadian products.',
+  description: 'Ant pest control that works: slow bait on the trail and no spray. Health Canada’s baiting rules, which product fits which ant, and Ontario’s outdoor rules.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('argentine-ants-bait-trap'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-ants-canada')
@@ -101,7 +118,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-ants-canada')
 export default function HowToGetRidOfAntsCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian ant control guide: pavement, odorous house, pharaoh and carpenter ant identification, why repellent sprays cause colony budding, gel vs liquid vs granular bait, the leave-the-trail-alone rule, PMRA and Ontario pesticide context, and when ants are a professional job.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian ant control guide: pavement, odorous house, pharaoh and carpenter ant identification, why repellent sprays cause colony budding, gel vs liquid vs granular bait, the leave-the-trail-alone rule, PMRA and Ontario pesticide context, and when ants are a professional job.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('argentine-ants-bait-trap') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Ants in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -114,7 +131,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
             <span className="text-white">Get Rid of Ants</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The ants on your counter are a delivery service, not the problem. Identify your species, put slow-acting bait on the live trail, and &mdash; the part nobody expects &mdash; stop cleaning the trail until the colony is dead.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> ant pest control that works at home is slow-acting bait on the live trail, with no spray anywhere near it. The pick below, enclosed liquid borax bait stations, is for the small dark ants that trail across Canadian kitchens; Health Canada says to use plenty of stations, keep baits out for at least two weeks and not spray while baiting. Big black ants with coarse sawdust are carpenter ants, a different job.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -368,6 +385,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
           <p>By feeding them. That is the whole counterintuitive core of ant control, and a common failure mode is a homeowner doing the opposite.</p>
           <p>An ant colony is not the line of insects on your counter. It is a queen (sometimes several), a mass of brood, and a labour force sitting somewhere you cannot see &mdash; under the patio slab, in the void behind the dishwasher, beneath the front step, inside a wall cavity. The workers you see are foragers, and foragers are a small minority of the colony at any given moment. Kill every ant on your counter tonight and the queen replaces them within days. This is why spraying feels productive and accomplishes nothing: it operates entirely on the visible minority while the reproductive engine is untouched.</p>
           <p>Bait inverts that. Ants feed each other by trophallaxis &mdash; they carry food in a social stomach and regurgitate it to nestmates, larvae, and the queen. A forager that drinks slow-acting bait does not die on your counter; it walks home, gets tapped for food by a dozen nestmates, and the active ingredient distributes itself through the colony over days. That is the only mechanism available to a Canadian consumer that reaches the individuals who matter, and it is the reason professionals bait rather than spray for nuisance ants too.</p>
+          <Photo id="argentine-ants-bait-trap" alt="Small ants crowding the openings of a commercial ant bait station" caption="Ants the photographer identifies as Argentine ants, Linepithema humile, taking bait from a commercial bait trap. A crowd of foragers like this means the bait is being carried back to the nest, so leave them alone." />
           <p>The plan in one paragraph: identify your species (thirty seconds, and it changes what you do), find and follow the trail to the entry point, place slow-acting bait <em>on</em> the trail, remove competing food but <strong>leave the trail itself alone</strong>, tolerate a recruitment surge for the first few days, wait several weeks without touching anything, and only then clean up and seal the entry. The rest of this guide is that plan in detail &mdash; plus the two situations where it changes: carpenter ants, and apartments.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
@@ -385,6 +403,21 @@ export default function HowToGetRidOfAntsCanadaPage() {
           <p><strong>Pharaoh ant &mdash; the apartment problem.</strong> Tiny, roughly 2 mm, pale yellow to amber, almost see-through. A tropical species that survives in Canada only inside heated buildings, which makes it a condo, apartment, hospital and long-term-care pest rather than a suburban-house one. Pharaoh ants are the textbook budding species &mdash; the pest-control literature has warned for decades against spraying them, because a treated colony fragments and colonizes new voids throughout the building. If you have tiny pale ants in a multi-unit building, do not buy a spray; bait, and report it to the building.</p>
           <p><strong>Carpenter ant &mdash; not a kitchen problem at all.</strong> Big (6&ndash;13 mm), usually black, with an evenly rounded upper back and a single waist node. The diagnostic is not the ant, it is the debris: coarse, pencil-shaving-like frass containing insect body parts, usually beneath a window sill, door frame, deck ledger, or anywhere a leak has been quietly wetting wood. Carpenter ants do not eat wood &mdash; they excavate it to nest &mdash; but the galleries follow the moisture damage, which means an active carpenter ant nest is a water-intrusion diagnosis with an insect attached. Bait can be part of that job, but finding and fixing the moisture source is the job. That is a different playbook, and it gets its own page: <Link href="/blog/carpenter-ants-canada">how to get rid of carpenter ants in Canada</Link>.</p>
           <p>One more worth knowing if you garden in the GTA: <strong>European fire ants</strong> are established in pockets of the Toronto area. Reddish, about 4&ndash;5 mm, and they sting &mdash; repeatedly and painfully &mdash; when a nest in damp soil or mulch is disturbed. They are a yard problem, not a countertop problem, they are genuinely difficult to eliminate, and they are one of the few ant situations where hiring a professional up front is the right call.</p>
+          <Photo id="european-fire-ant-worker" alt="Reddish-brown European fire ant worker standing on a twig" caption="A European fire ant worker, Myrmica rubra (photographed in the Czech Republic). These reddish ants of about 4 to 5 mm sting when a nest in damp soil or mulch is disturbed, and in the GTA they are a yard problem, not a kitchen one." />
+
+          <QuickIdTable
+            title="Ant control options in Canada: what the labels and the rules say"
+            head={['Option', 'How it works', 'Best for', 'Limits, from the label or the rules']}
+            rows={[
+              ['Liquid bait stations', 'Foragers drink a slow-acting sweet bait and carry it back to the nest', 'Small dark ants trailing across a kitchen', 'TERRO’s Canadian liquid baits (PCP 30897, borax) are labelled for common sweet-eating ants; Health Canada says to keep baits out for at least two weeks'],
+              ['A second, solid bait', 'A different bait beside the first, for a colony that walks past sugar', 'Ants that ignore the liquid station', 'Health Canada: two different baits at the same time give better results. Check the PCP number: the only Combat ant system registered here was cancelled in 2006'],
+              ['Gel bait', 'Dabs placed in the cracks and hinge gaps ants travel through', 'Seams a station cannot reach', 'Choose one with a Canadian PCP number, such as Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560)'],
+              ['Diatomaceous earth dust', 'A thin film in dry voids dries out the ants that cross it', 'Wall voids and dry gaps away from the bait', 'Sold as an insecticide with a PCP number, such as TERRO Ant Killing Powder (PCP 31376); it stops working when damp'],
+              ['Outdoor stakes and granules', 'Bait or granules at the crack or the nest outdoors', 'Pavement ants nesting under a slab or walkway', 'Ontario: a product labelled only for use around the outside of a home counts as structural pest control; treating ants in grass is a cosmetic use and is banned unless all its active ingredients are on the Allowable List'],
+              ['Contact and perimeter sprays', 'Kill the ants they wet', 'A single spot, never during baiting', 'Health Canada: do not spray while using a bait system, and spraying indoors may make the colony split into new colonies'],
+            ]}
+            caption={<>Sources: Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a> (page details 2017-06-19); Health Canada&rsquo;s pesticide product registry (export with registrations to October 1, 2026); Ontario&rsquo;s <a href="https://www.ontario.ca/page/guide-pesticide-classes" target="_blank" rel="noopener noreferrer" className="underline">guide to pesticide classes</a> (updated February 1, 2024). Read October 28, 2026.</>}
+          />
 
           <h2>Why Spraying Makes Ants Worse</h2>
           <p>The ant aisle is dominated by aerosols and perimeter sprays because they sell a feeling. Here is what they actually do, in the order the damage happens.</p>
@@ -404,7 +437,7 @@ export default function HowToGetRidOfAntsCanadaPage() {
           <p><strong>Liquid bait is the right default for Canadian house ants.</strong> Pavement ants and odorous house ants are strong carbohydrate feeders, liquid is easy to carry in a social stomach and easy to pass around, and enclosed liquid stations keep the bait from drying out and keep it away from kids and pets. The borax-family actives used in domestic Canadian liquid baits are deliberately slow &mdash; the whole design goal is that the forager gets home first. These products are commonly stocked by Canadian hardware and big-box retailers, and the Canadian pack should carry a PCP registration number &mdash; check for it on the pack, because that is the compliance box you want ticked.</p>
           <p><strong>Solid and protein baits cover the other half of the menu.</strong> Colonies shift their nutritional demand through the season &mdash; heavy on carbohydrate when workers are fuelling themselves, heavier on protein and fat when there is brood to raise. A colony in a protein phase will march straight past a sugar bait, and homeowners read that as &ldquo;the bait doesn&rsquo;t work.&rdquo; The professional habit is to offer both and let the ants choose: put a liquid station and a solid/greasy station a hand&rsquo;s width apart on the trail and watch which one gets traffic within a day. That single trick resolves many &ldquo;they ignored the bait&rdquo; complaints.</p>
           <p><strong>Gel is the precision tool.</strong> A syringe puts a pinhead dab exactly where ants travel and where a plastic station cannot go: the seam behind a cabinet hinge, the gap where the water line enters the wall, the crack at the base of a door frame. It is what a technician reaches for. The Canadian caveat is the same one that dogs the whole imported-pesticide category &mdash; a great many gels sold to Canadian buyers through online marketplaces are US-market product, formulated and labelled under US EPA registration. Under the Pest Control Products Act, a pesticide sold or used in Canada generally must carry a Canadian PCP registration number on its label. Zoom the listing photos, look for that number, and treat its absence as your answer. We walk through this exact situation in detail for the roach equivalent in our <Link href="/blog/advion-cockroach-gel-bait">Advion gel Canada guide</Link>; the logic transfers directly to ant gels.</p>
-          <p><strong>Granular bait is an outdoor format with a provincial complication.</strong> Broadcast granules are designed to be carried back to outdoor nests, which makes them a legitimate tool against colonies nesting in a lawn or bed rather than under a slab. But in Ontario, cosmetic-pesticide rules restrict which products may be used on lawns and gardens, and that is exactly the use case a granular ant bait describes. The practical rule that keeps you safe: buy outdoor pesticide products off a physical store shelf in your own province rather than from an online marketplace, because retailers stock to provincial rules. Then read the label, which is the legal instruction set. Indoor baiting is not affected by the cosmetic ban &mdash; that is about lawns and gardens &mdash; so nothing above changes for a kitchen trail.</p>
+          <p><strong>Granular bait is an outdoor format with a provincial complication.</strong> Broadcast granules are designed to be carried back to outdoor nests, which makes them a legitimate tool against colonies nesting in a lawn or bed rather than under a slab. But in Ontario, cosmetic-pesticide rules restrict which products may be used on lawns and gardens, and that is exactly the use case a granular ant bait describes. The practical rule that keeps you within the rules: buy outdoor pesticide products off a physical store shelf in your own province rather than from an online marketplace, because retailers stock to provincial rules. Then read the label, which is the legal instruction set. Indoor baiting is not affected by the cosmetic ban &mdash; that is about lawns and gardens &mdash; so nothing above changes for a kitchen trail.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="terro liquid ant baits">Check liquid ant bait stations on Amazon.ca →</BuyLink>
           </div>
@@ -435,6 +468,18 @@ export default function HowToGetRidOfAntsCanadaPage() {
           </ul>
           <p>If you have worked that list and still want a second opinion on the product itself, we ranked the shelf head-to-head &mdash; enclosed liquid stations, solid protein stations, gels and perimeter granules &mdash; in <Link href="/blog/best-ant-killer">what actually kills an ant colony in Canada</Link>. And if the question is narrower than that, the station formats alone (bait stations versus glue boards, indoor versus outdoor, and what each label says about placement where pets can reach) are compared in our guide to <Link href="/blog/best-ant-traps-canada">choosing ant traps for a Canadian home</Link>.</p>
 
+          <h2>Which Ant Control for Your Situation</h2>
+          <ul>
+            <li><strong>A trail of small dark ants in the kitchen:</strong> liquid bait stations right on the trail, plenty of them, left for at least two weeks with no spray (Health Canada). That is the pick at the top of this page.</li>
+            <li><strong>They walk past the sweet bait:</strong> add a different, solid bait beside it; Health Canada says two baits at once give better results.</li>
+            <li><strong>Sand piles at a patio or driveway crack:</strong> pavement ants nesting under the slab. Add an outdoor bait at the crack; the pavement ant question below names the labels that list them.</li>
+            <li><strong>Ants in the lawn itself, in Ontario:</strong> leave them, or use only a product whose active ingredients are on the province&rsquo;s Allowable List, such as borax; Ontario treats ant control in grass as cosmetic.</li>
+            <li><strong>Tiny pale ants in an apartment:</strong> pharaoh ants. Bait rather than spray, and report them to the landlord in writing.</li>
+            <li><strong>Big black ants and coarse sawdust:</strong> carpenter ants; start with <Link href="/blog/carpenter-ants-canada">the carpenter ant guide</Link>.</li>
+            <li><strong>Reddish ants that sting in the garden:</strong> likely European fire ants, usually a professional, multi-season job.</li>
+            <li><strong>Ants indoors in January or February:</strong> the nest is probably inside the house; find it before you rely on bait.</li>
+          </ul>
+
           <h2>Moisture and Exclusion: Stopping the Next Colony</h2>
           <p>Bait ends this colony. Moisture and gaps decide whether you do this again next June.</p>
           <p><strong>Water first.</strong> Ants come indoors for moisture at least as often as for food, and two weather patterns push them in for opposite reasons: a hot dry stretch (foragers hunting water) and a heavy rain event that floods shallow nests under slabs and mulch. Fix the dripping trap under the vanity, the sweating cold-water line, the toilet that weeps at the base, the sink cabinet with a slow leak that nobody has looked in for two years. Then look outside: downspouts discharging at the foundation, a hose bib that drips onto the slab, an air-conditioner condensate line puddling beside the wall, a window well that holds water. Every one of those is a reason for a colony to set up within a metre of your foundation.</p>
@@ -454,7 +499,20 @@ export default function HowToGetRidOfAntsCanadaPage() {
 
           <h2>Carpenter Ants Are a Different Problem</h2>
           <p>It is worth repeating in its own section, because the cost of confusing the two is measured in lumber. If your ants are large (6&ndash;13 mm), mostly black, have a smoothly rounded upper back, and you are finding coarse sawdust-like frass with insect fragments in it &mdash; on a windowsill, under a deck ledger, at the base of a door frame, in the basement below a bathroom &mdash; you are not looking at a picnic pest. You are looking at an insect that nests in wood softened by water, which means somewhere in that assembly there is or was a leak.</p>
+          <Photo id="carpenter-ant-on-fingers" alt="Large shiny black carpenter ant walking across a person's fingers" caption="An eastern black carpenter ant, Camponotus pennsylvanicus, on a person’s hand (Blount County, Alabama). A large black ant like this one, plus coarse sawdust-like frass, points to damp wood, not a kitchen trail." />
           <p>Baiting can be part of a carpenter ant program, but on its own it treats the symptom. The controlling questions are where the moisture is coming from, how much wood is affected, and whether the nest you found is the parent colony or a satellite of one living in a tree stump twenty metres away. That is a genuinely different investigation, and it is the one job in this article where calling a professional early is usually cheaper than the DIY path. Full playbook: <Link href="/blog/carpenter-ants-canada">how to get rid of carpenter ants in Canada</Link>.</p>
+
+          <h2>Ant Control Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A Canadian registration number on the label.</strong> Health Canada: &ldquo;Always look for a Pest Control Products (PCP) number on the label.&rdquo; No number, no purchase.</li>
+            <li><strong>Your ant on the label&rsquo;s pest list.</strong> TERRO&rsquo;s Canadian liquid baits say common sweet-eating ants; carpenter ants and pharaoh ants need a label that names them, or a professional.</li>
+            <li><strong>DOMESTIC on the label,</strong> the class made for use in and around your own home.</li>
+            <li><strong>Enclosed stations,</strong> set in the ants&rsquo; path but out of the reach of children and pets, as Health Canada puts it.</li>
+            <li><strong>Enough of them.</strong> Health Canada&rsquo;s words are &ldquo;use plenty of bait stations&rdquo;: buy a multi-pack, not a single station.</li>
+            <li><strong>Bait for at least two weeks,</strong> with repeat applications if needed (Health Canada).</li>
+            <li><strong>Outdoor products in Ontario:</strong> labelled for use around the outside of the home, or with only Allowable List active ingredients if you mean the lawn.</li>
+            <li><strong>No spray, ant chalk, ultrasonic plug-in or fogger</strong> while the bait works.</li>
+          </ol>
 
           <h2>What Not to Buy</h2>
           <p>Being straight about this is more useful than another product recommendation.</p>
