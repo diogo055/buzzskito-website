@@ -5396,7 +5396,10 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/pantry-pests",
+    "/blog/what-do-ticks-look-like"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "spider-beetles",
@@ -5404,13 +5407,20 @@
    "audience": "na",
    "keyword": "spider beetle",
    "alsoTargets": [
+    "spider beetles",
     "spider beetle vs tick",
+    "tick vs spider beetle",
+    "beetle that looks like a tick",
+    "small beetles that look like ticks",
+    "smooth spider beetle",
+    "spider beetle in bed",
     "spider beetles in house",
-    "spider beetle vs bed bug"
+    "spider beetle vs bed bug",
+    "spider beetle bites"
    ],
-   "h1Hint": "Spider Beetles: The Tick Look-Alikes in Pantries and Beds",
-   "metaTitleHint": "Spider Beetles: The Tick Look-Alike Indoors",
-   "scope": "Smooth and hairy spider beetles: the six-legs test against ticks, why they turn up in pantries, beds and old houses, what they eat, and how to find and remove the source.",
+   "h1Hint": "Spider Beetles: The Tiny Beetles That Look Like Ticks (Photos)",
+   "metaTitleHint": "Spider Beetle: The Beetle That Looks Like a Tick",
+   "scope": "Photo-ID page for spider beetles, the tiny, round, long-legged beetles people mistake for ticks, in the words people search (\"spider beetle\", \"beetle that looks like a tick\"). Quick answer: the legs-and-antennae test against a tick (six legs and antennae vs eight legs and none, at a source's strength) and where spider beetles come from (old stored food, pantries, attics, wall voids, damp basements and crawl spaces, bird and rodent nests, at Penn State's, CSU's or WSU's strength). The kinds homeowners meet, only as US sources describe them: the smooth spider beetle (Gibbium, the shiny tick look-alike), the American spider beetle (Mezium), the hairy and white-marked spider beetles (Ptinus); taxonomy only as the cited source gives it. Sizes only from a university (CSU: about 1/12 to 1/6 inch). Quick-ID table: spider beetle, tick (deer tick nymph, dog tick), bed bug, carpet beetle, weevil: legs, antennae, shape, where found, bites or not. Spider beetles do not bite people (source it). What to do: find and discard the infested food or nest material, clean, store food sealed (link /blog/pantry-pests); no pesticide products. Cards: tick (/blog/what-do-ticks-look-like), bed bug (/blog/what-do-bed-bugs-look-like), weevil (/blog/weevils), carpet beetle (/blog/how-to-get-rid-of-carpet-beetles), drugstore beetle (/blog/pantry-pests). Links: /blog/pantry-pests and /blog/what-do-ticks-look-like (mustLink), /blog/bugs-that-look-like-bed-bugs, /blog/beetles-in-house, /blog/tiny-brown-bugs, /tools/tick-identifier; bugs-in-basement (day 5) in plain words until live. Not linked at release: the frozen /blog/bugs-that-look-like-ticks and the other frozen tick and bed bug pages, amazon.ca pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
     "id"
@@ -5424,18 +5434,43 @@
    "collisions": [
     {
      "path": "/blog/bugs-that-look-like-ticks",
-     "overlap": "section \"3. Spider Beetles\"; ranks 6.7 for \"spider beetle vs tick\" (789 impressions in 90 days, 581 US)",
-     "resolution": "keeps the roundup head term; the section is trimmed to a summary + link"
+     "overlap": "TSX (Apr 26), frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C); head term \"bugs that look like ticks\"; h2 \"3. Spider Beetles\"; it holds every spider beetle and tick-like-beetle search we show, about 1,900 impressions in 90 days at about 7 with 7 clicks",
+     "resolution": "keeps its head term and the roundup; this page takes the spider beetle searches, \"spider beetle vs tick\" and \"beetle that looks like a tick\" included (shown, not won there); not linked at release; after Oct 30 its spider beetle h2 gets one line linking here (an amend, the owner's call while its Oct 15 upgrade is read)"
     },
     {
      "path": "/blog/bugs-that-look-like-bed-bugs",
-     "overlap": "spider beetle subsection",
-     "resolution": "link"
+     "overlap": "live Oct 7; h3 \"Spider beetles\" (CSU: 1/12 to 1/6 inch, globular, head hidden, some fly) with a media placeholder; \"spider beetle\" 5 at 2.4 lands there",
+     "resolution": "keeps \"bugs that look like bed bugs\"; \"spider beetle vs bed bug\" is this page's; link it; the link-in step may add a line in that h3 later"
+    },
+    {
+     "path": "/blog/pantry-pests",
+     "overlap": "live Oct 16; \"Is it a spider beetle?\"; links here (\"a full guide to spider beetles covers where they hide\")",
+     "resolution": "keeps the pantry and stored-food searches; the acting hub (mustLink)"
+    },
+    {
+     "path": "/blog/beetles-in-house, /blog/tiny-brown-bugs, /blog/weevils, /blog/bugs-in-carpet",
+     "overlap": "live; each links here",
+     "resolution": "they keep their searches; link beetles-in-house and tiny-brown-bugs back"
+    },
+    {
+     "path": "bugs-in-bed (day 4)",
+     "overlap": "held on Oct 29 by the day-4 planner: \"bugs in bed that are not bed bugs\" is folded into /blog/bugs-that-look-like-bed-bugs, which already answers it",
+     "resolution": "no page to link; \"spider beetle in bed\" stays this page's, and /blog/bugs-that-look-like-bed-bugs (linked) keeps the bed sorter"
+    },
+    {
+     "path": "/blog/what-ticks-look-like-ontario, /blog/bed-bug-interceptor-traps-canada",
+     "overlap": "TSX (Mar 25, a local info page; Jul 16): a spider beetle paragraph and card (to the roundup); spider beetles in interceptor cups",
+     "resolution": "no change except the 30+-day link-in sentence (see notes)"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/bugs-that-look-like-ticks, /blog/bugs-that-look-like-bed-bugs-canada, /blog/tick-vs-bed-bug, /blog/types-of-ticks-identification, /blog/red-ticks-and-clover-mites (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)); amazon.ca pages (/blog/pantry-moth-traps-canada, the bed bug product pages)",
+     "resolution": "not linked at release"
     }
    ],
    "family": "look-alikes",
    "priority": 1,
-   "releaseOn": "2026-12-07"
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -6908,7 +6943,9 @@
    "role": "page",
    "minExisting": 2,
    "mustLink": [
-    "/learn/bug-bites"
+    "/learn/bug-bites",
+    "/blog/no-see-ums",
+    "/blog/how-to-get-rid-of-gnats"
    ],
    "neighbors": [],
    "minNeighbors": 0,
@@ -6917,18 +6954,26 @@
    "audience": "na",
    "keyword": "gnat bites",
    "alsoTargets": [
+    "gnat bite",
+    "do gnats bite",
+    "can gnats bite",
     "biting gnats",
     "gnat bites on humans",
-    "buffalo gnat bites"
+    "what do gnat bites look like",
+    "gnat bite pictures",
+    "how long do gnat bites last",
+    "how long do gnat bites itch",
+    "gnat bites vs mosquito bites"
    ],
-   "h1Hint": "Gnat Bites: Which Gnats Bite, What the Bites Look Like and Relief",
-   "metaTitleHint": "Gnat Bites: Which Gnats Bite and Relief",
-   "scope": "Which \"gnats\" bite (black flies or buffalo gnats, no-see-ums), which only pester (eye gnats) and which do not bite at all (fungus gnats, fruit flies), what each bite looks like, timelines, relief and when to see a doctor.",
+   "h1Hint": "Gnat Bites: Which Gnats Bite, What the Bites Look Like and When to Worry",
+   "metaTitleHint": "Gnat Bites: What They Look Like (Photos)",
+   "scope": "Bite page for \"gnat bites\": which gnats bite, at extension strength: biting midges (no-see-ums: Montana State, UF/IFAS) and black flies (buffalo gnats: Iowa State says only the females bite); which only pester (eye gnats feed on eye secretions and do not bite: UF/IFAS EENY-485, UC IPM's eye gnat Pest Note); which do not bite at all (fungus gnats, fruit flies, drain flies: UC IPM, UMN). What each bite looks like and feels like (photos), where on the body, when and where people get bitten (biting midges at dawn and dusk near water and marsh, black flies by day in late spring near running water, at a source's strength), how long the bumps last, and how to tell gnat bites from mosquito, flea and bed bug bites (a comparison table, each row linking its page; never diagnose). Care and when to get medical care only from CDC, AAD, Mayo Clinic, Cleveland Clinic or MedlinePlus at their strength, with a \"When to get medical care\" callout listing the emergency signs they list; no home remedies beyond the source, no doses. Prevention: EPA-registered repellents by active ingredient (EPA's repellent search tool), long sleeves, screens (no-see-ums pass through ordinary window screen, at a source's strength). Links: /learn/bug-bites, /blog/no-see-ums and /blog/how-to-get-rid-of-gnats (mustLink), /blog/sand-fleas, /learn/how-to-get-rid-of-fungus-gnats, /tools/bug-bite-identifier; black-flies (planned) in plain words until live. Not linked at release: the frozen /blog/no-see-um-bites, /blog/flea-bites-on-humans and /blog/chigger-bites. No quote prompt.",
    "pageType": "bite-sting",
    "flags": [
-    "health"
+    "health",
+    "id"
    ],
-   "minWords": 1100,
+   "minWords": 1200,
    "parent": {
     "href": "/learn/bug-bites",
     "name": "Bug Bites"
@@ -6937,13 +6982,48 @@
    "collisions": [
     {
      "path": "/blog/no-see-um-bites",
-     "overlap": "bite page for the main biting \"gnat\"",
-     "resolution": "link"
+     "overlap": "TSX, frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C); owns \"no see um bites\" (56,048 impressions in 90 days on the page); its bite photo biting-midge-bites-ankles",
+     "resolution": "keeps every no-see-um bite search; this page's biting midge section is a short summary in plain words at release; link it after Oct 30 (an amend)"
+    },
+    {
+     "path": "/blog/no-see-ums",
+     "overlap": "live Oct 29 (day 2); \"biting midges\", \"no see ums vs gnats\"; links here (\"which gnats bite sorts out the ones that do\")",
+     "resolution": "keeps them; link it (mustLink)"
+    },
+    {
+     "path": "black-flies (planned 2026-12-07; god list day 7)",
+     "overlap": "alsoTargets \"buffalo gnats\", \"black fly bites\", \"black fly season\"; the Canadian /blog/black-flies-ontario-when-they-come-out (a local info page) holds the black fly searches today",
+     "resolution": "black-flies keeps them: \"buffalo gnat bites\" dropped from this page on Oct 29; one short black fly section, the page in plain words until live"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-gnats",
+     "overlap": "live Oct 20; h2 \"Which gnats bite?\" and FAQ \"Do gnats bite?\"; links here (\"the guide to gnat bites\")",
+     "resolution": "keeps \"how to get rid of gnats\" and \"gnats vs fruit flies\"; \"do gnats bite\" is this page's; link back (mustLink)"
+    },
+    {
+     "path": "/learn/bug-bites",
+     "overlap": "the live bites hub; links here (\"gnat bites have their own guide\")",
+     "resolution": "parent and mustLink"
+    },
+    {
+     "path": "/blog/sand-fleas, /learn/how-to-get-rid-of-fungus-gnats",
+     "overlap": "live; beach biters (biting midges among them); fungus gnats, which do not bite",
+     "resolution": "they keep their searches; one link each"
+    },
+    {
+     "path": "fly-bites (god list day 9, not in the plan yet), bug-bites-on-dogs (planned 2026-12-28)",
+     "overlap": "\"fly bites\" (horse, deer, stable and black flies); bites on dogs, including black fly bites on a dog's belly",
+     "resolution": "they keep them; bug-bites-on-dogs (planned) shows as plain words until live; fly-bites is not in the plan, so plain words with no link"
+    },
+    {
+     "path": "frozen pages",
+     "overlap": "/blog/no-see-um-bites, /blog/flea-bites-on-humans, /blog/chigger-bites, /blog/mosquito-bite-vs-spider-bite, /blog/how-to-get-rid-of-fruit-flies, /blog/how-to-get-rid-of-drain-flies-canada (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C))",
+     "resolution": "not linked at release"
     }
    ],
    "family": "bites-stings",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -7072,7 +7152,8 @@
    "role": "page",
    "minExisting": 2,
    "mustLink": [
-    "/learn/bed-bugs"
+    "/learn/bed-bugs",
+    "/blog/bugs-that-look-like-bed-bugs"
    ],
    "neighbors": [],
    "minNeighbors": 0,
@@ -7081,18 +7162,25 @@
    "audience": "na",
    "keyword": "bat bugs",
    "alsoTargets": [
+    "bat bug",
     "bat bug vs bed bug",
+    "bat bugs vs bed bugs",
+    "bat bug bites",
+    "do bat bugs bite humans",
+    "bat bugs in house",
     "swallow bugs",
-    "bat bug bites"
+    "swallow bug vs bed bug",
+    "bat bug life cycle"
    ],
-   "h1Hint": "Bat Bugs and Swallow Bugs: The Bed Bug Look-Alikes From the Attic",
-   "metaTitleHint": "Bat Bugs vs Bed Bugs: How to Tell",
-   "scope": "The hair-length test, why bat bugs appear after bats leave or are excluded, swallow bugs from cliff swallow nests, bites, and why the bat or bird problem has to be solved first (with bat exclusion rules).",
+   "h1Hint": "Bat Bugs: The Bed Bug Look-Alikes From Bats, and How to Tell Them Apart",
+   "metaTitleHint": "Bat Bugs vs Bed Bugs: How to Tell (Photos)",
+   "scope": "Photo-ID page for bat bugs and swallow bugs, the bed bug relatives that bite people when bats or nesting birds leave or are shut out. The tell, at Colorado State's strength: a bat bug's fringe hairs behind the head are longer than the width of its eyes, a bed bug's shorter, so confirming one takes magnification and an expert; swallow bugs are told by the last two antennal segments. Where they turn up (attics, wall voids, chimneys and under shingles near a bat roost; cliff swallow mud nests on eaves), why they bite people (UC IPM: bat bugs can bite a human but cannot reproduce without a bat host) and what a bat bug in a bedroom points to (bats in the building). Bites: what they look like and care only from CDC, AAD, MedlinePlus or a medical school; never diagnose from a bite. What to do, in order: the bats or birds first: no bat exclusion while flightless young may be present (UC IPM: usually May through September in California; winter is ideal), the state wildlife agency's rules where bats are protected, never handle a bat (rabies) or stir up droppings (histoplasmosis), at CDC's or UC IPM's strength; then the bugs (an expert or the label; no product names). Quick-ID table: bat bug, swallow bug, bed bug, bat tick: size, where found, host, the tell. Cards: bed bug (/blog/what-do-bed-bugs-look-like), bat droppings (/blog/bat-poop), the look-alike roundup (/blog/bugs-that-look-like-bed-bugs). Links: /learn/bed-bugs and /blog/bugs-that-look-like-bed-bugs (mustLink), /blog/bat-poop, /blog/animals-in-attic, /blog/bed-bug-bites-but-no-bed-bugs, /blog/what-do-bed-bugs-look-like. Not linked: the frozen look-alike, tick and bed bug pages and the amazon.ca bed bug pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 1100,
+   "minWords": 1200,
    "parent": {
     "href": "/learn/bed-bugs",
     "name": "Bed Bugs"
@@ -7101,23 +7189,43 @@
    "collisions": [
     {
      "path": "/blog/bugs-that-look-like-bed-bugs",
-     "overlap": "bat bug and swallow bug section",
-     "resolution": "summary + link"
+     "overlap": "live Oct 7; h2 \"How do you tell a bat bug or swallow bug from a bed bug?\" with h3s \"Bat bugs\" and \"Swallow bugs\" (Colorado State: the fringe-hair and antenna tells); \"swallow bug vs bed bug\" 7 impressions at 8.4 land there; it does not link here",
+     "resolution": "keeps \"bugs that look like bed bugs\" and the roundup; this page takes the bat bug and swallow bug searches (the roundup does not win them); after release that h2 gets one line linking here (link-in step); link it (mustLink)"
     },
     {
-     "path": "/blog/bugs-that-look-like-bed-bugs-canada",
-     "overlap": "Canadian look-alikes",
-     "resolution": "link"
+     "path": "/learn/bed-bugs",
+     "overlap": "the live bed bug hub; h3 \"Which insects are mistaken for bed bugs?\" already describes the bat- and bird-feeding relatives (University of Kentucky) but does not link here",
+     "resolution": "the link-in step adds the hub link in that h3; link it (mustLink)"
     },
     {
-     "path": "/blog/bugs-that-look-like-ticks",
-     "overlap": "#4 bat bugs",
-     "resolution": "link"
+     "path": "/blog/baby-bed-bugs-nymphs",
+     "overlap": "TSX, Jul 30 (7,428 impressions in 90 days); its card row \"Often mistaken for a baby bed bug\" has a Bat bug card linking /blog/bat-bugs",
+     "resolution": "no change: the card lights up on release and is this page's 30+-day inbound link"
+    },
+    {
+     "path": "/blog/bed-bug-bites-but-no-bed-bugs, /blog/bat-poop, /blog/what-do-bed-bugs-look-like, /blog/bed-bug-poop, /blog/bed-bugs-in-hotels, /blog/bugs-that-look-like-fleas",
+     "overlap": "live; each already links here (light up on release); bed-bug-bites-but-no-bed-bugs keeps \"what else bites at night\", bat-poop keeps \"bat poop\" and guano",
+     "resolution": "they keep their searches; link bed-bug-bites-but-no-bed-bugs, bat-poop and what-do-bed-bugs-look-like back"
+    },
+    {
+     "path": "/blog/animals-in-attic",
+     "overlap": "live; bats in the attic by sound and sign",
+     "resolution": "keeps the attic searches; one link where the page says to find the roost"
+    },
+    {
+     "path": "bugs-in-bed (day 4)",
+     "overlap": "held on Oct 29 by the day-4 planner: \"bugs in bed that are not bed bugs\" is folded into /blog/bugs-that-look-like-bed-bugs, which already answers it",
+     "resolution": "no page to link; the look-alike roundup is the sorter (linked above)"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/bugs-that-look-like-bed-bugs-canada (\"bat bugs canada\" 13 at 7.4), /blog/bugs-that-look-like-ticks (\"4. Bat Bugs\"), /blog/tick-vs-bed-bug, /blog/what-kills-bed-bugs-instantly-canada, /blog/bed-bug-shells-casings-shed-skins-canada (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)); the amazon.ca bed bug pages (/blog/cimexa-bed-bug-review-canada and others)",
+     "resolution": "not linked at release; the Canadian look-alike page keeps the Canadian searches"
     }
    ],
    "family": "look-alikes",
    "priority": 2,
-   "releaseOn": "2026-12-14"
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -9972,7 +10080,10 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/black-widow-spiders",
+    "/blog/house-spiders"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "false-widow-spiders",
@@ -9980,27 +10091,78 @@
    "audience": "na",
    "keyword": "false widow spider",
    "alsoTargets": [
+    "false widow spiders",
+    "false black widow",
+    "false black widow spider",
     "steatoda",
+    "steatoda grossa",
+    "false widow bite",
+    "false black widow bite",
     "false widow vs black widow",
-    "false widow bite"
+    "false black widow vs black widow",
+    "noble false widow",
+    "are false widows dangerous",
+    "false widow egg sac"
    ],
-   "h1Hint": "False Widow Spiders (Steatoda): Identification and Bite Facts",
-   "metaTitleHint": "False Widow Spiders: ID and Bite Facts",
-   "scope": "The cobweb spiders mistaken for black widows in houses across the US and Canada: identification, why their bites are usually minor, and the look-alike test.",
+   "h1Hint": "False Widow Spiders: How to Identify False Black Widows and Their Bite",
+   "metaTitleHint": "False Black Widow Spider: ID and Bite (Photos)",
+   "scope": "Photo-ID page for the false widows (genus Steatoda), the cobweb spiders most often mistaken for black widows in US homes, written for the US wording \"false black widow\" as well as \"false widow spider\". Lead with the false black widow (Steatoda grossa): what it looks like (a round, glossy, purplish to chocolate-brown abdomen with no red hourglass; sizes only from a university: UC IPM gives about 3/8 inch), where people find it (indoors: bathrooms, cupboards, under appliances, basements, garages, window frames, at UC IPM's or Penn State's strength), its tangled web and egg sacs. Then the US relatives at a source's strength: the noble false widow (Steatoda nobilis: in California since 2011 per UC IPM; say once that it is the species in British news stories) and the triangulate cobweb spider (S. triangulosa); other Steatoda only if a source covers them. Quick-ID table under the quick answer: false black widow, noble false widow, black widow (red hourglass), brown widow (orange hourglass, spiky egg sacs), common house spider (mottled, banded legs): size, color and markings, where found, bite. The bite at the sources' strength (UC IPM: a false black widow bite may cause symptoms similar to a yellowjacket sting); never call it harmless or dangerous beyond the source; bite care and when to get medical care only from CDC, MedlinePlus, AAD or a medical school. What to do: leave it, or vacuum webs and egg sacs, seal gaps and cut clutter (link /blog/how-to-keep-spiders-out-of-your-house). Links: /blog/black-widow-spiders and /blog/house-spiders (mustLink), /blog/black-spiders, /blog/venomous-spiders, /blog/black-widow-bite, /blog/spiders-in-california, /blog/spider-egg-sacs, /tools/spider-identifier; brown-widow-spiders in plain words until live. Not linked: the frozen spider-bite pages and amazon.ca pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 1000,
+   "minWords": 1200,
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
    },
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/black-widow-spiders",
+     "overlap": "live Oct 28 (day 1); alsoTarget \"black widow look alike\"; h2 \"Which spiders look like black widows?\" calls the false black widow (Steatoda grossa) the usual indoor mix-up and says \"The false widow guide covers it and its relatives\" (a link here); FAQ \"What spider looks like a black widow but isn't?\"",
+     "resolution": "keeps \"black widow look alike\" and every black widow search; \"false black widow vs black widow\" and \"false widow vs black widow\" are this page's (no page targets them); one comparison section and a card linking it (mustLink)"
+    },
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "live Oct 16; h2 \"Is a shiny dark spider in the house a black widow?\" (UC IPM: black widows are almost never found in homes, the false black widow thrives indoors) with the false-black-widow photo; it does not link here yet",
+     "resolution": "keeps the house-spider sorter; that h2 is the link-in host for the hub link; link it (mustLink)"
+    },
+    {
+     "path": "/blog/black-spiders",
+     "overlap": "live Oct 20; h2 \"Is a shiny black spider in the house a false widow?\"; alsoTargets \"black house spider\", \"black spiders in house\"; links here",
+     "resolution": "keeps the black-spider searches; card or link"
+    },
+    {
+     "path": "/blog/venomous-spiders, /blog/black-widow-bite",
+     "overlap": "live; each says the chocolate-brown false black widow is not a true widow with a milder bite, and links here",
+     "resolution": "they keep their searches; this page owns \"false widow bite\" and \"are false widows dangerous\", at the sources' strength"
+    },
+    {
+     "path": "/blog/spiders-in-california",
+     "overlap": "live Oct 16; the noble false widow section (UC IPM: found in Ventura County in 2011, now widespread along the coast) with a media placeholder for a photo, a false black widow row, and a link here",
+     "resolution": "keeps \"spiders in california\"; this page owns \"noble false widow\" for US readers; link it"
+    },
+    {
+     "path": "brown-widow-spiders (planned 2026-12-21)",
+     "overlap": "\"brown widow vs black widow\", \"brown widow egg sac\", \"brown widow bite\"; autocomplete \"false widow vs brown widow\"",
+     "resolution": "brown-widow-spiders keeps them; one row and card here (plain words until live)"
+    },
+    {
+     "path": "/tools/spider-identifier, /blog/jumping-spiders, /blog/yellow-sac-spiders",
+     "overlap": "live; each links here (the identifier lists this planned page and links it on release day)",
+     "resolution": "no change; link the identifier once"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/what-does-a-spider-bite-look-like and /blog/mosquito-bite-vs-spider-bite (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)); /blog/best-spider-spray-canada (amazon.ca) and /blog/how-to-get-rid-of-spiders-in-house-canada (Canadian control page)",
+     "resolution": "not linked; /blog/how-to-keep-spiders-out-of-your-house (existing, neutral anchor) counts toward the two pre-existing links"
+    }
+   ],
    "family": "spider-id",
-   "priority": 3,
-   "releaseOn": "2026-12-21"
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -10072,7 +10234,10 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/house-spiders",
+    "/blog/brown-recluse-look-alikes"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "woodlouse-spiders",
@@ -10080,27 +10245,64 @@
    "audience": "na",
    "keyword": "woodlouse spider",
    "alsoTargets": [
+    "woodlouse spiders",
     "woodlouse spider bite",
-    "woodlouse spider vs brown recluse",
-    "woodlouse hunter"
+    "woodlouse hunter",
+    "dysdera crocata",
+    "woodlouse spider in house",
+    "are woodlouse spiders poisonous",
+    "woodlouse spider size",
+    "sowbug killer"
    ],
    "h1Hint": "Woodlouse Spiders: The Red Spider With Big Fangs in Basements",
-   "metaTitleHint": "Woodlouse Spider: ID and Bite Facts",
-   "scope": "Dysdera crocata: the red-orange spider with long fangs found in damp basements, what it eats (pill bugs), its bite, and the recluse confusion.",
+   "metaTitleHint": "Woodlouse Spider: ID and Bite Facts (Photos)",
+   "scope": "Photo-ID page for the woodlouse spider (Dysdera crocata), the red-orange spider with a pale abdomen and long, forward-pointing fangs that turns up in damp basements. What it looks like (six eyes in a tight oval; sizes only from a university: CSU gives 3/8 to 5/8 inch), where people find it (basements and other humid places indoors; under rocks, wood and debris outdoors, at CSU's, Penn State's or Utah State's strength), what it eats (sow bugs and pill bugs: link /blog/pill-bugs) and what one indoors says about the damp and the prey. Look-alikes in the quick-ID table and cards: the brown recluse in one row (/blog/brown-recluse-look-alikes owns that comparison: six eyes in three pairs vs six in an oval), plus the spiders people mix it up with indoors (yellow sac spider, parson spider) only where a source supports the tell. The bite at the sources' strength (CSU: its venom poses no danger to people; MDC: compared to a mild bee sting); bite care and when to get medical care only from CDC, MedlinePlus, AAD or a medical school. What to do: catch and release or vacuum, lower basement humidity, seal gaps (link /blog/how-to-keep-spiders-out-of-your-house). Links: /blog/house-spiders and /blog/brown-recluse-look-alikes (mustLink), /blog/pill-bugs, /blog/yellow-sac-spiders, /tools/spider-identifier; bugs-in-basement (same day) in plain words until live. Not linked: the frozen spider-bite pages and amazon.ca pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 900,
+   "minWords": 1000,
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
    },
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/brown-recluse-look-alikes",
+     "overlap": "live Oct 16; h2 \"Is a woodlouse spider a brown recluse?\" with the woodlouse-spider photo and a link here (\"The woodlouse spider guide has more\"); a quick-ID row; our only woodlouse search (\"woodlouse spider look alike\", 1 at 7) lands there",
+     "resolution": "keeps the recluse comparison: \"woodlouse spider vs brown recluse\" dropped from this page's targets on Oct 29 (as hobo-spiders left \"hobo spider vs brown recluse\" there on Oct 28); one row and card here linking it (mustLink)"
+    },
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "live Oct 16; h2 \"What is the red spider with big fangs in the basement?\" (CSU: almost always in basements and other humid places; hunts sow bugs and pill bugs; 3/8 to 5/8 inch) and a quick-ID row; it does not link here yet",
+     "resolution": "keeps the sorter and that h2, which is the link-in host for the hub link; link it (mustLink)"
+    },
+    {
+     "path": "/blog/pill-bugs",
+     "overlap": "live Oct 23; owns \"roly poly\", \"pill bugs\" and \"sow bugs\"; links here",
+     "resolution": "keeps them; link it as the prey"
+    },
+    {
+     "path": "/blog/yellow-sac-spiders, /tools/spider-identifier",
+     "overlap": "live; both link here (the identifier lights up on release)",
+     "resolution": "no change; link the identifier once"
+    },
+    {
+     "path": "bugs-in-basement (day 5, planned 2026-10-29)",
+     "overlap": "the basement sorter has a woodlouse spider row",
+     "resolution": "it keeps the place search; link both ways"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/what-does-a-spider-bite-look-like and /blog/mosquito-bite-vs-spider-bite (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)); /blog/best-spider-spray-canada (amazon.ca); /blog/how-to-get-rid-of-spiders-in-house-canada (Canadian control page)",
+     "resolution": "not linked; /blog/how-to-keep-spiders-out-of-your-house (existing, neutral anchor) counts toward the two pre-existing links"
+    }
+   ],
    "family": "spider-id",
-   "priority": 3,
-   "releaseOn": "2026-12-21"
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -10627,7 +10829,10 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/wasp-nest-identification",
+    "/blog/holes-in-yard"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "ground-bees",
@@ -10635,18 +10840,26 @@
    "audience": "na",
    "keyword": "ground bees",
    "alsoTargets": [
+    "ground bee",
+    "ground bees in yard",
+    "bees in the ground",
+    "ground bee holes",
+    "ground nesting bees",
     "mining bees",
+    "digger bees",
+    "do ground bees sting",
     "ground bees vs yellow jackets",
-    "ground bee holes"
+    "how to get rid of ground bees"
    ],
-   "h1Hint": "Ground Bees: Holes in the Lawn in Spring, and How They Differ From Yellow Jackets",
-   "metaTitleHint": "Ground Bees vs Yellow Jackets in the Lawn",
-   "scope": "Solitary mining bees that dig small holes in bare lawn patches each spring: identification, why they rarely sting, how they differ from yellow jacket ground nests, and why they are worth keeping.",
+   "h1Hint": "Ground Bees: Holes in the Lawn, Whether They Sting and How to Tell Them From Yellow Jackets",
+   "metaTitleHint": "Ground Bees in the Lawn: What They Are (Photos)",
+   "scope": "Bee identification page for \"ground bees\" (the god list: a soft page one; the top 3 is reachable with a few links). The reader sees bees flying low over small holes in a lawn, bare patch or garden bed in spring and wants to know what they are, whether they sting and whether to get rid of them. Quick answer: they are almost always solitary ground-nesting bees (mining bees such as Andrena, plus cellophane or polyester bees, digger bees and some sweat bees), each female digging her own burrow; they are active only a few weeks in spring, are not aggressive, rarely sting and are important pollinators (Clemson HGIC, UGA, Maryland Extension, NC State Extension). Then: what the holes look like (about 1/4 inch, often with a small mound of loose soil, many together in bare, sunny, dry spots: Clemson, Maryland); what the bees look like (photo cards with size and color); when they appear and for how long; do ground bees sting (females can but rarely do and males cannot: at the sources' strength; allergy warning signs in a callout at MedlinePlus or CDC NIOSH strength); ground bees vs yellow jackets (one busy hole, a colony that defends it, late summer, a paper nest underground; MDC says yellowjackets are often called ground bees or sweat bees: link /blog/wasp-nest-identification and /blog/wasp-vs-hornet); other ground nesters (cicada killers, bumble bees, sweat bees: one card each); and what to do (usually nothing: they leave within weeks; if needed, the extension options only: watering the area, thickening thin turf, mulch or groundcover; avoid treating because they are pollinators, as Maryland Extension says; no insecticides, no product names). Quick-ID facts table under the quick answer (ground bee vs yellow jacket vs cicada killer vs sweat bee: size, look, nest, season, stings). Leave to other pages: ground wasps and wasp control (/blog/how-to-get-rid-of-ground-wasps-canada and the planned US how-to-get-rid-of-ground-wasps), yellow jackets, cicada killers, carpenter bees, sweat bees (same day). Links: /blog/wasp-nest-identification and /blog/holes-in-yard (mustLink; both already link here), /blog/sweat-bees, /blog/wasp-vs-hornet, /blog/paper-wasps, /blog/lawn-pest-control (grub damage is a different problem). Not linked: amazon.ca pages, the frozen pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 1000,
+   "minWords": 1200,
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
@@ -10655,13 +10868,38 @@
    "collisions": [
     {
      "path": "/blog/how-to-get-rid-of-ground-wasps-canada",
-     "overlap": "ground wasps",
-     "resolution": "link; a different insect"
+     "overlap": "existing TSX page (Canadian, amazon.ca); owns \"ground wasps\", \"how to get rid of ground wasps\", \"ground wasp nest\", \"underground wasp nest\" and the wasp-killer searches (14,174 impressions and 258 clicks in 90 days, 98% outside the US); it also catches today's few ground bee searches (64 impressions at 1-12) and has a look-alike paragraph on solitary ground-nesting bees",
+     "resolution": "keeps every ground wasp and control search; this page takes the bee searches (ground bees, ground bee holes, ground bees vs yellow jackets) and gives yellow jacket ground nests one comparison section; its look-alike paragraph is the 30+ day link-in host (one added link, no lines removed)"
+    },
+    {
+     "path": "how-to-get-rid-of-ground-wasps (US edition, planned 2026-12-14), yellow-jackets (planned 2026-12-14), cicada-killers (planned 2026-12-14), carpenter-bee-vs-bumble-bee (planned 2026-12-14)",
+     "overlap": "ground wasp control, yellow jackets, cicada killers (large ground-nesting wasps) and bumble bees (which may nest in old rodent burrows)",
+     "resolution": "they keep their searches; one card or row each here, plain words until live"
+    },
+    {
+     "path": "/blog/wasp-nest-identification",
+     "overlap": "live Oct 28; the nest sorter; its table row (\"Ground-nesting bees\") and a paragraph already link /blog/ground-bees and /blog/sweat-bees; it covers yellow jacket ground nests",
+     "resolution": "keeps \"wasp nest\" and nest identification; this page links it for yellow jacket and other wasp nests (mustLink)"
+    },
+    {
+     "path": "/blog/holes-in-yard",
+     "overlap": "live Oct 20; the hole sorter; its quick answer and facts row give ground bee holes (1/4 to 1/2 inch, Clemson) and a paragraph and card already link /blog/ground-bees",
+     "resolution": "keeps \"small holes in yard\" and the other diggers; this page links it once for holes that are not bees (mustLink)"
+    },
+    {
+     "path": "/blog/sweat-bees (same day) and /blog/wasp-vs-hornet",
+     "overlap": "most sweat bees also nest in the ground; wasp-vs-hornet quotes MDC that yellowjackets are widely, and incorrectly, called sweat bees, and some people call them ground bees",
+     "resolution": "sweat-bees keeps \"sweat bees\" and the bee that lands on people (one row here, linked both ways); wasp-vs-hornet keeps the wasp comparisons (linked; its MDC sentence is a link-in host)"
+    },
+    {
+     "path": "product and Canadian pages",
+     "overlap": "/blog/best-wasp-nest-spray-canada, /blog/wasp-dust-canada, /blog/best-yellow-jacket-trap-canada (amazon.ca); /blog/how-to-get-rid-of-carpenter-bees-canada",
+     "resolution": "not linked from this page; no insecticide or product names"
     }
    ],
    "family": "stinging-insects",
-   "priority": 3,
-   "releaseOn": "2026-12-28"
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -11447,7 +11685,10 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/wasp-nest-identification",
+    "/blog/ground-bees"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "sweat-bees",
@@ -11455,27 +11696,55 @@
    "audience": "na",
    "keyword": "sweat bees",
    "alsoTargets": [
+    "sweat bee",
     "sweat bee sting",
+    "do sweat bees sting",
+    "green sweat bee",
+    "metallic green bee",
+    "why do sweat bees land on you",
     "sweat bees vs hoverflies",
+    "sweat bee nest",
     "sweat bees in pool"
    ],
-   "h1Hint": "Sweat Bees: Why They Land on You and Whether They Sting",
-   "metaTitleHint": "Sweat Bees: Why They Land on You",
-   "scope": "Halictid bees drawn to perspiration: identification (including the metallic green species), the mild sting, the hover fly look-alikes, and keeping them off you.",
+   "h1Hint": "Sweat Bees: Why They Land on You, Whether They Sting and How to Tell Them From Look-Alikes",
+   "metaTitleHint": "Sweat Bees: Why They Land on You (Photos)",
+   "scope": "Bee identification page for \"sweat bees\" (winnability 8: small sites hold #1, #3 and #4). The reader has small bees landing on their skin on a hot day, or saw a bright metallic green bee, and wants to know what it is and whether it stings. Quick answer: sweat bees (family Halictidae) are small bees, many dark and some metallic green, that land on people to drink sweat for its salt; females can give a mild sting if pressed or swatted, males cannot sting; most nest in the ground, and they are pollinators (MDC's field guide, Texas A&M Bee Inspection, the UW-Milwaukee Field Station or a university extension). Then: why they land on you (sweat and its salts: a source); what they look like (the metallic green kinds such as Augochlora and Agapostemon and the small dark Lasioglossum, with sizes: photo cards); do sweat bees sting and what it feels like (mild, at the sources' strength; allergy warning signs and when to get help in a warning callout at MedlinePlus or CDC NIOSH strength; no treatment beyond that); sweat bee or yellow jacket (MDC says yellowjackets are often wrongly called sweat bees: the tells with photos, linking /blog/wasp-vs-hornet); sweat bees vs hover flies (flies with one pair of wings and large eyes that hover and do not sting: a source); where they nest (soil, some in rotting wood: link /blog/ground-bees); when they are out (summer, at a source's strength); and keeping them off you (stay calm and brush them off rather than swat, as the sources say; repellents only if a source says they work). Quick-ID facts table under the quick answer (sweat bee vs yellow jacket vs honey bee vs hover fly: size, color, hairy or shiny, lands on skin, stings). Leave to other pages: ground bees (same day), yellow jackets (planned), bee and wasp stings (bee-sting-vs-wasp-sting, planned), wasp nests (/blog/wasp-nest-identification). Not linked: amazon.ca pages, the frozen pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
-    "id"
+    "id",
+    "health"
    ],
-   "minWords": 900,
+   "minWords": 1100,
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
    },
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/ground-bees (same day)",
+     "overlap": "most sweat bees nest in the ground",
+     "resolution": "ground-bees keeps the lawn-hole searches (ground bees, ground bee holes, ground bees vs yellow jackets); this page keeps the bee that lands on people, its sting and the green bee; its nest section is short and links ground-bees (mustLink); link both ways"
+    },
+    {
+     "path": "/blog/wasp-vs-hornet and /blog/wasp-nest-identification",
+     "overlap": "live Oct 28; wasp-vs-hornet quotes MDC that yellowjackets are widely, and incorrectly, called sweat bees; wasp-nest-identification already links /blog/sweat-bees (Missouri Extension: sweat bees also nest in soil)",
+     "resolution": "they keep the wasp and nest searches; this page answers \"sweat bee or yellow jacket?\" in one section with photos and links both; the MDC sentence in wasp-vs-hornet is a link-in host"
+    },
+    {
+     "path": "bee-sting-vs-wasp-sting (planned 2027-02-01) and yellow-jackets (planned 2026-12-14)",
+     "overlap": "bee and wasp sting comparisons (medical); \"yellow jacket\"",
+     "resolution": "they keep them; this page's sting section is short, at MedlinePlus or CDC NIOSH strength; plain words until live"
+    },
+    {
+     "path": "product pages",
+     "overlap": "/blog/best-yellow-jacket-trap-canada, /blog/best-wasp-trap, /blog/rescue-why-trap-review-canada (amazon.ca)",
+     "resolution": "not linked; no repellent or trap claims"
+    }
+   ],
    "family": "stinging-insects",
-   "priority": 3,
-   "releaseOn": "2026-12-28"
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -11601,34 +11870,59 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/flies-in-house"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "lovebugs",
    "cluster": "flies",
-   "keyword": "love bugs",
+   "keyword": "lovebugs",
    "alsoTargets": [
+    "love bugs",
+    "lovebug",
+    "love bug season",
     "lovebug season",
+    "love bugs on cars",
+    "how to get love bugs off car",
+    "do love bugs bite",
+    "where do love bugs come from",
     "love bugs florida",
-    "love bugs on cars"
+    "love bugs texas"
    ],
-   "h1Hint": "Lovebugs: Why They Swarm Twice a Year and How to Protect Your Car",
+   "h1Hint": "Lovebugs: Why They Swarm in Spring and Late Summer, and How to Get Them Off Your Car",
    "metaTitleHint": "Lovebugs: Swarm Season and Your Car",
-   "scope": "Plecia nearctica across the Gulf states: the May and September flights, why they mate in flight, car paint damage and cleanup, and the myths about their origin.",
+   "scope": "Species page for \"lovebugs\" (Wikipedia and Gulf-state extension pages hold page one: aim for page one; the top 3 needs links). The reader is driving through a swarm or scrubbing a windshield in spring or late summer and wants to know what they are, when they will be gone and how to protect the car. Quick answer: lovebugs (Plecia nearctica) are small black flies with a red-orange thorax, harmless to people and pets (they do not bite or sting), that fly joined in mating pairs during two flights a year, in late spring and late summer, mostly in the Gulf Coast and Southeast states (UF/IFAS Featured Creatures EENY-47, Clemson HGIC, Mississippi State Extension, Texas A&M Forest Service). Then: what they look like (photo, size from a source); when and where (a flight calendar by region at the sources' strength; a map only if a source gives the range); why they swarm roads (the attraction to traffic that UF/IFAS describes, at its strength); why the pairs stay joined; what they do to cars (residue that can damage paint and clog radiator grilles if left: the source's words) and how to clean and protect the car (wash promptly, wax, screens over the grille: UF/IFAS or another extension; no product names); larvae (in decaying plant material, where they help recycle it); the myths (not created by UF to kill mosquitoes, and they do not eat mosquitoes: UF/IFAS, UCF); and what does not help (spraying them is not recommended: a source). Quick-ID facts table. Leave to other pages: march fly bites (the horse fly pages), mosquito eaters (what-eats-ticks-and-mosquitoes). Links: /blog/flies-in-house (mustLink), /blog/what-eats-ticks-and-mosquitoes, /blog/mosquito-hawk-explained (another fly with a mosquito myth), /blog/no-see-ums. Not linked: amazon.ca pages, the frozen pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
     "id"
    ],
-   "minWords": 900,
+   "minWords": 1000,
    "parent": {
     "href": "/learn",
     "name": "Learning Centre"
    },
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/horse-fly-and-deer-fly-bite-treatment, /blog/deer-flies-horse-flies-ontario (existing TSX) and deer-fly-vs-horse-fly (planned 2027-02-01)",
+     "overlap": "\"march fly\" searches land there (in Australia march flies are horse flies; in the US the name covers the lovebug's family, Bibionidae)",
+     "resolution": "they keep \"march fly\" and every bite search; this page says lovebugs are March flies (family Bibionidae) once and does not target march fly bites"
+    },
+    {
+     "path": "/blog/what-eats-ticks-and-mosquitoes and /blog/how-many-times-can-a-mosquito-bite-you (existing TSX)",
+     "overlap": "Google shows them for \"do love bugs eat mosquitoes\" (2 impressions at 2-3)",
+     "resolution": "they keep their mosquito searches; this page answers the lovebug myths (they do not eat mosquitoes; UF did not create them: UF/IFAS, UCF) in one FAQ; what-eats-ticks-and-mosquitoes is the 30+ day link-in host"
+    },
+    {
+     "path": "/blog/flies-in-house",
+     "overlap": "live Oct 20; the flies sorter (indoor flies)",
+     "resolution": "keeps the indoor fly searches; lovebugs rarely come indoors, so one line there on outdoor swarms linking here is the family link-in (mustLink both ways)"
+    }
+   ],
    "family": "household",
-   "priority": 3,
-   "releaseOn": "2026-12-28"
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -12031,7 +12325,8 @@
    "role": "page",
    "minExisting": 2,
    "mustLink": [
-    "/learn/ants"
+    "/learn/ants",
+    "/blog/tiny-ants"
    ],
    "neighbors": [],
    "minNeighbors": 0,
@@ -12039,19 +12334,26 @@
    "cluster": "ants",
    "keyword": "crazy ants",
    "alsoTargets": [
+    "crazy ant",
     "tawny crazy ant",
     "rasberry crazy ant",
-    "crazy ants vs fire ants"
+    "raspberry crazy ant",
+    "longhorn crazy ant",
+    "black crazy ants",
+    "crazy ants in electrical outlets",
+    "crazy ants vs fire ants",
+    "crazy ants in house",
+    "how to get rid of crazy ants"
    ],
-   "h1Hint": "Crazy Ants: Tawny and Longhorn Crazy Ants in US Homes and Electrical Boxes",
-   "metaTitleHint": "Crazy Ants: ID and Why They Swarm Wiring",
-   "scope": "Longhorn and tawny (rasberry) crazy ants in the Gulf states: erratic movement, huge outdoor populations, short-circuits in electrical boxes, why baits work poorly, and how they displace fire ants.",
+   "h1Hint": "Crazy Ants: How to Identify Tawny, Longhorn and Other Crazy Ants, and Why They Swarm Electrical Boxes",
+   "metaTitleHint": "Crazy Ants: How to Identify Them (Photos)",
+   "scope": "Species page for \"crazy ants\" (Wikipedia, a dictionary and Orkin at the top, small sites at #3 and #5: the top 3 is possible with a species ID page and a few links). The reader saw masses of small ants running fast and erratically, perhaps in an electrical box, outlet or air conditioner, mostly in Texas, Louisiana, Mississippi, Alabama, Florida or Georgia, and wants to know what they are and why bait is not working. Quick answer: \"crazy ants\" are several species named for their fast, erratic running: the tawny (rasberry) crazy ant, Nylanderia fulva, along the Gulf Coast, which forms huge outdoor populations, gathers in electrical equipment and can short it out; the longhorn crazy ant, Paratrechina longicornis, a dark ant with very long legs and antennae found outdoors in warm states and inside heated buildings; the Caribbean crazy ant in Florida; and the yellow crazy ant in Hawaii (each at Texas A&M, UF/IFAS, the Texas Invasive Species Institute or the Hawaii Ant Lab's strength). Then: how to tell them apart (photo cards and a quick-ID facts table: color, size, legs and antennae, how they move, where in the US); why they swarm electrical boxes (Texas A&M); how they spread (carried in potted plants, mulch, soil and building materials: a source); crazy ants vs fire ants (the displacement, and the defense against fire ant venom, at a source's strength); do crazy ants bite (they can bite but do not sting: a source); and control (why consumer baits work poorly on tawny crazy ants, Texas A&M; what extension sources advise: reduce harborage, protect electrical boxes, professional treatment; product types only as a label or extension source allows, no brand names). Leave to other pages: tiny ants (/blog/tiny-ants), fire ants (/blog/red-ants, /blog/fire-ant-stings), sugar ants (/blog/sugar-ants). Links: /learn/ants and /blog/tiny-ants (mustLink), /blog/red-ants, /blog/do-ants-bite, /blog/ghost-ants. Not linked: amazon.ca pages, the frozen pages. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
     "id",
     "pesticide"
    ],
-   "minWords": 1000,
+   "minWords": 1200,
    "parent": {
     "href": "/learn/ants",
     "name": "Ants"
@@ -12060,13 +12362,38 @@
    "collisions": [
     {
      "path": "/blog/tiny-ants",
-     "overlap": "key to seven common species",
-     "resolution": "link"
+     "overlap": "live Oct 7; a key to seven tiny house ants (1,284 impressions in 90 days; no crazy ants in it)",
+     "resolution": "keeps \"tiny ants\" and the key; this page links it for the other small ants and is not a key (mustLink); link both ways (a link-in candidate)"
+    },
+    {
+     "path": "/learn/ants",
+     "overlap": "live pillar; its table \"Which ants are common in US homes, and how do you tell them apart?\" has no crazy ant row",
+     "resolution": "keeps the general ant searches; its species section (or \"Which remarkable ants do people ask about?\") is the hub link-in host; this page links it (mustLink, the parent)"
+    },
+    {
+     "path": "/blog/red-ants and /blog/fire-ant-stings",
+     "overlap": "live; fire ants (tawny crazy ants displace fire ants where they invade)",
+     "resolution": "they keep the fire ant searches; this page covers crazy ants vs fire ants in one section and links both"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-ants-canada",
+     "overlap": "existing TSX page (Canadian, amazon.ca); h3 \"Tawny crazy ants: the exception to bait-first\" (Texas A&M) and an FAQ on crazy ants",
+     "resolution": "keeps its control searches; that h3 is the 30+ day link-in host (one added link, no lines removed); not linked from this page"
+    },
+    {
+     "path": "/blog/do-ants-bite, /blog/borax-for-ants, /learn/ant-killer-recipes, /blog/sugar-ants, /blog/ghost-ants, /blog/black-ants",
+     "overlap": "live pages that mention crazy ants, or the ants they are confused with",
+     "resolution": "one card or link each where the reader's question changes; no shared targets"
+    },
+    {
+     "path": "product pages",
+     "overlap": "/blog/best-ant-killer, /blog/best-ant-traps-canada (amazon.ca)",
+     "resolution": "not linked; product types only as a label or extension source allows, no brand names"
     }
    ],
    "family": "ants",
-   "priority": 3,
-   "releaseOn": "2026-12-28"
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -13676,15 +14003,21 @@
    "cluster": "wildlife",
    "keyword": "baby copperhead",
    "alsoTargets": [
+    "baby copperheads",
+    "juvenile copperhead",
+    "what does a baby copperhead look like",
     "snakes that look like copperheads",
+    "copperhead look alikes",
     "copperhead vs corn snake",
     "copperhead vs rat snake",
+    "copperhead vs northern water snake",
+    "copperhead vs milk snake",
     "water moccasin vs water snake",
     "baby copperhead vs brown snake"
    ],
-   "h1Hint": "Baby Copperhead or Look-Alike? How to Tell Copperheads From Harmless Snakes",
+   "h1Hint": "Baby Copperhead or Look-Alike? How to Tell a Young Copperhead From Nonvenomous Snakes (Photos)",
    "metaTitleHint": "Baby Copperhead or Look-Alike? (Photos)",
-   "scope": "Photo identification for \"is this a baby copperhead?\": the copperhead's hourglass crossbands, head shape and the yellow tail tip of young snakes, then the snakes mistaken for it (corn snake, rat snake, northern water snake, hognose), plus water moccasin vs water snake; each with a photo and the one feature that settles it. \"Baby copperhead\" and \"snakes that look like copperheads\" are each other's parent topic in Ahrefs: one page targets both. Any bite or safety statement follows CDC or a state wildlife agency at the source's strength. Owner's call before writing: snakes are a new family for the site (wildlife, not insects; BuzzSkito does not handle snakes), a traffic play only. Photos: none on record; a snake photo scout comes first (USFWS and NPS public domain; Wikimedia CC BY or CC BY-SA).",
+   "scope": "Photo identification for \"is this a baby copperhead?\": the copperhead's hourglass crossbands (wide on the sides, narrow on the back), the copper head, and the yellow or greenish-yellow tail tip that young copperheads use as a lure (MDC, NCWRC), then the snakes mistaken for it (young rat snake, corn snake, northern water snake, eastern hognose, milk snake, and the small brownsnake), plus water moccasin vs water snake; each with an agency-identified photo and the set of features the agency gives that settles it. \"Baby copperhead\" and \"snakes that look like copperheads\" are each other's parent topic in Ahrefs: one page targets both. The owner's go-ahead (the Oct 16 note) is given by his Oct 26 god list (day 4), as for baby-snakes. Safety-critical: follow data/god-build/WRITER_BRIEF_PHOTO_ID.md \"Snakes\" in full: state wildlife agencies (Missouri Department of Conservation, NC Wildlife Resources Commission, Virginia DWR, Maryland DNR, Texas Parks and Wildlife), university herpetology and extension pages (NC State Extension, Clemson HGIC, UGA's Savannah River Ecology Lab) and museums for identification and ranges; the Virginia Herpetological Society for ID keys only; CDC NIOSH for bite prevention and first aid; a poison center for after a bite. Never imply that handling is safe; say venomous and nonvenomous; no single feature (head shape, pupils) as a test unless the agency presents it that way, and say where an agency says a rule fails; ranges by state from the agency, saying where each look-alike does and does not overlap with copperheads. A first-aid warning callout at CDC NIOSH strength with what not to do; disclaimer health. Quick-ID facts table (snake, pattern, head, tail tip of the young, venomous or not, range). Links: /blog/baby-snakes (plain words until live), /blog/holes-in-yard. No quote prompt, no snake-removal pitch (BuzzSkito does not handle snakes).",
    "pageType": "comparison",
    "flags": [
     "id",
@@ -13696,10 +14029,31 @@
     "name": "Learning Centre"
    },
    "pairWith": null,
-   "collisions": [],
+   "collisions": [
+    {
+     "path": "/blog/baby-snakes",
+     "overlap": "scheduled (dated 2026-10-29, held for expert-identified photos); owns \"baby snakes\", \"baby rattlesnake\", \"baby garter snake\" and \"baby rat snake\"; gives young copperheads one short section that already links /blog/copperhead-look-alikes",
+     "resolution": "keeps the baby snake searches; this page keeps \"baby copperhead\" and the copperhead look-alikes; link both ways (baby-snakes in plain words until it is live)"
+    },
+    {
+     "path": "copperheads, rat-snakes, garter-snakes (god list day 7, not planned yet)",
+     "overlap": "\"copperhead snake\" (75,900 a month) and the commonest look-alikes' own species searches",
+     "resolution": "they will keep the species searches; this page stays on the young copperhead and the look-alikes; plain words until they exist"
+    },
+    {
+     "path": "/blog/snake-poop (planned 2026-10-29, held for a lead photo) and /blog/holes-in-yard (live)",
+     "overlap": "snake signs and holes",
+     "resolution": "one link each where relevant (snake-poop in plain words until live)"
+    },
+    {
+     "path": "/deadliest-animal-in-canada",
+     "overlap": "a Canadian data page that mentions snakes",
+     "resolution": "not linked"
+    }
+   ],
    "family": "snakes",
    "priority": 2,
-   "releaseOn": "2027-02-01"
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -14104,7 +14458,10 @@
    "section": "blog",
    "role": "page",
    "minExisting": 2,
-   "mustLink": [],
+   "mustLink": [
+    "/blog/animal-droppings",
+    "/blog/raccoon-poop"
+   ],
    "neighbors": [],
    "minNeighbors": 0,
    "slug": "possum-poop",
@@ -14114,12 +14471,15 @@
    "alsoTargets": [
     "opossum poop",
     "possum droppings",
-    "possum poop vs raccoon poop",
-    "is possum poop dangerous"
+    "opossum droppings",
+    "what does possum poop look like",
+    "is possum poop dangerous",
+    "possum poop size",
+    "where do possums poop"
    ],
-   "h1Hint": "Possum Poop: What Opossum Droppings Look Like, and Possum or Raccoon?",
+   "h1Hint": "Possum Poop: What Opossum Droppings Look Like and Where You Find Them",
    "metaTitleHint": "Possum Poop: What Opossum Droppings Look Like",
-   "scope": "The Virginia opossum of North America (not the Australian possum: say so once). What possum poop looks like (sizes only from a source), possum or raccoon, where possums poop (under decks, in garages, near pet food), whether it is dangerous to people and dogs (CDC or a state health department only), cleanup, and what to do next.",
+   "scope": "The Virginia opossum of North America (not the Australian possum: say so once). What possum poop looks like (sizes only from a source: UNL says cat-sized, like a raccoon's), where possums leave it (under decks, in garages and crawl spaces, near pet food, at a source's strength), possum or raccoon in one short section linking /blog/raccoon-poop (it owns that comparison), whether it is dangerous to people and dogs (CDC or a state health department only), cleanup (the same sources), and what to do next. Links: /blog/animal-droppings and /blog/raccoon-poop (mustLink), /blog/possum-vs-opossum, /blog/rat-droppings, /blog/squirrel-poop. Not linked: the frozen /blog/what-does-mouse-poop-look-like-canada. No quote prompt.",
    "pageType": "entity-id",
    "flags": [
     "id",
@@ -14133,19 +14493,39 @@
    "pairWith": null,
    "collisions": [
     {
-     "path": "animal-droppings (new)",
-     "overlap": "an opossum row",
-     "resolution": "that page keeps a short row and links here"
+     "path": "/blog/raccoon-poop",
+     "overlap": "live Oct 20; alsoTarget \"raccoon poop vs opossum poop\"; an Opossum card and the line \"The possum poop guide covers opossum droppings in detail\" (links here); a media placeholder for raccoon and opossum droppings side by side",
+     "resolution": "keeps the raccoon vs opossum comparison: \"possum poop vs raccoon poop\" dropped from this page's targets on Oct 29; one short \"possum or raccoon?\" section linking it (mustLink)"
     },
     {
-     "path": "raccoon-poop (new)",
-     "overlap": "possum or raccoon",
-     "resolution": "both keep a short comparison; link both ways"
+     "path": "/blog/animal-droppings",
+     "overlap": "live Oct 20, the droppings family hub; alsoTarget \"raccoon vs possum poop\"; an opossum row, an Opossum card and a link here; a media placeholder for opossum droppings",
+     "resolution": "keeps the chart; mustLink. Note for the owner: raccoon-poop and animal-droppings both target the raccoon vs opossum comparison (an existing overlap, not this page's to fix)"
+    },
+    {
+     "path": "/blog/possum-vs-opossum",
+     "overlap": "live Oct 25; \"are opossums dangerous\", EPM from opossum feces (Washington sources), and \"Their droppings are about the size of a cat's, like a raccoon's, UNL says\"",
+     "resolution": "keeps the animal searches; link it"
+    },
+    {
+     "path": "/blog/what-eats-ticks-and-mosquitoes",
+     "overlap": "TSX; \"do possums eat mosquitoes\" and \"ticks\" (544 impressions in 90 days at 9.6)",
+     "resolution": "keeps them; not a target"
+    },
+    {
+     "path": "/blog/rat-droppings, /blog/squirrel-poop, /blog/deer-poop, /blog/rabbit-poop, /blog/bat-poop; snake-poop (held)",
+     "overlap": "the droppings family",
+     "resolution": "link the siblings where the reader's animal changes; snake-poop in plain words until live"
+    },
+    {
+     "path": "/blog/what-does-mouse-poop-look-like-canada",
+     "overlap": "frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)",
+     "resolution": "not linked"
     }
    ],
    "family": "droppings",
    "priority": 2,
-   "releaseOn": "2026-10-20"
+   "releaseOn": "2026-10-29"
   },
   {
    "section": "blog",
@@ -17240,6 +17620,591 @@
    "family": "household",
    "priority": 2,
    "releaseOn": "2026-10-28"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/how-to-get-rid-of-silverfish",
+    "/blog/booklice"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "baby-silverfish",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "baby silverfish",
+   "alsoTargets": [
+    "baby silverfish bugs",
+    "silverfish nymphs",
+    "what do baby silverfish look like",
+    "silverfish eggs",
+    "what do silverfish eggs look like",
+    "tiny silverfish",
+    "small silverfish",
+    "silverfish life cycle",
+    "how big are baby silverfish"
+   ],
+   "h1Hint": "Baby Silverfish: What Silverfish Nymphs and Eggs Look Like (Photos)",
+   "metaTitleHint": "Baby Silverfish: What the Nymphs Look Like",
+   "scope": "Life-stage photo page (WRITER_BRIEF_PHOTO_ID format 1, signs and life stages) for baby silverfish. Quick answer: baby silverfish look like tiny, pale adults without scales; UC IPM gives newly hatched nymphs about 1/16 inch, white and scaleless, with scales after the fourth molt, and NC State says the young darken to adult coloring in weeks (sizes and timings only from these or another university). The life cycle in order (eggs about 1/25 inch laid in crevices, hatching in weeks; the nymph stages; adults keep molting: UC IPM counts 45 to 60 stages), for the common silverfish and the gray (long-tailed) silverfish, and firebrat nymphs, at the sources' strength. Where people find the babies (tubs and sinks, bathrooms, basements, books, boxes, closets) and what finding them means (they are breeding indoors: humid air, starch and paper, cracks). The look-alikes with photos and the one tell: booklice (/blog/booklice), springtails that jump (/blog/springtails), young earwigs, carpet beetle larvae, cockroach nymphs (/blog/what-do-baby-cockroaches-look-like); a quick-ID table under the quick answer (size, color, scales, tail bristles, jumps or not, where found). What to do: link /blog/how-to-get-rid-of-silverfish (mustLink) for the humidity-first plan; no products. Links: /blog/how-to-get-rid-of-silverfish and /blog/booklice (mustLink), /blog/springtails, /blog/tiny-white-bugs, /blog/bugs-in-bathroom; bugs-in-basement (same day) in plain words until live. Not linked: amazon.ca trap pages, the Canadian silverfish page, the frozen pages. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1000,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/how-to-get-rid-of-silverfish",
+     "overlap": "live Oct 20; h2 \"What do baby silverfish look like?\" (UC IPM and NC State sizes and stages, eggs about 1/25 inch; booklice and springtails as look-alikes) and FAQ \"What do silverfish eggs look like?\"; alsoTargets \"silverfish in house\", \"silverfish bugs\", \"what are silverfish\", \"silverfish in bathroom\", \"firebrats\"",
+     "resolution": "keeps every control, adult and firebrat search; this page owns the baby, nymph, egg and life-cycle searches; that h2 is the hub-link host (one line linking here); link it back as the \"what to do\" page (mustLink)"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-silverfish-canada, /blog/best-silverfish-traps",
+     "overlap": "TSX (Jul 21, Jul 28): the Canadian control page and the amazon.ca trap page",
+     "resolution": "keep their searches; not linked from this US page (the Canadian page is the 30+-day link source into it)"
+    },
+    {
+     "path": "/blog/booklice, /blog/springtails, /blog/tiny-white-bugs, /blog/bugs-in-bathroom, /blog/bugs-in-carpet",
+     "overlap": "live look-alike and sorter pages (tiny-white-bugs and bugs-in-bathroom from Oct 28-30); bugs-in-bathroom has an h3 \"Silverfish\"",
+     "resolution": "they keep their searches; rows and cards linking them; /blog/booklice is mustLink"
+    },
+    {
+     "path": "bugs-in-basement (day 5, planned 2026-10-29)",
+     "overlap": "the basement sorter has a silverfish row",
+     "resolution": "it keeps the place search; link both ways"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/how-to-get-rid-of-centipedes-canada, /blog/bugs-that-look-like-bed-bugs-canada (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)); amazon.ca pages",
+     "resolution": "not linked"
+    }
+   ],
+   "family": "household",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/natural-garden-pest-control"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "tomato-hornworms",
+   "cluster": "garden",
+   "audience": "na",
+   "keyword": "tomato hornworm",
+   "alsoTargets": [
+    "tomato hornworms",
+    "hornworm",
+    "hornworms",
+    "tobacco hornworm",
+    "tomato hornworm vs tobacco hornworm",
+    "hornworm with white eggs",
+    "tomato hornworm moth",
+    "tomato hornworm damage",
+    "how to get rid of tomato hornworms",
+    "what do tomato hornworms turn into"
+   ],
+   "h1Hint": "Tomato Hornworms: How to Identify Them, the Damage and the White Cocoons",
+   "metaTitleHint": "Tomato Hornworm: Photos, Damage and Control",
+   "scope": "Photo-ID page for the tomato hornworm (Manduca quinquemaculata) and its look-alike the tobacco hornworm (Manduca sexta), the big green caterpillars with a horn at the tail end that strip tomato, pepper, eggplant and potato plants. How to tell the two apart at the sources' strength (the white marks along the side and the horn's color: UMN, MSU or Wisconsin), sizes only from a university, what the damage and the dark green droppings (frass) look like, the life cycle (eggs on leaves, larva, a pupa in the soil over winter, the adult five-spotted hawk moth or Carolina sphinx), and when they appear (by US region only where a source gives it). The hornworm covered in white cocoons: parasitized by a braconid wasp (Cotesia congregata); leave it in the garden (Maine, UF/IFAS, UMN). Control in the order the extension sources give: hand-pick; leave parasitized ones; Bt (Bacillus thuringiensis subspecies kurstaki) and other options by active ingredient only, the label is the law, no product names; till the soil after harvest. The horn does not sting (source it). Quick-ID table under the quick answer: tomato hornworm, tobacco hornworm, parasitized hornworm, and another green garden caterpillar only if a source compares them. Links: /learn/natural-garden-pest-control (mustLink), /blog/japanese-beetles, /blog/spider-mites. No quote prompt, no retailer names.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "pesticide"
+   ],
+   "minWords": 1200,
+   "parent": {
+    "href": "/learn/natural-garden-pest-control",
+    "name": "Garden Pest Control"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/natural-garden-pest-control",
+     "overlap": "live Oct 11, the garden hub; its companion-planting section weighs a chart that says basil repels tomato hornworms (\"Its list says nothing about hornworms\") and covers parasitic wasps among the beneficial insects",
+     "resolution": "keeps \"natural garden pest control\"; parent and mustLink; the link-in step adds the hub link (the parasitic wasp paragraph or the basil row)"
+    },
+    {
+     "path": "/blog/japanese-beetles, /blog/spider-mites",
+     "overlap": "live garden pages under the same hub",
+     "resolution": "siblings: link where the reader's pest changes; no overlap"
+    },
+    {
+     "path": "/blog/mosquito-hawk-explained",
+     "overlap": "TSX; shows for \"mosquito hawk moth\" by name only (it is about crane flies)",
+     "resolution": "no overlap; not linked"
+    },
+    {
+     "path": "tobacco hornworm (no page)",
+     "overlap": "the tobacco hornworm (Manduca sexta) feeds on the same plants and is just as common on tomatoes in the South",
+     "resolution": "covered here (one page per pair): \"tobacco hornworm\" and \"tomato hornworm vs tobacco hornworm\" are this page's"
+    },
+    {
+     "path": "amazon.ca garden pages",
+     "overlap": "product pages",
+     "resolution": "not linked"
+    }
+   ],
+   "family": "garden",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/house-spiders",
+    "/blog/brown-recluse-look-alikes"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "southern-house-spider",
+   "cluster": "spiders",
+   "audience": "na",
+   "keyword": "southern house spider",
+   "alsoTargets": [
+    "southern house spiders",
+    "male southern house spider",
+    "southern house spider bite",
+    "southern house spider web",
+    "crevice weaver",
+    "kukulcania hibernalis",
+    "is a southern house spider poisonous",
+    "southern house spider size"
+   ],
+   "h1Hint": "Southern House Spider: The Crevice Spider Mistaken for a Brown Recluse",
+   "metaTitleHint": "Southern House Spider: ID and Bite (Photos)",
+   "scope": "Photo-ID page for the southern house spider (Kukulcania hibernalis), a crevice weaver of the southern US: the charcoal-gray, velvety female that hides in a crack behind a flat, tangled web of woolly silk on walls, windowsills, shutters and overhangs, and the khaki to amber, long-legged male that wanders indoors and is often mistaken for a brown recluse (UF/IFAS IN301). Range and sizes only from UF/IFAS, Texas A&M or another university (UF: females 1/2 to 3/4 inch, males about 3/8 inch). The male's tells against a recluse at the sources' strength (eight eyes clumped on a raised bump vs six eyes in three pairs: UF or UC Riverside), with one row, a card and a link to /blog/brown-recluse-look-alikes for the full comparison. The web and retreat, egg sacs, how long they live and why they come inside. The bite at the sources' strength (UF: not known to have a dangerous bite; two reported bites caused pain and swelling for up to two days); bite care and when to get medical care only from CDC, MedlinePlus, AAD or a medical school. What to do: vacuum webs and egg sacs, repair cracks and seal gaps (UF's advice). Quick-ID table under the quick answer: southern house spider female and male, brown recluse, cellar spider, and another wandering spider only where a source compares them. Links: /blog/house-spiders and /blog/brown-recluse-look-alikes (mustLink), /blog/spiders-in-florida, /blog/spiders-in-texas, /blog/venomous-spiders, /tools/spider-identifier. Not linked: the frozen spider-bite pages and amazon.ca pages. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1100,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/brown-recluse-look-alikes",
+     "overlap": "live Oct 16; alsoTarget \"brown recluse vs house spider\"; h2 \"Is it a house spider or a brown recluse?\" says the house spider most often mistaken for a recluse in the South is the male southern house spider (UF), with a media placeholder for him; FAQ \"What spiders look like brown recluses in Florida?\"",
+     "resolution": "keeps the comparison: \"southern house spider vs brown recluse\" is not this page's target (as hobo-spiders left \"hobo spider vs brown recluse\" there on Oct 28); this page gives the male a section with the tells, a quick-ID row and a card linking it (mustLink)"
+    },
+    {
+     "path": "/blog/house-spiders",
+     "overlap": "live Oct 16; h3 \"What is the southern house spider?\" under \"Which house spiders live only in some regions?\", with a media placeholder; a quick-ID row; it does not link here yet",
+     "resolution": "keeps the house-spider sorter; that h3 becomes a summary with the hub link (link-in step); link it (mustLink)"
+    },
+    {
+     "path": "/blog/spiders-in-florida",
+     "overlap": "live Oct 16; h2 \"What spider makes the thick web on the house wall?\" with the southern-house-spider-female-web photo",
+     "resolution": "keeps \"spiders in florida\" and the web-on-the-wall search; link it; the alternative hub-link host"
+    },
+    {
+     "path": "/blog/spiders-in-texas",
+     "overlap": "live Oct 16; southern house spider rows and the indoor line",
+     "resolution": "keeps the state searches; link it"
+    },
+    {
+     "path": "/tools/spider-identifier",
+     "overlap": "its southern-house-spider result links /blog/brown-recluse-look-alikes and /blog/spiders-in-florida, not this page (it is not in the plan yet)",
+     "resolution": "follow-up for the tools work, not the link-in step: add /blog/southern-house-spider first in that result's links in lib/spider-quiz.ts once the page is live"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/what-does-a-spider-bite-look-like and /blog/mosquito-bite-vs-spider-bite (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)); amazon.ca and Canadian spider pages (this spider does not live in Canada)",
+     "resolution": "not linked; /blog/how-to-keep-spiders-out-of-your-house (existing, neutral anchor) counts toward the two pre-existing links"
+    }
+   ],
+   "family": "spider-id",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/house-centipedes",
+    "/blog/camel-crickets",
+    "/blog/how-to-get-rid-of-silverfish"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "bugs-in-basement",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "bugs in basement",
+   "alsoTargets": [
+    "basement bugs",
+    "bugs in my basement",
+    "small bugs in basement",
+    "tiny bugs in basement",
+    "basement insects",
+    "bugs in crawl space",
+    "black bugs in basement",
+    "what bugs live in basements",
+    "how to keep bugs out of basement"
+   ],
+   "h1Hint": "Bugs in the Basement: What They Are and Why They Live There (Photos)",
+   "metaTitleHint": "Bugs in the Basement? Identify Them (Photos)",
+   "scope": "Bugs-in-a-place sorter (WRITER_BRIEF_PHOTO_ID format 2; models /blog/bugs-in-kitchen and /blog/bugs-in-bathroom) for the basement. Quick answer: most basement bugs are moisture lovers (house centipedes, camel crickets, silverfish, springtails, millipedes, pill bugs and sow bugs, cellar spiders), and drying the basement works on all of them (EPA's 30 to 50 percent indoor humidity target; extension sources). h2s by where and how the reader sees them: running across the floor or up a wall at night (house centipedes; camel crickets that jump; ground beetles; oriental cockroaches near floor drains); along walls and floor edges after rain (millipedes, pill bugs and sow bugs, earwigs: they come in from outside); tiny jumping or flying specks around a floor drain, sump pit or damp concrete (springtails, drain flies, fungus gnats from stored potting soil); in boxes, books and paper (silverfish and booklice; spider beetles in old stored food or nests); in corners and ceiling joists (cellar spiders, house spiders, the woodlouse spider); in winter, the overwintering invaders that end up in basements (link /blog/bugs-in-house-in-winter). Where they come from (moisture, cracks and gaps, window wells, mulch and leaf litter against the foundation) and the fix per bug from extension sources: dehumidify, fix leaks, gutters and grading, seal gaps and window wells, store boxes off the floor in sealed bins; no pesticide products (link each bug's own page). A how-to-tell checklist for the bug in a jar and a quick-ID facts table under the quick answer (size, color, where in the basement, crawls, jumps or flies, the one tell). Leave to other pages: camel crickets in basement (/blog/camel-crickets), centipedes in basement (/blog/house-centipedes), cellar spiders (/blog/daddy-long-legs), silverfish (/blog/how-to-get-rid-of-silverfish), the dehumidifier searches. Link the same-day siblings (woodlouse-spiders, baby-silverfish) and the room sorters. Not linked: the frozen pages and amazon.ca pages. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/house-centipedes and /blog/how-to-get-rid-of-centipedes-canada",
+     "overlap": "house-centipedes (live Oct 16) covers centipedes in basements; the Canadian centipede page (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C)) holds \"how to get rid of centipedes in basement\" at 5.4",
+     "resolution": "they keep every centipede search; the centipede row links /blog/house-centipedes (mustLink); the frozen page is not linked"
+    },
+    {
+     "path": "/blog/camel-crickets, /blog/crickets-in-house",
+     "overlap": "camel-crickets (live Oct 22) targets \"camel crickets in basement\" (h2 \"Why are there camel crickets in my basement?\"); crickets-in-house (Oct 30) has \"Humpbacked and silent in the basement\"",
+     "resolution": "they keep them; a row and link each (camel-crickets is mustLink)"
+    },
+    {
+     "path": "/blog/daddy-long-legs, /blog/house-spiders, woodlouse-spiders (day 5)",
+     "overlap": "cellar spider searches (daddy-long-legs targets \"cellar spider\"); house-spiders' h2 \"What is the red spider with big fangs in the basement?\"",
+     "resolution": "they keep them; rows and links"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-silverfish, baby-silverfish (day 5), /blog/booklice, /blog/springtails, /blog/millipedes, /blog/pill-bugs, /blog/how-to-get-rid-of-earwigs, /blog/beetles-in-house, /blog/oriental-cockroaches",
+     "overlap": "each bug's own page; springtails has an h3 \"Basements, crawl spaces and walls\"; beetles-in-house an h2 \"What are the big black beetles in the basement or by the door?\"",
+     "resolution": "each keeps its searches; one row or card each, linked; the silverfish page is mustLink"
+    },
+    {
+     "path": "/blog/bugs-in-bathroom, /blog/bugs-in-kitchen, /blog/bugs-in-carpet, /blog/tiny-black-bugs, /blog/tiny-white-bugs, /blog/bugs-in-house-in-winter",
+     "overlap": "room, color and season sorters; bugs-in-carpet has \"What are the tiny pale bugs in a damp basement or bathroom?\"; bugs-in-house-in-winter has \"Which bugs live in the house all winter?\"",
+     "resolution": "they keep their searches; this page owns the basement place search; link where the reader's room, color or season changes"
+    },
+    {
+     "path": "amazon.ca moisture pages",
+     "overlap": "/blog/best-dehumidifier-for-basement-canada, /blog/best-crawl-space-dehumidifier-canada, /blog/best-sump-pump-for-basement-canada, /blog/what-size-dehumidifier-do-i-need-canada: the dehumidifier and sump searches",
+     "resolution": "they keep them; not linked from this US page (the first one is the 30+-day link source into it)"
+    },
+    {
+     "path": "frozen pages",
+     "overlap": "/blog/how-to-get-rid-of-centipedes-canada, /blog/how-to-get-rid-of-drain-flies-canada, /blog/how-to-get-rid-of-carpet-beetles-canada, /blog/how-to-get-rid-of-cockroaches-canada, /blog/mouse-repellent-canada, /blog/mouse-bait-station-canada (frozen to Oct 30 (gsc-review-2026-10-18.md, Appendix C))",
+     "resolution": "not linked"
+    }
+   ],
+   "family": "household",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/bug-bites",
+    "/blog/dust-mites",
+    "/blog/mite-bites"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "dust-mite-bites",
+   "cluster": "mites",
+   "audience": "na",
+   "keyword": "dust mite bites",
+   "alsoTargets": [
+    "do dust mites bite",
+    "dust mite bites on humans",
+    "what do dust mite bites look like",
+    "can dust mites bite you",
+    "dust mite rash",
+    "dust mite allergy rash",
+    "dust mite bites vs bed bug bites",
+    "dust mite bites treatment"
+   ],
+   "h1Hint": "Dust Mite Bites: Do Dust Mites Bite, and What Is Causing Your Itchy Rash?",
+   "metaTitleHint": "Dust Mite Bites: Do Dust Mites Bite? (Photos)",
+   "scope": "Answer page for \"dust mite bites\" (health publishers hold page one: aim for page one, not the top 3). The reader has itchy red bumps or a rash, often noticed in bed or on waking, and thinks dust mites are biting. Lead with a photo and the answer: dust mites do not bite people (they eat shed skin flakes); what they can do is trigger an allergy, and in some people that allergy shows on the skin, for example as itching or an eczema flare (only at NIH, NIEHS, MedlinePlus, AAD, a medical school or the Merck Manual's strength; never diagnose). Then: how an allergy flare differs from bites (only as the medical sources describe it); a \"what is really biting you\" table at the medical and extension sources' strength: bed bugs (bites on skin exposed in bed, often in rows or clusters: link /blog/signs-of-bed-bugs-checklist, what-do-bed-bug-bites-look-like when live), fleas (ankles and lower legs: /blog/fleas-on-humans, flea-bites when live), bird and rodent mites (after a nest empties or rodents are removed: /blog/mite-bites), scabies (burrows, night itch, between the fingers: scabies-vs-bed-bugs when live), carpet beetle larvae (an itchy rash from their hairs: /blog/carpet-beetle-rash), chiggers and mosquitoes (bites picked up outdoors); how to check the bed for a real biter (link /blog/bed-bug-bites-but-no-bed-bugs); if dust mite allergy is the cause, a short summary of the NIEHS steps (encasements, hot-water washing, humidity), linking /blog/dust-mites for the detail; and a \"When to get medical care\" warning callout (a rash that spreads or does not improve, signs of infection, fever, wheezing or trouble breathing, suspected scabies: medical sources only). Quick-ID facts table under the quick answer (cause, what you see, where on the body, when, the tell). Medical rules (as on mite-bites): health claims only from CDC, NIH (NIEHS, MedlinePlus, NCBI Bookshelf), AAD, medical schools or the Merck Manual; mite biology may also come from a university extension; anti-itch care in general terms only, no product names or doses; allergy testing and treatment are a clinician's call. Links: /learn/bug-bites, /blog/dust-mites and /blog/mite-bites (mustLink), /blog/bed-bug-bites-but-no-bed-bugs, /blog/carpet-beetle-rash, /blog/fleas-on-humans, /blog/signs-of-bed-bugs-checklist, /tools/bug-bite-identifier. Not linked: the frozen pages, /blog/bed-bug-bites, every amazon.ca page. No quote prompt.",
+   "pageType": "bite-sting",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "parent": {
+    "href": "/learn/bug-bites",
+    "name": "Bug Bites"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/dust-mites",
+     "overlap": "live Oct 28; owns \"dust mites\", \"dust mite allergy\", \"dust mite allergy symptoms\", \"dust mites in bed\", \"how to get rid of dust mites\" and \"dust mites vs bed bugs\"; h2 \"Do dust mites bite?\" with h3 \"Which mites do bite people?\" (its planner left \"dust mite bites\" to this page)",
+     "resolution": "keeps them; this page owns \"dust mite bites\", \"do dust mites bite\" and the rash searches; the dust-mites h2 stays a short answer that links here (a link-in at release); this page summarizes the NIEHS reduction steps in a few lines and links dust-mites for the detail (mustLink)"
+    },
+    {
+     "path": "/blog/mite-bites",
+     "overlap": "live Oct 28; owns \"mite bites\" and the which-mite sorter; its \"Which mites do not bite people?\" names dust mites",
+     "resolution": "keeps them; this page links it for the mites that do bite (bird and rodent mites, itch mites, chiggers) and adds one line each, no per-mite sections (mustLink)"
+    },
+    {
+     "path": "/blog/bed-bug-bites-but-no-bed-bugs",
+     "overlap": "live Oct 21; owns \"no signs of bed bugs but i have bites\" and \"what is biting me at night\"; covers fleas, mites, scabies and carpet beetle larvae",
+     "resolution": "keeps the night-bite searches; this page's \"what else could it be\" part is a short table linking it, not a second night-bites sorter"
+    },
+    {
+     "path": "/blog/carpet-beetle-rash, /blog/fleas-on-humans, /blog/signs-of-bed-bugs-checklist (live); flea-bites (scheduled 2026-10-31), what-do-bed-bug-bites-look-like (scheduled 2026-11-11), scabies-vs-bed-bugs (planned 2026-12-14)",
+     "overlap": "the real causes of the bumps people blame on dust mites",
+     "resolution": "one row each in the table, linked (planned pages in plain words until live)"
+    },
+    {
+     "path": "/learn/bug-bites",
+     "overlap": "live hub (the parent); its \"Which other bugs bite people?\" mites paragraph",
+     "resolution": "keeps \"bug bite identification\"; that paragraph is the hub link-in host; this page links it (mustLink)"
+    },
+    {
+     "path": "frozen, read and product pages",
+     "overlap": "/blog/chigger-bites, /blog/flea-bites-on-humans, /blog/bugs-that-look-like-bed-bugs-canada (Appendix C; the test window closed Oct 28, but no edits are planned to them); /blog/bed-bug-bites (read Nov 3-10); amazon.ca dust mite pages (/blog/best-air-purifier-for-dust-mites-canada, /blog/best-steam-cleaner-for-pest-control-canada, /blog/best-hepa-vacuum-for-allergies-canada, /blog/bed-bug-mattress-encasement-canada)",
+     "resolution": "not linked from this page (one page, one store; /blog/bed-bug-bites stays untouched for its read); the air purifier page links in as the 30+ day host (one added link, no lines removed)"
+    }
+   ],
+   "family": "mites",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/holes-in-yard"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "skunk-smell-in-house",
+   "cluster": "wildlife",
+   "audience": "na",
+   "keyword": "skunk smell in house",
+   "alsoTargets": [
+    "house smells like skunk",
+    "why does my house smell like skunk",
+    "skunk smell in house at night",
+    "skunk smell in house but no skunk",
+    "skunk smell under house",
+    "skunk smell in basement",
+    "how to get rid of skunk smell in house",
+    "is skunk smell in house dangerous"
+   ],
+   "h1Hint": "Skunk Smell in the House: What Causes It, When It Could Be a Gas Leak and How to Get It Out",
+   "metaTitleHint": "Skunk Smell in the House? Causes and Fixes",
+   "scope": "Cause sorter for \"skunk smell in house\" (a thin, spam-filled page one: a cause checklist plus odor-removal steps should reach the top 3). The reader smells skunk inside, often at night, with no skunk in sight. Put the safety check first, in a warning callout: utilities add an odorant to natural gas so leaks can be smelled, and some people find it skunk-like; if it might be gas, leave now, do not use switches, phones or flames inside, and call 911 or the gas utility from outside (PHMSA's \"Pipeline Leak Recognition and What to Do\" or the utility's own wording, at their strength). Then the causes, each with its tell: a skunk sprayed near the house and the odor came in through windows, vents or an air intake; a skunk denning under a deck, porch, shed or crawl space (dens at ground level: University of Nebraska-Lincoln, ICWDM, a state wildlife agency); a pet that was sprayed; a dead skunk under the house (UNL: removing the carcass is what ends the odor; rabies caution); sewer gas from a dry drain trap (a university or state source); anything else only where a credible source names it. How to find the source (which rooms, when, after rain, after the pet came in). How to get the smell out at extension strength: ventilate; wash fabrics; the hydrogen peroxide, baking soda and dish soap mix for pets and people exactly as Penn State Extension (\"Sprayed by a skunk\") and UNL give it, mixed in an open container and used at once, never stored, kept out of eyes; what does not work only where a source says so. How to keep skunks out (seal openings under decks and porches only after making sure no animal or young is inside, one-way doors and timing outside the birthing season, as UNL and state agencies say; a summary linking /blog/raccoon-and-skunk-proofing-under-a-deck-canada); rabies: skunks are a rabies reservoir in the US (CDC); do not trap or handle them (UGA, as /blog/holes-in-yard says); a skunk acting sick or out by day goes to animal control or the state wildlife agency. Quick-ID facts table (cause, what you smell, where, when, what to do). Links: /blog/holes-in-yard (mustLink), /blog/animals-in-attic, /blog/animal-droppings, /blog/raccoon-and-skunk-proofing-under-a-deck-canada (neutral anchor). Not linked: amazon.ca product pages, service pages. No quote prompt, no wildlife-removal pitch.",
+   "pageType": "entity-id",
+   "flags": [
+    "id",
+    "health"
+   ],
+   "minWords": 1200,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+     "overlap": "existing TSX page (Canadian, amazon.ca; Aug 22); the site's only skunk exclusion page (1,270 impressions in 90 days, no smell searches); its FAQ \"How do I get rid of the skunk smell under a deck?\" and the musk line in its den-signs list",
+     "resolution": "keeps the deck and porch proofing searches; this page's \"a skunk under the house or deck\" section is a short summary at extension strength that links it with a neutral anchor (as /blog/holes-in-yard does); its body is the 30+ day link-in host (one added link, no lines removed)"
+    },
+    {
+     "path": "/blog/holes-in-yard",
+     "overlap": "live Oct 20; skunks and raccoons dig cone-shaped holes for grubs; it already links the deck proofing page",
+     "resolution": "keeps the hole searches; one line here, linked (mustLink); its skunk and raccoon digging section is the family link-in host"
+    },
+    {
+     "path": "/blog/animal-droppings, /blog/animals-in-attic",
+     "overlap": "live Oct 20; skunk mentions (skunk droppings left out of the chart for lack of a source size; UGA's trapping and rabies line)",
+     "resolution": "they keep their searches; link where relevant"
+    },
+    {
+     "path": "natural gas and sewer gas",
+     "overlap": "not pest pages: a smell that can be mistaken for skunk",
+     "resolution": "the gas-leak box comes first, in PHMSA's or the gas utility's own words and strength; a dry drain trap gets one short section from a university or state source; no page of ours covers either"
+    },
+    {
+     "path": "product and service pages",
+     "overlap": "/blog/motion-activated-sprinkler-canada, /blog/best-live-animal-trap-canada, /blog/raccoon-deterrent (amazon.ca); the GTA city pages that catch local skunk searches",
+     "resolution": "not linked; no trap, repellent or removal pitch (BuzzSkito does not handle skunks)"
+    }
+   ],
+   "family": "wildlife",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/learn/cockroaches",
+    "/blog/bugs-that-look-like-cockroaches"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "wood-roaches",
+   "cluster": "cockroaches",
+   "audience": "na",
+   "keyword": "wood roach",
+   "alsoTargets": [
+    "wood roaches",
+    "wood cockroach",
+    "wood cockroaches",
+    "pennsylvania wood cockroach",
+    "wood roach vs cockroach",
+    "wood roaches in house",
+    "are wood roaches harmful",
+    "do wood roaches infest homes",
+    "can wood roaches fly"
+   ],
+   "h1Hint": "Wood Roaches: How to Tell a Wood Cockroach From the Roaches That Infest Homes (Photos)",
+   "metaTitleHint": "Wood Roach vs Cockroach: How to Tell (Photos)",
+   "scope": "Species page for \"wood roach\" (two thin university pages and brands on page one: page one is realistic, the top 3 needs links). The reader found a brown roach indoors, often in spring, near firewood or under a porch light, or a winged one that flew to a light, and wants to know whether it means an infestation. Quick answer: wood cockroaches (Parcoblatta, twelve North American species; the Pennsylvania wood cockroach is the most common) live outdoors under loose bark, in woodpiles and leaf litter; males have full wings and fly to lights; indoors they die within days and do not breed, so one is a nuisance, not an infestation, and pesticides are neither necessary nor recommended (Penn State Extension, University of Kentucky, Iowa State, University of Minnesota). Then: how to identify one (photos of male and female: males with long wings, females with short wings and a broad abdomen; pale edges on the wings and shield in some species; sizes up to about 1 inch; nymphs); wood roach vs German, American and Oriental cockroaches (a quick-ID facts table: size, color, wings, where found, breeds indoors or not; cards); why they come inside (lights at night, firewood brought in for winter, gaps around doors and windows: Kentucky, Penn State); when (at the sources' strength); are they harmful (not a known disease carrier, do not infest food or belongings: University of Minnesota); and what to do (exclusion: seal gaps and fit door sweeps, keep firewood outdoors and bring in only what you will burn, switch off or change outdoor lights; no sprays, as Penn State says). Leave to other pages: palmetto bugs and the Florida woods cockroach (/blog/palmetto-bugs), can cockroaches fly (/blog/can-cockroaches-fly), bugs that look like cockroaches (that page), baby cockroaches. Links: /learn/cockroaches and /blog/bugs-that-look-like-cockroaches (mustLink), /blog/can-cockroaches-fly, /blog/palmetto-bugs, /blog/where-do-cockroaches-come-from, /blog/german-cockroaches. Not linked: the frozen and amazon.ca pages. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1100,
+   "parent": {
+    "href": "/learn/cockroaches",
+    "name": "Cockroaches"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/learn/cockroaches",
+     "overlap": "live pillar (the parent); h3 \"Wood roaches\" (Parcoblatta; Kentucky: they cannot survive indoors)",
+     "resolution": "keeps \"cockroaches\" and the species overview; its wood roach paragraph stays a summary and is the hub link-in host; this page links it (mustLink)"
+    },
+    {
+     "path": "/blog/bugs-that-look-like-cockroaches",
+     "overlap": "live Oct 7 (11,096 impressions in 90 days); a wood cockroach card and two FAQs (\"Is a wood cockroach the same as the roaches that infest homes?\", \"Does finding one wood cockroach mean I have an infestation?\")",
+     "resolution": "keeps \"bugs that look like cockroaches\" and the look-alikes; its wood cockroach section stays a summary that links here (a link-in candidate); this page links it (mustLink)"
+    },
+    {
+     "path": "/blog/can-cockroaches-fly",
+     "overlap": "live Oct 7; holds \"can/do wood roaches fly\" at 8-14 (37 US impressions) and has a \"Wood cockroaches\" section",
+     "resolution": "keeps \"can cockroaches fly\"; this page answers \"can wood roaches fly\" in one FAQ (males fly to lights, females cannot: Penn State) and links it"
+    },
+    {
+     "path": "/blog/palmetto-bugs",
+     "overlap": "live Oct 16; owns \"palmetto bug\" and covers the Florida woods cockroach (Eurycotis floridana), the South's other \"woods roach\"",
+     "resolution": "keeps the Florida woods cockroach; one card here, linked; this page is about the Parcoblatta wood cockroaches"
+    },
+    {
+     "path": "/blog/where-do-cockroaches-come-from, /blog/german-cockroaches, /blog/oriental-cockroaches, /blog/what-do-baby-cockroaches-look-like",
+     "overlap": "live; entry routes (firewood, lights) and the indoor roaches a wood roach is mistaken for",
+     "resolution": "one card or link each; no shared targets"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/how-to-get-rid-of-cockroaches-canada (Appendix C); amazon.ca pages (/blog/best-cockroach-spray-canada, /blog/best-roach-traps-canada, /blog/best-cockroach-killer-canada, /blog/advion-cockroach-gel-bait)",
+     "resolution": "not linked from this page; /blog/best-cockroach-spray-canada links in as the 30+ day host (one added link, no lines removed)"
+    }
+   ],
+   "family": "household",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
+  },
+  {
+   "section": "blog",
+   "role": "page",
+   "minExisting": 2,
+   "mustLink": [
+    "/blog/tiny-black-bugs",
+    "/blog/red-ticks-and-clover-mites"
+   ],
+   "neighbors": [],
+   "minNeighbors": 0,
+   "slug": "tiny-red-bugs",
+   "cluster": "household",
+   "audience": "na",
+   "keyword": "tiny red bugs",
+   "alsoTargets": [
+    "small red bugs",
+    "little red bugs",
+    "very small red bugs",
+    "tiny red bugs in house",
+    "tiny red bugs on walls",
+    "tiny red bugs on windowsill",
+    "tiny red bugs on plants",
+    "tiny red bugs on concrete",
+    "red mites",
+    "what are these tiny red bugs"
+   ],
+   "h1Hint": "Tiny Red Bugs: What They Are, Where You Find Them and Which Ones Bite (Photos)",
+   "metaTitleHint": "Tiny Red Bugs? Identify Them (Photos)",
+   "scope": "Color sorter for \"tiny red bugs\" (WRITER_BRIEF_PHOTO_ID format 2, the tiny-black-bugs model). The reader sees tiny red specks or bugs on a wall, windowsill, patio, plant or their skin and wants to know what they are and whether they bite. Quick answer: indoors and on sunny walls in spring and fall the usual tiny red bug is the clover mite (smaller than a pinhead, red to reddish brown, very long front legs; harmless to people; leaves a red smear when crushed: University of Minnesota, Penn State, Maryland or South Dakota State Extension); outdoors the main biter is the chigger (larvae almost too small to see, called red bugs in the South); the rest are red velvet mites, spider mites on plants, boxelder bug nymphs on sunny walls, and red insects such as fire ants and velvet ants (each at an extension source's strength). h2s by where the reader sees them: on walls, windowsills and siding (clover mites, boxelder bug nymphs); on patios, sidewalks and soil (red velvet mites; clover mites on concrete); on plants (spider mites, red aphids: link /blog/spider-mites, /blog/houseplant-bugs); on your skin or after time outdoors (chiggers: you rarely see them, the bites show later, link /blog/chigger-bites and /blog/mite-bites; fire ants: /blog/red-ants; a red bug attached to the skin may be a tick: one line linking /blog/red-ticks-and-clover-mites); in bed (a bed bug nymph is bright red just after feeding: /blog/what-do-bed-bugs-look-like); in the pool (water mites, only if a source covers them); and which ones bite or sting (chiggers, fire ants, velvet ants, bed bugs) and which do not bite people (clover mites, red velvet mites, spider mites, boxelder bugs: sources). What to do about clover mites indoors (vacuum or wipe them up rather than crush them; seal gaps; a plant-free strip along the foundation: only as the extension source gives it; no miticide products). A size scale (pinhead, 1/32 inch, 1/8 inch) and a quick-ID facts table under the quick answer (bug, size, color, where, bites or not, the one tell). Leave to other pages: red ticks and every tick look-alike search (/blog/red-ticks-and-clover-mites), \"red bug bites\" and chiggers (/blog/chigger-bites), black and red boxelder bugs (the boxelder pages), spider mites (/blog/spider-mites), red ants (/blog/red-ants). Links: /blog/tiny-black-bugs and /blog/red-ticks-and-clover-mites (mustLink), /blog/tiny-brown-bugs, /blog/tiny-white-bugs, /blog/chigger-bites, /blog/mite-bites, /blog/spider-mites, /blog/red-ants, /blog/houseplant-bugs, /blog/kissing-bug-look-alikes. Not linked: /blog/bugs-that-look-like-ticks, /blog/how-to-get-rid-of-boxelder-bugs-canada, amazon.ca pages. No quote prompt.",
+   "pageType": "entity-id",
+   "flags": [
+    "id"
+   ],
+   "minWords": 1300,
+   "parent": {
+    "href": "/learn",
+    "name": "Learning Centre"
+   },
+   "pairWith": null,
+   "collisions": [
+    {
+     "path": "/blog/red-ticks-and-clover-mites",
+     "overlap": "existing TSX page (Appendix C); owns \"red tick\", \"red ticks\", \"tiny red tick\", \"small red tick\" (29,436 impressions in 90 days, 12,102 US) and \"red bug that looks like a tick\" / \"clover mite vs tick\"; title \"Red Ticks: What That Tiny Red Bug Is (Photos)\", h2s on clover mites (\"What Are the Tiny Red Bugs on My Windowsill?\"); the Oct 14 upgrade plan gives it \"tiny red spiders\"",
+     "resolution": "keeps every tick and clover-mite-vs-tick search and \"tiny red spiders\"; this page owns the color search without \"tick\" (no \"tick\" in its title, h1 or meta), gives clover mites one short section (the commonest tiny red bug indoors) and the tick question one line, and links it (the freeze test window closed Oct 28: commit 5749e1f4 links frozen pages; no edits to it are planned)"
+    },
+    {
+     "path": "/blog/chigger-bites",
+     "overlap": "existing TSX page (Appendix C); owns chiggers and \"red bug bites\" (red bugs is a Southern name for chiggers: 233 impressions at 12.9)",
+     "resolution": "keeps them; one short section here (barely visible larvae that bite outdoors) linking it and /blog/mite-bites"
+    },
+    {
+     "path": "/blog/how-to-get-rid-of-boxelder-bugs-canada (Appendix C) and how-to-get-rid-of-boxelder-bugs (US edition, planned)",
+     "overlap": "\"black and red bugs\" and boxelder bugs (the nymphs are bright red)",
+     "resolution": "they keep the boxelder searches; one row and card here; the US page in plain words until live; the Canadian page not linked"
+    },
+    {
+     "path": "/blog/spider-mites, /blog/houseplant-bugs, /blog/red-ants, /blog/fire-ant-stings, /blog/kissing-bug-look-alikes, /blog/what-do-bed-bugs-look-like (live); velvet-ants (planned 2026-12-28)",
+     "overlap": "red spider mites on plants, red fire ants, red-and-black bugs, a bed bug nymph that is bright red after feeding, red furry velvet ants",
+     "resolution": "they keep their searches; one row or card each, linked (velvet-ants in plain words until live)"
+    },
+    {
+     "path": "/blog/tiny-black-bugs, /blog/tiny-brown-bugs, /blog/tiny-white-bugs",
+     "overlap": "live color sorters (Oct 16, 20 and 28)",
+     "resolution": "they keep their colors; link all three (mustLink: tiny-black-bugs, the family link-in host)"
+    },
+    {
+     "path": "frozen and product pages",
+     "overlap": "/blog/bugs-that-look-like-ticks (Appendix C); amazon.ca pages",
+     "resolution": "not linked; no miticide or spray products"
+    }
+   ],
+   "family": "household",
+   "priority": 2,
+   "releaseOn": "2026-10-29"
   }
  ]
 }

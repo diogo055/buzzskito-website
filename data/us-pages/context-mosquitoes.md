@@ -440,7 +440,7 @@
 - `/blog/sweat-bees` — sweat bees
 - `/blog/bug-bites-on-dogs` — bug bites on dogs
 - `/blog/spider-mites` — spider mites
-- `/blog/lovebugs` — love bugs
+- `/blog/lovebugs` — lovebugs
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
@@ -531,6 +531,14 @@
 - `/blog/rat-nest` — rat nest
 - `/blog/bugs-in-bathroom` — bugs in bathroom
 - `/blog/bugs-in-kitchen` — bugs in kitchen
+- `/blog/baby-silverfish` — baby silverfish
+- `/blog/tomato-hornworms` — tomato hornworm
+- `/blog/southern-house-spider` — southern house spider
+- `/blog/bugs-in-basement` — bugs in basement
+- `/blog/dust-mite-bites` — dust mite bites
+- `/blog/skunk-smell-in-house` — skunk smell in house
+- `/blog/wood-roaches` — wood roach
+- `/blog/tiny-red-bugs` — tiny red bugs
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

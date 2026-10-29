@@ -24,6 +24,8 @@
 
 - `/blog/houseplant-bugs` — **bugs on houseplants** (also: houseplant pests; white bugs on plants; tiny bugs in houseplant soil; spider mites on houseplants; mealybugs; thrips on houseplants). A "which bug is on my plant" photo sorter for indoor plants, by the sign you see: spider mites (webbing), mealybugs (white fluff), scale, thrips, aphids, whiteflies, fungus gnats and springtails. Each gets a photo, its size and the one feature that settles it, then a link to the page that treats it: /learn/how-to-get-rid-of-fungus-gnats, /learn/aphid-control-guide and /learn/whitefly-identification-control keep those pests. The species searches (spider mites, thrips, mealybugs) go to knowledge panels and to spider-mites (planned): show each as one candidate and link. Photos on record: spider mite webbing, twospotted spider mite, aphid and whitefly records; mealybug, scale and thrips photos are still needed.
 
+- `/blog/tomato-hornworms` — **tomato hornworm** (also: tomato hornworms; hornworm; hornworms; tobacco hornworm; tomato hornworm vs tobacco hornworm; hornworm with white eggs; tomato hornworm moth; tomato hornworm damage; how to get rid of tomato hornworms; what do tomato hornworms turn into). Photo-ID page for the tomato hornworm (Manduca quinquemaculata) and its look-alike the tobacco hornworm (Manduca sexta), the big green caterpillars with a horn at the tail end that strip tomato, pepper, eggplant and potato plants. How to tell the two apart at the sources' strength (the white marks along the side and the horn's color: UMN, MSU or Wisconsin), sizes only from a university, what the damage and the dark green droppings (frass) look like, the life cycle (eggs on leaves, larva, a pupa in the soil over winter, the adult five-spotted hawk moth or Carolina sphinx), and when they appear (by US region only where a source gives it). The hornworm covered in white cocoons: parasitized by a braconid wasp (Cotesia congregata); leave it in the garden (Maine, UF/IFAS, UMN). Control in the order the extension sources give: hand-pick; leave parasitized ones; Bt (Bacillus thuringiensis subspecies kurstaki) and other options by active ingredient only, the label is the law, no product names; till the soil after harvest. The horn does not sting (source it). Quick-ID table under the quick answer: tomato hornworm, tobacco hornworm, parasitized hornworm, and another green garden caterpillar only if a source compares them. Links: /learn/natural-garden-pest-control (mustLink), /blog/japanese-beetles, /blog/spider-mites. No quote prompt, no retailer names.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -372,7 +374,7 @@
 - `/blog/mud-daubers` — mud dauber
 - `/blog/sweat-bees` — sweat bees
 - `/blog/bug-bites-on-dogs` — bug bites on dogs
-- `/blog/lovebugs` — love bugs
+- `/blog/lovebugs` — lovebugs
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
@@ -461,6 +463,13 @@
 - `/blog/rat-nest` — rat nest
 - `/blog/bugs-in-bathroom` — bugs in bathroom
 - `/blog/bugs-in-kitchen` — bugs in kitchen
+- `/blog/baby-silverfish` — baby silverfish
+- `/blog/southern-house-spider` — southern house spider
+- `/blog/bugs-in-basement` — bugs in basement
+- `/blog/dust-mite-bites` — dust mite bites
+- `/blog/skunk-smell-in-house` — skunk smell in house
+- `/blog/wood-roaches` — wood roach
+- `/blog/tiny-red-bugs` — tiny red bugs
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

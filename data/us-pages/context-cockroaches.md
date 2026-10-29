@@ -34,6 +34,8 @@
 
 - `/blog/brown-banded-cockroaches` — **brown banded cockroach** (also: light colored cockroach; light colored roach; brown banded cockroaches; brownbanded cockroach; brown banded roach; brown banded cockroach vs german cockroach). Supella longipalpa for US readers, identification first: a small roach about 1/2 inch long (UC IPM, Penn State, UF; up to 5/8 inch per Texas A&M and Clemson: give the range) with two light bands across the wings and abdomen (UC IPM), males golden tan with wings that cover the abdomen, females darker and broader with shorter wings (UC IPM, UF, Texas A&M); on adult males the wings can hide the bands (Clemson). Then the "light colored cockroach" question as a sorter, with a quick-ID table (one row per light-colored roach) and look-alike cards: brown-banded (bands across the body, found away from the kitchen), German (two dark stripes behind the head, kitchens and bathrooms; /blog/german-cockroaches), the Asian cockroach (looks like a German but flies to lights; /blog/can-cockroaches-fly) and a just-molted roach of any species (white, darkening within hours, per UC IPM; /blog/white-cockroach); "brown banded cockroach vs german cockroach" gets its own h2. Where it lives, the best tell after the bands: warm (about 80°F, UC IPM), dry, dim spots nearer the ceiling than the floor and away from water (Penn State, Texas A&M): upper walls, cabinets and closets, behind picture frames, under and inside furniture, in and near electronics and appliances (UC IPM, Penn State, Clemson), not the kitchen-and-sink spots of the German cockroach; UC IPM's "about 1% of indoor infestations" is a California figure, so say so. Egg cases glued in clusters under furniture and drawers, on ceilings and in closets, about 1/4 inch (UC IPM, Clemson), a habit that spreads the species with furniture (Ebeling, as /blog/cockroach-eggs cites him): one short section that links /blog/cockroach-eggs. Nymphs, signs and how they get in get a short section each, linking /blog/what-do-baby-cockroaches-look-like (which keeps the "baby" searches), /blog/signs-of-cockroaches and /blog/where-do-cockroaches-come-from. Whether it flies is one FAQ that links /blog/can-cockroaches-fly, at the sources' strength (males only: sometimes when disturbed, especially above 85°F, per UC IPM; readily, per Penn State). Health at the sources' strength (allergens and asthma from EPA; carried bacteria only as Penn State puts it). Control goes to /blog/how-to-get-rid-of-cockroaches (UC IPM says baits work less well on this species; no product advice here). Sources: UC IPM Pest Notes: Cockroaches, Texas A&M's brown-banded cockroach page, Penn State Extension, Kentucky ENTFACT-614, UF/IFAS's brownbanded cockroach page, Clemson HGIC 2449 and CDC's droppings key; NC State only where one of its pages covers this species.
 
+- `/blog/wood-roaches` — **wood roach** (also: wood roaches; wood cockroach; wood cockroaches; pennsylvania wood cockroach; wood roach vs cockroach; wood roaches in house; are wood roaches harmful; do wood roaches infest homes; can wood roaches fly). Species page for "wood roach" (two thin university pages and brands on page one: page one is realistic, the top 3 needs links). The reader found a brown roach indoors, often in spring, near firewood or under a porch light, or a winged one that flew to a light, and wants to know whether it means an infestation. Quick answer: wood cockroaches (Parcoblatta, twelve North American species; the Pennsylvania wood cockroach is the most common) live outdoors under loose bark, in woodpiles and leaf litter; males have full wings and fly to lights; indoors they die within days and do not breed, so one is a nuisance, not an infestation, and pesticides are neither necessary nor recommended (Penn State Extension, University of Kentucky, Iowa State, University of Minnesota). Then: how to identify one (photos of male and female: males with long wings, females with short wings and a broad abdomen; pale edges on the wings and shield in some species; sizes up to about 1 inch; nymphs); wood roach vs German, American and Oriental cockroaches (a quick-ID facts table: size, color, wings, where found, breeds indoors or not; cards); why they come inside (lights at night, firewood brought in for winter, gaps around doors and windows: Kentucky, Penn State); when (at the sources' strength); are they harmful (not a known disease carrier, do not infest food or belongings: University of Minnesota); and what to do (exclusion: seal gaps and fit door sweeps, keep firewood outdoors and bring in only what you will burn, switch off or change outdoor lights; no sprays, as Penn State says). Leave to other pages: palmetto bugs and the Florida woods cockroach (/blog/palmetto-bugs), can cockroaches fly (/blog/can-cockroaches-fly), bugs that look like cockroaches (that page), baby cockroaches. Links: /learn/cockroaches and /blog/bugs-that-look-like-cockroaches (mustLink), /blog/can-cockroaches-fly, /blog/palmetto-bugs, /blog/where-do-cockroaches-come-from, /blog/german-cockroaches. Not linked: the frozen and amazon.ca pages. No quote prompt.
+
 ## Pillars (hub pages)
 
 - `/learn/bed-bugs` — the complete bed bugs reference
@@ -384,7 +386,7 @@
 - `/blog/sweat-bees` — sweat bees
 - `/blog/bug-bites-on-dogs` — bug bites on dogs
 - `/blog/spider-mites` — spider mites
-- `/blog/lovebugs` — love bugs
+- `/blog/lovebugs` — lovebugs
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
@@ -467,6 +469,13 @@
 - `/blog/rat-nest` — rat nest
 - `/blog/bugs-in-bathroom` — bugs in bathroom
 - `/blog/bugs-in-kitchen` — bugs in kitchen
+- `/blog/baby-silverfish` — baby silverfish
+- `/blog/tomato-hornworms` — tomato hornworm
+- `/blog/southern-house-spider` — southern house spider
+- `/blog/bugs-in-basement` — bugs in basement
+- `/blog/dust-mite-bites` — dust mite bites
+- `/blog/skunk-smell-in-house` — skunk smell in house
+- `/blog/tiny-red-bugs` — tiny red bugs
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

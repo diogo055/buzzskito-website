@@ -48,7 +48,7 @@
 
 - `/blog/fire-ant-stings` — **fire ant bite** (also: fire ant bites; fire ant sting; fire ant bites pictures; fire ant bite treatment; fire ant bite blister; fire ant bite pustule; how long do fire ant bites last; fire ant bite allergic reaction). Bite page for "fire ant bite" (the searchers' word; the injury is a sting, and the ant grips with its jaws while it stings: say so once, at the sources' strength). Medical topic: CDC strength only. Lead with CDC NIOSH: a burning sting and red bumps that develop into white, fluid-filled pustules within a day or two (quote CDC). Pictures by stage from the CDC PHIL set (fresh welts, pustules with a red halo, several stings in groups because fire ants swarm when a mound is disturbed), how long they last and how they heal (only as a medical source says), do not pop the pustules and the signs of infection (Cleveland Clinic, Mayo Clinic, AAD or MedlinePlus), home care only as CDC NIOSH gives it (rub the ants off briskly; antihistamines following the package directions) and as those medical sources add (washing, cool compresses; a cream only if a named medical source says so; no doses). A "When to get emergency care" warning callout with CDC NIOSH's list (severe chest pain, nausea, severe sweating, loss of breath, serious swelling, slurred speech), anaphylaxis signs and allergist referral only as AAAAI or a medical school describes them (venom immunotherapy only at AAAAI's strength). Who is at higher risk (only as a source says), pets in one line from a veterinary school. Where fire ants live (CDC NIOSH: mostly the Southeast, with limited distribution in New Mexico, Arizona and California; a map only from USDA APHIS's imported fire ant quarantine) and how to avoid stings (CDC NIOSH). Quick-ID facts table: a fire ant sting vs mosquito, flea, chigger, bed bug and spider bites (feel, look, pattern, timing). Fire ant identification and mound control stay on /blog/red-ants (mustLink), ant bites in general on /blog/do-ants-bite. Health claims only from CDC (NIOSH), NIH/MedlinePlus, AAD, AAAAI, Mayo Clinic or Cleveland Clinic, never stronger than CDC; Texas A&M AgriLife's fire ant program for ant biology. No quote prompt and no product that treats the sting.
 
-- `/blog/crazy-ants` — **crazy ants** (also: tawny crazy ant; rasberry crazy ant; crazy ants vs fire ants). Longhorn and tawny (rasberry) crazy ants in the Gulf states: erratic movement, huge outdoor populations, short-circuits in electrical boxes, why baits work poorly, and how they displace fire ants.
+- `/blog/crazy-ants` — **crazy ants** (also: crazy ant; tawny crazy ant; rasberry crazy ant; raspberry crazy ant; longhorn crazy ant; black crazy ants; crazy ants in electrical outlets; crazy ants vs fire ants; crazy ants in house; how to get rid of crazy ants). Species page for "crazy ants" (Wikipedia, a dictionary and Orkin at the top, small sites at #3 and #5: the top 3 is possible with a species ID page and a few links). The reader saw masses of small ants running fast and erratically, perhaps in an electrical box, outlet or air conditioner, mostly in Texas, Louisiana, Mississippi, Alabama, Florida or Georgia, and wants to know what they are and why bait is not working. Quick answer: "crazy ants" are several species named for their fast, erratic running: the tawny (rasberry) crazy ant, Nylanderia fulva, along the Gulf Coast, which forms huge outdoor populations, gathers in electrical equipment and can short it out; the longhorn crazy ant, Paratrechina longicornis, a dark ant with very long legs and antennae found outdoors in warm states and inside heated buildings; the Caribbean crazy ant in Florida; and the yellow crazy ant in Hawaii (each at Texas A&M, UF/IFAS, the Texas Invasive Species Institute or the Hawaii Ant Lab's strength). Then: how to tell them apart (photo cards and a quick-ID facts table: color, size, legs and antennae, how they move, where in the US); why they swarm electrical boxes (Texas A&M); how they spread (carried in potted plants, mulch, soil and building materials: a source); crazy ants vs fire ants (the displacement, and the defense against fire ant venom, at a source's strength); do crazy ants bite (they can bite but do not sting: a source); and control (why consumer baits work poorly on tawny crazy ants, Texas A&M; what extension sources advise: reduce harborage, protect electrical boxes, professional treatment; product types only as a label or extension source allows, no brand names). Leave to other pages: tiny ants (/blog/tiny-ants), fire ants (/blog/red-ants, /blog/fire-ant-stings), sugar ants (/blog/sugar-ants). Links: /learn/ants and /blog/tiny-ants (mustLink), /blog/red-ants, /blog/do-ants-bite, /blog/ghost-ants. Not linked: amazon.ca pages, the frozen pages. No quote prompt.
 
 - `/blog/european-fire-ants` — **european fire ant** (also: myrmica rubra; european fire ant sting; european fire ant bc). Myrmica rubra in British Columbia, Ontario, the Maritimes and the northeastern US: identification, high-density yard colonies, stings, and what provincial and state guidance says about control.
 
@@ -387,7 +387,7 @@
 - `/blog/sweat-bees` — sweat bees
 - `/blog/bug-bites-on-dogs` — bug bites on dogs
 - `/blog/spider-mites` — spider mites
-- `/blog/lovebugs` — love bugs
+- `/blog/lovebugs` — lovebugs
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
@@ -476,6 +476,14 @@
 - `/blog/rat-nest` — rat nest
 - `/blog/bugs-in-bathroom` — bugs in bathroom
 - `/blog/bugs-in-kitchen` — bugs in kitchen
+- `/blog/baby-silverfish` — baby silverfish
+- `/blog/tomato-hornworms` — tomato hornworm
+- `/blog/southern-house-spider` — southern house spider
+- `/blog/bugs-in-basement` — bugs in basement
+- `/blog/dust-mite-bites` — dust mite bites
+- `/blog/skunk-smell-in-house` — skunk smell in house
+- `/blog/wood-roaches` — wood roach
+- `/blog/tiny-red-bugs` — tiny red bugs
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 

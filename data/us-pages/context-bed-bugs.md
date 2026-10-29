@@ -22,7 +22,7 @@
 
 - `/blog/signs-of-bed-bugs-checklist` — **signs of bed bugs**. A 7-point checklist of the physical signs, ranked from strongest evidence to weakest: live bugs, dark fecal spots that smear, shed skins, eggs and eggshells, rusty or reddish blood smears on sheets, a sweet musty odor in heavier infestations, and bites (the weakest sign on their own, per CDC and EPA). For each sign: what it looks like, where to look, and what it is confused with. A 'check tonight' routine with a flashlight and a card, in order, taking about 10 minutes. What to do in the first 24 hours after finding a sign, and what not to do (do not move to another room, do not throw the mattress out, do not set off a fogger). A printable checklist card. Pet and child notes for any product mentioned.
 
-- `/blog/bat-bugs` — **bat bugs** (also: bat bug vs bed bug; swallow bugs; bat bug bites). The hair-length test, why bat bugs appear after bats leave or are excluded, swallow bugs from cliff swallow nests, bites, and why the bat or bird problem has to be solved first (with bat exclusion rules).
+- `/blog/bat-bugs` — **bat bugs** (also: bat bug; bat bug vs bed bug; bat bugs vs bed bugs; bat bug bites; do bat bugs bite humans; bat bugs in house; swallow bugs; swallow bug vs bed bug; bat bug life cycle). Photo-ID page for bat bugs and swallow bugs, the bed bug relatives that bite people when bats or nesting birds leave or are shut out. The tell, at Colorado State's strength: a bat bug's fringe hairs behind the head are longer than the width of its eyes, a bed bug's shorter, so confirming one takes magnification and an expert; swallow bugs are told by the last two antennal segments. Where they turn up (attics, wall voids, chimneys and under shingles near a bat roost; cliff swallow mud nests on eaves), why they bite people (UC IPM: bat bugs can bite a human but cannot reproduce without a bat host) and what a bat bug in a bedroom points to (bats in the building). Bites: what they look like and care only from CDC, AAD, MedlinePlus or a medical school; never diagnose from a bite. What to do, in order: the bats or birds first: no bat exclusion while flightless young may be present (UC IPM: usually May through September in California; winter is ideal), the state wildlife agency's rules where bats are protected, never handle a bat (rabies) or stir up droppings (histoplasmosis), at CDC's or UC IPM's strength; then the bugs (an expert or the label; no product names). Quick-ID table: bat bug, swallow bug, bed bug, bat tick: size, where found, host, the tell. Cards: bed bug (/blog/what-do-bed-bugs-look-like), bat droppings (/blog/bat-poop), the look-alike roundup (/blog/bugs-that-look-like-bed-bugs). Links: /learn/bed-bugs and /blog/bugs-that-look-like-bed-bugs (mustLink), /blog/bat-poop, /blog/animals-in-attic, /blog/bed-bug-bites-but-no-bed-bugs, /blog/what-do-bed-bugs-look-like. Not linked: the frozen look-alike, tick and bed bug pages and the amazon.ca bed bug pages. No quote prompt.
 
 - `/blog/bed-bug-poop` — **bed bug poop** (also: bed bug droppings; what does bed bug poop look like; bed bug poop stains; bed bug poop on walls; bed bug poop on sheets; bed bug poop vs flea poop). US edition, written fresh. Bed bug droppings are ink-dot spots that soak into fabric like a marker and smear red-brown when dampened; cockroach specks sit on top and stay dark (EPA, Tennessee, Virginia: already cited on what-do-bed-bugs-look-like and signs-of-bed-bugs-checklist). Sections: what it looks like on sheets, mattress, wood, walls and plastic; the damp-swab test; what else leaves spots like these; what finding it means; washing the stains out; is it dangerous.
 
@@ -381,7 +381,7 @@
 - `/blog/sweat-bees` — sweat bees
 - `/blog/bug-bites-on-dogs` — bug bites on dogs
 - `/blog/spider-mites` — spider mites
-- `/blog/lovebugs` — love bugs
+- `/blog/lovebugs` — lovebugs
 - `/blog/winter-tick` — winter tick
 - `/blog/tarantula-hawks` — tarantula hawk
 - `/blog/western-conifer-seed-bugs` — western conifer seed bug
@@ -467,6 +467,14 @@
 - `/blog/rat-nest` — rat nest
 - `/blog/bugs-in-bathroom` — bugs in bathroom
 - `/blog/bugs-in-kitchen` — bugs in kitchen
+- `/blog/baby-silverfish` — baby silverfish
+- `/blog/tomato-hornworms` — tomato hornworm
+- `/blog/southern-house-spider` — southern house spider
+- `/blog/bugs-in-basement` — bugs in basement
+- `/blog/dust-mite-bites` — dust mite bites
+- `/blog/skunk-smell-in-house` — skunk smell in house
+- `/blog/wood-roaches` — wood roach
+- `/blog/tiny-red-bugs` — tiny red bugs
 
 ## Existing pages on the site you may link to (pick the real topical matches)
 
