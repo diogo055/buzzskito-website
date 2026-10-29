@@ -2,7 +2,7 @@
  "id": "no-see-ums",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4a4ff8f5c25d4efa83128e28cbd84816899e24768d780a129f658fd2ee1fde0a",
+ "sha": "5db149ee8df3b59ce9ab372343d8df37cd422206b72682df5fc52459afecfaa9",
  "claimsChecked": 303,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 9,
@@ -11,5 +11,12 @@
   "on": "2026-10-28",
   "scheduledFor": "2026-10-28",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one link added to /blog/no-see-um-bites in 'Are no-see-ums harmful?' (navigation only; no claims changed)",
+   "previousSha": "4a4ff8f5c25d4efa83128e28cbd84816899e24768d780a129f658fd2ee1fde0a"
+  }
+ ]
 }

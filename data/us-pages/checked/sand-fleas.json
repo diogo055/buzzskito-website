@@ -2,7 +2,7 @@
  "id": "sand-fleas",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "3e1934c3992f7ff31075dd02e904ad159e8b3f7209498018d7dfba96df3c71e6",
+ "sha": "81e6d2c339b1714997c705759fe3c2a62e6335027232ad23f5ba3cbd0eb2cc78",
  "claimsChecked": 230,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 12,
@@ -11,5 +11,12 @@
   "on": "2026-10-28",
   "scheduledFor": "2026-10-28",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one link added to /blog/no-see-um-bites in the biting midges section (navigation only; no claims changed)",
+   "previousSha": "3e1934c3992f7ff31075dd02e904ad159e8b3f7209498018d7dfba96df3c71e6"
+  }
+ ]
 }

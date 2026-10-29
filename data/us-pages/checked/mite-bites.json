@@ -2,7 +2,7 @@
  "id": "mite-bites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "d00278247b8ce03b57208490c68aaa6814809e8fccc1ae2fdd9b7c7b74a6f440",
+ "sha": "19ccb70bd1ccc074b88915d2760e5e751a0b05e120f1ed8360c7bb7ddc27f999",
  "claimsChecked": 240,
  "claimsCorrected": 18,
  "claimsRemovedOrSoftened": 17,
@@ -11,5 +11,12 @@
   "on": "2026-10-28",
   "scheduledFor": "2026-10-28",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one link added to /blog/chigger-bites in the chiggers section (navigation only; no claims changed)",
+   "previousSha": "d00278247b8ce03b57208490c68aaa6814809e8fccc1ae2fdd9b7c7b74a6f440"
+  }
+ ]
 }
