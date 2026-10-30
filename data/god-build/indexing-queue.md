@@ -24,6 +24,26 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 ## Queue (in priority order)
 
+Days 4-5 went live Oct 29 (late evening). Request these first:
+
+- https://buzzskito.ca/blog/dust-mite-bites
+- https://buzzskito.ca/blog/gnat-bites
+- https://buzzskito.ca/blog/false-widow-spiders
+- https://buzzskito.ca/blog/ground-bees
+- https://buzzskito.ca/blog/sweat-bees
+- https://buzzskito.ca/blog/bat-bugs
+- https://buzzskito.ca/blog/lovebugs
+- https://buzzskito.ca/blog/crazy-ants
+- https://buzzskito.ca/blog/wood-roaches
+- https://buzzskito.ca/blog/tiny-red-bugs
+- https://buzzskito.ca/blog/spider-beetles
+- https://buzzskito.ca/blog/baby-silverfish
+- https://buzzskito.ca/blog/southern-house-spider
+- https://buzzskito.ca/blog/woodlouse-spiders
+- https://buzzskito.ca/blog/bugs-in-basement
+
+Earlier pages:
+
 1. https://buzzskito.ca/blog/maggots (requested 2026-10-29)
 2. https://buzzskito.ca/blog/black-widow-spiders (indexed)
 3. https://buzzskito.ca/blog/black-widow-bite (indexed)
@@ -57,4 +77,4 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 31. https://buzzskito.ca/blog/carpet-beetle-rash (requested 2026-10-28)
 32. https://buzzskito.ca/blog/pseudoscorpions (requested 2026-10-28)
 
-Days 4-5 (released Oct 29) go here when they go live.
+Pages released after Oct 29 go at the top of the queue.

@@ -1,0 +1,10 @@
+{
+ "id": "tomato-hornworms",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "86e70bda88b4e8aa2e24c8f62b9c1083ef4205eb0f5b9d65be66287722607c23",
+ "claimsChecked": 312,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-30"
+}

@@ -2,7 +2,7 @@
  "id": "natural-garden-pest-control",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cecaba7c95f4cfc63635074b990b31e1930e3aa491882a50fc65fd89196cf44a",
+ "sha": "9f751bc2d54e1440eee935b42a3d1fecc87581adb169d3e2c7ee17e4f1a6dd9a",
  "claimsChecked": 122,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 13,
@@ -17,6 +17,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/spider-mites; no fact changed",
    "previousSha": "8edaa2b74f432eaa4d1f868c6cb0b0f47a318c5d15f180a5976ca266d42d95d7"
+  },
+  {
+   "on": "2026-10-30",
+   "note": "Oct 29: one sentence added after the parasitic wasp paragraph in 'Beneficial insects to welcome: what do they eat?' linking the new /blog/tomato-hornworms (release-day link-in); no fact changed",
+   "previousSha": "cecaba7c95f4cfc63635074b990b31e1930e3aa491882a50fc65fd89196cf44a"
   }
  ]
 }
