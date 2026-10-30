@@ -2,7 +2,7 @@
 
 The owner approved this plan on Oct 29, 2026 ("I love the plan, save it").
 - **Website target:** CA$10,000 a month by summer 2027, from ads, Amazon and US pest-control calls.
-- **Current forecast (corrected Oct 30, after research):** about CA$3,100-4,000 a month of website income in July 2027. What we have measured does not support CA$10,000 from the website alone next summer.
+- **Current forecast (corrected Oct 30, after research):** about CA$3,100-4,000 a month of website income in July 2027. This is a cautious floor: the call estimate uses end-of-season data and leaves out mosquito and tick pages, which took 79% of US visits in June-August 2026. The real test is April to June.
 - **Changed Oct 30, 2026 (owner):** sell US calls from buzzskito.ca first. buzzskito.com is built only if the January numbers justify it.
 - **The spray business comes on top:** 2 full vans are worth about CA$110K a month in season (about 410 season customers).
 - **Where it came from:** the strategy is in memory `project_roi_strategy_oct29.md` and in `data/god-build/work-plan-2026-10-28.md`.
