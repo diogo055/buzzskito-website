@@ -2,7 +2,7 @@
 
 The owner approved this plan on Oct 29, 2026 ("I love the plan, save it").
 - **Website target:** CA$10,000 a month by summer 2027, from ads, Amazon and US pest-control calls.
-- **If US calls go well on buzzskito.ca:** about CA$9,800 a month in July 2027; calls are about 70% of that. Best case about CA$15,700.
+- **Current forecast (corrected Oct 30, after research):** about CA$3,100-4,000 a month of website income in July 2027. What we have measured does not support CA$10,000 from the website alone next summer.
 - **Changed Oct 30, 2026 (owner):** sell US calls from buzzskito.ca first. buzzskito.com is built only if the January numbers justify it.
 - **The spray business comes on top:** 2 full vans are worth about CA$110K a month in season (about 410 season customers).
 - **Where it came from:** the strategy is in memory `project_roi_strategy_oct29.md` and in `data/god-build/work-plan-2026-10-28.md`.
@@ -12,33 +12,33 @@ The owner approved this plan on Oct 29, 2026 ("I love the plan, save it").
 ## Phases
 
 1. **Ship and measure** (Oct 26 – Nov 22): New pages out, Amazon pages fixed, ads switched on, the US call plan approved.
-2. **Ads live and US pilot** (Nov 23 – Jan 17): Mediavine earns its first full month. About 30 'need a pro' US pages test the call box on buzzskito.ca.
-3. **Scale the calls** (Jan 18 – Feb 28): If the test pays, the box goes on every 'need a pro' US page. buzzskito.com gets built only if the numbers justify it.
+2. **Ads live and US pilot** (Nov 23 – Jan 17): Mediavine earns its first full month. The US call test waits on your decision.
+3. **Scale what works** (Jan 18 – Feb 28): If the December test shows real demand, expand it. buzzskito.com gets built only if the numbers justify it.
 4. **Fill the vans** (Mar 1 – May 2): Spring sales: pre-sale, local ads, fast follow-up, van 2 and technician 2.
 5. **Season launch** (May 3 – Jun 6): First sprays; mosquito and tick traffic climbs.
 6. **Peak and scale** (Jun 7 – Aug 31): Full routes, peak calls, peak ad income; plan 2028.
 
 ## Monthly targets (CAD)
 
-| Month | Google visitors (goal) | Income goal (Oct 19) | If US calls go well |
+| Month | Google visitors (goal) | Income goal (Oct 19) | Current forecast |
 |---|---|---|---|
 | November 2026 | 5,299 | 475 | ~650 |
-| December 2026 | 4,940 | 814 | ~1,350 |
-| January 2027 | 7,440 | 609 | ~1,100 |
-| February 2027 | 11,632 | 801 | ~2,200 |
-| March 2027 | 19,388 | 1,343 | ~3,200 |
-| April 2027 | 31,550 | 2,178 | ~4,600 |
-| May 2027 | 48,159 | 3,367 | ~6,700 |
-| June 2027 | 62,600 | 4,521 | ~8,800 |
-| July 2027 | 71,417 | 5,066 | ~9,800 |
-| August 2027 | 72,403 | 5,058 | ~9,800 |
+| December 2026 | 4,940 | 814 | ~950 |
+| January 2027 | 7,440 | 609 | ~600 |
+| February 2027 | 11,632 | 801 | ~800 |
+| March 2027 | 19,388 | 1,343 | ~1,150 |
+| April 2027 | 31,550 | 2,178 | ~1,650 |
+| May 2027 | 48,159 | 3,367 | ~2,450 |
+| June 2027 | 62,600 | 4,521 | ~3,400 |
+| July 2027 | 71,417 | 5,066 | ~3,950 |
+| August 2027 | 72,403 | 5,058 | ~3,950 |
 
-"If US calls go well" assumes:
-- the call box runs on buzzskito.ca, with the .ca handicap still in place;
-- about 35% of US visitors land on "need a pro" pages (measured: 26% Oct 2-29, 32% Oct 23-29);
-- about 1 in 100 of those visitors calls, 65% of calls count, and a call pays about US$40.
+The current forecast uses:
+- ads and Amazon on buzzskito.ca (the Oct 29 likely forecast; Mediavine is an estimate until December);
+- about 17% of US search visits landing on "need a pro" guides (GA4, Oct 23-29);
+- 0.2 to 3.5 paid calls per 1,000 of those visits at about US$35 a call (`reports/us-pay-per-call-pilot-plan-2026-10-30.md`); the blue figures use the high end.
 
-At 3 in 1,000 the July peak is about CA$5,100. At 1.5 in 100 and US$50 a call it is about CA$15,700.
+Weeks that mention the call box are on hold until the owner decides. An earlier version used a guess of 1 call in 100 visitors, about 10 times too high.
 
 ## Week by week
 
@@ -259,7 +259,7 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 
 **Jul 5 – Jul 11** (phase 6; Peak month)
 
-- **Auto**, Money: Peak: about CA$9,800 of website income if US calls go well (about CA$15,700 in the best case)
+- **Auto**, Money: Peak: about CA$3,100-4,000 of website income on the current forecast
 - **You**, Spray business: Service at full capacity
 
 **Jul 12 – Jul 18** (phase 6)
