@@ -2,7 +2,7 @@
  "id": "house-spiders",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1ace800672a2b80ed6aa1f295902df0a244479ae21ca97e14f864f6f61e54ac9",
+ "sha": "67c12345a296dfdc79f14ec97f074fbc3346fa8db83c5324d4b034ad7e518520",
  "claimsChecked": 390,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 7,
@@ -37,6 +37,11 @@
    "on": "2026-10-23",
    "note": "photos: bold-jumping-spider-kitchen-window, bold-jumping-spider-house-siding (batch 12, Oct 23)",
    "previousSha": "af9456b579bad60c8c97c278ff9c40b4af98b41d6909d87b2fba01f5f6989748"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29 release-day link-in: three one-sentence paragraphs (navigation only; no claims changed): /blog/false-widow-spiders after the false black widow paragraph in section Is a shiny dark spider in the house a black widow?, /blog/woodlouse-spiders at the end of section What is the red spider with big fangs in the basement?, /blog/southern-house-spider after the paragraph in What is the southern house spider?",
+   "previousSha": "1ace800672a2b80ed6aa1f295902df0a244479ae21ca97e14f864f6f61e54ac9"
   }
  ]
 }

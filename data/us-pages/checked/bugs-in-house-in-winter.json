@@ -2,7 +2,7 @@
  "id": "bugs-in-house-in-winter",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "856c4ba722197864b4a392444c0403b46573e278dd60b81ec51f4444117c7608",
+ "sha": "526c8457b9ac29c998dc38528948c64d6d92d340da5a1c7e569cb529eb81332f",
  "claimsChecked": 420,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 1,
@@ -37,6 +37,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/stick-bugs; no fact changed",
    "previousSha": "430bf24464fdf3e11dab125b282503ac29b15db66f60bd764cf9bcb19310c976"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/bugs-in-basement (new page) in a new paragraph after the intro of 'Which bugs live in the house all winter?'; no fact changed",
+   "previousSha": "856c4ba722197864b4a392444c0403b46573e278dd60b81ec51f4444117c7608"
   }
  ]
 }

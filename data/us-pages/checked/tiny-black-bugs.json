@@ -2,7 +2,7 @@
  "id": "tiny-black-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "6e52ce91f70d5adc0d82a63c2e9ca8f9e66818fc143dd7dfd039a51eb06a9dd4",
+ "sha": "afc38b275cf4d86e54e0a14ebc26fcc28e0cbdf193e0d1f22dc7d6a5a3dadd8a",
  "claimsChecked": 241,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
@@ -37,6 +37,11 @@
    "on": "2026-10-29",
    "note": "Oct 28: one link to /blog/bugs-in-carpet (new page); no fact changed",
    "previousSha": "f473cad392ffe81b880d56d3df83a2ddb56d901a2c53479860e6079e04b8d8f5"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/tiny-red-bugs (new page) in a new paragraph after the clover mite paragraph under 'What are the tiny black bugs on windowsills?'; no fact changed",
+   "previousSha": "6e52ce91f70d5adc0d82a63c2e9ca8f9e66818fc143dd7dfd039a51eb06a9dd4"
   }
  ]
 }

@@ -1,0 +1,10 @@
+{
+ "id": "bugs-in-basement",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "7eb1fbed567bb07a14f1d81fc43f5527eed0891178662e17d2d6999bd0e584e4",
+ "claimsChecked": 362,
+ "claimsCorrected": 4,
+ "claimsRemovedOrSoftened": 16,
+ "checkedOn": "2026-10-29"
+}

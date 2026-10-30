@@ -1,0 +1,194 @@
+{
+  "slug": "ground-bees",
+  "kind": "spoke",
+  "cluster": "wasps",
+  "keyword": "ground bees",
+  "alsoTargets": [
+    "ground bee",
+    "ground bees in yard",
+    "bees in the ground",
+    "ground bee holes",
+    "ground nesting bees",
+    "mining bees",
+    "digger bees",
+    "do ground bees sting",
+    "ground bees vs yellow jackets",
+    "how to get rid of ground bees"
+  ],
+  "metaTitle": "Ground Bees in the Lawn: What They Are (Photos)",
+  "metaDescription": "Ground bees are solitary bees that dig small holes in bare lawns in spring and rarely sting. Photos, the yellow jacket test, and how to move them along.",
+  "h1": "Ground Bees: Lawn Holes, Stings and How to Tell Them From Yellow Jackets",
+  "dek": "Real photos of the holes and the bees, a quick-ID table against yellow jackets, cicada killers and bumble bees, whether ground bees sting, how long they stay, and how extension services say to move them along without spraying.",
+  "breadcrumb": "Ground Bees",
+  "excerpt": "What ground bees are, what their holes look like, whether they sting, how to tell them from yellow jackets and how to discourage them without insecticide, with photos.",
+  "datePublished": "2026-10-29",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**Ground bees are usually solitary bees, such as mining bees, that each dig their own small hole in bare, sunny soil for a few weeks in spring, so a lawn dotted with holes and one bee at each means ground bees, while one hole with a stream of wasps going in and out means yellow jackets.** The [Connecticut Agricultural Experiment Station](https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Fact_Sheets/Entomology/GroundNestingBeespdf.pdf) gives that test.",
+    "bullets": [
+      "[University of Maryland Extension](https://extension.umd.edu/resource/mining-bees-lawns) puts the holes at about 1/4 inch across, sometimes ringed by a small mound of soil, typically where soil is exposed, grass is thin and drainage is good.",
+      "Mining bees are 3/8 to 3/4 inch long, usually dark and often banded, says the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/andrenid-bees-miner-bees), and many fly in March and April in Missouri.",
+      "Their flying lasts only 2 to 4 weeks, Maryland Extension says; the next generation stays underground until the following spring.",
+      "Only female bees have stingers, says the [USDA Forest Service](https://www.fs.usda.gov/wildflowers/pollinators/documents/BeeBasics.pdf), and [Clemson Extension](https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/) says the females tend not to sting unless provoked or handled roughly.",
+      "Clemson does not recommend insecticides; Maryland says heavy watering discourages nesting and dense turf discourages the bees over the long term."
+    ]
+  },
+  "facts": {
+    "title": "Ground bees or look-alikes? Quick ID",
+    "head": ["Insect", "Size and look", "Nest", "Season", "Stings?"],
+    "rows": [
+      ["Mining bee (a ground bee)", "3/8 to 3/4 inch; usually dark, often banded; hairiness varies", "Hole about 1/4 inch, sometimes with a small pile of soil; one bee per hole, often many holes together", "Early spring; in Missouri, many in March and April; flies 2 to 4 weeks", "Rarely: only females can, and they tend not to unless provoked or handled roughly"],
+      ["Sweat bee", "1/4 to 3/4 inch, many small; black, brown or metallic green", "Tunnels 1/4 to 1/2 inch wide in the ground; some kinds share a nest", "Nests started in April; some kinds active all summer", "A mild sting if a female is pressed"],
+      ["Bumble bee", "About 1/2 to 1 inch; fuzzy, black and yellow, usually banded", "Usually a colony in a cavity below ground, often an old rodent burrow", "Spring to fall; only new queens survive the winter", "Can, if molested or if the nest is threatened; not aggressive"],
+      ["Yellowjacket", "About 1/2 inch; black and yellow bands, not densely hairy", "One busy hole over a paper nest; a colony can hold 5,000 workers by September", "Most active from midsummer to the first frosts", "Yes: defends the nest as a group and can sting repeatedly"],
+      ["Cicada killer", "Can exceed 1 1/2 inches; black and yellow, rusty wings", "Hole 1/2 to 1 inch, often with a mound of soil and a groove leading in; many in one lawn", "Midsummer, when dog-day cicadas start singing", "Rarely: females only if handled roughly; males cannot sting"]
+    ],
+    "caption": "Sizes, nests, seasons and stings from the Missouri Department of Conservation field guides, Maryland and Clemson Extension, the Connecticut Agricultural Experiment Station, USDA Bee Basics and the USDA agroforestry note on bee nest sites, all linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are ground bees?" },
+    { "type": "p", "text": "**Ground bees** are bees that nest in burrows they dig in the soil. Most of the ones people notice in lawns are solitary: [University of Maryland Extension's page on mining bees](https://extension.umd.edu/resource/mining-bees-lawns) says each female usually digs her own burrow to raise her young. [Clemson Extension](https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/) calls them primarily solitary but colonial and gregarious, which is why many holes can share one patch of lawn." },
+    { "type": "figure", "src": "/guides/photos/mining-bee.webp", "width": 1200, "height": 915, "alt": "Side view of a female mining bee with dense orange-brown hair on its head and thorax, smoky wings, dark legs and a dark, segmented abdomen, on a black background", "caption": "A female mining bee, *Andrena dunningi*, a specimen from Harford County, Maryland, photographed by the USGS Bee Inventory and Monitoring Lab. The lab notes this species' orange-brown body hair and the nearly black hairs on the hind legs it uses to carry pollen.", "license": "public-domain", "credit": "USGS Bee Inventory and Monitoring Lab from Beltsville, Maryland, USA, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrena_dunningi,_F,_side,_MD,_Harford_County_2013-04-29-17.29_(41717251492).jpg" },
+    { "type": "p", "text": "There are a lot of them: the [USDA Forest Service's Bee Basics](https://www.fs.usda.gov/wildflowers/pollinators/documents/BeeBasics.pdf) counts 4,000 native bee species in the United States, and a [USDA National Agroforestry Center note on bee nest sites](https://www.fs.usda.gov/nac/documents/agroforestrynotes/an34g08.pdf) says about 70 percent of them dig their nests underground. The groups seen in lawns include:" },
+    { "type": "ul", "items": [
+      "**Mining bees** (*Andrena* and relatives): 3/8 to 3/4 inch, usually dark and often banded, and easy to mistake for small honey bees or wasps, says the [Missouri Department of Conservation's miner bee guide](https://mdc.mo.gov/discover-nature/field-guide/andrenid-bees-miner-bees) (MDC), which counts more than 1,200 species in North America north of Mexico. Digger bees is another of their names.",
+      "**Cellophane bees** (*Colletes*): [Maryland Extension's profile of one, *Colletes thoracicus*](https://extension.umd.edu/resource/meet-pollinator-cellophane-bee), says the females line their underground cells with a waterproof, cellophane-like material, and that the bee likes sandy soil. The [Connecticut Agricultural Experiment Station](https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Fact_Sheets/Entomology/GroundNestingBeespdf.pdf) names them and sweat bees as the ground nesters most commonly found in Connecticut lawns.",
+      "**Sweat bees:** small, mostly black or brown, some metallic green; nearly all nest in the ground, says [MDC's sweat bee guide](https://mdc.mo.gov/discover-nature/field-guide/halictid-bees-sweat-bees).",
+      "**Digger bees** (*Anthophora*): medium-sized bees, many like small, fast, sometimes grayish bumble bees, that dig tunnels in the ground, often with a mud chimney at the entrance, says [MDC's guide to apid bees](https://mdc.mo.gov/discover-nature/field-guide/apid-bees)."
+    ] },
+    { "type": "p", "text": "All are pollinators: MDC says most andrenids are specialists timed to the bloom of particular flowers, and the Connecticut station says wild bees like these are often more efficient pollinators than honey bees." },
+
+    { "type": "h2", "text": "What do ground bee holes look like?" },
+    { "type": "p", "text": "Small, round holes about 1/4 inch across, sometimes ringed by a little pile of loose soil. That is Clemson's and Maryland's figure; [Clemson's guide to holes in the lawn](https://hgic.clemson.edu/factsheet/holes-in-the-lawn/) gives 1/4 to 1/2 inch, with soil piled up to 2 inches high around some entrances. MDC adds that a female working on a nest typically leaves a small pile of dirt by the entrance." },
+    { "type": "figure", "src": "/guides/photos/mining-bee-burrow.webp", "width": 1200, "height": 1323, "alt": "Small round hole in the middle of a little mound of crumbly brown soil in a lawn of grass, clover and moss", "caption": "A mining bee burrow in a lawn, as identified by the photographer: one round hole in the small mound of soil dug out of it. Maryland Extension puts mining bee holes at about 1/4 inch across.", "license": "CC-BY-4.0", "credit": "Rosser1954, CC BY 4.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Miner_Bee_burrow_and_excavated_soil,_Andrena_species.jpg" },
+    { "type": "figure", "src": "/guides/photos/mining-bee-burrow-clay-aggregation.webp", "width": 1200, "height": 1600, "alt": "Dark mining bee with pale hairs and smoky wings standing on crumbly bare red clay among grass blades, with a round, open burrow entrance at the lower left", "caption": "A mining bee (genus *Andrena*) beside an open nest burrow in bare red clay on the University of North Carolina at Chapel Hill campus in March, at a nesting site the observer put at thousands to tens of thousands of bees.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/264940777" },
+    { "type": "p", "text": "Look in bare or thin spots. Clemson says the holes concentrate in warm, sunny, dry parts of the yard with well-drained soil that is low in organic matter; [NC State Extension's guide to ground-nesting bees in turf](https://www.turffiles.ncsu.edu/insects/bees-in-turf/) adds bare ground and sparse vegetation, and MDC says mining bees often nest in sandy areas with little vegetation." },
+    { "type": "p", "text": "Underground, NC State says burrows generally reach six inches or more, and Bee Basics says some run a foot or deeper. The female stocks each cell with pollen and nectar and lays a single egg on the food, Maryland says." },
+    { "type": "p", "text": "On a warm day the bees give the site away: Clemson describes them flying a few inches above the ground, appearing to patrol the holes. NC State says crowded holes can make solitary bees look social, and the mounds can be mistaken for ant colonies. For holes that do not match, [the guide to small holes in the yard](/blog/holes-in-yard) sorts lawn holes by size." },
+    { "type": "media", "needed": "A bare or thin patch of US lawn in spring with many small soil mounds and holes of a ground-nesting bee aggregation, photographed from standing height with a ruler or a shoe for scale; public domain or CC0" },
+
+    { "type": "h2", "text": "When do ground bees come out, and how long do they stay?" },
+    { "type": "p", "text": "Early in spring, for a few weeks. MDC says andrenids are some of the first bees to emerge in spring, many of them active in March and April in Missouri, and Bee Basics names willows, maples and violets among the early flowers they visit. Maryland says their flying lasts 2 to 4 weeks; the Connecticut station and [NC Cooperative Extension in Wayne County](https://wayne.ces.ncsu.edu/news/finding-holes-in-your-lawn-could-be-ground-bees/) say 3 to 4 weeks." },
+    { "type": "p", "text": "The nest site does not empty when the flying stops. The larvae feed on the stored pollen, and Maryland says the new adults spend the winter below ground at the burrow site and come out the next spring or early summer. So the same patch can have bees again, though Maryland notes that numbers can change dramatically from one season to the next." },
+    { "type": "p", "text": "Two things can stretch the season: the Connecticut station says different species taking turns at one site can keep bees there through the summer, and the USDA agroforestry note says some social sweat bees raise several overlapping generations over the summer." },
+    { "type": "p", "text": "Many of the early fliers are males. Maryland says large numbers of males sometimes fly about one spot for several days in a mating display, and the Wayne County article says most ground bees seen flying around are males looking for mates. Bee Basics adds *Nomada* cuckoo bees, usually red or yellow and wasp-like, which fly low over bare ground in early spring searching for the nests of host bees, many of them mining bees, to lay their eggs in." },
+
+    { "type": "h2", "text": "Do ground bees sting?" },
+    { "type": "p", "text": "Rarely. Bee Basics says only female bees have stingers, so the males patrolling a nest site cannot sting at all. Clemson says the females can sting but tend not to unless provoked or handled roughly, and the Connecticut station says these bees rarely sting, withdrawing from an encounter instead, and sting only when stepped on or cornered." },
+    { "type": "p", "text": "Nor do they defend their nests. NC State says solitary bees have no mass attack signal like that of honey bees or yellowjackets, and the USDA agroforestry note calls solitary bees gentle and very reluctant to sting. Clemson does not consider ground-nesting bees a significant medical threat to most people and says that, for the most part, people and pets can carry on with outdoor activities." },
+    { "type": "p", "text": "Sources differ on mining bees: Bee Basics says the andrenids' stingers are too small and weak to get through human skin, while Clemson says female ground-nesting bees can sting when provoked. Bee Basics adds that native bee stings tend to be mild. Keep shoes on: MDC says the solitary bees of the apid family, digger bees among them, are only likely to sting if mishandled or stepped on with bare feet." },
+    { "type": "callout", "tone": "warning", "title": "When a sting is an emergency", "text": "Call 911 or your local emergency number if someone who has been stung has trouble breathing, wheezing or shortness of breath, swelling anywhere on the face or in the mouth, throat tightness or difficulty swallowing, weakness, or is turning blue, [MedlinePlus](https://medlineplus.gov/ency/article/000033.htm) says; use the person's epinephrine auto-injector or other emergency kit if they have one. [CDC's NIOSH](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says anaphylaxis, the severe allergic reaction some people have to venom, can be life-threatening and requires immediate emergency care." },
+    { "type": "p", "text": "For an ordinary sting, MedlinePlus advises washing the site with soap and water, then holding ice wrapped in a washcloth on it, 10 minutes on and 10 off. It says to scrape a stinger left in the skin out with a straight edge such as a credit card, not tweezers, which may squeeze out more venom. Not sure what stung you? [The bug bite identifier](/tools/bug-bite-identifier) asks six questions, and the bite chart explains [how to tell a bee sting from a wasp sting](/learn/bug-bites#how-can-you-tell-a-bee-sting-from-a-wasp-sting)." },
+
+    { "type": "h2", "text": "Ground bees or yellow jackets: how can you tell?" },
+    { "type": "p", "text": "Watch one hole for a few minutes from a few feet away. The Connecticut station's test is traffic: at a ground nest of yellowjackets many insects use a single entrance, while each solitary ground-nesting bee has a hole of its own. [MDC's yellowjacket guide](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps) makes the same point about the solitary wasps that tunnel in the ground: each female works her own burrow, unlike the busy, sometimes crowded entrance of a yellowjacket nest." },
+    { "type": "figure", "src": "/guides/photos/yellowjacket-ground-nest.webp", "width": 1200, "height": 1200, "alt": "Half a dozen black-and-yellow wasps on gray rocks and dry, crumbly soil around a dark hole in the ground, with dead grass at the edge", "caption": "Western yellowjackets at the entrance of their ground nest beside a trail in Santa Clara County, California. Many wasps using one hole is the yellowjacket sign; solitary ground bees keep one bee to a hole.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/63309210" },
+    { "type": "p", "text": "The names do not help: MDC says some people call yellowjackets ground bees, and that the name sweat bees is widely, and wrongly, applied to them too. They are social wasps about 1/2 inch long with bee-like black and yellow bands, but not densely hairy, and they collect no pollen. Their nests are made of paper, like those of [paper wasps](/blog/paper-wasps), but are usually underground, started in a cavity such as a rodent burrow, and by September a colony can hold 5,000 workers." },
+    { "type": "p", "text": "Season and risk differ too. Ground bees fly in early spring, while MDC says yellowjackets are most active from midsummer to the first frosts. MDC calls yellowjackets a significant stinging threat, because they defend the nest as a group, can sting repeatedly and can chase and sting an intruder, people and pets included." },
+    { "type": "checklist", "title": "Ground bees or yellow jackets?", "items": [
+      "**Traffic.** One bee per hole across many holes: ground bees. A stream of insects through one hole: yellowjackets.",
+      "**Body.** Fuzzy, perhaps with pollen on the legs: likely a bee. Boldly banded black and yellow, not densely hairy: a yellowjacket.",
+      "**Season.** Early spring: ground bees. Midsummer into fall: yellowjackets.",
+      "**Behavior.** Low flights over the holes and no defense: ground bees. An entrance defended as a group: yellowjackets."
+    ] },
+    { "type": "p", "text": "If it is yellowjackets, keep people and pets back. MDC says many people discover a nest by mowing over it and suggests walking the yard before you mow. For a nest that has to go, MDC recommends consulting a licensed exterminator; otherwise it suggests marking a safety zone several feet around the nest and waiting for freezing weather to kill the colony. The watering advice below is for ground bees only." },
+    { "type": "p", "text": "For more on the wasps, see [how to identify a wasp nest](/blog/wasp-nest-identification), [how to tell a wasp from a hornet](/blog/wasp-vs-hornet) and [the yellowjacket guide](/blog/yellow-jackets). Removal is covered in [the US guide to ground-nesting wasps](/blog/how-to-get-rid-of-ground-wasps) and in [a guide to yellowjacket nests in lawns written for Canada](/blog/how-to-get-rid-of-ground-wasps-canada)." },
+
+    { "type": "h2", "text": "What else nests in the ground in a yard?" },
+    { "type": "p", "text": "Ground bees share sunny, open ground with other insects that nest or hunt there. Each has a tell." },
+    { "type": "h3", "text": "Cicada killer burrows" },
+    { "type": "p", "text": "The eastern cicada killer, a wasp that can exceed 1 1/2 inches, digs in lawns in midsummer, says [MDC's cicada killer guide](https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer): females usually nest in groups, the mound of dug-out soil at a tunnel entrance is often conspicuous, and it often has a shallow groove leading in. Clemson gives the hole as 1/2 to 1 inch across. Males patrol but cannot sting, and MDC says a female could sting a person only if handled roughly. [The cicada killer guide](/blog/cicada-killers) has more." },
+    { "type": "figure", "src": "/guides/photos/cicada-killer-burrow.webp", "width": 1200, "height": 800, "alt": "Large wasp with an orange head and legs, rusty amber wings and a dark body standing on a mound of loose dark soil, with grass behind it", "caption": "An eastern cicada killer on the mound of soil at its burrow in Big Stone National Wildlife Refuge, Minnesota, in a U.S. Fish and Wildlife Service photo.", "license": "public-domain", "credit": "USFWS Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphecius_speciosus,_Vorderansicht.jpg" },
+    { "type": "h3", "text": "Bumble bee nests in old burrows" },
+    { "type": "p", "text": "Bumble bees are fuzzy, black and yellow, and about 1/2 to 1 inch long. [MDC's bumble bee guide](https://mdc.mo.gov/discover-nature/field-guide/bumblebees) says they usually nest in a cavity below ground, frequently a former rodent burrow, with rarely more than a hundred workers at a time, and that they can sting if molested or if the nest is threatened but are not aggressive; it suggests leaving a nest alone. [Carpenter bees and bumble bees compared](/blog/carpenter-bee-vs-bumble-bee) tells the two apart." },
+    { "type": "h3", "text": "Sweat bee tunnels" },
+    { "type": "p", "text": "Sweat bees nest in the ground too: MDC says nearly all of them do, and the Connecticut station says their tunnels, like those of cellophane bees, are typically 1/4 to 1/2 inch wide. The bees are small, often dark or metallic green, and land on people for the moisture and salt in sweat; MDC says a gentle scrape usually moves one along, but pressing on a female may earn a mild sting. [The sweat bee guide](/blog/sweat-bees) covers them." },
+    { "type": "h3", "text": "Velvet ants at nest sites" },
+    { "type": "p", "text": "A fuzzy red or orange insect like a large ant, running over the same bare ground, may be a velvet ant, a solitary wasp whose females are wingless. [MDC's velvet ant guide](https://mdc.mo.gov/discover-nature/field-guide/velvet-ants) says those that attack bees and wasps lay their eggs in the hosts' nest cells, that they are most often found in open, dry, sunny, sandy places such as lawns, and that they are not aggressive but will sting, excruciatingly, if held or stepped on barefoot. See [the velvet ant guide](/blog/velvet-ants)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/yellow-jackets", "name": "Yellowjacket", "photo": "eastern-yellowjacket-live", "note": "Black and yellow wasp; many stream through one hole from midsummer to the first frosts", "alt": "Black-and-yellow banded yellowjacket with yellow legs standing on white cloth" },
+      { "href": "/blog/cicada-killers", "name": "Cicada killer", "photo": "cicada-killer", "note": "Wasp that can top 1 1/2 inches; often a mound of soil at its lawn burrow in midsummer", "alt": "Large wasp with orange legs, rusty wings and a black-and-yellow abdomen gripping a gray cicada in green grass" },
+      { "href": "/blog/carpenter-bee-vs-bumble-bee", "name": "Bumble bee", "photo": "common-eastern-bumble-bee", "note": "Fuzzy, 1/2 to 1 inch; a colony usually shares one cavity below ground, often an old rodent burrow", "alt": "Fuzzy black-and-yellow bumble bee feeding on the yellow center of a pale pink zinnia" },
+      { "href": "/blog/sweat-bees", "name": "Sweat bee", "photo": "sweat-bee", "note": "Small, often dark or metallic green; lands on people for sweat and can give a mild sting", "alt": "Small, shiny metallic-green bee with smoky wings resting on a green leaf" },
+      { "href": "/blog/velvet-ants", "name": "Velvet ant", "photo": "velvet-ant", "note": "Furry, ant-like wasp, often red or orange; wingless females sting if held or stepped on barefoot", "alt": "Side view of a fuzzy, wingless red-and-black velvet ant with long, spiny legs, on a black background" }
+    ] },
+
+    { "type": "h2", "text": "Do ground bees damage the lawn?" },
+    { "type": "p", "text": "Usually not. Clemson says homeowners often blame the bees for thinning turf, when poor growing conditions are usually the cause and the bees are simply nesting where conditions suit them. NC State calls lawn damage usually minimal, the Wayne County article says the bees may even help aerate the lawn, and Bee Basics credits ground-nesting bees with aerating and enriching soil." },
+    { "type": "p", "text": "A patch full of bee holes is a sign of thin, dry turf. If turf is dying for some other reason, [the lawn pest guide](/blog/lawn-pest-control) shows how to work out which insect, if any, is to blame and how to protect bees when a lawn has to be treated." },
+
+    { "type": "h2", "text": "How do you get rid of ground bees?" },
+    { "type": "p", "text": "Usually you do not have to: they leave on their own within weeks. The Wayne County article advises ignoring them because they will soon be gone, and the Connecticut station says that in most situations it is not necessary to eliminate them. Where large numbers of stinging insects overlap with children, pets or people with severe allergies, NC State says some management may be necessary. The extension advice is to make the spot less inviting:" },
+    { "type": "ol", "items": [
+      "**Water heavily.** Maryland says heavy watering with a lawn sprinkler discourages nesting, and the Wayne County article suggests irrigating during the 3 to 4 weeks the bees are active, since they like dry soil.",
+      "**Thicken the turf.** NC State calls dense turf the best discouragement to further nesting, and Maryland advises eliminating bare-ground areas.",
+      "**Cover bare soil where grass will not grow** with a groundcover or heavy mulch, as Maryland and Clemson suggest; for paths, driveways and plant beds, the Connecticut station adds pea gravel.",
+      "**Add organic matter**, as NC State and the Connecticut station suggest, since Clemson says the bees favor soil that is low in it."
+    ] },
+    { "type": "p", "text": "Skip the insecticide. The Connecticut station says pesticides should not be used to control ground-nesting bees, Clemson does not recommend insecticides because the bees are valuable and only a temporary nuisance, and NC State calls chemical treatment almost never necessary. Yellowjackets are a different case, covered above. For other insects around the yard, browse [more pest identification guides](/learn)." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph a hole beside a ruler or a coin, and a bee if one lands nearby, and note the date, how many holes there are and whether any one hole has many insects going in and out. Your state's cooperative extension office can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are ground bees aggressive?",
+      "answer": "No. Clemson Extension says ground-nesting bees are not aggressive and do not defend their nests, and NC State Extension explains that solitary bees have no mass attack signal like the one that sends honey bees or yellowjackets after an intruder. A USDA National Agroforestry Center note calls solitary bees gentle and very reluctant to sting. The bees flying low over the holes are often males looking for mates, and the USDA Forest Service's Bee Basics notes that only female bees have stingers."
+    },
+    {
+      "question": "What happens if a ground bee stings you?",
+      "answer": "Usually a mild, local reaction. Bee Basics from the USDA Forest Service says native bee stings tend to be mild, and MedlinePlus says sting symptoms may include pain, redness, swelling and itching. MedlinePlus advises washing the site with soap and water and applying ice wrapped in a washcloth, 10 minutes on and 10 minutes off. It says to call 911 if the person has trouble breathing, swelling of the face or mouth, throat tightness or difficulty swallowing, feels weak, or is turning blue."
+    },
+    {
+      "question": "Why are there so many bees flying low over my lawn?",
+      "answer": "In spring, they may be ground-nesting bees at their nest site. Clemson Extension describes bees flying a few inches above the ground, appearing to patrol the area where the holes are, and University of Maryland Extension says large numbers of males sometimes fly about the same spot for several days in a mating display. Males cannot sting. Maryland says the flying lasts only 2 to 4 weeks. If many insects use a single hole and look like smooth black-and-yellow wasps, check for yellowjackets instead."
+    },
+    {
+      "question": "Do ground bees come back every year?",
+      "answer": "They can, because the next generation is already in the ground. University of Maryland Extension says the new adults spend the winter below ground at the burrow site and come out the next spring or early summer to mate and dig new burrows. Maryland adds that bee numbers can change dramatically from one season to the next. Over the long term, Maryland and NC State Extension say dense turf is what discourages them, since the bees nest in bare and thinly grassed spots."
+    },
+    {
+      "question": "What attracts ground bees to a yard?",
+      "answer": "Bare or thin, dry, sunny ground. Clemson Extension says the holes and bees concentrate in warm, sunny, dry spots with well-drained soil that is low in organic matter, and NC State Extension adds bare ground and sparse vegetation. The Missouri Department of Conservation says mining bees often nest in sandy areas with little vegetation, and the Connecticut Agricultural Experiment Station describes loose, sandy, dry soil. The bees do not create those thin patches: Clemson says poor growing conditions are usually the cause."
+    },
+    {
+      "question": "Does watering the lawn get rid of ground bees?",
+      "answer": "It can discourage them. University of Maryland Extension says heavy watering with a lawn sprinkler will discourage nesting, and NC Cooperative Extension in Wayne County says that because the bees like dry soil, irrigating during the 3 to 4 weeks they are active can encourage them to find other nest sites. NC State Extension also lists heavy irrigation, alongside dense turf, as a way to make a lawn less inviting. The advice is for ground bees only: a hole with many wasps going in and out is a yellowjacket nest."
+    },
+    {
+      "question": "Is it safe to mow over ground bee holes?",
+      "answer": "Generally, yes, if they really are ground bees. Clemson Extension says that for the most part people and pets can continue outdoor activities without worrying about being stung by ground-nesting bees, and the Connecticut Agricultural Experiment Station says these bees sting only when stepped on or cornered. Check first that the holes are not a yellowjacket nest: the Missouri Department of Conservation says many people find one by mowing over it and suggests walking the yard before mowing."
+    },
+    {
+      "question": "Should I spray insecticide on ground bees?",
+      "answer": "Extension services advise against it. The Connecticut Agricultural Experiment Station says pesticides should not be used to control ground-nesting bees, Clemson Extension does not recommend insecticides because the bees are valuable and only a temporary nuisance, and NC Cooperative Extension says insecticide control is not recommended because the bees are beneficial. NC State Extension calls chemical treatment almost never necessary. Watering, thicker turf and mulch over bare soil are the suggested ways to make a spot less inviting."
+    },
+    {
+      "question": "Why do people call yellow jackets ground bees?",
+      "answer": "Because many yellowjackets nest underground and look like bees at a glance. The Missouri Department of Conservation says some people call yellowjackets ground bees, confusing them with bees, and that they are also widely, and wrongly, called sweat bees. They are social wasps about 1/2 inch long with black and yellow bands, but MDC notes that they are not densely hairy and do not collect pollen. A hole with many wasps going in and out is a yellowjacket nest, which MDC says the wasps defend as a group."
+    },
+    {
+      "question": "Can ground bees hurt my dog?",
+      "answer": "It is unlikely. Clemson Extension says that for the most part people and pets can continue outdoor activities without worrying about being stung by ground-nesting bees, which are not aggressive and do not defend their nests. Clemson also says the females can sting if provoked or handled roughly, so a dog that paws at a bee could still be stung. Yellowjackets are the bigger risk: the Missouri Department of Conservation says they can chase and sting an intruder who stumbles onto their nest, pets included."
+    }
+  ],
+  "sources": [
+    { "title": "Spring Has Sprung and So Have The (Ground-Nesting) Bees (Vicky Bertagnolli, April 7, 2025)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/" },
+    { "title": "Holes in the Lawn (HGIC 2364; revised December 2014)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/holes-in-the-lawn/" },
+    { "title": "Mining Bees - Lawns (updated March 29, 2023)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/mining-bees-lawns" },
+    { "title": "Meet a Pollinator: Cellophane Bee (Lindsay M. Barranco, 2018; updated March 1, 2023)", "publisher": "University of Maryland Extension", "url": "https://extension.umd.edu/resource/meet-pollinator-cellophane-bee" },
+    { "title": "Ground-Nesting Bees in Turf (T. Billeisen, R. Brandenburg, S. Bambara and J. Baker; updated August 31, 2022)", "publisher": "NC State Extension, TurfFiles", "url": "https://www.turffiles.ncsu.edu/insects/bees-in-turf/" },
+    { "title": "Finding Holes in Your Lawn? Could Be Ground Bees (Jessica Strickland, April 16, 2025)", "publisher": "N.C. Cooperative Extension, Wayne County Center", "url": "https://wayne.ces.ncsu.edu/news/finding-holes-in-your-lawn-could-be-ground-bees/" },
+    { "title": "Ground Nesting Bees (Gale E. Ridge and Kimberly A. Stoner)", "publisher": "The Connecticut Agricultural Experiment Station", "url": "https://portal.ct.gov/-/media/CAES/DOCUMENTS/Publications/Fact_Sheets/Entomology/GroundNestingBeespdf.pdf" },
+    { "title": "Andrenid Bees (Miner Bees) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/andrenid-bees-miner-bees" },
+    { "title": "Halictid Bees (Sweat Bees) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/halictid-bees-sweat-bees" },
+    { "title": "Apid Bees (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/apid-bees" },
+    { "title": "Bumblebees (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bumblebees" },
+    { "title": "Yellowjackets (Vespula Wasps) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps" },
+    { "title": "Eastern Cicada-Killer (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer" },
+    { "title": "Velvet Ants (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/velvet-ants" },
+    { "title": "Bee Basics: An Introduction to Our Native Bees (FS-960; Beatriz Moisset and Stephen Buchmann, 2010)", "publisher": "USDA Forest Service and Pollinator Partnership", "url": "https://www.fs.usda.gov/wildflowers/pollinators/documents/BeeBasics.pdf" },
+    { "title": "Enhancing Nest Sites for Native Bee Crop Pollinators (Agroforestry Note 34; Mace Vaughan and Scott Hoffman Black, February 2007)", "publisher": "USDA National Agroforestry Center", "url": "https://www.fs.usda.gov/nac/documents/agroforestrynotes/an34g08.pdf" },
+    { "title": "Insect bites and stings (Medical Encyclopedia, reviewed October 14, 2025)", "publisher": "MedlinePlus, U.S. National Library of Medicine", "url": "https://medlineplus.gov/ency/article/000033.htm" },
+    { "title": "Insects and Scorpions at Work (reviewed September 28, 2026)", "publisher": "CDC National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" }
+  ],
+  "disclaimer": "health"
+}

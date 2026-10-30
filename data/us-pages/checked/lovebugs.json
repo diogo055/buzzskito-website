@@ -1,0 +1,10 @@
+{
+ "id": "lovebugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "0bee70492759f04e6aefa1289160b4d79c315e6dcd326abec29e7b1ee710e5d4",
+ "claimsChecked": 204,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-30"
+}

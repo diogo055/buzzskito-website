@@ -1,0 +1,220 @@
+{
+  "slug": "crazy-ants",
+  "kind": "spoke",
+  "cluster": "ants",
+  "keyword": "crazy ants",
+  "alsoTargets": [
+    "crazy ant",
+    "tawny crazy ant",
+    "rasberry crazy ant",
+    "raspberry crazy ant",
+    "longhorn crazy ant",
+    "black crazy ants",
+    "crazy ants in electrical outlets",
+    "crazy ants vs fire ants",
+    "crazy ants in house",
+    "how to get rid of crazy ants"
+  ],
+  "metaTitle": "Crazy Ants: How to Identify Them (Photos)",
+  "metaDescription": "Crazy ants run fast and erratically: the hairy, reddish tawny crazy ant of the Gulf states and the black longhorn. Photos, look-alikes and control.",
+  "h1": "Crazy Ants: How to Identify Them and Why They Swarm Electrical Boxes",
+  "dek": "Real photos of tawny (rasberry) and longhorn crazy ants, a quick-ID table that adds Caribbean and yellow ones, how to tell them from fire ants, why they pile into electrical equipment, and what extension entomologists say helps.",
+  "breadcrumb": "Crazy Ants",
+  "excerpt": "How to identify crazy ants, from the hairy tawny crazy ant of the Gulf Coast to the black longhorn crazy ant, why they short out electrical equipment and why most baits fail.",
+  "datePublished": "2026-10-29",
+  "parent": { "href": "/learn/ants", "name": "Ants" },
+  "quickAnswer": {
+    "lead": "**Crazy ants are small ants with long legs and long antennae, named for how they run: fast and erratically, instead of in the steady trails many ants follow.** In US homes and yards they include the reddish-brown tawny crazy ant of the Gulf states, which [Texas A&M](https://urbanentomology.tamu.edu/urban-pests/ants/rasberry/) says can build up in electrical equipment and short it out, and the black longhorn crazy ant.",
+    "bullets": [
+      "Tawny (rasberry) crazy ant workers are reddish brown, hairy and about 1/8 inch long, all one size, according to Texas A&M's urban entomology program.",
+      "The longhorn crazy ant is dark brown to blackish and 2.3 to 3 mm (about 1/16 to 1/8 inch) long, with extraordinarily long legs and antennae, says [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN299).",
+      "Since its discovery near Houston in 2002, the tawny crazy ant has spread to 43 Texas counties and been confirmed in Louisiana, Mississippi, Alabama, Georgia and Florida, [Texas A&M AgriLife Extension](https://agrilifeextension.tamu.edu/asset-external/tawny-crazy-ant-management-build-a-bigger-buffer/) reported in December 2022.",
+      "Tawny, longhorn and yellow crazy ants have no stinger; Texas A&M says a tawny crazy ant's bite causes a minute pain that quickly fades.",
+      "Texas A&M says tawny crazy ant workers are not attracted to most bait products, and [UF/IFAS](https://ask.ifas.ufl.edu/publication/IN889) knows of no over-the-counter bait that is consistently effective against them."
+    ]
+  },
+  "facts": {
+    "title": "Crazy ant or look-alike? Quick ID",
+    "head": ["Ant", "Worker size", "What to look for", "Where in the US"],
+    "rows": [
+      ["Tawny (rasberry) crazy ant", "About 1/8 inch or a little less", "Reddish brown and hairy; long legs and antennae; all one size; fast, erratic, wide trails; no mound", "Texas, Louisiana, Mississippi, Alabama, Georgia and Florida"],
+      ["Longhorn (black) crazy ant", "1/16 to 1/8 inch", "Dark brown to blackish, often with a faint bluish sheen; extremely long legs and antennae; runs fast and erratically", "Florida to South Carolina and west to Texas; indoors in colder areas"],
+      ["Caribbean crazy ant", "Workers resemble the tawny crazy ant", "Looks like a tawny crazy ant; males or DNA tell the two apart", "Florida, with records back to 1953"],
+      ["Yellow crazy ant", "About 4 mm (about 5/32 inch)", "Yellowish brown, abdomen usually slightly darker; extremely long legs and antennae", "Hawaii; not found in the continental US as of Mississippi State's 2012 profile"],
+      ["Red imported fire ant", "1/16 to 3/16 inch", "Reddish or dark brown; builds dirt mounds in open areas; stings", "Southern states, where tawny crazy ants often displace it"],
+      ["Argentine ant", "2.2 to 2.6 mm (about 1/10 inch)", "Reddish brown and much less hairy than a tawny crazy ant; no stinger; musty smell when crushed", "Southeastern and southern states and up the West Coast"],
+      ["Ghost ant", "1.3 to 1.5 mm (about 1/16 inch)", "Dark head and thorax, milky white abdomen and legs; runs erratically when disturbed", "Florida, Hawaii and Texas; heated buildings farther north"]
+    ],
+    "caption": "Sources: Texas A&M AgriLife Extension and its urban entomology program, UF/IFAS, Alabama Extension, Mississippi State University and the 2014 Science study, all linked on this page. Sizes are for workers."
+  },
+  "body": [
+    { "type": "h2", "text": "What are crazy ants?" },
+    { "type": "p", "text": "Crazy ants are small ants named for the way they move: quickly and erratically, without following trails as often as other ants do, [UF/IFAS's longhorn crazy ant profile](https://ask.ifas.ufl.edu/publication/IN299) says. The name officially belongs to that species, *Paratrechina longicornis*, but closely related ants are called crazy ants too." },
+    { "type": "figure", "src": "/guides/photos/tawny-crazy-ant.webp", "width": 1200, "height": 991, "alt": "Two reddish-brown ants on a pale yellow surface: a large ant with a broad, banded abdomen above a smaller ant with long legs and long antennae beside a white cluster", "caption": "A tawny crazy ant queen and worker in a laboratory colony at the University of Texas at Austin. Note the long legs and antennae.", "license": "CC0-1.0", "credit": "Insects Unlocked, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nylanderia_fulva_-_Tawny_Crazy_Ant_(31569780291).jpg" },
+    { "type": "p", "text": "Four crazy ants matter to US readers:" },
+    { "type": "ul", "items": [
+      "**Tawny (rasberry) crazy ant**, *Nylanderia fulva*: reddish brown and hairy, with huge outdoor populations in the Gulf states.",
+      "**Longhorn (black) crazy ant**, *Paratrechina longicornis*: dark, with very long legs and antennae.",
+      "**Caribbean crazy ant**, *Nylanderia pubens*: the tawny crazy ant's near twin, recorded in Florida.",
+      "**Yellow crazy ant**, *Anoplolepis gracilipes*: larger and yellowish, found in Hawaii."
+    ] },
+    { "type": "p", "text": "[The complete guide to ants in US homes](/learn/ants) covers the other household species." },
+
+    { "type": "h2", "text": "How do you identify a crazy ant?" },
+    { "type": "p", "text": "**Watch how it runs, then look at the legs: a crazy ant dashes about fast and erratically, its legs and antennae are long for its size, and the workers in a colony are all about the same size.** UF/IFAS says a hand lens confirms the longhorn crazy ant's extremely long antennae and legs and its upright hairs, and [Texas A&M's urban entomology program](https://urbanentomology.tamu.edu/urban-pests/ants/rasberry/) says tawny crazy ant workers are all one size." },
+    { "type": "checklist", "items": [
+      "**Movement:** fast, darting runs that keep changing direction; tawny crazy ant trails are about 4 inches wide, Alabama Extension says.",
+      "**Size and color:** 1/16 to 1/8 inch; reddish brown and hairy (tawny) or dark brown to blackish (longhorn).",
+      "**Tip of the abdomen:** under magnification, a tiny ring of hairs instead of a stinger.",
+      "**Nest:** tawny crazy ants build no dirt mound; they nest under debris, rocks and potted plants."
+    ] },
+    { "type": "p", "text": "Naming the species takes a microscope: [Texas A&M's tawny crazy ant fact sheet](https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/tawny-crazy-ants-a-texas-size-problem.pdf) says the ant is hard to identify without high-resolution magnification and experience, and Texas A&M's urban program says winged males are needed to confirm it. [The key to tiny house ants](/blog/tiny-ants) sorts the other small ants found indoors." },
+
+    { "type": "h2", "text": "What does a tawny (rasberry) crazy ant look like?" },
+    { "type": "p", "text": "A tawny crazy ant worker is reddish brown, about 1/8 inch long and covered in long, coarse hairs, with long legs and 12-segmented antennae that have no club, Texas A&M says. [UF/IFAS's tawny crazy ant profile](https://ask.ifas.ufl.edu/publication/IN1071) measures workers a little smaller, at 2.0 to 2.3 mm (about 1/16 to 3/32 inch), and notes that the abdomen can look striped after the ant feeds." },
+    { "type": "p", "text": "UF/IFAS says the old name, Rasberry crazy ant, comes from Tom Rasberry, the pest control operator who discovered a significant infestation around Houston in 2002; [Mississippi State University Extension](https://extension.msstate.edu/news/feature-story/2026/tawny-crazy-ants-spread-7-mississippi-counties) says the approved common name is now tawny crazy ant." },
+    { "type": "p", "text": "Mississippi State calls the sheer number of ants, often hundreds of thousands or millions covering large areas, one of the biggest giveaways, and [Alabama Extension](https://www.aces.edu/blog/topics/home/managing-tawny-crazy-ants-around-homes/) describes a common sign: dead ants piled in the corners of buildings and along outside walls." },
+    { "type": "media", "needed": "Tawny crazy ants massed on the ground, a tree trunk or a house wall in a Gulf Coast state, or the piles of dead ants they leave along a foundation; identified by an extension entomologist; public domain or CC0" },
+
+    { "type": "h2", "text": "Where are tawny crazy ants found in the US?" },
+    { "type": "p", "text": "Mostly in the Gulf Coast states. Since its discovery in Harris County, Texas, in 2002, the tawny crazy ant has spread to 43 Texas counties and been confirmed in Louisiana, Mississippi, Alabama, Georgia and Florida, Texas A&M AgriLife Extension reported in December 2022. UT Austin's [Texas Field Station Network](https://fieldstations.utexas.edu/research/invasive-species-research/crazy-ants) says infestations reach west to the Hill Country and that a climate model shows the Gulf Coast region suits the ant particularly well." },
+    { "type": "p", "text": "Mississippi State says the ant was first identified in the state in 2009 in Hancock County, spread to three nearby counties, and in 2026 turned up in Wilkinson, Marion and Perry counties, as pest professionals on the Mississippi coast and in Louisiana and Texas reported a much more active year than normal. [The University of Georgia](https://fieldreport.caes.uga.edu/uga-county-agent-finds-new-ant-species-in-georgia/) reported the state's first find in 2013, and UF/IFAS's [management guide](https://ask.ifas.ufl.edu/publication/IN889) places the ant in parts of at least 26 Florida counties." },
+    { "type": "p", "text": "Museum records go further back: Mississippi State's ant taxonomist says the earliest known US record is from Illinois in 1931." },
+
+    { "type": "h2", "text": "What is the longhorn (black) crazy ant?" },
+    { "type": "figure", "src": "/guides/photos/longhorn-crazy-ant.webp", "width": 1200, "height": 800, "alt": "Three small, dark brown to black ants with very long, thin legs and long antennae walking on a bright green leaf", "caption": "Longhorn crazy ants on a leaf at Dagny Johnson State Park in Key Largo, Florida. Note the very long legs and antennae.", "license": "CC-BY-2.0", "credit": "Judy Gallagher, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longhorn_Crazy_Ant_-_Paratrechina_longicornis,_Dagny_Johnson_State_Park,_Key_Largo,_Florida.jpg" },
+    { "type": "p", "text": "The longhorn crazy ant is 2.3 to 3 mm (about 1/16 to 1/8 inch) long and dark brown to blackish, often with a faint bluish sheen and long, coarse, grayish or whitish hairs, UF/IFAS says; its legs are extraordinarily long, and the first segment of each antenna reaches well past the back of the head. Texas A&M's urban program says it is often jet black, and [Texas A&M's household ant guide](https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2018/05/Household-ants-B6183.pdf) calls it grayish black and very fast." },
+    { "type": "figure", "src": "/guides/photos/longhorn-crazy-ants-mass-brood.webp", "width": 945, "height": 2048, "alt": "A dense mass of small dark ants, many of them carrying white brood, crowded over a gray painted vertical surface", "caption": "A dense mass of longhorn crazy ant workers, many carrying white brood, on a painted vertical surface in Kingsville, Texas.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/238663273" },
+    { "type": "p", "text": "UF/IFAS reports it outdoors and in buildings from Florida to South Carolina and west to Texas, in homes and warehouses over much of the eastern US, and in California, Arizona and Hawaii; in cold climates it nests in apartments and other buildings, where it can be a pest year-round. Its nests, in trash, rotten wood, soil and plant cavities, are often some distance from where the ants feed." },
+    { "type": "figure", "src": "/guides/photos/longhorn-crazy-ant-carpet.webp", "width": 1200, "height": 1068, "alt": "One small black ant with long, thin legs and long antennae on thick cream-colored loop carpet", "caption": "A longhorn crazy ant on cream-colored loop carpet in Florida. Note the long legs and antennae.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/44042274" },
+    { "type": "media", "needed": "Longhorn crazy ants indoors on a kitchen counter or floor beside a ruler marked in inches, identified by an extension service or entomologist; public domain or CC0" },
+    { "type": "p", "text": "Larger black ants may be carpenter ants, whose workers are 1/4 to 1/2 inch long, Texas A&M says; [the carpenter ant guide](/blog/carpenter-ants-canada) covers them. [Black ants in and around the house](/blog/black-ants) sorts the other small black ants." },
+
+    { "type": "h2", "text": "What are the Caribbean and yellow crazy ants?" },
+    { "type": "p", "text": "The Caribbean crazy ant, *Nylanderia pubens*, is the tawny crazy ant's near twin: UF/IFAS says workers of the two look alike and can be separated by examining males or by genetic comparison. Florida specimens date from 1953, but researchers have suggested that pest outbreaks blamed on it in most of the southern US may actually be tawny crazy ants, and UF/IFAS still has Florida records of *N. pubens*." },
+    { "type": "p", "text": "For the yellow crazy ant, a [Mississippi Entomological Museum profile](https://mississippientomologicalmuseum.org.msstate.edu/Researchtaxapages/Formicidaepages/genericpages/Anoplolepis.gracilipes.htm) describes workers about 4 mm (about 5/32 inch) long, yellowish brown with extremely long legs and antennae, lists the ant in Hawaii, says it had not been found in the continental US, and counts it among the world's 100 most destructive invasive species. It has no stinger but may spray formic acid at prey." },
+    { "type": "media", "needed": "A yellow crazy ant (Anoplolepis gracilipes) worker in Hawaii, showing its yellowish body and very long legs and antennae, identified by an entomologist or the Hawaii Ant Lab; public domain or CC0" },
+
+    { "type": "h2", "text": "Crazy ants vs fire ants: how do you tell them apart?" },
+    { "type": "p", "text": "**Look for a mound and a sting: fire ants build dirt mounds and sting, while tawny crazy ants build no mound and, like other crazy ants, have no stinger.** Texas A&M's household ant guide describes red imported fire ant workers as 1/16 to 3/16 inch and usually reddish or dark brown, building mounds in open areas, with stings that burn and often leave whitish blisters; [what fire ant stings look like](/blog/fire-ant-stings) covers those. Texas A&M's tawny crazy ant fact sheet notes no conspicuous mounds." },
+    { "type": "figure", "src": "/guides/photos/fire-ant-mound.webp", "width": 1200, "height": 1607, "alt": "A low mound of loose, reddish-brown soil among green weeds and grass, with a small blue research flag on a wire beside it", "caption": "A red imported fire ant mound marked for research at Brackenridge Field Laboratory in Austin, Texas. Tawny crazy ants build no mound like this.", "license": "CC0-1.0", "credit": "Alex Wild, produced by the University of Texas \"Insects Unlocked\" program., CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire_ant_mound_(16371103174).jpg" },
+    { "type": "p", "text": "Texas A&M says tawny crazy ants are displacing red imported fire ants in heavily infested areas, though most residents who have had both prefer the fire ants, and UT Austin reports crazy ants taking over fire ant mounds as nests." },
+    { "type": "p", "text": "Their edge is chemical. In a [2014 study in Science](https://pubmed.ncbi.nlm.nih.gov/24526314/), University of Texas researchers found that after exposure to fire ant venom, tawny crazy ants coat themselves with secretions from an abdominal gland, and that formic acid from their own venom detoxifies the fire ant venom. The authors conclude this probably contributes substantially to their displacement of fire ants. For fire ant identification, see [how to tell fire ants from other red ants](/blog/red-ants)." },
+
+    { "type": "h2", "text": "Which other ants look like crazy ants?" },
+    { "type": "p", "text": "Argentine, ghost and small dark house ants are possible mix-ups." },
+    { "type": "h3", "text": "Argentine ant or crazy ant?" },
+    { "type": "p", "text": "[Alabama Extension's guide for pest professionals](https://www.aces.edu/blog/topics/home/managing-tawny-crazy-ants-guidelines-for-the-pest-management-professional/) says tawny crazy ants and Argentine ants share much of their range and look alike, but tawny crazy ants are much hairier under high magnification. [UF/IFAS's Argentine ant profile](https://ask.ifas.ufl.edu/publication/IN1336) describes reddish-brown workers 2.2 to 2.6 mm (about 1/10 inch) long that smell musty when crushed. Mississippi State says mailing in ants is the only sure way to tell." },
+    { "type": "h3", "text": "Ghost ant or crazy ant?" },
+    { "type": "p", "text": "Ghost ants also run rapidly and erratically when disturbed, but [UF/IFAS's ghost ant profile](https://ask.ifas.ufl.edu/publication/IN532) describes tiny workers, 1.3 to 1.5 mm (about 1/16 inch) long, with a dark brown head and thorax and a milky white abdomen and legs. [The ghost ant guide](/blog/ghost-ants) covers them." },
+    { "type": "h3", "text": "Odorous house ant or crazy ant?" },
+    { "type": "p", "text": "Texas A&M's household ant guide marks odorous house ants, about 1/8 inch, as trail followers whose crushed workers smell like rotten coconut, and calls the little black ant slow-moving, the opposite of a crazy ant's dash." },
+    { "type": "confused", "items": [
+      { "href": "/blog/red-ants", "name": "Red imported fire ant", "photo": "red-imported-fire-ant", "note": "Builds dirt mounds and stings; workers 1/16 to 3/16 inch, reddish or dark brown", "alt": "Close-up of a red imported fire ant's reddish-brown head, antennae and front legs against a blue background" },
+      { "href": "/blog/tiny-ants", "name": "Argentine ant", "photo": "argentine-ants-trail-wall", "note": "Much less hairy than a tawny crazy ant under magnification; musty smell when crushed", "alt": "Small brown Argentine ants walking across a textured white wall below a green leaf" },
+      { "href": "/blog/ghost-ants", "name": "Ghost ant", "photo": "ghost-ants-lined-paper", "note": "Tiny and two-toned: dark head and thorax, milky white abdomen and legs", "alt": "Tiny ghost ant with a dark head and thorax and a pale abdomen and legs on lined paper" },
+      { "href": "/blog/black-ants", "name": "Odorous house ant", "photo": "odorous-house-ant-kitchen-counter", "note": "Follows trails; gives off a rotten coconut smell when crushed", "alt": "Dark brown to black odorous house ant on a light-colored kitchen counter" }
+    ] },
+
+    { "type": "h2", "text": "Why do crazy ants swarm electrical boxes?" },
+    { "type": "p", "text": "**Because growing colonies keep moving into dark, sheltered cavities, and because ants electrocuted in a switch draw in more ants.** Alabama Extension says tawny crazy ants need more nest sites as their populations grow and are known to nest in cavities that house sensitive equipment. Texas A&M's fact sheet on [fire ants in electrical equipment](https://research.entomology.tamu.edu/wp-content/uploads/sites/28/2014/03/ENTO_020.pdf) names crazy ants among the ants drawn to the oscillating magnetic fields of electrical equipment: ants that bridge an open switch are electrocuted, release chemical signals that attract more workers, and can pack the switch with bodies until it fails." },
+    { "type": "p", "text": "[Mississippi State's extension entomologist](https://extension.msstate.edu/newsletters/bugs-eye-view/2017/tawny-crazy-ants-vol-3-no-23) says dead ants piling up inside equipment often cause electrical problems, from failed air conditioners and water well pumps to shorted light switches and car trouble; one homeowner reported four air conditioner repairs in 12 months. Texas A&M says the ants have caused several thousand dollars in damage and repairs in some cases, and UF/IFAS adds phone lines and computers." },
+    { "type": "media", "needed": "Tawny crazy ants packed inside an electrical box, air conditioner contactor or light switch, with the dead ants that cause shorts; identified by an extension service or entomologist; public domain or CC0" },
+    { "type": "callout", "tone": "warning", "title": "Power off, then call a pro", "text": "Texas A&M's fact sheet, written for fire ants, says to let an electrician or a licensed pest management professional treat infested electrical equipment, with the unit unplugged or the power off, and not to use liquid drenches or sprays that can be hazardous around electrical fixtures. Where possible, it suggests sealing sensitive components: ants can enter holes as small as a paper clip's wire, about 0.02 inch (0.5 mm)." },
+
+    { "type": "h2", "text": "How do crazy ants spread?" },
+    { "type": "p", "text": "**Mostly by riding along with people.** Texas A&M's fact sheet says people have helped tawny crazy ants spread by moving infested plants, building materials, mulch, yard debris and hay bales. Alabama Extension says workers can also crawl outward 800 to 1,300 feet a year, and Texas A&M's urban entomology program has not observed mating flights; new colonies appear to bud off at the nest's edge." },
+    { "type": "p", "text": "UT Austin says tawny crazy ants from different infestations, even different states, show no aggression toward each other, and that the data so far put all those in the Southeast and Texas in one supercolony. To avoid moving them, Texas A&M asks people to:" },
+    { "type": "ul", "items": [
+      "Get landscaping materials from trusted dealers who inspect them and treat or destroy infested material.",
+      "Check felled trees before mulching or stump grinding.",
+      "Inspect landscaping and building materials before moving them to a site without the ants.",
+      "Hold landscaping material on asphalt or cement for 24 to 48 hours and check for ants before installing it."
+    ] },
+
+    { "type": "h2", "text": "Do crazy ants bite or sting?" },
+    { "type": "p", "text": "**They do not sting, and a tawny crazy ant's bite is minor; sources differ on whether they bite at all.** Texas A&M says tawny crazy ants can bite, causing a minute pain that quickly fades; UF/IFAS says they can nip, and Mississippi State calls the bite minimal, while Alabama Extension says they do not bite. UF/IFAS says the longhorn crazy ant may bite and then put a formic acid secretion on the wound, though Texas A&M's household ant chart lists crazy ants as non-biting." },
+    { "type": "p", "text": "The bigger issue is numbers: Mississippi State notes some concern among veterinarians, and Texas A&M notes reports from Colombia of small livestock such as chickens dying of asphyxia. [Which US ants bite and which sting](/blog/do-ants-bite) compares the others." },
+
+    { "type": "h2", "text": "Why are crazy ants in my house?" },
+    { "type": "p", "text": "**They usually nest outside and come in to forage, especially when outdoor numbers are high.** Texas A&M says tawny crazy ant nests are mainly outdoors but workers forage into homes, and Mississippi State says high outdoor populations often spill indoors. Alabama Extension says they eat almost any organic material, from honeydew and other insects to over-ripe fruit, and nest under anything that holds moisture. In cold climates, UF/IFAS says, the longhorn crazy ant nests inside buildings." },
+
+    { "type": "h2", "text": "How do you get rid of crazy ants?" },
+    { "type": "p", "text": "**Expect to suppress tawny crazy ants, not wipe them out, using several methods at once.** UF/IFAS says eradication is not probable where the ant is established and that relying on a single tactic will fail, and Mississippi State measures success by keeping the ants out of the house and other sensitive places. Extension sources advise:" },
+    { "type": "ol", "items": [
+      "**Confirm the species** with your county Extension office; Alabama Extension says proper identification comes before a management plan.",
+      "**Remove harborage.** UF/IFAS calls this the most important thing a homeowner can do: haul leaf litter, branches and other debris off the property instead of piling it up. Texas A&M adds rocks and anything else sitting on the ground, plus less irrigation, fixed leaks and better drainage.",
+      "**Cut the food supply.** Trim hedges and trees away from the house (UF/IFAS) and manage the aphids and other honeydew-producing insects the ants tend (Alabama Extension).",
+      "**Seal the house.** UF/IFAS suggests sealing cracks and gaps around windows, doors and plumbing and utility lines and replacing worn weatherstripping; if you can see daylight through a gap, ants can get in.",
+      "**Do not count on store-bought bait.** Texas A&M says the workers are not attracted to most bait products. Alabama Extension says bait helps most on a new infestation, ideally in early spring, that the ants switch bait preferences, and that baiting indoors can draw foragers inside. UF/IFAS research cut ant numbers by about half with granular, then liquid, bait applied while the ants were foraging.",
+      "**Treat sprays as short-term relief.** UF/IFAS found a single insecticide spray lasted less than a week, with ants starting to return after 2 to 3 days on average, and Texas A&M says perimeter treatments are often breached within 2 to 3 months. Keep sprays away from bait, and sweep or blow away dead-ant piles instead of hosing them, which washes the treatment off.",
+      "**Call a professional for a large infestation.** Texas A&M advises it if you suspect an infestation, Mississippi State says homeowners are unlikely to manage large populations alone, and UF/IFAS says to expect monthly or more frequent service."
+    ] },
+    { "type": "p", "text": "Use any insecticide only as its label directs: UF/IFAS calls the label federal and state law and warns that self-treating may undo a professional's work." },
+    { "type": "p", "text": "Longhorn crazy ants indoors call for exclusion first: UF/IFAS suggests caulking exterior gaps and weatherstripping, with baits, dusts or spot treatments used as labeled, and notes the ants may refuse sugar baits in summer. [How to get rid of ants in the house](/blog/how-to-get-rid-of-ants-in-the-house) walks through baiting." },
+    { "type": "callout", "tone": "tip", "title": "Save a sample", "text": "Photograph the ants beside a ruler marked in inches, note where you found them, and put a few in a leak-proof bottle of rubbing alcohol. Your county Extension office can identify them or pass them to a specialist, as Alabama Extension advises. If they turn out not to be ants, [the bug identifier quiz](/tools/what-bug-is-this) and [more pest identification guides](/learn) can help." }
+  ],
+  "faqs": [
+    {
+      "question": "Are crazy ants harmful?",
+      "answer": "They are rarely a danger to people but can be a costly nuisance. Crazy ants have no stinger, and Texas A&M says a tawny crazy ant's bite causes only a minute pain that quickly fades. The harm comes from their numbers: Mississippi State reports failed air conditioners and well pumps and shorted light switches, and Texas A&M says tawny crazy ants can reduce the variety of insects, spiders and other arthropods where they invade and have been known to take over commercial honeybee colonies. Mississippi State also notes some concern among veterinarians because of the sheer number of ants."
+    },
+    {
+      "question": "Are crazy ants hard to get rid of?",
+      "answer": "Tawny crazy ants are, once established. UF/IFAS says eradication is not probable where the ant is established, though populations can be suppressed, and its data show a single insecticide spray lasting less than a week. Texas A&M says most baits do not attract the workers. Alabama Extension says chemical treatment alone often fails and recommends removing debris and clutter, managing honeydew-producing insects and treating the landscape and, if necessary, the building perimeter. Mississippi State advises a pest management professional for large populations and says follow-up treatment may still be needed."
+    },
+    {
+      "question": "What are crazy ants attracted to?",
+      "answer": "Food, moisture and, it seems, electrical equipment. Alabama Extension says tawny crazy ants eat almost any organic material, tend aphids, scale insects and other insects for their sugary honeydew, take insects and small animals for protein, and visit sweet plant parts and over-ripe fruit; they nest in or under anything that holds moisture. Texas A&M lists crazy ants among the ants with an affinity for the oscillating magnetic fields of electrical equipment. UF/IFAS says the longhorn crazy ant eats many household foods but may refuse sugar baits in summer."
+    },
+    {
+      "question": "What makes crazy ants crazy?",
+      "answer": "Their running. UF/IFAS says the name comes from the ants' erratic, rapid movement and their habit of not following trails as often as other ants, and Mississippi State describes tawny crazy ants running around like crazy more than forming defined trails. Movement alone does not prove the species, though: UF/IFAS says ghost ants also run rapidly and erratically when disturbed. Long legs and antennae, workers all of one size and, for the tawny crazy ant, enormous numbers point to a crazy ant."
+    },
+    {
+      "question": "How do I know if I have crazy ants?",
+      "answer": "Look for huge numbers of small, long-legged ants running fast and erratically in wide, loose trails up trees, fences and walls, with no mounds in the yard. Alabama Extension calls piles of dead ants in the corners of buildings and along outside walls a common and distinctive sign, and electrical problems such as a failing air conditioner are another clue. To be sure, send a sample with photos to your county Extension office; in Mississippi, a physical specimen sent to Mississippi State's Insect Identification Lab is needed to confirm a new county."
+    },
+    {
+      "question": "Is it a rasberry or raspberry crazy ant?",
+      "answer": "Rasberry, without the p. UF/IFAS says the name comes from Tom Rasberry, the pest control operator who discovered a significant infestation around Houston in 2002. The same ant has also been called the hairy crazy ant and the Caribbean crazy ant, and Mississippi State says researchers who compared specimens from different locations found they were all one species, Nylanderia fulva, which now has the approved common name tawny crazy ant. The true Caribbean crazy ant, Nylanderia pubens, is a separate, closely related species."
+    },
+    {
+      "question": "What kills crazy ants naturally?",
+      "answer": "None of the extension sources cited here recommends a home remedy for tawny crazy ants; they advise removing the debris the ants nest under, managing honeydew-producing insects and professional treatment. Nature may help over time. The University of Texas at Austin has studied a microsporidian pathogen of tawny crazy ants, and at two sites where researchers introduced the disease and it took hold, the populations collapsed to local extinction within a few years. UF/IFAS says that, perhaps because of disease and other factors, populations subside within about 10 years of establishment and other ants return."
+    },
+    {
+      "question": "Do crazy ants go away in winter?",
+      "answer": "They slow down but come back. UF/IFAS says tawny crazy ant activity subsides as the weather cools, slowing markedly at about 50°F, and that in winter queens and workers have been seen gathering in nests, often at the bases of trees or other sheltered spots; it tells homeowners to expect the ants to return the next year. Numbers peak in the warm months: Texas A&M says densities rise dramatically by July and August, and Mississippi State says populations build to extremely high levels in summer and fall."
+    },
+    {
+      "question": "Can crazy ants get in your car?",
+      "answer": "They can cause car trouble, and cars can carry them. Mississippi State's extension entomologist lists automotive problems among the costly electrical problems that owners of yards infested with tawny crazy ants report. Alabama Extension says the ants jump to new areas when people unknowingly move small groups of them in trash, mulch, potted plants or cars. If you live in an infested area, check what you load before driving it somewhere new, as Texas A&M advises for landscaping and building materials."
+    },
+    {
+      "question": "How big are crazy ants?",
+      "answer": "Small: about 1/16 to 1/8 inch for the common US kinds. Texas A&M puts tawny crazy ant workers at 1/8 inch, and UF/IFAS measures them at 2.0 to 2.3 mm (about 1/16 to 3/32 inch). UF/IFAS gives the longhorn crazy ant 2.3 to 3 mm (about 1/16 to 1/8 inch). The yellow crazy ant of Hawaii is larger, about 4 mm (about 5/32 inch), says a Mississippi State museum profile. Tawny and longhorn crazy ant workers are each all one size; Texas A&M gives fire ant workers a wider range, 1/16 to 3/16 inch."
+    }
+  ],
+  "sources": [
+    { "title": "Tawny (Rasberry) Crazy Ant, Nylanderia fulva", "publisher": "Urban and Structural Entomology Program, Texas A&M University", "url": "https://urbanentomology.tamu.edu/urban-pests/ants/rasberry/" },
+    { "title": "ENTO-060: Tawny Crazy Ants: A Texas-Size Problem (Robert Puckett, September 2016)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/2025/03/tawny-crazy-ants-a-texas-size-problem.pdf" },
+    { "title": "Tawny Crazy Ant Management: Build a Bigger Buffer (overview, December 12, 2022)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://agrilifeextension.tamu.edu/asset-external/tawny-crazy-ant-management-build-a-bigger-buffer/" },
+    { "title": "ENTO-020: Managing Red Imported Fire Ants in Electrical Equipment and Utility Housings (Molly Keck and Bastiaan M. Drees, March 2014)", "publisher": "Texas A&M AgriLife Extension Service", "url": "https://research.entomology.tamu.edu/wp-content/uploads/sites/28/2014/03/ENTO_020.pdf" },
+    { "title": "B-6183: Managing Household Ant Pests (Bastiaan M. Drees, December 2005)", "publisher": "Texas A&M AgriLife Extension Service (then Texas Cooperative Extension)", "url": "https://extensionentomology.tamu.edu/wp-content/uploads/sites/3/2018/05/Household-ants-B6183.pdf" },
+    { "title": "Tawny Crazy Ant (previously known as Caribbean crazy ant), Nylanderia fulva (EENY-610/IN1071; Shweta Sharma, John Warner and Rudolph H. Scheffrahn)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN1071" },
+    { "title": "Integrated Pest Management (IPM) of the Tawny Crazy Ant, Nylanderia fulva (ENY-2006/IN889; Faith Oi, Dawn Calibeo, John Paige III and Michael Bentley)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN889" },
+    { "title": "Crazy Ant, Paratrechina longicornis (EENY-142/IN299; J. C. Nickerson and K. A. Barbara)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN299" },
+    { "title": "Argentine Ant, Linepithema humile (EENY-767/IN1336; Katherine Carroll and Adam Dale)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN1336" },
+    { "title": "Ghost Ant, Tapinoma melanocephalum (EENY-310/IN532; J. C. Nickerson, C. L. Bloomcamp and R. M. Pereira)", "publisher": "University of Florida IFAS Extension", "url": "https://ask.ifas.ufl.edu/publication/IN532" },
+    { "title": "Managing Tawny Crazy Ants Around Homes (ANR-2547; Fudd Graham, Kelly Palmer and Jeremy Pickens; reviewed January 2022)", "publisher": "Alabama Cooperative Extension System", "url": "https://www.aces.edu/blog/topics/home/managing-tawny-crazy-ants-around-homes/" },
+    { "title": "Managing Tawny Crazy Ants: Guidelines for the Pest Management Professional (ANR-2546; reviewed January 2022)", "publisher": "Alabama Cooperative Extension System", "url": "https://www.aces.edu/blog/topics/home/managing-tawny-crazy-ants-guidelines-for-the-pest-management-professional/" },
+    { "title": "Tawny Crazy Ants (Bug's Eye View, Vol. 3, No. 23; Blake Layton, 2017)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2017/tawny-crazy-ants-vol-3-no-23" },
+    { "title": "Tawny crazy ants spread to 7 Mississippi counties (Bonnie Coblentz, October 6, 2026)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/news/feature-story/2026/tawny-crazy-ants-spread-7-mississippi-counties" },
+    { "title": "UGA county agent finds new ant species in Georgia (Sharon Dowdy, September 17, 2013)", "publisher": "University of Georgia College of Agricultural and Environmental Sciences", "url": "https://fieldreport.caes.uga.edu/uga-county-agent-finds-new-ant-species-in-georgia/" },
+    { "title": "Chemical warfare among invaders: a detoxification interaction facilitates an ant invasion (LeBrun, Jones and Gilbert, Science, 2014)", "publisher": "US National Library of Medicine, PubMed", "url": "https://pubmed.ncbi.nlm.nih.gov/24526314/" },
+    { "title": "Crazy Ants", "publisher": "Texas Field Station Network, The University of Texas at Austin", "url": "https://fieldstations.utexas.edu/research/invasive-species-research/crazy-ants" },
+    { "title": "Anoplolepis gracilipes (Smith) (Joe A. MacGown)", "publisher": "Mississippi Entomological Museum, Mississippi State University", "url": "https://mississippientomologicalmuseum.org.msstate.edu/Researchtaxapages/Formicidaepages/genericpages/Anoplolepis.gracilipes.htm" }
+  ],
+  "disclaimer": "pesticide"
+}

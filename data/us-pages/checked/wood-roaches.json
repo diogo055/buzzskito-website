@@ -1,0 +1,17 @@
+{
+ "id": "wood-roaches",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "834625797063125ded63bce95fd500e6f8a37c7fe0672bc061ddb06505a51a06",
+ "claimsChecked": 301,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: 3 figures added (batch 21b: female with egg case CC0, on house siding CC0, found dead indoors CC BY 4.0); captions checked against the records and caveats",
+   "previousSha": "75538db9c978fe2cc70f14525d41bd24f3e30bdf6dda7b602e352020e1c2501a"
+  }
+ ]
+}

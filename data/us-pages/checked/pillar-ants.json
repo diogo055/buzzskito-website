@@ -2,7 +2,7 @@
  "id": "pillar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "86e79075aeae62d704703b643917d6e270fd31d9701c5ab6d959e6bb4afee78b",
+ "sha": "a26632ecf85a4d501680d887e1e9781d002da199c1689929baaa81e72d5a97c6",
  "claimsChecked": 250,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
@@ -26,6 +26,11 @@
    "on": "2026-10-23",
    "note": "checker: verified UF IN533 (in ant-infested hospitals burn victims and newborns are at increased risk because the pharaoh ant can transmit over a dozen pathogens such as Salmonella, Staphylococcus and Streptococcus), Kentucky ef619 (ants contaminate food; fire ant stings can be life-threatening to hypersensitive individuals), NIOSH (burning sensation; red bumps that become pustules), and that UC IPM 7411, Kentucky ef619 and Texas A&M B-6183 link household ants to no illness. Fixed: the FAQ 'Do ants carry disease?' discusses sting symptoms, so it now ends 'Contact a healthcare provider about any reaction that concerns you.' (the page's own wording, per the checker brief).",
    "previousSha": "cb01fa61acf8e7b2a4d43a89d04db3a30dfd6c996319c6ae5e16a2c905f47b02"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Species table in 'Which ants are common in US homes': added a longhorn crazy ant (Paratrechina longicornis) row linking /blog/crazy-ants: workers 1/16 to 1/8 inch, grayish black, nest mainly outdoors in trash piles and tree soil and forage in homes, long legs and antennae, run very fast (Texas A&M B-6183 text and Table 1, already a listed source, verified Oct 29). Caption now lists the longhorn crazy ant with the ghost and little black ants as Texas A&M rows; no other text changed",
+   "previousSha": "86e79075aeae62d704703b643917d6e270fd31d9701c5ab6d959e6bb4afee78b"
   }
  ]
 }

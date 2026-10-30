@@ -1,0 +1,10 @@
+{
+ "id": "bat-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "11c970fafc60e83311ce2c472f3f3d170d820a82027303ee76576c96364ee6bc",
+ "claimsChecked": 204,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 14,
+ "checkedOn": "2026-10-29"
+}

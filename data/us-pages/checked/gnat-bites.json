@@ -1,0 +1,10 @@
+{
+ "id": "gnat-bites",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "dd8a9242051781e602fe1a964ae04bb37e8af7f51c3b1b2c72ddda9c083d532b",
+ "claimsChecked": 358,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 10,
+ "checkedOn": "2026-10-29"
+}

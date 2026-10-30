@@ -2,7 +2,7 @@
  "id": "pillar-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "8d931f987f5d961633f4381395e5469f160659a53963065351123309f13db0d9",
+ "sha": "188aa9b9d50a5a77e0505e973c8ee723c0b1af73845582740e7667c662cc1e69",
  "claimsChecked": 145,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
@@ -21,6 +21,11 @@
    "on": "2026-10-23",
    "note": "link to /blog/bed-bugs-in-hotels added under 'When you travel' (one new paragraph, no new facts)",
    "previousSha": "ffccc8ae680df690a9c4bbd2e9a507466116f8387753ba0f7d70079a0051094c"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/bat-bugs (new page) in a new paragraph after the bat and bird relatives paragraph under 'Which insects are mistaken for bed bugs?'; no fact changed",
+   "previousSha": "8d931f987f5d961633f4381395e5469f160659a53963065351123309f13db0d9"
   }
  ]
 }

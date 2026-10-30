@@ -1,0 +1,17 @@
+{
+ "id": "sweat-bees",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "6e403b69c860e5a7da46fffeb18e2ed7b75ebb7f0271a7e71223f12f85b2b749",
+ "claimsChecked": 248,
+ "claimsCorrected": 8,
+ "claimsRemovedOrSoftened": 12,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: 2 where-found figures added from scout batch 21b (sweat-bee-on-fingertip, sweat-bee-nest-cone-soil); captions checked against the ledger records and caveats",
+   "previousSha": "70ea3cb4ee176cab5b5c578950f64763ef72d8d7e7a4d3d45efec42aa3406724"
+  }
+ ]
+}

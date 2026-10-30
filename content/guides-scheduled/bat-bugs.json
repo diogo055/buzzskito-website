@@ -1,0 +1,201 @@
+{
+  "slug": "bat-bugs",
+  "kind": "spoke",
+  "cluster": "bed-bugs",
+  "keyword": "bat bugs",
+  "alsoTargets": [
+    "bat bug",
+    "bat bug vs bed bug",
+    "bat bugs vs bed bugs",
+    "bat bug bites",
+    "do bat bugs bite humans",
+    "bat bugs in house",
+    "swallow bugs",
+    "swallow bug vs bed bug",
+    "bat bug life cycle"
+  ],
+  "metaTitle": "Bat Bugs vs Bed Bugs: How to Tell (Photos)",
+  "metaDescription": "Bat bugs look like bed bugs but feed on bats. Photos, the magnified hair test that tells them apart, where they turn up, their bites and what to do first.",
+  "h1": "Bat Bugs: The Bed Bug Look-Alikes From Bats, and How to Tell Them Apart",
+  "dek": "Bat bugs are bed bug relatives that live where bats roost and can bite people once the bats are gone. Real photos, the magnified tests that sort them from bed bugs, swallow bugs and bat ticks, and the safe order of work.",
+  "breadcrumb": "Bat Bugs",
+  "excerpt": "How to tell a bat bug from a bed bug, where bat bugs and swallow bugs come from, whether they bite, and why the bats or birds have to go first.",
+  "datePublished": "2026-10-29",
+  "parent": { "href": "/learn/bed-bugs", "name": "Bed Bugs" },
+  "quickAnswer": {
+    "lead": "**Bat bugs are close relatives of bed bugs that feed on bats, and the two are told apart only under magnification: the fringe hairs just behind a bat bug's head are longer than its eye is wide, while a bed bug's are shorter.** [Colorado State University](https://agsci.colostate.edu/agbio/ipm-pests/bed-bug-look-alikes) says bat bugs can bite people but cannot reproduce on human blood.",
+    "bullets": [
+      "Both the eastern and the western bat bug are found only in buildings that harbor roosting bats, usually in attics, between walls, in chimneys and under shingles, Colorado State says.",
+      "They are similar to bed bugs in size and color, by Colorado State's account, and the [EPA](https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle) puts an adult bed bug at 3/16 to 1/4 inch long, about the size of an apple seed.",
+      "They move into living areas when bats are excluded or die, Colorado State says, and the [University of Kentucky](https://entomology.mgcafe.uky.edu/ef636) says they may bite people especially once the bats are gone.",
+      "Bat bugs have not been found to transmit any diseases, says [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/bat-bug), which calls their feeding an annoyance rather than a danger.",
+      "In July 2023, [Iowa State](https://yardandgarden.extension.iastate.edu/article/2023/07/bed-bugs-or-bat-bugs-id-crucial-management) reported that most of the suspected bed bugs sent to its diagnostic clinic that year were bat bugs, so have one identified before anyone treats for bed bugs.",
+      "Swallow bugs, which live in cliff swallow mud nests, are told from bed bugs by their antennae: the last two segments are nearly equal in length (Colorado State)."
+    ]
+  },
+  "facts": {
+    "title": "Bat bug, swallow bug, bed bug or bat tick: quick ID",
+    "head": ["Bug", "Size", "Host and where found", "The tell"],
+    "rows": [
+      ["Bat bug", "Similar to a bed bug", "Bats; attics, wall spaces, chimneys and under shingles where they roost", "Hairs just behind the head longer than the eye is wide (needs magnification)"],
+      ["Swallow bug", "Similar to a bed bug", "Swallows, mainly cliff swallows; mud nests on cliffs and buildings, then nearby cracks", "Last two antenna segments nearly equal in length"],
+      ["Bed bug", "3/16 to 1/4 inch, about an apple seed", "People; beds and sofas", "Hairs behind the head shorter than the eye is wide; usually found in groups"],
+      ["Bat tick", "1/7 to 3/8 inch, by life stage", "Bats; cracks and crevices in the roost", "A soft tick: mouthparts under the body, hidden when seen from above"]
+    ],
+    "caption": "Sizes: EPA (bed bug) and Iowa State (bat tick); Colorado State says bat bugs and bird-feeding bugs are similar to bed bugs in size and color. Hosts, places and tells: Colorado State, UC IPM and Iowa State, all linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What are bat bugs?" },
+    { "type": "p", "text": "Bat bugs are blood-feeding insects that live with bats and are close enough relatives of the bed bug to pass for one. [Iowa State University Extension](https://yardandgarden.extension.iastate.edu/encyclopedia/bat-bug) says they are found in houses and buildings infested with bats, and [Colorado State University's look-alike guide](https://agsci.colostate.edu/agbio/ipm-pests/bed-bug-look-alikes) names two species, the eastern bat bug, *Cimex adjunctus*, and the western bat bug, *Cimex pilosellus*, both found only in buildings that harbor roosting bats." },
+    { "type": "figure", "src": "/guides/photos/western-bat-bug.webp", "width": 1200, "height": 1104, "alt": "Pale tan, flat, oval bat bug seen from above on a white surface, its body edged with long fine hairs and its abdomen marked with dark patches", "caption": "A western bat bug, *Cimex pilosellus*, in a CDC photograph. CDC says this one was found dropping into an office from a void above it in Flagstaff, Arizona. Note the long hairs fringing the body.", "license": "public-domain", "credit": "CDC/ Gary D. Alpert, Ph.D., Northern Arizona University, Department of Biological Sciences; photo: Gary D. Alpert, Ph.D., Northern Arizona University, Department of Biological Sciences (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28205" },
+    { "type": "p", "text": "They are often mistaken for bed bugs. [An Iowa State article](https://yardandgarden.extension.iastate.edu/article/2023/07/bed-bugs-or-bat-bugs-id-crucial-management) reported in July 2023 that most suspected bed bugs sent to its diagnostic clinic that year were bat bugs, and [Nebraska Extension](https://hles.unl.edu/bed-bugs) says about half of those brought to its Lancaster County office turn out to be bat bugs. Iowa State warns that the mix-up can waste hundreds or even thousands of dollars on the wrong treatment." },
+    { "type": "p", "text": "For every insect mistaken for a bed bug, see [the bed bug look-alike guide](/blog/bugs-that-look-like-bed-bugs); for bed bugs themselves, [the complete guide to bed bugs](/learn/bed-bugs)." },
+
+    { "type": "h2", "text": "How do you tell a bat bug from a bed bug?" },
+    { "type": "p", "text": "Look at the hairs just behind the head, under magnification: on a bat bug they are longer than its eye is wide, on a bed bug shorter, Colorado State says. Iowa State puts the bat bug's at least as long as the eye is wide, and [the University of California's bed bug Pest Note](https://ipm.ucanr.edu/home-and-landscape/bed-bugs/) (UC IPM) says the check takes a hand lens or microscope. To the naked eye they match: red- or gray-brown and wingless, Colorado State says." },
+    { "type": "figure", "src": "/guides/photos/bed-bug-adult-ruler.webp", "width": 864, "height": 915, "alt": "Reddish-brown, oval adult bed bug seen from above beside a printed scale marked 0 to 5 millimeters", "caption": "An adult bed bug, *Cimex lectularius*, beside a millimeter scale in a CDC photograph; 5 millimeters is about 3/16 inch. Its hairs are short and sparse; a bat bug's are long and bristly.", "license": "public-domain", "credit": "CDC/ CDC-DPDx; Blaine Mathison (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12704" },
+    { "type": "p", "text": "[Colorado State's 2020 identification key](https://webdoc.agsci.colostate.edu/bspm/InsectInformation/Talks2020/Cimicids.pdf) adds the wing pads and the overall hairiness, and how each insect turns up in a house helps too:" },
+    { "type": "table", "head": ["Feature", "Bat bug", "Bed bug"], "rows": [
+      ["Hairs beside the eyes", "Longer than the eye is wide", "Shorter than the eye is wide"],
+      ["Body hair", "Long and dense, so it looks bristly", "Short and sparse"],
+      ["Wing pads behind the head", "Broad at the inner edge, touching for about half their length or more", "Narrow at the inner edge, barely touching"],
+      ["How it is found", "Usually alone, on upper floors near the roost", "Usually in groups, around beds and sofas"],
+      ["When it turns up indoors", "Early autumn and mid-spring", "Year round"],
+      ["Breeds on human blood?", "No", "Yes"]
+    ], "caption": "Hair, wing pads and season: Colorado State's 2020 key, written for Colorado buildings. The rest: Colorado State's look-alike guide and Iowa State." },
+    { "type": "p", "text": "Even with a lens, leave the final call to an expert: Iowa State recommends a professional identification whenever either insect is suspected." },
+    { "type": "media", "needed": "A bat bug and a bed bug side by side under magnification, showing the hairs just behind the head against the width of the eye (longer on the bat bug, shorter on the bed bug), from a university or government source; public domain or CC0" },
+    { "type": "checklist", "title": "Clues that point to a bat bug, not a bed bug", "items": [
+      "**Where:** in the open on furniture, a windowsill or the top of the covers, often upstairs.",
+      "**How many:** one at a time, not a group.",
+      "**When:** early autumn or mid-spring in Colorado, as bats leave and return.",
+      "**Bats nearby:** droppings below an opening, stained entry gaps, bats leaving at dusk.",
+      "**Hairs:** under a lens, longer than the eye is wide."
+    ] },
+
+    { "type": "h2", "text": "Where do bat bugs come from, and where do they show up in a house?" },
+    { "type": "p", "text": "They come from a bat roost in the building. Colorado State says bat bugs tend to stay in the upper areas where bats roost, such as attics, wall spaces, chimneys and under shingles, and can ride between roosts hidden in the folded wings of resting bats. When bats are excluded or die, the bugs migrate into living areas." },
+    { "type": "p", "text": "Indoors they behave unlike bed bugs. Nebraska Extension says bat bugs turn up out in the open, walking on furniture, along windowsills or on top of the bed covers, and Colorado State says they are usually spotted one at a time. Its key, written for Colorado, gives early autumn and mid-spring as the typical times they reach living areas, as migrating bats leave and return." },
+    { "type": "figure", "src": "/guides/photos/big-brown-bat.webp", "width": 1200, "height": 889, "alt": "Big brown bat with rusty brown fur and dark wings clinging head-down to white-painted wood, with blue sky at the left", "caption": "A big brown bat, *Eptesicus fuscus*, on white-painted wood in Stevens County, Minnesota, in a U.S. Fish and Wildlife Service photo. UC IPM says big brown bats often roost in attics, barns and bat boxes.", "license": "public-domain", "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Brown_Bat_(21925795404).jpg" },
+    { "type": "p", "text": "To confirm a roost, look for signs. [UC IPM's guide to bats](https://ipm.ucanr.edu/home-and-landscape/bats/) says bat droppings crush easily into shiny bits of undigested insects, that droppings beneath openings and off odors can lead you to a roost, and that body oils stain entry points. Bats squeeze through gaps as small as 1/4 inch, often under eaves and around chimneys and vents, it says; watch the building at dusk to see where they come out." },
+    { "type": "figure", "src": "/guides/photos/bat-droppings-siding.webp", "width": 1200, "height": 904, "alt": "Clumps of small, dark droppings stuck to brown-painted wooden siding on both sides of a narrow gap between boards", "caption": "Droppings identified on iNaturalist as big brown bat droppings, stuck to siding at a gap between boards in Watson, Minnesota. Droppings beneath an opening are a roost sign, UC IPM says.", "license": "CC-BY-4.0", "credit": "(c) Matt Muir, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/184631840" },
+    { "type": "p", "text": "[The guide to bat poop](/blog/bat-poop) shows the droppings close up, and [the guide to animals in the attic](/blog/animals-in-attic) sorts bat signs from those of squirrels, rats and mice." },
+    { "type": "media", "needed": "A bat bug where homeowners find it: on a wall, ceiling, windowsill or the top of a bed cover below a bat roost, beside a coin or a ruler marked in inches, identified by an entomologist or extension diagnostician; public domain or CC0" },
+
+    { "type": "h2", "text": "Do bat bugs bite humans?" },
+    { "type": "p", "text": "Yes, especially when they cannot reach bats. Iowa State says bat bugs that wander from the roost feed on other warm-blooded animals, including people, and [the University of Kentucky's bed bug fact sheet](https://entomology.mgcafe.uky.edu/ef636) says the bat- and bird-feeding species may bite people, especially once their wild hosts are gone. Iowa State calls this an annoyance rather than a danger and says bat bugs have not been found to transmit any diseases." },
+    { "type": "p", "text": "A bite cannot tell you which bug made it. Medical sources describe bites of the bed bug, the bat bug's close relative: [CDC](https://www.cdc.gov/bed-bugs/about/index.html) says they look like mosquito or flea bites, a slightly swollen red area that may itch, at random or in a line, usually noticed one to several days later and sometimes not for 14 days. UC IPM says telling bed bug bites from those of mosquitoes, fleas and spiders is difficult to impossible; finding the insect settles it." },
+    { "type": "p", "text": "For itchy bites, CDC suggests antiseptic creams or lotions, not scratching, which can lead to infection, and antihistamines. It says to speak with a healthcare provider about a possible allergic reaction, such as enlarged bite marks or painful swelling." },
+    { "type": "callout", "tone": "warning", "title": "When to get medical care", "text": "The [American Academy of Dermatology](https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms) says serious reactions to bed bug bites need immediate medical care, and lists difficult breathing, an irregular or forceful heartbeat, a swollen tongue, blisters (especially large ones), fever, feeling very sick, infection from scratching and, rarely, anemia. CDC says allergic reactions can, on rare occasions, include anaphylaxis." },
+    { "type": "p", "text": "The bats are the bigger health question. [CDC's guide to preventing rabies from bats](https://www.cdc.gov/rabies/prevention/bats.html) says bat bites can be so tiny you may not know you were bitten, and to see a medical professional if you may have had contact with a bat. If you find a bat in your home, it says to call animal control or your health department to capture it safely for rabies testing, and not to release it until you have talked with a public health expert." },
+    { "type": "p", "text": "If bites continue and no bug turns up, [bites with no bed bugs in sight](/blog/bed-bug-bites-but-no-bed-bugs) covers other night biters, [what bed bug bites look like](/blog/bed-bug-bites) shows their pattern, and the [bug bite identifier](/tools/bug-bite-identifier) asks about yours." },
+
+    { "type": "h2", "text": "Can bat bugs breed without bats?" },
+    { "type": "p", "text": "No. Strays can reach bedrooms, but they cannot build a lasting infestation on people. Colorado State says bat bugs can bite humans but cannot reproduce on human blood, UC IPM says they cannot reproduce without a bat host, and Iowa State says only bed bugs survive and reproduce on human blood." },
+    { "type": "p", "text": "They can keep turning up for a while: Colorado State says bat bugs can live seven or eight months without feeding, and over a year in certain conditions, though UC IPM says parasites left behind after bats are removed soon die. Either way the fix starts with the bats; Nebraska Extension says beds and bedrooms usually need no insecticide once the bats are eliminated." },
+
+    { "type": "h2", "text": "What is the bat bug life cycle?" },
+    { "type": "p", "text": "It follows the bed bug's pattern, around the roost. Colorado State says eggs are laid in cracks or crevices near where the host rests; nymphs seek a host as soon as they hatch, feed until full, hide nearby to digest and molt through several stages to adulthood; mated females lay eggs over months and keep feeding from time to time." },
+    { "type": "p", "text": "Each round needs bats, so removing them breaks the cycle. For comparison, [the guide to baby bed bugs](/blog/baby-bed-bugs-nymphs) shows each bed bug nymph stage, which the EPA describes as smaller than the adult and translucent or whitish-yellow, and [what bed bugs look like](/blog/what-do-bed-bugs-look-like) shows the adults." },
+
+    { "type": "h2", "text": "What are swallow bugs, and how do you tell them from bed bugs?" },
+    { "type": "p", "text": "Swallow bugs are bed bug relatives that feed on swallows, and the tell is the antennae. Colorado State says the swallow bug, *Oeciacus vicarius*, feeds mainly on cliff swallows, which build jug-shaped mud nests on cliffs and building overhangs. Its last two antenna segments are nearly equal in length; a bed bug's last segment is shorter than the one before it." },
+    { "type": "p", "text": "Hairs do not settle it: UC IPM groups swallow bugs with bat bugs as having hairs longer than the eye, but Colorado State's 2020 key lists the swallow bug's as shorter, with dense hairs lying flat all over the body. Check the antennae under magnification, or ask an expert." },
+    { "type": "p", "text": "They are more likely to bite people when the birds are away. [UC IPM's cliff swallow Pest Note](https://ipm.ucanr.edu/home-and-landscape/cliff-swallows/) says swallow nests frequently contain mites and swallow bugs, which will bite humans though people are not their usual host. Colorado State says they are more likely to bite in spring, before the swallows return, and in autumn, after they leave, when the bugs move into nearby cracks and can survive months without feeding. Kentucky also names chimney swifts among the birds whose bugs may bite people." },
+    { "type": "p", "text": "UC IPM describes the nests as gourd-shaped mud structures cemented under the eaves of buildings and bridges. [The bird mite guide](/blog/bird-mites) covers the mites that can share them." },
+    { "type": "media", "needed": "A swallow bug, and a cliff swallow mud nest under the eave of a house, photographed where homeowners find them and identified by an entomologist or ornithologist; public domain or CC0" },
+
+    { "type": "h2", "text": "What other bat parasites turn up in homes?" },
+    { "type": "p", "text": "Bat ticks are soft ticks that share bat roosts and, like bat bugs, wander when the bats leave. [Iowa State's bat tick page](https://yardandgarden.extension.iastate.edu/encyclopedia/bat-tick) says the species, *Carios kelleyi*, is routinely found in homes and buildings with bats, hiding in cracks and crevices of the roost, and that people usually notice it once the bats leave or are removed and the hungry ticks start to wander." },
+    { "type": "p", "text": "They measure 1/7 to 3/8 inch depending on life stage, with mouthparts hidden under the body, and Iowa State says soft ticks look so unlike hard ticks that most people would not recognize them as ticks. It reports a benign bite, usually at night and often unnoticed, and says soft ticks are not believed to transmit the bacteria that cause Lyme disease. [CDC's note on its bat tick photo](https://wwwn.cdc.gov/phil/Details.aspx?pid=5394) says the species has been shown to carry spotted fever *Rickettsia* and relapsing fever *Borrelia*, with no evidence these have passed to people through its bite." },
+    { "type": "confused", "title": "Mistaken for a bat bug, and the sign of bats", "items": [
+      { "href": "/blog/what-do-bed-bugs-look-like", "name": "Bed bug", "photo": "bed-bug-on-skin-cdc", "note": "Hairs behind the head shorter than the eye is wide; breeds in beds and sofas", "alt": "Reddish-brown bed bug with a banded abdomen standing on human skin, seen from the side" },
+      { "href": "/blog/baby-bed-bugs-nymphs", "name": "Bed bug nymph", "photo": "bed-bug-nymph", "note": "Smaller than an adult and translucent or whitish-yellow before it feeds", "alt": "Amber, oval bed bug nymph with thin legs and a dark patch inside its abdomen, on white fabric" },
+      { "href": "/blog/soft-ticks", "name": "Bat tick", "photo": "bat-soft-tick", "note": "A soft tick from the same roosts; its mouthparts are hidden under the body", "alt": "Oval, tan soft tick with a pebbled back marked with gray spots and pale legs, seen from above on a dark background" },
+      { "href": "/blog/bat-poop", "name": "Bat droppings", "photo": "bat-droppings-bat-box-ruler", "note": "Crush easily into shiny insect bits; pile up beneath the gaps bats use", "alt": "Two dark, crumbly bat droppings on weathered wood beside a white ruler" }
+    ] },
+
+    { "type": "h2", "text": "What should you do first if you find a bat bug?" },
+    { "type": "p", "text": "Get it identified, then find the bats; treating for bed bugs comes last, if at all." },
+    { "type": "ol", "items": [
+      "**Keep the bug.** Seal it in a small jar or zip-top bag; Iowa State's clinic identifies bat bugs from a physical sample.",
+      "**Confirm before anyone treats.** Iowa State says to ask any pest control company you call to confirm the identification first, because the two insects are managed differently.",
+      "**Find the roost.** Check the attic, chimney, vents and eaves for droppings, stains and gaps, and watch at dusk to see where bats come out.",
+      "**Plan the exclusion** for the right season, within your state's rules and with the safety steps below; then deal with the strays."
+    ] },
+
+    { "type": "h2", "text": "How do you get bats out safely, and when?" },
+    { "type": "p", "text": "By exclusion: sealing gaps so the bats leave and cannot return, at a time of year when no young are inside. Iowa State says controlling bat bugs means getting the bats out by sealing their entry cracks and holes, and notes there are no pesticides to control bats in attics; UC IPM says the ultrasonic devices tested so far have proven ineffective." },
+    { "type": "p", "text": "Timing protects the young. UC IPM says to avoid excluding a colony when flightless young could be present, usually May through September in California, since shutting the parents out starves the young, and calls winter ideal because most bats leave in late fall in most areas. CDC calls fall and winter the best times and warns against trapping young bats inside between May and August. Iowa State gives late summer to fall in Iowa, and Colorado State says bats that hibernate in a building can be evicted with a one-way door in early spring, before they produce young." },
+    { "type": "p", "text": "CDC's method: hang plastic sheeting or bird netting loosely over the exit holes so bats can leave but not return, seal the openings once all have gone, and caulk other gaps larger than a dime. Check the rules first: CDC notes that some bats are endangered and that local rules or laws on removing bats apply, so ask your state wildlife agency. An animal control or wildlife conservation agency can bat-proof a home, CDC says, and Colorado State recommends professional help." },
+    { "type": "callout", "tone": "warning", "title": "Do not handle bats or stir up their droppings", "text": "UC IPM says never to handle bats or breathe dust from their droppings: histoplasmosis infection comes from inhaling fungal spores released when dry droppings are stirred up. [CDC's histoplasmosis prevention page](https://www.cdc.gov/histoplasmosis/prevention/index.html) says large amounts of bird or bat droppings should be cleaned up by professional companies that specialize in hazardous waste removal." },
+
+    { "type": "h2", "text": "How do you get rid of the bat bugs left behind?" },
+    { "type": "p", "text": "Once the bats are out, the strays are usually a small job: Nebraska Extension says to vacuum up lingering bugs, and Colorado State says sealing cracks around windows and gaps around electrical sockets limits where they wander." },
+    { "type": "p", "text": "If an insecticide is needed, it belongs mainly in the roost, not the bed. Kentucky says treatment should focus on roosting or nesting sites, combined with keeping the hosts out. Iowa State describes residual insecticides labeled for indoor use against bat bugs, applied to cracks, crevices and other hiding places, and warns that spraying without removing the bats will probably bring only short-term benefits. Follow the label exactly, or hire a licensed professional, and skip foggers: UC IPM says over-the-counter total-release foggers have been shown to be ineffective for bed bug control." },
+    { "type": "p", "text": "Swallow nests have a legal limit: UC IPM says all swallows are covered by the federal Migratory Bird Treaty Act, so active nests cannot be removed in the nesting season without a permit. It describes keeping swallows off a building before they arrive, while they build with no eggs or young in the nest, or after they leave for the winter." },
+    { "type": "p", "text": "If the expert says it is a bed bug after all, follow [the step-by-step bed bug plan](/blog/how-to-get-rid-of-bed-bugs) instead." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Keep the bug in a sealed jar or zip-top bag, photograph it beside a ruler marked in inches, and note the room, floor and date. Your state's cooperative extension office or a pest professional can check it under magnification." }
+  ],
+  "faqs": [
+    {
+      "question": "Are bat bugs as bad as bed bugs?",
+      "answer": "Usually not. Colorado State University says bat bugs can bite people but cannot reproduce on human blood, and Iowa State University says they have not been found to transmit any diseases, calling their feeding an annoyance. Nebraska Extension says controlling them is a lot simpler than controlling bed bugs, and that bedrooms and beds usually need no insecticide once the bats are eliminated. The catch is the bats: bat bugs point to a roost in the building, and bats should never be handled."
+    },
+    {
+      "question": "Will bat bugs get in your bed?",
+      "answer": "They can turn up on a bed, but they do not settle there the way bed bugs do. Nebraska Extension says bat bugs turn up out in the open, on furniture, along windowsills or on top of the covers. Colorado State says they are usually spotted one at a time and cannot reproduce on human blood, so a bat bug on the bed is a stray from a roost, most often in the attic or walls."
+    },
+    {
+      "question": "Will bat bugs infest an entire house?",
+      "answer": "Not on their own. UC IPM says bat bugs cannot reproduce without a bat host, and Colorado State says they tend to stay near roosts in attics, walls, chimneys and under shingles until the bats are excluded or die, then wander into living areas. Strays can keep appearing for months, since Colorado State says bat bugs can live seven or eight months without feeding. Getting the bats out and sealing the cracks they travel through ends the supply."
+    },
+    {
+      "question": "Are bat bugs hard to get rid of?",
+      "answer": "Usually easier than bed bugs, once the bats are dealt with. Nebraska Extension says the fix is removing the roosting bats and vacuuming up lingering bugs, with no need to treat beds in most cases. The harder part is the exclusion itself, which has to avoid the months when young bats cannot fly and follow your state's wildlife rules. Iowa State warns that spraying for the bugs without removing the bats probably gives only short-term relief."
+    },
+    {
+      "question": "What are the signs that I have bat bugs?",
+      "answer": "Single insects that look like bed bugs on furniture, windowsills or the tops of the covers, especially when bats leave or return (early autumn or mid-spring in Colorado), plus signs of bats in the building. UC IPM lists droppings that crush into shiny insect bits beneath openings, off odors, and stains from body oils at entry gaps, and suggests watching at dusk to see where bats come out. Bites are not a reliable sign, because bites from different insects look much alike."
+    },
+    {
+      "question": "How long can bat bugs live without bats?",
+      "answer": "Months, and sometimes longer. Colorado State University says bat bugs can live seven or eight months without feeding and, in certain conditions, over a year without a blood meal, though they eventually starve. UC IPM says parasites left behind after bats are removed soon die without their hosts. In practice, strays may keep appearing for a while after an exclusion, so keep vacuuming them up and seal the cracks they use to reach living areas."
+    },
+    {
+      "question": "Can you tell a bat bug from a bed bug without a microscope?",
+      "answer": "Not with confidence. Colorado State says the key difference, fringe hairs behind the head that are longer than the eye is wide on a bat bug and shorter on a bed bug, is visible only with magnification, and UC IPM says the check takes a hand lens or microscope. Where you found the bug, whether it was alone, the season and signs of bats are strong clues, but Iowa State recommends a professional identification whenever either insect is suspected."
+    },
+    {
+      "question": "Do swallow bugs infest homes?",
+      "answer": "They can wander in from nests on the outside of a building. Colorado State says swallow bugs live in cliff swallow mud nests on cliffs and building overhangs, move into nearby cracks once a nest is abandoned for the winter, and are more likely to bite people in spring, before the swallows return, or in autumn, after they leave. UC IPM says swallow bugs will bite humans, though people are not their usual host, and that telling them from bed bugs takes a hand lens or microscope."
+    },
+    {
+      "question": "Are bat bugs dangerous?",
+      "answer": "Not as far as the extension sources show. Iowa State University says bat bug feeding is an annoyance, not a danger, and that bat bugs have not been found to transmit any diseases. Itchy bites are possible; for bed bug bites, CDC suggests antiseptic creams or lotions, avoiding scratching, and speaking with a healthcare provider about a possible allergic reaction. The bats behind them are the real health concern: never handle a bat, and do not stir up their droppings."
+    },
+    {
+      "question": "When is the best time for bat exclusion?",
+      "answer": "Outside the months when young bats cannot fly. CDC calls fall and winter the best times to bat-proof a home and warns against trapping young bats inside between May and August. UC IPM says to avoid excluding a colony when flightless young could be present, usually May through September in California, and Iowa State gives late summer to fall as the best time in Iowa. Check your state wildlife agency's rules first, since CDC notes that some bats are endangered."
+    }
+  ],
+  "sources": [
+    { "title": "Bed bug look-alikes", "publisher": "Colorado State University, Department of Agricultural Biology", "url": "https://agsci.colostate.edu/agbio/ipm-pests/bed-bug-look-alikes" },
+    { "title": "Key Physical Features Used to Separate a Bed Bug from Related Insects (Bat Bugs, Swallow Bugs), April 18, 2020 revision", "publisher": "Colorado State University", "url": "https://webdoc.agsci.colostate.edu/bspm/InsectInformation/Talks2020/Cimicids.pdf" },
+    { "title": "Bat Bug (Yard and Garden encyclopedia; published September 12, 2016, reviewed December 2021)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/bat-bug" },
+    { "title": "Bed Bugs or Bat Bugs-ID is Crucial to Management (Zach Schumm, July 11, 2023)", "publisher": "Iowa State University Extension and Outreach, Yard and Garden", "url": "https://yardandgarden.extension.iastate.edu/article/2023/07/bed-bugs-or-bat-bugs-id-crucial-management" },
+    { "title": "Bat Tick (Yard and Garden encyclopedia; published September 12, 2016, reviewed December 2021)", "publisher": "Iowa State University Extension and Outreach", "url": "https://yardandgarden.extension.iastate.edu/encyclopedia/bat-tick" },
+    { "title": "Bed Bugs", "publisher": "Nebraska Extension, University of Nebraska-Lincoln (Horticulture, Landscape, and Environmental Systems)", "url": "https://hles.unl.edu/bed-bugs" },
+    { "title": "ENTFACT-636: Bed Bugs (Michael F. Potter)", "publisher": "University of Kentucky College of Agriculture, Food and Environment, Entomology", "url": "https://entomology.mgcafe.uky.edu/ef636" },
+    { "title": "Pest Notes: Bats (UC ANR Publication 74150; M. A. Glassey and J. F. Karlik, updated March 2021)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/bats/" },
+    { "title": "Pest Notes: Bed Bugs (UC ANR Publication 7454; A. M. Sutherland, D. H. Choe and V. R. Lewis, updated May 2013)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/bed-bugs/" },
+    { "title": "Pest Notes: Cliff Swallows (UC ANR Publication 7482; T. P. Salmon and W. P. Gorenzel, updated June 2005)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/cliff-swallows/" },
+    { "title": "Bed Bugs Appearance and Life Cycle (last updated January 6, 2026)", "publisher": "US Environmental Protection Agency", "url": "https://www.epa.gov/bedbugs/bed-bugs-appearance-and-life-cycle" },
+    { "title": "About Bed Bugs (April 26, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/bed-bugs/about/index.html" },
+    { "title": "Bedbugs: Signs and symptoms", "publisher": "American Academy of Dermatology", "url": "https://www.aad.org/public/diseases/a-z/bed-bugs-symptoms" },
+    { "title": "Preventing Rabies from Bats (July 1, 2025)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rabies/prevention/bats.html" },
+    { "title": "Reducing Risk for Histoplasmosis (April 24, 2024)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/histoplasmosis/prevention/index.html" },
+    { "title": "Carios kelleyi, the bat tick (Public Health Image Library, image 5394)", "publisher": "Centers for Disease Control and Prevention", "url": "https://wwwn.cdc.gov/phil/Details.aspx?pid=5394" }
+  ],
+  "disclaimer": "health"
+}

@@ -1,0 +1,17 @@
+{
+ "id": "woodlouse-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "727ae30f07dab45814b926c24d13c1f38c8e244319a816315023a1943ff07d62",
+ "claimsChecked": 294,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: indoor figure woodlouse-spider-bathroom-floor added (batch 21b, CC0); caption checked against the record (no claim it was alive)",
+   "previousSha": "f25dbe0090fe591f3dc9184099ef96d0b5b10065973695f5eaf66207cec6dfa6"
+  }
+ ]
+}

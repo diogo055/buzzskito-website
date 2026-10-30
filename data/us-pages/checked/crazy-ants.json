@@ -1,0 +1,17 @@
+{
+ "id": "crazy-ants",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "f6b6909f7b91bd2bc61bbb3ed148c8d81e66a6003f1fe9b2265a21c0a61ef690",
+ "claimsChecked": 400,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: 2 longhorn crazy ant where-found figures added (batch 21b, CC0); captions checked against the records",
+   "previousSha": "997b0a1b0b1131312eac04fe1bda66059330b2ccdb25a690b0eaf2c08309d7ae"
+  }
+ ]
+}

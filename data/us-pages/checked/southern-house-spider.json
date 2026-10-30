@@ -1,0 +1,10 @@
+{
+ "id": "southern-house-spider",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "8cb64c3bdae3412b05021058a520456b412c7ea54d689814f58ef584859460ec",
+ "claimsChecked": 276,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 7,
+ "checkedOn": "2026-10-29"
+}

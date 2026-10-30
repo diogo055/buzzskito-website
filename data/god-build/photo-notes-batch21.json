@@ -1,0 +1,561 @@
+{
+ "_readme": "Scout notes for the twenty-first photo batch (Oct 29, 2026), in two parts. Batch 21: the day-5 God-list pages spider-beetles, baby-silverfish and tomato-hornworms. Batch 21b: the day-4 pages lovebugs, wood-roaches, sweat-bees, ground-bees, crazy-ants, skunk-smell-in-house and copperhead-look-alikes, plus two extras the coordinator asked for (false-widow-spiders, woodlouse-spiders). Same format as batches 7 to 20: what each photo's source says it shows and who identified it (sourceDescription), the pages it serves (forPages), confidence in the identification, whether it can lead a page (leadEligible: public domain or CC0 AND a confident identification of the page's main subject), and caveats. Licence, credit and size of record are in photos.json and repeated in note. 45 photos were added: 18 in batch 21 (leads: a smooth spider beetle on a ruler, a pale 7 mm young gray silverfish and a tomato hornworm eating the observer's tomatoes, all CC0) and 27 in batch 21b (leads: a striped skunk on a lawn, CC0, and a juvenile copperhead identified by the U.S. Fish and Wildlife Service, public domain). Every image was opened before choosing and again as the WebP the script wrote. Hornworms were checked against the marks UMN, MSU and Wisconsin give and are captioned only as far as the marks and the identifications agree. Snakes follow the Snakes rule in WRITER_BRIEF_PHOTO_ID.md: all nine snake photos were identified by a government agency (USFWS, USGS, NOAA, NPS) or come from CDC PHIL with a herpetologist's photo; no iNaturalist or Commons community identification was used for a snake. Identifiers named in caveats: szucsich is Nikola Szucsich, by far the most active identifier of silverfish on iNaturalist (about 23,000 silverfish identifications); johnascher is John S. Ascher, a bee systematist and the most prolific bee identifier on iNaturalist; sabutaro is Jiri Hromadka, a very active cockroach identifier (about 245,000 identifications). Searches, refusals and what is still missing are in gaps.",
+ "candidates": [
+  {
+   "id": "smooth-spider-beetle-on-ruler",
+   "forPages": [
+    "spider-beetles"
+   ],
+   "confidence": "high (research grade: Gibbium aequinoctiale by mnathan and birthedofearth; a third identifier stopped at insect; annotated adult, dead). BugGuide says Gibbium species are reliably separated only by male genitalia, so 'smooth spider beetle (Gibbium)' is the safe caption; G. aequinoctiale is the species the sources report in North America",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 53842740 by dmcmanus (Deaglan McManus), Allison Park, Pennsylvania, May 13, 2020, CC0, no description. Three photos of the same beetle on a ruler with red marks; photo 85649705 used (from above).",
+   "caveats": "A sharp top view of a smooth spider beetle on a ruler between its 0 and 1 marks: the shiny, reddish-brown, globe-shaped body on long, pale legs. The ruler's units are not stated; ten divisions between 0 and 1 and a beetle about 2.5 divisions long fit a centimetre ruler in millimetres, but caption it only 'on a ruler, for scale' unless the writer confirms. Annotated dead: do not say it was alive or walking. Where it was found is not stated. CC0 and confidently identified: the lead and share image for spider-beetles.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1149x1229."
+  },
+  {
+   "id": "smooth-spider-beetle-six-legs-top-view",
+   "forPages": [
+    "spider-beetles"
+   ],
+   "confidence": "high at genus (determined by kerbtier.de, a German team of beetle experts, as Gibbium psylloides or G. aequinoctiale shortly after the photo was taken, per the photographer Francisco Welter-Schultes); not identified to species",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file Gibbium-03-fws.jpg by Francisco Welter-Schultes, CC0, May 31, 2022: 'Gibbium Scopoli, 1777. Body length 2.8 mm without antennae. Determined by kerbtier.de as Gibbium psylloides or aequinoctiale shortly after the picture was taken ... Germany: Bayern, Landkreis Ansbach, Heilsbronn.' One of ten views of the same beetle (Gibbium-01-fws.jpg to Gibbium-10-fws.jpg).",
+   "caveats": "A clean studio top view on white: six legs and two long antennae spread around the shiny, reddish-brown, globe-shaped body. The figure for the page's tick test (a beetle's six legs and antennae against a tick's eight legs and none). Genus only: caption 'smooth spider beetle (genus Gibbium)', no species. Photographed in Germany: leave the place out on the US page or say so. 2.8 mm is the photographer's measure. CC0 with an expert determination: could lead too, but the ruler photo is the planned lead. Original 968 px wide.",
+   "note": "Credit: Francisco Welter-Schultes, CC0, via Wikimedia Commons. Licence: CC0-1.0. Size: 968x908."
+  },
+  {
+   "id": "smooth-spider-beetle-fingertip",
+   "forPages": [
+    "spider-beetles"
+   ],
+   "confidence": "high (research grade: Gibbium aequinoctiale by the observer ryanfm and by hdspotter); the genus-level caution above applies",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 373348406 by ryanfm (Ryan F. Mandelbaum), 5th Ave, New York, New York, June 19, 2026, CC BY, no description. Three photos; photo 682299339 used.",
+   "caveats": "A smooth spider beetle on the tip of a finger beside the nail: the size photo (no spider beetle beside a coin or a tick exists under an allowed licence). Say only that it is on a fingertip; that spider beetles do not bite people must come from the page's sources. Where it was found is not stated. CC BY, so never the lead or share image.",
+   "note": "Credit: (c) Ryan F. Mandelbaum, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "smooth-spider-beetle-shower-soap",
+   "forPages": [
+    "spider-beetles"
+   ],
+   "confidence": "high (research grade: Gibbium aequinoctiale by the observer mertensia and by malisaspring; thebals at genus Gibbium). The observer herself quotes BugGuide: reliable species identification needs male genitalia",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 39777884 by mertensia (Bonnie Semmling), Somerville, New Jersey, March 9, 2020, CC BY: 'Found in shower'. Five photos; photo 63142878 used.",
+   "caveats": "Where found: a smooth spider beetle on a metal ledge beside a bar of soap in the shower where the observer found it, tile below. A real household find, not posed. Do not add that moisture or bathrooms attract them unless a source says it. CC BY: below the lead only.",
+   "note": "Credit: (c) Bonnie Semmling, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "smooth-spider-beetle-white-fabric",
+   "forPages": [
+    "spider-beetles"
+   ],
+   "confidence": "high (research grade with four identifications on Gibbium aequinoctiale: aurion, pmbrousseau, rguy321 and frontyardscientist; the observer first guessed arachnid and withdrew it); annotated adult, alive",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 105843220 by aurion, Quebec, Canada, January 30, 2022: 'Flea or tick?'. One photo, 177684251, licensed CC0 (the observation record itself is CC BY-NC; the photo's own licence is what the script checks and what the page uses).",
+   "caveats": "A live smooth spider beetle walking on white fabric, posted by an observer asking 'Flea or tick?': the confusion the page answers. The source does not say what the fabric is (sheet, clothing or upholstery): do not call it bedding. The beetle is small in a wide frame (1200x540), so it is a where-found photo, not a good lead. Canadian observation: on the US page say Quebec, Canada, or leave the place out. Quote no more than the observer's three words.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x540."
+  },
+  {
+   "id": "young-gray-silverfish-7mm",
+   "forPages": [
+    "baby-silverfish"
+   ],
+   "confidence": "high at species (research grade: Ctenolepisma longicaudatum by the observer kenkneidel and by szucsich, Nikola Szucsich). Young by the observer's measure and note, not by annotation",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 10519869 by kenkneidel (Ken Kneidel), Charlotte, North Carolina, March 18, 2018, CC0: 'rear of abdomen has 2 pairs of styli, indoors, small (7mm) but possibly early instar'. Five photos (one whole insect, four close-ups); photo 14640317 used, the whole insect.",
+   "caveats": "A sharp view of a pale tan young gray silverfish on a green background (the photographer's backdrop, not where it was found): long antennae, three tail filaments, a body not yet the adult's silvery gray. Found indoors; 7 mm is the observer's measure and 'possibly early instar' the observer's guess: give no age or instar. Adult size and when the scales come must come from the page's sources (UC IPM, NC State). Original 992 px wide. CC0 and confidently identified: the lead and share image for baby-silverfish.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 992x760."
+  },
+  {
+   "id": "young-gray-silverfish-fingertip",
+   "forPages": [
+    "baby-silverfish"
+   ],
+   "confidence": "high (research grade: Ctenolepisma longicaudatum by the observer coniver and by mantis777; annotated juvenile, alive)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 291457063 by coniver, Exeter, England, May 31, 2025, CC0, no description. Twelve photos of the same young silverfish on a person's arm and on a speckled surface; photo 524453481 used (beside a fingertip).",
+   "caveats": "The size photo: a young gray silverfish on a speckled surface next to a fingertip; the insect is small in the frame, which is the point. The source does not say what the surface is: say 'a speckled surface', not a countertop or kitchen. Photographed in England; the same species lives in US homes, so leave the place out. The frames on skin were not used.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "young-silverfish-in-book",
+   "forPages": [
+    "baby-silverfish"
+   ],
+   "confidence": "medium, family only (Lepismatidae: starkowl proposed the common silverfish, Lepisma saccharinum, and highwaytohellgrammite disagreed back to family; needs ID, not research grade); annotated juvenile",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 18943285 by swells (Steve Wells), Holualoa, Hawaii, December 10, 2018, CC0: 'In a book, near the binding'. Two photos; photo 29040956 used.",
+   "caveats": "Where found: a pale, bristly young silverfish on a dark, speckled surface that the observer describes as a book near its binding; the book itself is not recognisable in the frame. The species is disputed: caption it 'a young silverfish (family Lepismatidae)' at most, never the common silverfish. Not research grade, so never the lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x871."
+  },
+  {
+   "id": "firebrat-textured-surface",
+   "forPages": [
+    "baby-silverfish",
+    "how-to-get-rid-of-silverfish"
+   ],
+   "confidence": "high (research grade: Thermobia domestica by the observer estv and by szucsich, Nikola Szucsich)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 35413318 by estv (Esteban Gastelum Leyva), Hermosillo, Sonora, Mexico, November 7, 2019, CC0, no description. Two photos; photo 55838568 used.",
+   "caveats": "A firebrat on a white textured surface (a wall or ceiling texture; the source does not say): mottled, banded back, long antennae and tail filaments. For the firebrat row or card on baby-silverfish and the firebrat media placeholder on /blog/how-to-get-rid-of-silverfish. Life stage not annotated: do not call it a nymph. Photographed in Mexico: leave the place out or say Sonora, Mexico. CC0 and confidently identified, but not either page's main subject, so not a lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "tomato-hornworm-on-tomato-plant",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high (research grade, four identifiers agreeing on Manduca quinquemaculatus: the observer mcm, carolinashepherd, hughmcguinness and k8thegr8; annotated larva). Marks checked at full size: V-shaped white marks with a spiracle inside each V and a dark blue-black horn",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 12730966 by mcm (Mike Mullins), Sweeny, Texas, May 22, 2018, CC0: 'Eating my tomatoes !!!'. One photo, 18439767.",
+   "caveats": "A tomato hornworm lying along a tomato stem among tomato leaves, a planter and deck boards behind: the lead and share image for tomato-hornworms. The caterpillar fills the upper part of a tall frame; the V marks and the dark horn are clear at full size. No size given. Identifications and marks agree, so the species can be captioned with confidence.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "tomato-hornworm-v-marks-tomato-stem",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high (research grade, six identifiers on Manduca quinquemaculatus: sgalick, schoenitz, hughmcguinness, colinpurrington, carolinashepherd and mia130; annotated larva). Marks checked: clear V-shaped marks with a spiracle in each V, dark horn",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 7206501 by sgalick (Samuel Paul Galick), Middle Township, New Jersey, July 7, 2017, no description. One photo, 9296602, licensed CC0 (the observation record is CC BY).",
+   "caveats": "A tomato hornworm hanging under a hairy tomato stem, backlit, with garden twine across the frame: the clearest view of the V marks, for the side-by-side with the tobacco hornworm. A little dark and shadowed. CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "tobacco-hornworm-on-tomato-red-horn",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high (research grade: Manduca sexta by the observer danieldas and by b_dvorak, one of the two most active Manduca identifiers on iNaturalist). Marks checked: diagonal white lines edged in black above and a reddish horn",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 402877548 by danieldas (Daniel Das), California, September 21, 2026, CC0: 'On tomato plant'. Six photos; photo 739638997 used (side view with the horn).",
+   "caveats": "A tobacco hornworm on a tomato stem: the diagonal white lines with black upper edges and the reddish, curved horn. The comparison photo for the side-by-side (the tobacco hornworm is just as common on tomatoes). CC0 and confidently identified, but the page's main subject is the tomato hornworm, so it does not lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "hornworm-stripped-tomato-stem",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high (research grade: Manduca sexta by the observer jacob_mullin and by claire97357). Marks checked: diagonal lines edged in black and a red horn, so a tobacco hornworm",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 389067186 by jacob_mullin (Jacob Mullin), Groton, Massachusetts, August 7, 2026, CC0: 'Saw tons of it's droppings below the tomato plant this morning. I had no idea what I was looking at until I spotted this caterpillar up top.' Four photos; photo 712627500 used.",
+   "caveats": "Where found and the damage: a tobacco hornworm stretched along the top of a potted tomato plant whose upper stems are stripped bare, house siding, windows, a wall clock and a covered grill behind (no brand legible; checked at full size). The droppings the observer mentions are not in this photo. Caption as a tobacco hornworm, or as 'a hornworm' in a damage caption.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "tobacco-hornworm-chewed-green-tomato",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high (research grade: Manduca sexta by the observer kevin-anderson and by toriw; annotated larva). Marks checked: diagonal lines edged in black, red horn",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 384685423 by kevin-anderson (Kevin Anderson), Durham, North Carolina, July 24, 2026, CC BY: 'Munching our tomatoes'. One photo, 704197775.",
+   "caveats": "The damage to fruit: a tobacco hornworm on a tomato stem just below a green tomato with a large bite out of it, lattice behind. The photo does not show this caterpillar making that bite; the observer says it was munching their tomatoes, so 'a hornworm beside a green tomato it has been eating' is at the source's strength. No frass visible. CC BY: never the lead.",
+   "note": "Credit: (c) Kevin Anderson, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1200."
+  },
+  {
+   "id": "hornworm-cotesia-cocoons-tomato",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high for the wasp (research grade: Cotesia congregata by the observer birdnirdfoley and by mmn_noriko); the host hornworm is not identified (its horn looks reddish, which would point to a tobacco hornworm)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 178906087 by birdnirdfoley, Smithsburg, Maryland, August 17, 2023, CC0, no description. One photo, 311393552.",
+   "caveats": "A hornworm on a tomato stem beside green tomatoes, its back covered in dozens of white silk cocoons: the 'leave it' photo. Caption the host only as 'a hornworm'. The observation is of the wasp. Call them cocoons, not eggs; the advice to leave parasitized hornworms must come from the extension sources (UMN, Maine, UF/IFAS), not the photo. CC0.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "hornworm-frass-pellets",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "medium-high (the photographer's identification as droppings of a Manduca sexta larva; no second identification, but the barrel-shaped, ridged pellets fit hornworm frass, and the photo is not used to identify the caterpillar)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Manduca sexta droppings.png' by ButterNoodle, CC BY-SA 4.0: 'Droppings from a Manduca sexta larva'. No place or date given.",
+   "caveats": "About 35 dark green, barrel-shaped, ridged pellets on white paper: what hornworm frass looks like close up, the sign the page says gives them away. Probably from a reared caterpillar; the source does not say. Caption as 'droppings (frass) of a tobacco hornworm, as the photographer identifies them' or simply 'hornworm droppings'. CC BY-SA: credit as recorded, never the lead.",
+   "note": "Credit: ButterNoodle, CC BY-SA 4.0, via Wikimedia Commons. Licence: CC-BY-SA-4.0. Size: 1200x791."
+  },
+  {
+   "id": "five-spotted-hawk-moth",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high (research grade: Manduca quinquemaculatus by the observer aaron_pritchard and by stomlins701, the most active Manduca identifier on iNaturalist; annotated adult, alive)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 378417098 by aaron_pritchard, Harlan, Iowa, September 15, 2018, CC0, no description. Seven photos; photo 692094101 used.",
+   "caveats": "The adult tomato hornworm moth, wings spread flat on a gray surface: gray-brown wing pattern and the yellow-orange spots along the abdomen. Not every spot pair is visible from this angle, so take the count (five pairs; six in the Carolina sphinx) from the sources, not the photo. The place on record is a hospital heliport in Harlan: say Iowa or leave it out. CC0; a life-stage photo, not the page's lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x675."
+  },
+  {
+   "id": "hornworm-pupa-in-soil",
+   "forPages": [
+    "tomato-hornworms"
+   ],
+   "confidence": "high at genus, medium at species (research grade: Manduca sexta by the observer peterboyer and by zoology123, but a pupa alone is hard to tell from the tomato hornworm's; annotated pupa)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 10253531 by peterboyer (Peter Boyer), Wooster, Ohio, March 17, 2017, CC BY, no description. One photo, 14185074.",
+   "caveats": "A reddish-brown hornworm pupa with the looped 'handle' along its front, lying in its cell in the soil, photographed in March: the overwintering stage the page describes. Caption it 'a hornworm pupa in the soil'; name the tobacco hornworm only as 'identified on iNaturalist as'. The source does not say how it was found. CC BY.",
+   "note": "Credit: (c) Peter Boyer, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x900."
+  },
+  {
+   "id": "lovebugs-splattered-vehicle-grille",
+   "forPages": [
+    "lovebugs"
+   ],
+   "confidence": "high for the observation (research grade: Plecia nearctica by the observer buggybuddy, zdanko and mecopteron_bouillon); in this wide frame the splattered insects are too small to identify on their own, so the identification rests on the observation and its close-ups",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 113299076 by buggybuddy (Jade Fortnash), Pembroke Pines, Florida, April 28, 2022, CC0, no description. Three photos of squashed lovebugs on a vehicle; photo 191441994 used (the front of the vehicle).",
+   "caveats": "The photo the reader needs: lovebugs splattered across the chrome grille, a white trim panel and the gray bumper of a vehicle, a headlight at left. The source does not say what kind of vehicle or where it was driven: say 'a vehicle', not a truck or a car on a highway. Any claim about lovebug splatter damaging paint must come from the page's sources (UF/IFAS), not the photo. CC0, but not a lead: the insects are specks at this distance.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x900."
+  },
+  {
+   "id": "lovebugs-squashed-closeup",
+   "forPages": [
+    "lovebugs"
+   ],
+   "confidence": "high (same research-grade observation as lovebugs-splattered-vehicle-grille; the orange thorax and black wings are visible on the squashed bodies)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 113299076 by buggybuddy (Jade Fortnash), Pembroke Pines, Florida, April 28, 2022, CC0, no description; photo 191441951 used.",
+   "caveats": "A close-up of three or four squashed lovebugs and their smeared remains on a white painted surface, flecked with other insect bits. Pairs with the grille photo to show what the splatter is. The source does not say which part of the vehicle this is: 'on a white painted surface'.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "lovebugs-cluster-blue-surface",
+   "forPages": [
+    "lovebugs"
+   ],
+   "confidence": "high (research grade: Plecia nearctica by bruceneville, mecopteron_bouillon and the observer mbelitz, who first put it at genus)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 33073256 by mbelitz (Michael W Belitz), Hawthorne, Florida, September 20, 2019, CC0, no description. Photo 51915155 used.",
+   "caveats": "About twenty live lovebugs, several joined tail to tail in pairs, crowded on a blue surface: the swarm the page describes, close up. The source does not say what the blue surface is (it may be a vehicle, a tarp or a wall): do not name it. The pairs are visible, but say 'in mating pairs' only where the page's sources describe the paired flight. CC0 and confidently identified, so it could lead, though the mating-pair lead already on record is planned.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "lovebug-on-fingernail",
+   "forPages": [
+    "lovebugs"
+   ],
+   "confidence": "high (research grade: Plecia nearctica by sam10turner, zdanko and the observer erickalee, who first put it at genus)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 115761150 by erickalee, Simonton, Texas, May 6, 2022, CC0, no description. Photo 195375517 used.",
+   "caveats": "The size photo: a single lovebug standing on a fingernail, its orange thorax, black body and wings clear. Lovebugs do not bite or sting, but say so only from the page's sources. Original 942 px wide.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 942x1256."
+  },
+  {
+   "id": "wood-cockroach-female-egg-case",
+   "forPages": [
+    "wood-roaches"
+   ],
+   "confidence": "high (research grade: Parcoblatta pennsylvanica by the observer vrose96 and by sabutaro, Jiri Hromadka; annotated adult, female, alive, with egg evidence)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 286671153 by vrose96, Gordo, Alabama (the record's place is 'Gordo'; its coordinates put it in Pickens County, Alabama), June 3, 2025, CC0, no description. Two photos; photo 515385222 used.",
+   "caveats": "The sex difference the page needs: an adult female Pennsylvania wood cockroach, dark and broad, with short wings that leave most of the abdomen bare, carrying a pale egg case (ootheca) at the tip of her abdomen, on leaf litter and gravel. 'Short wings' is what the photo shows; the rule that females of this species are short-winged and do not fly must come from the page's sources. CC0 and confidently identified: a stronger lead than wood-cockroach-male, which is already a figure on /blog/can-cockroaches-fly.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "wood-cockroach-house-siding",
+   "forPages": [
+    "wood-roaches"
+   ],
+   "confidence": "high (research grade: Parcoblatta pennsylvanica by the observer conhawn and by sabutaro, Jiri Hromadka)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 222157840 by conhawn (Conway Hawn), Missouri (the record's place reads 'Sherrill Township, MO'), June 11, 2024, CC0, no description. Two photos; photo 393498287 used.",
+   "caveats": "Where found: a long-winged adult (wings covering the abdomen; not sexed on the record, but long wings fit a male) on white horizontal siding, lit by the camera's flash. The source does not say it was a house or that it was night: the siding and the hard flash shadow are what the photo shows. Say 'on white siding'.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1331."
+  },
+  {
+   "id": "wood-cockroach-indoors-paper-towel",
+   "forPages": [
+    "wood-roaches"
+   ],
+   "confidence": "high (research grade: Parcoblatta pennsylvanica by the observer jdonahue and by sabutaro, Jiri Hromadka)",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 219227824 by jdonahue (Justin Donahue), D.H. Day Campground, Empire, Michigan, May 28, 2024, CC BY: 'found indoors, deceased'. Two photos; photo 388428779 used.",
+   "caveats": "Where found, the reader's own situation: a wood cockroach the observer found dead indoors, photographed on a paper towel. The record is at a campground, so the building is probably not a house: say 'found indoors', not 'in a home'. Dead: do not say it was alive or wandering. CC BY, so never the lead.",
+   "note": "Credit: (c) Justin Donahue, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x1600."
+  },
+  {
+   "id": "sweat-bee-on-fingertip",
+   "forPages": [
+    "sweat-bees"
+   ],
+   "confidence": "high to subgenus (research grade at Lasioglossum subgenus Dialictus: the observer swells and johnascher, John S. Ascher); not identified to species, as usual for Dialictus from photos",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 45422279 by swells (Steve Wells), Moscow, Idaho, May 9, 2020, CC0: 'This little guy landed on and didn't want to leave my wife's finger.' Three photos; photo 72023903 used.",
+   "caveats": "The photo the reader needs, a sweat bee on skin: a small, dark, faintly metallic bee standing on a fingertip, wings folded. It also covers the wished-for 'small dark Lasioglossum'. The source does not say it was drinking sweat: do not caption it as drinking; that sweat bees are drawn to perspiration must come from the page's sources. Caption the bee as 'a sweat bee (Lasioglossum, subgenus Dialictus)'. CC0 with an expert identification, so it could lead instead of the green Augochlora on record.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1211."
+  },
+  {
+   "id": "sweat-bee-nest-cone-soil",
+   "forPages": [
+    "sweat-bees",
+    "ground-bees"
+   ],
+   "confidence": "high for the bee (research grade: Lasioglossum zephyrus by klittle2 and johnascher, John S. Ascher; the observer put it at Dialictus); the nest is linked to that bee only by the observer's note",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 80513150 by kenkneidel (Ken Kneidel), Charlotte, North Carolina, May 21, 2021, CC0: '6 to 7 mm, solitary with cone of dirt grains around entrance hole (see last photo)'. Eight photos: seven of the bee (annotated adult, female, dead) on white, and the nest; photo 131969024 used (the nest).",
+   "caveats": "A sweat bee nest: a small round entrance hole in the middle of a neat cone of loose soil grains on bare, gravelly ground. No bee in the frame. Caption it as 'the nest entrance of a sweat bee (Lasioglossum zephyrus, per the observation)'. Also a card-quality comparison for ground-bees (a sweat bee's tiny mound beside a mining bee's), if that page wants it. Not a lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1042."
+  },
+  {
+   "id": "mining-bee-burrow-clay-aggregation",
+   "forPages": [
+    "ground-bees"
+   ],
+   "confidence": "high at genus, medium-high at species (research grade: Andrena barbara by jordan_kue and hsteig; the observer, hurlbert, says genus Andrena). Species-level identification of Andrena from a photo is often tentative: genus is the safe caption",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 264940777 by hurlbert (Allen Hurlbert), University of North Carolina at Chapel Hill campus, March 11, 2025, CC0: 'Emergence now extends along north slope to Coker main entrance. Thousands to tens of thousands, but north slope emergence has not yet peaked.' Two photos; photo 475804686 used.",
+   "caveats": "Where found, live: a mining bee on bare red clay a few centimeters from an open burrow, grass blades around, at a campus nesting aggregation the observer counts in the thousands (his other observations there call it a lawn and a slope). Caption 'a mining bee (genus Andrena) beside a nest burrow'. Not a wide shot of the aggregation. CC0: a better lead than the museum specimen mining-bee.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1600."
+  },
+  {
+   "id": "longhorn-crazy-ants-mass-brood",
+   "forPages": [
+    "crazy-ants"
+   ],
+   "confidence": "high (research grade: Paratrechina longicornis by the observer buster7 and by pioneer_entomology)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 238663273 by buster7 (Buster Crow), Kingsville, Texas, August 29, 2024, CC0, no description. One photo, 424930938.",
+   "caveats": "A dense mass of longhorn crazy ants, hundreds of workers, many carrying white brood, streaming over a painted vertical surface (a post, frame or wall; the source does not say). The 'mass' photo the page wanted, though of longhorn rather than tawny crazy ants: caption the species accordingly. Do not say the colony was moving house unless a source says brood carrying means that. Tall narrow frame (945x2048).",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 945x2048."
+  },
+  {
+   "id": "longhorn-crazy-ant-carpet",
+   "forPages": [
+    "crazy-ants"
+   ],
+   "confidence": "high (research grade: Paratrechina longicornis by the observer buggybuddy and by aaron567)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 44042274 by buggybuddy (Jade Fortnash), Florida, April 27, 2020, CC0, no description. Two photos; photo 69833520 used (the other shows a pet's paw).",
+   "caveats": "Where found indoors: one longhorn crazy ant on cream-colored loop carpet, its long legs and antennae visible. The ant is small in the frame, which is how readers meet them. The source has no description: 'on carpet' is what the photo shows; do not add a room. CC0 and confidently identified, but too small to lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1068."
+  },
+  {
+   "id": "striped-skunk-lawn-foraging",
+   "forPages": [
+    "skunk-smell-in-house"
+   ],
+   "confidence": "high (research grade, five identifiers: the observer swells, chewitt1, michalsloviak, dpsiminski and maxallen)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 93964810 by swells (Steve Wells), Cornville, Arizona, August 20, 2021, CC0, no description. Two photos; photo 155811203 used.",
+   "caveats": "The lead: a sharp side view of a striped skunk foraging on a mown lawn, nose in the grass, tail raised, a garden bed behind. The camera printed the date and time in the bottom-right corner; cropBottom 0.18 removed it (checked at full size: no digits left, the skunk untouched). photos.json records the edit as 'bottom 18% cropped (caption strip)', the script's fixed wording: it was a date stamp. The record's place is a residential street, but the source does not say whose lawn: say 'on a lawn'. CC0: lead and share image.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x738 after the crop."
+  },
+  {
+   "id": "striped-skunk-front-lawn-house",
+   "forPages": [
+    "skunk-smell-in-house"
+   ],
+   "confidence": "high (research grade, four identifiers: the observer martyndrabik, mabrybiggs, paperboat and buggypickles; annotated adult, alive)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 213769326 by martyndrabik (Martyn Drabik-Hamshare), Sandusky, Ohio, May 5, 2024, CC0, no description. Two photos; photo 377802550 used.",
+   "caveats": "Where found: a striped skunk on a front lawn in daylight, a house's siding, windows and two blue trash and recycling carts behind it, a sidewalk in front. The skunk is small in the frame. The carts carry a city logo and a 'YARD WASTE' bin stands beside them: municipal, not a brand. Do not suggest the skunk lived under this house; the source says nothing about a den.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1152x2048."
+  },
+  {
+   "id": "skunk-dug-hole-lawn",
+   "forPages": [
+    "skunk-smell-in-house",
+    "holes-in-yard"
+   ],
+   "confidence": "high for the skunk (research grade: Mephitis mephitis by the observer kristofz, lkvnko and holocenedixie); the hole is tied to the skunk only by being in the same observation of the skunk excavating on that lawn",
+   "leadEligible": false,
+   "sourceDescription": "iNaturalist observation 272003929 by kristofz (Kristof Zyskowski), New Haven, Connecticut, April 11, 2025, CC BY: 'found on university campus lawn apparently excavating and eating some invertebrate prey (possibly scarab beetle or cycada larvae)'. Six photos: the skunk on the lawn and the holes; photo 489327335 used (a hole).",
+   "caveats": "A shallow, cone-shaped hole dug into thin turf, loose soil around it: what a skunk's digging for grubs leaves. Caption it as 'a hole in a lawn where a striped skunk was seen digging', no stronger: the observer says 'apparently' and the prey is a guess. Also wanted by /blog/holes-in-yard. CC BY: never a lead or share image. The same observation's photo 489326937 shows the skunk itself on that lawn (CC BY), if a page wants both.",
+   "note": "Credit: (c) Kristof Zyskowski, some rights reserved (CC BY), via iNaturalist. Licence: CC-BY-4.0. Size: 1200x800."
+  },
+  {
+   "id": "juvenile-copperhead-usfws",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes"
+   ],
+   "confidence": "high: identified by the U.S. Fish and Wildlife Service, whose record titles it 'Juvenile Copperhead, Agkistrodon contortrix' (photographer Pete Pattavina, USFWS, Georgia). Meets the Snakes rule (government wildlife agency). The marks agree: hourglass crossbands and a pale yellow-green tail tip",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'Juvenile copperhead, venomous snake, Georgia, Agkistrodon contortrix - DPLA - 382f52bd7461827aa23bac3b66dbf031.jpg', public domain, from the USFWS National Conservation Training Center image library via the Digital Public Library of America: 'Alternative Title: Juvenile Copperhead, Agkistrodon contortrix. Creator: Pattavina, Pete. Descriptive Note: Juvenile copperhead, Georgia. Subjects: Copperhead; ... juvenile; snake; Reptiles; venomous; Georgia; Coastal environments Plain Physiographic Province. Publisher: U.S. Fish and Wildlife Service.'",
+   "caveats": "The lead: a young copperhead coiled on moss, head raised, with the hourglass-shaped crossbands (wide on the sides, narrow on the back) and the yellow-green tail tip the agencies describe, hanging below the coil. Venomous: the caption must tell readers to keep their distance (Snakes rule); never imply it could be handled. The tail tip is pale yellow-green in this photo: write 'yellow or greenish-yellow tail tip' at the agencies' strength. 1024x768 original; fine at article width. Public domain and agency-identified: lead and share image. Also unblocks the held baby-snakes page.",
+   "note": "Credit: Department of the Interior. U.S. Fish and Wildlife Service. National Conservation Training Center. 10/1997-8888, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1024x768."
+  },
+  {
+   "id": "copperhead-leaf-litter-usfws",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high: identified by the U.S. Fish and Wildlife Service (Midwest Region post 'Copperhead', photo by Bruce Hallman, USFWS). Meets the Snakes rule",
+   "leadEligible": true,
+   "sourceDescription": "Wikimedia Commons file 'Copperhead (27657571350).jpg', public domain (PD-USGov-FWS), from the USFWS Midwest Region's Flickr: 'Copperheads are venomous, but they're generally not aggressive. The best way to avoid a negative interaction is to keep your distance. Most snake bites occur when people attempt to kill the snake. Photo by Bruce Hallman/USFWS.'",
+   "caveats": "A copperhead coiled in brown leaf litter, its hourglass crossbands breaking up its outline: the camouflage the page warns about, and the comparison card for the juvenile. Age not stated: call it 'a copperhead', not 'an adult'. Venomous: the agency's own caption gives the keep-your-distance line; quote no more than a short phrase and keep the advice at the agency's strength. Where it was taken is not stated in the description.",
+   "note": "Credit: USFWSmidwest, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x896."
+  },
+  {
+   "id": "black-rat-snake-juvenile-nbii",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes"
+   ],
+   "confidence": "high but flagged: the source, the USGS National Biological Information Infrastructure image library (photo by John J. Mosesso, NBII), describes it as 'Juvenile black rat snake, Elaphe o. obsoleta, Maryland, USA'; the Wikimedia Commons file is titled 'Eastern Milk Snake.jpg', which contradicts it. Checked at full size: gray body with dark blotches, a dark band across the head between the eyes and a dark stripe from the eye to the jaw, no Y- or V-shaped neck mark: the young rat snake pattern, not a milk snake's",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Eastern Milk Snake.jpg' (sic), public domain (PD-USGov-Interior-USGS-NBII), source images.nbii.gov id 72885, by John J. Mosesso, NBII, September 25, 2006: 'Juvenile black rat snake, Elaphe o. obsoleta, Maryland, USA.' Filed on Commons under Pantherophis obsoletus.",
+   "caveats": "A young rat snake stretched along green metal outdoor furniture, a brick wall blurred behind: the blotched juvenile pattern that gets mistaken for a copperhead. Use the agency's description, never the file title. The source's scientific name is old: take the current common and scientific name for Maryland's rat snake from the state agency (Maryland DNR) and say 'black rat snake' only as the source's name. Nonvenomous: say 'nonvenomous', not 'harmless' (Snakes rule). If the writer doubts the identification, leave it out: a safety page should not carry a disputed photo.",
+   "note": "Credit: John J. Mosesso, NBII, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x800."
+  },
+  {
+   "id": "northern-water-snake-young-noaa",
+   "forPages": [
+    "copperhead-look-alikes",
+    "baby-snakes"
+   ],
+   "confidence": "high: identified at the source by a federal biologist (NOAA Photo Library line2248, 'A young Northern Water Snake. Maryland, Patuxent River. 2002 April 14.', photo by Mary Hollinger, NODC biologist, NOAA). NOAA is a federal science agency rather than a wildlife agency: record it as a government identification",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Line2248 - Flickr - NOAA Photo Library.jpg', public domain, by Mary Hollinger, NODC biologist, NOAA: 'A young Northern Water Snake. Maryland, Patuxent River. 2002 April 14.'",
+   "caveats": "A young northern water snake on sand, dark crossbands on a gray-brown body, head raised. The scan has a strong blue color cast, so the colors are not true: do not use it to show color; it shows the banded pattern and shape. Nonvenomous (say so, not 'harmless'). For the young-water-snake card and for baby-snakes.",
+   "note": "Credit: Mary Hollinger, NODC biologist, NOAA., Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x799."
+  },
+  {
+   "id": "northern-water-snake-leaves-usfws",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high: identified by the U.S. Fish and Wildlife Service ('This northern water snake was spotted under some leaves at Port Louisa National Wildlife Refuge in Iowa. Photo by Jessica Bolser/USFWS.')",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Northern Water Snake (33841927625).jpg', public domain, USFWS Midwest Region Flickr: 'Have you seen any snakes so far this spring? This northern water snake was spotted under some leaves at Port Louisa National Wildlife Refuge in Iowa. Photo by Jessica Bolser/USFWS.'",
+   "caveats": "The look-alike in the copperhead's own setting: a northern water snake partly hidden under dry oak leaves, dark crossbands on a gray-brown body. Age not stated. Nonvenomous; nonvenomous snakes bite too, so give no handling advice beyond the agencies'.",
+   "note": "Credit: USFWSmidwest, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x794."
+  },
+  {
+   "id": "eastern-hognose-snake-usfws",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high: identified by the U.S. Fish and Wildlife Service ('Named for their upturned snout, eastern hognose snakes use it to burrow after toads, a favorite food. Photo by Jessica Piispanen/USFWS')",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Nosing around (26958191023).jpg', public domain, USFWS Midwest Region: 'Named for their upturned snout, eastern hognose snakes use it to burrow after toads, a favorite food. Photo by Jessica Piispanen/USFWS'.",
+   "caveats": "An eastern hognose snake coiled on bare ground among grass, yellow-brown with dark blotches, the upturned snout visible: the patterned form that gets mistaken for a copperhead. Where it was taken is not stated. Nonvenomous at the agency's strength; give its defensive display (hood, hiss, playing dead) only from the page's sources.",
+   "note": "Credit: U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x801."
+  },
+  {
+   "id": "corn-snake-nps",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high: identified by the National Park Service (Everglades NPS photo 'Corn Snake, NPSPhoto'; the same image on NPGallery is 'A close up of a coiled up Corn snake on the grass')",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Corn Snake, NPSPhoto (9255026919).jpg', public domain, from Everglades National Park's Flickr: 'Corn Snake, NPSPhoto'.",
+   "caveats": "A corn snake coiled on grass facing the camera: reddish-brown blotches edged in black on a gray-brown body. Everglades corn snakes run pale and gray; the corn snakes readers meet farther north are often more orange, so do not use this one photo to define the species' color. Age not stated. Nonvenomous.",
+   "note": "Credit: Everglades NPS from Homestead, Florida, United States, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x797."
+  },
+  {
+   "id": "dekays-brownsnake-nps",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high: identified by the National Park Service ('A Dekay's brownsnake slithering', Non-venomous snakes of Russell Cave, NPS Photo via NPGallery)",
+   "leadEligible": false,
+   "sourceDescription": "Wikimedia Commons file 'Non-venomous snakes of Russell Cave (9f0b2899-9f20-4241-9989-323d0a59d8b1).JPG', public domain, NPS Photo via NPGallery: 'A Dekay's brownsnake slithering. Non-venomous snakes of Russell Cave.'",
+   "caveats": "For 'baby copperhead vs brown snake': a small, slender, plain brown snake crossing stone steps at Russell Cave National Monument, Alabama. The snake is small in a wide frame. Nonvenomous.",
+   "note": "Credit: NPS Photo, Public domain, via Wikimedia Commons. Licence: public-domain. Size: 1200x795."
+  },
+  {
+   "id": "cottonmouth-gaping-cdc",
+   "forPages": [
+    "copperhead-look-alikes"
+   ],
+   "confidence": "high: CDC Public Health Image Library 8125, provided by Edward J. Wozniak and John Willson of the University of Georgia Savannah River Ecology Laboratory (a herpetologist), who took the photo; CDC PHIL meets the Snakes rule",
+   "leadEligible": false,
+   "sourceDescription": "CDC PHIL 8125, public domain: 'This 2005 photograph depicted an eastern cottonmouth snake, Agkistrodon p. piscivorus, ...' (the PHIL series compares cottonmouths with the water snakes that mimic them).",
+   "caveats": "For 'water moccasin vs water snake': an eastern cottonmouth coiled on pine needles with its mouth open wide, showing the white lining that gives it its name. Venomous: the caption must tell readers to keep their distance. The open-mouth display is a defensive warning: say only what CDC or a state agency says about it. Not a test on its own (Snakes rule: no single feature as a test).",
+   "note": "Credit: CDC/ Edward J. Wozniak D.V.M., Ph.D., John Willson at the University of Georgia, at the Savannah River Ecology Laboratory (SREL); photo: John Willson at the Savannah River Ecology Laboratory (SREL) (CDC Public Health Image Library, phil.cdc.gov). Licence: public-domain. Size: 1200x900."
+  },
+  {
+   "id": "noble-false-widow-indoor-wall",
+   "forPages": [
+    "false-widow-spiders",
+    "spiders-in-california"
+   ],
+   "confidence": "high (research grade, four identifiers agreeing on Steatoda nobilis: htct, ccburke, cs_levi and daniel_milutin; the observer stopped at spider)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 197235414 by johnkenny54 (John Kenny), North Berkeley, California, January 21, 2024, CC0: 'Indoors.' One photo, 347332183.",
+   "caveats": "Where found: a noble false widow on a plain wall indoors, lit from the side so it casts a sharp shadow. A little soft, but the bulbous dark abdomen and reddish legs are clear. Also fills the media placeholder on /blog/spiders-in-california. Sex and age not annotated. CC0 and confidently identified; the page's main subject is the false black widow (S. grossa), so it suits the noble false widow section better than the lead.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1146."
+  },
+  {
+   "id": "false-black-widow-male-bathroom-wall",
+   "forPages": [
+    "false-widow-spiders"
+   ],
+   "confidence": "high (research grade: Steatoda grossa by kamedaphor and lamebrain, bdrolshagen at genus Steatoda; annotated adult male)",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 138487654 by truthseqr (Anne Parsons), California, October 12, 2022, CC0: 'Found inside on the bathroom wall.' Two photos; photo 236716564 used.",
+   "caveats": "Where found: an adult male false black widow on a textured white bathroom wall, sharp: long, slender legs, a reddish front body and a small, patterned abdomen. Males look much less like a black widow than females do; caption it as a male, and pair it with the female on record (false-black-widow) for the 'black widow look-alike' point. CC0 and confidently identified.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x800."
+  },
+  {
+   "id": "woodlouse-spider-bathroom-floor",
+   "forPages": [
+    "woodlouse-spiders"
+   ],
+   "confidence": "high (research grade: Dysdera crocata by the observer swells and by spiderladylyle; annotated adult, dead). The look is unmistakable: orange-red legs and front body, pale abdomen, large jaws",
+   "leadEligible": true,
+   "sourceDescription": "iNaturalist observation 356846107 by swells (Steve Wells), Moscow, Idaho, April 29, 2026, CC0: 'Found on bathroom floor.' One photo, 650783362. Suggested by the woodlouse-spiders writer.",
+   "caveats": "Where found indoors: a woodlouse spider that the observer found on a bathroom floor, photographed from above on a white surface (the floor or a container; the photo does not show which, so say 'found on a bathroom floor'). Annotated dead: do not say it was alive or hunting. The large jaws are visible, which helps the bite section, but any bite claim must come from the page's sources. CC0 and confidently identified.",
+   "note": "Credit: no rights reserved, via iNaturalist. Licence: CC0-1.0. Size: 1200x1509."
+  }
+ ],
+ "gaps": [
+  {
+   "slug": "spider-beetles",
+   "why": "Found: the CC0 lead (on a ruler), a CC0 expert-determined top view for the tick test, a CC BY fingertip for size, and two where-found photos (a shower, CC BY; white fabric posted as 'Flea or tick?', CC0). Where-found count: 2. NOT FOUND under an allowed licence: a spider beetle in a pantry or in stored food, on bedding, or beside a coin or a tick. Searched: iNaturalist spider beetles (subfamily Ptininae, taxon 493167), research grade, photo licences CC0, CC BY and CC BY-SA: all 114 North American records and all 353 worldwide, descriptions grepped for pantry, kitchen, flour, cereal, food, bed, sheet, mattress, pillow, blanket, coin, penny, cent, ruler, tick, cupboard, cabinet, rice, spice, bag, seed, nest, attic, basement, bathroom, tub, sink, shower, floor, carpet, counter, closet, house, home, apartment, indoor, inside, window and wall and the German, French, Dutch, Swedish and Polish words for kitchen, flour, bed and pantry; every Gibbium photo with an allowed licence was viewed (10 CC0 and 40 CC BY or CC BY-SA research-grade records); Wikimedia Commons categories Gibbium, Gibbium aequinoctiale, Gibbium psylloides, Mezium affine, Mezium americanum, Ptinus tectus, Ptinus fur, Niptus hololeucus, Trigonogenius globulus and Tipnus unicolor. Refused: 125250650 (CC0, Philadelphia, on a hand and on wood, but the beetle reads black, not reddish brown: possibly Mezium), 238100840 (CC0, Maryland, beside a bathtub drain, but every frame is a soft digital zoom), 146797970 (CC0, Baltimore, photos about 300 px), 113307121 (CC BY, many spider beetles on a sticky trap, but the trap's brand name fills the frame), 382164148 (CC0, Toronto, a dozen together, no setting given), Commons 'Unbekanntes Insekt-2015.jpg' (CC BY-SA, several 'in living rooms', identified only by Commons categorisation) and 'Ungeziefer-Liguria.png' (a collage). Not added but usable: 167028676 (CC0, research grade, identified with a key by robertn341, from a box of decades-old wood specimens in a Cornell building: a fine close-up if the page wants 'old stored material'). The planner's Ptinus fur (341050602, 331486549, 331486580, Washington, from inside mason bee nesting stems) and Mezium affine (65156478, 25390977) candidates were checked in the records but not added: the page's subject is the smooth spider beetle and the ledger already has a white-marked spider beetle."
+  },
+  {
+   "slug": "baby-silverfish",
+   "why": "Found: the CC0 lead (a pale 7 mm young gray silverfish), a CC0 juvenile beside a fingertip for size, a CC0 juvenile found in a book (family only) and a CC0 firebrat (also for the firebrat placeholder on /blog/how-to-get-rid-of-silverfish). Where-found count: 2 (the gray silverfish beside trim already on record, and the book). NOT FOUND: silverfish eggs (no allowed-licence photo on iNaturalist; no silverfish record annotated egg or egg evidence; on Commons only drawings in old USDA bulletins, which are out) and a nymph in a tub or sink (every tub and sink record viewed shows an adult-sized silverfish: 109984321, CC0, Winter Park, Florida, 'In sink', species confirmed by Szucsich, is the fallback for an adult in a sink; also 153000270 and 48269569, CC0 bathtubs; 184154752, 249946008, 125270302, 59414426, 170939203, 119879943 and 168962159, CC BY or CC BY-SA). Searched: iNaturalist Lepismatidae (taxon 48300) annotated juvenile, nymph or egg (research grade and needs ID), and descriptions for baby, babies, nymph, juvenile, young, tiny, hatchling, egg, eggs, bathtub, tub, sink, book, books, newborn and instar; Wikimedia Commons for silverfish egg, Lepisma eggs, silverfish nymph and juvenile silverfish. Refused: 314150914 (CC0, California, a white juvenile on wood, identified only by its observer), 98223258 (CC0, Valencia, blurred), 239272144 (CC0, Germany, tiny and blurred), 371751949 (CC0, Istanbul, annotated juvenile but looks fully scaled), 121326808 (CC0, a four-lined silverfish juvenile, a different species), 117797526 (CC0, Croatia, 6 mm on white powder, genus only); CC BY or CC BY-SA juveniles 46997370, 234298857, 52809629 and 388388459 were not needed."
+  },
+  {
+   "slug": "tomato-hornworms",
+   "why": "Found: the CC0 lead, a second CC0 tomato hornworm, a CC0 tobacco hornworm on tomato for the side-by-side, two damage photos (stems stripped bare, CC0; a bitten green tomato, CC BY), the CC0 cocoon-covered hornworm, frass (CC BY-SA), the CC0 five-spotted hawk moth and a pupa in the soil (CC BY). NOT FOUND: hornworm eggs on a leaf (iNaturalist has two Manduca egg records under allowed licences: 246416890, a single possible egg on tree tobacco whose observer asks 'Is it an egg?', and an Argentine species; neither added). Refused on the marks or the setting: the planner's candidates 239467516 (Oklahoma, on a dry stem), 92475916 and 243490001 (Fort Davis, on rocks, the first already brown before pupating), 77077583 (curled on a deck), 33777181 (small in dry stems), 96130239 (on tomato, but the dark form) and 46266252 (the dark form in a hand); 398850362 (a tobacco hornworm on concrete). Commons 'Tomato Hornworm with parasitic wasp cocoons.jpg' (CC0, Apex, North Carolina) shows a red horn despite its title, so it is a tobacco hornworm by its marks; the research-grade iNaturalist cocoon photo was used instead. Commons 'Tomato Hornworm eating tomato plant.jpg' (CC BY-SA) is likewise a tobacco hornworm titled as a tomato hornworm: the mix-up the brief warns about. 'TomatoHornworm feces.jpg' (CC BY 2.5) has no named author. Fallbacks not added: 33034929 (CC BY, a pupa found below tomato plants in California, handle visible) and the National Park Service specimen of a five-spotted hawk moth determined by J. F. Gates Clarke (Commons 'Five-spotted Hawkmoth, Manduca quiquemaculata -58270, det. J.F. Gates Clarke ... (49552654818).jpg', public domain; also iNaturalist 38579106, CC0), an expert-identified alternative for the moth card. The USDA ARS image gallery was not searched: iNaturalist and Commons covered every wanted item but eggs."
+  },
+  {
+   "slug": "lovebugs",
+   "why": "Found: lovebugs splattered on a vehicle's grille and bumper, a squashed close-up, a cluster of about twenty, and one on a fingernail, all CC0. Where-found count: 2 (the vehicle, the cluster). NOT FOUND under an allowed licence: lovebugs on a windshield or hood specifically, and a swarm on flowers, a porch or a wall. Searched: iNaturalist Plecia nearctica (taxon 127635), research grade, photo licences CC0, CC BY and CC BY-SA, descriptions for car, windshield, windscreen, bumper, hood, truck, vehicle, splatter, swarm, swarms, hundreds, thousands, porch, wall, house, window, door, screen, penny, coin, ruler and mailbox; the first CC0 photo of all 152 CC0 research-grade records was viewed. Refused: 1923149 (CC0, Gainesville, 'Several pairs landing up on cars', but the photos show pairs on an arm and a pale blurred surface, not a car), 120446990 (CC0, a squashed pair on sparkly dark paint, unclear), 4127279 (CC0, Seguin, Texas, on a dark plastic object), 24462269 (on an airplane window; the record has no licence), 401707225 (CC BY, a pair near a porch light, not viewed closely)."
+  },
+  {
+   "slug": "wood-roaches",
+   "why": "Found: a short-winged adult female carrying an egg case (CC0, the sex-difference photo, and a better lead than wood-cockroach-male), one on white siding (CC0) and one found dead indoors (CC BY). Where-found count: 2 (siding, indoors). NOT FOUND: a wood cockroach on firewood, under loose bark or on a woodpile (Pennsylvania wood cockroach), at a porch light, or alive indoors on a floor or wall under CC0. Searched: iNaturalist Parcoblatta (taxon 120595), research grade, allowed licences, descriptions for firewood, wood pile, woodpile, log, logs, bark, under bark, kitchen, floor, wall, inside, indoors, house, porch light, porch, basement, bathroom and female; all 27 CC0 research-grade Pennsylvania wood cockroach records viewed; CC0 records annotated female (one: the one used). Not added: 245171975 (CC0, Leominster, Massachusetts, a Virginia wood cockroach 'Found under a dry piece of pine bark': a different species, stage not annotated), 406207950 (CC0, Minnesota, on white siding, a second siding photo), 286454370 (CC0, Indiana, an adult male on a wooden door frame, setting not stated), 299307597 (CC BY, Michigan, 'female with ootheca')."
+  },
+  {
+   "slug": "sweat-bees",
+   "why": "Found: a small dark sweat bee (Lasioglossum, subgenus Dialictus, identified with John S. Ascher) on a fingertip, CC0, and a sweat bee nest cone in soil, CC0. Where-found count: 2. The fingertip photo also covers the wished-for small dark Lasioglossum. NOT FOUND or not added: a sweat bee clearly drinking sweat on skin under CC0 (125956290, CC0, Chardon, Ohio, 'drinking my sweat', is blurred and tiny; 206876613, CC BY, British Columbia, 'land on me to eat my sweat', and 170680567, CC BY, Kentucky, 'Being used as a salt lick', were not opened); an Agapostemon (CC0 research-grade options exist on flowers: 184399422, Fort Ord, California, Agapostemon subtilior identified by John S. Ascher; 184463406, Toronto; not added as they are not where-found photos); a hover fly for the look-alike card (not searched). Searched: iNaturalist Halictidae (taxon 49707), North America, research grade, allowed licences, descriptions for sweat, arm, hand, skin, finger, leg, drinking, licking, landed on me, on me, neck, shoulder, knee, wrist, nest, nesting, burrow, hole, entrance, tumulus, aggregation, in the ground and soil."
+  },
+  {
+   "slug": "ground-bees",
+   "why": "Found: a live mining bee beside its open burrow at a large campus nesting aggregation (CC0), a better lead than the museum-specimen mining-bee. Where-found count: 2 (with mining-bee-burrow, Scotland). NOT FOUND: a wide shot of a bare patch with many small mounds (all 28 CC0 records from the University of North Carolina aggregation by hurlbert are close-ups). Good alternates not added: 72201204 (CC0, East Ithaca, New York, Andrena clarkella on its pale soil mound 'With active burrows', identified by mmccarthy98, beeboy and John S. Ascher) and 263899287 (CC0, Chapel Hill, a mining bee on top of its red clay mound). Searched: iNaturalist Andrena (taxon 57669), United States, research grade, allowed licences, descriptions for lawn, yard, grass, mounds, mound, holes, burrow, burrows, nest, nests, aggregation, ground nesting and hundreds. sweat-bee-nest-cone-soil (a sweat bee's mound) could serve a ground-bees comparison too."
+  },
+  {
+   "slug": "crazy-ants",
+   "why": "Found: a dense mass of longhorn crazy ants carrying brood (CC0) and one longhorn crazy ant on carpet (CC0). Where-found count: 2. NOT FOUND: tawny crazy ants in an electrical box, outlet or air conditioner, or massed on the ground or a wall, under an allowed licence: iNaturalist has only 12 tawny crazy ant records with allowed licences (taxon 69402), none in equipment; 395017929 (CC BY, Shenandoah, Louisiana, 'running crazy over absolutely everything in the creek') shows a mass on litter but has one identification (needs ID), so it was not added. Wikimedia Commons Nylanderia fulva: Insects Unlocked laboratory photos (CC0; the lead is one) and specimen photos (CC BY-SA). A yellow crazy ant (Anoplolepis gracilipes) was not searched. Worth knowing: 5388282 (CC0, Seabrook, Texas, a sharp tawny crazy ant worker on soil, identified by Alex Wild, a myrmecologist) is an expert-identified alternative to the laboratory lead. Longhorn crazy ant searches: research grade, allowed licences, descriptions for electrical, outlet, air conditioner, AC unit, box, meter, switch, kitchen, counter, floor, indoors, inside, house, bathroom, sink, window, swarm, trail and thousands; all 58 CC0 research-grade US records viewed. Not added: 40271806 (CC0, Florida, on white tile, blurred), 5382815 (CC0, Hawaii, two workers beside a millimeter ruler, five identifiers: a size photo if wanted), 83462740 (CC0, beside a government insect trap card)."
+  },
+  {
+   "slug": "skunk-smell-in-house",
+   "why": "Found: the CC0 lead (a striped skunk foraging on a lawn, date stamp cropped), a skunk on a front lawn by a house (CC0) and a hole dug in a lawn where a skunk was seen digging (CC BY; also for holes-in-yard). Where-found count: 2. NOT FOUND under CC0 or public domain: a skunk at a den opening under a deck, porch or shed, and a floor drain or P-trap (not searched). CC BY alternatives near houses, not added: 50208550 (Seymour, Tennessee, 'Mama and five babies on my back porch'), 387790148 (Oregon, a young skunk two feet from the front door under the porch light), 55181561 (California, trail camera, a pair the observer believed was 'living under the porch'). Public-domain agency photos of skunks away from houses, usable as a warning-posture figure: 'Striped skunk (53166159604).jpg' (USFWS, Mike Budd, tail raised on a refuge road) and 'Skunk about to spray.jpg' (City of Rocks National Reserve). Searched: Wikimedia Commons category Mephitis mephitis (275 files, public-domain and CC0 viewed); iNaturalist Mephitis mephitis (taxon 41880), research grade, allowed licences, descriptions for deck, porch, under the, house, den, digging, dug, lawn, grubs, shed, garage, crawl space, yard, backyard, driveway, foundation and burrow; 60 CC0 US records viewed. 362844658 (CC0, Vermont) turned out to be tracks only."
+  },
+  {
+   "slug": "copperhead-look-alikes",
+   "why": "Found, all identified by a government agency or from CDC PHIL with a herpetologist's photo (the Snakes rule): the lead, a juvenile copperhead with its yellow tail tip (USFWS, public domain); a copperhead in leaf litter (USFWS); a juvenile black rat snake (USGS NBII; Commons file misnamed 'Eastern Milk Snake'); a young northern water snake (NOAA); a northern water snake in leaves (USFWS); an eastern hognose (USFWS); a corn snake (NPS); a Dekay's brownsnake (NPS); an eastern cottonmouth (CDC PHIL 8125, photo by John Willson, SREL). NOT FOUND: an agency-identified milk snake that resembles a copperhead (the agency milk snakes on Commons are an NPS red milk snake photographed as a framed print, 850x800, and CDC PHIL 8142, a Mexican milk snake shown for the coral snake comparison: neither looks like a copperhead); agency-identified juvenile corn snake or juvenile hognose. Refused: 'Young Northern Water Snake (Nerodia sipedon) along the dike 06 May 2012 (7164440894).jpg' and its sibling 7164440764 (tagged public domain, but the image is marked '(c) Steve Arena 2012 - USFWS Volunteer': a volunteer's photo is not clearly a federal work); 'Juvenile copperhead snake.jpg' (a lower-quality copy of the lead via public-domain-image.com, flagged 'check needed' on Commons); 'Hognose snake (54037650161).jpg' (a camera-trap frame); plains and western hognose files (different species); every iNaturalist and Commons community identification. Alternatives not added: CDC PHIL 8129 (northern copperhead) and 8130 (southern copperhead on mulch), public domain, for a second adult card; NPS Russell Cave copperheads and USFWS 'Northern Copperhead' series (Grayson Smith). Searched: Wikimedia Commons categories Agkistrodon contortrix (189 files), Pantherophis alleghaniensis, P. obsoletus, P. spiloides, P. guttatus, Nerodia sipedon (310 files), Heterodon platirhinos, Lampropeltis triangulum, Storeria dekayi and Agkistrodon piscivorus, filtered to public domain and CC0 from government sources; Commons searches for juvenile, young and baby copperhead, rat snake, milk snake, hognose and water snake with NPS, USFWS and USGS; CDC PHIL 8095 to 8150."
+  },
+  {
+   "slug": "baby-snakes",
+   "why": "Held page: agency-identified juvenile snakes are now on record: juvenile-copperhead-usfws (USFWS), black-rat-snake-juvenile-nbii (USGS NBII; file misnamed) and northern-water-snake-young-noaa (NOAA; blue color cast). Not searched for this page beyond those: juvenile garter snakes, rattlesnakes or brownsnakes from agencies."
+  },
+  {
+   "slug": "false-widow-spiders",
+   "why": "Found: a noble false widow on an indoor wall in California (CC0, four identifiers; also fills the /blog/spiders-in-california placeholder) and an adult male false black widow on a bathroom wall (CC0). Where-found count: 2. Not added: 165455998 (CC0, British Columbia, a female-looking false black widow 'Inside a residence', three identifiers, on a stained textured surface), 345836588 (CC0, Seacliff, California, noble false widows 'Found ... in the bathroom', blurred), 59152673 (CC0, San Diego, 'Inside house', small original). NOT searched: a false widow egg sac and a triangulate cobweb spider indoors. Searched: iNaturalist Steatoda nobilis (366894) and S. grossa (61997), research grade, CC0, descriptions for ceiling, wall, bathroom, bedroom, kitchen, indoors, inside, house and window."
+  },
+  {
+   "slug": "woodlouse-spiders",
+   "why": "Added the writer's suggestion, 356846107 (CC0, research grade, Moscow, Idaho, 'Found on bathroom floor', annotated dead). Where-found count: 1 of 2. NOT searched: a woodlouse spider in a basement, on a wall or in a bathtub, and a close-up of the fangs."
+  }
+ ]
+}

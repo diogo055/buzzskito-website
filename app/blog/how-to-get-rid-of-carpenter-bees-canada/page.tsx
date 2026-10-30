@@ -185,6 +185,7 @@ export default function HowToGetRidOfCarpenterBeesCanadaPage() {
               <strong className="text-amber-900">The hovering bee is not the dangerous one.</strong> That aggressive patrol behaviour &mdash; the bee that hangs in the air in front of your face and chases you along the deck &mdash; is the male, and male bees have no stinger at all, because the sting is a modified egg-laying organ that only females possess. He is defending airspace and he is entirely bluff. If a stinging insect near a doorway is your real worry, you probably have wasps rather than carpenter bees: start with <Link href="/blog/how-to-get-rid-of-wasps-canada" className="text-emerald-700 underline font-semibold">how to get rid of wasps in Canada</Link> or, for a nest in the ground, <Link href="/blog/how-to-get-rid-of-ground-wasps-canada" className="text-emerald-700 underline font-semibold">ground wasps and yellow jackets</Link>.
             </p>
           </div>
+          <p className="mt-5 text-sm text-gray-700 leading-relaxed">If the bee bothering you is small and keeps landing on your skin, our <Link href="/blog/sweat-bees" className="text-emerald-700 underline font-semibold">guide to sweat bees</Link> shows what they look like and how to tell one from a yellow jacket, a honey bee or a hover fly.</p>
         </div>
       </section>
 

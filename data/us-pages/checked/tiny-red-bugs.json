@@ -1,0 +1,17 @@
+{
+ "id": "tiny-red-bugs",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "3de81ad61e56db4d00534ff801a1ed1f2b1d7344f949b58d441917c05e0f7aab",
+ "claimsChecked": 381,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: 'usually clover mites' softened to 'often clover mites' in 4 places (no extension source ranks them; Penn State and UMN say they are frequently found on sunny windowsills and walls)",
+   "previousSha": "7b612cbea9293e0acb13816a991b6d6cb369fc3ef2ee66dca4760c71ea3b1dd0"
+  }
+ ]
+}

@@ -2,7 +2,7 @@
  "id": "bug-bites",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "431f8e01c946b127f4d9fe15c2d30a8967218bd6825ec76d310bde89de2767e7",
+ "sha": "aecb087ae440fefa19fbb343798c48bcceb0394b025759caa15a9eda49216da2",
  "claimsChecked": 322,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 4,
@@ -32,6 +32,11 @@
    "on": "2026-10-29",
    "note": "Oct 28: one link to /blog/mite-bites (new page); no fact changed",
    "previousSha": "7f6122816c0064a497f18325bf99206a5526198bf6471da0d01b8958d7cc5eeb"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: one internal link to /blog/dust-mite-bites (new page) in a new paragraph after the mite bites paragraph under 'Which other bugs bite people?'; no fact changed",
+   "previousSha": "431f8e01c946b127f4d9fe15c2d30a8967218bd6825ec76d310bde89de2767e7"
   }
  ]
 }

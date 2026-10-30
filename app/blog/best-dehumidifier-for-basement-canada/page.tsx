@@ -341,6 +341,7 @@ export default function BestDehumidifierForBasementCanadaPage() {
           <p>Two of the damp-loving pests from that table, as people usually find them: on a wall, and on the floor. For both, Health Canada&rsquo;s advice includes drying out the damp areas of the basement.</p>
           <Photo id="house-centipede-on-wall" alt="House centipede with very long legs and long antennae on a cracked, cream-painted wall" caption="A house centipede, Scutigera coleoptrata, on a wall (Sandusky, Ohio). Health Canada says house centipedes invade houses when the sub-floor, drains, basement or bathroom areas are overly damp." />
           <Photo id="pill-bug-rolled-kitchen-floor" alt="Pill bug rolled into a tight grey ball on a speckled kitchen floor" caption="A pill bug (common pill woodlouse), Armadillidium vulgare, rolled into a ball on a kitchen floor in Greater Vancouver, British Columbia. Health Canada says a persistent indoor infestation of sowbugs, pill bugs or millipedes may point to a serious moisture problem." />
+          <p>If you are not sure which bug you are looking at, our <Link href="/blog/bugs-in-basement">photo guide to bugs in the basement</Link> sorts the usual suspects by where and how you saw them, from a fast runner crossing the floor at night to jumping specks by the floor drain.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

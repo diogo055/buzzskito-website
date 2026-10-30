@@ -2,7 +2,7 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "9ee790b1c513c7fa37f7410434a8e3206b454501ba0e174d45c304cd297dd9d1",
+ "sha": "85e80863f531b77cf46ff7bde61d33eb0e357ed62277da2035e1d5678cd180a7",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
@@ -42,6 +42,11 @@
    "on": "2026-10-23",
    "note": "checker: verified Kentucky ENTFACT-014 (air forced through a pair of modified abdominal spiracles; very loud hiss when disturbed; males hiss in fights and courtship; ideal classroom insect), that none of UC IPM, Kentucky ef614, Texas A&M ENTO-037 or Rutgers FS1322 mentions sound, and Melbourne Pursuit (6-15 times more radiation-resistant than humans, worse than fruit flies; initial blast; Elgar: very little, if anything, will survive; Ruff: no documented evidence of cockroaches in the rubble). Fixed in the nuclear FAQ: 'A Nobel laureate' became 'A public health professor' (Tilman Ruff: the Nobel Peace Prizes in the article went to IPPNW 1985 and ICAN 2017, not to him; the article calls him a School of Population and Global Health professor).",
    "previousSha": "5bab79ec045a54450d3af1e3f3527c48087620dee1fdae367e8571ff35238e01"
+  },
+  {
+   "on": "2026-10-29",
+   "note": "Link to /blog/wood-roaches added in section 'Which cockroaches are found in US homes' (h3 'Wood roaches'): one new paragraph after the wood roach paragraph describing the guide (photos vs German, American and Oriental cockroaches); no other text changed",
+   "previousSha": "9ee790b1c513c7fa37f7410434a8e3206b454501ba0e174d45c304cd297dd9d1"
   }
  ]
 }

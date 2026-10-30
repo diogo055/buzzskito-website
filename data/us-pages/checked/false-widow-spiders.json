@@ -1,0 +1,17 @@
+{
+ "id": "false-widow-spiders",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "91d27e03e3821597a0567feee2a5d1ab187e584fc8535b4e68ecf40a76418374",
+ "claimsChecked": 303,
+ "claimsCorrected": 6,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: 2 indoor figures added (batch 21b, CC0: Steatoda grossa male on a bathroom wall, S. nobilis on an indoor wall); captions checked against the records",
+   "previousSha": "a93cc9324ebd29b442d4295d0e4757e9c9162d1efb3aa65b0a98fc0bdcf1494e"
+  }
+ ]
+}

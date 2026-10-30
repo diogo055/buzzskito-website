@@ -1333,6 +1333,20 @@
    "sha256Original": "704bec247abf3d1d966bb5d0a1d43b517aa1ff71d08ec06954424815b789fa84"
   },
   {
+   "file": "/guides/photos/black-rat-snake-juvenile-nbii.webp",
+   "subject": "Juvenile black rat snake (Elaphe o. obsoleta, the source’s name), nonvenomous, gray with dark blotches and a dark stripe from the eye to the jaw, stretched along green metal outdoor furniture (Maryland; USGS National Biological Information Infrastructure photo by John J. Mosesso; the Wikimedia Commons file is misnamed \"Eastern Milk Snake\")",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Milk_Snake.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Eastern_Milk_Snake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "John J. Mosesso, NBII, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 800,
+   "bytes": 49674,
+   "sourceDescription": "Juvenile black rat snake, Elaphe o. obsoleta, Maryland, USA.",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "e397c7a06815ac75838e31b393afdd47056c46f4c8d8a368fb4febbdf6c0c120"
+  },
+  {
    "file": "/guides/photos/black-vine-weevil-house-wall.webp",
    "subject": "Black vine weevil, Otiorhynchus sulcatus, on a wall inside a house (Westmorland County, New Brunswick)",
    "sourceUrl": "https://www.inaturalist.org/observations/39709447",
@@ -2987,6 +3001,20 @@
    "sha256Original": "2726e0a0612e712d063bcf3ec707579d67a5d662f2c313192316398599d3f0d8"
   },
   {
+   "file": "/guides/photos/copperhead-leaf-litter-usfws.webp",
+   "subject": "Copperhead, Agkistrodon contortrix, a venomous snake, coiled in leaf litter, its hourglass-shaped crossbands blending with the dead leaves (U.S. Fish and Wildlife Service Midwest Region photo by Bruce Hallman)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copperhead_(27657571350).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Copperhead_%2827657571350%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "USFWSmidwest, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 896,
+   "bytes": 222116,
+   "sourceDescription": "Copperheads are venomous, but they’re generally not aggressive. The best way to avoid a negative interaction is to keep your distance. Most snake bites occur when people attempt to kill the snake. Photo by Bruce Hallman/USFWS.",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "8b9af15aa506a52a13fe0f68d68daa10b334474bb4175e82247aec0baf33be58"
+  },
+  {
    "file": "/guides/photos/corn-snake-juvenile.webp",
    "subject": "Young red corn snake, Pantherophis guttatus, coiled under a log (Craven County, North Carolina)",
    "sourceUrl": "https://www.inaturalist.org/observations/103457605",
@@ -2999,6 +3027,34 @@
    "sourceDescription": "Pantherophis guttatus",
    "downloadedOn": "2026-10-16",
    "sha256Original": "d5940afe05b1124c146f28b2e7a62f49a719c05654536669a7da195173989589"
+  },
+  {
+   "file": "/guides/photos/corn-snake-nps.webp",
+   "subject": "Corn snake, Pantherophis guttatus, nonvenomous, coiled on grass: reddish-brown, black-edged blotches on a gray-brown body (Everglades National Park; National Park Service photo)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corn_Snake,_NPSPhoto_(9255026919).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Corn_Snake%2C_NPSPhoto_%289255026919%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Everglades NPS from Homestead, Florida, United States, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 797,
+   "bytes": 161290,
+   "sourceDescription": "Corn Snake, NPSPhoto",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "826c245521a2a50b2ec7417b8c7170b7bbd0606e239290d43d126871aca008ef"
+  },
+  {
+   "file": "/guides/photos/cottonmouth-gaping-cdc.webp",
+   "subject": "Eastern cottonmouth (water moccasin), Agkistrodon piscivorus piscivorus, a venomous snake, coiled on pine needles with its mouth open, showing the white inside of the mouth (CDC Public Health Image Library; photo by John Willson, Savannah River Ecology Laboratory)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8125",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/8125/8125.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Edward J. Wozniak D.V.M., Ph.D., John Willson at the University of Georgia, at the Savannah River Ecology Laboratory (SREL); photo: John Willson at the Savannah River Ecology Laboratory (SREL) (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 900,
+   "bytes": 246040,
+   "sourceDescription": "This 2005 photograph depicted an eastern cottonmouth snake, Agkistrodon p. piscivorus, as it was coiled atop a ground cover of pine needles. Startled, this snake had taken on a defensive posture, bearing its fangs in a very aggressive manner.When one thinks about snakes indigenous to the hurricane p",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "c7fde39c21687bc82f7ca5010de2c0b4d72780749bc6950d49b512071311715d"
   },
   {
    "file": "/guides/photos/cottontail-droppings.webp",
@@ -3323,6 +3379,20 @@
    "sha256Original": "f1d29db5118642860d6df240d90f1a2eebe590424db1f4da1b1877d62cdff9d4"
   },
   {
+   "file": "/guides/photos/dekays-brownsnake-nps.webp",
+   "subject": "Dekay’s brownsnake, Storeria dekayi, nonvenomous: a small, slender, plain brown snake crossing stone steps (Russell Cave National Monument, Alabama; National Park Service photo)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Non-venomous_snakes_of_Russell_Cave_(9f0b2899-9f20-4241-9989-323d0a59d8b1).JPG",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/Non-venomous_snakes_of_Russell_Cave_%289f0b2899-9f20-4241-9989-323d0a59d8b1%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "NPS Photo, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 795,
+   "bytes": 139202,
+   "sourceDescription": "A Dekay's brownsnake slithering Non-venomous snakes of Russell Cave",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "53b407ad182399bc1d495f4528e473ed02371faa6e567c451e6c4357bde94a10"
+  },
+  {
    "file": "/guides/photos/desert-hairy-scorpion.webp",
    "subject": "Desert hairy scorpion, Hadrurus hirsutus, on gravel",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25675",
@@ -3559,6 +3629,20 @@
    "sourceDescription": "Sciurus carolinensis",
    "downloadedOn": "2026-10-16",
    "sha256Original": "f52067da95c400ebc193b684f1da1c5b719630feef4a026041d4c0cda17db0e7"
+  },
+  {
+   "file": "/guides/photos/eastern-hognose-snake-usfws.webp",
+   "subject": "Eastern hognose snake, Heterodon platirhinos, coiled on the ground: yellow-brown with dark blotches and the upturned snout it is named for (U.S. Fish and Wildlife Service Midwest Region photo by Jessica Piispanen)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nosing_around_(26958191023).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Nosing_around_%2826958191023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 801,
+   "bytes": 230698,
+   "sourceDescription": "Named for their upturned snout, eastern hognose snakes use it to burrow after toads, a favorite food. Photo by Jessica Piispanen/USFWS",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "8743910295f057113715370956f42fc9e4e9833a5276b8584ef1e88b954df904"
   },
   {
    "file": "/guides/photos/eastern-hognose-snake.webp",
@@ -3883,6 +3967,20 @@
    "sha256Original": "5c091ebd9890d07cdc66b26b1b007df575958fcf894fc6e070cfb42316b4fcf8"
   },
   {
+   "file": "/guides/photos/false-black-widow-male-bathroom-wall.webp",
+   "subject": "False black widow, Steatoda grossa, adult male (as annotated), on the textured white bathroom wall where the observer found it indoors (California; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/138487654",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/236716564/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 81704,
+   "sourceDescription": "Steatoda grossa",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "9754ba106e81979e0c34f030fe5faadce661f983565f544ede786db7e0b016ac"
+  },
+  {
    "file": "/guides/photos/false-black-widow.webp",
    "subject": "False black widow, Steatoda grossa, adult female",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaldari_Steatoda_grossa_female_01.jpg",
@@ -3965,6 +4063,34 @@
    "sourceDescription": "This close-up photograph of a section of human skin, revealed the presence of the erythematous papules, which were the result of this individual having been bitten by imported fire ants. There are two species of imported fire ants, the red imported fire ants (RIFA), Solenopsis invicta, and the black",
    "downloadedOn": "2026-10-23",
    "sha256Original": "d1b0cd1a93186c5031ca6160229042d2b956a679717b2d7bdc60f20e9d1332ea"
+  },
+  {
+   "file": "/guides/photos/firebrat-textured-surface.webp",
+   "subject": "Firebrat, Thermobia domestica, on a white textured surface (Hermosillo, Sonora, Mexico; species agreed on iNaturalist by Nikola Szucsich, the top identifier of silverfish there)",
+   "sourceUrl": "https://www.inaturalist.org/observations/35413318",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/55838568/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 80030,
+   "sourceDescription": "Thermobia domestica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "b21cbba9e5ff4822b120f12c8cb7c53f43dd072a144e8ba1f3cbb11a20fe6c12"
+  },
+  {
+   "file": "/guides/photos/five-spotted-hawk-moth.webp",
+   "subject": "Five-spotted hawk moth, Manduca quinquemaculatus, adult, wings spread on a gray surface, showing the yellow-orange spots along its abdomen (Harlan, Iowa; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/378417098",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/692094101/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 675,
+   "bytes": 61148,
+   "sourceDescription": "Manduca quinquemaculatus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "42eb0b331be21309336f534ff727e1c8bbd1d8e09ffb74bfabc472e4fc28ed8f"
   },
   {
    "file": "/guides/photos/flea-bites-ankle-foot-cdc.webp",
@@ -5257,6 +5383,62 @@
    "sha256Original": "b3f2b15bb0bff21a3c187601dd4b1e80091aa4d1c595c34ec13423a3ac85909d"
   },
   {
+   "file": "/guides/photos/hornworm-cotesia-cocoons-tomato.webp",
+   "subject": "Hornworm on a tomato plant beside green tomatoes, its back covered in the white cocoons of the parasitoid wasp Cotesia congregata (Smithsburg, Maryland; research grade on iNaturalist for the wasp)",
+   "sourceUrl": "https://www.inaturalist.org/observations/178906087",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/311393552/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 80938,
+   "sourceDescription": "Cotesia congregata",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "9f4db3194321c0263c0dace76f1b3f07350817313c4212c0ed38f80f94fbdd95"
+  },
+  {
+   "file": "/guides/photos/hornworm-frass-pellets.webp",
+   "subject": "Droppings (frass) of a tobacco hornworm, Manduca sexta, larva: dark green, barrel-shaped, ridged pellets on a white surface (the photographer’s identification)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manduca_sexta_droppings.png",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Manduca_sexta_droppings.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-SA-4.0",
+   "credit": "ButterNoodle, CC BY-SA 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 791,
+   "bytes": 60506,
+   "sourceDescription": "Droppings from a Manduca sexta larva",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "38515a4e698e46eb218421a623730e5e7723e206dedcb40d798ee8210d143906"
+  },
+  {
+   "file": "/guides/photos/hornworm-pupa-in-soil.webp",
+   "subject": "Hornworm pupa, identified on iNaturalist as tobacco hornworm, Manduca sexta: reddish brown with a looped handle at the front, in its cell in the soil, photographed in March (Wooster, Ohio; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/10253531",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14185074/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Peter Boyer, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 183072,
+   "sourceDescription": "Manduca sexta",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "45a5527089d79099ad5872d5b2e641609ebdaf6db4bd0e757c765c51564cd043"
+  },
+  {
+   "file": "/guides/photos/hornworm-stripped-tomato-stem.webp",
+   "subject": "Tobacco hornworm, Manduca sexta, larva, stretched along the top of a tomato stem stripped of its leaves, red horn at the bottom; the observer first noticed its droppings below the plant (Groton, Massachusetts; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/389067186",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/712627500/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 150408,
+   "sourceDescription": "Manduca sexta",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "3e20a73fa3170c017b30204ba47c779596e6a107463d65b8f05e4fb4704e2428"
+  },
+  {
    "file": "/guides/photos/horse-fly.webp",
    "subject": "Horse fly, Tabanus stygius, female (dorsal view)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=15998",
@@ -5790,6 +5972,20 @@
    "sha256Original": "b623318f5d009534b80c58786e6c21aaf3795b0c699a0663f920cab2dbff0223"
   },
   {
+   "file": "/guides/photos/juvenile-copperhead-usfws.webp",
+   "subject": "Juvenile copperhead, Agkistrodon contortrix, a venomous snake, coiled on moss: hourglass-shaped crossbands and a pale yellow-green tail tip (Georgia; U.S. Fish and Wildlife Service photo by Pete Pattavina, titled by the agency \"Juvenile Copperhead, Agkistrodon contortrix\")",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juvenile_copperhead,_venomous_snake,_Georgia,_Agkistrodon_contortrix_-_DPLA_-_382f52bd7461827aa23bac3b66dbf031.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Juvenile_copperhead%2C_venomous_snake%2C_Georgia%2C_Agkistrodon_contortrix_-_DPLA_-_382f52bd7461827aa23bac3b66dbf031.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Department of the Interior. U.S. Fish and Wildlife Service. National Conservation Training Center. 10/1997-8888, Public domain, via Wikimedia Commons",
+   "width": 1024,
+   "height": 768,
+   "bytes": 114424,
+   "sourceDescription": "Note: Some of the following information may have arrived from the agency cut off or incomplete. Alternative Title: Juvenile Copperhead, Agkistrodon contortrix. Creator: Pattavina, Pete. Descriptive Note: Juvenile copperhead, Georgia. Subjects: Copperhead; Agkistrodon contortix; juvenile; snake; Rept",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "2a375ae6959edb43d56cb51175b65e98ff35df2dc89cdcef6ac8cd7f3ede2697"
+  },
+  {
    "file": "/guides/photos/larder-beetle.webp",
    "subject": "Larder beetle, Dermestes lardarius, dorsal view (Butler County, Pennsylvania)",
    "sourceUrl": "https://www.inaturalist.org/observations/76795736",
@@ -6029,6 +6225,20 @@
    "sha256Original": "2e3a3c3c398b4319d2010aca9a0aeb2e24f9d2e773e589faef8f5888635089f7"
   },
   {
+   "file": "/guides/photos/longhorn-crazy-ant-carpet.webp",
+   "subject": "Longhorn crazy ant, Paratrechina longicornis, on cream-colored carpet (Florida; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/44042274",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/69833520/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1068,
+   "bytes": 242120,
+   "sourceDescription": "Paratrechina longicornis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "01b3cfa615376350c861482654c4dba8781de7861fa68fb9861abc37fc4d38dc"
+  },
+  {
    "file": "/guides/photos/longhorn-crazy-ant.webp",
    "subject": "Longhorn crazy ants, Paratrechina longicornis (Key Largo, Florida)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longhorn_Crazy_Ant_-_Paratrechina_longicornis,_Dagny_Johnson_State_Park,_Key_Largo,_Florida.jpg",
@@ -6041,6 +6251,76 @@
    "sourceDescription": "Longhorn Crazy Ant - Paratrechina longicornis, Dagny Johnson State Park, Key Largo, Florida",
    "downloadedOn": "2026-10-15",
    "sha256Original": "15db88dfcb3740884474d44c57423855f53dedfeb3cb2726abcd6635084ec34c"
+  },
+  {
+   "file": "/guides/photos/longhorn-crazy-ants-mass-brood.webp",
+   "subject": "Longhorn crazy ants, Paratrechina longicornis: a dense mass of workers, many carrying white brood, on a painted vertical surface (Kingsville, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/238663273",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/424930938/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 945,
+   "height": 2048,
+   "bytes": 154048,
+   "sourceDescription": "Paratrechina longicornis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "7d16973f4f61ba8455468ba65f31f86a80a16df0b61fe76a79f50d17a89ab215"
+  },
+  {
+   "file": "/guides/photos/lovebug-on-fingernail.webp",
+   "subject": "Lovebug, Plecia nearctica, on a fingernail, for size (Simonton, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/115761150",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/195375517/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 942,
+   "height": 1256,
+   "bytes": 26424,
+   "sourceDescription": "Plecia nearctica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "d02f376c9d29400d36ccf423e0067881a80bf42898ec98fe08e71f82831db583"
+  },
+  {
+   "file": "/guides/photos/lovebugs-cluster-blue-surface.webp",
+   "subject": "Cluster of about twenty lovebugs, Plecia nearctica, several of them joined in mating pairs, on a blue surface (Hawthorne, Florida; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/33073256",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/51915155/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 175746,
+   "sourceDescription": "Plecia nearctica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "b7aa6aca7697652e519369f0853b9ceeb14c48a751cb0523f3517e477fc127a2"
+  },
+  {
+   "file": "/guides/photos/lovebugs-splattered-vehicle-grille.webp",
+   "subject": "Lovebugs, Plecia nearctica, splattered across the front grille and bumper of a vehicle (Pembroke Pines, Florida; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/113299076",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/191441994/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 162608,
+   "sourceDescription": "Plecia nearctica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "c6bb452a042e40d03d58af44d32cef67353e29716d541205b1ebb574281a1be5"
+  },
+  {
+   "file": "/guides/photos/lovebugs-squashed-closeup.webp",
+   "subject": "Squashed lovebugs, Plecia nearctica, on a white painted surface: a close-up from the same observation as lovebugs-splattered-vehicle-grille (Pembroke Pines, Florida; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/113299076",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/191441951/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 189562,
+   "sourceDescription": "Plecia nearctica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "52a5935370c847049134e31c64cdd86406b376688cd0cd6aa826d942bb2fbdb8"
   },
   {
    "file": "/guides/photos/lovebugs.webp",
@@ -6181,6 +6461,20 @@
    "sourceDescription": "Zelus longipes",
    "downloadedOn": "2026-10-16",
    "sha256Original": "a82ed90b8c14d783bf0b7de27a35b69655d492d29da2b748f927d96e14fe55ec"
+  },
+  {
+   "file": "/guides/photos/mining-bee-burrow-clay-aggregation.webp",
+   "subject": "Mining bee, Andrena barbara (species by two identifiers on iNaturalist; the observer says genus Andrena), on bare red clay beside an open burrow, at a nesting aggregation the observer puts at thousands to tens of thousands of bees (University of North Carolina at Chapel Hill campus)",
+   "sourceUrl": "https://www.inaturalist.org/observations/264940777",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/475804686/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 260032,
+   "sourceDescription": "Andrena barbara",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "453570e0d2b8d067ac4ef899a551ab5a468c58e4fd511a847779370392c600fc"
   },
   {
    "file": "/guides/photos/mining-bee-burrow.webp",
@@ -6645,6 +6939,20 @@
    "sha256Original": "8a4e6d6a600f142077e891ae20fc4a59716e4d330cbb68c05c85d34dbdd32e1d"
   },
   {
+   "file": "/guides/photos/noble-false-widow-indoor-wall.webp",
+   "subject": "Noble false widow, Steatoda nobilis, on a wall indoors, casting a shadow (North Berkeley, California; species agreed by four identifiers on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/197235414",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/347332183/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1146,
+   "bytes": 76026,
+   "sourceDescription": "Steatoda nobilis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "29e1be9fb34bd01988f19c5f1cb772c587cded7190af12d17aa2230c7fabd3ef"
+  },
+  {
    "file": "/guides/photos/north-american-deer-mouse.webp",
    "subject": "North American deer mouse, Peromyscus maniculatus",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8358",
@@ -6769,6 +7077,34 @@
    "sourceDescription": "Diapheromera femorata",
    "downloadedOn": "2026-10-28",
    "sha256Original": "21a7f8fdec77c6a729c58f366558f84aed596e6d28361d560587ced65d63547e"
+  },
+  {
+   "file": "/guides/photos/northern-water-snake-leaves-usfws.webp",
+   "subject": "Northern water snake, Nerodia sipedon, nonvenomous, partly hidden under dead leaves, its dark crossbands showing (Port Louisa National Wildlife Refuge, Iowa; U.S. Fish and Wildlife Service photo by Jessica Bolser)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northern_Water_Snake_(33841927625).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Northern_Water_Snake_%2833841927625%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "USFWSmidwest, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 794,
+   "bytes": 125444,
+   "sourceDescription": "Have you seen any snakes so far this spring? This northern water snake was spotted under some leaves at Port Louisa National Wildlife Refuge in Iowa. Photo by Jessica Bolser/USFWS.",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "9a2fb081fddb2f402619824a4dd3d3acfbe67577a0b9b4acf41118e26c340bf7"
+  },
+  {
+   "file": "/guides/photos/northern-water-snake-young-noaa.webp",
+   "subject": "Young northern water snake, Nerodia sipedon, nonvenomous, on sand: dark crossbands on a gray-brown body (Patuxent River, Maryland, April 2002; NOAA photo by Mary Hollinger, NODC biologist; the scan has a blue color cast)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Line2248_-_Flickr_-_NOAA_Photo_Library.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Line2248_-_Flickr_-_NOAA_Photo_Library.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Mary Hollinger, NODC biologist, NOAA., Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 799,
+   "bytes": 128666,
+   "sourceDescription": "A young Northern Water Snake. Maryland, Patuxent River. 2002 April 14.",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "714dd2be41e2017b2e602b41802aaeaa77441bbfe331aa234e2740eb87be934d"
   },
   {
    "file": "/guides/photos/northern-water-snake.webp",
@@ -7949,6 +8285,20 @@
    "sha256Original": "4cf9d6bccf952e3f9979465cc8be6e9e2f234222063b0a41b1dca64afbce2d4c"
   },
   {
+   "file": "/guides/photos/skunk-dug-hole-lawn.webp",
+   "subject": "Hole dug in a lawn, on the campus lawn where the observer watched a striped skunk, Mephitis mephitis, excavating and apparently eating invertebrate prey (New Haven, Connecticut; same iNaturalist observation as the skunk, research grade)",
+   "sourceUrl": "https://www.inaturalist.org/observations/272003929",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/489327335/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kristof Zyskowski, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 251614,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "c2c89d5d6f0b03275b0a6aec45088ec9f3a1ba1cfae7bf5d1a16860745317695"
+  },
+  {
    "file": "/guides/photos/small-milkweed-bug.webp",
    "subject": "Small milkweed bug, Lygaeus kalmii, adult found indoors in December (United States)",
    "sourceUrl": "https://www.inaturalist.org/observations/255464825",
@@ -7989,6 +8339,76 @@
    "sourceDescription": "Validiblatta fuliginosa",
    "downloadedOn": "2026-10-16",
    "sha256Original": "6c3e11312636247c9f9decd7372e30a25f3e07d18c1ad7ef2bacf4b5c0589d0b"
+  },
+  {
+   "file": "/guides/photos/smooth-spider-beetle-fingertip.webp",
+   "subject": "Smooth spider beetle, Gibbium aequinoctiale, on the tip of a finger, for size (New York City; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/373348406",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/682299339/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Ryan F. Mandelbaum, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 89526,
+   "sourceDescription": "Gibbium aequinoctiale",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "1012ad0510c208a670d3d0a94ea6e9a719ae8296f19039cbadcc3d0aad3e0d79"
+  },
+  {
+   "file": "/guides/photos/smooth-spider-beetle-on-ruler.webp",
+   "subject": "Smooth spider beetle, Gibbium aequinoctiale, adult (annotated dead), from above on a ruler between its 0 and 1 marks, for scale: a shiny, reddish-brown, globe-shaped body on six pale legs (Allison Park, Pennsylvania; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/53842740",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/85649705/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1149,
+   "height": 1229,
+   "bytes": 107440,
+   "sourceDescription": "Gibbium aequinoctiale",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "565b2cc5ffd6411ae96edcc7f059d695ea062c77ec63f6a0ce154360f7c72e09"
+  },
+  {
+   "file": "/guides/photos/smooth-spider-beetle-shower-soap.webp",
+   "subject": "Smooth spider beetle, Gibbium aequinoctiale, on a metal ledge beside a bar of soap in the shower where the observer found it (Somerville, New Jersey; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/39777884",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/63142878/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bonnie Semmling, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 79120,
+   "sourceDescription": "Gibbium aequinoctiale",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "e153bd6dfc132c94401e1de9abd8e6280eb85ba18c0dbe69c02ef740a9fb84a7"
+  },
+  {
+   "file": "/guides/photos/smooth-spider-beetle-six-legs-top-view.webp",
+   "subject": "Smooth spider beetle, genus Gibbium, from above on white: six legs, two long antennae and a shiny, reddish-brown, globe-shaped body, 2.8 mm long without the antennae by the photographer’s measure (Heilsbronn, Bavaria, Germany; determined by the kerbtier.de team of beetle experts as Gibbium psylloides or G. aequinoctiale)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gibbium-03-fws.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Gibbium-03-fws.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Francisco Welter-Schultes, CC0, via Wikimedia Commons",
+   "width": 968,
+   "height": 908,
+   "bytes": 25444,
+   "sourceDescription": "Gibbium Scopoli, 1777. Body length 2.8 mm without antennae. Determined by kerbtier.de as Gibbium psylloides or aequinoctiale shortly after the picture was taken (kerbtier.de was a service in which a German team of experts determined up to hundreds of photographed beetles per day between 2012 and 202",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "52c77c03c55b41eb368e8002cc113fd179058eaa100c7a99a4772a3d65c8808c"
+  },
+  {
+   "file": "/guides/photos/smooth-spider-beetle-white-fabric.webp",
+   "subject": "Smooth spider beetle, Gibbium aequinoctiale, adult, walking on white fabric; the observer posted it asking “Flea or tick?” (Québec, Canada; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/105843220",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/177684251/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 540,
+   "bytes": 85922,
+   "sourceDescription": "Gibbium aequinoctiale",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "ade536cff0db8dfa37525bcfe3bc49acf6b150fdebad345ceaaa350fcfac8241"
   },
   {
    "file": "/guides/photos/snap-trap-by-mouse-hole.webp",
@@ -8369,6 +8789,63 @@
    "sha256Original": "11b9c96e95b1cc3acd151cea20ea0fc30820ccd1be240ed347510205b5b3e3cd"
   },
   {
+   "file": "/guides/photos/striped-skunk-front-lawn-house.webp",
+   "subject": "Striped skunk, Mephitis mephitis, on a front lawn in front of a house, trash and recycling carts against the wall (Sandusky, Ohio; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/213769326",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/377802550/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1152,
+   "height": 2048,
+   "bytes": 311338,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "2fc944c993bc810f6b0965d5e9dc2086e5e28aff8b80c9b88e33bf43d503d895"
+  },
+  {
+   "file": "/guides/photos/striped-skunk-lawn-foraging.webp",
+   "subject": "Striped skunk, Mephitis mephitis, foraging on a mown lawn, nose to the grass and tail raised, a garden bed behind (Cornville, Arizona; species agreed by five identifiers on iNaturalist; the camera’s date stamp cropped off)",
+   "sourceUrl": "https://www.inaturalist.org/observations/93964810",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/155811203/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "edited": "bottom 18% cropped (caption strip)",
+   "width": 1200,
+   "height": 738,
+   "bytes": 117838,
+   "sourceDescription": "Mephitis mephitis",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "b21cf33f668232ce669f257f10af15acec70b5c5d852664bb4e45aafce549251"
+  },
+  {
+   "file": "/guides/photos/sweat-bee-nest-cone-soil.webp",
+   "subject": "Nest entrance of a sweat bee: a small hole in the middle of a cone of loose soil grains, the nest the observer recorded with the bee in the same observation, identified as Lasioglossum zephyrus (Charlotte, North Carolina; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/80513150",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/131969024/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1042,
+   "bytes": 324922,
+   "sourceDescription": "Lasioglossum zephyrus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "e1ebb9888108d70737dfebad3f0a4f9ca0c615dbabe02878cad192513abe02a5"
+  },
+  {
+   "file": "/guides/photos/sweat-bee-on-fingertip.webp",
+   "subject": "Sweat bee, Lasioglossum (subgenus Dialictus), a small, dark, faintly metallic bee on the tip of a finger; the observer says it landed on his wife’s finger and did not want to leave (Moscow, Idaho; subgenus agreed on iNaturalist by the observer and John S. Ascher)",
+   "sourceUrl": "https://www.inaturalist.org/observations/45422279",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72023903/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1211,
+   "bytes": 76352,
+   "sourceDescription": "Dialictus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "0daee3d009f52454c22c9e65c7d932da41060aca3650e4f811c327aa539285d5"
+  },
+  {
    "file": "/guides/photos/sweat-bee.webp",
    "subject": "Pure green sweat bee, Augochlora pura",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Augochlora_pura_74743908.jpg",
@@ -8734,6 +9211,34 @@
    "sha256Original": "fb3361fa0684ccc14ca0a1555ffc30082cf46856554d0deac6d865c0870d36a2"
   },
   {
+   "file": "/guides/photos/tobacco-hornworm-chewed-green-tomato.webp",
+   "subject": "Tobacco hornworm, Manduca sexta, larva, on a tomato plant below a green tomato with a large bite out of it; the observer found it munching their tomatoes (Durham, North Carolina; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/384685423",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/704197775/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kevin Anderson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 87654,
+   "sourceDescription": "Manduca sexta",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "bdb08a87e805b1896cc141e620271b12b91e725fe729158bdcec8aa8b700f703"
+  },
+  {
+   "file": "/guides/photos/tobacco-hornworm-on-tomato-red-horn.webp",
+   "subject": "Tobacco hornworm, Manduca sexta, larva, on a tomato plant, showing the diagonal white lines edged in black and the reddish horn (California; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/402877548",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/739638997/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 45972,
+   "sourceDescription": "Manduca sexta",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "d26025b82d41ebe555c00986805a87f280a191951ed1bbebd72d48d3e395ed83"
+  },
+  {
    "file": "/guides/photos/toe-biter-pool-filter.webp",
    "subject": "Toe-biter, Belostoma lutarium, a smaller giant water bug pulled alive out of a swimming pool filter, on concrete (Nesconset, New York)",
    "sourceUrl": "https://www.inaturalist.org/observations/134635002",
@@ -8746,6 +9251,34 @@
    "sourceDescription": "Belostoma lutarium",
    "downloadedOn": "2026-10-23",
    "sha256Original": "e1cc612739fd7f6c5f58bafb705cb2837f529cc93d4af677928134c0a79063a0"
+  },
+  {
+   "file": "/guides/photos/tomato-hornworm-on-tomato-plant.webp",
+   "subject": "Tomato hornworm, Manduca quinquemaculatus, larva, along a tomato stem, showing the V-shaped white marks on its side and the dark horn; the observer found it eating their tomatoes (Sweeny, Texas; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/12730966",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/18439767/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 121306,
+   "sourceDescription": "Manduca quinquemaculatus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "cc9c1e41248c90307b5407838a5b2ac6f1b498d1f494d2fd20b26f053031e42e"
+  },
+  {
+   "file": "/guides/photos/tomato-hornworm-v-marks-tomato-stem.webp",
+   "subject": "Tomato hornworm, Manduca quinquemaculatus, larva, hanging under a hairy tomato stem, its V-shaped white marks and dark horn clear (Middle Township, New Jersey; research grade on iNaturalist, six identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/7206501",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9296602/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 132170,
+   "sourceDescription": "Manduca quinquemaculatus",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "dfc4ef451b20fa5e15de02666fda5a07aef99410b33b1ecd7850948702702c9a"
   },
   {
    "file": "/guides/photos/trypanosoma-cruzi.webp",
@@ -9211,6 +9744,48 @@
    "sha256Original": "4289daa46467cde4b102de76be4f7d27916c842209bf555e08bea4c7f4ecfcd0"
   },
   {
+   "file": "/guides/photos/wood-cockroach-female-egg-case.webp",
+   "subject": "Pennsylvania wood cockroach, Parcoblatta pennsylvanica, adult female (as annotated) with short wings, carrying an egg case, on leaf litter and gravel (Gordo, Alabama; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/286671153",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/515385222/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 237198,
+   "sourceDescription": "Parcoblatta pennsylvanica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "03a7761f3b8eff69c801685f5f029d79c55504f8c6c13dfdd04d9623e63faf1e"
+  },
+  {
+   "file": "/guides/photos/wood-cockroach-house-siding.webp",
+   "subject": "Pennsylvania wood cockroach, Parcoblatta pennsylvanica, adult with wings covering the abdomen, on white siding, photographed with flash (Missouri; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/222157840",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/393498287/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1331,
+   "bytes": 158816,
+   "sourceDescription": "Parcoblatta pennsylvanica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "30538a9c97f27516045c61913aaf6b7489df5598a2302ca633dd5003297f7467"
+  },
+  {
+   "file": "/guides/photos/wood-cockroach-indoors-paper-towel.webp",
+   "subject": "Pennsylvania wood cockroach, Parcoblatta pennsylvanica, which the observer found dead indoors, on a paper towel (recorded at a campground in Empire, Michigan; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/219227824",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/388428779/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Justin Donahue, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 205286,
+   "sourceDescription": "Parcoblatta pennsylvanica",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "edf4561e10d533ff47dfcb8d87898c5e28c39bf4a9ac72541ab02a1936743457"
+  },
+  {
    "file": "/guides/photos/wood-cockroach-male.webp",
    "subject": "Pennsylvania wood cockroach, Parcoblatta pennsylvanica, adult male (life stage and sex as annotated on iNaturalist), its long wings covering the abdomen (Shelbyville, Indiana)",
    "sourceUrl": "https://www.inaturalist.org/observations/118442156",
@@ -9223,6 +9798,20 @@
    "sourceDescription": "Parcoblatta pennsylvanica",
    "downloadedOn": "2026-10-28",
    "sha256Original": "d9b831f69b7287e6542c35ef37a8bd24668ad0dbd4e8adf56e451c603e6791c5"
+  },
+  {
+   "file": "/guides/photos/woodlouse-spider-bathroom-floor.webp",
+   "subject": "Woodlouse spider, Dysdera crocata, adult (annotated dead), which the observer found on a bathroom floor, from above on a white surface: orange-red legs and front body, pale abdomen, large jaws (Moscow, Idaho; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/356846107",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/650783362/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1509,
+   "bytes": 62304,
+   "sourceDescription": "Dysdera crocata",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "0acf76855895cb9cd63cda6a2fc86b3317a8ccb478b4176ba2f497eeac226036"
   },
   {
    "file": "/guides/photos/woodlouse-spider.webp",
@@ -9407,6 +9996,34 @@
    "sha256Original": "d17cc5d06b5efd4bb37d8969d4061be8a4686d637f1fc6ee03c7a8ad0ab77337"
   },
   {
+   "file": "/guides/photos/young-gray-silverfish-7mm.webp",
+   "subject": "Young gray silverfish (long-tailed silverfish), Ctenolepisma longicaudatum, pale tan, about 7 mm long by the observer’s measure, found indoors and photographed on a green background; the observer noted it was possibly an early instar (Charlotte, North Carolina; species agreed on iNaturalist by Nikola Szucsich, the top identifier of silverfish there)",
+   "sourceUrl": "https://www.inaturalist.org/observations/10519869",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/14640317/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 992,
+   "height": 760,
+   "bytes": 109310,
+   "sourceDescription": "Ctenolepisma longicaudatum",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "3f31ddf336de67af513d631c83a0d25a404f43dd5857914f49a88b7c52a529cb"
+  },
+  {
+   "file": "/guides/photos/young-gray-silverfish-fingertip.webp",
+   "subject": "Young gray silverfish, Ctenolepisma longicaudatum (annotated juvenile), on a speckled surface beside a fingertip, for size (Exeter, England; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/291457063",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/524453481/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 177048,
+   "sourceDescription": "Ctenolepisma longicaudatum",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "294061a8897574b742299357389a597bfffe39f6089aa44a7a895cddf7ce337c"
+  },
+  {
    "file": "/guides/photos/young-house-mouse-17-days-old.webp",
    "subject": "Young house mouse (Mus musculus domesticus), 17 days old, fully furred with its eyes open, beside a German 1-pfennig coin (the photographer’s description)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mus_musculus_06_17th_day.jpg",
@@ -9447,6 +10064,20 @@
    "sourceDescription": "Rattus rattus",
    "downloadedOn": "2026-10-29",
    "sha256Original": "b562c31452ba8fbca16b4419bd946722cf573c5b3372faa240cc067c8477268b"
+  },
+  {
+   "file": "/guides/photos/young-silverfish-in-book.webp",
+   "subject": "Young silverfish (annotated juvenile), identified only to the silverfish family, Lepismatidae, which the observer found in a book near the binding (Holualoa, Hawaii; not research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/18943285",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29040956/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 871,
+   "bytes": 100628,
+   "sourceDescription": "Lepismatidae",
+   "downloadedOn": "2026-10-29",
+   "sha256Original": "6c5841811dd8822c039b94a67922e79c48af496c6cffadaf72eccb5d3288b5aa"
   },
   {
    "file": "/guides/photos/zebra-jumping-spider-house-wall.webp",

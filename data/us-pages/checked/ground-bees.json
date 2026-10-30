@@ -1,0 +1,17 @@
+{
+ "id": "ground-bees",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "9381953e413937a6ef27a1661711eccddffede2bb922dfc8086392acefea8bc4",
+ "claimsChecked": 297,
+ "claimsCorrected": 3,
+ "claimsRemovedOrSoftened": 5,
+ "checkedOn": "2026-10-29",
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "Oct 29: figure mining-bee-burrow-clay-aggregation added (batch 21b, CC0); caption at genus level per caveat, checked against the record",
+   "previousSha": "6b54bd33bd42c027f091a1d3e8f624d1f1df2721b90c9a7a24751ed01e77dcc6"
+  }
+ ]
+}
