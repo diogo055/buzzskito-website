@@ -41,6 +41,10 @@ Days 4-5 went live Oct 29 (late evening). Request these first:
 - https://buzzskito.ca/blog/southern-house-spider
 - https://buzzskito.ca/blog/woodlouse-spiders
 - https://buzzskito.ca/blog/bugs-in-basement
+- https://buzzskito.ca/blog/baby-snakes
+- https://buzzskito.ca/blog/copperhead-look-alikes
+- https://buzzskito.ca/blog/skunk-smell-in-house
+- https://buzzskito.ca/blog/tomato-hornworms
 
 Earlier pages:
 
