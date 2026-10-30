@@ -2,7 +2,8 @@
 
 The owner approved this plan on Oct 29, 2026 ("I love the plan, save it").
 - **Website target:** CA$10,000 a month by summer 2027, from ads, Amazon and US pest-control calls.
-- **If both sites go well:** about CA$17,500 a month in July 2027; US calls are about 70% of that.
+- **If US calls go well on buzzskito.ca:** about CA$9,800 a month in July 2027; calls are about 70% of that. Best case about CA$15,700.
+- **Changed Oct 30, 2026 (owner):** sell US calls from buzzskito.ca first. buzzskito.com is built only if the January numbers justify it.
 - **The spray business comes on top:** 2 full vans are worth about CA$110K a month in season (about 410 season customers).
 - **Where it came from:** the strategy is in memory `project_roi_strategy_oct29.md` and in `data/god-build/work-plan-2026-10-28.md`.
 - **The owner's visual of this plan:** the claude.ai artifact "BuzzSkito Summer 2027 Roadmap".
@@ -11,33 +12,33 @@ The owner approved this plan on Oct 29, 2026 ("I love the plan, save it").
 ## Phases
 
 1. **Ship and measure** (Oct 26 – Nov 22): New pages out, Amazon pages fixed, ads switched on, the US call plan approved.
-2. **Ads live and US pilot** (Nov 23 – Jan 17): Mediavine earns its first full month. 25 US pages test buzzskito.com and the call box.
-3. **Move the US to .com** (Jan 18 – Feb 28): If the pilot works, all US guides move in waves before spring.
+2. **Ads live and US pilot** (Nov 23 – Jan 17): Mediavine earns its first full month. About 30 'need a pro' US pages test the call box on buzzskito.ca.
+3. **Scale the calls** (Jan 18 – Feb 28): If the test pays, the box goes on every 'need a pro' US page. buzzskito.com gets built only if the numbers justify it.
 4. **Fill the vans** (Mar 1 – May 2): Spring sales: pre-sale, local ads, fast follow-up, van 2 and technician 2.
 5. **Season launch** (May 3 – Jun 6): First sprays; mosquito and tick traffic climbs.
 6. **Peak and scale** (Jun 7 – Aug 31): Full routes, peak calls, peak ad income; plan 2028.
 
 ## Monthly targets (CAD)
 
-| Month | Google visitors (goal) | Income goal (Oct 19) | If both sites go well |
+| Month | Google visitors (goal) | Income goal (Oct 19) | If US calls go well |
 |---|---|---|---|
-| November 2026 | 5,299 | 475 | ~700 |
-| December 2026 | 4,940 | 814 | ~1,500 |
-| January 2027 | 7,440 | 609 | ~2,500 |
-| February 2027 | 11,632 | 801 | ~3,500 |
-| March 2027 | 19,388 | 1,343 | ~5,000 |
-| April 2027 | 31,550 | 2,178 | ~7,000 |
-| May 2027 | 48,159 | 3,367 | ~10,000 |
-| June 2027 | 62,600 | 4,521 | ~15,000 |
-| July 2027 | 71,417 | 5,066 | ~17,500 |
-| August 2027 | 72,403 | 5,058 | ~17,000 |
+| November 2026 | 5,299 | 475 | ~650 |
+| December 2026 | 4,940 | 814 | ~1,350 |
+| January 2027 | 7,440 | 609 | ~1,100 |
+| February 2027 | 11,632 | 801 | ~2,200 |
+| March 2027 | 19,388 | 1,343 | ~3,200 |
+| April 2027 | 31,550 | 2,178 | ~4,600 |
+| May 2027 | 48,159 | 3,367 | ~6,700 |
+| June 2027 | 62,600 | 4,521 | ~8,800 |
+| July 2027 | 71,417 | 5,066 | ~9,800 |
+| August 2027 | 72,403 | 5,058 | ~9,800 |
 
-"If both sites go well" assumes three things:
-- buzzskito.com fixes the US handicap: Americans click .ca results half as often;
-- Mediavine approves the .com;
-- about 1 in 100 visitors to "need a pro" pages calls.
+"If US calls go well" assumes:
+- the call box runs on buzzskito.ca, with the .ca handicap still in place;
+- about 35% of US visitors land on "need a pro" pages (measured: 26% Oct 2-29, 32% Oct 23-29);
+- about 1 in 100 of those visitors calls, 65% of calls count, and a call pays about US$40.
 
-If calls come in at half that rate, the July peak is about CA$8-10K.
+At 3 in 1,000 the July peak is about CA$5,100. At 1.5 in 100 and US$50 a call it is about CA$15,700.
 
 ## Week by week
 
@@ -74,18 +75,18 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 **Nov 16 – Nov 22** (phase 1)
 
 - **Claude**, Pages: Top-100 build, day 10, plus held pages once their photos exist
-- **Claude**, US engine: Build buzzskito.com: one codebase serving two domains, country twins, every safety check on both
+- **Claude**, US engine: Build the call box on buzzskito.ca: an in-content box with tap-to-call on phones, on US guides only, with safety checks
 - **Claude**, Measure: Title test read (Nov 20-23)
 
 **Nov 23 – Nov 29** (phase 2; Black Friday, Nov 27)
 
 - **Auto**, Money: Black Friday and Cyber Monday: the biggest Amazon week of the year, and Mediavine's highest rates
 - **Claude**, Measure: Title test verdict: if dropping the place word wins, do it on the other information pages too
-- **Claude**, US engine: Pick the 25 pilot pages (US state pages) and set up call tracking
+- **Claude**, US engine: Pick the 30 test pages ('need a pro' US guides) and set up call tracking
 
-**Nov 30 – Dec 6** (phase 2; US pilot goes live)
+**Nov 30 – Dec 6** (phase 2; US call test goes live)
 
-- **Claude**, US engine: Pilot live: 25 US pages move to buzzskito.com with a 'talk to a local pro' call box (after your yes)
+- **Claude**, US engine: Call box live on about 30 'need a pro' US pages on buzzskito.ca (after your yes)
 - **Auto**, Money: First full month of Mediavine ads starts Dec 1
 - **Auto**, Pages: Scheduled releases resume: about 25 pages a week through December
 - **Auto**, Measure: Monthly goal check (Dec 3)
@@ -94,7 +95,7 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 
 **Dec 7 – Dec 13** (phase 2)
 
-- **Claude**, US engine: Watch the pilot every day: .com indexing, calls per day, call quality
+- **Claude**, US engine: Watch the test every day: calls per day, call quality, any drop in ad income
 - **Auto**, Pages: About 25 scheduled pages (state and province series, species ID)
 - **Claude**, Measure: Monday impressions check against the 3M plan
 
@@ -119,24 +120,24 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 **Jan 4 – Jan 10** (phase 2; First real Mediavine month)
 
 - **Claude**, Measure: December Mediavine actuals: re-run the income forecast with the real ad rate
-- **Claude**, US engine: Pilot read: US click-through on .com against .ca, and calls per 1,000 visits
+- **Claude**, US engine: Call test read: calls per 1,000 visits and money per 1,000 visits
 - **Auto**, Pages: About 20 scheduled pages a week in January
 
-**Jan 11 – Jan 17** (phase 2; Your .com decision)
+**Jan 11 – Jan 17** (phase 2; Your call-box decision)
 
-- **You**, US engine: Decide: move every US guide to buzzskito.com in waves, or hold
+- **You**, US engine: Decide: put the box on every 'need a pro' US page, and whether buzzskito.com is worth building now that we know what a US visitor earns
 - **Claude**, Measure: Holiday Amazon read (Jan 15): Nov 20-Dec 31 against October
 - **Claude**, Spray business: Start the Hub CRM revival and the AI first-call agent
 
 **Jan 18 – Jan 24** (phase 3; 3M impressions target)
 
 - **Claude**, Measure: Target date: 3 million Google impressions a month
-- **Claude**, US engine: Move wave 1 (about 80 US guides) with redirects; call box on every 'need a pro' page
+- **Claude**, US engine: Box goes on every 'need a pro' US page, built into the guide template so new pages get it automatically
 - **You**, Spray business: Approve the spring pre-sale offer for past customers
 
 **Jan 25 – Jan 31** (phase 3)
 
-- **Claude**, US engine: Move wave 2 (about 80 guides)
+- **Claude**, US engine: Aim the next new pages at problem pests (termites, rodents, wildlife, bed bugs): they earn the most from calls
 - **Claude**, Pages: Write the 12 summer earners (they go live Feb 1 and age before May)
 
 ### Feb 2027
@@ -144,7 +145,7 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 **Feb 1 – Feb 7** (phase 3)
 
 - **Auto**, Pages: The 12 summer earners go live
-- **Claude**, US engine: Move wave 3 (the rest); apply to Mediavine for buzzskito.com
+- **Claude**, US engine: Test box position and wording, one change at a time, on half the pages
 - **You**, Spray business: Send the pre-sale email to past customers yourself, from the dashboard
 
 **Feb 8 – Feb 14** (phase 3)
@@ -258,7 +259,7 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 
 **Jul 5 – Jul 11** (phase 6; Peak month)
 
-- **Auto**, Money: Peak: about CA$17,500 of website income if both sites go well
+- **Auto**, Money: Peak: about CA$9,800 of website income if US calls go well (about CA$15,700 in the best case)
 - **You**, Spray business: Service at full capacity
 
 **Jul 12 – Jul 18** (phase 6)
@@ -285,7 +286,7 @@ In each week's list, "You" means the owner does it, "Claude" means I do it, and 
 
 **Aug 16 – Aug 22** (phase 6)
 
-- **Claude**, US engine: Plan 2028: more US cities and direct buyers
+- **Claude**, US engine: Plan 2028: more US cities, direct buyers, and whether buzzskito.com is worth it now
 
 **Aug 23 – Aug 29** (phase 6)
 
