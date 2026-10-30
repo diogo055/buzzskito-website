@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-479 images across 193 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+522 images across 208 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -59,6 +59,12 @@
 - Close-up photo of a mattress seam and piping showing dark ink-like fecal spots bled into the fabric, two pale shed skins and a small cluster of white eggs, with a US dime for scale and each sign labeled
 - Scale diagram along a ruler marked in inches and millimeters: one bed bug egg (1 mm), the five nymph stages (1.5 to 4.5 mm), an unfed adult and a fed adult (5 to 7 mm), with an apple seed and a pinhead drawn beside them for comparison
 - Overhead diagram of a bed with numbered arrows showing the inspection order: 1 sheets and pillowcases, 2 mattress seams and tags, 3 box spring, 4 headboard, 5 bed frame joints, 6 nightstand and baseboard
+
+## /blog/bat-bugs
+
+- A bat bug and a bed bug side by side under magnification, showing the hairs just behind the head against the width of the eye (longer on the bat bug, shorter on the bed bug), from a university or government source; public domain or CC0
+- A bat bug where homeowners find it: on a wall, ceiling, windowsill or the top of a bed cover below a bat roost, beside a coin or a ruler marked in inches, identified by an entomologist or extension diagnostician; public domain or CC0
+- A swallow bug, and a cliff swallow mud nest under the eave of a house, photographed where homeowners find them and identified by an entomologist or ornithologist; public domain or CC0
 
 ## /blog/bed-bug-poop
 
@@ -206,6 +212,13 @@
 - Fire ant stings on darker skin at the pustule stage, from a clinical or government source that states the timing (public domain or CC0); every fire ant sting photo on record shows light skin
 - Fire ants swarming up a shoe, boot or hand after a mound was disturbed, from USDA ARS or another public-domain source that names the species, showing how many ants climb on at once
 - USDA APHIS imported fire ant quarantine map (public domain) showing the states and counties under federal quarantine, with the date of the map
+
+## /blog/crazy-ants
+
+- Tawny crazy ants massed on the ground, a tree trunk or a house wall in a Gulf Coast state, or the piles of dead ants they leave along a foundation; identified by an extension entomologist; public domain or CC0
+- Longhorn crazy ants indoors on a kitchen counter or floor beside a ruler marked in inches, identified by an extension service or entomologist; public domain or CC0
+- A yellow crazy ant (Anoplolepis gracilipes) worker in Hawaii, showing its yellowish body and very long legs and antennae, identified by an entomologist or the Hawaii Ant Lab; public domain or CC0
+- Tawny crazy ants packed inside an electrical box, air conditioner contactor or light switch, with the dead ants that cause shorts; identified by an extension service or entomologist; public domain or CC0
 
 ## /learn/mice
 
@@ -454,6 +467,11 @@
 - An adult Asian cockroach (Blattella asahinai) identified by an entomologist or extension service, ideally at a porch light or on a lit wall at night; any license on record works for a look-alike card
 - A female brown-banded cockroach carrying her egg case, or a cluster of egg cases glued under a drawer or inside an appliance, beside a ruler marked in inches, identified by an entomologist or extension service; public domain or CC0
 
+## /blog/wood-roaches
+
+- A wood cockroach nymph (Parcoblatta), wingless, from above beside a ruler marked in inches, ideally under loose bark or on firewood; identified by an extension service or an expert identifier; public domain or CC0
+- A wood cockroach on split firewood, on a woodpile or under loose bark, as a homeowner would see it, ideally with a coin or ruler for scale; identified by an extension service or an expert identifier; public domain or CC0
+
 ## /blog/how-to-get-rid-of-mosquitoes
 
 - Photo of a typical suburban backyard with four or five labeled breeding spots visible: a flowerpot saucer, a bucket, a birdbath, a clogged gutter and an uncovered rain barrel
@@ -627,6 +645,20 @@
 
 - Spitting spider (Scytodes) photographed in Texas, top view, showing the banded legs and the spotted, domed front body section that separate it from a recluse; public domain or CC0
 
+## /blog/false-widow-spiders
+
+- False black widow (Steatoda grossa) indoors where people find it, in a bathroom, a cupboard corner or under an appliance, top view beside a ruler marked in inches, identified to species by an expert; public domain or CC0 so it could lead the page
+- Underside of an adult female false black widow showing no red hourglass, ideally beside the underside of a black widow for comparison, both identified by an expert; public domain or CC0
+- False black widow egg sac: a fluffy, cotton-ball sac with indistinct edges in a tangled web, ideally indoors with the female beside it, identified by an expert; public domain or CC0
+- Noble false widow (Steatoda nobilis) photographed in coastal California, identified to species, top view showing the light tan house-shaped pattern and the tan band on the front of the abdomen; public domain or CC0
+- Triangulate cobweb spider (Steatoda triangulosa) in its web in a house corner or basement, showing the white and yellow triangular spots on the brown abdomen, beside a ruler marked in inches; public domain or CC0
+
+## /blog/woodlouse-spiders
+
+- Close-up of a woodlouse spider's head from the front or side, sharp enough to show the large, forward-pointing jaws and fangs and the six eyes grouped together; research-grade or expert identification; public domain or CC0, or CC BY with credit
+- Woodlouse spider indoors where people find it, on a basement or bathroom floor or at the base of a wall, research-grade identification, ideally beside a ruler marked in inches; public domain or CC0 so it could lead the page (candidate: iNaturalist 356846107, CC0, found on a bathroom floor in Moscow, Idaho)
+- Woodlouse spider holding a pill bug or sow bug in its jaws, outdoors under a log or stone or indoors, research-grade identification; public domain or CC0, or CC BY with credit
+
 ## /blog/pseudoscorpions
 
 - A house pseudoscorpion in a white bathroom sink or tub in a home, beside a ruler marked in inches, identified by an extension service, museum or expert; public domain or CC0
@@ -642,6 +674,13 @@
 
 - A male red-legged purseweb spider (shiny black body, bright reddish-orange legs) walking on the ground in early summer beside a ruler marked in inches, and a second photo of a purseweb silk tube against the base of a tree
 
+## /blog/southern-house-spider
+
+- Female southern house spider at the mouth of her retreat in a crack in a brick, block or stucco wall or a window frame, the flat web spread around it, identified to species, ideally beside a ruler marked in inches; public domain or CC0
+- The flat, tangled web of a southern house spider spreading from a crack around a window frame, a shutter or a brick weep hole, with the opening of the silk-lined retreat visible; identified to species, public domain or CC0
+- Close-up of a male southern house spider's head from the front or above, sharp enough to show the eight eyes clumped on a raised turret and the spines on the legs, identified to species; public domain or CC0
+- Adult male southern house spider on an indoor floor or wall, ideally beside a ruler marked in inches, identified to species (research grade or by an expert); public domain or CC0, so it can count as a where-found photo
+
 ## /blog/wasp-nest-identification
 
 - Honey bee wax comb exposed in a wall void or hollow tree during a removal in the US, showing pale wax cells filled with honey, so readers can compare it with gray paper wasp comb; public domain or CC0
@@ -652,10 +691,22 @@
 - A red paper wasp (Polistes carolina or P. rubiginosus) on its nest under a house eave or porch ceiling in the eastern US, identified by an extension service, museum or expert; public domain or CC0
 - A small paper wasp nest started by a single queen in spring, under a porch ceiling, deck railing or play set in the US, beside a ruler marked in inches; identified by an extension service or expert; public domain or CC0
 
+## /blog/ground-bees
+
+- A bare or thin patch of US lawn in spring with many small soil mounds and holes of a ground-nesting bee aggregation, photographed from standing height with a ruler or a shoe for scale; public domain or CC0
+
 ## /blog/mud-daubers
 
 - An adult organ-pipe mud dauber (Trypoxylon politum) at its tube nest on a house wall, porch ceiling or garage in the US, identified by an extension service, museum or expert; public domain or CC0
 - A black-and-yellow mud dauber nest broken open to show the paralyzed spiders packed in its cells, beside a ruler marked in inches, identified by an extension service or expert; public domain or CC0
+
+## /blog/sweat-bees
+
+- A sweat bee on a person's arm or hand licking sweat, close enough to see its two pairs of wings; identified at least to family (Halictidae) by an expert or as research grade on iNaturalist; public domain or CC0 so it could lead the page
+- A small, dark Lasioglossum sweat bee beside a coin or a ruler marked in inches, to show how tiny the dark sweat bees are; identified to genus by an expert or as research grade on iNaturalist; CC0, CC BY or CC BY-SA
+- A bicolored striped sweat bee or another Agapostemon on a flower, showing the metallic green head and thorax and the striped abdomen; identified to genus by an expert or as research grade on iNaturalist
+- A hover fly (family Syrphidae) on a person's arm, side or top view showing its single pair of wings, large eyes and short antennae; identified to family or genus by an expert or as research grade on iNaturalist
+- Sweat bees at their nest holes in bare soil, with a coin or a ruler marked in inches for scale; identified to family (Halictidae) by an expert or as research grade on iNaturalist
 
 ## /blog/wasp-vs-hornet
 
@@ -669,10 +720,20 @@
 - A US salt marsh or mangrove shoreline at dusk, the breeding habitat of coastal no-see-ums, from the National Park Service or US Fish and Wildlife Service (public domain), ideally on the Atlantic or Gulf coast
 - A biting midge photographed beside standard 16 x 16 window screen mesh at the same magnification, to show that it fits through the openings; public domain, CC0 or CC BY, from a university or government source
 
+## /blog/gnat-bites
+
+- Fresh black fly bites on a person's hairline, neck or behind the ear, or a female black fly (Simulium) feeding on human skin, from a case where the flies were seen biting and identified by an entomologist or a health agency; public domain or CC0 (CDC PHIL, USDA ARS, a state health department, or a CC0 iNaturalist or Wikimedia Commons record)
+- An eye gnat (Liohippelates) on a person's face near the eye, or a specimen beside a ruler marked in inches, identified to genus by an entomologist or extension service; public domain or CC0
+
 ## /blog/sand-fleas
 
 - Beach hoppers under a clump of washed-up seaweed at the high-tide line on a US Atlantic or Gulf Coast beach, with a coin or ruler for scale, identified by an expert or as a research-grade observation; public domain or CC0
 - A chigoe flea lesion (tungiasis) on a foot: a white ring with a dark center between the toes or at the heel, from CDC PHIL or another public domain medical source, shown small and low on the page
+
+## /blog/lovebugs
+
+- A single lovebug (Plecia nearctica) beside a ruler marked in inches, seen from above to show the red top of the thorax and the black sides, identified by an extension service or entomologist; public domain or CC0
+- Lovebug larvae (slate gray, about 1/2 inch, with a darker head) in grass thatch or under decaying leaves, ideally beside a ruler marked in inches, identified by an extension service or entomologist; public domain or CC0
 
 ## /blog/flies-in-house
 
@@ -696,6 +757,16 @@
 
 - A tropical rat mite (Ornithonyssus bacoti) beside a ruler marked in inches, identified by an entomologist, and the bites it left on a person's skin; CDC PHIL or a CC BY case report
 - Oak leaf itch mite bites on a person's neck or shoulders after time under pin oaks, from a case where the mite was identified, with the timing stated; public domain or CC0, no identifiable face
+
+## /blog/dust-mite-bites
+
+- An atopic dermatitis (eczema) flare in the bend of an adult's elbow or behind the knee, ideally one photo on lighter and one on darker skin, from CDC PHIL, NIH or an open-access medical journal under a public domain or CC BY license
+
+## /blog/spider-beetles
+
+- A spider beetle and a blacklegged tick nymph side by side on a white card beside a ruler marked in inches, so the beetle's six legs and two antennae and the tick's eight legs can be counted at the same scale; public domain or CC0, both identified by an entomologist
+- Smooth spider beetles in an infested pantry item, such as an old bag of flour, dry pet food or a spice jar, or on a pantry shelf, as a homeowner finds them; public domain or CC0, identified by an extension service or entomologist
+- A spider beetle on a bed sheet or pillowcase, as a homeowner finds it, ideally beside a coin for scale; public domain or CC0, identified by an entomologist
 
 ## /blog/what-do-fleas-look-like
 
@@ -930,6 +1001,23 @@
 
 - Public domain or CC0 photo of small pantry beetles (flour beetles or sawtoothed grain beetles) in an open bag or container of flour or cereal in a home kitchen, beside a ruler marked in inches
 - Public domain or CC0 photo of a German cockroach or a silverfish where people find it in a kitchen, on a counter, a floor or the shelf of the cabinet under the sink, beside a ruler marked in inches
+
+## /blog/baby-silverfish
+
+- Silverfish or firebrat eggs, magnified beside a ruler marked in inches, ideally in the crevice or behind the book where they were laid, identified by an entomologist or extension service; public domain or CC0
+- A newly hatched, white, scaleless silverfish nymph trapped in a bathtub or sink, or beside a ruler marked in inches, identified by an entomologist; public domain or CC0 so it could lead the page
+
+## /blog/bugs-in-basement
+
+- Millipedes or sow bugs on a basement floor along the foot of a wall, photographed where found beside a ruler marked in inches (public domain or CC0)
+- Springtails on damp concrete beside a basement floor drain or sump pit, photographed where found next to a ruler marked in inches (public domain or CC0)
+
+## /blog/tiny-red-bugs
+
+- Clover mites massed on a sunny house wall, siding, windowsill or concrete step in the US, beside a coin or a ruler marked in inches; public domain or CC0 (for example an iNaturalist CC0 research-grade Bryobia observation), so it can replace the interim lead photo
+- Bright red boxelder bug nymphs massed on a sunny house wall or a boxelder tree trunk in late summer, as a homeowner sees them, beside a coin or ruler; public domain or CC0
+- Concrete mites (Balaustium) running over a sunny concrete patio, sidewalk or picnic table in spring, beside a coin or ruler, identified by an extension service or expert; public domain or CC0
+- A red velvet mite on bare soil, a sidewalk or a garden path after rain, as a homeowner would see it, beside a coin or ruler; public domain or CC0
 
 ## /learn/bug-bites
 

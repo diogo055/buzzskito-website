@@ -13,5 +13,10 @@
    "note": "Oct 29: 3 figures added (batch 21b: female with egg case CC0, on house siding CC0, found dead indoors CC BY 4.0); captions checked against the records and caveats",
    "previousSha": "75538db9c978fe2cc70f14525d41bd24f3e30bdf6dda7b602e352020e1c2501a"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

@@ -13,5 +13,10 @@
    "note": "Oct 29: 'usually clover mites' softened to 'often clover mites' in 4 places (no extension source ranks them; Penn State and UMN say they are frequently found on sunny windowsills and walls)",
    "previousSha": "7b612cbea9293e0acb13816a991b6d6cb369fc3ef2ee66dca4760c71ea3b1dd0"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

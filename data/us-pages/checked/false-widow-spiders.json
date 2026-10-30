@@ -13,5 +13,10 @@
    "note": "Oct 29: 2 indoor figures added (batch 21b, CC0: Steatoda grossa male on a bathroom wall, S. nobilis on an indoor wall); captions checked against the records",
    "previousSha": "a93cc9324ebd29b442d4295d0e4757e9c9162d1efb3aa65b0a98fc0bdcf1494e"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

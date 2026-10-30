@@ -1,20 +1,17 @@
-release: 18 scheduled page(s) go live (2026-10-28)
+release: 15 scheduled page(s) go live (2026-10-29)
 
-- /blog/no-see-ums
-- /blog/fire-ant-stings
-- /blog/kissing-bug-bites
-- /blog/hobo-spiders
-- /blog/june-bugs
-- /blog/sand-fleas
-- /blog/japanese-beetles
-- /blog/crickets-in-house
-- /blog/wasp-vs-hornet
-- /blog/mite-bites
-- /blog/baby-rats
-- /blog/bed-bug-eggs
-- /blog/what-do-lice-look-like
-- /blog/bugs-in-carpet
-- /blog/tiny-white-bugs
-- /blog/rat-nest
-- /blog/bugs-in-bathroom
-- /blog/bugs-in-kitchen
+- /blog/spider-beetles
+- /blog/gnat-bites
+- /blog/bat-bugs
+- /blog/false-widow-spiders
+- /blog/woodlouse-spiders
+- /blog/ground-bees
+- /blog/sweat-bees
+- /blog/lovebugs
+- /blog/crazy-ants
+- /blog/baby-silverfish
+- /blog/southern-house-spider
+- /blog/bugs-in-basement
+- /blog/dust-mite-bites
+- /blog/wood-roaches
+- /blog/tiny-red-bugs

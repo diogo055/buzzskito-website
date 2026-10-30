@@ -13,5 +13,10 @@
    "note": "Oct 29: indoor figure woodlouse-spider-bathroom-floor added (batch 21b, CC0); caption checked against the record (no claim it was alive)",
    "previousSha": "f25dbe0090fe591f3dc9184099ef96d0b5b10065973695f5eaf66207cec6dfa6"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

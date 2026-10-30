@@ -319,6 +319,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Does Alcohol Kill Bed Bugs? What the Research Says About Rubbing Alcohol: https://buzzskito.ca/blog/does-alcohol-kill-bed-bugs
 - Does Lysol Kill Bed Bugs? What the Label, the Research and the EPA Say: https://buzzskito.ca/blog/does-lysol-kill-bed-bugs
 - Signs of Bed Bugs: A 7-Point Checklist to Run Tonight: https://buzzskito.ca/blog/signs-of-bed-bugs-checklist
+- Bat Bugs: The Bed Bug Look-Alikes From Bats, and How to Tell Them Apart: https://buzzskito.ca/blog/bat-bugs
 - Bed Bug Poop: What Bed Bug Droppings and Stains Look Like: https://buzzskito.ca/blog/bed-bug-poop
 - No Signs of Bed Bugs but You Have Bites? What Else Bites at Night: https://buzzskito.ca/blog/bed-bug-bites-but-no-bed-bugs
 - Bed Bugs in Hotels: How to Check Your Room and Avoid Bringing Them Home: https://buzzskito.ca/blog/bed-bugs-in-hotels
@@ -346,6 +347,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Honeypot Ants: The Workers That Store Food in Their Bodies: https://buzzskito.ca/blog/honeypot-ants
 - Zombie Ants: How the Fungus Takes Over Carpenter Ants: https://buzzskito.ca/blog/zombie-ants
 - Fire Ant Bites: Pictures, Pustule Stages, Treatment and Allergy Signs: https://buzzskito.ca/blog/fire-ant-stings
+- Crazy Ants: How to Identify Them and Why They Swarm Electrical Boxes: https://buzzskito.ca/blog/crazy-ants
 - Homemade Ant Killer: 4 Recipes With Exact Ratios: https://buzzskito.ca/learn/ant-killer-recipes
 
 ### Mice
@@ -396,6 +398,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Oriental Cockroaches: The Big Black Roach in Basements and Drains: https://buzzskito.ca/blog/oriental-cockroaches
 - White Cockroach: What a White or Albino Roach Really Is: https://buzzskito.ca/blog/white-cockroach
 - Brown-Banded Cockroaches: The Light-Colored Roach in Furniture and Electronics: https://buzzskito.ca/blog/brown-banded-cockroaches
+- Wood Roaches: How to Tell a Wood Cockroach From Roaches That Infest Homes: https://buzzskito.ca/blog/wood-roaches
 
 ### Mosquitoes
 - How to Get Rid of Mosquitoes in Your Yard: What CDC and EPA Guidance Says: https://buzzskito.ca/blog/how-to-get-rid-of-mosquitoes
@@ -470,19 +473,26 @@ Source-cited identification and how-to guides written for readers in the United 
 - Yellow Sac Spiders: The Pale White Spider in the House, and Its Bite: https://buzzskito.ca/blog/yellow-sac-spiders
 - Camel Spiders (Sun Spiders): What They Are, How Big They Get, Bites and Myths: https://buzzskito.ca/blog/camel-spiders
 - Spiders in Texas: Common Species, Recluses, Tarantulas and Which Bite: https://buzzskito.ca/blog/spiders-in-texas
+- False Widow Spiders: How to Identify False Black Widows and Their Bite: https://buzzskito.ca/blog/false-widow-spiders
+- Woodlouse Spiders: The Red Spider With Big Fangs in Basements: https://buzzskito.ca/blog/woodlouse-spiders
 - Pseudoscorpions: The Tiny Harmless 'Scorpions' in Your House: https://buzzskito.ca/blog/pseudoscorpions
 - Spider Egg Sacs: Which Spider Made It, and What to Do About It: https://buzzskito.ca/blog/spider-egg-sacs
 - Black Spider With White Spots? How to Identify Black Spiders by Markings: https://buzzskito.ca/blog/black-spiders
+- Southern House Spider: The Crevice Spider Mistaken for a Brown Recluse: https://buzzskito.ca/blog/southern-house-spider
 
 ### Wasps, hornets and bees
 - Wasp Nest Identification: Which Wasp, Hornet or Bee Built It: https://buzzskito.ca/blog/wasp-nest-identification
 - Paper Wasps: How to Identify Them, Their Umbrella Nests and the Sting: https://buzzskito.ca/blog/paper-wasps
+- Ground Bees: Lawn Holes, Stings and How to Tell Them From Yellow Jackets: https://buzzskito.ca/blog/ground-bees
 - Mud Daubers: How to Identify Them and Their Mud Nests, and Do They Sting?: https://buzzskito.ca/blog/mud-daubers
+- Sweat Bees: Why They Land on You, Whether They Sting and Look-Alikes: https://buzzskito.ca/blog/sweat-bees
 - Wasp vs Hornet: How to Tell Them Apart, Plus Yellow Jackets and Bees (Photos): https://buzzskito.ca/blog/wasp-vs-hornet
 
 ### Flies and gnats
 - No-See-Ums: What They Are, Where They Live and How to Keep Them Out: https://buzzskito.ca/blog/no-see-ums
+- Gnat Bites: Which Gnats Bite, What the Bites Look Like and When to Worry: https://buzzskito.ca/blog/gnat-bites
 - Sand Fleas: What They Are, Do They Bite, and What Is Biting You at the Beach: https://buzzskito.ca/blog/sand-fleas
+- Lovebugs: Why They Swarm Twice a Year, and How to Get Them Off Your Car: https://buzzskito.ca/blog/lovebugs
 - Why Are There So Many Flies in My House? Find the Fly, Then the Source: https://buzzskito.ca/blog/flies-in-house
 - How to Get Rid of Gnats: Identify the Gnat First, Then Fix Its Source: https://buzzskito.ca/blog/how-to-get-rid-of-gnats
 - Maggots: What They Are, Where They Come From and How to Get Rid of Them: https://buzzskito.ca/blog/maggots
@@ -490,8 +500,10 @@ Source-cited identification and how-to guides written for readers in the United 
 ### Mites and chiggers
 - Dust Mites: What They Look Like, Where They Live and How to Reduce Them: https://buzzskito.ca/blog/dust-mites
 - Mite Bites: What They Look Like and Which Mite Bit You: https://buzzskito.ca/blog/mite-bites
+- Dust Mite Bites: Do Dust Mites Bite, and What Is Causing Your Itchy Rash?: https://buzzskito.ca/blog/dust-mite-bites
 
 ### Household bugs
+- Spider Beetles: The Tiny Beetles That Look Like Ticks (Photos): https://buzzskito.ca/blog/spider-beetles
 - What Do Fleas Look Like? Adult Fleas Up Close, on Pets and People: https://buzzskito.ca/blog/what-do-fleas-look-like
 - How to Get Rid of Fleas in the House: The Order That Breaks the Life Cycle: https://buzzskito.ca/blog/how-to-get-rid-of-fleas
 - Carpet Beetle Bites: Why They Don't Bite and What the Rash Looks Like: https://buzzskito.ca/blog/carpet-beetle-rash
@@ -535,6 +547,9 @@ Source-cited identification and how-to guides written for readers in the United 
 - Tiny White Bugs in the House: What They Are, by Where You Found Them: https://buzzskito.ca/blog/tiny-white-bugs
 - Bugs in the Bathroom: What They Are and Why They Are There (Photos): https://buzzskito.ca/blog/bugs-in-bathroom
 - Bugs in the Kitchen: What They Are and Where They Come From: https://buzzskito.ca/blog/bugs-in-kitchen
+- Baby Silverfish: What Silverfish Nymphs and Eggs Look Like: https://buzzskito.ca/blog/baby-silverfish
+- Bugs in the Basement: What They Are and Why They Live There (Photos): https://buzzskito.ca/blog/bugs-in-basement
+- Tiny Red Bugs: What They Are, Where You Find Them and Which Ones Bite (Photos): https://buzzskito.ca/blog/tiny-red-bugs
 
 ### Bug bites and stings
 - Bug Bite Identification: Pictures and Clues to What Bit You: https://buzzskito.ca/learn/bug-bites

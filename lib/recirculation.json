@@ -219,6 +219,20 @@
    ],
    "bar": true
   },
+  "/blog/baby-silverfish": {
+   "next": "/blog/how-to-get-rid-of-silverfish",
+   "related": [
+    "/blog/what-do-lice-look-like",
+    "/blog/lice-eggs",
+    "/blog/bugs-in-basement"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-earwigs",
+    "/blog/springtails",
+    "/blog/booklice"
+   ],
+   "bar": true
+  },
   "/blog/baby-ticks-nymphs-seed-ticks-ontario": {
    "next": "/blog/types-of-ticks-identification",
    "related": [
@@ -244,6 +258,20 @@
     "/blog/best-steam-mop-for-hardwood-floors-canada",
     "/blog/diy-outdoor-misting-system-kit-canada"
    ]
+  },
+  "/blog/bat-bugs": {
+   "next": "/blog/tick-vs-bed-bug",
+   "related": [
+    "/blog/bed-bug-poop",
+    "/blog/bed-bug-eggs",
+    "/blog/what-do-bed-bugs-look-like"
+   ],
+   "cards": [
+    "/blog/signs-of-bed-bugs-checklist",
+    "/blog/bed-bug-heater-canada",
+    "/blog/best-whole-room-bed-bug-heater-canada"
+   ],
+   "bar": true
   },
   "/blog/bat-poop": {
    "next": "/blog/animal-droppings",
@@ -1731,6 +1759,20 @@
     "/blog/what-flowers-attract-mosquitoes"
    ]
   },
+  "/blog/bugs-in-basement": {
+   "next": "/blog/bugs-in-bathroom",
+   "related": [
+    "/blog/bugs-in-carpet",
+    "/blog/tiny-red-bugs",
+    "/blog/spider-beetles"
+   ],
+   "cards": [
+    "/blog/kissing-bug-look-alikes",
+    "/blog/tiny-white-bugs",
+    "/blog/camel-crickets"
+   ],
+   "bar": true
+  },
   "/blog/bugs-in-bathroom": {
    "next": "/blog/bugs-in-carpet",
    "related": [
@@ -2153,6 +2195,20 @@
     "/blog/best-whole-house-dehumidifier-canada",
     "/blog/battery-backup-sump-pump-canada"
    ]
+  },
+  "/blog/crazy-ants": {
+   "next": "/blog/flying-ants",
+   "related": [
+    "/blog/ghost-ants",
+    "/blog/tiny-ants",
+    "/blog/does-vinegar-kill-ants"
+   ],
+   "cards": [
+    "/learn/ant-killer-recipes",
+    "/blog/red-ants",
+    "/blog/best-ant-traps-canada"
+   ],
+   "bar": true
   },
   "/blog/crickets-in-house": {
    "next": "/blog/camel-crickets",
@@ -2597,6 +2653,20 @@
     "/blog/best-bed-bug-fogger-canada"
    ]
   },
+  "/blog/dust-mite-bites": {
+   "next": "/blog/dust-mites",
+   "related": [
+    "/blog/mite-bites",
+    "/blog/how-to-keep-spiders-out-of-your-house",
+    "/blog/best-silverfish-traps"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-centipedes-canada",
+    "/blog/what-does-a-spider-bite-look-like",
+    "/blog/best-flea-spray-for-home-canada"
+   ],
+   "bar": true
+  },
   "/blog/dust-mites": {
    "next": "/blog/best-air-purifier-for-dust-mites-canada",
    "related": [
@@ -2689,6 +2759,20 @@
     "/blog/misting-fan-canada",
     "/blog/best-commercial-steam-cleaner-canada"
    ]
+  },
+  "/blog/false-widow-spiders": {
+   "next": "/blog/black-widow-spiders",
+   "related": [
+    "/blog/black-widow-bite",
+    "/blog/black-spiders",
+    "/blog/jumping-spiders"
+   ],
+   "cards": [
+    "/blog/southern-house-spider",
+    "/blog/woodlouse-spiders",
+    "/blog/camel-spiders"
+   ],
+   "bar": true
   },
   "/blog/field-king-backpack-sprayer-review-canada": {
    "next": "/blog/best-battery-backpack-sprayer-canada",
@@ -2882,6 +2966,20 @@
    ],
    "bar": true
   },
+  "/blog/gnat-bites": {
+   "next": "/blog/how-to-get-rid-of-gnats",
+   "related": [
+    "/blog/no-see-um-bites",
+    "/blog/chigger-bites",
+    "/blog/deer-flies-horse-flies-ontario"
+   ],
+   "cards": [
+    "/blog/cluster-flies-in-house-canada",
+    "/blog/how-to-get-rid-of-fruit-flies",
+    "/blog/sand-fleas"
+   ],
+   "bar": true
+  },
   "/blog/goodnature-a24-review-canada": {
    "next": "/blog/victor-electronic-mouse-trap-review-canada",
    "related": [
@@ -2907,6 +3005,20 @@
     "/blog/best-gazebo-with-mosquito-net-canada",
     "/blog/is-deet-safe"
    ]
+  },
+  "/blog/ground-bees": {
+   "next": "/blog/sweat-bees",
+   "related": [
+    "/blog/mud-daubers",
+    "/blog/wasp-nest-identification",
+    "/blog/paper-wasps"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-ground-wasps-canada",
+    "/blog/rescue-why-trap-review-canada",
+    "/blog/wasp-vs-hornet"
+   ],
+   "bar": true
   },
   "/blog/gutter-guards-mosquito-breeding-canada": {
    "next": "/blog/hidden-mosquito-breeding-spots-backyard",
@@ -4087,6 +4199,20 @@
     "/blog/best-pump-pressure-sprayer-canada",
     "/blog/brush-cutter-for-overgrown-yard-canada"
    ]
+  },
+  "/blog/lovebugs": {
+   "next": "/blog/flies-in-house",
+   "related": [
+    "/blog/gnat-bites",
+    "/blog/how-to-get-rid-of-gnats",
+    "/blog/maggots"
+   ],
+   "cards": [
+    "/blog/no-see-ums",
+    "/blog/black-flies-ontario-when-they-come-out",
+    "/blog/horse-fly-and-deer-fly-bite-treatment"
+   ],
+   "bar": true
   },
   "/blog/lyme-disease-cases-ontario-2026": {
    "next": "/blog/what-percentage-of-ticks-carry-lyme-ontario",
@@ -5442,6 +5568,34 @@
     "/blog/dynatrap-canada-review"
    ]
   },
+  "/blog/southern-house-spider": {
+   "next": "/blog/spiders-in-california",
+   "related": [
+    "/blog/brown-recluse-bite",
+    "/blog/yellow-sac-spiders",
+    "/blog/black-widow-spiders"
+   ],
+   "cards": [
+    "/blog/wolf-spiders",
+    "/blog/brown-recluse-look-alikes",
+    "/blog/jumping-spiders"
+   ],
+   "bar": true
+  },
+  "/blog/spider-beetles": {
+   "next": "/blog/tiny-red-bugs",
+   "related": [
+    "/blog/bugs-in-basement",
+    "/blog/bugs-in-bathroom",
+    "/blog/bugs-in-carpet"
+   ],
+   "cards": [
+    "/blog/tiny-brown-bugs",
+    "/blog/bugs-in-house-in-winter",
+    "/blog/how-to-get-rid-of-stink-bugs"
+   ],
+   "bar": true
+  },
   "/blog/spider-egg-sacs": {
    "next": "/blog/house-spiders",
    "related": [
@@ -5621,6 +5775,20 @@
     "/blog/bed-bugs-on-the-ttc-toronto",
     "/blog/dupray-neat-vs-hill-injection-canada"
    ]
+  },
+  "/blog/sweat-bees": {
+   "next": "/blog/paper-wasps",
+   "related": [
+    "/blog/wasp-vs-hornet",
+    "/blog/how-to-get-rid-of-carpenter-bees-canada",
+    "/blog/best-wasp-trap"
+   ],
+   "cards": [
+    "/blog/ground-bees",
+    "/blog/mud-daubers",
+    "/blog/wasp-nest-identification"
+   ],
+   "bar": true
   },
   "/blog/termite-damage": {
    "next": "/blog/termite-droppings",
@@ -6447,6 +6615,20 @@
    ],
    "bar": true
   },
+  "/blog/tiny-red-bugs": {
+   "next": "/blog/bugs-in-basement",
+   "related": [
+    "/blog/spider-beetles",
+    "/blog/bugs-in-bathroom",
+    "/blog/bugs-in-carpet"
+   ],
+   "cards": [
+    "/blog/what-do-termites-look-like",
+    "/blog/crickets-in-house",
+    "/blog/millipedes"
+   ],
+   "bar": true
+  },
   "/blog/tiny-white-bugs": {
    "next": "/blog/booklice",
    "related": [
@@ -7233,6 +7415,34 @@
     "/blog/ultrasonic-pest-repellers-do-they-work",
     "/blog/diy-pest-control"
    ]
+  },
+  "/blog/wood-roaches": {
+   "next": "/blog/where-do-cockroaches-come-from",
+   "related": [
+    "/blog/cockroach-droppings",
+    "/blog/white-cockroach",
+    "/blog/how-to-get-rid-of-cockroaches"
+   ],
+   "cards": [
+    "/blog/best-roach-traps-canada",
+    "/blog/german-cockroaches",
+    "/blog/what-do-baby-cockroaches-look-like"
+   ],
+   "bar": true
+  },
+  "/blog/woodlouse-spiders": {
+   "next": "/blog/camel-spiders",
+   "related": [
+    "/blog/orb-weaver-spiders",
+    "/blog/jumping-spiders",
+    "/blog/hobo-spiders"
+   ],
+   "cards": [
+    "/blog/joro-spiders",
+    "/blog/spiders-in-florida",
+    "/blog/black-widow-spiders"
+   ],
+   "bar": true
   },
   "/blog/yellow-sac-spiders": {
    "next": "/blog/black-spiders",

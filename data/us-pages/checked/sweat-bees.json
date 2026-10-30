@@ -13,5 +13,10 @@
    "note": "Oct 29: 2 where-found figures added from scout batch 21b (sweat-bee-on-fingertip, sweat-bee-nest-cone-soil); captions checked against the ledger records and caveats",
    "previousSha": "70ea3cb4ee176cab5b5c578950f64763ef72d8d7e7a4d3d45efec42aa3406724"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

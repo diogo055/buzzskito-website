@@ -13,5 +13,10 @@
    "note": "Oct 29: 2 longhorn crazy ant where-found figures added (batch 21b, CC0); captions checked against the records",
    "previousSha": "997b0a1b0b1131312eac04fe1bda66059330b2ccdb25a690b0eaf2c08309d7ae"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }

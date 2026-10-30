@@ -9,7 +9,9 @@
     "wasp-nest-identification": "The page recommends nothing a search could safely find (no removal products by design).",
     "stick-bugs": "The page recommends nothing to buy: walkingsticks need no control, and the safety advice is to rinse eyes and call Poison Control.",
     "fire-ant-stings": "Medical and emergency page (sting care, pustule stages, anaphylaxis signs, 911 and epinephrine in the quick answer and body); by rule no pick, and its home care is creams and antihistamines.",
-    "kissing-bug-bites": "Medical page (bite reactions, 911 for anaphylaxis in the quick answer, Chagas testing); by rule no pick. Its sister page kissing-bug-look-alikes already carries the specimen-jar pick."
+    "kissing-bug-bites": "Medical page (bite reactions, 911 for anaphylaxis in the quick answer, Chagas testing); by rule no pick. Its sister page kissing-bug-look-alikes already carries the specimen-jar pick.",
+    "sweat-bees": "Nothing to buy for sweat bees: the page says to brush one off gently, never swat, and leave them be as pollinators, and that 'None of the sources cited here recommends an insect repellent for sweat bees or hover flies'; its one product step, 'Cover sweet drinks', is for yellowjackets (fallback if wanted: a reusable soda can lid). The quick answer also carries MedlinePlus's 911 sting signs.",
+    "gnat-bites": "Medical page: its quick answer carries an emergency-room warning, so no product box (same rule as fire-ant-stings and kissing-bug-bites)."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1295,6 +1297,78 @@
       "name": "Compact binoculars",
       "search": "compact binoculars",
       "basis": "The page names no product but tells readers to watch from a distance: 'Which one do I have?': 'Match the insect's size, color, nest and behavior against this table of eight insects that get called wasps, hornets or bees, then run the checks below it from a safe distance.'; checklist 'Sort it from a safe distance' (ivory-white face, reddish-brown front, yellow legs, the nest); tip: 'Photograph the insect from a distance'. Nests sit high: bald-faced hornets 'in trees as high as 60 feet or more', European hornets 'up to 30 feet up' (Penn State). No spray, trap or removal product: the page says the answer is often nothing, and Clemson advises against removing a yellow-legged hornet nest yourself."
+    },
+    "dust-mite-bites": {
+      "label": "For a confirmed dust mite allergy",
+      "name": "Zippered dust mite mattress encasement",
+      "search": "dust mite mattress encasement zippered",
+      "basis": "'What helps if dust mites are behind it?': 'Confirm the allergy, then cut exposure in the bedroom.' NIEHS's first step: 'Encase mattresses and pillows in dust-proof or allergen-impermeable covers.' The AAD's steps for a child with severe eczema start with 'dust mite covers on the pillows and mattress'. Same product as the sibling dust-mites pick. Not a bite remedy: the page says dust mites cannot bite, so the label ties the box to the allergy; no cream, medicine, dust mite spray or air purifier (Kentucky says benzyl benzoate kills the mites but trials showing it improves symptoms much are lacking). The page's emergency signs are in a closing callout, not the quick answer. Alternative with page support: bed bug interceptor cups ('small dish-shaped traps under the legs of the bed can catch wandering bed bugs', Kentucky, in 'Check the bed')."
+    },
+    "ground-bees": {
+      "label": "To water where ground bees nest",
+      "name": "Lawn sprinkler",
+      "search": "lawn sprinkler",
+      "basis": "Quick answer: 'Maryland says heavy watering discourages nesting and dense turf discourages the bees over the long term.' 'How do you get rid of ground bees?', step 1: 'Water heavily. Maryland says heavy watering with a lawn sprinkler discourages nesting, and the Wayne County article suggests irrigating during the 3 to 4 weeks the bees are active, since they like dry soil.' FAQ 'Does watering the lawn get rid of ground bees?': 'University of Maryland Extension says heavy watering with a lawn sprinkler will discourage nesting'. For ground bees only, as the page says ('The watering advice below is for ground bees only'), hence the label; a yellowjacket nest goes to a licensed exterminator or waits for freezing weather. Never an insecticide: 'Skip the insecticide.' The page also says the bees usually leave on their own within weeks. Grass seed (step 2, thicken the turf) was the other option, but the page never names seed."
+    },
+    "wood-roaches": {
+      "label": "To seal the gap under doors",
+      "name": "Door sweep",
+      "search": "door sweep",
+      "basis": "Quick answer: 'Keep them out rather than spray: Virginia Tech advises sound door sweeps and screens, firewood stored away from the house and outdoor lights off or switched to yellow.' 'How do you get rid of wood roaches?', step 3: 'Seal the gaps. Kentucky advises tight window screens, door sweeps, caulk around doors and windows and sealing where pipes and wires pass through walls; Penn State adds caulking foundation cracks and a brush along the bottom of doors.' FAQ 'Are wood cockroaches hard to get rid of?': 'Penn State, Kentucky, Iowa State and Virginia Tech all recommend keeping them out: sealing gaps around doors, windows and the foundation and fitting door sweeps or tight screens.' No spray, bait or fogger: 'Penn State says pesticides are not necessary or recommended because wood roaches die quickly indoors'. Alternative with page support: yellow bug light bulbs (step 2, Virginia Tech)."
+    },
+    "tiny-red-bugs": {
+      "label": "To check tiny red bugs",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'How do you tell which tiny red bug you have?': 'Catch one in a clear jar or press it onto clear tape and look through a magnifying glass, since most of these are 1/8 inch long or less.' The checklist that follows needs it ('Eight legs or six?', 'Front legs much longer than the rest?'), and 'If yours looks brown or black under a magnifier' sends readers on to the brown and black bug guides. Same pick as tiny-black-bugs and tiny-brown-bugs. Never a miticide or spray: for clover mites, 'Penn State says chemical treatment inside the home is not necessary'. Alternative with page support: caulk ('Seal the way in. SDSU suggests caulking cracks and crevices around doors and windows.')."
+    },
+    "crazy-ants": {
+      "label": "To seal gaps at doors and windows",
+      "name": "Door and window weatherstripping",
+      "search": "weather stripping for doors and windows",
+      "basis": "'How do you get rid of crazy ants?', step 4: 'Seal the house. UF/IFAS suggests sealing cracks and gaps around windows, doors and plumbing and utility lines and replacing worn weatherstripping; if you can see daylight through a gap, ants can get in.' Longhorn crazy ants: 'Longhorn crazy ants indoors call for exclusion first: UF/IFAS suggests caulking exterior gaps and weatherstripping'. Mississippi State 'measures success by keeping the ants out of the house'. Never a bait, spray or granule: step 5 is 'Do not count on store-bought bait' (Texas A&M says the workers are not attracted to most bait products) and step 6 calls sprays short-term relief. Not for electrical equipment, which the page leaves to an electrician or a licensed professional with the power off."
+    },
+    "false-widow-spiders": {
+      "label": "To vacuum spiders and webs",
+      "name": "Cordless handheld vacuum",
+      "search": "cordless handheld vacuum",
+      "basis": "'Should you get rid of false widows in your house?': UC IPM's advice 'relies on cleaning and storage rather than sprays', first 'Vacuum or sweep windows, room corners and storage areas regularly', since spiders' soft bodies usually do not survive a vacuum. FAQ 'Should I kill a false widow spider?': 'UC IPM says regular vacuuming removes spiders and their webs'; FAQ 'What should I do if I find a false black widow?': 'UC IPM suggests vacuuming spiders and webs'. Handheld is our narrowing of the page's 'vacuum' for corners and windows (as on carpet-beetle-larvae). No spray, fogger or repellent: 'Do not count on sprays: UC IPM says insecticides do not provide long-term control.' The page says a spider that might be a black widow should be left alone. Alternatives with page support: a jar to move one outside 'if you are comfortable doing it', or gloves ('wear gloves when clearing stored items')."
+    },
+    "bat-bugs": {
+      "label": "To check the hairs behind the head",
+      "name": "Hand lens magnifier",
+      "search": "hand lens magnifier",
+      "basis": "Quick answer: bat bugs and bed bugs 'are told apart only under magnification: the fringe hairs just behind a bat bug's head are longer than its eye is wide, while a bed bug's are shorter.' 'How do you tell a bat bug from a bed bug?': 'the University of California's bed bug Pest Note (UC IPM) says the check takes a hand lens or microscope.' Checklist: 'Hairs: under a lens, longer than the eye is wide.' FAQ 'Can you tell a bat bug from a bed bug without a microscope?' repeats that 'UC IPM says the check takes a hand lens or microscope.' Same pick as black-bed-bugs. The page still leaves the final call to an expert ('Iowa State recommends a professional identification') and says to keep the bug in a sealed jar or zip-top bag. No insecticide, fogger, bat repellent, netting or N95: the page sends bat exclusion to state rules and professionals, and CDC says large amounts of droppings should be cleaned up by hazardous waste professionals."
+    },
+    "woodlouse-spiders": {
+      "label": "To dry out a damp basement",
+      "name": "Dehumidifier",
+      "search": "dehumidifier for basement",
+      "basis": "Quick answer: 'In homes it is almost always found in basements and other humid places, Colorado State says'. 'What should you do about a woodlouse spider in the house?': 'Move it out, then deal with the damp and the prey that drew it in.' Step 2: 'Dry the basement. Utah State advises reducing moisture problems around buildings, and the EPA's guide to mold and moisture suggests keeping indoor humidity below 60 percent, ideally 30 to 50 percent, using an air conditioner or dehumidifier when needed, and fixing leaks quickly.' FAQ 'Should I be concerned if I see a woodlouse spider?': 'Utah State University Extension suggests reducing moisture, controlling those prey and sealing gaps'. The damp also draws its prey, pill bugs and sow bugs. No spray, fogger or repellent: the page says no cited source names a scent or repellent that keeps them away. Alternative with page support: a clear jar ('move one with a jar, never with bare hands')."
+    },
+    "southern-house-spider": {
+      "label": "To check the eyes and leg spines",
+      "name": "Magnifying glass",
+      "search": "magnifying glass",
+      "basis": "'Why is the male mistaken for a brown recluse?': 'Up close, with the spider in a clear jar and a magnifying glass, four checks separate them' (eight eyes clumped on a turret against a recluse's six in pairs; leg spines, where 'Vetter's UC Riverside guide says thick spines rule out a recluse'; long palps; the narrow stripe). Tip 'Save the spider': 'Under a magnifying glass, eight eyes bunched on a bump rule out a brown recluse.' Same pick as brown-recluse-look-alikes and venomous-spiders. No spray, fogger or repellent: the page calls the spider harmless and beneficial and lists sealing, screens, vacuuming and a jar instead. Alternative with page support: caulk ('Seal cracks and gaps in window casings, above and below doors and where water pipes and electrical lines enter (UF)')."
+    },
+    "bugs-in-basement": {
+      "label": "To dry out the basement",
+      "name": "Dehumidifier",
+      "search": "dehumidifier for basement",
+      "basis": "Quick answer: 'EPA advises keeping indoor humidity below 60 percent, ideally 30 to 50, and the extension guides for house centipedes, camel crickets, silverfish and springtails all list drying the space among their fixes.' 'How do you keep bugs out of the basement?': 'Dry it first, then close the gaps and clear the foundation.' First step: 'Bring the humidity down. EPA advises indoor humidity below 60 percent, ideally 30 to 50, measured with a humidity meter and lowered with air conditioners or dehumidifiers when needed. Penn State recommends dehumidifiers against house centipedes and springtails'. FAQ 'Do dehumidifiers get rid of bugs?': 'They help most against the bugs that need damp air.' The page's own limits (no help against drain flies or bugs walking in through gaps) fit the label. Never a fogger or spray: FAQ 'Should I spray insecticide in my basement?' answers 'Usually not as the first step.' Same pick as camel-crickets and house-centipedes."
+    },
+    "baby-silverfish": {
+      "label": "To find their hot spots",
+      "name": "Cockroach-type sticky traps",
+      "search": "cockroach sticky traps",
+      "basis": "'What should you do about baby silverfish?': 'To find their hot spots, set cockroach sticky traps, or glass jars wrapped on the outside with masking tape, in corners and along edges, as UC IPM and NC State suggest'. Young silverfish mean a hiding place close by: 'young ones point to a hiding place nearby' (UC IPM). The page names the trap type itself, as crickets-in-house does. No insecticide: 'UC IPM says light infestations need no insecticide'. Alternatives with page support: a lighted magnifying glass for eggs ('Look for them with a flashlight and a magnifying glass', unattributed writer's advice, so less robust), sealed plastic containers for books and papers (Missouri), or a dehumidifier (UC IPM), though the page warns that drier air may not stop gray silverfish."
+    },
+    "spider-beetles": {
+      "label": "To find where they come from",
+      "name": "Sticky insect monitoring traps",
+      "search": "sticky insect monitoring traps",
+      "basis": "'How do you get rid of spider beetles?', step 6: 'Track them with sticky traps. DCPH-A suggests sticky traps along walls and next to outside doors, where the beetles walk at night, adding traps near the ones that catch the most until the infested item turns up.' FAQ 'Do spider beetles come out at night?': 'DCPH-A suggests sticky traps along walls and near outside doors, where the beetles walk at night, to find out where they are coming from.' FAQ 'Can spider beetles fly?' repeats it. The source can be the hard part: UF says 'their varied diet can make the source of an infestation difficult to locate'. Floor-level monitors for crawling insects, not yellow cards for flying ones. Never an insecticide: 'the University of Minnesota does not recommend insecticides in food cupboards'. Alternative with page support: airtight food storage containers (step 3, 'Store food sealed', University of Minnesota and DCPH-A)."
     }
   }
 }

@@ -13,5 +13,10 @@
    "note": "Oct 29: figure mining-bee-burrow-clay-aggregation added (batch 21b, CC0); caption at genus level per caveat, checked against the record",
    "previousSha": "6b54bd33bd42c027f091a1d3e8f624d1f1df2721b90c9a7a24751ed01e77dcc6"
   }
- ]
+ ],
+ "released": {
+  "on": "2026-10-29",
+  "scheduledFor": "2026-10-29",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
 }
