@@ -373,6 +373,7 @@ export default function BugsThatLookLikeTicksPage() {
           <li><strong>Movement:</strong> Spider beetles can run quickly. Ticks crawl slowly.</li>
         </ul>
         <p>Spider beetles are scavengers that feed on stored grains, dried herbs, animal fur, dead insects, and rodent droppings. They do not bite humans and do not transmit disease. Their presence usually indicates a food storage problem or accumulated debris in attic or basement spaces.</p>
+        <p>More photos, the kinds of spider beetle found in homes, where they breed and how to clear them out are in our <Link href="/blog/spider-beetles" className="text-brand-700 underline">full guide to spider beetles</Link>.</p>
 
         <h2>4. Bat Bugs</h2>
         <p>A bat bug is an insect with 6 legs and visible antennae, about 5 mm long (roughly 3/16 inch) and near-identical to a bed bug, while a tick has 8 legs, no antennae and a teardrop body. Bat bugs come down from attic bat roosts into bedrooms. Ticks arrive from outdoors on people, pets or clothing.</p>

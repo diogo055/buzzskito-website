@@ -1,0 +1,10 @@
+{
+ "id": "spider-beetles",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "8ddb5a58b9f5446c91a1e8c19ffea42abd92e9d6fbed55c4d8cb1bdf90803504",
+ "claimsChecked": 229,
+ "claimsCorrected": 5,
+ "claimsRemovedOrSoftened": 8,
+ "checkedOn": "2026-10-30"
+}
