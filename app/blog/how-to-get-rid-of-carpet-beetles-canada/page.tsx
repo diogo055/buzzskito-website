@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { withRegionalAlternates } from '@/lib/guides'
 import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
 import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -19,13 +20,13 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-carpet-beetles-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 // Carpet beetles are the #1 bed-bug misidentification, so the ID block carries as
 // much weight as the control protocol. Deliberately ONE page: no separate
 // "best carpet beetle spray" sibling — at DR 0.5 splitting this intent is harmful.
 const TITLE = 'How to Get Rid of Carpet Beetles in Canada — The Larvae Are the Pest, and the Vacuum Is the Weapon'
-// TITLE NOTE (Oct 16, 2026): was 'Get Rid of Carpet Beetles Canada: Larvae First'; top queries: carpet beetles 83, carpet beetle larvae 70, how to get rid of carpet beetles 45, carpet beetles canada 38 (0 clicks).
-const META_TITLE = 'Carpet Beetles & Larvae: Photos and Fixes'
+// TITLE NOTE (Oct 29, 2026): was 'Carpet Beetles & Larvae: Photos and Fixes' (set Oct 16; before that 'Get Rid of Carpet Beetles Canada: Larvae First'); top queries, Jul 29-Oct 26 (all countries): carpet beetles 230 at 6.3 (2 clicks), carpet beetles canada 120 at 7.5 (1), how to get rid of carpet beetles 71 at 11.9 (2). 'Larvae' dropped: 'carpet beetle larvae' belongs to /blog/carpet-beetle-larvae, signs to /blog/signs-of-carpet-beetles, bites and rash to /blog/carpet-beetle-rash; the US edition /blog/how-to-get-rid-of-carpet-beetles keeps the US searches. 'Canada' restored per data/god-build/photo-upgrade-read-2026-10-29.md (keep the place word on pages with a US twin and on Canadian Amazon pages; this page lost it on Oct 16 while getting its twin).
+const META_TITLE = 'Carpet Beetles in Canada: How to Get Rid of Them'
 
 const FAQS = [
   {
@@ -66,17 +67,29 @@ const FAQS = [
   },
   {
     question: 'Do carpet beetle pheromone traps work?',
-    answer: 'They are a monitoring tool, not a treatment, and that is the right way to buy them. A lure-baited trap tells you which room has activity, whether adults are still emerging, and whether the numbers are falling week over week — genuinely useful when the source is hidden and you are trying to narrow the search to a floor or a closet. What it will not do is thin out a population, because the larvae doing the damage never go near it. One Canadian wrinkle worth knowing: a product sold to attract insects with a pheromone can itself be a regulated pest control product here, so check the packaging for a PCP registration number. If there is none, treat what you bought as a plain glue board and set your expectations accordingly.',
+    answer: 'They are a monitoring tool, not a treatment, and that is the right way to buy them. A lure-baited trap tells you which room has activity, whether adults are still emerging, and whether the numbers are falling week over week — genuinely useful when the source is hidden and you are trying to narrow the search to a floor or a closet. What it will not do is thin out a population, because the larvae doing the damage never go near it. One Canadian wrinkle: a product used to attract a pest is itself a pest control product under the Pest Control Products Act, yet Health Canada’s registry listed no carpet beetle lure, trap or pheromone when we searched on October 29, 2026, and Health Canada says it is a violation of the Act to buy and use unregistered pesticides. A plain glue board with no lure, laid along the carpet edge, still catches wandering larvae and adults.',
   },
   {
     question: 'Should I hire a pest control company for carpet beetles?',
     answer: 'Usually no, and the money is better spent elsewhere. Carpet beetles are a housekeeping-and-source problem far more than a chemistry problem, and a recurring spray program that never locates the food source is a subscription rather than a solution. There are three genuine exceptions. First, when the source turns out to be a bird, rodent, or wasp nest inside a soffit, wall, or attic — in which case the right trade is an exclusion or wildlife contractor who can remove the nest and screen the opening, not an exterminator with a sprayer. Second, valuable textiles: a serious rug, a heritage garment, or an archive belongs with a conservator or a specialist cleaner. Third, a rental or condo where the source is inside a unit you do not control. Otherwise, a vacuum with a crevice tool and a Saturday afternoon beats any quote you will be given.',
   },
+  {
+    question: 'Are carpet beetles hard to get rid of?',
+    answer: 'Not once you find what the larvae are eating, but it takes weeks rather than a weekend. UC IPM lists larval stages of 220 to 630 days for the varied carpet beetle, 166 to 330 days for the black carpet beetle and 70 to 94 days for the furniture carpet beetle, so a hidden population can keep sending adults to the windows for a long time. The usual sources are lint, hair and dead insects, and old bird, rodent, bee and wasp nests. UC IPM says insecticides may not be necessary if the food sources are removed and the areas kept clean, and calls frequent, thorough vacuuming an effective way to remove them.',
+  },
+  {
+    question: 'Which carpet beetle products are registered in Canada?',
+    answer: 'Health Canada’s registry listed 133 current home-use products that name carpet beetles when we searched on October 29, 2026: 127 insecticides with pyrethrins, permethrin, or d-phenothrin and tetramethrin; four diatomaceous earth dusts, including Safer’s Ant & Crawling Insect Killer (PCP 32278) and Doktor Doom Be Green Premium Food Grade Diatomaceous Earth (PCP 32561); and two paradichlorobenzene moth-ball packets for sealed trunks and chests (PCP 2528 and 17055). No carpet beetle lure, trap or pheromone was registered. Whatever you buy, the label has to list carpet beetles and the place you mean to treat, and UC IPM advises against spraying clothing or bedding.',
+  },
+  {
+    question: 'How do you use diatomaceous earth for carpet beetles?',
+    answer: 'Use a registered dust whose label lists carpet beetles, and follow that label. Safer’s Ant & Crawling Insect Killer (PCP 32278) says to dust underneath and along the edges of carpeting and rugs, warns you to avoid breathing the dust, and carries a milk allergen warning. Vacuum and launder first, because the dust only kills larvae that crawl through it, then lay a thin film with a bulb duster along the carpet edge and the tack strip. Knock Down’s diatomaceous earth (PCP 32665) lists “beetles” without naming carpet beetles, so check the label of any other brand before you use it for this job.',
+  },
 ]
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
-  description: 'Carpet beetles in Canada: the larvae do all the damage, not the adults. How to tell them from bed bugs and clothes moths, and the vacuum-first plan.',
+  description: 'Carpet beetles in Canada: find what the larvae eat, vacuum the edges, freeze items at -20°C for a week, store them sealed, and which products are registered.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -102,7 +115,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             <span className="text-white">Get Rid of Carpet Beetles</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">The little round beetle on your windowsill is not eating anything. Its bristly, carrot-shaped larva is &mdash; and it is eating wool, felt, fur, hair and dead insects somewhere you have not looked yet. Find that, and the rest is a vacuum and a laundry cycle.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">To get rid of carpet beetles, find what the larvae are eating (wool, fur, feathers, hair, lint or dead insects), throw it out or treat it, then vacuum every edge and crevice every few days for several weeks. The pick below, a sealed-HEPA vacuum with a crevice tool, is for that edge work; if your vacuum already has a crevice tool and holds its seal, use it instead.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -177,7 +190,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">You cannot find them at all, but you see damage</td>
                   <td className="px-4 py-3 text-gray-700">The source is hidden. You need to narrow the search by room</td>
                   <td className="px-4 py-3 text-gray-700">Lay monitors and read the catch map for two to three weeks</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap" block>Monitors &rarr;</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap" block>Lure traps (not registered in Canada) &rarr;</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">You are not sure it is not bed bugs</td>
@@ -202,7 +215,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
                 why: 'Vacuuming removes larvae, eggs, cast skins and the lint-and-hair layer they eat in one pass — more than any spray does. A sealed HEPA machine matters mainly because carpet beetle work means vacuuming fine debris and shed bristly hairs out of edges, and a leaky vacuum puts that back into the room air. Buy only if yours has no crevice tool or blows dust: an ordinary vacuum used properly on the edges beats a premium one used on the middle of the floor.',
                 search: 'sealed hepa vacuum crevice tool',
                 featured: true,
-                pros: ['Removes every life stage plus the food source at once', 'No chemistry, no label restrictions, safe around children and pets', 'Doubles for dust mites, fleas and general allergen control'],
+                pros: ['Removes every life stage plus the food source at once', 'No chemistry and no pesticide label to follow', 'Doubles for dust mites, fleas and general allergen control'],
                 cons: ['Only reaches what you point it at — technique is the whole game', 'Useless if you never empty it outside'],
               },
               {
@@ -210,13 +223,13 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
                 name: 'Airtight Storage Totes and Zippered Garment Bags',
                 why: 'This is the buy that stops the relapse. Carpet beetle larvae cannot start on wool, silk, fur or feather that is clean and sealed away from them, and cardboard boxes and open closet shelving are exactly where a slow, quiet infestation restarts each year. Clean the item first — an unwashed garment sealed with its own eggs and body oils is a sealed feeding chamber.',
                 search: 'airtight storage tote gasket lid',
-                pros: ['Ends the annual relapse rather than treating it', 'One-time purchase, no chemistry, no re-application', 'Also protects against clothes moths and humidity damage'],
+                pros: ['Ends the annual relapse rather than treating it', 'One-time purchase, no chemistry, no re-application', 'Also protects against humidity damage'],
                 cons: ['Only works if the contents are cleaned before sealing', 'Bulky, and cheap lids warp and stop sealing'],
               },
               {
                 badge: 'Best for Finding the Source',
-                name: 'Carpet Beetle Monitors (Lure-Baited or Plain Glue Boards)',
-                why: 'Instrumentation, not control. When the food source is hidden inside a wall, an attic, or a closet nobody has emptied in a decade, a line of dated monitors narrows the hunt to a room and tells you whether adults are still emerging. Check the packaging for a PCP registration number — a lure-baited insect trap can be a regulated product in Canada — and if there is no number, treat it as a plain glue board.',
+                name: 'Carpet Beetle Pheromone Traps (Not Registered in Canada)',
+                why: 'Instrumentation, not control. When the food source is hidden inside a wall, an attic, or a closet nobody has emptied in a decade, a line of dated monitors narrows the hunt to a room and tells you whether adults are still emerging. But a lure that attracts a pest is a pest control product under the Pest Control Products Act, Health Canada’s registry listed no carpet beetle lure, trap or pheromone on October 29, 2026, and Health Canada says it is a violation of the Act to buy and use unregistered pesticides. Check any package for a PCP number; a plain glue board with no lure, laid along the carpet edge, still catches wandering larvae and adults.',
                 search: 'carpet beetle pheromone trap',
                 pros: ['Turns a whole-house search into a one-room search', 'Shows whether numbers are actually falling', 'Cheap enough to lay a dozen across the house'],
                 cons: ['Catches adults; the damaging larvae ignore it', 'Measures the problem, does not reduce it'],
@@ -224,9 +237,9 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
               {
                 badge: 'Best Crack and Crevice',
                 name: 'Safer’s Diatomaceous Earth + Bulb Duster',
-                why: 'For the carpet edge, the tack strip, and the void behind a baseboard that a vacuum nozzle cannot physically enter. Registered insecticidal diatomaceous earth kills mechanically by abrading and absorbing the waxy layer that holds an insect’s moisture in, so nothing develops resistance to it and the powder does not expire. Buy the duster with it — a barely visible film is what works, and you cannot lay one from the bag. Read the label’s pest list and use sites before you apply it.',
+                why: 'For the carpet edge, the tack strip, and the void behind a baseboard that a vacuum nozzle cannot physically enter. Registered insecticidal diatomaceous earth kills mechanically by abrading and absorbing the waxy layer that holds an insect’s moisture in, and Safer’s label says it stays effective for as long as the powder is present. Buy the duster with it — a barely visible film is what works, and you cannot lay one from the bag. Read the label’s pest list and use sites before you apply it.',
                 search: 'safers insect killing diatomaceous earth',
-                pros: ['PMRA-registered — the PCP number is printed on the bag', 'Reaches the void spaces a vacuum cannot', 'Mechanical kill, so no resistance can develop'],
+                pros: ['Safer’s Ant & Crawling Insect Killer is registered (PCP 32278): look for that number', 'Reaches the void spaces a vacuum cannot', 'Mechanical kill, effective as long as the powder is present (label)'],
                 cons: ['Goes inert once damp', 'A supporting move only — it finds nothing and removes no food source'],
               },
               {
@@ -240,7 +253,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Buying only one thing?</strong> The <em>Does Most of the Work</em> vacuum &mdash; and if yours already has a crevice tool and holds its seal, buy nothing and use it properly instead. Our <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum comparison</Link> covers what &ldquo;sealed&rdquo; actually means on a spec sheet. <strong>Damage in stored clothing?</strong> Go straight to <em>Best Prevention</em> &mdash; clean, then seal, or the next season repeats. <strong>Cannot find where they are coming from?</strong> The <em>Best for Finding the Source</em> monitors will narrow it to a room in a fortnight. <strong>Larvae emerging from the carpet edge?</strong> Add <em>Best Crack and Crevice</em> DE, with technique detail in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>. <strong>A wool rug you cannot wash?</strong> <em>Best for Rugs and Upholstery</em> steam is the only thing on this list that reaches into pile.
+                <strong>Buying only one thing?</strong> The <em>Does Most of the Work</em> vacuum &mdash; and if yours already has a crevice tool and holds its seal, buy nothing and use it properly instead. Our <Link href="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada">sealed-HEPA vacuum comparison</Link> covers what &ldquo;sealed&rdquo; actually means on a spec sheet. <strong>Damage in stored clothing?</strong> Go straight to <em>Best Prevention</em> &mdash; clean, then seal, or the next season repeats. <strong>Cannot find where they are coming from?</strong> The <em>Best for Finding the Source</em> monitors will narrow it to a room in a fortnight, but no carpet beetle lure trap is registered in Canada; a plain glue board with no lure, laid along the carpet edge, still catches wandering larvae and adults. <strong>Larvae emerging from the carpet edge?</strong> Add <em>Best Crack and Crevice</em> DE, with technique detail in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>. <strong>A wool rug you cannot wash?</strong> <em>Best for Rugs and Upholstery</em> steam is the only thing on this list that reaches into pile.
               </>
             }
           />
@@ -306,6 +319,11 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             id="carpet-beetle-larva"
             alt="Carpet beetle larva on a pale surface: a banded brown body covered in long bristles"
             caption="A carpet beetle larva (genus Anthrenus). Look for the banded brown body covered in bristles, with a tuft of longer hairs at one end."
+          />
+          <Photo
+            id="black-carpet-beetle"
+            alt="Adult black carpet beetle seen from above on a paper towel: a small, solid dark, oval beetle"
+            caption="An adult black carpet beetle, Attagenus unicolor, on a paper towel indoors (Campbell County, Wyoming). Not every carpet beetle is mottled: this one is solid dark and oval."
           />
           <Photo
             id="bed-bug-adult-ruler"
@@ -375,10 +393,25 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="sealed hepa vacuum crevice tool">Vacuum + crevice tool &rarr;</BuyLink>
             <BuyLink tag={AMZ_TAG} search="airtight storage tote gasket lid">Sealed storage &rarr;</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap">Monitors &rarr;</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="carpet beetle pheromone trap">Lure traps (not registered in Canada) &rarr;</BuyLink>
           </div>
 
           <NextUp path="/blog/how-to-get-rid-of-carpet-beetles-canada" />
+          <QuickIdTable
+            title="Carpet beetle treatments in Canada, on the record"
+            head={['Treatment', 'How it works', 'What the source says', 'Limits']}
+            rows={[
+              ['Vacuuming', 'Removes larvae, eggs, cast skins and the lint and hair they eat', 'UC IPM: frequent, thorough vacuuming is an effective way of removing food sources; dispose of the bag promptly, because it can contain eggs, larvae or adults', 'Reaches only where the nozzle goes'],
+              ['Hot wash or dry cleaning', 'Heat or solvent through the item', 'UC IPM: laundering washable items in hot water or dry cleaning them kills all stages', 'Only what the care label allows'],
+              ['Freezing', 'Cold through the item', 'Canadian Conservation Institute: −20°C for one week; household deep freezers at −20 to −25°C can be very effective; seal the item in a polyethylene bag first, then allow a day for it to warm up', 'Not for paintings on canvas; freeze again if live insects turn up'],
+              ['Airtight storage', 'Keeps clean wool, fur and feathers away from larvae', 'UC IPM: store them in an airtight container; a garment bag, cabinet or chest sold to protect clothing from pests is a regulated device (Regulations, Schedule 1, item 1), and the registry lists none registered against carpet beetles or clothes moths', 'Clean every item before it goes in'],
+              ['Diatomaceous earth dust', 'Dries out larvae that crawl through it', 'Safer’s Ant & Crawling Insect Killer (PCP 32278): dust underneath and along edges of carpeting and rugs; Doktor Doom Be Green DE (32561) also lists carpet beetles', 'Avoid breathing the dust; Safer’s contains milk (allergen); Knock Down’s DE (32665) lists only “beetles”'],
+              ['Insect sprays that list carpet beetles', 'Kill the larvae they contact', 'Registry, October 29, 2026: 127 current home-use pyrethrin, permethrin or d-phenothrin products name carpet beetles; UC IPM: insecticides may not be necessary if food sources are removed', 'UC IPM: do not spray clothing or bedding; use only on the sites the label lists'],
+              ['Moth balls', 'Vapour builds up in a closed container', 'Solvable Moth Ball Packets (PCP 2528, paradichlorobenzene) list carpet beetles: airtight trunk or chest, joints and holes sealed with tape', 'Label: harmful or fatal if swallowed; keep out of reach of children; indoor use only'],
+              ['Pheromone traps', 'Lure adult beetles onto a sticky card', 'An attractant is a pest control product under the Act, and a device sold to attract flying insects is regulated (Schedule 1, item 2); the registry lists no carpet beetle lure, trap or pheromone', 'Health Canada: buying and using unregistered pesticides is a violation of the Act'],
+            ]}
+            caption={<>From UC IPM, <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7436.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: Carpet Beetles</a> (April 2020); the Canadian Conservation Institute, <a href="https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/controlling-insects-low-temperature.html" target="_blank" rel="noopener noreferrer" className="underline">Controlling Insect Pests with Low Temperature</a>; the Canadian labels for PCP 32278 and 2528; Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide product registry</a>, searched October 29, 2026; the <a href="https://laws-lois.justice.gc.ca/eng/acts/P-9.01/page-1.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Act</a>, s. 2, and its <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/FullText.html" target="_blank" rel="noopener noreferrer" className="underline">Regulations</a>, Schedule 1; and Health Canada, <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html" target="_blank" rel="noopener noreferrer" className="underline">Buying pest control products online</a>.</>}
+          />
           <h2>Step 1 &mdash; Find the Keratin. This Is the Whole Job.</h2>
           <p>Carpet beetle larvae eat keratin and other animal-derived material. That is a much wider menu than the name suggests, and the carpet is often the least of it. Work through this list in the rooms where you have seen adults, in roughly this order, because the top three account for most of the hidden sources in Canadian homes:</p>
           <ul>
@@ -389,6 +422,11 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             <li><strong>Stored animal protein.</strong> Dried pet food, birdseed, and dried goods left in an opened bag rather than a sealed container.</li>
             <li><strong>Leather and leather-bound books</strong> in a basement or a rarely opened bookcase.</li>
           </ul>
+          <Photo
+            id="carpet-beetle-skins-frass"
+            alt="Dozens of shed, banded carpet beetle larval skins with heaps of powdery brown droppings and a few small adult beetles"
+            caption="Dozens of shed larval skins, heaps of powdery droppings (frass) and a few adults of the varied carpet beetle, Anthrenus verbasci, from a dried fence lizard specimen the larvae ate (Coeur d'Alene, Idaho). Skins and frass like these mark the food source."
+          />
           <p>Notice what is not on the list: clean synthetic carpet. Polyester and nylon are not food. Larvae do feed on synthetics that are soiled with sweat, body oils, or food residue, which is why the damage in a modern Canadian house is so often on the one wool item, or on a synthetic rug in the spot where the dog sleeps.</p>
 
           <h2>Step 2 &mdash; Vacuum Like You Mean It</h2>
@@ -402,6 +440,11 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
 
           <h2>Step 3 &mdash; Heat, Freeze, or Dry-Clean What You Are Keeping</h2>
           <p>Every item you want to save needs one treatment that kills every life stage inside it, and you have four to choose from depending on what the item tolerates.</p>
+          <Photo
+            id="carpet-beetle-larva-knit-fabric"
+            alt="Small banded, bristly carpet beetle larva on pale blue knitted fabric"
+            caption="A varied carpet beetle larva, Anthrenus verbasci, on blue knitted fabric in a house (Maryland). Knitwear like this is what the hot wash, the dry cleaner or the freezer is for."
+          />
           <p><strong>Hot wash and hot dry</strong> handles washable wool blends, blankets, linens and anything the care label permits. The tumble dryer is doing at least as much of the work as the wash. <strong>Dry cleaning</strong> kills every stage on a garment that cannot be washed, and is the low-risk answer for tailoring and delicate wool. <strong>Sustained deep freezing</strong> is the free option for items that fit in a freezer: seal them in a bag, press the air out, and leave them for a solid run of days rather than overnight &mdash; the cold has to reach the middle of a folded garment and stay there, and a brief chill kills nothing reliably. <strong>Steam</strong> is the answer for a wool rug, a stair runner or an upholstered chair, worked slowly enough to penetrate rather than skim, tested on a hidden corner first, and dried fully afterward.</p>
           <p>If an item is heavily infested, badly damaged and not valuable, the honest answer is to bag it and bin it rather than spend a weekend and a dry-cleaning bill saving a rug you did not like. A carpet beetle guide that never says that is selling you something.</p>
           <p>Of those four routes, the one most households do not already own equipment for is <strong>steam</strong> &mdash; and it is the route that covers the things you cannot put in a machine: the wool area rug, the stair runner, the upholstered chair frame, the closet floor edge. A handheld garment steamer is enough for upholstery and runners; a floor steam cleaner earns its keep only if you have wall-to-wall wool. The technique is the same either way and it is not intuitive: move slowly, in overlapping passes, so the heat has time to go <em>into</em> the pile rather than across it, test a hidden corner for colourfastness first, and open a window so the item dries fully afterwards rather than staying damp. <BuyLink tag={AMZ_TAG} search="handheld fabric steamer upholstery">check handheld fabric steamers on Amazon.ca &rarr;</BuyLink></p>
@@ -419,7 +462,7 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
           <p>Chemistry has a narrow supporting role here, and Canadian rules narrow it further. Any product sold or used as an insecticide in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a <strong>PCP registration number</strong> on the label. That label is legally binding: the pests it lists and the surfaces and use sites it names are what you may legally treat, and a product that is registered for crawling insects in cracks and crevices is not automatically registered for spraying over a rug you walk on.</p>
           <p>Within those limits, the two things worth considering are:</p>
           <ul>
-            <li><strong>Registered insecticidal diatomaceous earth</strong> &mdash; Safer&rsquo;s Diatomaceous Earth is the one most widely stocked in Canada, with Knock Down and Doktor Doom Be Green as registered alternatives. It kills mechanically, by abrading and absorbing the waxy layer that holds an insect&rsquo;s moisture in, which means no resistance can develop and the powder does not expire. Its place in a carpet beetle job is the void: the gap behind a baseboard, the space under a tack strip, a crawl space edge. Buy a bulb duster with it, because a barely visible film is what works and a visible pile gets walked around. Check the label&rsquo;s pest list and use sites before you apply it &mdash; the mechanism being right does not make the application legal. Full grade and technique detail is in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">Canadian diatomaceous earth buyer&rsquo;s guide</Link>.</li>
+            <li><strong>Registered insecticidal diatomaceous earth</strong> &mdash; Safer&rsquo;s Ant &amp; Crawling Insect Killer (PCP 32278), a diatomaceous earth dust, has carpet beetle directions on its Canadian label: dust underneath and along the edges of carpeting and rugs. Doktor Doom Be Green Premium Food Grade Diatomaceous Earth (PCP 32561) also lists carpet beetles; Knock Down&rsquo;s DE (PCP 32665) lists only &ldquo;beetles&rdquo;. It kills mechanically, by abrading and absorbing the waxy layer that holds an insect&rsquo;s moisture in, and Safer&rsquo;s label says it stays effective for as long as the powder is present. Its place in a carpet beetle job is the void: the gap behind a baseboard, the space under a tack strip, a crawl space edge. Buy a bulb duster with it, because a barely visible film is what works and a visible pile gets walked around. Check the label&rsquo;s pest list and use sites before you apply it &mdash; the mechanism being right does not make the application legal. Full grade and technique detail is in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">Canadian diatomaceous earth buyer&rsquo;s guide</Link>.</li>
             <li><strong>A registered crack-and-crevice residual</strong>, applied along carpet edges and baseboards <em>after</em> the vacuuming and laundering &mdash; and only if the Canadian label names carpet beetles and the surface you intend to treat. This is a mop-up for the gaps a nozzle cannot enter, not a substitute for finding the food source.</li>
           </ul>
           <p>Two products deserve a specific warning. <strong>Total-release foggers</strong> are close to worthless for carpet beetles: the fog settles on exposed horizontal surfaces, while the larvae are inside carpet pile, under the underpad, in closet corners and inside wall voids. You get the residue and none of the result. And <strong>mothballs</strong> are a pesticide in Canada, not a deodoriser &mdash; the registered products are labelled for use inside sealed containers where the vapour is contained, and scattering them loose in a closet, drawer, attic, or under a bed is both ineffective and a straightforward label violation, with a genuine inhalation exposure for the household. Cedar blocks and cedar chests sell on aroma; do not put one in place of cleaning and sealing.</p>
@@ -444,6 +487,18 @@ export default function HowToGetRidOfCarpetBeetlesCanadaPage() {
             <li><strong>A whole bed bug kit,</strong> bought because the larval bristles caused itchy bumps. Identify the insect before you spend the money.</li>
             <li><strong>A replacement rug,</strong> bought before you have found the source. The new rug is going into the same room as the old one.</li>
           </ul>
+
+          <h2>Canadian Carpet Beetle Checklist</h2>
+          <ol>
+            <li><strong>Find the food source first:</strong> wool, fur, feathers, lint, hair, dead insects or an old nest.</li>
+            <li><strong>Vacuum with a crevice tool,</strong> then get the bag or canister contents out of the house promptly, as UC IPM advises.</li>
+            <li><strong>Hot wash or dry-clean</strong> what the care label allows; UC IPM says either kills all stages.</li>
+            <li><strong>Freeze the rest at &minus;20&deg;C for a week,</strong> sealed in a polyethylene bag (Canadian Conservation Institute).</li>
+            <li><strong>Store clean items airtight</strong> in plain totes or bags; a bag or chest sold as moth or beetle protection is a regulated device, and none is registered in Canada.</li>
+            <li><strong>A PCP number for any dust or spray,</strong> with carpet beetles and your site on the label; never spray clothing or bedding (UC IPM).</li>
+            <li><strong>Moth balls only in an airtight trunk or chest,</strong> joints taped, out of children&rsquo;s reach, as the Solvable label directs.</li>
+            <li><strong>No lure trap:</strong> no carpet beetle lure or pheromone is registered in Canada.</li>
+          </ol>
 
           <h2>When to Stop Buying and Call Someone &mdash; and Which Trade</h2>
           <p>Carpet beetles are one of the more genuinely DIY-solvable household pests, because the fix is finding an object rather than deploying a chemical. BuzzSkito treats mosquitoes and ticks and does not sell carpet beetle service, so there is nothing to be gained here by pretending otherwise: for most Canadian households, a vacuum with a crevice tool, a laundry weekend and a set of sealed totes ends it, and a recurring spray program that never locates the source is a subscription.</p>

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { withRegionalAlternates } from '@/lib/guides'
 import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
 import { shareImage } from '@/lib/photos'
 import BuyLink from '@/components/BuyLink'
 import AffiliateDisclosure from '@/components/AffiliateDisclosure'
@@ -19,13 +20,13 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'how-to-get-rid-of-centipedes-canada'
 const DATE = '2026-07-27'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 // H1 keeps the long descriptive form. SERP title is trimmed to 44 chars so it
 // survives Google's ~60-char cap once the " | BuzzSkito" template (12 chars) is
 // appended. Head terms: "centipede" (18K/mo CA) + "house centipede" (12K/mo CA).
 const TITLE = 'How to Get Rid of House Centipedes in Canada — Kill the Prey, Not the Predator'
-// TITLE NOTE (Oct 16, 2026): was 'Get Rid of House Centipedes in Canada (2026)'; top queries: how to get rid of house centipedes 416 (10 clicks), house centipede canada 258, centipedes in house 155.
-const META_TITLE = 'Get Rid of House Centipedes in Canada (Photos)'
+// TITLE NOTE (Oct 29, 2026): was 'Get Rid of House Centipedes in Canada (Photos)' (set Oct 16; before that 'Get Rid of House Centipedes in Canada (2026)'); top queries, Jul 29-Oct 26 (all countries): how to get rid of house centipedes 1,083 at 5.1 (19 clicks), how to get rid of centipedes in house 395 at 4.4 (6), house centipede how to get rid of 263 at 5.2 (4), how to get rid of centipedes in basement 171 at 5.5. Canadian edition of the regional pair: '/blog/house-centipedes' (US guide, 'House Centipede: Bites, ID and Control (Photos)') keeps 'house centipede'; product searches stay with /blog/best-centipede-killer-canada. Photo read (data/god-build/photo-upgrade-read-2026-10-29.md): '(Photos)' showed no web effect (head query click-through 4.0% -> 2.3%); 'Canada' kept (US twin, Canadian Amazon page).
+const META_TITLE = 'How to Get Rid of House Centipedes in Canada'
 
 const FAQS = [
   {
@@ -46,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'What humidity level do house centipedes need?',
-    answer: 'They need consistently damp harbourage, which in practice means anywhere holding above roughly 60% relative humidity — damp basements, crawl spaces, under bathroom vanities, behind laundry tubs, inside sump pits, under mulch and landscape timbers outdoors. The practical control target for a Canadian home is 45–50% RH in summer, verified with an inexpensive hygrometer placed away from the dehumidifier itself. That sits at the upper end of the 30–50% summer indoor range Health Canada publishes in its residential indoor air quality guidance on mould, so the same machine that evicts centipedes is doing several other jobs at the same time. Below 50% RH, both the centipedes and most of their prey run out of habitat.',
+    answer: 'They need consistently damp harbourage, which in practice means anywhere holding above roughly 60% relative humidity — damp basements, crawl spaces, under bathroom vanities, behind laundry tubs, inside sump pits, under mulch and landscape timbers outdoors. The practical control target for a Canadian home is 45–50% RH in summer, verified with an inexpensive hygrometer placed away from the dehumidifier itself. That sits at the upper end of the 30–50% range Health Canada recommends on its page about mould, so the same machine that evicts centipedes is doing several other jobs at the same time. Below 50% RH, both the centipedes and most of their prey run out of habitat.',
   },
   {
     question: 'Does bug spray kill house centipedes?',
@@ -70,7 +71,7 @@ const FAQS = [
   },
   {
     question: 'Are US centipede sprays legal to use in Canada?',
-    answer: 'Not necessarily, and the label is the test. Under the Pest Control Products Act, conventional insecticides sold or used in Canada must be registered with Health Canada’s Pest Management Regulatory Agency (PMRA) and carry a Canadian PCP registration number on the label. (A narrow list of minimum-risk products — mostly certain essential-oil formulations — is exempt from registration and sells here legally without a PCP number; that exemption is about paperwork, not about whether the product works.) A great many of the perimeter and "home defense" insecticides that dominate American centipede advice are US EPA-registered products with no Canadian counterpart, and marketplace listings routinely blur that line for Canadian buyers. Before buying any conventional insecticide online, zoom the label photo and look for a PCP registration number; if there is not one, you have no Canadian directions standing behind how you use it. In practice you do not need it — a dehumidifier, glue boards, and an afternoon of sealing do more here than any of it, because they take away the damp harbourage and the prey rather than treating a surface the centipede barely touches.',
+    answer: 'Not necessarily, and the label is the test. Under the Pest Control Products Act, insecticides sold or used in Canada must be registered with Health Canada’s Pest Management Regulatory Agency (PMRA) and carry a Canadian PCP registration number on the label. (Canada has no exemption like the US one for minimum-risk pesticides: the EPA exempts those from federal registration, but Canada’s Pest Control Products Regulations list no such category, so an essential-oil insecticide sold here needs a PCP number too.) A great many of the perimeter and "home defense" insecticides that dominate American centipede advice are US EPA-registered products with no Canadian counterpart, and marketplace listings routinely blur that line for Canadian buyers. Before buying any insecticide online, zoom the label photo and look for a PCP registration number; if there is not one, you have no Canadian directions standing behind how you use it. In practice you do not need it — a dehumidifier, glue boards, and an afternoon of sealing do more here than any of it, because they take away the damp harbourage and the prey rather than treating a surface the centipede barely touches.',
   },
   {
     question: 'How long do house centipedes live?',
@@ -84,12 +85,20 @@ const FAQS = [
     question: 'Should I kill house centipedes or leave them alone?',
     answer: 'If you can tolerate them, leaving them is genuinely the better pest-control decision — they are harmless, they eat insects that are not harmless, and one or two in a basement is a sign the house is doing its own housekeeping. The honest answer for most households, though, is that nobody wants to share a bathroom with one, and that is a legitimate reason to act. The distinction that matters: act on the environment, not on the animal. Dehumidify, seal, and eliminate the prey and the centipedes leave permanently. Squash the ones you see and you keep the damp void, keep the insects, and keep meeting new centipedes.',
   },
+  {
+    question: 'How do I get rid of centipedes in my basement?',
+    answer: 'Dry it out first. Health Canada says house centipedes come in when basements, drains and bathrooms are overly damp, and its advice includes a dehumidifier or a small electric fan for damp basement areas, plus repairing cracks in foundation walls and around windows before fall, when they move indoors. Its page about mould gives 30% to 50% as the indoor humidity range to keep. Then lay glue boards along the walls for a week to see what they are eating, and deal with that pest too. If you add a product, use one whose label lists centipedes, such as Safer’s Ant & Crawling Insect Killer (PCP 32278), a diatomaceous earth dust.',
+  },
+  {
+    question: 'What house centipede treatments are registered in Canada?',
+    answer: 'Health Canada’s registry listed 68 current home-use products that name centipedes when we searched on October 29, 2026. Most are insecticides with pyrethrins or with d-phenothrin and tetramethrin; ten contain diatomaceous earth, such as Safer’s Ant & Crawling Insect Killer (PCP 32278); and two indoor Raid products add the residual pyrethroid cyfluthrin (PCP 30355 and 30640). No bifenthrin or lambda-cyhalothrin product is registered for home use, and no ultrasonic repeller is registered against centipedes. Health Canada suggests a registered domestic product only if other efforts fail, after the moisture and the debris around the foundation have been dealt with.',
+  },
 ]
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description:
-    'How to get rid of house centipedes in Canada: they are harmless predators, so the real fix is drying the basement to 45-50% RH and killing their prey.',
+    'How to get rid of house centipedes in Canada: dry the basement to 45–50% humidity, cut off their insect prey, seal cracks, and which dusts list centipedes.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -115,7 +124,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             <span className="text-white">Get Rid of House Centipedes</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">House centipedes are harmless predators that eat the pests you actually have a problem with. That makes them the most useful pest in your house &mdash; and the one worth reading about before you reach for a spray can.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">To get rid of house centipedes, dry out the damp places they live, take away the insects they eat, and seal the gaps they walk in through; Health Canada&rsquo;s own advice for damp basement areas is a dehumidifier or a small fan. The pick below, a 50-pint-class Energy Star dehumidifier, is for a damp basement: hold it at 45&ndash;50% humidity and check the reading with a separate hygrometer.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -136,7 +145,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
               <li>The one purchase that ends it is a properly sized <strong>dehumidifier</strong> held at 45&ndash;50% RH &mdash; not an insecticide.</li>
               <li><strong>Residual sprays underperform</strong>: fifteen pairs of long legs hold the body clear of the treated band, and the harbourage is in voids.</li>
               <li>Repeated <strong>bathtub finds</strong> mean the bathroom is running humid &mdash; they fall in and cannot climb the glaze.</li>
-              <li>Conventional insecticides sold in Canada must carry a <strong>PCP registration number</strong> &mdash; many US &ldquo;home defense&rdquo; products do not.</li>
+              <li>Insecticides sold in Canada, essential-oil ones included, must carry a <strong>PCP registration number</strong> &mdash; many US &ldquo;home defense&rdquo; products do not.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
           </div>
@@ -186,7 +195,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
                 name: 'Flat Insect Glue Boards (Multi-Pack)',
                 why: 'The simplest way to find out what is actually living in your basement. Centipedes hunt along wall-floor junctions, so boards catch them — but the silverfish, roach nymphs, ants and larvae on the same board are the real report.',
                 search: 'insect glue board traps multi pack',
-                pros: ['Tells you what the centipedes have been eating', 'Gives a weekly trend line instead of guesswork', 'No pesticide — fine in kids-and-pets homes'],
+                pros: ['Tells you what the centipedes have been eating', 'Gives a weekly trend line instead of guesswork', 'No pesticide — nothing to spray or dust'],
                 cons: ['A monitor, not a cure', 'Boards die in dust and damp — replace them'],
               },
               {
@@ -260,7 +269,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Diatomaceous earth<br /><span className="font-normal text-xs text-gray-500">Thin dust in dry cracks</span></td>
                   <td className="px-4 py-3 text-gray-700">Abrades the cuticle of anything that walks through it &mdash; while it stays dry</td>
-                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; inert once damp, so sequence it after the dehumidifier; buy a registered insecticidal DE with a PCP number, not food-grade</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; inert once damp, so sequence it after the dehumidifier; buy a DE whose label shows a PCP number and lists centipedes, such as Safer&rsquo;s 32278 (&ldquo;food grade&rdquo; is not the test)</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
@@ -312,7 +321,7 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
                   ['Where to start', 'Glue boards for a week to read the prey population; the dehumidifier is the purchase that fixes it'],
                   ['Why spray fails', 'Long legs hold the body off the residue band; harbourage and prey are untouched'],
                   ['Bathtub finds', 'They fall in and cannot climb glaze — a sign the bathroom is running humid'],
-                  ['Canadian legal check', 'Conventional insecticides sold here need a PCP registration number on the label'],
+                  ['Canadian legal check', 'Insecticides sold here, essential-oil ones included, need a PCP registration number on the label'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -344,6 +353,22 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           </div>
 
           <NextUp path="/blog/how-to-get-rid-of-centipedes-canada" />
+          <QuickIdTable
+            title="House centipede controls in Canada, on the record"
+            head={['Control', 'What it does', 'What the Canadian record says', 'Limits']}
+            rows={[
+              ['Dehumidifier or fan, checked with a hygrometer', 'Dries the damp air centipedes need', 'Health Canada: use a dehumidifier or small electric fan to dry damp areas of the basement, and keep indoor humidity between 30% and 50%; a hygrometer is an inexpensive tool sold at most hardware stores', 'Health Canada (same page): a persistent indoor infestation of millipedes, sowbugs or pillbugs may indicate a serious moisture problem'],
+              ['Outdoor clean-up and grading', 'Removes damp hiding places at the foundation', 'Health Canada: slope the ground away from the house, remove leaf litter and decaying plants, move stones, boards and boxes away, use coarse mulch, let soil dry between waterings', 'Works on the outdoor source, not the centipedes already inside'],
+              ['Sealing cracks', 'Closes the ground-level way in', 'Health Canada: repair cracks in foundation walls and around windows before fall, when centipedes move indoors', 'Leave brick weep holes open; screen them instead'],
+              ['Diatomaceous earth dust with a PCP number', 'Dries out arthropods that crawl through it', 'Safer’s Ant & Crawling Insect Killer (PCP 32278) lists centipedes: 50 g per 10 m² in cracks, crevices and basements; Health Canada names diatomaceous earth for cracks and crevices', 'Works only while dry; avoid breathing the dust; Knock Down’s DE (32665) does not list centipedes'],
+              ['Insect spray that lists centipedes', 'Kills the centipedes it reaches', 'Registry, October 29, 2026: 68 current home-use products name centipedes; two indoor Raid products add the residual pyrethroid cyfluthrin (PCP 30355, 30640)', 'Health Canada: a registered domestic product only if other efforts fail'],
+              ['Bifenthrin perimeter spray', 'Leaves a residual band outdoors', 'Registry: no bifenthrin or lambda-cyhalothrin product is registered for home use in Canada', 'Not available to Canadian homeowners'],
+              ['Glue boards', 'Catch centipedes and show what they eat', 'A plain glue board is not one of the devices the Pest Control Products Regulations require to be registered', 'A monitor, not a cure'],
+              ['Ultrasonic repeller', 'Sound meant to drive pests away', 'A regulated device in Canada (Regulations, Schedule 1, item 3); every current registered ultrasonic repeller lists only mice and rats', 'None is registered against centipedes'],
+              ['Essential-oil spray', 'Scent', 'The Regulations have no exemption for essential-oil or “minimum-risk” insecticides, so they need a PCP number too; Health Canada: buying and using unregistered pesticides is a violation of the Act', 'A scent does not dry out a damp wall void'],
+            ]}
+            caption={<>From Health Canada, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/centipedes-millipedes-sowbugs-pillbugs.html" target="_blank" rel="noopener noreferrer" className="underline">Centipedes, millipedes, sowbugs and pillbugs</a> and <a href="https://www.canada.ca/en/health-canada/services/air-quality/indoor-air-contaminants/reduce-humidity-moisture-mould.html" target="_blank" rel="noopener noreferrer" className="underline">Mould</a> and <a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html" target="_blank" rel="noopener noreferrer" className="underline">Buying pest control products online</a>; the Safer&rsquo;s label (PCP 32278, May 21, 2025); Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide product registry</a>, searched October 29, 2026; and the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/FullText.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Regulations</a>, sections 3 and 4 and Schedules 1 and 2.</>}
+          />
           <h2>Identification: Is It Actually a House Centipede?</h2>
           <p>Almost every centipede a Canadian homeowner meets indoors is <em>Scutigera coleoptrata</em>, the house centipede. It is unmistakable once you know it: a flattened, yellowish-grey body about 25 to 35 mm long with three dark stripes running its length, fifteen pairs of extremely long, delicate, banded legs, and antennae and rear legs so long that the animal appears several times bigger than it is. It moves in fast, jerky bursts across walls and ceilings, freezes, then bolts again. If it startled you badly enough that you are now reading a website about it at midnight, it was almost certainly a house centipede.</p>
           <Photo
@@ -379,11 +404,16 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <h2>Why Basements and Bathrooms — the Moisture Mechanism</h2>
           <p>House centipedes lack the waxy, water-retaining outer layer that lets a beetle or an ant cross a dry floor without consequence. They lose water through the cuticle quickly, which means an individual caught in dry air is on a clock. Everything about their behaviour follows from that constraint: they hunt at night when humidity is highest and evaporation lowest, they shelter in damp voids by day, and they cannot establish anywhere that stays genuinely dry.</p>
           <p>Which is why a damp Canadian basement is close to ideal centipede habitat. Foundation walls stay cool year-round; when warm, humid July and August air meets them, moisture condenses and basement relative humidity drifts into the 60&ndash;80% range. Add the usual suspects &mdash; a sump pit with an open lid evaporating into the room, a laundry tub with a weeping trap, a dryer vented poorly, a cold-water line sweating, a floor drain whose trap dried out, boxes stacked on a slab that wicks &mdash; and you have a permanently humid microclimate with plenty of harbourage. Bathrooms are the upstairs version of the same story: an exhaust fan that is not used, or one that vents into an attic instead of outdoors, keeps the room humid enough to hold a small population indefinitely.</p>
+          <Photo
+            id="house-centipede-on-wall"
+            alt="House centipede on a pale wall, its striped body ringed by long, thin legs and two very long antennae"
+            caption="An adult house centipede, Scutigera coleoptrata, on a wall (Sandusky, Ohio). Look for the striped body and the long legs and antennae fanned out on both sides."
+          />
           <p>This is also why the bathtub finding is such a good diagnostic. Centipedes do not come up drains &mdash; a functioning P-trap holds water, and there is nothing for them down there. They fall into tubs and sinks while hunting the humid floor and vanity void at night, and then cannot climb the glazed surface, which is slick to claws that grip drywall and concrete perfectly well. Repeated tub finds mean the room is humid. That is the whole message.</p>
 
           <h2>Step 1 — The Dehumidifier, and How to Size It Without Guessing</h2>
           <p>If you buy one thing from this page, buy this, and understand why: it is the only item that changes the condition the animal requires. There is no adaptation available to a house centipede that lets it live in dry air, no resistance to develop, and no hidden void that ambient humidity does not eventually reach. Hold the basement at 45&ndash;50% RH through the summer and the centipedes leave, along with a good share of what they were hunting.</p>
-          <p><strong>Sizing, with the one detail that trips Canadians up.</strong> Dehumidifier capacity is quoted in pints per day, and the rating standard changed in 2019 &mdash; capacities are now measured under cooler test conditions, so a modern 50-pint machine corresponds roughly to what used to be sold as a 70-pint. If you are comparing an old model in your garage against a new listing, or reading an American guide written before the change, the numbers do not line up. For a typical damp full basement in the GTA, the 50-pint class (modern rating) is the safe default; a small, only-slightly-damp finished area can do with less; a large, wet, or open-plan basement wants more capacity rather than a smaller unit running around the clock and never reaching target.</p>
+          <p><strong>Sizing, with the one detail that trips Canadians up.</strong> Dehumidifier capacity is quoted in pints per day, and the rating standard changed in June 2019 &mdash; portable units are now tested at 65&deg;F instead of 80&deg;F, so the same machine reports a smaller number. ENERGY STAR&rsquo;s rough conversion puts an old 70-pint portable at about 40&ndash;45 pints on today&rsquo;s test and an old 90-pint at about 55, so a modern 50-pint sits between the two. If you are comparing an old model in your garage against a new listing, or reading an American guide written before the change, the numbers do not line up. For a typical damp full basement in the GTA, the 50-pint class (modern rating) is the sensible default; a small, only-slightly-damp finished area can do with less; a large, wet, or open-plan basement wants more capacity rather than a smaller unit running around the clock and never reaching target.</p>
           <p><strong>Cold rooms need a different machine.</strong> Standard compressor dehumidifiers lose efficiency as temperature drops and can frost their coils in a cold basement or crawl space. If the space runs cool, look specifically for a unit rated for low-temperature operation with auto-defrost, or a desiccant model, which keeps working in cold air where a compressor unit stalls. An unheated crawl space is the classic case where people buy the wrong machine, watch it ice up, and decide dehumidifiers do not work.</p>
           <p><strong>Setup that decides whether it actually runs all season.</strong> Set the humidistat to 45&ndash;50% &mdash; going lower buys nothing extra against centipedes and costs more to run. Place the unit centrally with clearance around the intake, not jammed against a wall. Run a continuous-drain hose to a floor drain, or use a condensate pump, because a machine that needs its bucket emptied daily during a humid August is a machine that gets switched off in week three. Then verify with a separate hygrometer placed across the room: the dehumidifier reads the air at its own intake and flatters itself. Give it several weeks at target before you judge the result, and use your glue-board counts &mdash; not sightings &mdash; as the scoreboard. Our full <Link href="/blog/best-dehumidifier-for-basement-canada">Canadian basement dehumidifier guide</Link> covers pint-to-square-footage sizing, drainage options and cold-basement models in depth.</p>
           <p>Two free moves in the same spirit, worth doing the same day: run the bathroom exhaust fan during every shower and for twenty minutes afterwards (centipedes in an upstairs bathroom are a ventilation problem far more often than a basement problem), and fix the slow drips &mdash; a weeping trap under a vanity or a sweating cold line creates a permanently humid pocket that no room-level dehumidifier fully dries.</p>
@@ -402,6 +432,11 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
             <li><strong>Small flies and larvae</strong> &mdash; drain flies point at a dirty or dry floor drain; fungus gnats at overwatered plants or genuinely wet soil under the slab.</li>
             <li><strong>Almost nothing at all</strong> &mdash; genuinely good news. It means you have a couple of stray centipedes and a humidity issue, not an ecosystem.</li>
           </ul>
+          <Photo
+            id="german-cockroach-egg-case-hatchlings"
+            alt="Sticky trap holding an adult German cockroach beside a ridged egg case, with pale newly hatched nymphs around it"
+            caption="A sticky trap in Ontario holding an adult German cockroach, Blattella germanica, beside an egg case (ootheca), with newly hatched pale nymphs stuck around it; the observer saw them hatching. A catch like this points to cockroaches, not centipedes, as the problem to fix first."
+          />
           <p>The count matters too, as a trend line. Once the dehumidifier has been holding target for several weeks, the boards should be trending down. If they are not, you have a humid pocket you have not found &mdash; check the crawl space, the cold room, behind finished walls near the sump, and the bathroom you assumed was fine.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="insect glue board traps multi pack">Check glue board multi-packs on Amazon.ca →</BuyLink>
@@ -430,14 +465,14 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <h2>What Actually Kills a Centipede — and Why Chemical-First Fails</h2>
           <p>Let us be straightforward about the killing, because plenty of readers want the option.</p>
           <p><strong>A shoe, a vacuum, or a jar and a piece of card.</strong> For an individual centipede, this is the entire technology required. A vacuum with a hose is the least unpleasant version for the squeamish, and there is no reason to buy a product for a one-off encounter.</p>
-          <p><strong>Diatomaceous earth,</strong> applied as a thin, barely visible film in dry cracks, along the sill-plate gap, behind appliances and under storage shelving, will kill centipedes and their prey by abrading the cuticle and dehydrating them. The catch is built into the situation: DE only works while dry, and centipedes live where it is damp. The sequence that works is dehumidifier first, then dust &mdash; and in the meantime, apply only in sheltered dry voids. Visible piles get walked around; a whisper-thin film does the work. One Canadian compliance point that most DE advice skips: buy DE that is <em>sold as an insecticide</em> and carries a PCP registration number on the label. &ldquo;Food-grade&rdquo; DE is sold as an anti-caking agent or feed additive &mdash; it carries no pesticide registration, no PCP number and no legal application directions, so using it against insects is off-label use of an unregistered product, and the registered version costs only a few dollars more. Never use pool-grade DE for pest control either: it is calcined and contains crystalline silica, which is a genuine respiratory hazard rather than a scare story. Technique, the grade distinctions, and Canadian product selection are covered in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>.</p>
+          <p><strong>Diatomaceous earth,</strong> applied as a thin, barely visible film in dry cracks, along the sill-plate gap, behind appliances and under storage shelving, will kill centipedes and their prey by abrading the cuticle and dehydrating them. The catch is built into the situation: DE only works while dry, and centipedes live where it is damp. The sequence that works is dehumidifier first, then dust &mdash; and in the meantime, apply only in sheltered dry voids. Visible piles get walked around; a whisper-thin film does the work. One Canadian compliance point that most DE advice skips: buy DE that is <em>sold as an insecticide</em> and carries a PCP registration number on the label, such as Safer&rsquo;s Ant &amp; Crawling Insect Killer (PCP 32278), whose label lists centipedes. The words &ldquo;food grade&rdquo; are not the test: Doktor Doom Be Green Premium Food Grade Diatomaceous Earth carries a PCP number (32561), while a food-grade bag sold as an anti-caking agent or feed additive carries none and comes with no Canadian directions for use against insects. Never use pool-grade DE for pest control either: it is calcined and contains crystalline silica, which is a genuine respiratory hazard rather than a scare story. Technique, the grade distinctions, and Canadian product selection are covered in our <Link href="/blog/diatomaceous-earth-canada-buyers-guide">diatomaceous earth buyer&rsquo;s guide</Link>.</p>
           <p><strong>Residual perimeter sprays</strong> are where a lot of centipede money goes, and they underdeliver for a specific physical reason. A residual barrier works by depositing insecticide on a surface an insect must drag its body across. A house centipede crosses that band on fifteen pairs of long legs with its body held well clear, picking up a fraction of the dose a flat-bodied silverfish would &mdash; the same reason barrier products have a poor reputation against long-legged spiders. Layer on the fact that the breeding harbourage is inside wall voids, under the slab edge, in the sump pit and beneath outdoor mulch, and that nothing in the can touches the prey population, and you have a treatment that dents the sighting count for a while and changes nothing structural.</p>
           <p><strong>Total-release foggers</strong> are worse than useless here. They deposit on open surfaces, which is precisely where centipedes are not, they push survivors deeper into voids, and they carry real fire and inhalation hazards in an enclosed basement. Fogging has no place in a centipede plan.</p>
           <p><strong>Ultrasonic plug-ins, peppermint and tea-tree sprays, cayenne, cedar oil, coffee grounds.</strong> None of these empties a damp harbourage. Ultrasonic repellers in particular have failed repeatedly in controlled testing across pest categories &mdash; we went through the evidence in our <Link href="/blog/ultrasonic-pest-repellers-do-they-work">ultrasonic pest repeller review</Link>. If a product claims to solve a moisture-driven predator problem without touching the moisture or the prey, the claim is the product.</p>
           <p>The honest summary: chemicals are a symptom tool for a structural problem. If you use one anyway &mdash; and there are legitimate reasons to knock down a bad autumn migration while you get the sealing done &mdash; treat it as a stopgap running alongside the dehumidifier and the exclusion, not instead of them. If you want that stopgap chosen properly rather than grabbed off a shelf, we ranked <Link href="/blog/best-centipede-killer-canada">what actually kills centipedes in Canada</Link> product by product, including which dusts carry a PCP number and which whole categories are simply selling you a feeling.</p>
 
           <h2>The Canadian Product Reality: PMRA, PCP Numbers, and Cross-Border Listings</h2>
-          <p>Most centipede advice online is written for an American audience with an American shelf, and that shelf is not our shelf. Under the Pest Control Products Act, conventional insecticides sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a Canadian PCP registration number on the label. That number is your one-glance test. There is one real exception worth knowing: a narrow list of minimum-risk products &mdash; largely certain essential-oil formulations &mdash; is exempt from registration and sells legally here without a PCP number. That exemption says nothing about whether those products work on centipedes, and as the table above says, they do not. What it does mean is that a missing PCP number on an essential-oil spray is not by itself a legality problem, while a missing PCP number on a conventional perimeter insecticide is. A great many of the perimeter and &ldquo;home defense&rdquo; insecticides that dominate US centipede threads have no Canadian registration, and marketplace listings routinely surface US-market stock to Canadian buyers without flagging it. Before buying any conventional insecticide online, zoom the label photo and look for the PCP number; if it is not there, there are no Canadian directions standing behind how you use it.</p>
+          <p>Most centipede advice online is written for an American audience with an American shelf, and that shelf is not our shelf. Under the Pest Control Products Act, insecticides sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a Canadian PCP registration number on the label. That number is your one-glance test. One US rule does not cross the border: the EPA exempts so-called minimum-risk pesticides from federal registration, but Canada&rsquo;s Pest Control Products Regulations contain no such exemption, so an essential-oil centipede spray needs a PCP number here like any other insecticide. Health Canada puts it plainly: it is a violation of the Pest Control Products Act to buy and use unregistered pesticides. A great many of the perimeter and &ldquo;home defense&rdquo; insecticides that dominate US centipede threads have no Canadian registration &mdash; Health Canada&rsquo;s registry lists no bifenthrin or lambda-cyhalothrin product for home use &mdash; and marketplace listings routinely surface US-market stock to Canadian buyers without flagging it. Before buying any insecticide online, zoom the label photo and look for the PCP number; if it is not there, there are no Canadian directions standing behind how you use it.</p>
           <p>The practical Canadian shelf for this job is refreshingly boring. Dehumidifiers, hygrometers, glue boards, weep-hole screens, door sweeps, sealant, sump lids and drain covers are all stocked at Canadian Tire, Home Depot Canada, Rona and Home Hardware, none of them are pesticides, and none of them require a registration check. If you do want a chemical component, look for a domestic-class product whose Canadian label lists centipedes, and follow that label &mdash; the label is the law, not a suggestion. Note as well that provincial cosmetic-pesticide rules, including Ontario&rsquo;s, restrict what can be used on lawns and gardens, which is another reason the outdoor half of this job is best done with a rake and a caulk gun rather than a sprayer. We applied exactly this PCP-number test across the category in <Link href="/blog/best-centipede-killer-canada">our centipede product breakdown</Link>, which is the short way to find out whether the thing in your cart is legal to use here at all.</p>
 
           <h2>Seasonality: When Ontario Homes Get Centipedes</h2>
@@ -451,6 +486,29 @@ export default function HowToGetRidOfCentipedesCanadaPage() {
           <p>House centipedes are a genuinely DIY-solvable problem, because the cause is environmental and every tool the job needs is a hardware-store item. There is no honest scenario where the right answer is a recurring spray contract for centipedes alone, and we would tell you that even if we sold one &mdash; which, to be clear, we do not; BuzzSkito treats mosquitoes and ticks, and this page is our publishing team&rsquo;s independent research.</p>
           <p>Bring in help in three situations. <strong>The moisture source is structural.</strong> If humidity will not come down after several weeks of a correctly sized dehumidifier running at target, you may be dealing with a foundation leak, failed weeping tile, a plumbing leak inside a wall, or ground water &mdash; and the right call is a waterproofing or plumbing contractor, not an exterminator. <strong>The glue boards found something else.</strong> Cockroach nymphs, bed bugs, or a heavy carpet-beetle catch are their own problems with their own programs, and a licensed pest professional is worth it for those; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> covers what interior general-pest work typically runs so you can sanity-check a quote. <strong>You rent, or you are in a condo.</strong> If the damp is coming from a unit or a common element you do not control, document it in writing to the landlord or property manager rather than buying equipment for someone else&rsquo;s building.</p>
           <p>And be suspicious of any contractor who quotes a centipede spray program without once mentioning humidity, drainage or prey. That quote is for the symptom.</p>
+
+          <h2 id="situation">Which Fix for Your Situation?</h2>
+          <ul>
+            <li><strong>Centipedes in a damp basement in summer:</strong> a dehumidifier held at 45&ndash;50%, checked with a separate hygrometer; Health Canada&rsquo;s own advice is a dehumidifier or a small fan.</li>
+            <li><strong>They come in every fall:</strong> seal cracks in the foundation and around windows before the cold, and clear leaf litter, boards and boxes away from the foundation, as Health Canada advises.</li>
+            <li><strong>Repeated finds in the bathtub:</strong> run the bathroom fan during and after showers, and fix any drip under the vanity.</li>
+            <li><strong>The glue boards are full of something else:</strong> deal with that pest first, starting with the <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish</Link> or <Link href="/blog/how-to-get-rid-of-cockroaches-canada">cockroach</Link> guide.</li>
+            <li><strong>Humidity will not come down after several weeks:</strong> look for the water; a leak or failed drainage that keeps the basement damp is a job for a waterproofing or plumbing contractor.</li>
+            <li><strong>You want a product as well:</strong> a diatomaceous earth dust whose label lists centipedes, such as Safer&rsquo;s Ant &amp; Crawling Insect Killer (32278), in dry cracks once the dehumidifier has done its work.</li>
+            <li><strong>You rent:</strong> report the damp to the landlord in writing rather than buying equipment for someone else&rsquo;s building.</li>
+          </ul>
+
+          <h2>Canadian Centipede Checklist</h2>
+          <ol>
+            <li><strong>Read the humidity before you buy anything:</strong> Health Canada&rsquo;s range is 30% to 50%.</li>
+            <li><strong>Compare pints on the same test.</strong> Ratings changed in June 2019; ENERGY STAR puts an old 70-pint portable at about 40&ndash;45 pints on today&rsquo;s test.</li>
+            <li><strong>Auto-defrost or a low-temperature rating</strong> for a cool basement or crawl space.</li>
+            <li><strong>A drain hose or a pump,</strong> so the machine keeps running through August.</li>
+            <li><strong>A PCP number, and centipedes on the label,</strong> for any dust or spray.</li>
+            <li><strong>A registered DE dust, never pool grade,</strong> and no breathing the dust: the Safer&rsquo;s label says to avoid it.</li>
+            <li><strong>No ultrasonic repeller for centipedes:</strong> the registered ones list only mice and rats.</li>
+            <li><strong>No bifenthrin barrier spray from a US listing:</strong> none is registered for home use in Canada.</li>
+          </ol>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

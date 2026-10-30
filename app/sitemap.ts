@@ -207,6 +207,13 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/what-kills-bed-bugs-instantly-canada': '2026-10-29T12:00:00.000Z',
   '/blog/how-to-get-rid-of-cluster-flies-canada': '2026-10-29T12:00:00.000Z',
   '/blog/bed-bug-stains-poop-droppings-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-drain-flies-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-cockroaches-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-centipedes-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-carpet-beetles-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/best-mosquito-trap': '2026-10-29T12:00:00.000Z',
+  '/blog/best-electric-fence-for-raccoons-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/how-to-get-rid-of-fruit-flies': '2026-10-29T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

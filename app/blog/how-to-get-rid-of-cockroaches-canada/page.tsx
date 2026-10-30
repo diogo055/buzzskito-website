@@ -11,6 +11,7 @@ import TopBox from '@/components/TopBox'
 import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import Photo from '@/components/Photo'
+import QuickIdTable from '@/components/QuickIdTable'
 import AdjacentPestCTA from '@/components/AdjacentPestCTA'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -20,14 +21,15 @@ import { withRegionalAlternates } from '@/lib/guides'
 
 const SLUG = 'how-to-get-rid-of-cockroaches-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-10-16'
+const UPDATED = '2026-10-29'
 const TITLE = 'How to Get Rid of Cockroaches in Canada — The Bait-First Plan That Actually Works'
-const META_TITLE = 'Get Rid of Cockroaches Canada: Bait, Not Spray'
+// TITLE NOTE (Oct 29, 2026): was 'Get Rid of Cockroaches Canada: Bait, Not Spray' (not changed in the Oct 15-16 photo upgrade); top queries, Jul 29-Oct 26 (all countries): how to get rid of cockroaches in canada 152 at 8.7 (2 clicks), cockroaches 53 at 2.3, how to get rid of german cockroaches canada 52 at 6.9 (3 clicks). Canadian edition of the regional pair: '/blog/how-to-get-rid-of-cockroaches' (US guide, 'How to Get Rid of Roaches: The Order That Works') keeps the US searches; Advion and gel searches stay with /blog/advion-cockroach-gel-bait. Photo read (data/god-build/photo-upgrade-read-2026-10-29.md): photos alone did not move web clicks here; 'Canada' kept (US twin, Canadian Amazon page).
+const META_TITLE = 'How to Get Rid of Cockroaches in Canada: 5 Steps'
 
 const FAQS = [
   {
     question: 'How do I get rid of cockroaches permanently in Canada?',
-    answer: 'Bait, not spray. The plan that works: identify the species (German cockroaches are the indoor breeder that matters most in Canada), cut off food and water for 24 hours a day (dishes done, counters wiped, garbage lidded, sink dried at night), place enclosed bait stations along the wall edges and corners where roaches travel, and lay glue-board monitors so you can measure progress instead of guessing. Roaches carry slow-acting bait back to the harbourage and poison nestmates that never left the wall void — that domino effect is the only consumer mechanism that reaches the 70-plus percent of the population you never see. Expect meaningful knockdown in 1–3 weeks and keep stations refreshed for at least 2–3 months to catch hatching egg cases.',
+    answer: 'Bait, not spray. The plan that works: identify the species (German cockroaches are the indoor breeder that matters most in Canada), cut off food and water for 24 hours a day (dishes done, counters wiped, garbage lidded, sink dried at night), place enclosed bait stations along the wall edges and corners where roaches travel, and lay glue-board monitors so you can measure progress instead of guessing. Roaches eat slow-acting bait where they forage and die back in the harbourage, and with some baits, lab studies show, nestmates that eat their droppings or bodies die too. Expect meaningful knockdown in 1–3 weeks and keep stations refreshed for at least 2–3 months to catch hatching egg cases.',
   },
   {
     question: 'What kind of cockroach do I have — German, American, or Oriental?',
@@ -39,11 +41,11 @@ const FAQS = [
   },
   {
     question: 'Do cockroach bait stations actually work?',
-    answer: 'Yes — enclosed bait stations are the most effective consumer-legal tool for German cockroaches in Canada, and the mechanism is what makes them work. The station holds an attractive food bait laced with a slow-acting insecticide. Foragers feed, walk home, and die in the harbourage hours later, where their contaminated droppings and carcasses are eaten by nymphs and other adults that never leave the void — the secondary-kill domino effect. Placement decides everything: stations go tight against walls, in corners, under the sink, beside the fridge motor, and inside cupboard corners, because roaches travel edges, not open surfaces. Check the label for a Pest Control Products (PCP) registration number to confirm the product is registered in Canada for domestic use.',
+    answer: 'Yes — enclosed bait stations are the most effective consumer-legal tool for German cockroaches in Canada, and the mechanism is what makes them work. The station holds an attractive food bait laced with a slow-acting insecticide. Foragers feed, walk home, and die in the harbourage hours later, and with some baits the nymphs that eat their contaminated droppings or carcasses die too, a secondary kill that lab studies show varies by active ingredient. Placement decides everything: stations go tight against walls, in corners, under the sink, beside the fridge motor, and inside cupboard corners, because roaches travel edges, not open surfaces. Check the label for a Pest Control Products (PCP) registration number to confirm the product is registered in Canada for domestic use.',
   },
   {
     question: 'Is Advion cockroach gel legal in Canada?',
-    answer: 'Advion (indoxacarb) cockroach gel is the famous answer on American forums, but the versions sold on marketplace listings to Canadian buyers are typically US-market product — formulated and labelled under US EPA registration, not under a Canadian PCP number. Any pesticide legally sold in Canada must carry a PCP registration number on its label under the Pest Control Products Act, so before buying any gel bait online, check the listing photos and the physical label for that number. The compliant consumer path in Canada is domestic-class enclosed bait stations, which are PMRA-registered, child-resistant, and widely stocked. We break down the whole Advion situation — what it is, why Americans swear by it, and what the Canadian rules actually say — in our dedicated Advion cockroach gel Canada guide.',
+    answer: 'Advion (indoxacarb) cockroach gel is the famous answer on American forums, but it is not registered in Canada: Health Canada’s pesticide registry lists no Advion product, current or historical, and no registered product of any kind containing indoxacarb (searched October 29, 2026). Health Canada says online purchases of unregistered pesticides and their shipment to Canada are not permitted, and that it is a violation of the Pest Control Products Act to buy and use unregistered pesticides. The registered consumer route is a domestic bait whose label shows a PCP number and lists cockroaches, such as Raid Ant Roach & Earwig Gel Baits (PCP 25735) or the PIC Roach Control System (PCP 20471). We break down the whole Advion situation — what it is, why Americans swear by it, and what the Canadian rules actually say — in our dedicated Advion cockroach gel Canada guide.',
   },
   {
     question: 'How long does cockroach bait take to work?',
@@ -55,7 +57,7 @@ const FAQS = [
   },
   {
     question: 'Does killing a cockroach attract more cockroaches?',
-    answer: 'Not in the way the myth suggests — a squashed roach does not send out a revenge signal. There is a kernel of truth: cockroaches are attracted to aggregation pheromones in roach droppings and, being opportunistic scavengers, will eat dead roaches. That second behaviour is actually the engine that makes bait work, since bait-killed carcasses poison the roaches that eat them. The practical takeaways: clean up droppings (the pheromone trail) with soap and water in areas you can reach, do not bother chasing individuals with a shoe as a strategy, and let the bait-and-carcass chain do the killing where you cannot see it.',
+    answer: 'Not in the way the myth suggests — a squashed roach does not send out a revenge signal. There is a kernel of truth: cockroaches are attracted to aggregation pheromones in roach droppings and, being opportunistic scavengers, will eat dead roaches. That second behaviour can add to what bait does: in lab studies, roaches that ate bait-killed nymphs died too. The practical takeaways: clean up droppings (the pheromone trail) with soap and water in areas you can reach, do not bother chasing individuals with a shoe as a strategy, and let the bait do the killing where you cannot see it.',
   },
   {
     question: 'Do home remedies like bay leaves, citrus, or vinegar repel cockroaches?',
@@ -71,7 +73,7 @@ const FAQS = [
   },
   {
     question: 'When should I call a professional exterminator for cockroaches?',
-    answer: 'Call a licensed professional when any of these are true: you see roaches in daylight (daytime activity signals heavy population pressure and saturated harbourages), you find roaches in rooms far from the kitchen or on upper floors, your glue-board monitors are still catching after 8–12 weeks of disciplined baiting, anyone in the household has asthma (cockroach allergens are a clinically established asthma trigger, especially in children), or you are in a multi-unit building where the source is beyond your walls. Professionals bring commercial-class gel baits, insect growth regulators, and vacuum removal that consumers cannot legally buy in Canada, and in apartments they can coordinate the multi-unit treatment that actually ends the problem. Our pest control cost guide covers what Canadian roach treatments typically run.',
+    answer: 'Call a licensed professional when any of these are true: you see roaches in daylight (daytime activity signals heavy population pressure and saturated harbourages), you find roaches in rooms far from the kitchen or on upper floors, your glue-board monitors are still catching after 8–12 weeks of disciplined baiting, anyone in the household has asthma (cockroach allergens are a clinically established asthma trigger, especially in children), or you are in a multi-unit building where the source is beyond your walls. Professionals bring commercial-class gel baits whose labels restrict them to licensed applicators (VANECTO Cockroach Gel Bait, PCP 35686, is one), plus HEPA vacuum removal, and in apartments they can coordinate the multi-unit treatment that actually ends the problem. No product containing hydroprene or pyriproxyfen, the growth regulators US extension guides name, lists cockroaches on Canada’s registry. Our pest control cost guide covers what Canadian roach treatments typically run.',
   },
   {
     question: 'Which cockroaches are most common in the United States?',
@@ -85,11 +87,19 @@ const FAQS = [
     question: 'Can cockroaches trigger asthma?',
     answer: 'Yes. The EPA states that droppings and body parts of cockroaches can trigger asthma, and that proteins in cockroach feces and saliva can cause allergic reactions or asthma symptoms in some people. The CDC advises removing food and water sources, keeping trash in a closed container, sealing cracks, and avoiding sprays and foggers, which can cause asthma attacks. Anyone whose symptoms get worse at home should talk with a healthcare provider.',
   },
+  {
+    question: 'How do I get rid of German cockroaches in Canada?',
+    answer: 'Start in the kitchen, because that is where they live. Health Canada describes the German cockroach as tan to light brown, about 1.3 to 1.6 cm long, with two dark parallel streaks running back from the head, and says pesticides alone will not succeed until the living space changes: food in sealed containers, no pet food or water left out around the clock, dishes done, leaks fixed and cracks sealed. Then bait with a product whose label shows a PCP number. Raid Ant Roach & Earwig Gel Baits (PCP 25735) asks for at least 10 baits in the kitchen and 2 in each bathroom, replaced every 4 weeks. Count catches on glue boards until they stay at zero.',
+  },
+  {
+    question: 'Can you get rid of cockroaches immediately?',
+    answer: 'Not an infestation. Health Canada says bait stations kill cockroaches about 48 to 96 hours after they eat the bait, and the PIC Roach Control System label (PCP 20471) says the population decreases after 7 to 10 days of use. Egg cases are why it takes longer: UC IPM notes that females carrying one feed very little and avoid open spaces, so nymphs keep hatching for weeks after the first adults die. A spray kills the roaches it hits, not the ones inside the walls. Plan on two to three months of fresh bait, and let glue-board counts, not sightings, tell you when it is over.',
+  },
 ]
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
-  description: 'How to get rid of cockroaches in Canada: German vs American vs Oriental ID, why sprays scatter colonies, the bait-station + glue-board-monitor plan, apartment/landlord rules, and the honest Canadian answer on Advion gel. Updated 2026.',
+  description: 'How to get rid of cockroaches in Canada in 5 steps: identify, starve, bait with a PCP number (Raid 25735, PIC 20471), count on glue boards, skip the spray.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -115,26 +125,26 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             <span className="text-white">Get Rid of Cockroaches</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">German vs American vs Oriental identification, why spraying scatters the colony instead of killing it, and the bait-station + monitor plan that reaches the 70% of roaches you never see &mdash; with the honest Canadian answer on Advion gel.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">To get rid of cockroaches in Canada, use bait, not spray, in five steps: identify the species, take away food and water, put bait whose label shows a PCP number along the edges where they travel, count them on glue boards, and keep fresh bait down for 2&ndash;3 months. The &ldquo;Best first move&rdquo; pick below, enclosed bait stations, is for German cockroaches in a kitchen or bathroom; buy a box with a PCP number, such as Raid Ant Roach &amp; Earwig Gel Baits (25735).</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Enclosed roach bait stations (domestic-class)" search="roach killing bait stations" label="Best first move" />
-      <TopBox tag={AMZ_TAG} name="Enclosed roach bait stations (domestic-class)" search="roach killing bait stations" label="Best first move" />
+      <StickyBuyBar tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (look for PCP 25735)" search="boric acid roach bait" label="Best first move" />
+      <TopBox tag={AMZ_TAG} name="Raid Ant Roach & Earwig Gel Baits (look for PCP 25735)" search="boric acid roach bait" label="Best first move" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of cockroaches in Canada, skip the spray can entirely: cut off food and water, place enclosed bait stations along wall edges in the kitchen and bathroom, and lay glue-board monitors to measure progress. Foraging roaches carry slow-acting bait back to the harbourage and poison the nestmates you never see &mdash; the only consumer mechanism that collapses a colony instead of scattering it. In apartments, your unit is usually one node in a building-wide problem: bait your unit, but report it to the landlord in writing and push for coordinated treatment.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">To get rid of cockroaches in Canada, skip the spray can entirely: cut off food and water, place enclosed bait stations along wall edges in the kitchen and bathroom, and lay glue-board monitors to measure progress. Foraging roaches eat slow-acting bait and die back in the harbourage, and with some baits the nestmates that eat their droppings die too &mdash; the consumer method that collapses a colony instead of scattering it. In apartments, your unit is usually one node in a building-wide problem: bait your unit, but report it to the landlord in writing and push for coordinated treatment.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Small (12&ndash;16 mm), tan, two dark stripes = German cockroach &mdash; the indoor breeder behind almost every Canadian kitchen infestation.</li>
               <li>Sprays repel: survivors relocate deeper into voids or next door, and spray residue makes roaches refuse nearby bait.</li>
-              <li>You see maybe 30% of the population &mdash; bait&rsquo;s carry-home secondary kill is how you reach the rest.</li>
+              <li>You see maybe 30% of the population &mdash; bait placed beside their hiding spots is how you reach the rest.</li>
               <li>Sanitation decides how fast bait wins: a crumb-free, dry-sink kitchen forces roaches into stations sooner.</li>
-              <li>Advion gel is the famous US answer but is typically US-market product here &mdash; check any pesticide label for a Canadian PCP registration number before buying.</li>
+              <li>Advion gel is the famous US answer, but Health Canada&rsquo;s registry has no Advion or other indoxacarb product &mdash; check any pesticide label for a Canadian PCP registration number before buying.</li>
               <li>Egg cases hatch on their own schedule: keep fresh bait down 2&ndash;3 months and let glue-board catches, not sightings, declare victory.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">&mdash; BuzzSkito Pest Product Guides &middot; independent Canadian research</p>
@@ -162,12 +172,12 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             awards={[
               {
                 badge: 'Best First Move',
-                name: 'Enclosed Roach Bait Stations (Combat-style, domestic-class)',
-                why: 'Child-resistant plastic stations with slow-acting food bait — foragers feed, walk home, and poison the harbourage through contaminated carcasses and droppings. The compliant, widely stocked Canadian answer; check the label for a PCP registration number.',
-                search: 'roach killing bait stations',
+                name: 'Raid Ant Roach & Earwig Gel Baits (PCP 25735)',
+                why: 'Twelve child-resistant bait stations of slow-acting boric acid gel (2.0%), registered in Canada for cockroaches (PCP 25735). Roaches eat the bait and crawl away to die (label), so stations set beside their hiding spots reach the ones you never see. The label asks for at least 10 in the kitchen and 2 in each bathroom, only where children and pets cannot reach, replaced every 4 weeks. The search below also shows other boric acid baits, so look for PCP 25735 on the box.',
+                search: 'boric acid roach bait',
                 score: 8.8,
                 featured: true,
-                pros: ['Secondary kill reaches roaches that never leave the wall void', 'Enclosed and child-resistant — the bait stays inside the station', 'Modest cost to blanket a whole kitchen'],
+                pros: ['Set beside their hiding spots, it reaches roaches you never see', 'Enclosed and child-resistant — the bait stays inside the station', 'Modest cost to blanket a whole kitchen'],
                 cons: ['Slower than the spray-can illusion — weeks, not minutes', 'Stations must sit tight to edges and corners or catches drop'],
               },
               {
@@ -217,10 +227,10 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50">
-                  <td className="px-4 py-3 font-bold text-brand-800">Enclosed bait stations<br /><span className="font-normal text-xs text-gray-500">Combat-style, domestic-class</span></td>
-                  <td className="px-4 py-3 text-gray-700">Slow-acting food bait carried back to the harbourage; secondary kill via carcasses and droppings</td>
+                  <td className="px-4 py-3 font-bold text-brand-800">Enclosed bait stations<br /><span className="font-normal text-xs text-gray-500">With a PCP number, e.g. Raid 25735</span></td>
+                  <td className="px-4 py-3 text-gray-700">Slow-acting food bait eaten where roaches forage; they generally die back in their hiding places</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best consumer method</strong> &mdash; reaches roaches you never see</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="roach killing bait stations" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="boric acid roach bait" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50">
                   <td className="px-4 py-3 font-bold text-brand-800">Glue-board monitors<br /><span className="font-normal text-xs text-gray-500">Sticky traps</span></td>
@@ -274,7 +284,7 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
                   ['Time to visible knockdown', '1–3 weeks; keep bait fresh 2–3 months for egg-case hatches'],
                   ['Progress metric', 'Glue-board monitor catches trending to zero — not sightings'],
                   ['Apartment rule', 'Landlord is responsible for pest control in most provinces — report in writing'],
-                  ['Advion gel status', 'US-market product in most listings — see our dedicated guide'],
+                  ['Advion gel status', 'Not registered in Canada: no Advion or indoxacarb product in Health Canada’s registry (searched Oct 29, 2026) — see our dedicated guide'],
                   ['Call a pro when', 'Daytime sightings, 8–12 weeks of failed baiting, asthma in the home'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
@@ -294,17 +304,34 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
 
           <h2>How Do You Actually Get Rid of Cockroaches?</h2>
           <p>With bait, patience, and a clean kitchen &mdash; and by never touching a spray can. That answer disappoints people, because the spray can is the satisfying option: you see a roach, you spray it, it dies, progress. But cockroach control is not about the roaches you see. A German cockroach population lives overwhelmingly out of sight &mdash; in the void behind the fridge, inside the cabinet kickplate, in the gap where the plumbing enters the wall &mdash; and the individuals foraging on your counter at 2 a.m. are a minority of the colony, commonly estimated at a third or less. Any method that only kills visible roaches is, by design, losing.</p>
-          <p>Bait inverts the problem. An enclosed bait station holds a food attractant laced with a slow-acting insecticide. A forager feeds, walks back into the wall, and dies hours later in the harbourage &mdash; where its contaminated droppings and carcass are eaten by nymphs and adults that never left. One feeding can cascade through the void. This secondary-kill chain is the only mechanism available to Canadian consumers that reaches the roaches you will never see, and it is why every professional cockroach program on earth is built on bait, monitors, and sanitation rather than spray.</p>
+          <p>Bait inverts the problem. An enclosed bait station holds a food attractant laced with a slow-acting insecticide. A forager feeds, walks back into the wall, and dies hours later in the harbourage &mdash; and with some baits, nymphs that eat its contaminated droppings or carcass die too. Lab studies have shown this secondary kill with boric acid baits, but it varies by active ingredient and fades in resistant roaches, and the Ortho gel label (32560) says cockroaches &ldquo;will not share the bait,&rdquo; so count on placement: bait set beside the harbourage reaches the roaches you will never see as they forage. That is why professional cockroach programs are built on bait, monitors, and sanitation rather than spray.</p>
           <p>The plan in one paragraph: identify your species, starve the kitchen (food sealed, dishes done, sink dried at night, garbage lidded), place enclosed bait stations tight along the wall edges and corners where roaches travel, lay glue-board monitors so you can measure instead of guess, and hold the line for two to three months while egg cases hatch into bait range. The rest of this guide unpacks each step &mdash; and covers the two situations where the plan changes: apartments, and the moment you should stop DIYing. If the cupboard turns up webbing and clumped grain instead of roach droppings, the culprit is a stored-product pest, and <Link href="/blog/pantry-moth-traps-canada" className="text-brand-700 underline">the pantry moth trap-and-purge routine</Link> covers that case.</p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the core kit:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
-            <BuyLink tag={AMZ_TAG} search="roach killing bait stations">Enclosed bait stations →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Raid bait stations (PCP 25735) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="cockroach glue trap monitor">Glue-board monitors →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Boric acid bait →</BuyLink>
           </div>
 
           <NextUp path="/blog/how-to-get-rid-of-cockroaches-canada" />
+          <QuickIdTable
+            title="Cockroach baits and treatments in Canada, on the record"
+            head={['Option', 'How it works', 'What the label or registry says', 'Limits']}
+            rows={[
+              ['Raid Ant Roach & Earwig Gel Baits (PCP 25735)', 'Boric acid 2.0% gel in 12 child-resistant bait stations', 'At least 10 baits in the kitchen and 2 in each bathroom (12–15 and 2–4 for a large kitchen or a heavy infestation); replace all baits every 4 weeks', 'Only in areas children and pets cannot reach'],
+              ['PIC Roach Control System (PCP 20471)', 'Propoxur 2% bait in 12 trays', '12 trays treat about 20 m²; place them along edges near warm, damp areas; fewer roaches after 7–10 days; replace about every 2–3 months', 'Contains peanut butter and fish meal (allergens); propoxur is a cholinesterase inhibitor'],
+              ['Ortho Ant B Gon Max Ant & Roach Killer Gel (PCP 32560)', 'Disodium octaborate tetrahydrate 6.0% gel', 'Keep bait available for at least 14 days of continuous feeding', 'The label says cockroaches “will not share the bait”'],
+              ['Homeowners DIY Roach Bait (PCP 30293)', 'Boric acid 33.3% paste', 'Cracks and crevices only, about 28 g per 10 m², for cockroaches only; reapply at least once a year', 'Scrape any visible paste into the crack or remove it; contains milk and wheat (allergens)'],
+              ['Diatomaceous earth dust, e.g. Safer’s Ant & Crawling Insect Killer (PCP 32278)', 'Dries out insects that crawl through it', '50 g per 10 m² in cracks and crevices and behind stoves, fridges and sinks; Health Canada: it stays active while dry', 'Avoid breathing the dust; Safer’s contains milk (allergen)'],
+              ['Glue boards and jar traps', 'Catch roaches travelling along walls', 'Health Canada: traps help you monitor the population and find where to focus; a plain glue board is not one of the devices the Regulations require to be registered', 'Monitoring, not control'],
+              ['Crack-and-crevice sprays and aerosols', 'Kill on contact; residual products leave a deposit', 'Health Canada: residual crack-and-crevice products are the most common registered cockroach products, and aerosols can help when numbers are high', 'Keep them away from bait (see the spray section below)'],
+              ['Combat, Raid Max and Advion roach baits', 'US-market baits and gel', 'Combat Roach Killing System (26519) cancelled in 2006; Raid Max Roach Bait (26645) and Raid Double Control Roach Baits (27731) cancelled, registry expiry date September 25, 2025; no Advion or indoxacarb product at all', 'Not registered in Canada today'],
+              ['Professional gel baits', 'Commercial gels placed in cracks by a licensed operator', 'VANECTO Cockroach Gel Bait (35686): “Only to be used by individuals holding an appropriate pesticide applicator certificate or license”', 'Hire a licensed operator'],
+              ['Insect growth regulators', 'Stop nymphs from becoming breeding adults', 'No current product containing hydroprene or pyriproxyfen lists cockroaches', 'Not a Canadian option for cockroaches'],
+            ]}
+            caption={<>From the Canadian labels for PCP 25735, 20471, 32560, 30293, 32278 and 35686 and Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide product registry</a>, searched October 29, 2026; Health Canada, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/cockroaches.html" target="_blank" rel="noopener noreferrer" className="underline">Cockroaches</a>; and the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/FullText.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Regulations</a>, s. 3(1)(a) and Schedule 1.</>}
+          />
           <h2>First, Know Your Enemy: German vs American vs Oriental</h2>
           <p>Three cockroach species account for essentially all Canadian household encounters, and they demand different responses.</p>
           <p><strong>German cockroach &mdash; the one that matters.</strong> Small (12&ndash;16 mm), tan to light brown, with two dark parallel stripes on the shield behind the head. This is the indoor-breeding species behind virtually every kitchen and apartment infestation in Canada; it cannot survive a Canadian winter outdoors and lives its entire life within a few metres of warmth, moisture, and food. It also breeds faster than any other pest roach &mdash; a female produces an egg case (ootheca) of 30&ndash;48 eggs every few weeks and carries it protected until just before hatching, which is why populations explode and why no product touches the eggs. If you see small striped roaches in the kitchen or bathroom, everything in this guide applies at full intensity.</p>
@@ -346,19 +373,19 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           <p>None of that makes aerosols useless &mdash; it makes them a scalpel rather than a broom. There are three narrow jobs a can still wins, and we set out what they are, which PMRA-registered products to reach for, and how to keep the residue away from your bait in <Link href="/blog/best-cockroach-spray-canada">the honest guide to cockroach sprays in Canada</Link>.</p>
 
           <h2>The Bait-Station Plan, Step by Step</h2>
-          <p>Enclosed bait stations &mdash; the Combat-style discs and their relatives &mdash; are the compliant backbone of Canadian consumer roach control. They are child-resistant, they keep the bait fresh and off your surfaces, and domestic-class versions are PMRA-registered for exactly this use; as with any pesticide in Canada, confirm the Pest Control Products (PCP) registration number on the label before buying, especially from online marketplaces that mix Canadian and US stock.</p>
+          <p>Enclosed bait stations are the backbone of Canadian consumer roach control: they keep the bait fresh and off your surfaces, and Health Canada notes that bait stations in tamper-proof containers kill insects about 48 to 96 hours after they eat the active ingredient. US brand names do not carry over, though. Combat&rsquo;s Canadian roach registration (Combat Roach Killing System, 26519) was cancelled in 2006, and Raid Max Roach Bait (26645) and Raid Double Control Roach Baits (27731) are cancelled too; the station products on Health Canada&rsquo;s registry today include Raid Ant Roach &amp; Earwig Gel Baits (PCP 25735), sold as 12 child-resistant baits, and the PIC Roach Control System (PCP 20471). As with any pesticide in Canada, confirm the Pest Control Products (PCP) registration number on the label before buying, especially from online marketplaces that mix Canadian and US stock.</p>
           <p>Placement is 80% of the result:</p>
           <ul>
             <li><strong>Edges and corners, never open floor.</strong> Roaches travel with their bodies touching a surface &mdash; wall-floor junctions, cabinet seams, the back edge of the counter. A station in the middle of the floor is furniture.</li>
             <li><strong>Blanket the kitchen triangle.</strong> Under the sink (both back corners), beside the fridge motor housing (warmth is a roach magnet), behind and beside the stove, and inside the corners of the two or three cupboards nearest the sink.</li>
             <li><strong>Do the bathroom too.</strong> Under the vanity, behind the toilet, near any plumbing penetration. German roaches need water more urgently than food, and bathrooms are the second front.</li>
-            <li><strong>More stations, closer together.</strong> A typical kitchen wants 8&ndash;12 placements, not 2. German roaches may only travel a metre or two from harbourage to food; a sparse grid leaves whole harbourages out of range.</li>
-            <li><strong>Refresh on schedule.</strong> Mark the date; replace stations per the label (typically every 2&ndash;3 months) or sooner if the kitchen is hot and the bait is being hammered. Stale bait is invisible bait.</li>
+            <li><strong>More stations, closer together.</strong> Raid&rsquo;s Canadian label (25735) asks for at least 10 baits in the kitchen and 2 in each bathroom, and 12&ndash;15 in a large kitchen or a heavy infestation &mdash; not 2. German roaches may only travel a metre or two from harbourage to food; a sparse grid leaves whole harbourages out of range.</li>
+            <li><strong>Refresh on schedule.</strong> Mark the date; replace stations per the label (every 4 weeks on Raid&rsquo;s Canadian label, about every 2&ndash;3 months on PIC&rsquo;s) or sooner if the kitchen is hot and the bait is being hammered. Stale bait is invisible bait.</li>
             <li><strong>Do not spray anything anywhere near them.</strong> Including &ldquo;natural&rdquo; essential-oil sprays, which are also aversive. Bait wins by being the most attractive food in a clean kitchen &mdash; protect that.</li>
           </ul>
           <p>For cracks and seams a station physically cannot service &mdash; cabinet hinges, the seam where the backsplash meets the counter, the gap under a kickplate &mdash; a gel bait syringe adds precision. That is the format professionals use, and it comes with the one big Canadian caveat that gets its own section below.</p>
           <div className="not-prose my-4">
-            <BuyLink tag={AMZ_TAG} search="roach killing bait stations">Check enclosed bait stations on Amazon.ca →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="boric acid roach bait">Check Raid bait stations (PCP 25735) on Amazon.ca →</BuyLink>
           </div>
 
           <h2>Sanitation: the Unpaid Half of the Program</h2>
@@ -373,6 +400,11 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
             <li><strong>Where is the traffic?</strong> Boards along different walls catch unevenly; the hot boards are pointing at the harbourage, and that is where your next bait placements go.</li>
             <li><strong>Is it working?</strong> Count catches weekly. Baiting that is working shows a rising-then-collapsing curve: an early spike (roaches flushed and foraging), then a steady fall, then a small rebound as the last egg cases hatch, then zero. Several consecutive weeks of empty boards is the finish line &mdash; sightings, which depend on luck and lighting, are not.</li>
           </ul>
+          <Photo
+            id="german-cockroach-egg-case-hatchlings"
+            alt="Adult German cockroach stuck on a sticky trap beside a ridged egg case, with pale newly hatched nymphs around it"
+            caption="An adult German cockroach, Blattella germanica, on a sticky trap in Ontario beside an egg case (ootheca), with newly hatched pale nymphs stuck around it; the observer saw them hatching. A board like this settles the species and shows the roaches are breeding."
+          />
           <p>Placement mirrors bait logic: flat against the wall-floor junction, under the sink, beside the stove, behind the toilet. Glue boards are devices, not pesticides, so they need no PMRA registration &mdash; there is no regulatory reason not to deploy them generously. Date each board with a marker; a dusty board stops catching and starts lying.</p>
           <p>Which board and which station is worth buying is a narrower question than this page can settle, so we ran it separately: <Link href="/blog/best-roach-traps-canada">glue boards versus enclosed bait stations for Canadian kitchens</Link> covers the formats, the placement grid, and how to read a catch to locate harbourage.</p>
           <div className="not-prose my-4">
@@ -383,17 +415,45 @@ export default function HowToGetRidOfCockroachesCanadaPage() {
           <h2>The Apartment Problem: Your Unit Is Not the Colony</h2>
           <p>If you rent in a multi-unit building, everything above still applies &mdash; and it is still not enough, because the premise changes. In a house, your kitchen contains the colony. In an apartment block, your kitchen is one node in a building-wide network: German cockroaches move floor to floor through plumbing chases, shared walls, garbage rooms, and under hallway doors, and an untreated colony two units away will reseed your kitchen indefinitely. You can bait perfectly and still be reinvaded monthly. This is not a hygiene failure on your part; it is topology.</p>
           <p>The play has three parts. <strong>First, contain your unit:</strong> bait stations and monitors as above, plus physical exclusion &mdash; seal the gap around plumbing penetrations under the sinks with sealant or steel wool, add a door sweep to the hallway door, and caulk the baseboard gaps in the kitchen. You are making your unit the hardest node on the network to live in.</p>
+          <Photo
+            id="german-cockroach-frass-cabinet"
+            alt="Back wall of a kitchen cabinet with a hole in the plaster and dead cockroaches and specks of droppings around it"
+            caption="A hole in the back wall of a kitchen cabinet, with dead cockroaches and specks of droppings (frass) around it; the photographer identified the roaches as German cockroaches. Gaps like this one are what the sealant is for."
+          />
           <p><strong>Second, report it in writing.</strong> In most provinces, pest control in rental housing is the landlord&rsquo;s legal responsibility &mdash; in Ontario, the Residential Tenancies Act obliges landlords to keep units in a good state of repair and fit for habitation, and tribunals have consistently treated cockroach infestations as the landlord&rsquo;s problem to remediate. A dated email with photos starts the clock; a verbal mention to the superintendent starts nothing. If the response stalls, your municipal property-standards or bylaw office is the next call.</p>
           <p><strong>Third, push for coordinated IPM, not a hallway spray.</strong> The treatment that works in multi-unit buildings is integrated pest management: inspection and gel-baiting of your unit <em>and</em> the adjacent units (both sides, above, below), monitoring boards everywhere, and follow-up visits &mdash; because treating one unit in a network merely rotates which kitchen hosts the colony this month. If your building brings in a contractor who proposes to fog your unit and call it done, you now know enough to object. Apartment dwellers fighting one building-borne pest often meet another; our <Link href="/blog/bed-bug-heater-canada">bed bug heat treatment guide</Link> covers the other one, and the same report-in-writing playbook applies.</p>
 
           <h2>The Advion Question: America&rsquo;s Favourite Gel, Canada&rsquo;s Grey Market</h2>
           <p>Spend ten minutes researching cockroaches online and you will meet Advion &mdash; the indoxacarb gel bait with a cult following on American forums, where &ldquo;just get Advion&rdquo; is the reflexive answer to every roach thread. The enthusiasm is not unfounded: professional-grade gel baits are genuinely excellent, and the crack-and-crevice syringe format reaches harbourages an enclosed station cannot.</p>
           <p>The Canadian catch is regulatory. Every pesticide legally sold in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and carry a PCP registration number on its label &mdash; that number is your one-glance test for any product, and its absence means the product is not authorized for sale here, whatever the marketplace listing implies. The Advion gel that circulates to Canadian buyers through cross-border listings is typically US-market product, formulated and labelled under US EPA registration, with no Canadian label directions behind it. Before buying <em>any</em> gel bait online &mdash; Advion or otherwise &mdash; zoom the listing photos and check the physical label for a PCP number, and treat its absence as your answer.</p>
-          <p>We wrote a full standalone guide to the situation &mdash; what Advion is, why Americans swear by it, what the Pest Control Products Act actually says, and what the compliant Canadian alternatives are &mdash; in <Link href="/blog/advion-cockroach-gel-bait">Advion Cockroach Gel in Canada: the honest answer</Link>. The short version for this page: domestic-class enclosed bait stations are the registered, child-resistant, no-questions path for Canadian consumers, they run on the same carry-home-and-cascade mechanism, and a well-placed dozen of them ends most household infestations without importing anything.</p>
+          <p>We wrote a full standalone guide to the situation &mdash; what Advion is, why Americans swear by it, what the Pest Control Products Act actually says, and what the compliant Canadian alternatives are &mdash; in <Link href="/blog/advion-cockroach-gel-bait">Advion Cockroach Gel in Canada: the honest answer</Link>. The short version for this page: a station or gel whose label shows a PCP number and lists cockroaches, such as Raid Ant Roach &amp; Earwig Gel Baits (25735), is the registered path for Canadian consumers, and a well-placed set of them, at the count the label asks for, ends most household infestations without importing anything.</p>
 
           <h2>When to Stop DIYing and Call a Professional</h2>
           <p>Bait-and-monitor solves most owner-occupied house infestations. Escalate to a licensed professional when the evidence says the problem is bigger than the tools: <strong>daytime sightings</strong> (roaches are nocturnal; daylight foraging means harbourages are saturated and the population is pushing individuals out), <strong>spread beyond kitchen and bathroom</strong> into bedrooms or upper floors, <strong>monitors still catching after 8&ndash;12 weeks</strong> of disciplined baiting and sanitation, <strong>asthma in the household</strong> &mdash; cockroach allergens in droppings and shed skins are a clinically established asthma trigger, particularly for children, which converts a nuisance into a health file &mdash; or <strong>any multi-unit building</strong> where the source sits beyond your walls. The full list of warning signs, from droppings and smears to egg cases, is in our guide to the <Link href="/blog/signs-of-cockroaches">signs of cockroaches</Link>, written for US readers.</p>
-          <p>Professionals bring what consumers cannot buy in Canada: commercial-class gel baits, insect growth regulators that break the breeding cycle, HEPA vacuum removal of live harbourages, and &mdash; in apartments &mdash; the authority to treat the adjacent units that are actually driving your problem. Expect a real program (inspection, baiting, follow-up visits over 4&ndash;8 weeks), not a one-visit spray; a contractor who proposes to fog your kitchen is telling you to keep shopping. For what roach work typically costs across Canada and how to sanity-check a quote, see our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link>.</p>
+          <p>Professionals bring what consumers cannot use in Canada: commercial-class gel baits (VANECTO Cockroach Gel Bait, PCP 35686, whose label limits it to certified or licensed applicators, and Seclira Cockroach Gel Bait Reservoir, PCP 33424, are two on the registry today), HEPA vacuum removal of live harbourages, and &mdash; in apartments &mdash; the authority to treat the adjacent units that are actually driving your problem. The insect growth regulators described in the US section below are not part of it here: no product containing hydroprene or pyriproxyfen lists cockroaches on Canada&rsquo;s registry. Expect a real program (inspection, baiting, follow-up visits over 4&ndash;8 weeks), not a one-visit spray; a contractor who proposes to fog your kitchen is telling you to keep shopping. For what roach work typically costs across Canada and how to sanity-check a quote, see our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link>.</p>
+
+          <h2 id="situation">Which Plan for Your Situation?</h2>
+          <ul>
+            <li><strong>Small striped roaches in one kitchen, in a home you control:</strong> the bait-first plan above, with stations whose label shows a PCP number; Raid&rsquo;s Canadian label (25735) asks for at least 10 baits in the kitchen and 2 in each bathroom.</li>
+            <li><strong>An apartment or condo:</strong> the same plan in your unit, plus a written report to the landlord, because the colony is usually bigger than your unit.</li>
+            <li><strong>One big roach near a basement floor drain:</strong> probably an American or Oriental cockroach; glue boards beside the drain, water in the trap, and a fine mesh screen over the drain, as Health Canada suggests.</li>
+            <li><strong>Roaches in hinges and seams a station cannot reach:</strong> a gel or paste whose label lists cockroaches, such as Ortho Ant B Gon Max Ant &amp; Roach Killer Gel (32560) or Homeowners DIY Roach Bait (30293), which is for cracks and crevices only.</li>
+            <li><strong>Children, pets or allergies at home:</strong> every bait label in the table above says to place it where children and pets cannot reach; the PIC trays contain peanut butter and fish meal, the Homeowners DIY paste contains milk and wheat, and Safer&rsquo;s dust contains milk.</li>
+            <li><strong>Daytime sightings, or catches after 8&ndash;12 weeks of baiting:</strong> a licensed operator, whose commercial gels are restricted to licensed applicators.</li>
+            <li><strong>You already ordered Advion or another US gel:</strong> it has no Canadian registration, and Health Canada says it is a violation of the Pest Control Products Act to buy and use unregistered pesticides.</li>
+          </ul>
+
+          <h2>Canadian Cockroach Bait Checklist</h2>
+          <ol>
+            <li><strong>A PCP number on the label.</strong> Health Canada&rsquo;s advice is to always look for one.</li>
+            <li><strong>Cockroaches on the label,</strong> and your room among the sites in its directions.</li>
+            <li><strong>The label&rsquo;s count:</strong> at least 10 kitchen baits plus 2 per bathroom for Raid 25735; 12 trays for about 20&nbsp;m&sup2; for PIC 20471.</li>
+            <li><strong>A replacement date</strong> written on each station: every 4 weeks for Raid, about every 2&ndash;3 months for PIC.</li>
+            <li><strong>Placement out of reach</strong> of children and pets, which every bait label in the table requires.</li>
+            <li><strong>Allergens:</strong> peanut butter and fish meal in PIC&rsquo;s trays, milk and wheat in the Homeowners DIY paste, milk in Safer&rsquo;s dust.</li>
+            <li><strong>No spray on or beside the bait,</strong> for the reasons in the spray section above.</li>
+            <li><strong>Not Combat, Raid Max or Advion roach bait</strong> from a US listing: none is registered in Canada today.</li>
+          </ol>
 
           <h2>Getting Rid of Cockroaches in the United States: What Is Different</h2>
           <p>The method does not change at the border, but three things do: the species list is longer, the bait and growth-regulator shelf is wider, and the regulator is the EPA rather than Health Canada. Everything above about sanitation, monitoring and bait-first control applies in a US home. This section adds what a reader in Texas, Florida, California or Ohio needs that a reader in Ontario does not.</p>

@@ -14,12 +14,15 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-electric-fence-for-raccoons-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-29'
 const TITLE = 'Best Electric Fence for Raccoons Canada 2026 — Energizers, Kits & Wiring That Actually Stop Them'
-const META_TITLE = 'Best Electric Fence for Raccoons Canada 2026'
+// TITLE NOTE (Oct 29, 2026): was 'Best Electric Fence for Raccoons Canada 2026'; top queries, Jul 29-Oct 26 (all countries): electric fence for raccoons 162 at 9.4 (2 clicks), electric fence for racoons 61 at 9.6 (2), best electric fence for raccoons 36 at 4.1 (2), electric fencing for raccoons 12 at 7.7 (1), diy electric fence for raccoons 10 at 6.9 (1), do electric fences work for raccoons 2 at 5.0. 'raccoon repellent' left to /blog/raccoon-deterrent, 'raccoon trap' to /blog/best-raccoon-live-trap-canada, under-deck proofing to /blog/raccoon-and-skunk-proofing-under-a-deck-canada.
+const META_TITLE = 'Electric Fence for Raccoons Canada: Kits & Setup'
 
 const FAQS = [
   {
@@ -48,11 +51,11 @@ const FAQS = [
   },
   {
     question: 'Is it legal to run an electric garden fence in Canada?',
-    answer: 'Low-power electric fencing for gardens and livestock is legal and widely used across Canada, and a proper fence energizer is engineered to deliver a safe, pulsed shock rather than a continuous current — it startles, it does not injure. That said, rules vary by municipality, especially for front yards, urban lots, and anything near a public sidewalk, and some cities require warning signs or restrict electric fences in residential zones. Check your local bylaws before installing, keep the fence clearly marked, and choose an energizer certified for sale in Canada (look for CSA or cUL marks) rather than an ungraded grey-market import. Unlike a chemical repellent, an electric fence is a device, not a pesticide, so it needs no Health Canada PCP registration — but the electrical safety certification still matters.',
+    answer: 'It depends on where you live, and in Toronto and Mississauga the answer for a backyard garden is no. Toronto\'s fence by-law (Municipal Code § 447-1.2 A(4)) bans any fence used as a conductor of electricity unless it is on agricultural land in actual use for raising livestock, carries no more than 12 volts, is designed only to contain livestock and has warning signs no more than 12 metres apart. Mississauga\'s Fence By-law 0397-1978 (s. 12) says no person shall erect an electrical fence on any land, apart from a direct-current fence of at most 12 volts used solely to contain animals on agricultural land, with warning signs. Other municipalities set their own rules, so read your fence by-law before you buy. Health Canada\'s pesticide registry lists no electric fence energizer; for electrical safety, choose one with a recognized Canadian certification mark (CSA or cUL, for example) rather than an unmarked grey-market import.',
   },
   {
     question: 'Do I need a certified energizer, or can I import a cheaper US model?',
-    answer: 'Buy one certified for the Canadian market. Fence energizers sold through Canadian retailers and Amazon.ca carry CSA or cUL certification, meaning the pulse output and enclosure have been tested to Canadian electrical-safety standards. Grey-market US units that are not certified for Canada may not meet those standards, can void home-insurance considerations, and — for plug-in models — may assume wiring or outlet conditions that differ from yours. The price difference is small next to the risk. The same logic applies that we use across our Canadian buying guides: pick the product that is properly certified and supported here, not the cheapest listing shipped from across the border.',
+    answer: 'Buy one with a recognized Canadian certification mark. In Ontario, the Electrical Safety Authority says that before any electrical product is used, sold, displayed or advertised, it must be evaluated and approved by an accredited certification or field evaluation agency, and that using unapproved products is against the law; its list of recognized certifiers includes CSA, Underwriters Laboratories and Intertek. A listing, on Amazon.ca or anywhere else, does not prove it: ESA\'s advice is to check the product description, ask the seller if certification is not mentioned, and not to use an item that has no mark. The price difference is small next to the risk. Pick the product that is properly certified and supported here, not the cheapest listing shipped from across the border.',
   },
   {
     question: 'How do I stop weeds and snow from killing the fence?',
@@ -64,17 +67,25 @@ const FAQS = [
   },
   {
     question: 'Will an electric fence hurt my pets, kids, or the raccoon?',
-    answer: 'A properly specified garden energizer delivers a brief, high-voltage, low-current pulse — the sensation is a sharp, startling zap, not a dangerous or injuring shock, which is exactly why it works as a training deterrent for animals and is used safely around livestock and pets worldwide. It will not harm a raccoon, a dog, or a curious child beyond a memorable jolt, but you should still site it sensibly: mark the fence, keep the lowest wire out of easy reach of toddlers, and supervise pets during the first few days. Choose an energizer certified for Canada so the pulse characteristics meet safety standards, and never improvise with mains voltage or an uncertified unit, which is genuinely dangerous.',
+    answer: 'A garden energizer sends brief, high-voltage, low-current pulses rather than a steady current, so a touch gives a sharp jolt, and that jolt is the whole deterrent. Treat it as a hazard to manage, not as something harmless. The ICWDM\'s raccoon guidance says to use electric fences with care and install appropriate caution signs, and Zareba puts three warning signs in its garden kit. Mark the fence, keep the hot wires away from where toddlers play, supervise children and pets until they know where it is, and switch it off before you work near it. Choose an energizer with a recognized Canadian certification mark, and never improvise with mains voltage or an uncertified unit, which is genuinely dangerous.',
   },
   {
     question: 'Is an electric fence better than trapping or a repellent for raccoons?',
     answer: 'For protecting a specific area — a vegetable garden, sweet corn, a chicken run, a pond, a compost pile — an electric fence is usually the most reliable long-term solution, because it works every night without you doing anything and raccoons quickly learn to avoid it. Trapping removes an individual animal but a new raccoon simply moves into the vacated territory, and live-trapping and relocation are restricted in many parts of Canada. Scent and taste repellents wash off and fade, and raccoons habituate to them fast. The honest trade-off is effort: an electric fence takes real setup and maintenance, whereas a repellent is a five-minute spray. But for a persistent raccoon on high-value plantings, the fence is the one that keeps working.',
   },
+  {
+    question: 'How do I make a DIY electric fence for raccoons?',
+    answer: 'Start with the layout the extension services give. Iowa State recommends two wires, one 4 to 6 inches (10–15 cm) above the ground and one at 12 inches (30 cm); K-State suggests about 5 and 9 inches and says raccoons must not be able to crawl under, go between or go over the wires without being shocked. Run the wire on insulated posts from an energizer, and ground it: Zareba\'s guide calls for three 6 to 8 foot rods, 10 feet apart, the first within 20 feet of the energizer. Put it up before the corn is close to ripe, switch it on before dusk, keep weeds off the wire, and check your fence by-law first.',
+  },
+  {
+    question: 'Can I use an electric fence for other garden pests?',
+    answer: 'Yes, with a different layout for each animal. Zareba\'s garden guide gives raccoons and opossums one wire at 4 to 6 inches (the extension layouts above use two); groundhogs one wire with the first at 4 inches; rabbits 3 to 5 wires spaced 4 inches apart, starting at 4 inches; and squirrels 3 to 5 wires 4 inches apart that must clear overhanging limbs and other climbing routes. K-State adds that electrified net fencing, sold in ready-to-use kits, also keeps out smaller animals such as rabbits. A fence for several animals means more wires, more weed contact and a stronger energizer, and the same by-law check applies.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best electric fences for keeping raccoons out of Canadian gardens: how to size the energizer and joules, plug-in vs battery vs solar, the two-low-wire layout, grounding that actually shocks, and our Zareba, Gallagher, solar, and budget picks. Updated 2026.',
+  description: 'An electric fence stops raccoons when two low wires (10–15 and 30 cm) are live from dusk and grounded. Kits, energizers, and Toronto and Mississauga by-laws.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -99,7 +110,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
             <span className="text-white">Best Electric Fence for Raccoons</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A well-built electric fence is the one raccoon deterrent that keeps working night after night &mdash; here is how to size the energizer and joules, choose plug-in, battery, or solar, run the two low wires that actually stop raccoons, and ground the fence so it shocks. Our Zareba, Gallagher, solar, and budget picks below.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">An electric fence keeps raccoons out of a garden when two low hot wires, about 10&ndash;15 cm and 30 cm off the ground, are switched on before dusk; Iowa State Extension calls it the most effective way to protect sweet corn. Our pick is the Zareba garden kit for a home plot with an outlet, if your town allows one: Toronto and Mississauga permit electric fences only on farmland, to contain animals, at 12 volts or less.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -112,7 +123,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best electric fence for raccoons in Canada is a <strong>low-impedance energizer</strong> feeding a <strong>two-strand fence at about 15 cm and 30 cm off the ground</strong>. A <strong>Zareba garden kit</strong> is the clean all-in-one starting point; a <strong>Gallagher energizer</strong> is the upgrade for more joules and longevity; a <strong>solar unit</strong> covers off-grid plots. Raccoons learn fast, so a correctly grounded fence trains them off in a night or two &mdash; and grounding, not power, is what makes or breaks the shock.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best electric fence for raccoons in Canada is a <strong>low-impedance energizer</strong> feeding a <strong>two-strand fence at about 10&ndash;15 cm and 30 cm off the ground</strong> (Iowa State Extension), switched on before dusk and off after daybreak (ICWDM). A <strong>Zareba garden kit</strong> is the clean all-in-one starting point; a <strong>Gallagher energizer</strong> is the upgrade for more joules and longevity; a <strong>solar unit</strong> covers off-grid plots. Grounding, not power, is what makes or breaks the shock, and the by-law comes first: Toronto and Mississauga allow electric fences only on agricultural land, to contain animals.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Run <strong>two low wires</strong> (~15 cm and ~30 cm) &mdash; raccoons raid at ground level, so a single high wire fails.</li>
               <li>Pick the power source for the site: <strong>plug-in</strong> is strongest, <strong>solar</strong> for off-grid, <strong>battery</strong> where neither fits.</li>
@@ -135,12 +146,12 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
               {
                 badge: 'Best Overall Kit',
                 name: 'Zareba Garden Electric Fence Kit',
-                why: 'The cleanest all-in-one starting point for a home garden: a low-impedance energizer, poly-wire, step-in posts, and insulators in one box, sized for a small two-strand raccoon loop. Widely available and certified for Canada, so you are running in a weekend.',
+                why: 'The cleanest all-in-one starting point for a home garden: Zareba’s kit pairs a 5-acre AC or DC charger with 250 ft of 17-gauge aluminum wire and ten 30-inch poly posts with clips, plus a ground rod, a tester and warning signs. Check the charger for a recognized Canadian certification mark, and check your fence by-law first: Toronto and Mississauga allow electric fences only on agricultural land.',
                 search: 'zareba electric fence garden kit',
                 score: 9.0,
                 featured: true,
-                pros: ['Complete kit — energizer, wire, posts, insulators', 'Low-impedance — tolerates light weed contact', 'Well-supported, Canada-certified brand'],
-                cons: ['Grounding rods often bought separately', 'Sized for small plots, not long perimeters'],
+                pros: ['Complete kit — charger, wire, posts, ground rod, tester', 'Three warning signs in the box', 'Zareba lists raccoons, rabbits, skunks and woodchucks'],
+                cons: ['One ground rod in the box; Zareba’s guide calls for three', 'Sized for small plots, not long perimeters'],
               },
               {
                 badge: 'Best Energizer (Premium)',
@@ -181,7 +192,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Small home garden, outlet nearby?</strong> The <em>Best Overall</em> Zareba kit gets you running fastest with everything in one box. <strong>Want maximum longevity and headroom?</strong> Build around the <em>Best Energizer</em> Gallagher unit. <strong>No power at the plot?</strong> The <em>Best Solar</em> kit runs itself. <strong>Tight budget with an outlet?</strong> The <em>Best Budget</em> charger plus your own wire and grounding does the job. <strong>Chicken run or long perimeter?</strong> Size up to the <em>Poultry / Larger Runs</em> layout.
+                <strong>First, check your fence by-law:</strong> Toronto and Mississauga allow electric fences only on agricultural land. <strong>Small home garden, outlet nearby?</strong> The <em>Best Overall</em> Zareba kit gets you running fastest, with the charger, wire, posts and a ground rod in one box. <strong>Want maximum longevity and headroom?</strong> Build around the <em>Best Energizer</em> Gallagher unit. <strong>No power at the plot?</strong> The <em>Best Solar</em> kit runs itself. <strong>Tight budget with an outlet?</strong> The <em>Best Budget</em> charger plus your own wire and grounding does the job. <strong>Chicken run or long perimeter?</strong> Size up to the <em>Poultry / Larger Runs</em> layout.
               </>
             }
           />
@@ -239,7 +250,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Electric fence energizers are devices, not pesticides &mdash; none require Health Canada PCP registration, which is why an electric fence is a fully legal, permanent-deterrent option for Canadian gardeners (subject to local bylaws). Choose a CSA / cUL-certified unit for electrical safety.
+            Health Canada&rsquo;s pesticide registry lists no electric fence energizer (no Zareba or Gallagher record, October 29, 2026). Whether you may put one up is a municipal question: Toronto (Municipal Code &sect; 447-1.2 A(4)) and Mississauga (Fence By-law 0397-1978, s. 12) allow electric fences only on agricultural land, to contain animals, at 12 volts or less, with warning signs. Choose a unit with a recognized Canadian certification mark (CSA or cUL, for example) for electrical safety.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -257,6 +268,20 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
           <p>The best electric fence for raccoons is not a single product &mdash; it is a small system built around the right energizer. For most Canadian home gardens that system is a low-impedance energizer feeding two poly-wire strands set low to the ground, and the simplest way to get there is a complete garden kit like the <strong>Zareba</strong>, which puts the energizer, wire, posts, and insulators in one box. Where you want more power and a longer service life, you build around a <strong>Gallagher</strong> energizer and supply your own wire and grounding. Where there is no outlet, a <strong>solar</strong> unit charges itself. All of these appear in our picks above because different gardens need different trade-offs, but the reasoning below explains why the layout and the grounding matter more than the brand on the box.</p>
           <p>The thing to understand before you spend money is that a raccoon fence succeeds or fails on two details almost everyone underestimates: <em>where the wires sit</em> and <em>how well the fence is grounded</em>. Get those right with a modest energizer and you will stop raccoons. Get them wrong with the most expensive energizer on the shelf and you will have an inert length of wire. This guide is built around getting those two right.</p>
 
+          <QuickIdTable
+            title="Electric fence options for raccoons: how each works, who it suits, the limits"
+            head={['Option', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Zareba garden kit (AC or DC)', 'A “5 Acre” AC or battery charger, 250 ft of 17-gauge aluminum wire, ten 30-inch poly posts, one ground rod with clamp, a tester and three warning signs in one box (Zareba)', 'A home garden plot; Zareba lists raccoons, rabbits, skunks and woodchucks', 'One ground rod in the box, where Zareba’s ground-rod guide calls for three; Zareba’s raccoon layout is one wire 4–6 in up'],
+              ['Two-wire garden layout', 'Hot wires at about 4–6 in (10–15 cm) and 12 in (30 cm) on insulated posts (Iowa State); K-State uses about 5 and 9 in', 'Sweet corn, melons and vegetable beds', 'Raccoons must not be able to crawl under, go between or go over the wires without a shock (K-State); weeds on a wire drain it'],
+              ['Hot wire on an existing fence', 'One energized strand along the top of a mesh fence (ICWDM)', 'Poultry yards and fenced gardens, because raccoons climb conventional fences', 'Still needs an energizer, insulators and grounding'],
+              ['Electrified netting kit', 'Electric poultry netting sold in ready-to-use kits with fencing and posts already assembled (K-State)', 'A quick fence around a patch; also keeps out smaller animals such as rabbits', 'Keep weeds off it so they do not ground the fence (K-State)'],
+              ['Separate energizer + polywire or tape', 'An energizer (Gallagher or similar) with your own wire, posts and ground rods', 'Long runs, several wires, or weedy ground', 'More parts to buy: wire, posts, insulators, ground rods and a tester'],
+              ['Ear wrapping (no electricity)', 'Filament tape or plastic bags around the ripening ears (ICWDM)', 'A small backyard corn patch', 'ICWDM: cuts raccoon damage to sweet corn by 70% to 80%, but tape and fences work better than bagging'],
+            ]}
+            caption={<>Kit contents from Zareba&rsquo;s <a href="https://www.zarebasystems.com/garden-kit" target="_blank" rel="noopener noreferrer" className="underline">garden-kit page</a> and <a href="https://www.zarebasystems.com/articles/protecting-garden-spring" target="_blank" rel="noopener noreferrer" className="underline">garden-fencing guide</a>; ground rods from Zareba&rsquo;s <a href="https://www.zarebasystems.com/learning-center/installation-guide/ground-rod-installation" target="_blank" rel="noopener noreferrer" className="underline">installation guide</a>; wire heights from <a href="https://yardandgarden.extension.iastate.edu/faq/how-can-i-keep-raccoons-out-my-sweet-corn" target="_blank" rel="noopener noreferrer" className="underline">Iowa State University Extension</a> and <a href="https://extension.k-state.edu/news-and-publications/news/stories/2025/07/horticulture-raccoons-sweet-corn.html" target="_blank" rel="noopener noreferrer" className="underline">K-State Research and Extension (July 7, 2025)</a>; the hot-wire and ear-wrapping rows from the <a href="https://icwdm.org/species/mammals/raccoons/raccoon-damage-prevention-and-control-methods/" target="_blank" rel="noopener noreferrer" className="underline">ICWDM raccoon chapter</a> (Boggess, <em>Prevention and Control of Wildlife Damage</em>, 1994). The separate-energizer row restates this page&rsquo;s own section. Checked October 29, 2026; no fence was tested.</>}
+          />
+
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main options:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zareba electric fence garden kit">Zareba garden kit →</BuyLink>
@@ -268,6 +293,7 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
           <NextUp path="/blog/best-electric-fence-for-raccoons-canada" />
           <h2>Why the Two Low Wires Are the Whole Trick</h2>
           <p>Raccoons are climbers, so people instinctively build tall fences &mdash; and tall fences are exactly what raccoons defeat. In a garden a raccoon does not scale a wall; it noses along the base looking for a way under or through, working at ground level with its paws and snout. That behaviour is the vulnerability an electric fence exploits. The proven layout is two hot strands set low: one at roughly <strong>15 cm (6 inches)</strong> and one at roughly <strong>30 cm (12 inches)</strong> off the ground. The bottom wire catches the animal as it pushes forward at soil level; the second catches it if it rears up to climb. The first time a raccoon&rsquo;s wet nose meets a live wire, it gets a sharp, memorable jolt and leaves &mdash; and raccoons are smart enough to remember and avoid that spot for a long time.</p>
+          <Photo id="raccoon-on-chimney" alt="A raccoon on top of a house chimney at night" caption="A raccoon on top of a house chimney at night (Chapel Hill, North Carolina). The ICWDM calls raccoons excellent climbers that can get in by climbing conventional fences, which is why a tall fence alone fails and the hot wires sit low or along the top." />
           <p>A single high wire is the classic mistake: the raccoon simply walks underneath it and never touches metal. If you want extra insurance against other animals you can add a third strand higher up, but do not let it distract you from the two low wires that do the actual raccoon work. Keep those strands scrupulously clear of weeds, mulch, and soil, because anything touching a hot wire bleeds the shock away to ground before it ever reaches the animal.</p>
 
           <h2>How to Choose: Sizing the Energizer and Reading Joules</h2>
@@ -298,6 +324,33 @@ export default function BestElectricFenceForRaccoonsCanadaPage() {
           <p>For a small home garden with an outlet nearby and a season or two of raccoon trouble, an all-in-one kit like the Zareba is genuinely all most people need &mdash; add proper ground rods and a tester and you have a fence that stops raccoons for a modest outlay. There is no shame in the budget path: a basic plug-in low-impedance charger with your own wire and grounding will shock a raccoon on a short two-strand loop just as surely as a premium unit.</p>
           <p>The premium energizer &mdash; a Gallagher or similar &mdash; earns its cost in three situations: a <strong>long or multi-wire perimeter</strong>, <strong>weedy or brushy ground</strong> you cannot keep perfectly clear, or a desire for a unit that will run reliably for many seasons rather than a few. In those conditions the extra joules and build quality are the difference between a fence that stays punchy and one that goes soft by August. The way to overspend, conversely, is to buy a heavy multi-joule energizer for a tiny clean garden loop where a kit would have done identical work. Buy the power source and the low-impedance output you need, buy proper grounding and a tester, and step up to a premium energizer only when the run length or the conditions actually call for it.</p>
           <p>If you are weighing the whole build against other approaches, our broader <Link href="/blog/best-pest-control-equipment-canada">pest-control equipment hub</Link> puts the electric fence next to the sprayers, foggers, and traps that make up a complete home-defence kit, so you can see where an electric fence is the right tool and where something else fits better.</p>
+
+          <h2 id="situation">Which Electric Fence for Your Situation?</h2>
+          <ul>
+            <li><strong>A home vegetable plot or corn patch with an outlet nearby, where your by-law allows it:</strong> an all-in-one garden kit, with the two low wires at about 10&ndash;15 cm and 30 cm.</li>
+            <li><strong>No power at the plot:</strong> a solar or battery energizer, with the panel kept clear of snow late in the season.</li>
+            <li><strong>A chicken run or a fenced yard:</strong> a hot wire along the top of the mesh fence, which the ICWDM says greatly increases how well a fence keeps raccoons out.</li>
+            <li><strong>Rabbits and groundhogs as well as raccoons:</strong> more wires starting about 10 cm (4 in) up, or electrified netting.</li>
+            <li><strong>A small corn patch in a city that bans electric fences:</strong> filament tape or bags on the ripening ears, which the ICWDM says cut raccoon damage by 70% to 80%.</li>
+            <li><strong>A raccoon under the deck or in the roof, not in the garden:</strong> a fence will not help; that is an exclusion job (see <Link href="/blog/raccoon-and-skunk-proofing-under-a-deck-canada">raccoon and skunk proofing under a deck</Link>).</li>
+          </ul>
+          <Photo id="raccoon-scat-lawn-ruler" alt="Raccoon droppings from five deposits on a lawn beside an L-shaped ruler" caption="Droppings from five deposits on a lawn, beside an L-shaped ruler, that the observer identified as raccoon scat left by raccoons eating her ripe persimmons (iNaturalist, California; no second identification yet). Droppings by a fruit tree or corn patch help tell you which animal you are fencing out." />
+
+          <h2>Check Your Fence By-law Before You Buy</h2>
+          <p>The ICWDM&rsquo;s raccoon chapter says electric fences are effective &ldquo;where legal,&rdquo; and in Toronto and Mississauga they are not allowed on a residential lot. Toronto&rsquo;s Municipal Code (Chapter 447, &sect; 447-1.2 A(4)) says no fence or attachment to a fence shall be used as a conductor of electricity unless it is on agricultural land in actual use for raising livestock, carries no more than 12 volts, is designed and installed only to contain livestock, and has warning signs no more than 12 metres apart. Mississauga&rsquo;s Fence By-law 0397-1978 (s. 12) says no person shall erect an electrical fence on any land, except a direct-current fence on land lawfully used for agriculture that has a maximum 12-volt trickle charge, is erected solely to contain animals and carries warning signs. Both by-laws also provide for exemptions: in Toronto a person may ask in writing to have a fence considered by council or community council for a site-specific exemption from any of Chapter 447&rsquo;s fence requirements (&sect; 447-1.5 B), and in Mississauga any owner may apply in writing to the Commissioner for an exemption from the by-law, with a property survey, a site plan, the fence&rsquo;s specifications, notice to the abutting neighbours and the application fee (s. 13).</p>
+          <p>Other cities and townships write their own fence by-laws, so look yours up before you spend anything on an energizer. If an electric fence is not allowed where you live, look at the non-electric options instead, such as wrapping the corn ears (in the table above). Health Canada&rsquo;s pesticide registry lists no electric fence energizer; the electrical-safety question is separate, and in Ontario the Electrical Safety Authority says an electrical product must be approved by an accredited certification or field evaluation agency before it is sold or used.</p>
+
+          <h2>Electric Fence for Raccoons: Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>Your fence by-law.</strong> Toronto and Mississauga allow electric fences only on agricultural land; check yours first.</li>
+            <li><strong>A recognized Canadian certification mark</strong> on the energizer itself (ESA&rsquo;s list includes CSA, Underwriters Laboratories and Intertek), not just in the listing.</li>
+            <li><strong>Power that fits the site:</strong> plug-in where there is an outlet, solar or battery where there is not.</li>
+            <li><strong>Enough wire and posts</strong> for two strands around the whole plot, at about 10&ndash;15 cm and 30 cm.</li>
+            <li><strong>Ground rods:</strong> Zareba&rsquo;s guide calls for three 6 to 8 foot rods, 10 feet apart, the first within 20 feet of the energizer; a garden kit includes one.</li>
+            <li><strong>A fence tester,</strong> so you know the wire is live after rain, dew or frost.</li>
+            <li><strong>Warning signs</strong> for the fence; the ICWDM says to install appropriate caution signs.</li>
+            <li><strong>A timing plan:</strong> up before the corn is close to ripe (K-State), on before dusk and off after daybreak (ICWDM).</li>
+          </ol>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
