@@ -152,14 +152,14 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
                 search: 'zappbug room large heater',
                 score: 9.1,
                 featured: true,
-                pros: ['Enclosure walls contain and even the heat', 'Treats mattresses, furniture, and belongings together', 'Runs on a standard Canadian outlet'],
+                pros: ['Enclosure walls contain and even the heat', 'Treats mattresses, furniture, and belongings together', 'Plugs into household outlets; ZappBug says it needs 4 separate circuits'],
                 cons: ['Premium price', 'Only treats what fits inside — not the structure'],
               },
               {
                 badge: 'Best Portable Room Heater',
-                name: 'Forced-Air Portable Bed-Bug Heater (Nuventa-style)',
+                name: 'Forced-Air Portable Bed-Bug Heater (120V, certified)',
                 why: 'A dedicated bed-bug heater that raises the ambient air of the actual room and, with airflow, drives heat into the structure and fixed furniture. The pick when bugs are in baseboards or a heavy bed you cannot dismantle. Built-in tip-over and over-temperature cutoffs that improvised space heaters lack.',
-                search: 'nuventa portable bed bug heater',
+                search: 'portable bed bug heater 120v certified',
                 score: 8.5,
                 pros: ['Treats fixed structure and immovable furniture', 'Purpose-built safety cutoffs', 'No enclosure to build'],
                 cons: ['Very sensitive to room insulation and air leaks', 'One unit only suits a small-to-medium room'],
@@ -223,7 +223,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
                   <td className="px-4 py-3 text-gray-700">Ambient room air, fixed structure, immovable furniture</td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; if the room is sealed and small</td>
                   <td className="px-4 py-3 text-gray-700">Cold spots; insulation and leaks; sizing limits</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="portable bed bug heater 120v certified" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Mid-size heat chamber<br /><span className="font-normal text-xs text-gray-500">portable box</span></td>
@@ -276,7 +276,7 @@ export default function BestWholeRoomBedBugHeaterCanadaPage() {
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main heat-equipment types:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="zappbug room large heater">Room-scale enclosure →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="nuventa portable bed bug heater">Portable room heater →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="portable bed bug heater 120v certified">Portable room heater →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="zappbug portable heat chamber">Mid-size heat chamber →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="wireless remote thermometer high cfm fan">Fan + thermometer kit →</BuyLink>
           </div>
