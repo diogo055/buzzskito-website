@@ -1,0 +1,10 @@
+{
+ "id": "baby-silverfish",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "48aa6e6017a6eb4fd5b07b557aacf3fbd01406c2101aa4dd55f2c76c9d42769e",
+ "claimsChecked": 404,
+ "claimsCorrected": 1,
+ "claimsRemovedOrSoftened": 4,
+ "checkedOn": "2026-10-30"
+}

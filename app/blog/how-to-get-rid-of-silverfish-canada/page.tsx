@@ -193,6 +193,7 @@ export default function HowToGetRidOfSilverfishCanadaPage() {
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Silverfish vs Firebrats vs House Centipedes — Which One Is in Your Basement?</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
             Three very different insects get reported as &ldquo;silverfish&rdquo; in Canadian homes, and one of them is actually on your side. Thirty seconds of ID changes both where you fight and whether you fight at all.
+            If the ones you are finding are tiny, our North American photo guide to <Link href="/blog/baby-silverfish" className="text-brand-700 underline">baby silverfish</Link> gives the size of each stage from egg to adult, how firebrat young compare and the other small bugs mistaken for them.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">

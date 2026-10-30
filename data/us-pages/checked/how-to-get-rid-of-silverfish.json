@@ -2,7 +2,7 @@
  "id": "how-to-get-rid-of-silverfish",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "36c8400d608c24e3cf2455763b4b42165aa461d077d0fb20cdb3eeced45987f8",
+ "sha": "f0ccfc0a6623b044c2ed7f606cb0693dfe1e3fe07104e08700a3c76d6c7dec27",
  "claimsChecked": 280,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 2,
@@ -11,5 +11,12 @@
   "on": "2026-10-20",
   "scheduledFor": "2026-10-20",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-10-29",
+   "note": "link to /blog/baby-silverfish added as a new one-sentence paragraph after the first paragraph of section 'What do baby silverfish look like?' (release-day link-in, Oct 29)",
+   "previousSha": "36c8400d608c24e3cf2455763b4b42165aa461d077d0fb20cdb3eeced45987f8"
+  }
+ ]
 }
