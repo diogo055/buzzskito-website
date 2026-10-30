@@ -1,0 +1,10 @@
+{
+ "id": "baby-snakes",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "a00d1836f84a99ce444d46033a485702ba9c9d700d6368364f7b7099c03241df",
+ "claimsChecked": 404,
+ "claimsCorrected": 13,
+ "claimsRemovedOrSoftened": 9,
+ "checkedOn": "2026-10-30"
+}

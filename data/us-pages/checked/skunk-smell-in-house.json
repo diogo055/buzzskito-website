@@ -1,0 +1,10 @@
+{
+ "id": "skunk-smell-in-house",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "e0fd8d37e455b2e81587edf71ebb50cb16ae29ff93d7c612695c13ed476b832a",
+ "claimsChecked": 140,
+ "claimsCorrected": 9,
+ "claimsRemovedOrSoftened": 6,
+ "checkedOn": "2026-10-30"
+}
