@@ -214,6 +214,9 @@ const ARTICLES_RETROFITTED: Record<string, string> = {
   '/blog/best-mosquito-trap': '2026-10-29T12:00:00.000Z',
   '/blog/best-electric-fence-for-raccoons-canada': '2026-10-29T12:00:00.000Z',
   '/blog/how-to-get-rid-of-fruit-flies': '2026-10-29T12:00:00.000Z',
+  '/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/bed-bug-heater-canada': '2026-10-29T12:00:00.000Z',
+  '/blog/ecoraider-bed-bug-spray-review-canada': '2026-10-29T12:00:00.000Z',
 }
 
 // Static lastModified date — update this only when making real content changes.

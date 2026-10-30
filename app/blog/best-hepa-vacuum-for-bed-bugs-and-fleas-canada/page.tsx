@@ -14,17 +14,20 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import QuickIdTable from '@/components/QuickIdTable'
+import Photo from '@/components/Photo'
 
 const SLUG = 'best-hepa-vacuum-for-bed-bugs-and-fleas-canada'
 const DATE = '2026-07-21'
-const UPDATED = '2026-07-21'
+const UPDATED = '2026-10-29'
 const TITLE = 'Best Sealed-HEPA Vacuum for Bed Bugs & Fleas Canada 2026 — Canister vs Stick vs Handheld'
-const META_TITLE = 'Best HEPA Vacuum for Bed Bugs & Fleas Canada'
+// TITLE NOTE (Oct 29, 2026): was 'Best HEPA Vacuum for Bed Bugs & Fleas Canada'; top queries, Jul 29-Oct 26 (all countries): best vacuum for bed bugs 38 at 4.1 (2 clicks), bed bug vacuum 22 at 7.2, bed bug vacuum cleaner 17 at 10.8, best hepa vacuum for bed bugs 8 at 3.0 (2 clicks), best handheld vacuum for bed bugs 3 at 4.0.
+const META_TITLE = 'Best Vacuum for Bed Bugs & Fleas Canada (HEPA)'
 
 const FAQS = [
   {
     question: 'What is the best HEPA vacuum for bed bugs and fleas in Canada?',
-    answer: 'For most Canadian homes fighting bed bugs or fleas, the best pick is a sealed-HEPA bagged canister vacuum with a stiff crevice tool — a sealed body means the eggs, allergens, and shed skins you pull out of seams cannot leak back into the room through the exhaust, and a bagged model lets you seal and bin the contents without re-exposing yourself. A whole-machine-HEPA cordless stick is the best pick if you want to vacuum a bed frame and baseboards daily without dragging a hose around, and a corded HEPA handheld is the most manoeuvrable tool for working mattress piping and headboard bolts. Whatever you buy, the vacuum is one tool in a plan — it removes what you can see and reach but never reaches eggs cemented deep in fabric, which is why a steamer and interceptor traps belong in the same kit.',
+    answer: 'For most Canadian homes fighting bed bugs or fleas, the best pick is a sealed-HEPA bagged canister vacuum with a stiff crevice tool — a sealed body means the eggs, allergens, and shed skins you pull out of seams cannot leak back into the room through the exhaust, and a bagged model lets you seal and bin the contents without re-exposing yourself. A whole-machine-HEPA cordless stick is the best pick if you want to vacuum a bed frame and baseboards daily without dragging a hose around. Skip a handheld for this job: Health Canada says handheld vacuums, vacuums with a cloth bag and vacuums with fabric hoses are not a good idea for bedbug clean-up because they can become infested, so work mattress piping and headboard bolts with the crevice tool on the hose. Whatever you buy, the vacuum is one tool in a plan — it removes what you can see and reach but never reaches eggs cemented deep in fabric, which is why a steamer and interceptor traps belong in the same kit.',
   },
   {
     question: 'Why does the HEPA filter need to be sealed for bed bugs and fleas?',
@@ -44,7 +47,7 @@ const FAQS = [
   },
   {
     question: 'Should I combine a steamer with the vacuum?',
-    answer: 'Yes — steam and vacuum are the classic non-chemical one-two. Vacuum first to physically remove live insects and debris from the seams and edges, then run a dry-vapour steamer slowly over the same seams, tufts, and folds so the heat penetrates and kills the eggs and hidden bugs the vacuum could not lift. Steam reaches into fabric where suction cannot, and heat is one of the few things that reliably kills bed-bug eggs. Our companion guide to the best bed-bug steamers in Canada covers what temperature and dwell time you need and which machines actually deliver it.',
+    answer: 'Yes — steam and vacuum are the classic non-chemical one-two, and Health Canada puts the steam first: steam cleaning should be done before vacuuming, because the steam flushes out any bed bugs it did not kill. Run a dry-vapour steamer slowly over the seams, tufts, and folds (Health Canada says steam cleaners generally emit steam at 100°C or more, bedbugs die at 50°C, and steam kills only the bugs it reaches), then vacuum the same seams to lift what it drove out. Steam reaches into fabric where suction cannot, and heat is one of the few things that reliably kills bed-bug eggs. Our companion guide to the best bed-bug steamers in Canada covers what temperature and dwell time you need and which machines actually deliver it.',
   },
   {
     question: 'Why do fleas need slow passes and edge work too?',
@@ -60,17 +63,29 @@ const FAQS = [
   },
   {
     question: 'Can I use a shop vac or a regular vacuum instead?',
-    answer: 'A shop vac has strong suction and a rugged hose, which is genuinely useful for heavy debris, but most are not sealed-HEPA and will exhaust fine allergen dust back into the room, so only use one fitted with a proper HEPA filter and emptied outdoors. A regular household vacuum will remove visible bugs and lower the population, but if it is bagless with a loose body it risks blowing captured material back out and contaminating the bin every time you empty it. The safest tool for bed bugs and fleas specifically is a sealed-HEPA bagged machine; anything else works only with careful outdoor disposal and the understanding that it may leak.',
+    answer: 'A shop vac has strong suction and a rugged hose, which is genuinely useful for heavy debris, but most are not sealed-HEPA and will exhaust fine allergen dust back into the room, so only use one fitted with a proper HEPA filter and emptied outdoors. A regular household vacuum will remove visible bugs and lower the population, but if it is bagless with a loose body it risks blowing captured material back out and contaminating the bin every time you empty it. The best tool for bed bugs and fleas specifically is a sealed-HEPA bagged machine; anything else works only with careful outdoor disposal and the understanding that it may leak.',
   },
   {
     question: 'How often should I vacuum during an infestation?',
     answer: 'Daily during the active phase for bed bugs, and every one to two days for fleas, because the flea life cycle keeps hatching new adults from pupae for weeks. Consistent daily vacuuming of the bed area, room perimeter, and pet resting spots physically removes each new wave before it can re-establish, and for fleas the vibration helps trigger dormant pupae to emerge where you can then remove them. Keep it up for at least two to three weeks past the last sign of activity, and pair it with interceptor traps under the bed legs so you can actually see whether the numbers are dropping.',
   },
+  {
+    question: 'What is HEPA vacuuming?',
+    answer: 'HEPA vacuuming means using a vacuum whose exhaust air passes through a HEPA (high-efficiency particulate air) filter. The US EPA says a HEPA filter can theoretically remove at least 99.97% of dust, pollen, mould, bacteria and any airborne particles 0.3 microns in size. For bed bugs, Health Canada says that households with family members who have allergies or asthma should use a vacuum with a HEPA filter, to avoid putting insect and dust allergens back into the air. The filter cleans the air leaving the machine; it does not make the vacuum lift eggs glued into a seam.',
+  },
+  {
+    question: 'What is the best handheld vacuum for bed bugs?',
+    answer: 'Health Canada’s advice is not to use one: handheld vacuums, vacuums with a cloth bag and vacuums with fabric hoses are not a good idea for bedbug clean-up, because these vacuums can become infested. Do the seams, piping and bolt holes with the crevice tool on a canister or stick vacuum instead, ideally one with a disposable bag. When you finish, Health Canada says to let the vacuum run for a bit, seal the bag in a white plastic bag in a garbage bin with a lid, stuff paper towel in the end of the hose and tape it, wash the attachments in hot water and detergent, and store the vacuum in a sealed plastic bag.',
+  },
+  {
+    question: 'Do bed bug vacuum cleaners work?',
+    answer: 'A vacuum removes the bed bugs and debris it can reach, and that is all. Health Canada pairs it with steam, which should come first because steam flushes out bugs it did not kill, and steam itself kills only the bugs it reaches. Some vacuums sold for bed bugs add an ultraviolet lamp: Canada’s Pest Control Products Regulations list ultraviolet radiation-emitting devices among the devices that are not exempt from registration (Schedule 1), and Health Canada’s registry showed no device registered against bed bugs on October 29, 2026. So judge any vacuum on its crevice tool, a bag you can seal, and a HEPA filter if anyone at home has allergies or asthma.',
+  },
 ]
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'The best sealed-HEPA vacuums for bed-bug and flea remediation in Canada: why a sealed body and bagged disposal matter, crevice-tool technique, the steam-plus-vacuum combo, and our canister, cordless, handheld, and budget picks. Updated 2026.',
+  description: 'Best vacuum for bed bugs and fleas in Canada: a bagged canister with a HEPA filter and crevice tool, Health Canada’s rules, why not a handheld, and steam first.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -95,7 +110,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             <span className="text-white">Best HEPA Vacuum for Bed Bugs &amp; Fleas</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl">A sealed-HEPA vacuum is the removal step in any bed-bug or flea plan &mdash; here is why the seal and the bag matter more than the filter grade, the crevice-tool technique that actually lifts insects from seams, and our canister, cordless, handheld, and budget picks.</p>
+          <p className="text-xl text-brand-100 max-w-3xl">The best vacuum for bed bugs and fleas is a canister with a disposable bag, a HEPA filter and a crevice tool (the &ldquo;Best overall&rdquo; pick below), for anyone clearing a bedroom or a flea-infested carpet. Health Canada says handheld vacuums, cloth-bag vacuums and fabric hoses are not a good idea for bed bugs because they can become infested, and bed bug eggs are cemented in place, so steam the seams first.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -108,7 +123,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best vacuum for bed bugs and fleas in Canada is a <strong>sealed-HEPA bagged canister</strong> with a stiff crevice tool: a sealed body stops captured eggs, allergens, and shed skins from blowing back into the room, and a bag lets you seal and bin the contents without re-exposing yourself. Choose a whole-machine-HEPA cordless stick for daily bed-and-baseboard passes, or a corded HEPA handheld for the most manoeuvrable seam work. The vacuum removes what you can reach &mdash; pair it with steam and interceptor traps for the eggs it cannot.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best vacuum for bed bugs and fleas in Canada is a <strong>sealed-HEPA bagged canister</strong> with a stiff crevice tool: a sealed body stops captured eggs, allergens, and shed skins from blowing back into the room, and a bag lets you seal and bin the contents without re-exposing yourself. Choose a whole-machine-HEPA cordless stick for daily bed-and-baseboard passes, and do the seam work with the crevice tool rather than a handheld, which Health Canada calls not a good idea for bed bugs because it can become infested. The vacuum removes what you can reach &mdash; pair it with steam and interceptor traps for the eggs it cannot.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>&ldquo;Sealed HEPA&rdquo; means all air passes through the filter &mdash; a plain &ldquo;HEPA filter&rdquo; can still leak fine dust and eggs out the exhaust.</li>
               <li>Bagged beats bagless: you seal and bin the bag without ever opening the dust chamber over a garbage can.</li>
@@ -131,7 +146,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
               {
                 badge: 'Best Overall',
                 name: 'Sealed-HEPA Bagged Canister Vacuum',
-                why: 'A true sealed-system canister with a bag is the safest tool for the job: nothing you capture leaks back out, and you seal and bin the bag without ever opening the dust chamber. Strong sustained suction and a long crevice tool reach every seam and baseboard.',
+                why: 'A true sealed-system canister with a bag is the best-suited tool for the job: nothing you capture leaks back out, and you seal and bin the bag without ever opening the dust chamber. Strong sustained suction and a long crevice tool reach every seam and baseboard.',
                 search: 'miele canister vacuum sealed hepa bagged',
                 score: 9.3,
                 featured: true,
@@ -141,20 +156,20 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
               {
                 badge: 'Best Cordless Stick',
                 name: 'Whole-Machine-HEPA Cordless Stick Vacuum',
-                why: 'For daily bed-frame and baseboard passes without dragging a hose, a cordless stick with whole-machine HEPA seals the whole airflow path. Converts to a handheld with a crevice tool for seam work, then floats to the next room.',
+                why: 'For daily bed-frame and baseboard passes without dragging a hose, a cordless stick with whole-machine HEPA seals the whole airflow path. Fit the crevice tool to the wand for seam work: Health Canada says handheld vacuums are not a good idea for bedbug clean-up, because they can become infested.',
                 search: 'dyson cordless vacuum hepa',
                 score: 8.6,
-                pros: ['Whole-machine sealed filtration', 'Converts to handheld for seams', 'Effortless for daily passes'],
+                pros: ['Whole-machine sealed filtration', 'Crevice tool on the wand for seams', 'Effortless for daily passes'],
                 cons: ['Bagless — empty outdoors into a sealed bag', 'Runtime is limited on max power'],
               },
               {
-                badge: 'Best Handheld / Crevice',
+                badge: 'Best Handheld for Fleas',
                 name: 'Corded HEPA Handheld Vacuum',
-                why: 'The most manoeuvrable tool for detailed seam, piping, and headboard-bolt work. Corded means constant suction that never fades mid-mattress, and a HEPA-filtered handheld keeps the fine dust contained where a shop vac would not.',
+                why: 'For fleas, not bed bugs. UC IPM says to vacuum upholstered furniture, under cushions and in crevices, and the areas where your pet rests, and a light corded handheld with constant suction does that detail work. Keep it away from bed bugs: Health Canada says handheld vacuums are not a good idea for bedbug clean-up, because they can become infested.',
                 search: 'corded handheld hepa vacuum',
                 score: 8.0,
-                pros: ['Constant corded suction', 'Gets into tight seams and bolt holes', 'Light and easy to control'],
-                cons: ['Small capacity — frequent emptying', 'Not for whole-floor jobs'],
+                pros: ['Constant corded suction', 'Reaches cushions, crevices and pet resting spots', 'Light and easy to control'],
+                cons: ['Not for bed bugs: Health Canada says handheld vacuums can become infested', 'Small capacity — frequent emptying', 'Not for whole-floor jobs'],
               },
               {
                 badge: 'Best Budget',
@@ -168,7 +183,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             ]}
             whichToBuy={
               <>
-                <strong>Active bed-bug problem or allergen-sensitive home?</strong> The <em>Best Overall</em> sealed-HEPA bagged canister is the right tool &mdash; the seal and the bag are exactly what stop re-contamination. <strong>Want to vacuum the bed and baseboards every single day without hassle?</strong> The <em>Best Cordless Stick</em> makes daily passes effortless. <strong>Doing fine detail work on seams and bolts?</strong> Add the <em>Best Handheld / Crevice</em>. <strong>One-time minor flea issue on a tight budget?</strong> The <em>Best Budget</em> bagged canister does the job if you empty it outdoors into a sealed bag every time.
+                <strong>Active bed-bug problem or allergen-sensitive home?</strong> The <em>Best Overall</em> sealed-HEPA bagged canister is the right tool &mdash; the seal and the bag are exactly what stop re-contamination. <strong>Want to vacuum the bed and baseboards every single day without hassle?</strong> The <em>Best Cordless Stick</em> makes daily passes effortless. <strong>Doing fine detail work on seams and bolts?</strong> Use the crevice tool on the canister&rsquo;s hose, not a handheld: Health Canada says handheld vacuums are not a good idea for bedbug clean-up, because they can become infested. <strong>Fleas on upholstery or where your pet rests?</strong> Add the <em>Best Handheld for Fleas</em>. <strong>One-time minor flea issue on a tight budget?</strong> The <em>Best Budget</em> bagged canister does the job if you empty it outdoors into a sealed bag every time.
               </>
             }
           />
@@ -180,7 +195,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">Vacuum Types Compared · Updated July 2026</p>
           <h2 className="text-2xl font-extrabold text-brand-900 mb-4">Canister vs Cordless Stick vs Handheld vs Budget — What Each Is For</h2>
           <p className="text-sm text-gray-700 mb-5 leading-relaxed">
-            All four can help with bed bugs and fleas, but they solve different parts of the job. Here is the honest breakdown, with a live Amazon.ca availability check per type.
+            All four can help with fleas, and all but the handheld with bed bugs, but they solve different parts of the job. Here is the honest breakdown, with a live Amazon.ca availability check per type.
           </p>
           <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
             <table className="min-w-[560px] w-full text-sm">
@@ -197,7 +212,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Sealed-HEPA canister<br /><span className="font-normal text-xs text-gray-500">bagged</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Best</strong> &mdash; fully sealed body, seal-and-bin bag</td>
-                  <td className="px-4 py-3 text-gray-700">Whole job: seams, edges, carpet, safe disposal</td>
+                  <td className="px-4 py-3 text-gray-700">Whole job: seams, edges, carpet, sealed disposal</td>
                   <td className="px-4 py-3 text-gray-700">Premium price; hose to manage</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
@@ -211,9 +226,9 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Corded HEPA handheld<br /><span className="font-normal text-xs text-gray-500">detail tool</span></td>
                   <td className="px-4 py-3 text-gray-700"><strong className="text-emerald-700">Good</strong> &mdash; contained dust, constant suction</td>
-                  <td className="px-4 py-3 text-gray-700">Fine seam, piping, and bolt-hole work</td>
-                  <td className="px-4 py-3 text-gray-700">Small capacity; not for floors</td>
-                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum" block>Check price on Amazon.ca →</BuyLink></td>
+                  <td className="px-4 py-3 text-gray-700">Fleas: upholstery, under cushions and crevices (UC IPM); not bed bugs</td>
+                  <td className="px-4 py-3 text-gray-700">Small capacity; not for floors; Health Canada calls handheld vacuums not a good idea for bed bugs (they can become infested)</td>
+                  <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum" block>For fleas only: check Amazon.ca →</BuyLink></td>
                 </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Budget bagged canister<br /><span className="font-normal text-xs text-gray-500">value</span></td>
@@ -226,7 +241,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Vacuums are appliances, not pesticides &mdash; none require PMRA registration, which is why they are the frictionless, fully legal first tool for any Canadian household dealing with bed bugs or fleas.
+            Vacuums are appliances, not pesticides &mdash; one without an ultraviolet lamp needs no registration, which is why it is a frictionless, fully legal tool for any Canadian household dealing with bed bugs or fleas. Health Canada says handheld vacuums, vacuums with a cloth bag and vacuums with fabric hoses are not a good idea for bedbug clean-up, because these vacuums can become infested.
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -241,14 +256,28 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>What Is the Best Vacuum for Bed Bugs and Fleas in Canada?</h2>
-          <p>A sealed-HEPA bagged canister is the best vacuum for bed bugs and fleas in Canadian homes &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this specific job demands: it holds onto everything it captures, and it lets you get rid of that capture cleanly. Everything else is a variation on those two ideas. A cordless stick with whole-machine HEPA trades the bag for convenience; a corded handheld trades capacity for reach; a budget bagged canister trades a fully sealed body for price. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why the sealed, bagged canister sits at the top.</p>
+          <p>A sealed-HEPA bagged canister is the best vacuum for bed bugs and fleas in Canadian homes &mdash; not because it is the most powerful appliance in the store, but because it is the only design that does the two things this specific job demands: it holds onto everything it captures, and it lets you get rid of that capture cleanly. Everything else is a variation on those two ideas. A cordless stick with whole-machine HEPA trades the bag for convenience; a corded handheld trades capacity for reach and is for fleas, not bed bugs; a budget bagged canister trades a fully sealed body for price. All four appear in our picks above because different households need different trade-offs, but the reasoning below explains why the sealed, bagged canister sits at the top.</p>
           <p>The distinction that matters is between a vacuum that <em>catches</em> pests and a vacuum that catches them and then <em>quietly leaks them back into your home</em>. That second failure mode is invisible until an allergy flares or the infestation stubbornly refuses to drop, and it is the single most important thing to understand before you spend money.</p>
+
+          <QuickIdTable
+            title="Bed bug and flea vacuums compared: how each works, best for, limits"
+            head={['Vacuum type', 'How it works', 'Best for', 'Limits']}
+            rows={[
+              ['Canister with a disposable bag and HEPA filter', 'Suction through a hose and crevice tool into a bag you remove and seal', 'Mattress seams, frame joints, baseboards and carpet edges, after the steamer', 'Health Canada: use a HEPA filter where someone has allergies or asthma; seal the bag in a white plastic bag in a lidded bin'],
+              ['Bagless canister or cordless stick', 'Suction into a clear bin you empty', 'Daily passes on floors, baseboards and the bed frame', 'Health Canada: empty the canister into a plastic garbage bag, seal it and dispose of it right away'],
+              ['Handheld vacuum', 'Motor, bin and nozzle in one small unit', 'Not bed bugs', 'Health Canada: not a good idea for bedbug clean-up, because it can become infested'],
+              ['Vacuum with a cloth bag or a fabric hose', 'A reusable cloth bag, or a hose made of fabric', 'Not bed bugs', 'Health Canada: not a good idea for bedbug clean-up, because it can become infested'],
+              ['Any vacuum, for fleas', 'Suction plus the pressure of the vacuum on the carpet', 'Floors, rugs, carpets, upholstery and baseboard cracks, daily or every other day', 'UC IPM: it kills larvae in the carpet and makes adults leave their cocoons; keep going 10 days to 2 weeks'],
+              ['Steamer (used before the vacuum)', 'Steam that generally leaves the machine at 100°C or more', 'Seams, tufts and folds where eggs are glued', 'Health Canada: it kills only the bugs it reaches, and it goes first because it flushes survivors out of hiding'],
+            ]}
+            caption={<>From Health Canada, <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/bedbugs-how-do-i-get-rid-them.html" target="_blank" rel="noopener noreferrer" className="underline">Bedbugs: how do I get rid of them?</a>; the University of California&rsquo;s <a href="https://ipm.ucanr.edu/PMG/PESTNOTES/pn7419.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: Fleas</a> (UC ANR Publication 7419); and the EPA, <a href="https://www.epa.gov/indoor-air-quality-iaq/what-hepa-filter" target="_blank" rel="noopener noreferrer" className="underline">What is a HEPA filter?</a> (updated January 13, 2026), all read October 29, 2026. No vacuum was tested.</>}
+          />
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the four picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
             <BuyLink tag={AMZ_TAG} search="miele canister vacuum sealed hepa bagged">Sealed-HEPA canister →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="dyson cordless vacuum hepa">Cordless HEPA stick →</BuyLink>
-            <BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum">HEPA handheld →</BuyLink>
+            <BuyLink tag={AMZ_TAG} search="corded handheld hepa vacuum">HEPA handheld (fleas only) →</BuyLink>
             <BuyLink tag={AMZ_TAG} search="bagged hepa canister vacuum">Budget bagged canister →</BuyLink>
           </div>
 
@@ -260,6 +289,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           <h2>Bagged vs Bagless: The Disposal Problem Nobody Mentions</h2>
           <p>Capturing bed bugs and fleas is only half the task; getting them out of your house without releasing them again is the other half, and this is where bagged and bagless designs part ways sharply. Emptying a bagless bin means opening the dust chamber &mdash; usually over a kitchen garbage can &mdash; and that motion showers fine dust and, potentially, live insects back into the air and onto your hands. Bed bugs and fleas can survive inside a vacuum, so a bagless bin left overnight is a container of living pests sitting in your home.</p>
           <p>A bagged sealed-HEPA vacuum solves this elegantly. When the session is done, you remove the whole bag without opening it, drop it inside a second plastic bag, seal it, and carry it straight to an outdoor bin. Nothing escapes, nothing lands on you, and the machine is ready for the next pass. If you already own a good bagless machine and do not want to replace it, you can still use it responsibly: take it outside after every single session, empty the bin into a sealable bag, seal and bin it outdoors, then wipe the chamber and rinse or swap the filter. The rule is the same either way &mdash; immediate, sealed, outdoor disposal, every time.</p>
+          <p>Health Canada&rsquo;s own bedbug guidance adds the details. Handheld vacuums, vacuums with a cloth bag and vacuums with hoses made of fabric are not a good idea for bedbug clean-up, because these vacuums can become infested, so &ldquo;bagged&rdquo; here means a disposable bag. After each session, let the vacuum run for a bit so every bug reaches the bag, then put the bag in a sealed white plastic bag (a bedbug is easier to spot on white) in a garbage bin with a lid. Stuff paper towel into the end of the hose and seal it with tape, wash the attachments in hot water and detergent, and store the vacuum in a large sealed plastic bag. A bagless canister gets emptied into a plastic garbage bag that is sealed and thrown out right away.</p>
 
           <h2>The Crevice-Tool Technique That Actually Lifts Insects</h2>
           <p>The wide floor head that comes attached to most vacuums is the wrong tool for bed bugs. Swap it for the <strong>crevice tool</strong> &mdash; the narrow, angled nozzle &mdash; because bed bugs live in the tight folds and joints that a flat head skims right over. Technique matters as much as the machine:</p>
@@ -270,17 +300,21 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             <li><strong>Hit every harbourage.</strong> Mattress seams top and bottom, box-spring staples and fabric edge, bed-frame joints and bolt holes, headboard cracks, and the baseboards and carpet edge around the bed.</li>
             <li><strong>Work the room perimeter.</strong> Run the tool along the whole line where wall meets floor &mdash; that junction is a primary travel route between harbourage and host.</li>
           </ul>
-          <p>For the fine, repetitive detail work &mdash; piping, bolt holes, headboard seams &mdash; a corded HEPA handheld is genuinely easier to control than dragging a full canister hose around the bed, which is exactly why it earns its own award above. The same machine is the primary tool against carpet beetles, whose larvae live down in the pile rather than on it &mdash; <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada" className="text-brand-700 underline">the vacuum-first carpet beetle plan</Link> sets out the passes that matter.</p>
+          <p>For the fine, repetitive detail work &mdash; piping, bolt holes, headboard seams &mdash; keep the crevice tool on the canister&rsquo;s hose rather than switching to a handheld: Health Canada says handheld vacuums are not a good idea for bedbug clean-up, because they can become infested. The same canister is the primary tool against carpet beetles, whose larvae live down in the pile rather than on it &mdash; <Link href="/blog/how-to-get-rid-of-carpet-beetles-canada" className="text-brand-700 underline">the vacuum-first carpet beetle plan</Link> sets out the passes that matter.</p>
+          <Photo id="bed-bugs-eggs-mattress-seam" alt="Bed bugs and their white eggs along a seam of a bed" caption="Bed bugs and their white eggs along a seam of a bed (the photographer's description). This is the fold the crevice tool has to press into, and the eggs are cemented in place, which is why steam does the egg work." />
 
           <RelatedLinks path="/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada" />
           <h2>Fleas Are a Different Problem: Slow Passes and Deep Edges</h2>
           <p>Fleas change the technique because the enemy is mostly invisible. The adults you spot on a pet are a small fraction of the infestation; the rest is eggs, larvae, and pupae buried in the carpet, along baseboards, and under furniture. Flea larvae are photophobic &mdash; they actively wriggle down and away from light toward the base of the carpet fibres &mdash; so a quick surface pass sails right over them.</p>
+          <Photo id="cat-flea-on-fingertip" alt="A cat flea on a person's fingertip" caption="A cat flea on a fingertip, one of the fleas the observer found on his cats in Fort Worth, Texas. Adults like this one are the small, visible part of an infestation; the eggs, larvae and pupae are down in the carpet." />
           <p>Beating fleas with a vacuum means agitating the pile and working the places the life cycle concentrates. Use a beater bar or turbo brush, make slow and <em>repeated</em> passes over the same ground so the bristles reach the base of the fibres, and lavish attention on the edges of rooms, under and around pet bedding, and any shaded low-traffic spot where the animal rests. The mechanical vibration does something chemicals cannot: it can trigger dormant pupae to emerge from their tough, protective cases, which is why consistent vacuuming over several weeks keeps thinning each new wave. For context on why fleas keep coming back and how their bites present on people, our guide to <Link href="/blog/flea-bites-on-humans">flea bites on humans</Link> walks through the full cycle.</p>
+          <p>The University of California&rsquo;s flea guidance (Pest Notes: Fleas) sets the schedule: vacuum floors, rugs, carpets, upholstered furniture and the crevices around baseboards and cabinets daily or every other day, and keep going for 10 days to 2 weeks to catch the adults that keep emerging from their cocoons. It calls vacuuming very effective at killing larvae in the carpet, picking up adults and making adults that have not yet emerged leave their cocoons, and it notes that warmth and the pressure of walking on or vacuuming a carpet are what trigger them to come out.</p>
           <p>The vacuum is the backbone, but it is not the whole program. The chemical half should be chosen for its insect growth regulator rather than its knockdown claim &mdash; that is the part that breaks the egg-to-adult pipeline you are agitating out of the carpet &mdash; and we compare the Canadian options in <Link href="/blog/best-flea-spray-for-home-canada">the best flea spray for a home in Canada</Link>. If you were planning to reach for a total-release fogger instead, read <Link href="/blog/best-flea-bomb-canada">why a flea bomb misses most of the infestation</Link> first; it deposits on open floor, which is precisely where the larvae are not.</p>
 
           <h2>The Steam-Plus-Vacuum Combo</h2>
           <p>Here is the honest limit of any vacuum, no matter how good: it will not lift most bed-bug eggs. Females cement their eggs to fabric with a coating that suction simply cannot break, so a mattress you have vacuumed thoroughly can still be studded with viable eggs. That is not a reason to skip vacuuming &mdash; removing the adults and nymphs delivers an immediate population drop and a real morale win &mdash; but it is the reason vacuuming is always paired with heat.</p>
-          <p>The proven sequence is vacuum first, steam second. Vacuum to physically remove the live insects and loose debris from every seam and edge, then run a dry-vapour <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> slowly over the same seams, tufts, and folds. Steam penetrates into the fabric where suction cannot reach and delivers the heat that kills the eggs and any hidden bugs the vacuum left behind. Then place <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the bed legs so you can monitor, week over week, whether the numbers are actually falling. Vacuum, steam, monitor &mdash; that is the non-chemical core of a real plan, and no single tool substitutes for the set.</p>
+          <p>Health Canada&rsquo;s sequence is steam first, vacuum second: steam cleaning should be done before vacuuming, because the steam flushes out any bed bugs it did not kill. Run a dry-vapour <Link href="/blog/best-bed-bug-steamer-canada">bed-bug steamer</Link> slowly over the seams, tufts, and folds; Health Canada says steam cleaners generally emit steam at 100&deg;C or more, that bedbugs die at 50&deg;C, and that steam kills only the bugs it reaches, so move slowly. Then vacuum the same seams and edges to lift the bugs and debris the steam drove out, and place <Link href="/blog/bed-bug-interceptor-traps-canada">interceptor traps</Link> under the bed legs so you can monitor, week over week, whether the numbers are actually falling. Steam, vacuum, monitor &mdash; that is the non-chemical core of a real plan, and no single tool substitutes for the set.</p>
+          <Photo id="bed-bug-fecal-spots-bed-frame" alt="Black bed bug fecal spots on a wooden bed frame" caption="Black bed bug fecal spots on a wooden bed frame near where the bugs hid, photographed by the New York State IPM Program at Cornell University. Joints like these get the steamer first, then the crevice tool." />
 
           <h2>How to Choose: What You Are Actually Paying For</h2>
           <p>These machines span a wide price range, and it is worth being clear-eyed about which premium features earn their cost for <em>this</em> job specifically, versus which are luxury you can skip. Prioritise your money in this order:</p>
@@ -293,10 +327,32 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
           </ul>
           <p>Read that list as a spending map: put your dollars into sealing, suction, and disposal, and treat everything else as optional. A cordless stick with whole-machine HEPA can absolutely be an excellent choice &mdash; it simply asks you to accept bagless disposal in exchange for effortless daily passes, which is a fair trade for a lot of households.</p>
 
+          <h2 id="situation">Which Vacuum for Your Situation?</h2>
+          <ul>
+            <li><strong>Bed bugs in one bedroom:</strong> a canister with a disposable bag, a HEPA filter and a crevice tool, used after the steamer on every seam, joint and baseboard.</li>
+            <li><strong>Someone at home has allergies or asthma:</strong> a HEPA filter. Health Canada says that is best for those households, to avoid putting insect and dust allergens back into the air.</li>
+            <li><strong>You only own a bagless vacuum:</strong> use it, then empty the canister into a plastic garbage bag, seal it and dispose of it right away, as Health Canada describes.</li>
+            <li><strong>You own a handheld, a cloth-bag vacuum or one with a fabric hose:</strong> keep it away from the bed bugs. Health Canada says these vacuums can become infested.</li>
+            <li><strong>Fleas from a pet:</strong> vacuum floors, rugs, carpets, upholstery and baseboard crevices daily or every other day, for 10 days to 2 weeks (UC IPM).</li>
+            <li><strong>Bugs in several rooms, or back after weeks of work:</strong> a licensed pest control operator, which Health Canada strongly recommends for bedbugs.</li>
+          </ul>
+
+          <h2>Bed Bug Vacuum Buyer&rsquo;s Checklist</h2>
+          <ol>
+            <li><strong>A disposable bag, not a cloth one:</strong> Health Canada calls cloth-bag vacuums not a good idea for bedbug clean-up.</li>
+            <li><strong>A hose that is not made of fabric,</strong> for the same reason.</li>
+            <li><strong>A HEPA filter</strong> if anyone at home has allergies or asthma; the EPA says a HEPA filter can theoretically remove at least 99.97% of airborne particles 0.3 microns in size.</li>
+            <li><strong>A crevice tool</strong> for seams, piping, staples and bolt holes, and a beater bar or turbo brush for flea carpets.</li>
+            <li><strong>Strong, steady suction</strong> that does not fade as the bag fills or the battery drops.</li>
+            <li><strong>White plastic bags and tape:</strong> the bag goes out sealed in a white plastic bag, and paper towel is taped into the hose end (Health Canada).</li>
+            <li><strong>Attachments you can wash</strong> in hot water and detergent after each session.</li>
+            <li><strong>A large plastic bag to store the vacuum in,</strong> sealed, between sessions.</li>
+          </ol>
+
           <h2>Is the Expensive Vacuum Worth It, or Will a Cheap One Do?</h2>
           <p>The honest answer depends entirely on your situation, and there is a legitimate cheaper path for some people. If you have a one-time, minor flea issue and a vacuum you already own, careful technique and disciplined outdoor disposal will get you a long way &mdash; you may not need to buy anything at all. A budget bagged canister with a crevice tool covers a modest, one-off problem competently, provided you empty it outdoors into a sealed bag every single time.</p>
           <p>But for an <strong>active bed-bug infestation</strong>, a <strong>recurring flea cycle</strong>, or an <strong>allergen-sensitive household</strong>, the premium genuinely earns its cost. The three things you pay for &mdash; a truly sealed body, strong sustained suction, and clean bagged disposal &mdash; are precisely the three things a cheap machine fakes or omits. Worse, a budget vacuum wearing a &ldquo;HEPA&rdquo; sticker on a leaky body can actively make an allergen problem <em>worse</em> by aerosolizing what it collects. In that scenario the cheaper vacuum is not a smaller version of the right tool; it is the wrong tool. The way to overspend, on the other hand, is to buy the sealing and suction you need and then pay a large premium on top for cordless-luxury features that do nothing for capture or containment. Buy the seal, buy the suction, buy the bag &mdash; and stop there unless daily convenience is genuinely worth the extra to you.</p>
-          <p>Vacuuming is the physical-removal step, and it pairs naturally with the residual step that follows it: once a crack is clean and dry, a desiccant dust laid down as a barely-visible film keeps killing for months without any chemistry a bug can develop resistance to. <Link href="/blog/best-bed-bug-powder-canada">The desiccant dust comparison</Link> covers silica gel against diatomaceous earth on speed and application rate, and <Link href="/blog/cimexa-bed-bug-review-canada">the long-form profile of CimeXa silica gel</Link> explains why the professional default lays down so much lighter than DE does.</p>
+          <p>Vacuuming is the physical-removal step, and it pairs naturally with the residual step that follows it: once a crack is clean and dry, a desiccant dust laid down as a barely-visible film keeps working on the bugs that cross it. In Canada, the desiccant dusts registered for home use against bed bugs are diatomaceous earth products with a PCP number, such as Wilson Bed Bug Out dust (PCP 26679), and Ortho Bed Bug B Gon Diatom (PCP 32674) puts diatomaceous earth in a pressurized spray; CimeXa, the silica gel dust US guides favour, has no record in Health Canada&rsquo;s registry (searched October 29, 2026). <Link href="/blog/best-bed-bug-powder-canada">The desiccant dust comparison</Link> covers silica gel against diatomaceous earth on speed and application rate, and <Link href="/blog/cimexa-bed-bug-review-canada">the long-form profile of CimeXa silica gel</Link> explains why it goes down so much lighter than DE does.</p>
           <p>Two jobs where the vacuum leads rather than supports: upholstery, because a couch cannot be encased and has more seam than a mattress &mdash; <Link href="/blog/how-to-get-rid-of-bed-bugs-in-couch-canada">the four-step couch sequence</Link> starts with suction for that reason &mdash; and a self-run treatment generally, where the vacuum is one of five tools in <Link href="/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada">the DIY basket that actually clears an infestation</Link>.</p>
           <p>If the problem is large enough that you are weighing DIY against calling a professional, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> lays out what professional bed-bug and flea work typically runs, so you can judge where the money is best spent.</p>
 
