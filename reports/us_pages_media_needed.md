@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-522 images across 208 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+534 images across 212 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -1041,6 +1041,12 @@
 - Virginia opossum droppings beside a ruler marked in inches, identified by a wildlife agency or an experienced tracker, ideally next to raccoon droppings for comparison
 - Gray squirrel droppings found in an attic or on a porch, identified by a wildlife agency or extension specialist, beside a ruler marked in inches
 
+## /blog/copperhead-look-alikes
+
+- A close view of a young copperhead's tail tip showing the greenish-yellow color and the small black-edged white marks MDC describes, identified by a state wildlife agency, a university or museum herpetologist, or CDC PHIL, taken without handling the snake; public domain or CC0 preferred
+- An eastern milk snake showing its black-bordered red blotches and the Y- or V-shaped patch at the nape, identified by a state wildlife agency, a university or museum herpetologist, or CDC PHIL; public domain or CC0 preferred. None is on record: the agency milk snake photos found so far do not show this pattern
+- A young cottonmouth showing its reddish-brown crossbands and yellow tail tip, ideally beside a young copperhead for comparison, identified by a state wildlife agency, a university or museum herpetologist, or CDC PHIL; venomous, so the caption must tell readers to keep their distance
+
 ## /blog/raccoon-poop
 
 - Photo of a raccoon latrine inside an attic, droppings piled on insulation or a joist beside a ruler marked in inches, from a public domain or CC0 source with an expert identification, such as CDC PHIL or a state wildlife agency
@@ -1075,6 +1081,18 @@
 - An eastern cottontail feeding on a lawn or at the edge of a garden bed, from USFWS, NPS or another public domain or CC0 source with a confirmed identification
 - Cottontail droppings on snow at the base of a shrub with gnawed bark and stems clipped at an angle, in winter, identified by a wildlife agency, extension service or expert tracker; public domain or CC0
 - A pet rabbit's normal fecal pellets and a cluster of cecotropes side by side beside a ruler marked in inches, photographed or identified by a veterinarian or veterinary school
+
+## /blog/baby-snakes
+
+- Still missing: a newborn DeKay's brownsnake showing its white neck ring, and a ring-necked snake showing its yellow or orange neck ring and bright belly, each identified by a government wildlife agency, a university or museum herpetologist, or CDC PHIL, ideally beside a coin or ruler; public domain or CC0 preferred
+- Still missing: a young cottonmouth showing its bright crossbands and yellow tail tip (the figure above shows a dark, older-looking one), identified by a government wildlife agency, a university or museum herpetologist, or CDC PHIL; venomous, so the caption must tell readers to keep their distance
+- A newborn rattlesnake showing its button at the tail tip, from USFWS, NPS or a state wildlife agency (public domain first); venomous, so the caption must tell readers to keep their distance
+- A gap a small snake could use, such as a worn door sweep or the corner of a garage door, or a small nonvenomous snake on a garage floor or basement step, from a university extension service or a government agency, or a snake photo identified by a herpetologist; public domain or CC0 preferred
+
+## /blog/skunk-smell-in-house
+
+- A striped skunk den opening under a deck, porch or shed: a half-moon depression 3 to 5 inches across with little grass around it, beside a ruler marked in inches; public domain or CC0, from a US agency, a university or a research-grade iNaturalist record
+- A basement floor drain and its grate, photographed from above beside a ruler marked in inches, from a university or government source; a real photograph, not a drawing
 
 ## /blog/diy-pest-control
 
@@ -1147,3 +1165,9 @@
 - Photo of cyclamen mite damage on an African violet or a cyclamen: the small, cupped, hairy leaves in the center of the plant, with a healthy plant beside it for comparison
 - Photo of thrips damage on a houseplant leaf: irregular silvery streaks dotted with tiny black specks of excrement, beside a ruler marked in inches
 - Photo of white or gray springtails on the surface of damp houseplant potting soil right after watering, beside a ruler marked in inches
+
+## /blog/tomato-hornworms
+
+- A white-lined sphinx caterpillar (Hyles lineata), green form with black stripes and yellow-orange markings, on evening primrose or grape in a US garden, identified by an extension service or on iNaturalist; public domain or CC0
+- Tomato or tobacco hornworm eggs: single pale green spheres about 1/16 inch across on the underside of a tomato leaf, ideally beside a ruler marked in inches, identified by an extension service or on iNaturalist; public domain or CC0
+- A Carolina sphinx moth (Manduca sexta, the adult tobacco hornworm) with its abdomen in view showing six pairs of yellow-orange spots, resting on bark or a wall in the US, identified by an extension service or on iNaturalist; public domain or CC0

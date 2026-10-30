@@ -2,14 +2,14 @@
  "generated": "2026-10-30",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 248,
+  "newPagesBuilt": 252,
   "hubPages": 4,
-  "guides": 233,
+  "guides": 237,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 201,
-  "internalLinksInNewPages": 3406
+  "notBuilt": 197,
+  "internalLinksInNewPages": 3442
  },
  "pages": [
   {
@@ -200,7 +200,7 @@
    "wordCount": 3425,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
    "status": "built"
   },
@@ -264,7 +264,7 @@
    "wordCount": 2098,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 15,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -1528,7 +1528,7 @@
    "wordCount": 2330,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1880,7 +1880,7 @@
    "wordCount": 2879,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2536,7 +2536,7 @@
    "wordCount": 2134,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2549,11 +2549,11 @@
    "kind": "spoke",
    "cluster": "wildlife",
    "title": "Small Holes in Yard? What Dug Them (Photos)",
-   "wordCount": 1880,
+   "wordCount": 1966,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 9,
-   "outboundInternalLinks": 10,
+   "inboundFromNewPages": 12,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -2568,8 +2568,24 @@
    "wordCount": 1800,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 20,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "baby copperhead",
+   "us_volume": null,
+   "url": "/blog/copperhead-look-alikes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Baby Copperhead or Look-Alike? (Photos)",
+   "wordCount": 2569,
+   "faqs": 10,
+   "sources": 18,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 5,
    "status": "built"
   },
   {
@@ -2670,6 +2686,38 @@
   },
   {
    "rank": null,
+   "keyword": "baby snakes",
+   "us_volume": null,
+   "url": "/blog/baby-snakes",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Baby Snakes: How to Identify Them (Photos)",
+   "wordCount": 2584,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 2,
+   "outboundInternalLinks": 9,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "skunk smell in house",
+   "us_volume": null,
+   "url": "/blog/skunk-smell-in-house",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wildlife",
+   "title": "Skunk Smell in the House? Causes and Fixes",
+   "wordCount": 2565,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 5,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "pet safe pest control",
    "us_volume": null,
    "url": "/learn/pet-safe-pest-control",
@@ -2693,11 +2741,11 @@
    "kind": "spoke",
    "cluster": "garden",
    "title": "Natural Garden Pest Control: A Seasonal Plan",
-   "wordCount": 5135,
+   "wordCount": 5170,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 10,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -2728,7 +2776,7 @@
    "wordCount": 4836,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2776,7 +2824,7 @@
    "wordCount": 2465,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2792,7 +2840,7 @@
    "wordCount": 2436,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 6,
    "status": "built"
   },
@@ -2808,8 +2856,24 @@
    "wordCount": 2590,
    "faqs": 10,
    "sources": 10,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 12,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "tomato hornworm",
+   "us_volume": null,
+   "url": "/blog/tomato-hornworms",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "garden",
+   "title": "Tomato Hornworm: Photos, Damage and Control",
+   "wordCount": 2349,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 1,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -4151,13 +4215,6 @@
   },
   {
    "rank": null,
-   "keyword": "baby copperhead",
-   "url": "/blog/copperhead-look-alikes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "possum poop",
    "url": "/blog/possum-poop",
    "action": "new",
@@ -4193,29 +4250,8 @@
   },
   {
    "rank": null,
-   "keyword": "baby snakes",
-   "url": "/blog/baby-snakes",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "snake poop",
    "url": "/blog/snake-poop",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "tomato hornworm",
-   "url": "/blog/tomato-hornworms",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "skunk smell in house",
-   "url": "/blog/skunk-smell-in-house",
    "action": "new",
    "status": "not built"
   },
@@ -4409,7 +4445,7 @@
    "wordCount": 5360,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 39,
+   "inboundFromNewPages": 40,
    "outboundInternalLinks": 41,
    "status": "built"
   },
@@ -4993,7 +5029,7 @@
    "wordCount": 3741,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 17,
+   "inboundFromNewPages": 18,
    "outboundInternalLinks": 22,
    "status": "built"
   },
@@ -5213,7 +5249,7 @@
    "wordCount": 2953,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 6,
+   "inboundFromNewPages": 7,
    "outboundInternalLinks": 12,
    "status": "built"
   },

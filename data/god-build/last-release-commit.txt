@@ -1,17 +1,6 @@
-release: 15 scheduled page(s) go live (2026-10-29)
+release: 4 scheduled page(s) go live (2026-10-29)
 
-- /blog/spider-beetles
-- /blog/gnat-bites
-- /blog/bat-bugs
-- /blog/false-widow-spiders
-- /blog/woodlouse-spiders
-- /blog/ground-bees
-- /blog/sweat-bees
-- /blog/lovebugs
-- /blog/crazy-ants
-- /blog/baby-silverfish
-- /blog/southern-house-spider
-- /blog/bugs-in-basement
-- /blog/dust-mite-bites
-- /blog/wood-roaches
-- /blog/tiny-red-bugs
+- /blog/copperhead-look-alikes
+- /blog/baby-snakes
+- /blog/tomato-hornworms
+- /blog/skunk-smell-in-house

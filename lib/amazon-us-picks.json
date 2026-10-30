@@ -11,7 +11,8 @@
     "fire-ant-stings": "Medical and emergency page (sting care, pustule stages, anaphylaxis signs, 911 and epinephrine in the quick answer and body); by rule no pick, and its home care is creams and antihistamines.",
     "kissing-bug-bites": "Medical page (bite reactions, 911 for anaphylaxis in the quick answer, Chagas testing); by rule no pick. Its sister page kissing-bug-look-alikes already carries the specimen-jar pick.",
     "sweat-bees": "Nothing to buy for sweat bees: the page says to brush one off gently, never swat, and leave them be as pollinators, and that 'None of the sources cited here recommends an insect repellent for sweat bees or hover flies'; its one product step, 'Cover sweet drinks', is for yellowjackets (fallback if wanted: a reusable soda can lid). The quick answer also carries MedlinePlus's 911 sting signs.",
-    "gnat-bites": "Medical page: its quick answer carries an emergency-room warning, so no product box (same rule as fire-ant-stings and kissing-bug-bites)."
+    "gnat-bites": "Medical page: its quick answer carries an emergency-room warning, so no product box (same rule as fire-ant-stings and kissing-bug-bites).",
+    "copperhead-look-alikes": "Venomous-snake ID and bite-care page that recommends nothing to buy: leave the snake alone, call animal control, get emergency care after a bite. Its only tool-shaped steps (a water hose from a safe distance, clearing yard debris) do not belong in a product box on this page, and tongs, traps and repellents are excluded by rule."
   },
   "picks": {
     "alaska-mosquitoes": {
@@ -1369,6 +1370,30 @@
       "name": "Sticky insect monitoring traps",
       "search": "sticky insect monitoring traps",
       "basis": "'How do you get rid of spider beetles?', step 6: 'Track them with sticky traps. DCPH-A suggests sticky traps along walls and next to outside doors, where the beetles walk at night, adding traps near the ones that catch the most until the infested item turns up.' FAQ 'Do spider beetles come out at night?': 'DCPH-A suggests sticky traps along walls and near outside doors, where the beetles walk at night, to find out where they are coming from.' FAQ 'Can spider beetles fly?' repeats it. The source can be the hard part: UF says 'their varied diet can make the source of an infestation difficult to locate'. Floor-level monitors for crawling insects, not yellow cards for flying ones. Never an insecticide: 'the University of Minnesota does not recommend insecticides in food cupboards'. Alternative with page support: airtight food storage containers (step 3, 'Store food sealed', University of Minnesota and DCPH-A)."
+    },
+    "lovebugs": {
+      "label": "To protect the car's paint",
+      "name": "Car wax",
+      "search": "car wax",
+      "basis": "Quick answer: 'Remains left to bake in the sun can etch car paint, so UF/IFAS advises a coat of wax and washing them off within 24 hours.' 'How do you get lovebugs off your car?', protecting the car for the rest of the flight: 'Wax it. A well-waxed car suffers less paint damage, Clemson says, and UF/IFAS Gardening Solutions says lovebugs come off a recently waxed finish more easily.' A car-care product, not a pest product: no insecticide or repellent (Clemson says sprays clear lovebugs only briefly and harm daytime insects such as honeybees, and UF/IFAS says they cannot be controlled effectively with poisons or repellents). Alternative with page support: a grille screen ('A screen or cover on the grille protects the radiator and paint, Clemson says'), but screens are vehicle-specific."
+    },
+    "tomato-hornworms": {
+      "label": "To spot hornworms at night",
+      "name": "UV flashlight (black light)",
+      "search": "uv black light flashlight",
+      "basis": "'How do you get rid of tomato hornworms?', step 1: 'Find them. Follow bare stems and fresh droppings in early morning or evening, since Utah State says larvae tend to hide by day. Illinois Extension says that under a UV (black) light at night the caterpillars look bright green against deep red-orange leaves'. FAQ 'Why can't I find the hornworm eating my tomatoes?': 'Search early in the morning or in the evening, or at night with a UV light, under which Illinois Extension says the caterpillars look bright green against deep red-orange leaves.' Finding them serves the page's main control: 'By hand, in most gardens. UMN calls picking them off the most effective control and says pesticides are generally not necessary'. Not Bt: the page names Btk but says it works best on very young caterpillars (Utah State: under 1/2 inch) and only if picking is not practical; no broad-spectrum insecticide, which can kill the beneficial wasps. Same product type as mouse-urine."
+    },
+    "baby-snakes": {
+      "label": "To close the gap under doors",
+      "name": "Door sweep",
+      "search": "door sweep",
+      "basis": "'How do you keep baby snakes out of the house?': 'Close the gaps and remove what draws them. UF/IFAS says some snakes, especially small ones, can enter through an opening no larger than a pencil, and VCE advises sealing every opening 1/4 inch or larger: if a rodent can get in, so can a snake.' First item: 'Doors: door sweeps and garage door threshold weather strips, checked for wear (UF/IFAS)'. FAQ 'How do I get a baby snake out of my house?' ends 'Then seal the gap it used.' Exclusion only, nothing that touches a snake: the page says never to pick up, trap or kill one, so no trap, tongs, glue board, repellent or mothballs ('Skip the repellents. UF/IFAS says advertised snake repellents do not work'). A safety-critical page, but its quick answer carries no emergency line (the CDC first aid sits in the body), so it is treated as an identification page with a prevention section, like mite-bites. If the owner wants no box on any snake page, move it to noPick: the door sweep is the page's only safe product."
+    },
+    "skunk-smell-in-house": {
+      "label": "To close an empty den opening",
+      "name": "1/2-inch galvanized hardware cloth",
+      "search": "1/2 inch galvanized hardware cloth",
+      "basis": "'How do you keep skunks from coming back under the house?': 'Make sure the space is empty, then close it for good, outside the months when young may be inside.' Step 3: 'Close the gap. UNL uses 1/2-inch galvanized hardware cloth, one side buried at least 2 to 3 inches deep and bent 12 inches outward in an L shape to discourage digging.' The label carries the page's condition (step 1: close the opening only after it stays undisturbed for five days in a row; young may use a den from April through August). Exclusion material only, as on possum-vs-opossum: no trap ('Do not trap the skunk yourself'), no repellent, mothballs or ammonia ('Skip the repellents'), and no odor product (the page's wash is household peroxide, baking soda and dish soap, mixed fresh and never stored). The quick answer carries the gas-leak 911 step, a home-safety rule-out, not a medical page."
     }
   }
 }

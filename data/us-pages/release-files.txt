@@ -682,6 +682,9 @@ app/blog/holes-in-yard/page.tsx
 content/guides/animal-droppings.json
 data/us-pages/checked/animal-droppings.json
 app/blog/animal-droppings/page.tsx
+content/guides/copperhead-look-alikes.json
+data/us-pages/checked/copperhead-look-alikes.json
+app/blog/copperhead-look-alikes/page.tsx
 content/guides/raccoon-poop.json
 data/us-pages/checked/raccoon-poop.json
 app/blog/raccoon-poop/page.tsx
@@ -700,6 +703,12 @@ app/blog/deer-poop/page.tsx
 content/guides/rabbit-poop.json
 data/us-pages/checked/rabbit-poop.json
 app/blog/rabbit-poop/page.tsx
+content/guides/baby-snakes.json
+data/us-pages/checked/baby-snakes.json
+app/blog/baby-snakes/page.tsx
+content/guides/skunk-smell-in-house.json
+data/us-pages/checked/skunk-smell-in-house.json
+app/blog/skunk-smell-in-house/page.tsx
 content/guides/how-much-is-pest-control.json
 data/us-pages/checked/how-much-is-pest-control.json
 app/blog/how-much-is-pest-control/page.tsx
@@ -742,3 +751,6 @@ app/blog/spider-mites/page.tsx
 content/guides/houseplant-bugs.json
 data/us-pages/checked/houseplant-bugs.json
 app/blog/houseplant-bugs/page.tsx
+content/guides/tomato-hornworms.json
+data/us-pages/checked/tomato-hornworms.json
+app/blog/tomato-hornworms/page.tsx

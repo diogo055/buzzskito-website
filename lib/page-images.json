@@ -117,6 +117,15 @@
   "/guides/photos/young-gray-silverfish-fingertip.webp",
   "/guides/photos/young-silverfish-in-book.webp"
  ],
+ "/blog/baby-snakes": [
+  "/guides/photos/black-rat-snake-juvenile-nbii.webp",
+  "/guides/photos/corn-snake-nps.webp",
+  "/guides/photos/cottonmouth-gaping-cdc.webp",
+  "/guides/photos/dekays-brownsnake-nps.webp",
+  "/guides/photos/eastern-hognose-snake-usfws.webp",
+  "/guides/photos/juvenile-copperhead-usfws.webp",
+  "/guides/photos/northern-water-snake-young-noaa.webp"
+ ],
  "/blog/baby-ticks-nymphs-seed-ticks-ontario": [
   "/guides/photos/blacklegged-tick-adult-nymph-fingertip.webp",
   "/guides/photos/blacklegged-tick-laying-eggs.webp",
@@ -180,6 +189,11 @@
   "/guides/photos/clothes-moth-eggs-wool.webp",
   "/guides/photos/flea-egg-and-larva.webp",
   "/guides/photos/head-lice-nits-on-hair.webp"
+ ],
+ "/blog/bed-bug-heater-canada": [
+  "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+  "/guides/photos/bed-bugs-eggs-under-bag-strap.webp",
+  "/guides/photos/bed-bugs-mating-eggs-fabric-fold.webp"
  ],
  "/blog/bed-bug-poop": [
   "/guides/photos/bed-bug-adult-ruler.webp",
@@ -296,6 +310,11 @@
  "/blog/best-electric-fence-for-raccoons-canada": [
   "/guides/photos/raccoon-on-chimney.webp",
   "/guides/photos/raccoon-scat-lawn-ruler.webp"
+ ],
+ "/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada": [
+  "/guides/photos/bed-bug-fecal-spots-bed-frame.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/cat-flea-on-fingertip.webp"
  ],
  "/blog/best-large-capacity-dehumidifier-canada": [
   "/guides/photos/house-centipede-on-wall.webp",
@@ -700,6 +719,16 @@
   "/guides/photos/german-cockroach-nymphs.webp",
   "/guides/photos/oriental-cockroach-female-ootheca.webp"
  ],
+ "/blog/copperhead-look-alikes": [
+  "/guides/photos/black-rat-snake-juvenile-nbii.webp",
+  "/guides/photos/copperhead-leaf-litter-usfws.webp",
+  "/guides/photos/corn-snake-nps.webp",
+  "/guides/photos/cottonmouth-gaping-cdc.webp",
+  "/guides/photos/dekays-brownsnake-nps.webp",
+  "/guides/photos/eastern-hognose-snake-usfws.webp",
+  "/guides/photos/juvenile-copperhead-usfws.webp",
+  "/guides/photos/northern-water-snake-leaves-usfws.webp"
+ ],
  "/blog/crazy-ants": [
   "/guides/photos/argentine-ants-trail-wall.webp",
   "/guides/photos/fire-ant-mound.webp",
@@ -872,6 +901,11 @@
  "/blog/dynatrap-canada-review": [
   "/guides/photos/culex-quinquefasciatus-female.webp",
   "/guides/photos/honey-bee-on-flower.webp"
+ ],
+ "/blog/ecoraider-bed-bug-spray-review-canada": [
+  "/guides/photos/bed-bug-nymph.webp",
+  "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
+  "/guides/photos/bed-bugs-hotel-headboard.webp"
  ],
  "/blog/fall-mouse-proofing-checklist": [
   "/guides/bz-guide-03-mouse-proofing.webp",
@@ -1829,6 +1863,13 @@
   "/guides/photos/oriental-cockroach-garage-floor.webp",
   "/guides/photos/white-american-cockroach-shed-skin.webp"
  ],
+ "/blog/skunk-smell-in-house": [
+  "/guides/photos/raccoon-on-chimney.webp",
+  "/guides/photos/skunk-dug-hole-lawn.webp",
+  "/guides/photos/striped-skunk-front-lawn-house.webp",
+  "/guides/photos/striped-skunk-lawn-foraging.webp",
+  "/guides/photos/virginia-opossum.webp"
+ ],
  "/blog/smells-mosquitoes-hate": [
   "/guides/photos/culex-pipiens.webp",
   "/guides/photos/lavender-flowers.webp",
@@ -2363,6 +2404,20 @@
   "/guides/photos/springtail.webp",
   "/guides/photos/springtails-under-houseplant.webp",
   "/guides/photos/termite-workers-soldier.webp"
+ ],
+ "/blog/tomato-hornworms": [
+  "/guides/photos/five-spotted-hawk-moth.webp",
+  "/guides/photos/green-stink-bug.webp",
+  "/guides/photos/hornworm-cotesia-cocoons-tomato.webp",
+  "/guides/photos/hornworm-frass-pellets.webp",
+  "/guides/photos/hornworm-pupa-in-soil.webp",
+  "/guides/photos/hornworm-stripped-tomato-stem.webp",
+  "/guides/photos/leaf-footed-bug.webp",
+  "/guides/photos/potato-aphid.webp",
+  "/guides/photos/spider-mite-webbing.webp",
+  "/guides/photos/tobacco-hornworm-chewed-green-tomato.webp",
+  "/guides/photos/tobacco-hornworm-on-tomato-red-horn.webp",
+  "/guides/photos/tomato-hornworm-on-tomato-plant.webp"
  ],
  "/blog/types-of-ticks-identification": [
   "/diagrams/tick-species-ontario.svg",

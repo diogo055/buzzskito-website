@@ -233,6 +233,20 @@
    ],
    "bar": true
   },
+  "/blog/baby-snakes": {
+   "next": "/blog/copperhead-look-alikes",
+   "related": [
+    "/blog/animal-droppings",
+    "/blog/animals-in-attic",
+    "/blog/deer-poop"
+   ],
+   "cards": [
+    "/blog/holes-in-yard",
+    "/blog/raccoon-poop",
+    "/blog/bat-poop"
+   ],
+   "bar": true
+  },
   "/blog/baby-ticks-nymphs-seed-ticks-ontario": {
    "next": "/blog/types-of-ticks-identification",
    "related": [
@@ -2180,6 +2194,20 @@
     "/learn/pet-safe-pest-control",
     "/blog/lawn-pest-control",
     "/blog/ultrasonic-pest-repellers-do-they-work"
+   ],
+   "bar": true
+  },
+  "/blog/copperhead-look-alikes": {
+   "next": "/blog/animal-droppings",
+   "related": [
+    "/blog/animals-in-attic",
+    "/blog/bat-poop",
+    "/blog/deer-poop"
+   ],
+   "cards": [
+    "/blog/holes-in-yard",
+    "/blog/raccoon-poop",
+    "/blog/baby-snakes"
    ],
    "bar": true
   },
@@ -5555,6 +5583,20 @@
    ],
    "bar": true
   },
+  "/blog/skunk-smell-in-house": {
+   "next": "/blog/raccoon-and-skunk-proofing-under-a-deck-canada",
+   "related": [
+    "/blog/animal-droppings",
+    "/blog/animals-in-attic",
+    "/blog/baby-snakes"
+   ],
+   "cards": [
+    "/blog/raccoon-poop",
+    "/blog/bat-poop",
+    "/blog/deer-poop"
+   ],
+   "bar": true
+  },
   "/blog/smells-mosquitoes-hate": {
    "next": "/blog/do-tiki-torches-repel-mosquitoes",
    "related": [
@@ -6640,6 +6682,20 @@
     "/blog/flea-dirt",
     "/blog/millipedes",
     "/blog/what-do-termites-look-like"
+   ],
+   "bar": true
+  },
+  "/blog/tomato-hornworms": {
+   "next": "/blog/spider-mites",
+   "related": [
+    "/learn/natural-garden-pest-control",
+    "/blog/how-to-get-rid-of-fungus-gnats-houseplants",
+    "/blog/how-to-stop-deer-eating-cedars-ontario"
+   ],
+   "cards": [
+    "/learn/aphid-control-guide",
+    "/blog/houseplant-bugs",
+    "/blog/japanese-beetles"
    ],
    "bar": true
   },
