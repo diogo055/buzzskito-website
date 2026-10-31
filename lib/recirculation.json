@@ -2856,6 +2856,20 @@
     "/blog/mosquito-mistakes-ontario-homeowners-make"
    ]
   },
+  "/blog/flea-bites": {
+   "next": "/blog/fleas-on-humans",
+   "related": [
+    "/blog/what-do-fleas-look-like",
+    "/blog/flea-dirt",
+    "/blog/tiny-red-bugs"
+   ],
+   "cards": [
+    "/blog/bugs-that-look-like-fleas",
+    "/blog/june-bugs",
+    "/blog/tiny-brown-bugs"
+   ],
+   "bar": true
+  },
   "/blog/flea-bites-on-humans": {
    "next": "/blog/what-does-a-spider-bite-look-like",
    "related": [
@@ -2963,6 +2977,20 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/tiny-ants"
+   ],
+   "bar": true
+  },
+  "/blog/fruit-flies": {
+   "next": "/blog/flies-in-house",
+   "related": [
+    "/blog/how-to-get-rid-of-fruit-flies",
+    "/blog/no-see-ums",
+    "/blog/how-to-get-rid-of-gnats"
+   ],
+   "cards": [
+    "/blog/how-to-get-rid-of-cluster-flies-canada",
+    "/blog/no-see-um-bites",
+    "/blog/black-flies-mississauga-toronto-gta-2026"
    ],
    "bar": true
   },
@@ -3558,6 +3586,20 @@
     "/blog/water-bugs-vs-cockroaches",
     "/blog/advion-cockroach-gel-bait"
    ]
+  },
+  "/blog/how-to-get-rid-of-drain-flies": {
+   "next": "/blog/how-to-get-rid-of-drain-flies-canada",
+   "related": [
+    "/blog/flies-in-house",
+    "/blog/fruit-flies",
+    "/blog/how-to-get-rid-of-fruit-flies"
+   ],
+   "cards": [
+    "/blog/gnat-bites",
+    "/blog/maggots",
+    "/blog/best-indoor-fly-mosquito-trap-canada"
+   ],
+   "bar": true
   },
   "/blog/how-to-get-rid-of-drain-flies-canada": {
    "next": "/blog/how-to-get-rid-of-fruit-flies",

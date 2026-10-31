@@ -1,6 +1,5 @@
-release: 4 scheduled page(s) go live (2026-10-29)
+release: 3 scheduled page(s) go live (2026-10-31)
 
-- /blog/copperhead-look-alikes
-- /blog/baby-snakes
-- /blog/tomato-hornworms
-- /blog/skunk-smell-in-house
+- /blog/how-to-get-rid-of-drain-flies
+- /blog/flea-bites
+- /blog/fruit-flies
