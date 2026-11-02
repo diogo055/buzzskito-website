@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-534 images across 212 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+537 images across 215 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -725,6 +725,10 @@
 - Fresh black fly bites on a person's hairline, neck or behind the ear, or a female black fly (Simulium) feeding on human skin, from a case where the flies were seen biting and identified by an entomologist or a health agency; public domain or CC0 (CDC PHIL, USDA ARS, a state health department, or a CC0 iNaturalist or Wikimedia Commons record)
 - An eye gnat (Liohippelates) on a person's face near the eye, or a specimen beside a ruler marked in inches, identified to genus by an entomologist or extension service; public domain or CC0
 
+## /blog/how-to-get-rid-of-drain-flies
+
+- A clear plastic cup coated inside with petroleum jelly, upside down over a bathroom sink or shower drain in a US home, with drain flies stuck inside, beside a ruler marked in inches; public domain or CC0
+
 ## /blog/sand-fleas
 
 - Beach hoppers under a clump of washed-up seaweed at the high-tide line on a US Atlantic or Gulf Coast beach, with a coin or ruler for scale, identified by an expert or as a research-grade observation; public domain or CC0
@@ -747,6 +751,10 @@
 
 - Maggots in a household trash can or on the underside of its lid, photographed where found beside a ruler marked in inches (public domain or CC0, so it could lead the page)
 - Maggots crawling on a hard floor below a wall or baseboard inside a house, photographed where found beside a coin or a ruler marked in inches (public domain or CC0)
+
+## /blog/fruit-flies
+
+- Fruit flies caught in a homemade cider vinegar trap (a jar with a paper funnel, or a bowl with soap) on a US kitchen counter, beside a ruler marked in inches, the flies identified as Drosophila; public domain or CC0
 
 ## /blog/dust-mites
 
@@ -936,6 +944,10 @@
 
 - Photo of an adult greenhouse camel cricket from above on a basement floor beside a ruler marked in inches or a US quarter, to show its real size
 - Photo of the dark fecal smears camel crickets leave on basement or crawl space surfaces such as floor joists, as NC State Extension describes, ideally beside a ruler marked in inches
+
+## /blog/flea-bites
+
+- A color clinical photo of flea bites on the ankle or lower leg, attributed to fleas by a physician or a health agency, public domain or CC0; ideally on darker skin, where redness is harder to see, beside a ruler marked in inches
 
 ## /blog/carpet-beetle-larvae
 

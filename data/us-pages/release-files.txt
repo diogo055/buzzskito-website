@@ -505,6 +505,9 @@ app/blog/no-see-ums/page.tsx
 content/guides/gnat-bites.json
 data/us-pages/checked/gnat-bites.json
 app/blog/gnat-bites/page.tsx
+content/guides/how-to-get-rid-of-drain-flies.json
+data/us-pages/checked/how-to-get-rid-of-drain-flies.json
+app/blog/how-to-get-rid-of-drain-flies/page.tsx
 content/guides/sand-fleas.json
 data/us-pages/checked/sand-fleas.json
 app/blog/sand-fleas/page.tsx
@@ -520,6 +523,9 @@ app/blog/how-to-get-rid-of-gnats/page.tsx
 content/guides/maggots.json
 data/us-pages/checked/maggots.json
 app/blog/maggots/page.tsx
+content/guides/fruit-flies.json
+data/us-pages/checked/fruit-flies.json
+app/blog/fruit-flies/page.tsx
 content/guides/dust-mites.json
 data/us-pages/checked/dust-mites.json
 app/blog/dust-mites/page.tsx
@@ -628,6 +634,9 @@ app/blog/flea-dirt/page.tsx
 content/guides/camel-crickets.json
 data/us-pages/checked/camel-crickets.json
 app/blog/camel-crickets/page.tsx
+content/guides/flea-bites.json
+data/us-pages/checked/flea-bites.json
+app/blog/flea-bites/page.tsx
 content/guides/carpet-beetle-larvae.json
 data/us-pages/checked/carpet-beetle-larvae.json
 app/blog/carpet-beetle-larvae/page.tsx

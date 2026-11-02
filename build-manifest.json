@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-30",
+ "generated": "2026-10-31",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 252,
+  "newPagesBuilt": 255,
   "hubPages": 4,
-  "guides": 237,
+  "guides": 240,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 197,
-  "internalLinksInNewPages": 3442
+  "notBuilt": 194,
+  "internalLinksInNewPages": 3470
  },
  "pages": [
   {
@@ -88,7 +88,7 @@
    "wordCount": 2414,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 33,
    "status": "built"
   },
@@ -1630,6 +1630,22 @@
   },
   {
    "rank": null,
+   "keyword": "drain flies",
+   "us_volume": null,
+   "url": "/blog/how-to-get-rid-of-drain-flies",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "Drain Flies: How to Get Rid of Them (Photos)",
+   "wordCount": 2313,
+   "faqs": 10,
+   "sources": 8,
+   "inboundFromNewPages": 11,
+   "outboundInternalLinks": 6,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "sand fleas",
    "us_volume": null,
    "url": "/blog/sand-fleas",
@@ -1672,7 +1688,7 @@
    "wordCount": 2592,
    "faqs": 10,
    "sources": 6,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -1688,7 +1704,7 @@
    "wordCount": 2423,
    "faqs": 10,
    "sources": 11,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1706,6 +1722,22 @@
    "sources": 17,
    "inboundFromNewPages": 2,
    "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "how to get rid of fruit flies",
+   "us_volume": null,
+   "url": "/blog/fruit-flies",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "flies",
+   "title": "How to Get Rid of Fruit Flies: Find the Source",
+   "wordCount": 1729,
+   "faqs": 10,
+   "sources": 7,
+   "inboundFromNewPages": 4,
+   "outboundInternalLinks": 7,
    "status": "built"
   },
   {
@@ -1784,7 +1816,7 @@
    "wordCount": 2320,
    "faqs": 5,
    "sources": 13,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1800,7 +1832,7 @@
    "wordCount": 3208,
    "faqs": 6,
    "sources": 11,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2088,7 +2120,7 @@
    "wordCount": 2083,
    "faqs": 6,
    "sources": 9,
-   "inboundFromNewPages": 9,
+   "inboundFromNewPages": 10,
    "outboundInternalLinks": 9,
    "status": "built"
   },
@@ -2120,7 +2152,7 @@
    "wordCount": 2601,
    "faqs": 6,
    "sources": 17,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 12,
    "outboundInternalLinks": 16,
    "status": "built"
   },
@@ -2152,7 +2184,7 @@
    "wordCount": 2921,
    "faqs": 10,
    "sources": 9,
-   "inboundFromNewPages": 11,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -2264,7 +2296,7 @@
    "wordCount": 2216,
    "faqs": 9,
    "sources": 18,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -2282,6 +2314,22 @@
    "sources": 17,
    "inboundFromNewPages": 7,
    "outboundInternalLinks": 10,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "flea bites",
+   "us_volume": null,
+   "url": "/blog/flea-bites",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "household",
+   "title": "Flea Bites: What They Look Like on Humans",
+   "wordCount": 2378,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -2520,7 +2568,7 @@
    "wordCount": 4053,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 34,
+   "inboundFromNewPages": 35,
    "outboundInternalLinks": 47,
    "status": "built"
   },
@@ -2760,7 +2808,7 @@
    "wordCount": 3631,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 16,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -4019,13 +4067,6 @@
   },
   {
    "rank": null,
-   "keyword": "drain flies",
-   "url": "/blog/how-to-get-rid-of-drain-flies",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "how to get rid of cluster flies",
    "url": "/blog/how-to-get-rid-of-cluster-flies",
    "action": "new",
@@ -4222,22 +4263,8 @@
   },
   {
    "rank": null,
-   "keyword": "flea bites",
-   "url": "/blog/flea-bites",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "bed bug bites",
    "url": "/blog/what-do-bed-bug-bites-look-like",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "how to get rid of fruit flies",
-   "url": "/blog/fruit-flies",
    "action": "new",
    "status": "not built"
   },
