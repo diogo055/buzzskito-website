@@ -7,6 +7,7 @@ import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -55,7 +56,7 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'No-see-ums are biting midges just 1–3 mm long. How their bites differ from mosquito bites, why they slip through screens, and how to stop them in Ontario.',
   canonical: `/blog/${SLUG}`,
@@ -63,7 +64,7 @@ export const metadata: Metadata = buildMetadata({
   publishedTime: DATE,
   modifiedTime: UPDATED,
   image: shareImage('biting-midge-culicoides'),
-})
+}), '/blog/no-see-ums-biting-midges-ontario')
 
 const AMZ_TAG = tagForSlug('no-see-ums-biting-midges-ontario')
 

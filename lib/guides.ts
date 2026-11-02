@@ -208,6 +208,8 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/how-to-get-rid-of-silverfish', ca: '/blog/how-to-get-rid-of-silverfish-canada' },
   { us: '/blog/mouse-poop', ca: '/blog/what-does-mouse-poop-look-like-canada' },
   { us: '/blog/bed-bug-poop', ca: '/blog/bed-bug-stains-poop-droppings-canada' },
+  // Nov 2, 2026: the two split "no see ums" / "noseeum" (GSC Oct 5-Nov 1: Ontario @6.2-10.0, US guide @10.6).
+  { us: '/blog/no-see-ums', ca: '/blog/no-see-ums-biting-midges-ontario' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)
