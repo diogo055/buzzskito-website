@@ -25,6 +25,10 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // ── Mediavine ads.txt, 2026-11-02 ─────────────
+      // Mediavine hosts the full partner list and keeps it current; its onboarding asks for a 301 from
+      // /ads.txt to that copy. public/ads.txt was removed: a local copy would go stale when partners change.
+      { source: '/ads.txt', destination: 'https://adstxt.journeymv.com/sites/5cb2e89b-2d2f-47ba-9cbf-599f203df724/ads.txt', statusCode: 301 },
       // ── Geo-slug A/B test, 2026-09-03 (data/exp-slug-test.json) ─────────────
       // Treatment arm: slug loses its `-canada` suffix, TITLE keeps the geo token.
       // Revert these 12 entries and `git mv` back if the 6-week stop rule fires.
