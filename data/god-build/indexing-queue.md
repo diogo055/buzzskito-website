@@ -26,11 +26,11 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 Days 4-5 went live Oct 29 (late evening). Request these first:
 
-- https://buzzskito.ca/blog/dust-mite-bites
-- https://buzzskito.ca/blog/gnat-bites
-- https://buzzskito.ca/blog/false-widow-spiders
-- https://buzzskito.ca/blog/ground-bees
-- https://buzzskito.ca/blog/sweat-bees
+- https://buzzskito.ca/blog/dust-mite-bites (requested 2026-10-30)
+- https://buzzskito.ca/blog/gnat-bites (requested 2026-10-30)
+- https://buzzskito.ca/blog/false-widow-spiders (requested 2026-10-30)
+- https://buzzskito.ca/blog/ground-bees (requested 2026-10-30)
+- https://buzzskito.ca/blog/sweat-bees (requested 2026-10-30)
 - https://buzzskito.ca/blog/bat-bugs
 - https://buzzskito.ca/blog/lovebugs
 - https://buzzskito.ca/blog/crazy-ants

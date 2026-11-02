@@ -1,7 +1,9 @@
 # Mediavine — where things stand and what is left before launch
 
-Last updated 2026-10-12. Ads are **not serving yet**: Mediavine keeps the site in "launch mode"
+Last updated 2026-10-12, status updated 2026-10-31. Ads are **not serving yet**: Mediavine keeps the site in "launch mode"
 until Google approves it and you press Launch.
+
+**Oct 31:** the owner entered the Google PIN in AdSense. AdSense shows payments and ad settings done, and "Connect your site" as required (leave it unclicked until Mediavine answers). Mediavine still showed "PIN Pending" right after. Ad Manager shows Identity and Address Verification Completed, and MCM Accepted (Manage inventory). **The note further down is out of date. The current note, `reports/mediavine-note-2026-10-31.md`, was sent Oct 31 from buzzskito@gmail.com to publishers@mediavine.com, asking for the phone sticky ad ON. Waiting on their reply before Launch.**
 
 ## Done (live on buzzskito.ca)
 
@@ -176,7 +178,7 @@ Ask Mediavine what the phone sticky ad typically earns on a site your size befor
 
 ## At launch (I do these)
 
-- Swap the one-line ads.txt for Mediavine's full file when they ask for it.
+- Swap the one-line ads.txt for Mediavine's full file when they ask for it. **Done Nov 2, 2026:** `/ads.txt` now 301-redirects to their hosted copy, as their onboarding step 4 asked.
 - Check live on a phone and a desktop: no ad on the homepage or any service page; nothing of
   yours overlaps an ad on article pages; the homepage still loads fast.
 - On a phone, open /blog/best-bed-bug-fogger-canada, /blog/alaska-mosquitoes and

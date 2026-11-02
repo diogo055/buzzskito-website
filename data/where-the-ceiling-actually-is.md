@@ -1,5 +1,7 @@
 # The ceiling is the commission rate, not domain authority
 
+> **Correction, Oct 30, 2026:** the "7.6x" below compares commission per order, but 92% of October's items were not the product we linked. At about 4% direct conversion, CA$16.81 is about 67 cents a click against 22.5 cents today: about 3x on those links only, and Harris is unregistered in Canada. Realistic gain from brand-direct is +10-30%, low confidence. Amazon income has held at about 7 cents per Canadian session, so visits are the main driver. See `reports/amazon-what-sells-2026-10-30.md`.
+
 Written 2026-09-03, in answer to a direct question from the owner: *"we are at the ceiling of
 our capability to make money through referrals right now without more domain authority?"*
 

@@ -50,6 +50,8 @@ The July 2026 cohort — 215 pages built by this exact process, on this domain, 
 have ranked — earns **$367/month between them. Mean $1.71 per page. Median $0.16. Forty
 percent earn nothing.** The top 10 pages hold 62.6% of all blog clicks; the bottom 250 hold 4.3%.
 
+**Correction, Oct 30, 2026:** those per-page figures came from a Search Console pull that misses most Canadian clicks. Re-measured with GA4, a new product page earns about CA$30 a year on average and about CA$8 at the median (`reports/Canadian Amazon earnings growth plan.md`). The conclusion holds: a new page is worth little, so build in tested batches. It is no longer "worthless".
+
 So a proposal to "build 20 pages in the category that converts best" is worth about $3/month at
 the median. Per-cluster "$/page" averages look much better than this and are an averaging
 artifact: the dehumidifier cluster's headline $7.69/page is three pages carrying 95% of the
