@@ -711,7 +711,9 @@
    every use falls back to 0px, so with no ad pinned each rule computes to today's position.
 
    RECOMMENDED SETUP is that none of this ever runs on phones: Mobile and Tablet Adhesion and the
-   mobile Universal Player switched off in Mediavine's dashboard. This is the fallback. */
+   mobile Universal Player switched off in Mediavine's dashboard. This is the fallback.
+   Ads went live on Nov 2, 2026 with the mobile adhesion and the docked video ON, and below
+   1024px lifting our bars covered more than half the screen, so there they step aside (rule 6). */
 
 /* 1. How much to reserve. Class-based first, for browsers without :has(). */
 body.adhesion,
@@ -791,15 +793,29 @@ body:is(.adhesion, .gumgumAdhesion, .mediavine-video__has-sticky) [data-site-dia
   padding-bottom: calc(1.5rem + var(--mv-adh, 0px) + var(--mv-vid, 0px));
 }
 
-/* 5. Room at the end of the page on phones for the band plus the lead bar. Mediavine sets its
-      own body padding with !important, so these need !important and a more specific selector. */
+/* 5. Room at the end of the page on phones for the band. Mediavine sets its own body padding
+      with !important, so these need !important and a more specific selector. No room is kept
+      for our bars: they step aside while something is pinned (rule 6). */
 @media (max-width: 639.98px) {
   html body.adhesion.adhesion,
   html body.gumgumAdhesion.gumgumAdhesion,
   html body.mediavine-video__has-sticky.mediavine-video__has-sticky {
-    padding-bottom: calc(96px + var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)) !important;
+    padding-bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)) !important;
   }
   html body:has(#fixed_container_bottom > .adhesion_wrapper) {
-    padding-bottom: calc(96px + var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)) !important;
+    padding-bottom: calc(var(--mv-adh, 0px) + var(--mv-vid, 0px) + var(--mv-gap, 0px)) !important;
+  }
+}
+
+/* 6. Phones and tablets: while Mediavine has anything pinned to the bottom, our own bars step
+      aside. Measured on the launch day (Nov 2, 2026): body.highImpact_adhesion reserves 150px,
+      #fixed_container_bottom is 400px tall, and the docked video adds about 200px, so the buy bar
+      and the lead bar stacked above it covered 59% of the owner's iPhone screen. The in-page
+      Amazon buttons, the top box (same pick as the buy bar) and the in-content "Next" box stay.
+      Service pages never load Mediavine, so their Call / Text / Get price bar is untouched. */
+@media (max-width: 1023.98px) {
+  body:is(.adhesion, .gumgumAdhesion, .mediavine-video__has-sticky) :is([data-lead-bar], [data-sticky-buy-bar], [data-keep-reading-bar]),
+  body:has(#fixed_container_bottom > .adhesion_wrapper) :is([data-lead-bar], [data-sticky-buy-bar], [data-keep-reading-bar]) {
+    display: none !important;
   }
 }
