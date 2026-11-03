@@ -1,5 +1,37 @@
 # Making Google trust buzzskito.ca: audit and clean-up (Nov 3, 2026)
 
+## Update, Nov 3 evening: your answers and what changed
+
+**Your answers, and what they meant for the site:**
+- **Customer quotes are all real:** unchanged.
+- **"Alex Francisco" is your public name, and Nick is the other co-owner:** bylines unchanged. The one "one owner (Alex Francisco)" line now says two co-owners.
+- **The ~330 older articles were written with AI help, and you don't want a label:** unchanged. Neither Google nor Mediavine's written policy requires one. Mediavine's sentence covers "low-quality, mass-produced, unedited or undisclosed AI content that is scraped from other websites".
+- **The equipment and scale claims are true:** unchanged.
+- **Durham Region is not served:** fixed (item 2 below).
+
+**Done and live (commit `c310c32c`):**
+1. **50 template location pages are out of Google's index but still on the site.** They are marked "noindex, follow", taken out of the sitemap and llms.txt, and still linked from `/service-areas`.
+   - 17 "pest control [city]" pages. North York and Etobicoke stay in: they have their own writing and 25 clicks this season.
+   - 33 neighbourhood pages with under 50 impressions and 0 clicks this season, including Summerhill, which Google never indexed.
+2. **Ajax and Pickering pages removed.** Both now redirect to `/service-areas`. The Scarborough, Ontario and history pages say the area ends at Scarborough. The yard-risk and Lyme tools treat Ajax and Pickering addresses as outside the area.
+3. **"One owner" now reads "two co-owners".**
+
+**Search Console, checked in your browser:**
+- Manual actions: none. Security issues: none.
+- Both sitemaps: Success (790 and 375 pages).
+- The Ad Experience Report page and its help page now return "not found", so there is nothing to check there.
+- **One thing for you:** a robot account named `indexing-api` (`indexing-api@buzzskito-gsc-reader.iam.gserviceaccount.com`) still has **Owner** access. Its key was never added to Vercel, so it never sent anything to Google.
+  - To remove it: Search Console → Settings → Users and permissions → the ⋮ next to "indexing-api" → Remove access.
+  - Don't delete the Google Cloud project "buzzskito-gsc-reader": it also holds the connection Claude uses to read your Search Console data.
+
+**Still open from the nine decisions below:**
+- 3: the "best companies" city copies.
+- 4: release pace (the new traffic research covers this).
+- 5: human review.
+- 6: the 9.1/10 scores.
+- 7: the star-rating markup.
+- 8: the Mediavine docked video.
+
 ## The short answer
 
 - **The technical side is clean.**
