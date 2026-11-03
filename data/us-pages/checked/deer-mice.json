@@ -2,7 +2,7 @@
  "id": "deer-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "7ec383b8b4f6ce026dd5a02306b85a40442f7f51e30ba70709d969145c20a60f",
+ "sha": "9f24e08bafb3a74a40537c0d78eea7ecfb77db6e6a1917b1c75f1e9cf048dbd8",
  "claimsChecked": 109,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 11,
@@ -12,6 +12,11 @@
    "on": "2026-10-20",
    "note": "Oct 20, 2026: one sentence added after the signs list in 'Why do deer mice come into houses, cabins and sheds?' linking the new /blog/mouse-poop; no fact changed.",
    "previousSha": "db583954506316629c036c9ddddbd3fd959c7c7aeceb836c0ba6982c01ba1ca1"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 5 real photos (deer-mouse-white-belly-cdc, north-american-deer-mouse, white-footed-mouse-leaf-litter, deer-mouse-grass-feathers-cdc, deer-mouse-nest); captions from each photo's source description; no other text changed.",
+   "previousSha": "7ec383b8b4f6ce026dd5a02306b85a40442f7f51e30ba70709d969145c20a60f"
   }
  ]
 }

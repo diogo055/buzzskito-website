@@ -2,6 +2,20 @@
  "_readme": "Where every photo on the scheduled pages came from. One entry per file in public/guides/photos/: file (the path the page uses), subject, sourceUrl (the page it was taken from), originalUrl (the file downloaded), license (public-domain, CC0-1.0, CC-BY-x.x or CC-BY-SA-x.x only), credit (exactly as the source asks), downloadedOn, sha256 of the original download. scripts/validate-guide.mjs refuses a figure that is not listed here or whose licence, credit or source differ.",
  "photos": [
   {
+   "file": "/guides/photos/aedes-aegypti-female-after-blood-meal.webp",
+   "subject": "Female yellow fever mosquito, Aedes aegypti, on a person’s skin after taking her blood meal (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26049",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26049/26049.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 45766,
+   "sourceDescription": "This is a photograph depicting a female, Aedes aegypti mosquito, after taking her blood meal. Ae. aegypti is also known as the yellow fever mosquito.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "907f27962530c716eba589ec91d87d96bb553efb9ca43cd8f21b0a84fab0b061"
+  },
+  {
    "file": "/guides/photos/aedes-aegypti-female-and-male.webp",
    "subject": "Yellow fever mosquitoes, Aedes aegypti: female (left) and male (right)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aedes_Aegypti_Mosquitoes_(25908400183).jpg",
@@ -14,6 +28,20 @@
    "sourceDescription": "Female (left) and male (right) Aedes aegypti mosquitoes. Credit: NIAID",
    "downloadedOn": "2026-10-16",
    "sha256Original": "c161aeb37ed619f2e0dead1087c81ba1ff9a5709a2dbd802c536202059664fe4"
+  },
+  {
+   "file": "/guides/photos/aedes-aegypti-female-feeding.webp",
+   "subject": "Female yellow fever mosquito, Aedes aegypti, taking a blood meal from her human host, her abdomen beginning to turn red (CDC photograph by James Gathany, 2006)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=9258",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/9258/9258.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Prof. Frank Hadley Collins, Dir., Cntr. for Global Health and Infectious Diseases, Univ. of Notre Dame; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 807,
+   "bytes": 53962,
+   "sourceDescription": "This 2006 photograph depicted a female, Aedes aegypti mosquito, from a slightly superior, left anterior-oblique perspective, while she was in the process of acquiring a blood meal from her human host. The feeding apparatus consisted of a sharp, orange-colored stylet. When not feeding, the stylet wou",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "2b928102de674294e039ef422b2792e5c3104e44270ccafc8cc79e2faf7aa85b"
   },
   {
    "file": "/guides/photos/aedes-aegypti-female.webp",
@@ -30,6 +58,34 @@
    "sha256Original": "397090f7758f2f2a67f28ef971e9422f2c31b7b87d430ed746d362d001f38194"
   },
   {
+   "file": "/guides/photos/aedes-aegypti-larvae-at-surface.webp",
+   "subject": "Three yellow fever mosquito larvae, Aedes aegypti, suspended at the surface of standing water (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26029",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26029/26029.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 53076,
+   "sourceDescription": "This is a photograph depicting three, Aedes aegypti mosquito larvae, suspended at the surface of standing water. Ae. aegypti is also known as the yellow fever mosquito. Larvae hatch from mosquito eggs, and live in water, as they feed on a variety of organic matter. Larvae shed their skin, known as m",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "60d58c3c4e29f65c568b7ac2076c420bad66338be57e37ff110caa7c1243bf50"
+  },
+  {
+   "file": "/guides/photos/aedes-aegypti-male-on-flower.webp",
+   "subject": "Adult male yellow fever mosquito, Aedes aegypti, resting on a pink flower (CDC photograph); the CDC notes that males do not bite and feed on nectar from flowers or fruit",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26046",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26046/26046.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 40810,
+   "sourceDescription": "This is a photograph depicting an adult male Aedes aegypti, while resting on a flower. Ae. aegypti is also known as the yellow fever mosquito. Male mosquitoes do not bite, or feed on blood. Instead, they feed on nectar from flowers or fruit.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "17c9f9a4b6ed315a617774bfa0f5281e740cd8f2c8f6682548bbb6bf426c57a9"
+  },
+  {
    "file": "/guides/photos/aedes-aegypti-male.webp",
    "subject": "Yellow fever mosquito, Aedes aegypti, male, with its bushy (plumose) antennae",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26047",
@@ -42,6 +98,20 @@
    "sourceDescription": "This is a photograph depicting a male, Aedes aegypti mosquito, while resting. Ae. aegypti is also known as the yellow fever mosquito. Male mosquitoes do not bite, or feed on blood. Instead, they feed on nectar from flowers or fruit.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "394a06abe5b7a6661f677a6f52a13f2fcbda49a8b63d6f18215f421dc5f8dfcc"
+  },
+  {
+   "file": "/guides/photos/aedes-aegypti-pupae-adult-emerging.webp",
+   "subject": "Four yellow fever mosquito pupae, Aedes aegypti, suspended below the surface of standing water, with an adult mosquito emerging above them (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26040",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26040/26040.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 67812,
+   "sourceDescription": "This is a photograph depicting four, Aedes aegypti mosquito pupae (bottom), and an emerging adult mosquito (top), suspended in standing water. Ae. aegypti is also known as the yellow fever mosquito. The pupae are the last stage of this mosquito’s life cycle before adulthood. Pupae develop into adult",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "2bb1f7a94b750637b896a65ef374aa4a98e694d03541a9b89d7c5476625742c4"
   },
   {
    "file": "/guides/photos/aedes-aegypti-pupae.webp",
@@ -128,6 +198,20 @@
    "sha256Original": "f178261b49538cbc2548201360810f7573010a266d41e97155a79359b5171e20"
   },
   {
+   "file": "/guides/photos/aedes-albopictus-female-blood-meal.webp",
+   "subject": "Female Asian tiger mosquito, Aedes albopictus, taking a blood meal, her red abdomen showing she is feeding (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26048",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26048/26048.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 122530,
+   "sourceDescription": "This is a photograph depicting a female, Aedes albopictus mosquito. Her red abdomen indicates that she is taking a blood meal. Ae. albopictus is also known as the Asian tiger mosquito.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "5c4fdcf9b07237b24c449229e5ddc56158455473f1afd5433e182c488a4c32ca"
+  },
+  {
    "file": "/guides/photos/aedes-albopictus-goldenrod.webp",
    "subject": "Asian tiger mosquito, Aedes albopictus, adult female (as annotated on iNaturalist), on sweet goldenrod flowers; the observer says it appeared to be feeding on nectar (The Plains, Ohio)",
    "sourceUrl": "https://www.inaturalist.org/observations/68885302",
@@ -212,6 +296,20 @@
    "sha256Original": "afe208f9e3ebf35e01e183393a80ab5b8127a271614de702b94fbe9919353499"
   },
   {
+   "file": "/guides/photos/american-cockroach-bathroom-sink.webp",
+   "subject": "American cockroach, Periplaneta americana, adult (as annotated), inside a bathroom sink where the observer found it (Flower Mound, Texas; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/215376736",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/380774409/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) F. LaBry, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 54534,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "85682f9d51839c3e9437898852d1ad61ea5aa98cb78f6166e9e94f94a848b320"
+  },
+  {
    "file": "/guides/photos/american-cockroach-droppings-trap.webp",
    "subject": "American cockroach, Periplaneta americana, caught on a sticky monitoring trap, with droppings the observer recorded as its own beside it (Blacksburg, Virginia)",
    "sourceUrl": "https://www.inaturalist.org/observations/231654201",
@@ -252,6 +350,20 @@
    "sourceDescription": "Periplaneta americana",
    "downloadedOn": "2026-10-16",
    "sha256Original": "bbead13d0890d424d8db118b7af4ca684e0d228e0867e96260d61a9c17a702aa"
+  },
+  {
+   "file": "/guides/photos/american-cockroach-spiny-legs-concrete.webp",
+   "subject": "American cockroach, Periplaneta americana, on concrete: long antennae, spiny legs, wings covering the abdomen and a pale band around the plate behind the head (Las Vegas, Nevada; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/120683267",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/204143143/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 242822,
+   "sourceDescription": "Periplaneta americana",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "5a762a95ccf14b4d60302c35214b046a25cfb0e27633999f238dbbbef1b8f9e1"
   },
   {
    "file": "/guides/photos/american-cockroach.webp",
@@ -296,6 +408,34 @@
    "sha256Original": "ec0c49e4f5590708b8c999e1c1b11d21d3d1d26d566f3c1be06fed588623c9b3"
   },
   {
+   "file": "/guides/photos/american-dog-tick-engorged-ksre.webp",
+   "subject": "Engorged female American dog tick, Dermacentor variabilis (K-State Research and Extension photo)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_dog_tick_engored.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/American_dog_tick_engored.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "KSRE Photo, CC BY 2.0, via Wikimedia Commons",
+   "width": 960,
+   "height": 720,
+   "bytes": 14584,
+   "sourceDescription": "The American dog tick (engorged female shown) is commonly found in states east of the Rocky Mountains and also along the Pacific Coast.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "3eceb8d3d2040f7a12d21a1d04ed6e0e22034a92d6944a22302ae2f392f2e742"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-female-point-pelee.webp",
+   "subject": "Adult female American dog tick, Dermacentor variabilis (as annotated), on a white tissue; the observer found it on their leg after a walk (Point Pelee National Park, Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/286918399",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/515854412/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 80202,
+   "sourceDescription": "Dermacentor variabilis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "f1f17755129ab67ef9e294490f504c2c39174a0ba5bfdd5768b94134f5cd56fe"
+  },
+  {
    "file": "/guides/photos/american-dog-tick-female.webp",
    "subject": "American dog tick, Dermacentor variabilis, adult female",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=170",
@@ -308,6 +448,90 @@
    "sourceDescription": "This image depicts a dorsal view of a female, American dog tick, Dermacentor variabilis, which had been found in Panola Park near Atlanta, Georgia. D. variabilis has been found to be a vector for both Rocky Mountain spotted fever (RMSF), and tularemia.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "e83b83974b9e1ae87264388abc4a15fc9b9d9d9af2a54c36782dde50e7b4258c"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-found-on-head-mississauga.webp",
+   "subject": "American dog tick, Dermacentor variabilis, on a white surface; the observer found it on their head at the hairline (The Credit Woodlands, Mississauga, Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/216560094",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/391506553/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 941,
+   "bytes": 38384,
+   "sourceDescription": "Dermacentor variabilis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "67915c20634f552b35acdc174d1fa173a2c671872bf3d7e35bf175a581270c37"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-hairline-neck.webp",
+   "subject": "Adult female American dog tick, Dermacentor variabilis, crawling along a person’s hairline at the back of the neck (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28372",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28372/28372.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 129504,
+   "sourceDescription": "This image depicts an adult female American dog tick, Dermacentor variabilis, that was crawling along a person’s hair line.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "d90743136fb91797e25fbf275ca3490f8a9138a0aef39facc6b159acddcb9172"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-in-hand-yard-work.webp",
+   "subject": "American dog tick, Dermacentor variabilis, on a person’s palm, found after doing yard work (U.S. Fish and Wildlife Service photo by Tina Shaw)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_dog_tick_in_hand_(28082751738).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/American_dog_tick_in_hand_%2828082751738%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 131088,
+   "sourceDescription": "It's tick season! Remember to carefully check for ticks after spending time outside. This one was found after doing yard work. Photo by Tina Shaw/USFWS.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b5264e74882c488b50bada87954ef6d27b89631ebb30d0da81e0c5870c77e827"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-macro-droege.webp",
+   "subject": "American dog tick, Dermacentor variabilis, top view under magnification on black; the photographer, Sam Droege, found it crawling on himself (Beltsville, Maryland; research grade on iNaturalist; the source does not state the sex)",
+   "sourceUrl": "https://www.inaturalist.org/observations/330405",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/411789/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1636,
+   "bytes": 230220,
+   "sourceDescription": "Dermacentor variabilis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b528ab672b4a4cfed55cc604b1c4173a1eef89c65394f9284a1dae72f62227ef"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-male-hamilton.webp",
+   "subject": "Adult male American dog tick, Dermacentor variabilis (as annotated), on a person’s skin among hairs (Hamilton, Ontario; research grade on iNaturalist, three identifiers; the source does not say whether it was attached)",
+   "sourceUrl": "https://www.inaturalist.org/observations/272774500",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/490750001/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 783,
+   "height": 784,
+   "bytes": 79942,
+   "sourceDescription": "Dermacentor variabilis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "7b4cbed1895b5319cd89e2e8cb9807a0abff4c0d389820cf8485125a753aa0a0"
+  },
+  {
+   "file": "/guides/photos/american-dog-tick-male-ksre.webp",
+   "subject": "Adult male American dog tick, Dermacentor variabilis, on wood, the mottled cream-and-brown shield covering his whole back (K-State Research and Extension photo)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_dog_tick_male.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/66/American_dog_tick_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "KSRE Photo, CC BY 2.0, via Wikimedia Commons",
+   "width": 960,
+   "height": 720,
+   "bytes": 38230,
+   "sourceDescription": "The American dog tick (male shown) is commonly found in states east of the Rocky Mountains and also along the Pacific Coast.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "86566cff5e8985b40d4061cd410723bf1b25bfdf1083f03b1e8905e1de654136"
   },
   {
    "file": "/guides/photos/american-dog-tick-mouthparts-sem.webp",
@@ -336,6 +560,20 @@
    "sourceDescription": "This image depicts an adult female American dog tick, Dermacentor variabilis, that was crawling on a blade of grass.",
    "downloadedOn": "2026-10-28",
    "sha256Original": "e374116078140b9da1869ec5a86eff8c8798731f69206e0da2d3e69d58675d4b"
+  },
+  {
+   "file": "/guides/photos/american-dog-ticks-chive-plant.webp",
+   "subject": "Two American dog ticks, Dermacentor variabilis, waiting on a chive plant to catch a ride on a passing host (U.S. Fish and Wildlife Service photo by Courtney Celley)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_dog_ticks_(51232135244).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/American_dog_ticks_%2851232135244%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "U.S. Fish and Wildlife Service - Midwest Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 801,
+   "bytes": 20002,
+   "sourceDescription": "We spotted these American dog ticks waiting to catch a ride on a chive plant. Remember to always check for ticks after spending time outside - even in your yard or in a park. These ticks can transmit tularemia which is an infectious disease that attacks the skin, eyes, lymph nodes and lungs as well ",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "e9d5e336cf489a18c3515f94f20978e3be7fe9753ec03f6f686eaffda9c0fd48"
   },
   {
    "file": "/guides/photos/american-giant-millipede.webp",
@@ -394,6 +632,34 @@
    "sha256Original": "74cdebc719199e2e5a7f5238537837ee6845f2dcf462694f4035fd6431b41b83"
   },
   {
+   "file": "/guides/photos/anopheles-merus-feeding-hand.webp",
+   "subject": "Female Anopheles merus, a malaria mosquito of the Anopheles gambiae species complex, feeding on a human hand, her abdomen red and enlarged with blood (CDC photograph by James Gathany, 2014)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=18762",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/18762/18762.tif",
+   "license": "public-domain",
+   "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 798,
+   "bytes": 34326,
+   "sourceDescription": "Body bent towards the skin surface, this image depicts a lateral view of a feeding female Anopheles merus mosquito. This specimen had landed on a human hand, and was in the process of obtaining its blood meal through its sharp, needle-like labrum, which it had inserted into its human host. Note the ",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "6c81d6364fb626b0c51f54e9b57bf303793633ea7d1d87a4e0c76f89c862c57c"
+  },
+  {
+   "file": "/guides/photos/anopheles-punctipennis-window-ontario.webp",
+   "subject": "Woodland malaria mosquito, Anopheles punctipennis, on the glass of a window, found by the observer indoors in a cold room in late October (Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/140281744",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/240106665/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 30776,
+   "sourceDescription": "Anopheles punctipennis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "aae3087a93c704a030de44ba7e0f37987366067b5be555765f0ed8f596ea9ce8"
+  },
+  {
    "file": "/guides/photos/anopheles-quadrimaculatus.webp",
    "subject": "Common malaria mosquito, Anopheles quadrimaculatus",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=27676",
@@ -406,6 +672,20 @@
    "sourceDescription": "This photograph depicts an Anopheles quadrimaculatus mosquito, resting on a leaf.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "368377a6c624c69a1cbf605b2f306976b779678a4bb09720123fe3d3080c2c99"
+  },
+  {
+   "file": "/guides/photos/anopheles-stephensi-feeding.webp",
+   "subject": "Female Anopheles stephensi, a malaria mosquito, feeding on human skin, her abdomen red and swollen with blood and droplets of blood expelled from its tip (CDC photograph by James Gathany, 2014)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=18760",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/18760/18760.tif",
+   "license": "public-domain",
+   "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 795,
+   "bytes": 50126,
+   "sourceDescription": "Crouching forward and downward on her forelegs, this image depicts a lateral view of a feeding female Anopheles stephensi mosquito. This specimen had landed on a human skin surface, and was in the process of obtaining its blood meal through its sharp, needle-like labrum, which it had inserted into i",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "88d90aa15d7fcf1cc944fc9dfbf1e26378aaa4a087203f8b58b3ad0d3d2df286"
   },
   {
    "file": "/guides/photos/argentine-ants-bait-trap.webp",
@@ -728,6 +1008,20 @@
    "sourceDescription": "Bald-faced Hornet - Dolichovespula maculata, Herndon, Virginia",
    "downloadedOn": "2026-10-15",
    "sha256Original": "d5dc061679cc0e1e555af3397be084b3784bd5c3a2078504849ca3bb2b30366f"
+  },
+  {
+   "file": "/guides/photos/banded-sugar-ant-australia.webp",
+   "subject": "Banded sugar ant, Camponotus consobrinus, a large worker with an orange band across its middle, on bare soil (Angaston, South Australia; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/268552833",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/482717719/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 77026,
+   "sourceDescription": "Camponotus consobrinus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "0bcfe9d63120ad2077114e62eedf0e3423466f3fd4d3e86094e62bc454fc35ed"
   },
   {
    "file": "/guides/photos/bark-scorpion-blacklight.webp",
@@ -1136,6 +1430,20 @@
    "sha256Original": "c9f9cfc03267edf377812cc169ceb6c44305b488c955566088abf0aee700bb8f"
   },
   {
+   "file": "/guides/photos/bed-bug-swollen-after-feeding.webp",
+   "subject": "Bed bug, Cimex lectularius, on white woven fabric beside the clear rim of a container, its abdomen swollen and showing dark red; the observer notes it was not her blood (Centreville, Maryland; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/25405504",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/39340427/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Katja Schulz, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 60160,
+   "sourceDescription": "Cimex lectularius",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b755f5464449502b9ac14fae45df28e2352867b433dcac3ffd17748499ad072b"
+  },
+  {
    "file": "/guides/photos/bed-bugs-eggs-mattress-seam.webp",
    "subject": "Bed bugs and their white eggs along a seam of a bed (the photographer's description)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedbugs.jpg",
@@ -1204,6 +1512,20 @@
    "sourceDescription": "I caught two bed bugs having sex. Bed bug eggs are right above them.",
    "downloadedOn": "2026-10-28",
    "sha256Original": "34592701df4f95ecec93ff21d27ef26220ba8637e29befcad166b7fee937008c"
+  },
+  {
+   "file": "/guides/photos/bicolored-carpenter-ant-wall.webp",
+   "subject": "Bicolored carpenter ant, Camponotus vicinus, black head and thorax with a reddish-brown abdomen, on a textured wall at night; the observer found several on a window (Capulin Volcano National Monument, New Mexico; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/222257359",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/393681958/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) F. LaBry, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 75676,
+   "sourceDescription": "Camponotus vicinus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b2dbad3a7f8bc47750e4b7f1df66ca16b9da8779bb3bbcaa41f5c37c37f66ebf"
   },
   {
    "file": "/guides/photos/big-brown-bat.webp",
@@ -1289,6 +1611,20 @@
    "sourceDescription": "Black and Yellow Mud Dauber (Sphecidae, Sceliphron caementarium (Drury)) USA, TX, Travis Co.: Austin Hornsby Bend Bird Observatory 30.22°N 97.65°W 135m aerial Honey mesquite on Chimney Trail, warehouse 23.VI.2017 A. Santillana coll. #ASF1049",
    "downloadedOn": "2026-10-15",
    "sha256Original": "166f1eecf729d42f0bd57f49b664e71dc27cb9cd607ec943ed35144b07eea394"
+  },
+  {
+   "file": "/guides/photos/black-carpenter-ant-dry-leaves.webp",
+   "subject": "Eastern black carpenter ant, Camponotus pennsylvanicus, a wingless ant (annotated adult female) climbing over dry leaves, showing its elbowed antennae and narrow waist (Wayne, Pennsylvania; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/115568418",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/195048670/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 83314,
+   "sourceDescription": "Camponotus pennsylvanicus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "239f699be66350be26c0c96640c3639992ea6f7f8c53fd736be9dd00adf15802"
   },
   {
    "file": "/guides/photos/black-carpet-beetle.webp",
@@ -1389,6 +1725,48 @@
    "sha256Original": "ee61a0830810ec1b338b956a234fba79a61e87502608cf1b54d8d3134d969776"
   },
   {
+   "file": "/guides/photos/blacklegged-tick-female-fingertip-cdc.webp",
+   "subject": "Adult female blacklegged (deer) tick, Ixodes scapularis, held on a fingertip, mouthparts open (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31568",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/31568/31568.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 22210,
+   "sourceDescription": "Here, a person is holding a female Ixodes scapularis tick on their fingertip. The tick’s mouthparts are open, and the palps and hypostome are visible. An I. scapularis tick is also called a blacklegged or deer tick.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "67700d4a4329ebf512653df8a2a29c494933f30848703fcf9ab40d4c865f78f1"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-female-leg-hair.webp",
+   "subject": "Adult female blacklegged (deer) tick, Ixodes scapularis, crawling through the hair on a person’s leg (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31569",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/31569/31569.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 125094,
+   "sourceDescription": "Here, a female Ixodes scapularis tick is crawling through hair on a person’s leg. An I. scapularis tick is also called a blacklegged or deer tick.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "0e3ecf5b360567edea7151b095d68fcce7b31f3459e5ae2f8d6985491edbe931"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-female-palgrave.webp",
+   "subject": "Adult female blacklegged tick, Ixodes scapularis (as annotated), on white paper (Palgrave, Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/77616595",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/126951612/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 74510,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "358ba69b98675f0531629fbf08285fafa1d6c02a57484470af74702d8442bf72"
+  },
+  {
    "file": "/guides/photos/blacklegged-tick-female-point-pelee.webp",
    "subject": "Blacklegged tick, Ixodes scapularis, adult female (as annotated on iNaturalist), which the observer found on their leg after a walk in Point Pelee National Park, Ontario, photographed on a gray surface",
    "sourceUrl": "https://www.inaturalist.org/observations/286921383",
@@ -1401,6 +1779,20 @@
    "sourceDescription": "Ixodes scapularis",
    "downloadedOn": "2026-10-28",
    "sha256Original": "4a593da2ff1db03371e344e822d0f85a2b35165c8d135208d56c0dc5cf2c3719"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-female-timmins.webp",
+   "subject": "Adult female blacklegged tick, Ixodes scapularis (as annotated), on a paper towel beside a hair (Timmins, Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/122542295",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/207483506/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 54666,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "7df4ff48353a396b036c5da33368e25cb90b38a5b7a3b2c0da4b5c433d90a922"
   },
   {
    "file": "/guides/photos/blacklegged-tick-female.webp",
@@ -1431,6 +1823,20 @@
    "sha256Original": "b0a03d4f846517ab24e76c17bd172c088bff1db6a2ac8547f1544e3db7944e94"
   },
   {
+   "file": "/guides/photos/blacklegged-tick-forceps-dog-hair.webp",
+   "subject": "Adult female blacklegged tick, Ixodes scapularis, held in forceps among dog hairs after the observer removed it from a dog it was feeding on (Connecticut; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/190491140",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/333950155/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bobby McCabe, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 99048,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "76a96df5133ca892c202ce73bd125f542fb5acf7fec0f8b017119c9e381efc11"
+  },
+  {
    "file": "/guides/photos/blacklegged-tick-garden-glove.webp",
    "subject": "Blacklegged tick, Ixodes scapularis, on a gardening glove (Burlington, Ontario; research grade on iNaturalist)",
    "sourceUrl": "https://www.inaturalist.org/observations/252629903",
@@ -1443,6 +1849,34 @@
    "sourceDescription": "Ixodes scapularis",
    "downloadedOn": "2026-10-28",
    "sha256Original": "8e85e08b71b784020f544cc20466371503c8bcb91b358c914f1679bebc6ad488"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-juvenile-fingertip-pinery.webp",
+   "subject": "Juvenile blacklegged tick, Ixodes scapularis, on a fingertip (Pinery Provincial Park, Ontario; research grade on iNaturalist, life stage annotated juvenile by an identifier; larva or nymph not stated)",
+   "sourceUrl": "https://www.inaturalist.org/observations/26977914",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/41984550/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Dan MacNeal, some rights reserved (CC BY), via iNaturalist",
+   "width": 1003,
+   "height": 564,
+   "bytes": 12420,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "ffe5c073f627284de0fffc89be83fbfec06d8d177c6f57b9d139a71511a9bf72"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-juvenile-thumb-grundy-lake.webp",
+   "subject": "Juvenile blacklegged tick, Ixodes scapularis, on a thumb (Grundy Lake, Ontario; research grade on iNaturalist, life stage annotated juvenile by a tick researcher; larva or nymph not stated)",
+   "sourceUrl": "https://www.inaturalist.org/observations/28321287",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/44138663/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Dan MacNeal, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 674,
+   "bytes": 45994,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "2a9ae9ee3eb2cb8cb579992ccd4c2e7f340fc583691301cd8cd07723d538061b"
   },
   {
    "file": "/guides/photos/blacklegged-tick-laying-eggs.webp",
@@ -1485,6 +1919,20 @@
    "sourceDescription": "This image depicts a nymphal blacklegged tick, Ixodes scapularis, that was crawling beside a person’s right index fingernail.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "71545372960d7d5d259bbe0638462a84f05c76fdb9ee0645684428b1c196a769"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-nymph-macro.webp",
+   "subject": "Blacklegged tick nymph, Ixodes scapularis, about 1 mm long by the photographer’s estimate, focus-stacked macro on white (Westchester County, New York; research grade on iNaturalist; the observer believes it is a nymph and annotated it juvenile)",
+   "sourceUrl": "https://www.inaturalist.org/observations/125459666",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/212760924/original.png",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Christopher Eliot, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 966,
+   "bytes": 41822,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "4313976602bed8497806b5b1f255577daf344860f241f46fb9d2d9e801f73379"
   },
   {
    "file": "/guides/photos/blacklegged-tick-on-camouflage-clothing.webp",
@@ -1541,6 +1989,20 @@
    "sourceDescription": "This image depicts an adult female blacklegged tick, Ixodes scapularis, that was questing on a stick.",
    "downloadedOn": "2026-10-28",
    "sha256Original": "322345f6705f881f22af0e7ea2cab661be00fefadf1f25f8ddb18f3b64ec7974"
+  },
+  {
+   "file": "/guides/photos/blacklegged-tick-removal-behind-ear.webp",
+   "subject": "Fine-tipped tweezers removing an adult female blacklegged tick, Ixodes scapularis, from behind a person’s ear (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28384",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28384/28384.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1802,
+   "bytes": 203764,
+   "sourceDescription": "This image depicts an adult female blacklegged tick, Ixodes scapularis, that was behind a person’s right ear, being removed with fine-tipped tweezers.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "e5e58592dc1020c39dcae7f4b800def99f59ec6598d203297d11051722b72f42"
   },
   {
    "file": "/guides/photos/blue-mud-dauber-on-nest.webp",
@@ -1669,6 +2131,20 @@
    "sha256Original": "b6d1895244273ed0bddc9fd47aebfa8a9b368ffcc9c199a6ff93ec58d05412f3"
   },
   {
+   "file": "/guides/photos/botanist-head-to-toe-clothing-denali.webp",
+   "subject": "Botanist covered head to toe in light khaki clothing and a head net, measuring the diameter of a spruce tree in the western lowlands of Denali National Park, Alaska; the NPS title says head-to-toe clothing is a must for field work there (NPS photo)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biologist_versus_mosquito._Head_to_toe_clothing_is_a_must_when_conducting_field_work_here._Botanist_Sarah_Stehn_measures_the_diameter_of_a_spruce_tree_in_the_western_lowlands_of_Denali_NP._(8446140058).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Biologist_versus_mosquito._Head_to_toe_clothing_is_a_must_when_conducting_field_work_here._Botanist_Sarah_Stehn_measures_the_diameter_of_a_spruce_tree_in_the_western_lowlands_of_Denali_NP._%288446140058%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "National Park Service, Alaska Region, Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 426812,
+   "sourceDescription": "This 10-yr study provides a landscape-scale overview of patterns in the vegetation of Alaska's interior. NPS photo",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "f33224d9cb62d97b35d726a5f142f703ac4ea6b27257a3c99875db065324a9b9"
+  },
+  {
    "file": "/guides/photos/boxelder-bug-nymph.webp",
    "subject": "Eastern boxelder bug, Boisea trivittata, nymph (Rifle Falls State Park, Colorado)",
    "sourceUrl": "https://www.inaturalist.org/observations/124845257",
@@ -1765,6 +2241,20 @@
    "sourceDescription": "Supella longipalpa",
    "downloadedOn": "2026-10-21",
    "sha256Original": "62188bdb8d704f1ac325693b094d49e45ad06532e3733431053074f928c27df5"
+  },
+  {
+   "file": "/guides/photos/brown-dog-tick-female-leaf.webp",
+   "subject": "Adult female brown dog tick, Rhipicephalus sanguineus, crawling on a leaf (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28386",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28386/28386.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 124550,
+   "sourceDescription": "This image depicts an adult female brown dog tick, Rhipicephalus sanguineus, that was crawling on vegetation.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "4ae3d4777daee4335072c927713d2bd0561bd1c4d37c5825405470cad72d7e3a"
   },
   {
    "file": "/guides/photos/brown-dog-tick-male.webp",
@@ -2272,6 +2762,20 @@
    "sha256Original": "048b839028ab4ed2723337d87509e3af187786a6f16011c78c2e1366716a9ce8"
   },
   {
+   "file": "/guides/photos/carpenter-ant-queen-nest-chamber.webp",
+   "subject": "Chestnut carpenter ant, Camponotus castaneus: a large queen with two smaller ants in a chamber in the soil under a rock; the observer found her eggs on the rock (Indiana; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/152625077",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/263498242/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Daniel J. Layton, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 265872,
+   "sourceDescription": "Camponotus castaneus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "315d1b8ab6c7423840cad34d86bbdd5f315a532932edfcccb5cc29945d014992"
+  },
+  {
    "file": "/guides/photos/carpenter-ant-side-view.webp",
    "subject": "Eastern black carpenter ant, Camponotus pennsylvanicus, on weathered wood, side view (Leesylvania State Park, Woodbridge, Virginia)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastern_Black_Carpenter_Ant_-_Camponotus_pennsylvanicus,_Leesylvania_State_Park,_Woodbridge,_Virginia_-_25127646135.jpg",
@@ -2382,6 +2886,20 @@
    "sourceDescription": "Anthrenus verbasci",
    "downloadedOn": "2026-10-21",
    "sha256Original": "a11c4b32b1b02e92c98b23f69c96fdfbc69fabcf71a5928e44aeab763c77486f"
+  },
+  {
+   "file": "/guides/photos/carpet-beetle-larva-bedroom.webp",
+   "subject": "Varied carpet beetle, Anthrenus verbasci, larva that the observer found in an upstairs bedroom: banded, segmented body covered in long brown bristles (Pennsylvania; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/254670894",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/456213291/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Nelson Chu Pavlosky, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 675,
+   "bytes": 35164,
+   "sourceDescription": "Anthrenus verbasci",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "a809eb77094c94b7be13d9f52290e290c9d6710134c3b4b16c6786c233e5687f"
   },
   {
    "file": "/guides/photos/carpet-beetle-larva-frass-cast-skin.webp",
@@ -2650,6 +3168,20 @@
    "sha256Original": "5ed33fa0440f2cce9fb4c492dc5629e389c55f2d30c4a4b221514524d116ec5d"
   },
   {
+   "file": "/guides/photos/chestnut-carpenter-ant-under-stem.webp",
+   "subject": "Chestnut carpenter ant, Camponotus castaneus, a wingless ant under a leaf stem (Columbia, South Carolina; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/32087733",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/50293213/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 41556,
+   "sourceDescription": "Camponotus castaneus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "a0f3dc707d2e89c2c82d072acf1a9cc58fc4d0f29e3adc7e1d0377b386499e88"
+  },
+  {
    "file": "/guides/photos/chigger-and-pinhead.webp",
    "subject": "Chigger larva and adult mite on the head of a pin, for size",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=14763",
@@ -2746,6 +3278,20 @@
    "sourceDescription": "Lasioderma serricorne Tobacco or Cigarette beetles are pests of a wide range of stored products, especially processed foods, tobacco and spices. Occasionally found in grain and grain stores.",
    "downloadedOn": "2026-10-15",
    "sha256Original": "622768905a138c2c3073d20f8b4658df929421374bfe2c2a10713e86417a3957"
+  },
+  {
+   "file": "/guides/photos/citronella-ant-swarm-winged-leaf.webp",
+   "subject": "Larger citronella ants (larger yellow ants), Lasius interjectus: a swarm of winged ants crawling over a leaf and the soil at their nest, where the observer saw thousands of them coming out of the ground (Watauga County, North Carolina; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/36360891",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57469343/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 91500,
+   "sourceDescription": "Lasius interjectus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "f71563c0681cffbff7a08777a6ad6057c9cdc4731f3a7a303ca8dfd4aeb44ac6"
   },
   {
    "file": "/guides/photos/citronella-candle-burning.webp",
@@ -2847,6 +3393,20 @@
    "sha256Original": "c027213a19b97a27a743cbe22c6efb7a6bd18b20901a4d93ca3242e735e7d58f"
   },
   {
+   "file": "/guides/photos/cockroach-agar-plate-cdc.webp",
+   "subject": "A cockroach walking across an open Petri dish of agar, in a CDC demonstration that cockroaches can carry contaminants on their legs; PHIL 26947 shows the colonies that grew afterwards (CDC Public Health Image Library; species not stated)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26946",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26946/26946.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 78984,
+   "sourceDescription": "This image depicts a cockroach directed to walk across an open Petri dish culture plate containing an agar growth medium. This demonstration illustrates that cockroaches can act as disease carriers. See PHIL 26947, which shows the microbiologic colonies that developed following the deposition of con",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "a57ae721eee5778b4a188ee13757e7c1933ec7ac31708166c6e49200a14cfd5e"
+  },
+  {
    "file": "/guides/photos/cockroach-damaged-book.webp",
    "subject": "Textbook with its cover and spine grazed by feeding cockroaches, photographed inside a home (CDC photograph)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26945",
@@ -2887,6 +3447,34 @@
    "sourceDescription": "Blattella",
    "downloadedOn": "2026-10-21",
    "sha256Original": "da2dc6d9ecd29107e980ad12ae2b8c5d92bf7b11130ae7fbceffe7b7ad046601"
+  },
+  {
+   "file": "/guides/photos/cockroach-potato-sack-cdc.webp",
+   "subject": "An opened sack of potatoes inside a residence, visited by a cockroach on the inside of the bag (CDC Public Health Image Library; species not stated)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26944",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26944/26944.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 65018,
+   "sourceDescription": "Captured inside a residence, this image depicts an opened sack of potatoes being visited by a cockroach visible on the bag’s interior.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "635e2a727b03f72d992365ce35420f4ae96a1625c383a17bf62614402194f8ff"
+  },
+  {
+   "file": "/guides/photos/cockroaches-under-door-cdc.webp",
+   "subject": "Cockroaches crawling beneath a closed door into a residence: two on the gray-painted threshold, one at the gap under the door (CDC Public Health Image Library; species not stated)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26943",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26943/26943.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 790,
+   "bytes": 38538,
+   "sourceDescription": "This photograph shows cockroaches crawling beneath a closed door into a residence.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "915e7aa532d77dd88fa2d8d43a35ea8cf61423785a4c3281cd9987fc32f2e7b4"
   },
   {
    "file": "/guides/photos/common-eastern-bumble-bee.webp",
@@ -3141,6 +3729,20 @@
    "sha256Original": "cc60c023cbd1a7f432afcc606cbb28ddaba874ae0ca48ad4b9132043cc1d2b05"
   },
   {
+   "file": "/guides/photos/crow-peeling-turf-for-grubs.webp",
+   "subject": "American crow, Corvus brachyrhynchos, pulling at a lifted chunk of turf at a lawn’s edge beside a sidewalk; the observer says it was peeling back turf to get at grubs (Vancouver, British Columbia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/188219345",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/329358671/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Marcel_Pepin, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 793,
+   "bytes": 108040,
+   "sourceDescription": "Corvus brachyrhynchos",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b484af1631de2d9c6b32c560bb2423c5d279c221e3ae8fc15b43507afec95aab"
+  },
+  {
    "file": "/guides/photos/culex-egg-raft.webp",
    "subject": "Culex mosquito egg raft on water",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12549",
@@ -3183,6 +3785,48 @@
    "sha256Original": "6f6b1b3e9c2dfc9058e46f2c63bbfc69b78b569456ff39dc25c5c5929e3b9b78"
   },
   {
+   "file": "/guides/photos/culex-quinquefasciatus-female-blood-meal.webp",
+   "subject": "Female southern house mosquito, Culex quinquefasciatus, taking a blood meal, her red abdomen showing she is feeding (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26025",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26025/26025.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 81770,
+   "sourceDescription": "This is a photograph depicting a female, Culex quinquefasciatus mosquito. Her red abdomen indicates that she is taking a blood meal. C. quinquefasciatus is also known as the southern house mosquito.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "fd86b83b3b906943a7a37192fe299f02868a816bf7d6944707c94af5015332b7"
+  },
+  {
+   "file": "/guides/photos/culex-quinquefasciatus-female-on-skin-front.webp",
+   "subject": "Female southern house mosquito, Culex quinquefasciatus, resting on a person’s skin before taking her blood meal, front view (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26024",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26024/26024.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 47640,
+   "sourceDescription": "This is a photograph depicting a female Culex quinquefasciatus mosquito, resting on a person’s skin before taking her blood meal. C. quinquefasciatus is also known as the southern house mosquito.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "2b25a320e96423b913219ce92c1f42cab4407adf31d49c2d3bc1964142589010"
+  },
+  {
+   "file": "/guides/photos/culex-quinquefasciatus-female-on-skin-side.webp",
+   "subject": "Female southern house mosquito, Culex quinquefasciatus, resting on a person’s skin before taking her blood meal, side view (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26023",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26023/26023.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 54156,
+   "sourceDescription": "This is a photograph depicting a female Culex quinquefasciatus mosquito, resting on a person’s skin before taking her blood meal. C. quinquefasciatus is also known as the southern house mosquito.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "5d8c9e387d927c82ce2a2e5c8e59eb2da52cb157775c39976672dc80efdf0ceb"
+  },
+  {
    "file": "/guides/photos/culex-quinquefasciatus-female.webp",
    "subject": "Southern house mosquito, Culex quinquefasciatus, female",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26026",
@@ -3211,6 +3855,20 @@
    "sha256Original": "b584c6eb987177972c29a33a72d9541c670d96652e1add4798b7ce835f60bd4c"
   },
   {
+   "file": "/guides/photos/culex-quinquefasciatus-pupae.webp",
+   "subject": "Two southern house mosquito pupae, Culex quinquefasciatus, floating in standing water (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26021",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26021/26021.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 57310,
+   "sourceDescription": "This is a photograph depicting 2-pupae of the Culex quinquefasciatus mosquito, also known as the southern house mosquito. These pupae were shown floating in standing water. The pupal stage represents the last stage of the C. quinquefasciatus life cycle, before adulthood. Pupae develop into adult, fl",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b2634bd414f4dbba2132d44e6641158b345fc3e77377fa7964101ed6b0b93f5a"
+  },
+  {
    "file": "/guides/photos/culex-tarsalis-female.webp",
    "subject": "Western encephalitis mosquito, Culex tarsalis, female",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=7955",
@@ -3223,6 +3881,20 @@
    "sourceDescription": "Captured from a right anterior-oblique view, this 2005 photograph shows a close-up of a Culex tarsalis mosquito, resting on a piece of fabric. Note the light-colored band wrapped around its darkly-scaled proboscis (arrowhead), and though not noticeably apparent, if you look closely, the multiple, si",
    "downloadedOn": "2026-10-15",
    "sha256Original": "2542ba4c0ec4c2115f0c373036f8e612c0c14c47a7d74871fd8b79c2637c5d75"
+  },
+  {
+   "file": "/guides/photos/culex-tarsalis-kitchen-wall.webp",
+   "subject": "Western encephalitis mosquito, Culex tarsalis, resting on a kitchen wall indoors in December, 5 mm long by the observer’s measure (Moscow, Idaho; research grade on iNaturalist, species by two identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/9267131",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/12554237/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 826,
+   "bytes": 26736,
+   "sourceDescription": "Culex tarsalis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "17caadfb3f5901149e1ac362e43c7abe6abbe63e8095d5b212cfeecadd6bc48c"
   },
   {
    "file": "/guides/photos/dandruff-flakes.webp",
@@ -3265,6 +3937,20 @@
    "sourceDescription": "Dark Paper Wasp (Polistes fuscatus)",
    "downloadedOn": "2026-10-15",
    "sha256Original": "66ce8bf227a32f1ab1bad29f4eb397fe5c5918fbd9e99b39b08451947d63509f"
+  },
+  {
+   "file": "/guides/photos/dealate-carpenter-ant-queen.webp",
+   "subject": "Bearded carpenter ant, Camponotus subbarbatus, a queen that has lost her wings (a dealate, in the observer’s words), on weathered wood (Indiana; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/215585007",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/381171416/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 924,
+   "height": 924,
+   "bytes": 90100,
+   "sourceDescription": "Camponotus subbarbatus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "38a486ffd165d66ab6da3e643029357307d3c9caebc0f94f6277630b42c849f4"
   },
   {
    "file": "/guides/photos/deer-droppings-snow.webp",
@@ -3351,6 +4037,34 @@
    "sha256Original": "21e6f55723c3affbbe546acea793017616aaf5ebc1026dd691d1b0b5b6c3d77c"
   },
   {
+   "file": "/guides/photos/deer-mouse-front-view-cdc.webp",
+   "subject": "North American deer mouse, Peromyscus maniculatus, facing the camera on split wood: large dark eyes and ears, white feet (CDC photograph by James Gathany)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8360",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/8360/8360.tif",
+   "license": "public-domain",
+   "credit": "CDC/ James Gathany; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 784,
+   "bytes": 72450,
+   "sourceDescription": "This photograph depicted a North American deer mouse, Peromyscus maniculatus, which has been determined to be one of the reservoirs and transmitters of the hantavirus.P. maniculatus is a deceptively cute animal, with big eyes and big ears. Its head and body are normally about 2 - 3 inches long, and ",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "3db141e2e0240bec0e0bdb73f261d6b201f362c2f54424b8fcb5d86f1a5e2325"
+  },
+  {
+   "file": "/guides/photos/deer-mouse-grass-feathers-cdc.webp",
+   "subject": "North American deer mouse, Peromyscus maniculatus, in a corner between wooden boards among wood shavings, pine needles and fluffy fibers (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=13217",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/13217/13217.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 796,
+   "bytes": 129812,
+   "sourceDescription": "This photograph depicted a North American deer mouse, Peromyscus maniculatus, which has been determined to be one of the reservoirs and transmitters of the hantavirus.P. maniculatus is a deceptively cute animal, with big eyes and big ears. Its head and body are normally about 2 - 3 inches long, and ",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "9be5cd3907b2fec0819ea244c4281b5bed7bcc6c7b36d1d6524d969ec5846c5d"
+  },
+  {
    "file": "/guides/photos/deer-mouse-nest.webp",
    "subject": "North American deer mouse, Peromyscus maniculatus, where it had made its home among deteriorating sheets of fabric and bird feathers",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=13216",
@@ -3365,6 +4079,34 @@
    "sha256Original": "8744298707fc5f45281cbbef32804e19effc6bb9ce13dc3fbb5c5e3a1fc06591"
   },
   {
+   "file": "/guides/photos/deer-mouse-on-wood-cdc.webp",
+   "subject": "North American deer mouse, Peromyscus maniculatus, on a rough block of wood: gray-brown back, white feet, large dark eyes and ears, long tail behind (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=13215",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/13215/13215.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 796,
+   "bytes": 158266,
+   "sourceDescription": "This photograph depicted a North American deer mouse, Peromyscus maniculatus, which has been determined to be one of the reservoirs and transmitters of the hantavirus.P. maniculatus is a deceptively cute animal, with big eyes and big ears. Its head and body are normally about 2 - 3 inches long, and ",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "bd5b44a52b39d41889ff7996c31749ebe4ca5caa87d81fa380a2a9c5d0417870"
+  },
+  {
+   "file": "/guides/photos/deer-mouse-white-belly-cdc.webp",
+   "subject": "North American deer mouse, Peromyscus maniculatus, on pale sand: brown back, white belly and feet with a sharp line between back and belly, large eyes and ears, tail dark above and white below (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=1138",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/1138/1138.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 782,
+   "bytes": 98020,
+   "sourceDescription": "This photograph depicts a North American deer mouse, Peromyscus maniculatus, the major carrier of Sin Nombre virus, a species of the genus, Hantavirus, the cause of hantavirus cardiopulmonary syndrome (HCPS), also referred to as hantavirus pulmonary syndrome (HPS), in humans.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "6e4a0f20c73867b45fa8f83f7c4838ef62b8c856cd27fc23c9d6ec3ca7d38dce"
+  },
+  {
    "file": "/guides/photos/deer-mouse.webp",
    "subject": "Deer mouse, photographed after being spooked from a bird house (Big Stone County, Minnesota)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deer_mouse_(54352380618).jpg",
@@ -3377,6 +4119,20 @@
    "sourceDescription": "This deer mouse sat still long enough for a photo after being spooked from a bird house in Big Stone County, Minnesota. Photo by Mike Budd/USFWS.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "f1d29db5118642860d6df240d90f1a2eebe590424db1f4da1b1877d62cdff9d4"
+  },
+  {
+   "file": "/guides/photos/deer-tick-adult-leaf-usda.webp",
+   "subject": "Adult deer tick (blacklegged tick), Ixodes scapularis, top view on a green leaf (USDA Agricultural Research Service photo by Scott Bauer, image k8002-3; the source does not state the sex)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adult_deer_tick.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Adult_deer_tick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Photo by Scott Bauer., Public domain, via Wikimedia Commons",
+   "width": 1200,
+   "height": 1348,
+   "bytes": 188216,
+   "sourceDescription": "Adult deer tick, Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "384286246da5b92ea741413f517575f01d461cd3def2fd8f6671d18b5da6ce58"
   },
   {
    "file": "/guides/photos/dekays-brownsnake-nps.webp",
@@ -3771,6 +4527,20 @@
    "sha256Original": "6e117ba2440767ee3d10cf429b4cf297c65dfa82bd5322284379feb098a9a0ad"
   },
   {
+   "file": "/guides/photos/engorged-blacklegged-tick-dog-neck.webp",
+   "subject": "Engorged blacklegged tick, Ixodes scapularis, top view on white, collected from the neck of a dog; the observer notes its mouthparts are missing, probably left in the bite (Trois-Rivieres, Quebec; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/170096830",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/294972582/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Christian Back, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1800,
+   "bytes": 59920,
+   "sourceDescription": "Ixodes scapularis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "fd4ed21ec2917124444104d189346234d91911615910c6a5698033e4844dcb85"
+  },
+  {
    "file": "/guides/photos/engorged-blacklegged-tick.webp",
    "subject": "Engorged female blacklegged (deer) tick, Ixodes scapularis, side view",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=15993",
@@ -3783,6 +4553,20 @@
    "sourceDescription": "Its abdomen engorged with a host blood meal, this image depicts a lateral view of a female blacklegged, deer tick, Ixodes scapularis, which transmits Lyme disease, a disease caused by a spiral shaped bacterial microbe, Borrelia burgdorferi. In its larval stage of development, this tick is no bigger ",
    "downloadedOn": "2026-10-15",
    "sha256Original": "50cc9f09d0095361ccfeb3e9b96c66442df520a43e41c50cd21764bfafbf6920"
+  },
+  {
+   "file": "/guides/photos/engorged-deer-tick-niaid.webp",
+   "subject": "Engorged adult female deer tick (blacklegged tick), Ixodes scapularis, collected in Annapolis, Maryland, on white paper (NIAID photograph)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Engorged_Adult_Deer_Tick_(33224393243).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Engorged_Adult_Deer_Tick_%2833224393243%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.0",
+   "credit": "NIAID, CC BY 2.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 873,
+   "bytes": 26628,
+   "sourceDescription": "This engorged female adult deer tick, or Ixodes scapularis , was collected in Annapolis, Maryland. Deer ticks are also called blacklegged ticks and can transmit the pathogen that causes tickborne diseases such babesiosis and Lyme disease. Credit: NIAID",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "78ef80659711392d4bac8de46c709e56ec509a342fcd631e1277aa92766a4d71"
   },
   {
    "file": "/guides/photos/engorged-lone-star-tick.webp",
@@ -3839,6 +4623,48 @@
    "sourceDescription": "This 2007 photograph depicts the pathognomonic erythematous rash in the pattern of a bull’s-eye, referred to as erythema migrans. The rash manifested at the site of a tick bite, on this Maryland woman’s posterior upper arm, signifying a case of Lyme disease, caused by the bacterium Borrelia burgdorf",
    "downloadedOn": "2026-10-15",
    "sha256Original": "ee86cc1d6f5d8b7151df6aca6bea2131383433ba5a809d87645fc6d5a01d453f"
+  },
+  {
+   "file": "/guides/photos/european-chafer-adult-top-view.webp",
+   "subject": "European chafer, Amphimallon majale, adult from above on white: light brown, ridged wing covers, hairy underside showing at the edges (Thunder Bay, Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/378726473",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/692681553/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 896,
+   "bytes": 70488,
+   "sourceDescription": "Amphimallon majale",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "3460bf3a95d19aae4cf319e43a9a89fc85aa6c57ce0cc5bad7ddcfff24f59ab0"
+  },
+  {
+   "file": "/guides/photos/european-chafer-grub-in-hand.webp",
+   "subject": "European chafer grub, Amphimallon majale, curled in a C on a palm over lawn soil, its brown head showing; the observer identified the lawn’s grubs under a microscope (Thompson-Nicola, British Columbia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/325512507",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/589375402/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1398,
+   "bytes": 143620,
+   "sourceDescription": "Amphimallon majale",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "bf887fd2df51387fbea626df9f09b2d4bbf4d17b56e1008f5304dbac3bbcb015"
+  },
+  {
+   "file": "/guides/photos/european-chafer-grubs-from-lawn.webp",
+   "subject": "About 20 European chafer grubs, Amphimallon majale, collected from one lawn, white and C-shaped with brown heads, in a plastic cup with soil; the observer identified them under a microscope (Thompson-Nicola, British Columbia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/325512507",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/589375478/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1167,
+   "bytes": 107342,
+   "sourceDescription": "Amphimallon majale",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "f393ae7c3d8acb45194e9e6fc9464690ef3dedc38c00097ba9f9e57d5a373bec"
   },
   {
    "file": "/guides/photos/european-earwig-male.webp",
@@ -3995,6 +4821,34 @@
    "sha256Original": "d013935e37a4f4bcdbf3a1e56838c5b568fb49c933289540731081e5d19dc491"
   },
   {
+   "file": "/guides/photos/field-cockroach-porch-light.webp",
+   "subject": "Field cockroach, Blattella vaga, adult (as annotated) on a white surface; the observer says it came to a porch light (Lexington, Lee County, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/399372120",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/732711627/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Linda Jo Conn, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1038,
+   "bytes": 69948,
+   "sourceDescription": "Blattella vaga",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "21c87c65e8589da35181fbb3f03e1eda8f91516eb0c0a035fd6b0fe4de6c08f9"
+  },
+  {
+   "file": "/guides/photos/field-cockroach-white-sheet.webp",
+   "subject": "Field cockroach, Blattella vaga, adult, top view on a white sheet (Devil’s River State Natural Area, Val Verde County, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/331511520",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/601413919/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Annika Lindqvist, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 159422,
+   "sourceDescription": "Blattella vaga",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "f7df23854691300ade2651b593919b5e3bb8fbe1070a15539c831baff82df655"
+  },
+  {
    "file": "/guides/photos/fire-ant-mound.webp",
    "subject": "Red imported fire ant mound marked with a research flag (Texas)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire_ant_mound_(16371103174).jpg",
@@ -4063,6 +4917,20 @@
    "sourceDescription": "This close-up photograph of a section of human skin, revealed the presence of the erythematous papules, which were the result of this individual having been bitten by imported fire ants. There are two species of imported fire ants, the red imported fire ants (RIFA), Solenopsis invicta, and the black",
    "downloadedOn": "2026-10-23",
    "sha256Original": "d1b0cd1a93186c5031ca6160229042d2b956a679717b2d7bdc60f20e9d1332ea"
+  },
+  {
+   "file": "/guides/photos/fire-ants-usda-white-background.webp",
+   "subject": "Fire ants, workers of several sizes, reddish with dark abdomens, on a white background (USDA Agricultural Research Service photo by Stephen Ausmus, image K11622-1; the source names no species)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fire_ants_01.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Fire_ants_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "Stephen Ausmus, Public domain, via Wikimedia Commons",
+   "width": 1058,
+   "height": 1890,
+   "bytes": 110450,
+   "sourceDescription": "Fire ants",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "55af13ba47f8c595de43fbee01646cf4778fa3dd8371317a867b05fd071c83c5"
   },
   {
    "file": "/guides/photos/firebrat-textured-surface.webp",
@@ -4542,6 +5410,20 @@
    "sha256Original": "f60453d60be92bb9fb616fa5e54ff70856c8cf3b129ceaf3142c975424bdfa8d"
   },
   {
+   "file": "/guides/photos/german-cockroach-female-egg-case-fingertip.webp",
+   "subject": "German cockroach, Blattella germanica, adult female (as annotated) carrying her egg case at the tip of her abdomen, inside a clear plastic bag on a fingertip (Iowa; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/351818891",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/642074192/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 895,
+   "bytes": 63132,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "e00799da5850aec74b0b12c59f51f776225b32af136e3b5061eb41035845e5bf"
+  },
+  {
    "file": "/guides/photos/german-cockroach-frass-cabinet.webp",
    "subject": "Hole in the back wall of a kitchen cabinet with dead cockroaches and specks of droppings (frass) around it; the photographer identified the roaches as German cockroaches",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cockroach_access_hole.jpg",
@@ -4554,6 +5436,20 @@
    "sourceDescription": "Hole in kitchen interior wall, allows cockroach access to kitchen. Dead roaches (Blatella germanica) and frass testify to infestation.",
    "downloadedOn": "2026-10-20",
    "sha256Original": "328aea7b33aead0976cf046f026a3e9f3d823a8c0f6747ac3b91fb9e8983d1ac"
+  },
+  {
+   "file": "/guides/photos/german-cockroach-nymph-closeup.webp",
+   "subject": "German cockroach, Blattella germanica, nymph (as annotated), close-up on a speckled surface: wingless, dark brown with a paler patch on its back (research grade on iNaturalist; no location recorded)",
+   "sourceUrl": "https://www.inaturalist.org/observations/2655956",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2984856/original.JPG",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 884,
+   "bytes": 104572,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "70574575be8db1ea43d568abb40f25cad976c4e60c108b43623efc4dcc23d052"
   },
   {
    "file": "/guides/photos/german-cockroach-nymphs.webp",
@@ -4570,6 +5466,34 @@
    "sha256Original": "0d9ddd5713a232a7395ebbe995b542010500eb5ab9a0d53c80dfb24589c80a5c"
   },
   {
+   "file": "/guides/photos/german-cockroach-on-kitchen-trap.webp",
+   "subject": "German cockroach, Blattella germanica, adult male (as annotated) on a white cardboard trap; the observer says the specimens were trapped for a client in a home kitchen (Iowa; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/335508522",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/609508594/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Barrett Coller Jr., some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 27034,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "18cf5cea1776f1385cc8f451ea42c9966b16f10f3f22cc8ea6cea62afe6c3f0d"
+  },
+  {
+   "file": "/guides/photos/german-cockroach-white-surface.webp",
+   "subject": "German cockroach, Blattella germanica, adult (as annotated) on a white surface (Vincennes, Indiana; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/328181867",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/594640200/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 56090,
+   "sourceDescription": "Blattella germanica",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "892f1a2c8a3c6d57ec306ec18c2ade797e88c1ab283f72f9306578950920154b"
+  },
+  {
    "file": "/guides/photos/german-cockroach.webp",
    "subject": "German cockroach, Blattella germanica, female (dorsal view)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26932",
@@ -4582,6 +5506,62 @@
    "sourceDescription": "This photograph depicted the dorsal view of the female German cockroach, Blattella germanica.",
    "downloadedOn": "2026-10-16",
    "sha256Original": "4ee7fa25ad2ad95bc86bc40d8c3a9bb68c0fdda01fac49179b70c836d358bedd"
+  },
+  {
+   "file": "/guides/photos/ghost-ant-beside-fingertip-kitchen.webp",
+   "subject": "Ghost ant, Tapinoma melanocephalum, beside a fingertip for size; the observer calls it a kitchen ant and extremely small (The Meadows, Florida; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/302588926",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/545338256/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Aaron Peterson, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 787,
+   "bytes": 9584,
+   "sourceDescription": "Tapinoma melanocephalum",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "077cdbedd021582b82599e6a2efe0367f17e40f0637bddc1766b5245fb89300b"
+  },
+  {
+   "file": "/guides/photos/ghost-ant-greenhouse-pennsylvania.webp",
+   "subject": "Ghost ant, Tapinoma melanocephalum, found in a greenhouse at Longwood Gardens in February; the observer credits the ID to Ben Coulter and notes the species has become established in greenhouses where tropical plants were imported (Chester County, Pennsylvania; research grade on iNaturalist, six identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/2707490",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3050164/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Bill Keim, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 87338,
+   "sourceDescription": "Tapinoma melanocephalum",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "aff1e6f07368cc2533934bc72a1bd0680ccfa03dd10996acc30b0edd1e16a71f"
+  },
+  {
+   "file": "/guides/photos/ghost-ant-nest-potted-plant-root-ball.webp",
+   "subject": "Ghost ants, Tapinoma melanocephalum, nesting in a potted plant: dozens of tiny pale ants on the outside of the root ball, lifted out of its pot (Honolulu, Hawaii; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/244101320",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/435380290/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Kevin Faccenda, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 901,
+   "bytes": 147586,
+   "sourceDescription": "Tapinoma melanocephalum",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b1e7e84836eff3cd0a04635a9a45a4bc67e36c3f4f4f3f72c59190803a41bddb"
+  },
+  {
+   "file": "/guides/photos/ghost-ants-crowded-two-toned.webp",
+   "subject": "Ghost ants, Tapinoma melanocephalum, crowded together, close-up: dark head and thorax, pale abdomen and legs (Haverhill, Florida; research grade on iNaturalist, four identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/134445918",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/229165313/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 40354,
+   "sourceDescription": "Tapinoma melanocephalum",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "7f4fecf956f957c4cbe02fe6dd38cf62cd90270eaee81adbdbe5b4a4a2bd8889"
   },
   {
    "file": "/guides/photos/ghost-ants-lined-paper.webp",
@@ -4933,6 +5913,20 @@
    "sourceDescription": "This photograph depicts a dorsal view of a female Gulf Coast tick, Amblyomma maculatum. This tick species is a known vector for Rickettsial organisms, Rickettsia parkeri, and Ehrlichia ruminantium, formerly Cowdria ruminantium. R. parkeri is a member of the spotted fever group of rickettsial disease",
    "downloadedOn": "2026-10-15",
    "sha256Original": "8edcb0b854c13a07442b5decf17561edb3cc35b3eee925bebc89a1bdb9fb06d1"
+  },
+  {
+   "file": "/guides/photos/gulf-coast-tick-in-dog-fur.webp",
+   "subject": "Gulf Coast tick, Amblyomma maculatum, adult male (as annotated), among the white hairs of a dog’s coat (Gordo, Alabama; research grade on iNaturalist, four identifiers; the observer wrote only that it was located on the dog)",
+   "sourceUrl": "https://www.inaturalist.org/observations/306364760",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/552481790/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 100984,
+   "sourceDescription": "Amblyomma maculatum",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "62c027135d56acd8417ec0650ed1fcd31f6256dbf37075d9dc6888f1ad43f720"
   },
   {
    "file": "/guides/photos/gulf-coast-tick-life-stages.webp",
@@ -5691,6 +6685,34 @@
    "sha256Original": "cac053cce69643427ef3dc422c725500b76bc95824febc1bdb748d7012f1b3a1"
   },
   {
+   "file": "/guides/photos/house-mouse-wall-base-long-tail.webp",
+   "subject": "House mouse, Mus musculus, on concrete at the foot of a stone wall, side view showing its long, thin, nearly hairless tail and plain gray-brown coat (Mission Hill, Boston, Massachusetts; research grade on iNaturalist, three identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/191136879",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/335236851/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Fives, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 904,
+   "bytes": 255442,
+   "sourceDescription": "Mus musculus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "8ec36d108151cdcb27f2bbde36b1b70bf9ca2e4107a60e08283df9c51df30eef"
+  },
+  {
+   "file": "/guides/photos/house-mouse-white-tray-side-view.webp",
+   "subject": "House mouse, Mus musculus, in side view in a white plastic tray: plain gray-brown coat with no white belly, large ears, small dark eye (Austin, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/167826080",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/290779627/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 83316,
+   "sourceDescription": "Mus musculus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "a7a630ae037c747b2fe4b8e81ceac50208ec8599c16b89518a578f1db1da8fba"
+  },
+  {
    "file": "/guides/photos/house-mouse.webp",
    "subject": "House mouse, Mus musculus, side view (Marfa, Texas)",
    "sourceUrl": "https://www.inaturalist.org/observations/261877585",
@@ -5972,6 +6994,34 @@
    "sha256Original": "b623318f5d009534b80c58786e6c21aaf3795b0c699a0663f920cab2dbff0223"
   },
   {
+   "file": "/guides/photos/june-beetle-phyllophaga-anxia-side.webp",
+   "subject": "June beetle, Phyllophaga anxia, in side view on pale wood: glossy, very dark brown, oval wing covers and spiny, clawed legs (Thunder Bay, Ontario; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/47614574",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/75522608/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 46764,
+   "sourceDescription": "Phyllophaga anxia",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "cc46424f07eaedec25df2649eba2bd3a1e79fa1472485eb4b0611668654da30f"
+  },
+  {
+   "file": "/guides/photos/june-beetle-window-ledge.webp",
+   "subject": "June beetle, Phyllophaga tristis, on a brick window ledge; the observer says these beetles came to the windows at night that summer (Millington, Tennessee; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/34420",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/58524/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 73864,
+   "sourceDescription": "Phyllophaga tristis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "c1b35af684ed6138d96b3fb5bc436619e64fa40d5a461149995f9a3101d05118"
+  },
+  {
    "file": "/guides/photos/juvenile-copperhead-usfws.webp",
    "subject": "Juvenile copperhead, Agkistrodon contortrix, a venomous snake, coiled on moss: hourglass-shaped crossbands and a pale yellow-green tail tip (Georgia; U.S. Fish and Wildlife Service photo by Pete Pattavina, titled by the agency \"Juvenile Copperhead, Agkistrodon contortrix\")",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juvenile_copperhead,_venomous_snake,_Georgia,_Agkistrodon_contortrix_-_DPLA_-_382f52bd7461827aa23bac3b66dbf031.jpg",
@@ -6113,6 +7163,34 @@
    "sha256Original": "22125bb340205e7c9506e2c113544f02c430b367b3dca9408274f773a78c0bff"
   },
   {
+   "file": "/guides/photos/little-black-ant-specimen-profile.webp",
+   "subject": "Little black ant, Monomorium minimum, museum specimen CASENT0104791 in profile beside a 0.5 mm scale bar (AntWeb photo by April Nobile)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monomorium_minimum_casent0104791_profile_1.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Monomorium_minimum_casent0104791_profile_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-4.0",
+   "credit": "April Nobile, CC BY 4.0, via Wikimedia Commons",
+   "width": 1200,
+   "height": 773,
+   "bytes": 107368,
+   "sourceDescription": "Profile view of ant Monomorium minimum specimen casent0104791.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "18526b61b193d3f644cd7afb5e22e8c3449545d61b06678cff2ab26e479d0fac"
+  },
+  {
+   "file": "/guides/photos/little-black-ants-at-sugar.webp",
+   "subject": "Little black ants (the Monomorium carbonarium little black ant group on iNaturalist), a cluster of tiny shiny black ants on a white surface; the observer says sugar attracted them (Ingram, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/206129737",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/364546727/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 56332,
+   "sourceDescription": "Monomorium carbonarium",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "48511e185453cbb3372506da3b62dbfa2b64cff8810e5c2664bfaa5cac7a40ea"
+  },
+  {
    "file": "/guides/photos/lizard-droppings-ruler.webp",
    "subject": "Western fence lizard, Sceloporus occidentalis, dropping with its white urate cap beside a centimeter ruler; the observer saw the lizard leave it seconds before (San Mateo County, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/163828317",
@@ -6127,6 +7205,62 @@
    "sha256Original": "54b054bcf887c102079da4cd5435e036d0bdeee1555c85aee0e2d4f8a0ebab27"
   },
   {
+   "file": "/guides/photos/lone-star-tick-female-dorsal-cdc.webp",
+   "subject": "Adult female lone star tick, Amblyomma americanum, top view on black, the lone star marking at the tip of her shield (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8682",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/8682/8682.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1530,
+   "bytes": 122614,
+   "sourceDescription": "This photograph depicts a dorsal view of a female lone star ixodid, or hard tick, Amblyomma americanum. Note the characteristic lone star marking located centrally on its dorsal surface, at the distal tip of its scutum. To view additional images related to this tick species, see PHIL 4407, 8676 thro",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "e6597b411fd01fbdb133f315feeb1b3f1d35e61a11954bb34f162a843725e817"
+  },
+  {
+   "file": "/guides/photos/lone-star-tick-female-fingernail.webp",
+   "subject": "Adult female lone star tick, Amblyomma americanum, crawling on a person’s index fingernail (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28367",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28367/28367.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 46794,
+   "sourceDescription": "This image depicts an adult female lone star tick, Amblyomma americanum, that was crawling on a person’s right index fingernail.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "c2881ec0f2df625bc8ec2d73a51e690745d97358d77e01ecd5d9dacee25600a0"
+  },
+  {
+   "file": "/guides/photos/lone-star-tick-female-grass-blade.webp",
+   "subject": "Adult female lone star tick, Amblyomma americanum, on a blade of grass, the white dot (the lone star) on her back (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8676",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/8676/8676.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1812,
+   "bytes": 212730,
+   "sourceDescription": "This photograph depicts a dorsal view of a female lone star tick, Amblyomma americanum, an ixodid, or hard tick. The obvious white dot, or lone star, identified this as an adult female of the species. The reduced scutal size, enables the abdomen to expand to enormous proportions, when ingesting a bl",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "8469f80b89b184c5b24442fedc83fb6297ecba26aaef8407125a2ac1a23dbf26"
+  },
+  {
+   "file": "/guides/photos/lone-star-tick-female-hand.webp",
+   "subject": "Adult female lone star tick, Amblyomma americanum, crawling on a person’s hand beside a ring (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28394",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28394/28394.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 46884,
+   "sourceDescription": "This image depicts an adult female lone star tick, Amblyomma americanum, that was crawling on a person’s hand.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "ede7448fe128b3c03ab3168be428f44fbb5ad08de8f42fee34f23cb17c899be8"
+  },
+  {
    "file": "/guides/photos/lone-star-tick-female.webp",
    "subject": "Lone star tick, Amblyomma americanum, adult female",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8683",
@@ -6139,6 +7273,20 @@
    "sourceDescription": "This photograph depicts a dorsal view of a female lone star ixodid, or hard tick, Amblyomma americanum. Note the characteristic lone star marking located centrally on its dorsal surface, at the distal tip of its scutum. To view additional images related to this tick species, see PHIL 4407, 8676 thro",
    "downloadedOn": "2026-10-15",
    "sha256Original": "b0ce51a04213f722d2f40f170175d91af124357392f8e9b322e44eb0d5530363"
+  },
+  {
+   "file": "/guides/photos/lone-star-tick-life-stages-cdc.webp",
+   "subject": "Lone star tick, Amblyomma americanum, life stages in four photos with text labels: adult female, adult male, nymph and larva, the larva also shown enlarged (CDC)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lone-star-tick-stages-cdc.jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lone-star-tick-stages-cdc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "public-domain",
+   "credit": "CDC, Public domain, via Wikimedia Commons",
+   "width": 900,
+   "height": 418,
+   "bytes": 37384,
+   "sourceDescription": "Development of the Lone star tick (Amblyomma americanum)",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "d228fa4215e092aba6ee77563c03215f513efbf9c404286c370ee0651bc94ba6"
   },
   {
    "file": "/guides/photos/lone-star-tick-male.webp",
@@ -6421,6 +7569,34 @@
    "sha256Original": "73d7dd55c313ca3f691277097086db776636a21dd8c6afc8a0a1dbd303e70ed9"
   },
   {
+   "file": "/guides/photos/meadow-vole-beside-ruler.webp",
+   "subject": "Eastern meadow vole, Microtus pennsylvanicus, on its side beside a steel ruler: stocky body, blunt head, small ear almost hidden in fur, short tail (Pennsylvania; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/44432292",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/70447649/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 235884,
+   "sourceDescription": "Microtus pennsylvanicus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "69916859ff33fc485cd0b57fc1211abf9d186da354f50849eb5c119fb75ac30f"
+  },
+  {
+   "file": "/guides/photos/meadow-vole-in-grass.webp",
+   "subject": "Eastern meadow vole, Microtus pennsylvanicus, in grass and dead leaves, side view: blunt face, small ear almost hidden in fur, gray-brown coat (Cuyahoga Falls, Ohio; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/51151917",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/81253462/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 93746,
+   "sourceDescription": "Microtus pennsylvanicus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "7ffe97891a276d77bb5a57e41db0d3768255c4b41b01022fbf66b9dee198806d"
+  },
+  {
    "file": "/guides/photos/meadow-vole-runways.webp",
    "subject": "Eastern meadow vole, Microtus pennsylvanicus, in its runways under a lifted plywood sheet (New Brunswick)",
    "sourceUrl": "https://www.inaturalist.org/observations/355636621",
@@ -6547,6 +7723,20 @@
    "sha256Original": "3e6280aa169895ec98a8037600fe834e5a574e0c851f2e98081098516a80f4ba"
   },
   {
+   "file": "/guides/photos/mosquito-bite-reddened-swelling-forearm.webp",
+   "subject": "Mosquito bite reaction on the inside of a forearm, with reddening and swelling around the bite site (CDC photograph, 2024)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28628",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28628/28628.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 84640,
+   "sourceDescription": "This image depicts a close view of a mosquito bite reaction on the left ventral forearm showing reddening and swelling area around bite site.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "31cc3ec163f07f891a14db233e03b1a8b1c5105f30f9f7acd11e8d6542111e2a"
+  },
+  {
    "file": "/guides/photos/mosquito-bite-welt-quarter.webp",
    "subject": "Mosquito bite reaction on a forearm, a raised, reddened welt, beside a U.S. quarter for scale (CDC photograph, 2024)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28626",
@@ -6631,6 +7821,20 @@
    "sha256Original": "b7bac51053f691a640fce8a4da45c8081cbaf141bfe8f9911dba08d1cccd3cec"
   },
   {
+   "file": "/guides/photos/mosquito-bites-three-bumps-forearm.webp",
+   "subject": "Three swollen bumps from three separate mosquito bites on the inside of a forearm (CDC photograph, 2024)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=28632",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/28632/28632.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 116652,
+   "sourceDescription": "This image depicts a close view of a mosquito bite reaction on the right ventral forearm, showing three swollen areas from three separate bites.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "a87b2f3ed9c9e64f03d56c713734dd84b93a76cf7720b9c5b56b5777947bf119"
+  },
+  {
    "file": "/guides/photos/mosquito-larva-close-up-trough.webp",
    "subject": "Mosquito larva, cold weather mosquito, Culiseta incidens (research grade on iNaturalist), close-up in water from a cattle water trough (Salinas, California)",
    "sourceUrl": "https://www.inaturalist.org/observations/207485486",
@@ -6643,6 +7847,48 @@
    "sourceDescription": "Culiseta incidens",
    "downloadedOn": "2026-10-28",
    "sha256Original": "e55196be0e7e41419b0702f4f96585a6356f13a89f1e319e4a52ec49ffd66ce9"
+  },
+  {
+   "file": "/guides/photos/mosquito-larvae-clay-pot-saucer.webp",
+   "subject": "Yellow fever mosquito larvae, Aedes aegypti, in water in a clay pot saucer (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26031",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26031/26031.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 48002,
+   "sourceDescription": "This is a photograph depicting numbers of Aedes aegypti mosquito larvae in water in a clay pot saucer. Ae. aegypti is also known as the yellow fever mosquito. Larvae hatch from mosquito eggs, and live in small pools of water, as they feed on a variety of organic matter. Larvae shed their skin, known",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "319fd3172e259edb602f5e9c1eca987ef49aec44011405bac16ec00e203113b5"
+  },
+  {
+   "file": "/guides/photos/mosquito-larvae-discarded-bottle-cap.webp",
+   "subject": "Yellow fever mosquito larvae, Aedes aegypti, in the water of a plastic bottle cap lying beside a crushed plastic bottle on dry ground (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26032",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26032/26032.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 183246,
+   "sourceDescription": "This is a photograph depicting Aedes aegypti larvae in the water of a plastic bottle cap. Ae. aegypti is also known as the yellow fever mosquito. Their larvae live in small pools of standing water, as they feed on a variety of organic matter suspended in the water. Larvae shed their skin, known as m",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "d1f57a53a61c64b858b13b5b602a860736e4e6b8fa946f0218e2d7a8619f6721"
+  },
+  {
+   "file": "/guides/photos/mosquito-larvae-pupae-bottle-cap.webp",
+   "subject": "Yellow fever mosquito larvae and pupae, Aedes aegypti, in the water held by a plastic bottle cap (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26033",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26033/26033.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Amy E. Lockwood, MS; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 800,
+   "bytes": 90296,
+   "sourceDescription": "This is a photograph depicting Aedes aegypti larvae and pupae in the water of a plastic bottle cap. Ae. aegypti is also known as the yellow fever mosquito. Their larvae live in small pools of standing water, as they feed on a variety of organic matter suspended in the water. Larvae shed their skin, ",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "c176ea0e6553041b459098b2720680b1f1b89cf4c791b8bc968a83feccd8cc1b"
   },
   {
    "file": "/guides/photos/mosquito-larvae-water-trough.webp",
@@ -7233,6 +8479,20 @@
    "sha256Original": "4f662fab02d7363cc36fad73c82b24529731a81ad92a1deb46b9dc6a76ea7aff"
   },
   {
+   "file": "/guides/photos/odorous-house-ants-winged-window-frame.webp",
+   "subject": "Odorous house ants, Tapinoma sessile, on a white window frame: a winged male mating with a young winged queen, beside a worker; the observer saw many other males trying to fly at the windows (Chicago, Illinois; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/287992525",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/517862418/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Emmett Collins-Sussman, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 20556,
+   "sourceDescription": "Tapinoma sessile",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b99809ef80ba7eacf9fd176e32ed0f0d756abd688f50c43d01ddd5c0328b667f"
+  },
+  {
    "file": "/guides/photos/organ-pipe-mud-dauber-nest.webp",
    "subject": "Organ-pipe mud dauber, Trypoxylon politum, mud-tube nest (Washington, DC)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipe_Organ_Mud_Dauber_Nest_-_Flickr_-_treegrow.jpg",
@@ -7402,6 +8662,20 @@
    "sha256Original": "94822e8a202fa9c26b814a3611417c09bde3b3291466bf7b6a5a5eb81b6b20c0"
   },
   {
+   "file": "/guides/photos/pavement-ant-hill-path-edge.webp",
+   "subject": "Pavement ant hill: a low mound of sandy soil with an opening in the middle, on the edge of a paved path (Stow, Massachusetts; the ants are research grade on iNaturalist as the immigrant pavement ant, Tetramorium immigrans)",
+   "sourceUrl": "https://www.inaturalist.org/observations/359378146",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/655682477/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 253398,
+   "sourceDescription": "Tetramorium immigrans",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "5ae7605caf80c79ae769b67ac767701ea208d9610fb9c539ee5d3c6a585cc841"
+  },
+  {
    "file": "/guides/photos/pavement-ant-honey-drop.webp",
    "subject": "Immigrant pavement ant, Tetramorium immigrans, beside a drop of honey on white paper: the observer set out honey and peanut butter and only one ant came to the honey (California)",
    "sourceUrl": "https://www.inaturalist.org/observations/42894982",
@@ -7414,6 +8688,20 @@
    "sourceDescription": "Tetramorium immigrans",
    "downloadedOn": "2026-10-28",
    "sha256Original": "f9250c91c33cdd80c261a26d7c0d4aa1e7ead9aaa041c59d209ad8982be5b968"
+  },
+  {
+   "file": "/guides/photos/pavement-ants-kitchen-line.webp",
+   "subject": "Immigrant pavement ants, Tetramorium immigrans, in a line inside a kitchen, some carrying crumbs; the observer says they were raiding a garbage bag they seemed to have pierced and checked them under a microscope (Brooklyn, New York; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/204011000",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/360534977/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1406,
+   "bytes": 132768,
+   "sourceDescription": "Tetramorium immigrans",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "c2be0513c22a16dd6b525c56cbcee7da5b24fda987232953ec7103aa9a5bcbc7"
   },
   {
    "file": "/guides/photos/pavement-ants-sugar-water.webp",
@@ -7470,6 +8758,20 @@
    "sourceDescription": "Pharaon ant with single crystal of sugar",
    "downloadedOn": "2026-10-28",
    "sha256Original": "4f1667dc31ce00aa2db8cff6dc33653fb50a756b42c9db72aa1c353d9876ca97"
+  },
+  {
+   "file": "/guides/photos/pharaoh-ants-apartment.webp",
+   "subject": "Pharaoh ants, Monomorium pharaonis, two small yellowish ants on a white surface in the observer’s apartment, which had an ant problem (Fort Myers, Florida; research grade on iNaturalist, five identifiers)",
+   "sourceUrl": "https://www.inaturalist.org/observations/178173048",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/309991701/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1600,
+   "bytes": 37062,
+   "sourceDescription": "Monomorium pharaonis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "17598d4ff80595d69cbb97ae92f32a93a5c4a3255e93764a3705abf37817c041"
   },
   {
    "file": "/guides/photos/pheidole-ants-peanut-butter.webp",
@@ -7879,6 +9181,20 @@
    "sha256Original": "39be1d325fc839a981fa85de1cc1512d81f9bb91d4c50111bc5bfbcd0714cd75"
   },
   {
+   "file": "/guides/photos/red-harvester-ants-gravelly-mound.webp",
+   "subject": "Red harvester ants, Pogonomyrmex barbatus, on the bare, gravelly ground of a mound, one carrying green plant material (Timberlake Biological Field Station, Mills County, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/280594460",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/503967600/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Linda Jo Conn, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1023,
+   "bytes": 265002,
+   "sourceDescription": "Pogonomyrmex barbatus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "2c6d1f73f776ff4483a9b78bdd5aa3edd2c9eb0d6186a9d8fac950c69dd4d512"
+  },
+  {
    "file": "/guides/photos/red-imported-fire-ant.webp",
    "subject": "Red imported fire ant, Solenopsis invicta, worker (portrait)",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Solenopsis_invicta_-_fire_ant_worker.jpg",
@@ -7891,6 +9207,21 @@
    "sourceDescription": "Portrait of a red imported fire ant, Solenopsis invicta. This species arrived to the southeastern United States from South America in the 1930s. Specimen from Brackenridge Field Laboratory, Austin, Texas, USA. Public domain image by Alex Wild, produced by the University of Texas \"Insects Unlocked\" p",
    "downloadedOn": "2026-10-15",
    "sha256Original": "038567d86b3b0681ed80e844541b177a0dd6d5dc7dd54f47cf9a4a528d3b59c6"
+  },
+  {
+   "file": "/guides/photos/red-imported-fire-ants-loose-soil.webp",
+   "subject": "Red imported fire ants, Solenopsis invicta, workers crowding over loose, crumbly soil around a twig and a hole (Tom Hughes Park, Austin, Texas, November 12, 2016; Insects Unlocked photo by Alejandro Santillana; the black caption band at the bottom cropped off)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Imported_Fire_Ant_(Myrmicinae,_Solenopsis_invicta)_(30518448423).jpg",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Red_Imported_Fire_Ant_%28Myrmicinae%2C_Solenopsis_invicta%29_%2830518448423%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC0-1.0",
+   "credit": "Insects Unlocked, CC0, via Wikimedia Commons",
+   "edited": "bottom 8% cropped (caption strip)",
+   "width": 1200,
+   "height": 1796,
+   "bytes": 259198,
+   "sourceDescription": "USA, TX, Travis Co.: Austin Tom Hughes Park 12-xi-2016",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "942716e8c6e66075553fe8dd7b8c1c3d56a2ca68026a61ed257e4b124660ef96"
   },
   {
    "file": "/guides/photos/red-shouldered-bugs.webp",
@@ -8075,6 +9406,20 @@
    "sha256Original": "cf2c4337628b1a48f2ee9c65546e5ebab37d4ba1669f661f067e68ced556d151"
   },
   {
+   "file": "/guides/photos/rover-ant-queens-with-eggs.webp",
+   "subject": "Dark rover ants, Brachymyrmex patagonicus: two queens tending a pile of eggs and larvae in a nest the observer had disturbed (Travis County, Texas; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/48066144",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/76246483/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Victor Engel, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 265626,
+   "sourceDescription": "Brachymyrmex patagonicus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "5e337fab219a59a0f95bedec6a445eb8c19c5f7476cbbf81ad0e05846005c0e6"
+  },
+  {
    "file": "/guides/photos/saddleback-caterpillar.webp",
    "subject": "Saddleback caterpillar, Acharia stimulea (dorsal view)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=10773",
@@ -8255,6 +9600,20 @@
    "sourceDescription": "Blarina brevicauda",
    "downloadedOn": "2026-10-23",
    "sha256Original": "395deeb7645c3d72bd293254f2a3300907f11e24c6770a844ba32690f315f5ad"
+  },
+  {
+   "file": "/guides/photos/silky-field-ant-side-view.webp",
+   "subject": "Silky field ant, Formica subsericea, side view on a weathered stick, from a large colony in the observer’s front yard (North Falmouth, Massachusetts; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/45543834",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/72219019/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Jake McCumber, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 103342,
+   "sourceDescription": "Formica subsericea",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "2a9c7e7f6265f502b9e17466c77790cdb26b9c4e545407b393a903bf3e1d18f0"
   },
   {
    "file": "/guides/photos/silverfish.webp",
@@ -8818,6 +10177,20 @@
    "sha256Original": "b21cf33f668232ce669f257f10af15acec70b5c5d852664bb4e45aafce549251"
   },
   {
+   "file": "/guides/photos/swallow-bug-top-view.webp",
+   "subject": "Swallow bug (swallow nest bug), Oeciacus vicarius, a bed bug relative, from above on a gray surface (Dayville, Oregon; research grade on iNaturalist; the observer’s own first identification was bed bug)",
+   "sourceUrl": "https://www.inaturalist.org/observations/377242285",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/689825635/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) John Clonce, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 53744,
+   "sourceDescription": "Oeciacus vicarius",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "3dd1ef034c43d8c01e74fb7cadecbc5301bac2f5c3edfaeb1a870a25709e61e8"
+  },
+  {
    "file": "/guides/photos/sweat-bee-nest-cone-soil.webp",
    "subject": "Nest entrance of a sweat bee: a small hole in the middle of a cone of loose soil grains, the nest the observer recorded with the bee in the same observation, identified as Lasioglossum zephyrus (Charlotte, North Carolina; research grade on iNaturalist)",
    "sourceUrl": "https://www.inaturalist.org/observations/80513150",
@@ -9113,6 +10486,20 @@
    "sha256Original": "18ba1a54166a1b88aa1375516fe21d6781265c4a2ac7fcfaeed4b1fe5085fabd"
   },
   {
+   "file": "/guides/photos/tick-check-sock-ankle.webp",
+   "subject": "Tick check: a sock folded down reveals an adult female blacklegged tick, Ixodes scapularis, attached at the ankle (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31562",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/31562/31562.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Division of Vector-Borne Diseases Rickettsial Zoonoses Branch; photo: Lauren Bishop (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 799,
+   "bytes": 65118,
+   "sourceDescription": "Here, a person doing a tick check folds down their sock to reveal a female Ixodes scapularis tick attached to their ankle. An I. scapularis tick is also called a blacklegged or deer tick.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "a0e9d0b371075fa4d8f1f208d9be9d72959ed8ea53fe92b73a4449ad312da3a4"
+  },
+  {
    "file": "/guides/photos/tick-check-sock-boot.webp",
    "subject": "Tick check: a sock folded down above a hiking boot shows a female blacklegged tick, Ixodes scapularis, attached to the leg (CDC photograph)",
    "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=31556",
@@ -9295,6 +10682,34 @@
    "sha256Original": "ae697e39febc5417ee628aac3ed5993e7fdd1b05573a3cec94cd58560beedb41"
   },
   {
+   "file": "/guides/photos/turkestan-cockroach-moving-box.webp",
+   "subject": "Turkestan cockroach, Blatta lateralis (filed on iNaturalist as Periplaneta lateralis), a long-winged adult in a white bowl; the observer says it came out of a box moved from central Ohio the week before (Georgia; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/51307601",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/81504291/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 40608,
+   "sourceDescription": "Periplaneta lateralis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b341dadcd5cad24ca111367c2d5ad07b5121df0b9fd5b665c44e2a9f30a8b150"
+  },
+  {
+   "file": "/guides/photos/turkestan-cockroaches-male-female-brick.webp",
+   "subject": "Turkestan cockroaches, Blatta lateralis (filed on iNaturalist as Periplaneta lateralis): a pale, long-winged male and a dark female joined end to end on a brick wall, recorded by the observer as male and female (Los Angeles County, California; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/88360807",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/145780992/original.jpeg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Daniel S., some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 173288,
+   "sourceDescription": "Periplaneta lateralis",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "d51437b3c6f32ee930ab1165d9459b98fff18f09770972d34cb8fd2b663ff7ee"
+  },
+  {
    "file": "/guides/photos/two-striped-walkingstick-pair.webp",
    "subject": "Southern two-striped walkingstick, Anisomorpha buprestoides: a smaller walkingstick riding on the back of a larger one, side view on sand (Fort Walton Beach, Florida)",
    "sourceUrl": "https://www.inaturalist.org/observations/235277433",
@@ -9419,6 +10834,20 @@
    "sourceDescription": "Latrodectus hesperus",
    "downloadedOn": "2026-10-15",
    "sha256Original": "3ab49299723306fb8302dd37a0be749226d4fe3bf02045781ec8aca8b8221794"
+  },
+  {
+   "file": "/guides/photos/western-blacklegged-tick-female-leaf.webp",
+   "subject": "Adult female western blacklegged tick, Ixodes pacificus, top view on a leaf (CDC photograph)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=8686",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/8686/8686.tif",
+   "license": "public-domain",
+   "credit": "CDC/ Dr. Amanda Loftis, Dr. William Nicholson, Dr. Will Reeves, Dr. Chris Paddock; photo: James Gathany (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 1658,
+   "bytes": 180044,
+   "sourceDescription": "This photograph depicted a dorsal view of an adult female western blacklegged tick, Ixodes pacificus. This tick has been shown to transmit Borrelia burgdorferi, the agent of Lyme disease, and Anaplasma phagocytophilum, the agent of human granulocytic anaplasmosis (HGA), which was previously known as",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "f4108dbcd0dbf2683fd6639a6bdc4b633ef107aed937a66242a7e61c15d1c3d9"
   },
   {
    "file": "/guides/photos/western-blacklegged-tick-female.webp",
@@ -9674,6 +11103,34 @@
    "sha256Original": "b3e5de0fb184696b04907e84bbf357b05dc9228e6de99154727a56b15757fa55"
   },
   {
+   "file": "/guides/photos/winged-black-carpenter-ant-side-view.webp",
+   "subject": "Eastern black carpenter ant, Camponotus pennsylvanicus, a winged ant seen from the side on a ledge, which the observer called a winged black ant (Blendon Woods Metro Park, Columbus, Ohio; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/19276151",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/29624858/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 800,
+   "bytes": 65252,
+   "sourceDescription": "Camponotus pennsylvanicus",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "4986935cd65c22c9cf8945d2e86989c283fa52f8a50817f5382eb0834e4d4665"
+  },
+  {
+   "file": "/guides/photos/winged-black-harvester-ant-bathroom-rug.webp",
+   "subject": "Black harvester ant, Veromessor pergandei, a winged male (as annotated) that the observer found walking on a bathroom rug, photographed in a small clear container: two pairs of wings, elbowed antennae, narrow waist (Palm Desert, California; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/199524094",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/351877510/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 1205,
+   "bytes": 76230,
+   "sourceDescription": "Veromessor pergandei",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "02e005da223730c6c0a3204d893f0b33a86bb6eceacd018b881c456b7734a214"
+  },
+  {
    "file": "/guides/photos/winter-tick.webp",
    "subject": "Winter tick, Dermacentor albipictus, adult (British Columbia)",
    "sourceUrl": "https://www.inaturalist.org/observations/271543920",
@@ -9742,6 +11199,20 @@
    "sourceDescription": "Tigrosa helluo",
    "downloadedOn": "2026-10-15",
    "sha256Original": "4289daa46467cde4b102de76be4f7d27916c842209bf555e08bea4c7f4ecfcd0"
+  },
+  {
+   "file": "/guides/photos/wood-cockroach-cdc.webp",
+   "subject": "Wood cockroach of the genus Parcoblatta (species not identified), dorsal view, with its name printed on the photo (CDC Public Health Image Library)",
+   "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=26940",
+   "originalUrl": "https://wwwn.cdc.gov/phil/PHIL_Images/26940/26940.tif",
+   "license": "public-domain",
+   "credit": "CDC (CDC Public Health Image Library, phil.cdc.gov)",
+   "width": 1200,
+   "height": 796,
+   "bytes": 34448,
+   "sourceDescription": "This photograph depicts a dorsal view of an unidentified species of wood cockroach of the genus Parcoblatta.",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "b480dca74cade0f580027dedf9461f98fb63cb0b2833a22f7975fa7a1bad4dfa"
   },
   {
    "file": "/guides/photos/wood-cockroach-female-egg-case.webp",
@@ -10092,6 +11563,62 @@
    "sourceDescription": "Salticus scenicus",
    "downloadedOn": "2026-10-23",
    "sha256Original": "cdf524e64aa9b05e594485af82842704710a8016dbf386f7724acbe36ce6f2f4"
+  },
+  {
+   "file": "/guides/photos/zombie-ant-leaf-vein-thailand.webp",
+   "subject": "Dead carpenter ant, Camponotus leonardi, infected by the fungus Ophiocordyceps unilateralis, attached to a leaf vein on the underside of a leaf; the fungal stalk comes out of the back of its head (Thailand; photo rotated 180 degrees by its authors, from Pontoppidan et al., PLoS ONE, 2009)",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ophiocordyceps_unilateralis_B.png",
+   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Ophiocordyceps_unilateralis_B.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "license": "CC-BY-2.5",
+   "credit": "David P. Hughes, Maj-Britt Pontoppidan, CC BY 2.5, via Wikimedia Commons",
+   "width": 981,
+   "height": 707,
+   "bytes": 37558,
+   "sourceDescription": "Ants biting the underside of leaves as a result of infection by O. unilateralis. The top panel shows the whole leaf with the dense surrounding vegetation in the background and the lower panel shows a close up view of dead ant attached to a leaf vein. The stroma of the fungus emerges from the back of",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "5891607e79caf20937fcebe4e4466815033a8771a37602655adbf871d4587ba6"
+  },
+  {
+   "file": "/guides/photos/zombie-ant-plant-stem-florida.webp",
+   "subject": "Dead carpenter ant clamped to a dry plant stem, with a long stalk of the fungus Ophiocordyceps camponoti-floridani hanging from it (Tosohatchee Wildlife Management Area, Orange County, Florida; research grade on iNaturalist)",
+   "sourceUrl": "https://www.inaturalist.org/observations/4416490",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/5308943/original.jpg",
+   "license": "CC-BY-4.0",
+   "credit": "(c) Katja Schulz, some rights reserved (CC BY), via iNaturalist",
+   "width": 1200,
+   "height": 1200,
+   "bytes": 53594,
+   "sourceDescription": "Ophiocordyceps camponoti-floridani",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "86b57070b47f0f49cf2410bdef40b1372d5bdcf3c228139113fd2ec78db8800d"
+  },
+  {
+   "file": "/guides/photos/zombie-ant-twig-hand-for-scale.webp",
+   "subject": "Zombie ant: a dead carpenter ant on the underside of a twig about 6 feet off the ground, with a pale fungal growth on its head and thorax, a hand behind it for scale; identified on iNaturalist by Kim Fleming as Ophiocordyceps kimflemingiae on Camponotus americanus (Greenville, South Carolina; research grade)",
+   "sourceUrl": "https://www.inaturalist.org/observations/269172126",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/483935207/original.jpeg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 49016,
+   "sourceDescription": "Ophiocordyceps kimflemingiae",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "3189f093aec5dc86de57081ad51df63b367ae0d78c51bf7d796e78a20f797573"
+  },
+  {
+   "file": "/guides/photos/zombie-ant-twig-south-carolina.webp",
+   "subject": "Zombie ant: a dead carpenter ant clamped beneath a twig, with the stalk of the fungus Ophiocordyceps kimflemingiae hanging from it; the observer recorded the host as the chestnut carpenter ant, Camponotus castaneus (Prosperity, South Carolina; fungus research grade on iNaturalist; the same ant is research grade as C. castaneus in the observer’s observation 103617978)",
+   "sourceUrl": "https://www.inaturalist.org/observations/103617928",
+   "originalUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/173465513/original.jpg",
+   "license": "CC0-1.0",
+   "credit": "no rights reserved, via iNaturalist",
+   "width": 1200,
+   "height": 900,
+   "bytes": 47794,
+   "sourceDescription": "Ophiocordyceps kimflemingiae",
+   "downloadedOn": "2026-11-03",
+   "sha256Original": "1fb515241caddf6e14ad770e933b0bf587bc17650bd27f85ca43782be3254b87"
   }
  ]
 }

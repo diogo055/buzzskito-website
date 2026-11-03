@@ -72,7 +72,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-  image: shareImage('blacklegged-tick-adult-nymph-fingertip'),
+  image: shareImage('blacklegged-tick-questing-grass'),
 })
 
 const AMZ_TAG = tagForSlug('can-ticks-fly-jump-swim')
@@ -80,7 +80,7 @@ const AMZ_TAG = tagForSlug('can-ticks-fly-jump-swim')
 export default function CanTicksFlyJumpSwimPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Can ticks fly, jump, or swim? Myths vs facts on how ticks move and reach hosts in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-adult-nymph-fingertip') })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Can ticks fly, jump, or swim? Myths vs facts on how ticks move and reach hosts in Ontario.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('blacklegged-tick-questing-grass') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Can Ticks Fly, Jump, or Swim?', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -188,6 +188,11 @@ export default function CanTicksFlyJumpSwimPage() {
 
           <h2>The One Way Ticks Actually Reach You: Questing</h2>
           <p>Ticks have exactly one way of getting onto you, and it is not dramatic. A tick climbs to the top of a grass blade, a weed, or a low shrub, anchors itself with its back legs, and stretches its front legs out into the air. This posture is called <strong>questing</strong>. The tick&rsquo;s front legs carry sensors that detect body heat, the carbon dioxide in your breath, vibration, and shadow. When a warm body brushes the plant, the tick grabs onto fur or clothing and climbs aboard. That is the entire mechanism — no flight, no leap, no swim, no ambush from above.</p>
+          <Photo
+            id="blacklegged-tick-questing-grass"
+            alt="Blacklegged tick seen from the side at the tip of a grass blade, its front legs stretched out into the air"
+            caption="A blacklegged (deer) tick questing on a blade of grass (CDC photograph). It anchors itself with its back legs and stretches its front legs out to grab a host that brushes past."
+          />
           <p>Because questing depends on something touching the plant, ticks concentrate exactly where people and pets walk: the edge of the lawn, the margins of trails, unmowed grass, and the leaf-littered transition zone where a yard meets woods or a ravine. In Ontario, the tick that matters most is the <strong>blacklegged (deer) tick</strong>, which can carry Lyme disease; the <strong>American dog tick</strong> is also common in grassy areas.</p>
 
           <NextUp path="/blog/can-ticks-fly-jump-swim" />
@@ -196,6 +201,11 @@ export default function CanTicksFlyJumpSwimPage() {
 
           <h2>Can Ticks Jump? No — That&rsquo;s Fleas</h2>
           <p>This is the most common tick myth, and it comes from confusing ticks with fleas. Fleas have powerful, spring-loaded back legs and can leap roughly 30 cm — well over 100 times their body length. Ticks have nothing of the kind. A tick cannot launch itself even a millimetre; it can only crawl and cling. So the quickest field test in your yard: if the tiny biting bug jumped away, it was a flea; if you found it crawling slowly or already attached, it was a tick.</p>
+          <Photo
+            id="dog-flea"
+            alt="Dog flea seen from the side under magnification, with a flattened amber body and large, spiny back legs"
+            caption="A female dog flea seen from the side, a museum specimen. Fleas have powerful, spring-loaded back legs for jumping; a tick cannot launch itself at all."
+          />
 
           <h2>Can Ticks Swim? No — But They Survive Water Longer Than You&rsquo;d Think</h2>
           <p>Ticks have no swimming appendages and cannot propel themselves through water, so a tick never swims toward a host. You pick ticks up on land, from vegetation — not from a lake, pool, or puddle. But here is the part that surprises people: a tick is remarkably hard to drown. Ticks breathe extremely slowly through tiny openings on their bodies called <strong>spiracles</strong>, and they can seal them and go dormant. A blacklegged tick can survive full submersion for <strong>two to three days</strong>, and some have been kept alive underwater even longer in the lab.</p>
@@ -214,8 +224,18 @@ export default function CanTicksFlyJumpSwimPage() {
 
           <h2>Do Ticks Fall From Trees? Almost Never</h2>
           <p>Ticks do not climb trees to drop on hosts. They quest low, because that is where hosts pass. The myth persists because ticks are often found on the upper body — the scalp, neck, or behind the ears — which makes it feel like they fell from above. In reality the tick almost always latched onto a lower leg during questing and then <strong>crawled upward</strong> over several minutes, looking for a sheltered place to feed. That is why your yard defence belongs at ground level: grass, leaf litter, and shaded edges, not overhead branches.</p>
+          <Photo
+            id="american-dog-tick-hairline-neck"
+            alt="American dog tick crawling on the back of a person's neck just below the hairline"
+            caption="An adult female American dog tick crawling along a person's hairline (CDC photograph). A tick found this high almost always latched onto a lower leg first and then crawled upward."
+          />
 
           <h2>How High Do Ticks Climb, and How Do You Stop Them?</h2>
+          <Photo
+            id="tick-check-sock-ankle"
+            alt="Hands folding down a white sock above a running shoe to show a small tick attached to the ankle"
+            caption="A tick check: folding down a sock reveals a female blacklegged tick attached at the ankle (CDC photograph). Ticks board at the lower legs, which is why tucking your pants into your socks works so well."
+          />
           <p>In Ontario, ticks quest low. Nymphs usually wait within a few centimetres of the ground to about ankle height; adult blacklegged ticks climb a bit higher, to roughly knee height, on taller grass and brush. None climb to head height to attack. Because ticks board at the lower legs, the classic personal defence works extremely well: <strong>tuck your pants into your socks, wear light colours so ticks are easy to spot, and treat footwear and pant legs with permethrin.</strong> <BuyLink tag={AMZ_TAG} search="insect shield permethrin treated clothing">Check insect shield permethrin treated clothing on Amazon.ca →</BuyLink></p>
           <p>Gaiters close the gap the tuck leaves open. Since a tick boards at the ankle and climbs, the weak point is the few centimetres where a trouser hem meets a boot &mdash; exactly the seam that works loose twenty minutes into a walk. A pair of over-the-boot gaiters covers it outright, and a light-coloured pair gives you a smooth surface where a crawling tick shows up against the fabric and can be flicked off long before it finds skin. <BuyLink tag={AMZ_TAG} search="hiking gaiters over boot">Check hiking gaiters on Amazon.ca &rarr;</BuyLink></p>
           <p>For the yard itself, because ticks can only reach you from vegetation they have climbed, control is genuinely effective:</p>

@@ -2,9 +2,16 @@
  "id": "red-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "54fa0c5255cb601bb183892b78c08e83a808f4a46045eda0319cd92798663402",
+ "sha": "da4f8725337feaa0925ba510fbf9749301b6e954cf4bed44718688555651d4a4",
  "claimsChecked": 112,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 9,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (red-imported-fire-ants-loose-soil, pheidole-ants-peanut-butter, fire-ant-mound, fire-ant-stings-arm, red-harvester-ants-gravelly-mound, bicolored-carpenter-ant-wall); captions from each photo's source description; no other text changed.",
+   "previousSha": "54fa0c5255cb601bb183892b78c08e83a808f4a46045eda0319cd92798663402"
+  }
+ ]
 }

@@ -4,6 +4,8 @@ import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'tick-life-cycle'
 const TITLE = 'The Tick Life Cycle in Ontario — Egg, Larva, Nymph, Adult'
@@ -32,6 +34,7 @@ export const metadata: Metadata = buildMetadata({
   description: 'How the blacklegged (deer) tick life cycle works in Ontario: the two-year egg, larva, nymph, and adult journey, when each stage is active, and why nymphs cause most Lyme disease cases.',
   canonical: `/learn/${SLUG}`,
   type: 'article',
+  image: shareImage('lone-star-tick-life-stages-cdc'),
 })
 
 export default function TickLifeCyclePage() {
@@ -63,18 +66,43 @@ export default function TickLifeCyclePage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <h2>The Four Stages of a Tick&rsquo;s Life</h2>
           <p>The tick that matters most in the Greater Toronto Area is the blacklegged tick, <em>Ixodes scapularis</em> — also called the deer tick — because it is the species that spreads Lyme disease across Ontario. Unlike a mosquito, which races through its life cycle in under two weeks, a blacklegged tick takes roughly <strong>two years</strong> to go from egg to reproducing adult, passing through four stages and taking just one blood meal in each active stage. Understanding that slow, deliberate cycle explains why tick populations creep upward year over year and why prevention has to be a season-long habit. Get the species basics in our <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged deer tick guide</Link> and the wider <Link href="/blog/types-of-ticks-identification">tick identification guide</Link>.</p>
+          <Photo
+            id="lone-star-tick-life-stages-cdc"
+            alt="Four labelled photos of lone star ticks on black: an adult female with a white spot, an adult male, a much smaller nymph and a tiny larva, also shown enlarged in a circle"
+            caption="Lone star tick life stages in CDC photographs, labelled on the image: adult female, adult male, nymph and larva, with the tiny larva also shown enlarged. The four stages of a tick's life are egg, larva, nymph and adult."
+          />
 
           <h3>1. Egg</h3>
           <p>In spring, an engorged female that fed and mated the previous fall lays a single mass of up to several thousand eggs in leaf litter, then dies. The eggs incubate through the warm months and hatch into larvae in late summer. Ticks are not born carrying Lyme disease — the eggs are clean — which is why the larval blood meal is such a pivotal moment.</p>
+          <Photo
+            id="blacklegged-tick-laying-eggs"
+            alt="Swollen female blacklegged tick on a black background beside the large orange-brown mass of eggs she is laying"
+            caption="A female blacklegged tick laying her clutch of eggs (CDC photograph). A fed female lays a single mass of up to several thousand eggs in leaf litter, then dies."
+          />
 
           <h3>2. Larva</h3>
           <p>Newly hatched larvae have six legs and are almost microscopic. In late summer and early fall they take their first blood meal, usually from a small host close to the ground — white-footed mice, chipmunks, shrews, and ground-feeding birds. If that host is infected, the larva picks up the Lyme bacterium (<em>Borrelia burgdorferi</em>) and carries it for the rest of its life. After feeding, the larva drops off and moults into a nymph, usually overwintering before becoming active. These tiny early-stage ticks are covered in our guide to <Link href="/blog/baby-ticks-nymphs-seed-ticks-ontario">baby ticks, nymphs, and seed ticks in Ontario</Link>.</p>
+          <Photo
+            id="seed-tick-larvae-fingertip"
+            alt="Two tiny tick larvae on the tip of a finger"
+            caption="Two tiny ticks on a fingertip from a swarm on the observer's pants in Luray, Virginia; an identifier on iNaturalist named them freshly hatched lone star tick larvae. Newly hatched larvae have six legs and are almost microscopic."
+          />
 
           <h3>3. Nymph</h3>
           <p>This is the stage public-health officials worry about most. The following spring and early summer, nymphs — now eight-legged but still only about the size of a poppy seed — quest for a second blood meal from a medium or large host, including humans and pets. Because a nymph may already be infected from its larval meal, and because it is so small it is routinely missed during a body check, <strong>nymphs cause the majority of human Lyme disease cases in Ontario.</strong> A diligent <Link href="/blog/how-to-do-a-tick-check">tick check</Link> after time outdoors is your best defence during nymph season.</p>
+          <Photo
+            id="blacklegged-tick-juvenile-thumb-grundy-lake"
+            alt="A tiny tick, a dark speck with legs, on the middle of a person's thumb, with driftwood behind"
+            caption="A young (juvenile) blacklegged tick on a thumb at Grundy Lake, Ontario, identified on iNaturalist. A tick this small is easily missed during a body check."
+          />
 
           <h3>4. Adult</h3>
           <p>Nymphs that feed successfully moult into adults by fall. Adult females — recognizable by their reddish-orange body and black shield — climb waist-high vegetation to find a large host such as a deer, dog, or human, take their final blood meal, mate, and then overwinter before laying eggs in spring. Adults are large enough to spot and remove more easily than nymphs, but they can still transmit disease. If you find one, follow our step-by-step guide on <Link href="/blog/how-to-remove-tick-safely">how to remove a tick safely</Link>.</p>
+          <Photo
+            id="blacklegged-tick-female-timmins"
+            alt="Adult female blacklegged tick on a textured paper towel beside a hair, with a red-orange body and a black shield and legs"
+            caption="An adult female blacklegged tick found in Timmins, Ontario, identified on iNaturalist. Adult females are recognizable by their reddish-orange body and black shield."
+          />
 
           <NextUp path="/learn/tick-life-cycle" />
           <h2>When Each Stage Is Active in Ontario</h2>
@@ -95,6 +123,11 @@ export default function TickLifeCyclePage() {
           <p>For a fuller month-by-month breakdown, see <Link href="/blog/tick-season-ontario-when-are-ticks-active">tick season in Ontario — when are ticks active</Link>, and check how long each stage can survive between meals in <Link href="/blog/how-long-do-ticks-live">how long do ticks live</Link>.</p>
 
           <h2>How Ticks Find You — and How to Break the Cycle</h2>
+          <Photo
+            id="blacklegged-tick-questing-stick"
+            alt="Adult female blacklegged tick on a twig, its front legs reaching out into the air"
+            caption="An adult female blacklegged tick questing on a stick (CDC photograph). A questing tick holds out its front legs and waits to grab onto anything that brushes past."
+          />
           <p>Ticks do not fly or jump; they &ldquo;quest.&rdquo; A tick climbs to the tip of a grass blade or leaf, holds out its front legs, and waits to grab onto anything that brushes past. That behaviour is why yard control focuses on specific zones: ticks concentrate in predictable zones — the shaded, humid, leaf-littered transition between lawn and woods, garden bed edges, tall grass, and fence lines. Break the cycle by making those zones inhospitable:</p>
           <ul>
             <li><strong>Reduce habitat:</strong> Keep grass short, clear leaf litter, and create a dry woodchip or gravel barrier between lawn and woods to stop ticks from questing at the edge.</li>

@@ -82,7 +82,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
-  image: shareImage('culex-quinquefasciatus-female'),
+  image: shareImage('culex-tarsalis-kitchen-wall'),
 })
 
 const AMZ_TAG = tagForSlug('how-to-get-rid-of-mosquitoes-in-the-house')
@@ -90,7 +90,7 @@ const AMZ_TAG = tagForSlug('how-to-get-rid-of-mosquitoes-in-the-house')
 export default function GetRidOfMosquitoesInHousePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A complete 2026 indoor playbook for getting rid of mosquitoes in the house, room and bedroom — where they hide, how to find them, the fan trick, natural methods and the breeding source.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('culex-quinquefasciatus-female') })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A complete 2026 indoor playbook for getting rid of mosquitoes in the house, room and bedroom — where they hide, how to find them, the fan trick, natural methods and the breeding source.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('culex-tarsalis-kitchen-wall') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'How to Get Rid of Mosquitoes in the House', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -205,6 +205,11 @@ export default function GetRidOfMosquitoesInHousePage() {
               </tbody>
             </table>
           </div>
+          <Photo
+            id="culex-tarsalis-kitchen-wall"
+            alt="A mosquito resting on a plain cream-coloured kitchen wall, legs splayed, casting a shadow"
+            caption="A Culex tarsalis mosquito resting on a kitchen wall indoors, 5 mm long by the observer's measure (Moscow, Idaho; research grade on iNaturalist). Against a plain painted wall, a resting mosquito shows as a small dark dot with legs splayed out."
+          />
 
           <h2>How to find a mosquito in your room</h2>
           <p>Finding a single mosquito feels impossible until you use its own behaviour against it. Wait for dusk, when it starts to fly, then work through this sequence:</p>
@@ -234,6 +239,11 @@ export default function GetRidOfMosquitoesInHousePage() {
             <li><strong>Remove water from the room</strong> — vases, a humidifier reservoir, a pet&rsquo;s water bowl left overnight.</li>
             <li><strong>Personal repellent if bites continue.</strong> A repellent with DEET or icaridin (look for the PCP registration number on the label) on exposed skin adds a barrier. Follow the label for the concentration and re-application, and use age-appropriate products for children per Health Canada guidance.</li>
           </ul>
+          <Photo
+            id="cone-mosquito-net-double-bed"
+            alt="A white cone-shaped mosquito net hanging from the ceiling over a double bed"
+            caption="A cone-shaped mosquito net hung from the ceiling over a double bed, in a bungalow in Kep, Cambodia. Over a bed, a fitted mosquito net gives complete physical protection with no chemicals."
+          />
 
           <h2>Find and kill the indoor breeding source</h2>
           <p>If mosquitoes keep appearing indoors, something inside is breeding them, or something just outside your door is. Mosquitoes lay eggs in water that sits undisturbed for about a week, and they need remarkably little of it. Do a walk-through and empty or dry every one of these:</p>
@@ -245,6 +255,11 @@ export default function GetRidOfMosquitoesInHousePage() {
             <li>Pet water bowls left standing, and the bottom of recycling bins</li>
             <li>Forgotten glasses and bottles with a little liquid left in them</li>
           </ul>
+          <Photo
+            id="mosquito-larvae-clay-pot-saucer"
+            alt="Mosquito larvae in shallow water in an orange clay plant-pot saucer"
+            caption="Yellow fever mosquito larvae, Aedes aegypti, in water in a clay pot saucer (CDC photograph). Plant saucers are the most common indoor culprit."
+          />
           <p>The same water-hunting logic applies right outside your walls, where the real supply usually comes from. Our guide to <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots in the backyard</Link> shows the outdoor water sources — clogged gutters, tarps, saucers, corrugated drainpipe, kids&rsquo; toys — that quietly produce the mosquitoes ending up in your bedroom.</p>
 
           <h2>Why do I keep getting mosquitoes in my house?</h2>
@@ -275,6 +290,11 @@ export default function GetRidOfMosquitoesInHousePage() {
               </tbody>
             </table>
           </div>
+          <Photo
+            id="anopheles-punctipennis-window-ontario"
+            alt="A long-legged mosquito with dark-spotted wings on a window pane, a lawn blurred outside"
+            caption="A mosquito, Anopheles punctipennis, on a window pane; the observer found it indoors in a cold room (Ontario; research grade on iNaturalist). One or two near windows at dusk likely means they are getting in through screens or doors."
+          />
 
           <h2>The real fix: stop them outside before they get in</h2>
           <p>Every tactic above manages the mosquitoes that already made it indoors. That&rsquo;s essential for a bad night, but it&rsquo;s a losing game if a fresh supply keeps arriving from outside. In most GTA homes, the mosquito in your bedroom flew in from your own yard — from standing water, dense shade and unmanaged breeding sites a few metres from your door.</p>

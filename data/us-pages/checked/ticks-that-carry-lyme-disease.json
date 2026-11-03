@@ -2,7 +2,7 @@
  "id": "ticks-that-carry-lyme-disease",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "03d01f76b54c89b8f8ce11316e861c69c32750dfefa09528f8c92dc85396c424",
+ "sha": "d8d080f1a7a0017f1a0871f5095b28cda4f4c5db3b336a58ef007b4d73db018f",
  "claimsChecked": 112,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 8,
@@ -16,6 +16,11 @@
    "on": "2026-10-23",
    "note": "link to /tools/tick-identifier added in section Which common ticks do not carry Lyme disease? (one new paragraph after the side-by-side markings line)",
    "previousSha": "95dd7ef128e03a96354f1129a6db8dd1afd04b72cf12955d7f6920c57f5ce966"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (blacklegged-tick-female-fingertip-cdc, blacklegged-tick-nymph-macro, engorged-deer-tick-niaid, western-blacklegged-tick-female-leaf, lone-star-tick-female-hand, blacklegged-tick-removal-behind-ear); captions from each photo's source description; no other text changed.",
+   "previousSha": "03d01f76b54c89b8f8ce11316e861c69c32750dfefa09528f8c92dc85396c424"
   }
  ]
 }

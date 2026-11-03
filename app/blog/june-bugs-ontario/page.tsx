@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'june-bugs-ontario'
 const DATE = '2026-07-12'
@@ -59,6 +61,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('june-beetle-phyllophaga-anxia-side'),
 })
 
 const AMZ_TAG = tagForSlug('june-bugs-ontario')
@@ -66,7 +69,7 @@ const AMZ_TAG = tagForSlug('june-bugs-ontario')
 export default function JuneBugsOntarioPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to identify June bugs in Ontario, why they swarm lights, their grub lifecycle, and how to keep them away.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'How to identify June bugs in Ontario, why they swarm lights, their grub lifecycle, and how to keep them away.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('june-beetle-phyllophaga-anxia-side') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'June Bugs in Ontario', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -151,10 +154,13 @@ export default function JuneBugsOntarioPage() {
 
           <h2>What Exactly Is a June Bug?</h2>
           <p>&ldquo;June bug&rdquo; is a catch-all nickname, not a single species. In Ontario it usually means one of the plain reddish-brown scarab beetles in the genus <strong>Phyllophaga</strong> — the ones that appear out of nowhere in June, fly like they&rsquo;ve never done it before, and pile up under the porch light by morning. The same name gets stretched to cover the <strong>European chafer</strong> and the <strong>Japanese beetle</strong>, two close relatives whose grubs are the real lawn villains. All of them are scarabs: hard-shelled, oval, with clubbed antennae and clawed feet that snag on window screens and pant legs.</p>
+          <Photo id="june-beetle-phyllophaga-anxia-side" alt="June beetle seen from the side on pale wood, with glossy, very dark brown wing covers and spiny, clawed legs" caption="A June beetle, Phyllophaga anxia, photographed in Thunder Bay, Ontario. Look for the hard, glossy, oval shell and the clawed feet that snag on window screens and pant legs." />
           <p>Adults live only a few weeks. Their entire adult purpose is to mate and lay eggs in the soil, which is why they are so single-minded about flying toward lights and so indifferent to you. If one lands on your arm, it is trying to get a grip, not to bite — June bugs have chewing mouthparts built for leaves, not skin.</p>
+          <Photo id="european-chafer-adult-top-view" alt="European chafer seen from above on white, with light brown ridged wing covers, a darker head and thorax and hairy edges" caption="A European chafer, Amphimallon majale, photographed in Thunder Bay, Ontario: tan to light brown, with ridged wing covers. Its grubs are Ontario's number one lawn-grub pest." />
 
           <h2>Why Do June Bugs Swarm Porch Lights?</h2>
           <p>June bugs are nocturnal and navigate partly by natural light. A bright artificial fixture overwhelms that system and draws them straight in — a behaviour called <strong>positive phototaxis</strong>. On warm, humid evenings above about 18°C in late May through July, freshly emerged adults leave the soil to mate and orient toward the brightest thing around, which is almost always your porch, patio, or a lit window.</p>
+          <Photo id="june-beetle-window-ledge" alt="Light brown June beetle on a painted brick window ledge" caption="A June beetle, Phyllophaga tristis, on a brick window ledge in Millington, Tennessee, where the observer saw these beetles come to the windows at night. June bugs head for the brightest light around, often a porch light or a lit window." />
           <p>This is also why bug-light gadgets are hit or miss. Electric bug zappers do kill beetles that hit the grid, but they attract far more insects to your space than they eliminate, and they mostly zap harmless bugs while missing biting pests entirely — we cover that in detail in our guide to <Link href="/blog/bug-zappers-canada-do-they-work">whether bug zappers actually work in Canada</Link>. For June bugs specifically, the cheapest fix is to remove the attractant: switch to warm-yellow &ldquo;bug light&rdquo; LEDs, put outdoor lights on motion sensors, close blinds on lit windows, and turn off decorative lighting during peak swarm weeks.</p>
 
           <h2>Are June Bugs Harmful? (Short Answer: No)</h2>
@@ -170,6 +176,7 @@ export default function JuneBugsOntarioPage() {
             <li><strong>Pupae (late spring).</strong> Mature grubs pupate in the soil.</li>
             <li><strong>Adults (May–July).</strong> Beetles emerge, fly to your lights, mate, and restart the cycle.</li>
           </ol>
+          <Photo id="european-chafer-grub-in-hand" alt="Cream-coloured white grub curled into a C shape on a person's palm, its brown head showing, held above lawn soil" caption="A European chafer grub dug from a lawn in British Columbia; the observer identified the lawn's grubs under a microscope. White grubs are fat, C-shaped and cream-coloured, with a brown head." />
           <p>This is why the beetles at the light in June are, in effect, last year&rsquo;s (or years-ago&rsquo;s) grub damage coming back to breed. Break the grub stage and next summer&rsquo;s swarm shrinks.</p>
 
           <h2>Spotting White-Grub Lawn Damage</h2>
@@ -179,7 +186,9 @@ export default function JuneBugsOntarioPage() {
             <li><strong>Spongy turf that lifts like loose carpet</strong> — because the roots holding it down have been chewed away.</li>
             <li><strong>Animals digging.</strong> Skunks, raccoons, and birds tearing up the lawn overnight are hunting the grubs; the digging often does more visible damage than the grubs themselves.</li>
           </ul>
+          <Photo id="crow-peeling-turf-for-grubs" alt="American crow beside a sidewalk pulling at a loose chunk of turf lifted from the edge of a lawn" caption="An American crow pulling back turf at the edge of a lawn in Vancouver, British Columbia; the observer says it was getting at the grubs underneath. Digging like this often does more visible damage than the grubs themselves." />
           <p>To confirm, cut and peel back a 30 cm square of sod at the edge of a brown patch. More than about five to ten grubs per square foot signals a population worth treating.</p>
+          <Photo id="european-chafer-grubs-from-lawn" alt="Twenty white, C-shaped grubs with brown heads in soil inside a plastic cup" caption="Twenty European chafer grubs that the observer collected from one lawn in British Columbia and identified under a microscope. Like true June bug grubs, they are white grubs that feed on turf roots." />
 
           <h2>Lawn-Grub Control: Where the Real Fight Is</h2>
           <p>Killing next season&rsquo;s beetles means dealing with grubs, and the most effective options are biological:</p>

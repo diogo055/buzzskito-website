@@ -2,7 +2,7 @@
  "id": "pillar-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "85e80863f531b77cf46ff7bde61d33eb0e357ed62277da2035e1d5678cd180a7",
+ "sha": "4875631d530ecbb28965acf85f9501d55ea5423f9911a12b645e48c7a7477943",
  "claimsChecked": 224,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 14,
@@ -47,6 +47,11 @@
    "on": "2026-10-29",
    "note": "Link to /blog/wood-roaches added in section 'Which cockroaches are found in US homes' (h3 'Wood roaches'): one new paragraph after the wood roach paragraph describing the guide (photos vs German, American and Oriental cockroaches); no other text changed",
    "previousSha": "9ee790b1c513c7fa37f7410434a8e3206b454501ba0e174d45c304cd297dd9d1"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (american-cockroach-spiny-legs-concrete, american-cockroach-ootheca, german-cockroach-white-surface, turkestan-cockroaches-male-female-brick, wood-cockroach-cdc, cockroach-agar-plate-cdc); captions from each photo's source description; no other text changed.",
+   "previousSha": "85e80863f531b77cf46ff7bde61d33eb0e357ed62277da2035e1d5678cd180a7"
   }
  ]
 }

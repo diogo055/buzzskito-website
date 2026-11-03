@@ -2,7 +2,7 @@
  "id": "types-of-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "b0d5032a5006a4c31be4443431b987e824b38f748efcd1638bf6d83264ae08a2",
+ "sha": "779609c7a5053dc7d8af5a45acf20f2f746952160116bb99f50c7ee690d82d75",
  "claimsChecked": 95,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 5,
@@ -17,6 +17,11 @@
    "on": "2026-10-23",
    "note": "link-in: /blog/shrews (volume-20, Oct 23)",
    "previousSha": "54c7c1a47a92ae47fec96e13f079b98a3ecb8e12663f8e32d13a2362c20f2887"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (house-mouse-white-tray-side-view, house-mouse-wall-base-long-tail, deer-mouse, white-footed-mouse, meadow-vole-beside-ruler, shrew-yard-lawn); captions from each photo's source description; no other text changed.",
+   "previousSha": "b0d5032a5006a4c31be4443431b987e824b38f748efcd1638bf6d83264ae08a2"
   }
  ]
 }

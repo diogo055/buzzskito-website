@@ -3,6 +3,8 @@ import Link from 'next/link'
 import QuickAnswer from '@/components/QuickAnswer'
 import { buildMetadata, breadcrumbSchema, speakableSchema, faqSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import NextUp from '@/components/NextUp'
 
 const SLUG = 'mosquito-life-cycle'
@@ -32,6 +34,7 @@ export const metadata: Metadata = buildMetadata({
   description: 'How the mosquito life cycle works in Ontario backyards: egg, larva, pupa, and adult stages, timing in GTA summer temperatures, and which stage is easiest to break for lasting control.',
   canonical: `/learn/${SLUG}`,
   type: 'article',
+  image: shareImage('aedes-aegypti-pupae-adult-emerging'),
 })
 
 export default function MosquitoLifeCyclePage() {
@@ -63,18 +66,43 @@ export default function MosquitoLifeCyclePage() {
         <div className="max-w-3xl mx-auto prose-brand">
           <h2>The Four Stages of a Mosquito&rsquo;s Life</h2>
           <p>Every mosquito in the Greater Toronto Area — whether it&rsquo;s the <em>Aedes vexans</em> floodwater mosquito that swarms after summer rain or the <em>Culex pipiens</em> that carries West Nile virus — moves through the same four-stage metamorphosis: egg, larva, pupa, and adult. Three of those four stages happen in water. That single fact is the foundation of every effective backyard mosquito strategy: control the water, and you control the mosquitoes before they ever grow wings.</p>
+          <Photo
+            id="aedes-aegypti-pupae-adult-emerging"
+            alt="Four mosquito pupae hanging just under the water surface while an adult mosquito emerges above them"
+            caption="Four yellow fever mosquito pupae, Aedes aegypti, hang below the surface of standing water while an adult mosquito emerges above them (CDC photograph). Three of the four life stages happen in water."
+          />
 
           <h3>1. Egg</h3>
           <p>A female mosquito needs a blood meal to develop her eggs — which is why only females bite. After feeding, she lays a batch of 100 to 300 eggs. Some species, like <em>Culex</em>, lay eggs in floating rafts directly on standing water; floodwater species like <em>Aedes</em> lay on damp soil and dead leaves at the water&rsquo;s edge, where the eggs can survive for months and hatch the moment rain floods them. In a GTA backyard, the most common egg sites are clogged eavestroughs, plant saucers, tarps, bird baths, kiddie pools, and forgotten containers. Learn which spots to check in our guide to <Link href="/blog/hidden-mosquito-breeding-spots-backyard">hidden mosquito breeding spots in your backyard</Link>.</p>
+          <Photo
+            id="culex-egg-raft"
+            alt="A Culex mosquito egg raft: many brown eggs packed upright side by side"
+            caption="An egg raft laid by a female southern house mosquito, Culex quinquefasciatus (CDC photograph). Culex lay their eggs in floating rafts directly on standing water."
+          />
 
           <h3>2. Larva</h3>
           <p>Within 24-48 hours (warm water) the eggs hatch into larvae, commonly called &ldquo;wrigglers&rdquo; for the way they thrash toward the surface to breathe through a snorkel-like tube. Larvae feed on organic matter and microorganisms in the water, moulting through four growth stages over roughly 4-10 days. This is the single most vulnerable point in the whole cycle — larvae are trapped in the water and cannot escape. See what they look like in our <Link href="/blog/mosquito-larvae-identification">mosquito larvae identification guide</Link>, and why <Link href="/blog/does-standing-water-attract-mosquitoes">standing water attracts mosquitoes</Link> in the first place.</p>
+          <Photo
+            id="aedes-aegypti-larvae-at-surface"
+            alt="Three mosquito larvae hanging head-down from the water surface by their breathing tubes"
+            caption="Three yellow fever mosquito larvae, Aedes aegypti, suspended at the surface of standing water (CDC photograph). Wrigglers come up to the surface to breathe through a snorkel-like tube."
+          />
 
           <h3>3. Pupa</h3>
           <p>The larva then transforms into a comma-shaped pupa, sometimes called a &ldquo;tumbler.&rdquo; Pupae do not feed, but they are mobile and respond to shadows by diving. This resting-and-reorganizing stage lasts just 2-3 days in warm weather. Inside the pupal case, the aquatic wriggler is rebuilding itself into a flying, biting adult.</p>
+          <Photo
+            id="culex-quinquefasciatus-pupae"
+            alt="Two comma-shaped mosquito pupae floating just under the water surface"
+            caption="Two southern house mosquito pupae, Culex quinquefasciatus, floating in standing water (CDC photograph). The pupa is the comma-shaped stage that does not feed."
+          />
 
           <h3>4. Adult</h3>
           <p>The adult mosquito emerges onto the water surface, rests while its wings and exoskeleton harden, then flies off to find food and mate. Males feed only on nectar and live about a week; females also drink nectar but seek blood to fuel egg production, living 2-4 weeks and often laying multiple batches. Understanding the difference matters — read our breakdown of the <Link href="/blog/male-vs-female-mosquito">male vs female mosquito</Link> and <Link href="/blog/why-do-mosquitoes-exist">why mosquitoes exist</Link> at all in the ecosystem.</p>
+          <Photo
+            id="aedes-aegypti-male-on-flower"
+            alt="A male yellow fever mosquito with feathery antennae resting on a pink flower petal"
+            caption="An adult male yellow fever mosquito, Aedes aegypti, resting on a flower (CDC photograph). Males do not bite: they feed on nectar."
+          />
 
           <NextUp path="/learn/mosquito-life-cycle" />
           <h2>How Fast Is the Cycle in the GTA?</h2>
@@ -98,6 +126,11 @@ export default function MosquitoLifeCyclePage() {
             <li><strong>Source reduction (egg, larva, pupa):</strong> Empty or treat standing water weekly. Dumping a plant saucer eliminates an entire generation before it can fly. BTI larvicide dunks kill wrigglers in water you cannot drain, like rain barrels and ponds.</li>
             <li><strong>Adult control (adult):</strong> Adult mosquitoes spend the daytime resting on the undersides of leaves, in shrubs, and along fence lines. A professional <Link href="/mosquito-control">barrier spray</Link> coats those resting surfaces with a residual that kills adults on contact, renewed on the plan&rsquo;s schedule (every 2 weeks on Standard, monthly on Basic) — knocking down the biting generation while source reduction chokes off the next one.</li>
           </ul>
+          <Photo
+            id="mosquito-larvae-pupae-bottle-cap"
+            alt="Mosquito larvae and pupae crowded in the water of a white plastic bottle cap"
+            caption="Yellow fever mosquito larvae and pupae, Aedes aegypti, in the water of a plastic bottle cap (CDC photograph). As little as a bottle cap of water can hatch dozens of larvae."
+          />
           <p>Attacking a single stage rarely works for long, because the 8-14 day cycle simply rebuilds. Attacking two stages at once — draining water <em>and</em> treating vegetation — is what actually cuts the bites in a yard. For the full playbook, see <Link href="/learn/how-to-combat-mosquitoes">how to combat mosquitoes</Link> and our <Link href="/blog/ultimate-backyard-mosquito-control-guide">ultimate backyard mosquito control guide</Link>.</p>
 
           <h2>Keep Learning</h2>

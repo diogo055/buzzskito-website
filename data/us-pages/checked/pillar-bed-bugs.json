@@ -2,7 +2,7 @@
  "id": "pillar-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "188aa9b9d50a5a77e0505e973c8ee723c0b1af73845582740e7667c662cc1e69",
+ "sha": "d3df40e6b2b2523d5b7513151058625901b0787316666ee224ea4dd09a7385cc",
  "claimsChecked": 145,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 11,
@@ -26,6 +26,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/bat-bugs (new page) in a new paragraph after the bat and bird relatives paragraph under 'Which insects are mistaken for bed bugs?'; no fact changed",
    "previousSha": "8d931f987f5d961633f4381395e5469f160659a53963065351123309f13db0d9"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (bed-bug-on-skin-macro, bed-bugs-male-female-cdc, bed-bug-swollen-after-feeding, bed-bug-nymph-after-blood-meal, bed-bugs-mating-eggs-fabric-fold, bed-bug-feces-bed-corner); captions from each photo's source description; no other text changed.",
+   "previousSha": "188aa9b9d50a5a77e0505e973c8ee723c0b1af73845582740e7667c662cc1e69"
   }
  ]
 }

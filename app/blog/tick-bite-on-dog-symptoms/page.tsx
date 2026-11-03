@@ -11,6 +11,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'tick-bite-on-dog-symptoms'
 const DATE = '2026-04-26'
@@ -59,6 +61,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('gulf-coast-tick-in-dog-fur'),
 })
 
 const AMZ_TAG = tagForSlug('tick-bite-on-dog-symptoms')
@@ -66,7 +69,7 @@ const AMZ_TAG = tagForSlug('tick-bite-on-dog-symptoms')
 export default function TickBiteOnDogSymptomsPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Symptom and treatment guide for tick bites on dogs in Ontario.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Symptom and treatment guide for tick bites on dogs in Ontario.', slug: SLUG, datePublished: DATE, image: shareImage('gulf-coast-tick-in-dog-fur') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Bite on Dog Symptoms', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -116,6 +119,11 @@ export default function TickBiteOnDogSymptomsPage() {
           />
 
           <h2>What a Tick Bite Looks Like on a Dog</h2>
+          <Photo
+            id="gulf-coast-tick-in-dog-fur"
+            alt="A tick with a pale, patterned shield among the white hairs of a dog's coat, close to the pink skin"
+            caption="A Gulf Coast tick in the white fur of a dog in Alabama, identified on iNaturalist. Once a tick is removed, the bite is usually a slightly raised, reddish bump where it was attached."
+          />
           <p>The bite itself is small — usually a slightly raised, reddish bump where the tick was attached. After removal, you may see:</p>
           <ul>
             <li><strong>Day 0–2:</strong> Small red lump where the tick was; mild swelling of 1–2 mm.</li>
@@ -127,6 +135,11 @@ export default function TickBiteOnDogSymptomsPage() {
           <p><strong>Note:</strong> The famous &ldquo;bullseye rash&rdquo; (erythema migrans) that humans get with early Lyme disease is rarely visible on dogs because of the fur. Don&rsquo;t look for it.</p>
 
           <h2>The Critical Timeline — When to Watch What</h2>
+          <Photo
+            id="engorged-blacklegged-tick-dog-neck"
+            alt="Engorged blacklegged tick seen from above on a white background, its swollen reddish-brown body far larger than the small dark shield and legs at the front"
+            caption="An engorged blacklegged tick collected from the neck of a dog in Trois-Rivières, Quebec, identified on iNaturalist; the observer notes its mouthparts are missing, probably left in the bite. Note the date you find a tick on your dog."
+          />
 
           <h3>Day 1–14 (acute bite)</h3>
           <p>Watch the local bite area for:</p>
@@ -167,6 +180,11 @@ export default function TickBiteOnDogSymptomsPage() {
 
           <h2>What To Do At Each Stage</h2>
           <p><strong>Day 0:</strong> Remove the tick correctly (<Link href="/blog/how-to-remove-tick-from-dog-ontario">step-by-step guide</Link>). A fine-tipped tick removal tool or pointed tweezers lets you grip close to the skin and pull straight out without leaving mouthparts behind — <BuyLink tag={AMZ_TAG} search="tick removal tool tweezers">check price on Amazon.ca →</BuyLink>. Clean the bite. Save the tick. Note the date.</p>
+          <Photo
+            id="blacklegged-tick-forceps-dog-hair"
+            alt="A blacklegged tick held at the tip of metal forceps, with long pale dog hairs caught around it"
+            caption="A live adult female blacklegged tick held in forceps after it was removed from a dog it was feeding on, in Connecticut (identified on iNaturalist). Remove the tick, clean the bite, save the tick and note the date."
+          />
           <p><strong>Day 1–14:</strong> Watch the bite for local infection signs. Most bites heal without intervention.</p>
           <p><strong>Week 2–3:</strong> Watch for systemic symptoms (fever, lethargy, joint stiffness). If anything appears, call the vet.</p>
           <p><strong>Month 2–5:</strong> Watch for shifting-leg lameness — the calling card of canine Lyme. If your dog limps on one leg, then a different leg days later, see the vet immediately. A 4DX SNAP test takes 8 minutes.</p>
@@ -182,6 +200,11 @@ export default function TickBiteOnDogSymptomsPage() {
             <li><strong>Daily tick checks</strong> after walks. <Link href="/blog/what-ticks-look-like-ontario">Know what ticks look like</Link>. Common spots: ears, armpits, paws, tail base, neck.</li>
             <li><strong>Yard tick control</strong>. Most ticks your dog encounters are in your own yard. <Link href="/tick-control">BuzzSkito&rsquo;s 5-spray season program</Link> treats the leaf litter, lawn edges and fence lines where ticks wait for a host — the places your dog actually brushes past. It lowers the odds of a pickup at home, but it is not a substitute for a vet-prescribed preventative.</li>
           </ol>
+          <Photo
+            id="american-dog-ticks-chive-plant"
+            alt="Two small ticks on the stems of a flowering chive plant, legs spread, with purple chive blossoms behind them"
+            caption="Two American dog ticks waiting on a chive plant to catch a ride (U.S. Fish and Wildlife Service photo). Most ticks your dog encounters are in your own yard."
+          />
 
           <h2>Related Reading</h2>
           <ul>

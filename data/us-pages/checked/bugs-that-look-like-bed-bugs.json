@@ -2,7 +2,7 @@
  "id": "bugs-that-look-like-bed-bugs",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "bdb658a9d05f89105939e20ef209764862cb6cd30b90935e5f62a84d7058e66b",
+ "sha": "656650992a0653790f0f8015887813482405cee12dd7a0157e544e05402abe13",
  "claimsChecked": 62,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 2,
@@ -37,6 +37,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: one internal link to /blog/lice-eggs; no fact changed",
    "previousSha": "50b8d26067aff29f1cc8356d27e7f966d8811cc4e720649c23efdec9fadf7927"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (western-bat-bug, bed-bug-on-hand-bpca, swallow-bug-top-view, carpet-beetle-larva-bedroom, hairy-spider-beetle, dog-flea); captions from each photo's source description; no other text changed.",
+   "previousSha": "bdb658a9d05f89105939e20ef209764862cb6cd30b90935e5f62a84d7058e66b"
   }
  ]
 }

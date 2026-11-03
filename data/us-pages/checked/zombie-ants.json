@@ -2,9 +2,16 @@
  "id": "zombie-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "af59937d16431a3cf6e01c86d5f2ba9a83b9d780555991010faf574f018301a4",
+ "sha": "c0a9887ec6a457075a0d198599608e01afe362d37382496468da61b44fcbc43a",
  "claimsChecked": 62,
  "claimsCorrected": 7,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-11"
+ "checkedOn": "2026-10-11",
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 5 real photos (zombie-ant-twig-south-carolina, chestnut-carpenter-ant-under-stem, zombie-ant-leaf-vein-thailand, zombie-ant-plant-stem-florida, zombie-ant-twig-hand-for-scale); captions from each photo's source description; no other text changed.",
+   "previousSha": "af59937d16431a3cf6e01c86d5f2ba9a83b9d780555991010faf574f018301a4"
+  }
+ ]
 }

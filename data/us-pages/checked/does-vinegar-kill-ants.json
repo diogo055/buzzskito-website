@@ -2,7 +2,7 @@
  "id": "does-vinegar-kill-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "00b06aef1430cfbd6c2f6943efa66ad262b4dae43a31c0e116b63623d21e88de",
+ "sha": "95a62959d031f629981a73f9c9ef15162e8770ea995667c86d28fe2d8b64a078",
  "claimsChecked": 58,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 3,
@@ -21,6 +21,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026 (second note): the merged sentence now also links /blog/how-to-get-rid-of-ants-canada as 'why baiting beats the sprays in the aisle' (same anchor the ghost-ants guide uses), restoring the second pre-existing-page link the merge removed. No factual claim touched.",
    "previousSha": "a651cd0a01f18c20ae4a48034ab1a205659cb0a3b180adb7454547494add9f1b"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 5 real photos (thief-ants-counter-pen-tip, argentine-ants-trail-wood, rover-ant-queens-with-eggs, pavement-ant-hill-path-edge, argentine-ants-gel-bait); captions from each photo's source description; no other text changed.",
+   "previousSha": "00b06aef1430cfbd6c2f6943efa66ad262b4dae43a31c0e116b63623d21e88de"
   }
  ]
 }

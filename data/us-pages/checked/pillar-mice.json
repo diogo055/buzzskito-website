@@ -2,7 +2,7 @@
  "id": "pillar-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "95baa2d0e23a7da1ea5e366e69c77f1878eb07a58d570a1f170e4321c56227b2",
+ "sha": "40953e0d253a703eba83aafd08324f94725c61e297507f96ace0552983717420",
  "claimsChecked": 208,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 5,
@@ -31,6 +31,11 @@
    "on": "2026-10-29",
    "note": "Oct 29: two internal links, to /blog/shrews and /blog/how-long-do-rats-live; no fact changed",
    "previousSha": "5f8d0e45c10729d486bb8ea33474ca78d7053b3589d042e6c34f3945d67ab58b"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (house-mouse-got-into-house-bucket, deer-mouse-front-view-cdc, house-mouse-droppings-wall-corner, mouse-gnawed-chair-seat, copper-wool-wire-gaps, snap-traps-set-against-wall); captions from each photo's source description; no other text changed.",
+   "previousSha": "95baa2d0e23a7da1ea5e366e69c77f1878eb07a58d570a1f170e4321c56227b2"
   }
  ]
 }

@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { MOSQUITO_BLOGS } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import NextUp from '@/components/NextUp'
 
 const SLUG = 'why-mosquitoes-bite-some-people-more'
@@ -48,6 +50,7 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('culex-quinquefasciatus-female-on-skin-side'),
 })
 
 const AMZ_TAG = tagForSlug('why-mosquitoes-bite-some-people-more')
@@ -55,7 +58,7 @@ const AMZ_TAG = tagForSlug('why-mosquitoes-bite-some-people-more')
 export default function WhyMosquitoesBiteSomeMorePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: EXCERPT, slug: SLUG, datePublished: DATE, image: shareImage('culex-quinquefasciatus-female-on-skin-side') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Why Mosquitoes Bite Some People More', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -101,6 +104,11 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           <li><strong>Mid range (1–10 metres):</strong> Body heat and visual cues. As the mosquito gets closer, it follows thermal gradients and visual silhouettes — particularly dark colours against contrasting backgrounds.</li>
           <li><strong>Close range (within ~1 metre):</strong> Skin chemistry. Lactic acid, ammonia, fatty acids, and dozens of other volatile organic compounds released from your skin determine whether the mosquito actually lands and bites.</li>
         </ul>
+        <Photo
+          id="culex-quinquefasciatus-female-on-skin-side"
+          alt="A female southern house mosquito standing on a person's skin before she bites, seen from the side"
+          caption="A female southern house mosquito, Culex quinquefasciatus, resting on a person's skin before taking her blood meal (CDC photograph). At close range, skin chemistry decides whether a mosquito actually lands and bites."
+        />
         <p>Individual differences in attractiveness come from variation at every stage — but especially the third one. Research summarized in <em>Current Biology</em> (Coetzee et al., 2022) found that the difference between the most and least attractive person in a small group can be roughly 100-fold. Yes — one hundred times.</p>
 
         <h2>Factor 1: Blood Type</h2>
@@ -111,6 +119,11 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           <li><strong>Type B and AB</strong> — intermediate values</li>
         </ul>
         <p>The mechanism is partly genetic. About 80% of people are &quot;secretors&quot; — they excrete blood-type-specific saccharides (the H, A, or B antigens) through their saliva, sweat, and skin secretions. Mosquitoes can detect these. Type O secretors are reliably the most attractive group across multiple studies. If you have type O blood and feel like you are bitten more than everyone around you, you probably are.</p>
+        <Photo
+          id="aedes-albopictus-female-blood-meal"
+          alt="A female Asian tiger mosquito with black and white stripes feeding on brown skin, her abdomen red with blood"
+          caption="A female Asian tiger mosquito, Aedes albopictus, taking a blood meal; her red abdomen shows she is feeding (CDC photograph). This is the species the 2004 blood type study tested."
+        />
 
         <h2>Factor 2: Carbon Dioxide Output</h2>
         <p>Mosquitoes use CO<sub>2</sub> as their primary long-range targeting signal. Anything that increases your CO<sub>2</sub> output makes you a brighter beacon. The biggest drivers:</p>
@@ -144,6 +157,11 @@ export default function WhyMosquitoesBiteSomeMorePage() {
         <h2>Factor 5: The Skin Microbiome</h2>
         <p>Many of the volatile compounds mosquitoes detect are not directly produced by you — they are produced by the bacteria living on your skin. Research published by Verhulst et al. in <em>PLoS ONE</em> (2011) found that skin bacterial communities had a major impact on mosquito attraction. People with a more diverse skin microbiome were generally less attractive, while those with high abundances of certain Staphylococcus and Brevibacterium species were dramatically more attractive.</p>
         <p>Foot odour, in particular, comes mostly from skin bacteria — and is highly attractive to malaria-vector mosquitoes. This is why the &quot;limburger cheese&quot; smell of feet has been used in mosquito traps in malaria research. The same effect applies, more weakly, to North American mosquitoes.</p>
+        <Photo
+          id="anopheles-merus-feeding-hand"
+          alt="A slender malaria mosquito feeding on a human hand, her abdomen bright red with blood"
+          caption="A female Anopheles merus, a malaria mosquito in the Anopheles gambiae species complex, feeding on a human hand (CDC photograph). Foot odour is highly attractive to malaria-vector mosquitoes."
+        />
 
         <h2>Factor 6: Pregnancy</h2>
         <p>Lindsay et al. (2000) is one of the cleanest pieces of mosquito-preference research ever published. The study compared pregnant and non-pregnant women in The Gambia in identical environmental conditions. The pregnant women attracted approximately <strong>twice as many</strong> mosquitoes as the non-pregnant women.</p>
@@ -163,6 +181,11 @@ export default function WhyMosquitoesBiteSomeMorePage() {
         <h2>Factor 8: Dark Clothing</h2>
         <p>Mosquitoes are visual hunters at mid range. They are strongly drawn to dark colours that contrast against the background — black, navy, dark red, dark green. Light colours — white, beige, light grey, pale yellow — are dramatically less attractive.</p>
         <p>Research from the University of Washington (Alonso San Alberto et al., 2022) using <em>Aedes aegypti</em> showed that mosquitoes flew toward dark targets and ignored white targets in controlled wind tunnel experiments. The researchers proposed that the colour preference is partly tied to skin tone detection — but the effect applies to clothing as well.</p>
+        <Photo
+          id="aedes-aegypti-female-feeding"
+          alt="A female yellow fever mosquito with white-banded legs feeding on a person's skin"
+          caption="A female yellow fever mosquito, Aedes aegypti, taking a blood meal from her human host (CDC photograph, 2006). This is the species the University of Washington wind tunnel experiments used."
+        />
         <p>Practical takeaway: if you are sitting outside on a summer evening in a black t-shirt, you are visually broadcasting your location. A white t-shirt or light beige shirt makes you considerably harder to find at the visual stage of the search.</p>
         <p>The same lab also sorted individual shades into attract and ignore piles — red, orange, black, and cyan on one side, green, blue, purple, and white on the other. We put that list into a wearable cheat sheet in <Link href="/blog/what-colors-attract-mosquitoes" className="text-brand-700 hover:underline">what colours attract mosquitoes</Link>.</p>
 
@@ -188,6 +211,11 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           <li><strong>Eliminate breeding sites</strong> — every standing-water source on your property is producing mosquitoes that will preferentially target the most attractive person in the household. See our <Link href="/blog/hidden-mosquito-breeding-spots-backyard" className="text-brand-700 underline">hidden mosquito breeding spots guide</Link> for the 12 most common sources homeowners miss.</li>
           <li><strong>Apply professional barrier spray</strong> — treats the resting habitat where mosquitoes shelter during the day, knocking down the adult population that is searching for hosts each evening. A properly applied <Link href="/mosquito-control" className="text-brand-700 underline">professional mosquito treatment</Link> protects every person in the household equally — your blood type does not matter to a yard with no mosquitoes in it.</li>
         </ul>
+        <Photo
+          id="mosquito-larvae-discarded-bottle-cap"
+          alt="Mosquito larvae in the water of a bottle cap lying next to a crushed plastic bottle"
+          caption="Yellow fever mosquito larvae, Aedes aegypti, in the water of a plastic bottle cap beside a crushed plastic bottle (CDC photograph). Every standing-water source on your property is producing mosquitoes."
+        />
         <p>Of those two, the one you can act on this afternoon for a few dollars is the breeding sites. Any water you cannot tip out — a rain barrel, a blocked gutter, a pond edge, a birdbath you want to keep — can be treated with a Bti larvicide instead, which kills the larvae in it without harming anything else that drinks from it.</p>
         <AffiliateDisclosure />
         <TopPick tag={AMZ_TAG}

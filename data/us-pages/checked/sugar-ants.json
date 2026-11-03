@@ -2,7 +2,7 @@
  "id": "sugar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "73779d569dbb5d38ca4556e761a8dcbcd676cbf41e193eb01233f3cdb9a9e5fa",
+ "sha": "d89c740cbb51c12b3945add25dc7d8e8e7f94739ecba38c0fea36406a9ff6451",
  "claimsChecked": 148,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 9,
@@ -17,6 +17,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: /blog/best-ant-traps-canada was merged into /blog/best-ant-killer (301 redirect), so one sentence that linked both now links the merged page once; wording adjusted only to name one page. No factual claim touched.",
    "previousSha": "14131273c0f1c08ab778f59d689ad2f86cde4e4eac8c7b0180c2f00602cc7f46"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (little-black-ants-at-sugar, banded-sugar-ant-australia, odorous-house-ant-kitchen-counter, pharaoh-ant-sugar-crystal, pavement-ants-sugar-water, argentine-ants-bait-trap); captions from each photo's source description; no other text changed.",
+   "previousSha": "73779d569dbb5d38ca4556e761a8dcbcd676cbf41e193eb01233f3cdb9a9e5fa"
   }
  ]
 }

@@ -2,7 +2,7 @@
  "id": "flying-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "0e033479bc8ed75cdcd55827a4a0fbd61bc99cc927b76157f871164f4f70f2f1",
+ "sha": "85a42a36a687fb336770b5e42c51ccbee1a5a4ef574b424529b8df9358ba56bf",
  "claimsChecked": 64,
  "claimsCorrected": 4,
  "claimsRemovedOrSoftened": 6,
@@ -12,6 +12,11 @@
    "on": "2026-10-21",
    "note": "link-in 2026-10-21: one sentence linking /blog/how-many-ants-are-in-the-world added in 'Why do flying ants suddenly appear?' (no new facts)",
    "previousSha": "987478b018a0100e54b6c33a24da6fe8aba5887f1a653cde36d97d529f5dfc34"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (citronella-ant-swarm-winged-leaf, winged-black-harvester-ant-bathroom-rug, termite-swarmers-pine-straw-house, dealate-carpenter-ant-queen, odorous-house-ants-winged-window-frame, winged-black-carpenter-ant-side-view); captions from each photo's source description; no other text changed.",
+   "previousSha": "0e033479bc8ed75cdcd55827a4a0fbd61bc99cc927b76157f871164f4f70f2f1"
   }
  ]
 }

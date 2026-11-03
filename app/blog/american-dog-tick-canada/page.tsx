@@ -10,6 +10,8 @@ import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakabl
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'american-dog-tick-canada'
 const DATE = '2026-04-28'
@@ -57,6 +59,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('american-dog-tick-macro-droege'),
 })
 
 const AMZ_TAG = tagForSlug('american-dog-tick-canada')
@@ -64,7 +67,7 @@ const AMZ_TAG = tagForSlug('american-dog-tick-canada')
 export default function AmericanDogTickPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'American dog tick identification and risk guide for Canada.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'American dog tick identification and risk guide for Canada.', slug: SLUG, datePublished: DATE, image: shareImage('american-dog-tick-macro-droege') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'American Dog Tick', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -137,13 +140,33 @@ export default function AmericanDogTickPage() {
           <AuthorByline datePublished={DATE} dateModified={UPDATED} />
 
           <h2>How to Identify an American Dog Tick</h2>
+          <Photo
+            id="american-dog-tick-macro-droege"
+            alt="Magnified American dog tick seen from above on black, with banded legs, an ornate cream-patterned shield and a grooved reddish-brown body"
+            caption="An American dog tick under magnification, found crawling on the photographer in Beltsville, Maryland (Sam Droege, identified on iNaturalist). Look for the mottled grey, white and brown markings on the shield."
+          />
           <p>The American dog tick is the most visually distinctive tick species you&rsquo;ll find in Canada. Three identifying features:</p>
           <ol>
             <li><strong>Size:</strong> Adults are 5 mm long when unfed — about the size of an apple seed. After feeding for several days, they engorge to 15 mm (cherry pit sized) and turn grey-blue.</li>
             <li><strong>Patterned shield (scutum):</strong> The dorsal shield has distinct mottled grey, white, and brown markings — almost ornamental looking. Females have markings on the front half only; males have markings covering the entire back.</li>
             <li><strong>Long mouthparts:</strong> Visible from above, palpate-shaped. Longer than the blacklegged tick&rsquo;s short mouth.</li>
           </ol>
+          <Photo
+            id="american-dog-tick-female-point-pelee"
+            alt="Adult female American dog tick on a white tissue, a dark brown body with an off-white patterned shield over the front only"
+            caption="An adult female American dog tick found on a person's leg after a walk in Point Pelee National Park, Ontario, identified on iNaturalist. Females have markings on the front half only."
+          />
+          <Photo
+            id="american-dog-tick-male-hamilton"
+            alt="Adult male American dog tick among hairs on a person's skin, its mottled pale and dark shield covering the whole back"
+            caption="An adult male American dog tick on a person's skin in Hamilton, Ontario, identified on iNaturalist. Males have markings covering the entire back."
+          />
           <p>Compare to the <strong>blacklegged tick (deer tick)</strong>: smaller (3 mm), plain reddish-black body, no patterned markings, and the medical concern (Lyme disease vector). See our <Link href="/blog/what-ticks-look-like-ontario">full Ontario tick identification guide</Link> for visual differences.</p>
+          <Photo
+            id="blacklegged-tick-female-leg-hair"
+            alt="Adult female blacklegged tick crawling through the hairs on a person's leg, with black legs, a dark shield and a red-orange body"
+            caption="A female blacklegged (deer) tick crawling through the hair on a person's leg (CDC photograph). It is smaller than the American dog tick, with a plain reddish-black body and no patterned markings."
+          />
 
           <p>A third species sometimes enters the conversation: the <strong>lone star tick</strong>, reddish-brown with a single white dot on the female&rsquo;s back. It is the tick linked to the alpha-gal red-meat allergy, and it is not established in Canada — see our <Link href="/blog/lone-star-tick-alpha-gal-canada" className="text-brand-700 underline">lone star tick and alpha-gal risk guide for Canada</Link> for where it has actually been logged.</p>
 
@@ -159,6 +182,11 @@ export default function AmericanDogTickPage() {
             <li>Parts of southern British Columbia (less common)</li>
           </ul>
           <p>Their preferred habitats: grassy fields, meadows, hiking trails with tall grass, yard edges with unmowed vegetation, and brushy areas. They are NOT dense-forest specialists like blacklegged ticks. If your yard borders a meadow, agricultural field, or unkept brush — that&rsquo;s prime American dog tick habitat.</p>
+          <Photo
+            id="american-dog-tick-in-hand-yard-work"
+            alt="American dog tick on the palm of a person's hand, seen up close"
+            caption="An American dog tick found after doing yard work (U.S. Fish and Wildlife Service photo). Yard edges with unmowed vegetation are among its preferred habitats."
+          />
           <p>For how that range compares with the other species found here, our guide to <Link href="/blog/are-there-ticks-in-canada" className="text-brand-700 underline">where ticks are found in Canada, province by province</Link> maps each one out.</p>
 
           <h2>Disease Risk in Canada — The Honest Numbers</h2>
@@ -175,6 +203,11 @@ export default function AmericanDogTickPage() {
             <li><strong>Babesiosis:</strong> A red blood cell parasite causing anemia. Rare but increasing.</li>
             <li><strong>Ehrlichiosis:</strong> Possible but uncommon.</li>
           </ul>
+          <Photo
+            id="american-dog-tick-engorged-ksre"
+            alt="Engorged female American dog tick on a pale surface, a large smooth grey body with the small shield, mouthparts and legs at one end"
+            caption="An engorged female American dog tick (K-State Research and Extension photo). After feeding for several days, adults engorge and turn grey-blue."
+          />
           <p>Note what is missing from that list: canine Lyme disease, which comes from the blacklegged tick rather than this one despite the &ldquo;dog tick&rdquo; name. If the tick you pulled off was small, plain and dark-legged instead of grey-mottled, <Link href="/blog/can-dogs-get-lyme-disease" className="text-brand-700 underline">can dogs get Lyme disease from ticks?</Link> covers the signs to watch for and how long they take to appear.</p>
 
           <h2>What to Do When You Find One</h2>

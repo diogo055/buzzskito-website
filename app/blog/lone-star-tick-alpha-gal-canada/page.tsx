@@ -9,6 +9,8 @@ import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 
 const SLUG = 'lone-star-tick-alpha-gal-canada'
 const DATE = '2026-07-16'
@@ -68,6 +70,7 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('lone-star-tick-female-dorsal-cdc'),
 })
 
 const AMZ_TAG = tagForSlug(SLUG)
@@ -75,7 +78,7 @@ const AMZ_TAG = tagForSlug(SLUG)
 export default function LoneStarTickAlphaGalCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Is the lone star tick — the cause of the alpha-gal red meat allergy — in Canada? Status, symptoms, and risk for Ontario, 2026.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Is the lone star tick — the cause of the alpha-gal red meat allergy — in Canada? Status, symptoms, and risk for Ontario, 2026.', slug: SLUG, datePublished: DATE, image: shareImage('lone-star-tick-female-dorsal-cdc') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Lone Star Tick & Alpha-Gal in Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -150,6 +153,11 @@ export default function LoneStarTickAlphaGalCanadaPage() {
 
           <h2>What tick causes the red meat allergy?</h2>
           <p>The lone star tick (<em>Amblyomma americanum</em>) is the tick that causes the red meat allergy known as alpha-gal syndrome. When it bites, it can transfer a sugar called galactose-alpha-1,3-galactose — alpha-gal for short — into the person, and the immune system may then treat that sugar as a threat.</p>
+          <Photo
+            id="lone-star-tick-female-dorsal-cdc"
+            alt="Adult female lone star tick seen from above on a black background, reddish-brown with pale-banded legs and one white spot near the middle of its back"
+            caption="An adult female lone star tick seen from above (CDC photograph). The single white dot on her back is the lone star the species is named for."
+          />
           <p>Alpha-gal is present in most non-primate mammals, so once someone is sensitized, their body can react to beef, pork, lamb, venison, and sometimes dairy, gelatin, and a handful of medications. The U.S. Centers for Disease Control and Prevention (CDC) names the lone star tick as the primary cause of alpha-gal syndrome in the United States. Researchers elsewhere are studying whether other tick species could occasionally play a role, but as of 2026 the lone star tick is the main documented culprit worldwide. You can see how it differs from the ticks Canadians actually meet in our <Link href="/blog/types-of-ticks-identification">tick identification guide</Link>.</p>
 
           <AffiliateDisclosure />
@@ -168,6 +176,11 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           <h2>Is the lone star tick in Ontario?</h2>
           <p>Occasionally, yes — but it is not established in Ontario. Southern Ontario, including the Greater Toronto Area, records a handful of lone star tick submissions to eTick in a typical year, and almost all are thought to be single ticks dropped by migratory birds rather than evidence of a local population.</p>
           <p>Ontario&rsquo;s two established human-biting ticks remain the <Link href="/blog/blacklegged-deer-tick-ontario">blacklegged (deer) tick</Link>, which is the Lyme disease vector, and the <Link href="/blog/american-dog-tick-canada">American dog tick</Link>. If you pull a tick off yourself, a family member, or a pet in Ontario, the overwhelming odds are that it is one of those two — not a lone star tick. The safest move is not to guess: photograph it and submit it to eTick.ca for a free expert identification, which also feeds the surveillance data that tracks any northward spread.</p>
+          <Photo
+            id="lone-star-tick-female-fingernail"
+            alt="Adult female lone star tick crawling on a person's fingernail, small enough to fit on the nail"
+            caption="An adult female lone star tick on a person's fingernail (CDC photograph). If you find a tick in Ontario, photograph it and submit it to eTick.ca for a free identification."
+          />
           <p>Alongside that, our <Link href="/tools/tick-identifier">tick species identifier</Link> asks six quick questions about where you picked the tick up, where you found it, its size, the markings on its back, its legs and the season, then shows the most likely ticks with a real photo of each and how to confirm it.</p>
 
           <h2>How the lone star tick compares to Ontario&rsquo;s established ticks</h2>
@@ -192,6 +205,16 @@ export default function LoneStarTickAlphaGalCanadaPage() {
           </table>
           </div>
           <p>The takeaway: the tick behind the red meat allergy is the one Ontario is least likely to have, while the tick Ontario definitely has (blacklegged) carries a different risk — Lyme disease — that is well worth taking seriously.</p>
+          <Photo
+            id="blacklegged-tick-female-palgrave"
+            alt="Adult female blacklegged tick on white paper, with black legs, a dark shield and a red-orange body"
+            caption="An adult female blacklegged (deer) tick found in Palgrave, Ontario, identified on iNaturalist. The blacklegged tick is established in Ontario and is the Lyme disease vector."
+          />
+          <Photo
+            id="american-dog-tick-found-on-head-mississauga"
+            alt="American dog tick on a white surface, seen from above, with a pale patterned shield over the front of a dark reddish-brown body"
+            caption="An American dog tick found on a person's head at the hairline in the Credit Woodlands, Mississauga, Ontario, identified on iNaturalist. Ontario's other established human-biting tick has a mottled grey-and-brown shield."
+          />
 
           <RelatedLinks path="/blog/lone-star-tick-alpha-gal-canada" />
           <h2>What is alpha-gal syndrome?</h2>

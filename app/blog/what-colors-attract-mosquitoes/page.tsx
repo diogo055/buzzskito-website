@@ -5,6 +5,7 @@ import { PROMISES } from '@/lib/constants'
 import Photo from '@/components/Photo'
 import QuickIdTable from '@/components/QuickIdTable'
 import ReadNext from '@/components/ReadNext'
+import { shareImage } from '@/lib/photos'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 
@@ -79,12 +80,13 @@ export const metadata: Metadata = buildMetadata({
   type: 'article',
   publishedTime: DATE,
   modifiedTime: UPDATED,
+  image: shareImage('aedes-aegypti-female'),
 })
 
 export default function WhatColorsAttractMosquitoesPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Which colours attract and repel mosquitoes, based on the 2022 Nature Communications colour-vision study, with GTA clothing advice.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Which colours attract and repel mosquitoes, based on the 2022 Nature Communications colour-vision study, with GTA clothing advice.', slug: SLUG, datePublished: DATE, dateModified: UPDATED, image: shareImage('aedes-aegypti-female') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'What Colors Attract Mosquitoes', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -149,20 +151,40 @@ export default function WhatColorsAttractMosquitoesPage() {
           <Photo id="aedes-aegypti-female" caption="A resting female yellow fever mosquito, Aedes aegypti, the species behind most of the 2022 colour experiments (CDC photograph)." />
           <p>The twist that made the study famous: the mosquitoes only cared about colour <strong>after</strong> they smelled carbon dioxide. When the researchers pulsed CO2 into the chamber &mdash; mimicking the breath of a nearby human &mdash; the insects suddenly flew toward red, orange, black, and cyan while ignoring the others. Remove the CO2, and the same mosquitoes drifted past every colour without interest. In other words, scent flips the switch, and colour helps the mosquito finish the hunt.</p>
           <p>Why those colours? They share long-wavelength or high-contrast properties. Reds and oranges sit at the long end of the visible spectrum (roughly 620&ndash;750 nanometres), and the researchers noted that human skin &mdash; regardless of pigmentation &mdash; reflects a strong signal in exactly that red-orange band. To a CO2-primed mosquito, a patch of exposed skin, a red shirt, or a black silhouette all read as &ldquo;host here.&rdquo; If you want the fuller picture of what draws mosquitoes to specific people, see our guide on <Link href="/blog/what-attracts-mosquitoes-to-you">what attracts mosquitoes to you</Link>.</p>
+          <Photo
+            id="aedes-aegypti-female-after-blood-meal"
+            alt="A female yellow fever mosquito with white-banded legs on a person's skin, her abdomen red and full after feeding"
+            caption="A female yellow fever mosquito, Aedes aegypti, on a person's skin after taking her blood meal (CDC photograph). In the 2022 study, all four human skin tones tested drew equal interest."
+          />
 
           <NextUp path="/blog/what-colors-attract-mosquitoes" />
           <h2>What colors do mosquitoes hate?</h2>
           <p>Mosquitoes largely ignore <strong>green, blue, purple, and white</strong>. In the 2022 experiment, these colours failed to draw the mosquitoes even after CO2 was introduced, making them the closest thing to &ldquo;mosquito-neutral&rdquo; shades you can wear.</p>
           <p>White is the standout because it reflects nearly the entire visible spectrum rather than concentrating energy in the long-wavelength red-orange range that mosquitoes lock onto. Cool, short-wavelength colours like blue, green, and purple similarly lack the signal the insects are tuned to. This is the scientific backbone behind the age-old advice to wear light, cool-toned clothing on a summer evening.</p>
+          <Photo
+            id="culex-quinquefasciatus-female-blood-meal"
+            alt="A female southern house mosquito feeding on brown skin, her abdomen swollen and red"
+            caption="A female southern house mosquito, Culex quinquefasciatus, taking a blood meal; her red abdomen shows she is feeding (CDC photograph). In the 2022 study this species was drawn to blue, which the yellow fever mosquito ignored."
+          />
           <p>One honest caveat: &ldquo;hate&rdquo; is too strong. Mosquitoes do not flee from green or white &mdash; they simply are not pulled toward it. You still emit CO2, heat, and odour that a mosquito can follow regardless of what you wear. If you want to actually push mosquitoes away, that is a job for scent, not colour &mdash; see the <Link href="/blog/smells-mosquitoes-hate">smells mosquitoes hate</Link> guide for repellent options that genuinely deter them.</p>
 
           <h2>Does black attract mosquitoes?</h2>
           <p>Yes &mdash; black is one of the four colours mosquitoes actively flew toward in the 2022 University of Washington study. It attracts on two fronts at once: it was a preferred visual target in the experiment, and black fabric absorbs and re-radiates heat, which is itself a mosquito attractant.</p>
           <p>Black also creates strong contrast. Against a bright evening sky or a pale patio, a person in dark clothing forms a sharp silhouette that is easy for a CO2-primed mosquito to see and track. This lines up with generations of anecdotal backyard experience &mdash; the person in the dark hoodie always seems to get eaten alive. The practical takeaway for GTA patios: swap the black t-shirt for a light one during peak mosquito hours at dawn and dusk.</p>
+          <Photo
+            id="anopheles-stephensi-feeding"
+            alt="A malaria mosquito feeding on a person's skin, her abdomen swollen and red"
+            caption="A female malaria mosquito, Anopheles stephensi, feeding on human skin (CDC photograph). In the 2022 study this species was drawn to black targets, and to red."
+          />
 
           <h2>What color should you wear to avoid mosquitoes?</h2>
           <p>Wear <strong>white, khaki, pale green, pale blue, or light grey</strong> to be least visually attractive to mosquitoes. These map directly onto the colours the 2022 study found mosquitoes ignored, and they double as the coolest, most comfortable choices for an Ontario summer.</p>
           <p>The full clothing playbook is simple: choose light, cool-toned colours; avoid red, orange, and black; and prioritise <strong>loose, long-sleeved</strong> coverage, because a mosquito cannot bite fabric it cannot reach through. Loose weave matters &mdash; mosquitoes can bite through tight fabric stretched over skin. Add a repellent with DEET or icaridin (look for the PCP registration number on the label) on any exposed skin, and you have layered the two things that actually move the needle: reduced visibility and active deterrence.</p>
+          <Photo
+            id="botanist-head-to-toe-clothing-denali"
+            alt="A botanist in a light khaki hooded jacket, trousers, gloves and a head net measuring a spruce tree in a forest"
+            caption="A botanist in head-to-toe light khaki clothing and a head net, measuring a spruce in Denali National Park, Alaska, where the park service says head-to-toe clothing is a must for field work (NPS photo). Khaki is one of the light colours this page suggests wearing."
+          />
           <p>Fit and thickness do far more work here than shade does. A mosquito&rsquo;s proboscis reaches roughly 2 mm, so a tight, thin garment stays biteable no matter what colour it is &mdash; our companion guide explains <Link href="/blog/can-mosquitoes-bite-through-clothes">why leggings fail and denim wins</Link>.</p>
           <p>Keep the expectation realistic. Colour is the weakest lever of the three main attractant categories. If you are the person who always gets bitten while everyone else is fine, the cause is far more likely your CO2 output, skin chemistry, or even your blood type than your shirt &mdash; we break that down in <Link href="/blog/what-blood-type-do-mosquitoes-bite">what blood type mosquitoes bite most</Link>.</p>
 

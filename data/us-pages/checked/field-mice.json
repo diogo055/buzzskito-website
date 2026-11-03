@@ -2,9 +2,16 @@
  "id": "field-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "ea097d1d1ef5d9229c8fcbf045b63aea8f246b1d28d172cfd108b20c90f17aed",
+ "sha": "ba2173f970e848087a7d10d980cda4b5bfd2c72360d7bb41d9ec72b15dc3f48b",
  "claimsChecked": 96,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 2,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 5 real photos (meadow-vole-in-grass, deer-mouse-on-wood-cdc, meadow-vole-runways, white-footed-mouse-bird-seed-basement, vole-hole-snowmelt); captions from each photo's source description; no other text changed.",
+   "previousSha": "ea097d1d1ef5d9229c8fcbf045b63aea8f246b1d28d172cfd108b20c90f17aed"
+  }
+ ]
 }

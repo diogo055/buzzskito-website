@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import ReadNext from '@/components/ReadNext'
+import Photo from '@/components/Photo'
+import { shareImage } from '@/lib/photos'
 import NextUp from '@/components/NextUp'
 import RelatedLinks from '@/components/RelatedLinks'
 
@@ -67,12 +69,13 @@ export const metadata: Metadata = buildMetadata({
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
+  image: shareImage('mosquito-bites-three-bumps-forearm'),
 })
 
 export default function WhenToWorryMosquitoBitePage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A calm, medically-framed triage guide to when a mosquito bite is normal versus when to see a doctor or call 911, for Ontario in 2026.', slug: SLUG, datePublished: DATE })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'A calm, medically-framed triage guide to when a mosquito bite is normal versus when to see a doctor or call 911, for Ontario in 2026.', slug: SLUG, datePublished: DATE, image: shareImage('mosquito-bites-three-bumps-forearm') })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'When to Worry About a Mosquito Bite', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`)) }} />
@@ -113,10 +116,20 @@ export default function WhenToWorryMosquitoBitePage() {
         <div className="max-w-3xl mx-auto prose-brand">
 
           <p>A mosquito bite itches because your immune system reacts to proteins in the mosquito&rsquo;s saliva. That reaction &mdash; a raised, pink, itchy bump &mdash; is normal and is not an infection. The vast majority of bites in Ontario need nothing more than patience and maybe an anti-itch measure. This page is about the small minority that deserve a closer look, and how to tell them apart without panicking. For everyday itch relief and treatment steps, see our companion guides on <Link href="/blog/mosquito-bite-treatment-relief">how to treat and relieve a mosquito bite</Link> and <Link href="/blog/why-do-mosquito-bites-itch">why mosquito bites itch</Link>.</p>
+          <Photo
+            id="mosquito-bites-three-bumps-forearm"
+            alt="Three small raised pink bumps from three mosquito bites on the inside of a forearm"
+            caption="Three raised bumps from three separate mosquito bites on the inside of a forearm (CDC photograph, 2024). A normal bite is worst in the first 24 hours, then fades."
+          />
 
           <h2>When should you worry about a mosquito bite?</h2>
           <p>Worry when a bite is getting worse two or more days after you were bitten, rather than settling down. A normal bite peaks quickly and then fades; an infected or seriously reacting bite trends the other way. The specific red flags below are the ones Health Canada, the CDC, and Public Health Ontario point to as reasons to have a bite assessed.</p>
           <p>The single most useful trick is to <strong>mark the edge of the redness with a pen</strong>. Come back in a few hours. If the redness has clearly grown past your line, that spreading pattern is the classic sign of a developing skin infection (cellulitis) and is worth a call to your provider or a walk-in clinic.</p>
+          <Photo
+            id="mosquito-bite-reddened-swelling-forearm"
+            alt="A mosquito bite on the inside of a forearm with an oval patch of redness around it"
+            caption="A mosquito bite reaction on the inside of a forearm, with reddening and swelling around the bite site (CDC photograph, 2024). Redness that spreads past a pen line drawn at its edge suggests cellulitis."
+          />
 
           <NextUp path="/blog/when-to-worry-about-a-mosquito-bite" />
           <h2>Normal reaction vs infected bite: what&rsquo;s the difference?</h2>
@@ -156,6 +169,11 @@ export default function WhenToWorryMosquitoBitePage() {
 
           <h2>Can you be allergic to mosquito bites?</h2>
           <p>Yes &mdash; and this is different from infection. Allergy is your immune system over-reacting to mosquito saliva, and it appears <em>quickly</em> (within hours), not slowly over days. A strongly allergic bite can swell into a large, hot, firm, intensely itchy patch several centimetres across, sometimes with a blister on top and a mild fever. This localized reaction is commonly called <strong>skeeter syndrome</strong>. It is uncomfortable and can look alarming, but it is not usually dangerous and settles over several days, sometimes with the help of an antihistamine your pharmacist or doctor can recommend.</p>
+          <Photo
+            id="skeeter-syndrome-leg"
+            alt="Large red, swollen patches on a lower leg after mosquito bites"
+            caption="A large local reaction to mosquito bites on a leg, which the photo's uploader describes as skeeter syndrome. An allergic reaction appears within hours, not slowly over days."
+          />
           <p>What separates allergy from infection is the clock and the trend. Allergy flares fast and then plateaus; infection builds slowly and keeps worsening after two days. When in doubt, the spreading-past-a-pen-mark test and the presence of pus point toward infection.</p>
 
           <h2>What does an allergic reaction to a mosquito bite look like?</h2>
@@ -171,9 +189,19 @@ export default function WhenToWorryMosquitoBitePage() {
           <RelatedLinks path="/blog/when-to-worry-about-a-mosquito-bite" />
           <h2>How many mosquito bites is dangerous?</h2>
           <p>There is no magic number of bites that becomes toxic in a healthy person. Even dozens of bites are usually just intensely itchy. The genuine risks from mosquitoes are two: <strong>disease transmission</strong> (in Ontario, primarily West Nile virus) and <strong>secondary infection</strong> from scratching bites open. A young child or someone covered in fresh bites can occasionally run a low fever from the sheer volume of reaction, which typically passes. Focus your worry on how a bite is behaving and how you feel overall &mdash; fever, spreading redness, or feeling unwell &mdash; not on counting bumps.</p>
+          <Photo
+            id="mosquito-bites-forearm-quarter"
+            alt="Several raised mosquito bite welts on a dark-skinned forearm beside a U.S. quarter for scale"
+            caption="Several mosquito bite reactions on a forearm, with a U.S. quarter for scale (CDC photograph, 2024). Even dozens of bites are usually just intensely itchy."
+          />
 
           <h2>When could a mosquito bite signal West Nile virus?</h2>
           <p>You cannot tell West Nile from the look of a bite &mdash; there is no special-looking bite. Risk is about symptoms in the days and weeks afterward, not the bite itself. According to the Public Health Agency of Canada, most people infected have <strong>no symptoms at all</strong>. About 1 in 5 develop a mild illness &mdash; fever, headache, body aches, tiredness, sometimes a rash &mdash; roughly 2 to 14 days after being bitten, and fewer than 1 in 150 develop serious neurological illness.</p>
+          <Photo
+            id="culex-quinquefasciatus-female-on-skin-front"
+            alt="A female southern house mosquito standing on a person's skin, seen head-on, before she bites"
+            caption="A female southern house mosquito, Culex quinquefasciatus, resting on a person's skin before taking her blood meal (CDC photograph). There is no special-looking West Nile bite."
+          />
           <p>Seek medical care promptly if, in the weeks after mosquito exposure, you develop fever with a <strong>severe headache, stiff neck, confusion, muscle weakness, or trouble with balance</strong>. For the full list of <Link href="/blog/west-nile-virus-symptoms">West Nile virus symptoms</Link> and how soon they typically appear after a bite, see our dedicated guide. For the Ontario-specific picture &mdash; when risk peaks locally and how to lower your exposure &mdash; see our guide to <Link href="/blog/west-nile-virus-mosquito-risk-ontario">West Nile virus mosquito risk in Ontario</Link>.</p>
 
           <h2>See a doctor if&hellip; / Call 911 if&hellip;</h2>

@@ -2,7 +2,7 @@
  "id": "pillar-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a26632ecf85a4d501680d887e1e9781d002da199c1689929baaa81e72d5a97c6",
+ "sha": "9bc1ebb48013cea4b1eb85eef0188d6d0312b82619962837894e6544aa630fb2",
  "claimsChecked": 250,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 6,
@@ -31,6 +31,11 @@
    "on": "2026-10-29",
    "note": "Species table in 'Which ants are common in US homes': added a longhorn crazy ant (Paratrechina longicornis) row linking /blog/crazy-ants: workers 1/16 to 1/8 inch, grayish black, nest mainly outdoors in trash piles and tree soil and forage in homes, long legs and antennae, run very fast (Texas A&M B-6183 text and Table 1, already a listed source, verified Oct 29). Caption now lists the longhorn crazy ant with the ghost and little black ants as Texas A&M rows; no other text changed",
    "previousSha": "86e79075aeae62d704703b643917d6e270fd31d9701c5ab6d959e6bb4afee78b"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 6 real photos (black-carpenter-ant-dry-leaves, carpenter-ant-queen-nest-chamber, pharaoh-ants-apartment, fire-ants-usda-white-background, carpenter-ant-damaged-board, southern-fire-ants-bait-card); captions from each photo's source description; no other text changed.",
+   "previousSha": "a26632ecf85a4d501680d887e1e9781d002da199c1689929baaa81e72d5a97c6"
   }
  ]
 }

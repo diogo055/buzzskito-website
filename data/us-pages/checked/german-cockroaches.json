@@ -2,7 +2,7 @@
  "id": "german-cockroaches",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "2c202d7b0a2cc7348e9bd5a3c7e064b80c9387102944a100f2cc0267b312dbca",
+ "sha": "4625e9c51a18029731fd4f2b7a493e14e48bf27fd67cc92f6c3d7cecb7a50806",
  "claimsChecked": 94,
  "claimsCorrected": 10,
  "claimsRemovedOrSoftened": 6,
@@ -26,6 +26,11 @@
   {
    "on": "2026-10-23",
    "note": "checker: verified the Asian vs German section against UF IG082 (looks very much like a German cockroach except it flies; adults seldom over 5/8 in; flies to porch lights and finds its way inside; lives outside, drawn to lights from buildings; survives poorly once inside, like other outdoor cockroaches), UF IN128 (very similar, a practiced eye can discern differences; unable to survive away from humans; breeds continuously with overlapping generations), Penn State (fully developed wings, does not fly; kitchens and bathrooms). Figures: USDA ARS image K2252-8 page reads 'Photo by Barry Fitzgerald' (caption right; ledger credit 'unknown author' is incomplete), CDC PHIL 26932 dorsal view of a female (fully winged, so adult), Rutgers FS1322 and Penn State give the two dark stripes as the identifying mark. No changes.",
+   "previousSha": "2c202d7b0a2cc7348e9bd5a3c7e064b80c9387102944a100f2cc0267b312dbca"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: added 4 real photos (german-cockroach-nymph-closeup, german-cockroach-female-egg-case-fingertip, field-cockroach-white-sheet, german-cockroach-on-kitchen-trap); captions from each photo's source description; no other text changed.",
    "previousSha": "2c202d7b0a2cc7348e9bd5a3c7e064b80c9387102944a100f2cc0267b312dbca"
   }
  ]
