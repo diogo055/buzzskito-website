@@ -3,10 +3,12 @@
 ## Business
 - **Company:** BuzzSkito Mosquito & Tick Control (BuzzSkito LTD, Reg# 1001003669)
 - **Owner:** Diogo (goes by Alex externally). NOT a developer — needs step-by-step guidance.
+- **Owners, confirmed Nov 3, 2026:** two co-owners. "Alex Francisco" is the name the owner uses publicly (bylines stay); Nick is the other co-owner. Both also do treatments, so "our technicians" is true. Never write "one owner".
 - **Phone:** (289) 216-5030
 - **Email:** support@buzzskito.ca (for customers), info@buzzskito.ca (for emails sent via Resend)
 - **Base:** Mississauga, Ontario, Canada
 - **Service area:** 19+ GTA cities (Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, Vaughan, Richmond Hill, Markham, Etobicoke, Scarborough, North York, Caledon, Milton, Georgetown, Halton Hills, King City, Woodbridge, Thornhill + 30+ neighbourhoods)
+- **NOT served (owner, Nov 3, 2026): Durham Region (Ajax, Pickering, Whitby).** Scarborough is the eastern edge. No page or sentence may claim service there.
 - **Season:** May–September. Peak: June–July.
 - **Fleet:** 1 van (expanding to 2), 1 technician (expanding to 2)
 - **Google Reviews:** 150 five-star reviews (5.0 average), ZERO bad reviews
@@ -114,6 +116,14 @@
 - **Not changed, on purpose:** the header quote button, the product hubs (`components/GuideHub.tsx`), the five data pages, and the `/blog` and `/learn` index pages. (The phone lead bar was left alone on Oct 11 and then replaced on 117 articles on Oct 12: see "Sticky bar on articles" below.)
 - **`npm run check:article-ctas`** (in `npm run build`) fails the deploy if an article loses its "Keep reading" block or regains a quote CTA component, if a local post loses its quote CTA to the block, or if the block ever appears on a service page.
 - **A new article page** must end with `<ReadNext path="/blog/<slug>" standalone />` or the build fails. Also run `node scripts/build-article-index.mjs` so it gets cards from its own topic instead of generic ones.
+
+## Location pages out of the index (Nov 3, 2026)
+- **Owner's OK ("do what you think is right"), after the Google trust audit (`reports/google-trust-audit-2026-11-03.md`):** 50 service-side location pages are `noindex, follow` (`buildMetadata({ ..., noIndex: true, follow: true })`) and out of `app/sitemap.ts` and `llms.txt`. They stay on the site and linked from `/service-areas`. Nothing was deleted.
+  - **17 `/pest-control-<city>` pages:** city-swapped templates (92-95% shared text) for "pest control [city]", which we don't offer. 47 clicks between them in the 2026 season. North York and Etobicoke (rewritten, 25 clicks) and the `/pest-control-gta` hub stay indexed.
+  - **33 neighbourhood pages:** under 50 impressions and 0 clicks May 1-Nov 1, 2026, plus Summerhill (Google had not indexed it). They are the pages whose `buildMetadata` call carries `noIndex: true`.
+- **To index one again:** first give it real local proof (jobs done there, real job photos, reviews from customers in that area). Then drop the two lines and list it in the sitemap again. Don't re-index the template.
+- **Durham:** `/ajax-mosquito-control` and `/pickering-mosquito-control` were removed and 301 to `/service-areas`. `IN_SERVICE_AREA` (`lib/service-area-features.ts`) no longer lists them, so the yard-risk and Lyme tools treat those addresses as outside the area.
+- **Owner's other answers (Nov 3):** the city-page testimonials are all real; the crew uses (or has used) the gear the product pages name; the scale claims are true. The ~330 hand-written TSX articles were written with AI help and keep the Alex byline with no AI note (owner's call: neither Google nor Mediavine's written policy, which targets AI content scraped from other sites, requires one).
 
 ## Sitemap and robots (audited Oct 11, 2026)
 - **`npm run check:sitemap`** (in `npm run build`) fails the deploy if a listed address is not a built, indexable page, if its canonical / og:url / structured data names a different or redirected address, if an indexable page is missing from the sitemap, or if a lastmod is missing or in the future. It exists because two pages renamed in the September slug test (`/blog/best-ant-killer`, `/blog/advion-cockroach-gel-bait`) kept a canonical pointing at their old address for five weeks.

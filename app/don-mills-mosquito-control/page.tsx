@@ -12,6 +12,10 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Mosquito control in Don Mills, Toronto. Professional barrier spray near Don Valley from $99. No contracts. Call (289) 216-5030.',
   canonical: '/don-mills-mosquito-control',
+  // Nov 3, 2026 (owner's OK): kept for visitors, out of Google's index. Template page with no search
+  // traffic; see "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const NEIGHBOURHOOD = 'Don Mills'

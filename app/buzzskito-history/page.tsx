@@ -22,7 +22,7 @@ const FAQS = [
   },
   {
     question: 'Where is BuzzSkito based?',
-    answer: 'BuzzSkito is based in Mississauga, Ontario. We serve approximately a 50 km radius covering the entire Greater Toronto Area — from Burlington and Hamilton in the west, to Markham and Pickering in the east, to Caledon and King City in the north.',
+    answer: 'BuzzSkito is based in Mississauga, Ontario. We serve approximately a 50 km radius covering the entire Greater Toronto Area — from Burlington and Hamilton in the west, to Markham and Scarborough in the east, to Caledon and King City in the north.',
   },
   {
     question: 'Is BuzzSkito licensed and insured?',

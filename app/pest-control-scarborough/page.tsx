@@ -15,6 +15,10 @@ export const metadata: Metadata = buildMetadata({
   title: `${CITY} Pest Control · Mosquito & Tick Specialist`,
   description: `${CITY} pest control specialist focused on mosquitoes and ticks. From $99/treatment, no contracts, rain-back guarantee on every plan. 150+ five-star reviews.`,
   canonical: SLUG,
+  // Nov 3, 2026 (owner's OK): kept for visitors, out of Google's index. City-swapped template that targets
+  // "pest control", which we don't offer; see "Location pages out of the index" in CLAUDE.md first.
+  noIndex: true,
+  follow: true,
 })
 
 const FAQS = [

@@ -97,8 +97,6 @@ All prices in CAD, plus HST, for a standard lot under 10,000 sq ft. Larger lots 
 - Woodbridge: https://buzzskito.ca/woodbridge-mosquito-control
 - Thornhill: https://buzzskito.ca/thornhill-mosquito-control
 - York Region: https://buzzskito.ca/york-region-mosquito-control
-- Ajax: https://buzzskito.ca/ajax-mosquito-control
-- Pickering: https://buzzskito.ca/pickering-mosquito-control
 - Stoney Creek: https://buzzskito.ca/stoney-creek-mosquito-control
 - Waterdown: https://buzzskito.ca/waterdown-mosquito-control
 
@@ -125,59 +123,27 @@ All prices in CAD, plus HST, for a standard lot under 10,000 sq ft. Larger lots 
 
 ## Toronto Neighbourhood Pages
 - High Park: https://buzzskito.ca/high-park-mosquito-control
-- Forest Hill: https://buzzskito.ca/forest-hill-mosquito-control
 - Rosedale: https://buzzskito.ca/rosedale-mosquito-control
 - The Beaches: https://buzzskito.ca/the-beaches-mosquito-control
-- Don Mills: https://buzzskito.ca/don-mills-mosquito-control
 - Leaside: https://buzzskito.ca/leaside-mosquito-control
-- Leslieville: https://buzzskito.ca/leslieville-mosquito-control
 - East York: https://buzzskito.ca/east-york-mosquito-control
-- Lawrence Park: https://buzzskito.ca/lawrence-park-mosquito-control
-- York Mills: https://buzzskito.ca/york-mills-mosquito-control
 - Willowdale: https://buzzskito.ca/willowdale-mosquito-control
-- Sunnybrook: https://buzzskito.ca/sunnybrook-mosquito-control
-- Summerhill: https://buzzskito.ca/summerhill-mosquito-control
-- Davisville: https://buzzskito.ca/davisville-mosquito-control
 - Danforth: https://buzzskito.ca/danforth-mosquito-control
-- Riverdale: https://buzzskito.ca/riverdale-mosquito-control
-- College Park: https://buzzskito.ca/college-park-mosquito-control
-- Casa Loma: https://buzzskito.ca/casa-loma-mosquito-control
-- Bridle Path: https://buzzskito.ca/bridle-path-mosquito-control
-- Baby Point: https://buzzskito.ca/baby-point-mosquito-control
-- Moore Park: https://buzzskito.ca/moore-park-mosquito-control
-- The Annex: https://buzzskito.ca/the-annex-mosquito-control
-- The Kingsway: https://buzzskito.ca/the-kingsway-mosquito-control
 
 ## Oakville Neighbourhood Pages
-- Bronte: https://buzzskito.ca/bronte-mosquito-control
-- Glen Abbey: https://buzzskito.ca/glen-abbey-mosquito-control
 - Joshua Creek: https://buzzskito.ca/joshua-creek-mosquito-control
-- West Oak Trails: https://buzzskito.ca/west-oak-trails-mosquito-control
 - Old Oakville: https://buzzskito.ca/old-oakville-mosquito-control
 - North Oakville: https://buzzskito.ca/north-oakville-mosquito-control
-- River Oaks: https://buzzskito.ca/river-oaks-mosquito-control
-- Eastlake: https://buzzskito.ca/eastlake-mosquito-control
-- Falgarwood: https://buzzskito.ca/falgarwood-mosquito-control
-- Clearview: https://buzzskito.ca/clearview-mosquito-control
 
 ## Burlington Neighbourhood Pages
 - Alton Village: https://buzzskito.ca/alton-village-mosquito-control
-- Aldershot: https://buzzskito.ca/aldershot-mosquito-control
-- Roseland: https://buzzskito.ca/roseland-mosquito-control
 - Millcroft: https://buzzskito.ca/millcroft-mosquito-control
-- Tyandaga: https://buzzskito.ca/tyandaga-mosquito-control
-- Palmer: https://buzzskito.ca/palmer-mosquito-control
-- Orchard: https://buzzskito.ca/orchard-mosquito-control
 
 ## Brampton Neighbourhood Pages
-- Castlemore: https://buzzskito.ca/castlemore-mosquito-control
 - Springdale: https://buzzskito.ca/springdale-mosquito-control
-- Bramalea: https://buzzskito.ca/bramalea-mosquito-control
 - Bram West: https://buzzskito.ca/bram-west-mosquito-control
 - Heart Lake: https://buzzskito.ca/heart-lake-mosquito-control
 - Snelgrove: https://buzzskito.ca/snelgrove-mosquito-control
-- Sandalwood: https://buzzskito.ca/sandalwood-mosquito-control
-- Mount Pleasant: https://buzzskito.ca/mount-pleasant-mosquito-control
 - Fletcher Meadows: https://buzzskito.ca/fletcher-meadows-mosquito-control
 
 ## Mississauga Neighbourhood Pages
@@ -185,7 +151,6 @@ All prices in CAD, plus HST, for a standard lot under 10,000 sq ft. Larger lots 
 
 ## Caledon / Vaughan / Halton Hills Areas
 - Caledon East: https://buzzskito.ca/caledon-east-mosquito-control
-- Bolton: https://buzzskito.ca/bolton-mosquito-control
 - Kleinburg: https://buzzskito.ca/kleinburg-mosquito-control
 
 ## Hamilton Neighbourhood Pages
@@ -214,25 +179,8 @@ All prices in CAD, plus HST, for a standard lot under 10,000 sq ft. Larger lots 
 
 ## Pest Control by City — Specialist Mosquito & Tick Service (NEW Apr 2026)
 - Pest Control GTA Pillar: https://buzzskito.ca/pest-control-gta
-- Pest Control Mississauga: https://buzzskito.ca/pest-control-mississauga
-- Pest Control Toronto: https://buzzskito.ca/pest-control-toronto
-- Pest Control Brampton: https://buzzskito.ca/pest-control-brampton
-- Pest Control Oakville: https://buzzskito.ca/pest-control-oakville
-- Pest Control Burlington: https://buzzskito.ca/pest-control-burlington
-- Pest Control Hamilton: https://buzzskito.ca/pest-control-hamilton
-- Pest Control Vaughan: https://buzzskito.ca/pest-control-vaughan
-- Pest Control Richmond Hill: https://buzzskito.ca/pest-control-richmond-hill
-- Pest Control Markham: https://buzzskito.ca/pest-control-markham
 - Pest Control Etobicoke: https://buzzskito.ca/pest-control-etobicoke
-- Pest Control Scarborough: https://buzzskito.ca/pest-control-scarborough
 - Pest Control North York: https://buzzskito.ca/pest-control-north-york
-- Pest Control Caledon: https://buzzskito.ca/pest-control-caledon
-- Pest Control Milton: https://buzzskito.ca/pest-control-milton
-- Pest Control Georgetown: https://buzzskito.ca/pest-control-georgetown
-- Pest Control Halton Hills: https://buzzskito.ca/pest-control-halton-hills
-- Pest Control King City: https://buzzskito.ca/pest-control-king-city
-- Pest Control Woodbridge: https://buzzskito.ca/pest-control-woodbridge
-- Pest Control Thornhill: https://buzzskito.ca/pest-control-thornhill
 
 ## Best Mosquito Control Companies — GTA Comparison
 - Best Mosquito Control GTA Master: https://buzzskito.ca/best-mosquito-control-companies-gta

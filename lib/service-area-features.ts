@@ -13,7 +13,7 @@ export const IN_SERVICE_AREA = new Set([
   'mississauga', 'toronto', 'brampton', 'oakville', 'burlington', 'hamilton',
   'vaughan', 'richmond hill', 'markham', 'etobicoke', 'scarborough', 'north york',
   'caledon', 'milton', 'georgetown', 'halton hills', 'king city', 'woodbridge', 'thornhill',
-  'kleinburg', 'ajax', 'pickering', 'thornhill', 'maple', 'concord',
+  'kleinburg', 'thornhill', 'maple', 'concord',
   'east york', 'york',
 ])
 

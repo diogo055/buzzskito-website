@@ -12,6 +12,10 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Professional mosquito control in The Kingsway, Etobicoke. Barrier spray near Humber River valley from $99. Ontario-licensed. Call (289) 216-5030.',
   canonical: '/the-kingsway-mosquito-control',
+  // Nov 3, 2026 (owner's OK): kept for visitors, out of Google's index. Template page with no search
+  // traffic; see "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const NEIGHBOURHOOD = 'The Kingsway'

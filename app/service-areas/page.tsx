@@ -106,13 +106,6 @@ const NEIGHBOURHOOD_PAGES: { city: string; neighbourhoods: { name: string; href:
       { name: 'Caledon East', href: '/caledon-east-mosquito-control' },
     ],
   },
-  {
-    city: 'Durham Region',
-    neighbourhoods: [
-      { name: 'Ajax', href: '/ajax-mosquito-control' },
-      { name: 'Pickering', href: '/pickering-mosquito-control' },
-    ],
-  },
 ]
 
 export default function ServiceAreasPage() {

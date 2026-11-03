@@ -90,7 +90,7 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
 
           <h2>The Owner-Operator vs Franchise Question</h2>
           <p>This is the central choice between BuzzSkito and a national franchise. They differ on more than just pricing.</p>
-          <p><strong>BuzzSkito</strong> is one company, one owner (Alex Francisco), one team. When you book BuzzSkito, you know exactly who is treating your yard, exactly what products are being used, and exactly who to call if something is wrong. The downside: smaller geographic reach (GTA core only).</p>
+          <p><strong>BuzzSkito</strong> is one company, two co-owners (Alex Francisco and his business partner), one team. When you book BuzzSkito, you know exactly who is treating your yard, exactly what products are being used, and exactly who to call if something is wrong. The downside: smaller geographic reach (GTA core only).</p>
           <p><strong>A national franchise</strong> is a brand operated through local franchisees. The brand sets standards, but the actual service experience depends entirely on which franchisee operates in your area. Some are excellent; others are not. The brand name is consistent — the service quality is not.</p>
 
           <h2>Where BuzzSkito Wins</h2>
@@ -162,7 +162,7 @@ export default function BuzzSkitoVsMosquitoBuzzPage() {
         </div>
       </section>
 
-      <CTASection heading="Local. Transparent. No Franchise Variance." subtext="One owner. One team. 150+ five-star reviews. Try us with a single $99 treatment." variant="dark" />
+      <CTASection heading="Local. Transparent. No Franchise Variance." subtext="Owner-run. One team. 150+ five-star reviews. Try us with a single $99 treatment." variant="dark" />
     </>
   )
 }

@@ -8,13 +8,15 @@ export function buildMetadata(opts: {
   description: string
   canonical: string
   noIndex?: boolean
+  /** With noIndex: still let crawlers follow the page's links (noindex, follow). */
+  follow?: boolean
   type?: 'website' | 'article'
   publishedTime?: string
   modifiedTime?: string
   /** A real photo for the share card, from shareImage() in lib/photos.ts. Default: the sitewide og-image.jpg. */
   image?: { url: string; width: number; height: number; alt: string }
 }): Metadata {
-  const { title, description, canonical, noIndex, type = 'website', publishedTime, modifiedTime, image } = opts
+  const { title, description, canonical, noIndex, follow = false, type = 'website', publishedTime, modifiedTime, image } = opts
   const url = `${SITE_URL}${canonical}`
   return {
     title,
@@ -32,7 +34,7 @@ export function buildMetadata(opts: {
       ...(modifiedTime && { modifiedTime }),
     },
     twitter: { card: 'summary_large_image', title, description },
-    ...(noIndex && { robots: { index: false, follow: false } }),
+    ...(noIndex && { robots: { index: false, follow } }),
   }
 }
 

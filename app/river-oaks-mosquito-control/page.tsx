@@ -12,6 +12,10 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Mosquito control in River Oaks, Oakville. Barrier spray near Morrison Creek & Sixteen Mile Creek from $99. Ontario-licensed. (289) 216-5030.',
   canonical: '/river-oaks-mosquito-control',
+  // Nov 3, 2026 (owner's OK): kept for visitors, out of Google's index. Template page with no search
+  // traffic; see "Location pages out of the index" in CLAUDE.md before indexing it again.
+  noIndex: true,
+  follow: true,
 })
 
 const NEIGHBOURHOOD = 'River Oaks'
