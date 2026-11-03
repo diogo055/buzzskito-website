@@ -2,7 +2,7 @@
  "id": "does-vinegar-kill-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "a651cd0a01f18c20ae4a48034ab1a205659cb0a3b180adb7454547494add9f1b",
+ "sha": "00b06aef1430cfbd6c2f6943efa66ad262b4dae43a31c0e116b63623d21e88de",
  "claimsChecked": 58,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 3,
@@ -16,6 +16,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: /blog/best-ant-traps-canada was merged into /blog/best-ant-killer (301 redirect), so one sentence that linked both now links the merged page once; wording adjusted only to name one page. No factual claim touched.",
    "previousSha": "1f9304b3f73cb7a6a48e5c242654e4a3706e2933f89645cd1bc2cdb9c5435907"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026 (second note): the merged sentence now also links /blog/how-to-get-rid-of-ants-canada as 'why baiting beats the sprays in the aisle' (same anchor the ghost-ants guide uses), restoring the second pre-existing-page link the merge removed. No factual claim touched.",
+   "previousSha": "a651cd0a01f18c20ae4a48034ab1a205659cb0a3b180adb7454547494add9f1b"
   }
  ]
 }
