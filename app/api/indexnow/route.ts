@@ -1,34 +1,33 @@
 import { NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import sitemap from '@/app/sitemap'
 
 const INDEXNOW_KEY = '855fb831a76f01df649d905dd72478b0'
 const HOST = 'buzzskito.ca'
 
+// Runs once per build (the GET is prerendered), so it sends what changed in that deploy.
+// Since Nov 3, 2026 it sends only sitemap pages whose date moved in the last WINDOW_DAYS, and only
+// from Vercel's production build. Before, it sent every page folder (about 800 addresses, noindex
+// pages included) on every build, local test builds too: 15,300 notices in one day, against
+// IndexNow's own advice to send only added or changed pages. A sitemap date moves only on a real
+// content change ("A lastmod must be a true date" in CLAUDE.md), so this is the changed list.
+const WINDOW_DAYS = 2
+
 export async function GET() {
   try {
-    // Collect all page URLs by scanning the app directory
-    const appDir = path.join(process.cwd(), 'app')
-    const urls: string[] = [`https://${HOST}/`]
+    const since = Date.now() - WINDOW_DAYS * 864e5
+    const urls = sitemap()
+      .filter((e) => e.lastModified && new Date(e.lastModified).getTime() >= since)
+      .map((e) => e.url)
 
-    const scanDir = (dir: string, prefix: string = ''): void => {
-      const entries = fs.readdirSync(dir, { withFileTypes: true })
-      for (const entry of entries) {
-        if (!entry.isDirectory()) continue
-        if (entry.name.startsWith('_') || entry.name.startsWith('(') || entry.name === 'api') continue
-
-        const fullPath = path.join(dir, entry.name)
-        const urlPath = `${prefix}/${entry.name}`
-
-        if (fs.existsSync(path.join(fullPath, 'page.tsx'))) {
-          urls.push(`https://${HOST}${urlPath}`)
-        }
-
-        scanDir(fullPath, urlPath)
-      }
+    const production = process.env.VERCEL_ENV === 'production'
+    if (!production || !urls.length) {
+      return NextResponse.json({
+        submitted: 0,
+        changed: urls.length,
+        reason: production ? `no page changed in the last ${WINDOW_DAYS} days` : 'not a Vercel production build',
+        urls: urls.slice(0, 20),
+      })
     }
-
-    scanDir(appDir)
 
     // Submit to multiple IndexNow endpoints
     const payload = JSON.stringify({
@@ -47,7 +46,8 @@ export async function GET() {
     const results = await Promise.allSettled(
       endpoints.map(async (ep) => {
         const r = await fetch(ep, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: payload })
-        return { endpoint: ep, status: r.status, statusText: r.statusText }
+        // a refusal's reason is in the body (Bing's errorCode), not in the status text
+        return { endpoint: ep, status: r.status, statusText: r.statusText, ...(!r.ok && { body: (await r.text()).slice(0, 300) }) }
       })
     )
 
