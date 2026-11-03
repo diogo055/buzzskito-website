@@ -4,7 +4,7 @@ import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
-import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -42,7 +42,6 @@ export default function DIYvsProfessionalPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'DIY vs Professional', url: '/mosquito-control-diy-vs-professional' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/mosquito-control-diy-vs-professional', '2026-07-01')) }} />
 
       {/* Hero */}

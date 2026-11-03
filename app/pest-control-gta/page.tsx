@@ -5,7 +5,7 @@ import CityHero from '@/components/CityHero'
 import CityPriceCard from '@/components/CityPriceCard'
 import TypicalPrices from '@/components/TypicalPrices'
 import QuickAnswer from '@/components/QuickAnswer'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -57,7 +57,6 @@ export default function PestControlGTAPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Pest Control GTA', description: 'Mosquito and tick pest control across the Greater Toronto Area. Barrier spray applied by a licensed Ontario pesticide operator according to label directions, for residential and commercial properties.', slug: '/pest-control-gta' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Pest Control GTA', url: '/pest-control-gta' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/pest-control-gta', '2026-07-01')) }} />
 
       {/* HERO */}

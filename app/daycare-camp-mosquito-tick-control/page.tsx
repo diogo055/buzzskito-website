@@ -4,7 +4,7 @@ import CTASection from '@/components/CTASection'
 import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
 import CityPriceCard from '@/components/CityPriceCard'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 
 const SLUG = '/daycare-camp-mosquito-tick-control'
@@ -58,7 +58,6 @@ export default function DaycareCampMosquitoTickControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Daycare, Camp & School Mosquito and Tick Control', description: 'Childcare-facility mosquito and tick barrier spray service across the GTA.', slug: SLUG })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Commercial', url: '/commercial-mosquito-control' }, { name: 'Daycares, Camps & Schools', url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
 
       <CityHero

@@ -196,7 +196,7 @@ export default function UltrasonicPestRepellersPage() {
           </div>
 
           <h2>What Actually Works Instead?</h2>
-          <p>Trapping plus exclusion — the two methods with measurable outcomes. For a mouse problem, that means 6–12 snap traps placed every 2–3 metres along walls with the trigger touching the baseboard (our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> covers models and placement science), then sealing every entry gap of 6 mm or more. If you want no-see, no-touch disposal, an electronic trap kills in under 5 seconds and handles up to 100 kills per set of batteries — we tested the category leader in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
+          <p>Trapping plus exclusion — the two methods with measurable outcomes. For a mouse problem, that means 6–12 snap traps placed every 2–3 metres along walls with the trigger touching the baseboard (our <Link href="/blog/best-mouse-trap-canada">best mouse trap guide</Link> covers models and placement science), then sealing every entry gap of 6 mm or more. If you want no-see, no-touch disposal, an electronic trap kills in under 5 seconds and handles up to 100 kills per set of batteries — we review the category leader in our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
           <TopPick tag={AMZ_TAG}
             label="What To Buy Instead"
             name="Victor M250S Electronic Mouse Trap"

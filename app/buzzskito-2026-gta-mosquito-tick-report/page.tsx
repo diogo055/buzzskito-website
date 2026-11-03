@@ -87,7 +87,7 @@ const treatmentTiming = [
 export default function MosquitoIndexPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Original 2026 GTA mosquito and tick surveillance data from BuzzSkito field operations covering 19 GTA cities.', slug: 'buzzskito-2026-gta-mosquito-tick-report', datePublished: PUBLISHED, dateModified: PUBLISHED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ path: SLUG, title: TITLE, description: 'Original 2026 GTA mosquito and tick surveillance data from BuzzSkito field operations covering 19 GTA cities.', slug: 'buzzskito-2026-gta-mosquito-tick-report', datePublished: PUBLISHED, dateModified: PUBLISHED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: '2026 GTA Mosquito & Tick Report', url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, PUBLISHED)) }} />

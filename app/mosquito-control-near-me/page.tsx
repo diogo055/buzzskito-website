@@ -5,7 +5,7 @@ import ReviewQuotes from '@/components/ReviewQuotes'
 import CityHero from '@/components/CityHero'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, CITIES, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -53,7 +53,6 @@ export default function MosquitoControlNearMePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Mosquito Control Near Me', description: 'Professional mosquito and tick barrier spray serving the Greater Toronto Area — Mississauga, Toronto, Brampton, Oakville, Burlington, Hamilton, and surrounding GTA cities.', slug: '/mosquito-control-near-me' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Near Me', url: '/mosquito-control-near-me' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/mosquito-control-near-me', '2026-07-01')) }} />
 
       <CityHero

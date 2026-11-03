@@ -5,7 +5,7 @@ import CityHero from '@/components/CityHero'
 import QuickAnswer from '@/components/QuickAnswer'
 import TypicalPrices from '@/components/TypicalPrices'
 import CityPriceCard from '@/components/CityPriceCard'
-import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, howToSchema, itemListSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from '@/lib/seo'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 
 export const metadata: Metadata = buildMetadata({
@@ -43,7 +43,6 @@ export default function BestMosquitoControlCompaniesGTAPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Best Companies GTA', url: '/best-mosquito-control-companies-gta' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/best-mosquito-control-companies-gta', '2026-07-01')) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema({ name: 'Best Mosquito Control Companies in the GTA — 2026', description: 'Honest 2026 comparison: BuzzSkito ($99, 150+ reviews, no contracts) vs Mosquito Man (seasonal contracts) vs Mosquito.Buzz (franchise) vs LawnSavers (bundled lawn care).', slug: '/best-mosquito-control-companies-gta', items: [{ name: 'BuzzSkito' }, { name: 'MosquitoMan' }, { name: 'Mosquito.Buzz' }, { name: 'LawnSavers' }] })) }} />
 

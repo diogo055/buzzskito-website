@@ -268,7 +268,7 @@ function PublisherBox({ guide }: { guide: Guide }) {
     <aside aria-label="About BuzzSkito" className="not-prose my-10 rounded-2xl border border-navy-100 bg-brand-50 p-5 sm:p-6">
       <p className="text-[11px] font-extrabold uppercase tracking-widest text-brand-700 mb-2">Who wrote this</p>
       <h3 className="text-lg font-extrabold leading-tight text-brand-900 mb-2">
-        {ours ? 'Written by a mosquito and tick control company' : guide.cluster === 'pest-control' ? 'We treat mosquitoes and ticks. Nothing else.' : <>We research {pest}. We don&rsquo;t treat them.</>}
+        {ours ? 'Published by a mosquito and tick control company' : guide.cluster === 'pest-control' ? 'We treat mosquitoes and ticks. Nothing else.' : <>We research {pest}. We don&rsquo;t treat them.</>}
       </h3>
       <p className="text-sm leading-relaxed text-gray-700">
         {ours ? (

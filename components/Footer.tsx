@@ -121,8 +121,8 @@ export default function Footer() {
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact / Get a Quote</Link></li>
               <li><Link href="/best-mosquito-control-companies-gta" className="hover:text-white transition-colors">Best Mosquito Companies</Link></li>
               <li><Link href="/pest-control-gta" className="hover:text-white transition-colors">Pest Control GTA</Link></li>
-              <li><Link href="/mosquito-control-near-me" className="hover:text-white transition-colors">Mosquito Control Near Me</Link></li>
-              <li><Link href="/tick-control-near-me" className="hover:text-white transition-colors">Tick Control Near Me</Link></li>
+              <li><Link href="/mosquito-control" className="hover:text-white transition-colors">Mosquito Control Near Me</Link></li>
+              <li><Link href="/tick-control" className="hover:text-white transition-colors">Tick Control Near Me</Link></li>
             </ul>
           </div>
 

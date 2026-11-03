@@ -6,7 +6,7 @@ import CityPriceCard from '@/components/CityPriceCard'
 import TypicalPrices from '@/components/TypicalPrices'
 import InlineYardRiskCTA from '@/components/InlineYardRiskCTA'
 import QuickAnswer from '@/components/QuickAnswer'
-import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, serviceSchema, breadcrumbSchema, faqSchema, localBusinessSchema, speakableSchema } from '@/lib/seo'
 
 const SLUG = '/pool-backyard-mosquito-control'
 
@@ -59,7 +59,6 @@ export default function PoolBackyardMosquitoControlPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema({ name: 'Pool Yard Mosquito Control', description: 'Specialist mosquito and tick barrier spray for residential pool yards across the GTA.', slug: SLUG })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Mosquito Control', url: '/mosquito-control' }, { name: 'Pool Yard', url: SLUG }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'mosquito' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(SLUG, '2026-07-01')) }} />
 
       <CityHero

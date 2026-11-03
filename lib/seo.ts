@@ -213,50 +213,9 @@ export function personSchema() {
   }
 }
 
-export function howToSchema(opts: { service: 'mosquito' | 'tick'; city?: string }) {
-  const isTick = opts.service === 'tick'
-  const cityLabel = opts.city ? ` in ${opts.city}` : ''
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: isTick ? `How Professional Tick Control Works${cityLabel}` : `How Professional Mosquito Control Works${cityLabel}`,
-    // Pesticide advertising rules (Health Canada DIR2016-01) bar "Health Canada-approved" and untested
-    // protection periods, including inside structured data, so the steps state the label line and the
-    // guarantees exactly as PROMISES words them.
-    description: isTick
-      ? `Three-step professional tick barrier spray process for residential yards${cityLabel}. ${PROMISES.labelLine}.`
-      : `Three-step professional mosquito barrier spray process for residential yards${cityLabel}. ${PROMISES.labelLine}.`,
-    step: [
-      {
-        '@type': 'HowToStep',
-        position: 1,
-        name: 'Free Property Assessment',
-        text: isTick
-          ? 'We evaluate your property, identifying tick habitat zones — lawn-to-woods transition areas, leaf litter, garden bed edges, and fence lines where ticks concentrate.'
-          : 'We evaluate your property, identifying water features, dense vegetation, and mosquito pressure zones specific to your area.',
-      },
-      {
-        '@type': 'HowToStep',
-        position: 2,
-        name: 'Professional Barrier Spray',
-        text: isTick
-          ? 'Our Ontario-licensed technician applies the product according to its label directions to the specific 1-3 metre zones where ticks concentrate, using a precision backpack sprayer.'
-          : 'Our Ontario-licensed technician applies the product according to its label directions to vegetation, shrub interiors, leaf undersides, and fence lines, using a precision backpack sprayer.',
-      },
-      {
-        '@type': 'HowToStep',
-        position: 3,
-        name: 'Re-Entry and Rain-Back Guarantee',
-        text: isTick
-          ? `Keep kids and pets inside during the treatment and stay off treated areas until the spray has dried, as the product label directs. ${PROMISES.rainBack}`
-          : `Keep kids and pets inside during the treatment and stay off treated areas until the spray has dried, as the product label directs. ${PROMISES.rainBack} ${BUSINESS.guarantee.description}`,
-      },
-    ],
-    totalTime: 'PT40M',
-    supply: [{ '@type': 'HowToSupply', name: 'Barrier spray product, applied according to label directions' }],
-    tool: [{ '@type': 'HowToTool', name: 'Professional backpack precision sprayer' }],
-  }
-}
+// howToSchema ("How Professional Mosquito/Tick Control Works") was removed Nov 3, 2026: it marked up our
+// service process as HowTo steps on 124 service, city and article pages. HowTo is for instructions the reader
+// follows, and Google retired the HowTo rich result in 2023, so it carried risk and no benefit.
 
 export function breadcrumbSchema(items: { name: string; url: string }[]) {
   return {
@@ -287,6 +246,8 @@ export function blogPostingSchema(opts: {
   title: string
   description: string
   slug: string
+  /** Pages that do not live under /blog name their real address here (e.g. '/buzzskito-2026-gta-mosquito-tick-report'). */
+  path?: string
   datePublished: string
   dateModified?: string
   /** The page's lead photo, from shareImage() in lib/photos.ts. Default: the sitewide og-image.jpg. */
@@ -297,7 +258,7 @@ export function blogPostingSchema(opts: {
     '@type': 'BlogPosting',
     headline: opts.title,
     description: opts.description,
-    url: `${SITE_URL}/blog/${opts.slug}`,
+    url: opts.path ? `${SITE_URL}${opts.path}` : `${SITE_URL}/blog/${opts.slug}`,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified ?? opts.datePublished,
     // Author resolves to the sitewide Person entity (#alex) — a named human

@@ -6,7 +6,7 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
-import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema, howToSchema } from '@/lib/seo'
+import { buildMetadata, breadcrumbSchema, faqSchema, blogPostingSchema, speakableSchema } from '@/lib/seo'
 import { BUSINESS, PROMISES } from '@/lib/constants'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
@@ -68,7 +68,6 @@ export default function TickPreventionYardKidsPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Tick Prevention in Your Yard', url: '/blog/tick-prevention-yard-ontario-safe-for-kids' }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: POST.title, slug: POST.slug, datePublished: POST.date, description: POST.description })) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema({ service: 'tick' })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${POST.slug}`)) }} />
 
       <section className="bg-gradient-to-br from-amber-950 to-amber-800 text-white py-14 px-4">

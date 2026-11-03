@@ -208,7 +208,7 @@ const nextConfig = {
       { source: '/home/f/top-5-reasons-you-need-buzzskito-for-a-safer-more-enjoyable-yard', destination: '/mosquito-control', permanent: true },
       { source: '/f/bloodsuckers-in-your-yard-kill-mosquitoes-ticks-for-good',   destination: '/mosquito-control', permanent: true },
       { source: '/home/f/bloodsuckers-in-your-yard-kill-mosquitoes-ticks-for-good', destination: '/mosquito-control', permanent: true },
-      { source: '/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust', destination: '/mosquito-control-near-me', permanent: true },
+      { source: '/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust', destination: '/mosquito-control', permanent: true },
       { source: '/home/f/rising-mosquito-tick-threats-why-gta-homeowners-need-buzzskito', destination: '/mosquito-control', permanent: true },
       { source: '/f/how-to-protect-your-family-from-mosquitoes-this-summer',     destination: '/mosquito-control', permanent: true },
       { source: '/home/f/how-to-protect-your-family-from-mosquitoes-this-summer', destination: '/mosquito-control', permanent: true },
@@ -329,7 +329,7 @@ const nextConfig = {
       // them to the most topically-relevant new page (instead of homepage)
       // transfers that authority where it belongs.
       { source: '/home/f/mosquito-control-near-me-in-ontario-what-to-do-and-who-to-trust',
-        destination: '/mosquito-control-near-me', permanent: true },
+        destination: '/mosquito-control', permanent: true },
       { source: '/home/f/tick-repellent-that-actually-works-in-ontario-yards-2025-update',
         destination: '/blog/best-tick-control-yard-treatment', permanent: true },
       { source: '/f/when-to-spray-for-mosquitoes-in-ontario-the-ultimate-guide',
