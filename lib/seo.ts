@@ -285,7 +285,7 @@ export function blogPostingSchema(opts: {
     image: opts.image
       ? { '@type': 'ImageObject', url: `${SITE_URL}${opts.image.url}`, width: opts.image.width, height: opts.image.height }
       : { '@type': 'ImageObject', url: `${SITE_URL}/og-image.jpg` },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/blog/${opts.slug}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': opts.path ? `${SITE_URL}${opts.path}` : `${SITE_URL}/blog/${opts.slug}` },
     inLanguage: 'en-CA',
     about: { '@type': 'Thing', name: 'Pest Control' },
   }
