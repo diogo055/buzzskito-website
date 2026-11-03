@@ -8,7 +8,6 @@
     "check:amazon": "node scripts/check-amazon.mjs",
     "check:registered": "node scripts/check-registered.mjs",
     "check:ads": "node scripts/check-ads.mjs",
-    "postbuild": "node scripts/index-urls.mjs",
     "start": "next start",
     "lint": "next lint",
     "check:guides": "node scripts/validate-guide.mjs --all --complete --complete-visual",

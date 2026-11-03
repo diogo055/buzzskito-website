@@ -74,6 +74,7 @@
 ## SEO Setup
 - 150+ pages (city pages, neighbourhood pages, blog posts, service pages)
 - IndexNow installed (buzzskito.ca/api/indexnow)
+- **Google Indexing API: removed Nov 3, 2026.** The `postbuild` hook that submitted ~190 article URLs on every Vercel production build is gone. `scripts/index-urls.mjs` is now only the URL list the register script maintains. Google allows that API only for job-posting and livestream pages and treats misuse as spam. Do not add a submit step back; new pages reach Google through the sitemaps and Search Console.
 - llms.txt for AI crawlers
 - robots.txt (`app/robots.ts`) allows OAI-SearchBot, ChatGPT-User, PerplexityBot, ClaudeBot and, since Jul 16, 2026 (owner decision), the training bots GPTBot and CCBot. Only `/api/` is disallowed. AI-search findings (Oct 21, 2026): `reports/ChatGPT shopping and citation opportunity.md`; tool review: `reports/GitHub SEO tools for BuzzSkito.md`.
 - GSC MCP server connected (sc-domain:buzzskito.ca)
