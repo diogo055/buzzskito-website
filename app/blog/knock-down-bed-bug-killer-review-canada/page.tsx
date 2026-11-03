@@ -134,7 +134,6 @@ export default function KnockDownBedBugKillerReviewCanadaPage() {
             name="Knock Down Bed Bug Killer"
             blurb="The bed bug spray we point budget-minded Canadians to — because it is cheap, easy to find, and actually registered for use in Canada. It knocks down the bugs you directly hit, lays a short residual film along treated travel routes, and carries a Health Canada PCP number so you are not gambling on an unregistered US import. It is the value knockdown-and-perimeter layer of a plan, not the whole plan: bring heat for the eggs and a desiccant dust for the survivors."
             search="knock down bed bug killer spray canada"
-            score={7.4}
             pros={[
               'Carries a Canadian PCP registration number — legal to use in Canada',
               'Inexpensive and very widely stocked at Canadian retailers',

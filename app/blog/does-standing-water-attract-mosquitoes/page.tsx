@@ -227,7 +227,6 @@ export default function StandingWaterMosquitoesPage() {
             name="Summit Mosquito Dunks (BTI)"
             blurb="The go-to fix for standing water you can't drain — rain barrels, ponds, ditches. One dunk kills larvae for ~30 days across 100 sq ft of water surface, and its Bti is specific to mosquito and black fly larvae — follow the label."
             search="summit mosquito dunks"
-            score={9.1}
             pros={['Kills larvae for about 30 days per dunk', 'Bti targets mosquito larvae; follow the label around fish and pets', 'Check the Canadian PCP number on the package']}
             cons={['Targets larvae only — not adult mosquitoes', 'Needs monthly replacement through the season']}
           />

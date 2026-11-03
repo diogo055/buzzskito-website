@@ -117,8 +117,8 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Our verdict: 8.3/10" />
-      <TopBox tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Our verdict: 8.3/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Reviewed here" />
+      <TopBox tag={AMZ_TAG} name="Katchy Indoor Insect Trap" search="katchy indoor insect trap" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
@@ -131,7 +131,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
               <li>Darkness is everything: the UV lure only works when it is the brightest light in the room, so run it overnight.</li>
               <li>Glue boards need replacing every 2–4 weeks; generic sticky boards cut to size work fine and cost less.</li>
               <li>No insecticide inside — but Health Canada registers indoor flying-insect light traps as devices (for example STEM, PCP 35296), and its registry shows no Katchy, so check the box for a PCP number.</li>
-              <li>Our editorial score: 8.3/10 — the best-built device in the indoor fly-control aisle, bought for the right job.</li>
+              <li>Our verdict: the best-built device in the indoor fly-control aisle, bought for the right job.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
             <div className="mt-4">
@@ -149,7 +149,6 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
             name="Katchy Indoor Insect Trap (UV + fan + glue board)"
             blurb="The best-built indoor gnat and fruit fly trap sold in Canada. Silent, insecticide-free, and genuinely effective when run overnight in a dark room near the source — as long as you accept that house flies and mosquitoes were never really on the menu."
             search="katchy indoor insect trap"
-            score={8.3}
             pros={['Excellent catch rates on fungus gnats and fruit flies', 'Completely silent — no zapper crack at 2 a.m.', 'No insecticide: a UV light, a fan and a glue board', 'Glue boards are cheap and generic boards fit']}
             cons={['Weak against house flies and mosquitoes — be honest with yourself about your pest', 'Only performs in a dark room; competing light kills the catch rate', 'Recurring glue-board cost over the seasons']}
           />
@@ -178,7 +177,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
             caption={<>Registrations, dates and pest lists from Health Canada&rsquo;s <a href="https://pest-control.canada.ca/pesticide-registry/en/product-search.html" target="_blank" rel="noopener noreferrer" className="underline">pesticide product registry</a>, searched October 28, 2026; soil advice from UC IPM, <a href="https://ipm.ucanr.edu/home-and-landscape/fungus-gnats/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: Fungus Gnats</a>; the house-fly limit from <a href="https://www.bgr.com/reviews/katchy-indoor-insect-trap-review/" target="_blank" rel="noopener noreferrer" className="underline">BGR&rsquo;s review</a> (March 15, 2023). No trap was tested.</>}
           />
           <h2>What the Katchy Actually Catches (the Honest List)</h2>
-          <p>We score the Katchy 8.3/10 <em>for the job it was built for</em>. Here is the honest catch profile, which matters more than any spec sheet:</p>
+          <p>We rate the Katchy highly <em>for the job it was built for</em>. Here is the honest catch profile, which matters more than any spec sheet:</p>
           <ul>
             <li><strong>Fungus gnats — excellent.</strong> The little black flies that erupt from houseplant soil are small, weak fliers strongly drawn to UV. A Katchy running overnight beside infested pots routinely blackens a glue board within a few nights. This is the Katchy&rsquo;s signature use case, and no other consumer device does it better.</li>
             <li><strong>Fruit flies — good.</strong> Fruit flies respond to UV less strongly than gnats do (fermentation odour is their real weakness), but the fan-and-glue combination still collects them steadily overnight near a fruit bowl or compost caddy. A cheap vinegar lure trap catches them too — the comparison table below covers when each wins.</li>
@@ -296,7 +295,7 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
               <tbody>
                 {[
                   ['Mechanism', 'UV-A light + downdraft fan + replaceable glue board'],
-                  ['Our editorial score', '8.3 / 10 — best-in-class for gnats and fruit flies'],
+                  ['Our verdict', 'Best-in-class for gnats and fruit flies'],
                   ['Best against', 'Fungus gnats, fruit flies, drain flies'],
                   ['Weak against', 'House flies, mosquitoes, wasps — not UV hunters'],
                   ['Insecticide content', 'None — light, fan and glue board; no Katchy product in Health Canada’s registry (Oct 28, 2026)'],
@@ -317,8 +316,8 @@ export default function KatchyIndoorInsectTrapReviewCanadaPage() {
             </table>
           </div>
 
-          <h2>Our Verdict: 8.3/10 — Buy It for the Right Job</h2>
-          <p>The Katchy earns its position as the premium device in the indoor fly aisle. It is well built, silent, genuinely insecticide-free, and on its design and the catch profile above, the best-matched consumer device in this aisle for fungus gnats — with a solid supporting record on fruit flies and drain flies. The score stops short of the 9s for two reasons: the recurring glue-board cost, and a marketing halo that still leads too many buyers to expect house-fly and mosquito performance the mechanism cannot deliver.</p>
+          <h2>Our Verdict: Buy It for the Right Job</h2>
+          <p>The Katchy earns its position as the premium device in the indoor fly aisle. It is well built, silent, genuinely insecticide-free, and on its design and the catch profile above, the best-matched consumer device in this aisle for fungus gnats — with a solid supporting record on fruit flies and drain flies. Two things hold it back: the recurring glue-board cost, and a marketing halo that still leads too many buyers to expect house-fly and mosquito performance the mechanism cannot deliver.</p>
           <p>Buy it if you have houseplant gnats, recurring fruit flies, or drain flies and want a clean, silent, no-chemical fix. Skip it if your pest is house flies, wasps, or mosquitoes — no UV suction trap solves those, whatever the listing photos imply. And whichever way you go, fix the breeding source at the same time; that is the difference between a trap that helps and a trap that just documents the problem.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="katchy indoor insect trap">Check the Katchy Indoor Insect Trap on Amazon.ca →</BuyLink>

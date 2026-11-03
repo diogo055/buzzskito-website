@@ -120,14 +120,14 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
-      <TopBox tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Our verdict: 8.2/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Reviewed here" />
+      <TopBox tag={AMZ_TAG} name="ThermalStrike Ranger folding bed bug heater for luggage" search="thermalstrike ranger heated suitcase bed bug" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The ThermalStrike Ranger is a <strong>folding bed bug heater for luggage</strong>, not a suitcase: you set it up at home, put your closed bag inside, and its timer heats the load until the core passes the temperature at which bed bugs die. We score it 8.2/10: it turns post-trip heat treatment into a simple habit without unpacking in the house, but it treats one suitcase-sized load at a time, not a home &mdash; treat it as travel armour, not an infestation cure.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The ThermalStrike Ranger is a <strong>folding bed bug heater for luggage</strong>, not a suitcase: you set it up at home, put your closed bag inside, and its timer heats the load until the core passes the temperature at which bed bugs die. Our verdict: it turns post-trip heat treatment into a simple habit without unpacking in the house, but it treats one suitcase-sized load at a time, not a home &mdash; treat it as travel armour, not an infestation cure.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>The bag goes inside the heater, closed: the manual says baggage may be left closed with its contents during treatment.</li>
               <li>The University of Minnesota: bed bugs and eggs die within 90 minutes at 48°C or immediately at 50°C; ThermalStrike recommends 120°F (49°C) for 30 minutes at the core.</li>
@@ -150,7 +150,6 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
             blurb="Not a suitcase: a collapsible six-sided heater you set up at home with four poles and a plastic floor. Your closed carry-on or checked bag, up to 29 inches with its contents, goes inside, and the 2, 4 or 8-hour timer runs until the core of the load passes the temperature at which bed bug adults, nymphs, and eggs all die (ThermalStrike recommends 120°F, 49°C, for 30 minutes at the core) — sterilizing the belongings in the exact bag they rode home in, before you ever unzip it in your bedroom. The appeal is that prevention becomes a simple habit rather than a chore, which is exactly what keeps frequent travellers consistent; it folds to briefcase size between trips. Priced well below what a single bed bug introduction costs to eradicate."
             search="thermalstrike ranger heated suitcase bed bug"
             cta="Check price on Amazon.ca"
-            score={8.2}
             pros={['Takes the closed bag with its contents (manual) — treats belongings in the bag they travelled in, no unpacking first', 'Kills every life stage including eggs; heat has no resistance problem', 'Four poles and a floor to set up, and it folds to briefcase size, so post-trip decontamination becomes a habit', 'Pesticide-free physical method — nothing to register, nothing grey-market', 'Ideal for frequent flyers, hotel/hostel/short-term-rental stays, and students moving between homes']}
             cons={['One suitcase-sized load at a time (bedding and books allowed) — not for furniture or whole-home remediation', 'Dense loads need patience: the packed core is the last thing to reach egg-kill temperature', 'Small US manufacturer — Canadian stock and model names can fluctuate', 'A device to buy on top of your luggage; the maths favours frequent, higher-risk travel']}
           />
@@ -177,7 +176,7 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">Our pick — 8.2/10</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">ThermalStrike Ranger<br /><span className="font-normal text-xs text-gray-500">Our pick</span></td>
                   <td className="px-4 py-3 text-gray-700">Folding six-sided heater; a closed carry-on or checked bag up to 29 in. goes inside (manual)</td>
                   <td className="px-4 py-3 text-gray-700">Travellers who want to heat a whole bag without unpacking it</td>
                   <td className="px-4 py-3 text-xs text-gray-600"><strong className="text-emerald-700">Best travel fit</strong> — 2, 4 or 8 h timer; under 300 W (maker); also takes bedding and books</td>
@@ -352,9 +351,9 @@ export default function ThermalStrikeRangerReviewCanadaPage() {
           <p>Spend time in bed bug forums and you will be pushed toward the grey market: Canadians told to import US-market concentrates like Crossfire or Temprid FX because &ldquo;the stuff sold in Canada doesn&rsquo;t work.&rdquo; Understand what that advice actually involves. Those products carry no Canadian PCP registration for sale to Canadian consumers, and importing unregistered pesticides violates the Pest Control Products Act. Worse, the resistance problem that motivates the smuggling doesn&rsquo;t stop at the border &mdash; pyrethroid resistance is now widespread in North American bed bug populations, and several of the smuggled products lean on the very chemistry the bugs have already beaten.</p>
           <p>A luggage heater exits that entire argument. It is a physical device, not a pesticide &mdash; a heat device is not a type listed in Schedule 1 of the Pest Control Products Regulations, so it is exempt (s.&nbsp;3(1)(a)) &mdash; so there is no PCP number to verify because none is required, nothing to import illegally, no residue left on your clothing, and no resistance mechanism now or ever. A pyrethroid-resistant bed bug and a susceptible one die at exactly the same temperature inside the Ranger. When the legal, pesticide-free option is also the one with the cleaner kill science, the decision gets easy.</p>
 
-          <h2>Verdict: 8.2/10 — Travel Armour, Not an Infestation Cure</h2>
+          <h2>Verdict: Travel Armour, Not an Infestation Cure</h2>
           <p>The ThermalStrike Ranger earns its 8.2 by doing one precisely scoped job unusually well. Within its lane &mdash; keeping bed bugs from riding a traveller&rsquo;s luggage into the home &mdash; it is close to ideal: verified lethal heat, egg kill that chemicals cannot match, and, most importantly, prevention that needs little effort once it stands by the door and therefore actually gets done. That behavioural advantage is the real product; a tool you use every time beats a better tool you skip.</p>
-          <p>The score stops short of the high 8s and 9s for reasons of scope and supply rather than performance. It treats one suitcase-sized load at a time, so it is useless against the mattress-and-room half of an established infestation and slow for bulk belongings. Dense loads demand the patience to run a full cycle. And a small manufacturer&rsquo;s Canadian stock has proven seasonal &mdash; if the listing is empty when you look, do not wait; an ordinary suitcase run through a portable chamber gives you the same protection this week. Buy the Ranger for what it is: the airlock on your front door for anyone who travels enough to need one, best paired with encasements, interceptors, and professional help if a home problem is already underway.</p>
+          <p>Its limits are about scope and supply rather than performance. It treats one suitcase-sized load at a time, so it is useless against the mattress-and-room half of an established infestation and slow for bulk belongings. Dense loads demand the patience to run a full cycle. And a small manufacturer&rsquo;s Canadian stock has proven seasonal &mdash; if the listing is empty when you look, do not wait; an ordinary suitcase run through a portable chamber gives you the same protection this week. Buy the Ranger for what it is: the airlock on your front door for anyone who travels enough to need one, best paired with encasements, interceptors, and professional help if a home problem is already underway.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

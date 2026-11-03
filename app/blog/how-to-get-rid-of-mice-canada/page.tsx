@@ -212,7 +212,6 @@ export default function HowToGetRidOfMiceCanadaPage() {
             name="Victor M325 Wood Snap Trap"
             blurb="The workhorse of DIY mouse control: cheap enough to buy by the dozen so you can flood night one with 12+ traps, with a fast, reliable kill bar. Bait a pea-sized smear of peanut butter, set it trigger-to-baseboard, and let the first-night catch do the heavy lifting."
             search="victor mouse trap 4 pack"
-            score={8.7}
             pros={['Cheap enough to deploy a dozen at once', 'Fast, decisive kill bar', 'No batteries, no setup — reusable season after season']}
             cons={['Must be handled and re-set by hand', 'Too small to kill rats — check dropping size first']}
           />

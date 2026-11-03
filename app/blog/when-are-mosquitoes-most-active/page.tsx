@@ -362,7 +362,6 @@ export default function WhenAreMosquitoesMostActivePage() {
             name="Picaridin Insect Repellent (20%)"
             blurb="For the dawn and dusk bite windows — and shaded midday Aedes territory — a picaridin repellent is the simplest personal defence. Unlike DEET it is odourless and won't damage plastics or gear, and it protects for hours from a single application."
             search="picaridin insect repellent 20 percent"
-            score={8.7}
             pros={['Odourless and non-greasy', 'Won’t damage plastics, watches, or sunglasses', 'Long-lasting protection from one application']}
             cons={['Reapply after heavy sweating or swimming', 'Personal protection only — does not treat the yard']}
           />

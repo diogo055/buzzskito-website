@@ -161,7 +161,6 @@ export default function MosquitoNettingVsSprayPage() {
             name="Freestanding pop-up screen house (screened gazebo)"
             blurb="If netting is your answer, a freestanding pop-up screen house is the best value for most backyards — it drops over a patio table with nothing to attach to the house, giving you a fully enclosed, bug-free dining zone that packs away at season's end. Ideal for renters and open decks. Look for no-see-um mesh near water and weighted, zippered door panels for windy yards."
             search="pop up screen house gazebo"
-            score={8.3}
             pros={['100% bug-free enclosed zone', 'Freestanding — no permanent install', 'Packs up for winter storage']}
             cons={['Only covers the enclosed footprint', 'Cheap mesh degrades in UV if left out']}
           />

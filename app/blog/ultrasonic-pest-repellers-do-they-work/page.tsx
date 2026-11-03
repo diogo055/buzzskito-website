@@ -202,7 +202,6 @@ export default function UltrasonicPestRepellersPage() {
             name="Victor M250S Electronic Mouse Trap"
             blurb="The no-touch alternative to a plug-in that never worked: it delivers a high-voltage kill in under five seconds, signals each catch with an indicator light, and handles up to about 100 kills per set of batteries. A measurable outcome — a body count — is exactly what ultrasound never gives you."
             search="victor electronic mouse trap"
-            score={8.8}
             pros={['Kills in under 5 seconds', 'No-see, no-touch disposal', 'Kill-indicator light per catch']}
             cons={['Mouse-sized rodents only (not rats)', 'Needs fresh batteries to stay lethal']}
           />

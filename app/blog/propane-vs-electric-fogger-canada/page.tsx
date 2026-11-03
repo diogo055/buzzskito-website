@@ -217,7 +217,6 @@ export default function PropaneVsElectricFoggerCanadaPage() {
                 name: 'Burgess Propane Thermal Fogger',
                 why: 'Cordless portability is the whole point of a fogger, and propane delivers it — walk the full perimeter of a big lot, treat a treeline, or fog a cottage shoreline with nothing plugged in. The dense thermal fog knocks down adults fast. In Canada, though, the only liquid its manual allows, Black Flag Fogging Insecticide Formula 2, has no Canadian registration, and we found no current homeowner liquid labelled for a thermal fogger.',
                 search: 'burgess propane insect fogger',
-                score: 8.7,
                 featured: true,
                 pros: ['Completely cordless — goes anywhere', 'Fast, dense knockdown fog', 'Ideal for large or remote lots'],
                 cons: ['Costs more up front', 'Ongoing propane cylinders'],
@@ -227,7 +226,6 @@ export default function PropaneVsElectricFoggerCanadaPage() {
                 name: 'Black Flag Electric Thermal Fogger',
                 why: 'The cheapest way into fogging and the easiest to learn — plug in, let it preheat for 2 to 3 minutes (the manual’s figure), pull the trigger. No propane to seat or ignite. It suits a small treatable area within an extension cord of a GFCI outlet, but the liquids its manual names (Black Flag Formula 2, Cutter or Repel fogging insecticide) have no Canadian registration.',
                 search: 'black flag electric insect fogger',
-                score: 7.6,
                 pros: ['Lowest up-front cost', 'No fuel — just plug in', 'Easy for beginners; preheats in 2 to 3 minutes'],
                 cons: ['Tethered to a cord and outlet', 'Reach limited to cord length'],
               },
@@ -236,7 +234,6 @@ export default function PropaneVsElectricFoggerCanadaPage() {
                 name: 'Backpack / Pump Sprayer',
                 why: 'If you want a durable residual on foliage, fence lines, and the shaded yard edge — not just an evening knockdown — a sprayer lays down a controlled, longer-lasting barrier and reaches the low tick harbourage a fog drifts right over.',
                 search: 'backpack sprayer 4 gallon',
-                score: 8.4,
                 pros: ['Longer-lasting targeted residual', 'Reaches low tick zones', 'More control than a drifting fog'],
                 cons: ['Slower to apply over wide areas', 'No dramatic instant fog cloud'],
               },
@@ -355,7 +352,6 @@ export default function PropaneVsElectricFoggerCanadaPage() {
             name="Burgess Propane Thermal Fogger"
             blurb="For most Canadian yards, propane takes the head-to-head. Both machines fog identically, so the tiebreaker is reach — and going cordless lets you treat the whole property, treeline included, instead of only as far as an extension cord stretches. Buy electric instead only if your treatable area is small and sits right next to a GFCI outlet, where the tether never matters and you pocket the savings. Whichever you choose, settle the liquid first: the manuals name Black Flag Formula 2, Cutter or Repel fogging insecticide, none of which is registered in Canada, and we found no current homeowner liquid labelled for a thermal fogger."
             search="burgess propane insect fogger"
-            score={8.7}
             pros={['Cordless — reaches the whole property', 'Same dense knockdown fog as electric', 'Best fit for large or remote GTA lots']}
             cons={['Higher up-front cost than electric', 'Ongoing propane cylinders across the season']}
             cta="Check the Burgess price on Amazon.ca"

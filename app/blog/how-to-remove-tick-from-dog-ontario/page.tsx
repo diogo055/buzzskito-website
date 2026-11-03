@@ -120,7 +120,6 @@ export default function HowToRemoveTickFromDogPage() {
             name="Fine-Tipped Tick-Removal Tool (Tick Twister / TickKey style)"
             blurb="For getting a tick off a dog cleanly, a dedicated removal tool beats fingers or blunt tweezers every time. It slides flush to the skin, catches the tick at the head, and lifts it out with steady pressure — the exact technique that avoids squeezing the body or snapping off mouthparts. Cheap enough to keep one in the walk kit and one by the door."
             search="tick removal tool tweezers"
-            score={9.0}
             pros={['Grips at the head, not the fluid-filled body', 'Lowers the chance of leaving mouthparts behind', 'Compact — keep one in the dog-walk kit', 'Works on people and pets alike']}
             cons={['Fiddly on very small nymph ticks', 'Still requires a slow, steady pull — no twisting']}
           />

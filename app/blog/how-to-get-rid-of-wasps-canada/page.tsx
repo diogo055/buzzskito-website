@@ -140,7 +140,6 @@ export default function HowToGetRidOfWaspsCanadaPage() {
             blurb="The trap pick whose lures are in Health Canada’s registry, which lists RESCUE!’s heptyl butyrate W disposable (PCP 35529), cartridge (35530) and tube (35531) but no W·H·Y Trap. It catches yellowjackets only: RESCUE! says it won’t catch hornets or paper wasps. The lure lasts about 2 to 4 weeks, with 4-week liquid and 10-week cartridge refills sold separately. Hang it 6+ metres from your patio, starting in spring to intercept queens, and check the PCP number on the box."
             cta="Check price on Amazon.ca"
             search="rescue yellowjacket trap"
-            score={8.7}
             pros={['Health Canada lists its cartridge and tube lures (PCP 35530, 35531)', 'Reusable for years; only the lure is consumable', 'Spring deployment intercepts colony-founding queens']}
             cons={['Yellowjackets only: no paper wasps or hornets (RESCUE!)', 'Manages foragers — it will not eliminate an established nest']}
           />

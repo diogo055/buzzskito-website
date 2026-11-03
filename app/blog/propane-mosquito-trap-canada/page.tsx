@@ -123,7 +123,6 @@ export default function PropaneMosquitoTrapCanadaPage() {
             name="Mosquito Magnet Patriot Plus (MM4200B)"
             blurb="The entry point to the only propane-trap ecosystem with real Canadian refill and parts supply — the same CO2-plume mechanism and up-to-1-acre best-case reach as the flagship, without the flagship price."
             search="mosquito magnet patriot plus"
-            score={8.3}
             pros={['Real CO2-plume mechanism that targets biting females', 'Only propane trap with reliable Canadian refills & parts', 'Mid-price entry to a proven ecosystem']}
             cons={['Ongoing propane + attractant consumable cost', 'Overkill on a small fenced suburban lot']}
           />

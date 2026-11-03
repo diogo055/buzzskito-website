@@ -339,7 +339,6 @@ export default function BlackFliesOntarioPage() {
           name="Picaridin (Icaridin) Insect Repellent"
           blurb="For black flies, a 20% picaridin repellent is our go-to frontline defence — it is odourless, non-greasy, and won't melt plastics or gear the way DEET can, so it holds up through long spring days near waterways. Apply to every patch of exposed skin, since black flies crawl into hairlines and behind ears."
           search="picaridin insect repellent canada"
-          score={8.7}
           pros={['Odourless and non-greasy', 'Safe on plastics, sunglasses, and gear', 'All-day protection against black flies and mosquitoes']}
           cons={['Needs reapplication after heavy sweating', 'Does not cover clothing — pair with factory-treated permethrin clothing for that']}
         />

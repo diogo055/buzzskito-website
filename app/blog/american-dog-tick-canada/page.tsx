@@ -217,7 +217,6 @@ export default function AmericanDogTickPage() {
             name="Fine-Tipped Tick-Removal Tweezers / Tick Twister Tool"
             blurb="Because the American dog tick has longer mouthparts than the blacklegged tick, a purpose-built remover that slides under the head and lifts straight out gives the cleanest pull — no squeezing the body, which is what raises infection risk. Keep one in the first-aid kit and one in the car for after trail walks."
             search="tick removal tool tweezers"
-            score={8.6}
             pros={['Slides under the head for a clean, body-free pull', 'Inexpensive and lasts for years', 'Compact — keep one indoors and one in the car']}
             cons={['Fiddly on very small nymphs', 'Still need steady, even pressure — no twisting']}
           />

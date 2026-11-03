@@ -337,7 +337,6 @@ export default function NoSeeUmBitesPage() {
           name="Hydrocortisone 1% Anti-Itch Cream"
           blurb="For the histamine itch a no-see-um bite leaves behind, a plain 1% hydrocortisone cream is the widely recommended over-the-counter workhorse — quick to calm redness and swelling on a clustered welt. Keep a tube in the first-aid kit and apply as directed on the label."
           search="hydrocortisone anti itch cream 1%"
-          score={8.4}
           pros={['Eases itch and swelling fast', 'Inexpensive and widely stocked', 'Simple, well-understood active ingredient']}
           cons={['Comfort only — does not prevent bites', 'Follow label; ask a pharmacist if unsure']}
         />

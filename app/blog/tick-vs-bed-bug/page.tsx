@@ -221,7 +221,6 @@ export default function TickVsBedBugPage() {
             name="Fine-Tipped Tick Removal Tool"
             blurb="If it turns out to be a tick, a purpose-made fine-tipped remover grips right at the skin and lifts straight out without squeezing the body — far safer than fingernails or blunt tweezers, which can crush the tick and push fluids into the bite."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Grips at the skin, not the body', 'Reduces risk of leaving mouthparts behind', 'Cheap, reusable, fits a first-aid kit']}
             cons={['Only useful once a tick is attached', 'Does nothing to stop the next tick from the yard']}
           />

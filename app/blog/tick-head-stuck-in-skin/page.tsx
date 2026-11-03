@@ -149,7 +149,6 @@ export default function TickHeadStuckInSkinPage() {
           name="Tick Twister-style hooked remover"
           blurb="A notched, fine-tipped tick tool slides under the mouthparts and levers the whole tick out in one piece — the single best way to stop a head breaking off in the first place. Cheap enough to keep one in the first-aid kit, the car, and the dog-walking bag."
           search="otom tick twister"
-          score={8.7}
           pros={['Grips at the skin, not the body', 'Removes the whole tick intact', 'Works on people and pets', 'Compact — keep several on hand']}
           cons={['Very fine tip can be fiddly on tiny nymphs', 'Not a substitute for a doctor if the site gets infected']}
         />

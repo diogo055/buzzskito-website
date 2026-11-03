@@ -217,7 +217,6 @@ export default function DoTicksFlyOrJumpPage() {
             name="Fine-Tipped Tick Remover Kit"
             blurb="Since a questing tick wanders for minutes to hours before it bites, having the right tool on hand is what turns a tick check into a clean removal. A pointed, fine-tipped remover grips a tick close to the skin so you can pull straight out without squeezing the body — the method that lowers infection risk. Compact enough for a hiking pack, gym bag, or the junk drawer by the back door."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Fine tip grips even poppy-seed-sized nymphs', 'Pulls straight out without crushing the tick', 'Pocket-sized for trail and yard']}
             cons={['Needs a steady hand on small nymphs', 'Not a substitute for daily tick checks']}
           />

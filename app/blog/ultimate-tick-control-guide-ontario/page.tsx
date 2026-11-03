@@ -218,7 +218,6 @@ export default function TickPillarPage() {
           name="Fine-Tip Tick Removal Tool Set"
           blurb="The one product every Ontario household with a yard should own. A dedicated remover grips the tick right at the skin and lifts the whole body out in one motion — no squeezing, no leftover mouthparts, no folk remedies. Keep one in the first-aid kit and one in the car for after-hike checks."
           search="tick removal tool tweezers"
-          score={8.7}
           pros={['Grips close to the skin for complete removal', 'Cheap insurance against a botched extraction', 'Compact — fits any first-aid kit or glovebox']}
           cons={['Not a substitute for daily tick checks', 'Still need prompt removal within 24–36 hours']}
         />

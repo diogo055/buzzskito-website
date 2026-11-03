@@ -134,7 +134,6 @@ export default function DoktorDoomSleepTightReviewCanadaPage() {
             name="Doktor Doom Sleep Tight Bed Bug Killer"
             blurb="The one bed bug spray we point Canadians to first — because it is actually made and registered for Canada. It knocks down the bugs you directly hit fast, is labelled for the mattress seams, frame, and baseboards where bed bugs harbour, and carries a Health Canada PCP number so you are not gambling on an unregistered US import. It is the fast knockdown layer of a plan, not the whole plan: bring heat for the eggs and a desiccant dust for the survivors."
             search="doktor doom sleep tight bed bug"
-            score={8.1}
             pros={[
               'Canadian PCP number on the label — legal to use in Canada',
               'Canadian-made, widely stocked, consistent formula',

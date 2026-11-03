@@ -197,7 +197,6 @@ export default function HowToDoATickCheckPage() {
             name="Fine-Tipped Tick-Removal Tool"
             blurb="A dedicated tick tool grips right at the skin and lifts the whole tick out cleanly — the single most useful thing to keep by the door in tick season, so you are never improvising with fingernails at the moment it matters."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Grips close to the skin to avoid leaving mouthparts', 'Removes even poppy-seed-sized nymphs', 'Compact — lives by the door or in a pack']}
             cons={['Fine tips can bend if forced', 'Still need soap or alcohol to clean the bite after']}
           />

@@ -111,7 +111,6 @@ export default function OrthoHomeDefenseCanadaPage() {
             name="Ortho Bug B Gon ECO"
             blurb="The only Ortho line that clears PMRA registration and Ontario's cosmetic-use rules. It is the right tool for crawling nuisance insects — ants, spiders, earwigs, and boxelder bugs at the door and along the foundation. Just don't expect it to handle a yard full of mosquitoes or any ticks; no consumer Ortho SKU sold here is built for that."
             search="ortho bug b gon eco"
-            score={7.6}
             pros={['PMRA-registered and legal for labelled use in Ontario', 'Reduced-risk actives — lower-risk around the home', 'Widely stocked at Canadian Tire, Home Depot, Rona & Amazon.ca', 'Genuinely effective on crawling perimeter insects']}
             cons={['Not designed for whole-yard mosquito control', 'No tick coverage', 'US bifenthrin "Home Defense Max" is not sold or legal here']}
           />

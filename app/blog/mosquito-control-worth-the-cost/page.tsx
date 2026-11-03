@@ -200,7 +200,6 @@ export default function MosquitoControlWorthCostPage() {
           name="Summit Mosquito Bits (BTi larvicide)"
           blurb="The one DIY product that genuinely complements professional treatment. BTi granules kill mosquito larvae in standing water you cannot drain — rain barrels, pond edges, French drains — and acts on those larvae rather than on pets, birds, or fish; use it where the label directs. Attacks the breeding source that no barrier spray can reach, so populations recover more slowly between visits."
           search="summit mosquito bits"
-          score={8.5}
           pros={['Targets larvae before they hatch', 'Acts on mosquito larvae, per the label', 'Works on water you cannot drain']}
           cons={['Not a standalone solution for biting adults', 'Needs reapplication through the season']}
         />

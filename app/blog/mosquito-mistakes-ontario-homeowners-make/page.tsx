@@ -89,7 +89,6 @@ export default function MosquitoMistakesOntarioHomeownersMakePage() {
           name="Thermacell E90 Rechargeable Mosquito Repeller"
           blurb="For the one job candles fail at — protecting the seat you're actually sitting in — a rechargeable spatial repeller creates roughly a 20-foot scent-free protection zone in minutes. It won't treat the whole yard (that's what barrier spray is for), but at the table or on the deck it's the honest upgrade over citronella."
           search="thermacell e90 rechargeable"
-          score={8.4}
           pros={['Roughly 20-ft protection zone', 'No smoke, flame, or spray', 'Rechargeable — ready in minutes']}
           cons={['Patio-zone only, not yard-wide', 'Needs periodic refill cartridges']}
           cta="Check the Thermacell E90 on Amazon.ca →"

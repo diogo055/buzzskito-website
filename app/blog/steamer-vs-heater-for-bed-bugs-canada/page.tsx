@@ -257,7 +257,6 @@ export default function SteamerVsHeaterForBedBugsCanadaPage() {
             name="Dupray Steam Cleaner"
             blurb="For a first purchase, the steamer wins the head-to-head — not because it is better than a heater, but because it is the only tool that treats the infestation epicentre: the mattress, box spring, frame, headboard, and baseboards that will never fit inside any consumer heater. Its intense, on-contact vapour kills bugs and eggs in every seam and fold, and a hot dryer covers most of what a heater would in the interim. Add a ZappBug heater second for luggage, books, and delicates a dryer cannot take — a thorough treatment uses both."
             search="dupray neat steam cleaner"
-            score={9.0}
             pros={['Treats the bed itself — the one thing no heater can hold', 'Intense on-contact heat kills bugs and eggs in seams', 'No cold-pocket risk on the surfaces it treats', 'A dryer bridges most of the heater’s job while you save']}
             cons={['Hands-on — demands slow, focused passes', 'Adds moisture; will not treat loose belongings in bulk']}
           />

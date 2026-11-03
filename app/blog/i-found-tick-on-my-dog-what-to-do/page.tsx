@@ -135,7 +135,6 @@ export default function IFoundTickOnMyDogPage() {
             name="Dedicated Tick-Removal Tool (hook or fine-tip set)"
             blurb="For the moment you find a tick, a purpose-built remover grips right at the head and levers the whole tick out without squeezing its body — the single most important thing for lowering disease-transmission risk. Cheap enough to keep one in every drawer and the car."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Grips at the head, leaves nothing behind', 'No body-squeezing that raises transmission risk', 'Works on dogs, cats, and people', 'Inexpensive and lasts for years']}
             cons={['A tool alone does not replace monthly vet preventatives', 'Still need to save the tick for identification']}
           />

@@ -254,7 +254,6 @@ export default function CanTicksFlyJumpSwimPage() {
             name="Fine-Tipped Tick Removal Tool"
             blurb="Because a questing tick crawls for minutes before biting, a prompt, clean removal is your best defence. A dedicated fine-tipped remover grips the tick close to the skin and pulls it straight out in one piece — far more reliable than fingernails, and worth keeping in the car, the trail bag, and by the door."
             search="tick removal tool tweezers"
-            score={8.5}
             pros={['Grips close to the skin to lift the whole tick', 'Reduces the risk of leaving mouthparts behind', 'Compact and cheap enough to keep several']}
             cons={['Needs a steady hand on tiny nymphs', 'Not a substitute for a full tick check']}
           />

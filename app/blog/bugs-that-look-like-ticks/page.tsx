@@ -453,7 +453,6 @@ export default function BugsThatLookLikeTicksPage() {
           name="Fine-Tipped Tick Removal Tool"
           blurb="Once you have confirmed a real tick, the right tool matters: a pointed tick remover or fine-tipped tweezers grips a poppy-seed-sized nymph close to the skin and lifts it straight out, without squeezing the body. Keep one in the first-aid kit and one in the car for post-hike checks."
           search="tick removal tool tweezers"
-          score={8.7}
           pros={['Grips even pinhead-sized nymphs', 'Clean, straight-out pull that avoids squeezing', 'Pocket-sized for hikes and pets']}
           cons={['Needs a steady hand on squirming kids or dogs', 'Keep a spare — easy to misplace']}
         />

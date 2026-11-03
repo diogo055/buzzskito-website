@@ -247,7 +247,6 @@ export default function WhatDoesTickLookLikeOnDogPage() {
             name="Fine-Tipped Tick Removal Tool / Pointed Tweezers"
             blurb="A dedicated tick hook or pointed tick tweezers grips the tick right at the skin so you can pull straight up — the cleanest way to lift out an embedded tick without crushing the body or leaving the mouthparts behind. Cheap enough to keep one in the house and one in the dog-walk bag."
             search="tick removal tool tweezers"
-            score={9.0}
             pros={['Grips at skin level for a clean, straight-up pull', 'Avoids squeezing infected fluid back in', 'Pocket-sized — keep one in your walk bag']}
             cons={['Fiddly on very small nymphs without good light', 'Flat household tweezers tend to crush the tick']}
           />

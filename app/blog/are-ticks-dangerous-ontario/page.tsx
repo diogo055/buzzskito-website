@@ -301,7 +301,6 @@ export default function AreTicksDangerousPage() {
           name="Tick-Removal Tool Kit (fine-tip tweezers + tick key)"
           blurb="If you only keep one thing on hand for tick season, make it a dedicated remover. A fine-tipped tool grips right at the skin and lifts the tick straight out — head and all — so you are far less likely to leave mouthparts behind or squeeze the tick's gut contents into the bite. Cheap enough to keep one in the car, one in the hiking bag, and one by the back door."
           search="tick removal tool tweezers"
-          score={8.7}
           pros={['Grips the head close to the skin, whole-tick removal', 'Pocket-sized — keep several around the house and car', 'Far safer than fingernails or blunt tweezers']}
           cons={['Small enough to misplace', 'Still requires a careful, steady straight pull']}
         />

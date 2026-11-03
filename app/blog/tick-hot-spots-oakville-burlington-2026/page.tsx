@@ -99,7 +99,6 @@ export default function TickHotSpotsOakvilleBurlingtonPage() {
           name="Fine-Tipped Tick Removal Tool"
           blurb="Whichever tier your street lands in, the ticks your family and dog pick up at Bronte Creek, RBG, or the escarpment trails come home with you. A fine-tipped remover grips the tick at the skin line and lifts it out in one piece — no squeezing, no mouthparts left behind. Keep one by the back door and one in the car for the trailhead."
           search="tick removal tool tweezers"
-          score={8.6}
           pros={['Grips at the skin line for whole-tick removal', 'Works on poppy-seed nymphs and through dog fur', 'Cheap enough to keep several around']}
           cons={['Small enough to misplace', 'Still needs a slow, steady straight pull']}
         />

@@ -150,7 +150,6 @@ export default function MosquitoPillarPage() {
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="For standing water you can't drain — rain barrels, ornamental ponds, chronic wet spots — these floating dunks release a naturally occurring bacterium (Bti) that kills mosquito larvae for about 30 days. The simplest way to stop a breeding site before adults ever hatch."
           search="summit mosquito dunks"
-          score={8.7}
           pros={['Kills larvae before they become biting adults', 'One dunk lasts ~30 days', 'Floats and releases Bti slowly', 'Targets water you can’t drain']}
           cons={['Only treats standing water — not resting adults', 'Needs replacing each month through the season']}
         />

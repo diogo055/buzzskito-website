@@ -183,7 +183,6 @@ export default function BedBugInterceptorTrapsCanadaPage() {
             name="ClimbUp Insect Interceptor"
             blurb="The pesticide-free cup used in most published university field trials — reliably slick inner walls out of the box, pre-dusted with talc, and standard sizing that seats under most bed legs. It's the detection tool entomologists reach for first, and four cups will confirm or rule out an infestation inside the 14-night protocol."
             search="climbup bed bug interceptor"
-            score={9.0}
             pros={['Research-validated standard cup', 'Double wells show travel direction', 'No pesticide — no PMRA registration needed', 'Pre-dusted and ready to place']}
             cons={['Standard size too small for very chunky posts', 'Needs weekly wipe-down to stay slick']}
           />

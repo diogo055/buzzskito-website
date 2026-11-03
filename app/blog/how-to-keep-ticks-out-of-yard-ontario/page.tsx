@@ -117,7 +117,6 @@ export default function HowToKeepTicksOutOfYardOntarioPage() {
           name="Insect Shield Permethrin-Treated Clothing"
           blurb="For anyone working, hiking, or gardening in the lawn-to-woods transition zone, permethrin-treated clothing is the highest-impact personal defence: it kills blacklegged ticks on contact before they ever reach skin. Buy it factory-treated rather than treating your own gear — permethrin sprays sold for consumers to treat their own clothing are not registered for that use in Canada, and the factory-bonded permethrin lasts far longer anyway."
           search="insect shield permethrin treated clothing"
-          score={9.0}
           pros={['Kills ticks on contact, not just repels', 'Factory-bonded permethrin lasts up to 70 wash cycles', 'Nothing to mix, spray, or re-apply yourself']}
           cons={['Protects only the garments you buy — boots and packs are not covered', 'Costs more upfront than the same garment untreated']}
         />

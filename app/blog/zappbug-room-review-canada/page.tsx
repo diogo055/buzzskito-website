@@ -134,7 +134,6 @@ export default function ZappBugRoomReviewCanadaPage() {
             name="ZappBug Room — Large Fabric Heat Enclosure"
             blurb="If you have a genuinely large volume to treat — a whole bedroom of clothing, bedding, boxes, and small furniture — and you expect to run repeated batch cycles over an active infestation, the ZappBug Room is the consumer tool built for exactly that job. It reaches and holds the sustained heat that kills bed bugs and their eggs, and its footprint swallows loads the smaller ZappBug units would take a dozen cycles to clear. It is a premium buy that earns its cost on volume and repeat use, not on a single small load — pair it with a probe thermometer and patient loading and it is the most capable DIY heat enclosure a Canadian household can own."
             search="zappbug room bed bug heater"
-            score={8.4}
             pros={['Treats a whole bedroom of belongings per cycle', 'Kills bed bugs and eggs at every stage with sustained heat', 'No pesticide, no PMRA registration — appliance-only', 'Reusable for repeat batch treatments over weeks']}
             cons={['Premium price — overkill for a single small load', 'Multi-hour cycles; dense loads heat slowly', 'Needs a separate probe thermometer to verify the kill', 'Cannot treat the mattress, frame, or room itself']}
           />

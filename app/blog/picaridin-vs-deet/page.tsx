@@ -137,7 +137,6 @@ export default function PicaridinVsDeetPage() {
             name="Picaridin 20% (Natrapel, OFF! Deep Woods 9 or 10, or Sawyer)"
             blurb="The winner for most Canadians — it repels ticks and protects against mosquitoes for about 5–7 hours at up to 20% (the Canadian Paediatric Society gives DEET at up to 30% about 5–8 hours), and it is non-greasy, odourless, and won’t damage plastics, sunglasses, or synthetic clothing."
             search="natrapel picaridin insect repellent"
-            score={9.0}
             pros={['Matches DEET protection at 20%', 'Non-greasy, odourless, dries fast', 'Won’t damage plastics, sunglasses, or synthetic fabrics', 'Labelled for children from 6 months']}
             cons={['DEET slightly better on heavy blackflies', 'Protects skin only — not the whole yard']}
           />

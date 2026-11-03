@@ -42,6 +42,8 @@ export const BUSINESS = {
   // Microsoft Clarity — heatmaps + session recording (free).
   // Project: BuzzSkito · Industry: B2C Services · clarity.microsoft.com/projects/view/qp6yufkbs2
   clarityId: 'qp6yufkbs2',
+  // Our Google Business Profile rating. A record only: since Nov 3, 2026 it is not emitted as
+  // markup anywhere (see localBusinessSchema in lib/seo.ts).
   aggregateRating: {
     ratingValue: '5',
     bestRating: '5',

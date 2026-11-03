@@ -49,21 +49,19 @@ const ALL_AREA_SERVED = [
 // ── Schema builders ───────────────────────────────────────────────────────────
 
 // localBusinessSchema — emit on every page (per-page areaServed for local relevance).
-// aggregateRating is OPT-IN: only emitted on the homepage and /reviews to prevent
-// Google's review-snippet parser from flagging "multiple aggregate ratings" across
-// the site. Credentials/identifiers live on organizationSchema (emitted globally
-// in layout.tsx) — keeping them off LocalBusiness avoids `<parent_node>` parser
-// errors that Google reports when those fields are nested inside PestControlService.
+// No aggregateRating anywhere (removed Nov 3, 2026, owner's OK): Google doesn't let a
+// business mark up its own reviews, and these were our Google Business Profile reviews.
+// The visible "150 five-star Google reviews" text stays. Credentials/identifiers live on
+// organizationSchema (emitted globally in layout.tsx) — keeping them off LocalBusiness
+// avoids `<parent_node>` parser errors that Google reports when those fields are nested
+// inside PestControlService.
 //
-// @type uses an array ['LocalBusiness', 'PestControlService'] because Google's
-// Review Snippets validator only recognizes its explicit list of LocalBusiness
-// subtypes (Restaurant, Dentist, Store, etc.) — PestControlService is valid in
-// schema.org but not in Google's accepted-types list. Including LocalBusiness
-// directly tells the validator the AggregateRating parent is a supported type.
+// @type uses an array ['LocalBusiness', 'PestControlService'] because PestControlService
+// is valid in schema.org but not on Google's list of LocalBusiness subtypes, so
+// LocalBusiness is named as well.
 export function localBusinessSchema(overrides: {
   areaServed?: string
   description?: string
-  includeAggregateRating?: boolean
 } = {}) {
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
@@ -117,14 +115,6 @@ export function localBusinessSchema(overrides: {
     // The Bite-Free Guarantee is Standard & Exclusive only, so the sitewide slogan names the guarantee that
     // holds on every plan.
     slogan: `Mosquito & Tick Specialist for the GTA — ${PROMISES.rainBackShort}`,
-  }
-  if (overrides.includeAggregateRating) {
-    schema.aggregateRating = {
-      '@type': 'AggregateRating',
-      ratingValue: BUSINESS.aggregateRating.ratingValue,
-      bestRating: BUSINESS.aggregateRating.bestRating,
-      ratingCount: BUSINESS.aggregateRating.ratingCount,
-    }
   }
   return schema
 }
@@ -294,11 +284,10 @@ export function blogPostingSchema(opts: {
 }
 
 // reviewSchema() REMOVED — Google rejects self-served reviews on the business's own site.
-// AggregateRating is emitted (opt-in) ONLY on the entity pages — homepage + /reviews — for
-// entity identity + AI/LLM machine-readability, NOT for star snippets: Google's self-serving-
-// reviews policy makes a business rating itself on its own site ineligible for review stars.
-// Do NOT expand it to city/blog/service pages — off-topic markup risks a spammy-structured-data
-// action and cannot earn stars anyway. Real review stars come from the Google Business Profile.
+// AggregateRating REMOVED too (Nov 3, 2026, owner's OK), from the homepage and /reviews, the
+// last two pages that carried it: a business rating itself on its own site is ineligible for
+// review stars and risks a spammy-structured-data action. Do not add review or rating markup
+// back. Real review stars come from the Google Business Profile.
 
 // speakableSchema — marks key sections for Google AI / voice results.
 // Pass the canonical path of the page (e.g. '/toronto-mosquito-control').

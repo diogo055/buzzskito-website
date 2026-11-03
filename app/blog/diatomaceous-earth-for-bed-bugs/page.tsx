@@ -168,7 +168,6 @@ export default function DiatomaceousEarthForBedBugsPage() {
             name="Safer’s Diatomaceous Earth (PMRA-registered insecticide)"
             blurb="The one grade that’s legal to use on bed bugs in Canada — it carries a Pest Control Products (PCP) registration number, so its label directions are the rules you follow. Amorphous, low-crystalline-silica dust: resistance-proof, and safe to apply into cracks and voids when used as a barely-visible film with a bulb duster. Pair it with a proper puffer applicator for the light, even haze that actually kills."
             search="safers insect killing diatomaceous earth"
-            score={8.2}
             pros={['The only PMRA-registered DE grade for pest use', 'Resistance-proof — bed bugs can’t adapt to a desiccant', 'Low crystalline silica, safe applied to label into cracks and voids']}
             cons={['Slow — works over days, not on contact', 'Only works dry, undisturbed, and thinly applied', 'Not a standalone cure — one layer of a full plan']}
           />

@@ -480,7 +480,6 @@ export default function ChiggerBitesPage() {
           name="Calamine lotion"
           blurb="The classic, pharmacist-recommended first line for chigger itch: it cools and dries the welts and takes the edge off the histamine reaction while the bite runs its course. Cheap, widely stocked, and gentle enough for broken-out skin — apply as directed on the label."
           search="calamine lotion"
-          score={8.4}
           pros={['Soothes itch without harsh solvents', 'Inexpensive and widely available', 'Gentle on inflamed, scratched skin']}
           cons={['Needs frequent reapplication', 'Pink residue on skin and clothes', 'Calms the itch — does not shorten the bite']}
         />

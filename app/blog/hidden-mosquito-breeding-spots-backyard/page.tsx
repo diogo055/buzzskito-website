@@ -159,7 +159,6 @@ export default function HiddenBreedingSpotsPage() {
           name="Summit BTI Mosquito Dunks"
           blurb="For the ponds, rain barrels, and low spots you can't empty, a BTI (Bacillus thuringiensis israelensis) dunk is the go-to larvicide. It kills mosquito larvae before they ever become biting adults, releases slowly over about a month, and is safe around fish, pets, birds, and people. Drop one in any standing water you can't eliminate — the single highest-leverage product on this whole list."
           search="summit mosquito dunks"
-          score={8.8}
           pros={['Kills larvae before they can bite', 'Safe for fish, pets, birds, and people', 'One dunk keeps working for weeks']}
           cons={['Larvicide only — no effect on adult mosquitoes', 'Needs replacing through the season']}
         />

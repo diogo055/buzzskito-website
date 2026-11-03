@@ -176,7 +176,6 @@ export default function TickTubesCanadaPage() {
             name="Thermacell Tick Control Tubes"
             blurb="The most widely stocked tick tube in Canada, with factory-dosed permethrin cotton pre-measured for the job — no off-label guesswork. One twelve-pack covers roughly a quarter-acre, which suits most GTA lots when placed along shaded, brushy edges. Slow and preventive by design: it grinds down next year's mouse-borne nymphs, so pair it with a perimeter barrier spray for the ticks questing in your yard right now."
             search="thermacell tick control tubes 12 pack"
-            score={8.3}
             pros={['Factory-dosed, labelled for this exact use', 'Widely available at Canadian retailers', 'One 12-pack covers a typical GTA lot']}
             cons={['Preventive only — no effect on ticks already questing', 'Effectiveness depends on local mouse activity']}
           />

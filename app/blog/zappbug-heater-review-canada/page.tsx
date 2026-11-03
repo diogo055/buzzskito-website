@@ -105,14 +105,14 @@ export default function ZappBugHeaterReviewCanadaPage() {
       </section>
 
       <AffiliateDisclosure />
-      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Heater bed bug heat chamber" asin="B00F6EV306" search="zappbug heater bed bug" label="Our verdict: 8.6/10" />
-      <TopBox tag={AMZ_TAG} name="ZappBug Heater bed bug heat chamber" asin="B00F6EV306" search="zappbug heater bed bug" label="Our verdict: 8.6/10" />
+      <StickyBuyBar tag={AMZ_TAG} name="ZappBug Heater bed bug heat chamber" asin="B00F6EV306" search="zappbug heater bed bug" label="Reviewed here" />
+      <TopBox tag={AMZ_TAG} name="ZappBug Heater bed bug heat chamber" asin="B00F6EV306" search="zappbug heater bed bug" label="Reviewed here" />
 
       <section className="bg-white px-4">
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The ZappBug Heater is the best portable bed bug heat chamber available to Canadians in 2026 — a pop-up, one-person-setup chamber that holds a full carry-on suitcase or a queen bedding set and kills every bed bug life stage, eggs included, by sustained heat. We score it 8.6/10: the science is bulletproof and the included wireless thermometer keeps you honest, but it treats belongings, not rooms — it is a complement to a whole-home strategy, not a replacement for one.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The ZappBug Heater is the best portable bed bug heat chamber available to Canadians in 2026 — a pop-up, one-person-setup chamber that holds a full carry-on suitcase or a queen bedding set and kills every bed bug life stage, eggs included, by sustained heat. Our verdict: the science is bulletproof and the included wireless thermometer keeps you honest, but it treats belongings, not rooms — it is a complement to a whole-home strategy, not a replacement for one.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>Adults and nymphs die at a sustained 45°C; eggs need roughly 48°C for 90 minutes; everything dies within minutes at 50°C — a chamber cycle targets a 49°C+ core hold.</li>
               <li>Real cycle times: 1–2 hours for airy loads like bedding, 4–8 hours for dense loads like a packed suitcase or a box of books.</li>
@@ -136,7 +136,6 @@ export default function ZappBugHeaterReviewCanadaPage() {
             asin="B00F6EV306"
             search="zappbug heater bed bug"
             cta="Check price on Amazon.ca"
-            score={8.6}
             pros={['Kills all life stages including eggs — heat has no resistance problem', 'Wireless core-temperature probe verifies the kill instead of guessing', 'One-person setup in minutes; folds flat between uses', 'Runs on one standard 120V outlet — no special wiring', 'Pesticide-free physical method — nothing to register, nothing grey-market']}
             cons={['Treats belongings only — does nothing for the mattress, bed frame, or room', 'Dense loads take patience: 4–8 hours done properly', 'Small-manufacturer stock in Canada has fluctuated in past seasons']}
           />
@@ -163,7 +162,7 @@ export default function ZappBugHeaterReviewCanadaPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-navy-50 align-top">
-                  <td className="px-4 py-3 font-bold text-brand-800">ZappBug Heater<br /><span className="font-normal text-xs text-gray-500">Our pick — 8.6/10</span></td>
+                  <td className="px-4 py-3 font-bold text-brand-800">ZappBug Heater<br /><span className="font-normal text-xs text-gray-500">Our pick</span></td>
                   <td className="px-4 py-3 text-gray-700">Belongings: luggage, bedding, clothes, shoes, books, most electronics</td>
                   <td className="px-4 py-3 text-gray-700">Mid-hundreds, one-time</td>
                   <td className="px-4 py-3 text-xs text-gray-600">Best capacity-to-price-to-outlet-demand balance; the thermometer probe verifies every kill</td>
@@ -284,8 +283,8 @@ export default function ZappBugHeaterReviewCanadaPage() {
           <p>Spend an evening in bed bug forums and you will meet the grey market: Canadians being told to order Crossfire, Temprid FX, or other US-market concentrates because &ldquo;the stuff in Canada doesn&rsquo;t work.&rdquo; Understand what that advice actually entails. Those products are not registered by Health Canada&rsquo;s PMRA for sale to Canadian consumers, importing unregistered pesticides is a violation of the Pest Control Products Act, and — the part the forums skip — the resistance problem that motivates the smuggling doesn&rsquo;t respect the border. Pyrethroid resistance is now widespread in bed bug populations across North America, including the Canadian ones in your apartment building, and several of the smuggled products lean on the very chemistry the bugs have already beaten.</p>
           <p>Heat exits that entire argument. A chamber is a physical device, not a pesticide — there is no PMRA registration to check because none is required, nothing to import illegally, no pesticide applied to your bedding, and no resistance mechanism now or ever. A pyrethroid-resistant bed bug and a susceptible one die at exactly the same 49°C. When the legal, heat-only option is also the one with the cleaner kill science, the buying decision gets easy.</p>
 
-          <h2>Verdict: 8.6/10 — Buy It for What It Is</h2>
-          <p>The ZappBug Heater earns its 8.6 by being the best version of a precisely scoped tool. Within its jurisdiction — everything portable you own — it is close to unimprovable: verified lethal temperatures, egg kill that chemicals cannot match, one-outlet operation, honest instrumentation, and a folded footprint that makes precautionary use realistic for years. The score stops short of the 9s for reasons that are about scope and supply rather than performance: it cannot touch the mattress and room half of an infestation, dense loads demand real patience, and a small manufacturer&rsquo;s Canadian stock has wobbled in past seasons — if the listing is empty when you look, the ThermalStrike Ranger is the credible same-bracket fallback, and we would rather you own either one this week than the &ldquo;perfect&rdquo; one next month.</p>
+          <h2>Verdict: Buy It for What It Is</h2>
+          <p>The ZappBug Heater earns its 8.6 by being the best version of a precisely scoped tool. Within its jurisdiction — everything portable you own — it is close to unimprovable: verified lethal temperatures, egg kill that chemicals cannot match, one-outlet operation, honest instrumentation, and a folded footprint that makes precautionary use realistic for years. Its limits are about scope and supply rather than performance: it cannot touch the mattress and room half of an infestation, dense loads demand real patience, and a small manufacturer&rsquo;s Canadian stock has wobbled in past seasons — if the listing is empty when you look, the ThermalStrike Ranger is the credible same-bracket fallback, and we would rather you own either one this week than the &ldquo;perfect&rdquo; one next month.</p>
           <p>Buy it early — ideally as the returning-traveller airlock before you ever see a bite — pair it with encasements, interceptors, and professional help if the problem is established, and it is one of the few bed bug purchases with essentially no way to regret it.</p>
           <p>If the loads you are picturing are bigger than one suitcase, the same brand scales in two steps. <Link href="/blog/zappbug-oven-2-review-canada">The Oven 2, the twin-heater box</Link> takes a family&rsquo;s luggage or a full closet in one cycle — with the caveat that it wants two separate electrical circuits. Above that sits <Link href="/blog/zappbug-room-review-canada">the walk-in Room enclosure</Link>, which treats a whole bedroom&rsquo;s worth of clothing, bedding and boxes at once and ships with placed probes so you can confirm the coldest item crossed the line.</p>
           <p>The competing brand is PackTite, and the shapes are genuinely different rather than interchangeable: <Link href="/blog/packtite-vs-zappbug-canada">the Closet-versus-Room comparison</Link> explains why a hanging chamber suits coats and linens while a cube suits mixed loads, and <Link href="/blog/packtite-closet-review-canada">the PackTite Closet on its own terms</Link> covers the Canadian-stock caveat that comes with a US brand. Where the ThermalStrike Ranger is mentioned above as a fallback, <Link href="/blog/thermalstrike-ranger-review-canada">the heated-suitcase review</Link> explains why a bag that cooks its own contents turns prevention into a habit.</p>

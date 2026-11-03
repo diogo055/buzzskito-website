@@ -264,7 +264,6 @@ export default function RedTicksAndCloverMitesPage() {
             name="Fine-Tipped Tick Remover Tool"
             blurb="If the red bug turns out to be an attached, engorged tick, a purpose-made fine-tipped remover grips right at the skin and lifts the tick straight out without squeezing its body — cleaner and safer than fingernails or household tweezers. Keep one in the first-aid kit and one in the car for post-hike checks."
             search="tick removal tool tweezers"
-            score={8.6}
             pros={['Grips flush at the skin to avoid crushing', 'Pocket-sized for hikes and pet checks', 'Reusable and easy to clean']}
             cons={['Tiny — easy to misplace', 'Still requires steady, straight-out technique']}
           />

@@ -217,7 +217,6 @@ export default function WhatDoesATickBiteLookLikePage() {
           name="Tick Remover Kit (fine-tip + hook set)"
           blurb="For clean identification and safe removal, a dedicated tick tool beats wide household tweezers — it grips the tick right at the skin so you can pull straight up without crushing the body or leaving mouthparts behind. Worth keeping in a first-aid bag if you spend time in tick country."
           search="tick removal kit"
-          score={8.6}
           pros={['Fine tip grips even poppy-seed-sized nymphs', 'Pulls straight up without squeezing the body', 'Compact — lives in a first-aid or hiking kit']}
           cons={['Not a substitute for a proper post-bite check', 'Still requires steady, slow technique']}
         />

@@ -202,7 +202,6 @@ export default function WhatAttractsMosquitoesToYouPage() {
             name="Picaridin 20% Insect Repellent"
             blurb="If you are the person who always gets bitten, a picaridin repellent is the single most reliable thing you can put on your skin. It matches DEET for protection against mosquitoes but is odourless, non-greasy, and won't damage plastics, sunglasses, or gear — which makes it the one people actually keep reapplying."
             search="picaridin insect repellent"
-            score={8.8}
             pros={['Matches DEET-level protection', 'Odourless and non-greasy', "Won't damage plastics or fabrics"]}
             cons={['Needs reapplying every few hours', 'Only protects the skin you cover']}
           />

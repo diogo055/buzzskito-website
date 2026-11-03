@@ -144,7 +144,6 @@ export default function MouseBaitStationCanadaPage() {
             name="Tomcat Mouse Killer Disposable Bait Station (bromethalin)"
             blurb="The one station that ticks every Canadian box: PMRA-registered domestic class, 0.01% bromethalin sealed in a child- and dog-resistant housing, label-rated up to 12 mice per station, and actually stocked on Amazon.ca. No loose bait handling — when the block is gone, you bin the whole unit. Best for garages, sheds, crawl spaces, and cottage closings; for kitchens and living areas we still say trap first."
             search="tomcat mouse killer disposable bait station"
-            score={8.2}
             pros={['Only widely-stocked PMRA domestic-class station', 'Sealed, child- and dog-resistant housing', 'Fast-acting — kills in ~24–48 hours', 'No loose-bait handling; fully disposable']}
             cons={['Bromethalin has no antidote', 'Mouse dies out of sight — possible wall-void odour', 'Traps are the safer first tool in occupied rooms']}
           />

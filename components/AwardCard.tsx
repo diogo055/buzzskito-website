@@ -10,7 +10,9 @@ export type Award = {
   why: string
   search?: string
   asin?: string
-  /** Our own editorial score out of 10 (optional). Never an Amazon rating. */
+  /** Our own editorial score out of 10. Being retired (owner, Nov 3, 2026: nothing explained how the
+   *  scores were given). Only the geo-title-test pages still pass one; take those off after the
+   *  Nov 20-23 read, then delete this prop and EditorialScore. Never add a new one. */
   score?: number
   pros?: string[]
   cons?: string[]

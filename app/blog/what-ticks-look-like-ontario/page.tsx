@@ -283,7 +283,6 @@ export default function WhatTicksLookLikePage() {
           name="Tick Twister-style removal hook set"
           blurb="A curved hook slides under the tick's head and lifts it out with a gentle twist — no squeezing the body, which is what pushes pathogens back into the bite. The best keep-in-your-kit tool for the sesame-seed-sized adults and near-invisible nymphs this guide describes."
           search="otom tick twister"
-          score={8.7}
           pros={['Grips at the head, so the body is never squeezed', 'Works on tiny nymphs and larger engorged adults', 'Cheap, reusable, and pocket-sized for the car or first-aid kit']}
           cons={['Very small — easy to misplace without a keyring loop', 'Fine-tipped tweezers are still handy as a backup']}
         />

@@ -128,7 +128,6 @@ export default function ProfessionalVsDIYPage() {
           name="Summit Mosquito Dunks (BTi)"
           blurb="The single most effective DIY product in this guide. Drop one into any standing water — birdbaths, rain barrels, plant saucers, ponds, French drains — and the label rates it to kill larvae within 24 hours and keep working for 30 days, breaking the breeding cycle. Its toxin targets mosquito, black fly, and fungus gnat larvae rather than acting as a broad-spectrum insecticide. It won't touch adult mosquitoes already biting, so pair it with yard treatment for full coverage."
           search="summit mosquito dunks"
-          score={8.7}
           pros={['95%+ larval kill in treated water', 'One dunk lasts ~30 days per 100 sq ft', 'Larvae-specific, not broad-spectrum']}
           cons={['Only works on standing water you can find', 'Does nothing for adult biters already in the yard']}
         />

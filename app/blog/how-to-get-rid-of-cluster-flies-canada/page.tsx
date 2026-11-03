@@ -139,7 +139,6 @@ export default function ClusterFliesCanadaPage() {
             blurb="Cluster flies that wake indoors head straight for the brightest window — so a clear, sticky window trap placed on the sunniest pane is the single most practical catch tool. The film disappears against the glass, quietly collects the flies as they gather, and peels off when full. It won't fix the source (that's sealing), but for the flies that reach living space it beats spraying every one you see. Refill packs are the recurring cost through the winter."
             search="window fly trap clear sticky"
             cta="Check price on Amazon.ca"
-            score={8.4}
             pros={['Nearly invisible on the glass', 'No chemicals, no residue, no odour', 'Catches waking flies exactly where they gather']}
             cons={['Refills are an ongoing cost through winter', 'Manages symptoms only — sealing is what reduces numbers']}
           />

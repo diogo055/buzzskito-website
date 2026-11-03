@@ -194,7 +194,6 @@ export default function ThermacellE90CanadaReviewPage() {
             name="Thermacell E90 Rechargeable Mosquito Repeller"
             blurb="The best rechargeable Thermacell you can buy in Canada in 2026. Its ~9-hour battery roughly doubles the E55's runtime, it shares the same 20-foot metofluthrin zone and E-Series refills, and with the LIV smart system unavailable here it sits at the top of the Canadian lineup. Buy the EX90 instead only if it's going camping."
             search="thermacell e90 rechargeable"
-            score={8.7}
             pros={['~9 hr runtime — 3–4 patio evenings per charge', 'Scent-free 20-ft zone, nothing on your skin', 'Uses the same E-Series refills as the E55/EX90']}
             cons={['Zone weakens above a ~10–12 km/h breeze', 'Protects one seating area, not a whole yard', 'No effect on ticks']}
           />
@@ -206,7 +205,6 @@ export default function ThermacellE90CanadaReviewPage() {
                 name: 'Thermacell E90 Rechargeable Mosquito Repeller',
                 why: 'The unit this review covers: ~9 hours per charge — three to four patio evenings — with the 20-foot metofluthrin zone and the same E-Series refills as the rest of the lineup. The top of the range Canadians can actually buy.',
                 search: 'thermacell e90 rechargeable',
-                score: 8.7,
                 featured: true,
                 pros: ['~9 hr runtime — charge once a week, not mid-party', 'Scent-free 20-ft zone, nothing on your skin', 'Refills stocked at Canadian Tire, Home Depot, and Amazon.ca'],
                 cons: ['Zone weakens above a ~10–12 km/h breeze', 'Short weeknight sittings are covered by the cheaper E55'],
@@ -216,7 +214,6 @@ export default function ThermacellE90CanadaReviewPage() {
                 name: 'Thermacell EX90 Adventure',
                 why: 'The E90’s off-road twin — same ~9-hour battery, same 20-foot zone, same refills — in a water-resistant, rubber-armoured shell with a tie-down strap for canoe thwarts, picnic tables, and tent poles.',
                 search: 'thermacell ex90 adventure',
-                score: 8.5,
                 pros: ['Survives rain, drops, and a week strapped in a canoe', 'Identical runtime and refills to the E90', 'Ruggedization usually costs only a few dollars more'],
                 cons: ['Less elegant on a patio table if it never leaves home', 'Early-season blackflies push through any vapour zone'],
               },
@@ -225,7 +222,6 @@ export default function ThermacellE90CanadaReviewPage() {
                 name: 'Thermacell E-Series 36-Hour Refills',
                 why: 'The 12-hour cartridge in the box is a sampler — cost per hour drops meaningfully as you size up. Roughly three 36-hour cartridges cover a typical Ontario season of three evenings a week.',
                 search: 'thermacell e-series refill 36 hour',
-                score: 8.3,
                 pros: ['Meaningfully cheaper per hour than 12-hour cartridges', 'Fits the E55, E90, EX55, and EX90', 'Liquid window shows exactly what’s left'],
                 cons: ['Patio Shield mats and butane do not fit E-Series devices', 'Most-evenings-outside households should size up again to 72-hour packs'],
               },

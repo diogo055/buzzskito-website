@@ -235,7 +235,6 @@ export default function MosquitoSeasonPage() {
           name="Thermacell Mosquito Repeller"
           blurb="The fastest same-day fix while you wait for the season to warm up or for the truck between treatments. It creates a roughly 20 ft zone of protection around a chair or table — no sprays, sticky lotions, or citronella smoke. It won't protect a whole yard the way a professional barrier treatment does, but for a single seating area it's the most reliable portable option in Canada."
           search="thermacell mosquito repeller"
-          score={8.5}
           pros={['Creates a ~20 ft repellent zone in minutes', 'No sprays, lotions, or smoke', 'Portable — move it chair to chair']}
           cons={['Covers one seating area, not a whole yard', 'Refill mats and fuel are consumables']}
         />

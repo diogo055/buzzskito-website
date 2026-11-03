@@ -109,7 +109,6 @@ export default function HowToGetRidOfMosquitoesInYardOntarioPage() {
           name="Summit BTI Mosquito Dunks"
           blurb="For rain barrels, pond features, and pooling drains you can't empty, floating BTI dunks are the gold-standard larvicide — they kill mosquito larvae within a day and keep working for weeks, and BTI acts on the larvae of mosquitoes and a few related flies rather than on fish, pets, or pollinators. Use it where the label directs. The single most useful buyable product in this whole guide."
           search="summit mosquito dunks"
-          score={9.0}
           pros={['Kills larvae within 24 hours', 'One dunk protects a water source for about a month', 'Targets mosquito larvae; check the label for the PCP number and use sites']}
           cons={['Treats larvae only — does nothing for adult mosquitoes', 'Needs replacing each month through the season']}
         />

@@ -389,7 +389,6 @@ export default function FleaBitesOnHumansPage() {
           name="Plug-in light flea trap"
           blurb="The single easiest way to confirm an infestation and track your progress. A plug-in trap lures adult fleas with light and warmth onto a sticky pad, so falling nightly counts tell you the vacuuming and washing campaign is working. It kills adults only — pair it with vacuuming, hot-water washing, and vet-directed pet treatment, since the trap cannot reach the eggs, larvae, and pupae that make up most of the population."
           search="flea trap plug in"
-          score={8.1}
           pros={['Confirms an active infestation fast', 'Objective progress meter week over week', 'Quiet, low-effort, runs overnight']}
           cons={['Kills adult fleas only', 'Not a standalone cure — a monitor and supplement']}
         />

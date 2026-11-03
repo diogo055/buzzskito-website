@@ -215,7 +215,6 @@ export default function ThermacellRefillsRechargeCanadaPage() {
             name="Thermacell E-Series Liquid Refill Cartridge (E55 / E90)"
             blurb="For the rechargeable E55 and E90, the E-Series liquid cartridge is the cleanest, lowest-hassle refill: no butane, no mats, just click it in. A fuel-gauge window shows exactly when it's spent (about 40 hours), and it lands at a mid-price cost per hour. If you own a fuel-powered Patio Shield instead, buy the Original mats-plus-fuel pack — this cartridge won't fit it."
             search="thermacell e-series refill"
-            score={8.6}
             pros={['No butane — click-in liquid cartridge', 'Fuel-gauge window shows when to swap', 'Roughly 40 hours per cartridge']}
             cons={['Only fits rechargeable E-Series units', 'Protects one small zone, not the whole yard']}
           />

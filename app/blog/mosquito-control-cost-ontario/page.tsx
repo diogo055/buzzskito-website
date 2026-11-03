@@ -221,7 +221,6 @@ export default function MosquitoControlCostPage() {
           name="Summit Mosquito Dunks (BTI Larvicide)"
           blurb="The one DIY product that earns its keep: a BTI (Bacillus thuringiensis israelensis) larvicide that kills mosquito larvae in standing water you can't drain — rain barrels, pond edges, low spots — for pennies per week. It won't touch adult mosquitoes resting in foliage, so pair it with barrier spray rather than relying on it alone."
           search="summit mosquito dunks"
-          score={8.6}
           pros={['Targets larvae at the source', 'Acts on mosquito, black fly and gnat larvae — use as the label directs', 'Long-lasting — each dunk covers weeks']}
           cons={['Only works on standing water', 'Does nothing for adult mosquitoes']}
         />

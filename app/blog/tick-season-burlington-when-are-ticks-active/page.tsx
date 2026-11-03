@@ -184,7 +184,6 @@ export default function TickSeasonBurlingtonPage() {
           name="InsectGuard Permethrin-Treated Gaiters"
           blurb="If you hike the escarpment, Mt. Nemo, RBG, or any wooded ravine edge, permethrin-treated clothing is the single most effective personal defence — it kills ticks on contact before they reach skin. One treatment on gaiters, socks, and pant cuffs lasts about six weeks or six washes and covers the exact nymph window when Burlington risk peaks."
           search="insectguard permethrin gaiters"
-          score={8.7}
           pros={['Kills ticks on contact, not just repels', 'One application lasts ~6 weeks / 6 washes', 'Covers the ankle-to-knee zone where ticks climb']}
           cons={['Protects only treated garments, not exposed skin', 'Not a substitute for yard treatment']}
         />

@@ -202,7 +202,6 @@ export default function JuneBugsOntarioPage() {
             name="Beneficial Nematodes (Heterorhabditis bacteriophora)"
             blurb="For the stage that actually matters — the white grubs under your lawn — live beneficial nematodes are the homeowner's most effective legal tool in Ontario. Applied to moist soil on an overcast late-summer evening and watered in, they hunt down and kill grubs before they become next year's beetles."
             search="beneficial nematodes heterorhabditis bacteriophora lawn grub"
-            score={8.3}
             pros={['Targets the grubs that create next year’s swarm', 'Cosmetic-pesticide-free and legal in Ontario', 'Safe around kids, pets, and beneficial insects']}
             cons={['Living organisms — buy fresh and apply promptly', 'Needs moist soil and correct timing to work']}
           />

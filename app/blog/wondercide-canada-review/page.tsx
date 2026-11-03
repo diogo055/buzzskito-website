@@ -130,7 +130,6 @@ export default function WondercideCanadaReviewPage() {
             name="Wondercide Flea & Tick Spray (cedarwood + lemongrass + sesame oil)"
             blurb="The Wondercide product most buyers come for: a ready-to-use cedar-oil spray sold for the dog, the cat's bedding and indoor surfaces as a contact flea and tick spray. It is not registered in Canada: Health Canada's registry lists no Wondercide product, and Health Canada says not to buy or use a pesticide whose label has no PCP registration number. For the pet itself, ask your vet or use a registered product labelled for that species."
             search="wondercide flea and tick spray"
-            score={7.6}
             pros={['Cedar-oil formula sold for pets, bedding, and furniture', 'Sold as a contact flea and tick spray', 'Ready-to-use bottle']}
             cons={['Not registered in Canada: no PCP number on the label', 'Essential oils break down within days — needs frequent reapplication', 'Not a long-residual yard barrier; overwhelmed under heavy pressure']}
           />

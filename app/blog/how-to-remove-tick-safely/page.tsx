@@ -92,7 +92,6 @@ export default function RemoveTickPage() {
           name="Fine-Tipped Tick-Removal Tool"
           blurb="A purpose-built fine-tipped tool grips the mouthparts cleanly right at the skin, so you can pull straight up without squeezing the tick's body — the single most important factor in a clean, low-risk removal. Keep one in the first-aid kit before you need it."
           search="tick removal tool tweezers"
-          score={8.7}
           pros={['Grips mouthparts flush to the skin', 'Reduces the risk of squeezing infected fluid in', 'Compact for a first-aid kit or backpack']}
           cons={['Easy to misplace when you need it', 'Fine tips need careful handling on squirming pets']}
         />

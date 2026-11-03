@@ -214,7 +214,6 @@ export default function MosquitoRepellentPlantsPage() {
           name="Thermacell Mosquito Repeller"
           blurb="If repellent plants can't hold your seating area through a July evening, a butane-powered Thermacell creates a roughly 20-foot mosquito-free zone within minutes — no spray on your skin, no smoke, and far more reliable than a potted geranium. It's the honest bridge between garden plants and a full barrier-spray program."
           search="thermacell mosquito repeller"
-          score={8.5}
           pros={['Creates a real ~20-ft protection zone', 'Works in minutes, scent-free', 'Portable — deck, patio, or campsite']}
           cons={['Needs butane + repellent refills', 'Best in still air, not gusty wind']}
         />

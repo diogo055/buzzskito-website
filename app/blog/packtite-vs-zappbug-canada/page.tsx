@@ -260,7 +260,6 @@ export default function PacktiteVsZappbugCanadaPage() {
             name="ZappBug Room Bed-Bug Heater Chamber"
             blurb="The ZappBug Room wins the head-to-head for a real infestation. Its large collapsible cube bulk-treats luggage, boxes, shoes, and armfuls of clothing in a small number of cycles, and its placed temperature probes let you confirm the coldest item's core actually reached a lethal temperature rather than trusting the air reading on the wall. Load it loosely for full penetration and it turns an all-day job into a few confident runs. The PackTite Closet remains the better pick if your problem is mainly hung clothing and you value a chamber that folds flat into a closet."
             search="zappbug room bed bug heater"
-            score={9.0}
             pros={['Large capacity for mixed bulk loads', 'Placed probes verify the coldest core', 'Loose loading drives heat to the centre', 'One or two runs treat a whole infestation']}
             cons={['Premium price', 'Bulky to store even when folded']}
           />

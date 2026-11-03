@@ -122,7 +122,6 @@ export default function FlowtronBugZapperCanadaPage() {
             name="Flowtron BK-40D Electronic Insect Killer"
             blurb="The 40-watt BK-40D is the volume pick for most GTA backyards — the most durable, best-value light trap in the category, rated for up to about an acre. Add the octenol cartridge to pull in more mosquitoes and biting flies, and treat it as a nuisance-insect tool alongside real mosquito control, not a replacement for it."
             search="flowtron bk-40d bug zapper"
-            score={7.6}
             pros={['Genuinely durable, weathers Ontario seasons', 'Huge, consistent owner track record', 'Clears moths, beetles, and midges night after night', 'Octenol cartridge boosts the mosquito catch']}
             cons={['Kills mostly non-biting insects on light alone', 'Ongoing bulb + octenol running cost', 'No tick or standalone mosquito control']}
           />

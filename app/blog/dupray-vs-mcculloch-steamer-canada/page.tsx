@@ -278,7 +278,6 @@ export default function DuprayVsMccullochSteamerCanadaPage() {
             blurb="The Dupray Neat wins the head-to-head for bed bugs. Its stainless-steel boiler delivers hotter, drier, more sustained vapour and a long continuous run, so you can hold a killing temperature at the fabric surface through a whole-room job without fighting refills or over-wetting the mattress. It is the premium, pest-focused choice — and the one that forgives imperfect technique. The McCulloch MC1275 remains the better-value all-round household cleaner if bed bugs are a secondary concern."
            
             search="dupray neat steam cleaner"
-            score={9.1}
             pros={['Stainless-steel boiler holds heat', 'Dry vapour — kills eggs, dries fast', 'Long continuous run for whole-room jobs', 'Canadian-founded — easy warranty support']}
             cons={['Premium price', 'Fewer household accessories than the MC1275']}
           />

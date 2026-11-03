@@ -132,7 +132,6 @@ export default function PackTiteClosetReviewCanadaPage() {
           <TopPick tag={AMZ_TAG}
             label="Our Verdict — Best for Bulky Loads"
             name="PackTite Closet Heat Chamber"
-            score={8.7}
             blurb="The PackTite Closet is the large-capacity flagship of a brand that essentially defined the consumer bed-bug heat chamber. It swallows multiple bags or a deep load of clothing and bedding, brings the core up to a lethal, egg-killing temperature, and includes a probe so you can prove the middle of the load actually got hot. It scores below a perfect mark for one reason alone: Canadian availability is inconsistent, and it often ships from US sellers with the duty and warranty friction that brings. Get it at a fair landed price and it is a top choice for anyone with recurring bulky loads."
             search="packtite closet bed bug heater"
             pros={['Large capacity — multiple bags or a deep soft-goods load at once', 'Kills all life stages including eggs, no chemical residue', 'Thermometer probe confirms the load core reached temperature', 'Collapsible for storage between uses', 'Strong brand heritage and repeatable cycles']}

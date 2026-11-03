@@ -151,7 +151,6 @@ export default function CrossfireBedBugConcentrateReviewCanadaPage() {
             name="Doktor Doom Be Green Premium Food Grade Diatomaceous Earth (PCP 32561)"
             blurb="Since Crossfire cannot legally be used in Canada, this is the dust we point Canadian DIY readers to: a diatomaceous earth whose label carries Registration No. 32561 (domestic class) and lists bed bugs. It kills by drying insects out rather than through a nerve toxin. For bed bugs the label says to take beds apart and dust &ldquo;frames, joints, mattresses, tufts and seams, floors and baseboards,&rdquo; applied lightly and uniformly at 5.0 g per square metre. CimeXa, the best-known silica dust, has no Canadian registration."
             search="doktor doom diatomaceous earth"
-            score={8.3}
             pros={[
               'Domestic-class registration, No. 32561, with bed bugs on the label',
               'Kills by drying insects out, not a nerve toxin',

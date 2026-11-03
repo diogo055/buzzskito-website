@@ -295,7 +295,6 @@ export default function DynaTrapCanadaPage() {
             name="Thermacell heated area repeller (look for a Canadian Reg. No.)"
             blurb="If the complaint is “we get bitten on the deck,” this review’s answer is a heated area repeller, not a DynaTrap. DynaTrap’s FAQ lists no DT3050 and describes no model with a mosquito-attractant fan, and no DynaTrap model or Atrakta lure is in Health Canada’s registry. Thermacell’s Patio Shield carries Reg. No. 31998; its label gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect."
             search="thermacell mosquito repeller refill"
-            score={9.1}
             pros={['Protects the seating area where you get bitten', 'Registered in Canada (Patio Shield 31998)', 'No spray on skin']}
             cons={['Works best in still air', 'Nothing for anyone outside the zone', 'Refill mats and fuel are the running cost']}
           />
@@ -307,7 +306,6 @@ export default function DynaTrapCanadaPage() {
                 name: 'Thermacell Heated Area Repeller (look for a Canadian Reg. No.)',
                 why: 'DynaTrap’s FAQ lists no DT3050 and describes no model with a mosquito-attractant fan, so for bites on the deck this review’s pick is a heated area repeller: the label of Thermacell’s Patio Shield (Reg. No. 31998) gives a zone up to 4.5 metres (15 feet) from the unit and says to allow 30 minutes for it to take effect.',
                 search: 'thermacell mosquito repeller refill',
-                score: 9.1,
                 featured: true,
                 pros: ['Protects the seating area where you get bitten', 'Registered in Canada (Patio Shield 31998)', 'No spray on skin'],
                 cons: ['Works best in still air', 'Does nothing for ticks'],
@@ -317,7 +315,6 @@ export default function DynaTrapCanadaPage() {
                 name: 'DynaTrap DT2030 (1 acre)',
                 why: 'The most popular full-acre unit. Same UV-plus-fan mechanism as the other models. No DynaTrap model is in Health Canada’s registry, so check the box for a Reg. No.',
                 search: 'dynatrap dt2030',
-                score: 6.8,
                 pros: ['Full-acre coverage rating', 'Right scale for open cottage properties'],
                 cons: ['Mostly moths and beetles, like every UV model', 'Full-acre rating is wasted on a standard suburban yard'],
               },
@@ -326,7 +323,6 @@ export default function DynaTrapCanadaPage() {
                 name: 'DynaTrap DT1050 (½ acre)',
                 why: 'The cheapest sensible size — the half-acre rating comfortably covers a typical GTA backyard. No DynaTrap model is in Health Canada’s registry, so check the box for a Reg. No.',
                 search: 'dynatrap dt1050',
-                score: 6.7,
                 pros: ['Half-acre rating suits lots under ~10,000 sq ft', 'Same quiet, chemical-free operation'],
                 cons: ['Catches the same mostly-moths-and-beetles mix as every UV model', 'Cottage lots and very open properties should size up'],
               },

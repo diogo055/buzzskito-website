@@ -175,7 +175,6 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             name="No-see-um mesh screening (20x20, ~0.6 mm openings)"
             blurb="If midges are getting into a screened porch, sunroom, or RV, this is the purchase that actually ends the problem instead of managing it nightly. Rescreening the affected openings with fine no-see-um mesh closes the 1.1–1.5 mm gaps that standard fly screen leaves wide open to a 1 mm midge. It is a one-time job that keeps working every evening after, with no reapplication and nothing on your skin."
             search="no see um mesh screen replacement"
-            score={9.0}
             pros={['Permanent fix — no reapplying anything at dusk', 'Also stops mosquitoes, gnats, and thrips', 'Cheap per window; rolls cover a whole porch']}
             cons={['Noticeably reduces airflow — pair with a fan', 'Requires rescreening the frames yourself']}
           />
@@ -223,7 +222,6 @@ export default function NoSeeUmsBitingMidgesOntarioPage() {
             name="Picaridin (Icaridin) Insect Repellent"
             blurb="For biting midges, a picaridin (icaridin) repellent with a Canadian PCP registration number on the label is the most practical single pick — it protects the ankles, wrists, and hairline where no-see-ums feed, without DEET's oily feel or plastic-damaging tendencies. Apply to all exposed skin at dawn and dusk near water."
             search="picaridin insect repellent canada"
-            score={8.6}
             pros={['Effective against midges and mosquitoes', 'Non-greasy, low odour, won’t harm gear', 'Labelled for use on exposed skin — follow the directions']}
             cons={['Reapply as the label directs', 'A fan or fine mesh still helps in heavy swarms']}
           />

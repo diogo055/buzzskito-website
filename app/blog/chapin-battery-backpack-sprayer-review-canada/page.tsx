@@ -134,7 +134,6 @@ export default function ChapinBatteryBackpackSprayerReviewCanadaPage() {
             name="Chapin 63924 24V Wide-Mouth Battery Backpack Sprayer (4 gal / ~15 L)"
             blurb="The wide-mouth tank and 24V lithium pump are the reasons to buy this over a cheaper narrow-neck model: you can fill with powders and clean the tank easily, and the battery holds even pressure across a full tank so your coverage rate never sags. It's a genuine step up for anyone spraying acreage, fence lines, or a hobby farm regularly — and overkill for a small lot you spray twice a year."
             search="chapin 63924 battery backpack sprayer"
-            score={8.7}
             pros={['Wide mouth — easy powder fill and tank cleanout', 'Steady 24V pressure across a full tank', 'Large 4-gallon tank covers more ground per refill', 'Multi-nozzle set for foliage, broadcast, and reach']}
             cons={['Several times the price of a manual pump backpack', 'Heavy on your back when the tank is full', 'Lithium battery is a wear part; needs winter care']}
           />

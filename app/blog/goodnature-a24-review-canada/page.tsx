@@ -134,7 +134,6 @@ export default function GoodnatureA24ReviewCanadaPage() {
             name="Goodnature A24 Automatic Rat & Mouse Trap"
             blurb="The A24 is the rare premium product that earns its price on the right property. A CO₂-driven piston delivers a fast, humane strike, then the trap clears the carcass and re-arms itself — up to 24 kills per canister with no poison, no daily resets, and no dead-rodent handling. It is not the pick for a single mouse, but for chronic rat pressure on a shed, barn, coop, or foundation line, one A24 quietly does the work of a full snap-trap line checked every morning."
             search="goodnature a24 automatic rat trap"
-            score={8.7}
             cta="Check price on Amazon.ca"
             pros={[
               'Self-resetting — up to 24 kills per CO₂ canister, unattended for weeks',

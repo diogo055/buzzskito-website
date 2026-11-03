@@ -171,7 +171,6 @@ export default function HowToCheckForBedBugsCanadaPage() {
             name="Bed Bug Detection Kit (flashlight + card + magnifier)"
             blurb="A combination kit bundles the three tools that do almost the entire inspection: a bright flashlight to rake across fabric so eggs and spotting pop, a thin stiff card to drag through seams and joints, and a magnifier to tell a nymph from a carpet-beetle larva. Inexpensive, reusable trip after trip, and the fastest way to turn a suspicion into physical evidence."
             search="bed bug detection kit"
-            score={8.4}
             pros={['Covers ~95% of a visual inspection', 'Cheap and reusable', 'Works for hotels, used furniture, and move-ins alike']}
             cons={['Only finds what is on the surface — monitoring needs interceptors', 'Basic kits skip the magnifier']}
           />

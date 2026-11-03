@@ -211,7 +211,6 @@ export default function RatPoisonCanadaLegalPage() {
             blurb="A PMRA-registered domestic (consumer) rat bait station, Reg. No. 31970: child- and dog-resistant, pre-loaded with bromethalin, and labelled for use indoors and outdoors within 15 metres of buildings. The label says rats usually eat a lethal dose in one night but it may take two or more days for them to die. It's the right pick for light exterior pressure around a shed or garage — but the label lists no antidote, so keep it away from pets and children, and reach for traps first for most interior problems."
             search="tomcat rat killer disposable station"
             asin="B012ODWW7Y"
-            score={7.4}
             pros={['PMRA-registered for Canadian consumers', 'Sealed, tamper-resistant station', 'Faster than anticoagulants (label: two or more days)']}
             cons={['No antidote for bromethalin', 'Poisoned rat can die out of reach', 'Traps beat it for most interior jobs']}
           />

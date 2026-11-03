@@ -143,7 +143,6 @@ export default function ThermacellCanadaPage() {
             name="Thermacell E90 Rechargeable"
             blurb="The top Thermacell you can actually buy in Canada — roughly 9 hours per charge, enough to outlast a full backyard evening without a mid-party recharge (the Liv smart system is US-only)."
             search="thermacell e90 rechargeable mosquito repeller"
-            score={8.6}
             pros={['Longest runtime of the Canadian lineup (~9 hrs)', 'No fuel cartridge — rechargeable and hands-off', 'Rugged build for all-evening hosting']}
             cons={['Premium end of the Thermacell range', 'Only covers the seating zone, not the whole yard']}
           />

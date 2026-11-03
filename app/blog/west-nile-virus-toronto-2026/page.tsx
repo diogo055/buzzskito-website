@@ -191,7 +191,6 @@ export default function WestNileTorontoPage() {
             name="Summit Mosquito Dunks (BTI Larvicide)"
             blurb="The single most West Nile–specific product a homeowner can use: a floating Bti dunk that kills Culex larvae in the stagnant, organically rich water they breed in — rain barrels, ornamental ponds, clogged low spots. One dunk keeps working for about 30 days."
             search="summit mosquito dunks"
-            score={8.7}
             pros={['Targets the exact stagnant water Culex prefer', 'Floats and releases Bti slowly', 'One dunk lasts ~30 days']}
             cons={['Larvicide only — no effect on adult biters', 'Needs replacing monthly through the season']}
           />

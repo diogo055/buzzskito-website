@@ -209,7 +209,6 @@ export default function CanMosquitoesBiteThroughClothesPage() {
             name="Permethrin-Treated Shirt (factory Insect Shield)"
             blurb="The one clothing upgrade that fixes the thin-fabric problem directly: permethrin bonds to the fibres and kills or knocks down mosquitoes and ticks on contact, so they die or leave before the proboscis reaches skin. Factory-treated garments stay effective for dozens of washes with no reapplication — the most dependable clothing-based defence for anyone outdoors a lot."
             search="insectguard permethrin treated shirt"
-            score={8.7}
             pros={['Kills / repels through the fabric before a bite lands', 'Protects against ticks as well as mosquitoes', 'Factory treatment lasts many washes, no reapplying']}
             cons={['Costs more than an untreated shirt', 'Keep wet permethrin away from cats until fully dry']}
           />

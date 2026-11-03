@@ -64,10 +64,9 @@ export default function HomePage() {
   return (
     <>
       {/* Schemas — organizationSchema + websiteSchema + personSchema are emitted
-          globally in layout.tsx. aggregateRating is intentionally only emitted
-          here (homepage) and on /reviews to prevent Google's review-snippet
-          parser from reporting "multiple aggregate ratings". */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema({ includeAggregateRating: true })) }} />
+          globally in layout.tsx. No aggregateRating (removed Nov 3, 2026: see
+          localBusinessSchema in lib/seo.ts). */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema('/', '2026-07-01')) }} />
 

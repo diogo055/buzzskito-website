@@ -86,7 +86,8 @@
   - CC BY photos carry `copyrightNotice` "© creator" when the credit names one. Public-domain and CC0 photos correctly carry none.
   - Image search plus Lens brought about 150 clicks a week on Oct 24 (about 8% of Google clicks).
   - **Measured Oct 30 (`reports/Google Images traffic growth plan.md`):** first photos on a page clearly work (pages showing in image search: 0 images 7.5%, 3+ about 95%), but past 6-8 images a page there are no more clicks, and topic matters more than count. About 1,530 clicks per 30 days, about 1.5 cents a visit, about 55% look like US school computers. Reused photos can rank and diagrams are often a page's best-ranked image; how much original photos help is barely measured. Don't build pages for image rankings, and don't add photos past about 8 on a page before the Dec 30 test read.
-- Schema: LocalBusiness + Service + FAQ + HowTo + Speakable + AggregateRating on every page
+- Schema: LocalBusiness + Service + FAQ + Speakable on service pages, BlogPosting on articles. **No AggregateRating or Review markup anywhere** (removed Nov 3, 2026, owner's OK: Google doesn't allow a business to mark up its own reviews; the visible "150 five-star Google reviews" stays). The service-process HowTo markup was removed the same day.
+- **Editorial "★ x.x/10 · BuzzSkito rating" scores retired (owner, Nov 3, 2026):** nothing explained how they were given. Removed from 251 pages and reworded on 9 single-product reviews; the badge labels ("Best overall") stay. The 9 geo-title-test pages keep theirs until the Nov 20-23 read; then take them off, delete `components/EditorialScore.tsx` and the `score` prop on AwardCard/TopPick. Never add a score back.
 
 ## Dashboard Features (app.buzzskito.ca)
 - Ranking Strength score (100 tracked keywords)

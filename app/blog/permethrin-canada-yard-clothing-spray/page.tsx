@@ -234,7 +234,6 @@ export default function PermethrinCanadaPage() {
                 name: 'Insect Shield Permethrin-Treated Clothing',
                 why: 'Factory pre-treated clothing is the permethrin format Canada permits for consumers, and Insect Shield is the treatment behind garments from outdoor brands (ExOfficio, Orvis, Columbia). The bonded permethrin survives 70 wash cycles — versus 6 for a spray-on treatment. Higher upfront cost, far lower long-term cost for frequent hikers.',
                 search: 'insect shield permethrin treated clothing',
-                score: 8.4,
                 featured: true,
                 pros: ['The permitted Canadian route — no unregistered format involved', 'Protection lasts 70 wash cycles — no annual respray', 'No handling of liquid permethrin at all', 'Wide range of garment styles'],
                 cons: ['$40–$120 per garment adds up across a wardrobe', 'Covers only the garments you buy — boots, packs, and tents stay untreated'],

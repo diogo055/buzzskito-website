@@ -164,7 +164,6 @@ export default function DeerFliesHorseFliesOntarioPage() {
             name="Blue Sticky Ball Deer Fly Trap"
             blurb="A blue coroplast sphere coated in sticky glue that sways in the breeze mimics a moving host, so deer and horse flies commit to it and stick fast. Hung in a sunny, open flight path near where you sit, it racks up large numbers over a season — the single most effective off-the-shelf tool for the flies that circle your head."
             search="deer fly sticky trap"
-            score={8.3}
             pros={['Catches deer and horse flies specifically', 'No refills or power needed', 'Reusable season after season']}
             cons={['Only works in sunny, open placement', 'Thins contact rather than wiping out the population']}
           />

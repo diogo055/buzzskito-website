@@ -282,7 +282,6 @@ export default function BlackleggedDeerTickOntarioPage() {
             name="Fine-Tipped Tick Removal Tool Set"
             blurb="A dedicated tick-removal tool grips right at the mouthparts and lifts a poppy-seed-sized nymph out cleanly — the safe, steady-pressure removal public-health agencies recommend, and far more reliable than fumbling with household tweezers when speed matters."
             search="tick removal tool tweezers"
-            score={8.6}
             pros={['Grips close to the skin at the mouthparts', 'Handles even tiny nymphs', 'Inexpensive to keep in a first-aid kit']}
             cons={['Still requires slow, steady technique', 'Keep one per outdoor bag so it is on hand']}
           />

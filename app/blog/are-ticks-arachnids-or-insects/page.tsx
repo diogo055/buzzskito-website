@@ -209,7 +209,6 @@ export default function AreTicksArachnidsOrInsectsPage() {
             name="Fine-Tip Tick Removal Tool"
             blurb="Because ticks anchor with their mouthparts, a fine-tipped tool lets you grip an attached tick close to the skin and pull straight out without squeezing its body — the removal method health authorities recommend."
             search="tick removal tool tweezers"
-            score={8.5}
             pros={['Grips close to the skin for a clean straight pull', 'Compact enough for a bag, car, or first-aid kit', 'Works on tiny nymph ticks that fingers miss']}
             cons={['Not a substitute for treating tick habitat in the yard', 'Easy to misplace when you need it most']}
           />

@@ -198,7 +198,6 @@ export default function DoBedBugSpraysActuallyWorkPage() {
             name="Bed Bug Steamer (dry-vapour, high-output)"
             blurb="If you buy one thing, buy heat. A dry-vapour steamer drives lethal temperature straight into the seams, tufts, and crevices where bugs and eggs actually hide — the exact places sprays fail, and something no bed bug can evolve resistance to."
             search="bed bug steamer"
-            score={8.5}
             pros={['Kills bugs and eggs on contact', 'Reaches harbourages sprays miss', 'No resistance risk, no residue']}
             cons={['Slow, room-by-room work', 'Needs enough dry-steam output to be lethal']}
           />

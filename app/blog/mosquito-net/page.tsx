@@ -115,7 +115,6 @@ export default function MosquitoNetCanadaPage() {
             name="Mosquito Head Net (worn over a brim hat)"
             blurb="The single most cost-effective piece of insect protection you can buy — keeps mosquitoes, black flies, and no-see-ums completely off your face and neck for cottage evenings, hiking, fishing, and dusk yard work."
             search="mosquito head net hat"
-            score={8.7}
             pros={['Budget-friendly — the cheapest effective bug protection', 'Stops mosquitoes, black flies, and no-see-ums off face and neck', 'Packs flat for cottage, hiking, and fishing trips']}
             cons={['Protects only your head and neck, not the rest of you', 'Mesh that rests on skin can still be bitten through']}
           />

@@ -131,7 +131,6 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
             name="Black Flag 190107 Electric Insect Fogger"
             blurb="The default entry point to backyard fogging: a corded electric thermal fogger that turns a compatible fogging insecticide into a dense knockdown fog in minutes, with no propane and no fuss. It will not replace a barrier spray, but for clearing a normal-sized yard before an evening outdoors it is the most affordable, lowest-hassle machine going — provided you feed it a Canadian PMRA-registered insecticide."
             search="black flag electric fogger"
-            score={8.3}
             pros={['Cheapest, most accessible way into thermal fogging', 'Instant start — no propane, no priming', 'Dense fog drifts well into foliage and under decks', 'Light and easy for anyone to walk the yard']}
             cons={['Corded — reach is limited by extension cord', 'Only a few hours of knockdown, not weeks', 'Needs a separately-bought, Canada-registered insecticide', 'No tick control — mosquitoes only']}
           />
@@ -269,7 +268,7 @@ export default function BlackFlagElectricFoggerReviewCanadaPage() {
           <p>For a typical suburban lot where a neighbour&rsquo;s yard keeps re-seeding the mosquito population, a seasonal barrier program gives you the baseline, and the Black Flag fogger is the extra knockdown you reach for right before a big backyard event. That combination &mdash; durable barrier plus on-demand fog &mdash; is how you actually keep a GTA yard usable all summer.</p>
 
           <h2>The Verdict</h2>
-          <p>The Black Flag 190107 electric fogger earns its best-seller status. As the cheapest, easiest entry into thermal fogging, it does a genuinely useful job: a strong same-evening knockdown across a normal backyard, with no propane and almost no setup. Score it <strong>8.3/10</strong> for what it is &mdash; and dock it only against expectations it was never meant to meet. Buy it if you host in the yard and want on-demand control before events; feed it only a Canadian PMRA-registered fogging insecticide; and pair it with source reduction and, ideally, a <Link href="/mosquito-control">barrier program</Link> for the lasting, tick-inclusive coverage a fog can&rsquo;t provide.</p>
+          <p>The Black Flag 190107 electric fogger earns its best-seller status. As the cheapest, easiest entry into thermal fogging, it does a genuinely useful job: a strong same-evening knockdown across a normal backyard, with no propane and almost no setup. Rate it for what it is &mdash; and fault it only against expectations it was never meant to meet. Buy it if you host in the yard and want on-demand control before events; feed it only a Canadian PMRA-registered fogging insecticide; and pair it with source reduction and, ideally, a <Link href="/mosquito-control">barrier program</Link> for the lasting, tick-inclusive coverage a fog can&rsquo;t provide.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">

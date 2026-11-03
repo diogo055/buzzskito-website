@@ -150,7 +150,6 @@ export default function PreventMosquitoesPage() {
           name="Summit BTI Mosquito Dunks"
           blurb="The single most useful product on this list. For a pond, rain barrel, or low spot you can't drain, these floating BTI dunks kill mosquito larvae before they ever reach biting age — biological control that's safe around fish, frogs, pets, and kids. Slow-dissolving, so one dunk keeps working for weeks."
           search="summit mosquito dunks"
-          score={8.8}
           pros={['Kills larvae in water you can\'t drain', 'Safe for fish, pets, and wildlife', 'One dunk lasts about a month']}
           cons={['Only treats standing water — not adults', 'Won\'t protect a seating area on its own']}
         />

@@ -260,7 +260,6 @@ export default function HeatVsChemicalBedBugTreatmentCanadaPage() {
             name="ZappBug Bed-Bug Heater"
             blurb="For DIY bed-bug control in Canada, heat is the more complete and dependable primary method, and a portable ZappBug chamber is the tool that delivers it without a licence or a service call. It kills every life stage — including the cemented eggs that survive most sprays — in a single cycle, with no insecticide resistance to worry about and no residue, re-entry interval, or grey-market legality question. Load infested items, bring the interior to a confirmed lethal temperature at the coldest point of the load, and everything inside dies. Pair it with a Canadian-registered residual like Doktor Doom to guard the cracks and travel routes heat cannot reach — that heat-plus-chemical combination is the real winner."
             search="zappbug bed bug heater"
-            score={9.2}
             pros={['Kills eggs and all life stages in one cycle', 'No insecticide resistance — heat always works', 'No residue, no re-entry interval, no chemistry', 'Reusable — no per-cycle cost', 'Appliance, not a pesticide — fully unrestricted in Canada']}
             cons={['Only treats what fits in the chamber', 'Needs a registered residual spray to guard the perimeter', 'Higher up-front cost than a bottle of spray']}
           />

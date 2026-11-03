@@ -153,7 +153,6 @@ export default function WestNileMississaugaPage() {
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="For the standing water you can't drain — ponds, rain barrels, low spots — a Bti dunk kills Culex pipiens larvae before they hatch into the dusk-biting adults that can carry West Nile. One dunk treats up to 100 sq ft of water surface for about 30 days, making it the single highest-value product a Mississauga homeowner can add to a weekly water-elimination routine."
           search="summit mosquito dunks"
-          score={8.7}
           pros={['Targets larvae before they can bite', 'Slow-release Bti over weeks', 'Each dunk lasts about 30 days']}
           cons={['Only treats water you can reach', 'Does nothing for adult mosquitoes']}
         />

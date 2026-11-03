@@ -134,7 +134,6 @@ export default function OrthoHomeDefenseBedBugReviewCanadaPage() {
             name="Ortho Home Defense Bed Bug Killer (Canadian PCP-registered version)"
             blurb="A capable, widely stocked contact-plus-residual spray for the bugs and surfaces you can reach — as long as the can in your hands is the Canadian-registered version with a PCP number, not the US import. It is a solid perimeter-and-frame tool, but it is weak on eggs and can meet pyrethroid resistance, so buy it as one layer of a multi-tool plan rather than a standalone fix. If you cannot confirm a PCP number, choose a clearly Canadian-registered brand instead."
             search="ortho home defense bed bug killer"
-            score={7.2}
             pros={['Widely stocked at Canadian retailers', 'Contact kill plus a weeks-long residual on travel routes', 'Comfort-wand versions make baseboard and frame work easy']}
             cons={['US formula is NOT PMRA-registered — verify the PCP number', 'Weak on cemented eggs, like most sprays', 'Pyrethroid-only formulas can meet resistance', 'Not a standalone cure — needs heat and monitoring alongside']}
           />

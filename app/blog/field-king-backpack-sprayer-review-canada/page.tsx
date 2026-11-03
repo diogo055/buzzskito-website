@@ -134,7 +134,6 @@ export default function FieldKingBackpackSprayerReviewCanadaPage() {
             name="Field King 190515 Lithium Battery Backpack Sprayer"
             blurb="The battery model removes the one genuinely tiring part of backpack spraying — the constant pumping — and replaces it with a rechargeable pump that holds steady pressure across the whole 4-gallon tank. Add Field King's rebuildable pump, Viton seals, internal paddle agitation, and a padded harness, and you get a prosumer tool that lasts seasons where disposable big-box backpacks fail. It is the right buy for anyone spraying often or covering a real yard; the manual 190328 is the smarter, cheaper pick only for light, occasional use."
             search="field king 190515 battery backpack sprayer"
-            score={8.9}
             pros={['Constant pressure, zero hand-pumping', 'Rebuildable pump — a worn seal is a cheap fix, not a new sprayer', 'Viton seals resist common lawn & garden chemicals', 'Even, consistent spray from the first litre to the last']}
             cons={['A battery to keep charged', 'Higher up-front cost than a manual pump', '.ca availability of the battery model can be intermittent']}
           />

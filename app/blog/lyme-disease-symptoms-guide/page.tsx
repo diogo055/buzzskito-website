@@ -235,7 +235,6 @@ export default function LymeDiseaseSymptomsGuidePage() {
             name="Fine-Tipped Tick Removal Tool Set"
             blurb="Because fast, clean removal is one of the best ways to lower Lyme risk, a dedicated tick-removal tool belongs in every household and dog-walking kit. A slim, fine-tipped tool grips the tick right at the skin so you can pull straight up without crushing the body — far more reliable than pinching with fingers or all-purpose tweezers."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Grips the head close to the skin for a clean pull', 'Compact — lives in a first-aid kit, pack, or leash bag', 'Works for both people and pets']}
             cons={['Tiny tools are easy to misplace', 'Still requires steady, patient technique']}
           />

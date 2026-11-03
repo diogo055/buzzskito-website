@@ -230,7 +230,6 @@ export default function BabyTicksNymphsSeedTicksOntarioPage() {
             name="Fine-Tipped Tick Removal Tool"
             blurb="For poppy-seed-sized nymphs, a dedicated fine-point or slotted tick remover grips the mouthparts where blunt household tweezers slip. Compact enough to keep in the first-aid kit or pack before tick season."
             search="tick removal tool tweezers"
-            score={8.6}
             pros={['Grabs tiny nymph mouthparts cleanly', 'Reduces squeezing the tick body', 'Pocketable for trail and cottage kits']}
             cons={['Easy to misplace — keep a spare', 'Still needs steady, straight-up pulling technique']}
           />

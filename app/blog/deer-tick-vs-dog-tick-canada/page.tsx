@@ -325,7 +325,6 @@ export default function DeerTickVsDogTickPage() {
             name="Tick-Removal Tool Set (fine-tip tweezers + tick key)"
             blurb="Whether it turns out to be a deer tick or a dog tick, the safe removal is the same — and a purpose-made tool grips the mouthparts far more reliably than fingernails. A tweezer-plus-key set keeps one in the first-aid kit and one in the car, so you can pull a tick straight out cleanly before the 24-hour Lyme-transmission window matters."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Grips mouthparts to avoid leaving the head', 'Works for both tick species and on dogs', 'Compact — keep a spare in car and kit']}
             cons={['Keep it disinfected between uses', 'Fine tips can bend if forced']}
           />

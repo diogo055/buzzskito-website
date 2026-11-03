@@ -185,7 +185,6 @@ export default function TickSeasonOakvillePage() {
           name="Permethrin-Treated Clothing & Gaiters"
           blurb="For anyone hiking Bronte Creek Provincial Park or the 16 Mile Creek trails, 0.5% permethrin on pants, socks, and gaiters is the single most effective personal layer — it repels and kills ticks on contact before they reach skin, and one treatment lasts about 6 weeks or 6 washes."
           search="insectguard permethrin gaiters"
-          score={8.9}
           pros={['Kills ticks on contact, not just repels', 'One treatment lasts ~6 weeks / 6 washes', 'Ideal for trail hikers and gardeners']}
           cons={['Wear layer only — still check skin daily', 'Reapply after washes']}
         />

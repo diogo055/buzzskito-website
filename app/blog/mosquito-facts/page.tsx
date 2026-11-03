@@ -199,7 +199,6 @@ export default function MosquitoFactsPage() {
             name="Summit Mosquito Dunks (Bti larvicide)"
             blurb="A floating disc of Bacillus thuringiensis israelensis — a bacterium that is lethal to mosquito larvae and harmless to fish, birds, pets, and people. One dunk treats about 9 m² of standing water for 30 days: rain barrels, birdbaths, blocked gutters, pond edges, tarps, plant saucers. Because backyard mosquitoes hatch close to where they bite, this is the one purchase that reduces the population rather than just hiding you from it."
             search="summit mosquito dunks"
-            score={9.0}
             pros={['Attacks the larval stage — fewer adult mosquitoes, not just fewer bites on you', 'Safe around fish, birds, pets, and children', '30 days per dunk; works in any water you cannot drain']}
             cons={['Only works on standing water you can reach — not a fix for a neighbour&rsquo;s pond', 'Does nothing to adults already flying']}
           />
@@ -211,7 +210,6 @@ export default function MosquitoFactsPage() {
             name="Picaridin (Icaridin) Mosquito Repellent Spray"
             blurb="Because mosquitoes hunt by CO₂, heat, and skin chemistry rather than light, the reliable personal defence is a repellent that masks those cues. A 20% picaridin spray protects for hours, is odourless and non-greasy, and won't damage plastics or gear the way DEET can — the simplest way to stay bite-free when you're away from a treated yard."
             search="picaridin mosquito repellent spray"
-            score={8.7}
             pros={['Long-lasting protection from a single application', 'Odourless and non-greasy on skin', 'Safe on clothing, plastics, and gear']}
             cons={['Protects only the person wearing it, not the yard', 'Needs reapplication on long days outdoors']}
           />

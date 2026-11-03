@@ -145,7 +145,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
                 name: 'PetraTools Cordless ULV Cold Fogger',
                 why: 'The most versatile machine to own: it runs cold on water-based products, adjusts droplet size at the nozzle, and moves between indoor disinfection, greenhouses, and light outdoor work on battery power. For buyers who want one fogger that does the widest range of jobs, this is it.',
                 search: 'petratools ulv cordless fogger',
-                score: 8.9,
                 featured: true,
                 pros: ['Cold operation: no flame or heated coil', 'Adjustable droplet size', 'Cordless — walk the whole property'],
                 cons: ['Less outdoor reach than thermal', 'Battery runtime to manage'],
@@ -155,7 +154,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
                 name: 'Longray Gas Thermal Fogger',
                 why: 'The specialist tool for large outdoor areas and dense vegetation. Its ultra-fine, high-volume fog drives deep into shrubs, tree lines, barns, and greenhouses, and the visible cloud confirms your coverage where a ULV mist would vanish.',
                 search: 'longray thermal fogger',
-                score: 8.6,
                 pros: ['Unmatched outdoor penetration', 'Huge area coverage per pass', 'Visible fog confirms coverage'],
                 cons: ['Not for indoor use', 'Propane + oil-based carrier logistics'],
               },
@@ -164,7 +162,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
                 name: 'Corded Electric ULV Fogger',
                 why: 'For a fixed indoor space or a long commercial cleaning routine, a corded ULV never stops for a battery. Same cold, water-based, adjustable-droplet operation as the cordless pick, with unlimited runtime wherever an outlet is in reach.',
                 search: 'corded electric ulv fogger disinfectant',
-                score: 8.1,
                 pros: ['Unlimited runtime on mains', 'Ideal for stationary indoor work', 'Simple and lower cost'],
                 cons: ['Tethered to an outlet', 'Less mobile than cordless'],
               },
@@ -173,7 +170,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
                 name: 'Compact Handheld ULV Fogger',
                 why: 'A wallet-friendly cold fogger for rooms, vehicles, and small jobs. Lighter output and a smaller tank than the pro units, but a genuine adjustable ULV that covers occasional disinfection and small-space insect work without the premium price.',
                 search: 'handheld ulv fogger machine',
-                score: 7.3,
                 pros: ['Affordable entry point', 'Light and easy to handle', 'Still adjustable and cold-running'],
                 cons: ['Small tank and lower output', 'Not for large areas'],
               },
@@ -326,7 +322,6 @@ export default function ThermalVsUlvFoggerCanadaPage() {
             name="PetraTools-style Cordless ULV Cold Fogger"
             blurb="For the widest range of jobs with the fewest compromises, a cordless ULV cold fogger is the one to own. It runs cold, with no flame or heated coil (so it can work indoors where a product’s label allows), uses water-based products, lets you dial droplet size from a fine disinfecting mist to a wetter surface coat, and goes cordless so you can cover a whole property. It gives up outdoor penetration to a thermal fogger — but unless large-area vegetation is your specific problem, its versatility wins. Buy a Longray-style thermal fogger as a second, specialist machine only when acreage and dense foliage demand it."
             search="petratools ulv cordless fogger"
-            score={8.9}
             pros={['Cold operation on water-based products, no flame', 'Adjustable droplet size for many jobs', 'Cordless mobility across a whole property', 'Broad price range from entry to professional']}
             cons={['Less outdoor reach and penetration than thermal', 'Battery runtime to plan around']}
           />

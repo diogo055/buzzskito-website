@@ -132,7 +132,6 @@ export default function LongrayThermalFoggerReviewCanadaPage() {
             name="Longray TS35A Pulse-Jet Thermal Fogger"
             blurb="The TS35A is the machine to buy when the property genuinely justifies a professional-grade fogger. Cordless gasoline pulse-jet power heats fast, roams anywhere, and throws a dense, driftless 5–30 micron fog that penetrates hedgerows, tree lines, and shaded canopy an electric fogger or pump sprayer can't touch. Longray's long track record means parts and barrels stay available for a machine you'll run for years. It's overkill for a small suburban lot — but for acreage, cottages, campgrounds, and commercial grounds, it's the closest a homeowner gets to what the pros carry."
             search="longray ts35a thermal fogger"
-            score={8.9}
             pros={['Cordless gasoline power roams any size property', 'Dense 5–30 micron fog penetrates thick foliage', 'Fast heat-up and large fog volume', 'Durable pulse-jet design; parts well-supported', 'True professional-grade knockdown coverage']}
             cons={['Serious price and running-cost commitment', 'Gasoline + hot barrel = real fire/burn risk', 'Requires full PPE and careful handling', 'Overkill for a small suburban yard', 'Fog is knockdown — residual depends on the product']}
           />

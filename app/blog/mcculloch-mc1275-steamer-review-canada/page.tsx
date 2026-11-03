@@ -134,7 +134,6 @@ export default function MccullochMc1275SteamerReviewCanadaPage() {
             name="McCulloch MC1275 Steam Cleaner"
             blurb="The budget heavy-duty steamer that earns its DIY-forum reputation: a big-tank boiler that delivers hot, low-moisture steam over a long continuous run, so you can work an entire mattress, box spring, and frame in one session at a price well below the premium Canadian brands. Corded and deliberate rather than grab-and-go, and it doubles as a chemical-free deep cleaner for kitchens, bathrooms, and floors. The one caveat for Canadian buyers is import friction — it is a US-market unit, so confirm the seller, plug, and warranty on the listing. Not a standalone cure: pair it with a vacuum and interceptor monitoring."
             search="mcculloch mc1275 steam cleaner"
-            score={8.4}
             pros={['Long continuous run — whole-bed treatment per fill', 'Hot, low-moisture steam that kills bugs and eggs', 'Strong value — cheaper than premium boiler steamers', 'Ships with attachments; doubles as a household deep cleaner']}
             cons={['US-market unit — verify seller, plug, and warranty in Canada', 'Corded and needs a few minutes to build pressure', 'Only treats surfaces the nozzle can reach']}
           />

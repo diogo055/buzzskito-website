@@ -134,7 +134,6 @@ export default function SureGuardMattressEncasementReviewCanadaPage() {
             name="SureGuard Zippered Mattress Encasement (Invisi-Zip, six-sided bed-bug proof)"
             blurb="A containment-grade encasement that gets the one detail right that matters most: the zipper end-stop. The Invisi-Zip flap folds over and Velcro-seals the fine-tooth zipper so it can't drift open where nymphs escape. Fully waterproof and noiseless-membrane, six-sided, machine washable, and priced within reach of the category leader. For an active or suspected infestation it's a defensible primary pick — provided you encase the box spring too and keep it sealed for the full 12–18 month window."
             search="sureguard mattress encasement bed bug proof"
-            score={8.7}
             pros={[
               'Invisi-Zip flap secures the zipper end-stop — the top failure point',
               'True six-sided, bite-proof, escape-proof seal',

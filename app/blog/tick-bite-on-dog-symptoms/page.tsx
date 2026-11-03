@@ -113,7 +113,6 @@ export default function TickBiteOnDogSymptomsPage() {
             name="Fine-tipped tick removal tool"
             blurb="The single most useful thing to own after a tick bite is a proper removal tool. A fine-tipped tool or pointed tweezers grips close to the skin so you can pull straight out without squeezing the tick's body or leaving mouthparts behind — the exact technique that lowers disease-transmission risk."
             search="tick removal tool tweezers"
-            score={8.7}
             pros={['Grips close to the skin for a clean pull', 'Reduces the chance of leaving mouthparts behind', 'Cheap, reusable, and worth keeping in every kit']}
             cons={['Still requires correct straight-out technique', 'Not a substitute for vet-prescribed preventatives']}
           />

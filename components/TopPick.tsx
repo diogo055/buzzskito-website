@@ -10,8 +10,9 @@ import { AMAZON_ENABLED, AMAZON_DISCLOSURE } from '@/lib/amazon'
  * SERVER component, fail-closed: renders nothing when no tag is configured
  * (same contract as BuyLink), so it can never emit an orphan CTA.
  *
- * Optional `score` shows our OWN editorial rating (never an Amazon rating), and
- * optional `pros`/`cons` add a scannable trust block.
+ * Optional `score` shows our OWN editorial rating (never an Amazon rating). It is being retired
+ * (owner, Nov 3, 2026): only the geo-title-test pages still pass one, until the Nov 20-23 read.
+ * Never add a new one. Optional `pros`/`cons` add a scannable trust block.
  */
 export default function TopPick({
   label = 'Our Top Pick',

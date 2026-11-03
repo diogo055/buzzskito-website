@@ -343,7 +343,6 @@ export default function TypesOfTicksIdentificationPage() {
             name="Fine-Tipped Tick Removal Tool Set"
             blurb="For a tick already attached, a dedicated fine-tipped remover grips right at the skin and lifts straight out — cleaner and safer than fingernails, and far less likely to crush the tick or leave mouthparts behind. A cheap, keep-it-in-the-first-aid-kit essential for anyone in tick country."
             search="tick removal tool fine tip tweezers"
-            score={8.7}
             pros={['Grips at skin level to lift the whole tick', 'Reduces the chance of leaving mouthparts', 'Inexpensive first-aid-kit staple']}
             cons={['Not a substitute for prompt yard treatment', 'Fine tips need steady hands on tiny nymphs']}
           />

@@ -144,7 +144,6 @@ export default function DupraySteamerReviewCanadaPage() {
             blurb="A boiler-driven dry-vapour steamer from Montreal-based Dupray (made in China, says Health Canada’s recall notice) that hits the two specs pest work actually needs: genuinely hot, low-moisture steam and a long continuous run so you can treat an entire mattress, box spring, and frame in one session. Corded and deliberate rather than grab-and-go, and it doubles as a chemical-free deep cleaner for kitchens, bathrooms, and floors — which is what makes the price defensible for a household that will keep using it. Not a standalone cure: pair it with a vacuum and interceptor monitoring."
            
             search="dupray neat steam cleaner"
-            score={9.1}
             pros={['Canadian brand — local Amazon.ca stock and warranty', 'Hot dry vapour that kills bugs and eggs, low moisture', 'Long continuous run — whole-bed treatment per fill', 'Doubles as a chemical-free household deep cleaner']}
             cons={['Batch codes 0118-01 to 0425-05 recalled Feb 26, 2026: check the label under the base', 'Premium price vs impulse-buy handhelds', 'Corded and needs a few minutes to build pressure', 'Only treats surfaces the nozzle can reach']}
           />

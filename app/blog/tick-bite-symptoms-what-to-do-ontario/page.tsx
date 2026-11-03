@@ -179,7 +179,6 @@ export default function TickBiteSymptomsPage() {
           name="Fine-Tipped Tick Removal Tool"
           blurb="A dedicated tick remover grips right at the skin and lifts the tick straight out — steadier and more precise than fingernails or wide household tweezers, so the mouthparts are far less likely to snap off. Cheap, reusable, and worth keeping in every first-aid kit and hiking pack."
           search="tick removal tool tweezers"
-          score={8.6}
           pros={['Grips close to the skin', 'Lowers risk of breaking mouthparts', 'Reusable and pocket-sized']}
           cons={['Still needs steady, even pressure', 'Keep one on hand before you need it']}
         />

@@ -326,7 +326,6 @@ export default function MosquitoLarvaePage() {
             blurb="For a rain barrel, ornamental pond, or drainage ditch you can't empty, a BTI dunk is the standout larvae killer. The Bacillus thuringiensis israelensis targets only mosquito (and blackfly/fungus-gnat) larvae, wiping them out within 24–48 hours rather than acting on fish, frogs, pets, birds, bees, or people. One dunk treats roughly 100 sq ft of water surface for about 30 days."
             search="summit mosquito dunks"
             asin="B005UTKT0W"
-            score={9.0}
             pros={['Kills larvae in 24–48 hours', 'Targets mosquito, black fly and fungus gnat larvae only', 'One dunk lasts ~30 days']}
             cons={['Slower than simply draining the water', 'Not needed for water you can just dump']}
           />

@@ -223,7 +223,6 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="Bacillus thuringiensis israelensis is lethal to mosquito larvae and harmless to fish, birds, pets, and people. One floating dunk treats roughly 9 m² of standing water for 30 days. Unlike anything you put on your skin, this lowers the number of mosquitoes in the yard — which is the only intervention that protects the mosquito magnet in your family and everyone else at the same time."
           search="summit mosquito dunks"
-          score={9.0}
           pros={['Reduces the mosquito population instead of just shielding one person', 'Safe around fish, birds, pets, and children', 'One dunk lasts 30 days in water you cannot drain']}
           cons={['Only reaches standing water on your own property', 'No effect on adults already flying']}
         />
@@ -238,7 +237,6 @@ export default function WhyMosquitoesBiteSomeMorePage() {
           name="Picaridin (20%) Insect Repellent"
           blurb="If you're the high-attraction person, a 20% picaridin repellent is the most practical skin defence — long-lasting protection comparable to DEET, but nearly odourless and safe on plastics, sunglasses, and gear. The single easiest lever a genetic mosquito magnet can actually pull."
           search="picaridin insect repellent canada"
-          score={9.0}
           pros={['Long-lasting, comparable to DEET', 'Nearly odourless', "Won't damage plastics or gear"]}
           cons={['Personal protection only — does not treat the yard', 'Needs reapplication over a long evening']}
         />

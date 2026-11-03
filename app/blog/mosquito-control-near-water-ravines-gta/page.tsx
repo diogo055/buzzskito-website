@@ -127,7 +127,6 @@ export default function MosquitoControlNearWaterPage() {
           name="Summit Mosquito Dunks (Bti larvicide)"
           blurb="For an ornamental pond, rain barrel, or bird bath, floating Bti dunks are the single most effective DIY move — a naturally occurring soil bacterium that kills mosquito larvae before they hatch and acts on those larvae rather than on fish, frogs, birds, or pets (use it where the label directs). One dunk treats about 100 sq ft of surface water for roughly 30 days."
           search="summit mosquito dunks"
-          score={8.7}
           pros={['Targets larvae — stops mosquitoes before they fly', 'Ornamental ponds are a labelled use site', 'One dunk lasts about 30 days']}
           cons={['Only works on standing water you can reach', 'No effect on adult mosquitoes already in the yard']}
         />

@@ -186,7 +186,6 @@ export default function IsMosquitoSpraySafePage() {
           name="Picaridin (Icaridin) Insect Repellent"
           blurb="For on-skin protection when you leave the yard, a picaridin (icaridin) repellent is our go-to for families — Health Canada rates it as effective as DEET at comparable concentrations, it's odourless and non-greasy, won't damage plastics or clothing, and may be used on children as young as six months. Always follow the concentration and age directions on the specific product label."
           search="picaridin insect repellent canada"
-          score={8.8}
           pros={['Rated as effective as DEET at comparable strength', 'Odourless, non-greasy, gentle on skin', 'Usable on kids from 6 months (per label)']}
           cons={['Not for infants under 6 months', 'Personal repellent only — not a yard treatment']}
         />

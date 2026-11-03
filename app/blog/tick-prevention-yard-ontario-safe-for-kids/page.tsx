@@ -186,7 +186,6 @@ export default function TickPreventionYardKidsPage() {
             name="Wondercide Cedar-Oil Yard Spray (hose-end)"
             blurb="A cedarwood-oil yard concentrate that attaches to a garden hose and covers roughly 465 m² — enough for the perimeter strip on a typical Ontario lot. Cedar oil kills and repels ticks on contact and is the DIY option parents pick most often; follow the label on when children and pets can return to the lawn. Treat the fence line, garden borders, and the base of hedges rather than the open lawn."
             search="wondercide cedar oil yard spray ticks"
-            score={8.4}
             pros={['Treats the actual questing zone, not just your skin', 'Cedarwood-oil concentrate', 'Hose-end applicator — no mixing or sprayer needed']}
             cons={['Shorter residual than professional barrier spray — reapply every 3–4 weeks', 'Cedar scent is noticeable for a day']}
           />
@@ -228,7 +227,6 @@ export default function TickPreventionYardKidsPage() {
             name="Picaridin (Icaridin) Insect Repellent"
             blurb="The pediatric-friendly skin layer many Ontario parents prefer over DEET — picaridin labels permit use on children as young as six months, it is odourless, and it will not damage plastics or clothing. Apply to exposed skin before outdoor play and reapply per the label."
             search="picaridin insect repellent canada"
-            score={8.7}
             pros={['Label permits use from 6 months', 'Odourless and non-greasy', 'Won’t damage plastics, gear, or clothing']}
             cons={['Skin layer only — not a yard treatment', 'Needs reapplication through the day']}
           />

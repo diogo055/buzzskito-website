@@ -135,7 +135,6 @@ export default function NaturalMosquitoControlPage() {
           name="Summit BTi Mosquito Dunks"
           blurb="Of every natural option, BTi dunks are the one that genuinely works — a soil-bacterium larvicide that kills mosquito larvae in standing water, with a toxin that targets mosquito and black fly larvae specifically (use it as the label directs). It's the same tool the City of Toronto relies on for larviciding. Drop one in rain barrels, ponds, and birdbaths to stop the next generation before it can bite."
           search="summit mosquito dunks"
-          score={8.7}
           pros={['Toxin targets mosquito & black fly larvae', 'Kills larvae before they become biting adults', 'Long-lasting — one dunk treats water for ~30 days']}
           cons={['Larvae only — does not repel adult mosquitoes', 'Needs standing water to be useful', 'High-pressure yards still need a barrier treatment']}
         />
