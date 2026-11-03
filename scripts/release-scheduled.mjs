@@ -14,6 +14,8 @@
 //   - "datePublished" becomes the day the page actually goes live. That is the only change
 //     made to the file, the script proves it, and the fact-check record is carried over.
 //   - the file moves to content/guides/
+//   - at most PACE.perDay pages go out in a day and PACE.perWeek in any 7 days in a row (owner,
+//     Nov 3, 2026, after the Google trust audit); the rest wait for the next mornings, in order
 // Then scripts/us-pages-register.mjs --checked-only wires the pages into the site (route
 // files, blog index, sitemap, Next/Related picks, llms.txt). Notes for the commit go to
 // data/god-build/releases/<date>.md and data/god-build/last-release-commit.txt.
@@ -37,6 +39,11 @@ const out = (k, v) => { if (process.env.GITHUB_OUTPUT) appendFileSync(process.en
 const warn = (m) => console.log(process.env.GITHUB_ACTIONS ? `::warning::${m}` : `WARNING: ${m}`)
 const sha = (text) => createHash('sha256').update(text.replace(/\r\n/g, '\n')).digest('hex')
 const DATE_FIELD = /("datePublished"\s*:\s*")(\d{4}-\d{2}-\d{2})(")/
+// Owner, Nov 3, 2026: 20-25 new pages a week at most and never more than 10 in a day. Every
+// 2025-2026 collapse the research found paired fast publishing with look-alike pages
+// (reports/Images and safe traffic growth 2026.md). Hand-written pages count too: CLAUDE.md.
+const PACE = { perDay: 10, perWeek: 25 }
+const addDays = (iso, n) => new Date(Date.parse(`${iso}T00:00:00Z`) + n * 864e5).toISOString().slice(0, 10)
 
 if (!existsSync(SRC)) { console.log('no schedule (data/god-build/plan.src.json): nothing to do'); out('due', 0); out('released', 0); process.exit(0) }
 const pages = JSON.parse(readFileSync(SRC, 'utf8')).pages
@@ -49,10 +56,24 @@ console.log(`${DATE}: ${due.length} scheduled page(s) due and still waiting`)
 out('due', due.length)
 if (CHECK || !due.length) { out('released', 0); process.exit(0) }
 
+// pages already released today and in the 6 days before it, from the fact-check records
+const recent = { today: 0, week: 0 }
+for (const f of readdirSync(CHECKED).filter((n) => n.endsWith('.json'))) {
+  let on = null
+  try { on = JSON.parse(readFileSync(join(CHECKED, f), 'utf8')).released?.on } catch {}
+  if (!on || on > DATE || on < addDays(DATE, -6)) continue
+  recent.week++
+  if (on === DATE) recent.today++
+}
+const room = Math.max(0, Math.min(PACE.perDay - recent.today, PACE.perWeek - recent.week))
+console.log(`pace: ${recent.today} released today, ${recent.week} in the last 7 days; room for ${room} more today`)
+
 const releasing = new Set(due.map(pathOf))
 const released = [], held = []
-// hubs first, so a page released on the same day as its hub is not held back
-for (const p of [...due].sort((a, b) => (a.role === 'hub' ? 0 : 1) - (b.role === 'hub' ? 0 : 1))) {
+// hubs first, so a page released on the same day as its hub is not held back; then the oldest
+// scheduled date, so a page the pace cap held back yesterday goes before today's
+const order = (p) => pages.indexOf(p)
+for (const p of [...due].sort((a, b) => ((a.role === 'hub' ? 0 : 1) - (b.role === 'hub' ? 0 : 1)) || a.releaseOn.localeCompare(b.releaseOn) || order(a) - order(b))) {
   const name = fileName(p)
   const raw = readFileSync(join(WAITING, name), 'utf8')
   let record = null
@@ -69,6 +90,9 @@ for (const p of [...due].sort((a, b) => (a.role === 'hub' ? 0 : 1) - (b.role ===
   if (JSON.stringify(a) !== JSON.stringify(b)) { held.push(`${pathOf(p)}: the date change touched more than the date`); continue }
   released.push({ p, name, next, record })
 }
+// the pace cap comes before the link count below, so no page goes out counting on a link from
+// a page that the cap keeps back
+for (const { p } of released.splice(room)) held.push(`${pathOf(p)}: waits for the pace cap (${PACE.perDay} a day, ${PACE.perWeek} in any 7 days)`)
 
 // The build's guide check (validate-guide.mjs --all) fails the whole release if a page goes live
 // with no link in from another guide, and a page whose topic hub is deferred has only other
