@@ -1791,13 +1791,6 @@ export const NEW_BLOGS_27 = [
 // High-ticket product money pages (Jul 21 2026). In sitemap + /blog index.
 export const NEW_BLOGS_28 = [
   {
-    slug: 'best-dehumidifier-for-basement-canada',
-    title: 'Best Dehumidifier for a Basement in Canada 2026 — Sizing, Drainage & the Pest Angle',
-    excerpt: 'Basement dehumidifier guide as a root-cause pest tool: pint sizing vs sq ft, continuous-drain vs bucket, compressor vs desiccant for cold basements, and the 30–50% RH target that starves silverfish, roaches, mites and mould.',
-    date: '2026-07-21',
-    category: 'tick' as const,
-  },
-  {
     slug: 'best-air-purifier-for-dust-mites-canada',
     title: 'Best Air Purifier for Dust Mites Canada 2026 — True-HEPA, CADR & Room Sizing',
     excerpt: 'True-HEPA air purifiers compared for Canadian dust-mite sufferers — how CADR and room sizing actually work, honest limits, and picks for large rooms, quiet bedrooms, and tight budgets.',
@@ -1944,7 +1937,6 @@ export const NEW_BLOGS_33 = [
 // NEW_BLOGS_33 already — not repeated here.
 export const NEW_BLOGS_34 = [
   { slug: "best-ant-killer", title: "Best Ant Killer in Canada 2026 — What Actually Kills the Colony", excerpt: "Best ant killer in Canada 2026: why bait beats every contact spray, indoor vs outdoor vs perimeter picks, and the PCP number to check before you buy.", date: '2026-07-28', category: 'tick' as const },
-  { slug: "best-ant-traps-canada", title: "Best Ant Traps in Canada 2026 — Bait Stations vs Glue Traps, and What Actually Kills the Colony", excerpt: "Best ant traps in Canada 2026: liquid bait stations beat glue boards because the colony carries the bait to the queen. Placement, pet safety, PCP rules.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-cockroach-spray-canada", title: "Cockroach Spray in Canada — The Three Jobs Worth Buying a Can For", excerpt: "Which cockroach spray to buy in Canada, and when not to: the three jobs a can genuinely wins, how to read a PCP label, and why spraying near bait ruins it.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-roach-traps-canada", title: "Cockroach Traps in Canada — Glue Boards Find Them, Bait Stations Kill Them", excerpt: "Which cockroach trap to buy in Canada: glue boards diagnose where roaches live, enclosed bait stations do the killing. How many of each, placement, PCP check.", date: '2026-07-28', category: 'tick' as const },
   { slug: "best-silverfish-traps", title: "Silverfish Traps in Canada — Which Type to Buy, How Many, and Where Each One Goes", excerpt: "Which silverfish trap to buy in Canada: flat glue boards vs covered stations vs the free jar trap, how many you need, where each goes, and when to replace.", date: '2026-07-28', category: 'tick' as const },

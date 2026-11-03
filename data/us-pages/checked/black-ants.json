@@ -2,7 +2,7 @@
  "id": "black-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "437264bd06e40048e7b6a08519d49e1584b8b53d0653a70b4b1e5ee83e3d570a",
+ "sha": "00c07a4352e44891eccfeff4c706831457d106895cfff865736a0f173903d0ca",
  "claimsChecked": 96,
  "claimsCorrected": 13,
  "claimsRemovedOrSoftened": 7,
@@ -12,6 +12,11 @@
    "on": "2026-10-23",
    "note": "photos: carpenter-ant-on-fingers (batch 12, Oct 23)",
    "previousSha": "44c0628847454bb8c8f883f67b082fed1069ed1f14070d3dfc6fdff44af26223"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: one internal link moved from /blog/best-ant-traps-canada to /blog/best-ant-killer, because the two pages were merged (301 redirect). No other text changed; no factual claim touched.",
+   "previousSha": "437264bd06e40048e7b6a08519d49e1584b8b53d0653a70b4b1e5ee83e3d570a"
   }
  ]
 }

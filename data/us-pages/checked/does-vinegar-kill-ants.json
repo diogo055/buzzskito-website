@@ -2,7 +2,7 @@
  "id": "does-vinegar-kill-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "1f9304b3f73cb7a6a48e5c242654e4a3706e2933f89645cd1bc2cdb9c5435907",
+ "sha": "a651cd0a01f18c20ae4a48034ab1a205659cb0a3b180adb7454547494add9f1b",
  "claimsChecked": 58,
  "claimsCorrected": 1,
  "claimsRemovedOrSoftened": 3,
@@ -10,5 +10,12 @@
  "linksAddedOn": "2026-10-11",
  "linksAdded": [
   "/learn/ant-killer-recipes"
+ ],
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: /blog/best-ant-traps-canada was merged into /blog/best-ant-killer (301 redirect), so one sentence that linked both now links the merged page once; wording adjusted only to name one page. No factual claim touched.",
+   "previousSha": "1f9304b3f73cb7a6a48e5c242654e4a3706e2933f89645cd1bc2cdb9c5435907"
+  }
  ]
 }

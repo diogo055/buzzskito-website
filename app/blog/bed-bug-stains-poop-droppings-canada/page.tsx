@@ -199,7 +199,7 @@ export default function BedBugStainsCanadaPage() {
                   <td className="px-4 py-3 font-bold text-brand-800">Diffuse grey-green patches with a musty smell on a stored mattress</td>
                   <td className="px-4 py-3 text-gray-700">Mould or mildew, not an insect</td>
                   <td className="px-4 py-3 text-gray-700">A humidity problem. Dry the space rather than treating for pests &mdash; sizing matters more than brand</td>
-                  <td className="px-4 py-3"><Link href="/blog/best-dehumidifier-for-basement-canada" className="text-emerald-700 underline font-semibold">Dehumidifier sizing guide &rarr;</Link></td>
+                  <td className="px-4 py-3"><Link href="/blog/best-large-capacity-dehumidifier-canada" className="text-emerald-700 underline font-semibold">Dehumidifier sizing guide &rarr;</Link></td>
                 </tr>
                 <tr className="border-b border-navy-50 align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Dry pepper-like specks in a kitchen or bathroom, will not smear</td>

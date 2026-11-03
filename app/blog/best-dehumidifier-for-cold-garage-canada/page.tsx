@@ -228,7 +228,7 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">&#9888;&#65039; Road salt does not care how dry your air is.</strong> Chloride tracked in on a vehicle is hygroscopic &mdash; it pulls moisture out of the air and keeps a patch of slab damp even in a well-dehumidified garage, and it corrodes steel far faster than water alone. Rinse it off the floor and off the underside of the car; no appliance substitutes for that. The same logic runs through our <Link href="/blog/best-dehumidifier-for-basement-canada" className="text-emerald-700 underline font-semibold">basement dehumidifier guide</Link>: fix the source of the water first, then dry what is left.
+              <strong className="text-amber-900">&#9888;&#65039; Road salt does not care how dry your air is.</strong> Chloride tracked in on a vehicle is hygroscopic &mdash; it pulls moisture out of the air and keeps a patch of slab damp even in a well-dehumidified garage, and it corrodes steel far faster than water alone. Rinse it off the floor and off the underside of the car; no appliance substitutes for that. The same logic runs through our <Link href="/blog/best-large-capacity-dehumidifier-canada" className="text-emerald-700 underline font-semibold">basement dehumidifier guide</Link>: fix the source of the water first, then dry what is left.
             </p>
           </div>
         </div>
@@ -314,7 +314,6 @@ export default function BestDehumidifierForColdGarageCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada">Crawl Space Dehumidifier vs Vapour Barrier &mdash; Which One First</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement &mdash; Sizing, Drainage &amp; the Pest Angle</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada &mdash; For the Wettest Spaces</Link></li>
             <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mold Canada &mdash; The 60% Humidity Threshold</Link></li>
             <li><Link href="/blog/how-to-keep-mice-out-of-your-car">How to Keep Mice Out of Your Car &mdash; The Garage Problem Nobody Mentions</Link></li>

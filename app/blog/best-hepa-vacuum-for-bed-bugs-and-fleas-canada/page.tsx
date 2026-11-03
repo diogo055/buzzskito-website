@@ -375,7 +375,7 @@ export default function BestHepaVacuumBedBugsFleasCanadaPage() {
             <li><Link href="/blog/bed-bug-interceptor-traps-canada">Bed-Bug Interceptor Traps Canada — Monitor and Protect the Bed</Link></li>
             <li><Link href="/blog/flea-bites-on-humans">Flea Bites on Humans — What They Look Like and the Cycle Behind Them</Link></li>
             <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Dehumidifier for a Canadian Basement</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost in Canada — What You&rsquo;ll Actually Pay</Link></li>
           </ul>
 

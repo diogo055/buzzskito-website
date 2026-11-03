@@ -2,7 +2,7 @@
  "id": "what-do-ants-eat",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c872c4317143fc03e8f40e5741819ee7b2be3b53585bd437e49952750267bc6c",
+ "sha": "18a5d35dc6263c2b68a839306e42b9613a1baf8452f1164a9fc31746f75e8854",
  "claimsChecked": 64,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 7,
@@ -16,6 +16,11 @@
    "on": "2026-10-28",
    "note": "Google Images wave 2 (Oct 28, 2026): 6 real photos added as figure blocks next to the text they illustrate (CC0 lead carpenter-ants-sausage-bait; thief-ants-dirty-plate, southern-fire-ants-bait-card, odorous-house-ants-aphids, harvester-ants-trimming-seed, leafcutter-ant-fungus-garden). Captions restate each photo's record (data/god-build/photos.json, photo-notes-batch14.json) plus facts the page already cites (UC IPM, Texas A&M, University of Nevada Reno). One sentence linking /tools/what-bug-is-this in the house section. No other text changed; dates unchanged.",
    "previousSha": "89d46e9b4fe1489e73415ee31b75f9500312d1e279177c216ff4ea2d34d89349"
+  },
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: one internal link moved from /blog/best-ant-traps-canada to /blog/best-ant-killer, because the two pages were merged (301 redirect). No other text changed; no factual claim touched.",
+   "previousSha": "c872c4317143fc03e8f40e5741819ee7b2be3b53585bd437e49952750267bc6c"
   }
  ]
 }

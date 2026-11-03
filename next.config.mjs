@@ -40,6 +40,9 @@ const nextConfig = {
       { source: '/blog/mosquito-repellent-for-dogs-canada', destination: '/blog/mosquito-repellent-for-dogs', permanent: true },
       { source: '/blog/raccoon-deterrent-canada', destination: '/blog/raccoon-deterrent', permanent: true },
       { source: '/blog/best-ant-killer-canada', destination: '/blog/best-ant-killer', permanent: true },
+      // Nov 3, 2026 merges: Google split the same searches between these pages (page-one plan, reports/page-one-plan-2026-11-02.md)
+      { source: '/blog/best-ant-traps-canada', destination: '/blog/best-ant-killer', permanent: true },
+      { source: '/blog/best-dehumidifier-for-basement-canada', destination: '/blog/best-large-capacity-dehumidifier-canada', permanent: true },
       { source: '/blog/best-mosquito-trap-canada', destination: '/blog/best-mosquito-trap', permanent: true },
       { source: '/blog/how-to-get-rid-of-fruit-flies-canada', destination: '/blog/how-to-get-rid-of-fruit-flies', permanent: true },
       { source: '/blog/picaridin-vs-deet-canada', destination: '/blog/picaridin-vs-deet', permanent: true },

@@ -19,8 +19,7 @@ const SECTIONS: HubSection[] = [
     icon: '🍯',
     intro: 'The bait-first strategy starts here. An enclosed liquid bait station is not really a trap: foragers feed, walk home alive, and share the slow-acting bait with other workers, the brood and the queen, which is how a consumer product reaches the part of the colony you cannot see. These two guides sort the ant aisle into the formats that do that and the ones, glue boards and contact sprays among them, that only kill the ants in front of you.',
     guides: [
-      { href: '/blog/best-ant-killer', title: 'Best Ant Killer in Canada', blurb: 'Liquid and protein bait stations, gels, outdoor stakes and sprays sorted by one question: does the product reach the colony or only the trail?', tone: 'top' },
-      { href: '/blog/best-ant-traps-canada', title: 'Best Ant Traps in Canada', blurb: 'Bait stations versus glue traps, how many placements a trail needs, and what makes an ant trap a regulated product in Canada.' },
+      { href: '/blog/best-ant-killer', title: 'Best Ant Killer & Ant Traps in Canada', blurb: 'Liquid and protein bait stations, gels, outdoor stakes and sprays sorted by one question: does the product reach the colony or only the trail? Plus bait stations versus glue traps.', tone: 'top' },
     ],
   },
   {

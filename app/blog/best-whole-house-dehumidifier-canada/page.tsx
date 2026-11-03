@@ -229,7 +229,7 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">&#9888;&#65039; Measure before you spend.</strong> A ducted dehumidifier is the most expensive answer to a damp house and the second-most-common wrong one. Put a hygrometer on each floor for a week of humid weather. If only the basement reads high, a <Link href="/blog/best-dehumidifier-for-basement-canada" className="text-emerald-700 underline font-semibold">basement portable</Link> is the correct purchase and you have just saved thousands.
+              <strong className="text-amber-900">&#9888;&#65039; Measure before you spend.</strong> A ducted dehumidifier is the most expensive answer to a damp house and the second-most-common wrong one. Put a hygrometer on each floor for a week of humid weather. If only the basement reads high, a <Link href="/blog/best-large-capacity-dehumidifier-canada" className="text-emerald-700 underline font-semibold">basement portable</Link> is the correct purchase and you have just saved thousands.
             </p>
           </div>
         </div>
@@ -348,7 +348,6 @@ export default function BestWholeHouseDehumidifierCanadaPage() {
           <h2>Related Reading</h2>
           <ul>
             <li><Link href="/blog/best-crawl-space-dehumidifier-canada">Best Crawl Space Dehumidifier Canada &mdash; Low-Clearance Units &amp; Pump Drainage</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement &mdash; Sizing, Drainage &amp; Placement</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada &mdash; For the Wettest Spaces</Link></li>
             <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mold Canada &mdash; The 60% Humidity Threshold</Link></li>
             <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada &mdash; The Same Damp Enemy</Link></li>

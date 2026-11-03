@@ -423,7 +423,7 @@ export default function BestEarwigKillerCanadaPage() {
             <li><strong>Nothing, for the mulch line.</strong> Pulling mulch back 15&ndash;30 cm from the foundation and leaving a bare band of gravel or stone is the single change that outranks every product here, and it needs a rake you already own. It is also the one outdoor location where a DE treatment actually stays dry enough to work.</li>
           </ul>
           <p className="not-prose text-gray-700">Of that list, the silicone is the item people under-buy. One tube and a basic caulking gun closes the hose bibs, dryer vents, line sets and foundation cracks on an average house in an afternoon, and unlike a dusting of DE it is still working next spring. Buy exterior-grade rather than the bathroom tube under the sink &mdash; interior sealant is not rated for the freeze-thaw cycling a Canadian foundation puts it through, and it fails at the joint within a season. <BuyLink tag={AMZ_TAG} search="exterior silicone caulk sealant">Check exterior-grade silicone and caulking guns on Amazon.ca &rarr;</BuyLink></p>
-          <p>If earwigs keep appearing indoors for weeks despite good sealing, stop buying pest products and start looking for water &mdash; a wet crawl space, a leaking foundation wall, a slow plumbing drip. In a chronically damp basement a dehumidifier does the same structural favour it does against <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish</Link>; our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link> covers sizing for Canadian basements.</p>
+          <p>If earwigs keep appearing indoors for weeks despite good sealing, stop buying pest products and start looking for water &mdash; a wet crawl space, a leaking foundation wall, a slow plumbing drip. In a chronically damp basement a dehumidifier does the same structural favour it does against <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish</Link>; our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link> covers sizing for Canadian basements.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="basement dehumidifier">Check basement dehumidifiers on Amazon.ca &rarr;</BuyLink>
           </div>
@@ -475,7 +475,7 @@ export default function BestEarwigKillerCanadaPage() {
             <li><Link href="/blog/best-silverfish-traps">Silverfish Traps in Canada — Which Type, How Many, Where They Go</Link></li>
             <li><Link href="/blog/best-centipede-killer-canada">Centipede Killer Canada — What to Buy, and in What Order</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Basement Dehumidifier in Canada — Sizing Guide</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Basement Dehumidifier in Canada — Sizing Guide</Link></li>
             <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Work? The Honest Answer</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
           </ul>

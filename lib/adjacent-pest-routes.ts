@@ -37,7 +37,6 @@ export const ADJACENT_PEST_ROUTES = new Set<string>([
   '/blog/best-cordless-fogger-canada',
   '/blog/best-crawl-space-dehumidifier-canada',
   '/blog/best-deer-fence-for-gardens-canada',
-  '/blog/best-dehumidifier-for-basement-canada',
   '/blog/best-dehumidifier-for-cold-garage-canada',
   '/blog/best-dehumidifier-for-mold-canada',
   '/blog/best-electric-fence-for-raccoons-canada',

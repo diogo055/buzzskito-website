@@ -329,7 +329,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           <ol>
             <li><strong>Filter the air.</strong> A well-sized True-HEPA purifier running 24/7 in the bedroom removes the airborne allergen stirred up by daily life &mdash; the part you feel most at night.</li>
             <li><strong>Encase the reservoir.</strong> The mattress and pillows are the biggest dust-mite colony in your home. Allergen-proof encasements seal the mites and their waste away from your airway &mdash; our <Link href="/blog/bed-bug-mattress-encasement-canada">mattress encasement guide</Link> covers the covers that work for dust mites too, not just bed bugs.</li>
-            <li><strong>Control humidity.</strong> Dust mites can&rsquo;t survive below roughly 50% relative humidity. In a damp home or basement, a right-sized dehumidifier attacks the population at the source &mdash; see our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link> for sizing.</li>
+            <li><strong>Control humidity.</strong> Dust mites can&rsquo;t survive below roughly 50% relative humidity. In a damp home or basement, a right-sized dehumidifier attacks the population at the source &mdash; see our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link> for sizing.</li>
           </ol>
           <p>Add weekly hot-water bedding washes (55C or hotter) and you are hitting dust mites from every angle: filtering what&rsquo;s airborne, sealing what&rsquo;s in the bed, and drying out the environment they need. That combination outperforms any single purchase &mdash; and it is why the &ldquo;best air purifier&rdquo; question is really the first third of a bigger answer. If you&rsquo;re budgeting the whole plan, our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> puts the numbers in context.</p>
           <p>For the mites themselves, our <Link href="/blog/dust-mites">dust mite guide</Link> has magnified photos, the allergy symptoms and how to tell dust mites from bed bugs.</p>
@@ -351,7 +351,7 @@ export default function BestAirPurifierForDustMitesCanadaPage() {
           <h2>Related Allergen-Control Guides</h2>
           <ul>
             <li><Link href="/blog/bed-bug-mattress-encasement-canada">Best Mattress Encasements in Canada — Dust Mites &amp; Bed Bugs</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Basement in Canada — Sizing &amp; Humidity Control</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Dehumidifier for a Basement in Canada — Sizing &amp; Humidity Control</Link></li>
             <li><Link href="/pest-product-guides">All BuzzSkito Pest Product Guides</Link></li>
             <li><Link href="/pest-control-cost-canada">Canadian Pest Control Cost Guide</Link></li>
           </ul>

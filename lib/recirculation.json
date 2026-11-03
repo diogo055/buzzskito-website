@@ -311,7 +311,7 @@
    "cards": [
     "/blog/best-whole-house-dehumidifier-canada",
     "/blog/what-size-dehumidifier-do-i-need-canada",
-    "/blog/best-dehumidifier-for-basement-canada"
+    "/blog/best-dehumidifier-for-cold-garage-canada"
    ]
   },
   "/blog/bed-bug-bites": {
@@ -607,7 +607,7 @@
    ]
   },
   "/blog/best-ant-killer": {
-   "next": "/blog/best-ant-traps-canada",
+   "next": "/blog/how-long-do-ants-live",
    "related": [
     "/blog/does-vinegar-kill-ants",
     "/blog/what-do-ants-eat",
@@ -617,19 +617,6 @@
     "/learn/ant-killer-recipes",
     "/blog/honeypot-ants",
     "/blog/tiny-ants"
-   ]
-  },
-  "/blog/best-ant-traps-canada": {
-   "next": "/blog/best-ant-killer",
-   "related": [
-    "/blog/how-to-get-rid-of-ants-in-the-house",
-    "/blog/borax-for-ants",
-    "/blog/how-to-get-rid-of-ants-in-the-kitchen"
-   ],
-   "cards": [
-    "/learn/ant-killer-recipes",
-    "/blog/do-ants-bite",
-    "/blog/how-many-ants-are-in-the-world"
    ]
   },
   "/blog/best-atv-sprayer-for-tick-yard-canada": {
@@ -856,9 +843,9 @@
   "/blog/best-commercial-lgr-dehumidifier-canada": {
    "next": "/blog/best-whole-house-dehumidifier-canada",
    "related": [
-    "/blog/best-dehumidifier-for-basement-canada",
     "/blog/best-dehumidifier-for-cold-garage-canada",
-    "/blog/best-dehumidifier-for-mold-canada"
+    "/blog/best-dehumidifier-for-mold-canada",
+    "/blog/best-large-capacity-dehumidifier-canada"
    ],
    "cards": [
     "/blog/best-sump-pump-for-basement-canada",
@@ -893,7 +880,7 @@
    ]
   },
   "/blog/best-crawl-space-dehumidifier-canada": {
-   "next": "/blog/best-dehumidifier-for-basement-canada",
+   "next": "/blog/battery-backup-sump-pump-canada",
    "related": [
     "/blog/best-large-capacity-dehumidifier-canada",
     "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada",
@@ -918,25 +905,12 @@
     "/learn/natural-weed-control"
    ]
   },
-  "/blog/best-dehumidifier-for-basement-canada": {
-   "next": "/blog/best-sump-pump-for-basement-canada",
-   "related": [
-    "/blog/best-whole-house-dehumidifier-canada",
-    "/blog/best-dehumidifier-for-cold-garage-canada",
-    "/blog/best-dehumidifier-for-mold-canada"
-   ],
-   "cards": [
-    "/blog/best-crawl-space-dehumidifier-canada",
-    "/blog/best-large-capacity-dehumidifier-canada",
-    "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada"
-   ]
-  },
   "/blog/best-dehumidifier-for-cold-garage-canada": {
    "next": "/blog/desiccant-vs-compressor-dehumidifier-canada",
    "related": [
-    "/blog/best-dehumidifier-for-basement-canada",
     "/blog/best-whole-house-dehumidifier-canada",
-    "/blog/best-dehumidifier-for-mold-canada"
+    "/blog/best-dehumidifier-for-mold-canada",
+    "/blog/best-commercial-lgr-dehumidifier-canada"
    ],
    "cards": [
     "/blog/what-size-dehumidifier-do-i-need-canada",
@@ -947,9 +921,9 @@
   "/blog/best-dehumidifier-for-mold-canada": {
    "next": "/blog/best-crawl-space-dehumidifier-canada",
    "related": [
-    "/blog/best-dehumidifier-for-basement-canada",
     "/blog/best-large-capacity-dehumidifier-canada",
-    "/blog/best-commercial-lgr-dehumidifier-canada"
+    "/blog/best-commercial-lgr-dehumidifier-canada",
+    "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada"
    ],
    "cards": [
     "/blog/best-dehumidifier-for-cold-garage-canada",
@@ -1084,7 +1058,7 @@
    "cards": [
     "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada",
     "/blog/battery-backup-sump-pump-canada",
-    "/blog/best-dehumidifier-for-basement-canada"
+    "/blog/best-dehumidifier-for-mold-canada"
    ]
   },
   "/blog/best-live-animal-trap-canada": {
@@ -1387,7 +1361,7 @@
    ]
   },
   "/blog/best-sump-pump-for-basement-canada": {
-   "next": "/blog/best-dehumidifier-for-basement-canada",
+   "next": "/blog/what-size-dehumidifier-do-i-need-canada",
    "related": [
     "/blog/best-large-capacity-dehumidifier-canada",
     "/blog/best-crawl-space-dehumidifier-canada",
@@ -1506,9 +1480,9 @@
   "/blog/best-whole-house-dehumidifier-canada": {
    "next": "/blog/best-crawl-space-dehumidifier-canada",
    "related": [
-    "/blog/best-dehumidifier-for-basement-canada",
     "/blog/best-dehumidifier-for-mold-canada",
-    "/blog/best-sump-pump-for-basement-canada"
+    "/blog/best-sump-pump-for-basement-canada",
+    "/blog/what-size-dehumidifier-do-i-need-canada"
    ],
    "cards": [
     "/blog/desiccant-vs-compressor-dehumidifier-canada",
@@ -2216,7 +2190,7 @@
    "related": [
     "/blog/desiccant-vs-compressor-dehumidifier-canada",
     "/blog/best-crawl-space-dehumidifier-canada",
-    "/blog/best-dehumidifier-for-basement-canada"
+    "/blog/best-dehumidifier-for-cold-garage-canada"
    ],
    "cards": [
     "/blog/best-dehumidifier-for-mold-canada",
@@ -2234,7 +2208,7 @@
    "cards": [
     "/learn/ant-killer-recipes",
     "/blog/red-ants",
-    "/blog/best-ant-traps-canada"
+    "/blog/army-ants"
    ],
    "bar": true
   },
@@ -7277,9 +7251,9 @@
     "/blog/best-whole-house-dehumidifier-canada"
    ],
    "cards": [
-    "/blog/best-dehumidifier-for-basement-canada",
     "/blog/best-large-capacity-dehumidifier-canada",
-    "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada"
+    "/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada",
+    "/blog/best-dehumidifier-for-mold-canada"
    ]
   },
   "/blog/what-smells-do-mice-hate": {

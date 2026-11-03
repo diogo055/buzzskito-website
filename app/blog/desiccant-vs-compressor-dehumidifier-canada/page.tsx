@@ -240,7 +240,7 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ Neither class fixes water that is physically getting in.</strong> A cracked foundation, failed grading or a leaking pipe will out-supply any dehumidifier ever made. Diagnose whether you have a humidity problem or a water problem first &mdash; our <Link href="/blog/best-dehumidifier-for-basement-canada" className="text-emerald-700 underline font-semibold">basement dehumidifier guide</Link> covers the difference, and the <Link href="/blog/best-commercial-lgr-dehumidifier-canada" className="text-emerald-700 underline font-semibold">commercial LGR guide</Link> covers what contractors use after an actual flood.
+              <strong className="text-amber-900">⚠️ Neither class fixes water that is physically getting in.</strong> A cracked foundation, failed grading or a leaking pipe will out-supply any dehumidifier ever made. Diagnose whether you have a humidity problem or a water problem first &mdash; our <Link href="/blog/best-large-capacity-dehumidifier-canada" className="text-emerald-700 underline font-semibold">basement dehumidifier guide</Link> covers the difference, and the <Link href="/blog/best-commercial-lgr-dehumidifier-canada" className="text-emerald-700 underline font-semibold">commercial LGR guide</Link> covers what contractors use after an actual flood.
             </p>
           </div>
         </div>
@@ -315,7 +315,6 @@ export default function DesiccantVsCompressorDehumidifierCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement — Sizing, Drainage &amp; the Pest Angle</Link></li>
             <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mold Canada — The 60% Humidity Threshold</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada — Big &amp; Wet Basements</Link></li>
             <li><Link href="/blog/best-commercial-lgr-dehumidifier-canada">Best Commercial LGR Dehumidifier Canada — Job-Site Structural Drying</Link></li>

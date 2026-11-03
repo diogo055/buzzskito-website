@@ -272,7 +272,7 @@ export default function BatteryBackupSumpPumpCanadaPage() {
 
           <h2>The Other Half of a Wet Basement</h2>
           <p>A backup pump handles the event. It does nothing about the ambient condition a pit-served basement usually has, which is elevated relative humidity for most of the Ontario summer. Above roughly 60% RH you are running an environment that favours mould, dust mites, silverfish and centipedes &mdash; the classic damp-basement lineup.</p>
-          <p>If the pump runs often, pair it with dehumidification sized to the space: our <Link href="/blog/what-size-dehumidifier-do-i-need-canada">dehumidifier sizing guide</Link> covers the pint-per-day maths, <Link href="/blog/best-dehumidifier-for-basement-canada">the basement picks</Link> cover the units themselves, and if the moisture is arriving through a dirt crawl space rather than the pit, <Link href="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada">vapour barrier versus dehumidifier</Link> is the decision to read first. If the crawlers have already moved in, <Link href="/blog/how-to-get-rid-of-centipedes-canada">centipede control</Link> starts with drying the space, not with spray.</p>
+          <p>If the pump runs often, pair it with dehumidification sized to the space: our <Link href="/blog/what-size-dehumidifier-do-i-need-canada">dehumidifier sizing guide</Link> covers the pint-per-day maths, <Link href="/blog/best-large-capacity-dehumidifier-canada">the basement picks</Link> cover the units themselves, and if the moisture is arriving through a dirt crawl space rather than the pit, <Link href="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada">vapour barrier versus dehumidifier</Link> is the decision to read first. If the crawlers have already moved in, <Link href="/blog/how-to-get-rid-of-centipedes-canada">centipede control</Link> starts with drying the space, not with spray.</p>
 
           <AdjacentPestCTA variant="equipment" />
 
@@ -316,7 +316,7 @@ export default function BatteryBackupSumpPumpCanadaPage() {
 
           <h2>Related Reading</h2>
           <ul>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Basement Dehumidifiers in Canada</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Basement Dehumidifiers in Canada</Link></li>
             <li><Link href="/blog/what-size-dehumidifier-do-i-need-canada">What Size Dehumidifier Do I Need?</Link></li>
             <li><Link href="/blog/crawl-space-dehumidifier-vs-vapour-barrier-canada">Crawl Space Dehumidifier vs Vapour Barrier</Link></li>
             <li><Link href="/blog/does-standing-water-attract-mosquitoes">Does Standing Water Attract Mosquitoes?</Link></li>

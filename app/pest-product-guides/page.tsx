@@ -178,8 +178,7 @@ const RESEARCH: Category[] = [
     posts: [
       { href: '/blog/how-to-get-rid-of-ants-canada', label: 'Get Rid of Ants', note: 'Why baiting beats every spray' },
       { href: '/blog/carpenter-ants-canada', label: 'Carpenter Ants', note: 'Find the nest, or you’re just killing ants' },
-      { href: '/blog/best-ant-traps-canada', label: 'Best Ant Traps', note: 'Bait stations vs glue traps' },
-      { href: '/blog/best-ant-killer', label: 'Best Ant Killer', note: 'What actually kills the colony' },
+      { href: '/blog/best-ant-killer', label: 'Best Ant Killer & Traps', note: 'What actually kills the colony' },
     ],
   },
   {
@@ -206,7 +205,7 @@ const RESEARCH: Category[] = [
     posts: [
       { href: '/blog/best-thermal-fogger-canada', label: 'Thermal & ULV Foggers', note: 'Pulse-jet vs cold fog' },
       { href: '/blog/best-battery-backpack-sprayer-canada', label: 'Backpack Sprayers', note: 'Battery vs manual' },
-      { href: '/blog/best-dehumidifier-for-basement-canada', label: 'Basement Dehumidifiers', note: 'Sizing, drainage & the pest angle' },
+      { href: '/blog/best-large-capacity-dehumidifier-canada', label: 'Basement Dehumidifiers', note: 'Sizing, drainage & the pest angle' },
       { href: '/blog/best-steam-cleaner-for-pest-control-canada', label: 'Steam Cleaners', note: 'Chemical-free heat' },
     ],
   },

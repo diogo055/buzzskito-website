@@ -228,7 +228,7 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
           </p>
           <div className="mt-5 rounded-xl bg-amber-50 border-l-4 border-amber-400 p-4">
             <p className="text-sm text-gray-800 leading-relaxed">
-              <strong className="text-amber-900">⚠️ If you are not drying an active water loss, you are on the wrong page.</strong> A damp, musty basement is a humidity problem, and a residential unit with a humidistat solves it for roughly a tenth of the price &mdash; see our <Link href="/blog/best-dehumidifier-for-basement-canada" className="text-emerald-700 underline font-semibold">basement dehumidifier guide</Link> or the <Link href="/blog/best-dehumidifier-for-mold-canada" className="text-emerald-700 underline font-semibold">mould-control guide</Link> instead.
+              <strong className="text-amber-900">⚠️ If you are not drying an active water loss, you are on the wrong page.</strong> A damp, musty basement is a humidity problem, and a residential unit with a humidistat solves it for roughly a tenth of the price &mdash; see our <Link href="/blog/best-large-capacity-dehumidifier-canada" className="text-emerald-700 underline font-semibold">basement dehumidifier guide</Link> or the <Link href="/blog/best-dehumidifier-for-mold-canada" className="text-emerald-700 underline font-semibold">mould-control guide</Link> instead.
             </p>
           </div>
         </div>
@@ -310,7 +310,6 @@ export default function BestCommercialLgrDehumidifierCanadaPage() {
           <ul>
             <li><Link href="/blog/desiccant-vs-compressor-dehumidifier-canada">Desiccant vs Compressor Dehumidifier Canada — The Cold-Room Fork in the Road</Link></li>
             <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Large-Capacity Dehumidifier Canada — For the Wettest Basements</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement — Sizing &amp; Drainage</Link></li>
             <li><Link href="/blog/best-dehumidifier-for-mold-canada">Best Dehumidifier for Mold Canada — The 60% Humidity Threshold</Link></li>
             <li><Link href="/blog/best-pest-control-equipment-canada">Best Pest-Control Equipment Canada — The Full Device Hub</Link></li>
           </ul>

@@ -11,25 +11,34 @@ import FreshnessStamp from '@/components/FreshnessStamp'
 import AuthorByline from '@/components/AuthorByline'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
-import NextUp from '@/components/NextUp'
-import RelatedLinks from '@/components/RelatedLinks'
 import QuickIdTable from '@/components/QuickIdTable'
 import Photo from '@/components/Photo'
+import NextUp from '@/components/NextUp'
+import RelatedLinks from '@/components/RelatedLinks'
 
 // The page's own address. It was renamed from best-ant-killer-canada on Sep 3, 2026
 // (next.config.mjs redirects the old address here). Until Oct 11 this still held the old name,
 // so the canonical, og:url and structured data pointed at an address that redirects back here.
 const SLUG = 'best-ant-killer'
 const DATE = '2026-07-28'
-const UPDATED = '2026-10-28'
-const TITLE = 'Best Ant Killer in Canada 2026 — What Actually Kills the Colony'
-// TITLE NOTE (Oct 28, 2026): was 'Best Ant Killer Canada 2026: Bait vs Spray'; top queries (Jul 28-Oct 25): ant bait 68 (pos 10.3), advance carpenter ant bait canada 19, best outdoor ant killer 8 (1 click), best ant poison 7 (1 click), ant bait gel 4. 'Ant bait' added because it is this page's own top search; 'ant traps' and 'best ant traps' stay with /blog/best-ant-traps-canada.
-const META_TITLE = 'Best Ant Killer Canada: Ant Bait vs Spray (2026)'
+const UPDATED = '2026-11-03'
+const TITLE = 'Best Ant Killer & Ant Traps in Canada 2026 — What Actually Kills the Colony'
+// MERGE NOTE (Nov 3, 2026): the ant traps page (best-ant-traps-canada, 301-redirected here) was merged into this one,
+// because Google split 'ant bait', 'best ant killer canada' and 'ant traps' between the two (both stuck around positions 6-15).
+// Its top queries (Jul 28-Oct 25): ant traps 591 (pos 15.0), best ant traps 433 (8.0), protein ant bait 44, best ant bait 36,
+// carpenter ant bait canada 25. Its one product (TERRO liquid baits) was already here; its glue-trap, liquid/solid/gel,
+// placement, pet and child safety and ant ID sections and six FAQs were folded in.
+// TITLE NOTE (Oct 28, 2026): was 'Best Ant Killer Canada 2026: Bait vs Spray'; top queries (Jul 28-Oct 25): ant bait 68 (pos 10.3), advance carpenter ant bait canada 19, best outdoor ant killer 8 (1 click), best ant poison 7 (1 click), ant bait gel 4. 'Ant bait' added because it is this page's own top search; 'ant traps' and 'best ant traps' stayed with the ant traps page until the Nov 3 merge.
+const META_TITLE = 'Best Ant Killer & Ant Traps Canada: Use Ant Bait'
 
 const FAQS = [
   {
     question: 'What is the best ant killer in Canada?',
     answer: 'For almost every Canadian household ant problem, the best ant killer is a slow-acting liquid bait station placed on the live trail — TERRO Liquid Ant Baits are a widely stocked example in Canada, sold at Amazon.ca, Canadian Tire and Home Depot Canada. The reason is arithmetic, not brand loyalty: the ants marching across your counter are foragers, a small fraction of a colony that lives out of sight, and killing them changes nothing. A sweet borax bait is carried home and shared mouth-to-mouth through the nest, which is effectively the only consumer product category that reaches the queen. If the sugar bait gets ignored, add a protein/grease bait station beside it — the colony diet shifts through the season.',
+  },
+  {
+    question: 'Do ant traps actually work?',
+    answer: 'Bait stations work; glue traps do not. That distinction is the whole answer. A bait station works because it exploits ant biology — the colony distributes your active ingredient for you, so a station that looks like it is doing nothing on day one can collapse an entire nest over the following weeks. A glue board catches individual foragers, which are a small and constantly replaced fraction of a colony, so the queen never notices. If someone tells you ant traps do not work, the usual explanations are the sticky kind, spraying near the bait, or throwing the station out during the recruitment surge on day two.',
   },
   {
     question: 'What kills ants instantly?',
@@ -48,6 +57,14 @@ const FAQS = [
     answer: 'Formulation, weather resistance and legal footing. Indoor products are enclosed liquid or solid bait stations and gels designed for kitchens, pantries and bathrooms — sealed formats you can place near food-prep areas and out of reach of children and pets. Outdoor products are weatherproof bait stakes and granular baits built to survive rain and UV, placed at nest openings, along foundations, and under decks. A third category, perimeter residual sprays, is not really an ant killer at all — it is a barrier treatment, it is repellent to ants, and in Ontario the cosmetic-use rules on lawn-and-garden pesticides restrict it further. Buying an outdoor concentrate to spray around the house is usually the wrong purchase.',
   },
   {
+    question: 'Where should I put ant traps?',
+    answer: 'Directly on the live trail, and in more places than feels necessary. Ants forage in narrow corridors, so a station a metre off the route is furniture. Get down at counter level, follow the line back to where it disappears into a gap, and place stations at that entry point, along the trail, under the sink, behind the stove, and in the cupboard corner nearest the activity. Set them beside the line rather than on top of it so you are not disturbing traffic. Then leave the trail alone — do not wipe it with vinegar or cleaner, because that pheromone path is the delivery route your bait depends on.',
+  },
+  {
+    question: 'How many ant traps do I need?',
+    answer: 'For a typical kitchen or bathroom trail, plan on four to six placements rather than one, which is why baits are sold in multi-packs. One station is a point defence against an insect that travels in fixed corridors. Coverage matters more than quantity of bait: a station at the entry gap, one mid-trail, one under the sink, one behind the appliance, and one in the nearest cupboard gives foragers several chances to find the offer. If you have trails in two rooms, treat them as two separate jobs with their own placements.',
+  },
+  {
     question: 'Are TERRO liquid ant baits safe around pets and kids?',
     answer: 'The enclosed station format is the reason they are the default recommendation here, but treat every pesticide as a pesticide. TERRO liquid baits use borax (sodium tetraborate) in a sweet liquid inside a plastic station, so the active is not on an open surface — but the stations are chewable, dogs are attracted to anything sweet, and a chewed station is a spill. Place them behind appliances, under sinks, inside cabinets, at the back of counters — on the trail but out of reach of paws and toddlers. Read the Canadian label directions on the pack, which is the legally binding instruction set, and keep the package until the job is finished in case you need to call poison control.',
   },
@@ -56,12 +73,24 @@ const FAQS = [
     answer: 'Do not assume it is, and do not buy it from a photo. Many potent ant gels and concentrates that dominate American advice threads are registered with the US EPA, not with Health Canada, and under the Pest Control Products Act any pesticide sold or used in Canada must carry its own Canadian registration number on the label — printed as "Reg. No. XXXXX P.C.P. Act" — plus a class designation. Some professional-grade products carry a COMMERCIAL designation, which means they are not for household use without the appropriate licence. The ten-second habit that settles it: look at the physical label for a PCP number and the class. No PCP number means no Canadian label directions, and the legal exposure is yours, not the seller’s.',
   },
   {
+    question: 'Are ant traps on Amazon the same as the ones in Canadian stores?',
+    answer: 'Not always. A listing can show a pack labelled for the United States, and you cannot always tell from a photo. Health Canada says a pest control product registered for use in Canada carries its registration number on the label (Reg. No. 00000 P.C.P. Act), that checking is especially important on online platforms that sell products from third-party vendors, and that it is a violation of the Pest Control Products Act to buy and use unregistered pesticides. Look for the number in the listing photos, check it again on the pack when it arrives, and return anything without one.',
+  },
+  {
     question: 'What is the best ant killer for carpenter ants?',
     answer: 'Nothing you spray on a trail. Carpenter ants are a structural problem: the colony is excavating galleries in wood somewhere in or near your building, usually where water has already softened it, and the ants crossing your kitchen are foragers commuting from that nest. Killing them does not touch the gallery. The consumer approach that reaches the nest is slow-acting bait — carpenter ants take both sugar and protein baits, though they are famously fussy — combined with finding and fixing the moisture source. Coarse sawdust-like frass, a rustling in a wall at night, and large black ants indoors in February all point to an interior nest. That is a professional call, and our carpenter ant guide covers the inspection properly.',
   },
   {
     question: 'How long does ant bait take to work?',
     answer: 'Expect a busier trail for two to four days, visible decline within roughly one to two weeks, and full elimination of a typical pavement or odorous house ant colony in a few weeks. Slowness is a feature: an active that killed the forager on the spot would never make it back to the nest, so bait is deliberately formulated to let the ant survive long enough to share its load. Pharaoh ants take longer and are the most unforgiving of mistakes. If two weeks pass with no change at all, the usual causes are the wrong bait type for the colony’s current diet, bait placed off the trail rather than on it, spray residue nearby causing bait refusal, or an insufficient number of stations for the traffic.',
+  },
+  {
+    question: 'Do ant bait stations need to be replaced?',
+    answer: 'Yes, and dried-out bait is an easily missed reason a treatment stalls. Liquid bait evaporates and crusts over, and crusted bait is invisible to an ant — the station is still sitting there looking like a treatment while offering nothing. Check placements every few days during an active job and swap any station that is drained or dry; during a heavy recruitment surge that can happen quickly. Solid and gel formats last longer but also dry, harden, or collect dust. Once activity has fully stopped for several consecutive days, remove the stations and wash the trail route with hot soapy water so no pheromone map is left behind.',
+  },
+  {
+    question: 'What is a protein ant bait, and when do I need one?',
+    answer: 'A protein (or grease) ant bait carries a slow-acting active ingredient in a protein or fat base instead of sugar. Colonies switch between carbohydrate and protein depending on whether they are fuelling workers or raising brood, so a colony in a protein phase walks straight past a sweet liquid station. When that happens, set a solid protein station beside the liquid one and let the ants choose: Health Canada says two different baits at the same time give better results. Buy it where you can read the pack and see a Canadian PCP registration number.',
   },
   {
     question: 'Does vinegar or cinnamon kill ants?',
@@ -91,7 +120,7 @@ const FAQS = [
 
 export const metadata: Metadata = buildMetadata({
   title: META_TITLE,
-  description: 'Best ant killer in Canada: a slow liquid ant bait set on the trail, not a spray. Every type compared with Health Canada’s advice, plus outdoor picks.',
+  description: 'Best ant killer and ant traps in Canada: slow liquid bait stations set on the trail, not sprays or glue traps. Health Canada’s advice, plus outdoor picks.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -105,7 +134,7 @@ const AMZ_TAG = tagForSlug('best-ant-killer-canada')
 export default function BestAntKillerCanadaPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buying guide to ant killers: liquid and solid baits vs gels vs contact aerosols vs perimeter barriers, indoor/outdoor/perimeter product selection, why repellent sprays cause colony budding and bait refusal, PMRA and PCP registration checks, Ontario cosmetic-pesticide context, and an honest call-a-pro threshold.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingSchema({ title: TITLE, description: 'Independent Canadian buying guide to ant killers and ant traps: liquid and solid bait stations vs gels vs glue traps vs contact aerosols vs perimeter barriers, indoor/outdoor/perimeter product selection, where to place bait stations, pet and child safety, why repellent sprays cause colony budding and bait refusal, PMRA and PCP registration checks, Ontario cosmetic-pesticide context, and an honest call-a-pro threshold.', slug: SLUG, datePublished: DATE, dateModified: UPDATED })) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([{ name: 'Home', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Best Ant Killer Canada', url: `/blog/${SLUG}` }])) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema(`/blog/${SLUG}`, UPDATED)) }} />
@@ -118,7 +147,7 @@ export default function BestAntKillerCanadaPage() {
             <span className="text-white">Best Ant Killer Canada</span>
           </nav>
           <h1 className="text-4xl sm:text-5xl font-extrabold mb-4 leading-tight">{TITLE}</h1>
-          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the best ant killer in Canada is a slow-acting liquid ant bait, like the TERRO Liquid Ant Baits picked below, set right on the trail. Foragers carry it home and share it, so it reaches the queen. Keep a spray for one spot you need clear right now, then bait: a spray kills only the ants it touches, and the nest keeps making more.</p>
+          <p className="text-xl text-brand-100 max-w-3xl"><strong className="text-white">Short answer:</strong> the best ant killer in Canada, and the best ant trap, is a slow-acting liquid ant bait, like the TERRO Liquid Ant Baits picked below, set right on the trail. Foragers carry it home and share it, so it reaches the queen. Keep a spray for one spot you need clear right now, then bait: a spray kills only the ants it touches, and the nest keeps making more. Glue-board &ldquo;ant traps&rdquo; only catch the ants you can see.</p>
           <div className="mt-4"><FreshnessStamp date={UPDATED} tone="dark" /></div>
         </div>
       </section>
@@ -131,11 +160,13 @@ export default function BestAntKillerCanadaPage() {
         <div className="max-w-4xl mx-auto">
           <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-5 my-6 speakable">
             <p className="text-xs font-extrabold uppercase tracking-wider text-emerald-700 mb-2">Quick Answer</p>
-            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best ant killer in Canada for almost every household is a slow-acting liquid bait station placed directly on the live trail &mdash; TERRO Liquid Ant Baits are a widely stocked example in Canada. Foragers carry the sweet borax bait home and share it through the nest, which is effectively the only consumer method that reaches the queen. Add a protein/grease bait if the sugar is ignored, weatherproof bait stakes for outdoor nests, and keep contact sprays for one narrow job: an immediate, contained knockdown.</p>
+            <p className="text-gray-800 text-[15px] leading-relaxed font-medium">The best ant killer in Canada for almost every household, and the best ant trap, is a slow-acting liquid bait station placed directly on the live trail &mdash; TERRO Liquid Ant Baits are a widely stocked example in Canada. Foragers carry the sweet borax bait home and share it through the nest, which is effectively the only consumer method that reaches the queen. Add a protein/grease bait if the sugar is ignored, weatherproof bait stakes for outdoor nests, and keep contact sprays for one narrow job: an immediate, contained knockdown.</p>
             <ul className="mt-3 space-y-1.5 text-sm text-gray-700 list-disc pl-5">
               <li>The ants you see are foragers &mdash; a small fraction of the colony. Killing them on sight changes nothing.</li>
+              <li>Two products share the name &ldquo;ant trap&rdquo;: <strong>bait stations</strong> (kill the colony) and <strong>sticky traps</strong> (kill the ant stuck to them). Only one ends the problem.</li>
               <li>Long-residual perimeter sprays are repellent to ants: they cause bait refusal, and in multi-queen species they can trigger colony budding into new nests.</li>
               <li>Indoor, outdoor and perimeter products are three different purchases &mdash; buying the wrong one is a common and expensive Canadian DIY ant mistake.</li>
+              <li>Four to six placements beats one. Ants travel in narrow corridors; a station a metre off the trail is invisible.</li>
               <li>Expect MORE ants for two to four days after baiting. That is recruitment, and it means the bait is moving.</li>
               <li>Check any imported gel or concentrate for a Canadian registration number reading &ldquo;Reg. No. XXXXX P.C.P. Act&rdquo; plus its class designation before you buy.</li>
               <li>Skip entirely: ultrasonic repellers, ant chalk, and vinegar or cinnamon as a control method.</li>
@@ -279,6 +310,13 @@ export default function BestAntKillerCanadaPage() {
                   <td className="px-4 py-3 text-gray-700"><strong className="text-amber-700">Useful supplement</strong> &mdash; dry areas only, never near bait. Buy the PCP-registered insecticidal grade by name, not unregistered food-grade DE</td>
                   <td className="px-4 py-3"><BuyLink tag={AMZ_TAG} search="safers insect killing diatomaceous earth" block>Check price on Amazon.ca →</BuyLink></td>
                 </tr>
+                <tr className="border-b border-navy-50 align-top">
+                  <td className="px-4 py-3 font-bold text-brand-800">Glue board / sticky trap<br /><span className="font-normal text-xs text-gray-500">Sold as an &ldquo;ant trap&rdquo;; no active ingredient</span></td>
+                  <td className="px-4 py-3 text-gray-700">Cockroach monitoring, not ants</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Only the foragers</strong> that walk onto it</td>
+                  <td className="px-4 py-3 text-gray-700"><strong className="text-red-700">Skip for ants</strong> &mdash; the colony out-produces the board</td>
+                  <td className="px-4 py-3 text-xs text-gray-400">Save your money</td>
+                </tr>
                 <tr className="align-top">
                   <td className="px-4 py-3 font-bold text-brand-800">Ultrasonic repellers<br /><span className="font-normal text-xs text-gray-500">Plug-in devices</span></td>
                   <td className="px-4 py-3 text-gray-700">Marketed for anywhere</td>
@@ -307,17 +345,21 @@ export default function BestAntKillerCanadaPage() {
                   ['Best overall buy', 'Indoor liquid bait station on the live trail (TERRO Liquid Ant Baits — widely stocked in Canada)'],
                   ['Best outdoor buy', 'Weatherproof liquid bait stakes at nest openings — not a perimeter concentrate'],
                   ['Best backup when bait is ignored', 'A protein/grease station beside the liquid one — appetite shifts with the brood'],
+                  ['Placements for one kitchen trail', 'Four to six, not one — ants forage in narrow corridors'],
                   ['What "instant kill" buys you', 'The foragers you can see — a small fraction of the colony'],
+                  ['What a glue-board "ant trap" does', 'Catches foragers; the colony replaces them faster than the board fills'],
                   ['Why slow is the point', 'The forager must survive the trip home to share the dose (trophallaxis)'],
                   ['Expect first', 'MORE ants for 2–4 days — recruitment means the bait is moving'],
                   ['Visible decline', 'Roughly 1–2 weeks; full colony kill in a few weeks (longer for pharaoh ants)'],
                   ['Common DIY mistake', 'Spraying the trail — kills the couriers and poisons the ground bait needs'],
                   ['Another common mistake', 'Wiping the trail before baiting — it is the delivery route'],
+                  ['Easily missed failure', 'Bait dried out and crusted over — replace stations during an active job'],
+                  ['Pet and child format', 'Enclosed child-resistant stations, placed out of physical reach anyway'],
                   ['Legality check', 'Every pesticide legal here shows "Reg. No. XXXXX P.C.P. Act" plus a class designation'],
                   ['Class designation', 'DOMESTIC is household use; COMMERCIAL products are not for unlicensed homeowners'],
                   ['Provincial layer', 'Ontario restricts cosmetic lawn-and-garden pesticide use; Quebec has its own code'],
                   ['Structural red flag', 'Large black ants + coarse frass + hollow-sounding wood = carpenter ants, not a spray job'],
-                  ['Do not buy', 'Ultrasonic repellers, ant chalk, and vinegar/cinnamon as a control method'],
+                  ['Do not buy', 'Ultrasonic repellers, ant chalk, glue boards and foggers for ants, and vinegar/cinnamon as a control method'],
                 ].map(([k, v]) => (
                   <tr key={k} className="border-b border-navy-50 last:border-0">
                     <td className="px-4 py-2 font-semibold text-brand-800 bg-brand-50 w-1/3">{k}</td>
@@ -337,6 +379,7 @@ export default function BestAntKillerCanadaPage() {
           <h2>What Is the Best Ant Killer in Canada?</h2>
           <p>The best ant killer for a Canadian home is a slow-acting liquid bait station placed directly on the ant trail &mdash; and TERRO Liquid Ant Baits are an easy default simply because they are inexpensive, widely stocked in Canadian hardware and grocery aisles with Canadian label directions on the pack, and built on the mechanism that works. The active is borax (sodium tetraborate) suspended in a sweet liquid inside an enclosed plastic station. A forager drinks, survives, walks home, and feeds the load to nestmates by trophallaxis &mdash; the mouth-to-mouth food sharing that moves a meal from a foraging worker to nurses, brood, and eventually the queen.</p>
           <p>That mechanism is the whole story, and it explains why so many products fail. What you see on the counter is a forager crew: a small, expendable fraction of a colony that lives in a wall void, under a slab, or in a driveway crack. The queen is the production line. Any product that kills ants on contact removes couriers and leaves the production line running, which is why a can of spray produces a clean counter for two days and a fresh trail on day three.</p>
+          <p>The same station is what most shoppers mean by the best ant trap, though strictly speaking it is not a trap. Nothing gets caught: the station is a feeding platform, and the ants leave alive on purpose. Everything else marketed as an ant trap is a variation on catching the couriers, which is why so many people conclude that ant traps do not work. They bought the wrong category. If you take one thing from this page: <strong>buy the trap that feeds ants, not the one that catches them.</strong></p>
 
           <p className="not-prose text-sm text-gray-600 mb-1">Check current Canadian availability of the main picks:</p>
           <div className="not-prose mb-6 flex flex-wrap gap-3">
@@ -346,6 +389,12 @@ export default function BestAntKillerCanadaPage() {
           </div>
 
           <NextUp path="/blog/best-ant-killer" />
+          <h2>&ldquo;Ant Trap&rdquo; Describes Two Opposite Products</h2>
+          <p>The retail category is a mess: two fundamentally different products share the shelf label.</p>
+          <p><strong>Bait stations</strong> contain a food matrix mixed with a slow-acting insecticide. They are pesticides: in Canada they must be registered under the federal Pest Control Products Act and carry a PCP registration number on the label. They are designed around delayed action &mdash; a bait that dropped ants on contact would never reach the nest &mdash; so they look ineffective for the first day or two and then quietly dismantle a colony.</p>
+          <p><strong>Sticky traps and glue boards</strong> contain no active ingredient at all. They are devices, which is why they need no registration, and they work exactly as advertised: an ant walks on, an ant stays on. Against cockroaches a glue board is genuinely valuable, because it tells you where the population is and whether it is shrinking. Against ants it is neither control nor information. The colony out-produces the board without effort, and you already know where the trail is &mdash; it is the black line on your counter.</p>
+          <p>Contact aerosols and perimeter sprays, merchandised in the same aisle, belong to the same failure mode as glue boards, only worse, because they leave a repellent residue that makes ants refuse any bait placed nearby.</p>
+
           <h2>The Uncomfortable Part: Most &ldquo;Ant Killer&rdquo; Only Kills What You Can See</h2>
           <p>Walk the aisle and count the shelf space. Aerosols, perimeter concentrates, granular broadcast products, plug-in devices &mdash; much of the category is built around instant, visible death, because that is what sells. Bait, the thing that actually works, occupies a fraction of the shelf and looks unimpressive: a small plastic tray that does nothing for two days.</p>
           <p>The gap between those two things is the reason ant problems drag on for entire summers. A repellent contact insecticide has three costs that are invisible at the moment of use. First, it removes the foragers that would have carried your bait home. Second, it leaves a residue that ants detect and avoid, which is why bait placed on or near a sprayed surface simply gets refused &mdash; the homeowner concludes the bait does not work either. Third, and worst, in species that keep multiple queens, the chemical stress of repeated spraying can trigger <em>budding</em>: the colony splits and satellite nests establish elsewhere in the structure. You began with one trail and now have three, in places you cannot see.</p>
@@ -367,7 +416,8 @@ export default function BestAntKillerCanadaPage() {
           <h2>Indoor, Outdoor, Perimeter: Three Purchases, Three Jobs</h2>
           <p><strong>Indoor products</strong> are enclosed bait stations, discs and gel syringes. They are formulated to sit safely in a kitchen, and they are placed by following the ants rather than by covering area. The placement detail that matters most is putting the station <em>on the trail</em> &mdash; not near it, not in the corner where you last saw an ant. Ants find bait by walking into it on an established route.</p>
           <p><strong>Outdoor products</strong> are weatherproof bait stakes and, in some provinces, granular baits. The job here is different: you are treating a colony that lives outside and forages inside, so you push stakes in at the crack the trail disappears into, along the foundation, under the deck, at the base of the driveway seam. Done in spring, this is prevention rather than cure &mdash; the colony that never establishes strength never sends scouts through your window frame in July.</p>
-          <p><strong>Perimeter barrier sprays</strong> are the category to be most skeptical about, and they are also the one with the most aggressive marketing. A residual band around a house does not kill a colony; it kills the individuals that walk through it, while the queen keeps replacing them and the repellent effect pushes foraging routes to untreated entry points. Then there is the Canadian regulatory layer: Ontario restricts the cosmetic use of many lawn-and-garden pesticides under its provincial rules, Quebec operates its own pesticides management code, and other provinces vary. Read the product label and your provincial regulations before you buy a concentrate &mdash; and understand that for ants specifically, most homeowners get a better outcome spending the same money on bait.</p>
+          <p>If the same indoor trail reappears every few weeks, the nest is usually outside and the indoor stations are treating a symptom. Pavement ants nesting under a driveway, walkway or patio slab announce themselves with little volcano-shaped piles of excavated sand at the cracks; treating at that source is what ends the cycle. Stakes shield the bait from rain and sun, which indoor stations do not survive, so reposition them after heavy rain or lawn work, and never assume an indoor station is fit for outdoor use unless its label says so.</p>
+          <p><strong>Perimeter barrier sprays</strong> are the category to be most skeptical about, and they are also the one with the most aggressive marketing. A residual band around a house does not kill a colony; it kills the individuals that walk through it, while the queen keeps replacing them and the repellent effect pushes foraging routes to untreated entry points. Then there is the Canadian regulatory layer: Ontario restricts the use and sale of pesticides for cosmetic purposes on lawns, gardens, parks and school grounds, with a lower-risk class exempted and specific carve-outs; Quebec operates its own pesticides management code, and other provinces vary. Those rules are about lawns and gardens, not your kitchen cupboard, so indoor baiting is unaffected; outdoor products, bait stakes included, come under provincial rules. Read the product label and your provincial regulations before you buy a concentrate &mdash; and understand that for ants specifically, most homeowners get a better outcome spending the same money on bait.</p>
           <div className="not-prose my-4">
             <BuyLink tag={AMZ_TAG} search="terro outdoor liquid ant bait stakes">Check outdoor bait stakes on Amazon.ca →</BuyLink>
           </div>
@@ -388,6 +438,11 @@ export default function BestAntKillerCanadaPage() {
             caption={<>Quoted and summarized from Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a> (page details 2017-06-19), read October 28, 2026. The third column is this guide&rsquo;s advice.</>}
           />
 
+          <h2>Liquid, Solid or Gel: Choosing What Is Inside the Trap</h2>
+          <p><strong>Liquid is the right default for Canadian house ants.</strong> Pavement ants and odorous house ants &mdash; two species that turn up on Ontario kitchen counters &mdash; are strong carbohydrate feeders. Liquid is easy to carry in a social stomach and easy to pass around, and an enclosed liquid station keeps the bait moist and harder for small hands and paws to reach. The borax-family actives used in Canadian domestic liquid baits are deliberately slow, because the whole design goal is that the forager gets home first.</p>
+          <p><strong>Solid and protein baits cover the other half of the menu.</strong> A colony in a protein phase will walk straight past a sweet station. Enclosed solid discs are aimed at colonies feeding on grease and protein rather than sugar; they sit flat under a sink or behind a stove without mess and do not evaporate the way liquid does. The next section covers when to add one.</p>
+          <p><strong>Gel is the precision instrument.</strong> A syringe places a pinhead dab exactly where ants travel and where no plastic housing can sit: the seam behind a cabinet hinge, the gap where the water line enters the wall, the crack at the base of a door frame. Two cautions. First, more is not better &mdash; over-applying gel reduces uptake and leaves a mess. Second, many gels sold to Canadian buyers through online marketplaces are US-market product labelled under US EPA registration, with no Canadian directions behind their use, so buy gel somewhere you can turn the pack over and find &ldquo;Reg. No. XXXXX P.C.P. Act&rdquo; before you pay.</p>
+
           <h2>When Your Bait Gets Ignored: the Sugar/Protein Switch</h2>
           <p>A common failure mode with bait is some version of &ldquo;I put the bait down and they walked right past it.&rdquo; The usual cause is menu, not product failure. Colony appetite shifts through the season with what the brood needs: carbohydrate-heavy when workers are fuelling foraging, protein- and lipid-heavy when there are larvae to raise. A sugar bait during a protein phase is an untouched tray.</p>
           <p>The fix is not to switch &mdash; it is to <strong>run both</strong>. Place a protein/grease station beside the liquid one on the same trail and let the colony choose. Within a day you will see which one they are working, and that also tells you which format to keep stocked for the rest of the season. Other common causes worth ruling out: bait placed off the trail, spray residue nearby causing refusal, too few stations for the traffic volume, and competing food &mdash; a bowl of pet kibble or a sticky spill three feet away out-competes any bait station ever made.</p>
@@ -395,48 +450,94 @@ export default function BestAntKillerCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="combat ant killing bait stations">Check Combat protein bait stations on Amazon.ca (not registered in Canada) →</BuyLink>
           </div>
 
+          <QuickIdTable
+            title="Which ant is it? The trap that fits"
+            head={['Ant', 'How to recognize it', 'The trap that fits']}
+            rows={[
+              ['Pavement ant', 'Small dark ants; little volcano-shaped piles of sand at cracks in a driveway, walkway or patio slab', 'Liquid bait stations on the indoor trail; outdoor bait stakes at the slab cracks, bought in your own province'],
+              ['Odorous house ant', 'Small dark ants trailing across a kitchen; a multi-queen species that buds into new nests when sprayed', 'Liquid sugar bait stations, four to six on the trail, and no spray'],
+              ['Pharaoh ant', 'Tiny, pale amber ants that live indoors, often in apartments and condos', 'Coordinated baiting across the building; in a rental, report it to the landlord in writing'],
+              ['Carpenter ant', 'Large black ants, roughly 6–13 mm; coarse, sawdust-like frass; hollow-sounding wood', 'Find the nest and the moisture first; bait can be part of the job, often with a professional'],
+              ['European fire ant', 'Reddish, roughly 4–5 mm; stings repeatedly when a nest in damp soil or mulch is disturbed', 'Usually a multi-season professional job, not a pack of traps'],
+              ['Any ant that walks past sweet bait', 'The colony is feeding on protein and grease, often while it raises brood', 'A solid protein station beside the liquid one, so the ants can choose'],
+            ]}
+            caption={<>Recognition notes from this page. Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer" className="underline">ants page</a> lists carpenter, little black, odorous house, thief and pharaoh ants among the species that invade Canadian homes, says piles of sawdust may mean carpenter ants, and says two different baits at the same time give better results. Read October 28, 2026.</>}
+          />
+          <Photo id="carpenter-ant-on-fingers" alt="Shiny black carpenter ant walking across a person's fingers" caption="An eastern black carpenter ant, Camponotus pennsylvanicus, on a person’s fingers (Blount County, Alabama). Large black ants plus coarse, sawdust-like frass mean carpenter ants, where finding the nest and the moisture is the job, not a pack of traps." />
+          <Photo id="european-fire-ant-worker" alt="Reddish-brown European fire ant worker standing on a twig among leaf litter" caption="A European fire ant worker, Myrmica rubra (photographed in the Czech Republic). These reddish ants of roughly 4 to 5 mm sting repeatedly when a nest in damp soil or mulch is disturbed, and in GTA gardens they are usually a multi-season professional job." />
+
+          <h2>Indoor Placement: Where Ant Traps Actually Go</h2>
+          <p>Placement decides more outcomes than product choice does. Ants forage along fixed, narrow corridors, so a station set on the far side of the kitchen is a piece of plastic furniture. Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/ants.html" target="_blank" rel="noopener noreferrer">ants page</a> puts it plainly: &ldquo;Place bait stations directly in the path of foraging ants, but out of the reach of children and pets.&rdquo; It also advises: &ldquo;Use plenty of bait stations.&rdquo;</p>
+          <ul>
+            <li><strong>Follow the trail before you place anything.</strong> Get down at counter level and track the line back to where it disappears into a gap. That entry point is your primary placement &mdash; and later, your primary caulking target. Health Canada points to baseboards, the carpet edge along walls, and the edges and inside corners of cabinets as places trails run, so look there first.</li>
+            <li><strong>On the trail means right beside the line.</strong> Set the station a couple of centimetres to the side so foragers meet it without you disturbing traffic.</li>
+            <li><strong>Use more placements than feels reasonable.</strong> Four to six for a single kitchen trail: at the entry gap, mid-trail, under the sink, behind the stove, and in the nearest cupboard corner.</li>
+            <li><strong>Do not spray, dust or clean near placements.</strong> That includes essential-oil sprays, which are also repellent, and diatomaceous earth, which ants detour around. Dusts belong in dry hidden voids, well away from the bait route.</li>
+            <li><strong>Leave the trail alone.</strong> Wiping it with vinegar or cleaner erases the pheromone map, scatters the foragers, and often produces a new route into the house that bypasses your bait entirely &mdash; one you cannot see, because it now runs behind the toe-kick.</li>
+            <li><strong>Refresh on a schedule.</strong> Check placements every few days and swap anything drained or crusted; during a heavy surge liquid stations empty fast. Two lines from Health Canada set the pace: &ldquo;Keep baits available for at least two weeks&rdquo; and &ldquo;Repeated bait applications may be needed.&rdquo;</li>
+          </ul>
+
           <RelatedLinks path="/blog/best-ant-killer" />
+          <h2>Pet and Child Safety: An Honest Assessment</h2>
+          <p>Safety is the question that sends a lot of people to a glue board, and the honest answer is that the glue board is the worse choice on safety grounds too &mdash; it fails to solve the problem, so the ants and the products stay in the house longer. Enclosed, child-resistant bait stations are the format designed for occupied homes. The bait is held inside a plastic housing, there is no propellant, nothing to inhale, and no residue coating your counters. Compared with fogging a kitchen or spraying baseboards where a toddler crawls, a sealed station is a substantially more contained way to deliver a very small amount of active ingredient.</p>
+          <p>&ldquo;Child-resistant&rdquo; is not &ldquo;dog-proof&rdquo;, though, and the sensible approach is to make reach the safeguard rather than the housing:</p>
+          <ul>
+            <li><strong>Place where the animal physically cannot go.</strong> Inside a closed cabinet, behind the fridge, at the back of the under-sink cupboard, on the counter backsplash rather than the floor. A determined dog will chew a plastic station, and the sweet syrup inside is precisely what makes it interesting.</li>
+            <li><strong>Treat gel as an out-of-reach-only product.</strong> Exposed dabs are not child-resistant in any sense. They belong inside cracks, hinge voids and pipe collars &mdash; not along an open baseboard.</li>
+            <li><strong>Count your stations in and out.</strong> Write down how many you placed and where, so nothing gets discovered months later behind an appliance by a curious toddler.</li>
+            <li><strong>Have a plan, not a guess.</strong> If a pet chews into a station or a child handles bait, contact your veterinarian, a pet poison line, or your regional poison centre with the product name and label in hand rather than waiting to see what happens.</li>
+          </ul>
+
           <h2>The Canadian Legal Layer Nobody Mentions</h2>
-          <p>Search &ldquo;best ant killer&rdquo; and most of what you will read is American. That matters here more than in almost any other product category, because pesticides are regulated nationally and a product that is perfectly legal in Ohio may have no legal standing in Ontario at all. Under the Pest Control Products Act, any pesticide sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency and must carry a Canadian registration number on the label, printed in the form <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>, alongside a class designation.</p>
+          <p>Search &ldquo;best ant killer&rdquo; and most of what you will read is American. That matters here more than in almost any other product category, because pesticides are regulated nationally and a product that is perfectly legal in Ohio may have no legal standing in Ontario at all. Under the Pest Control Products Act, any pesticide sold or used in Canada must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency, with narrow exemptions for a listed set of minimum-risk products, and must carry a Canadian registration number on the label, printed in the form <strong>&ldquo;Reg. No. XXXXX P.C.P. Act&rdquo;</strong>, alongside a class designation.</p>
           <p>Two things follow from that. First, the ten-second habit: before buying any gel, concentrate or imported aerosol from a marketplace listing, look for that PCP number on the physical label. You cannot tell from a product photo, a US EPA registration number is not a substitute, and if there is no Canadian number there are no Canadian label directions to follow or rely on. Second, the class matters &mdash; a DOMESTIC designation is for household use, while professional-grade products often carry a COMMERCIAL designation that is not intended for unlicensed homeowners. Several of the potent ant gels that dominate American forum recommendations land Canadian buyers in exactly this grey zone; we walked through the same trap in detail on the <Link href="/blog/advion-cockroach-gel-bait">cockroach gel version of this problem</Link> and again in our <Link href="/blog/rat-poison-canada-what-is-legal">guide to what rodenticides are actually legal here</Link>.</p>
           <p>The encouraging part: you are not giving anything up. A shelf-legal Canadian liquid bait station is not a compromise version of the good stuff &mdash; borax bait works on the same colony-transfer principle that makes professional products effective, and for a pavement-ant trail in a Mississauga kitchen it is genuinely the right tool.</p>
 
-          <h2>Ant Killer Buyer&rsquo;s Checklist</h2>
+          <h2>Ant Killer and Ant Trap Buyer&rsquo;s Checklist</h2>
           <ol>
-            <li><strong>Bait, not spray, as the first purchase.</strong> Health Canada calls baiting a highly effective way of getting rid of nests and says not to spray while a bait system is working.</li>
-            <li><strong>&ldquo;Reg. No. &hellip; P.C.P. Act&rdquo; on the pack.</strong> Health Canada says that number is how you recognize a product registered for use in Canada, and that checking matters most on online platforms selling for third-party vendors (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html" target="_blank" rel="noopener noreferrer">Buying pest control products online</a>).</li>
+            <li><strong>Bait, not spray or a glue board, as the first purchase.</strong> Health Canada calls baiting a highly effective way of getting rid of nests and says not to spray while a bait system is working.</li>
+            <li><strong>&ldquo;Reg. No. &hellip; P.C.P. Act&rdquo; on the pack.</strong> Health Canada says that number is how you recognize a product registered for use in Canada, that it is a violation of the Pest Control Products Act to buy and use unregistered pesticides, and that checking matters most on online platforms selling for third-party vendors (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/reports-publications/pesticides-pest-management/fact-sheets-other-resources/buying-pest-control-products-online.html" target="_blank" rel="noopener noreferrer">Buying pest control products online</a>).</li>
             <li><strong>DOMESTIC class.</strong> Health Canada: domestic class products are for personal use in and around the home; commercial class products are not available to the general public for that use (<a href="https://www.canada.ca/en/health-canada/services/consumer-product-safety/pesticides-pest-management/frequently-asked-questions.html" target="_blank" rel="noopener noreferrer">pesticide FAQ</a>).</li>
-            <li><strong>The right product for where the nest is:</strong> enclosed stations for an indoor trail, weatherproof stakes for a nest outside.</li>
+            <li><strong>The right product for where the nest is:</strong> enclosed stations for an indoor trail, weatherproof stakes for a nest outside, bought in your own province, because provinces may restrict or prohibit some registered products, as Health Canada notes.</li>
+            <li><strong>Enough enclosed, child-resistant stations:</strong> a multi-pack, for four to six placements on one trail, each still placed where a toddler or a dog cannot reach it.</li>
             <li><strong>Both menus ready:</strong> a sweet liquid bait first, and a protein bait for a colony that ignores it.</li>
+            <li><strong>Fresh bait for at least two weeks,</strong> as Health Canada advises, swapping any station that dries out or crusts over.</li>
             <li><strong>If you also buy a spray,</strong> a short-residual one for a single spot, washed off before the bait goes down.</li>
             <li><strong>Diatomaceous earth only with a PCP number</strong> on the label, never a bag sold only as a feed additive.</li>
-            <li><strong>Not on the list:</strong> ultrasonic repellers, ant chalk, and vinegar or cinnamon as the control method.</li>
+            <li><strong>Not on the list:</strong> glue boards, ultrasonic repellers, ant chalk, foggers, and vinegar or cinnamon as the control method.</li>
           </ol>
 
           <h2>What Not to Buy</h2>
           <p>Said plainly, because refusing to recommend things is the only reason to trust the rest of the page:</p>
           <ul>
-            <li><strong>Ultrasonic repellers.</strong> No credible evidence of effect on ants. The premise does not match ant biology &mdash; they navigate by pheromone and antennal contact, not sound. This category has drawn regulatory attention over unsupported advertising claims. Skip it.</li>
-            <li><strong>Ant chalk.</strong> Frequently an unregistered import, often unlabelled, and it looks exactly like classroom chalk to a child. Not worth the risk in any household.</li>
+            <li><strong>Glue boards and sticky traps for ants.</strong> They catch foragers and control nothing. Buy them for cockroach monitoring, where they earn their keep, and not for this.</li>
+            <li><strong>Ultrasonic repellers.</strong> No credible evidence of effect on ants. The premise does not match ant biology &mdash; they navigate by pheromone and antennal contact, not sound. This category has drawn regulatory attention over unsupported advertising claims &mdash; the US Federal Trade Commission has taken action. Skip it; our broader verdict is in <Link href="/blog/ultrasonic-pest-repellers-do-they-work">do ultrasonic pest repellers work?</Link></li>
+            <li><strong>Ant chalk.</strong> Frequently an unregistered import, often unlabelled, and it looks exactly like classroom chalk to a child. Regulators on both sides of the border have warned about it for years. Not worth the risk in any household.</li>
+            <li><strong>Total-release foggers.</strong> A fogger coats open surfaces &mdash; precisely where the colony is not &mdash; and leaves a repellent film across every spot you might otherwise have baited. Add the fire and inhalation hazards of propellant cans in a closed kitchen and there is no version of an ant problem a fogger improves.</li>
+            <li><strong>Electronic or &ldquo;zapper&rdquo; ant traps.</strong> Same flaw as glue: even a device that kills every ant that enters it is killing couriers, not colonies.</li>
             <li><strong>Vinegar, lemon, cinnamon, essential-oil sprays.</strong> These erase or disrupt the pheromone trail. Nothing dies, the nest is untouched, and the ants re-route within days. Save them for cleaning the trail <em>after</em> the colony is gone.</li>
             <li><strong>DIY borax recipes, in most cases.</strong> The idea is right &mdash; it is what commercial liquid bait does &mdash; but the concentration is what makes or breaks it. Too strong and it kills the forager before it gets home, which converts a colony treatment into a slow, messy contact killer. A pre-mixed station has already solved that problem, and it comes with label directions that a kitchen recipe does not.</li>
             <li><strong>A perimeter concentrate as your first purchase.</strong> Wrong tool, repellent effect, provincial restrictions on cosmetic use, and it makes the bait you will eventually buy work worse.</li>
+            <li><strong>And, honestly, a second product when the first is working.</strong> If a multi-pack of liquid stations has your trail thinning, you do not need the gel, the stakes, the dust, and the perimeter spray. Ant control is one of the few pest problems where the cheapest correct product is also the best one.</li>
           </ul>
 
           <h2>How Long It Should Take &mdash; and How to Read Progress</h2>
           <p>The first 72 hours are where the job is easiest to abandon. <strong>Days 1&ndash;4:</strong> the trail gets busier &mdash; recruitment, and the strongest sign of success. <strong>Days 4&ndash;14:</strong> traffic thins. <strong>Weeks 2&ndash;4:</strong> a typical pavement or odorous house ant colony collapses. Two rules through that window: keep bait available, because a station that runs dry mid-transfer leaves the queen alive, and do not wipe the trail while baiting &mdash; the pheromone road is your delivery infrastructure. Clean it thoroughly once the ants are gone, so the next colony that scouts your foundation does not inherit a marked highway to the sugar bowl.</p>
+          <p>When a job stalls, check these six things before you change products: the bait dried out, you sprayed nearby, you wiped the trail, competing food out-ranked the bait, there were too few placements, or the colony is feeding on the menu you did not offer. Every one of those is fixable in an evening. Once activity has stopped for several consecutive days, remove the stations and spend an afternoon on exclusion &mdash; caulk on foundation cracks and utility penetrations, a door sweep on any exterior door with daylight under it. That same pass also blocks the autumn invaders, which is why we recommend it for <Link href="/blog/how-to-keep-spiders-out-of-your-house">keeping spiders out</Link> as well.</p>
 
           <h2>When DIY Is the Wrong Call and a Pro Is Cheaper</h2>
+          <p>Start with the honest half: <strong>a nuisance-ant trail in a Canadian kitchen is genuinely a DIY job.</strong> A multi-pack of liquid bait stations costs a fraction of a service call and does the same thing a technician would do for a pavement-ant trail. Paying someone to place the same bait is a poor trade, and any operator unwilling to say so is not one to hire.</p>
           <p>Some ant problems are not product problems, and buying more product is the expensive way to find out. Escalate to a licensed professional when you see:</p>
           <ul>
-            <li><strong>Carpenter ants with evidence.</strong> Large black ants plus coarse, sawdust-like frass, hollow-sounding wood, or a faint rustling in a wall at night means galleries in structural timber, usually where moisture has already softened it. Our <Link href="/blog/carpenter-ants-canada">carpenter ant guide</Link> covers the inspection, and the honest verdict is that finding the nest &mdash; not killing ants &mdash; is the entire job.</li>
+            <li><strong>Carpenter ants with evidence.</strong> Large black ants (roughly 6&ndash;13 mm) plus coarse, sawdust-like frass, hollow-sounding wood, or a faint rustling in a wall at night means galleries in structural timber, usually where moisture has already softened it. Our <Link href="/blog/carpenter-ants-canada">carpenter ant guide</Link> covers the inspection, and the honest verdict is that finding the nest &mdash; not killing ants &mdash; is the entire job.</li>
             <li><strong>Ants indoors in the depths of a Canadian winter.</strong> Nothing is foraging in from outside in February. A winter trail means the nest is inside the building envelope.</li>
-            <li><strong>Pharaoh ants,</strong> which bud aggressively when treated wrongly and are a genuine problem in multi-unit and healthcare buildings.</li>
+            <li><strong>Pharaoh ants,</strong> which bud aggressively when treated wrongly and are a genuine problem in multi-unit and healthcare buildings. They are tiny, pale amber, indoor-only ants that bud through wall voids and wiring chases, so treating one unit relocates the problem; the building needs coordinated baiting. In most provinces, including Ontario, pest control in rental housing is the landlord&rsquo;s responsibility &mdash; report it in writing with photos and a date, because a verbal word to the superintendent starts no clock.</li>
             <li><strong>Shared-wall buildings.</strong> In a condo, apartment or townhouse, the nest may be on the other side of a wall you do not control. Treating your unit alone is a treadmill; this is a building-management conversation.</li>
-            <li><strong>Six or more weeks of correct baiting with no decline.</strong> At that point you are missing something structural, and a professional can use non-repellent actives and placements that are not sold to households.</li>
+            <li><strong>European fire ants in the yard.</strong> Reddish, roughly 4&ndash;5 mm, and they sting repeatedly when a nest in damp soil or mulch is disturbed. They are established in pockets of the GTA, they are difficult to eradicate, and they are usually a multi-season professional commitment rather than a shopping problem.</li>
+            <li><strong>Six or more weeks of correct baiting with no decline,</strong> or ants appearing on an upper floor with no traceable trail. At that point you are missing something structural, and a professional can use non-repellent actives (ants cannot detect them, walk through the treated zone, and carry the active back to the nest exactly as they do with bait) and placements that are not sold to households.</li>
           </ul>
           <Photo id="carpenter-ant-frass" alt="Black carpenter ant beside a heap of coarse, orange-brown wood shavings on weathered bark" caption="A carpenter ant, Camponotus modoc, beside a heap of frass (coarse wood shavings) on western redcedar bark (Sequim, Washington). Large black ants plus coarse, sawdust-like frass point to galleries in wood: a nest to find, not a trail to spray." />
-          <p>Professionals price general ant work modestly &mdash; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> lays out typical ranges so you can sanity-check a quote. Weighed against a summer of repurchased sprays that never touched the nest, one correct visit is frequently the cheaper path.</p>
+          <p>Professionals price general ant work modestly &mdash; our <Link href="/pest-control-cost-canada">Canadian pest control cost guide</Link> lays out typical ranges so you can sanity-check a quote. Weighed against a summer of repurchased sprays that never touched the nest, one correct visit is frequently the cheaper path. Be appropriately suspicious, though, of anyone who proposes to fix nuisance ants by spraying your baseboards and leaving.</p>
 
           <h2>Frequently Asked Questions</h2>
           <div className="not-prose space-y-4">
@@ -458,6 +559,8 @@ export default function BestAntKillerCanadaPage() {
             <li><Link href="/blog/how-to-get-rid-of-cockroaches-canada">How to Get Rid of Cockroaches in Canada — Bait, Not Spray</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth Canada — Buyer&rsquo;s Guide and Honest Limits</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-earwigs-canada">How to Get Rid of Earwigs in Canada</Link></li>
+            <li><Link href="/blog/advion-cockroach-gel-bait">Advion Gel Bait in Canada — The PCP Registration Question</Link></li>
+            <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Work? The Honest Verdict</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
           </ul>
 

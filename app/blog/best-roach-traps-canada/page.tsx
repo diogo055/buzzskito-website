@@ -546,7 +546,7 @@ export default function BestRoachTrapsCanadaPage() {
             <li><Link href="/blog/how-to-get-rid-of-ants-canada">How to Get Rid of Ants in Canada — Why Baiting Beats Every Spray</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>
             <li><Link href="/blog/diatomaceous-earth-canada-buyers-guide">Diatomaceous Earth in Canada — Buyer&rsquo;s Guide and Application Technique</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Basement Dehumidifier Canada — The Root-Cause Pest Tool</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Basement Dehumidifier Canada — The Root-Cause Pest Tool</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
           </ul>
 

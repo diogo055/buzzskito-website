@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-ants-in-the-kitchen",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "cab32189dfaf01f9737a7cbd074e54e7bc6efbcc5c4b958edb475f412f38cb99",
+ "sha": "7806773707af6f9b62ac5172b57c97dd10cc58490418345be094173a2ac1bc9e",
  "claimsChecked": 94,
  "claimsCorrected": 9,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: one internal link moved from /blog/best-ant-traps-canada to /blog/best-ant-killer, because the two pages were merged (301 redirect). No other text changed; no factual claim touched.",
+   "previousSha": "cab32189dfaf01f9737a7cbd074e54e7bc6efbcc5c4b958edb475f412f38cb99"
+  }
+ ]
 }

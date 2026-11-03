@@ -2,9 +2,16 @@
  "id": "how-to-get-rid-of-ants-in-the-house",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "17a047b88924586e46e1369e4c6e2a5915120dc2d57884b1d94089a398680ec6",
+ "sha": "a4a5096fa0494eb1223487b52ba1b8361d2c1462bb40b4087278c887be51592f",
  "claimsChecked": 78,
  "claimsCorrected": 8,
  "claimsRemovedOrSoftened": 12,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: one internal link moved from /blog/best-ant-traps-canada to /blog/best-ant-killer, because the two pages were merged (301 redirect). No other text changed; no factual claim touched.",
+   "previousSha": "17a047b88924586e46e1369e4c6e2a5915120dc2d57884b1d94089a398680ec6"
+  }
+ ]
 }

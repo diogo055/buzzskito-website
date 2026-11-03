@@ -458,7 +458,7 @@ export default function DrainFliesCanadaPage() {
             <li><strong>An air conditioner or dehumidifier condensate pan or line</strong> &mdash; a standing tray of water with a film on it, frequently in a utility room nobody visits.</li>
             <li><strong>A rarely used floor drain</strong> whose trap has evaporated dry &mdash; still the single most common miss in Canadian basements.</li>
             <li><strong>A cracked or offset drain line under a slab</strong>, leaking sewage into soil where flies breed and then work their way up. Sewer odour is the tell.</li>
-            <li><strong>A wet crawl space, a leaking foundation wall, or a chronically damp basement.</strong> The same conditions drive <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish</Link> and <Link href="/blog/how-to-get-rid-of-centipedes-canada">house centipede</Link> problems, which is why they so often show up together. A dehumidifier is frequently the real fix &mdash; see our <Link href="/blog/best-dehumidifier-for-basement-canada">basement dehumidifier guide</Link>.</li>
+            <li><strong>A wet crawl space, a leaking foundation wall, or a chronically damp basement.</strong> The same conditions drive <Link href="/blog/how-to-get-rid-of-silverfish-canada">silverfish</Link> and <Link href="/blog/how-to-get-rid-of-centipedes-canada">house centipede</Link> problems, which is why they so often show up together. A dehumidifier is frequently the real fix &mdash; see our <Link href="/blog/best-large-capacity-dehumidifier-canada">basement dehumidifier guide</Link>.</li>
             <li><strong>Mop buckets, floor-scrubber tanks, pet water areas, aquarium filters, and plant saucers</strong> &mdash; small standing water with organic material in it.</li>
           </ul>
 
@@ -498,7 +498,7 @@ export default function DrainFliesCanadaPage() {
             <li><Link href="/blog/how-to-get-rid-of-cluster-flies-canada">How to Get Rid of Cluster Flies in Canada</Link></li>
             <li><Link href="/blog/katchy-indoor-insect-trap-review-canada">Katchy Indoor Insect Trap Review — What It Catches and What It Misses</Link></li>
             <li><Link href="/blog/how-to-get-rid-of-silverfish-canada">How to Get Rid of Silverfish in Canada — The Humidity Fix</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Basement Dehumidifier in Canada — Sizing Guide</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Basement Dehumidifier in Canada — Sizing Guide</Link></li>
             <li><Link href="/blog/ultrasonic-pest-repellers-do-they-work">Do Ultrasonic Pest Repellers Work? The Honest Answer</Link></li>
             <li><Link href="/pest-control-cost-canada">Pest Control Cost Canada — What Professionals Charge</Link></li>
           </ul>

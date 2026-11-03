@@ -317,7 +317,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
 
           <RelatedLinks path="/blog/best-steam-cleaner-for-pest-control-canada" />
           <h2>Steam for Dust Mites and Fleas, Not Just Bed Bugs</h2>
-          <p>Bed bugs get the headlines, but the same lethal heat handles two other common household pests. <strong>Dust mites</strong> live in mattresses, pillows, upholstery, and carpet, and they die at the same temperatures &mdash; with the bonus that dry vapour does not add the humidity dust mites need to thrive. For allergen-sensitive households, steaming the mattress and soft furnishings knocks down the mite population and the allergen load at once. Pair that with a <Link href="/blog/best-air-purifier-for-dust-mites-canada">HEPA air purifier</Link> to capture airborne allergen and a <Link href="/blog/best-dehumidifier-for-basement-canada">dehumidifier</Link> to keep humidity low enough that mites cannot rebound.</p>
+          <p>Bed bugs get the headlines, but the same lethal heat handles two other common household pests. <strong>Dust mites</strong> live in mattresses, pillows, upholstery, and carpet, and they die at the same temperatures &mdash; with the bonus that dry vapour does not add the humidity dust mites need to thrive. For allergen-sensitive households, steaming the mattress and soft furnishings knocks down the mite population and the allergen load at once. Pair that with a <Link href="/blog/best-air-purifier-for-dust-mites-canada">HEPA air purifier</Link> to capture airborne allergen and a <Link href="/blog/best-large-capacity-dehumidifier-canada">dehumidifier</Link> to keep humidity low enough that mites cannot rebound.</p>
           <p><strong>Fleas</strong> are a carpet-and-edges problem: most of an infestation is eggs, larvae, and pupae down in the pile and along baseboards, not the adults you see on the pet. Steaming carpet edges, pet-bedding areas, and the room perimeter kills the life stages that vacuuming alone leaves behind. As with bed bugs, slow passes and repetition over the weeks it takes to break the cycle are what win &mdash; steam kills what it touches today, so consistency is the whole game.</p>
 
           <h2>How to Choose: What You Are Actually Paying For</h2>
@@ -368,7 +368,7 @@ export default function BestSteamCleanerForPestControlCanadaPage() {
             <li><Link href="/blog/bed-bug-heater-canada">Bed-Bug Heater Canada — Whole-Room Heat Treatment</Link></li>
             <li><Link href="/blog/best-bed-bug-heat-chamber-canada">Best Bed-Bug Heat Chamber Canada</Link></li>
             <li><Link href="/blog/best-air-purifier-for-dust-mites-canada">Best Air Purifier for Dust Mites Canada</Link></li>
-            <li><Link href="/blog/best-dehumidifier-for-basement-canada">Best Dehumidifier for a Canadian Basement</Link></li>
+            <li><Link href="/blog/best-large-capacity-dehumidifier-canada">Best Dehumidifier for a Canadian Basement</Link></li>
           </ul>
 
           <div className="not-prose mt-10 rounded-xl border border-navy-100 bg-brand-50 px-5 py-4">

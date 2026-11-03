@@ -2,9 +2,16 @@
  "id": "ghost-ants",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "4acb186d85f5c42b916b730f009fbd4a22f144f382002f17cca326e78306fcf0",
+ "sha": "baa707c65c8d48ed7886fb7b638cdd63afbb72b98c9daa3f0af5389313a90148",
  "claimsChecked": 74,
  "claimsCorrected": 5,
  "claimsRemovedOrSoftened": 6,
- "checkedOn": "2026-10-08"
+ "checkedOn": "2026-10-08",
+ "amendments": [
+  {
+   "on": "2026-11-03",
+   "note": "Nov 3, 2026: /blog/best-ant-traps-canada was merged into /blog/best-ant-killer (301 redirect), so one sentence that linked both now links the merged page once; wording adjusted only to name one page. No factual claim touched.",
+   "previousSha": "4acb186d85f5c42b916b730f009fbd4a22f144f382002f17cca326e78306fcf0"
+  }
+ ]
 }
