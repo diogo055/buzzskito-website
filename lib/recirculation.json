@@ -4219,11 +4219,11 @@
    "bar": true
   },
   "/blog/lone-star-tick": {
-   "next": "/blog/lone-star-tick-alpha-gal-canada",
+   "next": "/blog/alpha-gal-syndrome",
    "related": [
-    "/blog/alpha-gal-syndrome",
     "/blog/what-ticks-look-like-ontario",
-    "/blog/ticks-in-texas"
+    "/blog/ticks-in-texas",
+    "/blog/ticks-in-oklahoma"
    ],
    "cards": [
     "/learn/tick-identification-chart",
@@ -6862,9 +6862,9 @@
   "/blog/voles": {
    "next": "/blog/shrews",
    "related": [
-    "/blog/how-to-get-rid-of-voles-canada",
     "/blog/are-mice-nocturnal",
-    "/blog/baby-mice"
+    "/blog/baby-mice",
+    "/blog/baby-rats"
    ],
    "cards": [
     "/blog/fall-mouse-proofing-checklist",

@@ -2,6 +2,9 @@
  "_readme": "Hand-picked in-content links. Anything set here wins over the automatic pick and is never changed by scripts/backfill-recirculation.mjs. Use full paths. A page may set \"next\" (one path), \"related\" (a list of up to three paths), both, or \"off\": true to show neither unit on that page. After editing run: npm run recirculation:backfill",
  "_history": "Oct 11, 2026: the \"next\" entries below were chosen in a page-by-page review of all 416 automatic picks, for the pages where the automatic pick was rated wrong or weak.",
  "pages": {
+  "/blog/lone-star-tick": {
+   "next": "/blog/alpha-gal-syndrome"
+  },
   "/blog/advion-cockroach-gel-bait": {
    "next": "/blog/best-cockroach-killer-canada"
   },
