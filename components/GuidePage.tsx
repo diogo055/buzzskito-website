@@ -11,7 +11,7 @@ import GuideMap from '@/components/GuideMap'
 // shared with hand-written articles, so a guide and an article render them identically
 import ConfusedWith, { notLiveYet } from '@/components/ConfusedWith'
 import { QuickIdBox } from '@/components/QuickIdTable'
-import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL, guideParent, guidePath, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
+import { type Guide, type GuideBlock, CLUSTER_LABEL, GUIDE_HEROES, LICENSE_LABEL, guideParent, guidePath, guideReviewer, guideSchemas, regionalPair, slugifyHeading } from '@/lib/guides'
 import { photoImageObject } from '@/lib/photos'
 import TopBox from '@/components/TopBox'
 import usPicks from '@/lib/amazon-us-picks.json'
@@ -224,24 +224,23 @@ const longDate = (iso: string) => new Date(iso).toLocaleDateString('en-US', { ye
  * Who stands behind the page, stated accurately.
  *
  * These guides were drafted with AI assistance and fact-checked by a second AI pass, so they
- * do NOT carry the site's usual "By <person>" byline: Google asks for accurate authorship and
- * Mediavine does not monetize undisclosed AI content. The publisher is named instead.
- * Owner, Oct 23, 2026: the AI note is no longer repeated under the title; the method is stated
- * once, in "How this guide was made" at the foot of the page beside the sources.
+ * do NOT carry the site's usual "By <person>" byline: Google asks for accurate authorship. The
+ * byline names the person who read and approved the page (guideReviewer in lib/guides.ts), or
+ * the publisher when nobody has yet. Only when it is true.
  *
- * When a person has actually read and approved a guide, add "reviewedBy" and "reviewedOn" to
- * that guide's JSON file. The byline and the note at the foot of the page then say so. Only
- * add them when it is true.
+ * Owner, Nov 4, 2026: the AI method note that sat at the foot of the page was taken out at his
+ * request. Google does not require one, and Mediavine's written policy (mediavine.com/ai) is
+ * about AI content "scraped from other websites".
  */
 function Byline({ guide }: { guide: Guide }) {
-  const reviewed = Boolean(guide.reviewedBy && guide.reviewedOn)
+  const reviewer = guideReviewer(guide)
   return (
     <div className="not-prose flex items-center gap-3 py-4 border-y border-gray-200 my-6 text-sm text-gray-700">
       <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-700 to-brand-900 text-white flex items-center justify-center font-bold flex-shrink-0" aria-hidden="true">B</div>
       <div className="flex-1 min-w-0">
         <p className="font-semibold text-brand-900">
-          {reviewed ? (
-            <>Reviewed by <Link href={BUSINESS.author.url} className="hover:underline">{guide.reviewedBy}</Link></>
+          {reviewer ? (
+            <>Reviewed by <Link href={BUSINESS.author.url} className="hover:underline">{reviewer.name}</Link></>
           ) : (
             <>Published by <Link href="/buzzskito-history" className="hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link></>
           )}
@@ -253,6 +252,17 @@ function Byline({ guide }: { guide: Guide }) {
         </p>
       </div>
     </div>
+  )
+}
+
+/** The line under the sources: who read and approved the page, and where to report an error. */
+function ReviewNote({ guide }: { guide: Guide }) {
+  const reviewer = guideReviewer(guide)
+  return (
+    <p className="text-sm text-gray-500 mt-4">
+      {reviewer ? <>Read and approved by {reviewer.name}{reviewer.on ? <> on {longDate(reviewer.on)}</> : null}. </> : null}
+      Found an error? Email {BUSINESS.email}.
+    </p>
   )
 }
 
@@ -473,13 +483,7 @@ export default function GuidePage({ guide }: { guide: Guide }) {
               </li>
             ))}
           </ol>
-          {/* Mediavine does not monetize "undisclosed" AI content, so the method is stated plainly.
-              Keep this sentence true: it describes how these guides were actually produced. */}
-          <p className="text-sm text-gray-500 mt-4">
-            How this guide was made: it was researched and drafted with AI assistance from the sources listed above. A second, independent AI pass then checked each factual claim against those sources.
-            {guide.reviewedBy && guide.reviewedOn ? <> It was then read and approved by {guide.reviewedBy} on {longDate(guide.reviewedOn)}.</> : null}
-            {' '}Found an error? Email {BUSINESS.email}.
-          </p>
+          <ReviewNote guide={guide} />
 
           <PublisherBox guide={guide} />
         </div>

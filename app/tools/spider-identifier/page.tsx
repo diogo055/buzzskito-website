@@ -406,7 +406,7 @@ export default function SpiderIdentifierPage() {
           </p>
           <p className="mt-5 text-sm text-brand-200">
             Published by{' '}
-            <Link href="/buzzskito-history" className="font-semibold text-white underline-offset-2 hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link> · {PUBLISHED} ·
+            <Link href="/buzzskito-history" className="font-semibold text-white underline-offset-2 hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link> · Reviewed by Alex Francisco · {PUBLISHED} ·
             Checked against the <a href="#sources" className="underline">sources listed below</a>
           </p>
         </div>
@@ -594,8 +594,7 @@ export default function SpiderIdentifierPage() {
             ))}
           </ol>
           <p className="mt-5 text-sm leading-relaxed text-gray-500">
-            How this page was made: the questions, results and text were researched and drafted with AI assistance from the sources listed above, and a second,
-            independent AI pass checked each factual claim against those sources. The photos come from CDC’s Public Health Image Library, iNaturalist, Wikimedia
+            Read and approved by Alex Francisco. The photos come from CDC’s Public Health Image Library, iNaturalist, Wikimedia
             Commons and other sources that allow reuse, with each credit shown under the photo. BugGuide and iNaturalist are named as places to ask for an identification, not as sources of facts. This page gives general information,
             not medical advice. Found an error? Email {BUSINESS.email}.
           </p>

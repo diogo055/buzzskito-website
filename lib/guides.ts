@@ -153,6 +153,23 @@ export interface Guide {
   reviewedOn?: string
 }
 
+/**
+ * Owner, Nov 4, 2026: "I've reviewed and read every single page that we've published so far.
+ * I've reviewed all of them manually as soon as u pushed them." So every guide published on or
+ * before this date names him as its reviewer. A guide published later reads "Published by" until
+ * he has read it: then give it "reviewedBy" and "reviewedOn", or move this date when he confirms
+ * a whole batch. Only when true.
+ */
+export const OWNER_REVIEWED_THROUGH = '2026-11-04'
+export const OWNER_REVIEWER = 'Alex Francisco'
+
+/** Who read and approved a guide (and when, if the day is on record), or null if nobody has yet. */
+export function guideReviewer(g: Pick<Guide, 'reviewedBy' | 'reviewedOn' | 'datePublished'>): { name: string; on?: string } | null {
+  if (g.reviewedBy && g.reviewedOn) return { name: g.reviewedBy, on: g.reviewedOn }
+  if (g.datePublished.slice(0, 10) <= OWNER_REVIEWED_THROUGH) return { name: OWNER_REVIEWER }
+  return null
+}
+
 export const guidePath = (g: Pick<Guide, 'slug' | 'kind' | 'section'>) => `/${g.section ?? (g.kind === 'pillar' ? 'learn' : 'blog')}/${g.slug}`
 
 /** Hero images that exist in public/guides, by page address. Written by scripts/us-pages-register.mjs. */
@@ -296,8 +313,8 @@ export function guideSchemas(g: Guide): Record<string, unknown>[] {
     url: `${SITE_URL}${path}`,
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}${path}` },
     // The author of record is the company, not a named person: these guides were drafted
-    // with AI assistance, and the page says so. Naming a human author here would misstate
-    // who wrote them. (The visible byline handles a human reviewer, when there is one.)
+    // with AI assistance, so naming a human author here would misstate who wrote them. The
+    // visible byline names the person who read and approved the page (guideReviewer).
     author: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: BUSINESS.legalName, url: SITE_URL },
     inLanguage: g.locale ?? 'en-US',
     ...(hero && { image: { '@type': 'ImageObject', url: `${SITE_URL}${hero.src}`, contentUrl: `${SITE_URL}${hero.src}`, width: hero.width, height: hero.height, ...hero.rights } }),
