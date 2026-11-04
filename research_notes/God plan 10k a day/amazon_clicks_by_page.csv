@@ -1,0 +1,226 @@
+rank,page,type,cluster,season,clicks_all,clicks_CA,clicks_US,clicks_other,share_of_all_clicks_pct,cum_share_pct,CA_views,US_views,CA_landing_sessions,US_landing_sessions,CA_organic_landing_sessions,CA_clicks_per_1000_CA_landing_sessions,CA_clicks_per_1000_CA_views,US_clicks_per_1000_US_views,CA_clicks_in_sessions_that_landed_here,CA_clicks_in_sessions_that_landed_here_per_1000_landing_sessions,CA_clicks_Sep,CA_clicks_Oct,CA_clicks_Sep22_Oct12,CA_clicks_Oct13_Nov2,CA_per_1000_views_Oct13_Nov2,top_placements,top_search_terms_CA,built_amazon_ca_links,built_amazon_com_links
+1,/blog/how-to-get-rid-of-ground-wasps-canada,remedy,wasp,late summer,119,112,7,0,4.1,4.1,815,43,734,37,694,153,137,163,115,157,96,16,30,4,111,"BuyLink 38%, unknown 31%, AwardCard 21%",wilson one shot foam wasp hornet killer (20),20,0
+2,/blog/advion-cockroach-gel-bait,product,roach,year-round,119,116,2,1,4.1,8.3,441,19,401,16,367,289,263,105,106,264,67,47,42,30,323,"BuyLink 62%, StickyBuyBar 23%, AwardCard 9%",combat roach killing bait stations (63); raid max roach bait stations (9),16,0
+3,/blog/best-bed-bug-steamer-canada,product,bedbug,year-round,102,91,8,3,3.6,11.8,167,5,132,5,122,689,545,,85,644,59,32,28,19,442,"BuyLink 59%, unknown 15%, AwardCard 13%",vapamore mr-100 steamer (40); mcculloch mc1275 steam cleaner (6),17,0
+4,/blog/raccoon-deterrent,product,wildlife,spring-fall,100,85,10,5,3.5,15.3,308,33,279,30,269,305,276,303,90,323,66,18,27,12,194,"BuyLink 71%, AwardCard 13%, StickyBuyBar 12%",motion activated sprinkler animal repellent (13),19,0
+5,/blog/wasp-dust-canada,product,wasp,late summer,96,93,1,2,3.3,18.7,545,17,472,14,452,197,171,59,91,193,59,34,37,18,189,"BuyLink 55%, StickyBuyBar 23%, AwardCard 21%",wilson one shot foam wasp hornet killer (32); bulb duster pesticide applicator (20),15,0
+6,/blog/best-dehumidifier-for-cold-garage-canada,product,dehumidifier,summer-fall,85,82,0,3,3.0,21.6,150,0,138,0,131,594,547,,81,587,31,48,20,33,550,"BuyLink 66%, AwardCard 13%, StickyBuyBar 11%",desiccant dehumidifier garage cold (46); dehumidifier auto defrost 50 pint continuous drain (12),19,0
+7,/blog/electric-fly-swatter,product,general,summer-fall,81,55,13,13,2.8,24.5,132,30,118,25,106,466,417,433,53,449,28,27,16,16,800,"BuyLink 75%, StickyBuyBar 12%, AwardCard 6%",zap it electric fly swatter 4000 volt usb rechargeable (12),23,0
+8,/blog/best-rat-trap-canada,product,rodent,year-round,78,70,7,1,2.7,27.2,178,22,151,20,140,464,393,318,69,457,30,37,23,27,509,"BuyLink 50%, unknown 26%, AwardCard 17%",victor rat trap (44); victor electronic rat trap (6),16,0
+9,/blog/best-fruit-fly-trap-canada,product,flies,late summer-fall,70,67,1,2,2.4,29.6,173,9,164,9,145,409,387,,67,409,25,38,19,30,462,"BuyLink 60%, TopBox 13%, AwardCard 11%",terro fruit fly trap (42); katchy indoor insect trap (4),33,0
+10,/blog/motion-activated-sprinkler-canada,product,wildlife,spring-fall,65,65,0,0,2.3,31.9,113,1,107,1,100,607,575,,60,561,39,26,30,13,619,"BuyLink 88%, unknown 6%, AwardCard 4%",orbit yard enforcer motion activated sprinkler (21),17,0
+11,/blog/laser-mosquito-killer-photon-matrix-review,product,mosquito,summer,62,20,13,29,2.2,34.0,204,341,184,304,170,109,98,38,25,136,12,8,7,4,78,"BuyLink 55%, StickyBuyBar 39%, TopPick 6%",mosquito magnet patriot plus (3),25,0
+12,/blog/best-wasp-nest-spray-canada,product,wasp,late summer,60,60,0,0,2.1,36.1,443,13,378,13,363,159,135,0,62,164,53,7,7,2,167,"AwardCard 33%, BuyLink 28%, unknown 28%",raid wasp hornet killer (15); wilson waspout wasp hornet foam (3),15,0
+13,/blog/bed-bug-mattress-encasement-canada,product,bedbug,year-round,53,52,0,1,1.8,38.0,108,0,94,0,86,553,481,,54,574,28,20,17,14,560,"BuyLink 74%, AwardCard 18%, TopBox 8%",utopia bedding zippered mattress encasement (7),15,0
+14,/blog/mosquito-bits-canada-vs-dunks,product,mosquito,summer,49,47,2,0,1.7,39.7,272,13,242,11,212,194,173,154,46,190,21,26,14,17,195,"BuyLink 42%, StickyBuyBar 21%, TopBox 18%",summit mosquito bits (26); summit mosquito dunks (6),19,0
+15,/blog/best-cockroach-spray-canada,product,roach,year-round,45,44,1,0,1.6,41.2,205,9,180,7,168,244,215,,47,261,25,15,20,9,200,"BuyLink 53%, StickyBuyBar 38%, AwardCard 6%",combat roach killing bait stations (27); raid ant and roach killer (3),22,0
+16,/blog/best-flea-spray-for-home-canada,product,general,late summer-fall,42,41,0,1,1.5,42.7,134,1,109,1,105,376,306,,42,385,17,21,8,21,404,"BuyLink 65%, StickyBuyBar 18%, AwardCard 12%",flea spray home carpet upholstery igr (30); bagged hepa vacuum cleaner (1),20,0
+17,/blog/best-rodent-repellent-for-cars-canada,product,rodent,fall-winter,39,37,2,0,1.4,44.1,199,24,184,16,178,201,186,83,39,212,10,27,8,20,215,"BuyLink 70%, TopBox 13%, AwardCard 10%",rodent deterrent tape capsaicin (15); under hood rodent repeller battery (9),23,0
+18,/blog/best-steam-cleaner-for-pest-control-canada,product,steamer,year-round,39,28,6,5,1.4,45.4,59,7,42,7,38,667,475,,23,548,16,11,3,11,647,"BuyLink 61%, StickyBuyBar 25%, AwardCard 14%",dupray neat steam cleaner (11); handheld high pressure steam cleaner (3),19,0
+19,/blog/best-bed-bug-detector-canada,product,bedbug,year-round,38,38,0,0,1.3,46.7,58,2,54,2,48,704,655,,37,685,24,14,16,3,158,"BuyLink 56%, AwardCard 37%, StickyBuyBar 7%",active bed bug monitor co2 (16); bed bug interceptor traps aspectek (7),21,0
+20,/blog/bed-bug-spray-canada,remedy,bedbug,year-round,35,35,0,0,1.2,48.0,113,4,84,4,77,417,310,,34,405,22,12,6,8,216,"BuyLink 27%, StickyBuyBar 27%, unknown 20%",doktor doom sleep tight bed bug spray (5),19,0
+21,/blog/best-bed-bug-powder-canada,product,bedbug,year-round,34,26,4,4,1.2,49.1,83,5,78,5,76,333,313,,29,372,13,13,5,10,526,"BuyLink 46%, StickyBuyBar 42%, AwardCard 12%",cimexa insecticide dust (20); bulb hand duster pest control (1),18,0
+22,/blog/cimexa-bed-bug-review-canada,product,bedbug,year-round,33,31,2,0,1.1,50.3,75,6,64,5,58,484,413,,31,484,19,12,11,6,273,"BuyLink 53%, StickyBuyBar 37%, TopBox 11%",cimexa insecticide dust (17),10,0
+23,/blog/best-wasp-trap,product,wasp,late summer,32,31,0,1,1.1,51.4,85,5,78,5,70,397,365,,29,372,30,1,1,0,,"BuyLink 50%, unknown 33%, AwardCard 17%",rescue why trap wasp hornet yellowjacket (3),20,0
+24,/blog/best-bed-bug-trap-canada,product,bedbug,year-round,31,30,1,0,1.1,52.5,77,2,67,2,64,448,390,,30,448,16,12,3,14,519,"BuyLink 56%, AwardCard 28%, TopBox 17%",active bed bug monitor lure trap (7); climbup bed bug interceptor (6),19,0
+25,/blog/bed-bug-heater-canada,product,bedbug,year-round,31,17,1,13,1.1,53.6,50,4,41,3,38,415,340,,15,366,5,12,6,6,400,"BuyLink 69%, AwardCard 23%, StickyBuyBar 4%",thermalstrike bed bug heater luggage (4),19,0
+26,/blog/permethrin-canada-yard-clothing-spray,remedy,mosquito,summer,30,28,2,0,1.0,54.6,309,16,270,12,255,104,91,125,28,104,9,19,7,15,181,"BuyLink 72%, TopBox 16%, AwardCard 8%",insect shield permethrin treated clothing (20); icaridin insect repellent (3),16,0
+27,/blog/how-to-get-rid-of-drain-flies-canada,remedy,flies,summer-fall,30,30,0,0,1.0,55.7,105,11,93,10,86,323,286,0,30,323,12,18,13,7,212,"BuyLink 88%, StickyBuyBar 8%, AwardCard 4%",flexible drain cleaning brush set long (13); bio-clean drain bacteria enzyme treatment (10),20,0
+28,/blog/best-indoor-fly-mosquito-trap-canada,product,mosquito,summer,28,23,3,2,1.0,56.6,20,8,18,4,16,1278,1150,,22,1222,19,4,2,3,,"BuyLink 62%, AwardCard 25%, StickyBuyBar 12%",katchy indoor insect trap uv fan (4); dynatrap indoor insect trap dt160 (1),20,0
+29,/blog/best-mosquito-trap,product,mosquito,summer,28,17,8,3,1.0,57.6,67,20,45,14,21,378,254,400,14,311,10,7,8,2,,"AwardCard 53%, BuyLink 47%",biogents mosquitaire co2 trap (4),19,0
+30,/blog/best-hepa-vacuum-for-bed-bugs-and-fleas-canada,product,bedbug,late summer-fall,27,23,2,2,0.9,58.6,37,4,32,4,32,719,622,,22,688,7,14,7,9,900,"BuyLink 78%, AwardCard 11%, StickyBuyBar 11%",miele canister vacuum sealed hepa bagged (8); corded handheld hepa vacuum (3),19,0
+31,/blog/mosquito-repellent-guide-ontario-2026,remedy,mosquito,summer,26,26,0,0,0.9,59.5,100,4,94,1,87,277,260,,26,277,20,6,4,3,,"BuyLink 92%, AwardCard 8%",off deep woods insect repellent (3),20,0
+32,/blog/best-roach-traps-canada,product,roach,year-round,26,26,0,0,0.9,60.4,58,3,50,3,48,520,448,,22,440,14,11,7,7,318,"BuyLink 79%, TopBox 14%, StickyBuyBar 7%",combat roach killing bait stations (14),25,0
+33,/blog/rat-poison-canada-what-is-legal,product,rodent,fall-winter,25,25,0,0,0.9,61.2,258,10,232,10,222,108,97,0,31,134,10,13,12,9,105,"BuyLink 77%, unknown 9%, StickyBuyBar 5%",tomcat rat killer disposable station (10); heavy duty rat snap trap (7),14,0
+34,/blog/rodent-exclusion-kit-canada,product,rodent,fall-winter,24,21,3,0,0.8,62.1,46,3,41,3,40,512,457,,21,512,13,7,11,2,182,"BuyLink 65%, AwardCard 25%, StickyBuyBar 10%",copper mesh rodent control (8); exterior polyurethane sealant masonry (4),22,0
+35,/blog/crossfire-bed-bug-concentrate-review-canada,product,bedbug,year-round,24,23,1,0,0.8,62.9,111,20,93,14,88,247,207,50,27,290,9,11,7,11,289,"BuyLink 84%, TopBox 16%",cimexa insecticide dust bed bug (9); doktor doom diatomaceous earth (5),13,0
+36,/blog/how-to-get-rid-of-cockroaches-canada,remedy,roach,year-round,23,23,0,0,0.8,63.7,96,3,64,3,59,359,240,,30,469,7,16,18,3,130,"BuyLink 76%, StickyBuyBar 14%, AwardCard 5%",roach killing bait stations (13); cockroach gel bait (6),18,0
+37,/blog/best-raccoon-live-trap-canada,product,wildlife,spring-fall,23,23,0,0,0.8,64.5,33,4,33,4,32,697,697,,20,606,9,14,3,12,1000,"BuyLink 53%, AwardCard 33%, StickyBuyBar 13%",duke heavy duty large cage trap raccoon (5),22,0
+38,/blog/best-spider-spray-canada,product,general,late summer-fall,21,21,0,0,0.7,65.2,80,2,72,2,68,292,262,,21,292,19,2,9,1,,"AwardCard 67%, BuyLink 25%, StickyBuyBar 8%",konk onguard residual insecticide spray (1),25,0
+39,/blog/best-mouse-trap-canada,product,rodent,fall-winter,21,21,0,0,0.7,66.0,37,2,24,0,19,875,568,,9,375,6,12,5,11,407,"BuyLink 41%, AwardCard 35%, unknown 24%",victor mouse trap 4 pack (11); victor electronic mouse trap (6),17,0
+40,/blog/best-sump-pump-for-basement-canada,product,general,mixed,21,20,1,0,0.7,66.7,66,1,59,1,56,339,303,,19,322,10,10,5,5,238,"BuyLink 60%, AwardCard 20%, StickyBuyBar 13%",1/3 hp cast iron submersible sump pump (11); 1/2 hp cast iron submersible sump pump (2),40,0
+41,/blog/mosquito-dunks-canada-guide,product,mosquito,summer,20,19,1,0,0.7,67.4,125,12,103,5,88,184,152,83,21,204,8,11,7,8,286,"BuyLink 65%, StickyBuyBar 18%, AwardCard 12%",summit mosquito dunks (6),26,0
+42,/blog/best-natural-bed-bug-spray-canada,product,bedbug,year-round,19,18,0,1,0.7,68.1,75,0,62,0,53,290,240,,16,258,15,3,7,0,0,"BuyLink 73%, StickyBuyBar 27%",ecoraider bed bug killer spray (4); proof bed bug dust mite spray (3),21,0
+43,/blog/how-to-get-rid-of-fruit-flies,remedy,flies,late summer-fall,19,19,0,0,0.7,68.7,70,7,67,6,60,284,271,,17,254,13,5,6,2,182,"BuyLink 58%, StickyBuyBar 25%, TopBox 8%",terro fruit fly trap (8); green gobbler fruit fly goodbye drain gel (3),10,0
+44,/blog/mosquito-fogger-canada,product,mosquito,summer,18,18,0,0,0.6,69.3,59,5,52,2,46,346,305,,19,365,16,2,5,1,,BuyLink 100%,black flag propane fogger (3); burgess propane insect fogger (2),22,0
+45,/blog/mouse-proof-garage-door-seal-canada,product,rodent,fall-winter,18,18,0,0,0.6,70.0,56,0,51,0,47,353,321,,18,353,10,8,9,4,143,"BuyLink 79%, AwardCard 21%",garage door corner seal inserts (8); garage door threshold seal kit (3),32,0
+46,/blog/best-battery-backpack-sprayer-canada,product,sprayer,spring-summer,18,18,0,0,0.6,70.6,17,3,17,3,16,1059,1059,,18,1059,9,9,12,0,,BuyLink 100%,chapin 24v battery backpack sprayer (5); petra 4 gallon battery backpack sprayer (3),18,0
+47,/blog/best-cockroach-killer-canada,product,roach,year-round,17,17,0,0,0.6,71.2,41,3,33,2,11,515,415,,20,606,4,12,3,12,480,"AwardCard 47%, BuyLink 27%, StickyBuyBar 20%",combat roach killing bait stations (14); boric acid roach bait (1),15,0
+48,/blog/best-pump-pressure-sprayer-canada,product,sprayer,spring-summer,17,15,2,0,0.6,71.8,33,4,26,4,24,577,455,,15,577,4,10,11,2,,"BuyLink 67%, AwardCard 27%, TopBox 7%",chapin 2 gallon viton pump sprayer (7); backpack sprayer 4 gallon viton (2),19,0
+49,/blog/how-to-get-rid-of-centipedes-canada,remedy,general,late summer-fall,16,16,0,0,0.6,72.3,197,1,182,1,163,88,81,,16,88,4,10,8,7,104,"BuyLink 88%, StickyBuyBar 12%",insect glue board traps multi pack (7); 50 pint dehumidifier basement energy star (4),23,0
+50,/blog/best-electric-fence-for-raccoons-canada,product,wildlife,spring-fall,16,15,1,0,0.6,72.9,40,9,36,8,34,417,375,,15,417,9,5,5,2,,"BuyLink 80%, StickyBuyBar 20%",zareba electric fence garden kit (8); gallagher fence energizer (1),21,0
+51,/blog/best-bed-bug-spray-for-mattress-canada,product,bedbug,year-round,16,15,1,0,0.6,73.5,65,4,56,4,52,268,231,,15,268,6,8,5,7,250,"BuyLink 46%, StickyBuyBar 31%, AwardCard 15%",ecoraider bed bug killer spray (6); konk bed bug killer spray (3),27,0
+52,/blog/no-see-um-bites,info,general,mixed,16,5,9,2,0.6,74.0,313,1081,282,966,268,18,16,8,6,21,0,4,3,2,21,"StickyBuyBar 62%, BuyLink 38%",hydrocortisone anti itch cream 1% (4); after bite itch relief stick (1),14,0
+53,/blog/how-to-get-rid-of-carpet-beetles-canada,remedy,general,late summer-fall,16,15,0,1,0.6,74.6,78,7,72,6,59,208,192,,12,167,7,7,1,7,189,"BuyLink 90%, AwardCard 10%",sealed hepa vacuum crevice tool (5); carpet beetle pheromone trap (4),27,0
+54,/blog/best-screen-tent-canada,product,general,summer,15,11,4,0,0.5,75.1,36,4,33,2,26,333,306,,11,333,11,0,2,0,,"StickyBuyBar 38%, BuyLink 38%, AwardCard 25%",clam quick set escape screen shelter (4); coleman instant screen house 11x11 (1),32,0
+55,/blog/best-air-purifier-for-dust-mites-canada,product,airpurifier,year-round,14,14,0,0,0.5,75.6,18,0,16,0,12,875,778,,14,875,11,3,1,3,,"BuyLink 78%, AwardCard 22%",coway airmega true hepa air purifier (4); levoit core hepa air purifier (2),23,0
+56,/blog/bed-bug-interceptor-traps-canada,remedy,bedbug,year-round,14,13,1,0,0.5,76.1,49,2,33,2,28,394,265,,5,152,3,10,4,6,375,"BuyLink 50%, StickyBuyBar 50%",climbup bed bug interceptor (8); bed bug interceptor traps (2),9,0
+57,/blog/best-dehumidifier-for-mold-canada,product,dehumidifier,summer-fall,14,14,0,0,0.5,76.6,20,0,19,0,18,737,700,,14,737,8,5,4,2,,"BuyLink 70%, AwardCard 10%, StickyBuyBar 10%",frigidaire dehumidifier hygrostat continuous drain (7); high capacity dehumidifier with pump 50 pint (2),21,0
+58,/blog/best-patio-heater-canada,product,general,mixed,14,13,1,0,0.5,77.0,24,11,24,11,18,542,542,91,13,542,5,8,5,6,,"BuyLink 58%, AwardCard 42%",propane patio heater 48000 btu tower (8); electric infrared patio heater wall mount (2),32,0
+59,/blog/ecoraider-bed-bug-spray-review-canada,product,bedbug,year-round,14,13,1,0,0.5,77.5,25,8,21,8,20,619,520,,14,667,5,8,5,3,,"BuyLink 62%, StickyBuyBar 25%, TopPick 12%",ecoraider bed bug killer (6); cimexa insecticide dust (2),11,0
+60,/blog/rodent-proof-compost-bin-canada,product,rodent,fall-winter,14,14,0,0,0.5,78.0,36,2,31,1,29,452,389,,14,452,7,7,1,7,700,"BuyLink 88%, AwardCard 12%",dual chamber tumbling composter (5); metal compost bin rodent proof (2),28,0
+61,/blog/tick-removal-tool-guide,product,tick,spring-summer,14,6,6,2,0.5,78.5,16,27,12,19,12,500,375,222,6,500,5,1,0,1,,"AwardCard 75%, StickyBuyBar 25%",,23,0
+62,/blog/best-large-capacity-dehumidifier-canada,product,dehumidifier,summer-fall,14,12,2,0,0.5,79.0,51,1,47,1,45,255,235,,12,255,7,2,2,3,,BuyLink 100%,homelabs 50 pint dehumidifier (3); midea cube dehumidifier (1),25,0
+63,/blog/best-bed-bug-spray-for-travel-canada,product,bedbug,year-round,13,13,0,0,0.5,79.4,25,2,22,1,22,591,520,,12,545,6,7,5,2,,"BuyLink 50%, AwardCard 38%, StickyBuyBar 12%",doktor doom travel pro bed bug spray (4); insect shield permethrin treated clothing (2),19,0
+64,/blog/best-ant-killer,product,ant,spring-summer,13,12,0,1,0.5,79.9,111,3,105,2,98,114,108,,12,114,5,7,3,6,133,"BuyLink 56%, StickyBuyBar 33%, TopBox 11%",terro liquid ant baits (6); combat ant killing bait stations (2),26,0
+65,/blog/best-raccoon-proof-roof-vent-covers-canada,product,wildlife,spring-fall,12,11,1,0,0.4,80.3,38,3,36,3,32,306,289,,11,306,5,6,2,6,400,"BuyLink 44%, AwardCard 33%, StickyBuyBar 22%",roof vent guard galvanized steel animal (4); galvanized hardware cloth 1/2 inch 19 gauge (2),17,0
+66,/blog/horse-fly-and-deer-fly-bite-treatment,remedy,flies,summer-fall,11,4,7,0,0.4,80.7,49,38,44,34,41,91,82,184,1,23,4,0,0,0,,,,14,0
+67,/blog/bed-bug-heat-treatment-diy-canada,info,bedbug,year-round,11,11,0,0,0.4,81.1,34,1,30,1,29,367,324,,13,433,6,5,4,3,250,BuyLink 100%,zappbug room bed bug heater (4); packtite bed bug heater (2),18,0
+68,/blog/co2-mosquito-trap-canada,remedy,mosquito,summer,10,8,2,0,0.3,81.4,20,12,14,6,14,571,400,167,8,571,8,0,3,0,,"BuyLink 62%, AwardCard 12%, StickyBuyBar 12%",biogents mosquitaire mosquito trap (4); biogents bg-lure refill (1),20,0
+69,/blog/how-to-get-rid-of-cluster-flies-canada,remedy,flies,summer-fall,10,10,0,0,0.3,81.8,89,4,82,3,72,122,112,,12,146,2,8,7,3,59,BuyLink 100%,window fly trap clear sticky (7); katchy indoor insect trap (3),12,0
+70,/blog/best-steam-mop-for-hardwood-floors-canada,product,steamer,mixed,9,9,0,0,0.3,82.1,15,0,15,0,14,600,600,,9,600,8,1,3,1,,"BuyLink 89%, AwardCard 11%",bissell powerfresh steam mop hardwood (3); dupray bliss steam mop (3),21,0
+71,/pest-product-guides/bed-bug-control,info,bedbug,year-round,9,9,0,0,0.3,82.4,115,1,72,0,67,125,78,,10,139,2,7,4,5,139,"BuyLink 44%, StickyBuyBar 33%, TopBox 11%",vapamore mr-100 steamer (9),7,0
+72,/blog/best-bed-bug-fogger-canada,product,bedbug,year-round,9,8,0,1,0.3,82.7,24,2,23,2,23,348,333,,10,435,4,4,6,0,,"BuyLink 83%, StickyBuyBar 17%",doktor doom total release fogger (3); bed bug heater chamber (1),18,0
+73,/blog/best-silverfish-traps,product,general,late summer-fall,9,9,0,0,0.3,83.0,52,3,48,2,45,188,173,,9,188,2,4,5,3,125,"BuyLink 88%, AwardCard 12%",insect glue board traps multi pack silverfish (4); digital hygrometer indoor humidity monitor 2 pack (3),26,0
+74,/blog/best-whole-house-dehumidifier-canada,product,dehumidifier,summer-fall,9,9,0,0,0.3,83.4,17,0,16,0,14,562,529,,9,562,4,4,2,4,,"BuyLink 67%, AwardCard 17%, StickyBuyBar 17%",aprilaire whole house dehumidifier ducted (2); wireless hygrometer indoor humidity remote sensor (2),17,0
+75,/blog/mouse-repellent-canada,remedy,rodent,fall-winter,8,8,0,0,0.3,83.6,186,1,170,1,166,47,43,,13,76,0,8,2,6,43,"BuyLink 38%, StickyBuyBar 38%, AwardCard 25%",stainless steel wool rodent exclusion (7); victor mouse trap 4 pack (1),21,0
+76,/blog/best-crawl-space-dehumidifier-canada,product,dehumidifier,summer-fall,8,8,0,0,0.3,83.9,19,0,19,0,18,421,421,,8,421,7,1,1,0,,BuyLink 100%,,19,0
+77,/blog/best-whole-room-bed-bug-heater-canada,product,bedbug,year-round,8,8,0,0,0.3,84.2,16,0,12,0,11,667,500,,8,667,1,7,8,0,,"BuyLink 62%, AwardCard 38%",nuventa portable bed bug heater (4); portable bed bug heater 120v certified (1),19,0
+78,/blog/best-yellow-jacket-trap-canada,product,wasp,late summer,8,8,0,0,0.3,84.5,50,0,44,0,43,182,160,,3,68,7,1,1,1,,"AwardCard 50%, BuyLink 50%",rescue reusable yellowjacket trap (2),20,0
+79,/blog/best-upholstery-steam-cleaner-canada,product,steamer,mixed,8,8,0,0,0.3,84.7,34,0,31,0,24,258,235,,7,226,3,5,3,4,286,"BuyLink 71%, AwardCard 29%",portable upholstery extractor heated spot cleaner (6); portable spot cleaner car upholstery long hose (1),21,0
+80,/blog/how-to-keep-mice-out-of-your-car,remedy,rodent,fall-winter,8,8,0,0,0.3,85.0,105,11,93,7,89,86,76,0,9,97,1,5,1,6,125,"BuyLink 62%, StickyBuyBar 25%, AwardCard 12%",rodent deterrent tape capsaicin wire (7); under hood rodent repeller strobe light battery (1),22,0
+81,/blog/mouse-bait-station-canada,product,rodent,fall-winter,8,8,0,0,0.3,85.3,110,4,84,4,75,95,73,,10,119,3,5,1,4,87,"BuyLink 40%, StickyBuyBar 20%, TopBox 20%",tomcat mouse killer disposable bait station (5),10,0
+82,/blog/vapamore-mr100-steamer-review-canada,product,steamer,year-round,8,8,0,0,0.3,85.6,17,0,9,0,9,,471,,6,,5,3,6,2,,"BuyLink 50%, StickyBuyBar 38%, TopBox 12%",vapamore mr-100 primo steam cleaner (6); dupray neat steam cleaner (2),12,0
+83,/blog/mosquito-magnet-canada,product,mosquito,summer,8,6,1,1,0.3,85.9,30,7,24,2,23,250,200,,2,83,4,2,3,0,,"BuyLink 80%, unknown 20%",mosquito magnet patriot plus (4),22,0
+84,/blog/best-cordless-fogger-canada,product,fogger,summer,8,7,0,1,0.3,86.1,7,1,6,0,6,,,,7,,3,3,4,3,,"AwardCard 50%, BuyLink 38%, TopBox 12%",hudson cordless ulv fogger (4); cordless battery ulv fogger (1),19,0
+85,/blog/flea-bites-on-humans,info,general,late summer-fall,8,4,3,1,0.3,86.4,73,145,58,128,48,69,55,21,1,17,2,0,1,2,69,"BuyLink 50%, StickyBuyBar 50%",flea trap plug in (3),11,0
+86,/blog/best-ulv-cold-fogger-canada,product,fogger,summer,7,7,0,0,0.2,86.7,16,2,15,1,15,467,438,,7,467,6,1,2,1,,"BuyLink 71%, StickyBuyBar 29%",petratools ulv cold fogger electric (5); hudson commercial ulv fogger (1),19,0
+87,/blog/bug-zappers-canada-do-they-work,product,general,summer,7,7,0,0,0.2,86.9,23,5,23,3,21,304,304,,7,304,5,2,2,2,,"AwardCard 50%, BuyLink 50%",black decker outdoor bug zapper (2); black flag executioner racket (1),27,0
+88,/blog/bed-bugs-on-the-ttc-toronto,info,bedbug,year-round,7,7,0,0,0.2,87.1,88,2,83,2,81,84,80,,8,96,4,2,0,3,107,"BuyLink 67%, AwardCard 33%",bed bug interceptor traps climbup (3),14,0
+89,/blog/how-to-get-rid-of-wasps-canada,remedy,wasp,late summer,7,7,0,0,0.2,87.4,48,2,35,2,34,200,146,,10,286,3,4,5,0,,"BuyLink 80%, StickyBuyBar 20%",rescue why trap (1),9,0
+90,/blog/smells-mosquitoes-hate,info,mosquito,summer,7,0,2,5,0.2,87.6,7,31,7,17,7,,,65,0,,0,0,0,0,,"BuyLink 75%, StickyBuyBar 25%",,10,0
+91,/blog/best-flea-bomb-canada,product,general,late summer-fall,7,5,2,0,0.2,87.9,45,5,40,4,37,125,111,,6,150,3,2,2,2,167,"BuyLink 75%, StickyBuyBar 25%",doktor doom total release fogger (1); flea trap plug in (1),22,0
+92,/blog/diatomaceous-earth-canada-buyers-guide,product,general,year-round,6,6,0,0,0.2,88.1,13,2,13,2,5,462,462,,6,462,6,0,5,0,,"BuyLink 80%, AwardCard 20%",safers insect killing diatomaceous earth (3); diatomaceous earth duster applicator (2),19,0
+93,/blog/best-deer-fence-for-gardens-canada,product,wildlife,spring-fall,6,5,1,0,0.2,88.3,22,3,21,3,21,238,227,,5,238,4,1,0,1,,"BuyLink 50%, StickyBuyBar 50%",deer netting 330 ft bulk roll fence (1),22,0
+94,/blog/picaridin-vs-deet,product,mosquito,summer,6,6,0,0,0.2,88.5,27,7,26,6,25,231,222,,5,192,4,2,3,0,,"BuyLink 75%, StickyBuyBar 25%",natrapel picaridin insect repellent (4),12,0
+95,/blog/wondercide-canada-review,product,general,mixed,6,5,1,0,0.2,88.7,35,39,27,35,24,185,143,26,8,296,4,1,2,1,91,"BuyLink 60%, StickyBuyBar 20%, TopBox 20%",wondercide flea and tick spray (3); wondercide (1),17,0
+96,/blog/best-commercial-fly-light-trap-canada,product,flies,summer-fall,6,6,0,0,0.2,88.9,7,2,6,0,6,,,,6,,3,2,3,3,,"BuyLink 67%, AwardCard 17%, TopBox 17%",commercial insect light trap 2x15w glue board (3); vector insect light trap glue board (2),19,0
+97,/blog/dupray-steamer-review-canada,product,steamer,year-round,6,3,1,2,0.2,89.1,39,19,24,11,22,125,77,53,2,83,3,0,0,0,,"BuyLink 67%, StickyBuyBar 33%",dupray neat steam cleaner (2),12,0
+98,/blog/katchy-indoor-insect-trap-review-canada,product,general,summer-fall,6,4,2,0,0.2,89.3,23,30,19,14,6,211,174,67,2,105,3,1,3,0,,"BuyLink 60%, StickyBuyBar 40%",katchy indoor insect trap (2); mosquito bits bti granules (1),16,0
+99,/blog/packtite-portable-review-canada,product,bedbug,year-round,6,5,0,1,0.2,89.6,8,1,8,1,8,,,,3,,2,3,2,1,,BuyLink 100%,thermalstrike ranger bed bug heater (2); bed bug heater closet room (1),12,0
+100,/blog/victor-electronic-mouse-trap-review-canada,product,rodent,fall-winter,6,5,0,1,0.2,89.8,20,1,14,0,8,357,250,,1,71,2,3,3,2,,"BuyLink 50%, StickyBuyBar 33%, TopPick 17%",victor electronic mouse trap m250s (5),9,0
+101,/blog/bed-bug-stains-poop-droppings-canada,info,bedbug,year-round,6,2,0,4,0.2,90.0,80,49,67,45,63,30,25,0,2,30,0,2,0,2,91,"BuyLink 67%, StickyBuyBar 33%",bed bug interceptor traps climbup (1); bright handheld led flashlight (1),19,0
+102,/blog/what-kills-bed-bugs-instantly-canada,remedy,bedbug,year-round,6,2,2,2,0.2,90.2,24,10,22,10,19,91,83,200,3,136,0,2,2,0,,"StickyBuyBar 50%, BuyLink 33%, TopBox 17%",bed bug steamer dry vapour (1); safers insect killing diatomaceous earth (1),17,0
+103,/blog/harris-bed-bug-killer-review-canada,product,bedbug,year-round,5,5,0,0,0.2,90.4,14,1,13,1,13,385,357,,6,462,5,0,1,0,,StickyBuyBar 100%,harris bed bug killer (1),11,0
+104,/blog/how-to-get-rid-of-ants-canada,remedy,ant,spring-summer,5,5,0,0,0.2,90.5,42,1,36,1,32,139,119,,5,139,4,1,0,1,83,"AwardCard 50%, BuyLink 50%",combat ant killing bait stations (2); ant gel bait (1),20,0
+105,/blog/how-to-get-rid-of-bed-bugs-in-couch-canada,remedy,bedbug,year-round,5,4,0,1,0.2,90.7,26,0,21,0,20,190,154,,1,48,0,4,0,4,333,"BuyLink 60%, AwardCard 40%",ecoraider bed bug spray (3); bed bug cushion encasement zippered (1),18,0
+106,/blog/best-bed-bug-heat-chamber-canada,product,bedbug,year-round,5,3,0,2,0.2,90.9,9,0,9,0,9,,,,3,,0,3,0,3,,BuyLink 100%,zappbug room bed bug heater (2),19,0
+107,/blog/best-mosquito-repellent-device-canada,product,mosquito,summer,5,4,1,0,0.2,91.0,15,10,12,6,10,333,267,100,3,250,3,1,1,0,,BuyLink 100%,thermacell patio shield (1),32,0
+108,/blog/best-thermal-fogger-canada,product,fogger,summer,5,5,0,0,0.2,91.2,15,8,11,7,9,455,333,,5,455,3,2,0,2,,BuyLink 100%,longray thermal fogger (3); electric thermal fogger (1),18,0
+109,/blog/biogents-bg-mosquitaire-mosquito-trap-canada,remedy,mosquito,summer,5,4,0,1,0.2,91.4,12,0,8,0,7,,333,,4,,3,1,2,1,,BuyLink 100%,biogents bg-mosquitaire mosquito trap (3),34,0
+110,/blog/mosquito-repellent-bracelets-canada,remedy,mosquito,summer,5,5,0,0,0.2,91.6,14,3,12,2,11,417,357,,5,417,2,3,3,2,,"BuyLink 40%, StickyBuyBar 40%, AwardCard 20%",parakito mosquito bracelet (4); citronella mosquito bracelet 10 pack (1),21,0
+111,/blog/propane-vs-electric-fogger-canada,product,fogger,summer,5,2,3,0,0.2,91.7,4,11,4,9,3,,,273,2,,1,1,0,1,,"StickyBuyBar 50%, BuyLink 50%",burgess propane insect fogger (1),16,0
+112,/blog/carpenter-ants-canada,info,ant,spring-summer,4,4,0,0,0.1,91.9,63,1,56,1,55,71,63,,1,18,4,0,0,0,,,,15,0
+113,/blog/how-to-get-rid-of-bed-bugs-canada,remedy,bedbug,year-round,4,4,0,0,0.1,92.0,10,0,3,0,2,,400,,1,,0,4,1,3,,"AwardCard 50%, BuyLink 50%",bed bug interceptor traps (2); cimexa silica bed bug dust (2),22,0
+114,/blog/raccoon-and-skunk-proofing-under-a-deck-canada,remedy,wildlife,spring-fall,4,4,0,0,0.1,92.2,32,2,29,2,26,138,125,,4,138,4,0,0,0,0,,,17,0
+115,/blog/best-tick-repellent-yard-canada,product,tick,spring-summer,4,4,0,0,0.1,92.3,9,4,6,0,6,,,,2,,3,1,0,1,,BuyLink 100%,wondercide tick yard spray (1),13,0
+116,/blog/black-flies-ontario-when-they-come-out,info,flies,summer-fall,4,4,0,0,0.1,92.4,129,29,111,22,104,36,31,0,4,36,3,1,1,0,0,BuyLink 100%,insect shield permethrin treated clothing (1),11,0
+117,/blog/cluster-flies-in-house-canada,info,flies,summer-fall,4,4,0,0,0.1,92.6,40,1,40,0,37,100,100,,4,100,3,1,0,1,56,StickyBuyBar 100%,window fly traps clear sticky (1),14,0
+118,/blog/do-bed-bug-sprays-actually-work,remedy,bedbug,year-round,4,4,0,0,0.1,92.7,17,7,11,7,9,364,235,,1,91,3,1,1,0,,BuyLink 100%,bed bug steamer (1),9,0
+119,/blog/dynatrap-canada-review,product,mosquito,summer,4,1,3,0,0.1,92.9,43,94,33,85,28,30,23,32,2,61,0,1,1,0,,"BuyLink 67%, StickyBuyBar 33%",dynatrap insect trap (1),31,0
+120,/blog/how-to-get-rid-of-bed-bugs-yourself-diy-canada,remedy,bedbug,year-round,4,4,0,0,0.1,93.0,15,0,8,0,8,,267,,1,,1,3,1,3,,BuyLink 100%,bed bug steamer dry vapour (2); bed bug interceptor traps (1),22,0
+121,/blog/konk-bed-bug-killer-review-canada,product,bedbug,year-round,4,4,0,0,0.1,93.1,54,27,45,27,32,89,74,0,4,89,3,1,2,1,91,"BuyLink 67%, StickyBuyBar 33%",konk bed bug killer aerosol (2),13,0
+122,/blog/rescue-why-trap-review-canada,product,general,mixed,4,4,0,0,0.1,93.3,30,3,22,3,21,182,133,,3,136,3,1,0,1,,BuyLink 100%,rescue why trap wasp hornet yellowjacket (2),14,0
+123,/blog/ultrasonic-pest-repellers-do-they-work,product,wildlife,fall-winter,4,1,3,0,0.1,93.4,46,49,33,44,22,30,22,61,1,30,1,0,0,0,0,StickyBuyBar 100%,,8,0
+124,/blog/bed-bug-bites-vs-mosquito-bites,product,bedbug,year-round,4,1,3,0,0.1,93.6,8,16,5,11,4,,,188,1,,0,1,1,0,,"BuyLink 50%, StickyBuyBar 50%",bed bug interceptor traps (1),20,0
+125,/blog/best-bug-spray-for-kids-canada,product,general,summer,4,4,0,0,0.1,93.7,13,4,11,1,9,364,308,,4,364,2,2,2,0,,StickyBuyBar 100%,natrapel icaridin 20% (2),24,0
+126,/blog/best-professional-mosquito-trap-canada,product,mosquito,summer,4,4,0,0,0.1,93.8,16,1,14,0,13,286,250,,5,357,2,2,1,1,,"AwardCard 50%, BuyLink 50%",mosquito magnet pro commercial trap (2),21,0
+127,/blog/do-tiki-torches-repel-mosquitoes,remedy,mosquito,summer,4,2,2,0,0.1,94.0,2,61,2,54,1,,,33,2,,2,0,0,0,,BuyLink 100%,,12,0
+128,/blog/no-see-ums-biting-midges-ontario,info,general,mixed,4,2,2,0,0.1,94.1,331,21,283,16,269,7,6,95,2,7,1,1,1,1,12,"StickyBuyBar 67%, TopPick 33%",no see um mesh screen replacement (2),7,0
+129,/blog/pergola-mosquito-curtains-canada,product,mosquito,summer,4,4,0,0,0.1,94.3,18,0,11,0,11,364,222,,5,455,2,2,0,2,,BuyLink 100%,ceiling mount curtain track kit with glides (1); outdoor mosquito mesh curtain panels pergola (1),36,0
+130,/blog/thermal-vs-ulv-fogger-canada,product,fogger,summer,4,4,0,0,0.1,94.4,3,3,3,3,3,,,,5,,2,2,2,0,,"BuyLink 67%, AwardCard 33%",handheld ulv fogger machine (1); longray thermal fogger (1),18,0
+131,/blog/thermalstrike-ranger-review-canada,product,bedbug,year-round,4,3,1,0,0.1,94.5,23,3,23,3,22,130,130,,3,130,1,2,1,1,,"BuyLink 67%, StickyBuyBar 33%",thermalstrike ranger heated suitcase bed bug (1); zappbug heater bed bug (1),11,0
+132,/blog/can-mosquitoes-bite-through-clothes,info,mosquito,summer,4,0,2,2,0.1,94.7,8,57,7,49,7,,,35,0,,0,0,0,0,,"BuyLink 50%, StickyBuyBar 50%",,5,0
+133,/blog/best-solar-bug-zapper-canada,product,general,summer,3,3,0,0,0.1,94.8,14,2,11,0,11,273,214,,4,364,3,0,1,0,,BuyLink 100%,solar bug zapper detached panel extension cord (1),21,0
+134,/blog/how-to-get-rid-of-mice-canada,remedy,rodent,fall-winter,3,3,0,0,0.1,94.9,32,1,17,1,10,176,94,,1,59,0,3,1,2,111,StickyBuyBar 100%,victor mouse trap 4 pack (3),9,0
+135,/blog/how-to-get-rid-of-silverfish-canada,remedy,general,late summer-fall,3,3,0,0,0.1,95.0,34,0,31,0,31,97,88,,3,97,0,3,1,2,143,BuyLink 100%,50 pint dehumidifier basement energy star (3),21,0
+136,/blog/how-to-stop-deer-eating-cedars-ontario,remedy,wildlife,spring-fall,3,3,0,0,0.1,95.1,40,2,40,2,39,75,75,,3,75,0,3,2,1,53,"AwardCard 67%, StickyBuyBar 33%",burlap roll winter plant protection natural jute (2); deer netting for trees and shrubs (1),18,0
+137,/blog/mosquito-net,product,mosquito,summer,3,3,0,0,0.1,95.2,16,2,10,1,8,300,188,,3,300,3,0,3,0,,BuyLink 100%,pop up mosquito net bed self standing (2); mosquito head net hat (1),15,0
+138,/blog/mosquito-repellent-for-dogs,remedy,mosquito,summer,3,3,0,0,0.1,95.3,11,13,10,7,10,300,273,0,3,300,3,0,0,0,,,,22,0
+139,/blog/ortho-home-defense-canada-review,product,general,mixed,3,3,0,0,0.1,95.4,33,4,28,4,24,107,91,,3,107,0,3,2,1,,"BuyLink 67%, StickyBuyBar 33%",ortho bug b gon eco (3),16,0
+140,/blog/bed-bug-bites,info,bedbug,year-round,3,2,0,1,0.1,95.5,154,55,125,39,82,16,13,0,8,64,0,2,1,1,15,"StickyBuyBar 67%, BuyLink 33%",bed bug interceptor traps (2),7,0
+141,/blog/best-bed-bug-box-spring-encasement-canada,product,bedbug,year-round,3,3,0,0,0.1,95.6,3,0,3,0,3,,,,2,,1,2,2,0,,"AwardCard 50%, BuyLink 50%",sureguard box spring encasement zippered (2),19,0
+142,/blog/best-live-animal-trap-canada,product,wildlife,spring-fall,3,3,0,0,0.1,95.7,22,2,22,2,20,136,136,,2,91,2,1,1,0,0,BuyLink 100%,havahart large live animal trap (1),19,0
+143,/blog/how-to-get-rid-of-rats-canada,remedy,rodent,fall-winter,3,3,0,0,0.1,95.8,22,4,16,2,15,188,136,,4,250,1,2,0,2,200,BuyLink 100%,rat bait station tamper resistant (2); goodnature a24 rat trap (1),22,0
+144,/blog/knock-down-bed-bug-killer-review-canada,product,bedbug,year-round,3,3,0,0,0.1,95.9,23,0,21,0,21,143,130,,3,143,1,2,1,2,167,"BuyLink 33%, StickyBuyBar 33%, TopBox 33%",knock down bed bug killer spray canada (3),12,0
+145,/blog/natural-mosquito-repellent-ontario,remedy,mosquito,summer,3,2,0,1,0.1,96.0,19,1,16,1,16,125,105,,2,125,2,0,1,0,,AwardCard 100%,,15,0
+146,/blog/thermacell-e90-canada-review,product,mosquito,summer,3,1,2,0,0.1,96.1,7,10,6,5,6,,,200,0,,0,1,1,0,,"BuyLink 50%, unknown 50%",thermacell e90 rechargeable (1),19,0
+147,/blog/zappbug-heater-review-canada,product,bedbug,year-round,3,2,1,0,0.1,96.2,4,1,4,1,4,,,,1,,0,2,1,1,,"BuyLink 67%, StickyBuyBar 33%",,11,0
+148,/blog/thermacell-canada-where-to-buy,product,mosquito,summer,3,1,0,2,0.1,96.3,3,2,2,0,1,,,,1,,0,1,0,1,,TopBox 100%,thermacell e90 rechargeable mosquito repeller (1),15,0
+149,/blog/when-are-mosquitoes-most-active,info,mosquito,summer,3,1,1,1,0.1,96.4,44,331,40,311,31,25,23,3,10,250,0,1,1,0,,"BuyLink 50%, StickyBuyBar 50%",picaridin insect repellent spray (1),6,0
+150,/blog/why-do-mosquito-bites-itch,info,mosquito,summer,3,0,0,3,0.1,96.6,18,115,14,93,11,0,0,0,0,0,0,0,0,0,,StickyBuyBar 100%,,7,0
+151,/blog/bed-bug-shells-casings-shed-skins-canada,info,bedbug,mixed,2,2,0,0,0.1,96.6,31,23,27,23,25,74,65,0,2,74,0,2,0,2,154,BuyLink 100%,climbup bed bug interceptor (1); sealed hepa bagged canister vacuum (1),20,0
+152,/blog/best-bed-bug-luggage-heater-canada,product,bedbug,year-round,2,2,0,0,0.1,96.7,1,0,1,0,1,,,,2,,0,2,0,2,,BuyLink 100%,packtite closet bed bug heater (1); zappbug room bed bug heater (1),21,0
+153,/blog/best-centipede-killer-canada,product,general,late summer-fall,2,2,0,0,0.1,96.8,13,0,12,0,9,167,154,,2,167,0,2,2,0,,"BuyLink 50%, StickyBuyBar 50%",digital hygrometer indoor humidity monitor 2 pack (1); safers insect killing diatomaceous earth (1),32,0
+154,/blog/carpet-beetle-larvae,us-guide,general,late summer-fall,2,2,0,0,0.1,96.8,6,4,4,3,4,,,,2,,0,2,0,2,,GuidePick 100%,cordless handheld vacuum (2),0,2
+155,/blog/diatomaceous-earth-for-bed-bugs,product,bedbug,year-round,2,2,0,0,0.1,96.9,34,4,23,4,20,87,59,,4,174,2,0,0,0,,"BuyLink 50%, StickyBuyBar 50%",safers insect killing diatomaceous earth (2),9,0
+156,/blog/how-to-get-rid-of-carpenter-bees-canada,remedy,general,mixed,2,2,0,0,0.1,97.0,8,0,8,0,5,,,,2,,2,0,0,0,,,,26,0
+157,/blog/raccoon-proof-chimney-cap-canada,product,wildlife,spring-fall,2,2,0,0,0.1,97.0,11,0,7,0,7,,182,,2,,0,2,0,2,,TopBox 100%,stainless steel chimney cap animal guard (2),20,0
+158,/blog/ultimate-backyard-mosquito-control-guide,info,mosquito,summer,2,0,0,2,0.1,97.1,3,12,2,6,1,,,0,0,,0,0,0,0,,"BuyLink 50%, StickyBuyBar 50%",,5,0
+159,/blog/baby-bed-bugs-nymphs,info,bedbug,year-round,2,1,1,0,0.1,97.2,43,26,36,26,27,28,23,38,1,28,0,1,0,1,67,BuyLink 100%,doktor doom diatomaceous earth (1),16,0
+160,/blog/best-mosquito-trap-for-acreage-canada,product,mosquito,summer,2,2,0,0,0.1,97.2,7,4,7,2,6,,,,2,,1,1,1,0,,BuyLink 100%,flowtron mosquito power co2 trap (1),20,0
+161,/blog/best-squirrel-proof-bird-feeder-canada,product,rodent,spring-fall,2,2,0,0,0.1,97.3,10,0,9,0,8,,200,,2,,0,1,1,1,,"AwardCard 50%, BuyLink 50%",brome squirrel buster plus bird feeder (2),19,0
+162,/blog/black-flag-electric-fogger-review-canada,product,fogger,summer,2,1,1,0,0.1,97.4,18,17,16,13,15,62,56,59,1,62,1,0,1,0,,BuyLink 100%,black flag electric fogger (1),12,0
+163,/blog/bug-protective-clothing-canada,product,general,mixed,2,0,2,0,0.1,97.5,9,4,7,3,5,,,,0,,0,0,0,0,,BuyLink 100%,,20,0
+164,/blog/bugs-that-look-like-ticks,info,tick,spring-summer,2,0,2,0,0.1,97.5,163,429,130,377,111,0,0,5,0,0,0,0,0,0,0,"BuyLink 50%, StickyBuyBar 50%",,10,0
+165,/blog/doktor-doom-sleep-tight-review-canada,product,bedbug,year-round,2,2,0,0,0.1,97.6,16,0,13,0,11,154,125,,2,154,1,1,0,1,,BuyLink 100%,cimexa insecticide dust bed bugs (1),11,0
+166,/blog/mosquito-coils-canada,product,mosquito,summer,2,2,0,0,0.1,97.7,10,3,10,2,10,200,200,,1,100,0,1,0,2,,BuyLink 100%,pic mosquito coils (2),21,0
+167,/blog/mosquito-larvae-identification,info,mosquito,summer,2,0,2,0,0.1,97.7,28,131,23,118,16,0,0,15,0,0,0,0,0,0,,BuyLink 100%,,12,0
+168,/blog/patio-misting-system-canada,product,sprayer,spring-summer,2,0,0,2,0.1,97.8,1,1,1,0,1,,,,0,,0,0,0,0,,"AwardCard 50%, BuyLink 50%",,17,0
+169,/blog/propane-mosquito-trap-canada,remedy,mosquito,summer,2,1,1,0,0.1,97.9,18,4,17,1,15,59,56,,1,59,1,0,0,0,,BuyLink 100%,,14,0
+170,/blog/sureguard-mattress-encasement-review-canada,product,bedbug,year-round,2,2,0,0,0.1,97.9,6,1,4,1,3,,,,1,,1,1,1,1,,"BuyLink 50%, StickyBuyBar 50%",sureguard mattress encasement bed bug proof (2),11,0
+171,/blog/tick-bite-vs-mosquito-bite,product,tick,spring-summer,2,2,0,0,0.1,98.0,42,110,38,100,35,53,48,0,1,26,1,1,1,0,,"BuyLink 50%, StickyBuyBar 50%",anti itch bite relief (1),10,0
+172,/blog/vamoose-for-mice,us-guide,rodent,fall-winter,2,1,1,0,0.1,98.1,4,92,3,84,1,,,11,1,,0,1,0,1,,GuidePick 100%,steel wool for mice (1),0,2
+173,/blog/what-do-baby-cockroaches-look-like,us-guide,roach,year-round,2,1,1,0,0.1,98.2,23,66,20,57,16,50,43,15,1,50,0,1,0,1,43,GuidePick 100%,cockroach gel bait (1),0,2
+174,/blog/what-ticks-look-like-ontario,info,tick,spring-summer,2,2,0,0,0.1,98.2,137,10,120,9,114,17,15,0,1,8,1,1,0,1,14,BuyLink 100%,lighted magnifying glass 10x loupe (1),7,0
+175,/blog/are-ticks-dangerous-ontario,info,tick,spring-summer,1,1,0,0,0.0,98.3,105,6,85,1,83,12,10,,2,24,0,1,0,1,29,BuyLink 100%,small screw top specimen vials (1),10,0
+176,/blog/battery-backup-sump-pump-canada,product,general,mixed,1,1,0,0,0.0,98.3,9,0,9,0,7,,,,1,,1,0,0,0,,,,32,0
+177,/blog/bed-bug-bites-but-no-bed-bugs,us-guide,bedbug,year-round,1,0,1,0,0.0,98.3,1,10,1,9,1,,,100,0,,0,0,0,0,,GuidePick 100%,,0,2
+178,/blog/bed-bug-heater-rental-vs-buying-canada,product,bedbug,year-round,1,1,0,0,0.0,98.4,8,1,8,1,7,,,,1,,0,1,1,0,,StickyBuyBar 100%,high temperature probe thermometer (1),19,0
+179,/blog/best-commercial-steam-cleaner-canada,product,steamer,mixed,1,1,0,0,0.0,98.4,1,0,1,0,0,,,,1,,1,0,0,0,,StickyBuyBar 100%,dupray hill injection commercial steam cleaner (1),19,0
+180,/blog/best-earwig-killer-canada,product,general,late summer-fall,1,1,0,0,0.0,98.4,11,0,11,0,11,91,91,,1,91,1,0,0,0,,,,28,0
+181,/blog/best-gas-backpack-fogger-canada,product,fogger,summer,1,0,0,1,0.0,98.5,11,2,9,1,9,,0,,0,,0,0,0,0,,AwardCard 100%,,19,0
+182,/blog/best-gazebo-with-mosquito-net-canada,product,mosquito,summer,1,1,0,0,0.0,98.5,9,0,8,0,6,,,,1,,0,1,1,0,,BuyLink 100%,hard top aluminum gazebo with mosquito netting (1),21,0
+183,/blog/best-pest-control-equipment-canada,product,general,mixed,1,1,0,0,0.0,98.5,13,0,9,0,9,,77,,1,,0,1,0,1,,AwardCard 100%,battery backpack sprayer (1),22,0
+184,/blog/brush-cutter-for-overgrown-yard-canada,product,general,mixed,1,1,0,0,0.0,98.6,5,0,4,0,4,,,,1,,0,1,0,1,,BuyLink 100%,walk behind field and brush mower (1),34,0
+185,/blog/bugs-that-look-like-bed-bugs-canada,info,bedbug,year-round,1,1,0,0,0.0,98.6,125,7,110,6,104,9,8,,1,9,0,1,0,1,28,BuyLink 100%,climbup bed bug interceptor (1),17,0
+186,/blog/chapin-battery-backpack-sprayer-review-canada,product,sprayer,spring-summer,1,1,0,0,0.0,98.6,4,1,4,1,3,,,,1,,1,0,0,0,,,,12,0
+187,/blog/deer-flies-horse-flies-ontario,info,flies,summer-fall,1,0,0,1,0.0,98.7,25,3,24,3,19,0,0,,0,0,0,0,0,0,,BuyLink 100%,,8,0
+188,/blog/diy-outdoor-misting-system-kit-canada,product,sprayer,spring-summer,1,1,0,0,0.0,98.7,1,1,1,1,1,,,,1,,1,0,0,0,,,,17,0
+189,/blog/do-ticks-die-in-the-washing-machine,info,tick,spring-summer,1,0,0,1,0.0,98.7,3,7,3,5,3,,,,0,,0,0,0,0,,BuyLink 100%,,5,0
+190,/blog/dupray-vs-mcculloch-steamer-canada,product,steamer,year-round,1,1,0,0,0.0,98.8,20,9,19,8,17,53,50,,2,105,1,0,0,0,,,,9,0
+191,/blog/field-king-backpack-sprayer-review-canada,product,sprayer,spring-summer,1,0,1,0,0.0,98.8,1,3,1,3,1,,,,0,,0,0,0,0,,,,11,0
+192,/blog/german-cockroaches,us-guide,roach,year-round,1,1,0,0,0.0,98.9,10,6,4,2,2,,100,,1,,0,1,0,1,,GuidePick 100%,cockroach gel bait (1),0,2
+193,/blog/goodnature-a24-review-canada,product,rodent,year-round,1,1,0,0,0.0,98.9,1,1,1,1,1,,,,0,,1,0,0,0,,,,13,0
+194,/blog/heat-vs-chemical-bed-bug-treatment-canada,product,bedbug,year-round,1,1,0,0,0.0,98.9,9,0,9,0,8,,,,1,,1,0,0,0,,,,9,0
+195,/blog/how-to-get-rid-of-bed-bugs-in-apartment-canada,remedy,bedbug,year-round,1,1,0,0,0.0,99.0,17,0,15,0,15,67,59,,0,0,0,1,1,0,,BuyLink 100%,cimexa insecticide dust (1),19,0
+196,/blog/how-to-get-rid-of-fungus-gnats-houseplants,remedy,flies,late summer-fall,1,1,0,0,0.0,99.0,6,1,5,1,0,,,,1,,1,0,0,0,,StickyBuyBar 100%,summit mosquito bits (1),15,0
+197,/blog/how-to-get-rid-of-mosquitoes-in-the-house,remedy,mosquito,summer,1,0,1,0,0.0,99.0,12,121,8,101,8,,0,8,1,,0,0,0,0,,BuyLink 100%,,4,0
+198,/blog/how-to-get-rid-of-spiders-in-house-canada,remedy,general,late summer-fall,1,1,0,0,0.0,99.1,11,0,11,0,11,91,91,,1,91,0,1,1,0,,BuyLink 100%,spider insect glue traps indoor (1),14,0
+199,/blog/how-to-get-rid-of-voles-canada,remedy,rodent,spring-fall,1,1,0,0,0.0,99.1,13,1,12,1,12,83,77,,1,83,1,0,0,0,,,,22,0
+200,/blog/how-to-keep-spiders-out-of-your-house,remedy,general,late summer-fall,1,1,0,0,0.0,99.1,6,8,6,6,6,,,,1,,1,0,0,0,,,,20,0
+201,/blog/how-to-kill-bed-bug-eggs-canada,remedy,bedbug,year-round,1,1,0,0,0.0,99.2,4,1,4,1,4,,,,0,,1,0,1,0,,BuyLink 100%,ecoraider bed bug spray (1),20,0
+202,/blog/longray-thermal-fogger-review-canada,product,fogger,summer,1,1,0,0,0.0,99.2,3,1,2,0,2,,,,1,,1,0,0,0,,BuyLink 100%,longray ts35a thermal fogger (1),10,0
+203,/blog/mosquito-bite-treatment-relief,remedy,mosquito,summer,1,0,0,1,0.0,99.2,3,7,2,4,2,,,,0,,0,0,0,0,,BuyLink 100%,,8,0
+204,/blog/mosquito-facts,info,mosquito,summer,1,0,1,0,0.0,99.3,1,12,1,6,0,,,83,0,,0,0,0,0,,BuyLink 100%,,6,0
+205,/blog/mosquito-magnet-vs-dynatrap-canada,product,mosquito,summer,1,1,0,0,0.0,99.3,4,10,4,9,1,,,0,1,,1,0,0,0,,BuyLink 100%,mosquito magnet patriot plus (1),11,0
+206,/blog/mosquito-repellent-plants-ontario,remedy,mosquito,summer,1,1,0,0,0.0,99.3,24,2,24,1,21,42,42,,1,42,0,1,1,0,,StickyBuyBar 100%,thermacell mosquito repeller (1),8,0
+207,/blog/mosquito-screened-porch-kit-canada,product,mosquito,summer,1,1,0,0,0.0,99.4,3,0,3,0,3,,,,1,,0,1,0,1,,TopBox 100%,outdoor porch screen curtain kit with track hardware (1),27,0
+208,/blog/mosquito-screens-patio-canada,product,mosquito,summer,1,1,0,0,0.0,99.4,6,1,5,0,5,,,,0,,1,0,0,0,,AwardCard 100%,mosquito netting curtain patio (1),21,0
+209,/blog/mouse-urine,us-guide,rodent,fall-winter,1,0,1,0,0.0,99.4,1,9,1,9,1,,,,0,,0,0,0,0,,GuidePick 100%,,0,2
+210,/blog/off-deep-woods-deet-bug-spray-canada,remedy,mosquito,summer,1,1,0,0,0.0,99.5,8,4,6,4,6,,,,0,,1,0,0,0,,,,18,0
+211,/blog/ortho-home-defense-bed-bug-review-canada,product,bedbug,year-round,1,1,0,0,0.0,99.5,11,0,9,0,9,,91,,1,,0,1,0,1,,BuyLink 100%,ortho home defense bed bug killer (1),12,0
+212,/blog/outdoor-fan-mosquito-control-canada,product,mosquito,mixed,1,1,0,0,0.0,99.5,2,3,2,2,1,,,,1,,0,1,1,0,,StickyBuyBar 100%,wet rated outdoor ceiling fan 60 inch (1),31,0
+213,/blog/packtite-closet-review-canada,product,bedbug,year-round,1,0,0,1,0.0,99.6,0,0,0,0,0,,,,0,,0,0,0,0,,StickyBuyBar 100%,,12,0
+214,/blog/packtite-vs-zappbug-canada,product,bedbug,year-round,1,0,1,0,0.0,99.6,3,1,3,0,3,,,,0,,0,0,0,0,,,,9,0
+215,/blog/rain-barrel-mosquito-proof-canada,remedy,mosquito,summer,1,1,0,0,0.0,99.7,1,0,0,0,0,,,,0,,1,0,1,0,,BuyLink 100%,rain barrel 200 litre screened lid (1),25,0
+216,/blog/thermacell-refills-recharge-canada,product,mosquito,summer,1,1,0,0,0.0,99.7,5,2,5,0,4,,,,1,,1,0,0,0,,,,9,0
+217,/blog/tick-prevention-yard-ontario-safe-for-kids,info,tick,spring-summer,1,1,0,0,0.0,99.7,4,5,3,1,3,,,,1,,0,0,0,1,,BuyLink 100%,wondercide cedar oil yard spray ticks (1),7,0
+218,/blog/tick-repellent-for-dogs-ontario,remedy,tick,spring-summer,1,1,0,0,0.0,99.8,8,6,8,0,6,,,,1,,0,1,1,0,,BuyLink 100%,K9 Advantix II for dogs (1),13,0
+219,/blog/tick-vs-bed-bug,product,bedbug,spring-summer,1,0,1,0,0.0,99.8,32,132,29,108,20,0,0,8,0,0,0,0,0,0,0,StickyBuyBar 100%,,7,0
+220,/blog/ticks-in-texas,us-guide,tick,spring-summer,1,0,1,0,0.0,99.8,0,16,0,14,0,,,62,0,,0,0,0,0,,GuidePick 100%,,0,2
+221,/blog/tiny-black-bugs,us-guide,general,mixed,1,0,0,1,0.0,99.9,25,34,22,31,17,0,0,0,0,0,0,0,0,0,0,GuidePick 100%,,0,2
+222,/blog/traces-punaises-de-lit-matelas,info,bedbug,year-round,1,1,0,0,0.0,99.9,0,0,0,0,0,,,,0,,1,0,0,0,,,,14,0
+223,/blog/types-of-ticks-identification,info,tick,spring-summer,1,0,1,0,0.0,99.9,26,46,22,35,19,0,0,22,0,0,0,0,0,0,0,StickyBuyBar 100%,,7,0
+224,/blog/what-size-dehumidifier-do-i-need-canada,product,dehumidifier,summer-fall,1,1,0,0,0.0,100.0,16,1,15,1,15,67,62,,1,67,0,1,0,1,,BuyLink 100%,35 pint dehumidifier energy star continuous drain (1),22,0
+225,/blog/zappbug-oven-2-review-canada,product,bedbug,year-round,1,1,0,0,0.0,100.0,5,0,4,0,3,,,,2,,0,1,0,1,,StickyBuyBar 100%,zappbug oven 2 bed bug heater (1),13,0

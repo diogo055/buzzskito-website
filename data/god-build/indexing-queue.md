@@ -24,61 +24,87 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 ## Queue (in priority order)
 
-Days 4-5 went live Oct 29 (late evening). Request these first:
+Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap URLs: 720 are on Google, these 18 are not (`research_notes/God plan 10k a day/index_status.md`). All 18 were fetched live the same evening: 200, `index, follow`, self-canonical. The 50 location pages that are noindex on purpose are out of the sitemap and not listed.
+
+Released since Oct 1. Bites and stings, identification, droppings and product pages first, by US search demand:
+
+1. https://buzzskito.ca/blog/flea-bites (requested 2026-11-03)
+2. https://buzzskito.ca/blog/baby-snakes (requested 2026-11-03)
+3. https://buzzskito.ca/blog/lovebugs (requested 2026-11-03)
+4. https://buzzskito.ca/blog/wood-roaches (requested 2026-11-03)
+5. https://buzzskito.ca/blog/bat-bugs (requested 2026-11-03)
+6. https://buzzskito.ca/blog/crazy-ants (requested 2026-11-03)
+7. https://buzzskito.ca/blog/skunk-smell-in-house (requested 2026-11-03)
+8. https://buzzskito.ca/blog/bugs-in-basement (requested 2026-11-03)
+9. https://buzzskito.ca/blog/baby-silverfish (requested 2026-11-03)
+10. https://buzzskito.ca/pest-product-guides/ant-control (requested 2026-11-03)
+
+Released since Oct 1, the rest. Line 11 is a "fold": Google filed it under a casino site (`data/god-build/research/foreign-canonical.md`). One request fixed 7 of 7 folds on Oct 16:
+
+11. https://buzzskito.ca/blog/how-long-do-ants-live (requested 2026-11-03)
+12. https://buzzskito.ca/blog/how-to-get-rid-of-drain-flies
+13. https://buzzskito.ca/blog/zombie-ants
+14. https://buzzskito.ca/blog/natural-pest-control
+15. https://buzzskito.ca/image-use
+
+Older pages in the families that win clicks:
+
+16. https://buzzskito.ca/blog/pond-aerator-mosquito-larvae-canada
+
+Older pages, the rest. Line 17 is another fold, filed under a cinema site:
+
+17. https://buzzskito.ca/mosquito-control-diy-vs-professional
+18. https://buzzskito.ca/blog/outdoor-event-mosquito-control-gta
+
+Pages released after Nov 3 go at the top of the queue.
+
+## Done
+
+Marked before the Nov 3 rebuild, with the marks as they were. The Nov 3 check found every one of them on Google:
 
 - https://buzzskito.ca/blog/dust-mite-bites (requested 2026-10-30)
 - https://buzzskito.ca/blog/gnat-bites (requested 2026-10-30)
 - https://buzzskito.ca/blog/false-widow-spiders (requested 2026-10-30)
 - https://buzzskito.ca/blog/ground-bees (requested 2026-10-30)
 - https://buzzskito.ca/blog/sweat-bees (requested 2026-10-30)
-- https://buzzskito.ca/blog/bat-bugs
-- https://buzzskito.ca/blog/lovebugs
-- https://buzzskito.ca/blog/crazy-ants
-- https://buzzskito.ca/blog/wood-roaches
-- https://buzzskito.ca/blog/tiny-red-bugs
-- https://buzzskito.ca/blog/spider-beetles
-- https://buzzskito.ca/blog/baby-silverfish
-- https://buzzskito.ca/blog/southern-house-spider
-- https://buzzskito.ca/blog/woodlouse-spiders
-- https://buzzskito.ca/blog/bugs-in-basement
-- https://buzzskito.ca/blog/baby-snakes
-- https://buzzskito.ca/blog/copperhead-look-alikes
-- https://buzzskito.ca/blog/skunk-smell-in-house
-- https://buzzskito.ca/blog/tomato-hornworms
+- https://buzzskito.ca/blog/maggots (requested 2026-10-29)
+- https://buzzskito.ca/blog/black-widow-spiders (indexed)
+- https://buzzskito.ca/blog/black-widow-bite (indexed)
+- https://buzzskito.ca/blog/dust-mites (requested 2026-10-29)
+- https://buzzskito.ca/blog/lice-eggs (indexed)
+- https://buzzskito.ca/blog/fleas-on-humans (requested 2026-10-29)
+- https://buzzskito.ca/blog/wasp-vs-hornet (indexed)
+- https://buzzskito.ca/blog/fire-ant-stings (indexed)
+- https://buzzskito.ca/blog/bed-bug-eggs (indexed)
+- https://buzzskito.ca/blog/kissing-bug-bites (indexed)
+- https://buzzskito.ca/blog/what-do-lice-look-like (requested 2026-10-29)
+- https://buzzskito.ca/blog/no-see-ums (indexed)
+- https://buzzskito.ca/blog/japanese-beetles (requested 2026-10-29)
+- https://buzzskito.ca/blog/june-bugs (indexed)
+- https://buzzskito.ca/blog/hobo-spiders (indexed)
+- https://buzzskito.ca/blog/mite-bites (indexed)
+- https://buzzskito.ca/blog/sand-fleas (indexed)
+- https://buzzskito.ca/blog/wasp-nest-identification (indexed)
+- https://buzzskito.ca/blog/rabbit-poop (indexed)
+- https://buzzskito.ca/blog/spider-mites (requested 2026-10-29)
+- https://buzzskito.ca/blog/possum-vs-opossum (requested 2026-10-28)
+- https://buzzskito.ca/blog/how-long-do-rats-live (requested 2026-10-28)
+- https://buzzskito.ca/blog/carpet-beetle-rash (requested 2026-10-28)
+- https://buzzskito.ca/blog/pseudoscorpions (requested 2026-10-28)
 
-Earlier pages:
+Listed in the queue but not yet requested before Nov 3. The Nov 3 check found them on Google:
 
-1. https://buzzskito.ca/blog/maggots (requested 2026-10-29)
-2. https://buzzskito.ca/blog/black-widow-spiders (indexed)
-3. https://buzzskito.ca/blog/black-widow-bite (indexed)
-4. https://buzzskito.ca/blog/dust-mites (requested 2026-10-29)
-5. https://buzzskito.ca/blog/lice-eggs (indexed)
-6. https://buzzskito.ca/blog/fleas-on-humans (requested 2026-10-29)
-7. https://buzzskito.ca/blog/wasp-vs-hornet (indexed)
-8. https://buzzskito.ca/blog/fire-ant-stings (indexed)
-9. https://buzzskito.ca/blog/bed-bug-eggs (indexed)
-10. https://buzzskito.ca/blog/kissing-bug-bites (indexed)
-11. https://buzzskito.ca/blog/what-do-lice-look-like (requested 2026-10-29)
-12. https://buzzskito.ca/blog/no-see-ums (indexed)
-13. https://buzzskito.ca/blog/japanese-beetles (requested 2026-10-29)
-14. https://buzzskito.ca/blog/june-bugs (indexed)
-15. https://buzzskito.ca/blog/hobo-spiders (indexed)
-16. https://buzzskito.ca/blog/mite-bites (indexed)
-17. https://buzzskito.ca/blog/sand-fleas (indexed)
-18. https://buzzskito.ca/blog/wasp-nest-identification (indexed)
-19. https://buzzskito.ca/blog/rabbit-poop (indexed)
-20. https://buzzskito.ca/blog/spider-mites (requested 2026-10-29)
-21. https://buzzskito.ca/blog/baby-rats
-22. https://buzzskito.ca/blog/rat-nest
-23. https://buzzskito.ca/blog/bugs-in-carpet
-24. https://buzzskito.ca/blog/tiny-white-bugs
-25. https://buzzskito.ca/blog/bugs-in-bathroom
-26. https://buzzskito.ca/blog/bugs-in-kitchen
-27. https://buzzskito.ca/blog/crickets-in-house
-28. https://buzzskito.ca/blog/stick-bugs
-29. https://buzzskito.ca/blog/possum-vs-opossum (requested 2026-10-28)
-30. https://buzzskito.ca/blog/how-long-do-rats-live (requested 2026-10-28)
-31. https://buzzskito.ca/blog/carpet-beetle-rash (requested 2026-10-28)
-32. https://buzzskito.ca/blog/pseudoscorpions (requested 2026-10-28)
-
-Pages released after Oct 29 go at the top of the queue.
+- https://buzzskito.ca/blog/tiny-red-bugs (indexed)
+- https://buzzskito.ca/blog/spider-beetles (indexed)
+- https://buzzskito.ca/blog/southern-house-spider (indexed)
+- https://buzzskito.ca/blog/woodlouse-spiders (indexed)
+- https://buzzskito.ca/blog/copperhead-look-alikes (indexed)
+- https://buzzskito.ca/blog/tomato-hornworms (indexed)
+- https://buzzskito.ca/blog/baby-rats (indexed)
+- https://buzzskito.ca/blog/rat-nest (indexed)
+- https://buzzskito.ca/blog/bugs-in-carpet (indexed)
+- https://buzzskito.ca/blog/tiny-white-bugs (indexed)
+- https://buzzskito.ca/blog/bugs-in-bathroom (indexed)
+- https://buzzskito.ca/blog/bugs-in-kitchen (indexed)
+- https://buzzskito.ca/blog/crickets-in-house (indexed)
+- https://buzzskito.ca/blog/stick-bugs (indexed)

@@ -71,7 +71,7 @@ These are searches where we appear with no page made for them. Everything goes t
 
 | New page | Evidence | Family |
 |---|---|---|
-| How long do mosquito bites last (day-by-day, with photos) | 15,900 impressions on the itch page at position 7-8 | Bites (best family) |
+| ~~How long do mosquito bites last~~: **not a new page.** The itch page's title already targets it ("How Long Do Mosquito Bites Last & Itch?"), so it's a push to the top 3 (God plan, Push queue #19) | 15,900 impressions on the itch page at position 7-8 | Bites (best family) |
 | Flea bites vs bed bug bites (labelled photo pair) | About 1,600-2,000 image-search impressions in 28 days ("flea bites vs bed bug bites", "how to tell a flea bite from a bed bug bite"), no matching page | Bites |
 | Chigger bites vs flea bites (photo pair) | Image search 1,300 in 28 days | Bites |
 | Ontario tick map 2027 (or the Lyme risk-areas page retitled) | "tick map ontario 2026" 3,200 | Data / linkable |

@@ -1,0 +1,16 @@
+rank,lever,adds_Jan_Feb_2027_low,adds_Jan_Feb_2027_high,adds_Jul_2027_low,adds_Jul_2027_high,basis,confidence,when
+1,Season returns (nothing to do),-277,-277,753,2035,"Aug 2026 = 1930; Jul 2027 at today's ranks = 1930x1.28 = 2470; x1.3 if July's higher click-through repeats; winter = indoor clicks kept, outdoor 10%",measured once (2026); pool growth is an estimate,May-Aug 2027; dip Nov-Feb
+2,Rank gains on existing product and remedy pages (+1 to +2 positions on average),55,111,304,645,+12.3% Amazon clicks per position on the same page; product and remedy pages carry 97% of Canadian clicks; click-weighted position 7.4 today,rate measured; the gain itself unproven (Oct upgrades: no top-3 jumps yet; read Nov 6-20),Dec-Jul
+3,New product pages (100-200 live by April under the 25-a-week site cap; 50 winter pages first),55,230,200,600,"July cohort yields: median 2-3 GA4 clicks a page a month at peak (CA$0.83-1.25), 1.1 in winter; mean 8.8-11.2 at peak (stretch row)",yields measured on the July 2026 cohort; later pages likely weaker,pages must be live by March-April for July
+4,"Click-out fixes on high-traffic, low-converting pages (NestOff section, dynatrap, laser killer, permethrin, wasp spray)",30,60,60,120,40 product/remedy pages with 60+ Canadian landing sessions sit 339 clicks below their type's rate over 2 months (upper bound ~170 a month); a third assumed,upper bound measured; part of the gap is honest intent (pages that say 'this does not work'),"now (rodents, bed bugs) and by April (summer pages)"
+5,US amazon.com (US guides + US editions of US-heavy product pages),10,20,50,150,"GuidePick: 11 clicks in 14 days on 230 guides (5 from the US) = 3 per 1,000 US views; US guide traffic x3 by July; Photon Matrix US edition ~10-40","measured, tiny",Jan decision on buzzskito.com
+6,Info pages link readers to the matching product page (no Amazon on info pages),10,20,30,60,"1,700 Canadian info-page views a month; 3-5% follow a link; 0.27 Amazon clicks per product-page view",untested,Nov-Mar
+7,"Placement changes (TopBox, first-screen pick)",0,0,0,0,"TopBox took 17.8% of clicks on its pages since Oct 20, but product pages stayed at 288 -> 291 clicks per 1,000 Canadian views","measured over 2 weeks: re-routing, no visible lift",done
+8,Holiday season (Nov 20 - Dec 31),0,0,0,0,"Amazon pays on the whole 24-hour cart, so money per click may rise; clicks do not","money effect unmeasured; read after Jan 15, 2027",Nov 20 - Dec 31
+9,Risk: Mediavine ads (since Nov 2) and the phone sticky bar hidden while an ad is pinned,-135,-45,-482,-124,"sticky bar = 13.6% of Canadian clicks Sep 17-Nov 2, 95% on phones; its share fell to 4.5% on Nov 1-2; earlier test: the bar adds at most a quarter of phone clicks",unmeasured,from Nov 2
+
+TOTAL Jan-Feb 2027,,925,1296,,,October 1177 plus the rows above,,
+TOTAL Jul 2027 realistic,,,,2632,3921,season base 2470 plus rows 2-9,,
+Jul 2027 if July's higher click-through repeats,,,,,4663,high case x1.3 on the season base,,
+Stretch Jul 2027,,,,,7833,+3 positions everywhere (x1.68) + 200 pages at mean yield + click-out + US + info - 5% ads,,
+10x target,,,,,11770,10 x October 2026,,
