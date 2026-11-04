@@ -100,6 +100,7 @@ Ranked by value-weighted extra clicks (`research_notes/God plan 10k a day/top3_p
 
 | # | Page | Main searches (position) | What to do |
 |---|---|---|---|
+| 0 | `/tools/bug-bite-identifier` | "bug bite identifier" US 10K-100K and **rising** (Trends); the tool barely shows today | Title and intro in the searcher's words, links from all 17 bite pages, photo examples. It's a tool, so Google can't answer it in a snippet |
 | 1 | `/blog/best-rat-trap-canada` | rat trap (11), rat traps (8.6), rat zapper (11.2) | Electric "rat zapper" section, numbered picks, comparison table, pros/cons |
 | 2 | `/blog/best-mouse-trap-canada` | mouse traps (10-20) | Same pattern. **Allowed now** |
 | 3 | `/blog/mouse-repellent-canada` | nestoff mouse repellent (7.1, 1,150 in Oct) | NestOff section (label, evidence, what it can't do). **Allowed now** |
@@ -146,24 +147,26 @@ Then the rest of `top3_push.csv` in order.
 
 Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.csv`, estimates calibrated on our own October pages: a new page draws about 400-600 impressions a month at first, more for big topics). Keyword Planner volumes will refine this when they arrive.
 
-**NEXT 10:**
+**NEXT 10**, re-ordered Nov 3 evening with Google Keyword Planner volumes (`keyword_volumes.csv`, `discovered_keywords.csv`; ranges because the Ads account runs no campaigns; the US is about 10x Canada):
 
-| # | Target search | Family | Why | Notes |
+| # | Target search | Family | Volume and evidence | Notes |
 |---|---|---|---|---|
-| 1 | little black ants | ants / ID | Competitor Fox Pest gets ~8,300 visits from it | Link black-ants and tiny-ants both ways |
-| 2 | NestOff mouse repellent | product (Amazon) | 1,805 impressions in 6 months at position 7 with no page; rising now | Brand-page pattern (vamoose-for-mice went 0 to 65 clicks in 28 days) |
-| 3 | yellow jacket (+ vs wasp, vs hornet) | wasps / species | ~41K US a month; 5,393 impressions already at position 8.8 | Planned Dec 14; build now |
-| 4 | carpenter bee vs bumble bee | wasps / vs | Fox 2,600 visits | Planned Dec 14 |
-| 5 | types of wasps | wasps / ID chart | 17K US a month | Wasp ID chart page |
-| 6 | vole | mice and rats / species | 101K US a month, KD 11 | **Photo first** (PD/CC0) |
-| 7 | American cockroach | cockroaches / species | 5,700 US a month; image demand | |
-| 8 | roach droppings vs mouse droppings | droppings / vs | competitors 2,400 visits; winter | Link both droppings pages |
-| 9 | signs of termites (+ mud tubes) | household / ID | 8,600 US a month | Live by early March |
-| 10 | wasp vs bee (+ bugs that look like bees) | wasps / vs | bettertermite 1,437 visits | |
+| 1 | yellow jacket (+ vs wasp, vs hornet) | wasps / species | **US 100K-1M, CA 10K-100K**; 5,393 impressions already at position 8.8 | Planned Dec 14; build now so it ages before the August peak |
+| 2 | little black ants | ants / ID | Competitor Fox Pest gets ~8,300 visits from it | Link black-ants and tiny-ants both ways |
+| 3 | vole | mice and rats / species | ~101K US a month (Ahrefs), KD 11 | **Photo first** (PD/CC0) |
+| 4 | lone star tick (US edition) | ticks / species | Lone star tick bite searches US 10K-100K, **rising** (alpha-gal); Trends ~122K | Planned Dec 7; ticks peak in May, so it ages through spring |
+| 5 | American cockroach | cockroaches / species | US 10K-100K, CA 1K-10K | |
+| 6 | types of wasps | wasps / ID chart | US ~17K (Ahrefs) | Wasp ID chart page |
+| 7 | carpenter bee vs bumble bee | wasps / vs | Fox 2,600 visits | Planned Dec 14 |
+| 8 | roach droppings vs mouse droppings | droppings / vs | mouse droppings US 10K-100K; competitors 2,400 visits; winter | Link both droppings pages |
+| 9 | NestOff mouse repellent | product (Amazon) | Keyword Planner 10-100 a month, but Search Console 1,150 impressions in 28 days at position 7 with no page | Quick Amazon win; mice peak Oct-Nov |
+| 10 | signs of termites (+ mud tubes) | household / ID | ~8,600 US a month | Live by early March |
 
 **Then, in order:**
-- 11-20: flea bites vs bed bug bites (image demand 9,400 in 28 days); carpenter ant frass; bugs that look like termites; brown recluse (383K US, planned Feb 1, build in January); how to get rid of termites; snake poop (photo first); gnats vs fruit flies vs drain flies (one page); how to get rid of moles; yellow jacket sting; cricket poop.
-- 21-40: American dog tick (US); possum poop (photo first); moth eggs; horse fly (US); bee sting vs wasp sting; how to get rid of squirrels; lone star tick (US); lacewings; fleas vs ticks; deer tick (US); huntsman spider; how to get rid of chipmunks; types of bees; carpenter ants vs termites; black flies (US); engorged tick; rat vs lizard droppings; roach bombs vs gel bait; then `new_pages.csv` from #39.
+- 11-20: wasp vs bee; flea bites vs bed bug bites (image demand 9,400 in 28 days); **brown recluse** (US 100K-1M, planned Feb 1, build in January; the results page is institutions and Wikipedia, so it's hard); carpenter ant frass; bugs that look like termites; how to get rid of termites; snake poop (photo first); gnats vs fruit flies vs drain flies (one page); how to get rid of moles; yellow jacket sting.
+- 21-40: cricket poop; American dog tick (US); possum poop (photo first); moth eggs; horse fly (US); bee sting vs wasp sting; how to get rid of squirrels; lacewings; fleas vs ticks; deer tick (US); huntsman spider; how to get rid of chipmunks; types of bees; carpenter ants vs termites; black flies (US); engorged tick; rat vs lizard droppings; roach bombs vs gel bait; then `new_pages.csv` from #39.
+- **Big searches we already have pages for** (US 100K-1M per Keyword Planner): ticks and tick bites, spider bites, fleas, rats, cockroaches, carpenter ants, wasps, fruit flies and gnats, silverfish, house centipede, carpet beetles, bed bug bites, chigger bites. These are push work (section 3), not new pages.
+- **Seasons** (`trends_seasonality.md`, 5 years of Google Trends): mosquito bites swing 29x in Canada (June-August); ticks peak in May; fruit flies in September; wasps in August; mice and mouse traps in October-November; bed bugs and cockroaches are flat. Build each family 3-6 months before its peak.
 - **Also from Search Console** (turned into pages after the overlap check): chigger bites vs flea bites, pharaoh ants, fly bites.
 - **Sections, not pages** (78 of them, listed in `new_pages.csv` as "add a section"): add them during pushes.
 
@@ -259,10 +262,12 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
 
 - **2026-11-03:**
   - Plan written.
-  - Research done (targets, Amazon, top-3 tactics, index status); Keyword Planner volumes pending.
+  - Research done: targets, Amazon, top-3 tactics, index status, and Keyword Planner and Trends volumes (the build queue was re-ordered by them).
+  - Keyword Planner auto-saved 3 draft keyword plans named "Plan from Nov 3, 2026". They're harmless and nothing else in Google Ads changed.
+  - The highest bids are service searches ("mosquito control near me" up to CA$48 in the US, "tick control near me" CA$40), which supports the service-page rebuild and the US call test.
   - The stuck daily-indexing run stopped.
   - 11 pages requested in Search Console: flea-bites, baby-snakes, lovebugs, wood-roaches, bat-bugs, crazy-ants, skunk-smell-in-house, bugs-in-basement, baby-silverfish, the ant-control hub, and how-long-do-ants-live (fold).
 - **NEXT (first "go"):**
-  - Build #1-#3 (little black ants, NestOff mouse repellent, yellow jacket).
-  - Push #2-#3 (mouse traps, mouse repellent: allowed now).
+  - Build #1-#3 (yellow jacket, little black ants, vole if a usable photo exists, otherwise lone star tick).
+  - Push #0 (bug bite identifier) and #2-#3 (mouse traps, mouse repellent: allowed now).
   - Check the 9:10 indexing run.
