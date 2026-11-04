@@ -27,6 +27,15 @@ const ARTICLES_EXTENDED_OCT8 = new Set([
   'mosquito-facts', 'do-ticks-fly-or-jump', 'bugs-that-look-like-ticks', 'how-to-get-rid-of-mosquitoes-in-the-house',
   'can-mosquitoes-bite-through-clothes', 'bed-bug-bites',
 ])
+// Nov 4, 2026 (God plan push queue, day 1): main content really extended. best-mouse-trap-canada gained a
+// trap-type table (running cost, children and pets, Canadian rules), pros and cons by type, numbered picks
+// and a registration FAQ; mouse-repellent-canada gained a sourced NestOff section and an evidence-and-
+// registration table by repellent type. Checked BEFORE ARTICLES_RETROFITTED, which still holds their
+// earlier rebuild dates (Oct 23 and Oct 29) and would otherwise win.
+const UPDATED_NOV4 = '2026-11-04T12:00:00.000Z'
+const ARTICLES_EXTENDED_NOV4 = new Set([
+  'best-mouse-trap-canada', 'mouse-repellent-canada',
+])
 // Oct 15, 2026: nine identification articles gained real, credited photographs (their first),
 // and /lyme-disease-canada-statistics was corrected to PHAC's current series (2024 = 5,809,
 // preliminary 2025 = 7,105).
@@ -240,7 +249,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Pest identifier quiz, published Oct 12, 2026 (its true date, not the site-wide one)
     { url: `${SITE_URL}/tools/what-bug-is-this`,        lastModified: '2026-10-12T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     // Bug bite identifier, published Oct 20, 2026 (its true date)
-    { url: `${SITE_URL}/tools/bug-bite-identifier`,     lastModified: '2026-10-20T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
+    // Nov 4, 2026: new intro, a new sourced FAQ, open FAQ answers and the bite pictures moved near the top (page shows "Updated").
+    { url: `${SITE_URL}/tools/bug-bite-identifier`,     lastModified: '2026-11-04T12:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     // Tick and spider identifiers, published Oct 23, 2026 (their true date)
     { url: `${SITE_URL}/tools/tick-identifier`,         lastModified: '2026-10-23T04:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
     { url: `${SITE_URL}/tools/spider-identifier`,       lastModified: '2026-10-23T04:00:00.000Z', changeFrequency: 'monthly', priority: 0.7 },
@@ -445,7 +455,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Add blog posts from constants
   const blogPosts: MetadataRoute.Sitemap = allBlogArrays.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,
-    lastModified: ARTICLES_RETROFITTED[`/blog/${post.slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString()),
+    lastModified: ARTICLES_EXTENDED_NOV4.has(post.slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${post.slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(post.slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(post.slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(post.slug) ? HUBS_UPDATED_OCT8 : new Date(post.date).toISOString())),
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }))
@@ -487,7 +497,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter(slug => !registeredSlugs.has(slug))
     .map((slug) => ({
       url: `${SITE_URL}/blog/${slug}`,
-      lastModified: ARTICLES_RETROFITTED[`/blog/${slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE),
+      lastModified: ARTICLES_EXTENDED_NOV4.has(slug) ? UPDATED_NOV4 : (ARTICLES_RETROFITTED[`/blog/${slug}`] ?? (ARTICLES_PHOTOS_OCT16.has(slug) ? UPDATED_OCT16 : ARTICLES_PHOTOS_OCT15.has(slug) ? UPDATED_OCT15 : ARTICLES_EXTENDED_OCT8.has(slug) ? HUBS_UPDATED_OCT8 : LAST_CONTENT_UPDATE)),
       changeFrequency: 'monthly' as const,
       priority: 0.8,
     }))

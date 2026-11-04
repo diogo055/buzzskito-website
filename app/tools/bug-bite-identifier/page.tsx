@@ -41,10 +41,14 @@ import {
  * can verify it.
  */
 
-const META_TITLE = 'Bug Bite Identifier: What Bit Me? Quiz & Photos'
+// Nov 4, 2026 (God plan push queue #0): title, description and intro moved to the searcher's own
+// words from Search Console and Keyword Planner ("bug bite identifier", "identify bug bites by
+// picture", "how to tell what bit me"); was 'Bug Bite Identifier: What Bit Me? Quiz & Photos'.
+const META_TITLE = 'Bug Bite Identifier With Pictures: What Bit Me?'
 const DESCRIPTION =
-  'Answer 6 quick questions about where you were, the pattern and how it feels. Get the most likely biters, real bite photos and the signs that need a doctor.'
+  'What bit me? Identify a bug bite in 6 quick questions, compare real bite pictures of the likely biters, and see which signs mean a doctor should look.'
 const PUBLISHED = 'October 20, 2026'
+const UPDATED = 'November 4, 2026'
 
 export const metadata: Metadata = buildMetadata({ title: META_TITLE, description: DESCRIPTION, canonical: QUIZ_PATH })
 
@@ -218,6 +222,12 @@ const FAQS: Faq[] = [
     more: '/blog/bed-bug-bites-vs-mosquito-bites',
   },
   {
+    question: 'Which bug bites look like pimples?',
+    answer:
+      'Chigger bites are the classic case: a speckled line of red spots or pimples where clothing fits tightly, such as the sock line, waistband or bra line (Cleveland Clinic). A fire ant sting burns and itches, then forms a white pustule that takes several weeks to disappear and can become infected if it is not kept clean (UC IPM). Scabies is not a bite, but its pimple-like, intensely itchy rash, worst at night and often between the fingers and on the wrists, elbows and waist, is easy to mistake for one; it needs a doctor (CDC).',
+    more: '/blog/chigger-bites',
+  },
+  {
     question: 'What causes small itchy bites only on my ankles and lower legs?',
     answer:
       'Fleas are the classic cause: Cleveland Clinic says flea bites are most common on the feet, calves and ankles, and uncommon above the knee unless you spend long periods sitting or lying down. Chiggers also bite the ankles and lower legs, especially along the sock line, and no-see-ums bite bare skin near water at dawn or dusk (University of Arizona Extension). A pet that scratches more than usual points to fleas.',
@@ -314,13 +324,13 @@ export default function BugBiteIdentifierPage() {
           </nav>
           <h1 className="mb-4 text-4xl font-extrabold leading-tight sm:text-5xl">Bug Bite Identifier: What Bit Me?</h1>
           <p className="max-w-3xl text-xl text-brand-100">
-            {QUESTIONS.length} quick questions about where you were, when you noticed the bites, the pattern they make and how they feel. You get the two or three most likely
-            biters, a real photo of each, how to confirm it and the signs that mean you should see a doctor.
+            Not sure what bit you? Answer {QUESTIONS.length} quick questions about where you were, when you noticed the bites, the pattern they make and how they feel. This
+            bug bite identifier then shows the two or three most likely biters, a real photo of each, how to confirm it and the signs that mean you should see a doctor.
           </p>
           <p className="mt-5 text-sm text-brand-200">
             Published by{' '}
             <Link href="/buzzskito-history" className="font-semibold text-white underline-offset-2 hover:underline">BuzzSkito Mosquito &amp; Tick Control</Link> · {PUBLISHED} ·
-            Checked against the <a href="#sources" className="underline">sources listed below</a>
+            Updated {UPDATED} · Checked against the <a href="#sources" className="underline">sources listed below</a>
           </p>
         </div>
       </section>
@@ -350,9 +360,32 @@ export default function BugBiteIdentifierPage() {
         </div>
       </section>
 
-      <section aria-labelledby="compare" className="bg-white px-4 pt-12">
+      {/* Nov 4, 2026: moved up from below the clues so the bite pictures sit near the top for readers who search "identify bug bites by
+          picture". Still the same six ledger photos, so the page's image count is unchanged (cap: about 8 visible, see CLAUDE.md). */}
+      <section aria-labelledby="photos" className="bg-white px-4 pt-12">
         <div className="mx-auto max-w-4xl">
-          <h2 id="compare" className={H2}>Common bug bites compared</h2>
+          <h2 id="photos" className={H2}>Bug bite pictures to compare</h2>
+          <p className="text-gray-700">
+            To identify a bug bite by picture, set yours beside these real photos from CDC and other credited sources, then use the chart below to compare the pattern,
+            the place on your body and the timing. Each photo opens the full guide to that bite.
+          </p>
+          <ConfusedWith
+            items={[
+              { href: '/blog/when-to-worry-about-a-mosquito-bite', name: 'Mosquito bites', photo: 'mosquito-bite-welts', note: 'Itchy, inflamed bumps on bare skin, a few minutes after the bite' },
+              { href: '/blog/bed-bug-bites', name: 'Bed bug bites', photo: 'bed-bug-bites-forearm', note: 'Welts in a line or cluster, found in the morning' },
+              { href: '/blog/flea-bites-on-humans', name: 'Flea bites', photo: 'flea-bites-lower-leg', note: 'Small bumps on the feet, ankles and calves' },
+              { href: '/blog/chigger-bites', name: 'Chigger bites', photo: 'chigger-bites-ruler', note: 'Very itchy red spots where socks and waistbands press' },
+              { href: '/blog/what-does-a-tick-bite-look-like', name: 'Lyme disease rash', photo: 'erythema-migrans-rash', note: 'A red rash that keeps growing 3 to 30 days after a tick bite' },
+              { href: '/blog/do-ants-bite', name: 'Fire ant stings', photo: 'fire-ant-sting-pustule', note: 'A burning sting that turns into a white pustule' },
+            ]}
+            title="Six common bites, side by side"
+          />
+        </div>
+      </section>
+
+      <section aria-labelledby="compare" className="bg-white px-4 pt-4">
+        <div className="mx-auto max-w-4xl">
+          <h2 id="compare" className={H2}>Bug bite identification chart: common bites compared</h2>
           <p className="mb-5 text-gray-700">
             The bump itself rarely names the biter, so compare the pattern, the place on your body, the timing and how it feels. Reactions vary: some people barely react
             to bites that leave others with large welts.
@@ -408,25 +441,7 @@ export default function BugBiteIdentifierPage() {
         </div>
       </section>
 
-      <section aria-labelledby="photos" className="bg-white px-4 pt-12">
-        <div className="mx-auto max-w-4xl">
-          <h2 id="photos" className={H2}>Bite photos to compare</h2>
-          <p className="text-gray-700">Real photos from CDC and other credited sources. Each one opens the full guide to that bite.</p>
-          <ConfusedWith
-            items={[
-              { href: '/blog/when-to-worry-about-a-mosquito-bite', name: 'Mosquito bites', photo: 'mosquito-bite-welts', note: 'Itchy, inflamed bumps on bare skin, a few minutes after the bite' },
-              { href: '/blog/bed-bug-bites', name: 'Bed bug bites', photo: 'bed-bug-bites-forearm', note: 'Welts in a line or cluster, found in the morning' },
-              { href: '/blog/flea-bites-on-humans', name: 'Flea bites', photo: 'flea-bites-lower-leg', note: 'Small bumps on the feet, ankles and calves' },
-              { href: '/blog/chigger-bites', name: 'Chigger bites', photo: 'chigger-bites-ruler', note: 'Very itchy red spots where socks and waistbands press' },
-              { href: '/blog/what-does-a-tick-bite-look-like', name: 'Lyme disease rash', photo: 'erythema-migrans-rash', note: 'A red rash that keeps growing 3 to 30 days after a tick bite' },
-              { href: '/blog/do-ants-bite', name: 'Fire ant stings', photo: 'fire-ant-sting-pustule', note: 'A burning sting that turns into a white pustule' },
-            ]}
-            title="Six common bites, side by side"
-          />
-        </div>
-      </section>
-
-      <section aria-labelledby="suspects" className="bg-white px-4 pt-4">
+      <section aria-labelledby="suspects" className="bg-white px-4 pt-12">
         <div className="mx-auto max-w-4xl">
           <h2 id="suspects" className={H2}>Already know what bit you?</h2>
           <p className="mb-6 text-gray-700">Go straight to the guides for that bite.</p>
@@ -453,14 +468,12 @@ export default function BugBiteIdentifierPage() {
       <section aria-labelledby="faq" className="bg-white px-4 pt-12">
         <div className="mx-auto max-w-4xl">
           <h2 id="faq" className={H2}>Bug bite questions</h2>
+          {/* Nov 4, 2026: answers shown as open text instead of collapsed <details> (God plan, section 5: FAQs as visible text). */}
           <div className="space-y-4">
             {FAQS.map((f, i) => (
-              <details key={f.question} className="group rounded-xl border border-gray-200 bg-white p-4">
-                <summary className="flex cursor-pointer list-none items-center justify-between gap-3 font-bold text-brand-900">
-                  {f.question}
-                  <span aria-hidden="true" className="text-xl leading-none text-emerald-600 transition-transform group-open:rotate-45">+</span>
-                </summary>
-                <p className="mt-3 text-[15px] leading-relaxed text-gray-700">{f.answer}</p>
+              <div key={f.question} className="rounded-xl border border-gray-200 bg-white p-4 sm:p-5">
+                <h3 className="text-lg font-bold leading-snug text-brand-900">{f.question}</h3>
+                <p className="mt-2 text-[15px] leading-relaxed text-gray-700">{f.answer}</p>
                 {FAQ_LINKS[i] && (
                   <p className="mt-2 text-sm">
                     More:{' '}
@@ -469,7 +482,7 @@ export default function BugBiteIdentifierPage() {
                     </Link>
                   </p>
                 )}
-              </details>
+              </div>
             ))}
           </div>
         </div>

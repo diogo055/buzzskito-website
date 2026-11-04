@@ -2,7 +2,7 @@
  "id": "pillar-mice",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "40953e0d253a703eba83aafd08324f94725c61e297507f96ace0552983717420",
+ "sha": "c7931e2c0adc5cf6def1a030202d5632c2ab4cd0f74f1041a74c6879418f6e3a",
  "claimsChecked": 208,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 5,
@@ -36,6 +36,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 6 real photos (house-mouse-got-into-house-bucket, deer-mouse-front-view-cdc, house-mouse-droppings-wall-corner, mouse-gnawed-chair-seat, copper-wool-wire-gaps, snap-traps-set-against-wall); captions from each photo's source description; no other text changed.",
    "previousSha": "95baa2d0e23a7da1ea5e366e69c77f1878eb07a58d570a1f170e4321c56227b2"
+  },
+  {
+   "on": "2026-11-04",
+   "note": "Nov 4, 2026: one sentence linking the new vole guide (/blog/voles) after the types-of-mice mention; no facts changed.",
+   "previousSha": "40953e0d253a703eba83aafd08324f94725c61e297507f96ace0552983717420"
   }
  ]
 }

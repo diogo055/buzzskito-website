@@ -4218,6 +4218,20 @@
    ],
    "bar": true
   },
+  "/blog/lone-star-tick": {
+   "next": "/blog/lone-star-tick-alpha-gal-canada",
+   "related": [
+    "/blog/alpha-gal-syndrome",
+    "/blog/what-ticks-look-like-ontario",
+    "/blog/ticks-in-texas"
+   ],
+   "cards": [
+    "/learn/tick-identification-chart",
+    "/blog/lyme-disease-cases-ontario-2026",
+    "/blog/ticks-in-maine"
+   ],
+   "bar": true
+  },
   "/blog/lone-star-tick-alpha-gal-canada": {
    "next": "/blog/alpha-gal-syndrome",
    "related": [
@@ -6845,6 +6859,20 @@
     "/blog/types-of-mice"
    ]
   },
+  "/blog/voles": {
+   "next": "/blog/shrews",
+   "related": [
+    "/blog/how-to-get-rid-of-voles-canada",
+    "/blog/are-mice-nocturnal",
+    "/blog/baby-mice"
+   ],
+   "cards": [
+    "/blog/fall-mouse-proofing-checklist",
+    "/blog/how-to-keep-mice-out-of-your-house-winter",
+    "/blog/rat-vs-mouse"
+   ],
+   "bar": true
+  },
   "/blog/wasp-dust-canada": {
    "next": "/blog/how-to-get-rid-of-wasps-canada",
    "related": [
@@ -7513,6 +7541,20 @@
     "/blog/joro-spiders",
     "/blog/spiders-in-florida",
     "/blog/black-widow-spiders"
+   ],
+   "bar": true
+  },
+  "/blog/yellow-jackets": {
+   "next": "/blog/ground-bees",
+   "related": [
+    "/blog/wasp-vs-hornet",
+    "/blog/wasp-nest-identification",
+    "/blog/mud-daubers"
+   ],
+   "cards": [
+    "/blog/best-wasp-nest-spray-canada",
+    "/blog/how-to-get-rid-of-ground-wasps-canada",
+    "/blog/sweat-bees"
    ],
    "bar": true
   },

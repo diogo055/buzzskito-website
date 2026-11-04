@@ -5,6 +5,7 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure'
 import TopPick from '@/components/TopPick'
 import StickyBuyBar from '@/components/StickyBuyBar'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
+import { withRegionalAlternates } from '@/lib/guides'
 import { tagForSlug } from '@/lib/amazon-clusters'
 import ReadNext from '@/components/ReadNext'
 import NextUp from '@/components/NextUp'
@@ -64,14 +65,14 @@ const FAQS = [
   },
 ]
 
-export const metadata: Metadata = buildMetadata({
+export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
   description: 'The lone star tick causes the alpha-gal red meat allergy. Is it in Canada or Ontario? Status, symptoms, and real risk for GTA residents — Health Canada, PHAC & CDC-informed, 2026.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
   image: shareImage('lone-star-tick-female-dorsal-cdc'),
-})
+}), '/blog/lone-star-tick-alpha-gal-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
 

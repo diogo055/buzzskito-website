@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-31",
+ "generated": "2026-11-04",
  "summary": {
   "keywords": 100,
-  "newPagesBuilt": 255,
+  "newPagesBuilt": 258,
   "hubPages": 4,
-  "guides": 240,
+  "guides": 243,
   "broadened": 9,
   "mergedIntoExistingPages": 9,
   "mergedIntoNewPages": 9,
-  "notBuilt": 194,
-  "internalLinksInNewPages": 3470
+  "notBuilt": 191,
+  "internalLinksInNewPages": 3520
  },
  "pages": [
   {
@@ -21,7 +21,7 @@
    "kind": "pillar",
    "cluster": "bed-bugs",
    "title": "Bed Bugs: Identification, Signs and Treatment",
-   "wordCount": 5532,
+   "wordCount": 5538,
    "faqs": 8,
    "sources": 8,
    "inboundFromNewPages": 18,
@@ -133,7 +133,7 @@
    "kind": "pillar",
    "cluster": "ants",
    "title": "Ants: Identification, Prevention and Control",
-   "wordCount": 6248,
+   "wordCount": 6254,
    "faqs": 9,
    "sources": 9,
    "inboundFromNewPages": 26,
@@ -264,7 +264,7 @@
    "wordCount": 2098,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 16,
+   "inboundFromNewPages": 17,
    "outboundInternalLinks": 19,
    "status": "built"
   },
@@ -312,7 +312,7 @@
    "wordCount": 2238,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -330,6 +330,22 @@
    "sources": 16,
    "inboundFromNewPages": 5,
    "outboundInternalLinks": 8,
+   "status": "built"
+  },
+  {
+   "rank": null,
+   "keyword": "vole",
+   "us_volume": null,
+   "url": "/blog/voles",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "mice",
+   "title": "Voles: How to ID Them and Stop Damage (Photos)",
+   "wordCount": 2648,
+   "faqs": 10,
+   "sources": 17,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 10,
    "status": "built"
   },
   {
@@ -373,7 +389,7 @@
    "kind": "pillar",
    "cluster": "cockroaches",
    "title": "Cockroaches: Species, Health Risks and Control",
-   "wordCount": 5411,
+   "wordCount": 5417,
    "faqs": 10,
    "sources": 10,
    "inboundFromNewPages": 23,
@@ -533,11 +549,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Tick Identification Chart: Deer, Dog, Lone Star",
-   "wordCount": 3511,
+   "wordCount": 3528,
    "faqs": 6,
    "sources": 7,
-   "inboundFromNewPages": 17,
-   "outboundInternalLinks": 11,
+   "inboundFromNewPages": 18,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -664,7 +680,7 @@
    "wordCount": 2896,
    "faqs": 6,
    "sources": 10,
-   "inboundFromNewPages": 30,
+   "inboundFromNewPages": 31,
    "outboundInternalLinks": 61,
    "status": "built"
   },
@@ -1134,6 +1150,22 @@
   },
   {
    "rank": null,
+   "keyword": "lone star tick",
+   "us_volume": null,
+   "url": "/blog/lone-star-tick",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "ticks",
+   "title": "Lone Star Tick: ID Photos, Range Map, Diseases",
+   "wordCount": 3549,
+   "faqs": 10,
+   "sources": 20,
+   "inboundFromNewPages": 8,
+   "outboundInternalLinks": 17,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "venomous spiders in the us",
    "us_volume": null,
    "url": "/blog/venomous-spiders",
@@ -1502,6 +1534,22 @@
   },
   {
    "rank": null,
+   "keyword": "yellow jacket",
+   "us_volume": null,
+   "url": "/blog/yellow-jackets",
+   "action": "new",
+   "kind": "spoke",
+   "cluster": "wasps",
+   "title": "Yellow Jackets: ID, Ground Nests, Behavior",
+   "wordCount": 2784,
+   "faqs": 10,
+   "sources": 19,
+   "inboundFromNewPages": 5,
+   "outboundInternalLinks": 20,
+   "status": "built"
+  },
+  {
+   "rank": null,
    "keyword": "wasp nest",
    "us_volume": null,
    "url": "/blog/wasp-nest-identification",
@@ -1512,7 +1560,7 @@
    "wordCount": 2546,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 20,
    "status": "built"
   },
@@ -1528,7 +1576,7 @@
    "wordCount": 2330,
    "faqs": 10,
    "sources": 17,
-   "inboundFromNewPages": 7,
+   "inboundFromNewPages": 8,
    "outboundInternalLinks": 10,
    "status": "built"
   },
@@ -1544,7 +1592,7 @@
    "wordCount": 2358,
    "faqs": 10,
    "sources": 18,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -1560,7 +1608,7 @@
    "wordCount": 1771,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 5,
+   "inboundFromNewPages": 6,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -1576,7 +1624,7 @@
    "wordCount": 2239,
    "faqs": 10,
    "sources": 15,
-   "inboundFromNewPages": 2,
+   "inboundFromNewPages": 3,
    "outboundInternalLinks": 11,
    "status": "built"
   },
@@ -1592,7 +1640,7 @@
    "wordCount": 2760,
    "faqs": 10,
    "sources": 19,
-   "inboundFromNewPages": 4,
+   "inboundFromNewPages": 5,
    "outboundInternalLinks": 17,
    "status": "built"
   },
@@ -2568,7 +2616,7 @@
    "wordCount": 4053,
    "faqs": 6,
    "sources": 20,
-   "inboundFromNewPages": 35,
+   "inboundFromNewPages": 36,
    "outboundInternalLinks": 47,
    "status": "built"
   },
@@ -2600,7 +2648,7 @@
    "wordCount": 1966,
    "faqs": 10,
    "sources": 14,
-   "inboundFromNewPages": 12,
+   "inboundFromNewPages": 13,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -2728,7 +2776,7 @@
    "wordCount": 2219,
    "faqs": 10,
    "sources": 20,
-   "inboundFromNewPages": 3,
+   "inboundFromNewPages": 4,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -3528,13 +3576,6 @@
   },
   {
    "rank": null,
-   "keyword": "lone star tick",
-   "url": "/blog/lone-star-tick",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "biting flies",
    "url": "/learn/biting-flies",
    "action": "new",
@@ -3803,13 +3844,6 @@
    "rank": null,
    "keyword": "how to get rid of ground wasps",
    "url": "/blog/how-to-get-rid-of-ground-wasps",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
-   "keyword": "yellow jacket",
-   "url": "/blog/yellow-jackets",
    "action": "new",
    "status": "not built"
   },
@@ -4270,13 +4304,6 @@
   },
   {
    "rank": null,
-   "keyword": "vole",
-   "url": "/blog/voles",
-   "action": "new",
-   "status": "not built"
-  },
-  {
-   "rank": null,
    "keyword": "snake poop",
    "url": "/blog/snake-poop",
    "action": "new",
@@ -4365,11 +4392,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Sugar Ants: Types and How to Get Rid of Them",
-   "wordCount": 3103,
+   "wordCount": 3109,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 11,
-   "outboundInternalLinks": 13,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4408,8 +4435,8 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -4421,10 +4448,10 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Deer Mice: ID, Hantavirus Risk and Safe Cleanup",
-   "wordCount": 3320,
+   "wordCount": 3325,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 18,
+   "inboundFromNewPages": 19,
    "outboundInternalLinks": 13,
    "status": "built"
   },
@@ -4437,7 +4464,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Flying Ants: What They Are and Why They Swarm",
-   "wordCount": 2860,
+   "wordCount": 2866,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 10,
@@ -4469,11 +4496,11 @@
    "kind": "pillar",
    "cluster": "mice",
    "title": "Mice Control: Seal Up, Trap Up, Clean Up",
-   "wordCount": 5360,
+   "wordCount": 5382,
    "faqs": 8,
    "sources": 8,
-   "inboundFromNewPages": 40,
-   "outboundInternalLinks": 41,
+   "inboundFromNewPages": 41,
+   "outboundInternalLinks": 42,
    "status": "built"
   },
   {
@@ -4489,7 +4516,7 @@
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 12,
-   "outboundInternalLinks": 15,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -4519,11 +4546,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Sugar Ants: Types and How to Get Rid of Them",
-   "wordCount": 3103,
+   "wordCount": 3109,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 11,
-   "outboundInternalLinks": 13,
+   "outboundInternalLinks": 12,
    "status": "built"
   },
   {
@@ -4561,7 +4588,7 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "German Cockroaches: Two Stripes, Bait Not Spray",
-   "wordCount": 3183,
+   "wordCount": 3187,
    "faqs": 6,
    "sources": 7,
    "inboundFromNewPages": 23,
@@ -4709,11 +4736,11 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Ghost Ants: Tiny, Pale-Bodied, Spread by Budding",
-   "wordCount": 3006,
+   "wordCount": 3004,
    "faqs": 6,
    "sources": 5,
    "inboundFromNewPages": 6,
-   "outboundInternalLinks": 12,
+   "outboundInternalLinks": 11,
    "status": "built"
   },
   {
@@ -4741,7 +4768,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Black Ants: Tell Carpenter Ants from the Rest",
-   "wordCount": 2668,
+   "wordCount": 2673,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 12,
@@ -4823,11 +4850,11 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "What Do Ticks Look Like? Size, Color, Species",
-   "wordCount": 2300,
+   "wordCount": 2323,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 43,
-   "outboundInternalLinks": 14,
+   "inboundFromNewPages": 44,
+   "outboundInternalLinks": 15,
    "status": "built"
   },
   {
@@ -4839,7 +4866,7 @@
    "kind": "spoke",
    "cluster": "bed-bugs",
    "title": "Bugs That Look Like Bed Bugs: How to Tell Apart",
-   "wordCount": 2766,
+   "wordCount": 2772,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 26,
@@ -5175,7 +5202,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Zombie Ants: Real Fungus, Death Grip, US Range",
-   "wordCount": 2317,
+   "wordCount": 2322,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 5,
@@ -5191,11 +5218,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Field Mice: Deer Mice, Voles and What to Do",
-   "wordCount": 2518,
+   "wordCount": 2543,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 5,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 6,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -5241,7 +5268,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Flying Ants: What They Are and Why They Swarm",
-   "wordCount": 2860,
+   "wordCount": 2866,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 10,
@@ -5289,11 +5316,11 @@
    "kind": "spoke",
    "cluster": "mice",
    "title": "Types of Mice: House, Deer and White-Footed",
-   "wordCount": 2810,
+   "wordCount": 2832,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 15,
-   "outboundInternalLinks": 13,
+   "inboundFromNewPages": 16,
+   "outboundInternalLinks": 14,
    "status": "built"
   },
   {
@@ -5366,7 +5393,7 @@
    "wordCount": 3549,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 35,
+   "inboundFromNewPages": 36,
    "outboundInternalLinks": 15,
    "status": "built"
   },
@@ -5464,8 +5491,8 @@
    "wordCount": 2812,
    "faqs": 5,
    "sources": 6,
-   "inboundFromNewPages": 12,
-   "outboundInternalLinks": 12,
+   "inboundFromNewPages": 13,
+   "outboundInternalLinks": 13,
    "status": "built"
   },
   {
@@ -5477,7 +5504,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Red Ants: Is It a Fire Ant or a Look-Alike?",
-   "wordCount": 3218,
+   "wordCount": 3224,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 16,
@@ -5493,7 +5520,7 @@
    "kind": "spoke",
    "cluster": "ants",
    "title": "Does Vinegar Kill Ants? It Won't Reach the Nest",
-   "wordCount": 2195,
+   "wordCount": 2212,
    "faqs": 5,
    "sources": 6,
    "inboundFromNewPages": 10,
@@ -5528,7 +5555,7 @@
    "wordCount": 3467,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 10,
+   "inboundFromNewPages": 11,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5693,10 +5720,10 @@
    "kind": "spoke",
    "cluster": "ticks",
    "title": "Ticks That Carry Lyme Disease: Only 2 US Species",
-   "wordCount": 3204,
+   "wordCount": 3210,
    "faqs": 6,
    "sources": 6,
-   "inboundFromNewPages": 14,
+   "inboundFromNewPages": 15,
    "outboundInternalLinks": 12,
    "status": "built"
   },
@@ -5767,7 +5794,7 @@
    "kind": "spoke",
    "cluster": "cockroaches",
    "title": "Where Do Cockroaches Come From? The 4 Ways In",
-   "wordCount": 2995,
+   "wordCount": 3001,
    "faqs": 6,
    "sources": 6,
    "inboundFromNewPages": 15,

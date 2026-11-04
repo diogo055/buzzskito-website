@@ -327,6 +327,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Mice in Walls: Scratching Sounds, Signs and How to Get Them Out: https://buzzskito.ca/blog/mice-in-walls
 - Shrews: How to Tell a Shrew From a Mouse or Vole, and Are They Dangerous?: https://buzzskito.ca/blog/shrews
 - How Long Do Rats Live? Wild Rats, Pet Rats and How Fast They Breed: https://buzzskito.ca/blog/how-long-do-rats-live
+- Voles: How to Identify a Vole, Spot the Damage and Get Rid of Them: https://buzzskito.ca/blog/voles
 - Baby Rats: What They Look Like Week by Week, and What a Litter Means: https://buzzskito.ca/blog/baby-rats
 - Rat Nest: What a Rat's Nest Looks Like and Where Rats Nest: https://buzzskito.ca/blog/rat-nest
 
@@ -399,6 +400,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Ticks in Alabama: Species, County Maps, Disease Data and Tick Season: https://buzzskito.ca/blog/ticks-in-alabama
 - Ticks in Mississippi: Species, County Maps, Disease Data and Tick Season: https://buzzskito.ca/blog/ticks-in-mississippi
 - Ticks in South Carolina: Species, County Maps, Disease Data and Tick Season: https://buzzskito.ca/blog/ticks-in-south-carolina
+- Lone Star Tick: Identification, Range Map, Bites, Diseases and Alpha-Gal: https://buzzskito.ca/blog/lone-star-tick
 - Tick Identification Chart: Deer Tick vs Dog Tick vs Lone Star Tick: https://buzzskito.ca/learn/tick-identification-chart
 - Ticks by Province: Canada’s Tick Map, Province by Province: https://buzzskito.ca/learn/ticks-by-province
 - Ticks by State: Which Ticks Live Where, and Lyme Disease Across the US: https://buzzskito.ca/learn/ticks-by-state
@@ -429,6 +431,7 @@ Source-cited identification and how-to guides written for readers in the United 
 - Southern House Spider: The Crevice Spider Mistaken for a Brown Recluse: https://buzzskito.ca/blog/southern-house-spider
 
 ### Wasps, hornets and bees
+- Yellow Jackets: Identification, Ground Nests and Why They Get Aggressive in Fall: https://buzzskito.ca/blog/yellow-jackets
 - Wasp Nest Identification: Which Wasp, Hornet or Bee Built It: https://buzzskito.ca/blog/wasp-nest-identification
 - Paper Wasps: How to Identify Them, Their Umbrella Nests and the Sting: https://buzzskito.ca/blog/paper-wasps
 - Ground Bees: Lawn Holes, Stings and How to Tell Them From Yellow Jackets: https://buzzskito.ca/blog/ground-bees

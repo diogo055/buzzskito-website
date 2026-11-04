@@ -1394,6 +1394,24 @@
       "name": "1/2-inch galvanized hardware cloth",
       "search": "1/2 inch galvanized hardware cloth",
       "basis": "'How do you keep skunks from coming back under the house?': 'Make sure the space is empty, then close it for good, outside the months when young may be inside.' Step 3: 'Close the gap. UNL uses 1/2-inch galvanized hardware cloth, one side buried at least 2 to 3 inches deep and bent 12 inches outward in an L shape to discourage digging.' The label carries the page's condition (step 1: close the opening only after it stays undisturbed for five days in a row; young may use a den from April through August). Exclusion material only, as on possum-vs-opossum: no trap ('Do not trap the skunk yourself'), no repellent, mothballs or ammonia ('Skip the repellents'), and no odor product (the page's wash is household peroxide, baking soda and dish soap, mixed fresh and never stored). The quick answer carries the gas-leak 911 step, a home-safety rule-out, not a medical page."
+    },
+    "yellow-jackets": {
+      "label": "To trap queens in early spring",
+      "name": "Yellow jacket trap",
+      "search": "yellow jacket trap",
+      "basis": "'What should you do about yellow jackets near your home?': 'Use traps for relief, not removal. MDC says yellowjacket traps can offer some relief; UC IPM says lure traps can help reduce local foragers but do not eliminate large populations, belong away from picnic tables, and work best as queen traps in late winter to early spring.' The label follows UC IPM's best use (queens, late winter to early spring), so the box never suggests a trap removes a nest. The checker's caveats (Nov 4): UC IPM says the common heptyl butyrate lure attracts primarily the western yellowjacket, and Kentucky says late-season trapping seldom brings a noticeable decline. Never a nest spray or dust."
+    },
+    "voles": {
+      "label": "To trap voles in their runways",
+      "name": "Mouse snap traps",
+      "search": "mouse snap traps",
+      "basis": "'How do you get rid of voles?', trap: 'Use ordinary mouse snap traps set at right angles to a runway, with the trigger end in the runway (UC IPM, ICWDM, Penn State).' Same product as field-mice and deer-mice. Never a bait or rodenticide: the page covers baits only at label and extension strength. Alternative with page support: 1/4-inch hardware cloth ('Wrap young trunks in cylinders of 1/4-inch hardware cloth, the mesh ICWDM and Penn State give.')."
+    },
+    "lone-star-tick": {
+      "label": "For clothing and gear",
+      "name": "Permethrin clothing spray (0.5%)",
+      "search": "permethrin spray for clothing",
+      "basis": "Prevention: 'Treat clothing and gear with 0.5% permethrin, or buy pretreated items, following the label.' Same pick as ticks-in-alabama, ticks-in-minnesota, ticks-in-new-hampshire and what-kills-ticks. A pesticide only as the type the page names (0.5% permethrin for clothing and gear). Alternative with page support: fine-tipped tweezers (removal step 1: 'Grasp the tick with clean, fine-tipped tweezers as close to the skin as you can, without squeezing its body.'; quick answer: 'Remove an attached tick with fine-tipped tweezers right away')."
     }
   }
 }

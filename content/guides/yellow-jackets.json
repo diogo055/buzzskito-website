@@ -1,0 +1,217 @@
+{
+  "slug": "yellow-jackets",
+  "kind": "spoke",
+  "cluster": "wasps",
+  "keyword": "yellow jacket",
+  "alsoTargets": [
+    "yellow jackets",
+    "yellow jacket wasp",
+    "yellow jacket nest",
+    "yellow jackets in the ground",
+    "what do yellow jackets look like",
+    "are yellow jackets bees or wasps"
+  ],
+  "metaTitle": "Yellow Jackets: ID, Ground Nests, Behavior",
+  "metaDescription": "Yellow jackets are 1/2-inch black-and-yellow wasps that nest in the ground or walls. Photos, the main species, ground nests and why fall is worst.",
+  "h1": "Yellow Jackets: Identification, Ground Nests and Why They Get Aggressive in Fall",
+  "dek": "Real photos of yellow jackets up close and at a ground nest, a quick-ID table, side-by-side comparisons with paper wasps and hornets, the main species, why late summer is worst and when a sting is an emergency.",
+  "breadcrumb": "Yellow Jackets",
+  "excerpt": "How to recognize a yellow jacket, find its nest and tell it from a paper wasp or hornet, with real photos, the main species, fall behavior and sting warning signs.",
+  "datePublished": "2026-11-04",
+  "parent": { "href": "/learn", "name": "Learning Centre" },
+  "quickAnswer": {
+    "lead": "**A yellow jacket is a wasp, not a bee: about 1/2 inch long, banded bright yellow and black, not fuzzy, with a waist you can barely see and legs tucked close in flight, and a stream of them flying in and out of one hole in the ground is the usual sign of a nest.** Sizes and the nest sign come from the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps).",
+    "bullets": [
+      "Workers are about 1/2 inch long, and queens, usually seen only in spring, about 3/4 inch, says the [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps).",
+      "A paper wasp is the slimmer look-alike: [Penn State Extension](https://extension.psu.edu/european-paper-wasp) says the European paper wasp has a thinner waist and abdomen and orange-tipped antennae, and paper wasps let their legs dangle in flight.",
+      "The black-and-white bald-faced hornet is really an aerial yellowjacket ([Penn State Extension](https://extension.psu.edu/baldfaced-hornet)); the European hornet, a true hornet, is reddish brown and yellow, with workers up to about 1 inch ([Penn State](https://extension.psu.edu/european-hornet)).",
+      "Colonies can reach 1,500 to 15,000 wasps, depending on the species ([UC IPM](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/)), and yellow jackets are most aggressive in late summer and fall ([University of Missouri Extension](https://extension.missouri.edu/publications/g7391)).",
+      "They can sting repeatedly. Call 911 if anyone stung has trouble breathing, swelling of the face, lips or throat, or other signs of anaphylaxis, as [Mayo Clinic](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) advises."
+    ]
+  },
+  "facts": {
+    "title": "Is it a yellow jacket? Quick ID",
+    "head": ["Insect", "Size", "How to spot it", "Where you see it"],
+    "rows": [
+      ["Yellow jacket", "Workers about 1/2 inch; queens about 3/4 inch", "Bright yellow and black bands; not densely hairy; waist barely visible; legs held close in flight", "At picnics, trash and ripe fruit; streaming in and out of a hole in the ground or a wall"],
+      ["Paper wasp", "About 0.7 to 1 inch", "Slender, with a thin waist; legs dangle in flight; the black-and-yellow European paper wasp has orange-tipped antennae", "On an open, umbrella-shaped comb under eaves"],
+      ["Bald-faced hornet", "Workers 1/2 to 3/4 inch", "Mostly black, with ivory-white face markings; a yellowjacket, not a true hornet", "At a gray, football-shaped paper nest in a shrub or tree"],
+      ["European hornet", "Workers up to about 1 inch; queens up to 1.3 inches", "Red-and-yellow head, red-and-brown thorax; abdomen mostly yellow with brown teardrop marks", "At hollow trees and fallen fruit; at porch lights after dark"],
+      ["Honey bee", "About 1/2 inch", "Fuzzy, light brown to black; less brightly striped than a yellow jacket", "Usually not drawn to food; often nests in cavities in trees or houses"],
+      ["Eastern cicada killer", "Can exceed 1 1/2 inches", "Black and yellow, with rusty clear wings; a solitary wasp", "Over lawns in midsummer, at burrows with a mound of soil"],
+      ["Hover fly", "Usually 1/4 inch or shorter", "Yellow and black or brown bands, but one pair of wings and no stinger", "Landing on sweaty skin to lap up sweat"]
+    ],
+    "caption": "From MDC, UC IPM, Penn State Extension, University of Missouri Extension and Illinois Extension, each linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What does a yellow jacket look like?" },
+    { "type": "p", "text": "A yellow jacket, also written yellowjacket, is a bee-sized social wasp with a black body banded in bright yellow; [University of Missouri Extension](https://extension.missouri.edu/publications/g7391) says the name comes from those markings. The [Missouri Department of Conservation's yellowjacket guide](https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps) (MDC) puts workers at about 1/2 inch long and queens, usually seen only in spring, at about 3/4 inch. Unlike honey bees, MDC says, yellow jackets are not densely hairy and do not collect pollen, and their faces are yellow or white." },
+    { "type": "figure", "src": "/guides/photos/eastern-yellowjacket-live.webp", "width": 1200, "height": 900, "alt": "Black-and-yellow eastern yellowjacket with yellow legs, black antennae and a banded abdomen standing on folded white fabric, seen from the side", "caption": "An eastern yellowjacket on white fabric in Leominster, Massachusetts. Note the black antennae and the wings held down along the back.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/312084098" },
+    { "type": "p", "text": "[UC IPM's Pest Notes on yellowjackets and other social wasps](https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/) describes jagged, bright yellow and black stripes and a narrow waist that is barely visible. MDC says a resting yellow jacket usually holds its wings down its back, not spread out, and often flies quickly side to side just before landing, and [Penn State Extension](https://extension.psu.edu/european-paper-wasp) says yellow jackets hold their legs close to the body in flight." },
+
+    { "type": "h2", "text": "Is a yellow jacket a bee, a wasp or a hornet?" },
+    { "type": "p", "text": "A wasp. MDC calls yellow jackets social wasps and says they are widely, and wrongly, called sweat bees, and sometimes ground bees. [UF/IFAS Featured Creatures](https://ask.ifas.ufl.edu/publication/IN238), citing a 1961 count, gives 18 species of the main yellowjacket genus, *Vespula*, in the Nearctic region (most of North America), and [Penn State Extension](https://extension.psu.edu/baldfaced-hornet) counts 7 or 8 North American aerial yellowjackets in a second genus, *Dolichovespula*." },
+    { "type": "p", "text": "Hornet is where the names tangle. UF/IFAS says hornet is generally used for species that nest above ground and yellowjacket for those that nest underground, which is how the bald-faced hornet, a large yellowjacket with an aerial nest, got its name; Penn State says it is not a true hornet. MDC says members of the genus *Vespa* are often called the true hornets; the one compared below, the European hornet, was introduced from Europe, according to [Penn State Extension's European hornet page](https://extension.psu.edu/european-hornet)." },
+
+    { "type": "h2", "text": "How is a yellow jacket different from a paper wasp or a hornet?" },
+    { "type": "p", "text": "A yellow jacket is stockier than a paper wasp and holds its legs close in flight, and a true hornet is bigger and browner. [Wasp vs hornet](/blog/wasp-vs-hornet) compares all three side by side; here is what sets a yellow jacket apart from each." },
+    { "type": "h3", "text": "Paper wasps" },
+    { "type": "p", "text": "Look at the waist, the legs in flight and the nest. Penn State says the introduced European paper wasp, black with prominent yellow markings, is frequently mistaken for a yellow jacket, but it is larger, with a thinner waist and abdomen and orange-tipped antennae, and paper wasps let their legs dangle in flight." },
+    { "type": "figure", "src": "/guides/photos/paper-wasp-nest-eave-corner.webp", "width": 1200, "height": 800, "alt": "Five black-and-yellow paper wasps with long orange legs on a round, open comb of gray paper cells in the corner where a white wall meets the underside of a roof overhang", "caption": "European paper wasps on their open comb under the overhang of a house in Saratoga, California. Slim bodies and uncovered cells say paper wasp, not yellow jacket.", "license": "CC-BY-4.0", "credit": "(c) bungelina, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/227695136" },
+    { "type": "table", "head": ["Feature", "Yellow jacket", "Paper wasp"], "rows": [
+      ["Waist", "Narrow but barely visible", "Long and slender"],
+      ["Color", "Bright yellow and black, in jagged bands", "Variously brown, red and yellow; the European paper wasp is black and yellow"],
+      ["Antennae", "All black", "Orange-tipped on the European paper wasp"],
+      ["Legs in flight", "Held close to the body", "Dangling"],
+      ["Nest", "Combs inside a paper envelope, usually underground", "One open comb with no cover, under eaves and porches"],
+      ["At your food?", "Often: scavenges human food and garbage", "No: hunts caterpillars and other small insects"],
+      ["Temper", "Defends the nest as a group; worst in late summer and fall", "Rarely aggressive"]
+    ], "caption": "From UC IPM, Penn State Extension, MDC and University of Missouri Extension, each linked on this page." },
+    { "type": "p", "text": "The nest settles it fastest: Missouri Extension describes the paper wasp's single, unprotected comb on eaves or porches and the yellow jacket's multilayered combs inside a paper shell. And because UC IPM says yellow jackets, unlike other common wasps, scavenge human food, a black-and-yellow wasp at a soda can points to a yellow jacket. Thread-waisted [mud daubers](/blog/mud-daubers) build small mud nests and rarely sting, UC IPM adds. See [the paper wasp guide](/blog/paper-wasps)." },
+    { "type": "h3", "text": "Hornets" },
+    { "type": "p", "text": "A true hornet is far bigger and browner: Penn State says European hornet workers grow up to about 1 inch, as much as twice a yellow jacket worker's length, with a red-and-yellow head, a red-and-brown thorax and a mostly yellow abdomen marked with brown teardrops. The hornet many people point to, though, is the black-and-white bald-faced hornet, an aerial yellowjacket rather than a true hornet." },
+    { "type": "figure", "src": "/guides/photos/european-hornet.webp", "width": 1200, "height": 798, "alt": "European hornet with a reddish-brown head and thorax, smoky amber wings and a yellow abdomen with brown teardrop marks, standing on a lichen-covered branch", "caption": "A European hornet on a fruit tree branch: reddish brown in front, with a mostly yellow abdomen marked with brown teardrops.", "license": "CC0-1.0", "credit": "Romzig, CC0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hornisse_(Juni_2024).jpg" },
+    { "type": "figure", "src": "/guides/photos/bald-faced-hornet.webp", "width": 1200, "height": 800, "alt": "Mostly black wasp with ivory-white markings on its face, thorax and abdomen tip and smoky brown wings, standing on a pale, honeycombed surface", "caption": "A bald-faced hornet in Herndon, Virginia. Despite the name it is a yellowjacket; the ivory-white face and markings set it apart.", "license": "CC-BY-2.0", "credit": "Judy Gallagher, CC BY 2.0, via Wikimedia Commons", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bald-faced_Hornet_-_Dolichovespula_maculata,_Herndon,_Virginia_-_20779113131.jpg" },
+    { "type": "table", "head": ["Feature", "Yellow jacket", "Bald-faced hornet", "European hornet"], "rows": [
+      ["What it is", "A yellowjacket (*Vespula*)", "An aerial yellowjacket (*Dolichovespula*), not a true hornet", "A true hornet (*Vespa*), introduced from Europe"],
+      ["Nest", "Usually underground; also walls and attics", "Gray, football-shaped paper nest in a shrub or tree, often high up", "Hidden in a hollow tree or wall void, up to 30 feet up"],
+      ["Comes to your food?", "Yes: sweets, meat and garbage", "No: foragers do not collect sweets or food scraps", "Fallen fruit such as apples and pears"]
+    ], "caption": "From MDC, Penn State Extension and UC IPM, each linked on this page." },
+    { "type": "p", "text": "Behavior differs as well. [MDC's bald-faced hornet guide](https://mdc.mo.gov/discover-nature/field-guide/bald-faced-hornet) says its foragers are not aggressive away from the nest, though UC IPM calls aerial yellowjackets extremely defensive when their nests are disturbed. Penn State says the European hornet is the only nocturnal wasp in Pennsylvania and sometimes comes to porch lights, while UF/IFAS says yellow jacket nests are relatively inactive at night, though any disturbance brings instant activity." },
+    { "type": "p", "text": "[Bald-faced hornets](/blog/bald-faced-hornets), [European hornets](/blog/european-hornets), [the yellow-legged hornet](/blog/yellow-legged-hornet) and [the northern giant hornet](/blog/northern-giant-hornet) each have a guide of their own." },
+
+    { "type": "h2", "text": "Which kind of yellow jacket do you have?" },
+    { "type": "p", "text": "Often one of the species below, told apart mainly by color pattern; UF/IFAS says Florida's three can be separated without a hand lens." },
+    { "type": "table", "head": ["Yellow jacket", "Where", "Look for", "Usual nest"], "rows": [
+      ["Eastern yellowjacket (*Vespula maculifrons*)", "North Dakota to Texas and east to the Atlantic", "Wide, anchor-shaped black mark on the first abdominal segment; yellow face band that does not fully circle the eye", "Underground in lawns, woods and rock walls; sometimes wall voids"],
+      ["Southern yellowjacket (*Vespula squamosa*)", "Eastern US, into parts of Mexico and Central America", "Workers about 3/8 inch; queens about 3/4 inch and burnt orange", "Usually underground; sometimes in hay bales or wall insulation"],
+      ["German yellowjacket (*Vespula germanica*)", "Introduced; northern US coast to coast, generally absent from the Southeast", "Small spade-shaped black mark on the first abdominal segment; black spots down each side", "Attics and wall voids; sometimes underground"],
+      ["Western yellowjacket (*Vespula pensylvanica*)", "The West: met most in California, behind most stings in Montana", "Nicknamed the meat bee; scavenges garbage and sugary food", "Often underground; sometimes wall voids"],
+      ["Aerial yellowjackets (*Dolichovespula*), such as the bald-faced hornet", "Bald-faced hornet: most of North America", "Bald-faced hornet: black with an ivory-white face", "Paper nests on eaves or hanging from tree limbs"]
+    ], "caption": "From Penn State Extension, UF/IFAS, Mississippi State, UC IPM and Montana State University Extension, each linked on this page." },
+    { "type": "figure", "src": "/guides/photos/eastern-yellowjacket.webp", "width": 1200, "height": 817, "alt": "Top view of a pinned eastern yellowjacket worker with its wings spread, showing yellow and black bands and a black anchor-shaped mark at the front of the abdomen, on a lavender background", "caption": "An eastern yellowjacket worker seen from above, in a CDC specimen photo. Penn State says this species has a wide, anchor-shaped black mark on the first segment of the abdomen.", "license": "public-domain", "credit": "CDC/ Dr. Henry D. Pratt (CDC Public Health Image Library, phil.cdc.gov)", "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=25402" },
+    { "type": "p", "text": "The southern yellowjacket stands out by its queens: [Mississippi State University Extension](https://extension.msstate.edu/newsletters/bugs-eye-view/2016/southern-yellowjackets-vol-2-no-32) describes workers only about 3/8 inch long but burnt-orange queens about 3/4 inch, where eastern queens are yellow and black like their workers. A high percentage of southern queens start a colony by taking over an eastern yellowjacket nest, Mississippi State says, and MDC adds that the newcomer kills the resident queen and adopts her workers." },
+    { "type": "media", "needed": "A southern yellowjacket queen (burnt orange) beside a yellow-and-black worker, or each photographed on its own in the eastern US, identified by an extension service or expert; public domain or CC0" },
+    { "type": "p", "text": "The German yellowjacket is the newcomer: [Penn State Extension](https://extension.psu.edu/german-yellowjackets) says it is native to Eurasia, was first detected in North America in New York in 1891 and has spread across the northern United States and southern Canada. It usually nests in attics, wall voids and other spaces in buildings, so suspect it when wasps come and go from a wall. In the West, UC IPM calls the western yellowjacket the species met most often in California, and [Montana State University Extension](https://urbanipm.montana.edu/entomology/resources/fact-sheets/social-wasps-in-montana.html) says most stings in Montana come from it." },
+
+    { "type": "h2", "text": "Where do yellow jackets nest?" },
+    { "type": "p", "text": "Usually underground, often in an old rodent burrow, so all you may see is a hole with wasps going in and out, MDC says. The [University of Kentucky's guide to wasps, hornets and yellowjackets](https://entomology.mgcafe.uky.edu/ef620) adds spots beneath rocks, gutter splash blocks and landscape timbers, and nests in stone walls, crawlspaces, attics and behind exterior siding." },
+    { "type": "figure", "src": "/guides/photos/yellowjacket-ground-nest.webp", "width": 1200, "height": 1200, "alt": "Half a dozen black-and-yellow wasps on gray rocks and dry, crumbly soil around a dark hole in the ground, with dead grass at the edge", "caption": "Western yellowjackets at the entrance of their ground nest beside a trail in Santa Clara County, California. Many wasps using one hole is the sign to look for.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/63309210" },
+    { "type": "p", "text": "Watch from a distance to find the entrance: UC IPM says wasps flying directly in and out of one spot are probably going to and from their nest, which can lie quite a distance from the visible hole. In a study UF/IFAS cites, eastern yellowjacket nest openings were nearly round and about 1/2 inch across." },
+    { "type": "p", "text": "Below the hole is a paper nest: UF/IFAS says each is a series of horizontal combs completely surrounded by a paper envelope, with soil dug out as it grows. The eastern nests in that study measured about 3 3/4 inches to 1 foot across, the largest holding over 2,800 wasps, and Missouri Extension says a large nest is usually about the size of a basketball." },
+    { "type": "figure", "src": "/guides/photos/yellowjacket-paper-nest.webp", "width": 1200, "height": 1004, "alt": "Round, empty paper nest covered in swirled tan, gray and white bands, about 7 inches across, on a dark blue backdrop beside a yellow tape measure", "caption": "An empty yellowjacket nest about 7 inches across, found inside the lid of a storage box in Lake Forest Park, Washington; the finder guessed it was from the year before or older. The swirled outer layer is its paper envelope.", "license": "CC-BY-4.0", "credit": "(c) John Brew, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/80793300" },
+    { "type": "p", "text": "Above ground, MDC lists trees, attics and sheds, and Penn State says eastern yellowjackets occasionally nest in the wall voids of homes in northern cities. Aerial yellowjackets attach their nests to eaves or hang them from tree limbs, UC IPM says; [the wasp nest identification guide](/blog/wasp-nest-identification) compares every nest type." },
+    { "type": "media", "needed": "Yellow jackets flying in and out of a gap in house siding or a crack at the base of a wall, photographed from a safe distance in a US yard and identified as yellowjackets by an expert; public domain or CC0" },
+
+    { "type": "h2", "text": "What else looks like a yellow jacket?" },
+    { "type": "p", "text": "Honey bees, bumble bees, hover flies, cicada killers and ground or sweat bees are the other common mix-ups." },
+    { "type": "h3", "text": "Honey bees and bumble bees" },
+    { "type": "p", "text": "A honey bee is about as long as a yellow jacket worker, 1/2 inch, but fuzzy and light brown to black, Missouri Extension says, and bumble bees are robust and densely covered in black and yellow hairs. UC IPM adds that honey bees are less brightly striped than yellow jackets and usually not attracted to food. [Carpenter bees and bumble bees compared](/blog/carpenter-bee-vs-bumble-bee) covers the big fuzzy bees." },
+    { "type": "h3", "text": "Hover flies" },
+    { "type": "p", "text": "Hover flies wear yellow-and-black or brown bands, but [University of Illinois Extension](https://hyg.ipm.illinois.edu/article.php?id=934) says they have one pair of wings, not the two of bees and wasps, cannot sting, and the sweat-lapping ones are usually 1/4 inch or shorter. MDC names the yellowjacket hover fly as a prime example of stingless insects that predators avoid because they copy a yellow jacket's colors." },
+    { "type": "media", "needed": "A yellowjacket hover fly (Milesia virginiensis) or another wasp-mimicking flower fly on a flower or on skin in the US, showing its single pair of wings and large eyes, identified by an expert; public domain or CC0" },
+    { "type": "h3", "text": "Cicada killers" },
+    { "type": "p", "text": "A huge black-and-yellow wasp over a lawn in midsummer is more likely an eastern cicada killer. The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer) says it can exceed 1 1/2 inches, with rusty clear wings, and is solitary: females dig lawn tunnels, each with a mound of soil at the entrance, and sting only if handled roughly, while males cannot sting. See [cicada killers](/blog/cicada-killers)." },
+    { "type": "h3", "text": "Ground bees and sweat bees" },
+    { "type": "p", "text": "Small holes in sunny, bare soil in spring usually mean ground-nesting bees: [Clemson Extension](https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/) says each is about 1/4 inch across and dug by a single female, and the adults are active for only a few weeks and do not defend their nests. Sweat bees, the name wrongly given to yellow jackets, are 1/4-inch metallic green, brown or black bees drawn to perspiration, Illinois Extension says of its state's species. See [ground bees](/blog/ground-bees) and [sweat bees](/blog/sweat-bees)." },
+    { "type": "confused", "items": [
+      { "href": "/blog/paper-wasps", "name": "European paper wasp", "photo": "european-paper-wasp", "note": "Black and yellow but slimmer, with orange-tipped antennae and legs that dangle in flight", "alt": "Black-and-yellow paper wasp with orange legs and amber wings on a yellow dandelion flower" },
+      { "href": "/blog/bald-faced-hornets", "name": "Bald-faced hornet", "photo": "bald-faced-hornet-nest", "note": "Black with an ivory-white face; a yellowjacket that hangs a gray paper nest in shrubs and trees", "alt": "Large gray paper hornet nest with swirled layers hanging among leafy branches, with a few black wasps on it" },
+      { "href": "/blog/european-hornets", "name": "European hornet", "photo": "european-hornet-nest", "note": "Up to about 1 inch, reddish brown and yellow; nests in hollow trees and flies at night", "alt": "Several large reddish-brown and yellow hornets around the dark opening of a hollow in a gray tree trunk" },
+      { "href": "/blog/cicada-killers", "name": "Eastern cicada killer", "photo": "cicada-killer", "note": "Solitary wasp that can exceed 1 1/2 inches; digs lawn burrows and stings only if handled roughly", "alt": "Large wasp with orange legs and a black-and-yellow abdomen gripping a gray cicada in green grass" },
+      { "href": "/blog/ground-bees", "name": "Mining bee", "photo": "mining-bee-burrow-clay-aggregation", "note": "One bee per hole about 1/4 inch across in sunny, bare soil in spring; does not defend it", "alt": "Small dark mining bee on bare red clay beside the open hole of a nest burrow, with grass blades around it" },
+      { "href": "/blog/sweat-bees", "name": "Sweat bee", "photo": "sweat-bee-on-fingertip", "note": "Often about 1/4 inch and metallic green, brown or black; drawn to sweat on skin", "alt": "Small dark, faintly metallic bee with folded wings standing on the tip of a person's finger" }
+    ] },
+
+    { "type": "h2", "text": "Why are yellow jackets so aggressive in late summer and fall?" },
+    { "type": "p", "text": "Because the colony is at its largest just as food runs short. UF/IFAS says a queen that mated the previous fall starts each nest alone in spring and, once her first workers emerge, never leaves it again. [Penn State's eastern yellowjacket page](https://extension.psu.edu/eastern-yellowjacket) gives the calendar for Pennsylvania: nests started in May or early June, first workers in June, males in August and September, then new queens." },
+    { "type": "p", "text": "By September, MDC says, a colony can hold 5,000 workers, and UC IPM gives 1,500 to 15,000 wasps by species. UC IPM says workers forage mainly for protein until midsummer, but by late summer the colony needs large amounts of sugar, and in fall its foragers are mainly scavengers. MDC says that as natural food dwindles, they visit soda cans and garbage containers more often." },
+    { "type": "p", "text": "Defensiveness rises too: UC IPM says defensive behavior increases as colonies grow and food grows scarce, and Missouri Extension says yellow jackets are most aggressive in late summer and fall. Kentucky calls them arguably the most dangerous stinging insects in the United States. At the end, UF/IFAS says, the founding queen dies and the workers behave erratically until the colony's social order breaks down." },
+
+    { "type": "h2", "text": "Do yellow jackets survive the winter?" },
+    { "type": "p", "text": "In most of the country only the new queens do. MDC says the colony dies once hard frosts and freezes arrive, mated queens spend the winter alone, for example under bark or in a woodpile, and old nests are usually not used again, so a lone, large yellow jacket in spring is most likely a queen." },
+    { "type": "p", "text": "Warm places are the exception. UC IPM says some colonies survive for several years in very mild winters or in coastal California south of San Francisco, Mississippi State says a small percentage of southern yellowjacket nests survive the winter in southern Mississippi, and Penn State says the occasional German yellowjacket nest that survives in a warm area can hold hundreds of queens. UF/IFAS describes one southern yellowjacket nest around a tree stump about 8.2 feet tall, with 74 layers of comb, perhaps two or three colonies combined." },
+
+    { "type": "h2", "text": "How dangerous is a yellow jacket sting?" },
+    { "type": "p", "text": "Painful for most people, and possibly an emergency for anyone allergic to the venom. MDC says some people have severe allergic reactions that can be life-threatening, and Mayo Clinic lists yellow jackets among the insects whose stings might cause anaphylaxis. Their stingers are smooth, so they can sting repeatedly (Missouri Extension), and UF/IFAS says an injured yellow jacket often releases an alarm pheromone that brings its nestmates out to defend." },
+    { "type": "p", "text": "Kentucky says most stings happen when a forager is slapped or trapped against the skin, and MDC warns against swatting one on your body and notes stings on the lips from soda cans yellow jackets were visiting. A nest stepped on is worse: MDC says they chase and sting intruders, people and pets included. If several attack, [CDC's NIOSH](https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html) says to run, get indoors or into shade, and not jump into water." },
+    { "type": "callout", "tone": "warning", "title": "When a sting is an emergency", "text": "Call 911 if anyone stung shows even one or two signs of anaphylaxis, [Mayo Clinic's first-aid guide](https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593) says: trouble breathing; swelling of the lips, face, eyelids or throat; dizziness, fainting or unconsciousness; a weak and rapid pulse; hives; or nausea, vomiting or diarrhea. If the person carries an epinephrine autoinjector, ask whether to help them use it. The [American College of Allergy, Asthma and Immunology](https://acaai.org/allergies/allergic-conditions/insect-sting-allergies/) says to use it, call 911 and get to the nearest emergency facility." },
+    { "type": "p", "text": "For a mild sting, Mayo Clinic advises washing it, cooling it with a cold, wet cloth or ice for 10 to 20 minutes, and seeing a healthcare professional if the swelling gets worse, the site looks infected or you feel unwell. [Bee stings and wasp stings compared](/blog/bee-sting-vs-wasp-sting), [the bug bite and sting guide](/learn/bug-bites) and [the bug bite identifier](/tools/bug-bite-identifier) go further." },
+
+    { "type": "h2", "text": "What should you do about yellow jackets near your home?" },
+    { "type": "p", "text": "Often nothing. Penn State calls the eastern yellowjacket beneficial because it reduces pests such as earwigs and caterpillars, and says nests away from building entrances, mowed lawns and public areas can usually be ignored. If a nest is a problem:" },
+    { "type": "ul", "items": [
+      "**Mark it.** MDC says many people come across a nest while mowing, so it suggests walking the yard first and marking a safety zone several feet around a nest with surveyor's tape until freezing weather kills the colony.",
+      "**Never plug a wall nest's entrance.** Penn State warns that yellow jackets sealed into a wall may chew through to the inside, and Kentucky says not to seal the spot where they go in and out of siding.",
+      "**Cover food and trash.** UC IPM says to keep food covered or indoors, garbage in tightly sealed cans and soda cans covered, and to pick up ripe fruit.",
+      "**Use traps for relief, not removal.** MDC says yellowjacket traps can offer some relief; UC IPM says lure traps can help reduce local foragers but do not eliminate large populations, belong away from picnic tables, and work best as queen traps in late winter to early spring.",
+      "**Get help for hard cases.** MDC recommends a licensed exterminator, UF/IFAS calls a pest control operator the safest choice for large nests or nests inside walls, and Penn State says people sensitive to stings should have nearby nests removed by professionals."
+    ] },
+    { "type": "p", "text": "Removal steps are in [the guide to getting rid of ground wasps](/blog/how-to-get-rid-of-ground-wasps), [a guide to yellow jacket nests in lawns written for Canada](/blog/how-to-get-rid-of-ground-wasps-canada), [how to get rid of wasps](/blog/how-to-get-rid-of-wasps) and [a wasp nest removal guide for Canada](/blog/how-to-get-rid-of-wasps-canada); trap types are compared in [a guide to yellow jacket traps written for Canada](/blog/best-yellow-jacket-trap-canada)." },
+    { "type": "callout", "tone": "tip", "title": "Photograph it from a safe distance", "text": "Photograph the wasp or the nest entrance from where you stand, or drop a dead one from a windowsill into a clear jar beside a ruler marked in inches, and note where you found it. Your state's cooperative extension office can use those details to help identify it." }
+  ],
+  "faqs": [
+    {
+      "question": "Are yellow jackets aggressive?",
+      "answer": "Mostly in defense of the nest, and more so as the season goes on. The Missouri Department of Conservation says a colony defends its nest as a group and can chase and sting an intruder who stumbles onto it, people and pets included. Away from the nest, the University of Kentucky says most stings happen when a foraging yellow jacket is slapped or trapped against the skin. UC IPM says defensive behavior increases as colonies grow and food gets scarce, so late summer and fall are the worst."
+    },
+    {
+      "question": "Do yellow jackets die after they sting?",
+      "answer": "No. University of Missouri Extension says wasps have smooth stingers and can sting repeatedly, while a honey bee's barbed stinger stays embedded in the skin, so a honey bee can sting only once. UF/IFAS Extension adds that yellowjackets and hornets may sting as often as they find a target, and that an injured yellow jacket often releases an alarm pheromone that quickly brings other members of the colony out to defend it. A stinger left in the skin points to a honey bee instead."
+    },
+    {
+      "question": "Where do yellow jackets go in the winter?",
+      "answer": "Most of the colony does not survive it. The Missouri Department of Conservation says the whole colony dies once hard frosts and freezes arrive, except the recently mated queens, which spend the winter alone in a protected spot such as under bark or in a woodpile. Old nests are usually not used again, so each queen starts a new one in spring. In very mild climates, such as coastal California south of San Francisco, UC IPM says some colonies survive for several years."
+    },
+    {
+      "question": "Where do yellow jackets go at night?",
+      "answer": "They stay in the nest. UF/IFAS Extension says yellow jacket nests are relatively inactive at night, which is why it advises that anyone treating a nest do it then, but it warns that any disturbance brings instant activity from the colony. Mississippi State University Extension likewise recommends working at night, when the wasps are less active, while wearing a beekeeper's veil and protective clothing. A large wasp at a porch light after dark is more likely a European hornet, which Penn State Extension says flies at night."
+    },
+    {
+      "question": "Why are yellow jackets attracted to me?",
+      "answer": "Usually it is your food, your drink or your sweat. UC IPM says late-summer colonies need large amounts of sugar, and the Missouri Department of Conservation says that is when yellow jackets visit soda cans and garbage more often. The University of Illinois Extension calls yellow jackets the only yellow-and-black stinging insects commonly attracted to perspiration. Allergists at ACAAI also advise avoiding sweet-smelling perfumes, hair sprays, colognes, deodorants and bright-colored clothing around stinging insects, and say insect repellents do not work against them."
+    },
+    {
+      "question": "What do yellow jackets eat?",
+      "answer": "Insects for the young and sweets for the adults. UF/IFAS Extension says workers feed the larvae chewed-up insects, other arthropods and fresh carrion, with caterpillars apparently a favorite. The Missouri Department of Conservation says adults take flower nectar, fruit juices and other sweets, and sometimes meat scraps. UC IPM says the colony needs protein from spring to midsummer and large amounts of sugar by late summer, and that in fall foraging yellow jackets are mainly scavengers, which brings them to picnics, garbage and ripe fruit."
+    },
+    {
+      "question": "Are yellow jackets good for anything?",
+      "answer": "Yes. The Missouri Department of Conservation says yellow jackets eat many insects, including caterpillars that damage crops and forests, and play a role in pollination. Penn State Extension calls the eastern yellowjacket a beneficial insect because it reduces populations of pests such as earwigs and caterpillars, and says its nests can usually be left alone unless they are near a building entrance, in a mowed lawn or where the public is likely to come across them."
+    },
+    {
+      "question": "Why are there yellow jackets in my house?",
+      "answer": "Often there is a nest in a wall, attic or crawlspace. Penn State Extension says German yellowjackets usually nest in attics, wall voids and other spaces in buildings, and the University of Kentucky lists stone walls, crawlspaces, attics and the space behind exterior siding. Do not seal the entrance while the colony is active: Kentucky advises against it, and Penn State warns that trapped yellow jackets may chew through to the inside. For wasps that spent the winter indoors, Penn State says the long-term answer is keeping them from getting into the building."
+    },
+    {
+      "question": "Do yellow jackets have a queen?",
+      "answer": "Yes, usually one per colony. UF/IFAS Extension says a single queen that mated the previous fall founds each colony in spring, builds the first cells and raises the first workers alone, then stays in the nest laying eggs for the rest of her life. The Missouri Department of Conservation says queens are larger, about 3/4 inch, and usually seen only in spring. Southern yellowjacket queens often take over an eastern yellowjacket nest instead, and Penn State says rare perennial German yellowjacket nests can hold hundreds of queens."
+    },
+    {
+      "question": "How many yellow jackets are in a nest?",
+      "answer": "From hundreds to many thousands, depending on the species and the season. UC IPM puts colonies at 1,500 to 15,000 wasps by species, the Missouri Department of Conservation says a colony can contain 5,000 workers by September, and Penn State Extension says German yellowjacket nests usually hold 1,000 to 3,000 workers by fall. Every nest starts small, with a queen raising the first workers alone in spring. The rare nests that survive the winter in warm places can become quite large, UC IPM says."
+    }
+  ],
+  "sources": [
+    { "title": "Yellowjackets (Vespula Wasps) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/yellowjackets-vespula-wasps" },
+    { "title": "Pest Notes: Yellowjackets and Other Social Wasps (UC ANR Publication 7450; E. C. Mussen and M. K. Rust, updated March 2012)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/yellowjackets-and-other-social-wasps/" },
+    { "title": "Eastern Yellowjacket (Steve Jacobs; updated August 3, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/eastern-yellowjacket" },
+    { "title": "German Yellowjackets (Michael J. Skvarla and Jamie Kopco; updated August 6, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/german-yellowjackets" },
+    { "title": "Yellowjackets and Hornets, Vespula and Dolichovespula spp. (EENY-081/IN238; E. E. Grissell and Thomas R. Fasulo)", "publisher": "University of Florida, UF/IFAS Featured Creatures", "url": "https://ask.ifas.ufl.edu/publication/IN238" },
+    { "title": "Southern Yellowjackets (Bug's Eye View, Vol. 2, No. 32; Blake Layton, 2016)", "publisher": "Mississippi State University Extension Service", "url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2016/southern-yellowjackets-vol-2-no-32" },
+    { "title": "European Paper Wasp (Michael J. Skvarla, updated January 19, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/european-paper-wasp" },
+    { "title": "Baldfaced Hornet (Steve Jacobs; revised February 2015, updated June 24, 2026)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/baldfaced-hornet" },
+    { "title": "Bald-Faced Hornet (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/bald-faced-hornet" },
+    { "title": "European Hornet (updated July 19, 2024)", "publisher": "Penn State Extension", "url": "https://extension.psu.edu/european-hornet" },
+    { "title": "Bees and Wasps (G7391; Tamra Reall, reviewed April 2019)", "publisher": "University of Missouri Extension", "url": "https://extension.missouri.edu/publications/g7391" },
+    { "title": "ENTFACT-620: Controlling Wasps, Hornets, and Yellowjackets (Michael F. Potter, revised March 2026)", "publisher": "University of Kentucky Department of Entomology", "url": "https://entomology.mgcafe.uky.edu/ef620" },
+    { "title": "Social Wasps in Montana (May 2021)", "publisher": "Montana State University Extension, Urban IPM", "url": "https://urbanipm.montana.edu/entomology/resources/fact-sheets/social-wasps-in-montana.html" },
+    { "title": "Syrphid Fly (Phil Nixon, Home, Yard and Garden Newsletter, August 1, 2017)", "publisher": "University of Illinois Extension", "url": "https://hyg.ipm.illinois.edu/article.php?id=934" },
+    { "title": "Eastern Cicada-Killer (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/eastern-cicada-killer" },
+    { "title": "Spring Has Sprung and So Have The (Ground-Nesting) Bees (Vicky Bertagnolli, April 7, 2025)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/spring-has-sprung-and-so-have-the-ground-nesting-bees/" },
+    { "title": "Insects and Scorpions at Work (reviewed September 28, 2026)", "publisher": "CDC National Institute for Occupational Safety and Health", "url": "https://www.cdc.gov/niosh/outdoor-workers/about/insects-and-scorpions.html" },
+    { "title": "Insect Bites and Stings: First Aid (April 10, 2024)", "publisher": "Mayo Clinic", "url": "https://www.mayoclinic.org/first-aid/first-aid-insect-bites/basics/art-20056593" },
+    { "title": "Insect Sting Allergies (reviewed June 28, 2023)", "publisher": "American College of Allergy, Asthma and Immunology", "url": "https://acaai.org/allergies/allergic-conditions/insect-sting-allergies/" }
+  ],
+  "disclaimer": "health"
+}

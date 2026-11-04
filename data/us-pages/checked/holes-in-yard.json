@@ -2,7 +2,7 @@
  "id": "holes-in-yard",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "efb0e07a1a19af3ba9d529b1680b18d8b1a1eb7823dc5e4533c64d061a987831",
+ "sha": "622d5beaf619106662b11e527ba2ef22fd854495e63f8e184402d057847e59d5",
  "claimsChecked": 236,
  "claimsCorrected": 6,
  "claimsRemovedOrSoftened": 1,
@@ -22,6 +22,11 @@
    "on": "2026-10-30",
    "note": "link to /blog/baby-snakes added in section 'What makes bigger holes, and do snakes dig them?' (new p after the groundhog/snake paragraph; release-day link-in, no other change)",
    "previousSha": "5ec0e38518de4e1899217e151c4aecf0602297bbcb58f7d8d4b2c913f321f757"
+  },
+  {
+   "on": "2026-11-04",
+   "note": "Nov 4, 2026: the vole links (paragraph and Vole hole card) now go to the US vole guide /blog/voles instead of the Canadian edition; no facts changed.",
+   "previousSha": "efb0e07a1a19af3ba9d529b1680b18d8b1a1eb7823dc5e4533c64d061a987831"
   }
  ]
 }

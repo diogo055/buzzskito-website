@@ -2,7 +2,7 @@
  "id": "shrews",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "c09c1efd6ab5b4ccd9b035cfb73d8a75afb32136c9617c1903e63043e5dbfafe",
+ "sha": "2ad2ce0b8ae4337982d9f918be3b353d7ce01c3948637d1c310c46c7cb0adf27",
  "claimsChecked": 300,
  "claimsCorrected": 14,
  "claimsRemovedOrSoftened": 9,
@@ -11,5 +11,12 @@
   "on": "2026-10-23",
   "scheduledFor": "2026-10-23",
   "note": "datePublished set to the release day; nothing else changed"
- }
+ },
+ "amendments": [
+  {
+   "on": "2026-11-04",
+   "note": "Nov 4, 2026: the Meadow vole card now links the new vole guide (/blog/voles) instead of field-mice; no facts changed.",
+   "previousSha": "c09c1efd6ab5b4ccd9b035cfb73d8a75afb32136c9617c1903e63043e5dbfafe"
+  }
+ ]
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { buildMetadata, breadcrumbSchema, blogPostingSchema, faqSchema, speakableSchema } from '@/lib/seo'
 import { shareImage } from '@/lib/photos'
@@ -19,7 +20,12 @@ import RelatedLinks from '@/components/RelatedLinks'
 
 const SLUG = 'mouse-repellent-canada'
 const DATE = '2026-07-30'
-const UPDATED = '2026-10-29'
+const UPDATED = '2026-11-04'
+// Nov 4, 2026 (God plan push queue #3): NestOff section (the page's biggest search, never named before),
+// an evidence-and-registration table by repellent type, NestOff FAQs and open FAQ answers. The claims that
+// ultrasonic devices fall outside the Pest Control Products Act were corrected: Schedule 1 of the Pest
+// Control Products Regulations lists devices that repel by sound, touch or electromagnetic radiation, and
+// Health Canada's registry shows ultrasonic rodent repellers with PCP numbers (checked Nov 3, 2026).
 // The "does a repellent work" DECISION page — the missing destination for the
 // repellent-shaped queries currently dead-ending on
 // /blog/ultrasonic-pest-repellers-do-they-work. Deliberately NOT a second
@@ -41,12 +47,20 @@ const FAQS = [
     answer: 'Not in the way the packaging implies. There is a real difference between briefly discouraging a mouse from entering a space it has no reason to be in, and removing a mouse that has already built a nest inside your warm wall in October. Scent-based repellents can produce short-term avoidance in a confined space, but the volatiles fade within days, mice habituate to a smell that never actually hurts them, and no odour outcompetes shelter, warmth and food in a Canadian autumn. Ultrasonic units are worse: they do not move an established population, and sound does not bend around the wall voids mice live in. Exclusion and trapping are what change the number of mice in your house.',
   },
   {
+    question: 'Does NestOff mouse repellent work?',
+    answer: 'We found no published evidence that it does. A PubMed search for NestOff returns no studies, and the testimonials on its website are not a test against untreated homes. A 2016 systematic review of plant compounds as rodent repellents found that essential oils showed the strongest effects in laboratory experiments, but that success was inconsistent across laboratory, enclosure and field studies. The maker’s own footer says the pouches are not guaranteed to eliminate an established infestation. We have not tested NestOff ourselves. For mice already inside, sealing the entry points and setting traps is what changes the count.',
+  },
+  {
+    question: 'Is NestOff registered or sold in Canada?',
+    answer: 'NestOff’s website says it ships to Canada, but we found no Canadian registration. Health Canada’s Pesticide Product Information Database lists no product named NestOff or Nest Off, and no currently registered product uses peppermint, cinnamon or lemongrass oil as an active ingredient (searched November 3, 2026). A product sold to repel a pest is a pest control product under the Pest Control Products Act, and a registered one shows a PCP number on its Canadian label. In the US, its product page shows no EPA registration number; its four oils are on the list allowed in minimum-risk products, which are exempt from federal registration if they meet every condition and are not reviewed by EPA.',
+  },
+  {
     question: 'Does peppermint oil keep mice away?',
     answer: 'It has a narrow, honest use and a much larger marketing claim wrapped around it. Concentrated peppermint oil is genuinely aversive to a mouse at close range in an enclosed space, which is why cotton balls in a sealed drawer or a stored vehicle can be worth doing. Three things kill it as a household strategy: the oil evaporates and loses potency within days, so it becomes a chore rather than a solution; a mouse that is already nesting inside a wall does not have to walk past your cotton ball; and a hungry animal will tolerate an unpleasant smell to reach food. Treat peppermint as a mild deterrent for a sealed, unoccupied space, not as a substitute for closing the hole it came in through.',
   },
   {
     question: 'Do ultrasonic mouse repellers work in Canada?',
-    answer: 'No, and this is one of the few pest questions with a genuinely clean answer. Ultrasonic sound is highly directional and is blocked by walls, furniture, cabinets and insulation, so it does not reach the wall voids, subfloors and attic spaces where mice actually live. Even where the sound does reach, rodents habituate to a repetitive stimulus that never harms them. The enforcement record is American rather than Canadian: in May 2001 the US Federal Trade Commission sent warning letters to more than 60 manufacturers and retailers of ultrasonic pest devices over unsupported claims, and in 2002 it charged Lentek International over unsubstantiated pest-repeller efficacy claims. Canada has no equivalent enforcement history — not because the devices behave differently here, but because a product containing no pesticide falls outside the Pest Control Products Act and no Canadian agency reviews its efficacy claims before sale. We go through that evidence in detail in our ultrasonic pest repeller review; the short version is that the money is better spent on steel wool and a dozen snap traps.',
+    answer: 'No, and this is one of the few pest questions with a genuinely clean answer. Ultrasonic sound is highly directional and is blocked by walls, furniture, cabinets and insulation, so it does not reach the wall voids, subfloors and attic spaces where mice actually live. Even where the sound does reach, rodents habituate to a repetitive stimulus that never harms them. The enforcement record is American rather than Canadian: in May 2001 the US Federal Trade Commission sent warning letters to more than 60 manufacturers and retailers of ultrasonic pest devices over unsupported claims, and in 2002 it charged Lentek International over unsubstantiated pest-repeller efficacy claims. In Canada the devices are regulated: the Pest Control Products Regulations list devices that repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation, so an ultrasonic repeller must be registered, and several carry a PCP number. Registration has not changed the physics, and Health Canada’s own pest control tips say rats and mice may adapt to the devices and return, and recommend using them along with other pest control options. We go through that evidence in detail in our ultrasonic pest repeller review; the short version is that the money is better spent on steel wool and a dozen snap traps.',
   },
   {
     question: 'Is there any legitimate use for a rodent repellent?',
@@ -62,7 +76,7 @@ const FAQS = [
   },
   {
     question: 'How do I know if a rodent repellent is legal to sell in Canada?',
-    answer: 'First work out whether you are buying a pesticide or a device, because only one of them needs registering. Physical and mechanical deterrents — deterrent tape sold as an automotive part, steel mesh and hardware cloth, door seals, strobe units, traps — are devices, not pesticides, and need no Health Canada registration at all. Products sold as repellents with an active ingredient making a pest-control claim, peppermint-oil sprays and pouches among them, generally fall under the Pest Control Products Act and must be registered with Health Canada’s Pest Management Regulatory Agency unless they qualify for a specific Canadian exemption; a registered one carries a PCP registration number on its Canadian label. That distinction matters because the marketplace is full of American products whose legal status does not travel: a US “minimum risk” exemption is a US rule and says nothing about Canadian legality. So before buying any rodent product that makes a repellency or kill claim through an active ingredient, check the listing for a Canadian registration number and confirm the item is sold and shipped within Canada.',
+    answer: 'First work out whether you are buying a pesticide or a device, because the two follow different rules. Physical and mechanical deterrents — deterrent tape sold as an automotive part, steel mesh and hardware cloth, door seals, traps — are devices, not pesticides, and need no Health Canada registration. Plug-in repellers are the exception: a device sold to repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation is listed in Schedule 1 of the Pest Control Products Regulations, so ultrasonic units sold in Canada must be registered and carry a PCP number. Products sold as repellents with an active ingredient making a pest-control claim, peppermint-oil sprays and pouches among them, generally fall under the Pest Control Products Act and must be registered with Health Canada’s Pest Management Regulatory Agency unless they qualify for a specific Canadian exemption; a registered one carries a PCP registration number on its Canadian label. That distinction matters because the marketplace is full of American products whose legal status does not travel: a US “minimum risk” exemption is a US rule and says nothing about Canadian legality. So before buying any rodent product that makes a repellency or kill claim through an active ingredient, check the listing for a Canadian registration number and confirm the item is sold and shipped within Canada.',
   },
   {
     question: 'What size gap can a mouse get through?',
@@ -84,7 +98,7 @@ const FAQS = [
 
 export const metadata: Metadata = withRegionalAlternates(buildMetadata({
   title: META_TITLE,
-  description: 'Mouse repellent in Canada: which types have real evidence, why ultrasonic and peppermint fail, and the exclusion-and-trap plan that actually works.',
+  description: 'Does NestOff or any mouse repellent work in Canada? What each type contains, what the evidence and Health Canada’s registry show, and what works instead.',
   canonical: `/blog/${SLUG}`,
   type: 'article',
   publishedTime: DATE,
@@ -93,6 +107,76 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
 }), '/blog/mouse-repellent-canada')
 
 const AMZ_TAG = tagForSlug(SLUG)
+
+// ── NestOff (Nov 4, 2026) ──────────────────────────────────────────────────────────────
+// "nestoff mouse repellent" and its variants were about 3,000 of this page's 3,932 Search Console
+// impressions in the 28 days to Nov 3, 2026 (position 3-9), and the page never named the product.
+// Every fact below was checked on Nov 3, 2026 against: the maker's own product, contact and shipping
+// pages (nestoff.com); Health Canada's Pesticide Product Information Database (searches for "NESTOFF",
+// "NEST OFF", and actives PEPPERMINT, CINNAMON, LEMONGRASS); 40 CFR 152.25(f) and EPA's minimum-risk
+// conditions page; PubMed ("NestOff": 0 results; Hansen et al. 2016, PMID 27613544). We have not used
+// the product: no testing claim. No buy link: no Canadian registration was found.
+const EXT = { target: '_blank', rel: 'noopener noreferrer', className: 'text-emerald-700 underline' } as const
+const PMRA_REGISTRY = 'https://pest-control.canada.ca/pesticide-registry/en/product-search.html'
+const EPA_MIN_RISK = 'https://www.epa.gov/minimum-risk-pesticides/conditions-minimum-risk-pesticides'
+const CFR_152_25 = 'https://www.law.cornell.edu/cfr/text/40/152.25'
+const HANSEN_2016 = 'https://pubmed.ncbi.nlm.nih.gov/27613544/'
+const UC_IPM_MOUSE = 'https://ipm.ucanr.edu/home-and-landscape/house-mouse/'
+const HC_RATS_MICE = 'https://www.canada.ca/en/health-canada/services/pest-control-tips/rats-mice.html'
+const PCP_REGS = 'https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/FullText.html'
+const PCP_ACT = 'https://laws-lois.justice.gc.ca/eng/acts/P-9.01/page-1.html'
+const registryEntry = (pcp: string) => `https://pest-control.canada.ca/pesticide-registry/en/product-details.html?q=${pcp}`
+
+const NESTOFF_FACTS: [string, ReactNode][] = [
+  ['What it is', 'Sealed pouches that give off the smell of four plant oils, sold to repel mice without killing them'],
+  ['Active ingredients (maker’s website)', 'Peppermint oil 8%, cinnamon oil 2%, lemongrass oil 2% and clove oil 1%. The website lists no inert ingredients, so read the label on the package'],
+  ['Directions (maker’s website)', 'Place pouches where mice enter, travel or nest: one for a small RV or room, 2 to 3 for a whole home including the garage and basement. Replace every 90 days, or sooner if the scent fades. Keep the pouches sealed; do not open or swallow them'],
+  [
+    'Registered in Canada?',
+    <>
+      Not that we could find. Health Canada&rsquo;s <a href={PMRA_REGISTRY} {...EXT}>Pesticide Product Information Database</a> lists no product named NestOff or Nest Off, and no
+      currently registered product lists peppermint, cinnamon or lemongrass oil as an active ingredient (searched November 3, 2026)
+    </>,
+  ],
+  [
+    'Registered in the US?',
+    <>
+      Its product page shows no EPA registration number and does not say the product is exempt. All four oils are on the{' '}
+      <a href={CFR_152_25} {...EXT}>list of active ingredients allowed in minimum-risk pesticides</a>, which are exempt from federal registration if they meet every
+      condition, and <a href={EPA_MIN_RISK} {...EXT}>EPA does not review exempted products</a>
+    </>,
+  ],
+  ['Published evidence', 'None for NestOff itself: a PubMed search for the name returned no studies (November 3, 2026). For plant oils in general, see below'],
+  ['Who sells it', 'nestoff.com, priced in US dollars. Its contact page gives an email address but no company name or street address, and it quotes 5 to 10 business days for delivery to Canada'],
+  ['The maker’s own limit', 'The site’s footer says the pouches are “not guaranteed to eliminate established infestations” and are “not a substitute for professional pest control”'],
+]
+
+// Evidence and Canadian status by repellent type (Nov 4, 2026). Registry searched Nov 3, 2026: of the
+// current registrations for repellents that list mice, rats or rodents, 32 were bitter-taste (denatonium
+// benzoate) sprays, 11 ultrasonic devices, one a fatty-acid product and one a kaolin crop protectant;
+// none used an essential oil.
+const EVIDENCE_ROWS: { type: string; evidence: ReactNode; canada: ReactNode }[] = [
+  {
+    type: 'Essential-oil pouches and sprays (NestOff, peppermint oil)',
+    evidence: <>Strongest effects in laboratory tests, but inconsistent success across laboratory, enclosure and field studies (<a href={HANSEN_2016} {...EXT}>2016 systematic review</a> of 54 publications). No published study of NestOff</>,
+    canada: <>None registered with these oils: no current Canadian registration lists peppermint, cinnamon or lemongrass oil as an active ingredient. In the US they qualify for the minimum-risk exemption, and EPA does not review those products</>,
+  },
+  {
+    type: 'Ultrasonic and electromagnetic plug-ins',
+    evidence: <><a href={UC_IPM_MOUSE} {...EXT}>UC IPM</a>: ultrasound is directional and does not get behind objects, there is little evidence that sound, magnetic or vibrational devices drive established mice out of buildings, and mice quickly get used to repeated sounds. <a href={HC_RATS_MICE} {...EXT}>Health Canada</a>: rats and mice may adapt to the devices and return</>,
+    canada: <>Must be registered: <a href={PCP_REGS} {...EXT}>Schedule 1 of the Pest Control Products Regulations</a> lists devices that repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation. Several carry PCP numbers, such as the <a href={registryEntry('33070')} {...EXT}>Tomcat Ultrasonic Rodent Repeller (PCP 33070)</a></>,
+  },
+  {
+    type: 'Bitter-taste sprays (denatonium benzoate)',
+    evidence: <>A bitter taste on the surfaces you spray, not a smell in the air. We did not find an independent study of these sprays against house mice indoors</>,
+    canada: <>Registered: for example <a href={registryEntry('33705')} {...EXT}>Victor V Mouse-A-Way Mouse &amp; Rat Repellent (PCP 33705)</a> and <a href={registryEntry('32499')} {...EXT}>Tomcat Rodent Repellent Spray (PCP 32499)</a>. Use them only as the label directs</>,
+  },
+  {
+    type: 'Exclusion: steel wool, hardware cloth, door sweeps',
+    evidence: <><a href={UC_IPM_MOUSE} {...EXT}>UC IPM</a>: keep mice out by closing every gap larger than 1/4 inch (6 mm). <a href={HC_RATS_MICE} {...EXT}>Health Canada</a>: mice squeeze through cracks as small as a dime</>,
+    canada: <>No registration needed: this is hardware, not a repellent</>,
+  },
+]
 
 export default function MouseRepellentCanadaPage() {
   return (
@@ -140,11 +224,70 @@ export default function MouseRepellentCanadaPage() {
             <p className="text-sm text-gray-800 leading-relaxed">
               <strong>This page answers one question:</strong> is a repellent worth buying, and if not, what replaces it.
               <br className="hidden sm:block" />
+              <strong className="block mt-2">Here for NestOff?</strong> <a href="#nestoff" className="text-emerald-700 underline font-semibold">Jump to what NestOff contains, its registration status and the evidence</a>.
               <strong className="block mt-2">If you already know you have mice</strong> and want the step-by-step removal sequence, read <Link href="/blog/how-to-get-rid-of-mice-canada" className="text-emerald-700 underline font-semibold">how to get rid of mice in Canada</Link>. For the hardware spec and a room-by-room sealing list, read the <Link href="/blog/rodent-exclusion-kit-canada" className="text-emerald-700 underline font-semibold">rodent exclusion kit guide</Link>. For trap models compared, see <Link href="/blog/best-mouse-trap-canada" className="text-emerald-700 underline font-semibold">the best mouse traps in Canada</Link>.
             </p>
           </div>
 
           <SpecialistDisclosure pest="mice" />
+        </div>
+      </section>
+
+      <section id="nestoff" aria-labelledby="nestoff-heading" className="scroll-mt-24 bg-white px-4 py-8">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-xs font-extrabold text-emerald-700 uppercase tracking-wider mb-2">NestOff, Checked</p>
+          <h2 id="nestoff-heading" className="text-2xl font-extrabold text-brand-900 mb-4">NestOff Mouse Repellent: What Is in It, and Does It Work?</h2>
+          <p className="text-[15px] text-gray-800 leading-relaxed mb-5">
+            NestOff is a pouch of four plant oils sold online to keep mice away by smell. We have not tested it. What we can check is what its maker says, what regulators
+            have on record and what research shows for oils like these, and all three point the same way: we found no published evidence that NestOff clears mice out of
+            a house, and no Canadian registration for it.
+          </p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="min-w-[560px] w-full text-sm">
+              <caption className="sr-only">NestOff mouse repellent: ingredients, directions, registration and evidence</caption>
+              <tbody>
+                {NESTOFF_FACTS.map(([k, v]) => (
+                  <tr key={k} className="border-b border-navy-50 last:border-0 align-top">
+                    <th scope="row" className="w-1/3 bg-brand-50 px-4 py-3 text-left font-bold text-brand-800">{k}</th>
+                    <td className="px-4 py-3 text-gray-700">{v}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="mt-7 mb-2 text-xl font-extrabold text-brand-900">Does NestOff work?</h3>
+          <p className="text-[15px] text-gray-800 leading-relaxed mb-3">
+            We found no published study showing that it does, and the product page claims more than its own footer will stand behind. The page says that by week three mice
+            &ldquo;completely abandon your property&rdquo; and that they can never build a tolerance to the scent; the footer says the pouches are not guaranteed to
+            eliminate an established infestation. The numbers do not line up either: each pouch is said to create a 65 sq. ft. barrier, yet the dosage chart puts 2 to 3
+            pouches in a whole home, garage and basement included. The customer stories on the site are testimonials, not a test against untreated homes.
+          </p>
+          <p className="text-[15px] text-gray-800 leading-relaxed mb-3">
+            The research on oils like these is a reason for caution, not for confidence. A <a href={HANSEN_2016} {...EXT}>2016 systematic review in the Journal of Chemical
+            Ecology</a> screened 54 publications on plant compounds as rodent repellents. Essential oils and terpenoids showed the strongest effects in laboratory
+            experiments, but success was inconsistent across laboratory, enclosure and field studies, which the authors tie to how few plant-based rodent repellents are
+            registered. A test arena is not a kitchen: a mouse with a nest in your wall and food a few metres away has every reason to put up with a smell.
+          </p>
+
+          <h3 className="mt-7 mb-2 text-xl font-extrabold text-brand-900">What NestOff cannot do</h3>
+          <ul className="list-disc space-y-2 pl-5 text-[15px] text-gray-800 leading-relaxed">
+            <li><strong>Close the way in.</strong> <a href={UC_IPM_MOUSE} {...EXT}>UC IPM</a> says mice get in through openings as small as 1/4 inch (6 mm). Only sealing removes that doorway.</li>
+            <li><strong>Remove the mice already inside.</strong> The maker&rsquo;s own footer says the pouches are not guaranteed to eliminate an established infestation. Traps do that job.</li>
+            <li><strong>Keep working untended.</strong> The maker says to replace pouches every 90 days, or sooner if the smell fades, so it is a recurring cost. A sealed gap is not.</li>
+            <li>
+              <strong>Show a Canadian registration.</strong> Under the <a href={PCP_ACT} {...EXT}>Pest Control Products Act</a>, a product sold as a means of repelling a pest is a
+              pest control product, and the Act prohibits importing, selling or using one that is not registered, apart from exceptions the Act and its regulations set
+              out. A registered product shows a PCP number on its Canadian label; we found none for NestOff.
+            </li>
+          </ul>
+          <p className="mt-4 text-[15px] text-gray-800 leading-relaxed">
+            <strong>Our verdict:</strong> skip it for mice that are already in a Canadian house. Seal the gaps and set traps, as the rest of this page explains. We found no
+            essential-oil rodent repellent currently registered in Canada at all, so a pouch like this is not a product we can point Canadian readers to. If you have a cat, read
+            the pet section of our guide to <Link href="/blog/peppermint-oil-for-mice" className="text-emerald-700 underline font-semibold">peppermint oil for mice</Link> before
+            using any essential-oil product, and see our explainer on <Link href="/blog/vamoose-for-mice" className="text-emerald-700 underline font-semibold">Vamoose pouches</Link>,
+            a similar product sold in the US.
+          </p>
         </div>
       </section>
 
@@ -322,7 +465,41 @@ export default function MouseRepellentCanadaPage() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Two different rules apply to the rows above. Hardware and devices &mdash; steel wool, hardware cloth, door seals, traps, and deterrent tape sold as an automotive part &mdash; are not pesticides and need no registration. Anything making a pest-control claim through an active ingredient, including scent sprays and sachets and every rodenticide, should carry a PCP registration number on its Canadian label; check for it and confirm the listing is sold and shipped within Canada.
+            Three different rules apply to the rows above. Hardware and devices &mdash; steel wool, hardware cloth, door seals, traps, and deterrent tape sold as an automotive part &mdash; are not pesticides and need no registration. Plug-in repellers are the exception among devices: one sold to repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation is listed in Schedule 1 of the Pest Control Products Regulations and must be registered. Anything making a pest-control claim through an active ingredient, including scent sprays and sachets and every rodenticide, should carry a PCP registration number on its Canadian label; check for it and confirm the listing is sold and shipped within Canada.
+          </p>
+
+          <h3 className="mt-8 mb-2 text-xl font-extrabold text-brand-900">What the Evidence and Canada&rsquo;s Registry Say, by Repellent Type</h3>
+          <p className="text-sm text-gray-700 mb-4 leading-relaxed">
+            The table above sorts products by how they are meant to work. This one adds what research and regulators have on record. In Health Canada&rsquo;s registry, the
+            repellents currently registered against mice and rats are mostly bitter-taste sprays and ultrasonic devices, and none uses an essential oil.
+          </p>
+          <div className="not-prose overflow-x-auto rounded-xl border border-navy-100 bg-white shadow-sm">
+            <table className="min-w-[640px] w-full text-sm">
+              <caption className="sr-only">Mouse repellent types: what the evidence says and their status in Canada</caption>
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th scope="col" className="px-4 py-3 text-left">Repellent type</th>
+                  <th scope="col" className="px-4 py-3 text-left">What the evidence says</th>
+                  <th scope="col" className="px-4 py-3 text-left">Registered in Canada?</th>
+                </tr>
+              </thead>
+              <tbody>
+                {EVIDENCE_ROWS.map((r) => (
+                  <tr key={r.type} className="border-b border-navy-50 last:border-0 align-top">
+                    <th scope="row" className="px-4 py-3 text-left font-bold text-brand-800">{r.type}</th>
+                    <td className="px-4 py-3 text-gray-700">{r.evidence}</td>
+                    <td className="px-4 py-3 text-gray-700">{r.canada}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">
+            Checked November 3, 2026: Health Canada&rsquo;s <a href={PMRA_REGISTRY} {...EXT}>Pesticide Product Information Database</a> (products listing mice, rats or
+            rodents with a repellent use, and searches by active ingredient), Health Canada&rsquo;s <a href={HC_RATS_MICE} {...EXT}>pest control tips for rats and mice</a>,
+            section 3(1)(a) and Schedule 1 of the <a href={PCP_REGS} {...EXT}>Pest Control Products Regulations</a>, UC IPM&rsquo;s{' '}
+            <a href={UC_IPM_MOUSE} {...EXT}>Pest Notes: House Mouse</a> (July 2025), <a href={HANSEN_2016} {...EXT}>Hansen and colleagues (2016)</a>, EPA&rsquo;s{' '}
+            <a href={EPA_MIN_RISK} {...EXT}>conditions for minimum risk pesticides</a> and the <a href={CFR_152_25} {...EXT}>minimum-risk ingredient list in 40 CFR 152.25</a>.
           </p>
         </div>
       </section>
@@ -348,7 +525,7 @@ export default function MouseRepellentCanadaPage() {
           <NextUp path="/blog/mouse-repellent-canada" />
           <h2>Ultrasonic Repellers: The Clearest No in Pest Control</h2>
           <p>Of everything on this page, ultrasonic devices are the easiest to dismiss. The physics alone does most of the work: ultrasound is highly directional, loses energy quickly with distance, and is absorbed or reflected by ordinary furnishings. A plug-in in a hallway does not penetrate a stud bay, an insulated attic floor, or a kitchen cabinet run &mdash; which is exactly where mice are. Then add habituation, and even the animals within earshot stop reacting.</p>
-          <p>The enforcement record here is American, and it is worth stating precisely rather than gesturing at &ldquo;regulators&rdquo; generally. In May 2001 the US Federal Trade Commission sent warning letters to more than 60 manufacturers and retailers of ultrasonic pest-control devices, and in 2002 it charged Lentek International over unsubstantiated efficacy claims for its pest-repelling products. Canada has no equivalent enforcement history &mdash; but that is a gap in oversight rather than a difference in the hardware, because these devices contain no pesticide, fall outside the Pest Control Products Act, and so have their efficacy claims reviewed by nobody here before sale. We go through the specific claims, the testing history and the reason the category persists in <Link href="/blog/ultrasonic-pest-repellers-do-they-work">our ultrasonic pest repeller review</Link>. If you own one, do not throw it out expecting a refund fight to be worth it &mdash; just do not let it stand in for the sealing work.</p>
+          <p>The enforcement record here is American, and it is worth stating precisely rather than gesturing at &ldquo;regulators&rdquo; generally. In May 2001 the US Federal Trade Commission sent warning letters to more than 60 manufacturers and retailers of ultrasonic pest-control devices, and in 2002 it charged Lentek International over unsubstantiated efficacy claims for its pest-repelling products. Canada regulates these devices rather than ignoring them: the <a href={PCP_REGS} {...EXT}>Pest Control Products Regulations</a> list devices that repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation, so an ultrasonic repeller sold here must be registered, and Health Canada&rsquo;s registry lists several with PCP numbers, the <a href={registryEntry('33070')} {...EXT}>Tomcat Ultrasonic Rodent Repeller (PCP 33070)</a> among them. Registration has not changed the physics: Health Canada&rsquo;s own <a href={HC_RATS_MICE} {...EXT}>pest control tips</a> say rats and mice may adapt to the devices and return, and recommend using them along with other pest control options. We go through the specific claims, the testing history and the reason the category persists in <Link href="/blog/ultrasonic-pest-repellers-do-they-work">our ultrasonic pest repeller review</Link>. If you own one, do not throw it out expecting a refund fight to be worth it &mdash; just do not let it stand in for the sealing work.</p>
 
           <h2>Peppermint and the Scent Products: A Narrow Honest Use</h2>
           <p>We are not going to pretend peppermint does nothing. Concentrated aromatic oils are irritating to a small mammal at close range, and in a genuinely enclosed volume &mdash; a sealed drawer, a stored RV with the vents screened, a boat under a cover, a cottage closed for the winter &mdash; putting sachets or oil-soaked cotton in the space is a cheap layer that costs you nothing but a few dollars and does no harm.</p>
@@ -362,7 +539,7 @@ export default function MouseRepellentCanadaPage() {
           <p>Our North American guide to <Link href="/blog/do-mothballs-keep-mice-away">mothballs and mice</Link> goes further on that vapour: the symptoms it causes in people, children and pets, and what to do if mothballs are already down.</p>
 
           <h2>Reading a Canadian Label Before You Buy</h2>
-          <p><strong>Start by asking whether the thing in your cart is a pesticide or a device, because only one of them is registered.</strong> Physical and electronic deterrents &mdash; deterrent tape sold as an automotive part, strobe and ultrasonic units, steel mesh and hardware cloth, door seals, traps &mdash; are devices, not pesticides, so they need no Health Canada registration at all, and the absence of a PCP number on them means nothing. Products sold as repellents with an active ingredient making a pest-control claim &mdash; peppermint-oil sprays and pouches among them &mdash; generally fall under pesticide rules, and that is where the check below applies. It is worth being precise about this, because &ldquo;no PCP number&rdquo; is a decisive objection to a scent spray and simply irrelevant to a roll of tape.</p>
+          <p><strong>Start by asking whether the thing in your cart is a pesticide or a device, because the two follow different rules.</strong> Physical deterrents &mdash; deterrent tape sold as an automotive part, steel mesh and hardware cloth, door seals, traps &mdash; are devices, not pesticides, so they need no Health Canada registration, and the absence of a PCP number on them means nothing. Plug-in repellers are the exception: a device sold to repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation is listed in Schedule 1 of the Pest Control Products Regulations, so an ultrasonic unit sold in Canada should carry a PCP number too. Products sold as repellents with an active ingredient making a pest-control claim &mdash; peppermint-oil sprays and pouches among them &mdash; generally fall under pesticide rules, and that is where the check below applies. It is worth being precise about this, because &ldquo;no PCP number&rdquo; is a decisive objection to a scent spray and simply irrelevant to a roll of tape.</p>
           <p>Rodent products are one of the categories where American advice travels badly. Any product sold in Canada that makes a pest-control claim through an active ingredient falls under the Pest Control Products Act and must be registered with Health Canada&rsquo;s Pest Management Regulatory Agency unless it qualifies for a specific Canadian exemption, and a registered product carries a PCP registration number on its Canadian label. The American &ldquo;minimum risk&rdquo; exemption that lets many US essential-oil repellents skip federal registration is a United States rule; it says nothing whatsoever about whether a product is legal to sell as a pesticide here.</p>
           <p>Our US guide to <Link href="/blog/vamoose-for-mice">Vamoose mouse repellent pouches</Link> shows what that exemption looks like on one product&rsquo;s label: what is in each formula, and which of its claims no federal reviewer has checked.</p>
           <p>The practical checks before you order anything with a repellency or kill claim: is there a Canadian registration number on the label, and is the listing sold and shipped from within Canada? A marketplace seller shipping a US-labelled product to a Canadian address is not evidence of anything except that shipping is possible. The same logic applies with more force to rodenticides, where Canada&rsquo;s consumer rules are meaningfully stricter than the American ones &mdash; we cover exactly which actives homeowners may legally buy here in <Link href="/blog/rat-poison-canada-what-is-legal">what rat poison is legal in Canada</Link>.</p>
@@ -424,15 +601,13 @@ export default function MouseRepellentCanadaPage() {
           </ul>
 
           <h2>Frequently Asked Questions</h2>
+          {/* Nov 4, 2026: answers shown as open text instead of collapsed <details> (God plan, section 5: FAQs as visible text). */}
           <div className="not-prose space-y-4">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
-                <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
-                  {question}
-                  <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
-                </summary>
-                <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
-              </details>
+              <div key={question} className="rounded-xl border border-navy-100 bg-white p-4 sm:p-5">
+                <h3 className="text-base font-bold leading-snug text-brand-900">{question}</h3>
+                <p className="mt-2 text-sm text-gray-700 leading-relaxed">{answer}</p>
+              </div>
             ))}
           </div>
 

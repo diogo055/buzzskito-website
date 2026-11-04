@@ -20,7 +20,10 @@ import QuickIdTable from '@/components/QuickIdTable'
 
 const SLUG = 'best-mouse-trap-canada'
 const DATE = '2026-07-16'
-const UPDATED = '2026-10-23'
+const UPDATED = '2026-11-04'
+// Nov 4, 2026 (God plan push queue #2): trap-type table (running cost, children and pets, Canadian rules),
+// pros and cons by trap type, three more situations, numbered picks, a registration FAQ and open FAQ answers;
+// the glue-trap date and the Health Canada ultrasonic line corrected to their sources.
 const TITLE = 'Best Mouse Traps in Canada — Snap, Electronic, and Catch-and-Release Picks'
 // TITLE NOTE (Oct 23, 2026): was 'Best Mouse Trap Canada: Victor M325 + 2 Picks' (Sep 3 title test, data/exp-title-test.json: Canadian CTR 0.91% Aug 6-Sep 2, 0.38% Sep 24-Oct 21); top queries, 90 days to Oct 23: best mouse trap 145 at 11.7, best mouse traps canada 120 at 7.2 (the rat trap page gets 185 at 7.3 for it), best mouse traps 64 at 13.4, humane mouse traps toronto 38 at 13.3, best electric mouse trap 10 at 11.9.
 const META_TITLE = 'Best Mouse Traps Canada: Snap, Electric & Humane'
@@ -48,7 +51,11 @@ const FAQS = [
   },
   {
     question: 'Are glue traps legal in Canada?',
-    answer: 'Glue boards are legal to buy and use in most of Canada, but they are widely discouraged: humane organizations including Humane Canada and the BC SPCA oppose them because mice can take hours or days to die of stress, dehydration, or self-injury, and they routinely catch non-target animals like birds and snakes. England and Wales banned public glue-trap use in 2022 and several jurisdictions restrict them. Because a properly set snap trap is faster, cheaper per catch, and far more humane, we do not recommend glue traps for Canadian homes.',
+    answer: 'Glue boards are legal to buy and use in most of Canada, but they are widely discouraged: humane organizations including Humane Canada and the BC SPCA oppose them because mice can take hours or days to die of stress, dehydration, or self-injury, and they routinely catch non-target animals like birds and snakes. England banned their use from July 31, 2024, under a law passed in 2022, except by licensed professional pest controllers, and several jurisdictions restrict them. Because a properly set snap trap is faster, cheaper per catch, and far more humane, we do not recommend glue traps for Canadian homes.',
+  },
+  {
+    question: 'Do mouse traps need to be registered in Canada?',
+    answer: 'No. Under the Pest Control Products Regulations a device is exempt from registration unless its type is listed in Schedule 1, and snap, electric, live-catch, multi-catch and glue traps are not listed. What Schedule 1 does list includes devices sold to repel pests by causing them physical discomfort through sound, touch or electromagnetic radiation, which is why ultrasonic repellers sold in Canada carry a PCP number. Poison is a different product: rodenticides are registered pesticides, and Health Canada says poisoned baits must be used in a tamper-proof bait station in areas children and pets can reach. Releasing a live-caught animal can also be regulated: Ontario\'s guidance for live-captured wild animals is to release them within 1 km of where they were caught, within 24 hours and with the landowner\'s permission, although that guidance does not name mice.',
   },
   {
     question: 'Do humane catch-and-release mouse traps work?',
@@ -68,7 +75,7 @@ const FAQS = [
   },
   {
     question: 'Do ultrasonic repellers work instead of mouse traps?',
-    answer: 'No. Health Canada has warned consumers about ultrasonic pest device claims, and controlled studies consistently show mice habituate to ultrasonic sound within days — the US Federal Trade Commission has pursued manufacturers over unsupported claims since 2001. Ultrasound also does not pass through walls or furniture, so the "coverage" figure on the box only applies to open line-of-sight. Money spent on plug-in repellers buys you nothing a trap line and sealed entry points would not do better; see our full ultrasonic repeller evidence review for the study-by-study breakdown.',
+    answer: 'No. Health Canada\'s own pest control tips say rats and mice may adapt to ultrasonic devices and return, and recommend using them along with other pest control options; controlled studies consistently show mice habituate to ultrasonic sound within days — the US Federal Trade Commission has pursued manufacturers over unsupported claims since 2001. Ultrasound also does not pass through walls or furniture, so the "coverage" figure on the box only applies to open line-of-sight. Money spent on plug-in repellers buys you nothing a trap line and sealed entry points would not do better; see our full ultrasonic repeller evidence review for the study-by-study breakdown.',
   },
   {
     question: 'How do I safely dispose of a dead mouse?',
@@ -98,6 +105,63 @@ export const metadata: Metadata = withRegionalAlternates(buildMetadata({
 }), '/blog/best-mouse-trap-canada')
 
 const AMZ_TAG = tagForSlug('best-mouse-trap-canada')
+
+// Nov 4, 2026: the six trap types side by side on what the two tables above leave out. Every cell is
+// from the sources named in the caption under the tables (checked Nov 3, 2026) or restates this
+// page's own sections. No prices: they go stale.
+const TRAP_TYPES = [
+  {
+    type: 'Snap trap (wood or plastic)',
+    where: 'Along the walls of kitchens, basements, garages and sheds. The CDC suggests closed spots such as behind the stove and fridge and the back of cabinets and drawers',
+    cost: 'A wooden snap trap is the least expensive option (UC IPM), and traps are reusable: Health Canada says used traps are more attractive to mice',
+    kids: 'The bar is open: keep traps out of reach of children and pets (CDC) and where they are unlikely to come across them (UC IPM), or inside a covered station',
+    rules: 'No registration: a trap is a device, and a device is exempt unless its type is listed in Schedule 1 of the Pest Control Products Regulations. Traps are not listed',
+  },
+  {
+    type: 'Electric trap (battery)',
+    where: 'Indoors only (Victor); one trap covers one runway',
+    cost: 'Costs considerably more than other traps (UC IPM); four AA batteries, and Victor says not to use rechargeables',
+    kids: 'The plates sit inside a closed tunnel; Victor says bevelled columns stop children and pets from reaching them when the lid is closed',
+    rules: 'No registration (a device not listed in Schedule 1)',
+  },
+  {
+    type: 'Multi-catch trap',
+    where: 'A runway that several mice use: it catches several at a time without being reset (UC IPM)',
+    cost: 'Reusable with no resetting; the cost is your time, because the live mice have to be removed often (UC IPM)',
+    kids: 'Catches mice alive, so there is no bar to snap; the CDC still says to keep traps out of reach of children and pets',
+    rules: 'No registration; what you do with the live mice is where rules come in (next row)',
+  },
+  {
+    type: 'Live-catch trap (one or two mice)',
+    where: 'Only where you can check it often: Health Canada says to check every kind of trap daily, and this page advises every few hours for a live trap',
+    cost: 'Reusable; the cost is the checking and the trip to let the mouse go',
+    kids: 'Enclosed, and nothing is killed',
+    rules: 'No registration. Ontario’s guidance for live-captured wild animals is to release them within 1 km of where they were caught, within 24 hours and with the landowner’s permission; the guidance does not name mice',
+  },
+  {
+    type: 'Enclosed snap trap or trap station',
+    where: 'Homes with children or pets, and spots where you would rather not see the catch. Health Canada says to set covered snap traps with the entrance parallel and flush against the wall',
+    cost: 'Reusable; empty and reset it like an open snap trap',
+    kids: 'The bar snaps inside the cover or station, which is the reason to use one where children or pets roam',
+    rules: 'No registration for the trap. A station holding poison is a different product: Health Canada says poisoned baits must be used in a tamper-proof bait station in areas children and pets can reach',
+  },
+  {
+    type: 'Glue board',
+    where: 'Poorly: UC IPM says adult mice can often detect and avoid the glue',
+    cost: 'Single use: a new board for every catch',
+    kids: 'UC IPM says not to use them where children, pets or desirable wildlife can touch them',
+    rules: 'No registration, and Health Canada’s pest control tips list glue traps among the options; the CDC advises against them, and Humane Canada and the BC SPCA oppose them',
+  },
+]
+
+const TRAP_PROS_CONS = [
+  { type: 'Snap trap', pros: 'Very effective when well positioned and set, and generally kills instantly (Health Canada); a wooden one is the least expensive option (UC IPM); cheap enough to set 6 to 12 at once', cons: 'You see and handle the catch; the open bar has to be kept from children and pets; a mouse that springs it and escapes turns trap-shy' },
+  { type: 'Electric trap', pros: 'Kills inside a closed tunnel; a green light flashes every 10 seconds for up to a week after a catch; switches itself off when the lid is opened (Victor)', cons: 'Costs considerably more (UC IPM); indoors only; one mouse per setting; batteries to replace' },
+  { type: 'Multi-catch trap', pros: 'Several mice per setting with no resetting (UC IPM); no kill', cons: 'Live mice to deal with often; the CDC advises against live traps because a frightened rodent urinates, which raises the risk of illness' },
+  { type: 'Live-catch trap', pros: 'No kill; reusable', cons: 'Has to be checked every few hours; rules on where the mouse may be released; the same CDC warning as multi-catch traps' },
+  { type: 'Enclosed snap trap or station', pros: 'The snap and the catch stay inside the cover', cons: 'Has to sit with its entrance flush against the wall (Health Canada); still needs checking every day' },
+  { type: 'Glue board', pros: 'Nothing a snap trap does not do better', cons: 'A slow death; catches birds and other non-target animals; adult mice often avoid it (UC IPM); single use' },
+]
 
 export default function BestMouseTrapCanadaPage() {
   return (
@@ -135,7 +199,7 @@ export default function BestMouseTrapCanadaPage() {
               <li>The Victor M250S electronic trap kills with a high-voltage shock in a closed tunnel and runs on 4 AA batteries; Victor publishes no kill time or kills-per-battery figure.</li>
               <li>A pea-sized smear of peanut butter outperforms cheese as bait; a big glob lets mice feed without triggering the trap.</li>
               <li>Second-generation anticoagulant rodenticides (brodifacoum, bromadiolone) are not sold as domestic-class products in Canada — trap first.</li>
-              <li>Glue traps are legal in most of Canada but discouraged by humane organizations; England and Wales banned public use in 2022.</li>
+              <li>Glue traps are legal in most of Canada but discouraged by humane organizations; England&rsquo;s ban on their use, passed in 2022, took effect on July 31, 2024.</li>
             </ul>
             <p className="mt-3 text-xs text-gray-500">— BuzzSkito Pest Product Guides · independent Canadian research</p>
             <div className="mt-4">
@@ -248,9 +312,64 @@ export default function BestMouseTrapCanadaPage() {
             caption={<>Checked October 23, 2026: Victor&rsquo;s <a href="https://www.victorpest.com/victor-electronic-mouse-trap-cm250b" target="_blank" rel="noopener noreferrer" className="underline">electronic mouse trap</a> page, UC IPM&rsquo;s <a href="https://ipm.ucanr.edu/home-and-landscape/house-mouse/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: House Mouse</a> (July 2025) and the US CDC&rsquo;s <a href="https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" target="_blank" rel="noopener noreferrer" className="underline">trapping guidance</a> (April 2024). The trap counts, release distance and the Humane Canada and BC SPCA positions restate this page&rsquo;s own sections.</>}
           />
 
+          <h2 id="trap-types">Mouse Trap Types Compared: Running Cost, Kids and Pets, Canadian Rules</h2>
+          <p>The tables above cover how each trap works. These two add what they leave out: where each of the six trap types works, what it costs to keep running, how it fits a home with children or pets, what Canadian rules say, and the pros and cons of each. Prices are left out on purpose, because they change.</p>
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6">
+            <table className="min-w-[760px] w-full text-sm">
+              <caption className="sr-only">Six mouse trap types compared by where they work, running cost, children and pets, and Canadian rules</caption>
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th scope="col" className="px-4 py-3 text-left">Trap type</th>
+                  <th scope="col" className="px-4 py-3 text-left">Where it works</th>
+                  <th scope="col" className="px-4 py-3 text-left">What it costs to run</th>
+                  <th scope="col" className="px-4 py-3 text-left">Children and pets</th>
+                  <th scope="col" className="px-4 py-3 text-left">Canadian rules</th>
+                </tr>
+              </thead>
+              <tbody>
+                {TRAP_TYPES.map((r) => (
+                  <tr key={r.type} className="border-b border-navy-50 last:border-0 align-top">
+                    <th scope="row" className="px-4 py-3 text-left font-bold text-brand-800">{r.type}</th>
+                    <td className="px-4 py-3 text-gray-700">{r.where}</td>
+                    <td className="px-4 py-3 text-gray-700">{r.cost}</td>
+                    <td className="px-4 py-3 text-gray-700">{r.kids}</td>
+                    <td className="px-4 py-3 text-gray-700">{r.rules}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h3 id="pros-and-cons">Pros and cons of each mouse trap type</h3>
+          <div className="not-prose rounded-xl border border-navy-100 overflow-x-auto bg-white shadow-sm my-6">
+            <table className="min-w-[560px] w-full text-sm">
+              <caption className="sr-only">Pros and cons of six mouse trap types</caption>
+              <thead className="bg-brand-800 text-white">
+                <tr>
+                  <th scope="col" className="px-4 py-3 text-left">Trap type</th>
+                  <th scope="col" className="px-4 py-3 text-left">Pros</th>
+                  <th scope="col" className="px-4 py-3 text-left">Cons</th>
+                </tr>
+              </thead>
+              <tbody>
+                {TRAP_PROS_CONS.map((r) => (
+                  <tr key={r.type} className="border-b border-navy-50 last:border-0 align-top">
+                    <th scope="row" className="px-4 py-3 text-left font-bold text-brand-800">{r.type}</th>
+                    <td className="px-4 py-3 text-gray-700">{r.pros}</td>
+                    <td className="px-4 py-3 text-gray-700">{r.cons}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500">Checked November 3, 2026: Health Canada&rsquo;s <a href="https://www.canada.ca/en/health-canada/services/pest-control-tips/rats-mice.html" target="_blank" rel="noopener noreferrer" className="underline">pest control tips for rats and mice</a>, section 3(1)(a) and Schedule 1 of the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2006-124/FullText.html" target="_blank" rel="noopener noreferrer" className="underline">Pest Control Products Regulations</a>, the CDC&rsquo;s <a href="https://www.cdc.gov/healthy-pets/rodent-control/trap-up.html" target="_blank" rel="noopener noreferrer" className="underline">trapping guidance</a> (April 2024), UC IPM&rsquo;s <a href="https://ipm.ucanr.edu/home-and-landscape/house-mouse/" target="_blank" rel="noopener noreferrer" className="underline">Pest Notes: House Mouse</a> (July 2025), Victor&rsquo;s <a href="https://www.victorpest.com/victor-electronic-mouse-trap-cm250b" target="_blank" rel="noopener noreferrer" className="underline">electronic mouse trap</a> page and Ontario&rsquo;s guidance on <a href="https://www.ontario.ca/page/harass-capture-or-kill-wild-animal-damaging-private-property" target="_blank" rel="noopener noreferrer" className="underline">capturing a wild animal that damages property</a> (December 2025). The trap counts, the every-few-hours check and the Humane Canada and BC SPCA positions restate this page&rsquo;s own sections.</p>
+
           <h2 id="situation">Which Mouse Trap for Your Situation?</h2>
           <ul>
             <li><strong>Mice in the kitchen or pantry:</strong> 6 to 12 Victor wood snap traps along the walls, trigger end touching the baseboard, all set on the same night. UC IPM says to space traps no more than about 3 m (10 ft) apart where mice are active, and to set pairs 2.5&ndash;5 cm (1&ndash;2 in) apart to catch mice that jump the first one.</li>
+            <li><strong>Mice coming and going from one hole:</strong> Health Canada&rsquo;s advice is 5 to 10 traps per visible mouse hole, or one trap per metre along the walls, with a warm-up of 3 to 4 days in which the traps are baited but not set, so the mice get used to taking the bait.</li>
+            <li><strong>Behind the stove and fridge, or inside cupboards:</strong> the CDC suggests closed spots like these and the back of cabinets and drawers. Health Canada says to set open snap traps at right angles to the wall with the baited end closest to it, and covered snap traps and electric traps with the entrance parallel and flush against the wall.</li>
+            <li><strong>Several mice using one runway:</strong> a multi-catch trap holds several mice without being reset (UC IPM), but they are caught alive and have to be dealt with often, and the CDC advises against live traps. If you will not empty it daily, a line of snap traps is the better choice.</li>
             <li><strong>You never want to see or touch a mouse:</strong> one Victor electronic trap where you would least like to meet the result, usually the kitchen, and cheap snap traps everywhere else.</li>
             <li><strong>Children or pets in the house:</strong> the electronic trap (Victor says bevelled columns inside keep children and pets from reaching the plates), or snap traps inside a tamper-resistant station; our <Link href="/blog/mouse-bait-station-canada">bait station guide</Link> covers the station options sold in Canada.</li>
             <li><strong>A cold garage, shed or cottage over winter:</strong> snap traps. Glue boards fail on cold, dusty floors, and Victor rates its electronic trap for indoor use only.</li>
@@ -259,7 +378,7 @@ export default function BestMouseTrapCanadaPage() {
             <li><strong>Droppings over 1 cm long:</strong> that is a rat, and mouse traps are too small to kill rats reliably; see the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>.</li>
           </ul>
 
-          <h2>Why Is the Victor M325 Snap Trap Still the Best?</h2>
+          <h2 id="pick-1">1. Victor M325 Snap Trap: Why Is It Still the Best?</h2>
           <p>Because mouse control is a numbers game, and the M325 is the only trap cheap enough to win it. The pre-baited, expanded-trigger version of the classic Victor design snaps in milliseconds — a correctly placed snap trap is rated by humane-research groups as one of the fastest, most humane kill methods available to consumers, faster than poison by days and faster than glue by hours. The same trap is the standard tool for voles in a lawn or orchard, though the placement rules differ completely &mdash; <Link href="/blog/how-to-get-rid-of-voles-canada" className="text-brand-700 underline">how to trap voles in their surface runways</Link> covers that variant.</p>
           <p>The M325&rsquo;s expanded plastic trigger (versus the old small metal tab) roughly doubles the strike zone, which matters because mice often trigger traps with a paw or shoulder rather than politely biting the bait. Wood-based traps also hold scent from previous catches, which — counterintuitively — <em>attracts</em> mice rather than repelling them. Field studies of trap lines consistently find previously used traps outperform brand-new ones.</p>
           <p>Practical notes for Canadian buyers: buy more than you think you need (a 4-pack is a starting point, not a solution), wear gloves when setting to keep human scent off, and throw the trap away without guilt once it looks grimy — at this market price of a few dollars per trap, they are semi-disposable.</p>
@@ -267,7 +386,7 @@ export default function BestMouseTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="victor mouse trap 4 pack">Check Victor M325 4-pack on Amazon.ca →</BuyLink>
           </div>
 
-          <h2>Are Electronic Mouse Traps Like the Victor M250S Worth It?</h2>
+          <h2 id="pick-2">2. Victor M250S Electronic Trap: Are Electronic Mouse Traps Worth It?</h2>
           <p>Yes — if your objection to snap traps is seeing or touching the result, the Victor M250S solves exactly that problem. The mouse enters a dark tunnel (mice love enclosed spaces), steps on metal plates, and a high-voltage shock kills it. A green blinking light tells you there is a catch; you hold the trap over a garbage bag and tip. No sight, no touch, no blood.</p>
           <p>What Victor publishes: four AA batteries (not rechargeables), one mouse per setting, a green light that flashes every 10 seconds for up to a week after a catch, and bevelled columns that keep children and pets from reaching the plates; it gives no kill time and no kills-per-battery figure. The limits: indoor dry locations only (no garages with condensation, no crawl spaces), one runway covered per unit, and an upfront cost per trap that is 15–20× a wooden snap trap. For a full teardown of long-term reliability, battery life in real Canadian basements, and the common false-trigger complaints, see our <Link href="/blog/victor-electronic-mouse-trap-review-canada">Victor electronic mouse trap review</Link>.</p>
           <p>The smart deployment is hybrid: an M250S in the kitchen where you would rather not meet the result at breakfast, and cheap snap traps everywhere else.</p>
@@ -275,7 +394,7 @@ export default function BestMouseTrapCanadaPage() {
             <BuyLink tag={AMZ_TAG} search="victor electronic mouse trap">Check Victor M250S on Amazon.ca →</BuyLink>
           </div>
 
-          <h2>Do Humane Catch-and-Release Traps Actually Work?</h2>
+          <h2 id="pick-3">3. Motel Mouse Live Trap: Do Humane Catch-and-Release Traps Actually Work?</h2>
           <p>They catch mice well — the Motel Mouse two-door design is genuinely effective at live capture — but the &ldquo;release&rdquo; half is where the humane promise usually breaks down. Three hard truths the packaging never mentions:</p>
           <ul>
             <li><strong>Check every few hours, not every morning.</strong> A mouse trapped without water can die of stress and dehydration overnight — which converts your humane trap into a slow kill trap.</li>
@@ -289,7 +408,7 @@ export default function BestMouseTrapCanadaPage() {
 
           <RelatedLinks path="/blog/best-mouse-trap-canada" />
           <h2>Should You Use Glue Traps?</h2>
-          <p>No — and this is the one category where we will be blunt. Glue boards catch mice by adhesive, and death typically comes from hours or days of stress, dehydration, or self-injury as the animal struggles. Humane Canada and the BC SPCA both oppose consumer glue-trap use, several Canadian municipalities discourage them in public guidance, and England and Wales banned public use outright in 2022. Glue boards also routinely catch non-target animals — songbirds, snakes, even bats.</p>
+          <p>No — and this is the one category where we will be blunt. Glue boards catch mice by adhesive, and death typically comes from hours or days of stress, dehydration, or self-injury as the animal struggles. Humane Canada and the BC SPCA both oppose consumer glue-trap use, several Canadian municipalities discourage them in public guidance, and England banned their use outright from July 31, 2024, under a law passed in 2022, leaving only licensed professional pest controllers able to use them. Glue boards also routinely catch non-target animals — songbirds, snakes, even bats.</p>
           <p>The practical case against them is just as strong as the ethical one: they are single-use, they fail in dusty or cold locations (garage floors in a Canadian winter kill the adhesive), and a mouse that escapes one becomes intensely trap-shy. Every job a glue board can do, a snap trap does faster, cheaper per catch, and without the suffering.</p>
 
           <h2>Why Traps Before Poison in Canada?</h2>
@@ -315,15 +434,13 @@ export default function BestMouseTrapCanadaPage() {
           <p>Skip them. Plug-in ultrasonic devices are the most heavily marketed &ldquo;no-trap&rdquo; option in Canada, and the evidence is uniformly poor: mice habituate to the sound within days, ultrasound does not pass through walls or furniture, and regulators — including the US FTC, repeatedly since 2001 — have challenged manufacturers over unsupported claims. We went through the published studies in detail in <Link href="/blog/ultrasonic-pest-repellers-do-they-work">our ultrasonic repeller review</Link>; the short version is that the money buys you a night light. If your rodent signs point to something larger than a mouse — droppings over 1 cm, gnaw marks with visible tooth grooves — you are shopping in the wrong aisle entirely: see the <Link href="/blog/best-rat-trap-canada">best rat trap guide</Link>, because mouse traps physically cannot kill rats.</p>
 
           <h2>Frequently Asked Questions</h2>
+          {/* Nov 4, 2026: answers shown as open text instead of collapsed <details> (God plan, section 5: FAQs as visible text). */}
           <div className="not-prose space-y-4">
             {FAQS.map(({ question, answer }) => (
-              <details key={question} className="group rounded-xl border border-navy-100 bg-white p-4">
-                <summary className="cursor-pointer font-bold text-brand-900 list-none flex justify-between items-center gap-3">
-                  {question}
-                  <span className="text-emerald-600 group-open:rotate-45 transition-transform text-xl leading-none">+</span>
-                </summary>
-                <p className="mt-3 text-sm text-gray-700 leading-relaxed">{answer}</p>
-              </details>
+              <div key={question} className="rounded-xl border border-navy-100 bg-white p-4 sm:p-5">
+                <h3 className="text-base font-bold leading-snug text-brand-900">{question}</h3>
+                <p className="mt-2 text-sm text-gray-700 leading-relaxed">{answer}</p>
+              </div>
             ))}
           </div>
 

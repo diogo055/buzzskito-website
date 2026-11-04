@@ -1,0 +1,214 @@
+{
+  "slug": "voles",
+  "kind": "spoke",
+  "cluster": "mice",
+  "keyword": "vole",
+  "alsoTargets": [
+    "voles",
+    "what is a vole",
+    "what does a vole look like",
+    "signs of voles",
+    "vole damage",
+    "vole tunnels",
+    "voles in yard",
+    "vole vs mouse",
+    "how to get rid of voles"
+  ],
+  "metaTitle": "Voles: How to ID Them and Stop Damage (Photos)",
+  "metaDescription": "A vole is a stocky, short-tailed rodent that cuts runways in lawns and chews bark. Photos, vole vs mouse, the signs, and steps to stop the damage.",
+  "h1": "Voles: How to Identify a Vole, Spot the Damage and Get Rid of Them",
+  "dek": "Voles are chunky, short-tailed rodents of lawns and gardens that rarely come indoors. Real photos, how to tell one from a mouse, the runways, holes and chewed bark they leave, and the extension steps that stop the damage.",
+  "breadcrumb": "Voles",
+  "excerpt": "What a vole looks like, how to tell it from a mouse, the runways, holes and chewed bark voles leave, and the extension steps that get rid of them.",
+  "datePublished": "2026-11-04",
+  "parent": { "href": "/learn/mice", "name": "Mice" },
+  "quickAnswer": {
+    "lead": "**A vole is a small, stocky rodent with a blunt face, small eyes, ears almost hidden in its fur and a short tail, the feature that sets it apart from a long-tailed mouse.** Voles live outdoors, and the [Internet Center for Wildlife Damage Management](https://icwdm.org/species/rodents/voles/vole-damage/) names surface runways linking burrow openings as their easiest sign to spot.",
+    "bullets": [
+      "Adults are 5 to 8 inches long including the tail, says [UC IPM](https://ipm.ucanr.edu/home-and-landscape/voles/); woodland voles are smaller, 4 to 6 inches (ICWDM). The [Pennsylvania Game Commission](https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles) gives the meadow vole a tail of just 1.3 to 2.5 inches.",
+      "Runways are 1 to 2 inches wide, with droppings in them and sometimes plants clipped low beside them (ICWDM), and burrow openings are about 1 1/2 to 2 inches across (UC IPM).",
+      "Gnaw marks on bark are about 1/8 inch wide and 3/8 inch long, in irregular patches low on the trunk, usually made in fall or winter (UC IPM).",
+      "Voles are poor climbers and usually don't enter homes, UC IPM says, and they shouldn't be confused with the house mouse.",
+      "A female can have 5 to 10 litters a year of 3 to 6 young, and in some areas numbers peak every 3 to 6 years (UC IPM)."
+    ]
+  },
+  "facts": {
+    "title": "Vole or something else? Quick ID",
+    "head": ["Animal", "Length and tail", "Face", "Eats", "Signs and tells"],
+    "rows": [
+      ["Vole", "5 to 8 inches; tail 1.3 to 2.5 inches on a meadow vole", "Blunt, rounded snout; small eyes; furred ears that barely clear the hair", "Grasses, other plants, bulbs, tubers, bark and roots", "Runways 1 to 2 inches wide, open holes, chewed bark low on trunks"],
+      ["Woodland (pine) vole", "4 to 6 inches; tail about as long as a hind foot", "Soft, dense brown fur; small eyes; ears hard to see", "Roots, bark, potatoes and flower bulbs", "No surface runways; small piles of soil; plants that fall over with roots gnawed off"],
+      ["House mouse", "5 to 7 inches; tail 3 to 4 inches, almost hairless", "Relatively large ears; small black eyes", "Whatever is available; prefers cereals and grains", "Droppings and gnaw marks in and around buildings"],
+      ["Deer mouse", "6 1/2 to 8 inches; tail 3 to 4 inches, dark above, light below", "Large dark eyes; brownish gray back, white belly", "Seeds, grains, berries, nuts and mushrooms", "Nests in hollow logs, stumps and old bird nests"],
+      ["Shrew", "2 1/2 to 5 inches (Missouri's species)", "Long, pointed snout; tiny eyes", "Mostly insects", "Spiky teeth built for catching prey, not gnawing plants"],
+      ["Mole", "4 to 7 inches", "Small eyes; no external ears; paddle-shaped feet with digging claws", "Insects, grubs and earthworms", "Volcano-shaped hills of soil in the lawn"]
+    ],
+    "caption": "Voles: UC IPM, ICWDM, the Pennsylvania Game Commission, MDC, Penn State and Clemson. House mouse: UC IPM. Deer mouse: Pennsylvania Game Commission and UC IPM. Shrews: MDC. Moles: Clemson. Every source is linked on this page."
+  },
+  "body": [
+    { "type": "h2", "text": "What is a vole?" },
+    { "type": "p", "text": "A vole is a small, plant-eating rodent of grassy ground, often called a meadow mouse or a field mouse. The University of California's [Pest Notes on voles](https://ipm.ucanr.edu/home-and-landscape/voles/) (UC IPM) are titled Voles (Meadow Mice). It is not a true mouse, though: CDC's [2002 hantavirus recommendations](https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm) treat the voles and lemmings as a third group of rodents, apart from the rats and mice." },
+    { "type": "figure", "src": "/guides/photos/meadow-vole-in-grass.webp", "width": 1200, "height": 800, "alt": "Eastern meadow vole crouched in grass and dead leaves, seen from the side, with a chunky gray-brown body, a blunt face, a small dark eye and a small ear almost hidden in its fur", "caption": "An eastern meadow vole (Microtus pennsylvanicus) in grass and dead leaves in Ohio. Look for the blunt face and the small ear almost hidden in its fur.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/51151917" },
+    { "type": "p", "text": "The [Internet Center for Wildlife Damage Management](https://icwdm.org/species/rodents/voles/) (ICWDM) counts 23 vole species in the United States, 7 of which cause significant economic damage. UC IPM says voles are poor climbers that usually don't enter homes, so if the animal was inside, start with [the complete guide to mice in US homes](/learn/mice). [The field mice guide](/blog/field-mice) sorts voles from the deer mice and white-footed mice that share the name." },
+
+    { "type": "h2", "text": "What does a vole look like?" },
+    { "type": "p", "text": "A vole looks like a mouse built low and heavy, with the tail cut short. UC IPM describes a compact, heavy body, short legs, a short-furred tail, small eyes and partly hidden ears, under long, coarse fur that runs from blackish brown to grayish brown. The [Missouri Department of Conservation](https://mdc.mo.gov/discover-nature/field-guide/voles-meadow-mice) (MDC) adds a large head and a somewhat blunt, rounded snout, and [Clemson Cooperative Extension](https://hgic.clemson.edu/factsheet/how-to-tell-the-difference-between-moles-voles/) notes prominent orange front teeth for gnawing roots and stems." },
+    { "type": "figure", "src": "/guides/photos/meadow-vole-beside-ruler.webp", "width": 1200, "height": 900, "alt": "Meadow vole lying on its side on gray fabric above a steel ruler, with a stocky brown body, a blunt head, a small ear almost hidden in fur and a short, thin tail", "caption": "An eastern meadow vole on its side beside a steel ruler in Pennsylvania: a stocky body, blunt head, small ear almost hidden in fur and a short tail.", "license": "CC0-1.0", "credit": "no rights reserved, via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/44432292" },
+    { "type": "p", "text": "Size depends on the species. UC IPM puts grown voles at 5 to 8 inches including the tail, and the Pennsylvania Game Commission measures the meadow vole at 6 to 7.6 inches, with a 1.3- to 2.5-inch tail, and 0.7 to 2.3 ounces. [Penn State Extension](https://extension.psu.edu/voles) says the ears are furred and barely rise above the hair, and that tail length is the best way to tell a vole from a mouse." },
+
+    { "type": "h2", "text": "Which voles live in the United States?" },
+    { "type": "p", "text": "A few species cause most yard and garden damage, and which one you have depends on where you live:" },
+    { "type": "table", "head": ["Vole", "Length with tail", "Where sources place it", "Habits"], "rows": [
+      ["Meadow vole (*Microtus pennsylvanicus*)", "5 1/2 to 7 1/2 inches", "The most widely distributed *Microtus* vole in the US (ICWDM); only northern Missouri (MDC)", "Moist meadows and grassy fields; surface runways"],
+      ["Prairie vole (*Microtus ochrogaster*)", "5 to 7 inches", "Statewide in Missouri (MDC); one of Minnesota's two most common voles (University of Minnesota Extension)", "Fields, grasslands and thickets"],
+      ["Woodland or pine vole (*Microtus pinetorum*)", "4 to 6 inches", "Statewide in Missouri (MDC); most abundant in southeastern Pennsylvania (Penn State); both Carolinas", "Mostly underground; eats roots"],
+      ["California vole (*Microtus californicus*)", "6 to 8 1/2 inches", "The most widespread vole in California (UC IPM)", "One of two species behind most damage there"],
+      ["Montane vole (*Microtus montanus*)", "5 1/2 to 8 1/2 inches", "Northeastern California and the eastern Sierra slope (UC IPM)", "The other main damage species in California"]
+    ], "caption": "Lengths: ICWDM. Places and habits: ICWDM, MDC, University of Minnesota Extension, Penn State, the North Carolina Wildlife Resources Commission, Clemson, the Pennsylvania Game Commission and UC IPM." },
+    { "type": "p", "text": "Woodland voles are harder to spot. Penn State says they tunnel underground instead of using surface runways, pushing out small, conical piles of soil, and the Pennsylvania Game Commission says they kill fruit trees by girdling bark or damaging roots. The [North Carolina Wildlife Resources Commission](https://ncwildlife.gov/media/2292/download) sums it up: meadow voles build runways above ground, pine voles below it." },
+    { "type": "media", "needed": "Woodland (pine) vole in side view, identified by a state wildlife agency or extension service, showing its very short tail and soft brown fur, ideally beside a ruler marked in inches (public domain or CC0)" },
+
+    { "type": "h2", "text": "How can you tell a vole from a mouse?" },
+    { "type": "p", "text": "Check the tail first: a vole's is short, a mouse's long. [UC IPM's house mouse pest note](https://ipm.ucanr.edu/home-and-landscape/house-mouse/) gives a grown house mouse 5 to 7 inches in all, including a 3- to 4-inch tail with almost no fur, while the Pennsylvania Game Commission gives the meadow vole a 1.3- to 2.5-inch tail at a similar overall length. House mice also have relatively large ears and small black eyes, where a vole's ears barely show." },
+    { "type": "figure", "src": "/guides/photos/house-mouse-wall-base-long-tail.webp", "width": 1200, "height": 904, "alt": "House mouse on concrete at the foot of a stone wall, side view, with a plain gray-brown coat, a large rounded ear and a long, thin, nearly hairless tail", "caption": "A house mouse at the foot of a stone wall in Boston, Massachusetts, with a long, thin, nearly hairless tail, unlike a vole's short, furred one.", "license": "CC-BY-4.0", "credit": "(c) Fives, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/191136879" },
+    { "type": "p", "text": "The deer mouse, the other common look-alike, gives itself away with its belly. The Pennsylvania Game Commission describes large dark eyes, a brownish gray back, white undersides and a 3- to 4-inch tail, and UC IPM adds that the tail is furred, dark on top and light underneath. [The deer mouse guide](/blog/deer-mice) matters for another reason: deer mice carry the hantavirus covered below." },
+    { "type": "p", "text": "Where you saw it matters too. UC IPM says voles usually don't invade homes, while its house mouse note says outdoor house mice frequently enter homes in autumn. For a rodent in the kitchen or attic, see [a step-by-step plan for getting mice out of a house](/blog/how-to-get-rid-of-mice-canada); [the guide to types of mice](/blog/types-of-mice) shows the house, deer and white-footed mouse side by side." },
+
+    { "type": "h2", "text": "What else gets mistaken for a vole?" },
+    { "type": "p", "text": "Moles and shrews, which MDC says some people confuse with voles, and pocket gophers where they live. A mole is not a rodent, says MDC's [eastern mole field guide](https://mdc.mo.gov/discover-nature/field-guide/eastern-mole); Clemson describes a 4- to 7-inch digger with paddle-shaped feet, no external ears and a diet of insects, grubs and earthworms that leaves volcano-shaped hills in the lawn. [University of Minnesota Extension](https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota/how-to-manage-vole-damage-on-lawns-trees-and-shrubs) says voles sometimes use mole tunnels, so moles get blamed for eaten roots. [The mole or vole section of the guide to holes in the yard](/blog/holes-in-yard#is-it-a-mole-or-a-vole) compares the damage." },
+    { "type": "p", "text": "Shrews are smaller than voles, Penn State notes. MDC's [shrew field guide](https://mdc.mo.gov/discover-nature/field-guide/shrews) says they generally eat insects, describes tiny eyes and sharp, spiky teeth for catching prey rather than gnawing plants, and says shrews are more closely related to moles than to any other mammals in Missouri. The shrew guide explains [how to tell a shrew from a vole](/blog/shrews#what-is-the-difference-between-a-shrew-and-a-vole)." },
+    { "type": "p", "text": "Where pocket gophers live, UC IPM separates the two by where the chewing is: vole girdling generally happens above ground, pocket gopher damage below it." },
+    { "type": "confused", "items": [
+      { "href": "/blog/field-mice", "name": "Deer mouse (field mouse)", "photo": "deer-mouse-white-belly-cdc", "note": "Large dark eyes, a white belly and a 3- to 4-inch tail, dark above and light below", "alt": "Deer mouse on pale sand with a brown back, white belly, large dark eyes, big ears and a two-tone tail" },
+      { "href": "/blog/shrews", "name": "Short-tailed shrew", "photo": "short-tailed-shrew-snout-usgs", "note": "Long pointed snout, tiny eyes and spiky teeth built for catching prey, not gnawing plants", "alt": "Side view of a dead short-tailed shrew's head on black, with a long pointed pink-tipped snout, long whiskers and dense gray-brown fur hiding its tiny eye" },
+      { "href": "/blog/holes-in-yard", "name": "Mole hills", "photo": "mole-hills", "note": "Volcano-shaped mounds of soil; the mole itself eats insects, grubs and earthworms", "alt": "Two mounds of loose dark soil pushed up through fallen leaves" },
+      { "href": "/blog/types-of-mice", "name": "House mouse", "photo": "house-mouse", "note": "Relatively large ears, small black eyes and a 3- to 4-inch tail with almost no fur", "alt": "Brown house mouse in side view on a concrete floor, with large rounded ears, a small dark eye and a long, thin, nearly hairless tail" }
+    ] },
+
+    { "type": "h2", "text": "What are the signs of voles in a yard?" },
+    { "type": "p", "text": "Runways, open holes and chewed bark; the voles themselves are seldom seen." },
+    { "type": "h3", "text": "Runways through the grass" },
+    { "type": "p", "text": "ICWDM's [guide to vole damage](https://icwdm.org/species/rodents/voles/vole-damage/) calls an extensive surface runway system with several burrow openings the most easily identified sign. The runways are 1 to 2 inches wide, plants beside busy ones may be clipped close to the ground, and droppings and bits of plants lie in them. Penn State says fresh clippings and droppings show a runway is in use, and MDC says voles feeding on tall plants leave piles of cut stems along their runways." },
+    { "type": "figure", "src": "/guides/photos/meadow-vole-runways.webp", "width": 1200, "height": 1600, "alt": "Brown meadow vole with a blunt face and small dark eyes looking out of a hole in matted dead grass, with a shallow runway leading away below it", "caption": "An eastern meadow vole at its hole in matted grass, a shallow runway leading away; the observer found it under a plywood sheet lying in a field.", "license": "CC-BY-4.0", "credit": "(c) Ian Murdoch, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/355636621" },
+    { "type": "p", "text": "Lawn runways show best in early spring. Penn State says melting snow reveals the criss-cross network voles used under it, and University of Minnesota Extension adds patches of dead grass, sometimes with larger patches of dried grass stored for food and nesting material." },
+    { "type": "media", "needed": "Vole runways crossing a residential lawn just after snowmelt: a wide view of the yard plus a close-up of one runway beside a ruler marked in inches (public domain or CC0)" },
+    { "type": "h3", "text": "Holes with no mound around them" },
+    { "type": "p", "text": "Voles leave open burrow entrances, not the closed mounds of a pocket gopher, UC IPM says, and it gives the openings as about 1 1/2 to 2 inches across. University of Minnesota Extension describes smaller holes, about 1 inch across, dug to reach tubers and bulbs, and Clemson says voles dig golf ball-sized exit holes in old mole tunnels. Woodland voles are the exception, with the small conical piles of soil Penn State describes." },
+    { "type": "figure", "src": "/guides/photos/vole-hole-snowmelt.webp", "width": 1200, "height": 1600, "alt": "Dark hole in patchy melting snow with tufts of dry grass around and in front of it, identified on iNaturalist as vole sign", "caption": "A grass-lined hole in melting snow near Missoula, Montana, identified on iNaturalist as vole sign: the kind of hole and nest grass voles leave, seen as snow melts.", "license": "CC-BY-4.0", "credit": "(c) Cole Wolf, some rights reserved (CC BY), via iNaturalist", "sourceUrl": "https://www.inaturalist.org/observations/66408064" },
+    { "type": "h3", "text": "Chewed bark at the base of trees and shrubs" },
+    { "type": "p", "text": "Bark gnawed or stripped low on a trunk can kill the plant. UC IPM describes gnaw marks about 1/8 inch wide and 3/8 inch long, in irregular patches at various angles, usually from a few inches above the ground to a few inches below it. Under snow they can reach a foot or more up the trunk, and girdling can kill a tree, UC IPM says." },
+    { "type": "p", "text": "Rabbits chew bark too. ICWDM says rabbit gnaw marks are larger and less distinct and that rabbits clip branches neatly at a 45-degree angle; [what rabbit droppings look like](/blog/rabbit-poop) helps confirm a rabbit. ICWDM also cautions that gnaw marks alone do not prove voles, so look for droppings, tracks and burrows nearby." },
+    { "type": "media", "needed": "Base of a young tree trunk or shrub with irregular patches of fresh vole gnaw marks, beside a ruler marked in inches, ideally with a runway or burrow opening at the base (public domain or CC0)" },
+    { "type": "h3", "text": "Roots and bulbs eaten from below" },
+    { "type": "p", "text": "A plant that tips over with its roots gnawed off points to voles feeding underground, or pocket gophers where they live. Clemson says pine voles destroy the root systems of plants and trees, so a plant that looked healthy one day can fall over a few days later. UC IPM lists bulbs and tubers among vole foods, and Penn State says trees injured below ground grow slowly, look off-color and seem sickly." },
+    { "type": "h3", "text": "Droppings" },
+    { "type": "p", "text": "UC IPM describes greenish droppings about 3/16 inch long in runways and near burrows, turning brown or gray with age, and Penn State compares them to rice grains. Because voles rarely come indoors, droppings inside a house are more likely a mouse's: [the guide to mouse poop](/blog/mouse-poop) shows them and how to clean them up safely." },
+
+    { "type": "h2", "text": "When is vole damage worst?" },
+    { "type": "p", "text": "In fall and winter, though where snow falls it is often found in spring. UC IPM says voles eat tree bark and roots usually in fall or winter, and Penn State says bark damage is generally worst in winter, when other food is scarce. University of Minnesota Extension says the chewing is often hidden below winter snow, and that the trails are usually noticed in late winter or early spring, right after the snow melts." },
+    { "type": "p", "text": "Numbers also swing from year to year. UC IPM says a female matures in 35 to 40 days and can have 5 to 10 litters a year, though voles seldom live past 12 months, and that in some areas populations peak every 3 to 6 years, at times reaching several thousand per acre. University of Minnesota Extension says mild winters with good snowfall can help numbers grow. Voles stay busy all year: UC IPM says they are active day and night, year-round." },
+
+    { "type": "h2", "text": "Are voles dangerous?" },
+    { "type": "p", "text": "Not much to people; the risks come from handling them. UC IPM says not to handle a vole without rubber gloves, or a plastic bag slipped over your hand and arm, because voles can carry infectious pathogens or parasites." },
+    { "type": "p", "text": "Hantavirus is the usual worry, and the vole is not the main suspect. [CDC](https://www.cdc.gov/hantavirus/about/index.html) says the most common hantavirus behind hantavirus pulmonary syndrome (HPS) in the US is spread by the deer mouse. CDC's 2002 recommendations say voles and lemmings carry a separate group of hantaviruses and that none of them had been associated with human disease in the United States. For deer mice, the deer mouse guide gives CDC's cleanup steps for droppings and nests." },
+    { "type": "p", "text": "If a vole does bite, treat it like any animal bite. [CDC's rabies guidance](https://www.cdc.gov/rabies/prevention/index.html) is to wash the wound with soap and water for 15 minutes and talk with a healthcare or public health professional about your risk. The [Minnesota Department of Health](https://www.health.mn.gov/diseases/rabies/risk/table1.pdf) lists voles among the animals whose bites are not a rabies concern in Minnesota; your own state or local health department can tell you how it treats them." },
+    { "type": "p", "text": "For pets and children, the bigger hazard is vole bait. Penn State says baits can harm people, pets and wildlife, and University of Minnesota Extension says vole baits belong inside bait stations to keep other animals from eating them." },
+
+    { "type": "h2", "text": "How do you get rid of voles?" },
+    { "type": "p", "text": "Take away their cover, guard the plants that matter most, and trap the voles you have. First decide whether the damage justifies it: University of Minnesota Extension says that in an average year control may not be worth the effort, and Penn State calls trapping the safest way to remove voles from home grounds and small orchards before numbers are extremely high." },
+    { "type": "h3", "text": "Take away cover" },
+    { "type": "ul", "items": [
+      "**Mow regularly.** Penn State says mowing that keeps ground cover at 3 to 6 inches cuts the food and cover voles need.",
+      "**Clear around young trees.** UC IPM recommends a vegetation-free circle 4 feet across at the base of each young tree; Penn State says to pull mulch 2 feet or more back from trees voles are damaging, and ICWDM's [vole control guide](https://icwdm.org/species/rodents/voles/vole-damage-prevention-and-control-methods/) says 3 feet or more.",
+      "**Remove weeds, heavy mulch and dense ground cover** (UC IPM), plus woodpiles and other debris (University of Minnesota Extension).",
+      "**Keep the ground under bird feeders clean,** or take them down; University of Minnesota Extension says feeders attract voles."
+    ] },
+    { "type": "h3", "text": "Guard trees, shrubs and beds" },
+    { "type": "p", "text": "Wrap young trunks in cylinders of 1/4-inch hardware cloth, the mesh ICWDM and Penn State give. Penn State suggests cylinders 18 to 24 inches high, buried 4 to 6 inches and roomy enough for 5 years of growth; ICWDM says to bury them 6 inches and make them taller than the winter snow gets. For a garden bed, UC IPM describes a fence of wire or aluminum flashing at least 12 inches high, with mesh of 1/4 inch or smaller and its bottom buried 6 to 10 inches." },
+    { "type": "h3", "text": "Trap along the runways" },
+    { "type": "ul", "items": [
+      "**Use ordinary mouse snap traps** set at right angles to a runway, with the trigger end in the runway (UC IPM, ICWDM, Penn State).",
+      "**Bait is optional.** UC IPM says traps can generally go unbaited, or use a peanut butter and oat mixture or apple slices.",
+      "**Cover each trap** with a box, board, shingle or piece of gutter: ICWDM says overhead cover improves catches, and University of Minnesota Extension says it keeps pets and children from finding the traps.",
+      "**Set enough of them.** UC IPM suggests at least a dozen for a small garden and perhaps 50 or more for larger areas; check them daily and move a trap 15 to 20 feet once it stops catching.",
+      "**Time it.** Clemson says fall and late winter are the best times to trap voles, and ICWDM says trapping is not cost-effective on more than about 1 acre.",
+      "**Wear gloves** to empty traps, as UC IPM advises."
+    ] },
+    { "type": "p", "text": "Check your state's rules first. California lets owners or tenants control voles that injure or threaten property (UC IPM), and Missouri's Wildlife Code allows control of voles causing damage (MDC), but North Carolina's wildlife commission says a depredation permit is needed to trap voles there, though not to use registered pesticides." },
+    { "type": "h3", "text": "Repellents and baits" },
+    { "type": "p", "text": "Repellents are a weak tool. Capsaicin and castor oil products are sold for voles, but UC IPM calls their efficacy questionable, ICWDM says repellents may give short-term protection but, apart from predator urine, have not been demonstrated in the field, and Penn State says there is too little data to rely on them alone. ICWDM notes that thiram can be used as a bulb dip to protect spring flowers." },
+    { "type": "p", "text": "Poison baits are for large infestations, and the label is the law. Penn State says zinc phosphide and anticoagulant baits are registered for voles but are restricted-use pesticides, for certified applicators or people they supervise. University of Minnesota Extension says most vole pesticides are restricted and to read the label before you buy and again before use, and North Carolina's commission notes that using a pesticide in any way its label does not describe is against federal law." },
+    { "type": "h3", "text": "What does not work" },
+    { "type": "ul", "items": [
+      "**Gas cartridges and other burrow fumigants:** UC IPM and Penn State say vole burrows are too shallow, with too many openings, for them to work.",
+      "**Ultrasonic or electromagnetic devices and flooding:** UC IPM calls them ineffective against voles; [a review of ultrasonic pest repellers](/blog/ultrasonic-pest-repellers-do-they-work) covers the claims made for mice and rats.",
+      "**Devices meant to scare rodents:** Penn State says they do not reduce vole damage, and ICWDM says no frightening device is effective for voles.",
+      "**Counting on predators:** UC IPM says that in most cases predators can't keep vole numbers below damaging levels, and that it is unproven whether barn owl nest boxes reduce vole populations."
+    ] },
+    { "type": "h3", "text": "Repair the lawn" },
+    { "type": "p", "text": "Runways in a lawn are rarely permanent damage. University of Minnesota Extension says to rake up the dead grass and reseed, and as the surrounding grass grows it covers the trails." },
+    { "type": "callout", "tone": "tip", "title": "Save the evidence", "text": "Photograph runways, holes and chewed bark beside a ruler marked in inches. Pick up a dead vole only with gloves or a plastic bag over your hand, as UC IPM advises, and photograph it beside the ruler too. Your state's cooperative extension office can use the photos to help confirm what you have." }
+  ],
+  "faqs": [
+    {
+      "question": "Is a vole a rat or a mouse?",
+      "answer": "Neither, although it is a rodent and is often called a mouse. CDC's 2002 hantavirus recommendations describe the voles and lemmings as a third group of rodents, separate from the rats and mice, and UC IPM's pest note on voles carries the common name meadow mice in its title. The Pennsylvania Game Commission says the meadow vole is often called a field mouse. Penn State says tail length tells them apart: a mouse's tail is long and a vole's is short."
+    },
+    {
+      "question": "Is it bad to have voles in your yard?",
+      "answer": "It depends on how many there are and what they can reach. UC IPM says voles damage many vegetables, lawns and ornamentals, that girdling can kill trees, and that their numbers can occasionally soar to several thousand per acre. In an average year, though, University of Minnesota Extension says voles may go unnoticed for much of the year and controlling them may not be worth the effort, and their lawn runways are rarely permanent. Missouri's conservation department notes that voles are a major food for many predators."
+    },
+    {
+      "question": "Why do I suddenly have voles?",
+      "answer": "Most often because the population has boomed or the snow has just melted. UC IPM says vole numbers in some areas peak every 3 to 6 years, and University of Minnesota Extension says mild winters with good snowfall can help populations grow. Voles also work out of sight all winter: Penn State says melting snow reveals the criss-cross network of runways they used under it, which is why the damage can seem to appear all at once in spring."
+    },
+    {
+      "question": "Will voles eventually go away?",
+      "answer": "Their numbers do fall after a peak, but not on a schedule you can plan around. The Pennsylvania Game Commission says a high meadow vole population usually crashes to a low level and then builds up to another high, and UC IPM says peaks come every 3 to 6 years in some areas. Voles seldom live past 12 months, UC IPM adds, but a female can have 5 to 10 litters a year, so cutting cover and guarding young trunks still matters in a high year."
+    },
+    {
+      "question": "What time of day are voles most active?",
+      "answer": "At dawn and dusk, though they can be out at any hour. Penn State Extension says vole activity peaks at dawn and dusk, and UC IPM says voles are active day and night, year-round, so seeing one at midday is not unusual. They keep feeding through winter, often under the snow, where University of Minnesota Extension says they do the most harm to small trees and shrubs by chewing bark. For trapping, Clemson Cooperative Extension says fall and late winter are the best times."
+    },
+    {
+      "question": "What animal eats a vole?",
+      "answer": "A long list of predators. UC IPM names coyotes, foxes, badgers, weasels, cats, gulls and especially hawks and owls, and the Pennsylvania Game Commission adds herons, crows, opossums, skunks, shrews and snakes, singling out barn owls. Missouri's conservation department says voles are a major food for many predators and that their numbers influence populations of foxes and owls. Predators rarely end a vole problem on their own, though: UC IPM says that in most cases they can't keep vole numbers below damaging levels."
+    },
+    {
+      "question": "What do voles hate most?",
+      "answer": "Bare, open ground. Clemson Cooperative Extension says voles need cover and do not like to feed in the open, which is why it calls removing cover the most effective control. Repellents based on capsaicin or castor oil are sold for voles, but UC IPM calls their efficacy questionable, the Internet Center for Wildlife Damage Management says repellents may give short-term protection but, apart from predator urine, have not been demonstrated in the field, and Penn State says they should not be the only method. None of these extension guides recommends home remedies such as coffee grounds. What they rely on instead is taking away cover, guarding trunks and trapping."
+    },
+    {
+      "question": "Are voles as bad as mice?",
+      "answer": "They cause different problems. House mice live in and around homes, and UC IPM says that where they live outdoors they frequently move indoors in autumn, where droppings and gnaw marks give them away. Voles are poor climbers that usually stay out of buildings and do their damage outside, to lawns, gardens and the bark and roots of trees. On health, CDC says the deer mouse spreads the most common hantavirus behind hantavirus pulmonary syndrome in the US, while the hantaviruses carried by voles had not been linked to human disease in the US as of CDC's 2002 report."
+    },
+    {
+      "question": "Will voles infest your house?",
+      "answer": "Rarely. UC IPM says voles are poor climbers that usually don't enter homes or other buildings and shouldn't be confused with the house mouse, which frequently comes indoors in autumn. A small, mouse-like animal inside is more likely a house mouse, and its tail gives it away: UC IPM says a house mouse's tail is 3 to 4 inches long with almost no fur. Vole control belongs in the yard, where the runways, holes and chewed bark are."
+    },
+    {
+      "question": "Do voles carry hantavirus?",
+      "answer": "Voles carry hantaviruses of their own, but as of CDC's 2002 recommendations none of them had been associated with human disease in the United States. That report says voles and lemmings are associated with a group of hantaviruses distinct from those that cause hantavirus pulmonary syndrome, and that in Europe the bank vole carries Puumala virus, which causes a mild form of hemorrhagic fever with renal syndrome. In the US, CDC says the most common hantavirus behind HPS is spread by the deer mouse."
+    }
+  ],
+  "sources": [
+    { "title": "Pest Notes: Voles (Meadow Mice) (UC ANR Publication 7439, updated April 2023)", "publisher": "University of California Statewide IPM Program (R. A. Baldwin)", "url": "https://ipm.ucanr.edu/home-and-landscape/voles/" },
+    { "title": "Voles", "publisher": "Internet Center for Wildlife Damage Management (from J. M. O'Brien's chapter in Prevention and Control of Wildlife Damage, 1994)", "url": "https://icwdm.org/species/rodents/voles/" },
+    { "title": "Vole Damage", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/rodents/voles/vole-damage/" },
+    { "title": "Vole Damage Prevention and Control Methods", "publisher": "Internet Center for Wildlife Damage Management", "url": "https://icwdm.org/species/rodents/voles/vole-damage-prevention-and-control-methods/" },
+    { "title": "Voles", "publisher": "Penn State Extension (M. C. Brittingham, S. T. Falker and L. Williams)", "url": "https://extension.psu.edu/voles" },
+    { "title": "How to manage vole damage on lawns, trees and shrubs (reviewed 2024)", "publisher": "University of Minnesota Extension (J. Menken)", "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/lawns-and-landscapes-in-minnesota/how-to-manage-vole-damage-on-lawns-trees-and-shrubs" },
+    { "title": "Voles (Meadow Mice) (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/voles-meadow-mice" },
+    { "title": "Mice and Voles (Wildlife Notes)", "publisher": "Pennsylvania Game Commission", "url": "https://www.pa.gov/agencies/pgc/wildlife/discover-pa-wildlife/mice-and-voles" },
+    { "title": "How to Tell the Difference Between Moles and Voles (HGIC 2366, updated 2025)", "publisher": "Clemson Cooperative Extension, Home & Garden Information Center", "url": "https://hgic.clemson.edu/factsheet/how-to-tell-the-difference-between-moles-voles/" },
+    { "title": "Pest Notes: House Mouse (UC ANR Publication 7483)", "publisher": "University of California Statewide IPM Program", "url": "https://ipm.ucanr.edu/home-and-landscape/house-mouse/" },
+    { "title": "Shrews (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/shrews" },
+    { "title": "Eastern Mole (Field Guide)", "publisher": "Missouri Department of Conservation", "url": "https://mdc.mo.gov/discover-nature/field-guide/eastern-mole" },
+    { "title": "About Hantavirus", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/hantavirus/about/index.html" },
+    { "title": "Hantavirus Pulmonary Syndrome, United States: Updated Recommendations for Risk Reduction (MMWR, July 2002)", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr5109a1.htm" },
+    { "title": "Rabies Prevention and Control", "publisher": "Centers for Disease Control and Prevention", "url": "https://www.cdc.gov/rabies/prevention/index.html" },
+    { "title": "Table 1: Human Rabies Risk Evaluation: Species of the Biting Animal (Animal Bites and Rabies Risk: A Guide for Health Professionals)", "publisher": "Minnesota Department of Health", "url": "https://www.health.mn.gov/diseases/rabies/risk/table1.pdf" },
+    { "title": "Voles (wildlife conflict guidance sheet, 2019)", "publisher": "North Carolina Wildlife Resources Commission", "url": "https://ncwildlife.gov/media/2292/download" }
+  ],
+  "disclaimer": "both"
+}

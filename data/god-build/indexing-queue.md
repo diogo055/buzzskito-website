@@ -26,6 +26,15 @@ Never change any Search Console setting, and never remove or submit sitemaps.
 
 Rebuilt Nov 3, 2026 (evening) from a URL Inspection API check of all 738 sitemap URLs: 720 are on Google, these 18 are not (`research_notes/God plan 10k a day/index_status.md`). All 18 were fetched live the same evening: 200, `index, follow`, self-canonical. The 50 location pages that are noindex on purpose are out of the sitemap and not listed.
 
+Released or upgraded Nov 4, 2026 (God plan "go", day 1). Request these first:
+
+- https://buzzskito.ca/blog/yellow-jackets (new; "yellow jacket" US 100K-1M a month)
+- https://buzzskito.ca/blog/voles (new; "vole" ~101K US)
+- https://buzzskito.ca/blog/lone-star-tick (new; US edition of the Canadian lone star page)
+- https://buzzskito.ca/tools/bug-bite-identifier (upgraded: title, intro, bite pictures moved up, open FAQ)
+- https://buzzskito.ca/blog/mouse-repellent-canada (upgraded: NestOff section, evidence and registry table)
+- https://buzzskito.ca/blog/best-mouse-trap-canada (upgraded: trap-type tables, numbered picks, registration FAQ)
+
 Released since Oct 1. Bites and stings, identification, droppings and product pages first, by US search demand:
 
 1. https://buzzskito.ca/blog/flea-bites (requested 2026-11-03)

@@ -1,0 +1,15 @@
+{
+ "id": "yellow-jackets",
+ "kind": "guide",
+ "verdict": "publish-after-my-fixes",
+ "sha": "8f5ae70db0c93f241a0c4e3b4354d914dd40e17207e4bb3ef25a8db5cb0b5bd1",
+ "claimsChecked": 310,
+ "claimsCorrected": 10,
+ "claimsRemovedOrSoftened": 13,
+ "checkedOn": "2026-11-04",
+ "released": {
+  "on": "2026-11-04",
+  "scheduledFor": "2026-11-04",
+  "note": "datePublished set to the release day; nothing else changed"
+ }
+}

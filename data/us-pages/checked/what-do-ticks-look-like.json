@@ -2,7 +2,7 @@
  "id": "what-do-ticks-look-like",
  "kind": "guide",
  "verdict": "publish-after-my-fixes",
- "sha": "460880521e600e8bc761b029f3e9633b0da3632a361829f1156f4b4afa108920",
+ "sha": "8a59fe2d70a2649dc9a877dd0fddd897b90080a322f54bcd85173784bf8e0c04",
  "claimsChecked": 73,
  "claimsCorrected": 11,
  "claimsRemovedOrSoftened": 6,
@@ -26,6 +26,11 @@
    "on": "2026-11-03",
    "note": "Nov 3, 2026: added 6 real photos (deer-tick-adult-leaf-usda, blacklegged-tick-juvenile-fingertip-pinery, engorged-lone-star-tick, american-dog-tick-male-ksre, lone-star-tick-female-grass-blade, brown-dog-tick-female-leaf); captions from each photo's source description; no other text changed.",
    "previousSha": "fbe3c6b429c2b98eaf7208e1abc1dae4537e0066f712a48005d1501959b7c28c"
+  },
+  {
+   "on": "2026-11-04",
+   "note": "Nov 4, 2026: one sentence linking the new lone star tick guide (/blog/lone-star-tick) in the American dog, lone star, Gulf Coast section; no facts changed.",
+   "previousSha": "460880521e600e8bc761b029f3e9633b0da3632a361829f1156f4b4afa108920"
   }
  ]
 }

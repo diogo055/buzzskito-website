@@ -210,6 +210,9 @@ export const REGIONAL_PAIRS: { us: string; ca: string }[] = [
   { us: '/blog/bed-bug-poop', ca: '/blog/bed-bug-stains-poop-droppings-canada' },
   // Nov 2, 2026: the two split "no see ums" / "noseeum" (GSC Oct 5-Nov 1: Ontario @6.2-10.0, US guide @10.6).
   { us: '/blog/no-see-ums', ca: '/blog/no-see-ums-biting-midges-ontario' },
+  // Nov 4, 2026: two US editions released the same day (plan entries name them as regional pairs).
+  { us: '/blog/voles', ca: '/blog/how-to-get-rid-of-voles-canada' },
+  { us: '/blog/lone-star-tick', ca: '/blog/lone-star-tick-alpha-gal-canada' },
 ]
 
 export const regionalPair = (path: string) => REGIONAL_PAIRS.find((p) => p.us === path || p.ca === path)

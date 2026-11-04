@@ -202,6 +202,9 @@ app/blog/shrews/page.tsx
 content/guides/how-long-do-rats-live.json
 data/us-pages/checked/how-long-do-rats-live.json
 app/blog/how-long-do-rats-live/page.tsx
+content/guides/voles.json
+data/us-pages/checked/voles.json
+app/blog/voles/page.tsx
 content/guides/baby-rats.json
 data/us-pages/checked/baby-rats.json
 app/blog/baby-rats/page.tsx
@@ -412,6 +415,9 @@ app/blog/ticks-in-mississippi/page.tsx
 content/guides/ticks-in-south-carolina.json
 data/us-pages/checked/ticks-in-south-carolina.json
 app/blog/ticks-in-south-carolina/page.tsx
+content/guides/lone-star-tick.json
+data/us-pages/checked/lone-star-tick.json
+app/blog/lone-star-tick/page.tsx
 content/guides/venomous-spiders.json
 data/us-pages/checked/venomous-spiders.json
 app/blog/venomous-spiders/page.tsx
@@ -481,6 +487,9 @@ app/blog/black-spiders/page.tsx
 content/guides/southern-house-spider.json
 data/us-pages/checked/southern-house-spider.json
 app/blog/southern-house-spider/page.tsx
+content/guides/yellow-jackets.json
+data/us-pages/checked/yellow-jackets.json
+app/blog/yellow-jackets/page.tsx
 content/guides/wasp-nest-identification.json
 data/us-pages/checked/wasp-nest-identification.json
 app/blog/wasp-nest-identification/page.tsx

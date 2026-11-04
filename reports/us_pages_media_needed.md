@@ -1,6 +1,6 @@
 # Photos and diagrams the new guides still need
 
-537 images across 215 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
+545 images across 218 pages. Each one is marked in the page's content file as a `media` block; nothing is shown on the page until a real image is added. Use your own photos or properly licensed ones. For the ads on these pages, avoid graphic close-ups of dead or trapped animals, blood, or droppings: Google restricts ad demand on what it calls shocking content. A clean identification photo with a coin for scale is fine.
 
 ## /learn/bed-bugs
 
@@ -373,6 +373,12 @@
 
 - Rat pups in a nest, or a juvenile Norway rat where people find one (a garage, shed or yard), identified by an extension service, wildlife agency or museum; public domain or CC0
 
+## /blog/voles
+
+- Woodland (pine) vole in side view, identified by a state wildlife agency or extension service, showing its very short tail and soft brown fur, ideally beside a ruler marked in inches (public domain or CC0)
+- Vole runways crossing a residential lawn just after snowmelt: a wide view of the yard plus a close-up of one runway beside a ruler marked in inches (public domain or CC0)
+- Base of a young tree trunk or shrub with irregular patches of fresh vole gnaw marks, beside a ruler marked in inches, ideally with a runway or burrow opening at the base (public domain or CC0)
+
 ## /blog/baby-rats
 
 - Pink, hairless newborn rat pups with their eyes closed, in the wild nest where they were found (a burrow, wall void, attic or yard debris pile), with no hands in the frame and a coin or ruler for scale; identified by an extension service, museum or wildlife agency; public domain or CC0 so it could lead the page
@@ -551,6 +557,11 @@
 - Macro photo, top view, of an unfed adult female blacklegged tick, lone star tick and American dog tick side by side on a ruler marked in sixteenths of an inch, with a blacklegged nymph, a poppy seed and a sesame seed in the same frame for scale
 - Three-panel close-up, top view, of an adult female blacklegged tick (plain dark shield, reddish abdomen), an adult female American dog tick (whitish mottled shield) and an adult female lone star tick (single white spot), each with the adult male of the species beside it, all labeled
 
+## /blog/lone-star-tick
+
+- Unfed adult female and adult male lone star ticks side by side, top view, beside a ruler marked in inches or a US penny, identified by CDC, an extension service or an entomologist; public domain or CC0 so it could also serve as a share image
+- The STARI rash: a red, expanding rash around a confirmed lone star tick bite, from CDC or a university medical source, public domain or CC0, with its size and the days since the bite on record; placed low on the page
+
 ## /blog/venomous-spiders
 
 - Adult female red widow (Latrodectus bishopi) photographed in central Florida, side or top view showing the red legs, public domain or CC0
@@ -680,6 +691,12 @@
 - The flat, tangled web of a southern house spider spreading from a crack around a window frame, a shutter or a brick weep hole, with the opening of the silk-lined retreat visible; identified to species, public domain or CC0
 - Close-up of a male southern house spider's head from the front or above, sharp enough to show the eight eyes clumped on a raised turret and the spines on the legs, identified to species; public domain or CC0
 - Adult male southern house spider on an indoor floor or wall, ideally beside a ruler marked in inches, identified to species (research grade or by an expert); public domain or CC0, so it can count as a where-found photo
+
+## /blog/yellow-jackets
+
+- A southern yellowjacket queen (burnt orange) beside a yellow-and-black worker, or each photographed on its own in the eastern US, identified by an extension service or expert; public domain or CC0
+- Yellow jackets flying in and out of a gap in house siding or a crack at the base of a wall, photographed from a safe distance in a US yard and identified as yellowjackets by an expert; public domain or CC0
+- A yellowjacket hover fly (Milesia virginiensis) or another wasp-mimicking flower fly on a flower or on skin in the US, showing its single pair of wings and large eyes, identified by an expert; public domain or CC0
 
 ## /blog/wasp-nest-identification
 

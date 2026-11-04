@@ -1,5 +1,5 @@
-release: 3 scheduled page(s) go live (2026-10-31)
+release: 3 scheduled page(s) go live (2026-11-04)
 
-- /blog/how-to-get-rid-of-drain-flies
-- /blog/flea-bites
-- /blog/fruit-flies
+- /blog/lone-star-tick
+- /blog/yellow-jackets
+- /blog/voles
