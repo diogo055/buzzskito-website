@@ -100,10 +100,10 @@ Ranked by value-weighted extra clicks (`research_notes/God plan 10k a day/top3_p
 
 | # | Page | Main searches (position) | What to do |
 |---|---|---|---|
-| 0 | `/tools/bug-bite-identifier` | "bug bite identifier" US 10K-100K and **rising** (Trends); the tool barely shows today | Title and intro in the searcher's words, links from all 17 bite pages, photo examples. It's a tool, so Google can't answer it in a snippet |
+| 0 | `/tools/bug-bite-identifier` | "bug bite identifier" US 10K-100K and **rising** (Trends); the tool barely shows today | Title and intro in the searcher's words, links from all 17 bite pages, photo examples. It's a tool, so Google can't answer it in a snippet. **Done Nov 4** |
 | 1 | `/blog/best-rat-trap-canada` | rat trap (11), rat traps (8.6), rat zapper (11.2) | Electric "rat zapper" section, numbered picks, comparison table, pros/cons |
-| 2 | `/blog/best-mouse-trap-canada` | mouse traps (10-20) | Same pattern. **Allowed now** |
-| 3 | `/blog/mouse-repellent-canada` | nestoff mouse repellent (7.1, 1,150 in Oct) | NestOff section (label, evidence, what it can't do). **Allowed now** |
+| 2 | `/blog/best-mouse-trap-canada` | mouse traps (10-20) | Same pattern. **Done Nov 4** |
+| 3 | `/blog/mouse-repellent-canada` | nestoff mouse repellent (7.1, 1,150 in Oct) | NestOff section (label, evidence, what it can't do). **Done Nov 4** |
 | 4 | `/blog/best-fruit-fly-trap-canada` | fruit fly trap (11.7), best fruit fly trap (6.3) | Comparison table, DIY vs bought |
 | 5 | `/blog/advion-cockroach-gel-bait` | advion gel (10.7), cockroach gel bait canada (7.3) | Facts table, placement photos |
 | 6 | `/blog/what-do-fleas-look-like` | what do fleas look like (8.5, 4,188 in 28d) | Actual-size and macro photos first, look-alikes |
@@ -151,15 +151,15 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
 
 | # | Target search | Family | Volume and evidence | Notes |
 |---|---|---|---|---|
-| 1 | yellow jacket (+ vs wasp, vs hornet) | wasps / species | **US 100K-1M, CA 10K-100K**; 5,393 impressions already at position 8.8 | Planned Dec 14; build now so it ages before the August peak |
+| 1 | yellow jacket | wasps / species | **US 100K-1M, CA 10K-100K**; 5,393 impressions already at position 8.8 | **Live Nov 4.** The "vs wasp" and "vs hornet" searches stay with wasp-vs-hornet |
 | 2 | little black ants | ants / ID | Competitor Fox Pest gets ~8,300 visits from it | Link black-ants and tiny-ants both ways |
-| 3 | vole | mice and rats / species | ~101K US a month (Ahrefs), KD 11 | **Photo first** (PD/CC0) |
-| 4 | lone star tick (US edition) | ticks / species | Lone star tick bite searches US 10K-100K, **rising** (alpha-gal); Trends ~122K | Planned Dec 7; ticks peak in May, so it ages through spring |
+| 3 | vole | mice and rats / species | ~101K US a month (Ahrefs), KD 11 | **Live Nov 4** (US edition of the Canadian voles page) |
+| 4 | lone star tick (US edition) | ticks / species | Lone star tick bite searches US 10K-100K, **rising** (alpha-gal); Trends ~122K | **Live Nov 4** (US edition of the Canadian page) |
 | 5 | American cockroach | cockroaches / species | US 10K-100K, CA 1K-10K | |
-| 6 | types of wasps | wasps / ID chart | US ~17K (Ahrefs) | Wasp ID chart page |
+| 6 | types of wasps | wasps / ID chart | US ~17K (Ahrefs) | Wasp ID chart page. wasp-vs-hornet lists "types of wasps" (and "bee vs wasp") among its targets and is frozen until Dec 1: build after that and take the target off that page |
 | 7 | carpenter bee vs bumble bee | wasps / vs | Fox 2,600 visits | Planned Dec 14 |
 | 8 | roach droppings vs mouse droppings | droppings / vs | mouse droppings US 10K-100K; competitors 2,400 visits; winter | Link both droppings pages |
-| 9 | NestOff mouse repellent | product (Amazon) | Keyword Planner 10-100 a month, but Search Console 1,150 impressions in 28 days at position 7 with no page | Quick Amazon win; mice peak Oct-Nov |
+| 9 | NestOff mouse repellent | product (Amazon) | Keyword Planner 10-100 a month, but Search Console 1,150 impressions in 28 days at position 7 with no page | **Dropped Nov 4:** answered by the new NestOff section on mouse-repellent-canada (NestOff has no Canadian registration, so no buy link) |
 | 10 | signs of termites (+ mud tubes) | household / ID | ~8,600 US a month | Live by early March |
 
 **Then, in order:**
@@ -267,7 +267,36 @@ Ranked by expected clicks x value (`research_notes/God plan 10k a day/new_pages.
   - The highest bids are service searches ("mosquito control near me" up to CA$48 in the US, "tick control near me" CA$40), which supports the service-page rebuild and the US call test.
   - The stuck daily-indexing run stopped.
   - 11 pages requested in Search Console: flea-bites, baby-snakes, lovebugs, wood-roaches, bat-bugs, crazy-ants, skunk-smell-in-house, bugs-in-basement, baby-silverfish, the ant-control hub, and how-long-do-ants-live (fold).
-- **NEXT (first "go"):**
-  - Build #1-#3 (yellow jacket, little black ants, vole if a usable photo exists, otherwise lone star tick).
-  - Push #0 (bug bite identifier) and #2-#3 (mouse traps, mouse repellent: allowed now).
-  - Check the 9:10 indexing run.
+- **2026-11-04 (first "go", run the evening of Nov 3 Toronto time; commit `311ad344`):**
+  - **Built 3** (pace room was 3: 22 releases in the 7 days before). Each got a writer, an independent checker (record on file) and links in from live guides, and their records were amended:
+    - `/blog/yellow-jackets`: 3,076 words, 19 sources. Checker: 310 claims checked, 10 corrected, 13 softened. Re-aimed off "yellow jacket vs wasp" and "yellow jacket vs hornet", which wasp-vs-hornet owns (frozen until Dec 1). Title: "Yellow Jackets: ID, Ground Nests, Behavior". 6 live wasp guides already linked to it.
+    - `/blog/voles`: 2,848 words, 17 sources. Checker: 262 claims checked, 9 corrected, 9 softened; disclaimer "both". US edition of how-to-get-rid-of-voles-canada (REGIONAL_PAIRS, hreflang on the Canadian page, its affiliate tokens unchanged). Links in from field-mice, types-of-mice, pillar-mice and the shrews card; holes-in-yard's two vole links moved from the Canadian page to this one.
+    - `/blog/lone-star-tick`: 3,900 words, 20 sources. Checker: 511 claims checked, 11 corrected, 6 softened. US edition of lone-star-tick-alpha-gal-canada, paired the same way. Links in from tick-identification-chart (parent), what-do-ticks-look-like and seed-ticks, plus 5 state pages already.
+    - amazon.com picks: yellow jacket trap ("To trap queens in early spring": UC IPM says the common lure mainly catches western yellowjackets), mouse snap traps, permethrin clothing spray (0.5%).
+  - **Pushed 3** (baselines for the 4-6 week read, Search Console 28 days to Nov 3):
+    - #0 `/tools/bug-bite-identifier` (108 impressions, 0 clicks). Title is now "Bug Bite Identifier With Pictures: What Bit Me?". Bite pictures moved up under the red-flag box, the FAQ is open text, and one sourced FAQ was added ("Which bug bites look like pimples?"). Sitemap date Nov 4.
+    - #2 `best-mouse-trap-canada` (496, 3), about 1,285 words added:
+      - trap types compared (running cost, children and pets, Canadian rules);
+      - pros and cons by type;
+      - numbered picks;
+      - a registration FAQ;
+      - England's glue-trap ban corrected (in force July 31, 2024).
+    - #3 `mouse-repellent-canada` (3,932, 75; about 3,000 of those impressions are NestOff searches), about 1,627 words added:
+      - a NestOff section: active oils, no Canadian registration found, minimum-risk status in the US, 0 PubMed results, and the maker's own limits;
+      - an evidence-and-registry table by repellent type.
+    - Every Amazon element on both product pages is byte-identical (diffed), and both are in `ARTICLES_EXTENDED_NOV4`. Title unchanged; a NestOff title is a candidate for the next tested batch.
+  - **Found: a false legal claim, on more pages.** The repellent page said ultrasonic repellers need no Health Canada registration; it was fixed there.
+    - Under the Pest Control Products Regulations, s. 3(1)(a), a device is exempt only if it is not a type in Schedule 1 (read Nov 4 on laws-lois.justice.gc.ca). Schedule 1 covers devices that attract or destroy flying insects (item 2), sound, touch or electromagnetic repellers (item 3), and UV devices (item 7).
+    - Pages that say otherwise: ultrasonic-pest-repellers-do-they-work, best-commercial-fly-light-trap-canada, flowtron-bug-zapper-canada, best-mosquito-trap-for-acreage-canada, best-fruit-fly-trap-canada (in the Nov 6-20 read), probably electric-fly-swatter and other zapper and trap pages. This needs a sourced sweep.
+    - Owner calls from the same check: the capsaicin tape claim on mouse-repellent-canada (locked AwardRow text); "release mice 2 km away" vs Ontario's 1 km guidance on best-mouse-trap-canada; scent advice vs no registered essential-oil repellent.
+  - **Dropped:** build #9, the separate NestOff page. The repellent page's section answers it.
+  - **Indexing:** a catch-up run started at 00:55 UTC and hung on a Chrome `find` call, like the Oct 31 run. A hung run blocks the following days' runs. I stopped it and made the task prompt safer (clear the box with its X; stop if Chrome stops responding). The 6 URLs above sit at the top of the queue for the Nov 4 9:10 run.
+  - **Images plan, step 2 (weekend by device):** desktop image clicks on Oct 31-Nov 1 were 0.35x weekdays (prior weekends 0.14x), so the school pattern holds. The Nov 1 Search Console click jump is real: GA4 organic mobile sessions were 360, the high of the month. Nov 2 set records: 71 desktop image clicks, 29,826 desktop image impressions, 194 GA4 organic desktop sessions.
+- **NEXT "go" (Nov 5: pace room 10, because Oct 29's 19 releases leave the 7-day window):**
+  - **Indexing:** check the 9:10 run with `list_task_runs`. Stop it if it shows "running" with old activity, and do the batch in Chrome by hand.
+  - **Plan entries first** (extra-pages.json + taxonomy collisions) for little black ants (#2), American cockroach (#5), roach vs mouse droppings (#8) and signs of termites (#10). Signs of termites must be checked against the live termite-damage, termite-droppings and what-do-termites-look-like pages.
+    - carpenter-bee-vs-bumble-bee (#7) is already planned (Dec 14): move it to the day.
+    - snake-poop is planned but waits for a photo.
+    - Then build them, most powerful first.
+  - **Push** #1 (best-rat-trap-canada), #4 (best-fruit-fly-trap-canada: locked until Nov 20, so skip it), #5 (advion-cockroach-gel-bait) and #6 (what-do-fleas-look-like). Check each against the Nov 6-20 read list first.
+  - **Offer the owner the device-registration sweep** (above) as its own session.
